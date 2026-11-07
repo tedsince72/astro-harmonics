@@ -1,0 +1,2225 @@
+# Stage 2 layers: race_batch_20220121_lingfield_1350_jupiter_tables.xlsx
+Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_layers.py).
+
+## L0 field
+- In the tables workbook (7): 1 Eclair D'Ainay / Harry Skelton; 2 Financier / Richard Patrick; 3 Frero Banbou / Charlie Deutsch; 4 One True King / Sam Twiston-Davies; 5 Cedar Hill / Jonathan Burke; 6 Le Ligerien / Ben Jones; 7 Beaufort West / Page Fuller
+- _active.xlsx not found: runners not checked against it
+- Cloth numbers not in the tables workbook: none
+
+## Sky (noted lines)
+- S Jupiter → Pallas Dec 0.1900 conj (13.44)
+- S Jupiter → Orcus RA 179.6087 111×φ golden (61.81)
+- S Jupiter → Gonggong RA 0.3439 conj (59.41)
+- S Jupiter → Scheat Dec 38.8362 24×φ golden (80.40)
+- S Sun → Al Rescha Dec 22.6574 14×φ golden (71.84)
+- S Sun → Pleiades Dec 44.0004 44 whole (96.38)
+- S Sun → Galactic Centre RA 37.0023 37 whole (77.89)
+- S Sun → Fomalhaut RA 40.9968 41 whole (70.51)
+- S Sun → Ketu Dec 0.0774 conj (55.07)
+- S Moon → Gonggong RA 170.9993 171 whole (93.54)
+- S Moon → Transpluto Dec 0.2980 conj (0.00)
+- S Moon → Mirach RA 147.9983 148 whole (84.01)
+- S Moon → Rigel Dec 18.8804 18.8889 ninth (93.87)
+- S Moon → Alhena RA 65.9978 66 whole (78.94)
+- S Moon → Castor RA 51.7767 32×φ golden (97.46)
+- S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)
+- S Moon → Alkes RA 0.4866 conj (45.64)
+- S Moon → Vindemiatrix Dec 0.2800 conj (0.44)
+- S Moon → Sualocin RA 144.4728 144.444 ninth (97.00)
+- S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)
+- S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)
+- Hubs: Gonggong, Scheat
+
+## 1 Eclair D'Ainay / Harry Skelton
+### L1 same bodies
+- S Pluto → H Pluto RA 14.4543 14.4444 ninth (loose)
+- S Sedna → H Sedna RA 4.1479 4.14 silver (loose)
+- S Haumea → H Haumea Dec 3.2304 2×φ golden (loose)
+- S Transpluto → H Transpluto Dec 1.2219 1.22222 ninth (loose)
+- S Mercury → J Mercury RA 122.4232 122.222 ninth (loose)
+- S Mercury → J Mercury Dec 10.0129 10 whole (12.50)
+- S Mars → J Mars Dec 24.2671 15×φ golden (loose)
+- S Jupiter → J Jupiter RA 122.6607 122.222 ninth (loose)
+- S Rahu → J Rahu Dec 32.9868 33 whole (11.53)
+- S Sedna → J Sedna Dec 3.9959 4 whole (62.95)
+- S Haumea → J Haumea RA 30.7414 19×φ golden (92.20)
+- S Ketu → J Ketu Dec 32.9868 33 whole (11.53)
+### L2 what lands on each same body
+- **H Pluto** (same body: S Pluto → H Pluto RA 14.4543 14.4444 ninth (loose))
+  - top rows: S Sun → H Pluto Dec 0.2180 conj (7.47) [Sun]
+  - star rows: H Castor → H Pluto Dec 52.0014 52 whole (86.34) [Moon]
+  - star rows: H Galactic Centre → H Pluto RA 17.7991 11×φ golden (95.54) [Sun]
+  - other chart, star rows: J Al Rescha → J Pluto Dec 4.0075 4 whole (39.13) [Sun]
+- **H Sedna** (same body: S Sedna → H Sedna RA 4.1479 4.14 silver (loose))
+  - other chart, same body: S Sedna → J Sedna Dec 3.9959 4 whole (62.95)
+  - other chart, star rows: J Rigel → J Sedna Dec 12.2230 12.2222 ninth (98.86) [Moon]
+- **H Haumea** (same body: S Haumea → H Haumea Dec 3.2304 2×φ golden (loose))
+  - top rows: S Jupiter → H Haumea Dec 29.0369 φ^7 phi power (96.69) [Jupiter]
+  - other chart, same body: S Haumea → J Haumea RA 30.7414 19×φ golden (92.20)
+  - other chart, top rows: S Jupiter → J Haumea RA 150.0012 150 whole (88.05) [Jupiter]
+- **H Transpluto** (same body: S Transpluto → H Transpluto Dec 1.2219 1.22222 ninth (loose))
+  - body line: S Moon → Transpluto Dec 0.2980 conj (0.00)
+  - star rows: H Mirach → H Transpluto Dec 24.0167 24 whole (2.78) [Moon]
+  - star rows: H Regulus → H Transpluto RA 0.3551 conj (58.25) [Moon]
+  - other chart, top rows: S Sun → J Transpluto RA 159.0005 159 whole (94.60) [Sun]
+  - other chart, star rows: J Alhena → J Transpluto RA 44.9863 45 whole (9.78) [Moon]
+  - other chart, star rows: J Fomalhaut → J Transpluto RA 159.9958 160 whole (62.48) [Sun]
+  - other chart, star rows: J Galactic Centre → J Transpluto RA 122.0035 122 whole (68.33) [Sun]
+- **J Mercury** (same body: S Mercury → J Mercury RA 122.4232 122.222 ninth (loose); S Mercury → J Mercury Dec 10.0129 10 whole (12.50))
+  - star rows: J Regulus → J Mercury Dec 18.0130 18 whole (12.15) [Moon]
+  - star rows: J Vindemiatrix → J Mercury Dec 17.0057 17 whole (51.12) [Moon]
+  - other chart, top rows: S Moon → H Mercury RA 133.3468 133.333 ninth (98.38) [Moon]
+  - other chart, star rows: H Alkes → H Mercury Dec 30.7473 19×φ golden (73.26) [Moon]
+  - other chart, star rows: H Fomalhaut → H Mercury Dec 42.0684 26×φ golden (97.08) [Sun]
+  - other chart, star rows: H Regulus → H Mercury RA 120.0097 120 whole (26.39) [Moon]
+- **J Mars** (same body: S Mars → J Mars Dec 24.2671 15×φ golden (loose))
+  - star rows: J Al Rescha → J Mars RA 150.4766 93×φ golden (96.57) [Sun]
+  - star rows: J Fomalhaut → J Mars RA 163.4247 101×φ golden (80.71) [Sun]
+  - star rows: J Sadalmelik → J Mars RA 150.4579 93×φ golden (16.37) [Moon]
+  - other chart, top rows: S Sun → H Mars RA 110.9559 10×φ^5 phi power (81.41) [Sun]
+  - other chart, star rows: H Sadalmelik → H Mars RA 138.9860 139 whole (9.05) [Moon]
+  - other chart, star rows: H Sadalmelik → H Mars Dec 3.0193 3 whole (0.14) [Moon]
+- **J Jupiter** (same body: S Jupiter → J Jupiter RA 122.6607 122.222 ninth (loose))
+  - top rows: S Moon → J Jupiter RA 65.9961 66 whole (64.92) [Jupiter, Moon]
+  - top rows: S Ceres → J Jupiter Dec 4.0008 4 whole (92.00) [Jupiter]
+  - top rows: S Gonggong → J Jupiter RA 123.0045 123 whole (59.74) [Jupiter, Moon]
+  - top rows: S Ketu → J Jupiter RA 137.5308 85×φ golden (87.54) [Jupiter, Sun]
+  - star rows: S Alhena → J Jupiter RA 0.0017 conj (99.78) [Moon]
+  - star rows: S Castor → J Jupiter Dec 9.0175 9 whole (1.61) [Moon]
+  - star rows: J Fomalhaut → J Jupiter RA 115.0179 115 whole (1.12) [Sun]
+  - star rows: J Galactic Centre → J Jupiter RA 166.9814 167 whole (0.48) [Sun]
+  - star rows: S Mirach → J Jupiter RA 82.0022 82 whole (79.06) [Moon]
+  - star rows: S Sadalmelik → J Jupiter RA 127.9938 128 whole (47.91) [Moon]
+  - other chart, top rows: S Quaoar → H Jupiter RA 171.0047 171 whole (58.49) [Jupiter]
+  - other chart, star rows: H Castor → H Jupiter Dec 8.8888 8.88889 ninth (99.50) [Moon]
+  - other chart, star rows: S Galactic Centre → H Jupiter Dec 52.0075 52 whole (39.25) [Sun]
+- **J Rahu** (same body: S Rahu → J Rahu Dec 32.9868 33 whole (11.53))
+  - star rows: J Galactic Centre → J Rahu Dec 15.9935 16 whole (45.33) [Sun]
+  - star rows: J Regulus → J Rahu Dec 24.9838 25 whole (3.60) [Moon]
+  - other chart, top rows: S Jupiter → H Rahu Dec 0.0792 conj (54.15) [Jupiter]
+  - other chart, star rows: H Alhena → H Rahu RA 106.7631 66×φ golden (2.58) [Moon]
+- **J Sedna** (same body: S Sedna → J Sedna Dec 3.9959 4 whole (62.95))
+  - star rows: J Rigel → J Sedna Dec 12.2230 12.2222 ninth (98.86) [Moon]
+  - other chart, same body: S Sedna → H Sedna RA 4.1479 4.14 silver (loose)
+- **J Haumea** (same body: S Haumea → J Haumea RA 30.7414 19×φ golden (92.20))
+  - top rows: S Jupiter → J Haumea RA 150.0012 150 whole (88.05) [Jupiter]
+  - other chart, same body: S Haumea → H Haumea Dec 3.2304 2×φ golden (loose)
+  - other chart, top rows: S Jupiter → H Haumea Dec 29.0369 φ^7 phi power (96.69) [Jupiter]
+- **J Ketu** (same body: S Ketu → J Ketu Dec 32.9868 33 whole (11.53))
+  - body line: S Sun → Ketu Dec 0.0774 conj (55.07)
+  - star rows: J Pleiades → J Ketu Dec 11.0907 φ^5 phi power (98.25) [Sun]
+  - star rows: J Sadalmelik → J Ketu RA 176.3341 109×φ golden (0.05) [Moon]
+  - star rows: J Sadalmelik → J Ketu Dec 13.3324 13.3333 ninth (98.94) [Moon]
+  - star rows: J Scheat → J Ketu RA 161.8359 100×φ^1 phi power (92.12) [Jupiter, Moon]
+  - other chart, top rows: S Moon → H Ketu Dec 0.1538 conj (23.74) [Moon]
+  - other chart, star rows: H Fomalhaut → H Ketu Dec 40.4533 25×φ golden (85.39) [Sun]
+  - other chart, star rows: H Vindemiatrix → H Ketu Dec 0.1269 conj (33.29) [Moon]
+### L3 the seven cases (L5 field tag on each)
+- **1. same body on both charts**
+  - Sedna — only
+    - S Sedna → H Sedna RA 4.1479 4.14 silver (loose)
+    - S Sedna → J Sedna Dec 3.9959 4 whole (62.95)
+  - Haumea — only
+    - S Haumea → H Haumea Dec 3.2304 2×φ golden (loose)
+    - S Haumea → J Haumea RA 30.7414 19×φ golden (92.20)
+- **2. one body in both planes**
+  - J Mercury — only
+    - S Mercury → J Mercury RA 122.4232 122.222 ninth (loose)
+    - S Mercury → J Mercury Dec 10.0129 10 whole (12.50)
+- **3. runner number = sky number**
+  - 171 whole — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch
+    - S Quaoar → H Jupiter RA 171.0047 171 whole (58.49) = S Moon → Gonggong RA 170.9993 171 whole (93.54)
+  - 66 whole — also: 4 One True King / Sam Twiston-Davies, 7 Beaufort West / Page Fuller
+    - S Moon → J Jupiter RA 65.9961 66 whole (64.92) = S Moon → Alhena RA 65.9978 66 whole (78.94)
+  - 11 whole — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+    - J Pleiades → J Makemake Dec 11.0036 11 whole (67.32) = S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)
+  - 13.3333 ninth — also: 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 7 Beaufort West / Page Fuller
+    - J Sadalmelik → J Ketu Dec 13.3324 13.3333 ninth (98.94) = S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)
+- **4. circle divisions**
+  - 180 = 360/2 — also: 2 Financier / Richard Patrick
+    - S Moon → H Chiron RA 179.9968 180 whole (70.40)
+  - 2 = 360/180 — also: 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones
+    - H Al Rescha → H Uranus Dec 1.9946 2 whole (53.10)
+  - 1 = 360/360 — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+    - H Al Rescha → H Ceres Dec 1.0000 1 whole (99.56)
+  - 10 = 360/36 — also: 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
+    - S Mercury → J Mercury Dec 10.0129 10 whole (12.50)
+  - 4 = 360/90 — also: 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones
+    - S Sedna → J Sedna Dec 3.9959 4 whole (62.95)
+  - 5 = 360/72 — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+    - S Jupiter → J Venus Dec 4.9954 5 whole (59.47)
+  - 4 = 360/90 — also: 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones
+    - S Ceres → J Jupiter Dec 4.0008 4 whole (92.00)
+- **5. same number in more than one place**
+  - 8.88889 ninth — only
+    - H Jupiter → H star Castor Dec 8.8888 8.88889 ninth (99.50)
+    - H Castor → H Jupiter Dec 8.8888 8.88889 ninth (99.50)
+  - 133.333 ninth — also: 7 Beaufort West / Page Fuller
+    - S Jupiter → H Vesta RA 133.3106 133.333 ninth (97.27)
+    - S Moon → H Mercury RA 133.3468 133.333 ninth (98.38)
+    - J Pleiades → J Juno RA 133.3040 133.333 ninth (96.47)
+    - J Vindemiatrix → J Gonggong RA 133.3963 133.333 ninth (92.45)
+  - 19×φ golden — only
+    - H Alkes → H Mercury Dec 30.7473 19×φ golden (73.26)
+    - S Haumea → J Haumea RA 30.7414 19×φ golden (92.20)
+    - J Jupiter → J Pallas Dec 30.7412 19×φ golden (91.27)
+  - 122.222 ninth — also: 6 Le Ligerien / Ben Jones
+    - S Mercury → J Mercury RA 122.4232 122.222 ninth (loose)
+    - S Jupiter → J Jupiter RA 122.6607 122.222 ninth (loose)
+  - 15×φ golden — also: 4 One True King / Sam Twiston-Davies
+    - S Mars → J Mars Dec 24.2671 15×φ golden (loose)
+    - J Alhena → J Pallas Dec 24.2722 15×φ golden (89.89)
+  - 33 whole — only
+    - S Rahu → J Rahu Dec 32.9868 33 whole (11.53)
+    - S Ketu → J Ketu Dec 32.9868 33 whole (11.53)
+  - 4 whole — also: 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies
+    - S Sedna → J Sedna Dec 3.9959 4 whole (62.95)
+    - S Ceres → J Jupiter Dec 4.0008 4 whole (92.00)
+  - 82 whole — only
+    - J Jupiter → J star Mirach RA 81.9968 82 whole (70.94)
+    - S Mirach → J Jupiter RA 82.0022 82 whole (79.06)
+- **6. star and sky line on one body**
+  - H Quaoar on Galactic Centre — only
+    - H Galactic Centre → H Quaoar RA 0.0625 conj (91.84)
+    - S Moon → H Quaoar Dec 26.1837 10×φ^2 phi power (94.99)
+  - J Jupiter on Alhena — only
+    - S Alhena → J Jupiter RA 0.0017 conj (99.78)
+    - S Moon → J Jupiter RA 65.9961 66 whole (64.92)
+- **7. centres meeting**
+  - Transpluto: Moon, Sun — also: 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones
+    - [Moon] S Transpluto → H Transpluto Dec 1.2219 1.22222 ninth (loose)
+    - [Moon] H Mirach → H Transpluto Dec 24.0167 24 whole (2.78)
+    - [Moon] H Regulus → H Transpluto RA 0.3551 conj (58.25)
+    - [Moon] J Alhena → J Transpluto RA 44.9863 45 whole (9.78)
+    - [Sun] S Sun → J Transpluto RA 159.0005 159 whole (94.60)
+    - [Sun] J Fomalhaut → J Transpluto RA 159.9958 160 whole (62.48)
+    - [Sun] J Galactic Centre → J Transpluto RA 122.0035 122 whole (68.33)
+  - Venus: Jupiter, Moon — only
+    - [Jupiter] S Jupiter → H Venus RA 15.5508 15.5556 ninth (95.52)
+    - [Jupiter] S Jupiter → J Venus Dec 4.9954 5 whole (59.47)
+    - [Moon] H Castor → H Venus RA 121.3218 75×φ golden (0.24)
+    - [Moon] H Mirach → H Venus Dec 39.9874 40 whole (13.51)
+    - [Moon] J Rigel → J Venus RA 137.9904 138 whole (27.24)
+  - Rahu: Jupiter, Moon, Sun — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 7 Beaufort West / Page Fuller
+    - [Jupiter] S Jupiter → H Rahu Dec 0.0792 conj (54.15)
+    - [Moon] H Alhena → H Rahu RA 106.7631 66×φ golden (2.58)
+    - [Moon] J Regulus → J Rahu Dec 24.9838 25 whole (3.60)
+    - [Sun] J Galactic Centre → J Rahu Dec 15.9935 16 whole (45.33)
+  - Gonggong: Jupiter, Moon — only
+    - [Jupiter] S Jupiter → H Gonggong RA 1.0610 conj (8.57)
+    - [Jupiter] J Scheat → J Gonggong RA 17.0125 17 whole (14.21)
+    - [Moon] H Castor → H Gonggong Dec 44.9811 45 whole (0.31)
+    - [Moon] H Regulus → H Gonggong RA 176.3807 109×φ golden (28.83)
+    - [Moon] H Sualocin → H Gonggong Dec 29.0011 29 whole (89.05)
+    - [Moon] J Alkes → J Gonggong RA 163.9965 164 whole (67.89)
+    - [Moon] J Scheat → J Gonggong RA 17.0125 17 whole (14.21)
+    - [Moon] J Vindemiatrix → J Gonggong RA 133.3963 133.333 ninth (92.45)
+  - Mars: Moon, Sun — also: 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones
+    - [Moon] H Sadalmelik → H Mars RA 138.9860 139 whole (9.05)
+    - [Moon] H Sadalmelik → H Mars Dec 3.0193 3 whole (0.14)
+    - [Moon] J Sadalmelik → J Mars RA 150.4579 93×φ golden (16.37)
+    - [Sun] S Sun → H Mars RA 110.9559 10×φ^5 phi power (81.41)
+    - [Sun] J Al Rescha → J Mars RA 150.4766 93×φ golden (96.57)
+    - [Sun] J Fomalhaut → J Mars RA 163.4247 101×φ golden (80.71)
+  - Pluto: Moon, Sun — also: 2 Financier / Richard Patrick, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+    - [Moon] H Castor → H Pluto Dec 52.0014 52 whole (86.34)
+    - [Sun] S Sun → H Pluto Dec 0.2180 conj (7.47)
+    - [Sun] H Galactic Centre → H Pluto RA 17.7991 11×φ golden (95.54)
+    - [Sun] J Al Rescha → J Pluto Dec 4.0075 4 whole (39.13)
+  - Mercury: Moon, Sun — also: 3 Frero Banbou / Charlie Deutsch
+    - [Moon] S Moon → H Mercury RA 133.3468 133.333 ninth (98.38)
+    - [Moon] H Alkes → H Mercury Dec 30.7473 19×φ golden (73.26)
+    - [Moon] H Regulus → H Mercury RA 120.0097 120 whole (26.39)
+    - [Moon] J Regulus → J Mercury Dec 18.0130 18 whole (12.15)
+    - [Moon] J Vindemiatrix → J Mercury Dec 17.0057 17 whole (51.12)
+    - [Sun] H Fomalhaut → H Mercury Dec 42.0684 26×φ golden (97.08)
+  - Chiron: Jupiter, Moon, Sun — also: 2 Financier / Richard Patrick, 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
+    - [Jupiter] H Scheat → H Chiron RA 0.5061 conj (43.91)
+    - [Moon] S Moon → H Chiron RA 179.9968 180 whole (70.40)
+    - [Moon] H Alhena → H Chiron RA 113.9909 114 whole (29.88)
+    - [Moon] H Mirach → H Chiron RA 31.9932 32 whole (43.36)
+    - [Moon] H Regulus → H Chiron RA 166.6597 166.667 ninth (99.40)
+    - [Moon] H Regulus → H Chiron Dec 12.9992 13 whole (92.18)
+    - [Moon] H Sadalmelik → H Chiron RA 13.9907 14 whole (28.78)
+    - [Moon] H Scheat → H Chiron RA 0.5061 conj (43.91)
+    - [Moon] H Vindemiatrix → H Chiron Dec 11.9906 12 whole (27.92)
+    - [Moon] J Alhena → J Chiron Dec 0.2769 conj (0.59)
+    - [Moon] J Sualocin → J Chiron Dec 0.2080 conj (9.40)
+    - [Sun] H Fomalhaut → H Chiron RA 1.0241 conj (10.07)
+    - [Sun] H Galactic Centre → H Chiron RA 79.0139 79 whole (9.41)
+    - [Sun] J Pleiades → J Chiron Dec 7.9822 8 whole (1.23)
+  - Pallas: Jupiter, Moon, Sun — also: 2 Financier / Richard Patrick
+    - [Jupiter] J Jupiter → J Pallas Dec 30.7412 19×φ golden (91.27)
+    - [Moon] S Moon → H Pallas Dec 0.1378 conj (29.22)
+    - [Moon] J Alhena → J Pallas Dec 24.2722 15×φ golden (89.89)
+    - [Moon] J Regulus → J Pallas RA 137.5605 85×φ golden (2.14)
+    - [Moon] J Vindemiatrix → J Pallas RA 178.9885 179 whole (18.10)
+    - [Sun] H Al Rescha → H Pallas Dec 7.7774 7.77778 ninth (96.82)
+    - [Sun] J Al Rescha → J Pallas RA 15.9876 16 whole (14.31)
+  - Quaoar: Moon, Sun — also: 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+    - [Moon] S Moon → H Quaoar Dec 26.1837 10×φ^2 phi power (94.99)
+    - [Moon] J Castor → J Quaoar Dec 45.0159 45 whole (4.20)
+    - [Moon] J Rigel → J Quaoar RA 153.7148 95×φ golden (90.48)
+    - [Sun] H Galactic Centre → H Quaoar RA 0.0625 conj (91.84)
+  - Ketu: Jupiter, Moon, Sun — also: 2 Financier / Richard Patrick
+    - [Jupiter] J Scheat → J Ketu RA 161.8359 100×φ^1 phi power (92.12)
+    - [Moon] S Moon → H Ketu Dec 0.1538 conj (23.74)
+    - [Moon] H Vindemiatrix → H Ketu Dec 0.1269 conj (33.29)
+    - [Moon] J Sadalmelik → J Ketu RA 176.3341 109×φ golden (0.05)
+    - [Moon] J Sadalmelik → J Ketu Dec 13.3324 13.3333 ninth (98.94)
+    - [Moon] J Scheat → J Ketu RA 161.8359 100×φ^1 phi power (92.12)
+    - [Sun] H Fomalhaut → H Ketu Dec 40.4533 25×φ golden (85.39)
+    - [Sun] S Ketu → J Ketu Dec 32.9868 33 whole (11.53)
+    - [Sun] J Pleiades → J Ketu Dec 11.0907 φ^5 phi power (98.25)
+  - Jupiter: Jupiter, Moon, Sun — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+    - [Jupiter] S Quaoar → H Jupiter RA 171.0047 171 whole (58.49)
+    - [Jupiter] S Moon → J Jupiter RA 65.9961 66 whole (64.92)
+    - [Jupiter] S Ceres → J Jupiter Dec 4.0008 4 whole (92.00)
+    - [Jupiter] S Gonggong → J Jupiter RA 123.0045 123 whole (59.74)
+    - [Jupiter] S Ketu → J Jupiter RA 137.5308 85×φ golden (87.54)
+    - [Moon] H Castor → H Jupiter Dec 8.8888 8.88889 ninth (99.50)
+    - [Moon] S Moon → J Jupiter RA 65.9961 66 whole (64.92)
+    - [Moon] S Gonggong → J Jupiter RA 123.0045 123 whole (59.74)
+    - [Moon] S Alhena → J Jupiter RA 0.0017 conj (99.78)
+    - [Moon] S Castor → J Jupiter Dec 9.0175 9 whole (1.61)
+    - [Moon] S Mirach → J Jupiter RA 82.0022 82 whole (79.06)
+    - [Moon] S Sadalmelik → J Jupiter RA 127.9938 128 whole (47.91)
+    - [Sun] S Galactic Centre → H Jupiter Dec 52.0075 52 whole (39.25)
+    - [Sun] S Ketu → J Jupiter RA 137.5308 85×φ golden (87.54)
+    - [Sun] J Fomalhaut → J Jupiter RA 115.0179 115 whole (1.12)
+    - [Sun] J Galactic Centre → J Jupiter RA 166.9814 167 whole (0.48)
+  - Uranus: Moon, Sun — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+    - [Moon] J Castor → J Uranus RA 158.0174 158 whole (1.65)
+    - [Sun] H Al Rescha → H Uranus RA 17.7708 17.7778 ninth (94.58)
+    - [Sun] H Al Rescha → H Uranus Dec 1.9946 2 whole (53.10)
+  - Ceres: Jupiter, Moon, Sun — also: 2 Financier / Richard Patrick, 5 Cedar Hill / Jonathan Burke
+    - [Jupiter] J Scheat → J Ceres RA 104.0173 104 whole (1.84)
+    - [Moon] J Scheat → J Ceres RA 104.0173 104 whole (1.84)
+    - [Sun] H Al Rescha → H Ceres Dec 1.0000 1 whole (99.56)
+  - Juno: Moon, Sun — also: 2 Financier / Richard Patrick, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+    - [Moon] H Alkes → H Juno RA 135.9811 136 whole (0.28)
+    - [Moon] J Rigel → J Juno Dec 8.0172 8 whole (2.00)
+    - [Moon] J Sadalmelik → J Juno Dec 0.1361 conj (29.86)
+    - [Moon] J Sualocin → J Juno RA 119.7349 74×φ golden (97.50)
+    - [Sun] J Pleiades → J Juno RA 133.3040 133.333 ninth (96.47)
+  - Eris: Moon, Sun — also: 2 Financier / Richard Patrick
+    - [Moon] H Castor → H Eris Dec 34.9823 35 whole (1.27)
+    - [Moon] H Sadalmelik → H Eris RA 54.0114 54 whole (18.29)
+    - [Moon] H Sualocin → H Eris Dec 19.0023 19 whole (78.54)
+    - [Moon] J Alhena → J Eris Dec 25.9946 26 whole (53.09)
+    - [Moon] J Alkes → J Eris RA 142.3814 88×φ golden (68.48)
+    - [Moon] J Vindemiatrix → J Eris RA 172.9816 173 whole (0.67)
+    - [Sun] J Galactic Centre → J Eris Dec 19.4139 12×φ golden (85.27)
+  - Neptune: Moon, Sun — only
+    - [Moon] J Rigel → J Neptune Dec 13.9880 14 whole (15.94)
+    - [Moon] J Vindemiatrix → J Neptune RA 84.9966 85 whole (68.95)
+    - [Sun] H Fomalhaut → H Neptune Dec 19.9810 20 whole (0.26)
+  - Orcus: Jupiter, Moon — also: 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
+    - [Jupiter] H Scheat → H Orcus RA 162.9829 163 whole (2.04)
+    - [Moon] H Scheat → H Orcus RA 162.9829 163 whole (2.04)
+    - [Moon] H Sualocin → H Orcus RA 160.9860 161 whole (8.88)
+    - [Moon] J Sadalmelik → J Orcus RA 158.5431 98×φ golden (6.34)
+  - Makemake: Moon, Sun — also: 5 Cedar Hill / Jonathan Burke
+    - [Moon] J Vindemiatrix → J Makemake Dec 24.1475 24.14 silver (91.29)
+    - [Sun] S Sun → J Makemake Dec 55.0037 55 whole (66.63)
+    - [Sun] J Fomalhaut → J Makemake Dec 64.7296 40×φ golden (55.76)
+    - [Sun] J Pleiades → J Makemake Dec 11.0036 11 whole (67.32)
+
+## 2 Financier / Richard Patrick
+### L1 same bodies
+- S Sun → H Sun RA 61.0020 61 whole (80.77)
+- S Mercury → H Mercury Dec 6.9870 7 whole (12.28)
+- S Venus → H Venus Dec 16.6048 16.6667 ninth (loose)
+- S Jupiter → H Jupiter Dec 32.3846 20×φ golden (loose)
+- S Uranus → H Uranus Dec 12.0033 12 whole (69.56)
+- S Neptune → H Neptune Dec 6.0143 6 whole (8.23)
+- S Pluto → H Pluto RA 16.6706 16.6667 ninth (loose)
+- S Rahu → H Rahu RA 167.9826 168 whole (1.66)
+- S Rahu → H Rahu Dec 37.0000 37 whole (99.61)
+- S Sedna → H Sedna RA 5.0152 5 whole (5.87)
+- S Quaoar → H Quaoar RA 11.0198 11 whole (0.02)
+- S Ketu → H Ketu RA 167.9826 168 whole (1.66)
+- S Ketu → H Ketu Dec 37.0000 37 whole (99.61)
+- S Sun → J Sun Dec 17.9253 φ^6 phi power (loose)
+- S Uranus → J Uranus Dec 35.9819 36 whole (0.87)
+- S Pluto → J Pluto Dec 15.5312 15.5556 ninth (loose)
+- S Pallas → J Pallas Dec 9.9729 10 whole (loose)
+- S Makemake → J Makemake RA 24.1381 24.14 silver (loose)
+- S Gonggong → J Gonggong RA 5.9767 6 whole (loose)
+### L2 what lands on each same body
+- **H Sun** (same body: S Sun → H Sun RA 61.0020 61 whole (80.77))
+  - top rows: S Sun → H Sun RA 61.0020 61 whole (80.77) [Sun]
+  - star rows: H Alhena → H Sun RA 95.0128 95 whole (13.10) [Moon]
+  - star rows: H Fomalhaut → H Sun RA 20.0072 20 whole (40.69) [Sun]
+  - star rows: H Galactic Centre → H Sun RA 97.9981 98 whole (82.02) [Sun]
+  - star rows: H Mirach → H Sun RA 13.0119 13 whole (16.51) [Moon]
+  - star rows: H Sualocin → H Sun Dec 13.9993 14 whole (93.10) [Moon]
+  - other chart, same body: S Sun → J Sun Dec 17.9253 φ^6 phi power (loose)
+  - other chart, star rows: J Vindemiatrix → J Sun RA 10.9954 11 whole (59.19) [Moon]
+- **H Mercury** (same body: S Mercury → H Mercury Dec 6.9870 7 whole (12.28))
+  - star rows: H Alkes → H Mercury RA 174.9812 175 whole (0.39) [Moon]
+  - star rows: H Regulus → H Mercury Dec 21.0356 13×φ golden (92.89) [Moon]
+  - star rows: H Rigel → H Mercury RA 98.7049 61×φ golden (72.65) [Moon]
+  - star rows: H Scheat → H Mercury RA 6.0106 6 whole (22.24) [Jupiter, Moon]
+  - other chart, star rows: J Mirach → J Mercury RA 177.7992 177.778 ninth (98.32) [Moon]
+  - other chart, star rows: J Vindemiatrix → J Mercury RA 0.3011 conj (63.89) [Moon]
+- **H Venus** (same body: S Venus → H Venus Dec 16.6048 16.6667 ninth (loose))
+  - star rows: H Rigel → H Venus RA 74.4200 46×φ golden (49.69) [Moon]
+  - other chart, star rows: J Vindemiatrix → J Venus RA 0.9976 1 whole (77.61) [Moon]
+- **H Jupiter** (same body: S Jupiter → H Jupiter Dec 32.3846 20×φ golden (loose))
+  - top rows: S Chiron → H Jupiter RA 62.0057 62 whole (50.79) [Jupiter]
+  - star rows: S Mirach → H Jupiter Dec 13.9892 14 whole (21.09) [Moon]
+  - star rows: H Pleiades → H Jupiter RA 12.2259 12.2222 ninth (94.86) [Sun]
+  - star rows: S Regulus → H Jupiter RA 83.0025 83 whole (76.74) [Moon]
+  - other chart, top rows: S Vesta → J Jupiter Dec 0.0140 conj (90.89) [Jupiter]
+  - other chart, star rows: S Pleiades → J Jupiter RA 168.3000 104×φ golden (5.95) [Sun]
+- **H Uranus** (same body: S Uranus → H Uranus Dec 12.0033 12 whole (69.56))
+  - star rows: H Al Rescha → H Uranus Dec 0.1658 conj (20.01) [Sun]
+  - other chart, same body: S Uranus → J Uranus Dec 35.9819 36 whole (0.87)
+  - other chart, top rows: S Moon → J Uranus RA 133.3199 133.333 ninth (98.39) [Moon]
+  - other chart, star rows: J Al Rescha → J Uranus Dec 24.1487 24.14 silver (89.49) [Sun]
+  - other chart, star rows: J Mirach → J Uranus Dec 57.0047 57 whole (58.52) [Moon]
+  - other chart, star rows: J Pleiades → J Uranus RA 118.1235 73×φ golden (61.35) [Sun]
+- **H Neptune** (same body: S Neptune → H Neptune Dec 6.0143 6 whole (8.23))
+  - top rows: S Jupiter → H Neptune RA 0.8306 conj (19.91) [Jupiter]
+  - top rows: S Jupiter → H Neptune Dec 0.0655 conj (61.10) [Jupiter]
+  - star rows: H Alkes → H Neptune RA 170.9969 171 whole (71.73) [Moon]
+  - star rows: H Regulus → H Neptune Dec 22.6517 14×φ golden (95.42) [Moon]
+  - star rows: H Scheat → H Neptune RA 9.9949 10 whole (55.30) [Jupiter, Moon]
+- **H Pluto** (same body: S Pluto → H Pluto RA 16.6706 16.6667 ninth (loose))
+  - top rows: S Sun → H Pluto Dec 0.2068 conj (9.66) [Sun]
+  - star rows: H Sualocin → H Pluto Dec 35.5966 22×φ golden (98.96) [Moon]
+  - other chart, same body: S Pluto → J Pluto Dec 15.5312 15.5556 ninth (loose)
+  - other chart, star rows: J Fomalhaut → J Pluto RA 105.1946 65×φ golden (9.41) [Sun]
+  - other chart, star rows: J Sadalmelik → J Pluto RA 92.2271 57×φ golden (94.89) [Moon]
+  - other chart, star rows: J Sualocin → J Pluto Dec 22.9966 23 whole (68.80) [Moon]
+  - other chart, star rows: J Vindemiatrix → J Pluto RA 43.6838 27×φ golden (81.61) [Moon]
+- **H Rahu** (same body: S Rahu → H Rahu RA 167.9826 168 whole (1.66); S Rahu → H Rahu Dec 37.0000 37 whole (99.61))
+  - star rows: H Alkes → H Rahu RA 60.0016 60 whole (84.19) [Moon]
+  - star rows: H Regulus → H Rahu Dec 28.9936 29 whole (46.43) [Moon]
+  - star rows: H Scheat → H Rahu RA 120.9902 121 whole (25.82) [Jupiter, Moon]
+  - star rows: H Vindemiatrix → H Rahu Dec 27.9849 28 whole (5.88) [Moon]
+  - other chart, top rows: S Sun → J Rahu RA 98.7048 61×φ golden (72.89) [Sun]
+  - other chart, star rows: J Sualocin → J Rahu Dec 26.1879 10×φ^2 phi power (88.83) [Moon]
+- **H Sedna** (same body: S Sedna → H Sedna RA 5.0152 5 whole (5.87))
+  - star rows: H Alkes → H Sedna RA 111.6179 69×φ golden (3.36) [Moon]
+  - star rows: H Galactic Centre → H Sedna Dec 35.9917 36 whole (33.94) [Sun]
+  - star rows: H Regulus → H Sedna Dec 4.9813 5 whole (0.41) [Moon]
+  - other chart, star rows: J Al Rescha → J Sedna Dec 1.9816 2 whole (0.60) [Sun]
+  - other chart, star rows: J Rigel → J Sedna Dec 12.9462 8×φ golden (88.60) [Moon]
+- **H Quaoar** (same body: S Quaoar → H Quaoar RA 11.0198 11 whole (0.02))
+  - star rows: H Alhena → H Quaoar Dec 32.0033 32 whole (69.93) [Moon]
+  - star rows: H Fomalhaut → H Quaoar Dec 14.0190 14 whole (0.24) [Sun]
+  - star rows: H Galactic Centre → H Quaoar RA 1.2303 conj (3.23) [Sun]
+  - star rows: H Scheat → H Quaoar Dec 43.6854 27×φ golden (91.03) [Jupiter, Moon]
+  - other chart, star rows: J Alkes → J Quaoar RA 75.0029 75 whole (73.28) [Moon]
+  - other chart, star rows: J Castor → J Quaoar Dec 46.0169 46 whole (2.44) [Moon]
+  - other chart, star rows: J Scheat → J Quaoar RA 106.0068 106 whole (43.55) [Jupiter, Moon]
+- **H Ketu** (same body: S Ketu → H Ketu RA 167.9826 168 whole (1.66); S Ketu → H Ketu Dec 37.0000 37 whole (99.61))
+  - body line: S Sun → Ketu Dec 0.0774 conj (55.07)
+  - T1: H Jupiter → H Ketu RA 24.1451 24.14 silver (95.16) [Jupiter]
+  - star rows: H Al Rescha → H Ketu RA 14.4414 14.4444 ninth (96.78) [Sun]
+  - star rows: H Alkes → H Ketu RA 119.9984 120 whole (84.19) [Moon]
+  - star rows: H Scheat → H Ketu RA 59.0098 59 whole (25.82) [Jupiter, Moon]
+- **J Sun** (same body: S Sun → J Sun Dec 17.9253 φ^6 phi power (loose))
+  - star rows: J Vindemiatrix → J Sun RA 10.9954 11 whole (59.19) [Moon]
+  - other chart, same body: S Sun → H Sun RA 61.0020 61 whole (80.77)
+  - other chart, top rows: S Sun → H Sun RA 61.0020 61 whole (80.77) [Sun]
+  - other chart, star rows: H Alhena → H Sun RA 95.0128 95 whole (13.10) [Moon]
+  - other chart, star rows: H Fomalhaut → H Sun RA 20.0072 20 whole (40.69) [Sun]
+  - other chart, star rows: H Galactic Centre → H Sun RA 97.9981 98 whole (82.02) [Sun]
+  - other chart, star rows: H Mirach → H Sun RA 13.0119 13 whole (16.51) [Moon]
+  - other chart, star rows: H Sualocin → H Sun Dec 13.9993 14 whole (93.10) [Moon]
+- **J Uranus** (same body: S Uranus → J Uranus Dec 35.9819 36 whole (0.87))
+  - top rows: S Moon → J Uranus RA 133.3199 133.333 ninth (98.39) [Moon]
+  - star rows: J Al Rescha → J Uranus Dec 24.1487 24.14 silver (89.49) [Sun]
+  - star rows: J Mirach → J Uranus Dec 57.0047 57 whole (58.52) [Moon]
+  - star rows: J Pleiades → J Uranus RA 118.1235 73×φ golden (61.35) [Sun]
+  - other chart, same body: S Uranus → H Uranus Dec 12.0033 12 whole (69.56)
+  - other chart, star rows: H Al Rescha → H Uranus Dec 0.1658 conj (20.01) [Sun]
+- **J Pluto** (same body: S Pluto → J Pluto Dec 15.5312 15.5556 ninth (loose))
+  - star rows: J Fomalhaut → J Pluto RA 105.1946 65×φ golden (9.41) [Sun]
+  - star rows: J Sadalmelik → J Pluto RA 92.2271 57×φ golden (94.89) [Moon]
+  - star rows: J Sualocin → J Pluto Dec 22.9966 23 whole (68.80) [Moon]
+  - star rows: J Vindemiatrix → J Pluto RA 43.6838 27×φ golden (81.61) [Moon]
+  - other chart, same body: S Pluto → H Pluto RA 16.6706 16.6667 ninth (loose)
+  - other chart, top rows: S Sun → H Pluto Dec 0.2068 conj (9.66) [Sun]
+  - other chart, star rows: H Sualocin → H Pluto Dec 35.5966 22×φ golden (98.96) [Moon]
+- **J Pallas** (same body: S Pallas → J Pallas Dec 9.9729 10 whole (loose))
+  - body line: S Jupiter → Pallas Dec 0.1900 conj (13.44)
+  - top rows: S Moon → J Pallas RA 1.2777 conj (2.20) [Moon]
+  - star rows: J Fomalhaut → J Pallas RA 177.7087 177.778 ninth (94.60) [Sun]
+  - other chart, star rows: H Fomalhaut → H Pallas RA 47.9931 48 whole (42.87) [Sun]
+  - other chart, star rows: H Galactic Centre → H Pallas RA 125.9840 126 whole (3.93) [Sun]
+  - other chart, star rows: H Mirach → H Pallas Dec 43.0063 43 whole (46.88) [Moon]
+- **J Makemake** (same body: S Makemake → J Makemake RA 24.1381 24.14 silver (loose))
+  - top rows: S Sun → J Makemake Dec 53.0057 53 whole (51.40) [Sun]
+  - star rows: J Pleiades → J Makemake Dec 9.0055 9 whole (52.66) [Sun]
+- **J Gonggong** (same body: S Gonggong → J Gonggong RA 5.9767 6 whole (loose))
+  - body line: S Jupiter → Gonggong RA 0.3439 conj (59.41)
+  - body line: S Moon → Gonggong RA 170.9993 171 whole (93.54)
+  - star rows: J Mirach → J Gonggong RA 46.9850 47 whole (6.23) [Moon]
+  - star rows: J Sadalmelik → J Gonggong RA 0.9962 1 whole (65.46) [Moon]
+  - other chart, star rows: H Galactic Centre → H Gonggong Dec 15.5558 15.5556 ninth (99.77) [Sun]
+### L3 the seven cases (L5 field tag on each)
+- **1. same body on both charts**
+  - Sun — only
+    - S Sun → H Sun RA 61.0020 61 whole (80.77)
+    - S Sun → J Sun Dec 17.9253 φ^6 phi power (loose)
+  - Uranus — only
+    - S Uranus → H Uranus Dec 12.0033 12 whole (69.56)
+    - S Uranus → J Uranus Dec 35.9819 36 whole (0.87)
+  - Pluto — also: 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+    - S Pluto → H Pluto RA 16.6706 16.6667 ninth (loose)
+    - S Pluto → J Pluto Dec 15.5312 15.5556 ninth (loose)
+- **2. one body in both planes**
+  - H Rahu — only
+    - S Rahu → H Rahu RA 167.9826 168 whole (1.66)
+    - S Rahu → H Rahu Dec 37.0000 37 whole (99.61)
+  - H Ketu — only
+    - S Ketu → H Ketu RA 167.9826 168 whole (1.66)
+    - S Ketu → H Ketu Dec 37.0000 37 whole (99.61)
+- **3. runner number = sky number**
+  - 37 whole — also: 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
+    - S Rahu → H Rahu Dec 37.0000 37 whole (99.61) = S Sun → Galactic Centre RA 37.0023 37 whole (77.89)
+  - 11 whole — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+    - S Quaoar → H Quaoar RA 11.0198 11 whole (0.02) = S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)
+  - 37 whole — also: 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
+    - S Ketu → H Ketu Dec 37.0000 37 whole (99.61) = S Sun → Galactic Centre RA 37.0023 37 whole (77.89)
+  - 171 whole — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch
+    - H Alkes → H Neptune RA 170.9969 171 whole (71.73) = S Moon → Gonggong RA 170.9993 171 whole (93.54)
+  - 44 whole — also: 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+    - H Alkes → H Haumea RA 44.0198 44 whole (0.01) = S Sun → Pleiades Dec 44.0004 44 whole (96.38)
+  - 32×φ golden — only
+    - H Galactic Centre → H Vesta Dec 51.7746 32×φ golden (85.15) = S Moon → Castor RA 51.7767 32×φ golden (97.46)
+  - 14×φ golden — also: 5 Cedar Hill / Jonathan Burke
+    - H Regulus → H Neptune Dec 22.6517 14×φ golden (95.42) = S Sun → Al Rescha Dec 22.6574 14×φ golden (71.84)
+  - 24×φ golden — also: 6 Le Ligerien / Ben Jones
+    - J Fomalhaut → J Eris RA 38.8339 24×φ golden (93.50) = S Jupiter → Scheat Dec 38.8362 24×φ golden (80.40)
+  - 11 whole — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+    - J Regulus → J Orcus Dec 11.0109 11 whole (20.87) = S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)
+  - 11 whole — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+    - J Vindemiatrix → J Sun RA 10.9954 11 whole (59.19) = S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)
+- **4. circle divisions**
+  - 12 = 360/30 — also: 3 Frero Banbou / Charlie Deutsch
+    - S Uranus → H Uranus Dec 12.0033 12 whole (69.56)
+  - 6 = 360/60 — only
+    - S Neptune → H Neptune Dec 6.0143 6 whole (8.23)
+  - 5 = 360/72 — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+    - S Sedna → H Sedna RA 5.0152 5 whole (5.87)
+  - 18 = 360/20 — only
+    - S Moon → H Ceres Dec 17.9984 18 whole (84.20)
+  - 20 = 360/18 — also: 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
+    - H Al Rescha → H Vesta Dec 20.0056 20 whole (51.48)
+  - 60 = 360/6 — also: 5 Cedar Hill / Jonathan Burke
+    - H Alkes → H Rahu RA 60.0016 60 whole (84.19)
+  - 120 = 360/3 — only
+    - H Alkes → H Ketu RA 119.9984 120 whole (84.19)
+  - 180 = 360/2 — also: 1 Eclair D'Ainay / Harry Skelton
+    - H Galactic Centre → H Ceres RA 179.9950 180 whole (56.44)
+  - 10 = 360/36 — also: 1 Eclair D'Ainay / Harry Skelton, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
+    - H Scheat → H Neptune RA 9.9949 10 whole (55.30)
+  - 36 = 360/10 — also: 6 Le Ligerien / Ben Jones
+    - S Uranus → J Uranus Dec 35.9819 36 whole (0.87)
+  - 10 = 360/36 — also: 1 Eclair D'Ainay / Harry Skelton, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
+    - S Pallas → J Pallas Dec 9.9729 10 whole (loose)
+  - 6 = 360/60 — only
+    - S Gonggong → J Gonggong RA 5.9767 6 whole (loose)
+  - 9 = 360/40 — also: 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
+    - J Pleiades → J Makemake Dec 9.0055 9 whole (52.66)
+  - 1 = 360/360 — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+    - J Sadalmelik → J Gonggong RA 0.9962 1 whole (65.46)
+  - 1 = 360/360 — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+    - J Vindemiatrix → J Venus RA 0.9976 1 whole (77.61)
+  - 10 = 360/36 — also: 1 Eclair D'Ainay / Harry Skelton, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
+    - J Vindemiatrix → J Orcus Dec 10.0036 10 whole (67.55)
+- **5. same number in more than one place**
+  - 16.6667 ninth — also: 4 One True King / Sam Twiston-Davies
+    - S Venus → H Venus Dec 16.6048 16.6667 ninth (loose)
+    - S Pluto → H Pluto RA 16.6706 16.6667 ninth (loose)
+    - S Moon → J Saturn Dec 16.6639 16.6667 ninth (97.63)
+  - 6 whole — only
+    - S Neptune → H Neptune Dec 6.0143 6 whole (8.23)
+    - S Gonggong → J Gonggong RA 5.9767 6 whole (loose)
+  - 168 whole — only
+    - S Rahu → H Rahu RA 167.9826 168 whole (1.66)
+    - S Ketu → H Ketu RA 167.9826 168 whole (1.66)
+  - 37 whole — only
+    - S Rahu → H Rahu Dec 37.0000 37 whole (99.61)
+    - S Ketu → H Ketu Dec 37.0000 37 whole (99.61)
+  - 11 whole — also: 6 Le Ligerien / Ben Jones
+    - S Quaoar → H Quaoar RA 11.0198 11 whole (0.02)
+    - J Vindemiatrix → J Sun RA 10.9954 11 whole (59.19)
+  - 24.14 silver — only
+    - H Jupiter → H Ketu RA 24.1451 24.14 silver (95.16)
+    - S Makemake → J Makemake RA 24.1381 24.14 silver (loose)
+    - J Al Rescha → J Uranus Dec 24.1487 24.14 silver (89.49)
+  - 12.2222 ninth — only
+    - H Jupiter → H star Pleiades RA 12.2259 12.2222 ninth (94.86)
+    - H Pleiades → H Jupiter RA 12.2259 12.2222 ninth (94.86)
+  - 83 whole — only
+    - H Jupiter → H star Regulus RA 83.0028 83 whole (73.99)
+    - S Regulus → H Jupiter RA 83.0025 83 whole (76.74)
+  - 14.4444 ninth — only
+    - H Al Rescha → H Ketu RA 14.4414 14.4444 ninth (96.78)
+    - H Vindemiatrix → H Eris Dec 14.4439 14.4444 ninth (99.46)
+  - 15.5556 ninth — only
+    - H Galactic Centre → H Gonggong Dec 15.5558 15.5556 ninth (99.77)
+    - S Pluto → J Pluto Dec 15.5312 15.5556 ninth (loose)
+  - 61×φ golden — only
+    - H Rigel → H Mercury RA 98.7049 61×φ golden (72.65)
+    - S Sun → J Rahu RA 98.7048 61×φ golden (72.89)
+  - 10 whole — only
+    - H Scheat → H Neptune RA 9.9949 10 whole (55.30)
+    - S Pallas → J Pallas Dec 9.9729 10 whole (loose)
+    - J Vindemiatrix → J Orcus Dec 10.0036 10 whole (67.55)
+  - 27×φ golden — only
+    - H Scheat → H Quaoar Dec 43.6854 27×φ golden (91.03)
+    - J Vindemiatrix → J Pluto RA 43.6838 27×φ golden (81.61)
+  - 177.778 ninth — only
+    - J Fomalhaut → J Pallas RA 177.7087 177.778 ninth (94.60)
+    - J Mirach → J Mercury RA 177.7992 177.778 ninth (98.32)
+  - 1 whole — also: 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+    - J Sadalmelik → J Gonggong RA 0.9962 1 whole (65.46)
+    - J Vindemiatrix → J Venus RA 0.9976 1 whole (77.61)
+- **6. star and sky line on one body**: none
+- **7. centres meeting**
+  - Ketu: Jupiter, Moon, Sun — also: 1 Eclair D'Ainay / Harry Skelton
+    - [Jupiter] H Jupiter → H Ketu RA 24.1451 24.14 silver (95.16)
+    - [Jupiter] H Scheat → H Ketu RA 59.0098 59 whole (25.82)
+    - [Moon] H Alkes → H Ketu RA 119.9984 120 whole (84.19)
+    - [Moon] H Scheat → H Ketu RA 59.0098 59 whole (25.82)
+    - [Sun] S Ketu → H Ketu RA 167.9826 168 whole (1.66)
+    - [Sun] S Ketu → H Ketu Dec 37.0000 37 whole (99.61)
+    - [Sun] H Al Rescha → H Ketu RA 14.4414 14.4444 ninth (96.78)
+  - Mars: Jupiter, Moon — only
+    - [Jupiter] S Jupiter → H Mars Dec 14.1484 14.14 sqrt2 (82.99)
+    - [Moon] H Alhena → H Mars Dec 13.0016 13 whole (84.91)
+  - Saturn: Jupiter, Moon — only
+    - [Jupiter] S Jupiter → H Saturn RA 117.9963 118 whole (66.71)
+    - [Moon] S Moon → J Saturn Dec 16.6639 16.6667 ninth (97.63)
+  - Neptune: Jupiter, Moon — also: 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
+    - [Jupiter] S Jupiter → H Neptune RA 0.8306 conj (19.91)
+    - [Jupiter] S Jupiter → H Neptune Dec 0.0655 conj (61.10)
+    - [Jupiter] H Scheat → H Neptune RA 9.9949 10 whole (55.30)
+    - [Moon] H Alkes → H Neptune RA 170.9969 171 whole (71.73)
+    - [Moon] H Regulus → H Neptune Dec 22.6517 14×φ golden (95.42)
+    - [Moon] H Scheat → H Neptune RA 9.9949 10 whole (55.30)
+  - Sun: Moon, Sun — also: 5 Cedar Hill / Jonathan Burke
+    - [Moon] H Alhena → H Sun RA 95.0128 95 whole (13.10)
+    - [Moon] H Mirach → H Sun RA 13.0119 13 whole (16.51)
+    - [Moon] H Sualocin → H Sun Dec 13.9993 14 whole (93.10)
+    - [Moon] J Vindemiatrix → J Sun RA 10.9954 11 whole (59.19)
+    - [Sun] S Sun → H Sun RA 61.0020 61 whole (80.77)
+    - [Sun] H Fomalhaut → H Sun RA 20.0072 20 whole (40.69)
+    - [Sun] H Galactic Centre → H Sun RA 97.9981 98 whole (82.02)
+  - Pluto: Moon, Sun — also: 1 Eclair D'Ainay / Harry Skelton, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+    - [Moon] H Sualocin → H Pluto Dec 35.5966 22×φ golden (98.96)
+    - [Moon] J Sadalmelik → J Pluto RA 92.2271 57×φ golden (94.89)
+    - [Moon] J Sualocin → J Pluto Dec 22.9966 23 whole (68.80)
+    - [Moon] J Vindemiatrix → J Pluto RA 43.6838 27×φ golden (81.61)
+    - [Sun] S Sun → H Pluto Dec 0.2068 conj (9.66)
+    - [Sun] J Fomalhaut → J Pluto RA 105.1946 65×φ golden (9.41)
+  - Ceres: Jupiter, Moon, Sun — also: 1 Eclair D'Ainay / Harry Skelton, 5 Cedar Hill / Jonathan Burke
+    - [Jupiter] J Scheat → J Ceres RA 153.0054 153 whole (53.33)
+    - [Moon] S Moon → H Ceres Dec 17.9984 18 whole (84.20)
+    - [Moon] H Alhena → H Ceres RA 13.0159 13 whole (4.31)
+    - [Moon] H Alkes → H Ceres Dec 46.9764 φ^8 phi power (98.04)
+    - [Moon] H Mirach → H Ceres RA 68.9850 69 whole (6.34)
+    - [Moon] H Sadalmelik → H Ceres Dec 28.9975 29 whole (76.90)
+    - [Moon] J Alkes → J Ceres RA 28.0043 28 whole (61.73)
+    - [Moon] J Scheat → J Ceres RA 153.0054 153 whole (53.33)
+    - [Sun] S Sun → H Ceres RA 142.9989 143 whole (89.66)
+    - [Sun] H Fomalhaut → H Ceres RA 102.0042 102 whole (62.77)
+    - [Sun] H Galactic Centre → H Ceres RA 179.9950 180 whole (56.44)
+  - Juno: Moon, Sun — also: 1 Eclair D'Ainay / Harry Skelton, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+    - [Moon] H Vindemiatrix → H Juno RA 107.9801 108 whole (0.00)
+    - [Moon] J Mirach → J Juno RA 113.2683 70×φ golden (66.82)
+    - [Sun] S Sun → H Juno RA 0.1147 conj (85.29)
+  - Jupiter: Jupiter, Moon, Sun — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+    - [Jupiter] S Chiron → H Jupiter RA 62.0057 62 whole (50.79)
+    - [Jupiter] S Vesta → J Jupiter Dec 0.0140 conj (90.89)
+    - [Moon] S Mirach → H Jupiter Dec 13.9892 14 whole (21.09)
+    - [Moon] S Regulus → H Jupiter RA 83.0025 83 whole (76.74)
+    - [Sun] H Pleiades → H Jupiter RA 12.2259 12.2222 ninth (94.86)
+    - [Sun] S Pleiades → J Jupiter RA 168.3000 104×φ golden (5.95)
+  - Uranus: Moon, Sun — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+    - [Moon] S Moon → J Uranus RA 133.3199 133.333 ninth (98.39)
+    - [Moon] J Mirach → J Uranus Dec 57.0047 57 whole (58.52)
+    - [Sun] H Al Rescha → H Uranus Dec 0.1658 conj (20.01)
+    - [Sun] J Al Rescha → J Uranus Dec 24.1487 24.14 silver (89.49)
+    - [Sun] J Pleiades → J Uranus RA 118.1235 73×φ golden (61.35)
+  - Vesta: Moon, Sun — also: 7 Beaufort West / Page Fuller
+    - [Moon] H Rigel → H Vesta RA 0.0163 conj (97.84)
+    - [Sun] H Al Rescha → H Vesta Dec 20.0056 20 whole (51.48)
+    - [Sun] H Galactic Centre → H Vesta Dec 51.7746 32×φ golden (85.15)
+  - Orcus: Moon, Sun — also: 6 Le Ligerien / Ben Jones
+    - [Moon] H Alhena → H Orcus Dec 24.0148 24 whole (6.82)
+    - [Moon] J Regulus → J Orcus Dec 11.0109 11 whole (20.87)
+    - [Moon] J Vindemiatrix → J Orcus Dec 10.0036 10 whole (67.55)
+    - [Sun] H Fomalhaut → H Orcus Dec 22.0075 22 whole (38.98)
+  - Quaoar: Jupiter, Moon, Sun — also: 5 Cedar Hill / Jonathan Burke
+    - [Jupiter] H Scheat → H Quaoar Dec 43.6854 27×φ golden (91.03)
+    - [Jupiter] J Scheat → J Quaoar RA 106.0068 106 whole (43.55)
+    - [Moon] H Alhena → H Quaoar Dec 32.0033 32 whole (69.93)
+    - [Moon] H Scheat → H Quaoar Dec 43.6854 27×φ golden (91.03)
+    - [Moon] J Alkes → J Quaoar RA 75.0029 75 whole (73.28)
+    - [Moon] J Castor → J Quaoar Dec 46.0169 46 whole (2.44)
+    - [Moon] J Scheat → J Quaoar RA 106.0068 106 whole (43.55)
+    - [Sun] H Fomalhaut → H Quaoar Dec 14.0190 14 whole (0.24)
+    - [Sun] H Galactic Centre → H Quaoar RA 1.2303 conj (3.23)
+  - Mercury: Jupiter, Moon — only
+    - [Jupiter] H Scheat → H Mercury RA 6.0106 6 whole (22.24)
+    - [Moon] H Alkes → H Mercury RA 174.9812 175 whole (0.39)
+    - [Moon] H Regulus → H Mercury Dec 21.0356 13×φ golden (92.89)
+    - [Moon] H Rigel → H Mercury RA 98.7049 61×φ golden (72.65)
+    - [Moon] H Scheat → H Mercury RA 6.0106 6 whole (22.24)
+    - [Moon] J Mirach → J Mercury RA 177.7992 177.778 ninth (98.32)
+    - [Moon] J Vindemiatrix → J Mercury RA 0.3011 conj (63.89)
+  - Rahu: Jupiter, Moon, Sun — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch, 7 Beaufort West / Page Fuller
+    - [Jupiter] H Scheat → H Rahu RA 120.9902 121 whole (25.82)
+    - [Moon] H Alkes → H Rahu RA 60.0016 60 whole (84.19)
+    - [Moon] H Regulus → H Rahu Dec 28.9936 29 whole (46.43)
+    - [Moon] H Scheat → H Rahu RA 120.9902 121 whole (25.82)
+    - [Moon] H Vindemiatrix → H Rahu Dec 27.9849 28 whole (5.88)
+    - [Moon] J Sualocin → J Rahu Dec 26.1879 10×φ^2 phi power (88.83)
+    - [Sun] S Sun → J Rahu RA 98.7048 61×φ golden (72.89)
+  - Sedna: Moon, Sun — also: 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+    - [Moon] H Alkes → H Sedna RA 111.6179 69×φ golden (3.36)
+    - [Moon] H Regulus → H Sedna Dec 4.9813 5 whole (0.41)
+    - [Moon] J Rigel → J Sedna Dec 12.9462 8×φ golden (88.60)
+    - [Sun] H Galactic Centre → H Sedna Dec 35.9917 36 whole (33.94)
+    - [Sun] J Al Rescha → J Sedna Dec 1.9816 2 whole (0.60)
+  - Haumea: Moon, Sun — also: 6 Le Ligerien / Ben Jones
+    - [Moon] H Alkes → H Haumea RA 44.0198 44 whole (0.01)
+    - [Sun] H Pleiades → H Haumea RA 152.0990 94×φ golden (78.06)
+    - [Sun] J Al Rescha → J Haumea RA 161.8836 100×φ^1 phi power (81.17)
+    - [Sun] J Fomalhaut → J Haumea RA 152.0177 152 whole (1.28)
+    - [Sun] J Galactic Centre → J Haumea RA 74.0158 74 whole (4.43)
+  - Pallas: Jupiter, Moon, Sun — also: 1 Eclair D'Ainay / Harry Skelton
+    - [Jupiter] S Pallas → J Pallas Dec 9.9729 10 whole (loose)
+    - [Moon] H Mirach → H Pallas Dec 43.0063 43 whole (46.88)
+    - [Moon] S Moon → J Pallas RA 1.2777 conj (2.20)
+    - [Sun] H Fomalhaut → H Pallas RA 47.9931 48 whole (42.87)
+    - [Sun] H Galactic Centre → H Pallas RA 125.9840 126 whole (3.93)
+    - [Sun] J Fomalhaut → J Pallas RA 177.7087 177.778 ninth (94.60)
+  - Gonggong: Jupiter, Moon, Sun — also: 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+    - [Jupiter] S Gonggong → J Gonggong RA 5.9767 6 whole (loose)
+    - [Moon] S Gonggong → J Gonggong RA 5.9767 6 whole (loose)
+    - [Moon] J Mirach → J Gonggong RA 46.9850 47 whole (6.23)
+    - [Moon] J Sadalmelik → J Gonggong RA 0.9962 1 whole (65.46)
+    - [Sun] H Galactic Centre → H Gonggong Dec 15.5558 15.5556 ninth (99.77)
+  - Transpluto: Jupiter, Moon, Sun — also: 5 Cedar Hill / Jonathan Burke
+    - [Jupiter] J Jupiter → J Transpluto Dec 34.9945 35 whole (52.56)
+    - [Moon] H Regulus → H Transpluto RA 0.5124 conj (43.35)
+    - [Moon] J Vindemiatrix → J Transpluto RA 49.0086 49 whole (32.44)
+    - [Sun] J Al Rescha → J Transpluto RA 116.0143 116 whole (8.26)
+  - Eris: Moon, Sun — also: 1 Eclair D'Ainay / Harry Skelton
+    - [Moon] H Vindemiatrix → H Eris Dec 14.4439 14.4444 ninth (99.46)
+    - [Moon] J Castor → J Eris Dec 39.9843 40 whole (4.69)
+    - [Moon] J Rigel → J Eris Dec 0.1021 conj (43.50)
+    - [Moon] J Sualocin → J Eris Dec 24.0120 24 whole (16.05)
+    - [Sun] J Fomalhaut → J Eris RA 38.8339 24×φ golden (93.50)
+  - Chiron: Jupiter, Moon, Sun — also: 1 Eclair D'Ainay / Harry Skelton, 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
+    - [Jupiter] S Jupiter → J Chiron RA 155.3271 96×φ golden (75.94)
+    - [Moon] J Alhena → J Chiron RA 82.0198 82 whole (0.01)
+    - [Moon] J Mirach → J Chiron RA 164.0085 164 whole (33.35)
+    - [Moon] J Sadalmelik → J Chiron RA 150.0027 150 whole (74.49)
+    - [Sun] J Pleiades → J Chiron RA 124.5727 77×φ golden (25.86)
+
+## 3 Frero Banbou / Charlie Deutsch
+### L1 same bodies
+- S Mercury → H Mercury RA 122.2286 122.222 ninth (99.11)
+- S Venus → H Venus Dec 42.3012 10×φ^3 phi power (loose)
+- S Mars → H Mars RA 150.4565 93×φ golden (12.96)
+- S Saturn → H Saturn RA 76.0779 φ^9 phi power (loose)
+- S Saturn → H Saturn Dec 1.0098 1 whole (26.07)
+- S Eris → H Eris Dec 1.3290 1.33333 ninth (loose)
+- S Haumea → H Haumea Dec 3.0057 3 whole (50.82)
+- S Orcus → H Orcus Dec 4.0004 4 whole (95.56)
+- S Transpluto → H Transpluto RA 2.9790 3 whole (loose)
+- S Transpluto → H Transpluto Dec 1.1164 1.11111 ninth (loose)
+- S Neptune → J Neptune Dec 15.5335 15.5556 ninth (loose)
+- S Chiron → J Chiron RA 179.5005 10×φ^6 phi power (loose)
+- S Pallas → J Pallas RA 143.9673 144.444 ninth (loose)
+- S Eris → J Eris RA 2.2182 2.22222 ninth (loose)
+- S Sedna → J Sedna RA 12.9931 13 whole (42.97)
+- S Sedna → J Sedna Dec 3.0023 3 whole (78.24)
+- S Orcus → J Orcus Dec 13.3194 13.3333 ninth (loose)
+### L2 what lands on each same body
+- **H Mercury** (same body: S Mercury → H Mercury RA 122.2286 122.222 ninth (99.11))
+  - star rows: H Pleiades → H Mercury Dec 0.2252 conj (6.22) [Sun]
+  - other chart, star rows: J Alhena → J Mercury RA 45.3097 28×φ golden (72.72) [Moon]
+  - other chart, star rows: J Mirach → J Mercury Dec 20.0108 20 whole (21.01) [Moon]
+  - other chart, star rows: J Vindemiatrix → J Mercury RA 141.4341 141.4 sqrt2 (96.43) [Moon]
+- **H Venus** (same body: S Venus → H Venus Dec 42.3012 10×φ^3 phi power (loose))
+  - other chart, star rows: J Castor → J Venus Dec 8.9981 9 whole (81.56) [Moon]
+  - other chart, star rows: J Rigel → J Venus RA 1.4138 conj (0.33) [Moon]
+  - other chart, star rows: J Sualocin → J Venus Dec 6.9812 7 whole (0.34) [Moon]
+- **H Mars** (same body: S Mars → H Mars RA 150.4565 93×φ golden (12.96))
+  - top rows: S Jupiter → H Mars RA 81.0050 81 whole (56.30) [Jupiter]
+  - star rows: H Pleiades → H Mars RA 0.9142 conj (15.25) [Sun]
+  - other chart, star rows: J Pleiades → J Mars RA 1.2837 conj (2.08) [Sun]
+  - other chart, star rows: J Sadalmelik → J Mars RA 84.1342 52×φ golden (78.97) [Moon]
+- **H Saturn** (same body: S Saturn → H Saturn RA 76.0779 φ^9 phi power (loose); S Saturn → H Saturn Dec 1.0098 1 whole (26.07))
+  - star rows: H Alkes → H Saturn Dec 0.1528 conj (24.07) [Moon]
+  - other chart, star rows: J Alhena → J Saturn Dec 15.9909 16 whole (29.58) [Moon]
+  - other chart, star rows: J Sualocin → J Saturn RA 56.6334 35×φ golden (87.00) [Moon]
+  - other chart, star rows: J Vindemiatrix → J Saturn RA 170.9996 171 whole (96.11) [Moon]
+- **H Eris** (same body: S Eris → H Eris Dec 1.3290 1.33333 ninth (loose))
+  - other chart, same body: S Eris → J Eris RA 2.2182 2.22222 ninth (loose)
+- **H Haumea** (same body: S Haumea → H Haumea Dec 3.0057 3 whole (50.82))
+  - star rows: H Scheat → H Haumea RA 135.9141 84×φ golden (95.25) [Jupiter, Moon]
+  - star rows: H Scheat → H Haumea Dec 10.0192 10 whole (0.16) [Jupiter, Moon]
+  - other chart, star rows: J Mirach → J Haumea RA 174.7643 108×φ golden (23.77) [Moon]
+- **H Orcus** (same body: S Orcus → H Orcus Dec 4.0004 4 whole (95.56))
+  - body line: S Jupiter → Orcus RA 179.6087 111×φ golden (61.81)
+  - star rows: H Rigel → H Orcus Dec 0.0138 conj (91.01) [Moon]
+  - star rows: H Sualocin → H Orcus RA 160.1859 99×φ golden (96.88) [Moon]
+  - other chart, same body: S Orcus → J Orcus Dec 13.3194 13.3333 ninth (loose)
+  - other chart, star rows: J Fomalhaut → J Orcus Dec 30.7491 19×φ golden (64.04) [Sun]
+- **H Transpluto** (same body: S Transpluto → H Transpluto RA 2.9790 3 whole (loose); S Transpluto → H Transpluto Dec 1.1164 1.11111 ninth (loose))
+  - body line: S Moon → Transpluto Dec 0.2980 conj (0.00)
+  - star rows: H Regulus → H Transpluto RA 0.0659 conj (91.40) [Moon]
+  - star rows: H Sadalmelik → H Transpluto RA 179.4185 10×φ^6 phi power (94.67) [Moon]
+  - other chart, star rows: J Alkes → J Transpluto Dec 31.9887 32 whole (19.03) [Moon]
+  - other chart, star rows: J Sadalmelik → J Transpluto Dec 14.0079 14 whole (36.45) [Moon]
+  - other chart, star rows: J Sualocin → J Transpluto Dec 2.2228 2.22222 ninth (91.96) [Moon]
+- **J Neptune** (same body: S Neptune → J Neptune Dec 15.5335 15.5556 ninth (loose))
+  - star rows: J Regulus → J Neptune RA 147.2454 91×φ golden (74.89) [Moon]
+  - star rows: J Rigel → J Neptune Dec 12.0033 12 whole (69.43) [Moon]
+- **J Chiron** (same body: S Chiron → J Chiron RA 179.5005 10×φ^6 phi power (loose))
+  - star rows: J Pleiades → J Chiron Dec 28.9922 29 whole (37.40) [Sun]
+  - other chart, star rows: H Alhena → H Chiron Dec 16.0167 16 whole (2.68) [Moon]
+  - other chart, star rows: H Fomalhaut → H Chiron Dec 30.0037 30 whole (66.11) [Sun]
+  - other chart, star rows: H Vindemiatrix → H Chiron RA 153.9840 154 whole (3.94) [Moon]
+- **J Pallas** (same body: S Pallas → J Pallas RA 143.9673 144.444 ninth (loose))
+  - body line: S Jupiter → Pallas Dec 0.1900 conj (13.44)
+  - star rows: J Alkes → J Pallas RA 47.0057 47 whole (51.36) [Moon]
+  - star rows: J Alkes → J Pallas Dec 43.0128 43 whole (13.09) [Moon]
+  - star rows: J Rigel → J Pallas RA 133.3204 133.333 ninth (98.45) [Moon]
+  - star rows: J Scheat → J Pallas RA 133.9945 134 whole (52.33) [Jupiter, Moon]
+  - other chart, star rows: H Castor → H Pallas Dec 9.0060 9 whole (49.26) [Moon]
+- **J Eris** (same body: S Eris → J Eris RA 2.2182 2.22222 ninth (loose))
+  - other chart, same body: S Eris → H Eris Dec 1.3290 1.33333 ninth (loose)
+- **J Sedna** (same body: S Sedna → J Sedna RA 12.9931 13 whole (42.97); S Sedna → J Sedna Dec 3.0023 3 whole (78.24))
+  - top rows: S Sun → J Sedna RA 101.9374 63×φ golden (92.43) [Sun]
+  - other chart, star rows: H Alkes → H Sedna RA 109.9857 110 whole (8.04) [Moon]
+  - other chart, star rows: H Scheat → H Sedna RA 69.0159 69 whole (4.27) [Jupiter, Moon]
+- **J Orcus** (same body: S Orcus → J Orcus Dec 13.3194 13.3333 ninth (loose))
+  - body line: S Jupiter → Orcus RA 179.6087 111×φ golden (61.81)
+  - star rows: J Fomalhaut → J Orcus Dec 30.7491 19×φ golden (64.04) [Sun]
+  - other chart, same body: S Orcus → H Orcus Dec 4.0004 4 whole (95.56)
+  - other chart, star rows: H Rigel → H Orcus Dec 0.0138 conj (91.01) [Moon]
+  - other chart, star rows: H Sualocin → H Orcus RA 160.1859 99×φ golden (96.88) [Moon]
+### L3 the seven cases (L5 field tag on each)
+- **1. same body on both charts**
+  - Eris — also: 7 Beaufort West / Page Fuller
+    - S Eris → H Eris Dec 1.3290 1.33333 ninth (loose)
+    - S Eris → J Eris RA 2.2182 2.22222 ninth (loose)
+  - Orcus — also: 4 One True King / Sam Twiston-Davies
+    - S Orcus → H Orcus Dec 4.0004 4 whole (95.56)
+    - S Orcus → J Orcus Dec 13.3194 13.3333 ninth (loose)
+- **2. one body in both planes**
+  - H Saturn — only
+    - S Saturn → H Saturn RA 76.0779 φ^9 phi power (loose)
+    - S Saturn → H Saturn Dec 1.0098 1 whole (26.07)
+  - H Transpluto — also: 4 One True King / Sam Twiston-Davies
+    - S Transpluto → H Transpluto RA 2.9790 3 whole (loose)
+    - S Transpluto → H Transpluto Dec 1.1164 1.11111 ninth (loose)
+  - J Sedna — only
+    - S Sedna → J Sedna RA 12.9931 13 whole (42.97)
+    - S Sedna → J Sedna Dec 3.0023 3 whole (78.24)
+- **3. runner number = sky number**
+  - 11 whole — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+    - H Al Rescha → H Juno Dec 10.9942 11 whole (50.36) = S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)
+  - 10×φ^6 phi power — also: 4 One True King / Sam Twiston-Davies, 7 Beaufort West / Page Fuller
+    - H Sadalmelik → H Transpluto RA 179.4185 10×φ^6 phi power (94.67) = S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)
+  - 18.8889 ninth — also: 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
+    - H Vindemiatrix → H Vesta Dec 18.8864 18.8889 ninth (98.22) = S Moon → Rigel Dec 18.8804 18.8889 ninth (93.87)
+  - 10×φ^6 phi power — also: 4 One True King / Sam Twiston-Davies, 7 Beaufort West / Page Fuller
+    - S Chiron → J Chiron RA 179.5005 10×φ^6 phi power (loose) = S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)
+  - 144.444 ninth — also: 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones
+    - S Pallas → J Pallas RA 143.9673 144.444 ninth (loose) = S Moon → Sualocin RA 144.4728 144.444 ninth (97.00)
+  - 13.3333 ninth — also: 1 Eclair D'Ainay / Harry Skelton, 4 One True King / Sam Twiston-Davies, 7 Beaufort West / Page Fuller
+    - S Orcus → J Orcus Dec 13.3194 13.3333 ninth (loose) = S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)
+  - 11 whole — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+    - J Regulus → J Sun Dec 11.0124 11 whole (14.28) = S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)
+  - 111×φ golden — only
+    - J Regulus → J Gonggong RA 179.6055 111×φ golden (78.47) = S Jupiter → Orcus RA 179.6087 111×φ golden (61.81)
+  - 171 whole — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick
+    - J Vindemiatrix → J Saturn RA 170.9996 171 whole (96.11) = S Moon → Gonggong RA 170.9993 171 whole (93.54)
+- **4. circle divisions**
+  - 1 = 360/360 — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+    - S Saturn → H Saturn Dec 1.0098 1 whole (26.07)
+  - 3 = 360/120 — also: 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
+    - S Haumea → H Haumea Dec 3.0057 3 whole (50.82)
+  - 4 = 360/90 — also: 1 Eclair D'Ainay / Harry Skelton, 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones
+    - S Orcus → H Orcus Dec 4.0004 4 whole (95.56)
+  - 3 = 360/120 — also: 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
+    - S Transpluto → H Transpluto RA 2.9790 3 whole (loose)
+  - 72 = 360/5 — only
+    - S Jupiter → H Sun RA 71.9942 72 whole (50.76)
+  - 4 = 360/90 — also: 1 Eclair D'Ainay / Harry Skelton, 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones
+    - S Sun → H Ceres Dec 4.0053 4 whole (54.34)
+  - 30 = 360/12 — only
+    - H Fomalhaut → H Chiron Dec 30.0037 30 whole (66.11)
+  - 3 = 360/120 — also: 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
+    - S Sedna → J Sedna Dec 3.0023 3 whole (78.24)
+  - 9 = 360/40 — also: 2 Financier / Richard Patrick, 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
+    - S Moon → J Makemake RA 8.9999 9 whole (98.85)
+  - 9 = 360/40 — also: 2 Financier / Richard Patrick, 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
+    - J Castor → J Venus Dec 8.9981 9 whole (81.56)
+  - 12 = 360/30 — also: 2 Financier / Richard Patrick
+    - J Rigel → J Neptune Dec 12.0033 12 whole (69.43)
+  - 5 = 360/72 — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+    - J Vindemiatrix → J Ketu Dec 4.9985 5 whole (85.26)
+- **5. same number in more than one place**
+  - 93×φ golden — only
+    - S Mars → H Mars RA 150.4565 93×φ golden (12.96)
+    - J Fomalhaut → J Rahu RA 150.4769 93×φ golden (98.30)
+  - 3 whole — also: 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
+    - S Haumea → H Haumea Dec 3.0057 3 whole (50.82)
+    - S Transpluto → H Transpluto RA 2.9790 3 whole (loose)
+    - S Sedna → J Sedna Dec 3.0023 3 whole (78.24)
+  - 4 whole — also: 1 Eclair D'Ainay / Harry Skelton, 4 One True King / Sam Twiston-Davies
+    - S Orcus → H Orcus Dec 4.0004 4 whole (95.56)
+    - S Sun → H Ceres Dec 4.0053 4 whole (54.34)
+  - 11×φ golden — only
+    - H Jupiter → H star Sadalmelik Dec 17.7923 11×φ golden (65.96)
+    - H Sadalmelik → H Jupiter Dec 17.7923 11×φ golden (65.96)
+  - 10×φ^6 phi power — also: 4 One True King / Sam Twiston-Davies, 7 Beaufort West / Page Fuller
+    - H Sadalmelik → H Transpluto RA 179.4185 10×φ^6 phi power (94.67)
+    - S Chiron → J Chiron RA 179.5005 10×φ^6 phi power (loose)
+  - 157 whole — only
+    - H Vindemiatrix → H Vesta RA 156.9955 157 whole (60.17)
+    - J Mirach → J Makemake RA 157.0016 157 whole (84.50)
+  - 2.22222 ninth — only
+    - S Eris → J Eris RA 2.2182 2.22222 ninth (loose)
+    - J Sualocin → J Transpluto Dec 2.2228 2.22222 ninth (91.96)
+  - φ^6 phi power — also: 7 Beaufort West / Page Fuller
+    - S Moon → J Pluto Dec 17.9442 φ^6 phi power (99.77)
+    - S Moon → J Vesta Dec 17.9450 φ^6 phi power (98.29)
+  - 9 whole — also: 5 Cedar Hill / Jonathan Burke
+    - S Moon → J Makemake RA 8.9999 9 whole (98.85)
+    - J Castor → J Venus Dec 8.9981 9 whole (81.56)
+  - 111.111 ninth — only
+    - S Uranus → J Jupiter RA 111.1053 111.111 ninth (99.04)
+    - J Vindemiatrix → J Uranus RA 111.1684 111.111 ninth (90.63)
+- **6. star and sky line on one body**: none
+- **7. centres meeting**
+  - Orcus: Jupiter, Moon, Sun — also: 7 Beaufort West / Page Fuller
+    - [Jupiter] S Orcus → H Orcus Dec 4.0004 4 whole (95.56)
+    - [Jupiter] S Orcus → J Orcus Dec 13.3194 13.3333 ninth (loose)
+    - [Moon] H Rigel → H Orcus Dec 0.0138 conj (91.01)
+    - [Moon] H Sualocin → H Orcus RA 160.1859 99×φ golden (96.88)
+    - [Sun] J Fomalhaut → J Orcus Dec 30.7491 19×φ golden (64.04)
+  - Sun: Jupiter, Moon, Sun — also: 7 Beaufort West / Page Fuller
+    - [Jupiter] S Jupiter → H Sun RA 71.9942 72 whole (50.76)
+    - [Moon] J Regulus → J Sun Dec 11.0124 11 whole (14.28)
+    - [Moon] J Rigel → J Sun RA 0.6264 conj (33.92)
+    - [Sun] J Galactic Centre → J Sun Dec 51.9882 52 whole (16.78)
+  - Mars: Jupiter, Moon, Sun — also: 5 Cedar Hill / Jonathan Burke
+    - [Jupiter] S Jupiter → H Mars RA 81.0050 81 whole (56.30)
+    - [Moon] J Sadalmelik → J Mars RA 84.1342 52×φ golden (78.97)
+    - [Sun] H Pleiades → H Mars RA 0.9142 conj (15.25)
+    - [Sun] J Pleiades → J Mars RA 1.2837 conj (2.08)
+  - Gonggong: Jupiter, Moon, Sun — also: 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+    - [Jupiter] S Jupiter → H Gonggong RA 0.7762 conj (23.28)
+    - [Moon] J Alkes → J Gonggong Dec 0.2349 conj (4.72)
+    - [Moon] J Regulus → J Gonggong RA 179.6055 111×φ golden (78.47)
+    - [Moon] J Sadalmelik → J Gonggong RA 0.2493 conj (69.52)
+    - [Moon] J Sualocin → J Gonggong Dec 33.9767 21×φ golden (87.80)
+    - [Sun] H Galactic Centre → H Gonggong RA 69.5764 43×φ golden (94.40)
+  - Ceres: Moon, Sun — also: 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones
+    - [Moon] J Rigel → J Ceres RA 166.6383 166.667 ninth (97.57)
+    - [Sun] S Sun → H Ceres Dec 4.0053 4 whole (54.34)
+    - [Sun] H Pleiades → H Ceres RA 105.1869 65×φ golden (29.77)
+    - [Sun] H Pleiades → H Ceres Dec 48.0036 48 whole (67.10)
+  - Jupiter: Jupiter, Moon, Sun — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+    - [Jupiter] S Venus → H Jupiter RA 145.6292 90×φ golden (65.65)
+    - [Jupiter] S Pluto → H Jupiter RA 161.8547 100×φ^1 phi power (87.72)
+    - [Jupiter] S Uranus → J Jupiter RA 111.1053 111.111 ninth (99.04)
+    - [Jupiter] S Pluto → J Jupiter Dec 0.0988 conj (44.97)
+    - [Jupiter] S Gonggong → J Jupiter Dec 11.0935 φ^5 phi power (88.41)
+    - [Jupiter] S Ketu → J Jupiter RA 50.1571 31×φ golden (88.37)
+    - [Moon] H Sadalmelik → H Jupiter Dec 17.7923 11×φ golden (65.96)
+    - [Moon] S Gonggong → J Jupiter Dec 11.0935 φ^5 phi power (88.41)
+    - [Sun] S Ketu → J Jupiter RA 50.1571 31×φ golden (88.37)
+  - Juno: Jupiter, Sun — only
+    - [Jupiter] S Jupiter → J Juno RA 22.9989 23 whole (89.33)
+    - [Sun] H Al Rescha → H Juno Dec 10.9942 11 whole (50.36)
+  - Chiron: Moon, Sun — also: 4 One True King / Sam Twiston-Davies
+    - [Moon] H Alhena → H Chiron Dec 16.0167 16 whole (2.68)
+    - [Moon] H Vindemiatrix → H Chiron RA 153.9840 154 whole (3.94)
+    - [Sun] H Fomalhaut → H Chiron Dec 30.0037 30 whole (66.11)
+    - [Sun] J Pleiades → J Chiron Dec 28.9922 29 whole (37.40)
+  - Sedna: Jupiter, Moon, Sun — only
+    - [Jupiter] H Scheat → H Sedna RA 69.0159 69 whole (4.27)
+    - [Moon] H Alkes → H Sedna RA 109.9857 110 whole (8.04)
+    - [Moon] H Scheat → H Sedna RA 69.0159 69 whole (4.27)
+    - [Sun] S Sun → J Sedna RA 101.9374 63×φ golden (92.43)
+  - Pallas: Jupiter, Moon — also: 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+    - [Jupiter] S Pallas → J Pallas RA 143.9673 144.444 ninth (loose)
+    - [Jupiter] J Scheat → J Pallas RA 133.9945 134 whole (52.33)
+    - [Moon] H Castor → H Pallas Dec 9.0060 9 whole (49.26)
+    - [Moon] J Alkes → J Pallas RA 47.0057 47 whole (51.36)
+    - [Moon] J Alkes → J Pallas Dec 43.0128 43 whole (13.09)
+    - [Moon] J Rigel → J Pallas RA 133.3204 133.333 ninth (98.45)
+    - [Moon] J Scheat → J Pallas RA 133.9945 134 whole (52.33)
+  - Makemake: Jupiter, Moon, Sun — only
+    - [Jupiter] H Scheat → H Makemake RA 153.7385 95×φ golden (4.77)
+    - [Jupiter] J Scheat → J Makemake RA 171.5125 106×φ golden (94.38)
+    - [Moon] H Mirach → H Makemake RA 174.7750 108×φ golden (2.38)
+    - [Moon] H Scheat → H Makemake RA 153.7385 95×φ golden (4.77)
+    - [Moon] S Moon → J Makemake RA 8.9999 9 whole (98.85)
+    - [Moon] J Alhena → J Makemake RA 75.0087 75 whole (31.90)
+    - [Moon] J Mirach → J Makemake RA 157.0016 157 whole (84.50)
+    - [Moon] J Sadalmelik → J Makemake RA 157.0164 157 whole (3.15)
+    - [Moon] J Scheat → J Makemake RA 171.5125 106×φ golden (94.38)
+    - [Moon] J Vindemiatrix → J Makemake Dec 22.9816 23 whole (0.68)
+    - [Sun] H Fomalhaut → H Makemake Dec 55.9800 56 whole (0.00)
+    - [Sun] J Fomalhaut → J Makemake RA 169.9817 170 whole (0.71)
+    - [Sun] J Galactic Centre → J Makemake RA 91.9919 92 whole (35.21)
+  - Uranus: Moon, Sun — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+    - [Moon] H Mirach → H Uranus RA 0.3987 conj (53.90)
+    - [Moon] J Mirach → J Uranus RA 70.7143 70.7 sqrt2 (97.94)
+    - [Moon] J Vindemiatrix → J Uranus RA 111.1684 111.111 ninth (90.63)
+    - [Sun] S Sun → J Uranus Dec 0.1152 conj (37.95)
+  - Mercury: Moon, Sun — also: 1 Eclair D'Ainay / Harry Skelton
+    - [Moon] J Alhena → J Mercury RA 45.3097 28×φ golden (72.72)
+    - [Moon] J Mirach → J Mercury Dec 20.0108 20 whole (21.01)
+    - [Moon] J Vindemiatrix → J Mercury RA 141.4341 141.4 sqrt2 (96.43)
+    - [Sun] H Pleiades → H Mercury Dec 0.2252 conj (6.22)
+  - Vesta: Jupiter, Moon — also: 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+    - [Jupiter] H Scheat → H Vesta Dec 36.0077 36 whole (37.72)
+    - [Moon] H Rigel → H Vesta Dec 0.2754 conj (0.67)
+    - [Moon] H Scheat → H Vesta Dec 36.0077 36 whole (37.72)
+    - [Moon] H Vindemiatrix → H Vesta RA 156.9955 157 whole (60.17)
+    - [Moon] H Vindemiatrix → H Vesta Dec 18.8864 18.8889 ninth (98.22)
+    - [Moon] S Moon → J Vesta Dec 17.9450 φ^6 phi power (98.29)
+  - Haumea: Jupiter, Moon — only
+    - [Jupiter] H Scheat → H Haumea RA 135.9141 84×φ golden (95.25)
+    - [Jupiter] H Scheat → H Haumea Dec 10.0192 10 whole (0.16)
+    - [Moon] H Scheat → H Haumea RA 135.9141 84×φ golden (95.25)
+    - [Moon] H Scheat → H Haumea Dec 10.0192 10 whole (0.16)
+    - [Moon] J Mirach → J Haumea RA 174.7643 108×φ golden (23.77)
+  - Rahu: Jupiter, Moon, Sun — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 7 Beaufort West / Page Fuller
+    - [Jupiter] J Scheat → J Rahu RA 152.0077 152 whole (37.68)
+    - [Moon] J Alkes → J Rahu RA 28.9924 29 whole (38.51)
+    - [Moon] J Sadalmelik → J Rahu RA 137.5116 85×φ golden (11.81)
+    - [Moon] J Scheat → J Rahu RA 152.0077 152 whole (37.68)
+    - [Sun] J Al Rescha → J Rahu RA 163.4279 101×φ golden (63.78)
+    - [Sun] J Fomalhaut → J Rahu RA 150.4769 93×φ golden (98.30)
+  - Ketu: Jupiter, Moon — only
+    - [Jupiter] J Scheat → J Ketu RA 27.9923 28 whole (37.68)
+    - [Moon] J Alkes → J Ketu RA 151.0076 151 whole (38.51)
+    - [Moon] J Regulus → J Ketu Dec 6.0067 6 whole (44.29)
+    - [Moon] J Scheat → J Ketu RA 27.9923 28 whole (37.68)
+    - [Moon] J Vindemiatrix → J Ketu Dec 4.9985 5 whole (85.26)
+
+## 4 One True King / Sam Twiston-Davies
+### L1 same bodies
+- S Uranus → H Uranus RA 21.0584 13×φ golden (loose)
+- S Uranus → H Uranus Dec 7.9808 8 whole (0.16)
+- S Vesta → H Vesta Dec 14.0109 14 whole (20.72)
+- S Haumea → H Haumea Dec 3.0101 3 whole (24.56)
+- S Orcus → H Orcus Dec 4.0202 4 whole (loose)
+- S Transpluto → H Transpluto RA 2.9804 3 whole (0.04)
+- S Transpluto → H Transpluto Dec 1.1170 1.11111 ninth (loose)
+- S Sun → J Sun Dec 11.1440 11.1111 ninth (loose)
+- S Mars → J Mars Dec 46.8930 φ^8 phi power (loose)
+- S Jupiter → J Jupiter RA 155.3018 155.556 ninth (loose)
+- S Jupiter → J Jupiter Dec 11.2978 7×φ golden (loose)
+- S Saturn → J Saturn RA 1.9749 2 whole (loose)
+- S Chiron → J Chiron Dec 3.0146 3 whole (7.41)
+- S Ceres → J Ceres Dec 48.9833 49 whole (2.80)
+- S Pallas → J Pallas Dec 17.6761 17.7778 ninth (loose)
+- S Juno → J Juno RA 161.9749 162 whole (loose)
+- S Orcus → J Orcus RA 24.2653 15×φ golden (loose)
+- S Orcus → J Orcus Dec 14.4973 14.4444 ninth (loose)
+### L2 what lands on each same body
+- **H Uranus** (same body: S Uranus → H Uranus RA 21.0584 13×φ golden (loose); S Uranus → H Uranus Dec 7.9808 8 whole (0.16))
+  - star rows: H Al Rescha → H Uranus RA 13.3370 13.3333 ninth (95.60) [Sun]
+  - star rows: H Mirach → H Uranus RA 0.2587 conj (68.48) [Moon]
+  - star rows: H Mirach → H Uranus Dec 28.9987 29 whole (87.49) [Moon]
+  - other chart, top rows: S Sun → J Uranus RA 17.7776 17.7778 ninth (99.85) [Sun]
+  - other chart, star rows: J Castor → J Uranus RA 171.9860 172 whole (8.98) [Moon]
+  - other chart, star rows: J Rigel → J Uranus RA 153.0015 153 whole (85.29) [Moon]
+  - other chart, star rows: J Sualocin → J Uranus RA 24.2747 15×φ golden (75.83) [Moon]
+  - other chart, star rows: J Sualocin → J Uranus Dec 38.9997 39 whole (96.98) [Moon]
+- **H Vesta** (same body: S Vesta → H Vesta Dec 14.0109 14 whole (20.72))
+  - other chart, star rows: J Mirach → J Vesta RA 152.9824 153 whole (1.49) [Moon]
+  - other chart, star rows: J Sadalmelik → J Vesta RA 106.9925 107 whole (39.03) [Moon]
+- **H Haumea** (same body: S Haumea → H Haumea Dec 3.0101 3 whole (24.56))
+  - star rows: H Al Rescha → H Haumea RA 179.4734 10×φ^6 phi power (93.28) [Sun]
+  - star rows: H Alhena → H Haumea Dec 1.6661 1.66667 ninth (95.11) [Moon]
+  - star rows: H Scheat → H Haumea Dec 10.0149 10 whole (6.56) [Jupiter, Moon]
+  - other chart, star rows: J Sadalmelik → J Haumea RA 141.4017 141.4 sqrt2 (94.53) [Moon]
+- **H Orcus** (same body: S Orcus → H Orcus Dec 4.0202 4 whole (loose))
+  - body line: S Jupiter → Orcus RA 179.6087 111×φ golden (61.81)
+  - star rows: H Rigel → H Orcus Dec 0.0334 conj (78.97) [Moon]
+  - star rows: H Sualocin → H Orcus RA 160.1851 99×φ golden (98.67) [Moon]
+  - other chart, same body: S Orcus → J Orcus RA 24.2653 15×φ golden (loose)
+  - other chart, same body: S Orcus → J Orcus Dec 14.4973 14.4444 ninth (loose)
+  - other chart, star rows: J Sualocin → J Orcus RA 177.0103 177 whole (23.75) [Moon]
+- **H Transpluto** (same body: S Transpluto → H Transpluto RA 2.9804 3 whole (0.04); S Transpluto → H Transpluto Dec 1.1170 1.11111 ninth (loose))
+  - body line: S Moon → Transpluto Dec 0.2980 conj (0.00)
+  - star rows: H Regulus → H Transpluto RA 0.0671 conj (91.25) [Moon]
+  - star rows: H Sadalmelik → H Transpluto RA 179.4202 10×φ^6 phi power (95.04) [Moon]
+  - other chart, star rows: J Al Rescha → J Transpluto Dec 10.9846 11 whole (5.39) [Sun]
+  - other chart, star rows: J Castor → J Transpluto RA 31.9895 32 whole (22.48) [Moon]
+  - other chart, star rows: J Rigel → J Transpluto RA 67.0020 67 whole (81.36) [Moon]
+- **J Sun** (same body: S Sun → J Sun Dec 11.1440 11.1111 ninth (loose))
+  - top rows: S Jupiter → J Sun Dec 2.0011 2 whole (89.19) [Jupiter]
+  - other chart, star rows: H Regulus → H Sun RA 100.3305 62×φ golden (38.02) [Moon]
+  - other chart, star rows: H Rigel → H Sun Dec 27.0055 27 whole (52.60) [Moon]
+- **J Mars** (same body: S Mars → J Mars Dec 46.8930 φ^8 phi power (loose))
+  - top rows: S Moon → J Mars RA 56.9950 57 whole (56.29) [Moon]
+  - star rows: J Alhena → J Mars RA 9.0069 9 whole (42.87) [Moon]
+  - star rows: J Fomalhaut → J Mars RA 124.0199 124 whole (0.01) [Sun]
+  - star rows: J Mirach → J Mars RA 90.9973 91 whole (75.21) [Moon]
+  - star rows: J Pleiades → J Mars Dec 0.9937 1 whole (47.09) [Sun]
+  - star rows: J Sadalmelik → J Mars RA 136.9873 137 whole (13.28) [Moon]
+- **J Jupiter** (same body: S Jupiter → J Jupiter RA 155.3018 155.556 ninth (loose); S Jupiter → J Jupiter Dec 11.2978 7×φ golden (loose))
+  - top rows: S Eris → J Jupiter Dec 1.9963 2 whole (66.38) [Jupiter]
+  - star rows: J Pleiades → J Jupiter RA 124.5968 77×φ golden (55.96) [Sun]
+  - other chart, top rows: S Transpluto → H Jupiter Dec 6.9991 7 whole (91.55) [Jupiter, Moon]
+  - other chart, star rows: H Fomalhaut → H Jupiter Dec 46.9997 47 whole (97.03) [Sun]
+- **J Saturn** (same body: S Saturn → J Saturn RA 1.9749 2 whole (loose))
+  - star rows: J Al Rescha → J Saturn Dec 20.9817 21 whole (0.74) [Sun]
+  - star rows: J Alkes → J Saturn Dec 0.0801 conj (53.74) [Moon]
+  - star rows: J Rigel → J Saturn Dec 10.0169 10 whole (2.36) [Moon]
+  - other chart, star rows: H Alkes → H Saturn Dec 0.1099 conj (40.15) [Moon]
+- **J Chiron** (same body: S Chiron → J Chiron Dec 3.0146 3 whole (7.41))
+  - star rows: J Al Rescha → J Chiron RA 111.1810 111.111 ninth (88.56) [Sun]
+  - star rows: J Fomalhaut → J Chiron Dec 37.9830 38 whole (2.29) [Sun]
+  - other chart, star rows: H Castor → H Chiron RA 124.0186 124 whole (0.49) [Moon]
+  - other chart, star rows: H Rigel → H Chiron RA 89.0029 89 whole (72.82) [Moon]
+- **J Ceres** (same body: S Ceres → J Ceres Dec 48.9833 49 whole (2.80))
+  - top rows: S Sun → J Ceres RA 0.1349 conj (82.82) [Sun]
+  - star rows: J Castor → J Ceres Dec 62.0025 62 whole (76.20) [Moon]
+  - other chart, star rows: H Galactic Centre → H Ceres Dec 4.9996 5 whole (96.35) [Sun]
+  - other chart, star rows: H Regulus → H Ceres RA 160.0043 160 whole (61.39) [Moon]
+- **J Pallas** (same body: S Pallas → J Pallas Dec 17.6761 17.7778 ninth (loose))
+  - body line: S Jupiter → Pallas Dec 0.1900 conj (13.44)
+  - top rows: S Jupiter → J Pallas RA 67.0027 67 whole (75.21) [Jupiter]
+- **J Juno** (same body: S Juno → J Juno RA 161.9749 162 whole (loose))
+  - star rows: J Scheat → J Juno RA 111.6241 69×φ golden (14.04) [Jupiter, Moon]
+  - other chart, star rows: H Alkes → H Juno Dec 32.0020 32 whole (81.21) [Moon]
+  - other chart, star rows: H Castor → H Juno RA 21.9972 22 whole (73.83) [Moon]
+  - other chart, star rows: H Rigel → H Juno RA 57.0128 57 whole (12.79) [Moon]
+- **J Orcus** (same body: S Orcus → J Orcus RA 24.2653 15×φ golden (loose); S Orcus → J Orcus Dec 14.4973 14.4444 ninth (loose))
+  - body line: S Jupiter → Orcus RA 179.6087 111×φ golden (61.81)
+  - star rows: J Sualocin → J Orcus RA 177.0103 177 whole (23.75) [Moon]
+  - other chart, same body: S Orcus → H Orcus Dec 4.0202 4 whole (loose)
+  - other chart, star rows: H Rigel → H Orcus Dec 0.0334 conj (78.97) [Moon]
+  - other chart, star rows: H Sualocin → H Orcus RA 160.1851 99×φ golden (98.67) [Moon]
+### L3 the seven cases (L5 field tag on each)
+- **1. same body on both charts**
+  - Orcus — also: 3 Frero Banbou / Charlie Deutsch
+    - S Orcus → H Orcus Dec 4.0202 4 whole (loose)
+    - S Orcus → J Orcus RA 24.2653 15×φ golden (loose)
+    - S Orcus → J Orcus Dec 14.4973 14.4444 ninth (loose)
+- **2. one body in both planes**
+  - H Uranus — only
+    - S Uranus → H Uranus RA 21.0584 13×φ golden (loose)
+    - S Uranus → H Uranus Dec 7.9808 8 whole (0.16)
+  - H Transpluto — also: 3 Frero Banbou / Charlie Deutsch
+    - S Transpluto → H Transpluto RA 2.9804 3 whole (0.04)
+    - S Transpluto → H Transpluto Dec 1.1170 1.11111 ninth (loose)
+  - J Jupiter — only
+    - S Jupiter → J Jupiter RA 155.3018 155.556 ninth (loose)
+    - S Jupiter → J Jupiter Dec 11.2978 7×φ golden (loose)
+  - J Orcus — only
+    - S Orcus → J Orcus RA 24.2653 15×φ golden (loose)
+    - S Orcus → J Orcus Dec 14.4973 14.4444 ninth (loose)
+- **3. runner number = sky number**
+  - 13.3333 ninth — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch, 7 Beaufort West / Page Fuller
+    - H Al Rescha → H Uranus RA 13.3370 13.3333 ninth (95.60) = S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)
+  - 10×φ^6 phi power — also: 3 Frero Banbou / Charlie Deutsch, 7 Beaufort West / Page Fuller
+    - H Al Rescha → H Haumea RA 179.4734 10×φ^6 phi power (93.28) = S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)
+  - 66 whole — also: 1 Eclair D'Ainay / Harry Skelton, 7 Beaufort West / Page Fuller
+    - H Alkes → H Venus RA 66.0194 66 whole (0.08) = S Moon → Alhena RA 65.9978 66 whole (78.94)
+  - 10×φ^6 phi power — also: 3 Frero Banbou / Charlie Deutsch, 7 Beaufort West / Page Fuller
+    - H Sadalmelik → H Transpluto RA 179.4202 10×φ^6 phi power (95.04) = S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)
+  - 11 whole — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+    - J Al Rescha → J Transpluto Dec 10.9846 11 whole (5.39) = S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)
+  - 144.444 ninth — also: 3 Frero Banbou / Charlie Deutsch, 6 Le Ligerien / Ben Jones
+    - J Mirach → J Pluto RA 144.4301 144.444 ninth (98.48) = S Moon → Sualocin RA 144.4728 144.444 ninth (97.00)
+  - 37 whole — also: 2 Financier / Richard Patrick, 5 Cedar Hill / Jonathan Burke
+    - J Scheat → J Eris Dec 37.0068 37 whole (43.69) = S Sun → Galactic Centre RA 37.0023 37 whole (77.89)
+  - 41 whole — also: 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+    - J Vindemiatrix → J Quaoar RA 40.9890 41 whole (20.13) = S Sun → Fomalhaut RA 40.9968 41 whole (70.51)
+- **4. circle divisions**
+  - 8 = 360/45 — also: 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+    - S Uranus → H Uranus Dec 7.9808 8 whole (0.16)
+  - 3 = 360/120 — also: 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke
+    - S Haumea → H Haumea Dec 3.0101 3 whole (24.56)
+  - 4 = 360/90 — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch, 6 Le Ligerien / Ben Jones
+    - S Orcus → H Orcus Dec 4.0202 4 whole (loose)
+  - 3 = 360/120 — also: 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke
+    - S Transpluto → H Transpluto RA 2.9804 3 whole (0.04)
+  - 2 = 360/180 — also: 1 Eclair D'Ainay / Harry Skelton, 6 Le Ligerien / Ben Jones
+    - S Jupiter → H Neptune Dec 1.9967 2 whole (69.56)
+  - 5 = 360/72 — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+    - H Galactic Centre → H Ceres Dec 4.9996 5 whole (96.35)
+  - 4 = 360/90 — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch, 6 Le Ligerien / Ben Jones
+    - H Scheat → H Mercury Dec 3.9999 4 whole (98.82)
+  - 10 = 360/36 — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
+    - H Sualocin → H Venus Dec 9.9980 10 whole (80.88)
+  - 2 = 360/180 — also: 1 Eclair D'Ainay / Harry Skelton, 6 Le Ligerien / Ben Jones
+    - S Saturn → J Saturn RA 1.9749 2 whole (loose)
+  - 3 = 360/120 — also: 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke
+    - S Chiron → J Chiron Dec 3.0146 3 whole (7.41)
+  - 2 = 360/180 — also: 1 Eclair D'Ainay / Harry Skelton, 6 Le Ligerien / Ben Jones
+    - S Jupiter → J Sun Dec 2.0011 2 whole (89.19)
+  - 2 = 360/180 — also: 1 Eclair D'Ainay / Harry Skelton, 6 Le Ligerien / Ben Jones
+    - S Eris → J Jupiter Dec 1.9963 2 whole (66.38)
+- **5. same number in more than one place**
+  - 3 whole — also: 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke
+    - S Haumea → H Haumea Dec 3.0101 3 whole (24.56)
+    - S Transpluto → H Transpluto RA 2.9804 3 whole (0.04)
+    - S Chiron → J Chiron Dec 3.0146 3 whole (7.41)
+  - 4 whole — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch
+    - S Orcus → H Orcus Dec 4.0202 4 whole (loose)
+    - H Scheat → H Mercury Dec 3.9999 4 whole (98.82)
+  - 47 whole — only
+    - H Jupiter → H star Fomalhaut Dec 46.9997 47 whole (97.03)
+    - H Fomalhaut → H Jupiter Dec 46.9997 47 whole (97.03)
+  - 2 whole — also: 6 Le Ligerien / Ben Jones
+    - S Jupiter → H Neptune Dec 1.9967 2 whole (69.56)
+    - S Saturn → J Saturn RA 1.9749 2 whole (loose)
+    - S Jupiter → J Sun Dec 2.0011 2 whole (89.19)
+    - S Eris → J Jupiter Dec 1.9963 2 whole (66.38)
+  - 155.556 ninth — only
+    - S Sun → H Venus RA 155.5102 155.556 ninth (95.71)
+    - S Jupiter → J Jupiter RA 155.3018 155.556 ninth (loose)
+  - 10×φ^6 phi power — also: 3 Frero Banbou / Charlie Deutsch, 7 Beaufort West / Page Fuller
+    - H Al Rescha → H Haumea RA 179.4734 10×φ^6 phi power (93.28)
+    - H Sadalmelik → H Transpluto RA 179.4202 10×φ^6 phi power (95.04)
+  - 16.6667 ninth — also: 2 Financier / Richard Patrick
+    - H Pleiades → H Sedna Dec 16.6677 16.6667 ninth (99.08)
+    - J Sadalmelik → J Mercury Dec 16.6608 16.6667 ninth (95.01)
+  - 17.7778 ninth — also: 5 Cedar Hill / Jonathan Burke
+    - S Pallas → J Pallas Dec 17.6761 17.7778 ninth (loose)
+    - S Sun → J Uranus RA 17.7776 17.7778 ninth (99.85)
+  - 15×φ golden — also: 1 Eclair D'Ainay / Harry Skelton
+    - S Orcus → J Orcus RA 24.2653 15×φ golden (loose)
+    - J Sualocin → J Uranus RA 24.2747 15×φ golden (75.83)
+  - 77×φ golden — only
+    - J Jupiter → J star Pleiades RA 124.5968 77×φ golden (55.96)
+    - J Pleiades → J Jupiter RA 124.5968 77×φ golden (55.96)
+  - 67 whole — only
+    - S Jupiter → J Pallas RA 67.0027 67 whole (75.21)
+    - J Rigel → J Transpluto RA 67.0020 67 whole (81.36)
+- **6. star and sky line on one body**: none
+- **7. centres meeting**
+  - Orcus: Jupiter, Moon — also: 1 Eclair D'Ainay / Harry Skelton, 5 Cedar Hill / Jonathan Burke
+    - [Jupiter] S Orcus → H Orcus Dec 4.0202 4 whole (loose)
+    - [Jupiter] S Orcus → J Orcus RA 24.2653 15×φ golden (loose)
+    - [Jupiter] S Orcus → J Orcus Dec 14.4973 14.4444 ninth (loose)
+    - [Moon] H Rigel → H Orcus Dec 0.0334 conj (78.97)
+    - [Moon] H Sualocin → H Orcus RA 160.1851 99×φ golden (98.67)
+    - [Moon] J Sualocin → J Orcus RA 177.0103 177 whole (23.75)
+  - Transpluto: Moon, Sun — also: 1 Eclair D'Ainay / Harry Skelton, 6 Le Ligerien / Ben Jones
+    - [Moon] S Transpluto → H Transpluto RA 2.9804 3 whole (0.04)
+    - [Moon] S Transpluto → H Transpluto Dec 1.1170 1.11111 ninth (loose)
+    - [Moon] H Regulus → H Transpluto RA 0.0671 conj (91.25)
+    - [Moon] H Sadalmelik → H Transpluto RA 179.4202 10×φ^6 phi power (95.04)
+    - [Moon] J Castor → J Transpluto RA 31.9895 32 whole (22.48)
+    - [Moon] J Rigel → J Transpluto RA 67.0020 67 whole (81.36)
+    - [Sun] J Al Rescha → J Transpluto Dec 10.9846 11 whole (5.39)
+  - Neptune: Jupiter, Moon — also: 2 Financier / Richard Patrick, 5 Cedar Hill / Jonathan Burke
+    - [Jupiter] S Jupiter → H Neptune Dec 1.9967 2 whole (69.56)
+    - [Moon] S Moon → J Neptune RA 122.2244 122.222 ninth (99.70)
+    - [Moon] J Castor → J Neptune RA 174.0056 174 whole (51.94)
+    - [Moon] J Rigel → J Neptune RA 150.9819 151 whole (0.94)
+  - Gonggong: Jupiter, Moon, Sun — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+    - [Jupiter] S Jupiter → H Gonggong RA 0.7674 conj (23.85)
+    - [Moon] H Mirach → H Gonggong RA 41.4215 41.4 silver (99.82)
+    - [Moon] J Alhena → J Gonggong Dec 35.9912 36 whole (31.52)
+    - [Moon] J Vindemiatrix → J Gonggong RA 133.9974 134 whole (75.37)
+    - [Sun] J Al Rescha → J Gonggong RA 60.9801 61 whole (0.00)
+  - Venus: Jupiter, Moon, Sun — also: 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+    - [Jupiter] H Scheat → H Venus RA 112.9816 113 whole (0.62)
+    - [Moon] H Alhena → H Venus RA 0.5000 conj (44.45)
+    - [Moon] H Alkes → H Venus RA 66.0194 66 whole (0.08)
+    - [Moon] H Castor → H Venus Dec 5.9816 6 whole (0.62)
+    - [Moon] H Scheat → H Venus RA 112.9816 113 whole (0.62)
+    - [Moon] H Sualocin → H Venus RA 149.0126 149 whole (13.60)
+    - [Moon] H Sualocin → H Venus Dec 9.9980 10 whole (80.88)
+    - [Moon] J Rigel → J Venus RA 153.7432 95×φ golden (0.53)
+    - [Moon] J Vindemiatrix → J Venus Dec 30.7412 19×φ golden (91.15)
+    - [Sun] S Sun → H Venus RA 155.5102 155.556 ninth (95.71)
+    - [Sun] S Sun → J Venus Dec 0.1144 conj (38.28)
+  - Jupiter: Jupiter, Moon, Sun — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+    - [Jupiter] S Transpluto → H Jupiter Dec 6.9991 7 whole (91.55)
+    - [Jupiter] S Eris → J Jupiter Dec 1.9963 2 whole (66.38)
+    - [Moon] S Transpluto → H Jupiter Dec 6.9991 7 whole (91.55)
+    - [Sun] H Fomalhaut → H Jupiter Dec 46.9997 47 whole (97.03)
+    - [Sun] J Pleiades → J Jupiter RA 124.5968 77×φ golden (55.96)
+  - Uranus: Moon, Sun — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+    - [Moon] H Mirach → H Uranus RA 0.2587 conj (68.48)
+    - [Moon] H Mirach → H Uranus Dec 28.9987 29 whole (87.49)
+    - [Moon] J Castor → J Uranus RA 171.9860 172 whole (8.98)
+    - [Moon] J Rigel → J Uranus RA 153.0015 153 whole (85.29)
+    - [Moon] J Sualocin → J Uranus RA 24.2747 15×φ golden (75.83)
+    - [Moon] J Sualocin → J Uranus Dec 38.9997 39 whole (96.98)
+    - [Sun] H Al Rescha → H Uranus RA 13.3370 13.3333 ninth (95.60)
+    - [Sun] S Sun → J Uranus RA 17.7776 17.7778 ninth (99.85)
+  - Haumea: Jupiter, Moon, Sun — also: 5 Cedar Hill / Jonathan Burke
+    - [Jupiter] H Scheat → H Haumea Dec 10.0149 10 whole (6.56)
+    - [Moon] H Alhena → H Haumea Dec 1.6661 1.66667 ninth (95.11)
+    - [Moon] H Scheat → H Haumea Dec 10.0149 10 whole (6.56)
+    - [Moon] J Sadalmelik → J Haumea RA 141.4017 141.4 sqrt2 (94.53)
+    - [Sun] H Al Rescha → H Haumea RA 179.4734 10×φ^6 phi power (93.28)
+  - Rahu: Moon, Sun — only
+    - [Moon] H Alhena → H Rahu RA 88.8804 88.8889 ninth (93.89)
+    - [Moon] H Alhena → H Rahu Dec 19.9814 20 whole (0.48)
+    - [Sun] J Al Rescha → J Rahu RA 127.8340 79×φ golden (50.70)
+  - Quaoar: Moon, Sun — also: 1 Eclair D'Ainay / Harry Skelton, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+    - [Moon] H Alhena → H Quaoar RA 168.0166 168 whole (2.84)
+    - [Moon] H Mirach → H Quaoar RA 109.9882 110 whole (16.65)
+    - [Moon] H Sadalmelik → H Quaoar RA 64.0050 64 whole (56.42)
+    - [Moon] J Vindemiatrix → J Quaoar RA 40.9890 41 whole (20.13)
+    - [Sun] H Galactic Centre → H Quaoar RA 1.0184 conj (10.31)
+    - [Sun] J Al Rescha → J Quaoar RA 153.9885 154 whole (18.17)
+  - Saturn: Moon, Sun — also: 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
+    - [Moon] H Alkes → H Saturn Dec 0.1099 conj (40.15)
+    - [Moon] J Alkes → J Saturn Dec 0.0801 conj (53.74)
+    - [Moon] J Rigel → J Saturn Dec 10.0169 10 whole (2.36)
+    - [Sun] J Al Rescha → J Saturn Dec 20.9817 21 whole (0.74)
+  - Juno: Jupiter, Moon — only
+    - [Jupiter] J Scheat → J Juno RA 111.6241 69×φ golden (14.04)
+    - [Moon] H Alkes → H Juno Dec 32.0020 32 whole (81.21)
+    - [Moon] H Castor → H Juno RA 21.9972 22 whole (73.83)
+    - [Moon] H Rigel → H Juno RA 57.0128 57 whole (12.79)
+    - [Moon] J Scheat → J Juno RA 111.6241 69×φ golden (14.04)
+  - Eris: Jupiter, Moon — also: 5 Cedar Hill / Jonathan Burke
+    - [Jupiter] J Scheat → J Eris Dec 37.0068 37 whole (43.69)
+    - [Moon] H Alkes → H Eris RA 139.1791 86×φ golden (1.63)
+    - [Moon] J Scheat → J Eris Dec 37.0068 37 whole (43.69)
+  - Chiron: Moon, Sun — also: 3 Frero Banbou / Charlie Deutsch
+    - [Moon] H Castor → H Chiron RA 124.0186 124 whole (0.49)
+    - [Moon] H Rigel → H Chiron RA 89.0029 89 whole (72.82)
+    - [Sun] J Al Rescha → J Chiron RA 111.1810 111.111 ninth (88.56)
+    - [Sun] J Fomalhaut → J Chiron Dec 37.9830 38 whole (2.29)
+  - Ceres: Moon, Sun — also: 3 Frero Banbou / Charlie Deutsch, 6 Le Ligerien / Ben Jones
+    - [Moon] H Regulus → H Ceres RA 160.0043 160 whole (61.39)
+    - [Moon] J Castor → J Ceres Dec 62.0025 62 whole (76.20)
+    - [Sun] H Galactic Centre → H Ceres Dec 4.9996 5 whole (96.35)
+    - [Sun] S Sun → J Ceres RA 0.1349 conj (82.82)
+  - Makemake: Jupiter, Moon — only
+    - [Jupiter] J Scheat → J Makemake Dec 5.9830 6 whole (2.25)
+    - [Moon] H Mirach → H Makemake RA 174.7358 108×φ golden (40.05)
+    - [Moon] J Scheat → J Makemake Dec 5.9830 6 whole (2.25)
+    - [Moon] J Vindemiatrix → J Makemake RA 22.9910 23 whole (30.28)
+  - Mercury: Jupiter, Moon, Sun — also: 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+    - [Jupiter] H Scheat → H Mercury Dec 3.9999 4 whole (98.82)
+    - [Moon] H Scheat → H Mercury Dec 3.9999 4 whole (98.82)
+    - [Moon] J Sadalmelik → J Mercury Dec 16.6608 16.6667 ninth (95.01)
+    - [Sun] H Pleiades → H Mercury Dec 0.0239 conj (84.72)
+    - [Sun] J Al Rescha → J Mercury RA 171.5425 106×φ golden (0.21)
+  - Sedna: Moon, Sun — also: 2 Financier / Richard Patrick, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+    - [Moon] J Vindemiatrix → J Sedna RA 152.0150 152 whole (6.23)
+    - [Sun] H Pleiades → H Sedna Dec 16.6677 16.6667 ninth (99.08)
+    - [Sun] J Al Rescha → J Sedna RA 13.0075 13 whole (39.09)
+  - Sun: Jupiter, Moon — only
+    - [Jupiter] S Jupiter → J Sun Dec 2.0011 2 whole (89.19)
+    - [Moon] H Regulus → H Sun RA 100.3305 62×φ golden (38.02)
+    - [Moon] H Rigel → H Sun Dec 27.0055 27 whole (52.60)
+  - Mars: Moon, Sun — also: 1 Eclair D'Ainay / Harry Skelton, 6 Le Ligerien / Ben Jones
+    - [Moon] S Moon → J Mars RA 56.9950 57 whole (56.29)
+    - [Moon] J Alhena → J Mars RA 9.0069 9 whole (42.87)
+    - [Moon] J Mirach → J Mars RA 90.9973 91 whole (75.21)
+    - [Moon] J Sadalmelik → J Mars RA 136.9873 137 whole (13.28)
+    - [Sun] J Fomalhaut → J Mars RA 124.0199 124 whole (0.01)
+    - [Sun] J Pleiades → J Mars Dec 0.9937 1 whole (47.09)
+
+## 5 Cedar Hill / Jonathan Burke
+### L1 same bodies
+- S Sun → H Sun RA 164.0028 164 whole (73.99)
+- S Sun → H Sun Dec 42.3654 10×φ^3 phi power (95.58)
+- S Venus → H Venus Dec 38.0256 38 whole (loose)
+- S Uranus → H Uranus RA 23.0164 23 whole (3.19)
+- S Ceres → H Ceres Dec 20.9872 21 whole (12.91)
+- S Haumea → H Haumea RA 8.9761 9 whole (loose)
+- S Orcus → H Orcus RA 7.7760 7.77778 ninth (loose)
+- S Quaoar → H Quaoar RA 11.1638 11.1111 ninth (loose)
+- S Mercury → J Mercury RA 17.6596 17.7778 ninth (loose)
+- S Saturn → J Saturn RA 34.0095 34 whole (27.71)
+- S Saturn → J Saturn Dec 11.0959 φ^5 phi power (80.48)
+- S Chiron → J Chiron Dec 12.9679 8×φ golden (loose)
+- S Juno → J Juno Dec 0.9737 1 whole (loose)
+- S Vesta → J Vesta RA 66.6537 66.6667 ninth (loose)
+- S Makemake → J Makemake Dec 11.0665 φ^5 phi power (loose)
+- S Transpluto → J Transpluto Dec 3.0150 3 whole (6.23)
+### L2 what lands on each same body
+- **H Sun** (same body: S Sun → H Sun RA 164.0028 164 whole (73.99); S Sun → H Sun Dec 42.3654 10×φ^3 phi power (95.58))
+  - top rows: S Sun → H Sun RA 164.0028 164 whole (73.99) [Sun]
+  - top rows: S Sun → H Sun Dec 42.3654 10×φ^3 phi power (95.58) [Sun]
+  - star rows: H Alhena → H Sun RA 7.9942 8 whole (50.47) [Moon]
+  - star rows: H Fomalhaut → H Sun RA 122.9990 φ^10 phi power (97.68) [Sun]
+  - star rows: H Galactic Centre → H Sun RA 159.0063 159 whole (47.06) [Sun]
+  - star rows: H Mirach → H Sun RA 89.9829 90 whole (2.10) [Moon]
+- **H Venus** (same body: S Venus → H Venus Dec 38.0256 38 whole (loose))
+  - star rows: H Al Rescha → H Venus Dec 18.9830 19 whole (2.27) [Sun]
+  - other chart, top rows: S Sun → J Venus RA 1.4855 conj (0.01) [Sun]
+  - other chart, star rows: J Sualocin → J Venus RA 5.0056 5 whole (52.11) [Moon]
+- **H Uranus** (same body: S Uranus → H Uranus RA 23.0164 23 whole (3.19))
+  - star rows: H Al Rescha → H Uranus Dec 2.9962 3 whole (65.42) [Sun]
+  - other chart, top rows: S Sun → J Uranus Dec 1.0010 1 whole (90.11) [Sun]
+  - other chart, star rows: J Pleiades → J Uranus Dec 45.0020 45 whole (80.70) [Sun]
+  - other chart, star rows: J Scheat → J Uranus Dec 48.9808 49 whole (0.14) [Jupiter, Moon]
+- **H Ceres** (same body: S Ceres → H Ceres Dec 20.9872 21 whole (12.91))
+  - top rows: S Sun → H Ceres Dec 17.7757 17.7778 ninth (98.41) [Sun]
+  - star rows: H Alkes → H Ceres Dec 16.1803 10×φ^1 phi power (99.98) [Moon]
+  - star rows: H Castor → H Ceres Dec 34.0075 34 whole (39.14) [Moon]
+  - star rows: H Fomalhaut → H Ceres Dec 27.5012 17×φ golden (69.52) [Sun]
+  - star rows: H Rigel → H Ceres RA 124.5903 77×φ golden (89.62) [Moon]
+  - other chart, star rows: J Alkes → J Ceres RA 62.9887 63 whole (18.95) [Moon]
+  - other chart, star rows: J Fomalhaut → J Ceres RA 116.4757 72×φ golden (8.89) [Sun]
+  - other chart, star rows: J Mirach → J Ceres Dec 46.9784 φ^8 phi power (99.76) [Moon]
+  - other chart, star rows: J Scheat → J Ceres RA 118.0070 118 whole (42.06) [Jupiter, Moon]
+- **H Haumea** (same body: S Haumea → H Haumea RA 8.9761 9 whole (loose))
+  - star rows: H Sadalmelik → H Haumea RA 122.9113 φ^10 phi power (75.51) [Moon]
+  - star rows: H Vindemiatrix → H Haumea RA 12.9955 13 whole (59.75) [Moon]
+  - other chart, star rows: J Fomalhaut → J Haumea Dec 51.0011 51 whole (89.11) [Sun]
+  - other chart, star rows: J Scheat → J Haumea RA 152.0992 94×φ golden (76.65) [Jupiter, Moon]
+- **H Orcus** (same body: S Orcus → H Orcus RA 7.7760 7.77778 ninth (loose))
+  - body line: S Jupiter → Orcus RA 179.6087 111×φ golden (61.81)
+  - star rows: H Scheat → H Orcus RA 163.4424 101×φ golden (12.50) [Jupiter, Moon]
+- **H Quaoar** (same body: S Quaoar → H Quaoar RA 11.1638 11.1111 ninth (loose))
+  - star rows: H Galactic Centre → H Quaoar RA 1.3795 conj (0.64) [Sun]
+  - star rows: H Mirach → H Quaoar Dec 51.0170 51 whole (2.21) [Moon]
+  - star rows: H Scheat → H Quaoar RA 80.9042 50×φ golden (85.02) [Jupiter, Moon]
+  - other chart, star rows: J Alkes → J Quaoar RA 77.0101 77 whole (24.55) [Moon]
+  - other chart, star rows: J Scheat → J Quaoar RA 103.9856 104 whole (7.97) [Jupiter, Moon]
+- **J Mercury** (same body: S Mercury → J Mercury RA 17.6596 17.7778 ninth (loose))
+  - star rows: J Pleiades → J Mercury Dec 48.5484 30×φ golden (59.62) [Sun]
+  - other chart, star rows: H Al Rescha → H Mercury Dec 16.9886 17 whole (18.57) [Sun]
+  - other chart, star rows: H Alkes → H Mercury RA 78.9948 79 whole (54.96) [Moon]
+  - other chart, star rows: H Scheat → H Mercury RA 99.9964 100 ninth (97.63) [Jupiter, Moon]
+- **J Saturn** (same body: S Saturn → J Saturn RA 34.0095 34 whole (27.71); S Saturn → J Saturn Dec 11.0959 φ^5 phi power (80.48))
+  - star rows: J Castor → J Saturn RA 122.9891 φ^10 phi power (99.09) [Moon]
+  - star rows: J Galactic Centre → J Saturn Dec 22.6593 14×φ golden (62.13) [Sun]
+  - other chart, star rows: H Castor → H Saturn RA 111.1398 111.111 ninth (95.31) [Moon]
+  - other chart, star rows: H Galactic Centre → H Saturn Dec 14.4500 14.4444 ninth (94.15) [Sun]
+- **J Chiron** (same body: S Chiron → J Chiron Dec 12.9679 8×φ golden (loose))
+  - star rows: J Fomalhaut → J Chiron Dec 22.0036 22 whole (67.02) [Sun]
+  - other chart, star rows: H Sadalmelik → H Chiron RA 15.0059 15 whole (49.79) [Moon]
+  - other chart, star rows: H Sadalmelik → H Chiron Dec 0.0128 conj (91.66) [Moon]
+  - other chart, star rows: H Scheat → H Chiron RA 0.5083 conj (43.71) [Jupiter, Moon]
+- **J Juno** (same body: S Juno → J Juno Dec 0.9737 1 whole (loose))
+  - star rows: J Galactic Centre → J Juno Dec 14.9965 15 whole (67.79) [Sun]
+  - other chart, star rows: H Castor → H Juno RA 42.0129 42 whole (12.54) [Moon]
+  - other chart, star rows: H Rigel → H Juno RA 7.0002 7 whole (97.54) [Moon]
+- **J Vesta** (same body: S Vesta → J Vesta RA 66.6537 66.6667 ninth (loose))
+  - star rows: J Alkes → J Vesta RA 43.9826 44 whole (1.71) [Moon]
+  - star rows: J Castor → J Vesta Dec 37.0153 37 whole (5.52) [Moon]
+  - star rows: J Scheat → J Vesta RA 137.0131 137 whole (11.83) [Jupiter, Moon]
+- **J Makemake** (same body: S Makemake → J Makemake Dec 11.0665 φ^5 phi power (loose))
+  - star rows: J Alhena → J Makemake RA 76.9859 77 whole (8.59) [Moon]
+  - star rows: J Fomalhaut → J Makemake RA 167.9906 168 whole (27.97) [Sun]
+  - star rows: J Galactic Centre → J Makemake RA 89.9905 90 whole (27.77) [Sun]
+  - star rows: J Mirach → J Makemake RA 158.9850 159 whole (6.27) [Moon]
+  - other chart, star rows: H Alhena → H Makemake Dec 9.9999 10 ninth (99.04) [Moon]
+  - other chart, star rows: H Fomalhaut → H Makemake Dec 56.0194 56 whole (0.10) [Sun]
+- **J Transpluto** (same body: S Transpluto → J Transpluto Dec 3.0150 3 whole (6.23))
+  - body line: S Moon → Transpluto Dec 0.2980 conj (0.00)
+  - top rows: S Jupiter → J Transpluto Dec 24.1457 24.14 silver (94.25) [Jupiter]
+  - star rows: J Alhena → J Transpluto Dec 3.0050 3 whole (55.99) [Moon]
+  - star rows: J Fomalhaut → J Transpluto Dec 43.0189 43 whole (0.33) [Sun]
+  - star rows: J Galactic Centre → J Transpluto RA 119.7195 74×φ golden (28.58) [Sun]
+  - star rows: J Mirach → J Transpluto Dec 22.2298 22.2222 ninth (89.48) [Moon]
+  - other chart, star rows: H Alkes → H Transpluto RA 13.0134 13 whole (10.87) [Moon]
+  - other chart, star rows: H Regulus → H Transpluto RA 0.1628 conj (79.47) [Moon]
+  - other chart, star rows: H Sualocin → H Transpluto RA 157.9896 158 whole (23.16) [Moon]
+### L3 the seven cases (L5 field tag on each)
+- **1. same body on both charts**: none
+- **2. one body in both planes**
+  - H Sun — only
+    - S Sun → H Sun RA 164.0028 164 whole (73.99)
+    - S Sun → H Sun Dec 42.3654 10×φ^3 phi power (95.58)
+  - J Saturn — only
+    - S Saturn → J Saturn RA 34.0095 34 whole (27.71)
+    - S Saturn → J Saturn Dec 11.0959 φ^5 phi power (80.48)
+- **3. runner number = sky number**
+  - 11 whole — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones
+    - S Sun → H Mars Dec 10.9952 11 whole (58.00) = S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)
+  - 37 whole — also: 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies
+    - H Fomalhaut → H Sedna Dec 37.0172 37 whole (1.94) = S Sun → Galactic Centre RA 37.0023 37 whole (77.89)
+  - 37 whole — also: 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies
+    - H Scheat → H Mars Dec 36.9809 37 whole (0.22) = S Sun → Galactic Centre RA 37.0023 37 whole (77.89)
+  - 18.8889 ninth — also: 3 Frero Banbou / Charlie Deutsch, 7 Beaufort West / Page Fuller
+    - H Sualocin → H Eris Dec 18.8829 18.8889 ninth (95.71) = S Moon → Rigel Dec 18.8804 18.8889 ninth (93.87)
+  - 44 whole — also: 2 Financier / Richard Patrick, 6 Le Ligerien / Ben Jones
+    - J Alkes → J Vesta RA 43.9826 44 whole (1.71) = S Sun → Pleiades Dec 44.0004 44 whole (96.38)
+  - 37 whole — also: 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies
+    - J Castor → J Vesta Dec 37.0153 37 whole (5.52) = S Sun → Galactic Centre RA 37.0023 37 whole (77.89)
+  - 14×φ golden — also: 2 Financier / Richard Patrick
+    - J Galactic Centre → J Saturn Dec 22.6593 14×φ golden (62.13) = S Sun → Al Rescha Dec 22.6574 14×φ golden (71.84)
+- **4. circle divisions**
+  - 9 = 360/40 — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 7 Beaufort West / Page Fuller
+    - S Haumea → H Haumea RA 8.9761 9 whole (loose)
+  - 3 = 360/120 — also: 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies
+    - H Al Rescha → H Uranus Dec 2.9962 3 whole (65.42)
+  - 8 = 360/45 — also: 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones
+    - H Alhena → H Sun RA 7.9942 8 whole (50.47)
+  - 9 = 360/40 — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 7 Beaufort West / Page Fuller
+    - H Alhena → H Sedna Dec 9.0023 9 whole (78.33)
+  - 45 = 360/8 — only
+    - H Castor → H Gonggong Dec 44.9959 45 whole (63.09)
+  - 1 = 360/360 — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 6 Le Ligerien / Ben Jones
+    - S Juno → J Juno Dec 0.9737 1 whole (loose)
+  - 3 = 360/120 — also: 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies
+    - S Transpluto → J Transpluto Dec 3.0150 3 whole (6.23)
+  - 10 = 360/36 — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies, 7 Beaufort West / Page Fuller
+    - S Jupiter → J Neptune Dec 9.9987 10 whole (87.79)
+  - 1 = 360/360 — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 6 Le Ligerien / Ben Jones
+    - S Sun → J Uranus Dec 1.0010 1 whole (90.11)
+  - 20 = 360/18 — also: 2 Financier / Richard Patrick, 7 Beaufort West / Page Fuller
+    - S Moon → J Rahu Dec 20.0020 20 whole (80.85)
+  - 3 = 360/120 — also: 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies
+    - J Alhena → J Transpluto Dec 3.0050 3 whole (55.99)
+  - 60 = 360/6 — also: 2 Financier / Richard Patrick
+    - J Fomalhaut → J Sedna RA 59.9982 60 whole (83.07)
+  - 15 = 360/24 — only
+    - J Galactic Centre → J Juno Dec 14.9965 15 whole (67.79)
+  - 45 = 360/8 — only
+    - J Pleiades → J Uranus Dec 45.0020 45 whole (80.70)
+  - 9 = 360/40 — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 7 Beaufort West / Page Fuller
+    - J Sadalmelik → J Rahu Dec 9.0050 9 whole (55.96)
+  - 5 = 360/72 — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+    - J Sualocin → J Venus RA 5.0056 5 whole (52.11)
+- **5. same number in more than one place**
+  - 23 whole — only
+    - S Uranus → H Uranus RA 23.0164 23 whole (3.19)
+    - J Sadalmelik → J Mars Dec 23.0004 23 whole (96.50)
+  - 9 whole — also: 3 Frero Banbou / Charlie Deutsch
+    - S Haumea → H Haumea RA 8.9761 9 whole (loose)
+    - H Alhena → H Sedna Dec 9.0023 9 whole (78.33)
+    - J Sadalmelik → J Rahu Dec 9.0050 9 whole (55.96)
+  - 17.7778 ninth — also: 4 One True King / Sam Twiston-Davies
+    - S Sun → H Ceres Dec 17.7757 17.7778 ninth (98.41)
+    - S Mercury → J Mercury RA 17.6596 17.7778 ninth (loose)
+  - 34 whole — also: 7 Beaufort West / Page Fuller
+    - S Moon → H Mars RA 34.0049 34 whole (57.21)
+    - S Saturn → J Saturn RA 34.0095 34 whole (27.71)
+    - S Moon → J Mars Dec 33.9973 34 whole (75.09)
+  - 3 whole — also: 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies
+    - H Al Rescha → H Uranus Dec 2.9962 3 whole (65.42)
+    - S Transpluto → J Transpluto Dec 3.0150 3 whole (6.23)
+    - J Alhena → J Transpluto Dec 3.0050 3 whole (55.99)
+  - 45 whole — only
+    - H Castor → H Gonggong Dec 44.9959 45 whole (63.09)
+    - J Pleiades → J Uranus Dec 45.0020 45 whole (80.70)
+  - φ^10 phi power — only
+    - H Fomalhaut → H Sun RA 122.9990 φ^10 phi power (97.68)
+    - H Sadalmelik → H Haumea RA 122.9113 φ^10 phi power (75.51)
+    - J Castor → J Saturn RA 122.9891 φ^10 phi power (99.09)
+  - φ^5 phi power — also: 7 Beaufort West / Page Fuller
+    - S Saturn → J Saturn Dec 11.0959 φ^5 phi power (80.48)
+    - S Makemake → J Makemake Dec 11.0665 φ^5 phi power (loose)
+  - 1 whole — also: 2 Financier / Richard Patrick, 6 Le Ligerien / Ben Jones
+    - S Juno → J Juno Dec 0.9737 1 whole (loose)
+    - S Sun → J Uranus Dec 1.0010 1 whole (90.11)
+- **6. star and sky line on one body**: none
+- **7. centres meeting**
+  - Orcus: Jupiter, Moon — also: 1 Eclair D'Ainay / Harry Skelton, 4 One True King / Sam Twiston-Davies
+    - [Jupiter] S Orcus → H Orcus RA 7.7760 7.77778 ninth (loose)
+    - [Jupiter] H Scheat → H Orcus RA 163.4424 101×φ golden (12.50)
+    - [Moon] H Scheat → H Orcus RA 163.4424 101×φ golden (12.50)
+  - Pluto: Jupiter, Moon, Sun — only
+    - [Jupiter] S Jupiter → H Pluto RA 53.9987 54 whole (87.53)
+    - [Jupiter] J Scheat → J Pluto Dec 35.9927 36 whole (40.51)
+    - [Moon] H Alkes → H Pluto Dec 2.0122 2 whole (15.12)
+    - [Moon] H Sadalmelik → H Pluto Dec 19.9921 20 whole (36.83)
+    - [Moon] J Rigel → J Pluto Dec 0.2943 conj (0.04)
+    - [Moon] J Scheat → J Pluto Dec 35.9927 36 whole (40.51)
+    - [Sun] J Pleiades → J Pluto Dec 32.0140 32 whole (8.99)
+  - Rahu: Jupiter, Moon — also: 6 Le Ligerien / Ben Jones
+    - [Jupiter] S Jupiter → H Rahu RA 134.0028 134 whole (73.70)
+    - [Moon] S Moon → J Rahu Dec 20.0020 20 whole (80.85)
+    - [Moon] J Regulus → J Rahu RA 50.1588 31×φ golden (98.55)
+    - [Moon] J Sadalmelik → J Rahu Dec 9.0050 9 whole (55.96)
+  - Gonggong: Jupiter, Moon, Sun — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+    - [Jupiter] S Jupiter → H Gonggong RA 1.0935 conj (7.34)
+    - [Moon] H Castor → H Gonggong Dec 44.9959 45 whole (63.09)
+    - [Moon] H Sualocin → H Gonggong Dec 29.0193 29 whole (0.13)
+    - [Moon] J Alkes → J Gonggong Dec 0.2671 conj (1.20)
+    - [Moon] J Sadalmelik → J Gonggong RA 1.0923 conj (7.39)
+    - [Sun] H Pleiades → H Gonggong Dec 37.2111 23×φ golden (78.33)
+  - Sun: Moon, Sun — also: 2 Financier / Richard Patrick
+    - [Moon] H Alhena → H Sun RA 7.9942 8 whole (50.47)
+    - [Moon] H Mirach → H Sun RA 89.9829 90 whole (2.10)
+    - [Sun] S Sun → H Sun RA 164.0028 164 whole (73.99)
+    - [Sun] S Sun → H Sun Dec 42.3654 10×φ^3 phi power (95.58)
+    - [Sun] H Fomalhaut → H Sun RA 122.9990 φ^10 phi power (97.68)
+    - [Sun] H Galactic Centre → H Sun RA 159.0063 159 whole (47.06)
+  - Mars: Jupiter, Moon, Sun — also: 3 Frero Banbou / Charlie Deutsch
+    - [Jupiter] H Scheat → H Mars Dec 36.9809 37 whole (0.22)
+    - [Moon] S Moon → H Mars RA 34.0049 34 whole (57.21)
+    - [Moon] H Alhena → H Mars RA 100.0139 100 whole (9.22)
+    - [Moon] H Mirach → H Mars RA 177.9974 178 whole (75.51)
+    - [Moon] H Sadalmelik → H Mars RA 132.0136 132 whole (10.13)
+    - [Moon] H Scheat → H Mars Dec 36.9809 37 whole (0.22)
+    - [Moon] S Moon → J Mars Dec 33.9973 34 whole (75.09)
+    - [Moon] J Sadalmelik → J Mars Dec 23.0004 23 whole (96.50)
+    - [Sun] S Sun → H Mars Dec 10.9952 11 whole (58.00)
+    - [Sun] H Fomalhaut → H Mars RA 144.9813 145 whole (0.39)
+    - [Sun] H Galactic Centre → H Mars RA 66.9866 67 whole (10.76)
+    - [Sun] H Pleiades → H Mars Dec 33.0032 33 whole (70.76)
+  - Ceres: Jupiter, Moon, Sun — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick
+    - [Jupiter] J Scheat → J Ceres RA 118.0070 118 whole (42.06)
+    - [Moon] H Alkes → H Ceres Dec 16.1803 10×φ^1 phi power (99.98)
+    - [Moon] H Castor → H Ceres Dec 34.0075 34 whole (39.14)
+    - [Moon] H Rigel → H Ceres RA 124.5903 77×φ golden (89.62)
+    - [Moon] J Alkes → J Ceres RA 62.9887 63 whole (18.95)
+    - [Moon] J Mirach → J Ceres Dec 46.9784 φ^8 phi power (99.76)
+    - [Moon] J Scheat → J Ceres RA 118.0070 118 whole (42.06)
+    - [Sun] S Sun → H Ceres Dec 17.7757 17.7778 ninth (98.41)
+    - [Sun] H Fomalhaut → H Ceres Dec 27.5012 17×φ golden (69.52)
+    - [Sun] J Fomalhaut → J Ceres RA 116.4757 72×φ golden (8.89)
+  - Sedna: Moon, Sun — also: 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones
+    - [Moon] H Alhena → H Sedna Dec 9.0023 9 whole (78.33)
+    - [Sun] S Sun → H Sedna RA 111.6371 69×φ golden (60.26)
+    - [Sun] H Fomalhaut → H Sedna Dec 37.0172 37 whole (1.94)
+    - [Sun] S Sun → J Sedna RA 100.9948 101 whole (55.01)
+    - [Sun] J Fomalhaut → J Sedna RA 59.9982 60 whole (83.07)
+    - [Sun] J Galactic Centre → J Sedna RA 137.9983 138 whole (83.42)
+  - Mercury: Jupiter, Moon, Sun — also: 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+    - [Jupiter] H Scheat → H Mercury RA 99.9964 100 ninth (97.63)
+    - [Moon] H Alkes → H Mercury RA 78.9948 79 whole (54.96)
+    - [Moon] H Scheat → H Mercury RA 99.9964 100 ninth (97.63)
+    - [Sun] H Al Rescha → H Mercury Dec 16.9886 17 whole (18.57)
+    - [Sun] J Pleiades → J Mercury Dec 48.5484 30×φ golden (59.62)
+  - Venus: Moon, Sun — only
+    - [Moon] J Sualocin → J Venus RA 5.0056 5 whole (52.11)
+    - [Sun] H Al Rescha → H Venus Dec 18.9830 19 whole (2.27)
+    - [Sun] S Sun → J Venus RA 1.4855 conj (0.01)
+  - Uranus: Jupiter, Moon, Sun — only
+    - [Jupiter] J Scheat → J Uranus Dec 48.9808 49 whole (0.14)
+    - [Moon] J Scheat → J Uranus Dec 48.9808 49 whole (0.14)
+    - [Sun] H Al Rescha → H Uranus Dec 2.9962 3 whole (65.42)
+    - [Sun] S Sun → J Uranus Dec 1.0010 1 whole (90.11)
+    - [Sun] J Pleiades → J Uranus Dec 45.0020 45 whole (80.70)
+  - Makemake: Moon, Sun — also: 1 Eclair D'Ainay / Harry Skelton
+    - [Moon] H Alhena → H Makemake Dec 9.9999 10 ninth (99.04)
+    - [Moon] J Alhena → J Makemake RA 76.9859 77 whole (8.59)
+    - [Moon] J Mirach → J Makemake RA 158.9850 159 whole (6.27)
+    - [Sun] H Fomalhaut → H Makemake Dec 56.0194 56 whole (0.10)
+    - [Sun] J Fomalhaut → J Makemake RA 167.9906 168 whole (27.97)
+    - [Sun] J Galactic Centre → J Makemake RA 89.9905 90 whole (27.77)
+  - Pallas: Jupiter, Moon — also: 3 Frero Banbou / Charlie Deutsch, 6 Le Ligerien / Ben Jones
+    - [Jupiter] H Scheat → H Pallas RA 174.7439 108×φ golden (77.98)
+    - [Moon] H Alkes → H Pallas Dec 32.0141 32 whole (8.80)
+    - [Moon] H Scheat → H Pallas RA 174.7439 108×φ golden (77.98)
+    - [Moon] J Alkes → J Pallas Dec 13.9940 14 whole (48.70)
+    - [Moon] J Sadalmelik → J Pallas Dec 3.9834 4 whole (2.84)
+  - Transpluto: Jupiter, Moon, Sun — also: 2 Financier / Richard Patrick
+    - [Jupiter] S Jupiter → J Transpluto Dec 24.1457 24.14 silver (94.25)
+    - [Moon] H Alkes → H Transpluto RA 13.0134 13 whole (10.87)
+    - [Moon] H Regulus → H Transpluto RA 0.1628 conj (79.47)
+    - [Moon] H Sualocin → H Transpluto RA 157.9896 158 whole (23.16)
+    - [Moon] S Transpluto → J Transpluto Dec 3.0150 3 whole (6.23)
+    - [Moon] J Alhena → J Transpluto Dec 3.0050 3 whole (55.99)
+    - [Moon] J Mirach → J Transpluto Dec 22.2298 22.2222 ninth (89.48)
+    - [Sun] J Fomalhaut → J Transpluto Dec 43.0189 43 whole (0.33)
+    - [Sun] J Galactic Centre → J Transpluto RA 119.7195 74×φ golden (28.58)
+  - Saturn: Moon, Sun — also: 4 One True King / Sam Twiston-Davies, 7 Beaufort West / Page Fuller
+    - [Moon] H Castor → H Saturn RA 111.1398 111.111 ninth (95.31)
+    - [Moon] J Castor → J Saturn RA 122.9891 φ^10 phi power (99.09)
+    - [Sun] H Galactic Centre → H Saturn Dec 14.4500 14.4444 ninth (94.15)
+    - [Sun] J Galactic Centre → J Saturn Dec 22.6593 14×φ golden (62.13)
+  - Juno: Moon, Sun — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 6 Le Ligerien / Ben Jones
+    - [Moon] H Castor → H Juno RA 42.0129 42 whole (12.54)
+    - [Moon] H Rigel → H Juno RA 7.0002 7 whole (97.54)
+    - [Sun] J Galactic Centre → J Juno Dec 14.9965 15 whole (67.79)
+  - Quaoar: Jupiter, Moon, Sun — also: 2 Financier / Richard Patrick
+    - [Jupiter] H Scheat → H Quaoar RA 80.9042 50×φ golden (85.02)
+    - [Jupiter] J Scheat → J Quaoar RA 103.9856 104 whole (7.97)
+    - [Moon] H Mirach → H Quaoar Dec 51.0170 51 whole (2.21)
+    - [Moon] H Scheat → H Quaoar RA 80.9042 50×φ golden (85.02)
+    - [Moon] J Alkes → J Quaoar RA 77.0101 77 whole (24.55)
+    - [Moon] J Scheat → J Quaoar RA 103.9856 104 whole (7.97)
+    - [Sun] H Galactic Centre → H Quaoar RA 1.3795 conj (0.64)
+  - Jupiter: Jupiter, Moon, Sun — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+    - [Jupiter] S Scheat → H Jupiter RA 134.2752 83×φ golden (11.02)
+    - [Jupiter] S Mars → J Jupiter RA 0.0649 conj (91.53)
+    - [Moon] S Rigel → H Jupiter Dec 29.1213 18×φ golden (80.33)
+    - [Moon] S Scheat → H Jupiter RA 134.2752 83×φ golden (11.02)
+    - [Moon] H Sualocin → H Jupiter Dec 5.0059 5 whole (49.92)
+    - [Moon] J Castor → J Jupiter RA 153.7321 95×φ golden (17.49)
+    - [Moon] S Mirach → J Jupiter RA 110.0450 68×φ golden (17.92)
+    - [Sun] S Galactic Centre → J Jupiter RA 0.9767 conj (12.17)
+  - Chiron: Jupiter, Moon, Sun — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 7 Beaufort West / Page Fuller
+    - [Jupiter] H Scheat → H Chiron RA 0.5083 conj (43.71)
+    - [Moon] H Sadalmelik → H Chiron RA 15.0059 15 whole (49.79)
+    - [Moon] H Sadalmelik → H Chiron Dec 0.0128 conj (91.66)
+    - [Moon] H Scheat → H Chiron RA 0.5083 conj (43.71)
+    - [Sun] J Fomalhaut → J Chiron Dec 22.0036 22 whole (67.02)
+  - Haumea: Jupiter, Moon, Sun — also: 4 One True King / Sam Twiston-Davies
+    - [Jupiter] J Scheat → J Haumea RA 152.0992 94×φ golden (76.65)
+    - [Moon] H Sadalmelik → H Haumea RA 122.9113 φ^10 phi power (75.51)
+    - [Moon] H Vindemiatrix → H Haumea RA 12.9955 13 whole (59.75)
+    - [Moon] J Scheat → J Haumea RA 152.0992 94×φ golden (76.65)
+    - [Sun] J Fomalhaut → J Haumea Dec 51.0011 51 whole (89.11)
+  - Eris: Jupiter, Moon — also: 4 One True King / Sam Twiston-Davies
+    - [Jupiter] H Scheat → H Eris RA 40.0171 40 whole (2.11)
+    - [Moon] H Scheat → H Eris RA 40.0171 40 whole (2.11)
+    - [Moon] H Sualocin → H Eris RA 76.0496 47×φ golden (87.97)
+    - [Moon] H Sualocin → H Eris Dec 18.8829 18.8889 ninth (95.71)
+    - [Moon] J Alkes → J Eris RA 142.3587 88×φ golden (1.61)
+    - [Moon] J Rigel → J Eris Dec 0.0047 conj (96.89)
+  - Neptune: Jupiter, Moon — also: 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies
+    - [Jupiter] S Jupiter → J Neptune Dec 9.9987 10 whole (87.79)
+    - [Moon] J Rigel → J Neptune RA 142.3982 88×φ golden (42.77)
+  - Vesta: Jupiter, Moon — also: 3 Frero Banbou / Charlie Deutsch, 6 Le Ligerien / Ben Jones
+    - [Jupiter] J Scheat → J Vesta RA 137.0131 137 whole (11.83)
+    - [Moon] J Alkes → J Vesta RA 43.9826 44 whole (1.71)
+    - [Moon] J Castor → J Vesta Dec 37.0153 37 whole (5.52)
+    - [Moon] J Scheat → J Vesta RA 137.0131 137 whole (11.83)
+
+## 6 Le Ligerien / Ben Jones
+### L1 same bodies
+- S Mercury → H Mercury RA 36.0035 36 whole (67.67)
+- S Jupiter → H Jupiter RA 92.9778 93 whole (loose)
+- S Pluto → H Pluto RA 16.6353 16.6667 ninth (loose)
+- S Chiron → H Chiron Dec 8.0971 5×φ golden (loose)
+- S Pallas → H Pallas Dec 3.9971 4 whole (72.96)
+- S Juno → H Juno Dec 4.2264 φ^3 phi power (loose)
+- S Eris → H Eris Dec 2.0176 2 whole (1.40)
+- S Sedna → H Sedna RA 4.9812 5 whole (0.36)
+- S Sedna → H Sedna Dec 1.0205 1 whole (loose)
+- S Quaoar → H Quaoar RA 11.0218 11 whole (loose)
+- S Gonggong → H Gonggong Dec 2.0162 2 whole (3.55)
+- S Mercury → J Mercury RA 76.9705 77 whole (loose)
+- S Venus → J Venus Dec 14.5361 9×φ golden (loose)
+- S Pluto → J Pluto RA 48.9795 49 whole (loose)
+- S Chiron → J Chiron RA 122.2762 122.222 ninth (92.53)
+- S Ceres → J Ceres RA 118.9791 119 whole (loose)
+- S Ceres → J Ceres Dec 6.8594 φ^4 phi power (loose)
+### L2 what lands on each same body
+- **H Mercury** (same body: S Mercury → H Mercury RA 36.0035 36 whole (67.67))
+  - top rows: S Sun → H Mercury Dec 11.3245 7×φ golden (89.27) [Sun]
+  - star rows: H Castor → H Mercury Dec 40.4586 25×φ golden (57.85) [Moon]
+  - star rows: H Fomalhaut → H Mercury RA 1.3985 conj (0.46) [Sun]
+  - other chart, same body: S Mercury → J Mercury RA 76.9705 77 whole (loose)
+  - other chart, star rows: J Pleiades → J Mercury RA 173.1589 107×φ golden (0.91) [Sun]
+  - other chart, star rows: J Pleiades → J Mercury Dec 42.0075 42 whole (38.82) [Sun]
+  - other chart, star rows: J Scheat → J Mercury Dec 45.9876 46 whole (14.48) [Jupiter, Moon]
+- **H Jupiter** (same body: S Jupiter → H Jupiter RA 92.9778 93 whole (loose))
+  - other chart, top rows: S Eris → J Jupiter RA 0.2596 conj (68.38) [Jupiter]
+  - other chart, star rows: S Galactic Centre → J Jupiter Dec 38.0096 38 whole (27.27) [Sun]
+  - other chart, star rows: S Vindemiatrix → J Jupiter RA 169.9933 170 whole (44.21) [Moon]
+- **H Pluto** (same body: S Pluto → H Pluto RA 16.6353 16.6667 ninth (loose))
+  - top rows: S Sun → H Pluto Dec 0.2098 conj (9.04) [Sun]
+  - star rows: H Sualocin → H Pluto Dec 35.5935 22×φ golden (80.88) [Moon]
+  - other chart, same body: S Pluto → J Pluto RA 48.9795 49 whole (loose)
+  - other chart, star rows: J Castor → J Pluto Dec 43.0175 43 whole (1.59) [Moon]
+- **H Chiron** (same body: S Chiron → H Chiron Dec 8.0971 5×φ golden (loose))
+  - top rows: S Jupiter → H Chiron Dec 8.0012 8 whole (88.11) [Jupiter]
+  - star rows: H Alkes → H Chiron Dec 15.5507 15.5556 ninth (95.38) [Moon]
+  - star rows: H Regulus → H Chiron RA 171.5166 106×φ golden (71.73) [Moon]
+  - other chart, same body: S Chiron → J Chiron RA 122.2762 122.222 ninth (92.53)
+- **H Pallas** (same body: S Pallas → H Pallas Dec 3.9971 4 whole (72.96))
+  - body line: S Jupiter → Pallas Dec 0.1900 conj (13.44)
+  - star rows: H Castor → H Pallas Dec 38.8330 24×φ golden (98.63) [Moon]
+  - other chart, star rows: J Scheat → J Pallas RA 135.9074 84×φ golden (59.44) [Jupiter, Moon]
+- **H Juno** (same body: S Juno → H Juno Dec 4.2264 φ^3 phi power (loose))
+  - top rows: S Sun → H Juno RA 1.2586 conj (2.59) [Sun]
+  - other chart, star rows: J Alhena → J Juno RA 161.8784 100×φ^1 phi power (82.31) [Moon]
+  - other chart, star rows: J Pleiades → J Juno RA 155.5666 155.556 ninth (98.96) [Sun]
+  - other chart, star rows: J Regulus → J Juno Dec 25.0162 25 whole (3.58) [Moon]
+  - other chart, star rows: J Vindemiatrix → J Juno Dec 24.0086 24 whole (32.42) [Moon]
+- **H Eris** (same body: S Eris → H Eris Dec 2.0176 2 whole (1.40))
+  - top rows: S Moon → H Eris Dec 14.1448 14.14 sqrt2 (92.59) [Moon]
+  - other chart, star rows: J Alkes → J Eris Dec 11.0997 φ^5 phi power (68.67) [Moon]
+  - other chart, star rows: J Rigel → J Eris Dec 1.0038 1 whole (65.34) [Moon]
+- **H Sedna** (same body: S Sedna → H Sedna RA 4.9812 5 whole (0.36); S Sedna → H Sedna Dec 1.0205 1 whole (loose))
+  - star rows: H Galactic Centre → H Sedna Dec 36.0070 36 whole (42.04) [Sun]
+  - other chart, top rows: S Sun → J Sedna Dec 25.0054 25 whole (53.34) [Sun]
+  - other chart, star rows: J Al Rescha → J Sedna RA 16.1893 10×φ^1 phi power (78.97) [Sun]
+  - other chart, star rows: J Pleiades → J Sedna Dec 18.9955 19 whole (60.18) [Sun]
+  - other chart, star rows: J Vindemiatrix → J Sedna RA 148.8339 92×φ golden (4.80) [Moon]
+- **H Quaoar** (same body: S Quaoar → H Quaoar RA 11.0218 11 whole (loose))
+  - star rows: H Alhena → H Quaoar Dec 31.9906 32 whole (28.35) [Moon]
+  - star rows: H Galactic Centre → H Quaoar RA 1.2327 conj (3.17) [Sun]
+  - other chart, star rows: J Al Rescha → J Quaoar RA 144.4893 144.444 ninth (95.25) [Sun]
+- **H Gonggong** (same body: S Gonggong → H Gonggong Dec 2.0162 2 whole (3.55))
+  - body line: S Jupiter → Gonggong RA 0.3439 conj (59.41)
+  - body line: S Moon → Gonggong RA 170.9993 171 whole (93.54)
+  - top rows: S Jupiter → H Gonggong RA 1.4813 conj (0.02) [Jupiter]
+  - star rows: H Fomalhaut → H Gonggong Dec 16.1874 10×φ^1 phi power (83.31) [Sun]
+  - other chart, star rows: J Sadalmelik → J Gonggong RA 0.2206 conj (72.75) [Moon]
+- **J Mercury** (same body: S Mercury → J Mercury RA 76.9705 77 whole (loose))
+  - star rows: J Pleiades → J Mercury RA 173.1589 107×φ golden (0.91) [Sun]
+  - star rows: J Pleiades → J Mercury Dec 42.0075 42 whole (38.82) [Sun]
+  - star rows: J Scheat → J Mercury Dec 45.9876 46 whole (14.48) [Jupiter, Moon]
+  - other chart, same body: S Mercury → H Mercury RA 36.0035 36 whole (67.67)
+  - other chart, top rows: S Sun → H Mercury Dec 11.3245 7×φ golden (89.27) [Sun]
+  - other chart, star rows: H Castor → H Mercury Dec 40.4586 25×φ golden (57.85) [Moon]
+  - other chart, star rows: H Fomalhaut → H Mercury RA 1.3985 conj (0.46) [Sun]
+- **J Venus** (same body: S Venus → J Venus Dec 14.5361 9×φ golden (loose))
+  - star rows: J Alkes → J Venus RA 23.0057 23 whole (51.40) [Moon]
+  - star rows: J Pleiades → J Venus RA 131.0702 81×φ golden (49.94) [Sun]
+  - star rows: J Scheat → J Venus RA 157.9982 158 whole (82.42) [Jupiter, Moon]
+- **J Pluto** (same body: S Pluto → J Pluto RA 48.9795 49 whole (loose))
+  - star rows: J Castor → J Pluto Dec 43.0175 43 whole (1.59) [Moon]
+  - other chart, same body: S Pluto → H Pluto RA 16.6353 16.6667 ninth (loose)
+  - other chart, top rows: S Sun → H Pluto Dec 0.2098 conj (9.04) [Sun]
+  - other chart, star rows: H Sualocin → H Pluto Dec 35.5935 22×φ golden (80.88) [Moon]
+- **J Chiron** (same body: S Chiron → J Chiron RA 122.2762 122.222 ninth (92.53))
+  - other chart, same body: S Chiron → H Chiron Dec 8.0971 5×φ golden (loose)
+  - other chart, top rows: S Jupiter → H Chiron Dec 8.0012 8 whole (88.11) [Jupiter]
+  - other chart, star rows: H Alkes → H Chiron Dec 15.5507 15.5556 ninth (95.38) [Moon]
+  - other chart, star rows: H Regulus → H Chiron RA 171.5166 106×φ golden (71.73) [Moon]
+- **J Ceres** (same body: S Ceres → J Ceres RA 118.9791 119 whole (loose); S Ceres → J Ceres Dec 6.8594 φ^4 phi power (loose))
+  - star rows: J Galactic Centre → J Ceres Dec 41.0170 41 whole (2.29) [Sun]
+  - star rows: J Regulus → J Ceres Dec 0.0416 conj (74.18) [Moon]
+  - other chart, star rows: H Al Rescha → H Ceres Dec 25.9852 26 whole (6.70) [Sun]
+  - other chart, star rows: H Castor → H Ceres RA 26.0067 26 whole (44.06) [Moon]
+  - other chart, star rows: H Rigel → H Ceres RA 9.0108 9 whole (21.20) [Moon]
+### L3 the seven cases (L5 field tag on each)
+- **1. same body on both charts**
+  - Mercury — only
+    - S Mercury → H Mercury RA 36.0035 36 whole (67.67)
+    - S Mercury → J Mercury RA 76.9705 77 whole (loose)
+  - Pluto — also: 2 Financier / Richard Patrick, 7 Beaufort West / Page Fuller
+    - S Pluto → H Pluto RA 16.6353 16.6667 ninth (loose)
+    - S Pluto → J Pluto RA 48.9795 49 whole (loose)
+  - Chiron — only
+    - S Chiron → H Chiron Dec 8.0971 5×φ golden (loose)
+    - S Chiron → J Chiron RA 122.2762 122.222 ninth (92.53)
+- **2. one body in both planes**
+  - H Sedna — only
+    - S Sedna → H Sedna RA 4.9812 5 whole (0.36)
+    - S Sedna → H Sedna Dec 1.0205 1 whole (loose)
+  - J Ceres — only
+    - S Ceres → J Ceres RA 118.9791 119 whole (loose)
+    - S Ceres → J Ceres Dec 6.8594 φ^4 phi power (loose)
+- **3. runner number = sky number**
+  - 11 whole — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
+    - S Quaoar → H Quaoar RA 11.0218 11 whole (loose) = S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)
+  - 24×φ golden — also: 2 Financier / Richard Patrick
+    - H Castor → H Pallas Dec 38.8330 24×φ golden (98.63) = S Jupiter → Scheat Dec 38.8362 24×φ golden (80.40)
+  - 11 whole — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
+    - H Regulus → H Vesta Dec 11.0047 11 whole (58.67) = S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)
+  - 44 whole — also: 2 Financier / Richard Patrick, 5 Cedar Hill / Jonathan Burke
+    - H Vindemiatrix → H Transpluto RA 43.9925 44 whole (39.35) = S Sun → Pleiades Dec 44.0004 44 whole (96.38)
+  - 144.444 ninth — also: 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies
+    - J Al Rescha → J Quaoar RA 144.4893 144.444 ninth (95.25) = S Moon → Sualocin RA 144.4728 144.444 ninth (97.00)
+  - 41 whole — also: 4 One True King / Sam Twiston-Davies, 7 Beaufort West / Page Fuller
+    - J Galactic Centre → J Ceres Dec 41.0170 41 whole (2.29) = S Sun → Fomalhaut RA 40.9968 41 whole (70.51)
+- **4. circle divisions**
+  - 36 = 360/10 — also: 2 Financier / Richard Patrick
+    - S Mercury → H Mercury RA 36.0035 36 whole (67.67)
+  - 4 = 360/90 — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies
+    - S Pallas → H Pallas Dec 3.9971 4 whole (72.96)
+  - 2 = 360/180 — also: 1 Eclair D'Ainay / Harry Skelton, 4 One True King / Sam Twiston-Davies
+    - S Eris → H Eris Dec 2.0176 2 whole (1.40)
+  - 5 = 360/72 — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
+    - S Sedna → H Sedna RA 4.9812 5 whole (0.36)
+  - 1 = 360/360 — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke
+    - S Sedna → H Sedna Dec 1.0205 1 whole (loose)
+  - 2 = 360/180 — also: 1 Eclair D'Ainay / Harry Skelton, 4 One True King / Sam Twiston-Davies
+    - S Gonggong → H Gonggong Dec 2.0162 2 whole (3.55)
+  - 8 = 360/45 — also: 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
+    - S Jupiter → H Chiron Dec 8.0012 8 whole (88.11)
+  - 1 = 360/360 — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke
+    - J Rigel → J Eris Dec 1.0038 1 whole (65.34)
+- **5. same number in more than one place**
+  - 2 whole — also: 4 One True King / Sam Twiston-Davies
+    - S Eris → H Eris Dec 2.0176 2 whole (1.40)
+    - S Gonggong → H Gonggong Dec 2.0162 2 whole (3.55)
+  - 1 whole — also: 2 Financier / Richard Patrick, 5 Cedar Hill / Jonathan Burke
+    - S Sedna → H Sedna Dec 1.0205 1 whole (loose)
+    - J Rigel → J Eris Dec 1.0038 1 whole (65.34)
+  - 11 whole — also: 2 Financier / Richard Patrick
+    - S Quaoar → H Quaoar RA 11.0218 11 whole (loose)
+    - H Regulus → H Vesta Dec 11.0047 11 whole (58.67)
+  - 10×φ^1 phi power — only
+    - H Fomalhaut → H Gonggong Dec 16.1874 10×φ^1 phi power (83.31)
+    - J Al Rescha → J Sedna RA 16.1893 10×φ^1 phi power (78.97)
+  - 122.222 ninth — also: 1 Eclair D'Ainay / Harry Skelton
+    - S Chiron → J Chiron RA 122.2762 122.222 ninth (92.53)
+    - J Pleiades → J Mars RA 122.2413 122.222 ninth (97.36)
+- **6. star and sky line on one body**: none
+- **7. centres meeting**
+  - Pallas: Jupiter, Moon — also: 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke
+    - [Jupiter] S Pallas → H Pallas Dec 3.9971 4 whole (72.96)
+    - [Jupiter] J Scheat → J Pallas RA 135.9074 84×φ golden (59.44)
+    - [Moon] H Castor → H Pallas Dec 38.8330 24×φ golden (98.63)
+    - [Moon] J Scheat → J Pallas RA 135.9074 84×φ golden (59.44)
+  - Gonggong: Jupiter, Moon, Sun — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
+    - [Jupiter] S Gonggong → H Gonggong Dec 2.0162 2 whole (3.55)
+    - [Jupiter] S Jupiter → H Gonggong RA 1.4813 conj (0.02)
+    - [Moon] S Gonggong → H Gonggong Dec 2.0162 2 whole (3.55)
+    - [Moon] J Sadalmelik → J Gonggong RA 0.2206 conj (72.75)
+    - [Sun] H Fomalhaut → H Gonggong Dec 16.1874 10×φ^1 phi power (83.31)
+  - Neptune: Jupiter, Moon, Sun — only
+    - [Jupiter] S Jupiter → H Neptune RA 0.7060 conj (28.02)
+    - [Jupiter] S Jupiter → H Neptune Dec 0.1118 conj (39.36)
+    - [Moon] J Alhena → J Neptune RA 155.3321 96×φ golden (95.10)
+    - [Moon] J Alkes → J Neptune RA 139.1583 86×φ golden (59.40)
+    - [Moon] J Regulus → J Neptune RA 152.0077 152 whole (37.87)
+    - [Sun] H Fomalhaut → H Neptune Dec 18.9839 19 whole (3.79)
+    - [Sun] S Sun → J Neptune RA 0.6864 conj (29.42)
+  - Chiron: Jupiter, Moon — only
+    - [Jupiter] S Jupiter → H Chiron Dec 8.0012 8 whole (88.11)
+    - [Moon] H Alkes → H Chiron Dec 15.5507 15.5556 ninth (95.38)
+    - [Moon] H Regulus → H Chiron RA 171.5166 106×φ golden (71.73)
+  - Mercury: Jupiter, Moon, Sun — also: 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
+    - [Jupiter] J Scheat → J Mercury Dec 45.9876 46 whole (14.48)
+    - [Moon] H Castor → H Mercury Dec 40.4586 25×φ golden (57.85)
+    - [Moon] J Scheat → J Mercury Dec 45.9876 46 whole (14.48)
+    - [Sun] S Sun → H Mercury Dec 11.3245 7×φ golden (89.27)
+    - [Sun] H Fomalhaut → H Mercury RA 1.3985 conj (0.46)
+    - [Sun] J Pleiades → J Mercury RA 173.1589 107×φ golden (0.91)
+    - [Sun] J Pleiades → J Mercury Dec 42.0075 42 whole (38.82)
+  - Pluto: Moon, Sun — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 7 Beaufort West / Page Fuller
+    - [Moon] H Sualocin → H Pluto Dec 35.5935 22×φ golden (80.88)
+    - [Moon] J Castor → J Pluto Dec 43.0175 43 whole (1.59)
+    - [Sun] S Sun → H Pluto Dec 0.2098 conj (9.04)
+  - Juno: Moon, Sun — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 5 Cedar Hill / Jonathan Burke
+    - [Moon] J Alhena → J Juno RA 161.8784 100×φ^1 phi power (82.31)
+    - [Moon] J Regulus → J Juno Dec 25.0162 25 whole (3.58)
+    - [Moon] J Vindemiatrix → J Juno Dec 24.0086 24 whole (32.42)
+    - [Sun] S Sun → H Juno RA 1.2586 conj (2.59)
+    - [Sun] J Pleiades → J Juno RA 155.5666 155.556 ninth (98.96)
+  - Uranus: Moon, Sun — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 7 Beaufort West / Page Fuller
+    - [Moon] H Alkes → H Uranus Dec 20.9861 21 whole (9.18)
+    - [Moon] H Sadalmelik → H Uranus Dec 3.0071 3 whole (41.70)
+    - [Moon] H Sualocin → H Uranus RA 58.0030 58 whole (72.66)
+    - [Sun] H Al Rescha → H Uranus Dec 0.0766 conj (55.43)
+  - Ceres: Moon, Sun — also: 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies
+    - [Moon] H Castor → H Ceres RA 26.0067 26 whole (44.06)
+    - [Moon] H Rigel → H Ceres RA 9.0108 9 whole (21.20)
+    - [Moon] J Regulus → J Ceres Dec 0.0416 conj (74.18)
+    - [Sun] H Al Rescha → H Ceres Dec 25.9852 26 whole (6.70)
+    - [Sun] J Galactic Centre → J Ceres Dec 41.0170 41 whole (2.29)
+  - Rahu: Jupiter, Moon — also: 5 Cedar Hill / Jonathan Burke
+    - [Jupiter] H Scheat → H Rahu Dec 45.0170 45 whole (2.19)
+    - [Moon] H Alhena → H Rahu Dec 33.3351 33.3333 ninth (97.93)
+    - [Moon] H Castor → H Rahu RA 110.9738 10×φ^5 phi power (75.68)
+    - [Moon] H Rigel → H Rahu RA 145.9913 146 whole (32.03)
+    - [Moon] H Scheat → H Rahu Dec 45.0170 45 whole (2.19)
+    - [Moon] J Mirach → J Rahu RA 111.6652 69×φ golden (12.55)
+    - [Moon] J Regulus → J Rahu RA 22.9889 23 whole (19.96)
+  - Haumea: Moon, Sun — also: 2 Financier / Richard Patrick
+    - [Moon] H Alhena → H Haumea Dec 1.9801 2 whole (0.00)
+    - [Moon] H Sualocin → H Haumea RA 101.0000 101 whole (99.55)
+    - [Moon] J Vindemiatrix → J Haumea RA 1.4476 conj (0.12)
+    - [Sun] H Fomalhaut → H Haumea Dec 48.0022 48 whole (79.33)
+  - Orcus: Moon, Sun — also: 2 Financier / Richard Patrick
+    - [Moon] H Alhena → H Orcus Dec 23.9814 24 whole (0.46)
+    - [Sun] H Galactic Centre → H Orcus RA 118.1031 73×φ golden (34.24)
+  - Quaoar: Moon, Sun — also: 1 Eclair D'Ainay / Harry Skelton, 4 One True King / Sam Twiston-Davies, 7 Beaufort West / Page Fuller
+    - [Moon] H Alhena → H Quaoar Dec 31.9906 32 whole (28.35)
+    - [Sun] H Galactic Centre → H Quaoar RA 1.2327 conj (3.17)
+    - [Sun] J Al Rescha → J Quaoar RA 144.4893 144.444 ninth (95.25)
+  - Sedna: Moon, Sun — also: 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
+    - [Moon] J Vindemiatrix → J Sedna RA 148.8339 92×φ golden (4.80)
+    - [Sun] H Galactic Centre → H Sedna Dec 36.0070 36 whole (42.04)
+    - [Sun] S Sun → J Sedna Dec 25.0054 25 whole (53.34)
+    - [Sun] J Al Rescha → J Sedna RA 16.1893 10×φ^1 phi power (78.97)
+    - [Sun] J Pleiades → J Sedna Dec 18.9955 19 whole (60.18)
+  - Transpluto: Moon, Sun — also: 1 Eclair D'Ainay / Harry Skelton, 4 One True King / Sam Twiston-Davies
+    - [Moon] H Regulus → H Transpluto RA 0.5404 conj (40.92)
+    - [Moon] H Regulus → H Transpluto Dec 0.2980 conj (0.00)
+    - [Moon] H Sadalmelik → H Transpluto Dec 11.9898 12 whole (24.21)
+    - [Moon] H Vindemiatrix → H Transpluto RA 43.9925 44 whole (39.35)
+    - [Moon] J Castor → J Transpluto Dec 18.9927 19 whole (40.05)
+    - [Sun] H Galactic Centre → H Transpluto RA 114.8622 71×φ golden (19.20)
+  - Mars: Moon, Sun — also: 1 Eclair D'Ainay / Harry Skelton, 4 One True King / Sam Twiston-Davies
+    - [Moon] H Mirach → H Mars Dec 30.9993 31 whole (93.33)
+    - [Moon] J Castor → J Mars RA 179.0171 179 whole (2.04)
+    - [Moon] J Castor → J Mars Dec 54.9855 55 whole (7.55)
+    - [Moon] J Rigel → J Mars RA 144.0037 89×φ golden (92.26)
+    - [Moon] J Sualocin → J Mars Dec 39.0133 39 whole (11.10)
+    - [Sun] J Pleiades → J Mars RA 122.2413 122.222 ninth (97.36)
+  - Vesta: Jupiter, Moon — also: 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke
+    - [Jupiter] S Jupiter → J Vesta Dec 0.2177 conj (7.52)
+    - [Moon] H Regulus → H Vesta Dec 11.0047 11 whole (58.67)
+    - [Moon] H Rigel → H Vesta RA 1.2765 conj (2.22)
+    - [Moon] H Sualocin → H Vesta RA 130.0023 130 whole (78.77)
+    - [Moon] H Vindemiatrix → H Vesta Dec 12.0135 12 whole (10.72)
+  - Jupiter: Jupiter, Moon, Sun — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
+    - [Jupiter] S Eris → J Jupiter RA 0.2596 conj (68.38)
+    - [Moon] S Vindemiatrix → J Jupiter RA 169.9933 170 whole (44.21)
+    - [Sun] S Galactic Centre → J Jupiter Dec 38.0096 38 whole (27.27)
+  - Venus: Jupiter, Moon, Sun — also: 4 One True King / Sam Twiston-Davies, 7 Beaufort West / Page Fuller
+    - [Jupiter] J Scheat → J Venus RA 157.9982 158 whole (82.42)
+    - [Moon] J Alkes → J Venus RA 23.0057 23 whole (51.40)
+    - [Moon] J Scheat → J Venus RA 157.9982 158 whole (82.42)
+    - [Sun] J Pleiades → J Venus RA 131.0702 81×φ golden (49.94)
+
+## 7 Beaufort West / Page Fuller
+### L1 same bodies
+- S Mercury → H Mercury Dec 24.1436 24.14 silver (97.52)
+- S Mars → H Mars Dec 19.9963 20 whole (66.18)
+- S Neptune → H Neptune RA 13.2935 13.3333 ninth (loose)
+- S Neptune → H Neptune Dec 5.0123 5 whole (14.81)
+- S Pluto → H Pluto RA 14.4334 14.4444 ninth (loose)
+- S Vesta → H Vesta RA 70.9801 71 whole (0.00)
+- S Eris → H Eris Dec 1.6634 1.66667 ninth (loose)
+- S Transpluto → H Transpluto Dec 1.2151 1.22222 ninth (loose)
+- S Sun → J Sun Dec 33.9857 34 whole (8.18)
+- S Jupiter → J Jupiter Dec 9.9726 10 whole (loose)
+- S Neptune → J Neptune Dec 16.1905 10×φ^1 phi power (loose)
+- S Pluto → J Pluto Dec 16.0264 16 whole (loose)
+- S Eris → J Eris Dec 6.4758 4×φ golden (loose)
+- S Haumea → J Haumea Dec 6.8504 φ^4 phi power (loose)
+### L2 what lands on each same body
+- **H Mercury** (same body: S Mercury → H Mercury Dec 24.1436 24.14 silver (97.52))
+  - star rows: H Pleiades → H Mercury Dec 16.0175 16 whole (1.60) [Sun]
+  - star rows: H Scheat → H Mercury Dec 19.9932 20 whole (43.65) [Jupiter, Moon]
+  - star rows: H Vindemiatrix → H Mercury RA 173.0066 173 whole (44.86) [Moon]
+  - other chart, star rows: J Al Rescha → J Mercury RA 131.0112 131 whole (19.54) [Sun]
+  - other chart, star rows: J Vindemiatrix → J Mercury RA 34.0167 34 whole (2.65) [Moon]
+- **H Mars** (same body: S Mars → H Mars Dec 19.9963 20 whole (66.18))
+  - star rows: H Vindemiatrix → H Mars RA 1.4972 conj (0.00) [Moon]
+  - other chart, star rows: J Regulus → J Mars Dec 17.9496 φ^6 phi power (88.53) [Moon]
+  - other chart, star rows: J Vindemiatrix → J Mars RA 1.3642 conj (0.82) [Moon]
+- **H Neptune** (same body: S Neptune → H Neptune RA 13.2935 13.3333 ninth (loose); S Neptune → H Neptune Dec 5.0123 5 whole (14.81))
+  - star rows: H Mirach → H Neptune Dec 45.3019 28×φ golden (82.26) [Moon]
+  - other chart, same body: S Neptune → J Neptune Dec 16.1905 10×φ^1 phi power (loose)
+- **H Pluto** (same body: S Pluto → H Pluto RA 14.4334 14.4444 ninth (loose))
+  - top rows: S Sun → H Pluto Dec 0.2145 conj (8.13) [Sun]
+  - star rows: H Castor → H Pluto Dec 51.9978 52 whole (79.37) [Moon]
+  - star rows: H Sualocin → H Pluto Dec 36.0178 36 whole (1.19) [Moon]
+  - other chart, same body: S Pluto → J Pluto Dec 16.0264 16 whole (loose)
+  - other chart, star rows: J Alhena → J Pluto Dec 22.9861 23 whole (9.30) [Moon]
+  - other chart, star rows: J Castor → J Pluto RA 124.9911 125 whole (31.00) [Moon]
+  - other chart, star rows: J Rigel → J Pluto RA 160.0034 160 whole (68.95) [Moon]
+- **H Vesta** (same body: S Vesta → H Vesta RA 70.9801 71 whole (0.00))
+  - star rows: H Alhena → H Vesta RA 105.1762 65×φ golden (77.10) [Moon]
+  - star rows: H Fomalhaut → H Vesta Dec 32.9922 33 whole (37.18) [Sun]
+  - other chart, star rows: J Al Rescha → J Vesta Dec 12.9821 13 whole (1.06) [Sun]
+  - other chart, star rows: J Regulus → J Vesta RA 1.1859 conj (4.39) [Moon]
+  - other chart, star rows: J Sadalmelik → J Vesta RA 179.4510 10×φ^6 phi power (98.17) [Moon]
+  - other chart, star rows: J Sualocin → J Vesta RA 159.0127 159 whole (13.22) [Moon]
+  - other chart, star rows: J Sualocin → J Vesta Dec 0.1667 conj (19.75) [Moon]
+- **H Eris** (same body: S Eris → H Eris Dec 1.6634 1.66667 ninth (loose))
+  - star rows: H Alhena → H Eris RA 74.0189 74 whole (0.29) [Moon]
+  - star rows: H Castor → H Eris Dec 35.0023 35 whole (78.31) [Moon]
+  - star rows: H Fomalhaut → H Eris RA 40.9969 41 whole (71.67) [Sun]
+  - star rows: H Galactic Centre → H Eris RA 118.9868 119 whole (11.47) [Sun]
+  - other chart, same body: S Eris → J Eris Dec 6.4758 4×φ golden (loose)
+  - other chart, star rows: J Rigel → J Eris Dec 0.2733 conj (0.79) [Moon]
+  - other chart, star rows: J Scheat → J Eris Dec 36.0091 36 whole (29.78) [Jupiter, Moon]
+  - other chart, star rows: J Vindemiatrix → J Eris RA 171.9981 172 whole (81.60) [Moon]
+  - other chart, star rows: J Vindemiatrix → J Eris Dec 18.8877 18.8889 ninth (99.12) [Moon]
+- **H Transpluto** (same body: S Transpluto → H Transpluto Dec 1.2151 1.22222 ninth (loose))
+  - body line: S Moon → Transpluto Dec 0.2980 conj (0.00)
+  - star rows: H Regulus → H Transpluto RA 0.3369 conj (60.12) [Moon]
+  - other chart, star rows: J Mirach → J Transpluto Dec 22.0177 22 whole (1.33) [Moon]
+  - other chart, star rows: J Regulus → J Transpluto RA 6.0067 6 whole (44.23) [Moon]
+- **J Sun** (same body: S Sun → J Sun Dec 33.9857 34 whole (8.18))
+  - star rows: J Al Rescha → J Sun Dec 11.3259 7×φ golden (97.67) [Sun]
+  - star rows: J Castor → J Sun Dec 17.7976 11×φ golden (95.01) [Moon]
+  - star rows: J Fomalhaut → J Sun RA 160.1998 99×φ golden (30.83) [Sun]
+  - star rows: J Pleiades → J Sun Dec 10.0135 10 whole (10.52) [Sun]
+  - star rows: J Rigel → J Sun RA 65.9856 66 whole (7.82) [Moon]
+  - star rows: J Scheat → J Sun Dec 13.9920 14 whole (35.80) [Jupiter, Moon]
+- **J Jupiter** (same body: S Jupiter → J Jupiter Dec 9.9726 10 whole (loose))
+  - top rows: S Pluto → J Jupiter Dec 1.8882 1.88889 ninth (94.78) [Jupiter]
+  - top rows: S Makemake → J Jupiter Dec 43.0057 43 whole (51.24) [Jupiter]
+  - star rows: S Mirach → J Jupiter RA 133.3837 133.333 ninth (93.96) [Moon]
+  - other chart, top rows: S Pallas → H Jupiter Dec 34.0043 34 whole (61.98) [Jupiter]
+  - other chart, star rows: H Al Rescha → H Jupiter RA 73.9822 74 whole (1.21) [Sun]
+  - other chart, star rows: H Regulus → H Jupiter Dec 11.0964 φ^5 phi power (78.89) [Moon]
+  - other chart, star rows: H Scheat → H Jupiter Dec 5.0172 5 whole (1.95) [Jupiter, Moon]
+- **J Neptune** (same body: S Neptune → J Neptune Dec 16.1905 10×φ^1 phi power (loose))
+  - other chart, same body: S Neptune → H Neptune RA 13.2935 13.3333 ninth (loose)
+  - other chart, same body: S Neptune → H Neptune Dec 5.0123 5 whole (14.81)
+  - other chart, star rows: H Mirach → H Neptune Dec 45.3019 28×φ golden (82.26) [Moon]
+- **J Pluto** (same body: S Pluto → J Pluto Dec 16.0264 16 whole (loose))
+  - star rows: J Alhena → J Pluto Dec 22.9861 23 whole (9.30) [Moon]
+  - star rows: J Castor → J Pluto RA 124.9911 125 whole (31.00) [Moon]
+  - star rows: J Rigel → J Pluto RA 160.0034 160 whole (68.95) [Moon]
+  - other chart, same body: S Pluto → H Pluto RA 14.4334 14.4444 ninth (loose)
+  - other chart, top rows: S Sun → H Pluto Dec 0.2145 conj (8.13) [Sun]
+  - other chart, star rows: H Castor → H Pluto Dec 51.9978 52 whole (79.37) [Moon]
+  - other chart, star rows: H Sualocin → H Pluto Dec 36.0178 36 whole (1.19) [Moon]
+- **J Eris** (same body: S Eris → J Eris Dec 6.4758 4×φ golden (loose))
+  - star rows: J Rigel → J Eris Dec 0.2733 conj (0.79) [Moon]
+  - star rows: J Scheat → J Eris Dec 36.0091 36 whole (29.78) [Jupiter, Moon]
+  - star rows: J Vindemiatrix → J Eris RA 171.9981 172 whole (81.60) [Moon]
+  - star rows: J Vindemiatrix → J Eris Dec 18.8877 18.8889 ninth (99.12) [Moon]
+  - other chart, same body: S Eris → H Eris Dec 1.6634 1.66667 ninth (loose)
+  - other chart, star rows: H Alhena → H Eris RA 74.0189 74 whole (0.29) [Moon]
+  - other chart, star rows: H Castor → H Eris Dec 35.0023 35 whole (78.31) [Moon]
+  - other chart, star rows: H Fomalhaut → H Eris RA 40.9969 41 whole (71.67) [Sun]
+  - other chart, star rows: H Galactic Centre → H Eris RA 118.9868 119 whole (11.47) [Sun]
+- **J Haumea** (same body: S Haumea → J Haumea Dec 6.8504 φ^4 phi power (loose))
+  - star rows: J Castor → J Haumea Dec 9.9835 10 whole (3.11) [Moon]
+  - star rows: J Sadalmelik → J Haumea Dec 22.2232 22.2222 ninth (98.59) [Moon]
+  - star rows: J Sualocin → J Haumea Dec 5.9911 6 whole (31.04) [Moon]
+  - other chart, star rows: H Alhena → H Haumea RA 110.0429 68×φ golden (23.83) [Moon]
+### L3 the seven cases (L5 field tag on each)
+- **1. same body on both charts**
+  - Neptune — only
+    - S Neptune → H Neptune RA 13.2935 13.3333 ninth (loose)
+    - S Neptune → H Neptune Dec 5.0123 5 whole (14.81)
+    - S Neptune → J Neptune Dec 16.1905 10×φ^1 phi power (loose)
+  - Pluto — also: 2 Financier / Richard Patrick, 6 Le Ligerien / Ben Jones
+    - S Pluto → H Pluto RA 14.4334 14.4444 ninth (loose)
+    - S Pluto → J Pluto Dec 16.0264 16 whole (loose)
+  - Eris — also: 3 Frero Banbou / Charlie Deutsch
+    - S Eris → H Eris Dec 1.6634 1.66667 ninth (loose)
+    - S Eris → J Eris Dec 6.4758 4×φ golden (loose)
+- **2. one body in both planes**
+  - H Neptune — only
+    - S Neptune → H Neptune RA 13.2935 13.3333 ninth (loose)
+    - S Neptune → H Neptune Dec 5.0123 5 whole (14.81)
+- **3. runner number = sky number**
+  - 13.3333 ninth — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies
+    - S Neptune → H Neptune RA 13.2935 13.3333 ninth (loose) = S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)
+  - 41 whole — also: 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones
+    - H Fomalhaut → H Eris RA 40.9969 41 whole (71.67) = S Sun → Fomalhaut RA 40.9968 41 whole (70.51)
+  - 66 whole — also: 1 Eclair D'Ainay / Harry Skelton, 4 One True King / Sam Twiston-Davies
+    - J Rigel → J Sun RA 65.9856 66 whole (7.82) = S Moon → Alhena RA 65.9978 66 whole (78.94)
+  - 10×φ^6 phi power — also: 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies
+    - J Rigel → J Juno RA 179.4425 10×φ^6 phi power (99.94) = S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)
+  - 10×φ^6 phi power — also: 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies
+    - J Sadalmelik → J Vesta RA 179.4510 10×φ^6 phi power (98.17) = S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)
+  - 18.8889 ninth — also: 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke
+    - J Vindemiatrix → J Eris Dec 18.8877 18.8889 ninth (99.12) = S Moon → Rigel Dec 18.8804 18.8889 ninth (93.87)
+- **4. circle divisions**
+  - 20 = 360/18 — also: 2 Financier / Richard Patrick, 5 Cedar Hill / Jonathan Burke
+    - S Mars → H Mars Dec 19.9963 20 whole (66.18)
+  - 5 = 360/72 — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+    - S Neptune → H Neptune Dec 5.0123 5 whole (14.81)
+  - 9 = 360/40 — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke
+    - H Al Rescha → H Venus Dec 9.0017 9 whole (83.52)
+  - 10 = 360/36 — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
+    - S Jupiter → J Jupiter Dec 9.9726 10 whole (loose)
+- **5. same number in more than one place**
+  - φ^5 phi power — also: 5 Cedar Hill / Jonathan Burke
+    - H Jupiter → H star Regulus Dec 11.0964 φ^5 phi power (78.89)
+    - H Regulus → H Jupiter Dec 11.0964 φ^5 phi power (78.89)
+  - 34 whole — also: 5 Cedar Hill / Jonathan Burke
+    - S Pallas → H Jupiter Dec 34.0043 34 whole (61.98)
+    - S Sun → J Sun Dec 33.9857 34 whole (8.18)
+  - 28×φ golden — only
+    - H Mirach → H Neptune Dec 45.3019 28×φ golden (82.26)
+    - J Pleiades → J Uranus Dec 45.3052 28×φ golden (98.25)
+  - 133.333 ninth — also: 1 Eclair D'Ainay / Harry Skelton
+    - J Jupiter → J star Mirach RA 133.3869 133.333 ninth (93.57)
+    - S Mirach → J Jupiter RA 133.3837 133.333 ninth (93.96)
+  - φ^6 phi power — also: 3 Frero Banbou / Charlie Deutsch
+    - J Galactic Centre → J Rahu Dec 17.9492 φ^6 phi power (89.35)
+    - J Regulus → J Mars Dec 17.9496 φ^6 phi power (88.53)
+  - 10×φ^6 phi power — also: 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies
+    - J Rigel → J Juno RA 179.4425 10×φ^6 phi power (99.94)
+    - J Sadalmelik → J Vesta RA 179.4510 10×φ^6 phi power (98.17)
+- **6. star and sky line on one body**: none
+- **7. centres meeting**
+  - Rahu: Jupiter, Moon, Sun — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch
+    - [Jupiter] S Jupiter → H Rahu Dec 0.0740 conj (56.74)
+    - [Jupiter] J Scheat → J Rahu RA 139.1537 86×φ golden (83.60)
+    - [Moon] J Scheat → J Rahu RA 139.1537 86×φ golden (83.60)
+    - [Sun] J Galactic Centre → J Rahu Dec 17.9492 φ^6 phi power (89.35)
+  - Gonggong: Jupiter, Moon, Sun — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+    - [Jupiter] S Jupiter → H Gonggong RA 1.0925 conj (7.38)
+    - [Moon] H Castor → H Gonggong Dec 44.9930 45 whole (42.45)
+    - [Moon] H Sualocin → H Gonggong Dec 29.0130 29 whole (12.15)
+    - [Moon] J Alkes → J Gonggong Dec 0.2646 conj (1.39)
+    - [Moon] J Sadalmelik → J Gonggong RA 0.5349 conj (41.40)
+    - [Moon] J Sualocin → J Gonggong RA 21.0014 21 whole (86.65)
+    - [Sun] S Sun → J Gonggong RA 27.5025 17×φ golden (76.57)
+  - Venus: Jupiter, Moon, Sun — also: 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones
+    - [Jupiter] H Scheat → H Venus RA 1.1542 conj (5.31)
+    - [Moon] H Regulus → H Venus RA 165.0002 165 whole (97.54)
+    - [Moon] H Scheat → H Venus RA 1.1542 conj (5.31)
+    - [Moon] J Sualocin → J Venus Dec 0.1569 conj (22.76)
+    - [Moon] J Vindemiatrix → J Venus RA 51.9929 52 whole (41.77)
+    - [Sun] S Sun → H Venus RA 43.6807 27×φ golden (65.43)
+    - [Sun] H Al Rescha → H Venus Dec 9.0017 9 whole (83.52)
+    - [Sun] J Al Rescha → J Venus Dec 12.9919 13 whole (35.16)
+  - Pluto: Moon, Sun — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 6 Le Ligerien / Ben Jones
+    - [Moon] H Castor → H Pluto Dec 51.9978 52 whole (79.37)
+    - [Moon] H Sualocin → H Pluto Dec 36.0178 36 whole (1.19)
+    - [Moon] J Alhena → J Pluto Dec 22.9861 23 whole (9.30)
+    - [Moon] J Castor → J Pluto RA 124.9911 125 whole (31.00)
+    - [Moon] J Rigel → J Pluto RA 160.0034 160 whole (68.95)
+    - [Sun] S Sun → H Pluto Dec 0.2145 conj (8.13)
+  - Ketu: Moon, Sun — only
+    - [Moon] S Moon → H Ketu Dec 0.1486 conj (25.46)
+    - [Moon] H Alkes → H Ketu Dec 29.1270 18×φ golden (85.80)
+    - [Moon] H Vindemiatrix → H Ketu Dec 0.1319 conj (31.39)
+    - [Moon] J Sualocin → J Ketu Dec 4.8549 3×φ golden (95.15)
+    - [Moon] J Vindemiatrix → J Ketu Dec 0.0974 conj (45.59)
+    - [Sun] H Galactic Centre → H Ketu RA 119.7545 74×φ golden (14.74)
+  - Jupiter: Jupiter, Moon, Sun — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+    - [Jupiter] S Pallas → H Jupiter Dec 34.0043 34 whole (61.98)
+    - [Jupiter] H Scheat → H Jupiter Dec 5.0172 5 whole (1.95)
+    - [Jupiter] S Pluto → J Jupiter Dec 1.8882 1.88889 ninth (94.78)
+    - [Jupiter] S Makemake → J Jupiter Dec 43.0057 43 whole (51.24)
+    - [Moon] H Regulus → H Jupiter Dec 11.0964 φ^5 phi power (78.89)
+    - [Moon] H Scheat → H Jupiter Dec 5.0172 5 whole (1.95)
+    - [Moon] S Mirach → J Jupiter RA 133.3837 133.333 ninth (93.96)
+    - [Sun] H Al Rescha → H Jupiter RA 73.9822 74 whole (1.21)
+  - Vesta: Moon, Sun — also: 2 Financier / Richard Patrick
+    - [Moon] H Alhena → H Vesta RA 105.1762 65×φ golden (77.10)
+    - [Moon] J Regulus → J Vesta RA 1.1859 conj (4.39)
+    - [Moon] J Sadalmelik → J Vesta RA 179.4510 10×φ^6 phi power (98.17)
+    - [Moon] J Sualocin → J Vesta RA 159.0127 159 whole (13.22)
+    - [Moon] J Sualocin → J Vesta Dec 0.1667 conj (19.75)
+    - [Sun] H Fomalhaut → H Vesta Dec 32.9922 33 whole (37.18)
+    - [Sun] J Al Rescha → J Vesta Dec 12.9821 13 whole (1.06)
+  - Eris: Jupiter, Moon, Sun — only
+    - [Jupiter] J Scheat → J Eris Dec 36.0091 36 whole (29.78)
+    - [Moon] H Alhena → H Eris RA 74.0189 74 whole (0.29)
+    - [Moon] H Castor → H Eris Dec 35.0023 35 whole (78.31)
+    - [Moon] J Rigel → J Eris Dec 0.2733 conj (0.79)
+    - [Moon] J Scheat → J Eris Dec 36.0091 36 whole (29.78)
+    - [Moon] J Vindemiatrix → J Eris RA 171.9981 172 whole (81.60)
+    - [Moon] J Vindemiatrix → J Eris Dec 18.8877 18.8889 ninth (99.12)
+    - [Sun] H Fomalhaut → H Eris RA 40.9969 41 whole (71.67)
+    - [Sun] H Galactic Centre → H Eris RA 118.9868 119 whole (11.47)
+  - Orcus: Jupiter, Moon, Sun — also: 3 Frero Banbou / Charlie Deutsch
+    - [Jupiter] H Scheat → H Orcus RA 163.0133 163 whole (11.27)
+    - [Moon] H Alhena → H Orcus Dec 24.2762 15×φ golden (68.06)
+    - [Moon] H Alkes → H Orcus RA 15.9920 16 whole (35.71)
+    - [Moon] H Scheat → H Orcus RA 163.0133 163 whole (11.27)
+    - [Moon] J Alhena → J Orcus RA 35.0146 35 whole (7.35)
+    - [Moon] J Mirach → J Orcus RA 117.0021 117 whole (80.22)
+    - [Moon] J Sadalmelik → J Orcus RA 162.9872 163 whole (13.11)
+    - [Moon] J Sualocin → J Orcus Dec 14.5674 9×φ golden (70.84)
+    - [Sun] H Pleiades → H Orcus Dec 31.9817 32 whole (0.73)
+    - [Sun] J Galactic Centre → J Orcus RA 131.9820 132 whole (0.98)
+  - Quaoar: Moon, Sun — also: 1 Eclair D'Ainay / Harry Skelton, 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones
+    - [Moon] H Alhena → H Quaoar RA 166.9816 167 whole (0.68)
+    - [Sun] H Fomalhaut → H Quaoar RA 78.0025 78 whole (76.53)
+    - [Sun] H Galactic Centre → H Quaoar RA 0.0127 conj (98.32)
+    - [Sun] H Pleiades → H Quaoar RA 150.4584 93×φ golden (17.76)
+  - Saturn: Moon, Sun — also: 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
+    - [Moon] H Sadalmelik → H Saturn RA 101.9105 63×φ golden (4.35)
+    - [Moon] H Vindemiatrix → H Saturn RA 33.9847 34 whole (5.51)
+    - [Sun] H Fomalhaut → H Saturn RA 114.8772 71×φ golden (81.15)
+  - Chiron: Jupiter, Moon, Sun — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 5 Cedar Hill / Jonathan Burke
+    - [Jupiter] H Scheat → H Chiron RA 0.7176 conj (27.21)
+    - [Moon] H Scheat → H Chiron RA 0.7176 conj (27.21)
+    - [Sun] H Fomalhaut → H Chiron RA 0.8125 conj (21.01)
+  - Mercury: Jupiter, Moon, Sun — also: 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+    - [Jupiter] H Scheat → H Mercury Dec 19.9932 20 whole (43.65)
+    - [Moon] H Scheat → H Mercury Dec 19.9932 20 whole (43.65)
+    - [Moon] H Vindemiatrix → H Mercury RA 173.0066 173 whole (44.86)
+    - [Moon] J Vindemiatrix → J Mercury RA 34.0167 34 whole (2.65)
+    - [Sun] H Pleiades → H Mercury Dec 16.0175 16 whole (1.60)
+    - [Sun] J Al Rescha → J Mercury RA 131.0112 131 whole (19.54)
+  - Sun: Jupiter, Moon, Sun — also: 3 Frero Banbou / Charlie Deutsch
+    - [Jupiter] J Scheat → J Sun Dec 13.9920 14 whole (35.80)
+    - [Moon] J Castor → J Sun Dec 17.7976 11×φ golden (95.01)
+    - [Moon] J Rigel → J Sun RA 65.9856 66 whole (7.82)
+    - [Moon] J Scheat → J Sun Dec 13.9920 14 whole (35.80)
+    - [Sun] J Al Rescha → J Sun Dec 11.3259 7×φ golden (97.67)
+    - [Sun] J Fomalhaut → J Sun RA 160.1998 99×φ golden (30.83)
+    - [Sun] J Pleiades → J Sun Dec 10.0135 10 whole (10.52)
+  - Uranus: Moon, Sun — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones
+    - [Moon] J Rigel → J Uranus Dec 13.0013 13 whole (86.96)
+    - [Sun] J Pleiades → J Uranus Dec 45.3052 28×φ golden (98.25)

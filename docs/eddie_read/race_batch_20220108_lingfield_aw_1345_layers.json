@@ -1,0 +1,4395 @@
+{
+ "workbook": "race_batch_20220108_lingfield_aw_1345_jupiter_tables.xlsx",
+ "l0": {
+  "tables": [
+   "1 Protected Guest / Jane Elliott",
+   "2 Supakalanistic / Liam Keniry",
+   "3 Creationist / Connor Murtagh",
+   "4 Trevolli / Kieran O'Neill",
+   "5 Eleven Eleven / Joey Haynes"
+  ],
+  "missing_in_tables": [],
+  "cloth_gaps": [],
+  "active_read": false
+ },
+ "runners": [
+  "P01",
+  "P03",
+  "P05",
+  "P07",
+  "P09"
+ ],
+ "report": {
+  "P01": {
+   "name": "1 Protected Guest / Jane Elliott",
+   "same_bodies": [
+    "S Sun → H Sun RA 41.0001 41 whole (98.76)",
+    "S Neptune → H Neptune RA 12.9927 13 whole (40.63)",
+    "S Ceres → H Ceres Dec 42.3580 10×φ^3 phi power (loose)",
+    "S Pallas → H Pallas Dec 18.9936 19 whole (46.09)",
+    "S Juno → H Juno RA 165.8384 166.667 ninth (loose)",
+    "S Orcus → H Orcus Dec 3.3377 3.33333 ninth (loose)",
+    "S Uranus → J Uranus RA 96.0273 96 whole (loose)",
+    "S Pluto → J Pluto RA 56.9942 57 whole (50.20)",
+    "S Ceres → J Ceres Dec 12.9526 8×φ golden (loose)",
+    "S Rahu → J Rahu RA 155.5123 155.556 ninth (95.90)",
+    "S Eris → J Eris RA 2.9900 3 whole (24.89)",
+    "S Ketu → J Ketu RA 155.5123 155.556 ninth (95.90)"
+   ],
+   "landings": [
+    {
+     "chart": "H",
+     "body": "Sun",
+     "same_body": [
+      "S Sun → H Sun RA 41.0001 41 whole (98.76)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "S Sun → H Sun RA 41.0001 41 whole (98.76)",
+       "layer": "top rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "H Alhena → H Sun RA 128.9891 129 whole (20.77)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Meissa → H Sun Dec 22.0062 22 whole (47.49)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Sadalmelik → H Sun RA 0.9979 1 whole (80.30)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "S Moon → J Sun RA 0.7972 conj (21.95)",
+       "layer": "top rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Al Rescha → J Sun Dec 0.1760 conj (17.09)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "J Ankaa → J Sun RA 0.2376 conj (70.83)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Meissa → J Sun RA 76.9821 77 whole (1.11)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Meissa → J Sun Dec 6.9952 7 whole (57.83)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Neptune",
+     "same_body": [
+      "S Neptune → H Neptune RA 12.9927 13 whole (40.63)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "H Al Rescha → H Neptune RA 51.7748 32×φ golden (86.34)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": []
+    },
+    {
+     "chart": "H",
+     "body": "Ceres",
+     "same_body": [
+      "S Ceres → H Ceres Dec 42.3580 10×φ^3 phi power (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "H Arcturus → H Ceres RA 72.8181 45×φ golden (63.50)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ],
+     "other_chart_same_body": [
+      "S Ceres → J Ceres Dec 12.9526 8×φ golden (loose)"
+     ],
+     "on_other_chart": [
+      {
+       "text": "J Sadalmelik → J Ceres RA 161.8734 100×φ^1 phi power (83.43)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Pallas",
+     "same_body": [
+      "S Pallas → H Pallas Dec 18.9936 19 whole (46.09)"
+     ],
+     "body_lines": [
+      "S Jupiter → Pallas Dec 0.0771 conj (55.22)"
+     ],
+     "on_this_chart": [
+      {
+       "text": "H Al Rescha → H Pallas RA 130.0138 130 whole (9.76)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "J Ankaa → J Pallas RA 63.9807 64 whole (0.12)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Juno",
+     "same_body": [
+      "S Juno → H Juno RA 165.8384 166.667 ninth (loose)"
+     ],
+     "body_lines": [
+      "S Sun → Juno RA 0.9669 conj (12.63)"
+     ],
+     "on_this_chart": [
+      {
+       "text": "H Al Rescha → H Juno Dec 4.0113 4 whole (18.94)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "H Ankaa → H Juno RA 118.0043 118 whole (61.44)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": []
+    },
+    {
+     "chart": "H",
+     "body": "Orcus",
+     "same_body": [
+      "S Orcus → H Orcus Dec 3.3377 3.33333 ninth (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "H Arcturus → H Orcus Dec 28.0100 28 whole (25.22)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Menkent → H Orcus RA 60.9927 61 whole (40.52)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "J Arcturus → J Orcus RA 81.0000 81 whole (99.63)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Uranus",
+     "same_body": [
+      "S Uranus → J Uranus RA 96.0273 96 whole (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "H Alnilam → H Uranus RA 71.1941 44×φ golden (96.39)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "H Sadalmelik → H Uranus RA 41.4212 41.4 silver (99.83)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Pluto",
+     "same_body": [
+      "S Pluto → J Pluto RA 56.9942 57 whole (50.20)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Ankaa → J Pluto Dec 35.5928 22×φ golden (77.28)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Praesepe → J Pluto RA 111.1928 111.111 ninth (86.63)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "H Al Rescha → H Pluto RA 105.0193 105 whole (0.11)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "H Alnilam → H Pluto RA 158.5657 98×φ golden (90.12)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "H Sadalsuud → H Pluto Dec 14.9844 15 whole (4.85)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Ceres",
+     "same_body": [
+      "S Ceres → J Ceres Dec 12.9526 8×φ golden (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Sadalmelik → J Ceres RA 161.8734 100×φ^1 phi power (83.43)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [
+      "S Ceres → H Ceres Dec 42.3580 10×φ^3 phi power (loose)"
+     ],
+     "on_other_chart": [
+      {
+       "text": "H Arcturus → H Ceres RA 72.8181 45×φ golden (63.50)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Rahu",
+     "same_body": [
+      "S Rahu → J Rahu RA 155.5123 155.556 ninth (95.90)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Arcturus → J Rahu RA 0.3364 conj (60.18)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "S Jupiter → H Rahu RA 144.4693 144.444 ninth (97.36)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "H Menkent → H Rahu RA 22.0086 22 whole (32.56)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "H Praesepe → H Rahu Dec 24.1433 24.14 silver (98.16)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Eris",
+     "same_body": [
+      "S Eris → J Eris RA 2.9900 3 whole (24.89)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Galactic Centre → J Eris Dec 20.9858 21 whole (8.36)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Praesepe → J Eris Dec 28.0042 28 whole (62.13)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "S Moon → H Eris Dec 0.1404 conj (28.30)",
+       "layer": "top rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Praesepe → H Eris RA 105.0127 105 whole (13.26)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Ketu",
+     "same_body": [
+      "S Ketu → J Ketu RA 155.5123 155.556 ninth (95.90)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "H Arcturus → H Ketu Dec 15.0093 15 whole (28.69)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Menkent → H Ketu RA 157.9914 158 whole (32.56)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    }
+   ],
+   "cases": {
+    "1": [
+     {
+      "label": "Ceres",
+      "cells": [
+       "S Ceres → H Ceres Dec 42.3580 10×φ^3 phi power (loose)",
+       "S Ceres → J Ceres Dec 12.9526 8×φ golden (loose)"
+      ],
+      "field": "also: 4 Trevolli / Kieran O'Neill"
+     }
+    ],
+    "2": [],
+    "3": [
+     {
+      "label": "166.667 ninth",
+      "cells": [
+       "S Juno → H Juno RA 165.8384 166.667 ninth (loose) = S Moon → Makemake RA 166.6955 166.667 ninth (97.53)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry"
+     },
+     {
+      "label": "8×φ golden",
+      "cells": [
+       "S Ceres → J Ceres Dec 12.9526 8×φ golden (loose) = S Moon → Meissa Dec 12.9486 8×φ golden (75.20)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry"
+     }
+    ],
+    "4": [
+     {
+      "label": "9 = 360/40",
+      "cells": [
+       "S Jupiter → H Venus Dec 9.0001 9 whole (99.36)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "1 = 360/360",
+      "cells": [
+       "H Sadalmelik → H Sun RA 0.9979 1 whole (80.30)"
+      ],
+      "field": "also: 3 Creationist / Connor Murtagh"
+     },
+     {
+      "label": "3 = 360/120",
+      "cells": [
+       "S Eris → J Eris RA 2.9900 3 whole (24.89)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry, 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "120 = 360/3",
+      "cells": [
+       "J Menkent → J Vesta RA 120.0033 120 whole (69.71)"
+      ],
+      "field": "only"
+     }
+    ],
+    "5": [
+     {
+      "label": "41 whole",
+      "cells": [
+       "S Sun → H Sun RA 41.0001 41 whole (98.76)",
+       "S Sun → H Sun RA 41.0001 41 whole (98.76)",
+       "S Arcturus → J Jupiter Dec 40.9971 41 whole (73.06)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "24.14 silver",
+      "cells": [
+       "S Jupiter → H Mars RA 24.1492 24.14 silver (88.61)",
+       "H Praesepe → H Rahu Dec 24.1433 24.14 silver (98.16)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "φ^10 phi power",
+      "cells": [
+       "S Jupiter → H Haumea RA 122.9496 φ^10 phi power (86.72)",
+       "H Al Rescha → H Quaoar RA 122.9754 φ^10 phi power (94.70)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "155.556 ninth",
+      "cells": [
+       "S Rahu → J Rahu RA 155.5123 155.556 ninth (95.90)",
+       "S Ketu → J Ketu RA 155.5123 155.556 ninth (95.90)"
+      ],
+      "field": "also: 3 Creationist / Connor Murtagh"
+     }
+    ],
+    "6": [
+     {
+      "label": "J Sun on Ankaa",
+      "cells": [
+       "J Ankaa → J Sun RA 0.2376 conj (70.83)",
+       "S Moon → J Sun RA 0.7972 conj (21.95)"
+      ],
+      "field": "only"
+     }
+    ],
+    "7": [
+     {
+      "label": "Pallas: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] S Pallas → H Pallas Dec 18.9936 19 whole (46.09)",
+       "[Moon] J Ankaa → J Pallas RA 63.9807 64 whole (0.12)",
+       "[Sun] H Al Rescha → H Pallas RA 130.0138 130 whole (9.76)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry"
+     },
+     {
+      "label": "Juno: Moon, Sun",
+      "cells": [
+       "[Moon] H Ankaa → H Juno RA 118.0043 118 whole (61.44)",
+       "[Sun] S Juno → H Juno RA 165.8384 166.667 ninth (loose)",
+       "[Sun] H Al Rescha → H Juno Dec 4.0113 4 whole (18.94)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "Venus: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] S Jupiter → H Venus Dec 9.0001 9 whole (99.36)",
+       "[Jupiter] S Jupiter → J Venus RA 1.4285 conj (0.23)",
+       "[Jupiter] S Jupiter → J Venus Dec 0.1541 conj (23.64)",
+       "[Moon] S Moon → H Venus Dec 0.2456 conj (3.29)",
+       "[Sun] J Sadalmelik → J Venus RA 1.2611 conj (2.54)"
+      ],
+      "field": "also: 3 Creationist / Connor Murtagh"
+     },
+     {
+      "label": "Mars: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] S Jupiter → H Mars RA 24.1492 24.14 silver (88.61)",
+       "[Moon] J Meissa → J Mars RA 52.9881 53 whole (16.61)",
+       "[Moon] J Meissa → J Mars Dec 10.0134 10 whole (10.73)",
+       "[Moon] J Praesepe → J Mars Dec 0.0364 conj (77.18)",
+       "[Sun] H Alnilam → H Mars Dec 0.2215 conj (6.84)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry"
+     },
+     {
+      "label": "Rahu: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] S Jupiter → H Rahu RA 144.4693 144.444 ninth (97.36)",
+       "[Moon] H Praesepe → H Rahu Dec 24.1433 24.14 silver (98.16)",
+       "[Moon] J Arcturus → J Rahu RA 0.3364 conj (60.18)",
+       "[Sun] H Menkent → H Rahu RA 22.0086 22 whole (32.56)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "Haumea: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] S Jupiter → H Haumea RA 122.9496 φ^10 phi power (86.72)",
+       "[Moon] H Alhena → H Haumea Dec 1.0078 1 whole (37.19)",
+       "[Moon] J Meissa → J Haumea RA 108.4392 67×φ golden (0.19)",
+       "[Sun] H Menkent → H Haumea RA 0.4888 conj (45.44)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "Gonggong: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] S Jupiter → H Gonggong RA 1.1416 conj (5.71)",
+       "[Moon] H Arcturus → H Gonggong RA 121.3604 75×φ golden (57.43)",
+       "[Sun] J Sadalmelik → J Gonggong RA 0.2838 conj (65.74)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "Sun: Moon, Sun",
+      "cells": [
+       "[Moon] H Alhena → H Sun RA 128.9891 129 whole (20.77)",
+       "[Moon] H Meissa → H Sun Dec 22.0062 22 whole (47.49)",
+       "[Moon] S Moon → J Sun RA 0.7972 conj (21.95)",
+       "[Moon] J Ankaa → J Sun RA 0.2376 conj (70.83)",
+       "[Moon] J Meissa → J Sun RA 76.9821 77 whole (1.11)",
+       "[Moon] J Meissa → J Sun Dec 6.9952 7 whole (57.83)",
+       "[Sun] S Sun → H Sun RA 41.0001 41 whole (98.76)",
+       "[Sun] H Sadalmelik → H Sun RA 0.9979 1 whole (80.30)",
+       "[Sun] J Al Rescha → J Sun Dec 0.1760 conj (17.09)"
+      ],
+      "field": "also: 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "Jupiter: Jupiter, Moon",
+      "cells": [
+       "[Jupiter] S Saturn → H Jupiter RA 176.3679 109×φ golden (87.01)",
+       "[Jupiter] S Uranus → J Jupiter RA 144.0015 144 whole (85.89)",
+       "[Jupiter] S Makemake → J Jupiter Dec 43.9984 44 whole (84.63)",
+       "[Moon] H Meissa → H Jupiter RA 54.9887 55 whole (18.93)",
+       "[Moon] S Praesepe → H Jupiter Dec 3.0143 3 whole (7.98)",
+       "[Moon] S Makemake → J Jupiter Dec 43.9984 44 whole (84.63)",
+       "[Moon] S Arcturus → J Jupiter Dec 40.9971 41 whole (73.06)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "Mercury: Moon, Sun",
+      "cells": [
+       "[Moon] H Arcturus → H Mercury RA 90.9868 91 whole (11.44)",
+       "[Moon] J Arcturus → J Mercury RA 139.1729 86×φ golden (10.36)",
+       "[Sun] H Al Rescha → H Mercury Dec 21.0057 21 whole (51.43)",
+       "[Sun] H Alnilam → H Mercury RA 139.1567 86×φ golden (67.60)",
+       "[Sun] H Sadalsuud → H Mercury RA 17.9851 18 whole (6.48)",
+       "[Sun] J Menkent → J Mercury RA 141.4173 141.4 sqrt2 (98.85)",
+       "[Sun] J Sadalsuud → J Mercury Dec 0.0955 conj (46.47)"
+      ],
+      "field": "also: 4 Trevolli / Kieran O'Neill"
+     },
+     {
+      "label": "Pluto: Moon, Sun",
+      "cells": [
+       "[Moon] J Ankaa → J Pluto Dec 35.5928 22×φ golden (77.28)",
+       "[Moon] J Praesepe → J Pluto RA 111.1928 111.111 ninth (86.63)",
+       "[Sun] H Al Rescha → H Pluto RA 105.0193 105 whole (0.11)",
+       "[Sun] H Alnilam → H Pluto RA 158.5657 98×φ golden (90.12)",
+       "[Sun] H Sadalsuud → H Pluto Dec 14.9844 15 whole (4.85)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry, 4 Trevolli / Kieran O'Neill"
+     },
+     {
+      "label": "Vesta: Moon, Sun",
+      "cells": [
+       "[Moon] J Arcturus → J Vesta RA 122.2477 122.222 ninth (96.47)",
+       "[Moon] J Galactic Centre → J Vesta RA 174.7439 108×φ golden (77.94)",
+       "[Sun] H Al Rescha → H Vesta Dec 22.0075 22 whole (39.04)",
+       "[Sun] H Alnilam → H Vesta RA 131.0850 81×φ golden (6.28)",
+       "[Sun] J Menkent → J Vesta RA 120.0033 120 whole (69.71)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill"
+     },
+     {
+      "label": "Makemake: Moon, Sun",
+      "cells": [
+       "[Moon] H Meissa → H Makemake Dec 15.9808 16 whole (0.15)",
+       "[Sun] H Al Rescha → H Makemake RA 162.9985 163 whole (85.54)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry, 4 Trevolli / Kieran O'Neill"
+     },
+     {
+      "label": "Quaoar: Moon, Sun",
+      "cells": [
+       "[Moon] H Galactic Centre → H Quaoar RA 1.1206 conj (6.40)",
+       "[Moon] H Praesepe → H Quaoar RA 137.5038 85×φ golden (1.00)",
+       "[Moon] J Ankaa → J Quaoar Dec 27.9862 28 whole (9.61)",
+       "[Sun] H Al Rescha → H Quaoar RA 122.9754 φ^10 phi power (94.70)",
+       "[Sun] J Al Rescha → J Quaoar RA 148.9853 149 whole (7.01)",
+       "[Sun] J Sadalmelik → J Quaoar Dec 13.9989 14 whole (89.07)"
+      ],
+      "field": "also: 3 Creationist / Connor Murtagh"
+     },
+     {
+      "label": "Saturn: Moon, Sun",
+      "cells": [
+       "[Moon] H Galactic Centre → H Saturn Dec 10.0182 10 whole (0.79)",
+       "[Sun] H Alnilam → H Saturn RA 158.5441 98×φ golden (7.88)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "Transpluto: Moon, Sun",
+      "cells": [
+       "[Moon] H Ankaa → H Transpluto RA 145.9807 146 whole (0.11)",
+       "[Moon] J Ankaa → J Transpluto RA 138.9845 139 whole (5.07)",
+       "[Sun] J Alnilam → J Transpluto Dec 14.9865 15 whole (10.68)",
+       "[Sun] J Menkent → J Transpluto Dec 50.1521 31×φ golden (61.44)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry, 4 Trevolli / Kieran O'Neill"
+     },
+     {
+      "label": "Ceres: Moon, Sun",
+      "cells": [
+       "[Moon] H Arcturus → H Ceres RA 72.8181 45×φ golden (63.50)",
+       "[Sun] J Sadalmelik → J Ceres RA 161.8734 100×φ^1 phi power (83.43)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry, 4 Trevolli / Kieran O'Neill"
+     },
+     {
+      "label": "Orcus: Moon, Sun",
+      "cells": [
+       "[Moon] H Arcturus → H Orcus Dec 28.0100 28 whole (25.22)",
+       "[Moon] J Arcturus → J Orcus RA 81.0000 81 whole (99.63)",
+       "[Sun] H Menkent → H Orcus RA 60.9927 61 whole (40.52)"
+      ],
+      "field": "also: 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "Ketu: Moon, Sun",
+      "cells": [
+       "[Moon] H Arcturus → H Ketu Dec 15.0093 15 whole (28.69)",
+       "[Sun] H Menkent → H Ketu RA 157.9914 158 whole (32.56)"
+      ],
+      "field": "also: 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes"
+     }
+    ]
+   }
+  },
+  "P03": {
+   "name": "2 Supakalanistic / Liam Keniry",
+   "same_bodies": [
+    "S Mercury → H Mercury RA 43.9935 44 whole (45.66)",
+    "S Venus → H Venus RA 90.6171 56×φ golden (loose)",
+    "S Mars → H Mars RA 122.2151 122.222 ninth (99.02)",
+    "S Mars → H Mars Dec 30.7716 19×φ golden (loose)",
+    "S Pluto → H Pluto RA 16.1251 10×φ^1 phi power (loose)",
+    "S Pluto → H Pluto Dec 2.9955 3 whole (59.78)",
+    "S Juno → H Juno RA 17.0110 17 whole (20.43)",
+    "S Rahu → H Rahu RA 166.3247 166.667 ninth (loose)",
+    "S Ketu → H Ketu RA 166.3247 166.667 ninth (loose)",
+    "S Sun → J Sun RA 154.9522 155.556 ninth (loose)",
+    "S Mercury → J Mercury RA 164.0185 164 whole (0.58)",
+    "S Venus → J Venus RA 179.9316 10×φ^6 phi power (loose)",
+    "S Neptune → J Neptune RA 87.3456 54×φ golden (loose)",
+    "S Pallas → J Pallas Dec 27.4872 17×φ golden (loose)",
+    "S Haumea → J Haumea RA 38.0078 38 whole (36.94)",
+    "S Quaoar → J Quaoar Dec 3.9764 4 whole (loose)",
+    "S Gonggong → J Gonggong Dec 11.0571 φ^5 phi power (loose)"
+   ],
+   "landings": [
+    {
+     "chart": "H",
+     "body": "Mercury",
+     "same_body": [
+      "S Mercury → H Mercury RA 43.9935 44 whole (45.66)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "H Ankaa → H Mercury Dec 37.0021 37 whole (80.06)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Menkent → H Mercury RA 141.9892 142 whole (21.28)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "H Sadalmelik → H Mercury RA 22.2212 22.2222 ninth (98.63)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "H Sadalmelik → H Mercury Dec 4.9840 5 whole (3.99)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "H Sadalsuud → H Mercury Dec 0.2669 conj (1.22)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [
+      "S Mercury → J Mercury RA 164.0185 164 whole (0.58)"
+     ],
+     "on_other_chart": [
+      {
+       "text": "S Jupiter → J Mercury RA 171.5204 106×φ golden (52.81)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Venus",
+     "same_body": [
+      "S Venus → H Venus RA 90.6171 56×φ golden (loose)"
+     ],
+     "body_lines": [
+      "S Sun → Venus RA 0.1171 conj (84.99)"
+     ],
+     "on_this_chart": [],
+     "other_chart_same_body": [
+      "S Venus → J Venus RA 179.9316 10×φ^6 phi power (loose)"
+     ],
+     "on_other_chart": []
+    },
+    {
+     "chart": "H",
+     "body": "Mars",
+     "same_body": [
+      "S Mars → H Mars RA 122.2151 122.222 ninth (99.02)",
+      "S Mars → H Mars Dec 30.7716 19×φ golden (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "S Jupiter → H Mars Dec 19.4122 12×φ golden (75.55)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "H Menkent → H Mars Dec 44.0159 44 whole (4.17)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "J Alhena → J Mars RA 108.9832 109 whole (2.55)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Galactic Centre → J Mars RA 58.0150 58 whole (6.36)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Pluto",
+     "same_body": [
+      "S Pluto → H Pluto RA 16.1251 10×φ^1 phi power (loose)",
+      "S Pluto → H Pluto Dec 2.9955 3 whole (59.78)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "S Moon → H Pluto Dec 16.6652 16.6667 ninth (98.77)",
+       "layer": "top rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Al Rescha → H Pluto RA 108.4169 67×φ golden (53.98)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "H Praesepe → H Pluto RA 152.0629 94×φ golden (0.00)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "J Arcturus → J Pluto Dec 13.0079 13 whole (36.48)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Juno",
+     "same_body": [
+      "S Juno → H Juno RA 17.0110 17 whole (20.43)"
+     ],
+     "body_lines": [
+      "S Sun → Juno RA 0.9669 conj (12.63)"
+     ],
+     "on_this_chart": [
+      {
+       "text": "H Alhena → H Juno RA 152.0065 152 whole (45.39)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Galactic Centre → H Juno RA 41.0014 41 whole (86.17)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "J Galactic Centre → J Juno RA 1.0933 conj (7.35)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Rahu",
+     "same_body": [
+      "S Rahu → H Rahu RA 166.3247 166.667 ninth (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "S Sun → J Rahu Dec 44.9947 45 whole (54.09)",
+       "layer": "top rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "J Al Rescha → J Rahu Dec 19.9937 20 whole (46.99)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Ketu",
+     "same_body": [
+      "S Ketu → H Ketu RA 166.3247 166.667 ninth (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "J Alhena → J Ketu RA 174.7793 108×φ golden (0.05)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Sun",
+     "same_body": [
+      "S Sun → J Sun RA 154.9522 155.556 ninth (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Arcturus → J Sun Dec 2.0091 2 whole (29.56)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": []
+    },
+    {
+     "chart": "J",
+     "body": "Mercury",
+     "same_body": [
+      "S Mercury → J Mercury RA 164.0185 164 whole (0.58)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "S Jupiter → J Mercury RA 171.5204 106×φ golden (52.81)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter"
+       ]
+      }
+     ],
+     "other_chart_same_body": [
+      "S Mercury → H Mercury RA 43.9935 44 whole (45.66)"
+     ],
+     "on_other_chart": [
+      {
+       "text": "H Ankaa → H Mercury Dec 37.0021 37 whole (80.06)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Menkent → H Mercury RA 141.9892 142 whole (21.28)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "H Sadalmelik → H Mercury RA 22.2212 22.2222 ninth (98.63)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "H Sadalmelik → H Mercury Dec 4.9840 5 whole (3.99)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "H Sadalsuud → H Mercury Dec 0.2669 conj (1.22)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Venus",
+     "same_body": [
+      "S Venus → J Venus RA 179.9316 10×φ^6 phi power (loose)"
+     ],
+     "body_lines": [
+      "S Sun → Venus RA 0.1171 conj (84.99)"
+     ],
+     "on_this_chart": [],
+     "other_chart_same_body": [
+      "S Venus → H Venus RA 90.6171 56×φ golden (loose)"
+     ],
+     "on_other_chart": []
+    },
+    {
+     "chart": "J",
+     "body": "Neptune",
+     "same_body": [
+      "S Neptune → J Neptune RA 87.3456 54×φ golden (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "S Sun → J Neptune Dec 0.1925 conj (12.83)",
+       "layer": "top rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "S Sun → H Neptune RA 46.9216 29×φ golden (91.75)",
+       "layer": "top rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Pallas",
+     "same_body": [
+      "S Pallas → J Pallas Dec 27.4872 17×φ golden (loose)"
+     ],
+     "body_lines": [
+      "S Jupiter → Pallas Dec 0.0771 conj (55.22)"
+     ],
+     "on_this_chart": [
+      {
+       "text": "J Alnilam → J Pallas Dec 16.9954 17 whole (59.34)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "J Meissa → J Pallas RA 121.9893 122 whole (21.65)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "H Alhena → H Pallas RA 61.0119 61 whole (16.49)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Galactic Centre → H Pallas RA 131.9961 132 whole (64.65)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Sadalsuud → H Pallas Dec 0.2878 conj (0.17)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Haumea",
+     "same_body": [
+      "S Haumea → J Haumea RA 38.0078 38 whole (36.94)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Al Rescha → J Haumea Dec 21.0344 13×φ golden (99.89)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "J Alhena → J Haumea RA 79.9829 80 whole (2.03)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Alnilam → J Haumea Dec 24.9998 25 whole (97.65)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "J Galactic Centre → J Haumea RA 87.0153 87 whole (5.52)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": []
+    },
+    {
+     "chart": "J",
+     "body": "Quaoar",
+     "same_body": [
+      "S Quaoar → J Quaoar Dec 3.9764 4 whole (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "S Jupiter → J Quaoar Dec 0.2228 conj (6.62)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "J Arcturus → J Quaoar Dec 30.7417 19×φ golden (93.97)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "H Galactic Centre → H Quaoar RA 1.2669 conj (2.42)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Sadalsuud → H Quaoar Dec 9.9871 10 whole (12.75)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Gonggong",
+     "same_body": [
+      "S Gonggong → J Gonggong Dec 11.0571 φ^5 phi power (loose)"
+     ],
+     "body_lines": [
+      "S Jupiter → Gonggong Dec 0.2973 conj (0.01)"
+     ],
+     "on_this_chart": [
+      {
+       "text": "S Sun → J Gonggong Dec 0.2930 conj (0.05)",
+       "layer": "top rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "S Jupiter → H Gonggong RA 1.2521 conj (2.73)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter"
+       ]
+      }
+     ]
+    }
+   ],
+   "cases": {
+    "1": [
+     {
+      "label": "Mercury",
+      "cells": [
+       "S Mercury → H Mercury RA 43.9935 44 whole (45.66)",
+       "S Mercury → J Mercury RA 164.0185 164 whole (0.58)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "Venus",
+      "cells": [
+       "S Venus → H Venus RA 90.6171 56×φ golden (loose)",
+       "S Venus → J Venus RA 179.9316 10×φ^6 phi power (loose)"
+      ],
+      "field": "only"
+     }
+    ],
+    "2": [
+     {
+      "label": "H Mars",
+      "cells": [
+       "S Mars → H Mars RA 122.2151 122.222 ninth (99.02)",
+       "S Mars → H Mars Dec 30.7716 19×φ golden (loose)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "H Pluto",
+      "cells": [
+       "S Pluto → H Pluto RA 16.1251 10×φ^1 phi power (loose)",
+       "S Pluto → H Pluto Dec 2.9955 3 whole (59.78)"
+      ],
+      "field": "only"
+     }
+    ],
+    "3": [
+     {
+      "label": "166.667 ninth",
+      "cells": [
+       "S Rahu → H Rahu RA 166.3247 166.667 ninth (loose) = S Moon → Makemake RA 166.6955 166.667 ninth (97.53)"
+      ],
+      "field": "also: 1 Protected Guest / Jane Elliott"
+     },
+     {
+      "label": "166.667 ninth",
+      "cells": [
+       "S Ketu → H Ketu RA 166.3247 166.667 ninth (loose) = S Moon → Makemake RA 166.6955 166.667 ninth (97.53)"
+      ],
+      "field": "also: 1 Protected Guest / Jane Elliott"
+     },
+     {
+      "label": "12×φ golden",
+      "cells": [
+       "S Jupiter → H Mars Dec 19.4122 12×φ golden (75.55) = S Moon → Alhena Dec 19.4132 12×φ golden (81.21)"
+      ],
+      "field": "also: 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "25 whole",
+      "cells": [
+       "S Moon → H Jupiter Dec 24.9957 25 whole (61.52) = S Sun → Al Rescha Dec 24.9993 25 whole (93.15)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "16.6667 ninth",
+      "cells": [
+       "S Moon → H Pluto Dec 16.6652 16.6667 ninth (98.77) = S Sun → Sadalsuud Dec 16.6637 16.6667 ninth (97.48)"
+      ],
+      "field": "also: 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "94×φ golden",
+      "cells": [
+       "H Praesepe → H Pluto RA 152.0629 94×φ golden (0.00) = S Moon → Arcturus RA 152.0976 94×φ golden (85.89)"
+      ],
+      "field": "also: 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "8×φ golden",
+      "cells": [
+       "H Praesepe → H Sedna Dec 12.9442 8×φ golden (99.30) = S Moon → Meissa Dec 12.9486 8×φ golden (75.20)"
+      ],
+      "field": "also: 1 Protected Guest / Jane Elliott"
+     },
+     {
+      "label": "16.6667 ninth",
+      "cells": [
+       "S Chiron → J Jupiter Dec 16.6613 16.6667 ninth (95.42) = S Sun → Sadalsuud Dec 16.6637 16.6667 ninth (97.48)"
+      ],
+      "field": "also: 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "13×φ golden",
+      "cells": [
+       "J Al Rescha → J Haumea Dec 21.0344 13×φ golden (99.89) = S Sun → Alnilam Dec 21.0333 13×φ golden (93.12)"
+      ],
+      "field": "also: 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill"
+     },
+     {
+      "label": "25 whole",
+      "cells": [
+       "J Alnilam → J Haumea Dec 24.9998 25 whole (97.65) = S Sun → Al Rescha Dec 24.9993 25 whole (93.15)"
+      ],
+      "field": "only"
+     }
+    ],
+    "4": [
+     {
+      "label": "3 = 360/120",
+      "cells": [
+       "S Pluto → H Pluto Dec 2.9955 3 whole (59.78)"
+      ],
+      "field": "also: 1 Protected Guest / Jane Elliott, 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "2 = 360/180",
+      "cells": [
+       "H Jupiter → H star Praesepe Dec 1.9980 2 whole (80.61)"
+      ],
+      "field": "also: 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "2 = 360/180",
+      "cells": [
+       "S Praesepe → H Jupiter Dec 1.9990 2 whole (90.70)"
+      ],
+      "field": "also: 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "4 = 360/90",
+      "cells": [
+       "S Quaoar → J Quaoar Dec 3.9764 4 whole (loose)"
+      ],
+      "field": "also: 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "45 = 360/8",
+      "cells": [
+       "S Sun → J Rahu Dec 44.9947 45 whole (54.09)"
+      ],
+      "field": "also: 4 Trevolli / Kieran O'Neill"
+     }
+    ],
+    "5": [
+     {
+      "label": "19×φ golden",
+      "cells": [
+       "S Mars → H Mars Dec 30.7716 19×φ golden (loose)",
+       "J Arcturus → J Quaoar Dec 30.7417 19×φ golden (93.97)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "10×φ^1 phi power",
+      "cells": [
+       "S Pluto → H Pluto RA 16.1251 10×φ^1 phi power (loose)",
+       "J Menkent → J Uranus Dec 16.1826 10×φ^1 phi power (94.37)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "17 whole",
+      "cells": [
+       "S Juno → H Juno RA 17.0110 17 whole (20.43)",
+       "J Alnilam → J Pallas Dec 16.9954 17 whole (59.34)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "166.667 ninth",
+      "cells": [
+       "S Rahu → H Rahu RA 166.3247 166.667 ninth (loose)",
+       "S Ketu → H Ketu RA 166.3247 166.667 ninth (loose)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "65 whole",
+      "cells": [
+       "H Jupiter → H star Ankaa RA 64.9991 65 whole (91.40)",
+       "H Ankaa → H Jupiter RA 64.9991 65 whole (91.40)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "2 whole",
+      "cells": [
+       "H Jupiter → H star Praesepe Dec 1.9980 2 whole (80.61)",
+       "S Praesepe → H Jupiter Dec 1.9990 2 whole (90.70)"
+      ],
+      "field": "also: 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "25 whole",
+      "cells": [
+       "S Moon → H Jupiter Dec 24.9957 25 whole (61.52)",
+       "J Alnilam → J Haumea Dec 24.9998 25 whole (97.65)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "16.6667 ninth",
+      "cells": [
+       "S Moon → H Pluto Dec 16.6652 16.6667 ninth (98.77)",
+       "S Chiron → J Jupiter Dec 16.6613 16.6667 ninth (95.42)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "37 whole",
+      "cells": [
+       "H Ankaa → H Mercury Dec 37.0021 37 whole (80.06)",
+       "J Galactic Centre → J Orcus Dec 37.0001 37 whole (98.77)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "112 whole",
+      "cells": [
+       "J Jupiter → J star Sadalsuud RA 111.9961 112 whole (64.59)",
+       "J Sadalsuud → J Jupiter RA 111.9961 112 whole (64.59)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "106×φ golden",
+      "cells": [
+       "S Jupiter → J Mercury RA 171.5204 106×φ golden (52.81)",
+       "J Sadalmelik → J Makemake RA 171.5157 106×φ golden (76.22)"
+      ],
+      "field": "only"
+     }
+    ],
+    "6": [],
+    "7": [
+     {
+      "label": "Juno: Moon, Sun",
+      "cells": [
+       "[Moon] H Alhena → H Juno RA 152.0065 152 whole (45.39)",
+       "[Moon] H Galactic Centre → H Juno RA 41.0014 41 whole (86.17)",
+       "[Moon] J Galactic Centre → J Juno RA 1.0933 conj (7.35)",
+       "[Sun] S Juno → H Juno RA 17.0110 17 whole (20.43)"
+      ],
+      "field": "also: 1 Protected Guest / Jane Elliott, 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "Mars: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] S Jupiter → H Mars Dec 19.4122 12×φ golden (75.55)",
+       "[Moon] J Alhena → J Mars RA 108.9832 109 whole (2.55)",
+       "[Moon] J Galactic Centre → J Mars RA 58.0150 58 whole (6.36)",
+       "[Sun] H Menkent → H Mars Dec 44.0159 44 whole (4.17)"
+      ],
+      "field": "also: 1 Protected Guest / Jane Elliott"
+     },
+     {
+      "label": "Gonggong: Jupiter, Sun",
+      "cells": [
+       "[Jupiter] S Jupiter → H Gonggong RA 1.2521 conj (2.73)",
+       "[Jupiter] S Gonggong → J Gonggong Dec 11.0571 φ^5 phi power (loose)",
+       "[Sun] S Sun → J Gonggong Dec 0.2930 conj (0.05)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "Jupiter: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] S Moon → H Jupiter Dec 24.9957 25 whole (61.52)",
+       "[Jupiter] S Venus → H Jupiter RA 142.0046 142 whole (58.93)",
+       "[Jupiter] S Pluto → H Jupiter RA 133.3495 133.333 ninth (98.06)",
+       "[Jupiter] S Juno → H Jupiter Dec 35.5998 22×φ golden (81.79)",
+       "[Jupiter] S Makemake → H Jupiter Dec 0.1881 conj (13.92)",
+       "[Jupiter] S Chiron → J Jupiter Dec 16.6613 16.6667 ninth (95.42)",
+       "[Jupiter] S Pallas → J Jupiter Dec 0.2913 conj (0.08)",
+       "[Jupiter] S Gonggong → J Jupiter Dec 0.0710 conj (58.26)",
+       "[Moon] S Moon → H Jupiter Dec 24.9957 25 whole (61.52)",
+       "[Moon] S Makemake → H Jupiter Dec 0.1881 conj (13.92)",
+       "[Moon] H Ankaa → H Jupiter RA 64.9991 65 whole (91.40)",
+       "[Moon] S Galactic Centre → H Jupiter Dec 50.9885 51 whole (17.94)",
+       "[Moon] S Meissa → H Jupiter RA 12.2254 12.2222 ninth (95.63)",
+       "[Moon] S Praesepe → H Jupiter Dec 1.9990 2 whole (90.70)",
+       "[Moon] S Chiron → J Jupiter Dec 16.6613 16.6667 ninth (95.42)",
+       "[Moon] S Arcturus → J Jupiter RA 3.0076 3 whole (38.30)",
+       "[Sun] S Venus → H Jupiter RA 142.0046 142 whole (58.93)",
+       "[Sun] S Juno → H Jupiter Dec 35.5998 22×φ golden (81.79)",
+       "[Sun] J Al Rescha → J Jupiter RA 179.6137 111×φ golden (39.87)",
+       "[Sun] S Menkent → J Jupiter RA 0.7660 conj (23.94)",
+       "[Sun] J Sadalsuud → J Jupiter RA 111.9961 112 whole (64.59)"
+      ],
+      "field": "also: 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "Pluto: Moon, Sun",
+      "cells": [
+       "[Moon] S Moon → H Pluto Dec 16.6652 16.6667 ninth (98.77)",
+       "[Moon] H Praesepe → H Pluto RA 152.0629 94×φ golden (0.00)",
+       "[Moon] J Arcturus → J Pluto Dec 13.0079 13 whole (36.48)",
+       "[Sun] H Al Rescha → H Pluto RA 108.4169 67×φ golden (53.98)"
+      ],
+      "field": "also: 1 Protected Guest / Jane Elliott, 4 Trevolli / Kieran O'Neill"
+     },
+     {
+      "label": "Uranus: Moon, Sun",
+      "cells": [
+       "[Moon] H Alhena → H Uranus RA 90.9915 91 whole (32.81)",
+       "[Moon] H Galactic Centre → H Uranus RA 102.0165 102 whole (3.05)",
+       "[Moon] J Ankaa → J Uranus RA 127.8548 79×φ golden (0.49)",
+       "[Sun] H Al Rescha → H Uranus Dec 0.1486 conj (25.46)",
+       "[Sun] H Sadalmelik → H Uranus RA 36.9931 37 whole (42.71)",
+       "[Sun] J Alnilam → J Uranus Dec 18.9864 19 whole (10.18)",
+       "[Sun] J Menkent → J Uranus Dec 16.1826 10×φ^1 phi power (94.37)"
+      ],
+      "field": "also: 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "Transpluto: Moon, Sun",
+      "cells": [
+       "[Moon] H Ankaa → H Transpluto Dec 53.9993 54 whole (92.68)",
+       "[Sun] H Al Rescha → H Transpluto RA 120.9850 121 whole (6.37)",
+       "[Sun] H Sadalmelik → H Transpluto Dec 12.0132 12 whole (11.72)",
+       "[Sun] J Al Rescha → J Transpluto RA 110.9448 10×φ^5 phi power (85.06)",
+       "[Sun] J Sadalmelik → J Transpluto RA 170.0064 170 whole (46.17)"
+      ],
+      "field": "also: 1 Protected Guest / Jane Elliott, 4 Trevolli / Kieran O'Neill"
+     },
+     {
+      "label": "Pallas: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] S Pallas → J Pallas Dec 27.4872 17×φ golden (loose)",
+       "[Moon] H Alhena → H Pallas RA 61.0119 61 whole (16.49)",
+       "[Moon] H Galactic Centre → H Pallas RA 131.9961 132 whole (64.65)",
+       "[Moon] J Meissa → J Pallas RA 121.9893 122 whole (21.65)",
+       "[Sun] H Sadalsuud → H Pallas Dec 0.2878 conj (0.17)",
+       "[Sun] J Alnilam → J Pallas Dec 16.9954 17 whole (59.34)"
+      ],
+      "field": "also: 1 Protected Guest / Jane Elliott"
+     },
+     {
+      "label": "Vesta: Moon, Sun",
+      "cells": [
+       "[Moon] H Alhena → H Vesta RA 16.0113 16 whole (19.00)",
+       "[Moon] H Galactic Centre → H Vesta RA 176.9967 177 whole (69.55)",
+       "[Moon] H Meissa → H Vesta RA 0.3664 conj (57.11)",
+       "[Moon] S Moon → J Vesta RA 42.0619 26×φ golden (61.62)",
+       "[Moon] J Arcturus → J Vesta RA 110.0218 68×φ golden (74.00)",
+       "[Sun] H Alnilam → H Vesta RA 0.6354 conj (33.23)",
+       "[Sun] H Sadalsuud → H Vesta Dec 29.0022 29 whole (79.54)",
+       "[Sun] J Sadalsuud → J Vesta RA 1.0472 conj (9.11)",
+       "[Sun] J Sadalsuud → J Vesta Dec 15.9972 16 whole (74.13)"
+      ],
+      "field": "also: 1 Protected Guest / Jane Elliott, 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill"
+     },
+     {
+      "label": "Ceres: Moon, Sun",
+      "cells": [
+       "[Moon] H Praesepe → H Ceres RA 38.9920 39 whole (35.85)",
+       "[Moon] J Meissa → J Ceres RA 141.4351 141.4 sqrt2 (96.15)",
+       "[Sun] H Alnilam → H Ceres RA 6.9838 7 whole (3.62)"
+      ],
+      "field": "also: 1 Protected Guest / Jane Elliott, 4 Trevolli / Kieran O'Neill"
+     },
+     {
+      "label": "Mercury: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] S Jupiter → J Mercury RA 171.5204 106×φ golden (52.81)",
+       "[Moon] H Ankaa → H Mercury Dec 37.0021 37 whole (80.06)",
+       "[Sun] H Menkent → H Mercury RA 141.9892 142 whole (21.28)",
+       "[Sun] H Sadalmelik → H Mercury RA 22.2212 22.2222 ninth (98.63)",
+       "[Sun] H Sadalmelik → H Mercury Dec 4.9840 5 whole (3.99)",
+       "[Sun] H Sadalsuud → H Mercury Dec 0.2669 conj (1.22)"
+      ],
+      "field": "also: 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "Quaoar: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] S Jupiter → J Quaoar Dec 0.2228 conj (6.62)",
+       "[Moon] H Galactic Centre → H Quaoar RA 1.2669 conj (2.42)",
+       "[Moon] J Arcturus → J Quaoar Dec 30.7417 19×φ golden (93.97)",
+       "[Sun] H Sadalsuud → H Quaoar Dec 9.9871 10 whole (12.75)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "Sedna: Moon, Sun",
+      "cells": [
+       "[Moon] H Praesepe → H Sedna Dec 12.9442 8×φ golden (99.30)",
+       "[Moon] J Arcturus → J Sedna RA 174.7174 108×φ golden (0.41)",
+       "[Sun] H Sadalmelik → H Sedna RA 82.0160 82 whole (4.05)"
+      ],
+      "field": "also: 4 Trevolli / Kieran O'Neill"
+     },
+     {
+      "label": "Makemake: Moon, Sun",
+      "cells": [
+       "[Moon] H Praesepe → H Makemake RA 60.9973 61 whole (75.20)",
+       "[Moon] J Arcturus → J Makemake RA 53.9851 54 whole (6.49)",
+       "[Sun] J Al Rescha → J Makemake RA 129.4227 80×φ golden (14.48)",
+       "[Sun] J Sadalmelik → J Makemake RA 171.5157 106×φ golden (76.22)"
+      ],
+      "field": "also: 1 Protected Guest / Jane Elliott, 4 Trevolli / Kieran O'Neill"
+     },
+     {
+      "label": "Haumea: Moon, Sun",
+      "cells": [
+       "[Moon] J Alhena → J Haumea RA 79.9829 80 whole (2.03)",
+       "[Moon] J Galactic Centre → J Haumea RA 87.0153 87 whole (5.52)",
+       "[Sun] J Al Rescha → J Haumea Dec 21.0344 13×φ golden (99.89)",
+       "[Sun] J Alnilam → J Haumea Dec 24.9998 25 whole (97.65)"
+      ],
+      "field": "also: 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "Saturn: Moon, Sun",
+      "cells": [
+       "[Moon] J Meissa → J Saturn RA 113.2836 70×φ golden (11.83)",
+       "[Sun] J Alnilam → J Saturn RA 113.0147 113 whole (7.07)"
+      ],
+      "field": "also: 1 Protected Guest / Jane Elliott, 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes"
+     }
+    ]
+   }
+  },
+  "P05": {
+   "name": "3 Creationist / Connor Murtagh",
+   "same_bodies": [
+    "S Venus → H Venus Dec 17.9315 φ^6 phi power (loose)",
+    "S Jupiter → H Jupiter RA 167.9732 168 whole (loose)",
+    "S Chiron → H Chiron Dec 4.4454 4.44444 ninth (loose)",
+    "S Juno → H Juno RA 67.9551 42×φ golden (86.15)",
+    "S Vesta → H Vesta RA 134.2708 83×φ golden (3.86)",
+    "S Vesta → H Vesta Dec 33.3174 33.3333 ninth (loose)",
+    "S Transpluto → H Transpluto Dec 0.9931 1 whole (42.94)",
+    "S Mars → J Mars RA 133.1800 133.333 ninth (loose)",
+    "S Jupiter → J Jupiter RA 61.7627 100×φ^-1 phi power (loose)",
+    "S Vesta → J Vesta Dec 1.9911 2 whole (30.78)",
+    "S Orcus → J Orcus Dec 10.9760 11 whole (loose)"
+   ],
+   "landings": [
+    {
+     "chart": "H",
+     "body": "Venus",
+     "same_body": [
+      "S Venus → H Venus Dec 17.9315 φ^6 phi power (loose)"
+     ],
+     "body_lines": [
+      "S Sun → Venus RA 0.1171 conj (84.99)"
+     ],
+     "on_this_chart": [
+      {
+       "text": "H Jupiter → H Venus Dec 6.9962 7 whole (65.43)",
+       "layer": "T1",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "S Moon → H Venus RA 1.0749 conj (8.03)",
+       "layer": "top rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Arcturus → H Venus RA 151.0136 151 whole (10.20)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": []
+    },
+    {
+     "chart": "H",
+     "body": "Jupiter",
+     "same_body": [
+      "S Jupiter → H Jupiter RA 167.9732 168 whole (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "S Vesta → H Jupiter RA 101.9994 102 whole (93.75)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter"
+       ]
+      }
+     ],
+     "other_chart_same_body": [
+      "S Jupiter → J Jupiter RA 61.7627 100×φ^-1 phi power (loose)"
+     ],
+     "on_other_chart": [
+      {
+       "text": "S Makemake → J Jupiter RA 163.4144 101×φ golden (61.26)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter",
+        "Moon"
+       ]
+      },
+      {
+       "text": "S Arcturus → J Jupiter RA 178.0123 178 whole (14.70)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Sadalsuud → J Jupiter RA 73.0082 73 whole (34.87)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Chiron",
+     "same_body": [
+      "S Chiron → H Chiron Dec 4.4454 4.44444 ninth (loose)"
+     ],
+     "body_lines": [
+      "S Moon → Chiron RA 0.7864 conj (22.64)"
+     ],
+     "on_this_chart": [
+      {
+       "text": "H Alnilam → H Chiron Dec 2.0192 2 whole (0.16)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": []
+    },
+    {
+     "chart": "H",
+     "body": "Juno",
+     "same_body": [
+      "S Juno → H Juno RA 67.9551 42×φ golden (86.15)"
+     ],
+     "body_lines": [
+      "S Sun → Juno RA 0.9669 conj (12.63)"
+     ],
+     "on_this_chart": [
+      {
+       "text": "S Moon → H Juno Dec 0.2908 conj (0.09)",
+       "layer": "top rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Sadalmelik → H Juno RA 108.9882 109 whole (16.83)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "J Ankaa → J Juno RA 57.9917 58 whole (34.10)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Vesta",
+     "same_body": [
+      "S Vesta → H Vesta RA 134.2708 83×φ golden (3.86)",
+      "S Vesta → H Vesta Dec 33.3174 33.3333 ninth (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "H Alhena → H Vesta RA 56.9986 57 whole (86.79)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Galactic Centre → H Vesta RA 136.0090 136 whole (30.12)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Galactic Centre → H Vesta Dec 40.9833 41 whole (2.72)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Praesepe → H Vesta Dec 8.0071 8 whole (41.42)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Sadalmelik → H Vesta RA 70.9856 71 whole (7.86)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [
+      "S Vesta → J Vesta Dec 1.9911 2 whole (30.78)"
+     ],
+     "on_other_chart": [
+      {
+       "text": "J Meissa → J Vesta RA 156.9219 97×φ golden (2.37)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Transpluto",
+     "same_body": [
+      "S Transpluto → H Transpluto Dec 0.9931 1 whole (42.94)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "H Sadalmelik → H Transpluto RA 178.9890 179 whole (20.12)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "J Jupiter → J Transpluto Dec 0.0835 conj (52.07)",
+       "layer": "T2",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "J Arcturus → J Transpluto Dec 5.9879 6 whole (15.63)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Mars",
+     "same_body": [
+      "S Mars → J Mars RA 133.1800 133.333 ninth (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Al Rescha → J Mars RA 0.1795 conj (77.50)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "H Alhena → H Mars RA 147.2513 91×φ golden (46.96)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Menkent → H Mars RA 35.0042 35 whole (62.69)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "H Praesepe → H Mars Dec 41.0173 41 whole (1.76)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Jupiter",
+     "same_body": [
+      "S Jupiter → J Jupiter RA 61.7627 100×φ^-1 phi power (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "S Makemake → J Jupiter RA 163.4144 101×φ golden (61.26)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter",
+        "Moon"
+       ]
+      },
+      {
+       "text": "S Arcturus → J Jupiter RA 178.0123 178 whole (14.70)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Sadalsuud → J Jupiter RA 73.0082 73 whole (34.87)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [
+      "S Jupiter → H Jupiter RA 167.9732 168 whole (loose)"
+     ],
+     "on_other_chart": [
+      {
+       "text": "S Vesta → H Jupiter RA 101.9994 102 whole (93.75)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Vesta",
+     "same_body": [
+      "S Vesta → J Vesta Dec 1.9911 2 whole (30.78)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Meissa → J Vesta RA 156.9219 97×φ golden (2.37)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ],
+     "other_chart_same_body": [
+      "S Vesta → H Vesta RA 134.2708 83×φ golden (3.86)",
+      "S Vesta → H Vesta Dec 33.3174 33.3333 ninth (loose)"
+     ],
+     "on_other_chart": [
+      {
+       "text": "H Alhena → H Vesta RA 56.9986 57 whole (86.79)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Galactic Centre → H Vesta RA 136.0090 136 whole (30.12)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Galactic Centre → H Vesta Dec 40.9833 41 whole (2.72)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Praesepe → H Vesta Dec 8.0071 8 whole (41.42)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Sadalmelik → H Vesta RA 70.9856 71 whole (7.86)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Orcus",
+     "same_body": [
+      "S Orcus → J Orcus Dec 10.9760 11 whole (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "S Sun → J Orcus Dec 21.0349 13×φ golden (97.12)",
+       "layer": "top rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "J Alnilam → J Orcus Dec 0.0032 conj (97.87)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": []
+    }
+   ],
+   "cases": {
+    "1": [
+     {
+      "label": "Jupiter",
+      "cells": [
+       "S Jupiter → H Jupiter RA 167.9732 168 whole (loose)",
+       "S Jupiter → J Jupiter RA 61.7627 100×φ^-1 phi power (loose)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "Vesta",
+      "cells": [
+       "S Vesta → H Vesta RA 134.2708 83×φ golden (3.86)",
+       "S Vesta → H Vesta Dec 33.3174 33.3333 ninth (loose)",
+       "S Vesta → J Vesta Dec 1.9911 2 whole (30.78)"
+      ],
+      "field": "only"
+     }
+    ],
+    "2": [
+     {
+      "label": "H Vesta",
+      "cells": [
+       "S Vesta → H Vesta RA 134.2708 83×φ golden (3.86)",
+       "S Vesta → H Vesta Dec 33.3174 33.3333 ninth (loose)"
+      ],
+      "field": "only"
+     }
+    ],
+    "3": [
+     {
+      "label": "42 whole",
+      "cells": [
+       "H Praesepe → H Rahu RA 41.9866 42 whole (10.74) = S Sun → Sadalmelik RA 41.9994 42 whole (94.18)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "13×φ golden",
+      "cells": [
+       "S Sun → J Orcus Dec 21.0349 13×φ golden (97.12) = S Sun → Alnilam Dec 21.0333 13×φ golden (93.12)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry, 4 Trevolli / Kieran O'Neill"
+     },
+     {
+      "label": "94×φ golden",
+      "cells": [
+       "J Sadalmelik → J Rahu RA 152.0688 94×φ golden (3.38) = S Moon → Arcturus RA 152.0976 94×φ golden (85.89)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry, 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "16.6667 ninth",
+      "cells": [
+       "J Sadalmelik → J Gonggong Dec 16.6628 16.6667 ninth (96.72) = S Sun → Sadalsuud Dec 16.6637 16.6667 ninth (97.48)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes"
+     }
+    ],
+    "4": [
+     {
+      "label": "1 = 360/360",
+      "cells": [
+       "S Transpluto → H Transpluto Dec 0.9931 1 whole (42.94)"
+      ],
+      "field": "also: 1 Protected Guest / Jane Elliott"
+     },
+     {
+      "label": "12 = 360/30",
+      "cells": [
+       "H Al Rescha → H Sun RA 11.9993 12 whole (92.72)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "2 = 360/180",
+      "cells": [
+       "S Vesta → J Vesta Dec 1.9911 2 whole (30.78)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "5 = 360/72",
+      "cells": [
+       "S Jupiter → J Eris Dec 4.9982 5 whole (83.02)"
+      ],
+      "field": "only"
+     }
+    ],
+    "5": [
+     {
+      "label": "φ^6 phi power",
+      "cells": [
+       "S Venus → H Venus Dec 17.9315 φ^6 phi power (loose)",
+       "H Sadalmelik → H Haumea Dec 17.9481 φ^6 phi power (91.66)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "155.556 ninth",
+      "cells": [
+       "H Alhena → H Saturn RA 155.5545 155.556 ninth (99.90)",
+       "H Alnilam → H Pluto RA 155.5658 155.556 ninth (99.03)"
+      ],
+      "field": "also: 1 Protected Guest / Jane Elliott"
+     }
+    ],
+    "6": [
+     {
+      "label": "J Orcus on Alnilam",
+      "cells": [
+       "J Alnilam → J Orcus Dec 0.0032 conj (97.87)",
+       "S Sun → J Orcus Dec 21.0349 13×φ golden (97.12)"
+      ],
+      "field": "only"
+     }
+    ],
+    "7": [
+     {
+      "label": "Venus: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] H Jupiter → H Venus Dec 6.9962 7 whole (65.43)",
+       "[Moon] S Moon → H Venus RA 1.0749 conj (8.03)",
+       "[Moon] H Arcturus → H Venus RA 151.0136 151 whole (10.20)",
+       "[Sun] S Venus → H Venus Dec 17.9315 φ^6 phi power (loose)"
+      ],
+      "field": "also: 1 Protected Guest / Jane Elliott"
+     },
+     {
+      "label": "Chiron: Moon, Sun",
+      "cells": [
+       "[Moon] S Chiron → H Chiron Dec 4.4454 4.44444 ninth (loose)",
+       "[Sun] H Alnilam → H Chiron Dec 2.0192 2 whole (0.16)"
+      ],
+      "field": "also: 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "Juno: Moon, Sun",
+      "cells": [
+       "[Moon] S Moon → H Juno Dec 0.2908 conj (0.09)",
+       "[Moon] J Ankaa → J Juno RA 57.9917 58 whole (34.10)",
+       "[Sun] S Juno → H Juno RA 67.9551 42×φ golden (86.15)",
+       "[Sun] H Sadalmelik → H Juno RA 108.9882 109 whole (16.83)"
+      ],
+      "field": "also: 1 Protected Guest / Jane Elliott, 2 Supakalanistic / Liam Keniry, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "Sedna: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] H Jupiter → H Sedna Dec 0.0482 conj (70.45)",
+       "[Moon] J Alhena → J Sedna Dec 11.1152 11.1111 ninth (93.31)",
+       "[Sun] H Sadalsuud → H Sedna Dec 13.0191 13 whole (0.22)",
+       "[Sun] J Al Rescha → J Sedna RA 16.0052 16 whole (54.72)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "Jupiter: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] S Vesta → H Jupiter RA 101.9994 102 whole (93.75)",
+       "[Jupiter] S Makemake → J Jupiter RA 163.4144 101×φ golden (61.26)",
+       "[Moon] S Makemake → J Jupiter RA 163.4144 101×φ golden (61.26)",
+       "[Moon] S Arcturus → J Jupiter RA 178.0123 178 whole (14.70)",
+       "[Sun] J Sadalsuud → J Jupiter RA 73.0082 73 whole (34.87)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "Sun: Moon, Sun",
+      "cells": [
+       "[Moon] S Moon → J Sun RA 0.3747 conj (56.28)",
+       "[Moon] J Ankaa → J Sun RA 0.9348 conj (14.20)",
+       "[Sun] H Al Rescha → H Sun RA 11.9993 12 whole (92.72)",
+       "[Sun] J Sadalsuud → J Sun Dec 8.0064 8 whole (46.22)"
+      ],
+      "field": "also: 1 Protected Guest / Jane Elliott, 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "Neptune: Moon, Sun",
+      "cells": [
+       "[Moon] H Ankaa → H Neptune Dec 34.0188 34 whole (0.35)",
+       "[Sun] H Al Rescha → H Neptune RA 47.9906 48 whole (27.91)"
+      ],
+      "field": "also: 4 Trevolli / Kieran O'Neill"
+     },
+     {
+      "label": "Quaoar: Moon, Sun",
+      "cells": [
+       "[Moon] H Praesepe → H Quaoar RA 139.1393 86×φ golden (41.19)",
+       "[Moon] J Praesepe → J Quaoar RA 117.9956 118 whole (61.01)",
+       "[Sun] H Al Rescha → H Quaoar RA 121.3406 75×φ golden (39.95)"
+      ],
+      "field": "also: 1 Protected Guest / Jane Elliott"
+     },
+     {
+      "label": "Mars: Moon, Sun",
+      "cells": [
+       "[Moon] H Alhena → H Mars RA 147.2513 91×φ golden (46.96)",
+       "[Moon] H Praesepe → H Mars Dec 41.0173 41 whole (1.76)",
+       "[Sun] H Menkent → H Mars RA 35.0042 35 whole (62.69)",
+       "[Sun] J Al Rescha → J Mars RA 0.1795 conj (77.50)"
+      ],
+      "field": "also: 4 Trevolli / Kieran O'Neill"
+     },
+     {
+      "label": "Saturn: Moon, Sun",
+      "cells": [
+       "[Moon] H Alhena → H Saturn RA 155.5545 155.556 ninth (99.90)",
+       "[Sun] J Alnilam → J Saturn RA 41.0019 41 whole (81.47)"
+      ],
+      "field": "also: 1 Protected Guest / Jane Elliott, 2 Supakalanistic / Liam Keniry, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "Vesta: Moon, Sun",
+      "cells": [
+       "[Moon] H Alhena → H Vesta RA 56.9986 57 whole (86.79)",
+       "[Moon] H Galactic Centre → H Vesta RA 136.0090 136 whole (30.12)",
+       "[Moon] H Galactic Centre → H Vesta Dec 40.9833 41 whole (2.72)",
+       "[Moon] H Praesepe → H Vesta Dec 8.0071 8 whole (41.42)",
+       "[Moon] J Meissa → J Vesta RA 156.9219 97×φ golden (2.37)",
+       "[Sun] H Sadalmelik → H Vesta RA 70.9856 71 whole (7.86)"
+      ],
+      "field": "also: 1 Protected Guest / Jane Elliott, 2 Supakalanistic / Liam Keniry, 4 Trevolli / Kieran O'Neill"
+     },
+     {
+      "label": "Gonggong: Moon, Sun",
+      "cells": [
+       "[Moon] H Alhena → H Gonggong Dec 29.0110 29 whole (20.36)",
+       "[Moon] H Praesepe → H Gonggong RA 154.0078 154 whole (37.35)",
+       "[Sun] J Sadalmelik → J Gonggong RA 0.9232 conj (14.79)",
+       "[Sun] J Sadalmelik → J Gonggong Dec 16.6628 16.6667 ninth (96.72)"
+      ],
+      "field": "also: 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "Eris: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] S Jupiter → J Eris Dec 4.9982 5 whole (83.02)",
+       "[Moon] H Ankaa → H Eris RA 18.9885 19 whole (18.17)",
+       "[Moon] J Alhena → J Eris RA 75.9914 76 whole (32.73)",
+       "[Moon] J Galactic Centre → J Eris RA 117.0191 117 whole (0.20)",
+       "[Sun] S Sun → J Eris RA 93.9942 94 whole (50.36)",
+       "[Sun] J Sadalmelik → J Eris RA 51.9952 52 whole (57.52)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "Haumea: Moon, Sun",
+      "cells": [
+       "[Moon] J Arcturus → J Haumea RA 16.9934 17 whole (44.65)",
+       "[Sun] H Menkent → H Haumea RA 0.1943 conj (75.77)",
+       "[Sun] H Menkent → H Haumea Dec 53.9995 54 whole (95.38)",
+       "[Sun] H Sadalmelik → H Haumea Dec 17.9481 φ^6 phi power (91.66)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "Uranus: Moon, Sun",
+      "cells": [
+       "[Moon] H Praesepe → H Uranus RA 111.1347 111.111 ninth (96.14)",
+       "[Sun] H Sadalsuud → H Uranus RA 56.0050 56 whole (56.00)",
+       "[Sun] J Alnilam → J Uranus RA 121.9909 122 whole (29.77)",
+       "[Sun] J Sadalsuud → J Uranus RA 0.8245 conj (20.28)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "Rahu: Moon, Sun",
+      "cells": [
+       "[Moon] H Praesepe → H Rahu RA 41.9866 42 whole (10.74)",
+       "[Moon] J Praesepe → J Rahu Dec 0.1083 conj (40.83)",
+       "[Sun] J Al Rescha → J Rahu RA 93.0034 93 whole (68.56)",
+       "[Sun] J Sadalmelik → J Rahu RA 152.0688 94×φ golden (3.38)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "Ketu: Moon, Sun",
+      "cells": [
+       "[Moon] H Praesepe → H Ketu RA 138.0134 138 whole (10.74)",
+       "[Sun] H Sadalsuud → H Ketu RA 29.1263 18×φ golden (89.78)",
+       "[Sun] J Al Rescha → J Ketu RA 86.9966 87 whole (68.56)"
+      ],
+      "field": "also: 1 Protected Guest / Jane Elliott, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "Transpluto: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] J Jupiter → J Transpluto Dec 0.0835 conj (52.07)",
+       "[Moon] J Arcturus → J Transpluto Dec 5.9879 6 whole (15.63)",
+       "[Sun] H Sadalmelik → H Transpluto RA 178.9890 179 whole (20.12)"
+      ],
+      "field": "only"
+     }
+    ]
+   }
+  },
+  "P07": {
+   "name": "4 Trevolli / Kieran O'Neill",
+   "same_bodies": [
+    "S Mars → H Mars RA 21.0567 13×φ golden (loose)",
+    "S Jupiter → H Jupiter RA 104.0046 104 whole (58.94)",
+    "S Chiron → H Chiron Dec 2.6067 φ^2 phi power (loose)",
+    "S Ceres → H Ceres Dec 13.0298 13 whole (loose)",
+    "S Rahu → H Rahu Dec 3.3375 3.33333 ninth (loose)",
+    "S Sedna → H Sedna RA 2.2255 2.22222 ninth (loose)",
+    "S Haumea → H Haumea Dec 1.9989 2 whole (89.62)",
+    "S Orcus → H Orcus Dec 2.2285 2.22222 ninth (loose)",
+    "S Quaoar → H Quaoar RA 3.9931 4 whole (42.84)",
+    "S Ketu → H Ketu Dec 3.3375 3.33333 ninth (loose)",
+    "S Venus → J Venus Dec 16.6707 16.6667 ninth (loose)",
+    "S Mars → J Mars RA 87.3541 54×φ golden (loose)",
+    "S Uranus → J Uranus Dec 38.0226 38 whole (loose)",
+    "S Ceres → J Ceres RA 149.9749 150 whole (loose)",
+    "S Sedna → J Sedna Dec 4.2271 φ^3 phi power (loose)",
+    "S Orcus → J Orcus RA 29.1000 φ^7 phi power (loose)",
+    "S Quaoar → J Quaoar RA 45.9795 46 whole (loose)"
+   ],
+   "landings": [
+    {
+     "chart": "H",
+     "body": "Mars",
+     "same_body": [
+      "S Mars → H Mars RA 21.0567 13×φ golden (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "H Sadalsuud → H Mars Dec 17.9834 18 whole (2.84)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [
+      "S Mars → J Mars RA 87.3541 54×φ golden (loose)"
+     ],
+     "on_other_chart": [
+      {
+       "text": "J Meissa → J Mars RA 86.0086 86 whole (32.77)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Sadalsuud → J Mars Dec 11.1193 11.1111 ninth (86.60)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Jupiter",
+     "same_body": [
+      "S Jupiter → H Jupiter RA 104.0046 104 whole (58.94)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "S Jupiter → H Jupiter RA 104.0046 104 whole (58.94)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "S Eris → J Jupiter RA 1.0276 conj (9.92)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "S Quaoar → J Jupiter RA 110.9740 10×φ^5 phi power (75.64)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "J Alhena → J Jupiter Dec 6.9883 7 whole (17.42)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "S Sadalsuud → J Jupiter Dec 14.9841 15 whole (4.24)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Chiron",
+     "same_body": [
+      "S Chiron → H Chiron Dec 2.6067 φ^2 phi power (loose)"
+     ],
+     "body_lines": [
+      "S Moon → Chiron RA 0.7864 conj (22.64)"
+     ],
+     "on_this_chart": [
+      {
+       "text": "H Al Rescha → H Chiron Dec 0.1078 conj (41.04)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "J Al Rescha → J Chiron RA 58.2403 36×φ golden (52.46)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "J Al Rescha → J Chiron Dec 14.9830 15 whole (2.30)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "J Menkent → J Chiron RA 122.9112 φ^10 phi power (75.49)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Ceres",
+     "same_body": [
+      "S Ceres → H Ceres Dec 13.0298 13 whole (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "H Praesepe → H Ceres RA 0.8330 conj (19.78)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ],
+     "other_chart_same_body": [
+      "S Ceres → J Ceres RA 149.9749 150 whole (loose)"
+     ],
+     "on_other_chart": [
+      {
+       "text": "J Al Rescha → J Ceres RA 124.5735 77×φ golden (28.49)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "J Galactic Centre → J Ceres RA 0.4742 conj (46.77)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Menkent → J Ceres Dec 8.0025 8 whole (76.66)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "J Praesepe → J Ceres RA 135.9211 84×φ golden (64.97)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Rahu",
+     "same_body": [
+      "S Rahu → H Rahu Dec 3.3375 3.33333 ninth (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "J Alhena → J Rahu RA 97.0873 60×φ golden (69.92)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Sedna",
+     "same_body": [
+      "S Sedna → H Sedna RA 2.2255 2.22222 ninth (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "H Ankaa → H Sedna Dec 49.9865 50 whole (10.65)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Sadalmelik → H Sedna Dec 7.9994 8 whole (94.40)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [
+      "S Sedna → J Sedna Dec 4.2271 φ^3 phi power (loose)"
+     ],
+     "on_other_chart": [
+      {
+       "text": "J Al Rescha → J Sedna Dec 1.0148 1 whole (6.79)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "J Alnilam → J Sedna Dec 4.9802 5 whole (0.01)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Haumea",
+     "same_body": [
+      "S Haumea → H Haumea Dec 1.9989 2 whole (89.62)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "H Alnilam → H Haumea RA 129.4207 80×φ golden (10.20)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "H Arcturus → H Haumea RA 0.4418 conj (49.76)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "S Sun → J Haumea Dec 45.0054 45 whole (52.96)",
+       "layer": "top rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "J Al Rescha → J Haumea Dec 20.0036 20 whole (67.39)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "J Arcturus → J Haumea RA 28.9860 29 whole (8.89)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Galactic Centre → J Haumea Dec 51.7778 32×φ golden (95.74)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Orcus",
+     "same_body": [
+      "S Orcus → H Orcus Dec 2.2285 2.22222 ninth (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "H Ankaa → H Orcus RA 146.0132 146 whole (11.66)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Ankaa → H Orcus Dec 32.3606 20×φ golden (99.25)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ],
+     "other_chart_same_body": [
+      "S Orcus → J Orcus RA 29.1000 φ^7 phi power (loose)"
+     ],
+     "on_other_chart": [
+      {
+       "text": "S Moon → J Orcus RA 122.2268 122.222 ninth (99.36)",
+       "layer": "top rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Meissa → J Orcus RA 44.4460 44.4444 ninth (98.41)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Quaoar",
+     "same_body": [
+      "S Quaoar → H Quaoar RA 3.9931 4 whole (42.84)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "H Sadalsuud → H Quaoar RA 51.0116 51 whole (17.75)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [
+      "S Quaoar → J Quaoar RA 45.9795 46 whole (loose)"
+     ],
+     "on_other_chart": [
+      {
+       "text": "J Sadalsuud → J Quaoar RA 93.0056 93 whole (51.76)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Ketu",
+     "same_body": [
+      "S Ketu → H Ketu Dec 3.3375 3.33333 ninth (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "S Moon → J Ketu Dec 2.0006 2 whole (94.02)",
+       "layer": "top rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Alnilam → J Ketu Dec 0.1854 conj (14.59)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "J Galactic Centre → J Ketu Dec 27.9942 28 whole (50.27)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Praesepe → J Ketu Dec 20.9983 21 whole (83.67)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Venus",
+     "same_body": [
+      "S Venus → J Venus Dec 16.6707 16.6667 ninth (loose)"
+     ],
+     "body_lines": [
+      "S Sun → Venus RA 0.1171 conj (84.99)"
+     ],
+     "on_this_chart": [
+      {
+       "text": "J Arcturus → J Venus RA 28.9869 29 whole (11.77)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": []
+    },
+    {
+     "chart": "J",
+     "body": "Mars",
+     "same_body": [
+      "S Mars → J Mars RA 87.3541 54×φ golden (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Meissa → J Mars RA 86.0086 86 whole (32.77)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Sadalsuud → J Mars Dec 11.1193 11.1111 ninth (86.60)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [
+      "S Mars → H Mars RA 21.0567 13×φ golden (loose)"
+     ],
+     "on_other_chart": [
+      {
+       "text": "H Sadalsuud → H Mars Dec 17.9834 18 whole (2.84)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Uranus",
+     "same_body": [
+      "S Uranus → J Uranus Dec 38.0226 38 whole (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Al Rescha → J Uranus Dec 26.1824 10×φ^2 phi power (96.86)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "J Alhena → J Uranus RA 162.9863 163 whole (9.99)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Ankaa → J Uranus Dec 18.8861 18.8889 ninth (97.96)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Galactic Centre → J Uranus RA 4.0035 4 whole (68.12)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "S Sun → H Uranus RA 96.0033 96 whole (70.03)",
+       "layer": "top rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "S Moon → H Uranus Dec 12.9995 13 whole (95.17)",
+       "layer": "top rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Alhena → H Uranus RA 73.9820 74 whole (1.00)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Ankaa → H Uranus RA 18.8803 18.8889 ninth (93.81)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Arcturus → H Uranus RA 171.5315 106×φ golden (14.94)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Galactic Centre → H Uranus Dec 38.9921 39 whole (36.72)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Meissa → H Uranus Dec 0.0520 conj (68.36)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Praesepe → H Uranus Dec 9.9980 10 whole (81.18)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Sadalmelik → H Uranus RA 54.0039 54 whole (64.85)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "H Sadalsuud → H Uranus Dec 15.5578 15.5556 ninth (97.85)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Ceres",
+     "same_body": [
+      "S Ceres → J Ceres RA 149.9749 150 whole (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Al Rescha → J Ceres RA 124.5735 77×φ golden (28.49)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "J Galactic Centre → J Ceres RA 0.4742 conj (46.77)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Menkent → J Ceres Dec 8.0025 8 whole (76.66)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "J Praesepe → J Ceres RA 135.9211 84×φ golden (64.97)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ],
+     "other_chart_same_body": [
+      "S Ceres → H Ceres Dec 13.0298 13 whole (loose)"
+     ],
+     "on_other_chart": [
+      {
+       "text": "H Praesepe → H Ceres RA 0.8330 conj (19.78)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Sedna",
+     "same_body": [
+      "S Sedna → J Sedna Dec 4.2271 φ^3 phi power (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Al Rescha → J Sedna Dec 1.0148 1 whole (6.79)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "J Alnilam → J Sedna Dec 4.9802 5 whole (0.01)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [
+      "S Sedna → H Sedna RA 2.2255 2.22222 ninth (loose)"
+     ],
+     "on_other_chart": [
+      {
+       "text": "H Ankaa → H Sedna Dec 49.9865 50 whole (10.65)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Sadalmelik → H Sedna Dec 7.9994 8 whole (94.40)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Orcus",
+     "same_body": [
+      "S Orcus → J Orcus RA 29.1000 φ^7 phi power (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "S Moon → J Orcus RA 122.2268 122.222 ninth (99.36)",
+       "layer": "top rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Meissa → J Orcus RA 44.4460 44.4444 ninth (98.41)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ],
+     "other_chart_same_body": [
+      "S Orcus → H Orcus Dec 2.2285 2.22222 ninth (loose)"
+     ],
+     "on_other_chart": [
+      {
+       "text": "H Ankaa → H Orcus RA 146.0132 146 whole (11.66)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Ankaa → H Orcus Dec 32.3606 20×φ golden (99.25)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Quaoar",
+     "same_body": [
+      "S Quaoar → J Quaoar RA 45.9795 46 whole (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Sadalsuud → J Quaoar RA 93.0056 93 whole (51.76)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [
+      "S Quaoar → H Quaoar RA 3.9931 4 whole (42.84)"
+     ],
+     "on_other_chart": [
+      {
+       "text": "H Sadalsuud → H Quaoar RA 51.0116 51 whole (17.75)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    }
+   ],
+   "cases": {
+    "1": [
+     {
+      "label": "Mars",
+      "cells": [
+       "S Mars → H Mars RA 21.0567 13×φ golden (loose)",
+       "S Mars → J Mars RA 87.3541 54×φ golden (loose)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "Ceres",
+      "cells": [
+       "S Ceres → H Ceres Dec 13.0298 13 whole (loose)",
+       "S Ceres → J Ceres RA 149.9749 150 whole (loose)"
+      ],
+      "field": "also: 1 Protected Guest / Jane Elliott"
+     },
+     {
+      "label": "Sedna",
+      "cells": [
+       "S Sedna → H Sedna RA 2.2255 2.22222 ninth (loose)",
+       "S Sedna → J Sedna Dec 4.2271 φ^3 phi power (loose)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "Orcus",
+      "cells": [
+       "S Orcus → H Orcus Dec 2.2285 2.22222 ninth (loose)",
+       "S Orcus → J Orcus RA 29.1000 φ^7 phi power (loose)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "Quaoar",
+      "cells": [
+       "S Quaoar → H Quaoar RA 3.9931 4 whole (42.84)",
+       "S Quaoar → J Quaoar RA 45.9795 46 whole (loose)"
+      ],
+      "field": "only"
+     }
+    ],
+    "2": [],
+    "3": [
+     {
+      "label": "13×φ golden",
+      "cells": [
+       "S Mars → H Mars RA 21.0567 13×φ golden (loose) = S Sun → Alnilam Dec 21.0333 13×φ golden (93.12)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh"
+     },
+     {
+      "label": "16.6667 ninth",
+      "cells": [
+       "S Venus → J Venus Dec 16.6707 16.6667 ninth (loose) = S Sun → Sadalsuud Dec 16.6637 16.6667 ninth (97.48)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes"
+     }
+    ],
+    "4": [
+     {
+      "label": "2 = 360/180",
+      "cells": [
+       "S Haumea → H Haumea Dec 1.9989 2 whole (89.62)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "4 = 360/90",
+      "cells": [
+       "S Quaoar → H Quaoar RA 3.9931 4 whole (42.84)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry, 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "10 = 360/36",
+      "cells": [
+       "H Praesepe → H Uranus Dec 9.9980 10 whole (81.18)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "8 = 360/45",
+      "cells": [
+       "H Sadalmelik → H Sedna Dec 7.9994 8 whole (94.40)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "45 = 360/8",
+      "cells": [
+       "S Sun → J Haumea Dec 45.0054 45 whole (52.96)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry"
+     },
+     {
+      "label": "2 = 360/180",
+      "cells": [
+       "S Moon → J Ketu Dec 2.0006 2 whole (94.02)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "20 = 360/18",
+      "cells": [
+       "J Al Rescha → J Haumea Dec 20.0036 20 whole (67.39)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "4 = 360/90",
+      "cells": [
+       "J Galactic Centre → J Uranus RA 4.0035 4 whole (68.12)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry, 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "8 = 360/45",
+      "cells": [
+       "J Menkent → J Ceres Dec 8.0025 8 whole (76.66)"
+      ],
+      "field": "only"
+     }
+    ],
+    "5": [
+     {
+      "label": "13 whole",
+      "cells": [
+       "S Ceres → H Ceres Dec 13.0298 13 whole (loose)",
+       "S Moon → H Uranus Dec 12.9995 13 whole (95.17)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "3.33333 ninth",
+      "cells": [
+       "S Rahu → H Rahu Dec 3.3375 3.33333 ninth (loose)",
+       "S Ketu → H Ketu Dec 3.3375 3.33333 ninth (loose)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "2.22222 ninth",
+      "cells": [
+       "S Sedna → H Sedna RA 2.2255 2.22222 ninth (loose)",
+       "S Orcus → H Orcus Dec 2.2285 2.22222 ninth (loose)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "2 whole",
+      "cells": [
+       "S Haumea → H Haumea Dec 1.9989 2 whole (89.62)",
+       "S Moon → J Ketu Dec 2.0006 2 whole (94.02)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry, 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "4 whole",
+      "cells": [
+       "S Quaoar → H Quaoar RA 3.9931 4 whole (42.84)",
+       "J Galactic Centre → J Uranus RA 4.0035 4 whole (68.12)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "18.8889 ninth",
+      "cells": [
+       "H Ankaa → H Uranus RA 18.8803 18.8889 ninth (93.81)",
+       "J Ankaa → J Uranus Dec 18.8861 18.8889 ninth (97.96)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "8 whole",
+      "cells": [
+       "H Sadalmelik → H Sedna Dec 7.9994 8 whole (94.40)",
+       "J Menkent → J Ceres Dec 8.0025 8 whole (76.66)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "10×φ^5 phi power",
+      "cells": [
+       "S Quaoar → J Jupiter RA 110.9740 10×φ^5 phi power (75.64)",
+       "J Arcturus → J Juno RA 110.9544 10×φ^5 phi power (81.88)"
+      ],
+      "field": "also: 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "28 whole",
+      "cells": [
+       "J Arcturus → J Mercury Dec 28.0004 28 whole (96.31)",
+       "J Galactic Centre → J Ketu Dec 27.9942 28 whole (50.27)"
+      ],
+      "field": "only"
+     }
+    ],
+    "6": [
+     {
+      "label": "H Uranus on Meissa",
+      "cells": [
+       "H Meissa → H Uranus Dec 0.0520 conj (68.36)",
+       "S Sun → H Uranus RA 96.0033 96 whole (70.03)",
+       "S Moon → H Uranus Dec 12.9995 13 whole (95.17)"
+      ],
+      "field": "only"
+     }
+    ],
+    "7": [
+     {
+      "label": "Chiron: Moon, Sun",
+      "cells": [
+       "[Moon] S Chiron → H Chiron Dec 2.6067 φ^2 phi power (loose)",
+       "[Sun] H Al Rescha → H Chiron Dec 0.1078 conj (41.04)",
+       "[Sun] J Al Rescha → J Chiron RA 58.2403 36×φ golden (52.46)",
+       "[Sun] J Al Rescha → J Chiron Dec 14.9830 15 whole (2.30)",
+       "[Sun] J Menkent → J Chiron RA 122.9112 φ^10 phi power (75.49)"
+      ],
+      "field": "also: 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "Jupiter: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] S Jupiter → H Jupiter RA 104.0046 104 whole (58.94)",
+       "[Jupiter] S Eris → J Jupiter RA 1.0276 conj (9.92)",
+       "[Jupiter] S Quaoar → J Jupiter RA 110.9740 10×φ^5 phi power (75.64)",
+       "[Moon] J Alhena → J Jupiter Dec 6.9883 7 whole (17.42)",
+       "[Sun] S Sadalsuud → J Jupiter Dec 14.9841 15 whole (4.24)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "Saturn: Moon, Sun",
+      "cells": [
+       "[Moon] J Alhena → J Saturn RA 155.0177 155 whole (1.30)",
+       "[Sun] S Sun → H Saturn Dec 0.0394 conj (75.47)",
+       "[Sun] H Al Rescha → H Saturn RA 111.1616 111.111 ninth (91.74)",
+       "[Sun] S Sun → J Saturn RA 34.9981 35 whole (81.91)",
+       "[Sun] J Sadalmelik → J Saturn RA 77.0060 77 whole (49.31)"
+      ],
+      "field": "also: 1 Protected Guest / Jane Elliott, 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "Uranus: Moon, Sun",
+      "cells": [
+       "[Moon] S Moon → H Uranus Dec 12.9995 13 whole (95.17)",
+       "[Moon] H Alhena → H Uranus RA 73.9820 74 whole (1.00)",
+       "[Moon] H Ankaa → H Uranus RA 18.8803 18.8889 ninth (93.81)",
+       "[Moon] H Arcturus → H Uranus RA 171.5315 106×φ golden (14.94)",
+       "[Moon] H Galactic Centre → H Uranus Dec 38.9921 39 whole (36.72)",
+       "[Moon] H Meissa → H Uranus Dec 0.0520 conj (68.36)",
+       "[Moon] H Praesepe → H Uranus Dec 9.9980 10 whole (81.18)",
+       "[Moon] J Alhena → J Uranus RA 162.9863 163 whole (9.99)",
+       "[Moon] J Ankaa → J Uranus Dec 18.8861 18.8889 ninth (97.96)",
+       "[Moon] J Galactic Centre → J Uranus RA 4.0035 4 whole (68.12)",
+       "[Sun] S Sun → H Uranus RA 96.0033 96 whole (70.03)",
+       "[Sun] H Sadalmelik → H Uranus RA 54.0039 54 whole (64.85)",
+       "[Sun] H Sadalsuud → H Uranus Dec 15.5578 15.5556 ninth (97.85)",
+       "[Sun] J Al Rescha → J Uranus Dec 26.1824 10×φ^2 phi power (96.86)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "Juno: Moon, Sun",
+      "cells": [
+       "[Moon] S Moon → H Juno Dec 0.2979 conj (0.00)",
+       "[Moon] H Ankaa → H Juno Dec 38.9966 39 whole (68.53)",
+       "[Moon] J Arcturus → J Juno RA 110.9544 10×φ^5 phi power (81.88)",
+       "[Sun] H Sadalmelik → H Juno Dec 2.9905 3 whole (27.77)"
+      ],
+      "field": "also: 1 Protected Guest / Jane Elliott, 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "Mercury: Moon, Sun",
+      "cells": [
+       "[Moon] J Arcturus → J Mercury Dec 28.0004 28 whole (96.31)",
+       "[Sun] H Al Rescha → H Mercury RA 20.0169 20 whole (2.38)"
+      ],
+      "field": "also: 1 Protected Guest / Jane Elliott"
+     },
+     {
+      "label": "Vesta: Moon, Sun",
+      "cells": [
+       "[Moon] H Alhena → H Vesta RA 169.8874 105×φ golden (65.41)",
+       "[Moon] J Arcturus → J Vesta RA 98.9890 99 whole (20.13)",
+       "[Moon] J Arcturus → J Vesta Dec 0.9816 1 whole (0.62)",
+       "[Moon] J Praesepe → J Vesta Dec 0.1898 conj (13.50)",
+       "[Sun] H Alnilam → H Vesta RA 174.7366 108×φ golden (43.38)"
+      ],
+      "field": "also: 1 Protected Guest / Jane Elliott, 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh"
+     },
+     {
+      "label": "Haumea: Moon, Sun",
+      "cells": [
+       "[Moon] H Arcturus → H Haumea RA 0.4418 conj (49.76)",
+       "[Moon] J Arcturus → J Haumea RA 28.9860 29 whole (8.89)",
+       "[Moon] J Galactic Centre → J Haumea Dec 51.7778 32×φ golden (95.74)",
+       "[Sun] H Alnilam → H Haumea RA 129.4207 80×φ golden (10.20)",
+       "[Sun] S Sun → J Haumea Dec 45.0054 45 whole (52.96)",
+       "[Sun] J Al Rescha → J Haumea Dec 20.0036 20 whole (67.39)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "Pluto: Moon, Sun",
+      "cells": [
+       "[Moon] H Ankaa → H Pluto RA 74.0062 74 whole (47.32)",
+       "[Moon] J Ankaa → J Pluto Dec 43.0038 43 whole (65.41)",
+       "[Sun] J Sadalmelik → J Pluto Dec 1.0188 1 whole (0.36)"
+      ],
+      "field": "also: 1 Protected Guest / Jane Elliott, 2 Supakalanistic / Liam Keniry"
+     },
+     {
+      "label": "Sedna: Moon, Sun",
+      "cells": [
+       "[Moon] H Ankaa → H Sedna Dec 49.9865 50 whole (10.65)",
+       "[Sun] H Sadalmelik → H Sedna Dec 7.9994 8 whole (94.40)",
+       "[Sun] J Al Rescha → J Sedna Dec 1.0148 1 whole (6.79)",
+       "[Sun] J Alnilam → J Sedna Dec 4.9802 5 whole (0.01)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry"
+     },
+     {
+      "label": "Transpluto: Moon, Sun",
+      "cells": [
+       "[Moon] H Galactic Centre → H Transpluto RA 113.2620 70×φ golden (97.81)",
+       "[Moon] J Alhena → J Transpluto Dec 2.0113 2 whole (18.79)",
+       "[Sun] J Menkent → J Transpluto RA 67.9505 42×φ golden (61.62)"
+      ],
+      "field": "also: 1 Protected Guest / Jane Elliott, 2 Supakalanistic / Liam Keniry"
+     },
+     {
+      "label": "Pallas: Moon, Sun",
+      "cells": [
+       "[Moon] H Meissa → H Pallas Dec 18.0089 18 whole (30.58)",
+       "[Moon] J Meissa → J Pallas Dec 1.1116 1.11111 ninth (92.44)",
+       "[Moon] J Praesepe → J Pallas RA 113.2314 70×φ golden (0.18)",
+       "[Sun] J Al Rescha → J Pallas RA 147.2633 91×φ golden (9.88)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "Ceres: Moon, Sun",
+      "cells": [
+       "[Moon] H Praesepe → H Ceres RA 0.8330 conj (19.78)",
+       "[Moon] J Galactic Centre → J Ceres RA 0.4742 conj (46.77)",
+       "[Moon] J Praesepe → J Ceres RA 135.9211 84×φ golden (64.97)",
+       "[Sun] J Al Rescha → J Ceres RA 124.5735 77×φ golden (28.49)",
+       "[Sun] J Menkent → J Ceres Dec 8.0025 8 whole (76.66)"
+      ],
+      "field": "also: 1 Protected Guest / Jane Elliott, 2 Supakalanistic / Liam Keniry"
+     },
+     {
+      "label": "Mars: Moon, Sun",
+      "cells": [
+       "[Moon] J Meissa → J Mars RA 86.0086 86 whole (32.77)",
+       "[Sun] H Sadalsuud → H Mars Dec 17.9834 18 whole (2.84)",
+       "[Sun] J Sadalsuud → J Mars Dec 11.1193 11.1111 ninth (86.60)"
+      ],
+      "field": "also: 3 Creationist / Connor Murtagh"
+     },
+     {
+      "label": "Venus: Moon, Sun",
+      "cells": [
+       "[Moon] J Arcturus → J Venus RA 28.9869 29 whole (11.77)",
+       "[Sun] S Venus → J Venus Dec 16.6707 16.6667 ninth (loose)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "Neptune: Moon, Sun",
+      "cells": [
+       "[Moon] J Ankaa → J Neptune Dec 19.9810 20 whole (0.23)",
+       "[Sun] S Sun → J Neptune Dec 0.0857 conj (51.05)",
+       "[Sun] J Sadalmelik → J Neptune Dec 22.0041 22 whole (63.50)"
+      ],
+      "field": "also: 3 Creationist / Connor Murtagh"
+     },
+     {
+      "label": "Ketu: Moon, Sun",
+      "cells": [
+       "[Moon] S Moon → J Ketu Dec 2.0006 2 whole (94.02)",
+       "[Moon] J Galactic Centre → J Ketu Dec 27.9942 28 whole (50.27)",
+       "[Moon] J Praesepe → J Ketu Dec 20.9983 21 whole (83.67)",
+       "[Sun] J Alnilam → J Ketu Dec 0.1854 conj (14.59)"
+      ],
+      "field": "also: 1 Protected Guest / Jane Elliott, 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes"
+     },
+     {
+      "label": "Makemake: Moon, Sun",
+      "cells": [
+       "[Moon] J Ankaa → J Makemake Dec 78.0019 78 whole (81.96)",
+       "[Sun] J Menkent → J Makemake RA 44.9899 45 whole (24.47)",
+       "[Sun] J Sadalmelik → J Makemake Dec 36.0169 36 whole (2.44)"
+      ],
+      "field": "also: 1 Protected Guest / Jane Elliott, 2 Supakalanistic / Liam Keniry"
+     }
+    ]
+   }
+  },
+  "P09": {
+   "name": "5 Eleven Eleven / Joey Haynes",
+   "same_bodies": [
+    "S Mercury → H Mercury Dec 21.9959 22 whole (63.10)",
+    "S Venus → H Venus RA 110.3759 10×φ^5 phi power (loose)",
+    "S Saturn → H Saturn RA 35.5763 22×φ golden (loose)",
+    "S Uranus → H Uranus RA 12.2940 12.2222 ninth (loose)",
+    "S Ceres → H Ceres RA 76.0566 φ^9 phi power (loose)",
+    "S Ceres → H Ceres Dec 12.2610 12.2222 ninth (loose)",
+    "S Quaoar → H Quaoar RA 4.0078 4 whole (37.51)",
+    "S Transpluto → H Transpluto RA 2.0022 2 whole (78.84)",
+    "S Sun → J Sun RA 155.0267 155 whole (loose)",
+    "S Pluto → J Pluto RA 61.8821 100×φ^-1 phi power (loose)",
+    "S Juno → J Juno Dec 13.2693 13.3333 ninth (loose)",
+    "S Rahu → J Rahu RA 169.9115 105×φ golden (loose)",
+    "S Eris → J Eris Dec 6.6584 6.66667 ninth (loose)",
+    "S Sedna → J Sedna Dec 3.2388 2×φ golden (loose)",
+    "S Orcus → J Orcus Dec 14.0982 14.14 sqrt2 (loose)",
+    "S Ketu → J Ketu RA 169.9115 105×φ golden (loose)"
+   ],
+   "landings": [
+    {
+     "chart": "H",
+     "body": "Mercury",
+     "same_body": [
+      "S Mercury → H Mercury Dec 21.9959 22 whole (63.10)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "S Moon → H Mercury RA 1.1423 conj (5.69)",
+       "layer": "top rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Al Rescha → H Mercury Dec 0.0997 conj (44.58)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "H Meissa → H Mercury Dec 7.0715 7.07 sqrt2 (97.67)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "S Jupiter → J Mercury RA 151.0003 151 whole (96.92)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "J Ankaa → J Mercury Dec 62.9996 63 whole (95.96)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Sadalmelik → J Mercury Dec 21.0166 21 whole (2.93)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Venus",
+     "same_body": [
+      "S Venus → H Venus RA 110.3759 10×φ^5 phi power (loose)"
+     ],
+     "body_lines": [
+      "S Sun → Venus RA 0.1171 conj (84.99)"
+     ],
+     "on_this_chart": [],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "J Alnilam → J Venus RA 92.9926 93 whole (39.89)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Saturn",
+     "same_body": [
+      "S Saturn → H Saturn RA 35.5763 22×φ golden (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "S Sun → H Saturn Dec 0.0236 conj (84.90)",
+       "layer": "top rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "H Al Rescha → H Saturn RA 110.9394 10×φ^5 phi power (86.85)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "H Ankaa → H Saturn RA 86.9985 87 whole (85.49)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Arcturus → H Saturn Dec 41.4295 41.4 silver (92.34)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "J Alnilam → J Saturn Dec 7.9843 8 whole (4.65)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Uranus",
+     "same_body": [
+      "S Uranus → H Uranus RA 12.2940 12.2222 ninth (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "H Ankaa → H Uranus RA 19.4108 12×φ golden (68.42)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Arcturus → H Uranus Dec 8.9825 9 whole (1.51)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Meissa → H Uranus Dec 0.2546 conj (2.29)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "J Menkent → J Uranus RA 84.0118 84 whole (17.00)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Ceres",
+     "same_body": [
+      "S Ceres → H Ceres RA 76.0566 φ^9 phi power (loose)",
+      "S Ceres → H Ceres Dec 12.2610 12.2222 ninth (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [],
+     "other_chart_same_body": [],
+     "on_other_chart": []
+    },
+    {
+     "chart": "H",
+     "body": "Quaoar",
+     "same_body": [
+      "S Quaoar → H Quaoar RA 4.0078 4 whole (37.51)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "J Arcturus → J Quaoar Dec 32.9852 33 whole (6.88)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Transpluto",
+     "same_body": [
+      "S Transpluto → H Transpluto RA 2.0022 2 whole (78.84)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "S Sun → H Transpluto Dec 33.3361 33.3333 ninth (96.65)",
+       "layer": "top rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "J Al Rescha → J Transpluto Dec 10.9917 11 whole (33.96)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Sun",
+     "same_body": [
+      "S Sun → J Sun RA 155.0267 155 whole (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Al Rescha → J Sun Dec 14.4406 14.4444 ninth (95.93)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "J Alhena → J Sun RA 34.9928 35 whole (40.88)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Ankaa → J Sun RA 127.8414 79×φ golden (23.51)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Arcturus → J Sun Dec 1.9830 2 whole (2.23)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Galactic Centre → J Sun RA 132.0053 132 whole (53.79)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Sadalsuud → J Sun RA 171.5210 106×φ golden (50.38)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "H Meissa → H Sun Dec 2.0138 2 whole (9.63)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Pluto",
+     "same_body": [
+      "S Pluto → J Pluto RA 61.8821 100×φ^-1 phi power (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Sadalsuud → J Pluto Dec 0.0413 conj (74.37)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": []
+    },
+    {
+     "chart": "J",
+     "body": "Juno",
+     "same_body": [
+      "S Juno → J Juno Dec 13.2693 13.3333 ninth (loose)"
+     ],
+     "body_lines": [
+      "S Sun → Juno RA 0.9669 conj (12.63)"
+     ],
+     "on_this_chart": [
+      {
+       "text": "J Meissa → J Juno RA 121.9943 122 whole (51.10)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Sadalmelik → J Juno Dec 0.0313 conj (80.22)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "H Arcturus → H Juno Dec 21.0147 21 whole (7.15)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Rahu",
+     "same_body": [
+      "S Rahu → J Rahu RA 169.9115 105×φ golden (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "H Meissa → H Rahu RA 50.9934 51 whole (45.15)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Eris",
+     "same_body": [
+      "S Eris → J Eris Dec 6.6584 6.66667 ninth (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Sadalmelik → J Eris RA 52.0013 52 whole (87.17)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "H Alnilam → H Eris RA 58.2481 36×φ golden (93.06)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Sedna",
+     "same_body": [
+      "S Sedna → J Sedna Dec 3.2388 2×φ golden (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "S Sun → J Sedna Dec 27.0050 27 whole (56.42)",
+       "layer": "top rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "J Al Rescha → J Sedna Dec 2.0040 2 whole (64.16)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": []
+    },
+    {
+     "chart": "J",
+     "body": "Orcus",
+     "same_body": [
+      "S Orcus → J Orcus Dec 14.0982 14.14 sqrt2 (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Meissa → J Orcus Dec 8.0139 8 whole (9.38)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "H Arcturus → H Orcus Dec 29.0304 φ^7 phi power (94.44)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Sadalmelik → H Orcus RA 178.9827 179 whole (1.82)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Ketu",
+     "same_body": [
+      "S Ketu → J Ketu RA 169.9115 105×φ golden (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Arcturus → J Ketu Dec 1.3335 1.33333 ninth (98.07)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "H Meissa → H Ketu RA 129.0066 129 whole (45.15)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Sadalmelik → H Ketu RA 16.6672 16.6667 ninth (99.55)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    }
+   ],
+   "cases": {
+    "1": [],
+    "2": [
+     {
+      "label": "H Ceres",
+      "cells": [
+       "S Ceres → H Ceres RA 76.0566 φ^9 phi power (loose)",
+       "S Ceres → H Ceres Dec 12.2610 12.2222 ninth (loose)"
+      ],
+      "field": "only"
+     }
+    ],
+    "3": [
+     {
+      "label": "12×φ golden",
+      "cells": [
+       "H Ankaa → H Uranus RA 19.4108 12×φ golden (68.42) = S Moon → Alhena Dec 19.4132 12×φ golden (81.21)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry"
+     },
+     {
+      "label": "16.6667 ninth",
+      "cells": [
+       "H Sadalmelik → H Ketu RA 16.6672 16.6667 ninth (99.55) = S Sun → Sadalsuud Dec 16.6637 16.6667 ninth (97.48)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill"
+     },
+     {
+      "label": "94×φ golden",
+      "cells": [
+       "J Jupiter → J star Ankaa RA 152.0958 94×φ golden (96.49) = S Moon → Arcturus RA 152.0976 94×φ golden (85.89)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh"
+     },
+     {
+      "label": "94×φ golden",
+      "cells": [
+       "J Ankaa → J Jupiter RA 152.0958 94×φ golden (96.49) = S Moon → Arcturus RA 152.0976 94×φ golden (85.89)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh"
+     }
+    ],
+    "4": [
+     {
+      "label": "4 = 360/90",
+      "cells": [
+       "S Quaoar → H Quaoar RA 4.0078 4 whole (37.51)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry, 4 Trevolli / Kieran O'Neill"
+     },
+     {
+      "label": "2 = 360/180",
+      "cells": [
+       "S Transpluto → H Transpluto RA 2.0022 2 whole (78.84)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill"
+     },
+     {
+      "label": "2 = 360/180",
+      "cells": [
+       "J Al Rescha → J Sedna Dec 2.0040 2 whole (64.16)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill"
+     },
+     {
+      "label": "3 = 360/120",
+      "cells": [
+       "J Arcturus → J Haumea Dec 3.0039 3 whole (64.92)"
+      ],
+      "field": "also: 1 Protected Guest / Jane Elliott, 2 Supakalanistic / Liam Keniry"
+     }
+    ],
+    "5": [
+     {
+      "label": "10×φ^5 phi power",
+      "cells": [
+       "S Venus → H Venus RA 110.3759 10×φ^5 phi power (loose)",
+       "H Al Rescha → H Saturn RA 110.9394 10×φ^5 phi power (86.85)"
+      ],
+      "field": "also: 4 Trevolli / Kieran O'Neill"
+     },
+     {
+      "label": "12.2222 ninth",
+      "cells": [
+       "S Uranus → H Uranus RA 12.2940 12.2222 ninth (loose)",
+       "S Ceres → H Ceres Dec 12.2610 12.2222 ninth (loose)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "2 whole",
+      "cells": [
+       "S Transpluto → H Transpluto RA 2.0022 2 whole (78.84)",
+       "J Al Rescha → J Sedna Dec 2.0040 2 whole (64.16)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry, 4 Trevolli / Kieran O'Neill"
+     },
+     {
+      "label": "105×φ golden",
+      "cells": [
+       "S Rahu → J Rahu RA 169.9115 105×φ golden (loose)",
+       "S Ketu → J Ketu RA 169.9115 105×φ golden (loose)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "94×φ golden",
+      "cells": [
+       "J Jupiter → J star Ankaa RA 152.0958 94×φ golden (96.49)",
+       "J Ankaa → J Jupiter RA 152.0958 94×φ golden (96.49)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "67×φ golden",
+      "cells": [
+       "J Jupiter → J star Sadalsuud RA 108.4161 67×φ golden (57.36)",
+       "S Sadalsuud → J Jupiter RA 108.4064 67×φ golden (88.96)"
+      ],
+      "field": "only"
+     }
+    ],
+    "6": [],
+    "7": [
+     {
+      "label": "Saturn: Moon, Sun",
+      "cells": [
+       "[Moon] H Ankaa → H Saturn RA 86.9985 87 whole (85.49)",
+       "[Moon] H Arcturus → H Saturn Dec 41.4295 41.4 silver (92.34)",
+       "[Sun] S Sun → H Saturn Dec 0.0236 conj (84.90)",
+       "[Sun] H Al Rescha → H Saturn RA 110.9394 10×φ^5 phi power (86.85)",
+       "[Sun] J Alnilam → J Saturn Dec 7.9843 8 whole (4.65)"
+      ],
+      "field": "also: 1 Protected Guest / Jane Elliott, 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill"
+     },
+     {
+      "label": "Mercury: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] S Jupiter → J Mercury RA 151.0003 151 whole (96.92)",
+       "[Moon] S Moon → H Mercury RA 1.1423 conj (5.69)",
+       "[Moon] H Meissa → H Mercury Dec 7.0715 7.07 sqrt2 (97.67)",
+       "[Moon] J Ankaa → J Mercury Dec 62.9996 63 whole (95.96)",
+       "[Sun] H Al Rescha → H Mercury Dec 0.0997 conj (44.58)",
+       "[Sun] J Sadalmelik → J Mercury Dec 21.0166 21 whole (2.93)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry"
+     },
+     {
+      "label": "Jupiter: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] S Vesta → H Jupiter RA 38.8349 24×φ golden (87.28)",
+       "[Jupiter] S Gonggong → H Jupiter RA 106.9963 107 whole (66.49)",
+       "[Jupiter] S Chiron → J Jupiter Dec 17.9440 φ^6 phi power (99.39)",
+       "[Jupiter] S Ceres → J Jupiter RA 158.5614 98×φ golden (66.74)",
+       "[Moon] S Chiron → J Jupiter Dec 17.9440 φ^6 phi power (99.39)",
+       "[Moon] J Ankaa → J Jupiter RA 152.0958 94×φ golden (96.49)",
+       "[Moon] J Arcturus → J Jupiter RA 0.5624 conj (39.07)",
+       "[Sun] S Sadalsuud → J Jupiter RA 108.4064 67×φ golden (88.96)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill"
+     },
+     {
+      "label": "Chiron: Moon, Sun",
+      "cells": [
+       "[Moon] J Arcturus → J Chiron RA 54.0172 54 whole (1.89)",
+       "[Sun] H Al Rescha → H Chiron Dec 0.1187 conj (36.53)",
+       "[Sun] H Alnilam → H Chiron RA 85.9908 86 whole (29.29)",
+       "[Sun] J Menkent → J Chiron RA 51.7714 32×φ golden (68.13)",
+       "[Sun] J Sadalsuud → J Chiron RA 162.9958 163 whole (62.06)"
+      ],
+      "field": "also: 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill"
+     },
+     {
+      "label": "Gonggong: Moon, Sun",
+      "cells": [
+       "[Moon] H Alhena → H Gonggong RA 122.9972 φ^10 phi power (98.28)",
+       "[Moon] H Galactic Centre → H Gonggong RA 70.0105 70 whole (22.63)",
+       "[Moon] J Arcturus → J Gonggong Dec 38.0105 38 whole (22.54)",
+       "[Moon] J Meissa → J Gonggong RA 113.0038 113 whole (65.67)",
+       "[Sun] H Menkent → H Gonggong Dec 24.2788 15×φ golden (55.44)",
+       "[Sun] H Sadalmelik → H Gonggong RA 4.9871 5 whole (12.47)",
+       "[Sun] J Alnilam → J Gonggong RA 113.2727 70×φ golden (46.27)",
+       "[Sun] J Sadalmelik → J Gonggong RA 0.6740 conj (30.32)"
+      ],
+      "field": "also: 3 Creationist / Connor Murtagh"
+     },
+     {
+      "label": "Uranus: Moon, Sun",
+      "cells": [
+       "[Moon] H Ankaa → H Uranus RA 19.4108 12×φ golden (68.42)",
+       "[Moon] H Arcturus → H Uranus Dec 8.9825 9 whole (1.51)",
+       "[Moon] H Meissa → H Uranus Dec 0.2546 conj (2.29)",
+       "[Sun] J Menkent → J Uranus RA 84.0118 84 whole (17.00)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill"
+     },
+     {
+      "label": "Juno: Moon, Sun",
+      "cells": [
+       "[Moon] H Arcturus → H Juno Dec 21.0147 21 whole (7.15)",
+       "[Moon] J Meissa → J Juno RA 121.9943 122 whole (51.10)",
+       "[Sun] S Juno → J Juno Dec 13.2693 13.3333 ninth (loose)",
+       "[Sun] J Sadalmelik → J Juno Dec 0.0313 conj (80.22)"
+      ],
+      "field": "also: 1 Protected Guest / Jane Elliott, 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill"
+     },
+     {
+      "label": "Haumea: Moon, Sun",
+      "cells": [
+       "[Moon] H Arcturus → H Haumea RA 0.5982 conj (36.15)",
+       "[Moon] J Arcturus → J Haumea Dec 3.0039 3 whole (64.92)",
+       "[Sun] H Sadalmelik → H Haumea RA 118.1261 73×φ golden (49.52)"
+      ],
+      "field": "also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill"
+     },
+     {
+      "label": "Orcus: Moon, Sun",
+      "cells": [
+       "[Moon] H Arcturus → H Orcus Dec 29.0304 φ^7 phi power (94.44)",
+       "[Moon] J Meissa → J Orcus Dec 8.0139 8 whole (9.38)",
+       "[Sun] H Sadalmelik → H Orcus RA 178.9827 179 whole (1.82)"
+      ],
+      "field": "also: 1 Protected Guest / Jane Elliott"
+     },
+     {
+      "label": "Sun: Moon, Sun",
+      "cells": [
+       "[Moon] H Meissa → H Sun Dec 2.0138 2 whole (9.63)",
+       "[Moon] J Alhena → J Sun RA 34.9928 35 whole (40.88)",
+       "[Moon] J Ankaa → J Sun RA 127.8414 79×φ golden (23.51)",
+       "[Moon] J Arcturus → J Sun Dec 1.9830 2 whole (2.23)",
+       "[Moon] J Galactic Centre → J Sun RA 132.0053 132 whole (53.79)",
+       "[Sun] J Al Rescha → J Sun Dec 14.4406 14.4444 ninth (95.93)",
+       "[Sun] J Sadalsuud → J Sun RA 171.5210 106×φ golden (50.38)"
+      ],
+      "field": "also: 1 Protected Guest / Jane Elliott, 3 Creationist / Connor Murtagh"
+     },
+     {
+      "label": "Ketu: Moon, Sun",
+      "cells": [
+       "[Moon] H Meissa → H Ketu RA 129.0066 129 whole (45.15)",
+       "[Moon] J Arcturus → J Ketu Dec 1.3335 1.33333 ninth (98.07)",
+       "[Sun] H Sadalmelik → H Ketu RA 16.6672 16.6667 ninth (99.55)"
+      ],
+      "field": "also: 1 Protected Guest / Jane Elliott, 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill"
+     }
+    ]
+   }
+  }
+ },
+ "sky": {
+  "top": {
+   "centre": "Sun",
+   "point": "Menkent",
+   "plane": "RA",
+   "value": 77.777876,
+   "plus5": 77.781633,
+   "target": "77.7778",
+   "family": "ninth",
+   "score": 99.92,
+   "arrow": "<- away",
+   "timing": "separating, exact 13:44 (0.1 min ago)"
+  },
+  "hubs": [],
+  "lines": [
+   "S Jupiter → Pallas Dec 0.0771 conj (55.22)",
+   "S Jupiter → Gonggong Dec 0.2973 conj (0.01)",
+   "S Sun → Venus RA 0.1171 conj (84.99)",
+   "S Sun → Juno RA 0.9669 conj (12.63)",
+   "S Sun → Al Rescha Dec 24.9993 25 whole (93.15)",
+   "S Sun → Alnilam Dec 21.0333 13×φ golden (93.12)",
+   "S Sun → Menkent RA 77.7779 77.7778 ninth (99.92)",
+   "S Sun → Sadalsuud Dec 16.6637 16.6667 ninth (97.48)",
+   "S Sun → Sadalmelik RA 41.9994 42 whole (94.18)",
+   "S Moon → Chiron RA 0.7864 conj (22.64)",
+   "S Moon → Makemake RA 166.6955 166.667 ninth (97.53)",
+   "S Moon → Ankaa RA 0.5677 conj (38.63)",
+   "S Moon → Meissa Dec 12.9486 8×φ golden (75.20)",
+   "S Moon → Alhena Dec 19.4132 12×φ golden (81.21)",
+   "S Moon → Praesepe Dec 22.9966 23 whole (69.22)",
+   "S Moon → Arcturus RA 152.0976 94×φ golden (85.89)",
+   "S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)"
+  ]
+ }
+}

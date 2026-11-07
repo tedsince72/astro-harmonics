@@ -1,0 +1,1184 @@
+# Stage 2 layers: race_batch_20220217_leicester_1445_jupiter_tables.xlsx
+Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_layers.py).
+
+## L0 field
+- In the tables workbook (4): 1 Fransham / Jack Andrews; 3 Nelson River / Harry Bannister; 4 Nickolson / Jonjo O'Neill Jr; 5 Stepney Causeway / Harry Skelton
+- _active.xlsx not found: runners not checked against it
+- Cloth numbers not in the tables workbook: 2
+
+## Sky (noted lines)
+- S Jupiter → Rigel Dec 0.2047 conj (10.09)
+- S Jupiter → Alphard Dec 0.2514 conj (2.63)
+- S Jupiter → Alkes RA 177.7232 177.778 ninth (95.73)
+- S Jupiter → Menkent RA 130.9998 131 whole (98.49)
+- S Jupiter → Alphecca RA 108.9962 109 whole (65.79)
+- S Sun → Mercury RA 26.1839 10×φ^2 phi power (94.68)
+- S Sun → Orcus Dec 0.1585 conj (22.25)
+- S Sun → Murzim Dec 5.9982 6 whole (83.01)
+- S Sun → Spica RA 129.4502 80×φ golden (58.94)
+- S Sun → Deneb Algedi RA 3.9950 4 whole (56.60)
+- S Sun → Sadalmelik RA 0.6895 conj (29.20)
+- S Moon → Mercury RA 141.4881 141.4 sqrt2 (82.02)
+- S Moon → Chiron RA 155.0016 155 whole (84.75)
+- S Moon → Mirfak RA 111.9990 112 whole (90.41)
+- S Moon → Acubens Dec 0.1325 conj (31.18)
+- S Moon → Regulus Dec 0.2419 conj (3.75)
+- S Moon → Aculeus RA 102.0008 102 whole (92.02)
+- Hubs: Mercury
+
+## 1 Fransham / Jack Andrews
+### L1 same bodies
+- S Jupiter → H Jupiter RA 122.2446 122.222 ninth (96.90)
+- S Uranus → H Uranus Dec 10.0154 10 whole (5.34)
+- S Neptune → H Neptune RA 14.0096 14 whole (27.22)
+- S Pallas → H Pallas RA 142.0115 142 whole (18.09)
+- S Pallas → H Pallas Dec 19.0000 19 whole (99.66)
+- S Gonggong → H Gonggong RA 1.0089 1 whole (30.59)
+- S Transpluto → H Transpluto RA 3.0297 3 whole (loose)
+- S Sun → J Sun Dec 33.3953 33.3333 ninth (loose)
+- S Mercury → J Mercury Dec 42.3376 10×φ^3 phi power (loose)
+- S Mars → J Mars Dec 13.3256 13.3333 ninth (loose)
+- S Neptune → J Neptune Dec 14.5872 9×φ golden (loose)
+- S Ceres → J Ceres Dec 6.0198 6 whole (0.01)
+- S Pallas → J Pallas RA 46.0175 46 whole (1.55)
+- S Vesta → J Vesta RA 146.0233 146 whole (loose)
+- S Vesta → J Vesta Dec 41.4718 41.4 silver (loose)
+- S Eris → J Eris RA 2.0099 2 whole (25.54)
+- S Quaoar → J Quaoar RA 31.0289 31 whole (loose)
+- S Transpluto → J Transpluto RA 7.9786 8 whole (loose)
+### L2 what lands on each same body
+- **H Jupiter** (same body: S Jupiter → H Jupiter RA 122.2446 122.222 ninth (96.90))
+  - top rows: S Jupiter → H Jupiter RA 122.2446 122.222 ninth (96.90) [Jupiter]
+  - top rows: S Juno → H Jupiter RA 158.5719 98×φ golden (73.97) [Jupiter]
+  - star rows: H Aculeus → H Jupiter RA 160.1735 99×φ golden (40.03) [Moon]
+  - star rows: S Alphard → H Jupiter RA 36.9884 37 whole (17.57) [Jupiter]
+  - star rows: H Menkent → H Jupiter RA 106.7608 66×φ golden (0.81) [Jupiter]
+  - star rows: H Murzim → H Jupiter Dec 40.9849 41 whole (6.09) [Sun]
+  - other chart, top rows: S Rahu → J Jupiter Dec 11.0008 11 whole (91.80) [Jupiter]
+  - other chart, top rows: S Sedna → J Jupiter Dec 0.2807 conj (0.41) [Jupiter]
+  - other chart, star rows: S Alphard → J Jupiter RA 118.9933 119 whole (44.45) [Jupiter]
+  - other chart, star rows: J Alphard → J Jupiter Dec 17.0175 17 whole (1.59) [Jupiter]
+- **H Uranus** (same body: S Uranus → H Uranus Dec 10.0154 10 whole (5.34))
+  - star rows: H Acubens → H Uranus RA 121.9857 122 whole (8.00) [Moon]
+  - star rows: H Alkes → H Uranus Dec 23.0166 23 whole (2.81) [Jupiter]
+  - star rows: H Alphecca → H Uranus Dec 21.9966 22 whole (68.52) [Jupiter]
+  - star rows: H Rigel → H Uranus RA 65.9934 66 whole (45.03) [Jupiter]
+  - other chart, star rows: J Sadalmelik → J Uranus RA 11.9919 12 whole (35.36) [Sun]
+- **H Neptune** (same body: S Neptune → H Neptune RA 14.0096 14 whole (27.22))
+  - star rows: H Alphard → H Neptune Dec 0.9967 1 whole (69.91) [Jupiter]
+  - other chart, same body: S Neptune → J Neptune Dec 14.5872 9×φ golden (loose)
+  - other chart, star rows: J Aculeus → J Neptune RA 41.4257 41.4 silver (95.82) [Moon]
+  - other chart, star rows: J Aculeus → J Neptune Dec 13.3379 13.3333 ninth (94.57) [Moon]
+- **H Pallas** (same body: S Pallas → H Pallas RA 142.0115 142 whole (18.09); S Pallas → H Pallas Dec 19.0000 19 whole (99.66))
+  - other chart, same body: S Pallas → J Pallas RA 46.0175 46 whole (1.55)
+  - other chart, star rows: J Alphard → J Pallas Dec 6.9944 7 whole (51.71) [Jupiter]
+  - other chart, star rows: J Mirfak → J Pallas RA 0.2106 conj (73.89) [Moon]
+- **H Gonggong** (same body: S Gonggong → H Gonggong RA 1.0089 1 whole (30.59))
+  - star rows: H Regulus → H Gonggong RA 176.3929 109×φ golden (2.58) [Moon]
+  - other chart, star rows: J Acubens → J Gonggong Dec 29.0379 φ^7 phi power (95.27) [Moon]
+  - other chart, star rows: J Sadalmelik → J Gonggong RA 1.0088 1 whole (31.34) [Sun]
+  - other chart, star rows: J Spica → J Gonggong Dec 6.0171 6 whole (2.12) [Sun]
+- **H Transpluto** (same body: S Transpluto → H Transpluto RA 3.0297 3 whole (loose))
+  - top rows: S Sun → H Transpluto RA 179.0053 179 whole (54.18) [Sun]
+  - top rows: S Moon → H Transpluto Dec 0.1249 conj (34.05) [Moon]
+  - star rows: H Acubens → H Transpluto Dec 0.2584 conj (1.92) [Moon]
+  - star rows: H Deneb Algedi → H Transpluto RA 175.0132 175 whole (11.58) [Sun]
+  - star rows: H Regulus → H Transpluto RA 0.3484 conj (58.94) [Moon]
+  - other chart, same body: S Transpluto → J Transpluto RA 7.9786 8 whole (loose)
+  - other chart, star rows: J Alphard → J Transpluto Dec 22.0172 22 whole (1.97) [Jupiter]
+- **J Sun** (same body: S Sun → J Sun Dec 33.3953 33.3333 ninth (loose))
+  - star rows: J Alphard → J Sun RA 76.9963 77 whole (66.25) [Jupiter]
+- **J Mercury** (same body: S Mercury → J Mercury Dec 42.3376 10×φ^3 phi power (loose))
+  - body line: S Sun → Mercury RA 26.1839 10×φ^2 phi power (94.68)
+  - body line: S Moon → Mercury RA 141.4881 141.4 sqrt2 (82.02)
+  - star rows: J Acubens → J Mercury Dec 10.9963 11 whole (66.41) [Moon]
+  - star rows: J Deneb Algedi → J Mercury Dec 38.9808 39 whole (0.15) [Sun]
+  - star rows: J Mirfak → J Mercury Dec 27.0052 27 whole (54.59) [Moon]
+  - star rows: J Spica → J Mercury Dec 34.0171 34 whole (2.06) [Sun]
+  - other chart, top rows: S Moon → H Mercury Dec 0.9984 1 whole (84.48) [Moon]
+  - other chart, star rows: H Alphecca → H Mercury Dec 15.9869 16 whole (11.96) [Jupiter]
+- **J Mars** (same body: S Mars → J Mars Dec 13.3256 13.3333 ninth (loose))
+  - star rows: J Alphard → J Mars RA 61.0118 61 whole (16.63) [Jupiter]
+  - star rows: J Alphard → J Mars Dec 1.0173 1 whole (1.76) [Jupiter]
+  - other chart, star rows: H Mirfak → H Mars RA 141.9921 142 whole (36.77) [Moon]
+- **J Neptune** (same body: S Neptune → J Neptune Dec 14.5872 9×φ golden (loose))
+  - star rows: J Aculeus → J Neptune RA 41.4257 41.4 silver (95.82) [Moon]
+  - star rows: J Aculeus → J Neptune Dec 13.3379 13.3333 ninth (94.57) [Moon]
+  - other chart, same body: S Neptune → H Neptune RA 14.0096 14 whole (27.22)
+  - other chart, star rows: H Alphard → H Neptune Dec 0.9967 1 whole (69.91) [Jupiter]
+- **J Ceres** (same body: S Ceres → J Ceres Dec 6.0198 6 whole (0.01))
+  - star rows: J Alphard → J Ceres RA 44.9877 45 whole (14.76) [Jupiter]
+  - star rows: J Alphecca → J Ceres Dec 0.2152 conj (7.99) [Jupiter]
+  - star rows: J Murzim → J Ceres RA 1.2378 conj (3.06) [Sun]
+  - other chart, top rows: S Moon → H Ceres Dec 8.0004 8 whole (96.06) [Moon]
+  - other chart, star rows: H Alphecca → H Ceres Dec 22.9889 23 whole (19.95) [Jupiter]
+  - other chart, star rows: H Mirfak → H Ceres RA 155.3550 96×φ golden (7.06) [Moon]
+  - other chart, star rows: H Sadalmelik → H Ceres RA 125.0156 125 whole (4.77) [Sun]
+- **J Pallas** (same body: S Pallas → J Pallas RA 46.0175 46 whole (1.55))
+  - star rows: J Alphard → J Pallas Dec 6.9944 7 whole (51.71) [Jupiter]
+  - star rows: J Mirfak → J Pallas RA 0.2106 conj (73.89) [Moon]
+  - other chart, same body: S Pallas → H Pallas RA 142.0115 142 whole (18.09)
+  - other chart, same body: S Pallas → H Pallas Dec 19.0000 19 whole (99.66)
+- **J Vesta** (same body: S Vesta → J Vesta RA 146.0233 146 whole (loose); S Vesta → J Vesta Dec 41.4718 41.4 silver (loose))
+  - star rows: J Acubens → J Vesta RA 9.9939 10 whole (48.31) [Moon]
+  - star rows: J Rigel → J Vesta RA 65.9844 66 whole (4.86) [Jupiter]
+  - other chart, star rows: H Alphard → H Vesta RA 62.0102 62 whole (24.23) [Jupiter]
+- **J Eris** (same body: S Eris → J Eris RA 2.0099 2 whole (25.54))
+  - star rows: J Alphard → J Eris RA 118.0139 118 whole (9.16) [Jupiter]
+  - other chart, star rows: H Sadalmelik → H Eris RA 53.9926 54 whole (39.63) [Sun]
+- **J Quaoar** (same body: S Quaoar → J Quaoar RA 31.0289 31 whole (loose))
+  - star rows: J Acubens → J Quaoar RA 111.1580 111.111 ninth (92.32) [Moon]
+  - star rows: J Deneb Algedi → J Quaoar RA 80.9837 81 whole (3.45) [Sun]
+  - other chart, star rows: H Aculeus → H Quaoar RA 1.2914 conj (1.93) [Moon]
+- **J Transpluto** (same body: S Transpluto → J Transpluto RA 7.9786 8 whole (loose))
+  - star rows: J Alphard → J Transpluto Dec 22.0172 22 whole (1.97) [Jupiter]
+  - other chart, same body: S Transpluto → H Transpluto RA 3.0297 3 whole (loose)
+  - other chart, top rows: S Sun → H Transpluto RA 179.0053 179 whole (54.18) [Sun]
+  - other chart, top rows: S Moon → H Transpluto Dec 0.1249 conj (34.05) [Moon]
+  - other chart, star rows: H Acubens → H Transpluto Dec 0.2584 conj (1.92) [Moon]
+  - other chart, star rows: H Deneb Algedi → H Transpluto RA 175.0132 175 whole (11.58) [Sun]
+  - other chart, star rows: H Regulus → H Transpluto RA 0.3484 conj (58.94) [Moon]
+### L3 the seven cases (L5 field tag on each)
+- **1. same body on both charts**
+  - Neptune — only
+    - S Neptune → H Neptune RA 14.0096 14 whole (27.22)
+    - S Neptune → J Neptune Dec 14.5872 9×φ golden (loose)
+  - Pallas — only
+    - S Pallas → H Pallas RA 142.0115 142 whole (18.09)
+    - S Pallas → H Pallas Dec 19.0000 19 whole (99.66)
+    - S Pallas → J Pallas RA 46.0175 46 whole (1.55)
+  - Transpluto — only
+    - S Transpluto → H Transpluto RA 3.0297 3 whole (loose)
+    - S Transpluto → J Transpluto RA 7.9786 8 whole (loose)
+- **2. one body in both planes**
+  - H Pallas — only
+    - S Pallas → H Pallas RA 142.0115 142 whole (18.09)
+    - S Pallas → H Pallas Dec 19.0000 19 whole (99.66)
+  - J Vesta — only
+    - S Vesta → J Vesta RA 146.0233 146 whole (loose)
+    - S Vesta → J Vesta Dec 41.4718 41.4 silver (loose)
+- **3. runner number = sky number**
+  - 177.778 ninth — also: 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton
+    - S Moon → H Chiron RA 177.7268 177.778 ninth (96.01) = S Jupiter → Alkes RA 177.7232 177.778 ninth (95.73)
+  - 4 whole — also: 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
+    - H Deneb Algedi → H Pluto Dec 3.9821 4 whole (1.07) = S Sun → Deneb Algedi RA 3.9950 4 whole (56.60)
+  - 6 whole — also: 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
+    - H Regulus → H Juno Dec 6.0078 6 whole (37.22) = S Sun → Murzim Dec 5.9982 6 whole (83.01)
+  - 6 whole — also: 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
+    - S Ceres → J Ceres Dec 6.0198 6 whole (0.01) = S Sun → Murzim Dec 5.9982 6 whole (83.01)
+  - 155 whole — only
+    - S Moon → J Ketu RA 155.0014 155 whole (86.15) = S Moon → Chiron RA 155.0016 155 whole (84.75)
+  - 6 whole — also: 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
+    - J Spica → J Gonggong Dec 6.0171 6 whole (2.12) = S Sun → Murzim Dec 5.9982 6 whole (83.01)
+- **4. circle divisions**
+  - 10 = 360/36 — also: 4 Nickolson / Jonjo O'Neill Jr
+    - S Uranus → H Uranus Dec 10.0154 10 whole (5.34)
+  - 1 = 360/360 — also: 5 Stepney Causeway / Harry Skelton
+    - S Gonggong → H Gonggong RA 1.0089 1 whole (30.59)
+  - 3 = 360/120 — also: 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
+    - S Transpluto → H Transpluto RA 3.0297 3 whole (loose)
+  - 1 = 360/360 — also: 5 Stepney Causeway / Harry Skelton
+    - S Moon → H Mercury Dec 0.9984 1 whole (84.48)
+  - 8 = 360/45 — also: 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton
+    - S Moon → H Ceres Dec 8.0004 8 whole (96.06)
+  - 1 = 360/360 — also: 5 Stepney Causeway / Harry Skelton
+    - H Alphard → H Neptune Dec 0.9967 1 whole (69.91)
+  - 6 = 360/60 — also: 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
+    - S Ceres → J Ceres Dec 6.0198 6 whole (0.01)
+  - 2 = 360/180 — also: 5 Stepney Causeway / Harry Skelton
+    - S Eris → J Eris RA 2.0099 2 whole (25.54)
+  - 8 = 360/45 — also: 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton
+    - S Transpluto → J Transpluto RA 7.9786 8 whole (loose)
+  - 10 = 360/36 — also: 4 Nickolson / Jonjo O'Neill Jr
+    - J Acubens → J Haumea Dec 9.9952 10 whole (57.75)
+  - 36 = 360/10 — also: 3 Nelson River / Harry Bannister
+    - J Menkent → J Orcus Dec 36.0009 36 whole (91.25)
+- **5. same number in more than one place**
+  - 10 whole — also: 4 Nickolson / Jonjo O'Neill Jr
+    - S Uranus → H Uranus Dec 10.0154 10 whole (5.34)
+    - J Acubens → J Haumea Dec 9.9952 10 whole (57.75)
+  - 1 whole — only
+    - S Gonggong → H Gonggong RA 1.0089 1 whole (30.59)
+    - S Moon → H Mercury Dec 0.9984 1 whole (84.48)
+    - H Alphard → H Neptune Dec 0.9967 1 whole (69.91)
+  - 8 whole — only
+    - S Moon → H Ceres Dec 8.0004 8 whole (96.06)
+    - S Transpluto → J Transpluto RA 7.9786 8 whole (loose)
+  - 13.3333 ninth — only
+    - S Mars → J Mars Dec 13.3256 13.3333 ninth (loose)
+    - J Aculeus → J Neptune Dec 13.3379 13.3333 ninth (94.57)
+  - 41.4 silver — only
+    - S Vesta → J Vesta Dec 41.4718 41.4 silver (loose)
+    - J Aculeus → J Neptune RA 41.4257 41.4 silver (95.82)
+  - 11 whole — also: 3 Nelson River / Harry Bannister
+    - S Rahu → J Jupiter Dec 11.0008 11 whole (91.80)
+    - J Acubens → J Mercury Dec 10.9963 11 whole (66.41)
+- **6. star and sky line on one body**
+  - H Transpluto on Regulus — also: 4 Nickolson / Jonjo O'Neill Jr
+    - H Regulus → H Transpluto RA 0.3484 conj (58.94)
+    - S Sun → H Transpluto RA 179.0053 179 whole (54.18)
+    - S Moon → H Transpluto Dec 0.1249 conj (34.05)
+  - J Ketu on Deneb Algedi — only
+    - J Deneb Algedi → J Ketu Dec 0.0271 conj (82.78)
+    - S Moon → J Ketu RA 155.0014 155 whole (86.15)
+- **7. centres meeting**
+  - Jupiter: Jupiter, Moon, Sun — also: 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
+    - [Jupiter] S Jupiter → H Jupiter RA 122.2446 122.222 ninth (96.90)
+    - [Jupiter] S Juno → H Jupiter RA 158.5719 98×φ golden (73.97)
+    - [Jupiter] S Alphard → H Jupiter RA 36.9884 37 whole (17.57)
+    - [Jupiter] H Menkent → H Jupiter RA 106.7608 66×φ golden (0.81)
+    - [Jupiter] S Rahu → J Jupiter Dec 11.0008 11 whole (91.80)
+    - [Jupiter] S Sedna → J Jupiter Dec 0.2807 conj (0.41)
+    - [Jupiter] S Alphard → J Jupiter RA 118.9933 119 whole (44.45)
+    - [Jupiter] J Alphard → J Jupiter Dec 17.0175 17 whole (1.59)
+    - [Moon] H Aculeus → H Jupiter RA 160.1735 99×φ golden (40.03)
+    - [Sun] H Murzim → H Jupiter Dec 40.9849 41 whole (6.09)
+  - Transpluto: Jupiter, Moon, Sun — also: 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
+    - [Jupiter] J Alphard → J Transpluto Dec 22.0172 22 whole (1.97)
+    - [Moon] S Moon → H Transpluto Dec 0.1249 conj (34.05)
+    - [Moon] H Acubens → H Transpluto Dec 0.2584 conj (1.92)
+    - [Moon] H Regulus → H Transpluto RA 0.3484 conj (58.94)
+    - [Sun] S Sun → H Transpluto RA 179.0053 179 whole (54.18)
+    - [Sun] H Deneb Algedi → H Transpluto RA 175.0132 175 whole (11.58)
+  - Mercury: Jupiter, Moon, Sun — only
+    - [Jupiter] H Alphecca → H Mercury Dec 15.9869 16 whole (11.96)
+    - [Moon] S Moon → H Mercury Dec 0.9984 1 whole (84.48)
+    - [Moon] S Mercury → J Mercury Dec 42.3376 10×φ^3 phi power (loose)
+    - [Moon] J Acubens → J Mercury Dec 10.9963 11 whole (66.41)
+    - [Moon] J Mirfak → J Mercury Dec 27.0052 27 whole (54.59)
+    - [Sun] S Mercury → J Mercury Dec 42.3376 10×φ^3 phi power (loose)
+    - [Sun] J Deneb Algedi → J Mercury Dec 38.9808 39 whole (0.15)
+    - [Sun] J Spica → J Mercury Dec 34.0171 34 whole (2.06)
+  - Chiron: Jupiter, Moon, Sun — also: 4 Nickolson / Jonjo O'Neill Jr
+    - [Jupiter] H Alphecca → H Chiron RA 111.6745 69×φ golden (0.48)
+    - [Jupiter] J Rigel → J Chiron Dec 8.0160 8 whole (4.08)
+    - [Moon] S Moon → H Chiron RA 177.7268 177.778 ninth (96.01)
+    - [Sun] J Deneb Algedi → J Chiron Dec 0.0920 conj (48.05)
+  - Ceres: Jupiter, Moon, Sun — only
+    - [Jupiter] H Alphecca → H Ceres Dec 22.9889 23 whole (19.95)
+    - [Jupiter] J Alphard → J Ceres RA 44.9877 45 whole (14.76)
+    - [Jupiter] J Alphecca → J Ceres Dec 0.2152 conj (7.99)
+    - [Moon] S Moon → H Ceres Dec 8.0004 8 whole (96.06)
+    - [Moon] H Mirfak → H Ceres RA 155.3550 96×φ golden (7.06)
+    - [Sun] H Sadalmelik → H Ceres RA 125.0156 125 whole (4.77)
+    - [Sun] J Murzim → J Ceres RA 1.2378 conj (3.06)
+  - Orcus: Jupiter, Moon, Sun — only
+    - [Jupiter] H Alkes → H Orcus RA 16.0108 16 whole (21.05)
+    - [Jupiter] J Menkent → J Orcus Dec 36.0009 36 whole (91.25)
+    - [Moon] S Moon → H Orcus RA 14.1449 14.14 sqrt2 (92.38)
+    - [Moon] J Acubens → J Orcus Dec 12.2295 12.2222 ninth (89.94)
+    - [Sun] J Sadalmelik → J Orcus Dec 0.0509 conj (68.94)
+  - Uranus: Jupiter, Moon, Sun — also: 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
+    - [Jupiter] H Alkes → H Uranus Dec 23.0166 23 whole (2.81)
+    - [Jupiter] H Alphecca → H Uranus Dec 21.9966 22 whole (68.52)
+    - [Jupiter] H Rigel → H Uranus RA 65.9934 66 whole (45.03)
+    - [Moon] H Acubens → H Uranus RA 121.9857 122 whole (8.00)
+    - [Sun] J Sadalmelik → J Uranus RA 11.9919 12 whole (35.36)
+  - Makemake: Jupiter, Moon, Sun — also: 4 Nickolson / Jonjo O'Neill Jr
+    - [Jupiter] H Alphecca → H Makemake Dec 0.1153 conj (37.91)
+    - [Jupiter] H Rigel → H Makemake RA 113.0013 113 whole (87.75)
+    - [Moon] H Acubens → H Makemake RA 57.0090 57 whole (30.09)
+    - [Moon] J Regulus → J Makemake Dec 21.0157 21 whole (4.70)
+    - [Sun] H Spica → H Makemake Dec 37.9907 38 whole (28.58)
+    - [Sun] J Sadalmelik → J Makemake RA 153.9864 154 whole (10.09)
+  - Quaoar: Moon, Sun — only
+    - [Moon] H Aculeus → H Quaoar RA 1.2914 conj (1.93)
+    - [Moon] J Acubens → J Quaoar RA 111.1580 111.111 ninth (92.32)
+    - [Sun] J Deneb Algedi → J Quaoar RA 80.9837 81 whole (3.45)
+  - Ketu: Jupiter, Moon, Sun — also: 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr
+    - [Jupiter] H Alkes → H Ketu Dec 29.1267 18×φ golden (87.53)
+    - [Moon] S Moon → J Ketu RA 155.0014 155 whole (86.15)
+    - [Moon] J Acubens → J Ketu Dec 28.0115 28 whole (18.00)
+    - [Moon] J Aculeus → J Ketu RA 52.9912 53 whole (31.57)
+    - [Moon] J Mirfak → J Ketu RA 92.9918 93 whole (34.68)
+    - [Moon] J Mirfak → J Ketu Dec 66.0130 66 whole (12.12)
+    - [Moon] J Regulus → J Ketu RA 165.9884 166 whole (17.43)
+    - [Sun] H Spica → H Ketu Dec 21.9889 22 whole (19.81)
+    - [Sun] J Deneb Algedi → J Ketu Dec 0.0271 conj (82.78)
+    - [Sun] J Spica → J Ketu Dec 4.9907 5 whole (28.56)
+  - Neptune: Jupiter, Moon — only
+    - [Jupiter] H Alphard → H Neptune Dec 0.9967 1 whole (69.91)
+    - [Moon] J Aculeus → J Neptune RA 41.4257 41.4 silver (95.82)
+    - [Moon] J Aculeus → J Neptune Dec 13.3379 13.3333 ninth (94.57)
+  - Juno: Jupiter, Moon — only
+    - [Jupiter] H Alphard → H Juno RA 114.0127 114 whole (13.18)
+    - [Jupiter] J Menkent → J Juno Dec 33.0177 33 whole (1.31)
+    - [Moon] H Regulus → H Juno Dec 6.0078 6 whole (37.22)
+  - Vesta: Jupiter, Moon — also: 3 Nelson River / Harry Bannister
+    - [Jupiter] H Alphard → H Vesta RA 62.0102 62 whole (24.23)
+    - [Jupiter] J Rigel → J Vesta RA 65.9844 66 whole (4.86)
+    - [Moon] J Acubens → J Vesta RA 9.9939 10 whole (48.31)
+  - Rahu: Jupiter, Moon, Sun — also: 5 Stepney Causeway / Harry Skelton
+    - [Jupiter] H Alphecca → H Rahu RA 27.5042 17×φ golden (85.72)
+    - [Moon] S Moon → J Rahu RA 24.9986 25 whole (86.15)
+    - [Moon] J Aculeus → J Rahu RA 127.0088 127 whole (31.57)
+    - [Moon] J Mirfak → J Rahu RA 87.0082 87 whole (34.68)
+    - [Moon] J Regulus → J Rahu RA 14.0116 14 whole (17.43)
+    - [Sun] J Sadalmelik → J Rahu RA 166.6342 166.667 ninth (97.21)
+  - Venus: Jupiter, Moon, Sun — also: 5 Stepney Causeway / Harry Skelton
+    - [Jupiter] J Alphard → J Venus Dec 33.0149 33 whole (6.62)
+    - [Jupiter] J Rigel → J Venus RA 35.0195 35 whole (0.07)
+    - [Moon] H Mirfak → H Venus Dec 54.9811 55 whole (0.30)
+    - [Moon] H Regulus → H Venus RA 161.8362 100×φ^1 phi power (92.05)
+    - [Sun] H Deneb Algedi → H Venus Dec 11.0088 11 whole (31.12)
+  - Mars: Jupiter, Moon — only
+    - [Jupiter] J Alphard → J Mars RA 61.0118 61 whole (16.63)
+    - [Jupiter] J Alphard → J Mars Dec 1.0173 1 whole (1.76)
+    - [Moon] H Mirfak → H Mars RA 141.9921 142 whole (36.77)
+  - Gonggong: Moon, Sun — also: 4 Nickolson / Jonjo O'Neill Jr
+    - [Moon] H Regulus → H Gonggong RA 176.3929 109×φ golden (2.58)
+    - [Moon] J Acubens → J Gonggong Dec 29.0379 φ^7 phi power (95.27)
+    - [Sun] J Sadalmelik → J Gonggong RA 1.0088 1 whole (31.34)
+    - [Sun] J Spica → J Gonggong Dec 6.0171 6 whole (2.12)
+  - Eris: Jupiter, Sun — only
+    - [Jupiter] J Alphard → J Eris RA 118.0139 118 whole (9.16)
+    - [Sun] H Sadalmelik → H Eris RA 53.9926 54 whole (39.63)
+  - Haumea: Moon, Sun — only
+    - [Moon] J Acubens → J Haumea Dec 9.9952 10 whole (57.75)
+    - [Moon] J Aculeus → J Haumea RA 70.0162 70 whole (3.59)
+    - [Moon] J Mirfak → J Haumea RA 144.0008 144 whole (92.43)
+    - [Moon] J Mirfak → J Haumea Dec 28.0063 28 whole (46.76)
+    - [Moon] J Regulus → J Haumea RA 42.9809 43 whole (0.20)
+    - [Sun] J Spica → J Haumea Dec 33.0160 33 whole (3.95)
+  - Pallas: Jupiter, Moon — also: 3 Nelson River / Harry Bannister
+    - [Jupiter] J Alphard → J Pallas Dec 6.9944 7 whole (51.71)
+    - [Moon] J Mirfak → J Pallas RA 0.2106 conj (73.89)
+
+## 3 Nelson River / Harry Bannister
+### L1 same bodies
+- S Jupiter → H Jupiter RA 155.6082 155.556 ninth (loose)
+- S Pluto → H Pluto RA 13.9840 14 whole (4.05)
+- S Juno → H Juno RA 177.7114 177.778 ninth (94.81)
+- S Gonggong → H Gonggong Dec 1.7775 1.77778 ninth (98.15)
+- S Venus → J Venus Dec 40.4533 25×φ golden (85.45)
+- S Mars → J Mars RA 110.5600 10×φ^5 phi power (loose)
+- S Saturn → J Saturn Dec 7.9878 8 whole (15.14)
+- S Juno → J Juno Dec 14.5657 9×φ golden (80.15)
+- S Vesta → J Vesta Dec 35.9705 36 whole (loose)
+- S Rahu → J Rahu RA 177.3359 177.778 ninth (loose)
+- S Quaoar → J Quaoar Dec 1.5578 1.55556 ninth (loose)
+- S Ketu → J Ketu RA 177.3359 177.778 ninth (loose)
+### L2 what lands on each same body
+- **H Jupiter** (same body: S Jupiter → H Jupiter RA 155.6082 155.556 ninth (loose))
+  - top rows: S Rahu → H Jupiter RA 84.1351 52×φ golden (84.01) [Jupiter]
+  - star rows: S Deneb Algedi → H Jupiter RA 171.5212 106×φ golden (49.58) [Sun]
+  - other chart, top rows: S Sun → J Jupiter Dec 0.2320 conj (5.13) [Jupiter, Sun]
+  - other chart, top rows: S Neptune → J Jupiter RA 138.9956 139 whole (60.94) [Jupiter]
+  - other chart, top rows: S Pallas → J Jupiter Dec 3.3332 3.33333 ninth (98.95) [Jupiter]
+  - other chart, top rows: S Sedna → J Jupiter RA 155.5073 155.556 ninth (95.43) [Jupiter]
+  - other chart, top rows: S Haumea → J Jupiter Dec 27.5023 17×φ golden (75.41) [Jupiter]
+  - other chart, top rows: S Orcus → J Jupiter Dec 0.0735 conj (56.98) [Jupiter, Sun]
+  - other chart, top rows: S Quaoar → J Jupiter RA 63.0006 63 whole (93.87) [Jupiter]
+  - other chart, top rows: S Gonggong → J Jupiter RA 122.9047 φ^10 phi power (73.67) [Jupiter]
+  - other chart, top rows: S Transpluto → J Jupiter Dec 22.6591 14×φ golden (63.26) [Jupiter]
+  - other chart, star rows: S Murzim → J Jupiter RA 118.1272 73×φ golden (44.73) [Sun]
+  - other chart, star rows: J Rigel → J Jupiter Dec 3.9907 4 whole (28.61) [Jupiter]
+- **H Pluto** (same body: S Pluto → H Pluto RA 13.9840 14 whole (4.05))
+  - other chart, star rows: J Alkes → J Pluto Dec 12.9833 13 whole (2.66) [Jupiter]
+  - other chart, star rows: J Rigel → J Pluto RA 158.5870 98×φ golden (15.47) [Jupiter]
+  - other chart, star rows: J Sadalmelik → J Pluto Dec 4.9976 5 whole (77.58) [Sun]
+- **H Juno** (same body: S Juno → H Juno RA 177.7114 177.778 ninth (94.81))
+  - other chart, same body: S Juno → J Juno Dec 14.5657 9×φ golden (80.15)
+  - other chart, star rows: J Alkes → J Juno RA 35.0063 35 whole (47.24) [Jupiter]
+  - other chart, star rows: J Mirfak → J Juno RA 148.8773 92×φ golden (19.31) [Moon]
+  - other chart, star rows: J Rigel → J Juno RA 121.3214 75×φ golden (0.14) [Jupiter]
+  - other chart, star rows: J Spica → J Juno RA 1.3511 conj (0.99) [Sun]
+- **H Gonggong** (same body: S Gonggong → H Gonggong Dec 1.7775 1.77778 ninth (98.15))
+  - star rows: H Spica → H Gonggong RA 134.0169 134 whole (2.36) [Sun]
+  - other chart, top rows: S Sun → J Gonggong RA 0.4481 conj (49.17) [Sun]
+  - other chart, star rows: J Acubens → J Gonggong RA 163.4191 101×φ golden (86.38) [Moon]
+  - other chart, star rows: J Alphard → J Gonggong Dec 9.9922 10 whole (37.44) [Jupiter]
+  - other chart, star rows: J Sadalmelik → J Gonggong RA 0.2481 conj (69.65) [Sun]
+- **J Venus** (same body: S Venus → J Venus Dec 40.4533 25×φ golden (85.45))
+  - other chart, star rows: H Alkes → H Venus RA 163.9927 164 whole (40.54) [Jupiter]
+- **J Mars** (same body: S Mars → J Mars RA 110.5600 10×φ^5 phi power (loose))
+  - star rows: J Alkes → J Mars Dec 32.9889 33 whole (19.90) [Jupiter]
+  - star rows: J Sadalmelik → J Mars RA 67.9857 68 whole (8.07) [Sun]
+  - star rows: J Sadalmelik → J Mars Dec 15.0080 15 whole (35.74) [Sun]
+  - star rows: J Spica → J Mars RA 161.8682 100×φ^1 phi power (84.63) [Sun]
+  - other chart, star rows: H Acubens → H Mars Dec 12.0138 12 whole (9.59) [Moon]
+  - other chart, star rows: H Aculeus → H Mars RA 96.0066 96 whole (44.58) [Moon]
+  - other chart, star rows: H Mirfak → H Mars RA 49.9924 50 whole (38.47) [Moon]
+  - other chart, star rows: H Regulus → H Mars RA 151.0101 151 whole (24.48) [Moon]
+  - other chart, star rows: H Sadalmelik → H Mars Dec 0.1640 conj (20.56) [Sun]
+  - other chart, star rows: H Spica → H Mars Dec 11.0047 11 whole (58.60) [Sun]
+- **J Saturn** (same body: S Saturn → J Saturn Dec 7.9878 8 whole (15.14))
+  - top rows: S Jupiter → J Saturn Dec 0.1184 conj (36.65) [Jupiter]
+  - star rows: J Alphard → J Saturn Dec 0.1325 conj (31.16) [Jupiter]
+  - star rows: J Menkent → J Saturn RA 132.6638 82×φ golden (28.95) [Jupiter]
+  - other chart, star rows: H Deneb Algedi → H Saturn RA 83.9934 84 whole (45.22) [Sun]
+- **J Juno** (same body: S Juno → J Juno Dec 14.5657 9×φ golden (80.15))
+  - star rows: J Alkes → J Juno RA 35.0063 35 whole (47.24) [Jupiter]
+  - star rows: J Mirfak → J Juno RA 148.8773 92×φ golden (19.31) [Moon]
+  - star rows: J Rigel → J Juno RA 121.3214 75×φ golden (0.14) [Jupiter]
+  - star rows: J Spica → J Juno RA 1.3511 conj (0.99) [Sun]
+  - other chart, same body: S Juno → H Juno RA 177.7114 177.778 ninth (94.81)
+- **J Vesta** (same body: S Vesta → J Vesta Dec 35.9705 36 whole (loose))
+  - star rows: J Menkent → J Vesta RA 156.9658 97×φ golden (23.97) [Jupiter]
+  - star rows: J Regulus → J Vesta Dec 3.0173 3 whole (1.85) [Moon]
+  - other chart, star rows: H Regulus → H Vesta RA 163.0046 163 whole (59.54) [Moon]
+  - other chart, star rows: H Regulus → H Vesta Dec 30.7469 19×φ golden (75.53) [Moon]
+- **J Rahu** (same body: S Rahu → J Rahu RA 177.3359 177.778 ninth (loose))
+  - top rows: S Jupiter → J Rahu RA 111.1910 111.111 ninth (86.93) [Jupiter]
+  - other chart, star rows: H Sadalmelik → H Rahu RA 142.0192 142 whole (0.14) [Sun]
+- **J Quaoar** (same body: S Quaoar → J Quaoar Dec 1.5578 1.55556 ninth (loose))
+- **J Ketu** (same body: S Ketu → J Ketu RA 177.3359 177.778 ninth (loose))
+  - star rows: J Aculeus → J Ketu Dec 50.9909 51 whole (29.86) [Moon]
+  - star rows: J Menkent → J Ketu RA 160.1981 99×φ golden (36.69) [Jupiter]
+  - star rows: J Mirfak → J Ketu RA 0.4052 conj (53.27) [Moon]
+  - other chart, star rows: H Alkes → H Ketu RA 155.5255 155.556 ninth (97.15) [Jupiter]
+  - other chart, star rows: H Alphecca → H Ketu Dec 22.6512 14×φ golden (92.16) [Jupiter]
+  - other chart, star rows: H Murzim → H Ketu Dec 22.0181 22 whole (0.88) [Sun]
+  - other chart, star rows: H Sadalmelik → H Ketu RA 37.9808 38 whole (0.14) [Sun]
+### L3 the seven cases (L5 field tag on each)
+- **1. same body on both charts**
+  - Juno — only
+    - S Juno → H Juno RA 177.7114 177.778 ninth (94.81)
+    - S Juno → J Juno Dec 14.5657 9×φ golden (80.15)
+- **2. one body in both planes**: none
+- **3. runner number = sky number**
+  - 177.778 ninth — also: 1 Fransham / Jack Andrews, 5 Stepney Causeway / Harry Skelton
+    - S Juno → H Juno RA 177.7114 177.778 ninth (94.81) = S Jupiter → Alkes RA 177.7232 177.778 ninth (95.73)
+  - 177.778 ninth — also: 1 Fransham / Jack Andrews, 5 Stepney Causeway / Harry Skelton
+    - S Rahu → J Rahu RA 177.3359 177.778 ninth (loose) = S Jupiter → Alkes RA 177.7232 177.778 ninth (95.73)
+  - 177.778 ninth — also: 1 Fransham / Jack Andrews, 5 Stepney Causeway / Harry Skelton
+    - S Ketu → J Ketu RA 177.3359 177.778 ninth (loose) = S Jupiter → Alkes RA 177.7232 177.778 ninth (95.73)
+  - 4 whole — also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
+    - J Alphecca → J Haumea Dec 4.0121 4 whole (15.58) = S Sun → Deneb Algedi RA 3.9950 4 whole (56.60)
+  - 4 whole — also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
+    - J Rigel → J Jupiter Dec 3.9907 4 whole (28.61) = S Sun → Deneb Algedi RA 3.9950 4 whole (56.60)
+- **4. circle divisions**
+  - 8 = 360/45 — also: 1 Fransham / Jack Andrews, 5 Stepney Causeway / Harry Skelton
+    - S Saturn → J Saturn Dec 7.9878 8 whole (15.14)
+  - 36 = 360/10 — also: 1 Fransham / Jack Andrews
+    - S Vesta → J Vesta Dec 35.9705 36 whole (loose)
+  - 5 = 360/72 — also: 5 Stepney Causeway / Harry Skelton
+    - J Sadalmelik → J Pluto Dec 4.9976 5 whole (77.58)
+- **5. same number in more than one place**
+  - 155.556 ninth — only
+    - S Jupiter → H Jupiter RA 155.6082 155.556 ninth (loose)
+    - H Alkes → H Ketu RA 155.5255 155.556 ninth (97.15)
+    - S Sedna → J Jupiter RA 155.5073 155.556 ninth (95.43)
+  - 177.778 ninth — only
+    - S Juno → H Juno RA 177.7114 177.778 ninth (94.81)
+    - S Rahu → J Rahu RA 177.3359 177.778 ninth (loose)
+    - S Ketu → J Ketu RA 177.3359 177.778 ninth (loose)
+  - 10×φ^6 phi power — only
+    - H Alkes → H Chiron RA 179.4180 10×φ^6 phi power (94.57)
+    - H Alphecca → H Sedna RA 179.4072 10×φ^6 phi power (92.24)
+  - 14×φ golden — only
+    - H Alphecca → H Ketu Dec 22.6512 14×φ golden (92.16)
+    - S Transpluto → J Jupiter Dec 22.6591 14×φ golden (63.26)
+  - 11 whole — also: 1 Fransham / Jack Andrews
+    - H Spica → H Mars Dec 11.0047 11 whole (58.60)
+    - J Acubens → J Sun Dec 10.9970 11 whole (72.67)
+- **6. star and sky line on one body**
+  - J Gonggong on Sadalmelik — also: 4 Nickolson / Jonjo O'Neill Jr
+    - J Sadalmelik → J Gonggong RA 0.2481 conj (69.65)
+    - S Sun → J Gonggong RA 0.4481 conj (49.17)
+- **7. centres meeting**
+  - Jupiter: Jupiter, Sun — only
+    - [Jupiter] S Rahu → H Jupiter RA 84.1351 52×φ golden (84.01)
+    - [Jupiter] S Sun → J Jupiter Dec 0.2320 conj (5.13)
+    - [Jupiter] S Neptune → J Jupiter RA 138.9956 139 whole (60.94)
+    - [Jupiter] S Pallas → J Jupiter Dec 3.3332 3.33333 ninth (98.95)
+    - [Jupiter] S Sedna → J Jupiter RA 155.5073 155.556 ninth (95.43)
+    - [Jupiter] S Haumea → J Jupiter Dec 27.5023 17×φ golden (75.41)
+    - [Jupiter] S Orcus → J Jupiter Dec 0.0735 conj (56.98)
+    - [Jupiter] S Quaoar → J Jupiter RA 63.0006 63 whole (93.87)
+    - [Jupiter] S Gonggong → J Jupiter RA 122.9047 φ^10 phi power (73.67)
+    - [Jupiter] S Transpluto → J Jupiter Dec 22.6591 14×φ golden (63.26)
+    - [Jupiter] J Rigel → J Jupiter Dec 3.9907 4 whole (28.61)
+    - [Sun] S Deneb Algedi → H Jupiter RA 171.5212 106×φ golden (49.58)
+    - [Sun] S Sun → J Jupiter Dec 0.2320 conj (5.13)
+    - [Sun] S Orcus → J Jupiter Dec 0.0735 conj (56.98)
+    - [Sun] S Murzim → J Jupiter RA 118.1272 73×φ golden (44.73)
+  - Mars: Jupiter, Moon, Sun — only
+    - [Jupiter] J Alkes → J Mars Dec 32.9889 33 whole (19.90)
+    - [Moon] H Acubens → H Mars Dec 12.0138 12 whole (9.59)
+    - [Moon] H Aculeus → H Mars RA 96.0066 96 whole (44.58)
+    - [Moon] H Mirfak → H Mars RA 49.9924 50 whole (38.47)
+    - [Moon] H Regulus → H Mars RA 151.0101 151 whole (24.48)
+    - [Sun] H Sadalmelik → H Mars Dec 0.1640 conj (20.56)
+    - [Sun] H Spica → H Mars Dec 11.0047 11 whole (58.60)
+    - [Sun] J Sadalmelik → J Mars RA 67.9857 68 whole (8.07)
+    - [Sun] J Sadalmelik → J Mars Dec 15.0080 15 whole (35.74)
+    - [Sun] J Spica → J Mars RA 161.8682 100×φ^1 phi power (84.63)
+  - Pallas: Jupiter, Moon — also: 1 Fransham / Jack Andrews
+    - [Jupiter] H Alphard → H Pallas RA 119.7092 74×φ golden (4.76)
+    - [Moon] H Acubens → H Pallas RA 126.9841 127 whole (4.27)
+    - [Moon] J Aculeus → J Pallas RA 125.0197 125 whole (0.03)
+    - [Moon] J Regulus → J Pallas RA 121.9823 122 whole (1.31)
+  - Eris: Jupiter, Moon, Sun — only
+    - [Jupiter] J Rigel → J Eris Dec 0.1479 conj (25.71)
+    - [Moon] H Acubens → H Eris Dec 14.9924 15 whole (38.56)
+    - [Moon] H Mirfak → H Eris Dec 53.0003 53 whole (96.68)
+    - [Sun] H Deneb Algedi → H Eris Dec 12.9939 13 whole (48.14)
+    - [Sun] J Spica → J Eris RA 177.9665 110×φ golden (21.72)
+  - Mercury: Jupiter, Sun — only
+    - [Jupiter] H Alkes → H Mercury Dec 0.0094 conj (93.85)
+    - [Jupiter] H Alphecca → H Mercury Dec 45.0192 45 whole (0.16)
+    - [Sun] H Sadalmelik → H Mercury Dec 17.9872 18 whole (12.88)
+  - Ketu: Jupiter, Moon, Sun — also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr
+    - [Jupiter] H Alkes → H Ketu RA 155.5255 155.556 ninth (97.15)
+    - [Jupiter] H Alphecca → H Ketu Dec 22.6512 14×φ golden (92.16)
+    - [Jupiter] J Menkent → J Ketu RA 160.1981 99×φ golden (36.69)
+    - [Moon] J Aculeus → J Ketu Dec 50.9909 51 whole (29.86)
+    - [Moon] J Mirfak → J Ketu RA 0.4052 conj (53.27)
+    - [Sun] H Murzim → H Ketu Dec 22.0181 22 whole (0.88)
+    - [Sun] H Sadalmelik → H Ketu RA 37.9808 38 whole (0.14)
+  - Sun: Jupiter, Moon, Sun — only
+    - [Jupiter] H Alphard → H Sun Dec 1.9909 2 whole (29.56)
+    - [Moon] J Acubens → J Sun Dec 10.9970 11 whole (72.67)
+    - [Moon] J Mirfak → J Sun Dec 27.0037 27 whole (66.33)
+    - [Sun] H Murzim → H Sun RA 121.3830 75×φ golden (0.35)
+    - [Sun] H Spica → H Sun RA 132.9938 133 whole (47.60)
+    - [Sun] J Deneb Algedi → J Sun Dec 38.9811 39 whole (0.32)
+    - [Sun] J Sadalmelik → J Sun RA 105.0153 105 whole (5.52)
+    - [Sun] J Spica → J Sun Dec 34.0179 34 whole (1.09)
+  - Orcus: Jupiter, Moon — only
+    - [Jupiter] H Alphard → H Orcus Dec 0.1562 conj (22.97)
+    - [Moon] H Regulus → H Orcus RA 1.4904 conj (0.00)
+  - Sedna: Jupiter, Moon, Sun — also: 5 Stepney Causeway / Harry Skelton
+    - [Jupiter] H Alphecca → H Sedna RA 179.4072 10×φ^6 phi power (92.24)
+    - [Moon] J Aculeus → J Sedna Dec 37.0183 37 whole (0.70)
+    - [Sun] J Spica → J Sedna RA 156.9280 97×φ golden (11.62)
+  - Saturn: Jupiter, Sun — only
+    - [Jupiter] S Jupiter → J Saturn Dec 0.1184 conj (36.65)
+    - [Jupiter] J Alphard → J Saturn Dec 0.1325 conj (31.16)
+    - [Jupiter] J Menkent → J Saturn RA 132.6638 82×φ golden (28.95)
+    - [Sun] H Deneb Algedi → H Saturn RA 83.9934 84 whole (45.22)
+  - Haumea: Jupiter, Sun — also: 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
+    - [Jupiter] H Menkent → H Haumea RA 0.5135 conj (43.25)
+    - [Jupiter] J Alkes → J Haumea Dec 41.0045 41 whole (59.98)
+    - [Jupiter] J Alphecca → J Haumea Dec 4.0121 4 whole (15.58)
+    - [Sun] H Sadalmelik → H Haumea Dec 17.7709 17.7778 ninth (94.63)
+  - Makemake: Jupiter, Moon — only
+    - [Jupiter] J Menkent → J Makemake Dec 71.0070 71 whole (42.07)
+    - [Moon] H Mirfak → H Makemake RA 142.3820 88×φ golden (71.39)
+    - [Moon] H Regulus → H Makemake Dec 13.9902 14 whole (25.92)
+  - Vesta: Jupiter, Moon — also: 1 Fransham / Jack Andrews
+    - [Jupiter] J Menkent → J Vesta RA 156.9658 97×φ golden (23.97)
+    - [Moon] H Regulus → H Vesta RA 163.0046 163 whole (59.54)
+    - [Moon] H Regulus → H Vesta Dec 30.7469 19×φ golden (75.53)
+    - [Moon] J Regulus → J Vesta Dec 3.0173 3 whole (1.85)
+  - Transpluto: Moon, Sun — only
+    - [Moon] H Regulus → H Transpluto RA 0.4135 conj (52.47)
+    - [Moon] S Moon → J Transpluto RA 17.9437 φ^6 phi power (98.68)
+    - [Sun] S Sun → J Transpluto Dec 25.8817 16×φ golden (62.09)
+  - Rahu: Jupiter, Sun — only
+    - [Jupiter] S Jupiter → J Rahu RA 111.1910 111.111 ninth (86.93)
+    - [Sun] H Sadalmelik → H Rahu RA 142.0192 142 whole (0.14)
+  - Gonggong: Jupiter, Moon, Sun — only
+    - [Jupiter] J Alphard → J Gonggong Dec 9.9922 10 whole (37.44)
+    - [Moon] J Acubens → J Gonggong RA 163.4191 101×φ golden (86.38)
+    - [Sun] H Spica → H Gonggong RA 134.0169 134 whole (2.36)
+    - [Sun] S Sun → J Gonggong RA 0.4481 conj (49.17)
+    - [Sun] J Sadalmelik → J Gonggong RA 0.2481 conj (69.65)
+  - Pluto: Jupiter, Sun — only
+    - [Jupiter] J Alkes → J Pluto Dec 12.9833 13 whole (2.66)
+    - [Jupiter] J Rigel → J Pluto RA 158.5870 98×φ golden (15.47)
+    - [Sun] J Sadalmelik → J Pluto Dec 4.9976 5 whole (77.58)
+  - Juno: Jupiter, Moon, Sun — also: 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton
+    - [Jupiter] J Alkes → J Juno RA 35.0063 35 whole (47.24)
+    - [Jupiter] J Rigel → J Juno RA 121.3214 75×φ golden (0.14)
+    - [Moon] J Mirfak → J Juno RA 148.8773 92×φ golden (19.31)
+    - [Sun] J Spica → J Juno RA 1.3511 conj (0.99)
+
+## 4 Nickolson / Jonjo O'Neill Jr
+### L1 same bodies
+- S Mars → H Mars RA 99.8725 100 ninth (loose)
+- S Pluto → H Pluto RA 15.5188 15.5556 ninth (loose)
+- S Ceres → H Ceres RA 143.9813 144 whole (0.40)
+- S Rahu → H Rahu RA 151.9716 152 whole (loose)
+- S Haumea → H Haumea Dec 3.0278 3 whole (loose)
+- S Gonggong → H Gonggong Dec 1.7680 1.77778 ninth (loose)
+- S Ketu → H Ketu RA 151.9716 152 whole (loose)
+- S Sun → J Sun RA 22.0133 22 whole (11.25)
+- S Mars → J Mars RA 44.4438 44.4444 ninth (99.36)
+- S Jupiter → J Jupiter RA 12.2596 12.2222 ninth (loose)
+- S Neptune → J Neptune Dec 15.4873 15.5556 ninth (loose)
+- S Haumea → J Haumea Dec 5.9835 6 whole (2.99)
+### L2 what lands on each same body
+- **H Mars** (same body: S Mars → H Mars RA 99.8725 100 ninth (loose))
+  - other chart, same body: S Mars → J Mars RA 44.4438 44.4444 ninth (99.36)
+  - other chart, top rows: S Sun → J Mars Dec 0.1424 conj (27.58) [Sun]
+  - other chart, star rows: J Spica → J Mars RA 132.0176 132 whole (1.43) [Sun]
+- **H Pluto** (same body: S Pluto → H Pluto RA 15.5188 15.5556 ninth (loose))
+  - star rows: H Acubens → H Pluto Dec 31.9908 32 whole (29.14) [Moon]
+  - star rows: H Deneb Algedi → H Pluto Dec 4.0052 4 whole (55.01) [Sun]
+  - star rows: H Mirfak → H Pluto RA 127.0049 127 whole (56.69) [Moon]
+  - star rows: H Mirfak → H Pluto Dec 69.9936 70 whole (46.10) [Moon]
+  - other chart, top rows: S Sun → J Pluto Dec 2.2221 2.22222 ninth (98.89) [Sun]
+- **H Ceres** (same body: S Ceres → H Ceres RA 143.9813 144 whole (0.40))
+  - star rows: H Alkes → H Ceres RA 37.9973 38 whole (75.09) [Jupiter]
+  - other chart, star rows: J Alkes → J Ceres Dec 6.9941 7 whole (49.91) [Jupiter]
+  - other chart, star rows: J Alphecca → J Ceres Dec 38.0160 38 whole (3.94) [Jupiter]
+  - other chart, star rows: J Sadalmelik → J Ceres Dec 10.9836 11 whole (3.31) [Sun]
+  - other chart, star rows: J Spica → J Ceres Dec 0.1433 conj (27.29) [Sun]
+- **H Rahu** (same body: S Rahu → H Rahu RA 151.9716 152 whole (loose))
+  - other chart, top rows: S Sun → J Rahu Dec 19.4110 12×φ golden (69.35) [Sun]
+  - other chart, top rows: S Moon → J Rahu RA 0.6341 conj (33.32) [Moon]
+  - other chart, star rows: J Sadalmelik → J Rahu RA 168.9958 169 whole (62.38) [Sun]
+- **H Haumea** (same body: S Haumea → H Haumea Dec 3.0278 3 whole (loose))
+  - star rows: H Alphard → H Haumea Dec 26.9980 27 whole (80.77) [Jupiter]
+  - other chart, same body: S Haumea → J Haumea Dec 5.9835 6 whole (2.99)
+  - other chart, star rows: J Deneb Algedi → J Haumea RA 131.0129 131 whole (12.42) [Sun]
+- **H Gonggong** (same body: S Gonggong → H Gonggong Dec 1.7680 1.77778 ninth (loose))
+  - other chart, top rows: S Sun → J Gonggong RA 0.4314 conj (50.75) [Sun]
+  - other chart, star rows: J Acubens → J Gonggong RA 163.4446 101×φ golden (8.04) [Moon]
+  - other chart, star rows: J Murzim → J Gonggong Dec 0.1322 conj (31.29) [Sun]
+  - other chart, star rows: J Sadalmelik → J Gonggong RA 0.2583 conj (68.52) [Sun]
+- **H Ketu** (same body: S Ketu → H Ketu RA 151.9716 152 whole (loose))
+  - star rows: H Rigel → H Ketu Dec 19.0063 19 whole (47.11) [Jupiter]
+  - other chart, top rows: S Jupiter → J Ketu RA 0.2239 conj (72.37) [Jupiter]
+  - other chart, star rows: J Murzim → J Ketu RA 113.2349 70×φ golden (2.24) [Sun]
+  - other chart, star rows: J Regulus → J Ketu Dec 19.4155 12×φ golden (94.57) [Moon]
+  - other chart, star rows: J Sadalmelik → J Ketu RA 11.0042 11 whole (62.38) [Sun]
+- **J Sun** (same body: S Sun → J Sun RA 22.0133 22 whole (11.25))
+  - star rows: J Deneb Algedi → J Sun RA 18.0167 18 whole (2.71) [Sun]
+  - other chart, star rows: H Acubens → H Sun Dec 6.0096 6 whole (27.01) [Moon]
+  - other chart, star rows: H Deneb Algedi → H Sun Dec 33.9952 34 whole (58.02) [Sun]
+  - other chart, star rows: H Mirfak → H Sun Dec 31.9932 32 whole (43.42) [Moon]
+  - other chart, star rows: H Spica → H Sun Dec 29.0303 φ^7 phi power (94.33) [Sun]
+- **J Mars** (same body: S Mars → J Mars RA 44.4438 44.4444 ninth (99.36))
+  - top rows: S Sun → J Mars Dec 0.1424 conj (27.58) [Sun]
+  - star rows: J Spica → J Mars RA 132.0176 132 whole (1.43) [Sun]
+  - other chart, same body: S Mars → H Mars RA 99.8725 100 ninth (loose)
+- **J Jupiter** (same body: S Jupiter → J Jupiter RA 12.2596 12.2222 ninth (loose))
+  - top rows: S Sun → J Jupiter RA 0.3417 conj (59.63) [Jupiter, Sun]
+  - top rows: S Mars → J Jupiter Dec 9.9953 10 whole (58.44) [Jupiter]
+  - top rows: S Rahu → J Jupiter Dec 32.3659 20×φ golden (70.15) [Jupiter]
+  - star rows: S Sadalmelik → J Jupiter RA 1.0311 conj (9.77) [Sun]
+  - other chart, top rows: S Pluto → H Jupiter RA 168.2681 104×φ golden (59.55) [Jupiter]
+  - other chart, top rows: S Makemake → H Jupiter Dec 0.1859 conj (14.46) [Jupiter]
+  - other chart, top rows: S Transpluto → H Jupiter RA 46.9212 29×φ golden (89.44) [Jupiter]
+  - other chart, star rows: H Aculeus → H Jupiter Dec 54.9897 55 whole (23.58) [Moon]
+- **J Neptune** (same body: S Neptune → J Neptune Dec 15.4873 15.5556 ninth (loose))
+- **J Haumea** (same body: S Haumea → J Haumea Dec 5.9835 6 whole (2.99))
+  - star rows: J Deneb Algedi → J Haumea RA 131.0129 131 whole (12.42) [Sun]
+  - other chart, same body: S Haumea → H Haumea Dec 3.0278 3 whole (loose)
+  - other chart, star rows: H Alphard → H Haumea Dec 26.9980 27 whole (80.77) [Jupiter]
+### L3 the seven cases (L5 field tag on each)
+- **1. same body on both charts**
+  - Mars — only
+    - S Mars → H Mars RA 99.8725 100 ninth (loose)
+    - S Mars → J Mars RA 44.4438 44.4444 ninth (99.36)
+  - Haumea — also: 5 Stepney Causeway / Harry Skelton
+    - S Haumea → H Haumea Dec 3.0278 3 whole (loose)
+    - S Haumea → J Haumea Dec 5.9835 6 whole (2.99)
+- **2. one body in both planes**: none
+- **3. runner number = sky number**
+  - 6 whole — also: 1 Fransham / Jack Andrews, 5 Stepney Causeway / Harry Skelton
+    - H Acubens → H Sun Dec 6.0096 6 whole (27.01) = S Sun → Murzim Dec 5.9982 6 whole (83.01)
+  - 109 whole — only
+    - H Acubens → H Eris RA 109.0150 109 whole (6.26) = S Jupiter → Alphecca RA 108.9962 109 whole (65.79)
+  - 4 whole — also: 1 Fransham / Jack Andrews, 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton
+    - H Deneb Algedi → H Pluto Dec 4.0052 4 whole (55.01) = S Sun → Deneb Algedi RA 3.9950 4 whole (56.60)
+  - 6 whole — also: 1 Fransham / Jack Andrews, 5 Stepney Causeway / Harry Skelton
+    - S Haumea → J Haumea Dec 5.9835 6 whole (2.99) = S Sun → Murzim Dec 5.9982 6 whole (83.01)
+  - 10×φ^2 phi power — only
+    - J Aculeus → J Venus RA 26.1810 10×φ^2 phi power (99.02) = S Sun → Mercury RA 26.1839 10×φ^2 phi power (94.68)
+  - 131 whole — only
+    - J Deneb Algedi → J Haumea RA 131.0129 131 whole (12.42) = S Jupiter → Menkent RA 130.9998 131 whole (98.49)
+- **4. circle divisions**
+  - 3 = 360/120 — also: 1 Fransham / Jack Andrews, 5 Stepney Causeway / Harry Skelton
+    - S Haumea → H Haumea Dec 3.0278 3 whole (loose)
+  - 4 = 360/90 — also: 5 Stepney Causeway / Harry Skelton
+    - H Deneb Algedi → H Pluto Dec 4.0052 4 whole (55.01)
+  - 45 = 360/8 — only
+    - H Menkent → H Juno Dec 45.0028 45 whole (74.24)
+  - 15 = 360/24 — only
+    - H Regulus → H Eris Dec 15.0039 15 whole (64.65)
+  - 6 = 360/60 — also: 1 Fransham / Jack Andrews, 5 Stepney Causeway / Harry Skelton
+    - S Haumea → J Haumea Dec 5.9835 6 whole (2.99)
+  - 10 = 360/36 — also: 1 Fransham / Jack Andrews
+    - J Jupiter → J Mercury Dec 10.0007 10 whole (93.41)
+  - 10 = 360/36 — also: 1 Fransham / Jack Andrews
+    - S Mars → J Jupiter Dec 9.9953 10 whole (58.44)
+  - 15 = 360/24 — only
+    - J Acubens → J Juno Dec 14.9978 15 whole (78.98)
+- **5. same number in more than one place**
+  - 15.5556 ninth — only
+    - S Pluto → H Pluto RA 15.5188 15.5556 ninth (loose)
+    - S Neptune → J Neptune Dec 15.4873 15.5556 ninth (loose)
+  - 152 whole — only
+    - S Rahu → H Rahu RA 151.9716 152 whole (loose)
+    - S Ketu → H Ketu RA 151.9716 152 whole (loose)
+  - 15 whole — only
+    - H Regulus → H Eris Dec 15.0039 15 whole (64.65)
+    - J Acubens → J Juno Dec 14.9978 15 whole (78.98)
+  - 10 whole — also: 1 Fransham / Jack Andrews
+    - J Jupiter → J Mercury Dec 10.0007 10 whole (93.41)
+    - S Mars → J Jupiter Dec 9.9953 10 whole (58.44)
+  - 12×φ golden — only
+    - S Sun → J Rahu Dec 19.4110 12×φ golden (69.35)
+    - J Regulus → J Ketu Dec 19.4155 12×φ golden (94.57)
+- **6. star and sky line on one body**
+  - H Transpluto on Regulus — also: 1 Fransham / Jack Andrews
+    - H Regulus → H Transpluto RA 0.3873 conj (55.02)
+    - S Moon → H Transpluto Dec 0.1101 conj (40.09)
+  - J Gonggong on Sadalmelik — also: 3 Nelson River / Harry Bannister
+    - J Sadalmelik → J Gonggong RA 0.2583 conj (68.52)
+    - S Sun → J Gonggong RA 0.4314 conj (50.75)
+- **7. centres meeting**
+  - Transpluto: Jupiter, Moon, Sun — also: 1 Fransham / Jack Andrews, 5 Stepney Causeway / Harry Skelton
+    - [Jupiter] H Menkent → H Transpluto Dec 47.9876 48 whole (14.40)
+    - [Moon] S Moon → H Transpluto Dec 0.1101 conj (40.09)
+    - [Moon] H Acubens → H Transpluto Dec 0.2440 conj (3.49)
+    - [Moon] H Regulus → H Transpluto RA 0.3873 conj (55.02)
+    - [Sun] S Sun → J Transpluto RA 176.3685 109×φ golden (83.72)
+  - Jupiter: Jupiter, Moon, Sun — also: 1 Fransham / Jack Andrews, 5 Stepney Causeway / Harry Skelton
+    - [Jupiter] S Pluto → H Jupiter RA 168.2681 104×φ golden (59.55)
+    - [Jupiter] S Makemake → H Jupiter Dec 0.1859 conj (14.46)
+    - [Jupiter] S Transpluto → H Jupiter RA 46.9212 29×φ golden (89.44)
+    - [Jupiter] S Sun → J Jupiter RA 0.3417 conj (59.63)
+    - [Jupiter] S Mars → J Jupiter Dec 9.9953 10 whole (58.44)
+    - [Jupiter] S Rahu → J Jupiter Dec 32.3659 20×φ golden (70.15)
+    - [Moon] H Aculeus → H Jupiter Dec 54.9897 55 whole (23.58)
+    - [Sun] S Sun → J Jupiter RA 0.3417 conj (59.63)
+    - [Sun] S Sadalmelik → J Jupiter RA 1.0311 conj (9.77)
+  - Sun: Moon, Sun — only
+    - [Moon] H Acubens → H Sun Dec 6.0096 6 whole (27.01)
+    - [Moon] H Mirfak → H Sun Dec 31.9932 32 whole (43.42)
+    - [Sun] H Deneb Algedi → H Sun Dec 33.9952 34 whole (58.02)
+    - [Sun] H Spica → H Sun Dec 29.0303 φ^7 phi power (94.33)
+    - [Sun] J Deneb Algedi → J Sun RA 18.0167 18 whole (2.71)
+  - Pluto: Moon, Sun — only
+    - [Moon] H Acubens → H Pluto Dec 31.9908 32 whole (29.14)
+    - [Moon] H Mirfak → H Pluto RA 127.0049 127 whole (56.69)
+    - [Moon] H Mirfak → H Pluto Dec 69.9936 70 whole (46.10)
+    - [Sun] H Deneb Algedi → H Pluto Dec 4.0052 4 whole (55.01)
+    - [Sun] S Sun → J Pluto Dec 2.2221 2.22222 ninth (98.89)
+  - Eris: Jupiter, Moon — also: 5 Stepney Causeway / Harry Skelton
+    - [Jupiter] H Menkent → H Eris Dec 33.3373 33.3333 ninth (95.22)
+    - [Moon] H Acubens → H Eris RA 109.0150 109 whole (6.26)
+    - [Moon] H Regulus → H Eris Dec 15.0039 15 whole (64.65)
+  - Uranus: Jupiter, Moon, Sun — also: 1 Fransham / Jack Andrews, 5 Stepney Causeway / Harry Skelton
+    - [Jupiter] H Menkent → H Uranus RA 161.8261 100×φ^1 phi power (94.47)
+    - [Moon] H Aculeus → H Uranus RA 108.4117 67×φ golden (79.92)
+    - [Sun] J Murzim → J Uranus RA 144.4930 144.444 ninth (94.86)
+  - Ceres: Jupiter, Sun — only
+    - [Jupiter] H Alkes → H Ceres RA 37.9973 38 whole (75.09)
+    - [Jupiter] J Alkes → J Ceres Dec 6.9941 7 whole (49.91)
+    - [Jupiter] J Alphecca → J Ceres Dec 38.0160 38 whole (3.94)
+    - [Sun] J Sadalmelik → J Ceres Dec 10.9836 11 whole (3.31)
+    - [Sun] J Spica → J Ceres Dec 0.1433 conj (27.29)
+  - Juno: Jupiter, Moon, Sun — also: 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton
+    - [Jupiter] H Alphard → H Juno RA 103.9991 104 whole (91.21)
+    - [Jupiter] H Menkent → H Juno Dec 45.0028 45 whole (74.24)
+    - [Moon] J Acubens → J Juno Dec 14.9978 15 whole (78.98)
+    - [Moon] J Mirfak → J Juno Dec 53.0060 53 whole (49.15)
+    - [Sun] H Spica → H Juno RA 163.4051 101×φ golden (24.66)
+    - [Sun] J Deneb Algedi → J Juno Dec 12.9874 13 whole (13.83)
+    - [Sun] J Spica → J Juno Dec 8.0200 8 whole (0.00)
+  - Haumea: Jupiter, Sun — also: 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton
+    - [Jupiter] H Alphard → H Haumea Dec 26.9980 27 whole (80.77)
+    - [Sun] J Deneb Algedi → J Haumea RA 131.0129 131 whole (12.42)
+  - Orcus: Jupiter, Sun — only
+    - [Jupiter] H Alphard → H Orcus RA 6.9833 7 whole (2.67)
+    - [Sun] J Sadalmelik → J Orcus RA 165.0399 102×φ golden (97.24)
+    - [Sun] J Sadalmelik → J Orcus Dec 0.2322 conj (5.10)
+  - Makemake: Jupiter, Moon, Sun — also: 1 Fransham / Jack Andrews
+    - [Jupiter] H Alphecca → H Makemake Dec 0.1064 conj (41.64)
+    - [Moon] J Regulus → J Makemake Dec 21.0152 21 whole (5.86)
+    - [Sun] H Spica → H Makemake Dec 37.9828 38 whole (1.98)
+  - Pallas: Jupiter, Moon, Sun — also: 5 Stepney Causeway / Harry Skelton
+    - [Jupiter] J Alkes → J Pallas RA 152.0695 94×φ golden (4.25)
+    - [Moon] H Regulus → H Pallas RA 0.9628 conj (12.83)
+    - [Sun] H Deneb Algedi → H Pallas Dec 29.1272 18×φ golden (84.52)
+  - Ketu: Jupiter, Moon, Sun — also: 1 Fransham / Jack Andrews, 3 Nelson River / Harry Bannister
+    - [Jupiter] H Rigel → H Ketu Dec 19.0063 19 whole (47.11)
+    - [Jupiter] S Jupiter → J Ketu RA 0.2239 conj (72.37)
+    - [Moon] J Regulus → J Ketu Dec 19.4155 12×φ golden (94.57)
+    - [Sun] J Murzim → J Ketu RA 113.2349 70×φ golden (2.24)
+    - [Sun] J Sadalmelik → J Ketu RA 11.0042 11 whole (62.38)
+  - Chiron: Jupiter, Moon, Sun — also: 1 Fransham / Jack Andrews
+    - [Jupiter] J Rigel → J Chiron RA 146.9932 147 whole (43.61)
+    - [Moon] J Acubens → J Chiron RA 91.0043 91 whole (61.43)
+    - [Sun] H Sadalmelik → H Chiron RA 14.5680 9×φ golden (67.98)
+  - Venus: Moon, Sun — only
+    - [Moon] J Aculeus → J Venus RA 26.1810 10×φ^2 phi power (99.02)
+    - [Moon] J Regulus → J Venus RA 139.1611 86×φ golden (47.19)
+    - [Sun] H Spica → H Venus RA 167.9918 168 whole (34.66)
+  - Rahu: Moon, Sun — only
+    - [Moon] S Moon → J Rahu RA 0.6341 conj (33.32)
+    - [Sun] S Sun → J Rahu Dec 19.4110 12×φ golden (69.35)
+    - [Sun] J Sadalmelik → J Rahu RA 168.9958 169 whole (62.38)
+  - Gonggong: Moon, Sun — also: 1 Fransham / Jack Andrews
+    - [Moon] J Acubens → J Gonggong RA 163.4446 101×φ golden (8.04)
+    - [Sun] S Sun → J Gonggong RA 0.4314 conj (50.75)
+    - [Sun] J Murzim → J Gonggong Dec 0.1322 conj (31.29)
+    - [Sun] J Sadalmelik → J Gonggong RA 0.2583 conj (68.52)
+
+## 5 Stepney Causeway / Harry Skelton
+### L1 same bodies
+- S Sun → H Sun RA 29.9995 30 whole (95.24)
+- S Sun → H Sun Dec 12.2841 12.2222 ninth (loose)
+- S Mercury → H Mercury RA 68.5691 10×φ^4 phi power (loose)
+- S Venus → H Venus Dec 27.5346 17×φ golden (loose)
+- S Jupiter → H Jupiter Dec 1.9789 2 whole (loose)
+- S Ceres → H Ceres RA 16.0155 16 whole (4.99)
+- S Vesta → H Vesta RA 177.6063 177.778 ninth (loose)
+- S Rahu → H Rahu Dec 8.8826 8.88889 ninth (loose)
+- S Haumea → H Haumea RA 4.8498 3×φ golden (loose)
+- S Gonggong → H Gonggong RA 0.6668 0.666667 ninth (loose)
+- S Ketu → H Ketu Dec 8.8826 8.88889 ninth (loose)
+- S Mercury → J Mercury RA 119.9840 120 whole (3.94)
+- S Neptune → J Neptune Dec 17.8585 φ^6 phi power (loose)
+- S Pluto → J Pluto RA 74.0240 74 whole (loose)
+- S Ceres → J Ceres RA 31.0060 31 whole (48.72)
+- S Pallas → J Pallas Dec 0.9876 1 whole (14.35)
+- S Juno → J Juno Dec 10.9995 11 whole (94.77)
+- S Vesta → J Vesta Dec 4.9940 5 whole (49.10)
+- S Rahu → J Rahu Dec 32.3729 20×φ golden (loose)
+- S Eris → J Eris RA 3.3329 3.33333 ninth (loose)
+- S Sedna → J Sedna RA 16.0230 16 whole (loose)
+- S Haumea → J Haumea RA 30.7695 19×φ golden (loose)
+- S Orcus → J Orcus Dec 16.1655 10×φ^1 phi power (loose)
+- S Quaoar → J Quaoar RA 44.4563 44.4444 ninth (loose)
+- S Gonggong → J Gonggong RA 7.7743 7.77778 ninth (loose)
+- S Ketu → J Ketu Dec 32.3729 20×φ golden (loose)
+### L2 what lands on each same body
+- **H Sun** (same body: S Sun → H Sun RA 29.9995 30 whole (95.24); S Sun → H Sun Dec 12.2841 12.2222 ninth (loose))
+  - top rows: S Sun → H Sun RA 29.9995 30 whole (95.24) [Sun]
+  - star rows: H Alphard → H Sun Dec 8.9844 9 whole (4.86) [Jupiter]
+  - star rows: H Deneb Algedi → H Sun RA 33.9938 34 whole (47.84) [Sun]
+  - other chart, star rows: J Murzim → J Sun Dec 18.8882 18.8889 ninth (99.49) [Sun]
+- **H Mercury** (same body: S Mercury → H Mercury RA 68.5691 10×φ^4 phi power (loose))
+  - body line: S Sun → Mercury RA 26.1839 10×φ^2 phi power (94.68)
+  - body line: S Moon → Mercury RA 141.4881 141.4 sqrt2 (82.02)
+  - star rows: H Mirfak → H Mercury Dec 43.6855 27×φ golden (91.16) [Moon]
+  - other chart, same body: S Mercury → J Mercury RA 119.9840 120 whole (3.94)
+  - other chart, star rows: J Regulus → J Mercury Dec 18.0130 18 whole (12.15) [Moon]
+- **H Venus** (same body: S Venus → H Venus Dec 27.5346 17×φ golden (loose))
+  - star rows: H Menkent → H Venus Dec 46.9882 47 whole (16.85) [Jupiter]
+  - star rows: H Spica → H Venus RA 161.8647 100×φ^1 phi power (85.41) [Sun]
+  - other chart, star rows: J Acubens → J Venus RA 82.0079 82 whole (36.33) [Moon]
+  - other chart, star rows: J Rigel → J Venus RA 137.9904 138 whole (27.24) [Jupiter]
+- **H Jupiter** (same body: S Jupiter → H Jupiter Dec 1.9789 2 whole (loose))
+  - top rows: S Makemake → H Jupiter RA 0.0444 conj (94.17) [Jupiter]
+  - top rows: S Transpluto → H Jupiter RA 44.4449 44.4444 ninth (99.50) [Jupiter]
+  - star rows: H Murzim → H Jupiter RA 103.5451 64×φ golden (51.95) [Sun]
+  - other chart, top rows: S Haumea → J Jupiter RA 118.1076 73×φ golden (52.56) [Jupiter]
+  - other chart, star rows: J Acubens → J Jupiter Dec 11.0099 11 whole (25.38) [Moon]
+  - other chart, star rows: S Deneb Algedi → J Jupiter RA 132.6790 82×φ golden (98.76) [Sun]
+  - other chart, star rows: S Deneb Algedi → J Jupiter Dec 39.0002 39 whole (97.85) [Sun]
+  - other chart, star rows: S Mirfak → J Jupiter Dec 26.9947 27 whole (53.89) [Moon]
+  - other chart, star rows: S Sadalmelik → J Jupiter RA 127.9945 128 whole (52.46) [Sun]
+- **H Ceres** (same body: S Ceres → H Ceres RA 16.0155 16 whole (4.99))
+  - star rows: H Alkes → H Ceres RA 122.0022 122 whole (79.39) [Jupiter]
+  - other chart, same body: S Ceres → J Ceres RA 31.0060 31 whole (48.72)
+- **H Vesta** (same body: S Vesta → H Vesta RA 177.6063 177.778 ninth (loose))
+  - other chart, same body: S Vesta → J Vesta Dec 4.9940 5 whole (49.10)
+- **H Rahu** (same body: S Rahu → H Rahu Dec 8.8826 8.88889 ninth (loose))
+  - top rows: S Jupiter → H Rahu Dec 18.8844 18.8889 ninth (96.77) [Jupiter]
+  - top rows: S Sun → H Rahu RA 175.9972 176 whole (73.58) [Sun]
+  - star rows: H Deneb Algedi → H Rahu RA 172.0028 172 whole (73.61) [Sun]
+  - other chart, same body: S Rahu → J Rahu Dec 32.3729 20×φ golden (loose)
+  - other chart, star rows: J Deneb Algedi → J Rahu RA 1.0206 conj (10.21) [Sun]
+  - other chart, star rows: J Regulus → J Rahu Dec 24.9838 25 whole (3.60) [Moon]
+- **H Haumea** (same body: S Haumea → H Haumea RA 4.8498 3×φ golden (loose))
+  - top rows: S Sun → H Haumea Dec 29.1273 18×φ golden (84.12) [Sun]
+  - star rows: H Alphecca → H Haumea RA 20.9830 21 whole (2.25) [Jupiter]
+  - star rows: H Menkent → H Haumea RA 1.0200 conj (10.24) [Jupiter]
+  - star rows: H Murzim → H Haumea RA 117.0176 117 whole (1.48) [Sun]
+  - other chart, same body: S Haumea → J Haumea RA 30.7695 19×φ golden (loose)
+  - other chart, star rows: J Deneb Algedi → J Haumea RA 139.9906 140 whole (28.28) [Sun]
+- **H Gonggong** (same body: S Gonggong → H Gonggong RA 0.6668 0.666667 ninth (loose))
+  - T1: H Jupiter → H Gonggong Dec 5.9966 6 whole (68.84) [Jupiter]
+  - top rows: S Moon → H Gonggong Dec 24.1500 24.14 silver (87.40) [Moon]
+  - star rows: H Acubens → H Gonggong RA 158.5820 98×φ golden (29.78) [Moon]
+  - other chart, same body: S Gonggong → J Gonggong RA 7.7743 7.77778 ninth (loose)
+  - other chart, star rows: J Alkes → J Gonggong RA 163.9965 164 whole (67.89) [Jupiter]
+- **H Ketu** (same body: S Ketu → H Ketu Dec 8.8826 8.88889 ninth (loose))
+  - top rows: S Sun → H Ketu RA 4.0028 4 whole (73.58) [Sun]
+  - star rows: H Deneb Algedi → H Ketu RA 7.9972 8 whole (73.61) [Sun]
+  - other chart, same body: S Ketu → J Ketu Dec 32.3729 20×φ golden (loose)
+  - other chart, star rows: J Sadalmelik → J Ketu RA 176.3341 109×φ golden (0.05) [Sun]
+  - other chart, star rows: J Sadalmelik → J Ketu Dec 13.3324 13.3333 ninth (98.94) [Sun]
+- **J Mercury** (same body: S Mercury → J Mercury RA 119.9840 120 whole (3.94))
+  - body line: S Sun → Mercury RA 26.1839 10×φ^2 phi power (94.68)
+  - body line: S Moon → Mercury RA 141.4881 141.4 sqrt2 (82.02)
+  - star rows: J Regulus → J Mercury Dec 18.0130 18 whole (12.15) [Moon]
+  - other chart, same body: S Mercury → H Mercury RA 68.5691 10×φ^4 phi power (loose)
+  - other chart, star rows: H Mirfak → H Mercury Dec 43.6855 27×φ golden (91.16) [Moon]
+- **J Neptune** (same body: S Neptune → J Neptune Dec 17.8585 φ^6 phi power (loose))
+  - star rows: J Rigel → J Neptune Dec 13.9880 14 whole (15.94) [Jupiter]
+  - other chart, top rows: S Jupiter → H Neptune RA 1.2417 conj (2.97) [Jupiter]
+  - other chart, star rows: H Alphard → H Neptune RA 157.9901 158 whole (25.28) [Jupiter]
+- **J Pluto** (same body: S Pluto → J Pluto RA 74.0240 74 whole (loose))
+  - star rows: J Aculeus → J Pluto Dec 31.0125 31 whole (13.94) [Moon]
+  - other chart, star rows: H Rigel → H Pluto Dec 12.9936 13 whole (45.90) [Jupiter]
+- **J Ceres** (same body: S Ceres → J Ceres RA 31.0060 31 whole (48.72))
+  - other chart, same body: S Ceres → H Ceres RA 16.0155 16 whole (4.99)
+  - other chart, star rows: H Alkes → H Ceres RA 122.0022 122 whole (79.39) [Jupiter]
+- **J Pallas** (same body: S Pallas → J Pallas Dec 0.9876 1 whole (14.35))
+  - star rows: J Regulus → J Pallas RA 137.5605 85×φ golden (2.14) [Moon]
+  - other chart, top rows: S Jupiter → H Pallas Dec 6.0016 6 whole (84.43) [Jupiter]
+  - other chart, star rows: H Alphard → H Pallas RA 144.4560 144.444 ninth (98.77) [Jupiter]
+  - other chart, star rows: H Murzim → H Pallas Dec 15.5523 15.5556 ninth (96.94) [Sun]
+  - other chart, star rows: H Sadalmelik → H Pallas RA 26.0034 26 whole (69.24) [Sun]
+- **J Juno** (same body: S Juno → J Juno Dec 10.9995 11 whole (94.77))
+  - star rows: J Murzim → J Juno Dec 17.7707 17.7778 ninth (94.45) [Sun]
+  - star rows: J Rigel → J Juno Dec 8.0172 8 whole (2.00) [Jupiter]
+  - star rows: J Sadalmelik → J Juno Dec 0.1361 conj (29.86) [Sun]
+  - star rows: J Spica → J Juno RA 11.1155 11.1111 ninth (92.74) [Sun]
+  - other chart, star rows: H Acubens → H Juno Dec 21.9961 22 whole (65.08) [Moon]
+  - other chart, star rows: H Deneb Algedi → H Juno Dec 5.9901 6 whole (25.30) [Sun]
+  - other chart, star rows: H Mirfak → H Juno Dec 60.0027 60 whole (74.68) [Moon]
+  - other chart, star rows: H Regulus → H Juno RA 130.0125 130 whole (14.10) [Moon]
+- **J Vesta** (same body: S Vesta → J Vesta Dec 4.9940 5 whole (49.10))
+  - other chart, same body: S Vesta → H Vesta RA 177.6063 177.778 ninth (loose)
+- **J Rahu** (same body: S Rahu → J Rahu Dec 32.3729 20×φ golden (loose))
+  - star rows: J Deneb Algedi → J Rahu RA 1.0206 conj (10.21) [Sun]
+  - star rows: J Regulus → J Rahu Dec 24.9838 25 whole (3.60) [Moon]
+  - other chart, same body: S Rahu → H Rahu Dec 8.8826 8.88889 ninth (loose)
+  - other chart, top rows: S Jupiter → H Rahu Dec 18.8844 18.8889 ninth (96.77) [Jupiter]
+  - other chart, top rows: S Sun → H Rahu RA 175.9972 176 whole (73.58) [Sun]
+  - other chart, star rows: H Deneb Algedi → H Rahu RA 172.0028 172 whole (73.61) [Sun]
+- **J Eris** (same body: S Eris → J Eris RA 3.3329 3.33333 ninth (loose))
+  - star rows: J Aculeus → J Eris Dec 22.6597 14×φ golden (60.12) [Moon]
+  - star rows: J Alkes → J Eris RA 142.3814 88×φ golden (68.48) [Jupiter]
+  - star rows: J Alphecca → J Eris RA 148.8900 92×φ golden (0.20) [Jupiter]
+- **J Sedna** (same body: S Sedna → J Sedna RA 16.0230 16 whole (loose))
+  - star rows: J Murzim → J Sedna RA 53.3989 33×φ golden (78.24) [Sun]
+  - star rows: J Rigel → J Sedna Dec 12.2230 12.2222 ninth (98.86) [Jupiter]
+  - star rows: J Spica → J Sedna RA 159.0181 159 whole (0.87) [Sun]
+  - other chart, star rows: H Aculeus → H Sedna RA 150.4557 93×φ golden (11.34) [Moon]
+- **J Haumea** (same body: S Haumea → J Haumea RA 30.7695 19×φ golden (loose))
+  - star rows: J Deneb Algedi → J Haumea RA 139.9906 140 whole (28.28) [Sun]
+  - other chart, same body: S Haumea → H Haumea RA 4.8498 3×φ golden (loose)
+  - other chart, top rows: S Sun → H Haumea Dec 29.1273 18×φ golden (84.12) [Sun]
+  - other chart, star rows: H Alphecca → H Haumea RA 20.9830 21 whole (2.25) [Jupiter]
+  - other chart, star rows: H Menkent → H Haumea RA 1.0200 conj (10.24) [Jupiter]
+  - other chart, star rows: H Murzim → H Haumea RA 117.0176 117 whole (1.48) [Sun]
+- **J Orcus** (same body: S Orcus → J Orcus Dec 16.1655 10×φ^1 phi power (loose))
+  - body line: S Sun → Orcus Dec 0.1585 conj (22.25)
+  - star rows: J Murzim → J Orcus Dec 21.9984 22 whole (84.80) [Sun]
+  - star rows: J Sadalmelik → J Orcus RA 158.5431 98×φ golden (6.34) [Sun]
+  - other chart, star rows: H Regulus → H Orcus RA 0.2413 conj (70.41) [Moon]
+- **J Quaoar** (same body: S Quaoar → J Quaoar RA 44.4563 44.4444 ninth (loose))
+  - star rows: J Acubens → J Quaoar Dec 24.9870 25 whole (12.30) [Moon]
+  - star rows: J Alphecca → J Quaoar RA 1.3181 conj (1.47) [Jupiter]
+  - star rows: J Deneb Algedi → J Quaoar Dec 2.9973 3 whole (74.63) [Sun]
+  - star rows: J Mirfak → J Quaoar Dec 62.9873 63 whole (13.43) [Moon]
+  - star rows: J Rigel → J Quaoar RA 153.7148 95×φ golden (90.48) [Jupiter]
+- **J Gonggong** (same body: S Gonggong → J Gonggong RA 7.7743 7.77778 ninth (loose))
+  - star rows: J Alkes → J Gonggong RA 163.9965 164 whole (67.89) [Jupiter]
+  - other chart, same body: S Gonggong → H Gonggong RA 0.6668 0.666667 ninth (loose)
+  - other chart, T1: H Jupiter → H Gonggong Dec 5.9966 6 whole (68.84) [Jupiter]
+  - other chart, top rows: S Moon → H Gonggong Dec 24.1500 24.14 silver (87.40) [Moon]
+  - other chart, star rows: H Acubens → H Gonggong RA 158.5820 98×φ golden (29.78) [Moon]
+- **J Ketu** (same body: S Ketu → J Ketu Dec 32.3729 20×φ golden (loose))
+  - star rows: J Sadalmelik → J Ketu RA 176.3341 109×φ golden (0.05) [Sun]
+  - star rows: J Sadalmelik → J Ketu Dec 13.3324 13.3333 ninth (98.94) [Sun]
+  - other chart, same body: S Ketu → H Ketu Dec 8.8826 8.88889 ninth (loose)
+  - other chart, top rows: S Sun → H Ketu RA 4.0028 4 whole (73.58) [Sun]
+  - other chart, star rows: H Deneb Algedi → H Ketu RA 7.9972 8 whole (73.61) [Sun]
+### L3 the seven cases (L5 field tag on each)
+- **1. same body on both charts**
+  - Mercury — only
+    - S Mercury → H Mercury RA 68.5691 10×φ^4 phi power (loose)
+    - S Mercury → J Mercury RA 119.9840 120 whole (3.94)
+  - Ceres — only
+    - S Ceres → H Ceres RA 16.0155 16 whole (4.99)
+    - S Ceres → J Ceres RA 31.0060 31 whole (48.72)
+  - Vesta — only
+    - S Vesta → H Vesta RA 177.6063 177.778 ninth (loose)
+    - S Vesta → J Vesta Dec 4.9940 5 whole (49.10)
+  - Rahu — only
+    - S Rahu → H Rahu Dec 8.8826 8.88889 ninth (loose)
+    - S Rahu → J Rahu Dec 32.3729 20×φ golden (loose)
+  - Haumea — also: 4 Nickolson / Jonjo O'Neill Jr
+    - S Haumea → H Haumea RA 4.8498 3×φ golden (loose)
+    - S Haumea → J Haumea RA 30.7695 19×φ golden (loose)
+  - Gonggong — only
+    - S Gonggong → H Gonggong RA 0.6668 0.666667 ninth (loose)
+    - S Gonggong → J Gonggong RA 7.7743 7.77778 ninth (loose)
+  - Ketu — only
+    - S Ketu → H Ketu Dec 8.8826 8.88889 ninth (loose)
+    - S Ketu → J Ketu Dec 32.3729 20×φ golden (loose)
+- **2. one body in both planes**
+  - H Sun — only
+    - S Sun → H Sun RA 29.9995 30 whole (95.24)
+    - S Sun → H Sun Dec 12.2841 12.2222 ninth (loose)
+- **3. runner number = sky number**
+  - 177.778 ninth — also: 1 Fransham / Jack Andrews, 3 Nelson River / Harry Bannister
+    - S Vesta → H Vesta RA 177.6063 177.778 ninth (loose) = S Jupiter → Alkes RA 177.7232 177.778 ninth (95.73)
+  - 6 whole — also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr
+    - H Jupiter → H Gonggong Dec 5.9966 6 whole (68.84) = S Sun → Murzim Dec 5.9982 6 whole (83.01)
+  - 6 whole — also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr
+    - S Jupiter → H Pallas Dec 6.0016 6 whole (84.43) = S Sun → Murzim Dec 5.9982 6 whole (83.01)
+  - 4 whole — also: 1 Fransham / Jack Andrews, 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr
+    - S Sun → H Ketu RA 4.0028 4 whole (73.58) = S Sun → Deneb Algedi RA 3.9950 4 whole (56.60)
+  - 6 whole — also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr
+    - H Deneb Algedi → H Juno Dec 5.9901 6 whole (25.30) = S Sun → Murzim Dec 5.9982 6 whole (83.01)
+- **4. circle divisions**
+  - 30 = 360/12 — only
+    - S Sun → H Sun RA 29.9995 30 whole (95.24)
+  - 2 = 360/180 — also: 1 Fransham / Jack Andrews
+    - S Jupiter → H Jupiter Dec 1.9789 2 whole (loose)
+  - 6 = 360/60 — also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr
+    - H Jupiter → H Gonggong Dec 5.9966 6 whole (68.84)
+  - 6 = 360/60 — also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr
+    - S Jupiter → H Pallas Dec 6.0016 6 whole (84.43)
+  - 4 = 360/90 — also: 4 Nickolson / Jonjo O'Neill Jr
+    - S Sun → H Ketu RA 4.0028 4 whole (73.58)
+  - 8 = 360/45 — also: 1 Fransham / Jack Andrews, 3 Nelson River / Harry Bannister
+    - H Deneb Algedi → H Ketu RA 7.9972 8 whole (73.61)
+  - 60 = 360/6 — only
+    - H Mirfak → H Juno Dec 60.0027 60 whole (74.68)
+  - 120 = 360/3 — only
+    - S Mercury → J Mercury RA 119.9840 120 whole (3.94)
+  - 1 = 360/360 — also: 1 Fransham / Jack Andrews
+    - S Pallas → J Pallas Dec 0.9876 1 whole (14.35)
+  - 5 = 360/72 — also: 3 Nelson River / Harry Bannister
+    - S Vesta → J Vesta Dec 4.9940 5 whole (49.10)
+  - 3 = 360/120 — also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr
+    - J Deneb Algedi → J Quaoar Dec 2.9973 3 whole (74.63)
+  - 60 = 360/6 — only
+    - J Menkent → J Uranus RA 59.9979 60 whole (79.83)
+- **5. same number in more than one place**
+  - 12.2222 ninth — only
+    - S Sun → H Sun Dec 12.2841 12.2222 ninth (loose)
+    - J Rigel → J Sedna Dec 12.2230 12.2222 ninth (98.86)
+  - 16 whole — only
+    - S Ceres → H Ceres RA 16.0155 16 whole (4.99)
+    - S Sedna → J Sedna RA 16.0230 16 whole (loose)
+  - 8.88889 ninth — only
+    - S Rahu → H Rahu Dec 8.8826 8.88889 ninth (loose)
+    - S Ketu → H Ketu Dec 8.8826 8.88889 ninth (loose)
+  - 6 whole — only
+    - H Jupiter → H Gonggong Dec 5.9966 6 whole (68.84)
+    - S Jupiter → H Pallas Dec 6.0016 6 whole (84.43)
+  - 64×φ golden — only
+    - H Jupiter → H star Murzim RA 103.5451 64×φ golden (51.95)
+    - H Murzim → H Jupiter RA 103.5451 64×φ golden (51.95)
+  - 11.1111 ninth — only
+    - S Jupiter → H Chiron RA 11.1110 11.1111 ninth (99.76)
+    - J Spica → J Juno RA 11.1155 11.1111 ninth (92.74)
+  - 18.8889 ninth — only
+    - S Jupiter → H Rahu Dec 18.8844 18.8889 ninth (96.77)
+    - J Murzim → J Sun Dec 18.8882 18.8889 ninth (99.49)
+  - 18×φ golden — only
+    - S Sun → H Haumea Dec 29.1273 18×φ golden (84.12)
+    - H Murzim → H Transpluto Dec 29.1292 18×φ golden (73.58)
+  - 44.4444 ninth — only
+    - S Transpluto → H Jupiter RA 44.4449 44.4444 ninth (99.50)
+    - S Quaoar → J Quaoar RA 44.4563 44.4444 ninth (loose)
+  - 22 whole — only
+    - H Acubens → H Juno Dec 21.9961 22 whole (65.08)
+    - J Murzim → J Orcus Dec 21.9984 22 whole (84.80)
+  - 100×φ^1 phi power — only
+    - H Alphecca → H Mars RA 161.8722 100×φ^1 phi power (83.72)
+    - H Spica → H Venus RA 161.8647 100×φ^1 phi power (85.41)
+  - 60 whole — only
+    - H Mirfak → H Juno Dec 60.0027 60 whole (74.68)
+    - J Menkent → J Uranus RA 59.9979 60 whole (79.83)
+  - 20×φ golden — only
+    - S Rahu → J Rahu Dec 32.3729 20×φ golden (loose)
+    - S Ketu → J Ketu Dec 32.3729 20×φ golden (loose)
+  - 82×φ golden — only
+    - J Jupiter → J star Deneb Algedi RA 132.6713 82×φ golden (58.97)
+    - S Deneb Algedi → J Jupiter RA 132.6790 82×φ golden (98.76)
+  - 39 whole — only
+    - J Jupiter → J star Deneb Algedi Dec 38.9942 39 whole (50.53)
+    - S Deneb Algedi → J Jupiter Dec 39.0002 39 whole (97.85)
+- **6. star and sky line on one body**: none
+- **7. centres meeting**
+  - Mercury: Moon, Sun — only
+    - [Moon] S Mercury → H Mercury RA 68.5691 10×φ^4 phi power (loose)
+    - [Moon] H Mirfak → H Mercury Dec 43.6855 27×φ golden (91.16)
+    - [Moon] S Mercury → J Mercury RA 119.9840 120 whole (3.94)
+    - [Moon] J Regulus → J Mercury Dec 18.0130 18 whole (12.15)
+    - [Sun] S Mercury → H Mercury RA 68.5691 10×φ^4 phi power (loose)
+    - [Sun] S Mercury → J Mercury RA 119.9840 120 whole (3.94)
+  - Gonggong: Jupiter, Moon — only
+    - [Jupiter] H Jupiter → H Gonggong Dec 5.9966 6 whole (68.84)
+    - [Jupiter] J Alkes → J Gonggong RA 163.9965 164 whole (67.89)
+    - [Moon] S Moon → H Gonggong Dec 24.1500 24.14 silver (87.40)
+    - [Moon] H Acubens → H Gonggong RA 158.5820 98×φ golden (29.78)
+  - Pallas: Jupiter, Moon, Sun — also: 4 Nickolson / Jonjo O'Neill Jr
+    - [Jupiter] S Jupiter → H Pallas Dec 6.0016 6 whole (84.43)
+    - [Jupiter] H Alphard → H Pallas RA 144.4560 144.444 ninth (98.77)
+    - [Moon] J Regulus → J Pallas RA 137.5605 85×φ golden (2.14)
+    - [Sun] H Murzim → H Pallas Dec 15.5523 15.5556 ninth (96.94)
+    - [Sun] H Sadalmelik → H Pallas RA 26.0034 26 whole (69.24)
+  - Rahu: Jupiter, Moon, Sun — also: 1 Fransham / Jack Andrews
+    - [Jupiter] S Jupiter → H Rahu Dec 18.8844 18.8889 ninth (96.77)
+    - [Moon] J Regulus → J Rahu Dec 24.9838 25 whole (3.60)
+    - [Sun] S Sun → H Rahu RA 175.9972 176 whole (73.58)
+    - [Sun] H Deneb Algedi → H Rahu RA 172.0028 172 whole (73.61)
+    - [Sun] J Deneb Algedi → J Rahu RA 1.0206 conj (10.21)
+  - Sun: Jupiter, Sun — only
+    - [Jupiter] H Alphard → H Sun Dec 8.9844 9 whole (4.86)
+    - [Sun] S Sun → H Sun RA 29.9995 30 whole (95.24)
+    - [Sun] H Deneb Algedi → H Sun RA 33.9938 34 whole (47.84)
+    - [Sun] J Murzim → J Sun Dec 18.8882 18.8889 ninth (99.49)
+  - Haumea: Jupiter, Sun — also: 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr
+    - [Jupiter] H Alphecca → H Haumea RA 20.9830 21 whole (2.25)
+    - [Jupiter] H Menkent → H Haumea RA 1.0200 conj (10.24)
+    - [Sun] S Sun → H Haumea Dec 29.1273 18×φ golden (84.12)
+    - [Sun] H Murzim → H Haumea RA 117.0176 117 whole (1.48)
+    - [Sun] J Deneb Algedi → J Haumea RA 139.9906 140 whole (28.28)
+  - Jupiter: Jupiter, Moon, Sun — also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr
+    - [Jupiter] S Makemake → H Jupiter RA 0.0444 conj (94.17)
+    - [Jupiter] S Transpluto → H Jupiter RA 44.4449 44.4444 ninth (99.50)
+    - [Jupiter] S Haumea → J Jupiter RA 118.1076 73×φ golden (52.56)
+    - [Moon] J Acubens → J Jupiter Dec 11.0099 11 whole (25.38)
+    - [Moon] S Mirfak → J Jupiter Dec 26.9947 27 whole (53.89)
+    - [Sun] H Murzim → H Jupiter RA 103.5451 64×φ golden (51.95)
+    - [Sun] S Deneb Algedi → J Jupiter RA 132.6790 82×φ golden (98.76)
+    - [Sun] S Deneb Algedi → J Jupiter Dec 39.0002 39 whole (97.85)
+    - [Sun] S Sadalmelik → J Jupiter RA 127.9945 128 whole (52.46)
+  - Uranus: Jupiter, Moon, Sun — also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr
+    - [Jupiter] S Jupiter → J Uranus RA 71.0042 71 whole (62.37)
+    - [Jupiter] J Alphecca → J Uranus RA 37.9967 38 whole (69.74)
+    - [Jupiter] J Menkent → J Uranus RA 59.9979 60 whole (79.83)
+    - [Moon] H Acubens → H Uranus RA 113.2399 70×φ golden (9.33)
+    - [Sun] J Murzim → J Uranus RA 175.9907 176 whole (28.69)
+  - Juno: Jupiter, Moon, Sun — also: 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr
+    - [Jupiter] J Rigel → J Juno Dec 8.0172 8 whole (2.00)
+    - [Moon] H Acubens → H Juno Dec 21.9961 22 whole (65.08)
+    - [Moon] H Mirfak → H Juno Dec 60.0027 60 whole (74.68)
+    - [Moon] H Regulus → H Juno RA 130.0125 130 whole (14.10)
+    - [Sun] H Deneb Algedi → H Juno Dec 5.9901 6 whole (25.30)
+    - [Sun] J Murzim → J Juno Dec 17.7707 17.7778 ninth (94.45)
+    - [Sun] J Sadalmelik → J Juno Dec 0.1361 conj (29.86)
+    - [Sun] J Spica → J Juno RA 11.1155 11.1111 ninth (92.74)
+  - Sedna: Jupiter, Moon, Sun — also: 3 Nelson River / Harry Bannister
+    - [Jupiter] J Rigel → J Sedna Dec 12.2230 12.2222 ninth (98.86)
+    - [Moon] H Aculeus → H Sedna RA 150.4557 93×φ golden (11.34)
+    - [Sun] J Murzim → J Sedna RA 53.3989 33×φ golden (78.24)
+    - [Sun] J Spica → J Sedna RA 159.0181 159 whole (0.87)
+  - Transpluto: Jupiter, Moon, Sun — also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr
+    - [Jupiter] H Alphard → H Transpluto RA 11.0068 11 whole (43.34)
+    - [Moon] H Regulus → H Transpluto RA 0.8113 conj (21.08)
+    - [Sun] H Murzim → H Transpluto Dec 29.1292 18×φ golden (73.58)
+  - Mars: Jupiter, Sun — only
+    - [Jupiter] H Alphecca → H Mars RA 161.8722 100×φ^1 phi power (83.72)
+    - [Sun] J Sadalmelik → J Mars RA 150.4579 93×φ golden (16.37)
+  - Venus: Jupiter, Moon, Sun — also: 1 Fransham / Jack Andrews
+    - [Jupiter] H Menkent → H Venus Dec 46.9882 47 whole (16.85)
+    - [Jupiter] J Rigel → J Venus RA 137.9904 138 whole (27.24)
+    - [Moon] J Acubens → J Venus RA 82.0079 82 whole (36.33)
+    - [Sun] H Spica → H Venus RA 161.8647 100×φ^1 phi power (85.41)
+  - Orcus: Moon, Sun — only
+    - [Moon] H Regulus → H Orcus RA 0.2413 conj (70.41)
+    - [Sun] S Orcus → J Orcus Dec 16.1655 10×φ^1 phi power (loose)
+    - [Sun] J Murzim → J Orcus Dec 21.9984 22 whole (84.80)
+    - [Sun] J Sadalmelik → J Orcus RA 158.5431 98×φ golden (6.34)
+  - Pluto: Jupiter, Moon — only
+    - [Jupiter] H Rigel → H Pluto Dec 12.9936 13 whole (45.90)
+    - [Moon] J Aculeus → J Pluto Dec 31.0125 31 whole (13.94)
+  - Quaoar: Jupiter, Moon, Sun — only
+    - [Jupiter] J Alphecca → J Quaoar RA 1.3181 conj (1.47)
+    - [Jupiter] J Rigel → J Quaoar RA 153.7148 95×φ golden (90.48)
+    - [Moon] J Acubens → J Quaoar Dec 24.9870 25 whole (12.30)
+    - [Moon] J Mirfak → J Quaoar Dec 62.9873 63 whole (13.43)
+    - [Sun] J Deneb Algedi → J Quaoar Dec 2.9973 3 whole (74.63)
+  - Eris: Jupiter, Moon — also: 4 Nickolson / Jonjo O'Neill Jr
+    - [Jupiter] J Alkes → J Eris RA 142.3814 88×φ golden (68.48)
+    - [Jupiter] J Alphecca → J Eris RA 148.8900 92×φ golden (0.20)
+    - [Moon] J Aculeus → J Eris Dec 22.6597 14×φ golden (60.12)

@@ -1,0 +1,1231 @@
+# Stage 2 layers: race_batch_20220129_doncaster_1410_jupiter_tables.xlsx
+Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_layers.py).
+
+## L0 field
+- In the tables workbook (5): 1 Miranda / Bryony Frost; 2 Western Victory / Tom Bellamy; 3 Anna Bunina / James Bowen; 4 Dazzling Glory / Harry Skelton; 5 Miss Heritage / Sean Quinlan
+- _active.xlsx not found: runners not checked against it
+- Cloth numbers not in the tables workbook: none
+
+## Sky (noted lines)
+- S Jupiter → Moon RA 66.0010 66 whole (90.00)
+- S Jupiter → Phact Dec 23.9930 24 whole (42.18)
+- S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)
+- S Jupiter → Alphard RA 163.4240 101×φ golden (84.95)
+- S Jupiter → Sualocin Dec 25.9954 26 whole (59.00)
+- S Sun → Neptune RA 40.4536 25×φ golden (83.58)
+- S Sun → Neptune Dec 13.3394 13.3333 ninth (92.68)
+- S Sun → Difda Dec 0.0705 conj (58.51)
+- S Sun → Menkar Dec 22.0070 22 whole (42.05)
+- S Sun → Murzim Dec 0.0394 conj (75.49)
+- S Sun → Wezen RA 155.3330 96×φ golden (89.39)
+- S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
+- S Sun → Deneb RA 1.4205 conj (0.28)
+- S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
+- S Sun → Scheat Dec 46.0028 46 whole (73.65)
+- S Moon → Mars RA 1.2062 conj (3.84)
+- S Moon → Jupiter RA 66.0010 66 whole (90.00)
+- Hubs: none
+
+## 1 Miranda / Bryony Frost
+### L1 same bodies
+- S Sun → H Sun RA 43.9710 44 whole (loose)
+- S Mercury → H Mercury RA 39.9743 40 whole (loose)
+- S Saturn → H Saturn RA 74.4529 46×φ golden (loose)
+- S Uranus → H Uranus RA 24.1705 24.14 silver (loose)
+- S Pallas → H Pallas Dec 22.2346 22.2222 ninth (loose)
+- S Eris → H Eris RA 0.6187 φ^-1 phi power (loose)
+- S Transpluto → H Transpluto Dec 0.9889 1 whole (20.01)
+- S Saturn → J Saturn Dec 11.3474 7×φ golden (loose)
+- S Pluto → J Pluto Dec 15.9759 16 whole (loose)
+- S Chiron → J Chiron Dec 5.9970 6 whole (72.66)
+- S Pallas → J Pallas RA 78.9918 79 whole (35.06)
+- S Pallas → J Pallas Dec 4.9777 5 whole (loose)
+- S Rahu → J Rahu Dec 33.3151 33.3333 ninth (loose)
+- S Sedna → J Sedna RA 14.0914 14.14 sqrt2 (loose)
+- S Makemake → J Makemake Dec 12.2546 12.2222 ninth (loose)
+- S Quaoar → J Quaoar Dec 1.2205 1.22222 ninth (loose)
+- S Gonggong → J Gonggong Dec 6.9851 7 whole (6.55)
+- S Ketu → J Ketu Dec 33.3151 33.3333 ninth (loose)
+### L2 what lands on each same body
+- **H Sun** (same body: S Sun → H Sun RA 43.9710 44 whole (loose))
+- **H Mercury** (same body: S Mercury → H Mercury RA 39.9743 40 whole (loose))
+  - top rows: S Jupiter → H Mercury RA 0.9626 conj (12.83) [Jupiter]
+  - star rows: H Deneb → H Mercury Dec 57.0169 57 whole (2.35) [Sun]
+- **H Saturn** (same body: S Saturn → H Saturn RA 74.4529 46×φ golden (loose))
+  - other chart, same body: S Saturn → J Saturn Dec 11.3474 7×φ golden (loose)
+  - other chart, star rows: J Sadalsuud → J Saturn Dec 0.2534 conj (2.42) [Sun]
+  - other chart, star rows: J Wezen → J Saturn RA 116.0190 116 whole (0.27) [Sun]
+- **H Uranus** (same body: S Uranus → H Uranus RA 24.1705 24.14 silver (loose))
+  - star rows: H Alphard → H Uranus Dec 14.0142 14 whole (8.41) [Jupiter]
+  - star rows: H Wezen → H Uranus RA 92.9960 93 whole (64.20) [Sun]
+  - other chart, star rows: J Castor → J Uranus RA 171.0152 171 whole (5.67) [Sun]
+- **H Pallas** (same body: S Pallas → H Pallas Dec 22.2346 22.2222 ninth (loose))
+  - star rows: H Alphard → H Pallas RA 124.9881 125 whole (16.31) [Jupiter]
+  - star rows: H Difda → H Pallas RA 104.0039 104 whole (65.06) [Sun]
+  - star rows: H Sadalsuud → H Pallas RA 55.9960 56 whole (64.07) [Sun]
+  - star rows: H Sualocin → H Pallas RA 43.0166 43 whole (2.93) [Jupiter]
+  - other chart, same body: S Pallas → J Pallas RA 78.9918 79 whole (35.06)
+  - other chart, same body: S Pallas → J Pallas Dec 4.9777 5 whole (loose)
+  - other chart, star rows: J Sadalsuud → J Pallas Dec 0.1653 conj (20.16) [Sun]
+  - other chart, star rows: J Wezen → J Pallas Dec 20.9899 21 whole (24.33) [Sun]
+- **H Eris** (same body: S Eris → H Eris RA 0.6187 φ^-1 phi power (loose))
+  - other chart, top rows: S Sun → J Eris RA 71.1968 44×φ golden (80.56) [Sun]
+  - other chart, star rows: J Murzim → J Eris Dec 10.0085 10 whole (32.86) [Sun]
+- **H Transpluto** (same body: S Transpluto → H Transpluto Dec 0.9889 1 whole (20.01))
+  - star rows: H Difda → H Transpluto RA 141.4140 141.4 sqrt2 (97.93) [Sun]
+  - star rows: H Murzim → H Transpluto RA 56.6312 35×φ golden (99.83) [Sun]
+- **J Saturn** (same body: S Saturn → J Saturn Dec 11.3474 7×φ golden (loose))
+  - star rows: J Sadalsuud → J Saturn Dec 0.2534 conj (2.42) [Sun]
+  - star rows: J Wezen → J Saturn RA 116.0190 116 whole (0.27) [Sun]
+  - other chart, same body: S Saturn → H Saturn RA 74.4529 46×φ golden (loose)
+- **J Pluto** (same body: S Pluto → J Pluto Dec 15.9759 16 whole (loose))
+  - top rows: S Sun → J Pluto Dec 11.3202 7×φ golden (65.99) [Sun]
+  - other chart, star rows: H Wezen → H Pluto RA 179.0145 179 whole (7.51) [Sun]
+- **J Chiron** (same body: S Chiron → J Chiron Dec 5.9970 6 whole (72.66))
+  - star rows: J Sadalsuud → J Chiron Dec 5.0034 5 whole (68.96) [Sun]
+  - other chart, star rows: H Scheat → H Chiron RA 0.9057 conj (15.70) [Sun]
+- **J Pallas** (same body: S Pallas → J Pallas RA 78.9918 79 whole (35.06); S Pallas → J Pallas Dec 4.9777 5 whole (loose))
+  - star rows: J Sadalsuud → J Pallas Dec 0.1653 conj (20.16) [Sun]
+  - star rows: J Wezen → J Pallas Dec 20.9899 21 whole (24.33) [Sun]
+  - other chart, same body: S Pallas → H Pallas Dec 22.2346 22.2222 ninth (loose)
+  - other chart, star rows: H Alphard → H Pallas RA 124.9881 125 whole (16.31) [Jupiter]
+  - other chart, star rows: H Difda → H Pallas RA 104.0039 104 whole (65.06) [Sun]
+  - other chart, star rows: H Sadalsuud → H Pallas RA 55.9960 56 whole (64.07) [Sun]
+  - other chart, star rows: H Sualocin → H Pallas RA 43.0166 43 whole (2.93) [Jupiter]
+- **J Rahu** (same body: S Rahu → J Rahu Dec 33.3151 33.3333 ninth (loose))
+  - star rows: J Adhara → J Rahu Dec 15.5543 15.5556 ninth (98.84) [Jupiter]
+  - other chart, star rows: H Menkar → H Rahu Dec 7.9845 8 whole (5.12) [Sun]
+- **J Sedna** (same body: S Sedna → J Sedna RA 14.0914 14.14 sqrt2 (loose))
+  - star rows: J Difda → J Sedna RA 33.3326 33.3333 ninth (99.09) [Sun]
+  - star rows: J Menkar → J Sedna RA 1.3408 conj (1.13) [Sun]
+  - other chart, star rows: H Deneb → H Sedna RA 104.0194 104 whole (0.10) [Sun]
+- **J Makemake** (same body: S Makemake → J Makemake Dec 12.2546 12.2222 ninth (loose))
+  - star rows: J Alphard → J Makemake RA 32.0058 32 whole (50.44) [Jupiter]
+  - star rows: J Difda → J Makemake RA 163.0135 163 whole (10.52) [Sun]
+  - star rows: J Phact → J Makemake RA 88.9959 55×φ golden (76.53) [Jupiter]
+  - star rows: J Sadalsuud → J Makemake RA 148.9819 149 whole (0.87) [Sun]
+  - star rows: J Sualocin → J Makemake RA 136.0027 136 whole (75.06) [Jupiter]
+  - star rows: J Wezen → J Makemake Dec 61.0101 61 whole (24.35) [Sun]
+  - other chart, star rows: H Difda → H Makemake RA 177.7630 177.778 ninth (98.84) [Sun]
+- **J Quaoar** (same body: S Quaoar → J Quaoar Dec 1.2205 1.22222 ninth (loose))
+  - star rows: J Deneb → J Quaoar RA 69.0047 69 whole (58.41) [Sun]
+- **J Gonggong** (same body: S Gonggong → J Gonggong Dec 6.9851 7 whole (6.55))
+  - star rows: J Adhara → J Gonggong RA 133.3614 133.333 ninth (96.63) [Jupiter]
+  - star rows: J Alphard → J Gonggong Dec 9.7089 6×φ golden (95.94) [Jupiter]
+  - star rows: J Castor → J Gonggong RA 142.3556 88×φ golden (0.10) [Sun]
+  - other chart, star rows: H Adhara → H Gonggong Dec 16.0085 16 whole (32.98) [Jupiter]
+  - other chart, star rows: H Deneb → H Gonggong Dec 58.2441 36×φ golden (70.87) [Sun]
+  - other chart, star rows: H Menkar → H Gonggong RA 69.9919 70 whole (35.17) [Sun]
+  - other chart, star rows: H Murzim → H Gonggong Dec 4.9917 5 whole (34.47) [Sun]
+- **J Ketu** (same body: S Ketu → J Ketu Dec 33.3151 33.3333 ninth (loose))
+  - star rows: J Sadalsuud → J Ketu Dec 18.9949 19 whole (55.69) [Sun]
+  - other chart, star rows: H Castor → H Ketu Dec 27.9911 28 whole (30.54) [Sun]
+  - other chart, star rows: H Menkar → H Ketu Dec 0.1904 conj (13.36) [Sun]
+  - other chart, star rows: H Sualocin → H Ketu Dec 12.0119 12 whole (16.60) [Jupiter]
+### L3 the seven cases (L5 field tag on each)
+- **1. same body on both charts**
+  - Saturn — only
+    - S Saturn → H Saturn RA 74.4529 46×φ golden (loose)
+    - S Saturn → J Saturn Dec 11.3474 7×φ golden (loose)
+  - Pallas — only
+    - S Pallas → H Pallas Dec 22.2346 22.2222 ninth (loose)
+    - S Pallas → J Pallas RA 78.9918 79 whole (35.06)
+    - S Pallas → J Pallas Dec 4.9777 5 whole (loose)
+- **2. one body in both planes**
+  - J Pallas — only
+    - S Pallas → J Pallas RA 78.9918 79 whole (35.06)
+    - S Pallas → J Pallas Dec 4.9777 5 whole (loose)
+- **3. runner number = sky number**: none
+- **4. circle divisions**
+  - 40 = 360/9 — only
+    - S Mercury → H Mercury RA 39.9743 40 whole (loose)
+  - 1 = 360/360 — also: 4 Dazzling Glory / Harry Skelton
+    - S Transpluto → H Transpluto Dec 0.9889 1 whole (20.01)
+  - 6 = 360/60 — also: 3 Anna Bunina / James Bowen
+    - S Chiron → J Chiron Dec 5.9970 6 whole (72.66)
+  - 5 = 360/72 — also: 2 Western Victory / Tom Bellamy, 5 Miss Heritage / Sean Quinlan
+    - S Pallas → J Pallas Dec 4.9777 5 whole (loose)
+  - 30 = 360/12 — also: 3 Anna Bunina / James Bowen
+    - J Adhara → J Ceres RA 29.9996 30 whole (95.86)
+  - 5 = 360/72 — also: 2 Western Victory / Tom Bellamy, 5 Miss Heritage / Sean Quinlan
+    - J Sadalsuud → J Chiron Dec 5.0034 5 whole (68.96)
+  - 18 = 360/20 — also: 3 Anna Bunina / James Bowen
+    - J Wezen → J Juno Dec 17.9964 18 whole (67.20)
+- **5. same number in more than one place**
+  - 21 whole — only
+    - H Castor → H Juno Dec 20.9950 21 whole (56.61)
+    - J Castor → J Ceres RA 21.0054 21 whole (53.64)
+  - 35×φ golden — only
+    - H Murzim → H Transpluto RA 56.6312 35×φ golden (99.83)
+    - J Phact → J Haumea Dec 56.6341 35×φ golden (82.93)
+  - 7×φ golden — only
+    - S Saturn → J Saturn Dec 11.3474 7×φ golden (loose)
+    - S Sun → J Pluto Dec 11.3202 7×φ golden (65.99)
+  - 5 whole — only
+    - S Pallas → J Pallas Dec 4.9777 5 whole (loose)
+    - J Sadalsuud → J Chiron Dec 5.0034 5 whole (68.96)
+  - 33.3333 ninth — only
+    - S Rahu → J Rahu Dec 33.3151 33.3333 ninth (loose)
+    - S Ketu → J Ketu Dec 33.3151 33.3333 ninth (loose)
+    - J Difda → J Sedna RA 33.3326 33.3333 ninth (99.09)
+  - 16×φ golden — only
+    - J Jupiter → J star Menkar Dec 25.8884 16×φ golden (99.04)
+    - J Menkar → J Jupiter Dec 25.8884 16×φ golden (99.04)
+  - 147 whole — only
+    - J Jupiter → J star Wezen RA 146.9980 147 whole (80.59)
+    - J Wezen → J Jupiter RA 146.9980 147 whole (80.59)
+- **6. star and sky line on one body**
+  - H Orcus on Alphard — only
+    - H Alphard → H Orcus Dec 0.0080 conj (94.74)
+    - S Moon → H Orcus RA 122.2589 122.222 ninth (94.92)
+- **7. centres meeting**
+  - Mercury: Jupiter, Sun — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen
+    - [Jupiter] S Jupiter → H Mercury RA 0.9626 conj (12.83)
+    - [Sun] H Deneb → H Mercury Dec 57.0169 57 whole (2.35)
+  - Neptune: Jupiter, Sun — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
+    - [Jupiter] S Jupiter → H Neptune RA 1.2144 conj (3.62)
+    - [Jupiter] J Alphard → J Neptune RA 155.5117 155.556 ninth (95.85)
+    - [Sun] H Murzim → H Neptune RA 115.9834 116 whole (2.92)
+    - [Sun] J Deneb → J Neptune RA 12.9446 8×φ golden (97.84)
+  - Juno: Jupiter, Sun — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
+    - [Jupiter] H Sualocin → H Juno Dec 5.0158 5 whole (4.32)
+    - [Jupiter] J Alphard → J Juno Dec 0.2604 conj (1.74)
+    - [Sun] S Sun → H Juno RA 171.5032 106×φ golden (54.67)
+    - [Sun] H Castor → H Juno Dec 20.9950 21 whole (56.61)
+    - [Sun] J Wezen → J Juno Dec 17.9964 18 whole (67.20)
+  - Orcus: Jupiter, Moon, Sun — only
+    - [Jupiter] H Alphard → H Orcus Dec 0.0080 conj (94.74)
+    - [Moon] S Moon → H Orcus RA 122.2589 122.222 ninth (94.92)
+    - [Sun] J Sadalsuud → J Orcus Dec 7.0111 7 whole (19.95)
+  - Jupiter: Jupiter, Sun — also: 4 Dazzling Glory / Harry Skelton
+    - [Jupiter] S Sedna → H Jupiter RA 77.6624 48×φ golden (81.24)
+    - [Jupiter] S Vesta → J Jupiter Dec 0.2729 conj (0.82)
+    - [Sun] J Menkar → J Jupiter Dec 25.8884 16×φ golden (99.04)
+    - [Sun] J Wezen → J Jupiter RA 146.9980 147 whole (80.59)
+  - Venus: Jupiter, Sun — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen
+    - [Jupiter] H Adhara → H Venus Dec 40.0171 40 whole (2.17)
+    - [Sun] H Murzim → H Venus Dec 29.0003 29 whole (97.24)
+    - [Sun] J Sadalsuud → J Venus Dec 0.1771 conj (16.79)
+  - Gonggong: Jupiter, Sun — also: 2 Western Victory / Tom Bellamy
+    - [Jupiter] H Adhara → H Gonggong Dec 16.0085 16 whole (32.98)
+    - [Jupiter] J Adhara → J Gonggong RA 133.3614 133.333 ninth (96.63)
+    - [Jupiter] J Alphard → J Gonggong Dec 9.7089 6×φ golden (95.94)
+    - [Sun] H Deneb → H Gonggong Dec 58.2441 36×φ golden (70.87)
+    - [Sun] H Menkar → H Gonggong RA 69.9919 70 whole (35.17)
+    - [Sun] H Murzim → H Gonggong Dec 4.9917 5 whole (34.47)
+    - [Sun] J Castor → J Gonggong RA 142.3556 88×φ golden (0.10)
+  - Uranus: Jupiter, Sun — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
+    - [Jupiter] H Alphard → H Uranus Dec 14.0142 14 whole (8.41)
+    - [Sun] H Wezen → H Uranus RA 92.9960 93 whole (64.20)
+    - [Sun] J Castor → J Uranus RA 171.0152 171 whole (5.67)
+  - Ceres: Jupiter, Sun — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
+    - [Jupiter] H Alphard → H Ceres RA 155.0085 155 whole (33.04)
+    - [Jupiter] H Phact → H Ceres RA 148.0026 148 whole (75.51)
+    - [Jupiter] H Sualocin → H Ceres RA 12.9961 13 whole (65.19)
+    - [Jupiter] J Adhara → J Ceres RA 29.9996 30 whole (95.86)
+    - [Jupiter] J Phact → J Ceres Dec 63.9853 64 whole (7.11)
+    - [Jupiter] J Sualocin → J Ceres Dec 13.9983 14 whole (83.40)
+    - [Sun] H Difda → H Ceres RA 73.9834 74 whole (2.96)
+    - [Sun] H Menkar → H Ceres Dec 27.9845 28 whole (5.16)
+    - [Sun] J Castor → J Ceres RA 21.0054 21 whole (53.64)
+    - [Sun] J Castor → J Ceres Dec 1.9825 2 whole (1.58)
+    - [Sun] J Murzim → J Ceres RA 38.9819 39 whole (0.86)
+  - Pallas: Jupiter, Sun — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen
+    - [Jupiter] H Alphard → H Pallas RA 124.9881 125 whole (16.31)
+    - [Jupiter] H Sualocin → H Pallas RA 43.0166 43 whole (2.93)
+    - [Sun] H Difda → H Pallas RA 104.0039 104 whole (65.06)
+    - [Sun] H Sadalsuud → H Pallas RA 55.9960 56 whole (64.07)
+    - [Sun] J Sadalsuud → J Pallas Dec 0.1653 conj (20.16)
+    - [Sun] J Wezen → J Pallas Dec 20.9899 21 whole (24.33)
+  - Vesta: Jupiter, Sun — also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
+    - [Jupiter] H Alphard → H Vesta RA 174.9903 175 whole (26.62)
+    - [Jupiter] H Phact → H Vesta RA 118.0014 118 whole (86.08)
+    - [Jupiter] H Sualocin → H Vesta RA 17.0050 17 whole (56.03)
+    - [Jupiter] J Adhara → J Vesta Dec 54.0079 54 whole (36.47)
+    - [Sun] H Difda → H Vesta RA 43.9823 44 whole (1.28)
+    - [Sun] J Deneb → J Vesta RA 146.0055 146 whole (52.43)
+    - [Sun] J Difda → J Vesta Dec 43.0198 43 whole (0.01)
+    - [Sun] J Murzim → J Vesta RA 0.6880 conj (29.31)
+    - [Sun] J Murzim → J Vesta Dec 42.9909 43 whole (29.97)
+  - Ketu: Jupiter, Sun — also: 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
+    - [Jupiter] H Sualocin → H Ketu Dec 12.0119 12 whole (16.60)
+    - [Sun] H Castor → H Ketu Dec 27.9911 28 whole (30.54)
+    - [Sun] H Menkar → H Ketu Dec 0.1904 conj (13.36)
+    - [Sun] J Sadalsuud → J Ketu Dec 18.9949 19 whole (55.69)
+  - Makemake: Jupiter, Sun — also: 5 Miss Heritage / Sean Quinlan
+    - [Jupiter] J Alphard → J Makemake RA 32.0058 32 whole (50.44)
+    - [Jupiter] J Phact → J Makemake RA 88.9959 55×φ golden (76.53)
+    - [Jupiter] J Sualocin → J Makemake RA 136.0027 136 whole (75.06)
+    - [Sun] H Difda → H Makemake RA 177.7630 177.778 ninth (98.84)
+    - [Sun] J Difda → J Makemake RA 163.0135 163 whole (10.52)
+    - [Sun] J Sadalsuud → J Makemake RA 148.9819 149 whole (0.87)
+    - [Sun] J Wezen → J Makemake Dec 61.0101 61 whole (24.35)
+  - Rahu: Jupiter, Sun — also: 5 Miss Heritage / Sean Quinlan
+    - [Jupiter] J Adhara → J Rahu Dec 15.5543 15.5556 ninth (98.84)
+    - [Sun] H Menkar → H Rahu Dec 7.9845 8 whole (5.12)
+  - Haumea: Jupiter, Sun — only
+    - [Jupiter] H Phact → H Haumea RA 126.0181 126 whole (0.88)
+    - [Jupiter] H Phact → H Haumea Dec 51.7711 32×φ golden (66.25)
+    - [Jupiter] J Phact → J Haumea Dec 56.6341 35×φ golden (82.93)
+    - [Sun] H Scheat → H Haumea RA 135.0081 135 whole (35.12)
+
+## 2 Western Victory / Tom Bellamy
+### L1 same bodies
+- S Sun → H Sun RA 44.4423 44.4444 ninth (97.73)
+- S Venus → H Venus RA 72.8110 45×φ golden (96.59)
+- S Uranus → H Uranus Dec 12.2244 12.2222 ninth (97.02)
+- S Neptune → H Neptune RA 16.5777 16.6667 ninth (loose)
+- S Chiron → H Chiron RA 27.4788 17×φ golden (loose)
+- S Juno → H Juno RA 2.0151 2 whole (5.99)
+- S Vesta → H Vesta RA 155.7777 155.556 ninth (loose)
+- S Transpluto → H Transpluto Dec 1.2285 1.22222 ninth (loose)
+- S Jupiter → J Jupiter Dec 4.9722 5 whole (loose)
+- S Neptune → J Neptune Dec 16.6831 16.6667 ninth (loose)
+- S Pallas → J Pallas Dec 3.0091 3 whole (29.59)
+- S Juno → J Juno RA 80.8870 50×φ golden (loose)
+- S Rahu → J Rahu RA 166.5468 166.667 ninth (loose)
+- S Haumea → J Haumea RA 26.1747 10×φ^2 phi power (loose)
+- S Makemake → J Makemake Dec 11.1299 11.1111 ninth (loose)
+- S Ketu → J Ketu RA 166.5468 166.667 ninth (loose)
+### L2 what lands on each same body
+- **H Sun** (same body: S Sun → H Sun RA 44.4423 44.4444 ninth (97.73))
+  - top rows: S Sun → H Sun RA 44.4423 44.4444 ninth (97.73) [Sun]
+  - star rows: H Alphard → H Sun Dec 7.0188 7 whole (0.34) [Jupiter]
+  - other chart, star rows: J Deneb → J Sun RA 130.9833 131 whole (2.77) [Sun]
+  - other chart, star rows: J Deneb → J Sun Dec 45.0175 45 whole (1.54) [Sun]
+- **H Venus** (same body: S Venus → H Venus RA 72.8110 45×φ golden (96.59))
+  - star rows: H Scheat → H Venus RA 8.0136 8 whole (10.13) [Sun]
+  - other chart, star rows: J Phact → J Venus Dec 13.9975 14 whole (76.29) [Jupiter]
+  - other chart, star rows: J Sualocin → J Venus Dec 35.9872 36 whole (12.90) [Jupiter]
+- **H Uranus** (same body: S Uranus → H Uranus Dec 12.2244 12.2222 ninth (97.02))
+  - other chart, star rows: J Menkar → J Uranus RA 111.1878 111.111 ninth (87.45) [Sun]
+  - other chart, star rows: J Phact → J Uranus Dec 11.9949 12 whole (55.69) [Jupiter]
+  - other chart, star rows: J Scheat → J Uranus Dec 50.1596 31×φ golden (96.74) [Sun]
+  - other chart, star rows: J Sualocin → J Uranus Dec 37.9897 38 whole (23.65) [Jupiter]
+- **H Neptune** (same body: S Neptune → H Neptune RA 16.5777 16.6667 ninth (loose))
+  - body line: S Sun → Neptune RA 40.4536 25×φ golden (83.58)
+  - body line: S Sun → Neptune Dec 13.3394 13.3333 ninth (92.68)
+  - star rows: H Adhara → H Neptune RA 129.0119 129 whole (16.37) [Jupiter]
+  - star rows: H Castor → H Neptune RA 138.0050 138 whole (56.26) [Sun]
+  - other chart, same body: S Neptune → J Neptune Dec 16.6831 16.6667 ninth (loose)
+  - other chart, star rows: J Murzim → J Neptune RA 163.4156 101×φ golden (67.33) [Sun]
+- **H Chiron** (same body: S Chiron → H Chiron RA 27.4788 17×φ golden (loose))
+  - top rows: S Jupiter → H Chiron RA 1.3763 conj (0.68) [Jupiter]
+  - top rows: S Moon → H Chiron Dec 24.0001 24 whole (99.17) [Moon]
+  - other chart, star rows: J Difda → J Chiron RA 155.3491 96×φ golden (20.04) [Sun]
+- **H Juno** (same body: S Juno → H Juno RA 2.0151 2 whole (5.99))
+  - top rows: S Jupiter → H Juno Dec 0.1436 conj (27.17) [Jupiter]
+  - star rows: H Murzim → H Juno Dec 8.0187 8 whole (0.39) [Sun]
+  - other chart, same body: S Juno → J Juno RA 80.8870 50×φ golden (loose)
+  - other chart, star rows: J Adhara → J Juno RA 113.2560 70×φ golden (64.56) [Jupiter]
+  - other chart, star rows: J Alphard → J Juno RA 76.0182 φ^9 phi power (97.35) [Jupiter]
+  - other chart, star rows: J Difda → J Juno RA 152.9913 153 whole (32.08) [Sun]
+  - other chart, star rows: J Murzim → J Juno RA 122.2366 122.222 ninth (98.01) [Sun]
+  - other chart, star rows: J Phact → J Juno RA 132.9982 133 whole (82.56) [Jupiter]
+  - other chart, star rows: J Sadalsuud → J Juno RA 104.9828 105 whole (1.93) [Sun]
+  - other chart, star rows: J Sadalsuud → J Juno Dec 0.1827 conj (15.29) [Sun]
+  - other chart, star rows: J Sualocin → J Juno RA 92.0018 92 whole (82.39) [Jupiter]
+  - other chart, star rows: J Wezen → J Juno Dec 21.0025 21 whole (76.75) [Sun]
+- **H Vesta** (same body: S Vesta → H Vesta RA 155.7777 155.556 ninth (loose))
+  - top rows: S Moon → H Vesta RA 163.4156 101×φ golden (67.22) [Moon]
+  - star rows: H Alphard → H Vesta RA 66.0084 66 whole (33.41) [Jupiter]
+  - star rows: H Deneb → H Vesta Dec 23.0081 23 whole (35.39) [Sun]
+  - star rows: H Difda → H Vesta RA 64.9997 65 whole (97.47) [Sun]
+  - star rows: H Phact → H Vesta RA 9.0195 9 whole (0.06) [Jupiter]
+  - star rows: H Sadalsuud → H Vesta RA 113.0074 113 whole (39.47) [Sun]
+  - star rows: H Sualocin → H Vesta RA 125.9869 126 whole (11.83) [Jupiter]
+  - other chart, star rows: J Murzim → J Vesta RA 0.6668 conj (30.86) [Sun]
+- **H Transpluto** (same body: S Transpluto → H Transpluto Dec 1.2285 1.22222 ninth (loose))
+  - star rows: H Adhara → H Transpluto RA 46.9958 47 whole (62.70) [Jupiter]
+  - star rows: H Castor → H Transpluto RA 38.0027 38 whole (74.44) [Sun]
+  - star rows: H Difda → H Transpluto RA 140.7613 87×φ golden (58.33) [Sun]
+  - other chart, star rows: J Scheat → J Transpluto RA 160.1913 99×φ golden (66.70) [Sun]
+- **J Jupiter** (same body: S Jupiter → J Jupiter Dec 4.9722 5 whole (loose))
+  - body line: S Moon → Jupiter RA 66.0010 66 whole (90.00)
+  - top rows: S Moon → J Jupiter Dec 11.9992 12 whole (92.52) [Jupiter, Moon]
+  - star rows: S Deneb → J Jupiter RA 89.0083 89 whole (34.34) [Sun]
+  - star rows: J Phact → J Jupiter Dec 19.0126 19 whole (13.62) [Jupiter]
+  - star rows: S Scheat → J Jupiter RA 124.5982 77×φ golden (49.60) [Sun]
+  - other chart, top rows: S Neptune → H Jupiter Dec 25.9975 26 whole (76.73) [Jupiter, Sun]
+  - other chart, top rows: S Ceres → H Jupiter Dec 1.9958 2 whole (62.22) [Jupiter]
+  - other chart, star rows: H Sadalsuud → H Jupiter Dec 26.9913 27 whole (32.10) [Sun]
+- **J Neptune** (same body: S Neptune → J Neptune Dec 16.6831 16.6667 ninth (loose))
+  - body line: S Sun → Neptune RA 40.4536 25×φ golden (83.58)
+  - body line: S Sun → Neptune Dec 13.3394 13.3333 ninth (92.68)
+  - star rows: J Murzim → J Neptune RA 163.4156 101×φ golden (67.33) [Sun]
+  - other chart, same body: S Neptune → H Neptune RA 16.5777 16.6667 ninth (loose)
+  - other chart, star rows: H Adhara → H Neptune RA 129.0119 129 whole (16.37) [Jupiter]
+  - other chart, star rows: H Castor → H Neptune RA 138.0050 138 whole (56.26) [Sun]
+- **J Pallas** (same body: S Pallas → J Pallas Dec 3.0091 3 whole (29.59))
+  - star rows: J Wezen → J Pallas Dec 12.9946 13 whole (53.47) [Sun]
+  - other chart, top rows: S Jupiter → H Pallas Dec 1.6664 1.66667 ninth (97.74) [Jupiter]
+  - other chart, star rows: H Alphard → H Pallas Dec 0.2430 conj (3.61) [Jupiter]
+  - other chart, star rows: H Difda → H Pallas RA 17.7992 11×φ golden (94.73) [Sun]
+  - other chart, star rows: H Murzim → H Pallas RA 66.9837 67 whole (3.44) [Sun]
+- **J Juno** (same body: S Juno → J Juno RA 80.8870 50×φ golden (loose))
+  - star rows: J Adhara → J Juno RA 113.2560 70×φ golden (64.56) [Jupiter]
+  - star rows: J Alphard → J Juno RA 76.0182 φ^9 phi power (97.35) [Jupiter]
+  - star rows: J Difda → J Juno RA 152.9913 153 whole (32.08) [Sun]
+  - star rows: J Murzim → J Juno RA 122.2366 122.222 ninth (98.01) [Sun]
+  - star rows: J Phact → J Juno RA 132.9982 133 whole (82.56) [Jupiter]
+  - star rows: J Sadalsuud → J Juno RA 104.9828 105 whole (1.93) [Sun]
+  - star rows: J Sadalsuud → J Juno Dec 0.1827 conj (15.29) [Sun]
+  - star rows: J Sualocin → J Juno RA 92.0018 92 whole (82.39) [Jupiter]
+  - star rows: J Wezen → J Juno Dec 21.0025 21 whole (76.75) [Sun]
+  - other chart, same body: S Juno → H Juno RA 2.0151 2 whole (5.99)
+  - other chart, top rows: S Jupiter → H Juno Dec 0.1436 conj (27.17) [Jupiter]
+  - other chart, star rows: H Murzim → H Juno Dec 8.0187 8 whole (0.39) [Sun]
+- **J Rahu** (same body: S Rahu → J Rahu RA 166.5468 166.667 ninth (loose))
+  - other chart, star rows: H Deneb → H Rahu RA 84.9977 85 whole (78.46) [Sun]
+- **J Haumea** (same body: S Haumea → J Haumea RA 26.1747 10×φ^2 phi power (loose))
+  - star rows: J Deneb → J Haumea RA 118.9884 119 whole (17.78) [Sun]
+  - other chart, star rows: H Deneb → H Haumea Dec 27.0189 27 whole (0.30) [Sun]
+  - other chart, star rows: H Wezen → H Haumea RA 101.9931 102 whole (42.63) [Sun]
+- **J Makemake** (same body: S Makemake → J Makemake Dec 11.1299 11.1111 ninth (loose))
+  - star rows: J Sadalsuud → J Makemake RA 148.8418 92×φ golden (21.45) [Sun]
+  - other chart, star rows: H Difda → H Makemake RA 179.4716 10×φ^6 phi power (93.66) [Sun]
+  - other chart, star rows: H Menkar → H Makemake Dec 23.0183 23 whole (0.76) [Sun]
+- **J Ketu** (same body: S Ketu → J Ketu RA 166.5468 166.667 ninth (loose))
+  - other chart, star rows: H Deneb → H Ketu RA 95.0023 95 whole (78.46) [Sun]
+  - other chart, star rows: H Menkar → H Ketu RA 0.2116 conj (73.78) [Sun]
+### L3 the seven cases (L5 field tag on each)
+- **1. same body on both charts**
+  - Neptune — also: 3 Anna Bunina / James Bowen
+    - S Neptune → H Neptune RA 16.5777 16.6667 ninth (loose)
+    - S Neptune → J Neptune Dec 16.6831 16.6667 ninth (loose)
+  - Juno — only
+    - S Juno → H Juno RA 2.0151 2 whole (5.99)
+    - S Juno → J Juno RA 80.8870 50×φ golden (loose)
+- **2. one body in both planes**: none
+- **3. runner number = sky number**
+  - 24 whole — also: 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
+    - S Moon → H Chiron Dec 24.0001 24 whole (99.17) = S Jupiter → Phact Dec 23.9930 24 whole (42.18)
+  - 101×φ golden — also: 3 Anna Bunina / James Bowen
+    - S Moon → H Vesta RA 163.4156 101×φ golden (67.22) = S Jupiter → Alphard RA 163.4240 101×φ golden (84.95)
+  - 26 whole — also: 5 Miss Heritage / Sean Quinlan
+    - S Neptune → H Jupiter Dec 25.9975 26 whole (76.73) = S Jupiter → Sualocin Dec 25.9954 26 whole (59.00)
+  - 66 whole — only
+    - H Alphard → H Vesta RA 66.0084 66 whole (33.41) = S Moon → Jupiter RA 66.0010 66 whole (90.00)
+  - 100×φ^1 phi power — also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
+    - H Deneb → H Orcus RA 161.8571 100×φ^1 phi power (87.17) = S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
+  - 11.1111 ninth — also: 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
+    - S Makemake → J Makemake Dec 11.1299 11.1111 ninth (loose) = S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
+  - 100×φ^1 phi power — also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
+    - J Jupiter → J Eris RA 161.8328 100×φ^1 phi power (92.86) = S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
+  - 22 whole — also: 4 Dazzling Glory / Harry Skelton
+    - J Deneb → J Ceres Dec 22.0103 22 whole (23.58) = S Sun → Menkar Dec 22.0070 22 whole (42.05)
+  - 96×φ golden — also: 3 Anna Bunina / James Bowen
+    - J Difda → J Chiron RA 155.3491 96×φ golden (20.04) = S Sun → Wezen RA 155.3330 96×φ golden (89.39)
+  - 101×φ golden — also: 3 Anna Bunina / James Bowen
+    - J Murzim → J Neptune RA 163.4156 101×φ golden (67.33) = S Jupiter → Alphard RA 163.4240 101×φ golden (84.95)
+  - 22 whole — also: 4 Dazzling Glory / Harry Skelton
+    - J Sualocin → J Pluto Dec 21.9889 22 whole (20.00) = S Sun → Menkar Dec 22.0070 22 whole (42.05)
+- **4. circle divisions**
+  - 2 = 360/180 — only
+    - S Juno → H Juno RA 2.0151 2 whole (5.99)
+  - 24 = 360/15 — also: 5 Miss Heritage / Sean Quinlan
+    - S Moon → H Chiron Dec 24.0001 24 whole (99.17)
+  - 2 = 360/180 — only
+    - S Ceres → H Jupiter Dec 1.9958 2 whole (62.22)
+  - 5 = 360/72 — also: 1 Miranda / Bryony Frost, 5 Miss Heritage / Sean Quinlan
+    - S Jupiter → J Jupiter Dec 4.9722 5 whole (loose)
+  - 3 = 360/120 — also: 5 Miss Heritage / Sean Quinlan
+    - S Pallas → J Pallas Dec 3.0091 3 whole (29.59)
+  - 12 = 360/30 — also: 4 Dazzling Glory / Harry Skelton
+    - S Moon → J Jupiter Dec 11.9992 12 whole (92.52)
+  - 60 = 360/6 — only
+    - J Adhara → J Sedna RA 59.9995 60 whole (94.83)
+  - 4 = 360/90 — also: 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
+    - J Murzim → J Quaoar Dec 3.9966 4 whole (68.59)
+  - 12 = 360/30 — also: 4 Dazzling Glory / Harry Skelton
+    - J Phact → J Uranus Dec 11.9949 12 whole (55.69)
+- **5. same number in more than one place**
+  - 45×φ golden — only
+    - S Venus → H Venus RA 72.8110 45×φ golden (96.59)
+    - J Deneb → J Eris RA 72.8120 45×φ golden (97.19)
+  - 16.6667 ninth — also: 3 Anna Bunina / James Bowen
+    - S Neptune → H Neptune RA 16.5777 16.6667 ninth (loose)
+    - S Neptune → J Neptune Dec 16.6831 16.6667 ninth (loose)
+  - 17×φ golden — only
+    - S Chiron → H Chiron RA 27.4788 17×φ golden (loose)
+    - H Scheat → H Mars Dec 27.5079 17×φ golden (92.08)
+  - 2 whole — only
+    - S Juno → H Juno RA 2.0151 2 whole (5.99)
+    - S Ceres → H Jupiter Dec 1.9958 2 whole (62.22)
+  - 101×φ golden — only
+    - S Moon → H Vesta RA 163.4156 101×φ golden (67.22)
+    - J Murzim → J Neptune RA 163.4156 101×φ golden (67.33)
+  - 100×φ^1 phi power — also: 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
+    - H Deneb → H Orcus RA 161.8571 100×φ^1 phi power (87.17)
+    - J Jupiter → J Eris RA 161.8328 100×φ^1 phi power (92.86)
+  - 166.667 ninth — only
+    - S Rahu → J Rahu RA 166.5468 166.667 ninth (loose)
+    - S Ketu → J Ketu RA 166.5468 166.667 ninth (loose)
+  - 12 whole — only
+    - S Moon → J Jupiter Dec 11.9992 12 whole (92.52)
+    - J Phact → J Uranus Dec 11.9949 12 whole (55.69)
+- **6. star and sky line on one body**: none
+- **7. centres meeting**
+  - Neptune: Jupiter, Sun — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
+    - [Jupiter] H Adhara → H Neptune RA 129.0119 129 whole (16.37)
+    - [Sun] S Neptune → H Neptune RA 16.5777 16.6667 ninth (loose)
+    - [Sun] H Castor → H Neptune RA 138.0050 138 whole (56.26)
+    - [Sun] S Neptune → J Neptune Dec 16.6831 16.6667 ninth (loose)
+    - [Sun] J Murzim → J Neptune RA 163.4156 101×φ golden (67.33)
+  - Chiron: Jupiter, Moon, Sun — only
+    - [Jupiter] S Jupiter → H Chiron RA 1.3763 conj (0.68)
+    - [Moon] S Moon → H Chiron Dec 24.0001 24 whole (99.17)
+    - [Sun] J Difda → J Chiron RA 155.3491 96×φ golden (20.04)
+  - Pallas: Jupiter, Sun — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen
+    - [Jupiter] S Jupiter → H Pallas Dec 1.6664 1.66667 ninth (97.74)
+    - [Jupiter] H Alphard → H Pallas Dec 0.2430 conj (3.61)
+    - [Sun] H Difda → H Pallas RA 17.7992 11×φ golden (94.73)
+    - [Sun] H Murzim → H Pallas RA 66.9837 67 whole (3.44)
+    - [Sun] J Wezen → J Pallas Dec 12.9946 13 whole (53.47)
+  - Juno: Jupiter, Sun — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
+    - [Jupiter] S Jupiter → H Juno Dec 0.1436 conj (27.17)
+    - [Jupiter] J Adhara → J Juno RA 113.2560 70×φ golden (64.56)
+    - [Jupiter] J Alphard → J Juno RA 76.0182 φ^9 phi power (97.35)
+    - [Jupiter] J Phact → J Juno RA 132.9982 133 whole (82.56)
+    - [Jupiter] J Sualocin → J Juno RA 92.0018 92 whole (82.39)
+    - [Sun] H Murzim → H Juno Dec 8.0187 8 whole (0.39)
+    - [Sun] J Difda → J Juno RA 152.9913 153 whole (32.08)
+    - [Sun] J Murzim → J Juno RA 122.2366 122.222 ninth (98.01)
+    - [Sun] J Sadalsuud → J Juno RA 104.9828 105 whole (1.93)
+    - [Sun] J Sadalsuud → J Juno Dec 0.1827 conj (15.29)
+    - [Sun] J Wezen → J Juno Dec 21.0025 21 whole (76.75)
+  - Sun: Jupiter, Sun — also: 4 Dazzling Glory / Harry Skelton
+    - [Jupiter] H Alphard → H Sun Dec 7.0188 7 whole (0.34)
+    - [Sun] S Sun → H Sun RA 44.4423 44.4444 ninth (97.73)
+    - [Sun] J Deneb → J Sun RA 130.9833 131 whole (2.77)
+    - [Sun] J Deneb → J Sun Dec 45.0175 45 whole (1.54)
+  - Vesta: Jupiter, Moon, Sun — only
+    - [Jupiter] H Alphard → H Vesta RA 66.0084 66 whole (33.41)
+    - [Jupiter] H Phact → H Vesta RA 9.0195 9 whole (0.06)
+    - [Jupiter] H Sualocin → H Vesta RA 125.9869 126 whole (11.83)
+    - [Moon] S Moon → H Vesta RA 163.4156 101×φ golden (67.22)
+    - [Sun] H Deneb → H Vesta Dec 23.0081 23 whole (35.39)
+    - [Sun] H Difda → H Vesta RA 64.9997 65 whole (97.47)
+    - [Sun] H Sadalsuud → H Vesta RA 113.0074 113 whole (39.47)
+    - [Sun] J Murzim → J Vesta RA 0.6668 conj (30.86)
+  - Jupiter: Jupiter, Moon, Sun — also: 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
+    - [Jupiter] S Neptune → H Jupiter Dec 25.9975 26 whole (76.73)
+    - [Jupiter] S Ceres → H Jupiter Dec 1.9958 2 whole (62.22)
+    - [Jupiter] S Moon → J Jupiter Dec 11.9992 12 whole (92.52)
+    - [Jupiter] J Phact → J Jupiter Dec 19.0126 19 whole (13.62)
+    - [Moon] S Jupiter → J Jupiter Dec 4.9722 5 whole (loose)
+    - [Moon] S Moon → J Jupiter Dec 11.9992 12 whole (92.52)
+    - [Sun] S Neptune → H Jupiter Dec 25.9975 26 whole (76.73)
+    - [Sun] H Sadalsuud → H Jupiter Dec 26.9913 27 whole (32.10)
+    - [Sun] S Deneb → J Jupiter RA 89.0083 89 whole (34.34)
+    - [Sun] S Scheat → J Jupiter RA 124.5982 77×φ golden (49.60)
+  - Mercury: Jupiter, Sun — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen
+    - [Jupiter] H Adhara → H Mercury RA 127.8548 79×φ golden (0.48)
+    - [Sun] J Wezen → J Mercury Dec 14.5610 9×φ golden (92.11)
+  - Transpluto: Jupiter, Sun — also: 3 Anna Bunina / James Bowen
+    - [Jupiter] H Adhara → H Transpluto RA 46.9958 47 whole (62.70)
+    - [Sun] H Castor → H Transpluto RA 38.0027 38 whole (74.44)
+    - [Sun] H Difda → H Transpluto RA 140.7613 87×φ golden (58.33)
+    - [Sun] J Scheat → J Transpluto RA 160.1913 99×φ golden (66.70)
+  - Pluto: Jupiter, Sun — also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
+    - [Jupiter] H Alphard → H Pluto RA 139.9908 140 whole (29.41)
+    - [Jupiter] H Sualocin → H Pluto RA 28.0138 28 whole (9.49)
+    - [Jupiter] J Phact → J Pluto Dec 27.9957 28 whole (61.68)
+    - [Jupiter] J Sualocin → J Pluto Dec 21.9889 22 whole (20.00)
+    - [Sun] H Difda → H Pluto RA 89.0010 89 whole (90.54)
+    - [Sun] H Sadalsuud → H Pluto RA 40.9933 41 whole (44.09)
+  - Sedna: Jupiter, Sun — also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
+    - [Jupiter] J Adhara → J Sedna RA 59.9995 60 whole (94.83)
+    - [Sun] H Difda → H Sedna RA 42.3675 10×φ^3 phi power (93.62)
+    - [Sun] J Castor → J Sedna RA 68.9919 69 whole (35.39)
+    - [Sun] J Menkar → J Sedna RA 0.9180 conj (15.05)
+    - [Sun] J Murzim → J Sedna RA 51.0189 51 whole (0.29)
+  - Eris: Jupiter, Sun — only
+    - [Jupiter] J Jupiter → J Eris RA 161.8328 100×φ^1 phi power (92.86)
+    - [Sun] H Murzim → H Eris RA 70.7174 70.7 sqrt2 (96.22)
+    - [Sun] J Deneb → J Eris RA 72.8120 45×φ golden (97.19)
+  - Saturn: Jupiter, Sun — also: 3 Anna Bunina / James Bowen
+    - [Jupiter] H Phact → H Saturn RA 134.2808 83×φ golden (25.35)
+    - [Sun] H Sadalsuud → H Saturn Dec 6.9969 7 whole (71.60)
+    - [Sun] J Sadalsuud → J Saturn Dec 5.0070 5 whole (42.24)
+  - Ceres: Jupiter, Sun — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
+    - [Jupiter] H Phact → H Ceres RA 1.0433 conj (9.27)
+    - [Sun] H Sadalsuud → H Ceres RA 120.9837 121 whole (3.37)
+    - [Sun] J Deneb → J Ceres RA 173.1376 107×φ golden (56.87)
+    - [Sun] J Deneb → J Ceres Dec 22.0103 22 whole (23.58)
+    - [Sun] J Scheat → J Ceres RA 137.5514 85×φ golden (18.40)
+  - Venus: Jupiter, Sun — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen
+    - [Jupiter] J Phact → J Venus Dec 13.9975 14 whole (76.29)
+    - [Jupiter] J Sualocin → J Venus Dec 35.9872 36 whole (12.90)
+    - [Sun] H Scheat → H Venus RA 8.0136 8 whole (10.13)
+  - Quaoar: Jupiter, Sun — also: 3 Anna Bunina / James Bowen
+    - [Jupiter] J Adhara → J Quaoar Dec 15.0121 15 whole (15.72)
+    - [Sun] J Murzim → J Quaoar Dec 3.9966 4 whole (68.59)
+  - Gonggong: Jupiter, Sun — also: 1 Miranda / Bryony Frost
+    - [Jupiter] J Adhara → J Gonggong Dec 9.9992 10 ninth (94.93)
+    - [Sun] J Difda → J Gonggong Dec 0.9842 1 whole (4.49)
+    - [Sun] J Murzim → J Gonggong Dec 1.0163 1 whole (3.48)
+  - Uranus: Jupiter, Sun — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
+    - [Jupiter] J Phact → J Uranus Dec 11.9949 12 whole (55.69)
+    - [Jupiter] J Sualocin → J Uranus Dec 37.9897 38 whole (23.65)
+    - [Sun] J Menkar → J Uranus RA 111.1878 111.111 ninth (87.45)
+    - [Sun] J Scheat → J Uranus Dec 50.1596 31×φ golden (96.74)
+
+## 3 Anna Bunina / James Bowen
+### L1 same bodies
+- S Saturn → H Saturn RA 62.9861 63 whole (9.33)
+- S Uranus → H Uranus Dec 8.0992 5×φ golden (loose)
+- S Neptune → H Neptune RA 11.0534 φ^5 phi power (loose)
+- S Pluto → H Pluto RA 11.0792 φ^5 phi power (loose)
+- S Chiron → H Chiron RA 17.9974 18 whole (75.58)
+- S Ceres → H Ceres RA 69.5751 43×φ golden (97.60)
+- S Rahu → H Rahu Dec 16.5660 16.6667 ninth (loose)
+- S Eris → H Eris Dec 1.4199 1.414 sqrt2 (loose)
+- S Ketu → H Ketu Dec 16.5660 16.6667 ninth (loose)
+- S Venus → J Venus RA 92.0131 92 whole (11.76)
+- S Venus → J Venus Dec 30.0196 30 whole (0.03)
+- S Neptune → J Neptune RA 42.0166 42 whole (2.89)
+- S Ceres → J Ceres RA 133.1851 133.333 ninth (loose)
+- S Pallas → J Pallas RA 102.0036 102 whole (67.38)
+- S Juno → J Juno RA 73.9843 74 whole (4.71)
+- S Juno → J Juno Dec 12.9148 8×φ golden (loose)
+- S Haumea → J Haumea Dec 6.0290 6 whole (loose)
+- S Makemake → J Makemake RA 18.7884 18.8889 ninth (loose)
+- S Quaoar → J Quaoar RA 27.0298 27 whole (loose)
+### L2 what lands on each same body
+- **H Saturn** (same body: S Saturn → H Saturn RA 62.9861 63 whole (9.33))
+  - star rows: H Adhara → H Saturn Dec 8.0052 8 whole (55.04) [Jupiter]
+  - star rows: H Difda → H Saturn Dec 2.9814 3 whole (0.52) [Sun]
+  - star rows: H Murzim → H Saturn Dec 3.0114 3 whole (18.33) [Sun]
+  - other chart, top rows: S Jupiter → J Saturn Dec 27.5100 17×φ golden (80.22) [Jupiter]
+  - other chart, star rows: J Menkar → J Saturn Dec 13.3377 13.3333 ninth (94.81) [Sun]
+  - other chart, star rows: J Sadalsuud → J Saturn Dec 22.9986 23 whole (86.61) [Sun]
+- **H Uranus** (same body: S Uranus → H Uranus Dec 8.0992 5×φ golden (loose))
+  - star rows: H Sadalsuud → H Uranus RA 53.9838 54 whole (3.55) [Sun]
+  - other chart, star rows: J Alphard → J Uranus Dec 5.9837 6 whole (3.35) [Jupiter]
+- **H Neptune** (same body: S Neptune → H Neptune RA 11.0534 φ^5 phi power (loose))
+  - body line: S Sun → Neptune RA 40.4536 25×φ golden (83.58)
+  - body line: S Sun → Neptune Dec 13.3394 13.3333 ninth (92.68)
+  - star rows: H Alphard → H Neptune Dec 0.1588 conj (22.15) [Jupiter]
+  - other chart, same body: S Neptune → J Neptune RA 42.0166 42 whole (2.89)
+  - other chart, top rows: S Sun → J Neptune Dec 0.2372 conj (4.38) [Sun]
+  - other chart, star rows: J Castor → J Neptune RA 163.4451 101×φ golden (7.29) [Sun]
+  - other chart, star rows: J Deneb → J Neptune RA 0.1446 conj (81.65) [Sun]
+  - other chart, star rows: J Difda → J Neptune Dec 0.1668 conj (19.73) [Sun]
+  - other chart, star rows: J Murzim → J Neptune Dec 0.1964 conj (11.91) [Sun]
+  - other chart, star rows: J Sualocin → J Neptune RA 0.3023 conj (63.76) [Jupiter]
+- **H Pluto** (same body: S Pluto → H Pluto RA 11.0792 φ^5 phi power (loose))
+  - star rows: H Difda → H Pluto RA 83.0181 83 whole (0.90) [Sun]
+  - star rows: H Menkar → H Pluto Dec 24.9853 25 whole (6.92) [Sun]
+  - star rows: H Sadalsuud → H Pluto RA 35.0089 35 whole (30.61) [Sun]
+  - other chart, star rows: J Alphard → J Pluto RA 113.2728 70×φ golden (46.08) [Jupiter]
+- **H Chiron** (same body: S Chiron → H Chiron RA 17.9974 18 whole (75.58))
+  - star rows: H Castor → H Chiron Dec 31.9986 32 whole (86.22) [Sun]
+  - star rows: H Deneb → H Chiron RA 38.9845 39 whole (5.17) [Sun]
+  - other chart, top rows: S Sun → J Chiron Dec 0.0511 conj (68.83) [Sun]
+  - other chart, star rows: J Difda → J Chiron Dec 0.1216 conj (35.37) [Sun]
+  - other chart, star rows: J Murzim → J Chiron Dec 0.0919 conj (48.12) [Sun]
+- **H Ceres** (same body: S Ceres → H Ceres RA 69.5751 43×φ golden (97.60))
+  - star rows: H Adhara → H Ceres RA 118.0149 118 whole (6.62) [Jupiter]
+  - star rows: H Castor → H Ceres RA 127.0077 127 whole (38.04) [Sun]
+  - star rows: H Scheat → H Ceres RA 0.7066 conj (27.98) [Sun]
+  - other chart, same body: S Ceres → J Ceres RA 133.1851 133.333 ninth (loose)
+  - other chart, star rows: J Phact → J Ceres RA 161.8776 100×φ^1 phi power (82.50) [Jupiter]
+- **H Rahu** (same body: S Rahu → H Rahu Dec 16.5660 16.6667 ninth (loose))
+  - star rows: H Alphard → H Rahu Dec 11.9877 12 whole (14.97) [Jupiter]
+  - star rows: H Phact → H Rahu RA 87.3800 54×φ golden (65.65) [Jupiter]
+  - other chart, star rows: J Adhara → J Rahu RA 0.8218 conj (20.44) [Jupiter]
+- **H Eris** (same body: S Eris → H Eris Dec 1.4199 1.414 sqrt2 (loose))
+  - other chart, top rows: S Sun → J Eris Dec 11.3265 7×φ golden (98.64) [Sun]
+  - other chart, top rows: S Moon → J Eris RA 110.9611 10×φ^5 phi power (79.72) [Moon]
+  - other chart, star rows: J Sadalsuud → J Eris Dec 1.0192 1 whole (0.17) [Sun]
+- **H Ketu** (same body: S Ketu → H Ketu Dec 16.5660 16.6667 ninth (loose))
+  - star rows: H Castor → H Ketu RA 121.3588 75×φ golden (65.19) [Sun]
+- **J Venus** (same body: S Venus → J Venus RA 92.0131 92 whole (11.76); S Venus → J Venus Dec 30.0196 30 whole (0.03))
+  - other chart, star rows: H Adhara → H Venus Dec 12.0068 12 whole (43.44) [Jupiter]
+  - other chart, star rows: H Murzim → H Venus Dec 0.9902 1 whole (26.11) [Sun]
+- **J Neptune** (same body: S Neptune → J Neptune RA 42.0166 42 whole (2.89))
+  - body line: S Sun → Neptune RA 40.4536 25×φ golden (83.58)
+  - body line: S Sun → Neptune Dec 13.3394 13.3333 ninth (92.68)
+  - top rows: S Sun → J Neptune Dec 0.2372 conj (4.38) [Sun]
+  - star rows: J Castor → J Neptune RA 163.4451 101×φ golden (7.29) [Sun]
+  - star rows: J Deneb → J Neptune RA 0.1446 conj (81.65) [Sun]
+  - star rows: J Difda → J Neptune Dec 0.1668 conj (19.73) [Sun]
+  - star rows: J Murzim → J Neptune Dec 0.1964 conj (11.91) [Sun]
+  - star rows: J Sualocin → J Neptune RA 0.3023 conj (63.76) [Jupiter]
+  - other chart, same body: S Neptune → H Neptune RA 11.0534 φ^5 phi power (loose)
+  - other chart, star rows: H Alphard → H Neptune Dec 0.1588 conj (22.15) [Jupiter]
+- **J Ceres** (same body: S Ceres → J Ceres RA 133.1851 133.333 ninth (loose))
+  - star rows: J Phact → J Ceres RA 161.8776 100×φ^1 phi power (82.50) [Jupiter]
+  - other chart, same body: S Ceres → H Ceres RA 69.5751 43×φ golden (97.60)
+  - other chart, star rows: H Adhara → H Ceres RA 118.0149 118 whole (6.62) [Jupiter]
+  - other chart, star rows: H Castor → H Ceres RA 127.0077 127 whole (38.04) [Sun]
+  - other chart, star rows: H Scheat → H Ceres RA 0.7066 conj (27.98) [Sun]
+- **J Pallas** (same body: S Pallas → J Pallas RA 102.0036 102 whole (67.38))
+  - star rows: J Phact → J Pallas RA 171.5169 106×φ golden (70.17) [Jupiter]
+  - other chart, star rows: H Deneb → H Pallas RA 0.9490 conj (13.50) [Sun]
+  - other chart, star rows: H Sadalsuud → H Pallas Dec 9.9866 10 whole (11.02) [Sun]
+  - other chart, star rows: H Sualocin → H Pallas RA 0.5026 conj (44.22) [Jupiter]
+- **J Juno** (same body: S Juno → J Juno RA 73.9843 74 whole (4.71); S Juno → J Juno Dec 12.9148 8×φ golden (loose))
+  - star rows: J Alphard → J Juno Dec 9.0017 9 whole (84.01) [Jupiter]
+  - other chart, star rows: H Murzim → H Juno Dec 11.1131 11.1111 ninth (96.79) [Sun]
+- **J Haumea** (same body: S Haumea → J Haumea Dec 6.0290 6 whole (loose))
+- **J Makemake** (same body: S Makemake → J Makemake RA 18.7884 18.8889 ninth (loose))
+  - star rows: J Sadalsuud → J Makemake RA 142.3707 88×φ golden (24.53) [Sun]
+- **J Quaoar** (same body: S Quaoar → J Quaoar RA 27.0298 27 whole (loose))
+  - star rows: J Phact → J Quaoar Dec 19.0122 19 whole (15.27) [Jupiter]
+  - other chart, star rows: H Alphard → H Quaoar Dec 6.9899 7 whole (24.65) [Jupiter]
+  - other chart, star rows: H Castor → H Quaoar RA 155.3624 96×φ golden (0.13) [Sun]
+### L3 the seven cases (L5 field tag on each)
+- **1. same body on both charts**
+  - Neptune — also: 2 Western Victory / Tom Bellamy
+    - S Neptune → H Neptune RA 11.0534 φ^5 phi power (loose)
+    - S Neptune → J Neptune RA 42.0166 42 whole (2.89)
+  - Ceres — only
+    - S Ceres → H Ceres RA 69.5751 43×φ golden (97.60)
+    - S Ceres → J Ceres RA 133.1851 133.333 ninth (loose)
+- **2. one body in both planes**
+  - J Venus — only
+    - S Venus → J Venus RA 92.0131 92 whole (11.76)
+    - S Venus → J Venus Dec 30.0196 30 whole (0.03)
+  - J Juno — only
+    - S Juno → J Juno RA 73.9843 74 whole (4.71)
+    - S Juno → J Juno Dec 12.9148 8×φ golden (loose)
+- **3. runner number = sky number**
+  - 96×φ golden — also: 2 Western Victory / Tom Bellamy
+    - H Castor → H Quaoar RA 155.3624 96×φ golden (0.13) = S Sun → Wezen RA 155.3330 96×φ golden (89.39)
+  - 13.3333 ninth — also: 5 Miss Heritage / Sean Quinlan
+    - H Menkar → H Orcus Dec 13.3321 13.3333 ninth (98.47) = S Sun → Neptune Dec 13.3394 13.3333 ninth (92.68)
+  - 11.1111 ninth — also: 2 Western Victory / Tom Bellamy, 5 Miss Heritage / Sean Quinlan
+    - H Murzim → H Juno Dec 11.1131 11.1111 ninth (96.79) = S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
+  - 18.8889 ninth — also: 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
+    - S Makemake → J Makemake RA 18.7884 18.8889 ninth (loose) = S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)
+  - 101×φ golden — also: 2 Western Victory / Tom Bellamy
+    - J Castor → J Neptune RA 163.4451 101×φ golden (7.29) = S Jupiter → Alphard RA 163.4240 101×φ golden (84.95)
+  - 13.3333 ninth — also: 5 Miss Heritage / Sean Quinlan
+    - J Menkar → J Saturn Dec 13.3377 13.3333 ninth (94.81) = S Sun → Neptune Dec 13.3394 13.3333 ninth (92.68)
+  - 100×φ^1 phi power — also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
+    - J Phact → J Ceres RA 161.8776 100×φ^1 phi power (82.50) = S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
+- **4. circle divisions**
+  - 18 = 360/20 — also: 1 Miranda / Bryony Frost
+    - S Chiron → H Chiron RA 17.9974 18 whole (75.58)
+  - 6 = 360/60 — also: 1 Miranda / Bryony Frost
+    - S Jupiter → H Mercury Dec 6.0045 6 whole (59.77)
+  - 8 = 360/45 — also: 4 Dazzling Glory / Harry Skelton
+    - H Adhara → H Saturn Dec 8.0052 8 whole (55.04)
+  - 30 = 360/12 — also: 1 Miranda / Bryony Frost
+    - S Venus → J Venus Dec 30.0196 30 whole (0.03)
+  - 6 = 360/60 — also: 1 Miranda / Bryony Frost
+    - S Haumea → J Haumea Dec 6.0290 6 whole (loose)
+  - 36 = 360/10 — only
+    - S Quaoar → J Jupiter Dec 35.9997 36 whole (96.93)
+  - 9 = 360/40 — only
+    - J Alphard → J Juno Dec 9.0017 9 whole (84.01)
+- **5. same number in more than one place**
+  - φ^5 phi power — only
+    - S Neptune → H Neptune RA 11.0534 φ^5 phi power (loose)
+    - S Pluto → H Pluto RA 11.0792 φ^5 phi power (loose)
+  - 16.6667 ninth — also: 2 Western Victory / Tom Bellamy
+    - S Rahu → H Rahu Dec 16.5660 16.6667 ninth (loose)
+    - S Ketu → H Ketu Dec 16.5660 16.6667 ninth (loose)
+  - 125 whole — only
+    - H Jupiter → H star Menkar RA 125.0029 125 whole (73.22)
+    - S Menkar → H Jupiter RA 125.0000 125 whole (99.88)
+  - 6 whole — only
+    - S Jupiter → H Mercury Dec 6.0045 6 whole (59.77)
+    - S Haumea → J Haumea Dec 6.0290 6 whole (loose)
+  - 32 whole — only
+    - H Castor → H Chiron Dec 31.9986 32 whole (86.22)
+    - H Sualocin → H Mercury Dec 31.9984 32 whole (85.09)
+  - 13.3333 ninth — only
+    - H Menkar → H Orcus Dec 13.3321 13.3333 ninth (98.47)
+    - J Menkar → J Saturn Dec 13.3377 13.3333 ninth (94.81)
+  - 29×φ golden — only
+    - J Jupiter → J star Wezen Dec 46.9215 29×φ golden (90.97)
+    - J Wezen → J Jupiter Dec 46.9215 29×φ golden (90.97)
+  - 10×φ^5 phi power — only
+    - S Sun → J Jupiter RA 110.9120 10×φ^5 phi power (96.32)
+    - S Moon → J Eris RA 110.9611 10×φ^5 phi power (79.72)
+- **6. star and sky line on one body**
+  - J Neptune on Deneb — only
+    - J Deneb → J Neptune RA 0.1446 conj (81.65)
+    - S Sun → J Neptune Dec 0.2372 conj (4.38)
+  - J Neptune on Sualocin — only
+    - J Sualocin → J Neptune RA 0.3023 conj (63.76)
+    - S Sun → J Neptune Dec 0.2372 conj (4.38)
+- **7. centres meeting**
+  - Neptune: Jupiter, Sun — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 5 Miss Heritage / Sean Quinlan
+    - [Jupiter] H Alphard → H Neptune Dec 0.1588 conj (22.15)
+    - [Jupiter] J Sualocin → J Neptune RA 0.3023 conj (63.76)
+    - [Sun] S Neptune → H Neptune RA 11.0534 φ^5 phi power (loose)
+    - [Sun] S Neptune → J Neptune RA 42.0166 42 whole (2.89)
+    - [Sun] S Sun → J Neptune Dec 0.2372 conj (4.38)
+    - [Sun] J Castor → J Neptune RA 163.4451 101×φ golden (7.29)
+    - [Sun] J Deneb → J Neptune RA 0.1446 conj (81.65)
+    - [Sun] J Difda → J Neptune Dec 0.1668 conj (19.73)
+    - [Sun] J Murzim → J Neptune Dec 0.1964 conj (11.91)
+  - Mercury: Jupiter, Sun — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy
+    - [Jupiter] S Jupiter → H Mercury Dec 6.0045 6 whole (59.77)
+    - [Jupiter] H Phact → H Mercury Dec 17.9897 18 whole (23.75)
+    - [Jupiter] H Sualocin → H Mercury Dec 31.9984 32 whole (85.09)
+    - [Jupiter] J Adhara → J Mercury RA 137.5177 85×φ golden (28.12)
+    - [Jupiter] J Alphard → J Mercury RA 174.7603 108×φ golden (37.35)
+    - [Sun] H Castor → H Mercury RA 148.8534 92×φ golden (67.95)
+    - [Sun] H Deneb → H Mercury RA 14.4481 14.4444 ninth (96.11)
+    - [Sun] J Wezen → J Mercury Dec 12.2282 12.2222 ninth (91.71)
+  - Jupiter: Jupiter, Moon, Sun — also: 2 Western Victory / Tom Bellamy, 5 Miss Heritage / Sean Quinlan
+    - [Jupiter] S Chiron → H Jupiter Dec 0.2268 conj (5.95)
+    - [Jupiter] S Haumea → H Jupiter RA 46.9783 φ^8 phi power (99.62)
+    - [Jupiter] S Sun → J Jupiter RA 110.9120 10×φ^5 phi power (96.32)
+    - [Jupiter] S Mars → J Jupiter RA 148.9993 149 whole (92.75)
+    - [Jupiter] S Quaoar → J Jupiter Dec 35.9997 36 whole (96.93)
+    - [Moon] S Mars → J Jupiter RA 148.9993 149 whole (92.75)
+    - [Sun] S Menkar → H Jupiter RA 125.0000 125 whole (99.88)
+    - [Sun] S Sun → J Jupiter RA 110.9120 10×φ^5 phi power (96.32)
+    - [Sun] S Murzim → J Jupiter RA 32.9973 33 whole (74.65)
+    - [Sun] J Wezen → J Jupiter Dec 46.9215 29×φ golden (90.97)
+  - Venus: Jupiter, Sun — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy
+    - [Jupiter] H Adhara → H Venus Dec 12.0068 12 whole (43.44)
+    - [Sun] H Murzim → H Venus Dec 0.9902 1 whole (26.11)
+  - Mars: Jupiter, Sun — only
+    - [Jupiter] H Adhara → H Mars RA 130.9913 131 whole (32.15)
+    - [Sun] H Castor → H Mars RA 121.9985 122 whole (85.85)
+    - [Sun] J Murzim → J Mars RA 155.5773 155.556 ninth (97.94)
+  - Saturn: Jupiter, Sun — also: 2 Western Victory / Tom Bellamy
+    - [Jupiter] H Adhara → H Saturn Dec 8.0052 8 whole (55.04)
+    - [Jupiter] S Jupiter → J Saturn Dec 27.5100 17×φ golden (80.22)
+    - [Sun] H Difda → H Saturn Dec 2.9814 3 whole (0.52)
+    - [Sun] H Murzim → H Saturn Dec 3.0114 3 whole (18.33)
+    - [Sun] J Menkar → J Saturn Dec 13.3377 13.3333 ninth (94.81)
+    - [Sun] J Sadalsuud → J Saturn Dec 22.9986 23 whole (86.61)
+  - Ceres: Jupiter, Sun — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton
+    - [Jupiter] H Adhara → H Ceres RA 118.0149 118 whole (6.62)
+    - [Jupiter] J Phact → J Ceres RA 161.8776 100×φ^1 phi power (82.50)
+    - [Sun] H Castor → H Ceres RA 127.0077 127 whole (38.04)
+    - [Sun] H Scheat → H Ceres RA 0.7066 conj (27.98)
+  - Quaoar: Jupiter, Sun — also: 2 Western Victory / Tom Bellamy
+    - [Jupiter] H Alphard → H Quaoar Dec 6.9899 7 whole (24.65)
+    - [Jupiter] J Phact → J Quaoar Dec 19.0122 19 whole (15.27)
+    - [Sun] H Castor → H Quaoar RA 155.3624 96×φ golden (0.13)
+  - Pallas: Jupiter, Sun — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy
+    - [Jupiter] H Sualocin → H Pallas RA 0.5026 conj (44.22)
+    - [Jupiter] J Phact → J Pallas RA 171.5169 106×φ golden (70.17)
+    - [Sun] H Deneb → H Pallas RA 0.9490 conj (13.50)
+    - [Sun] H Sadalsuud → H Pallas Dec 9.9866 10 whole (11.02)
+  - Orcus: Jupiter, Sun — also: 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
+    - [Jupiter] H Sualocin → H Orcus RA 158.5719 98×φ golden (73.88)
+    - [Sun] H Deneb → H Orcus RA 159.0183 159 whole (0.74)
+    - [Sun] H Menkar → H Orcus Dec 13.3321 13.3333 ninth (98.47)
+    - [Sun] J Difda → J Orcus Dec 16.1804 10×φ^1 phi power (99.86)
+  - Pluto: Jupiter, Sun — also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
+    - [Jupiter] J Alphard → J Pluto RA 113.2728 70×φ golden (46.08)
+    - [Sun] H Difda → H Pluto RA 83.0181 83 whole (0.90)
+    - [Sun] H Menkar → H Pluto Dec 24.9853 25 whole (6.92)
+    - [Sun] H Sadalsuud → H Pluto RA 35.0089 35 whole (30.61)
+  - Juno: Jupiter, Sun — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
+    - [Jupiter] J Alphard → J Juno Dec 9.0017 9 whole (84.01)
+    - [Sun] H Murzim → H Juno Dec 11.1131 11.1111 ninth (96.79)
+  - Transpluto: Jupiter, Sun — also: 2 Western Victory / Tom Bellamy
+    - [Jupiter] H Phact → H Transpluto Dec 45.3022 28×φ golden (83.51)
+    - [Jupiter] J Adhara → J Transpluto Dec 42.0115 42 whole (17.96)
+    - [Sun] J Murzim → J Transpluto Dec 30.9948 31 whole (54.60)
+  - Uranus: Jupiter, Sun — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 5 Miss Heritage / Sean Quinlan
+    - [Jupiter] J Alphard → J Uranus Dec 5.9837 6 whole (3.35)
+    - [Sun] H Sadalsuud → H Uranus RA 53.9838 54 whole (3.55)
+  - Eris: Moon, Sun — only
+    - [Moon] S Moon → J Eris RA 110.9611 10×φ^5 phi power (79.72)
+    - [Sun] S Sun → J Eris Dec 11.3265 7×φ golden (98.64)
+    - [Sun] J Sadalsuud → J Eris Dec 1.0192 1 whole (0.17)
+  - Vesta: Jupiter, Sun — also: 1 Miranda / Bryony Frost, 4 Dazzling Glory / Harry Skelton
+    - [Jupiter] J Adhara → J Vesta RA 103.0021 103 whole (79.93)
+    - [Sun] J Castor → J Vesta RA 111.9960 112 whole (63.67)
+    - [Sun] J Deneb → J Vesta Dec 49.9876 50 whole (14.39)
+    - [Sun] J Murzim → J Vesta RA 94.0196 94 whole (0.04)
+  - Sedna: Jupiter, Sun — also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
+    - [Jupiter] J Alphard → J Sedna RA 94.9988 95 whole (87.97)
+    - [Jupiter] J Alphard → J Sedna Dec 14.0173 14 whole (1.81)
+    - [Jupiter] J Phact → J Sedna RA 38.0100 38 whole (24.79)
+    - [Jupiter] J Sualocin → J Sedna RA 96.9973 97 whole (74.72)
+    - [Sun] J Difda → J Sedna RA 36.0104 36 whole (23.12)
+    - [Sun] J Menkar → J Sedna RA 1.3358 conj (1.20)
+    - [Sun] J Sadalsuud → J Sedna RA 84.0176 84 whole (1.39)
+
+## 4 Dazzling Glory / Harry Skelton
+### L1 same bodies
+- S Neptune → H Neptune RA 11.9727 12 whole (loose)
+- S Vesta → H Vesta RA 55.0109 55 whole (loose)
+- S Vesta → H Vesta Dec 8.0971 5×φ golden (loose)
+- S Sun → J Sun RA 133.9346 133.333 ninth (loose)
+- S Sun → J Sun Dec 18.8548 18.8889 ninth (loose)
+- S Chiron → J Chiron RA 99.0069 99 whole (42.71)
+- S Rahu → J Rahu RA 88.8053 88.8889 ninth (loose)
+- S Sedna → J Sedna Dec 4.0085 4 whole (33.08)
+- S Ketu → J Ketu RA 88.8053 88.8889 ninth (loose)
+### L2 what lands on each same body
+- **H Neptune** (same body: S Neptune → H Neptune RA 11.9727 12 whole (loose))
+  - body line: S Sun → Neptune RA 40.4536 25×φ golden (83.58)
+  - body line: S Sun → Neptune Dec 13.3394 13.3333 ninth (92.68)
+  - star rows: H Castor → H Neptune RA 133.3981 133.333 ninth (92.22) [Sun]
+  - star rows: H Scheat → H Neptune Dec 37.2141 23×φ golden (95.93) [Sun]
+- **H Vesta** (same body: S Vesta → H Vesta RA 55.0109 55 whole (loose); S Vesta → H Vesta Dec 8.0971 5×φ golden (loose))
+  - other chart, star rows: J Adhara → J Vesta Dec 2.9883 3 whole (17.19) [Jupiter]
+  - other chart, star rows: J Difda → J Vesta Dec 7.9952 8 whole (57.88) [Sun]
+- **J Sun** (same body: S Sun → J Sun RA 133.9346 133.333 ninth (loose); S Sun → J Sun Dec 18.8548 18.8889 ninth (loose))
+  - star rows: J Murzim → J Sun Dec 18.8882 18.8889 ninth (99.49) [Sun]
+  - star rows: J Phact → J Sun Dec 35.0053 35 whole (54.20) [Jupiter]
+  - other chart, star rows: H Deneb → H Sun Dec 40.4505 25×φ golden (98.12) [Sun]
+  - other chart, star rows: H Difda → H Sun RA 0.3403 conj (59.78) [Sun]
+- **J Chiron** (same body: S Chiron → J Chiron RA 99.0069 99 whole (42.71))
+  - star rows: J Sualocin → J Chiron Dec 0.2080 conj (9.40) [Jupiter]
+  - star rows: J Wezen → J Chiron RA 0.7558 conj (24.61) [Sun]
+- **J Rahu** (same body: S Rahu → J Rahu RA 88.8053 88.8889 ninth (loose))
+  - other chart, star rows: H Deneb → H Rahu RA 121.3543 75×φ golden (89.51) [Sun]
+  - other chart, star rows: H Scheat → H Rahu RA 156.9390 97×φ golden (46.34) [Sun]
+- **J Sedna** (same body: S Sedna → J Sedna Dec 4.0085 4 whole (33.08))
+  - star rows: J Adhara → J Sedna Dec 32.9921 33 whole (36.52) [Jupiter]
+  - star rows: J Difda → J Sedna Dec 22.0086 22 whole (32.62) [Sun]
+  - star rows: J Menkar → J Sedna Dec 0.0676 conj (60.02) [Sun]
+  - star rows: J Murzim → J Sedna RA 53.3989 33×φ golden (78.24) [Sun]
+  - other chart, star rows: H Deneb → H Sedna Dec 37.9941 38 whole (49.58) [Sun]
+- **J Ketu** (same body: S Ketu → J Ketu RA 88.8053 88.8889 ninth (loose))
+  - star rows: J Adhara → J Ketu Dec 41.9826 42 whole (1.68) [Jupiter]
+  - star rows: J Difda → J Ketu Dec 30.9991 31 whole (91.04) [Sun]
+  - star rows: J Scheat → J Ketu RA 161.8359 100×φ^1 phi power (92.12) [Sun]
+  - other chart, star rows: H Castor → H Ketu Dec 28.0089 28 whole (30.69) [Sun]
+  - other chart, star rows: H Menkar → H Ketu Dec 0.2078 conj (9.44) [Sun]
+### L3 the seven cases (L5 field tag on each)
+- **1. same body on both charts**: none
+- **2. one body in both planes**
+  - H Vesta — only
+    - S Vesta → H Vesta RA 55.0109 55 whole (loose)
+    - S Vesta → H Vesta Dec 8.0971 5×φ golden (loose)
+  - J Sun — only
+    - S Sun → J Sun RA 133.9346 133.333 ninth (loose)
+    - S Sun → J Sun Dec 18.8548 18.8889 ninth (loose)
+- **3. runner number = sky number**
+  - 25×φ golden — only
+    - H Deneb → H Sun Dec 40.4505 25×φ golden (98.12) = S Sun → Neptune RA 40.4536 25×φ golden (83.58)
+  - 24 whole — also: 2 Western Victory / Tom Bellamy, 5 Miss Heritage / Sean Quinlan
+    - H Sadalsuud → H Venus Dec 23.9925 24 whole (39.03) = S Jupiter → Phact Dec 23.9930 24 whole (42.18)
+  - 18.8889 ninth — also: 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
+    - S Sun → J Sun Dec 18.8548 18.8889 ninth (loose) = S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)
+  - 100×φ^1 phi power — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
+    - S Mercury → J Jupiter RA 161.8939 100×φ^1 phi power (78.87) = S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
+  - 22 whole — also: 2 Western Victory / Tom Bellamy
+    - J Difda → J Sedna Dec 22.0086 22 whole (32.62) = S Sun → Menkar Dec 22.0070 22 whole (42.05)
+  - 18.8889 ninth — also: 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
+    - J Murzim → J Sun Dec 18.8882 18.8889 ninth (99.49) = S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)
+  - 22 whole — also: 2 Western Victory / Tom Bellamy
+    - J Murzim → J Orcus Dec 21.9984 22 whole (84.80) = S Sun → Menkar Dec 22.0070 22 whole (42.05)
+  - 100×φ^1 phi power — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
+    - J Scheat → J Ketu RA 161.8359 100×φ^1 phi power (92.12) = S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
+- **4. circle divisions**
+  - 12 = 360/30 — also: 2 Western Victory / Tom Bellamy
+    - S Neptune → H Neptune RA 11.9727 12 whole (loose)
+  - 1 = 360/360 — also: 1 Miranda / Bryony Frost
+    - S Sun → H Saturn Dec 0.9995 1 whole (94.69)
+  - 10 = 360/36 — only
+    - H Sadalsuud → H Quaoar Dec 9.9947 10 whole (53.75)
+  - 4 = 360/90 — also: 2 Western Victory / Tom Bellamy, 5 Miss Heritage / Sean Quinlan
+    - S Sedna → J Sedna Dec 4.0085 4 whole (33.08)
+  - 8 = 360/45 — also: 3 Anna Bunina / James Bowen
+    - J Difda → J Vesta Dec 7.9952 8 whole (57.88)
+- **5. same number in more than one place**
+  - φ^8 phi power — only
+    - H Jupiter → H star Adhara Dec 46.9708 φ^8 phi power (93.41)
+    - H Adhara → H Jupiter Dec 46.9708 φ^8 phi power (93.41)
+  - 133.333 ninth — only
+    - H Castor → H Neptune RA 133.3981 133.333 ninth (92.22)
+    - S Sun → J Sun RA 133.9346 133.333 ninth (loose)
+  - 39 whole — only
+    - H Wezen → H Juno Dec 38.9997 39 whole (97.30)
+    - J Difda → J Ceres Dec 39.0003 39 whole (96.55)
+  - 18.8889 ninth — only
+    - S Sun → J Sun Dec 18.8548 18.8889 ninth (loose)
+    - J Murzim → J Sun Dec 18.8882 18.8889 ninth (99.49)
+  - 88.8889 ninth — only
+    - S Rahu → J Rahu RA 88.8053 88.8889 ninth (loose)
+    - S Ketu → J Ketu RA 88.8053 88.8889 ninth (loose)
+  - 100×φ^1 phi power — also: 2 Western Victory / Tom Bellamy, 5 Miss Heritage / Sean Quinlan
+    - S Mercury → J Jupiter RA 161.8939 100×φ^1 phi power (78.87)
+    - J Scheat → J Ketu RA 161.8359 100×φ^1 phi power (92.12)
+- **6. star and sky line on one body**: none
+- **7. centres meeting**
+  - Orcus: Jupiter, Sun — also: 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
+    - [Jupiter] S Jupiter → H Orcus RA 171.5031 106×φ golden (54.42)
+    - [Jupiter] H Alphard → H Orcus Dec 0.1515 conj (24.49)
+    - [Jupiter] J Adhara → J Orcus Dec 33.0139 33 whole (9.17)
+    - [Sun] J Deneb → J Orcus RA 179.6308 111×φ golden (1.08)
+    - [Sun] J Menkar → J Orcus Dec 0.0457 conj (71.85)
+    - [Sun] J Murzim → J Orcus Dec 21.9984 22 whole (84.80)
+  - Jupiter: Jupiter, Sun — also: 1 Miranda / Bryony Frost
+    - [Jupiter] S Eris → H Jupiter Dec 19.4180 12×φ golden (90.67)
+    - [Jupiter] H Adhara → H Jupiter Dec 46.9708 φ^8 phi power (93.41)
+    - [Jupiter] H Sualocin → H Jupiter RA 174.7219 108×φ golden (4.09)
+    - [Jupiter] S Mercury → J Jupiter RA 161.8939 100×φ^1 phi power (78.87)
+    - [Jupiter] S Pallas → J Jupiter RA 101.0020 101 whole (80.69)
+    - [Jupiter] S Haumea → J Jupiter RA 118.1138 73×φ golden (83.96)
+    - [Jupiter] S Gonggong → J Jupiter RA 122.9268 φ^10 phi power (79.95)
+    - [Sun] S Difda → H Jupiter Dec 35.9836 36 whole (3.33)
+    - [Sun] S Castor → J Jupiter Dec 9.0176 9 whole (1.41)
+  - Pluto: Jupiter, Sun — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
+    - [Jupiter] H Alphard → H Pluto RA 144.4268 144.444 ninth (98.13)
+    - [Jupiter] H Phact → H Pluto RA 158.5835 98×φ golden (25.07)
+    - [Sun] J Menkar → J Pluto RA 179.9889 180 whole (19.78)
+  - Ceres: Jupiter, Sun — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen
+    - [Jupiter] H Alphard → H Ceres Dec 14.9827 15 whole (1.89)
+    - [Jupiter] J Adhara → J Ceres Dec 49.9839 50 whole (3.72)
+    - [Sun] J Difda → J Ceres Dec 39.0003 39 whole (96.55)
+    - [Sun] J Scheat → J Ceres RA 104.0173 104 whole (1.84)
+  - Ketu: Jupiter, Sun — also: 1 Miranda / Bryony Frost, 5 Miss Heritage / Sean Quinlan
+    - [Jupiter] J Adhara → J Ketu Dec 41.9826 42 whole (1.68)
+    - [Sun] H Castor → H Ketu Dec 28.0089 28 whole (30.69)
+    - [Sun] H Menkar → H Ketu Dec 0.2078 conj (9.44)
+    - [Sun] J Difda → J Ketu Dec 30.9991 31 whole (91.04)
+    - [Sun] J Scheat → J Ketu RA 161.8359 100×φ^1 phi power (92.12)
+  - Sun: Jupiter, Sun — also: 2 Western Victory / Tom Bellamy
+    - [Jupiter] J Phact → J Sun Dec 35.0053 35 whole (54.20)
+    - [Sun] H Deneb → H Sun Dec 40.4505 25×φ golden (98.12)
+    - [Sun] H Difda → H Sun RA 0.3403 conj (59.78)
+    - [Sun] J Murzim → J Sun Dec 18.8882 18.8889 ninth (99.49)
+  - Sedna: Jupiter, Sun — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
+    - [Jupiter] J Adhara → J Sedna Dec 32.9921 33 whole (36.52)
+    - [Sun] H Deneb → H Sedna Dec 37.9941 38 whole (49.58)
+    - [Sun] J Difda → J Sedna Dec 22.0086 22 whole (32.62)
+    - [Sun] J Menkar → J Sedna Dec 0.0676 conj (60.02)
+    - [Sun] J Murzim → J Sedna RA 53.3989 33×φ golden (78.24)
+  - Juno: Jupiter, Sun — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
+    - [Jupiter] J Sualocin → J Juno RA 119.7349 74×φ golden (97.50)
+    - [Sun] H Wezen → H Juno RA 17.9487 φ^6 phi power (90.32)
+    - [Sun] H Wezen → H Juno Dec 38.9997 39 whole (97.30)
+    - [Sun] J Murzim → J Juno Dec 17.7707 17.7778 ninth (94.45)
+  - Uranus: Jupiter, Moon, Sun — only
+    - [Jupiter] J Adhara → J Uranus RA 167.0102 167 whole (24.12)
+    - [Moon] S Moon → J Uranus RA 0.8122 conj (21.03)
+    - [Sun] J Castor → J Uranus RA 158.0174 158 whole (1.65)
+    - [Sun] J Deneb → J Uranus Dec 68.9867 69 whole (11.15)
+    - [Sun] J Murzim → J Uranus RA 175.9907 176 whole (28.69)
+  - Vesta: Jupiter, Sun — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen
+    - [Jupiter] J Adhara → J Vesta Dec 2.9883 3 whole (17.19)
+    - [Sun] J Difda → J Vesta Dec 7.9952 8 whole (57.88)
+  - Chiron: Jupiter, Sun — only
+    - [Jupiter] J Sualocin → J Chiron Dec 0.2080 conj (9.40)
+    - [Sun] J Wezen → J Chiron RA 0.7558 conj (24.61)
+
+## 5 Miss Heritage / Sean Quinlan
+### L1 same bodies
+- S Mercury → H Mercury Dec 14.4626 14.4444 ninth (loose)
+- S Jupiter → H Jupiter Dec 33.2798 33.3333 ninth (loose)
+- S Rahu → H Rahu Dec 30.7467 19×φ golden (76.56)
+- S Ketu → H Ketu Dec 30.7467 19×φ golden (76.56)
+- S Venus → J Venus Dec 4.9918 5 whole (34.59)
+- S Jupiter → J Jupiter RA 77.7093 77.7778 ninth (loose)
+- S Neptune → J Neptune Dec 17.6924 17.7778 ninth (loose)
+- S Pluto → J Pluto Dec 26.1314 10×φ^2 phi power (loose)
+- S Vesta → J Vesta RA 161.0144 161 whole (7.81)
+- S Sedna → J Sedna RA 19.4257 12×φ golden (loose)
+- S Orcus → J Orcus RA 32.3540 20×φ golden (loose)
+- S Orcus → J Orcus Dec 18.8690 18.8889 ninth (loose)
+- S Quaoar → J Quaoar Dec 2.9888 3 whole (19.55)
+### L2 what lands on each same body
+- **H Mercury** (same body: S Mercury → H Mercury Dec 14.4626 14.4444 ninth (loose))
+  - top rows: S Moon → H Mercury Dec 24.0055 24 whole (52.78) [Moon]
+- **H Jupiter** (same body: S Jupiter → H Jupiter Dec 33.2798 33.3333 ninth (loose))
+  - body line: S Moon → Jupiter RA 66.0010 66 whole (90.00)
+  - top rows: S Chiron → H Jupiter RA 95.4678 59×φ golden (78.10) [Jupiter]
+  - top rows: S Juno → H Jupiter RA 164.0030 164 whole (72.02) [Jupiter]
+  - other chart, same body: S Jupiter → J Jupiter RA 77.7093 77.7778 ninth (loose)
+  - other chart, top rows: S Sun → J Jupiter RA 51.0018 51 whole (83.24) [Jupiter, Sun]
+  - other chart, top rows: S Pluto → J Jupiter Dec 0.2439 conj (3.50) [Jupiter]
+- **H Rahu** (same body: S Rahu → H Rahu Dec 30.7467 19×φ golden (76.56))
+  - star rows: H Phact → H Rahu RA 121.3396 75×φ golden (35.88) [Jupiter]
+  - other chart, star rows: J Deneb → J Rahu RA 124.5830 77×φ golden (68.35) [Sun]
+  - other chart, star rows: J Phact → J Rahu RA 9.9834 10 whole (2.85) [Jupiter]
+  - other chart, star rows: J Scheat → J Rahu RA 88.9936 55×φ golden (89.37) [Sun]
+- **H Ketu** (same body: S Ketu → H Ketu Dec 30.7467 19×φ golden (76.56))
+  - star rows: H Castor → H Ketu Dec 21.0349 13×φ golden (97.41) [Sun]
+  - other chart, star rows: J Deneb → J Ketu Dec 68.0026 68 whole (75.49) [Sun]
+  - other chart, star rows: J Phact → J Ketu RA 170.0166 170 whole (2.85) [Jupiter]
+  - other chart, star rows: J Sadalsuud → J Ketu RA 67.9512 42×φ golden (65.33) [Sun]
+  - other chart, star rows: J Scheat → J Ketu RA 91.0064 91 whole (46.50) [Sun]
+- **J Venus** (same body: S Venus → J Venus Dec 4.9918 5 whole (34.59))
+- **J Jupiter** (same body: S Jupiter → J Jupiter RA 77.7093 77.7778 ninth (loose))
+  - body line: S Moon → Jupiter RA 66.0010 66 whole (90.00)
+  - top rows: S Sun → J Jupiter RA 51.0018 51 whole (83.24) [Jupiter, Sun]
+  - top rows: S Pluto → J Jupiter Dec 0.2439 conj (3.50) [Jupiter]
+  - other chart, same body: S Jupiter → H Jupiter Dec 33.2798 33.3333 ninth (loose)
+  - other chart, top rows: S Chiron → H Jupiter RA 95.4678 59×φ golden (78.10) [Jupiter]
+  - other chart, top rows: S Juno → H Jupiter RA 164.0030 164 whole (72.02) [Jupiter]
+- **J Neptune** (same body: S Neptune → J Neptune Dec 17.6924 17.7778 ninth (loose))
+  - body line: S Sun → Neptune RA 40.4536 25×φ golden (83.58)
+  - body line: S Sun → Neptune Dec 13.3394 13.3333 ninth (92.68)
+  - other chart, top rows: S Jupiter → H Neptune RA 0.1321 conj (83.16) [Jupiter]
+  - other chart, top rows: S Jupiter → H Neptune Dec 0.2597 conj (1.80) [Jupiter]
+  - other chart, star rows: H Deneb → H Neptune RA 27.9910 28 whole (30.25) [Sun]
+- **J Pluto** (same body: S Pluto → J Pluto Dec 26.1314 10×φ^2 phi power (loose))
+  - other chart, star rows: H Castor → H Pluto Dec 51.9949 52 whole (55.81) [Sun]
+  - other chart, star rows: H Menkar → H Pluto RA 121.3361 75×φ golden (24.28) [Sun]
+  - other chart, star rows: H Sualocin → H Pluto Dec 36.0150 36 whole (6.13) [Jupiter]
+- **J Vesta** (same body: S Vesta → J Vesta RA 161.0144 161 whole (7.81))
+  - star rows: J Castor → J Vesta Dec 13.3346 13.3333 ninth (98.50) [Sun]
+- **J Sedna** (same body: S Sedna → J Sedna RA 19.4257 12×φ golden (loose))
+  - top rows: S Sun → J Sedna Dec 21.0007 21 whole (92.86) [Sun]
+  - star rows: J Alphard → J Sedna RA 103.0097 103 whole (26.61) [Jupiter]
+  - star rows: J Difda → J Sedna RA 27.9916 28 whole (33.73) [Sun]
+  - star rows: J Menkar → J Sedna Dec 1.0088 1 whole (31.26) [Sun]
+  - star rows: J Murzim → J Sedna Dec 21.0370 13×φ golden (85.02) [Sun]
+  - star rows: J Sadalsuud → J Sedna RA 76.0030 76 whole (72.07) [Sun]
+  - star rows: J Scheat → J Sedna Dec 25.0033 25 whole (69.60) [Sun]
+  - star rows: J Sualocin → J Sedna RA 88.9846 89 whole (5.24) [Jupiter]
+- **J Orcus** (same body: S Orcus → J Orcus RA 32.3540 20×φ golden (loose); S Orcus → J Orcus Dec 18.8690 18.8889 ninth (loose))
+  - star rows: J Murzim → J Orcus RA 29.0115 29 whole (17.98) [Sun]
+  - star rows: J Sadalsuud → J Orcus RA 161.8053 100×φ^1 phi power (99.53) [Sun]
+  - other chart, star rows: H Adhara → H Orcus Dec 20.9811 21 whole (0.28) [Jupiter]
+  - other chart, star rows: H Difda → H Orcus Dec 9.9930 10 whole (41.93) [Sun]
+- **J Quaoar** (same body: S Quaoar → J Quaoar Dec 2.9888 3 whole (19.55))
+  - top rows: S Moon → J Quaoar Dec 14.5693 9×φ golden (61.39) [Moon]
+  - star rows: J Adhara → J Quaoar RA 122.2402 122.222 ninth (97.51) [Jupiter]
+  - star rows: J Alphard → J Quaoar RA 85.0029 85 whole (73.00) [Jupiter]
+  - star rows: J Castor → J Quaoar RA 113.2465 70×φ golden (25.86) [Sun]
+  - star rows: J Difda → J Quaoar RA 143.9958 144 whole (62.33) [Sun]
+  - star rows: J Phact → J Quaoar RA 141.9835 142 whole (3.00) [Jupiter]
+  - star rows: J Sadalsuud → J Quaoar RA 95.9844 96 whole (4.81) [Sun]
+  - star rows: J Sualocin → J Quaoar RA 83.0028 83 whole (73.73) [Jupiter]
+  - other chart, star rows: H Adhara → H Quaoar RA 161.8432 100×φ^1 phi power (90.39) [Jupiter]
+  - other chart, star rows: H Alphard → H Quaoar RA 124.5997 77×φ golden (43.34) [Jupiter]
+  - other chart, star rows: H Sadalsuud → H Quaoar Dec 9.9917 10 whole (34.14) [Sun]
+### L3 the seven cases (L5 field tag on each)
+- **1. same body on both charts**
+  - Jupiter — only
+    - S Jupiter → H Jupiter Dec 33.2798 33.3333 ninth (loose)
+    - S Jupiter → J Jupiter RA 77.7093 77.7778 ninth (loose)
+- **2. one body in both planes**
+  - J Orcus — only
+    - S Orcus → J Orcus RA 32.3540 20×φ golden (loose)
+    - S Orcus → J Orcus Dec 18.8690 18.8889 ninth (loose)
+- **3. runner number = sky number**
+  - 24 whole — also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton
+    - S Moon → H Mercury Dec 24.0055 24 whole (52.78) = S Jupiter → Phact Dec 23.9930 24 whole (42.18)
+  - 100×φ^1 phi power — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
+    - H Adhara → H Quaoar RA 161.8432 100×φ^1 phi power (90.39) = S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
+  - 18.8889 ninth — also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
+    - S Orcus → J Orcus Dec 18.8690 18.8889 ninth (loose) = S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34)
+  - 13.3333 ninth — also: 3 Anna Bunina / James Bowen
+    - J Castor → J Vesta Dec 13.3346 13.3333 ninth (98.50) = S Sun → Neptune Dec 13.3394 13.3333 ninth (92.68)
+  - 26 whole — also: 2 Western Victory / Tom Bellamy
+    - J Menkar → J Uranus Dec 26.0086 26 whole (32.50) = S Jupiter → Sualocin Dec 25.9954 26 whole (59.00)
+  - 11.1111 ninth — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen
+    - J Murzim → J Juno Dec 11.1146 11.1111 ninth (94.26) = S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56)
+  - 100×φ^1 phi power — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
+    - J Sadalsuud → J Orcus RA 161.8053 100×φ^1 phi power (99.53) = S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11)
+- **4. circle divisions**
+  - 24 = 360/15 — also: 2 Western Victory / Tom Bellamy
+    - S Moon → H Mercury Dec 24.0055 24 whole (52.78)
+  - 5 = 360/72 — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy
+    - S Venus → J Venus Dec 4.9918 5 whole (34.59)
+  - 3 = 360/120 — also: 2 Western Victory / Tom Bellamy
+    - S Quaoar → J Quaoar Dec 2.9888 3 whole (19.55)
+  - 4 = 360/90 — also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton
+    - S Sun → J Uranus Dec 3.9991 4 whole (90.75)
+- **5. same number in more than one place**
+  - 19×φ golden — only
+    - S Rahu → H Rahu Dec 30.7467 19×φ golden (76.56)
+    - S Ketu → H Ketu Dec 30.7467 19×φ golden (76.56)
+    - H Castor → H Pallas RA 30.7419 19×φ golden (95.34)
+    - H Wezen → H Uranus Dec 30.7427 19×φ golden (99.94)
+  - 100×φ^1 phi power — also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton
+    - H Adhara → H Quaoar RA 161.8432 100×φ^1 phi power (90.39)
+    - J Sadalsuud → J Orcus RA 161.8053 100×φ^1 phi power (99.53)
+  - 52 whole — only
+    - H Castor → H Pluto Dec 51.9949 52 whole (55.81)
+    - S Moon → J Saturn RA 51.9990 52 whole (90.10)
+  - 13×φ golden — only
+    - H Castor → H Ketu Dec 21.0349 13×φ golden (97.41)
+    - J Murzim → J Sedna Dec 21.0370 13×φ golden (85.02)
+- **6. star and sky line on one body**: none
+- **7. centres meeting**
+  - Jupiter: Jupiter, Moon, Sun — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen
+    - [Jupiter] S Chiron → H Jupiter RA 95.4678 59×φ golden (78.10)
+    - [Jupiter] S Juno → H Jupiter RA 164.0030 164 whole (72.02)
+    - [Jupiter] S Sun → J Jupiter RA 51.0018 51 whole (83.24)
+    - [Jupiter] S Pluto → J Jupiter Dec 0.2439 conj (3.50)
+    - [Moon] S Jupiter → H Jupiter Dec 33.2798 33.3333 ninth (loose)
+    - [Moon] S Jupiter → J Jupiter RA 77.7093 77.7778 ninth (loose)
+    - [Sun] S Sun → J Jupiter RA 51.0018 51 whole (83.24)
+  - Neptune: Jupiter, Sun — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen
+    - [Jupiter] S Jupiter → H Neptune RA 0.1321 conj (83.16)
+    - [Jupiter] S Jupiter → H Neptune Dec 0.2597 conj (1.80)
+    - [Sun] H Deneb → H Neptune RA 27.9910 28 whole (30.25)
+    - [Sun] S Neptune → J Neptune Dec 17.6924 17.7778 ninth (loose)
+  - Juno: Jupiter, Sun — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
+    - [Jupiter] H Adhara → H Juno RA 85.9872 86 whole (13.02)
+    - [Sun] H Castor → H Juno RA 94.9803 95 whole (0.02)
+    - [Sun] H Murzim → H Juno RA 77.0048 77 whole (57.44)
+    - [Sun] J Murzim → J Juno Dec 11.1146 11.1111 ninth (94.26)
+  - Orcus: Jupiter, Sun — also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
+    - [Jupiter] H Adhara → H Orcus Dec 20.9811 21 whole (0.28)
+    - [Sun] H Difda → H Orcus Dec 9.9930 10 whole (41.93)
+    - [Sun] J Murzim → J Orcus RA 29.0115 29 whole (17.98)
+    - [Sun] J Sadalsuud → J Orcus RA 161.8053 100×φ^1 phi power (99.53)
+  - Quaoar: Jupiter, Moon, Sun — only
+    - [Jupiter] H Adhara → H Quaoar RA 161.8432 100×φ^1 phi power (90.39)
+    - [Jupiter] H Alphard → H Quaoar RA 124.5997 77×φ golden (43.34)
+    - [Jupiter] J Adhara → J Quaoar RA 122.2402 122.222 ninth (97.51)
+    - [Jupiter] J Alphard → J Quaoar RA 85.0029 85 whole (73.00)
+    - [Jupiter] J Phact → J Quaoar RA 141.9835 142 whole (3.00)
+    - [Jupiter] J Sualocin → J Quaoar RA 83.0028 83 whole (73.73)
+    - [Moon] S Moon → J Quaoar Dec 14.5693 9×φ golden (61.39)
+    - [Sun] H Sadalsuud → H Quaoar Dec 9.9917 10 whole (34.14)
+    - [Sun] J Castor → J Quaoar RA 113.2465 70×φ golden (25.86)
+    - [Sun] J Difda → J Quaoar RA 143.9958 144 whole (62.33)
+    - [Sun] J Sadalsuud → J Quaoar RA 95.9844 96 whole (4.81)
+  - Uranus: Jupiter, Sun — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen
+    - [Jupiter] H Alphard → H Uranus Dec 13.0065 13 whole (45.82)
+    - [Sun] H Difda → H Uranus RA 0.8633 conj (18.02)
+    - [Sun] H Menkar → H Uranus Dec 0.2578 conj (1.98)
+    - [Sun] H Wezen → H Uranus Dec 30.7427 19×φ golden (99.94)
+    - [Sun] S Sun → J Uranus Dec 3.9991 4 whole (90.75)
+    - [Sun] J Menkar → J Uranus Dec 26.0086 26 whole (32.50)
+    - [Sun] J Scheat → J Uranus Dec 50.0031 50 whole (71.45)
+    - [Sun] J Wezen → J Uranus RA 141.4383 141.4 sqrt2 (95.27)
+  - Makemake: Jupiter, Sun — also: 1 Miranda / Bryony Frost
+    - [Jupiter] H Alphard → H Makemake RA 50.0196 50 whole (0.04)
+    - [Jupiter] H Phact → H Makemake RA 107.0095 107 whole (27.54)
+    - [Jupiter] H Sualocin → H Makemake RA 117.9882 118 whole (16.93)
+    - [Sun] H Scheat → H Makemake RA 154.0199 154 whole (0.00)
+    - [Sun] J Murzim → J Makemake Dec 55.0069 55 whole (42.63)
+  - Pluto: Jupiter, Sun — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
+    - [Jupiter] H Sualocin → H Pluto Dec 36.0150 36 whole (6.13)
+    - [Sun] H Castor → H Pluto Dec 51.9949 52 whole (55.81)
+    - [Sun] H Menkar → H Pluto RA 121.3361 75×φ golden (24.28)
+  - Pallas: Moon, Sun — only
+    - [Moon] S Moon → J Pallas Dec 27.5071 17×φ golden (96.73)
+    - [Sun] H Castor → H Pallas RA 30.7419 19×φ golden (95.34)
+    - [Sun] J Castor → J Pallas RA 177.9560 110×φ golden (2.08)
+    - [Sun] J Murzim → J Pallas RA 159.9807 160 whole (0.12)
+  - Ketu: Jupiter, Sun — also: 1 Miranda / Bryony Frost, 4 Dazzling Glory / Harry Skelton
+    - [Jupiter] J Phact → J Ketu RA 170.0166 170 whole (2.85)
+    - [Sun] H Castor → H Ketu Dec 21.0349 13×φ golden (97.41)
+    - [Sun] J Deneb → J Ketu Dec 68.0026 68 whole (75.49)
+    - [Sun] J Sadalsuud → J Ketu RA 67.9512 42×φ golden (65.33)
+    - [Sun] J Scheat → J Ketu RA 91.0064 91 whole (46.50)
+  - Saturn: Jupiter, Moon, Sun — only
+    - [Jupiter] S Jupiter → J Saturn RA 118.0000 118 whole (99.90)
+    - [Moon] S Moon → J Saturn RA 51.9990 52 whole (90.10)
+    - [Sun] H Menkar → H Saturn Dec 20.0148 20 whole (6.78)
+    - [Sun] H Scheat → H Saturn Dec 44.0075 44 whole (39.06)
+    - [Sun] J Wezen → J Saturn Dec 13.0067 13 whole (44.01)
+  - Rahu: Jupiter, Sun — also: 1 Miranda / Bryony Frost
+    - [Jupiter] H Phact → H Rahu RA 121.3396 75×φ golden (35.88)
+    - [Jupiter] J Phact → J Rahu RA 9.9834 10 whole (2.85)
+    - [Sun] J Deneb → J Rahu RA 124.5830 77×φ golden (68.35)
+    - [Sun] J Scheat → J Rahu RA 88.9936 55×φ golden (89.37)
+  - Sedna: Jupiter, Sun — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
+    - [Jupiter] J Alphard → J Sedna RA 103.0097 103 whole (26.61)
+    - [Jupiter] J Sualocin → J Sedna RA 88.9846 89 whole (5.24)
+    - [Sun] S Sun → J Sedna Dec 21.0007 21 whole (92.86)
+    - [Sun] J Difda → J Sedna RA 27.9916 28 whole (33.73)
+    - [Sun] J Menkar → J Sedna Dec 1.0088 1 whole (31.26)
+    - [Sun] J Murzim → J Sedna Dec 21.0370 13×φ golden (85.02)
+    - [Sun] J Sadalsuud → J Sedna RA 76.0030 76 whole (72.07)
+    - [Sun] J Scheat → J Sedna Dec 25.0033 25 whole (69.60)

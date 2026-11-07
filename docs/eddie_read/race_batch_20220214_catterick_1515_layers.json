@@ -1,0 +1,4826 @@
+{
+ "workbook": "race_batch_20220214_catterick_1515_jupiter_tables.xlsx",
+ "l0": {
+  "tables": [
+   "1 Almazhar Garde / Luca Morgan",
+   "2 Marown / Brian Hughes",
+   "3 Omar Maretti / Kielan Woods",
+   "4 Winds Of Fire / Adam Wedge",
+   "5 Brian Boranha / Callum Bewley",
+   "6 The Paddy Pie / Sean Quinlan"
+  ],
+  "missing_in_tables": [],
+  "cloth_gaps": [],
+  "active_read": false
+ },
+ "runners": [
+  "P01",
+  "P03",
+  "P05",
+  "P07",
+  "P09",
+  "P11"
+ ],
+ "report": {
+  "P01": {
+   "name": "1 Almazhar Garde / Luca Morgan",
+   "same_bodies": [
+    "S Mercury → H Mercury RA 1.3271 1.33333 ninth (loose)",
+    "S Uranus → H Uranus Dec 10.0005 10 whole (94.93)",
+    "S Pallas → H Pallas Dec 15.4529 15.5556 ninth (loose)",
+    "S Juno → H Juno RA 179.4547 10×φ^6 phi power (97.36)",
+    "S Juno → H Juno Dec 16.9718 17 whole (loose)",
+    "S Orcus → H Orcus RA 5.9764 6 whole (loose)",
+    "S Neptune → J Neptune RA 44.3816 44.4444 ninth (loose)",
+    "S Vesta → J Vesta RA 143.9661 144.444 ninth (loose)",
+    "S Eris → J Eris RA 1.9899 2 whole (24.64)",
+    "S Makemake → J Makemake RA 17.9556 φ^6 phi power (loose)",
+    "S Orcus → J Orcus Dec 10.0038 10 whole (65.78)",
+    "S Quaoar → J Quaoar RA 28.9783 29 whole (loose)"
+   ],
+   "landings": [
+    {
+     "chart": "H",
+     "body": "Mercury",
+     "same_body": [
+      "S Mercury → H Mercury RA 1.3271 1.33333 ninth (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "H Betelgeuse → H Mercury RA 146.0189 146 whole (0.28)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter",
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Hamal → H Mercury RA 89.0149 89 whole (6.61)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": []
+    },
+    {
+     "chart": "H",
+     "body": "Uranus",
+     "same_body": [
+      "S Uranus → H Uranus Dec 10.0005 10 whole (94.93)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "J Murzim → J Uranus RA 132.0115 132 whole (18.27)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "J Vega → J Uranus Dec 53.9807 54 whole (0.11)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Pallas",
+     "same_body": [
+      "S Pallas → H Pallas Dec 15.4529 15.5556 ninth (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "H Alphard → H Pallas Dec 15.0001 15 whole (98.51)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "H Hamal → H Pallas RA 133.3818 133.333 ninth (94.18)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Unukalhai → H Pallas Dec 0.0835 conj (52.10)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": []
+    },
+    {
+     "chart": "H",
+     "body": "Juno",
+     "same_body": [
+      "S Juno → H Juno RA 179.4547 10×φ^6 phi power (97.36)",
+      "S Juno → H Juno Dec 16.9718 17 whole (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "S Moon → H Juno RA 0.1078 conj (86.14)",
+       "layer": "top rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Alphard → H Juno RA 16.1876 10×φ^1 phi power (82.75)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "J Vega → J Juno Dec 32.0102 32 whole (24.11)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Orcus",
+     "same_body": [
+      "S Orcus → H Orcus RA 5.9764 6 whole (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "S Jupiter → H Orcus Dec 0.1960 conj (12.02)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "H Alphard → H Orcus Dec 0.2138 conj (8.25)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "H Betelgeuse → H Orcus RA 62.0057 62 whole (51.39)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter",
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Hamal → H Orcus RA 119.0097 119 whole (26.31)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ],
+     "other_chart_same_body": [
+      "S Orcus → J Orcus Dec 10.0038 10 whole (65.78)"
+     ],
+     "on_other_chart": [
+      {
+       "text": "J Alphard → J Orcus RA 1.4250 conj (0.25)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "J Deneb Algedi → J Orcus Dec 13.9972 14 whole (74.35)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Neptune",
+     "same_body": [
+      "S Neptune → J Neptune RA 44.3816 44.4444 ninth (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "S Moon → J Neptune Dec 42.0695 26×φ golden (96.37)",
+       "layer": "top rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Alphard → J Neptune Dec 10.0007 10 whole (93.57)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "H Alphard → H Neptune RA 163.4151 101×φ golden (64.59)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Vesta",
+     "same_body": [
+      "S Vesta → J Vesta RA 143.9661 144.444 ninth (loose)"
+     ],
+     "body_lines": [
+      "S Sun → Vesta RA 38.8398 24×φ golden (61.63)",
+      "S Moon → Vesta RA 163.4101 101×φ golden (42.14)"
+     ],
+     "on_this_chart": [],
+     "other_chart_same_body": [],
+     "on_other_chart": []
+    },
+    {
+     "chart": "J",
+     "body": "Eris",
+     "same_body": [
+      "S Eris → J Eris RA 1.9899 2 whole (24.64)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Alphard → J Eris RA 118.0074 118 whole (39.54)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "J Betelgeuse → J Eris Dec 14.0159 14 whole (4.13)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter",
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Difda → J Eris RA 12.9839 13 whole (3.71)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "H Deneb Algedi → H Eris Dec 12.9438 8×φ golden (97.17)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Makemake",
+     "same_body": [
+      "S Makemake → J Makemake RA 17.9556 φ^6 phi power (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Vega → J Makemake RA 97.9859 98 whole (8.66)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "H Unukalhai → H Makemake Dec 19.4159 12×φ golden (96.61)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "H Vega → H Makemake Dec 12.9420 8×φ golden (86.67)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Orcus",
+     "same_body": [
+      "S Orcus → J Orcus Dec 10.0038 10 whole (65.78)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Alphard → J Orcus RA 1.4250 conj (0.25)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "J Deneb Algedi → J Orcus Dec 13.9972 14 whole (74.35)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [
+      "S Orcus → H Orcus RA 5.9764 6 whole (loose)"
+     ],
+     "on_other_chart": [
+      {
+       "text": "S Jupiter → H Orcus Dec 0.1960 conj (12.02)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "H Alphard → H Orcus Dec 0.2138 conj (8.25)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "H Betelgeuse → H Orcus RA 62.0057 62 whole (51.39)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter",
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Hamal → H Orcus RA 119.0097 119 whole (26.31)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Quaoar",
+     "same_body": [
+      "S Quaoar → J Quaoar RA 28.9783 29 whole (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Deneb Algedi → J Quaoar RA 78.9918 79 whole (34.53)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "J Hamal → J Quaoar RA 144.0274 89×φ golden (9.50)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Murzim → J Quaoar RA 152.0952 94×φ golden (99.93)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": []
+    }
+   ],
+   "cases": {
+    "1": [
+     {
+      "label": "Orcus",
+      "cells": [
+       "S Orcus → H Orcus RA 5.9764 6 whole (loose)",
+       "S Orcus → J Orcus Dec 10.0038 10 whole (65.78)"
+      ],
+      "field": "only"
+     }
+    ],
+    "2": [
+     {
+      "label": "H Juno",
+      "cells": [
+       "S Juno → H Juno RA 179.4547 10×φ^6 phi power (97.36)",
+       "S Juno → H Juno Dec 16.9718 17 whole (loose)"
+      ],
+      "field": "also: 4 Winds Of Fire / Adam Wedge"
+     }
+    ],
+    "3": [
+     {
+      "label": "5 whole",
+      "cells": [
+       "H Alphard → H Mars Dec 5.0022 5 whole (78.79) = S Sun → Difda Dec 5.0001 5 whole (98.75)"
+      ],
+      "field": "also: 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan"
+     },
+     {
+      "label": "101×φ golden",
+      "cells": [
+       "H Alphard → H Neptune RA 163.4151 101×φ golden (64.59) = S Moon → Vesta RA 163.4101 101×φ golden (42.14)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "12×φ golden",
+      "cells": [
+       "H Unukalhai → H Makemake Dec 19.4159 12×φ golden (96.61) = S Sun → Unukalhai Dec 19.4128 12×φ golden (78.76)"
+      ],
+      "field": "also: 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan"
+     },
+     {
+      "label": "16 whole",
+      "cells": [
+       "J Unukalhai → J Jupiter Dec 16.0161 16 whole (3.76) = S Moon → Betelgeuse Dec 16.0072 16 whole (40.95)"
+      ],
+      "field": "also: 2 Marown / Brian Hughes"
+     }
+    ],
+    "4": [
+     {
+      "label": "10 = 360/36",
+      "cells": [
+       "S Uranus → H Uranus Dec 10.0005 10 whole (94.93)"
+      ],
+      "field": "also: 6 The Paddy Pie / Sean Quinlan"
+     },
+     {
+      "label": "6 = 360/60",
+      "cells": [
+       "S Orcus → H Orcus RA 5.9764 6 whole (loose)"
+      ],
+      "field": "also: 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan"
+     },
+     {
+      "label": "5 = 360/72",
+      "cells": [
+       "H Alphard → H Mars Dec 5.0022 5 whole (78.79)"
+      ],
+      "field": "also: 2 Marown / Brian Hughes, 6 The Paddy Pie / Sean Quinlan"
+     },
+     {
+      "label": "15 = 360/24",
+      "cells": [
+       "H Alphard → H Pallas Dec 15.0001 15 whole (98.51)"
+      ],
+      "field": "also: 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods"
+     },
+     {
+      "label": "3 = 360/120",
+      "cells": [
+       "H Deneb Algedi → H Gonggong Dec 3.0030 3 whole (72.10)"
+      ],
+      "field": "also: 2 Marown / Brian Hughes"
+     },
+     {
+      "label": "2 = 360/180",
+      "cells": [
+       "S Eris → J Eris RA 1.9899 2 whole (24.64)"
+      ],
+      "field": "also: 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge"
+     },
+     {
+      "label": "10 = 360/36",
+      "cells": [
+       "S Orcus → J Orcus Dec 10.0038 10 whole (65.78)"
+      ],
+      "field": "also: 6 The Paddy Pie / Sean Quinlan"
+     },
+     {
+      "label": "10 = 360/36",
+      "cells": [
+       "J Alphard → J Neptune Dec 10.0007 10 whole (93.57)"
+      ],
+      "field": "also: 6 The Paddy Pie / Sean Quinlan"
+     }
+    ],
+    "5": [
+     {
+      "label": "10 whole",
+      "cells": [
+       "S Uranus → H Uranus Dec 10.0005 10 whole (94.93)",
+       "S Orcus → J Orcus Dec 10.0038 10 whole (65.78)",
+       "J Alphard → J Neptune Dec 10.0007 10 whole (93.57)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "10×φ^6 phi power",
+      "cells": [
+       "S Juno → H Juno RA 179.4547 10×φ^6 phi power (97.36)",
+       "H Hamal → H Haumea RA 179.4197 10×φ^6 phi power (94.92)"
+      ],
+      "field": "also: 4 Winds Of Fire / Adam Wedge"
+     },
+     {
+      "label": "27 whole",
+      "cells": [
+       "S Moon → H Transpluto RA 27.0053 27 whole (54.33)",
+       "H Unukalhai → H Pluto Dec 26.9956 27 whole (60.53)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "8×φ golden",
+      "cells": [
+       "H Deneb Algedi → H Eris Dec 12.9438 8×φ golden (97.17)",
+       "H Vega → H Makemake Dec 12.9420 8×φ golden (86.67)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "41.4 silver",
+      "cells": [
+       "H Murzim → H Sedna RA 41.4281 41.4 silver (93.57)",
+       "J Difda → J Rahu Dec 41.4239 41.4 silver (97.54)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "144.444 ninth",
+      "cells": [
+       "S Vesta → J Vesta RA 143.9661 144.444 ninth (loose)",
+       "S Moon → J Ketu RA 144.4312 144.444 ninth (98.60)"
+      ],
+      "field": "only"
+     }
+    ],
+    "6": [
+     {
+      "label": "J Rahu on Hamal",
+      "cells": [
+       "J Hamal → J Rahu Dec 0.0249 conj (84.09)",
+       "S Moon → J Rahu Dec 0.0260 conj (83.41)"
+      ],
+      "field": "only"
+     }
+    ],
+    "7": [
+     {
+      "label": "Orcus: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] S Jupiter → H Orcus Dec 0.1960 conj (12.02)",
+       "[Jupiter] H Alphard → H Orcus Dec 0.2138 conj (8.25)",
+       "[Jupiter] H Betelgeuse → H Orcus RA 62.0057 62 whole (51.39)",
+       "[Jupiter] J Alphard → J Orcus RA 1.4250 conj (0.25)",
+       "[Moon] H Betelgeuse → H Orcus RA 62.0057 62 whole (51.39)",
+       "[Moon] H Hamal → H Orcus RA 119.0097 119 whole (26.31)",
+       "[Sun] J Deneb Algedi → J Orcus Dec 13.9972 14 whole (74.35)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "Chiron: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] H Alphard → H Chiron RA 156.9867 157 whole (11.16)",
+       "[Jupiter] H Betelgeuse → H Chiron Dec 8.9939 9 whole (48.35)",
+       "[Moon] S Moon → H Chiron Dec 25.0011 25 whole (89.74)",
+       "[Moon] H Betelgeuse → H Chiron Dec 8.9939 9 whole (48.35)",
+       "[Moon] J Hamal → J Chiron Dec 40.9850 41 whole (6.32)",
+       "[Sun] H Unukalhai → H Chiron Dec 8.0115 8 whole (18.15)"
+      ],
+      "field": "also: 2 Marown / Brian Hughes, 5 Brian Boranha / Callum Bewley"
+     },
+     {
+      "label": "Juno: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] H Alphard → H Juno RA 16.1876 10×φ^1 phi power (82.75)",
+       "[Moon] S Moon → H Juno RA 0.1078 conj (86.14)",
+       "[Sun] J Vega → J Juno Dec 32.0102 32 whole (24.11)"
+      ],
+      "field": "also: 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge"
+     },
+     {
+      "label": "Transpluto: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] S Jupiter → J Transpluto RA 166.6485 166.667 ninth (98.44)",
+       "[Moon] S Moon → H Transpluto RA 27.0053 27 whole (54.33)",
+       "[Sun] H Vega → H Transpluto Dec 27.5018 17×φ golden (72.86)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "Mars: Jupiter, Moon",
+      "cells": [
+       "[Jupiter] H Alphard → H Mars Dec 5.0022 5 whole (78.79)",
+       "[Jupiter] J Betelgeuse → J Mars RA 156.9296 97×φ golden (15.22)",
+       "[Moon] J Betelgeuse → J Mars RA 156.9296 97×φ golden (15.22)",
+       "[Moon] J Hamal → J Mars Dec 48.0063 48 whole (46.96)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "Saturn: Jupiter, Sun",
+      "cells": [
+       "[Jupiter] H Alphard → H Saturn RA 100.3485 62×φ golden (0.39)",
+       "[Sun] H Murzim → H Saturn Dec 0.9869 1 whole (11.90)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "Neptune: Jupiter, Moon",
+      "cells": [
+       "[Jupiter] H Alphard → H Neptune RA 163.4151 101×φ golden (64.59)",
+       "[Jupiter] J Alphard → J Neptune Dec 10.0007 10 whole (93.57)",
+       "[Moon] S Moon → J Neptune Dec 42.0695 26×φ golden (96.37)"
+      ],
+      "field": "also: 6 The Paddy Pie / Sean Quinlan"
+     },
+     {
+      "label": "Pallas: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] H Alphard → H Pallas Dec 15.0001 15 whole (98.51)",
+       "[Moon] H Hamal → H Pallas RA 133.3818 133.333 ninth (94.18)",
+       "[Sun] H Unukalhai → H Pallas Dec 0.0835 conj (52.10)"
+      ],
+      "field": "also: 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan"
+     },
+     {
+      "label": "Haumea: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] H Alphard → H Haumea Dec 25.9918 26 whole (34.98)",
+       "[Moon] H Hamal → H Haumea RA 179.4197 10×φ^6 phi power (94.92)",
+       "[Sun] H Vega → H Haumea RA 68.0183 68 whole (0.76)"
+      ],
+      "field": "also: 5 Brian Boranha / Callum Bewley"
+     },
+     {
+      "label": "Mercury: Jupiter, Moon",
+      "cells": [
+       "[Jupiter] H Betelgeuse → H Mercury RA 146.0189 146 whole (0.28)",
+       "[Moon] H Betelgeuse → H Mercury RA 146.0189 146 whole (0.28)",
+       "[Moon] H Hamal → H Mercury RA 89.0149 89 whole (6.61)"
+      ],
+      "field": "also: 5 Brian Boranha / Callum Bewley"
+     },
+     {
+      "label": "Sedna: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] H Betelgeuse → H Sedna Dec 0.2984 conj (0.00)",
+       "[Moon] H Betelgeuse → H Sedna Dec 0.2984 conj (0.00)",
+       "[Moon] J Hamal → J Sedna Dec 17.9899 18 whole (24.58)",
+       "[Sun] H Murzim → H Sedna RA 41.4281 41.4 silver (93.57)"
+      ],
+      "field": "also: 5 Brian Boranha / Callum Bewley"
+     },
+     {
+      "label": "Eris: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] J Alphard → J Eris RA 118.0074 118 whole (39.54)",
+       "[Jupiter] J Betelgeuse → J Eris Dec 14.0159 14 whole (4.13)",
+       "[Moon] J Betelgeuse → J Eris Dec 14.0159 14 whole (4.13)",
+       "[Sun] H Deneb Algedi → H Eris Dec 12.9438 8×φ golden (97.17)",
+       "[Sun] J Difda → J Eris RA 12.9839 13 whole (3.71)"
+      ],
+      "field": "also: 4 Winds Of Fire / Adam Wedge"
+     },
+     {
+      "label": "Ketu: Moon, Sun",
+      "cells": [
+       "[Moon] S Moon → J Ketu RA 144.4312 144.444 ninth (98.60)",
+       "[Sun] H Difda → H Ketu RA 0.8977 conj (16.12)",
+       "[Sun] J Unukalhai → J Ketu RA 33.9753 21×φ golden (80.18)"
+      ],
+      "field": "also: 3 Omar Maretti / Kielan Woods, 5 Brian Boranha / Callum Bewley"
+     },
+     {
+      "label": "Jupiter: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] S Makemake → J Jupiter RA 93.0007 93 whole (92.80)",
+       "[Jupiter] S Makemake → J Jupiter Dec 0.0761 conj (55.71)",
+       "[Moon] S Hamal → J Jupiter Dec 1.0176 1 whole (1.47)",
+       "[Sun] H Murzim → H Jupiter RA 44.0074 44 whole (39.58)",
+       "[Sun] J Unukalhai → J Jupiter Dec 16.0161 16 whole (3.76)"
+      ],
+      "field": "also: 3 Omar Maretti / Kielan Woods"
+     },
+     {
+      "label": "Pluto: Jupiter, Sun",
+      "cells": [
+       "[Jupiter] J Alphard → J Pluto RA 111.1407 111.111 ninth (95.16)",
+       "[Sun] H Unukalhai → H Pluto Dec 26.9956 27 whole (60.53)"
+      ],
+      "field": "also: 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods"
+     },
+     {
+      "label": "Vesta: Moon, Sun",
+      "cells": [
+       "[Moon] S Vesta → J Vesta RA 143.9661 144.444 ninth (loose)",
+       "[Sun] S Vesta → J Vesta RA 143.9661 144.444 ninth (loose)"
+      ],
+      "field": "also: 6 The Paddy Pie / Sean Quinlan"
+     },
+     {
+      "label": "Rahu: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] J Betelgeuse → J Rahu RA 1.2430 conj (2.94)",
+       "[Moon] S Moon → J Rahu Dec 0.0260 conj (83.41)",
+       "[Moon] J Betelgeuse → J Rahu RA 1.2430 conj (2.94)",
+       "[Moon] J Hamal → J Rahu Dec 0.0249 conj (84.09)",
+       "[Sun] J Difda → J Rahu Dec 41.4239 41.4 silver (97.54)",
+       "[Sun] J Unukalhai → J Rahu Dec 17.0109 17 whole (20.51)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "Quaoar: Moon, Sun",
+      "cells": [
+       "[Moon] J Hamal → J Quaoar RA 144.0274 89×φ golden (9.50)",
+       "[Sun] J Deneb Algedi → J Quaoar RA 78.9918 79 whole (34.53)",
+       "[Sun] J Murzim → J Quaoar RA 152.0952 94×φ golden (99.93)"
+      ],
+      "field": "also: 2 Marown / Brian Hughes"
+     }
+    ]
+   }
+  },
+  "P03": {
+   "name": "2 Marown / Brian Hughes",
+   "same_bodies": [
+    "S Venus → H Venus RA 60.9914 61 whole (32.32)",
+    "S Mars → H Mars Dec 19.4478 12×φ golden (loose)",
+    "S Jupiter → H Jupiter RA 122.4850 122.222 ninth (loose)",
+    "S Saturn → H Saturn RA 90.0021 90 whole (79.90)",
+    "S Neptune → H Neptune RA 13.9841 14 whole (4.31)",
+    "S Ceres → H Ceres Dec 17.0227 17 whole (loose)",
+    "S Haumea → H Haumea Dec 2.9809 3 whole (0.20)",
+    "S Gonggong → H Gonggong RA 0.9958 1 whole (62.21)",
+    "S Uranus → J Uranus RA 143.9975 144 whole (76.52)",
+    "S Neptune → J Neptune Dec 17.8819 φ^6 phi power (loose)",
+    "S Chiron → J Chiron Dec 12.2314 12.2222 ninth (loose)",
+    "S Juno → J Juno RA 122.4655 122.222 ninth (loose)",
+    "S Sedna → J Sedna RA 18.0009 18 whole (91.18)",
+    "S Orcus → J Orcus Dec 18.8122 18.8889 ninth (loose)"
+   ],
+   "landings": [
+    {
+     "chart": "H",
+     "body": "Venus",
+     "same_body": [
+      "S Venus → H Venus RA 60.9914 61 whole (32.32)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "S Moon → J Venus Dec 11.0035 11 whole (68.16)",
+       "layer": "top rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Betelgeuse → J Venus Dec 5.0027 5 whole (75.22)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter",
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Unukalhai → J Venus Dec 5.9839 6 whole (3.84)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "J Vega → J Venus RA 119.9919 120 whole (35.45)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Mars",
+     "same_body": [
+      "S Mars → H Mars Dec 19.4478 12×φ golden (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "J Murzim → J Mars RA 0.4333 conj (50.57)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "J Unukalhai → J Mars Dec 17.7919 11×φ golden (63.87)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "J Vega → J Mars Dec 14.5642 9×φ golden (88.72)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Jupiter",
+     "same_body": [
+      "S Jupiter → H Jupiter RA 122.4850 122.222 ninth (loose)"
+     ],
+     "body_lines": [
+      "S Sun → Jupiter RA 14.1471 14.14 sqrt2 (86.42)"
+     ],
+     "on_this_chart": [
+      {
+       "text": "S Mars → H Jupiter RA 177.9927 110×φ golden (52.29)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "S Pluto → H Jupiter RA 164.9966 165 whole (68.57)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "H Vega → H Jupiter RA 174.7495 108×φ golden (88.75)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "S Saturn → J Jupiter RA 0.0559 conj (92.69)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "S Saturn → J Jupiter Dec 0.1843 conj (14.87)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "S Sedna → J Jupiter RA 98.7054 61×φ golden (69.54)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "S Difda → J Jupiter Dec 1.5552 1.55556 ninth (96.68)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Saturn",
+     "same_body": [
+      "S Saturn → H Saturn RA 90.0021 90 whole (79.90)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "H Betelgeuse → H Saturn RA 140.7427 87×φ golden (3.57)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter",
+        "Moon"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "S Jupiter → J Saturn RA 110.9967 111 whole (69.84)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "J Deneb Algedi → J Saturn Dec 0.1224 conj (35.04)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Neptune",
+     "same_body": [
+      "S Neptune → H Neptune RA 13.9841 14 whole (4.31)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [],
+     "other_chart_same_body": [
+      "S Neptune → J Neptune Dec 17.8819 φ^6 phi power (loose)"
+     ],
+     "on_other_chart": []
+    },
+    {
+     "chart": "H",
+     "body": "Ceres",
+     "same_body": [
+      "S Ceres → H Ceres Dec 17.0227 17 whole (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "H Jupiter → H Ceres Dec 19.4196 12×φ golden (81.07)",
+       "layer": "T1",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "H Unukalhai → H Ceres RA 28.9840 29 whole (3.97)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "J Hamal → J Ceres Dec 2.0000 2 whole (99.59)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Haumea",
+     "same_body": [
+      "S Haumea → H Haumea Dec 2.9809 3 whole (0.20)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [],
+     "other_chart_same_body": [],
+     "on_other_chart": []
+    },
+    {
+     "chart": "H",
+     "body": "Gonggong",
+     "same_body": [
+      "S Gonggong → H Gonggong RA 0.9958 1 whole (62.21)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "S Sun → H Gonggong Dec 0.1149 conj (38.06)",
+       "layer": "top rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "H Murzim → H Gonggong RA 119.9905 120 whole (27.33)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "S Sun → J Gonggong RA 0.9119 conj (15.37)",
+       "layer": "top rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "J Alphard → J Gonggong RA 173.1252 107×φ golden (74.35)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "J Betelgeuse → J Gonggong RA 120.0187 120 whole (0.42)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter",
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Deneb Algedi → J Gonggong RA 2.0066 2 whole (45.12)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Uranus",
+     "same_body": [
+      "S Uranus → J Uranus RA 143.9975 144 whole (76.52)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "H Alphard → H Uranus RA 129.4139 80×φ golden (1.17)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Neptune",
+     "same_body": [
+      "S Neptune → J Neptune Dec 17.8819 φ^6 phi power (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [],
+     "other_chart_same_body": [
+      "S Neptune → H Neptune RA 13.9841 14 whole (4.31)"
+     ],
+     "on_other_chart": []
+    },
+    {
+     "chart": "J",
+     "body": "Chiron",
+     "same_body": [
+      "S Chiron → J Chiron Dec 12.2314 12.2222 ninth (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Deneb Algedi → J Chiron Dec 34.0029 34 whole (73.38)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "J Unukalhai → J Chiron RA 166.6071 166.667 ninth (94.89)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "H Betelgeuse → H Chiron RA 103.5676 64×φ golden (34.38)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter",
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Deneb Algedi → H Chiron Dec 14.9954 15 whole (59.07)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "H Vega → H Chiron RA 65.9843 66 whole (4.55)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Juno",
+     "same_body": [
+      "S Juno → J Juno RA 122.4655 122.222 ninth (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Unukalhai → J Juno Dec 0.2045 conj (10.14)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "H Alphard → H Juno Dec 14.1424 14.14 sqrt2 (99.33)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "H Vega → H Juno RA 107.0022 107 whole (79.36)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Sedna",
+     "same_body": [
+      "S Sedna → J Sedna RA 18.0009 18 whole (91.18)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "H Betelgeuse → H Sedna Dec 0.1882 conj (13.89)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter",
+        "Moon"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Orcus",
+     "same_body": [
+      "S Orcus → J Orcus Dec 18.8122 18.8889 ninth (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "S Moon → J Orcus RA 1.0941 conj (7.32)",
+       "layer": "top rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Unukalhai → J Orcus Dec 0.2534 conj (2.41)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": []
+    }
+   ],
+   "cases": {
+    "1": [
+     {
+      "label": "Neptune",
+      "cells": [
+       "S Neptune → H Neptune RA 13.9841 14 whole (4.31)",
+       "S Neptune → J Neptune Dec 17.8819 φ^6 phi power (loose)"
+      ],
+      "field": "also: 6 The Paddy Pie / Sean Quinlan"
+     }
+    ],
+    "2": [],
+    "3": [
+     {
+      "label": "12×φ golden",
+      "cells": [
+       "S Mars → H Mars Dec 19.4478 12×φ golden (loose) = S Sun → Unukalhai Dec 19.4128 12×φ golden (78.76)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan, 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan"
+     },
+     {
+      "label": "12×φ golden",
+      "cells": [
+       "H Jupiter → H Ceres Dec 19.4196 12×φ golden (81.07) = S Sun → Unukalhai Dec 19.4128 12×φ golden (78.76)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan, 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan"
+     },
+     {
+      "label": "14.14 sqrt2",
+      "cells": [
+       "H Alphard → H Juno Dec 14.1424 14.14 sqrt2 (99.33) = S Sun → Jupiter RA 14.1471 14.14 sqrt2 (86.42)"
+      ],
+      "field": "also: 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan"
+     },
+     {
+      "label": "12×φ golden",
+      "cells": [
+       "H Betelgeuse → H Makemake Dec 19.4164 12×φ golden (99.84) = S Sun → Unukalhai Dec 19.4128 12×φ golden (78.76)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan, 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan"
+     },
+     {
+      "label": "5 whole",
+      "cells": [
+       "H Vega → H Pluto RA 5.0024 5 whole (77.46) = S Sun → Difda Dec 5.0001 5 whole (98.75)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan, 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan"
+     },
+     {
+      "label": "16 whole",
+      "cells": [
+       "J Betelgeuse → J Sun Dec 15.9851 16 whole (6.48) = S Moon → Betelgeuse Dec 16.0072 16 whole (40.95)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan"
+     },
+     {
+      "label": "5 whole",
+      "cells": [
+       "J Betelgeuse → J Venus Dec 5.0027 5 whole (75.22) = S Sun → Difda Dec 5.0001 5 whole (98.75)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan, 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan"
+     }
+    ],
+    "4": [
+     {
+      "label": "90 = 360/4",
+      "cells": [
+       "S Saturn → H Saturn RA 90.0021 90 whole (79.90)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "3 = 360/120",
+      "cells": [
+       "S Haumea → H Haumea Dec 2.9809 3 whole (0.20)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan"
+     },
+     {
+      "label": "1 = 360/360",
+      "cells": [
+       "S Gonggong → H Gonggong RA 0.9958 1 whole (62.21)"
+      ],
+      "field": "also: 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley"
+     },
+     {
+      "label": "15 = 360/24",
+      "cells": [
+       "H Deneb Algedi → H Chiron Dec 14.9954 15 whole (59.07)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan, 3 Omar Maretti / Kielan Woods"
+     },
+     {
+      "label": "5 = 360/72",
+      "cells": [
+       "H Vega → H Pluto RA 5.0024 5 whole (77.46)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan, 6 The Paddy Pie / Sean Quinlan"
+     },
+     {
+      "label": "18 = 360/20",
+      "cells": [
+       "S Sedna → J Sedna RA 18.0009 18 whole (91.18)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "5 = 360/72",
+      "cells": [
+       "J Betelgeuse → J Venus Dec 5.0027 5 whole (75.22)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan, 6 The Paddy Pie / Sean Quinlan"
+     },
+     {
+      "label": "2 = 360/180",
+      "cells": [
+       "J Hamal → J Ceres Dec 2.0000 2 whole (99.59)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan, 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge"
+     }
+    ],
+    "5": [
+     {
+      "label": "12×φ golden",
+      "cells": [
+       "S Mars → H Mars Dec 19.4478 12×φ golden (loose)",
+       "H Jupiter → H Ceres Dec 19.4196 12×φ golden (81.07)",
+       "H Betelgeuse → H Makemake Dec 19.4164 12×φ golden (99.84)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "122.222 ninth",
+      "cells": [
+       "S Jupiter → H Jupiter RA 122.4850 122.222 ninth (loose)",
+       "S Juno → J Juno RA 122.4655 122.222 ninth (loose)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "108×φ golden",
+      "cells": [
+       "H Jupiter → H star Vega RA 174.7495 108×φ golden (88.75)",
+       "H Vega → H Jupiter RA 174.7495 108×φ golden (88.75)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "5 whole",
+      "cells": [
+       "H Vega → H Pluto RA 5.0024 5 whole (77.46)",
+       "J Betelgeuse → J Venus Dec 5.0027 5 whole (75.22)"
+      ],
+      "field": "only"
+     }
+    ],
+    "6": [
+     {
+      "label": "J Sun on Hamal",
+      "cells": [
+       "J Hamal → J Sun Dec 0.0691 conj (59.24)",
+       "S Moon → J Sun Dec 0.0211 conj (86.46)"
+      ],
+      "field": "only"
+     }
+    ],
+    "7": [
+     {
+      "label": "Jupiter: Jupiter, Sun",
+      "cells": [
+       "[Jupiter] S Mars → H Jupiter RA 177.9927 110×φ golden (52.29)",
+       "[Jupiter] S Pluto → H Jupiter RA 164.9966 165 whole (68.57)",
+       "[Jupiter] S Saturn → J Jupiter RA 0.0559 conj (92.69)",
+       "[Jupiter] S Saturn → J Jupiter Dec 0.1843 conj (14.87)",
+       "[Jupiter] S Sedna → J Jupiter RA 98.7054 61×φ golden (69.54)",
+       "[Sun] S Jupiter → H Jupiter RA 122.4850 122.222 ninth (loose)",
+       "[Sun] H Vega → H Jupiter RA 174.7495 108×φ golden (88.75)",
+       "[Sun] S Difda → J Jupiter Dec 1.5552 1.55556 ninth (96.68)"
+      ],
+      "field": "also: 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley, 6 The Paddy Pie / Sean Quinlan"
+     },
+     {
+      "label": "Ceres: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] H Jupiter → H Ceres Dec 19.4196 12×φ golden (81.07)",
+       "[Moon] J Hamal → J Ceres Dec 2.0000 2 whole (99.59)",
+       "[Sun] H Unukalhai → H Ceres RA 28.9840 29 whole (3.97)"
+      ],
+      "field": "also: 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan"
+     },
+     {
+      "label": "Gonggong: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] J Alphard → J Gonggong RA 173.1252 107×φ golden (74.35)",
+       "[Jupiter] J Betelgeuse → J Gonggong RA 120.0187 120 whole (0.42)",
+       "[Moon] J Betelgeuse → J Gonggong RA 120.0187 120 whole (0.42)",
+       "[Sun] S Sun → H Gonggong Dec 0.1149 conj (38.06)",
+       "[Sun] H Murzim → H Gonggong RA 119.9905 120 whole (27.33)",
+       "[Sun] S Sun → J Gonggong RA 0.9119 conj (15.37)",
+       "[Sun] J Deneb Algedi → J Gonggong RA 2.0066 2 whole (45.12)"
+      ],
+      "field": "also: 3 Omar Maretti / Kielan Woods"
+     },
+     {
+      "label": "Juno: Jupiter, Sun",
+      "cells": [
+       "[Jupiter] H Alphard → H Juno Dec 14.1424 14.14 sqrt2 (99.33)",
+       "[Sun] H Vega → H Juno RA 107.0022 107 whole (79.36)",
+       "[Sun] J Unukalhai → J Juno Dec 0.2045 conj (10.14)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "Eris: Jupiter, Sun",
+      "cells": [
+       "[Jupiter] H Alphard → H Eris RA 116.4916 72×φ golden (62.19)",
+       "[Sun] H Deneb Algedi → H Eris Dec 13.0155 13 whole (5.02)",
+       "[Sun] J Vega → J Eris RA 103.0184 103 whole (0.68)"
+      ],
+      "field": "also: 3 Omar Maretti / Kielan Woods"
+     },
+     {
+      "label": "Saturn: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] H Betelgeuse → H Saturn RA 140.7427 87×φ golden (3.57)",
+       "[Jupiter] S Jupiter → J Saturn RA 110.9967 111 whole (69.84)",
+       "[Moon] H Betelgeuse → H Saturn RA 140.7427 87×φ golden (3.57)",
+       "[Sun] J Deneb Algedi → J Saturn Dec 0.1224 conj (35.04)"
+      ],
+      "field": "also: 4 Winds Of Fire / Adam Wedge"
+     },
+     {
+      "label": "Chiron: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] H Betelgeuse → H Chiron RA 103.5676 64×φ golden (34.38)",
+       "[Moon] H Betelgeuse → H Chiron RA 103.5676 64×φ golden (34.38)",
+       "[Sun] H Deneb Algedi → H Chiron Dec 14.9954 15 whole (59.07)",
+       "[Sun] H Vega → H Chiron RA 65.9843 66 whole (4.55)",
+       "[Sun] J Deneb Algedi → J Chiron Dec 34.0029 34 whole (73.38)",
+       "[Sun] J Unukalhai → J Chiron RA 166.6071 166.667 ninth (94.89)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan, 5 Brian Boranha / Callum Bewley"
+     },
+     {
+      "label": "Sedna: Jupiter, Moon",
+      "cells": [
+       "[Jupiter] H Betelgeuse → H Sedna Dec 0.1882 conj (13.89)",
+       "[Moon] H Betelgeuse → H Sedna Dec 0.1882 conj (13.89)"
+      ],
+      "field": "also: 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge"
+     },
+     {
+      "label": "Makemake: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] H Betelgeuse → H Makemake Dec 19.4164 12×φ golden (99.84)",
+       "[Jupiter] S Jupiter → J Makemake RA 179.4236 10×φ^6 phi power (95.78)",
+       "[Moon] H Betelgeuse → H Makemake Dec 19.4164 12×φ golden (99.84)",
+       "[Sun] H Murzim → H Makemake RA 96.0084 96 whole (33.53)"
+      ],
+      "field": "also: 4 Winds Of Fire / Adam Wedge"
+     },
+     {
+      "label": "Transpluto: Jupiter, Sun",
+      "cells": [
+       "[Jupiter] J Alphard → J Transpluto RA 0.1658 conj (79.11)",
+       "[Sun] H Deneb Algedi → H Transpluto RA 175.0012 175 whole (88.65)",
+       "[Sun] J Unukalhai → J Transpluto RA 94.0117 94 whole (17.30)"
+      ],
+      "field": "also: 6 The Paddy Pie / Sean Quinlan"
+     },
+     {
+      "label": "Quaoar: Moon, Sun",
+      "cells": [
+       "[Moon] H Hamal → H Quaoar Dec 38.9813 39 whole (0.40)",
+       "[Sun] J Vega → J Quaoar Dec 50.9960 51 whole (64.35)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan"
+     },
+     {
+      "label": "Pluto: Jupiter, Sun",
+      "cells": [
+       "[Jupiter] J Alphard → J Pluto RA 74.0158 74 whole (4.36)",
+       "[Sun] H Vega → H Pluto RA 5.0024 5 whole (77.46)",
+       "[Sun] J Difda → J Pluto RA 154.9854 155 whole (7.33)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan, 3 Omar Maretti / Kielan Woods"
+     },
+     {
+      "label": "Sun: Jupiter, Moon",
+      "cells": [
+       "[Jupiter] J Betelgeuse → J Sun Dec 15.9851 16 whole (6.48)",
+       "[Moon] S Moon → J Sun Dec 0.0211 conj (86.46)",
+       "[Moon] J Betelgeuse → J Sun Dec 15.9851 16 whole (6.48)",
+       "[Moon] J Hamal → J Sun Dec 0.0691 conj (59.24)"
+      ],
+      "field": "also: 3 Omar Maretti / Kielan Woods"
+     },
+     {
+      "label": "Venus: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] J Betelgeuse → J Venus Dec 5.0027 5 whole (75.22)",
+       "[Moon] S Moon → J Venus Dec 11.0035 11 whole (68.16)",
+       "[Moon] J Betelgeuse → J Venus Dec 5.0027 5 whole (75.22)",
+       "[Sun] J Unukalhai → J Venus Dec 5.9839 6 whole (3.84)",
+       "[Sun] J Vega → J Venus RA 119.9919 120 whole (35.45)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "Orcus: Moon, Sun",
+      "cells": [
+       "[Moon] S Moon → J Orcus RA 1.0941 conj (7.32)",
+       "[Sun] J Unukalhai → J Orcus Dec 0.2534 conj (2.41)"
+      ],
+      "field": "also: 5 Brian Boranha / Callum Bewley, 6 The Paddy Pie / Sean Quinlan"
+     },
+     {
+      "label": "Pallas: Jupiter, Moon",
+      "cells": [
+       "[Jupiter] J Betelgeuse → J Pallas Dec 8.0104 8 whole (22.81)",
+       "[Moon] J Betelgeuse → J Pallas Dec 8.0104 8 whole (22.81)"
+      ],
+      "field": "only"
+     }
+    ]
+   }
+  },
+  "P05": {
+   "name": "3 Omar Maretti / Kielan Woods",
+   "same_bodies": [
+    "S Mars → H Mars Dec 17.6610 17.7778 ninth (loose)",
+    "S Neptune → H Neptune RA 14.4180 14.4444 ninth (loose)",
+    "S Ceres → H Ceres Dec 17.7975 11×φ golden (94.42)",
+    "S Pallas → H Pallas Dec 14.1406 14.14 sqrt2 (95.59)",
+    "S Transpluto → H Transpluto Dec 1.1071 1.11111 ninth (loose)",
+    "S Mars → J Mars RA 179.4785 10×φ^6 phi power (92.19)",
+    "S Jupiter → J Jupiter RA 161.1092 100×φ^1 phi power (loose)",
+    "S Pluto → J Pluto RA 66.5804 66.6667 ninth (loose)",
+    "S Chiron → J Chiron RA 133.5130 133.333 ninth (loose)",
+    "S Ceres → J Ceres Dec 50.9719 51 whole (loose)",
+    "S Orcus → J Orcus Dec 14.4655 14.4444 ninth (loose)"
+   ],
+   "landings": [
+    {
+     "chart": "H",
+     "body": "Mars",
+     "same_body": [
+      "S Mars → H Mars Dec 17.6610 17.7778 ninth (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "H Hamal → H Mars Dec 29.0316 φ^7 phi power (96.06)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Unukalhai → H Mars Dec 11.9944 12 whole (51.72)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [
+      "S Mars → J Mars RA 179.4785 10×φ^6 phi power (92.19)"
+     ],
+     "on_other_chart": [
+      {
+       "text": "S Moon → J Mars Dec 0.2292 conj (5.57)",
+       "layer": "top rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Hamal → J Mars Dec 0.2805 conj (0.42)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Neptune",
+     "same_body": [
+      "S Neptune → H Neptune RA 14.4180 14.4444 ninth (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [],
+     "other_chart_same_body": [],
+     "on_other_chart": []
+    },
+    {
+     "chart": "H",
+     "body": "Ceres",
+     "same_body": [
+      "S Ceres → H Ceres Dec 17.7975 11×φ golden (94.42)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "H Deneb Algedi → H Ceres Dec 18.9977 19 whole (78.48)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "H Murzim → H Ceres RA 114.8503 71×φ golden (0.50)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [
+      "S Ceres → J Ceres Dec 50.9719 51 whole (loose)"
+     ],
+     "on_other_chart": [
+      {
+       "text": "J Betelgeuse → J Ceres RA 146.0004 146 whole (96.31)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter",
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Hamal → J Ceres RA 89.0040 89 whole (64.21)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Pallas",
+     "same_body": [
+      "S Pallas → H Pallas Dec 14.1406 14.14 sqrt2 (95.59)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "S Sun → H Pallas RA 176.3672 109×φ golden (91.22)",
+       "layer": "top rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "H Difda → H Pallas RA 133.3309 133.333 ninth (99.71)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "H Difda → H Pallas Dec 23.0161 23 whole (3.77)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "H Murzim → H Pallas RA 48.5497 30×φ golden (53.33)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "H Murzim → H Pallas Dec 22.9872 23 whole (13.11)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "H Vega → H Pallas RA 135.0126 135 whole (13.54)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "J Betelgeuse → J Pallas Dec 0.2515 conj (2.61)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter",
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Unukalhai → J Pallas RA 32.9903 33 whole (26.54)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Transpluto",
+     "same_body": [
+      "S Transpluto → H Transpluto Dec 1.1071 1.11111 ninth (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "S Sun → J Transpluto RA 177.7640 177.778 ninth (98.92)",
+       "layer": "top rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Mars",
+     "same_body": [
+      "S Mars → J Mars RA 179.4785 10×φ^6 phi power (92.19)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "S Moon → J Mars Dec 0.2292 conj (5.57)",
+       "layer": "top rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Hamal → J Mars Dec 0.2805 conj (0.42)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ],
+     "other_chart_same_body": [
+      "S Mars → H Mars Dec 17.6610 17.7778 ninth (loose)"
+     ],
+     "on_other_chart": [
+      {
+       "text": "H Hamal → H Mars Dec 29.0316 φ^7 phi power (96.06)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Unukalhai → H Mars Dec 11.9944 12 whole (51.72)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Jupiter",
+     "same_body": [
+      "S Jupiter → J Jupiter RA 161.1092 100×φ^1 phi power (loose)"
+     ],
+     "body_lines": [
+      "S Sun → Jupiter RA 14.1471 14.14 sqrt2 (86.42)"
+     ],
+     "on_this_chart": [
+      {
+       "text": "S Chiron → J Jupiter Dec 4.8541 3×φ golden (99.77)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "J Alphard → J Jupiter RA 39.0003 39 whole (96.80)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "S Difda → J Jupiter RA 169.9995 170 whole (94.61)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "J Vega → J Jupiter Dec 37.9954 38 whole (59.47)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "S Moon → H Jupiter RA 23.0037 23 whole (66.81)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter",
+        "Moon"
+       ]
+      },
+      {
+       "text": "S Moon → H Jupiter Dec 0.2038 conj (10.29)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter",
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Hamal → H Jupiter Dec 0.2511 conj (2.65)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Pluto",
+     "same_body": [
+      "S Pluto → J Pluto RA 66.5804 66.6667 ninth (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Alphard → J Pluto RA 91.0176 91 whole (1.49)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "J Difda → J Pluto RA 137.9905 138 whole (27.49)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "H Vega → H Pluto RA 4.9824 5 whole (1.39)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Chiron",
+     "same_body": [
+      "S Chiron → J Chiron RA 133.5130 133.333 ninth (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Alphard → J Chiron RA 0.4333 conj (50.58)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "J Hamal → J Chiron Dec 15.0008 15 whole (92.60)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": []
+    },
+    {
+     "chart": "J",
+     "body": "Ceres",
+     "same_body": [
+      "S Ceres → J Ceres Dec 50.9719 51 whole (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Betelgeuse → J Ceres RA 146.0004 146 whole (96.31)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter",
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Hamal → J Ceres RA 89.0040 89 whole (64.21)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ],
+     "other_chart_same_body": [
+      "S Ceres → H Ceres Dec 17.7975 11×φ golden (94.42)"
+     ],
+     "on_other_chart": [
+      {
+       "text": "H Deneb Algedi → H Ceres Dec 18.9977 19 whole (78.48)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "H Murzim → H Ceres RA 114.8503 71×φ golden (0.50)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Orcus",
+     "same_body": [
+      "S Orcus → J Orcus Dec 14.4655 14.4444 ninth (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Alphard → J Orcus Dec 10.9883 11 whole (17.22)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": []
+    }
+   ],
+   "cases": {
+    "1": [
+     {
+      "label": "Mars",
+      "cells": [
+       "S Mars → H Mars Dec 17.6610 17.7778 ninth (loose)",
+       "S Mars → J Mars RA 179.4785 10×φ^6 phi power (92.19)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "Ceres",
+      "cells": [
+       "S Ceres → H Ceres Dec 17.7975 11×φ golden (94.42)",
+       "S Ceres → J Ceres Dec 50.9719 51 whole (loose)"
+      ],
+      "field": "only"
+     }
+    ],
+    "2": [],
+    "3": [
+     {
+      "label": "14.14 sqrt2",
+      "cells": [
+       "S Pallas → H Pallas Dec 14.1406 14.14 sqrt2 (95.59) = S Sun → Jupiter RA 14.1471 14.14 sqrt2 (86.42)"
+      ],
+      "field": "also: 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan"
+     },
+     {
+      "label": "5 whole",
+      "cells": [
+       "H Vega → H Pluto RA 4.9824 5 whole (1.39) = S Sun → Difda Dec 5.0001 5 whole (98.75)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan"
+     }
+    ],
+    "4": [
+     {
+      "label": "2 = 360/180",
+      "cells": [
+       "H Murzim → H Saturn Dec 2.0017 2 whole (83.78)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge"
+     },
+     {
+      "label": "12 = 360/30",
+      "cells": [
+       "H Unukalhai → H Mars Dec 11.9944 12 whole (51.72)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "15 = 360/24",
+      "cells": [
+       "J Hamal → J Chiron Dec 15.0008 15 whole (92.60)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes"
+     }
+    ],
+    "5": [
+     {
+      "label": "17.7778 ninth",
+      "cells": [
+       "S Mars → H Mars Dec 17.6610 17.7778 ninth (loose)",
+       "H Hamal → H Sun Dec 17.7709 17.7778 ninth (94.62)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "14.4444 ninth",
+      "cells": [
+       "S Neptune → H Neptune RA 14.4180 14.4444 ninth (loose)",
+       "S Orcus → J Orcus Dec 14.4655 14.4444 ninth (loose)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "177.778 ninth",
+      "cells": [
+       "H Betelgeuse → H Quaoar RA 177.7149 177.778 ninth (95.08)",
+       "S Sun → J Transpluto RA 177.7640 177.778 ninth (98.92)"
+      ],
+      "field": "also: 5 Brian Boranha / Callum Bewley, 6 The Paddy Pie / Sean Quinlan"
+     },
+     {
+      "label": "133.333 ninth",
+      "cells": [
+       "H Difda → H Pallas RA 133.3309 133.333 ninth (99.71)",
+       "S Chiron → J Chiron RA 133.5130 133.333 ninth (loose)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "39 whole",
+      "cells": [
+       "J Jupiter → J star Alphard RA 39.0003 39 whole (96.80)",
+       "J Alphard → J Jupiter RA 39.0003 39 whole (96.80)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "38 whole",
+      "cells": [
+       "J Jupiter → J star Vega Dec 37.9954 38 whole (59.47)",
+       "J Deneb Algedi → J Haumea Dec 37.9956 38 whole (60.94)",
+       "J Vega → J Jupiter Dec 37.9954 38 whole (59.47)"
+      ],
+      "field": "only"
+     }
+    ],
+    "6": [],
+    "7": [
+     {
+      "label": "Juno: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] S Jupiter → H Juno RA 35.5974 22×φ golden (96.16)",
+       "[Jupiter] H Betelgeuse → H Juno RA 71.1905 44×φ golden (82.15)",
+       "[Moon] S Moon → H Juno RA 108.0057 108 whole (51.39)",
+       "[Moon] H Betelgeuse → H Juno RA 71.1905 44×φ golden (82.15)",
+       "[Sun] J Deneb Algedi → J Juno RA 129.9935 130 whole (45.62)",
+       "[Sun] J Murzim → J Juno RA 1.0797 conj (7.85)",
+       "[Sun] J Unukalhai → J Juno Dec 0.2786 conj (0.51)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan, 4 Winds Of Fire / Adam Wedge"
+     },
+     {
+      "label": "Pallas: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] J Betelgeuse → J Pallas Dec 0.2515 conj (2.61)",
+       "[Moon] J Betelgeuse → J Pallas Dec 0.2515 conj (2.61)",
+       "[Sun] S Sun → H Pallas RA 176.3672 109×φ golden (91.22)",
+       "[Sun] H Difda → H Pallas RA 133.3309 133.333 ninth (99.71)",
+       "[Sun] H Difda → H Pallas Dec 23.0161 23 whole (3.77)",
+       "[Sun] H Murzim → H Pallas RA 48.5497 30×φ golden (53.33)",
+       "[Sun] H Murzim → H Pallas Dec 22.9872 23 whole (13.11)",
+       "[Sun] H Vega → H Pallas RA 135.0126 135 whole (13.54)",
+       "[Sun] J Unukalhai → J Pallas RA 32.9903 33 whole (26.54)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan, 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan"
+     },
+     {
+      "label": "Gonggong: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] H Betelgeuse → H Gonggong RA 113.2351 70×φ golden (2.46)",
+       "[Jupiter] J Betelgeuse → J Gonggong Dec 26.9987 27 whole (87.07)",
+       "[Moon] H Betelgeuse → H Gonggong RA 113.2351 70×φ golden (2.46)",
+       "[Moon] S Moon → J Gonggong Dec 43.0032 43 whole (70.84)",
+       "[Moon] J Betelgeuse → J Gonggong Dec 26.9987 27 whole (87.07)",
+       "[Sun] S Sun → H Gonggong Dec 0.1636 conj (20.68)",
+       "[Sun] J Unukalhai → J Gonggong Dec 26.0181 26 whole (0.89)"
+      ],
+      "field": "also: 2 Marown / Brian Hughes"
+     },
+     {
+      "label": "Jupiter: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] S Moon → H Jupiter RA 23.0037 23 whole (66.81)",
+       "[Jupiter] S Moon → H Jupiter Dec 0.2038 conj (10.29)",
+       "[Jupiter] S Chiron → J Jupiter Dec 4.8541 3×φ golden (99.77)",
+       "[Jupiter] J Alphard → J Jupiter RA 39.0003 39 whole (96.80)",
+       "[Moon] S Moon → H Jupiter RA 23.0037 23 whole (66.81)",
+       "[Moon] S Moon → H Jupiter Dec 0.2038 conj (10.29)",
+       "[Moon] H Hamal → H Jupiter Dec 0.2511 conj (2.65)",
+       "[Sun] S Jupiter → J Jupiter RA 161.1092 100×φ^1 phi power (loose)",
+       "[Sun] S Difda → J Jupiter RA 169.9995 170 whole (94.61)",
+       "[Sun] J Vega → J Jupiter Dec 37.9954 38 whole (59.47)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan"
+     },
+     {
+      "label": "Sedna: Jupiter, Moon",
+      "cells": [
+       "[Jupiter] H Betelgeuse → H Sedna Dec 0.2494 conj (2.85)",
+       "[Jupiter] S Jupiter → J Sedna Dec 12.9984 13 whole (84.59)",
+       "[Moon] H Betelgeuse → H Sedna Dec 0.2494 conj (2.85)"
+      ],
+      "field": "also: 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge"
+     },
+     {
+      "label": "Quaoar: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] H Betelgeuse → H Quaoar RA 177.7149 177.778 ninth (95.08)",
+       "[Moon] H Betelgeuse → H Quaoar RA 177.7149 177.778 ninth (95.08)",
+       "[Moon] J Hamal → J Quaoar RA 155.3337 96×φ golden (85.76)",
+       "[Sun] H Unukalhai → H Quaoar Dec 21.9943 22 whole (50.89)",
+       "[Sun] J Murzim → J Quaoar RA 140.7884 87×φ golden (15.90)",
+       "[Sun] J Unukalhai → J Quaoar RA 0.4026 conj (53.52)"
+      ],
+      "field": "also: 6 The Paddy Pie / Sean Quinlan"
+     },
+     {
+      "label": "Ceres: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] J Betelgeuse → J Ceres RA 146.0004 146 whole (96.31)",
+       "[Moon] J Betelgeuse → J Ceres RA 146.0004 146 whole (96.31)",
+       "[Moon] J Hamal → J Ceres RA 89.0040 89 whole (64.21)",
+       "[Sun] H Deneb Algedi → H Ceres Dec 18.9977 19 whole (78.48)",
+       "[Sun] H Murzim → H Ceres RA 114.8503 71×φ golden (0.50)"
+      ],
+      "field": "also: 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan"
+     },
+     {
+      "label": "Eris: Jupiter, Sun",
+      "cells": [
+       "[Jupiter] S Jupiter → J Eris Dec 0.2337 conj (4.88)",
+       "[Jupiter] J Alphard → J Eris Dec 0.2559 conj (2.17)",
+       "[Sun] H Deneb Algedi → H Eris Dec 12.9446 8×φ golden (97.87)",
+       "[Sun] H Vega → H Eris RA 106.0156 106 whole (4.83)"
+      ],
+      "field": "also: 2 Marown / Brian Hughes"
+     },
+     {
+      "label": "Sun: Jupiter, Moon",
+      "cells": [
+       "[Jupiter] S Jupiter → J Sun RA 143.9973 144 whole (74.54)",
+       "[Moon] H Hamal → H Sun Dec 17.7709 17.7778 ninth (94.62)"
+      ],
+      "field": "also: 2 Marown / Brian Hughes"
+     },
+     {
+      "label": "Mars: Moon, Sun",
+      "cells": [
+       "[Moon] H Hamal → H Mars Dec 29.0316 φ^7 phi power (96.06)",
+       "[Moon] S Moon → J Mars Dec 0.2292 conj (5.57)",
+       "[Moon] J Hamal → J Mars Dec 0.2805 conj (0.42)",
+       "[Sun] H Unukalhai → H Mars Dec 11.9944 12 whole (51.72)"
+      ],
+      "field": "also: 5 Brian Boranha / Callum Bewley"
+     },
+     {
+      "label": "Makemake: Moon, Sun",
+      "cells": [
+       "[Moon] H Hamal → H Makemake RA 160.1655 99×φ golden (14.80)",
+       "[Sun] H Vega → H Makemake Dec 12.0141 12 whole (8.74)"
+      ],
+      "field": "also: 5 Brian Boranha / Callum Bewley"
+     },
+     {
+      "label": "Pluto: Jupiter, Sun",
+      "cells": [
+       "[Jupiter] J Alphard → J Pluto RA 91.0176 91 whole (1.49)",
+       "[Sun] H Vega → H Pluto RA 4.9824 5 whole (1.39)",
+       "[Sun] J Difda → J Pluto RA 137.9905 138 whole (27.49)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes"
+     },
+     {
+      "label": "Ketu: Moon, Sun",
+      "cells": [
+       "[Moon] S Moon → J Ketu Dec 0.1275 conj (33.08)",
+       "[Moon] J Hamal → J Ketu Dec 0.1787 conj (16.34)",
+       "[Sun] H Vega → H Ketu RA 106.9845 107 whole (5.03)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan, 5 Brian Boranha / Callum Bewley"
+     },
+     {
+      "label": "Chiron: Jupiter, Moon",
+      "cells": [
+       "[Jupiter] J Alphard → J Chiron RA 0.4333 conj (50.58)",
+       "[Moon] J Hamal → J Chiron Dec 15.0008 15 whole (92.60)"
+      ],
+      "field": "only"
+     }
+    ]
+   }
+  },
+  "P07": {
+   "name": "4 Winds Of Fire / Adam Wedge",
+   "same_bodies": [
+    "S Sun → H Sun RA 44.4785 44.4444 ninth (loose)",
+    "S Venus → H Venus RA 121.6157 122.222 ninth (loose)",
+    "S Pluto → H Pluto Dec 2.0045 2 whole (60.36)",
+    "S Juno → H Juno RA 179.9301 10×φ^6 phi power (loose)",
+    "S Juno → H Juno Dec 24.1191 24.14 silver (loose)",
+    "S Transpluto → H Transpluto Dec 0.9858 1 whole (8.43)",
+    "S Mercury → J Mercury RA 139.1782 86×φ golden (2.50)",
+    "S Jupiter → J Jupiter RA 110.6261 10×φ^5 phi power (loose)",
+    "S Saturn → J Saturn Dec 6.0203 6 whole (loose)",
+    "S Neptune → J Neptune Dec 17.7615 17.7778 ninth (loose)",
+    "S Chiron → J Chiron RA 95.4960 59×φ golden (loose)",
+    "S Chiron → J Chiron Dec 11.0767 φ^5 phi power (loose)",
+    "S Ceres → J Ceres RA 19.3926 12×φ golden (loose)",
+    "S Rahu → J Rahu Dec 32.3702 20×φ golden (loose)",
+    "S Makemake → J Makemake Dec 12.9253 8×φ golden (loose)",
+    "S Ketu → J Ketu Dec 32.3702 20×φ golden (loose)"
+   ],
+   "landings": [
+    {
+     "chart": "H",
+     "body": "Sun",
+     "same_body": [
+      "S Sun → H Sun RA 44.4785 44.4444 ninth (loose)"
+     ],
+     "body_lines": [
+      "S Jupiter → Sun RA 14.1471 14.14 sqrt2 (86.42)"
+     ],
+     "on_this_chart": [
+      {
+       "text": "S Moon → H Sun RA 113.2716 70×φ golden (51.09)",
+       "layer": "top rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Difda → H Sun RA 1.4422 conj (0.15)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "J Alphard → J Sun RA 0.5288 conj (41.92)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Venus",
+     "same_body": [
+      "S Venus → H Venus RA 121.6157 122.222 ninth (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "H Deneb Algedi → H Venus Dec 35.0021 35 whole (79.67)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "J Difda → J Venus Dec 22.0075 22 whole (38.76)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "J Murzim → J Venus RA 77.6655 48×φ golden (99.21)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Pluto",
+     "same_body": [
+      "S Pluto → H Pluto Dec 2.0045 2 whole (60.36)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "H Alphard → H Pluto RA 144.4362 144.444 ninth (99.12)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "S Jupiter → J Pluto Dec 7.9984 8 whole (84.71)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "J Alphard → J Pluto RA 82.9812 83 whole (0.34)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "J Hamal → J Pluto Dec 24.1420 24.14 silver (99.71)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Juno",
+     "same_body": [
+      "S Juno → H Juno RA 179.9301 10×φ^6 phi power (loose)",
+      "S Juno → H Juno Dec 24.1191 24.14 silver (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "S Moon → H Juno RA 0.3676 conj (56.99)",
+       "layer": "top rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Alphard → H Juno RA 16.6608 16.6667 ninth (95.00)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "H Vega → H Juno RA 153.9972 154 whole (74.29)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "S Moon → J Juno RA 50.9943 51 whole (50.82)",
+       "layer": "top rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Transpluto",
+     "same_body": [
+      "S Transpluto → H Transpluto Dec 0.9858 1 whole (8.43)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "H Hamal → H Transpluto Dec 12.0185 12 whole (0.56)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Unukalhai → H Transpluto Dec 5.0187 5 whole (0.45)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": []
+    },
+    {
+     "chart": "J",
+     "body": "Mercury",
+     "same_body": [
+      "S Mercury → J Mercury RA 139.1782 86×φ golden (2.50)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Difda → J Mercury Dec 25.9861 26 whole (9.30)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": []
+    },
+    {
+     "chart": "J",
+     "body": "Jupiter",
+     "same_body": [
+      "S Jupiter → J Jupiter RA 110.6261 10×φ^5 phi power (loose)"
+     ],
+     "body_lines": [
+      "S Sun → Jupiter RA 14.1471 14.14 sqrt2 (86.42)"
+     ],
+     "on_this_chart": [
+      {
+       "text": "S Unukalhai → J Jupiter Dec 16.6678 16.6667 ninth (99.01)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "S Juno → H Jupiter RA 170.0058 170 whole (50.21)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "S Difda → H Jupiter Dec 35.9884 36 whole (17.67)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Saturn",
+     "same_body": [
+      "S Saturn → J Saturn Dec 6.0203 6 whole (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Alphard → J Saturn RA 136.9847 137 whole (5.58)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "J Alphard → J Saturn Dec 13.9818 14 whole (0.85)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "J Vega → J Saturn RA 0.3631 conj (57.45)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "H Hamal → H Saturn Dec 42.3691 10×φ^3 phi power (92.25)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Neptune",
+     "same_body": [
+      "S Neptune → J Neptune Dec 17.7615 17.7778 ninth (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Deneb Algedi → J Neptune Dec 6.0067 6 whole (44.13)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "H Deneb Algedi → H Neptune Dec 7.0101 7 whole (24.32)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Chiron",
+     "same_body": [
+      "S Chiron → J Chiron RA 95.4960 59×φ golden (loose)",
+      "S Chiron → J Chiron Dec 11.0767 φ^5 phi power (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [],
+     "other_chart_same_body": [],
+     "on_other_chart": []
+    },
+    {
+     "chart": "J",
+     "body": "Ceres",
+     "same_body": [
+      "S Ceres → J Ceres RA 19.3926 12×φ golden (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Betelgeuse → J Ceres RA 11.0021 11 whole (80.24)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter",
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Hamal → J Ceres RA 45.9929 46 whole (41.73)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Vega → J Ceres RA 158.5479 98×φ golden (15.91)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": []
+    },
+    {
+     "chart": "J",
+     "body": "Rahu",
+     "same_body": [
+      "S Rahu → J Rahu Dec 32.3702 20×φ golden (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "S Sun → J Rahu RA 0.3830 conj (55.46)",
+       "layer": "top rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "S Sun → J Rahu Dec 0.1334 conj (30.84)",
+       "layer": "top rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "J Deneb Algedi → J Rahu RA 1.4748 conj (0.03)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "J Vega → J Rahu RA 49.0003 49 whole (97.32)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "S Jupiter → H Rahu RA 153.0007 153 whole (93.06)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Makemake",
+     "same_body": [
+      "S Makemake → J Makemake Dec 12.9253 8×φ golden (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Alphard → J Makemake RA 25.9974 26 whole (75.61)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "J Difda → J Makemake RA 156.9890 157 whole (20.13)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "J Hamal → J Makemake Dec 11.9832 12 whole (2.64)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Murzim → J Makemake Dec 53.3988 33×φ golden (78.35)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "J Unukalhai → J Makemake Dec 29.0178 29 whole (1.17)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "H Betelgeuse → H Makemake Dec 18.8891 18.8889 ninth (99.83)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter",
+        "Moon"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Ketu",
+     "same_body": [
+      "S Ketu → J Ketu Dec 32.3702 20×φ golden (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Deneb Algedi → J Ketu Dec 28.9805 29 whole (0.06)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "J Vega → J Ketu RA 130.9997 131 whole (97.32)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "S Jupiter → H Ketu RA 26.9993 27 whole (93.06)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "H Deneb Algedi → H Ketu Dec 20.0104 20 whole (23.22)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    }
+   ],
+   "cases": {
+    "1": [],
+    "2": [
+     {
+      "label": "H Juno",
+      "cells": [
+       "S Juno → H Juno RA 179.9301 10×φ^6 phi power (loose)",
+       "S Juno → H Juno Dec 24.1191 24.14 silver (loose)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan"
+     },
+     {
+      "label": "J Chiron",
+      "cells": [
+       "S Chiron → J Chiron RA 95.4960 59×φ golden (loose)",
+       "S Chiron → J Chiron Dec 11.0767 φ^5 phi power (loose)"
+      ],
+      "field": "only"
+     }
+    ],
+    "3": [
+     {
+      "label": "5 whole",
+      "cells": [
+       "H Unukalhai → H Transpluto Dec 5.0187 5 whole (0.45) = S Sun → Difda Dec 5.0001 5 whole (98.75)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods, 6 The Paddy Pie / Sean Quinlan"
+     },
+     {
+      "label": "12×φ golden",
+      "cells": [
+       "S Ceres → J Ceres RA 19.3926 12×φ golden (loose) = S Sun → Unukalhai Dec 19.4128 12×φ golden (78.76)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 6 The Paddy Pie / Sean Quinlan"
+     },
+     {
+      "label": "14.14 sqrt2",
+      "cells": [
+       "S Sun → J Pallas Dec 14.1456 14.14 sqrt2 (90.45) = S Sun → Jupiter RA 14.1471 14.14 sqrt2 (86.42)"
+      ],
+      "field": "also: 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods, 6 The Paddy Pie / Sean Quinlan"
+     },
+     {
+      "label": "5 whole",
+      "cells": [
+       "J Difda → J Quaoar Dec 5.0134 5 whole (10.77) = S Sun → Difda Dec 5.0001 5 whole (98.75)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods, 6 The Paddy Pie / Sean Quinlan"
+     },
+     {
+      "label": "5 whole",
+      "cells": [
+       "J Murzim → J Quaoar Dec 4.9829 5 whole (2.09) = S Sun → Difda Dec 5.0001 5 whole (98.75)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods, 6 The Paddy Pie / Sean Quinlan"
+     }
+    ],
+    "4": [
+     {
+      "label": "2 = 360/180",
+      "cells": [
+       "S Pluto → H Pluto Dec 2.0045 2 whole (60.36)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods"
+     },
+     {
+      "label": "1 = 360/360",
+      "cells": [
+       "S Transpluto → H Transpluto Dec 0.9858 1 whole (8.43)"
+      ],
+      "field": "also: 2 Marown / Brian Hughes, 5 Brian Boranha / Callum Bewley"
+     },
+     {
+      "label": "9 = 360/40",
+      "cells": [
+       "H Deneb Algedi → H Gonggong RA 8.9973 9 whole (74.41)"
+      ],
+      "field": "also: 5 Brian Boranha / Callum Bewley"
+     },
+     {
+      "label": "6 = 360/60",
+      "cells": [
+       "S Saturn → J Saturn Dec 6.0203 6 whole (loose)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan, 6 The Paddy Pie / Sean Quinlan"
+     },
+     {
+      "label": "8 = 360/45",
+      "cells": [
+       "S Jupiter → J Pluto Dec 7.9984 8 whole (84.71)"
+      ],
+      "field": "only"
+     }
+    ],
+    "5": [
+     {
+      "label": "10×φ^6 phi power",
+      "cells": [
+       "S Juno → H Juno RA 179.9301 10×φ^6 phi power (loose)",
+       "J Betelgeuse → J Vesta RA 179.4403 10×φ^6 phi power (99.47)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan"
+     },
+     {
+      "label": "24.14 silver",
+      "cells": [
+       "S Juno → H Juno Dec 24.1191 24.14 silver (loose)",
+       "H Alphard → H Pallas Dec 24.1406 24.14 silver (97.53)",
+       "J Hamal → J Pluto Dec 24.1420 24.14 silver (99.71)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "16.6667 ninth",
+      "cells": [
+       "H Alphard → H Juno RA 16.6608 16.6667 ninth (95.00)",
+       "J Jupiter → J star Unukalhai Dec 16.6635 16.6667 ninth (97.26)",
+       "S Unukalhai → J Jupiter Dec 16.6678 16.6667 ninth (99.01)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "20×φ golden",
+      "cells": [
+       "S Rahu → J Rahu Dec 32.3702 20×φ golden (loose)",
+       "S Ketu → J Ketu Dec 32.3702 20×φ golden (loose)"
+      ],
+      "field": "only"
+     }
+    ],
+    "6": [],
+    "7": [
+     {
+      "label": "Sun: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] S Sun → H Sun RA 44.4785 44.4444 ninth (loose)",
+       "[Jupiter] J Alphard → J Sun RA 0.5288 conj (41.92)",
+       "[Moon] S Moon → H Sun RA 113.2716 70×φ golden (51.09)",
+       "[Sun] H Difda → H Sun RA 1.4422 conj (0.15)"
+      ],
+      "field": "also: 5 Brian Boranha / Callum Bewley"
+     },
+     {
+      "label": "Rahu: Jupiter, Sun",
+      "cells": [
+       "[Jupiter] S Jupiter → H Rahu RA 153.0007 153 whole (93.06)",
+       "[Sun] S Sun → J Rahu RA 0.3830 conj (55.46)",
+       "[Sun] S Sun → J Rahu Dec 0.1334 conj (30.84)",
+       "[Sun] J Deneb Algedi → J Rahu RA 1.4748 conj (0.03)",
+       "[Sun] J Vega → J Rahu RA 49.0003 49 whole (97.32)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "Orcus: Jupiter, Sun",
+      "cells": [
+       "[Jupiter] S Jupiter → H Orcus Dec 0.1788 conj (16.33)",
+       "[Jupiter] H Alphard → H Orcus Dec 0.1620 conj (21.16)",
+       "[Sun] J Vega → J Orcus RA 150.0123 150 whole (14.81)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "Ketu: Jupiter, Sun",
+      "cells": [
+       "[Jupiter] S Jupiter → H Ketu RA 26.9993 27 whole (93.06)",
+       "[Sun] H Deneb Algedi → H Ketu Dec 20.0104 20 whole (23.22)",
+       "[Sun] J Deneb Algedi → J Ketu Dec 28.9805 29 whole (0.06)",
+       "[Sun] J Vega → J Ketu RA 130.9997 131 whole (97.32)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "Vesta: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] J Betelgeuse → J Vesta RA 179.4403 10×φ^6 phi power (99.47)",
+       "[Moon] J Betelgeuse → J Vesta RA 179.4403 10×φ^6 phi power (99.47)",
+       "[Sun] S Sun → H Vesta Dec 0.2688 conj (1.08)",
+       "[Sun] H Murzim → H Vesta RA 119.9817 120 whole (0.76)",
+       "[Sun] J Vega → J Vesta RA 11.0097 11 whole (26.58)"
+      ],
+      "field": "also: 5 Brian Boranha / Callum Bewley"
+     },
+     {
+      "label": "Mars: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] H Alphard → H Mars RA 112.0171 112 whole (2.04)",
+       "[Moon] S Moon → H Mars Dec 11.3277 7×φ golden (91.44)",
+       "[Sun] H Difda → H Mars RA 18.9899 19 whole (24.40)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "Juno: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] H Alphard → H Juno RA 16.6608 16.6667 ninth (95.00)",
+       "[Moon] S Moon → H Juno RA 0.3676 conj (56.99)",
+       "[Moon] S Moon → J Juno RA 50.9943 51 whole (50.82)",
+       "[Sun] H Vega → H Juno RA 153.9972 154 whole (74.29)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan, 3 Omar Maretti / Kielan Woods"
+     },
+     {
+      "label": "Jupiter: Jupiter, Sun",
+      "cells": [
+       "[Jupiter] S Juno → H Jupiter RA 170.0058 170 whole (50.21)",
+       "[Sun] S Difda → H Jupiter Dec 35.9884 36 whole (17.67)",
+       "[Sun] S Jupiter → J Jupiter RA 110.6261 10×φ^5 phi power (loose)",
+       "[Sun] S Unukalhai → J Jupiter Dec 16.6678 16.6667 ninth (99.01)"
+      ],
+      "field": "also: 2 Marown / Brian Hughes, 5 Brian Boranha / Callum Bewley, 6 The Paddy Pie / Sean Quinlan"
+     },
+     {
+      "label": "Pluto: Jupiter, Moon",
+      "cells": [
+       "[Jupiter] H Alphard → H Pluto RA 144.4362 144.444 ninth (99.12)",
+       "[Jupiter] S Jupiter → J Pluto Dec 7.9984 8 whole (84.71)",
+       "[Jupiter] J Alphard → J Pluto RA 82.9812 83 whole (0.34)",
+       "[Moon] J Hamal → J Pluto Dec 24.1420 24.14 silver (99.71)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "Pallas: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] H Alphard → H Pallas Dec 24.1406 24.14 silver (97.53)",
+       "[Jupiter] J Alphard → J Pallas RA 124.5675 77×φ golden (12.16)",
+       "[Moon] H Hamal → H Pallas Dec 7.9810 8 whole (0.25)",
+       "[Sun] H Unukalhai → H Pallas RA 33.3387 33.3333 ninth (93.55)",
+       "[Sun] S Sun → J Pallas Dec 14.1456 14.14 sqrt2 (90.45)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan, 3 Omar Maretti / Kielan Woods, 6 The Paddy Pie / Sean Quinlan"
+     },
+     {
+      "label": "Sedna: Jupiter, Moon",
+      "cells": [
+       "[Jupiter] H Betelgeuse → H Sedna Dec 0.1194 conj (36.23)",
+       "[Moon] H Betelgeuse → H Sedna Dec 0.1194 conj (36.23)"
+      ],
+      "field": "also: 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods"
+     },
+     {
+      "label": "Makemake: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] H Betelgeuse → H Makemake Dec 18.8891 18.8889 ninth (99.83)",
+       "[Jupiter] J Alphard → J Makemake RA 25.9974 26 whole (75.61)",
+       "[Moon] H Betelgeuse → H Makemake Dec 18.8891 18.8889 ninth (99.83)",
+       "[Moon] J Hamal → J Makemake Dec 11.9832 12 whole (2.64)",
+       "[Sun] J Difda → J Makemake RA 156.9890 157 whole (20.13)",
+       "[Sun] J Murzim → J Makemake Dec 53.3988 33×φ golden (78.35)",
+       "[Sun] J Unukalhai → J Makemake Dec 29.0178 29 whole (1.17)"
+      ],
+      "field": "also: 2 Marown / Brian Hughes"
+     },
+     {
+      "label": "Saturn: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] J Alphard → J Saturn RA 136.9847 137 whole (5.58)",
+       "[Jupiter] J Alphard → J Saturn Dec 13.9818 14 whole (0.85)",
+       "[Moon] H Hamal → H Saturn Dec 42.3691 10×φ^3 phi power (92.25)",
+       "[Sun] J Vega → J Saturn RA 0.3631 conj (57.45)"
+      ],
+      "field": "also: 2 Marown / Brian Hughes"
+     },
+     {
+      "label": "Transpluto: Moon, Sun",
+      "cells": [
+       "[Moon] H Hamal → H Transpluto Dec 12.0185 12 whole (0.56)",
+       "[Sun] H Unukalhai → H Transpluto Dec 5.0187 5 whole (0.45)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "Quaoar: Jupiter, Sun",
+      "cells": [
+       "[Jupiter] S Jupiter → J Quaoar RA 110.0022 110 whole (78.81)",
+       "[Sun] H Unukalhai → H Quaoar Dec 21.9871 22 whole (12.57)",
+       "[Sun] S Sun → J Quaoar Dec 0.0190 conj (87.73)",
+       "[Sun] J Difda → J Quaoar Dec 5.0134 5 whole (10.77)",
+       "[Sun] J Murzim → J Quaoar Dec 4.9829 5 whole (2.09)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "Uranus: Jupiter, Sun",
+      "cells": [
+       "[Jupiter] S Jupiter → J Uranus RA 69.9991 70 whole (91.15)",
+       "[Sun] J Murzim → J Uranus RA 176.3339 109×φ golden (0.03)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "Ceres: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] J Betelgeuse → J Ceres RA 11.0021 11 whole (80.24)",
+       "[Moon] J Betelgeuse → J Ceres RA 11.0021 11 whole (80.24)",
+       "[Moon] J Hamal → J Ceres RA 45.9929 46 whole (41.73)",
+       "[Sun] J Vega → J Ceres RA 158.5479 98×φ golden (15.91)"
+      ],
+      "field": "also: 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods, 6 The Paddy Pie / Sean Quinlan"
+     },
+     {
+      "label": "Eris: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] J Betelgeuse → J Eris RA 65.9855 66 whole (7.54)",
+       "[Moon] J Betelgeuse → J Eris RA 65.9855 66 whole (7.54)",
+       "[Moon] J Hamal → J Eris RA 8.9905 9 whole (27.49)",
+       "[Sun] J Vega → J Eris RA 103.5645 64×φ golden (46.48)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan"
+     }
+    ]
+   }
+  },
+  "P09": {
+   "name": "5 Brian Boranha / Callum Bewley",
+   "same_bodies": [
+    "S Mercury → H Mercury Dec 28.9705 29 whole (loose)",
+    "S Jupiter → H Jupiter Dec 17.6744 17.7778 ninth (loose)",
+    "S Juno → H Juno RA 137.9744 138 whole (loose)",
+    "S Rahu → H Rahu RA 152.0136 152 whole (10.10)",
+    "S Ketu → H Ketu RA 152.0136 152 whole (10.10)",
+    "S Sun → J Sun RA 177.4172 177.778 ninth (loose)",
+    "S Mars → J Mars RA 166.9219 166.667 ninth (loose)",
+    "S Mars → J Mars Dec 46.8925 φ^8 phi power (loose)",
+    "S Saturn → J Saturn RA 22.6792 14×φ golden (loose)",
+    "S Neptune → J Neptune RA 59.9965 60 whole (68.39)",
+    "S Pluto → J Pluto RA 63.1283 39×φ golden (loose)",
+    "S Vesta → J Vesta RA 155.8775 155.556 ninth (loose)",
+    "S Sedna → J Sedna Dec 3.3338 3.33333 ninth (93.79)",
+    "S Makemake → J Makemake RA 25.8882 16×φ golden (97.65)",
+    "S Transpluto → J Transpluto RA 8.9922 9 whole (37.08)",
+    "S Transpluto → J Transpluto Dec 3.2374 2×φ golden (loose)"
+   ],
+   "landings": [
+    {
+     "chart": "H",
+     "body": "Mercury",
+     "same_body": [
+      "S Mercury → H Mercury Dec 28.9705 29 whole (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "H Alphard → H Mercury RA 111.1040 111.111 ninth (98.83)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "H Betelgeuse → H Mercury RA 57.9961 58 whole (64.62)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter",
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Hamal → H Mercury RA 0.9964 1 whole (67.43)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "S Moon → J Mercury Dec 12.9438 8×φ golden (97.18)",
+       "layer": "top rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Hamal → J Mercury Dec 12.9933 13 whole (44.14)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Jupiter",
+     "same_body": [
+      "S Jupiter → H Jupiter Dec 17.6744 17.7778 ninth (loose)"
+     ],
+     "body_lines": [
+      "S Sun → Jupiter RA 14.1471 14.14 sqrt2 (86.42)"
+     ],
+     "on_this_chart": [
+      {
+       "text": "S Mercury → H Jupiter RA 83.0027 83 whole (74.75)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "S Juno → H Jupiter RA 79.2840 49×φ golden (97.82)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "S Eris → H Jupiter RA 1.4234 conj (0.26)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "S Makemake → H Jupiter RA 174.7498 108×φ golden (87.51)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "S Difda → H Jupiter Dec 26.9859 27 whole (8.66)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "S Uranus → J Jupiter RA 177.7985 177.778 ninth (98.38)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "S Neptune → J Jupiter Dec 9.0001 9 whole (99.16)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "S Haumea → J Jupiter RA 1.2226 1.22222 ninth (94.80)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "S Alphard → J Jupiter RA 74.4270 46×φ golden (84.79)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Juno",
+     "same_body": [
+      "S Juno → H Juno RA 137.9744 138 whole (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "H Murzim → H Juno Dec 27.5005 17×φ golden (65.84)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": []
+    },
+    {
+     "chart": "H",
+     "body": "Rahu",
+     "same_body": [
+      "S Rahu → H Rahu RA 152.0136 152 whole (10.10)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "S Moon → J Rahu RA 100.3242 62×φ golden (65.87)",
+       "layer": "top rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Ketu",
+     "same_body": [
+      "S Ketu → H Ketu RA 152.0136 152 whole (10.10)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "S Moon → H Ketu Dec 0.1391 conj (28.76)",
+       "layer": "top rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Hamal → H Ketu Dec 0.1859 conj (14.46)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "J Unukalhai → J Ketu RA 169.8643 105×φ golden (0.92)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Sun",
+     "same_body": [
+      "S Sun → J Sun RA 177.4172 177.778 ninth (loose)"
+     ],
+     "body_lines": [
+      "S Jupiter → Sun RA 14.1471 14.14 sqrt2 (86.42)"
+     ],
+     "on_this_chart": [],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "H Betelgeuse → H Sun RA 35.0150 35 whole (6.33)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter",
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Deneb Algedi → H Sun RA 87.0122 87 whole (15.19)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "H Hamal → H Sun RA 21.9847 22 whole (5.49)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Unukalhai → H Sun RA 177.7005 177.778 ninth (93.95)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Mars",
+     "same_body": [
+      "S Mars → J Mars RA 166.9219 166.667 ninth (loose)",
+      "S Mars → J Mars Dec 46.8925 φ^8 phi power (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "S Moon → J Mars Dec 0.2472 conj (3.09)",
+       "layer": "top rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Difda → J Mars RA 82.5171 51×φ golden (84.29)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "J Hamal → J Mars Dec 0.1978 conj (11.61)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "H Hamal → H Mars RA 0.6365 conj (33.14)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Hamal → H Mars Dec 10.9817 11 whole (0.73)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Saturn",
+     "same_body": [
+      "S Saturn → J Saturn RA 22.6792 14×φ golden (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "S Jupiter → J Saturn RA 0.2105 conj (73.90)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "J Alphard → J Saturn Dec 1.0056 1 whole (51.96)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": []
+    },
+    {
+     "chart": "J",
+     "body": "Neptune",
+     "same_body": [
+      "S Neptune → J Neptune RA 59.9965 60 whole (68.39)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [],
+     "other_chart_same_body": [],
+     "on_other_chart": []
+    },
+    {
+     "chart": "J",
+     "body": "Pluto",
+     "same_body": [
+      "S Pluto → J Pluto RA 63.1283 39×φ golden (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Unukalhai → J Pluto RA 0.2973 conj (64.29)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": []
+    },
+    {
+     "chart": "J",
+     "body": "Vesta",
+     "same_body": [
+      "S Vesta → J Vesta RA 155.8775 155.556 ninth (loose)"
+     ],
+     "body_lines": [
+      "S Sun → Vesta RA 38.8398 24×φ golden (61.63)",
+      "S Moon → Vesta RA 163.4101 101×φ golden (42.14)"
+     ],
+     "on_this_chart": [
+      {
+       "text": "J Alphard → J Vesta RA 56.9972 57 whole (73.77)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "J Deneb Algedi → J Vesta RA 118.1292 73×φ golden (36.91)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "J Difda → J Vesta RA 73.9934 74 whole (45.13)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "H Murzim → H Vesta RA 138.0031 138 whole (71.54)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "H Murzim → H Vesta Dec 1.0161 1 whole (3.80)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Sedna",
+     "same_body": [
+      "S Sedna → J Sedna Dec 3.3338 3.33333 ninth (93.79)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Deneb Algedi → J Sedna RA 77.9937 78 whole (46.92)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "H Betelgeuse → H Sedna RA 35.9813 36 whole (0.42)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter",
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Hamal → H Sedna RA 21.0184 21 whole (0.67)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Makemake",
+     "same_body": [
+      "S Makemake → J Makemake RA 25.8882 16×φ golden (97.65)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "S Sun → H Makemake RA 139.1448 86×φ golden (65.50)",
+       "layer": "top rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "S Moon → H Makemake RA 63.1051 39×φ golden (89.35)",
+       "layer": "top rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "H Hamal → H Makemake RA 156.9232 97×φ golden (3.77)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Transpluto",
+     "same_body": [
+      "S Transpluto → J Transpluto RA 8.9922 9 whole (37.08)",
+      "S Transpluto → J Transpluto Dec 3.2374 2×φ golden (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Hamal → J Transpluto RA 114.0149 114 whole (6.41)",
+       "layer": "star rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": []
+    }
+   ],
+   "cases": {
+    "1": [],
+    "2": [
+     {
+      "label": "J Mars",
+      "cells": [
+       "S Mars → J Mars RA 166.9219 166.667 ninth (loose)",
+       "S Mars → J Mars Dec 46.8925 φ^8 phi power (loose)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "J Transpluto",
+      "cells": [
+       "S Transpluto → J Transpluto RA 8.9922 9 whole (37.08)",
+       "S Transpluto → J Transpluto Dec 3.2374 2×φ golden (loose)"
+      ],
+      "field": "only"
+     }
+    ],
+    "3": [
+     {
+      "label": "24×φ golden",
+      "cells": [
+       "S Moon → H Quaoar Dec 38.8391 24×φ golden (64.81) = S Sun → Vesta RA 38.8398 24×φ golden (61.63)"
+      ],
+      "field": "only"
+     }
+    ],
+    "4": [
+     {
+      "label": "1 = 360/360",
+      "cells": [
+       "H Hamal → H Mercury RA 0.9964 1 whole (67.43)"
+      ],
+      "field": "also: 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge"
+     },
+     {
+      "label": "60 = 360/6",
+      "cells": [
+       "S Neptune → J Neptune RA 59.9965 60 whole (68.39)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "9 = 360/40",
+      "cells": [
+       "S Transpluto → J Transpluto RA 8.9922 9 whole (37.08)"
+      ],
+      "field": "also: 4 Winds Of Fire / Adam Wedge"
+     },
+     {
+      "label": "9 = 360/40",
+      "cells": [
+       "S Neptune → J Jupiter Dec 9.0001 9 whole (99.16)"
+      ],
+      "field": "also: 4 Winds Of Fire / Adam Wedge"
+     },
+     {
+      "label": "1 = 360/360",
+      "cells": [
+       "J Alphard → J Saturn Dec 1.0056 1 whole (51.96)"
+      ],
+      "field": "also: 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge"
+     }
+    ],
+    "5": [
+     {
+      "label": "138 whole",
+      "cells": [
+       "S Juno → H Juno RA 137.9744 138 whole (loose)",
+       "H Murzim → H Vesta RA 138.0031 138 whole (71.54)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "152 whole",
+      "cells": [
+       "S Rahu → H Rahu RA 152.0136 152 whole (10.10)",
+       "S Ketu → H Ketu RA 152.0136 152 whole (10.10)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "62×φ golden",
+      "cells": [
+       "S Moon → H Eris RA 100.3248 62×φ golden (62.96)",
+       "S Moon → J Rahu RA 100.3242 62×φ golden (65.87)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "39×φ golden",
+      "cells": [
+       "S Moon → H Makemake RA 63.1051 39×φ golden (89.35)",
+       "S Pluto → J Pluto RA 63.1283 39×φ golden (loose)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "1 whole",
+      "cells": [
+       "H Hamal → H Mercury RA 0.9964 1 whole (67.43)",
+       "J Alphard → J Saturn Dec 1.0056 1 whole (51.96)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "177.778 ninth",
+      "cells": [
+       "H Unukalhai → H Sun RA 177.7005 177.778 ninth (93.95)",
+       "S Sun → J Sun RA 177.4172 177.778 ninth (loose)",
+       "S Uranus → J Jupiter RA 177.7985 177.778 ninth (98.38)"
+      ],
+      "field": "also: 3 Omar Maretti / Kielan Woods, 6 The Paddy Pie / Sean Quinlan"
+     },
+     {
+      "label": "9 whole",
+      "cells": [
+       "S Transpluto → J Transpluto RA 8.9922 9 whole (37.08)",
+       "S Neptune → J Jupiter Dec 9.0001 9 whole (99.16)"
+      ],
+      "field": "only"
+     }
+    ],
+    "6": [],
+    "7": [
+     {
+      "label": "Jupiter: Jupiter, Sun",
+      "cells": [
+       "[Jupiter] S Mercury → H Jupiter RA 83.0027 83 whole (74.75)",
+       "[Jupiter] S Juno → H Jupiter RA 79.2840 49×φ golden (97.82)",
+       "[Jupiter] S Eris → H Jupiter RA 1.4234 conj (0.26)",
+       "[Jupiter] S Makemake → H Jupiter RA 174.7498 108×φ golden (87.51)",
+       "[Jupiter] S Uranus → J Jupiter RA 177.7985 177.778 ninth (98.38)",
+       "[Jupiter] S Neptune → J Jupiter Dec 9.0001 9 whole (99.16)",
+       "[Jupiter] S Haumea → J Jupiter RA 1.2226 1.22222 ninth (94.80)",
+       "[Jupiter] S Alphard → J Jupiter RA 74.4270 46×φ golden (84.79)",
+       "[Sun] S Jupiter → H Jupiter Dec 17.6744 17.7778 ninth (loose)",
+       "[Sun] S Difda → H Jupiter Dec 26.9859 27 whole (8.66)"
+      ],
+      "field": "also: 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan"
+     },
+     {
+      "label": "Quaoar: Jupiter, Moon",
+      "cells": [
+       "[Jupiter] S Jupiter → H Quaoar RA 80.0028 80 whole (73.87)",
+       "[Moon] S Moon → H Quaoar Dec 38.8391 24×φ golden (64.81)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "Makemake: Moon, Sun",
+      "cells": [
+       "[Moon] S Moon → H Makemake RA 63.1051 39×φ golden (89.35)",
+       "[Moon] H Hamal → H Makemake RA 156.9232 97×φ golden (3.77)",
+       "[Sun] S Sun → H Makemake RA 139.1448 86×φ golden (65.50)"
+      ],
+      "field": "also: 3 Omar Maretti / Kielan Woods"
+     },
+     {
+      "label": "Eris: Moon, Sun",
+      "cells": [
+       "[Moon] S Moon → H Eris RA 100.3248 62×φ golden (62.96)",
+       "[Sun] J Vega → J Eris Dec 46.9909 47 whole (29.44)"
+      ],
+      "field": "also: 6 The Paddy Pie / Sean Quinlan"
+     },
+     {
+      "label": "Ketu: Moon, Sun",
+      "cells": [
+       "[Moon] S Moon → H Ketu Dec 0.1391 conj (28.76)",
+       "[Moon] H Hamal → H Ketu Dec 0.1859 conj (14.46)",
+       "[Sun] J Unukalhai → J Ketu RA 169.8643 105×φ golden (0.92)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan, 3 Omar Maretti / Kielan Woods"
+     },
+     {
+      "label": "Mercury: Jupiter, Moon",
+      "cells": [
+       "[Jupiter] H Alphard → H Mercury RA 111.1040 111.111 ninth (98.83)",
+       "[Jupiter] H Betelgeuse → H Mercury RA 57.9961 58 whole (64.62)",
+       "[Moon] H Betelgeuse → H Mercury RA 57.9961 58 whole (64.62)",
+       "[Moon] H Hamal → H Mercury RA 0.9964 1 whole (67.43)",
+       "[Moon] S Moon → J Mercury Dec 12.9438 8×φ golden (97.18)",
+       "[Moon] J Hamal → J Mercury Dec 12.9933 13 whole (44.14)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan"
+     },
+     {
+      "label": "Sun: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] H Betelgeuse → H Sun RA 35.0150 35 whole (6.33)",
+       "[Jupiter] S Sun → J Sun RA 177.4172 177.778 ninth (loose)",
+       "[Moon] H Betelgeuse → H Sun RA 35.0150 35 whole (6.33)",
+       "[Moon] H Hamal → H Sun RA 21.9847 22 whole (5.49)",
+       "[Sun] H Deneb Algedi → H Sun RA 87.0122 87 whole (15.19)",
+       "[Sun] H Unukalhai → H Sun RA 177.7005 177.778 ninth (93.95)"
+      ],
+      "field": "also: 4 Winds Of Fire / Adam Wedge"
+     },
+     {
+      "label": "Chiron: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] H Betelgeuse → H Chiron RA 114.0098 114 whole (25.98)",
+       "[Moon] H Betelgeuse → H Chiron RA 114.0098 114 whole (25.98)",
+       "[Moon] H Hamal → H Chiron RA 57.0102 57 whole (24.24)",
+       "[Sun] H Deneb Algedi → H Chiron RA 8.0174 8 whole (1.73)",
+       "[Sun] H Unukalhai → H Chiron RA 98.7057 61×φ golden (68.42)",
+       "[Sun] H Vega → H Chiron Dec 43.0083 43 whole (33.97)",
+       "[Sun] J Unukalhai → J Chiron RA 74.0091 74 whole (29.67)",
+       "[Sun] J Vega → J Chiron Dec 35.9805 36 whole (0.06)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes"
+     },
+     {
+      "label": "Sedna: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] H Betelgeuse → H Sedna RA 35.9813 36 whole (0.42)",
+       "[Moon] H Betelgeuse → H Sedna RA 35.9813 36 whole (0.42)",
+       "[Moon] H Hamal → H Sedna RA 21.0184 21 whole (0.67)",
+       "[Sun] J Deneb Algedi → J Sedna RA 77.9937 78 whole (46.92)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan"
+     },
+     {
+      "label": "Orcus: Moon, Sun",
+      "cells": [
+       "[Moon] J Hamal → J Orcus RA 101.9329 63×φ golden (80.95)",
+       "[Sun] H Deneb Algedi → H Orcus RA 179.6052 111×φ golden (80.04)",
+       "[Sun] J Vega → J Orcus Dec 36.9940 37 whole (49.23)"
+      ],
+      "field": "also: 2 Marown / Brian Hughes, 6 The Paddy Pie / Sean Quinlan"
+     },
+     {
+      "label": "Mars: Moon, Sun",
+      "cells": [
+       "[Moon] H Hamal → H Mars RA 0.6365 conj (33.14)",
+       "[Moon] H Hamal → H Mars Dec 10.9817 11 whole (0.73)",
+       "[Moon] S Moon → J Mars Dec 0.2472 conj (3.09)",
+       "[Moon] J Hamal → J Mars Dec 0.1978 conj (11.61)",
+       "[Sun] J Difda → J Mars RA 82.5171 51×φ golden (84.29)"
+      ],
+      "field": "also: 3 Omar Maretti / Kielan Woods"
+     },
+     {
+      "label": "Vesta: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] J Alphard → J Vesta RA 56.9972 57 whole (73.77)",
+       "[Moon] S Vesta → J Vesta RA 155.8775 155.556 ninth (loose)",
+       "[Sun] H Murzim → H Vesta RA 138.0031 138 whole (71.54)",
+       "[Sun] H Murzim → H Vesta Dec 1.0161 1 whole (3.80)",
+       "[Sun] S Vesta → J Vesta RA 155.8775 155.556 ninth (loose)",
+       "[Sun] J Deneb Algedi → J Vesta RA 118.1292 73×φ golden (36.91)",
+       "[Sun] J Difda → J Vesta RA 73.9934 74 whole (45.13)"
+      ],
+      "field": "also: 4 Winds Of Fire / Adam Wedge"
+     },
+     {
+      "label": "Haumea: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] J Betelgeuse → J Haumea RA 101.9860 102 whole (8.86)",
+       "[Moon] J Betelgeuse → J Haumea RA 101.9860 102 whole (8.86)",
+       "[Moon] J Hamal → J Haumea RA 158.9806 159 whole (0.08)",
+       "[Sun] S Sun → J Haumea Dec 34.9945 35 whole (52.24)",
+       "[Sun] J Deneb Algedi → J Haumea RA 135.9892 136 whole (21.06)",
+       "[Sun] J Difda → J Haumea Dec 39.9888 40 whole (19.51)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan"
+     },
+     {
+      "label": "Uranus: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] J Betelgeuse → J Uranus RA 153.7262 95×φ golden (36.08)",
+       "[Moon] J Betelgeuse → J Uranus RA 153.7262 95×φ golden (36.08)",
+       "[Sun] J Difda → J Uranus Dec 3.9924 4 whole (38.71)",
+       "[Sun] J Unukalhai → J Uranus RA 58.9972 59 whole (74.36)"
+      ],
+      "field": "also: 6 The Paddy Pie / Sean Quinlan"
+     }
+    ]
+   }
+  },
+  "P11": {
+   "name": "6 The Paddy Pie / Sean Quinlan",
+   "same_bodies": [
+    "S Venus → H Venus Dec 11.1668 11.1111 ninth (loose)",
+    "S Jupiter → H Jupiter Dec 30.0278 30 whole (loose)",
+    "S Saturn → H Saturn Dec 4.0024 4 whole (77.33)",
+    "S Neptune → H Neptune Dec 6.4653 4×φ golden (loose)",
+    "S Gonggong → H Gonggong RA 1.5484 1.55556 ninth (loose)",
+    "S Sun → J Sun Dec 10.0072 10 whole (40.84)",
+    "S Mercury → J Mercury RA 21.0260 21 whole (loose)",
+    "S Jupiter → J Jupiter Dec 14.1404 14.14 sqrt2 (95.15)",
+    "S Saturn → J Saturn Dec 3.2336 2×φ golden (loose)",
+    "S Uranus → J Uranus RA 149.9889 150 whole (19.82)",
+    "S Neptune → J Neptune RA 83.9985 84 whole (85.92)",
+    "S Neptune → J Neptune Dec 17.9019 φ^6 phi power (loose)",
+    "S Pluto → J Pluto Dec 26.0616 10×φ^2 phi power (loose)",
+    "S Vesta → J Vesta RA 152.1126 94×φ golden (loose)",
+    "S Sedna → J Sedna RA 19.4063 12×φ golden (loose)",
+    "S Sedna → J Sedna Dec 4.9866 5 whole (10.95)",
+    "S Makemake → J Makemake Dec 14.5316 9×φ golden (loose)",
+    "S Orcus → J Orcus Dec 18.8196 18.8889 ninth (loose)",
+    "S Transpluto → J Transpluto RA 12.2503 12.2222 ninth (loose)"
+   ],
+   "landings": [
+    {
+     "chart": "H",
+     "body": "Venus",
+     "same_body": [
+      "S Venus → H Venus Dec 11.1668 11.1111 ninth (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "H Alphard → H Venus Dec 3.0066 3 whole (44.81)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "H Murzim → H Venus RA 105.1718 65×φ golden (97.28)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "J Vega → J Venus Dec 50.0144 50 whole (7.90)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Jupiter",
+     "same_body": [
+      "S Jupiter → H Jupiter Dec 30.0278 30 whole (loose)"
+     ],
+     "body_lines": [
+      "S Sun → Jupiter RA 14.1471 14.14 sqrt2 (86.42)"
+     ],
+     "on_this_chart": [
+      {
+       "text": "S Pluto → H Jupiter RA 127.8231 79×φ golden (90.64)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "S Alphard → H Jupiter Dec 30.0101 30 whole (24.67)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter"
+       ]
+      }
+     ],
+     "other_chart_same_body": [
+      "S Jupiter → J Jupiter Dec 14.1404 14.14 sqrt2 (95.15)"
+     ],
+     "on_other_chart": [
+      {
+       "text": "S Jupiter → J Jupiter Dec 14.1404 14.14 sqrt2 (95.15)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter",
+        "Sun"
+       ]
+      },
+      {
+       "text": "S Venus → J Jupiter Dec 5.9971 6 whole (73.18)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "J Deneb Algedi → J Jupiter RA 65.9877 66 whole (14.63)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "H",
+     "body": "Saturn",
+     "same_body": [
+      "S Saturn → H Saturn Dec 4.0024 4 whole (77.33)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [],
+     "other_chart_same_body": [
+      "S Saturn → J Saturn Dec 3.2336 2×φ golden (loose)"
+     ],
+     "on_other_chart": []
+    },
+    {
+     "chart": "H",
+     "body": "Neptune",
+     "same_body": [
+      "S Neptune → H Neptune Dec 6.4653 4×φ golden (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "H Betelgeuse → H Neptune RA 113.2499 70×φ golden (37.66)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter",
+        "Moon"
+       ]
+      }
+     ],
+     "other_chart_same_body": [
+      "S Neptune → J Neptune RA 83.9985 84 whole (85.92)",
+      "S Neptune → J Neptune Dec 17.9019 φ^6 phi power (loose)"
+     ],
+     "on_other_chart": []
+    },
+    {
+     "chart": "H",
+     "body": "Gonggong",
+     "same_body": [
+      "S Gonggong → H Gonggong RA 1.5484 1.55556 ninth (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "S Moon → H Gonggong RA 150.4774 93×φ golden (98.54)",
+       "layer": "top rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "S Sun → J Gonggong RA 0.8361 conj (19.59)",
+       "layer": "top rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "J Deneb Algedi → J Gonggong RA 0.2640 conj (67.89)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "J Vega → J Gonggong Dec 60.9988 61 whole (88.40)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Sun",
+     "same_body": [
+      "S Sun → J Sun Dec 10.0072 10 whole (40.84)"
+     ],
+     "body_lines": [
+      "S Jupiter → Sun RA 14.1471 14.14 sqrt2 (86.42)"
+     ],
+     "on_this_chart": [
+      {
+       "text": "J Difda → J Sun Dec 5.0085 5 whole (32.85)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": []
+    },
+    {
+     "chart": "J",
+     "body": "Mercury",
+     "same_body": [
+      "S Mercury → J Mercury RA 21.0260 21 whole (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Vega → J Mercury RA 1.1979 conj (4.06)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "H Deneb Algedi → H Mercury Dec 9.0067 9 whole (43.95)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Jupiter",
+     "same_body": [
+      "S Jupiter → J Jupiter Dec 14.1404 14.14 sqrt2 (95.15)"
+     ],
+     "body_lines": [
+      "S Sun → Jupiter RA 14.1471 14.14 sqrt2 (86.42)"
+     ],
+     "on_this_chart": [
+      {
+       "text": "S Jupiter → J Jupiter Dec 14.1404 14.14 sqrt2 (95.15)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter",
+        "Sun"
+       ]
+      },
+      {
+       "text": "S Venus → J Jupiter Dec 5.9971 6 whole (73.18)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "J Deneb Algedi → J Jupiter RA 65.9877 66 whole (14.63)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [
+      "S Jupiter → H Jupiter Dec 30.0278 30 whole (loose)"
+     ],
+     "on_other_chart": [
+      {
+       "text": "S Pluto → H Jupiter RA 127.8231 79×φ golden (90.64)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "S Alphard → H Jupiter Dec 30.0101 30 whole (24.67)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Saturn",
+     "same_body": [
+      "S Saturn → J Saturn Dec 3.2336 2×φ golden (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [],
+     "other_chart_same_body": [
+      "S Saturn → H Saturn Dec 4.0024 4 whole (77.33)"
+     ],
+     "on_other_chart": []
+    },
+    {
+     "chart": "J",
+     "body": "Uranus",
+     "same_body": [
+      "S Uranus → J Uranus RA 149.9889 150 whole (19.82)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "S Moon → J Uranus RA 122.9350 φ^10 phi power (82.37)",
+       "layer": "top rows",
+       "centres": [
+        "Moon"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "S Jupiter → H Uranus Dec 11.0046 11 whole (59.17)",
+       "layer": "top rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "H Alphard → H Uranus Dec 10.9877 11 whole (14.83)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "H Unukalhai → H Uranus RA 131.0094 131 whole (27.94)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Neptune",
+     "same_body": [
+      "S Neptune → J Neptune RA 83.9985 84 whole (85.92)",
+      "S Neptune → J Neptune Dec 17.9019 φ^6 phi power (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [],
+     "other_chart_same_body": [
+      "S Neptune → H Neptune Dec 6.4653 4×φ golden (loose)"
+     ],
+     "on_other_chart": [
+      {
+       "text": "H Betelgeuse → H Neptune RA 113.2499 70×φ golden (37.66)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter",
+        "Moon"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Pluto",
+     "same_body": [
+      "S Pluto → J Pluto Dec 26.0616 10×φ^2 phi power (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Betelgeuse → J Pluto RA 126.2248 78×φ golden (19.38)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter",
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Unukalhai → J Pluto RA 21.0379 13×φ golden (80.01)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": []
+    },
+    {
+     "chart": "J",
+     "body": "Vesta",
+     "same_body": [
+      "S Vesta → J Vesta RA 152.1126 94×φ golden (loose)"
+     ],
+     "body_lines": [
+      "S Sun → Vesta RA 38.8398 24×φ golden (61.63)",
+      "S Moon → Vesta RA 163.4101 101×φ golden (42.14)"
+     ],
+     "on_this_chart": [],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "H Unukalhai → H Vesta RA 161.0123 161 whole (14.77)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Sedna",
+     "same_body": [
+      "S Sedna → J Sedna RA 19.4063 12×φ golden (loose)",
+      "S Sedna → J Sedna Dec 4.9866 5 whole (10.95)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Alphard → J Sedna RA 103.0097 103 whole (26.61)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "J Difda → J Sedna RA 27.9916 28 whole (33.73)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "J Murzim → J Sedna Dec 21.0370 13×φ golden (85.02)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "H Vega → H Sedna RA 134.0070 134 whole (42.48)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Makemake",
+     "same_body": [
+      "S Makemake → J Makemake Dec 14.5316 9×φ golden (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Murzim → J Makemake Dec 55.0069 55 whole (42.63)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "H Difda → H Makemake RA 179.4223 10×φ^6 phi power (95.49)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    },
+    {
+     "chart": "J",
+     "body": "Orcus",
+     "same_body": [
+      "S Orcus → J Orcus Dec 18.8196 18.8889 ninth (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "S Moon → J Orcus RA 0.9145 conj (15.23)",
+       "layer": "top rows",
+       "centres": [
+        "Moon"
+       ]
+      },
+      {
+       "text": "J Murzim → J Orcus RA 29.0115 29 whole (17.98)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "J Unukalhai → J Orcus Dec 0.2609 conj (1.70)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": []
+    },
+    {
+     "chart": "J",
+     "body": "Transpluto",
+     "same_body": [
+      "S Transpluto → J Transpluto RA 12.2503 12.2222 ninth (loose)"
+     ],
+     "body_lines": [],
+     "on_this_chart": [
+      {
+       "text": "J Alphard → J Transpluto RA 0.6526 conj (31.91)",
+       "layer": "star rows",
+       "centres": [
+        "Jupiter"
+       ]
+      },
+      {
+       "text": "J Vega → J Transpluto Dec 24.0149 24 whole (6.62)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ],
+     "other_chart_same_body": [],
+     "on_other_chart": [
+      {
+       "text": "H Difda → H Transpluto RA 140.7861 87×φ golden (22.08)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      },
+      {
+       "text": "H Murzim → H Transpluto RA 56.0029 56 whole (72.74)",
+       "layer": "star rows",
+       "centres": [
+        "Sun"
+       ]
+      }
+     ]
+    }
+   ],
+   "cases": {
+    "1": [
+     {
+      "label": "Jupiter",
+      "cells": [
+       "S Jupiter → H Jupiter Dec 30.0278 30 whole (loose)",
+       "S Jupiter → J Jupiter Dec 14.1404 14.14 sqrt2 (95.15)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "Saturn",
+      "cells": [
+       "S Saturn → H Saturn Dec 4.0024 4 whole (77.33)",
+       "S Saturn → J Saturn Dec 3.2336 2×φ golden (loose)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "Neptune",
+      "cells": [
+       "S Neptune → H Neptune Dec 6.4653 4×φ golden (loose)",
+       "S Neptune → J Neptune RA 83.9985 84 whole (85.92)",
+       "S Neptune → J Neptune Dec 17.9019 φ^6 phi power (loose)"
+      ],
+      "field": "also: 2 Marown / Brian Hughes"
+     }
+    ],
+    "2": [
+     {
+      "label": "J Neptune",
+      "cells": [
+       "S Neptune → J Neptune RA 83.9985 84 whole (85.92)",
+       "S Neptune → J Neptune Dec 17.9019 φ^6 phi power (loose)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "J Sedna",
+      "cells": [
+       "S Sedna → J Sedna RA 19.4063 12×φ golden (loose)",
+       "S Sedna → J Sedna Dec 4.9866 5 whole (10.95)"
+      ],
+      "field": "only"
+     }
+    ],
+    "3": [
+     {
+      "label": "79×φ golden",
+      "cells": [
+       "S Pluto → H Jupiter RA 127.8231 79×φ golden (90.64) = S Sun → Murzim RA 127.8222 79×φ golden (85.13)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "14.14 sqrt2",
+      "cells": [
+       "S Jupiter → J Jupiter Dec 14.1404 14.14 sqrt2 (95.15) = S Sun → Jupiter RA 14.1471 14.14 sqrt2 (86.42)"
+      ],
+      "field": "also: 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge"
+     },
+     {
+      "label": "12×φ golden",
+      "cells": [
+       "S Sedna → J Sedna RA 19.4063 12×φ golden (loose) = S Sun → Unukalhai Dec 19.4128 12×φ golden (78.76)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge"
+     },
+     {
+      "label": "5 whole",
+      "cells": [
+       "S Sedna → J Sedna Dec 4.9866 5 whole (10.95) = S Sun → Difda Dec 5.0001 5 whole (98.75)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge"
+     },
+     {
+      "label": "5 whole",
+      "cells": [
+       "J Difda → J Sun Dec 5.0085 5 whole (32.85) = S Sun → Difda Dec 5.0001 5 whole (98.75)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge"
+     }
+    ],
+    "4": [
+     {
+      "label": "30 = 360/12",
+      "cells": [
+       "S Jupiter → H Jupiter Dec 30.0278 30 whole (loose)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "4 = 360/90",
+      "cells": [
+       "S Saturn → H Saturn Dec 4.0024 4 whole (77.33)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "10 = 360/36",
+      "cells": [
+       "S Sun → J Sun Dec 10.0072 10 whole (40.84)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan"
+     },
+     {
+      "label": "5 = 360/72",
+      "cells": [
+       "S Sedna → J Sedna Dec 4.9866 5 whole (10.95)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes"
+     },
+     {
+      "label": "6 = 360/60",
+      "cells": [
+       "S Venus → J Jupiter Dec 5.9971 6 whole (73.18)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan, 4 Winds Of Fire / Adam Wedge"
+     }
+    ],
+    "5": [
+     {
+      "label": "11.1111 ninth",
+      "cells": [
+       "S Venus → H Venus Dec 11.1668 11.1111 ninth (loose)",
+       "J Murzim → J Juno Dec 11.1146 11.1111 ninth (94.26)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "21 whole",
+      "cells": [
+       "H Betelgeuse → H Ceres Dec 20.9989 21 whole (88.94)",
+       "S Mercury → J Mercury RA 21.0260 21 whole (loose)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "12.2222 ninth",
+      "cells": [
+       "S Transpluto → J Transpluto RA 12.2503 12.2222 ninth (loose)",
+       "J Deneb Algedi → J Mars Dec 12.2279 12.2222 ninth (92.11)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "177.778 ninth",
+      "cells": [
+       "J Difda → J Mars RA 177.7911 177.778 ninth (98.95)",
+       "J Unukalhai → J Chiron RA 177.7981 177.778 ninth (98.41)"
+      ],
+      "field": "also: 3 Omar Maretti / Kielan Woods, 5 Brian Boranha / Callum Bewley"
+     },
+     {
+      "label": "13×φ golden",
+      "cells": [
+       "J Murzim → J Sedna Dec 21.0370 13×φ golden (85.02)",
+       "J Unukalhai → J Pluto RA 21.0379 13×φ golden (80.01)"
+      ],
+      "field": "only"
+     }
+    ],
+    "6": [
+     {
+      "label": "J Gonggong on Deneb Algedi",
+      "cells": [
+       "J Deneb Algedi → J Gonggong RA 0.2640 conj (67.89)",
+       "S Sun → J Gonggong RA 0.8361 conj (19.59)"
+      ],
+      "field": "only"
+     }
+    ],
+    "7": [
+     {
+      "label": "Jupiter: Jupiter, Sun",
+      "cells": [
+       "[Jupiter] S Pluto → H Jupiter RA 127.8231 79×φ golden (90.64)",
+       "[Jupiter] S Alphard → H Jupiter Dec 30.0101 30 whole (24.67)",
+       "[Jupiter] S Jupiter → J Jupiter Dec 14.1404 14.14 sqrt2 (95.15)",
+       "[Jupiter] S Venus → J Jupiter Dec 5.9971 6 whole (73.18)",
+       "[Sun] S Jupiter → H Jupiter Dec 30.0278 30 whole (loose)",
+       "[Sun] S Jupiter → J Jupiter Dec 14.1404 14.14 sqrt2 (95.15)",
+       "[Sun] S Jupiter → J Jupiter Dec 14.1404 14.14 sqrt2 (95.15)",
+       "[Sun] J Deneb Algedi → J Jupiter RA 65.9877 66 whole (14.63)"
+      ],
+      "field": "also: 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley"
+     },
+     {
+      "label": "Mars: Jupiter, Sun",
+      "cells": [
+       "[Jupiter] S Jupiter → H Mars RA 18.9986 19 whole (86.50)",
+       "[Sun] J Deneb Algedi → J Mars Dec 12.2279 12.2222 ninth (92.11)",
+       "[Sun] J Difda → J Mars RA 177.7911 177.778 ninth (98.95)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "Uranus: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] S Jupiter → H Uranus Dec 11.0046 11 whole (59.17)",
+       "[Jupiter] H Alphard → H Uranus Dec 10.9877 11 whole (14.83)",
+       "[Moon] S Moon → J Uranus RA 122.9350 φ^10 phi power (82.37)",
+       "[Sun] H Unukalhai → H Uranus RA 131.0094 131 whole (27.94)"
+      ],
+      "field": "also: 5 Brian Boranha / Callum Bewley"
+     },
+     {
+      "label": "Pallas: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] S Jupiter → H Pallas Dec 0.0894 conj (49.29)",
+       "[Jupiter] H Alphard → H Pallas Dec 0.1063 conj (41.69)",
+       "[Moon] J Hamal → J Pallas Dec 23.0140 23 whole (8.98)",
+       "[Sun] J Murzim → J Pallas RA 159.9807 160 whole (0.12)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan, 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge"
+     },
+     {
+      "label": "Gonggong: Moon, Sun",
+      "cells": [
+       "[Moon] S Moon → H Gonggong RA 150.4774 93×φ golden (98.54)",
+       "[Sun] S Sun → J Gonggong RA 0.8361 conj (19.59)",
+       "[Sun] J Deneb Algedi → J Gonggong RA 0.2640 conj (67.89)",
+       "[Sun] J Vega → J Gonggong Dec 60.9988 61 whole (88.40)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "Venus: Jupiter, Sun",
+      "cells": [
+       "[Jupiter] H Alphard → H Venus Dec 3.0066 3 whole (44.81)",
+       "[Sun] H Murzim → H Venus RA 105.1718 65×φ golden (97.28)",
+       "[Sun] J Vega → J Venus Dec 50.0144 50 whole (7.90)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "Quaoar: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] H Alphard → H Quaoar Dec 6.9812 7 whole (0.38)",
+       "[Jupiter] H Betelgeuse → H Quaoar RA 176.3607 109×φ golden (71.55)",
+       "[Jupiter] J Alphard → J Quaoar RA 85.0029 85 whole (73.00)",
+       "[Moon] H Betelgeuse → H Quaoar RA 176.3607 109×φ golden (71.55)",
+       "[Sun] J Difda → J Quaoar RA 143.9958 144 whole (62.33)"
+      ],
+      "field": "also: 3 Omar Maretti / Kielan Woods"
+     },
+     {
+      "label": "Neptune: Jupiter, Moon",
+      "cells": [
+       "[Jupiter] H Betelgeuse → H Neptune RA 113.2499 70×φ golden (37.66)",
+       "[Moon] H Betelgeuse → H Neptune RA 113.2499 70×φ golden (37.66)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan"
+     },
+     {
+      "label": "Ceres: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] H Betelgeuse → H Ceres Dec 20.9989 21 whole (88.94)",
+       "[Moon] H Betelgeuse → H Ceres Dec 20.9989 21 whole (88.94)",
+       "[Sun] H Unukalhai → H Ceres Dec 21.9814 22 whole (0.47)"
+      ],
+      "field": "also: 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge"
+     },
+     {
+      "label": "Eris: Moon, Sun",
+      "cells": [
+       "[Moon] H Hamal → H Eris Dec 27.0081 27 whole (35.11)",
+       "[Sun] H Difda → H Eris Dec 14.4422 14.4444 ninth (97.59)",
+       "[Sun] H Unukalhai → H Eris RA 148.8641 92×φ golden (71.61)"
+      ],
+      "field": "also: 5 Brian Boranha / Callum Bewley"
+     },
+     {
+      "label": "Transpluto: Jupiter, Sun",
+      "cells": [
+       "[Jupiter] J Alphard → J Transpluto RA 0.6526 conj (31.91)",
+       "[Sun] H Difda → H Transpluto RA 140.7861 87×φ golden (22.08)",
+       "[Sun] H Murzim → H Transpluto RA 56.0029 56 whole (72.74)",
+       "[Sun] J Vega → J Transpluto Dec 24.0149 24 whole (6.62)"
+      ],
+      "field": "also: 2 Marown / Brian Hughes"
+     },
+     {
+      "label": "Vesta: Moon, Sun",
+      "cells": [
+       "[Moon] S Vesta → J Vesta RA 152.1126 94×φ golden (loose)",
+       "[Sun] H Unukalhai → H Vesta RA 161.0123 161 whole (14.77)",
+       "[Sun] S Vesta → J Vesta RA 152.1126 94×φ golden (loose)"
+      ],
+      "field": "also: 1 Almazhar Garde / Luca Morgan"
+     },
+     {
+      "label": "Sedna: Jupiter, Sun",
+      "cells": [
+       "[Jupiter] J Alphard → J Sedna RA 103.0097 103 whole (26.61)",
+       "[Sun] H Vega → H Sedna RA 134.0070 134 whole (42.48)",
+       "[Sun] J Difda → J Sedna RA 27.9916 28 whole (33.73)",
+       "[Sun] J Murzim → J Sedna Dec 21.0370 13×φ golden (85.02)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "Sun: Jupiter, Sun",
+      "cells": [
+       "[Jupiter] S Sun → J Sun Dec 10.0072 10 whole (40.84)",
+       "[Sun] J Difda → J Sun Dec 5.0085 5 whole (32.85)"
+      ],
+      "field": "only"
+     },
+     {
+      "label": "Orcus: Moon, Sun",
+      "cells": [
+       "[Moon] S Moon → J Orcus RA 0.9145 conj (15.23)",
+       "[Sun] J Murzim → J Orcus RA 29.0115 29 whole (17.98)",
+       "[Sun] J Unukalhai → J Orcus Dec 0.2609 conj (1.70)"
+      ],
+      "field": "also: 2 Marown / Brian Hughes, 5 Brian Boranha / Callum Bewley"
+     },
+     {
+      "label": "Pluto: Jupiter, Moon, Sun",
+      "cells": [
+       "[Jupiter] J Betelgeuse → J Pluto RA 126.2248 78×φ golden (19.38)",
+       "[Moon] J Betelgeuse → J Pluto RA 126.2248 78×φ golden (19.38)",
+       "[Sun] J Unukalhai → J Pluto RA 21.0379 13×φ golden (80.01)"
+      ],
+      "field": "only"
+     }
+    ]
+   }
+  }
+ },
+ "sky": {
+  "top": {
+   "centre": "Sun",
+   "point": "Difda",
+   "plane": "Dec",
+   "value": 5.000126,
+   "plus5": 5.001312,
+   "target": "5",
+   "family": "whole",
+   "score": 98.75,
+   "arrow": "<- away",
+   "timing": "separating, exact 15:14 (0.5 min ago)"
+  },
+  "hubs": [
+   "Betelgeuse",
+   "Vesta"
+  ],
+  "lines": [
+   "S Jupiter → Sun RA 14.1471 14.14 sqrt2 (86.42)",
+   "S Jupiter → Betelgeuse RA 106.7926 66×φ golden (85.96)",
+   "S Jupiter → Alphard Dec 0.0178 conj (88.51)",
+   "S Sun → Jupiter RA 14.1471 14.14 sqrt2 (86.42)",
+   "S Sun → Vesta RA 38.8398 24×φ golden (61.63)",
+   "S Sun → Difda Dec 5.0001 5 whole (98.75)",
+   "S Sun → Murzim RA 127.8222 79×φ golden (85.13)",
+   "S Sun → Unukalhai Dec 19.4128 12×φ golden (78.76)",
+   "S Sun → Vega Dec 51.7710 32×φ golden (65.83)",
+   "S Sun → Deneb Algedi RA 1.1004 conj (7.10)",
+   "S Moon → Vesta RA 163.4101 101×φ golden (42.14)",
+   "S Moon → Hamal Dec 0.0488 conj (70.13)",
+   "S Moon → Betelgeuse Dec 16.0072 16 whole (40.95)"
+  ]
+ }
+}

@@ -1,0 +1,1196 @@
+# Stage 2 layers: race_batch_20220108_lingfield_aw_1345_jupiter_tables.xlsx
+Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_layers.py).
+
+## L0 field
+- In the tables workbook (5): 1 Protected Guest / Jane Elliott; 2 Supakalanistic / Liam Keniry; 3 Creationist / Connor Murtagh; 4 Trevolli / Kieran O'Neill; 5 Eleven Eleven / Joey Haynes
+- _active.xlsx not found: runners not checked against it
+- Cloth numbers not in the tables workbook: none
+
+## Sky (noted lines)
+- S Jupiter → Pallas Dec 0.0771 conj (55.22)
+- S Jupiter → Gonggong Dec 0.2973 conj (0.01)
+- S Sun → Venus RA 0.1171 conj (84.99)
+- S Sun → Juno RA 0.9669 conj (12.63)
+- S Sun → Al Rescha Dec 24.9993 25 whole (93.15)
+- S Sun → Alnilam Dec 21.0333 13×φ golden (93.12)
+- S Sun → Menkent RA 77.7779 77.7778 ninth (99.92)
+- S Sun → Sadalsuud Dec 16.6637 16.6667 ninth (97.48)
+- S Sun → Sadalmelik RA 41.9994 42 whole (94.18)
+- S Moon → Chiron RA 0.7864 conj (22.64)
+- S Moon → Makemake RA 166.6955 166.667 ninth (97.53)
+- S Moon → Ankaa RA 0.5677 conj (38.63)
+- S Moon → Meissa Dec 12.9486 8×φ golden (75.20)
+- S Moon → Alhena Dec 19.4132 12×φ golden (81.21)
+- S Moon → Praesepe Dec 22.9966 23 whole (69.22)
+- S Moon → Arcturus RA 152.0976 94×φ golden (85.89)
+- S Moon → Galactic Centre Dec 25.9928 26 whole (40.85)
+- Hubs: none
+
+## 1 Protected Guest / Jane Elliott
+### L1 same bodies
+- S Sun → H Sun RA 41.0001 41 whole (98.76)
+- S Neptune → H Neptune RA 12.9927 13 whole (40.63)
+- S Ceres → H Ceres Dec 42.3580 10×φ^3 phi power (loose)
+- S Pallas → H Pallas Dec 18.9936 19 whole (46.09)
+- S Juno → H Juno RA 165.8384 166.667 ninth (loose)
+- S Orcus → H Orcus Dec 3.3377 3.33333 ninth (loose)
+- S Uranus → J Uranus RA 96.0273 96 whole (loose)
+- S Pluto → J Pluto RA 56.9942 57 whole (50.20)
+- S Ceres → J Ceres Dec 12.9526 8×φ golden (loose)
+- S Rahu → J Rahu RA 155.5123 155.556 ninth (95.90)
+- S Eris → J Eris RA 2.9900 3 whole (24.89)
+- S Ketu → J Ketu RA 155.5123 155.556 ninth (95.90)
+### L2 what lands on each same body
+- **H Sun** (same body: S Sun → H Sun RA 41.0001 41 whole (98.76))
+  - top rows: S Sun → H Sun RA 41.0001 41 whole (98.76) [Sun]
+  - star rows: H Alhena → H Sun RA 128.9891 129 whole (20.77) [Moon]
+  - star rows: H Meissa → H Sun Dec 22.0062 22 whole (47.49) [Moon]
+  - star rows: H Sadalmelik → H Sun RA 0.9979 1 whole (80.30) [Sun]
+  - other chart, top rows: S Moon → J Sun RA 0.7972 conj (21.95) [Moon]
+  - other chart, star rows: J Al Rescha → J Sun Dec 0.1760 conj (17.09) [Sun]
+  - other chart, star rows: J Ankaa → J Sun RA 0.2376 conj (70.83) [Moon]
+  - other chart, star rows: J Meissa → J Sun RA 76.9821 77 whole (1.11) [Moon]
+  - other chart, star rows: J Meissa → J Sun Dec 6.9952 7 whole (57.83) [Moon]
+- **H Neptune** (same body: S Neptune → H Neptune RA 12.9927 13 whole (40.63))
+  - star rows: H Al Rescha → H Neptune RA 51.7748 32×φ golden (86.34) [Sun]
+- **H Ceres** (same body: S Ceres → H Ceres Dec 42.3580 10×φ^3 phi power (loose))
+  - star rows: H Arcturus → H Ceres RA 72.8181 45×φ golden (63.50) [Moon]
+  - other chart, same body: S Ceres → J Ceres Dec 12.9526 8×φ golden (loose)
+  - other chart, star rows: J Sadalmelik → J Ceres RA 161.8734 100×φ^1 phi power (83.43) [Sun]
+- **H Pallas** (same body: S Pallas → H Pallas Dec 18.9936 19 whole (46.09))
+  - body line: S Jupiter → Pallas Dec 0.0771 conj (55.22)
+  - star rows: H Al Rescha → H Pallas RA 130.0138 130 whole (9.76) [Sun]
+  - other chart, star rows: J Ankaa → J Pallas RA 63.9807 64 whole (0.12) [Moon]
+- **H Juno** (same body: S Juno → H Juno RA 165.8384 166.667 ninth (loose))
+  - body line: S Sun → Juno RA 0.9669 conj (12.63)
+  - star rows: H Al Rescha → H Juno Dec 4.0113 4 whole (18.94) [Sun]
+  - star rows: H Ankaa → H Juno RA 118.0043 118 whole (61.44) [Moon]
+- **H Orcus** (same body: S Orcus → H Orcus Dec 3.3377 3.33333 ninth (loose))
+  - star rows: H Arcturus → H Orcus Dec 28.0100 28 whole (25.22) [Moon]
+  - star rows: H Menkent → H Orcus RA 60.9927 61 whole (40.52) [Sun]
+  - other chart, star rows: J Arcturus → J Orcus RA 81.0000 81 whole (99.63) [Moon]
+- **J Uranus** (same body: S Uranus → J Uranus RA 96.0273 96 whole (loose))
+  - other chart, star rows: H Alnilam → H Uranus RA 71.1941 44×φ golden (96.39) [Sun]
+  - other chart, star rows: H Sadalmelik → H Uranus RA 41.4212 41.4 silver (99.83) [Sun]
+- **J Pluto** (same body: S Pluto → J Pluto RA 56.9942 57 whole (50.20))
+  - star rows: J Ankaa → J Pluto Dec 35.5928 22×φ golden (77.28) [Moon]
+  - star rows: J Praesepe → J Pluto RA 111.1928 111.111 ninth (86.63) [Moon]
+  - other chart, star rows: H Al Rescha → H Pluto RA 105.0193 105 whole (0.11) [Sun]
+  - other chart, star rows: H Alnilam → H Pluto RA 158.5657 98×φ golden (90.12) [Sun]
+  - other chart, star rows: H Sadalsuud → H Pluto Dec 14.9844 15 whole (4.85) [Sun]
+- **J Ceres** (same body: S Ceres → J Ceres Dec 12.9526 8×φ golden (loose))
+  - star rows: J Sadalmelik → J Ceres RA 161.8734 100×φ^1 phi power (83.43) [Sun]
+  - other chart, same body: S Ceres → H Ceres Dec 42.3580 10×φ^3 phi power (loose)
+  - other chart, star rows: H Arcturus → H Ceres RA 72.8181 45×φ golden (63.50) [Moon]
+- **J Rahu** (same body: S Rahu → J Rahu RA 155.5123 155.556 ninth (95.90))
+  - star rows: J Arcturus → J Rahu RA 0.3364 conj (60.18) [Moon]
+  - other chart, top rows: S Jupiter → H Rahu RA 144.4693 144.444 ninth (97.36) [Jupiter]
+  - other chart, star rows: H Menkent → H Rahu RA 22.0086 22 whole (32.56) [Sun]
+  - other chart, star rows: H Praesepe → H Rahu Dec 24.1433 24.14 silver (98.16) [Moon]
+- **J Eris** (same body: S Eris → J Eris RA 2.9900 3 whole (24.89))
+  - star rows: J Galactic Centre → J Eris Dec 20.9858 21 whole (8.36) [Moon]
+  - star rows: J Praesepe → J Eris Dec 28.0042 28 whole (62.13) [Moon]
+  - other chart, top rows: S Moon → H Eris Dec 0.1404 conj (28.30) [Moon]
+  - other chart, star rows: H Praesepe → H Eris RA 105.0127 105 whole (13.26) [Moon]
+- **J Ketu** (same body: S Ketu → J Ketu RA 155.5123 155.556 ninth (95.90))
+  - other chart, star rows: H Arcturus → H Ketu Dec 15.0093 15 whole (28.69) [Moon]
+  - other chart, star rows: H Menkent → H Ketu RA 157.9914 158 whole (32.56) [Sun]
+### L3 the seven cases (L5 field tag on each)
+- **1. same body on both charts**
+  - Ceres — also: 4 Trevolli / Kieran O'Neill
+    - S Ceres → H Ceres Dec 42.3580 10×φ^3 phi power (loose)
+    - S Ceres → J Ceres Dec 12.9526 8×φ golden (loose)
+- **2. one body in both planes**: none
+- **3. runner number = sky number**
+  - 166.667 ninth — also: 2 Supakalanistic / Liam Keniry
+    - S Juno → H Juno RA 165.8384 166.667 ninth (loose) = S Moon → Makemake RA 166.6955 166.667 ninth (97.53)
+  - 8×φ golden — also: 2 Supakalanistic / Liam Keniry
+    - S Ceres → J Ceres Dec 12.9526 8×φ golden (loose) = S Moon → Meissa Dec 12.9486 8×φ golden (75.20)
+- **4. circle divisions**
+  - 9 = 360/40 — only
+    - S Jupiter → H Venus Dec 9.0001 9 whole (99.36)
+  - 1 = 360/360 — also: 3 Creationist / Connor Murtagh
+    - H Sadalmelik → H Sun RA 0.9979 1 whole (80.30)
+  - 3 = 360/120 — also: 2 Supakalanistic / Liam Keniry, 5 Eleven Eleven / Joey Haynes
+    - S Eris → J Eris RA 2.9900 3 whole (24.89)
+  - 120 = 360/3 — only
+    - J Menkent → J Vesta RA 120.0033 120 whole (69.71)
+- **5. same number in more than one place**
+  - 41 whole — only
+    - S Sun → H Sun RA 41.0001 41 whole (98.76)
+    - S Sun → H Sun RA 41.0001 41 whole (98.76)
+    - S Arcturus → J Jupiter Dec 40.9971 41 whole (73.06)
+  - 24.14 silver — only
+    - S Jupiter → H Mars RA 24.1492 24.14 silver (88.61)
+    - H Praesepe → H Rahu Dec 24.1433 24.14 silver (98.16)
+  - φ^10 phi power — only
+    - S Jupiter → H Haumea RA 122.9496 φ^10 phi power (86.72)
+    - H Al Rescha → H Quaoar RA 122.9754 φ^10 phi power (94.70)
+  - 155.556 ninth — also: 3 Creationist / Connor Murtagh
+    - S Rahu → J Rahu RA 155.5123 155.556 ninth (95.90)
+    - S Ketu → J Ketu RA 155.5123 155.556 ninth (95.90)
+- **6. star and sky line on one body**
+  - J Sun on Ankaa — only
+    - J Ankaa → J Sun RA 0.2376 conj (70.83)
+    - S Moon → J Sun RA 0.7972 conj (21.95)
+- **7. centres meeting**
+  - Pallas: Jupiter, Moon, Sun — also: 2 Supakalanistic / Liam Keniry
+    - [Jupiter] S Pallas → H Pallas Dec 18.9936 19 whole (46.09)
+    - [Moon] J Ankaa → J Pallas RA 63.9807 64 whole (0.12)
+    - [Sun] H Al Rescha → H Pallas RA 130.0138 130 whole (9.76)
+  - Juno: Moon, Sun — also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes
+    - [Moon] H Ankaa → H Juno RA 118.0043 118 whole (61.44)
+    - [Sun] S Juno → H Juno RA 165.8384 166.667 ninth (loose)
+    - [Sun] H Al Rescha → H Juno Dec 4.0113 4 whole (18.94)
+  - Venus: Jupiter, Moon, Sun — also: 3 Creationist / Connor Murtagh
+    - [Jupiter] S Jupiter → H Venus Dec 9.0001 9 whole (99.36)
+    - [Jupiter] S Jupiter → J Venus RA 1.4285 conj (0.23)
+    - [Jupiter] S Jupiter → J Venus Dec 0.1541 conj (23.64)
+    - [Moon] S Moon → H Venus Dec 0.2456 conj (3.29)
+    - [Sun] J Sadalmelik → J Venus RA 1.2611 conj (2.54)
+  - Mars: Jupiter, Moon, Sun — also: 2 Supakalanistic / Liam Keniry
+    - [Jupiter] S Jupiter → H Mars RA 24.1492 24.14 silver (88.61)
+    - [Moon] J Meissa → J Mars RA 52.9881 53 whole (16.61)
+    - [Moon] J Meissa → J Mars Dec 10.0134 10 whole (10.73)
+    - [Moon] J Praesepe → J Mars Dec 0.0364 conj (77.18)
+    - [Sun] H Alnilam → H Mars Dec 0.2215 conj (6.84)
+  - Rahu: Jupiter, Moon, Sun — only
+    - [Jupiter] S Jupiter → H Rahu RA 144.4693 144.444 ninth (97.36)
+    - [Moon] H Praesepe → H Rahu Dec 24.1433 24.14 silver (98.16)
+    - [Moon] J Arcturus → J Rahu RA 0.3364 conj (60.18)
+    - [Sun] H Menkent → H Rahu RA 22.0086 22 whole (32.56)
+  - Haumea: Jupiter, Moon, Sun — only
+    - [Jupiter] S Jupiter → H Haumea RA 122.9496 φ^10 phi power (86.72)
+    - [Moon] H Alhena → H Haumea Dec 1.0078 1 whole (37.19)
+    - [Moon] J Meissa → J Haumea RA 108.4392 67×φ golden (0.19)
+    - [Sun] H Menkent → H Haumea RA 0.4888 conj (45.44)
+  - Gonggong: Jupiter, Moon, Sun — only
+    - [Jupiter] S Jupiter → H Gonggong RA 1.1416 conj (5.71)
+    - [Moon] H Arcturus → H Gonggong RA 121.3604 75×φ golden (57.43)
+    - [Sun] J Sadalmelik → J Gonggong RA 0.2838 conj (65.74)
+  - Sun: Moon, Sun — also: 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes
+    - [Moon] H Alhena → H Sun RA 128.9891 129 whole (20.77)
+    - [Moon] H Meissa → H Sun Dec 22.0062 22 whole (47.49)
+    - [Moon] S Moon → J Sun RA 0.7972 conj (21.95)
+    - [Moon] J Ankaa → J Sun RA 0.2376 conj (70.83)
+    - [Moon] J Meissa → J Sun RA 76.9821 77 whole (1.11)
+    - [Moon] J Meissa → J Sun Dec 6.9952 7 whole (57.83)
+    - [Sun] S Sun → H Sun RA 41.0001 41 whole (98.76)
+    - [Sun] H Sadalmelik → H Sun RA 0.9979 1 whole (80.30)
+    - [Sun] J Al Rescha → J Sun Dec 0.1760 conj (17.09)
+  - Jupiter: Jupiter, Moon — only
+    - [Jupiter] S Saturn → H Jupiter RA 176.3679 109×φ golden (87.01)
+    - [Jupiter] S Uranus → J Jupiter RA 144.0015 144 whole (85.89)
+    - [Jupiter] S Makemake → J Jupiter Dec 43.9984 44 whole (84.63)
+    - [Moon] H Meissa → H Jupiter RA 54.9887 55 whole (18.93)
+    - [Moon] S Praesepe → H Jupiter Dec 3.0143 3 whole (7.98)
+    - [Moon] S Makemake → J Jupiter Dec 43.9984 44 whole (84.63)
+    - [Moon] S Arcturus → J Jupiter Dec 40.9971 41 whole (73.06)
+  - Mercury: Moon, Sun — also: 4 Trevolli / Kieran O'Neill
+    - [Moon] H Arcturus → H Mercury RA 90.9868 91 whole (11.44)
+    - [Moon] J Arcturus → J Mercury RA 139.1729 86×φ golden (10.36)
+    - [Sun] H Al Rescha → H Mercury Dec 21.0057 21 whole (51.43)
+    - [Sun] H Alnilam → H Mercury RA 139.1567 86×φ golden (67.60)
+    - [Sun] H Sadalsuud → H Mercury RA 17.9851 18 whole (6.48)
+    - [Sun] J Menkent → J Mercury RA 141.4173 141.4 sqrt2 (98.85)
+    - [Sun] J Sadalsuud → J Mercury Dec 0.0955 conj (46.47)
+  - Pluto: Moon, Sun — also: 2 Supakalanistic / Liam Keniry, 4 Trevolli / Kieran O'Neill
+    - [Moon] J Ankaa → J Pluto Dec 35.5928 22×φ golden (77.28)
+    - [Moon] J Praesepe → J Pluto RA 111.1928 111.111 ninth (86.63)
+    - [Sun] H Al Rescha → H Pluto RA 105.0193 105 whole (0.11)
+    - [Sun] H Alnilam → H Pluto RA 158.5657 98×φ golden (90.12)
+    - [Sun] H Sadalsuud → H Pluto Dec 14.9844 15 whole (4.85)
+  - Vesta: Moon, Sun — also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill
+    - [Moon] J Arcturus → J Vesta RA 122.2477 122.222 ninth (96.47)
+    - [Moon] J Galactic Centre → J Vesta RA 174.7439 108×φ golden (77.94)
+    - [Sun] H Al Rescha → H Vesta Dec 22.0075 22 whole (39.04)
+    - [Sun] H Alnilam → H Vesta RA 131.0850 81×φ golden (6.28)
+    - [Sun] J Menkent → J Vesta RA 120.0033 120 whole (69.71)
+  - Makemake: Moon, Sun — also: 2 Supakalanistic / Liam Keniry, 4 Trevolli / Kieran O'Neill
+    - [Moon] H Meissa → H Makemake Dec 15.9808 16 whole (0.15)
+    - [Sun] H Al Rescha → H Makemake RA 162.9985 163 whole (85.54)
+  - Quaoar: Moon, Sun — also: 3 Creationist / Connor Murtagh
+    - [Moon] H Galactic Centre → H Quaoar RA 1.1206 conj (6.40)
+    - [Moon] H Praesepe → H Quaoar RA 137.5038 85×φ golden (1.00)
+    - [Moon] J Ankaa → J Quaoar Dec 27.9862 28 whole (9.61)
+    - [Sun] H Al Rescha → H Quaoar RA 122.9754 φ^10 phi power (94.70)
+    - [Sun] J Al Rescha → J Quaoar RA 148.9853 149 whole (7.01)
+    - [Sun] J Sadalmelik → J Quaoar Dec 13.9989 14 whole (89.07)
+  - Saturn: Moon, Sun — also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes
+    - [Moon] H Galactic Centre → H Saturn Dec 10.0182 10 whole (0.79)
+    - [Sun] H Alnilam → H Saturn RA 158.5441 98×φ golden (7.88)
+  - Transpluto: Moon, Sun — also: 2 Supakalanistic / Liam Keniry, 4 Trevolli / Kieran O'Neill
+    - [Moon] H Ankaa → H Transpluto RA 145.9807 146 whole (0.11)
+    - [Moon] J Ankaa → J Transpluto RA 138.9845 139 whole (5.07)
+    - [Sun] J Alnilam → J Transpluto Dec 14.9865 15 whole (10.68)
+    - [Sun] J Menkent → J Transpluto Dec 50.1521 31×φ golden (61.44)
+  - Ceres: Moon, Sun — also: 2 Supakalanistic / Liam Keniry, 4 Trevolli / Kieran O'Neill
+    - [Moon] H Arcturus → H Ceres RA 72.8181 45×φ golden (63.50)
+    - [Sun] J Sadalmelik → J Ceres RA 161.8734 100×φ^1 phi power (83.43)
+  - Orcus: Moon, Sun — also: 5 Eleven Eleven / Joey Haynes
+    - [Moon] H Arcturus → H Orcus Dec 28.0100 28 whole (25.22)
+    - [Moon] J Arcturus → J Orcus RA 81.0000 81 whole (99.63)
+    - [Sun] H Menkent → H Orcus RA 60.9927 61 whole (40.52)
+  - Ketu: Moon, Sun — also: 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes
+    - [Moon] H Arcturus → H Ketu Dec 15.0093 15 whole (28.69)
+    - [Sun] H Menkent → H Ketu RA 157.9914 158 whole (32.56)
+
+## 2 Supakalanistic / Liam Keniry
+### L1 same bodies
+- S Mercury → H Mercury RA 43.9935 44 whole (45.66)
+- S Venus → H Venus RA 90.6171 56×φ golden (loose)
+- S Mars → H Mars RA 122.2151 122.222 ninth (99.02)
+- S Mars → H Mars Dec 30.7716 19×φ golden (loose)
+- S Pluto → H Pluto RA 16.1251 10×φ^1 phi power (loose)
+- S Pluto → H Pluto Dec 2.9955 3 whole (59.78)
+- S Juno → H Juno RA 17.0110 17 whole (20.43)
+- S Rahu → H Rahu RA 166.3247 166.667 ninth (loose)
+- S Ketu → H Ketu RA 166.3247 166.667 ninth (loose)
+- S Sun → J Sun RA 154.9522 155.556 ninth (loose)
+- S Mercury → J Mercury RA 164.0185 164 whole (0.58)
+- S Venus → J Venus RA 179.9316 10×φ^6 phi power (loose)
+- S Neptune → J Neptune RA 87.3456 54×φ golden (loose)
+- S Pallas → J Pallas Dec 27.4872 17×φ golden (loose)
+- S Haumea → J Haumea RA 38.0078 38 whole (36.94)
+- S Quaoar → J Quaoar Dec 3.9764 4 whole (loose)
+- S Gonggong → J Gonggong Dec 11.0571 φ^5 phi power (loose)
+### L2 what lands on each same body
+- **H Mercury** (same body: S Mercury → H Mercury RA 43.9935 44 whole (45.66))
+  - star rows: H Ankaa → H Mercury Dec 37.0021 37 whole (80.06) [Moon]
+  - star rows: H Menkent → H Mercury RA 141.9892 142 whole (21.28) [Sun]
+  - star rows: H Sadalmelik → H Mercury RA 22.2212 22.2222 ninth (98.63) [Sun]
+  - star rows: H Sadalmelik → H Mercury Dec 4.9840 5 whole (3.99) [Sun]
+  - star rows: H Sadalsuud → H Mercury Dec 0.2669 conj (1.22) [Sun]
+  - other chart, same body: S Mercury → J Mercury RA 164.0185 164 whole (0.58)
+  - other chart, top rows: S Jupiter → J Mercury RA 171.5204 106×φ golden (52.81) [Jupiter]
+- **H Venus** (same body: S Venus → H Venus RA 90.6171 56×φ golden (loose))
+  - body line: S Sun → Venus RA 0.1171 conj (84.99)
+  - other chart, same body: S Venus → J Venus RA 179.9316 10×φ^6 phi power (loose)
+- **H Mars** (same body: S Mars → H Mars RA 122.2151 122.222 ninth (99.02); S Mars → H Mars Dec 30.7716 19×φ golden (loose))
+  - top rows: S Jupiter → H Mars Dec 19.4122 12×φ golden (75.55) [Jupiter]
+  - star rows: H Menkent → H Mars Dec 44.0159 44 whole (4.17) [Sun]
+  - other chart, star rows: J Alhena → J Mars RA 108.9832 109 whole (2.55) [Moon]
+  - other chart, star rows: J Galactic Centre → J Mars RA 58.0150 58 whole (6.36) [Moon]
+- **H Pluto** (same body: S Pluto → H Pluto RA 16.1251 10×φ^1 phi power (loose); S Pluto → H Pluto Dec 2.9955 3 whole (59.78))
+  - top rows: S Moon → H Pluto Dec 16.6652 16.6667 ninth (98.77) [Moon]
+  - star rows: H Al Rescha → H Pluto RA 108.4169 67×φ golden (53.98) [Sun]
+  - star rows: H Praesepe → H Pluto RA 152.0629 94×φ golden (0.00) [Moon]
+  - other chart, star rows: J Arcturus → J Pluto Dec 13.0079 13 whole (36.48) [Moon]
+- **H Juno** (same body: S Juno → H Juno RA 17.0110 17 whole (20.43))
+  - body line: S Sun → Juno RA 0.9669 conj (12.63)
+  - star rows: H Alhena → H Juno RA 152.0065 152 whole (45.39) [Moon]
+  - star rows: H Galactic Centre → H Juno RA 41.0014 41 whole (86.17) [Moon]
+  - other chart, star rows: J Galactic Centre → J Juno RA 1.0933 conj (7.35) [Moon]
+- **H Rahu** (same body: S Rahu → H Rahu RA 166.3247 166.667 ninth (loose))
+  - other chart, top rows: S Sun → J Rahu Dec 44.9947 45 whole (54.09) [Sun]
+  - other chart, star rows: J Al Rescha → J Rahu Dec 19.9937 20 whole (46.99) [Sun]
+- **H Ketu** (same body: S Ketu → H Ketu RA 166.3247 166.667 ninth (loose))
+  - other chart, star rows: J Alhena → J Ketu RA 174.7793 108×φ golden (0.05) [Moon]
+- **J Sun** (same body: S Sun → J Sun RA 154.9522 155.556 ninth (loose))
+  - star rows: J Arcturus → J Sun Dec 2.0091 2 whole (29.56) [Moon]
+- **J Mercury** (same body: S Mercury → J Mercury RA 164.0185 164 whole (0.58))
+  - top rows: S Jupiter → J Mercury RA 171.5204 106×φ golden (52.81) [Jupiter]
+  - other chart, same body: S Mercury → H Mercury RA 43.9935 44 whole (45.66)
+  - other chart, star rows: H Ankaa → H Mercury Dec 37.0021 37 whole (80.06) [Moon]
+  - other chart, star rows: H Menkent → H Mercury RA 141.9892 142 whole (21.28) [Sun]
+  - other chart, star rows: H Sadalmelik → H Mercury RA 22.2212 22.2222 ninth (98.63) [Sun]
+  - other chart, star rows: H Sadalmelik → H Mercury Dec 4.9840 5 whole (3.99) [Sun]
+  - other chart, star rows: H Sadalsuud → H Mercury Dec 0.2669 conj (1.22) [Sun]
+- **J Venus** (same body: S Venus → J Venus RA 179.9316 10×φ^6 phi power (loose))
+  - body line: S Sun → Venus RA 0.1171 conj (84.99)
+  - other chart, same body: S Venus → H Venus RA 90.6171 56×φ golden (loose)
+- **J Neptune** (same body: S Neptune → J Neptune RA 87.3456 54×φ golden (loose))
+  - top rows: S Sun → J Neptune Dec 0.1925 conj (12.83) [Sun]
+  - other chart, top rows: S Sun → H Neptune RA 46.9216 29×φ golden (91.75) [Sun]
+- **J Pallas** (same body: S Pallas → J Pallas Dec 27.4872 17×φ golden (loose))
+  - body line: S Jupiter → Pallas Dec 0.0771 conj (55.22)
+  - star rows: J Alnilam → J Pallas Dec 16.9954 17 whole (59.34) [Sun]
+  - star rows: J Meissa → J Pallas RA 121.9893 122 whole (21.65) [Moon]
+  - other chart, star rows: H Alhena → H Pallas RA 61.0119 61 whole (16.49) [Moon]
+  - other chart, star rows: H Galactic Centre → H Pallas RA 131.9961 132 whole (64.65) [Moon]
+  - other chart, star rows: H Sadalsuud → H Pallas Dec 0.2878 conj (0.17) [Sun]
+- **J Haumea** (same body: S Haumea → J Haumea RA 38.0078 38 whole (36.94))
+  - star rows: J Al Rescha → J Haumea Dec 21.0344 13×φ golden (99.89) [Sun]
+  - star rows: J Alhena → J Haumea RA 79.9829 80 whole (2.03) [Moon]
+  - star rows: J Alnilam → J Haumea Dec 24.9998 25 whole (97.65) [Sun]
+  - star rows: J Galactic Centre → J Haumea RA 87.0153 87 whole (5.52) [Moon]
+- **J Quaoar** (same body: S Quaoar → J Quaoar Dec 3.9764 4 whole (loose))
+  - top rows: S Jupiter → J Quaoar Dec 0.2228 conj (6.62) [Jupiter]
+  - star rows: J Arcturus → J Quaoar Dec 30.7417 19×φ golden (93.97) [Moon]
+  - other chart, star rows: H Galactic Centre → H Quaoar RA 1.2669 conj (2.42) [Moon]
+  - other chart, star rows: H Sadalsuud → H Quaoar Dec 9.9871 10 whole (12.75) [Sun]
+- **J Gonggong** (same body: S Gonggong → J Gonggong Dec 11.0571 φ^5 phi power (loose))
+  - body line: S Jupiter → Gonggong Dec 0.2973 conj (0.01)
+  - top rows: S Sun → J Gonggong Dec 0.2930 conj (0.05) [Sun]
+  - other chart, top rows: S Jupiter → H Gonggong RA 1.2521 conj (2.73) [Jupiter]
+### L3 the seven cases (L5 field tag on each)
+- **1. same body on both charts**
+  - Mercury — only
+    - S Mercury → H Mercury RA 43.9935 44 whole (45.66)
+    - S Mercury → J Mercury RA 164.0185 164 whole (0.58)
+  - Venus — only
+    - S Venus → H Venus RA 90.6171 56×φ golden (loose)
+    - S Venus → J Venus RA 179.9316 10×φ^6 phi power (loose)
+- **2. one body in both planes**
+  - H Mars — only
+    - S Mars → H Mars RA 122.2151 122.222 ninth (99.02)
+    - S Mars → H Mars Dec 30.7716 19×φ golden (loose)
+  - H Pluto — only
+    - S Pluto → H Pluto RA 16.1251 10×φ^1 phi power (loose)
+    - S Pluto → H Pluto Dec 2.9955 3 whole (59.78)
+- **3. runner number = sky number**
+  - 166.667 ninth — also: 1 Protected Guest / Jane Elliott
+    - S Rahu → H Rahu RA 166.3247 166.667 ninth (loose) = S Moon → Makemake RA 166.6955 166.667 ninth (97.53)
+  - 166.667 ninth — also: 1 Protected Guest / Jane Elliott
+    - S Ketu → H Ketu RA 166.3247 166.667 ninth (loose) = S Moon → Makemake RA 166.6955 166.667 ninth (97.53)
+  - 12×φ golden — also: 5 Eleven Eleven / Joey Haynes
+    - S Jupiter → H Mars Dec 19.4122 12×φ golden (75.55) = S Moon → Alhena Dec 19.4132 12×φ golden (81.21)
+  - 25 whole — only
+    - S Moon → H Jupiter Dec 24.9957 25 whole (61.52) = S Sun → Al Rescha Dec 24.9993 25 whole (93.15)
+  - 16.6667 ninth — also: 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes
+    - S Moon → H Pluto Dec 16.6652 16.6667 ninth (98.77) = S Sun → Sadalsuud Dec 16.6637 16.6667 ninth (97.48)
+  - 94×φ golden — also: 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes
+    - H Praesepe → H Pluto RA 152.0629 94×φ golden (0.00) = S Moon → Arcturus RA 152.0976 94×φ golden (85.89)
+  - 8×φ golden — also: 1 Protected Guest / Jane Elliott
+    - H Praesepe → H Sedna Dec 12.9442 8×φ golden (99.30) = S Moon → Meissa Dec 12.9486 8×φ golden (75.20)
+  - 16.6667 ninth — also: 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes
+    - S Chiron → J Jupiter Dec 16.6613 16.6667 ninth (95.42) = S Sun → Sadalsuud Dec 16.6637 16.6667 ninth (97.48)
+  - 13×φ golden — also: 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill
+    - J Al Rescha → J Haumea Dec 21.0344 13×φ golden (99.89) = S Sun → Alnilam Dec 21.0333 13×φ golden (93.12)
+  - 25 whole — only
+    - J Alnilam → J Haumea Dec 24.9998 25 whole (97.65) = S Sun → Al Rescha Dec 24.9993 25 whole (93.15)
+- **4. circle divisions**
+  - 3 = 360/120 — also: 1 Protected Guest / Jane Elliott, 5 Eleven Eleven / Joey Haynes
+    - S Pluto → H Pluto Dec 2.9955 3 whole (59.78)
+  - 2 = 360/180 — also: 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes
+    - H Jupiter → H star Praesepe Dec 1.9980 2 whole (80.61)
+  - 2 = 360/180 — also: 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes
+    - S Praesepe → H Jupiter Dec 1.9990 2 whole (90.70)
+  - 4 = 360/90 — also: 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes
+    - S Quaoar → J Quaoar Dec 3.9764 4 whole (loose)
+  - 45 = 360/8 — also: 4 Trevolli / Kieran O'Neill
+    - S Sun → J Rahu Dec 44.9947 45 whole (54.09)
+- **5. same number in more than one place**
+  - 19×φ golden — only
+    - S Mars → H Mars Dec 30.7716 19×φ golden (loose)
+    - J Arcturus → J Quaoar Dec 30.7417 19×φ golden (93.97)
+  - 10×φ^1 phi power — only
+    - S Pluto → H Pluto RA 16.1251 10×φ^1 phi power (loose)
+    - J Menkent → J Uranus Dec 16.1826 10×φ^1 phi power (94.37)
+  - 17 whole — only
+    - S Juno → H Juno RA 17.0110 17 whole (20.43)
+    - J Alnilam → J Pallas Dec 16.9954 17 whole (59.34)
+  - 166.667 ninth — only
+    - S Rahu → H Rahu RA 166.3247 166.667 ninth (loose)
+    - S Ketu → H Ketu RA 166.3247 166.667 ninth (loose)
+  - 65 whole — only
+    - H Jupiter → H star Ankaa RA 64.9991 65 whole (91.40)
+    - H Ankaa → H Jupiter RA 64.9991 65 whole (91.40)
+  - 2 whole — also: 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes
+    - H Jupiter → H star Praesepe Dec 1.9980 2 whole (80.61)
+    - S Praesepe → H Jupiter Dec 1.9990 2 whole (90.70)
+  - 25 whole — only
+    - S Moon → H Jupiter Dec 24.9957 25 whole (61.52)
+    - J Alnilam → J Haumea Dec 24.9998 25 whole (97.65)
+  - 16.6667 ninth — only
+    - S Moon → H Pluto Dec 16.6652 16.6667 ninth (98.77)
+    - S Chiron → J Jupiter Dec 16.6613 16.6667 ninth (95.42)
+  - 37 whole — only
+    - H Ankaa → H Mercury Dec 37.0021 37 whole (80.06)
+    - J Galactic Centre → J Orcus Dec 37.0001 37 whole (98.77)
+  - 112 whole — only
+    - J Jupiter → J star Sadalsuud RA 111.9961 112 whole (64.59)
+    - J Sadalsuud → J Jupiter RA 111.9961 112 whole (64.59)
+  - 106×φ golden — only
+    - S Jupiter → J Mercury RA 171.5204 106×φ golden (52.81)
+    - J Sadalmelik → J Makemake RA 171.5157 106×φ golden (76.22)
+- **6. star and sky line on one body**: none
+- **7. centres meeting**
+  - Juno: Moon, Sun — also: 1 Protected Guest / Jane Elliott, 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes
+    - [Moon] H Alhena → H Juno RA 152.0065 152 whole (45.39)
+    - [Moon] H Galactic Centre → H Juno RA 41.0014 41 whole (86.17)
+    - [Moon] J Galactic Centre → J Juno RA 1.0933 conj (7.35)
+    - [Sun] S Juno → H Juno RA 17.0110 17 whole (20.43)
+  - Mars: Jupiter, Moon, Sun — also: 1 Protected Guest / Jane Elliott
+    - [Jupiter] S Jupiter → H Mars Dec 19.4122 12×φ golden (75.55)
+    - [Moon] J Alhena → J Mars RA 108.9832 109 whole (2.55)
+    - [Moon] J Galactic Centre → J Mars RA 58.0150 58 whole (6.36)
+    - [Sun] H Menkent → H Mars Dec 44.0159 44 whole (4.17)
+  - Gonggong: Jupiter, Sun — only
+    - [Jupiter] S Jupiter → H Gonggong RA 1.2521 conj (2.73)
+    - [Jupiter] S Gonggong → J Gonggong Dec 11.0571 φ^5 phi power (loose)
+    - [Sun] S Sun → J Gonggong Dec 0.2930 conj (0.05)
+  - Jupiter: Jupiter, Moon, Sun — also: 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes
+    - [Jupiter] S Moon → H Jupiter Dec 24.9957 25 whole (61.52)
+    - [Jupiter] S Venus → H Jupiter RA 142.0046 142 whole (58.93)
+    - [Jupiter] S Pluto → H Jupiter RA 133.3495 133.333 ninth (98.06)
+    - [Jupiter] S Juno → H Jupiter Dec 35.5998 22×φ golden (81.79)
+    - [Jupiter] S Makemake → H Jupiter Dec 0.1881 conj (13.92)
+    - [Jupiter] S Chiron → J Jupiter Dec 16.6613 16.6667 ninth (95.42)
+    - [Jupiter] S Pallas → J Jupiter Dec 0.2913 conj (0.08)
+    - [Jupiter] S Gonggong → J Jupiter Dec 0.0710 conj (58.26)
+    - [Moon] S Moon → H Jupiter Dec 24.9957 25 whole (61.52)
+    - [Moon] S Makemake → H Jupiter Dec 0.1881 conj (13.92)
+    - [Moon] H Ankaa → H Jupiter RA 64.9991 65 whole (91.40)
+    - [Moon] S Galactic Centre → H Jupiter Dec 50.9885 51 whole (17.94)
+    - [Moon] S Meissa → H Jupiter RA 12.2254 12.2222 ninth (95.63)
+    - [Moon] S Praesepe → H Jupiter Dec 1.9990 2 whole (90.70)
+    - [Moon] S Chiron → J Jupiter Dec 16.6613 16.6667 ninth (95.42)
+    - [Moon] S Arcturus → J Jupiter RA 3.0076 3 whole (38.30)
+    - [Sun] S Venus → H Jupiter RA 142.0046 142 whole (58.93)
+    - [Sun] S Juno → H Jupiter Dec 35.5998 22×φ golden (81.79)
+    - [Sun] J Al Rescha → J Jupiter RA 179.6137 111×φ golden (39.87)
+    - [Sun] S Menkent → J Jupiter RA 0.7660 conj (23.94)
+    - [Sun] J Sadalsuud → J Jupiter RA 111.9961 112 whole (64.59)
+  - Pluto: Moon, Sun — also: 1 Protected Guest / Jane Elliott, 4 Trevolli / Kieran O'Neill
+    - [Moon] S Moon → H Pluto Dec 16.6652 16.6667 ninth (98.77)
+    - [Moon] H Praesepe → H Pluto RA 152.0629 94×φ golden (0.00)
+    - [Moon] J Arcturus → J Pluto Dec 13.0079 13 whole (36.48)
+    - [Sun] H Al Rescha → H Pluto RA 108.4169 67×φ golden (53.98)
+  - Uranus: Moon, Sun — also: 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes
+    - [Moon] H Alhena → H Uranus RA 90.9915 91 whole (32.81)
+    - [Moon] H Galactic Centre → H Uranus RA 102.0165 102 whole (3.05)
+    - [Moon] J Ankaa → J Uranus RA 127.8548 79×φ golden (0.49)
+    - [Sun] H Al Rescha → H Uranus Dec 0.1486 conj (25.46)
+    - [Sun] H Sadalmelik → H Uranus RA 36.9931 37 whole (42.71)
+    - [Sun] J Alnilam → J Uranus Dec 18.9864 19 whole (10.18)
+    - [Sun] J Menkent → J Uranus Dec 16.1826 10×φ^1 phi power (94.37)
+  - Transpluto: Moon, Sun — also: 1 Protected Guest / Jane Elliott, 4 Trevolli / Kieran O'Neill
+    - [Moon] H Ankaa → H Transpluto Dec 53.9993 54 whole (92.68)
+    - [Sun] H Al Rescha → H Transpluto RA 120.9850 121 whole (6.37)
+    - [Sun] H Sadalmelik → H Transpluto Dec 12.0132 12 whole (11.72)
+    - [Sun] J Al Rescha → J Transpluto RA 110.9448 10×φ^5 phi power (85.06)
+    - [Sun] J Sadalmelik → J Transpluto RA 170.0064 170 whole (46.17)
+  - Pallas: Jupiter, Moon, Sun — also: 1 Protected Guest / Jane Elliott
+    - [Jupiter] S Pallas → J Pallas Dec 27.4872 17×φ golden (loose)
+    - [Moon] H Alhena → H Pallas RA 61.0119 61 whole (16.49)
+    - [Moon] H Galactic Centre → H Pallas RA 131.9961 132 whole (64.65)
+    - [Moon] J Meissa → J Pallas RA 121.9893 122 whole (21.65)
+    - [Sun] H Sadalsuud → H Pallas Dec 0.2878 conj (0.17)
+    - [Sun] J Alnilam → J Pallas Dec 16.9954 17 whole (59.34)
+  - Vesta: Moon, Sun — also: 1 Protected Guest / Jane Elliott, 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill
+    - [Moon] H Alhena → H Vesta RA 16.0113 16 whole (19.00)
+    - [Moon] H Galactic Centre → H Vesta RA 176.9967 177 whole (69.55)
+    - [Moon] H Meissa → H Vesta RA 0.3664 conj (57.11)
+    - [Moon] S Moon → J Vesta RA 42.0619 26×φ golden (61.62)
+    - [Moon] J Arcturus → J Vesta RA 110.0218 68×φ golden (74.00)
+    - [Sun] H Alnilam → H Vesta RA 0.6354 conj (33.23)
+    - [Sun] H Sadalsuud → H Vesta Dec 29.0022 29 whole (79.54)
+    - [Sun] J Sadalsuud → J Vesta RA 1.0472 conj (9.11)
+    - [Sun] J Sadalsuud → J Vesta Dec 15.9972 16 whole (74.13)
+  - Ceres: Moon, Sun — also: 1 Protected Guest / Jane Elliott, 4 Trevolli / Kieran O'Neill
+    - [Moon] H Praesepe → H Ceres RA 38.9920 39 whole (35.85)
+    - [Moon] J Meissa → J Ceres RA 141.4351 141.4 sqrt2 (96.15)
+    - [Sun] H Alnilam → H Ceres RA 6.9838 7 whole (3.62)
+  - Mercury: Jupiter, Moon, Sun — also: 5 Eleven Eleven / Joey Haynes
+    - [Jupiter] S Jupiter → J Mercury RA 171.5204 106×φ golden (52.81)
+    - [Moon] H Ankaa → H Mercury Dec 37.0021 37 whole (80.06)
+    - [Sun] H Menkent → H Mercury RA 141.9892 142 whole (21.28)
+    - [Sun] H Sadalmelik → H Mercury RA 22.2212 22.2222 ninth (98.63)
+    - [Sun] H Sadalmelik → H Mercury Dec 4.9840 5 whole (3.99)
+    - [Sun] H Sadalsuud → H Mercury Dec 0.2669 conj (1.22)
+  - Quaoar: Jupiter, Moon, Sun — only
+    - [Jupiter] S Jupiter → J Quaoar Dec 0.2228 conj (6.62)
+    - [Moon] H Galactic Centre → H Quaoar RA 1.2669 conj (2.42)
+    - [Moon] J Arcturus → J Quaoar Dec 30.7417 19×φ golden (93.97)
+    - [Sun] H Sadalsuud → H Quaoar Dec 9.9871 10 whole (12.75)
+  - Sedna: Moon, Sun — also: 4 Trevolli / Kieran O'Neill
+    - [Moon] H Praesepe → H Sedna Dec 12.9442 8×φ golden (99.30)
+    - [Moon] J Arcturus → J Sedna RA 174.7174 108×φ golden (0.41)
+    - [Sun] H Sadalmelik → H Sedna RA 82.0160 82 whole (4.05)
+  - Makemake: Moon, Sun — also: 1 Protected Guest / Jane Elliott, 4 Trevolli / Kieran O'Neill
+    - [Moon] H Praesepe → H Makemake RA 60.9973 61 whole (75.20)
+    - [Moon] J Arcturus → J Makemake RA 53.9851 54 whole (6.49)
+    - [Sun] J Al Rescha → J Makemake RA 129.4227 80×φ golden (14.48)
+    - [Sun] J Sadalmelik → J Makemake RA 171.5157 106×φ golden (76.22)
+  - Haumea: Moon, Sun — also: 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes
+    - [Moon] J Alhena → J Haumea RA 79.9829 80 whole (2.03)
+    - [Moon] J Galactic Centre → J Haumea RA 87.0153 87 whole (5.52)
+    - [Sun] J Al Rescha → J Haumea Dec 21.0344 13×φ golden (99.89)
+    - [Sun] J Alnilam → J Haumea Dec 24.9998 25 whole (97.65)
+  - Saturn: Moon, Sun — also: 1 Protected Guest / Jane Elliott, 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes
+    - [Moon] J Meissa → J Saturn RA 113.2836 70×φ golden (11.83)
+    - [Sun] J Alnilam → J Saturn RA 113.0147 113 whole (7.07)
+
+## 3 Creationist / Connor Murtagh
+### L1 same bodies
+- S Venus → H Venus Dec 17.9315 φ^6 phi power (loose)
+- S Jupiter → H Jupiter RA 167.9732 168 whole (loose)
+- S Chiron → H Chiron Dec 4.4454 4.44444 ninth (loose)
+- S Juno → H Juno RA 67.9551 42×φ golden (86.15)
+- S Vesta → H Vesta RA 134.2708 83×φ golden (3.86)
+- S Vesta → H Vesta Dec 33.3174 33.3333 ninth (loose)
+- S Transpluto → H Transpluto Dec 0.9931 1 whole (42.94)
+- S Mars → J Mars RA 133.1800 133.333 ninth (loose)
+- S Jupiter → J Jupiter RA 61.7627 100×φ^-1 phi power (loose)
+- S Vesta → J Vesta Dec 1.9911 2 whole (30.78)
+- S Orcus → J Orcus Dec 10.9760 11 whole (loose)
+### L2 what lands on each same body
+- **H Venus** (same body: S Venus → H Venus Dec 17.9315 φ^6 phi power (loose))
+  - body line: S Sun → Venus RA 0.1171 conj (84.99)
+  - T1: H Jupiter → H Venus Dec 6.9962 7 whole (65.43) [Jupiter]
+  - top rows: S Moon → H Venus RA 1.0749 conj (8.03) [Moon]
+  - star rows: H Arcturus → H Venus RA 151.0136 151 whole (10.20) [Moon]
+- **H Jupiter** (same body: S Jupiter → H Jupiter RA 167.9732 168 whole (loose))
+  - top rows: S Vesta → H Jupiter RA 101.9994 102 whole (93.75) [Jupiter]
+  - other chart, same body: S Jupiter → J Jupiter RA 61.7627 100×φ^-1 phi power (loose)
+  - other chart, top rows: S Makemake → J Jupiter RA 163.4144 101×φ golden (61.26) [Jupiter, Moon]
+  - other chart, star rows: S Arcturus → J Jupiter RA 178.0123 178 whole (14.70) [Moon]
+  - other chart, star rows: J Sadalsuud → J Jupiter RA 73.0082 73 whole (34.87) [Sun]
+- **H Chiron** (same body: S Chiron → H Chiron Dec 4.4454 4.44444 ninth (loose))
+  - body line: S Moon → Chiron RA 0.7864 conj (22.64)
+  - star rows: H Alnilam → H Chiron Dec 2.0192 2 whole (0.16) [Sun]
+- **H Juno** (same body: S Juno → H Juno RA 67.9551 42×φ golden (86.15))
+  - body line: S Sun → Juno RA 0.9669 conj (12.63)
+  - top rows: S Moon → H Juno Dec 0.2908 conj (0.09) [Moon]
+  - star rows: H Sadalmelik → H Juno RA 108.9882 109 whole (16.83) [Sun]
+  - other chart, star rows: J Ankaa → J Juno RA 57.9917 58 whole (34.10) [Moon]
+- **H Vesta** (same body: S Vesta → H Vesta RA 134.2708 83×φ golden (3.86); S Vesta → H Vesta Dec 33.3174 33.3333 ninth (loose))
+  - star rows: H Alhena → H Vesta RA 56.9986 57 whole (86.79) [Moon]
+  - star rows: H Galactic Centre → H Vesta RA 136.0090 136 whole (30.12) [Moon]
+  - star rows: H Galactic Centre → H Vesta Dec 40.9833 41 whole (2.72) [Moon]
+  - star rows: H Praesepe → H Vesta Dec 8.0071 8 whole (41.42) [Moon]
+  - star rows: H Sadalmelik → H Vesta RA 70.9856 71 whole (7.86) [Sun]
+  - other chart, same body: S Vesta → J Vesta Dec 1.9911 2 whole (30.78)
+  - other chart, star rows: J Meissa → J Vesta RA 156.9219 97×φ golden (2.37) [Moon]
+- **H Transpluto** (same body: S Transpluto → H Transpluto Dec 0.9931 1 whole (42.94))
+  - star rows: H Sadalmelik → H Transpluto RA 178.9890 179 whole (20.12) [Sun]
+  - other chart, T2: J Jupiter → J Transpluto Dec 0.0835 conj (52.07) [Jupiter]
+  - other chart, star rows: J Arcturus → J Transpluto Dec 5.9879 6 whole (15.63) [Moon]
+- **J Mars** (same body: S Mars → J Mars RA 133.1800 133.333 ninth (loose))
+  - star rows: J Al Rescha → J Mars RA 0.1795 conj (77.50) [Sun]
+  - other chart, star rows: H Alhena → H Mars RA 147.2513 91×φ golden (46.96) [Moon]
+  - other chart, star rows: H Menkent → H Mars RA 35.0042 35 whole (62.69) [Sun]
+  - other chart, star rows: H Praesepe → H Mars Dec 41.0173 41 whole (1.76) [Moon]
+- **J Jupiter** (same body: S Jupiter → J Jupiter RA 61.7627 100×φ^-1 phi power (loose))
+  - top rows: S Makemake → J Jupiter RA 163.4144 101×φ golden (61.26) [Jupiter, Moon]
+  - star rows: S Arcturus → J Jupiter RA 178.0123 178 whole (14.70) [Moon]
+  - star rows: J Sadalsuud → J Jupiter RA 73.0082 73 whole (34.87) [Sun]
+  - other chart, same body: S Jupiter → H Jupiter RA 167.9732 168 whole (loose)
+  - other chart, top rows: S Vesta → H Jupiter RA 101.9994 102 whole (93.75) [Jupiter]
+- **J Vesta** (same body: S Vesta → J Vesta Dec 1.9911 2 whole (30.78))
+  - star rows: J Meissa → J Vesta RA 156.9219 97×φ golden (2.37) [Moon]
+  - other chart, same body: S Vesta → H Vesta RA 134.2708 83×φ golden (3.86)
+  - other chart, same body: S Vesta → H Vesta Dec 33.3174 33.3333 ninth (loose)
+  - other chart, star rows: H Alhena → H Vesta RA 56.9986 57 whole (86.79) [Moon]
+  - other chart, star rows: H Galactic Centre → H Vesta RA 136.0090 136 whole (30.12) [Moon]
+  - other chart, star rows: H Galactic Centre → H Vesta Dec 40.9833 41 whole (2.72) [Moon]
+  - other chart, star rows: H Praesepe → H Vesta Dec 8.0071 8 whole (41.42) [Moon]
+  - other chart, star rows: H Sadalmelik → H Vesta RA 70.9856 71 whole (7.86) [Sun]
+- **J Orcus** (same body: S Orcus → J Orcus Dec 10.9760 11 whole (loose))
+  - top rows: S Sun → J Orcus Dec 21.0349 13×φ golden (97.12) [Sun]
+  - star rows: J Alnilam → J Orcus Dec 0.0032 conj (97.87) [Sun]
+### L3 the seven cases (L5 field tag on each)
+- **1. same body on both charts**
+  - Jupiter — only
+    - S Jupiter → H Jupiter RA 167.9732 168 whole (loose)
+    - S Jupiter → J Jupiter RA 61.7627 100×φ^-1 phi power (loose)
+  - Vesta — only
+    - S Vesta → H Vesta RA 134.2708 83×φ golden (3.86)
+    - S Vesta → H Vesta Dec 33.3174 33.3333 ninth (loose)
+    - S Vesta → J Vesta Dec 1.9911 2 whole (30.78)
+- **2. one body in both planes**
+  - H Vesta — only
+    - S Vesta → H Vesta RA 134.2708 83×φ golden (3.86)
+    - S Vesta → H Vesta Dec 33.3174 33.3333 ninth (loose)
+- **3. runner number = sky number**
+  - 42 whole — only
+    - H Praesepe → H Rahu RA 41.9866 42 whole (10.74) = S Sun → Sadalmelik RA 41.9994 42 whole (94.18)
+  - 13×φ golden — also: 2 Supakalanistic / Liam Keniry, 4 Trevolli / Kieran O'Neill
+    - S Sun → J Orcus Dec 21.0349 13×φ golden (97.12) = S Sun → Alnilam Dec 21.0333 13×φ golden (93.12)
+  - 94×φ golden — also: 2 Supakalanistic / Liam Keniry, 5 Eleven Eleven / Joey Haynes
+    - J Sadalmelik → J Rahu RA 152.0688 94×φ golden (3.38) = S Moon → Arcturus RA 152.0976 94×φ golden (85.89)
+  - 16.6667 ninth — also: 2 Supakalanistic / Liam Keniry, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes
+    - J Sadalmelik → J Gonggong Dec 16.6628 16.6667 ninth (96.72) = S Sun → Sadalsuud Dec 16.6637 16.6667 ninth (97.48)
+- **4. circle divisions**
+  - 1 = 360/360 — also: 1 Protected Guest / Jane Elliott
+    - S Transpluto → H Transpluto Dec 0.9931 1 whole (42.94)
+  - 12 = 360/30 — only
+    - H Al Rescha → H Sun RA 11.9993 12 whole (92.72)
+  - 2 = 360/180 — also: 2 Supakalanistic / Liam Keniry, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes
+    - S Vesta → J Vesta Dec 1.9911 2 whole (30.78)
+  - 5 = 360/72 — only
+    - S Jupiter → J Eris Dec 4.9982 5 whole (83.02)
+- **5. same number in more than one place**
+  - φ^6 phi power — only
+    - S Venus → H Venus Dec 17.9315 φ^6 phi power (loose)
+    - H Sadalmelik → H Haumea Dec 17.9481 φ^6 phi power (91.66)
+  - 155.556 ninth — also: 1 Protected Guest / Jane Elliott
+    - H Alhena → H Saturn RA 155.5545 155.556 ninth (99.90)
+    - H Alnilam → H Pluto RA 155.5658 155.556 ninth (99.03)
+- **6. star and sky line on one body**
+  - J Orcus on Alnilam — only
+    - J Alnilam → J Orcus Dec 0.0032 conj (97.87)
+    - S Sun → J Orcus Dec 21.0349 13×φ golden (97.12)
+- **7. centres meeting**
+  - Venus: Jupiter, Moon, Sun — also: 1 Protected Guest / Jane Elliott
+    - [Jupiter] H Jupiter → H Venus Dec 6.9962 7 whole (65.43)
+    - [Moon] S Moon → H Venus RA 1.0749 conj (8.03)
+    - [Moon] H Arcturus → H Venus RA 151.0136 151 whole (10.20)
+    - [Sun] S Venus → H Venus Dec 17.9315 φ^6 phi power (loose)
+  - Chiron: Moon, Sun — also: 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes
+    - [Moon] S Chiron → H Chiron Dec 4.4454 4.44444 ninth (loose)
+    - [Sun] H Alnilam → H Chiron Dec 2.0192 2 whole (0.16)
+  - Juno: Moon, Sun — also: 1 Protected Guest / Jane Elliott, 2 Supakalanistic / Liam Keniry, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes
+    - [Moon] S Moon → H Juno Dec 0.2908 conj (0.09)
+    - [Moon] J Ankaa → J Juno RA 57.9917 58 whole (34.10)
+    - [Sun] S Juno → H Juno RA 67.9551 42×φ golden (86.15)
+    - [Sun] H Sadalmelik → H Juno RA 108.9882 109 whole (16.83)
+  - Sedna: Jupiter, Moon, Sun — only
+    - [Jupiter] H Jupiter → H Sedna Dec 0.0482 conj (70.45)
+    - [Moon] J Alhena → J Sedna Dec 11.1152 11.1111 ninth (93.31)
+    - [Sun] H Sadalsuud → H Sedna Dec 13.0191 13 whole (0.22)
+    - [Sun] J Al Rescha → J Sedna RA 16.0052 16 whole (54.72)
+  - Jupiter: Jupiter, Moon, Sun — also: 2 Supakalanistic / Liam Keniry, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes
+    - [Jupiter] S Vesta → H Jupiter RA 101.9994 102 whole (93.75)
+    - [Jupiter] S Makemake → J Jupiter RA 163.4144 101×φ golden (61.26)
+    - [Moon] S Makemake → J Jupiter RA 163.4144 101×φ golden (61.26)
+    - [Moon] S Arcturus → J Jupiter RA 178.0123 178 whole (14.70)
+    - [Sun] J Sadalsuud → J Jupiter RA 73.0082 73 whole (34.87)
+  - Sun: Moon, Sun — also: 1 Protected Guest / Jane Elliott, 5 Eleven Eleven / Joey Haynes
+    - [Moon] S Moon → J Sun RA 0.3747 conj (56.28)
+    - [Moon] J Ankaa → J Sun RA 0.9348 conj (14.20)
+    - [Sun] H Al Rescha → H Sun RA 11.9993 12 whole (92.72)
+    - [Sun] J Sadalsuud → J Sun Dec 8.0064 8 whole (46.22)
+  - Neptune: Moon, Sun — also: 4 Trevolli / Kieran O'Neill
+    - [Moon] H Ankaa → H Neptune Dec 34.0188 34 whole (0.35)
+    - [Sun] H Al Rescha → H Neptune RA 47.9906 48 whole (27.91)
+  - Quaoar: Moon, Sun — also: 1 Protected Guest / Jane Elliott
+    - [Moon] H Praesepe → H Quaoar RA 139.1393 86×φ golden (41.19)
+    - [Moon] J Praesepe → J Quaoar RA 117.9956 118 whole (61.01)
+    - [Sun] H Al Rescha → H Quaoar RA 121.3406 75×φ golden (39.95)
+  - Mars: Moon, Sun — also: 4 Trevolli / Kieran O'Neill
+    - [Moon] H Alhena → H Mars RA 147.2513 91×φ golden (46.96)
+    - [Moon] H Praesepe → H Mars Dec 41.0173 41 whole (1.76)
+    - [Sun] H Menkent → H Mars RA 35.0042 35 whole (62.69)
+    - [Sun] J Al Rescha → J Mars RA 0.1795 conj (77.50)
+  - Saturn: Moon, Sun — also: 1 Protected Guest / Jane Elliott, 2 Supakalanistic / Liam Keniry, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes
+    - [Moon] H Alhena → H Saturn RA 155.5545 155.556 ninth (99.90)
+    - [Sun] J Alnilam → J Saturn RA 41.0019 41 whole (81.47)
+  - Vesta: Moon, Sun — also: 1 Protected Guest / Jane Elliott, 2 Supakalanistic / Liam Keniry, 4 Trevolli / Kieran O'Neill
+    - [Moon] H Alhena → H Vesta RA 56.9986 57 whole (86.79)
+    - [Moon] H Galactic Centre → H Vesta RA 136.0090 136 whole (30.12)
+    - [Moon] H Galactic Centre → H Vesta Dec 40.9833 41 whole (2.72)
+    - [Moon] H Praesepe → H Vesta Dec 8.0071 8 whole (41.42)
+    - [Moon] J Meissa → J Vesta RA 156.9219 97×φ golden (2.37)
+    - [Sun] H Sadalmelik → H Vesta RA 70.9856 71 whole (7.86)
+  - Gonggong: Moon, Sun — also: 5 Eleven Eleven / Joey Haynes
+    - [Moon] H Alhena → H Gonggong Dec 29.0110 29 whole (20.36)
+    - [Moon] H Praesepe → H Gonggong RA 154.0078 154 whole (37.35)
+    - [Sun] J Sadalmelik → J Gonggong RA 0.9232 conj (14.79)
+    - [Sun] J Sadalmelik → J Gonggong Dec 16.6628 16.6667 ninth (96.72)
+  - Eris: Jupiter, Moon, Sun — only
+    - [Jupiter] S Jupiter → J Eris Dec 4.9982 5 whole (83.02)
+    - [Moon] H Ankaa → H Eris RA 18.9885 19 whole (18.17)
+    - [Moon] J Alhena → J Eris RA 75.9914 76 whole (32.73)
+    - [Moon] J Galactic Centre → J Eris RA 117.0191 117 whole (0.20)
+    - [Sun] S Sun → J Eris RA 93.9942 94 whole (50.36)
+    - [Sun] J Sadalmelik → J Eris RA 51.9952 52 whole (57.52)
+  - Haumea: Moon, Sun — also: 2 Supakalanistic / Liam Keniry, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes
+    - [Moon] J Arcturus → J Haumea RA 16.9934 17 whole (44.65)
+    - [Sun] H Menkent → H Haumea RA 0.1943 conj (75.77)
+    - [Sun] H Menkent → H Haumea Dec 53.9995 54 whole (95.38)
+    - [Sun] H Sadalmelik → H Haumea Dec 17.9481 φ^6 phi power (91.66)
+  - Uranus: Moon, Sun — also: 2 Supakalanistic / Liam Keniry, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes
+    - [Moon] H Praesepe → H Uranus RA 111.1347 111.111 ninth (96.14)
+    - [Sun] H Sadalsuud → H Uranus RA 56.0050 56 whole (56.00)
+    - [Sun] J Alnilam → J Uranus RA 121.9909 122 whole (29.77)
+    - [Sun] J Sadalsuud → J Uranus RA 0.8245 conj (20.28)
+  - Rahu: Moon, Sun — only
+    - [Moon] H Praesepe → H Rahu RA 41.9866 42 whole (10.74)
+    - [Moon] J Praesepe → J Rahu Dec 0.1083 conj (40.83)
+    - [Sun] J Al Rescha → J Rahu RA 93.0034 93 whole (68.56)
+    - [Sun] J Sadalmelik → J Rahu RA 152.0688 94×φ golden (3.38)
+  - Ketu: Moon, Sun — also: 1 Protected Guest / Jane Elliott, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes
+    - [Moon] H Praesepe → H Ketu RA 138.0134 138 whole (10.74)
+    - [Sun] H Sadalsuud → H Ketu RA 29.1263 18×φ golden (89.78)
+    - [Sun] J Al Rescha → J Ketu RA 86.9966 87 whole (68.56)
+  - Transpluto: Jupiter, Moon, Sun — only
+    - [Jupiter] J Jupiter → J Transpluto Dec 0.0835 conj (52.07)
+    - [Moon] J Arcturus → J Transpluto Dec 5.9879 6 whole (15.63)
+    - [Sun] H Sadalmelik → H Transpluto RA 178.9890 179 whole (20.12)
+
+## 4 Trevolli / Kieran O'Neill
+### L1 same bodies
+- S Mars → H Mars RA 21.0567 13×φ golden (loose)
+- S Jupiter → H Jupiter RA 104.0046 104 whole (58.94)
+- S Chiron → H Chiron Dec 2.6067 φ^2 phi power (loose)
+- S Ceres → H Ceres Dec 13.0298 13 whole (loose)
+- S Rahu → H Rahu Dec 3.3375 3.33333 ninth (loose)
+- S Sedna → H Sedna RA 2.2255 2.22222 ninth (loose)
+- S Haumea → H Haumea Dec 1.9989 2 whole (89.62)
+- S Orcus → H Orcus Dec 2.2285 2.22222 ninth (loose)
+- S Quaoar → H Quaoar RA 3.9931 4 whole (42.84)
+- S Ketu → H Ketu Dec 3.3375 3.33333 ninth (loose)
+- S Venus → J Venus Dec 16.6707 16.6667 ninth (loose)
+- S Mars → J Mars RA 87.3541 54×φ golden (loose)
+- S Uranus → J Uranus Dec 38.0226 38 whole (loose)
+- S Ceres → J Ceres RA 149.9749 150 whole (loose)
+- S Sedna → J Sedna Dec 4.2271 φ^3 phi power (loose)
+- S Orcus → J Orcus RA 29.1000 φ^7 phi power (loose)
+- S Quaoar → J Quaoar RA 45.9795 46 whole (loose)
+### L2 what lands on each same body
+- **H Mars** (same body: S Mars → H Mars RA 21.0567 13×φ golden (loose))
+  - star rows: H Sadalsuud → H Mars Dec 17.9834 18 whole (2.84) [Sun]
+  - other chart, same body: S Mars → J Mars RA 87.3541 54×φ golden (loose)
+  - other chart, star rows: J Meissa → J Mars RA 86.0086 86 whole (32.77) [Moon]
+  - other chart, star rows: J Sadalsuud → J Mars Dec 11.1193 11.1111 ninth (86.60) [Sun]
+- **H Jupiter** (same body: S Jupiter → H Jupiter RA 104.0046 104 whole (58.94))
+  - top rows: S Jupiter → H Jupiter RA 104.0046 104 whole (58.94) [Jupiter]
+  - other chart, top rows: S Eris → J Jupiter RA 1.0276 conj (9.92) [Jupiter]
+  - other chart, top rows: S Quaoar → J Jupiter RA 110.9740 10×φ^5 phi power (75.64) [Jupiter]
+  - other chart, star rows: J Alhena → J Jupiter Dec 6.9883 7 whole (17.42) [Moon]
+  - other chart, star rows: S Sadalsuud → J Jupiter Dec 14.9841 15 whole (4.24) [Sun]
+- **H Chiron** (same body: S Chiron → H Chiron Dec 2.6067 φ^2 phi power (loose))
+  - body line: S Moon → Chiron RA 0.7864 conj (22.64)
+  - star rows: H Al Rescha → H Chiron Dec 0.1078 conj (41.04) [Sun]
+  - other chart, star rows: J Al Rescha → J Chiron RA 58.2403 36×φ golden (52.46) [Sun]
+  - other chart, star rows: J Al Rescha → J Chiron Dec 14.9830 15 whole (2.30) [Sun]
+  - other chart, star rows: J Menkent → J Chiron RA 122.9112 φ^10 phi power (75.49) [Sun]
+- **H Ceres** (same body: S Ceres → H Ceres Dec 13.0298 13 whole (loose))
+  - star rows: H Praesepe → H Ceres RA 0.8330 conj (19.78) [Moon]
+  - other chart, same body: S Ceres → J Ceres RA 149.9749 150 whole (loose)
+  - other chart, star rows: J Al Rescha → J Ceres RA 124.5735 77×φ golden (28.49) [Sun]
+  - other chart, star rows: J Galactic Centre → J Ceres RA 0.4742 conj (46.77) [Moon]
+  - other chart, star rows: J Menkent → J Ceres Dec 8.0025 8 whole (76.66) [Sun]
+  - other chart, star rows: J Praesepe → J Ceres RA 135.9211 84×φ golden (64.97) [Moon]
+- **H Rahu** (same body: S Rahu → H Rahu Dec 3.3375 3.33333 ninth (loose))
+  - other chart, star rows: J Alhena → J Rahu RA 97.0873 60×φ golden (69.92) [Moon]
+- **H Sedna** (same body: S Sedna → H Sedna RA 2.2255 2.22222 ninth (loose))
+  - star rows: H Ankaa → H Sedna Dec 49.9865 50 whole (10.65) [Moon]
+  - star rows: H Sadalmelik → H Sedna Dec 7.9994 8 whole (94.40) [Sun]
+  - other chart, same body: S Sedna → J Sedna Dec 4.2271 φ^3 phi power (loose)
+  - other chart, star rows: J Al Rescha → J Sedna Dec 1.0148 1 whole (6.79) [Sun]
+  - other chart, star rows: J Alnilam → J Sedna Dec 4.9802 5 whole (0.01) [Sun]
+- **H Haumea** (same body: S Haumea → H Haumea Dec 1.9989 2 whole (89.62))
+  - star rows: H Alnilam → H Haumea RA 129.4207 80×φ golden (10.20) [Sun]
+  - star rows: H Arcturus → H Haumea RA 0.4418 conj (49.76) [Moon]
+  - other chart, top rows: S Sun → J Haumea Dec 45.0054 45 whole (52.96) [Sun]
+  - other chart, star rows: J Al Rescha → J Haumea Dec 20.0036 20 whole (67.39) [Sun]
+  - other chart, star rows: J Arcturus → J Haumea RA 28.9860 29 whole (8.89) [Moon]
+  - other chart, star rows: J Galactic Centre → J Haumea Dec 51.7778 32×φ golden (95.74) [Moon]
+- **H Orcus** (same body: S Orcus → H Orcus Dec 2.2285 2.22222 ninth (loose))
+  - star rows: H Ankaa → H Orcus RA 146.0132 146 whole (11.66) [Moon]
+  - star rows: H Ankaa → H Orcus Dec 32.3606 20×φ golden (99.25) [Moon]
+  - other chart, same body: S Orcus → J Orcus RA 29.1000 φ^7 phi power (loose)
+  - other chart, top rows: S Moon → J Orcus RA 122.2268 122.222 ninth (99.36) [Moon]
+  - other chart, star rows: J Meissa → J Orcus RA 44.4460 44.4444 ninth (98.41) [Moon]
+- **H Quaoar** (same body: S Quaoar → H Quaoar RA 3.9931 4 whole (42.84))
+  - star rows: H Sadalsuud → H Quaoar RA 51.0116 51 whole (17.75) [Sun]
+  - other chart, same body: S Quaoar → J Quaoar RA 45.9795 46 whole (loose)
+  - other chart, star rows: J Sadalsuud → J Quaoar RA 93.0056 93 whole (51.76) [Sun]
+- **H Ketu** (same body: S Ketu → H Ketu Dec 3.3375 3.33333 ninth (loose))
+  - other chart, top rows: S Moon → J Ketu Dec 2.0006 2 whole (94.02) [Moon]
+  - other chart, star rows: J Alnilam → J Ketu Dec 0.1854 conj (14.59) [Sun]
+  - other chart, star rows: J Galactic Centre → J Ketu Dec 27.9942 28 whole (50.27) [Moon]
+  - other chart, star rows: J Praesepe → J Ketu Dec 20.9983 21 whole (83.67) [Moon]
+- **J Venus** (same body: S Venus → J Venus Dec 16.6707 16.6667 ninth (loose))
+  - body line: S Sun → Venus RA 0.1171 conj (84.99)
+  - star rows: J Arcturus → J Venus RA 28.9869 29 whole (11.77) [Moon]
+- **J Mars** (same body: S Mars → J Mars RA 87.3541 54×φ golden (loose))
+  - star rows: J Meissa → J Mars RA 86.0086 86 whole (32.77) [Moon]
+  - star rows: J Sadalsuud → J Mars Dec 11.1193 11.1111 ninth (86.60) [Sun]
+  - other chart, same body: S Mars → H Mars RA 21.0567 13×φ golden (loose)
+  - other chart, star rows: H Sadalsuud → H Mars Dec 17.9834 18 whole (2.84) [Sun]
+- **J Uranus** (same body: S Uranus → J Uranus Dec 38.0226 38 whole (loose))
+  - star rows: J Al Rescha → J Uranus Dec 26.1824 10×φ^2 phi power (96.86) [Sun]
+  - star rows: J Alhena → J Uranus RA 162.9863 163 whole (9.99) [Moon]
+  - star rows: J Ankaa → J Uranus Dec 18.8861 18.8889 ninth (97.96) [Moon]
+  - star rows: J Galactic Centre → J Uranus RA 4.0035 4 whole (68.12) [Moon]
+  - other chart, top rows: S Sun → H Uranus RA 96.0033 96 whole (70.03) [Sun]
+  - other chart, top rows: S Moon → H Uranus Dec 12.9995 13 whole (95.17) [Moon]
+  - other chart, star rows: H Alhena → H Uranus RA 73.9820 74 whole (1.00) [Moon]
+  - other chart, star rows: H Ankaa → H Uranus RA 18.8803 18.8889 ninth (93.81) [Moon]
+  - other chart, star rows: H Arcturus → H Uranus RA 171.5315 106×φ golden (14.94) [Moon]
+  - other chart, star rows: H Galactic Centre → H Uranus Dec 38.9921 39 whole (36.72) [Moon]
+  - other chart, star rows: H Meissa → H Uranus Dec 0.0520 conj (68.36) [Moon]
+  - other chart, star rows: H Praesepe → H Uranus Dec 9.9980 10 whole (81.18) [Moon]
+  - other chart, star rows: H Sadalmelik → H Uranus RA 54.0039 54 whole (64.85) [Sun]
+  - other chart, star rows: H Sadalsuud → H Uranus Dec 15.5578 15.5556 ninth (97.85) [Sun]
+- **J Ceres** (same body: S Ceres → J Ceres RA 149.9749 150 whole (loose))
+  - star rows: J Al Rescha → J Ceres RA 124.5735 77×φ golden (28.49) [Sun]
+  - star rows: J Galactic Centre → J Ceres RA 0.4742 conj (46.77) [Moon]
+  - star rows: J Menkent → J Ceres Dec 8.0025 8 whole (76.66) [Sun]
+  - star rows: J Praesepe → J Ceres RA 135.9211 84×φ golden (64.97) [Moon]
+  - other chart, same body: S Ceres → H Ceres Dec 13.0298 13 whole (loose)
+  - other chart, star rows: H Praesepe → H Ceres RA 0.8330 conj (19.78) [Moon]
+- **J Sedna** (same body: S Sedna → J Sedna Dec 4.2271 φ^3 phi power (loose))
+  - star rows: J Al Rescha → J Sedna Dec 1.0148 1 whole (6.79) [Sun]
+  - star rows: J Alnilam → J Sedna Dec 4.9802 5 whole (0.01) [Sun]
+  - other chart, same body: S Sedna → H Sedna RA 2.2255 2.22222 ninth (loose)
+  - other chart, star rows: H Ankaa → H Sedna Dec 49.9865 50 whole (10.65) [Moon]
+  - other chart, star rows: H Sadalmelik → H Sedna Dec 7.9994 8 whole (94.40) [Sun]
+- **J Orcus** (same body: S Orcus → J Orcus RA 29.1000 φ^7 phi power (loose))
+  - top rows: S Moon → J Orcus RA 122.2268 122.222 ninth (99.36) [Moon]
+  - star rows: J Meissa → J Orcus RA 44.4460 44.4444 ninth (98.41) [Moon]
+  - other chart, same body: S Orcus → H Orcus Dec 2.2285 2.22222 ninth (loose)
+  - other chart, star rows: H Ankaa → H Orcus RA 146.0132 146 whole (11.66) [Moon]
+  - other chart, star rows: H Ankaa → H Orcus Dec 32.3606 20×φ golden (99.25) [Moon]
+- **J Quaoar** (same body: S Quaoar → J Quaoar RA 45.9795 46 whole (loose))
+  - star rows: J Sadalsuud → J Quaoar RA 93.0056 93 whole (51.76) [Sun]
+  - other chart, same body: S Quaoar → H Quaoar RA 3.9931 4 whole (42.84)
+  - other chart, star rows: H Sadalsuud → H Quaoar RA 51.0116 51 whole (17.75) [Sun]
+### L3 the seven cases (L5 field tag on each)
+- **1. same body on both charts**
+  - Mars — only
+    - S Mars → H Mars RA 21.0567 13×φ golden (loose)
+    - S Mars → J Mars RA 87.3541 54×φ golden (loose)
+  - Ceres — also: 1 Protected Guest / Jane Elliott
+    - S Ceres → H Ceres Dec 13.0298 13 whole (loose)
+    - S Ceres → J Ceres RA 149.9749 150 whole (loose)
+  - Sedna — only
+    - S Sedna → H Sedna RA 2.2255 2.22222 ninth (loose)
+    - S Sedna → J Sedna Dec 4.2271 φ^3 phi power (loose)
+  - Orcus — only
+    - S Orcus → H Orcus Dec 2.2285 2.22222 ninth (loose)
+    - S Orcus → J Orcus RA 29.1000 φ^7 phi power (loose)
+  - Quaoar — only
+    - S Quaoar → H Quaoar RA 3.9931 4 whole (42.84)
+    - S Quaoar → J Quaoar RA 45.9795 46 whole (loose)
+- **2. one body in both planes**: none
+- **3. runner number = sky number**
+  - 13×φ golden — also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh
+    - S Mars → H Mars RA 21.0567 13×φ golden (loose) = S Sun → Alnilam Dec 21.0333 13×φ golden (93.12)
+  - 16.6667 ninth — also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes
+    - S Venus → J Venus Dec 16.6707 16.6667 ninth (loose) = S Sun → Sadalsuud Dec 16.6637 16.6667 ninth (97.48)
+- **4. circle divisions**
+  - 2 = 360/180 — also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes
+    - S Haumea → H Haumea Dec 1.9989 2 whole (89.62)
+  - 4 = 360/90 — also: 2 Supakalanistic / Liam Keniry, 5 Eleven Eleven / Joey Haynes
+    - S Quaoar → H Quaoar RA 3.9931 4 whole (42.84)
+  - 10 = 360/36 — only
+    - H Praesepe → H Uranus Dec 9.9980 10 whole (81.18)
+  - 8 = 360/45 — only
+    - H Sadalmelik → H Sedna Dec 7.9994 8 whole (94.40)
+  - 45 = 360/8 — also: 2 Supakalanistic / Liam Keniry
+    - S Sun → J Haumea Dec 45.0054 45 whole (52.96)
+  - 2 = 360/180 — also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes
+    - S Moon → J Ketu Dec 2.0006 2 whole (94.02)
+  - 20 = 360/18 — only
+    - J Al Rescha → J Haumea Dec 20.0036 20 whole (67.39)
+  - 4 = 360/90 — also: 2 Supakalanistic / Liam Keniry, 5 Eleven Eleven / Joey Haynes
+    - J Galactic Centre → J Uranus RA 4.0035 4 whole (68.12)
+  - 8 = 360/45 — only
+    - J Menkent → J Ceres Dec 8.0025 8 whole (76.66)
+- **5. same number in more than one place**
+  - 13 whole — only
+    - S Ceres → H Ceres Dec 13.0298 13 whole (loose)
+    - S Moon → H Uranus Dec 12.9995 13 whole (95.17)
+  - 3.33333 ninth — only
+    - S Rahu → H Rahu Dec 3.3375 3.33333 ninth (loose)
+    - S Ketu → H Ketu Dec 3.3375 3.33333 ninth (loose)
+  - 2.22222 ninth — only
+    - S Sedna → H Sedna RA 2.2255 2.22222 ninth (loose)
+    - S Orcus → H Orcus Dec 2.2285 2.22222 ninth (loose)
+  - 2 whole — also: 2 Supakalanistic / Liam Keniry, 5 Eleven Eleven / Joey Haynes
+    - S Haumea → H Haumea Dec 1.9989 2 whole (89.62)
+    - S Moon → J Ketu Dec 2.0006 2 whole (94.02)
+  - 4 whole — only
+    - S Quaoar → H Quaoar RA 3.9931 4 whole (42.84)
+    - J Galactic Centre → J Uranus RA 4.0035 4 whole (68.12)
+  - 18.8889 ninth — only
+    - H Ankaa → H Uranus RA 18.8803 18.8889 ninth (93.81)
+    - J Ankaa → J Uranus Dec 18.8861 18.8889 ninth (97.96)
+  - 8 whole — only
+    - H Sadalmelik → H Sedna Dec 7.9994 8 whole (94.40)
+    - J Menkent → J Ceres Dec 8.0025 8 whole (76.66)
+  - 10×φ^5 phi power — also: 5 Eleven Eleven / Joey Haynes
+    - S Quaoar → J Jupiter RA 110.9740 10×φ^5 phi power (75.64)
+    - J Arcturus → J Juno RA 110.9544 10×φ^5 phi power (81.88)
+  - 28 whole — only
+    - J Arcturus → J Mercury Dec 28.0004 28 whole (96.31)
+    - J Galactic Centre → J Ketu Dec 27.9942 28 whole (50.27)
+- **6. star and sky line on one body**
+  - H Uranus on Meissa — only
+    - H Meissa → H Uranus Dec 0.0520 conj (68.36)
+    - S Sun → H Uranus RA 96.0033 96 whole (70.03)
+    - S Moon → H Uranus Dec 12.9995 13 whole (95.17)
+- **7. centres meeting**
+  - Chiron: Moon, Sun — also: 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes
+    - [Moon] S Chiron → H Chiron Dec 2.6067 φ^2 phi power (loose)
+    - [Sun] H Al Rescha → H Chiron Dec 0.1078 conj (41.04)
+    - [Sun] J Al Rescha → J Chiron RA 58.2403 36×φ golden (52.46)
+    - [Sun] J Al Rescha → J Chiron Dec 14.9830 15 whole (2.30)
+    - [Sun] J Menkent → J Chiron RA 122.9112 φ^10 phi power (75.49)
+  - Jupiter: Jupiter, Moon, Sun — also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes
+    - [Jupiter] S Jupiter → H Jupiter RA 104.0046 104 whole (58.94)
+    - [Jupiter] S Eris → J Jupiter RA 1.0276 conj (9.92)
+    - [Jupiter] S Quaoar → J Jupiter RA 110.9740 10×φ^5 phi power (75.64)
+    - [Moon] J Alhena → J Jupiter Dec 6.9883 7 whole (17.42)
+    - [Sun] S Sadalsuud → J Jupiter Dec 14.9841 15 whole (4.24)
+  - Saturn: Moon, Sun — also: 1 Protected Guest / Jane Elliott, 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes
+    - [Moon] J Alhena → J Saturn RA 155.0177 155 whole (1.30)
+    - [Sun] S Sun → H Saturn Dec 0.0394 conj (75.47)
+    - [Sun] H Al Rescha → H Saturn RA 111.1616 111.111 ninth (91.74)
+    - [Sun] S Sun → J Saturn RA 34.9981 35 whole (81.91)
+    - [Sun] J Sadalmelik → J Saturn RA 77.0060 77 whole (49.31)
+  - Uranus: Moon, Sun — also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes
+    - [Moon] S Moon → H Uranus Dec 12.9995 13 whole (95.17)
+    - [Moon] H Alhena → H Uranus RA 73.9820 74 whole (1.00)
+    - [Moon] H Ankaa → H Uranus RA 18.8803 18.8889 ninth (93.81)
+    - [Moon] H Arcturus → H Uranus RA 171.5315 106×φ golden (14.94)
+    - [Moon] H Galactic Centre → H Uranus Dec 38.9921 39 whole (36.72)
+    - [Moon] H Meissa → H Uranus Dec 0.0520 conj (68.36)
+    - [Moon] H Praesepe → H Uranus Dec 9.9980 10 whole (81.18)
+    - [Moon] J Alhena → J Uranus RA 162.9863 163 whole (9.99)
+    - [Moon] J Ankaa → J Uranus Dec 18.8861 18.8889 ninth (97.96)
+    - [Moon] J Galactic Centre → J Uranus RA 4.0035 4 whole (68.12)
+    - [Sun] S Sun → H Uranus RA 96.0033 96 whole (70.03)
+    - [Sun] H Sadalmelik → H Uranus RA 54.0039 54 whole (64.85)
+    - [Sun] H Sadalsuud → H Uranus Dec 15.5578 15.5556 ninth (97.85)
+    - [Sun] J Al Rescha → J Uranus Dec 26.1824 10×φ^2 phi power (96.86)
+  - Juno: Moon, Sun — also: 1 Protected Guest / Jane Elliott, 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes
+    - [Moon] S Moon → H Juno Dec 0.2979 conj (0.00)
+    - [Moon] H Ankaa → H Juno Dec 38.9966 39 whole (68.53)
+    - [Moon] J Arcturus → J Juno RA 110.9544 10×φ^5 phi power (81.88)
+    - [Sun] H Sadalmelik → H Juno Dec 2.9905 3 whole (27.77)
+  - Mercury: Moon, Sun — also: 1 Protected Guest / Jane Elliott
+    - [Moon] J Arcturus → J Mercury Dec 28.0004 28 whole (96.31)
+    - [Sun] H Al Rescha → H Mercury RA 20.0169 20 whole (2.38)
+  - Vesta: Moon, Sun — also: 1 Protected Guest / Jane Elliott, 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh
+    - [Moon] H Alhena → H Vesta RA 169.8874 105×φ golden (65.41)
+    - [Moon] J Arcturus → J Vesta RA 98.9890 99 whole (20.13)
+    - [Moon] J Arcturus → J Vesta Dec 0.9816 1 whole (0.62)
+    - [Moon] J Praesepe → J Vesta Dec 0.1898 conj (13.50)
+    - [Sun] H Alnilam → H Vesta RA 174.7366 108×φ golden (43.38)
+  - Haumea: Moon, Sun — also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes
+    - [Moon] H Arcturus → H Haumea RA 0.4418 conj (49.76)
+    - [Moon] J Arcturus → J Haumea RA 28.9860 29 whole (8.89)
+    - [Moon] J Galactic Centre → J Haumea Dec 51.7778 32×φ golden (95.74)
+    - [Sun] H Alnilam → H Haumea RA 129.4207 80×φ golden (10.20)
+    - [Sun] S Sun → J Haumea Dec 45.0054 45 whole (52.96)
+    - [Sun] J Al Rescha → J Haumea Dec 20.0036 20 whole (67.39)
+  - Pluto: Moon, Sun — also: 1 Protected Guest / Jane Elliott, 2 Supakalanistic / Liam Keniry
+    - [Moon] H Ankaa → H Pluto RA 74.0062 74 whole (47.32)
+    - [Moon] J Ankaa → J Pluto Dec 43.0038 43 whole (65.41)
+    - [Sun] J Sadalmelik → J Pluto Dec 1.0188 1 whole (0.36)
+  - Sedna: Moon, Sun — also: 2 Supakalanistic / Liam Keniry
+    - [Moon] H Ankaa → H Sedna Dec 49.9865 50 whole (10.65)
+    - [Sun] H Sadalmelik → H Sedna Dec 7.9994 8 whole (94.40)
+    - [Sun] J Al Rescha → J Sedna Dec 1.0148 1 whole (6.79)
+    - [Sun] J Alnilam → J Sedna Dec 4.9802 5 whole (0.01)
+  - Transpluto: Moon, Sun — also: 1 Protected Guest / Jane Elliott, 2 Supakalanistic / Liam Keniry
+    - [Moon] H Galactic Centre → H Transpluto RA 113.2620 70×φ golden (97.81)
+    - [Moon] J Alhena → J Transpluto Dec 2.0113 2 whole (18.79)
+    - [Sun] J Menkent → J Transpluto RA 67.9505 42×φ golden (61.62)
+  - Pallas: Moon, Sun — only
+    - [Moon] H Meissa → H Pallas Dec 18.0089 18 whole (30.58)
+    - [Moon] J Meissa → J Pallas Dec 1.1116 1.11111 ninth (92.44)
+    - [Moon] J Praesepe → J Pallas RA 113.2314 70×φ golden (0.18)
+    - [Sun] J Al Rescha → J Pallas RA 147.2633 91×φ golden (9.88)
+  - Ceres: Moon, Sun — also: 1 Protected Guest / Jane Elliott, 2 Supakalanistic / Liam Keniry
+    - [Moon] H Praesepe → H Ceres RA 0.8330 conj (19.78)
+    - [Moon] J Galactic Centre → J Ceres RA 0.4742 conj (46.77)
+    - [Moon] J Praesepe → J Ceres RA 135.9211 84×φ golden (64.97)
+    - [Sun] J Al Rescha → J Ceres RA 124.5735 77×φ golden (28.49)
+    - [Sun] J Menkent → J Ceres Dec 8.0025 8 whole (76.66)
+  - Mars: Moon, Sun — also: 3 Creationist / Connor Murtagh
+    - [Moon] J Meissa → J Mars RA 86.0086 86 whole (32.77)
+    - [Sun] H Sadalsuud → H Mars Dec 17.9834 18 whole (2.84)
+    - [Sun] J Sadalsuud → J Mars Dec 11.1193 11.1111 ninth (86.60)
+  - Venus: Moon, Sun — only
+    - [Moon] J Arcturus → J Venus RA 28.9869 29 whole (11.77)
+    - [Sun] S Venus → J Venus Dec 16.6707 16.6667 ninth (loose)
+  - Neptune: Moon, Sun — also: 3 Creationist / Connor Murtagh
+    - [Moon] J Ankaa → J Neptune Dec 19.9810 20 whole (0.23)
+    - [Sun] S Sun → J Neptune Dec 0.0857 conj (51.05)
+    - [Sun] J Sadalmelik → J Neptune Dec 22.0041 22 whole (63.50)
+  - Ketu: Moon, Sun — also: 1 Protected Guest / Jane Elliott, 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes
+    - [Moon] S Moon → J Ketu Dec 2.0006 2 whole (94.02)
+    - [Moon] J Galactic Centre → J Ketu Dec 27.9942 28 whole (50.27)
+    - [Moon] J Praesepe → J Ketu Dec 20.9983 21 whole (83.67)
+    - [Sun] J Alnilam → J Ketu Dec 0.1854 conj (14.59)
+  - Makemake: Moon, Sun — also: 1 Protected Guest / Jane Elliott, 2 Supakalanistic / Liam Keniry
+    - [Moon] J Ankaa → J Makemake Dec 78.0019 78 whole (81.96)
+    - [Sun] J Menkent → J Makemake RA 44.9899 45 whole (24.47)
+    - [Sun] J Sadalmelik → J Makemake Dec 36.0169 36 whole (2.44)
+
+## 5 Eleven Eleven / Joey Haynes
+### L1 same bodies
+- S Mercury → H Mercury Dec 21.9959 22 whole (63.10)
+- S Venus → H Venus RA 110.3759 10×φ^5 phi power (loose)
+- S Saturn → H Saturn RA 35.5763 22×φ golden (loose)
+- S Uranus → H Uranus RA 12.2940 12.2222 ninth (loose)
+- S Ceres → H Ceres RA 76.0566 φ^9 phi power (loose)
+- S Ceres → H Ceres Dec 12.2610 12.2222 ninth (loose)
+- S Quaoar → H Quaoar RA 4.0078 4 whole (37.51)
+- S Transpluto → H Transpluto RA 2.0022 2 whole (78.84)
+- S Sun → J Sun RA 155.0267 155 whole (loose)
+- S Pluto → J Pluto RA 61.8821 100×φ^-1 phi power (loose)
+- S Juno → J Juno Dec 13.2693 13.3333 ninth (loose)
+- S Rahu → J Rahu RA 169.9115 105×φ golden (loose)
+- S Eris → J Eris Dec 6.6584 6.66667 ninth (loose)
+- S Sedna → J Sedna Dec 3.2388 2×φ golden (loose)
+- S Orcus → J Orcus Dec 14.0982 14.14 sqrt2 (loose)
+- S Ketu → J Ketu RA 169.9115 105×φ golden (loose)
+### L2 what lands on each same body
+- **H Mercury** (same body: S Mercury → H Mercury Dec 21.9959 22 whole (63.10))
+  - top rows: S Moon → H Mercury RA 1.1423 conj (5.69) [Moon]
+  - star rows: H Al Rescha → H Mercury Dec 0.0997 conj (44.58) [Sun]
+  - star rows: H Meissa → H Mercury Dec 7.0715 7.07 sqrt2 (97.67) [Moon]
+  - other chart, top rows: S Jupiter → J Mercury RA 151.0003 151 whole (96.92) [Jupiter]
+  - other chart, star rows: J Ankaa → J Mercury Dec 62.9996 63 whole (95.96) [Moon]
+  - other chart, star rows: J Sadalmelik → J Mercury Dec 21.0166 21 whole (2.93) [Sun]
+- **H Venus** (same body: S Venus → H Venus RA 110.3759 10×φ^5 phi power (loose))
+  - body line: S Sun → Venus RA 0.1171 conj (84.99)
+  - other chart, star rows: J Alnilam → J Venus RA 92.9926 93 whole (39.89) [Sun]
+- **H Saturn** (same body: S Saturn → H Saturn RA 35.5763 22×φ golden (loose))
+  - top rows: S Sun → H Saturn Dec 0.0236 conj (84.90) [Sun]
+  - star rows: H Al Rescha → H Saturn RA 110.9394 10×φ^5 phi power (86.85) [Sun]
+  - star rows: H Ankaa → H Saturn RA 86.9985 87 whole (85.49) [Moon]
+  - star rows: H Arcturus → H Saturn Dec 41.4295 41.4 silver (92.34) [Moon]
+  - other chart, star rows: J Alnilam → J Saturn Dec 7.9843 8 whole (4.65) [Sun]
+- **H Uranus** (same body: S Uranus → H Uranus RA 12.2940 12.2222 ninth (loose))
+  - star rows: H Ankaa → H Uranus RA 19.4108 12×φ golden (68.42) [Moon]
+  - star rows: H Arcturus → H Uranus Dec 8.9825 9 whole (1.51) [Moon]
+  - star rows: H Meissa → H Uranus Dec 0.2546 conj (2.29) [Moon]
+  - other chart, star rows: J Menkent → J Uranus RA 84.0118 84 whole (17.00) [Sun]
+- **H Ceres** (same body: S Ceres → H Ceres RA 76.0566 φ^9 phi power (loose); S Ceres → H Ceres Dec 12.2610 12.2222 ninth (loose))
+- **H Quaoar** (same body: S Quaoar → H Quaoar RA 4.0078 4 whole (37.51))
+  - other chart, star rows: J Arcturus → J Quaoar Dec 32.9852 33 whole (6.88) [Moon]
+- **H Transpluto** (same body: S Transpluto → H Transpluto RA 2.0022 2 whole (78.84))
+  - top rows: S Sun → H Transpluto Dec 33.3361 33.3333 ninth (96.65) [Sun]
+  - other chart, star rows: J Al Rescha → J Transpluto Dec 10.9917 11 whole (33.96) [Sun]
+- **J Sun** (same body: S Sun → J Sun RA 155.0267 155 whole (loose))
+  - star rows: J Al Rescha → J Sun Dec 14.4406 14.4444 ninth (95.93) [Sun]
+  - star rows: J Alhena → J Sun RA 34.9928 35 whole (40.88) [Moon]
+  - star rows: J Ankaa → J Sun RA 127.8414 79×φ golden (23.51) [Moon]
+  - star rows: J Arcturus → J Sun Dec 1.9830 2 whole (2.23) [Moon]
+  - star rows: J Galactic Centre → J Sun RA 132.0053 132 whole (53.79) [Moon]
+  - star rows: J Sadalsuud → J Sun RA 171.5210 106×φ golden (50.38) [Sun]
+  - other chart, star rows: H Meissa → H Sun Dec 2.0138 2 whole (9.63) [Moon]
+- **J Pluto** (same body: S Pluto → J Pluto RA 61.8821 100×φ^-1 phi power (loose))
+  - star rows: J Sadalsuud → J Pluto Dec 0.0413 conj (74.37) [Sun]
+- **J Juno** (same body: S Juno → J Juno Dec 13.2693 13.3333 ninth (loose))
+  - body line: S Sun → Juno RA 0.9669 conj (12.63)
+  - star rows: J Meissa → J Juno RA 121.9943 122 whole (51.10) [Moon]
+  - star rows: J Sadalmelik → J Juno Dec 0.0313 conj (80.22) [Sun]
+  - other chart, star rows: H Arcturus → H Juno Dec 21.0147 21 whole (7.15) [Moon]
+- **J Rahu** (same body: S Rahu → J Rahu RA 169.9115 105×φ golden (loose))
+  - other chart, star rows: H Meissa → H Rahu RA 50.9934 51 whole (45.15) [Moon]
+- **J Eris** (same body: S Eris → J Eris Dec 6.6584 6.66667 ninth (loose))
+  - star rows: J Sadalmelik → J Eris RA 52.0013 52 whole (87.17) [Sun]
+  - other chart, star rows: H Alnilam → H Eris RA 58.2481 36×φ golden (93.06) [Sun]
+- **J Sedna** (same body: S Sedna → J Sedna Dec 3.2388 2×φ golden (loose))
+  - top rows: S Sun → J Sedna Dec 27.0050 27 whole (56.42) [Sun]
+  - star rows: J Al Rescha → J Sedna Dec 2.0040 2 whole (64.16) [Sun]
+- **J Orcus** (same body: S Orcus → J Orcus Dec 14.0982 14.14 sqrt2 (loose))
+  - star rows: J Meissa → J Orcus Dec 8.0139 8 whole (9.38) [Moon]
+  - other chart, star rows: H Arcturus → H Orcus Dec 29.0304 φ^7 phi power (94.44) [Moon]
+  - other chart, star rows: H Sadalmelik → H Orcus RA 178.9827 179 whole (1.82) [Sun]
+- **J Ketu** (same body: S Ketu → J Ketu RA 169.9115 105×φ golden (loose))
+  - star rows: J Arcturus → J Ketu Dec 1.3335 1.33333 ninth (98.07) [Moon]
+  - other chart, star rows: H Meissa → H Ketu RA 129.0066 129 whole (45.15) [Moon]
+  - other chart, star rows: H Sadalmelik → H Ketu RA 16.6672 16.6667 ninth (99.55) [Sun]
+### L3 the seven cases (L5 field tag on each)
+- **1. same body on both charts**: none
+- **2. one body in both planes**
+  - H Ceres — only
+    - S Ceres → H Ceres RA 76.0566 φ^9 phi power (loose)
+    - S Ceres → H Ceres Dec 12.2610 12.2222 ninth (loose)
+- **3. runner number = sky number**
+  - 12×φ golden — also: 2 Supakalanistic / Liam Keniry
+    - H Ankaa → H Uranus RA 19.4108 12×φ golden (68.42) = S Moon → Alhena Dec 19.4132 12×φ golden (81.21)
+  - 16.6667 ninth — also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill
+    - H Sadalmelik → H Ketu RA 16.6672 16.6667 ninth (99.55) = S Sun → Sadalsuud Dec 16.6637 16.6667 ninth (97.48)
+  - 94×φ golden — also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh
+    - J Jupiter → J star Ankaa RA 152.0958 94×φ golden (96.49) = S Moon → Arcturus RA 152.0976 94×φ golden (85.89)
+  - 94×φ golden — also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh
+    - J Ankaa → J Jupiter RA 152.0958 94×φ golden (96.49) = S Moon → Arcturus RA 152.0976 94×φ golden (85.89)
+- **4. circle divisions**
+  - 4 = 360/90 — also: 2 Supakalanistic / Liam Keniry, 4 Trevolli / Kieran O'Neill
+    - S Quaoar → H Quaoar RA 4.0078 4 whole (37.51)
+  - 2 = 360/180 — also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill
+    - S Transpluto → H Transpluto RA 2.0022 2 whole (78.84)
+  - 2 = 360/180 — also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill
+    - J Al Rescha → J Sedna Dec 2.0040 2 whole (64.16)
+  - 3 = 360/120 — also: 1 Protected Guest / Jane Elliott, 2 Supakalanistic / Liam Keniry
+    - J Arcturus → J Haumea Dec 3.0039 3 whole (64.92)
+- **5. same number in more than one place**
+  - 10×φ^5 phi power — also: 4 Trevolli / Kieran O'Neill
+    - S Venus → H Venus RA 110.3759 10×φ^5 phi power (loose)
+    - H Al Rescha → H Saturn RA 110.9394 10×φ^5 phi power (86.85)
+  - 12.2222 ninth — only
+    - S Uranus → H Uranus RA 12.2940 12.2222 ninth (loose)
+    - S Ceres → H Ceres Dec 12.2610 12.2222 ninth (loose)
+  - 2 whole — also: 2 Supakalanistic / Liam Keniry, 4 Trevolli / Kieran O'Neill
+    - S Transpluto → H Transpluto RA 2.0022 2 whole (78.84)
+    - J Al Rescha → J Sedna Dec 2.0040 2 whole (64.16)
+  - 105×φ golden — only
+    - S Rahu → J Rahu RA 169.9115 105×φ golden (loose)
+    - S Ketu → J Ketu RA 169.9115 105×φ golden (loose)
+  - 94×φ golden — only
+    - J Jupiter → J star Ankaa RA 152.0958 94×φ golden (96.49)
+    - J Ankaa → J Jupiter RA 152.0958 94×φ golden (96.49)
+  - 67×φ golden — only
+    - J Jupiter → J star Sadalsuud RA 108.4161 67×φ golden (57.36)
+    - S Sadalsuud → J Jupiter RA 108.4064 67×φ golden (88.96)
+- **6. star and sky line on one body**: none
+- **7. centres meeting**
+  - Saturn: Moon, Sun — also: 1 Protected Guest / Jane Elliott, 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill
+    - [Moon] H Ankaa → H Saturn RA 86.9985 87 whole (85.49)
+    - [Moon] H Arcturus → H Saturn Dec 41.4295 41.4 silver (92.34)
+    - [Sun] S Sun → H Saturn Dec 0.0236 conj (84.90)
+    - [Sun] H Al Rescha → H Saturn RA 110.9394 10×φ^5 phi power (86.85)
+    - [Sun] J Alnilam → J Saturn Dec 7.9843 8 whole (4.65)
+  - Mercury: Jupiter, Moon, Sun — also: 2 Supakalanistic / Liam Keniry
+    - [Jupiter] S Jupiter → J Mercury RA 151.0003 151 whole (96.92)
+    - [Moon] S Moon → H Mercury RA 1.1423 conj (5.69)
+    - [Moon] H Meissa → H Mercury Dec 7.0715 7.07 sqrt2 (97.67)
+    - [Moon] J Ankaa → J Mercury Dec 62.9996 63 whole (95.96)
+    - [Sun] H Al Rescha → H Mercury Dec 0.0997 conj (44.58)
+    - [Sun] J Sadalmelik → J Mercury Dec 21.0166 21 whole (2.93)
+  - Jupiter: Jupiter, Moon, Sun — also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill
+    - [Jupiter] S Vesta → H Jupiter RA 38.8349 24×φ golden (87.28)
+    - [Jupiter] S Gonggong → H Jupiter RA 106.9963 107 whole (66.49)
+    - [Jupiter] S Chiron → J Jupiter Dec 17.9440 φ^6 phi power (99.39)
+    - [Jupiter] S Ceres → J Jupiter RA 158.5614 98×φ golden (66.74)
+    - [Moon] S Chiron → J Jupiter Dec 17.9440 φ^6 phi power (99.39)
+    - [Moon] J Ankaa → J Jupiter RA 152.0958 94×φ golden (96.49)
+    - [Moon] J Arcturus → J Jupiter RA 0.5624 conj (39.07)
+    - [Sun] S Sadalsuud → J Jupiter RA 108.4064 67×φ golden (88.96)
+  - Chiron: Moon, Sun — also: 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill
+    - [Moon] J Arcturus → J Chiron RA 54.0172 54 whole (1.89)
+    - [Sun] H Al Rescha → H Chiron Dec 0.1187 conj (36.53)
+    - [Sun] H Alnilam → H Chiron RA 85.9908 86 whole (29.29)
+    - [Sun] J Menkent → J Chiron RA 51.7714 32×φ golden (68.13)
+    - [Sun] J Sadalsuud → J Chiron RA 162.9958 163 whole (62.06)
+  - Gonggong: Moon, Sun — also: 3 Creationist / Connor Murtagh
+    - [Moon] H Alhena → H Gonggong RA 122.9972 φ^10 phi power (98.28)
+    - [Moon] H Galactic Centre → H Gonggong RA 70.0105 70 whole (22.63)
+    - [Moon] J Arcturus → J Gonggong Dec 38.0105 38 whole (22.54)
+    - [Moon] J Meissa → J Gonggong RA 113.0038 113 whole (65.67)
+    - [Sun] H Menkent → H Gonggong Dec 24.2788 15×φ golden (55.44)
+    - [Sun] H Sadalmelik → H Gonggong RA 4.9871 5 whole (12.47)
+    - [Sun] J Alnilam → J Gonggong RA 113.2727 70×φ golden (46.27)
+    - [Sun] J Sadalmelik → J Gonggong RA 0.6740 conj (30.32)
+  - Uranus: Moon, Sun — also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill
+    - [Moon] H Ankaa → H Uranus RA 19.4108 12×φ golden (68.42)
+    - [Moon] H Arcturus → H Uranus Dec 8.9825 9 whole (1.51)
+    - [Moon] H Meissa → H Uranus Dec 0.2546 conj (2.29)
+    - [Sun] J Menkent → J Uranus RA 84.0118 84 whole (17.00)
+  - Juno: Moon, Sun — also: 1 Protected Guest / Jane Elliott, 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill
+    - [Moon] H Arcturus → H Juno Dec 21.0147 21 whole (7.15)
+    - [Moon] J Meissa → J Juno RA 121.9943 122 whole (51.10)
+    - [Sun] S Juno → J Juno Dec 13.2693 13.3333 ninth (loose)
+    - [Sun] J Sadalmelik → J Juno Dec 0.0313 conj (80.22)
+  - Haumea: Moon, Sun — also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill
+    - [Moon] H Arcturus → H Haumea RA 0.5982 conj (36.15)
+    - [Moon] J Arcturus → J Haumea Dec 3.0039 3 whole (64.92)
+    - [Sun] H Sadalmelik → H Haumea RA 118.1261 73×φ golden (49.52)
+  - Orcus: Moon, Sun — also: 1 Protected Guest / Jane Elliott
+    - [Moon] H Arcturus → H Orcus Dec 29.0304 φ^7 phi power (94.44)
+    - [Moon] J Meissa → J Orcus Dec 8.0139 8 whole (9.38)
+    - [Sun] H Sadalmelik → H Orcus RA 178.9827 179 whole (1.82)
+  - Sun: Moon, Sun — also: 1 Protected Guest / Jane Elliott, 3 Creationist / Connor Murtagh
+    - [Moon] H Meissa → H Sun Dec 2.0138 2 whole (9.63)
+    - [Moon] J Alhena → J Sun RA 34.9928 35 whole (40.88)
+    - [Moon] J Ankaa → J Sun RA 127.8414 79×φ golden (23.51)
+    - [Moon] J Arcturus → J Sun Dec 1.9830 2 whole (2.23)
+    - [Moon] J Galactic Centre → J Sun RA 132.0053 132 whole (53.79)
+    - [Sun] J Al Rescha → J Sun Dec 14.4406 14.4444 ninth (95.93)
+    - [Sun] J Sadalsuud → J Sun RA 171.5210 106×φ golden (50.38)
+  - Ketu: Moon, Sun — also: 1 Protected Guest / Jane Elliott, 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill
+    - [Moon] H Meissa → H Ketu RA 129.0066 129 whole (45.15)
+    - [Moon] J Arcturus → J Ketu Dec 1.3335 1.33333 ninth (98.07)
+    - [Sun] H Sadalmelik → H Ketu RA 16.6672 16.6667 ninth (99.55)

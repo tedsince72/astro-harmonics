@@ -11,7 +11,8 @@ Paste this at the start of the new chat. Everything needed is here; nothing depe
 2. Copy both uploads into `reference/classic/` under their race_batch names.
 3. Run: `python3 tools/eddie_read.py reference/classic/race_batch_<yyyymmdd>_<course>_<hhmm>_jupiter_tables.xlsx --out docs/eddie_read`
    It writes `docs/eddie_read/race_batch_<...>_eddie_read.md` (+ `.json`).
-4. Send Eddie the `.md` file. That report is the starting place and the only source for the read.
+4. Run stage 2: `python3 tools/eddie_layers.py docs/eddie_read/race_batch_<...>_eddie_read.json` (writes `_layers.md`).
+5. Send Eddie both `.md` files. The two reports are the starting place and the only source for the read.
 
 ## How to read
 Follow `claude/race-read-instruction.md` (repo: `docs/eddie_read/RACE_READ_INSTRUCTION.md`) step by step: Eddie's order (same body first, then sky Jupiter, Sun, Moon, MATCH, T1 / T2, T24 top rows, T24 star rows), then the relationship search, then the read. No counts.

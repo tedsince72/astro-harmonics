@@ -1,0 +1,1777 @@
+# Stage 2 layers: race_batch_20220110_ludlow_1515_jupiter_tables.xlsx
+Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_layers.py).
+
+## L0 field
+- In the tables workbook (7): 1 Java Point / Jonathan Burke; 2 Isolate / Liam Harrison; 3 Une De La Seniere / Paddy Brennan; 4 Wildfire Warrior / Tom O'Brien; 5 Jimmy The Digger / Richard Patrick; 6 Method Madness / Alex Edwards; 7 Fanamix / Ben Jones
+- _active.xlsx not found: runners not checked against it
+- Cloth numbers not in the tables workbook: none
+
+## Sky (noted lines)
+- S Jupiter → Pallas Dec 0.0263 conj (83.23)
+- S Jupiter → Gonggong Dec 0.1496 conj (25.13)
+- S Jupiter → Transpluto RA 179.4560 10×φ^6 phi power (97.05)
+- S Jupiter → Denebola Dec 26.1830 10×φ^2 phi power (95.96)
+- S Jupiter → Vindemiatrix RA 138.9961 139 whole (64.46)
+- S Jupiter → Ras Algethi Dec 26.0029 26 whole (73.41)
+- S Jupiter → Rukbat Dec 29.0037 29 whole (66.42)
+- S Sun → Saturn Dec 4.1426 4.14 silver (96.70)
+- S Sun → Pallas RA 61.0023 61 whole (78.49)
+- S Sun → Juno RA 0.4578 conj (48.28)
+- S Sun → Rukbat RA 0.7240 conj (26.77)
+- S Sun → Altair RA 6.0052 6 whole (54.90)
+- S Moon → Pluto Dec 31.0058 31 whole (50.26)
+- S Moon → Juno RA 98.0009 98 whole (91.15)
+- S Moon → Ankaa RA 22.6600 14×φ golden (59.07)
+- S Moon → Al Rescha RA 1.2818 conj (2.12)
+- S Moon → Alphard Dec 16.9991 17 whole (91.06)
+- S Moon → Alphecca RA 155.5623 155.556 ninth (99.36)
+- S Moon → Vega RA 110.0023 110 whole (78.36)
+- Hubs: Juno, Pallas, Rukbat
+
+## 1 Java Point / Jonathan Burke
+### L1 same bodies
+- S Mercury → H Mercury Dec 40.4795 25×φ golden (loose)
+- S Jupiter → H Jupiter RA 161.3070 100×φ^1 phi power (loose)
+- S Chiron → H Chiron RA 17.7307 17.7778 ninth (loose)
+- S Juno → H Juno RA 160.0061 160 whole (48.59)
+- S Rahu → H Rahu Dec 24.0000 24 whole (99.82)
+- S Eris → H Eris Dec 1.3398 1.33333 ninth (loose)
+- S Ketu → H Ketu Dec 24.0000 24 whole (99.82)
+- S Uranus → J Uranus RA 97.0647 60×φ golden (loose)
+- S Neptune → J Neptune RA 55.5263 55.5556 ninth (loose)
+- S Juno → J Juno RA 1.1134 1.11111 ninth (loose)
+- S Rahu → J Rahu RA 144.1936 144.444 ninth (loose)
+- S Sedna → J Sedna RA 13.9930 14 whole (42.49)
+- S Makemake → J Makemake Dec 11.1623 11.1111 ninth (loose)
+- S Orcus → J Orcus RA 22.0024 22 whole (77.84)
+- S Quaoar → J Quaoar RA 33.9670 21×φ golden (loose)
+- S Quaoar → J Quaoar Dec 0.9828 1 whole (2.00)
+- S Gonggong → J Gonggong RA 5.9844 6 whole (4.87)
+- S Ketu → J Ketu RA 144.1936 144.444 ninth (loose)
+### L2 what lands on each same body
+- **H Mercury** (same body: S Mercury → H Mercury Dec 40.4795 25×φ golden (loose))
+  - other chart, star rows: J Denebola → J Mercury Dec 39.0126 39 whole (13.60) [Jupiter]
+  - other chart, star rows: J Ras Algethi → J Mercury Dec 38.8319 24×φ golden (94.25) [Jupiter]
+- **H Jupiter** (same body: S Jupiter → H Jupiter RA 161.3070 100×φ^1 phi power (loose))
+  - top rows: S Mars → H Jupiter RA 122.9007 φ^10 phi power (72.56) [Jupiter]
+  - top rows: S Eris → H Jupiter RA 110.0342 68×φ golden (57.33) [Jupiter]
+  - star rows: S Al Rescha → H Jupiter Dec 15.0041 15 whole (63.40) [Moon]
+  - star rows: S Altair → H Jupiter RA 161.8476 100×φ^1 phi power (89.36) [Sun]
+  - star rows: H Denebola → H Jupiter RA 41.4208 41.4 silver (99.50) [Jupiter]
+  - star rows: H Vega → H Jupiter Dec 21.0134 21 whole (10.80) [Moon]
+  - other chart, top rows: S Venus → J Jupiter Dec 5.9981 6 whole (81.81) [Jupiter]
+  - other chart, top rows: S Mars → J Jupiter Dec 0.1142 conj (38.36) [Jupiter]
+- **H Chiron** (same body: S Chiron → H Chiron RA 17.7307 17.7778 ninth (loose))
+  - other chart, star rows: J Ras Algethi → J Chiron Dec 22.0111 22 whole (19.65) [Jupiter]
+  - other chart, star rows: J Rukbat → J Chiron Dec 32.9959 33 whole (63.21) [Jupiter, Sun]
+- **H Juno** (same body: S Juno → H Juno RA 160.0061 160 whole (48.59))
+  - body line: S Sun → Juno RA 0.4578 conj (48.28)
+  - body line: S Moon → Juno RA 98.0009 98 whole (91.15)
+  - star rows: H Vega → H Juno RA 148.0151 148 whole (6.08) [Moon]
+  - star rows: H Vega → H Juno Dec 24.9868 25 whole (11.44) [Moon]
+  - other chart, same body: S Juno → J Juno RA 1.1134 1.11111 ninth (loose)
+  - other chart, top rows: S Sun → J Juno RA 0.6556 conj (31.69) [Sun]
+  - other chart, star rows: J Rukbat → J Juno RA 1.3795 conj (0.65) [Jupiter, Sun]
+- **H Rahu** (same body: S Rahu → H Rahu Dec 24.0000 24 whole (99.82))
+  - star rows: H Alphard → H Rahu RA 46.9232 29×φ golden (98.89) [Moon]
+  - star rows: H Ankaa → H Rahu RA 177.7456 177.778 ninth (97.48) [Moon]
+  - other chart, same body: S Rahu → J Rahu RA 144.1936 144.444 ninth (loose)
+  - other chart, star rows: J Ankaa → J Rahu Dec 32.9845 33 whole (5.11) [Moon]
+  - other chart, star rows: J Denebola → J Rahu RA 24.9890 25 whole (20.29) [Jupiter]
+- **H Eris** (same body: S Eris → H Eris Dec 1.3398 1.33333 ninth (loose))
+  - other chart, star rows: J Ankaa → J Eris RA 16.0157 16 whole (4.53) [Moon]
+  - other chart, star rows: J Vega → J Eris Dec 46.9810 47 whole (0.23) [Moon]
+- **H Ketu** (same body: S Ketu → H Ketu Dec 24.0000 24 whole (99.82))
+  - other chart, same body: S Ketu → J Ketu RA 144.1936 144.444 ninth (loose)
+  - other chart, star rows: J Alphard → J Ketu Dec 17.9830 18 whole (2.24) [Moon]
+  - other chart, star rows: J Denebola → J Ketu RA 155.0110 155 whole (20.29) [Jupiter]
+- **J Uranus** (same body: S Uranus → J Uranus RA 97.0647 60×φ golden (loose))
+  - other chart, star rows: H Alphard → H Uranus Dec 14.9871 15 whole (12.65) [Moon]
+- **J Neptune** (same body: S Neptune → J Neptune RA 55.5263 55.5556 ninth (loose))
+  - star rows: J Altair → J Neptune RA 1.4481 conj (0.12) [Sun]
+  - star rows: J Vega → J Neptune RA 17.0148 17 whole (6.81) [Moon]
+  - other chart, star rows: H Alphard → H Neptune Dec 0.1916 conj (13.05) [Moon]
+  - other chart, star rows: H Rukbat → H Neptune RA 50.0154 50 whole (5.18) [Jupiter, Sun]
+- **J Juno** (same body: S Juno → J Juno RA 1.1134 1.11111 ninth (loose))
+  - body line: S Sun → Juno RA 0.4578 conj (48.28)
+  - body line: S Moon → Juno RA 98.0009 98 whole (91.15)
+  - top rows: S Sun → J Juno RA 0.6556 conj (31.69) [Sun]
+  - star rows: J Rukbat → J Juno RA 1.3795 conj (0.65) [Jupiter, Sun]
+  - other chart, same body: S Juno → H Juno RA 160.0061 160 whole (48.59)
+  - other chart, star rows: H Vega → H Juno RA 148.0151 148 whole (6.08) [Moon]
+  - other chart, star rows: H Vega → H Juno Dec 24.9868 25 whole (11.44) [Moon]
+- **J Rahu** (same body: S Rahu → J Rahu RA 144.1936 144.444 ninth (loose))
+  - star rows: J Ankaa → J Rahu Dec 32.9845 33 whole (5.11) [Moon]
+  - star rows: J Denebola → J Rahu RA 24.9890 25 whole (20.29) [Jupiter]
+  - other chart, same body: S Rahu → H Rahu Dec 24.0000 24 whole (99.82)
+  - other chart, star rows: H Alphard → H Rahu RA 46.9232 29×φ golden (98.89) [Moon]
+  - other chart, star rows: H Ankaa → H Rahu RA 177.7456 177.778 ninth (97.48) [Moon]
+- **J Sedna** (same body: S Sedna → J Sedna RA 13.9930 14 whole (42.49))
+  - other chart, top rows: S Jupiter → H Sedna Dec 19.0004 19 whole (95.90) [Jupiter]
+  - other chart, star rows: H Ras Algethi → H Sedna Dec 7.0013 7 whole (87.02) [Jupiter]
+  - other chart, star rows: H Rukbat → H Sedna Dec 48.0012 48 whole (88.51) [Jupiter, Sun]
+- **J Makemake** (same body: S Makemake → J Makemake Dec 11.1623 11.1111 ninth (loose))
+  - star rows: J Alphard → J Makemake Dec 42.0059 42 whole (49.42) [Moon]
+  - star rows: J Denebola → J Makemake RA 0.8462 conj (19.00) [Jupiter]
+  - other chart, star rows: H Al Rescha → H Makemake RA 161.8679 100×φ^1 phi power (84.69) [Moon]
+  - other chart, star rows: H Ras Algethi → H Makemake Dec 11.9823 12 whole (1.35) [Jupiter]
+  - other chart, star rows: H Rukbat → H Makemake Dec 66.9848 67 whole (5.88) [Jupiter, Sun]
+- **J Orcus** (same body: S Orcus → J Orcus RA 22.0024 22 whole (77.84))
+  - star rows: J Denebola → J Orcus Dec 14.1497 14.14 sqrt2 (79.72) [Jupiter]
+  - other chart, star rows: H Alphecca → H Orcus Dec 34.9879 35 whole (15.46) [Moon]
+- **J Quaoar** (same body: S Quaoar → J Quaoar RA 33.9670 21×φ golden (loose); S Quaoar → J Quaoar Dec 0.9828 1 whole (2.00))
+  - star rows: J Rukbat → J Quaoar RA 49.0084 49 whole (33.41) [Jupiter, Sun]
+  - other chart, star rows: H Alphecca → H Quaoar RA 33.9737 21×φ golden (71.35) [Moon]
+  - other chart, star rows: H Ras Algethi → H Quaoar RA 8.9858 9 whole (8.37) [Jupiter]
+- **J Gonggong** (same body: S Gonggong → J Gonggong RA 5.9844 6 whole (4.87))
+  - body line: S Jupiter → Gonggong Dec 0.1496 conj (25.13)
+  - other chart, top rows: S Jupiter → H Gonggong RA 1.4093 conj (0.37) [Jupiter]
+- **J Ketu** (same body: S Ketu → J Ketu RA 144.1936 144.444 ninth (loose))
+  - star rows: J Alphard → J Ketu Dec 17.9830 18 whole (2.24) [Moon]
+  - star rows: J Denebola → J Ketu RA 155.0110 155 whole (20.29) [Jupiter]
+  - other chart, same body: S Ketu → H Ketu Dec 24.0000 24 whole (99.82)
+### L3 the seven cases (L5 field tag on each)
+- **1. same body on both charts**
+  - Juno — also: 3 Une De La Seniere / Paddy Brennan
+    - S Juno → H Juno RA 160.0061 160 whole (48.59)
+    - S Juno → J Juno RA 1.1134 1.11111 ninth (loose)
+  - Rahu — only
+    - S Rahu → H Rahu Dec 24.0000 24 whole (99.82)
+    - S Rahu → J Rahu RA 144.1936 144.444 ninth (loose)
+  - Ketu — only
+    - S Ketu → H Ketu Dec 24.0000 24 whole (99.82)
+    - S Ketu → J Ketu RA 144.1936 144.444 ninth (loose)
+- **2. one body in both planes**
+  - J Quaoar — only
+    - S Quaoar → J Quaoar RA 33.9670 21×φ golden (loose)
+    - S Quaoar → J Quaoar Dec 0.9828 1 whole (2.00)
+- **3. runner number = sky number**
+  - 17 whole — also: 2 Isolate / Liam Harrison, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+    - H Rukbat → H Ceres Dec 16.9939 17 whole (48.62) = S Moon → Alphard Dec 16.9991 17 whole (91.06)
+  - 6 whole — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien
+    - S Gonggong → J Gonggong RA 5.9844 6 whole (4.87) = S Sun → Altair RA 6.0052 6 whole (54.90)
+  - 6 whole — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien
+    - S Venus → J Jupiter Dec 5.9981 6 whole (81.81) = S Sun → Altair RA 6.0052 6 whole (54.90)
+  - 31 whole — also: 7 Fanamix / Ben Jones
+    - J Alphecca → J Pallas Dec 31.0165 31 whole (3.14) = S Moon → Pluto Dec 31.0058 31 whole (50.26)
+  - 17 whole — also: 2 Isolate / Liam Harrison, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+    - J Vega → J Neptune RA 17.0148 17 whole (6.81) = S Moon → Alphard Dec 16.9991 17 whole (91.06)
+- **4. circle divisions**
+  - 24 = 360/15 — also: 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
+    - S Rahu → H Rahu Dec 24.0000 24 whole (99.82)
+  - 24 = 360/15 — also: 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
+    - S Ketu → H Ketu Dec 24.0000 24 whole (99.82)
+  - 15 = 360/24 — also: 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones
+    - H Jupiter → H star Al Rescha Dec 15.0054 15 whole (53.59)
+  - 15 = 360/24 — also: 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones
+    - S Al Rescha → H Jupiter Dec 15.0041 15 whole (63.40)
+  - 1 = 360/360 — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick
+    - S Quaoar → J Quaoar Dec 0.9828 1 whole (2.00)
+  - 6 = 360/60 — also: 4 Wildfire Warrior / Tom O'Brien
+    - S Gonggong → J Gonggong RA 5.9844 6 whole (4.87)
+  - 6 = 360/60 — also: 4 Wildfire Warrior / Tom O'Brien
+    - S Venus → J Jupiter Dec 5.9981 6 whole (81.81)
+  - 36 = 360/10 — also: 5 Jimmy The Digger / Richard Patrick
+    - J Denebola → J Venus Dec 36.0045 36 whole (59.70)
+  - 1 = 360/360 — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick
+    - J Ras Algethi → J Transpluto Dec 0.9959 1 whole (63.29)
+- **5. same number in more than one place**
+  - 100×φ^1 phi power — also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick
+    - S Jupiter → H Jupiter RA 161.3070 100×φ^1 phi power (loose)
+    - H Jupiter → H star Altair RA 161.8536 100×φ^1 phi power (87.96)
+    - H Al Rescha → H Makemake RA 161.8679 100×φ^1 phi power (84.69)
+    - S Altair → H Jupiter RA 161.8476 100×φ^1 phi power (89.36)
+  - 24 whole — only
+    - S Rahu → H Rahu Dec 24.0000 24 whole (99.82)
+    - S Ketu → H Ketu Dec 24.0000 24 whole (99.82)
+  - 15 whole — only
+    - H Jupiter → H star Al Rescha Dec 15.0054 15 whole (53.59)
+    - S Al Rescha → H Jupiter Dec 15.0041 15 whole (63.40)
+  - 41.4 silver — only
+    - H Jupiter → H star Denebola RA 41.4208 41.4 silver (99.50)
+    - H Denebola → H Jupiter RA 41.4208 41.4 silver (99.50)
+  - 7 whole — only
+    - S Jupiter → H Saturn Dec 7.0037 7 whole (66.39)
+    - H Ras Algethi → H Sedna Dec 7.0013 7 whole (87.02)
+  - 144.444 ninth — also: 7 Fanamix / Ben Jones
+    - H Alphard → H Pluto RA 144.4420 144.444 ninth (99.74)
+    - S Rahu → J Rahu RA 144.1936 144.444 ninth (loose)
+    - S Ketu → J Ketu RA 144.1936 144.444 ninth (loose)
+  - 21×φ golden — only
+    - H Alphecca → H Quaoar RA 33.9737 21×φ golden (71.35)
+    - S Quaoar → J Quaoar RA 33.9670 21×φ golden (loose)
+  - 11.1111 ninth — only
+    - H Ras Algethi → H Venus Dec 11.1103 11.1111 ninth (98.75)
+    - S Makemake → J Makemake Dec 11.1623 11.1111 ninth (loose)
+  - 33 whole — only
+    - H Ras Algethi → H Saturn Dec 33.0055 33 whole (52.84)
+    - J Rukbat → J Chiron Dec 32.9959 33 whole (63.21)
+  - 22 whole — only
+    - H Rukbat → H Saturn Dec 21.9971 22 whole (72.81)
+    - S Orcus → J Orcus RA 22.0024 22 whole (77.84)
+  - 14 whole — also: 7 Fanamix / Ben Jones
+    - S Sedna → J Sedna RA 13.9930 14 whole (42.49)
+    - J Altair → J Vesta Dec 13.9962 14 whole (66.02)
+  - 1 whole — also: 3 Une De La Seniere / Paddy Brennan
+    - S Quaoar → J Quaoar Dec 0.9828 1 whole (2.00)
+    - J Ras Algethi → J Transpluto Dec 0.9959 1 whole (63.29)
+  - 6 whole — only
+    - S Gonggong → J Gonggong RA 5.9844 6 whole (4.87)
+    - S Venus → J Jupiter Dec 5.9981 6 whole (81.81)
+- **6. star and sky line on one body**: none
+- **7. centres meeting**
+  - Juno: Jupiter, Moon, Sun — also: 3 Une De La Seniere / Paddy Brennan, 7 Fanamix / Ben Jones
+    - [Jupiter] J Rukbat → J Juno RA 1.3795 conj (0.65)
+    - [Moon] S Juno → H Juno RA 160.0061 160 whole (48.59)
+    - [Moon] H Vega → H Juno RA 148.0151 148 whole (6.08)
+    - [Moon] H Vega → H Juno Dec 24.9868 25 whole (11.44)
+    - [Moon] S Juno → J Juno RA 1.1134 1.11111 ninth (loose)
+    - [Sun] S Juno → H Juno RA 160.0061 160 whole (48.59)
+    - [Sun] S Juno → J Juno RA 1.1134 1.11111 ninth (loose)
+    - [Sun] S Sun → J Juno RA 0.6556 conj (31.69)
+    - [Sun] J Rukbat → J Juno RA 1.3795 conj (0.65)
+  - Pallas: Jupiter, Moon, Sun — also: 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
+    - [Jupiter] H Jupiter → H Pallas RA 134.0055 134 whole (52.59)
+    - [Moon] J Alphecca → J Pallas Dec 31.0165 31 whole (3.14)
+    - [Moon] J Ankaa → J Pallas Dec 38.0062 38 whole (47.67)
+    - [Sun] H Altair → H Pallas Dec 11.9856 12 whole (7.92)
+  - Saturn: Jupiter, Moon, Sun — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards
+    - [Jupiter] S Jupiter → H Saturn Dec 7.0037 7 whole (66.39)
+    - [Jupiter] H Ras Algethi → H Saturn Dec 33.0055 33 whole (52.84)
+    - [Jupiter] H Rukbat → H Saturn Dec 21.9971 22 whole (72.81)
+    - [Jupiter] J Ras Algethi → J Saturn RA 92.0108 92 whole (21.22)
+    - [Moon] J Alphecca → J Saturn RA 117.0002 117 whole (98.00)
+    - [Sun] H Rukbat → H Saturn Dec 21.9971 22 whole (72.81)
+  - Sedna: Jupiter, Sun — only
+    - [Jupiter] S Jupiter → H Sedna Dec 19.0004 19 whole (95.90)
+    - [Jupiter] H Ras Algethi → H Sedna Dec 7.0013 7 whole (87.02)
+    - [Jupiter] H Rukbat → H Sedna Dec 48.0012 48 whole (88.51)
+    - [Sun] H Rukbat → H Sedna Dec 48.0012 48 whole (88.51)
+  - Venus: Jupiter, Moon, Sun — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan
+    - [Jupiter] H Ras Algethi → H Venus Dec 11.1103 11.1111 ninth (98.75)
+    - [Jupiter] H Vindemiatrix → H Venus RA 115.0022 115 whole (78.83)
+    - [Jupiter] J Denebola → J Venus Dec 36.0045 36 whole (59.70)
+    - [Moon] J Alphard → J Venus RA 162.9987 163 whole (87.24)
+    - [Sun] S Sun → H Venus RA 148.8573 92×φ golden (89.17)
+  - Jupiter: Jupiter, Moon, Sun — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+    - [Jupiter] S Mars → H Jupiter RA 122.9007 φ^10 phi power (72.56)
+    - [Jupiter] S Eris → H Jupiter RA 110.0342 68×φ golden (57.33)
+    - [Jupiter] H Denebola → H Jupiter RA 41.4208 41.4 silver (99.50)
+    - [Jupiter] S Venus → J Jupiter Dec 5.9981 6 whole (81.81)
+    - [Jupiter] S Mars → J Jupiter Dec 0.1142 conj (38.36)
+    - [Moon] S Al Rescha → H Jupiter Dec 15.0041 15 whole (63.40)
+    - [Moon] H Vega → H Jupiter Dec 21.0134 21 whole (10.80)
+    - [Sun] S Altair → H Jupiter RA 161.8476 100×φ^1 phi power (89.36)
+  - Ceres: Jupiter, Moon, Sun — also: 3 Une De La Seniere / Paddy Brennan
+    - [Jupiter] H Ras Algethi → H Ceres Dec 38.0086 38 whole (32.60)
+    - [Jupiter] H Rukbat → H Ceres Dec 16.9939 17 whole (48.62)
+    - [Jupiter] S Jupiter → J Ceres Dec 0.2592 conj (1.85)
+    - [Moon] H Al Rescha → H Ceres RA 80.9064 50×φ golden (72.80)
+    - [Sun] H Rukbat → H Ceres Dec 16.9939 17 whole (48.62)
+  - Makemake: Jupiter, Moon, Sun — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones
+    - [Jupiter] H Ras Algethi → H Makemake Dec 11.9823 12 whole (1.35)
+    - [Jupiter] H Rukbat → H Makemake Dec 66.9848 67 whole (5.88)
+    - [Jupiter] J Denebola → J Makemake RA 0.8462 conj (19.00)
+    - [Moon] H Al Rescha → H Makemake RA 161.8679 100×φ^1 phi power (84.69)
+    - [Moon] J Alphard → J Makemake Dec 42.0059 42 whole (49.42)
+    - [Sun] H Rukbat → H Makemake Dec 66.9848 67 whole (5.88)
+  - Neptune: Jupiter, Moon, Sun — also: 3 Une De La Seniere / Paddy Brennan
+    - [Jupiter] H Rukbat → H Neptune RA 50.0154 50 whole (5.18)
+    - [Moon] H Alphard → H Neptune Dec 0.1916 conj (13.05)
+    - [Moon] J Vega → J Neptune RA 17.0148 17 whole (6.81)
+    - [Sun] H Rukbat → H Neptune RA 50.0154 50 whole (5.18)
+    - [Sun] J Altair → J Neptune RA 1.4481 conj (0.12)
+  - Rahu: Jupiter, Moon — also: 2 Isolate / Liam Harrison, 4 Wildfire Warrior / Tom O'Brien
+    - [Jupiter] J Denebola → J Rahu RA 24.9890 25 whole (20.29)
+    - [Moon] H Alphard → H Rahu RA 46.9232 29×φ golden (98.89)
+    - [Moon] H Ankaa → H Rahu RA 177.7456 177.778 ninth (97.48)
+    - [Moon] J Ankaa → J Rahu Dec 32.9845 33 whole (5.11)
+  - Orcus: Jupiter, Moon — also: 5 Jimmy The Digger / Richard Patrick, 7 Fanamix / Ben Jones
+    - [Jupiter] J Denebola → J Orcus Dec 14.1497 14.14 sqrt2 (79.72)
+    - [Moon] H Alphecca → H Orcus Dec 34.9879 35 whole (15.46)
+  - Quaoar: Jupiter, Moon, Sun — also: 3 Une De La Seniere / Paddy Brennan, 6 Method Madness / Alex Edwards
+    - [Jupiter] H Ras Algethi → H Quaoar RA 8.9858 9 whole (8.37)
+    - [Jupiter] J Rukbat → J Quaoar RA 49.0084 49 whole (33.41)
+    - [Moon] H Alphecca → H Quaoar RA 33.9737 21×φ golden (71.35)
+    - [Sun] J Rukbat → J Quaoar RA 49.0084 49 whole (33.41)
+  - Transpluto: Jupiter, Sun — also: 6 Method Madness / Alex Edwards
+    - [Jupiter] J Ras Algethi → J Transpluto Dec 0.9959 1 whole (63.29)
+    - [Jupiter] J Rukbat → J Transpluto Dec 54.0111 54 whole (19.70)
+    - [Sun] H Altair → H Transpluto RA 145.6521 90×φ golden (1.03)
+    - [Sun] S Sun → J Transpluto RA 144.9975 145 whole (76.26)
+    - [Sun] J Altair → J Transpluto RA 150.9992 151 whole (92.00)
+    - [Sun] J Rukbat → J Transpluto Dec 54.0111 54 whole (19.70)
+  - Sun: Jupiter, Moon — also: 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards
+    - [Jupiter] H Denebola → H Sun Dec 0.1201 conj (35.94)
+    - [Jupiter] J Denebola → J Sun Dec 38.0070 38 whole (42.34)
+    - [Moon] H Ankaa → H Sun Dec 56.9977 57 whole (78.47)
+    - [Moon] J Alphard → J Sun RA 129.4417 80×φ golden (93.72)
+  - Haumea: Jupiter, Moon, Sun — only
+    - [Jupiter] J Ras Algethi → J Haumea Dec 6.9864 7 whole (10.11)
+    - [Jupiter] J Rukbat → J Haumea Dec 61.9934 62 whole (44.85)
+    - [Moon] H Vega → H Haumea RA 69.0158 69 whole (4.33)
+    - [Sun] J Rukbat → J Haumea Dec 61.9934 62 whole (44.85)
+  - Vesta: Jupiter, Sun — also: 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+    - [Jupiter] H Vindemiatrix → H Vesta RA 152.0808 94×φ golden (30.76)
+    - [Sun] J Altair → J Vesta Dec 13.9962 14 whole (66.02)
+  - Ketu: Jupiter, Moon — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien
+    - [Jupiter] J Denebola → J Ketu RA 155.0110 155 whole (20.29)
+    - [Moon] J Alphard → J Ketu Dec 17.9830 18 whole (2.24)
+  - Chiron: Jupiter, Sun — also: 4 Wildfire Warrior / Tom O'Brien
+    - [Jupiter] J Ras Algethi → J Chiron Dec 22.0111 22 whole (19.65)
+    - [Jupiter] J Rukbat → J Chiron Dec 32.9959 33 whole (63.21)
+    - [Sun] J Rukbat → J Chiron Dec 32.9959 33 whole (63.21)
+
+## 2 Isolate / Liam Harrison
+### L1 same bodies
+- S Venus → H Venus RA 68.5072 10×φ^4 phi power (loose)
+- S Venus → H Venus Dec 14.1253 14.14 sqrt2 (loose)
+- S Mars → H Mars RA 13.0298 13 whole (loose)
+- S Jupiter → H Jupiter Dec 18.8540 18.8889 ninth (loose)
+- S Orcus → H Orcus RA 6.4776 4×φ golden (loose)
+- S Transpluto → H Transpluto Dec 0.9718 1 whole (loose)
+- S Mercury → J Mercury RA 116.4866 72×φ golden (40.15)
+- S Venus → J Venus Dec 42.0895 26×φ golden (loose)
+- S Pluto → J Pluto Dec 9.9884 10 whole (17.66)
+- S Ceres → J Ceres Dec 26.0272 26 whole (loose)
+- S Vesta → J Vesta RA 177.0189 177 whole (0.30)
+- S Rahu → J Rahu RA 18.8347 18.8889 ninth (loose)
+- S Makemake → J Makemake RA 18.8750 18.8889 ninth (loose)
+- S Quaoar → J Quaoar RA 26.0216 26 whole (loose)
+- S Ketu → J Ketu RA 18.8347 18.8889 ninth (loose)
+### L2 what lands on each same body
+- **H Venus** (same body: S Venus → H Venus RA 68.5072 10×φ^4 phi power (loose); S Venus → H Venus Dec 14.1253 14.14 sqrt2 (loose))
+  - star rows: H Altair → H Venus RA 59.0040 59 whole (64.40) [Sun]
+  - star rows: H Denebola → H Venus RA 179.4332 10×φ^6 phi power (97.90) [Jupiter]
+  - star rows: H Vindemiatrix → H Venus Dec 13.9939 14 whole (48.40) [Jupiter]
+  - other chart, same body: S Venus → J Venus Dec 42.0895 26×φ golden (loose)
+  - other chart, star rows: J Ankaa → J Venus RA 82.0001 82 whole (98.70) [Moon]
+  - other chart, star rows: J Vindemiatrix → J Venus RA 106.9809 107 whole (0.22) [Jupiter]
+- **H Mars** (same body: S Mars → H Mars RA 13.0298 13 whole (loose))
+  - star rows: H Altair → H Mars RA 51.9802 52 whole (0.01) [Sun]
+  - star rows: H Ras Algethi → H Mars RA 12.9473 8×φ golden (82.04) [Jupiter]
+- **H Jupiter** (same body: S Jupiter → H Jupiter Dec 18.8540 18.8889 ninth (loose))
+  - top rows: S Ceres → H Jupiter RA 110.9953 10×φ^5 phi power (69.09) [Jupiter]
+  - top rows: S Sedna → H Jupiter RA 108.4030 67×φ golden (69.80) [Jupiter]
+- **H Orcus** (same body: S Orcus → H Orcus RA 6.4776 4×φ golden (loose))
+- **H Transpluto** (same body: S Transpluto → H Transpluto Dec 0.9718 1 whole (loose))
+  - body line: S Jupiter → Transpluto RA 179.4560 10×φ^6 phi power (97.05)
+  - star rows: H Al Rescha → H Transpluto RA 121.9910 122 whole (30.29) [Moon]
+  - star rows: H Alphard → H Transpluto Dec 19.9828 20 whole (2.03) [Moon]
+- **J Mercury** (same body: S Mercury → J Mercury RA 116.4866 72×φ golden (40.15))
+  - star rows: J Alphecca → J Mercury RA 165.9984 166 whole (84.40) [Moon]
+  - star rows: J Altair → J Mercury RA 129.9806 130 whole (0.08) [Sun]
+  - star rows: J Ras Algethi → J Mercury RA 169.0125 169 whole (14.08) [Jupiter]
+  - other chart, star rows: H Altair → H Mercury Dec 0.2886 conj (0.14) [Sun]
+- **J Venus** (same body: S Venus → J Venus Dec 42.0895 26×φ golden (loose))
+  - star rows: J Ankaa → J Venus RA 82.0001 82 whole (98.70) [Moon]
+  - star rows: J Vindemiatrix → J Venus RA 106.9809 107 whole (0.22) [Jupiter]
+  - other chart, same body: S Venus → H Venus RA 68.5072 10×φ^4 phi power (loose)
+  - other chart, same body: S Venus → H Venus Dec 14.1253 14.14 sqrt2 (loose)
+  - other chart, star rows: H Altair → H Venus RA 59.0040 59 whole (64.40) [Sun]
+  - other chart, star rows: H Denebola → H Venus RA 179.4332 10×φ^6 phi power (97.90) [Jupiter]
+  - other chart, star rows: H Vindemiatrix → H Venus Dec 13.9939 14 whole (48.40) [Jupiter]
+- **J Pluto** (same body: S Pluto → J Pluto Dec 9.9884 10 whole (17.66))
+  - body line: S Moon → Pluto Dec 31.0058 31 whole (50.26)
+  - T2: J Jupiter → J Pluto Dec 35.5996 22×φ golden (83.18) [Jupiter]
+  - star rows: J Alphard → J Pluto Dec 4.0165 4 whole (3.15) [Moon]
+  - other chart, star rows: H Denebola → H Pluto RA 111.1690 111.111 ninth (90.52) [Jupiter]
+- **J Ceres** (same body: S Ceres → J Ceres Dec 26.0272 26 whole (loose))
+  - star rows: J Ankaa → J Ceres RA 1.4432 conj (0.14) [Moon]
+- **J Vesta** (same body: S Vesta → J Vesta RA 177.0189 177 whole (0.30))
+  - star rows: J Ankaa → J Vesta RA 85.7531 53×φ golden (84.02) [Moon]
+  - other chart, star rows: H Ras Algethi → H Vesta RA 140.7790 87×φ golden (47.36) [Jupiter]
+  - other chart, star rows: H Vindemiatrix → H Vesta Dec 0.0606 conj (63.66) [Jupiter]
+- **J Rahu** (same body: S Rahu → J Rahu RA 18.8347 18.8889 ninth (loose))
+  - T2: J Jupiter → J Rahu Dec 0.0303 conj (80.80) [Jupiter]
+  - star rows: J Alphard → J Rahu RA 65.0000 65 whole (99.58) [Moon]
+- **J Makemake** (same body: S Makemake → J Makemake RA 18.8750 18.8889 ninth (loose))
+  - other chart, star rows: H Alphard → H Makemake RA 51.7718 32×φ golden (69.90) [Moon]
+  - other chart, star rows: H Alphecca → H Makemake RA 40.0051 40 whole (55.19) [Moon]
+  - other chart, star rows: H Ras Algethi → H Makemake RA 64.9923 65 whole (37.57) [Jupiter]
+- **J Quaoar** (same body: S Quaoar → J Quaoar RA 26.0216 26 whole (loose))
+  - star rows: J Alphard → J Quaoar RA 108.0052 108 whole (54.53) [Moon]
+- **J Ketu** (same body: S Ketu → J Ketu RA 18.8347 18.8889 ninth (loose))
+  - star rows: J Alphard → J Ketu RA 115.0000 115 whole (99.58) [Moon]
+  - star rows: J Ankaa → J Ketu Dec 19.4119 12×φ golden (74.21) [Moon]
+  - other chart, star rows: H Ras Algethi → H Ketu Dec 17.7949 11×φ golden (79.83) [Jupiter]
+### L3 the seven cases (L5 field tag on each)
+- **1. same body on both charts**
+  - Venus — only
+    - S Venus → H Venus RA 68.5072 10×φ^4 phi power (loose)
+    - S Venus → H Venus Dec 14.1253 14.14 sqrt2 (loose)
+    - S Venus → J Venus Dec 42.0895 26×φ golden (loose)
+- **2. one body in both planes**
+  - H Venus — only
+    - S Venus → H Venus RA 68.5072 10×φ^4 phi power (loose)
+    - S Venus → H Venus Dec 14.1253 14.14 sqrt2 (loose)
+- **3. runner number = sky number**
+  - 10×φ^6 phi power — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+    - H Denebola → H Venus RA 179.4332 10×φ^6 phi power (97.90) = S Jupiter → Transpluto RA 179.4560 10×φ^6 phi power (97.05)
+  - 26 whole — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+    - S Ceres → J Ceres Dec 26.0272 26 whole (loose) = S Jupiter → Ras Algethi Dec 26.0029 26 whole (73.41)
+  - 26 whole — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+    - S Quaoar → J Quaoar RA 26.0216 26 whole (loose) = S Jupiter → Ras Algethi Dec 26.0029 26 whole (73.41)
+  - 17 whole — also: 1 Java Point / Jonathan Burke, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+    - J Al Rescha → J Sun Dec 17.0194 17 whole (0.09) = S Moon → Alphard Dec 16.9991 17 whole (91.06)
+- **4. circle divisions**
+  - 1 = 360/360 — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick
+    - S Transpluto → H Transpluto Dec 0.9718 1 whole (loose)
+  - 12 = 360/30 — only
+    - H Al Rescha → H Uranus RA 12.0013 12 whole (87.62)
+  - 40 = 360/9 — only
+    - H Alphecca → H Makemake RA 40.0051 40 whole (55.19)
+  - 3 = 360/120 — also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
+    - H Denebola → H Haumea Dec 2.9992 3 whole (92.33)
+  - 10 = 360/36 — also: 5 Jimmy The Digger / Richard Patrick
+    - S Pluto → J Pluto Dec 9.9884 10 whole (17.66)
+- **5. same number in more than one place**
+  - 18.8889 ninth — only
+    - S Jupiter → H Jupiter Dec 18.8540 18.8889 ninth (loose)
+    - S Rahu → J Rahu RA 18.8347 18.8889 ninth (loose)
+    - S Makemake → J Makemake RA 18.8750 18.8889 ninth (loose)
+    - S Ketu → J Ketu RA 18.8347 18.8889 ninth (loose)
+  - 10×φ^5 phi power — only
+    - S Jupiter → H Juno RA 110.9723 10×φ^5 phi power (76.15)
+    - S Ceres → H Jupiter RA 110.9953 10×φ^5 phi power (69.09)
+  - 26 whole — only
+    - S Ceres → J Ceres Dec 26.0272 26 whole (loose)
+    - S Quaoar → J Quaoar RA 26.0216 26 whole (loose)
+  - 19 whole — only
+    - J Altair → J Chiron RA 19.0007 19 whole (93.18)
+    - J Vega → J Sun Dec 18.9990 19 whole (90.11)
+- **6. star and sky line on one body**: none
+- **7. centres meeting**
+  - Transpluto: Jupiter, Moon — also: 4 Wildfire Warrior / Tom O'Brien
+    - [Jupiter] S Transpluto → H Transpluto Dec 0.9718 1 whole (loose)
+    - [Moon] H Al Rescha → H Transpluto RA 121.9910 122 whole (30.29)
+    - [Moon] H Alphard → H Transpluto Dec 19.9828 20 whole (2.03)
+  - Uranus: Jupiter, Moon, Sun — also: 5 Jimmy The Digger / Richard Patrick
+    - [Jupiter] H Jupiter → H Uranus Dec 0.0462 conj (71.57)
+    - [Jupiter] J Ras Algethi → J Uranus Dec 26.9964 27 whole (67.21)
+    - [Jupiter] J Rukbat → J Uranus Dec 28.0065 28 whole (45.26)
+    - [Moon] H Al Rescha → H Uranus RA 12.0013 12 whole (87.62)
+    - [Sun] J Rukbat → J Uranus Dec 28.0065 28 whole (45.26)
+  - Juno: Jupiter, Moon — also: 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
+    - [Jupiter] S Jupiter → H Juno RA 110.9723 10×φ^5 phi power (76.15)
+    - [Jupiter] H Vindemiatrix → H Juno RA 28.0183 28 whole (0.75)
+    - [Moon] H Ankaa → H Juno RA 142.9991 143 whole (90.83)
+    - [Moon] J Alphecca → J Juno Dec 14.0111 14 whole (19.67)
+    - [Moon] J Ankaa → J Juno Dec 55.0069 55 whole (43.04)
+  - Gonggong: Jupiter, Sun — only
+    - [Jupiter] S Jupiter → H Gonggong RA 1.4178 conj (0.30)
+    - [Jupiter] H Rukbat → H Gonggong RA 44.9857 45 whole (8.22)
+    - [Jupiter] S Jupiter → J Gonggong RA 1.3795 conj (0.65)
+    - [Sun] H Rukbat → H Gonggong RA 44.9857 45 whole (8.22)
+  - Neptune: Jupiter, Moon — also: 5 Jimmy The Digger / Richard Patrick, 7 Fanamix / Ben Jones
+    - [Jupiter] H Denebola → H Neptune RA 165.0293 102×φ golden (46.91)
+    - [Moon] H Alphard → H Neptune Dec 0.2861 conj (0.21)
+  - Pallas: Jupiter, Moon — also: 7 Fanamix / Ben Jones
+    - [Jupiter] J Vindemiatrix → J Pallas RA 124.5953 77×φ golden (62.73)
+    - [Moon] H Alphard → H Pallas Dec 16.0151 16 whole (5.91)
+    - [Moon] J Alphecca → J Pallas Dec 13.0133 13 whole (11.21)
+    - [Moon] J Ankaa → J Pallas Dec 56.0047 56 whole (58.47)
+  - Makemake: Jupiter, Moon — only
+    - [Jupiter] H Ras Algethi → H Makemake RA 64.9923 65 whole (37.57)
+    - [Moon] H Alphard → H Makemake RA 51.7718 32×φ golden (69.90)
+    - [Moon] H Alphecca → H Makemake RA 40.0051 40 whole (55.19)
+  - Mercury: Jupiter, Moon, Sun — also: 4 Wildfire Warrior / Tom O'Brien
+    - [Jupiter] J Ras Algethi → J Mercury RA 169.0125 169 whole (14.08)
+    - [Moon] J Alphecca → J Mercury RA 165.9984 166 whole (84.40)
+    - [Sun] H Altair → H Mercury Dec 0.2886 conj (0.14)
+    - [Sun] J Altair → J Mercury RA 129.9806 130 whole (0.08)
+  - Venus: Jupiter, Moon, Sun — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan
+    - [Jupiter] H Denebola → H Venus RA 179.4332 10×φ^6 phi power (97.90)
+    - [Jupiter] H Vindemiatrix → H Venus Dec 13.9939 14 whole (48.40)
+    - [Jupiter] J Vindemiatrix → J Venus RA 106.9809 107 whole (0.22)
+    - [Moon] J Ankaa → J Venus RA 82.0001 82 whole (98.70)
+    - [Sun] H Altair → H Venus RA 59.0040 59 whole (64.40)
+  - Mars: Jupiter, Sun — also: 6 Method Madness / Alex Edwards
+    - [Jupiter] H Ras Algethi → H Mars RA 12.9473 8×φ golden (82.04)
+    - [Sun] H Altair → H Mars RA 51.9802 52 whole (0.01)
+  - Pluto: Jupiter, Moon — also: 4 Wildfire Warrior / Tom O'Brien
+    - [Jupiter] H Denebola → H Pluto RA 111.1690 111.111 ninth (90.52)
+    - [Jupiter] J Jupiter → J Pluto Dec 35.5996 22×φ golden (83.18)
+    - [Moon] S Pluto → J Pluto Dec 9.9884 10 whole (17.66)
+    - [Moon] J Alphard → J Pluto Dec 4.0165 4 whole (3.15)
+  - Vesta: Jupiter, Moon — also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick
+    - [Jupiter] H Ras Algethi → H Vesta RA 140.7790 87×φ golden (47.36)
+    - [Jupiter] H Vindemiatrix → H Vesta Dec 0.0606 conj (63.66)
+    - [Moon] J Ankaa → J Vesta RA 85.7531 53×φ golden (84.02)
+  - Ketu: Jupiter, Moon — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien
+    - [Jupiter] H Ras Algethi → H Ketu Dec 17.7949 11×φ golden (79.83)
+    - [Moon] J Alphard → J Ketu RA 115.0000 115 whole (99.58)
+    - [Moon] J Ankaa → J Ketu Dec 19.4119 12×φ golden (74.21)
+  - Sun: Jupiter, Moon, Sun — also: 5 Jimmy The Digger / Richard Patrick
+    - [Jupiter] H Rukbat → H Sun RA 80.9031 50×φ golden (91.64)
+    - [Moon] J Al Rescha → J Sun Dec 17.0194 17 whole (0.09)
+    - [Moon] J Vega → J Sun Dec 18.9990 19 whole (90.11)
+    - [Sun] H Rukbat → H Sun RA 80.9031 50×φ golden (91.64)
+  - Rahu: Jupiter, Moon — also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien
+    - [Jupiter] J Jupiter → J Rahu Dec 0.0303 conj (80.80)
+    - [Moon] J Alphard → J Rahu RA 65.0000 65 whole (99.58)
+  - Chiron: Moon, Sun — only
+    - [Moon] J Vega → J Chiron RA 0.5419 conj (40.80)
+    - [Sun] J Altair → J Chiron RA 19.0007 19 whole (93.18)
+
+## 3 Une De La Seniere / Paddy Brennan
+### L1 same bodies
+- S Jupiter → H Jupiter RA 161.0654 100×φ^1 phi power (loose)
+- S Uranus → H Uranus RA 22.0095 22 whole (27.70)
+- S Chiron → H Chiron RA 17.8969 φ^6 phi power (loose)
+- S Juno → H Juno RA 161.0889 100×φ^1 phi power (loose)
+- S Vesta → H Vesta Dec 11.3538 7×φ golden (loose)
+- S Transpluto → H Transpluto RA 3.0234 3 whole (loose)
+- S Juno → J Juno RA 77.7169 77.7778 ninth (loose)
+- S Sedna → J Sedna Dec 4.9702 5 whole (loose)
+- S Orcus → J Orcus RA 37.1914 23×φ golden (loose)
+- S Gonggong → J Gonggong Dec 11.1491 11.1111 ninth (loose)
+- S Transpluto → J Transpluto RA 14.5913 9×φ golden (loose)
+### L2 what lands on each same body
+- **H Jupiter** (same body: S Jupiter → H Jupiter RA 161.0654 100×φ^1 phi power (loose))
+  - top rows: S Venus → H Jupiter Dec 35.0040 35 whole (63.76) [Jupiter]
+  - star rows: S Rukbat → H Jupiter RA 155.3601 96×φ golden (1.19) [Jupiter, Sun]
+  - other chart, star rows: J Ankaa → J Jupiter Dec 42.3690 10×φ^3 phi power (92.31) [Moon]
+- **H Uranus** (same body: S Uranus → H Uranus RA 22.0095 22 whole (27.70))
+  - star rows: H Ankaa → H Uranus Dec 48.5496 30×φ golden (54.18) [Moon]
+  - star rows: H Vega → H Uranus RA 97.0058 97 whole (50.10) [Moon]
+- **H Chiron** (same body: S Chiron → H Chiron RA 17.8969 φ^6 phi power (loose))
+  - other chart, star rows: J Denebola → J Chiron Dec 0.2239 conj (6.44) [Jupiter]
+  - other chart, star rows: J Vega → J Chiron Dec 23.9823 24 whole (1.32) [Moon]
+- **H Juno** (same body: S Juno → H Juno RA 161.0889 100×φ^1 phi power (loose))
+  - body line: S Sun → Juno RA 0.4578 conj (48.28)
+  - body line: S Moon → Juno RA 98.0009 98 whole (91.15)
+  - star rows: H Alphecca → H Juno RA 103.5367 64×φ golden (21.06) [Moon]
+  - other chart, same body: S Juno → J Juno RA 77.7169 77.7778 ninth (loose)
+  - other chart, T2: J Jupiter → J Juno Dec 1.0053 1 whole (53.78) [Jupiter]
+  - other chart, top rows: S Sun → J Juno Dec 21.0013 21 whole (87.71) [Sun]
+  - other chart, star rows: J Al Rescha → J Juno RA 176.9927 177 whole (40.63) [Moon]
+- **H Vesta** (same body: S Vesta → H Vesta Dec 11.3538 7×φ golden (loose))
+  - star rows: H Alphard → H Vesta RA 155.9902 156 whole (26.16) [Moon]
+  - star rows: H Vega → H Vesta RA 66.6688 66.6667 ninth (98.16) [Moon]
+  - star rows: H Vindemiatrix → H Vesta Dec 21.0031 21 whole (71.77) [Jupiter]
+  - other chart, star rows: J Denebola → J Vesta RA 26.0152 26 whole (5.83) [Jupiter]
+- **H Transpluto** (same body: S Transpluto → H Transpluto RA 3.0234 3 whole (loose))
+  - body line: S Jupiter → Transpluto RA 179.4560 10×φ^6 phi power (97.05)
+  - star rows: H Altair → H Transpluto RA 145.6397 90×φ golden (23.50) [Sun]
+  - other chart, same body: S Transpluto → J Transpluto RA 14.5913 9×φ golden (loose)
+  - other chart, star rows: J Al Rescha → J Transpluto RA 109.9850 110 whole (6.28) [Moon]
+  - other chart, star rows: J Alphard → J Transpluto RA 1.4079 conj (0.38) [Moon]
+  - other chart, star rows: J Rukbat → J Transpluto RA 150.4804 93×φ golden (80.92) [Jupiter, Sun]
+- **J Juno** (same body: S Juno → J Juno RA 77.7169 77.7778 ninth (loose))
+  - body line: S Sun → Juno RA 0.4578 conj (48.28)
+  - body line: S Moon → Juno RA 98.0009 98 whole (91.15)
+  - T2: J Jupiter → J Juno Dec 1.0053 1 whole (53.78) [Jupiter]
+  - top rows: S Sun → J Juno Dec 21.0013 21 whole (87.71) [Sun]
+  - star rows: J Al Rescha → J Juno RA 176.9927 177 whole (40.63) [Moon]
+  - other chart, same body: S Juno → H Juno RA 161.0889 100×φ^1 phi power (loose)
+  - other chart, star rows: H Alphecca → H Juno RA 103.5367 64×φ golden (21.06) [Moon]
+- **J Sedna** (same body: S Sedna → J Sedna Dec 4.9702 5 whole (loose))
+  - star rows: J Al Rescha → J Sedna Dec 0.2771 conj (0.58) [Moon]
+  - star rows: J Alphard → J Sedna RA 103.9984 104 whole (84.31) [Moon]
+  - other chart, star rows: H Ras Algethi → H Sedna Dec 7.0156 7 whole (4.85) [Jupiter]
+  - other chart, star rows: H Rukbat → H Sedna Dec 47.9868 48 whole (11.53) [Jupiter, Sun]
+  - other chart, star rows: H Vindemiatrix → H Sedna RA 140.7846 87×φ golden (26.80) [Jupiter]
+- **J Orcus** (same body: S Orcus → J Orcus RA 37.1914 23×φ golden (loose))
+  - star rows: J Alphecca → J Orcus Dec 18.0132 18 whole (11.53) [Moon]
+  - star rows: J Altair → J Orcus Dec 0.1645 conj (20.40) [Sun]
+  - star rows: J Ankaa → J Orcus Dec 51.0035 51 whole (67.72) [Moon]
+  - other chart, star rows: H Alphecca → H Orcus Dec 35.0193 35 whole (0.13) [Moon]
+  - other chart, star rows: H Ankaa → H Orcus Dec 33.9998 34 whole (97.82) [Moon]
+  - other chart, star rows: H Vega → H Orcus RA 129.4697 80×φ golden (2.73) [Moon]
+- **J Gonggong** (same body: S Gonggong → J Gonggong Dec 11.1491 11.1111 ninth (loose))
+  - body line: S Jupiter → Gonggong Dec 0.1496 conj (25.13)
+  - top rows: S Jupiter → J Gonggong Dec 10.9995 11 whole (95.25) [Jupiter]
+  - star rows: J Ankaa → J Gonggong RA 39.0131 39 whole (12.02) [Moon]
+  - star rows: J Ras Algethi → J Gonggong Dec 37.0004 37 whole (96.35) [Jupiter]
+  - star rows: J Rukbat → J Gonggong Dec 18.0002 18 whole (97.76) [Jupiter, Sun]
+  - star rows: J Vindemiatrix → J Gonggong RA 131.9988 132 whole (88.11) [Jupiter]
+  - other chart, top rows: S Jupiter → H Gonggong RA 1.3870 conj (0.57) [Jupiter]
+- **J Transpluto** (same body: S Transpluto → J Transpluto RA 14.5913 9×φ golden (loose))
+  - body line: S Jupiter → Transpluto RA 179.4560 10×φ^6 phi power (97.05)
+  - star rows: J Al Rescha → J Transpluto RA 109.9850 110 whole (6.28) [Moon]
+  - star rows: J Alphard → J Transpluto RA 1.4079 conj (0.38) [Moon]
+  - star rows: J Rukbat → J Transpluto RA 150.4804 93×φ golden (80.92) [Jupiter, Sun]
+  - other chart, same body: S Transpluto → H Transpluto RA 3.0234 3 whole (loose)
+  - other chart, star rows: H Altair → H Transpluto RA 145.6397 90×φ golden (23.50) [Sun]
+### L3 the seven cases (L5 field tag on each)
+- **1. same body on both charts**
+  - Juno — also: 1 Java Point / Jonathan Burke
+    - S Juno → H Juno RA 161.0889 100×φ^1 phi power (loose)
+    - S Juno → J Juno RA 77.7169 77.7778 ninth (loose)
+  - Transpluto — only
+    - S Transpluto → H Transpluto RA 3.0234 3 whole (loose)
+    - S Transpluto → J Transpluto RA 14.5913 9×φ golden (loose)
+- **2. one body in both planes**: none
+- **3. runner number = sky number**
+  - 110 whole — only
+    - J Al Rescha → J Transpluto RA 109.9850 110 whole (6.28) = S Moon → Vega RA 110.0023 110 whole (78.36)
+  - 10×φ^6 phi power — also: 2 Isolate / Liam Harrison, 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+    - J Ankaa → J Saturn RA 179.4287 10×φ^6 phi power (96.90) = S Jupiter → Transpluto RA 179.4560 10×φ^6 phi power (97.05)
+  - 26 whole — also: 2 Isolate / Liam Harrison, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+    - J Denebola → J Vesta RA 26.0152 26 whole (5.83) = S Jupiter → Ras Algethi Dec 26.0029 26 whole (73.41)
+  - 26 whole — also: 2 Isolate / Liam Harrison, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+    - J Denebola → J Eris Dec 26.0039 26 whole (64.54) = S Jupiter → Ras Algethi Dec 26.0029 26 whole (73.41)
+  - 6 whole — also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien
+    - J Ras Algethi → J Neptune RA 5.9881 6 whole (16.45) = S Sun → Altair RA 6.0052 6 whole (54.90)
+- **4. circle divisions**
+  - 3 = 360/120 — also: 2 Isolate / Liam Harrison, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
+    - S Transpluto → H Transpluto RA 3.0234 3 whole (loose)
+  - 1 = 360/360 — also: 1 Java Point / Jonathan Burke, 2 Isolate / Liam Harrison, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick
+    - H Al Rescha → H Ketu Dec 1.0034 1 whole (69.26)
+  - 30 = 360/12 — also: 5 Jimmy The Digger / Richard Patrick
+    - H Altair → H Quaoar RA 30.0014 30 whole (86.48)
+  - 5 = 360/72 — also: 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+    - S Sedna → J Sedna Dec 4.9702 5 whole (loose)
+  - 1 = 360/360 — also: 1 Java Point / Jonathan Burke, 2 Isolate / Liam Harrison, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick
+    - J Jupiter → J Juno Dec 1.0053 1 whole (53.78)
+  - 18 = 360/20 — also: 4 Wildfire Warrior / Tom O'Brien
+    - J Rukbat → J Gonggong Dec 18.0002 18 whole (97.76)
+  - 8 = 360/45 — also: 5 Jimmy The Digger / Richard Patrick
+    - J Vega → J Ceres Dec 7.9961 8 whole (64.82)
+- **5. same number in more than one place**
+  - 100×φ^1 phi power — also: 1 Java Point / Jonathan Burke, 5 Jimmy The Digger / Richard Patrick
+    - S Jupiter → H Jupiter RA 161.0654 100×φ^1 phi power (loose)
+    - S Juno → H Juno RA 161.0889 100×φ^1 phi power (loose)
+  - 1 whole — also: 1 Java Point / Jonathan Burke
+    - H Al Rescha → H Ketu Dec 1.0034 1 whole (69.26)
+    - J Jupiter → J Juno Dec 1.0053 1 whole (53.78)
+  - 21 whole — only
+    - H Vindemiatrix → H Vesta Dec 21.0031 21 whole (71.77)
+    - S Sun → J Juno Dec 21.0013 21 whole (87.71)
+  - 10×φ^3 phi power — only
+    - J Jupiter → J star Ankaa Dec 42.3690 10×φ^3 phi power (92.31)
+    - J Ankaa → J Jupiter Dec 42.3690 10×φ^3 phi power (92.31)
+- **6. star and sky line on one body**: none
+- **7. centres meeting**
+  - Juno: Jupiter, Moon, Sun — also: 1 Java Point / Jonathan Burke, 7 Fanamix / Ben Jones
+    - [Jupiter] J Jupiter → J Juno Dec 1.0053 1 whole (53.78)
+    - [Moon] S Juno → H Juno RA 161.0889 100×φ^1 phi power (loose)
+    - [Moon] H Alphecca → H Juno RA 103.5367 64×φ golden (21.06)
+    - [Moon] S Juno → J Juno RA 77.7169 77.7778 ninth (loose)
+    - [Moon] J Al Rescha → J Juno RA 176.9927 177 whole (40.63)
+    - [Sun] S Juno → H Juno RA 161.0889 100×φ^1 phi power (loose)
+    - [Sun] S Juno → J Juno RA 77.7169 77.7778 ninth (loose)
+    - [Sun] S Sun → J Juno Dec 21.0013 21 whole (87.71)
+  - Transpluto: Jupiter, Moon, Sun — also: 5 Jimmy The Digger / Richard Patrick
+    - [Jupiter] S Transpluto → H Transpluto RA 3.0234 3 whole (loose)
+    - [Jupiter] S Transpluto → J Transpluto RA 14.5913 9×φ golden (loose)
+    - [Jupiter] J Rukbat → J Transpluto RA 150.4804 93×φ golden (80.92)
+    - [Moon] J Al Rescha → J Transpluto RA 109.9850 110 whole (6.28)
+    - [Moon] J Alphard → J Transpluto RA 1.4079 conj (0.38)
+    - [Sun] H Altair → H Transpluto RA 145.6397 90×φ golden (23.50)
+    - [Sun] J Rukbat → J Transpluto RA 150.4804 93×φ golden (80.92)
+  - Mercury: Jupiter, Moon — also: 5 Jimmy The Digger / Richard Patrick, 7 Fanamix / Ben Jones
+    - [Jupiter] S Jupiter → H Mercury RA 75.0045 75 whole (60.13)
+    - [Jupiter] H Vindemiatrix → H Mercury RA 146.0047 146 whole (58.47)
+    - [Moon] J Alphecca → J Mercury Dec 25.0018 25 whole (82.64)
+    - [Moon] J Ankaa → J Mercury Dec 44.0149 44 whole (6.42)
+  - Mars: Jupiter, Moon, Sun — only
+    - [Jupiter] S Jupiter → H Mars Dec 29.1243 18×φ golden (98.18)
+    - [Moon] J Alphecca → J Mars Dec 18.8880 18.8889 ninth (99.38)
+    - [Sun] H Altair → H Mars RA 108.4173 67×φ golden (51.91)
+  - Gonggong: Jupiter, Moon, Sun — also: 7 Fanamix / Ben Jones
+    - [Jupiter] S Jupiter → H Gonggong RA 1.3870 conj (0.57)
+    - [Jupiter] S Gonggong → J Gonggong Dec 11.1491 11.1111 ninth (loose)
+    - [Jupiter] S Jupiter → J Gonggong Dec 10.9995 11 whole (95.25)
+    - [Jupiter] J Ras Algethi → J Gonggong Dec 37.0004 37 whole (96.35)
+    - [Jupiter] J Rukbat → J Gonggong Dec 18.0002 18 whole (97.76)
+    - [Jupiter] J Vindemiatrix → J Gonggong RA 131.9988 132 whole (88.11)
+    - [Moon] J Ankaa → J Gonggong RA 39.0131 39 whole (12.02)
+    - [Sun] J Rukbat → J Gonggong Dec 18.0002 18 whole (97.76)
+  - Jupiter: Jupiter, Moon, Sun — also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+    - [Jupiter] S Venus → H Jupiter Dec 35.0040 35 whole (63.76)
+    - [Jupiter] S Rukbat → H Jupiter RA 155.3601 96×φ golden (1.19)
+    - [Moon] J Ankaa → J Jupiter Dec 42.3690 10×φ^3 phi power (92.31)
+    - [Sun] S Rukbat → H Jupiter RA 155.3601 96×φ golden (1.19)
+  - Venus: Jupiter, Moon, Sun — also: 1 Java Point / Jonathan Burke, 2 Isolate / Liam Harrison
+    - [Jupiter] H Vindemiatrix → H Venus Dec 14.0076 14 whole (38.25)
+    - [Moon] H Al Rescha → H Venus RA 45.0137 45 whole (9.98)
+    - [Moon] J Vega → J Venus Dec 29.9925 30 whole (39.08)
+    - [Sun] J Altair → J Venus Dec 0.0785 conj (54.50)
+  - Ketu: Jupiter, Moon — also: 1 Java Point / Jonathan Burke, 2 Isolate / Liam Harrison, 4 Wildfire Warrior / Tom O'Brien
+    - [Jupiter] J Denebola → J Ketu RA 133.3095 133.333 ninth (97.14)
+    - [Moon] H Al Rescha → H Ketu Dec 1.0034 1 whole (69.26)
+    - [Moon] H Vega → H Ketu Dec 35.0153 35 whole (5.44)
+    - [Moon] J Al Rescha → J Ketu Dec 20.9889 21 whole (19.70)
+    - [Moon] J Ankaa → J Ketu RA 55.9808 56 whole (0.16)
+    - [Moon] J Vega → J Ketu Dec 57.0046 57 whole (59.17)
+  - Saturn: Jupiter, Moon, Sun — also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards
+    - [Jupiter] J Rukbat → J Saturn RA 104.9804 105 whole (0.04)
+    - [Moon] H Alphard → H Saturn Dec 10.0083 10 whole (33.95)
+    - [Moon] H Alphecca → H Saturn RA 8.0192 8 whole (0.16)
+    - [Moon] J Ankaa → J Saturn RA 179.4287 10×φ^6 phi power (96.90)
+    - [Sun] H Altair → H Saturn RA 56.0017 56 whole (83.79)
+    - [Sun] J Rukbat → J Saturn RA 104.9804 105 whole (0.04)
+  - Neptune: Jupiter, Moon, Sun — also: 1 Java Point / Jonathan Burke
+    - [Jupiter] J Ras Algethi → J Neptune RA 5.9881 6 whole (16.45)
+    - [Moon] H Alphard → H Neptune RA 160.9969 161 whole (71.78)
+    - [Moon] H Alphard → H Neptune Dec 0.2248 conj (6.29)
+    - [Moon] H Alphecca → H Neptune Dec 35.5978 22×φ golden (93.54)
+    - [Moon] J Alphard → J Neptune Dec 13.3400 13.3333 ninth (92.03)
+    - [Moon] J Ankaa → J Neptune RA 101.9095 63×φ golden (3.08)
+    - [Sun] S Sun → J Neptune Dec 0.0593 conj (64.37)
+  - Vesta: Jupiter, Moon — also: 2 Isolate / Liam Harrison, 5 Jimmy The Digger / Richard Patrick
+    - [Jupiter] H Vindemiatrix → H Vesta Dec 21.0031 21 whole (71.77)
+    - [Jupiter] J Denebola → J Vesta RA 26.0152 26 whole (5.83)
+    - [Moon] H Alphard → H Vesta RA 155.9902 156 whole (26.16)
+    - [Moon] H Vega → H Vesta RA 66.6688 66.6667 ninth (98.16)
+  - Orcus: Moon, Sun — only
+    - [Moon] H Alphecca → H Orcus Dec 35.0193 35 whole (0.13)
+    - [Moon] H Ankaa → H Orcus Dec 33.9998 34 whole (97.82)
+    - [Moon] H Vega → H Orcus RA 129.4697 80×φ golden (2.73)
+    - [Moon] J Alphecca → J Orcus Dec 18.0132 18 whole (11.53)
+    - [Moon] J Ankaa → J Orcus Dec 51.0035 51 whole (67.72)
+    - [Sun] J Altair → J Orcus Dec 0.1645 conj (20.40)
+  - Quaoar: Jupiter, Moon, Sun — also: 1 Java Point / Jonathan Burke, 6 Method Madness / Alex Edwards
+    - [Jupiter] S Jupiter → J Quaoar Dec 0.0711 conj (58.23)
+    - [Moon] H Alphecca → H Quaoar RA 34.0195 34 whole (0.07)
+    - [Moon] J Al Rescha → J Quaoar RA 167.0099 167 whole (25.45)
+    - [Moon] J Al Rescha → J Quaoar Dec 14.4465 14.4444 ninth (97.80)
+    - [Sun] H Altair → H Quaoar RA 30.0014 30 whole (86.48)
+  - Sedna: Jupiter, Moon, Sun — also: 7 Fanamix / Ben Jones
+    - [Jupiter] H Ras Algethi → H Sedna Dec 7.0156 7 whole (4.85)
+    - [Jupiter] H Rukbat → H Sedna Dec 47.9868 48 whole (11.53)
+    - [Jupiter] H Vindemiatrix → H Sedna RA 140.7846 87×φ golden (26.80)
+    - [Moon] J Al Rescha → J Sedna Dec 0.2771 conj (0.58)
+    - [Moon] J Alphard → J Sedna RA 103.9984 104 whole (84.31)
+    - [Sun] H Rukbat → H Sedna Dec 47.9868 48 whole (11.53)
+  - Makemake: Jupiter, Moon, Sun — also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones
+    - [Jupiter] H Ras Algethi → H Makemake Dec 11.9801 12 whole (0.00)
+    - [Jupiter] H Rukbat → H Makemake Dec 66.9825 67 whole (1.50)
+    - [Jupiter] J Rukbat → J Makemake RA 132.9853 133 whole (7.08)
+    - [Moon] J Vega → J Makemake Dec 0.1389 conj (28.83)
+    - [Sun] H Rukbat → H Makemake Dec 66.9825 67 whole (1.50)
+    - [Sun] J Rukbat → J Makemake RA 132.9853 133 whole (7.08)
+  - Ceres: Jupiter, Moon, Sun — also: 1 Java Point / Jonathan Burke
+    - [Jupiter] H Rukbat → H Ceres RA 17.7799 17.7778 ninth (98.36)
+    - [Moon] J Al Rescha → J Ceres Dec 28.0196 28 whole (0.03)
+    - [Moon] J Vega → J Ceres Dec 7.9961 8 whole (64.82)
+    - [Sun] H Rukbat → H Ceres RA 17.7799 17.7778 ninth (98.36)
+  - Eris: Jupiter, Moon — also: 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick
+    - [Jupiter] S Jupiter → J Eris Dec 0.1811 conj (15.71)
+    - [Jupiter] J Denebola → J Eris Dec 26.0039 26 whole (64.54)
+    - [Moon] J Vega → J Eris RA 102.0023 102 whole (78.72)
+  - Haumea: Jupiter, Moon — also: 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+    - [Jupiter] J Denebola → J Haumea RA 1.2420 conj (2.96)
+    - [Moon] J Al Rescha → J Haumea RA 148.0080 148 whole (36.04)
+  - Pallas: Moon, Sun — only
+    - [Moon] J Alphard → J Pallas RA 77.9829 78 whole (2.16)
+    - [Sun] J Altair → J Pallas RA 126.2236 78×φ golden (22.65)
+  - Sun: Jupiter, Sun — only
+    - [Jupiter] J Denebola → J Sun RA 155.3025 96×φ golden (1.23)
+    - [Jupiter] J Rukbat → J Sun RA 90.9981 91 whole (81.60)
+    - [Sun] J Rukbat → J Sun RA 90.9981 91 whole (81.60)
+  - Chiron: Jupiter, Moon — only
+    - [Jupiter] J Denebola → J Chiron Dec 0.2239 conj (6.44)
+    - [Moon] J Vega → J Chiron Dec 23.9823 24 whole (1.32)
+
+## 4 Wildfire Warrior / Tom O'Brien
+### L1 same bodies
+- S Jupiter → H Jupiter Dec 29.0419 φ^7 phi power (loose)
+- S Saturn → H Saturn Dec 1.2286 1.22222 ninth (loose)
+- S Ceres → H Ceres RA 123.9993 124 whole (93.18)
+- S Ceres → H Ceres Dec 42.3230 10×φ^3 phi power (loose)
+- S Pallas → H Pallas RA 88.7710 88.8889 ninth (loose)
+- S Rahu → H Rahu Dec 24.1824 24.14 silver (loose)
+- S Eris → H Eris Dec 1.6133 1×φ golden (loose)
+- S Makemake → H Makemake RA 5.9709 6 whole (loose)
+- S Orcus → H Orcus RA 6.8582 φ^4 phi power (loose)
+- S Transpluto → H Transpluto Dec 0.9975 1 whole (76.81)
+- S Ketu → H Ketu Dec 24.1824 24.14 silver (loose)
+- S Jupiter → J Jupiter RA 11.0813 φ^5 phi power (loose)
+- S Saturn → J Saturn RA 65.0289 65 whole (loose)
+- S Pluto → J Pluto RA 77.0131 77 whole (11.97)
+- S Pallas → J Pallas RA 140.8501 141.4 sqrt2 (loose)
+- S Pallas → J Pallas Dec 10.9914 11 whole (32.72)
+- S Vesta → J Vesta Dec 14.1203 14.14 sqrt2 (loose)
+- S Eris → J Eris RA 4.2344 φ^3 phi power (loose)
+- S Eris → J Eris Dec 9.0253 9 whole (loose)
+### L2 what lands on each same body
+- **H Jupiter** (same body: S Jupiter → H Jupiter Dec 29.0419 φ^7 phi power (loose))
+  - star rows: S Rukbat → H Jupiter RA 153.7214 95×φ golden (55.92) [Jupiter, Sun]
+  - star rows: H Vega → H Jupiter RA 141.9896 142 whole (22.81) [Moon]
+  - other chart, same body: S Jupiter → J Jupiter RA 11.0813 φ^5 phi power (loose)
+- **H Saturn** (same body: S Saturn → H Saturn Dec 1.2286 1.22222 ninth (loose))
+  - body line: S Sun → Saturn Dec 4.1426 4.14 silver (96.70)
+  - star rows: H Vindemiatrix → H Saturn Dec 29.9848 30 whole (5.69) [Jupiter]
+  - other chart, same body: S Saturn → J Saturn RA 65.0289 65 whole (loose)
+  - other chart, top rows: S Moon → J Saturn Dec 29.0376 φ^7 phi power (95.71) [Moon]
+- **H Ceres** (same body: S Ceres → H Ceres RA 123.9993 124 whole (93.18); S Ceres → H Ceres Dec 42.3230 10×φ^3 phi power (loose))
+  - top rows: S Sun → H Ceres RA 0.1216 conj (84.44) [Sun]
+  - star rows: H Altair → H Ceres Dec 32.9837 33 whole (3.41) [Sun]
+  - star rows: H Rukbat → H Ceres RA 0.8428 conj (19.19) [Jupiter, Sun]
+- **H Pallas** (same body: S Pallas → H Pallas RA 88.7710 88.8889 ninth (loose))
+  - body line: S Jupiter → Pallas Dec 0.0263 conj (83.23)
+  - body line: S Sun → Pallas RA 61.0023 61 whole (78.49)
+  - star rows: H Alphard → H Pallas RA 122.0177 122 whole (1.31) [Moon]
+  - star rows: H Alphard → H Pallas Dec 17.9946 18 whole (53.32) [Moon]
+  - other chart, same body: S Pallas → J Pallas RA 140.8501 141.4 sqrt2 (loose)
+  - other chart, same body: S Pallas → J Pallas Dec 10.9914 11 whole (32.72)
+  - other chart, star rows: J Ras Algethi → J Pallas Dec 14.9874 15 whole (13.51) [Jupiter]
+- **H Rahu** (same body: S Rahu → H Rahu Dec 24.1824 24.14 silver (loose))
+  - star rows: H Denebola → H Rahu RA 11.9809 12 whole (0.22) [Jupiter]
+  - star rows: H Vega → H Rahu RA 89.9836 90 whole (3.26) [Moon]
+  - other chart, star rows: J Alphecca → J Rahu RA 144.9924 145 whole (38.58) [Moon]
+  - other chart, star rows: J Ras Algethi → J Rahu RA 120.0016 120 whole (84.85) [Jupiter]
+- **H Eris** (same body: S Eris → H Eris Dec 1.6133 1×φ golden (loose))
+  - other chart, same body: S Eris → J Eris RA 4.2344 φ^3 phi power (loose)
+  - other chart, same body: S Eris → J Eris Dec 9.0253 9 whole (loose)
+  - other chart, star rows: J Ankaa → J Eris RA 15.0038 15 whole (65.64) [Moon]
+  - other chart, star rows: J Ras Algethi → J Eris RA 122.9211 φ^10 phi power (78.30) [Jupiter]
+- **H Makemake** (same body: S Makemake → H Makemake RA 5.9709 6 whole (loose))
+  - star rows: H Rukbat → H Makemake Dec 66.6610 66.6667 ninth (95.10) [Jupiter, Sun]
+  - other chart, star rows: J Al Rescha → J Makemake Dec 33.3393 33.3333 ninth (92.82) [Moon]
+- **H Orcus** (same body: S Orcus → H Orcus RA 6.8582 φ^4 phi power (loose))
+  - T1: H Jupiter → H Orcus Dec 26.1869 10×φ^2 phi power (90.21) [Jupiter]
+  - star rows: H Alphard → H Orcus Dec 0.0980 conj (45.36) [Moon]
+  - star rows: H Altair → H Orcus RA 147.2449 91×φ golden (77.84) [Sun]
+  - other chart, star rows: J Ankaa → J Orcus RA 121.0138 121 whole (9.49) [Moon]
+  - other chart, star rows: J Ras Algethi → J Orcus RA 131.0689 81×φ golden (56.06) [Jupiter]
+  - other chart, star rows: J Vindemiatrix → J Orcus RA 67.9544 42×φ golden (82.15) [Jupiter]
+- **H Transpluto** (same body: S Transpluto → H Transpluto Dec 0.9975 1 whole (76.81))
+  - body line: S Jupiter → Transpluto RA 179.4560 10×φ^6 phi power (97.05)
+  - star rows: H Alphard → H Transpluto Dec 20.0081 20 whole (35.29) [Moon]
+  - other chart, star rows: J Alphecca → J Transpluto RA 90.0083 90 whole (34.42) [Moon]
+  - other chart, star rows: J Denebola → J Transpluto Dec 0.1632 conj (20.79) [Jupiter]
+  - other chart, star rows: J Ras Algethi → J Transpluto RA 114.9991 115 whole (91.32) [Jupiter]
+  - other chart, star rows: J Ras Algethi → J Transpluto Dec 0.0175 conj (88.70) [Jupiter]
+- **H Ketu** (same body: S Ketu → H Ketu Dec 24.1824 24.14 silver (loose))
+  - star rows: H Alphard → H Ketu RA 132.6530 82×φ golden (4.14) [Moon]
+  - star rows: H Denebola → H Ketu RA 168.0191 168 whole (0.22) [Jupiter]
+  - star rows: H Vega → H Ketu RA 90.0164 90 whole (3.26) [Moon]
+  - other chart, star rows: J Alphecca → J Ketu RA 35.0076 35 whole (38.58) [Moon]
+  - other chart, star rows: J Ras Algethi → J Ketu RA 59.9984 60 whole (84.85) [Jupiter]
+- **J Jupiter** (same body: S Jupiter → J Jupiter RA 11.0813 φ^5 phi power (loose))
+  - other chart, same body: S Jupiter → H Jupiter Dec 29.0419 φ^7 phi power (loose)
+  - other chart, star rows: S Rukbat → H Jupiter RA 153.7214 95×φ golden (55.92) [Jupiter, Sun]
+  - other chart, star rows: H Vega → H Jupiter RA 141.9896 142 whole (22.81) [Moon]
+- **J Saturn** (same body: S Saturn → J Saturn RA 65.0289 65 whole (loose))
+  - body line: S Sun → Saturn Dec 4.1426 4.14 silver (96.70)
+  - top rows: S Moon → J Saturn Dec 29.0376 φ^7 phi power (95.71) [Moon]
+  - other chart, same body: S Saturn → H Saturn Dec 1.2286 1.22222 ninth (loose)
+  - other chart, star rows: H Vindemiatrix → H Saturn Dec 29.9848 30 whole (5.69) [Jupiter]
+- **J Pluto** (same body: S Pluto → J Pluto RA 77.0131 77 whole (11.97))
+  - body line: S Moon → Pluto Dec 31.0058 31 whole (50.26)
+  - top rows: S Jupiter → J Pluto RA 113.2643 70×φ golden (88.34) [Jupiter]
+  - star rows: J Al Rescha → J Pluto Dec 2.0005 2 whole (94.96) [Moon]
+  - star rows: J Denebola → J Pluto RA 44.0095 44 whole (27.47) [Jupiter]
+- **J Pallas** (same body: S Pallas → J Pallas RA 140.8501 141.4 sqrt2 (loose); S Pallas → J Pallas Dec 10.9914 11 whole (32.72))
+  - body line: S Jupiter → Pallas Dec 0.0263 conj (83.23)
+  - body line: S Sun → Pallas RA 61.0023 61 whole (78.49)
+  - star rows: J Ras Algethi → J Pallas Dec 14.9874 15 whole (13.51) [Jupiter]
+  - other chart, same body: S Pallas → H Pallas RA 88.7710 88.8889 ninth (loose)
+  - other chart, star rows: H Alphard → H Pallas RA 122.0177 122 whole (1.31) [Moon]
+  - other chart, star rows: H Alphard → H Pallas Dec 17.9946 18 whole (53.32) [Moon]
+- **J Vesta** (same body: S Vesta → J Vesta Dec 14.1203 14.14 sqrt2 (loose))
+  - star rows: J Alphecca → J Vesta Dec 33.9939 34 whole (48.46) [Moon]
+  - star rows: J Ankaa → J Vesta RA 0.0514 conj (93.27) [Moon]
+  - star rows: J Rukbat → J Vesta Dec 33.3385 33.3333 ninth (93.74) [Jupiter, Sun]
+  - other chart, star rows: H Alphard → H Vesta Dec 9.0150 9 whole (6.18) [Moon]
+- **J Eris** (same body: S Eris → J Eris RA 4.2344 φ^3 phi power (loose); S Eris → J Eris Dec 9.0253 9 whole (loose))
+  - star rows: J Ankaa → J Eris RA 15.0038 15 whole (65.64) [Moon]
+  - star rows: J Ras Algethi → J Eris RA 122.9211 φ^10 phi power (78.30) [Jupiter]
+  - other chart, same body: S Eris → H Eris Dec 1.6133 1×φ golden (loose)
+### L3 the seven cases (L5 field tag on each)
+- **1. same body on both charts**
+  - Jupiter — only
+    - S Jupiter → H Jupiter Dec 29.0419 φ^7 phi power (loose)
+    - S Jupiter → J Jupiter RA 11.0813 φ^5 phi power (loose)
+  - Saturn — also: 7 Fanamix / Ben Jones
+    - S Saturn → H Saturn Dec 1.2286 1.22222 ninth (loose)
+    - S Saturn → J Saturn RA 65.0289 65 whole (loose)
+  - Pallas — only
+    - S Pallas → H Pallas RA 88.7710 88.8889 ninth (loose)
+    - S Pallas → J Pallas RA 140.8501 141.4 sqrt2 (loose)
+    - S Pallas → J Pallas Dec 10.9914 11 whole (32.72)
+  - Eris — only
+    - S Eris → H Eris Dec 1.6133 1×φ golden (loose)
+    - S Eris → J Eris RA 4.2344 φ^3 phi power (loose)
+    - S Eris → J Eris Dec 9.0253 9 whole (loose)
+- **2. one body in both planes**
+  - H Ceres — only
+    - S Ceres → H Ceres RA 123.9993 124 whole (93.18)
+    - S Ceres → H Ceres Dec 42.3230 10×φ^3 phi power (loose)
+  - J Pallas — only
+    - S Pallas → J Pallas RA 140.8501 141.4 sqrt2 (loose)
+    - S Pallas → J Pallas Dec 10.9914 11 whole (32.72)
+  - J Eris — only
+    - S Eris → J Eris RA 4.2344 φ^3 phi power (loose)
+    - S Eris → J Eris Dec 9.0253 9 whole (loose)
+- **3. runner number = sky number**
+  - 6 whole — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan
+    - S Makemake → H Makemake RA 5.9709 6 whole (loose) = S Sun → Altair RA 6.0052 6 whole (54.90)
+  - 10×φ^2 phi power — only
+    - H Jupiter → H Orcus Dec 26.1869 10×φ^2 phi power (90.21) = S Jupiter → Denebola Dec 26.1830 10×φ^2 phi power (95.96)
+  - 10×φ^6 phi power — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+    - H Al Rescha → H Haumea RA 179.4232 10×φ^6 phi power (95.70) = S Jupiter → Transpluto RA 179.4560 10×φ^6 phi power (97.05)
+  - 26 whole — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+    - H Altair → H Mercury Dec 25.9915 26 whole (33.14) = S Jupiter → Ras Algethi Dec 26.0029 26 whole (73.41)
+  - 29 whole — only
+    - S Jupiter → J Chiron Dec 28.9987 29 whole (87.30) = S Jupiter → Rukbat Dec 29.0037 29 whole (66.42)
+- **4. circle divisions**
+  - 6 = 360/60 — also: 1 Java Point / Jonathan Burke
+    - S Makemake → H Makemake RA 5.9709 6 whole (loose)
+  - 1 = 360/360 — also: 1 Java Point / Jonathan Burke, 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick
+    - S Transpluto → H Transpluto Dec 0.9975 1 whole (76.81)
+  - 24 = 360/15 — also: 1 Java Point / Jonathan Burke, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
+    - S Moon → H Quaoar Dec 24.0046 24 whole (59.28)
+  - 18 = 360/20 — also: 3 Une De La Seniere / Paddy Brennan
+    - H Alphard → H Pallas Dec 17.9946 18 whole (53.32)
+  - 9 = 360/40 — also: 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
+    - S Eris → J Eris Dec 9.0253 9 whole (loose)
+  - 2 = 360/180 — also: 5 Jimmy The Digger / Richard Patrick
+    - J Al Rescha → J Pluto Dec 2.0005 2 whole (94.96)
+  - 4 = 360/90 — also: 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
+    - J Alphecca → J Haumea Dec 4.0020 4 whole (80.83)
+  - 15 = 360/24 — also: 1 Java Point / Jonathan Burke, 7 Fanamix / Ben Jones
+    - J Ankaa → J Eris RA 15.0038 15 whole (65.64)
+  - 120 = 360/3 — only
+    - J Ras Algethi → J Rahu RA 120.0016 120 whole (84.85)
+  - 60 = 360/6 — only
+    - J Ras Algethi → J Ketu RA 59.9984 60 whole (84.85)
+- **5. same number in more than one place**
+  - φ^7 phi power — only
+    - S Jupiter → H Jupiter Dec 29.0419 φ^7 phi power (loose)
+    - S Moon → J Saturn Dec 29.0376 φ^7 phi power (95.71)
+  - 24.14 silver — also: 5 Jimmy The Digger / Richard Patrick
+    - S Rahu → H Rahu Dec 24.1824 24.14 silver (loose)
+    - S Ketu → H Ketu Dec 24.1824 24.14 silver (loose)
+  - φ^10 phi power — only
+    - H Denebola → H Sedna RA 122.9722 φ^10 phi power (93.70)
+    - J Ras Algethi → J Eris RA 122.9211 φ^10 phi power (78.30)
+  - 33.3333 ninth — only
+    - J Al Rescha → J Makemake Dec 33.3393 33.3333 ninth (92.82)
+    - J Rukbat → J Vesta Dec 33.3385 33.3333 ninth (93.74)
+- **6. star and sky line on one body**: none
+- **7. centres meeting**
+  - Saturn: Jupiter, Moon, Sun — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan, 6 Method Madness / Alex Edwards
+    - [Jupiter] H Vindemiatrix → H Saturn Dec 29.9848 30 whole (5.69)
+    - [Moon] S Moon → J Saturn Dec 29.0376 φ^7 phi power (95.71)
+    - [Sun] S Saturn → H Saturn Dec 1.2286 1.22222 ninth (loose)
+    - [Sun] S Saturn → J Saturn RA 65.0289 65 whole (loose)
+  - Pallas: Jupiter, Moon, Sun — also: 1 Java Point / Jonathan Burke, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
+    - [Jupiter] S Pallas → H Pallas RA 88.7710 88.8889 ninth (loose)
+    - [Jupiter] S Pallas → J Pallas RA 140.8501 141.4 sqrt2 (loose)
+    - [Jupiter] S Pallas → J Pallas Dec 10.9914 11 whole (32.72)
+    - [Jupiter] J Ras Algethi → J Pallas Dec 14.9874 15 whole (13.51)
+    - [Moon] H Alphard → H Pallas RA 122.0177 122 whole (1.31)
+    - [Moon] H Alphard → H Pallas Dec 17.9946 18 whole (53.32)
+    - [Sun] S Pallas → H Pallas RA 88.7710 88.8889 ninth (loose)
+    - [Sun] S Pallas → J Pallas RA 140.8501 141.4 sqrt2 (loose)
+    - [Sun] S Pallas → J Pallas Dec 10.9914 11 whole (32.72)
+  - Transpluto: Jupiter, Moon — also: 2 Isolate / Liam Harrison
+    - [Jupiter] S Transpluto → H Transpluto Dec 0.9975 1 whole (76.81)
+    - [Jupiter] J Denebola → J Transpluto Dec 0.1632 conj (20.79)
+    - [Jupiter] J Ras Algethi → J Transpluto RA 114.9991 115 whole (91.32)
+    - [Jupiter] J Ras Algethi → J Transpluto Dec 0.0175 conj (88.70)
+    - [Moon] H Alphard → H Transpluto Dec 20.0081 20 whole (35.29)
+    - [Moon] J Alphecca → J Transpluto RA 90.0083 90 whole (34.42)
+  - Orcus: Jupiter, Moon, Sun — also: 6 Method Madness / Alex Edwards
+    - [Jupiter] H Jupiter → H Orcus Dec 26.1869 10×φ^2 phi power (90.21)
+    - [Jupiter] J Ras Algethi → J Orcus RA 131.0689 81×φ golden (56.06)
+    - [Jupiter] J Vindemiatrix → J Orcus RA 67.9544 42×φ golden (82.15)
+    - [Moon] H Alphard → H Orcus Dec 0.0980 conj (45.36)
+    - [Moon] J Ankaa → J Orcus RA 121.0138 121 whole (9.49)
+    - [Sun] H Altair → H Orcus RA 147.2449 91×φ golden (77.84)
+  - Ceres: Jupiter, Sun — only
+    - [Jupiter] H Rukbat → H Ceres RA 0.8428 conj (19.19)
+    - [Sun] S Sun → H Ceres RA 0.1216 conj (84.44)
+    - [Sun] H Altair → H Ceres Dec 32.9837 33 whole (3.41)
+    - [Sun] H Rukbat → H Ceres RA 0.8428 conj (19.19)
+  - Quaoar: Moon, Sun — only
+    - [Moon] S Moon → H Quaoar Dec 24.0046 24 whole (59.28)
+    - [Moon] H Alphard → H Quaoar Dec 7.0034 7 whole (68.99)
+    - [Moon] J Vega → J Quaoar RA 48.9844 49 whole (4.89)
+    - [Sun] H Altair → H Quaoar RA 29.9872 30 whole (13.13)
+  - Mars: Jupiter, Moon — also: 5 Jimmy The Digger / Richard Patrick, 7 Fanamix / Ben Jones
+    - [Jupiter] H Denebola → H Mars RA 169.8933 105×φ golden (98.59)
+    - [Jupiter] S Jupiter → J Mars RA 0.2447 conj (70.04)
+    - [Moon] H Al Rescha → H Mars Dec 0.0899 conj (49.06)
+    - [Moon] H Ankaa → H Mars RA 0.8085 conj (21.25)
+    - [Moon] H Ankaa → H Mars Dec 44.9826 45 whole (1.75)
+  - Haumea: Jupiter, Moon — also: 3 Une De La Seniere / Paddy Brennan, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+    - [Jupiter] J Denebola → J Haumea RA 8.0199 8 whole (0.00)
+    - [Moon] H Al Rescha → H Haumea RA 179.4232 10×φ^6 phi power (95.70)
+    - [Moon] J Alphecca → J Haumea Dec 4.0020 4 whole (80.83)
+  - Vesta: Jupiter, Moon, Sun — only
+    - [Jupiter] J Rukbat → J Vesta Dec 33.3385 33.3333 ninth (93.74)
+    - [Moon] H Alphard → H Vesta Dec 9.0150 9 whole (6.18)
+    - [Moon] J Alphecca → J Vesta Dec 33.9939 34 whole (48.46)
+    - [Moon] J Ankaa → J Vesta RA 0.0514 conj (93.27)
+    - [Sun] J Rukbat → J Vesta Dec 33.3385 33.3333 ninth (93.74)
+  - Ketu: Jupiter, Moon — also: 1 Java Point / Jonathan Burke, 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan
+    - [Jupiter] H Denebola → H Ketu RA 168.0191 168 whole (0.22)
+    - [Jupiter] J Ras Algethi → J Ketu RA 59.9984 60 whole (84.85)
+    - [Moon] H Alphard → H Ketu RA 132.6530 82×φ golden (4.14)
+    - [Moon] H Vega → H Ketu RA 90.0164 90 whole (3.26)
+    - [Moon] J Alphecca → J Ketu RA 35.0076 35 whole (38.58)
+  - Sun: Jupiter, Moon — also: 1 Java Point / Jonathan Burke, 6 Method Madness / Alex Edwards
+    - [Jupiter] H Vindemiatrix → H Sun RA 147.2619 91×φ golden (12.66)
+    - [Jupiter] J Denebola → J Sun RA 66.9957 67 whole (61.46)
+    - [Moon] H Alphecca → H Sun Dec 34.0141 34 whole (8.80)
+    - [Moon] H Ankaa → H Sun Dec 35.0068 35 whole (43.77)
+  - Juno: Moon, Sun — only
+    - [Moon] H Alphecca → H Juno Dec 17.7790 17.7778 ninth (99.07)
+    - [Sun] H Altair → H Juno Dec 0.0639 conj (61.95)
+  - Mercury: Jupiter, Moon, Sun — also: 2 Isolate / Liam Harrison
+    - [Jupiter] H Denebola → H Mercury RA 140.7624 87×φ golden (63.75)
+    - [Moon] J Ankaa → J Mercury Dec 27.9811 28 whole (0.32)
+    - [Sun] H Altair → H Mercury Dec 25.9915 26 whole (33.14)
+  - Rahu: Jupiter, Moon — also: 1 Java Point / Jonathan Burke, 2 Isolate / Liam Harrison
+    - [Jupiter] H Denebola → H Rahu RA 11.9809 12 whole (0.22)
+    - [Jupiter] J Ras Algethi → J Rahu RA 120.0016 120 whole (84.85)
+    - [Moon] H Vega → H Rahu RA 89.9836 90 whole (3.26)
+    - [Moon] J Alphecca → J Rahu RA 144.9924 145 whole (38.58)
+  - Sedna: Jupiter, Moon — also: 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
+    - [Jupiter] H Denebola → H Sedna RA 122.9722 φ^10 phi power (93.70)
+    - [Jupiter] J Denebola → J Sedna Dec 11.1153 11.1111 ninth (93.20)
+    - [Moon] J Alphecca → J Sedna RA 166.6685 166.667 ninth (99.84)
+  - Jupiter: Jupiter, Moon, Sun — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+    - [Jupiter] S Rukbat → H Jupiter RA 153.7214 95×φ golden (55.92)
+    - [Moon] H Vega → H Jupiter RA 141.9896 142 whole (22.81)
+    - [Sun] S Rukbat → H Jupiter RA 153.7214 95×φ golden (55.92)
+  - Venus: Jupiter, Sun — also: 5 Jimmy The Digger / Richard Patrick, 7 Fanamix / Ben Jones
+    - [Jupiter] H Rukbat → H Venus RA 79.9948 80 whole (54.98)
+    - [Sun] H Rukbat → H Venus RA 79.9948 80 whole (54.98)
+  - Makemake: Jupiter, Moon, Sun — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan, 7 Fanamix / Ben Jones
+    - [Jupiter] H Rukbat → H Makemake Dec 66.6610 66.6667 ninth (95.10)
+    - [Moon] J Al Rescha → J Makemake Dec 33.3393 33.3333 ninth (92.82)
+    - [Sun] H Rukbat → H Makemake Dec 66.6610 66.6667 ninth (95.10)
+  - Chiron: Jupiter, Sun — also: 1 Java Point / Jonathan Burke
+    - [Jupiter] H Vindemiatrix → H Chiron RA 150.4955 93×φ golden (18.84)
+    - [Jupiter] S Jupiter → J Chiron Dec 28.9987 29 whole (87.30)
+    - [Jupiter] J Ras Algethi → J Chiron Dec 2.9936 3 whole (46.17)
+    - [Jupiter] J Rukbat → J Chiron Dec 58.0022 58 whole (79.01)
+    - [Sun] J Rukbat → J Chiron Dec 58.0022 58 whole (79.01)
+  - Pluto: Jupiter, Moon — also: 2 Isolate / Liam Harrison
+    - [Jupiter] S Jupiter → J Pluto RA 113.2643 70×φ golden (88.34)
+    - [Jupiter] J Denebola → J Pluto RA 44.0095 44 whole (27.47)
+    - [Moon] S Pluto → J Pluto RA 77.0131 77 whole (11.97)
+    - [Moon] J Al Rescha → J Pluto Dec 2.0005 2 whole (94.96)
+  - Eris: Jupiter, Moon — also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick
+    - [Jupiter] J Ras Algethi → J Eris RA 122.9211 φ^10 phi power (78.30)
+    - [Moon] J Ankaa → J Eris RA 15.0038 15 whole (65.64)
+
+## 5 Jimmy The Digger / Richard Patrick
+### L1 same bodies
+- S Sun → H Sun RA 69.9977 70 whole (78.17)
+- S Sun → H Sun Dec 22.6707 14×φ golden (loose)
+- S Mercury → H Mercury RA 27.0039 27 whole (65.06)
+- S Venus → H Venus Dec 15.9785 16 whole (loose)
+- S Pluto → H Pluto Dec 2.9749 3 whole (loose)
+- S Vesta → H Vesta Dec 44.0053 44 whole (54.14)
+- S Eris → H Eris Dec 2.0220 2 whole (loose)
+- S Makemake → H Makemake RA 7.9944 8 whole (51.91)
+- S Gonggong → H Gonggong RA 1.1108 1.11111 ninth (loose)
+- S Gonggong → H Gonggong Dec 1.9994 2 whole (93.83)
+- S Sun → J Sun Dec 19.9730 20 whole (loose)
+- S Mars → J Mars RA 36.9857 37 whole (8.10)
+- S Uranus → J Uranus Dec 35.9847 36 whole (5.50)
+- S Pluto → J Pluto Dec 15.5842 15.5556 ninth (loose)
+- S Pallas → J Pallas RA 174.0185 174 whole (0.60)
+- S Sedna → J Sedna RA 13.2914 13.3333 ninth (loose)
+- S Makemake → J Makemake RA 24.1303 24.14 silver (loose)
+- S Quaoar → J Quaoar RA 35.9809 36 whole (0.22)
+### L2 what lands on each same body
+- **H Sun** (same body: S Sun → H Sun RA 69.9977 70 whole (78.17); S Sun → H Sun Dec 22.6707 14×φ golden (loose))
+  - top rows: S Sun → H Sun RA 69.9977 70 whole (78.17) [Sun]
+  - star rows: H Alphecca → H Sun RA 128.0100 128 whole (25.12) [Moon]
+  - star rows: H Alphecca → H Sun Dec 25.9820 26 whole (1.01) [Moon]
+  - star rows: H Altair → H Sun RA 63.9904 64 whole (27.27) [Sun]
+  - star rows: H Rukbat → H Sun RA 70.7166 70.7 sqrt2 (96.69) [Jupiter, Sun]
+  - other chart, same body: S Sun → J Sun Dec 19.9730 20 whole (loose)
+  - other chart, top rows: S Jupiter → J Sun RA 149.9949 150 whole (55.20) [Jupiter]
+  - other chart, star rows: J Ankaa → J Sun RA 177.9663 110×φ golden (21.13) [Moon]
+  - other chart, star rows: J Vindemiatrix → J Sun RA 10.9954 11 whole (59.19) [Jupiter]
+- **H Mercury** (same body: S Mercury → H Mercury RA 27.0039 27 whole (65.06))
+  - other chart, star rows: J Denebola → J Mercury Dec 25.0053 25 whole (54.06) [Jupiter]
+  - other chart, star rows: J Vega → J Mercury RA 83.9965 84 whole (67.78) [Moon]
+  - other chart, star rows: J Vindemiatrix → J Mercury RA 0.3011 conj (63.89) [Jupiter]
+- **H Venus** (same body: S Venus → H Venus Dec 15.9785 16 whole (loose))
+  - star rows: H Altair → H Venus RA 63.1063 39×φ golden (82.67) [Sun]
+  - other chart, top rows: S Jupiter → J Venus RA 139.9971 140 whole (73.04) [Jupiter]
+  - other chart, star rows: J Vindemiatrix → J Venus RA 0.9976 1 whole (77.61) [Jupiter]
+- **H Pluto** (same body: S Pluto → H Pluto Dec 2.9749 3 whole (loose))
+  - body line: S Moon → Pluto Dec 31.0058 31 whole (50.26)
+  - star rows: H Rukbat → H Pluto RA 8.9982 9 whole (82.90) [Jupiter, Sun]
+  - other chart, same body: S Pluto → J Pluto Dec 15.5842 15.5556 ninth (loose)
+  - other chart, star rows: J Alphecca → J Pluto RA 5.5552 5.55556 ninth (96.96) [Moon]
+  - other chart, star rows: J Vega → J Pluto RA 40.0116 40 whole (17.58) [Moon]
+  - other chart, star rows: J Vindemiatrix → J Pluto RA 43.6838 27×φ golden (81.61) [Jupiter]
+- **H Vesta** (same body: S Vesta → H Vesta Dec 44.0053 44 whole (54.14))
+  - star rows: H Alphecca → H Vesta RA 156.0016 156 whole (84.55) [Moon]
+  - star rows: H Ras Algethi → H Vesta RA 179.0113 179 whole (18.76) [Jupiter]
+  - other chart, top rows: S Moon → J Vesta Dec 0.1966 conj (11.89) [Moon]
+- **H Eris** (same body: S Eris → H Eris Dec 2.0220 2 whole (loose))
+  - other chart, star rows: J Denebola → J Eris RA 154.0086 154 whole (32.29) [Jupiter]
+  - other chart, star rows: J Ras Algethi → J Eris RA 124.5913 77×φ golden (83.91) [Jupiter]
+  - other chart, star rows: J Vega → J Eris RA 104.0169 104 whole (2.38) [Moon]
+- **H Makemake** (same body: S Makemake → H Makemake RA 7.9944 8 whole (51.91))
+  - other chart, same body: S Makemake → J Makemake RA 24.1303 24.14 silver (loose)
+- **H Gonggong** (same body: S Gonggong → H Gonggong RA 1.1108 1.11111 ninth (loose); S Gonggong → H Gonggong Dec 1.9994 2 whole (93.83))
+  - body line: S Jupiter → Gonggong Dec 0.1496 conj (25.13)
+  - top rows: S Jupiter → H Gonggong RA 0.6857 conj (29.47) [Jupiter]
+  - star rows: H Alphard → H Gonggong RA 166.6764 166.667 ninth (99.17) [Moon]
+  - star rows: H Vega → H Gonggong RA 55.9897 56 whole (23.41) [Moon]
+- **J Sun** (same body: S Sun → J Sun Dec 19.9730 20 whole (loose))
+  - top rows: S Jupiter → J Sun RA 149.9949 150 whole (55.20) [Jupiter]
+  - star rows: J Ankaa → J Sun RA 177.9663 110×φ golden (21.13) [Moon]
+  - star rows: J Vindemiatrix → J Sun RA 10.9954 11 whole (59.19) [Jupiter]
+  - other chart, same body: S Sun → H Sun RA 69.9977 70 whole (78.17)
+  - other chart, same body: S Sun → H Sun Dec 22.6707 14×φ golden (loose)
+  - other chart, top rows: S Sun → H Sun RA 69.9977 70 whole (78.17) [Sun]
+  - other chart, star rows: H Alphecca → H Sun RA 128.0100 128 whole (25.12) [Moon]
+  - other chart, star rows: H Alphecca → H Sun Dec 25.9820 26 whole (1.01) [Moon]
+  - other chart, star rows: H Altair → H Sun RA 63.9904 64 whole (27.27) [Sun]
+  - other chart, star rows: H Rukbat → H Sun RA 70.7166 70.7 sqrt2 (96.69) [Jupiter, Sun]
+- **J Mars** (same body: S Mars → J Mars RA 36.9857 37 whole (8.10))
+  - other chart, star rows: H Ankaa → H Mars RA 0.8045 conj (21.50) [Moon]
+  - other chart, star rows: H Denebola → H Mars RA 169.8986 105×φ golden (71.16) [Jupiter]
+- **J Uranus** (same body: S Uranus → J Uranus Dec 35.9847 36 whole (5.50))
+  - star rows: J Al Rescha → J Uranus Dec 24.1487 24.14 silver (89.49) [Moon]
+  - star rows: J Altair → J Uranus RA 1.0542 conj (8.83) [Sun]
+  - other chart, top rows: S Jupiter → H Uranus Dec 14.1419 14.14 sqrt2 (99.28) [Jupiter]
+  - other chart, star rows: H Al Rescha → H Uranus Dec 0.2335 conj (4.92) [Moon]
+  - other chart, star rows: H Ankaa → H Uranus RA 0.9799 conj (12.02) [Moon]
+  - other chart, star rows: H Vindemiatrix → H Uranus RA 171.9969 172 whole (71.49) [Jupiter]
+- **J Pluto** (same body: S Pluto → J Pluto Dec 15.5842 15.5556 ninth (loose))
+  - body line: S Moon → Pluto Dec 31.0058 31 whole (50.26)
+  - star rows: J Alphecca → J Pluto RA 5.5552 5.55556 ninth (96.96) [Moon]
+  - star rows: J Vega → J Pluto RA 40.0116 40 whole (17.58) [Moon]
+  - star rows: J Vindemiatrix → J Pluto RA 43.6838 27×φ golden (81.61) [Jupiter]
+  - other chart, same body: S Pluto → H Pluto Dec 2.9749 3 whole (loose)
+  - other chart, star rows: H Rukbat → H Pluto RA 8.9982 9 whole (82.90) [Jupiter, Sun]
+- **J Pallas** (same body: S Pallas → J Pallas RA 174.0185 174 whole (0.60))
+  - body line: S Jupiter → Pallas Dec 0.0263 conj (83.23)
+  - body line: S Sun → Pallas RA 61.0023 61 whole (78.49)
+  - star rows: J Altair → J Pallas RA 130.9880 131 whole (16.04) [Sun]
+  - other chart, star rows: H Al Rescha → H Pallas RA 0.6438 conj (32.58) [Moon]
+- **J Sedna** (same body: S Sedna → J Sedna RA 13.2914 13.3333 ninth (loose))
+  - star rows: J Al Rescha → J Sedna Dec 1.9816 2 whole (0.60) [Moon]
+  - other chart, star rows: H Alphecca → H Sedna RA 179.6288 111×φ golden (2.67) [Moon]
+  - other chart, star rows: H Vindemiatrix → H Sedna Dec 3.9840 4 whole (3.98) [Jupiter]
+- **J Makemake** (same body: S Makemake → J Makemake RA 24.1303 24.14 silver (loose))
+  - other chart, same body: S Makemake → H Makemake RA 7.9944 8 whole (51.91)
+- **J Quaoar** (same body: S Quaoar → J Quaoar RA 35.9809 36 whole (0.22))
+  - star rows: J Altair → J Quaoar Dec 22.9999 23 whole (99.50) [Sun]
+  - other chart, top rows: S Jupiter → H Quaoar Dec 4.0007 4 whole (93.44) [Jupiter]
+  - other chart, star rows: H Ras Algethi → H Quaoar Dec 30.0014 30 whole (86.11) [Jupiter]
+  - other chart, star rows: H Rukbat → H Quaoar Dec 25.0005 25 whole (95.09) [Jupiter, Sun]
+### L3 the seven cases (L5 field tag on each)
+- **1. same body on both charts**
+  - Sun — only
+    - S Sun → H Sun RA 69.9977 70 whole (78.17)
+    - S Sun → H Sun Dec 22.6707 14×φ golden (loose)
+    - S Sun → J Sun Dec 19.9730 20 whole (loose)
+  - Pluto — only
+    - S Pluto → H Pluto Dec 2.9749 3 whole (loose)
+    - S Pluto → J Pluto Dec 15.5842 15.5556 ninth (loose)
+  - Makemake — only
+    - S Makemake → H Makemake RA 7.9944 8 whole (51.91)
+    - S Makemake → J Makemake RA 24.1303 24.14 silver (loose)
+- **2. one body in both planes**
+  - H Sun — only
+    - S Sun → H Sun RA 69.9977 70 whole (78.17)
+    - S Sun → H Sun Dec 22.6707 14×φ golden (loose)
+  - H Gonggong — only
+    - S Gonggong → H Gonggong RA 1.1108 1.11111 ninth (loose)
+    - S Gonggong → H Gonggong Dec 1.9994 2 whole (93.83)
+- **3. runner number = sky number**
+  - 14×φ golden — also: 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+    - S Sun → H Sun Dec 22.6707 14×φ golden (loose) = S Moon → Ankaa RA 22.6600 14×φ golden (59.07)
+  - 26 whole — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+    - H Alphecca → H Sun Dec 25.9820 26 whole (1.01) = S Jupiter → Ras Algethi Dec 26.0029 26 whole (73.41)
+  - 26 whole — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+    - H Altair → H Rahu Dec 25.9906 26 whole (27.92) = S Jupiter → Ras Algethi Dec 26.0029 26 whole (73.41)
+- **4. circle divisions**
+  - 3 = 360/120 — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 6 Method Madness / Alex Edwards
+    - S Pluto → H Pluto Dec 2.9749 3 whole (loose)
+  - 2 = 360/180 — also: 4 Wildfire Warrior / Tom O'Brien
+    - S Eris → H Eris Dec 2.0220 2 whole (loose)
+  - 8 = 360/45 — also: 3 Une De La Seniere / Paddy Brennan
+    - S Makemake → H Makemake RA 7.9944 8 whole (51.91)
+  - 2 = 360/180 — also: 4 Wildfire Warrior / Tom O'Brien
+    - S Gonggong → H Gonggong Dec 1.9994 2 whole (93.83)
+  - 4 = 360/90 — also: 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards
+    - S Jupiter → H Quaoar Dec 4.0007 4 whole (93.44)
+  - 24 = 360/15 — also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards
+    - H Denebola → H Juno Dec 23.9974 24 whole (75.68)
+  - 30 = 360/12 — also: 3 Une De La Seniere / Paddy Brennan
+    - H Ras Algethi → H Quaoar Dec 30.0014 30 whole (86.11)
+  - 9 = 360/40 — also: 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards
+    - H Rukbat → H Pluto RA 8.9982 9 whole (82.90)
+  - 20 = 360/18 — also: 7 Fanamix / Ben Jones
+    - S Sun → J Sun Dec 19.9730 20 whole (loose)
+  - 36 = 360/10 — also: 1 Java Point / Jonathan Burke
+    - S Uranus → J Uranus Dec 35.9847 36 whole (5.50)
+  - 36 = 360/10 — also: 1 Java Point / Jonathan Burke
+    - S Quaoar → J Quaoar RA 35.9809 36 whole (0.22)
+  - 8 = 360/45 — also: 3 Une De La Seniere / Paddy Brennan
+    - S Juno → J Jupiter Dec 8.0048 8 whole (57.79)
+  - 1 = 360/360 — also: 1 Java Point / Jonathan Burke, 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien
+    - J Vindemiatrix → J Venus RA 0.9976 1 whole (77.61)
+  - 10 = 360/36 — also: 2 Isolate / Liam Harrison
+    - J Vindemiatrix → J Orcus Dec 10.0036 10 whole (67.55)
+- **5. same number in more than one place**
+  - 2 whole — only
+    - S Eris → H Eris Dec 2.0220 2 whole (loose)
+    - S Gonggong → H Gonggong Dec 1.9994 2 whole (93.83)
+  - 8 whole — only
+    - S Makemake → H Makemake RA 7.9944 8 whole (51.91)
+    - S Juno → J Jupiter Dec 8.0048 8 whole (57.79)
+  - 15.5556 ninth — only
+    - H Al Rescha → H Haumea Dec 15.5538 15.5556 ninth (98.36)
+    - S Pluto → J Pluto Dec 15.5842 15.5556 ninth (loose)
+    - J Jupiter → J Saturn Dec 15.5591 15.5556 ninth (96.69)
+  - 25 whole — only
+    - H Rukbat → H Quaoar Dec 25.0005 25 whole (95.09)
+    - J Denebola → J Mercury Dec 25.0053 25 whole (54.06)
+  - 36 whole — only
+    - S Uranus → J Uranus Dec 35.9847 36 whole (5.50)
+    - S Quaoar → J Quaoar RA 35.9809 36 whole (0.22)
+  - 24.14 silver — also: 4 Wildfire Warrior / Tom O'Brien
+    - S Makemake → J Makemake RA 24.1303 24.14 silver (loose)
+    - J Al Rescha → J Uranus Dec 24.1487 24.14 silver (89.49)
+  - 118 whole — only
+    - J Jupiter → J star Ankaa RA 118.0035 118 whole (68.46)
+    - S Ankaa → J Jupiter RA 117.9972 118 whole (74.19)
+  - 100×φ^1 phi power — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan
+    - J Al Rescha → J Haumea RA 161.8836 100×φ^1 phi power (81.17)
+    - J Ankaa → J Rahu RA 161.8688 100×φ^1 phi power (84.49)
+- **6. star and sky line on one body**: none
+- **7. centres meeting**
+  - Pluto: Jupiter, Moon, Sun — also: 6 Method Madness / Alex Edwards
+    - [Jupiter] H Rukbat → H Pluto RA 8.9982 9 whole (82.90)
+    - [Jupiter] J Vindemiatrix → J Pluto RA 43.6838 27×φ golden (81.61)
+    - [Moon] S Pluto → H Pluto Dec 2.9749 3 whole (loose)
+    - [Moon] S Pluto → J Pluto Dec 15.5842 15.5556 ninth (loose)
+    - [Moon] J Alphecca → J Pluto RA 5.5552 5.55556 ninth (96.96)
+    - [Moon] J Vega → J Pluto RA 40.0116 40 whole (17.58)
+    - [Sun] H Rukbat → H Pluto RA 8.9982 9 whole (82.90)
+  - Gonggong: Jupiter, Moon — also: 6 Method Madness / Alex Edwards
+    - [Jupiter] S Gonggong → H Gonggong RA 1.1108 1.11111 ninth (loose)
+    - [Jupiter] S Gonggong → H Gonggong Dec 1.9994 2 whole (93.83)
+    - [Jupiter] S Jupiter → H Gonggong RA 0.6857 conj (29.47)
+    - [Moon] H Alphard → H Gonggong RA 166.6764 166.667 ninth (99.17)
+    - [Moon] H Vega → H Gonggong RA 55.9897 56 whole (23.41)
+  - Uranus: Jupiter, Moon, Sun — also: 2 Isolate / Liam Harrison
+    - [Jupiter] S Jupiter → H Uranus Dec 14.1419 14.14 sqrt2 (99.28)
+    - [Jupiter] H Vindemiatrix → H Uranus RA 171.9969 172 whole (71.49)
+    - [Moon] H Al Rescha → H Uranus Dec 0.2335 conj (4.92)
+    - [Moon] H Ankaa → H Uranus RA 0.9799 conj (12.02)
+    - [Moon] J Al Rescha → J Uranus Dec 24.1487 24.14 silver (89.49)
+    - [Sun] J Altair → J Uranus RA 1.0542 conj (8.83)
+  - Neptune: Jupiter, Moon — also: 2 Isolate / Liam Harrison, 7 Fanamix / Ben Jones
+    - [Jupiter] S Jupiter → H Neptune RA 1.3081 conj (1.64)
+    - [Jupiter] H Denebola → H Neptune RA 158.5785 98×φ golden (43.07)
+    - [Moon] J Ankaa → J Neptune RA 72.0093 72 whole (28.77)
+  - Ceres: Jupiter, Moon — only
+    - [Jupiter] S Jupiter → H Ceres RA 110.9850 10×φ^5 phi power (72.21)
+    - [Jupiter] H Ras Algethi → H Ceres RA 173.1392 107×φ golden (49.44)
+    - [Jupiter] H Vindemiatrix → H Ceres RA 110.0245 68×φ golden (88.89)
+    - [Moon] H Al Rescha → H Ceres RA 55.0164 34×φ golden (80.71)
+    - [Moon] J Ankaa → J Ceres Dec 44.4485 44.4444 ninth (95.72)
+  - Quaoar: Jupiter, Sun — only
+    - [Jupiter] S Jupiter → H Quaoar Dec 4.0007 4 whole (93.44)
+    - [Jupiter] H Ras Algethi → H Quaoar Dec 30.0014 30 whole (86.11)
+    - [Jupiter] H Rukbat → H Quaoar Dec 25.0005 25 whole (95.09)
+    - [Sun] H Rukbat → H Quaoar Dec 25.0005 25 whole (95.09)
+    - [Sun] J Altair → J Quaoar Dec 22.9999 23 whole (99.50)
+  - Sun: Jupiter, Moon, Sun — also: 2 Isolate / Liam Harrison
+    - [Jupiter] H Rukbat → H Sun RA 70.7166 70.7 sqrt2 (96.69)
+    - [Jupiter] S Jupiter → J Sun RA 149.9949 150 whole (55.20)
+    - [Jupiter] J Vindemiatrix → J Sun RA 10.9954 11 whole (59.19)
+    - [Moon] H Alphecca → H Sun RA 128.0100 128 whole (25.12)
+    - [Moon] H Alphecca → H Sun Dec 25.9820 26 whole (1.01)
+    - [Moon] J Ankaa → J Sun RA 177.9663 110×φ golden (21.13)
+    - [Sun] S Sun → H Sun RA 69.9977 70 whole (78.17)
+    - [Sun] H Altair → H Sun RA 63.9904 64 whole (27.27)
+    - [Sun] H Rukbat → H Sun RA 70.7166 70.7 sqrt2 (96.69)
+  - Pallas: Jupiter, Moon, Sun — also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards
+    - [Jupiter] S Pallas → J Pallas RA 174.0185 174 whole (0.60)
+    - [Moon] H Al Rescha → H Pallas RA 0.6438 conj (32.58)
+    - [Sun] S Pallas → J Pallas RA 174.0185 174 whole (0.60)
+    - [Sun] J Altair → J Pallas RA 130.9880 131 whole (16.04)
+  - Orcus: Jupiter, Moon — also: 1 Java Point / Jonathan Burke, 7 Fanamix / Ben Jones
+    - [Jupiter] J Denebola → J Orcus RA 42.0021 42 whole (80.04)
+    - [Jupiter] J Vindemiatrix → J Orcus Dec 10.0036 10 whole (67.55)
+    - [Moon] H Alphard → H Orcus Dec 1.0197 1 whole (0.02)
+  - Jupiter: Jupiter, Moon, Sun — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+    - [Jupiter] S Denebola → H Jupiter Dec 6.9907 7 whole (28.87)
+    - [Jupiter] S Juno → J Jupiter Dec 8.0048 8 whole (57.79)
+    - [Jupiter] S Vesta → J Jupiter Dec 0.1468 conj (26.08)
+    - [Moon] S Alphecca → H Jupiter RA 165.0518 102×φ golden (38.47)
+    - [Moon] S Juno → J Jupiter Dec 8.0048 8 whole (57.79)
+    - [Moon] S Ankaa → J Jupiter RA 117.9972 118 whole (74.19)
+    - [Sun] S Juno → J Jupiter Dec 8.0048 8 whole (57.79)
+  - Vesta: Jupiter, Moon — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan
+    - [Jupiter] H Ras Algethi → H Vesta RA 179.0113 179 whole (18.76)
+    - [Moon] H Alphecca → H Vesta RA 156.0016 156 whole (84.55)
+    - [Moon] S Moon → J Vesta Dec 0.1966 conj (11.89)
+  - Sedna: Jupiter, Moon — also: 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards
+    - [Jupiter] H Vindemiatrix → H Sedna Dec 3.9840 4 whole (3.98)
+    - [Moon] H Alphecca → H Sedna RA 179.6288 111×φ golden (2.67)
+    - [Moon] J Al Rescha → J Sedna Dec 1.9816 2 whole (0.60)
+  - Venus: Jupiter, Sun — also: 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones
+    - [Jupiter] S Jupiter → J Venus RA 139.9971 140 whole (73.04)
+    - [Jupiter] J Vindemiatrix → J Venus RA 0.9976 1 whole (77.61)
+    - [Sun] H Altair → H Venus RA 63.1063 39×φ golden (82.67)
+  - Rahu: Moon, Sun — only
+    - [Moon] J Alphecca → J Rahu Dec 36.9910 37 whole (30.08)
+    - [Moon] J Ankaa → J Rahu RA 161.8688 100×φ^1 phi power (84.49)
+    - [Sun] H Altair → H Rahu Dec 25.9906 26 whole (27.92)
+    - [Sun] J Altair → J Rahu RA 92.9881 93 whole (16.52)
+  - Mars: Jupiter, Moon — also: 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones
+    - [Jupiter] H Denebola → H Mars RA 169.8986 105×φ golden (71.16)
+    - [Moon] H Ankaa → H Mars RA 0.8045 conj (21.50)
+  - Juno: Jupiter, Moon — also: 2 Isolate / Liam Harrison, 6 Method Madness / Alex Edwards
+    - [Jupiter] H Denebola → H Juno Dec 23.9974 24 whole (75.68)
+    - [Jupiter] S Jupiter → J Juno Dec 0.1566 conj (22.83)
+    - [Moon] J Alphard → J Juno RA 122.2776 122.222 ninth (92.34)
+  - Transpluto: Jupiter, Moon, Sun — also: 3 Une De La Seniere / Paddy Brennan
+    - [Jupiter] J Jupiter → J Transpluto Dec 34.9945 35 whole (52.56)
+    - [Jupiter] J Rukbat → J Transpluto RA 144.4425 144.444 ninth (99.80)
+    - [Jupiter] J Vindemiatrix → J Transpluto RA 49.0086 49 whole (32.44)
+    - [Moon] J Al Rescha → J Transpluto RA 116.0143 116 whole (8.26)
+    - [Sun] J Rukbat → J Transpluto RA 144.4425 144.444 ninth (99.80)
+  - Mercury: Jupiter, Moon — also: 3 Une De La Seniere / Paddy Brennan, 7 Fanamix / Ben Jones
+    - [Jupiter] J Denebola → J Mercury Dec 25.0053 25 whole (54.06)
+    - [Jupiter] J Vindemiatrix → J Mercury RA 0.3011 conj (63.89)
+    - [Moon] J Vega → J Mercury RA 83.9965 84 whole (67.78)
+  - Eris: Jupiter, Moon — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien
+    - [Jupiter] J Denebola → J Eris RA 154.0086 154 whole (32.29)
+    - [Jupiter] J Ras Algethi → J Eris RA 124.5913 77×φ golden (83.91)
+    - [Moon] J Vega → J Eris RA 104.0169 104 whole (2.38)
+
+## 6 Method Madness / Alex Edwards
+### L1 same bodies
+- S Mars → H Mars RA 177.5953 177.778 ninth (loose)
+- S Pallas → H Pallas Dec 36.9871 37 whole (12.66)
+- S Quaoar → H Quaoar RA 8.8814 8.88889 ninth (loose)
+- S Gonggong → H Gonggong Dec 1.3291 1.33333 ninth (loose)
+- S Transpluto → H Transpluto RA 3.0228 3 whole (loose)
+- S Mars → J Mars RA 8.9721 9 whole (loose)
+- S Jupiter → J Jupiter RA 118.0113 118 whole (18.80)
+- S Jupiter → J Jupiter Dec 34.9772 35 whole (loose)
+- S Ceres → J Ceres RA 24.9970 25 whole (72.18)
+- S Rahu → J Rahu RA 99.0152 99 whole (5.64)
+- S Eris → J Eris RA 3.9968 4 whole (70.59)
+- S Ketu → J Ketu RA 99.0152 99 whole (5.64)
+### L2 what lands on each same body
+- **H Mars** (same body: S Mars → H Mars RA 177.5953 177.778 ninth (loose))
+  - star rows: H Ras Algethi → H Mars Dec 9.0051 9 whole (55.60) [Jupiter]
+  - star rows: H Rukbat → H Mars Dec 64.0098 64 whole (26.04) [Jupiter, Sun]
+  - other chart, same body: S Mars → J Mars RA 8.9721 9 whole (loose)
+- **H Pallas** (same body: S Pallas → H Pallas Dec 36.9871 37 whole (12.66))
+  - body line: S Jupiter → Pallas Dec 0.0263 conj (83.23)
+  - body line: S Sun → Pallas RA 61.0023 61 whole (78.49)
+  - star rows: H Ras Algethi → H Pallas Dec 11.0098 11 whole (26.05) [Jupiter]
+  - star rows: H Rukbat → H Pallas Dec 66.0145 66 whole (7.56) [Jupiter, Sun]
+  - star rows: H Vindemiatrix → H Pallas Dec 14.4401 14.4444 ninth (95.38) [Jupiter]
+  - other chart, star rows: J Vega → J Pallas Dec 53.9850 54 whole (6.36) [Moon]
+  - other chart, star rows: J Vindemiatrix → J Pallas RA 179.4160 10×φ^6 phi power (94.13) [Jupiter]
+- **H Quaoar** (same body: S Quaoar → H Quaoar RA 8.8814 8.88889 ninth (loose))
+  - star rows: H Altair → H Quaoar Dec 24.2781 15×φ golden (58.69) [Sun]
+  - star rows: H Denebola → H Quaoar Dec 29.9816 30 whole (0.64) [Jupiter]
+  - other chart, star rows: J Alphecca → J Quaoar RA 1.4191 conj (0.29) [Moon]
+- **H Gonggong** (same body: S Gonggong → H Gonggong Dec 1.3291 1.33333 ninth (loose))
+  - body line: S Jupiter → Gonggong Dec 0.1496 conj (25.13)
+  - top rows: S Jupiter → H Gonggong RA 1.4829 conj (0.01) [Jupiter]
+  - star rows: H Al Rescha → H Gonggong Dec 15.5562 15.5556 ninth (99.38) [Moon]
+- **H Transpluto** (same body: S Transpluto → H Transpluto RA 3.0228 3 whole (loose))
+  - body line: S Jupiter → Transpluto RA 179.4560 10×φ^6 phi power (97.05)
+  - star rows: H Altair → H Transpluto RA 145.6424 90×φ golden (16.14) [Sun]
+  - other chart, star rows: J Ras Algethi → J Transpluto Dec 0.2039 conj (10.25) [Jupiter]
+- **J Mars** (same body: S Mars → J Mars RA 8.9721 9 whole (loose))
+  - other chart, same body: S Mars → H Mars RA 177.5953 177.778 ninth (loose)
+  - other chart, star rows: H Ras Algethi → H Mars Dec 9.0051 9 whole (55.60) [Jupiter]
+  - other chart, star rows: H Rukbat → H Mars Dec 64.0098 64 whole (26.04) [Jupiter, Sun]
+- **J Jupiter** (same body: S Jupiter → J Jupiter RA 118.0113 118 whole (18.80); S Jupiter → J Jupiter Dec 34.9772 35 whole (loose))
+  - top rows: S Sun → J Jupiter Dec 45.3057 28×φ golden (95.62) [Jupiter, Sun]
+  - star rows: J Ankaa → J Jupiter RA 85.9834 86 whole (2.83) [Moon]
+  - star rows: S Rukbat → J Jupiter Dec 63.9809 64 whole (0.22) [Jupiter, Sun]
+  - star rows: J Vindemiatrix → J Jupiter RA 102.9966 103 whole (68.93) [Jupiter]
+  - other chart, top rows: S Pallas → H Jupiter RA 147.2416 91×φ golden (97.10) [Jupiter, Sun]
+  - other chart, star rows: S Ankaa → H Jupiter RA 133.3607 133.333 ninth (96.72) [Moon]
+  - other chart, star rows: S Vindemiatrix → H Jupiter Dec 5.5559 5.55556 ninth (97.05) [Jupiter]
+- **J Ceres** (same body: S Ceres → J Ceres RA 24.9970 25 whole (72.18))
+  - other chart, star rows: H Alphecca → H Ceres Dec 52.0114 52 whole (18.52) [Moon]
+  - other chart, star rows: H Ankaa → H Ceres Dec 17.0078 17 whole (37.11) [Moon]
+- **J Rahu** (same body: S Rahu → J Rahu RA 99.0152 99 whole (5.64))
+  - other chart, star rows: H Altair → H Rahu RA 111.1401 111.111 ninth (95.25) [Sun]
+  - other chart, star rows: H Ankaa → H Rahu RA 179.9924 180 whole (38.67) [Moon]
+  - other chart, star rows: H Vindemiatrix → H Rahu RA 8.9835 9 whole (3.04) [Jupiter]
+- **J Eris** (same body: S Eris → J Eris RA 3.9968 4 whole (70.59))
+- **J Ketu** (same body: S Ketu → J Ketu RA 99.0152 99 whole (5.64))
+  - star rows: J Altair → J Ketu Dec 6.9987 7 whole (87.72) [Sun]
+  - other chart, top rows: S Jupiter → H Ketu Dec 14.4498 14.4444 ninth (94.30) [Jupiter]
+  - other chart, star rows: H Al Rescha → H Ketu Dec 0.0731 conj (57.21) [Moon]
+  - other chart, star rows: H Ankaa → H Ketu RA 0.0076 conj (98.99) [Moon]
+  - other chart, star rows: H Vindemiatrix → H Ketu RA 171.0165 171 whole (3.04) [Jupiter]
+### L3 the seven cases (L5 field tag on each)
+- **1. same body on both charts**
+  - Mars — only
+    - S Mars → H Mars RA 177.5953 177.778 ninth (loose)
+    - S Mars → J Mars RA 8.9721 9 whole (loose)
+- **2. one body in both planes**
+  - J Jupiter — only
+    - S Jupiter → J Jupiter RA 118.0113 118 whole (18.80)
+    - S Jupiter → J Jupiter Dec 34.9772 35 whole (loose)
+- **3. runner number = sky number**
+  - 14×φ golden — also: 5 Jimmy The Digger / Richard Patrick, 7 Fanamix / Ben Jones
+    - S Sun → H Chiron Dec 22.6533 14×φ golden (95.21) = S Moon → Ankaa RA 22.6600 14×φ golden (59.07)
+  - 26 whole — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 7 Fanamix / Ben Jones
+    - H Alphecca → H Chiron Dec 26.0037 26 whole (66.57) = S Jupiter → Ras Algethi Dec 26.0029 26 whole (73.41)
+  - 17 whole — also: 1 Java Point / Jonathan Burke, 2 Isolate / Liam Harrison, 7 Fanamix / Ben Jones
+    - H Ankaa → H Ceres Dec 17.0078 17 whole (37.11) = S Moon → Alphard Dec 16.9991 17 whole (91.06)
+  - 10×φ^6 phi power — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones
+    - J Vindemiatrix → J Pallas RA 179.4160 10×φ^6 phi power (94.13) = S Jupiter → Transpluto RA 179.4560 10×φ^6 phi power (97.05)
+- **4. circle divisions**
+  - 3 = 360/120 — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick
+    - S Transpluto → H Transpluto RA 3.0228 3 whole (loose)
+  - 3 = 360/120 — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick
+    - H Jupiter → H Juno RA 3.0032 3 whole (70.84)
+  - 5 = 360/72 — also: 3 Une De La Seniere / Paddy Brennan, 7 Fanamix / Ben Jones
+    - H Alphecca → H Saturn RA 4.9971 5 whole (72.70)
+  - 24 = 360/15 — also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick
+    - H Alphecca → H Haumea RA 23.9991 24 whole (91.56)
+  - 9 = 360/40 — also: 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick
+    - H Ras Algethi → H Mars Dec 9.0051 9 whole (55.60)
+  - 9 = 360/40 — also: 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick
+    - S Mars → J Mars RA 8.9721 9 whole (loose)
+  - 4 = 360/90 — also: 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick
+    - S Eris → J Eris RA 3.9968 4 whole (70.59)
+- **5. same number in more than one place**
+  - 3 whole — only
+    - S Transpluto → H Transpluto RA 3.0228 3 whole (loose)
+    - H Jupiter → H Juno RA 3.0032 3 whole (70.84)
+  - 133.333 ninth — only
+    - H Jupiter → H star Ankaa RA 133.3623 133.333 ninth (96.52)
+    - S Ankaa → H Jupiter RA 133.3607 133.333 ninth (96.72)
+  - 14.4444 ninth — only
+    - S Jupiter → H Ketu Dec 14.4498 14.4444 ninth (94.30)
+    - H Vindemiatrix → H Pallas Dec 14.4401 14.4444 ninth (95.38)
+  - 111.111 ninth — only
+    - H Altair → H Rahu RA 111.1401 111.111 ninth (95.25)
+    - S Moon → J Uranus RA 111.1929 111.111 ninth (86.62)
+  - 9 whole — only
+    - H Ras Algethi → H Mars Dec 9.0051 9 whole (55.60)
+    - S Mars → J Mars RA 8.9721 9 whole (loose)
+  - 35 whole — only
+    - H Ras Algethi → H Pluto Dec 34.9961 35 whole (64.66)
+    - S Jupiter → J Jupiter Dec 34.9772 35 whole (loose)
+  - 99 whole — only
+    - S Rahu → J Rahu RA 99.0152 99 whole (5.64)
+    - S Ketu → J Ketu RA 99.0152 99 whole (5.64)
+  - 103 whole — only
+    - J Jupiter → J star Vindemiatrix RA 102.9966 103 whole (68.93)
+    - J Vindemiatrix → J Jupiter RA 102.9966 103 whole (68.93)
+- **6. star and sky line on one body**
+  - H Ketu on Al Rescha — only
+    - H Al Rescha → H Ketu Dec 0.0731 conj (57.21)
+    - S Jupiter → H Ketu Dec 14.4498 14.4444 ninth (94.30)
+  - H Ketu on Ankaa — only
+    - H Ankaa → H Ketu RA 0.0076 conj (98.99)
+    - S Jupiter → H Ketu Dec 14.4498 14.4444 ninth (94.30)
+- **7. centres meeting**
+  - Pallas: Jupiter, Moon, Sun — also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick
+    - [Jupiter] S Pallas → H Pallas Dec 36.9871 37 whole (12.66)
+    - [Jupiter] H Ras Algethi → H Pallas Dec 11.0098 11 whole (26.05)
+    - [Jupiter] H Rukbat → H Pallas Dec 66.0145 66 whole (7.56)
+    - [Jupiter] H Vindemiatrix → H Pallas Dec 14.4401 14.4444 ninth (95.38)
+    - [Jupiter] J Vindemiatrix → J Pallas RA 179.4160 10×φ^6 phi power (94.13)
+    - [Moon] J Vega → J Pallas Dec 53.9850 54 whole (6.36)
+    - [Sun] S Pallas → H Pallas Dec 36.9871 37 whole (12.66)
+    - [Sun] H Rukbat → H Pallas Dec 66.0145 66 whole (7.56)
+  - Gonggong: Jupiter, Moon — also: 5 Jimmy The Digger / Richard Patrick
+    - [Jupiter] S Gonggong → H Gonggong Dec 1.3291 1.33333 ninth (loose)
+    - [Jupiter] S Jupiter → H Gonggong RA 1.4829 conj (0.01)
+    - [Moon] H Al Rescha → H Gonggong Dec 15.5562 15.5556 ninth (99.38)
+  - Transpluto: Jupiter, Sun — also: 1 Java Point / Jonathan Burke
+    - [Jupiter] S Transpluto → H Transpluto RA 3.0228 3 whole (loose)
+    - [Jupiter] J Ras Algethi → J Transpluto Dec 0.2039 conj (10.25)
+    - [Sun] H Altair → H Transpluto RA 145.6424 90×φ golden (16.14)
+  - Juno: Jupiter, Moon — also: 2 Isolate / Liam Harrison, 5 Jimmy The Digger / Richard Patrick
+    - [Jupiter] H Jupiter → H Juno RA 3.0032 3 whole (70.84)
+    - [Moon] H Alphard → H Juno RA 1.0408 conj (9.37)
+  - Venus: Jupiter, Moon — only
+    - [Jupiter] S Jupiter → H Venus RA 148.8500 92×φ golden (51.74)
+    - [Moon] J Vega → J Venus Dec 52.9858 53 whole (8.41)
+  - Ketu: Jupiter, Moon, Sun — only
+    - [Jupiter] S Jupiter → H Ketu Dec 14.4498 14.4444 ninth (94.30)
+    - [Jupiter] H Vindemiatrix → H Ketu RA 171.0165 171 whole (3.04)
+    - [Moon] H Al Rescha → H Ketu Dec 0.0731 conj (57.21)
+    - [Moon] H Ankaa → H Ketu RA 0.0076 conj (98.99)
+    - [Sun] J Altair → J Ketu Dec 6.9987 7 whole (87.72)
+  - Chiron: Jupiter, Moon, Sun — only
+    - [Jupiter] J Ras Algethi → J Chiron RA 155.9908 156 whole (29.34)
+    - [Moon] H Alphecca → H Chiron Dec 26.0037 26 whole (66.57)
+    - [Moon] H Ankaa → H Chiron Dec 43.0155 43 whole (5.00)
+    - [Moon] J Alphecca → J Chiron RA 131.0024 131 whole (77.21)
+    - [Sun] S Sun → H Chiron Dec 22.6533 14×φ golden (95.21)
+  - Jupiter: Jupiter, Moon, Sun — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 7 Fanamix / Ben Jones
+    - [Jupiter] S Pallas → H Jupiter RA 147.2416 91×φ golden (97.10)
+    - [Jupiter] S Vindemiatrix → H Jupiter Dec 5.5559 5.55556 ninth (97.05)
+    - [Jupiter] S Sun → J Jupiter Dec 45.3057 28×φ golden (95.62)
+    - [Jupiter] S Rukbat → J Jupiter Dec 63.9809 64 whole (0.22)
+    - [Jupiter] J Vindemiatrix → J Jupiter RA 102.9966 103 whole (68.93)
+    - [Moon] S Ankaa → H Jupiter RA 133.3607 133.333 ninth (96.72)
+    - [Moon] J Ankaa → J Jupiter RA 85.9834 86 whole (2.83)
+    - [Sun] S Pallas → H Jupiter RA 147.2416 91×φ golden (97.10)
+    - [Sun] S Sun → J Jupiter Dec 45.3057 28×φ golden (95.62)
+    - [Sun] S Rukbat → J Jupiter Dec 63.9809 64 whole (0.22)
+  - Neptune: Moon, Sun — only
+    - [Moon] H Alphard → H Neptune Dec 0.0318 conj (79.92)
+    - [Sun] S Sun → J Neptune Dec 0.0118 conj (92.30)
+  - Saturn: Jupiter, Moon, Sun — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien
+    - [Jupiter] H Ras Algethi → H Saturn RA 19.9923 20 whole (37.71)
+    - [Jupiter] J Rukbat → J Saturn RA 0.7190 conj (27.11)
+    - [Moon] H Alphecca → H Saturn RA 4.9971 5 whole (72.70)
+    - [Moon] J Vega → J Saturn RA 11.0177 11 whole (1.31)
+    - [Sun] S Sun → J Saturn RA 1.4430 conj (0.14)
+    - [Sun] S Sun → J Saturn Dec 0.0732 conj (57.18)
+    - [Sun] J Rukbat → J Saturn RA 0.7190 conj (27.11)
+  - Haumea: Jupiter, Moon — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones
+    - [Jupiter] H Ras Algethi → H Haumea RA 48.9885 49 whole (17.95)
+    - [Jupiter] J Denebola → J Haumea RA 10.9976 11 whole (77.07)
+    - [Moon] H Alphecca → H Haumea RA 23.9991 24 whole (91.56)
+    - [Moon] J Alphecca → J Haumea Dec 3.9926 4 whole (39.96)
+  - Vesta: Jupiter, Sun — also: 1 Java Point / Jonathan Burke, 7 Fanamix / Ben Jones
+    - [Jupiter] S Jupiter → J Vesta RA 1.1118 1.11111 ninth (88.39)
+    - [Sun] H Altair → H Vesta Dec 14.0017 14 whole (84.18)
+  - Rahu: Jupiter, Moon, Sun — also: 7 Fanamix / Ben Jones
+    - [Jupiter] H Vindemiatrix → H Rahu RA 8.9835 9 whole (3.04)
+    - [Moon] H Ankaa → H Rahu RA 179.9924 180 whole (38.67)
+    - [Sun] H Altair → H Rahu RA 111.1401 111.111 ninth (95.25)
+  - Quaoar: Jupiter, Moon, Sun — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan
+    - [Jupiter] H Denebola → H Quaoar Dec 29.9816 30 whole (0.64)
+    - [Moon] J Alphecca → J Quaoar RA 1.4191 conj (0.29)
+    - [Sun] H Altair → H Quaoar Dec 24.2781 15×φ golden (58.69)
+  - Makemake: Moon, Sun — only
+    - [Moon] H Ankaa → H Makemake Dec 68.5482 10×φ^4 phi power (95.87)
+    - [Sun] J Altair → J Makemake RA 127.8265 79×φ golden (89.24)
+  - Sedna: Jupiter, Moon — also: 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick
+    - [Jupiter] H Denebola → H Sedna RA 121.9950 122 whole (56.00)
+    - [Moon] J Vega → J Sedna RA 122.2142 122.222 ninth (98.88)
+  - Mars: Jupiter, Sun — also: 2 Isolate / Liam Harrison
+    - [Jupiter] H Ras Algethi → H Mars Dec 9.0051 9 whole (55.60)
+    - [Jupiter] H Rukbat → H Mars Dec 64.0098 64 whole (26.04)
+    - [Sun] H Rukbat → H Mars Dec 64.0098 64 whole (26.04)
+  - Pluto: Jupiter, Moon, Sun — also: 5 Jimmy The Digger / Richard Patrick
+    - [Jupiter] H Ras Algethi → H Pluto Dec 34.9961 35 whole (64.66)
+    - [Jupiter] H Rukbat → H Pluto Dec 20.0086 20 whole (32.34)
+    - [Moon] J Al Rescha → J Pluto Dec 5.0106 5 whole (22.30)
+    - [Moon] J Ankaa → J Pluto RA 136.9943 137 whole (51.23)
+    - [Sun] H Rukbat → H Pluto Dec 20.0086 20 whole (32.34)
+    - [Sun] J Altair → J Pluto Dec 11.1137 11.1111 ninth (95.77)
+  - Orcus: Jupiter, Moon, Sun — also: 4 Wildfire Warrior / Tom O'Brien
+    - [Jupiter] H Vindemiatrix → H Orcus Dec 19.0196 19 whole (0.04)
+    - [Jupiter] J Denebola → J Orcus Dec 10.9857 11 whole (8.21)
+    - [Moon] H Vega → H Orcus RA 129.4196 80×φ golden (8.15)
+    - [Sun] J Altair → J Orcus RA 168.2849 104×φ golden (50.36)
+  - Uranus: Jupiter, Moon — also: 7 Fanamix / Ben Jones
+    - [Jupiter] H Vindemiatrix → H Uranus Dec 3.9850 4 whole (6.16)
+    - [Moon] S Moon → J Uranus RA 111.1929 111.111 ninth (86.62)
+    - [Moon] J Vega → J Uranus RA 1.1890 conj (4.30)
+  - Sun: Jupiter, Moon — also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien
+    - [Jupiter] J Vindemiatrix → J Sun RA 113.2467 70×φ golden (26.52)
+    - [Moon] J Alphard → J Sun Dec 10.0146 10 whole (7.40)
+
+## 7 Fanamix / Ben Jones
+### L1 same bodies
+- S Mars → H Mars RA 95.9821 96 whole (1.15)
+- S Saturn → H Saturn RA 73.0213 73 whole (loose)
+- S Neptune → H Neptune Dec 5.0107 5 whole (21.47)
+- S Pluto → H Pluto RA 12.9466 8×φ golden (85.98)
+- S Juno → H Juno RA 165.8678 166.667 ninth (loose)
+- S Juno → H Juno Dec 19.4366 12×φ golden (loose)
+- S Sedna → H Sedna RA 4.1497 4.14 silver (loose)
+- S Jupiter → J Jupiter RA 51.0117 51 whole (17.34)
+- S Saturn → J Saturn Dec 31.0288 31 whole (loose)
+- S Chiron → J Chiron RA 122.0170 122 whole (2.24)
+### L2 what lands on each same body
+- **H Mars** (same body: S Mars → H Mars RA 95.9821 96 whole (1.15))
+  - star rows: H Vindemiatrix → H Mars Dec 13.9811 14 whole (0.29) [Jupiter]
+  - other chart, star rows: J Alphard → J Mars Dec 14.4421 14.4444 ninth (97.50) [Moon]
+- **H Saturn** (same body: S Saturn → H Saturn RA 73.0213 73 whole (loose))
+  - body line: S Sun → Saturn Dec 4.1426 4.14 silver (96.70)
+  - other chart, same body: S Saturn → J Saturn Dec 31.0288 31 whole (loose)
+  - other chart, star rows: J Altair → J Saturn RA 103.5777 64×φ golden (7.50) [Sun]
+  - other chart, star rows: J Denebola → J Saturn RA 135.9913 136 whole (32.10) [Jupiter]
+- **H Neptune** (same body: S Neptune → H Neptune Dec 5.0107 5 whole (21.47))
+  - star rows: H Ankaa → H Neptune RA 28.0103 28 whole (23.34) [Moon]
+  - star rows: H Vindemiatrix → H Neptune RA 143.0108 143 whole (20.97) [Jupiter]
+- **H Pluto** (same body: S Pluto → H Pluto RA 12.9466 8×φ golden (85.98))
+  - body line: S Moon → Pluto Dec 31.0058 31 whole (50.26)
+  - star rows: H Al Rescha → H Pluto RA 105.1692 65×φ golden (81.99) [Moon]
+  - other chart, star rows: J Altair → J Pluto RA 47.9984 48 whole (84.84) [Sun]
+  - other chart, star rows: J Altair → J Pluto Dec 20.0009 20 whole (91.58) [Sun]
+- **H Juno** (same body: S Juno → H Juno RA 165.8678 166.667 ninth (loose); S Juno → H Juno Dec 19.4366 12×φ golden (loose))
+  - body line: S Sun → Juno RA 0.4578 conj (48.28)
+  - body line: S Moon → Juno RA 98.0009 98 whole (91.15)
+  - other chart, star rows: J Vindemiatrix → J Juno Dec 24.0086 24 whole (32.42) [Jupiter]
+- **H Sedna** (same body: S Sedna → H Sedna RA 4.1497 4.14 silver (loose))
+  - star rows: H Alphecca → H Sedna RA 179.4203 10×φ^6 phi power (95.05) [Moon]
+  - star rows: H Denebola → H Sedna RA 123.0153 123 whole (5.50) [Jupiter]
+  - star rows: H Ras Algethi → H Sedna RA 155.5927 155.556 ninth (96.48) [Jupiter]
+  - other chart, star rows: J Al Rescha → J Sedna RA 16.1893 10×φ^1 phi power (78.97) [Moon]
+  - other chart, star rows: J Altair → J Sedna RA 109.0130 109 whole (12.13) [Sun]
+  - other chart, star rows: J Vindemiatrix → J Sedna RA 148.8339 92×φ golden (4.80) [Jupiter]
+- **J Jupiter** (same body: S Jupiter → J Jupiter RA 51.0117 51 whole (17.34))
+  - top rows: S Eris → J Jupiter RA 0.2612 conj (68.21) [Jupiter]
+  - star rows: J Altair → J Jupiter Dec 0.1318 conj (31.45) [Sun]
+  - star rows: S Vindemiatrix → J Jupiter RA 169.9923 170 whole (37.65) [Jupiter]
+  - other chart, star rows: S Al Rescha → H Jupiter Dec 14.0021 14 whole (79.69) [Moon]
+  - other chart, star rows: H Vega → H Jupiter Dec 22.0158 22 whole (4.32) [Moon]
+- **J Saturn** (same body: S Saturn → J Saturn Dec 31.0288 31 whole (loose))
+  - body line: S Sun → Saturn Dec 4.1426 4.14 silver (96.70)
+  - star rows: J Altair → J Saturn RA 103.5777 64×φ golden (7.50) [Sun]
+  - star rows: J Denebola → J Saturn RA 135.9913 136 whole (32.10) [Jupiter]
+  - other chart, same body: S Saturn → H Saturn RA 73.0213 73 whole (loose)
+- **J Chiron** (same body: S Chiron → J Chiron RA 122.0170 122 whole (2.24))
+  - top rows: S Moon → J Chiron RA 144.4196 144.444 ninth (97.37) [Moon]
+### L3 the seven cases (L5 field tag on each)
+- **1. same body on both charts**
+  - Saturn — also: 4 Wildfire Warrior / Tom O'Brien
+    - S Saturn → H Saturn RA 73.0213 73 whole (loose)
+    - S Saturn → J Saturn Dec 31.0288 31 whole (loose)
+- **2. one body in both planes**
+  - H Juno — only
+    - S Juno → H Juno RA 165.8678 166.667 ninth (loose)
+    - S Juno → H Juno Dec 19.4366 12×φ golden (loose)
+- **3. runner number = sky number**
+  - 4.14 silver — only
+    - S Sedna → H Sedna RA 4.1497 4.14 silver (loose) = S Sun → Saturn Dec 4.1426 4.14 silver (96.70)
+  - 26 whole — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
+    - H Alphard → H Haumea Dec 26.0128 26 whole (12.83) = S Jupiter → Ras Algethi Dec 26.0029 26 whole (73.41)
+  - 139 whole — only
+    - H Alphecca → H Uranus RA 138.9932 139 whole (43.59) = S Jupiter → Vindemiatrix RA 138.9961 139 whole (64.46)
+  - 10×φ^6 phi power — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards
+    - H Alphecca → H Sedna RA 179.4203 10×φ^6 phi power (95.05) = S Jupiter → Transpluto RA 179.4560 10×φ^6 phi power (97.05)
+  - 14×φ golden — also: 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
+    - H Altair → H Sun Dec 22.6587 14×φ golden (65.20) = S Moon → Ankaa RA 22.6600 14×φ golden (59.07)
+  - 17 whole — also: 1 Java Point / Jonathan Burke, 2 Isolate / Liam Harrison, 6 Method Madness / Alex Edwards
+    - H Altair → H Makemake Dec 16.9928 17 whole (40.86) = S Moon → Alphard Dec 16.9991 17 whole (91.06)
+  - 155.556 ninth — only
+    - H Ras Algethi → H Sedna RA 155.5927 155.556 ninth (96.48) = S Moon → Alphecca RA 155.5623 155.556 ninth (99.36)
+  - 31 whole — also: 1 Java Point / Jonathan Burke
+    - S Saturn → J Saturn Dec 31.0288 31 whole (loose) = S Moon → Pluto Dec 31.0058 31 whole (50.26)
+  - 155.556 ninth — only
+    - J Jupiter → J Mercury RA 155.5143 155.556 ninth (96.09) = S Moon → Alphecca RA 155.5623 155.556 ninth (99.36)
+  - 17 whole — also: 1 Java Point / Jonathan Burke, 2 Isolate / Liam Harrison, 6 Method Madness / Alex Edwards
+    - J Denebola → J Makemake Dec 17.0198 17 whole (0.01) = S Moon → Alphard Dec 16.9991 17 whole (91.06)
+- **4. circle divisions**
+  - 5 = 360/72 — also: 3 Une De La Seniere / Paddy Brennan, 6 Method Madness / Alex Edwards
+    - S Neptune → H Neptune Dec 5.0107 5 whole (21.47)
+  - 15 = 360/24 — also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien
+    - J Alphard → J Pallas Dec 15.0017 15 whole (83.76)
+  - 20 = 360/18 — also: 5 Jimmy The Digger / Richard Patrick
+    - J Altair → J Pluto Dec 20.0009 20 whole (91.58)
+- **5. same number in more than one place**
+  - 166.667 ninth — only
+    - S Juno → H Juno RA 165.8678 166.667 ninth (loose)
+    - H Alphard → H Gonggong RA 166.6862 166.667 ninth (98.33)
+  - 14 whole — also: 1 Java Point / Jonathan Burke
+    - H Jupiter → H star Al Rescha Dec 14.0032 14 whole (70.56)
+    - S Al Rescha → H Jupiter Dec 14.0021 14 whole (79.69)
+  - 51 whole — only
+    - H Alphecca → H Ceres Dec 51.0041 51 whole (62.94)
+    - S Jupiter → J Jupiter RA 51.0117 51 whole (17.34)
+  - 155.556 ninth — only
+    - H Ras Algethi → H Sedna RA 155.5927 155.556 ninth (96.48)
+    - J Jupiter → J Mercury RA 155.5143 155.556 ninth (96.09)
+  - 144.444 ninth — also: 1 Java Point / Jonathan Burke
+    - S Moon → J Chiron RA 144.4196 144.444 ninth (97.37)
+    - J Al Rescha → J Quaoar RA 144.4893 144.444 ninth (95.25)
+- **6. star and sky line on one body**: none
+- **7. centres meeting**
+  - Saturn: Jupiter, Sun — only
+    - [Jupiter] J Denebola → J Saturn RA 135.9913 136 whole (32.10)
+    - [Sun] S Saturn → H Saturn RA 73.0213 73 whole (loose)
+    - [Sun] S Saturn → J Saturn Dec 31.0288 31 whole (loose)
+    - [Sun] J Altair → J Saturn RA 103.5777 64×φ golden (7.50)
+  - Pluto: Moon, Sun — only
+    - [Moon] S Pluto → H Pluto RA 12.9466 8×φ golden (85.98)
+    - [Moon] H Al Rescha → H Pluto RA 105.1692 65×φ golden (81.99)
+    - [Sun] J Altair → J Pluto RA 47.9984 48 whole (84.84)
+    - [Sun] J Altair → J Pluto Dec 20.0009 20 whole (91.58)
+  - Juno: Jupiter, Moon, Sun — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan
+    - [Jupiter] J Vindemiatrix → J Juno Dec 24.0086 24 whole (32.42)
+    - [Moon] S Juno → H Juno RA 165.8678 166.667 ninth (loose)
+    - [Moon] S Juno → H Juno Dec 19.4366 12×φ golden (loose)
+    - [Sun] S Juno → H Juno RA 165.8678 166.667 ninth (loose)
+    - [Sun] S Juno → H Juno Dec 19.4366 12×φ golden (loose)
+  - Gonggong: Jupiter, Moon, Sun — also: 3 Une De La Seniere / Paddy Brennan
+    - [Jupiter] S Jupiter → H Gonggong RA 0.6773 conj (30.08)
+    - [Jupiter] H Ras Algethi → H Gonggong Dec 27.5054 17×φ golden (92.66)
+    - [Moon] H Alphard → H Gonggong RA 166.6862 166.667 ninth (98.33)
+    - [Moon] H Vega → H Gonggong RA 55.9855 56 whole (7.43)
+    - [Moon] S Moon → J Gonggong RA 58.0056 58 whole (52.14)
+    - [Moon] J Vega → J Gonggong RA 51.9964 52 whole (67.12)
+    - [Sun] H Altair → H Gonggong Dec 21.9856 22 whole (7.90)
+  - Ceres: Moon, Sun — only
+    - [Moon] H Alphecca → H Ceres RA 51.0132 51 whole (11.62)
+    - [Moon] H Alphecca → H Ceres Dec 51.0041 51 whole (62.94)
+    - [Moon] H Ankaa → H Ceres Dec 18.0176 18 whole (1.44)
+    - [Sun] S Sun → H Ceres RA 7.0029 7 whole (72.88)
+    - [Sun] H Altair → H Ceres RA 13.0077 13 whole (37.68)
+    - [Sun] J Altair → J Ceres RA 122.9703 76×φ golden (98.21)
+  - Jupiter: Jupiter, Moon, Sun — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
+    - [Jupiter] S Eris → J Jupiter RA 0.2612 conj (68.21)
+    - [Jupiter] S Vindemiatrix → J Jupiter RA 169.9923 170 whole (37.65)
+    - [Moon] S Al Rescha → H Jupiter Dec 14.0021 14 whole (79.69)
+    - [Moon] H Vega → H Jupiter Dec 22.0158 22 whole (4.32)
+    - [Sun] J Altair → J Jupiter Dec 0.1318 conj (31.45)
+  - Sun: Moon, Sun — only
+    - [Moon] H Al Rescha → H Sun RA 64.9888 65 whole (19.25)
+    - [Moon] H Alphard → H Sun RA 176.3810 109×φ golden (27.89)
+    - [Sun] H Altair → H Sun Dec 22.6587 14×φ golden (65.20)
+  - Mercury: Jupiter, Moon — also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick
+    - [Jupiter] J Jupiter → J Mercury RA 155.5143 155.556 ninth (96.09)
+    - [Moon] H Alphard → H Mercury Dec 8.9843 9 whole (4.68)
+  - Haumea: Jupiter, Moon — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards
+    - [Jupiter] J Vindemiatrix → J Haumea RA 1.4476 conj (0.12)
+    - [Moon] H Alphard → H Haumea Dec 26.0128 26 whole (12.83)
+    - [Moon] H Ankaa → H Haumea RA 155.3621 96×φ golden (0.21)
+  - Orcus: Jupiter, Moon — also: 1 Java Point / Jonathan Burke, 5 Jimmy The Digger / Richard Patrick
+    - [Jupiter] J Denebola → J Orcus Dec 16.0113 16 whole (18.90)
+    - [Moon] H Alphard → H Orcus Dec 0.2047 conj (10.10)
+  - Uranus: Jupiter, Moon — also: 6 Method Madness / Alex Edwards
+    - [Jupiter] H Ras Algethi → H Uranus RA 114.0061 114 whole (47.96)
+    - [Moon] H Alphecca → H Uranus RA 138.9932 139 whole (43.59)
+  - Sedna: Jupiter, Moon, Sun — also: 3 Une De La Seniere / Paddy Brennan
+    - [Jupiter] H Denebola → H Sedna RA 123.0153 123 whole (5.50)
+    - [Jupiter] H Ras Algethi → H Sedna RA 155.5927 155.556 ninth (96.48)
+    - [Jupiter] J Vindemiatrix → J Sedna RA 148.8339 92×φ golden (4.80)
+    - [Moon] H Alphecca → H Sedna RA 179.4203 10×φ^6 phi power (95.05)
+    - [Moon] J Al Rescha → J Sedna RA 16.1893 10×φ^1 phi power (78.97)
+    - [Sun] J Altair → J Sedna RA 109.0130 109 whole (12.13)
+  - Makemake: Jupiter, Moon, Sun — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien
+    - [Jupiter] H Vindemiatrix → H Makemake RA 1.9853 2 whole (7.07)
+    - [Jupiter] J Denebola → J Makemake Dec 17.0198 17 whole (0.01)
+    - [Jupiter] J Rukbat → J Makemake RA 110.9459 10×φ^5 phi power (84.71)
+    - [Moon] H Ankaa → H Makemake RA 173.0065 173 whole (45.60)
+    - [Sun] H Altair → H Makemake Dec 16.9928 17 whole (40.86)
+    - [Sun] J Rukbat → J Makemake RA 110.9459 10×φ^5 phi power (84.71)
+  - Neptune: Jupiter, Moon — also: 2 Isolate / Liam Harrison, 5 Jimmy The Digger / Richard Patrick
+    - [Jupiter] H Vindemiatrix → H Neptune RA 143.0108 143 whole (20.97)
+    - [Moon] H Ankaa → H Neptune RA 28.0103 28 whole (23.34)
+  - Rahu: Jupiter, Moon, Sun — also: 6 Method Madness / Alex Edwards
+    - [Jupiter] H Denebola → H Rahu Dec 18.8821 18.8889 ninth (95.08)
+    - [Jupiter] J Rukbat → J Rahu RA 161.8638 100×φ^1 phi power (85.63)
+    - [Moon] H Ankaa → H Rahu Dec 37.9984 38 whole (84.68)
+    - [Sun] J Rukbat → J Rahu RA 161.8638 100×φ^1 phi power (85.63)
+  - Vesta: Jupiter, Sun — also: 1 Java Point / Jonathan Burke, 6 Method Madness / Alex Edwards
+    - [Jupiter] H Denebola → H Vesta RA 132.9879 133 whole (15.73)
+    - [Sun] J Altair → J Vesta RA 76.9919 77 whole (35.59)
+  - Pallas: Jupiter, Moon — also: 2 Isolate / Liam Harrison
+    - [Jupiter] H Ras Algethi → H Pallas RA 0.3587 conj (57.89)
+    - [Moon] S Moon → J Pallas Dec 31.9985 32 whole (85.98)
+    - [Moon] J Alphard → J Pallas Dec 15.0017 15 whole (83.76)
+  - Mars: Jupiter, Moon — also: 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick
+    - [Jupiter] H Vindemiatrix → H Mars Dec 13.9811 14 whole (0.29)
+    - [Moon] J Alphard → J Mars Dec 14.4421 14.4444 ninth (97.50)
+  - Venus: Jupiter, Sun — also: 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick
+    - [Jupiter] J Rukbat → J Venus RA 103.0198 103 whole (0.01)
+    - [Sun] J Rukbat → J Venus RA 103.0198 103 whole (0.01)
