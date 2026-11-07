@@ -163,6 +163,11 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   circle divisions, same number several places / N and N×φ), L4 every natal body with every cell on it; 'only' / 'also' on every
   item. Rules in the docstring. Tests `python3 tests/eddie_layers_check.py` (10207/10207); independent checker 0 mismatches on
   Fontwell 14:35, Aintree 15:00, 13:50 6 Nov 2026 and Haydock 14:05 2022. Rules come beyond stage 2 (stage 3), race by race.
+  READ section (Eddie, 7 Nov 2026, his reading hierarchy), first in each layers report: READ 1 same body; READ 2 the noted S Jupiter /
+  S Sun -> star lines (conj incl.) by score, each with its Moon confirmations (Moon to the same star, or a non-conj Moon line on the same
+  number) and per runner the star's star-row cells, the MATCH rows of that sky cell, T1 / T2 natal Jupiter -> star, every other cell on the
+  line's number; READ 3 Jupiter / Sun body lines (listed, not followed); READ 4 Moon only, not active. L0-L4 unchanged. Haydock: 8 lead
+  lines (Sun Regulus first), Moon Diadem confirms Jupiter Diadem, Moon only Eris / Wezen / Pluto. Tests 10444/10444.
 - Stage 3 rules (7 Nov 2026, Eddie: "create the rules for all of these"): `python3 tools/eddie_rules.py docs/eddie_read/<race>_eddie_read.json`
   -> docs/eddie_read/rules/<race>_rules.md + .json (per rule the runners selected and their cells; never reads results). Rules in
   docs/eddie_read/rules.json (text, origin, in_sample races). Set A = register R25, R28, R1b, R7, R26, R40, R42, R1 via tools/race_rows.py

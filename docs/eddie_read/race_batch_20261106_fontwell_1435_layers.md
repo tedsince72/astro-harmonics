@@ -25,6 +25,650 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
 - Hubs: Zubenelgenubi
 
+## READ (reading order, Eddie 7 Nov 2026)
+### READ 1 same body first
+- **1 Fire Flyer / Richie McLernon**
+  - S Mercury → H Mercury RA 166.4606 166.667 ninth (loose)
+  - S Mars → H Mars Dec 37.9815 38 whole (0.58)
+  - S Neptune → H Neptune RA 14.4595 14.4444 ninth (loose)
+  - S Juno → H Juno Dec 18.9787 19 whole (loose)
+  - S Rahu → H Rahu RA 161.6637 100×φ^1 phi power (loose)
+  - S Transpluto → H Transpluto Dec 1.4129 1.414 sqrt2 (loose)
+  - S Ketu → H Ketu RA 161.6637 100×φ^1 phi power (loose)
+  - S Sun → J Sun RA 14.4271 14.4444 ninth (loose)
+  - S Jupiter → J Jupiter RA 161.6366 100×φ^1 phi power (loose)
+  - S Saturn → J Saturn RA 122.9257 φ^10 phi power (79.64)
+  - S Chiron → J Chiron Dec 7.0248 7 whole (loose)
+  - S Pallas → J Pallas RA 179.6607 10×φ^6 phi power (loose)
+  - S Makemake → J Makemake RA 35.9707 36 whole (loose)
+  - S Orcus → J Orcus RA 34.0160 34 whole (4.01)
+  - S Gonggong → J Gonggong Dec 11.1004 11.1111 ninth (loose)
+- **2 Lynx De Thaix / Gavin Sheehan**
+  - S Mercury → H Mercury RA 111.0261 111 whole (loose)
+  - S Saturn → H Saturn RA 57.0047 57 whole (58.49)
+  - S Pluto → H Pluto Dec 1.4482 1.44444 ninth (loose)
+  - S Chiron → H Chiron RA 19.4009 12×φ golden (loose)
+  - S Mercury → J Mercury RA 99.9818 100 whole (0.77)
+  - S Venus → J Venus RA 105.0131 105 whole (11.96)
+  - S Uranus → J Uranus RA 133.9566 133.333 ninth (loose)
+  - S Pluto → J Pluto RA 74.0019 74 whole (82.30)
+  - S Pallas → J Pallas Dec 45.0224 45 whole (loose)
+  - S Vesta → J Vesta Dec 14.0190 14 whole (0.26)
+  - S Sedna → J Sedna Dec 4.2322 φ^3 phi power (loose)
+  - S Makemake → J Makemake Dec 15.5388 15.5556 ninth (loose)
+  - S Orcus → J Orcus Dec 17.0282 17 whole (loose)
+  - S Quaoar → J Quaoar Dec 1.6560 1.66667 ninth (loose)
+  - S Transpluto → J Transpluto RA 12.1622 12.2222 ninth (loose)
+- **3 Donnie Azoff / Isabelle Ryder**
+  - S Pluto → H Pluto RA 18.0199 18 whole (0.00)
+  - S Chiron → H Chiron Dec 8.9804 9 whole (0.04)
+  - S Juno → H Juno Dec 15.4625 15.5556 ninth (loose)
+  - S Haumea → H Haumea RA 10.0239 10 whole (loose)
+  - S Orcus → H Orcus RA 11.0766 φ^5 phi power (loose)
+  - S Gonggong → H Gonggong Dec 2.2162 2.22222 ninth (loose)
+  - S Sun → J Sun Dec 19.3900 12×φ golden (loose)
+  - S Mercury → J Mercury RA 143.5740 144.444 ninth (loose)
+  - S Mars → J Mars RA 97.0827 60×φ golden (96.01)
+  - S Saturn → J Saturn RA 59.8562 37×φ golden (loose)
+  - S Ceres → J Ceres Dec 38.0206 38 whole (loose)
+  - S Rahu → J Rahu RA 111.1926 111.111 ninth (86.67)
+  - S Haumea → J Haumea RA 21.9890 22 whole (20.09)
+  - S Transpluto → J Transpluto Dec 3.2355 2×φ golden (loose)
+  - S Ketu → J Ketu RA 111.1926 111.111 ninth (86.67)
+- **5 He's A Latchico / Caoilin Quinn**
+  - S Sun → H Sun Dec 15.0225 15 whole (loose)
+  - S Uranus → H Uranus Dec 11.0832 φ^5 phi power (loose)
+  - S Sedna → H Sedna RA 5.9849 6 whole (6.06)
+  - S Venus → J Venus RA 144.5527 144.444 ninth (loose)
+  - S Mars → J Mars RA 111.4004 111.111 ninth (loose)
+  - S Mars → J Mars Dec 42.9755 43 whole (loose)
+  - S Ceres → J Ceres Dec 53.3840 33×φ golden (loose)
+  - S Pallas → J Pallas RA 129.0003 129 whole (96.65)
+  - S Pallas → J Pallas Dec 45.0175 45 whole (1.62)
+  - S Juno → J Juno RA 133.5991 133.333 ninth (loose)
+  - S Rahu → J Rahu Dec 36.0170 36 whole (2.28)
+  - S Sedna → J Sedna RA 14.0126 14 whole (13.64)
+  - S Haumea → J Haumea RA 24.0028 24 whole (74.05)
+  - S Makemake → J Makemake Dec 12.2841 12.2222 ninth (loose)
+  - S Transpluto → J Transpluto Dec 3.3268 3.33333 ninth (loose)
+  - S Ketu → J Ketu Dec 36.0170 36 whole (2.28)
+- **6 So You Know / Tom Bellamy**
+  - S Sun → H Sun RA 166.8735 166.667 ninth (loose)
+  - S Mercury → H Mercury Dec 26.1253 10×φ^2 phi power (loose)
+  - S Venus → H Venus RA 165.8219 166.667 ninth (loose)
+  - S Juno → H Juno Dec 7.0796 7.07 sqrt2 (loose)
+  - S Vesta → H Vesta RA 144.8254 144.444 ninth (loose)
+  - S Gonggong → H Gonggong Dec 0.9819 1 whole (0.92)
+  - S Sun → J Sun RA 41.9791 42 whole (loose)
+  - S Mars → J Mars RA 28.9795 29 whole (loose)
+  - S Jupiter → J Jupiter Dec 29.0490 φ^7 phi power (loose)
+  - S Chiron → J Chiron RA 140.8208 141.4 sqrt2 (loose)
+  - S Ceres → J Ceres Dec 0.9856 1 whole (7.83)
+  - S Vesta → J Vesta RA 77.7661 77.7778 ninth (loose)
+  - S Quaoar → J Quaoar RA 42.3162 10×φ^3 phi power (loose)
+- **7 Motazzen / Paul O'Brien**
+  - S Mercury → H Mercury Dec 14.4415 14.4444 ninth (96.86)
+  - S Uranus → H Uranus Dec 11.3014 7×φ golden (loose)
+  - S Neptune → H Neptune RA 16.6412 16.6667 ninth (loose)
+  - S Ceres → H Ceres RA 16.1657 10×φ^1 phi power (loose)
+  - S Eris → H Eris RA 1.3392 1.33333 ninth (loose)
+  - S Jupiter → J Jupiter Dec 4.1475 4.14 silver (loose)
+  - S Uranus → J Uranus RA 140.9632 141.4 sqrt2 (loose)
+  - S Vesta → J Vesta Dec 18.7910 18.8889 ninth (loose)
+  - S Rahu → J Rahu Dec 9.9988 10 whole (88.74)
+  - S Eris → J Eris Dec 9.0168 9 whole (2.54)
+  - S Sedna → J Sedna RA 19.0187 19 whole (0.45)
+  - S Makemake → J Makemake RA 30.7715 19×φ golden (loose)
+  - S Quaoar → J Quaoar Dec 1.5455 1.55556 ninth (loose)
+  - S Transpluto → J Transpluto Dec 4.1411 4.14 silver (loose)
+  - S Ketu → J Ketu Dec 9.9988 10 whole (88.74)
+- **8 The Bellhop / Freddie Mitchell**
+  - S Mars → H Mars RA 136.0223 136 whole (loose)
+  - S Jupiter → H Jupiter RA 166.9263 166.667 ninth (loose)
+  - S Ceres → H Ceres RA 57.9728 58 whole (loose)
+  - S Rahu → H Rahu Dec 32.3615 20×φ golden (95.14)
+  - S Eris → H Eris RA 0.9922 1 whole (37.51)
+  - S Makemake → H Makemake RA 3.0058 3 whole (50.23)
+  - S Ketu → H Ketu Dec 32.3615 20×φ golden (95.14)
+  - S Sun → J Sun Dec 11.9759 12 whole (loose)
+  - S Mercury → J Mercury Dec 2.0112 2 whole (19.36)
+  - S Mars → J Mars RA 22.1857 22.2222 ninth (loose)
+  - S Haumea → J Haumea RA 29.1311 18×φ golden (loose)
+  - S Gonggong → J Gonggong RA 7.0169 7 whole (2.41)
+### READ 2 Jupiter / Sun star lines, highest score first, each in full
+#### 1. S Sun → Difda Dec 2.0002 2 whole (97.91) — runners with cells 7/7
+- Moon confirms: none
+- 1 Fire Flyer / Richie McLernon
+  - star rows: H Difda → H Juno RA 1.3969 conj (0.47) — also: 6 So You Know / Tom Bellamy
+  - star rows: H Difda → H Eris Dec 16.0143 16 whole (8.19) — only
+  - star rows: H Difda → H Makemake RA 176.3647 109×φ golden (93.98) — also: 8 The Bellhop / Freddie Mitchell
+  - star rows: H Difda → H Transpluto Dec 29.1247 18×φ golden (99.17) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+  - star rows: J Difda → J Uranus RA 111.9852 112 whole (6.72) — also: 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+  - star rows: J Difda → J Neptune RA 96.9977 97 whole (78.10) — also: 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy
+  - star rows: J Difda → J Vesta RA 1.3104 conj (1.60) — only
+  - star rows: J Difda → J Eris RA 10.9847 11 whole (5.53) — only
+  - star rows: J Difda → J Transpluto RA 132.7000 82×φ golden (11.97) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+  - MATCH EXACT: H Markab → Haumea Dec 2.0051 2 whole (55.14)
+  - MATCH EXACT: J Mirach → Rahu RA 1.9957 2 whole (61.96)
+- 2 Lynx De Thaix / Gavin Sheehan
+  - star rows: H Difda → H Ceres RA 1.3809 conj (0.63) — also: 8 The Bellhop / Freddie Mitchell
+  - star rows: H Difda → H Ceres Dec 14.0051 14 whole (55.26) — also: 8 The Bellhop / Freddie Mitchell
+  - star rows: H Difda → H Sedna Dec 26.0026 26 whole (75.89) — only
+  - star rows: J Difda → J Ketu Dec 41.4229 41.4 silver (98.53) — also: 3 Donnie Azoff / Isabelle Ryder
+  - MATCH EXACT: H Zosma → Rahu Dec 2.0030 2 whole (71.97)
+  - MATCH EXACT: H Sualocin → Saturn RA 2.0180 2 whole (0.95)
+  - MATCH EXACT: J Menkar → Sedna RA 1.9999 2 whole (99.18)
+  - MATCH EXACT: J Alkes → Saturn Dec 1.9996 2 whole (96.01)
+- 3 Donnie Azoff / Isabelle Ryder
+  - star rows: H Difda → H Haumea RA 160.1838 99×φ golden (90.71) — also: 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+  - star rows: H Difda → H Transpluto RA 141.4604 141.4 sqrt2 (89.27) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+  - star rows: J Difda → J Sun RA 3.0014 3 whole (86.42) — also: 7 Motazzen / Paul O'Brien
+  - star rows: J Difda → J Mars RA 35.9995 36 whole (94.97) — only
+  - star rows: J Difda → J Jupiter Dec 41.4209 41.4 silver (99.52) — also: 7 Motazzen / Paul O'Brien
+  - star rows: J Difda → J Pallas Dec 26.1826 10×φ^2 phi power (96.52) — also: 7 Motazzen / Paul O'Brien
+  - star rows: J Difda → J Ketu RA 111.1114 111.111 ninth (99.96) — also: 2 Lynx De Thaix / Gavin Sheehan
+  - natal Jupiter → star: J Jupiter → J star Difda Dec 41.4209 41.4 silver (99.52) — also: 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+  - MATCH EXACT: H Denebola → Pallas Dec 2.0129 2 whole (12.74)
+  - MATCH EXACT: J Vindemiatrix → Transpluto Dec 2.0046 2 whole (59.51)
+  - same number: J Vindemiatrix → J Transpluto Dec 2.0046 2 whole (59.51) — also: 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+- 5 He's A Latchico / Caoilin Quinn
+  - star rows: H Difda → H Transpluto RA 142.3607 88×φ golden (3.56) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien
+  - star rows: J Difda → J Mercury Dec 37.2114 23×φ golden (80.32) — also: 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Difda → J Uranus RA 43.9864 44 whole (10.22) — also: 1 Fire Flyer / Richie McLernon, 7 Motazzen / Paul O'Brien
+  - star rows: J Difda → J Neptune Dec 0.1253 conj (33.93) — also: 1 Fire Flyer / Richie McLernon, 6 So You Know / Tom Bellamy
+  - MATCH EXACT: H Menkent → Haumea RA 1.9806 2 whole (0.10)
+  - MATCH EXACT: J Rukbat → Ceres RA 2.0060 2 whole (49.17)
+  - MATCH EXACT: J Deneb Algedi → Neptune Dec 1.9838 2 whole (3.69)
+  - MATCH EXACT: J Deneb Algedi → Uranus Dec 2.0176 2 whole (1.46)
+  - MATCH EXACT: J Sirius → Quaoar Dec 2.0185 2 whole (0.56)
+  - same number: J Deneb Algedi → J Uranus Dec 2.0176 2 whole (1.46) — also: 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+  - same number: J Deneb Algedi → J Neptune Dec 1.9838 2 whole (3.69) — also: 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+- 6 So You Know / Tom Bellamy
+  - star rows: H Difda → H Mercury RA 19.0125 19 whole (14.09) — also: 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+  - star rows: H Difda → H Neptune RA 18.0099 18 whole (25.53) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn
+  - star rows: H Difda → H Haumea RA 154.9896 155 whole (23.06) — also: 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien
+  - star rows: H Difda → H Quaoar RA 95.0187 95 whole (0.43) — also: 7 Motazzen / Paul O'Brien
+  - star rows: J Difda → J Chiron RA 155.3491 96×φ golden (20.04) — only
+  - star rows: J Difda → J Juno RA 152.9913 153 whole (32.08) — also: 1 Fire Flyer / Richie McLernon
+  - star rows: J Difda → J Gonggong Dec 0.9842 1 whole (4.49) — also: 8 The Bellhop / Freddie Mitchell
+  - MATCH EXACT: H Aldebaran → Vesta Dec 1.9958 2 whole (62.53)
+  - MATCH EXACT: H Arcturus → Haumea RA 1.9900 2 whole (25.13)
+  - MATCH EXACT: H Pleiades → Rahu Dec 1.9847 2 whole (5.55)
+  - MATCH EXACT: H Zosma → Vesta Dec 2.0194 2 whole (0.10)
+  - same number: H Pleiades → H Rahu Dec 1.9847 2 whole (5.55) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
+- 7 Motazzen / Paul O'Brien
+  - star rows: H Difda → H Sun RA 24.1437 24.14 silver (97.51) — also: 3 Donnie Azoff / Isabelle Ryder
+  - star rows: H Difda → H Jupiter RA 140.0142 140 whole (8.50) — also: 3 Donnie Azoff / Isabelle Ryder
+  - star rows: H Difda → H Uranus RA 13.3337 13.3333 ninth (99.53) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn
+  - star rows: H Difda → H Uranus Dec 27.5008 17×φ golden (67.69) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn
+  - star rows: H Difda → H Quaoar Dec 2.4141 2.414 silver (99.21) — also: 6 So You Know / Tom Bellamy
+  - star rows: H Difda → H Transpluto Dec 28.9915 29 whole (33.07) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn
+  - star rows: J Difda → J Mercury RA 163.0161 163 whole (3.81) — also: 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Difda → J Pallas RA 153.7095 95×φ golden (78.04) — also: 3 Donnie Azoff / Isabelle Ryder
+  - star rows: J Difda → J Haumea Dec 40.0035 40 whole (67.78) — also: 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy
+  - MATCH EXACT: H Menkar → Chiron Dec 1.9995 2 whole (95.04)
+  - MATCH EXACT: H Kaus Australis → Saturn RA 2.0142 2 whole (8.40)
+  - MATCH EXACT: H Sadalmelik → Eris Dec 1.9815 2 whole (0.57)
+  - MATCH EXACT: J Praesepe → Orcus RA 2.0045 2 whole (59.97)
+  - MATCH EXACT: J Acubens → Transpluto Dec 2.0082 2 whole (34.75)
+  - MATCH EXACT: J Spica → Eris Dec 1.9864 2 whole (10.34)
+  - MATCH EXACT: J Acubens → Jupiter Dec 2.0141 2 whole (8.80)
+  - MATCH EXACT: J Facies → Neptune Dec 1.9834 2 whole (2.82)
+- 8 The Bellhop / Freddie Mitchell
+  - star rows: H Difda → H Mercury RA 75.0082 75 whole (34.88) — also: 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+  - star rows: H Difda → H Ceres Dec 38.0061 38 whole (48.01) — also: 2 Lynx De Thaix / Gavin Sheehan
+  - star rows: J Difda → J Venus RA 148.9935 149 whole (45.55) — only
+  - star rows: J Difda → J Makemake RA 163.4043 101×φ golden (22.08) — also: 1 Fire Flyer / Richie McLernon
+  - star rows: J Difda → J Gonggong Dec 1.0017 1 whole (83.26) — also: 6 So You Know / Tom Bellamy
+  - MATCH EXACT: J Alkes → Mercury Dec 2.0009 2 whole (91.65)
+  - MATCH EXACT: J Rigel → Pluto Dec 1.9840 2 whole (4.07)
+  - same number: S Mercury → J Mercury Dec 2.0112 2 whole (19.36) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy
+  - same number: J Rigel → J Pluto Dec 1.9840 2 whole (4.07) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy
+#### 2. S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10) — runners with cells 7/7
+- Moon confirms: none
+- 1 Fire Flyer / Richie McLernon
+  - star rows: H Galactic Centre → H Neptune Dec 22.6507 14×φ golden (89.51) — also: 5 He's A Latchico / Caoilin Quinn
+  - star rows: H Galactic Centre → H Pluto RA 25.9927 26 whole (40.17) — only
+  - star rows: H Galactic Centre → H Ceres RA 122.9215 φ^10 phi power (78.42) — also: 5 He's A Latchico / Caoilin Quinn
+  - star rows: H Galactic Centre → H Gonggong Dec 16.9992 17 whole (91.98) — only
+  - star rows: J Galactic Centre → J Saturn Dec 8.9860 9 whole (8.92) — only
+  - star rows: J Galactic Centre → J Juno Dec 17.0002 17 whole (98.41) — also: 2 Lynx De Thaix / Gavin Sheehan
+  - star rows: J Galactic Centre → J Rahu Dec 37.2175 23×φ golden (83.82) — also: 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn
+  - MATCH EXACT: H Murzim → Ceres Dec 42.9979 43 whole (80.13)
+  - MATCH EXACT: J Castor → Sun Dec 43.0002 43 whole (97.63)
+  - MATCH EXACT: J Acumen → Rahu Dec 43.0036 43 whole (67.54)
+- 2 Lynx De Thaix / Gavin Sheehan
+  - star rows: H Galactic Centre → H Juno RA 4.9801 5 whole (0.00) — also: 1 Fire Flyer / Richie McLernon
+  - star rows: H Galactic Centre → H Rahu RA 166.6520 166.667 ninth (98.75) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn
+  - star rows: H Galactic Centre → H Eris Dec 27.5080 17×φ golden (91.37) — only
+  - star rows: H Galactic Centre → H Orcus RA 110.9627 10×φ^5 phi power (79.20) — only
+  - star rows: J Galactic Centre → J Pallas RA 1.1614 conj (5.10) — only
+  - star rows: J Galactic Centre → J Haumea RA 77.9982 78 whole (82.64) — only
+  - MATCH EXACT: J Alphecca → Saturn Dec 43.0175 43 whole (1.50)
+- 3 Donnie Azoff / Isabelle Ryder
+  - MATCH EXACT: H Adhara → Venus RA 43.0092 43 whole (29.19)
+  - MATCH EXACT: H Aldebaran → Eris RA 42.9804 43 whole (0.03)
+  - MATCH EXACT: J Acumen → Pallas Dec 42.9861 43 whole (9.30)
+- 5 He's A Latchico / Caoilin Quinn
+  - star rows: H Galactic Centre → H Vesta RA 1.0703 conj (8.20) — only
+  - star rows: H Galactic Centre → H Rahu RA 129.9812 130 whole (0.34) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan
+  - star rows: H Galactic Centre → H Ketu RA 50.0188 50 whole (0.34) — only
+  - star rows: J Galactic Centre → J Neptune RA 44.0190 44 whole (0.25) — also: 1 Fire Flyer / Richie McLernon
+  - star rows: J Galactic Centre → J Ceres Dec 0.1159 conj (37.65) — also: 1 Fire Flyer / Richie McLernon
+  - star rows: J Galactic Centre → J Makemake RA 86.9872 87 whole (12.95) — only
+  - star rows: J Galactic Centre → J Transpluto Dec 42.0608 26×φ golden (56.30) — also: 7 Motazzen / Paul O'Brien
+  - MATCH EXACT: H Spica → Ceres Dec 42.9971 43 whole (73.51)
+  - same number: S Mars → J Mars Dec 42.9755 43 whole (loose) — only
+- 6 So You Know / Tom Bellamy
+  - MATCH EXACT: H Aculeus → Transpluto Dec 43.0154 43 whole (5.21)
+- 7 Motazzen / Paul O'Brien
+  - star rows: H Galactic Centre → H Transpluto Dec 40.0095 40 whole (27.51) — also: 5 He's A Latchico / Caoilin Quinn
+  - MATCH EXACT: H Nunki → Haumea Dec 43.0111 43 whole (19.94)
+- 8 The Bellhop / Freddie Mitchell
+  - star rows: H Galactic Centre → H Sun RA 53.3978 33×φ golden (83.86) — only
+  - star rows: J Galactic Centre → J Jupiter RA 42.9914 43 whole (32.30) — only
+  - star rows: J Galactic Centre → J Sun Dec 24.9986 25 whole (86.81) — only
+  - star rows: J Galactic Centre → J Quaoar Dec 14.9976 15 whole (77.03) — only
+  - MATCH EXACT: H Sirius → Sedna RA 42.9887 43 whole (18.91)
+  - MATCH EXACT: J Galactic Centre → Jupiter RA 42.9914 43 whole (32.30)
+  - MATCH EXACT: J Alphecca → Mercury Dec 43.0136 43 whole (10.18)
+#### 3. S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58) — runners with cells 7/7
+- Moon confirms: none
+- 1 Fire Flyer / Richie McLernon
+  - star rows: H Orion Nebula Cluster → H Sedna RA 26.9806 27 whole (0.09) — also: 3 Donnie Azoff / Isabelle Ryder, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Orion Nebula Cluster → J Chiron RA 2.9975 3 whole (76.91) — also: 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Orion Nebula Cluster → J Juno RA 173.1123 107×φ golden (21.47) — also: 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+  - MATCH EXACT: S Jupiter → J body → Vesta RA 137.5366 85×φ golden (78.63)
+  - same number: S Jupiter → J Vesta RA 137.5366 85×φ golden (78.63) — also: 6 So You Know / Tom Bellamy
+- 2 Lynx De Thaix / Gavin Sheehan
+  - star rows: H Orion Nebula Cluster → H Venus RA 93.9936 94 whole (46.15) — also: 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+  - star rows: H Orion Nebula Cluster → H Saturn Dec 12.9819 13 whole (0.92) — also: 5 He's A Latchico / Caoilin Quinn
+  - star rows: H Orion Nebula Cluster → H Neptune RA 92.2253 57×φ golden (84.11) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn
+  - star rows: H Orion Nebula Cluster → H Vesta RA 83.9870 84 whole (12.36) — also: 8 The Bellhop / Freddie Mitchell
+  - star rows: H Orion Nebula Cluster → H Quaoar RA 168.0184 168 whole (0.61) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn
+  - star rows: H Orion Nebula Cluster → H Quaoar Dec 10.0100 10 whole (25.01) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn
+  - star rows: J Orion Nebula Cluster → J Mars Dec 17.9916 18 whole (33.42) — only
+  - star rows: J Orion Nebula Cluster → J Ceres RA 129.4487 80×φ golden (66.68) — also: 7 Motazzen / Paul O'Brien
+  - star rows: J Orion Nebula Cluster → J Orcus RA 46.9774 φ^8 phi power (98.93) — only
+  - MATCH EXACT: H Praesepe → Sun RA 137.5633 85×φ golden (0.38)
+  - MATCH EXACT: J Praesepe → Pallas RA 137.5642 85×φ golden (0.11)
+- 3 Donnie Azoff / Isabelle Ryder
+  - star rows: H Orion Nebula Cluster → H Neptune RA 100.3498 62×φ golden (0.04) — also: 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn
+  - star rows: H Orion Nebula Cluster → H Pluto Dec 15.5584 15.5556 ninth (97.31) — also: 6 So You Know / Tom Bellamy
+  - star rows: H Orion Nebula Cluster → H Sedna Dec 12.9972 13 whole (73.92) — also: 1 Fire Flyer / Richie McLernon, 8 The Bellhop / Freddie Mitchell
+  - star rows: H Orion Nebula Cluster → H Quaoar Dec 10.0152 10 whole (5.85) — also: 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn
+  - star rows: J Orion Nebula Cluster → J Neptune RA 130.9857 131 whole (8.04) — also: 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn
+  - star rows: J Orion Nebula Cluster → J Gonggong RA 110.9632 10×φ^5 phi power (79.05) — also: 5 He's A Latchico / Caoilin Quinn
+  - MATCH EXACT: J Antares → Venus RA 137.5077 85×φ golden (4.89)
+- 5 He's A Latchico / Caoilin Quinn
+  - star rows: H Orion Nebula Cluster → H Saturn RA 165.0217 102×φ golden (20.43) — also: 2 Lynx De Thaix / Gavin Sheehan
+  - star rows: H Orion Nebula Cluster → H Neptune RA 98.0167 98 whole (2.77) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
+  - star rows: H Orion Nebula Cluster → H Chiron RA 86.9988 87 whole (88.77) — also: 1 Fire Flyer / Richie McLernon, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+  - star rows: H Orion Nebula Cluster → H Juno RA 103.0043 103 whole (61.35) — also: 1 Fire Flyer / Richie McLernon, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+  - star rows: H Orion Nebula Cluster → H Juno Dec 0.2095 conj (9.10) — also: 1 Fire Flyer / Richie McLernon, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+  - star rows: H Orion Nebula Cluster → H Quaoar RA 171.9886 172 whole (18.28) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
+  - star rows: J Orion Nebula Cluster → J Saturn RA 16.0108 16 whole (21.03) — also: 2 Lynx De Thaix / Gavin Sheehan
+  - star rows: J Orion Nebula Cluster → J Neptune RA 133.3748 133.333 ninth (95.02) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
+  - star rows: J Orion Nebula Cluster → J Gonggong RA 111.0189 111 whole (0.31) — also: 3 Donnie Azoff / Isabelle Ryder
+- 6 So You Know / Tom Bellamy
+  - star rows: H Orion Nebula Cluster → H Jupiter RA 114.8836 71×φ golden (81.26) — also: 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+  - star rows: H Orion Nebula Cluster → H Sun Dec 16.9803 17 whole (0.02) — also: 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+  - star rows: H Orion Nebula Cluster → H Pluto RA 145.0096 145 whole (26.96) — also: 3 Donnie Azoff / Isabelle Ryder
+  - star rows: J Orion Nebula Cluster → J Jupiter RA 137.5192 85×φ golden (33.23) — also: 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Orion Nebula Cluster → J Venus RA 133.0121 133 whole (15.60) — also: 2 Lynx De Thaix / Gavin Sheehan, 7 Motazzen / Paul O'Brien
+  - star rows: J Orion Nebula Cluster → J Pluto RA 153.0119 153 whole (16.21) — also: 3 Donnie Azoff / Isabelle Ryder
+  - star rows: J Orion Nebula Cluster → J Pallas Dec 8.0060 8 whole (49.13) — also: 7 Motazzen / Paul O'Brien
+  - star rows: J Orion Nebula Cluster → J Juno Dec 0.0019 conj (98.76) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+  - natal Jupiter → star: H Jupiter → H star Orion Nebula Cluster RA 114.8836 71×φ golden (81.26) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+  - MATCH EXACT: H Mirach → Orcus RA 137.5077 85×φ golden (4.97)
+  - MATCH EXACT: J Orion Nebula Cluster → Jupiter RA 137.5192 85×φ golden (33.23)
+  - MATCH EXACT: J Scheat → Ceres RA 137.5514 85×φ golden (18.40)
+  - MATCH EXACT: J Meissa → Jupiter RA 137.5568 85×φ golden (6.88)
+  - same number: J Scheat → J Ceres RA 137.5514 85×φ golden (18.40) — also: 1 Fire Flyer / Richie McLernon
+- 7 Motazzen / Paul O'Brien
+  - star rows: H Orion Nebula Cluster → H Sun Dec 0.2827 conj (0.33) — also: 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+  - star rows: H Orion Nebula Cluster → H Juno RA 108.4324 67×φ golden (6.48) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy
+  - star rows: J Orion Nebula Cluster → J Jupiter RA 74.9905 75 whole (27.82) — also: 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Orion Nebula Cluster → J Venus Dec 12.9488 8×φ golden (74.01) — also: 2 Lynx De Thaix / Gavin Sheehan, 6 So You Know / Tom Bellamy
+  - star rows: J Orion Nebula Cluster → J Chiron Dec 16.9874 17 whole (13.81) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Orion Nebula Cluster → J Ceres Dec 11.9862 12 whole (9.75) — also: 2 Lynx De Thaix / Gavin Sheehan
+  - star rows: J Orion Nebula Cluster → J Pallas RA 133.3680 133.333 ninth (95.84) — also: 6 So You Know / Tom Bellamy
+- 8 The Bellhop / Freddie Mitchell
+  - star rows: H Orion Nebula Cluster → H Jupiter Dec 4.0081 4 whole (35.67) — also: 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+  - star rows: H Orion Nebula Cluster → H Sun RA 124.0151 124 whole (5.94) — also: 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+  - star rows: H Orion Nebula Cluster → H Vesta Dec 15.9847 16 whole (5.55) — also: 2 Lynx De Thaix / Gavin Sheehan
+  - star rows: H Orion Nebula Cluster → H Eris RA 57.9819 58 whole (0.91) — only
+  - star rows: H Orion Nebula Cluster → H Eris Dec 3.9991 4 whole (91.07) — only
+  - star rows: J Orion Nebula Cluster → J Chiron Dec 5.9987 6 whole (87.50) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+  - star rows: J Orion Nebula Cluster → J Rahu RA 139.0158 139 whole (4.49) — only
+  - star rows: J Orion Nebula Cluster → J Eris Dec 2.9824 3 whole (1.47) — only
+  - star rows: J Orion Nebula Cluster → J Sedna Dec 9.9916 10 whole (33.89) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder
+  - star rows: J Orion Nebula Cluster → J Haumea Dec 26.9855 27 whole (7.59) — only
+  - star rows: J Orion Nebula Cluster → J Ketu RA 40.9842 41 whole (4.49) — only
+#### 4. S Sun → Scheat RA 124.5897 77×φ golden (93.37) — runners with cells 7/7
+- Moon confirms: none
+- 1 Fire Flyer / Richie McLernon
+  - star rows: H Scheat → H Uranus Dec 16.9945 17 whole (52.48) — also: 6 So You Know / Tom Bellamy
+  - star rows: H Scheat → H Haumea RA 133.3764 133.333 ninth (94.83) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
+  - star rows: J Scheat → J Jupiter RA 0.4558 conj (48.46) — also: 6 So You Know / Tom Bellamy
+  - star rows: J Scheat → J Sun RA 139.0156 139 whole (4.84) — also: 7 Motazzen / Paul O'Brien
+  - star rows: J Scheat → J Pluto RA 126.0198 126 whole (0.01) — only
+  - star rows: J Scheat → J Juno RA 89.0093 89 whole (28.61) — also: 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+- 2 Lynx De Thaix / Gavin Sheehan
+  - star rows: H Scheat → H Mercury RA 17.9449 φ^6 phi power (98.53) — also: 5 He's A Latchico / Caoilin Quinn
+  - star rows: H Scheat → H Saturn RA 34.0152 34 whole (5.86) — also: 8 The Bellhop / Freddie Mitchell
+  - star rows: H Scheat → H Vesta Dec 10.9908 11 whole (29.42) — also: 5 He's A Latchico / Caoilin Quinn
+  - star rows: H Scheat → H Haumea RA 129.4721 80×φ golden (0.86) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder
+  - star rows: J Scheat → J Mercury RA 131.0413 81×φ golden (15.81) — also: 5 He's A Latchico / Caoilin Quinn
+  - MATCH EXACT: J Alkes → Neptune RA 124.5574 77×φ golden (0.12)
+- 3 Donnie Azoff / Isabelle Ryder
+  - star rows: H Scheat → H Neptune Dec 36.0108 36 whole (21.16) — also: 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+  - star rows: J Scheat → J Rahu RA 93.8424 58×φ golden (79.33) — also: 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+  - star rows: J Scheat → J Haumea Dec 6.9972 7 whole (73.74) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan
+  - star rows: J Scheat → J Orcus RA 153.0131 153 whole (12.04) — also: 6 So You Know / Tom Bellamy
+  - star rows: J Scheat → J Transpluto RA 161.9962 162 whole (66.01) — also: 6 So You Know / Tom Bellamy
+  - MATCH EXACT: H Facies → Mercury RA 124.5633 77×φ golden (4.68)
+  - MATCH EXACT: H Menkent → Gonggong RA 124.5600 77×φ golden (1.32)
+  - MATCH EXACT: J Jupiter → J body → Gonggong RA 124.5921 77×φ golden (79.47)
+  - same number: J Jupiter → J Gonggong RA 124.5921 77×φ golden (79.47) — also: 8 The Bellhop / Freddie Mitchell
+- 5 He's A Latchico / Caoilin Quinn
+  - star rows: H Scheat → H Neptune RA 0.1337 conj (82.97) — also: 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien
+  - star rows: H Scheat → H Rahu RA 150.4968 93×φ golden (15.53) — also: 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien
+  - star rows: J Scheat → J Mercury RA 95.9831 96 whole (2.33) — also: 2 Lynx De Thaix / Gavin Sheehan
+  - star rows: J Scheat → J Venus Dec 11.1107 11.1111 ninth (99.33) — also: 6 So You Know / Tom Bellamy
+  - star rows: J Scheat → J Chiron Dec 45.0175 45 whole (1.52) — also: 7 Motazzen / Paul O'Brien
+  - star rows: J Scheat → J Pallas Dec 3.3334 3.33333 ninth (98.90) — only
+  - star rows: J Scheat → J Vesta RA 63.0028 63 whole (74.23) — also: 2 Lynx De Thaix / Gavin Sheehan
+  - star rows: J Scheat → J Rahu RA 110.9886 10×φ^5 phi power (71.11) — also: 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien
+  - star rows: J Scheat → J Ketu RA 69.0114 69 whole (18.51) — also: 7 Motazzen / Paul O'Brien
+- 6 So You Know / Tom Bellamy
+  - star rows: H Scheat → H Jupiter RA 17.0054 17 whole (53.14) — also: 1 Fire Flyer / Richie McLernon
+  - star rows: H Scheat → H Venus Dec 14.9912 15 whole (31.43) — also: 5 He's A Latchico / Caoilin Quinn
+  - star rows: H Scheat → H Orcus RA 168.9951 169 whole (56.98) — also: 3 Donnie Azoff / Isabelle Ryder
+  - star rows: J Scheat → J Uranus Dec 50.1596 31×φ golden (96.74) — also: 1 Fire Flyer / Richie McLernon
+  - star rows: J Scheat → J Ceres RA 137.5514 85×φ golden (18.40) — only
+  - star rows: J Scheat → J Transpluto RA 160.1913 99×φ golden (66.70) — also: 3 Donnie Azoff / Isabelle Ryder
+  - natal Jupiter → star: H Jupiter → H star Scheat RA 17.0054 17 whole (53.14) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+- 7 Motazzen / Paul O'Brien
+  - star rows: H Scheat → H Sun RA 0.8114 conj (21.08) — also: 1 Fire Flyer / Richie McLernon
+  - star rows: H Scheat → H Neptune RA 0.5547 conj (39.72) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn
+  - star rows: H Scheat → H Chiron Dec 25.9937 26 whole (46.62) — also: 5 He's A Latchico / Caoilin Quinn
+  - star rows: J Scheat → J Mars Dec 39.0009 39 whole (91.16) — only
+  - star rows: J Scheat → J Neptune Dec 50.0074 50 whole (39.77) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn
+  - star rows: J Scheat → J Juno Dec 41.4251 41.4 silver (96.41) — also: 1 Fire Flyer / Richie McLernon, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Scheat → J Rahu RA 61.0098 61 whole (25.79) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn
+  - star rows: J Scheat → J Ketu RA 118.9902 119 whole (25.79) — also: 5 He's A Latchico / Caoilin Quinn
+- 8 The Bellhop / Freddie Mitchell
+  - star rows: H Scheat → H Saturn Dec 44.9847 45 whole (5.54) — also: 2 Lynx De Thaix / Gavin Sheehan
+  - star rows: H Scheat → H Juno RA 43.9906 44 whole (27.97) — also: 1 Fire Flyer / Richie McLernon, 7 Motazzen / Paul O'Brien
+  - MATCH EXACT: H Algol → Venus RA 124.5631 77×φ golden (4.47)
+  - same number: H Algol → H Venus RA 124.5631 77×φ golden (4.47) — also: 3 Donnie Azoff / Isabelle Ryder
+#### 5. S Sun → Deneb RA 88.9987 89 whole (87.17) — runners with cells 7/7
+- Moon confirms: none
+- 1 Fire Flyer / Richie McLernon
+  - star rows: H Deneb → H Pluto RA 17.9461 φ^6 phi power (96.07) — also: 5 He's A Latchico / Caoilin Quinn
+  - star rows: H Deneb → H Ketu RA 0.1096 conj (85.92) — also: 8 The Bellhop / Freddie Mitchell
+  - star rows: J Deneb → J Mars RA 0.6930 conj (28.94) — also: 5 He's A Latchico / Caoilin Quinn
+  - star rows: J Deneb → J Ketu RA 110.9248 10×φ^5 phi power (91.85) — also: 8 The Bellhop / Freddie Mitchell
+  - MATCH EXACT: H Sirius → Juno RA 88.9872 89 whole (13.06)
+  - MATCH EXACT: J Murzim → Haumea RA 89.0036 89 whole (67.56)
+  - MATCH EXACT: J Scheat → Juno RA 89.0093 89 whole (28.61)
+  - MATCH EXACT: J Pleiades → Gonggong RA 89.0189 89 whole (0.30)
+  - same number: J Pleiades → J Gonggong RA 89.0189 89 whole (0.30) — also: 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+  - same number: J Scheat → J Juno RA 89.0093 89 whole (28.61) — also: 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+- 2 Lynx De Thaix / Gavin Sheehan
+  - star rows: H Deneb → H Jupiter Dec 61.0130 61 whole (12.20) — also: 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+  - star rows: H Deneb → H Makemake Dec 22.0115 22 whole (18.04) — also: 3 Donnie Azoff / Isabelle Ryder
+  - star rows: J Deneb → J Mercury RA 166.6220 166.667 ninth (96.17) — only
+  - star rows: J Deneb → J Ceres RA 4.0037 4 whole (66.05) — also: 6 So You Know / Tom Bellamy
+  - MATCH EXACT: J Alhena → Haumea RA 89.0027 89 whole (74.41)
+- 3 Donnie Azoff / Isabelle Ryder
+  - star rows: H Deneb → H Uranus Dec 36.9823 37 whole (1.36) — also: 8 The Bellhop / Freddie Mitchell
+  - star rows: H Deneb → H Vesta Dec 27.5009 17×φ golden (67.84) — also: 5 He's A Latchico / Caoilin Quinn
+  - star rows: H Deneb → H Transpluto RA 158.0059 158 whole (49.84) — also: 7 Motazzen / Paul O'Brien
+  - star rows: J Deneb → J Pallas RA 0.8678 conj (17.76) — only
+  - star rows: J Deneb → J Vesta RA 121.0016 121 whole (84.40) — also: 5 He's A Latchico / Caoilin Quinn
+  - star rows: J Deneb → J Rahu RA 129.4266 80×φ golden (25.27) — also: 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Deneb → J Makemake Dec 13.3305 13.3333 ninth (96.62) — also: 2 Lynx De Thaix / Gavin Sheehan
+- 5 He's A Latchico / Caoilin Quinn
+  - star rows: H Deneb → H Pluto RA 17.9899 18 whole (24.34) — also: 1 Fire Flyer / Richie McLernon
+  - star rows: H Deneb → H Vesta RA 45.0064 45 whole (46.09) — also: 3 Donnie Azoff / Isabelle Ryder
+  - star rows: J Deneb → J Mars RA 54.9901 55 whole (25.69) — also: 1 Fire Flyer / Richie McLernon
+  - star rows: J Deneb → J Neptune RA 0.0771 conj (89.98) — only
+  - star rows: J Deneb → J Rahu Dec 21.9928 22 whole (40.82) — also: 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+- 6 So You Know / Tom Bellamy
+  - star rows: S Deneb → J Jupiter RA 89.0153 89 whole (5.52) — also: 2 Lynx De Thaix / Gavin Sheehan, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Deneb → J Sun RA 130.9833 131 whole (2.77) — only
+  - star rows: J Deneb → J Sun Dec 45.0175 45 whole (1.54) — only
+  - star rows: J Deneb → J Ceres RA 173.1376 107×φ golden (56.87) — also: 2 Lynx De Thaix / Gavin Sheehan
+  - star rows: J Deneb → J Ceres Dec 22.0103 22 whole (23.58) — also: 2 Lynx De Thaix / Gavin Sheehan
+  - star rows: J Deneb → J Eris RA 72.8120 45×φ golden (97.19) — only
+  - star rows: J Deneb → J Haumea RA 118.9884 119 whole (17.78) — only
+  - MATCH EXACT: S Jupiter → H body → Sedna RA 88.9992 89 whole (92.61)
+  - MATCH EXACT: J Aldebaran → Saturn RA 88.9898 89 whole (24.19)
+  - same number: S Jupiter → H Sedna RA 88.9992 89 whole (92.61) — also: 1 Fire Flyer / Richie McLernon, 8 The Bellhop / Freddie Mitchell
+- 7 Motazzen / Paul O'Brien
+  - star rows: H Deneb → H Transpluto RA 156.9956 157 whole (60.91) — also: 3 Donnie Azoff / Isabelle Ryder
+  - star rows: J Deneb → J Juno RA 19.9894 20 whole (21.98) — also: 8 The Bellhop / Freddie Mitchell
+  - star rows: J Deneb → J Rahu Dec 68.0153 68 whole (5.54) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Deneb → J Transpluto RA 165.0679 102×φ golden (1.47) — also: 3 Donnie Azoff / Isabelle Ryder
+- 8 The Bellhop / Freddie Mitchell
+  - star rows: H Deneb → H Rahu RA 105.0175 105 whole (1.61) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+  - star rows: H Deneb → H Ketu RA 74.9825 75 whole (1.61) — also: 1 Fire Flyer / Richie McLernon
+  - star rows: S Deneb → J Jupiter Dec 60.9871 61 whole (12.65) — also: 2 Lynx De Thaix / Gavin Sheehan, 6 So You Know / Tom Bellamy
+  - star rows: J Deneb → J Uranus RA 16.0164 16 whole (3.28) — also: 3 Donnie Azoff / Isabelle Ryder
+  - star rows: J Deneb → J Juno Dec 51.7761 32×φ golden (94.12) — also: 7 Motazzen / Paul O'Brien
+  - MATCH EXACT: H Vindemiatrix → Vesta RA 88.9931 55×φ golden (92.69)
+  - MATCH EXACT: H Alkaid → Mercury RA 89.0009 89 whole (90.80)
+  - MATCH EXACT: H Procyon → Eris RA 88.9826 89 whole (1.64)
+  - MATCH EXACT: J Rigel → Chiron RA 89.0185 89 whole (0.53)
+  - same number: J Rigel → J Chiron RA 89.0185 89 whole (0.53) — also: 1 Fire Flyer / Richie McLernon, 6 So You Know / Tom Bellamy
+#### 6. S Jupiter → Capella Dec 32.0016 32 whole (84.88) — runners with cells 7/7
+- Moon confirms: none
+- 1 Fire Flyer / Richie McLernon
+  - star rows: H Capella → H Venus Dec 21.0324 13×φ golden (87.80) — only
+  - star rows: H Capella → H Gonggong Dec 58.0046 58 whole (59.22) — also: 8 The Bellhop / Freddie Mitchell
+  - star rows: J Capella → J Venus RA 146.0103 146 whole (23.37) — only
+  - star rows: J Capella → J Pluto RA 140.7500 87×φ golden (17.23) — also: 2 Lynx De Thaix / Gavin Sheehan
+  - star rows: J Capella → J Juno RA 177.7605 177.778 ninth (98.65) — also: 2 Lynx De Thaix / Gavin Sheehan, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Capella → J Juno Dec 58.0061 58 whole (48.00) — also: 2 Lynx De Thaix / Gavin Sheehan, 8 The Bellhop / Freddie Mitchell
+  - MATCH EXACT: H Praesepe → Gonggong Dec 31.9927 32 whole (40.36)
+  - MATCH EXACT: J Praesepe → Juno Dec 31.9914 32 whole (32.48)
+  - MATCH EXACT: J Regulus → Saturn Dec 31.9904 32 whole (26.82)
+  - MATCH EXACT: J Murzim → Orcus RA 31.9885 32 whole (18.13)
+- 2 Lynx De Thaix / Gavin Sheehan
+  - star rows: H Capella → H Mercury RA 111.1788 111.111 ninth (88.92) — only
+  - star rows: H Capella → H Ceres Dec 49.9817 50 whole (0.69) — also: 8 The Bellhop / Freddie Mitchell
+  - star rows: H Capella → H Pallas RA 110.9661 10×φ^5 phi power (78.11) — also: 7 Motazzen / Paul O'Brien
+  - star rows: H Capella → H Juno RA 177.7367 177.778 ninth (96.79) — also: 1 Fire Flyer / Richie McLernon, 8 The Bellhop / Freddie Mitchell
+  - star rows: H Capella → H Sedna Dec 37.9842 38 whole (4.44) — also: 6 So You Know / Tom Bellamy
+  - star rows: J Capella → J Uranus RA 150.9924 151 whole (38.43) — also: 7 Motazzen / Paul O'Brien
+  - star rows: J Capella → J Pluto RA 152.9837 153 whole (3.44) — also: 1 Fire Flyer / Richie McLernon
+  - star rows: J Capella → J Juno RA 34.9862 35 whole (9.48) — also: 1 Fire Flyer / Richie McLernon, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Capella → J Eris RA 55.9971 56 whole (72.95) — also: 6 So You Know / Tom Bellamy
+  - star rows: J Capella → J Sedna RA 35.5982 22×φ golden (91.51) — also: 6 So You Know / Tom Bellamy
+  - star rows: J Capella → J Quaoar RA 157.0087 157 whole (31.81) — also: 8 The Bellhop / Freddie Mitchell
+  - MATCH EXACT: H Deneb Algedi → Haumea Dec 31.9962 32 whole (65.83)
+  - MATCH EXACT: H Alkes → Uranus Dec 32.0054 32 whole (53.37)
+  - MATCH EXACT: H Pollux → Ceres Dec 32.0099 32 whole (25.36)
+  - MATCH EXACT: H Algorab → Orcus RA 32.0165 32 whole (3.01)
+  - same number: H Deneb Algedi → H Haumea Dec 31.9962 32 whole (65.83) — also: 3 Donnie Azoff / Isabelle Ryder
+- 3 Donnie Azoff / Isabelle Ryder
+  - star rows: J Capella → J Rahu RA 0.6108 conj (35.14) — only
+  - star rows: J Capella → J Makemake RA 102.0083 102 whole (34.48) — only
+  - MATCH EXACT: J Pleiades → Venus RA 32.0048 32 whole (57.54)
+  - MATCH EXACT: J Vega → Pallas RA 31.9870 32 whole (12.33)
+  - MATCH EXACT: J Antares → Sedna Dec 31.9832 32 whole (2.58)
+  - same number: J Pleiades → J Venus RA 32.0048 32 whole (57.54) — also: 2 Lynx De Thaix / Gavin Sheehan
+- 5 He's A Latchico / Caoilin Quinn
+  - MATCH EXACT: H Fomalhaut → Chiron Dec 31.9806 32 whole (0.08)
+  - MATCH EXACT: J Acubens → Sun RA 32.0018 32 whole (82.41)
+  - MATCH EXACT: J Arcturus → Pallas RA 32.0021 32 whole (79.77)
+- 6 So You Know / Tom Bellamy
+  - star rows: H Capella → H Sedna RA 21.0393 13×φ golden (72.37) — also: 2 Lynx De Thaix / Gavin Sheehan
+  - star rows: J Capella → J Eris RA 55.9989 56 whole (89.75) — also: 2 Lynx De Thaix / Gavin Sheehan
+  - MATCH EXACT: H Ras Algethi → Saturn Dec 32.0156 32 whole (4.73)
+  - MATCH EXACT: J Meissa → Uranus Dec 32.0099 32 whole (25.46)
+- 7 Motazzen / Paul O'Brien
+  - star rows: H Capella → H Chiron RA 83.0092 83 whole (29.06) — only
+  - star rows: H Capella → H Transpluto Dec 34.9958 35 whole (62.75) — only
+  - star rows: J Capella → J Uranus RA 158.0111 158 whole (19.65) — also: 2 Lynx De Thaix / Gavin Sheehan
+  - star rows: J Capella → J Chiron RA 50.0080 50 whole (35.95) — only
+  - star rows: J Capella → J Pallas RA 138.0163 138 whole (3.51) — also: 2 Lynx De Thaix / Gavin Sheehan
+  - star rows: J Capella → J Pallas Dec 40.4541 25×φ golden (80.79) — also: 2 Lynx De Thaix / Gavin Sheehan
+  - MATCH EXACT: J Zosma → Mercury Dec 31.9915 32 whole (33.12)
+- 8 The Bellhop / Freddie Mitchell
+  - star rows: H Capella → H Ceres Dec 25.9807 26 whole (0.13) — also: 2 Lynx De Thaix / Gavin Sheehan
+  - star rows: J Capella → J Sun Dec 50.0064 50 whole (46.37) — only
+  - star rows: J Capella → J Juno RA 141.9870 142 whole (12.11) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan
+  - star rows: J Capella → J Quaoar Dec 60.0075 60 whole (39.30) — also: 2 Lynx De Thaix / Gavin Sheehan
+  - star rows: J Capella → J Gonggong Dec 64.9831 65 whole (2.33) — also: 1 Fire Flyer / Richie McLernon
+  - MATCH EXACT: J Meissa → Uranus Dec 32.0126 32 whole (13.52)
+#### 7. S Sun → Zubenelgenubi Dec 0.0550 conj (66.69) — runners with cells 7/7
+- Moon confirms: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+- 1 Fire Flyer / Richie McLernon
+  - star rows: H Zubenelgenubi → H Jupiter RA 1.1284 conj (6.14) — also: 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+  - star rows: H Zubenelgenubi → H Venus Dec 41.0073 41 whole (40.59) — also: 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+  - star rows: H Zubenelgenubi → H Pallas Dec 15.9927 16 whole (40.46) — only
+  - star rows: J Zubenelgenubi → J Saturn Dec 3.9823 4 whole (1.32) — also: 2 Lynx De Thaix / Gavin Sheehan, 7 Motazzen / Paul O'Brien
+  - star rows: J Zubenelgenubi → J Gonggong RA 105.1428 65×φ golden (0.85) — only
+  - MATCH CONJ STAR: S Jupiter → H body → Gonggong Dec 26.0009 26 whole (91.57)
+  - MATCH CONJ STAR: S Jupiter → J body → Juno Dec 26.0003 26 whole (97.32)
+  - MATCH CONJ STAR: S Jupiter → J body → Vesta RA 137.5366 85×φ golden (78.63)
+- 2 Lynx De Thaix / Gavin Sheehan
+  - star rows: H Zubenelgenubi → H Juno Dec 5.9829 6 whole (2.08) — also: 3 Donnie Azoff / Isabelle Ryder, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Zubenelgenubi → J Saturn Dec 0.2583 conj (1.93) — also: 1 Fire Flyer / Richie McLernon, 7 Motazzen / Paul O'Brien
+  - star rows: J Zubenelgenubi → J Vesta RA 46.0087 46 whole (31.89) — only
+  - MATCH CONJ STAR: S Jupiter → H body → Saturn Dec 32.3680 20×φ golden (59.77)
+  - MATCH CONJ STAR: S Jupiter → H body → Neptune RA 155.5306 155.556 ninth (97.64)
+  - MATCH CONJ STAR: S Jupiter → J body → Sedna RA 103.5616 64×φ golden (59.22)
+- 3 Donnie Azoff / Isabelle Ryder
+  - star rows: H Zubenelgenubi → H Mars RA 14.5616 9×φ golden (95.73) — only
+  - star rows: H Zubenelgenubi → H Uranus RA 158.5421 98×φ golden (4.84) — only
+  - star rows: H Zubenelgenubi → H Juno RA 9.0097 9 whole (26.66) — also: 2 Lynx De Thaix / Gavin Sheehan, 8 The Bellhop / Freddie Mitchell
+  - star rows: H Zubenelgenubi → H Sedna RA 167.0058 167 whole (50.07) — also: 5 He's A Latchico / Caoilin Quinn
+  - star rows: H Zubenelgenubi → H Haumea RA 12.0128 12 whole (12.98) — also: 5 He's A Latchico / Caoilin Quinn
+  - star rows: J Zubenelgenubi → J Eris RA 160.9859 161 whole (8.83) — only
+  - star rows: J Zubenelgenubi → J Makemake Dec 47.9883 48 whole (17.18) — only
+  - star rows: J Zubenelgenubi → J Transpluto Dec 29.0046 29 whole (59.45) — only
+  - MATCH CONJ STAR: H Zubenelgenubi → Mars RA 14.5616 9×φ golden (95.73)
+  - MATCH CONJ STAR: H Zubenelgenubi → Sedna RA 167.0058 167 whole (50.07)
+  - MATCH CONJ STAR: S Jupiter → H body → Pluto RA 141.0022 141 whole (79.35)
+  - MATCH CONJ STAR: S Jupiter → H body → Vesta RA 84.0020 84 whole (80.82)
+  - MATCH CONJ STAR: S Jupiter → H body → Transpluto Dec 2.6180 φ^2 phi power (99.80)
+  - MATCH CONJ STAR: J Zubenelgenubi → Transpluto Dec 29.0046 29 whole (59.45)
+  - MATCH CONJ STAR: S Jupiter → J body → Venus RA 122.2652 122.222 ninth (94.05)
+  - MATCH CONJ STAR: S Jupiter → J body → Juno RA 10.9960 11 whole (64.38)
+- 5 He's A Latchico / Caoilin Quinn
+  - star rows: H Zubenelgenubi → H Neptune Dec 8.9896 9 whole (22.99) — only
+  - star rows: H Zubenelgenubi → H Sedna RA 166.6369 166.667 ninth (97.45) — also: 3 Donnie Azoff / Isabelle Ryder
+  - star rows: H Zubenelgenubi → H Orcus Dec 5.9832 6 whole (2.62) — only
+  - star rows: J Zubenelgenubi → J Mercury RA 140.7933 87×φ golden (6.16) — also: 8 The Bellhop / Freddie Mitchell
+  - star rows: J Zubenelgenubi → J Venus Dec 33.0128 33 whole (12.85) — also: 1 Fire Flyer / Richie McLernon, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Zubenelgenubi → J Haumea RA 25.9900 26 whole (25.21) — also: 3 Donnie Azoff / Isabelle Ryder
+  - star rows: J Zubenelgenubi → J Quaoar RA 25.0051 25 whole (55.40) — also: 7 Motazzen / Paul O'Brien
+  - MATCH CONJ STAR: H Zubenelgenubi → Sedna RA 166.6369 166.667 ninth (97.45)
+  - MATCH CONJ STAR: S Jupiter → H body → Ceres RA 16.6697 16.6667 ninth (97.43)
+  - MATCH CONJ STAR: J Zubenelgenubi → Quaoar RA 25.0051 25 whole (55.40)
+- 6 So You Know / Tom Bellamy
+  - star rows: H Zubenelgenubi → H Venus RA 171.9874 172 whole (13.70) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+  - star rows: S Zubenelgenubi → J Jupiter RA 1.3714 conj (0.73) — also: 1 Fire Flyer / Richie McLernon, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+  - star rows: S Zubenelgenubi → J Jupiter Dec 0.9839 1 whole (3.80) — also: 1 Fire Flyer / Richie McLernon, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Zubenelgenubi → J Rahu RA 0.4208 conj (51.76) — also: 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+  - MATCH CONJ STAR: S Jupiter → H body → Chiron RA 138.9991 139 whole (91.28)
+  - MATCH CONJ STAR: S Jupiter → H body → Sedna RA 88.9992 89 whole (92.61)
+  - MATCH CONJ STAR: J Zubenelgenubi → Rahu RA 0.4208 conj (51.76)
+- 7 Motazzen / Paul O'Brien
+  - star rows: H Zubenelgenubi → H Venus RA 136.9964 137 whole (67.28) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+  - star rows: H Zubenelgenubi → H Rahu RA 85.9872 86 whole (12.95) — also: 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+  - star rows: H Zubenelgenubi → H Quaoar RA 49.0120 49 whole (15.81) — also: 5 He's A Latchico / Caoilin Quinn
+  - star rows: H Zubenelgenubi → H Ketu RA 94.0128 94 whole (12.95) — only
+  - star rows: S Zubenelgenubi → J Jupiter Dec 25.8854 16×φ golden (81.26) — also: 1 Fire Flyer / Richie McLernon, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Zubenelgenubi → J Venus RA 64.9804 65 whole (0.03) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Zubenelgenubi → J Saturn RA 80.0013 80 whole (87.83) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan
+  - natal Jupiter → star: J Jupiter → J star Zubenelgenubi Dec 25.8848 16×φ golden (78.16) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy
+  - MATCH CONJ STAR: H Zubenelgenubi → Venus RA 136.9964 137 whole (67.28)
+  - MATCH CONJ STAR: S Jupiter → H body → Uranus RA 122.9004 φ^10 phi power (72.45)
+  - MATCH CONJ STAR: S Jupiter → H body → Orcus Dec 24.1458 24.14 silver (94.03)
+  - MATCH CONJ STAR: J Zubenelgenubi → Jupiter Dec 25.8848 16×φ golden (78.16)
+  - MATCH CONJ STAR: J Zubenelgenubi → Saturn RA 80.0013 80 whole (87.83)
+  - MATCH CONJ STAR: S Jupiter → J body → Saturn RA 155.5881 155.556 ninth (96.91)
+  - MATCH CONJ STAR: S Jupiter → J body → Chiron RA 17.9433 φ^6 phi power (97.87)
+- 8 The Bellhop / Freddie Mitchell
+  - star rows: H Zubenelgenubi → H Mercury Dec 3.0077 3 whole (37.68) — also: 5 He's A Latchico / Caoilin Quinn
+  - star rows: H Zubenelgenubi → H Juno Dec 3.9994 4 whole (93.66) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
+  - star rows: J Zubenelgenubi → J Jupiter RA 0.7087 conj (27.83) — also: 1 Fire Flyer / Richie McLernon, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+  - star rows: J Zubenelgenubi → J Mercury Dec 0.2550 conj (2.25) — also: 5 He's A Latchico / Caoilin Quinn
+  - star rows: J Zubenelgenubi → J Venus RA 0.8062 conj (21.40) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+  - star rows: J Zubenelgenubi → J Rahu RA 0.1243 conj (84.11) — also: 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+  - MATCH CONJ STAR: H Zubenelgenubi → Juno Dec 3.9994 4 whole (93.66)
+  - MATCH CONJ STAR: S Jupiter → H body → Pluto RA 152.0976 94×φ golden (85.40)
+  - MATCH CONJ STAR: J Zubenelgenubi → Rahu RA 0.1243 conj (84.11)
+  - MATCH CONJ STAR: S Jupiter → J body → Sun Dec 18.0019 18 whole (81.74)
+  - MATCH CONJ STAR: S Jupiter → J body → Quaoar Dec 28.0030 28 whole (72.26)
+#### 8. S Sun → Deneb Algedi Dec 0.1438 conj (27.10) — runners with cells 7/7
+- Moon confirms: none
+- 1 Fire Flyer / Richie McLernon
+  - star rows: H Deneb Algedi → H Sedna Dec 23.9969 24 whole (71.35) — also: 2 Lynx De Thaix / Gavin Sheehan
+  - star rows: H Deneb Algedi → H Haumea Dec 33.3361 33.3333 ninth (96.70) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
+  - star rows: J Deneb Algedi → J Sun Dec 5.0131 5 whole (11.80) — also: 7 Motazzen / Paul O'Brien
+  - star rows: J Deneb Algedi → J Haumea Dec 38.8386 24×φ golden (67.65) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
+  - star rows: J Deneb Algedi → J Gonggong RA 1.0960 conj (7.25) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
+- 2 Lynx De Thaix / Gavin Sheehan
+  - star rows: H Deneb Algedi → H Mercury RA 1.2372 conj (3.07) — also: 8 The Bellhop / Freddie Mitchell
+  - star rows: H Deneb Algedi → H Pallas RA 1.4498 conj (0.11) — only
+  - star rows: H Deneb Algedi → H Sedna Dec 24.1441 24.14 silver (96.83) — also: 1 Fire Flyer / Richie McLernon
+  - star rows: H Deneb Algedi → H Haumea Dec 31.9962 32 whole (65.83) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder
+  - star rows: H Deneb Algedi → H Gonggong RA 10.0056 10 whole (52.13) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder
+  - star rows: J Deneb Algedi → J Venus Dec 39.9998 40 whole (98.02) — also: 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Deneb Algedi → J Saturn Dec 0.1757 conj (17.17) — only
+  - star rows: J Deneb Algedi → J Transpluto RA 177.7822 177.778 ninth (99.66) — also: 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+- 3 Donnie Azoff / Isabelle Ryder
+  - star rows: H Deneb Algedi → H Transpluto Dec 27.5023 17×φ golden (75.13) — also: 2 Lynx De Thaix / Gavin Sheehan, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Deneb Algedi → J Uranus Dec 3.0089 3 whole (31.00) — also: 5 He's A Latchico / Caoilin Quinn
+  - star rows: J Deneb Algedi → J Neptune Dec 1.4142 1.414 sqrt2 (99.72) — also: 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+  - star rows: J Deneb Algedi → J Haumea RA 128.0099 128 whole (25.42) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan
+  - star rows: J Deneb Algedi → J Haumea Dec 37.2115 23×φ golden (80.48) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan
+  - star rows: J Deneb Algedi → J Gonggong Dec 0.2876 conj (0.17) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan
+- 5 He's A Latchico / Caoilin Quinn
+  - star rows: S Deneb Algedi → H Jupiter RA 96.0028 96 whole (74.33) — also: 7 Motazzen / Paul O'Brien
+  - star rows: H Deneb Algedi → H Orcus RA 173.9905 174 whole (27.63) — only
+  - star rows: J Deneb Algedi → J Uranus RA 0.1468 conj (81.39) — also: 3 Donnie Azoff / Isabelle Ryder
+  - star rows: J Deneb Algedi → J Uranus Dec 2.0176 2 whole (1.46) — also: 3 Donnie Azoff / Isabelle Ryder
+  - star rows: J Deneb Algedi → J Neptune Dec 1.9838 2 whole (3.69) — also: 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien
+  - star rows: J Deneb Algedi → J Ceres Dec 12.9981 13 whole (82.27) — also: 8 The Bellhop / Freddie Mitchell
+  - star rows: J Deneb Algedi → J Makemake Dec 47.9840 48 whole (4.04) — also: 7 Motazzen / Paul O'Brien
+  - natal Jupiter → star: H Jupiter → H star Deneb Algedi RA 95.9964 96 whole (67.58) — also: 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+- 6 So You Know / Tom Bellamy
+  - star rows: H Deneb Algedi → H Venus RA 67.9523 42×φ golden (70.69) — also: 2 Lynx De Thaix / Gavin Sheehan, 8 The Bellhop / Freddie Mitchell
+  - star rows: H Deneb Algedi → H Mars Dec 41.0138 41 whole (9.70) — only
+  - star rows: H Deneb Algedi → H Juno RA 62.9918 63 whole (34.81) — only
+  - star rows: H Deneb Algedi → H Ketu Dec 5.9897 6 whole (23.44) — only
+- 7 Motazzen / Paul O'Brien
+  - star rows: H Deneb Algedi → H Sun RA 19.9937 20 whole (47.15) — also: 1 Fire Flyer / Richie McLernon
+  - star rows: H Deneb Algedi → H Jupiter Dec 1.2226 1.22222 ninth (94.78) — also: 5 He's A Latchico / Caoilin Quinn
+  - star rows: H Deneb Algedi → H Makemake RA 130.9831 131 whole (2.41) — also: 5 He's A Latchico / Caoilin Quinn
+  - star rows: J Deneb Algedi → J Neptune RA 41.4297 41.4 silver (92.09) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn
+  - star rows: J Deneb Algedi → J Pluto RA 96.0078 96 whole (37.14) — only
+  - star rows: J Deneb Algedi → J Transpluto Dec 29.9929 30 whole (41.33) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 8 The Bellhop / Freddie Mitchell
+  - natal Jupiter → star: H Jupiter → H star Deneb Algedi Dec 1.2226 1.22222 ninth (94.78) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy
+- 8 The Bellhop / Freddie Mitchell
+  - star rows: J Deneb Algedi → J Mercury Dec 0.1695 conj (18.92) — also: 2 Lynx De Thaix / Gavin Sheehan
+  - star rows: J Deneb Algedi → J Venus Dec 6.6660 6.66667 ninth (94.56) — also: 2 Lynx De Thaix / Gavin Sheehan, 6 So You Know / Tom Bellamy
+  - star rows: J Deneb Algedi → J Ceres RA 160.9876 161 whole (14.50) — also: 5 He's A Latchico / Caoilin Quinn
+  - star rows: J Deneb Algedi → J Rahu Dec 0.2999 conj (0.00) — only
+  - star rows: J Deneb Algedi → J Quaoar RA 87.9886 88 whole (18.65) — only
+  - star rows: J Deneb Algedi → J Transpluto RA 179.4707 10×φ^6 phi power (93.86) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien
+### READ 3 Jupiter / Sun lines to bodies (not followed)
+- S Jupiter → Uranus RA 84.9993 85 whole (93.10)
+- S Sun → Haumea RA 0.6231 conj (34.18)
+### READ 4 Moon only, not active (confirm no lead line; not followed)
+- S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+- S Moon → Algol Dec 49.9999 50 whole (98.95)
+- S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+- S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+- S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+
 ## 1 Fire Flyer / Richie McLernon
 ### L1 same bodies
 - S Mercury → H Mercury RA 166.4606 166.667 ninth (loose)

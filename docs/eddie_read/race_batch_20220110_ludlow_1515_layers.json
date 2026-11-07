@@ -12770,6 +12770,2282 @@
    }
   }
  },
+ "read": {
+  "same_body": {
+   "P01": [
+    "S Mercury → H Mercury Dec 40.4795 25×φ golden (loose)",
+    "S Jupiter → H Jupiter RA 161.3070 100×φ^1 phi power (loose)",
+    "S Chiron → H Chiron RA 17.7307 17.7778 ninth (loose)",
+    "S Juno → H Juno RA 160.0061 160 whole (48.59)",
+    "S Rahu → H Rahu Dec 24.0000 24 whole (99.82)",
+    "S Eris → H Eris Dec 1.3398 1.33333 ninth (loose)",
+    "S Ketu → H Ketu Dec 24.0000 24 whole (99.82)",
+    "S Uranus → J Uranus RA 97.0647 60×φ golden (loose)",
+    "S Neptune → J Neptune RA 55.5263 55.5556 ninth (loose)",
+    "S Juno → J Juno RA 1.1134 1.11111 ninth (loose)",
+    "S Rahu → J Rahu RA 144.1936 144.444 ninth (loose)",
+    "S Sedna → J Sedna RA 13.9930 14 whole (42.49)",
+    "S Makemake → J Makemake Dec 11.1623 11.1111 ninth (loose)",
+    "S Orcus → J Orcus RA 22.0024 22 whole (77.84)",
+    "S Quaoar → J Quaoar RA 33.9670 21×φ golden (loose)",
+    "S Quaoar → J Quaoar Dec 0.9828 1 whole (2.00)",
+    "S Gonggong → J Gonggong RA 5.9844 6 whole (4.87)",
+    "S Ketu → J Ketu RA 144.1936 144.444 ninth (loose)"
+   ],
+   "P03": [
+    "S Venus → H Venus RA 68.5072 10×φ^4 phi power (loose)",
+    "S Venus → H Venus Dec 14.1253 14.14 sqrt2 (loose)",
+    "S Mars → H Mars RA 13.0298 13 whole (loose)",
+    "S Jupiter → H Jupiter Dec 18.8540 18.8889 ninth (loose)",
+    "S Orcus → H Orcus RA 6.4776 4×φ golden (loose)",
+    "S Transpluto → H Transpluto Dec 0.9718 1 whole (loose)",
+    "S Mercury → J Mercury RA 116.4866 72×φ golden (40.15)",
+    "S Venus → J Venus Dec 42.0895 26×φ golden (loose)",
+    "S Pluto → J Pluto Dec 9.9884 10 whole (17.66)",
+    "S Ceres → J Ceres Dec 26.0272 26 whole (loose)",
+    "S Vesta → J Vesta RA 177.0189 177 whole (0.30)",
+    "S Rahu → J Rahu RA 18.8347 18.8889 ninth (loose)",
+    "S Makemake → J Makemake RA 18.8750 18.8889 ninth (loose)",
+    "S Quaoar → J Quaoar RA 26.0216 26 whole (loose)",
+    "S Ketu → J Ketu RA 18.8347 18.8889 ninth (loose)"
+   ],
+   "P05": [
+    "S Jupiter → H Jupiter RA 161.0654 100×φ^1 phi power (loose)",
+    "S Uranus → H Uranus RA 22.0095 22 whole (27.70)",
+    "S Chiron → H Chiron RA 17.8969 φ^6 phi power (loose)",
+    "S Juno → H Juno RA 161.0889 100×φ^1 phi power (loose)",
+    "S Vesta → H Vesta Dec 11.3538 7×φ golden (loose)",
+    "S Transpluto → H Transpluto RA 3.0234 3 whole (loose)",
+    "S Juno → J Juno RA 77.7169 77.7778 ninth (loose)",
+    "S Sedna → J Sedna Dec 4.9702 5 whole (loose)",
+    "S Orcus → J Orcus RA 37.1914 23×φ golden (loose)",
+    "S Gonggong → J Gonggong Dec 11.1491 11.1111 ninth (loose)",
+    "S Transpluto → J Transpluto RA 14.5913 9×φ golden (loose)"
+   ],
+   "P07": [
+    "S Jupiter → H Jupiter Dec 29.0419 φ^7 phi power (loose)",
+    "S Saturn → H Saturn Dec 1.2286 1.22222 ninth (loose)",
+    "S Ceres → H Ceres RA 123.9993 124 whole (93.18)",
+    "S Ceres → H Ceres Dec 42.3230 10×φ^3 phi power (loose)",
+    "S Pallas → H Pallas RA 88.7710 88.8889 ninth (loose)",
+    "S Rahu → H Rahu Dec 24.1824 24.14 silver (loose)",
+    "S Eris → H Eris Dec 1.6133 1×φ golden (loose)",
+    "S Makemake → H Makemake RA 5.9709 6 whole (loose)",
+    "S Orcus → H Orcus RA 6.8582 φ^4 phi power (loose)",
+    "S Transpluto → H Transpluto Dec 0.9975 1 whole (76.81)",
+    "S Ketu → H Ketu Dec 24.1824 24.14 silver (loose)",
+    "S Jupiter → J Jupiter RA 11.0813 φ^5 phi power (loose)",
+    "S Saturn → J Saturn RA 65.0289 65 whole (loose)",
+    "S Pluto → J Pluto RA 77.0131 77 whole (11.97)",
+    "S Pallas → J Pallas RA 140.8501 141.4 sqrt2 (loose)",
+    "S Pallas → J Pallas Dec 10.9914 11 whole (32.72)",
+    "S Vesta → J Vesta Dec 14.1203 14.14 sqrt2 (loose)",
+    "S Eris → J Eris RA 4.2344 φ^3 phi power (loose)",
+    "S Eris → J Eris Dec 9.0253 9 whole (loose)"
+   ],
+   "P09": [
+    "S Sun → H Sun RA 69.9977 70 whole (78.17)",
+    "S Sun → H Sun Dec 22.6707 14×φ golden (loose)",
+    "S Mercury → H Mercury RA 27.0039 27 whole (65.06)",
+    "S Venus → H Venus Dec 15.9785 16 whole (loose)",
+    "S Pluto → H Pluto Dec 2.9749 3 whole (loose)",
+    "S Vesta → H Vesta Dec 44.0053 44 whole (54.14)",
+    "S Eris → H Eris Dec 2.0220 2 whole (loose)",
+    "S Makemake → H Makemake RA 7.9944 8 whole (51.91)",
+    "S Gonggong → H Gonggong RA 1.1108 1.11111 ninth (loose)",
+    "S Gonggong → H Gonggong Dec 1.9994 2 whole (93.83)",
+    "S Sun → J Sun Dec 19.9730 20 whole (loose)",
+    "S Mars → J Mars RA 36.9857 37 whole (8.10)",
+    "S Uranus → J Uranus Dec 35.9847 36 whole (5.50)",
+    "S Pluto → J Pluto Dec 15.5842 15.5556 ninth (loose)",
+    "S Pallas → J Pallas RA 174.0185 174 whole (0.60)",
+    "S Sedna → J Sedna RA 13.2914 13.3333 ninth (loose)",
+    "S Makemake → J Makemake RA 24.1303 24.14 silver (loose)",
+    "S Quaoar → J Quaoar RA 35.9809 36 whole (0.22)"
+   ],
+   "P11": [
+    "S Mars → H Mars RA 177.5953 177.778 ninth (loose)",
+    "S Pallas → H Pallas Dec 36.9871 37 whole (12.66)",
+    "S Quaoar → H Quaoar RA 8.8814 8.88889 ninth (loose)",
+    "S Gonggong → H Gonggong Dec 1.3291 1.33333 ninth (loose)",
+    "S Transpluto → H Transpluto RA 3.0228 3 whole (loose)",
+    "S Mars → J Mars RA 8.9721 9 whole (loose)",
+    "S Jupiter → J Jupiter RA 118.0113 118 whole (18.80)",
+    "S Jupiter → J Jupiter Dec 34.9772 35 whole (loose)",
+    "S Ceres → J Ceres RA 24.9970 25 whole (72.18)",
+    "S Rahu → J Rahu RA 99.0152 99 whole (5.64)",
+    "S Eris → J Eris RA 3.9968 4 whole (70.59)",
+    "S Ketu → J Ketu RA 99.0152 99 whole (5.64)"
+   ],
+   "P13": [
+    "S Mars → H Mars RA 95.9821 96 whole (1.15)",
+    "S Saturn → H Saturn RA 73.0213 73 whole (loose)",
+    "S Neptune → H Neptune Dec 5.0107 5 whole (21.47)",
+    "S Pluto → H Pluto RA 12.9466 8×φ golden (85.98)",
+    "S Juno → H Juno RA 165.8678 166.667 ninth (loose)",
+    "S Juno → H Juno Dec 19.4366 12×φ golden (loose)",
+    "S Sedna → H Sedna RA 4.1497 4.14 silver (loose)",
+    "S Jupiter → J Jupiter RA 51.0117 51 whole (17.34)",
+    "S Saturn → J Saturn Dec 31.0288 31 whole (loose)",
+    "S Chiron → J Chiron RA 122.0170 122 whole (2.24)"
+   ]
+  },
+  "lead": [
+   {
+    "line": "S Jupiter → Denebola Dec 26.1830 10×φ^2 phi power (95.96)",
+    "centre": "Jupiter",
+    "point": "Denebola",
+    "plane": "Dec",
+    "moon": [],
+    "runners_with_cells": "7/7",
+    "per_runner": [
+     {
+      "runner": "P01",
+      "name": "1 Java Point / Jonathan Burke",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Denebola → H Sun Dec 0.1201 conj (35.94)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien"
+       },
+       {
+        "part": "star rows",
+        "text": "H Denebola → H Jupiter RA 41.4208 41.4 silver (99.50)",
+        "field": "also: 5 Jimmy The Digger / Richard Patrick"
+       },
+       {
+        "part": "star rows",
+        "text": "J Denebola → J Sun Dec 38.0070 38 whole (42.34)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien"
+       },
+       {
+        "part": "star rows",
+        "text": "J Denebola → J Mercury Dec 39.0126 39 whole (13.60)",
+        "field": "also: 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "J Denebola → J Venus Dec 36.0045 36 whole (59.70)",
+        "field": "also: 2 Isolate / Liam Harrison"
+       },
+       {
+        "part": "star rows",
+        "text": "J Denebola → J Rahu RA 24.9890 25 whole (20.29)",
+        "field": "also: 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "star rows",
+        "text": "J Denebola → J Makemake RA 0.8462 conj (19.00)",
+        "field": "also: 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "star rows",
+        "text": "J Denebola → J Orcus Dec 14.1497 14.14 sqrt2 (79.72)",
+        "field": "also: 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "star rows",
+        "text": "J Denebola → J Ketu RA 155.0110 155 whole (20.29)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien"
+       },
+       {
+        "part": "natal Jupiter → star",
+        "text": "H Jupiter → H star Denebola RA 41.4208 41.4 silver (99.50)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Galactic Centre → Eris Dec 26.1878 10×φ^2 phi power (88.86)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Kaus Australis → Eris Dec 26.1876 10×φ^2 phi power (89.18)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P03",
+      "name": "2 Isolate / Liam Harrison",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Denebola → H Venus RA 179.4332 10×φ^6 phi power (97.90)",
+        "field": "also: 1 Java Point / Jonathan Burke"
+       },
+       {
+        "part": "star rows",
+        "text": "H Denebola → H Neptune RA 165.0293 102×φ golden (46.91)",
+        "field": "also: 5 Jimmy The Digger / Richard Patrick"
+       },
+       {
+        "part": "star rows",
+        "text": "H Denebola → H Pluto RA 111.1690 111.111 ninth (90.52)",
+        "field": "also: 4 Wildfire Warrior / Tom O'Brien"
+       },
+       {
+        "part": "star rows",
+        "text": "H Denebola → H Haumea Dec 2.9992 3 whole (92.33)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Aculeus → Eris Dec 26.1898 10×φ^2 phi power (86.11)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P05",
+      "name": "3 Une De La Seniere / Paddy Brennan",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "J Denebola → J Sun RA 155.3025 96×φ golden (1.23)",
+        "field": "also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien"
+       },
+       {
+        "part": "star rows",
+        "text": "J Denebola → J Chiron Dec 0.2239 conj (6.44)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Denebola → J Vesta RA 26.0152 26 whole (5.83)",
+        "field": "also: 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "star rows",
+        "text": "J Denebola → J Eris Dec 26.0039 26 whole (64.54)",
+        "field": "also: 5 Jimmy The Digger / Richard Patrick"
+       },
+       {
+        "part": "star rows",
+        "text": "J Denebola → J Haumea RA 1.2420 conj (2.96)",
+        "field": "also: 2 Isolate / Liam Harrison, 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "J Denebola → J Ketu RA 133.3095 133.333 ninth (97.14)",
+        "field": "also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien"
+       }
+      ]
+     },
+     {
+      "runner": "P07",
+      "name": "4 Wildfire Warrior / Tom O'Brien",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Denebola → H Mercury RA 140.7624 87×φ golden (63.75)",
+        "field": "also: 1 Java Point / Jonathan Burke, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "H Denebola → H Mars RA 169.8933 105×φ golden (98.59)",
+        "field": "also: 5 Jimmy The Digger / Richard Patrick"
+       },
+       {
+        "part": "star rows",
+        "text": "H Denebola → H Rahu RA 11.9809 12 whole (0.22)",
+        "field": "also: 1 Java Point / Jonathan Burke, 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "star rows",
+        "text": "H Denebola → H Sedna RA 122.9722 φ^10 phi power (93.70)",
+        "field": "also: 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "star rows",
+        "text": "H Denebola → H Ketu RA 168.0191 168 whole (0.22)",
+        "field": "also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan"
+       },
+       {
+        "part": "star rows",
+        "text": "J Denebola → J Sun RA 66.9957 67 whole (61.46)",
+        "field": "also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan"
+       },
+       {
+        "part": "star rows",
+        "text": "J Denebola → J Pluto RA 44.0095 44 whole (27.47)",
+        "field": "also: 2 Isolate / Liam Harrison"
+       },
+       {
+        "part": "star rows",
+        "text": "J Denebola → J Sedna Dec 11.1153 11.1111 ninth (93.20)",
+        "field": "also: 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "star rows",
+        "text": "J Denebola → J Haumea RA 8.0199 8 whole (0.00)",
+        "field": "also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "J Denebola → J Transpluto Dec 0.1632 conj (20.79)",
+        "field": "only"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Jupiter → H body → Orcus Dec 26.1869 10×φ^2 phi power (90.21)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Acubens → Mercury Dec 26.1839 10×φ^2 phi power (94.66)",
+        "field": ""
+       },
+       {
+        "part": "same number",
+        "text": "H Jupiter → H Orcus Dec 26.1869 10×φ^2 phi power (90.21)",
+        "field": "only"
+       }
+      ]
+     },
+     {
+      "runner": "P09",
+      "name": "5 Jimmy The Digger / Richard Patrick",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "S Denebola → H Jupiter Dec 6.9907 7 whole (28.87)",
+        "field": "also: 1 Java Point / Jonathan Burke"
+       },
+       {
+        "part": "star rows",
+        "text": "H Denebola → H Mars RA 169.8986 105×φ golden (71.16)",
+        "field": "also: 4 Wildfire Warrior / Tom O'Brien"
+       },
+       {
+        "part": "star rows",
+        "text": "H Denebola → H Neptune RA 158.5785 98×φ golden (43.07)",
+        "field": "also: 2 Isolate / Liam Harrison"
+       },
+       {
+        "part": "star rows",
+        "text": "H Denebola → H Juno Dec 23.9974 24 whole (75.68)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Denebola → J Mercury Dec 25.0053 25 whole (54.06)",
+        "field": "also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "J Denebola → J Eris RA 154.0086 154 whole (32.29)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan"
+       },
+       {
+        "part": "star rows",
+        "text": "J Denebola → J Orcus RA 42.0021 42 whole (80.04)",
+        "field": "also: 1 Java Point / Jonathan Burke, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Sualocin → Rahu Dec 26.1879 10×φ^2 phi power (88.83)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P11",
+      "name": "6 Method Madness / Alex Edwards",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Denebola → H Sedna RA 121.9950 122 whole (56.00)",
+        "field": "also: 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "star rows",
+        "text": "H Denebola → H Quaoar Dec 29.9816 30 whole (0.64)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Denebola → J Mercury Dec 35.5990 22×φ golden (86.71)",
+        "field": "also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick"
+       },
+       {
+        "part": "star rows",
+        "text": "J Denebola → J Haumea RA 10.9976 11 whole (77.07)",
+        "field": "also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien"
+       },
+       {
+        "part": "star rows",
+        "text": "J Denebola → J Orcus Dec 10.9857 11 whole (8.21)",
+        "field": "also: 1 Java Point / Jonathan Burke, 5 Jimmy The Digger / Richard Patrick, 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Hamal → Eris Dec 26.1822 10×φ^2 phi power (97.24)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P13",
+      "name": "7 Fanamix / Ben Jones",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Denebola → H Vesta RA 132.9879 133 whole (15.73)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan"
+       },
+       {
+        "part": "star rows",
+        "text": "H Denebola → H Rahu Dec 18.8821 18.8889 ninth (95.08)",
+        "field": "also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien"
+       },
+       {
+        "part": "star rows",
+        "text": "H Denebola → H Sedna RA 123.0153 123 whole (5.50)",
+        "field": "also: 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "J Denebola → J Saturn RA 135.9913 136 whole (32.10)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Denebola → J Makemake Dec 17.0198 17 whole (0.01)",
+        "field": "also: 1 Java Point / Jonathan Burke"
+       },
+       {
+        "part": "star rows",
+        "text": "J Denebola → J Orcus Dec 16.0113 16 whole (18.90)",
+        "field": "also: 1 Java Point / Jonathan Burke, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Sadalmelik → Makemake Dec 26.1823 10×φ^2 phi power (97.03)",
+        "field": ""
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "line": "S Jupiter → Ras Algethi Dec 26.0029 26 whole (73.41)",
+    "centre": "Jupiter",
+    "point": "Ras Algethi",
+    "plane": "Dec",
+    "moon": [],
+    "runners_with_cells": "7/7",
+    "per_runner": [
+     {
+      "runner": "P01",
+      "name": "1 Java Point / Jonathan Burke",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Ras Algethi → H Venus Dec 11.1103 11.1111 ninth (98.75)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Ras Algethi → H Saturn Dec 33.0055 33 whole (52.84)",
+        "field": "also: 2 Isolate / Liam Harrison, 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "H Ras Algethi → H Ceres Dec 38.0086 38 whole (32.60)",
+        "field": "also: 5 Jimmy The Digger / Richard Patrick"
+       },
+       {
+        "part": "star rows",
+        "text": "H Ras Algethi → H Sedna Dec 7.0013 7 whole (87.02)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan, 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "star rows",
+        "text": "H Ras Algethi → H Makemake Dec 11.9823 12 whole (1.35)",
+        "field": "also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan"
+       },
+       {
+        "part": "star rows",
+        "text": "H Ras Algethi → H Quaoar RA 8.9858 9 whole (8.37)",
+        "field": "also: 5 Jimmy The Digger / Richard Patrick"
+       },
+       {
+        "part": "star rows",
+        "text": "J Ras Algethi → J Mercury Dec 38.8319 24×φ golden (94.25)",
+        "field": "also: 2 Isolate / Liam Harrison"
+       },
+       {
+        "part": "star rows",
+        "text": "J Ras Algethi → J Saturn RA 92.0108 92 whole (21.22)",
+        "field": "also: 2 Isolate / Liam Harrison, 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "J Ras Algethi → J Chiron Dec 22.0111 22 whole (19.65)",
+        "field": "also: 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "J Ras Algethi → J Haumea Dec 6.9864 7 whole (10.11)",
+        "field": "also: 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "J Ras Algethi → J Transpluto Dec 0.9959 1 whole (63.29)",
+        "field": "also: 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Aldebaran → Vesta Dec 26.0015 26 whole (85.31)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P03",
+      "name": "2 Isolate / Liam Harrison",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Ras Algethi → H Mars RA 12.9473 8×φ golden (82.04)",
+        "field": "also: 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "H Ras Algethi → H Vesta RA 140.7790 87×φ golden (47.36)",
+        "field": "also: 5 Jimmy The Digger / Richard Patrick"
+       },
+       {
+        "part": "star rows",
+        "text": "H Ras Algethi → H Makemake RA 64.9923 65 whole (37.57)",
+        "field": "also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan"
+       },
+       {
+        "part": "star rows",
+        "text": "H Ras Algethi → H Ketu Dec 17.7949 11×φ golden (79.83)",
+        "field": "also: 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "star rows",
+        "text": "J Ras Algethi → J Mercury RA 169.0125 169 whole (14.08)",
+        "field": "also: 1 Java Point / Jonathan Burke"
+       },
+       {
+        "part": "star rows",
+        "text": "J Ras Algethi → J Saturn RA 175.9867 176 whole (11.32)",
+        "field": "also: 1 Java Point / Jonathan Burke, 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "J Ras Algethi → J Uranus Dec 26.9964 27 whole (67.21)",
+        "field": "also: 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Kaus Australis → Neptune Dec 26.0090 26 whole (30.37)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Pleiades → Orcus Dec 25.9814 26 whole (0.51)",
+        "field": ""
+       },
+       {
+        "part": "same number",
+        "text": "S Ceres → J Ceres Dec 26.0272 26 whole (loose)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "same number",
+        "text": "S Quaoar → J Quaoar RA 26.0216 26 whole (loose)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones"
+       }
+      ]
+     },
+     {
+      "runner": "P05",
+      "name": "3 Une De La Seniere / Paddy Brennan",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Ras Algethi → H Sedna Dec 7.0156 7 whole (4.85)",
+        "field": "also: 1 Java Point / Jonathan Burke, 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "star rows",
+        "text": "H Ras Algethi → H Makemake Dec 11.9801 12 whole (0.00)",
+        "field": "also: 1 Java Point / Jonathan Burke, 2 Isolate / Liam Harrison"
+       },
+       {
+        "part": "star rows",
+        "text": "J Ras Algethi → J Neptune RA 5.9881 6 whole (16.45)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Ras Algethi → J Gonggong Dec 37.0004 37 whole (96.35)",
+        "field": "also: 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Sualocin → Gonggong RA 26.0162 26 whole (3.59)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Denebola → Eris Dec 26.0039 26 whole (64.54)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Diadem → Quaoar RA 25.9917 26 whole (33.97)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Denebola → Vesta RA 26.0152 26 whole (5.83)",
+        "field": ""
+       },
+       {
+        "part": "same number",
+        "text": "J Denebola → J Vesta RA 26.0152 26 whole (5.83)",
+        "field": "also: 2 Isolate / Liam Harrison, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "same number",
+        "text": "J Denebola → J Eris Dec 26.0039 26 whole (64.54)",
+        "field": "also: 2 Isolate / Liam Harrison, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones"
+       }
+      ]
+     },
+     {
+      "runner": "P07",
+      "name": "4 Wildfire Warrior / Tom O'Brien",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "J Ras Algethi → J Chiron Dec 2.9936 3 whole (46.17)",
+        "field": "also: 1 Java Point / Jonathan Burke, 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "J Ras Algethi → J Pallas Dec 14.9874 15 whole (13.51)",
+        "field": "also: 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "star rows",
+        "text": "J Ras Algethi → J Rahu RA 120.0016 120 whole (84.85)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Ras Algethi → J Eris RA 122.9211 φ^10 phi power (78.30)",
+        "field": "also: 5 Jimmy The Digger / Richard Patrick"
+       },
+       {
+        "part": "star rows",
+        "text": "J Ras Algethi → J Orcus RA 131.0689 81×φ golden (56.06)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Ras Algethi → J Transpluto RA 114.9991 115 whole (91.32)",
+        "field": "also: 1 Java Point / Jonathan Burke, 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "J Ras Algethi → J Transpluto Dec 0.0175 conj (88.70)",
+        "field": "also: 1 Java Point / Jonathan Burke, 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "J Ras Algethi → J Ketu RA 59.9984 60 whole (84.85)",
+        "field": "also: 2 Isolate / Liam Harrison, 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Altair → Mercury Dec 25.9915 26 whole (33.14)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Mirfak → Eris RA 25.9820 26 whole (1.01)",
+        "field": ""
+       },
+       {
+        "part": "same number",
+        "text": "H Altair → H Mercury Dec 25.9915 26 whole (33.14)",
+        "field": "also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones"
+       }
+      ]
+     },
+     {
+      "runner": "P09",
+      "name": "5 Jimmy The Digger / Richard Patrick",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Ras Algethi → H Ceres RA 173.1392 107×φ golden (49.44)",
+        "field": "also: 1 Java Point / Jonathan Burke"
+       },
+       {
+        "part": "star rows",
+        "text": "H Ras Algethi → H Vesta RA 179.0113 179 whole (18.76)",
+        "field": "also: 2 Isolate / Liam Harrison"
+       },
+       {
+        "part": "star rows",
+        "text": "H Ras Algethi → H Quaoar Dec 30.0014 30 whole (86.11)",
+        "field": "also: 1 Java Point / Jonathan Burke"
+       },
+       {
+        "part": "star rows",
+        "text": "J Ras Algethi → J Eris RA 124.5913 77×φ golden (83.91)",
+        "field": "also: 4 Wildfire Warrior / Tom O'Brien"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Altair → Rahu Dec 25.9906 26 whole (27.92)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Alphecca → Sun Dec 25.9820 26 whole (1.01)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Rasalhague → Gonggong Dec 26.0194 26 whole (0.09)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Acubens → Quaoar Dec 25.9882 26 whole (16.90)",
+        "field": ""
+       },
+       {
+        "part": "same number",
+        "text": "H Alphecca → H Sun Dec 25.9820 26 whole (1.01)",
+        "field": "also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "same number",
+        "text": "H Altair → H Rahu Dec 25.9906 26 whole (27.92)",
+        "field": "also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones"
+       }
+      ]
+     },
+     {
+      "runner": "P11",
+      "name": "6 Method Madness / Alex Edwards",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Ras Algethi → H Mars Dec 9.0051 9 whole (55.60)",
+        "field": "also: 2 Isolate / Liam Harrison"
+       },
+       {
+        "part": "star rows",
+        "text": "H Ras Algethi → H Saturn RA 19.9923 20 whole (37.71)",
+        "field": "also: 1 Java Point / Jonathan Burke, 2 Isolate / Liam Harrison"
+       },
+       {
+        "part": "star rows",
+        "text": "H Ras Algethi → H Pluto Dec 34.9961 35 whole (64.66)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Ras Algethi → H Pallas Dec 11.0098 11 whole (26.05)",
+        "field": "also: 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "star rows",
+        "text": "H Ras Algethi → H Haumea RA 48.9885 49 whole (17.95)",
+        "field": "also: 1 Java Point / Jonathan Burke"
+       },
+       {
+        "part": "star rows",
+        "text": "J Ras Algethi → J Chiron RA 155.9908 156 whole (29.34)",
+        "field": "also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien"
+       },
+       {
+        "part": "star rows",
+        "text": "J Ras Algethi → J Transpluto Dec 0.2039 conj (10.25)",
+        "field": "also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Alphecca → Chiron Dec 26.0037 26 whole (66.57)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Bellatrix → Sedna RA 26.0084 26 whole (33.79)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Phact → Orcus Dec 26.0152 26 whole (5.86)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Aldebaran → Juno Dec 25.9966 26 whole (69.04)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Alhena → Eris Dec 25.9863 26 whole (9.94)",
+        "field": ""
+       },
+       {
+        "part": "same number",
+        "text": "H Alphecca → H Chiron Dec 26.0037 26 whole (66.57)",
+        "field": "also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 7 Fanamix / Ben Jones"
+       }
+      ]
+     },
+     {
+      "runner": "P13",
+      "name": "7 Fanamix / Ben Jones",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Ras Algethi → H Uranus RA 114.0061 114 whole (47.96)",
+        "field": "also: 2 Isolate / Liam Harrison"
+       },
+       {
+        "part": "star rows",
+        "text": "H Ras Algethi → H Pallas RA 0.3587 conj (57.89)",
+        "field": "also: 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "H Ras Algethi → H Sedna RA 155.5927 155.556 ninth (96.48)",
+        "field": "also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan"
+       },
+       {
+        "part": "star rows",
+        "text": "H Ras Algethi → H Gonggong Dec 27.5054 17×φ golden (92.66)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan"
+       },
+       {
+        "part": "star rows",
+        "text": "J Ras Algethi → J Ketu Dec 32.9872 33 whole (12.86)",
+        "field": "also: 2 Isolate / Liam Harrison, 4 Wildfire Warrior / Tom O'Brien"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Castor → Juno Dec 25.9919 26 whole (35.31)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Alphard → Haumea Dec 26.0128 26 whole (12.83)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Galactic Centre → Mars Dec 25.9828 26 whole (2.03)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Betelgeuse → Ketu Dec 26.0030 26 whole (72.01)",
+        "field": ""
+       },
+       {
+        "part": "same number",
+        "text": "H Alphard → H Haumea Dec 26.0128 26 whole (12.83)",
+        "field": "also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "line": "S Jupiter → Rukbat Dec 29.0037 29 whole (66.42)",
+    "centre": "Jupiter",
+    "point": "Rukbat",
+    "plane": "Dec",
+    "moon": [],
+    "runners_with_cells": "7/7",
+    "per_runner": [
+     {
+      "runner": "P01",
+      "name": "1 Java Point / Jonathan Burke",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Rukbat → H Saturn Dec 21.9971 22 whole (72.81)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan, 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "H Rukbat → H Neptune RA 50.0154 50 whole (5.18)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Rukbat → H Ceres Dec 16.9939 17 whole (48.62)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien"
+       },
+       {
+        "part": "star rows",
+        "text": "H Rukbat → H Sedna Dec 48.0012 48 whole (88.51)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan"
+       },
+       {
+        "part": "star rows",
+        "text": "H Rukbat → H Makemake Dec 66.9848 67 whole (5.88)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rukbat → J Chiron Dec 32.9959 33 whole (63.21)",
+        "field": "also: 4 Wildfire Warrior / Tom O'Brien"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rukbat → J Juno RA 1.3795 conj (0.65)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rukbat → J Haumea Dec 61.9934 62 whole (44.85)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rukbat → J Quaoar RA 49.0084 49 whole (33.41)",
+        "field": "also: 5 Jimmy The Digger / Richard Patrick"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rukbat → J Transpluto Dec 54.0111 54 whole (19.70)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Orion Nebula Cluster → Sedna RA 29.0068 29 whole (43.61)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Mirfak → Pallas Dec 29.0075 29 whole (38.76)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P03",
+      "name": "2 Isolate / Liam Harrison",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Rukbat → H Sun RA 80.9031 50×φ golden (91.64)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick"
+       },
+       {
+        "part": "star rows",
+        "text": "H Rukbat → H Gonggong RA 44.9857 45 whole (8.22)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rukbat → J Uranus Dec 28.0065 28 whole (45.26)",
+        "field": "only"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Facies → Sun Dec 28.9999 29 whole (99.26)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Alhena → Uranus Dec 29.0067 29 whole (44.25)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Jupiter → J body → Eris Dec 28.9859 29 whole (8.76)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P05",
+      "name": "3 Une De La Seniere / Paddy Brennan",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "S Rukbat → H Jupiter RA 155.3601 96×φ golden (1.19)",
+        "field": "also: 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "H Rukbat → H Ceres RA 17.7799 17.7778 ninth (98.36)",
+        "field": "also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien"
+       },
+       {
+        "part": "star rows",
+        "text": "H Rukbat → H Sedna Dec 47.9868 48 whole (11.53)",
+        "field": "also: 1 Java Point / Jonathan Burke"
+       },
+       {
+        "part": "star rows",
+        "text": "H Rukbat → H Makemake Dec 66.9825 67 whole (1.50)",
+        "field": "also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rukbat → J Sun RA 90.9981 91 whole (81.60)",
+        "field": "also: 2 Isolate / Liam Harrison, 5 Jimmy The Digger / Richard Patrick"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rukbat → J Saturn RA 104.9804 105 whole (0.04)",
+        "field": "also: 1 Java Point / Jonathan Burke, 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rukbat → J Makemake RA 132.9853 133 whole (7.08)",
+        "field": "also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rukbat → J Gonggong Dec 18.0002 18 whole (97.76)",
+        "field": "also: 2 Isolate / Liam Harrison"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rukbat → J Transpluto RA 150.4804 93×φ golden (80.92)",
+        "field": "also: 1 Java Point / Jonathan Burke, 5 Jimmy The Digger / Richard Patrick"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Alpheratz → Chiron Dec 28.9999 29 whole (98.93)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Spica → Jupiter Dec 29.0053 29 whole (53.74)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Meissa → Sedna RA 29.0174 29 whole (1.71)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Scheat → Juno Dec 29.0196 29 whole (0.04)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P07",
+      "name": "4 Wildfire Warrior / Tom O'Brien",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "S Rukbat → H Jupiter RA 153.7214 95×φ golden (55.92)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan, 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "H Rukbat → H Venus RA 79.9948 80 whole (54.98)",
+        "field": "also: 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "star rows",
+        "text": "H Rukbat → H Ceres RA 0.8428 conj (19.19)",
+        "field": "also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan"
+       },
+       {
+        "part": "star rows",
+        "text": "H Rukbat → H Makemake Dec 66.6610 66.6667 ninth (95.10)",
+        "field": "also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan, 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rukbat → J Chiron Dec 58.0022 58 whole (79.01)",
+        "field": "also: 1 Java Point / Jonathan Burke"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rukbat → J Vesta Dec 33.3385 33.3333 ninth (93.74)",
+        "field": "only"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "S body → H Jupiter → Pallas Dec 29.0156 29 whole (4.85)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Fomalhaut → Uranus RA 29.0175 29 whole (1.60)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Acubens → Mercury Dec 28.9802 29 whole (0.01)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "S Jupiter → J body → Chiron Dec 28.9987 29 whole (87.30)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Algenib → Mars RA 29.0173 29 whole (1.80)",
+        "field": ""
+       },
+       {
+        "part": "same number",
+        "text": "S Jupiter → J Chiron Dec 28.9987 29 whole (87.30)",
+        "field": "only"
+       }
+      ]
+     },
+     {
+      "runner": "P09",
+      "name": "5 Jimmy The Digger / Richard Patrick",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Rukbat → H Sun RA 70.7166 70.7 sqrt2 (96.69)",
+        "field": "also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan"
+       },
+       {
+        "part": "star rows",
+        "text": "H Rukbat → H Pluto RA 8.9982 9 whole (82.90)",
+        "field": "also: 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "H Rukbat → H Quaoar Dec 25.0005 25 whole (95.09)",
+        "field": "also: 1 Java Point / Jonathan Burke"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rukbat → J Transpluto RA 144.4425 144.444 ninth (99.80)",
+        "field": "also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Pollux → Pallas Dec 28.9947 29 whole (53.67)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Phact → Venus Dec 29.0064 29 whole (46.52)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Diadem → Juno Dec 28.9888 29 whole (19.56)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Menkar → Makemake Dec 29.0193 29 whole (0.14)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P11",
+      "name": "6 Method Madness / Alex Edwards",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Rukbat → H Mars Dec 64.0098 64 whole (26.04)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Rukbat → H Pluto Dec 20.0086 20 whole (32.34)",
+        "field": "also: 5 Jimmy The Digger / Richard Patrick"
+       },
+       {
+        "part": "star rows",
+        "text": "H Rukbat → H Pallas Dec 66.0145 66 whole (7.56)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "S Rukbat → J Jupiter Dec 63.9809 64 whole (0.22)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rukbat → J Saturn RA 0.7190 conj (27.11)",
+        "field": "also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan"
+       }
+      ]
+     },
+     {
+      "runner": "P13",
+      "name": "7 Fanamix / Ben Jones",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "J Rukbat → J Venus RA 103.0198 103 whole (0.01)",
+        "field": "also: 4 Wildfire Warrior / Tom O'Brien"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rukbat → J Rahu RA 161.8638 100×φ^1 phi power (85.63)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rukbat → J Makemake RA 110.9459 10×φ^5 phi power (84.71)",
+        "field": "also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Markab → Sun Dec 28.9949 29 whole (55.18)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Mirach → Pallas Dec 29.0186 29 whole (0.50)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Kaus Australis → Venus Dec 29.0189 29 whole (0.28)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Facies → Sedna Dec 29.0159 29 whole (4.26)",
+        "field": ""
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "line": "S Jupiter → Vindemiatrix RA 138.9961 139 whole (64.46)",
+    "centre": "Jupiter",
+    "point": "Vindemiatrix",
+    "plane": "RA",
+    "moon": [],
+    "runners_with_cells": "7/7",
+    "per_runner": [
+     {
+      "runner": "P01",
+      "name": "1 Java Point / Jonathan Burke",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Vindemiatrix → H Venus RA 115.0022 115 whole (78.83)",
+        "field": "also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick"
+       },
+       {
+        "part": "star rows",
+        "text": "H Vindemiatrix → H Vesta RA 152.0808 94×φ golden (30.76)",
+        "field": "also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Menkent → Saturn RA 138.9992 139 whole (91.88)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P03",
+      "name": "2 Isolate / Liam Harrison",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Vindemiatrix → H Venus Dec 13.9939 14 whole (48.40)",
+        "field": "also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick"
+       },
+       {
+        "part": "star rows",
+        "text": "H Vindemiatrix → H Juno RA 28.0183 28 whole (0.75)",
+        "field": "also: 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "star rows",
+        "text": "H Vindemiatrix → H Vesta Dec 0.0606 conj (63.66)",
+        "field": "also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Venus RA 106.9809 107 whole (0.22)",
+        "field": "also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Pallas RA 124.5953 77×φ golden (62.73)",
+        "field": "also: 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Nunki → Juno RA 138.9921 139 whole (36.65)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P05",
+      "name": "3 Une De La Seniere / Paddy Brennan",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Vindemiatrix → H Mercury RA 146.0047 146 whole (58.47)",
+        "field": "also: 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "H Vindemiatrix → H Venus Dec 14.0076 14 whole (38.25)",
+        "field": "also: 1 Java Point / Jonathan Burke, 2 Isolate / Liam Harrison, 5 Jimmy The Digger / Richard Patrick"
+       },
+       {
+        "part": "star rows",
+        "text": "H Vindemiatrix → H Vesta Dec 21.0031 21 whole (71.77)",
+        "field": "also: 1 Java Point / Jonathan Burke, 2 Isolate / Liam Harrison"
+       },
+       {
+        "part": "star rows",
+        "text": "H Vindemiatrix → H Sedna RA 140.7846 87×φ golden (26.80)",
+        "field": "also: 5 Jimmy The Digger / Richard Patrick, 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Gonggong RA 131.9988 132 whole (88.11)",
+        "field": "also: 4 Wildfire Warrior / Tom O'Brien"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Sadalmelik → Makemake RA 139.0063 139 whole (46.81)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Alkaid → Vesta RA 139.0155 139 whole (4.96)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P07",
+      "name": "4 Wildfire Warrior / Tom O'Brien",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Vindemiatrix → H Sun RA 147.2619 91×φ golden (12.66)",
+        "field": "also: 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "H Vindemiatrix → H Saturn Dec 29.9848 30 whole (5.69)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Vindemiatrix → H Chiron RA 150.4955 93×φ golden (18.84)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Vindemiatrix → H Gonggong Dec 23.9879 24 whole (15.58)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Orcus RA 67.9544 42×φ golden (82.15)",
+        "field": "also: 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards"
+       }
+      ]
+     },
+     {
+      "runner": "P09",
+      "name": "5 Jimmy The Digger / Richard Patrick",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Vindemiatrix → H Uranus RA 171.9969 172 whole (71.49)",
+        "field": "also: 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "H Vindemiatrix → H Ceres RA 110.0245 68×φ golden (88.89)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Vindemiatrix → H Sedna Dec 3.9840 4 whole (3.98)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan, 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Sun RA 10.9954 11 whole (59.19)",
+        "field": "also: 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Mercury RA 0.3011 conj (63.89)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan, 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Venus RA 0.9976 1 whole (77.61)",
+        "field": "also: 1 Java Point / Jonathan Burke, 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Pluto RA 43.6838 27×φ golden (81.61)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Orcus Dec 10.0036 10 whole (67.55)",
+        "field": "also: 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Transpluto RA 49.0086 49 whole (32.44)",
+        "field": "only"
+       }
+      ]
+     },
+     {
+      "runner": "P11",
+      "name": "6 Method Madness / Alex Edwards",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "S Vindemiatrix → H Jupiter Dec 5.5559 5.55556 ninth (97.05)",
+        "field": "also: 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "star rows",
+        "text": "H Vindemiatrix → H Uranus Dec 3.9850 4 whole (6.16)",
+        "field": "also: 5 Jimmy The Digger / Richard Patrick"
+       },
+       {
+        "part": "star rows",
+        "text": "H Vindemiatrix → H Pallas Dec 14.4401 14.4444 ninth (95.38)",
+        "field": "also: 2 Isolate / Liam Harrison"
+       },
+       {
+        "part": "star rows",
+        "text": "H Vindemiatrix → H Rahu RA 8.9835 9 whole (3.04)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Vindemiatrix → H Orcus Dec 19.0196 19 whole (0.04)",
+        "field": "also: 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick"
+       },
+       {
+        "part": "star rows",
+        "text": "H Vindemiatrix → H Ketu RA 171.0165 171 whole (3.04)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Jupiter RA 102.9966 103 whole (68.93)",
+        "field": "also: 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Sun RA 113.2467 70×φ golden (26.52)",
+        "field": "also: 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Mercury Dec 31.9858 32 whole (8.41)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Pallas RA 179.4160 10×φ^6 phi power (94.13)",
+        "field": "also: 2 Isolate / Liam Harrison"
+       },
+       {
+        "part": "natal Jupiter → star",
+        "text": "J Jupiter → J star Vindemiatrix RA 102.9966 103 whole (68.93)",
+        "field": "also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Alkes → Eris RA 139.0033 139 whole (69.73)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P13",
+      "name": "7 Fanamix / Ben Jones",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Vindemiatrix → H Mars Dec 13.9811 14 whole (0.29)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Vindemiatrix → H Neptune RA 143.0108 143 whole (20.97)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Vindemiatrix → H Makemake RA 1.9853 2 whole (7.07)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "S Vindemiatrix → J Jupiter RA 169.9923 170 whole (37.65)",
+        "field": "also: 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Juno Dec 24.0086 24 whole (32.42)",
+        "field": "also: 2 Isolate / Liam Harrison"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Sedna RA 148.8339 92×φ golden (4.80)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Haumea RA 1.4476 conj (0.12)",
+        "field": "only"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Alphecca → Uranus RA 138.9932 139 whole (43.59)",
+        "field": ""
+       },
+       {
+        "part": "same number",
+        "text": "H Alphecca → H Uranus RA 138.9932 139 whole (43.59)",
+        "field": "only"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "line": "S Sun → Altair RA 6.0052 6 whole (54.90)",
+    "centre": "Sun",
+    "point": "Altair",
+    "plane": "RA",
+    "moon": [],
+    "runners_with_cells": "7/7",
+    "per_runner": [
+     {
+      "runner": "P01",
+      "name": "1 Java Point / Jonathan Burke",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "S Altair → H Jupiter RA 161.8476 100×φ^1 phi power (89.36)",
+        "field": "also: 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "star rows",
+        "text": "H Altair → H Pallas Dec 11.9856 12 whole (7.92)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick"
+       },
+       {
+        "part": "star rows",
+        "text": "H Altair → H Transpluto RA 145.6521 90×φ golden (1.03)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan, 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "J Altair → J Neptune RA 1.4481 conj (0.12)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Altair → J Vesta Dec 13.9962 14 whole (66.02)",
+        "field": "also: 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "star rows",
+        "text": "J Altair → J Transpluto RA 150.9992 151 whole (92.00)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan, 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "natal Jupiter → star",
+        "text": "H Jupiter → H star Altair RA 161.8536 100×φ^1 phi power (87.96)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Fomalhaut → Ceres Dec 6.0017 6 whole (84.06)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "S body → J Jupiter → Venus Dec 5.9981 6 whole (81.81)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Unukalhai → Orcus Dec 6.0042 6 whole (62.62)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Sadalsuud → Orcus Dec 5.9926 6 whole (39.93)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Betelgeuse → Transpluto Dec 5.9870 6 whole (12.24)",
+        "field": ""
+       },
+       {
+        "part": "same number",
+        "text": "S Gonggong → J Gonggong RA 5.9844 6 whole (4.87)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien"
+       },
+       {
+        "part": "same number",
+        "text": "S Venus → J Jupiter Dec 5.9981 6 whole (81.81)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien"
+       }
+      ]
+     },
+     {
+      "runner": "P03",
+      "name": "2 Isolate / Liam Harrison",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Altair → H Mercury Dec 0.2886 conj (0.14)",
+        "field": "also: 4 Wildfire Warrior / Tom O'Brien"
+       },
+       {
+        "part": "star rows",
+        "text": "H Altair → H Venus RA 59.0040 59 whole (64.40)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick"
+       },
+       {
+        "part": "star rows",
+        "text": "H Altair → H Mars RA 51.9802 52 whole (0.01)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan"
+       },
+       {
+        "part": "star rows",
+        "text": "J Altair → J Mercury RA 129.9806 130 whole (0.08)",
+        "field": "also: 4 Wildfire Warrior / Tom O'Brien"
+       },
+       {
+        "part": "star rows",
+        "text": "J Altair → J Chiron RA 19.0007 19 whole (93.18)",
+        "field": "only"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Diadem → Vesta Dec 5.9890 6 whole (20.17)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P05",
+      "name": "3 Une De La Seniere / Paddy Brennan",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Altair → H Mars RA 108.4173 67×φ golden (51.91)",
+        "field": "also: 2 Isolate / Liam Harrison"
+       },
+       {
+        "part": "star rows",
+        "text": "H Altair → H Saturn RA 56.0017 56 whole (83.79)",
+        "field": "also: 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "star rows",
+        "text": "H Altair → H Quaoar RA 30.0014 30 whole (86.48)",
+        "field": "also: 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "H Altair → H Transpluto RA 145.6397 90×φ golden (23.50)",
+        "field": "also: 1 Java Point / Jonathan Burke, 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "J Altair → J Venus Dec 0.0785 conj (54.50)",
+        "field": "also: 2 Isolate / Liam Harrison, 5 Jimmy The Digger / Richard Patrick"
+       },
+       {
+        "part": "star rows",
+        "text": "J Altair → J Pallas RA 126.2236 78×φ golden (22.65)",
+        "field": "also: 1 Java Point / Jonathan Burke, 5 Jimmy The Digger / Richard Patrick"
+       },
+       {
+        "part": "star rows",
+        "text": "J Altair → J Orcus Dec 0.1645 conj (20.40)",
+        "field": "also: 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Zubenelgenubi → Vesta Dec 5.9984 6 whole (85.09)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Kaus Australis → Pallas RA 5.9954 6 whole (59.40)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Betelgeuse → Sun Dec 6.0099 6 whole (25.27)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Acubens → Jupiter Dec 5.9850 6 whole (6.13)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Markab → Sun Dec 5.9899 6 whole (24.64)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Ras Algethi → Neptune RA 5.9881 6 whole (16.45)",
+        "field": ""
+       },
+       {
+        "part": "same number",
+        "text": "J Ras Algethi → J Neptune RA 5.9881 6 whole (16.45)",
+        "field": "also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien"
+       }
+      ]
+     },
+     {
+      "runner": "P07",
+      "name": "4 Wildfire Warrior / Tom O'Brien",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Altair → H Mercury Dec 25.9915 26 whole (33.14)",
+        "field": "also: 2 Isolate / Liam Harrison"
+       },
+       {
+        "part": "star rows",
+        "text": "H Altair → H Ceres Dec 32.9837 33 whole (3.41)",
+        "field": "also: 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "star rows",
+        "text": "H Altair → H Juno Dec 0.0639 conj (61.95)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Altair → H Orcus RA 147.2449 91×φ golden (77.84)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan, 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "H Altair → H Quaoar RA 29.9872 30 whole (13.13)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Algorab → Eris Dec 6.0075 6 whole (39.26)",
+        "field": ""
+       },
+       {
+        "part": "same number",
+        "text": "S Makemake → H Makemake RA 5.9709 6 whole (loose)",
+        "field": "also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan"
+       }
+      ]
+     },
+     {
+      "runner": "P09",
+      "name": "5 Jimmy The Digger / Richard Patrick",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Altair → H Sun RA 63.9904 64 whole (27.27)",
+        "field": "also: 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "star rows",
+        "text": "H Altair → H Venus RA 63.1063 39×φ golden (82.67)",
+        "field": "also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan"
+       },
+       {
+        "part": "star rows",
+        "text": "H Altair → H Rahu Dec 25.9906 26 whole (27.92)",
+        "field": "also: 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "J Altair → J Uranus RA 1.0542 conj (8.83)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Altair → J Pallas RA 130.9880 131 whole (16.04)",
+        "field": "also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan"
+       },
+       {
+        "part": "star rows",
+        "text": "J Altair → J Rahu RA 92.9881 93 whole (16.52)",
+        "field": "also: 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "J Altair → J Quaoar Dec 22.9999 23 whole (99.50)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "J Altair → J Ketu RA 87.0119 87 whole (16.52)",
+        "field": "also: 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H El Nath → Vesta Dec 6.0011 6 whole (89.56)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Sirius → Neptune Dec 6.0020 6 whole (80.85)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Markab → Chiron RA 5.9883 6 whole (17.42)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Algorab → Chiron RA 6.0135 6 whole (10.60)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P11",
+      "name": "6 Method Madness / Alex Edwards",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Altair → H Vesta Dec 14.0017 14 whole (84.18)",
+        "field": "also: 1 Java Point / Jonathan Burke, 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "star rows",
+        "text": "H Altair → H Rahu RA 111.1401 111.111 ninth (95.25)",
+        "field": "also: 5 Jimmy The Digger / Richard Patrick"
+       },
+       {
+        "part": "star rows",
+        "text": "H Altair → H Quaoar Dec 24.2781 15×φ golden (58.69)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick"
+       },
+       {
+        "part": "star rows",
+        "text": "H Altair → H Transpluto RA 145.6424 90×φ golden (16.14)",
+        "field": "also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan"
+       },
+       {
+        "part": "star rows",
+        "text": "J Altair → J Pluto Dec 11.1137 11.1111 ninth (95.77)",
+        "field": "also: 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "star rows",
+        "text": "J Altair → J Makemake RA 127.8265 79×φ golden (89.24)",
+        "field": "also: 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "star rows",
+        "text": "J Altair → J Orcus RA 168.2849 104×φ golden (50.36)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien"
+       },
+       {
+        "part": "star rows",
+        "text": "J Altair → J Ketu Dec 6.9987 7 whole (87.72)",
+        "field": "also: 5 Jimmy The Digger / Richard Patrick"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H El Nath → Sun Dec 5.9847 6 whole (5.61)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Rigel → Venus Dec 6.0019 6 whole (82.07)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P13",
+      "name": "7 Fanamix / Ben Jones",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Altair → H Sun Dec 22.6587 14×φ golden (65.20)",
+        "field": "also: 5 Jimmy The Digger / Richard Patrick"
+       },
+       {
+        "part": "star rows",
+        "text": "H Altair → H Ceres RA 13.0077 13 whole (37.68)",
+        "field": "also: 4 Wildfire Warrior / Tom O'Brien"
+       },
+       {
+        "part": "star rows",
+        "text": "H Altair → H Makemake Dec 16.9928 17 whole (40.86)",
+        "field": "also: 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "H Altair → H Gonggong Dec 21.9856 22 whole (7.90)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Altair → J Jupiter Dec 0.1318 conj (31.45)",
+        "field": "also: 1 Java Point / Jonathan Burke"
+       },
+       {
+        "part": "star rows",
+        "text": "J Altair → J Saturn RA 103.5777 64×φ golden (7.50)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan"
+       },
+       {
+        "part": "star rows",
+        "text": "J Altair → J Pluto RA 47.9984 48 whole (84.84)",
+        "field": "also: 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "J Altair → J Pluto Dec 20.0009 20 whole (91.58)",
+        "field": "also: 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "J Altair → J Ceres RA 122.9703 76×φ golden (98.21)",
+        "field": "also: 4 Wildfire Warrior / Tom O'Brien"
+       },
+       {
+        "part": "star rows",
+        "text": "J Altair → J Vesta RA 76.9919 77 whole (35.59)",
+        "field": "also: 1 Java Point / Jonathan Burke, 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "J Altair → J Sedna RA 109.0130 109 whole (12.13)",
+        "field": "only"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Alkes → Ceres Dec 5.9946 6 whole (53.37)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Facies → Mercury Dec 6.0038 6 whole (65.21)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Alnilam → Eris Dec 5.9957 6 whole (61.30)",
+        "field": ""
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "line": "S Sun → Rukbat RA 0.7240 conj (26.77)",
+    "centre": "Sun",
+    "point": "Rukbat",
+    "plane": "RA",
+    "moon": [],
+    "runners_with_cells": "7/7",
+    "per_runner": [
+     {
+      "runner": "P01",
+      "name": "1 Java Point / Jonathan Burke",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Rukbat → H Saturn Dec 21.9971 22 whole (72.81)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan, 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "H Rukbat → H Neptune RA 50.0154 50 whole (5.18)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Rukbat → H Ceres Dec 16.9939 17 whole (48.62)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien"
+       },
+       {
+        "part": "star rows",
+        "text": "H Rukbat → H Sedna Dec 48.0012 48 whole (88.51)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan"
+       },
+       {
+        "part": "star rows",
+        "text": "H Rukbat → H Makemake Dec 66.9848 67 whole (5.88)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rukbat → J Chiron Dec 32.9959 33 whole (63.21)",
+        "field": "also: 4 Wildfire Warrior / Tom O'Brien"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rukbat → J Juno RA 1.3795 conj (0.65)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rukbat → J Haumea Dec 61.9934 62 whole (44.85)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rukbat → J Quaoar RA 49.0084 49 whole (33.41)",
+        "field": "also: 5 Jimmy The Digger / Richard Patrick"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rukbat → J Transpluto Dec 54.0111 54 whole (19.70)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick"
+       }
+      ]
+     },
+     {
+      "runner": "P03",
+      "name": "2 Isolate / Liam Harrison",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Rukbat → H Sun RA 80.9031 50×φ golden (91.64)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick"
+       },
+       {
+        "part": "star rows",
+        "text": "H Rukbat → H Gonggong RA 44.9857 45 whole (8.22)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rukbat → J Uranus Dec 28.0065 28 whole (45.26)",
+        "field": "only"
+       }
+      ]
+     },
+     {
+      "runner": "P05",
+      "name": "3 Une De La Seniere / Paddy Brennan",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "S Rukbat → H Jupiter RA 155.3601 96×φ golden (1.19)",
+        "field": "also: 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "H Rukbat → H Ceres RA 17.7799 17.7778 ninth (98.36)",
+        "field": "also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien"
+       },
+       {
+        "part": "star rows",
+        "text": "H Rukbat → H Sedna Dec 47.9868 48 whole (11.53)",
+        "field": "also: 1 Java Point / Jonathan Burke"
+       },
+       {
+        "part": "star rows",
+        "text": "H Rukbat → H Makemake Dec 66.9825 67 whole (1.50)",
+        "field": "also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rukbat → J Sun RA 90.9981 91 whole (81.60)",
+        "field": "also: 2 Isolate / Liam Harrison, 5 Jimmy The Digger / Richard Patrick"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rukbat → J Saturn RA 104.9804 105 whole (0.04)",
+        "field": "also: 1 Java Point / Jonathan Burke, 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rukbat → J Makemake RA 132.9853 133 whole (7.08)",
+        "field": "also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rukbat → J Gonggong Dec 18.0002 18 whole (97.76)",
+        "field": "also: 2 Isolate / Liam Harrison"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rukbat → J Transpluto RA 150.4804 93×φ golden (80.92)",
+        "field": "also: 1 Java Point / Jonathan Burke, 5 Jimmy The Digger / Richard Patrick"
+       }
+      ]
+     },
+     {
+      "runner": "P07",
+      "name": "4 Wildfire Warrior / Tom O'Brien",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "S Rukbat → H Jupiter RA 153.7214 95×φ golden (55.92)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan, 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "H Rukbat → H Venus RA 79.9948 80 whole (54.98)",
+        "field": "also: 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "star rows",
+        "text": "H Rukbat → H Ceres RA 0.8428 conj (19.19)",
+        "field": "also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan"
+       },
+       {
+        "part": "star rows",
+        "text": "H Rukbat → H Makemake Dec 66.6610 66.6667 ninth (95.10)",
+        "field": "also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan, 7 Fanamix / Ben Jones"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rukbat → J Chiron Dec 58.0022 58 whole (79.01)",
+        "field": "also: 1 Java Point / Jonathan Burke"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rukbat → J Vesta Dec 33.3385 33.3333 ninth (93.74)",
+        "field": "only"
+       }
+      ]
+     },
+     {
+      "runner": "P09",
+      "name": "5 Jimmy The Digger / Richard Patrick",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Rukbat → H Sun RA 70.7166 70.7 sqrt2 (96.69)",
+        "field": "also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan"
+       },
+       {
+        "part": "star rows",
+        "text": "H Rukbat → H Pluto RA 8.9982 9 whole (82.90)",
+        "field": "also: 6 Method Madness / Alex Edwards"
+       },
+       {
+        "part": "star rows",
+        "text": "H Rukbat → H Quaoar Dec 25.0005 25 whole (95.09)",
+        "field": "also: 1 Java Point / Jonathan Burke"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rukbat → J Transpluto RA 144.4425 144.444 ninth (99.80)",
+        "field": "also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan"
+       }
+      ]
+     },
+     {
+      "runner": "P11",
+      "name": "6 Method Madness / Alex Edwards",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Rukbat → H Mars Dec 64.0098 64 whole (26.04)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Rukbat → H Pluto Dec 20.0086 20 whole (32.34)",
+        "field": "also: 5 Jimmy The Digger / Richard Patrick"
+       },
+       {
+        "part": "star rows",
+        "text": "H Rukbat → H Pallas Dec 66.0145 66 whole (7.56)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "S Rukbat → J Jupiter Dec 63.9809 64 whole (0.22)",
+        "field": "also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rukbat → J Saturn RA 0.7190 conj (27.11)",
+        "field": "also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan"
+       }
+      ]
+     },
+     {
+      "runner": "P13",
+      "name": "7 Fanamix / Ben Jones",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "J Rukbat → J Venus RA 103.0198 103 whole (0.01)",
+        "field": "also: 4 Wildfire Warrior / Tom O'Brien"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rukbat → J Rahu RA 161.8638 100×φ^1 phi power (85.63)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rukbat → J Makemake RA 110.9459 10×φ^5 phi power (84.71)",
+        "field": "also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "body_lines": [
+   "S Jupiter → Transpluto RA 179.4560 10×φ^6 phi power (97.05)",
+   "S Sun → Saturn Dec 4.1426 4.14 silver (96.70)",
+   "S Jupiter → Pallas Dec 0.0263 conj (83.23)",
+   "S Sun → Pallas RA 61.0023 61 whole (78.49)",
+   "S Sun → Juno RA 0.4578 conj (48.28)",
+   "S Jupiter → Gonggong Dec 0.1496 conj (25.13)"
+  ],
+  "moon_only": [
+   "S Moon → Alphecca RA 155.5623 155.556 ninth (99.36)",
+   "S Moon → Juno RA 98.0009 98 whole (91.15)",
+   "S Moon → Alphard Dec 16.9991 17 whole (91.06)",
+   "S Moon → Vega RA 110.0023 110 whole (78.36)",
+   "S Moon → Ankaa RA 22.6600 14×φ golden (59.07)",
+   "S Moon → Pluto Dec 31.0058 31 whole (50.26)"
+  ]
+ },
  "sky": {
   "hubs": [
    "Juno",

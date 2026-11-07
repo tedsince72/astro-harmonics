@@ -7941,6 +7941,1477 @@
    }
   }
  },
+ "read": {
+  "same_body": {
+   "P01": [
+    "S Jupiter → H Jupiter RA 122.2446 122.222 ninth (96.90)",
+    "S Uranus → H Uranus Dec 10.0154 10 whole (5.34)",
+    "S Neptune → H Neptune RA 14.0096 14 whole (27.22)",
+    "S Pallas → H Pallas RA 142.0115 142 whole (18.09)",
+    "S Pallas → H Pallas Dec 19.0000 19 whole (99.66)",
+    "S Gonggong → H Gonggong RA 1.0089 1 whole (30.59)",
+    "S Transpluto → H Transpluto RA 3.0297 3 whole (loose)",
+    "S Sun → J Sun Dec 33.3953 33.3333 ninth (loose)",
+    "S Mercury → J Mercury Dec 42.3376 10×φ^3 phi power (loose)",
+    "S Mars → J Mars Dec 13.3256 13.3333 ninth (loose)",
+    "S Neptune → J Neptune Dec 14.5872 9×φ golden (loose)",
+    "S Ceres → J Ceres Dec 6.0198 6 whole (0.01)",
+    "S Pallas → J Pallas RA 46.0175 46 whole (1.55)",
+    "S Vesta → J Vesta RA 146.0233 146 whole (loose)",
+    "S Vesta → J Vesta Dec 41.4718 41.4 silver (loose)",
+    "S Eris → J Eris RA 2.0099 2 whole (25.54)",
+    "S Quaoar → J Quaoar RA 31.0289 31 whole (loose)",
+    "S Transpluto → J Transpluto RA 7.9786 8 whole (loose)"
+   ],
+   "P03": [
+    "S Jupiter → H Jupiter RA 155.6082 155.556 ninth (loose)",
+    "S Pluto → H Pluto RA 13.9840 14 whole (4.05)",
+    "S Juno → H Juno RA 177.7114 177.778 ninth (94.81)",
+    "S Gonggong → H Gonggong Dec 1.7775 1.77778 ninth (98.15)",
+    "S Venus → J Venus Dec 40.4533 25×φ golden (85.45)",
+    "S Mars → J Mars RA 110.5600 10×φ^5 phi power (loose)",
+    "S Saturn → J Saturn Dec 7.9878 8 whole (15.14)",
+    "S Juno → J Juno Dec 14.5657 9×φ golden (80.15)",
+    "S Vesta → J Vesta Dec 35.9705 36 whole (loose)",
+    "S Rahu → J Rahu RA 177.3359 177.778 ninth (loose)",
+    "S Quaoar → J Quaoar Dec 1.5578 1.55556 ninth (loose)",
+    "S Ketu → J Ketu RA 177.3359 177.778 ninth (loose)"
+   ],
+   "P05": [
+    "S Mars → H Mars RA 99.8725 100 ninth (loose)",
+    "S Pluto → H Pluto RA 15.5188 15.5556 ninth (loose)",
+    "S Ceres → H Ceres RA 143.9813 144 whole (0.40)",
+    "S Rahu → H Rahu RA 151.9716 152 whole (loose)",
+    "S Haumea → H Haumea Dec 3.0278 3 whole (loose)",
+    "S Gonggong → H Gonggong Dec 1.7680 1.77778 ninth (loose)",
+    "S Ketu → H Ketu RA 151.9716 152 whole (loose)",
+    "S Sun → J Sun RA 22.0133 22 whole (11.25)",
+    "S Mars → J Mars RA 44.4438 44.4444 ninth (99.36)",
+    "S Jupiter → J Jupiter RA 12.2596 12.2222 ninth (loose)",
+    "S Neptune → J Neptune Dec 15.4873 15.5556 ninth (loose)",
+    "S Haumea → J Haumea Dec 5.9835 6 whole (2.99)"
+   ],
+   "P07": [
+    "S Sun → H Sun RA 29.9995 30 whole (95.24)",
+    "S Sun → H Sun Dec 12.2841 12.2222 ninth (loose)",
+    "S Mercury → H Mercury RA 68.5691 10×φ^4 phi power (loose)",
+    "S Venus → H Venus Dec 27.5346 17×φ golden (loose)",
+    "S Jupiter → H Jupiter Dec 1.9789 2 whole (loose)",
+    "S Ceres → H Ceres RA 16.0155 16 whole (4.99)",
+    "S Vesta → H Vesta RA 177.6063 177.778 ninth (loose)",
+    "S Rahu → H Rahu Dec 8.8826 8.88889 ninth (loose)",
+    "S Haumea → H Haumea RA 4.8498 3×φ golden (loose)",
+    "S Gonggong → H Gonggong RA 0.6668 0.666667 ninth (loose)",
+    "S Ketu → H Ketu Dec 8.8826 8.88889 ninth (loose)",
+    "S Mercury → J Mercury RA 119.9840 120 whole (3.94)",
+    "S Neptune → J Neptune Dec 17.8585 φ^6 phi power (loose)",
+    "S Pluto → J Pluto RA 74.0240 74 whole (loose)",
+    "S Ceres → J Ceres RA 31.0060 31 whole (48.72)",
+    "S Pallas → J Pallas Dec 0.9876 1 whole (14.35)",
+    "S Juno → J Juno Dec 10.9995 11 whole (94.77)",
+    "S Vesta → J Vesta Dec 4.9940 5 whole (49.10)",
+    "S Rahu → J Rahu Dec 32.3729 20×φ golden (loose)",
+    "S Eris → J Eris RA 3.3329 3.33333 ninth (loose)",
+    "S Sedna → J Sedna RA 16.0230 16 whole (loose)",
+    "S Haumea → J Haumea RA 30.7695 19×φ golden (loose)",
+    "S Orcus → J Orcus Dec 16.1655 10×φ^1 phi power (loose)",
+    "S Quaoar → J Quaoar RA 44.4563 44.4444 ninth (loose)",
+    "S Gonggong → J Gonggong RA 7.7743 7.77778 ninth (loose)",
+    "S Ketu → J Ketu Dec 32.3729 20×φ golden (loose)"
+   ]
+  },
+  "lead": [
+   {
+    "line": "S Jupiter → Menkent RA 130.9998 131 whole (98.49)",
+    "centre": "Jupiter",
+    "point": "Menkent",
+    "plane": "RA",
+    "moon": [],
+    "runners_with_cells": "4/4",
+    "per_runner": [
+     {
+      "runner": "P01",
+      "name": "1 Fransham / Jack Andrews",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Menkent → H Jupiter RA 106.7608 66×φ golden (0.81)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Menkent → J Juno Dec 33.0177 33 whole (1.31)",
+        "field": "also: 4 Nickolson / Jonjo O'Neill Jr"
+       },
+       {
+        "part": "star rows",
+        "text": "J Menkent → J Sedna RA 164.9843 165 whole (4.69)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Menkent → J Orcus Dec 36.0009 36 whole (91.25)",
+        "field": "only"
+       }
+      ]
+     },
+     {
+      "runner": "P03",
+      "name": "3 Nelson River / Harry Bannister",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Menkent → H Chiron Dec 35.0125 35 whole (14.12)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Menkent → H Haumea RA 0.5135 conj (43.25)",
+        "field": "also: 5 Stepney Causeway / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Menkent → J Saturn RA 132.6638 82×φ golden (28.95)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Menkent → J Vesta RA 156.9658 97×φ golden (23.97)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Menkent → J Makemake Dec 71.0070 71 whole (42.07)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Menkent → J Ketu RA 160.1981 99×φ golden (36.69)",
+        "field": "only"
+       }
+      ]
+     },
+     {
+      "runner": "P05",
+      "name": "4 Nickolson / Jonjo O'Neill Jr",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Menkent → H Uranus RA 161.8261 100×φ^1 phi power (94.47)",
+        "field": "also: 5 Stepney Causeway / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "H Menkent → H Juno Dec 45.0028 45 whole (74.24)",
+        "field": "also: 1 Fransham / Jack Andrews"
+       },
+       {
+        "part": "star rows",
+        "text": "H Menkent → H Eris Dec 33.3373 33.3333 ninth (95.22)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Menkent → H Transpluto Dec 47.9876 48 whole (14.40)",
+        "field": "only"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Deneb Algedi → Haumea RA 131.0129 131 whole (12.42)",
+        "field": ""
+       },
+       {
+        "part": "same number",
+        "text": "J Deneb Algedi → J Haumea RA 131.0129 131 whole (12.42)",
+        "field": "only"
+       }
+      ]
+     },
+     {
+      "runner": "P07",
+      "name": "5 Stepney Causeway / Harry Skelton",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Menkent → H Venus Dec 46.9882 47 whole (16.85)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Menkent → H Haumea RA 1.0200 conj (10.24)",
+        "field": "also: 3 Nelson River / Harry Bannister"
+       },
+       {
+        "part": "star rows",
+        "text": "J Menkent → J Uranus RA 59.9979 60 whole (79.83)",
+        "field": "also: 4 Nickolson / Jonjo O'Neill Jr"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "line": "S Jupiter → Alkes RA 177.7232 177.778 ninth (95.73)",
+    "centre": "Jupiter",
+    "point": "Alkes",
+    "plane": "RA",
+    "moon": [],
+    "runners_with_cells": "4/4",
+    "per_runner": [
+     {
+      "runner": "P01",
+      "name": "1 Fransham / Jack Andrews",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Alkes → H Uranus Dec 23.0166 23 whole (2.81)",
+        "field": "also: 3 Nelson River / Harry Bannister"
+       },
+       {
+        "part": "star rows",
+        "text": "H Alkes → H Orcus RA 16.0108 16 whole (21.05)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Alkes → H Ketu Dec 29.1267 18×φ golden (87.53)",
+        "field": "also: 3 Nelson River / Harry Bannister"
+       },
+       {
+        "part": "star rows",
+        "text": "J Alkes → J Saturn RA 126.0153 126 whole (5.63)",
+        "field": "also: 4 Nickolson / Jonjo O'Neill Jr"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Algol → Saturn RA 177.7073 177.778 ninth (94.49)",
+        "field": ""
+       },
+       {
+        "part": "same number",
+        "text": "S Moon → H Chiron RA 177.7268 177.778 ninth (96.01)",
+        "field": "also: 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton"
+       }
+      ]
+     },
+     {
+      "runner": "P03",
+      "name": "3 Nelson River / Harry Bannister",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Alkes → H Mercury Dec 0.0094 conj (93.85)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Alkes → H Venus RA 163.9927 164 whole (40.54)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Alkes → H Chiron RA 179.4180 10×φ^6 phi power (94.57)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Alkes → H Ketu RA 155.5255 155.556 ninth (97.15)",
+        "field": "also: 1 Fransham / Jack Andrews"
+       },
+       {
+        "part": "star rows",
+        "text": "J Alkes → J Mars Dec 32.9889 33 whole (19.90)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Alkes → J Uranus RA 132.9814 133 whole (0.49)",
+        "field": "also: 1 Fransham / Jack Andrews"
+       },
+       {
+        "part": "star rows",
+        "text": "J Alkes → J Pluto Dec 12.9833 13 whole (2.66)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Alkes → J Juno RA 35.0063 35 whole (47.24)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Alkes → J Haumea Dec 41.0045 41 whole (59.98)",
+        "field": "only"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Orion Nebula Cluster → Pallas RA 177.7871 177.778 ninth (99.27)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Zubeneschamali → Ketu RA 177.7786 177.778 ninth (99.94)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Ras Algethi → Sun RA 177.7952 177.778 ninth (98.64)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Sadalsuud → Transpluto RA 177.7564 177.778 ninth (98.33)",
+        "field": ""
+       },
+       {
+        "part": "same number",
+        "text": "S Juno → H Juno RA 177.7114 177.778 ninth (94.81)",
+        "field": "also: 1 Fransham / Jack Andrews, 5 Stepney Causeway / Harry Skelton"
+       },
+       {
+        "part": "same number",
+        "text": "S Rahu → J Rahu RA 177.3359 177.778 ninth (loose)",
+        "field": "also: 1 Fransham / Jack Andrews, 5 Stepney Causeway / Harry Skelton"
+       },
+       {
+        "part": "same number",
+        "text": "S Ketu → J Ketu RA 177.3359 177.778 ninth (loose)",
+        "field": "also: 1 Fransham / Jack Andrews, 5 Stepney Causeway / Harry Skelton"
+       }
+      ]
+     },
+     {
+      "runner": "P05",
+      "name": "4 Nickolson / Jonjo O'Neill Jr",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Alkes → H Saturn Dec 3.0171 3 whole (2.07)",
+        "field": "also: 1 Fransham / Jack Andrews"
+       },
+       {
+        "part": "star rows",
+        "text": "H Alkes → H Ceres RA 37.9973 38 whole (75.09)",
+        "field": "also: 5 Stepney Causeway / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Alkes → J Saturn Dec 22.0148 22 whole (6.64)",
+        "field": "also: 1 Fransham / Jack Andrews"
+       },
+       {
+        "part": "star rows",
+        "text": "J Alkes → J Ceres Dec 6.9941 7 whole (49.91)",
+        "field": "also: 5 Stepney Causeway / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Alkes → J Pallas RA 152.0695 94×φ golden (4.25)",
+        "field": "only"
+       }
+      ]
+     },
+     {
+      "runner": "P07",
+      "name": "5 Stepney Causeway / Harry Skelton",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Alkes → H Ceres RA 122.0022 122 whole (79.39)",
+        "field": "also: 4 Nickolson / Jonjo O'Neill Jr"
+       },
+       {
+        "part": "star rows",
+        "text": "J Alkes → J Eris RA 142.3814 88×φ golden (68.48)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Alkes → J Gonggong RA 163.9965 164 whole (67.89)",
+        "field": "only"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Phact → Saturn RA 177.7690 177.778 ninth (99.32)",
+        "field": ""
+       },
+       {
+        "part": "same number",
+        "text": "S Vesta → H Vesta RA 177.6063 177.778 ninth (loose)",
+        "field": "also: 1 Fransham / Jack Andrews, 3 Nelson River / Harry Bannister"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "line": "S Sun → Murzim Dec 5.9982 6 whole (83.01)",
+    "centre": "Sun",
+    "point": "Murzim",
+    "plane": "Dec",
+    "moon": [],
+    "runners_with_cells": "4/4",
+    "per_runner": [
+     {
+      "runner": "P01",
+      "name": "1 Fransham / Jack Andrews",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Murzim → H Jupiter Dec 40.9849 41 whole (6.09)",
+        "field": "also: 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Murzim → J Ceres RA 1.2378 conj (3.06)",
+        "field": "only"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Regulus → Juno Dec 6.0078 6 whole (37.22)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Pleiades → Pallas RA 6.0033 6 whole (70.00)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Spica → Gonggong Dec 6.0171 6 whole (2.12)",
+        "field": ""
+       },
+       {
+        "part": "same number",
+        "text": "S Ceres → J Ceres Dec 6.0198 6 whole (0.01)",
+        "field": "also: 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton"
+       },
+       {
+        "part": "same number",
+        "text": "J Spica → J Gonggong Dec 6.0171 6 whole (2.12)",
+        "field": "also: 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton"
+       }
+      ]
+     },
+     {
+      "runner": "P03",
+      "name": "3 Nelson River / Harry Bannister",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Murzim → H Sun RA 121.3830 75×φ golden (0.35)",
+        "field": "also: 5 Stepney Causeway / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "H Murzim → H Ketu Dec 22.0181 22 whole (0.88)",
+        "field": "also: 4 Nickolson / Jonjo O'Neill Jr"
+       },
+       {
+        "part": "star rows",
+        "text": "S Murzim → J Jupiter RA 118.1272 73×φ golden (44.73)",
+        "field": "also: 1 Fransham / Jack Andrews, 5 Stepney Causeway / Harry Skelton"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Algorab → Makemake RA 5.9921 6 whole (36.48)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Hamal → Haumea Dec 6.0128 6 whole (12.96)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Diadem → Venus Dec 6.0040 6 whole (64.00)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P05",
+      "name": "4 Nickolson / Jonjo O'Neill Jr",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "J Murzim → J Uranus RA 144.4930 144.444 ninth (94.86)",
+        "field": "also: 5 Stepney Causeway / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Murzim → J Gonggong Dec 0.1322 conj (31.29)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Murzim → J Ketu RA 113.2349 70×φ golden (2.24)",
+        "field": "also: 3 Nelson River / Harry Bannister"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Acubens → Sun Dec 6.0096 6 whole (27.01)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Algenib → Venus RA 5.9892 6 whole (21.34)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Galactic Centre → Mercury Dec 5.9988 6 whole (88.26)",
+        "field": ""
+       },
+       {
+        "part": "same number",
+        "text": "H Acubens → H Sun Dec 6.0096 6 whole (27.01)",
+        "field": "also: 1 Fransham / Jack Andrews, 5 Stepney Causeway / Harry Skelton"
+       },
+       {
+        "part": "same number",
+        "text": "S Haumea → J Haumea Dec 5.9835 6 whole (2.99)",
+        "field": "also: 1 Fransham / Jack Andrews, 5 Stepney Causeway / Harry Skelton"
+       }
+      ]
+     },
+     {
+      "runner": "P07",
+      "name": "5 Stepney Causeway / Harry Skelton",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Murzim → H Jupiter RA 103.5451 64×φ golden (51.95)",
+        "field": "also: 1 Fransham / Jack Andrews, 3 Nelson River / Harry Bannister"
+       },
+       {
+        "part": "star rows",
+        "text": "H Murzim → H Pallas Dec 15.5523 15.5556 ninth (96.94)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Murzim → H Haumea RA 117.0176 117 whole (1.48)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Murzim → H Transpluto Dec 29.1292 18×φ golden (73.58)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Murzim → J Sun Dec 18.8882 18.8889 ninth (99.49)",
+        "field": "also: 3 Nelson River / Harry Bannister"
+       },
+       {
+        "part": "star rows",
+        "text": "J Murzim → J Uranus RA 175.9907 176 whole (28.69)",
+        "field": "also: 4 Nickolson / Jonjo O'Neill Jr"
+       },
+       {
+        "part": "star rows",
+        "text": "J Murzim → J Juno Dec 17.7707 17.7778 ninth (94.45)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Murzim → J Sedna RA 53.3989 33×φ golden (78.24)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Murzim → J Orcus Dec 21.9984 22 whole (84.80)",
+        "field": "only"
+       },
+       {
+        "part": "natal Jupiter → star",
+        "text": "H Jupiter → H star Murzim RA 103.5451 64×φ golden (51.95)",
+        "field": "only"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "S Jupiter → H body → Pallas Dec 6.0016 6 whole (84.43)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Jupiter → H body → Gonggong Dec 5.9966 6 whole (68.84)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Betelgeuse → Chiron Dec 5.9956 6 whole (60.97)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Deneb Algedi → Juno Dec 5.9901 6 whole (25.30)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Ras Algethi → Uranus Dec 6.0121 6 whole (15.58)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Alpheratz → Makemake Dec 6.0164 6 whole (3.23)",
+        "field": ""
+       },
+       {
+        "part": "same number",
+        "text": "H Jupiter → H Gonggong Dec 5.9966 6 whole (68.84)",
+        "field": "also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr"
+       },
+       {
+        "part": "same number",
+        "text": "S Jupiter → H Pallas Dec 6.0016 6 whole (84.43)",
+        "field": "also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr"
+       },
+       {
+        "part": "same number",
+        "text": "H Deneb Algedi → H Juno Dec 5.9901 6 whole (25.30)",
+        "field": "also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "line": "S Jupiter → Alphecca RA 108.9962 109 whole (65.79)",
+    "centre": "Jupiter",
+    "point": "Alphecca",
+    "plane": "RA",
+    "moon": [],
+    "runners_with_cells": "4/4",
+    "per_runner": [
+     {
+      "runner": "P01",
+      "name": "1 Fransham / Jack Andrews",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Alphecca → H Mercury Dec 15.9869 16 whole (11.96)",
+        "field": "also: 3 Nelson River / Harry Bannister"
+       },
+       {
+        "part": "star rows",
+        "text": "H Alphecca → H Uranus Dec 21.9966 22 whole (68.52)",
+        "field": "also: 5 Stepney Causeway / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "H Alphecca → H Chiron RA 111.6745 69×φ golden (0.48)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Alphecca → H Ceres Dec 22.9889 23 whole (19.95)",
+        "field": "also: 4 Nickolson / Jonjo O'Neill Jr"
+       },
+       {
+        "part": "star rows",
+        "text": "H Alphecca → H Rahu RA 27.5042 17×φ golden (85.72)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Alphecca → H Makemake Dec 0.1153 conj (37.91)",
+        "field": "also: 4 Nickolson / Jonjo O'Neill Jr"
+       },
+       {
+        "part": "star rows",
+        "text": "J Alphecca → J Ceres Dec 0.2152 conj (7.99)",
+        "field": "also: 4 Nickolson / Jonjo O'Neill Jr"
+       },
+       {
+        "part": "star rows",
+        "text": "J Alphecca → J Sedna RA 173.0140 173 whole (9.02)",
+        "field": "also: 3 Nelson River / Harry Bannister"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Arcturus → Jupiter RA 109.0025 109 whole (76.67)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Vega → Mercury RA 108.9963 109 whole (66.60)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Alnilam → Mars RA 109.0152 109 whole (5.85)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Praesepe → Chiron RA 108.9940 109 whole (49.24)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Altair → Sedna RA 108.9925 109 whole (39.11)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Diadem → Neptune RA 109.0145 109 whole (7.53)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P03",
+      "name": "3 Nelson River / Harry Bannister",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Alphecca → H Mercury Dec 45.0192 45 whole (0.16)",
+        "field": "also: 1 Fransham / Jack Andrews"
+       },
+       {
+        "part": "star rows",
+        "text": "H Alphecca → H Sedna RA 179.4072 10×φ^6 phi power (92.24)",
+        "field": "also: 1 Fransham / Jack Andrews"
+       },
+       {
+        "part": "star rows",
+        "text": "H Alphecca → H Ketu Dec 22.6512 14×φ golden (92.16)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Alphecca → J Haumea Dec 4.0121 4 whole (15.58)",
+        "field": "also: 5 Stepney Causeway / Harry Skelton"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Kaus Australis → Eris RA 109.0006 109 whole (93.84)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Praesepe → Quaoar RA 109.0014 109 whole (86.90)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P05",
+      "name": "4 Nickolson / Jonjo O'Neill Jr",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Alphecca → H Saturn Dec 41.9971 42 whole (72.90)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Alphecca → H Makemake Dec 0.1064 conj (41.64)",
+        "field": "also: 1 Fransham / Jack Andrews"
+       },
+       {
+        "part": "star rows",
+        "text": "J Alphecca → J Saturn Dec 22.9953 23 whole (58.63)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Alphecca → J Ceres Dec 38.0160 38 whole (3.94)",
+        "field": "also: 1 Fransham / Jack Andrews"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Acubens → Eris RA 109.0150 109 whole (6.26)",
+        "field": ""
+       },
+       {
+        "part": "same number",
+        "text": "H Acubens → H Eris RA 109.0150 109 whole (6.26)",
+        "field": "only"
+       }
+      ]
+     },
+     {
+      "runner": "P07",
+      "name": "5 Stepney Causeway / Harry Skelton",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Alphecca → H Mars RA 161.8722 100×φ^1 phi power (83.72)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Alphecca → H Haumea RA 20.9830 21 whole (2.25)",
+        "field": "also: 3 Nelson River / Harry Bannister"
+       },
+       {
+        "part": "star rows",
+        "text": "J Alphecca → J Uranus RA 37.9967 38 whole (69.74)",
+        "field": "also: 1 Fransham / Jack Andrews"
+       },
+       {
+        "part": "star rows",
+        "text": "J Alphecca → J Eris RA 148.8900 92×φ golden (0.20)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Alphecca → J Quaoar RA 1.3181 conj (1.47)",
+        "field": "only"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Rasalhague → Rahu RA 108.9806 109 whole (0.09)",
+        "field": ""
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "line": "S Sun → Spica RA 129.4502 80×φ golden (58.94)",
+    "centre": "Sun",
+    "point": "Spica",
+    "plane": "RA",
+    "moon": [],
+    "runners_with_cells": "4/4",
+    "per_runner": [
+     {
+      "runner": "P01",
+      "name": "1 Fransham / Jack Andrews",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Spica → H Makemake Dec 37.9907 38 whole (28.58)",
+        "field": "also: 4 Nickolson / Jonjo O'Neill Jr"
+       },
+       {
+        "part": "star rows",
+        "text": "H Spica → H Ketu Dec 21.9889 22 whole (19.81)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Spica → J Mercury Dec 34.0171 34 whole (2.06)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Spica → J Haumea Dec 33.0160 33 whole (3.95)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Spica → J Gonggong Dec 6.0171 6 whole (2.12)",
+        "field": "also: 3 Nelson River / Harry Bannister"
+       },
+       {
+        "part": "star rows",
+        "text": "J Spica → J Ketu Dec 4.9907 5 whole (28.56)",
+        "field": "only"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Mirach → Pallas RA 129.4283 80×φ golden (30.66)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Procyon → Chiron RA 129.4692 80×φ golden (3.35)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Pollux → Quaoar RA 129.4526 80×φ golden (48.12)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P03",
+      "name": "3 Nelson River / Harry Bannister",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Spica → H Sun RA 132.9938 133 whole (47.60)",
+        "field": "also: 4 Nickolson / Jonjo O'Neill Jr"
+       },
+       {
+        "part": "star rows",
+        "text": "H Spica → H Mars Dec 11.0047 11 whole (58.60)",
+        "field": "also: 4 Nickolson / Jonjo O'Neill Jr"
+       },
+       {
+        "part": "star rows",
+        "text": "H Spica → H Gonggong RA 134.0169 134 whole (2.36)",
+        "field": "also: 1 Fransham / Jack Andrews"
+       },
+       {
+        "part": "star rows",
+        "text": "J Spica → J Sun Dec 34.0179 34 whole (1.09)",
+        "field": "also: 4 Nickolson / Jonjo O'Neill Jr"
+       },
+       {
+        "part": "star rows",
+        "text": "J Spica → J Mars RA 161.8682 100×φ^1 phi power (84.63)",
+        "field": "also: 4 Nickolson / Jonjo O'Neill Jr"
+       },
+       {
+        "part": "star rows",
+        "text": "J Spica → J Ceres RA 125.0155 125 whole (5.06)",
+        "field": "also: 4 Nickolson / Jonjo O'Neill Jr"
+       },
+       {
+        "part": "star rows",
+        "text": "J Spica → J Juno RA 1.3511 conj (0.99)",
+        "field": "also: 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Spica → J Eris RA 177.9665 110×φ golden (21.72)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Spica → J Sedna RA 156.9280 97×φ golden (11.62)",
+        "field": "also: 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Sadalsuud → Makemake RA 129.4228 80×φ golden (14.87)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P05",
+      "name": "4 Nickolson / Jonjo O'Neill Jr",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Spica → H Sun Dec 29.0303 φ^7 phi power (94.33)",
+        "field": "also: 3 Nelson River / Harry Bannister"
+       },
+       {
+        "part": "star rows",
+        "text": "H Spica → H Venus RA 167.9918 168 whole (34.66)",
+        "field": "also: 5 Stepney Causeway / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "H Spica → H Juno RA 163.4051 101×φ golden (24.66)",
+        "field": "also: 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "H Spica → H Vesta RA 0.9118 conj (15.38)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Spica → H Makemake Dec 37.9828 38 whole (1.98)",
+        "field": "also: 1 Fransham / Jack Andrews"
+       },
+       {
+        "part": "star rows",
+        "text": "J Spica → J Mars RA 132.0176 132 whole (1.43)",
+        "field": "also: 3 Nelson River / Harry Bannister"
+       },
+       {
+        "part": "star rows",
+        "text": "J Spica → J Ceres Dec 0.1433 conj (27.29)",
+        "field": "also: 3 Nelson River / Harry Bannister"
+       },
+       {
+        "part": "star rows",
+        "text": "J Spica → J Juno Dec 8.0200 8 whole (0.00)",
+        "field": "also: 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Spica → J Sedna Dec 15.9935 16 whole (45.83)",
+        "field": "also: 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Acumen → Juno RA 129.4298 80×φ golden (36.20)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P07",
+      "name": "5 Stepney Causeway / Harry Skelton",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Spica → H Venus RA 161.8647 100×φ^1 phi power (85.41)",
+        "field": "also: 4 Nickolson / Jonjo O'Neill Jr"
+       },
+       {
+        "part": "star rows",
+        "text": "J Spica → J Juno RA 11.1155 11.1111 ninth (92.74)",
+        "field": "also: 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr"
+       },
+       {
+        "part": "star rows",
+        "text": "J Spica → J Sedna RA 159.0181 159 whole (0.87)",
+        "field": "also: 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "line": "S Sun → Deneb Algedi RA 3.9950 4 whole (56.60)",
+    "centre": "Sun",
+    "point": "Deneb Algedi",
+    "plane": "RA",
+    "moon": [],
+    "runners_with_cells": "4/4",
+    "per_runner": [
+     {
+      "runner": "P01",
+      "name": "1 Fransham / Jack Andrews",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Deneb Algedi → H Venus Dec 11.0088 11 whole (31.12)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Deneb Algedi → H Pluto Dec 3.9821 4 whole (1.07)",
+        "field": "also: 4 Nickolson / Jonjo O'Neill Jr"
+       },
+       {
+        "part": "star rows",
+        "text": "H Deneb Algedi → H Transpluto RA 175.0132 175 whole (11.58)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Deneb Algedi → J Mercury Dec 38.9808 39 whole (0.15)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Deneb Algedi → J Chiron Dec 0.0920 conj (48.05)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Deneb Algedi → J Quaoar RA 80.9837 81 whole (3.45)",
+        "field": "also: 5 Stepney Causeway / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Deneb Algedi → J Ketu Dec 0.0271 conj (82.78)",
+        "field": "also: 5 Stepney Causeway / Harry Skelton"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Deneb Algedi → Pluto Dec 3.9821 4 whole (1.07)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Alkaid → Mars RA 3.9844 4 whole (4.79)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P03",
+      "name": "3 Nelson River / Harry Bannister",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "S Deneb Algedi → H Jupiter RA 171.5212 106×φ golden (49.58)",
+        "field": "also: 5 Stepney Causeway / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "H Deneb Algedi → H Saturn RA 83.9934 84 whole (45.22)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Deneb Algedi → H Eris Dec 12.9939 13 whole (48.14)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Deneb Algedi → J Sun Dec 38.9811 39 whole (0.32)",
+        "field": "also: 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Rigel → Jupiter Dec 3.9907 4 whole (28.61)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Alphecca → Haumea Dec 4.0121 4 whole (15.58)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Meissa → Transpluto Dec 3.9871 4 whole (12.65)",
+        "field": ""
+       },
+       {
+        "part": "same number",
+        "text": "J Alphecca → J Haumea Dec 4.0121 4 whole (15.58)",
+        "field": "also: 5 Stepney Causeway / Harry Skelton"
+       }
+      ]
+     },
+     {
+      "runner": "P05",
+      "name": "4 Nickolson / Jonjo O'Neill Jr",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Deneb Algedi → H Sun Dec 33.9952 34 whole (58.02)",
+        "field": "also: 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "H Deneb Algedi → H Pluto Dec 4.0052 4 whole (55.01)",
+        "field": "also: 1 Fransham / Jack Andrews"
+       },
+       {
+        "part": "star rows",
+        "text": "H Deneb Algedi → H Pallas Dec 29.1272 18×φ golden (84.52)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Deneb Algedi → J Sun RA 18.0167 18 whole (2.71)",
+        "field": "also: 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Deneb Algedi → J Juno Dec 12.9874 13 whole (13.83)",
+        "field": "also: 5 Stepney Causeway / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Deneb Algedi → J Haumea RA 131.0129 131 whole (12.42)",
+        "field": "also: 5 Stepney Causeway / Harry Skelton"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Deneb Algedi → Pluto Dec 4.0052 4 whole (55.01)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P07",
+      "name": "5 Stepney Causeway / Harry Skelton",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Deneb Algedi → H Sun RA 33.9938 34 whole (47.84)",
+        "field": "also: 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr"
+       },
+       {
+        "part": "star rows",
+        "text": "H Deneb Algedi → H Juno Dec 5.9901 6 whole (25.30)",
+        "field": "also: 4 Nickolson / Jonjo O'Neill Jr"
+       },
+       {
+        "part": "star rows",
+        "text": "H Deneb Algedi → H Rahu RA 172.0028 172 whole (73.61)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Deneb Algedi → H Ketu RA 7.9972 8 whole (73.61)",
+        "field": "also: 1 Fransham / Jack Andrews"
+       },
+       {
+        "part": "star rows",
+        "text": "S Deneb Algedi → J Jupiter RA 132.6790 82×φ golden (98.76)",
+        "field": "also: 3 Nelson River / Harry Bannister"
+       },
+       {
+        "part": "star rows",
+        "text": "S Deneb Algedi → J Jupiter Dec 39.0002 39 whole (97.85)",
+        "field": "also: 3 Nelson River / Harry Bannister"
+       },
+       {
+        "part": "star rows",
+        "text": "J Deneb Algedi → J Rahu RA 1.0206 conj (10.21)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Deneb Algedi → J Haumea RA 139.9906 140 whole (28.28)",
+        "field": "also: 4 Nickolson / Jonjo O'Neill Jr"
+       },
+       {
+        "part": "star rows",
+        "text": "J Deneb Algedi → J Quaoar Dec 2.9973 3 whole (74.63)",
+        "field": "also: 1 Fransham / Jack Andrews"
+       },
+       {
+        "part": "natal Jupiter → star",
+        "text": "J Jupiter → J star Deneb Algedi RA 132.6713 82×φ golden (58.97)",
+        "field": "only"
+       },
+       {
+        "part": "natal Jupiter → star",
+        "text": "J Jupiter → J star Deneb Algedi Dec 38.9942 39 whole (50.53)",
+        "field": "only"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Algenib → Transpluto Dec 4.0119 4 whole (16.39)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Sadalsuud → Orcus Dec 3.9867 4 whole (11.37)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "S Jupiter → H body → Gonggong Dec 4.0177 4 whole (1.33)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Al Rescha → Pluto Dec 4.0075 4 whole (39.13)",
+        "field": ""
+       },
+       {
+        "part": "same number",
+        "text": "S Sun → H Ketu RA 4.0028 4 whole (73.58)",
+        "field": "also: 3 Nelson River / Harry Bannister"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "line": "S Sun → Sadalmelik RA 0.6895 conj (29.20)",
+    "centre": "Sun",
+    "point": "Sadalmelik",
+    "plane": "RA",
+    "moon": [],
+    "runners_with_cells": "4/4",
+    "per_runner": [
+     {
+      "runner": "P01",
+      "name": "1 Fransham / Jack Andrews",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Sadalmelik → H Ceres RA 125.0156 125 whole (4.77)",
+        "field": "also: 4 Nickolson / Jonjo O'Neill Jr"
+       },
+       {
+        "part": "star rows",
+        "text": "H Sadalmelik → H Eris RA 53.9926 54 whole (39.63)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalmelik → J Uranus RA 11.9919 12 whole (35.36)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalmelik → J Rahu RA 166.6342 166.667 ninth (97.21)",
+        "field": "also: 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalmelik → J Makemake RA 153.9864 154 whole (10.09)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalmelik → J Orcus Dec 0.0509 conj (68.94)",
+        "field": "also: 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalmelik → J Gonggong RA 1.0088 1 whole (31.34)",
+        "field": "also: 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr"
+       }
+      ]
+     },
+     {
+      "runner": "P03",
+      "name": "3 Nelson River / Harry Bannister",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Sadalmelik → H Mercury Dec 17.9872 18 whole (12.88)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Sadalmelik → H Mars Dec 0.1640 conj (20.56)",
+        "field": "also: 5 Stepney Causeway / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "H Sadalmelik → H Rahu RA 142.0192 142 whole (0.14)",
+        "field": "also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr"
+       },
+       {
+        "part": "star rows",
+        "text": "H Sadalmelik → H Haumea Dec 17.7709 17.7778 ninth (94.63)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Sadalmelik → H Ketu RA 37.9808 38 whole (0.14)",
+        "field": "also: 4 Nickolson / Jonjo O'Neill Jr, 5 Stepney Causeway / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalmelik → J Sun RA 105.0153 105 whole (5.52)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalmelik → J Mars RA 67.9857 68 whole (8.07)",
+        "field": "also: 5 Stepney Causeway / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalmelik → J Mars Dec 15.0080 15 whole (35.74)",
+        "field": "also: 5 Stepney Causeway / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalmelik → J Pluto Dec 4.9976 5 whole (77.58)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalmelik → J Gonggong RA 0.2481 conj (69.65)",
+        "field": "also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr"
+       }
+      ]
+     },
+     {
+      "runner": "P05",
+      "name": "4 Nickolson / Jonjo O'Neill Jr",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Sadalmelik → H Chiron RA 14.5680 9×φ golden (67.98)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Sadalmelik → H Vesta RA 131.0542 81×φ golden (63.51)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "S Sadalmelik → J Jupiter RA 1.0311 conj (9.77)",
+        "field": "also: 5 Stepney Causeway / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalmelik → J Ceres Dec 10.9836 11 whole (3.31)",
+        "field": "also: 1 Fransham / Jack Andrews"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalmelik → J Rahu RA 168.9958 169 whole (62.38)",
+        "field": "also: 1 Fransham / Jack Andrews, 3 Nelson River / Harry Bannister"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalmelik → J Orcus RA 165.0399 102×φ golden (97.24)",
+        "field": "also: 1 Fransham / Jack Andrews, 5 Stepney Causeway / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalmelik → J Orcus Dec 0.2322 conj (5.10)",
+        "field": "also: 1 Fransham / Jack Andrews, 5 Stepney Causeway / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalmelik → J Gonggong RA 0.2583 conj (68.52)",
+        "field": "also: 1 Fransham / Jack Andrews, 3 Nelson River / Harry Bannister"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalmelik → J Ketu RA 11.0042 11 whole (62.38)",
+        "field": "also: 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton"
+       }
+      ]
+     },
+     {
+      "runner": "P07",
+      "name": "5 Stepney Causeway / Harry Skelton",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Sadalmelik → H Pallas RA 26.0034 26 whole (69.24)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "S Sadalmelik → J Jupiter RA 127.9945 128 whole (52.46)",
+        "field": "also: 4 Nickolson / Jonjo O'Neill Jr"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalmelik → J Mars RA 150.4579 93×φ golden (16.37)",
+        "field": "also: 3 Nelson River / Harry Bannister"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalmelik → J Juno Dec 0.1361 conj (29.86)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalmelik → J Orcus RA 158.5431 98×φ golden (6.34)",
+        "field": "also: 1 Fransham / Jack Andrews, 4 Nickolson / Jonjo O'Neill Jr"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalmelik → J Ketu RA 176.3341 109×φ golden (0.05)",
+        "field": "also: 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalmelik → J Ketu Dec 13.3324 13.3333 ninth (98.94)",
+        "field": "also: 3 Nelson River / Harry Bannister, 4 Nickolson / Jonjo O'Neill Jr"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "body_lines": [
+   "S Sun → Mercury RA 26.1839 10×φ^2 phi power (94.68)",
+   "S Sun → Orcus Dec 0.1585 conj (22.25)"
+  ],
+  "moon_only": [
+   "S Moon → Aculeus RA 102.0008 102 whole (92.02)",
+   "S Moon → Mirfak RA 111.9990 112 whole (90.41)",
+   "S Moon → Chiron RA 155.0016 155 whole (84.75)",
+   "S Moon → Mercury RA 141.4881 141.4 sqrt2 (82.02)",
+   "S Moon → Acubens Dec 0.1325 conj (31.18)"
+  ]
+ },
  "sky": {
   "hubs": [
    "Mercury"

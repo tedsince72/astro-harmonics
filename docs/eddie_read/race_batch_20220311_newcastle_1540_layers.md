@@ -22,6 +22,443 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Moon → Scheat Dec 1.9986 2 whole (86.84)
 - Hubs: Menkent
 
+## READ (reading order, Eddie 7 Nov 2026)
+### READ 1 same body first
+- **1 Vocaliser / Fergus Gregory**
+  - S Mars → H Mars RA 133.1929 133.333 ninth (loose)
+  - S Saturn → H Saturn Dec 6.9711 7 whole (loose)
+  - S Chiron → H Chiron Dec 11.1102 11.1111 ninth (98.55)
+  - S Pallas → H Pallas RA 45.0074 45 whole (39.45)
+  - S Pallas → H Pallas Dec 5.5452 5.55556 ninth (loose)
+  - S Rahu → H Rahu Dec 41.0165 41 whole (3.07)
+  - S Sedna → H Sedna Dec 1.4408 1.44444 ninth (loose)
+  - S Ketu → H Ketu Dec 41.0165 41 whole (3.07)
+  - S Uranus → J Uranus RA 111.4324 111.111 ninth (loose)
+  - S Chiron → J Chiron Dec 5.5453 5.55556 ninth (loose)
+  - S Pallas → J Pallas Dec 14.1289 14.14 sqrt2 (loose)
+  - S Juno → J Juno Dec 1.8751 1.88889 ninth (loose)
+  - S Rahu → J Rahu Dec 42.0384 26×φ golden (loose)
+  - S Sedna → J Sedna Dec 4.0091 4 whole (29.75)
+  - S Haumea → J Haumea Dec 7.0796 7.07 sqrt2 (loose)
+  - S Quaoar → J Quaoar Dec 1.3350 1.33333 ninth (loose)
+  - S Gonggong → J Gonggong RA 7.0169 7 whole (2.40)
+  - S Ketu → J Ketu Dec 42.0384 26×φ golden (loose)
+- **2 Edmond Dantes / Brian Hughes**
+  - S Mercury → H Mercury Dec 33.3929 33.3333 ninth (loose)
+  - S Jupiter → H Jupiter RA 179.5373 10×φ^6 phi power (loose)
+  - S Saturn → H Saturn RA 72.0143 72 whole (8.13)
+  - S Neptune → H Neptune RA 10.0151 10 whole (5.91)
+  - S Ceres → H Ceres Dec 22.6770 14×φ golden (loose)
+  - S Quaoar → H Quaoar RA 9.0208 9 whole (loose)
+  - S Mercury → J Mercury RA 124.0036 124 whole (66.92)
+  - S Mars → J Mars Dec 44.4772 44.4444 ninth (loose)
+  - S Uranus → J Uranus RA 144.7916 144.444 ninth (loose)
+  - S Pluto → J Pluto Dec 26.1742 10×φ^2 phi power (loose)
+  - S Makemake → J Makemake Dec 14.4187 14.4444 ninth (loose)
+- **3 Peak Time / Conor O'Farrell**
+  - S Jupiter → H Jupiter Dec 28.9642 φ^7 phi power (loose)
+  - S Neptune → H Neptune RA 16.5971 16.6667 ninth (loose)
+  - S Ceres → H Ceres Dec 6.0089 6 whole (30.76)
+  - S Sedna → H Sedna Dec 1.0110 1 whole (20.37)
+  - S Quaoar → H Quaoar RA 12.2344 12.2222 ninth (loose)
+  - S Ceres → J Ceres Dec 4.0027 4 whole (74.75)
+  - S Juno → J Juno Dec 15.4873 15.5556 ninth (loose)
+  - S Sedna → J Sedna RA 16.0157 16 whole (4.67)
+  - S Sedna → J Sedna Dec 3.9845 4 whole (5.01)
+- **5 Sir Apollo / Jonathan England**
+  - S Jupiter → H Jupiter Dec 23.9837 24 whole (3.50)
+  - S Pallas → H Pallas Dec 28.9869 29 whole (11.93)
+  - S Vesta → H Vesta Dec 11.1208 11.1111 ninth (loose)
+  - S Eris → H Eris Dec 1.5499 1.55556 ninth (loose)
+  - S Gonggong → H Gonggong RA 0.9720 1 whole (loose)
+  - S Gonggong → H Gonggong Dec 1.6146 1×φ golden (loose)
+  - S Sedna → J Sedna RA 15.9959 16 whole (63.21)
+  - S Orcus → J Orcus Dec 15.4850 15.5556 ninth (loose)
+  - S Quaoar → J Quaoar RA 40.9912 41 whole (31.44)
+- **6 Thundersockssundae / Kielan Woods**
+  - S Pallas → H Pallas RA 102.9830 103 whole (2.28)
+  - S Juno → H Juno Dec 22.2705 22.2222 ninth (loose)
+  - S Eris → H Eris Dec 1.6580 1.66667 ninth (loose)
+  - S Jupiter → J Jupiter RA 166.7287 166.667 ninth (loose)
+  - S Neptune → J Neptune Dec 17.7330 17.7778 ninth (loose)
+  - S Pluto → J Pluto Dec 17.9746 18 whole (loose)
+  - S Ceres → J Ceres RA 121.6664 122.222 ninth (loose)
+  - S Juno → J Juno RA 141.8948 141.4 sqrt2 (loose)
+  - S Vesta → J Vesta RA 79.2735 49×φ golden (loose)
+  - S Makemake → J Makemake Dec 11.3083 7×φ golden (loose)
+- **7 Black Opium / Stephen Mulqueen**
+  - S Neptune → H Neptune RA 17.7587 17.7778 ninth (loose)
+  - S Pluto → H Pluto RA 17.6618 17.7778 ninth (loose)
+  - S Ceres → H Ceres RA 144.9532 144.444 ninth (loose)
+  - S Pallas → H Pallas Dec 14.1660 14.14 sqrt2 (loose)
+  - S Juno → H Juno RA 26.1293 10×φ^2 phi power (loose)
+  - S Eris → H Eris RA 1.2257 1.22222 ninth (loose)
+  - S Haumea → H Haumea Dec 1.8798 1.88889 ninth (loose)
+  - S Makemake → H Makemake Dec 3.3331 3.33333 ninth (97.79)
+  - S Ceres → J Ceres Dec 38.8631 24×φ golden (loose)
+  - S Juno → J Juno Dec 16.1737 10×φ^1 phi power (loose)
+  - S Sedna → J Sedna RA 15.4984 15.5556 ninth (loose)
+  - S Makemake → J Makemake RA 26.0887 10×φ^2 phi power (loose)
+  - S Makemake → J Makemake Dec 12.2389 12.2222 ninth (loose)
+  - S Orcus → J Orcus Dec 14.0878 14.14 sqrt2 (loose)
+  - S Gonggong → J Gonggong Dec 7.9785 8 whole (loose)
+### READ 2 Jupiter / Sun star lines, highest score first, each in full
+#### 1. S Sun → Zubeneschamali RA 122.2331 122.222 ninth (98.50) — runners with cells 6/6
+- Moon confirms: none
+- 1 Vocaliser / Fergus Gregory
+  - star rows: H Zubeneschamali → H Eris RA 155.3618 96×φ golden (0.33) — also: 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 7 Black Opium / Stephen Mulqueen
+  - star rows: J Zubeneschamali → J Jupiter RA 66.0099 66 whole (25.43) — also: 5 Sir Apollo / Jonathan England
+  - star rows: J Zubeneschamali → J Chiron Dec 21.0340 13×φ golden (97.52) — also: 5 Sir Apollo / Jonathan England, 7 Black Opium / Stephen Mulqueen
+  - star rows: J Zubeneschamali → J Pallas RA 35.9920 36 whole (35.82) — also: 3 Peak Time / Conor O'Farrell, 7 Black Opium / Stephen Mulqueen
+  - star rows: J Zubeneschamali → J Sedna RA 173.1557 107×φ golden (3.82) — also: 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England
+  - star rows: J Zubeneschamali → J Haumea Dec 32.0053 32 whole (54.06) — only
+  - MATCH EXACT: H Alphecca → Vesta RA 122.2253 122.222 ninth (99.57)
+  - MATCH EXACT: J Algenib → Chiron RA 122.2741 122.222 ninth (92.81)
+  - same number: S Moon → H Neptune RA 122.2754 122.222 ninth (92.63) — also: 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods
+  - same number: H Alphecca → H Vesta RA 122.2253 122.222 ninth (99.57) — also: 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods
+- 2 Edmond Dantes / Brian Hughes
+  - star rows: H Zubeneschamali → H Sun RA 140.0058 140 whole (50.74) — only
+  - star rows: H Zubeneschamali → H Mars RA 1.1773 conj (4.63) — also: 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
+  - star rows: H Zubeneschamali → H Uranus Dec 18.0076 18 whole (38.64) — only
+  - star rows: H Zubeneschamali → H Vesta RA 155.3515 96×φ golden (14.01) — only
+  - star rows: H Zubeneschamali → H Quaoar Dec 6.0014 6 whole (86.60) — only
+  - star rows: J Zubeneschamali → J Eris RA 153.0024 153 whole (77.36) — also: 1 Vocaliser / Fergus Gregory, 3 Peak Time / Conor O'Farrell, 7 Black Opium / Stephen Mulqueen
+  - MATCH EXACT: H Arcturus → Gonggong RA 122.2782 122.222 ninth (92.25)
+- 3 Peak Time / Conor O'Farrell
+  - star rows: H Zubeneschamali → H Juno RA 84.0192 84 whole (0.17) — only
+  - star rows: J Zubeneschamali → J Mars RA 80.9043 50×φ golden (84.29) — also: 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
+  - star rows: J Zubeneschamali → J Pallas RA 147.0179 147 whole (1.15) — also: 1 Vocaliser / Fergus Gregory, 7 Black Opium / Stephen Mulqueen
+  - star rows: J Zubeneschamali → J Eris Dec 0.0002 conj (99.84) — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 7 Black Opium / Stephen Mulqueen
+  - star rows: J Zubeneschamali → J Sedna RA 173.1002 107×φ golden (0.81) — also: 1 Vocaliser / Fergus Gregory, 5 Sir Apollo / Jonathan England
+  - star rows: J Zubeneschamali → J Makemake Dec 44.9993 45 whole (92.70) — also: 5 Sir Apollo / Jonathan England
+  - MATCH EXACT: H Sadalmelik → Vesta RA 122.2697 122.222 ninth (93.42)
+  - MATCH EXACT: H Vega → Sun RA 122.2923 122.222 ninth (90.30)
+  - same number: H Sadalmelik → H Vesta RA 122.2697 122.222 ninth (93.42) — also: 1 Vocaliser / Fergus Gregory, 6 Thundersockssundae / Kielan Woods
+- 5 Sir Apollo / Jonathan England
+  - star rows: H Zubeneschamali → H Jupiter Dec 26.9919 27 whole (35.14) — also: 1 Vocaliser / Fergus Gregory
+  - star rows: H Zubeneschamali → H Mars Dec 29.0181 29 whole (0.86) — also: 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
+  - star rows: H Zubeneschamali → H Makemake RA 36.9854 37 whole (7.27) — also: 3 Peak Time / Conor O'Farrell
+  - star rows: J Zubeneschamali → J Chiron RA 116.9958 117 whole (62.58) — also: 1 Vocaliser / Fergus Gregory, 7 Black Opium / Stephen Mulqueen
+  - star rows: J Zubeneschamali → J Sedna RA 173.1167 107×φ golden (36.00) — also: 1 Vocaliser / Fergus Gregory, 3 Peak Time / Conor O'Farrell
+  - MATCH EXACT: H Ras Algethi → Jupiter RA 122.2961 122.222 ninth (89.77)
+  - MATCH EXACT: J Deneb → Haumea RA 122.2325 122.222 ninth (98.57)
+- 6 Thundersockssundae / Kielan Woods
+  - star rows: H Zubeneschamali → H Pluto Dec 11.1154 11.1111 ninth (92.97) — only
+  - star rows: J Zubeneschamali → J Venus RA 0.5694 conj (38.49) — only
+  - star rows: J Zubeneschamali → J Mars RA 122.2296 122.222 ninth (98.98) — also: 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England, 7 Black Opium / Stephen Mulqueen
+  - star rows: J Zubeneschamali → J Gonggong RA 100.3089 62×φ golden (50.97) — only
+  - MATCH EXACT: S body → H Jupiter → Pallas RA 122.2326 122.222 ninth (98.56)
+  - MATCH EXACT: J Zubeneschamali → Mars RA 122.2296 122.222 ninth (98.98)
+  - MATCH EXACT: J Rasalhague → Chiron RA 122.2698 122.222 ninth (93.41)
+  - same number: S Pallas → H Jupiter RA 122.2326 122.222 ninth (98.56) — also: 1 Vocaliser / Fergus Gregory, 3 Peak Time / Conor O'Farrell
+  - same number: S Ceres → J Ceres RA 121.6664 122.222 ninth (loose) — also: 1 Vocaliser / Fergus Gregory, 3 Peak Time / Conor O'Farrell
+- 7 Black Opium / Stephen Mulqueen
+  - star rows: H Zubeneschamali → H Saturn RA 0.6969 conj (28.66) — only
+  - star rows: H Zubeneschamali → H Neptune Dec 1.4149 1.414 sqrt2 (94.92) — only
+  - star rows: H Zubeneschamali → H Chiron RA 111.1143 111.111 ninth (99.48) — also: 1 Vocaliser / Fergus Gregory, 5 Sir Apollo / Jonathan England
+  - star rows: H Zubeneschamali → H Eris RA 155.5605 155.556 ninth (99.53) — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell
+  - star rows: J Zubeneschamali → J Mars RA 129.4347 80×φ golden (56.45) — also: 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
+  - star rows: J Zubeneschamali → J Chiron RA 89.0068 89 whole (43.47) — also: 1 Vocaliser / Fergus Gregory, 5 Sir Apollo / Jonathan England
+  - star rows: J Zubeneschamali → J Pallas RA 79.0030 79 whole (72.33) — also: 1 Vocaliser / Fergus Gregory, 3 Peak Time / Conor O'Farrell
+  - star rows: J Zubeneschamali → J Eris RA 153.0107 153 whole (21.52) — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell
+  - MATCH EXACT: J Praesepe → Venus RA 122.2330 122.222 ninth (98.51)
+#### 2. S Sun → Algol RA 55.5518 55.5556 ninth (96.46) — runners with cells 6/6
+- Moon confirms: none
+- 1 Vocaliser / Fergus Gregory
+  - star rows: H Algol → H Makemake RA 143.9928 144 whole (41.13) — also: 5 Sir Apollo / Jonathan England
+  - star rows: S Algol → J Jupiter Dec 32.3680 20×φ golden (59.83) — also: 3 Peak Time / Conor O'Farrell, 7 Black Opium / Stephen Mulqueen
+  - natal Jupiter → star: J Jupiter → J star Algol Dec 32.3688 20×φ golden (56.05) — also: 3 Peak Time / Conor O'Farrell, 7 Black Opium / Stephen Mulqueen
+- 2 Edmond Dantes / Brian Hughes
+  - star rows: H Algol → H Mercury RA 22.9813 23 whole (0.44) — only
+  - star rows: H Algol → H Pluto Dec 61.9950 62 whole (56.48) — also: 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England
+  - star rows: H Algol → H Pallas Dec 26.9963 27 whole (66.43) — also: 6 Thundersockssundae / Kielan Woods
+  - star rows: H Algol → H Rahu RA 119.7224 74×φ golden (39.01) — also: 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
+  - star rows: H Algol → H Haumea RA 163.4099 101×φ golden (41.31) — only
+  - star rows: J Algol → J Vesta Dec 41.9810 42 whole (0.24) — also: 7 Black Opium / Stephen Mulqueen
+  - star rows: J Algol → J Rahu RA 1.4905 conj (0.00) — also: 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
+- 3 Peak Time / Conor O'Farrell
+  - star rows: H Algol → H Venus RA 4.1428 4.14 silver (94.54) — only
+  - star rows: H Algol → H Jupiter RA 29.9817 30 whole (0.71) — also: 1 Vocaliser / Fergus Gregory, 7 Black Opium / Stephen Mulqueen
+  - star rows: H Algol → H Orcus RA 101.0076 101 whole (38.56) — only
+  - star rows: J Algol → J Pluto RA 177.7815 177.778 ninth (99.71) — also: 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England
+  - star rows: J Algol → J Chiron RA 54.9885 55 whole (18.05) — only
+  - star rows: J Algol → J Quaoar RA 175.0193 175 whole (0.14) — also: 7 Black Opium / Stephen Mulqueen
+- 5 Sir Apollo / Jonathan England
+  - star rows: H Algol → H Pluto Dec 61.4813 38×φ golden (76.80) — also: 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell
+  - star rows: H Algol → H Rahu RA 141.4201 141.4 sqrt2 (99.66) — also: 2 Edmond Dantes / Brian Hughes, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
+  - star rows: H Algol → H Transpluto RA 104.9974 105 whole (75.79) — only
+  - star rows: J Algol → J Uranus Dec 64.0189 64 whole (0.28) — also: 7 Black Opium / Stephen Mulqueen
+  - star rows: J Algol → J Makemake Dec 5.0068 5 whole (43.36) — also: 1 Vocaliser / Fergus Gregory
+- 6 Thundersockssundae / Kielan Woods
+  - star rows: H Algol → H Neptune Dec 49.9978 50 whole (79.00) — only
+  - star rows: J Algol → J Mars Dec 17.7720 17.7778 ninth (95.44) — also: 7 Black Opium / Stephen Mulqueen
+  - star rows: J Algol → J Pallas RA 137.9959 138 whole (63.02) — also: 2 Edmond Dantes / Brian Hughes
+  - star rows: J Algol → J Rahu RA 144.0172 89×φ golden (39.05) — also: 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England, 7 Black Opium / Stephen Mulqueen
+  - star rows: J Algol → J Ketu RA 35.9828 36 whole (2.01) — only
+- 7 Black Opium / Stephen Mulqueen
+  - star rows: S Algol → H Jupiter Dec 18.0071 18 whole (41.85) — also: 1 Vocaliser / Fergus Gregory, 3 Peak Time / Conor O'Farrell
+  - star rows: H Algol → H Mars RA 151.9977 152 whole (78.48) — also: 6 Thundersockssundae / Kielan Woods
+  - star rows: H Algol → H Saturn Dec 57.0160 57 whole (3.98) — only
+  - star rows: H Algol → H Rahu RA 163.4524 101×φ golden (0.20) — also: 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
+  - star rows: J Algol → J Uranus RA 115.0130 115 whole (12.34) — also: 5 Sir Apollo / Jonathan England
+  - star rows: J Algol → J Vesta Dec 62.0091 62 whole (29.65) — also: 2 Edmond Dantes / Brian Hughes
+  - star rows: J Algol → J Quaoar RA 168.0124 168 whole (14.28) — also: 3 Peak Time / Conor O'Farrell
+#### 3. S Jupiter → Sadalmelik RA 16.1822 10×φ^1 phi power (95.49) — runners with cells 6/6
+- Moon confirms: none
+- 1 Vocaliser / Fergus Gregory
+  - star rows: H Sadalmelik → H Neptune RA 0.9538 conj (13.26) — also: 3 Peak Time / Conor O'Farrell
+  - star rows: H Sadalmelik → H Haumea RA 122.9512 φ^10 phi power (87.21) — also: 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
+  - star rows: J Sadalmelik → J Sun RA 1.0902 conj (7.46) — only
+  - star rows: J Sadalmelik → J Neptune RA 42.0184 42 whole (0.67) — also: 3 Peak Time / Conor O'Farrell
+  - star rows: J Sadalmelik → J Haumea RA 141.4779 141.4 sqrt2 (84.65) — also: 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
+  - MATCH EXACT: J Arcturus → Makemake Dec 16.1844 10×φ^1 phi power (90.14)
+- 2 Edmond Dantes / Brian Hughes
+  - star rows: H Sadalmelik → H Mercury Dec 21.0164 21 whole (3.26) — also: 6 Thundersockssundae / Kielan Woods
+  - star rows: H Sadalmelik → H Mars RA 101.0158 101 whole (4.34) — also: 3 Peak Time / Conor O'Farrell
+  - star rows: H Sadalmelik → H Rahu Dec 5.9906 6 whole (27.93) — also: 5 Sir Apollo / Jonathan England
+  - star rows: H Sadalmelik → H Haumea RA 121.0020 121 whole (81.27) — also: 1 Vocaliser / Fergus Gregory, 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
+  - star rows: H Sadalmelik → H Haumea Dec 18.0193 18 whole (0.13) — also: 1 Vocaliser / Fergus Gregory, 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
+  - star rows: H Sadalmelik → H Makemake Dec 25.9899 26 whole (24.37) — also: 5 Sir Apollo / Jonathan England
+  - star rows: H Sadalmelik → H Gonggong Dec 12.2248 12.2222 ninth (96.43) — also: 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England, 7 Black Opium / Stephen Mulqueen
+  - star rows: H Sadalmelik → H Transpluto RA 179.0044 179 whole (61.00) — also: 5 Sir Apollo / Jonathan England, 7 Black Opium / Stephen Mulqueen
+  - star rows: J Sadalmelik → J Chiron RA 98.0159 98 whole (4.26) — also: 6 Thundersockssundae / Kielan Woods
+  - star rows: J Sadalmelik → J Pallas Dec 0.2836 conj (0.30) — only
+  - star rows: J Sadalmelik → J Eris Dec 9.9937 10 whole (46.67) — also: 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods
+  - star rows: J Sadalmelik → J Sedna Dec 4.0009 4 whole (91.12) — only
+  - star rows: J Sadalmelik → J Orcus Dec 6.9990 7 whole (90.27) — only
+  - MATCH EXACT: H Acubens → Orcus RA 16.1876 10×φ^1 phi power (82.85)
+  - MATCH EXACT: J Altair → Mercury Dec 16.1834 10×φ^1 phi power (92.49)
+  - same number: H Acubens → H Orcus RA 16.1876 10×φ^1 phi power (82.85) — also: 7 Black Opium / Stephen Mulqueen
+- 3 Peak Time / Conor O'Farrell
+  - star rows: H Sadalmelik → H Mars Dec 14.9951 15 whole (56.86) — also: 2 Edmond Dantes / Brian Hughes
+  - star rows: H Sadalmelik → H Neptune Dec 9.9933 10 whole (43.91) — also: 1 Vocaliser / Fergus Gregory
+  - star rows: H Sadalmelik → H Vesta RA 122.2697 122.222 ninth (93.42) — only
+  - star rows: H Sadalmelik → H Eris Dec 2.9928 3 whole (41.16) — also: 2 Edmond Dantes / Brian Hughes, 6 Thundersockssundae / Kielan Woods
+  - star rows: H Sadalmelik → H Gonggong Dec 13.0163 13 whole (3.40) — also: 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England, 7 Black Opium / Stephen Mulqueen
+  - star rows: J Sadalmelik → J Venus RA 174.7360 108×φ golden (40.87) — only
+  - star rows: J Sadalmelik → J Uranus RA 58.9886 59 whole (18.47) — also: 7 Black Opium / Stephen Mulqueen
+  - star rows: J Sadalmelik → J Pluto Dec 0.1945 conj (12.38) — only
+  - star rows: J Sadalmelik → J Haumea RA 145.6195 90×φ golden (79.11) — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
+  - star rows: J Sadalmelik → J Gonggong Dec 19.9848 20 whole (5.74) — also: 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England, 7 Black Opium / Stephen Mulqueen
+- 5 Sir Apollo / Jonathan England
+  - star rows: H Sadalmelik → H Rahu RA 142.9896 143 whole (22.80) — also: 2 Edmond Dantes / Brian Hughes
+  - star rows: H Sadalmelik → H Haumea RA 121.3370 75×φ golden (27.05) — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods
+  - star rows: H Sadalmelik → H Makemake RA 139.1735 86×φ golden (9.17) — also: 2 Edmond Dantes / Brian Hughes
+  - star rows: H Sadalmelik → H Transpluto RA 179.4123 10×φ^6 phi power (93.33) — also: 2 Edmond Dantes / Brian Hughes, 7 Black Opium / Stephen Mulqueen
+  - star rows: H Sadalmelik → H Ketu RA 37.0104 37 whole (22.80) — only
+  - star rows: J Sadalmelik → J Makemake RA 161.8800 100×φ^1 phi power (81.95) — also: 2 Edmond Dantes / Brian Hughes
+  - star rows: J Sadalmelik → J Gonggong RA 1.1365 conj (5.87) — also: 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 7 Black Opium / Stephen Mulqueen
+  - MATCH EXACT: J Orion Nebula Cluster → Neptune Dec 16.1838 10×φ^1 phi power (91.52)
+- 6 Thundersockssundae / Kielan Woods
+  - star rows: H Sadalmelik → H Saturn RA 88.8811 88.8889 ninth (94.36) — only
+  - star rows: H Sadalmelik → H Chiron Dec 0.0679 conj (59.83) — also: 2 Edmond Dantes / Brian Hughes
+  - star rows: H Sadalmelik → H Juno RA 155.0169 155 whole (2.44) — only
+  - star rows: H Sadalmelik → H Eris RA 53.9885 54 whole (17.90) — also: 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell
+  - star rows: J Sadalmelik → J Mercury Dec 14.9801 15 whole (0.01) — also: 2 Edmond Dantes / Brian Hughes
+  - star rows: J Sadalmelik → J Chiron RA 170.0117 170 whole (17.10) — also: 2 Edmond Dantes / Brian Hughes
+  - star rows: J Sadalmelik → J Ceres Dec 29.9885 30 whole (17.87) — only
+  - star rows: J Sadalmelik → J Haumea RA 141.4646 141.4 sqrt2 (88.15) — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England
+  - star rows: J Sadalmelik → J Quaoar RA 94.9843 95 whole (4.71) — only
+- 7 Black Opium / Stephen Mulqueen
+  - star rows: H Sadalmelik → H Uranus RA 37.0027 37 whole (74.55) — also: 3 Peak Time / Conor O'Farrell
+  - star rows: H Sadalmelik → H Gonggong RA 3.3338 3.33333 ninth (94.17) — also: 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England
+  - star rows: H Sadalmelik → H Transpluto RA 178.9831 179 whole (2.42) — also: 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England
+  - star rows: J Sadalmelik → J Uranus Dec 22.0000 22 whole (99.84) — also: 3 Peak Time / Conor O'Farrell
+  - star rows: J Sadalmelik → J Gonggong RA 1.2779 conj (2.19) — also: 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England
+  - same number: S Juno → J Juno Dec 16.1737 10×φ^1 phi power (loose) — also: 2 Edmond Dantes / Brian Hughes
+#### 4. S Jupiter → Acubens RA 147.0032 147 whole (70.45) — runners with cells 6/6
+- Moon confirms: none
+- 1 Vocaliser / Fergus Gregory
+  - star rows: S Acubens → H Jupiter Dec 0.0307 conj (80.56) — also: 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
+  - star rows: H Acubens → H Rahu RA 115.0043 115 whole (61.46) — only
+  - star rows: H Acubens → H Rahu Dec 33.9734 21×φ golden (69.95) — only
+  - star rows: H Acubens → H Eris RA 110.0143 68×φ golden (39.59) — only
+  - star rows: H Acubens → H Transpluto RA 17.0041 17 whole (63.21) — also: 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods
+  - star rows: H Acubens → H Transpluto Dec 0.2162 conj (7.80) — also: 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods
+  - star rows: H Acubens → H Ketu RA 64.9957 65 whole (61.46) — also: 6 Thundersockssundae / Kielan Woods
+  - star rows: J Acubens → J Mars Dec 33.0019 33 whole (81.67) — also: 6 Thundersockssundae / Kielan Woods
+  - star rows: J Acubens → J Chiron Dec 0.2059 conj (9.83) — also: 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England
+  - star rows: J Acubens → J Vesta Dec 0.0714 conj (58.05) — also: 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
+  - star rows: J Acubens → J Rahu Dec 34.9955 35 whole (60.08) — only
+  - natal Jupiter → star: H Jupiter → H star Acubens Dec 0.0307 conj (80.56) — also: 3 Peak Time / Conor O'Farrell, 7 Black Opium / Stephen Mulqueen
+- 2 Edmond Dantes / Brian Hughes
+  - star rows: H Acubens → H Pluto RA 152.9885 153 whole (18.16) — only
+  - star rows: H Acubens → H Orcus RA 16.1876 10×φ^1 phi power (82.85) — only
+  - star rows: J Acubens → J Chiron Dec 6.0195 6 whole (0.08) — also: 1 Vocaliser / Fergus Gregory, 5 Sir Apollo / Jonathan England
+  - MATCH EXACT: H Mirach → Mars RA 146.9991 147 whole (90.89)
+  - same number: H Mirach → H Mars RA 146.9991 147 whole (90.89) — also: 3 Peak Time / Conor O'Farrell
+- 3 Peak Time / Conor O'Farrell
+  - star rows: H Acubens → H Makemake RA 55.9819 56 whole (0.88) — also: 7 Black Opium / Stephen Mulqueen
+  - star rows: H Acubens → H Transpluto Dec 0.1292 conj (32.41) — also: 1 Vocaliser / Fergus Gregory, 6 Thundersockssundae / Kielan Woods
+  - star rows: J Acubens → J Gonggong RA 165.0713 102×φ golden (0.02) — also: 6 Thundersockssundae / Kielan Woods
+  - MATCH EXACT: H Zubenelgenubi → Uranus RA 146.9976 147 whole (77.71)
+  - MATCH EXACT: H Aldebaran → Pluto RA 147.0050 147 whole (56.54)
+  - MATCH EXACT: J Zubeneschamali → Pallas RA 147.0179 147 whole (1.15)
+  - same number: J Zubeneschamali → J Pallas RA 147.0179 147 whole (1.15) — also: 2 Edmond Dantes / Brian Hughes
+- 5 Sir Apollo / Jonathan England
+  - star rows: H Acubens → H Juno RA 1.4068 conj (0.39) — only
+  - star rows: J Acubens → J Saturn RA 173.9825 174 whole (1.53) — only
+  - star rows: J Acubens → J Chiron Dec 3.0103 3 whole (23.42) — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes
+  - MATCH EXACT: H Jupiter → H body → Chiron RA 147.0079 147 whole (36.86)
+  - MATCH EXACT: J Zosma → Mercury RA 146.9880 147 whole (15.94)
+- 6 Thundersockssundae / Kielan Woods
+  - star rows: S Acubens → H Jupiter RA 0.4996 conj (44.48) — also: 1 Vocaliser / Fergus Gregory, 7 Black Opium / Stephen Mulqueen
+  - star rows: H Acubens → H Sun Dec 4.0075 4 whole (39.34) — only
+  - star rows: H Acubens → H Mars Dec 1.9807 2 whole (0.12) — also: 1 Vocaliser / Fergus Gregory
+  - star rows: H Acubens → H Vesta Dec 24.1455 24.14 silver (94.46) — also: 1 Vocaliser / Fergus Gregory, 7 Black Opium / Stephen Mulqueen
+  - star rows: H Acubens → H Ketu Dec 8.0068 8 whole (43.24) — also: 1 Vocaliser / Fergus Gregory
+  - star rows: J Acubens → J Mars Dec 11.3250 7×φ golden (92.53) — also: 1 Vocaliser / Fergus Gregory
+  - star rows: J Acubens → J Neptune RA 153.0070 153 whole (42.11) — also: 7 Black Opium / Stephen Mulqueen
+  - star rows: J Acubens → J Haumea Dec 10.0109 10 whole (20.66) — only
+  - star rows: J Acubens → J Gonggong RA 165.0636 102×φ golden (6.50) — also: 3 Peak Time / Conor O'Farrell
+  - star rows: J Acubens → J Transpluto RA 11.0010 11 whole (90.28) — also: 1 Vocaliser / Fergus Gregory, 3 Peak Time / Conor O'Farrell
+- 7 Black Opium / Stephen Mulqueen
+  - star rows: H Acubens → H Jupiter Dec 11.0937 φ^5 phi power (87.72) — also: 1 Vocaliser / Fergus Gregory, 6 Thundersockssundae / Kielan Woods
+  - star rows: H Acubens → H Neptune Dec 22.6543 14×φ golden (89.23) — also: 6 Thundersockssundae / Kielan Woods
+  - star rows: H Acubens → H Sedna RA 80.9082 50×φ golden (63.86) — only
+  - star rows: H Acubens → H Makemake RA 58.2422 36×φ golden (61.06) — also: 3 Peak Time / Conor O'Farrell
+  - star rows: H Acubens → H Quaoar RA 131.0722 81×φ golden (41.77) — only
+  - star rows: J Acubens → J Neptune RA 156.9739 97×φ golden (5.80) — also: 6 Thundersockssundae / Kielan Woods
+  - star rows: J Acubens → J Vesta RA 158.0017 158 whole (83.75) — also: 1 Vocaliser / Fergus Gregory, 6 Thundersockssundae / Kielan Woods
+  - star rows: J Acubens → J Quaoar Dec 26.0169 26 whole (2.42) — only
+  - natal Jupiter → star: H Jupiter → H star Acubens Dec 11.0937 φ^5 phi power (87.72) — also: 1 Vocaliser / Fergus Gregory, 3 Peak Time / Conor O'Farrell
+#### 5. S Jupiter → Menkent Dec 29.9964 30 whole (67.39) — runners with cells 6/6
+- Moon confirms: S Moon → Menkent RA 117.0014 117 whole (86.48)
+- 1 Vocaliser / Fergus Gregory
+  - star rows: H Menkent → H Pallas Dec 35.0170 35 whole (2.20) — also: 7 Black Opium / Stephen Mulqueen
+  - star rows: H Menkent → H Transpluto Dec 48.0098 48 whole (26.19) — only
+  - star rows: J Menkent → J Chiron Dec 48.0176 48 whole (1.44) — only
+  - star rows: J Menkent → J Haumea Dec 58.9889 59 whole (19.59) — also: 2 Edmond Dantes / Brian Hughes, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
+  - star rows: J Menkent → J Orcus Dec 39.0092 39 whole (29.02) — only
+  - MATCH EXACT: J Procyon → Transpluto RA 30.0029 30 whole (72.68)
+  - MATCH EXACT: J Altair → Mars Dec 30.0110 30 whole (20.17)
+  - MATCH EXACT: J Ankaa → Mercury Dec 30.0120 30 whole (16.16)
+  - MATCH EXACT: J Phact → Pluto Dec 29.9818 30 whole (0.83)
+- 2 Edmond Dantes / Brian Hughes
+  - star rows: H Menkent → H Uranus Dec 44.9991 45 whole (90.97) — only
+  - star rows: H Menkent → H Ceres RA 172.9868 173 whole (11.58) — also: 5 Sir Apollo / Jonathan England
+  - star rows: H Menkent → H Juno RA 0.0883 conj (88.57) — also: 3 Peak Time / Conor O'Farrell
+  - star rows: H Menkent → H Vesta Dec 56.0116 56 whole (17.48) — only
+  - star rows: H Menkent → H Haumea RA 1.2246 conj (3.37) — also: 1 Vocaliser / Fergus Gregory, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
+  - star rows: H Menkent → H Quaoar Dec 20.9901 21 whole (25.60) — only
+  - MATCH EXACT: H Zubenelgenubi → Pallas Dec 30.0001 30 whole (99.09)
+  - MATCH EXACT: H Zubenelgenubi → Makemake RA 30.0102 30 whole (24.18)
+  - MATCH EXACT: J Vindemiatrix → Ketu RA 29.9989 30 whole (89.04)
+  - MATCH EXACT: J Aldebaran → Mercury RA 30.0071 30 whole (41.88)
+- 3 Peak Time / Conor O'Farrell
+  - star rows: J Menkent → J Juno RA 40.0108 40 whole (21.14) — also: 2 Edmond Dantes / Brian Hughes
+  - star rows: J Menkent → J Eris Dec 26.9879 27 whole (15.79) — also: 5 Sir Apollo / Jonathan England, 7 Black Opium / Stephen Mulqueen
+  - star rows: J Menkent → J Makemake Dec 71.9874 72 whole (13.84) — only
+  - MATCH EXACT: H Algol → Jupiter RA 29.9817 30 whole (0.71)
+  - MATCH EXACT: J Unukalhai → Vesta Dec 30.0043 30 whole (61.98)
+  - MATCH EXACT: S body → J Jupiter → Pallas Dec 29.9945 30 whole (52.38)
+  - same number: H Algol → H Jupiter RA 29.9817 30 whole (0.71) — also: 6 Thundersockssundae / Kielan Woods
+  - same number: S Pallas → J Jupiter Dec 29.9945 30 whole (52.38) — also: 6 Thundersockssundae / Kielan Woods
+- 5 Sir Apollo / Jonathan England
+  - star rows: H Menkent → H Jupiter Dec 53.9817 54 whole (0.69) — only
+  - star rows: H Menkent → H Mars Dec 56.0080 56 whole (36.30) — also: 6 Thundersockssundae / Kielan Woods
+  - star rows: H Menkent → H Neptune RA 129.4520 80×φ golden (50.94) — only
+  - star rows: H Menkent → H Eris RA 174.0174 174 whole (1.74) — also: 3 Peak Time / Conor O'Farrell, 7 Black Opium / Stephen Mulqueen
+  - star rows: J Menkent → J Mercury RA 169.8645 105×φ golden (1.03) — only
+  - star rows: J Menkent → J Venus RA 150.9869 151 whole (11.81) — also: 6 Thundersockssundae / Kielan Woods
+  - star rows: J Menkent → J Ceres RA 0.9872 1 whole (13.05) — also: 2 Edmond Dantes / Brian Hughes
+  - MATCH EXACT: H Phact → Sedna RA 30.0106 30 whole (22.24)
+- 6 Thundersockssundae / Kielan Woods
+  - star rows: H Menkent → H Mars RA 176.9877 177 whole (14.78) — also: 5 Sir Apollo / Jonathan England
+  - star rows: H Menkent → H Sedna Dec 43.6857 27×φ golden (92.39) — only
+  - star rows: H Menkent → H Haumea RA 1.1149 conj (6.59) — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 7 Black Opium / Stephen Mulqueen
+  - star rows: J Menkent → J Venus RA 17.0123 17 whole (14.75) — also: 5 Sir Apollo / Jonathan England
+  - MATCH EXACT: H Unukalhai → Ceres Dec 29.9899 30 whole (24.52)
+  - MATCH EXACT: H Ankaa → Vesta Dec 30.0192 30 whole (0.18)
+  - MATCH EXACT: J Sadalmelik → Ceres Dec 29.9885 30 whole (17.87)
+  - MATCH EXACT: J Diadem → Vesta Dec 29.9825 30 whole (1.53)
+  - MATCH EXACT: J Menkar → Makemake Dec 29.9820 30 whole (1.04)
+  - MATCH EXACT: J Ras Algethi → Venus RA 29.9811 30 whole (0.32)
+  - same number: S Sun → H Makemake Dec 30.0004 30 whole (95.72) — also: 3 Peak Time / Conor O'Farrell
+  - same number: J Menkar → J Makemake Dec 29.9820 30 whole (1.04) — also: 3 Peak Time / Conor O'Farrell
+  - same number: J Sadalmelik → J Ceres Dec 29.9885 30 whole (17.87) — also: 3 Peak Time / Conor O'Farrell
+- 7 Black Opium / Stephen Mulqueen
+  - star rows: H Menkent → H Pallas RA 59.8636 37×φ golden (78.86) — also: 1 Vocaliser / Fergus Gregory
+  - star rows: H Menkent → H Rahu RA 1.1708 conj (4.82) — only
+  - star rows: H Menkent → H Eris RA 173.1421 107×φ golden (37.76) — also: 3 Peak Time / Conor O'Farrell, 5 Sir Apollo / Jonathan England
+  - star rows: H Menkent → H Haumea RA 1.3584 conj (0.89) — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 6 Thundersockssundae / Kielan Woods
+  - star rows: J Menkent → J Sun RA 116.4799 72×φ golden (18.15) — only
+  - star rows: J Menkent → J Pluto RA 24.9831 25 whole (2.40) — only
+  - star rows: J Menkent → J Ketu RA 133.3741 133.333 ninth (95.10) — only
+  - MATCH EXACT: H Aldebaran → Gonggong Dec 29.9895 30 whole (22.75)
+  - MATCH EXACT: H Deneb → Chiron RA 30.0134 30 whole (10.75)
+#### 6. S Jupiter → Mirach Dec 41.9959 42 whole (63.40) — runners with cells 6/6
+- Moon confirms: none
+- 1 Vocaliser / Fergus Gregory
+  - star rows: H Mirach → H Transpluto Dec 23.9817 24 whole (0.73) — also: 2 Edmond Dantes / Brian Hughes
+  - star rows: J Mirach → J Neptune RA 88.0062 88 whole (47.31) — only
+  - star rows: J Mirach → J Haumea Dec 13.0003 13 whole (96.97) — also: 2 Edmond Dantes / Brian Hughes
+  - star rows: J Mirach → J Makemake Dec 0.2539 conj (2.36) — also: 3 Peak Time / Conor O'Farrell
+  - MATCH EXACT: H Scheat → Gonggong Dec 41.9931 42 whole (42.64)
+  - MATCH EXACT: J Betelgeuse → Orcus RA 42.0147 42 whole (7.01)
+  - MATCH EXACT: J Arcturus → Uranus Dec 41.9846 42 whole (5.19)
+  - MATCH EXACT: J Sadalmelik → Neptune RA 42.0184 42 whole (0.67)
+  - same number: H Scheat → H Gonggong Dec 41.9931 42 whole (42.64) — also: 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
+  - same number: J Sadalmelik → J Neptune RA 42.0184 42 whole (0.67) — also: 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
+- 2 Edmond Dantes / Brian Hughes
+  - star rows: H Mirach → H Mars RA 146.9991 147 whole (90.89) — also: 5 Sir Apollo / Jonathan England
+  - star rows: H Mirach → H Uranus Dec 26.9930 27 whole (42.20) — also: 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
+  - star rows: H Mirach → H Vesta Dec 15.9804 16 whole (0.05) — only
+  - star rows: H Mirach → H Haumea RA 166.9852 167 whole (6.77) — also: 1 Vocaliser / Fergus Gregory
+  - star rows: H Mirach → H Orcus RA 133.3737 133.333 ninth (95.16) — only
+  - star rows: H Mirach → H Quaoar Dec 51.0019 51 whole (81.47) — only
+  - star rows: H Mirach → H Transpluto RA 135.0124 135 whole (14.49) — also: 1 Vocaliser / Fergus Gregory
+  - star rows: H Mirach → H Transpluto Dec 24.2754 15×φ golden (72.12) — also: 1 Vocaliser / Fergus Gregory
+  - star rows: J Mirach → J Sun Dec 12.2259 12.2222 ninth (94.93) — also: 6 Thundersockssundae / Kielan Woods
+  - MATCH EXACT: J Algol → Vesta Dec 41.9810 42 whole (0.24)
+  - same number: J Algol → J Vesta Dec 41.9810 42 whole (0.24) — also: 1 Vocaliser / Fergus Gregory, 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
+- 3 Peak Time / Conor O'Farrell
+  - star rows: H Mirach → H Eris RA 7.9915 8 whole (33.06) — also: 6 Thundersockssundae / Kielan Woods
+  - star rows: J Mirach → J Pallas RA 1.1627 conj (5.06) — also: 5 Sir Apollo / Jonathan England
+  - star rows: J Mirach → J Eris Dec 45.0016 45 whole (85.07) — also: 6 Thundersockssundae / Kielan Woods
+  - star rows: J Mirach → J Makemake Dec 0.0021 conj (98.63) — also: 1 Vocaliser / Fergus Gregory
+  - MATCH EXACT: J Phact → Sun RA 42.0026 42 whole (75.84)
+  - MATCH EXACT: S body → J Jupiter → Ketu Dec 41.9953 42 whole (58.17)
+  - MATCH EXACT: S Jupiter → J body → Makemake Dec 41.9932 42 whole (43.77)
+  - same number: S Ketu → J Jupiter Dec 41.9953 42 whole (58.17) — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
+- 5 Sir Apollo / Jonathan England
+  - star rows: H Mirach → H Jupiter Dec 18.0099 18 whole (25.64) — also: 7 Black Opium / Stephen Mulqueen
+  - star rows: H Mirach → H Mars Dec 15.9836 16 whole (3.21) — also: 2 Edmond Dantes / Brian Hughes
+  - star rows: H Mirach → H Uranus RA 0.6338 conj (33.34) — also: 2 Edmond Dantes / Brian Hughes, 6 Thundersockssundae / Kielan Woods, 7 Black Opium / Stephen Mulqueen
+  - star rows: J Mirach → J Pallas Dec 24.1467 24.14 silver (92.57) — also: 3 Peak Time / Conor O'Farrell
+  - MATCH EXACT: H Hamal → Saturn Dec 41.9829 42 whole (2.09)
+  - MATCH EXACT: J Spica → Pallas RA 42.0054 42 whole (52.99)
+  - MATCH EXACT: J Aculeus → Sun Dec 41.9809 42 whole (0.19)
+- 6 Thundersockssundae / Kielan Woods
+  - star rows: H Mirach → H Sun RA 1.1187 conj (6.46) — also: 2 Edmond Dantes / Brian Hughes
+  - star rows: H Mirach → H Uranus RA 2.0166 2 whole (2.84) — also: 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England, 7 Black Opium / Stephen Mulqueen
+  - star rows: H Mirach → H Rahu RA 171.5025 106×φ golden (51.60) — only
+  - star rows: H Mirach → H Eris RA 8.0036 8 whole (67.30) — also: 3 Peak Time / Conor O'Farrell
+  - star rows: J Mirach → J Sun RA 179.4325 10×φ^6 phi power (97.74) — also: 2 Edmond Dantes / Brian Hughes
+  - MATCH EXACT: H Alkaid → Sedna Dec 41.9990 42 whole (90.58)
+  - MATCH EXACT: H Mirfak → Sun Dec 42.0127 42 whole (13.38)
+  - MATCH EXACT: J Alphecca → Mercury Dec 42.0159 42 whole (4.24)
+  - same number: J Alphecca → J Mercury Dec 42.0159 42 whole (4.24) — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 7 Black Opium / Stephen Mulqueen
+- 7 Black Opium / Stephen Mulqueen
+  - star rows: H Mirach → H Uranus RA 8.9884 9 whole (17.79) — also: 2 Edmond Dantes / Brian Hughes, 5 Sir Apollo / Jonathan England, 6 Thundersockssundae / Kielan Woods
+  - star rows: H Mirach → H Ceres RA 168.0183 168 whole (0.71) — only
+  - star rows: J Mirach → J Jupiter RA 176.3667 109×φ golden (93.91) — also: 5 Sir Apollo / Jonathan England
+  - star rows: J Mirach → J Pluto RA 140.7714 87×φ golden (85.65) — only
+  - natal Jupiter → star: J Jupiter → J star Mirach RA 176.3667 109×φ golden (93.91) — also: 1 Vocaliser / Fergus Gregory, 3 Peak Time / Conor O'Farrell
+  - MATCH EXACT: H Antares → Vesta RA 41.9816 42 whole (0.63)
+  - MATCH EXACT: J Alphecca → Saturn Dec 42.0035 42 whole (68.42)
+  - MATCH EXACT: J Phact → Chiron Dec 41.9932 42 whole (43.27)
+  - same number: J Alphecca → J Saturn Dec 42.0035 42 whole (68.42) — also: 1 Vocaliser / Fergus Gregory, 2 Edmond Dantes / Brian Hughes, 3 Peak Time / Conor O'Farrell, 6 Thundersockssundae / Kielan Woods
+### READ 3 Jupiter / Sun lines to bodies (not followed)
+- none
+### READ 4 Moon only, not active (confirm no lead line; not followed)
+- S Moon → Quaoar Dec 41.4235 41.4 silver (97.91)
+- S Moon → Uranus Dec 11.1153 11.1111 ninth (93.22)
+- S Moon → Scheat Dec 1.9986 2 whole (86.84)
+- S Moon → Menkar Dec 21.9956 22 whole (60.56)
+- S Moon → Alpheratz Dec 3.0052 3 whole (55.10)
+- S Moon → Alphecca RA 139.0053 139 whole (54.26)
+
 ## 1 Vocaliser / Fergus Gregory
 ### L1 same bodies
 - S Mars → H Mars RA 133.1929 133.333 ninth (loose)

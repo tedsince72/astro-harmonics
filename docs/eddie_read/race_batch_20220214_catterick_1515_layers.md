@@ -20,6 +20,490 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Moon → Betelgeuse Dec 16.0072 16 whole (40.95)
 - Hubs: Betelgeuse
 
+## READ (reading order, Eddie 7 Nov 2026)
+### READ 1 same body first
+- **1 Almazhar Garde / Luca Morgan**
+  - S Mercury → H Mercury RA 1.3271 1.33333 ninth (loose)
+  - S Uranus → H Uranus Dec 10.0005 10 whole (94.93)
+  - S Pallas → H Pallas Dec 15.4529 15.5556 ninth (loose)
+  - S Juno → H Juno RA 179.4547 10×φ^6 phi power (97.36)
+  - S Juno → H Juno Dec 16.9718 17 whole (loose)
+  - S Orcus → H Orcus RA 5.9764 6 whole (loose)
+  - S Neptune → J Neptune RA 44.3816 44.4444 ninth (loose)
+  - S Vesta → J Vesta RA 143.9661 144.444 ninth (loose)
+  - S Eris → J Eris RA 1.9899 2 whole (24.64)
+  - S Makemake → J Makemake RA 17.9556 φ^6 phi power (loose)
+  - S Orcus → J Orcus Dec 10.0038 10 whole (65.78)
+  - S Quaoar → J Quaoar RA 28.9783 29 whole (loose)
+- **2 Marown / Brian Hughes**
+  - S Venus → H Venus RA 60.9914 61 whole (32.32)
+  - S Mars → H Mars Dec 19.4478 12×φ golden (loose)
+  - S Jupiter → H Jupiter RA 122.4850 122.222 ninth (loose)
+  - S Saturn → H Saturn RA 90.0021 90 whole (79.90)
+  - S Neptune → H Neptune RA 13.9841 14 whole (4.31)
+  - S Ceres → H Ceres Dec 17.0227 17 whole (loose)
+  - S Haumea → H Haumea Dec 2.9809 3 whole (0.20)
+  - S Gonggong → H Gonggong RA 0.9958 1 whole (62.21)
+  - S Uranus → J Uranus RA 143.9975 144 whole (76.52)
+  - S Neptune → J Neptune Dec 17.8819 φ^6 phi power (loose)
+  - S Chiron → J Chiron Dec 12.2314 12.2222 ninth (loose)
+  - S Juno → J Juno RA 122.4655 122.222 ninth (loose)
+  - S Sedna → J Sedna RA 18.0009 18 whole (91.18)
+  - S Orcus → J Orcus Dec 18.8122 18.8889 ninth (loose)
+- **3 Omar Maretti / Kielan Woods**
+  - S Mars → H Mars Dec 17.6610 17.7778 ninth (loose)
+  - S Neptune → H Neptune RA 14.4180 14.4444 ninth (loose)
+  - S Ceres → H Ceres Dec 17.7975 11×φ golden (94.42)
+  - S Pallas → H Pallas Dec 14.1406 14.14 sqrt2 (95.59)
+  - S Transpluto → H Transpluto Dec 1.1071 1.11111 ninth (loose)
+  - S Mars → J Mars RA 179.4785 10×φ^6 phi power (92.19)
+  - S Jupiter → J Jupiter RA 161.1092 100×φ^1 phi power (loose)
+  - S Pluto → J Pluto RA 66.5804 66.6667 ninth (loose)
+  - S Chiron → J Chiron RA 133.5130 133.333 ninth (loose)
+  - S Ceres → J Ceres Dec 50.9719 51 whole (loose)
+  - S Orcus → J Orcus Dec 14.4655 14.4444 ninth (loose)
+- **4 Winds Of Fire / Adam Wedge**
+  - S Sun → H Sun RA 44.4785 44.4444 ninth (loose)
+  - S Venus → H Venus RA 121.6157 122.222 ninth (loose)
+  - S Pluto → H Pluto Dec 2.0045 2 whole (60.36)
+  - S Juno → H Juno RA 179.9301 10×φ^6 phi power (loose)
+  - S Juno → H Juno Dec 24.1191 24.14 silver (loose)
+  - S Transpluto → H Transpluto Dec 0.9858 1 whole (8.43)
+  - S Mercury → J Mercury RA 139.1782 86×φ golden (2.50)
+  - S Jupiter → J Jupiter RA 110.6261 10×φ^5 phi power (loose)
+  - S Saturn → J Saturn Dec 6.0203 6 whole (loose)
+  - S Neptune → J Neptune Dec 17.7615 17.7778 ninth (loose)
+  - S Chiron → J Chiron RA 95.4960 59×φ golden (loose)
+  - S Chiron → J Chiron Dec 11.0767 φ^5 phi power (loose)
+  - S Ceres → J Ceres RA 19.3926 12×φ golden (loose)
+  - S Rahu → J Rahu Dec 32.3702 20×φ golden (loose)
+  - S Makemake → J Makemake Dec 12.9253 8×φ golden (loose)
+  - S Ketu → J Ketu Dec 32.3702 20×φ golden (loose)
+- **5 Brian Boranha / Callum Bewley**
+  - S Mercury → H Mercury Dec 28.9705 29 whole (loose)
+  - S Jupiter → H Jupiter Dec 17.6744 17.7778 ninth (loose)
+  - S Juno → H Juno RA 137.9744 138 whole (loose)
+  - S Rahu → H Rahu RA 152.0136 152 whole (10.10)
+  - S Ketu → H Ketu RA 152.0136 152 whole (10.10)
+  - S Sun → J Sun RA 177.4172 177.778 ninth (loose)
+  - S Mars → J Mars RA 166.9219 166.667 ninth (loose)
+  - S Mars → J Mars Dec 46.8925 φ^8 phi power (loose)
+  - S Saturn → J Saturn RA 22.6792 14×φ golden (loose)
+  - S Neptune → J Neptune RA 59.9965 60 whole (68.39)
+  - S Pluto → J Pluto RA 63.1283 39×φ golden (loose)
+  - S Vesta → J Vesta RA 155.8775 155.556 ninth (loose)
+  - S Sedna → J Sedna Dec 3.3338 3.33333 ninth (93.79)
+  - S Makemake → J Makemake RA 25.8882 16×φ golden (97.65)
+  - S Transpluto → J Transpluto RA 8.9922 9 whole (37.08)
+  - S Transpluto → J Transpluto Dec 3.2374 2×φ golden (loose)
+- **6 The Paddy Pie / Sean Quinlan**
+  - S Venus → H Venus Dec 11.1668 11.1111 ninth (loose)
+  - S Jupiter → H Jupiter Dec 30.0278 30 whole (loose)
+  - S Saturn → H Saturn Dec 4.0024 4 whole (77.33)
+  - S Neptune → H Neptune Dec 6.4653 4×φ golden (loose)
+  - S Gonggong → H Gonggong RA 1.5484 1.55556 ninth (loose)
+  - S Sun → J Sun Dec 10.0072 10 whole (40.84)
+  - S Mercury → J Mercury RA 21.0260 21 whole (loose)
+  - S Jupiter → J Jupiter Dec 14.1404 14.14 sqrt2 (95.15)
+  - S Saturn → J Saturn Dec 3.2336 2×φ golden (loose)
+  - S Uranus → J Uranus RA 149.9889 150 whole (19.82)
+  - S Neptune → J Neptune RA 83.9985 84 whole (85.92)
+  - S Neptune → J Neptune Dec 17.9019 φ^6 phi power (loose)
+  - S Pluto → J Pluto Dec 26.0616 10×φ^2 phi power (loose)
+  - S Vesta → J Vesta RA 152.1126 94×φ golden (loose)
+  - S Sedna → J Sedna RA 19.4063 12×φ golden (loose)
+  - S Sedna → J Sedna Dec 4.9866 5 whole (10.95)
+  - S Makemake → J Makemake Dec 14.5316 9×φ golden (loose)
+  - S Orcus → J Orcus Dec 18.8196 18.8889 ninth (loose)
+  - S Transpluto → J Transpluto RA 12.2503 12.2222 ninth (loose)
+### READ 2 Jupiter / Sun star lines, highest score first, each in full
+#### 1. S Sun → Difda Dec 5.0001 5 whole (98.75) — runners with cells 6/6
+- Moon confirms: none
+- 1 Almazhar Garde / Luca Morgan
+  - star rows: H Difda → H Ketu RA 0.8977 conj (16.12) — only
+  - star rows: J Difda → J Rahu Dec 41.4239 41.4 silver (97.54) — only
+  - star rows: J Difda → J Eris RA 12.9839 13 whole (3.71) — also: 6 The Paddy Pie / Sean Quinlan
+  - MATCH EXACT: H Alphard → Mars Dec 5.0022 5 whole (78.79)
+  - MATCH EXACT: H Rigel → Eris Dec 5.0174 5 whole (1.70)
+  - MATCH EXACT: J Markab → Haumea Dec 5.0041 5 whole (62.97)
+  - MATCH EXACT: J Praesepe → Vesta Dec 5.0063 5 whole (46.83)
+  - MATCH EXACT: J Rigel → Saturn RA 4.9817 5 whole (0.76)
+  - same number: H Alphard → H Mars Dec 5.0022 5 whole (78.79) — also: 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan
+- 2 Marown / Brian Hughes
+  - star rows: S Difda → J Jupiter Dec 1.5552 1.55556 ninth (96.68) — also: 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley
+  - star rows: J Difda → J Pluto RA 154.9854 155 whole (7.33) — also: 3 Omar Maretti / Kielan Woods
+  - MATCH EXACT: H Vega → Pluto RA 5.0024 5 whole (77.46)
+  - MATCH EXACT: H Aldebaran → Sun Dec 4.9936 5 whole (46.07)
+  - MATCH EXACT: H Scheat → Jupiter Dec 5.0172 5 whole (1.95)
+  - MATCH EXACT: J Betelgeuse → Venus Dec 5.0027 5 whole (75.22)
+  - MATCH EXACT: J Meissa → Transpluto Dec 4.9922 5 whole (37.08)
+  - MATCH EXACT: S body → J Jupiter → Juno Dec 5.0097 5 whole (26.37)
+  - MATCH EXACT: J Wezen → Gonggong Dec 4.9843 5 whole (4.68)
+  - same number: H Vega → H Pluto RA 5.0024 5 whole (77.46) — also: 1 Almazhar Garde / Luca Morgan, 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan
+  - same number: J Betelgeuse → J Venus Dec 5.0027 5 whole (75.22) — also: 1 Almazhar Garde / Luca Morgan, 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan
+- 3 Omar Maretti / Kielan Woods
+  - star rows: H Difda → H Uranus RA 0.7579 conj (24.48) — also: 5 Brian Boranha / Callum Bewley
+  - star rows: H Difda → H Pallas RA 133.3309 133.333 ninth (99.71) — only
+  - star rows: H Difda → H Pallas Dec 23.0161 23 whole (3.77) — only
+  - star rows: S Difda → J Jupiter RA 169.9995 170 whole (94.61) — also: 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley
+  - star rows: J Difda → J Saturn Dec 0.2292 conj (5.57) — only
+  - star rows: J Difda → J Pluto RA 137.9905 138 whole (27.49) — also: 2 Marown / Brian Hughes
+  - MATCH EXACT: H Zubeneschamali → Mercury Dec 4.9895 5 whole (22.67)
+  - MATCH EXACT: H Vega → Pluto RA 4.9824 5 whole (1.39)
+  - MATCH EXACT: H Rigel → Eris Dec 5.0196 5 whole (0.04)
+  - MATCH EXACT: J Alkes → Rahu Dec 4.9895 5 whole (22.78)
+  - MATCH EXACT: J Alphecca → Venus RA 4.9889 5 whole (19.65)
+  - MATCH EXACT: J Alpheratz → Makemake Dec 4.9804 5 whole (0.04)
+  - same number: H Vega → H Pluto RA 4.9824 5 whole (1.39) — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan
+- 4 Winds Of Fire / Adam Wedge
+  - star rows: S Difda → H Jupiter Dec 35.9884 36 whole (17.67) — also: 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods, 5 Brian Boranha / Callum Bewley
+  - star rows: H Difda → H Sun RA 1.4422 conj (0.15) — also: 6 The Paddy Pie / Sean Quinlan
+  - star rows: H Difda → H Mars RA 18.9899 19 whole (24.40) — also: 5 Brian Boranha / Callum Bewley, 6 The Paddy Pie / Sean Quinlan
+  - star rows: J Difda → J Mercury Dec 25.9861 26 whole (9.30) — only
+  - star rows: J Difda → J Venus Dec 22.0075 22 whole (38.76) — only
+  - star rows: J Difda → J Makemake RA 156.9890 157 whole (20.13) — also: 6 The Paddy Pie / Sean Quinlan
+  - star rows: J Difda → J Quaoar Dec 5.0134 5 whole (10.77) — also: 6 The Paddy Pie / Sean Quinlan
+  - MATCH EXACT: H Facies → Saturn Dec 4.9960 5 whole (64.25)
+  - MATCH EXACT: H Altair → Ketu Dec 4.9862 5 whole (9.75)
+  - MATCH EXACT: H Orion Nebula Cluster → Chiron Dec 4.9854 5 whole (7.33)
+  - MATCH EXACT: H Unukalhai → Transpluto Dec 5.0187 5 whole (0.45)
+  - MATCH EXACT: J Denebola → Ceres Dec 4.9932 5 whole (43.58)
+  - MATCH EXACT: J Scheat → Jupiter Dec 4.9914 5 whole (32.67)
+  - MATCH EXACT: J Difda → Quaoar Dec 5.0134 5 whole (10.77)
+  - MATCH EXACT: J Murzim → Quaoar Dec 4.9829 5 whole (2.09)
+  - same number: H Unukalhai → H Transpluto Dec 5.0187 5 whole (0.45) — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods, 6 The Paddy Pie / Sean Quinlan
+  - same number: J Murzim → J Quaoar Dec 4.9829 5 whole (2.09) — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods, 6 The Paddy Pie / Sean Quinlan
+- 5 Brian Boranha / Callum Bewley
+  - star rows: S Difda → H Jupiter Dec 26.9859 27 whole (8.66) — also: 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge
+  - star rows: J Difda → J Mars RA 82.5171 51×φ golden (84.29) — also: 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan
+  - star rows: J Difda → J Uranus Dec 3.9924 4 whole (38.71) — also: 3 Omar Maretti / Kielan Woods
+  - star rows: J Difda → J Vesta RA 73.9934 74 whole (45.13) — only
+  - star rows: J Difda → J Haumea Dec 39.9888 40 whole (19.51) — only
+  - MATCH EXACT: H Sirius → Neptune Dec 5.0100 5 whole (24.84)
+  - MATCH EXACT: H Spica → Haumea RA 4.9822 5 whole (1.23)
+  - MATCH EXACT: J Altair → Neptune RA 4.9910 5 whole (30.51)
+  - MATCH EXACT: J Diadem → Venus RA 4.9883 5 whole (17.16)
+- 6 The Paddy Pie / Sean Quinlan
+  - star rows: H Difda → H Juno RA 71.0180 71 whole (0.98) — only
+  - star rows: H Difda → H Eris Dec 14.4422 14.4444 ninth (97.59) — also: 1 Almazhar Garde / Luca Morgan
+  - star rows: H Difda → H Makemake RA 179.4223 10×φ^6 phi power (95.49) — also: 4 Winds Of Fire / Adam Wedge
+  - star rows: H Difda → H Transpluto RA 140.7861 87×φ golden (22.08) — only
+  - star rows: J Difda → J Sun Dec 5.0085 5 whole (32.85) — also: 4 Winds Of Fire / Adam Wedge
+  - star rows: J Difda → J Mars RA 177.7911 177.778 ninth (98.95) — also: 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley
+  - star rows: J Difda → J Sedna RA 27.9916 28 whole (33.73) — only
+  - star rows: J Difda → J Quaoar RA 143.9958 144 whole (62.33) — also: 4 Winds Of Fire / Adam Wedge
+  - MATCH EXACT: H Alpheratz → Uranus RA 4.9875 5 whole (14.14)
+  - MATCH EXACT: H Orion Nebula Cluster → Mars Dec 5.0167 5 whole (2.72)
+  - MATCH EXACT: J Difda → Sun Dec 5.0085 5 whole (32.85)
+  - same number: S Sedna → J Sedna Dec 4.9866 5 whole (10.95) — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge
+#### 2. S Jupiter → Alphard Dec 0.0178 conj (88.51) — runners with cells 6/6
+- Moon confirms: none
+- 1 Almazhar Garde / Luca Morgan
+  - star rows: H Alphard → H Mars Dec 5.0022 5 whole (78.79) — also: 4 Winds Of Fire / Adam Wedge
+  - star rows: H Alphard → H Saturn RA 100.3485 62×φ golden (0.39) — also: 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley
+  - star rows: H Alphard → H Neptune RA 163.4151 101×φ golden (64.59) — only
+  - star rows: H Alphard → H Chiron RA 156.9867 157 whole (11.16) — also: 3 Omar Maretti / Kielan Woods
+  - star rows: H Alphard → H Pallas Dec 15.0001 15 whole (98.51) — also: 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan
+  - star rows: H Alphard → H Juno RA 16.1876 10×φ^1 phi power (82.75) — also: 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge
+  - star rows: H Alphard → H Haumea Dec 25.9918 26 whole (34.98) — only
+  - star rows: H Alphard → H Orcus Dec 0.2138 conj (8.25) — also: 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge
+  - star rows: J Alphard → J Neptune Dec 10.0007 10 whole (93.57) — only
+  - star rows: J Alphard → J Pluto RA 111.1407 111.111 ninth (95.16) — also: 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge
+  - star rows: J Alphard → J Eris RA 118.0074 118 whole (39.54) — also: 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods
+  - star rows: J Alphard → J Orcus RA 1.4250 conj (0.25) — also: 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge
+  - MATCH CONJ STAR: H Alphard → Mars Dec 5.0022 5 whole (78.79)
+  - MATCH CONJ STAR: H Alphard → Neptune RA 163.4151 101×φ golden (64.59)
+  - MATCH CONJ STAR: H Alphard → Pallas Dec 15.0001 15 whole (98.51)
+  - MATCH CONJ STAR: H Alphard → Juno RA 16.1876 10×φ^1 phi power (82.75)
+  - MATCH CONJ STAR: J Alphard → Neptune Dec 10.0007 10 whole (93.57)
+  - MATCH CONJ STAR: J Alphard → Pluto RA 111.1407 111.111 ninth (95.16)
+  - MATCH CONJ STAR: S Jupiter → J body → Transpluto RA 166.6485 166.667 ninth (98.44)
+- 2 Marown / Brian Hughes
+  - star rows: H Alphard → H Uranus RA 129.4139 80×φ golden (1.17) — also: 6 The Paddy Pie / Sean Quinlan
+  - star rows: H Alphard → H Juno Dec 14.1424 14.14 sqrt2 (99.33) — also: 1 Almazhar Garde / Luca Morgan, 4 Winds Of Fire / Adam Wedge
+  - star rows: H Alphard → H Eris RA 116.4916 72×φ golden (62.19) — also: 1 Almazhar Garde / Luca Morgan, 3 Omar Maretti / Kielan Woods
+  - star rows: J Alphard → J Pluto RA 74.0158 74 whole (4.36) — also: 1 Almazhar Garde / Luca Morgan, 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge
+  - star rows: J Alphard → J Gonggong RA 173.1252 107×φ golden (74.35) — only
+  - star rows: J Alphard → J Transpluto RA 0.1658 conj (79.11) — also: 6 The Paddy Pie / Sean Quinlan
+  - MATCH CONJ STAR: H Alphard → Juno Dec 14.1424 14.14 sqrt2 (99.33)
+  - MATCH CONJ STAR: H Alphard → Eris RA 116.4916 72×φ golden (62.19)
+  - MATCH CONJ STAR: J Alphard → Gonggong RA 173.1252 107×φ golden (74.35)
+  - MATCH CONJ STAR: J Alphard → Transpluto RA 0.1658 conj (79.11)
+  - MATCH CONJ STAR: S Jupiter → J body → Saturn RA 110.9967 111 whole (69.84)
+  - MATCH CONJ STAR: S Jupiter → J body → Makemake RA 179.4236 10×φ^6 phi power (95.78)
+- 3 Omar Maretti / Kielan Woods
+  - star rows: J Alphard → J Jupiter RA 39.0003 39 whole (96.80) — also: 5 Brian Boranha / Callum Bewley, 6 The Paddy Pie / Sean Quinlan
+  - star rows: J Alphard → J Pluto RA 91.0176 91 whole (1.49) — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge
+  - star rows: J Alphard → J Chiron RA 0.4333 conj (50.58) — also: 1 Almazhar Garde / Luca Morgan
+  - star rows: J Alphard → J Eris Dec 0.2559 conj (2.17) — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes
+  - star rows: J Alphard → J Orcus Dec 10.9883 11 whole (17.22) — also: 1 Almazhar Garde / Luca Morgan, 4 Winds Of Fire / Adam Wedge
+  - natal Jupiter → star: J Jupiter → J star Alphard RA 39.0003 39 whole (96.80) — also: 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge
+  - MATCH CONJ STAR: S Jupiter → H body → Juno RA 35.5974 22×φ golden (96.16)
+  - MATCH CONJ STAR: J Alphard → Jupiter RA 39.0003 39 whole (96.80)
+  - MATCH CONJ STAR: J Alphard → Chiron RA 0.4333 conj (50.58)
+  - MATCH CONJ STAR: S Jupiter → J body → Sun RA 143.9973 144 whole (74.54)
+  - MATCH CONJ STAR: S Jupiter → J body → Sedna Dec 12.9984 13 whole (84.59)
+- 4 Winds Of Fire / Adam Wedge
+  - star rows: H Alphard → H Mars RA 112.0171 112 whole (2.04) — also: 1 Almazhar Garde / Luca Morgan
+  - star rows: H Alphard → H Pluto RA 144.4362 144.444 ninth (99.12) — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods
+  - star rows: H Alphard → H Pallas Dec 24.1406 24.14 silver (97.53) — also: 1 Almazhar Garde / Luca Morgan, 6 The Paddy Pie / Sean Quinlan
+  - star rows: H Alphard → H Juno RA 16.6608 16.6667 ninth (95.00) — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes
+  - star rows: H Alphard → H Orcus Dec 0.1620 conj (21.16) — also: 1 Almazhar Garde / Luca Morgan, 3 Omar Maretti / Kielan Woods
+  - star rows: J Alphard → J Sun RA 0.5288 conj (41.92) — only
+  - star rows: J Alphard → J Saturn RA 136.9847 137 whole (5.58) — also: 1 Almazhar Garde / Luca Morgan, 5 Brian Boranha / Callum Bewley
+  - star rows: J Alphard → J Saturn Dec 13.9818 14 whole (0.85) — also: 1 Almazhar Garde / Luca Morgan, 5 Brian Boranha / Callum Bewley
+  - star rows: J Alphard → J Pluto RA 82.9812 83 whole (0.34) — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods
+  - star rows: J Alphard → J Pallas RA 124.5675 77×φ golden (12.16) — also: 1 Almazhar Garde / Luca Morgan, 6 The Paddy Pie / Sean Quinlan
+  - star rows: J Alphard → J Makemake RA 25.9974 26 whole (75.61) — only
+  - MATCH CONJ STAR: H Alphard → Pluto RA 144.4362 144.444 ninth (99.12)
+  - MATCH CONJ STAR: H Alphard → Pallas Dec 24.1406 24.14 silver (97.53)
+  - MATCH CONJ STAR: H Alphard → Juno RA 16.6608 16.6667 ninth (95.00)
+  - MATCH CONJ STAR: S Jupiter → H body → Rahu RA 153.0007 153 whole (93.06)
+  - MATCH CONJ STAR: S Jupiter → H body → Ketu RA 26.9993 27 whole (93.06)
+  - MATCH CONJ STAR: J Alphard → Makemake RA 25.9974 26 whole (75.61)
+  - MATCH CONJ STAR: S Jupiter → J body → Uranus RA 69.9991 70 whole (91.15)
+  - MATCH CONJ STAR: S Jupiter → J body → Pluto Dec 7.9984 8 whole (84.71)
+  - MATCH CONJ STAR: S Jupiter → J body → Quaoar RA 110.0022 110 whole (78.81)
+- 5 Brian Boranha / Callum Bewley
+  - star rows: H Alphard → H Mercury RA 111.1040 111.111 ninth (98.83) — only
+  - star rows: S Alphard → J Jupiter RA 74.4270 46×φ golden (84.79) — also: 3 Omar Maretti / Kielan Woods, 6 The Paddy Pie / Sean Quinlan
+  - star rows: J Alphard → J Saturn Dec 1.0056 1 whole (51.96) — also: 1 Almazhar Garde / Luca Morgan, 4 Winds Of Fire / Adam Wedge
+  - star rows: J Alphard → J Vesta RA 56.9972 57 whole (73.77) — only
+  - MATCH CONJ STAR: H Alphard → Mercury RA 111.1040 111.111 ninth (98.83)
+  - MATCH CONJ STAR: S Jupiter → H body → Quaoar RA 80.0028 80 whole (73.87)
+  - MATCH CONJ STAR: J Alphard → Saturn Dec 1.0056 1 whole (51.96)
+  - MATCH CONJ STAR: J Alphard → Vesta RA 56.9972 57 whole (73.77)
+  - MATCH CONJ STAR: S Jupiter → J body → Saturn RA 0.2105 conj (73.90)
+- 6 The Paddy Pie / Sean Quinlan
+  - star rows: S Alphard → H Jupiter Dec 30.0101 30 whole (24.67) — also: 3 Omar Maretti / Kielan Woods, 5 Brian Boranha / Callum Bewley
+  - star rows: H Alphard → H Venus Dec 3.0066 3 whole (44.81) — only
+  - star rows: H Alphard → H Uranus Dec 10.9877 11 whole (14.83) — also: 2 Marown / Brian Hughes
+  - star rows: H Alphard → H Pallas Dec 0.1063 conj (41.69) — also: 1 Almazhar Garde / Luca Morgan, 4 Winds Of Fire / Adam Wedge
+  - star rows: H Alphard → H Quaoar Dec 6.9812 7 whole (0.38) — only
+  - star rows: J Alphard → J Sedna RA 103.0097 103 whole (26.61) — only
+  - star rows: J Alphard → J Quaoar RA 85.0029 85 whole (73.00) — only
+  - star rows: J Alphard → J Transpluto RA 0.6526 conj (31.91) — also: 2 Marown / Brian Hughes
+  - MATCH CONJ STAR: S Jupiter → H body → Mars RA 18.9986 19 whole (86.50)
+  - MATCH CONJ STAR: S Jupiter → H body → Uranus Dec 11.0046 11 whole (59.17)
+  - MATCH CONJ STAR: J Alphard → Quaoar RA 85.0029 85 whole (73.00)
+  - MATCH CONJ STAR: S Jupiter → J body → Jupiter Dec 14.1404 14.14 sqrt2 (95.15)
+#### 3. S Jupiter → Betelgeuse RA 106.7926 66×φ golden (85.96) — runners with cells 6/6
+- Moon confirms: S Moon → Betelgeuse Dec 16.0072 16 whole (40.95)
+- 1 Almazhar Garde / Luca Morgan
+  - star rows: H Betelgeuse → H Mercury RA 146.0189 146 whole (0.28) — also: 5 Brian Boranha / Callum Bewley
+  - star rows: H Betelgeuse → H Chiron Dec 8.9939 9 whole (48.35) — also: 2 Marown / Brian Hughes, 5 Brian Boranha / Callum Bewley
+  - star rows: H Betelgeuse → H Sedna Dec 0.2984 conj (0.00) — also: 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley
+  - star rows: H Betelgeuse → H Orcus RA 62.0057 62 whole (51.39) — only
+  - star rows: J Betelgeuse → J Mars RA 156.9296 97×φ golden (15.22) — only
+  - star rows: J Betelgeuse → J Rahu RA 1.2430 conj (2.94) — only
+  - star rows: J Betelgeuse → J Eris Dec 14.0159 14 whole (4.13) — also: 4 Winds Of Fire / Adam Wedge
+  - MATCH EXACT: J Rigel → Gonggong RA 106.7944 66×φ golden (75.90)
+- 2 Marown / Brian Hughes
+  - star rows: H Betelgeuse → H Saturn RA 140.7427 87×φ golden (3.57) — only
+  - star rows: H Betelgeuse → H Chiron RA 103.5676 64×φ golden (34.38) — also: 1 Almazhar Garde / Luca Morgan, 5 Brian Boranha / Callum Bewley
+  - star rows: H Betelgeuse → H Sedna Dec 0.1882 conj (13.89) — also: 1 Almazhar Garde / Luca Morgan, 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley
+  - star rows: H Betelgeuse → H Makemake Dec 19.4164 12×φ golden (99.84) — also: 4 Winds Of Fire / Adam Wedge
+  - star rows: J Betelgeuse → J Sun Dec 15.9851 16 whole (6.48) — also: 5 Brian Boranha / Callum Bewley
+  - star rows: J Betelgeuse → J Venus Dec 5.0027 5 whole (75.22) — only
+  - star rows: J Betelgeuse → J Pallas Dec 8.0104 8 whole (22.81) — also: 3 Omar Maretti / Kielan Woods
+  - star rows: J Betelgeuse → J Gonggong RA 120.0187 120 whole (0.42) — also: 3 Omar Maretti / Kielan Woods
+  - MATCH EXACT: H Phact → Makemake RA 106.7725 66×φ golden (20.29)
+- 3 Omar Maretti / Kielan Woods
+  - star rows: H Betelgeuse → H Juno RA 71.1905 44×φ golden (82.15) — only
+  - star rows: H Betelgeuse → H Sedna Dec 0.2494 conj (2.85) — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley
+  - star rows: H Betelgeuse → H Quaoar RA 177.7149 177.778 ninth (95.08) — also: 6 The Paddy Pie / Sean Quinlan
+  - star rows: H Betelgeuse → H Gonggong RA 113.2351 70×φ golden (2.46) — also: 2 Marown / Brian Hughes
+  - star rows: J Betelgeuse → J Ceres RA 146.0004 146 whole (96.31) — also: 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan
+  - star rows: J Betelgeuse → J Pallas Dec 0.2515 conj (2.61) — also: 2 Marown / Brian Hughes
+  - star rows: J Betelgeuse → J Gonggong Dec 26.9987 27 whole (87.07) — also: 2 Marown / Brian Hughes
+  - MATCH EXACT: H Alhena → Rahu RA 106.7934 66×φ golden (81.25)
+- 4 Winds Of Fire / Adam Wedge
+  - star rows: H Betelgeuse → H Sedna Dec 0.1194 conj (36.23) — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods, 5 Brian Boranha / Callum Bewley
+  - star rows: H Betelgeuse → H Makemake Dec 18.8891 18.8889 ninth (99.83) — also: 2 Marown / Brian Hughes
+  - star rows: J Betelgeuse → J Ceres RA 11.0021 11 whole (80.24) — also: 3 Omar Maretti / Kielan Woods, 6 The Paddy Pie / Sean Quinlan
+  - star rows: J Betelgeuse → J Vesta RA 179.4403 10×φ^6 phi power (99.47) — only
+  - star rows: J Betelgeuse → J Eris RA 65.9855 66 whole (7.54) — also: 1 Almazhar Garde / Luca Morgan
+- 5 Brian Boranha / Callum Bewley
+  - star rows: H Betelgeuse → H Sun RA 35.0150 35 whole (6.33) — also: 2 Marown / Brian Hughes
+  - star rows: H Betelgeuse → H Mercury RA 57.9961 58 whole (64.62) — also: 1 Almazhar Garde / Luca Morgan
+  - star rows: H Betelgeuse → H Chiron RA 114.0098 114 whole (25.98) — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes
+  - star rows: H Betelgeuse → H Sedna RA 35.9813 36 whole (0.42) — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge
+  - star rows: J Betelgeuse → J Uranus RA 153.7262 95×φ golden (36.08) — only
+  - star rows: J Betelgeuse → J Haumea RA 101.9860 102 whole (8.86) — only
+  - MATCH EXACT: H El Nath → Chiron RA 106.7889 66×φ golden (91.66)
+- 6 The Paddy Pie / Sean Quinlan
+  - star rows: H Betelgeuse → H Neptune RA 113.2499 70×φ golden (37.66) — only
+  - star rows: H Betelgeuse → H Ceres Dec 20.9989 21 whole (88.94) — also: 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge
+  - star rows: H Betelgeuse → H Quaoar RA 176.3607 109×φ golden (71.55) — also: 3 Omar Maretti / Kielan Woods
+  - star rows: J Betelgeuse → J Pluto RA 126.2248 78×φ golden (19.38) — only
+#### 4. S Sun → Murzim RA 127.8222 79×φ golden (85.13) — runners with cells 6/6
+- Moon confirms: none
+- 1 Almazhar Garde / Luca Morgan
+  - star rows: H Murzim → H Jupiter RA 44.0074 44 whole (39.58) — only
+  - star rows: H Murzim → H Saturn Dec 0.9869 1 whole (11.90) — also: 3 Omar Maretti / Kielan Woods
+  - star rows: H Murzim → H Sedna RA 41.4281 41.4 silver (93.57) — also: 6 The Paddy Pie / Sean Quinlan
+  - star rows: J Murzim → J Uranus RA 132.0115 132 whole (18.27) — also: 4 Winds Of Fire / Adam Wedge
+  - star rows: J Murzim → J Quaoar RA 152.0952 94×φ golden (99.93) — also: 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge
+  - star rows: J Murzim → J Gonggong Dec 0.9898 1 whole (24.03) — also: 2 Marown / Brian Hughes
+- 2 Marown / Brian Hughes
+  - star rows: H Murzim → H Makemake RA 96.0084 96 whole (33.53) — also: 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan
+  - star rows: H Murzim → H Gonggong RA 119.9905 120 whole (27.33) — also: 1 Almazhar Garde / Luca Morgan
+  - star rows: J Murzim → J Mercury Dec 43.0060 43 whole (49.21) — only
+  - star rows: J Murzim → J Mars RA 0.4333 conj (50.57) — only
+  - MATCH EXACT: S body → H Jupiter → Gonggong RA 127.8110 79×φ golden (33.21)
+  - MATCH EXACT: J Arcturus → Sun RA 127.8051 79×φ golden (15.60)
+- 3 Omar Maretti / Kielan Woods
+  - star rows: H Murzim → H Saturn Dec 2.0017 2 whole (83.78) — also: 1 Almazhar Garde / Luca Morgan
+  - star rows: H Murzim → H Ceres RA 114.8503 71×φ golden (0.50) — only
+  - star rows: H Murzim → H Pallas RA 48.5497 30×φ golden (53.33) — also: 5 Brian Boranha / Callum Bewley, 6 The Paddy Pie / Sean Quinlan
+  - star rows: H Murzim → H Pallas Dec 22.9872 23 whole (13.11) — also: 5 Brian Boranha / Callum Bewley, 6 The Paddy Pie / Sean Quinlan
+  - star rows: J Murzim → J Venus RA 133.0013 133 whole (87.41) — also: 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan
+  - star rows: J Murzim → J Saturn RA 140.9828 141 whole (1.95) — also: 1 Almazhar Garde / Luca Morgan
+  - star rows: J Murzim → J Saturn Dec 0.2618 conj (1.62) — also: 1 Almazhar Garde / Luca Morgan
+  - star rows: J Murzim → J Juno RA 1.0797 conj (7.85) — also: 5 Brian Boranha / Callum Bewley, 6 The Paddy Pie / Sean Quinlan
+  - star rows: J Murzim → J Quaoar RA 140.7884 87×φ golden (15.90) — also: 1 Almazhar Garde / Luca Morgan, 4 Winds Of Fire / Adam Wedge
+- 4 Winds Of Fire / Adam Wedge
+  - star rows: H Murzim → H Vesta RA 119.9817 120 whole (0.76) — also: 5 Brian Boranha / Callum Bewley
+  - star rows: H Murzim → H Haumea RA 114.9944 115 whole (52.00) — only
+  - star rows: J Murzim → J Venus RA 77.6655 48×φ golden (99.21) — also: 3 Omar Maretti / Kielan Woods, 6 The Paddy Pie / Sean Quinlan
+  - star rows: J Murzim → J Uranus RA 176.3339 109×φ golden (0.03) — also: 1 Almazhar Garde / Luca Morgan
+  - star rows: J Murzim → J Makemake Dec 53.3988 33×φ golden (78.35) — also: 2 Marown / Brian Hughes, 6 The Paddy Pie / Sean Quinlan
+  - star rows: J Murzim → J Quaoar Dec 4.9829 5 whole (2.09) — also: 1 Almazhar Garde / Luca Morgan, 3 Omar Maretti / Kielan Woods
+  - MATCH EXACT: J Kaus Australis → Ketu RA 127.8084 79×φ golden (24.57)
+- 5 Brian Boranha / Callum Bewley
+  - star rows: H Murzim → H Pallas RA 148.0089 148 whole (30.59) — also: 3 Omar Maretti / Kielan Woods, 6 The Paddy Pie / Sean Quinlan
+  - star rows: H Murzim → H Juno Dec 27.5005 17×φ golden (65.84) — also: 3 Omar Maretti / Kielan Woods, 6 The Paddy Pie / Sean Quinlan
+  - star rows: H Murzim → H Vesta RA 138.0031 138 whole (71.54) — also: 4 Winds Of Fire / Adam Wedge
+  - star rows: H Murzim → H Vesta Dec 1.0161 1 whole (3.80) — also: 4 Winds Of Fire / Adam Wedge
+- 6 The Paddy Pie / Sean Quinlan
+  - star rows: H Murzim → H Venus RA 105.1718 65×φ golden (97.28) — also: 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge
+  - star rows: H Murzim → H Chiron RA 115.9964 116 whole (67.49) — only
+  - star rows: H Murzim → H Transpluto RA 56.0029 56 whole (72.74) — only
+  - star rows: J Murzim → J Pallas RA 159.9807 160 whole (0.12) — also: 3 Omar Maretti / Kielan Woods, 5 Brian Boranha / Callum Bewley
+  - star rows: J Murzim → J Juno Dec 11.1146 11.1111 ninth (94.26) — also: 3 Omar Maretti / Kielan Woods, 5 Brian Boranha / Callum Bewley
+  - star rows: J Murzim → J Sedna Dec 21.0370 13×φ golden (85.02) — also: 1 Almazhar Garde / Luca Morgan
+  - star rows: J Murzim → J Makemake Dec 55.0069 55 whole (42.63) — also: 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge
+  - star rows: J Murzim → J Orcus RA 29.0115 29 whole (17.98) — only
+  - MATCH EXACT: S body → H Jupiter → Pluto RA 127.8231 79×φ golden (90.64)
+  - MATCH EXACT: H Bellatrix → Haumea RA 127.8491 79×φ golden (6.05)
+  - same number: S Pluto → H Jupiter RA 127.8231 79×φ golden (90.64) — only
+#### 5. S Sun → Unukalhai Dec 19.4128 12×φ golden (78.76) — runners with cells 6/6
+- Moon confirms: none
+- 1 Almazhar Garde / Luca Morgan
+  - star rows: H Unukalhai → H Pluto Dec 26.9956 27 whole (60.53) — also: 5 Brian Boranha / Callum Bewley, 6 The Paddy Pie / Sean Quinlan
+  - star rows: H Unukalhai → H Chiron Dec 8.0115 8 whole (18.15) — also: 2 Marown / Brian Hughes, 5 Brian Boranha / Callum Bewley, 6 The Paddy Pie / Sean Quinlan
+  - star rows: H Unukalhai → H Pallas Dec 0.0835 conj (52.10) — also: 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge
+  - star rows: H Unukalhai → H Makemake Dec 19.4159 12×φ golden (96.61) — also: 4 Winds Of Fire / Adam Wedge
+  - star rows: J Unukalhai → J Jupiter Dec 16.0161 16 whole (3.76) — also: 4 Winds Of Fire / Adam Wedge
+  - star rows: J Unukalhai → J Rahu Dec 17.0109 17 whole (20.51) — only
+  - star rows: J Unukalhai → J Ketu RA 33.9753 21×φ golden (80.18) — also: 5 Brian Boranha / Callum Bewley
+  - MATCH EXACT: H Unukalhai → Makemake Dec 19.4159 12×φ golden (96.61)
+- 2 Marown / Brian Hughes
+  - star rows: H Unukalhai → H Ceres RA 28.9840 29 whole (3.97) — also: 6 The Paddy Pie / Sean Quinlan
+  - star rows: J Unukalhai → J Venus Dec 5.9839 6 whole (3.84) — only
+  - star rows: J Unukalhai → J Mars Dec 17.7919 11×φ golden (63.87) — also: 3 Omar Maretti / Kielan Woods
+  - star rows: J Unukalhai → J Chiron RA 166.6071 166.667 ninth (94.89) — also: 1 Almazhar Garde / Luca Morgan, 5 Brian Boranha / Callum Bewley, 6 The Paddy Pie / Sean Quinlan
+  - star rows: J Unukalhai → J Juno Dec 0.2045 conj (10.14) — also: 3 Omar Maretti / Kielan Woods
+  - star rows: J Unukalhai → J Orcus Dec 0.2534 conj (2.41) — also: 6 The Paddy Pie / Sean Quinlan
+  - star rows: J Unukalhai → J Transpluto RA 94.0117 94 whole (17.30) — also: 4 Winds Of Fire / Adam Wedge
+  - MATCH EXACT: H Betelgeuse → Makemake Dec 19.4164 12×φ golden (99.84)
+  - MATCH EXACT: H Jupiter → H body → Ceres Dec 19.4196 12×φ golden (81.07)
+  - MATCH EXACT: H Zubenelgenubi → Vesta Dec 19.4132 12×φ golden (80.94)
+  - same number: S Mars → H Mars Dec 19.4478 12×φ golden (loose) — also: 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan
+  - same number: H Jupiter → H Ceres Dec 19.4196 12×φ golden (81.07) — also: 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan
+  - same number: H Betelgeuse → H Makemake Dec 19.4164 12×φ golden (99.84) — also: 4 Winds Of Fire / Adam Wedge, 6 The Paddy Pie / Sean Quinlan
+- 3 Omar Maretti / Kielan Woods
+  - star rows: H Unukalhai → H Mars Dec 11.9944 12 whole (51.72) — also: 2 Marown / Brian Hughes
+  - star rows: H Unukalhai → H Quaoar Dec 21.9943 22 whole (50.89) — also: 4 Winds Of Fire / Adam Wedge
+  - star rows: J Unukalhai → J Pallas RA 32.9903 33 whole (26.54) — also: 1 Almazhar Garde / Luca Morgan, 4 Winds Of Fire / Adam Wedge
+  - star rows: J Unukalhai → J Juno Dec 0.2786 conj (0.51) — also: 2 Marown / Brian Hughes
+  - star rows: J Unukalhai → J Quaoar RA 0.4026 conj (53.52) — also: 4 Winds Of Fire / Adam Wedge
+  - star rows: J Unukalhai → J Gonggong Dec 26.0181 26 whole (0.89) — only
+- 4 Winds Of Fire / Adam Wedge
+  - star rows: H Unukalhai → H Pallas RA 33.3387 33.3333 ninth (93.55) — also: 1 Almazhar Garde / Luca Morgan, 3 Omar Maretti / Kielan Woods
+  - star rows: H Unukalhai → H Quaoar Dec 21.9871 22 whole (12.57) — also: 3 Omar Maretti / Kielan Woods
+  - star rows: H Unukalhai → H Transpluto Dec 5.0187 5 whole (0.45) — also: 2 Marown / Brian Hughes
+  - star rows: S Unukalhai → J Jupiter Dec 16.6678 16.6667 ninth (99.01) — also: 1 Almazhar Garde / Luca Morgan
+  - star rows: J Unukalhai → J Makemake Dec 29.0178 29 whole (1.17) — also: 1 Almazhar Garde / Luca Morgan
+  - natal Jupiter → star: J Jupiter → J star Unukalhai Dec 16.6635 16.6667 ninth (97.26) — also: 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods
+  - same number: S Ceres → J Ceres RA 19.3926 12×φ golden (loose) — also: 2 Marown / Brian Hughes, 6 The Paddy Pie / Sean Quinlan
+- 5 Brian Boranha / Callum Bewley
+  - star rows: H Unukalhai → H Sun RA 177.7005 177.778 ninth (93.95) — only
+  - star rows: H Unukalhai → H Chiron RA 98.7057 61×φ golden (68.42) — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 6 The Paddy Pie / Sean Quinlan
+  - star rows: J Unukalhai → J Uranus RA 58.9972 59 whole (74.36) — also: 6 The Paddy Pie / Sean Quinlan
+  - star rows: J Unukalhai → J Pluto RA 0.2973 conj (64.29) — also: 1 Almazhar Garde / Luca Morgan, 6 The Paddy Pie / Sean Quinlan
+  - star rows: J Unukalhai → J Chiron RA 74.0091 74 whole (29.67) — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 6 The Paddy Pie / Sean Quinlan
+  - star rows: J Unukalhai → J Ketu RA 169.8643 105×φ golden (0.92) — also: 1 Almazhar Garde / Luca Morgan
+  - MATCH EXACT: H Castor → Mars Dec 19.4110 12×φ golden (69.37)
+- 6 The Paddy Pie / Sean Quinlan
+  - star rows: H Unukalhai → H Uranus RA 131.0094 131 whole (27.94) — also: 5 Brian Boranha / Callum Bewley
+  - star rows: H Unukalhai → H Ceres Dec 21.9814 22 whole (0.47) — also: 2 Marown / Brian Hughes
+  - star rows: H Unukalhai → H Vesta RA 161.0123 161 whole (14.77) — only
+  - star rows: H Unukalhai → H Eris RA 148.8641 92×φ golden (71.61) — only
+  - star rows: J Unukalhai → J Pluto RA 21.0379 13×φ golden (80.01) — also: 1 Almazhar Garde / Luca Morgan, 5 Brian Boranha / Callum Bewley
+  - star rows: J Unukalhai → J Chiron RA 177.7981 177.778 ninth (98.41) — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes, 5 Brian Boranha / Callum Bewley
+  - star rows: J Unukalhai → J Orcus Dec 0.2609 conj (1.70) — also: 2 Marown / Brian Hughes
+  - same number: S Sedna → J Sedna RA 19.4063 12×φ golden (loose) — also: 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge
+#### 6. S Sun → Vega Dec 51.7710 32×φ golden (65.83) — runners with cells 6/6
+- Moon confirms: none
+- 1 Almazhar Garde / Luca Morgan
+  - star rows: H Vega → H Haumea RA 68.0183 68 whole (0.76) — only
+  - star rows: H Vega → H Makemake Dec 12.9420 8×φ golden (86.67) — also: 3 Omar Maretti / Kielan Woods
+  - star rows: H Vega → H Transpluto Dec 27.5018 17×φ golden (72.86) — also: 6 The Paddy Pie / Sean Quinlan
+  - star rows: J Vega → J Uranus Dec 53.9807 54 whole (0.11) — only
+  - star rows: J Vega → J Ceres Dec 68.9829 69 whole (2.05) — also: 4 Winds Of Fire / Adam Wedge
+  - star rows: J Vega → J Juno Dec 32.0102 32 whole (24.11) — also: 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge
+  - star rows: J Vega → J Makemake RA 97.9859 98 whole (8.66) — also: 3 Omar Maretti / Kielan Woods
+- 2 Marown / Brian Hughes
+  - star rows: H Vega → H Jupiter RA 174.7495 108×φ golden (88.75) — also: 3 Omar Maretti / Kielan Woods
+  - star rows: H Vega → H Pluto RA 5.0024 5 whole (77.46) — also: 3 Omar Maretti / Kielan Woods
+  - star rows: H Vega → H Chiron RA 65.9843 66 whole (4.55) — also: 5 Brian Boranha / Callum Bewley
+  - star rows: H Vega → H Juno RA 107.0022 107 whole (79.36) — also: 1 Almazhar Garde / Luca Morgan, 4 Winds Of Fire / Adam Wedge
+  - star rows: J Vega → J Venus RA 119.9919 120 whole (35.45) — also: 5 Brian Boranha / Callum Bewley, 6 The Paddy Pie / Sean Quinlan
+  - star rows: J Vega → J Mars Dec 14.5642 9×φ golden (88.72) — only
+  - star rows: J Vega → J Eris RA 103.0184 103 whole (0.68) — also: 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley
+  - star rows: J Vega → J Quaoar Dec 50.9960 51 whole (64.35) — only
+  - natal Jupiter → star: H Jupiter → H star Vega RA 174.7495 108×φ golden (88.75) — also: 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge
+- 3 Omar Maretti / Kielan Woods
+  - star rows: H Vega → H Pluto RA 4.9824 5 whole (1.39) — also: 2 Marown / Brian Hughes
+  - star rows: H Vega → H Pallas RA 135.0126 135 whole (13.54) — also: 5 Brian Boranha / Callum Bewley
+  - star rows: H Vega → H Vesta RA 71.0167 71 whole (2.70) — also: 4 Winds Of Fire / Adam Wedge
+  - star rows: H Vega → H Rahu RA 73.0155 73 whole (5.03) — also: 4 Winds Of Fire / Adam Wedge
+  - star rows: H Vega → H Eris RA 106.0156 106 whole (4.83) — also: 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge, 5 Brian Boranha / Callum Bewley
+  - star rows: H Vega → H Makemake Dec 12.0141 12 whole (8.74) — also: 1 Almazhar Garde / Luca Morgan
+  - star rows: H Vega → H Ketu RA 106.9845 107 whole (5.03) — also: 4 Winds Of Fire / Adam Wedge
+  - star rows: J Vega → J Jupiter Dec 37.9954 38 whole (59.47) — also: 2 Marown / Brian Hughes
+  - star rows: J Vega → J Saturn Dec 57.0021 57 whole (80.06) — also: 4 Winds Of Fire / Adam Wedge
+  - natal Jupiter → star: J Jupiter → J star Vega Dec 37.9954 38 whole (59.47) — also: 2 Marown / Brian Hughes, 4 Winds Of Fire / Adam Wedge
+- 4 Winds Of Fire / Adam Wedge
+  - star rows: H Vega → H Juno RA 153.9972 154 whole (74.29) — also: 1 Almazhar Garde / Luca Morgan, 2 Marown / Brian Hughes
+  - star rows: J Vega → J Saturn RA 0.3631 conj (57.45) — also: 3 Omar Maretti / Kielan Woods
+  - star rows: J Vega → J Ceres RA 158.5479 98×φ golden (15.91) — also: 1 Almazhar Garde / Luca Morgan
+  - star rows: J Vega → J Vesta RA 11.0097 11 whole (26.58) — also: 3 Omar Maretti / Kielan Woods
+  - star rows: J Vega → J Rahu RA 49.0003 49 whole (97.32) — also: 3 Omar Maretti / Kielan Woods
+  - star rows: J Vega → J Eris RA 103.5645 64×φ golden (46.48) — also: 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods, 5 Brian Boranha / Callum Bewley
+  - star rows: J Vega → J Orcus RA 150.0123 150 whole (14.81) — also: 5 Brian Boranha / Callum Bewley
+  - star rows: J Vega → J Ketu RA 130.9997 131 whole (97.32) — also: 3 Omar Maretti / Kielan Woods
+- 5 Brian Boranha / Callum Bewley
+  - star rows: H Vega → H Venus RA 110.9073 10×φ^5 phi power (98.00) — also: 2 Marown / Brian Hughes, 6 The Paddy Pie / Sean Quinlan
+  - star rows: H Vega → H Chiron Dec 43.0083 43 whole (33.97) — also: 2 Marown / Brian Hughes
+  - star rows: J Vega → J Chiron Dec 35.9805 36 whole (0.06) — also: 2 Marown / Brian Hughes
+  - star rows: J Vega → J Pallas RA 134.9940 135 whole (49.21) — also: 3 Omar Maretti / Kielan Woods
+  - star rows: J Vega → J Eris Dec 46.9909 47 whole (29.44) — also: 2 Marown / Brian Hughes, 3 Omar Maretti / Kielan Woods, 4 Winds Of Fire / Adam Wedge
+  - star rows: J Vega → J Orcus Dec 36.9940 37 whole (49.23) — also: 4 Winds Of Fire / Adam Wedge
+- 6 The Paddy Pie / Sean Quinlan
+  - star rows: H Vega → H Sedna RA 134.0070 134 whole (42.48) — only
+  - star rows: J Vega → J Mercury RA 1.1979 conj (4.06) — only
+  - star rows: J Vega → J Venus Dec 50.0144 50 whole (7.90) — also: 2 Marown / Brian Hughes, 5 Brian Boranha / Callum Bewley
+  - star rows: J Vega → J Gonggong Dec 60.9988 61 whole (88.40) — only
+  - star rows: J Vega → J Transpluto Dec 24.0149 24 whole (6.62) — also: 1 Almazhar Garde / Luca Morgan
+### READ 3 Jupiter / Sun lines to bodies (not followed)
+- S Jupiter → Sun RA 14.1471 14.14 sqrt2 (86.42)
+- S Sun → Jupiter RA 14.1471 14.14 sqrt2 (86.42)
+- S Sun → Vesta RA 38.8398 24×φ golden (61.63)
+### READ 4 Moon only, not active (confirm no lead line; not followed)
+- S Moon → Hamal Dec 0.0488 conj (70.13)
+
 ## 1 Almazhar Garde / Luca Morgan
 ### L1 same bodies
 - S Mercury → H Mercury RA 1.3271 1.33333 ninth (loose)

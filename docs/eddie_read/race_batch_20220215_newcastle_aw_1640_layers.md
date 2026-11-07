@@ -19,6 +19,522 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Moon → Deneb Dec 24.9956 25 whole (61.08)
 - Hubs: none
 
+## READ (reading order, Eddie 7 Nov 2026)
+### READ 1 same body first
+- **1 Sir Chauvelin / Paul Mulrennan**
+  - S Ceres → H Ceres RA 37.1921 23×φ golden (loose)
+  - S Quaoar → H Quaoar RA 12.9227 8×φ golden (loose)
+  - S Saturn → J Saturn RA 121.8666 122.222 ninth (loose)
+  - S Saturn → J Saturn Dec 12.0137 12 whole (9.78)
+  - S Neptune → J Neptune Dec 17.7508 17.7778 ninth (loose)
+  - S Pluto → J Pluto Dec 29.0539 φ^7 phi power (loose)
+  - S Ceres → J Ceres RA 175.0240 175 whole (loose)
+  - S Juno → J Juno RA 25.8676 16×φ golden (loose)
+  - S Vesta → J Vesta RA 24.0194 24 whole (0.09)
+  - S Gonggong → J Gonggong Dec 10.9822 11 whole (1.25)
+  - S Transpluto → J Transpluto Dec 4.8562 3×φ golden (loose)
+- **2 Alba Rose / Joe Fanning**
+  - S Pluto → H Pluto Dec 1.0094 1 whole (28.20)
+  - S Chiron → H Chiron Dec 2.9867 3 whole (11.26)
+  - S Vesta → H Vesta RA 20.0089 20 whole (30.74)
+  - S Rahu → H Rahu RA 80.8756 50×φ golden (loose)
+  - S Ketu → H Ketu RA 80.8756 50×φ golden (loose)
+  - S Venus → J Venus Dec 4.0114 4 whole (18.62)
+  - S Mars → J Mars RA 121.7204 122.222 ninth (loose)
+  - S Uranus → J Uranus Dec 17.7001 17.7778 ninth (loose)
+  - S Neptune → J Neptune Dec 13.9889 14 whole (19.73)
+  - S Ceres → J Ceres Dec 18.8803 18.8889 ninth (93.84)
+  - S Pallas → J Pallas RA 37.2174 23×φ golden (84.62)
+  - S Juno → J Juno RA 111.2877 111.111 ninth (loose)
+  - S Haumea → J Haumea RA 48.5431 30×φ golden (87.84)
+  - S Orcus → J Orcus Dec 26.0595 10×φ^2 phi power (loose)
+- **3 Wise Eagle / Graham Lee**
+  - S Mars → H Mars Dec 42.2939 10×φ^3 phi power (loose)
+  - S Uranus → H Uranus RA 16.0108 16 whole (20.99)
+  - S Eris → H Eris Dec 1.0244 1 whole (loose)
+  - S Makemake → H Makemake RA 4.8556 3×φ golden (loose)
+  - S Mars → J Mars RA 154.8098 155.556 ninth (loose)
+  - S Jupiter → J Jupiter Dec 13.2725 13.3333 ninth (loose)
+  - S Saturn → J Saturn RA 165.0648 102×φ golden (4.75)
+  - S Chiron → J Chiron RA 14.1817 14.14 sqrt2 (loose)
+  - S Chiron → J Chiron Dec 3.9900 4 whole (25.24)
+  - S Ceres → J Ceres Dec 2.0283 2 whole (loose)
+  - S Juno → J Juno RA 140.0120 140 whole (16.15)
+  - S Juno → J Juno Dec 10.0116 10 whole (17.75)
+  - S Vesta → J Vesta RA 68.4801 10×φ^4 phi power (loose)
+- **4 Onesmoothoperator / Harry Russell**
+  - S Jupiter → H Jupiter RA 111.3986 111.111 ninth (loose)
+  - S Uranus → H Uranus RA 14.4483 14.4444 ninth (95.95)
+  - S Pluto → H Pluto Dec 0.9751 1 whole (loose)
+  - S Chiron → H Chiron RA 11.9805 12 whole (0.06)
+  - S Ceres → H Ceres RA 72.9849 73 whole (6.07)
+  - S Ceres → H Ceres Dec 11.3481 7×φ golden (loose)
+  - S Pallas → H Pallas RA 48.5692 30×φ golden (loose)
+  - S Rahu → H Rahu Dec 2.9760 3 whole (loose)
+  - S Transpluto → H Transpluto RA 1.4121 1.414 sqrt2 (loose)
+  - S Ketu → H Ketu Dec 2.9760 3 whole (loose)
+  - S Mercury → J Mercury RA 30.9808 31 whole (0.17)
+  - S Saturn → J Saturn RA 54.0100 54 whole (24.78)
+  - S Pluto → J Pluto Dec 12.9431 8×φ golden (92.89)
+  - S Chiron → J Chiron RA 148.0156 148 whole (4.88)
+  - S Ceres → J Ceres RA 77.6881 77.7778 ninth (loose)
+  - S Vesta → J Vesta Dec 19.0083 19 whole (34.10)
+  - S Rahu → J Rahu RA 112.0256 112 whole (loose)
+  - S Ketu → J Ketu RA 112.0256 112 whole (loose)
+- **5 Aced It / Jack Mitchell**
+  - S Sun → H Sun Dec 16.1920 10×φ^1 phi power (loose)
+  - S Mercury → H Mercury Dec 25.0290 25 whole (loose)
+  - S Mars → H Mars RA 42.3847 10×φ^3 phi power (loose)
+  - S Pluto → H Pluto RA 11.1275 11.1111 ninth (loose)
+  - S Pallas → H Pallas Dec 15.9935 16 whole (45.24)
+  - S Saturn → J Saturn RA 44.0121 44 whole (15.59)
+  - S Makemake → J Makemake Dec 13.2552 13.3333 ninth (loose)
+  - S Orcus → J Orcus Dec 16.1728 10×φ^1 phi power (loose)
+- **6 Resumption / Tom Marquand**
+  - S Mars → H Mars RA 11.1067 11.1111 ninth (loose)
+  - S Uranus → H Uranus RA 11.1185 11.1111 ninth (87.87)
+  - S Uranus → H Uranus Dec 3.9800 4 whole (0.00)
+  - S Chiron → H Chiron Dec 2.2152 2.22222 ninth (loose)
+  - S Juno → H Juno RA 57.9892 58 whole (21.14)
+  - S Rahu → H Rahu Dec 1.5597 1.55556 ninth (loose)
+  - S Ketu → H Ketu Dec 1.5597 1.55556 ninth (loose)
+  - S Jupiter → J Jupiter Dec 0.9913 1 whole (31.77)
+  - S Pluto → J Pluto Dec 13.0192 13 whole (0.15)
+  - S Chiron → J Chiron RA 141.8027 141.4 sqrt2 (loose)
+  - S Chiron → J Chiron Dec 21.0149 21 whole (6.59)
+  - S Sedna → J Sedna Dec 3.0300 3 whole (loose)
+  - S Makemake → J Makemake RA 21.9820 22 whole (1.04)
+  - S Makemake → J Makemake Dec 10.9750 11 whole (loose)
+  - S Transpluto → J Transpluto Dec 2.9756 3 whole (loose)
+### READ 2 Jupiter / Sun star lines, highest score first, each in full
+#### 1. S Sun → Algorab RA 141.4196 141.4 sqrt2 (99.49) — runners with cells 6/6
+- Moon confirms: none
+- 1 Sir Chauvelin / Paul Mulrennan
+  - star rows: H Algorab → H Sun RA 169.8879 105×φ golden (68.01) — also: 3 Wise Eagle / Graham Lee
+  - star rows: H Algorab → H Mars RA 26.0101 26 whole (24.60) — also: 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
+  - star rows: H Algorab → H Vesta Dec 15.5504 15.5556 ninth (95.13) — also: 2 Alba Rose / Joe Fanning
+  - star rows: H Algorab → H Ketu RA 121.3353 75×φ golden (21.89) — also: 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell
+  - MATCH EXACT: H Zubeneschamali → Vesta RA 141.4458 141.4 sqrt2 (93.21)
+  - MATCH EXACT: H Adhara → Rahu RA 141.4769 141.4 sqrt2 (84.90)
+  - MATCH EXACT: J Alkaid → Venus RA 141.4092 141.4 sqrt2 (96.59)
+  - same number: J Alkaid → J Venus RA 141.4092 141.4 sqrt2 (96.59) — also: 6 Resumption / Tom Marquand
+- 2 Alba Rose / Joe Fanning
+  - star rows: H Algorab → H Vesta Dec 0.9845 1 whole (5.06) — also: 1 Sir Chauvelin / Paul Mulrennan
+  - star rows: H Algorab → H Rahu RA 51.9926 52 whole (39.68) — also: 4 Onesmoothoperator / Harry Russell
+  - star rows: H Algorab → H Haumea RA 25.9872 26 whole (12.96) — also: 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell
+  - star rows: H Algorab → H Gonggong RA 148.8818 92×φ golden (9.01) — also: 6 Resumption / Tom Marquand
+  - star rows: H Algorab → H Ketu RA 128.0074 128 whole (39.68) — also: 1 Sir Chauvelin / Paul Mulrennan, 4 Onesmoothoperator / Harry Russell
+  - star rows: J Algorab → J Uranus RA 1.1283 conj (6.14) — also: 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
+  - MATCH EXACT: H Mirfak → Vesta RA 141.4896 141.4 sqrt2 (81.63)
+  - MATCH EXACT: J Pollux → Rahu RA 141.4128 141.4 sqrt2 (97.60)
+- 3 Wise Eagle / Graham Lee
+  - star rows: H Algorab → H Sun RA 166.6353 166.667 ninth (97.31) — also: 1 Sir Chauvelin / Paul Mulrennan
+  - star rows: H Algorab → H Pallas RA 177.7549 177.778 ninth (98.21) — also: 6 Resumption / Tom Marquand
+  - star rows: S Algorab → J Jupiter RA 172.9914 173 whole (32.21) — also: 4 Onesmoothoperator / Harry Russell
+  - MATCH EXACT: J Difda → Rahu RA 141.4023 141.4 sqrt2 (94.69)
+- 4 Onesmoothoperator / Harry Russell
+  - star rows: H Algorab → H Uranus Dec 25.9815 26 whole (0.59) — also: 2 Alba Rose / Joe Fanning, 6 Resumption / Tom Marquand
+  - star rows: H Algorab → H Pluto Dec 5.0079 5 whole (36.36) — also: 6 Resumption / Tom Marquand
+  - star rows: H Algorab → H Rahu Dec 33.0029 33 whole (73.02) — also: 2 Alba Rose / Joe Fanning
+  - star rows: H Algorab → H Eris RA 161.9930 162 whole (42.55) — only
+  - star rows: H Algorab → H Ketu Dec 0.0322 conj (79.70) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning
+  - star rows: S Algorab → J Jupiter Dec 0.1319 conj (31.39) — also: 3 Wise Eagle / Graham Lee
+  - star rows: J Algorab → J Mars Dec 6.9910 7 whole (30.07) — also: 1 Sir Chauvelin / Paul Mulrennan, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
+  - star rows: J Algorab → J Haumea RA 7.9848 8 whole (5.69) — also: 2 Alba Rose / Joe Fanning, 5 Aced It / Jack Mitchell
+  - star rows: J Algorab → J Transpluto RA 40.0136 40 whole (10.18) — only
+  - MATCH EXACT: H Diadem → Sedna RA 141.4955 141.4 sqrt2 (80.14)
+- 5 Aced It / Jack Mitchell
+  - star rows: H Algorab → H Mars Dec 3.9818 4 whole (0.80) — also: 1 Sir Chauvelin / Paul Mulrennan, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
+  - star rows: J Algorab → J Chiron RA 93.0051 93 whole (55.38) — only
+  - star rows: J Algorab → J Haumea RA 0.0916 conj (88.16) — also: 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell
+- 6 Resumption / Tom Marquand
+  - star rows: H Algorab → H Mercury Dec 21.9917 22 whole (34.04) — only
+  - star rows: H Algorab → H Mars RA 110.9790 10×φ^5 phi power (74.07) — also: 1 Sir Chauvelin / Paul Mulrennan, 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell
+  - star rows: H Algorab → H Pluto RA 105.1699 65×φ golden (86.24) — also: 4 Onesmoothoperator / Harry Russell
+  - star rows: H Algorab → H Pluto Dec 5.0149 5 whole (6.54) — also: 4 Onesmoothoperator / Harry Russell
+  - star rows: H Algorab → H Pallas RA 105.1449 65×φ golden (2.48) — also: 3 Wise Eagle / Graham Lee
+  - star rows: J Algorab → J Venus RA 137.5582 85×φ golden (4.79) — only
+  - star rows: J Algorab → J Mars RA 169.0011 169 whole (88.93) — also: 1 Sir Chauvelin / Paul Mulrennan, 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell
+  - star rows: J Algorab → J Saturn RA 166.6530 166.667 ninth (98.83) — only
+  - star rows: J Algorab → J Uranus RA 127.0099 127 whole (25.71) — also: 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell
+  - star rows: J Algorab → J Gonggong RA 144.4476 144.444 ninth (99.66) — also: 2 Alba Rose / Joe Fanning
+  - MATCH EXACT: H Vega → Ceres RA 141.4772 141.4 sqrt2 (84.83)
+  - same number: S Chiron → J Chiron RA 141.8027 141.4 sqrt2 (loose) — also: 1 Sir Chauvelin / Paul Mulrennan
+#### 2. S Sun → Vindemiatrix RA 133.3425 133.333 ninth (98.90) — runners with cells 6/6
+- Moon confirms: none
+- 1 Sir Chauvelin / Paul Mulrennan
+  - star rows: H Vindemiatrix → H Jupiter Dec 3.0068 3 whole (43.51) — also: 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
+  - star rows: H Vindemiatrix → H Sun RA 161.8103 100×φ^1 phi power (98.29) — also: 2 Alba Rose / Joe Fanning
+  - star rows: H Vindemiatrix → H Makemake RA 5.0087 5 whole (31.87) — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
+  - star rows: H Vindemiatrix → H Ketu RA 129.4129 80×φ golden (0.62) — only
+  - star rows: J Vindemiatrix → J Pluto RA 14.5694 9×φ golden (61.20) — also: 3 Wise Eagle / Graham Lee
+  - star rows: J Vindemiatrix → J Pallas RA 0.1415 conj (82.02) — also: 5 Aced It / Jack Mitchell
+  - star rows: J Vindemiatrix → J Haumea RA 16.1865 10×φ^1 phi power (85.33) — also: 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
+  - MATCH EXACT: J Aculeus → Sedna RA 133.3329 133.333 ninth (99.94)
+  - MATCH EXACT: J Sirius → Gonggong RA 133.3897 133.333 ninth (93.24)
+- 2 Alba Rose / Joe Fanning
+  - star rows: H Vindemiatrix → H Sun RA 174.9838 175 whole (3.65) — also: 1 Sir Chauvelin / Paul Mulrennan
+  - star rows: H Vindemiatrix → H Haumea Dec 6.0122 6 whole (15.29) — also: 1 Sir Chauvelin / Paul Mulrennan, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
+  - star rows: H Vindemiatrix → H Makemake RA 0.1900 conj (76.28) — also: 1 Sir Chauvelin / Paul Mulrennan, 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
+  - star rows: H Vindemiatrix → H Orcus RA 42.9822 43 whole (1.20) — also: 3 Wise Eagle / Graham Lee
+  - star rows: H Vindemiatrix → H Transpluto Dec 0.1223 conj (35.10) — also: 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
+  - star rows: J Vindemiatrix → J Chiron RA 171.5180 106×φ golden (64.45) — only
+  - star rows: J Vindemiatrix → J Vesta Dec 12.9889 13 whole (19.88) — also: 4 Onesmoothoperator / Harry Russell
+  - star rows: J Vindemiatrix → J Makemake RA 48.9863 49 whole (9.82) — also: 1 Sir Chauvelin / Paul Mulrennan, 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
+  - MATCH EXACT: H Betelgeuse → Ketu RA 133.3142 133.333 ninth (97.70)
+  - MATCH EXACT: H Alpheratz → Rahu RA 133.3859 133.333 ninth (93.69)
+  - MATCH EXACT: J Alphecca → Chiron RA 133.3921 133.333 ninth (92.95)
+- 3 Wise Eagle / Graham Lee
+  - star rows: H Vindemiatrix → H Jupiter RA 1.1232 conj (6.31) — also: 1 Sir Chauvelin / Paul Mulrennan, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
+  - star rows: H Vindemiatrix → H Uranus RA 173.0039 173 whole (64.82) — also: 6 Resumption / Tom Marquand
+  - star rows: H Vindemiatrix → H Ceres RA 144.4414 144.444 ninth (99.67) — also: 5 Aced It / Jack Mitchell
+  - star rows: H Vindemiatrix → H Rahu Dec 0.1889 conj (13.70) — also: 5 Aced It / Jack Mitchell
+  - star rows: H Vindemiatrix → H Eris Dec 13.3378 13.3333 ninth (94.60) — also: 6 Resumption / Tom Marquand
+  - star rows: H Vindemiatrix → H Makemake RA 1.2099 conj (3.74) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
+  - star rows: H Vindemiatrix → H Transpluto Dec 0.2667 conj (1.23) — also: 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
+  - star rows: J Vindemiatrix → J Saturn Dec 8.8882 8.88889 ninth (94.69) — also: 6 Resumption / Tom Marquand
+  - star rows: J Vindemiatrix → J Pluto Dec 0.2294 conj (5.54) — also: 1 Sir Chauvelin / Paul Mulrennan
+  - star rows: J Vindemiatrix → J Orcus Dec 0.0182 conj (88.22) — also: 2 Alba Rose / Joe Fanning
+  - MATCH EXACT: J Alnilam → Quaoar RA 133.3580 133.333 ninth (97.04)
+- 4 Onesmoothoperator / Harry Russell
+  - star rows: H Vindemiatrix → H Venus RA 161.0008 161 whole (92.14) — only
+  - star rows: H Vindemiatrix → H Makemake RA 0.2650 conj (67.79) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 6 Resumption / Tom Marquand
+  - star rows: H Vindemiatrix → H Transpluto Dec 0.0364 conj (77.20) — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 6 Resumption / Tom Marquand
+  - star rows: S Vindemiatrix → J Jupiter RA 124.0044 124 whole (60.68) — also: 1 Sir Chauvelin / Paul Mulrennan, 3 Wise Eagle / Graham Lee, 6 Resumption / Tom Marquand
+  - star rows: J Vindemiatrix → J Mercury RA 75.9875 76 whole (14.23) — only
+  - star rows: J Vindemiatrix → J Vesta Dec 13.0180 13 whole (1.00) — also: 2 Alba Rose / Joe Fanning
+  - star rows: J Vindemiatrix → J Sedna RA 149.9923 150 whole (38.07) — also: 6 Resumption / Tom Marquand
+  - star rows: J Vindemiatrix → J Haumea RA 0.0927 conj (88.02) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 6 Resumption / Tom Marquand
+  - star rows: J Vindemiatrix → J Gonggong Dec 29.0186 29 whole (0.49) — also: 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
+  - MATCH EXACT: S body → H Jupiter → Pallas RA 133.3313 133.333 ninth (99.75)
+  - same number: S Pallas → H Jupiter RA 133.3313 133.333 ninth (99.75) — only
+- 5 Aced It / Jack Mitchell
+  - star rows: H Vindemiatrix → H Pallas Dec 3.9868 4 whole (11.66) — also: 1 Sir Chauvelin / Paul Mulrennan
+  - star rows: H Vindemiatrix → H Juno Dec 14.9847 15 whole (5.61) — only
+  - star rows: J Vindemiatrix → J Mars RA 179.0198 179 whole (0.01) — only
+  - star rows: J Vindemiatrix → J Ceres Dec 22.0011 22 whole (89.58) — also: 3 Wise Eagle / Graham Lee
+  - star rows: J Vindemiatrix → J Pallas RA 121.0013 121 whole (87.19) — also: 1 Sir Chauvelin / Paul Mulrennan
+  - star rows: J Vindemiatrix → J Juno RA 36.9883 37 whole (17.41) — only
+  - star rows: J Vindemiatrix → J Rahu Dec 19.9914 20 whole (32.49) — also: 3 Wise Eagle / Graham Lee
+  - star rows: J Vindemiatrix → J Gonggong RA 133.0134 133 whole (11.04) — also: 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
+  - MATCH EXACT: J Difda → Transpluto RA 133.3345 133.333 ninth (99.86)
+- 6 Resumption / Tom Marquand
+  - star rows: S Vindemiatrix → H Jupiter Dec 27.0119 27 whole (16.53) — also: 1 Sir Chauvelin / Paul Mulrennan, 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell
+  - star rows: H Vindemiatrix → H Uranus Dec 0.2231 conj (6.56) — also: 3 Wise Eagle / Graham Lee
+  - star rows: H Vindemiatrix → H Eris Dec 12.9839 13 whole (3.85) — also: 3 Wise Eagle / Graham Lee
+  - star rows: H Vindemiatrix → H Makemake RA 0.7783 conj (23.15) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell
+  - star rows: H Vindemiatrix → H Makemake Dec 14.0050 14 whole (56.07) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell
+  - star rows: H Vindemiatrix → H Gonggong Dec 22.9857 23 whole (8.19) — also: 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell
+  - star rows: H Vindemiatrix → H Transpluto Dec 0.1796 conj (16.09) — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell
+  - star rows: J Vindemiatrix → J Saturn RA 174.7310 108×φ golden (23.48) — also: 3 Wise Eagle / Graham Lee
+  - star rows: J Vindemiatrix → J Sedna RA 149.9979 150 whole (79.75) — also: 4 Onesmoothoperator / Harry Russell
+  - star rows: J Vindemiatrix → J Haumea RA 0.5457 conj (40.48) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell
+  - star rows: J Vindemiatrix → J Transpluto RA 48.9803 49 whole (0.03) — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell
+  - MATCH EXACT: H Arcturus → Neptune RA 133.3386 133.333 ninth (99.37)
+  - MATCH EXACT: H Markab → Haumea RA 133.3244 133.333 ninth (98.93)
+  - MATCH EXACT: H Antares → Mercury RA 133.3145 133.333 ninth (97.74)
+  - MATCH EXACT: J Procyon → Pluto RA 133.3773 133.333 ninth (94.73)
+#### 3. S Sun → Alkaid RA 122.0006 122 whole (93.98) — runners with cells 6/6
+- Moon confirms: none
+- 1 Sir Chauvelin / Paul Mulrennan
+  - star rows: H Alkaid → H Sun RA 150.4672 93×φ golden (47.74) — only
+  - star rows: H Alkaid → H Saturn RA 0.1797 conj (77.48) — only
+  - star rows: H Alkaid → H Uranus RA 156.9825 157 whole (1.57) — also: 6 Resumption / Tom Marquand
+  - star rows: H Alkaid → H Pluto Dec 68.5498 10×φ^4 phi power (94.95) — also: 4 Onesmoothoperator / Harry Russell
+  - star rows: H Alkaid → H Eris RA 177.9526 110×φ golden (0.13) — also: 5 Aced It / Jack Mitchell
+  - star rows: H Alkaid → H Haumea RA 1.2702 conj (2.35) — only
+  - star rows: H Alkaid → H Ketu RA 140.7561 87×φ golden (36.20) — only
+  - star rows: J Alkaid → J Venus RA 141.4092 141.4 sqrt2 (96.59) — also: 6 Resumption / Tom Marquand
+  - star rows: J Alkaid → J Juno Dec 56.9844 57 whole (4.75) — also: 2 Alba Rose / Joe Fanning
+  - star rows: J Alkaid → J Gonggong RA 121.0040 121 whole (64.12) — also: 2 Alba Rose / Joe Fanning
+  - star rows: J Alkaid → J Transpluto Dec 33.9967 34 whole (69.83) — also: 2 Alba Rose / Joe Fanning, 5 Aced It / Jack Mitchell
+  - MATCH EXACT: J Regulus → Sun RA 122.0019 122 whole (82.22)
+- 2 Alba Rose / Joe Fanning
+  - star rows: H Alkaid → H Quaoar RA 64.9832 65 whole (2.49) — also: 6 Resumption / Tom Marquand
+  - star rows: H Alkaid → H Gonggong RA 129.4602 80×φ golden (21.04) — also: 1 Sir Chauvelin / Paul Mulrennan
+  - star rows: J Alkaid → J Chiron RA 160.1798 99×φ golden (68.80) — only
+  - star rows: J Alkaid → J Juno RA 150.0052 150 whole (54.55) — also: 1 Sir Chauvelin / Paul Mulrennan
+  - star rows: J Alkaid → J Transpluto Dec 33.0192 33 whole (0.16) — also: 1 Sir Chauvelin / Paul Mulrennan, 5 Aced It / Jack Mitchell
+  - MATCH EXACT: H Rasalhague → Eris RA 121.9816 122 whole (0.62)
+- 3 Wise Eagle / Graham Lee
+  - MATCH EXACT: J Unukalhai → Vesta RA 122.0131 122 whole (11.89)
+- 4 Onesmoothoperator / Harry Russell
+  - star rows: H Alkaid → H Mars RA 53.9858 54 whole (8.54) — only
+  - star rows: H Alkaid → H Pallas Dec 62.9965 63 whole (67.83) — also: 6 Resumption / Tom Marquand
+  - star rows: J Alkaid → J Mars Dec 72.8148 45×φ golden (80.64) — only
+  - star rows: J Alkaid → J Pluto RA 39.0084 39 whole (33.49) — also: 1 Sir Chauvelin / Paul Mulrennan
+- 5 Aced It / Jack Mitchell
+  - star rows: H Alkaid → H Mercury RA 166.9844 167 whole (4.92) — only
+  - star rows: H Alkaid → H Eris Dec 52.0110 52 whole (20.20) — also: 1 Sir Chauvelin / Paul Mulrennan
+  - star rows: H Alkaid → H Orcus RA 56.0122 56 whole (15.20) — only
+  - star rows: H Alkaid → H Transpluto Dec 37.9989 38 whole (88.97) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning
+  - MATCH EXACT: H Arcturus → Gonggong RA 122.0048 122 whole (57.43)
+  - MATCH EXACT: H Al Rescha → Transpluto RA 122.0178 122 whole (1.24)
+  - MATCH EXACT: J Adhara → Pluto RA 122.0022 122 whole (79.12)
+  - MATCH EXACT: J Algol → Makemake RA 121.9841 122 whole (4.29)
+- 6 Resumption / Tom Marquand
+  - star rows: H Alkaid → H Uranus RA 179.4554 10×φ^6 phi power (97.20) — also: 1 Sir Chauvelin / Paul Mulrennan
+  - star rows: H Alkaid → H Pallas RA 124.5676 77×φ golden (12.38) — also: 4 Onesmoothoperator / Harry Russell
+  - star rows: H Alkaid → H Vesta Dec 67.0026 67 whole (76.11) — only
+  - star rows: J Alkaid → J Venus RA 118.1369 73×φ golden (13.62) — also: 1 Sir Chauvelin / Paul Mulrennan
+  - star rows: J Alkaid → J Quaoar Dec 64.0026 64 whole (75.51) — also: 2 Alba Rose / Joe Fanning
+  - MATCH EXACT: H Ras Algethi → Mercury RA 122.0054 122 whole (53.42)
+  - MATCH EXACT: J Nunki → Rahu RA 122.0177 122 whole (1.38)
+#### 4. S Sun → Mirach RA 48.5421 30×φ golden (93.32) — runners with cells 6/6
+- Moon confirms: none
+- 1 Sir Chauvelin / Paul Mulrennan
+  - star rows: H Mirach → H Mars RA 144.0328 89×φ golden (2.05) — also: 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
+  - star rows: H Mirach → H Makemake RA 173.1117 107×φ golden (19.85) — also: 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell
+  - star rows: H Mirach → H Ketu Dec 13.9934 14 whole (44.70) — only
+  - star rows: J Mirach → J Venus RA 29.1224 18×φ golden (86.97) — only
+  - star rows: J Mirach → J Saturn RA 179.6317 111×φ golden (0.55) — also: 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell
+  - star rows: J Mirach → J Chiron Dec 19.9893 20 whole (21.83) — only
+  - star rows: J Mirach → J Sedna RA 20.9944 21 whole (51.61) — also: 3 Wise Eagle / Graham Lee
+  - star rows: J Mirach → J Ketu Dec 58.0174 58 whole (1.69) — only
+  - MATCH EXACT: J Ras Algethi → Pluto RA 48.5458 30×φ golden (72.56)
+- 2 Alba Rose / Joe Fanning
+  - same number: S Haumea → J Haumea RA 48.5431 30×φ golden (87.84) — also: 4 Onesmoothoperator / Harry Russell
+- 3 Wise Eagle / Graham Lee
+  - star rows: S Mirach → H Jupiter Dec 41.0013 41 whole (87.26) — also: 5 Aced It / Jack Mitchell
+  - star rows: H Mirach → H Eris Dec 37.9985 38 whole (85.52) — only
+  - star rows: H Mirach → H Haumea RA 165.0691 102×φ golden (0.70) — also: 4 Onesmoothoperator / Harry Russell
+  - star rows: H Mirach → H Orcus Dec 44.9864 45 whole (10.26) — only
+  - star rows: J Mirach → J Mercury RA 103.0171 103 whole (2.08) — also: 6 Resumption / Tom Marquand
+  - star rows: J Mirach → J Pluto RA 179.9848 180 whole (5.65) — only
+  - star rows: J Mirach → J Sedna RA 17.9889 18 whole (19.80) — also: 1 Sir Chauvelin / Paul Mulrennan
+  - star rows: J Mirach → J Quaoar RA 160.0172 160 whole (2.00) — also: 6 Resumption / Tom Marquand
+  - natal Jupiter → star: H Jupiter → H star Mirach Dec 40.9984 41 whole (84.93) — also: 6 Resumption / Tom Marquand
+  - MATCH EXACT: H Spica → Transpluto RA 48.5424 30×φ golden (91.85)
+- 4 Onesmoothoperator / Harry Russell
+  - star rows: H Mirach → H Saturn Dec 57.9833 58 whole (2.74) — also: 1 Sir Chauvelin / Paul Mulrennan, 5 Aced It / Jack Mitchell
+  - star rows: H Mirach → H Makemake Dec 10.9868 11 whole (11.41) — also: 1 Sir Chauvelin / Paul Mulrennan, 5 Aced It / Jack Mitchell
+  - star rows: J Mirach → J Mars RA 88.0017 88 whole (83.75) — also: 1 Sir Chauvelin / Paul Mulrennan, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
+  - star rows: J Mirach → J Vesta RA 1.3656 conj (0.80) — only
+  - star rows: J Mirach → J Haumea RA 178.0116 178 whole (17.75) — also: 3 Wise Eagle / Graham Lee
+  - star rows: J Mirach → J Transpluto RA 130.0132 130 whole (11.62) — only
+  - MATCH EXACT: H Sirius → Pallas RA 48.5452 30×φ golden (76.08)
+  - same number: S Pallas → H Pallas RA 48.5692 30×φ golden (loose) — also: 2 Alba Rose / Joe Fanning
+- 5 Aced It / Jack Mitchell
+  - star rows: H Mirach → H Saturn RA 122.2580 122.222 ninth (95.05) — also: 1 Sir Chauvelin / Paul Mulrennan, 4 Onesmoothoperator / Harry Russell
+  - star rows: H Mirach → H Uranus RA 0.8688 conj (17.70) — also: 6 Resumption / Tom Marquand
+  - star rows: J Mirach → J Jupiter Dec 16.9837 17 whole (3.51) — also: 3 Wise Eagle / Graham Lee
+  - star rows: J Mirach → J Mars RA 0.9096 conj (15.49) — also: 1 Sir Chauvelin / Paul Mulrennan, 4 Onesmoothoperator / Harry Russell, 6 Resumption / Tom Marquand
+  - star rows: J Mirach → J Saturn Dec 58.2404 36×φ golden (52.72) — also: 1 Sir Chauvelin / Paul Mulrennan, 4 Onesmoothoperator / Harry Russell
+  - star rows: J Mirach → J Makemake Dec 0.1624 conj (21.04) — also: 1 Sir Chauvelin / Paul Mulrennan, 4 Onesmoothoperator / Harry Russell
+- 6 Resumption / Tom Marquand
+  - star rows: H Mirach → H Mars RA 78.9803 79 whole (0.03) — also: 1 Sir Chauvelin / Paul Mulrennan, 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell
+  - star rows: H Mirach → H Uranus RA 10.0080 10 whole (35.73) — also: 5 Aced It / Jack Mitchell
+  - star rows: H Mirach → H Quaoar Dec 51.0062 51 whole (47.91) — also: 3 Wise Eagle / Graham Lee
+  - star rows: J Mirach → J Mercury RA 0.7698 conj (23.70) — also: 3 Wise Eagle / Graham Lee
+  - star rows: J Mirach → J Mercury Dec 24.2717 15×φ golden (92.82) — also: 3 Wise Eagle / Graham Lee
+  - star rows: J Mirach → J Mars RA 1.0439 conj (9.25) — also: 1 Sir Chauvelin / Paul Mulrennan, 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell
+  - star rows: J Mirach → J Ceres RA 0.7241 conj (26.75) — only
+  - MATCH EXACT: J Algol → Jupiter Dec 48.5473 30×φ golden (64.74)
+#### 5. S Sun → Fomalhaut Dec 16.9988 17 whole (88.65) — runners with cells 6/6
+- Moon confirms: none
+- 1 Sir Chauvelin / Paul Mulrennan
+  - star rows: H Fomalhaut → H Ceres RA 36.9897 37 whole (23.72) — only
+  - star rows: H Fomalhaut → H Rahu Dec 7.9982 8 whole (82.66) — also: 4 Onesmoothoperator / Harry Russell
+  - star rows: H Fomalhaut → H Quaoar Dec 14.0001 14 whole (99.49) — also: 3 Wise Eagle / Graham Lee, 6 Resumption / Tom Marquand
+  - star rows: J Fomalhaut → J Venus Dec 23.9817 24 whole (0.72) — only
+  - star rows: J Fomalhaut → J Pluto RA 134.2869 83×φ golden (48.16) — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
+  - star rows: J Fomalhaut → J Rahu Dec 52.0198 52 whole (0.01) — also: 4 Onesmoothoperator / Harry Russell
+  - star rows: J Fomalhaut → J Sedna RA 54.0132 54 whole (11.58) — also: 3 Wise Eagle / Graham Lee
+  - star rows: J Fomalhaut → J Haumea RA 165.0428 102×φ golden (80.57) — also: 3 Wise Eagle / Graham Lee
+  - star rows: J Fomalhaut → J Makemake Dec 68.0043 68 whole (61.96) — also: 3 Wise Eagle / Graham Lee
+  - MATCH EXACT: H Murzim → Vesta Dec 16.9923 17 whole (37.84)
+  - MATCH EXACT: J Antares → Ceres Dec 17.0030 17 whole (72.45)
+  - MATCH EXACT: J Orion Nebula Cluster → Ketu Dec 17.0053 17 whole (53.96)
+- 2 Alba Rose / Joe Fanning
+  - star rows: J Fomalhaut → J Mars Dec 37.0152 37 whole (5.65) — also: 6 Resumption / Tom Marquand
+  - star rows: J Fomalhaut → J Pluto RA 160.1812 99×φ golden (75.66) — also: 1 Sir Chauvelin / Paul Mulrennan, 3 Wise Eagle / Graham Lee, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
+  - MATCH EXACT: H Scheat → Transpluto Dec 17.0012 17 whole (88.47)
+  - MATCH EXACT: H Phact → Jupiter Dec 16.9912 17 whole (31.42)
+- 3 Wise Eagle / Graham Lee
+  - star rows: H Fomalhaut → H Neptune RA 0.2004 conj (75.06) — also: 4 Onesmoothoperator / Harry Russell
+  - star rows: H Fomalhaut → H Sedna Dec 37.2131 23×φ golden (89.73) — also: 1 Sir Chauvelin / Paul Mulrennan
+  - star rows: H Fomalhaut → H Haumea Dec 46.9767 φ^8 phi power (98.33) — also: 1 Sir Chauvelin / Paul Mulrennan
+  - star rows: H Fomalhaut → H Makemake Dec 55.0193 34×φ golden (65.46) — also: 1 Sir Chauvelin / Paul Mulrennan
+  - star rows: J Fomalhaut → J Mercury RA 69.9918 70 whole (34.68) — only
+  - star rows: J Fomalhaut → J Pluto RA 146.9899 147 whole (24.55) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
+  - star rows: J Fomalhaut → J Sedna RA 51.0142 51 whole (8.31) — also: 1 Sir Chauvelin / Paul Mulrennan
+  - star rows: J Fomalhaut → J Quaoar RA 126.9918 127 whole (35.04) — also: 1 Sir Chauvelin / Paul Mulrennan, 6 Resumption / Tom Marquand
+  - MATCH EXACT: H Alnilam → Mercury Dec 16.9839 17 whole (3.80)
+- 4 Onesmoothoperator / Harry Russell
+  - star rows: H Fomalhaut → H Sun RA 0.2538 conj (69.02) — only
+  - star rows: H Fomalhaut → H Neptune RA 0.8769 conj (17.26) — also: 3 Wise Eagle / Graham Lee
+  - star rows: J Fomalhaut → J Rahu RA 177.7849 177.778 ninth (99.45) — also: 1 Sir Chauvelin / Paul Mulrennan
+  - MATCH EXACT: H Sadalmelik → Haumea Dec 17.0065 17 whole (45.44)
+  - MATCH EXACT: J Praesepe → Saturn Dec 16.9941 17 whole (49.92)
+- 5 Aced It / Jack Mitchell
+  - star rows: H Fomalhaut → H Pluto RA 56.0105 56 whole (22.34) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 6 Resumption / Tom Marquand
+  - star rows: J Fomalhaut → J Saturn Dec 7.0082 7 whole (34.85) — only
+  - star rows: J Fomalhaut → J Chiron RA 110.0523 68×φ golden (3.83) — only
+  - star rows: J Fomalhaut → J Gonggong Dec 9.0178 9 whole (1.25) — only
+  - MATCH EXACT: H Jupiter → H body → Ceres Dec 16.9994 17 whole (94.44)
+  - MATCH EXACT: H Pleiades → Uranus Dec 16.9957 17 whole (61.74)
+  - MATCH EXACT: J Ras Algethi → Saturn RA 16.9922 17 whole (37.37)
+  - MATCH EXACT: J Alkes → Pluto Dec 16.9922 17 whole (37.17)
+  - MATCH EXACT: J Difda → Juno Dec 17.0095 17 whole (27.43)
+  - MATCH EXACT: J Altair → Neptune RA 16.9871 17 whole (12.77)
+  - MATCH EXACT: J Mirach → Jupiter Dec 16.9837 17 whole (3.51)
+  - same number: H Jupiter → H Ceres Dec 16.9994 17 whole (94.44) — only
+  - same number: J Mirach → J Jupiter Dec 16.9837 17 whole (3.51) — only
+- 6 Resumption / Tom Marquand
+  - star rows: H Fomalhaut → H Pluto RA 51.7729 32×φ golden (75.61) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee, 5 Aced It / Jack Mitchell
+  - star rows: H Fomalhaut → H Orcus Dec 19.9879 20 whole (15.51) — only
+  - star rows: S Fomalhaut → J Jupiter RA 0.1627 conj (79.48) — only
+  - star rows: J Fomalhaut → J Mars Dec 36.9867 37 whole (11.18) — also: 2 Alba Rose / Joe Fanning
+  - star rows: J Fomalhaut → J Quaoar RA 99.0114 99 whole (18.58) — also: 1 Sir Chauvelin / Paul Mulrennan, 3 Wise Eagle / Graham Lee
+  - natal Jupiter → star: J Jupiter → J star Fomalhaut RA 0.1648 conj (79.24) — also: 3 Wise Eagle / Graham Lee
+  - MATCH EXACT: H Pleiades → Venus RA 17.0054 17 whole (53.11)
+  - MATCH EXACT: H Procyon → Rahu RA 17.0096 17 whole (26.96)
+  - MATCH EXACT: H Galactic Centre → Gonggong Dec 16.9802 17 whole (0.01)
+  - MATCH EXACT: J Aldebaran → Makemake Dec 16.9976 17 whole (77.31)
+#### 6. S Sun → Sadalsuud RA 6.0040 6 whole (64.38) — runners with cells 6/6
+- Moon confirms: none
+- 1 Sir Chauvelin / Paul Mulrennan
+  - star rows: H Sadalsuud → H Uranus RA 40.9885 41 whole (18.00) — only
+  - star rows: J Sadalsuud → J Venus Dec 0.0669 conj (60.40) — also: 6 Resumption / Tom Marquand
+  - star rows: J Sadalsuud → J Saturn Dec 1.0045 1 whole (59.83) — also: 3 Wise Eagle / Graham Lee
+  - star rows: J Sadalsuud → J Haumea Dec 30.0073 30 whole (40.45) — also: 6 Resumption / Tom Marquand
+  - star rows: J Sadalsuud → J Gonggong RA 5.0102 5 whole (23.97) — also: 2 Alba Rose / Joe Fanning
+  - MATCH EXACT: H Alnilam → Orcus Dec 5.9951 6 whole (57.22)
+  - MATCH EXACT: H Rasalhague → Haumea Dec 5.9853 6 whole (7.07)
+  - MATCH EXACT: H Praesepe → Jupiter Dec 6.0190 6 whole (0.25)
+  - MATCH EXACT: J Alhena → Rahu Dec 5.9997 6 whole (96.57)
+  - MATCH EXACT: J Rasalhague → Pluto Dec 6.0050 6 whole (56.51)
+- 2 Alba Rose / Joe Fanning
+  - star rows: H Sadalsuud → H Juno RA 24.2785 15×φ golden (56.64) — only
+  - star rows: H Sadalsuud → H Quaoar RA 51.0113 51 whole (18.86) — also: 4 Onesmoothoperator / Harry Russell, 5 Aced It / Jack Mitchell
+  - star rows: J Sadalsuud → J Sun Dec 5.0154 5 whole (5.24) — only
+  - star rows: J Sadalsuud → J Mercury RA 156.9454 97×φ golden (77.36) — also: 5 Aced It / Jack Mitchell
+  - star rows: J Sadalsuud → J Juno RA 93.9807 94 whole (0.11) — only
+  - star rows: J Sadalsuud → J Makemake RA 176.3385 109×φ golden (2.54) — also: 4 Onesmoothoperator / Harry Russell
+  - star rows: J Sadalsuud → J Gonggong RA 0.1162 conj (85.11) — also: 1 Sir Chauvelin / Paul Mulrennan
+  - star rows: J Sadalsuud → J Ketu Dec 15.9843 16 whole (4.53) — also: 3 Wise Eagle / Graham Lee, 4 Onesmoothoperator / Harry Russell
+  - MATCH EXACT: H Vindemiatrix → Haumea Dec 6.0122 6 whole (15.29)
+  - MATCH EXACT: H Unukalhai → Jupiter RA 6.0137 6 whole (9.89)
+  - MATCH EXACT: H Diadem → Venus Dec 6.0181 6 whole (0.90)
+  - MATCH EXACT: J Alhena → Ketu Dec 5.9854 6 whole (7.21)
+  - same number: H Vindemiatrix → H Haumea Dec 6.0122 6 whole (15.29) — also: 3 Wise Eagle / Graham Lee
+- 3 Wise Eagle / Graham Lee
+  - star rows: S Sadalsuud → H Jupiter RA 126.2131 78×φ golden (63.98) — also: 6 Resumption / Tom Marquand
+  - star rows: H Sadalsuud → H Jupiter Dec 0.1924 conj (12.86) — also: 6 Resumption / Tom Marquand
+  - star rows: H Sadalsuud → H Saturn RA 55.5589 55.5556 ninth (96.88) — also: 1 Sir Chauvelin / Paul Mulrennan
+  - star rows: H Sadalsuud → H Ketu RA 11.0909 φ^5 phi power (97.21) — also: 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell
+  - star rows: J Sadalsuud → J Saturn RA 161.8389 100×φ^1 phi power (91.43) — also: 1 Sir Chauvelin / Paul Mulrennan
+  - natal Jupiter → star: H Jupiter → H star Sadalsuud RA 126.2160 78×φ golden (50.65) — also: 6 Resumption / Tom Marquand
+  - MATCH EXACT: H Al Rescha → Sun Dec 6.0016 6 whole (84.24)
+  - MATCH EXACT: S Jupiter → H body → Gonggong RA 5.9959 6 whole (62.84)
+  - MATCH EXACT: H Procyon → Transpluto Dec 6.0056 6 whole (51.95)
+  - MATCH EXACT: H Zubenelgenubi → Saturn Dec 6.0196 6 whole (0.04)
+  - MATCH EXACT: J Jupiter → J body → Juno Dec 6.0173 6 whole (1.82)
+  - same number: S Jupiter → H Gonggong RA 5.9959 6 whole (62.84) — also: 2 Alba Rose / Joe Fanning
+- 4 Onesmoothoperator / Harry Russell
+  - star rows: H Sadalsuud → H Mars RA 62.0091 62 whole (29.47) — only
+  - star rows: H Sadalsuud → H Orcus RA 169.8733 105×φ golden (13.95) — also: 5 Aced It / Jack Mitchell
+  - star rows: H Sadalsuud → H Quaoar Dec 10.0108 10 whole (21.21) — also: 2 Alba Rose / Joe Fanning, 5 Aced It / Jack Mitchell
+  - star rows: J Sadalsuud → J Pluto RA 77.0002 77 whole (98.06) — only
+  - star rows: J Sadalsuud → J Pluto Dec 3.9865 4 whole (10.52) — only
+  - star rows: J Sadalsuud → J Ceres RA 18.0141 18 whole (8.80) — also: 6 Resumption / Tom Marquand
+  - star rows: J Sadalsuud → J Makemake Dec 38.0060 38 whole (48.79) — also: 2 Alba Rose / Joe Fanning
+  - star rows: J Sadalsuud → J Ketu Dec 0.1550 conj (23.35) — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee
+  - MATCH EXACT: H Alnilam → Juno Dec 6.0017 6 whole (83.45)
+  - MATCH EXACT: S body → H Jupiter → Juno Dec 6.0121 6 whole (15.71)
+  - MATCH EXACT: J Menkar → Juno Dec 6.0060 6 whole (49.06)
+- 5 Aced It / Jack Mitchell
+  - star rows: H Sadalsuud → H Mercury RA 50.9901 51 whole (25.72) — also: 2 Alba Rose / Joe Fanning
+  - star rows: H Sadalsuud → H Mercury Dec 11.0180 11 whole (0.99) — also: 2 Alba Rose / Joe Fanning
+  - star rows: H Sadalsuud → H Orcus RA 172.0065 172 whole (45.58) — also: 4 Onesmoothoperator / Harry Russell
+  - star rows: H Sadalsuud → H Quaoar Dec 9.9866 10 whole (10.81) — also: 2 Alba Rose / Joe Fanning, 4 Onesmoothoperator / Harry Russell
+  - MATCH EXACT: H Algenib → Ceres RA 5.9992 6 whole (92.07)
+  - MATCH EXACT: H Markab → Venus RA 5.9986 6 whole (86.87)
+  - MATCH EXACT: H Zubeneschamali → Ketu Dec 5.9816 6 whole (0.62)
+  - MATCH EXACT: J Difda → Mercury Dec 5.9990 6 whole (90.40)
+  - MATCH EXACT: J Algol → Sedna RA 5.9892 6 whole (21.09)
+  - MATCH EXACT: J El Nath → Haumea Dec 6.0136 6 whole (10.38)
+- 6 Resumption / Tom Marquand
+  - star rows: H Sadalsuud → H Venus RA 110.9815 10×φ^5 phi power (73.29) — also: 1 Sir Chauvelin / Paul Mulrennan
+  - star rows: H Sadalsuud → H Haumea RA 110.0259 68×φ golden (97.31) — also: 1 Sir Chauvelin / Paul Mulrennan
+  - star rows: H Sadalsuud → H Transpluto RA 169.8974 105×φ golden (77.47) — only
+  - star rows: S Sadalsuud → J Jupiter Dec 2.0182 2 whole (0.80) — also: 3 Wise Eagle / Graham Lee
+  - star rows: J Sadalsuud → J Ceres Dec 5.0141 5 whole (8.64) — also: 4 Onesmoothoperator / Harry Russell
+  - star rows: J Sadalsuud → J Vesta RA 84.1385 52×φ golden (95.29) — only
+  - star rows: J Sadalsuud → J Transpluto Dec 19.0083 19 whole (34.02) — only
+  - MATCH EXACT: H Facies → Ketu Dec 6.0029 6 whole (72.80)
+  - MATCH EXACT: H Zubeneschamali → Quaoar Dec 6.0045 6 whole (59.97)
+  - MATCH EXACT: J Sualocin → Haumea Dec 6.0097 6 whole (26.73)
+#### 7. S Jupiter → Alphard Dec 0.0777 conj (54.91) — runners with cells 6/6
+- Moon confirms: none
+- 1 Sir Chauvelin / Paul Mulrennan
+  - star rows: H Alphard → H Neptune RA 168.2607 104×φ golden (29.47) — also: 5 Aced It / Jack Mitchell
+  - star rows: H Alphard → H Juno Dec 0.2537 conj (2.38) — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee
+  - star rows: J Alphard → J Neptune RA 125.0191 125 whole (0.22) — also: 5 Aced It / Jack Mitchell
+  - star rows: J Alphard → J Juno Dec 0.9896 1 whole (23.18) — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee
+  - star rows: J Alphard → J Gonggong RA 174.0005 174 whole (95.05) — also: 2 Alba Rose / Joe Fanning, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
+  - star rows: J Alphard → J Transpluto RA 1.0667 conj (8.34) — also: 6 Resumption / Tom Marquand
+  - MATCH CONJ STAR: J Alphard → Gonggong RA 174.0005 174 whole (95.05)
+  - MATCH CONJ STAR: S Jupiter → J body → Mars RA 158.5674 98×φ golden (99.28)
+  - MATCH CONJ STAR: S Jupiter → J body → Saturn RA 144.4460 144.444 ninth (99.84)
+  - MATCH CONJ STAR: S Jupiter → J body → Uranus Dec 12.2238 12.2222 ninth (97.87)
+- 2 Alba Rose / Joe Fanning
+  - star rows: H Alphard → H Mercury Dec 16.0152 16 whole (5.81) — also: 3 Wise Eagle / Graham Lee, 6 Resumption / Tom Marquand
+  - star rows: J Alphard → J Juno RA 85.0188 85 whole (0.35) — also: 1 Sir Chauvelin / Paul Mulrennan, 3 Wise Eagle / Graham Lee
+  - star rows: J Alphard → J Quaoar Dec 0.2547 conj (2.28) — only
+  - star rows: J Alphard → J Gonggong Dec 17.9845 18 whole (5.03) — also: 1 Sir Chauvelin / Paul Mulrennan, 5 Aced It / Jack Mitchell, 6 Resumption / Tom Marquand
+  - MATCH CONJ STAR: S Jupiter → J body → Ketu Dec 18.9977 19 whole (78.02)
+- 3 Wise Eagle / Graham Lee
+  - star rows: H Alphard → H Mercury RA 110.9422 10×φ^5 phi power (85.93) — also: 2 Alba Rose / Joe Fanning, 6 Resumption / Tom Marquand
+  - star rows: H Alphard → H Juno Dec 0.1672 conj (19.58) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning
+  - star rows: H Alphard → H Haumea Dec 26.0147 26 whole (6.96) — only
+  - star rows: J Alphard → J Uranus RA 72.0158 72 whole (4.33) — also: 5 Aced It / Jack Mitchell
+  - star rows: J Alphard → J Chiron RA 119.7249 74×φ golden (49.33) — only
+  - star rows: J Alphard → J Pallas RA 145.6417 90×φ golden (17.95) — only
+  - MATCH CONJ STAR: H Alphard → Mercury RA 110.9422 10×φ^5 phi power (85.93)
+  - MATCH CONJ STAR: S Jupiter → H body → Makemake Dec 33.9787 21×φ golden (99.99)
+  - MATCH CONJ STAR: S Jupiter → H body → Gonggong RA 5.9959 6 whole (62.84)
+- 4 Onesmoothoperator / Harry Russell
+  - star rows: J Alphard → J Jupiter Dec 7.9919 8 whole (35.21) — only
+  - star rows: J Alphard → J Pluto RA 103.9887 104 whole (19.07) — only
+  - star rows: J Alphard → J Ceres RA 160.9970 161 whole (72.30) — only
+  - star rows: J Alphard → J Ceres Dec 11.1167 11.1111 ninth (90.86) — only
+  - MATCH CONJ STAR: S Jupiter → H body → Pluto Dec 12.9429 8×φ golden (91.62)
+  - MATCH CONJ STAR: S Jupiter → H body → Quaoar Dec 7.0014 7 whole (86.31)
+  - MATCH CONJ STAR: J Alphard → Ceres RA 160.9970 161 whole (72.30)
+  - MATCH CONJ STAR: J Alphard → Ceres Dec 11.1167 11.1111 ninth (90.86)
+  - MATCH CONJ STAR: S Jupiter → J body → Mercury RA 70.7112 70.7 sqrt2 (99.68)
+  - MATCH CONJ STAR: S Jupiter → J body → Chiron RA 122.2620 122.222 ninth (94.50)
+- 5 Aced It / Jack Mitchell
+  - star rows: H Alphard → H Sun Dec 12.2262 12.2222 ninth (94.44) — only
+  - star rows: H Alphard → H Saturn RA 113.2694 70×φ golden (61.52) — also: 6 Resumption / Tom Marquand
+  - star rows: H Alphard → H Neptune Dec 0.2369 conj (4.42) — also: 1 Sir Chauvelin / Paul Mulrennan
+  - star rows: H Alphard → H Gonggong RA 165.9804 166 whole (0.05) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 6 Resumption / Tom Marquand
+  - star rows: H Alphard → H Gonggong Dec 3.9910 4 whole (29.99) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 6 Resumption / Tom Marquand
+  - star rows: J Alphard → J Uranus Dec 14.9908 15 whole (28.99) — also: 3 Wise Eagle / Graham Lee
+  - star rows: J Alphard → J Rahu RA 163.4122 101×φ golden (51.29) — only
+  - star rows: J Alphard → J Makemake Dec 44.4447 44.4444 ninth (99.74) — only
+  - MATCH CONJ STAR: H Alphard → Sun Dec 12.2262 12.2222 ninth (94.44)
+  - MATCH CONJ STAR: H Alphard → Saturn RA 113.2694 70×φ golden (61.52)
+  - MATCH CONJ STAR: S Jupiter → H body → Neptune RA 0.0685 conj (91.08)
+  - MATCH CONJ STAR: S Jupiter → H body → Pallas Dec 15.5527 15.5556 ninth (97.29)
+  - MATCH CONJ STAR: J Alphard → Makemake Dec 44.4447 44.4444 ninth (99.74)
+  - MATCH CONJ STAR: J Alphard → Rahu RA 163.4122 101×φ golden (51.29)
+- 6 Resumption / Tom Marquand
+  - star rows: H Alphard → H Transpluto RA 11.0948 φ^5 phi power (83.89) — also: 1 Sir Chauvelin / Paul Mulrennan
+  - star rows: J Alphard → J Mercury Dec 20.0089 20 whole (30.70) — also: 2 Alba Rose / Joe Fanning, 3 Wise Eagle / Graham Lee
+  - star rows: J Alphard → J Saturn Dec 14.9967 15 whole (69.40) — also: 5 Aced It / Jack Mitchell
+  - star rows: J Alphard → J Gonggong RA 169.9812 170 whole (0.35) — also: 1 Sir Chauvelin / Paul Mulrennan, 2 Alba Rose / Joe Fanning, 5 Aced It / Jack Mitchell
+  - MATCH CONJ STAR: H Alphard → Transpluto RA 11.0948 φ^5 phi power (83.89)
+  - MATCH CONJ STAR: S Jupiter → H body → Ceres RA 155.5233 155.556 ninth (96.94)
+  - MATCH CONJ STAR: J Alphard → Saturn Dec 14.9967 15 whole (69.40)
+  - MATCH CONJ STAR: S Jupiter → J body → Haumea RA 147.2361 91×φ golden (71.47)
+### READ 3 Jupiter / Sun lines to bodies (not followed)
+- S Jupiter → Saturn Dec 7.9992 8 whole (92.07)
+- S Jupiter → Mercury Dec 11.0015 11 whole (85.59)
+### READ 4 Moon only, not active (confirm no lead line; not followed)
+- S Moon → Deneb Dec 24.9956 25 whole (61.08)
+
 ## 1 Sir Chauvelin / Paul Mulrennan
 ### L1 same bodies
 - S Ceres → H Ceres RA 37.1921 23×φ golden (loose)

@@ -24,6 +24,420 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Moon → Zubenelgenubi Dec 9.0059 9 whole (49.44)
 - Hubs: Zubenelgenubi
 
+## READ (reading order, Eddie 7 Nov 2026)
+### READ 1 same body first
+- **1 James Watt / Ben Robinson**
+  - S Sun → H Sun Dec 13.3342 13.3333 ninth (98.92)
+  - S Jupiter → H Jupiter RA 177.1773 177.778 ninth (loose)
+  - S Mars → J Mars Dec 14.3854 14.4444 ninth (loose)
+  - S Uranus → J Uranus Dec 33.2754 33.3333 ninth (loose)
+  - S Neptune → J Neptune Dec 15.4813 15.5556 ninth (loose)
+  - S Pluto → J Pluto RA 51.7854 32×φ golden (loose)
+  - S Chiron → J Chiron RA 142.0215 142 whole (loose)
+  - S Sedna → J Sedna Dec 3.2319 2×φ golden (loose)
+  - S Makemake → J Makemake RA 21.0274 21 whole (loose)
+- **2 Alablaq / George Downing**
+  - S Sun → H Sun Dec 16.5712 16.6667 ninth (loose)
+  - S Mercury → H Mercury Dec 22.1658 22.2222 ninth (loose)
+  - S Saturn → H Saturn Dec 5.9938 6 whole (47.66)
+  - S Uranus → H Uranus RA 12.9274 8×φ golden (loose)
+  - S Pluto → H Pluto Dec 0.9755 1 whole (loose)
+  - S Chiron → H Chiron Dec 2.9818 3 whole (0.78)
+  - S Ceres → H Ceres Dec 9.0154 9 whole (5.25)
+  - S Transpluto → H Transpluto RA 1.6060 1×φ golden (loose)
+  - S Mercury → J Mercury RA 176.9919 177 whole (35.67)
+  - S Chiron → J Chiron RA 124.6122 77×φ golden (loose)
+  - S Vesta → J Vesta RA 106.0171 106 whole (2.04)
+  - S Sedna → J Sedna RA 14.5446 9×φ golden (loose)
+- **3 Gowanlad / Phil Dennis**
+  - S Sun → H Sun RA 40.4755 25×φ golden (loose)
+  - S Jupiter → H Jupiter RA 147.2464 91×φ golden (69.66)
+  - S Saturn → H Saturn RA 53.3705 33×φ golden (loose)
+  - S Uranus → H Uranus Dec 6.0256 6 whole (loose)
+  - S Chiron → H Chiron Dec 3.9710 4 whole (loose)
+  - S Pallas → H Pallas RA 3.2296 2×φ golden (loose)
+  - S Orcus → H Orcus RA 4.9900 5 whole (25.20)
+  - S Mercury → J Mercury RA 164.9863 165 whole (9.80)
+  - S Mercury → J Mercury Dec 41.0141 41 whole (8.62)
+  - S Venus → J Venus RA 140.7380 87×φ golden (0.18)
+  - S Saturn → J Saturn Dec 17.0299 17 whole (loose)
+  - S Neptune → J Neptune Dec 16.1456 10×φ^1 phi power (loose)
+  - S Chiron → J Chiron RA 179.6210 10×φ^6 phi power (loose)
+  - S Chiron → J Chiron Dec 10.9855 11 whole (7.58)
+  - S Ceres → J Ceres RA 179.6944 10×φ^6 phi power (loose)
+  - S Orcus → J Orcus RA 21.9927 22 whole (40.13)
+- **4 Blazing Hot / Hollie Doyle**
+  - S Mars → H Mars Dec 28.0174 28 whole (1.65)
+  - S Uranus → H Uranus RA 18.8381 18.8889 ninth (loose)
+  - S Uranus → H Uranus Dec 7.0002 7 whole (97.95)
+  - S Neptune → H Neptune Dec 4.0020 4 whole (80.74)
+  - S Pallas → H Pallas RA 21.0504 13×φ golden (loose)
+  - S Juno → H Juno Dec 1.4445 1.44444 ninth (99.91)
+  - S Vesta → H Vesta RA 179.0376 10×φ^6 phi power (loose)
+  - S Haumea → H Haumea Dec 1.4471 1.44444 ninth (loose)
+  - S Venus → J Venus Dec 26.0247 26 whole (loose)
+  - S Jupiter → J Jupiter Dec 15.5399 15.5556 ninth (loose)
+  - S Saturn → J Saturn Dec 15.0165 15 whole (3.04)
+  - S Chiron → J Chiron Dec 14.5797 9×φ golden (loose)
+  - S Ceres → J Ceres Dec 46.9517 φ^8 phi power (loose)
+  - S Vesta → J Vesta Dec 1.5452 1.55556 ninth (loose)
+  - S Rahu → J Rahu RA 133.8951 133.333 ninth (loose)
+  - S Makemake → J Makemake RA 22.6240 14×φ golden (loose)
+  - S Gonggong → J Gonggong RA 6.1868 10×φ^-1 phi power (loose)
+  - S Ketu → J Ketu RA 133.8951 133.333 ninth (loose)
+- **5 Tathmeen / Cam Hardie**
+  - S Mars → H Mars Dec 16.1479 10×φ^1 phi power (loose)
+  - S Jupiter → H Jupiter Dec 24.1017 24.14 silver (loose)
+  - S Saturn → H Saturn Dec 2.6097 φ^2 phi power (loose)
+  - S Pluto → H Pluto Dec 1.8778 1.88889 ninth (loose)
+  - S Pallas → H Pallas RA 111.5046 111.111 ninth (loose)
+  - S Eris → H Eris RA 0.9741 1 whole (loose)
+  - S Sedna → H Sedna Dec 1.0082 1 whole (34.97)
+  - S Transpluto → H Transpluto RA 2.0279 2 whole (loose)
+  - S Jupiter → J Jupiter Dec 14.4590 14.4444 ninth (loose)
+  - S Chiron → J Chiron RA 178.6304 10×φ^6 phi power (loose)
+  - S Rahu → J Rahu RA 141.9088 141.4 sqrt2 (loose)
+  - S Sedna → J Sedna RA 13.2987 13.3333 ninth (loose)
+  - S Haumea → J Haumea RA 25.0191 25 whole (0.22)
+  - S Ketu → J Ketu RA 141.9088 141.4 sqrt2 (loose)
+### READ 2 Jupiter / Sun star lines, highest score first, each in full
+#### 1. S Sun → Aldebaran Dec 25.8885 16×φ golden (99.70) — runners with cells 5/5
+- Moon confirms: none
+- 1 James Watt / Ben Robinson
+  - star rows: H Aldebaran → H Pallas RA 111.1018 111.111 ninth (98.48) — also: 2 Alablaq / George Downing
+  - star rows: J Aldebaran → J Mercury RA 114.8609 71×φ golden (15.77) — also: 5 Tathmeen / Cam Hardie
+  - star rows: J Aldebaran → J Uranus Dec 34.9883 35 whole (17.09) — only
+  - star rows: J Aldebaran → J Orcus Dec 17.0008 17 whole (91.84) — only
+  - star rows: J Aldebaran → J Quaoar RA 176.3735 109×φ golden (57.46) — also: 3 Gowanlad / Phil Dennis
+  - star rows: J Aldebaran → J Transpluto RA 78.0070 78 whole (42.53) — also: 4 Blazing Hot / Hollie Doyle
+  - MATCH EXACT: J Alkes → Rahu Dec 25.8878 16×φ golden (95.46)
+  - MATCH EXACT: J Betelgeuse → Uranus Dec 25.8850 16×φ golden (79.07)
+- 2 Alablaq / George Downing
+  - star rows: H Aldebaran → H Pluto Dec 37.9990 38 whole (89.90) — only
+  - star rows: H Aldebaran → H Chiron RA 71.0187 71 whole (0.44) — only
+  - star rows: H Aldebaran → H Ceres Dec 14.0135 14 whole (10.69) — only
+  - star rows: H Aldebaran → H Pallas RA 1.0796 conj (7.86) — also: 1 James Watt / Ben Robinson
+  - star rows: H Aldebaran → H Vesta Dec 34.0043 34 whole (61.88) — also: 5 Tathmeen / Cam Hardie
+  - star rows: J Aldebaran → J Pluto Dec 20.0116 20 whole (17.53) — only
+- 3 Gowanlad / Phil Dennis
+  - star rows: H Aldebaran → H Quaoar Dec 32.0066 32 whole (44.73) — also: 1 James Watt / Ben Robinson
+  - star rows: J Aldebaran → J Mars Dec 6.9839 7 whole (3.82) — also: 4 Blazing Hot / Hollie Doyle, 5 Tathmeen / Cam Hardie
+  - star rows: J Aldebaran → J Ketu RA 58.2450 36×φ golden (75.72) — only
+- 4 Blazing Hot / Hollie Doyle
+  - star rows: H Aldebaran → H Haumea RA 144.0176 89×φ golden (37.54) — only
+  - star rows: S Aldebaran → J Jupiter RA 148.0154 148 whole (5.19) — also: 5 Tathmeen / Cam Hardie
+  - star rows: J Aldebaran → J Mars Dec 0.2031 conj (10.44) — also: 3 Gowanlad / Phil Dennis, 5 Tathmeen / Cam Hardie
+  - star rows: J Aldebaran → J Transpluto RA 77.9917 78 whole (34.41) — also: 1 James Watt / Ben Robinson
+  - MATCH EXACT: H Fomalhaut → Mercury RA 25.8893 16×φ golden (95.64)
+  - MATCH EXACT: J Alpheratz → Ketu Dec 25.8819 16×φ golden (63.10)
+  - same number: H Fomalhaut → H Mercury RA 25.8893 16×φ golden (95.64) — only
+- 5 Tathmeen / Cam Hardie
+  - star rows: S Aldebaran → H Jupiter Dec 0.1614 conj (21.34) — also: 4 Blazing Hot / Hollie Doyle
+  - star rows: H Aldebaran → H Mercury RA 120.9804 121 whole (0.05) — also: 1 James Watt / Ben Robinson
+  - star rows: J Aldebaran → J Sun Dec 1.0109 1 whole (20.67) — only
+  - star rows: J Aldebaran → J Mercury RA 14.0089 14 whole (31.07) — also: 1 James Watt / Ben Robinson
+  - star rows: J Aldebaran → J Mercury Dec 3.9968 4 whole (70.57) — also: 1 James Watt / Ben Robinson
+  - star rows: J Aldebaran → J Mars RA 36.0038 36 whole (65.83) — also: 3 Gowanlad / Phil Dennis, 4 Blazing Hot / Hollie Doyle
+  - star rows: J Aldebaran → J Saturn Dec 17.0080 17 whole (36.16) — only
+  - star rows: J Aldebaran → J Vesta RA 160.0009 160 whole (91.65) — also: 2 Alablaq / George Downing
+  - MATCH EXACT: H Acumen → Orcus Dec 25.8883 16×φ golden (98.50)
+#### 2. S Sun → Zubeneschamali Dec 0.0034 conj (97.75) — runners with cells 5/5
+- Moon confirms: none
+- 1 James Watt / Ben Robinson
+  - star rows: H Zubeneschamali → H Sun Dec 13.3381 13.3333 ninth (94.31) — only
+  - star rows: H Zubeneschamali → H Vesta RA 168.9849 169 whole (6.01) — also: 3 Gowanlad / Phil Dennis, 5 Tathmeen / Cam Hardie
+  - star rows: J Zubeneschamali → J Sedna RA 176.0176 176 whole (1.42) — also: 2 Alablaq / George Downing, 3 Gowanlad / Phil Dennis, 5 Tathmeen / Cam Hardie
+  - MATCH CONJ STAR: H Zubeneschamali → Sun Dec 13.3381 13.3333 ninth (94.31)
+  - MATCH CONJ STAR: S Jupiter → H body → Mercury Dec 14.1461 14.14 sqrt2 (89.00)
+  - MATCH CONJ STAR: S Jupiter → J body → Juno RA 158.5750 98×φ golden (58.00)
+  - MATCH CONJ STAR: S Jupiter → J body → Sedna RA 60.9942 61 whole (50.40)
+  - MATCH CONJ STAR: S Jupiter → J body → Gonggong Dec 9.9990 10 ninth (93.61)
+- 2 Alablaq / George Downing
+  - star rows: H Zubeneschamali → H Jupiter RA 0.2446 conj (70.05) — only
+  - star rows: H Zubeneschamali → H Chiron Dec 12.2209 12.2222 ninth (98.12) — also: 5 Tathmeen / Cam Hardie
+  - star rows: H Zubeneschamali → H Sedna RA 172.9909 173 whole (29.61) — also: 1 James Watt / Ben Robinson, 3 Gowanlad / Phil Dennis, 5 Tathmeen / Cam Hardie
+  - star rows: H Zubeneschamali → H Makemake RA 34.0176 34 whole (1.46) — only
+  - star rows: J Zubeneschamali → J Juno RA 166.6374 166.667 ninth (97.49) — also: 4 Blazing Hot / Hollie Doyle
+  - star rows: J Zubeneschamali → J Juno Dec 22.0196 22 whole (0.03) — also: 4 Blazing Hot / Hollie Doyle
+  - star rows: J Zubeneschamali → J Gonggong Dec 10.0114 10 whole (18.67) — only
+  - natal Jupiter → star: H Jupiter → H star Zubeneschamali RA 0.2446 conj (70.05) — also: 1 James Watt / Ben Robinson, 3 Gowanlad / Phil Dennis, 4 Blazing Hot / Hollie Doyle, 5 Tathmeen / Cam Hardie
+  - MATCH CONJ STAR: H Zubeneschamali → Jupiter RA 0.2446 conj (70.05)
+  - MATCH CONJ STAR: H Zubeneschamali → Chiron Dec 12.2209 12.2222 ninth (98.12)
+  - MATCH CONJ STAR: J Zubeneschamali → Juno RA 166.6374 166.667 ninth (97.49)
+- 3 Gowanlad / Phil Dennis
+  - star rows: H Zubeneschamali → H Eris Dec 6.9906 7 whole (28.31) — also: 4 Blazing Hot / Hollie Doyle
+  - star rows: H Zubeneschamali → H Orcus Dec 0.0100 conj (93.44) — only
+  - star rows: J Zubeneschamali → J Venus RA 155.5264 155.556 ninth (97.23) — only
+  - star rows: J Zubeneschamali → J Neptune Dec 10.9884 11 whole (17.63) — only
+  - star rows: J Zubeneschamali → J Vesta RA 6.0029 6 whole (72.95) — also: 1 James Watt / Ben Robinson, 5 Tathmeen / Cam Hardie
+  - star rows: J Zubeneschamali → J Sedna RA 176.3802 109×φ golden (30.51) — also: 1 James Watt / Ben Robinson, 2 Alablaq / George Downing, 5 Tathmeen / Cam Hardie
+  - star rows: J Zubeneschamali → J Transpluto Dec 22.9809 23 whole (0.18) — only
+  - star rows: J Zubeneschamali → J Ketu RA 141.4764 141.4 sqrt2 (85.04) — only
+  - star rows: J Zubeneschamali → J Ketu Dec 13.9982 14 whole (82.81) — only
+  - MATCH CONJ STAR: H Zubeneschamali → Orcus Dec 0.0100 conj (93.44)
+  - MATCH CONJ STAR: S Jupiter → H body → Venus Dec 11.9967 12 whole (69.67)
+  - MATCH CONJ STAR: S Jupiter → H body → Jupiter RA 147.2464 91×φ golden (69.66)
+  - MATCH CONJ STAR: S Jupiter → H body → Neptune RA 0.2470 conj (69.78)
+  - MATCH CONJ STAR: J Zubeneschamali → Venus RA 155.5264 155.556 ninth (97.23)
+  - MATCH CONJ STAR: J Zubeneschamali → Vesta RA 6.0029 6 whole (72.95)
+  - MATCH CONJ STAR: J Zubeneschamali → Ketu RA 141.4764 141.4 sqrt2 (85.04)
+  - MATCH CONJ STAR: J Zubeneschamali → Ketu Dec 13.9982 14 whole (82.81)
+  - MATCH CONJ STAR: S Jupiter → J body → Transpluto RA 161.8183 100×φ^1 phi power (96.36)
+- 4 Blazing Hot / Hollie Doyle
+  - star rows: H Zubeneschamali → H Mars RA 144.4200 144.444 ninth (97.42) — only
+  - star rows: H Zubeneschamali → H Eris RA 156.0159 156 whole (4.17) — also: 3 Gowanlad / Phil Dennis
+  - star rows: J Zubeneschamali → J Ceres RA 27.9892 28 whole (21.33) — only
+  - star rows: J Zubeneschamali → J Juno RA 144.4082 144.444 ninth (96.16) — also: 2 Alablaq / George Downing
+  - star rows: J Zubeneschamali → J Eris RA 154.0072 154 whole (40.81) — also: 3 Gowanlad / Phil Dennis
+  - MATCH CONJ STAR: H Zubeneschamali → Mars RA 144.4200 144.444 ninth (97.42)
+  - MATCH CONJ STAR: S Jupiter → H body → Uranus Dec 15.5515 15.5556 ninth (96.16)
+  - MATCH CONJ STAR: J Zubeneschamali → Juno RA 144.4082 144.444 ninth (96.16)
+  - MATCH CONJ STAR: S Jupiter → J body → Saturn RA 19.4112 12×φ golden (70.31)
+  - MATCH CONJ STAR: S Jupiter → J body → Makemake Dec 40.4560 25×φ golden (70.50)
+  - MATCH CONJ STAR: S Jupiter → J body → Orcus RA 151.9980 152 whole (80.91)
+- 5 Tathmeen / Cam Hardie
+  - star rows: H Zubeneschamali → H Sedna RA 174.9953 175 whole (58.42) — also: 1 James Watt / Ben Robinson, 2 Alablaq / George Downing, 3 Gowanlad / Phil Dennis
+  - star rows: H Zubeneschamali → H Quaoar RA 38.0119 38 whole (16.43) — only
+  - star rows: J Zubeneschamali → J Pluto Dec 2.0095 2 whole (27.40) — only
+  - star rows: J Zubeneschamali → J Chiron Dec 3.9921 4 whole (36.45) — also: 2 Alablaq / George Downing
+  - star rows: J Zubeneschamali → J Pallas Dec 33.9794 21×φ golden (95.72) — only
+  - star rows: J Zubeneschamali → J Vesta RA 0.2817 conj (65.97) — also: 1 James Watt / Ben Robinson, 3 Gowanlad / Phil Dennis
+  - star rows: J Zubeneschamali → J Quaoar RA 12.9402 8×φ golden (76.35) — only
+  - MATCH CONJ STAR: H Zubeneschamali → Sedna RA 174.9953 175 whole (58.42)
+  - MATCH CONJ STAR: S Jupiter → H body → Chiron RA 0.2188 conj (72.96)
+  - MATCH CONJ STAR: S Jupiter → H body → Orcus RA 166.6647 166.667 ninth (99.83)
+  - MATCH CONJ STAR: J Zubeneschamali → Pallas Dec 33.9794 21×φ golden (95.72)
+  - MATCH CONJ STAR: J Zubeneschamali → Vesta RA 0.2817 conj (65.97)
+  - MATCH CONJ STAR: J Zubeneschamali → Quaoar RA 12.9402 8×φ golden (76.35)
+#### 3. S Sun → Zubenelgenubi RA 114.8818 71×φ golden (91.73) — runners with cells 5/5
+- Moon confirms: S Moon → Zubenelgenubi Dec 9.0059 9 whole (49.44)
+- 1 James Watt / Ben Robinson
+  - star rows: H Zubenelgenubi → H Sun Dec 19.9969 20 whole (71.05) — also: 3 Gowanlad / Phil Dennis, 5 Tathmeen / Cam Hardie
+  - star rows: H Zubenelgenubi → H Mercury RA 152.9827 153 whole (1.77) — only
+  - star rows: H Zubenelgenubi → H Juno RA 1.2333 conj (3.16) — only
+  - star rows: H Zubenelgenubi → H Makemake RA 29.0009 29 whole (91.62) — also: 3 Gowanlad / Phil Dennis, 4 Blazing Hot / Hollie Doyle
+  - star rows: J Zubenelgenubi → J Chiron Dec 0.2157 conj (7.89) — only
+  - star rows: J Zubenelgenubi → J Juno Dec 13.9842 14 whole (4.51) — only
+  - star rows: J Zubenelgenubi → J Orcus Dec 15.5502 15.5556 ninth (94.97) — also: 2 Alablaq / George Downing
+  - MATCH EXACT: J Aldebaran → Mercury RA 114.8609 71×φ golden (15.77)
+  - same number: J Aldebaran → J Mercury RA 114.8609 71×φ golden (15.77) — only
+- 2 Alablaq / George Downing
+  - star rows: H Zubenelgenubi → H Ceres RA 91.0195 91 whole (0.05) — only
+  - star rows: J Zubenelgenubi → J Uranus RA 64.0019 64 whole (81.71) — also: 3 Gowanlad / Phil Dennis
+  - star rows: J Zubenelgenubi → J Pluto RA 9.0115 9 whole (17.98) — also: 5 Tathmeen / Cam Hardie
+  - star rows: J Zubenelgenubi → J Orcus Dec 19.0102 19 whole (24.25) — also: 1 James Watt / Ben Robinson
+- 3 Gowanlad / Phil Dennis
+  - star rows: H Zubenelgenubi → H Sun RA 155.3541 96×φ golden (8.71) — also: 1 James Watt / Ben Robinson, 5 Tathmeen / Cam Hardie
+  - star rows: H Zubenelgenubi → H Pallas RA 141.4374 141.4 sqrt2 (95.50) — only
+  - star rows: H Zubenelgenubi → H Sedna RA 167.0155 167 whole (4.99) — also: 5 Tathmeen / Cam Hardie
+  - star rows: H Zubenelgenubi → H Makemake Dec 41.4271 41.4 silver (94.52) — also: 1 James Watt / Ben Robinson, 4 Blazing Hot / Hollie Doyle
+  - star rows: J Zubenelgenubi → J Jupiter Dec 6.9851 7 whole (6.51) — also: 4 Blazing Hot / Hollie Doyle, 5 Tathmeen / Cam Hardie
+  - star rows: J Zubenelgenubi → J Venus RA 148.9938 149 whole (47.37) — only
+  - star rows: J Zubenelgenubi → J Uranus Dec 4.0197 4 whole (0.02) — also: 2 Alablaq / George Downing
+  - star rows: J Zubenelgenubi → J Vesta RA 0.5297 conj (41.85) — only
+  - star rows: J Zubenelgenubi → J Rahu RA 31.9910 32 whole (30.39) — only
+  - star rows: J Zubenelgenubi → J Eris RA 160.9948 161 whole (54.98) — only
+  - star rows: J Zubenelgenubi → J Ketu RA 148.0090 148 whole (30.39) — only
+- 4 Blazing Hot / Hollie Doyle
+  - star rows: H Zubenelgenubi → H Makemake Dec 41.0139 41 whole (9.36) — also: 1 James Watt / Ben Robinson, 3 Gowanlad / Phil Dennis
+  - star rows: S Zubenelgenubi → J Jupiter RA 58.2449 36×φ golden (74.91) — also: 3 Gowanlad / Phil Dennis, 5 Tathmeen / Cam Hardie
+  - star rows: J Zubenelgenubi → J Haumea RA 29.1224 18×φ golden (86.81) — only
+  - MATCH EXACT: H Aculeus → Uranus RA 114.8802 71×φ golden (98.72)
+- 5 Tathmeen / Cam Hardie
+  - star rows: S Zubenelgenubi → H Jupiter RA 81.9903 82 whole (26.40) — also: 3 Gowanlad / Phil Dennis, 4 Blazing Hot / Hollie Doyle
+  - star rows: J Zubenelgenubi → J Sun RA 175.9947 176 whole (54.01) — also: 1 James Watt / Ben Robinson, 3 Gowanlad / Phil Dennis
+  - star rows: J Zubenelgenubi → J Saturn RA 141.4396 141.4 sqrt2 (94.91) — only
+  - star rows: J Zubenelgenubi → J Pluto RA 20.0075 20 whole (38.79) — also: 2 Alablaq / George Downing
+  - star rows: J Zubenelgenubi → J Sedna RA 177.7131 177.778 ninth (94.94) — also: 3 Gowanlad / Phil Dennis
+  - star rows: J Zubenelgenubi → J Sedna Dec 20.9836 21 whole (3.26) — also: 3 Gowanlad / Phil Dennis
+  - star rows: J Zubenelgenubi → J Gonggong Dec 1.9995 2 whole (95.07) — only
+  - MATCH EXACT: J Acumen → Eris RA 114.8870 71×φ golden (63.22)
+  - MATCH EXACT: J Alphecca → Juno RA 114.8962 71×φ golden (26.08)
+#### 4. S Sun → Mirach Dec 45.0012 45 whole (88.22) — runners with cells 5/5
+- Moon confirms: none
+- 1 James Watt / Ben Robinson
+  - star rows: H Mirach → H Saturn RA 122.2659 122.222 ninth (93.96) — only
+  - star rows: H Mirach → H Uranus RA 0.9215 conj (14.87) — only
+  - star rows: H Mirach → H Pluto RA 89.0188 89 whole (0.38) — also: 5 Tathmeen / Cam Hardie
+  - star rows: J Mirach → J Pluto RA 129.4122 80×φ golden (0.34) — also: 5 Tathmeen / Cam Hardie
+  - star rows: J Mirach → J Juno RA 168.2704 104×φ golden (71.01) — also: 2 Alablaq / George Downing, 3 Gowanlad / Phil Dennis
+  - MATCH EXACT: H Diadem → Transpluto RA 44.9825 45 whole (1.53)
+  - MATCH EXACT: J Mirfak → Sedna Dec 44.9989 45 whole (89.06)
+  - MATCH EXACT: J Jupiter → J body → Makemake Dec 44.9890 45 whole (20.08)
+- 2 Alablaq / George Downing
+  - star rows: H Mirach → H Sun RA 0.5036 conj (44.12) — also: 3 Gowanlad / Phil Dennis, 4 Blazing Hot / Hollie Doyle
+  - star rows: H Mirach → H Sedna RA 38.8372 24×φ golden (74.86) — only
+  - star rows: H Mirach → H Gonggong RA 41.0141 41 whole (8.65) — only
+  - star rows: J Mirach → J Juno Dec 22.9816 23 whole (0.65) — also: 1 James Watt / Ben Robinson, 3 Gowanlad / Phil Dennis
+  - star rows: J Mirach → J Gonggong Dec 55.0126 34×φ golden (96.60) — only
+  - MATCH EXACT: H Scheat → Jupiter Dec 45.0153 45 whole (5.44)
+  - MATCH EXACT: H Sirius → Sedna RA 45.0185 45 whole (0.53)
+  - MATCH EXACT: H Diadem → Orcus RA 45.0187 45 whole (0.40)
+  - MATCH EXACT: J Pollux → Saturn Dec 45.0105 45 whole (22.45)
+  - same number: H Sirius → H Sedna RA 45.0185 45 whole (0.53) — only
+- 3 Gowanlad / Phil Dennis
+  - star rows: H Mirach → H Sun RA 0.6505 conj (32.07) — also: 2 Alablaq / George Downing, 4 Blazing Hot / Hollie Doyle
+  - star rows: H Mirach → H Jupiter RA 179.6009 111×φ golden (94.86) — only
+  - star rows: H Mirach → H Juno RA 92.0026 92 whole (75.68) — also: 1 James Watt / Ben Robinson, 2 Alablaq / George Downing
+  - star rows: H Mirach → H Rahu Dec 24.9817 25 whole (0.70) — also: 4 Blazing Hot / Hollie Doyle
+  - star rows: H Mirach → H Eris Dec 38.0122 38 whole (15.25) — only
+  - star rows: H Mirach → H Haumea RA 165.0200 102×φ golden (16.00) — only
+  - star rows: H Mirach → H Orcus Dec 45.0128 45 whole (12.83) — only
+  - star rows: J Mirach → J Neptune RA 78.9831 79 whole (2.46) — only
+  - star rows: J Mirach → J Neptune Dec 55.9894 56 whole (22.09) — only
+  - star rows: J Mirach → J Pallas RA 163.4119 101×φ golden (49.59) — only
+  - star rows: J Mirach → J Haumea RA 174.7594 108×φ golden (40.70) — only
+  - star rows: J Mirach → J Ketu Dec 31.0028 31 whole (73.93) — also: 4 Blazing Hot / Hollie Doyle
+  - natal Jupiter → star: H Jupiter → H star Mirach RA 179.6009 111×φ golden (94.86) — also: 1 James Watt / Ben Robinson, 2 Alablaq / George Downing, 4 Blazing Hot / Hollie Doyle, 5 Tathmeen / Cam Hardie
+  - MATCH EXACT: H Adhara → Mercury Dec 45.0067 45 whole (44.34)
+  - MATCH EXACT: H Antares → Mars Dec 45.0070 45 whole (42.44)
+  - MATCH EXACT: H Mirach → Orcus Dec 45.0128 45 whole (12.83)
+- 4 Blazing Hot / Hollie Doyle
+  - star rows: H Mirach → H Venus RA 11.0098 11 whole (25.97) — only
+  - star rows: H Mirach → H Makemake RA 177.7329 177.778 ninth (96.48) — only
+  - star rows: J Mirach → J Sun RA 179.6187 111×φ golden (22.73) — also: 2 Alablaq / George Downing, 3 Gowanlad / Phil Dennis
+  - star rows: J Mirach → J Rahu RA 169.9963 170 whole (66.11) — also: 3 Gowanlad / Phil Dennis
+  - star rows: J Mirach → J Rahu Dec 38.8340 24×φ golden (92.97) — also: 3 Gowanlad / Phil Dennis
+  - star rows: J Mirach → J Quaoar RA 135.9950 136 whole (55.99) — only
+  - star rows: J Mirach → J Ketu RA 10.0037 10 whole (66.11) — also: 3 Gowanlad / Phil Dennis
+- 5 Tathmeen / Cam Hardie
+  - star rows: J Mirach → J Pluto Dec 42.9926 43 whole (39.58) — also: 1 James Watt / Ben Robinson
+  - star rows: J Mirach → J Chiron Dec 41.0100 41 whole (24.80) — only
+#### 5. S Jupiter → Fomalhaut RA 0.1339 conj (82.94) — runners with cells 5/5
+- Moon confirms: none
+- 1 James Watt / Ben Robinson
+  - star rows: H Fomalhaut → H Mercury Dec 36.0145 36 whole (7.61) — also: 2 Alablaq / George Downing, 4 Blazing Hot / Hollie Doyle
+  - star rows: H Fomalhaut → H Pluto RA 56.0001 56 whole (98.75) — also: 2 Alablaq / George Downing
+  - star rows: S Fomalhaut → J Jupiter Dec 17.7725 17.7778 ninth (95.87) — only
+  - star rows: J Fomalhaut → J Sun Dec 14.9851 15 whole (6.56) — only
+  - star rows: J Fomalhaut → J Mars RA 0.7287 conj (26.44) — only
+  - star rows: J Fomalhaut → J Rahu Dec 37.2130 23×φ golden (89.06) — also: 3 Gowanlad / Phil Dennis, 4 Blazing Hot / Hollie Doyle
+  - natal Jupiter → star: J Jupiter → J star Fomalhaut Dec 17.7718 17.7778 ninth (95.32) — also: 2 Alablaq / George Downing, 3 Gowanlad / Phil Dennis, 4 Blazing Hot / Hollie Doyle, 5 Tathmeen / Cam Hardie
+  - MATCH CONJ STAR: H Fomalhaut → Pluto RA 56.0001 56 whole (98.75)
+  - MATCH CONJ STAR: S Jupiter → H body → Mercury Dec 14.1461 14.14 sqrt2 (89.00)
+  - MATCH CONJ STAR: J Fomalhaut → Jupiter Dec 17.7718 17.7778 ninth (95.32)
+  - MATCH CONJ STAR: J Fomalhaut → Rahu Dec 37.2130 23×φ golden (89.06)
+  - MATCH CONJ STAR: S Jupiter → J body → Juno RA 158.5750 98×φ golden (58.00)
+  - MATCH CONJ STAR: S Jupiter → J body → Sedna RA 60.9942 61 whole (50.40)
+  - MATCH CONJ STAR: S Jupiter → J body → Gonggong Dec 9.9990 10 ninth (93.61)
+- 2 Alablaq / George Downing
+  - star rows: H Fomalhaut → H Pluto RA 51.7722 32×φ golden (71.85) — also: 1 James Watt / Ben Robinson
+  - star rows: H Fomalhaut → H Pallas Dec 23.0123 23 whole (14.95) — also: 5 Tathmeen / Cam Hardie
+  - star rows: H Fomalhaut → H Haumea RA 131.0615 81×φ golden (95.67) — also: 3 Gowanlad / Phil Dennis
+  - star rows: H Fomalhaut → H Gonggong RA 7.9961 8 whole (64.82) — only
+  - star rows: J Fomalhaut → J Mercury RA 151.9931 152 whole (43.10) — also: 1 James Watt / Ben Robinson, 4 Blazing Hot / Hollie Doyle
+  - star rows: J Fomalhaut → J Venus RA 155.3342 96×φ golden (82.87) — also: 4 Blazing Hot / Hollie Doyle
+  - star rows: J Fomalhaut → J Eris Dec 20.9932 21 whole (43.74) — also: 4 Blazing Hot / Hollie Doyle
+  - MATCH CONJ STAR: H Fomalhaut → Pluto RA 51.7722 32×φ golden (71.85)
+  - MATCH CONJ STAR: H Fomalhaut → Haumea RA 131.0615 81×φ golden (95.67)
+  - MATCH CONJ STAR: H Fomalhaut → Gonggong RA 7.9961 8 whole (64.82)
+  - MATCH CONJ STAR: J Fomalhaut → Venus RA 155.3342 96×φ golden (82.87)
+- 3 Gowanlad / Phil Dennis
+  - star rows: H Fomalhaut → H Neptune RA 0.1124 conj (85.58) — only
+  - star rows: H Fomalhaut → H Juno RA 58.9846 59 whole (5.32) — only
+  - star rows: H Fomalhaut → H Haumea RA 132.0021 132 whole (80.44) — also: 2 Alablaq / George Downing
+  - star rows: H Fomalhaut → H Makemake Dec 55.0069 55 whole (43.08) — only
+  - star rows: H Fomalhaut → H Ketu Dec 18.9869 19 whole (11.94) — also: 4 Blazing Hot / Hollie Doyle
+  - star rows: J Fomalhaut → J Rahu Dec 25.0038 25 whole (65.65) — also: 1 James Watt / Ben Robinson, 4 Blazing Hot / Hollie Doyle
+  - MATCH CONJ STAR: H Fomalhaut → Neptune RA 0.1124 conj (85.58)
+  - MATCH CONJ STAR: H Fomalhaut → Haumea RA 132.0021 132 whole (80.44)
+  - MATCH CONJ STAR: S Jupiter → H body → Venus Dec 11.9967 12 whole (69.67)
+  - MATCH CONJ STAR: S Jupiter → H body → Jupiter RA 147.2464 91×φ golden (69.66)
+  - MATCH CONJ STAR: S Jupiter → H body → Neptune RA 0.2470 conj (69.78)
+  - MATCH CONJ STAR: J Fomalhaut → Rahu Dec 25.0038 25 whole (65.65)
+  - MATCH CONJ STAR: S Jupiter → J body → Transpluto RA 161.8183 100×φ^1 phi power (96.36)
+- 4 Blazing Hot / Hollie Doyle
+  - star rows: H Fomalhaut → H Mercury RA 25.8893 16×φ golden (95.64) — also: 1 James Watt / Ben Robinson, 2 Alablaq / George Downing
+  - star rows: H Fomalhaut → H Venus RA 22.0115 22 whole (18.05) — also: 2 Alablaq / George Downing
+  - star rows: H Fomalhaut → H Saturn RA 79.0098 79 whole (26.19) — also: 5 Tathmeen / Cam Hardie
+  - star rows: H Fomalhaut → H Eris Dec 26.9856 27 whole (7.93) — also: 2 Alablaq / George Downing
+  - star rows: H Fomalhaut → H Sedna RA 70.9833 71 whole (2.65) — only
+  - star rows: H Fomalhaut → H Orcus RA 167.9849 168 whole (6.04) — only
+  - star rows: J Fomalhaut → J Rahu RA 156.9816 157 whole (0.68) — also: 1 James Watt / Ben Robinson, 3 Gowanlad / Phil Dennis
+  - star rows: J Fomalhaut → J Eris RA 38.8372 24×φ golden (74.73) — also: 2 Alablaq / George Downing
+  - star rows: J Fomalhaut → J Ketu RA 23.0184 23 whole (0.68) — also: 3 Gowanlad / Phil Dennis
+  - MATCH CONJ STAR: H Fomalhaut → Mercury RA 25.8893 16×φ golden (95.64)
+  - MATCH CONJ STAR: S Jupiter → H body → Uranus Dec 15.5515 15.5556 ninth (96.16)
+  - MATCH CONJ STAR: J Fomalhaut → Eris RA 38.8372 24×φ golden (74.73)
+  - MATCH CONJ STAR: S Jupiter → J body → Saturn RA 19.4112 12×φ golden (70.31)
+  - MATCH CONJ STAR: S Jupiter → J body → Makemake Dec 40.4560 25×φ golden (70.50)
+  - MATCH CONJ STAR: S Jupiter → J body → Orcus RA 151.9980 152 whole (80.91)
+- 5 Tathmeen / Cam Hardie
+  - star rows: H Fomalhaut → H Chiron RA 0.0848 conj (89.02) — only
+  - star rows: H Fomalhaut → H Pallas Dec 35.0041 35 whole (63.54) — also: 2 Alablaq / George Downing
+  - star rows: H Fomalhaut → H Transpluto RA 168.2739 104×φ golden (90.04) — only
+  - star rows: J Fomalhaut → J Saturn Dec 29.1215 18×φ golden (81.58) — also: 4 Blazing Hot / Hollie Doyle
+  - MATCH CONJ STAR: H Fomalhaut → Chiron RA 0.0848 conj (89.02)
+  - MATCH CONJ STAR: H Fomalhaut → Pallas Dec 35.0041 35 whole (63.54)
+  - MATCH CONJ STAR: H Fomalhaut → Transpluto RA 168.2739 104×φ golden (90.04)
+  - MATCH CONJ STAR: S Jupiter → H body → Chiron RA 0.2188 conj (72.96)
+  - MATCH CONJ STAR: S Jupiter → H body → Orcus RA 166.6647 166.667 ninth (99.83)
+  - MATCH CONJ STAR: J Fomalhaut → Saturn Dec 29.1215 18×φ golden (81.58)
+#### 6. S Sun → Kaus Australis Dec 25.0037 25 whole (66.21) — runners with cells 5/5
+- Moon confirms: none
+- 1 James Watt / Ben Robinson
+  - star rows: H Kaus Australis → H Sedna RA 139.0068 139 whole (43.79) — also: 4 Blazing Hot / Hollie Doyle
+  - star rows: J Kaus Australis → J Sun RA 46.9200 29×φ golden (82.58) — also: 4 Blazing Hot / Hollie Doyle
+  - MATCH EXACT: H Zosma → Venus Dec 24.9818 25 whole (0.80)
+- 2 Alablaq / George Downing
+  - star rows: H Kaus Australis → H Transpluto RA 122.9393 φ^10 phi power (83.64) — also: 3 Gowanlad / Phil Dennis
+  - star rows: J Kaus Australis → J Jupiter RA 110.0170 68×φ golden (50.69) — also: 3 Gowanlad / Phil Dennis, 4 Blazing Hot / Hollie Doyle
+  - star rows: J Kaus Australis → J Pallas RA 13.9869 14 whole (11.88) — only
+  - star rows: J Kaus Australis → J Haumea Dec 56.9811 57 whole (0.29) — only
+  - star rows: J Kaus Australis → J Gonggong Dec 14.9909 15 whole (29.55) — also: 4 Blazing Hot / Hollie Doyle
+  - natal Jupiter → star: J Jupiter → J star Kaus Australis RA 110.0170 68×φ golden (50.69) — also: 1 James Watt / Ben Robinson, 3 Gowanlad / Phil Dennis, 4 Blazing Hot / Hollie Doyle, 5 Tathmeen / Cam Hardie
+  - MATCH EXACT: H Bellatrix → Sedna RA 25.0154 25 whole (5.29)
+  - MATCH EXACT: J Sadalsuud → Mars Dec 25.0197 25 whole (0.02)
+  - same number: H Bellatrix → H Sedna RA 25.0154 25 whole (5.29) — also: 3 Gowanlad / Phil Dennis, 5 Tathmeen / Cam Hardie
+- 3 Gowanlad / Phil Dennis
+  - star rows: S Kaus Australis → H Jupiter RA 79.0105 79 whole (22.46) — also: 2 Alablaq / George Downing, 4 Blazing Hot / Hollie Doyle
+  - star rows: H Kaus Australis → H Eris Dec 31.9901 32 whole (25.32) — only
+  - star rows: H Kaus Australis → H Orcus Dec 24.9894 25 whole (22.18) — also: 5 Tathmeen / Cam Hardie
+  - star rows: H Kaus Australis → H Quaoar Dec 18.8850 18.8889 ninth (97.17) — only
+  - star rows: J Kaus Australis → J Mercury Dec 56.9804 57 whole (0.04) — only
+  - star rows: J Kaus Australis → J Neptune Dec 14.0134 14 whole (11.04) — only
+  - star rows: J Kaus Australis → J Orcus RA 141.4421 141.4 sqrt2 (94.22) — also: 5 Tathmeen / Cam Hardie
+  - star rows: J Kaus Australis → J Quaoar RA 34.9946 35 whole (53.21) — only
+  - star rows: J Kaus Australis → J Transpluto Dec 47.9826 48 whole (1.70) — also: 2 Alablaq / George Downing
+  - star rows: J Kaus Australis → J Ketu Dec 39.0000 39 whole (99.51) — only
+  - MATCH EXACT: H Kaus Australis → Orcus Dec 24.9894 25 whole (22.18)
+  - MATCH EXACT: H Mirach → Rahu Dec 24.9817 25 whole (0.70)
+  - MATCH EXACT: J Fomalhaut → Rahu Dec 25.0038 25 whole (65.65)
+  - same number: H Mirach → H Rahu Dec 24.9817 25 whole (0.70) — also: 2 Alablaq / George Downing, 5 Tathmeen / Cam Hardie
+  - same number: J Fomalhaut → J Rahu Dec 25.0038 25 whole (65.65) — also: 2 Alablaq / George Downing, 5 Tathmeen / Cam Hardie
+- 4 Blazing Hot / Hollie Doyle
+  - star rows: H Kaus Australis → H Chiron RA 75.9873 76 whole (13.49) — also: 5 Tathmeen / Cam Hardie
+  - star rows: H Kaus Australis → H Juno RA 1.9924 2 whole (38.38) — only
+  - star rows: J Kaus Australis → J Sun RA 78.9834 79 whole (2.93) — also: 1 James Watt / Ben Robinson
+  - star rows: J Kaus Australis → J Jupiter Dec 11.0902 φ^5 phi power (99.79) — also: 2 Alablaq / George Downing, 3 Gowanlad / Phil Dennis
+  - star rows: J Kaus Australis → J Uranus RA 26.9921 27 whole (36.57) — only
+  - star rows: J Kaus Australis → J Sedna RA 129.4652 80×φ golden (9.28) — also: 1 James Watt / Ben Robinson
+  - star rows: J Kaus Australis → J Gonggong Dec 15.9802 16 whole (0.01) — also: 2 Alablaq / George Downing
+  - natal Jupiter → star: J Jupiter → J star Kaus Australis Dec 11.0902 φ^5 phi power (99.79) — also: 1 James Watt / Ben Robinson, 2 Alablaq / George Downing, 3 Gowanlad / Phil Dennis, 5 Tathmeen / Cam Hardie
+  - MATCH EXACT: H Acumen → Orcus Dec 25.0051 25 whole (55.15)
+  - MATCH EXACT: H Markab → Orcus Dec 24.9909 25 whole (29.73)
+  - MATCH EXACT: H Diadem → Jupiter Dec 24.9902 25 whole (25.85)
+  - MATCH EXACT: J Aculeus → Sun Dec 25.0038 25 whole (65.59)
+- 5 Tathmeen / Cam Hardie
+  - star rows: H Kaus Australis → H Pluto RA 8.9851 9 whole (6.45) — only
+  - star rows: J Kaus Australis → J Pluto Dec 27.0087 27 whole (31.86) — only
+  - star rows: J Kaus Australis → J Chiron RA 89.0110 89 whole (20.47) — also: 4 Blazing Hot / Hollie Doyle
+  - star rows: J Kaus Australis → J Chiron Dec 28.9913 29 whole (31.66) — also: 4 Blazing Hot / Hollie Doyle
+  - star rows: J Kaus Australis → J Orcus RA 142.3597 88×φ golden (2.44) — also: 3 Gowanlad / Phil Dennis
+  - MATCH EXACT: H Alphard → Jupiter Dec 25.0061 25 whole (48.39)
+  - MATCH EXACT: S Jupiter → H body → Haumea Dec 25.0062 25 whole (47.78)
+  - same number: S Haumea → J Haumea RA 25.0191 25 whole (0.22) — also: 2 Alablaq / George Downing, 3 Gowanlad / Phil Dennis
+### READ 3 Jupiter / Sun lines to bodies (not followed)
+- S Sun → Orcus RA 178.9974 179 whole (75.48)
+- S Sun → Makemake Dec 32.0040 32 whole (64.00)
+- S Sun → Gonggong RA 0.8132 conj (20.96)
+### READ 4 Moon only, not active (confirm no lead line; not followed)
+- S Moon → Menkent Dec 11.3233 7×φ golden (82.95)
+- S Moon → Sirius RA 154.0031 154 whole (71.80)
+- S Moon → Meissa RA 171.5037 106×φ golden (56.94)
+- S Moon → Vindemiatrix Dec 36.0053 36 whole (54.21)
+- S Moon → Bellatrix RA 174.0057 174 whole (51.29)
+
 ## 1 James Watt / Ben Robinson
 ### L1 same bodies
 - S Sun → H Sun Dec 13.3342 13.3333 ninth (98.92)

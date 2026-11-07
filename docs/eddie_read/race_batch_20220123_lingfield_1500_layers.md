@@ -28,6 +28,521 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Moon → Sadalsuud RA 133.3109 133.333 ninth (97.31)
 - Hubs: Ankaa, Menkar, Transpluto
 
+## READ (reading order, Eddie 7 Nov 2026)
+### READ 1 same body first
+- **1 Bristol De Mai / Sam Twiston-Davies**
+  - S Sun → H Sun RA 111.1488 111.111 ninth (93.82)
+  - S Saturn → H Saturn RA 125.9832 126 whole (2.58)
+  - S Saturn → H Saturn Dec 15.5660 15.5556 ninth (loose)
+  - S Ceres → H Ceres RA 61.4850 38×φ golden (98.47)
+  - S Sedna → H Sedna Dec 1.1065 1.11111 ninth (loose)
+  - S Mars → J Mars Dec 46.9363 φ^8 phi power (loose)
+  - S Jupiter → J Jupiter RA 155.7325 155.556 ninth (loose)
+  - S Jupiter → J Jupiter Dec 11.1299 11.1111 ninth (loose)
+  - S Saturn → J Saturn RA 2.2182 2.22222 ninth (loose)
+  - S Chiron → J Chiron Dec 2.9958 3 whole (62.42)
+  - S Juno → J Juno RA 161.1565 100×φ^1 phi power (loose)
+  - S Haumea → J Haumea RA 27.4782 17×φ golden (loose)
+  - S Orcus → J Orcus Dec 14.4964 14.4444 ninth (loose)
+- **2 Dashel Drasher / Rex Dingle**
+  - S Sun → H Sun Dec 31.0272 31 whole (loose)
+  - S Venus → H Venus Dec 29.0955 φ^7 phi power (loose)
+  - S Pluto → H Pluto RA 16.6677 16.6667 ninth (99.12)
+  - S Haumea → H Haumea RA 8.9793 9 whole (loose)
+  - S Makemake → H Makemake Dec 4.9807 5 whole (0.12)
+  - S Gonggong → H Gonggong RA 0.9760 1 whole (loose)
+  - S Transpluto → H Transpluto Dec 1.3277 1.33333 ninth (loose)
+  - S Vesta → J Vesta RA 105.0272 105 whole (loose)
+  - S Rahu → J Rahu Dec 12.9532 8×φ golden (loose)
+  - S Eris → J Eris RA 3.0081 3 whole (35.29)
+  - S Sedna → J Sedna RA 13.0236 13 whole (loose)
+  - S Ketu → J Ketu Dec 12.9532 8×φ golden (loose)
+- **3 Master Tommytucker / Harry Cobden**
+  - S Sun → H Sun Dec 18.7767 18.8889 ninth (loose)
+  - S Mercury → H Mercury RA 69.9993 70 whole (93.26)
+  - S Mercury → H Mercury Dec 24.1889 24.14 silver (loose)
+  - S Venus → H Venus Dec 1.3369 1.33333 ninth (loose)
+  - S Saturn → H Saturn RA 122.1318 122.222 ninth (loose)
+  - S Saturn → H Saturn Dec 14.0130 14 whole (12.32)
+  - S Pallas → H Pallas RA 57.9952 58 whole (57.68)
+  - S Juno → H Juno Dec 17.9654 φ^6 phi power (loose)
+  - S Sedna → H Sedna Dec 1.3317 1.33333 ninth (loose)
+  - S Transpluto → H Transpluto RA 4.0075 4 whole (38.87)
+  - S Mercury → J Mercury RA 61.8649 100×φ^-1 phi power (loose)
+  - S Mars → J Mars RA 99.9213 100 ninth (loose)
+  - S Saturn → J Saturn Dec 25.9807 26 whole (0.13)
+  - S Ceres → J Ceres Dec 2.0008 2 whole (91.75)
+  - S Eris → J Eris Dec 5.9937 6 whole (47.20)
+  - S Sedna → J Sedna Dec 3.0141 3 whole (8.73)
+  - S Orcus → J Orcus RA 19.0084 19 whole (33.71)
+  - S Orcus → J Orcus Dec 11.3233 7×φ golden (82.81)
+- **5 Itchy Feet / Gavin Sheehan**
+  - S Mercury → H Mercury RA 122.4140 122.222 ninth (loose)
+  - S Venus → H Venus Dec 18.7918 18.8889 ninth (loose)
+  - S Jupiter → H Jupiter Dec 33.3007 33.3333 ninth (loose)
+  - S Saturn → H Saturn RA 88.9656 55×φ golden (loose)
+  - S Neptune → H Neptune RA 12.9162 8×φ golden (loose)
+  - S Pallas → H Pallas RA 154.8597 155.556 ninth (loose)
+  - S Rahu → H Rahu Dec 30.7305 19×φ golden (loose)
+  - S Transpluto → H Transpluto Dec 1.2286 1.22222 ninth (loose)
+  - S Ketu → H Ketu Dec 30.7305 19×φ golden (loose)
+  - S Sun → J Sun RA 146.9994 147 whole (93.79)
+  - S Pluto → J Pluto RA 66.5983 66.6667 ninth (loose)
+  - S Chiron → J Chiron RA 121.9110 122.222 ninth (loose)
+  - S Pallas → J Pallas RA 88.9637 55×φ golden (loose)
+  - S Vesta → J Vesta RA 100.0299 100 whole (loose)
+  - S Vesta → J Vesta Dec 31.0065 31 whole (45.76)
+  - S Haumea → J Haumea RA 29.1006 18×φ golden (loose)
+  - S Makemake → J Makemake RA 28.9862 29 whole (9.57)
+  - S Quaoar → J Quaoar Dec 1.9935 2 whole (45.31)
+- **6 Lieutenant Rocco / Tom Scudamore**
+  - S Mercury → H Mercury RA 121.8185 122.222 ninth (loose)
+  - S Saturn → H Saturn RA 76.0286 76 whole (loose)
+  - S Neptune → H Neptune Dec 4.1462 4.14 silver (loose)
+  - S Chiron → H Chiron RA 17.7484 17.7778 ninth (loose)
+  - S Pallas → H Pallas RA 87.3637 54×φ golden (loose)
+  - S Haumea → H Haumea Dec 2.9806 3 whole (0.10)
+  - S Orcus → H Orcus Dec 3.9726 4 whole (loose)
+  - S Transpluto → H Transpluto Dec 1.1089 1.11111 ninth (loose)
+  - S Mars → J Mars RA 87.3581 54×φ golden (loose)
+  - S Mars → J Mars Dec 24.1362 24.14 silver (loose)
+  - S Neptune → J Neptune RA 85.7513 53×φ golden (74.22)
+  - S Pallas → J Pallas Dec 33.3761 33.3333 ninth (loose)
+  - S Juno → J Juno RA 17.9171 φ^6 phi power (loose)
+  - S Transpluto → J Transpluto RA 14.1414 14.14 sqrt2 (97.86)
+- **7 Two For Gold / David Bass**
+  - S Sun → H Sun RA 78.9835 79 whole (3.08)
+  - S Neptune → H Neptune RA 15.4903 15.5556 ninth (loose)
+  - S Pluto → H Pluto RA 16.6553 16.6667 ninth (loose)
+  - S Juno → H Juno RA 13.0167 13 whole (2.76)
+  - S Vesta → H Vesta Dec 45.2908 28×φ golden (loose)
+  - S Makemake → H Makemake Dec 4.9721 5 whole (loose)
+  - S Orcus → H Orcus RA 9.0056 9 whole (51.88)
+  - S Quaoar → H Quaoar RA 11.1602 11.1111 ninth (loose)
+  - S Gonggong → H Gonggong RA 1.0039 1 whole (64.97)
+  - S Mars → J Mars Dec 18.0081 18 whole (35.32)
+  - S Jupiter → J Jupiter Dec 28.9835 29 whole (3.09)
+  - S Pluto → J Pluto RA 76.0532 φ^9 phi power (loose)
+  - S Juno → J Juno Dec 27.5288 17×φ golden (loose)
+  - S Sedna → J Sedna RA 16.5803 16.6667 ninth (loose)
+  - S Sedna → J Sedna Dec 3.9712 4 whole (loose)
+  - S Quaoar → J Quaoar RA 45.2738 28×φ golden (loose)
+### READ 2 Jupiter / Sun star lines, highest score first, each in full
+#### 1. S Jupiter → Alhena RA 122.2282 122.222 ninth (99.17) — runners with cells 6/6
+- Moon confirms: none
+- 1 Bristol De Mai / Sam Twiston-Davies
+  - star rows: H Alhena → H Uranus RA 96.0143 96 whole (8.09) — also: 6 Lieutenant Rocco / Tom Scudamore
+  - star rows: H Alhena → H Chiron RA 124.5949 77×φ golden (65.16) — also: 6 Lieutenant Rocco / Tom Scudamore
+  - star rows: H Alhena → H Pallas Dec 0.2337 conj (4.88) — also: 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan
+  - star rows: J Alhena → J Mars RA 9.0069 9 whole (42.87) — also: 7 Two For Gold / David Bass
+  - star rows: J Alhena → J Gonggong Dec 35.9912 36 whole (31.52) — also: 7 Two For Gold / David Bass
+  - MATCH EXACT: H Jupiter → H body → Rahu RA 122.2803 122.222 ninth (91.96)
+  - MATCH EXACT: J Markab → Mars RA 122.2420 122.222 ninth (97.26)
+  - same number: H Jupiter → H Rahu RA 122.2803 122.222 ninth (91.96) — also: 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore
+- 2 Dashel Drasher / Rex Dingle
+  - star rows: H Alhena → H Transpluto RA 52.0069 52 whole (42.66) — also: 6 Lieutenant Rocco / Tom Scudamore
+  - star rows: J Alhena → J Sun RA 170.9913 171 whole (32.13) — also: 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
+  - star rows: J Alhena → J Juno Dec 20.0115 20 whole (17.89) — also: 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
+  - star rows: J Alhena → J Vesta RA 77.6618 48×φ golden (77.90) — also: 7 Two For Gold / David Bass
+  - star rows: J Alhena → J Orcus Dec 16.9962 17 whole (65.47) — also: 7 Two For Gold / David Bass
+- 3 Master Tommytucker / Harry Cobden
+  - star rows: H Alhena → H Neptune RA 127.8079 79×φ golden (23.31) — only
+  - star rows: H Alhena → H Rahu RA 168.2503 104×φ golden (4.82) — also: 6 Lieutenant Rocco / Tom Scudamore
+  - star rows: H Alhena → H Quaoar Dec 32.0058 32 whole (50.38) — only
+  - star rows: J Alhena → J Sun RA 121.0015 121 whole (85.70) — also: 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
+  - star rows: J Alhena → J Pallas RA 112.0064 112 whole (45.91) — also: 1 Bristol De Mai / Sam Twiston-Davies, 5 Itchy Feet / Gavin Sheehan
+  - MATCH EXACT: J Zosma → Sedna RA 122.2263 122.222 ninth (99.43)
+  - same number: S Saturn → H Saturn RA 122.1318 122.222 ninth (loose) — also: 1 Bristol De Mai / Sam Twiston-Davies, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore
+- 5 Itchy Feet / Gavin Sheehan
+  - star rows: H Alhena → H Pallas RA 51.9838 52 whole (3.56) — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden
+  - star rows: J Alhena → J Sun Dec 7.0186 7 whole (0.50) — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass
+  - star rows: J Alhena → J Haumea RA 89.0027 89 whole (74.41) — also: 6 Lieutenant Rocco / Tom Scudamore
+  - same number: S Mercury → H Mercury RA 122.4140 122.222 ninth (loose) — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore
+  - same number: S Chiron → J Chiron RA 121.9110 122.222 ninth (loose) — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore
+- 6 Lieutenant Rocco / Tom Scudamore
+  - star rows: H Alhena → H Venus RA 8.9901 9 whole (25.41) — only
+  - star rows: H Alhena → H Saturn RA 141.4477 141.4 sqrt2 (92.68) — only
+  - star rows: H Alhena → H Pluto RA 173.1558 107×φ golden (3.71) — only
+  - star rows: H Alhena → H Chiron RA 110.0264 68×φ golden (99.20) — also: 1 Bristol De Mai / Sam Twiston-Davies
+  - star rows: H Alhena → H Rahu Dec 20.0109 20 whole (20.87) — also: 3 Master Tommytucker / Harry Cobden
+  - star rows: H Alhena → H Sedna Dec 8.9848 9 whole (5.88) — only
+  - star rows: J Alhena → J Uranus Dec 36.9899 37 whole (24.64) — also: 1 Bristol De Mai / Sam Twiston-Davies
+  - star rows: J Alhena → J Chiron Dec 0.2834 conj (0.30) — also: 1 Bristol De Mai / Sam Twiston-Davies
+  - star rows: J Alhena → J Juno Dec 22.0122 22 whole (15.26) — also: 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass
+  - star rows: J Alhena → J Haumea Dec 8.0001 8 whole (98.73) — also: 5 Itchy Feet / Gavin Sheehan
+  - star rows: J Alhena → J Transpluto RA 41.4254 41.4 silver (96.17) — also: 2 Dashel Drasher / Rex Dingle
+  - MATCH EXACT: H Ras Algethi → Jupiter RA 122.2106 122.222 ninth (98.40)
+  - same number: S Mercury → H Mercury RA 121.8185 122.222 ninth (loose) — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan
+- 7 Two For Gold / David Bass
+  - star rows: H Alhena → H Juno RA 149.9942 150 whole (50.63) — also: 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore
+  - star rows: H Alhena → H Vesta RA 13.0077 13 whole (37.93) — also: 2 Dashel Drasher / Rex Dingle
+  - star rows: H Alhena → H Gonggong RA 123.9802 124 whole (0.01) — also: 1 Bristol De Mai / Sam Twiston-Davies
+  - star rows: J Alhena → J Jupiter Dec 2.0000 2 whole (99.51) — only
+  - star rows: J Alhena → J Sun RA 0.4391 conj (50.02) — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan
+  - star rows: J Alhena → J Mars RA 103.9950 104 whole (56.24) — also: 1 Bristol De Mai / Sam Twiston-Davies
+  - star rows: J Alhena → J Orcus RA 28.0179 28 whole (1.10) — also: 2 Dashel Drasher / Rex Dingle
+  - star rows: J Alhena → J Ketu Dec 11.0921 φ^5 phi power (93.04) — only
+  - natal Jupiter → star: J Jupiter → J star Alhena Dec 2.0000 2 whole (99.51) — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden
+#### 2. S Jupiter → Nunki RA 53.3948 33×φ golden (98.03) — runners with cells 6/6
+- Moon confirms: none
+- 1 Bristol De Mai / Sam Twiston-Davies
+  - star rows: H Nunki → H Mercury RA 111.0152 111 whole (5.81) — only
+  - star rows: H Nunki → H Uranus Dec 26.9904 27 whole (26.92) — only
+  - star rows: H Nunki → H Chiron RA 51.0079 51 whole (36.64) — also: 6 Lieutenant Rocco / Tom Scudamore
+  - star rows: J Nunki → J Sedna RA 119.7093 74×φ golden (4.84) — also: 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore
+- 2 Dashel Drasher / Rex Dingle
+  - star rows: H Nunki → H Makemake RA 92.9976 93 whole (77.82) — also: 3 Master Tommytucker / Harry Cobden
+  - star rows: H Nunki → H Transpluto Dec 38.0092 38 whole (29.41) — also: 7 Two For Gold / David Bass
+  - star rows: J Nunki → J Pallas RA 27.0121 27 whole (15.43) — only
+  - star rows: J Nunki → J Eris RA 98.9939 99 whole (48.23) — only
+  - star rows: J Nunki → J Orcus RA 147.0015 147 whole (85.51) — only
+  - star rows: J Nunki → J Quaoar RA 38.9871 39 whole (12.68) — only
+  - MATCH EXACT: H Capella → Orcus Dec 53.3961 33×φ golden (93.95)
+- 3 Master Tommytucker / Harry Cobden
+  - star rows: H Nunki → H Jupiter Dec 30.0101 30 whole (24.36) — also: 5 Itchy Feet / Gavin Sheehan
+  - star rows: H Nunki → H Juno RA 113.0039 113 whole (64.44) — only
+  - star rows: H Nunki → H Sedna Dec 32.9881 33 whole (16.37) — also: 1 Bristol De Mai / Sam Twiston-Davies, 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore
+  - star rows: S Nunki → J Jupiter RA 65.9975 66 whole (76.53) — also: 5 Itchy Feet / Gavin Sheehan
+  - star rows: J Nunki → J Rahu RA 133.3450 133.333 ninth (98.60) — also: 7 Two For Gold / David Bass
+  - star rows: J Nunki → J Haumea Dec 47.0009 47 whole (91.57) — only
+  - star rows: J Nunki → J Makemake Dec 58.2445 36×φ golden (72.82) — also: 2 Dashel Drasher / Rex Dingle
+  - natal Jupiter → star: J Jupiter → J star Nunki RA 65.9949 66 whole (55.16) — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass
+  - MATCH EXACT: S body → J Jupiter → Juno RA 53.3926 33×φ golden (84.82)
+  - same number: S Juno → J Jupiter RA 53.3926 33×φ golden (84.82) — only
+- 5 Itchy Feet / Gavin Sheehan
+  - star rows: H Nunki → H Jupiter Dec 49.0133 49 whole (11.06) — also: 3 Master Tommytucker / Harry Cobden
+  - star rows: H Nunki → H Pluto RA 0.2338 conj (71.26) — also: 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
+  - star rows: S Nunki → J Jupiter RA 123.0182 123 whole (0.81) — also: 3 Master Tommytucker / Harry Cobden
+  - star rows: J Nunki → J Saturn Dec 9.9950 10 whole (56.27) — also: 7 Two For Gold / David Bass
+  - star rows: J Nunki → J Sedna RA 119.7438 74×φ golden (50.91) — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore
+  - star rows: J Nunki → J Gonggong Dec 7.0133 7 whole (11.23) — also: 6 Lieutenant Rocco / Tom Scudamore
+- 6 Lieutenant Rocco / Tom Scudamore
+  - star rows: H Nunki → H Venus RA 166.6145 166.667 ninth (95.53) — only
+  - star rows: H Nunki → H Mars RA 131.0557 81×φ golden (71.44) — only
+  - star rows: H Nunki → H Sedna RA 131.0889 81×φ golden (1.66) — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan
+  - star rows: J Nunki → J Pluto RA 74.4220 46×φ golden (58.87) — also: 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
+  - star rows: J Nunki → J Pluto Dec 33.0085 33 whole (32.99) — also: 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
+  - star rows: J Nunki → J Chiron RA 128.0195 128 whole (0.07) — also: 1 Bristol De Mai / Sam Twiston-Davies
+  - star rows: J Nunki → J Ceres Dec 17.0198 17 whole (0.01) — only
+  - star rows: J Nunki → J Gonggong Dec 3.9963 4 whole (66.23) — also: 5 Itchy Feet / Gavin Sheehan
+- 7 Two For Gold / David Bass
+  - star rows: H Nunki → H Transpluto Dec 38.0028 38 whole (73.59) — also: 2 Dashel Drasher / Rex Dingle
+  - star rows: J Nunki → J Saturn Dec 3.9858 4 whole (8.54) — also: 5 Itchy Feet / Gavin Sheehan
+  - star rows: J Nunki → J Pluto Dec 26.9885 27 whole (17.87) — also: 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore
+  - star rows: J Nunki → J Rahu Dec 20.9883 21 whole (17.37) — also: 3 Master Tommytucker / Harry Cobden
+  - MATCH EXACT: J Kaus Australis → Mercury Dec 53.3992 33×φ golden (76.52)
+#### 3. S Sun → Vindemiatrix RA 110.0253 68×φ golden (93.65) — runners with cells 6/6
+- Moon confirms: none
+- 1 Bristol De Mai / Sam Twiston-Davies
+  - star rows: H Vindemiatrix → H Mercury Dec 0.0549 conj (66.77) — also: 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass
+  - star rows: H Vindemiatrix → H Mars RA 160.9951 161 whole (56.94) — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass
+  - star rows: H Vindemiatrix → H Transpluto Dec 1.0066 1 whole (44.60) — also: 5 Itchy Feet / Gavin Sheehan
+  - star rows: J Vindemiatrix → J Venus Dec 30.7412 19×φ golden (91.15) — also: 7 Two For Gold / David Bass
+  - star rows: J Vindemiatrix → J Sedna RA 152.0150 152 whole (6.23) — also: 7 Two For Gold / David Bass
+  - star rows: J Vindemiatrix → J Makemake RA 22.9910 23 whole (30.28) — also: 3 Master Tommytucker / Harry Cobden
+  - star rows: J Vindemiatrix → J Quaoar RA 40.9890 41 whole (20.13) — also: 6 Lieutenant Rocco / Tom Scudamore
+  - star rows: J Vindemiatrix → J Gonggong RA 133.9974 134 whole (75.37) — only
+  - MATCH EXACT: H Rigel → Makemake RA 110.0502 68×φ golden (6.86)
+  - same number: H Rigel → H Makemake RA 110.0502 68×φ golden (6.86) — also: 6 Lieutenant Rocco / Tom Scudamore
+- 2 Dashel Drasher / Rex Dingle
+  - star rows: H Vindemiatrix → H Mars Dec 0.0994 conj (44.70) — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass
+  - star rows: H Vindemiatrix → H Haumea RA 12.9979 13 whole (79.95) — also: 3 Master Tommytucker / Harry Cobden
+  - star rows: J Vindemiatrix → J Rahu Dec 3.9882 4 whole (16.63) — also: 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
+  - star rows: J Vindemiatrix → J Haumea RA 0.2076 conj (74.24) — also: 3 Master Tommytucker / Harry Cobden
+  - MATCH EXACT: H Wezen → Saturn RA 110.0194 68×φ golden (62.04)
+- 3 Master Tommytucker / Harry Cobden
+  - star rows: H Vindemiatrix → H Mars Dec 16.1847 10×φ^1 phi power (89.60) — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass
+  - star rows: H Vindemiatrix → H Saturn RA 0.7793 conj (23.08) — also: 6 Lieutenant Rocco / Tom Scudamore
+  - star rows: H Vindemiatrix → H Pallas RA 103.0046 103 whole (58.99) — also: 7 Two For Gold / David Bass
+  - star rows: H Vindemiatrix → H Eris Dec 14.9865 15 whole (10.45) — also: 5 Itchy Feet / Gavin Sheehan
+  - star rows: J Vindemiatrix → J Mercury RA 46.9235 29×φ golden (96.86) — also: 1 Bristol De Mai / Sam Twiston-Davies, 7 Two For Gold / David Bass
+  - star rows: J Vindemiatrix → J Haumea RA 0.3508 conj (58.69) — also: 2 Dashel Drasher / Rex Dingle
+  - star rows: J Vindemiatrix → J Makemake Dec 20.9870 21 whole (12.17) — also: 1 Bristol De Mai / Sam Twiston-Davies
+  - MATCH EXACT: H Meissa → Ceres RA 110.0180 68×φ golden (55.10)
+  - MATCH EXACT: H Orion Nebula Cluster → Ceres RA 110.0556 68×φ golden (0.91)
+- 5 Itchy Feet / Gavin Sheehan
+  - star rows: H Vindemiatrix → H Uranus RA 177.9979 178 whole (79.93) — only
+  - star rows: H Vindemiatrix → H Chiron RA 150.4962 93×φ golden (17.06) — only
+  - star rows: H Vindemiatrix → H Eris Dec 13.9924 14 whole (38.57) — also: 3 Master Tommytucker / Harry Cobden
+  - star rows: H Vindemiatrix → H Ketu Dec 0.1503 conj (24.89) — also: 6 Lieutenant Rocco / Tom Scudamore
+  - star rows: J Vindemiatrix → J Juno Dec 0.0340 conj (78.62) — only
+  - star rows: J Vindemiatrix → J Transpluto RA 51.0009 51 whole (91.19) — also: 1 Bristol De Mai / Sam Twiston-Davies
+  - MATCH EXACT: J Markab → Quaoar RA 110.0186 68×φ golden (58.18)
+  - MATCH EXACT: J Jupiter → J body → Rahu RA 110.0526 68×φ golden (3.48)
+- 6 Lieutenant Rocco / Tom Scudamore
+  - star rows: H Vindemiatrix → H Quaoar RA 71.9994 72 whole (94.33) — also: 1 Bristol De Mai / Sam Twiston-Davies
+  - star rows: S Vindemiatrix → J Jupiter Dec 22.0175 22 whole (1.59) — only
+  - star rows: J Vindemiatrix → J Saturn RA 0.5397 conj (40.99) — also: 3 Master Tommytucker / Harry Cobden
+  - star rows: J Vindemiatrix → J Vesta Dec 27.0186 27 whole (0.48) — also: 7 Two For Gold / David Bass
+  - star rows: J Vindemiatrix → J Rahu RA 90.0164 90 whole (3.18) — also: 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass
+  - star rows: J Vindemiatrix → J Ketu RA 89.9836 90 whole (3.18) — also: 5 Itchy Feet / Gavin Sheehan
+  - MATCH EXACT: H Alhena → Chiron RA 110.0264 68×φ golden (99.20)
+  - MATCH EXACT: H Alkes → Sedna RA 110.0351 68×φ golden (52.84)
+  - same number: H Alhena → H Chiron RA 110.0264 68×φ golden (99.20) — also: 1 Bristol De Mai / Sam Twiston-Davies
+- 7 Two For Gold / David Bass
+  - star rows: H Vindemiatrix → H Sun RA 170.9957 171 whole (61.27) — only
+  - star rows: H Vindemiatrix → H Mercury Dec 11.9991 12 whole (91.18) — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden
+  - star rows: H Vindemiatrix → H Venus Dec 0.1241 conj (34.38) — also: 1 Bristol De Mai / Sam Twiston-Davies
+  - star rows: H Vindemiatrix → H Mars Dec 1.0100 1 whole (24.80) — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden
+  - star rows: H Vindemiatrix → H Pallas Dec 16.0060 16 whole (48.81) — also: 3 Master Tommytucker / Harry Cobden
+  - star rows: H Vindemiatrix → H Sedna RA 142.0053 142 whole (53.71) — also: 1 Bristol De Mai / Sam Twiston-Davies
+  - star rows: J Vindemiatrix → J Vesta RA 46.9857 47 whole (8.13) — also: 6 Lieutenant Rocco / Tom Scudamore
+  - star rows: J Vindemiatrix → J Rahu RA 152.0814 94×φ golden (33.09) — also: 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore
+  - MATCH EXACT: J Mirach → Orcus RA 110.0088 110 whole (31.34)
+#### 4. S Sun → Ankaa RA 61.0007 61 whole (92.80) — runners with cells 6/6
+- Moon confirms: S Moon → Ankaa RA 176.9962 177 whole (65.72)
+- 1 Bristol De Mai / Sam Twiston-Davies
+  - star rows: H Ankaa → H Sun RA 50.1503 31×φ golden (53.21) — also: 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
+  - star rows: H Ankaa → H Venus RA 27.0104 27 whole (22.82) — also: 7 Two For Gold / David Bass
+  - star rows: H Ankaa → H Mars RA 27.9844 28 whole (4.77) — only
+  - star rows: H Ankaa → H Uranus Dec 42.9991 43 whole (91.21) — also: 3 Master Tommytucker / Harry Cobden
+  - star rows: H Ankaa → H Ceres RA 12.2284 12.2222 ninth (91.45) — also: 2 Dashel Drasher / Rex Dingle
+  - star rows: J Ankaa → J Juno RA 90.9947 91 whole (54.17) — only
+  - MATCH EXACT: H Alkaid → Neptune Dec 61.0195 61 whole (0.05)
+  - MATCH EXACT: J Al Rescha → Gonggong RA 60.9801 61 whole (0.00)
+- 2 Dashel Drasher / Rex Dingle
+  - star rows: H Ankaa → H Haumea RA 158.0196 158 whole (0.04) — also: 3 Master Tommytucker / Harry Cobden
+  - star rows: H Ankaa → H Transpluto Dec 54.0199 54 whole (0.00) — also: 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
+  - star rows: J Ankaa → J Mercury RA 103.0009 103 whole (90.83) — only
+  - star rows: J Ankaa → J Ceres RA 16.9909 17 whole (29.86) — also: 1 Bristol De Mai / Sam Twiston-Davies
+  - star rows: J Ankaa → J Vesta Dec 43.9924 44 whole (38.48) — also: 7 Two For Gold / David Bass
+  - MATCH EXACT: J Meissa → Eris RA 60.9860 61 whole (8.96)
+- 3 Master Tommytucker / Harry Cobden
+  - star rows: H Ankaa → H Pallas RA 68.0121 68 whole (15.45) — also: 5 Itchy Feet / Gavin Sheehan
+  - star rows: H Ankaa → H Rahu Dec 18.8887 18.8889 ninth (99.85) — also: 7 Two For Gold / David Bass
+  - star rows: H Ankaa → H Sedna Dec 49.0007 49 whole (93.00) — also: 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
+  - star rows: H Ankaa → H Transpluto RA 144.4174 144.444 ninth (97.14) — also: 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
+  - star rows: J Ankaa → J Uranus RA 55.0023 55 whole (78.04) — also: 1 Bristol De Mai / Sam Twiston-Davies
+  - star rows: J Ankaa → J Haumea Dec 63.0106 63 whole (22.09) — also: 2 Dashel Drasher / Rex Dingle
+  - MATCH EXACT: J Deneb → Sun Dec 60.9930 61 whole (42.17)
+- 5 Itchy Feet / Gavin Sheehan
+  - star rows: H Ankaa → H Pluto RA 82.5133 51×φ golden (64.10) — also: 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
+  - star rows: J Ankaa → J Sun RA 85.9987 86 whole (87.77) — also: 1 Bristol De Mai / Sam Twiston-Davies, 7 Two For Gold / David Bass
+  - star rows: J Ankaa → J Saturn Dec 26.0004 26 whole (95.78) — also: 7 Two For Gold / David Bass
+  - star rows: J Ankaa → J Pallas RA 98.9853 99 whole (7.07) — also: 3 Master Tommytucker / Harry Cobden
+  - star rows: J Ankaa → J Sedna RA 36.9964 37 whole (66.86) — also: 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass
+  - star rows: J Ankaa → J Gonggong Dec 23.0187 23 whole (0.41) — also: 6 Lieutenant Rocco / Tom Scudamore
+  - MATCH EXACT: H Algol → Jupiter RA 61.0006 61 whole (93.83)
+  - MATCH EXACT: H Algol → Chiron RA 60.9916 61 whole (33.63)
+- 6 Lieutenant Rocco / Tom Scudamore
+  - star rows: J Ankaa → J Pluto Dec 49.0147 49 whole (7.14) — also: 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
+  - star rows: J Ankaa → J Gonggong Dec 20.0024 20 whole (77.27) — also: 5 Itchy Feet / Gavin Sheehan
+  - star rows: J Ankaa → J Transpluto RA 134.2833 83×φ golden (33.81) — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass
+  - MATCH EXACT: J Alkaid → Quaoar Dec 60.9949 61 whole (55.46)
+- 7 Two For Gold / David Bass
+  - star rows: H Ankaa → H Sun RA 17.9871 18 whole (12.58) — also: 1 Bristol De Mai / Sam Twiston-Davies, 5 Itchy Feet / Gavin Sheehan
+  - star rows: H Ankaa → H Neptune RA 29.9901 30 whole (25.41) — only
+  - star rows: H Ankaa → H Sedna RA 46.9774 φ^8 phi power (98.89) — also: 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan
+  - star rows: H Ankaa → H Transpluto Dec 54.0139 54 whole (9.34) — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore
+  - star rows: J Ankaa → J Venus RA 67.0156 67 whole (4.75) — also: 1 Bristol De Mai / Sam Twiston-Davies
+  - star rows: J Ankaa → J Saturn RA 98.0032 98 whole (70.30) — also: 5 Itchy Feet / Gavin Sheehan
+  - star rows: J Ankaa → J Saturn Dec 19.9907 20 whole (28.70) — also: 5 Itchy Feet / Gavin Sheehan
+  - star rows: J Ankaa → J Pluto Dec 42.9933 43 whole (44.37) — also: 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore
+  - star rows: J Ankaa → J Vesta RA 141.9898 142 whole (23.93) — also: 2 Dashel Drasher / Rex Dingle
+  - star rows: J Ankaa → J Rahu Dec 36.9932 37 whole (43.59) — also: 3 Master Tommytucker / Harry Cobden
+  - MATCH EXACT: J Difda → Pallas RA 60.9959 61 whole (63.34)
+  - MATCH EXACT: J Al Rescha → Gonggong RA 60.9927 61 whole (40.42)
+#### 5. S Sun → Menkar RA 100.0021 100 whole (79.93) — runners with cells 6/6
+- Moon confirms: S Moon → Menkar RA 144.0024 89×φ golden (84.43)
+- 1 Bristol De Mai / Sam Twiston-Davies
+  - star rows: H Menkar → H Venus RA 11.9864 12 whole (10.27) — also: 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass
+  - star rows: H Menkar → H Mars RA 11.0125 11 whole (14.11) — only
+  - star rows: H Menkar → H Gonggong Dec 17.9432 φ^6 phi power (97.68) — also: 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass
+  - star rows: H Menkar → H Transpluto RA 105.1713 65×φ golden (94.70) — only
+  - star rows: S Menkar → J Jupiter RA 135.9015 84×φ golden (34.45) — only
+  - star rows: J Menkar → J Juno RA 51.9970 52 whole (72.36) — also: 5 Itchy Feet / Gavin Sheehan
+  - star rows: J Menkar → J Eris Dec 13.0127 13 whole (13.33) — only
+  - star rows: J Menkar → J Sedna Dec 0.2185 conj (7.37) — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
+  - star rows: J Menkar → J Haumea RA 144.4725 144.444 ninth (97.03) — also: 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass
+- 2 Dashel Drasher / Rex Dingle
+  - star rows: H Menkar → H Sedna Dec 2.9971 3 whole (73.45) — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
+  - star rows: H Menkar → H Haumea RA 162.9814 163 whole (0.51) — also: 1 Bristol De Mai / Sam Twiston-Davies, 7 Two For Gold / David Bass
+  - star rows: H Menkar → H Haumea Dec 14.4484 14.4444 ninth (95.80) — also: 1 Bristol De Mai / Sam Twiston-Davies, 7 Two For Gold / David Bass
+  - star rows: H Menkar → H Ketu RA 1.2472 conj (2.84) — also: 7 Two For Gold / David Bass
+  - star rows: J Menkar → J Mercury RA 142.0040 142 whole (63.74) — also: 7 Two For Gold / David Bass
+  - star rows: J Menkar → J Venus RA 102.9810 103 whole (0.26) — also: 1 Bristol De Mai / Sam Twiston-Davies, 7 Two For Gold / David Bass
+  - star rows: J Menkar → J Ceres RA 55.9940 56 whole (49.15) — only
+  - star rows: J Menkar → J Sedna RA 0.2605 conj (68.28) — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
+  - star rows: J Menkar → J Gonggong Dec 22.0088 22 whole (31.21) — also: 1 Bristol De Mai / Sam Twiston-Davies, 7 Two For Gold / David Bass
+  - MATCH EXACT: J Spica → Neptune RA 99.9824 100 whole (1.41)
+  - same number: J Spica → J Neptune RA 99.9824 100 whole (1.41) — also: 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore
+- 3 Master Tommytucker / Harry Cobden
+  - star rows: H Menkar → H Pallas RA 107.0134 107 whole (10.77) — also: 5 Itchy Feet / Gavin Sheehan
+  - star rows: H Menkar → H Rahu Dec 27.5082 17×φ golden (90.39) — only
+  - star rows: J Menkar → J Uranus RA 94.0011 94 whole (89.54) — also: 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
+  - star rows: J Menkar → J Sedna RA 0.7223 conj (26.88) — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
+  - star rows: J Menkar → J Makemake RA 133.3209 133.333 ninth (98.51) — only
+- 5 Itchy Feet / Gavin Sheehan
+  - star rows: H Menkar → H Uranus RA 32.0192 32 whole (0.15) — also: 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass
+  - star rows: H Menkar → H Uranus Dec 1.0040 1 whole (63.85) — also: 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass
+  - star rows: H Menkar → H Vesta Dec 0.1966 conj (11.89) — also: 7 Two For Gold / David Bass
+  - star rows: J Menkar → J Sun RA 47.0025 47 whole (76.86) — also: 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
+  - star rows: J Menkar → J Pallas RA 137.9816 138 whole (0.63) — also: 3 Master Tommytucker / Harry Cobden
+  - star rows: J Menkar → J Juno RA 1.3879 conj (0.56) — also: 1 Bristol De Mai / Sam Twiston-Davies
+  - star rows: J Menkar → J Sedna RA 1.9999 2 whole (99.18) — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass
+  - MATCH EXACT: H Capella → Neptune RA 100.0161 100 whole (3.86)
+  - MATCH EXACT: H Deneb Algedi → Mercury RA 99.9809 100 whole (0.20)
+  - same number: S Vesta → J Vesta RA 100.0299 100 whole (loose) — also: 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore
+- 6 Lieutenant Rocco / Tom Scudamore
+  - star rows: H Menkar → H Sun RA 0.6571 conj (31.58) — also: 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
+  - star rows: H Menkar → H Quaoar RA 138.0175 138 whole (1.53) — only
+  - MATCH EXACT: H Mirfak → Ceres RA 100.0078 100 whole (37.51)
+  - MATCH EXACT: J El Nath → Mars RA 100.0187 100 whole (0.40)
+  - same number: J El Nath → J Mars RA 100.0187 100 whole (0.40) — also: 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan
+- 7 Two For Gold / David Bass
+  - star rows: H Menkar → H Sun RA 21.0122 21 whole (15.37) — also: 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore
+  - star rows: H Menkar → H Mercury RA 41.4217 41.4 silver (99.71) — also: 2 Dashel Drasher / Rex Dingle
+  - star rows: H Menkar → H Venus Dec 6.9940 7 whole (49.07) — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle
+  - star rows: H Menkar → H Saturn Dec 16.0148 16 whole (6.69) — only
+  - star rows: H Menkar → H Uranus Dec 1.0018 1 whole (82.40) — also: 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan
+  - star rows: H Menkar → H Neptune RA 68.9893 69 whole (21.79) — only
+  - star rows: H Menkar → H Sedna Dec 2.9821 3 whole (1.09) — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan
+  - star rows: H Menkar → H Ketu RA 1.2474 conj (2.84) — also: 2 Dashel Drasher / Rex Dingle
+  - star rows: J Menkar → J Venus RA 28.0194 28 whole (0.11) — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle
+  - star rows: J Menkar → J Saturn RA 136.9995 137 whole (95.25) — only
+  - star rows: J Menkar → J Vesta RA 102.9935 103 whole (45.53) — also: 5 Itchy Feet / Gavin Sheehan
+  - star rows: J Menkar → J Sedna Dec 0.0381 conj (76.20) — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan
+  - star rows: J Menkar → J Haumea RA 139.1290 86×φ golden (10.49) — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle
+  - star rows: J Menkar → J Gonggong RA 76.0497 47×φ golden (87.29) — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle
+#### 6. S Jupiter → Spica RA 135.9064 84×φ golden (54.47) — runners with cells 6/6
+- Moon confirms: none
+- 1 Bristol De Mai / Sam Twiston-Davies
+  - star rows: H Spica → H Venus Dec 22.9934 23 whole (45.08) — only
+  - star rows: H Spica → H Pluto RA 76.0010 76 whole (89.78) — only
+  - star rows: H Spica → H Eris RA 175.9952 176 whole (57.59) — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore
+  - star rows: J Spica → J Sun RA 0.5040 conj (44.09) — only
+  - star rows: J Spica → J Ceres RA 101.9858 102 whole (8.37) — also: 5 Itchy Feet / Gavin Sheehan
+  - star rows: J Spica → J Haumea Dec 33.0127 33 whole (13.30) — also: 3 Master Tommytucker / Harry Cobden
+  - same number: S Menkar → J Jupiter RA 135.9015 84×φ golden (34.45) — only
+- 2 Dashel Drasher / Rex Dingle
+  - star rows: H Spica → H Mars Dec 22.2205 22.2222 ninth (97.68) — also: 5 Itchy Feet / Gavin Sheehan
+  - star rows: H Spica → H Vesta Dec 35.0148 35 whole (6.70) — also: 5 Itchy Feet / Gavin Sheehan, 7 Two For Gold / David Bass
+  - star rows: H Spica → H Rahu RA 23.0142 23 whole (8.56) — also: 7 Two For Gold / David Bass
+  - star rows: H Spica → H Eris RA 176.0184 176 whole (0.63) — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore
+  - star rows: H Spica → H Ketu RA 156.9858 157 whole (8.56) — also: 7 Two For Gold / David Bass
+  - star rows: H Spica → H Ketu Dec 28.0134 28 whole (10.90) — also: 7 Two For Gold / David Bass
+  - star rows: J Spica → J Mars Dec 5.9903 6 whole (26.53) — also: 5 Itchy Feet / Gavin Sheehan
+  - star rows: J Spica → J Neptune RA 99.9824 100 whole (1.41) — also: 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
+  - star rows: J Spica → J Pallas Dec 10.0149 10 whole (6.50) — also: 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan
+  - star rows: J Spica → J Sedna RA 155.9855 156 whole (7.45) — also: 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore
+  - MATCH EXACT: H Deneb Algedi → Makemake RA 135.9383 84×φ golden (7.58)
+- 3 Master Tommytucker / Harry Cobden
+  - star rows: H Spica → H Neptune Dec 1.0062 1 whole (47.87) — also: 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
+  - star rows: H Spica → H Chiron RA 131.0786 81×φ golden (20.09) — also: 7 Two For Gold / David Bass
+  - star rows: H Spica → H Haumea Dec 29.9826 30 whole (1.65) — also: 1 Bristol De Mai / Sam Twiston-Davies
+  - star rows: H Spica → H Quaoar Dec 4.4442 4.44444 ninth (97.54) — only
+  - star rows: J Spica → J Pallas Dec 1.0161 1 whole (3.84) — also: 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan
+  - star rows: J Spica → J Juno Dec 3.9861 4 whole (9.34) — also: 7 Two For Gold / David Bass
+  - star rows: J Spica → J Eris RA 178.0088 178 whole (31.61) — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore
+  - star rows: J Spica → J Sedna RA 154.9956 155 whole (60.85) — also: 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore
+  - MATCH EXACT: J Antares → Eris RA 135.9382 84×φ golden (7.73)
+- 5 Itchy Feet / Gavin Sheehan
+  - star rows: H Spica → H Mercury Dec 35.0170 35 whole (2.29) — only
+  - star rows: H Spica → H Ceres RA 1.4822 conj (0.01) — also: 1 Bristol De Mai / Sam Twiston-Davies
+  - star rows: H Spica → H Pallas Dec 24.2727 15×φ golden (86.63) — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden
+  - star rows: H Spica → H Vesta RA 1.0576 conj (8.70) — also: 2 Dashel Drasher / Rex Dingle, 7 Two For Gold / David Bass
+  - star rows: H Spica → H Makemake Dec 37.9805 38 whole (0.05) — only
+  - star rows: J Spica → J Mercury Dec 34.0004 34 whole (95.61) — only
+  - star rows: J Spica → J Mars RA 166.6542 166.667 ninth (98.93) — also: 2 Dashel Drasher / Rex Dingle
+- 6 Lieutenant Rocco / Tom Scudamore
+  - star rows: H Spica → H Transpluto Dec 22.6573 14×φ golden (72.16) — only
+  - star rows: S Spica → J Jupiter Dec 0.1012 conj (43.91) — also: 7 Two For Gold / David Bass
+  - star rows: J Spica → J Neptune RA 65.0119 65 whole (16.43) — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass
+  - star rows: J Spica → J Eris Dec 0.0893 conj (49.32) — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden
+  - star rows: J Spica → J Sedna Dec 14.4440 14.4444 ninth (99.55) — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden
+  - star rows: J Spica → J Orcus Dec 19.4136 12×φ golden (83.40) — only
+- 7 Two For Gold / David Bass
+  - star rows: S Spica → H Jupiter Dec 33.3396 33.3333 ninth (92.43) — also: 6 Lieutenant Rocco / Tom Scudamore
+  - star rows: H Spica → H Juno Dec 4.0165 4 whole (3.12) — also: 3 Master Tommytucker / Harry Cobden
+  - star rows: H Spica → H Vesta RA 114.8848 71×φ golden (74.80) — also: 2 Dashel Drasher / Rex Dingle, 5 Itchy Feet / Gavin Sheehan
+  - star rows: H Spica → H Rahu RA 23.0140 23 whole (8.90) — also: 2 Dashel Drasher / Rex Dingle
+  - star rows: H Spica → H Ketu RA 156.9860 157 whole (8.90) — also: 2 Dashel Drasher / Rex Dingle
+  - star rows: H Spica → H Ketu Dec 28.0134 28 whole (10.97) — also: 2 Dashel Drasher / Rex Dingle
+  - star rows: J Spica → J Neptune Dec 10.9832 11 whole (2.58) — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore
+  - star rows: J Spica → J Chiron Dec 28.9883 29 whole (17.32) — also: 3 Master Tommytucker / Harry Cobden
+#### 7. S Sun → Denebola Dec 33.9942 34 whole (50.13) — runners with cells 6/6
+- Moon confirms: none
+- 1 Bristol De Mai / Sam Twiston-Davies
+  - star rows: H Denebola → H Mars Dec 1.3337 1.33333 ninth (95.50) — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden
+  - star rows: H Denebola → H Quaoar Dec 29.9906 30 whole (28.10) — only
+  - star rows: J Denebola → J Ceres RA 126.0176 126 whole (1.40) — also: 2 Dashel Drasher / Rex Dingle
+  - MATCH EXACT: J Ras Algethi → Gonggong Dec 33.9846 34 whole (5.31)
+- 2 Dashel Drasher / Rex Dingle
+  - star rows: H Denebola → H Sun RA 148.9951 149 whole (57.00) — only
+  - star rows: H Denebola → H Neptune Dec 24.9879 25 whole (15.56) — also: 5 Itchy Feet / Gavin Sheehan
+  - star rows: H Denebola → H Eris RA 151.9825 152 whole (1.60) — also: 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
+  - star rows: J Denebola → J Jupiter RA 149.0072 149 whole (41.04) — also: 6 Lieutenant Rocco / Tom Scudamore
+  - star rows: J Denebola → J Sun RA 111.1754 111.111 ninth (89.47) — only
+  - star rows: J Denebola → J Mars RA 141.4612 141.4 sqrt2 (89.05) — also: 1 Bristol De Mai / Sam Twiston-Davies, 3 Master Tommytucker / Harry Cobden
+  - star rows: J Denebola → J Saturn RA 163.4125 101×φ golden (52.24) — only
+  - star rows: J Denebola → J Neptune RA 124.0130 124 whole (12.21) — also: 5 Itchy Feet / Gavin Sheehan
+  - star rows: J Denebola → J Chiron Dec 30.0117 30 whole (17.29) — only
+  - star rows: J Denebola → J Ceres Dec 29.0077 29 whole (37.92) — also: 1 Bristol De Mai / Sam Twiston-Davies
+  - star rows: J Denebola → J Makemake RA 1.1219 conj (6.35) — also: 6 Lieutenant Rocco / Tom Scudamore
+  - star rows: J Denebola → J Orcus RA 40.4586 25×φ golden (57.85) — also: 7 Two For Gold / David Bass
+  - star rows: J Denebola → J Gonggong RA 153.7157 95×φ golden (85.30) — also: 3 Master Tommytucker / Harry Cobden
+  - star rows: J Denebola → J Transpluto RA 29.9902 30 whole (25.88) — also: 7 Two For Gold / David Bass
+  - MATCH EXACT: J Arcturus → Quaoar Dec 33.9986 34 whole (86.16)
+  - MATCH EXACT: J Algol → Rahu Dec 33.9891 34 whole (20.61)
+- 3 Master Tommytucker / Harry Cobden
+  - star rows: H Denebola → H Mars RA 173.1190 107×φ golden (44.96) — also: 1 Bristol De Mai / Sam Twiston-Davies, 2 Dashel Drasher / Rex Dingle
+  - star rows: H Denebola → H Pluto RA 100.3472 62×φ golden (1.02) — also: 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore
+  - star rows: H Denebola → H Vesta RA 118.1280 73×φ golden (41.57) — also: 5 Itchy Feet / Gavin Sheehan, 6 Lieutenant Rocco / Tom Scudamore
+  - star rows: H Denebola → H Rahu Dec 37.9902 38 whole (25.91) — also: 5 Itchy Feet / Gavin Sheehan
+  - star rows: J Denebola → J Venus RA 44.9802 45 whole (0.01) — also: 5 Itchy Feet / Gavin Sheehan
+  - star rows: J Denebola → J Eris Dec 22.0101 22 whole (24.49) — also: 2 Dashel Drasher / Rex Dingle, 6 Lieutenant Rocco / Tom Scudamore, 7 Two For Gold / David Bass
+  - star rows: J Denebola → J Gonggong RA 153.7315 95×φ golden (18.88) — also: 2 Dashel Drasher / Rex Dingle
+  - MATCH EXACT: H Alphecca → Rahu RA 34.0038 34 whole (65.45)
+  - MATCH EXACT: S Jupiter → H body → Ketu Dec 34.0044 34 whole (60.61)
+  - MATCH EXACT: H Praesepe → Gonggong Dec 33.9895 34 whole (22.55)
+  - MATCH EXACT: H Adhara → Juno Dec 34.0155 34 whole (5.15)
+  - MATCH EXACT: J Pollux → Jupiter Dec 34.0005 34 whole (95.30)
+  - MATCH EXACT: J Galactic Centre → Sedna Dec 34.0171 34 whole (2.10)
+  - same number: S Jupiter → H Ketu Dec 34.0044 34 whole (60.61) — also: 5 Itchy Feet / Gavin Sheehan
+- 5 Itchy Feet / Gavin Sheehan
+  - star rows: H Denebola → H Venus Dec 12.0008 12 whole (92.36) — also: 3 Master Tommytucker / Harry Cobden
+  - star rows: H Denebola → H Neptune RA 161.8837 100×φ^1 phi power (81.13) — also: 2 Dashel Drasher / Rex Dingle
+  - star rows: H Denebola → H Pluto RA 106.7881 66×φ golden (87.08) — also: 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore
+  - star rows: J Denebola → J Uranus RA 110.9064 10×φ^5 phi power (98.30) — only
+  - star rows: J Denebola → J Vesta RA 0.5506 conj (40.06) — also: 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore
+  - star rows: J Denebola → J Rahu Dec 38.0118 38 whole (16.95) — also: 3 Master Tommytucker / Harry Cobden
+  - MATCH EXACT: J Spica → Mercury Dec 34.0004 34 whole (95.61)
+  - MATCH EXACT: S Jupiter → J body → Sun Dec 34.0020 34 whole (80.86)
+  - same number: S Jupiter → J Sun Dec 34.0020 34 whole (80.86) — also: 3 Master Tommytucker / Harry Cobden
+  - same number: J Spica → J Mercury Dec 34.0004 34 whole (95.61) — also: 3 Master Tommytucker / Harry Cobden
+- 6 Lieutenant Rocco / Tom Scudamore
+  - star rows: H Denebola → H Jupiter Dec 3.0102 3 whole (24.06) — also: 2 Dashel Drasher / Rex Dingle
+  - star rows: H Denebola → H Mercury RA 111.1198 111.111 ninth (98.58) — also: 7 Two For Gold / David Bass
+  - star rows: H Denebola → H Pluto RA 109.0026 109 whole (76.10) — also: 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan
+  - star rows: H Denebola → H Vesta Dec 23.0051 23 whole (55.22) — also: 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan
+  - star rows: H Denebola → H Makemake RA 14.9912 15 whole (31.22) — also: 2 Dashel Drasher / Rex Dingle
+  - star rows: J Denebola → J Pallas Dec 7.9978 8 whole (78.78) — only
+  - star rows: J Denebola → J Vesta RA 146.0030 146 whole (72.34) — also: 3 Master Tommytucker / Harry Cobden, 5 Itchy Feet / Gavin Sheehan
+  - star rows: J Denebola → J Eris RA 155.5540 155.556 ninth (99.85) — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 7 Two For Gold / David Bass
+  - MATCH EXACT: H Difda → Sun RA 34.0134 34 whole (10.99)
+  - MATCH EXACT: H Alkaid → Saturn RA 33.9802 34 whole (0.01)
+  - MATCH EXACT: J Alkaid → Transpluto Dec 34.0044 34 whole (60.89)
+- 7 Two For Gold / David Bass
+  - star rows: H Denebola → H Mercury RA 173.1245 107×φ golden (70.67) — also: 6 Lieutenant Rocco / Tom Scudamore
+  - star rows: H Denebola → H Orcus Dec 22.0012 22 whole (88.80) — also: 2 Dashel Drasher / Rex Dingle
+  - star rows: J Denebola → J Juno Dec 0.0282 conj (82.07) — only
+  - star rows: J Denebola → J Eris Dec 24.1468 24.14 silver (92.47) — also: 2 Dashel Drasher / Rex Dingle, 3 Master Tommytucker / Harry Cobden, 6 Lieutenant Rocco / Tom Scudamore
+  - star rows: J Denebola → J Transpluto Dec 0.0215 conj (86.15) — also: 2 Dashel Drasher / Rex Dingle
+  - MATCH EXACT: J Acubens → Neptune Dec 34.0039 34 whole (64.46)
+  - MATCH EXACT: J Mirfak → Juno RA 33.9856 34 whole (7.89)
+### READ 3 Jupiter / Sun lines to bodies (not followed)
+- S Jupiter → Transpluto RA 177.7848 177.778 ninth (99.45)
+- S Sun → Rahu RA 111.1604 111.111 ninth (91.93)
+- S Sun → Moon RA 115.9955 116 whole (59.91)
+- S Jupiter → Gonggong RA 0.7553 conj (24.65)
+### READ 4 Moon only, not active (confirm no lead line; not followed)
+- S Moon → Transpluto Dec 11.1107 11.1111 ninth (99.38)
+- S Moon → Sadalsuud RA 133.3109 133.333 ninth (97.31)
+- S Moon → Sirius Dec 15.9996 16 whole (96.36)
+- S Moon → Rigel RA 110.9350 10×φ^5 phi power (88.35)
+- S Moon → El Nath RA 107.9956 108 whole (60.79)
+- S Moon → Sun RA 115.9955 116 whole (59.91)
+
 ## 1 Bristol De Mai / Sam Twiston-Davies
 ### L1 same bodies
 - S Sun → H Sun RA 111.1488 111.111 ninth (93.82)

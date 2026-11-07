@@ -9610,6 +9610,1383 @@
    }
   }
  },
+ "read": {
+  "same_body": {
+   "P01": [
+    "S Sun → H Sun RA 41.0001 41 whole (98.76)",
+    "S Neptune → H Neptune RA 12.9927 13 whole (40.63)",
+    "S Ceres → H Ceres Dec 42.3580 10×φ^3 phi power (loose)",
+    "S Pallas → H Pallas Dec 18.9936 19 whole (46.09)",
+    "S Juno → H Juno RA 165.8384 166.667 ninth (loose)",
+    "S Orcus → H Orcus Dec 3.3377 3.33333 ninth (loose)",
+    "S Uranus → J Uranus RA 96.0273 96 whole (loose)",
+    "S Pluto → J Pluto RA 56.9942 57 whole (50.20)",
+    "S Ceres → J Ceres Dec 12.9526 8×φ golden (loose)",
+    "S Rahu → J Rahu RA 155.5123 155.556 ninth (95.90)",
+    "S Eris → J Eris RA 2.9900 3 whole (24.89)",
+    "S Ketu → J Ketu RA 155.5123 155.556 ninth (95.90)"
+   ],
+   "P03": [
+    "S Mercury → H Mercury RA 43.9935 44 whole (45.66)",
+    "S Venus → H Venus RA 90.6171 56×φ golden (loose)",
+    "S Mars → H Mars RA 122.2151 122.222 ninth (99.02)",
+    "S Mars → H Mars Dec 30.7716 19×φ golden (loose)",
+    "S Pluto → H Pluto RA 16.1251 10×φ^1 phi power (loose)",
+    "S Pluto → H Pluto Dec 2.9955 3 whole (59.78)",
+    "S Juno → H Juno RA 17.0110 17 whole (20.43)",
+    "S Rahu → H Rahu RA 166.3247 166.667 ninth (loose)",
+    "S Ketu → H Ketu RA 166.3247 166.667 ninth (loose)",
+    "S Sun → J Sun RA 154.9522 155.556 ninth (loose)",
+    "S Mercury → J Mercury RA 164.0185 164 whole (0.58)",
+    "S Venus → J Venus RA 179.9316 10×φ^6 phi power (loose)",
+    "S Neptune → J Neptune RA 87.3456 54×φ golden (loose)",
+    "S Pallas → J Pallas Dec 27.4872 17×φ golden (loose)",
+    "S Haumea → J Haumea RA 38.0078 38 whole (36.94)",
+    "S Quaoar → J Quaoar Dec 3.9764 4 whole (loose)",
+    "S Gonggong → J Gonggong Dec 11.0571 φ^5 phi power (loose)"
+   ],
+   "P05": [
+    "S Venus → H Venus Dec 17.9315 φ^6 phi power (loose)",
+    "S Jupiter → H Jupiter RA 167.9732 168 whole (loose)",
+    "S Chiron → H Chiron Dec 4.4454 4.44444 ninth (loose)",
+    "S Juno → H Juno RA 67.9551 42×φ golden (86.15)",
+    "S Vesta → H Vesta RA 134.2708 83×φ golden (3.86)",
+    "S Vesta → H Vesta Dec 33.3174 33.3333 ninth (loose)",
+    "S Transpluto → H Transpluto Dec 0.9931 1 whole (42.94)",
+    "S Mars → J Mars RA 133.1800 133.333 ninth (loose)",
+    "S Jupiter → J Jupiter RA 61.7627 100×φ^-1 phi power (loose)",
+    "S Vesta → J Vesta Dec 1.9911 2 whole (30.78)",
+    "S Orcus → J Orcus Dec 10.9760 11 whole (loose)"
+   ],
+   "P07": [
+    "S Mars → H Mars RA 21.0567 13×φ golden (loose)",
+    "S Jupiter → H Jupiter RA 104.0046 104 whole (58.94)",
+    "S Chiron → H Chiron Dec 2.6067 φ^2 phi power (loose)",
+    "S Ceres → H Ceres Dec 13.0298 13 whole (loose)",
+    "S Rahu → H Rahu Dec 3.3375 3.33333 ninth (loose)",
+    "S Sedna → H Sedna RA 2.2255 2.22222 ninth (loose)",
+    "S Haumea → H Haumea Dec 1.9989 2 whole (89.62)",
+    "S Orcus → H Orcus Dec 2.2285 2.22222 ninth (loose)",
+    "S Quaoar → H Quaoar RA 3.9931 4 whole (42.84)",
+    "S Ketu → H Ketu Dec 3.3375 3.33333 ninth (loose)",
+    "S Venus → J Venus Dec 16.6707 16.6667 ninth (loose)",
+    "S Mars → J Mars RA 87.3541 54×φ golden (loose)",
+    "S Uranus → J Uranus Dec 38.0226 38 whole (loose)",
+    "S Ceres → J Ceres RA 149.9749 150 whole (loose)",
+    "S Sedna → J Sedna Dec 4.2271 φ^3 phi power (loose)",
+    "S Orcus → J Orcus RA 29.1000 φ^7 phi power (loose)",
+    "S Quaoar → J Quaoar RA 45.9795 46 whole (loose)"
+   ],
+   "P09": [
+    "S Mercury → H Mercury Dec 21.9959 22 whole (63.10)",
+    "S Venus → H Venus RA 110.3759 10×φ^5 phi power (loose)",
+    "S Saturn → H Saturn RA 35.5763 22×φ golden (loose)",
+    "S Uranus → H Uranus RA 12.2940 12.2222 ninth (loose)",
+    "S Ceres → H Ceres RA 76.0566 φ^9 phi power (loose)",
+    "S Ceres → H Ceres Dec 12.2610 12.2222 ninth (loose)",
+    "S Quaoar → H Quaoar RA 4.0078 4 whole (37.51)",
+    "S Transpluto → H Transpluto RA 2.0022 2 whole (78.84)",
+    "S Sun → J Sun RA 155.0267 155 whole (loose)",
+    "S Pluto → J Pluto RA 61.8821 100×φ^-1 phi power (loose)",
+    "S Juno → J Juno Dec 13.2693 13.3333 ninth (loose)",
+    "S Rahu → J Rahu RA 169.9115 105×φ golden (loose)",
+    "S Eris → J Eris Dec 6.6584 6.66667 ninth (loose)",
+    "S Sedna → J Sedna Dec 3.2388 2×φ golden (loose)",
+    "S Orcus → J Orcus Dec 14.0982 14.14 sqrt2 (loose)",
+    "S Ketu → J Ketu RA 169.9115 105×φ golden (loose)"
+   ]
+  },
+  "lead": [
+   {
+    "line": "S Sun → Menkent RA 77.7779 77.7778 ninth (99.92)",
+    "centre": "Sun",
+    "point": "Menkent",
+    "plane": "RA",
+    "moon": [],
+    "runners_with_cells": "5/5",
+    "per_runner": [
+     {
+      "runner": "P01",
+      "name": "1 Protected Guest / Jane Elliott",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Menkent → H Rahu RA 22.0086 22 whole (32.56)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Menkent → H Haumea RA 0.4888 conj (45.44)",
+        "field": "also: 3 Creationist / Connor Murtagh"
+       },
+       {
+        "part": "star rows",
+        "text": "H Menkent → H Orcus RA 60.9927 61 whole (40.52)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Menkent → H Ketu RA 157.9914 158 whole (32.56)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Menkent → J Mercury RA 141.4173 141.4 sqrt2 (98.85)",
+        "field": "also: 2 Supakalanistic / Liam Keniry"
+       },
+       {
+        "part": "star rows",
+        "text": "J Menkent → J Vesta RA 120.0033 120 whole (69.71)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Menkent → J Transpluto Dec 50.1521 31×φ golden (61.44)",
+        "field": "also: 4 Trevolli / Kieran O'Neill"
+       }
+      ]
+     },
+     {
+      "runner": "P03",
+      "name": "2 Supakalanistic / Liam Keniry",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Menkent → H Mercury RA 141.9892 142 whole (21.28)",
+        "field": "also: 1 Protected Guest / Jane Elliott"
+       },
+       {
+        "part": "star rows",
+        "text": "H Menkent → H Mars Dec 44.0159 44 whole (4.17)",
+        "field": "also: 3 Creationist / Connor Murtagh"
+       },
+       {
+        "part": "star rows",
+        "text": "H Menkent → H Chiron RA 129.4238 80×φ golden (17.15)",
+        "field": "also: 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes"
+       },
+       {
+        "part": "star rows",
+        "text": "S Menkent → J Jupiter RA 0.7660 conj (23.94)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Menkent → J Uranus Dec 16.1826 10×φ^1 phi power (94.37)",
+        "field": "also: 5 Eleven Eleven / Joey Haynes"
+       }
+      ]
+     },
+     {
+      "runner": "P05",
+      "name": "3 Creationist / Connor Murtagh",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Menkent → H Mars RA 35.0042 35 whole (62.69)",
+        "field": "also: 2 Supakalanistic / Liam Keniry"
+       },
+       {
+        "part": "star rows",
+        "text": "H Menkent → H Pallas Dec 44.4424 44.4444 ninth (97.81)",
+        "field": "also: 5 Eleven Eleven / Joey Haynes"
+       },
+       {
+        "part": "star rows",
+        "text": "H Menkent → H Haumea RA 0.1943 conj (75.77)",
+        "field": "also: 1 Protected Guest / Jane Elliott"
+       },
+       {
+        "part": "star rows",
+        "text": "H Menkent → H Haumea Dec 53.9995 54 whole (95.38)",
+        "field": "also: 1 Protected Guest / Jane Elliott"
+       }
+      ]
+     },
+     {
+      "runner": "P07",
+      "name": "4 Trevolli / Kieran O'Neill",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "J Menkent → J Chiron RA 122.9112 φ^10 phi power (75.49)",
+        "field": "also: 2 Supakalanistic / Liam Keniry, 5 Eleven Eleven / Joey Haynes"
+       },
+       {
+        "part": "star rows",
+        "text": "J Menkent → J Ceres Dec 8.0025 8 whole (76.66)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Menkent → J Makemake RA 44.9899 45 whole (24.47)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Menkent → J Transpluto RA 67.9505 42×φ golden (61.62)",
+        "field": "also: 1 Protected Guest / Jane Elliott"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Acumen → Neptune RA 77.7796 77.7778 ninth (98.59)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P09",
+      "name": "5 Eleven Eleven / Joey Haynes",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Menkent → H Gonggong Dec 24.2788 15×φ golden (55.44)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Menkent → J Uranus RA 84.0118 84 whole (17.00)",
+        "field": "also: 2 Supakalanistic / Liam Keniry"
+       },
+       {
+        "part": "star rows",
+        "text": "J Menkent → J Chiron RA 51.7714 32×φ golden (68.13)",
+        "field": "also: 2 Supakalanistic / Liam Keniry, 4 Trevolli / Kieran O'Neill"
+       },
+       {
+        "part": "star rows",
+        "text": "J Menkent → J Pallas Dec 34.0130 34 whole (12.30)",
+        "field": "also: 3 Creationist / Connor Murtagh"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "line": "S Sun → Sadalsuud Dec 16.6637 16.6667 ninth (97.48)",
+    "centre": "Sun",
+    "point": "Sadalsuud",
+    "plane": "Dec",
+    "moon": [],
+    "runners_with_cells": "5/5",
+    "per_runner": [
+     {
+      "runner": "P01",
+      "name": "1 Protected Guest / Jane Elliott",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Sadalsuud → H Mercury RA 17.9851 18 whole (6.48)",
+        "field": "also: 2 Supakalanistic / Liam Keniry"
+       },
+       {
+        "part": "star rows",
+        "text": "H Sadalsuud → H Pluto Dec 14.9844 15 whole (4.85)",
+        "field": "also: 5 Eleven Eleven / Joey Haynes"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalsuud → J Mercury Dec 0.0955 conj (46.47)",
+        "field": "also: 2 Supakalanistic / Liam Keniry"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Ras Algethi → Ceres Dec 16.6611 16.6667 ninth (95.20)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P03",
+      "name": "2 Supakalanistic / Liam Keniry",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Sadalsuud → H Mercury Dec 0.2669 conj (1.22)",
+        "field": "also: 1 Protected Guest / Jane Elliott"
+       },
+       {
+        "part": "star rows",
+        "text": "H Sadalsuud → H Pallas Dec 0.2878 conj (0.17)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Sadalsuud → H Vesta Dec 29.0022 29 whole (79.54)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Sadalsuud → H Quaoar Dec 9.9871 10 whole (12.75)",
+        "field": "also: 4 Trevolli / Kieran O'Neill"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalsuud → J Jupiter RA 111.9961 112 whole (64.59)",
+        "field": "also: 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalsuud → J Vesta RA 1.0472 conj (9.11)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalsuud → J Vesta Dec 15.9972 16 whole (74.13)",
+        "field": "only"
+       },
+       {
+        "part": "natal Jupiter → star",
+        "text": "J Jupiter → J star Sadalsuud RA 111.9961 112 whole (64.59)",
+        "field": "also: 5 Eleven Eleven / Joey Haynes"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Vega → Venus Dec 16.6672 16.6667 ninth (99.52)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "S body → J Jupiter → Chiron Dec 16.6613 16.6667 ninth (95.42)",
+        "field": ""
+       },
+       {
+        "part": "same number",
+        "text": "S Moon → H Pluto Dec 16.6652 16.6667 ninth (98.77)",
+        "field": "also: 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes"
+       },
+       {
+        "part": "same number",
+        "text": "S Chiron → J Jupiter Dec 16.6613 16.6667 ninth (95.42)",
+        "field": "also: 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes"
+       }
+      ]
+     },
+     {
+      "runner": "P05",
+      "name": "3 Creationist / Connor Murtagh",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Sadalsuud → H Uranus RA 56.0050 56 whole (56.00)",
+        "field": "also: 4 Trevolli / Kieran O'Neill"
+       },
+       {
+        "part": "star rows",
+        "text": "H Sadalsuud → H Sedna Dec 13.0191 13 whole (0.22)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Sadalsuud → H Ketu RA 29.1263 18×φ golden (89.78)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalsuud → J Jupiter RA 73.0082 73 whole (34.87)",
+        "field": "also: 2 Supakalanistic / Liam Keniry, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalsuud → J Sun Dec 8.0064 8 whole (46.22)",
+        "field": "also: 5 Eleven Eleven / Joey Haynes"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalsuud → J Uranus RA 0.8245 conj (20.28)",
+        "field": "also: 4 Trevolli / Kieran O'Neill"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Castor → Mercury Dec 16.6652 16.6667 ninth (98.78)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Sadalmelik → Gonggong Dec 16.6628 16.6667 ninth (96.72)",
+        "field": ""
+       },
+       {
+        "part": "same number",
+        "text": "J Sadalmelik → J Gonggong Dec 16.6628 16.6667 ninth (96.72)",
+        "field": "also: 2 Supakalanistic / Liam Keniry, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes"
+       }
+      ]
+     },
+     {
+      "runner": "P07",
+      "name": "4 Trevolli / Kieran O'Neill",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Sadalsuud → H Mars Dec 17.9834 18 whole (2.84)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Sadalsuud → H Uranus Dec 15.5578 15.5556 ninth (97.85)",
+        "field": "also: 3 Creationist / Connor Murtagh"
+       },
+       {
+        "part": "star rows",
+        "text": "H Sadalsuud → H Quaoar RA 51.0116 51 whole (17.75)",
+        "field": "also: 2 Supakalanistic / Liam Keniry"
+       },
+       {
+        "part": "star rows",
+        "text": "S Sadalsuud → J Jupiter Dec 14.9841 15 whole (4.24)",
+        "field": "also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalsuud → J Mars Dec 11.1193 11.1111 ninth (86.60)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalsuud → J Quaoar RA 93.0056 93 whole (51.76)",
+        "field": "also: 2 Supakalanistic / Liam Keniry"
+       },
+       {
+        "part": "same number",
+        "text": "S Venus → J Venus Dec 16.6707 16.6667 ninth (loose)",
+        "field": "also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes"
+       }
+      ]
+     },
+     {
+      "runner": "P09",
+      "name": "5 Eleven Eleven / Joey Haynes",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "S Sadalsuud → J Jupiter RA 108.4064 67×φ golden (88.96)",
+        "field": "also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalsuud → J Sun RA 171.5210 106×φ golden (50.38)",
+        "field": "also: 3 Creationist / Connor Murtagh"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalsuud → J Pluto Dec 0.0413 conj (74.37)",
+        "field": "also: 1 Protected Guest / Jane Elliott"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalsuud → J Chiron RA 162.9958 163 whole (62.06)",
+        "field": "only"
+       },
+       {
+        "part": "natal Jupiter → star",
+        "text": "J Jupiter → J star Sadalsuud RA 108.4161 67×φ golden (57.36)",
+        "field": "also: 2 Supakalanistic / Liam Keniry"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Sadalmelik → Ketu RA 16.6672 16.6667 ninth (99.55)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Algol → Ceres Dec 16.6624 16.6667 ninth (96.30)",
+        "field": ""
+       },
+       {
+        "part": "same number",
+        "text": "H Sadalmelik → H Ketu RA 16.6672 16.6667 ninth (99.55)",
+        "field": "also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "line": "S Sun → Sadalmelik RA 41.9994 42 whole (94.18)",
+    "centre": "Sun",
+    "point": "Sadalmelik",
+    "plane": "RA",
+    "moon": [],
+    "runners_with_cells": "5/5",
+    "per_runner": [
+     {
+      "runner": "P01",
+      "name": "1 Protected Guest / Jane Elliott",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Sadalmelik → H Sun RA 0.9979 1 whole (80.30)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Sadalmelik → H Uranus RA 41.4212 41.4 silver (99.83)",
+        "field": "also: 2 Supakalanistic / Liam Keniry, 4 Trevolli / Kieran O'Neill"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalmelik → J Venus RA 1.2611 conj (2.54)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalmelik → J Ceres RA 161.8734 100×φ^1 phi power (83.43)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalmelik → J Quaoar Dec 13.9989 14 whole (89.07)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalmelik → J Gonggong RA 0.2838 conj (65.74)",
+        "field": "also: 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Alkaid → Pallas Dec 42.0069 42 whole (42.80)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Alpheratz → Sedna RA 41.9870 42 whole (12.10)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P03",
+      "name": "2 Supakalanistic / Liam Keniry",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Sadalmelik → H Mercury RA 22.2212 22.2222 ninth (98.63)",
+        "field": "also: 5 Eleven Eleven / Joey Haynes"
+       },
+       {
+        "part": "star rows",
+        "text": "H Sadalmelik → H Mercury Dec 4.9840 5 whole (3.99)",
+        "field": "also: 5 Eleven Eleven / Joey Haynes"
+       },
+       {
+        "part": "star rows",
+        "text": "H Sadalmelik → H Uranus RA 36.9931 37 whole (42.71)",
+        "field": "also: 1 Protected Guest / Jane Elliott, 4 Trevolli / Kieran O'Neill"
+       },
+       {
+        "part": "star rows",
+        "text": "H Sadalmelik → H Sedna RA 82.0160 82 whole (4.05)",
+        "field": "also: 4 Trevolli / Kieran O'Neill"
+       },
+       {
+        "part": "star rows",
+        "text": "H Sadalmelik → H Transpluto Dec 12.0132 12 whole (11.72)",
+        "field": "also: 3 Creationist / Connor Murtagh"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalmelik → J Makemake RA 171.5157 106×φ golden (76.22)",
+        "field": "also: 4 Trevolli / Kieran O'Neill"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalmelik → J Transpluto RA 170.0064 170 whole (46.17)",
+        "field": "also: 3 Creationist / Connor Murtagh"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H El Nath → Gonggong Dec 42.0084 42 whole (33.89)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Alkaid → Venus Dec 42.0116 42 whole (17.64)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Alkaid → Sun Dec 42.0158 42 whole (4.41)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P05",
+      "name": "3 Creationist / Connor Murtagh",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Sadalmelik → H Juno RA 108.9882 109 whole (16.83)",
+        "field": "also: 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes"
+       },
+       {
+        "part": "star rows",
+        "text": "H Sadalmelik → H Vesta RA 70.9856 71 whole (7.86)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Sadalmelik → H Haumea Dec 17.9481 φ^6 phi power (91.66)",
+        "field": "also: 5 Eleven Eleven / Joey Haynes"
+       },
+       {
+        "part": "star rows",
+        "text": "H Sadalmelik → H Transpluto RA 178.9890 179 whole (20.12)",
+        "field": "also: 2 Supakalanistic / Liam Keniry"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalmelik → J Rahu RA 152.0688 94×φ golden (3.38)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalmelik → J Eris RA 51.9952 52 whole (57.52)",
+        "field": "also: 5 Eleven Eleven / Joey Haynes"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalmelik → J Gonggong RA 0.9232 conj (14.79)",
+        "field": "also: 1 Protected Guest / Jane Elliott, 5 Eleven Eleven / Joey Haynes"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalmelik → J Gonggong Dec 16.6628 16.6667 ninth (96.72)",
+        "field": "also: 1 Protected Guest / Jane Elliott, 5 Eleven Eleven / Joey Haynes"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Deneb Algedi → Makemake Dec 41.9874 42 whole (13.66)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Praesepe → Rahu RA 41.9866 42 whole (10.74)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Hamal → Neptune Dec 41.9988 42 whole (88.28)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Fomalhaut → Mars Dec 41.9818 42 whole (0.79)",
+        "field": ""
+       },
+       {
+        "part": "same number",
+        "text": "H Praesepe → H Rahu RA 41.9866 42 whole (10.74)",
+        "field": "only"
+       }
+      ]
+     },
+     {
+      "runner": "P07",
+      "name": "4 Trevolli / Kieran O'Neill",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Sadalmelik → H Uranus RA 54.0039 54 whole (64.85)",
+        "field": "also: 1 Protected Guest / Jane Elliott, 2 Supakalanistic / Liam Keniry"
+       },
+       {
+        "part": "star rows",
+        "text": "H Sadalmelik → H Juno Dec 2.9905 3 whole (27.77)",
+        "field": "also: 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes"
+       },
+       {
+        "part": "star rows",
+        "text": "H Sadalmelik → H Sedna Dec 7.9994 8 whole (94.40)",
+        "field": "also: 2 Supakalanistic / Liam Keniry"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalmelik → J Saturn RA 77.0060 77 whole (49.31)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalmelik → J Neptune Dec 22.0041 22 whole (63.50)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalmelik → J Pluto Dec 1.0188 1 whole (0.36)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalmelik → J Makemake Dec 36.0169 36 whole (2.44)",
+        "field": "also: 2 Supakalanistic / Liam Keniry"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Markab → Venus RA 42.0128 42 whole (12.87)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Zosma → Pluto Dec 42.0131 42 whole (12.07)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Castor → Eris Dec 41.9893 42 whole (21.79)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P09",
+      "name": "5 Eleven Eleven / Joey Haynes",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Sadalmelik → H Haumea RA 118.1261 73×φ golden (49.52)",
+        "field": "also: 3 Creationist / Connor Murtagh"
+       },
+       {
+        "part": "star rows",
+        "text": "H Sadalmelik → H Orcus RA 178.9827 179 whole (1.82)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Sadalmelik → H Gonggong RA 4.9871 5 whole (12.47)",
+        "field": "also: 1 Protected Guest / Jane Elliott, 3 Creationist / Connor Murtagh"
+       },
+       {
+        "part": "star rows",
+        "text": "H Sadalmelik → H Ketu RA 16.6672 16.6667 ninth (99.55)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalmelik → J Mercury Dec 21.0166 21 whole (2.93)",
+        "field": "also: 2 Supakalanistic / Liam Keniry"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalmelik → J Juno Dec 0.0313 conj (80.22)",
+        "field": "also: 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalmelik → J Eris RA 52.0013 52 whole (87.17)",
+        "field": "also: 3 Creationist / Connor Murtagh"
+       },
+       {
+        "part": "star rows",
+        "text": "J Sadalmelik → J Gonggong RA 0.6740 conj (30.32)",
+        "field": "also: 1 Protected Guest / Jane Elliott, 3 Creationist / Connor Murtagh"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Phact → Sun Dec 41.9977 42 whole (78.02)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Zosma → Pluto Dec 42.0144 42 whole (7.86)",
+        "field": ""
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "line": "S Sun → Al Rescha Dec 24.9993 25 whole (93.15)",
+    "centre": "Sun",
+    "point": "Al Rescha",
+    "plane": "Dec",
+    "moon": [],
+    "runners_with_cells": "5/5",
+    "per_runner": [
+     {
+      "runner": "P01",
+      "name": "1 Protected Guest / Jane Elliott",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Al Rescha → H Mercury Dec 21.0057 21 whole (51.43)",
+        "field": "also: 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes"
+       },
+       {
+        "part": "star rows",
+        "text": "H Al Rescha → H Neptune RA 51.7748 32×φ golden (86.34)",
+        "field": "also: 3 Creationist / Connor Murtagh"
+       },
+       {
+        "part": "star rows",
+        "text": "H Al Rescha → H Pluto RA 105.0193 105 whole (0.11)",
+        "field": "also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh"
+       },
+       {
+        "part": "star rows",
+        "text": "H Al Rescha → H Pallas RA 130.0138 130 whole (9.76)",
+        "field": "also: 4 Trevolli / Kieran O'Neill"
+       },
+       {
+        "part": "star rows",
+        "text": "H Al Rescha → H Juno Dec 4.0113 4 whole (18.94)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Al Rescha → H Vesta Dec 22.0075 22 whole (39.04)",
+        "field": "also: 5 Eleven Eleven / Joey Haynes"
+       },
+       {
+        "part": "star rows",
+        "text": "H Al Rescha → H Makemake RA 162.9985 163 whole (85.54)",
+        "field": "also: 2 Supakalanistic / Liam Keniry"
+       },
+       {
+        "part": "star rows",
+        "text": "H Al Rescha → H Quaoar RA 122.9754 φ^10 phi power (94.70)",
+        "field": "also: 3 Creationist / Connor Murtagh"
+       },
+       {
+        "part": "star rows",
+        "text": "J Al Rescha → J Sun Dec 0.1760 conj (17.09)",
+        "field": "also: 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes"
+       },
+       {
+        "part": "star rows",
+        "text": "J Al Rescha → J Quaoar RA 148.9853 149 whole (7.01)",
+        "field": "also: 3 Creationist / Connor Murtagh"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Antares → Mars Dec 25.0060 25 whole (48.93)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Antares → Chiron Dec 24.9875 25 whole (14.23)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Vega → Transpluto Dec 24.9961 25 whole (64.44)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Hamal → Sun RA 24.9868 25 whole (11.47)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Zubeneschamali → Jupiter RA 25.0135 25 whole (10.70)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Aldebaran → Pallas Dec 25.0141 25 whole (8.67)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P03",
+      "name": "2 Supakalanistic / Liam Keniry",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Al Rescha → H Uranus Dec 0.1486 conj (25.46)",
+        "field": "also: 4 Trevolli / Kieran O'Neill"
+       },
+       {
+        "part": "star rows",
+        "text": "H Al Rescha → H Pluto RA 108.4169 67×φ golden (53.98)",
+        "field": "also: 1 Protected Guest / Jane Elliott, 3 Creationist / Connor Murtagh"
+       },
+       {
+        "part": "star rows",
+        "text": "H Al Rescha → H Transpluto RA 120.9850 121 whole (6.37)",
+        "field": "also: 5 Eleven Eleven / Joey Haynes"
+       },
+       {
+        "part": "star rows",
+        "text": "J Al Rescha → J Jupiter RA 179.6137 111×φ golden (39.87)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Al Rescha → J Rahu Dec 19.9937 20 whole (46.99)",
+        "field": "also: 3 Creationist / Connor Murtagh"
+       },
+       {
+        "part": "star rows",
+        "text": "J Al Rescha → J Haumea Dec 21.0344 13×φ golden (99.89)",
+        "field": "also: 4 Trevolli / Kieran O'Neill"
+       },
+       {
+        "part": "star rows",
+        "text": "J Al Rescha → J Makemake RA 129.4227 80×φ golden (14.48)",
+        "field": "also: 1 Protected Guest / Jane Elliott"
+       },
+       {
+        "part": "star rows",
+        "text": "J Al Rescha → J Transpluto RA 110.9448 10×φ^5 phi power (85.06)",
+        "field": "also: 5 Eleven Eleven / Joey Haynes"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Murzim → Sedna Dec 24.9983 25 whole (84.17)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Alnilam → Haumea Dec 24.9998 25 whole (97.65)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Acubens → Venus RA 24.9879 25 whole (15.44)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Rasalhague → Uranus RA 25.0181 25 whole (0.89)",
+        "field": ""
+       },
+       {
+        "part": "same number",
+        "text": "S Moon → H Jupiter Dec 24.9957 25 whole (61.52)",
+        "field": "only"
+       },
+       {
+        "part": "same number",
+        "text": "J Alnilam → J Haumea Dec 24.9998 25 whole (97.65)",
+        "field": "only"
+       }
+      ]
+     },
+     {
+      "runner": "P05",
+      "name": "3 Creationist / Connor Murtagh",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Al Rescha → H Sun RA 11.9993 12 whole (92.72)",
+        "field": "also: 1 Protected Guest / Jane Elliott, 5 Eleven Eleven / Joey Haynes"
+       },
+       {
+        "part": "star rows",
+        "text": "H Al Rescha → H Neptune RA 47.9906 48 whole (27.91)",
+        "field": "also: 1 Protected Guest / Jane Elliott"
+       },
+       {
+        "part": "star rows",
+        "text": "H Al Rescha → H Quaoar RA 121.3406 75×φ golden (39.95)",
+        "field": "also: 1 Protected Guest / Jane Elliott"
+       },
+       {
+        "part": "star rows",
+        "text": "J Al Rescha → J Mercury RA 49.9842 50 whole (4.33)",
+        "field": "also: 1 Protected Guest / Jane Elliott, 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes"
+       },
+       {
+        "part": "star rows",
+        "text": "J Al Rescha → J Mars RA 0.1795 conj (77.50)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Al Rescha → J Pluto Dec 14.0038 14 whole (65.56)",
+        "field": "also: 1 Protected Guest / Jane Elliott, 2 Supakalanistic / Liam Keniry"
+       },
+       {
+        "part": "star rows",
+        "text": "J Al Rescha → J Rahu RA 93.0034 93 whole (68.56)",
+        "field": "also: 2 Supakalanistic / Liam Keniry"
+       },
+       {
+        "part": "star rows",
+        "text": "J Al Rescha → J Sedna RA 16.0052 16 whole (54.72)",
+        "field": "also: 4 Trevolli / Kieran O'Neill, 5 Eleven Eleven / Joey Haynes"
+       },
+       {
+        "part": "star rows",
+        "text": "J Al Rescha → J Ketu RA 86.9966 87 whole (68.56)",
+        "field": "only"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Mirach → Vesta RA 25.0007 25 whole (93.24)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Zosma → Makemake RA 25.0142 25 whole (8.32)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Menkar → Saturn Dec 25.0173 25 whole (1.81)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Difda → Jupiter RA 25.0021 25 whole (79.96)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Rukbat → Uranus Dec 24.9853 25 whole (7.10)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P07",
+      "name": "4 Trevolli / Kieran O'Neill",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Al Rescha → H Mercury RA 20.0169 20 whole (2.38)",
+        "field": "also: 1 Protected Guest / Jane Elliott, 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes"
+       },
+       {
+        "part": "star rows",
+        "text": "H Al Rescha → H Saturn RA 111.1616 111.111 ninth (91.74)",
+        "field": "also: 5 Eleven Eleven / Joey Haynes"
+       },
+       {
+        "part": "star rows",
+        "text": "H Al Rescha → H Chiron Dec 0.1078 conj (41.04)",
+        "field": "also: 5 Eleven Eleven / Joey Haynes"
+       },
+       {
+        "part": "star rows",
+        "text": "J Al Rescha → J Uranus Dec 26.1824 10×φ^2 phi power (96.86)",
+        "field": "also: 2 Supakalanistic / Liam Keniry"
+       },
+       {
+        "part": "star rows",
+        "text": "J Al Rescha → J Chiron RA 58.2403 36×φ golden (52.46)",
+        "field": "also: 5 Eleven Eleven / Joey Haynes"
+       },
+       {
+        "part": "star rows",
+        "text": "J Al Rescha → J Chiron Dec 14.9830 15 whole (2.30)",
+        "field": "also: 5 Eleven Eleven / Joey Haynes"
+       },
+       {
+        "part": "star rows",
+        "text": "J Al Rescha → J Ceres RA 124.5735 77×φ golden (28.49)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Al Rescha → J Pallas RA 147.2633 91×φ golden (9.88)",
+        "field": "also: 1 Protected Guest / Jane Elliott"
+       },
+       {
+        "part": "star rows",
+        "text": "J Al Rescha → J Sedna Dec 1.0148 1 whole (6.79)",
+        "field": "also: 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes"
+       },
+       {
+        "part": "star rows",
+        "text": "J Al Rescha → J Haumea Dec 20.0036 20 whole (67.39)",
+        "field": "also: 2 Supakalanistic / Liam Keniry"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Mirfak → Makemake Dec 25.0043 25 whole (61.99)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P09",
+      "name": "5 Eleven Eleven / Joey Haynes",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Al Rescha → H Mercury Dec 0.0997 conj (44.58)",
+        "field": "also: 1 Protected Guest / Jane Elliott, 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill"
+       },
+       {
+        "part": "star rows",
+        "text": "H Al Rescha → H Saturn RA 110.9394 10×φ^5 phi power (86.85)",
+        "field": "also: 4 Trevolli / Kieran O'Neill"
+       },
+       {
+        "part": "star rows",
+        "text": "H Al Rescha → H Chiron Dec 0.1187 conj (36.53)",
+        "field": "also: 4 Trevolli / Kieran O'Neill"
+       },
+       {
+        "part": "star rows",
+        "text": "J Al Rescha → J Sun Dec 14.4406 14.4444 ninth (95.93)",
+        "field": "also: 1 Protected Guest / Jane Elliott, 3 Creationist / Connor Murtagh"
+       },
+       {
+        "part": "star rows",
+        "text": "J Al Rescha → J Vesta RA 47.9903 48 whole (26.67)",
+        "field": "also: 1 Protected Guest / Jane Elliott"
+       },
+       {
+        "part": "star rows",
+        "text": "J Al Rescha → J Sedna Dec 2.0040 2 whole (64.16)",
+        "field": "also: 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill"
+       },
+       {
+        "part": "star rows",
+        "text": "J Al Rescha → J Transpluto Dec 10.9917 11 whole (33.96)",
+        "field": "also: 2 Supakalanistic / Liam Keniry"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Bellatrix → Sedna RA 24.9954 25 whole (59.35)",
+        "field": ""
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "line": "S Sun → Alnilam Dec 21.0333 13×φ golden (93.12)",
+    "centre": "Sun",
+    "point": "Alnilam",
+    "plane": "Dec",
+    "moon": [],
+    "runners_with_cells": "5/5",
+    "per_runner": [
+     {
+      "runner": "P01",
+      "name": "1 Protected Guest / Jane Elliott",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Alnilam → H Mercury RA 139.1567 86×φ golden (67.60)",
+        "field": "also: 3 Creationist / Connor Murtagh"
+       },
+       {
+        "part": "star rows",
+        "text": "H Alnilam → H Mars Dec 0.2215 conj (6.84)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Alnilam → H Saturn RA 158.5441 98×φ golden (7.88)",
+        "field": "also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes"
+       },
+       {
+        "part": "star rows",
+        "text": "H Alnilam → H Uranus RA 71.1941 44×φ golden (96.39)",
+        "field": "also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh"
+       },
+       {
+        "part": "star rows",
+        "text": "H Alnilam → H Pluto RA 158.5657 98×φ golden (90.12)",
+        "field": "also: 3 Creationist / Connor Murtagh"
+       },
+       {
+        "part": "star rows",
+        "text": "H Alnilam → H Chiron Dec 0.2400 conj (4.00)",
+        "field": "also: 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes"
+       },
+       {
+        "part": "star rows",
+        "text": "H Alnilam → H Vesta RA 131.0850 81×φ golden (6.28)",
+        "field": "also: 2 Supakalanistic / Liam Keniry, 4 Trevolli / Kieran O'Neill"
+       },
+       {
+        "part": "star rows",
+        "text": "J Alnilam → J Chiron Dec 0.1124 conj (39.09)",
+        "field": "also: 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes"
+       },
+       {
+        "part": "star rows",
+        "text": "J Alnilam → J Transpluto Dec 14.9865 15 whole (10.68)",
+        "field": "only"
+       }
+      ]
+     },
+     {
+      "runner": "P03",
+      "name": "2 Supakalanistic / Liam Keniry",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Alnilam → H Ceres RA 6.9838 7 whole (3.62)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Alnilam → H Vesta RA 0.6354 conj (33.23)",
+        "field": "also: 1 Protected Guest / Jane Elliott, 4 Trevolli / Kieran O'Neill"
+       },
+       {
+        "part": "star rows",
+        "text": "J Alnilam → J Saturn RA 113.0147 113 whole (7.07)",
+        "field": "also: 1 Protected Guest / Jane Elliott, 3 Creationist / Connor Murtagh, 5 Eleven Eleven / Joey Haynes"
+       },
+       {
+        "part": "star rows",
+        "text": "J Alnilam → J Uranus Dec 18.9864 19 whole (10.18)",
+        "field": "also: 1 Protected Guest / Jane Elliott, 3 Creationist / Connor Murtagh"
+       },
+       {
+        "part": "star rows",
+        "text": "J Alnilam → J Pallas Dec 16.9954 17 whole (59.34)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Alnilam → J Haumea Dec 24.9998 25 whole (97.65)",
+        "field": "also: 4 Trevolli / Kieran O'Neill"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Al Rescha → Haumea Dec 21.0344 13×φ golden (99.89)",
+        "field": ""
+       },
+       {
+        "part": "same number",
+        "text": "J Al Rescha → J Haumea Dec 21.0344 13×φ golden (99.89)",
+        "field": "also: 3 Creationist / Connor Murtagh, 4 Trevolli / Kieran O'Neill"
+       }
+      ]
+     },
+     {
+      "runner": "P05",
+      "name": "3 Creationist / Connor Murtagh",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Alnilam → H Pluto RA 155.5658 155.556 ninth (99.03)",
+        "field": "also: 1 Protected Guest / Jane Elliott"
+       },
+       {
+        "part": "star rows",
+        "text": "H Alnilam → H Chiron Dec 2.0192 2 whole (0.16)",
+        "field": "also: 1 Protected Guest / Jane Elliott, 5 Eleven Eleven / Joey Haynes"
+       },
+       {
+        "part": "star rows",
+        "text": "J Alnilam → J Mercury RA 103.5295 64×φ golden (5.58)",
+        "field": "also: 1 Protected Guest / Jane Elliott"
+       },
+       {
+        "part": "star rows",
+        "text": "J Alnilam → J Saturn RA 41.0019 41 whole (81.47)",
+        "field": "also: 1 Protected Guest / Jane Elliott, 2 Supakalanistic / Liam Keniry, 5 Eleven Eleven / Joey Haynes"
+       },
+       {
+        "part": "star rows",
+        "text": "J Alnilam → J Uranus RA 121.9909 122 whole (29.77)",
+        "field": "also: 1 Protected Guest / Jane Elliott, 2 Supakalanistic / Liam Keniry"
+       },
+       {
+        "part": "star rows",
+        "text": "J Alnilam → J Orcus Dec 0.0032 conj (97.87)",
+        "field": "only"
+       },
+       {
+        "part": "same number",
+        "text": "S Sun → J Orcus Dec 21.0349 13×φ golden (97.12)",
+        "field": "also: 2 Supakalanistic / Liam Keniry, 4 Trevolli / Kieran O'Neill"
+       }
+      ]
+     },
+     {
+      "runner": "P07",
+      "name": "4 Trevolli / Kieran O'Neill",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Alnilam → H Vesta RA 174.7366 108×φ golden (43.38)",
+        "field": "also: 1 Protected Guest / Jane Elliott, 2 Supakalanistic / Liam Keniry"
+       },
+       {
+        "part": "star rows",
+        "text": "H Alnilam → H Haumea RA 129.4207 80×φ golden (10.20)",
+        "field": "also: 2 Supakalanistic / Liam Keniry"
+       },
+       {
+        "part": "star rows",
+        "text": "J Alnilam → J Sedna Dec 4.9802 5 whole (0.01)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Alnilam → J Ketu Dec 0.1854 conj (14.59)",
+        "field": "only"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Vega → Chiron Dec 21.0387 13×φ golden (75.25)",
+        "field": ""
+       },
+       {
+        "part": "same number",
+        "text": "S Mars → H Mars RA 21.0567 13×φ golden (loose)",
+        "field": "also: 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh"
+       }
+      ]
+     },
+     {
+      "runner": "P09",
+      "name": "5 Eleven Eleven / Joey Haynes",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Alnilam → H Chiron RA 85.9908 86 whole (29.29)",
+        "field": "also: 1 Protected Guest / Jane Elliott, 3 Creationist / Connor Murtagh"
+       },
+       {
+        "part": "star rows",
+        "text": "H Alnilam → H Eris RA 58.2481 36×φ golden (93.06)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Alnilam → H Makemake RA 111.1536 111.111 ninth (93.05)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Alnilam → J Venus RA 92.9926 93 whole (39.89)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Alnilam → J Saturn Dec 7.9843 8 whole (4.65)",
+        "field": "also: 1 Protected Guest / Jane Elliott, 2 Supakalanistic / Liam Keniry, 3 Creationist / Connor Murtagh"
+       },
+       {
+        "part": "star rows",
+        "text": "J Alnilam → J Gonggong RA 113.2727 70×φ golden (46.27)",
+        "field": "only"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "body_lines": [
+   "S Sun → Venus RA 0.1171 conj (84.99)",
+   "S Jupiter → Pallas Dec 0.0771 conj (55.22)"
+  ],
+  "moon_only": [
+   "S Moon → Makemake RA 166.6955 166.667 ninth (97.53)",
+   "S Moon → Arcturus RA 152.0976 94×φ golden (85.89)",
+   "S Moon → Alhena Dec 19.4132 12×φ golden (81.21)",
+   "S Moon → Meissa Dec 12.9486 8×φ golden (75.20)",
+   "S Moon → Praesepe Dec 22.9966 23 whole (69.22)",
+   "S Moon → Ankaa RA 0.5677 conj (38.63)",
+   "S Moon → Chiron RA 0.7864 conj (22.64)"
+  ]
+ },
  "sky": {
   "hubs": [],
   "lines": [

@@ -26,6 +26,18 @@ Jupiter / S Sun / S Moon is itself a centre and gets none. Nothing is tagged or 
                    4 circle divisions             a whole target dividing 360                           key: the number
                    5 same number, several places  same family and target on 2+ different (chart, body,  key: family, target
                                                   source), not conj; N and N x phi on one natal body     key: N, chart, body
+  READ             the reading order (Eddie, 7 Nov 2026), before L1-L4 (which stay as they are):
+                   1 same body first: every runner's L1
+                   2 lead lines: the noted S Jupiter -> star and S Sun -> star lines (conj incl.), one list, highest score
+                     first (ties: Jupiter before Sun, then star, plane); each read in full before the next:
+                     - Moon lines that confirm it: the Moon to the same star, or a non-conj Moon line on the same number
+                       (family and target)
+                     - per runner: that star's star-row cells (natal and sky copies, horse and jockey), the MATCH rows of that
+                       sky cell, T1 / T2 natal Jupiter -> that star, and every other cell on the line's number (not conj);
+                       star-row and natal Jupiter cells with their L4 'only' / 'also'; a same-number cell 'only' / 'also'
+                       = the other runners with a cell on that number under this line; 'runners with cells k/n'
+                   3 Jupiter / Sun lines to bodies (and the equator): listed, not followed
+                   4 Moon only, not active: Moon lines that confirm no lead line; not followed
   L4 every body    every natal body of the runner (both charts) with every cell on it and the source lines (T1 / T2
                    natal Jupiter -> star cells under Jupiter); each cell
                    'only' / 'also: <runners>' for the same source onto the same body, any chart, plane or number (source:
@@ -234,8 +246,70 @@ def build(d, active=None):
                 others = sorted(l4keys[c['key']] - {r})
                 c['field'] = 'only' if not others else 'also: ' + ', '.join(names[o] for o in others)
                 c['key'] = list(c['key'])
-    return dict(workbook=d.get('workbook'), l0=l0, runners=runners, report=R,
+    read = reading_order(d, pieces, R, names, runners, src_key)
+    return dict(workbook=d.get('workbook'), l0=l0, runners=runners, report=R, read=read,
                 sky=dict(hubs=d.get('hubs'), lines=[line_txt(l) for l in lines]))
+
+
+CORDER = {'Jupiter': 0, 'Sun': 1, 'Moon': 2}
+
+
+def match_txt(m):
+    fam = 'conj' if m['family'] == 'conj' else f"{m['target']} {m['family']}"
+    return f"{m['t24_row']} → {m['body']} {m['t24_plane']} {m['value']:.4f} {fam} ({m['score']:.2f})"
+
+
+def reading_order(d, pieces, R, names, runners, src_key):
+    """READ: same body, then the Jupiter / Sun star lines in full (Moon as confirmation), body lines, Moon only."""
+    stars = set(d.get('noted_stars', [])) | {p['star'] for p in d['pieces'] if p.get('star')}
+    kinds = lambda pt: 'star' if pt in stars else 'body'
+    lines = d['lines']
+    lead = sorted([l for l in lines if l['centre'] in ('Jupiter', 'Sun') and kinds(l['point']) == 'star'],
+                  key=lambda l: (-l['score'], CORDER[l['centre']], l['point'], l['plane']))
+    body_lines = sorted([l for l in lines if l['centre'] in ('Jupiter', 'Sun') and kinds(l['point']) != 'star'],
+                        key=lambda l: (-l['score'], CORDER[l['centre']], l['point'], l['plane']))
+    moon = [l for l in lines if l['centre'] == 'Moon']
+    num = lambda l: None if l['family'] == 'conj' else (l['family'], l['target'])
+    field = {}
+    for r in runners:
+        for B in R[r]['bodies']:
+            for c in B['cells']:
+                field[(r, c['text'])] = c['field']
+    used_moon = set()
+    out_lines = []
+    for l in lead:
+        conf = [m for m in moon if m['point'] == l['point'] or (num(m) and num(m) == num(l))]
+        for m in conf:
+            used_moon.add(id(m))
+        per = []
+        for r in runners:
+            mine = [p for p in pieces if p['runner'] == r]
+            lay = lambda p: set(p['layer'].split(' + '))       # a connection carried by two layers keeps both names
+            star_cells = [p for p in mine if 'star rows' in lay(p) and p.get('star') == l['point']]
+            jup_cells = [p for p in mine if lay(p) & {'T1', 'T2'} and p['body'] == 'star ' + l['point']]
+            got = {id(p) for p in star_cells + jup_cells}
+            num_cells = [p for p in mine if num(l) and id(p) not in got and p['family'] != 'conj'
+                         and (p['family'], p['target']) == num(l)]
+            mrows = [m for m in d.get('match', {}).get(r, [])
+                     if m['centre'] == l['centre'] and m['point'] == l['point'] and m['plane'] == l['plane']]
+            cells = ([dict(part='star rows', text=p['text'], field=field.get((r, p['text']), '')) for p in star_cells]
+                     + [dict(part='natal Jupiter → star', text=p['text'], field=field.get((r, p['text']), '')) for p in jup_cells]
+                     + [dict(part=f"MATCH {m['kind']}", text=match_txt(m), field='') for m in mrows]
+                     + [dict(part='same number', text=p['text'], field=field.get((r, p['text']), '')) for p in num_cells])
+            per.append(dict(runner=r, name=names[r], cells=cells))
+        numr = {x['runner'] for x in per if any(c['part'] == 'same number' for c in x['cells'])}
+        for x in per:                      # a same-number cell: 'only' / 'also' = other runners with a cell on this number
+            others = sorted(numr - {x['runner']})
+            for c in x['cells']:
+                if c['part'] == 'same number':
+                    c['field'] = 'only' if not others else 'also: ' + ', '.join(names[o] for o in others)
+        held = [x for x in per if x['cells']]
+        out_lines.append(dict(line=line_txt(l), centre=l['centre'], point=l['point'], plane=l['plane'],
+                              moon=[line_txt(m) for m in conf], runners_with_cells=f'{len(held)}/{len(runners)}',
+                              per_runner=per))
+    return dict(same_body={r: R[r]['same_bodies'] for r in runners}, lead=out_lines,
+                body_lines=[line_txt(l) for l in body_lines],
+                moon_only=[line_txt(m) for m in sorted(moon, key=lambda m: (-m['score'], m['point'], m['plane'])) if id(m) not in used_moon])
 
 
 def write_md(D, path):
@@ -255,6 +329,27 @@ def write_md(D, path):
     for t in D['sky']['lines']:
         o.append(f'- {t}')
     o.append('- Hubs: ' + (', '.join(D['sky']['hubs']) or 'none'))
+
+    rd = D['read']
+    o.append('\n## READ (reading order, Eddie 7 Nov 2026)')
+    o.append('### READ 1 same body first')
+    for r in D['runners']:
+        o.append(f"- **{D['report'][r]['name']}**")
+        o += [f'  - {t}' for t in rd['same_body'][r]] or ['  - none']
+    o.append('### READ 2 Jupiter / Sun star lines, highest score first, each in full')
+    if not rd['lead']:
+        o.append('- none')
+    for i, L in enumerate(rd['lead'], 1):
+        o.append(f"#### {i}. {L['line']} — runners with cells {L['runners_with_cells']}")
+        o.append('- Moon confirms: ' + ('; '.join(L['moon']) or 'none'))
+        for x in L['per_runner']:
+            o.append(f"- {x['name']}" + ('' if x['cells'] else ': nothing'))
+            for c in x['cells']:
+                o.append(f"  - {c['part']}: {c['text']}" + (f" — {c['field']}" if c['field'] else ''))
+    o.append('### READ 3 Jupiter / Sun lines to bodies (not followed)')
+    o += [f'- {t}' for t in rd['body_lines']] or ['- none']
+    o.append('### READ 4 Moon only, not active (confirm no lead line; not followed)')
+    o += [f'- {t}' for t in rd['moon_only']] or ['- none']
 
     def cl(q, pre=''):
         s = f"  - {pre}{q['layer']}: {q['text']}"

@@ -11937,6 +11937,2598 @@
    }
   }
  },
+ "read": {
+  "same_body": {
+   "P01": [
+    "S Venus → H Venus Dec 14.9915 15 whole (32.79)",
+    "S Pluto → H Pluto RA 15.4703 15.5556 ninth (loose)",
+    "S Haumea → H Haumea Dec 2.9805 3 whole (0.05)",
+    "S Gonggong → H Gonggong RA 0.9856 1 whole (loose)",
+    "S Mercury → J Mercury Dec 4.9730 5 whole (loose)",
+    "S Pallas → J Pallas RA 153.6992 95×φ golden (loose)",
+    "S Pallas → J Pallas Dec 8.0937 5×φ golden (loose)",
+    "S Sedna → J Sedna RA 17.9670 φ^6 phi power (loose)",
+    "S Makemake → J Makemake RA 32.3715 20×φ golden (loose)",
+    "S Orcus → J Orcus RA 29.1045 18×φ golden (loose)",
+    "S Quaoar → J Quaoar Dec 2.4102 2.414 silver (loose)",
+    "S Transpluto → J Transpluto RA 11.1008 11.1111 ninth (loose)"
+   ],
+   "P03": [
+    "S Mercury → H Mercury RA 31.9975 32 whole (76.66)",
+    "S Eris → H Eris RA 0.9917 1 whole (33.95)",
+    "S Eris → H Eris Dec 2.2230 2.22222 ninth (89.60)",
+    "S Gonggong → H Gonggong Dec 2.2276 2.22222 ninth (loose)",
+    "S Neptune → J Neptune Dec 17.9335 φ^6 phi power (loose)",
+    "S Pluto → J Pluto RA 76.9837 77 whole (3.46)",
+    "S Vesta → J Vesta RA 122.0285 122 whole (loose)",
+    "S Quaoar → J Quaoar Dec 2.6082 φ^2 phi power (loose)",
+    "S Transpluto → J Transpluto RA 11.0430 φ^5 phi power (loose)"
+   ],
+   "P05": [
+    "S Mercury → H Mercury Dec 44.4469 44.4444 ninth (97.43)",
+    "S Mars → H Mars RA 101.9489 63×φ golden (36.54)",
+    "S Chiron → H Chiron RA 21.9806 22 whole (0.08)",
+    "S Ceres → H Ceres Dec 17.6738 17.7778 ninth (loose)",
+    "S Pallas → H Pallas Dec 22.2873 22.2222 ninth (loose)",
+    "S Rahu → H Rahu Dec 30.0129 30 whole (12.59)",
+    "S Haumea → H Haumea Dec 3.0143 3 whole (8.25)",
+    "S Makemake → H Makemake Dec 4.2315 φ^3 phi power (loose)",
+    "S Gonggong → H Gonggong Dec 1.7714 1.77778 ninth (loose)",
+    "S Ketu → H Ketu Dec 30.0129 30 whole (12.59)",
+    "S Venus → J Venus RA 110.0406 68×φ golden (31.20)",
+    "S Mars → J Mars RA 165.6572 166.667 ninth (loose)",
+    "S Uranus → J Uranus RA 144.1186 144.444 ninth (loose)",
+    "S Neptune → J Neptune Dec 17.9515 φ^6 phi power (loose)",
+    "S Chiron → J Chiron Dec 12.1505 12.2222 ninth (loose)",
+    "S Pallas → J Pallas Dec 8.0861 5×φ golden (loose)",
+    "S Eris → J Eris Dec 8.9745 9 whole (loose)",
+    "S Sedna → J Sedna RA 18.0054 18 whole (53.35)",
+    "S Orcus → J Orcus Dec 18.7885 18.8889 ninth (loose)"
+   ],
+   "P07": [
+    "S Mercury → H Mercury Dec 36.0073 36 whole (40.14)",
+    "S Mars → H Mars Dec 32.0088 32 whole (31.23)",
+    "S Ceres → H Ceres RA 14.5465 9×φ golden (loose)",
+    "S Juno → H Juno RA 66.3150 41×φ golden (loose)",
+    "S Mercury → J Mercury RA 16.1718 10×φ^1 phi power (loose)",
+    "S Neptune → J Neptune Dec 16.1881 10×φ^1 phi power (81.72)",
+    "S Pluto → J Pluto Dec 14.5347 9×φ golden (loose)",
+    "S Ceres → J Ceres RA 176.9043 177.778 ninth (loose)",
+    "S Vesta → J Vesta Dec 12.2004 12.2222 ninth (loose)",
+    "S Rahu → J Rahu RA 144.6525 144.444 ninth (loose)",
+    "S Sedna → J Sedna RA 14.0182 14 whole (0.83)",
+    "S Makemake → J Makemake RA 22.9899 23 whole (24.60)",
+    "S Gonggong → J Gonggong RA 5.9824 6 whole (1.39)",
+    "S Transpluto → J Transpluto Dec 3.0271 3 whole (loose)",
+    "S Ketu → J Ketu RA 144.6525 144.444 ninth (loose)"
+   ],
+   "P09": [
+    "S Sun → H Sun RA 45.0052 45 whole (54.84)",
+    "S Sun → H Sun Dec 18.7542 18.8889 ninth (loose)",
+    "S Ceres → H Ceres RA 77.9783 78 whole (loose)",
+    "S Juno → H Juno Dec 18.8402 18.8889 ninth (loose)",
+    "S Vesta → H Vesta RA 12.9977 13 whole (78.31)",
+    "S Eris → H Eris RA 0.9788 1 whole (loose)",
+    "S Quaoar → H Quaoar RA 14.3647 14.4444 ninth (loose)",
+    "S Gonggong → H Gonggong RA 1.7714 1.77778 ninth (loose)",
+    "S Mars → J Mars RA 177.9911 178 whole (loose)",
+    "S Jupiter → J Jupiter RA 161.6381 100×φ^1 phi power (loose)",
+    "S Saturn → J Saturn Dec 1.7691 1.77778 ninth (loose)",
+    "S Uranus → J Uranus RA 113.0158 113 whole (4.50)",
+    "S Pluto → J Pluto RA 66.6385 66.6667 ninth (loose)",
+    "S Pluto → J Pluto Dec 17.9960 18 whole (64.13)",
+    "S Chiron → J Chiron RA 133.5319 133.333 ninth (loose)",
+    "S Juno → J Juno RA 150.4558 93×φ golden (11.54)",
+    "S Haumea → J Haumea RA 27.4879 17×φ golden (loose)",
+    "S Orcus → J Orcus Dec 14.4166 14.4444 ninth (loose)"
+   ],
+   "P11": [
+    "S Mercury → H Mercury RA 26.1897 10×φ^2 phi power (86.14)",
+    "S Mars → H Mars RA 85.7270 53×φ golden (loose)",
+    "S Saturn → H Saturn RA 88.9775 89 whole (loose)",
+    "S Sedna → H Sedna Dec 0.9912 1 whole (31.61)",
+    "S Sun → J Sun RA 154.8175 155.556 ninth (loose)",
+    "S Sun → J Sun Dec 12.2003 12.2222 ninth (loose)",
+    "S Mercury → J Mercury RA 122.2566 122.222 ninth (95.24)",
+    "S Mercury → J Mercury Dec 13.2552 13.3333 ninth (loose)",
+    "S Venus → J Venus Dec 1.2205 1.22222 ninth (loose)",
+    "S Saturn → J Saturn RA 41.9705 42 whole (loose)",
+    "S Uranus → J Uranus RA 126.9869 127 whole (11.86)",
+    "S Neptune → J Neptune Dec 17.8865 φ^6 phi power (loose)",
+    "S Pallas → J Pallas RA 8.9888 9 whole (19.36)",
+    "S Vesta → J Vesta RA 16.1056 10×φ^1 phi power (loose)",
+    "S Rahu → J Rahu RA 85.9788 86 whole (loose)",
+    "S Sedna → J Sedna RA 16.0254 16 whole (loose)",
+    "S Haumea → J Haumea RA 30.7619 19×φ golden (loose)",
+    "S Orcus → J Orcus Dec 16.1556 10×φ^1 phi power (loose)",
+    "S Quaoar → J Quaoar RA 44.4921 44.4444 ninth (loose)",
+    "S Ketu → J Ketu RA 85.9788 86 whole (loose)"
+   ]
+  },
+  "lead": [
+   {
+    "line": "S Sun → Regulus RA 179.4433 10×φ^6 phi power (99.87)",
+    "centre": "Sun",
+    "point": "Regulus",
+    "plane": "RA",
+    "moon": [],
+    "runners_with_cells": "6/6",
+    "per_runner": [
+     {
+      "runner": "P01",
+      "name": "1 Third Wind / Tom O'Brien",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Regulus → H Neptune RA 173.1312 107×φ golden (90.29)",
+        "field": "also: 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "H Regulus → H Gonggong RA 176.3471 109×φ golden (18.02)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman"
+       },
+       {
+        "part": "star rows",
+        "text": "H Regulus → H Transpluto RA 0.3722 conj (56.54)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Regulus → J Neptune RA 122.9214 φ^10 phi power (78.41)",
+        "field": "also: 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Regulus → J Chiron RA 73.0074 73 whole (39.71)",
+        "field": "only"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Alphecca → Sedna RA 179.4103 10×φ^6 phi power (92.91)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J El Nath → Uranus RA 179.4489 10×φ^6 phi power (98.62)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Betelgeuse → Juno RA 179.4123 10×φ^6 phi power (93.34)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Markab → Makemake RA 179.4052 10×φ^6 phi power (91.81)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P03",
+      "name": "2 Thomas Darby / Aidan Coleman",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Regulus → H Venus RA 165.0613 102×φ golden (10.63)",
+        "field": "also: 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "star rows",
+        "text": "H Regulus → H Gonggong RA 177.0007 177 whole (93.55)",
+        "field": "also: 1 Third Wind / Tom O'Brien"
+       },
+       {
+        "part": "star rows",
+        "text": "H Regulus → H Transpluto RA 0.3925 conj (54.52)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Regulus → J Uranus RA 115.0186 115 whole (0.49)",
+        "field": "also: 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "star rows",
+        "text": "J Regulus → J Uranus Dec 35.5994 22×φ golden (84.30)",
+        "field": "also: 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "star rows",
+        "text": "J Regulus → J Eris RA 129.4372 80×φ golden (68.90)",
+        "field": "also: 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Regulus → J Haumea Dec 10.9850 11 whole (6.19)",
+        "field": "only"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Algorab → Uranus RA 179.4561 10×φ^6 phi power (97.04)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Alkaid → Pallas RA 179.4011 10×φ^6 phi power (90.95)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Sirius → Pluto RA 179.4930 10×φ^6 phi power (89.10)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Alkes → Rahu RA 179.4054 10×φ^6 phi power (91.86)",
+        "field": ""
+       },
+       {
+        "part": "same number",
+        "text": "S Moon → H Uranus RA 179.4595 10×φ^6 phi power (96.30)",
+        "field": "also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies"
+       }
+      ]
+     },
+     {
+      "runner": "P05",
+      "name": "3 Emitom / Brian Hughes",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Regulus → H Ceres RA 49.9833 50 whole (2.75)",
+        "field": "also: 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "star rows",
+        "text": "H Regulus → H Pallas RA 0.7687 conj (23.77)",
+        "field": "also: 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "H Regulus → H Eris Dec 14.9866 15 whole (10.97)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "H Regulus → H Transpluto RA 0.3887 conj (54.89)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Regulus → J Mars RA 55.9892 56 whole (21.01)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Regulus → J Vesta Dec 12.9958 13 whole (62.75)",
+        "field": "only"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Algol → Saturn RA 179.4777 10×φ^6 phi power (92.35)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "S Jupiter → J body → Makemake RA 179.4693 10×φ^6 phi power (94.17)",
+        "field": ""
+       },
+       {
+        "part": "same number",
+        "text": "S Jupiter → J Makemake RA 179.4693 10×φ^6 phi power (94.17)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies"
+       }
+      ]
+     },
+     {
+      "runner": "P07",
+      "name": "4 Top Ville Ben / Thomas Dowson",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Regulus → H Mercury RA 104.9851 105 whole (6.44)",
+        "field": "also: 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "H Regulus → H Ceres Dec 0.1963 conj (11.94)",
+        "field": "also: 3 Emitom / Brian Hughes"
+       },
+       {
+        "part": "star rows",
+        "text": "H Regulus → H Pallas Dec 6.9977 7 whole (77.91)",
+        "field": "also: 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "H Regulus → H Sedna RA 98.7036 61×φ golden (79.37)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Regulus → H Transpluto RA 1.0329 conj (9.70)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "H Regulus → H Transpluto Dec 0.1187 conj (36.52)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Regulus → J Venus RA 159.9913 160 whole (31.74)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman"
+       },
+       {
+        "part": "star rows",
+        "text": "J Regulus → J Pallas Dec 12.0136 12 whole (10.33)",
+        "field": "also: 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Algorab → Uranus RA 179.4186 10×φ^6 phi power (94.69)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Orion Nebula Cluster → Quaoar RA 179.4849 10×φ^6 phi power (90.82)",
+        "field": ""
+       },
+       {
+        "part": "same number",
+        "text": "S Moon → H Uranus RA 179.4987 10×φ^6 phi power (87.92)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "same number",
+        "text": "H Orion Nebula Cluster → H Quaoar RA 179.4849 10×φ^6 phi power (90.82)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies"
+       }
+      ]
+     },
+     {
+      "runner": "P09",
+      "name": "5 Wholestone / Sam Twiston-Davies",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Regulus → H Jupiter RA 136.0185 136 whole (0.53)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Regulus → H Mercury Dec 1.9822 2 whole (1.19)",
+        "field": "also: 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "H Regulus → H Uranus RA 150.4841 93×φ golden (61.89)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman"
+       },
+       {
+        "part": "star rows",
+        "text": "H Regulus → H Makemake Dec 16.1876 10×φ^1 phi power (82.78)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Regulus → H Quaoar Dec 27.5059 17×φ golden (95.59)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Regulus → H Transpluto RA 1.2574 conj (2.62)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "H Regulus → H Transpluto Dec 0.0378 conj (76.41)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Vindemiatrix → Jupiter RA 179.4714 10×φ^6 phi power (93.71)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Wezen → Neptune RA 179.4430 10×φ^6 phi power (99.94)",
+        "field": ""
+       },
+       {
+        "part": "same number",
+        "text": "H Jupiter → H star Vindemiatrix RA 179.4714 10×φ^6 phi power (93.71)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "same number",
+        "text": "S Vindemiatrix → H Jupiter RA 179.4689 10×φ^6 phi power (94.25)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "same number",
+        "text": "J Wezen → J Neptune RA 179.4430 10×φ^6 phi power (99.94)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson"
+       }
+      ]
+     },
+     {
+      "runner": "P11",
+      "name": "6 Molly Ollys Wishes / Harry Skelton",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Regulus → H Neptune Dec 22.0189 22 whole (0.30)",
+        "field": "also: 1 Third Wind / Tom O'Brien"
+       },
+       {
+        "part": "star rows",
+        "text": "H Regulus → H Eris RA 126.9989 127 whole (89.07)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes"
+       },
+       {
+        "part": "star rows",
+        "text": "H Regulus → H Transpluto RA 0.1318 conj (83.19)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "star rows",
+        "text": "J Regulus → J Mercury Dec 18.0130 18 whole (12.15)",
+        "field": "also: 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "star rows",
+        "text": "J Regulus → J Pallas RA 137.5605 85×φ golden (2.14)",
+        "field": "also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "star rows",
+        "text": "J Regulus → J Rahu Dec 24.9838 25 whole (3.60)",
+        "field": "only"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Alkaid → Ketu RA 179.4387 10×φ^6 phi power (99.10)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Denebola → Sun RA 179.4645 10×φ^6 phi power (95.21)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Sadalmelik → Transpluto RA 179.4764 10×φ^6 phi power (92.64)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Al Rescha → Haumea RA 179.4775 10×φ^6 phi power (92.39)",
+        "field": ""
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "line": "S Sun → Vindemiatrix Dec 22.2209 22.2222 ninth (98.22)",
+    "centre": "Sun",
+    "point": "Vindemiatrix",
+    "plane": "Dec",
+    "moon": [],
+    "runners_with_cells": "6/6",
+    "per_runner": [
+     {
+      "runner": "P01",
+      "name": "1 Third Wind / Tom O'Brien",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Vindemiatrix → H Ketu Dec 0.1340 conj (30.62)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Orcus RA 67.9544 42×φ golden (82.15)",
+        "field": "only"
+       }
+      ]
+     },
+     {
+      "runner": "P03",
+      "name": "2 Thomas Darby / Aidan Coleman",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Jupiter RA 133.3513 133.333 ninth (97.85)",
+        "field": "also: 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Saturn Dec 33.3378 33.3333 ninth (94.61)",
+        "field": "also: 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Ceres RA 170.9832 171 whole (2.51)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Vesta Dec 1.2225 1.22222 ninth (96.61)",
+        "field": "also: 3 Emitom / Brian Hughes"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Rahu RA 149.9928 150 whole (41.06)",
+        "field": "also: 3 Emitom / Brian Hughes"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Haumea Dec 11.9924 12 whole (38.70)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Ketu RA 30.0072 30 whole (41.06)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "natal Jupiter → star",
+        "text": "J Jupiter → J star Vindemiatrix RA 133.3513 133.333 ninth (97.85)",
+        "field": "also: 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Zubenelgenubi → Ketu Dec 22.2225 22.2222 ninth (99.58)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P05",
+      "name": "3 Emitom / Brian Hughes",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Vindemiatrix → H Saturn RA 32.0103 32 whole (23.49)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "H Vindemiatrix → H Eris RA 169.8874 105×φ golden (65.44)",
+        "field": "also: 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "H Vindemiatrix → H Gonggong Dec 24.0175 24 whole (1.61)",
+        "field": "also: 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "H Vindemiatrix → H Ketu Dec 0.2177 conj (7.52)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Uranus RA 58.9861 59 whole (9.40)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Vesta Dec 11.9877 12 whole (14.74)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Rahu RA 150.0011 150 whole (89.04)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Gonggong Dec 32.3698 20×φ golden (51.51)",
+        "field": "also: 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Ketu RA 29.9989 30 whole (89.04)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "same number",
+        "text": "S Pallas → H Pallas Dec 22.2873 22.2222 ninth (loose)",
+        "field": "only"
+       }
+      ]
+     },
+     {
+      "runner": "P07",
+      "name": "4 Top Ville Ben / Thomas Dowson",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Vindemiatrix → H Pluto RA 83.9899 84 whole (24.63)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Vindemiatrix → H Pallas Dec 5.9892 6 whole (21.35)",
+        "field": "also: 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "H Vindemiatrix → H Makemake RA 5.9984 6 whole (84.20)",
+        "field": "also: 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Mars RA 126.2173 78×φ golden (44.95)",
+        "field": "also: 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Pallas Dec 11.0050 11 whole (56.39)",
+        "field": "also: 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Eris Dec 19.0131 19 whole (11.74)",
+        "field": "also: 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton"
+       }
+      ]
+     },
+     {
+      "runner": "P09",
+      "name": "5 Wholestone / Sam Twiston-Davies",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "S Vindemiatrix → H Jupiter RA 179.4689 10×φ^6 phi power (94.25)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman"
+       },
+       {
+        "part": "star rows",
+        "text": "H Vindemiatrix → H Mars RA 169.8634 105×φ golden (0.45)",
+        "field": "also: 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Venus Dec 30.7412 19×φ golden (91.15)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Sedna RA 152.0150 152 whole (6.23)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Makemake RA 22.9910 23 whole (30.28)",
+        "field": "also: 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Quaoar RA 40.9890 41 whole (20.13)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Gonggong RA 133.9974 134 whole (75.37)",
+        "field": "also: 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "natal Jupiter → star",
+        "text": "H Jupiter → H star Vindemiatrix RA 179.4714 10×φ^6 phi power (93.71)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes"
+       }
+      ]
+     },
+     {
+      "runner": "P11",
+      "name": "6 Molly Ollys Wishes / Harry Skelton",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Vindemiatrix → H Saturn RA 35.5944 22×φ golden (86.07)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes"
+       },
+       {
+        "part": "star rows",
+        "text": "H Vindemiatrix → H Neptune Dec 21.0101 21 whole (24.36)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Vindemiatrix → H Juno RA 173.1155 107×φ golden (31.84)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Vindemiatrix → H Ketu Dec 0.0728 conj (57.36)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Mercury Dec 17.0057 17 whole (51.12)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Neptune RA 84.9966 85 whole (68.95)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Pallas RA 178.9885 179 whole (18.10)",
+        "field": "also: 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Eris RA 172.9816 173 whole (0.67)",
+        "field": "also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Makemake Dec 24.1475 24.14 silver (91.29)",
+        "field": "also: 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "star rows",
+        "text": "J Vindemiatrix → J Gonggong RA 133.3963 133.333 ninth (92.45)",
+        "field": "also: 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Alkes → Uranus Dec 22.2229 22.2222 ninth (99.07)",
+        "field": ""
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "line": "S Sun → Castor RA 140.9998 141 whole (97.65)",
+    "centre": "Sun",
+    "point": "Castor",
+    "plane": "RA",
+    "moon": [],
+    "runners_with_cells": "6/6",
+    "per_runner": [
+     {
+      "runner": "P01",
+      "name": "1 Third Wind / Tom O'Brien",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Castor → H Uranus Dec 27.0085 27 whole (33.09)",
+        "field": "also: 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "H Castor → H Pluto Dec 52.0077 52 whole (37.85)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "H Castor → H Vesta Dec 28.0162 28 whole (3.59)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Castor → J Rahu RA 94.9972 95 whole (74.13)",
+        "field": "also: 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "star rows",
+        "text": "J Castor → J Rahu Dec 23.9901 24 whole (25.67)",
+        "field": "also: 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "star rows",
+        "text": "J Castor → J Transpluto RA 30.0021 30 whole (80.18)",
+        "field": "also: 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "star rows",
+        "text": "J Castor → J Ketu RA 85.0028 85 whole (74.13)",
+        "field": "also: 6 Molly Ollys Wishes / Harry Skelton"
+       }
+      ]
+     },
+     {
+      "runner": "P03",
+      "name": "2 Thomas Darby / Aidan Coleman",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Castor → H Sun RA 122.9453 φ^10 phi power (85.44)",
+        "field": "also: 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "star rows",
+        "text": "H Castor → H Venus Dec 38.9947 39 whole (54.05)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Castor → H Pallas Dec 41.0066 41 whole (44.69)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Castor → H Juno RA 174.7304 108×φ golden (21.77)",
+        "field": "also: 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Castor → J Pluto RA 109.0189 109 whole (0.33)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Castor → J Pallas Dec 18.0115 18 whole (17.96)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Castor → J Juno RA 1.2072 conj (3.81)",
+        "field": "also: 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Castor → J Eris RA 90.9935 91 whole (45.90)",
+        "field": "also: 3 Emitom / Brian Hughes"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Phact → Rahu RA 141.0122 141 whole (15.37)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Sadalmelik → Juno RA 140.9865 141 whole (10.43)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P05",
+      "name": "3 Emitom / Brian Hughes",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Castor → H Eris RA 87.9852 88 whole (6.79)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman"
+       },
+       {
+        "part": "star rows",
+        "text": "J Castor → J Chiron Dec 14.0121 14 whole (15.60)",
+        "field": "also: 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Algol → Quaoar RA 140.9865 141 whole (10.61)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P07",
+      "name": "4 Top Ville Ben / Thomas Dowson",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Castor → H Sun Dec 12.0155 12 whole (5.03)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman, 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "star rows",
+        "text": "H Castor → H Rahu Dec 52.9974 53 whole (75.96)",
+        "field": "also: 1 Third Wind / Tom O'Brien"
+       },
+       {
+        "part": "star rows",
+        "text": "H Castor → H Haumea Dec 13.0065 13 whole (45.81)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Castor → J Mercury RA 177.0123 177 whole (14.80)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Castor → J Saturn RA 120.0081 120 whole (35.69)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Castor → J Chiron Dec 39.9970 40 whole (72.28)",
+        "field": "also: 3 Emitom / Brian Hughes"
+       },
+       {
+        "part": "star rows",
+        "text": "J Castor → J Orcus RA 20.9845 21 whole (4.96)",
+        "field": "only"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Diadem → Sun RA 141.0006 141 whole (93.77)",
+        "field": ""
+       },
+       {
+        "part": "same number",
+        "text": "H Diadem → H Sun RA 141.0006 141 whole (93.77)",
+        "field": "only"
+       }
+      ]
+     },
+     {
+      "runner": "P09",
+      "name": "5 Wholestone / Sam Twiston-Davies",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Castor → H Sun RA 95.9904 96 whole (27.08)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "star rows",
+        "text": "H Castor → H Neptune RA 141.4018 141.4 sqrt2 (94.54)",
+        "field": "also: 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "H Castor → H Quaoar RA 148.8284 92×φ golden (0.25)",
+        "field": "also: 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Castor → J Uranus RA 171.9860 172 whole (8.98)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Castor → J Neptune RA 174.0056 174 whole (51.94)",
+        "field": "also: 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Castor → J Ceres Dec 62.0025 62 whole (76.20)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Castor → J Transpluto RA 31.9895 32 whole (22.48)",
+        "field": "also: 1 Third Wind / Tom O'Brien"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Murzim → Saturn RA 140.9943 141 whole (50.97)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P11",
+      "name": "6 Molly Ollys Wishes / Harry Skelton",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Castor → H Neptune RA 135.9086 84×φ golden (64.96)",
+        "field": "also: 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "star rows",
+        "text": "H Castor → H Pluto Dec 52.0068 52 whole (43.71)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman"
+       },
+       {
+        "part": "star rows",
+        "text": "H Castor → H Juno RA 104.9878 105 whole (15.07)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman"
+       },
+       {
+        "part": "star rows",
+        "text": "H Castor → H Ketu Dec 21.0043 21 whole (61.42)",
+        "field": "also: 1 Third Wind / Tom O'Brien"
+       },
+       {
+        "part": "star rows",
+        "text": "S Castor → J Jupiter Dec 9.0181 9 whole (0.90)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Castor → J Uranus RA 158.0174 158 whole (1.65)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "star rows",
+        "text": "J Castor → J Quaoar Dec 45.0159 45 whole (4.20)",
+        "field": "also: 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Aldebaran → Haumea RA 141.0063 141 whole (46.72)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Antares → Chiron RA 141.0097 141 whole (26.61)",
+        "field": ""
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Ankaa → Pluto RA 141.0147 141 whole (6.98)",
+        "field": ""
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "line": "S Sun → Meissa RA 111.1333 111.111 ninth (96.36)",
+    "centre": "Sun",
+    "point": "Meissa",
+    "plane": "RA",
+    "moon": [],
+    "runners_with_cells": "6/6",
+    "per_runner": [
+     {
+      "runner": "P01",
+      "name": "1 Third Wind / Tom O'Brien",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Meissa → H Eris Dec 13.0036 13 whole (67.62)",
+        "field": "also: 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "star rows",
+        "text": "H Meissa → H Gonggong Dec 23.0129 23 whole (12.72)",
+        "field": "also: 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Meissa → J Mars Dec 22.0130 22 whole (12.26)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Meissa → J Makemake RA 82.9956 83 whole (60.57)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Meissa → J Transpluto RA 59.8671 37×φ golden (98.82)",
+        "field": "also: 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "star rows",
+        "text": "J Meissa → J Ketu RA 114.8678 71×φ golden (37.07)",
+        "field": "also: 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Mirach → Quaoar RA 111.1409 111.111 ninth (95.13)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P03",
+      "name": "2 Thomas Darby / Aidan Coleman",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Meissa → H Pluto RA 161.9909 162 whole (29.77)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Meissa → H Ceres RA 1.3915 conj (0.52)",
+        "field": "also: 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "H Meissa → H Sedna Dec 3.0050 3 whole (56.26)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Meissa → J Vesta Dec 0.1960 conj (12.02)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Meissa → J Haumea Dec 13.0189 13 whole (0.28)",
+        "field": "also: 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Meissa → J Quaoar RA 146.9936 147 whole (46.31)",
+        "field": "also: 3 Emitom / Brian Hughes"
+       }
+      ]
+     },
+     {
+      "runner": "P05",
+      "name": "3 Emitom / Brian Hughes",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Meissa → H Venus RA 68.0007 68 whole (93.59)",
+        "field": "also: 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "star rows",
+        "text": "H Meissa → H Uranus RA 70.0142 70 whole (8.48)",
+        "field": "also: 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "H Meissa → H Quaoar RA 177.7309 177.778 ninth (96.33)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman"
+       },
+       {
+        "part": "star rows",
+        "text": "H Meissa → H Gonggong Dec 22.9921 23 whole (36.42)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Meissa → J Saturn RA 147.2282 91×φ golden (36.14)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Meissa → J Saturn Dec 26.1813 10×φ^2 phi power (98.57)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Meissa → J Haumea Dec 13.9918 14 whole (34.81)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Meissa → J Gonggong RA 115.0103 115 whole (23.39)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Meissa → J Transpluto Dec 4.9922 5 whole (37.08)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 5 Wholestone / Sam Twiston-Davies"
+       }
+      ]
+     },
+     {
+      "runner": "P07",
+      "name": "4 Top Ville Ben / Thomas Dowson",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Meissa → H Venus RA 1.0361 conj (9.56)",
+        "field": "also: 3 Emitom / Brian Hughes"
+       },
+       {
+        "part": "star rows",
+        "text": "H Meissa → H Pallas RA 85.7569 53×φ golden (93.36)",
+        "field": "also: 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "star rows",
+        "text": "H Meissa → H Juno Dec 13.0027 13 whole (74.72)",
+        "field": "also: 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "S Meissa → J Jupiter Dec 33.0139 33 whole (9.17)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Meissa → J Chiron RA 108.4238 67×φ golden (27.23)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Meissa → J Pallas Dec 9.9816 10 whole (0.67)",
+        "field": "also: 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "star rows",
+        "text": "J Meissa → J Eris Dec 17.9898 18 whole (24.03)",
+        "field": "also: 1 Third Wind / Tom O'Brien"
+       }
+      ]
+     },
+     {
+      "runner": "P09",
+      "name": "5 Wholestone / Sam Twiston-Davies",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Meissa → H Mercury Dec 0.0509 conj (68.94)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Meissa → H Uranus Dec 10.0043 10 whole (61.72)",
+        "field": "also: 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "H Meissa → H Transpluto Dec 1.9953 2 whole (58.84)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes"
+       },
+       {
+        "part": "star rows",
+        "text": "H Meissa → H Ketu RA 1.2799 conj (2.15)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Meissa → J Sun RA 117.0017 117 whole (83.45)",
+        "field": "also: 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Meissa → J Uranus Dec 33.0197 33 whole (0.03)",
+        "field": "also: 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Meissa → J Pallas RA 174.0154 174 whole (5.33)",
+        "field": "also: 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "star rows",
+        "text": "J Meissa → J Ketu RA 1.1044 conj (6.96)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Meissa → J Ketu Dec 13.3343 13.3333 ninth (98.86)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Al Rescha → Chiron RA 111.1810 111.111 ninth (88.56)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P11",
+      "name": "6 Molly Ollys Wishes / Harry Skelton",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Meissa → H Sun RA 85.9805 86 whole (0.05)",
+        "field": "also: 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "star rows",
+        "text": "H Meissa → H Uranus Dec 6.0107 6 whole (21.82)",
+        "field": "also: 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "star rows",
+        "text": "H Meissa → H Neptune Dec 19.9862 20 whole (9.75)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Meissa → H Ceres RA 129.4297 80×φ golden (35.84)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman"
+       },
+       {
+        "part": "star rows",
+        "text": "H Meissa → H Juno Dec 10.0190 10 whole (0.23)",
+        "field": "also: 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "star rows",
+        "text": "H Meissa → H Haumea RA 126.2009 78×φ golden (67.47)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes"
+       },
+       {
+        "part": "star rows",
+        "text": "J Meissa → J Sun Dec 8.9995 9 whole (95.24)",
+        "field": "also: 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "star rows",
+        "text": "J Meissa → J Rahu RA 116.0003 116 whole (96.86)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Meissa → J Haumea RA 102.9884 103 whole (17.67)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes"
+       },
+       {
+        "part": "star rows",
+        "text": "J Meissa → J Gonggong RA 114.8487 71×φ golden (0.04)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes"
+       },
+       {
+        "part": "star rows",
+        "text": "J Meissa → J Ketu RA 63.9997 64 whole (96.86)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Alkes → Sedna RA 111.1186 111.111 ninth (98.77)",
+        "field": ""
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "line": "S Sun → Orion Nebula Cluster RA 111.1709 111.111 ninth (90.21)",
+    "centre": "Sun",
+    "point": "Orion Nebula Cluster",
+    "plane": "RA",
+    "moon": [],
+    "runners_with_cells": "6/6",
+    "per_runner": [
+     {
+      "runner": "P01",
+      "name": "1 Third Wind / Tom O'Brien",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Orion Nebula Cluster → H Mars RA 106.9940 107 whole (49.08)",
+        "field": "also: 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "star rows",
+        "text": "H Orion Nebula Cluster → H Transpluto Dec 17.0005 17 whole (94.77)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "star rows",
+        "text": "J Orion Nebula Cluster → J Pallas RA 128.0129 128 whole (12.45)",
+        "field": "also: 3 Emitom / Brian Hughes"
+       },
+       {
+        "part": "star rows",
+        "text": "J Orion Nebula Cluster → J Vesta Dec 1.8887 1.88889 ninth (98.48)",
+        "field": "also: 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "star rows",
+        "text": "J Orion Nebula Cluster → J Gonggong RA 116.0032 116 whole (70.72)",
+        "field": "also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Mirach → Quaoar RA 111.1409 111.111 ninth (95.13)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P03",
+      "name": "2 Thomas Darby / Aidan Coleman",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Orion Nebula Cluster → H Mercury RA 104.9850 105 whole (6.34)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Orion Nebula Cluster → H Ceres RA 1.4291 conj (0.22)",
+        "field": "also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "star rows",
+        "text": "H Orion Nebula Cluster → H Transpluto Dec 17.0071 17 whole (41.85)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "star rows",
+        "text": "J Orion Nebula Cluster → J Saturn Dec 16.9873 17 whole (13.24)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Orion Nebula Cluster → J Juno Dec 18.0027 18 whole (74.58)",
+        "field": "also: 4 Top Ville Ben / Thomas Dowson"
+       }
+      ]
+     },
+     {
+      "runner": "P05",
+      "name": "3 Emitom / Brian Hughes",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Orion Nebula Cluster → H Jupiter Dec 28.0042 28 whole (62.28)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Orion Nebula Cluster → H Pallas Dec 18.9902 19 whole (25.88)",
+        "field": "also: 1 Third Wind / Tom O'Brien"
+       },
+       {
+        "part": "star rows",
+        "text": "H Orion Nebula Cluster → H Quaoar RA 177.7685 177.778 ninth (99.28)",
+        "field": "also: 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "star rows",
+        "text": "H Orion Nebula Cluster → H Gonggong RA 108.0127 108 whole (13.25)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "H Orion Nebula Cluster → H Transpluto Dec 17.0066 17 whole (44.89)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "star rows",
+        "text": "J Orion Nebula Cluster → J Neptune RA 170.9902 171 whole (25.77)",
+        "field": "also: 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "star rows",
+        "text": "J Orion Nebula Cluster → J Ceres RA 10.0134 10 whole (10.84)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "star rows",
+        "text": "J Orion Nebula Cluster → J Gonggong Dec 16.0186 16 whole (0.46)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Orion Nebula Cluster → J Transpluto RA 58.2431 36×φ golden (65.49)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "natal Jupiter → star",
+        "text": "H Jupiter → H star Orion Nebula Cluster Dec 28.0042 28 whole (62.28)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman, 5 Wholestone / Sam Twiston-Davies"
+       }
+      ]
+     },
+     {
+      "runner": "P07",
+      "name": "4 Top Ville Ben / Thomas Dowson",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Orion Nebula Cluster → H Venus RA 1.0738 conj (8.07)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Orion Nebula Cluster → H Mars Dec 14.5689 9×φ golden (63.48)",
+        "field": "also: 1 Third Wind / Tom O'Brien"
+       },
+       {
+        "part": "star rows",
+        "text": "H Orion Nebula Cluster → H Chiron RA 105.0035 105 whole (67.91)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Orion Nebula Cluster → H Ceres RA 39.0041 39 whole (63.20)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes"
+       },
+       {
+        "part": "star rows",
+        "text": "H Orion Nebula Cluster → H Juno RA 156.9840 157 whole (3.95)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman"
+       },
+       {
+        "part": "star rows",
+        "text": "H Orion Nebula Cluster → H Haumea Dec 24.2751 15×φ golden (73.52)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Orion Nebula Cluster → H Quaoar RA 179.4849 10×φ^6 phi power (90.82)",
+        "field": "also: 3 Emitom / Brian Hughes"
+       },
+       {
+        "part": "star rows",
+        "text": "H Orion Nebula Cluster → H Gonggong RA 108.4305 67×φ golden (9.80)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Orion Nebula Cluster → J Uranus Dec 15.0133 15 whole (11.14)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Orion Nebula Cluster → J Neptune RA 146.0157 146 whole (4.61)",
+        "field": "also: 3 Emitom / Brian Hughes"
+       },
+       {
+        "part": "star rows",
+        "text": "J Orion Nebula Cluster → J Sedna Dec 9.9828 10 whole (1.93)",
+        "field": "also: 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Orion Nebula Cluster → J Haumea RA 110.0363 68×φ golden (47.60)",
+        "field": "only"
+       }
+      ]
+     },
+     {
+      "runner": "P09",
+      "name": "5 Wholestone / Sam Twiston-Davies",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Orion Nebula Cluster → H Pluto Dec 13.3361 13.3333 ninth (96.74)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Orion Nebula Cluster → H Vesta RA 139.1194 86×φ golden (0.07)",
+        "field": "also: 1 Third Wind / Tom O'Brien"
+       },
+       {
+        "part": "star rows",
+        "text": "H Orion Nebula Cluster → H Transpluto RA 67.0186 67 whole (0.50)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes"
+       },
+       {
+        "part": "star rows",
+        "text": "H Orion Nebula Cluster → H Ketu RA 1.2422 conj (2.95)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Orion Nebula Cluster → J Ketu RA 1.1419 conj (5.70)",
+        "field": "only"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Al Rescha → Chiron RA 111.1810 111.111 ninth (88.56)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P11",
+      "name": "6 Molly Ollys Wishes / Harry Skelton",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Orion Nebula Cluster → H Sun RA 86.0181 86 whole (0.94)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Orion Nebula Cluster → H Sedna RA 29.9934 30 whole (45.06)",
+        "field": "also: 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "star rows",
+        "text": "H Orion Nebula Cluster → H Makemake RA 108.4244 67×φ golden (25.31)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Orion Nebula Cluster → H Gonggong RA 108.4314 67×φ golden (8.14)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "star rows",
+        "text": "J Orion Nebula Cluster → J Sun RA 94.0136 94 whole (10.24)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Orion Nebula Cluster → J Makemake RA 85.0138 85 whole (9.61)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Orion Nebula Cluster → J Gonggong RA 114.8863 71×φ golden (66.98)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Alkes → Sedna RA 111.1186 111.111 ninth (98.77)",
+        "field": ""
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "line": "S Jupiter → Rigel Dec 0.0255 conj (83.71)",
+    "centre": "Jupiter",
+    "point": "Rigel",
+    "plane": "Dec",
+    "moon": [],
+    "runners_with_cells": "6/6",
+    "per_runner": [
+     {
+      "runner": "P01",
+      "name": "1 Third Wind / Tom O'Brien",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "S Rigel → H Jupiter RA 27.5085 17×φ golden (88.74)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Rigel → H Ceres Dec 12.0141 12 whole (8.79)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "S Rigel → J Jupiter RA 93.0164 93 whole (3.31)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rigel → J Neptune Dec 14.1403 14.14 sqrt2 (94.87)",
+        "field": "also: 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rigel → J Chiron RA 0.4471 conj (49.27)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rigel → J Vesta RA 72.0152 72 whole (5.68)",
+        "field": "also: 3 Emitom / Brian Hughes"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rigel → J Rahu RA 59.9823 60 whole (1.33)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rigel → J Orcus Dec 13.3353 13.3333 ninth (97.63)",
+        "field": "also: 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rigel → J Transpluto RA 65.0170 65 whole (2.24)",
+        "field": "also: 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rigel → J Ketu RA 120.0177 120 whole (1.33)",
+        "field": "also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "MATCH CONJ STAR",
+        "text": "J Rigel → Neptune Dec 14.1403 14.14 sqrt2 (94.87)",
+        "field": ""
+       },
+       {
+        "part": "MATCH CONJ STAR",
+        "text": "J Rigel → Orcus Dec 13.3353 13.3333 ninth (97.63)",
+        "field": ""
+       },
+       {
+        "part": "MATCH CONJ STAR",
+        "text": "S Jupiter → J body → Pluto Dec 8.9941 9 whole (50.04)",
+        "field": ""
+       },
+       {
+        "part": "MATCH CONJ STAR",
+        "text": "S Jupiter → J body → Orcus RA 144.4764 144.444 ninth (96.62)",
+        "field": ""
+       },
+       {
+        "part": "MATCH CONJ STAR",
+        "text": "S Jupiter → J body → Ketu RA 144.4531 144.444 ninth (99.08)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P03",
+      "name": "2 Thomas Darby / Aidan Coleman",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Rigel → H Saturn RA 140.7726 87×φ golden (78.63)",
+        "field": "also: 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "H Rigel → H Chiron Dec 5.0061 5 whole (48.54)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "star rows",
+        "text": "H Rigel → H Gonggong RA 103.5380 64×φ golden (25.06)",
+        "field": "also: 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rigel → J Uranus RA 171.5251 106×φ golden (33.93)",
+        "field": "also: 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rigel → J Pluto RA 144.0315 89×φ golden (3.34)",
+        "field": "also: 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rigel → J Rahu Dec 2.0178 2 whole (1.19)",
+        "field": "also: 1 Third Wind / Tom O'Brien"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rigel → J Eris RA 55.9809 56 whole (0.22)",
+        "field": "also: 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "MATCH CONJ STAR",
+        "text": "H Rigel → Saturn RA 140.7726 87×φ golden (78.63)",
+        "field": ""
+       },
+       {
+        "part": "MATCH CONJ STAR",
+        "text": "S Jupiter → H body → Mercury Dec 2.4149 2.414 silver (94.83)",
+        "field": ""
+       },
+       {
+        "part": "MATCH CONJ STAR",
+        "text": "S Jupiter → J body → Mercury RA 177.7622 177.778 ninth (98.78)",
+        "field": ""
+       },
+       {
+        "part": "MATCH CONJ STAR",
+        "text": "S Jupiter → J body → Mars RA 29.0382 φ^7 phi power (94.84)",
+        "field": ""
+       },
+       {
+        "part": "MATCH CONJ STAR",
+        "text": "S Jupiter → J body → Saturn Dec 14.1463 14.14 sqrt2 (88.57)",
+        "field": ""
+       },
+       {
+        "part": "MATCH CONJ STAR",
+        "text": "S Jupiter → J body → Uranus RA 76.0038 76 whole (65.39)",
+        "field": ""
+       },
+       {
+        "part": "MATCH CONJ STAR",
+        "text": "S Jupiter → J body → Neptune Dec 14.0039 14 whole (64.97)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P05",
+      "name": "3 Emitom / Brian Hughes",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Rigel → H Vesta RA 120.9812 121 whole (0.33)",
+        "field": "also: 1 Third Wind / Tom O'Brien"
+       },
+       {
+        "part": "star rows",
+        "text": "H Rigel → H Makemake Dec 35.0055 35 whole (52.57)",
+        "field": "also: 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rigel → J Quaoar Dec 4.0127 4 whole (13.42)",
+        "field": "also: 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rigel → J Ketu Dec 8.9959 9 whole (63.32)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "MATCH CONJ STAR",
+        "text": "H Rigel → Makemake Dec 35.0055 35 whole (52.57)",
+        "field": ""
+       },
+       {
+        "part": "MATCH CONJ STAR",
+        "text": "J Rigel → Ketu Dec 8.9959 9 whole (63.32)",
+        "field": ""
+       },
+       {
+        "part": "MATCH CONJ STAR",
+        "text": "S Jupiter → J body → Makemake RA 179.4693 10×φ^6 phi power (94.17)",
+        "field": ""
+       },
+       {
+        "part": "MATCH CONJ STAR",
+        "text": "S Jupiter → J body → Orcus RA 141.4018 141.4 sqrt2 (94.54)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P07",
+      "name": "4 Top Ville Ben / Thomas Dowson",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Rigel → H Neptune RA 103.5643 64×φ golden (47.41)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "H Rigel → H Makemake RA 110.9195 10×φ^5 phi power (93.67)",
+        "field": "also: 3 Emitom / Brian Hughes"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rigel → J Sun Dec 9.0035 9 whole (67.71)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rigel → J Saturn RA 84.9901 85 whole (25.49)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman, 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rigel → J Pluto Dec 0.2528 conj (2.47)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rigel → J Chiron Dec 0.0947 conj (46.84)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rigel → J Eris Dec 0.1473 conj (25.91)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rigel → J Makemake Dec 41.9939 42 whole (48.33)",
+        "field": "also: 3 Emitom / Brian Hughes"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rigel → J Orcus RA 56.0024 56 whole (77.37)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rigel → J Ketu Dec 16.0030 16 whole (72.36)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes"
+       },
+       {
+        "part": "MATCH CONJ STAR",
+        "text": "H Rigel → Makemake RA 110.9195 10×φ^5 phi power (93.67)",
+        "field": ""
+       },
+       {
+        "part": "MATCH CONJ STAR",
+        "text": "S Jupiter → H body → Mercury RA 63.9963 64 whole (66.18)",
+        "field": ""
+       },
+       {
+        "part": "MATCH CONJ STAR",
+        "text": "S Jupiter → H body → Ceres Dec 20.0007 20 whole (93.26)",
+        "field": ""
+       },
+       {
+        "part": "MATCH CONJ STAR",
+        "text": "J Rigel → Sun Dec 9.0035 9 whole (67.71)",
+        "field": ""
+       },
+       {
+        "part": "MATCH CONJ STAR",
+        "text": "J Rigel → Orcus RA 56.0024 56 whole (77.37)",
+        "field": ""
+       },
+       {
+        "part": "MATCH CONJ STAR",
+        "text": "J Rigel → Ketu Dec 16.0030 16 whole (72.36)",
+        "field": ""
+       },
+       {
+        "part": "MATCH CONJ STAR",
+        "text": "S Jupiter → J body → Venus RA 8.9963 9 whole (66.09)",
+        "field": ""
+       },
+       {
+        "part": "MATCH CONJ STAR",
+        "text": "S Jupiter → J body → Neptune RA 45.3006 28×φ golden (75.05)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P09",
+      "name": "5 Wholestone / Sam Twiston-Davies",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "J Rigel → J Venus RA 153.7432 95×φ golden (0.53)",
+        "field": "also: 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rigel → J Saturn Dec 10.0169 10 whole (2.36)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rigel → J Uranus RA 153.0015 153 whole (85.29)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rigel → J Neptune RA 150.9819 151 whole (0.94)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rigel → J Transpluto RA 67.0020 67 whole (81.36)",
+        "field": "also: 1 Third Wind / Tom O'Brien"
+       },
+       {
+        "part": "MATCH CONJ STAR",
+        "text": "S Jupiter → H body → Venus RA 4.2370 φ^3 phi power (92.96)",
+        "field": ""
+       },
+       {
+        "part": "MATCH CONJ STAR",
+        "text": "S Jupiter → H body → Sedna Dec 15.0031 15 whole (71.18)",
+        "field": ""
+       },
+       {
+        "part": "MATCH CONJ STAR",
+        "text": "J Rigel → Uranus RA 153.0015 153 whole (85.29)",
+        "field": ""
+       },
+       {
+        "part": "MATCH CONJ STAR",
+        "text": "J Rigel → Transpluto RA 67.0020 67 whole (81.36)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P11",
+      "name": "6 Molly Ollys Wishes / Harry Skelton",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Rigel → H Orcus Dec 0.0483 conj (70.40)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "star rows",
+        "text": "H Rigel → H Gonggong Dec 5.0144 5 whole (7.95)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rigel → J Venus RA 137.9904 138 whole (27.24)",
+        "field": "also: 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rigel → J Saturn Dec 14.5643 9×φ golden (88.11)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rigel → J Neptune Dec 13.9880 14 whole (15.94)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 4 Top Ville Ben / Thomas Dowson, 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rigel → J Juno Dec 8.0172 8 whole (2.00)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rigel → J Sedna Dec 12.2230 12.2222 ninth (98.86)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Rigel → J Quaoar RA 153.7148 95×φ golden (90.48)",
+        "field": "also: 3 Emitom / Brian Hughes"
+       },
+       {
+        "part": "MATCH CONJ STAR",
+        "text": "H Rigel → Orcus Dec 0.0483 conj (70.40)",
+        "field": ""
+       },
+       {
+        "part": "MATCH CONJ STAR",
+        "text": "S Jupiter → H body → Mars Dec 1.0004 1 whole (96.33)",
+        "field": ""
+       },
+       {
+        "part": "MATCH CONJ STAR",
+        "text": "S Jupiter → H body → Chiron RA 0.4131 conj (52.50)",
+        "field": ""
+       },
+       {
+        "part": "MATCH CONJ STAR",
+        "text": "S Jupiter → H body → Sedna RA 70.7175 70.7 sqrt2 (96.17)",
+        "field": ""
+       },
+       {
+        "part": "MATCH CONJ STAR",
+        "text": "S Jupiter → H body → Orcus Dec 0.0735 conj (57.00)",
+        "field": ""
+       },
+       {
+        "part": "MATCH CONJ STAR",
+        "text": "J Rigel → Saturn Dec 14.5643 9×φ golden (88.11)",
+        "field": ""
+       },
+       {
+        "part": "MATCH CONJ STAR",
+        "text": "J Rigel → Sedna Dec 12.2230 12.2222 ninth (98.86)",
+        "field": ""
+       },
+       {
+        "part": "MATCH CONJ STAR",
+        "text": "J Rigel → Quaoar RA 153.7148 95×φ golden (90.48)",
+        "field": ""
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "line": "S Jupiter → Diadem RA 145.6131 90×φ golden (47.74)",
+    "centre": "Jupiter",
+    "point": "Diadem",
+    "plane": "RA",
+    "moon": [
+     "S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)"
+    ],
+    "runners_with_cells": "6/6",
+    "per_runner": [
+     {
+      "runner": "P01",
+      "name": "1 Third Wind / Tom O'Brien",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Diadem → H Mercury RA 153.0118 153 whole (16.70)",
+        "field": "also: 3 Emitom / Brian Hughes"
+       },
+       {
+        "part": "star rows",
+        "text": "H Diadem → H Mercury Dec 0.0375 conj (76.57)",
+        "field": "also: 3 Emitom / Brian Hughes"
+       },
+       {
+        "part": "star rows",
+        "text": "H Diadem → H Saturn Dec 33.0075 33 whole (39.03)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Diadem → H Neptune RA 141.4622 141.4 sqrt2 (88.77)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman, 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "star rows",
+        "text": "H Diadem → H Eris RA 171.9869 172 whole (11.78)",
+        "field": "also: 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "star rows",
+        "text": "H Diadem → H Makemake RA 5.9935 6 whole (45.41)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman"
+       },
+       {
+        "part": "star rows",
+        "text": "H Diadem → H Quaoar Dec 33.0187 33 whole (0.45)",
+        "field": "also: 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Diadem → J Chiron Dec 0.1436 conj (27.20)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman, 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "star rows",
+        "text": "J Diadem → J Ketu RA 1.1628 conj (5.05)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman"
+       }
+      ]
+     },
+     {
+      "runner": "P03",
+      "name": "2 Thomas Darby / Aidan Coleman",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Diadem → H Chiron RA 142.0031 142 whole (71.01)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "star rows",
+        "text": "H Diadem → H Makemake RA 5.9810 6 whole (0.23)",
+        "field": "also: 1 Third Wind / Tom O'Brien"
+       },
+       {
+        "part": "star rows",
+        "text": "H Diadem → H Ketu Dec 0.2278 conj (5.79)",
+        "field": "also: 1 Third Wind / Tom O'Brien"
+       },
+       {
+        "part": "star rows",
+        "text": "J Diadem → J Neptune RA 80.9878 81 whole (15.06)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "star rows",
+        "text": "J Diadem → J Chiron Dec 0.0135 conj (91.17)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "star rows",
+        "text": "J Diadem → J Sedna RA 155.5801 155.556 ninth (97.68)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Diadem → J Orcus RA 69.0058 69 whole (50.67)",
+        "field": "also: 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies"
+       }
+      ]
+     },
+     {
+      "runner": "P05",
+      "name": "3 Emitom / Brian Hughes",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Diadem → H Mercury RA 121.9854 122 whole (7.23)",
+        "field": "also: 1 Third Wind / Tom O'Brien"
+       },
+       {
+        "part": "star rows",
+        "text": "H Diadem → H Mars RA 9.0032 9 whole (70.15)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Diadem → H Quaoar RA 68.5491 10×φ^4 phi power (95.33)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Diadem → J Orcus RA 72.9882 73 whole (16.90)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman, 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Nunki → Chiron RA 145.6419 90×φ golden (17.36)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P07",
+      "name": "4 Top Ville Ben / Thomas Dowson",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Diadem → H Sun RA 141.0006 141 whole (93.77)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Diadem → H Vesta RA 159.9892 160 whole (21.28)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Diadem → J Venus Dec 21.9855 22 whole (7.69)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Diadem → J Neptune RA 100.3106 62×φ golden (59.10)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman"
+       },
+       {
+        "part": "star rows",
+        "text": "J Diadem → J Neptune Dec 38.0146 38 whole (7.21)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman"
+       },
+       {
+        "part": "star rows",
+        "text": "J Diadem → J Rahu RA 0.9163 conj (15.14)",
+        "field": "only"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "J Ras Algethi → Sedna RA 145.6244 90×φ golden (92.08)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P09",
+      "name": "5 Wholestone / Sam Twiston-Davies",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Diadem → H Chiron RA 135.9974 136 whole (75.35)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 2 Thomas Darby / Aidan Coleman"
+       },
+       {
+        "part": "star rows",
+        "text": "H Diadem → H Juno RA 30.0078 30 whole (37.09)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Diadem → H Orcus RA 51.0016 51 whole (84.42)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman, 3 Emitom / Brian Hughes"
+       },
+       {
+        "part": "star rows",
+        "text": "J Diadem → J Jupiter Dec 16.9848 17 whole (5.69)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Diadem → J Jupiter RA 16.0197 16 whole (0.03)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Diadem → J Eris RA 174.7792 108×φ golden (0.07)",
+        "field": "also: 1 Third Wind / Tom O'Brien"
+       },
+       {
+        "part": "MATCH EXACT",
+        "text": "H Betelgeuse → Pallas RA 145.6167 90×φ golden (64.63)",
+        "field": ""
+       }
+      ]
+     },
+     {
+      "runner": "P11",
+      "name": "6 Molly Ollys Wishes / Harry Skelton",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Diadem → H Quaoar RA 69.0009 69 whole (90.78)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes"
+       },
+       {
+        "part": "star rows",
+        "text": "H Diadem → H Gonggong Dec 30.7463 19×φ golden (78.82)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Diadem → H Transpluto Dec 6.0093 6 whole (28.62)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Diadem → J Gonggong Dec 38.0017 38 whole (83.45)",
+        "field": "only"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "line": "S Sun → Spica Dec 0.1018 conj (43.67)",
+    "centre": "Sun",
+    "point": "Spica",
+    "plane": "Dec",
+    "moon": [],
+    "runners_with_cells": "6/6",
+    "per_runner": [
+     {
+      "runner": "P01",
+      "name": "1 Third Wind / Tom O'Brien",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Spica → H Juno RA 168.9911 169 whole (30.59)",
+        "field": "also: 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "H Spica → H Vesta RA 0.8615 conj (18.12)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Spica → H Haumea RA 7.9806 8 whole (0.10)",
+        "field": "also: 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "star rows",
+        "text": "H Spica → H Makemake Dec 37.9953 38 whole (58.21)",
+        "field": "also: 3 Emitom / Brian Hughes"
+       },
+       {
+        "part": "star rows",
+        "text": "H Spica → H Quaoar RA 64.9839 65 whole (3.83)",
+        "field": "also: 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "star rows",
+        "text": "H Spica → H Ketu Dec 21.9875 22 whole (14.07)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Spica → J Mars RA 132.9996 133 whole (95.94)",
+        "field": "also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "star rows",
+        "text": "J Spica → J Chiron RA 122.2073 122.222 ninth (97.94)",
+        "field": "also: 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "star rows",
+        "text": "J Spica → J Haumea RA 16.0097 16 whole (26.64)",
+        "field": "also: 5 Wholestone / Sam Twiston-Davies"
+       }
+      ]
+     },
+     {
+      "runner": "P03",
+      "name": "2 Thomas Darby / Aidan Coleman",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Spica → H Mercury RA 137.5350 85×φ golden (87.25)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Spica → H Neptune Dec 0.2891 conj (0.13)",
+        "field": "also: 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "star rows",
+        "text": "H Spica → H Pallas RA 175.0107 175 whole (21.75)",
+        "field": "also: 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "star rows",
+        "text": "H Spica → H Eris RA 176.3926 109×φ golden (2.84)",
+        "field": "also: 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "star rows",
+        "text": "J Spica → J Orcus Dec 15.9949 16 whole (55.45)",
+        "field": "also: 6 Molly Ollys Wishes / Harry Skelton"
+       }
+      ]
+     },
+     {
+      "runner": "P05",
+      "name": "3 Emitom / Brian Hughes",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Spica → H Saturn Dec 4.0052 4 whole (54.96)",
+        "field": "also: 5 Wholestone / Sam Twiston-Davies, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "H Spica → H Pluto Dec 8.9818 9 whole (0.84)",
+        "field": "also: 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "star rows",
+        "text": "H Spica → H Ceres RA 0.7731 conj (23.48)",
+        "field": "also: 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "star rows",
+        "text": "H Spica → H Ceres Dec 14.5625 9×φ golden (98.94)",
+        "field": "also: 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "star rows",
+        "text": "H Spica → H Makemake RA 10.0122 10 whole (15.31)",
+        "field": "also: 1 Third Wind / Tom O'Brien"
+       },
+       {
+        "part": "star rows",
+        "text": "J Spica → J Mars RA 105.1983 65×φ golden (3.73)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "star rows",
+        "text": "J Spica → J Sedna RA 161.0053 161 whole (53.69)",
+        "field": "also: 4 Top Ville Ben / Thomas Dowson, 6 Molly Ollys Wishes / Harry Skelton"
+       }
+      ]
+     },
+     {
+      "runner": "P07",
+      "name": "4 Top Ville Ben / Thomas Dowson",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Spica → H Venus Dec 38.0138 38 whole (9.49)",
+        "field": "also: 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "H Spica → H Neptune Dec 0.1822 conj (15.42)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman"
+       },
+       {
+        "part": "star rows",
+        "text": "H Spica → H Chiron RA 137.5111 85×φ golden (10.75)",
+        "field": "also: 1 Third Wind / Tom O'Brien"
+       },
+       {
+        "part": "star rows",
+        "text": "H Spica → H Quaoar RA 61.9995 62 whole (95.53)",
+        "field": "also: 1 Third Wind / Tom O'Brien"
+       },
+       {
+        "part": "star rows",
+        "text": "H Spica → H Transpluto Dec 23.0117 23 whole (17.02)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Spica → J Mars Dec 5.0000 5 whole (99.80)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 3 Emitom / Brian Hughes"
+       },
+       {
+        "part": "star rows",
+        "text": "J Spica → J Pluto RA 42.0187 42 whole (0.44)",
+        "field": "also: 3 Emitom / Brian Hughes"
+       },
+       {
+        "part": "star rows",
+        "text": "J Spica → J Pallas Dec 11.1135 11.1111 ninth (96.17)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman"
+       },
+       {
+        "part": "star rows",
+        "text": "J Spica → J Sedna RA 157.0174 157 whole (1.74)",
+        "field": "also: 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "J Spica → J Gonggong RA 129.4499 80×φ golden (60.61)",
+        "field": "only"
+       }
+      ]
+     },
+     {
+      "runner": "P09",
+      "name": "5 Wholestone / Sam Twiston-Davies",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Spica → H Jupiter RA 174.7738 108×φ golden (3.74)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Spica → H Sun RA 176.3553 109×φ golden (46.12)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Spica → H Saturn RA 8.0104 8 whole (22.98)",
+        "field": "also: 3 Emitom / Brian Hughes, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "H Spica → H Uranus Dec 11.0920 φ^5 phi power (93.37)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Spica → H Juno Dec 18.9887 19 whole (19.04)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 6 Molly Ollys Wishes / Harry Skelton"
+       },
+       {
+        "part": "star rows",
+        "text": "H Spica → H Eris RA 176.3806 109×φ golden (29.19)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman"
+       },
+       {
+        "part": "star rows",
+        "text": "J Spica → J Sun RA 0.5040 conj (44.09)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "J Spica → J Ceres RA 101.9858 102 whole (8.37)",
+        "field": "also: 3 Emitom / Brian Hughes"
+       },
+       {
+        "part": "star rows",
+        "text": "J Spica → J Haumea Dec 33.0127 33 whole (13.30)",
+        "field": "also: 1 Third Wind / Tom O'Brien"
+       }
+      ]
+     },
+     {
+      "runner": "P11",
+      "name": "6 Molly Ollys Wishes / Harry Skelton",
+      "cells": [
+       {
+        "part": "star rows",
+        "text": "H Spica → H Venus RA 111.6376 69×φ golden (62.60)",
+        "field": "also: 4 Top Ville Ben / Thomas Dowson"
+       },
+       {
+        "part": "star rows",
+        "text": "H Spica → H Saturn Dec 5.0050 5 whole (56.14)",
+        "field": "also: 3 Emitom / Brian Hughes, 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "star rows",
+        "text": "H Spica → H Rahu Dec 0.2793 conj (0.47)",
+        "field": "only"
+       },
+       {
+        "part": "star rows",
+        "text": "H Spica → H Orcus Dec 3.0069 3 whole (42.84)",
+        "field": "also: 2 Thomas Darby / Aidan Coleman"
+       },
+       {
+        "part": "star rows",
+        "text": "J Spica → J Juno RA 11.1155 11.1111 ninth (92.74)",
+        "field": "also: 1 Third Wind / Tom O'Brien, 5 Wholestone / Sam Twiston-Davies"
+       },
+       {
+        "part": "star rows",
+        "text": "J Spica → J Sedna RA 159.0181 159 whole (0.87)",
+        "field": "also: 3 Emitom / Brian Hughes, 4 Top Ville Ben / Thomas Dowson"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "body_lines": [
+   "S Sun → Gonggong Dec 0.0230 conj (85.28)",
+   "S Sun → Uranus RA 65.9983 66 whole (83.81)",
+   "S Jupiter → Rahu Dec 27.5018 17×φ golden (72.49)",
+   "S Jupiter → Juno RA 35.9948 36 whole (54.98)"
+  ],
+  "moon_only": [
+   "S Moon → Eris Dec 2.0000 2 whole (99.75)",
+   "S Moon → Wezen RA 79.2836 49×φ golden (99.53)",
+   "S Moon → Pluto RA 113.2614 70×φ golden (94.02)"
+  ]
+ },
  "sky": {
   "hubs": [
    "Diadem"

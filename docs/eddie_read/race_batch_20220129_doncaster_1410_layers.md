@@ -22,6 +22,566 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Moon → Jupiter RA 66.0010 66 whole (90.00)
 - Hubs: none
 
+## READ (reading order, Eddie 7 Nov 2026)
+### READ 1 same body first
+- **1 Miranda / Bryony Frost**
+  - S Sun → H Sun RA 43.9710 44 whole (loose)
+  - S Mercury → H Mercury RA 39.9743 40 whole (loose)
+  - S Saturn → H Saturn RA 74.4529 46×φ golden (loose)
+  - S Uranus → H Uranus RA 24.1705 24.14 silver (loose)
+  - S Pallas → H Pallas Dec 22.2346 22.2222 ninth (loose)
+  - S Eris → H Eris RA 0.6187 φ^-1 phi power (loose)
+  - S Transpluto → H Transpluto Dec 0.9889 1 whole (20.01)
+  - S Saturn → J Saturn Dec 11.3474 7×φ golden (loose)
+  - S Pluto → J Pluto Dec 15.9759 16 whole (loose)
+  - S Chiron → J Chiron Dec 5.9970 6 whole (72.66)
+  - S Pallas → J Pallas RA 78.9918 79 whole (35.06)
+  - S Pallas → J Pallas Dec 4.9777 5 whole (loose)
+  - S Rahu → J Rahu Dec 33.3151 33.3333 ninth (loose)
+  - S Sedna → J Sedna RA 14.0914 14.14 sqrt2 (loose)
+  - S Makemake → J Makemake Dec 12.2546 12.2222 ninth (loose)
+  - S Quaoar → J Quaoar Dec 1.2205 1.22222 ninth (loose)
+  - S Gonggong → J Gonggong Dec 6.9851 7 whole (6.55)
+  - S Ketu → J Ketu Dec 33.3151 33.3333 ninth (loose)
+- **2 Western Victory / Tom Bellamy**
+  - S Sun → H Sun RA 44.4423 44.4444 ninth (97.73)
+  - S Venus → H Venus RA 72.8110 45×φ golden (96.59)
+  - S Uranus → H Uranus Dec 12.2244 12.2222 ninth (97.02)
+  - S Neptune → H Neptune RA 16.5777 16.6667 ninth (loose)
+  - S Chiron → H Chiron RA 27.4788 17×φ golden (loose)
+  - S Juno → H Juno RA 2.0151 2 whole (5.99)
+  - S Vesta → H Vesta RA 155.7777 155.556 ninth (loose)
+  - S Transpluto → H Transpluto Dec 1.2285 1.22222 ninth (loose)
+  - S Jupiter → J Jupiter Dec 4.9722 5 whole (loose)
+  - S Neptune → J Neptune Dec 16.6831 16.6667 ninth (loose)
+  - S Pallas → J Pallas Dec 3.0091 3 whole (29.59)
+  - S Juno → J Juno RA 80.8870 50×φ golden (loose)
+  - S Rahu → J Rahu RA 166.5468 166.667 ninth (loose)
+  - S Haumea → J Haumea RA 26.1747 10×φ^2 phi power (loose)
+  - S Makemake → J Makemake Dec 11.1299 11.1111 ninth (loose)
+  - S Ketu → J Ketu RA 166.5468 166.667 ninth (loose)
+- **3 Anna Bunina / James Bowen**
+  - S Saturn → H Saturn RA 62.9861 63 whole (9.33)
+  - S Uranus → H Uranus Dec 8.0992 5×φ golden (loose)
+  - S Neptune → H Neptune RA 11.0534 φ^5 phi power (loose)
+  - S Pluto → H Pluto RA 11.0792 φ^5 phi power (loose)
+  - S Chiron → H Chiron RA 17.9974 18 whole (75.58)
+  - S Ceres → H Ceres RA 69.5751 43×φ golden (97.60)
+  - S Rahu → H Rahu Dec 16.5660 16.6667 ninth (loose)
+  - S Eris → H Eris Dec 1.4199 1.414 sqrt2 (loose)
+  - S Ketu → H Ketu Dec 16.5660 16.6667 ninth (loose)
+  - S Venus → J Venus RA 92.0131 92 whole (11.76)
+  - S Venus → J Venus Dec 30.0196 30 whole (0.03)
+  - S Neptune → J Neptune RA 42.0166 42 whole (2.89)
+  - S Ceres → J Ceres RA 133.1851 133.333 ninth (loose)
+  - S Pallas → J Pallas RA 102.0036 102 whole (67.38)
+  - S Juno → J Juno RA 73.9843 74 whole (4.71)
+  - S Juno → J Juno Dec 12.9148 8×φ golden (loose)
+  - S Haumea → J Haumea Dec 6.0290 6 whole (loose)
+  - S Makemake → J Makemake RA 18.7884 18.8889 ninth (loose)
+  - S Quaoar → J Quaoar RA 27.0298 27 whole (loose)
+- **4 Dazzling Glory / Harry Skelton**
+  - S Neptune → H Neptune RA 11.9727 12 whole (loose)
+  - S Vesta → H Vesta RA 55.0109 55 whole (loose)
+  - S Vesta → H Vesta Dec 8.0971 5×φ golden (loose)
+  - S Sun → J Sun RA 133.9346 133.333 ninth (loose)
+  - S Sun → J Sun Dec 18.8548 18.8889 ninth (loose)
+  - S Chiron → J Chiron RA 99.0069 99 whole (42.71)
+  - S Rahu → J Rahu RA 88.8053 88.8889 ninth (loose)
+  - S Sedna → J Sedna Dec 4.0085 4 whole (33.08)
+  - S Ketu → J Ketu RA 88.8053 88.8889 ninth (loose)
+- **5 Miss Heritage / Sean Quinlan**
+  - S Mercury → H Mercury Dec 14.4626 14.4444 ninth (loose)
+  - S Jupiter → H Jupiter Dec 33.2798 33.3333 ninth (loose)
+  - S Rahu → H Rahu Dec 30.7467 19×φ golden (76.56)
+  - S Ketu → H Ketu Dec 30.7467 19×φ golden (76.56)
+  - S Venus → J Venus Dec 4.9918 5 whole (34.59)
+  - S Jupiter → J Jupiter RA 77.7093 77.7778 ninth (loose)
+  - S Neptune → J Neptune Dec 17.6924 17.7778 ninth (loose)
+  - S Pluto → J Pluto Dec 26.1314 10×φ^2 phi power (loose)
+  - S Vesta → J Vesta RA 161.0144 161 whole (7.81)
+  - S Sedna → J Sedna RA 19.4257 12×φ golden (loose)
+  - S Orcus → J Orcus RA 32.3540 20×φ golden (loose)
+  - S Orcus → J Orcus Dec 18.8690 18.8889 ninth (loose)
+  - S Quaoar → J Quaoar Dec 2.9888 3 whole (19.55)
+### READ 2 Jupiter / Sun star lines, highest score first, each in full
+#### 1. S Jupiter → Adhara Dec 18.8898 18.8889 ninth (99.34) — runners with cells 5/5
+- Moon confirms: none
+- 1 Miranda / Bryony Frost
+  - star rows: H Adhara → H Venus Dec 40.0171 40 whole (2.17) — also: 3 Anna Bunina / James Bowen
+  - star rows: H Adhara → H Gonggong Dec 16.0085 16 whole (32.98) — also: 2 Western Victory / Tom Bellamy
+  - star rows: J Adhara → J Ceres RA 29.9996 30 whole (95.86) — also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
+  - star rows: J Adhara → J Vesta Dec 54.0079 54 whole (36.47) — also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
+  - star rows: J Adhara → J Rahu Dec 15.5543 15.5556 ninth (98.84) — also: 3 Anna Bunina / James Bowen
+  - star rows: J Adhara → J Gonggong RA 133.3614 133.333 ninth (96.63) — also: 2 Western Victory / Tom Bellamy
+- 2 Western Victory / Tom Bellamy
+  - star rows: H Adhara → H Mercury RA 127.8548 79×φ golden (0.48) — also: 3 Anna Bunina / James Bowen
+  - star rows: H Adhara → H Neptune RA 129.0119 129 whole (16.37) — only
+  - star rows: H Adhara → H Transpluto RA 46.9958 47 whole (62.70) — also: 3 Anna Bunina / James Bowen
+  - star rows: J Adhara → J Juno RA 113.2560 70×φ golden (64.56) — also: 5 Miss Heritage / Sean Quinlan
+  - star rows: J Adhara → J Sedna RA 59.9995 60 whole (94.83) — also: 4 Dazzling Glory / Harry Skelton
+  - star rows: J Adhara → J Quaoar Dec 15.0121 15 whole (15.72) — also: 5 Miss Heritage / Sean Quinlan
+  - star rows: J Adhara → J Gonggong Dec 9.9992 10 ninth (94.93) — also: 1 Miranda / Bryony Frost
+- 3 Anna Bunina / James Bowen
+  - star rows: H Adhara → H Venus Dec 12.0068 12 whole (43.44) — also: 1 Miranda / Bryony Frost
+  - star rows: H Adhara → H Mars RA 130.9913 131 whole (32.15) — only
+  - star rows: H Adhara → H Saturn Dec 8.0052 8 whole (55.04) — only
+  - star rows: H Adhara → H Ceres RA 118.0149 118 whole (6.62) — also: 1 Miranda / Bryony Frost, 4 Dazzling Glory / Harry Skelton
+  - star rows: J Adhara → J Mercury RA 137.5177 85×φ golden (28.12) — also: 2 Western Victory / Tom Bellamy
+  - star rows: J Adhara → J Vesta RA 103.0021 103 whole (79.93) — also: 1 Miranda / Bryony Frost, 4 Dazzling Glory / Harry Skelton
+  - star rows: J Adhara → J Rahu RA 0.8218 conj (20.44) — also: 1 Miranda / Bryony Frost
+  - star rows: J Adhara → J Transpluto Dec 42.0115 42 whole (17.96) — also: 2 Western Victory / Tom Bellamy
+  - same number: S Makemake → J Makemake RA 18.7884 18.8889 ninth (loose) — also: 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
+- 4 Dazzling Glory / Harry Skelton
+  - star rows: H Adhara → H Jupiter Dec 46.9708 φ^8 phi power (93.41) — only
+  - star rows: J Adhara → J Uranus RA 167.0102 167 whole (24.12) — only
+  - star rows: J Adhara → J Ceres Dec 49.9839 50 whole (3.72) — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen
+  - star rows: J Adhara → J Vesta Dec 2.9883 3 whole (17.19) — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen
+  - star rows: J Adhara → J Sedna Dec 32.9921 33 whole (36.52) — also: 2 Western Victory / Tom Bellamy
+  - star rows: J Adhara → J Orcus Dec 33.0139 33 whole (9.17) — also: 5 Miss Heritage / Sean Quinlan
+  - star rows: J Adhara → J Ketu Dec 41.9826 42 whole (1.68) — only
+  - natal Jupiter → star: H Jupiter → H star Adhara Dec 46.9708 φ^8 phi power (93.41) — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen
+  - MATCH EXACT: H Betelgeuse → Makemake Dec 18.8826 18.8889 ninth (95.44)
+  - MATCH EXACT: J Murzim → Sun Dec 18.8882 18.8889 ninth (99.49)
+  - same number: S Sun → J Sun Dec 18.8548 18.8889 ninth (loose) — also: 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
+  - same number: J Murzim → J Sun Dec 18.8882 18.8889 ninth (99.49) — also: 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
+- 5 Miss Heritage / Sean Quinlan
+  - star rows: H Adhara → H Juno RA 85.9872 86 whole (13.02) — also: 2 Western Victory / Tom Bellamy
+  - star rows: H Adhara → H Orcus Dec 20.9811 21 whole (0.28) — also: 4 Dazzling Glory / Harry Skelton
+  - star rows: H Adhara → H Quaoar RA 161.8432 100×φ^1 phi power (90.39) — also: 2 Western Victory / Tom Bellamy
+  - star rows: J Adhara → J Quaoar RA 122.2402 122.222 ninth (97.51) — also: 2 Western Victory / Tom Bellamy
+  - same number: S Orcus → J Orcus Dec 18.8690 18.8889 ninth (loose) — also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
+#### 2. S Sun → Sadalsuud RA 11.1138 11.1111 ninth (95.56) — runners with cells 5/5
+- Moon confirms: none
+- 1 Miranda / Bryony Frost
+  - star rows: H Sadalsuud → H Pallas RA 55.9960 56 whole (64.07) — also: 3 Anna Bunina / James Bowen
+  - star rows: J Sadalsuud → J Venus Dec 0.1771 conj (16.79) — also: 4 Dazzling Glory / Harry Skelton
+  - star rows: J Sadalsuud → J Saturn Dec 0.2534 conj (2.42) — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen
+  - star rows: J Sadalsuud → J Chiron Dec 5.0034 5 whole (68.96) — only
+  - star rows: J Sadalsuud → J Pallas Dec 0.1653 conj (20.16) — also: 3 Anna Bunina / James Bowen
+  - star rows: J Sadalsuud → J Makemake RA 148.9819 149 whole (0.87) — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen
+  - star rows: J Sadalsuud → J Orcus Dec 7.0111 7 whole (19.95) — also: 5 Miss Heritage / Sean Quinlan
+  - star rows: J Sadalsuud → J Ketu Dec 18.9949 19 whole (55.69) — also: 5 Miss Heritage / Sean Quinlan
+  - MATCH EXACT: J Algorab → Pallas Dec 11.1101 11.1111 ninth (98.39)
+  - MATCH EXACT: J Rasalhague → Orcus Dec 11.1190 11.1111 ninth (87.01)
+- 2 Western Victory / Tom Bellamy
+  - star rows: H Sadalsuud → H Jupiter Dec 26.9913 27 whole (32.10) — only
+  - star rows: H Sadalsuud → H Saturn Dec 6.9969 7 whole (71.60) — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen
+  - star rows: H Sadalsuud → H Pluto RA 40.9933 41 whole (44.09) — also: 3 Anna Bunina / James Bowen
+  - star rows: H Sadalsuud → H Ceres RA 120.9837 121 whole (3.37) — only
+  - star rows: H Sadalsuud → H Vesta RA 113.0074 113 whole (39.47) — only
+  - star rows: J Sadalsuud → J Saturn Dec 5.0070 5 whole (42.24) — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen
+  - star rows: J Sadalsuud → J Juno RA 104.9828 105 whole (1.93) — only
+  - star rows: J Sadalsuud → J Juno Dec 0.1827 conj (15.29) — only
+  - star rows: J Sadalsuud → J Makemake RA 148.8418 92×φ golden (21.45) — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen
+  - MATCH EXACT: J Acubens → Ceres RA 11.1177 11.1111 ninth (89.15)
+  - same number: S Makemake → J Makemake Dec 11.1299 11.1111 ninth (loose) — also: 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
+- 3 Anna Bunina / James Bowen
+  - star rows: H Sadalsuud → H Uranus RA 53.9838 54 whole (3.55) — only
+  - star rows: H Sadalsuud → H Pluto RA 35.0089 35 whole (30.61) — also: 2 Western Victory / Tom Bellamy
+  - star rows: H Sadalsuud → H Pallas Dec 9.9866 10 whole (11.02) — also: 1 Miranda / Bryony Frost
+  - star rows: J Sadalsuud → J Saturn Dec 22.9986 23 whole (86.61) — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy
+  - star rows: J Sadalsuud → J Eris Dec 1.0192 1 whole (0.17) — only
+  - star rows: J Sadalsuud → J Sedna RA 84.0176 84 whole (1.39) — also: 5 Miss Heritage / Sean Quinlan
+  - star rows: J Sadalsuud → J Makemake RA 142.3707 88×φ golden (24.53) — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy
+  - MATCH EXACT: H Murzim → Juno Dec 11.1131 11.1111 ninth (96.79)
+  - same number: H Murzim → H Juno Dec 11.1131 11.1111 ninth (96.79) — also: 2 Western Victory / Tom Bellamy, 5 Miss Heritage / Sean Quinlan
+- 4 Dazzling Glory / Harry Skelton
+  - star rows: H Sadalsuud → H Venus Dec 23.9925 24 whole (39.03) — also: 1 Miranda / Bryony Frost
+  - star rows: H Sadalsuud → H Quaoar Dec 9.9947 10 whole (53.75) — also: 5 Miss Heritage / Sean Quinlan
+  - star rows: H Sadalsuud → H Transpluto Dec 17.0120 17 whole (15.86) — only
+  - MATCH EXACT: H Zubeneschamali → Pluto Dec 11.1159 11.1111 ninth (92.13)
+  - MATCH EXACT: H Orion Nebula Cluster → Uranus Dec 11.1170 11.1111 ninth (90.40)
+  - MATCH EXACT: J Spica → Juno RA 11.1155 11.1111 ninth (92.74)
+- 5 Miss Heritage / Sean Quinlan
+  - star rows: H Sadalsuud → H Mars Dec 0.2339 conj (4.86) — only
+  - star rows: H Sadalsuud → H Quaoar Dec 9.9917 10 whole (34.14) — also: 4 Dazzling Glory / Harry Skelton
+  - star rows: J Sadalsuud → J Sedna RA 76.0030 76 whole (72.07) — also: 3 Anna Bunina / James Bowen
+  - star rows: J Sadalsuud → J Orcus RA 161.8053 100×φ^1 phi power (99.53) — also: 1 Miranda / Bryony Frost
+  - star rows: J Sadalsuud → J Quaoar RA 95.9844 96 whole (4.81) — also: 4 Dazzling Glory / Harry Skelton
+  - star rows: J Sadalsuud → J Ketu RA 67.9512 42×φ golden (65.33) — also: 1 Miranda / Bryony Frost
+  - MATCH EXACT: J Spica → Neptune Dec 11.1119 11.1111 ninth (98.66)
+  - MATCH EXACT: J Murzim → Juno Dec 11.1146 11.1111 ninth (94.26)
+  - same number: J Murzim → J Juno Dec 11.1146 11.1111 ninth (94.26) — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen
+#### 3. S Sun → Wezen RA 155.3330 96×φ golden (89.39) — runners with cells 5/5
+- Moon confirms: none
+- 1 Miranda / Bryony Frost
+  - star rows: H Wezen → H Uranus RA 92.9960 93 whole (64.20) — also: 5 Miss Heritage / Sean Quinlan
+  - star rows: H Wezen → H Pluto RA 179.0145 179 whole (7.51) — only
+  - star rows: J Wezen → J Jupiter RA 146.9980 147 whole (80.59) — also: 3 Anna Bunina / James Bowen
+  - star rows: J Wezen → J Saturn RA 116.0190 116 whole (0.27) — also: 5 Miss Heritage / Sean Quinlan
+  - star rows: J Wezen → J Pallas Dec 20.9899 21 whole (24.33) — also: 2 Western Victory / Tom Bellamy
+  - star rows: J Wezen → J Juno Dec 17.9964 18 whole (67.20) — also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton
+  - star rows: J Wezen → J Makemake Dec 61.0101 61 whole (24.35) — only
+  - natal Jupiter → star: J Jupiter → J star Wezen RA 146.9980 147 whole (80.59) — also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
+- 2 Western Victory / Tom Bellamy
+  - star rows: H Wezen → H Haumea RA 101.9931 102 whole (42.63) — only
+  - star rows: J Wezen → J Mercury Dec 14.5610 9×φ golden (92.11) — also: 3 Anna Bunina / James Bowen
+  - star rows: J Wezen → J Pallas Dec 12.9946 13 whole (53.47) — also: 1 Miranda / Bryony Frost
+  - star rows: J Wezen → J Juno Dec 21.0025 21 whole (76.75) — also: 1 Miranda / Bryony Frost, 4 Dazzling Glory / Harry Skelton
+  - MATCH EXACT: J Difda → Chiron RA 155.3491 96×φ golden (20.04)
+  - same number: J Difda → J Chiron RA 155.3491 96×φ golden (20.04) — also: 3 Anna Bunina / James Bowen
+- 3 Anna Bunina / James Bowen
+  - star rows: J Wezen → J Mercury Dec 12.2282 12.2222 ninth (91.71) — also: 2 Western Victory / Tom Bellamy
+  - star rows: J Wezen → J Jupiter Dec 46.9215 29×φ golden (90.97) — also: 1 Miranda / Bryony Frost
+  - natal Jupiter → star: J Jupiter → J star Wezen Dec 46.9215 29×φ golden (90.97) — also: 1 Miranda / Bryony Frost, 4 Dazzling Glory / Harry Skelton
+  - MATCH EXACT: H Castor → Quaoar RA 155.3624 96×φ golden (0.13)
+  - MATCH EXACT: J Capella → Ketu RA 155.3350 96×φ golden (77.98)
+  - same number: H Castor → H Quaoar RA 155.3624 96×φ golden (0.13) — also: 2 Western Victory / Tom Bellamy
+- 4 Dazzling Glory / Harry Skelton
+  - star rows: H Wezen → H Juno RA 17.9487 φ^6 phi power (90.32) — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy
+  - star rows: H Wezen → H Juno Dec 38.9997 39 whole (97.30) — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy
+  - star rows: J Wezen → J Chiron RA 0.7558 conj (24.61) — only
+  - MATCH EXACT: H Alphecca → Mars RA 155.3542 96×φ golden (8.44)
+  - MATCH EXACT: J Pollux → Uranus RA 155.3367 96×φ golden (69.21)
+- 5 Miss Heritage / Sean Quinlan
+  - star rows: H Wezen → H Mars RA 92.0043 92 whole (61.39) — only
+  - star rows: H Wezen → H Uranus Dec 30.7427 19×φ golden (99.94) — also: 1 Miranda / Bryony Frost
+  - star rows: J Wezen → J Mars RA 86.0037 86 whole (66.66) — only
+  - star rows: J Wezen → J Saturn Dec 13.0067 13 whole (44.01) — also: 1 Miranda / Bryony Frost
+  - star rows: J Wezen → J Uranus RA 141.4383 141.4 sqrt2 (95.27) — also: 1 Miranda / Bryony Frost
+  - star rows: J Wezen → J Ceres RA 135.9313 84×φ golden (24.14) — only
+  - star rows: J Wezen → J Eris RA 85.9860 86 whole (9.13) — only
+  - MATCH EXACT: H Ras Algethi → Sedna RA 155.3264 96×φ golden (72.44)
+#### 4. S Jupiter → Alphard RA 163.4240 101×φ golden (84.95) — runners with cells 5/5
+- Moon confirms: none
+- 1 Miranda / Bryony Frost
+  - star rows: H Alphard → H Uranus Dec 14.0142 14 whole (8.41) — also: 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
+  - star rows: H Alphard → H Ceres RA 155.0085 155 whole (33.04) — also: 4 Dazzling Glory / Harry Skelton
+  - star rows: H Alphard → H Pallas RA 124.9881 125 whole (16.31) — also: 2 Western Victory / Tom Bellamy
+  - star rows: H Alphard → H Vesta RA 174.9903 175 whole (26.62) — also: 2 Western Victory / Tom Bellamy
+  - star rows: H Alphard → H Orcus Dec 0.0080 conj (94.74) — also: 4 Dazzling Glory / Harry Skelton
+  - star rows: J Alphard → J Neptune RA 155.5117 155.556 ninth (95.85) — also: 3 Anna Bunina / James Bowen
+  - star rows: J Alphard → J Juno Dec 0.2604 conj (1.74) — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen
+  - star rows: J Alphard → J Makemake RA 32.0058 32 whole (50.44) — also: 5 Miss Heritage / Sean Quinlan
+  - star rows: J Alphard → J Gonggong Dec 9.7089 6×φ golden (95.94) — only
+- 2 Western Victory / Tom Bellamy
+  - star rows: H Alphard → H Sun Dec 7.0188 7 whole (0.34) — only
+  - star rows: H Alphard → H Pluto RA 139.9908 140 whole (29.41) — also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
+  - star rows: H Alphard → H Pallas Dec 0.2430 conj (3.61) — also: 1 Miranda / Bryony Frost
+  - star rows: H Alphard → H Vesta RA 66.0084 66 whole (33.41) — also: 1 Miranda / Bryony Frost
+  - star rows: J Alphard → J Juno RA 76.0182 φ^9 phi power (97.35) — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen
+  - MATCH EXACT: J Murzim → Neptune RA 163.4156 101×φ golden (67.33)
+  - same number: S Moon → H Vesta RA 163.4156 101×φ golden (67.22) — also: 3 Anna Bunina / James Bowen
+  - same number: J Murzim → J Neptune RA 163.4156 101×φ golden (67.33) — also: 3 Anna Bunina / James Bowen
+- 3 Anna Bunina / James Bowen
+  - star rows: H Alphard → H Neptune Dec 0.1588 conj (22.15) — also: 1 Miranda / Bryony Frost
+  - star rows: H Alphard → H Rahu Dec 11.9877 12 whole (14.97) — only
+  - star rows: H Alphard → H Quaoar Dec 6.9899 7 whole (24.65) — also: 5 Miss Heritage / Sean Quinlan
+  - star rows: J Alphard → J Mercury RA 174.7603 108×φ golden (37.35) — only
+  - star rows: J Alphard → J Uranus Dec 5.9837 6 whole (3.35) — also: 1 Miranda / Bryony Frost, 5 Miss Heritage / Sean Quinlan
+  - star rows: J Alphard → J Pluto RA 113.2728 70×φ golden (46.08) — also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton
+  - star rows: J Alphard → J Juno Dec 9.0017 9 whole (84.01) — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy
+  - star rows: J Alphard → J Sedna RA 94.9988 95 whole (87.97) — also: 5 Miss Heritage / Sean Quinlan
+  - star rows: J Alphard → J Sedna Dec 14.0173 14 whole (1.81) — also: 5 Miss Heritage / Sean Quinlan
+  - MATCH EXACT: J Castor → Neptune RA 163.4451 101×φ golden (7.29)
+  - same number: J Castor → J Neptune RA 163.4451 101×φ golden (7.29) — also: 2 Western Victory / Tom Bellamy
+- 4 Dazzling Glory / Harry Skelton
+  - star rows: H Alphard → H Pluto RA 144.4268 144.444 ninth (98.13) — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen
+  - star rows: H Alphard → H Ceres Dec 14.9827 15 whole (1.89) — also: 1 Miranda / Bryony Frost
+  - star rows: H Alphard → H Orcus Dec 0.1515 conj (24.49) — also: 1 Miranda / Bryony Frost
+  - MATCH EXACT: H Spica → Mercury RA 163.4367 101×φ golden (27.79)
+  - MATCH EXACT: J El Nath → Saturn RA 163.4241 101×φ golden (84.02)
+  - MATCH EXACT: J Fomalhaut → Mars RA 163.4247 101×φ golden (80.71)
+- 5 Miss Heritage / Sean Quinlan
+  - star rows: H Alphard → H Uranus Dec 13.0065 13 whole (45.82) — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen
+  - star rows: H Alphard → H Makemake RA 50.0196 50 whole (0.04) — also: 1 Miranda / Bryony Frost
+  - star rows: H Alphard → H Quaoar RA 124.5997 77×φ golden (43.34) — also: 3 Anna Bunina / James Bowen
+  - star rows: J Alphard → J Sedna RA 103.0097 103 whole (26.61) — also: 3 Anna Bunina / James Bowen
+  - star rows: J Alphard → J Quaoar RA 85.0029 85 whole (73.00) — also: 3 Anna Bunina / James Bowen
+  - star rows: J Alphard → J Transpluto RA 0.6526 conj (31.91) — only
+  - MATCH EXACT: H Vindemiatrix → Mercury RA 163.4293 101×φ golden (57.11)
+  - MATCH EXACT: H Menkent → Sun RA 163.4446 101×φ golden (7.98)
+  - MATCH EXACT: J Orion Nebula Cluster → Mercury RA 163.4032 101×φ golden (19.18)
+  - MATCH EXACT: J Acubens → Ceres RA 163.4527 101×φ golden (0.11)
+#### 5. S Sun → Castor RA 161.8838 100×φ^1 phi power (81.11) — runners with cells 5/5
+- Moon confirms: none
+- 1 Miranda / Bryony Frost
+  - star rows: H Castor → H Juno Dec 20.9950 21 whole (56.61) — also: 5 Miss Heritage / Sean Quinlan
+  - star rows: H Castor → H Ketu Dec 27.9911 28 whole (30.54) — also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
+  - star rows: J Castor → J Uranus RA 171.0152 171 whole (5.67) — also: 4 Dazzling Glory / Harry Skelton
+  - star rows: J Castor → J Ceres RA 21.0054 21 whole (53.64) — also: 3 Anna Bunina / James Bowen
+  - star rows: J Castor → J Ceres Dec 1.9825 2 whole (1.58) — also: 3 Anna Bunina / James Bowen
+  - star rows: J Castor → J Gonggong RA 142.3556 88×φ golden (0.10) — only
+  - MATCH EXACT: H Bellatrix → Saturn RA 161.8783 100×φ^1 phi power (82.34)
+  - MATCH EXACT: J Capella → Pluto RA 161.8244 100×φ^1 phi power (94.87)
+- 2 Western Victory / Tom Bellamy
+  - star rows: H Castor → H Neptune RA 138.0050 138 whole (56.26) — also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
+  - star rows: H Castor → H Transpluto RA 38.0027 38 whole (74.44) — only
+  - star rows: J Castor → J Mars RA 1.3474 conj (1.04) — also: 3 Anna Bunina / James Bowen
+  - star rows: J Castor → J Sedna RA 68.9919 69 whole (35.39) — only
+  - MATCH EXACT: H Alkes → Mars RA 161.8186 100×φ^1 phi power (96.28)
+  - MATCH EXACT: H Spica → Mars RA 161.8258 100×φ^1 phi power (94.54)
+  - MATCH EXACT: H Deneb → Orcus RA 161.8571 100×φ^1 phi power (87.17)
+  - MATCH EXACT: H Meissa → Pluto RA 161.8924 100×φ^1 phi power (79.22)
+  - MATCH EXACT: J Jupiter → J body → Eris RA 161.8328 100×φ^1 phi power (92.86)
+  - same number: J Jupiter → J Eris RA 161.8328 100×φ^1 phi power (92.86) — also: 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
+- 3 Anna Bunina / James Bowen
+  - star rows: H Castor → H Mercury RA 148.8534 92×φ golden (67.95) — only
+  - star rows: H Castor → H Mars RA 121.9985 122 whole (85.85) — also: 2 Western Victory / Tom Bellamy
+  - star rows: H Castor → H Chiron Dec 31.9986 32 whole (86.22) — only
+  - star rows: H Castor → H Ceres RA 127.0077 127 whole (38.04) — also: 1 Miranda / Bryony Frost
+  - star rows: H Castor → H Quaoar RA 155.3624 96×φ golden (0.13) — also: 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
+  - star rows: H Castor → H Ketu RA 121.3588 75×φ golden (65.19) — also: 1 Miranda / Bryony Frost, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
+  - star rows: J Castor → J Neptune RA 163.4451 101×φ golden (7.29) — also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton
+  - star rows: J Castor → J Vesta RA 111.9960 112 whole (63.67) — also: 5 Miss Heritage / Sean Quinlan
+  - MATCH EXACT: H Algorab → Chiron RA 161.8660 100×φ^1 phi power (85.12)
+  - MATCH EXACT: J Phact → Ceres RA 161.8776 100×φ^1 phi power (82.50)
+- 4 Dazzling Glory / Harry Skelton
+  - star rows: H Castor → H Neptune RA 133.3981 133.333 ninth (92.22) — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen
+  - star rows: H Castor → H Ketu Dec 28.0089 28 whole (30.69) — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
+  - star rows: S Castor → J Jupiter Dec 9.0176 9 whole (1.41) — only
+  - star rows: J Castor → J Uranus RA 158.0174 158 whole (1.65) — also: 1 Miranda / Bryony Frost
+  - star rows: J Castor → J Quaoar Dec 45.0159 45 whole (4.20) — also: 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
+  - MATCH EXACT: J Pollux → Saturn RA 161.8212 100×φ^1 phi power (95.65)
+  - MATCH EXACT: J Scheat → Ketu RA 161.8359 100×φ^1 phi power (92.12)
+  - MATCH EXACT: S body → J Jupiter → Mercury RA 161.8939 100×φ^1 phi power (78.87)
+  - same number: S Mercury → J Jupiter RA 161.8939 100×φ^1 phi power (78.87) — also: 2 Western Victory / Tom Bellamy, 5 Miss Heritage / Sean Quinlan
+  - same number: J Scheat → J Ketu RA 161.8359 100×φ^1 phi power (92.12) — also: 2 Western Victory / Tom Bellamy, 5 Miss Heritage / Sean Quinlan
+- 5 Miss Heritage / Sean Quinlan
+  - star rows: H Castor → H Pluto Dec 51.9949 52 whole (55.81) — only
+  - star rows: H Castor → H Pallas RA 30.7419 19×φ golden (95.34) — only
+  - star rows: H Castor → H Juno RA 94.9803 95 whole (0.02) — also: 1 Miranda / Bryony Frost
+  - star rows: H Castor → H Ketu Dec 21.0349 13×φ golden (97.41) — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
+  - star rows: J Castor → J Sun RA 144.4913 144.444 ninth (95.04) — only
+  - star rows: J Castor → J Pallas RA 177.9560 110×φ golden (2.08) — only
+  - star rows: J Castor → J Vesta Dec 13.3346 13.3333 ninth (98.50) — also: 3 Anna Bunina / James Bowen
+  - star rows: J Castor → J Quaoar RA 113.2465 70×φ golden (25.86) — also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
+  - MATCH EXACT: H Adhara → Quaoar RA 161.8432 100×φ^1 phi power (90.39)
+  - MATCH EXACT: J Sadalsuud → Orcus RA 161.8053 100×φ^1 phi power (99.53)
+  - MATCH EXACT: J Fomalhaut → Haumea RA 161.8115 100×φ^1 phi power (98.01)
+  - same number: H Adhara → H Quaoar RA 161.8432 100×φ^1 phi power (90.39) — also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton
+  - same number: J Sadalsuud → J Orcus RA 161.8053 100×φ^1 phi power (99.53) — also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton
+#### 6. S Sun → Murzim Dec 0.0394 conj (75.49) — runners with cells 5/5
+- Moon confirms: none
+- 1 Miranda / Bryony Frost
+  - star rows: H Murzim → H Venus Dec 29.0003 29 whole (97.24) — also: 3 Anna Bunina / James Bowen
+  - star rows: H Murzim → H Neptune RA 115.9834 116 whole (2.92) — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen
+  - star rows: H Murzim → H Gonggong Dec 4.9917 5 whole (34.47) — also: 2 Western Victory / Tom Bellamy
+  - star rows: H Murzim → H Transpluto RA 56.6312 35×φ golden (99.83) — also: 3 Anna Bunina / James Bowen
+  - star rows: J Murzim → J Ceres RA 38.9819 39 whole (0.86) — only
+  - star rows: J Murzim → J Vesta RA 0.6880 conj (29.31) — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen
+  - star rows: J Murzim → J Vesta Dec 42.9909 43 whole (29.97) — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen
+  - star rows: J Murzim → J Eris Dec 10.0085 10 whole (32.86) — also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton
+  - MATCH CONJ STAR: H Murzim → Venus Dec 29.0003 29 whole (97.24)
+  - MATCH CONJ STAR: H Murzim → Transpluto RA 56.6312 35×φ golden (99.83)
+- 2 Western Victory / Tom Bellamy
+  - star rows: H Murzim → H Pallas RA 66.9837 67 whole (3.44) — also: 5 Miss Heritage / Sean Quinlan
+  - star rows: H Murzim → H Juno Dec 8.0187 8 whole (0.39) — also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
+  - star rows: H Murzim → H Eris RA 70.7174 70.7 sqrt2 (96.22) — also: 1 Miranda / Bryony Frost, 4 Dazzling Glory / Harry Skelton
+  - star rows: J Murzim → J Neptune RA 163.4156 101×φ golden (67.33) — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen
+  - star rows: J Murzim → J Juno RA 122.2366 122.222 ninth (98.01) — also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
+  - star rows: J Murzim → J Vesta RA 0.6668 conj (30.86) — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen
+  - star rows: J Murzim → J Sedna RA 51.0189 51 whole (0.29) — also: 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
+  - star rows: J Murzim → J Quaoar Dec 3.9966 4 whole (68.59) — only
+  - star rows: J Murzim → J Gonggong Dec 1.0163 1 whole (3.48) — also: 1 Miranda / Bryony Frost
+  - MATCH CONJ STAR: H Murzim → Eris RA 70.7174 70.7 sqrt2 (96.22)
+  - MATCH CONJ STAR: S Jupiter → H body → Pallas Dec 1.6664 1.66667 ninth (97.74)
+  - MATCH CONJ STAR: J Murzim → Neptune RA 163.4156 101×φ golden (67.33)
+  - MATCH CONJ STAR: J Murzim → Juno RA 122.2366 122.222 ninth (98.01)
+  - MATCH CONJ STAR: J Murzim → Quaoar Dec 3.9966 4 whole (68.59)
+- 3 Anna Bunina / James Bowen
+  - star rows: H Murzim → H Venus Dec 0.9902 1 whole (26.11) — also: 1 Miranda / Bryony Frost
+  - star rows: H Murzim → H Saturn Dec 3.0114 3 whole (18.33) — only
+  - star rows: H Murzim → H Juno Dec 11.1131 11.1111 ninth (96.79) — also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
+  - star rows: S Murzim → J Jupiter RA 32.9973 33 whole (74.65) — only
+  - star rows: J Murzim → J Mars RA 155.5773 155.556 ninth (97.94) — only
+  - star rows: J Murzim → J Neptune Dec 0.1964 conj (11.91) — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy
+  - star rows: J Murzim → J Chiron Dec 0.0919 conj (48.12) — also: 5 Miss Heritage / Sean Quinlan
+  - star rows: J Murzim → J Vesta RA 94.0196 94 whole (0.04) — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy
+  - star rows: J Murzim → J Transpluto Dec 30.9948 31 whole (54.60) — also: 1 Miranda / Bryony Frost
+  - MATCH CONJ STAR: H Murzim → Juno Dec 11.1131 11.1111 ninth (96.79)
+  - MATCH CONJ STAR: S Jupiter → H body → Mercury Dec 6.0045 6 whole (59.77)
+  - MATCH CONJ STAR: J Murzim → Mars RA 155.5773 155.556 ninth (97.94)
+  - MATCH CONJ STAR: J Murzim → Transpluto Dec 30.9948 31 whole (54.60)
+  - MATCH CONJ STAR: S Jupiter → J body → Saturn Dec 27.5100 17×φ golden (80.22)
+- 4 Dazzling Glory / Harry Skelton
+  - star rows: H Murzim → H Eris Dec 15.0193 15 whole (0.13) — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy
+  - star rows: H Murzim → H Haumea RA 115.0132 115 whole (11.43) — only
+  - star rows: J Murzim → J Sun Dec 18.8882 18.8889 ninth (99.49) — only
+  - star rows: J Murzim → J Uranus RA 175.9907 176 whole (28.69) — only
+  - star rows: J Murzim → J Juno Dec 17.7707 17.7778 ninth (94.45) — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
+  - star rows: J Murzim → J Sedna RA 53.3989 33×φ golden (78.24) — also: 2 Western Victory / Tom Bellamy, 5 Miss Heritage / Sean Quinlan
+  - star rows: J Murzim → J Orcus Dec 21.9984 22 whole (84.80) — also: 5 Miss Heritage / Sean Quinlan
+  - MATCH CONJ STAR: S Jupiter → H body → Orcus RA 171.5031 106×φ golden (54.42)
+  - MATCH CONJ STAR: J Murzim → Sun Dec 18.8882 18.8889 ninth (99.49)
+  - MATCH CONJ STAR: J Murzim → Juno Dec 17.7707 17.7778 ninth (94.45)
+  - MATCH CONJ STAR: J Murzim → Sedna RA 53.3989 33×φ golden (78.24)
+  - MATCH CONJ STAR: J Murzim → Orcus Dec 21.9984 22 whole (84.80)
+- 5 Miss Heritage / Sean Quinlan
+  - star rows: H Murzim → H Chiron RA 111.1188 111.111 ninth (98.74) — also: 3 Anna Bunina / James Bowen
+  - star rows: H Murzim → H Juno RA 77.0048 77 whole (57.44) — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
+  - star rows: J Murzim → J Pallas RA 159.9807 160 whole (0.12) — also: 2 Western Victory / Tom Bellamy
+  - star rows: J Murzim → J Juno Dec 11.1146 11.1111 ninth (94.26) — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
+  - star rows: J Murzim → J Sedna Dec 21.0370 13×φ golden (85.02) — also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton
+  - star rows: J Murzim → J Makemake Dec 55.0069 55 whole (42.63) — only
+  - star rows: J Murzim → J Orcus RA 29.0115 29 whole (17.98) — also: 4 Dazzling Glory / Harry Skelton
+  - MATCH CONJ STAR: H Murzim → Chiron RA 111.1188 111.111 ninth (98.74)
+  - MATCH CONJ STAR: H Murzim → Juno RA 77.0048 77 whole (57.44)
+  - MATCH CONJ STAR: S Jupiter → H body → Neptune RA 0.1321 conj (83.16)
+  - MATCH CONJ STAR: J Murzim → Juno Dec 11.1146 11.1111 ninth (94.26)
+  - MATCH CONJ STAR: J Murzim → Sedna Dec 21.0370 13×φ golden (85.02)
+  - MATCH CONJ STAR: S Jupiter → J body → Saturn RA 118.0000 118 whole (99.90)
+#### 7. S Sun → Scheat Dec 46.0028 46 whole (73.65) — runners with cells 5/5
+- Moon confirms: none
+- 1 Miranda / Bryony Frost
+  - star rows: H Scheat → H Chiron RA 0.9057 conj (15.70) — also: 5 Miss Heritage / Sean Quinlan
+  - star rows: H Scheat → H Haumea RA 135.0081 135 whole (35.12) — only
+  - MATCH EXACT: H Alkes → Haumea RA 45.9835 46 whole (3.12)
+  - MATCH EXACT: J Aldebaran → Eris RA 46.0088 46 whole (31.28)
+- 2 Western Victory / Tom Bellamy
+  - star rows: H Scheat → H Venus RA 8.0136 8 whole (10.13) — only
+  - star rows: H Scheat → H Mars Dec 27.5079 17×φ golden (92.08) — also: 5 Miss Heritage / Sean Quinlan
+  - star rows: S Scheat → J Jupiter RA 124.5982 77×φ golden (49.60) — only
+  - star rows: J Scheat → J Uranus Dec 50.1596 31×φ golden (96.74) — also: 5 Miss Heritage / Sean Quinlan
+  - star rows: J Scheat → J Ceres RA 137.5514 85×φ golden (18.40) — also: 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
+  - star rows: J Scheat → J Transpluto RA 160.1913 99×φ golden (66.70) — only
+  - MATCH EXACT: H Kaus Australis → Transpluto Dec 46.0157 46 whole (4.53)
+  - MATCH EXACT: J Aldebaran → Mars RA 46.0127 46 whole (13.15)
+- 3 Anna Bunina / James Bowen
+  - star rows: H Scheat → H Ceres RA 0.7066 conj (27.98) — also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton
+  - MATCH EXACT: H Acumen → Transpluto Dec 46.0156 46 whole (4.74)
+  - MATCH EXACT: H Alkaid → Rahu Dec 45.9818 46 whole (0.83)
+  - MATCH EXACT: J Regulus → Haumea RA 45.9801 46 whole (0.00)
+- 4 Dazzling Glory / Harry Skelton
+  - star rows: H Scheat → H Saturn Dec 46.9986 47 whole (86.47) — also: 5 Miss Heritage / Sean Quinlan
+  - star rows: H Scheat → H Neptune Dec 37.2141 23×φ golden (95.93) — only
+  - star rows: H Scheat → H Rahu RA 156.9390 97×φ golden (46.34) — also: 5 Miss Heritage / Sean Quinlan
+  - star rows: H Scheat → H Gonggong Dec 40.9802 41 whole (0.01) — only
+  - star rows: J Scheat → J Ceres RA 104.0173 104 whole (1.84) — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen
+  - star rows: J Scheat → J Gonggong RA 17.0125 17 whole (14.21) — only
+  - star rows: J Scheat → J Ketu RA 161.8359 100×φ^1 phi power (92.12) — also: 5 Miss Heritage / Sean Quinlan
+  - MATCH EXACT: H Mirfak → Ketu Dec 45.9826 46 whole (1.64)
+- 5 Miss Heritage / Sean Quinlan
+  - star rows: H Scheat → H Saturn Dec 44.0075 44 whole (39.06) — also: 4 Dazzling Glory / Harry Skelton
+  - star rows: H Scheat → H Chiron RA 1.3843 conj (0.59) — also: 1 Miranda / Bryony Frost
+  - star rows: H Scheat → H Makemake RA 154.0199 154 whole (0.00) — only
+  - star rows: J Scheat → J Mars Dec 31.9843 32 whole (4.68) — also: 2 Western Victory / Tom Bellamy
+  - star rows: J Scheat → J Uranus Dec 50.0031 50 whole (71.45) — also: 2 Western Victory / Tom Bellamy
+  - star rows: J Scheat → J Rahu RA 88.9936 55×φ golden (89.37) — also: 4 Dazzling Glory / Harry Skelton
+  - star rows: J Scheat → J Sedna Dec 25.0033 25 whole (69.60) — only
+  - star rows: J Scheat → J Ketu RA 91.0064 91 whole (46.50) — also: 4 Dazzling Glory / Harry Skelton
+  - MATCH EXACT: J Zubenelgenubi → Neptune RA 45.9912 46 whole (31.09)
+#### 8. S Jupiter → Sualocin Dec 25.9954 26 whole (59.00) — runners with cells 5/5
+- Moon confirms: none
+- 1 Miranda / Bryony Frost
+  - star rows: H Sualocin → H Ceres RA 12.9961 13 whole (65.19) — only
+  - star rows: H Sualocin → H Pallas RA 43.0166 43 whole (2.93) — also: 3 Anna Bunina / James Bowen
+  - star rows: H Sualocin → H Juno Dec 5.0158 5 whole (4.32) — also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton
+  - star rows: H Sualocin → H Vesta RA 17.0050 17 whole (56.03) — also: 2 Western Victory / Tom Bellamy
+  - star rows: H Sualocin → H Ketu Dec 12.0119 12 whole (16.60) — only
+  - star rows: J Sualocin → J Ceres Dec 13.9983 14 whole (83.40) — only
+  - star rows: J Sualocin → J Makemake RA 136.0027 136 whole (75.06) — also: 5 Miss Heritage / Sean Quinlan
+  - MATCH EXACT: H Rigel → Jupiter Dec 25.9927 26 whole (40.19)
+  - MATCH EXACT: H Galactic Centre → Eris Dec 25.9836 26 whole (3.16)
+  - MATCH EXACT: J Kaus Australis → Juno Dec 25.9824 26 whole (1.40)
+  - MATCH EXACT: S body → J Jupiter → Vesta RA 26.0199 26 whole (0.00)
+- 2 Western Victory / Tom Bellamy
+  - star rows: H Sualocin → H Pluto RA 28.0138 28 whole (9.49) — also: 5 Miss Heritage / Sean Quinlan
+  - star rows: H Sualocin → H Vesta RA 125.9869 126 whole (11.83) — also: 1 Miranda / Bryony Frost
+  - star rows: J Sualocin → J Venus Dec 35.9872 36 whole (12.90) — only
+  - star rows: J Sualocin → J Uranus Dec 37.9897 38 whole (23.65) — only
+  - star rows: J Sualocin → J Pluto Dec 21.9889 22 whole (20.00) — also: 5 Miss Heritage / Sean Quinlan
+  - star rows: J Sualocin → J Juno RA 92.0018 92 whole (82.39) — also: 1 Miranda / Bryony Frost, 4 Dazzling Glory / Harry Skelton
+  - MATCH EXACT: H Markab → Neptune Dec 25.9995 26 whole (95.32)
+  - MATCH EXACT: S body → H Jupiter → Neptune Dec 25.9975 26 whole (76.73)
+  - MATCH EXACT: H Altair → Rahu Dec 26.0084 26 whole (33.81)
+  - MATCH EXACT: J Antares → Jupiter RA 26.0078 26 whole (36.94)
+  - MATCH EXACT: J Vindemiatrix → Jupiter Dec 26.0183 26 whole (0.71)
+  - same number: S Neptune → H Jupiter Dec 25.9975 26 whole (76.73) — only
+- 3 Anna Bunina / James Bowen
+  - star rows: H Sualocin → H Mercury Dec 31.9984 32 whole (85.09) — only
+  - star rows: H Sualocin → H Pallas RA 0.5026 conj (44.22) — also: 1 Miranda / Bryony Frost
+  - star rows: H Sualocin → H Orcus RA 158.5719 98×φ golden (73.88) — only
+  - star rows: J Sualocin → J Neptune RA 0.3023 conj (63.76) — only
+  - star rows: J Sualocin → J Sedna RA 96.9973 97 whole (74.72) — also: 5 Miss Heritage / Sean Quinlan
+  - MATCH EXACT: H Arcturus → Juno Dec 26.0163 26 whole (3.42)
+- 4 Dazzling Glory / Harry Skelton
+  - star rows: H Sualocin → H Jupiter RA 174.7219 108×φ golden (4.09) — only
+  - star rows: J Sualocin → J Chiron Dec 0.2080 conj (9.40) — only
+  - star rows: J Sualocin → J Juno RA 119.7349 74×φ golden (97.50) — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy
+  - MATCH EXACT: H Antares → Chiron Dec 25.9960 26 whole (63.71)
+  - MATCH EXACT: H Rasalhague → Vesta Dec 25.9864 26 whole (10.25)
+  - MATCH EXACT: J Alhena → Eris Dec 25.9946 26 whole (53.09)
+- 5 Miss Heritage / Sean Quinlan
+  - star rows: H Sualocin → H Pluto Dec 36.0150 36 whole (6.13) — also: 2 Western Victory / Tom Bellamy
+  - star rows: H Sualocin → H Makemake RA 117.9882 118 whole (16.93) — also: 1 Miranda / Bryony Frost
+  - star rows: J Sualocin → J Sedna RA 88.9846 89 whole (5.24) — also: 3 Anna Bunina / James Bowen
+  - star rows: J Sualocin → J Quaoar RA 83.0028 83 whole (73.73) — only
+  - MATCH EXACT: J Menkar → Uranus Dec 26.0086 26 whole (32.50)
+  - MATCH EXACT: J Alpheratz → Sedna Dec 26.0123 26 whole (14.70)
+#### 9. S Sun → Difda Dec 0.0705 conj (58.51) — runners with cells 5/5
+- Moon confirms: none
+- 1 Miranda / Bryony Frost
+  - star rows: H Difda → H Ceres RA 73.9834 74 whole (2.96) — also: 4 Dazzling Glory / Harry Skelton
+  - star rows: H Difda → H Pallas RA 104.0039 104 whole (65.06) — also: 2 Western Victory / Tom Bellamy
+  - star rows: H Difda → H Vesta RA 43.9823 44 whole (1.28) — also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton
+  - star rows: H Difda → H Makemake RA 177.7630 177.778 ninth (98.84) — also: 2 Western Victory / Tom Bellamy
+  - star rows: H Difda → H Transpluto RA 141.4140 141.4 sqrt2 (97.93) — also: 2 Western Victory / Tom Bellamy
+  - star rows: J Difda → J Vesta Dec 43.0198 43 whole (0.01) — also: 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton
+  - star rows: J Difda → J Sedna RA 33.3326 33.3333 ninth (99.09) — also: 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
+  - star rows: J Difda → J Makemake RA 163.0135 163 whole (10.52) — also: 2 Western Victory / Tom Bellamy
+  - MATCH CONJ STAR: H Difda → Pallas RA 104.0039 104 whole (65.06)
+  - MATCH CONJ STAR: H Difda → Makemake RA 177.7630 177.778 ninth (98.84)
+  - MATCH CONJ STAR: H Difda → Transpluto RA 141.4140 141.4 sqrt2 (97.93)
+  - MATCH CONJ STAR: J Difda → Sedna RA 33.3326 33.3333 ninth (99.09)
+- 2 Western Victory / Tom Bellamy
+  - star rows: H Difda → H Pluto RA 89.0010 89 whole (90.54) — also: 3 Anna Bunina / James Bowen
+  - star rows: H Difda → H Pallas RA 17.7992 11×φ golden (94.73) — also: 1 Miranda / Bryony Frost
+  - star rows: H Difda → H Vesta RA 64.9997 65 whole (97.47) — also: 1 Miranda / Bryony Frost, 4 Dazzling Glory / Harry Skelton
+  - star rows: H Difda → H Sedna RA 42.3675 10×φ^3 phi power (93.62) — also: 1 Miranda / Bryony Frost, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
+  - star rows: H Difda → H Makemake RA 179.4716 10×φ^6 phi power (93.66) — also: 1 Miranda / Bryony Frost
+  - star rows: H Difda → H Transpluto RA 140.7613 87×φ golden (58.33) — also: 1 Miranda / Bryony Frost
+  - star rows: J Difda → J Chiron RA 155.3491 96×φ golden (20.04) — also: 3 Anna Bunina / James Bowen
+  - star rows: J Difda → J Juno RA 152.9913 153 whole (32.08) — only
+  - star rows: J Difda → J Gonggong Dec 0.9842 1 whole (4.49) — only
+  - MATCH CONJ STAR: H Difda → Pluto RA 89.0010 89 whole (90.54)
+  - MATCH CONJ STAR: H Difda → Pallas RA 17.7992 11×φ golden (94.73)
+  - MATCH CONJ STAR: H Difda → Vesta RA 64.9997 65 whole (97.47)
+  - MATCH CONJ STAR: H Difda → Sedna RA 42.3675 10×φ^3 phi power (93.62)
+  - MATCH CONJ STAR: H Difda → Makemake RA 179.4716 10×φ^6 phi power (93.66)
+  - MATCH CONJ STAR: H Difda → Transpluto RA 140.7613 87×φ golden (58.33)
+  - MATCH CONJ STAR: S Jupiter → H body → Pallas Dec 1.6664 1.66667 ninth (97.74)
+- 3 Anna Bunina / James Bowen
+  - star rows: H Difda → H Saturn Dec 2.9814 3 whole (0.52) — only
+  - star rows: H Difda → H Pluto RA 83.0181 83 whole (0.90) — also: 2 Western Victory / Tom Bellamy
+  - star rows: J Difda → J Neptune Dec 0.1668 conj (19.73) — only
+  - star rows: J Difda → J Chiron Dec 0.1216 conj (35.37) — also: 2 Western Victory / Tom Bellamy
+  - star rows: J Difda → J Sedna RA 36.0104 36 whole (23.12) — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 4 Dazzling Glory / Harry Skelton, 5 Miss Heritage / Sean Quinlan
+  - star rows: J Difda → J Orcus Dec 16.1804 10×φ^1 phi power (99.86) — also: 5 Miss Heritage / Sean Quinlan
+  - MATCH CONJ STAR: S Jupiter → H body → Mercury Dec 6.0045 6 whole (59.77)
+  - MATCH CONJ STAR: J Difda → Orcus Dec 16.1804 10×φ^1 phi power (99.86)
+  - MATCH CONJ STAR: S Jupiter → J body → Saturn Dec 27.5100 17×φ golden (80.22)
+- 4 Dazzling Glory / Harry Skelton
+  - star rows: S Difda → H Jupiter Dec 35.9836 36 whole (3.33) — only
+  - star rows: H Difda → H Sun RA 0.3403 conj (59.78) — also: 5 Miss Heritage / Sean Quinlan
+  - star rows: J Difda → J Ceres Dec 39.0003 39 whole (96.55) — also: 1 Miranda / Bryony Frost
+  - star rows: J Difda → J Vesta Dec 7.9952 8 whole (57.88) — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy
+  - star rows: J Difda → J Sedna Dec 22.0086 22 whole (32.62) — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 5 Miss Heritage / Sean Quinlan
+  - star rows: J Difda → J Ketu Dec 30.9991 31 whole (91.04) — only
+  - MATCH CONJ STAR: H Difda → Sun RA 0.3403 conj (59.78)
+  - MATCH CONJ STAR: S Jupiter → H body → Orcus RA 171.5031 106×φ golden (54.42)
+  - MATCH CONJ STAR: J Difda → Ceres Dec 39.0003 39 whole (96.55)
+  - MATCH CONJ STAR: J Difda → Vesta Dec 7.9952 8 whole (57.88)
+  - MATCH CONJ STAR: J Difda → Ketu Dec 30.9991 31 whole (91.04)
+- 5 Miss Heritage / Sean Quinlan
+  - star rows: H Difda → H Uranus RA 0.8633 conj (18.02) — only
+  - star rows: H Difda → H Orcus Dec 9.9930 10 whole (41.93) — also: 3 Anna Bunina / James Bowen
+  - star rows: J Difda → J Sun Dec 5.0085 5 whole (32.85) — also: 4 Dazzling Glory / Harry Skelton
+  - star rows: J Difda → J Mars RA 177.7911 177.778 ninth (98.95) — only
+  - star rows: J Difda → J Sedna RA 27.9916 28 whole (33.73) — also: 1 Miranda / Bryony Frost, 2 Western Victory / Tom Bellamy, 3 Anna Bunina / James Bowen, 4 Dazzling Glory / Harry Skelton
+  - star rows: J Difda → J Quaoar RA 143.9958 144 whole (62.33) — only
+  - MATCH CONJ STAR: S Jupiter → H body → Neptune RA 0.1321 conj (83.16)
+  - MATCH CONJ STAR: J Difda → Mars RA 177.7911 177.778 ninth (98.95)
+  - MATCH CONJ STAR: J Difda → Quaoar RA 143.9958 144 whole (62.33)
+  - MATCH CONJ STAR: S Jupiter → J body → Saturn RA 118.0000 118 whole (99.90)
+### READ 3 Jupiter / Sun lines to bodies (not followed)
+- S Sun → Neptune Dec 13.3394 13.3333 ninth (92.68)
+- S Jupiter → Moon RA 66.0010 66 whole (90.00)
+- S Sun → Neptune RA 40.4536 25×φ golden (83.58)
+### READ 4 Moon only, not active (confirm no lead line; not followed)
+- S Moon → Jupiter RA 66.0010 66 whole (90.00)
+
 ## 1 Miranda / Bryony Frost
 ### L1 same bodies
 - S Sun → H Sun RA 43.9710 44 whole (loose)

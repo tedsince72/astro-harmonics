@@ -26,6 +26,707 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
 - Hubs: none
 
+## READ (reading order, Eddie 7 Nov 2026)
+### READ 1 same body first
+- **1 The Dancing Poet / Harry Russell**
+  - S Mercury → H Mercury RA 13.9902 14 whole (26.07)
+  - S Saturn → H Saturn Dec 4.1466 4.14 silver (loose)
+  - S Pallas → H Pallas RA 63.9711 64 whole (loose)
+  - S Eris → H Eris Dec 1.6145 1×φ golden (loose)
+  - S Gonggong → H Gonggong Dec 1.6101 1×φ golden (loose)
+  - S Transpluto → H Transpluto RA 1.7698 1.77778 ninth (loose)
+  - S Mercury → J Mercury RA 28.9809 29 whole (0.19)
+  - S Jupiter → J Jupiter RA 22.2315 22.2222 ninth (loose)
+  - S Pluto → J Pluto Dec 12.9513 8×φ golden (loose)
+  - S Rahu → J Rahu RA 111.5996 111.111 ninth (loose)
+  - S Ketu → J Ketu RA 111.5996 111.111 ninth (loose)
+- **2 Flying Instructor / Dylan Hogan**
+  - S Venus → H Venus RA 90.0206 90 whole (loose)
+  - S Jupiter → H Jupiter RA 111.0856 111.111 ninth (loose)
+  - S Pluto → H Pluto Dec 1.0099 1 whole (25.32)
+  - S Chiron → H Chiron RA 10.9724 11 whole (loose)
+  - S Chiron → H Chiron Dec 3.2294 2×φ golden (loose)
+  - S Ceres → H Ceres Dec 11.1655 11.1111 ninth (loose)
+  - S Pallas → H Pallas Dec 1.0190 1 whole (0.23)
+  - S Sun → J Sun RA 111.3434 111.111 ninth (loose)
+  - S Mercury → J Mercury Dec 12.9887 13 whole (18.81)
+  - S Mars → J Mars Dec 41.3567 41.4 silver (loose)
+  - S Pluto → J Pluto RA 61.4578 38×φ golden (loose)
+  - S Chiron → J Chiron RA 163.0124 163 whole (14.35)
+  - S Ceres → J Ceres RA 79.0161 79 whole (3.79)
+  - S Vesta → J Vesta Dec 40.4467 25×φ golden (loose)
+  - S Haumea → J Haumea Dec 6.1843 10×φ^-1 phi power (loose)
+  - S Orcus → J Orcus Dec 13.3095 13.3333 ninth (loose)
+- **3 Chase The Dollar / Rossa Ryan**
+  - S Sun → H Sun Dec 17.8550 φ^6 phi power (loose)
+  - S Uranus → H Uranus RA 13.0102 13 whole (23.91)
+  - S Pluto → H Pluto Dec 1.0176 1 whole (1.43)
+  - S Juno → H Juno RA 42.3887 10×φ^3 phi power (loose)
+  - S Vesta → H Vesta RA 18.8874 18.8889 ninth (98.92)
+  - S Orcus → H Orcus RA 4.2302 φ^3 phi power (loose)
+  - S Quaoar → H Quaoar RA 4.8554 3×φ golden (loose)
+  - S Transpluto → H Transpluto RA 1.6622 1.66667 ninth (loose)
+  - S Sun → J Sun RA 135.9982 136 whole (83.22)
+  - S Mercury → J Mercury RA 166.8627 166.667 ninth (loose)
+  - S Venus → J Venus RA 176.0231 176 whole (loose)
+  - S Mars → J Mars RA 176.6814 177.778 ninth (loose)
+  - S Pallas → J Pallas RA 151.9767 152 whole (loose)
+  - S Juno → J Juno Dec 10.0060 10 whole (49.28)
+  - S Rahu → J Rahu RA 61.5000 38×φ golden (loose)
+  - S Ketu → J Ketu RA 61.5000 38×φ golden (loose)
+- **4 Deluxe Music / Callum Rodriguez**
+  - S Sun → H Sun Dec 9.7032 6×φ golden (loose)
+  - S Jupiter → H Jupiter RA 141.5826 141.4 sqrt2 (loose)
+  - S Uranus → J Uranus Dec 33.3795 33.3333 ninth (loose)
+  - S Pluto → J Pluto Dec 14.1601 14.14 sqrt2 (loose)
+  - S Juno → J Juno RA 132.6862 82×φ golden (59.38)
+  - S Rahu → J Rahu Dec 18.7587 18.8889 ninth (loose)
+  - S Eris → J Eris Dec 5.9988 6 whole (88.68)
+  - S Sedna → J Sedna Dec 3.0169 3 whole (2.39)
+  - S Haumea → J Haumea RA 24.0548 24.14 silver (loose)
+  - S Haumea → J Haumea Dec 6.9903 7 whole (26.77)
+  - S Makemake → J Makemake Dec 11.3474 7×φ golden (loose)
+  - S Orcus → J Orcus RA 22.2721 22.2222 ninth (loose)
+  - S Quaoar → J Quaoar Dec 1.0122 1 whole (15.26)
+  - S Ketu → J Ketu Dec 18.7587 18.8889 ninth (loose)
+- **5 Carn A Chlamain / Tom Marquand**
+  - S Jupiter → H Jupiter Dec 7.7736 7.77778 ninth (loose)
+  - S Neptune → H Neptune Dec 2.2278 2.22222 ninth (loose)
+  - S Pluto → H Pluto Dec 1.0047 1 whole (58.15)
+  - S Sedna → H Sedna RA 1.8778 1.88889 ninth (loose)
+  - S Haumea → H Haumea RA 4.4416 4.44444 ninth (loose)
+  - S Orcus → H Orcus RA 4.4462 4.44444 ninth (loose)
+  - S Transpluto → H Transpluto RA 1.7776 1.77778 ninth (98.59)
+  - S Mercury → J Mercury RA 77.6868 77.7778 ninth (loose)
+  - S Saturn → J Saturn Dec 22.9885 23 whole (17.94)
+  - S Uranus → J Uranus RA 84.0272 84 whole (loose)
+  - S Neptune → J Neptune Dec 15.0180 15 whole (1.05)
+  - S Pluto → J Pluto Dec 13.0274 13 whole (loose)
+  - S Chiron → J Chiron RA 141.7147 141.4 sqrt2 (loose)
+  - S Chiron → J Chiron Dec 20.9825 21 whole (1.52)
+  - S Pallas → J Pallas Dec 12.2489 12.2222 ninth (loose)
+  - S Rahu → J Rahu RA 106.7701 66×φ golden (14.16)
+  - S Sedna → J Sedna Dec 3.0246 3 whole (loose)
+  - S Makemake → J Makemake RA 21.9997 22 whole (97.17)
+  - S Makemake → J Makemake Dec 10.9960 11 whole (63.98)
+  - S Transpluto → J Transpluto Dec 2.9826 3 whole (1.70)
+  - S Ketu → J Ketu RA 106.7701 66×φ golden (14.16)
+- **6 Flamingo Rose / Dougie Costello**
+  - S Chiron → H Chiron RA 12.9539 8×φ golden (loose)
+  - S Pallas → H Pallas RA 1.7657 1.77778 ninth (loose)
+  - S Juno → H Juno Dec 3.0100 3 whole (24.89)
+  - S Vesta → H Vesta Dec 46.8806 φ^8 phi power (loose)
+  - S Eris → H Eris Dec 1.0156 1 whole (4.89)
+  - S Gonggong → H Gonggong Dec 1.0300 1 whole (loose)
+  - S Sun → J Sun RA 17.9875 18 whole (14.05)
+  - S Mars → J Mars RA 80.0208 80 whole (loose)
+  - S Saturn → J Saturn Dec 6.1841 10×φ^-1 phi power (loose)
+  - S Pluto → J Pluto Dec 27.5168 17×φ golden (loose)
+  - S Chiron → J Chiron RA 43.9759 44 whole (loose)
+  - S Ceres → J Ceres RA 111.5022 111.111 ninth (loose)
+  - S Pallas → J Pallas Dec 17.8623 φ^6 phi power (loose)
+  - S Gonggong → J Gonggong RA 8.9795 9 whole (loose)
+  - S Transpluto → J Transpluto RA 13.3233 13.3333 ninth (loose)
+- **7 Red Tornado / Jason Hart**
+  - S Sun → H Sun RA 19.4016 12×φ golden (loose)
+  - S Vesta → H Vesta Dec 17.9232 φ^6 phi power (loose)
+  - S Rahu → H Rahu Dec 41.3640 41.4 silver (loose)
+  - S Orcus → H Orcus RA 8.9826 9 whole (1.64)
+  - S Quaoar → H Quaoar RA 12.9481 8×φ golden (77.65)
+  - S Ketu → H Ketu Dec 41.3640 41.4 silver (loose)
+  - S Sun → J Sun RA 143.0085 143 whole (33.16)
+  - S Chiron → J Chiron RA 158.9894 159 whole (21.94)
+  - S Eris → J Eris Dec 6.9841 7 whole (4.28)
+  - S Haumea → J Haumea RA 26.0761 10×φ^2 phi power (loose)
+  - S Gonggong → J Gonggong RA 6.4652 4×φ golden (loose)
+### READ 2 Jupiter / Sun star lines, highest score first, each in full
+#### 1. S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49) — runners with cells 7/7
+- Moon confirms: none
+- 1 The Dancing Poet / Harry Russell
+  - star rows: H Aculeus → H Mars Dec 17.7711 17.7778 ninth (94.74) — only
+  - star rows: H Aculeus → H Neptune Dec 23.0086 23 whole (32.60) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+  - star rows: H Aculeus → H Ceres RA 70.0029 70 whole (73.30) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+  - star rows: H Aculeus → H Vesta RA 110.9108 10×φ^5 phi power (96.75) — also: 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+  - star rows: H Aculeus → H Eris RA 119.9924 120 whole (38.24) — also: 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand
+  - star rows: J Aculeus → J Juno RA 87.9924 88 whole (38.55) — also: 7 Red Tornado / Jason Hart
+  - star rows: J Aculeus → J Orcus RA 127.8461 79×φ golden (11.35) — only
+  - MATCH EXACT: J Facies → Ceres RA 61.8077 100×φ^-1 phi power (97.26)
+  - same number: J Facies → J Ceres RA 61.8077 100×φ^-1 phi power (97.26) — only
+- 2 Flying Instructor / Dylan Hogan
+  - star rows: S Aculeus → H Jupiter Dec 14.9800 15 whole (0.00) — only
+  - star rows: H Aculeus → H Ceres Dec 64.0027 64 whole (74.89) — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+  - star rows: H Aculeus → H Vesta RA 0.9257 conj (14.66) — also: 1 The Dancing Poet / Harry Russell, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+  - star rows: H Aculeus → H Eris Dec 30.0179 30 whole (1.15) — also: 1 The Dancing Poet / Harry Russell, 5 Carn A Chlamain / Tom Marquand
+  - star rows: H Aculeus → H Sedna RA 151.0164 151 whole (3.33) — also: 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+  - star rows: J Aculeus → J Mercury RA 64.9831 65 whole (2.38) — also: 7 Red Tornado / Jason Hart
+  - star rows: J Aculeus → J Neptune Dec 11.0024 11 whole (77.20) — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+  - star rows: J Aculeus → J Ceres RA 127.8465 79×φ golden (10.60) — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+- 3 Chase The Dollar / Rossa Ryan
+  - star rows: J Aculeus → J Venus RA 155.5578 155.556 ninth (99.79) — also: 6 Flamingo Rose / Dougie Costello
+  - star rows: J Aculeus → J Saturn RA 150.0069 150 whole (42.92) — also: 5 Carn A Chlamain / Tom Marquand
+  - MATCH EXACT: J Menkar → Mercury RA 61.8055 100×φ^-1 phi power (98.61)
+- 4 Deluxe Music / Callum Rodriguez
+  - star rows: H Aculeus → H Rahu RA 109.9866 110 whole (10.85) — also: 6 Flamingo Rose / Dougie Costello
+  - star rows: H Aculeus → H Quaoar Dec 16.6604 16.6667 ninth (94.60) — also: 7 Red Tornado / Jason Hart
+  - star rows: H Aculeus → H Ketu RA 70.0134 70 whole (10.85) — only
+  - star rows: J Aculeus → J Neptune RA 36.9917 37 whole (34.20) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 7 Red Tornado / Jason Hart
+  - star rows: J Aculeus → J Ceres Dec 14.5647 9×φ golden (85.80) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand
+  - star rows: J Aculeus → J Transpluto RA 118.9966 119 whole (69.02) — only
+- 5 Carn A Chlamain / Tom Marquand
+  - star rows: H Aculeus → H Sun RA 124.9908 125 whole (29.33) — also: 6 Flamingo Rose / Dougie Costello
+  - star rows: H Aculeus → H Saturn Dec 9.9975 10 whole (76.16) — also: 3 Chase The Dollar / Rossa Ryan
+  - star rows: H Aculeus → H Pallas Dec 28.0147 28 whole (6.96) — also: 7 Red Tornado / Jason Hart
+  - star rows: H Aculeus → H Sedna Dec 40.0140 40 whole (8.99) — also: 2 Flying Instructor / Dylan Hogan, 6 Flamingo Rose / Dougie Costello
+  - star rows: J Aculeus → J Ceres RA 111.6176 69×φ golden (3.01) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez
+  - star rows: J Aculeus → J Vesta Dec 45.9891 46 whole (20.86) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 6 Flamingo Rose / Dougie Costello
+  - star rows: J Aculeus → J Eris RA 118.1333 73×φ golden (23.05) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan
+  - star rows: J Aculeus → J Eris Dec 24.9953 25 whole (58.49) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan
+- 6 Flamingo Rose / Dougie Costello
+  - star rows: H Aculeus → H Sun Dec 41.0160 41 whole (4.01) — also: 5 Carn A Chlamain / Tom Marquand
+  - star rows: H Aculeus → H Venus RA 89.9947 90 whole (53.74) — also: 3 Chase The Dollar / Rossa Ryan
+  - star rows: H Aculeus → H Vesta Dec 57.9845 58 whole (5.02) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand
+  - star rows: H Aculeus → H Rahu RA 111.1081 111.111 ninth (99.50) — also: 4 Deluxe Music / Callum Rodriguez
+  - star rows: J Aculeus → J Vesta RA 101.9946 102 whole (53.53) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand
+  - star rows: J Aculeus → J Sedna RA 133.3332 133.333 ninth (99.99) — also: 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand
+- 7 Red Tornado / Jason Hart
+  - star rows: H Aculeus → H Pluto Dec 12.9965 13 whole (67.67) — only
+  - star rows: H Aculeus → H Juno RA 18.8898 18.8889 ninth (99.33) — also: 1 The Dancing Poet / Harry Russell
+  - star rows: H Aculeus → H Quaoar RA 1.2997 conj (1.78) — also: 4 Deluxe Music / Callum Rodriguez
+  - star rows: J Aculeus → J Mercury Dec 18.0195 18 whole (0.06) — also: 2 Flying Instructor / Dylan Hogan
+  - star rows: J Aculeus → J Neptune Dec 10.9860 11 whole (8.93) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez
+  - star rows: J Aculeus → J Pallas RA 155.3367 96×φ golden (68.99) — also: 5 Carn A Chlamain / Tom Marquand
+  - MATCH EXACT: J Deneb → Rahu Dec 61.8094 100×φ^-1 phi power (96.16)
+#### 2. S Sun → Deneb Algedi RA 0.1261 conj (83.89) — runners with cells 7/7
+- Moon confirms: none
+- 1 The Dancing Poet / Harry Russell
+  - star rows: H Deneb Algedi → H Uranus RA 48.9986 49 whole (86.49) — only
+  - star rows: H Deneb Algedi → H Ketu RA 26.1830 10×φ^2 phi power (95.91) — also: 3 Chase The Dollar / Rossa Ryan
+  - star rows: J Deneb Algedi → J Sun RA 77.9964 78 whole (67.24) — also: 7 Red Tornado / Jason Hart
+  - star rows: J Deneb Algedi → J Chiron RA 106.7804 66×φ golden (48.56) — only
+  - star rows: J Deneb Algedi → J Ceres RA 14.1435 14.14 sqrt2 (96.31) — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez
+  - star rows: J Deneb Algedi → J Gonggong RA 3.9917 4 whole (34.17) — also: 3 Chase The Dollar / Rossa Ryan, 6 Flamingo Rose / Dougie Costello
+  - MATCH CONJ STAR: H Deneb Algedi → Uranus RA 48.9986 49 whole (86.49)
+  - MATCH CONJ STAR: H Deneb Algedi → Ketu RA 26.1830 10×φ^2 phi power (95.91)
+  - MATCH CONJ STAR: S Jupiter → H body → Uranus RA 33.9729 21×φ golden (67.20)
+  - MATCH CONJ STAR: J Deneb Algedi → Sun RA 77.9964 78 whole (67.24)
+  - MATCH CONJ STAR: J Deneb Algedi → Ceres RA 14.1435 14.14 sqrt2 (96.31)
+  - MATCH CONJ STAR: S Jupiter → J body → Mercury Dec 16.6649 16.6667 ninth (98.47)
+  - MATCH CONJ STAR: S Jupiter → J body → Pallas RA 42.0630 26×φ golden (67.15)
+- 2 Flying Instructor / Dylan Hogan
+  - star rows: H Deneb Algedi → H Haumea Dec 32.9881 33 whole (16.40) — also: 6 Flamingo Rose / Dougie Costello
+  - star rows: J Deneb Algedi → J Rahu Dec 0.1777 conj (16.63) — also: 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+  - MATCH CONJ STAR: S Jupiter → H body → Juno RA 0.0583 conj (92.38)
+  - MATCH CONJ STAR: S Jupiter → J body → Pallas Dec 16.6661 16.6667 ninth (99.48)
+- 3 Chase The Dollar / Rossa Ryan
+  - star rows: H Deneb Algedi → H Makemake Dec 40.9939 41 whole (48.64) — also: 4 Deluxe Music / Callum Rodriguez
+  - star rows: H Deneb Algedi → H Gonggong Dec 4.0034 4 whole (69.03) — also: 1 The Dancing Poet / Harry Russell, 6 Flamingo Rose / Dougie Costello
+  - star rows: H Deneb Algedi → H Ketu Dec 0.7778 0.777778 ninth (99.12) — also: 1 The Dancing Poet / Harry Russell
+  - star rows: S Deneb Algedi → J Jupiter Dec 35.5961 22×φ golden (96.06) — also: 6 Flamingo Rose / Dougie Costello
+  - star rows: J Deneb Algedi → J Pluto RA 76.0156 φ^9 phi power (98.72) — also: 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+  - star rows: J Deneb Algedi → J Ceres RA 139.1708 86×φ golden (14.91) — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez
+  - star rows: J Deneb Algedi → J Transpluto RA 179.4212 10×φ^6 phi power (95.25) — also: 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+  - natal Jupiter → star: J Jupiter → J star Deneb Algedi Dec 35.5908 22×φ golden (66.64) — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+  - MATCH CONJ STAR: H Deneb Algedi → Gonggong Dec 4.0034 4 whole (69.03)
+  - MATCH CONJ STAR: H Deneb Algedi → Ketu Dec 0.7778 0.777778 ninth (99.12)
+  - MATCH CONJ STAR: J Deneb Algedi → Jupiter Dec 35.5908 22×φ golden (66.64)
+  - MATCH CONJ STAR: J Deneb Algedi → Pluto RA 76.0156 φ^9 phi power (98.72)
+  - MATCH CONJ STAR: J Deneb Algedi → Transpluto RA 179.4212 10×φ^6 phi power (95.25)
+  - MATCH CONJ STAR: S Jupiter → J body → Eris Dec 2.2222 2.22222 ninth (99.49)
+  - MATCH CONJ STAR: S Jupiter → J body → Makemake Dec 41.0006 41 whole (94.11)
+- 4 Deluxe Music / Callum Rodriguez
+  - star rows: H Deneb Algedi → H Saturn RA 59.9807 60 whole (0.11) — only
+  - star rows: H Deneb Algedi → H Pallas Dec 13.0086 13 whole (32.31) — also: 5 Carn A Chlamain / Tom Marquand
+  - star rows: H Deneb Algedi → H Orcus RA 174.7442 108×φ golden (79.64) — also: 6 Flamingo Rose / Dougie Costello
+  - star rows: J Deneb Algedi → J Ceres RA 11.9987 12 whole (87.31) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan
+  - star rows: J Deneb Algedi → J Makemake Dec 49.9847 50 whole (5.42) — also: 3 Chase The Dollar / Rossa Ryan
+  - MATCH CONJ STAR: H Deneb Algedi → Orcus RA 174.7442 108×φ golden (79.64)
+  - MATCH CONJ STAR: J Deneb Algedi → Ceres RA 11.9987 12 whole (87.31)
+- 5 Carn A Chlamain / Tom Marquand
+  - star rows: H Deneb Algedi → H Pallas RA 108.0199 108 whole (0.00) — also: 4 Deluxe Music / Callum Rodriguez
+  - star rows: H Deneb Algedi → H Rahu RA 166.6791 166.667 ninth (98.94) — also: 2 Flying Instructor / Dylan Hogan, 7 Red Tornado / Jason Hart
+  - MATCH CONJ STAR: H Deneb Algedi → Rahu RA 166.6791 166.667 ninth (98.94)
+  - MATCH CONJ STAR: S Jupiter → H body → Pallas RA 92.9976 93 whole (77.64)
+  - MATCH CONJ STAR: S Jupiter → H body → Haumea Dec 25.8898 16×φ golden (92.35)
+  - MATCH CONJ STAR: S Jupiter → J body → Orcus RA 153.7201 95×φ golden (61.87)
+  - MATCH CONJ STAR: S Jupiter → J body → Ketu RA 0.0165 conj (97.81)
+- 6 Flamingo Rose / Dougie Costello
+  - star rows: H Deneb Algedi → H Sedna RA 88.9811 89 whole (0.31) — only
+  - star rows: H Deneb Algedi → H Transpluto RA 173.9975 174 whole (76.81) — also: 3 Chase The Dollar / Rossa Ryan, 7 Red Tornado / Jason Hart
+  - star rows: J Deneb Algedi → J Jupiter Dec 5.0009 5 whole (91.09) — also: 3 Chase The Dollar / Rossa Ryan
+  - star rows: J Deneb Algedi → J Mars Dec 18.0108 18 whole (21.21) — only
+  - star rows: J Deneb Algedi → J Pluto RA 113.2490 70×φ golden (34.58) — also: 3 Chase The Dollar / Rossa Ryan, 7 Red Tornado / Jason Hart
+  - star rows: J Deneb Algedi → J Juno RA 0.6167 conj (34.67) — only
+  - star rows: J Deneb Algedi → J Eris Dec 4.9851 5 whole (6.55) — also: 7 Red Tornado / Jason Hart
+  - star rows: J Deneb Algedi → J Haumea RA 145.6148 90×φ golden (55.31) — also: 2 Flying Instructor / Dylan Hogan
+  - star rows: J Deneb Algedi → J Orcus RA 155.5459 155.556 ninth (99.09) — also: 4 Deluxe Music / Callum Rodriguez
+  - star rows: J Deneb Algedi → J Gonggong RA 0.9339 conj (14.24) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan
+  - star rows: J Deneb Algedi → J Transpluto RA 174.7346 108×φ golden (35.57) — also: 3 Chase The Dollar / Rossa Ryan, 7 Red Tornado / Jason Hart
+  - natal Jupiter → star: J Jupiter → J star Deneb Algedi Dec 5.0009 5 whole (91.09) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+  - MATCH CONJ STAR: H Deneb Algedi → Transpluto RA 173.9975 174 whole (76.81)
+  - MATCH CONJ STAR: S Jupiter → H body → Ketu Dec 2.0009 2 whole (91.59)
+  - MATCH CONJ STAR: J Deneb Algedi → Jupiter Dec 5.0009 5 whole (91.09)
+  - MATCH CONJ STAR: J Deneb Algedi → Haumea RA 145.6148 90×φ golden (55.31)
+  - MATCH CONJ STAR: J Deneb Algedi → Orcus RA 155.5459 155.556 ninth (99.09)
+  - MATCH CONJ STAR: S Jupiter → J body → Sedna RA 56.6334 35×φ golden (86.88)
+  - MATCH CONJ STAR: S Jupiter → J body → Gonggong Dec 13.3365 13.3333 ninth (96.18)
+- 7 Red Tornado / Jason Hart
+  - star rows: H Deneb Algedi → H Vesta RA 38.8373 24×φ golden (74.42) — only
+  - star rows: H Deneb Algedi → H Eris RA 57.9926 58 whole (39.69) — also: 6 Flamingo Rose / Dougie Costello
+  - star rows: J Deneb Algedi → J Sun Dec 14.4456 14.4444 ninth (98.77) — also: 1 The Dancing Poet / Harry Russell
+  - star rows: J Deneb Algedi → J Mercury RA 119.7095 74×φ golden (5.22) — only
+  - star rows: J Deneb Algedi → J Pluto Dec 9.9879 10 whole (15.78) — also: 3 Chase The Dollar / Rossa Ryan, 6 Flamingo Rose / Dougie Costello
+  - star rows: J Deneb Algedi → J Rahu RA 103.5857 64×φ golden (0.06) — also: 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand
+  - star rows: J Deneb Algedi → J Transpluto RA 179.4207 10×φ^6 phi power (95.15) — also: 3 Chase The Dollar / Rossa Ryan, 6 Flamingo Rose / Dougie Costello
+  - MATCH CONJ STAR: H Deneb Algedi → Vesta RA 38.8373 24×φ golden (74.42)
+  - MATCH CONJ STAR: S Jupiter → H body → Quaoar RA 77.9994 78 whole (93.92)
+  - MATCH CONJ STAR: J Deneb Algedi → Sun Dec 14.4456 14.4444 ninth (98.77)
+  - MATCH CONJ STAR: J Deneb Algedi → Transpluto RA 179.4207 10×φ^6 phi power (95.15)
+  - MATCH CONJ STAR: S Jupiter → J body → Venus RA 122.2954 122.222 ninth (89.87)
+#### 3. S Sun → Sadalsuud RA 3.9980 4 whole (80.68) — runners with cells 7/7
+- Moon confirms: none
+- 1 The Dancing Poet / Harry Russell
+  - star rows: H Sadalsuud → H Chiron Dec 4.8546 3×φ golden (96.78) — also: 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+  - star rows: H Sadalsuud → H Orcus RA 171.0135 171 whole (10.70) — also: 7 Red Tornado / Jason Hart
+  - star rows: J Sadalsuud → J Pluto RA 77.0002 77 whole (98.06) — also: 2 Flying Instructor / Dylan Hogan
+  - star rows: J Sadalsuud → J Pluto Dec 3.9865 4 whole (10.52) — also: 2 Flying Instructor / Dylan Hogan
+  - star rows: J Sadalsuud → J Ceres RA 18.0141 18 whole (8.80) — also: 5 Carn A Chlamain / Tom Marquand
+  - star rows: J Sadalsuud → J Makemake Dec 38.0060 38 whole (48.79) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez
+  - star rows: J Sadalsuud → J Ketu Dec 0.1550 conj (23.35) — also: 6 Flamingo Rose / Dougie Costello
+  - MATCH EXACT: H Orion Nebula Cluster → Orcus Dec 3.9977 4 whole (77.97)
+  - MATCH EXACT: J Deneb Algedi → Gonggong RA 3.9917 4 whole (34.17)
+  - MATCH EXACT: J Sadalsuud → Pluto Dec 3.9865 4 whole (10.52)
+  - MATCH EXACT: J Difda → Sun Dec 4.0192 4 whole (0.17)
+  - same number: J Deneb Algedi → J Gonggong RA 3.9917 4 whole (34.17) — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+- 2 Flying Instructor / Dylan Hogan
+  - star rows: H Sadalsuud → H Saturn RA 43.9832 44 whole (2.61) — also: 6 Flamingo Rose / Dougie Costello
+  - star rows: H Sadalsuud → H Uranus RA 61.9984 62 whole (84.37) — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+  - star rows: H Sadalsuud → H Neptune RA 22.9887 23 whole (18.75) — also: 5 Carn A Chlamain / Tom Marquand
+  - star rows: J Sadalsuud → J Pluto Dec 0.9903 1 whole (26.72) — also: 1 The Dancing Poet / Harry Russell
+  - star rows: J Sadalsuud → J Makemake RA 148.0043 148 whole (61.36) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez
+  - MATCH EXACT: H Alkes → Saturn Dec 4.0033 4 whole (70.04)
+  - MATCH EXACT: H Nunki → Saturn Dec 3.9929 4 whole (41.48)
+- 3 Chase The Dollar / Rossa Ryan
+  - star rows: H Sadalsuud → H Juno RA 24.2785 15×φ golden (56.64) — also: 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+  - star rows: H Sadalsuud → H Quaoar RA 51.0113 51 whole (18.86) — also: 4 Deluxe Music / Callum Rodriguez
+  - star rows: J Sadalsuud → J Sun RA 139.9867 140 whole (11.33) — also: 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+  - star rows: J Sadalsuud → J Mercury RA 144.4784 144.444 ninth (96.40) — also: 6 Flamingo Rose / Dougie Costello
+  - star rows: J Sadalsuud → J Uranus RA 0.0163 conj (97.84) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+  - star rows: J Sadalsuud → J Haumea Dec 27.0005 27 whole (95.52) — also: 7 Red Tornado / Jason Hart
+  - star rows: J Sadalsuud → J Makemake RA 144.4143 144.444 ninth (96.81) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez
+  - MATCH EXACT: H Deneb Algedi → Gonggong Dec 4.0034 4 whole (69.03)
+  - MATCH EXACT: J Hamal → Jupiter Dec 3.9957 4 whole (61.93)
+  - same number: H Deneb Algedi → H Gonggong Dec 4.0034 4 whole (69.03) — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+  - same number: S Sun → J Uranus RA 4.0048 4 whole (57.89) — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+- 4 Deluxe Music / Callum Rodriguez
+  - star rows: H Sadalsuud → H Uranus RA 58.0101 58 whole (24.70) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand
+  - star rows: H Sadalsuud → H Juno RA 43.0090 43 whole (30.33) — also: 3 Chase The Dollar / Rossa Ryan, 7 Red Tornado / Jason Hart
+  - star rows: H Sadalsuud → H Makemake RA 128.0127 128 whole (13.16) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan
+  - star rows: H Sadalsuud → H Quaoar Dec 10.0189 10 whole (0.30) — also: 3 Chase The Dollar / Rossa Ryan
+  - star rows: H Sadalsuud → H Transpluto RA 169.8953 105×φ golden (89.68) — also: 5 Carn A Chlamain / Tom Marquand
+  - star rows: S Sadalsuud → J Jupiter RA 0.3409 conj (59.71) — also: 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+  - star rows: J Sadalsuud → J Makemake RA 147.2369 91×φ golden (75.73) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan
+  - star rows: J Sadalsuud → J Quaoar RA 79.2867 49×φ golden (82.23) — also: 3 Chase The Dollar / Rossa Ryan
+  - natal Jupiter → star: J Jupiter → J star Sadalsuud RA 0.3456 conj (59.23) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+  - MATCH EXACT: H Bellatrix → Rahu Dec 3.9976 4 whole (77.07)
+  - MATCH EXACT: H Sualocin → Mars Dec 4.0042 4 whole (62.70)
+  - MATCH EXACT: J Diadem → Haumea RA 4.0029 4 whole (72.91)
+  - MATCH EXACT: J Bellatrix → Mercury Dec 3.9842 4 whole (4.49)
+  - MATCH EXACT: J Sadalmelik → Saturn Dec 3.9841 4 whole (4.23)
+  - same number: J Sadalmelik → J Saturn Dec 3.9841 4 whole (4.23) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 7 Red Tornado / Jason Hart
+- 5 Carn A Chlamain / Tom Marquand
+  - star rows: H Sadalsuud → H Uranus Dec 16.0115 16 whole (18.18) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez
+  - star rows: H Sadalsuud → H Neptune RA 24.0161 24 whole (3.76) — also: 2 Flying Instructor / Dylan Hogan
+  - star rows: H Sadalsuud → H Sedna Dec 13.3338 13.3333 ninth (99.38) — only
+  - star rows: S Sadalsuud → J Jupiter Dec 2.0182 2 whole (0.77) — also: 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+  - star rows: J Sadalsuud → J Ceres Dec 5.0141 5 whole (8.64) — also: 1 The Dancing Poet / Harry Russell
+  - star rows: J Sadalsuud → J Vesta RA 84.1385 52×φ golden (95.29) — also: 7 Red Tornado / Jason Hart
+  - star rows: J Sadalsuud → J Transpluto Dec 19.0083 19 whole (34.02) — also: 4 Deluxe Music / Callum Rodriguez
+  - MATCH EXACT: H Zubenelgenubi → Gonggong Dec 3.9849 4 whole (6.09)
+  - MATCH EXACT: H Unukalhai → Uranus Dec 4.0151 4 whole (6.03)
+- 6 Flamingo Rose / Dougie Costello
+  - star rows: S Sadalsuud → H Jupiter RA 126.2131 78×φ golden (64.12) — also: 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+  - star rows: H Sadalsuud → H Jupiter Dec 0.1924 conj (12.86) — also: 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+  - star rows: H Sadalsuud → H Saturn RA 55.5588 55.5556 ninth (96.89) — also: 2 Flying Instructor / Dylan Hogan
+  - star rows: H Sadalsuud → H Ketu RA 11.0910 φ^5 phi power (97.20) — also: 1 The Dancing Poet / Harry Russell
+  - star rows: S Sadalsuud → J Jupiter Dec 15.5555 15.5556 ninth (99.91) — also: 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+  - star rows: J Sadalsuud → J Sun RA 21.9852 22 whole (6.82) — also: 3 Chase The Dollar / Rossa Ryan, 7 Red Tornado / Jason Hart
+  - star rows: J Sadalsuud → J Mercury RA 5.9875 6 whole (13.91) — also: 3 Chase The Dollar / Rossa Ryan
+  - star rows: J Sadalsuud → J Chiron RA 88.9968 55×φ golden (71.62) — also: 1 The Dancing Poet / Harry Russell, 7 Red Tornado / Jason Hart
+  - star rows: J Sadalsuud → J Pallas RA 42.0021 42 whole (79.83) — only
+  - star rows: J Sadalsuud → J Rahu Dec 29.0067 29 whole (44.35) — only
+  - natal Jupiter → star: H Jupiter → H star Sadalsuud RA 126.2159 78×φ golden (50.81) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+  - natal Jupiter → star: J Jupiter → J star Sadalsuud Dec 15.5554 15.5556 ninth (99.85) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+  - MATCH EXACT: H Betelgeuse → Venus Dec 3.9999 4 whole (99.47)
+  - MATCH EXACT: H Zubeneschamali → Jupiter Dec 4.0043 4 whole (61.94)
+  - MATCH EXACT: H Algol → Mars RA 3.9937 4 whole (47.21)
+  - MATCH EXACT: H Jupiter → H body → Orcus Dec 3.9880 4 whole (15.88)
+  - MATCH EXACT: S body → H Jupiter → Eris Dec 4.0155 4 whole (5.02)
+- 7 Red Tornado / Jason Hart
+  - star rows: H Sadalsuud → H Sun Dec 0.2981 conj (0.00) — also: 3 Chase The Dollar / Rossa Ryan, 6 Flamingo Rose / Dougie Costello
+  - star rows: H Sadalsuud → H Haumea Dec 23.9912 24 whole (31.34) — also: 3 Chase The Dollar / Rossa Ryan
+  - star rows: J Sadalsuud → J Sun RA 139.0196 139 whole (0.03) — also: 3 Chase The Dollar / Rossa Ryan, 6 Flamingo Rose / Dougie Costello
+  - star rows: J Sadalsuud → J Chiron RA 155.9986 156 whole (86.34) — also: 1 The Dancing Poet / Harry Russell, 6 Flamingo Rose / Dougie Costello
+  - star rows: J Sadalsuud → J Juno RA 103.5234 64×φ golden (0.24) — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez
+  - star rows: J Sadalsuud → J Vesta RA 133.3774 133.333 ninth (94.71) — also: 5 Carn A Chlamain / Tom Marquand
+  - star rows: J Sadalsuud → J Orcus RA 171.5075 106×φ golden (75.98) — also: 1 The Dancing Poet / Harry Russell
+  - MATCH EXACT: H Denebola → Mars Dec 3.9984 4 whole (85.00)
+  - MATCH EXACT: H Hamal → Makemake Dec 4.0104 4 whole (23.11)
+  - MATCH EXACT: H Al Rescha → Sedna Dec 4.0147 4 whole (7.05)
+  - MATCH EXACT: H Menkent → Saturn RA 4.0188 4 whole (0.36)
+  - MATCH EXACT: H Sadalmelik → Pallas RA 3.9805 4 whole (0.05)
+  - MATCH EXACT: J Zosma → Ketu Dec 4.0010 4 whole (89.92)
+  - MATCH EXACT: J Difda → Quaoar Dec 4.0043 4 whole (61.89)
+  - MATCH EXACT: J Algorab → Haumea RA 4.0171 4 whole (2.10)
+  - same number: H Sadalmelik → H Pallas RA 3.9805 4 whole (0.05) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez
+#### 4. S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78) — runners with cells 7/7
+- Moon confirms: none
+- 1 The Dancing Poet / Harry Russell
+  - star rows: H Rasalhague → H Venus Dec 35.0154 35 whole (5.26) — also: 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+  - star rows: H Rasalhague → H Eris RA 121.3408 75×φ golden (40.58) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 7 Red Tornado / Jason Hart
+  - star rows: J Rasalhague → J Mercury Dec 37.9935 38 whole (45.90) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez
+  - star rows: J Rasalhague → J Uranus Dec 31.9829 32 whole (2.12) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand
+  - star rows: J Rasalhague → J Chiron Dec 27.0084 27 whole (33.65) — only
+  - star rows: J Rasalhague → J Pallas RA 35.9908 36 whole (29.30) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 7 Red Tornado / Jason Hart
+- 2 Flying Instructor / Dylan Hogan
+  - star rows: H Rasalhague → H Mercury RA 110.0554 68×φ golden (1.03) — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez
+  - star rows: H Rasalhague → H Juno RA 77.9888 78 whole (19.32) — only
+  - star rows: H Rasalhague → H Makemake Dec 12.2252 12.2222 ninth (95.90) — also: 7 Red Tornado / Jason Hart
+  - star rows: H Rasalhague → H Orcus RA 110.9992 111 whole (92.15) — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+  - star rows: J Rasalhague → J Uranus RA 31.0031 31 whole (71.41) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand
+  - star rows: J Rasalhague → J Pallas RA 155.0032 155 whole (70.67) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 7 Red Tornado / Jason Hart
+  - star rows: J Rasalhague → J Pallas Dec 37.9965 38 whole (67.81) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 7 Red Tornado / Jason Hart
+  - star rows: J Rasalhague → J Eris Dec 21.0139 21 whole (9.33) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 7 Red Tornado / Jason Hart
+  - star rows: J Rasalhague → J Orcus RA 129.0145 129 whole (7.43) — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+  - MATCH EXACT: H Deneb → Gonggong RA 25.8820 16×φ golden (63.80)
+- 3 Chase The Dollar / Rossa Ryan
+  - star rows: H Rasalhague → H Sun RA 106.7960 66×φ golden (67.50) — also: 6 Flamingo Rose / Dougie Costello
+  - star rows: H Rasalhague → H Neptune Dec 19.4186 12×φ golden (86.77) — only
+  - star rows: H Rasalhague → H Eris RA 121.9816 122 whole (0.62) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 7 Red Tornado / Jason Hart
+  - star rows: H Rasalhague → H Orcus RA 111.1700 111.111 ninth (90.36) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+  - star rows: J Rasalhague → J Uranus Dec 27.9898 28 whole (24.15) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand
+  - star rows: J Rasalhague → J Pluto RA 12.9904 13 whole (27.00) — only
+  - star rows: J Rasalhague → J Pallas Dec 2.0109 2 whole (20.69) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 7 Red Tornado / Jason Hart
+  - star rows: J Rasalhague → J Rahu RA 147.2109 91×φ golden (0.43) — also: 5 Carn A Chlamain / Tom Marquand
+  - star rows: J Rasalhague → J Sedna Dec 7.0070 7 whole (42.34) — also: 6 Flamingo Rose / Dougie Costello
+  - star rows: J Rasalhague → J Orcus RA 126.0046 126 whole (59.41) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+  - MATCH EXACT: J Bellatrix → Makemake Dec 25.8831 16×φ golden (69.31)
+- 4 Deluxe Music / Callum Rodriguez
+  - star rows: H Rasalhague → H Mercury RA 92.2216 57×φ golden (64.68) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan
+  - star rows: H Rasalhague → H Venus RA 104.0011 104 whole (88.88) — also: 1 The Dancing Poet / Harry Russell, 7 Red Tornado / Jason Hart
+  - star rows: J Rasalhague → J Ceres RA 75.0198 75 whole (0.02) — also: 6 Flamingo Rose / Dougie Costello
+  - star rows: J Rasalhague → J Orcus Dec 12.0119 12 whole (16.22) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+  - MATCH EXACT: H Galactic Centre → Pallas Dec 25.8856 16×φ golden (82.78)
+  - same number: H Galactic Centre → H Pallas Dec 25.8856 16×φ golden (82.78) — also: 5 Carn A Chlamain / Tom Marquand
+- 5 Carn A Chlamain / Tom Marquand
+  - star rows: H Rasalhague → H Uranus RA 122.9044 φ^10 phi power (73.56) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan
+  - star rows: H Rasalhague → H Quaoar Dec 27.9825 28 whole (1.58) — also: 7 Red Tornado / Jason Hart
+  - star rows: J Rasalhague → J Rahu RA 101.9368 63×φ golden (96.17) — also: 3 Chase The Dollar / Rossa Ryan
+  - MATCH EXACT: S Jupiter → H body → Haumea Dec 25.8898 16×φ golden (92.35)
+  - same number: S Jupiter → H Haumea Dec 25.8898 16×φ golden (92.35) — also: 4 Deluxe Music / Callum Rodriguez
+- 6 Flamingo Rose / Dougie Costello
+  - star rows: H Rasalhague → H Sedna RA 152.0028 152 whole (73.87) — also: 3 Chase The Dollar / Rossa Ryan
+  - star rows: H Rasalhague → H Transpluto RA 110.9758 10×φ^5 phi power (75.05) — also: 7 Red Tornado / Jason Hart
+  - star rows: J Rasalhague → J Sun Dec 19.0167 19 whole (2.67) — also: 3 Chase The Dollar / Rossa Ryan
+  - star rows: J Rasalhague → J Mars RA 101.9892 102 whole (20.99) — also: 7 Red Tornado / Jason Hart
+  - star rows: J Rasalhague → J Ceres RA 42.9820 43 whole (0.97) — also: 4 Deluxe Music / Callum Rodriguez
+  - star rows: J Rasalhague → J Orcus RA 141.4324 141.4 sqrt2 (96.89) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+  - star rows: J Rasalhague → J Transpluto RA 122.2437 122.222 ninth (97.02) — also: 7 Red Tornado / Jason Hart
+  - star rows: J Rasalhague → J Ketu Dec 35.9914 36 whole (32.28) — only
+  - MATCH EXACT: H Deneb → Gonggong RA 25.8883 16×φ golden (98.25)
+- 7 Red Tornado / Jason Hart
+  - star rows: H Rasalhague → H Venus Dec 0.1524 conj (24.20) — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez
+  - star rows: H Rasalhague → H Mars Dec 1.9852 2 whole (6.85) — also: 6 Flamingo Rose / Dougie Costello
+  - star rows: H Rasalhague → H Eris RA 121.0154 121 whole (5.18) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan
+  - star rows: H Rasalhague → H Makemake RA 72.9982 73 whole (83.15) — also: 2 Flying Instructor / Dylan Hogan
+  - star rows: H Rasalhague → H Quaoar RA 0.0493 conj (93.53) — also: 5 Carn A Chlamain / Tom Marquand
+  - star rows: J Rasalhague → J Mars RA 145.6034 90×φ golden (15.47) — also: 6 Flamingo Rose / Dougie Costello
+  - star rows: J Rasalhague → J Pallas Dec 27.5040 17×φ golden (84.94) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan
+  - star rows: J Rasalhague → J Orcus Dec 11.0999 φ^5 phi power (67.94) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+  - star rows: J Rasalhague → J Transpluto Dec 1.0028 1 whole (74.04) — also: 6 Flamingo Rose / Dougie Costello
+  - MATCH EXACT: H Kaus Australis → Saturn Dec 25.8840 16×φ golden (73.93)
+  - MATCH EXACT: J Algenib → Saturn Dec 25.8822 16×φ golden (64.44)
+  - MATCH EXACT: J Diadem → Eris Dec 25.8808 16×φ golden (57.78)
+#### 5. S Sun → Sadalmelik Dec 13.0048 13 whole (57.77) — runners with cells 7/7
+- Moon confirms: none
+- 1 The Dancing Poet / Harry Russell
+  - star rows: H Sadalmelik → H Mercury Dec 20.0082 20 whole (34.58) — also: 3 Chase The Dollar / Rossa Ryan
+  - star rows: J Sadalmelik → J Mars RA 42.0097 42 whole (26.53) — also: 4 Deluxe Music / Callum Rodriguez
+  - star rows: J Sadalmelik → J Pallas Dec 0.0367 conj (77.03) — also: 3 Chase The Dollar / Rossa Ryan, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+  - star rows: J Sadalmelik → J Haumea RA 135.9964 136 whole (67.47) — also: 3 Chase The Dollar / Rossa Ryan
+  - star rows: J Sadalmelik → J Orcus Dec 0.2158 conj (7.88) — also: 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+  - star rows: J Sadalmelik → J Gonggong RA 0.6948 conj (28.82) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+  - star rows: J Sadalmelik → J Transpluto RA 176.0052 176 whole (54.89) — also: 7 Red Tornado / Jason Hart
+  - MATCH EXACT: H Zubenelgenubi → Ketu Dec 12.9914 13 whole (32.30)
+  - MATCH EXACT: H Pleiades → Transpluto Dec 12.9857 13 whole (8.21)
+  - MATCH EXACT: H Meissa → Ketu Dec 12.9839 13 whole (3.88)
+  - MATCH EXACT: J Hamal → Vesta RA 12.9954 13 whole (59.17)
+  - MATCH EXACT: J Vindemiatrix → Vesta Dec 13.0180 13 whole (1.00)
+  - same number: H Meissa → H Ketu Dec 12.9839 13 whole (3.88) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+- 2 Flying Instructor / Dylan Hogan
+  - star rows: H Sadalmelik → H Sun Dec 0.1499 conj (25.02) — only
+  - star rows: H Sadalmelik → H Venus Dec 5.9828 6 whole (1.91) — only
+  - star rows: H Sadalmelik → H Saturn Dec 21.9818 22 whole (0.78) — also: 4 Deluxe Music / Callum Rodriguez
+  - star rows: H Sadalmelik → H Ceres RA 158.9952 159 whole (57.75) — also: 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+  - star rows: J Sadalmelik → J Vesta RA 129.9875 130 whole (13.99) — also: 6 Flamingo Rose / Dougie Costello
+  - star rows: J Sadalmelik → J Rahu Dec 15.9862 16 whole (9.57) — also: 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+  - star rows: J Sadalmelik → J Gonggong RA 1.4616 conj (0.07) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+  - MATCH EXACT: J Unukalhai → Pluto Dec 12.9877 13 whole (14.97)
+  - MATCH EXACT: J Diadem → Sedna Dec 13.0184 13 whole (0.66)
+  - same number: S Mercury → J Mercury Dec 12.9887 13 whole (18.81) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+- 3 Chase The Dollar / Rossa Ryan
+  - star rows: H Sadalmelik → H Chiron Dec 2.9988 3 whole (88.58) — only
+  - star rows: H Sadalmelik → H Sedna Dec 8.0032 8 whole (70.16) — also: 4 Deluxe Music / Callum Rodriguez
+  - star rows: H Sadalmelik → H Haumea RA 117.9846 118 whole (5.18) — also: 1 The Dancing Poet / Harry Russell
+  - star rows: J Sadalmelik → J Mercury RA 135.9228 84×φ golden (57.02) — also: 1 The Dancing Poet / Harry Russell
+  - star rows: J Sadalmelik → J Pallas RA 176.0134 176 whole (11.03) — also: 1 The Dancing Poet / Harry Russell, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+  - star rows: J Sadalmelik → J Gonggong RA 1.1083 conj (6.82) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+  - MATCH EXACT: H Diadem → Sun Dec 12.9994 13 whole (94.54)
+  - MATCH EXACT: H Acubens → Makemake Dec 13.0078 13 whole (37.40)
+  - MATCH EXACT: J Rigel → Ketu Dec 13.0006 13 whole (93.84)
+  - MATCH EXACT: J Rasalhague → Pluto RA 12.9904 13 whole (27.00)
+  - same number: S Uranus → H Uranus RA 13.0102 13 whole (23.91) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+  - same number: J Rasalhague → J Pluto RA 12.9904 13 whole (27.00) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+- 4 Deluxe Music / Callum Rodriguez
+  - star rows: H Sadalmelik → H Mars Dec 12.2270 12.2222 ninth (93.36) — also: 1 The Dancing Poet / Harry Russell
+  - star rows: H Sadalmelik → H Rahu RA 176.3450 109×φ golden (12.99) — also: 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+  - star rows: H Sadalmelik → H Orcus RA 179.4288 10×φ^6 phi power (96.93) — also: 1 The Dancing Poet / Harry Russell, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+  - star rows: H Sadalmelik → H Quaoar RA 60.9901 61 whole (25.54) — also: 6 Flamingo Rose / Dougie Costello
+  - star rows: J Sadalmelik → J Saturn Dec 3.9841 4 whole (4.23) — also: 2 Flying Instructor / Dylan Hogan
+  - star rows: J Sadalmelik → J Neptune Dec 19.4186 12×φ golden (87.04) — only
+  - star rows: J Sadalmelik → J Juno RA 106.0178 106 whole (1.19) — also: 5 Carn A Chlamain / Tom Marquand
+  - star rows: J Sadalmelik → J Juno Dec 14.0058 14 whole (50.24) — also: 5 Carn A Chlamain / Tom Marquand
+  - star rows: J Sadalmelik → J Eris RA 51.9867 52 whole (11.14) — also: 5 Carn A Chlamain / Tom Marquand
+  - star rows: J Sadalmelik → J Sedna RA 73.9929 74 whole (41.87) — also: 3 Chase The Dollar / Rossa Ryan
+  - star rows: J Sadalmelik → J Gonggong RA 0.4808 conj (46.16) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+  - MATCH EXACT: H Meissa → Mercury Dec 12.9963 13 whole (66.33)
+  - MATCH EXACT: H Rigel → Pluto Dec 13.0057 13 whole (50.85)
+  - MATCH EXACT: H Deneb Algedi → Pallas Dec 13.0086 13 whole (32.31)
+  - MATCH EXACT: J Alpheratz → Sun Dec 13.0192 13 whole (0.15)
+  - same number: H Deneb Algedi → H Pallas Dec 13.0086 13 whole (32.31) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+  - same number: H Meissa → H Mercury Dec 12.9963 13 whole (66.33) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+- 5 Carn A Chlamain / Tom Marquand
+  - star rows: H Sadalmelik → H Juno Dec 0.2932 conj (0.05) — also: 4 Deluxe Music / Callum Rodriguez
+  - star rows: H Sadalmelik → H Rahu RA 161.9949 162 whole (55.51) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+  - star rows: H Sadalmelik → H Rahu Dec 17.7945 11×φ golden (77.46) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+  - star rows: H Sadalmelik → H Ketu RA 18.0051 18 whole (55.51) — also: 6 Flamingo Rose / Dougie Costello
+  - star rows: J Sadalmelik → J Ceres Dec 0.2368 conj (4.43) — also: 2 Flying Instructor / Dylan Hogan, 7 Red Tornado / Jason Hart
+  - star rows: J Sadalmelik → J Eris RA 51.7763 32×φ golden (95.06) — also: 4 Deluxe Music / Callum Rodriguez
+  - star rows: J Sadalmelik → J Orcus Dec 0.1541 conj (23.66) — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+  - star rows: J Sadalmelik → J Gonggong RA 0.4773 conj (46.48) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+  - MATCH EXACT: H Regulus → Makemake Dec 12.9860 13 whole (9.08)
+  - MATCH EXACT: H Pleiades → Transpluto Dec 12.9817 13 whole (0.74)
+  - MATCH EXACT: J Zosma → Makemake Dec 12.9838 13 whole (3.53)
+  - same number: S Pluto → J Pluto Dec 13.0274 13 whole (loose) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+- 6 Flamingo Rose / Dougie Costello
+  - star rows: H Sadalmelik → H Vesta RA 145.6015 90×φ golden (11.10) — also: 2 Flying Instructor / Dylan Hogan
+  - star rows: H Sadalmelik → H Rahu Dec 11.0904 φ^5 phi power (99.30) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+  - star rows: J Sadalmelik → J Pallas Dec 8.9876 9 whole (14.48) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 7 Red Tornado / Jason Hart
+  - star rows: J Sadalmelik → J Quaoar Dec 12.0076 12 whole (38.73) — also: 4 Deluxe Music / Callum Rodriguez
+  - star rows: J Sadalmelik → J Ketu RA 59.8629 37×φ golden (74.79) — also: 5 Carn A Chlamain / Tom Marquand
+  - MATCH EXACT: H Alhena → Venus Dec 12.9927 13 whole (40.53)
+  - MATCH EXACT: H Rigel → Pluto Dec 12.9896 13 whole (23.20)
+  - MATCH EXACT: H Orion Nebula Cluster → Sedna Dec 12.9835 13 whole (3.05)
+  - MATCH EXACT: H Praesepe → Vesta RA 12.9823 13 whole (1.27)
+  - MATCH EXACT: H Al Rescha → Mercury Dec 13.0181 13 whole (0.94)
+  - MATCH EXACT: J El Nath → Chiron Dec 13.0188 13 whole (0.39)
+- 7 Red Tornado / Jason Hart
+  - star rows: H Sadalmelik → H Pallas RA 3.9805 4 whole (0.05) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 6 Flamingo Rose / Dougie Costello
+  - star rows: H Sadalmelik → H Orcus RA 176.3726 109×φ golden (61.94) — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+  - star rows: H Sadalmelik → H Transpluto RA 179.9802 180 whole (0.01) — also: 1 The Dancing Poet / Harry Russell
+  - star rows: J Sadalmelik → J Ceres RA 154.0123 154 whole (15.01) — also: 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand
+  - star rows: J Sadalmelik → J Gonggong RA 1.2485 conj (2.81) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+  - star rows: J Sadalmelik → J Transpluto RA 174.7344 108×φ golden (34.80) — also: 1 The Dancing Poet / Harry Russell
+  - MATCH EXACT: H Aculeus → Pluto Dec 12.9965 13 whole (67.67)
+  - MATCH EXACT: H Acumen → Rahu Dec 12.9841 13 whole (4.29)
+  - MATCH EXACT: J Bellatrix → Vesta Dec 13.0020 13 whole (80.78)
+  - MATCH EXACT: J Vega → Neptune RA 13.0020 13 whole (80.63)
+  - same number: H Aculeus → H Pluto Dec 12.9965 13 whole (67.67) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+#### 6. S Sun → Alkaid RA 119.9949 120 whole (55.43) — runners with cells 7/7
+- Moon confirms: none
+- 1 The Dancing Poet / Harry Russell
+  - star rows: S Alkaid → H Jupiter Dec 44.9924 45 whole (38.26) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez
+  - star rows: H Alkaid → H Orcus RA 55.0147 34×φ golden (90.89) — only
+  - star rows: J Alkaid → J Mars Dec 72.8148 45×φ golden (80.64) — also: 2 Flying Instructor / Dylan Hogan, 7 Red Tornado / Jason Hart
+  - star rows: J Alkaid → J Pluto RA 39.0084 39 whole (33.49) — only
+  - MATCH EXACT: H Aculeus → Eris RA 119.9924 120 whole (38.24)
+  - same number: H Aculeus → H Eris RA 119.9924 120 whole (38.24) — also: 2 Flying Instructor / Dylan Hogan
+- 2 Flying Instructor / Dylan Hogan
+  - star rows: H Alkaid → H Mars Dec 72.8183 45×φ golden (62.65) — also: 1 The Dancing Poet / Harry Russell, 7 Red Tornado / Jason Hart
+  - star rows: H Alkaid → H Saturn RA 72.0111 72 whole (19.78) — also: 7 Red Tornado / Jason Hart
+  - star rows: H Alkaid → H Uranus RA 177.9927 110×φ golden (52.26) — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez
+  - star rows: H Alkaid → H Neptune RA 138.9830 139 whole (2.24) — also: 5 Carn A Chlamain / Tom Marquand
+  - star rows: H Alkaid → H Rahu RA 70.7150 70.7 sqrt2 (97.58) — only
+  - star rows: H Alkaid → H Gonggong Dec 61.4844 38×φ golden (94.36) — also: 3 Chase The Dollar / Rossa Ryan, 7 Red Tornado / Jason Hart
+  - star rows: H Alkaid → H Ketu Dec 66.0185 66 whole (0.55) — also: 7 Red Tornado / Jason Hart
+  - star rows: S Alkaid → J Jupiter Dec 66.6679 66.6667 ninth (98.96) — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez
+  - star rows: J Alkaid → J Vesta Dec 30.0155 30 whole (5.09) — also: 6 Flamingo Rose / Dougie Costello
+  - star rows: J Alkaid → J Makemake RA 31.9909 32 whole (29.97) — also: 4 Deluxe Music / Callum Rodriguez
+  - star rows: J Alkaid → J Ketu Dec 33.0092 33 whole (29.39) — also: 7 Red Tornado / Jason Hart
+  - MATCH EXACT: J Galactic Centre → Transpluto RA 120.0130 120 whole (12.41)
+  - same number: J Galactic Centre → J Transpluto RA 120.0130 120 whole (12.41) — also: 1 The Dancing Poet / Harry Russell
+- 3 Chase The Dollar / Rossa Ryan
+  - star rows: H Alkaid → H Quaoar RA 64.9832 65 whole (2.49) — also: 5 Carn A Chlamain / Tom Marquand
+  - star rows: H Alkaid → H Gonggong RA 129.4602 80×φ golden (21.04) — also: 2 Flying Instructor / Dylan Hogan, 7 Red Tornado / Jason Hart
+  - star rows: J Alkaid → J Sun RA 104.0069 104 whole (43.11) — also: 7 Red Tornado / Jason Hart
+  - star rows: J Alkaid → J Uranus RA 115.9901 116 whole (25.52) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez
+- 4 Deluxe Music / Callum Rodriguez
+  - star rows: H Alkaid → H Uranus RA 174.0046 174 whole (59.61) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan
+  - star rows: H Alkaid → H Juno RA 72.9855 73 whole (7.60) — only
+  - star rows: H Alkaid → H Makemake RA 12.0182 12 whole (0.77) — also: 2 Flying Instructor / Dylan Hogan
+  - star rows: S Alkaid → J Jupiter Dec 64.7268 40×φ golden (69.02) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan
+  - star rows: J Alkaid → J Mercury Dec 38.9809 39 whole (0.19) — also: 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+  - star rows: J Alkaid → J Uranus Dec 67.9936 68 whole (46.04) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan
+  - star rows: J Alkaid → J Chiron RA 1.0974 conj (7.20) — also: 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+  - star rows: J Alkaid → J Ceres Dec 67.0017 67 whole (83.33) — only
+  - star rows: J Alkaid → J Juno RA 129.4307 80×φ golden (39.57) — only
+- 5 Carn A Chlamain / Tom Marquand
+  - star rows: H Alkaid → H Neptune RA 140.0120 140 whole (16.01) — also: 2 Flying Instructor / Dylan Hogan
+  - star rows: H Alkaid → H Sedna RA 150.4739 93×φ golden (81.03) — only
+  - star rows: J Alkaid → J Venus RA 118.1369 73×φ golden (13.62) — also: 7 Red Tornado / Jason Hart
+  - star rows: J Alkaid → J Quaoar Dec 64.0026 64 whole (75.51) — also: 3 Chase The Dollar / Rossa Ryan
+  - MATCH EXACT: H Hamal → Quaoar RA 119.9999 120 whole (99.23)
+  - MATCH EXACT: J Altair → Juno RA 120.0039 120 whole (64.69)
+  - MATCH EXACT: J Markab → Chiron RA 119.9944 120 whole (51.63)
+- 6 Flamingo Rose / Dougie Costello
+  - star rows: J Alkaid → J Mercury RA 121.9804 122 whole (0.04) — also: 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+  - star rows: J Alkaid → J Chiron RA 155.0102 155 whole (23.90) — also: 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+  - star rows: J Alkaid → J Pallas RA 73.9908 74 whole (29.17) — only
+  - star rows: J Alkaid → J Vesta RA 160.1848 99×φ golden (96.66) — also: 2 Flying Instructor / Dylan Hogan
+  - MATCH EXACT: H Al Rescha → Quaoar RA 120.0057 120 whole (51.34)
+- 7 Red Tornado / Jason Hart
+  - star rows: H Alkaid → H Mercury RA 155.3567 96×φ golden (4.52) — also: 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+  - star rows: H Alkaid → H Venus RA 179.6166 111×φ golden (29.43) — also: 5 Carn A Chlamain / Tom Marquand
+  - star rows: H Alkaid → H Saturn RA 0.7636 conj (24.10) — also: 2 Flying Instructor / Dylan Hogan
+  - star rows: H Alkaid → H Haumea RA 1.4200 conj (0.28) — only
+  - star rows: H Alkaid → H Gonggong Dec 63.1093 39×φ golden (66.35) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan
+  - star rows: H Alkaid → H Ketu Dec 27.5009 17×φ golden (68.09) — also: 2 Flying Instructor / Dylan Hogan
+  - star rows: J Alkaid → J Sun RA 23.0042 23 whole (62.55) — also: 3 Chase The Dollar / Rossa Ryan
+  - star rows: J Alkaid → J Sun Dec 50.9962 51 whole (65.34) — also: 3 Chase The Dollar / Rossa Ryan
+  - star rows: J Alkaid → J Mercury RA 0.1764 conj (77.87) — also: 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+  - star rows: J Alkaid → J Mars Dec 27.5064 17×φ golden (99.04) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan
+  - star rows: J Alkaid → J Saturn Dec 60.0125 60 whole (14.05) — also: 2 Flying Instructor / Dylan Hogan
+  - star rows: J Alkaid → J Chiron RA 39.9831 40 whole (2.44) — also: 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+#### 7. S Jupiter → Meissa RA 102.0057 102 whole (50.91) — runners with cells 7/7
+- Moon confirms: none
+- 1 The Dancing Poet / Harry Russell
+  - star rows: H Meissa → H Sun Dec 27.9992 28 whole (91.89) — only
+  - star rows: H Meissa → H Haumea Dec 6.9896 7 whole (22.85) — also: 5 Carn A Chlamain / Tom Marquand
+  - star rows: H Meissa → H Ketu Dec 12.9839 13 whole (3.88) — also: 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand
+  - star rows: J Meissa → J Vesta RA 64.9876 65 whole (14.43) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan
+  - star rows: J Meissa → J Vesta Dec 11.9937 12 whole (47.13) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan
+  - star rows: J Meissa → J Haumea RA 111.6583 69×φ golden (32.25) — also: 5 Carn A Chlamain / Tom Marquand
+  - star rows: J Meissa → J Quaoar RA 160.1573 99×φ golden (1.78) — also: 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+  - star rows: J Meissa → J Gonggong Dec 27.9943 28 whole (51.37) — also: 5 Carn A Chlamain / Tom Marquand
+  - MATCH EXACT: H Diadem → Pallas RA 101.9915 102 whole (33.01)
+  - MATCH EXACT: J Scheat → Quaoar RA 101.9964 102 whole (67.07)
+  - MATCH EXACT: S body → J Jupiter → Haumea RA 101.9961 102 whole (64.47)
+  - MATCH EXACT: J Facies → Juno RA 102.0098 102 whole (25.87)
+  - same number: S Haumea → J Jupiter RA 101.9961 102 whole (64.47) — also: 6 Flamingo Rose / Dougie Costello
+  - same number: J Facies → J Juno RA 102.0098 102 whole (25.87) — also: 6 Flamingo Rose / Dougie Costello
+- 2 Flying Instructor / Dylan Hogan
+  - star rows: H Meissa → H Mercury RA 69.9940 70 whole (48.97) — also: 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+  - star rows: H Meissa → H Uranus Dec 0.1648 conj (20.30) — also: 3 Chase The Dollar / Rossa Ryan, 7 Red Tornado / Jason Hart
+  - star rows: H Meissa → H Vesta RA 177.7746 177.778 ninth (99.75) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan
+  - star rows: J Meissa → J Quaoar RA 155.5821 155.556 ninth (97.49) — also: 1 The Dancing Poet / Harry Russell, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+- 3 Chase The Dollar / Rossa Ryan
+  - star rows: H Meissa → H Uranus Dec 0.0721 conj (57.71) — also: 2 Flying Instructor / Dylan Hogan, 7 Red Tornado / Jason Hart
+  - star rows: J Meissa → J Vesta Dec 32.0138 32 whole (9.55) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan
+  - star rows: J Meissa → J Ketu RA 147.2509 91×φ golden (48.44) — also: 1 The Dancing Poet / Harry Russell, 5 Carn A Chlamain / Tom Marquand
+- 4 Deluxe Music / Callum Rodriguez
+  - star rows: H Meissa → H Mercury Dec 12.9963 13 whole (66.33) — also: 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+  - star rows: H Meissa → H Saturn RA 177.0091 177 whole (29.61) — also: 6 Flamingo Rose / Dougie Costello
+  - star rows: J Meissa → J Chiron RA 122.0154 122 whole (5.20) — also: 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+- 5 Carn A Chlamain / Tom Marquand
+  - star rows: H Meissa → H Mars Dec 32.9847 33 whole (5.53) — also: 7 Red Tornado / Jason Hart
+  - star rows: H Meissa → H Pallas RA 9.0017 9 whole (83.73) — only
+  - star rows: H Meissa → H Eris Dec 12.0143 12 whole (8.22) — only
+  - star rows: H Meissa → H Makemake Dec 15.0194 15 whole (0.09) — only
+  - star rows: H Meissa → H Quaoar RA 171.9923 172 whole (37.80) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 7 Red Tornado / Jason Hart
+  - star rows: H Meissa → H Gonggong Dec 21.9917 22 whole (34.51) — also: 1 The Dancing Poet / Harry Russell
+  - star rows: J Meissa → J Mercury Dec 1.4147 1.414 sqrt2 (96.12) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+  - star rows: J Meissa → J Pluto Dec 19.4141 12×φ golden (86.39) — only
+  - star rows: J Meissa → J Juno Dec 5.0037 5 whole (66.34) — only
+  - star rows: J Meissa → J Rahu RA 78.0152 78 whole (5.77) — only
+  - star rows: J Meissa → J Haumea Dec 11.9855 12 whole (7.66) — also: 1 The Dancing Poet / Harry Russell
+  - star rows: J Meissa → J Ketu RA 101.9848 102 whole (5.77) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan
+  - MATCH EXACT: J Meissa → Ketu RA 101.9848 102 whole (5.77)
+- 6 Flamingo Rose / Dougie Costello
+  - star rows: H Meissa → H Saturn Dec 31.9961 32 whole (64.89) — also: 4 Deluxe Music / Callum Rodriguez
+  - star rows: H Meissa → H Chiron Dec 8.0186 8 whole (0.48) — also: 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+  - star rows: S Meissa → J Jupiter RA 165.0443 102×φ golden (72.18) — only
+  - natal Jupiter → star: J Jupiter → J star Meissa RA 165.0461 102×φ golden (62.97) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+  - MATCH EXACT: J Aculeus → Vesta RA 101.9946 102 whole (53.53)
+  - MATCH EXACT: J Rasalhague → Mars RA 101.9892 102 whole (20.99)
+  - same number: J Aculeus → J Vesta RA 101.9946 102 whole (53.53) — also: 1 The Dancing Poet / Harry Russell
+  - same number: J Rasalhague → J Mars RA 101.9892 102 whole (20.99) — also: 1 The Dancing Poet / Harry Russell
+- 7 Red Tornado / Jason Hart
+  - star rows: H Meissa → H Mercury Dec 7.0034 7 whole (68.77) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+  - star rows: H Meissa → H Mars RA 82.0139 82 whole (9.21) — also: 5 Carn A Chlamain / Tom Marquand
+  - star rows: H Meissa → H Quaoar RA 179.9969 180 whole (71.14) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand
+  - star rows: J Meissa → J Uranus Dec 32.0132 32 whole (11.39) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan
+  - star rows: J Meissa → J Chiron Dec 9.0110 9 whole (20.13) — also: 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+#### 8. S Jupiter → Alphard Dec 0.1073 conj (41.25) — runners with cells 7/7
+- Moon confirms: none
+- 1 The Dancing Poet / Harry Russell
+  - star rows: H Alphard → H Gonggong RA 166.6317 166.667 ninth (97.00) — also: 5 Carn A Chlamain / Tom Marquand
+  - star rows: J Alphard → J Jupiter Dec 7.9919 8 whole (35.21) — only
+  - star rows: J Alphard → J Pluto RA 103.9887 104 whole (19.07) — also: 2 Flying Instructor / Dylan Hogan
+  - star rows: J Alphard → J Ceres RA 160.9970 161 whole (72.30) — only
+  - star rows: J Alphard → J Ceres Dec 11.1167 11.1111 ninth (90.86) — only
+- 2 Flying Instructor / Dylan Hogan
+  - star rows: H Alphard → H Saturn RA 137.0014 137 whole (86.80) — also: 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+  - star rows: H Alphard → H Uranus RA 117.0170 117 whole (2.20) — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez
+  - star rows: H Alphard → H Pluto RA 150.4977 93×φ golden (13.36) — also: 1 The Dancing Poet / Harry Russell
+  - star rows: H Alphard → H Juno RA 160.1775 99×φ golden (57.44) — also: 6 Flamingo Rose / Dougie Costello
+  - star rows: J Alphard → J Eris Dec 0.2051 conj (10.01) — also: 4 Deluxe Music / Callum Rodriguez
+  - star rows: J Alphard → J Makemake RA 32.9906 33 whole (28.05) — only
+- 3 Chase The Dollar / Rossa Ryan
+  - star rows: H Alphard → H Mercury Dec 16.0152 16 whole (5.81) — also: 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+  - star rows: J Alphard → J Sun RA 39.0120 39 whole (15.87) — also: 7 Red Tornado / Jason Hart
+  - star rows: J Alphard → J Venus RA 32.3608 20×φ golden (99.30) — only
+  - star rows: J Alphard → J Uranus RA 179.0151 179 whole (6.10) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez
+- 4 Deluxe Music / Callum Rodriguez
+  - star rows: H Alphard → H Mars RA 113.2536 70×φ golden (53.16) — only
+  - star rows: H Alphard → H Uranus RA 121.0063 121 whole (46.92) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan
+  - star rows: H Alphard → H Rahu Dec 19.0066 19 whole (45.20) — only
+  - star rows: H Alphard → H Eris RA 116.4881 72×φ golden (46.29) — also: 2 Flying Instructor / Dylan Hogan
+  - star rows: J Alphard → J Mercury Dec 18.9937 19 whole (46.95) — also: 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+  - star rows: J Alphard → J Uranus Dec 10.0190 10 whole (0.25) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan
+  - star rows: J Alphard → J Neptune RA 160.1825 99×φ golden (83.01) — also: 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+  - star rows: J Alphard → J Chiron Dec 1.9835 2 whole (3.11) — also: 7 Red Tornado / Jason Hart
+- 5 Carn A Chlamain / Tom Marquand
+  - star rows: H Alphard → H Neptune RA 154.9942 155 whole (50.34) — also: 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+  - star rows: H Alphard → H Ketu RA 171.5401 106×φ golden (1.39) — only
+  - star rows: J Alphard → J Mercury Dec 20.0089 20 whole (30.70) — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+  - star rows: J Alphard → J Saturn Dec 14.9967 15 whole (69.40) — also: 2 Flying Instructor / Dylan Hogan, 7 Red Tornado / Jason Hart
+  - star rows: J Alphard → J Gonggong RA 169.9812 170 whole (0.35) — also: 1 The Dancing Poet / Harry Russell
+- 6 Flamingo Rose / Dougie Costello
+  - star rows: H Alphard → H Mercury RA 110.9424 10×φ^5 phi power (85.85) — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+  - star rows: H Alphard → H Juno Dec 0.1672 conj (19.58) — also: 2 Flying Instructor / Dylan Hogan
+  - star rows: H Alphard → H Haumea Dec 26.0147 26 whole (6.97) — only
+  - star rows: J Alphard → J Pallas RA 138.9806 139 whole (0.08) — only
+  - star rows: J Alphard → J Vesta Dec 6.0160 6 whole (4.09) — also: 7 Red Tornado / Jason Hart
+  - star rows: J Alphard → J Transpluto RA 0.4137 conj (52.45) — also: 7 Red Tornado / Jason Hart
+- 7 Red Tornado / Jason Hart
+  - star rows: H Alphard → H Saturn Dec 0.1608 conj (21.52) — also: 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand
+  - star rows: H Alphard → H Neptune Dec 2.9802 3 whole (0.01) — also: 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+  - star rows: H Alphard → H Quaoar Dec 6.9989 7 whole (89.06) — only
+  - star rows: J Alphard → J Sun RA 41.9808 42 whole (0.14) — also: 3 Chase The Dollar / Rossa Ryan
+  - star rows: J Alphard → J Chiron RA 25.0018 25 whole (82.65) — also: 4 Deluxe Music / Callum Rodriguez
+  - star rows: J Alphard → J Vesta Dec 28.0093 28 whole (28.56) — also: 6 Flamingo Rose / Dougie Costello
+  - star rows: J Alphard → J Transpluto Dec 22.2223 22.2222 ninth (99.85) — also: 6 Flamingo Rose / Dougie Costello
+### READ 3 Jupiter / Sun lines to bodies (not followed)
+- S Sun → Quaoar RA 50.1519 31×φ golden (60.58)
+- S Jupiter → Juno RA 37.0056 37 whole (51.90)
+### READ 4 Moon only, not active (confirm no lead line; not followed)
+- S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+- S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
+- S Moon → Mars Dec 48.5423 30×φ golden (92.44)
+- S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+- S Moon → Saturn RA 152.9975 153 whole (76.77)
+- S Moon → Neptune RA 119.7408 74×φ golden (65.12)
+- S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+
 ## 1 The Dancing Poet / Harry Russell
 ### L1 same bodies
 - S Mercury → H Mercury RA 13.9902 14 whole (26.07)

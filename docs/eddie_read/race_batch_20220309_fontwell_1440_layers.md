@@ -29,6 +29,391 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Moon → Murzim RA 27.5095 17×φ golden (82.56)
 - Hubs: Saturn, Venus, Vesta
 
+## READ (reading order, Eddie 7 Nov 2026)
+### READ 1 same body first
+- **1 Breaking Waves / Jonjo O'Neill Jr**
+  - S Venus → H Venus Dec 14.4420 14.4444 ninth (97.46)
+  - S Mars → H Mars Dec 17.6547 17.7778 ninth (loose)
+  - S Jupiter → H Jupiter RA 118.9798 119 whole (loose)
+  - S Neptune → H Neptune Dec 5.5589 5.55556 ninth (loose)
+  - S Pluto → H Pluto RA 15.9734 16 whole (loose)
+  - S Chiron → H Chiron Dec 6.9798 7 whole (loose)
+  - S Ceres → H Ceres RA 140.8793 141.4 sqrt2 (loose)
+  - S Ceres → H Ceres Dec 18.7712 18.8889 ninth (loose)
+  - S Vesta → H Vesta RA 99.0046 99 whole (59.51)
+  - S Rahu → H Rahu RA 153.9929 154 whole (41.29)
+  - S Gonggong → H Gonggong Dec 1.8772 1.88889 ninth (loose)
+  - S Ketu → H Ketu RA 153.9929 154 whole (41.29)
+  - S Mercury → J Mercury RA 41.0022 41 whole (79.64)
+  - S Venus → J Venus Dec 1.6070 1×φ golden (loose)
+- **2 Royaume Uni / Joshua Moore**
+  - S Pallas → H Pallas RA 11.1491 11.1111 ninth (loose)
+  - S Jupiter → J Jupiter Dec 15.0007 15 whole (93.29)
+  - S Neptune → J Neptune Dec 17.8557 φ^6 phi power (loose)
+  - S Pluto → J Pluto RA 68.5415 10×φ^4 phi power (99.74)
+  - S Chiron → J Chiron Dec 5.0270 5 whole (loose)
+  - S Ceres → J Ceres RA 179.9680 10×φ^6 phi power (loose)
+  - S Pallas → J Pallas RA 144.9895 145 whole (22.44)
+  - S Eris → J Eris Dec 7.9719 8 whole (loose)
+  - S Sedna → J Sedna RA 15.5147 15.5556 ninth (loose)
+  - S Sedna → J Sedna Dec 4.0239 4 whole (loose)
+  - S Makemake → J Makemake RA 26.9993 27 whole (93.48)
+  - S Orcus → J Orcus RA 24.2443 15×φ golden (loose)
+- **3 Hell Red / Harry Cobden**
+  - S Venus → H Venus RA 53.9891 54 whole (20.67)
+  - S Venus → H Venus Dec 17.8997 φ^6 phi power (loose)
+  - S Mars → H Mars Dec 41.9965 42 whole (67.78)
+  - S Jupiter → H Jupiter RA 152.0821 94×φ golden (35.40)
+  - S Pluto → H Pluto Dec 1.2200 1.22222 ninth (loose)
+  - S Vesta → H Vesta RA 179.7428 10×φ^6 phi power (loose)
+  - S Pluto → J Pluto Dec 12.2396 12.2222 ninth (loose)
+  - S Eris → J Eris Dec 6.1825 10×φ^-1 phi power (loose)
+  - S Orcus → J Orcus Dec 11.1285 11.1111 ninth (loose)
+- **4 Dreaming Blue / Rex Dingle**
+  - S Uranus → H Uranus Dec 7.0668 7.07 sqrt2 (loose)
+  - S Pallas → H Pallas RA 24.0751 24.14 silver (loose)
+  - S Haumea → H Haumea RA 4.4396 4.44444 ninth (loose)
+  - S Quaoar → H Quaoar RA 6.8504 φ^4 phi power (loose)
+  - S Sun → J Sun Dec 17.8856 φ^6 phi power (loose)
+  - S Chiron → J Chiron RA 144.9494 144.444 ninth (loose)
+  - S Ceres → J Ceres Dec 37.0190 37 whole (0.23)
+  - S Juno → J Juno RA 129.4643 80×φ golden (11.15)
+  - S Rahu → J Rahu RA 111.4462 111.111 ninth (loose)
+  - S Sedna → J Sedna Dec 3.3335 3.33333 ninth (97.48)
+  - S Makemake → J Makemake Dec 10.0189 10 whole (0.28)
+  - S Ketu → J Ketu RA 111.4462 111.111 ninth (loose)
+- **5 Grangeclare Glory / Tom Scudamore**
+  - S Sun → H Sun Dec 15.5556 15.5556 ninth (100.00)
+  - S Mercury → H Mercury RA 64.7311 40×φ golden (loose)
+  - S Mercury → H Mercury Dec 29.0799 φ^7 phi power (loose)
+  - S Venus → H Venus RA 122.7244 φ^10 phi power (loose)
+  - S Pallas → H Pallas RA 101.9515 63×φ golden (27.56)
+  - S Eris → H Eris Dec 1.6085 1×φ golden (loose)
+  - S Haumea → H Haumea RA 7.0007 7 whole (93.24)
+  - S Sun → J Sun RA 69.5872 43×φ golden (loose)
+  - S Venus → J Venus Dec 22.6393 14×φ golden (loose)
+  - S Pluto → J Pluto Dec 29.1417 18×φ golden (loose)
+  - S Pallas → J Pallas RA 178.8837 10×φ^6 phi power (loose)
+  - S Juno → J Juno RA 35.5881 22×φ golden (loose)
+  - S Sedna → J Sedna Dec 4.8578 3×φ golden (loose)
+  - S Haumea → J Haumea Dec 8.8790 8.88889 ninth (loose)
+  - S Makemake → J Makemake RA 39.9911 40 whole (30.71)
+  - S Gonggong → J Gonggong Dec 11.0970 φ^5 phi power (76.98)
+- **6 Manvers House / James Best**
+  - S Mercury → H Mercury RA 76.0008 76 whole (92.41)
+  - S Uranus → H Uranus Dec 11.3557 7×φ golden (loose)
+  - S Ceres → H Ceres Dec 6.0130 6 whole (12.09)
+  - S Vesta → H Vesta RA 155.5462 155.556 ninth (99.11)
+  - S Vesta → H Vesta Dec 44.0157 44 whole (4.58)
+  - S Rahu → H Rahu RA 172.0297 172 whole (loose)
+  - S Sedna → H Sedna Dec 0.9808 1 whole (0.18)
+  - S Ketu → H Ketu RA 172.0297 172 whole (loose)
+  - S Venus → J Venus RA 50.1466 31×φ golden (loose)
+  - S Neptune → J Neptune Dec 17.9621 φ^6 phi power (loose)
+  - S Ceres → J Ceres Dec 19.0174 19 whole (1.74)
+  - S Rahu → J Rahu RA 110.5641 10×φ^5 phi power (loose)
+  - S Sedna → J Sedna RA 16.1817 10×φ^1 phi power (96.55)
+  - S Gonggong → J Gonggong RA 7.9995 8 whole (95.38)
+  - S Ketu → J Ketu RA 110.5641 10×φ^5 phi power (loose)
+- **7 Island Run / Tom O'Brien**
+  - S Venus → H Venus Dec 19.9830 20 whole (2.28)
+  - S Jupiter → H Jupiter Dec 1.0068 1 whole (43.81)
+  - S Neptune → H Neptune RA 11.0366 φ^5 phi power (loose)
+  - S Chiron → H Chiron Dec 5.5465 5.55556 ninth (loose)
+  - S Pallas → H Pallas RA 29.1541 18×φ golden (loose)
+  - S Juno → H Juno RA 43.0198 43 whole (0.01)
+  - S Vesta → H Vesta Dec 44.9833 45 whole (2.65)
+  - S Sedna → H Sedna RA 2.9725 3 whole (loose)
+  - S Gonggong → H Gonggong Dec 1.4187 1.414 sqrt2 (loose)
+  - S Jupiter → J Jupiter RA 1.5450 1.55556 ninth (loose)
+  - S Jupiter → J Jupiter Dec 1.0102 1 whole (24.16)
+  - S Chiron → J Chiron Dec 11.3214 7×φ golden (72.48)
+  - S Ceres → J Ceres RA 166.1774 166.667 ninth (loose)
+  - S Rahu → J Rahu Dec 11.0048 11 whole (57.44)
+  - S Eris → J Eris RA 4.4425 4.44444 ninth (loose)
+  - S Sedna → J Sedna RA 18.0250 18 whole (loose)
+  - S Makemake → J Makemake Dec 13.3571 13.3333 ninth (loose)
+  - S Quaoar → J Quaoar RA 46.8645 φ^8 phi power (loose)
+  - S Ketu → J Ketu Dec 11.0048 11 whole (57.44)
+### READ 2 Jupiter / Sun star lines, highest score first, each in full
+#### 1. S Jupiter → Alkes RA 177.7810 177.778 ninth (99.75) — runners with cells 7/7
+- Moon confirms: none
+- 1 Breaking Waves / Jonjo O'Neill Jr
+  - star rows: H Alkes → H Neptune RA 174.0179 174 whole (1.15) — also: 4 Dreaming Blue / Rex Dingle
+  - star rows: H Alkes → H Vesta RA 37.2199 23×φ golden (71.00) — also: 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien
+  - star rows: H Alkes → H Ketu Dec 29.1253 18×φ golden (95.70) — also: 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore
+  - star rows: J Alkes → J Saturn Dec 22.0148 22 whole (6.64) — only
+  - star rows: J Alkes → J Ceres Dec 6.9941 7 whole (49.91) — only
+  - star rows: J Alkes → J Pallas RA 152.0695 94×φ golden (4.25) — also: 4 Dreaming Blue / Rex Dingle
+  - MATCH EXACT: H Alnilam → Quaoar RA 177.7623 177.778 ninth (98.79)
+- 2 Royaume Uni / Joshua Moore
+  - star rows: H Alkes → H Venus RA 166.9911 167 whole (30.79) — also: 4 Dreaming Blue / Rex Dingle
+  - star rows: H Alkes → H Juno Dec 8.8881 8.88889 ninth (94.24) — only
+  - star rows: J Alkes → J Pluto RA 66.6668 66.6667 ninth (99.90) — also: 5 Grangeclare Glory / Tom Scudamore, 7 Island Run / Tom O'Brien
+  - star rows: J Alkes → J Juno RA 132.0172 132 whole (2.00) — only
+  - star rows: J Alkes → J Makemake RA 6.9975 7 whole (76.94) — also: 5 Grangeclare Glory / Tom Scudamore
+  - MATCH EXACT: J Sualocin → Orcus RA 177.7780 177.778 ninth (99.98)
+- 3 Hell Red / Harry Cobden
+  - star rows: H Alkes → H Mercury RA 140.7665 87×φ golden (85.11) — also: 4 Dreaming Blue / Rex Dingle
+  - star rows: H Alkes → H Gonggong Dec 5.9938 6 whole (47.48) — also: 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best
+  - star rows: J Alkes → J Haumea Dec 38.9994 39 whole (93.66) — also: 7 Island Run / Tom O'Brien
+  - MATCH EXACT: H Alphecca → Sedna RA 177.7823 177.778 ninth (99.65)
+- 4 Dreaming Blue / Rex Dingle
+  - star rows: H Alkes → H Mercury RA 161.8644 100×φ^1 phi power (85.49) — also: 3 Hell Red / Harry Cobden
+  - star rows: H Alkes → H Venus Dec 27.5003 17×φ golden (64.74) — also: 2 Royaume Uni / Joshua Moore
+  - star rows: H Alkes → H Neptune RA 178.0156 178 whole (4.85) — also: 1 Breaking Waves / Jonjo O'Neill Jr
+  - star rows: H Alkes → H Pallas Dec 14.0167 14 whole (2.66) — also: 1 Breaking Waves / Jonjo O'Neill Jr
+  - star rows: J Alkes → J Vesta Dec 19.9803 20 whole (0.02) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 7 Island Run / Tom O'Brien
+  - star rows: J Alkes → J Rahu RA 1.3233 conj (1.39) — also: 5 Grangeclare Glory / Tom Scudamore
+  - star rows: J Alkes → J Ketu Dec 11.3287 7×φ golden (85.29) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 5 Grangeclare Glory / Tom Scudamore
+  - MATCH EXACT: J Bellatrix → Mercury RA 177.7193 177.778 ninth (95.42)
+- 5 Grangeclare Glory / Tom Scudamore
+  - star rows: H Alkes → H Rahu RA 24.0058 24 whole (50.46) — also: 4 Dreaming Blue / Rex Dingle
+  - star rows: H Alkes → H Rahu Dec 14.4426 14.4444 ninth (98.08) — also: 4 Dreaming Blue / Rex Dingle
+  - star rows: H Alkes → H Ketu RA 155.9942 156 whole (50.46) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle
+  - star rows: J Alkes → J Pluto Dec 25.0148 25 whole (6.80) — also: 2 Royaume Uni / Joshua Moore, 7 Island Run / Tom O'Brien
+  - star rows: J Alkes → J Sedna RA 126.2117 78×φ golden (71.27) — also: 6 Manvers House / James Best
+  - star rows: J Alkes → J Makemake RA 5.9992 6 whole (92.29) — also: 2 Royaume Uni / Joshua Moore
+  - star rows: J Alkes → J Gonggong Dec 3.9975 4 whole (76.15) — also: 3 Hell Red / Harry Cobden, 6 Manvers House / James Best
+  - MATCH EXACT: J Alnilam → Neptune RA 177.7338 177.778 ninth (96.56)
+  - MATCH EXACT: J Diadem → Venus RA 177.7324 177.778 ninth (96.45)
+  - same number: J Diadem → J Venus RA 177.7324 177.778 ninth (96.45) — also: 6 Manvers House / James Best
+- 6 Manvers House / James Best
+  - star rows: H Alkes → H Mars RA 121.9806 122 whole (0.10) — also: 7 Island Run / Tom O'Brien
+  - star rows: H Alkes → H Eris Dec 15.0096 15 whole (26.88) — only
+  - star rows: H Alkes → H Sedna RA 111.1057 111.111 ninth (99.12) — also: 5 Grangeclare Glory / Tom Scudamore
+  - star rows: J Alkes → J Gonggong RA 163.9866 164 whole (10.89) — also: 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore
+  - MATCH EXACT: H Unukalhai → Sedna RA 177.7654 177.778 ninth (99.03)
+  - MATCH EXACT: S body → J Jupiter → Juno RA 177.7293 177.778 ninth (96.21)
+  - same number: S Juno → J Jupiter RA 177.7293 177.778 ninth (96.21) — also: 5 Grangeclare Glory / Tom Scudamore
+- 7 Island Run / Tom O'Brien
+  - star rows: H Alkes → H Mars Dec 20.9835 21 whole (3.13) — also: 6 Manvers House / James Best
+  - star rows: H Alkes → H Pluto Dec 2.9816 3 whole (0.65) — also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore
+  - star rows: J Alkes → J Uranus Dec 4.9959 5 whole (63.37) — only
+  - star rows: J Alkes → J Vesta Dec 11.0179 11 whole (1.12) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle
+  - star rows: J Alkes → J Haumea Dec 41.0098 41 whole (26.09) — also: 3 Hell Red / Harry Cobden
+  - MATCH EXACT: H Wezen → Pluto RA 177.7895 177.778 ninth (99.08)
+  - MATCH EXACT: H Betelgeuse → Juno RA 177.7302 177.778 ninth (96.28)
+#### 2. S Sun → Diadem Dec 22.0013 22 whole (87.07) — runners with cells 7/7
+- Moon confirms: none
+- 1 Breaking Waves / Jonjo O'Neill Jr
+  - star rows: H Diadem → H Mercury RA 153.0117 153 whole (17.16) — only
+  - star rows: H Diadem → H Mercury Dec 0.0375 conj (76.58) — only
+  - star rows: H Diadem → H Saturn Dec 33.0075 33 whole (39.02) — also: 4 Dreaming Blue / Rex Dingle, 5 Grangeclare Glory / Tom Scudamore
+  - star rows: H Diadem → H Neptune RA 141.4623 141.4 sqrt2 (88.77) — only
+  - star rows: H Diadem → H Eris RA 171.9869 172 whole (11.76) — also: 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best
+  - star rows: H Diadem → H Makemake RA 5.9935 6 whole (45.43) — also: 6 Manvers House / James Best
+  - star rows: H Diadem → H Quaoar Dec 33.0187 33 whole (0.45) — also: 3 Hell Red / Harry Cobden, 6 Manvers House / James Best
+  - star rows: J Diadem → J Orcus RA 61.0179 61 whole (1.06) — also: 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best
+  - MATCH EXACT: H Spica → Ketu Dec 21.9875 22 whole (14.07)
+  - MATCH EXACT: J Alkes → Saturn Dec 22.0148 22 whole (6.64)
+  - MATCH EXACT: J Denebola → Ketu Dec 22.0199 22 whole (0.00)
+  - same number: J Alkes → J Saturn Dec 22.0148 22 whole (6.64) — also: 3 Hell Red / Harry Cobden
+  - same number: J Denebola → J Ketu Dec 22.0199 22 whole (0.00) — also: 3 Hell Red / Harry Cobden
+- 2 Royaume Uni / Joshua Moore
+  - star rows: H Diadem → H Jupiter RA 0.5970 conj (36.24) — also: 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best
+  - star rows: H Diadem → H Pluto RA 92.9991 93 whole (90.94) — also: 5 Grangeclare Glory / Tom Scudamore
+  - star rows: H Diadem → H Vesta RA 83.0138 83 whole (9.49) — also: 6 Manvers House / James Best
+  - star rows: H Diadem → H Rahu RA 43.0189 43 whole (0.31) — only
+  - star rows: H Diadem → H Sedna Dec 9.9840 10 whole (3.91) — also: 6 Manvers House / James Best
+  - star rows: H Diadem → H Haumea Dec 0.2692 conj (1.05) — also: 3 Hell Red / Harry Cobden
+  - star rows: H Diadem → H Orcus Dec 27.0017 27 whole (84.16) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 6 Manvers House / James Best
+  - star rows: H Diadem → H Ketu RA 136.9811 137 whole (0.31) — also: 7 Island Run / Tom O'Brien
+  - star rows: J Diadem → J Mars Dec 33.9827 34 whole (1.86) — only
+  - MATCH EXACT: H Kaus Australis → Gonggong Dec 21.9972 22 whole (73.70)
+  - MATCH EXACT: H Menkar → Vesta Dec 22.0086 22 whole (32.77)
+  - MATCH EXACT: H Fomalhaut → Neptune Dec 21.9813 22 whole (0.44)
+  - MATCH EXACT: J Regulus → Chiron RA 21.9942 22 whole (50.42)
+- 3 Hell Red / Harry Cobden
+  - star rows: H Diadem → H Haumea Dec 0.0919 conj (48.13) — also: 2 Royaume Uni / Joshua Moore
+  - star rows: J Diadem → J Quaoar RA 47.0090 47 whole (30.09) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 6 Manvers House / James Best
+  - MATCH EXACT: H Denebola → Juno Dec 21.9852 22 whole (6.82)
+  - MATCH EXACT: J Meissa → Ketu Dec 21.9980 22 whole (81.21)
+  - MATCH EXACT: J Phact → Ketu Dec 22.0080 22 whole (35.89)
+  - MATCH EXACT: J Denebola → Eris Dec 22.0101 22 whole (24.49)
+  - MATCH EXACT: J Meissa → Makemake Dec 22.0120 22 whole (15.96)
+  - same number: H Denebola → H Juno Dec 21.9852 22 whole (6.82) — also: 1 Breaking Waves / Jonjo O'Neill Jr
+  - same number: J Denebola → J Eris Dec 22.0101 22 whole (24.49) — also: 1 Breaking Waves / Jonjo O'Neill Jr
+- 4 Dreaming Blue / Rex Dingle
+  - star rows: S Diadem → J Jupiter Dec 31.9820 32 whole (0.96) — also: 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best
+  - star rows: J Diadem → J Saturn RA 176.3575 109×φ golden (55.78) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 5 Grangeclare Glory / Tom Scudamore
+  - star rows: J Diadem → J Ceres RA 152.0816 94×φ golden (33.70) — only
+  - MATCH EXACT: H Bellatrix → Quaoar Dec 21.9921 22 whole (36.46)
+  - MATCH EXACT: H Algenib → Eris RA 21.9912 22 whole (31.40)
+  - MATCH EXACT: H Nunki → Pallas Dec 22.0141 22 whole (8.66)
+  - MATCH EXACT: H Unukalhai → Mercury Dec 22.0174 22 whole (1.64)
+  - MATCH EXACT: J Adhara → Ketu Dec 22.0035 22 whole (68.20)
+  - MATCH EXACT: J Menkar → Gonggong Dec 22.0088 22 whole (31.21)
+- 5 Grangeclare Glory / Tom Scudamore
+  - star rows: H Diadem → H Pluto RA 88.8842 88.8889 ninth (96.61) — also: 2 Royaume Uni / Joshua Moore
+  - star rows: H Diadem → H Eris RA 171.9817 172 whole (0.71) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 6 Manvers House / James Best
+  - star rows: J Diadem → J Venus RA 177.7324 177.778 ninth (96.45) — only
+  - star rows: J Diadem → J Saturn RA 1.4143 1.414 sqrt2 (99.20) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle
+  - star rows: J Diadem → J Juno RA 80.9951 81 whole (56.73) — only
+  - MATCH EXACT: H Scheat → Uranus Dec 21.9850 22 whole (6.25)
+  - MATCH EXACT: J Alhena → Juno Dec 22.0122 22 whole (15.26)
+  - MATCH EXACT: J Vindemiatrix → Jupiter Dec 22.0192 22 whole (0.16)
+- 6 Manvers House / James Best
+  - star rows: H Diadem → H Chiron Dec 19.4148 12×φ golden (90.05) — also: 7 Island Run / Tom O'Brien
+  - star rows: H Diadem → H Eris RA 172.0159 172 whole (4.28) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 5 Grangeclare Glory / Tom Scudamore
+  - star rows: H Diadem → H Makemake RA 6.9921 7 whole (36.88) — also: 1 Breaking Waves / Jonjo O'Neill Jr
+  - star rows: H Diadem → H Quaoar Dec 32.9931 33 whole (43.18) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden
+  - star rows: S Diadem → J Jupiter Dec 0.2729 conj (0.81) — also: 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle
+  - star rows: J Diadem → J Chiron Dec 3.9985 4 whole (85.50) — also: 7 Island Run / Tom O'Brien
+  - star rows: J Diadem → J Vesta RA 148.0184 148 whole (0.66) — also: 2 Royaume Uni / Joshua Moore
+  - star rows: J Diadem → J Sedna RA 155.3175 96×φ golden (32.97) — also: 2 Royaume Uni / Joshua Moore
+  - star rows: J Diadem → J Orcus RA 66.3352 41×φ golden (75.96) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore
+  - MATCH EXACT: H Facies → Chiron Dec 22.0193 22 whole (0.13)
+  - MATCH EXACT: J Kaus Australis → Venus RA 22.0197 22 whole (0.02)
+- 7 Island Run / Tom O'Brien
+  - star rows: H Diadem → H Chiron Dec 17.0100 17 whole (24.79) — also: 6 Manvers House / James Best
+  - star rows: J Diadem → J Chiron Dec 0.1436 conj (27.20) — also: 6 Manvers House / James Best
+  - star rows: J Diadem → J Ketu RA 1.1628 conj (5.05) — also: 2 Royaume Uni / Joshua Moore
+  - MATCH EXACT: H Kaus Australis → Juno Dec 21.9901 22 whole (25.56)
+  - MATCH EXACT: J Phact → Mars Dec 21.9942 22 whole (50.30)
+  - MATCH EXACT: J Meissa → Mars Dec 22.0130 22 whole (12.26)
+  - MATCH EXACT: J Jupiter → J body → Transpluto Dec 21.9853 22 whole (6.93)
+#### 3. S Jupiter → Denebola RA 169.8981 105×φ golden (74.21) — runners with cells 7/7
+- Moon confirms: none
+- 1 Breaking Waves / Jonjo O'Neill Jr
+  - star rows: H Denebola → H Sedna RA 122.9987 φ^10 phi power (97.79) — also: 3 Hell Red / Harry Cobden, 7 Island Run / Tom O'Brien
+  - star rows: H Denebola → H Haumea RA 32.0170 32 whole (2.18) — also: 7 Island Run / Tom O'Brien
+  - star rows: J Denebola → J Venus RA 113.9905 114 whole (27.80) — also: 3 Hell Red / Harry Cobden, 7 Island Run / Tom O'Brien
+  - star rows: J Denebola → J Ceres RA 177.9942 178 whole (50.19) — also: 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best
+  - star rows: J Denebola → J Sedna RA 132.0049 132 whole (57.18) — also: 3 Hell Red / Harry Cobden, 7 Island Run / Tom O'Brien
+  - star rows: J Denebola → J Makemake RA 0.9805 conj (11.99) — also: 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien
+  - star rows: J Denebola → J Ketu Dec 22.0199 22 whole (0.00) — only
+- 2 Royaume Uni / Joshua Moore
+  - star rows: H Denebola → H Mercury Dec 0.9892 1 whole (21.27) — only
+  - star rows: H Denebola → H Uranus Dec 5.9885 6 whole (18.11) — also: 6 Manvers House / James Best
+  - star rows: H Denebola → H Pluto RA 113.2317 70×φ golden (0.26) — also: 7 Island Run / Tom O'Brien
+  - star rows: H Denebola → H Ceres Dec 0.0187 conj (87.91) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best
+  - star rows: H Denebola → H Juno Dec 23.9826 24 whole (1.64) — also: 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore
+  - star rows: H Denebola → H Rahu Dec 3.9910 4 whole (30.09) — only
+  - star rows: H Denebola → H Eris Dec 17.0059 17 whole (49.70) — also: 3 Hell Red / Harry Cobden, 5 Grangeclare Glory / Tom Scudamore
+  - star rows: J Denebola → J Saturn Dec 34.9889 35 whole (19.66) — also: 4 Dreaming Blue / Rex Dingle
+  - MATCH EXACT: J Sadalmelik → Vesta RA 169.8614 105×φ golden (0.01)
+- 3 Hell Red / Harry Cobden
+  - star rows: H Denebola → H Sun Dec 0.9987 1 whole (87.58) — also: 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien
+  - star rows: H Denebola → H Juno Dec 21.9852 22 whole (6.82) — also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore
+  - star rows: H Denebola → H Sedna RA 121.3706 75×φ golden (19.66) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 7 Island Run / Tom O'Brien
+  - star rows: J Denebola → J Venus RA 44.9802 45 whole (0.01) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 7 Island Run / Tom O'Brien
+  - star rows: J Denebola → J Eris Dec 22.0101 22 whole (24.49) — also: 2 Royaume Uni / Joshua Moore, 5 Grangeclare Glory / Tom Scudamore
+  - star rows: J Denebola → J Gonggong RA 153.7315 95×φ golden (18.88) — also: 4 Dreaming Blue / Rex Dingle
+- 4 Dreaming Blue / Rex Dingle
+  - star rows: H Denebola → H Quaoar RA 92.9899 93 whole (24.33) — only
+  - star rows: J Denebola → J Jupiter RA 149.0072 149 whole (41.04) — only
+  - star rows: J Denebola → J Sun RA 111.1754 111.111 ninth (89.47) — also: 3 Hell Red / Harry Cobden, 7 Island Run / Tom O'Brien
+  - star rows: J Denebola → J Mars RA 141.4612 141.4 sqrt2 (89.05) — also: 6 Manvers House / James Best
+  - star rows: J Denebola → J Saturn RA 163.4125 101×φ golden (52.24) — also: 2 Royaume Uni / Joshua Moore
+  - star rows: J Denebola → J Neptune RA 124.0130 124 whole (12.21) — only
+  - star rows: J Denebola → J Chiron Dec 30.0117 30 whole (17.29) — only
+  - star rows: J Denebola → J Ceres Dec 29.0077 29 whole (37.92) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best
+  - star rows: J Denebola → J Makemake RA 1.1219 conj (6.35) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 7 Island Run / Tom O'Brien
+  - star rows: J Denebola → J Orcus RA 40.4586 25×φ golden (57.85) — only
+  - star rows: J Denebola → J Gonggong RA 153.7157 95×φ golden (85.30) — also: 3 Hell Red / Harry Cobden
+  - star rows: J Denebola → J Transpluto RA 29.9902 30 whole (25.88) — also: 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
+  - MATCH EXACT: S body → J Jupiter → Orcus RA 169.8995 105×φ golden (66.89)
+  - same number: S Orcus → J Jupiter RA 169.8995 105×φ golden (66.89) — only
+- 5 Grangeclare Glory / Tom Scudamore
+  - star rows: H Denebola → H Juno Dec 1.0171 1 whole (2.17) — also: 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden
+  - star rows: J Denebola → J Pallas Dec 7.9978 8 whole (78.78) — only
+  - star rows: J Denebola → J Vesta RA 146.0030 146 whole (72.34) — also: 6 Manvers House / James Best
+  - star rows: J Denebola → J Eris RA 155.5540 155.556 ninth (99.85) — also: 2 Royaume Uni / Joshua Moore, 3 Hell Red / Harry Cobden
+- 6 Manvers House / James Best
+  - star rows: H Denebola → H Uranus Dec 10.9855 11 whole (7.55) — also: 2 Royaume Uni / Joshua Moore
+  - star rows: H Denebola → H Transpluto RA 25.8837 16×φ golden (72.20) — also: 4 Dreaming Blue / Rex Dingle, 7 Island Run / Tom O'Brien
+  - star rows: J Denebola → J Mars Dec 8.0097 8 whole (26.35) — also: 4 Dreaming Blue / Rex Dingle
+  - star rows: J Denebola → J Ceres Dec 11.0077 11 whole (37.88) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore, 4 Dreaming Blue / Rex Dingle
+  - star rows: J Denebola → J Vesta Dec 5.0000 5 whole (99.79) — also: 5 Grangeclare Glory / Tom Scudamore
+- 7 Island Run / Tom O'Brien
+  - star rows: H Denebola → H Venus Dec 11.0040 11 whole (63.61) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden
+  - star rows: H Denebola → H Makemake RA 17.9896 18 whole (23.05) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 4 Dreaming Blue / Rex Dingle
+  - star rows: H Denebola → H Transpluto RA 23.9886 24 whole (18.37) — also: 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best
+  - star rows: J Denebola → J Sun RA 66.9957 67 whole (61.46) — also: 3 Hell Red / Harry Cobden, 4 Dreaming Blue / Rex Dingle
+  - star rows: J Denebola → J Pluto RA 44.0095 44 whole (27.47) — also: 2 Royaume Uni / Joshua Moore
+  - star rows: J Denebola → J Sedna Dec 11.1153 11.1111 ninth (93.20) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 3 Hell Red / Harry Cobden
+  - star rows: J Denebola → J Haumea RA 8.0199 8 whole (0.00) — also: 1 Breaking Waves / Jonjo O'Neill Jr
+  - star rows: J Denebola → J Transpluto Dec 0.1632 conj (20.79) — also: 4 Dreaming Blue / Rex Dingle, 6 Manvers House / James Best
+#### 4. S Sun → Zosma Dec 24.9947 25 whole (54.14) — runners with cells 7/7
+- Moon confirms: none
+- 1 Breaking Waves / Jonjo O'Neill Jr
+  - star rows: H Zosma → H Saturn Dec 36.0016 36 whole (85.10) — also: 7 Island Run / Tom O'Brien
+  - star rows: H Zosma → H Juno Dec 13.3317 13.3333 ninth (97.99) — only
+  - star rows: H Zosma → H Eris RA 143.0176 143 whole (1.42) — also: 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best
+  - star rows: H Zosma → H Quaoar Dec 36.0127 36 whole (13.32) — also: 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best
+  - star rows: H Zosma → H Ketu RA 142.3607 88×φ golden (3.57) — also: 5 Grangeclare Glory / Tom Scudamore, 6 Manvers House / James Best
+  - star rows: S Zosma → J Jupiter RA 161.8760 100×φ^1 phi power (82.86) — also: 2 Royaume Uni / Joshua Moore
+  - star rows: J Zosma → J Saturn RA 153.7343 95×φ golden (12.15) — also: 7 Island Run / Tom O'Brien
+  - natal Jupiter → star: J Jupiter → J star Zosma RA 161.8784 100×φ^1 phi power (82.33) — also: 2 Royaume Uni / Joshua Moore
+  - MATCH EXACT: J Zubenelgenubi → Pluto RA 25.0048 25 whole (57.80)
+- 2 Royaume Uni / Joshua Moore
+  - star rows: H Zosma → H Mars RA 126.0003 126 whole (97.25) — also: 3 Hell Red / Harry Cobden
+  - star rows: H Zosma → H Chiron Dec 18.8804 18.8889 ninth (93.86) — also: 6 Manvers House / James Best, 7 Island Run / Tom O'Brien
+  - star rows: H Zosma → H Haumea RA 44.0164 44 whole (3.33) — also: 3 Hell Red / Harry Cobden
+  - star rows: H Zosma → H Makemake RA 26.0113 26 whole (18.93) — also: 5 Grangeclare Glory / Tom Scudamore
+  - star rows: H Zosma → H Orcus Dec 29.9955 30 whole (60.26) — only
+  - star rows: H Zosma → H Quaoar RA 101.9981 102 whole (82.02) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 6 Manvers House / James Best
+  - star rows: S Zosma → J Jupiter RA 5.9911 6 whole (30.78) — also: 1 Breaking Waves / Jonjo O'Neill Jr
+  - MATCH EXACT: J Spica → Transpluto Dec 24.9923 25 whole (37.72)
+- 3 Hell Red / Harry Cobden
+  - star rows: H Zosma → H Rahu RA 15.5527 15.5556 ninth (97.30) — also: 5 Grangeclare Glory / Tom Scudamore
+  - star rows: J Zosma → J Mars RA 0.4986 conj (44.57) — also: 2 Royaume Uni / Joshua Moore
+  - star rows: J Zosma → J Mars Dec 14.1443 14.14 sqrt2 (93.97) — also: 2 Royaume Uni / Joshua Moore
+  - star rows: J Zosma → J Neptune Dec 40.4538 25×φ golden (82.71) — only
+  - star rows: J Zosma → J Sedna RA 122.2263 122.222 ninth (99.43) — only
+  - star rows: J Zosma → J Haumea Dec 0.1799 conj (16.02) — also: 2 Royaume Uni / Joshua Moore
+  - MATCH EXACT: J Bellatrix → Uranus Dec 24.9976 25 whole (77.06)
+- 4 Dreaming Blue / Rex Dingle
+  - star rows: H Zosma → H Venus Dec 11.3201 7×φ golden (65.55) — also: 6 Manvers House / James Best
+  - MATCH EXACT: J Jupiter → J body → Neptune RA 24.9942 25 whole (50.25)
+  - MATCH EXACT: S body → J Jupiter → Transpluto Dec 24.9888 25 whole (19.21)
+  - same number: J Jupiter → J Neptune RA 24.9942 25 whole (50.25) — also: 5 Grangeclare Glory / Tom Scudamore
+- 5 Grangeclare Glory / Tom Scudamore
+  - star rows: H Zosma → H Eris RA 143.0131 143 whole (11.76) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 6 Manvers House / James Best
+  - star rows: H Zosma → H Makemake RA 24.0190 24 whole (0.23) — also: 2 Royaume Uni / Joshua Moore
+  - star rows: H Zosma → H Ketu Dec 16.6639 16.6667 ninth (97.61) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 6 Manvers House / James Best
+  - star rows: J Zosma → J Sun Dec 0.1003 conj (44.32) — only
+  - star rows: J Zosma → J Rahu RA 62.9950 63 whole (56.62) — also: 3 Hell Red / Harry Cobden
+  - star rows: J Zosma → J Ketu RA 117.0050 117 whole (56.62) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 6 Manvers House / James Best
+  - MATCH EXACT: J Alkes → Pluto Dec 25.0148 25 whole (6.80)
+  - same number: J Alkes → J Pluto Dec 25.0148 25 whole (6.80) — also: 4 Dreaming Blue / Rex Dingle
+- 6 Manvers House / James Best
+  - star rows: H Zosma → H Venus Dec 0.0962 conj (46.16) — also: 4 Dreaming Blue / Rex Dingle
+  - star rows: H Zosma → H Pallas RA 114.8875 71×φ golden (61.10) — only
+  - star rows: H Zosma → H Quaoar Dec 35.9872 36 whole (12.92) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 2 Royaume Uni / Joshua Moore
+  - star rows: J Zosma → J Chiron Dec 6.9928 7 whole (41.10) — also: 2 Royaume Uni / Joshua Moore, 7 Island Run / Tom O'Brien
+  - star rows: J Zosma → J Eris Dec 30.0144 30 whole (7.84) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 5 Grangeclare Glory / Tom Scudamore
+  - star rows: J Zosma → J Ketu Dec 0.2569 conj (2.06) — also: 1 Breaking Waves / Jonjo O'Neill Jr, 5 Grangeclare Glory / Tom Scudamore
+  - MATCH EXACT: H Aculeus → Orcus Dec 25.0080 25 whole (35.99)
+  - MATCH EXACT: H Rigel → Pallas RA 24.9869 25 whole (11.84)
+  - MATCH EXACT: H Jupiter → H body → Pallas RA 24.9834 25 whole (2.91)
+  - MATCH EXACT: J Deneb → Ketu Dec 25.0185 25 whole (0.59)
+- 7 Island Run / Tom O'Brien
+  - star rows: H Zosma → H Saturn RA 96.0121 96 whole (15.58) — also: 1 Breaking Waves / Jonjo O'Neill Jr
+  - star rows: H Zosma → H Chiron RA 177.0151 177 whole (6.04) — also: 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best
+  - star rows: H Zosma → H Chiron Dec 20.0035 20 whole (68.40) — also: 2 Royaume Uni / Joshua Moore, 6 Manvers House / James Best
+  - MATCH EXACT: H Mirfak → Makemake Dec 24.9978 25 whole (79.26)
+  - MATCH EXACT: H Algenib → Orcus Dec 25.0161 25 whole (3.77)
+### READ 3 Jupiter / Sun lines to bodies (not followed)
+- S Jupiter → Sedna RA 71.1937 44×φ golden (98.47)
+- S Sun → Uranus Dec 19.4155 12×φ golden (94.70)
+- S Jupiter → Venus RA 43.0014 43 whole (86.77)
+- S Jupiter → Moon RA 81.0021 81 whole (80.22)
+- S Jupiter → Vesta RA 45.9960 46 whole (64.02)
+- S Jupiter → Saturn RA 24.9957 25 whole (61.45)
+- S Sun → Haumea Dec 19.9944 20 whole (52.20)
+### READ 4 Moon only, not active (confirm no lead line; not followed)
+- S Moon → Chiron Dec 16.6620 16.6667 ninth (96.00)
+- S Moon → Makemake Dec 0.0216 conj (86.14)
+- S Moon → Murzim RA 27.5095 17×φ golden (82.56)
+- S Moon → Vesta RA 126.9981 127 whole (81.81)
+- S Moon → Jupiter RA 81.0021 81 whole (80.22)
+- S Moon → Saturn RA 105.9978 106 whole (78.90)
+- S Moon → Venus RA 124.0035 124 whole (68.42)
+- S Moon → Ceres Dec 0.1440 conj (27.02)
+- S Moon → Aldebaran RA 0.8126 conj (21.00)
+
 ## 1 Breaking Waves / Jonjo O'Neill Jr
 ### L1 same bodies
 - S Venus → H Venus Dec 14.4420 14.4444 ninth (97.46)

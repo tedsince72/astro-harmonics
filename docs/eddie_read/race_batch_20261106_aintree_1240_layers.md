@@ -20,6 +20,261 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Moon → Nunki RA 95.0039 95 whole (65.03)
 - Hubs: Alphard, Haumea
 
+## READ (reading order, Eddie 7 Nov 2026)
+### READ 1 same body first
+- **1 Watery Borren / Derek Fox**
+  - S Sun → H Sun Dec 33.3703 33.3333 ninth (loose)
+  - S Pluto → H Pluto Dec 1.4162 1.414 sqrt2 (loose)
+  - S Ceres → H Ceres Dec 19.0156 19 whole (4.77)
+  - S Pallas → H Pallas Dec 27.0037 27 whole (66.16)
+  - S Rahu → H Rahu RA 100.3364 62×φ golden (19.02)
+  - S Orcus → H Orcus RA 6.8541 φ^4 phi power (99.92)
+  - S Ketu → H Ketu RA 100.3364 62×φ golden (19.02)
+  - S Mercury → J Mercury RA 177.1397 177.778 ninth (loose)
+  - S Saturn → J Saturn Dec 17.0291 17 whole (loose)
+  - S Uranus → J Uranus RA 132.6682 82×φ golden (45.10)
+  - S Chiron → J Chiron Dec 1.9724 2 whole (loose)
+  - S Ceres → J Ceres RA 161.6028 100×φ^1 phi power (loose)
+  - S Ceres → J Ceres Dec 48.0257 48 whole (loose)
+  - S Orcus → J Orcus Dec 17.0224 17 whole (loose)
+  - S Quaoar → J Quaoar RA 44.0136 44 whole (10.14)
+- **2 Aqua Bleu / Sean Bowen**
+  - S Sun → H Sun RA 144.9880 145 whole (16.10)
+  - S Mercury → H Mercury RA 161.6129 100×φ^1 phi power (loose)
+  - S Venus → H Venus Dec 26.1512 10×φ^2 phi power (loose)
+  - S Mars → H Mars RA 133.6337 133.333 ninth (loose)
+  - S Jupiter → H Jupiter Dec 13.2808 13.3333 ninth (loose)
+  - S Chiron → H Chiron RA 11.9937 12 whole (46.73)
+  - S Rahu → H Rahu RA 80.9195 50×φ golden (loose)
+  - S Rahu → H Rahu Dec 30.9756 31 whole (loose)
+  - S Sedna → H Sedna Dec 0.3337 0.333333 ninth (loose)
+  - S Ketu → H Ketu RA 80.9195 50×φ golden (loose)
+  - S Ketu → H Ketu Dec 30.9756 31 whole (loose)
+  - S Sun → J Sun Dec 22.6418 14×φ golden (loose)
+  - S Mars → J Mars Dec 33.0218 33 whole (loose)
+  - S Saturn → J Saturn RA 9.9926 10 whole (39.60)
+  - S Saturn → J Saturn Dec 4.1443 4.14 silver (loose)
+  - S Pluto → J Pluto Dec 15.0207 15 whole (loose)
+  - S Chiron → J Chiron RA 177.0047 177 whole (58.82)
+  - S Rahu → J Rahu RA 158.0213 158 whole (loose)
+  - S Haumea → J Haumea RA 26.9741 27 whole (loose)
+  - S Makemake → J Makemake Dec 13.0021 13 whole (80.03)
+  - S Orcus → J Orcus Dec 14.0905 14.14 sqrt2 (loose)
+  - S Gonggong → J Gonggong RA 5.9788 6 whole (loose)
+  - S Ketu → J Ketu RA 158.0213 158 whole (loose)
+- **3 Avide / Theo Gillard**
+  - S Mars → H Mars RA 140.8556 141.4 sqrt2 (loose)
+  - S Jupiter → H Jupiter RA 165.5907 166.667 ninth (loose)
+  - S Vesta → H Vesta Dec 16.6159 16.6667 ninth (loose)
+  - S Sedna → H Sedna Dec 0.7069 0.707 sqrt2 (loose)
+  - S Orcus → H Orcus Dec 1.7695 1.77778 ninth (loose)
+  - S Gonggong → H Gonggong Dec 1.0081 1 whole (35.13)
+  - S Transpluto → H Transpluto RA 1.8852 1.88889 ninth (loose)
+  - S Mars → J Mars Dec 25.8798 16×φ golden (loose)
+  - S Uranus → J Uranus RA 110.4684 10×φ^5 phi power (loose)
+  - S Pluto → J Pluto RA 58.2456 36×φ golden (79.03)
+  - S Juno → J Juno RA 118.0074 118 whole (39.50)
+  - S Rahu → J Rahu RA 166.2813 166.667 ninth (loose)
+  - S Eris → J Eris RA 3.9997 4 whole (96.90)
+  - S Haumea → J Haumea Dec 8.0218 8 whole (loose)
+  - S Makemake → J Makemake RA 24.1118 24.14 silver (loose)
+  - S Orcus → J Orcus Dec 13.3908 13.3333 ninth (loose)
+  - S Ketu → J Ketu RA 166.2813 166.667 ninth (loose)
+- **4 Risky Obsession / Harry Skelton**
+  - S Mercury → H Mercury RA 140.0175 140 whole (1.52)
+  - S Vesta → H Vesta Dec 16.6618 16.6667 ninth (95.86)
+  - S Eris → H Eris Dec 1.0063 1 whole (46.71)
+  - S Venus → J Venus Dec 3.3253 3.33333 ninth (loose)
+  - S Uranus → J Uranus RA 150.4667 93×φ golden (45.88)
+  - S Chiron → J Chiron RA 80.9063 50×φ golden (73.67)
+  - S Ceres → J Ceres Dec 3.2400 2×φ golden (loose)
+  - S Haumea → J Haumea RA 33.9604 21×φ golden (loose)
+  - S Makemake → J Makemake Dec 15.5348 15.5556 ninth (loose)
+  - S Orcus → J Orcus Dec 17.9579 φ^6 phi power (loose)
+  - S Quaoar → J Quaoar RA 48.5623 30×φ golden (loose)
+  - S Quaoar → J Quaoar Dec 2.0256 2 whole (loose)
+  - S Transpluto → J Transpluto RA 12.2938 12.2222 ninth (loose)
+### READ 2 Jupiter / Sun star lines, highest score first, each in full
+#### 1. S Sun → Alhena Dec 32.3610 20×φ golden (97.89) — runners with cells 4/4
+- Moon confirms: none
+- 1 Watery Borren / Derek Fox
+  - star rows: H Alhena → H Jupiter RA 127.8346 79×φ golden (48.17) — also: 4 Risky Obsession / Harry Skelton
+  - star rows: H Alhena → H Sun Dec 1.0099 1 whole (25.72) — only
+  - star rows: H Alhena → H Mars RA 0.9583 conj (13.04) — also: 2 Aqua Bleu / Sean Bowen
+  - star rows: H Alhena → H Ceres RA 69.0125 69 whole (14.07) — only
+  - star rows: H Alhena → H Haumea Dec 0.1078 conj (41.03) — also: 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton
+  - star rows: H Alhena → H Gonggong RA 122.2096 122.222 ninth (98.25) — only
+  - star rows: J Alhena → J Eris Dec 24.9881 25 whole (16.59) — also: 4 Risky Obsession / Harry Skelton
+  - star rows: J Alhena → J Transpluto Dec 2.2229 2.22222 ninth (91.28) — also: 4 Risky Obsession / Harry Skelton
+- 2 Aqua Bleu / Sean Bowen
+  - star rows: H Alhena → H Mercury RA 43.9813 44 whole (0.43) — also: 3 Avide / Theo Gillard
+  - star rows: H Alhena → H Uranus Dec 0.0058 conj (96.17) — only
+  - star rows: H Alhena → H Neptune RA 103.5252 64×φ golden (1.12) — also: 3 Avide / Theo Gillard
+  - star rows: H Alhena → H Pluto Dec 38.9851 39 whole (6.60) — also: 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton
+  - star rows: H Alhena → H Chiron RA 85.9824 86 whole (1.48) — also: 4 Risky Obsession / Harry Skelton
+  - star rows: H Alhena → H Vesta Dec 30.0167 30 whole (2.73) — only
+  - star rows: J Alhena → J Mercury Dec 8.9912 9 whole (31.30) — also: 3 Avide / Theo Gillard
+  - star rows: J Alhena → J Mars RA 121.9811 122 whole (0.31) — also: 1 Watery Borren / Derek Fox
+  - star rows: J Alhena → J Chiron RA 109.0037 109 whole (66.10) — also: 4 Risky Obsession / Harry Skelton
+  - star rows: J Alhena → J Sedna Dec 11.3255 7×φ golden (95.27) — only
+- 3 Avide / Theo Gillard
+  - star rows: H Alhena → H Mercury Dec 35.9823 36 whole (1.33) — also: 2 Aqua Bleu / Sean Bowen
+  - star rows: H Alhena → H Neptune RA 106.7950 66×φ golden (72.79) — also: 2 Aqua Bleu / Sean Bowen
+  - star rows: H Alhena → H Pluto RA 160.0087 160 whole (31.98) — also: 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton
+  - star rows: H Alhena → H Juno Dec 27.9918 28 whole (34.73) — also: 4 Risky Obsession / Harry Skelton
+  - star rows: H Alhena → H Haumea RA 118.1242 73×φ golden (57.95) — also: 1 Watery Borren / Derek Fox, 4 Risky Obsession / Harry Skelton
+  - star rows: H Alhena → H Ketu Dec 35.9888 36 whole (19.43) — only
+  - star rows: J Alhena → J Juno Dec 18.9982 19 whole (82.97) — also: 4 Risky Obsession / Harry Skelton
+  - MATCH EXACT: J Ankaa → Ceres Dec 32.3620 20×φ golden (91.75)
+  - same number: J Ankaa → J Ceres Dec 32.3620 20×φ golden (91.75) — only
+- 4 Risky Obsession / Harry Skelton
+  - star rows: H Alhena → H Pluto Dec 38.8347 24×φ golden (88.76) — also: 2 Aqua Bleu / Sean Bowen, 3 Avide / Theo Gillard
+  - star rows: H Alhena → H Juno RA 155.5467 155.556 ninth (99.16) — also: 3 Avide / Theo Gillard
+  - star rows: H Alhena → H Haumea Dec 0.1324 conj (31.23) — also: 1 Watery Borren / Derek Fox, 3 Avide / Theo Gillard
+  - star rows: S Alhena → J Jupiter RA 0.0037 conj (99.51) — also: 1 Watery Borren / Derek Fox
+  - star rows: J Alhena → J Chiron Dec 0.2769 conj (0.59) — also: 2 Aqua Bleu / Sean Bowen
+  - star rows: J Alhena → J Pallas Dec 24.2722 15×φ golden (89.89) — only
+  - star rows: J Alhena → J Eris Dec 25.9946 26 whole (53.09) — also: 1 Watery Borren / Derek Fox
+  - star rows: J Alhena → J Transpluto RA 44.9863 45 whole (9.78) — also: 1 Watery Borren / Derek Fox
+  - natal Jupiter → star: J Jupiter → J star Alhena RA 0.0083 conj (98.89) — also: 1 Watery Borren / Derek Fox
+  - MATCH EXACT: H Meissa → Pluto Dec 32.3694 20×φ golden (53.16)
+#### 2. S Jupiter → Alphard Dec 22.6508 14×φ golden (89.99) — runners with cells 4/4
+- Moon confirms: S Moon → Alphard Dec 0.0111 conj (92.71)
+- 1 Watery Borren / Derek Fox
+  - star rows: J Alphard → J Uranus Dec 13.9930 14 whole (42.44) — also: 2 Aqua Bleu / Sean Bowen
+  - star rows: J Alphard → J Pallas RA 132.9928 133 whole (41.09) — also: 3 Avide / Theo Gillard
+  - star rows: J Alphard → J Eris RA 118.9912 119 whole (31.16) — only
+  - star rows: J Alphard → J Eris Dec 0.0718 conj (57.85) — only
+  - star rows: J Alphard → J Quaoar RA 95.0023 95 whole (78.17) — also: 2 Aqua Bleu / Sean Bowen
+  - star rows: J Alphard → J Quaoar Dec 4.9838 5 whole (3.68) — also: 2 Aqua Bleu / Sean Bowen
+  - MATCH EXACT: J Menkar → Eris RA 22.6592 14×φ golden (62.63)
+- 2 Aqua Bleu / Sean Bowen
+  - star rows: H Alphard → H Neptune RA 145.9968 146 whole (70.88) — also: 3 Avide / Theo Gillard, 4 Risky Obsession / Harry Skelton
+  - star rows: H Alphard → H Pluto RA 158.5771 98×φ golden (48.90) — also: 3 Avide / Theo Gillard
+  - star rows: H Alphard → H Juno RA 158.5750 98×φ golden (58.18) — only
+  - star rows: H Alphard → H Orcus Dec 2.6182 φ^2 phi power (98.96) — only
+  - star rows: J Alphard → J Venus Dec 0.2966 conj (0.01) — also: 3 Avide / Theo Gillard
+  - star rows: J Alphard → J Saturn RA 122.9668 φ^10 phi power (92.00) — only
+  - star rows: J Alphard → J Uranus RA 166.0000 166 whole (99.68) — also: 1 Watery Borren / Derek Fox
+  - star rows: J Alphard → J Pluto Dec 0.0065 conj (95.74) — also: 3 Avide / Theo Gillard
+  - star rows: J Alphard → J Quaoar RA 100.3188 62×φ golden (95.93) — also: 1 Watery Borren / Derek Fox
+  - MATCH EXACT: J Alnilam → Ceres Dec 22.6538 14×φ golden (92.01)
+  - MATCH EXACT: S Jupiter → J body → Pluto Dec 22.6576 14×φ golden (70.94)
+  - MATCH EXACT: J Alphecca → Rahu Dec 22.6589 14×φ golden (64.30)
+  - same number: S Sun → J Sun Dec 22.6418 14×φ golden (loose) — only
+  - same number: S Jupiter → J Pluto Dec 22.6576 14×φ golden (70.94) — only
+- 3 Avide / Theo Gillard
+  - star rows: H Alphard → H Jupiter Dec 0.2094 conj (9.13) — only
+  - star rows: J Alphard → J Venus RA 147.2284 91×φ golden (36.98) — also: 2 Aqua Bleu / Sean Bowen
+  - star rows: J Alphard → J Neptune Dec 11.0930 φ^5 phi power (90.11) — also: 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton
+  - star rows: J Alphard → J Pluto RA 106.0011 106 whole (89.61) — also: 2 Aqua Bleu / Sean Bowen
+  - star rows: J Alphard → J Pallas RA 177.7411 177.778 ninth (97.13) — also: 1 Watery Borren / Derek Fox
+  - MATCH EXACT: H Al Rescha → Chiron RA 22.6523 14×φ golden (99.20)
+  - MATCH EXACT: H Acumen → Orcus Dec 22.6502 14×φ golden (86.63)
+  - MATCH EXACT: J Zubeneschamali → Transpluto Dec 22.6553 14×φ golden (83.52)
+  - MATCH EXACT: J Menkar → Uranus Dec 22.6592 14×φ golden (62.84)
+- 4 Risky Obsession / Harry Skelton
+  - star rows: H Alphard → H Neptune RA 147.9917 148 whole (34.25) — also: 2 Aqua Bleu / Sean Bowen, 3 Avide / Theo Gillard
+  - star rows: H Alphard → H Vesta RA 29.0023 29 whole (78.69) — only
+  - MATCH EXACT: H Vindemiatrix → Jupiter Dec 22.6534 14×φ golden (94.22)
+  - MATCH EXACT: H Acubens → Orcus Dec 22.6561 14×φ golden (78.92)
+  - MATCH EXACT: J Aculeus → Eris Dec 22.6597 14×φ golden (60.12)
+#### 3. S Jupiter → Capella Dec 31.9990 32 whole (89.78) — runners with cells 4/4
+- Moon confirms: none
+- 1 Watery Borren / Derek Fox
+  - star rows: H Capella → H Makemake RA 117.9993 118 whole (92.91) — only
+  - star rows: H Capella → H Orcus Dec 57.0040 57 whole (64.32) — only
+  - star rows: H Capella → H Gonggong RA 101.9514 63×φ golden (27.99) — also: 2 Aqua Bleu / Sean Bowen, 4 Risky Obsession / Harry Skelton
+  - star rows: J Capella → J Sun RA 27.5033 17×φ golden (80.70) — also: 3 Avide / Theo Gillard
+  - star rows: J Capella → J Sedna RA 35.9978 36 whole (79.09) — only
+  - MATCH EXACT: J El Nath → Pluto Dec 32.0050 32 whole (56.60)
+  - MATCH EXACT: J Sualocin → Saturn Dec 31.9931 32 whole (42.89)
+- 2 Aqua Bleu / Sean Bowen
+  - star rows: H Capella → H Haumea Dec 30.0088 30 whole (31.60) — also: 3 Avide / Theo Gillard
+  - star rows: J Capella → J Venus RA 121.3784 75×φ golden (4.04) — also: 3 Avide / Theo Gillard
+  - star rows: J Capella → J Gonggong RA 107.9827 108 whole (1.76) — also: 1 Watery Borren / Derek Fox, 4 Risky Obsession / Harry Skelton
+  - MATCH EXACT: H Acumen → Pluto RA 32.0022 32 whole (79.24)
+  - MATCH EXACT: H Algorab → Mercury Dec 32.0187 32 whole (0.43)
+  - MATCH EXACT: J Deneb → Transpluto Dec 31.9927 32 whole (40.53)
+- 3 Avide / Theo Gillard
+  - star rows: H Capella → H Rahu RA 23.9906 24 whole (28.29) — also: 4 Risky Obsession / Harry Skelton
+  - star rows: H Capella → H Haumea Dec 30.7405 19×φ golden (87.17) — also: 2 Aqua Bleu / Sean Bowen
+  - star rows: H Capella → H Ketu RA 156.0094 156 whole (28.29) — also: 4 Risky Obsession / Harry Skelton
+  - star rows: J Capella → J Sun RA 122.2305 122.222 ninth (98.86) — also: 1 Watery Borren / Derek Fox
+  - star rows: J Capella → J Venus Dec 60.9887 61 whole (19.06) — also: 2 Aqua Bleu / Sean Bowen
+  - MATCH EXACT: H Wezen → Chiron Dec 32.0097 32 whole (26.78)
+  - MATCH EXACT: H Sirius → Haumea Dec 31.9834 32 whole (2.94)
+  - MATCH EXACT: H Sadalmelik → Pluto RA 32.0172 32 whole (2.00)
+  - MATCH EXACT: J Antares → Vesta Dec 32.0040 32 whole (63.73)
+  - MATCH EXACT: J Deneb → Transpluto Dec 32.0075 32 whole (39.33)
+- 4 Risky Obsession / Harry Skelton
+  - star rows: S Capella → H Jupiter RA 104.9885 105 whole (17.86) — only
+  - star rows: H Capella → H Chiron Dec 39.0010 39 whole (89.87) — only
+  - star rows: H Capella → H Rahu Dec 23.9936 24 whole (45.94) — also: 3 Avide / Theo Gillard
+  - star rows: H Capella → H Gonggong RA 101.9304 63×φ golden (67.85) — also: 1 Watery Borren / Derek Fox, 2 Aqua Bleu / Sean Bowen
+  - star rows: H Capella → H Ketu Dec 67.9963 68 whole (66.05) — also: 3 Avide / Theo Gillard
+  - star rows: J Capella → J Ceres Dec 24.9810 25 whole (0.25) — only
+  - star rows: J Capella → J Juno RA 111.0048 111 whole (58.05) — only
+  - star rows: J Capella → J Rahu Dec 59.0120 59 whole (16.05) — also: 3 Avide / Theo Gillard
+  - star rows: J Capella → J Ketu Dec 32.9823 33 whole (1.27) — also: 3 Avide / Theo Gillard
+  - MATCH EXACT: H Ras Algethi → Saturn Dec 32.0173 32 whole (1.86)
+#### 4. S Sun → Zubenelgenubi Dec 0.0788 conj (54.37) — runners with cells 4/4
+- Moon confirms: none
+- 1 Watery Borren / Derek Fox
+  - star rows: H Zubenelgenubi → H Sun RA 176.3914 109×φ golden (4.28) — only
+  - star rows: H Zubenelgenubi → H Saturn RA 92.9852 93 whole (6.64) — also: 3 Avide / Theo Gillard
+  - star rows: H Zubenelgenubi → H Uranus Dec 30.7499 19×φ golden (60.13) — only
+  - star rows: H Zubenelgenubi → H Neptune Dec 11.9910 12 whole (30.46) — also: 2 Aqua Bleu / Sean Bowen
+  - star rows: H Zubenelgenubi → H Ketu Dec 5.9807 6 whole (0.14) — also: 2 Aqua Bleu / Sean Bowen
+  - star rows: J Zubenelgenubi → J Venus RA 178.9985 179 whole (85.99) — also: 4 Risky Obsession / Harry Skelton
+  - star rows: J Zubenelgenubi → J Saturn Dec 0.0405 conj (74.82) — also: 3 Avide / Theo Gillard
+  - star rows: J Zubenelgenubi → J Eris RA 160.1800 99×φ golden (69.50) — only
+  - MATCH CONJ STAR: H Zubenelgenubi → Uranus Dec 30.7499 19×φ golden (60.13)
+  - MATCH CONJ STAR: S Jupiter → H body → Orcus Dec 25.0026 25 whole (75.73)
+  - MATCH CONJ STAR: J Zubenelgenubi → Venus RA 178.9985 179 whole (85.99)
+  - MATCH CONJ STAR: J Zubenelgenubi → Saturn Dec 0.0405 conj (74.82)
+  - MATCH CONJ STAR: J Zubenelgenubi → Eris RA 160.1800 99×φ golden (69.50)
+  - MATCH CONJ STAR: S Jupiter → J body → Pluto RA 85.9950 86 whole (56.60)
+- 2 Aqua Bleu / Sean Bowen
+  - star rows: H Zubenelgenubi → H Neptune Dec 12.9984 13 whole (84.46) — also: 1 Watery Borren / Derek Fox
+  - star rows: H Zubenelgenubi → H Makemake Dec 38.9928 39 whole (40.98) — only
+  - star rows: H Zubenelgenubi → H Orcus RA 66.9871 67 whole (12.47) — only
+  - star rows: J Zubenelgenubi → J Mars RA 1.3104 conj (1.60) — also: 4 Risky Obsession / Harry Skelton
+  - star rows: J Zubenelgenubi → J Gonggong Dec 2.0009 2 whole (91.19) — only
+  - star rows: J Zubenelgenubi → J Ketu Dec 11.9809 12 whole (0.20) — also: 1 Watery Borren / Derek Fox
+  - MATCH CONJ STAR: H Zubenelgenubi → Neptune Dec 12.9984 13 whole (84.46)
+  - MATCH CONJ STAR: S Jupiter → H body → Pallas RA 97.0885 60×φ golden (64.04)
+  - MATCH CONJ STAR: S Jupiter → H body → Quaoar Dec 29.1254 18×φ golden (95.35)
+  - MATCH CONJ STAR: J Zubenelgenubi → Gonggong Dec 2.0009 2 whole (91.19)
+  - MATCH CONJ STAR: S Jupiter → J body → Pluto Dec 22.6576 14×φ golden (70.94)
+  - MATCH CONJ STAR: S Jupiter → J body → Pallas RA 138.0050 138 whole (56.41)
+  - MATCH CONJ STAR: S Jupiter → J body → Transpluto RA 0.1297 conj (83.45)
+- 3 Avide / Theo Gillard
+  - star rows: H Zubenelgenubi → H Quaoar RA 53.9882 54 whole (16.61) — only
+  - star rows: J Zubenelgenubi → J Saturn Dec 20.0182 20 whole (0.80) — also: 1 Watery Borren / Derek Fox
+  - star rows: J Zubenelgenubi → J Chiron Dec 0.2430 conj (3.61) — only
+  - star rows: J Zubenelgenubi → J Haumea RA 27.0176 27 whole (1.43) — only
+  - MATCH CONJ STAR: S Jupiter → J body → Transpluto RA 0.0733 conj (90.46)
+- 4 Risky Obsession / Harry Skelton
+  - star rows: H Zubenelgenubi → H Mars RA 98.0160 98 whole (4.05) — also: 2 Aqua Bleu / Sean Bowen
+  - star rows: H Zubenelgenubi → H Mars Dec 36.9997 37 whole (97.14) — also: 2 Aqua Bleu / Sean Bowen
+  - star rows: H Zubenelgenubi → H Juno Dec 11.9882 12 whole (16.78) — only
+  - star rows: J Zubenelgenubi → J Mercury Dec 9.9963 10 whole (66.44) — only
+  - star rows: J Zubenelgenubi → J Venus Dec 0.2933 conj (0.05) — also: 1 Watery Borren / Derek Fox
+  - MATCH CONJ STAR: H Zubenelgenubi → Mars Dec 36.9997 37 whole (97.14)
+  - MATCH CONJ STAR: S Jupiter → H body → Chiron Dec 7.0010 7 whole (89.91)
+  - MATCH CONJ STAR: S Jupiter → H body → Gonggong RA 169.8847 105×φ golden (52.92)
+  - MATCH CONJ STAR: S Jupiter → H body → Ketu Dec 35.9962 36 whole (66.01)
+  - MATCH CONJ STAR: J Zubenelgenubi → Mercury Dec 9.9963 10 whole (66.44)
+### READ 3 Jupiter / Sun lines to bodies (not followed)
+- S Jupiter → Orcus RA 14.5618 9×φ golden (96.78)
+- S Sun → Haumea RA 0.5461 conj (40.44)
+### READ 4 Moon only, not active (confirm no lead line; not followed)
+- S Moon → Ankaa RA 177.7697 177.778 ninth (99.37)
+- S Moon → Haumea Dec 22.0001 22 whole (98.85)
+- S Moon → Nunki RA 95.0039 95 whole (65.03)
+- S Moon → Bellatrix Dec 14.9956 15 whole (61.23)
+
 ## 1 Watery Borren / Derek Fox
 ### L1 same bodies
 - S Sun → H Sun Dec 33.3703 33.3333 ninth (loose)

@@ -27,6 +27,553 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Moon → Vega RA 110.0023 110 whole (78.36)
 - Hubs: Juno, Pallas, Rukbat
 
+## READ (reading order, Eddie 7 Nov 2026)
+### READ 1 same body first
+- **1 Java Point / Jonathan Burke**
+  - S Mercury → H Mercury Dec 40.4795 25×φ golden (loose)
+  - S Jupiter → H Jupiter RA 161.3070 100×φ^1 phi power (loose)
+  - S Chiron → H Chiron RA 17.7307 17.7778 ninth (loose)
+  - S Juno → H Juno RA 160.0061 160 whole (48.59)
+  - S Rahu → H Rahu Dec 24.0000 24 whole (99.82)
+  - S Eris → H Eris Dec 1.3398 1.33333 ninth (loose)
+  - S Ketu → H Ketu Dec 24.0000 24 whole (99.82)
+  - S Uranus → J Uranus RA 97.0647 60×φ golden (loose)
+  - S Neptune → J Neptune RA 55.5263 55.5556 ninth (loose)
+  - S Juno → J Juno RA 1.1134 1.11111 ninth (loose)
+  - S Rahu → J Rahu RA 144.1936 144.444 ninth (loose)
+  - S Sedna → J Sedna RA 13.9930 14 whole (42.49)
+  - S Makemake → J Makemake Dec 11.1623 11.1111 ninth (loose)
+  - S Orcus → J Orcus RA 22.0024 22 whole (77.84)
+  - S Quaoar → J Quaoar RA 33.9670 21×φ golden (loose)
+  - S Quaoar → J Quaoar Dec 0.9828 1 whole (2.00)
+  - S Gonggong → J Gonggong RA 5.9844 6 whole (4.87)
+  - S Ketu → J Ketu RA 144.1936 144.444 ninth (loose)
+- **2 Isolate / Liam Harrison**
+  - S Venus → H Venus RA 68.5072 10×φ^4 phi power (loose)
+  - S Venus → H Venus Dec 14.1253 14.14 sqrt2 (loose)
+  - S Mars → H Mars RA 13.0298 13 whole (loose)
+  - S Jupiter → H Jupiter Dec 18.8540 18.8889 ninth (loose)
+  - S Orcus → H Orcus RA 6.4776 4×φ golden (loose)
+  - S Transpluto → H Transpluto Dec 0.9718 1 whole (loose)
+  - S Mercury → J Mercury RA 116.4866 72×φ golden (40.15)
+  - S Venus → J Venus Dec 42.0895 26×φ golden (loose)
+  - S Pluto → J Pluto Dec 9.9884 10 whole (17.66)
+  - S Ceres → J Ceres Dec 26.0272 26 whole (loose)
+  - S Vesta → J Vesta RA 177.0189 177 whole (0.30)
+  - S Rahu → J Rahu RA 18.8347 18.8889 ninth (loose)
+  - S Makemake → J Makemake RA 18.8750 18.8889 ninth (loose)
+  - S Quaoar → J Quaoar RA 26.0216 26 whole (loose)
+  - S Ketu → J Ketu RA 18.8347 18.8889 ninth (loose)
+- **3 Une De La Seniere / Paddy Brennan**
+  - S Jupiter → H Jupiter RA 161.0654 100×φ^1 phi power (loose)
+  - S Uranus → H Uranus RA 22.0095 22 whole (27.70)
+  - S Chiron → H Chiron RA 17.8969 φ^6 phi power (loose)
+  - S Juno → H Juno RA 161.0889 100×φ^1 phi power (loose)
+  - S Vesta → H Vesta Dec 11.3538 7×φ golden (loose)
+  - S Transpluto → H Transpluto RA 3.0234 3 whole (loose)
+  - S Juno → J Juno RA 77.7169 77.7778 ninth (loose)
+  - S Sedna → J Sedna Dec 4.9702 5 whole (loose)
+  - S Orcus → J Orcus RA 37.1914 23×φ golden (loose)
+  - S Gonggong → J Gonggong Dec 11.1491 11.1111 ninth (loose)
+  - S Transpluto → J Transpluto RA 14.5913 9×φ golden (loose)
+- **4 Wildfire Warrior / Tom O'Brien**
+  - S Jupiter → H Jupiter Dec 29.0419 φ^7 phi power (loose)
+  - S Saturn → H Saturn Dec 1.2286 1.22222 ninth (loose)
+  - S Ceres → H Ceres RA 123.9993 124 whole (93.18)
+  - S Ceres → H Ceres Dec 42.3230 10×φ^3 phi power (loose)
+  - S Pallas → H Pallas RA 88.7710 88.8889 ninth (loose)
+  - S Rahu → H Rahu Dec 24.1824 24.14 silver (loose)
+  - S Eris → H Eris Dec 1.6133 1×φ golden (loose)
+  - S Makemake → H Makemake RA 5.9709 6 whole (loose)
+  - S Orcus → H Orcus RA 6.8582 φ^4 phi power (loose)
+  - S Transpluto → H Transpluto Dec 0.9975 1 whole (76.81)
+  - S Ketu → H Ketu Dec 24.1824 24.14 silver (loose)
+  - S Jupiter → J Jupiter RA 11.0813 φ^5 phi power (loose)
+  - S Saturn → J Saturn RA 65.0289 65 whole (loose)
+  - S Pluto → J Pluto RA 77.0131 77 whole (11.97)
+  - S Pallas → J Pallas RA 140.8501 141.4 sqrt2 (loose)
+  - S Pallas → J Pallas Dec 10.9914 11 whole (32.72)
+  - S Vesta → J Vesta Dec 14.1203 14.14 sqrt2 (loose)
+  - S Eris → J Eris RA 4.2344 φ^3 phi power (loose)
+  - S Eris → J Eris Dec 9.0253 9 whole (loose)
+- **5 Jimmy The Digger / Richard Patrick**
+  - S Sun → H Sun RA 69.9977 70 whole (78.17)
+  - S Sun → H Sun Dec 22.6707 14×φ golden (loose)
+  - S Mercury → H Mercury RA 27.0039 27 whole (65.06)
+  - S Venus → H Venus Dec 15.9785 16 whole (loose)
+  - S Pluto → H Pluto Dec 2.9749 3 whole (loose)
+  - S Vesta → H Vesta Dec 44.0053 44 whole (54.14)
+  - S Eris → H Eris Dec 2.0220 2 whole (loose)
+  - S Makemake → H Makemake RA 7.9944 8 whole (51.91)
+  - S Gonggong → H Gonggong RA 1.1108 1.11111 ninth (loose)
+  - S Gonggong → H Gonggong Dec 1.9994 2 whole (93.83)
+  - S Sun → J Sun Dec 19.9730 20 whole (loose)
+  - S Mars → J Mars RA 36.9857 37 whole (8.10)
+  - S Uranus → J Uranus Dec 35.9847 36 whole (5.50)
+  - S Pluto → J Pluto Dec 15.5842 15.5556 ninth (loose)
+  - S Pallas → J Pallas RA 174.0185 174 whole (0.60)
+  - S Sedna → J Sedna RA 13.2914 13.3333 ninth (loose)
+  - S Makemake → J Makemake RA 24.1303 24.14 silver (loose)
+  - S Quaoar → J Quaoar RA 35.9809 36 whole (0.22)
+- **6 Method Madness / Alex Edwards**
+  - S Mars → H Mars RA 177.5953 177.778 ninth (loose)
+  - S Pallas → H Pallas Dec 36.9871 37 whole (12.66)
+  - S Quaoar → H Quaoar RA 8.8814 8.88889 ninth (loose)
+  - S Gonggong → H Gonggong Dec 1.3291 1.33333 ninth (loose)
+  - S Transpluto → H Transpluto RA 3.0228 3 whole (loose)
+  - S Mars → J Mars RA 8.9721 9 whole (loose)
+  - S Jupiter → J Jupiter RA 118.0113 118 whole (18.80)
+  - S Jupiter → J Jupiter Dec 34.9772 35 whole (loose)
+  - S Ceres → J Ceres RA 24.9970 25 whole (72.18)
+  - S Rahu → J Rahu RA 99.0152 99 whole (5.64)
+  - S Eris → J Eris RA 3.9968 4 whole (70.59)
+  - S Ketu → J Ketu RA 99.0152 99 whole (5.64)
+- **7 Fanamix / Ben Jones**
+  - S Mars → H Mars RA 95.9821 96 whole (1.15)
+  - S Saturn → H Saturn RA 73.0213 73 whole (loose)
+  - S Neptune → H Neptune Dec 5.0107 5 whole (21.47)
+  - S Pluto → H Pluto RA 12.9466 8×φ golden (85.98)
+  - S Juno → H Juno RA 165.8678 166.667 ninth (loose)
+  - S Juno → H Juno Dec 19.4366 12×φ golden (loose)
+  - S Sedna → H Sedna RA 4.1497 4.14 silver (loose)
+  - S Jupiter → J Jupiter RA 51.0117 51 whole (17.34)
+  - S Saturn → J Saturn Dec 31.0288 31 whole (loose)
+  - S Chiron → J Chiron RA 122.0170 122 whole (2.24)
+### READ 2 Jupiter / Sun star lines, highest score first, each in full
+#### 1. S Jupiter → Denebola Dec 26.1830 10×φ^2 phi power (95.96) — runners with cells 7/7
+- Moon confirms: none
+- 1 Java Point / Jonathan Burke
+  - star rows: H Denebola → H Sun Dec 0.1201 conj (35.94) — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien
+  - star rows: H Denebola → H Jupiter RA 41.4208 41.4 silver (99.50) — also: 5 Jimmy The Digger / Richard Patrick
+  - star rows: J Denebola → J Sun Dec 38.0070 38 whole (42.34) — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien
+  - star rows: J Denebola → J Mercury Dec 39.0126 39 whole (13.60) — also: 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
+  - star rows: J Denebola → J Venus Dec 36.0045 36 whole (59.70) — also: 2 Isolate / Liam Harrison
+  - star rows: J Denebola → J Rahu RA 24.9890 25 whole (20.29) — also: 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones
+  - star rows: J Denebola → J Makemake RA 0.8462 conj (19.00) — also: 7 Fanamix / Ben Jones
+  - star rows: J Denebola → J Orcus Dec 14.1497 14.14 sqrt2 (79.72) — also: 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+  - star rows: J Denebola → J Ketu RA 155.0110 155 whole (20.29) — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien
+  - natal Jupiter → star: H Jupiter → H star Denebola RA 41.4208 41.4 silver (99.50) — also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
+  - MATCH EXACT: H Galactic Centre → Eris Dec 26.1878 10×φ^2 phi power (88.86)
+  - MATCH EXACT: J Kaus Australis → Eris Dec 26.1876 10×φ^2 phi power (89.18)
+- 2 Isolate / Liam Harrison
+  - star rows: H Denebola → H Venus RA 179.4332 10×φ^6 phi power (97.90) — also: 1 Java Point / Jonathan Burke
+  - star rows: H Denebola → H Neptune RA 165.0293 102×φ golden (46.91) — also: 5 Jimmy The Digger / Richard Patrick
+  - star rows: H Denebola → H Pluto RA 111.1690 111.111 ninth (90.52) — also: 4 Wildfire Warrior / Tom O'Brien
+  - star rows: H Denebola → H Haumea Dec 2.9992 3 whole (92.33) — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards
+  - MATCH EXACT: J Aculeus → Eris Dec 26.1898 10×φ^2 phi power (86.11)
+- 3 Une De La Seniere / Paddy Brennan
+  - star rows: J Denebola → J Sun RA 155.3025 96×φ golden (1.23) — also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien
+  - star rows: J Denebola → J Chiron Dec 0.2239 conj (6.44) — only
+  - star rows: J Denebola → J Vesta RA 26.0152 26 whole (5.83) — also: 7 Fanamix / Ben Jones
+  - star rows: J Denebola → J Eris Dec 26.0039 26 whole (64.54) — also: 5 Jimmy The Digger / Richard Patrick
+  - star rows: J Denebola → J Haumea RA 1.2420 conj (2.96) — also: 2 Isolate / Liam Harrison, 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards
+  - star rows: J Denebola → J Ketu RA 133.3095 133.333 ninth (97.14) — also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien
+- 4 Wildfire Warrior / Tom O'Brien
+  - star rows: H Denebola → H Mercury RA 140.7624 87×φ golden (63.75) — also: 1 Java Point / Jonathan Burke, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
+  - star rows: H Denebola → H Mars RA 169.8933 105×φ golden (98.59) — also: 5 Jimmy The Digger / Richard Patrick
+  - star rows: H Denebola → H Rahu RA 11.9809 12 whole (0.22) — also: 1 Java Point / Jonathan Burke, 7 Fanamix / Ben Jones
+  - star rows: H Denebola → H Sedna RA 122.9722 φ^10 phi power (93.70) — also: 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+  - star rows: H Denebola → H Ketu RA 168.0191 168 whole (0.22) — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan
+  - star rows: J Denebola → J Sun RA 66.9957 67 whole (61.46) — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan
+  - star rows: J Denebola → J Pluto RA 44.0095 44 whole (27.47) — also: 2 Isolate / Liam Harrison
+  - star rows: J Denebola → J Sedna Dec 11.1153 11.1111 ninth (93.20) — also: 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+  - star rows: J Denebola → J Haumea RA 8.0199 8 whole (0.00) — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 6 Method Madness / Alex Edwards
+  - star rows: J Denebola → J Transpluto Dec 0.1632 conj (20.79) — only
+  - MATCH EXACT: H Jupiter → H body → Orcus Dec 26.1869 10×φ^2 phi power (90.21)
+  - MATCH EXACT: J Acubens → Mercury Dec 26.1839 10×φ^2 phi power (94.66)
+  - same number: H Jupiter → H Orcus Dec 26.1869 10×φ^2 phi power (90.21) — only
+- 5 Jimmy The Digger / Richard Patrick
+  - star rows: S Denebola → H Jupiter Dec 6.9907 7 whole (28.87) — also: 1 Java Point / Jonathan Burke
+  - star rows: H Denebola → H Mars RA 169.8986 105×φ golden (71.16) — also: 4 Wildfire Warrior / Tom O'Brien
+  - star rows: H Denebola → H Neptune RA 158.5785 98×φ golden (43.07) — also: 2 Isolate / Liam Harrison
+  - star rows: H Denebola → H Juno Dec 23.9974 24 whole (75.68) — only
+  - star rows: J Denebola → J Mercury Dec 25.0053 25 whole (54.06) — also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards
+  - star rows: J Denebola → J Eris RA 154.0086 154 whole (32.29) — also: 3 Une De La Seniere / Paddy Brennan
+  - star rows: J Denebola → J Orcus RA 42.0021 42 whole (80.04) — also: 1 Java Point / Jonathan Burke, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+  - MATCH EXACT: J Sualocin → Rahu Dec 26.1879 10×φ^2 phi power (88.83)
+- 6 Method Madness / Alex Edwards
+  - star rows: H Denebola → H Sedna RA 121.9950 122 whole (56.00) — also: 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones
+  - star rows: H Denebola → H Quaoar Dec 29.9816 30 whole (0.64) — only
+  - star rows: J Denebola → J Mercury Dec 35.5990 22×φ golden (86.71) — also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick
+  - star rows: J Denebola → J Haumea RA 10.9976 11 whole (77.07) — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien
+  - star rows: J Denebola → J Orcus Dec 10.9857 11 whole (8.21) — also: 1 Java Point / Jonathan Burke, 5 Jimmy The Digger / Richard Patrick, 7 Fanamix / Ben Jones
+  - MATCH EXACT: H Hamal → Eris Dec 26.1822 10×φ^2 phi power (97.24)
+- 7 Fanamix / Ben Jones
+  - star rows: H Denebola → H Vesta RA 132.9879 133 whole (15.73) — also: 3 Une De La Seniere / Paddy Brennan
+  - star rows: H Denebola → H Rahu Dec 18.8821 18.8889 ninth (95.08) — also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien
+  - star rows: H Denebola → H Sedna RA 123.0153 123 whole (5.50) — also: 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards
+  - star rows: J Denebola → J Saturn RA 135.9913 136 whole (32.10) — only
+  - star rows: J Denebola → J Makemake Dec 17.0198 17 whole (0.01) — also: 1 Java Point / Jonathan Burke
+  - star rows: J Denebola → J Orcus Dec 16.0113 16 whole (18.90) — also: 1 Java Point / Jonathan Burke, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
+  - MATCH EXACT: H Sadalmelik → Makemake Dec 26.1823 10×φ^2 phi power (97.03)
+#### 2. S Jupiter → Ras Algethi Dec 26.0029 26 whole (73.41) — runners with cells 7/7
+- Moon confirms: none
+- 1 Java Point / Jonathan Burke
+  - star rows: H Ras Algethi → H Venus Dec 11.1103 11.1111 ninth (98.75) — only
+  - star rows: H Ras Algethi → H Saturn Dec 33.0055 33 whole (52.84) — also: 2 Isolate / Liam Harrison, 6 Method Madness / Alex Edwards
+  - star rows: H Ras Algethi → H Ceres Dec 38.0086 38 whole (32.60) — also: 5 Jimmy The Digger / Richard Patrick
+  - star rows: H Ras Algethi → H Sedna Dec 7.0013 7 whole (87.02) — also: 3 Une De La Seniere / Paddy Brennan, 7 Fanamix / Ben Jones
+  - star rows: H Ras Algethi → H Makemake Dec 11.9823 12 whole (1.35) — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan
+  - star rows: H Ras Algethi → H Quaoar RA 8.9858 9 whole (8.37) — also: 5 Jimmy The Digger / Richard Patrick
+  - star rows: J Ras Algethi → J Mercury Dec 38.8319 24×φ golden (94.25) — also: 2 Isolate / Liam Harrison
+  - star rows: J Ras Algethi → J Saturn RA 92.0108 92 whole (21.22) — also: 2 Isolate / Liam Harrison, 6 Method Madness / Alex Edwards
+  - star rows: J Ras Algethi → J Chiron Dec 22.0111 22 whole (19.65) — also: 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards
+  - star rows: J Ras Algethi → J Haumea Dec 6.9864 7 whole (10.11) — also: 6 Method Madness / Alex Edwards
+  - star rows: J Ras Algethi → J Transpluto Dec 0.9959 1 whole (63.29) — also: 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards
+  - MATCH EXACT: H Aldebaran → Vesta Dec 26.0015 26 whole (85.31)
+- 2 Isolate / Liam Harrison
+  - star rows: H Ras Algethi → H Mars RA 12.9473 8×φ golden (82.04) — also: 6 Method Madness / Alex Edwards
+  - star rows: H Ras Algethi → H Vesta RA 140.7790 87×φ golden (47.36) — also: 5 Jimmy The Digger / Richard Patrick
+  - star rows: H Ras Algethi → H Makemake RA 64.9923 65 whole (37.57) — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan
+  - star rows: H Ras Algethi → H Ketu Dec 17.7949 11×φ golden (79.83) — also: 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones
+  - star rows: J Ras Algethi → J Mercury RA 169.0125 169 whole (14.08) — also: 1 Java Point / Jonathan Burke
+  - star rows: J Ras Algethi → J Saturn RA 175.9867 176 whole (11.32) — also: 1 Java Point / Jonathan Burke, 6 Method Madness / Alex Edwards
+  - star rows: J Ras Algethi → J Uranus Dec 26.9964 27 whole (67.21) — also: 7 Fanamix / Ben Jones
+  - MATCH EXACT: H Kaus Australis → Neptune Dec 26.0090 26 whole (30.37)
+  - MATCH EXACT: J Pleiades → Orcus Dec 25.9814 26 whole (0.51)
+  - same number: S Ceres → J Ceres Dec 26.0272 26 whole (loose) — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+  - same number: S Quaoar → J Quaoar RA 26.0216 26 whole (loose) — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+- 3 Une De La Seniere / Paddy Brennan
+  - star rows: H Ras Algethi → H Sedna Dec 7.0156 7 whole (4.85) — also: 1 Java Point / Jonathan Burke, 7 Fanamix / Ben Jones
+  - star rows: H Ras Algethi → H Makemake Dec 11.9801 12 whole (0.00) — also: 1 Java Point / Jonathan Burke, 2 Isolate / Liam Harrison
+  - star rows: J Ras Algethi → J Neptune RA 5.9881 6 whole (16.45) — only
+  - star rows: J Ras Algethi → J Gonggong Dec 37.0004 37 whole (96.35) — also: 7 Fanamix / Ben Jones
+  - MATCH EXACT: H Sualocin → Gonggong RA 26.0162 26 whole (3.59)
+  - MATCH EXACT: J Denebola → Eris Dec 26.0039 26 whole (64.54)
+  - MATCH EXACT: J Diadem → Quaoar RA 25.9917 26 whole (33.97)
+  - MATCH EXACT: J Denebola → Vesta RA 26.0152 26 whole (5.83)
+  - same number: J Denebola → J Vesta RA 26.0152 26 whole (5.83) — also: 2 Isolate / Liam Harrison, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+  - same number: J Denebola → J Eris Dec 26.0039 26 whole (64.54) — also: 2 Isolate / Liam Harrison, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+- 4 Wildfire Warrior / Tom O'Brien
+  - star rows: J Ras Algethi → J Chiron Dec 2.9936 3 whole (46.17) — also: 1 Java Point / Jonathan Burke, 6 Method Madness / Alex Edwards
+  - star rows: J Ras Algethi → J Pallas Dec 14.9874 15 whole (13.51) — also: 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+  - star rows: J Ras Algethi → J Rahu RA 120.0016 120 whole (84.85) — only
+  - star rows: J Ras Algethi → J Eris RA 122.9211 φ^10 phi power (78.30) — also: 5 Jimmy The Digger / Richard Patrick
+  - star rows: J Ras Algethi → J Orcus RA 131.0689 81×φ golden (56.06) — only
+  - star rows: J Ras Algethi → J Transpluto RA 114.9991 115 whole (91.32) — also: 1 Java Point / Jonathan Burke, 6 Method Madness / Alex Edwards
+  - star rows: J Ras Algethi → J Transpluto Dec 0.0175 conj (88.70) — also: 1 Java Point / Jonathan Burke, 6 Method Madness / Alex Edwards
+  - star rows: J Ras Algethi → J Ketu RA 59.9984 60 whole (84.85) — also: 2 Isolate / Liam Harrison, 7 Fanamix / Ben Jones
+  - MATCH EXACT: H Altair → Mercury Dec 25.9915 26 whole (33.14)
+  - MATCH EXACT: H Mirfak → Eris RA 25.9820 26 whole (1.01)
+  - same number: H Altair → H Mercury Dec 25.9915 26 whole (33.14) — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+- 5 Jimmy The Digger / Richard Patrick
+  - star rows: H Ras Algethi → H Ceres RA 173.1392 107×φ golden (49.44) — also: 1 Java Point / Jonathan Burke
+  - star rows: H Ras Algethi → H Vesta RA 179.0113 179 whole (18.76) — also: 2 Isolate / Liam Harrison
+  - star rows: H Ras Algethi → H Quaoar Dec 30.0014 30 whole (86.11) — also: 1 Java Point / Jonathan Burke
+  - star rows: J Ras Algethi → J Eris RA 124.5913 77×φ golden (83.91) — also: 4 Wildfire Warrior / Tom O'Brien
+  - MATCH EXACT: H Altair → Rahu Dec 25.9906 26 whole (27.92)
+  - MATCH EXACT: H Alphecca → Sun Dec 25.9820 26 whole (1.01)
+  - MATCH EXACT: H Rasalhague → Gonggong Dec 26.0194 26 whole (0.09)
+  - MATCH EXACT: J Acubens → Quaoar Dec 25.9882 26 whole (16.90)
+  - same number: H Alphecca → H Sun Dec 25.9820 26 whole (1.01) — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+  - same number: H Altair → H Rahu Dec 25.9906 26 whole (27.92) — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+- 6 Method Madness / Alex Edwards
+  - star rows: H Ras Algethi → H Mars Dec 9.0051 9 whole (55.60) — also: 2 Isolate / Liam Harrison
+  - star rows: H Ras Algethi → H Saturn RA 19.9923 20 whole (37.71) — also: 1 Java Point / Jonathan Burke, 2 Isolate / Liam Harrison
+  - star rows: H Ras Algethi → H Pluto Dec 34.9961 35 whole (64.66) — only
+  - star rows: H Ras Algethi → H Pallas Dec 11.0098 11 whole (26.05) — also: 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones
+  - star rows: H Ras Algethi → H Haumea RA 48.9885 49 whole (17.95) — also: 1 Java Point / Jonathan Burke
+  - star rows: J Ras Algethi → J Chiron RA 155.9908 156 whole (29.34) — also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien
+  - star rows: J Ras Algethi → J Transpluto Dec 0.2039 conj (10.25) — also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien
+  - MATCH EXACT: H Alphecca → Chiron Dec 26.0037 26 whole (66.57)
+  - MATCH EXACT: H Bellatrix → Sedna RA 26.0084 26 whole (33.79)
+  - MATCH EXACT: H Phact → Orcus Dec 26.0152 26 whole (5.86)
+  - MATCH EXACT: J Aldebaran → Juno Dec 25.9966 26 whole (69.04)
+  - MATCH EXACT: J Alhena → Eris Dec 25.9863 26 whole (9.94)
+  - same number: H Alphecca → H Chiron Dec 26.0037 26 whole (66.57) — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 7 Fanamix / Ben Jones
+- 7 Fanamix / Ben Jones
+  - star rows: H Ras Algethi → H Uranus RA 114.0061 114 whole (47.96) — also: 2 Isolate / Liam Harrison
+  - star rows: H Ras Algethi → H Pallas RA 0.3587 conj (57.89) — also: 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards
+  - star rows: H Ras Algethi → H Sedna RA 155.5927 155.556 ninth (96.48) — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan
+  - star rows: H Ras Algethi → H Gonggong Dec 27.5054 17×φ golden (92.66) — also: 3 Une De La Seniere / Paddy Brennan
+  - star rows: J Ras Algethi → J Ketu Dec 32.9872 33 whole (12.86) — also: 2 Isolate / Liam Harrison, 4 Wildfire Warrior / Tom O'Brien
+  - MATCH EXACT: H Castor → Juno Dec 25.9919 26 whole (35.31)
+  - MATCH EXACT: H Alphard → Haumea Dec 26.0128 26 whole (12.83)
+  - MATCH EXACT: H Galactic Centre → Mars Dec 25.9828 26 whole (2.03)
+  - MATCH EXACT: J Betelgeuse → Ketu Dec 26.0030 26 whole (72.01)
+  - same number: H Alphard → H Haumea Dec 26.0128 26 whole (12.83) — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
+#### 3. S Jupiter → Rukbat Dec 29.0037 29 whole (66.42) — runners with cells 7/7
+- Moon confirms: none
+- 1 Java Point / Jonathan Burke
+  - star rows: H Rukbat → H Saturn Dec 21.9971 22 whole (72.81) — also: 3 Une De La Seniere / Paddy Brennan, 6 Method Madness / Alex Edwards
+  - star rows: H Rukbat → H Neptune RA 50.0154 50 whole (5.18) — only
+  - star rows: H Rukbat → H Ceres Dec 16.9939 17 whole (48.62) — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien
+  - star rows: H Rukbat → H Sedna Dec 48.0012 48 whole (88.51) — also: 3 Une De La Seniere / Paddy Brennan
+  - star rows: H Rukbat → H Makemake Dec 66.9848 67 whole (5.88) — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones
+  - star rows: J Rukbat → J Chiron Dec 32.9959 33 whole (63.21) — also: 4 Wildfire Warrior / Tom O'Brien
+  - star rows: J Rukbat → J Juno RA 1.3795 conj (0.65) — only
+  - star rows: J Rukbat → J Haumea Dec 61.9934 62 whole (44.85) — only
+  - star rows: J Rukbat → J Quaoar RA 49.0084 49 whole (33.41) — also: 5 Jimmy The Digger / Richard Patrick
+  - star rows: J Rukbat → J Transpluto Dec 54.0111 54 whole (19.70) — also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick
+  - MATCH EXACT: H Orion Nebula Cluster → Sedna RA 29.0068 29 whole (43.61)
+  - MATCH EXACT: H Mirfak → Pallas Dec 29.0075 29 whole (38.76)
+- 2 Isolate / Liam Harrison
+  - star rows: H Rukbat → H Sun RA 80.9031 50×φ golden (91.64) — also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick
+  - star rows: H Rukbat → H Gonggong RA 44.9857 45 whole (8.22) — also: 3 Une De La Seniere / Paddy Brennan
+  - star rows: J Rukbat → J Uranus Dec 28.0065 28 whole (45.26) — only
+  - MATCH EXACT: H Facies → Sun Dec 28.9999 29 whole (99.26)
+  - MATCH EXACT: J Alhena → Uranus Dec 29.0067 29 whole (44.25)
+  - MATCH EXACT: J Jupiter → J body → Eris Dec 28.9859 29 whole (8.76)
+- 3 Une De La Seniere / Paddy Brennan
+  - star rows: S Rukbat → H Jupiter RA 155.3601 96×φ golden (1.19) — also: 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards
+  - star rows: H Rukbat → H Ceres RA 17.7799 17.7778 ninth (98.36) — also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien
+  - star rows: H Rukbat → H Sedna Dec 47.9868 48 whole (11.53) — also: 1 Java Point / Jonathan Burke
+  - star rows: H Rukbat → H Makemake Dec 66.9825 67 whole (1.50) — also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones
+  - star rows: J Rukbat → J Sun RA 90.9981 91 whole (81.60) — also: 2 Isolate / Liam Harrison, 5 Jimmy The Digger / Richard Patrick
+  - star rows: J Rukbat → J Saturn RA 104.9804 105 whole (0.04) — also: 1 Java Point / Jonathan Burke, 6 Method Madness / Alex Edwards
+  - star rows: J Rukbat → J Makemake RA 132.9853 133 whole (7.08) — also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones
+  - star rows: J Rukbat → J Gonggong Dec 18.0002 18 whole (97.76) — also: 2 Isolate / Liam Harrison
+  - star rows: J Rukbat → J Transpluto RA 150.4804 93×φ golden (80.92) — also: 1 Java Point / Jonathan Burke, 5 Jimmy The Digger / Richard Patrick
+  - MATCH EXACT: H Alpheratz → Chiron Dec 28.9999 29 whole (98.93)
+  - MATCH EXACT: H Spica → Jupiter Dec 29.0053 29 whole (53.74)
+  - MATCH EXACT: H Meissa → Sedna RA 29.0174 29 whole (1.71)
+  - MATCH EXACT: J Scheat → Juno Dec 29.0196 29 whole (0.04)
+- 4 Wildfire Warrior / Tom O'Brien
+  - star rows: S Rukbat → H Jupiter RA 153.7214 95×φ golden (55.92) — also: 3 Une De La Seniere / Paddy Brennan, 6 Method Madness / Alex Edwards
+  - star rows: H Rukbat → H Venus RA 79.9948 80 whole (54.98) — also: 7 Fanamix / Ben Jones
+  - star rows: H Rukbat → H Ceres RA 0.8428 conj (19.19) — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan
+  - star rows: H Rukbat → H Makemake Dec 66.6610 66.6667 ninth (95.10) — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan, 7 Fanamix / Ben Jones
+  - star rows: J Rukbat → J Chiron Dec 58.0022 58 whole (79.01) — also: 1 Java Point / Jonathan Burke
+  - star rows: J Rukbat → J Vesta Dec 33.3385 33.3333 ninth (93.74) — only
+  - MATCH EXACT: S body → H Jupiter → Pallas Dec 29.0156 29 whole (4.85)
+  - MATCH EXACT: H Fomalhaut → Uranus RA 29.0175 29 whole (1.60)
+  - MATCH EXACT: H Acubens → Mercury Dec 28.9802 29 whole (0.01)
+  - MATCH EXACT: S Jupiter → J body → Chiron Dec 28.9987 29 whole (87.30)
+  - MATCH EXACT: J Algenib → Mars RA 29.0173 29 whole (1.80)
+  - same number: S Jupiter → J Chiron Dec 28.9987 29 whole (87.30) — only
+- 5 Jimmy The Digger / Richard Patrick
+  - star rows: H Rukbat → H Sun RA 70.7166 70.7 sqrt2 (96.69) — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan
+  - star rows: H Rukbat → H Pluto RA 8.9982 9 whole (82.90) — also: 6 Method Madness / Alex Edwards
+  - star rows: H Rukbat → H Quaoar Dec 25.0005 25 whole (95.09) — also: 1 Java Point / Jonathan Burke
+  - star rows: J Rukbat → J Transpluto RA 144.4425 144.444 ninth (99.80) — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan
+  - MATCH EXACT: J Pollux → Pallas Dec 28.9947 29 whole (53.67)
+  - MATCH EXACT: J Phact → Venus Dec 29.0064 29 whole (46.52)
+  - MATCH EXACT: J Diadem → Juno Dec 28.9888 29 whole (19.56)
+  - MATCH EXACT: J Menkar → Makemake Dec 29.0193 29 whole (0.14)
+- 6 Method Madness / Alex Edwards
+  - star rows: H Rukbat → H Mars Dec 64.0098 64 whole (26.04) — only
+  - star rows: H Rukbat → H Pluto Dec 20.0086 20 whole (32.34) — also: 5 Jimmy The Digger / Richard Patrick
+  - star rows: H Rukbat → H Pallas Dec 66.0145 66 whole (7.56) — only
+  - star rows: S Rukbat → J Jupiter Dec 63.9809 64 whole (0.22) — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien
+  - star rows: J Rukbat → J Saturn RA 0.7190 conj (27.11) — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan
+- 7 Fanamix / Ben Jones
+  - star rows: J Rukbat → J Venus RA 103.0198 103 whole (0.01) — also: 4 Wildfire Warrior / Tom O'Brien
+  - star rows: J Rukbat → J Rahu RA 161.8638 100×φ^1 phi power (85.63) — only
+  - star rows: J Rukbat → J Makemake RA 110.9459 10×φ^5 phi power (84.71) — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien
+  - MATCH EXACT: H Markab → Sun Dec 28.9949 29 whole (55.18)
+  - MATCH EXACT: H Mirach → Pallas Dec 29.0186 29 whole (0.50)
+  - MATCH EXACT: H Kaus Australis → Venus Dec 29.0189 29 whole (0.28)
+  - MATCH EXACT: J Facies → Sedna Dec 29.0159 29 whole (4.26)
+#### 4. S Jupiter → Vindemiatrix RA 138.9961 139 whole (64.46) — runners with cells 7/7
+- Moon confirms: none
+- 1 Java Point / Jonathan Burke
+  - star rows: H Vindemiatrix → H Venus RA 115.0022 115 whole (78.83) — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick
+  - star rows: H Vindemiatrix → H Vesta RA 152.0808 94×φ golden (30.76) — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan
+  - MATCH EXACT: J Menkent → Saturn RA 138.9992 139 whole (91.88)
+- 2 Isolate / Liam Harrison
+  - star rows: H Vindemiatrix → H Venus Dec 13.9939 14 whole (48.40) — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick
+  - star rows: H Vindemiatrix → H Juno RA 28.0183 28 whole (0.75) — also: 7 Fanamix / Ben Jones
+  - star rows: H Vindemiatrix → H Vesta Dec 0.0606 conj (63.66) — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan
+  - star rows: J Vindemiatrix → J Venus RA 106.9809 107 whole (0.22) — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick
+  - star rows: J Vindemiatrix → J Pallas RA 124.5953 77×φ golden (62.73) — also: 6 Method Madness / Alex Edwards
+  - MATCH EXACT: J Nunki → Juno RA 138.9921 139 whole (36.65)
+- 3 Une De La Seniere / Paddy Brennan
+  - star rows: H Vindemiatrix → H Mercury RA 146.0047 146 whole (58.47) — also: 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
+  - star rows: H Vindemiatrix → H Venus Dec 14.0076 14 whole (38.25) — also: 1 Java Point / Jonathan Burke, 2 Isolate / Liam Harrison, 5 Jimmy The Digger / Richard Patrick
+  - star rows: H Vindemiatrix → H Vesta Dec 21.0031 21 whole (71.77) — also: 1 Java Point / Jonathan Burke, 2 Isolate / Liam Harrison
+  - star rows: H Vindemiatrix → H Sedna RA 140.7846 87×φ golden (26.80) — also: 5 Jimmy The Digger / Richard Patrick, 7 Fanamix / Ben Jones
+  - star rows: J Vindemiatrix → J Gonggong RA 131.9988 132 whole (88.11) — also: 4 Wildfire Warrior / Tom O'Brien
+  - MATCH EXACT: H Sadalmelik → Makemake RA 139.0063 139 whole (46.81)
+  - MATCH EXACT: H Alkaid → Vesta RA 139.0155 139 whole (4.96)
+- 4 Wildfire Warrior / Tom O'Brien
+  - star rows: H Vindemiatrix → H Sun RA 147.2619 91×φ golden (12.66) — also: 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
+  - star rows: H Vindemiatrix → H Saturn Dec 29.9848 30 whole (5.69) — only
+  - star rows: H Vindemiatrix → H Chiron RA 150.4955 93×φ golden (18.84) — only
+  - star rows: H Vindemiatrix → H Gonggong Dec 23.9879 24 whole (15.58) — also: 3 Une De La Seniere / Paddy Brennan
+  - star rows: J Vindemiatrix → J Orcus RA 67.9544 42×φ golden (82.15) — also: 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
+- 5 Jimmy The Digger / Richard Patrick
+  - star rows: H Vindemiatrix → H Uranus RA 171.9969 172 whole (71.49) — also: 6 Method Madness / Alex Edwards
+  - star rows: H Vindemiatrix → H Ceres RA 110.0245 68×φ golden (88.89) — only
+  - star rows: H Vindemiatrix → H Sedna Dec 3.9840 4 whole (3.98) — also: 3 Une De La Seniere / Paddy Brennan, 7 Fanamix / Ben Jones
+  - star rows: J Vindemiatrix → J Sun RA 10.9954 11 whole (59.19) — also: 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards
+  - star rows: J Vindemiatrix → J Mercury RA 0.3011 conj (63.89) — also: 3 Une De La Seniere / Paddy Brennan, 6 Method Madness / Alex Edwards
+  - star rows: J Vindemiatrix → J Venus RA 0.9976 1 whole (77.61) — also: 1 Java Point / Jonathan Burke, 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan
+  - star rows: J Vindemiatrix → J Pluto RA 43.6838 27×φ golden (81.61) — only
+  - star rows: J Vindemiatrix → J Orcus Dec 10.0036 10 whole (67.55) — also: 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards
+  - star rows: J Vindemiatrix → J Transpluto RA 49.0086 49 whole (32.44) — only
+- 6 Method Madness / Alex Edwards
+  - star rows: S Vindemiatrix → H Jupiter Dec 5.5559 5.55556 ninth (97.05) — also: 7 Fanamix / Ben Jones
+  - star rows: H Vindemiatrix → H Uranus Dec 3.9850 4 whole (6.16) — also: 5 Jimmy The Digger / Richard Patrick
+  - star rows: H Vindemiatrix → H Pallas Dec 14.4401 14.4444 ninth (95.38) — also: 2 Isolate / Liam Harrison
+  - star rows: H Vindemiatrix → H Rahu RA 8.9835 9 whole (3.04) — only
+  - star rows: H Vindemiatrix → H Orcus Dec 19.0196 19 whole (0.04) — also: 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick
+  - star rows: H Vindemiatrix → H Ketu RA 171.0165 171 whole (3.04) — only
+  - star rows: J Vindemiatrix → J Jupiter RA 102.9966 103 whole (68.93) — also: 7 Fanamix / Ben Jones
+  - star rows: J Vindemiatrix → J Sun RA 113.2467 70×φ golden (26.52) — also: 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick
+  - star rows: J Vindemiatrix → J Mercury Dec 31.9858 32 whole (8.41) — also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick
+  - star rows: J Vindemiatrix → J Pallas RA 179.4160 10×φ^6 phi power (94.13) — also: 2 Isolate / Liam Harrison
+  - natal Jupiter → star: J Jupiter → J star Vindemiatrix RA 102.9966 103 whole (68.93) — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick
+  - MATCH EXACT: H Alkes → Eris RA 139.0033 139 whole (69.73)
+- 7 Fanamix / Ben Jones
+  - star rows: H Vindemiatrix → H Mars Dec 13.9811 14 whole (0.29) — only
+  - star rows: H Vindemiatrix → H Neptune RA 143.0108 143 whole (20.97) — only
+  - star rows: H Vindemiatrix → H Makemake RA 1.9853 2 whole (7.07) — only
+  - star rows: S Vindemiatrix → J Jupiter RA 169.9923 170 whole (37.65) — also: 6 Method Madness / Alex Edwards
+  - star rows: J Vindemiatrix → J Juno Dec 24.0086 24 whole (32.42) — also: 2 Isolate / Liam Harrison
+  - star rows: J Vindemiatrix → J Sedna RA 148.8339 92×φ golden (4.80) — also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick
+  - star rows: J Vindemiatrix → J Haumea RA 1.4476 conj (0.12) — only
+  - MATCH EXACT: H Alphecca → Uranus RA 138.9932 139 whole (43.59)
+  - same number: H Alphecca → H Uranus RA 138.9932 139 whole (43.59) — only
+#### 5. S Sun → Altair RA 6.0052 6 whole (54.90) — runners with cells 7/7
+- Moon confirms: none
+- 1 Java Point / Jonathan Burke
+  - star rows: S Altair → H Jupiter RA 161.8476 100×φ^1 phi power (89.36) — also: 7 Fanamix / Ben Jones
+  - star rows: H Altair → H Pallas Dec 11.9856 12 whole (7.92) — also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick
+  - star rows: H Altair → H Transpluto RA 145.6521 90×φ golden (1.03) — also: 3 Une De La Seniere / Paddy Brennan, 6 Method Madness / Alex Edwards
+  - star rows: J Altair → J Neptune RA 1.4481 conj (0.12) — only
+  - star rows: J Altair → J Vesta Dec 13.9962 14 whole (66.02) — also: 6 Method Madness / Alex Edwards, 7 Fanamix / Ben Jones
+  - star rows: J Altair → J Transpluto RA 150.9992 151 whole (92.00) — also: 3 Une De La Seniere / Paddy Brennan, 6 Method Madness / Alex Edwards
+  - natal Jupiter → star: H Jupiter → H star Altair RA 161.8536 100×φ^1 phi power (87.96) — also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
+  - MATCH EXACT: H Fomalhaut → Ceres Dec 6.0017 6 whole (84.06)
+  - MATCH EXACT: S body → J Jupiter → Venus Dec 5.9981 6 whole (81.81)
+  - MATCH EXACT: J Unukalhai → Orcus Dec 6.0042 6 whole (62.62)
+  - MATCH EXACT: J Sadalsuud → Orcus Dec 5.9926 6 whole (39.93)
+  - MATCH EXACT: J Betelgeuse → Transpluto Dec 5.9870 6 whole (12.24)
+  - same number: S Gonggong → J Gonggong RA 5.9844 6 whole (4.87) — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien
+  - same number: S Venus → J Jupiter Dec 5.9981 6 whole (81.81) — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien
+- 2 Isolate / Liam Harrison
+  - star rows: H Altair → H Mercury Dec 0.2886 conj (0.14) — also: 4 Wildfire Warrior / Tom O'Brien
+  - star rows: H Altair → H Venus RA 59.0040 59 whole (64.40) — also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick
+  - star rows: H Altair → H Mars RA 51.9802 52 whole (0.01) — also: 3 Une De La Seniere / Paddy Brennan
+  - star rows: J Altair → J Mercury RA 129.9806 130 whole (0.08) — also: 4 Wildfire Warrior / Tom O'Brien
+  - star rows: J Altair → J Chiron RA 19.0007 19 whole (93.18) — only
+  - MATCH EXACT: J Diadem → Vesta Dec 5.9890 6 whole (20.17)
+- 3 Une De La Seniere / Paddy Brennan
+  - star rows: H Altair → H Mars RA 108.4173 67×φ golden (51.91) — also: 2 Isolate / Liam Harrison
+  - star rows: H Altair → H Saturn RA 56.0017 56 whole (83.79) — also: 7 Fanamix / Ben Jones
+  - star rows: H Altair → H Quaoar RA 30.0014 30 whole (86.48) — also: 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
+  - star rows: H Altair → H Transpluto RA 145.6397 90×φ golden (23.50) — also: 1 Java Point / Jonathan Burke, 6 Method Madness / Alex Edwards
+  - star rows: J Altair → J Venus Dec 0.0785 conj (54.50) — also: 2 Isolate / Liam Harrison, 5 Jimmy The Digger / Richard Patrick
+  - star rows: J Altair → J Pallas RA 126.2236 78×φ golden (22.65) — also: 1 Java Point / Jonathan Burke, 5 Jimmy The Digger / Richard Patrick
+  - star rows: J Altair → J Orcus Dec 0.1645 conj (20.40) — also: 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards
+  - MATCH EXACT: H Zubenelgenubi → Vesta Dec 5.9984 6 whole (85.09)
+  - MATCH EXACT: H Kaus Australis → Pallas RA 5.9954 6 whole (59.40)
+  - MATCH EXACT: H Betelgeuse → Sun Dec 6.0099 6 whole (25.27)
+  - MATCH EXACT: H Acubens → Jupiter Dec 5.9850 6 whole (6.13)
+  - MATCH EXACT: J Markab → Sun Dec 5.9899 6 whole (24.64)
+  - MATCH EXACT: J Ras Algethi → Neptune RA 5.9881 6 whole (16.45)
+  - same number: J Ras Algethi → J Neptune RA 5.9881 6 whole (16.45) — also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien
+- 4 Wildfire Warrior / Tom O'Brien
+  - star rows: H Altair → H Mercury Dec 25.9915 26 whole (33.14) — also: 2 Isolate / Liam Harrison
+  - star rows: H Altair → H Ceres Dec 32.9837 33 whole (3.41) — also: 7 Fanamix / Ben Jones
+  - star rows: H Altair → H Juno Dec 0.0639 conj (61.95) — only
+  - star rows: H Altair → H Orcus RA 147.2449 91×φ golden (77.84) — also: 3 Une De La Seniere / Paddy Brennan, 6 Method Madness / Alex Edwards
+  - star rows: H Altair → H Quaoar RA 29.9872 30 whole (13.13) — also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick, 6 Method Madness / Alex Edwards
+  - MATCH EXACT: J Algorab → Eris Dec 6.0075 6 whole (39.26)
+  - same number: S Makemake → H Makemake RA 5.9709 6 whole (loose) — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan
+- 5 Jimmy The Digger / Richard Patrick
+  - star rows: H Altair → H Sun RA 63.9904 64 whole (27.27) — also: 7 Fanamix / Ben Jones
+  - star rows: H Altair → H Venus RA 63.1063 39×φ golden (82.67) — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan
+  - star rows: H Altair → H Rahu Dec 25.9906 26 whole (27.92) — also: 6 Method Madness / Alex Edwards
+  - star rows: J Altair → J Uranus RA 1.0542 conj (8.83) — only
+  - star rows: J Altair → J Pallas RA 130.9880 131 whole (16.04) — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan
+  - star rows: J Altair → J Rahu RA 92.9881 93 whole (16.52) — also: 6 Method Madness / Alex Edwards
+  - star rows: J Altair → J Quaoar Dec 22.9999 23 whole (99.50) — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards
+  - star rows: J Altair → J Ketu RA 87.0119 87 whole (16.52) — also: 6 Method Madness / Alex Edwards
+  - MATCH EXACT: H El Nath → Vesta Dec 6.0011 6 whole (89.56)
+  - MATCH EXACT: H Sirius → Neptune Dec 6.0020 6 whole (80.85)
+  - MATCH EXACT: H Markab → Chiron RA 5.9883 6 whole (17.42)
+  - MATCH EXACT: J Algorab → Chiron RA 6.0135 6 whole (10.60)
+- 6 Method Madness / Alex Edwards
+  - star rows: H Altair → H Vesta Dec 14.0017 14 whole (84.18) — also: 1 Java Point / Jonathan Burke, 7 Fanamix / Ben Jones
+  - star rows: H Altair → H Rahu RA 111.1401 111.111 ninth (95.25) — also: 5 Jimmy The Digger / Richard Patrick
+  - star rows: H Altair → H Quaoar Dec 24.2781 15×φ golden (58.69) — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 5 Jimmy The Digger / Richard Patrick
+  - star rows: H Altair → H Transpluto RA 145.6424 90×φ golden (16.14) — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan
+  - star rows: J Altair → J Pluto Dec 11.1137 11.1111 ninth (95.77) — also: 7 Fanamix / Ben Jones
+  - star rows: J Altair → J Makemake RA 127.8265 79×φ golden (89.24) — also: 7 Fanamix / Ben Jones
+  - star rows: J Altair → J Orcus RA 168.2849 104×φ golden (50.36) — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien
+  - star rows: J Altair → J Ketu Dec 6.9987 7 whole (87.72) — also: 5 Jimmy The Digger / Richard Patrick
+  - MATCH EXACT: H El Nath → Sun Dec 5.9847 6 whole (5.61)
+  - MATCH EXACT: J Rigel → Venus Dec 6.0019 6 whole (82.07)
+- 7 Fanamix / Ben Jones
+  - star rows: H Altair → H Sun Dec 22.6587 14×φ golden (65.20) — also: 5 Jimmy The Digger / Richard Patrick
+  - star rows: H Altair → H Ceres RA 13.0077 13 whole (37.68) — also: 4 Wildfire Warrior / Tom O'Brien
+  - star rows: H Altair → H Makemake Dec 16.9928 17 whole (40.86) — also: 6 Method Madness / Alex Edwards
+  - star rows: H Altair → H Gonggong Dec 21.9856 22 whole (7.90) — only
+  - star rows: J Altair → J Jupiter Dec 0.1318 conj (31.45) — also: 1 Java Point / Jonathan Burke
+  - star rows: J Altair → J Saturn RA 103.5777 64×φ golden (7.50) — also: 3 Une De La Seniere / Paddy Brennan
+  - star rows: J Altair → J Pluto RA 47.9984 48 whole (84.84) — also: 6 Method Madness / Alex Edwards
+  - star rows: J Altair → J Pluto Dec 20.0009 20 whole (91.58) — also: 6 Method Madness / Alex Edwards
+  - star rows: J Altair → J Ceres RA 122.9703 76×φ golden (98.21) — also: 4 Wildfire Warrior / Tom O'Brien
+  - star rows: J Altair → J Vesta RA 76.9919 77 whole (35.59) — also: 1 Java Point / Jonathan Burke, 6 Method Madness / Alex Edwards
+  - star rows: J Altair → J Sedna RA 109.0130 109 whole (12.13) — only
+  - MATCH EXACT: H Alkes → Ceres Dec 5.9946 6 whole (53.37)
+  - MATCH EXACT: J Facies → Mercury Dec 6.0038 6 whole (65.21)
+  - MATCH EXACT: J Alnilam → Eris Dec 5.9957 6 whole (61.30)
+#### 6. S Sun → Rukbat RA 0.7240 conj (26.77) — runners with cells 7/7
+- Moon confirms: none
+- 1 Java Point / Jonathan Burke
+  - star rows: H Rukbat → H Saturn Dec 21.9971 22 whole (72.81) — also: 3 Une De La Seniere / Paddy Brennan, 6 Method Madness / Alex Edwards
+  - star rows: H Rukbat → H Neptune RA 50.0154 50 whole (5.18) — only
+  - star rows: H Rukbat → H Ceres Dec 16.9939 17 whole (48.62) — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien
+  - star rows: H Rukbat → H Sedna Dec 48.0012 48 whole (88.51) — also: 3 Une De La Seniere / Paddy Brennan
+  - star rows: H Rukbat → H Makemake Dec 66.9848 67 whole (5.88) — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones
+  - star rows: J Rukbat → J Chiron Dec 32.9959 33 whole (63.21) — also: 4 Wildfire Warrior / Tom O'Brien
+  - star rows: J Rukbat → J Juno RA 1.3795 conj (0.65) — only
+  - star rows: J Rukbat → J Haumea Dec 61.9934 62 whole (44.85) — only
+  - star rows: J Rukbat → J Quaoar RA 49.0084 49 whole (33.41) — also: 5 Jimmy The Digger / Richard Patrick
+  - star rows: J Rukbat → J Transpluto Dec 54.0111 54 whole (19.70) — also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick
+- 2 Isolate / Liam Harrison
+  - star rows: H Rukbat → H Sun RA 80.9031 50×φ golden (91.64) — also: 3 Une De La Seniere / Paddy Brennan, 5 Jimmy The Digger / Richard Patrick
+  - star rows: H Rukbat → H Gonggong RA 44.9857 45 whole (8.22) — also: 3 Une De La Seniere / Paddy Brennan
+  - star rows: J Rukbat → J Uranus Dec 28.0065 28 whole (45.26) — only
+- 3 Une De La Seniere / Paddy Brennan
+  - star rows: S Rukbat → H Jupiter RA 155.3601 96×φ golden (1.19) — also: 4 Wildfire Warrior / Tom O'Brien, 6 Method Madness / Alex Edwards
+  - star rows: H Rukbat → H Ceres RA 17.7799 17.7778 ninth (98.36) — also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien
+  - star rows: H Rukbat → H Sedna Dec 47.9868 48 whole (11.53) — also: 1 Java Point / Jonathan Burke
+  - star rows: H Rukbat → H Makemake Dec 66.9825 67 whole (1.50) — also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones
+  - star rows: J Rukbat → J Sun RA 90.9981 91 whole (81.60) — also: 2 Isolate / Liam Harrison, 5 Jimmy The Digger / Richard Patrick
+  - star rows: J Rukbat → J Saturn RA 104.9804 105 whole (0.04) — also: 1 Java Point / Jonathan Burke, 6 Method Madness / Alex Edwards
+  - star rows: J Rukbat → J Makemake RA 132.9853 133 whole (7.08) — also: 1 Java Point / Jonathan Burke, 4 Wildfire Warrior / Tom O'Brien, 7 Fanamix / Ben Jones
+  - star rows: J Rukbat → J Gonggong Dec 18.0002 18 whole (97.76) — also: 2 Isolate / Liam Harrison
+  - star rows: J Rukbat → J Transpluto RA 150.4804 93×φ golden (80.92) — also: 1 Java Point / Jonathan Burke, 5 Jimmy The Digger / Richard Patrick
+- 4 Wildfire Warrior / Tom O'Brien
+  - star rows: S Rukbat → H Jupiter RA 153.7214 95×φ golden (55.92) — also: 3 Une De La Seniere / Paddy Brennan, 6 Method Madness / Alex Edwards
+  - star rows: H Rukbat → H Venus RA 79.9948 80 whole (54.98) — also: 7 Fanamix / Ben Jones
+  - star rows: H Rukbat → H Ceres RA 0.8428 conj (19.19) — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan
+  - star rows: H Rukbat → H Makemake Dec 66.6610 66.6667 ninth (95.10) — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan, 7 Fanamix / Ben Jones
+  - star rows: J Rukbat → J Chiron Dec 58.0022 58 whole (79.01) — also: 1 Java Point / Jonathan Burke
+  - star rows: J Rukbat → J Vesta Dec 33.3385 33.3333 ninth (93.74) — only
+- 5 Jimmy The Digger / Richard Patrick
+  - star rows: H Rukbat → H Sun RA 70.7166 70.7 sqrt2 (96.69) — also: 2 Isolate / Liam Harrison, 3 Une De La Seniere / Paddy Brennan
+  - star rows: H Rukbat → H Pluto RA 8.9982 9 whole (82.90) — also: 6 Method Madness / Alex Edwards
+  - star rows: H Rukbat → H Quaoar Dec 25.0005 25 whole (95.09) — also: 1 Java Point / Jonathan Burke
+  - star rows: J Rukbat → J Transpluto RA 144.4425 144.444 ninth (99.80) — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan
+- 6 Method Madness / Alex Edwards
+  - star rows: H Rukbat → H Mars Dec 64.0098 64 whole (26.04) — only
+  - star rows: H Rukbat → H Pluto Dec 20.0086 20 whole (32.34) — also: 5 Jimmy The Digger / Richard Patrick
+  - star rows: H Rukbat → H Pallas Dec 66.0145 66 whole (7.56) — only
+  - star rows: S Rukbat → J Jupiter Dec 63.9809 64 whole (0.22) — also: 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien
+  - star rows: J Rukbat → J Saturn RA 0.7190 conj (27.11) — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan
+- 7 Fanamix / Ben Jones
+  - star rows: J Rukbat → J Venus RA 103.0198 103 whole (0.01) — also: 4 Wildfire Warrior / Tom O'Brien
+  - star rows: J Rukbat → J Rahu RA 161.8638 100×φ^1 phi power (85.63) — only
+  - star rows: J Rukbat → J Makemake RA 110.9459 10×φ^5 phi power (84.71) — also: 1 Java Point / Jonathan Burke, 3 Une De La Seniere / Paddy Brennan, 4 Wildfire Warrior / Tom O'Brien
+### READ 3 Jupiter / Sun lines to bodies (not followed)
+- S Jupiter → Transpluto RA 179.4560 10×φ^6 phi power (97.05)
+- S Sun → Saturn Dec 4.1426 4.14 silver (96.70)
+- S Jupiter → Pallas Dec 0.0263 conj (83.23)
+- S Sun → Pallas RA 61.0023 61 whole (78.49)
+- S Sun → Juno RA 0.4578 conj (48.28)
+- S Jupiter → Gonggong Dec 0.1496 conj (25.13)
+### READ 4 Moon only, not active (confirm no lead line; not followed)
+- S Moon → Alphecca RA 155.5623 155.556 ninth (99.36)
+- S Moon → Juno RA 98.0009 98 whole (91.15)
+- S Moon → Alphard Dec 16.9991 17 whole (91.06)
+- S Moon → Vega RA 110.0023 110 whole (78.36)
+- S Moon → Ankaa RA 22.6600 14×φ golden (59.07)
+- S Moon → Pluto Dec 31.0058 31 whole (50.26)
+
 ## 1 Java Point / Jonathan Burke
 ### L1 same bodies
 - S Mercury → H Mercury Dec 40.4795 25×φ golden (loose)

@@ -26,6 +26,733 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
 - Hubs: Alpheratz
 
+## READ (reading order, Eddie 7 Nov 2026)
+### READ 1 same body first
+- **1 Dedicated Hero / Sam Twiston-Davies**
+  - S Sun → H Sun RA 155.3704 155.556 ninth (loose)
+  - S Mars → H Mars RA 80.8957 50×φ golden (loose)
+  - S Mars → H Mars Dec 5.9884 6 whole (17.57)
+  - S Chiron → H Chiron RA 24.2985 15×φ golden (loose)
+  - S Chiron → H Chiron Dec 6.8553 φ^4 phi power (loose)
+  - S Pallas → H Pallas RA 165.7664 166.667 ninth (loose)
+  - S Pallas → H Pallas Dec 37.9950 38 whole (56.58)
+  - S Makemake → H Makemake Dec 4.8482 3×φ golden (loose)
+  - S Mercury → J Mercury RA 1.9728 2 whole (loose)
+  - S Mars → J Mars Dec 6.9899 7 whole (24.31)
+  - S Pallas → J Pallas RA 105.1520 65×φ golden (14.15)
+  - S Pallas → J Pallas Dec 27.0007 27 whole (93.16)
+  - S Makemake → J Makemake Dec 14.4948 14.4444 ninth (loose)
+  - S Quaoar → J Quaoar RA 44.3849 44.4444 ninth (loose)
+  - S Transpluto → J Transpluto RA 11.0676 φ^5 phi power (loose)
+  - S Transpluto → J Transpluto Dec 4.0245 4 whole (loose)
+- **2 Bucephalus / Harriet Tucker**
+  - S Uranus → H Uranus RA 38.0080 38 whole (35.77)
+  - S Juno → H Juno RA 16.5556 16.6667 ninth (loose)
+  - S Juno → H Juno Dec 7.9742 8 whole (loose)
+  - S Vesta → H Vesta RA 108.9960 109 whole (64.37)
+  - S Rahu → H Rahu RA 177.3109 177.778 ninth (loose)
+  - S Sedna → H Sedna RA 5.9792 6 whole (loose)
+  - S Haumea → H Haumea RA 8.8761 8.88889 ninth (loose)
+  - S Haumea → H Haumea Dec 4.1358 4.14 silver (loose)
+  - S Ketu → H Ketu RA 177.3109 177.778 ninth (loose)
+  - S Mercury → J Mercury RA 48.5390 30×φ golden (loose)
+  - S Mercury → J Mercury Dec 10.9890 11 whole (20.19)
+  - S Mars → J Mars RA 133.5461 133.333 ninth (loose)
+  - S Saturn → J Saturn RA 18.8031 18.8889 ninth (loose)
+  - S Uranus → J Uranus RA 121.6859 122.222 ninth (loose)
+  - S Chiron → J Chiron Dec 17.8619 φ^6 phi power (loose)
+  - S Rahu → J Rahu Dec 2.9830 3 whole (2.19)
+  - S Haumea → J Haumea RA 27.0230 27 whole (loose)
+  - S Makemake → J Makemake RA 25.8978 16×φ golden (loose)
+  - S Orcus → J Orcus Dec 14.3632 14.4444 ninth (loose)
+  - S Ketu → J Ketu Dec 2.9830 3 whole (2.19)
+- **3 Manuelito / Harry Cobden**
+  - S Sun → H Sun RA 100.9961 101 whole (64.92)
+  - S Mercury → H Mercury RA 122.5219 122.222 ninth (loose)
+  - S Mercury → H Mercury Dec 6.1773 10×φ^-1 phi power (loose)
+  - S Venus → H Venus RA 161.1514 100×φ^1 phi power (loose)
+  - S Chiron → H Chiron RA 24.1403 24.14 silver (97.00)
+  - S Chiron → H Chiron Dec 7.0773 7.07 sqrt2 (loose)
+  - S Pallas → H Pallas Dec 26.1434 10×φ^2 phi power (loose)
+  - S Sedna → H Sedna Dec 0.9884 1 whole (17.78)
+  - S Haumea → H Haumea RA 4.9824 5 whole (1.47)
+  - S Uranus → J Uranus RA 110.5555 10×φ^5 phi power (loose)
+  - S Chiron → J Chiron RA 155.0641 155.556 ninth (loose)
+  - S Ceres → J Ceres RA 44.4604 44.4444 ninth (loose)
+  - S Pallas → J Pallas RA 27.4990 17×φ golden (loose)
+  - S Pallas → J Pallas Dec 8.0909 5×φ golden (95.46)
+  - S Juno → J Juno Dec 7.0696 7.07 sqrt2 (loose)
+  - S Vesta → J Vesta RA 121.7190 122.222 ninth (loose)
+- **4 All In You / Sean Bowen**
+  - S Mercury → H Mercury RA 122.1659 122.222 ninth (loose)
+  - S Venus → H Venus Dec 35.9806 36 whole (0.09)
+  - S Uranus → H Uranus RA 26.0518 10×φ^2 phi power (loose)
+  - S Ceres → H Ceres Dec 41.4397 41.4 silver (loose)
+  - S Sedna → H Sedna RA 3.9998 4 whole (97.73)
+  - S Makemake → H Makemake RA 6.1805 10×φ^-1 phi power (99.15)
+  - S Sun → J Sun RA 57.0038 57 whole (65.46)
+  - S Sun → J Sun Dec 22.6563 14×φ golden (77.55)
+  - S Mars → J Mars Dec 33.0152 33 whole (5.79)
+  - S Saturn → J Saturn RA 9.9951 10 whole (57.08)
+  - S Saturn → J Saturn Dec 4.1453 4.14 silver (loose)
+  - S Pluto → J Pluto Dec 15.0206 15 whole (loose)
+  - S Chiron → J Chiron RA 177.0027 177 whole (75.14)
+  - S Rahu → J Rahu RA 158.0149 158 whole (6.59)
+  - S Haumea → J Haumea RA 26.9751 27 whole (loose)
+  - S Makemake → J Makemake Dec 13.0023 13 whole (78.38)
+  - S Orcus → J Orcus Dec 14.0910 14.14 sqrt2 (loose)
+  - S Gonggong → J Gonggong RA 5.9787 6 whole (loose)
+  - S Ketu → J Ketu RA 158.0149 158 whole (6.59)
+- **5 Lyssenko / Harry Skelton**
+  - S Sun → H Sun Dec 19.0271 19 whole (loose)
+  - S Mercury → H Mercury RA 133.1525 133.333 ninth (loose)
+  - S Venus → H Venus Dec 14.4582 14.4444 ninth (loose)
+  - S Jupiter → H Jupiter RA 177.6860 177.778 ninth (loose)
+  - S Saturn → H Saturn RA 55.5330 55.5556 ninth (loose)
+  - S Uranus → H Uranus Dec 6.8569 φ^4 phi power (loose)
+  - S Ceres → H Ceres RA 99.8816 100 ninth (loose)
+  - S Vesta → H Vesta Dec 23.0105 23 whole (22.39)
+  - S Orcus → H Orcus RA 6.4783 4×φ golden (loose)
+  - S Quaoar → H Quaoar RA 5.0055 5 whole (52.39)
+  - S Transpluto → H Transpluto Dec 0.9855 1 whole (7.47)
+  - S Jupiter → J Jupiter Dec 8.8759 8.88889 ninth (loose)
+  - S Uranus → J Uranus RA 150.4648 93×φ golden (38.09)
+  - S Chiron → J Chiron RA 80.9083 50×φ golden (63.45)
+  - S Haumea → J Haumea RA 33.9614 21×φ golden (loose)
+  - S Makemake → J Makemake Dec 15.5350 15.5556 ninth (loose)
+  - S Orcus → J Orcus Dec 17.9584 φ^6 phi power (loose)
+  - S Quaoar → J Quaoar RA 48.5631 30×φ golden (loose)
+  - S Quaoar → J Quaoar Dec 2.0257 2 whole (loose)
+  - S Transpluto → J Transpluto RA 12.2940 12.2222 ninth (loose)
+- **6 Star Of Guiting / Craig Nichol**
+  - S Mercury → H Mercury RA 163.0018 163 whole (82.96)
+  - S Pluto → H Pluto Dec 1.4365 1.44444 ninth (loose)
+  - S Pallas → H Pallas RA 32.3495 20×φ golden (loose)
+  - S Eris → H Eris Dec 1.1128 1.11111 ninth (loose)
+  - S Makemake → H Makemake RA 4.9988 5 whole (87.93)
+  - S Sun → J Sun RA 111.4231 111.111 ninth (loose)
+  - S Mars → J Mars RA 176.3650 109×φ golden (95.88)
+  - S Jupiter → J Jupiter Dec 28.9951 29 whole (57.13)
+  - S Neptune → J Neptune RA 68.0161 68 whole (3.84)
+  - S Pluto → J Pluto Dec 17.6686 17.7778 ninth (loose)
+  - S Orcus → J Orcus RA 29.1343 18×φ golden (loose)
+  - S Orcus → J Orcus Dec 15.5295 15.5556 ninth (loose)
+- **7 King Ulanda / Jack Tudor**
+  - S Mars → H Mars RA 179.2843 10×φ^6 phi power (loose)
+  - S Mars → H Mars Dec 32.3401 20×φ golden (loose)
+  - S Chiron → H Chiron RA 20.0252 20 whole (loose)
+  - S Rahu → H Rahu RA 121.3821 75×φ golden (0.75)
+  - S Makemake → H Makemake Dec 4.4353 4.44444 ninth (loose)
+  - S Quaoar → H Quaoar RA 6.4712 4×φ golden (loose)
+  - S Ketu → H Ketu RA 121.3821 75×φ golden (0.75)
+  - S Sun → J Sun Dec 33.3506 33.3333 ninth (loose)
+  - S Pluto → J Pluto Dec 10.9769 11 whole (loose)
+  - S Juno → J Juno RA 161.7187 100×φ^1 phi power (loose)
+  - S Sedna → J Sedna RA 14.0847 14.14 sqrt2 (loose)
+  - S Haumea → J Haumea RA 22.6517 14×φ golden (95.08)
+  - S Orcus → J Orcus Dec 11.9920 12 whole (36.21)
+  - S Gonggong → J Gonggong Dec 6.0163 6 whole (3.48)
+### READ 2 Jupiter / Sun star lines, highest score first, each in full
+#### 1. S Jupiter → Capella Dec 32.0006 32 whole (94.53) — runners with cells 7/7
+- Moon confirms: none
+- 1 Dedicated Hero / Sam Twiston-Davies
+  - star rows: H Capella → H Venus Dec 53.0063 53 whole (46.66) — also: 4 All In You / Sean Bowen
+  - star rows: H Capella → H Neptune Dec 51.9931 52 whole (42.97) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+  - star rows: H Capella → H Pluto RA 144.4840 144.444 ninth (95.82) — also: 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - star rows: H Capella → H Pallas RA 129.9883 130 whole (17.33) — also: 7 King Ulanda / Jack Tudor
+  - star rows: J Capella → J Haumea Dec 24.1437 24.14 silver (97.39) — also: 2 Bucephalus / Harriet Tucker
+  - MATCH EXACT: J Castor → Transpluto RA 31.9895 32 whole (22.48)
+- 2 Bucephalus / Harriet Tucker
+  - star rows: H Capella → H Saturn Dec 68.0187 68 whole (0.40) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+  - star rows: H Capella → H Neptune RA 93.8490 58×φ golden (82.34) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+  - star rows: H Capella → H Vesta Dec 22.0047 22 whole (58.45) — only
+  - star rows: H Capella → H Haumea RA 132.6927 82×φ golden (32.36) — also: 1 Dedicated Hero / Sam Twiston-Davies
+  - MATCH EXACT: J Vindemiatrix → Uranus Dec 32.0014 32 whole (86.34)
+  - MATCH EXACT: J Acumen → Uranus RA 31.9881 32 whole (16.56)
+  - MATCH EXACT: J Rasalhague → Neptune RA 32.0165 32 whole (3.10)
+  - MATCH EXACT: J Diadem → Quaoar Dec 32.0167 32 whole (2.75)
+  - same number: J Acumen → J Uranus RA 31.9881 32 whole (16.56) — also: 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+- 3 Manuelito / Harry Cobden
+  - star rows: H Capella → H Jupiter Dec 68.5406 10×φ^4 phi power (99.75) — also: 6 Star Of Guiting / Craig Nichol
+  - star rows: H Capella → H Saturn RA 141.4647 141.4 sqrt2 (88.12) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+  - star rows: H Capella → H Saturn Dec 66.9889 67 whole (19.83) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+  - star rows: H Capella → H Uranus Dec 34.0183 34 whole (0.76) — only
+  - star rows: J Capella → J Neptune RA 137.5089 85×φ golden (6.76) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+  - star rows: J Capella → J Ceres Dec 28.9931 29 whole (42.78) — also: 5 Lyssenko / Harry Skelton
+  - star rows: J Capella → J Sedna Dec 40.9881 41 whole (16.53) — only
+  - natal Jupiter → star: H Jupiter → H star Capella Dec 68.5406 10×φ^4 phi power (99.75) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - MATCH EXACT: H Mirach → Chiron Dec 32.0172 32 whole (1.96)
+  - MATCH EXACT: J Facies → Pluto RA 32.0074 32 whole (39.96)
+  - MATCH EXACT: J Aldebaran → Venus Dec 32.0105 32 whole (22.35)
+  - same number: J Facies → J Pluto RA 32.0074 32 whole (39.96) — also: 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+- 4 All In You / Sean Bowen
+  - star rows: H Capella → H Mars Dec 54.9869 55 whole (11.98) — only
+  - star rows: H Capella → H Saturn Dec 66.0105 66 whole (22.79) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
+  - star rows: J Capella → J Venus RA 121.3784 75×φ golden (4.04) — also: 1 Dedicated Hero / Sam Twiston-Davies
+  - star rows: J Capella → J Gonggong RA 107.9827 108 whole (1.76) — also: 6 Star Of Guiting / Craig Nichol
+  - MATCH EXACT: H Zosma → Gonggong Dec 32.0145 32 whole (7.68)
+  - MATCH EXACT: H Regulus → Saturn Dec 31.9826 32 whole (1.66)
+  - MATCH EXACT: J Deneb → Transpluto Dec 31.9927 32 whole (40.53)
+- 5 Lyssenko / Harry Skelton
+  - star rows: H Capella → H Mercury RA 89.0164 89 whole (3.26) — also: 7 King Ulanda / Jack Tudor
+  - star rows: H Capella → H Saturn Dec 64.0115 64 whole (18.09) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+  - star rows: H Capella → H Neptune RA 87.0189 87 whole (0.30) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol
+  - star rows: H Capella → H Ceres RA 63.9834 64 whole (2.84) — also: 3 Manuelito / Harry Cobden
+  - star rows: J Capella → J Ceres Dec 24.9810 25 whole (0.25) — also: 3 Manuelito / Harry Cobden
+  - star rows: J Capella → J Juno RA 111.0048 111 whole (58.05) — only
+  - star rows: J Capella → J Rahu Dec 59.0120 59 whole (16.05) — also: 6 Star Of Guiting / Craig Nichol
+  - star rows: J Capella → J Ketu Dec 32.9823 33 whole (1.27) — also: 6 Star Of Guiting / Craig Nichol
+  - MATCH EXACT: S Jupiter → H body → Saturn Dec 32.0073 32 whole (40.06)
+  - same number: S Sun → H Haumea Dec 31.9997 32 whole (97.21) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+- 6 Star Of Guiting / Craig Nichol
+  - star rows: H Capella → H Rahu RA 9.9807 10 whole (0.11) — also: 5 Lyssenko / Harry Skelton
+  - star rows: H Capella → H Makemake RA 118.1032 73×φ golden (34.90) — also: 7 King Ulanda / Jack Tudor
+  - star rows: H Capella → H Gonggong RA 101.9823 102 whole (1.29) — also: 4 All In You / Sean Bowen
+  - star rows: H Capella → H Ketu RA 170.0193 170 whole (0.11) — also: 5 Lyssenko / Harry Skelton
+  - star rows: J Capella → J Jupiter Dec 61.0027 61 whole (74.59) — also: 3 Manuelito / Harry Cobden
+  - star rows: J Capella → J Neptune Dec 66.9908 67 whole (28.94) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
+  - star rows: J Capella → J Pluto Dec 52.0156 52 whole (4.93) — also: 1 Dedicated Hero / Sam Twiston-Davies, 7 King Ulanda / Jack Tudor
+  - star rows: J Capella → J Transpluto RA 66.3344 41×φ golden (71.47) — also: 7 King Ulanda / Jack Tudor
+  - natal Jupiter → star: J Jupiter → J star Capella Dec 61.0027 61 whole (74.59) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - MATCH EXACT: H Meissa → Ketu Dec 31.9910 32 whole (30.33)
+  - MATCH EXACT: H Zubeneschamali → Makemake RA 31.9866 32 whole (10.83)
+  - MATCH EXACT: H Bellatrix → Venus RA 32.0191 32 whole (0.22)
+  - same number: H Meissa → H Ketu Dec 31.9910 32 whole (30.33) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+- 7 King Ulanda / Jack Tudor
+  - star rows: H Capella → H Pluto RA 142.3659 88×φ golden (12.16) — also: 1 Dedicated Hero / Sam Twiston-Davies, 6 Star Of Guiting / Craig Nichol
+  - star rows: H Capella → H Pallas RA 145.0160 145 whole (3.97) — also: 1 Dedicated Hero / Sam Twiston-Davies
+  - star rows: H Capella → H Makemake Dec 21.9873 22 whole (13.32) — also: 6 Star Of Guiting / Craig Nichol
+  - star rows: J Capella → J Mercury RA 13.0089 13 whole (30.57) — also: 5 Lyssenko / Harry Skelton
+  - star rows: J Capella → J Mercury Dec 21.9905 22 whole (27.37) — also: 5 Lyssenko / Harry Skelton
+  - star rows: J Capella → J Transpluto Dec 32.9838 33 whole (3.58) — also: 6 Star Of Guiting / Craig Nichol
+  - MATCH EXACT: H Deneb → Uranus Dec 32.0151 32 whole (5.92)
+  - MATCH EXACT: H Aldebaran → Sun RA 32.0193 32 whole (0.11)
+  - MATCH EXACT: J Nunki → Sedna Dec 32.0017 32 whole (83.49)
+  - same number: S Moon → J Jupiter Dec 31.9951 32 whole (57.04) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+#### 2. S Sun → Pollux Dec 44.0012 44 whole (88.04) — runners with cells 7/7
+- Moon confirms: none
+- 1 Dedicated Hero / Sam Twiston-Davies
+  - star rows: H Pollux → H Jupiter RA 147.2544 91×φ golden (34.56) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - star rows: H Pollux → H Neptune RA 127.8290 79×φ golden (74.90) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+  - star rows: H Pollux → H Orcus RA 37.0171 37 whole (2.12) — only
+  - star rows: J Pollux → J Mercury Dec 45.0043 45 whole (61.83) — also: 7 King Ulanda / Jack Tudor
+  - star rows: J Pollux → J Vesta Dec 41.0026 41 whole (75.60) — also: 5 Lyssenko / Harry Skelton
+  - MATCH EXACT: J Acumen → Vesta RA 44.0030 44 whole (71.86)
+  - same number: J Acumen → J Vesta RA 44.0030 44 whole (71.86) — only
+- 2 Bucephalus / Harriet Tucker
+  - star rows: H Pollux → H Neptune RA 131.0059 131 whole (50.04) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+  - star rows: J Pollux → J Venus RA 170.0035 170 whole (68.01) — also: 4 All In You / Sean Bowen
+  - star rows: J Pollux → J Saturn RA 126.2078 78×φ golden (92.76) — also: 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - star rows: J Pollux → J Neptune RA 179.4093 10×φ^6 phi power (92.69) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+  - star rows: J Pollux → J Rahu RA 87.0048 87 whole (58.03) — only
+  - star rows: J Pollux → J Ketu RA 92.9952 93 whole (58.03) — also: 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - MATCH EXACT: H Sadalmelik → Juno RA 43.9843 44 whole (4.59)
+  - MATCH EXACT: H El Nath → Quaoar Dec 44.0177 44 whole (1.27)
+  - MATCH EXACT: H Aculeus → Rahu Dec 44.0198 44 whole (0.01)
+  - MATCH EXACT: J Antares → Rahu RA 44.0060 44 whole (48.81)
+- 3 Manuelito / Harry Cobden
+  - star rows: H Pollux → H Sun RA 154.0069 154 whole (42.69) — also: 4 All In You / Sean Bowen
+  - star rows: H Pollux → H Saturn Dec 49.0165 49 whole (3.05) — also: 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - star rows: H Pollux → H Neptune RA 127.8127 79×φ golden (39.66) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+  - star rows: S Pollux → J Jupiter Dec 34.0001 34 whole (98.99) — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - star rows: J Pollux → J Juno RA 101.0073 101 whole (40.36) — also: 5 Lyssenko / Harry Skelton
+  - star rows: J Pollux → J Sedna Dec 23.0162 23 whole (3.53) — also: 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+  - star rows: J Pollux → J Transpluto Dec 15.0055 15 whole (52.73) — also: 7 King Ulanda / Jack Tudor
+  - natal Jupiter → star: J Jupiter → J star Pollux Dec 34.0005 34 whole (95.30) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - MATCH EXACT: H Mirfak → Pallas Dec 43.9869 44 whole (12.05)
+- 4 All In You / Sean Bowen
+  - star rows: H Pollux → H Venus RA 43.0029 43 whole (73.17) — also: 2 Bucephalus / Harriet Tucker
+  - star rows: H Pollux → H Mars Dec 37.0185 37 whole (0.58) — also: 6 Star Of Guiting / Craig Nichol
+  - star rows: H Pollux → H Jupiter RA 177.7996 177.778 ninth (98.29) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - star rows: H Pollux → H Neptune RA 124.5844 77×φ golden (75.45) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol
+  - star rows: H Pollux → H Sedna RA 58.2490 36×φ golden (98.91) — also: 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
+  - star rows: H Pollux → H Haumea RA 97.9894 98 whole (21.89) — also: 5 Lyssenko / Harry Skelton
+  - star rows: J Pollux → J Sun RA 47.9985 48 whole (85.65) — also: 3 Manuelito / Harry Cobden
+  - star rows: J Pollux → J Chiron Dec 38.9885 39 whole (18.17) — also: 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - natal Jupiter → star: H Jupiter → H star Pollux RA 177.7996 177.778 ninth (98.29) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - MATCH EXACT: H Regulus → Makemake RA 43.9977 44 whole (78.34)
+  - MATCH EXACT: H Mirfak → Chiron Dec 44.0051 44 whole (55.66)
+- 5 Lyssenko / Harry Skelton
+  - star rows: H Pollux → H Pluto RA 177.7492 177.778 ninth (97.76) — only
+  - star rows: H Pollux → H Juno Dec 37.0037 37 whole (66.05) — also: 3 Manuelito / Harry Cobden
+  - star rows: H Pollux → H Haumea Dec 12.0029 12 whole (73.30) — also: 4 All In You / Sean Bowen
+  - star rows: J Pollux → J Saturn RA 161.8212 100×φ^1 phi power (95.65) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 7 King Ulanda / Jack Tudor
+  - star rows: J Pollux → J Uranus RA 155.3367 96×φ golden (69.21) — also: 7 King Ulanda / Jack Tudor
+  - star rows: J Pollux → J Chiron RA 9.9881 10 whole (16.29) — also: 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+  - star rows: J Pollux → J Ceres Dec 7.0100 7 whole (24.76) — also: 7 King Ulanda / Jack Tudor
+  - star rows: J Pollux → J Vesta Dec 54.0056 54 whole (51.75) — also: 1 Dedicated Hero / Sam Twiston-Davies
+  - star rows: J Pollux → J Sedna Dec 24.0018 24 whole (82.64) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+  - star rows: J Pollux → J Ketu Dec 15.0113 15 whole (18.87) — also: 2 Bucephalus / Harriet Tucker, 7 King Ulanda / Jack Tudor
+  - MATCH EXACT: H Sadalsuud → Chiron RA 44.0086 44 whole (32.65)
+  - MATCH EXACT: H Mirfak → Sun RA 44.0086 44 whole (32.24)
+- 6 Star Of Guiting / Craig Nichol
+  - star rows: S Pollux → H Jupiter RA 145.6245 90×φ golden (91.17) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+  - star rows: H Pollux → H Gonggong RA 139.1385 86×φ golden (37.93) — only
+  - star rows: J Pollux → J Mars RA 156.0111 156 whole (19.64) — also: 4 All In You / Sean Bowen
+  - star rows: J Pollux → J Neptune Dec 49.0157 49 whole (4.61) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+  - star rows: J Pollux → J Quaoar RA 123.9896 124 whole (23.10) — only
+  - natal Jupiter → star: H Jupiter → H star Pollux RA 145.6216 90×φ golden (91.09) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+- 7 King Ulanda / Jack Tudor
+  - star rows: H Pollux → H Jupiter Dec 48.9841 49 whole (4.21) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+  - star rows: H Pollux → H Uranus RA 82.0054 82 whole (53.03) — also: 5 Lyssenko / Harry Skelton
+  - star rows: H Pollux → H Chiron RA 110.9167 10×φ^5 phi power (94.67) — also: 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+  - star rows: H Pollux → H Ceres RA 140.0008 140 whole (92.04) — also: 5 Lyssenko / Harry Skelton
+  - star rows: H Pollux → H Makemake Dec 4.0174 4 whole (1.70) — only
+  - star rows: J Pollux → J Mercury Dec 4.0191 4 whole (0.20) — also: 1 Dedicated Hero / Sam Twiston-Davies
+  - star rows: J Pollux → J Saturn RA 42.9918 43 whole (34.68) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
+  - star rows: J Pollux → J Eris RA 92.2251 57×φ golden (83.31) — only
+  - star rows: J Pollux → J Transpluto Dec 15.0124 15 whole (14.38) — also: 3 Manuelito / Harry Cobden
+  - star rows: J Pollux → J Ketu RA 140.7563 87×φ golden (37.15) — also: 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton
+  - MATCH EXACT: H Vega → Mars RA 44.0036 44 whole (67.36)
+  - MATCH EXACT: H Pleiades → Saturn Dec 44.0123 44 whole (14.66)
+#### 3. S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35) — runners with cells 7/7
+- Moon confirms: none
+- 1 Dedicated Hero / Sam Twiston-Davies
+  - star rows: H Galactic Centre → H Venus Dec 21.9985 22 whole (85.79) — only
+  - star rows: H Galactic Centre → H Neptune Dec 23.0118 23 whole (17.00) — also: 6 Star Of Guiting / Craig Nichol
+  - star rows: H Galactic Centre → H Transpluto RA 112.9942 113 whole (50.15) — also: 5 Lyssenko / Harry Skelton
+  - star rows: H Galactic Centre → H Transpluto Dec 39.9835 40 whole (3.03) — also: 5 Lyssenko / Harry Skelton
+  - MATCH EXACT: J Jupiter → J body → Vesta RA 42.9838 43 whole (3.55)
+- 2 Bucephalus / Harriet Tucker
+  - star rows: H Galactic Centre → H Mercury RA 119.7230 74×φ golden (41.37) — also: 7 King Ulanda / Jack Tudor
+  - star rows: H Galactic Centre → H Jupiter RA 72.8146 45×φ golden (82.01) — also: 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - star rows: H Galactic Centre → H Saturn RA 0.1594 conj (79.88) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+  - star rows: H Galactic Centre → H Saturn Dec 6.9855 7 whole (7.70) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+  - star rows: H Galactic Centre → H Ceres RA 156.9263 97×φ golden (8.31) — also: 3 Manuelito / Harry Cobden
+  - star rows: H Galactic Centre → H Juno RA 21.0391 13×φ golden (73.48) — only
+  - star rows: H Galactic Centre → H Vesta Dec 52.9996 53 whole (95.84) — also: 5 Lyssenko / Harry Skelton
+  - star rows: H Galactic Centre → H Orcus RA 115.0025 115 whole (76.22) — also: 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol
+  - star rows: H Galactic Centre → H Gonggong RA 69.9895 70 whole (22.72) — only
+  - star rows: J Galactic Centre → J Mercury RA 0.8697 conj (17.66) — also: 7 King Ulanda / Jack Tudor
+  - star rows: J Galactic Centre → J Mars RA 11.0949 φ^5 phi power (83.75) — also: 4 All In You / Sean Bowen
+  - star rows: J Galactic Centre → J Pallas RA 66.6673 66.6667 ninth (99.42) — also: 3 Manuelito / Harry Cobden
+  - natal Jupiter → star: H Jupiter → H star Galactic Centre RA 72.8146 45×φ golden (82.01) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - MATCH EXACT: H Aldebaran → Eris RA 42.9864 43 whole (10.25)
+  - MATCH EXACT: J Fomalhaut → Transpluto Dec 42.9977 43 whole (78.51)
+- 3 Manuelito / Harry Cobden
+  - star rows: H Galactic Centre → H Saturn Dec 8.0161 8 whole (3.72) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+  - star rows: H Galactic Centre → H Uranus Dec 40.9868 41 whole (11.53) — only
+  - star rows: H Galactic Centre → H Rahu RA 168.2974 104×φ golden (10.59) — also: 5 Lyssenko / Harry Skelton
+  - star rows: H Galactic Centre → H Orcus Dec 17.7735 17.7778 ninth (96.65) — also: 2 Bucephalus / Harriet Tucker, 6 Star Of Guiting / Craig Nichol
+  - star rows: J Galactic Centre → J Ceres Dec 46.0121 46 whole (15.40) — also: 2 Bucephalus / Harriet Tucker
+  - star rows: J Galactic Centre → J Pallas RA 81.0128 81 whole (12.81) — also: 2 Bucephalus / Harriet Tucker
+  - star rows: J Galactic Centre → J Sedna Dec 34.0171 34 whole (2.10) — only
+  - MATCH EXACT: J Kaus Australis → Saturn Dec 42.9906 43 whole (27.92)
+  - MATCH EXACT: J Ras Algethi → Neptune RA 43.0128 43 whole (13.09)
+  - MATCH EXACT: J Algenib → Sedna RA 42.9845 43 whole (5.14)
+- 4 All In You / Sean Bowen
+  - star rows: H Galactic Centre → H Mars Dec 20.0165 20 whole (3.15) — also: 2 Bucephalus / Harriet Tucker
+  - star rows: H Galactic Centre → H Saturn Dec 8.9929 9 whole (41.74) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
+  - star rows: J Galactic Centre → J Mars RA 45.0116 45 whole (17.65) — also: 2 Bucephalus / Harriet Tucker
+  - star rows: J Galactic Centre → J Chiron RA 57.9890 58 whole (20.15) — also: 7 King Ulanda / Jack Tudor
+  - MATCH EXACT: H Pollux → Venus RA 43.0029 43 whole (73.17)
+  - MATCH EXACT: H Wezen → Haumea Dec 43.0034 43 whole (68.52)
+  - MATCH EXACT: J Hamal → Uranus Dec 43.0157 43 whole (4.55)
+  - same number: H Pollux → H Venus RA 43.0029 43 whole (73.17) — also: 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - same number: J Hamal → J Uranus Dec 43.0157 43 whole (4.55) — also: 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+- 5 Lyssenko / Harry Skelton
+  - star rows: H Galactic Centre → H Saturn RA 46.9791 φ^8 phi power (99.65) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+  - star rows: H Galactic Centre → H Saturn Dec 10.9933 11 whole (44.27) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+  - star rows: H Galactic Centre → H Vesta RA 102.0126 102 whole (13.64) — also: 2 Bucephalus / Harriet Tucker
+  - star rows: H Galactic Centre → H Haumea RA 50.1511 31×φ golden (56.77) — only
+  - star rows: J Galactic Centre → J Jupiter RA 166.9814 167 whole (0.48) — also: 2 Bucephalus / Harriet Tucker, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - star rows: J Galactic Centre → J Rahu Dec 15.9935 16 whole (45.33) — also: 3 Manuelito / Harry Cobden
+  - star rows: J Galactic Centre → J Eris Dec 19.4139 12×φ golden (85.27) — also: 6 Star Of Guiting / Craig Nichol
+  - star rows: J Galactic Centre → J Transpluto RA 122.0035 122 whole (68.33) — also: 1 Dedicated Hero / Sam Twiston-Davies
+  - MATCH EXACT: H Mirfak → Venus RA 42.9814 43 whole (0.50)
+- 6 Star Of Guiting / Craig Nichol
+  - star rows: H Galactic Centre → H Sun Dec 44.4431 44.4444 ninth (98.59) — only
+  - star rows: H Galactic Centre → H Orcus Dec 17.9436 φ^6 phi power (98.44) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden
+  - star rows: J Galactic Centre → J Jupiter Dec 14.0054 14 whole (53.02) — also: 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - star rows: J Galactic Centre → J Sun RA 66.3369 41×φ golden (85.36) — only
+  - star rows: J Galactic Centre → J Sun Dec 17.7769 17.7778 ninth (99.28) — only
+  - star rows: J Galactic Centre → J Neptune Dec 8.0174 8 whole (1.68) — also: 1 Dedicated Hero / Sam Twiston-Davies
+  - star rows: J Galactic Centre → J Pluto Dec 22.9926 23 whole (39.72) — only
+  - star rows: J Galactic Centre → J Eris RA 115.9992 116 whole (91.83) — also: 5 Lyssenko / Harry Skelton
+  - natal Jupiter → star: J Jupiter → J star Galactic Centre Dec 14.0054 14 whole (53.02) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - MATCH EXACT: H Acumen → Sedna Dec 42.9932 43 whole (43.67)
+  - MATCH EXACT: H Sirius → Sedna RA 43.0102 43 whole (24.07)
+  - MATCH EXACT: J Algenib → Mars RA 42.9803 43 whole (0.02)
+  - same number: H Acumen → H Sedna Dec 42.9932 43 whole (43.67) — also: 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+- 7 King Ulanda / Jack Tudor
+  - star rows: H Galactic Centre → H Chiron RA 98.9857 99 whole (8.01) — also: 4 All In You / Sean Bowen
+  - star rows: H Galactic Centre → H Makemake Dec 53.0170 53 whole (2.30) — only
+  - star rows: S Galactic Centre → J Jupiter RA 163.0075 163 whole (38.83) — also: 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+  - star rows: J Galactic Centre → J Mercury Dec 53.0157 53 whole (4.70) — also: 2 Bucephalus / Harriet Tucker
+  - MATCH EXACT: H Antares → Haumea Dec 42.9923 43 whole (37.83)
+  - MATCH EXACT: J Pollux → Saturn RA 42.9918 43 whole (34.68)
+  - MATCH EXACT: J Kaus Australis → Pallas RA 43.0127 43 whole (13.31)
+  - MATCH EXACT: J Unukalhai → Chiron RA 43.0130 43 whole (12.31)
+  - same number: J Pollux → J Saturn RA 42.9918 43 whole (34.68) — also: 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+#### 4. S Sun → Pollux RA 105.0019 105 whole (82.29) — runners with cells 7/7
+- Moon confirms: none
+- 1 Dedicated Hero / Sam Twiston-Davies
+  - star rows: H Pollux → H Jupiter RA 147.2544 91×φ golden (34.56) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - star rows: H Pollux → H Neptune RA 127.8290 79×φ golden (74.90) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+  - star rows: H Pollux → H Orcus RA 37.0171 37 whole (2.12) — only
+  - star rows: J Pollux → J Mercury Dec 45.0043 45 whole (61.83) — also: 7 King Ulanda / Jack Tudor
+  - star rows: J Pollux → J Vesta Dec 41.0026 41 whole (75.60) — also: 5 Lyssenko / Harry Skelton
+- 2 Bucephalus / Harriet Tucker
+  - star rows: H Pollux → H Neptune RA 131.0059 131 whole (50.04) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+  - star rows: J Pollux → J Venus RA 170.0035 170 whole (68.01) — also: 4 All In You / Sean Bowen
+  - star rows: J Pollux → J Saturn RA 126.2078 78×φ golden (92.76) — also: 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - star rows: J Pollux → J Neptune RA 179.4093 10×φ^6 phi power (92.69) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+  - star rows: J Pollux → J Rahu RA 87.0048 87 whole (58.03) — only
+  - star rows: J Pollux → J Ketu RA 92.9952 93 whole (58.03) — also: 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - MATCH EXACT: H Sirius → Chiron RA 105.0143 105 whole (8.06)
+  - MATCH EXACT: H Facies → Uranus RA 105.0178 105 whole (1.19)
+  - MATCH EXACT: S body → J Jupiter → Saturn RA 105.0068 105 whole (43.32)
+  - same number: H Facies → H Uranus RA 105.0178 105 whole (1.19) — also: 7 King Ulanda / Jack Tudor
+- 3 Manuelito / Harry Cobden
+  - star rows: H Pollux → H Sun RA 154.0069 154 whole (42.69) — also: 4 All In You / Sean Bowen
+  - star rows: H Pollux → H Saturn Dec 49.0165 49 whole (3.05) — also: 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - star rows: H Pollux → H Neptune RA 127.8127 79×φ golden (39.66) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+  - star rows: S Pollux → J Jupiter Dec 34.0001 34 whole (98.99) — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - star rows: J Pollux → J Juno RA 101.0073 101 whole (40.36) — also: 5 Lyssenko / Harry Skelton
+  - star rows: J Pollux → J Sedna Dec 23.0162 23 whole (3.53) — also: 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+  - star rows: J Pollux → J Transpluto Dec 15.0055 15 whole (52.73) — also: 7 King Ulanda / Jack Tudor
+  - natal Jupiter → star: J Jupiter → J star Pollux Dec 34.0005 34 whole (95.30) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+- 4 All In You / Sean Bowen
+  - star rows: H Pollux → H Venus RA 43.0029 43 whole (73.17) — also: 2 Bucephalus / Harriet Tucker
+  - star rows: H Pollux → H Mars Dec 37.0185 37 whole (0.58) — also: 6 Star Of Guiting / Craig Nichol
+  - star rows: H Pollux → H Jupiter RA 177.7996 177.778 ninth (98.29) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - star rows: H Pollux → H Neptune RA 124.5844 77×φ golden (75.45) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol
+  - star rows: H Pollux → H Sedna RA 58.2490 36×φ golden (98.91) — also: 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
+  - star rows: H Pollux → H Haumea RA 97.9894 98 whole (21.89) — also: 5 Lyssenko / Harry Skelton
+  - star rows: J Pollux → J Sun RA 47.9985 48 whole (85.65) — also: 3 Manuelito / Harry Cobden
+  - star rows: J Pollux → J Chiron Dec 38.9885 39 whole (18.17) — also: 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - natal Jupiter → star: H Jupiter → H star Pollux RA 177.7996 177.778 ninth (98.29) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+- 5 Lyssenko / Harry Skelton
+  - star rows: H Pollux → H Pluto RA 177.7492 177.778 ninth (97.76) — only
+  - star rows: H Pollux → H Juno Dec 37.0037 37 whole (66.05) — also: 3 Manuelito / Harry Cobden
+  - star rows: H Pollux → H Haumea Dec 12.0029 12 whole (73.30) — also: 4 All In You / Sean Bowen
+  - star rows: J Pollux → J Saturn RA 161.8212 100×φ^1 phi power (95.65) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 7 King Ulanda / Jack Tudor
+  - star rows: J Pollux → J Uranus RA 155.3367 96×φ golden (69.21) — also: 7 King Ulanda / Jack Tudor
+  - star rows: J Pollux → J Chiron RA 9.9881 10 whole (16.29) — also: 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+  - star rows: J Pollux → J Ceres Dec 7.0100 7 whole (24.76) — also: 7 King Ulanda / Jack Tudor
+  - star rows: J Pollux → J Vesta Dec 54.0056 54 whole (51.75) — also: 1 Dedicated Hero / Sam Twiston-Davies
+  - star rows: J Pollux → J Sedna Dec 24.0018 24 whole (82.64) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+  - star rows: J Pollux → J Ketu Dec 15.0113 15 whole (18.87) — also: 2 Bucephalus / Harriet Tucker, 7 King Ulanda / Jack Tudor
+- 6 Star Of Guiting / Craig Nichol
+  - star rows: S Pollux → H Jupiter RA 145.6245 90×φ golden (91.17) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+  - star rows: H Pollux → H Gonggong RA 139.1385 86×φ golden (37.93) — only
+  - star rows: J Pollux → J Mars RA 156.0111 156 whole (19.64) — also: 4 All In You / Sean Bowen
+  - star rows: J Pollux → J Neptune Dec 49.0157 49 whole (4.61) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+  - star rows: J Pollux → J Quaoar RA 123.9896 124 whole (23.10) — only
+  - natal Jupiter → star: H Jupiter → H star Pollux RA 145.6216 90×φ golden (91.09) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - MATCH EXACT: H Rasalhague → Chiron RA 104.9881 105 whole (16.40)
+  - MATCH EXACT: J Mirfak → Chiron RA 104.9899 105 whole (24.48)
+- 7 King Ulanda / Jack Tudor
+  - star rows: H Pollux → H Jupiter Dec 48.9841 49 whole (4.21) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+  - star rows: H Pollux → H Uranus RA 82.0054 82 whole (53.03) — also: 5 Lyssenko / Harry Skelton
+  - star rows: H Pollux → H Chiron RA 110.9167 10×φ^5 phi power (94.67) — also: 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+  - star rows: H Pollux → H Ceres RA 140.0008 140 whole (92.04) — also: 5 Lyssenko / Harry Skelton
+  - star rows: H Pollux → H Makemake Dec 4.0174 4 whole (1.70) — only
+  - star rows: J Pollux → J Mercury Dec 4.0191 4 whole (0.20) — also: 1 Dedicated Hero / Sam Twiston-Davies
+  - star rows: J Pollux → J Saturn RA 42.9918 43 whole (34.68) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
+  - star rows: J Pollux → J Eris RA 92.2251 57×φ golden (83.31) — only
+  - star rows: J Pollux → J Transpluto Dec 15.0124 15 whole (14.38) — also: 3 Manuelito / Harry Cobden
+  - star rows: J Pollux → J Ketu RA 140.7563 87×φ golden (37.15) — also: 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton
+  - MATCH EXACT: J Facies → Eris RA 104.9972 105 whole (74.20)
+  - MATCH EXACT: J Alpheratz → Ketu RA 105.0106 105 whole (21.96)
+  - MATCH EXACT: J Regulus → Ketu RA 104.9884 105 whole (17.63)
+  - same number: J Alpheratz → J Ketu RA 105.0106 105 whole (21.96) — also: 2 Bucephalus / Harriet Tucker
+  - same number: J Facies → J Eris RA 104.9972 105 whole (74.20) — also: 2 Bucephalus / Harriet Tucker
+#### 5. S Sun → Alpheratz RA 140.7748 87×φ golden (67.09) — runners with cells 7/7
+- Moon confirms: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+- 1 Dedicated Hero / Sam Twiston-Davies
+  - star rows: H Alpheratz → H Sun Dec 21.9891 22 whole (20.75) — only
+  - star rows: H Alpheratz → H Mercury RA 9.9827 10 whole (1.77) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+  - star rows: H Alpheratz → H Chiron RA 0.9586 conj (13.03) — also: 3 Manuelito / Harry Cobden, 7 King Ulanda / Jack Tudor
+  - star rows: J Alpheratz → J Mars Dec 5.9813 6 whole (0.43) — also: 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+  - star rows: J Alpheratz → J Juno RA 95.4697 59×φ golden (67.72) — also: 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+  - star rows: J Alpheratz → J Eris Dec 38.0144 38 whole (7.71) — also: 3 Manuelito / Harry Cobden, 7 King Ulanda / Jack Tudor
+  - star rows: J Alpheratz → J Sedna RA 41.4223 41.4 silver (99.10) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - MATCH EXACT: H Alphard → Chiron RA 140.7662 87×φ golden (83.78)
+  - MATCH EXACT: H Kaus Australis → Sedna RA 140.7914 87×φ golden (9.40)
+  - MATCH EXACT: J Alnilam → Ceres RA 140.7773 87×φ golden (54.92)
+  - MATCH EXACT: J Hamal → Makemake RA 140.7498 87×φ golden (16.60)
+  - same number: J Hamal → J Makemake RA 140.7498 87×φ golden (16.60) — also: 2 Bucephalus / Harriet Tucker, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+- 2 Bucephalus / Harriet Tucker
+  - star rows: H Alpheratz → H Sedna RA 53.9981 54 whole (82.08) — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - star rows: J Alpheratz → J Orcus RA 133.3640 133.333 ninth (96.32) — also: 7 King Ulanda / Jack Tudor
+  - MATCH EXACT: H Algol → Saturn RA 140.7726 87×φ golden (78.95)
+  - MATCH EXACT: H Acumen → Sun RA 140.7794 87×φ golden (45.71)
+  - MATCH EXACT: J Rasalhague → Sedna RA 140.7795 87×φ golden (45.44)
+  - MATCH EXACT: J El Nath → Ceres RA 140.7992 87×φ golden (0.44)
+  - same number: H Acumen → H Sun RA 140.7794 87×φ golden (45.71) — also: 1 Dedicated Hero / Sam Twiston-Davies, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+- 3 Manuelito / Harry Cobden
+  - star rows: H Alpheratz → H Mercury Dec 37.2186 23×φ golden (77.82) — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+  - star rows: H Alpheratz → H Venus RA 0.4014 conj (53.64) — also: 5 Lyssenko / Harry Skelton
+  - star rows: H Alpheratz → H Chiron RA 0.8018 conj (21.67) — also: 1 Dedicated Hero / Sam Twiston-Davies, 7 King Ulanda / Jack Tudor
+  - star rows: H Alpheratz → H Eris Dec 30.9938 31 whole (47.82) — also: 1 Dedicated Hero / Sam Twiston-Davies, 7 King Ulanda / Jack Tudor
+  - star rows: H Alpheratz → H Gonggong RA 25.8829 16×φ golden (68.38) — only
+  - star rows: J Alpheratz → J Saturn RA 26.0098 26 whole (26.14) — also: 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+  - star rows: J Alpheratz → J Pluto RA 115.0125 115 whole (13.95) — only
+  - MATCH EXACT: H Pleiades → Makemake RA 140.7990 87×φ golden (0.50)
+  - MATCH EXACT: J Antares → Saturn RA 140.7648 87×φ golden (76.22)
+- 4 All In You / Sean Bowen
+  - star rows: H Alpheratz → H Jupiter Dec 50.1557 31×φ golden (80.40) — also: 7 King Ulanda / Jack Tudor
+  - star rows: H Alpheratz → H Uranus RA 33.9822 34 whole (1.25) — only
+  - star rows: H Alpheratz → H Makemake RA 166.0075 166 whole (39.29) — also: 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+  - star rows: J Alpheratz → J Mercury RA 152.9848 153 whole (5.87) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol
+  - star rows: J Alpheratz → J Mars Dec 45.9844 46 whole (4.74) — also: 1 Dedicated Hero / Sam Twiston-Davies, 7 King Ulanda / Jack Tudor
+  - star rows: J Alpheratz → J Saturn Dec 24.0019 24 whole (81.66) — also: 3 Manuelito / Harry Cobden, 7 King Ulanda / Jack Tudor
+  - star rows: J Alpheratz → J Juno RA 141.4860 141.4 sqrt2 (82.54) — also: 1 Dedicated Hero / Sam Twiston-Davies, 7 King Ulanda / Jack Tudor
+  - star rows: J Alpheratz → J Sedna Dec 24.0170 24 whole (2.31) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - natal Jupiter → star: H Jupiter → H star Alpheratz Dec 50.1557 31×φ golden (80.40) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+- 5 Lyssenko / Harry Skelton
+  - star rows: H Alpheratz → H Venus RA 6.0018 6 whole (83.26) — also: 3 Manuelito / Harry Cobden
+  - star rows: H Alpheratz → H Sedna Dec 21.0152 21 whole (5.76) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+  - star rows: J Alpheratz → J Makemake Dec 6.0164 6 whole (3.23) — also: 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+- 6 Star Of Guiting / Craig Nichol
+  - star rows: H Alpheratz → H Mercury Dec 8.0108 8 whole (21.19) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+  - star rows: H Alpheratz → H Vesta Dec 11.3270 7×φ golden (95.64) — also: 7 King Ulanda / Jack Tudor
+  - star rows: H Alpheratz → H Makemake Dec 5.5557 5.55556 ninth (99.03) — also: 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+  - star rows: J Alpheratz → J Mercury RA 29.0013 29 whole (87.13) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+  - star rows: J Alpheratz → J Ceres Dec 20.0001 20 whole (99.14) — also: 7 King Ulanda / Jack Tudor
+  - MATCH EXACT: H Acumen → Venus RA 140.7923 87×φ golden (7.80)
+  - MATCH EXACT: J Algenib → Jupiter RA 140.7729 87×φ golden (76.95)
+  - MATCH EXACT: J Mirfak → Haumea RA 140.7429 87×φ golden (3.85)
+  - same number: H Acumen → H Venus RA 140.7923 87×φ golden (7.80) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 7 King Ulanda / Jack Tudor
+- 7 King Ulanda / Jack Tudor
+  - star rows: H Alpheratz → H Mars Dec 45.3040 28×φ golden (94.21) — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen
+  - star rows: H Alpheratz → H Saturn Dec 48.9948 49 whole (54.83) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+  - star rows: H Alpheratz → H Vesta Dec 8.0004 8 whole (95.81) — also: 6 Star Of Guiting / Craig Nichol
+  - star rows: H Alpheratz → H Eris RA 24.1486 24.14 silver (89.53) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden
+  - star rows: H Alpheratz → H Sedna Dec 21.0301 13×φ golden (75.10) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+  - star rows: H Alpheratz → H Haumea RA 147.2643 91×φ golden (8.08) — only
+  - star rows: J Alpheratz → J Jupiter Dec 5.9982 6 whole (82.66) — also: 4 All In You / Sean Bowen
+  - star rows: J Alpheratz → J Chiron RA 83.0075 83 whole (39.15) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden
+  - star rows: J Alpheratz → J Ceres RA 0.0891 conj (88.47) — also: 6 Star Of Guiting / Craig Nichol
+  - star rows: J Alpheratz → J Juno Dec 16.1826 10×φ^1 phi power (94.44) — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen
+  - star rows: J Alpheratz → J Rahu RA 74.9894 75 whole (21.96) — only
+  - star rows: J Alpheratz → J Eris RA 22.0079 22 whole (36.37) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden
+  - star rows: J Alpheratz → J Haumea RA 164.0099 164 whole (25.60) — only
+  - star rows: J Alpheratz → J Orcus Dec 31.0072 31 whole (40.72) — also: 2 Bucephalus / Harriet Tucker
+  - star rows: J Alpheratz → J Quaoar RA 112.0055 112 whole (52.48) — only
+  - star rows: J Alpheratz → J Ketu RA 105.0106 105 whole (21.96) — only
+  - star rows: J Alpheratz → J Ketu Dec 51.9947 52 whole (54.15) — only
+  - natal Jupiter → star: J Jupiter → J star Alpheratz Dec 5.9982 6 whole (82.66) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+  - MATCH EXACT: H Vindemiatrix → Ceres RA 140.7751 87×φ golden (65.59)
+  - MATCH EXACT: J Pollux → Ketu RA 140.7563 87×φ golden (37.15)
+  - same number: J Pollux → J Ketu RA 140.7563 87×φ golden (37.15) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 6 Star Of Guiting / Craig Nichol
+#### 6. S Sun → Meissa RA 137.5388 85×φ golden (66.82) — runners with cells 7/7
+- Moon confirms: none
+- 1 Dedicated Hero / Sam Twiston-Davies
+  - star rows: H Meissa → H Juno RA 0.0357 conj (95.30) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
+  - star rows: H Meissa → H Juno Dec 3.0197 3 whole (0.02) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
+  - star rows: H Meissa → H Rahu RA 30.0007 30 whole (92.86) — also: 5 Lyssenko / Harry Skelton
+  - star rows: H Meissa → H Ketu RA 149.9993 150 whole (92.86) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+  - star rows: J Meissa → J Sun RA 117.0017 117 whole (83.45) — also: 5 Lyssenko / Harry Skelton
+  - star rows: J Meissa → J Uranus Dec 33.0197 33 whole (0.03) — only
+  - star rows: J Meissa → J Pallas RA 174.0154 174 whole (5.33) — also: 4 All In You / Sean Bowen
+  - star rows: J Meissa → J Ketu RA 1.1044 conj (6.96) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+  - star rows: J Meissa → J Ketu Dec 13.3343 13.3333 ninth (98.86) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+  - MATCH EXACT: H Aldebaran → Saturn RA 137.5343 85×φ golden (91.62)
+  - MATCH EXACT: H Rukbat → Transpluto RA 137.5466 85×φ golden (33.16)
+  - MATCH EXACT: J Vega → Chiron RA 137.5344 85×φ golden (91.02)
+  - MATCH EXACT: J Wezen → Gonggong RA 137.5619 85×φ golden (1.07)
+- 2 Bucephalus / Harriet Tucker
+  - star rows: J Meissa → J Juno RA 156.9687 97×φ golden (16.01) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
+  - star rows: J Meissa → J Ketu Dec 0.1880 conj (13.95) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+  - MATCH EXACT: H Jupiter → H body → Sedna RA 137.5154 85×φ golden (21.25)
+- 3 Manuelito / Harry Cobden
+  - star rows: H Meissa → H Juno Dec 14.4475 14.4444 ninth (96.79) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton
+  - star rows: S Meissa → J Jupiter RA 93.9810 94 whole (0.23) — also: 4 All In You / Sean Bowen
+  - star rows: J Meissa → J Makemake Dec 22.0120 22 whole (15.96) — also: 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - star rows: J Meissa → J Transpluto RA 63.9836 64 whole (3.23) — also: 7 King Ulanda / Jack Tudor
+  - star rows: J Meissa → J Ketu Dec 21.9980 22 whole (81.21) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+  - MATCH EXACT: J Capella → Neptune RA 137.5089 85×φ golden (6.76)
+  - same number: J Capella → J Neptune RA 137.5089 85×φ golden (6.76) — only
+- 4 All In You / Sean Bowen
+  - star rows: H Meissa → H Jupiter Dec 31.0030 31 whole (72.56) — also: 3 Manuelito / Harry Cobden
+  - star rows: H Meissa → H Makemake Dec 14.0064 14 whole (46.08) — also: 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - star rows: J Meissa → J Venus Dec 18.8882 18.8889 ninth (99.49) — only
+  - star rows: J Meissa → J Pallas Dec 1.9826 2 whole (1.68) — also: 1 Dedicated Hero / Sam Twiston-Davies
+  - star rows: J Meissa → J Ketu Dec 13.9954 14 whole (59.26) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+  - natal Jupiter → star: H Jupiter → H star Meissa Dec 31.0030 31 whole (72.56) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - MATCH EXACT: H Mirfak → Juno RA 137.5086 85×φ golden (6.28)
+  - MATCH EXACT: J Scheat → Chiron RA 137.5200 85×φ golden (36.28)
+  - MATCH EXACT: J Adhara → Quaoar RA 137.5574 85×φ golden (5.85)
+- 5 Lyssenko / Harry Skelton
+  - star rows: H Meissa → H Mars Dec 14.0198 14 whole (0.01) — only
+  - star rows: H Meissa → H Juno RA 179.4986 10×φ^6 phi power (87.93) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden
+  - star rows: H Meissa → H Sedna RA 25.8843 16×φ golden (75.30) — only
+  - star rows: J Meissa → J Sun Dec 8.9995 9 whole (95.24) — also: 1 Dedicated Hero / Sam Twiston-Davies
+  - star rows: J Meissa → J Rahu RA 116.0003 116 whole (96.86) — also: 1 Dedicated Hero / Sam Twiston-Davies
+  - star rows: J Meissa → J Haumea RA 102.9884 103 whole (17.67) — also: 7 King Ulanda / Jack Tudor
+  - star rows: J Meissa → J Gonggong RA 114.8487 71×φ golden (0.04) — only
+  - star rows: J Meissa → J Ketu RA 63.9997 64 whole (96.86) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+  - MATCH EXACT: H Castor → Ketu RA 137.5433 85×φ golden (46.18)
+  - MATCH EXACT: J Algol → Mercury RA 137.5367 85×φ golden (77.66)
+  - MATCH EXACT: J Regulus → Pallas RA 137.5605 85×φ golden (2.14)
+- 6 Star Of Guiting / Craig Nichol
+  - star rows: H Meissa → H Orcus Dec 20.9971 21 whole (72.86) — also: 7 King Ulanda / Jack Tudor
+  - star rows: H Meissa → H Quaoar RA 168.0031 168 whole (71.33) — only
+  - star rows: H Meissa → H Ketu Dec 31.9910 32 whole (30.33) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+  - star rows: J Meissa → J Makemake RA 90.0160 90 whole (3.92) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+  - MATCH EXACT: J Vindemiatrix → Mercury RA 137.5420 85×φ golden (51.74)
+- 7 King Ulanda / Jack Tudor
+  - star rows: H Meissa → H Vesta RA 10.0117 10 whole (17.27) — only
+  - star rows: H Meissa → H Haumea RA 131.0483 81×φ golden (37.82) — also: 5 Lyssenko / Harry Skelton
+  - star rows: J Meissa → J Makemake Dec 22.0149 22 whole (6.62) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+  - star rows: J Meissa → J Orcus RA 55.0082 55 whole (34.65) — also: 6 Star Of Guiting / Craig Nichol
+  - star rows: J Meissa → J Transpluto RA 64.0017 64 whole (83.47) — also: 3 Manuelito / Harry Cobden
+  - MATCH EXACT: J Deneb → Vesta RA 137.5011 85×φ golden (0.03)
+#### 7. S Sun → Zubenelgenubi Dec 0.0643 conj (61.74) — runners with cells 7/7
+- Moon confirms: none
+- 1 Dedicated Hero / Sam Twiston-Davies
+  - star rows: H Zubenelgenubi → H Juno Dec 28.9962 29 whole (65.34) — only
+  - star rows: H Zubenelgenubi → H Transpluto Dec 27.0197 27 whole (0.02) — only
+  - star rows: J Zubenelgenubi → J Chiron RA 81.0167 81 whole (2.72) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+  - star rows: J Zubenelgenubi → J Eris RA 159.9987 160 whole (86.99) — only
+  - MATCH CONJ STAR: H Zubenelgenubi → Juno Dec 28.9962 29 whole (65.34)
+  - MATCH CONJ STAR: S Jupiter → H body → Venus Dec 21.0022 21 whole (79.50)
+  - MATCH CONJ STAR: J Zubenelgenubi → Eris RA 159.9987 160 whole (86.99)
+- 2 Bucephalus / Harriet Tucker
+  - star rows: H Zubenelgenubi → H Mercury RA 163.4203 101×φ golden (93.23) — also: 5 Lyssenko / Harry Skelton
+  - star rows: H Zubenelgenubi → H Mars RA 149.9967 150 whole (69.92) — also: 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - star rows: H Zubenelgenubi → H Sedna RA 166.6327 166.667 ninth (97.09) — also: 7 King Ulanda / Jack Tudor
+  - star rows: S Zubenelgenubi → J Jupiter Dec 7.0023 7 whole (78.21) — also: 6 Star Of Guiting / Craig Nichol
+  - star rows: J Zubenelgenubi → J Uranus Dec 5.0025 5 whole (76.86) — also: 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
+  - star rows: J Zubenelgenubi → J Ceres RA 0.3363 conj (60.18) — only
+  - star rows: J Zubenelgenubi → J Haumea RA 29.0032 29 whole (70.65) — only
+  - natal Jupiter → star: J Jupiter → J star Zubenelgenubi Dec 7.0026 7 whole (75.39) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - MATCH CONJ STAR: H Zubenelgenubi → Mercury RA 163.4203 101×φ golden (93.23)
+  - MATCH CONJ STAR: H Zubenelgenubi → Mars RA 149.9967 150 whole (69.92)
+  - MATCH CONJ STAR: H Zubenelgenubi → Sedna RA 166.6327 166.667 ninth (97.09)
+  - MATCH CONJ STAR: S Jupiter → H body → Uranus RA 123.0028 123 whole (74.14)
+  - MATCH CONJ STAR: S Jupiter → H body → Neptune RA 161.8076 100×φ^1 phi power (98.96)
+  - MATCH CONJ STAR: S Jupiter → H body → Vesta Dec 9.9986 10 whole (86.82)
+  - MATCH CONJ STAR: J Zubenelgenubi → Jupiter Dec 7.0026 7 whole (75.39)
+  - MATCH CONJ STAR: J Zubenelgenubi → Uranus Dec 5.0025 5 whole (76.86)
+  - MATCH CONJ STAR: J Zubenelgenubi → Ceres RA 0.3363 conj (60.18)
+  - MATCH CONJ STAR: J Zubenelgenubi → Haumea RA 29.0032 29 whole (70.65)
+  - MATCH CONJ STAR: S Jupiter → J body → Saturn RA 156.9975 157 whole (76.23)
+  - MATCH CONJ STAR: S Jupiter → J body → Transpluto RA 0.3733 conj (56.42)
+- 3 Manuelito / Harry Cobden
+  - star rows: H Zubenelgenubi → H Saturn RA 74.9930 75 whole (42.11) — only
+  - star rows: H Zubenelgenubi → H Uranus RA 167.9900 168 whole (25.08) — also: 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton
+  - star rows: H Zubenelgenubi → H Neptune Dec 10.0069 10 whole (42.83) — also: 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - star rows: J Zubenelgenubi → J Venus RA 0.4725 conj (46.92) — also: 5 Lyssenko / Harry Skelton
+  - star rows: J Zubenelgenubi → J Chiron Dec 0.1943 conj (12.42) — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+  - star rows: J Zubenelgenubi → J Makemake Dec 47.9873 48 whole (13.31) — also: 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+  - MATCH CONJ STAR: S Jupiter → J body → Orcus RA 8.9964 9 whole (67.51)
+- 4 All In You / Sean Bowen
+  - star rows: H Zubenelgenubi → H Mars RA 122.2710 122.222 ninth (93.25) — also: 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - star rows: H Zubenelgenubi → H Neptune RA 129.0121 129 whole (15.68) — also: 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - star rows: H Zubenelgenubi → H Neptune Dec 11.3281 7×φ golden (89.11) — also: 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - star rows: H Zubenelgenubi → H Chiron RA 143.9807 144 whole (0.13) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol
+  - star rows: H Zubenelgenubi → H Makemake Dec 39.9836 40 whole (3.31) — also: 3 Manuelito / Harry Cobden, 7 King Ulanda / Jack Tudor
+  - star rows: J Zubenelgenubi → J Mars RA 1.3104 conj (1.60) — also: 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - star rows: J Zubenelgenubi → J Gonggong Dec 2.0009 2 whole (91.19) — also: 7 King Ulanda / Jack Tudor
+  - star rows: J Zubenelgenubi → J Ketu Dec 11.9809 12 whole (0.20) — also: 6 Star Of Guiting / Craig Nichol
+  - MATCH CONJ STAR: H Zubenelgenubi → Mars RA 122.2710 122.222 ninth (93.25)
+  - MATCH CONJ STAR: H Zubenelgenubi → Neptune Dec 11.3281 7×φ golden (89.11)
+  - MATCH CONJ STAR: J Zubenelgenubi → Gonggong Dec 2.0009 2 whole (91.19)
+  - MATCH CONJ STAR: S Jupiter → J body → Pluto Dec 22.6560 14×φ golden (79.59)
+  - MATCH CONJ STAR: S Jupiter → J body → Pallas RA 137.9998 138 whole (98.26)
+  - MATCH CONJ STAR: S Jupiter → J body → Transpluto RA 0.1349 conj (82.83)
+- 5 Lyssenko / Harry Skelton
+  - star rows: H Zubenelgenubi → H Mars Dec 39.9961 40 whole (64.73) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+  - star rows: H Zubenelgenubi → H Uranus Dec 29.9998 30 whole (98.18) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden
+  - star rows: H Zubenelgenubi → H Neptune RA 129.4283 80×φ golden (30.71) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+  - star rows: J Zubenelgenubi → J Mercury Dec 9.9963 10 whole (66.44) — also: 2 Bucephalus / Harriet Tucker
+  - star rows: J Zubenelgenubi → J Venus Dec 0.2933 conj (0.05) — also: 3 Manuelito / Harry Cobden
+  - MATCH CONJ STAR: H Zubenelgenubi → Mars Dec 39.9961 40 whole (64.73)
+  - MATCH CONJ STAR: H Zubenelgenubi → Uranus Dec 29.9998 30 whole (98.18)
+  - MATCH CONJ STAR: S Jupiter → H body → Uranus Dec 0.0370 conj (76.86)
+  - MATCH CONJ STAR: S Jupiter → H body → Transpluto RA 7.0034 7 whole (69.19)
+  - MATCH CONJ STAR: J Zubenelgenubi → Mercury Dec 9.9963 10 whole (66.44)
+- 6 Star Of Guiting / Craig Nichol
+  - star rows: S Zubenelgenubi → H Jupiter RA 107.9881 108 whole (16.33) — also: 2 Bucephalus / Harriet Tucker
+  - star rows: H Zubenelgenubi → H Chiron RA 146.0020 146 whole (80.66) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+  - star rows: H Zubenelgenubi → H Ketu Dec 6.0141 6 whole (8.63) — also: 4 All In You / Sean Bowen
+  - star rows: S Zubenelgenubi → J Jupiter RA 0.1817 conj (77.24) — also: 2 Bucephalus / Harriet Tucker
+  - star rows: J Zubenelgenubi → J Sun RA 110.0295 68×φ golden (81.04) — only
+  - star rows: J Zubenelgenubi → J Pallas RA 127.8567 79×φ golden (0.01) — only
+  - star rows: J Zubenelgenubi → J Ketu RA 166.6902 166.667 ninth (97.98) — also: 4 All In You / Sean Bowen
+  - natal Jupiter → star: J Jupiter → J star Zubenelgenubi RA 0.1898 conj (76.30) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - MATCH CONJ STAR: H Zubenelgenubi → Chiron RA 146.0020 146 whole (80.66)
+  - MATCH CONJ STAR: J Zubenelgenubi → Sun RA 110.0295 68×φ golden (81.04)
+  - MATCH CONJ STAR: J Zubenelgenubi → Jupiter RA 0.1898 conj (76.30)
+  - MATCH CONJ STAR: J Zubenelgenubi → Ketu RA 166.6902 166.667 ninth (97.98)
+  - MATCH CONJ STAR: S Jupiter → J body → Jupiter Dec 28.9951 29 whole (57.13)
+- 7 King Ulanda / Jack Tudor
+  - star rows: H Zubenelgenubi → H Mars Dec 0.1739 conj (17.68) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+  - star rows: H Zubenelgenubi → H Neptune Dec 11.0918 φ^5 phi power (94.16) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+  - star rows: H Zubenelgenubi → H Pluto Dec 5.9845 6 whole (4.98) — only
+  - star rows: H Zubenelgenubi → H Sedna RA 165.0699 102×φ golden (0.37) — also: 2 Bucephalus / Harriet Tucker
+  - star rows: J Zubenelgenubi → J Rahu RA 145.6428 90×φ golden (15.16) — only
+  - star rows: J Zubenelgenubi → J Sedna RA 174.7387 108×φ golden (52.19) — also: 2 Bucephalus / Harriet Tucker
+  - star rows: J Zubenelgenubi → J Makemake Dec 47.9915 48 whole (33.03) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+  - star rows: J Zubenelgenubi → J Gonggong Dec 0.2856 conj (0.23) — also: 4 All In You / Sean Bowen
+  - MATCH CONJ STAR: H Zubenelgenubi → Neptune Dec 11.0918 φ^5 phi power (94.16)
+  - MATCH CONJ STAR: S Jupiter → H body → Neptune RA 155.9989 156 whole (89.21)
+  - MATCH CONJ STAR: J Zubenelgenubi → Sedna RA 174.7387 108×φ golden (52.19)
+#### 8. S Sun → Deneb Algedi Dec 0.1531 conj (23.98) — runners with cells 7/7
+- Moon confirms: none
+- 1 Dedicated Hero / Sam Twiston-Davies
+  - star rows: J Deneb Algedi → J Ceres Dec 13.9890 14 whole (20.40) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen
+  - star rows: J Deneb Algedi → J Pallas RA 56.9906 57 whole (28.00) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+- 2 Bucephalus / Harriet Tucker
+  - star rows: H Deneb Algedi → H Pallas Dec 16.9804 17 whole (0.04) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+  - star rows: H Deneb Algedi → H Orcus Dec 7.0005 7 whole (95.14) — only
+  - star rows: J Deneb Algedi → J Neptune RA 31.0135 31 whole (10.54) — also: 6 Star Of Guiting / Craig Nichol
+  - star rows: J Deneb Algedi → J Ceres Dec 6.4728 4×φ golden (96.03) — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen
+  - star rows: J Deneb Algedi → J Pallas RA 127.0146 127 whole (7.20) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+  - star rows: J Deneb Algedi → J Transpluto RA 179.9936 180 whole (45.91) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+- 3 Manuelito / Harry Cobden
+  - star rows: H Deneb Algedi → H Mercury Dec 8.0022 8 whole (79.56) — only
+  - star rows: H Deneb Algedi → H Pluto Dec 5.9801 6 whole (0.00) — also: 4 All In You / Sean Bowen
+  - star rows: H Deneb Algedi → H Pallas Dec 22.0080 22 whole (35.97) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen
+  - star rows: H Deneb Algedi → H Haumea RA 111.0039 111 whole (65.19) — also: 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+  - star rows: J Deneb Algedi → J Chiron Dec 0.2813 conj (0.39) — also: 4 All In You / Sean Bowen
+  - star rows: J Deneb Algedi → J Transpluto RA 178.9886 179 whole (18.70) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+- 4 All In You / Sean Bowen
+  - star rows: H Deneb Algedi → H Pluto Dec 6.0172 6 whole (1.99) — also: 3 Manuelito / Harry Cobden
+  - star rows: H Deneb Algedi → H Chiron Dec 21.9822 22 whole (1.16) — also: 3 Manuelito / Harry Cobden
+  - star rows: H Deneb Algedi → H Ceres RA 17.7953 11×φ golden (82.16) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker
+  - star rows: H Deneb Algedi → H Pallas Dec 37.0123 37 whole (14.92) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden
+  - star rows: H Deneb Algedi → H Transpluto RA 173.1310 107×φ golden (91.65) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 7 King Ulanda / Jack Tudor
+  - star rows: J Deneb Algedi → J Venus RA 126.2154 78×φ golden (53.46) — also: 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - star rows: J Deneb Algedi → J Haumea RA 133.0056 133 whole (52.17) — also: 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
+- 5 Lyssenko / Harry Skelton
+  - star rows: H Deneb Algedi → H Ketu Dec 6.1805 10×φ^-1 phi power (98.79) — only
+  - star rows: S Deneb Algedi → J Jupiter RA 132.6721 82×φ golden (62.72) — only
+  - star rows: S Deneb Algedi → J Jupiter Dec 38.9986 39 whole (86.72) — only
+  - star rows: J Deneb Algedi → J Rahu RA 1.0206 conj (10.21) — only
+  - star rows: J Deneb Algedi → J Haumea RA 139.9906 140 whole (28.28) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+  - star rows: J Deneb Algedi → J Quaoar Dec 2.9973 3 whole (74.63) — also: 6 Star Of Guiting / Craig Nichol
+  - natal Jupiter → star: J Jupiter → J star Deneb Algedi RA 132.6713 82×φ golden (58.97) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - natal Jupiter → star: J Jupiter → J star Deneb Algedi Dec 38.9942 39 whole (50.53) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+- 6 Star Of Guiting / Craig Nichol
+  - star rows: H Deneb Algedi → H Venus Dec 34.0122 34 whole (15.35) — also: 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+  - star rows: H Deneb Algedi → H Neptune Dec 12.0097 12 whole (26.33) — also: 2 Bucephalus / Harriet Tucker
+  - star rows: H Deneb Algedi → H Quaoar RA 50.9833 51 whole (2.76) — also: 5 Lyssenko / Harry Skelton
+  - star rows: J Deneb Algedi → J Sun RA 5.9967 6 whole (69.44) — only
+  - star rows: J Deneb Algedi → J Venus RA 14.1482 14.14 sqrt2 (83.68) — also: 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+- 7 King Ulanda / Jack Tudor
+  - star rows: H Deneb Algedi → H Mars Dec 0.0884 conj (49.73) — only
+  - star rows: H Deneb Algedi → H Juno Dec 20.9907 21 whole (28.72) — only
+  - star rows: H Deneb Algedi → H Vesta RA 107.0086 107 whole (32.51) — only
+  - star rows: H Deneb Algedi → H Vesta Dec 37.2151 23×φ golden (97.78) — only
+  - star rows: H Deneb Algedi → H Transpluto RA 173.1175 107×φ golden (39.04) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+  - star rows: J Deneb Algedi → J Venus Dec 40.0163 40 whole (3.43) — also: 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+  - star rows: J Deneb Algedi → J Juno Dec 29.0319 φ^7 phi power (96.48) — only
+  - star rows: J Deneb Algedi → J Gonggong Dec 0.2016 conj (10.75) — only
+### READ 3 Jupiter / Sun lines to bodies (not followed)
+- S Jupiter → Uranus RA 84.9947 85 whole (54.32)
+- S Sun → Haumea RA 0.5930 conj (36.56)
+### READ 4 Moon only, not active (confirm no lead line; not followed)
+- S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+- S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+- S Moon → Facies Dec 14.9988 15 whole (88.35)
+- S Moon → Makemake RA 12.9972 13 whole (73.81)
+- S Moon → Menkar Dec 12.9970 13 whole (72.51)
+- S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+
 ## 1 Dedicated Hero / Sam Twiston-Davies
 ### L1 same bodies
 - S Sun → H Sun RA 155.3704 155.556 ninth (loose)

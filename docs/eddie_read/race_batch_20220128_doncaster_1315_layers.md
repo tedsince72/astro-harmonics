@@ -21,6 +21,566 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Moon → Alphecca RA 21.9974 22 whole (76.10)
 - Hubs: none
 
+## READ (reading order, Eddie 7 Nov 2026)
+### READ 1 same body first
+- **1 Funambule Sivola / Charlie Deutsch**
+  - S Uranus → H Uranus RA 26.0088 26 whole (31.35)
+  - S Pluto → H Pluto Dec 1.9858 2 whole (8.28)
+  - S Vesta → H Vesta RA 24.1362 24.14 silver (loose)
+  - S Rahu → H Rahu RA 134.3072 83×φ golden (loose)
+  - S Gonggong → H Gonggong RA 1.4131 1.414 sqrt2 (loose)
+  - S Ketu → H Ketu RA 134.3072 83×φ golden (loose)
+  - S Pluto → J Pluto RA 57.0054 57 whole (53.12)
+  - S Chiron → J Chiron RA 179.2894 10×φ^6 phi power (loose)
+  - S Ceres → J Ceres Dec 38.0221 38 whole (loose)
+  - S Rahu → J Rahu Dec 25.8685 16×φ golden (loose)
+  - S Eris → J Eris RA 2.2278 2.22222 ninth (loose)
+  - S Sedna → J Sedna RA 12.9676 8×φ golden (loose)
+  - S Sedna → J Sedna Dec 3.0131 3 whole (11.92)
+  - S Orcus → J Orcus Dec 13.3135 13.3333 ninth (loose)
+  - S Quaoar → J Quaoar Dec 1.3334 1.33333 ninth (99.25)
+  - S Ketu → J Ketu Dec 25.8685 16×φ golden (loose)
+- **2 Before Midnight / James Bowen**
+  - S Orcus → H Orcus RA 9.0175 9 whole (1.61)
+  - S Transpluto → H Transpluto Dec 1.3273 1.33333 ninth (loose)
+  - S Sun → J Sun Dec 15.0044 15 whole (60.47)
+  - S Venus → J Venus RA 92.0007 92 whole (93.06)
+  - S Venus → J Venus Dec 30.0043 30 whole (61.74)
+  - S Neptune → J Neptune RA 41.9881 42 whole (16.53)
+  - S Chiron → J Chiron RA 99.0026 99 whole (75.88)
+  - S Ceres → J Ceres RA 133.0993 133.333 ninth (loose)
+  - S Pallas → J Pallas Dec 21.9874 22 whole (13.54)
+  - S Juno → J Juno RA 74.3987 46×φ golden (loose)
+  - S Juno → J Juno Dec 12.9792 13 whole (loose)
+  - S Makemake → J Makemake RA 18.7921 18.8889 ninth (loose)
+  - S Orcus → J Orcus RA 18.7638 18.8889 ninth (loose)
+  - S Quaoar → J Quaoar RA 27.0052 27 whole (54.75)
+- **3 The Big Bite / Brian Hughes**
+  - S Sun → H Sun RA 87.0001 87 whole (99.34)
+  - S Mars → H Mars RA 122.1601 122.222 ninth (loose)
+  - S Juno → H Juno RA 14.1278 14.14 sqrt2 (loose)
+  - S Orcus → H Orcus RA 9.0089 9 whole (30.64)
+  - S Mercury → J Mercury Dec 42.3260 10×φ^3 phi power (loose)
+  - S Mars → J Mars RA 176.7544 177.778 ninth (loose)
+  - S Uranus → J Uranus RA 143.7322 144.444 ninth (loose)
+  - S Neptune → J Neptune Dec 17.6598 17.7778 ninth (loose)
+  - S Pluto → J Pluto RA 83.0093 83 whole (28.53)
+  - S Juno → J Juno Dec 18.8598 18.8889 ninth (loose)
+  - S Rahu → J Rahu RA 11.1118 11.1111 ninth (98.93)
+  - S Eris → J Eris Dec 8.8863 8.88889 ninth (loose)
+  - S Sedna → J Sedna RA 18.0233 18 whole (loose)
+  - S Orcus → J Orcus Dec 18.8632 18.8889 ninth (loose)
+  - S Quaoar → J Quaoar RA 48.9953 49 whole (58.50)
+  - S Gonggong → J Gonggong Dec 10.0201 10 whole (loose)
+  - S Ketu → J Ketu RA 11.1118 11.1111 ninth (98.93)
+- **4 King D'argent / Harry Skelton**
+  - S Mercury → H Mercury Dec 1.0208 1 whole (loose)
+  - S Jupiter → H Jupiter RA 161.9572 100×φ^1 phi power (loose)
+  - S Pluto → H Pluto Dec 1.9987 2 whole (87.62)
+  - S Ceres → H Ceres RA 133.9295 133.333 ninth (loose)
+  - S Ceres → H Ceres Dec 43.6547 27×φ golden (loose)
+  - S Rahu → H Rahu RA 133.3945 133.333 ninth (92.66)
+  - S Eris → H Eris Dec 1.7764 1.77778 ninth (loose)
+  - S Ketu → H Ketu RA 133.3945 133.333 ninth (92.66)
+  - S Sun → J Sun RA 132.8640 133.333 ninth (loose)
+  - S Saturn → J Saturn Dec 5.5539 5.55556 ninth (loose)
+  - S Ceres → J Ceres Dec 1.6685 1.66667 ninth (loose)
+  - S Vesta → J Vesta Dec 4.4407 4.44444 ninth (loose)
+  - S Rahu → J Rahu RA 88.8732 88.8889 ninth (loose)
+  - S Sedna → J Sedna Dec 4.0067 4 whole (44.52)
+  - S Haumea → J Haumea RA 30.7725 19×φ golden (loose)
+  - S Quaoar → J Quaoar RA 44.0281 44 whole (loose)
+  - S Ketu → J Ketu RA 88.8732 88.8889 ninth (loose)
+- **5 Fransham / Jack Andrews**
+  - S Sun → H Sun Dec 30.7231 19×φ golden (loose)
+  - S Mercury → H Mercury Dec 28.0013 28 whole (87.21)
+  - S Venus → H Venus Dec 11.0868 φ^5 phi power (loose)
+  - S Rahu → H Rahu Dec 30.7326 19×φ golden (loose)
+  - S Sedna → H Sedna RA 4.1451 4.14 silver (loose)
+  - S Quaoar → H Quaoar RA 9.9996 10 whole (97.09)
+  - S Ketu → H Ketu Dec 30.7326 19×φ golden (loose)
+  - S Mars → J Mars Dec 14.1828 14.14 sqrt2 (loose)
+  - S Vesta → J Vesta Dec 42.0251 42 whole (loose)
+- **6 Moonlighter / Tom Scudamore**
+  - S Sun → H Sun RA 86.9999 87 whole (99.28)
+  - S Mars → H Mars RA 122.1600 122.222 ninth (loose)
+  - S Juno → H Juno RA 14.1278 14.14 sqrt2 (loose)
+  - S Orcus → H Orcus RA 9.0089 9 whole (30.67)
+  - S Mars → J Mars Dec 24.1727 24.14 silver (loose)
+  - S Jupiter → J Jupiter Dec 0.8880 0.888889 ninth (loose)
+  - S Saturn → J Saturn Dec 13.2661 13.3333 ninth (loose)
+  - S Juno → J Juno Dec 7.0259 7 whole (loose)
+  - S Transpluto → J Transpluto RA 14.1021 14.14 sqrt2 (loose)
+- **7 Gold Des Bois / Conor O'Farrell**
+  - S Mercury → H Mercury RA 53.0169 53 whole (2.44)
+  - S Mercury → H Mercury Dec 10.9772 11 whole (loose)
+  - S Venus → H Venus RA 45.9788 46 whole (loose)
+  - S Mars → H Mars RA 71.9870 72 whole (12.27)
+  - S Mars → H Mars Dec 17.9441 φ^6 phi power (99.71)
+  - S Neptune → H Neptune RA 14.0007 14 whole (93.21)
+  - S Chiron → H Chiron RA 23.0059 23 whole (50.00)
+  - S Chiron → H Chiron Dec 6.9702 7 whole (loose)
+  - S Ceres → H Ceres RA 154.9735 155 whole (loose)
+  - S Ceres → H Ceres Dec 16.6751 16.6667 ninth (loose)
+  - S Pallas → H Pallas Dec 14.4552 14.4444 ninth (loose)
+  - S Vesta → H Vesta RA 70.7067 70.7 sqrt2 (loose)
+  - S Rahu → H Rahu Dec 30.7319 19×φ golden (loose)
+  - S Eris → H Eris Dec 1.7721 1.77778 ninth (loose)
+  - S Haumea → H Haumea Dec 3.0113 3 whole (18.96)
+  - S Orcus → H Orcus Dec 4.1454 4.14 silver (loose)
+  - S Gonggong → H Gonggong Dec 1.7740 1.77778 ninth (loose)
+  - S Ketu → H Ketu Dec 30.7319 19×φ golden (loose)
+  - S Venus → J Venus Dec 27.5301 17×φ golden (loose)
+  - S Jupiter → J Jupiter RA 111.1165 111.111 ninth (99.12)
+  - S Jupiter → J Jupiter Dec 33.2687 33.3333 ninth (loose)
+  - S Juno → J Juno Dec 18.9968 19 whole (70.54)
+  - S Eris → J Eris RA 2.9796 3 whole (loose)
+  - S Makemake → J Makemake Dec 13.2689 13.3333 ninth (loose)
+  - S Orcus → J Orcus Dec 16.6626 16.6667 ninth (96.48)
+  - S Quaoar → J Quaoar RA 44.3571 44.4444 ninth (loose)
+  - S Transpluto → J Transpluto RA 11.1254 11.1111 ninth (loose)
+### READ 2 Jupiter / Sun star lines, highest score first, each in full
+#### 1. S Sun → Alnilam RA 133.3574 133.333 ninth (97.11) — runners with cells 7/7
+- Moon confirms: none
+- 1 Funambule Sivola / Charlie Deutsch
+  - star rows: S Alnilam → J Jupiter RA 156.9344 97×φ golden (29.21) — only
+  - star rows: J Alnilam → J Venus RA 4.0052 4 whole (54.76) — also: 2 Before Midnight / James Bowen
+  - star rows: J Alnilam → J Neptune Dec 19.0030 19 whole (72.00) — also: 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
+  - star rows: J Alnilam → J Quaoar Dec 12.9425 8×φ golden (89.44) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
+  - MATCH EXACT: H Orion Nebula Cluster → Mercury RA 133.3366 133.333 ninth (99.61)
+  - MATCH EXACT: J Rigel → Pallas RA 133.3204 133.333 ninth (98.45)
+  - MATCH EXACT: J Algorab → Mercury RA 133.3552 133.333 ninth (97.37)
+- 2 Before Midnight / James Bowen
+  - star rows: H Alnilam → H Ceres Dec 29.9817 30 whole (0.76) — also: 4 King D'argent / Harry Skelton
+  - star rows: H Alnilam → H Orcus RA 63.9957 64 whole (61.33) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
+  - star rows: J Alnilam → J Sun Dec 1.9867 2 whole (11.18) — only
+  - star rows: J Alnilam → J Venus Dec 15.0016 15 whole (84.20) — also: 1 Funambule Sivola / Charlie Deutsch
+  - star rows: J Alnilam → J Chiron Dec 16.6634 16.6667 ninth (97.23) — also: 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
+  - star rows: J Alnilam → J Ceres RA 161.0185 161 whole (0.53) — also: 4 King D'argent / Harry Skelton
+  - star rows: J Alnilam → J Gonggong Dec 15.5555 15.5556 ninth (99.97) — only
+  - MATCH EXACT: J Algorab → Saturn RA 133.3426 133.333 ninth (98.88)
+  - MATCH EXACT: J Sadalmelik → Haumea RA 133.3630 133.333 ninth (96.44)
+  - same number: S Ceres → J Ceres RA 133.0993 133.333 ninth (loose) — also: 4 King D'argent / Harry Skelton
+- 3 The Big Bite / Brian Hughes
+  - star rows: H Alnilam → H Chiron RA 102.0020 102 whole (80.56) — also: 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
+  - star rows: H Alnilam → H Vesta RA 7.9878 8 whole (15.09) — also: 6 Moonlighter / Tom Scudamore
+  - star rows: H Alnilam → H Orcus RA 64.0040 64 whole (64.00) — also: 2 Before Midnight / James Bowen, 6 Moonlighter / Tom Scudamore
+  - star rows: J Alnilam → J Vesta Dec 0.1743 conj (17.55) — also: 6 Moonlighter / Tom Scudamore
+  - star rows: J Alnilam → J Quaoar Dec 11.0123 11 whole (14.85) — also: 1 Funambule Sivola / Charlie Deutsch, 6 Moonlighter / Tom Scudamore
+  - star rows: J Alnilam → J Transpluto RA 58.0117 58 whole (17.13) — also: 7 Gold Des Bois / Conor O'Farrell
+  - star rows: J Alnilam → J Ketu RA 141.4982 141.4 sqrt2 (79.46) — also: 4 King D'argent / Harry Skelton, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: J Alnilam → J Ketu Dec 15.9955 16 whole (60.32) — also: 4 King D'argent / Harry Skelton, 7 Gold Des Bois / Conor O'Farrell
+- 4 King D'argent / Harry Skelton
+  - star rows: H Alnilam → H Ceres RA 161.8519 100×φ^1 phi power (88.37) — also: 2 Before Midnight / James Bowen
+  - star rows: H Alnilam → H Pallas RA 173.1061 107×φ golden (7.36) — only
+  - star rows: H Alnilam → H Rahu RA 105.9954 106 whole (59.19) — only
+  - star rows: H Alnilam → H Eris Dec 2.0000 2 whole (99.61) — also: 7 Gold Des Bois / Conor O'Farrell
+  - star rows: H Alnilam → H Makemake Dec 27.0004 27 whole (96.53) — only
+  - star rows: H Alnilam → H Ketu RA 74.0046 74 whole (59.19) — also: 3 The Big Bite / Brian Hughes, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: J Alnilam → J Neptune Dec 20.9871 21 whole (12.66) — also: 1 Funambule Sivola / Charlie Deutsch, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
+  - star rows: J Alnilam → J Pluto Dec 0.0421 conj (73.93) — also: 7 Gold Des Bois / Conor O'Farrell
+  - star rows: J Alnilam → J Juno Dec 1.0180 1 whole (0.96) — only
+  - MATCH EXACT: H Al Rescha → Pallas RA 133.3476 133.333 ninth (98.28)
+  - MATCH EXACT: J Pleiades → Juno RA 133.3040 133.333 ninth (96.47)
+  - MATCH EXACT: J Vindemiatrix → Gonggong RA 133.3963 133.333 ninth (92.45)
+  - same number: S Ceres → H Ceres RA 133.9295 133.333 ninth (loose) — also: 2 Before Midnight / James Bowen
+  - same number: S Rahu → H Rahu RA 133.3945 133.333 ninth (92.66) — also: 2 Before Midnight / James Bowen
+  - same number: S Ketu → H Ketu RA 133.3945 133.333 ninth (92.66) — also: 2 Before Midnight / James Bowen
+  - same number: S Sun → J Sun RA 132.8640 133.333 ninth (loose) — also: 2 Before Midnight / James Bowen
+- 5 Fransham / Jack Andrews
+  - star rows: H Alnilam → H Mars RA 109.0152 109 whole (5.85) — only
+  - star rows: H Alnilam → H Chiron Dec 0.1318 conj (31.43) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
+  - star rows: J Alnilam → J Uranus RA 124.5934 77×φ golden (72.60) — only
+  - star rows: J Alnilam → J Neptune RA 137.5329 85×φ golden (99.77) — also: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore
+  - star rows: J Alnilam → J Chiron Dec 15.0158 15 whole (4.45) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
+- 6 Moonlighter / Tom Scudamore
+  - star rows: H Alnilam → H Chiron RA 102.0021 102 whole (80.47) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews
+  - star rows: H Alnilam → H Vesta RA 7.9877 8 whole (14.96) — also: 3 The Big Bite / Brian Hughes
+  - star rows: H Alnilam → H Orcus RA 64.0040 64 whole (63.98) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes
+  - star rows: J Alnilam → J Mercury RA 10.0193 10 whole (0.13) — only
+  - star rows: J Alnilam → J Neptune RA 177.7338 177.778 ninth (96.56) — also: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews
+  - star rows: J Alnilam → J Haumea RA 95.0013 95 whole (87.08) — only
+  - star rows: J Alnilam → J Quaoar RA 139.9947 140 whole (53.66) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes
+- 7 Gold Des Bois / Conor O'Farrell
+  - star rows: H Alnilam → H Eris Dec 1.9951 2 whole (56.90) — also: 4 King D'argent / Harry Skelton
+  - star rows: J Alnilam → J Pluto RA 140.7728 87×φ golden (77.71) — also: 4 King D'argent / Harry Skelton
+  - star rows: J Alnilam → J Transpluto Dec 15.5542 15.5556 ninth (98.71) — also: 3 The Big Bite / Brian Hughes
+  - star rows: J Alnilam → J Ketu Dec 14.0125 14 whole (14.13) — also: 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton
+  - MATCH EXACT: H Fomalhaut → Ceres RA 133.3009 133.333 ninth (96.11)
+  - MATCH EXACT: J Zubenelgenubi → Jupiter RA 133.3496 133.333 ninth (98.05)
+#### 2. S Sun → Rasalhague RA 46.9701 φ^8 phi power (92.79) — runners with cells 6/7
+- Moon confirms: none
+- 1 Funambule Sivola / Charlie Deutsch
+  - star rows: H Rasalhague → H Uranus Dec 7.9967 8 whole (70.12) — also: 5 Fransham / Jack Andrews
+  - star rows: H Rasalhague → H Juno RA 136.0148 136 whole (6.81) — only
+  - star rows: J Rasalhague → J Mars Dec 6.9908 7 whole (28.92) — only
+  - star rows: J Rasalhague → J Neptune RA 35.5978 22×φ golden (93.64) — only
+  - star rows: J Rasalhague → J Gonggong RA 67.9578 42×φ golden (97.64) — also: 3 The Big Bite / Brian Hughes
+- 2 Before Midnight / James Bowen
+  - star rows: H Rasalhague → H Jupiter Dec 10.0100 10 whole (25.11) — also: 3 The Big Bite / Brian Hughes
+  - star rows: H Rasalhague → H Sedna RA 150.0019 150 whole (81.69) — also: 6 Moonlighter / Tom Scudamore
+  - star rows: H Rasalhague → H Quaoar RA 1.1713 conj (4.80) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
+  - star rows: J Rasalhague → J Sun RA 88.8831 88.8889 ninth (95.82) — also: 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: J Rasalhague → J Eris RA 119.7049 74×φ golden (0.73) — only
+  - star rows: J Rasalhague → J Transpluto RA 116.0088 116 whole (31.54) — also: 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
+  - same number: S Sun → H Ceres Dec 46.9735 φ^8 phi power (95.61) — also: 3 The Big Bite / Brian Hughes
+- 3 The Big Bite / Brian Hughes
+  - star rows: H Rasalhague → H Saturn Dec 24.1473 24.14 silver (91.70) — also: 6 Moonlighter / Tom Scudamore
+  - star rows: H Rasalhague → H Quaoar RA 1.2114 conj (3.70) — also: 2 Before Midnight / James Bowen, 6 Moonlighter / Tom Scudamore
+  - star rows: J Rasalhague → J Jupiter Dec 28.9951 29 whole (57.07) — also: 2 Before Midnight / James Bowen
+  - star rows: J Rasalhague → J Venus Dec 0.1513 conj (24.56) — only
+  - star rows: J Rasalhague → J Gonggong Dec 33.9707 21×φ golden (56.82) — also: 1 Funambule Sivola / Charlie Deutsch
+  - natal Jupiter → star: J Jupiter → J star Rasalhague Dec 28.9951 29 whole (57.07) — also: 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
+  - MATCH EXACT: J Ankaa → Jupiter RA 46.9776 φ^8 phi power (99.04)
+  - same number: J Jupiter → J star Ankaa RA 46.9776 φ^8 phi power (99.04) — also: 2 Before Midnight / James Bowen
+  - same number: S Ankaa → J Jupiter RA 46.9785 φ^8 phi power (99.78) — also: 2 Before Midnight / James Bowen
+- 4 King D'argent / Harry Skelton: nothing
+- 5 Fransham / Jack Andrews
+  - star rows: H Rasalhague → H Sun Dec 0.0287 conj (81.76) — also: 2 Before Midnight / James Bowen, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: H Rasalhague → H Vesta Dec 9.0053 9 whole (54.06) — also: 7 Gold Des Bois / Conor O'Farrell
+  - star rows: H Rasalhague → H Transpluto RA 111.9916 112 whole (33.63) — also: 2 Before Midnight / James Bowen, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: J Rasalhague → J Uranus Dec 29.0139 29 whole (9.39) — also: 1 Funambule Sivola / Charlie Deutsch
+- 6 Moonlighter / Tom Scudamore
+  - star rows: H Rasalhague → H Saturn Dec 24.1473 24.14 silver (91.70) — also: 3 The Big Bite / Brian Hughes
+  - star rows: H Rasalhague → H Quaoar RA 1.2114 conj (3.70) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes
+  - star rows: J Rasalhague → J Pallas Dec 10.0109 10 whole (20.54) — also: 7 Gold Des Bois / Conor O'Farrell
+  - star rows: J Rasalhague → J Sedna RA 134.9972 135 whole (73.85) — also: 2 Before Midnight / James Bowen
+  - star rows: J Rasalhague → J Orcus RA 142.3981 88×φ golden (43.19) — only
+- 7 Gold Des Bois / Conor O'Farrell
+  - star rows: H Rasalhague → H Sun RA 106.7812 66×φ golden (51.91) — also: 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews
+  - star rows: H Rasalhague → H Pallas RA 119.7122 74×φ golden (9.56) — also: 6 Moonlighter / Tom Scudamore
+  - star rows: H Rasalhague → H Transpluto Dec 1.0000 1 whole (99.51) — also: 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews
+  - star rows: J Rasalhague → J Vesta RA 4.9913 5 whole (31.74) — also: 5 Fransham / Jack Andrews
+  - star rows: J Rasalhague → J Ketu Dec 0.2492 conj (2.86) — only
+  - MATCH EXACT: J Rukbat → Juno Dec 46.9734 φ^8 phi power (95.56)
+#### 3. S Sun → Kaus Australis Dec 16.1896 10×φ^1 phi power (78.44) — runners with cells 7/7
+- Moon confirms: none
+- 1 Funambule Sivola / Charlie Deutsch
+  - star rows: J Kaus Australis → J Mercury Dec 49.9906 50 whole (28.05) — also: 6 Moonlighter / Tom Scudamore
+  - star rows: J Kaus Australis → J Venus RA 163.9932 164 whole (43.61) — also: 4 King D'argent / Harry Skelton
+  - MATCH EXACT: H Murzim → Chiron Dec 16.1824 10×φ^1 phi power (95.06)
+  - MATCH EXACT: J Spica → Sedna Dec 16.1805 10×φ^1 phi power (99.49)
+- 2 Before Midnight / James Bowen
+  - star rows: H Kaus Australis → H Chiron Dec 32.3661 20×φ golden (69.43) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
+  - star rows: H Kaus Australis → H Orcus RA 128.0019 128 whole (81.54) — also: 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
+  - star rows: J Kaus Australis → J Ceres RA 6.9939 7 whole (48.39) — also: 3 The Big Bite / Brian Hughes
+  - MATCH EXACT: J Difda → Orcus Dec 16.1804 10×φ^1 phi power (99.86)
+- 3 The Big Bite / Brian Hughes
+  - star rows: H Kaus Australis → H Chiron RA 66.0008 66 whole (91.98) — also: 2 Before Midnight / James Bowen, 6 Moonlighter / Tom Scudamore
+  - star rows: H Kaus Australis → H Vesta RA 175.9906 176 whole (28.28) — also: 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore
+  - star rows: H Kaus Australis → H Orcus RA 127.9931 128 whole (43.12) — also: 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
+  - star rows: H Kaus Australis → H Quaoar RA 11.0971 φ^5 phi power (76.52) — also: 6 Moonlighter / Tom Scudamore
+  - star rows: H Kaus Australis → H Gonggong Dec 21.0393 13×φ golden (72.08) — also: 6 Moonlighter / Tom Scudamore
+  - star rows: J Kaus Australis → J Jupiter Dec 17.9495 φ^6 phi power (88.75) — only
+  - star rows: J Kaus Australis → J Ceres RA 177.7801 177.778 ninth (99.82) — also: 2 Before Midnight / James Bowen
+  - star rows: J Kaus Australis → J Transpluto RA 133.9903 134 whole (26.29) — also: 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews
+  - natal Jupiter → star: J Jupiter → J star Kaus Australis Dec 17.9495 φ^6 phi power (88.75) — also: 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
+  - MATCH EXACT: H Altair → Orcus Dec 16.1883 10×φ^1 phi power (81.40)
+  - MATCH EXACT: J Altair → Mercury Dec 16.1834 10×φ^1 phi power (92.49)
+- 4 King D'argent / Harry Skelton
+  - star rows: H Kaus Australis → H Venus Dec 26.0086 26 whole (32.68) — also: 1 Funambule Sivola / Charlie Deutsch
+  - star rows: H Kaus Australis → H Saturn RA 34.0199 34 whole (0.00) — only
+  - star rows: H Kaus Australis → H Rahu RA 85.9853 86 whole (7.04) — only
+  - star rows: H Kaus Australis → H Ketu RA 94.0147 94 whole (7.04) — only
+  - star rows: J Kaus Australis → J Vesta RA 0.4469 conj (49.29) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
+  - star rows: J Kaus Australis → J Sedna RA 126.2315 78×φ golden (5.45) — only
+  - star rows: J Kaus Australis → J Transpluto Dec 48.5448 30×φ golden (77.81) — also: 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews
+  - MATCH EXACT: H Acubens → Rahu Dec 16.1830 10×φ^1 phi power (93.61)
+- 5 Fransham / Jack Andrews
+  - star rows: H Kaus Australis → H Mars RA 82.9807 83 whole (0.13) — only
+  - star rows: H Kaus Australis → H Transpluto Dec 45.9825 46 whole (1.51) — also: 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton
+  - star rows: J Kaus Australis → J Sun RA 148.8502 92×φ golden (52.25) — only
+  - star rows: J Kaus Australis → J Orcus Dec 34.0123 34 whole (14.99) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
+  - MATCH EXACT: J Al Rescha → Sedna RA 16.1845 10×φ^1 phi power (89.99)
+- 6 Moonlighter / Tom Scudamore
+  - star rows: H Kaus Australis → H Chiron RA 66.0008 66 whole (92.01) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes
+  - star rows: H Kaus Australis → H Vesta RA 175.9906 176 whole (28.14) — also: 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton
+  - star rows: H Kaus Australis → H Orcus RA 127.9931 128 whole (43.06) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews
+  - star rows: H Kaus Australis → H Quaoar RA 11.0971 φ^5 phi power (76.53) — also: 3 The Big Bite / Brian Hughes
+  - star rows: H Kaus Australis → H Gonggong Dec 21.0393 13×φ golden (72.09) — also: 3 The Big Bite / Brian Hughes
+  - star rows: J Kaus Australis → J Mercury RA 157.9803 158 whole (0.02) — also: 1 Funambule Sivola / Charlie Deutsch
+  - star rows: J Kaus Australis → J Haumea RA 96.9991 97 whole (91.48) — only
+  - star rows: J Kaus Australis → J Quaoar RA 52.0058 52 whole (50.31) — also: 3 The Big Bite / Brian Hughes
+  - MATCH EXACT: H Altair → Orcus Dec 16.1883 10×φ^1 phi power (81.39)
+- 7 Gold Des Bois / Conor O'Farrell
+  - star rows: H Kaus Australis → H Pallas RA 132.0199 132 whole (0.00) — only
+  - star rows: J Kaus Australis → J Eris RA 106.7910 66×φ golden (95.26) — only
+  - star rows: J Kaus Australis → J Eris Dec 25.0019 25 whole (81.93) — only
+  - star rows: J Kaus Australis → J Makemake Dec 70.0014 70 whole (86.59) — only
+#### 4. S Sun → Deneb RA 0.3500 conj (58.78) — runners with cells 7/7
+- Moon confirms: none
+- 1 Funambule Sivola / Charlie Deutsch
+  - star rows: H Deneb → H Mercury RA 0.1393 conj (82.29) — also: 5 Fransham / Jack Andrews
+  - star rows: H Deneb → H Ceres Dec 69.5702 43×φ golden (69.96) — also: 2 Before Midnight / James Bowen, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: H Deneb → H Rahu Dec 49.9931 50 whole (42.60) — also: 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: H Deneb → H Quaoar Dec 61.0156 61 whole (4.92) — also: 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton
+  - star rows: J Deneb → J Juno Dec 42.0147 42 whole (7.11) — only
+  - star rows: J Deneb → J Sedna RA 94.9881 95 whole (16.60) — also: 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: J Deneb → J Makemake RA 135.9317 84×φ golden (22.95) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
+  - star rows: J Deneb → J Orcus RA 176.3771 109×φ golden (41.82) — also: 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews
+  - MATCH CONJ STAR: H Deneb → Mercury RA 0.1393 conj (82.29)
+  - MATCH CONJ STAR: H Deneb → Ceres Dec 69.5702 43×φ golden (69.96)
+  - MATCH CONJ STAR: S Jupiter → H body → Uranus RA 34.0018 34 whole (83.15)
+  - MATCH CONJ STAR: S Jupiter → H body → Neptune RA 0.1075 conj (86.18)
+  - MATCH CONJ STAR: S Jupiter → H body → Sedna RA 76.0033 76 whole (69.68)
+  - MATCH CONJ STAR: S Jupiter → H body → Gonggong Dec 3.0026 3 whole (75.56)
+- 2 Before Midnight / James Bowen
+  - star rows: H Deneb → H Ceres RA 150.4506 93×φ golden (3.23) — also: 1 Funambule Sivola / Charlie Deutsch, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: H Deneb → H Makemake RA 119.7404 74×φ golden (66.91) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
+  - star rows: H Deneb → H Makemake Dec 17.9883 18 whole (17.14) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
+  - star rows: J Deneb → J Neptune RA 0.1446 conj (81.65) — also: 4 King D'argent / Harry Skelton, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: J Deneb → J Vesta Dec 49.9876 50 whole (14.39) — only
+  - MATCH CONJ STAR: H Deneb → Makemake RA 119.7404 74×φ golden (66.91)
+  - MATCH CONJ STAR: S Jupiter → H body → Eris Dec 6.8547 φ^4 phi power (96.68)
+  - MATCH CONJ STAR: S Jupiter → H body → Transpluto RA 173.1384 107×φ golden (53.21)
+  - MATCH CONJ STAR: S Jupiter → H body → Ketu Dec 26.9945 27 whole (52.47)
+  - MATCH CONJ STAR: J Deneb → Neptune RA 0.1446 conj (81.65)
+  - MATCH CONJ STAR: S Jupiter → J body → Mercury RA 11.1137 11.1111 ninth (95.82)
+  - MATCH CONJ STAR: S Jupiter → J body → Mercury Dec 3.9966 4 whole (68.87)
+  - MATCH CONJ STAR: S Jupiter → J body → Mars RA 87.0012 87 whole (88.56)
+  - MATCH CONJ STAR: S Jupiter → J body → Quaoar RA 88.8818 88.8889 ninth (94.91)
+  - MATCH CONJ STAR: S Jupiter → J body → Rahu Dec 33.0020 33 whole (80.95)
+- 3 The Big Bite / Brian Hughes
+  - star rows: H Deneb → H Makemake Dec 17.9866 18 whole (10.74) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 6 Moonlighter / Tom Scudamore
+  - star rows: J Deneb → J Uranus Dec 67.9876 68 whole (14.62) — also: 4 King D'argent / Harry Skelton
+  - star rows: J Deneb → J Quaoar RA 82.9807 83 whole (0.12) — also: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton
+  - MATCH CONJ STAR: S Jupiter → H body → Ceres Dec 38.9989 39 whole (89.52)
+  - MATCH CONJ STAR: S Jupiter → J body → Pallas RA 70.7191 70.7 sqrt2 (95.27)
+  - MATCH CONJ STAR: S Jupiter → J body → Juno RA 155.5511 155.556 ninth (99.58)
+  - MATCH CONJ STAR: S Jupiter → J body → Eris RA 44.0041 44 whole (63.00)
+- 4 King D'argent / Harry Skelton
+  - star rows: H Deneb → H Sun Dec 60.9870 61 whole (12.30) — only
+  - star rows: H Deneb → H Neptune RA 27.9990 28 whole (90.21) — also: 2 Before Midnight / James Bowen, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: H Deneb → H Haumea Dec 27.9884 28 whole (17.82) — also: 5 Fransham / Jack Andrews
+  - star rows: H Deneb → H Quaoar RA 43.0093 43 whole (28.50) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes
+  - star rows: H Deneb → H Quaoar Dec 61.0035 61 whole (68.21) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes
+  - star rows: H Deneb → H Transpluto Dec 34.0127 34 whole (13.35) — only
+  - star rows: J Deneb → J Uranus Dec 68.9867 69 whole (11.15) — also: 3 The Big Bite / Brian Hughes
+  - star rows: J Deneb → J Orcus RA 179.6308 111×φ golden (1.08) — also: 1 Funambule Sivola / Charlie Deutsch, 5 Fransham / Jack Andrews
+  - star rows: J Deneb → J Quaoar RA 78.0127 78 whole (13.28) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes
+  - MATCH CONJ STAR: H Deneb → Neptune RA 27.9990 28 whole (90.21)
+  - MATCH CONJ STAR: H Deneb → Quaoar Dec 61.0035 61 whole (68.21)
+  - MATCH CONJ STAR: S Jupiter → H body → Neptune RA 0.0944 conj (87.81)
+  - MATCH CONJ STAR: S Jupiter → H body → Sedna RA 75.9967 76 whole (69.38)
+- 5 Fransham / Jack Andrews
+  - star rows: H Deneb → H Chiron RA 34.9953 35 whole (58.54) — only
+  - star rows: H Deneb → H Haumea Dec 26.9996 27 whole (96.43) — also: 4 King D'argent / Harry Skelton
+  - star rows: J Deneb → J Mercury RA 117.9890 118 whole (20.42) — also: 1 Funambule Sivola / Charlie Deutsch
+  - star rows: J Deneb → J Pluto RA 61.0183 61 whole (0.70) — only
+  - star rows: J Deneb → J Rahu Dec 29.1226 18×φ golden (87.89) — also: 1 Funambule Sivola / Charlie Deutsch, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: J Deneb → J Orcus RA 173.9934 174 whole (44.86) — also: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton
+  - MATCH CONJ STAR: H Deneb → Chiron RA 34.9953 35 whole (58.54)
+  - MATCH CONJ STAR: H Deneb → Haumea Dec 26.9996 27 whole (96.43)
+  - MATCH CONJ STAR: S Jupiter → H body → Venus RA 12.0033 12 whole (69.57)
+  - MATCH CONJ STAR: S Jupiter → H body → Mars Dec 6.6664 6.66667 ninth (98.01)
+  - MATCH CONJ STAR: S Jupiter → H body → Eris Dec 7.0713 7.07 sqrt2 (98.91)
+  - MATCH CONJ STAR: S Jupiter → H body → Makemake Dec 36.9996 37 whole (96.35)
+  - MATCH CONJ STAR: S Jupiter → H body → Ketu Dec 20.9978 21 whole (79.57)
+  - MATCH CONJ STAR: J Deneb → Rahu Dec 29.1226 18×φ golden (87.89)
+- 6 Moonlighter / Tom Scudamore
+  - star rows: H Deneb → H Makemake Dec 17.9866 18 whole (10.75) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes
+  - star rows: J Deneb → J Sedna Dec 41.9949 42 whole (55.45) — also: 1 Funambule Sivola / Charlie Deutsch, 7 Gold Des Bois / Conor O'Farrell
+  - MATCH CONJ STAR: S Jupiter → H body → Ceres Dec 38.9989 39 whole (89.64)
+  - MATCH CONJ STAR: J Deneb → Sedna Dec 41.9949 42 whole (55.45)
+- 7 Gold Des Bois / Conor O'Farrell
+  - star rows: J Deneb → J Mars RA 162.0164 162 whole (3.30) — only
+  - star rows: J Deneb → J Jupiter RA 139.0058 139 whole (50.71) — only
+  - star rows: J Deneb → J Neptune RA 29.0183 29 whole (0.73) — also: 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton
+  - star rows: J Deneb → J Ceres RA 122.0079 122 whole (36.82) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen
+  - star rows: J Deneb → J Rahu RA 17.9995 18 whole (95.51) — also: 1 Funambule Sivola / Charlie Deutsch, 5 Fransham / Jack Andrews
+  - star rows: J Deneb → J Sedna RA 91.9882 92 whole (16.70) — also: 1 Funambule Sivola / Charlie Deutsch, 6 Moonlighter / Tom Scudamore
+  - star rows: J Deneb → J Ketu RA 162.0005 162 whole (95.51) — only
+  - natal Jupiter → star: J Jupiter → J star Deneb RA 139.0058 139 whole (50.71) — also: 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
+  - MATCH CONJ STAR: S Jupiter → H body → Neptune RA 0.0597 conj (92.19)
+  - MATCH CONJ STAR: S Jupiter → H body → Ketu Dec 20.9971 21 whole (73.02)
+  - MATCH CONJ STAR: J Deneb → Jupiter RA 139.0058 139 whole (50.71)
+  - MATCH CONJ STAR: J Deneb → Rahu RA 17.9995 18 whole (95.51)
+  - MATCH CONJ STAR: J Deneb → Ketu RA 162.0005 162 whole (95.51)
+  - MATCH CONJ STAR: S Jupiter → J body → Jupiter RA 111.1165 111.111 ninth (99.12)
+#### 5. S Jupiter → Zubeneschamali RA 109.0051 109 whole (55.36) — runners with cells 7/7
+- Moon confirms: none
+- 1 Funambule Sivola / Charlie Deutsch
+  - star rows: H Zubeneschamali → H Uranus RA 143.0064 143 whole (46.27) — only
+  - star rows: H Zubeneschamali → H Sedna RA 174.9921 175 whole (36.37) — also: 4 King D'argent / Harry Skelton, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: H Zubeneschamali → H Makemake RA 35.5931 22×φ golden (78.75) — also: 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: J Zubeneschamali → J Sun Dec 32.3641 20×φ golden (80.01) — only
+  - star rows: J Zubeneschamali → J Mercury Dec 24.9904 25 whole (27.07) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: J Zubeneschamali → J Ceres RA 16.0106 16 whole (22.30) — also: 6 Moonlighter / Tom Scudamore
+- 2 Before Midnight / James Bowen
+  - star rows: H Zubeneschamali → H Pallas RA 179.4304 10×φ^6 phi power (97.27) — also: 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: J Zubeneschamali → J Mars RA 21.9993 22 whole (92.94) — also: 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: J Zubeneschamali → J Mars Dec 12.2292 12.2222 ninth (90.31) — also: 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
+- 3 The Big Bite / Brian Hughes
+  - star rows: H Zubeneschamali → H Mercury RA 156.9614 97×φ golden (39.35) — also: 1 Funambule Sivola / Charlie Deutsch, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: J Zubeneschamali → J Eris RA 153.0024 153 whole (77.36) — also: 4 King D'argent / Harry Skelton, 7 Gold Des Bois / Conor O'Farrell
+- 4 King D'argent / Harry Skelton
+  - star rows: H Zubeneschamali → H Venus Dec 1.0077 1 whole (37.74) — also: 5 Fransham / Jack Andrews
+  - star rows: H Zubeneschamali → H Eris Dec 6.1800 10×φ^-1 phi power (98.02) — also: 3 The Big Bite / Brian Hughes, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: H Zubeneschamali → H Sedna RA 174.9993 175 whole (92.98) — also: 1 Funambule Sivola / Charlie Deutsch, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: J Zubeneschamali → J Chiron RA 122.9085 φ^10 phi power (74.73) — only
+  - star rows: J Zubeneschamali → J Eris Dec 0.2131 conj (8.39) — also: 3 The Big Bite / Brian Hughes, 7 Gold Des Bois / Conor O'Farrell
+- 5 Fransham / Jack Andrews
+  - star rows: H Zubeneschamali → H Venus RA 121.0017 121 whole (83.76) — also: 4 King D'argent / Harry Skelton
+  - star rows: H Zubeneschamali → H Saturn RA 0.0716 conj (90.68) — also: 7 Gold Des Bois / Conor O'Farrell
+  - star rows: H Zubeneschamali → H Neptune Dec 0.2732 conj (0.80) — only
+  - star rows: H Zubeneschamali → H Transpluto Dec 20.9830 21 whole (2.32) — only
+  - star rows: H Zubeneschamali → H Ketu RA 156.9174 97×φ golden (0.02) — only
+  - star rows: J Zubeneschamali → J Mars Dec 0.2936 conj (0.05) — also: 2 Before Midnight / James Bowen, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: J Zubeneschamali → J Makemake Dec 42.3672 10×φ^3 phi power (93.93) — also: 1 Funambule Sivola / Charlie Deutsch, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: J Zubeneschamali → J Orcus Dec 9.0125 9 whole (14.22) — only
+  - MATCH EXACT: H Arcturus → Jupiter RA 109.0025 109 whole (76.67)
+  - MATCH EXACT: H Vega → Mercury RA 108.9963 109 whole (66.60)
+  - MATCH EXACT: H Alnilam → Mars RA 109.0152 109 whole (5.85)
+  - MATCH EXACT: J Praesepe → Chiron RA 108.9940 109 whole (49.24)
+  - MATCH EXACT: J Altair → Sedna RA 108.9925 109 whole (39.11)
+  - MATCH EXACT: J Diadem → Neptune RA 109.0145 109 whole (7.53)
+  - same number: H Jupiter → H star Arcturus RA 109.0025 109 whole (76.67) — only
+  - same number: H Alnilam → H Mars RA 109.0152 109 whole (5.85) — only
+  - same number: H Arcturus → H Jupiter RA 109.0025 109 whole (76.67) — only
+- 6 Moonlighter / Tom Scudamore
+  - star rows: H Zubeneschamali → H Mercury RA 156.9613 97×φ golden (39.75) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: J Zubeneschamali → J Ceres Dec 0.1080 conj (40.94) — also: 1 Funambule Sivola / Charlie Deutsch
+  - star rows: J Zubeneschamali → J Pallas RA 36.0177 36 whole (1.37) — also: 2 Before Midnight / James Bowen, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: J Zubeneschamali → J Vesta RA 94.0151 94 whole (5.90) — only
+- 7 Gold Des Bois / Conor O'Farrell
+  - star rows: H Zubeneschamali → H Mercury RA 122.2028 122.222 ninth (97.31) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
+  - star rows: H Zubeneschamali → H Saturn RA 1.3778 conj (0.66) — also: 5 Fransham / Jack Andrews
+  - star rows: H Zubeneschamali → H Haumea Dec 27.5100 17×φ golden (80.19) — only
+  - star rows: J Zubeneschamali → J Mars RA 80.9043 50×φ golden (84.29) — also: 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews
+  - star rows: J Zubeneschamali → J Pallas RA 147.0179 147 whole (1.15) — also: 2 Before Midnight / James Bowen, 6 Moonlighter / Tom Scudamore
+  - star rows: J Zubeneschamali → J Eris Dec 0.0002 conj (99.84) — also: 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton
+  - star rows: J Zubeneschamali → J Sedna RA 173.1002 107×φ golden (0.81) — also: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton
+  - star rows: J Zubeneschamali → J Makemake Dec 44.9993 45 whole (92.70) — also: 1 Funambule Sivola / Charlie Deutsch, 5 Fransham / Jack Andrews
+#### 6. S Sun → Alkes Dec 0.1028 conj (43.21) — runners with cells 7/7
+- Moon confirms: none
+- 1 Funambule Sivola / Charlie Deutsch
+  - star rows: H Alkes → H Pluto RA 120.0075 120 whole (39.10) — also: 6 Moonlighter / Tom Scudamore
+  - star rows: H Alkes → H Chiron RA 179.4429 10×φ^6 phi power (99.95) — only
+  - star rows: H Alkes → H Ceres Dec 5.9921 6 whole (36.65) — also: 4 King D'argent / Harry Skelton
+  - star rows: H Alkes → H Rahu RA 26.0187 26 whole (0.42) — also: 7 Gold Des Bois / Conor O'Farrell
+  - star rows: H Alkes → H Eris RA 139.9945 140 whole (52.88) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton
+  - star rows: H Alkes → H Ketu RA 153.9813 154 whole (0.42) — also: 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: H Alkes → H Ketu Dec 23.0122 23 whole (15.05) — also: 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: J Alkes → J Pallas RA 47.0057 47 whole (51.36) — only
+  - star rows: J Alkes → J Pallas Dec 43.0128 43 whole (13.09) — only
+  - star rows: J Alkes → J Rahu RA 28.9924 29 whole (38.51) — also: 7 Gold Des Bois / Conor O'Farrell
+  - star rows: J Alkes → J Gonggong Dec 0.2349 conj (4.72) — also: 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: J Alkes → J Transpluto Dec 31.9887 32 whole (19.03) — only
+  - star rows: J Alkes → J Ketu RA 151.0076 151 whole (38.51) — also: 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
+- 2 Before Midnight / James Bowen
+  - star rows: H Alkes → H Venus RA 115.0108 115 whole (21.14) — also: 4 King D'argent / Harry Skelton
+  - star rows: H Alkes → H Neptune RA 171.9941 172 whole (49.86) — only
+  - star rows: H Alkes → H Neptune Dec 7.9804 8 whole (0.04) — only
+  - star rows: H Alkes → H Eris Dec 14.9835 15 whole (3.11) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton
+  - star rows: H Alkes → H Orcus Dec 11.0021 11 whole (80.02) — also: 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
+  - star rows: J Alkes → J Uranus RA 160.1769 99×φ golden (54.75) — also: 5 Fransham / Jack Andrews
+  - star rows: J Alkes → J Neptune Dec 0.1450 conj (26.70) — only
+- 3 The Big Bite / Brian Hughes
+  - star rows: H Alkes → H Mars Dec 31.9875 32 whole (14.23) — also: 6 Moonlighter / Tom Scudamore
+  - star rows: H Alkes → H Orcus Dec 10.9803 11 whole (0.03) — also: 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
+  - star rows: H Alkes → H Quaoar RA 100.0046 100 whole (59.21) — also: 6 Moonlighter / Tom Scudamore
+  - star rows: J Alkes → J Eris Dec 7.9875 8 whole (14.24) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 4 King D'argent / Harry Skelton
+  - star rows: J Alkes → J Sedna Dec 21.9821 22 whole (1.12) — also: 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: J Alkes → J Orcus Dec 24.9802 25 whole (0.01) — also: 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
+- 4 King D'argent / Harry Skelton
+  - star rows: H Alkes → H Venus RA 179.0155 179 whole (5.11) — also: 2 Before Midnight / James Bowen
+  - star rows: H Alkes → H Ceres Dec 6.0082 6 whole (34.99) — also: 1 Funambule Sivola / Charlie Deutsch
+  - star rows: J Alkes → J Eris RA 142.3814 88×φ golden (68.48) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes
+  - star rows: J Alkes → J Gonggong RA 163.9965 164 whole (67.89) — also: 1 Funambule Sivola / Charlie Deutsch, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
+- 5 Fransham / Jack Andrews
+  - star rows: H Alkes → H Uranus Dec 23.0166 23 whole (2.81) — also: 2 Before Midnight / James Bowen
+  - star rows: H Alkes → H Orcus RA 16.0108 16 whole (21.05) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
+  - star rows: H Alkes → H Ketu Dec 29.1267 18×φ golden (87.53) — also: 1 Funambule Sivola / Charlie Deutsch, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: J Alkes → J Saturn RA 126.0153 126 whole (5.63) — only
+- 6 Moonlighter / Tom Scudamore
+  - star rows: H Alkes → H Mars Dec 31.9875 32 whole (14.19) — also: 3 The Big Bite / Brian Hughes
+  - star rows: H Alkes → H Orcus Dec 10.9803 11 whole (0.03) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews
+  - star rows: H Alkes → H Quaoar RA 100.0046 100 whole (59.25) — also: 3 The Big Bite / Brian Hughes
+  - star rows: J Alkes → J Pluto Dec 25.0148 25 whole (6.80) — also: 1 Funambule Sivola / Charlie Deutsch
+  - star rows: J Alkes → J Sedna RA 126.2117 78×φ golden (71.27) — also: 3 The Big Bite / Brian Hughes, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: J Alkes → J Makemake RA 5.9992 6 whole (92.29) — only
+  - star rows: J Alkes → J Gonggong Dec 3.9975 4 whole (76.15) — also: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton, 7 Gold Des Bois / Conor O'Farrell
+- 7 Gold Des Bois / Conor O'Farrell
+  - star rows: H Alkes → H Mercury Dec 12.0019 12 whole (81.71) — only
+  - star rows: H Alkes → H Sedna RA 111.0038 111 whole (66.00) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
+  - star rows: H Alkes → H Ketu Dec 29.1257 18×φ golden (93.24) — also: 1 Funambule Sivola / Charlie Deutsch, 5 Fransham / Jack Andrews
+  - star rows: J Alkes → J Rahu RA 163.4243 101×φ golden (82.85) — also: 1 Funambule Sivola / Charlie Deutsch
+  - star rows: J Alkes → J Gonggong Dec 2.0042 2 whole (62.06) — also: 1 Funambule Sivola / Charlie Deutsch, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore
+#### 7. S Sun → Sualocin RA 0.7960 conj (22.03) — runners with cells 7/7
+- Moon confirms: none
+- 1 Funambule Sivola / Charlie Deutsch
+  - star rows: H Sualocin → H Mercury RA 0.5854 conj (37.18) — only
+  - star rows: J Sualocin → J Venus Dec 6.9812 7 whole (0.34) — only
+  - star rows: J Sualocin → J Saturn RA 56.6334 35×φ golden (87.00) — also: 5 Fransham / Jack Andrews
+  - star rows: J Sualocin → J Pluto RA 67.9997 68 whole (97.14) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: J Sualocin → J Gonggong Dec 33.9767 21×φ golden (87.80) — also: 5 Fransham / Jack Andrews
+  - star rows: J Sualocin → J Transpluto Dec 2.2228 2.22222 ninth (91.96) — also: 3 The Big Bite / Brian Hughes
+- 2 Before Midnight / James Bowen
+  - star rows: H Sualocin → H Sun Dec 0.1645 conj (20.39) — also: 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: H Sualocin → H Pluto Dec 35.5984 22×φ golden (90.14) — also: 1 Funambule Sivola / Charlie Deutsch, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: H Sualocin → H Orcus RA 161.8653 100×φ^1 phi power (85.29) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
+  - star rows: H Sualocin → H Quaoar RA 45.0006 45 whole (94.08) — only
+  - star rows: J Sualocin → J Neptune RA 0.3023 conj (63.76) — also: 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: J Sualocin → J Sedna RA 96.9973 97 whole (74.72) — also: 3 The Big Bite / Brian Hughes
+- 3 The Big Bite / Brian Hughes
+  - star rows: H Sualocin → H Jupiter RA 126.2103 78×φ golden (78.87) — also: 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
+  - star rows: H Sualocin → H Mars Dec 2.2228 2.22222 ninth (92.29) — also: 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
+  - star rows: H Sualocin → H Pluto Dec 35.5955 22×φ golden (92.39) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: H Sualocin → H Chiron Dec 17.9809 18 whole (0.19) — also: 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: H Sualocin → H Orcus RA 161.8565 100×φ^1 phi power (87.31) — also: 2 Before Midnight / James Bowen, 6 Moonlighter / Tom Scudamore
+  - star rows: J Sualocin → J Pluto RA 94.0040 94 whole (64.29) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: J Sualocin → J Sedna Dec 12.2299 12.2222 ninth (89.40) — also: 2 Before Midnight / James Bowen
+  - star rows: J Sualocin → J Haumea Dec 8.0149 8 whole (6.47) — only
+  - star rows: J Sualocin → J Transpluto Dec 0.9847 1 whole (5.54) — also: 1 Funambule Sivola / Charlie Deutsch
+  - natal Jupiter → star: H Jupiter → H star Sualocin RA 126.2103 78×φ golden (78.87) — also: 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
+- 4 King D'argent / Harry Skelton
+  - star rows: J Sualocin → J Chiron Dec 0.2080 conj (9.40) — also: 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: J Sualocin → J Juno RA 119.7349 74×φ golden (97.50) — only
+- 5 Fransham / Jack Andrews
+  - star rows: H Sualocin → H Jupiter RA 155.0046 155 whole (59.55) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
+  - star rows: H Sualocin → H Mars Dec 19.4149 12×φ golden (90.76) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
+  - star rows: H Sualocin → H Pluto Dec 36.0198 36 whole (0.01) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: H Sualocin → H Chiron Dec 16.9809 17 whole (0.22) — also: 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: H Sualocin → H Vesta RA 106.0007 106 whole (93.11) — only
+  - star rows: H Sualocin → H Eris Dec 19.0100 19 whole (24.75) — also: 6 Moonlighter / Tom Scudamore
+  - star rows: H Sualocin → H Gonggong Dec 29.0056 29 whole (51.56) — also: 1 Funambule Sivola / Charlie Deutsch
+  - star rows: J Sualocin → J Jupiter RA 72.9966 73 whole (69.25) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
+  - star rows: J Sualocin → J Sun RA 114.9868 115 whole (11.63) — also: 2 Before Midnight / James Bowen, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: J Sualocin → J Mars RA 107.0051 107 whole (55.82) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore
+  - star rows: J Sualocin → J Saturn RA 89.0169 89 whole (2.37) — also: 1 Funambule Sivola / Charlie Deutsch
+  - star rows: J Sualocin → J Uranus Dec 32.3649 20×φ golden (75.79) — also: 6 Moonlighter / Tom Scudamore
+  - star rows: J Sualocin → J Pluto Dec 25.9921 26 whole (36.40) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: J Sualocin → J Ceres RA 146.9954 147 whole (59.41) — only
+  - star rows: J Sualocin → J Ceres Dec 11.0198 11 whole (0.01) — only
+  - star rows: J Sualocin → J Rahu Dec 0.2438 conj (3.51) — only
+  - natal Jupiter → star: H Jupiter → H star Sualocin RA 155.0046 155 whole (59.55) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
+  - natal Jupiter → star: J Jupiter → J star Sualocin RA 72.9966 73 whole (69.25) — also: 3 The Big Bite / Brian Hughes, 6 Moonlighter / Tom Scudamore, 7 Gold Des Bois / Conor O'Farrell
+- 6 Moonlighter / Tom Scudamore
+  - star rows: H Sualocin → H Jupiter RA 126.2103 78×φ golden (78.95) — also: 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews
+  - star rows: H Sualocin → H Mars Dec 2.2228 2.22222 ninth (92.16) — also: 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews
+  - star rows: H Sualocin → H Pluto Dec 35.5955 22×φ golden (92.38) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: H Sualocin → H Chiron Dec 17.9809 18 whole (0.19) — also: 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: H Sualocin → H Orcus RA 161.8565 100×φ^1 phi power (87.31) — also: 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes
+  - star rows: J Sualocin → J Uranus RA 68.9869 69 whole (11.86) — also: 5 Fransham / Jack Andrews
+  - star rows: J Sualocin → J Neptune Dec 37.9915 38 whole (33.35) — also: 2 Before Midnight / James Bowen, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: J Sualocin → J Chiron RA 101.9289 63×φ golden (60.07) — also: 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: J Sualocin → J Chiron Dec 0.2064 conj (9.74) — also: 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
+  - star rows: J Sualocin → J Eris Dec 26.9832 27 whole (2.61) — also: 5 Fransham / Jack Andrews
+  - natal Jupiter → star: H Jupiter → H star Sualocin RA 126.2103 78×φ golden (78.95) — also: 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 7 Gold Des Bois / Conor O'Farrell
+- 7 Gold Des Bois / Conor O'Farrell
+  - star rows: H Sualocin → H Pluto Dec 36.0166 36 whole (2.84) — also: 1 Funambule Sivola / Charlie Deutsch, 2 Before Midnight / James Bowen, 3 The Big Bite / Brian Hughes, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
+  - star rows: J Sualocin → J Sun RA 176.9947 177 whole (54.23) — also: 2 Before Midnight / James Bowen, 5 Fransham / Jack Andrews
+  - star rows: J Sualocin → J Neptune Dec 38.0123 38 whole (14.72) — also: 2 Before Midnight / James Bowen, 6 Moonlighter / Tom Scudamore
+  - star rows: J Sualocin → J Chiron Dec 1.0036 1 whole (67.51) — also: 3 The Big Bite / Brian Hughes, 4 King D'argent / Harry Skelton, 5 Fransham / Jack Andrews, 6 Moonlighter / Tom Scudamore
+### READ 3 Jupiter / Sun lines to bodies (not followed)
+- none
+### READ 4 Moon only, not active (confirm no lead line; not followed)
+- S Moon → Ankaa RA 110.9011 10×φ^5 phi power (99.77)
+- S Moon → Arcturus Dec 44.4493 44.4444 ninth (94.82)
+- S Moon → Menkent RA 44.0012 44 whole (88.65)
+- S Moon → Alphecca RA 21.9974 22 whole (76.10)
+- S Moon → Adhara RA 151.0059 151 whole (50.02)
+
 ## 1 Funambule Sivola / Charlie Deutsch
 ### L1 same bodies
 - S Uranus → H Uranus RA 26.0088 26 whole (31.35)

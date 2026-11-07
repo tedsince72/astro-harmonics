@@ -90,5 +90,45 @@ check('Makemake' in {it['label'] for it in items(L, r, 1)}, 'All In You Makemake
 check('J Sun' in {it['label'] for it in items(L, r, 2)}, 'All In You J Sun both planes')
 check(any('J Makemake Dec 13.0023' in c for it in items(L, r, 3) for c in it['cells']), 'All In You J Makemake 13 = sky')
 check(any(it['label'].startswith('4 = 360/90') for it in items(L, r, 4)), 'All In You Sedna 4 = 360/90')
+
+# ---- READ (reading order, Eddie 7 Nov 2026): own recompute on every race
+STARS_EXTRA = None
+for f in sorted(glob.glob(f'{D}/*_eddie_read.json')):
+    race = os.path.basename(f)[11:-16]
+    S, L = load(race)
+    rd = L['read']
+    stars = set(S['noted_stars']) | {p['star'] for p in S['pieces'] if p.get('star')}
+    def t(l):
+        fam = 'conj' if l['family'] == 'conj' else f"{l['target']} {l['family']}"
+        return f"S {l['centre']} → {l['point']} {l['plane']} {l['value']:.4f} {fam} ({l['score']:.2f})"
+    lead = [l for l in S['lines'] if l['centre'] in ('Jupiter', 'Sun') and l['point'] in stars]
+    check(sorted(t(l) for l in lead) == sorted(x['line'] for x in rd['lead']), f'{race} READ lead set')
+    sc = [float(x['line'].rsplit('(', 1)[1][:-1]) for x in rd['lead']]
+    check(sc == sorted(sc, reverse=True), f'{race} READ lead order by score')
+    bl = [l for l in S['lines'] if l['centre'] in ('Jupiter', 'Sun') and l['point'] not in stars]
+    check(sorted(t(l) for l in bl) == sorted(rd['body_lines']), f'{race} READ body lines')
+    num = lambda l: None if l['family'] == 'conj' else (l['family'], l['target'])
+    moon = [l for l in S['lines'] if l['centre'] == 'Moon']
+    conf = {t(m) for m in moon for l in lead if m['point'] == l['point'] or (num(m) and num(m) == num(l))}
+    check(conf == {m for x in rd['lead'] for m in x['moon']}, f'{race} READ Moon confirmations')
+    check(sorted(t(m) for m in moon if t(m) not in conf) == sorted(rd['moon_only']), f'{race} READ Moon only')
+    for x, l in zip(rd['lead'], sorted(lead, key=lambda l: (-l['score'], {'Jupiter': 0, 'Sun': 1}[l['centre']], l['point'], l['plane']))):
+        for pr in x['per_runner']:
+            r = pr['runner']
+            want = sum(1 for p in S['pieces'] if p['runner'] == r and p['layer'] == 'star rows' and p.get('star') == l['point'])
+            got = sum(1 for c in pr['cells'] if c['part'] == 'star rows')
+            check(got <= want and (want == 0) == (got == 0), f"{race} {x['line']} {r} star rows {got}/{want}")
+            m = sum(1 for q in S['match'].get(r, []) if (q['centre'], q['point'], q['plane']) == (l['centre'], l['point'], l['plane']))
+            check(m == sum(1 for c in pr['cells'] if c['part'].startswith('MATCH')), f"{race} {x['line']} {r} MATCH rows")
+S, L = load('20220219_haydock_1405')
+rd = L['read']
+check([x['line'].split(' (')[0].rsplit(' ', 2)[0] for x in rd['lead']][:1] == ['S Sun → Regulus RA 179.4433 10×φ^6'], 'Haydock READ first line Sun Regulus')
+check([x['point'] for x in rd['lead']] == ['Regulus', 'Vindemiatrix', 'Castor', 'Meissa', 'Orion Nebula Cluster', 'Rigel', 'Diadem', 'Spica'], 'Haydock READ lead order')
+dia = next(x for x in rd['lead'] if x['point'] == 'Diadem')
+check(dia['moon'] == ['S Moon → Diadem RA 11.1119 11.1111 ninth (98.77)'], 'Haydock Moon Diadem confirms Jupiter Diadem')
+check({m.split(' → ')[1].split(' ')[0] for m in rd['moon_only']} == {'Eris', 'Wezen', 'Pluto'}, 'Haydock Moon only Eris, Wezen, Pluto')
+check({b.split(' → ')[1].split(' ')[0] for b in rd['body_lines']} == {'Gonggong', 'Uranus', 'Rahu', 'Juno'}, 'Haydock body lines')
+w = next(pr for pr in rd['lead'][0]['per_runner'] if 'Wholestone' in pr['name'])
+check(any(c['part'] == 'same number' and c['text'] == 'H Jupiter → H star Vindemiatrix RA 179.4714 10×φ^6 phi power (93.71)' for c in w['cells']), 'Wholestone H Jupiter → Vindemiatrix 179.44 under Sun Regulus')
 print(f'{ok}/{ok + bad}')
 sys.exit(1 if bad else 0)

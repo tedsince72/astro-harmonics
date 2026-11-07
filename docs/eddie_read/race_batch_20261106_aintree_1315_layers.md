@@ -23,6 +23,534 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
 - Hubs: Alphard
 
+## READ (reading order, Eddie 7 Nov 2026)
+### READ 1 same body first
+- **1 Off The Jury / Sean Bowen**
+  - S Neptune → H Neptune Dec 6.0264 6 whole (loose)
+  - S Ceres → H Ceres RA 131.0708 81×φ golden (47.35)
+  - S Pallas → H Pallas Dec 22.1935 22.2222 ninth (loose)
+  - S Makemake → H Makemake Dec 4.4428 4.44444 ninth (loose)
+  - S Sun → J Sun RA 56.9798 57 whole (loose)
+  - S Sun → J Sun Dec 22.6491 14×φ golden (loose)
+  - S Mars → J Mars Dec 33.0185 33 whole (0.55)
+  - S Saturn → J Saturn RA 9.9938 10 whole (47.93)
+  - S Saturn → J Saturn Dec 4.1448 4.14 silver (loose)
+  - S Pluto → J Pluto Dec 15.0206 15 whole (loose)
+  - S Chiron → J Chiron RA 177.0037 177 whole (66.73)
+  - S Rahu → J Rahu RA 158.0181 158 whole (0.90)
+  - S Haumea → J Haumea RA 26.9746 27 whole (loose)
+  - S Makemake → J Makemake Dec 13.0022 13 whole (79.20)
+  - S Orcus → J Orcus Dec 14.0908 14.14 sqrt2 (loose)
+  - S Gonggong → J Gonggong RA 5.9787 6 whole (loose)
+  - S Ketu → J Ketu RA 158.0181 158 whole (0.90)
+- **2 Stride On / Derek Fox**
+  - S Venus → H Venus Dec 40.0154 40 whole (5.23)
+  - S Saturn → H Saturn RA 64.9806 65 whole (0.09)
+  - S Ceres → H Ceres Dec 42.0116 42 whole (17.54)
+  - S Makemake → H Makemake Dec 4.4354 4.44444 ninth (loose)
+  - S Mercury → J Mercury RA 177.1660 177.778 ninth (loose)
+  - S Saturn → J Saturn Dec 17.0286 17 whole (loose)
+  - S Uranus → J Uranus RA 132.6672 82×φ golden (41.14)
+  - S Chiron → J Chiron Dec 1.9728 2 whole (loose)
+  - S Ceres → J Ceres RA 161.6059 100×φ^1 phi power (loose)
+  - S Ceres → J Ceres Dec 48.0269 48 whole (loose)
+  - S Orcus → J Orcus Dec 17.0227 17 whole (loose)
+  - S Quaoar → J Quaoar RA 44.0140 44 whole (8.86)
+- **3 Leader Crik / Dylan Johnston**
+  - S Sun → H Sun RA 111.4816 111.111 ninth (loose)
+  - S Neptune → H Neptune RA 11.1545 11.1111 ninth (loose)
+  - S Pallas → H Pallas RA 53.3721 33×φ golden (loose)
+  - S Vesta → H Vesta RA 155.1871 155.556 ninth (loose)
+  - S Vesta → H Vesta Dec 18.8158 18.8889 ninth (loose)
+  - S Eris → H Eris Dec 1.4426 1.44444 ninth (loose)
+  - S Gonggong → H Gonggong Dec 1.2275 1.22222 ninth (loose)
+  - S Mars → J Mars RA 150.0252 150 whole (loose)
+  - S Uranus → J Uranus Dec 36.0173 36 whole (1.87)
+  - S Neptune → J Neptune Dec 17.9975 18 whole (76.59)
+  - S Chiron → J Chiron RA 121.0246 121 whole (loose)
+  - S Ceres → J Ceres RA 171.9838 172 whole (3.69)
+  - S Rahu → J Rahu RA 121.0095 121 whole (27.37)
+  - S Eris → J Eris RA 2.9774 3 whole (loose)
+  - S Transpluto → J Transpluto Dec 2.9770 3 whole (loose)
+  - S Ketu → J Ketu RA 121.0095 121 whole (27.37)
+- **4 Below The Radar / Sam Twiston-Davies**
+  - S Sun → H Sun RA 108.3976 67×φ golden (loose)
+  - S Venus → H Venus Dec 1.9908 2 whole (29.25)
+  - S Vesta → H Vesta Dec 12.2597 12.2222 ninth (loose)
+  - S Rahu → H Rahu Dec 29.1406 18×φ golden (loose)
+  - S Gonggong → H Gonggong Dec 2.0093 2 whole (28.64)
+  - S Transpluto → H Transpluto Dec 1.2153 1.22222 ninth (loose)
+  - S Ketu → H Ketu Dec 29.1406 18×φ golden (loose)
+  - S Mars → J Mars Dec 6.9865 7 whole (10.67)
+  - S Pallas → J Pallas RA 105.1554 65×φ golden (23.19)
+  - S Pallas → J Pallas Dec 26.9977 27 whole (78.66)
+  - S Makemake → J Makemake Dec 14.4947 14.4444 ninth (loose)
+  - S Quaoar → J Quaoar RA 44.3845 44.4444 ninth (loose)
+  - S Transpluto → J Transpluto RA 11.0675 φ^5 phi power (loose)
+  - S Transpluto → J Transpluto Dec 4.0245 4 whole (loose)
+- **6 Barnpark / Harry Skelton**
+  - S Mercury → H Mercury RA 145.6195 90×φ golden (79.11)
+  - S Ceres → H Ceres RA 144.0872 144.444 ninth (loose)
+  - S Ceres → H Ceres Dec 43.6569 27×φ golden (loose)
+  - S Juno → H Juno RA 110.6894 10×φ^5 phi power (loose)
+  - S Rahu → H Rahu RA 122.8714 φ^10 phi power (loose)
+  - S Transpluto → H Transpluto RA 2.9924 3 whole (38.40)
+  - S Ketu → H Ketu RA 122.8714 φ^10 phi power (loose)
+  - S Venus → J Venus Dec 3.3338 3.33333 ninth (94.04)
+  - S Jupiter → J Jupiter Dec 8.8751 8.88889 ninth (loose)
+  - S Uranus → J Uranus RA 150.4657 93×φ golden (41.89)
+  - S Chiron → J Chiron RA 80.9073 50×φ golden (68.46)
+  - S Haumea → J Haumea RA 33.9609 21×φ golden (loose)
+  - S Makemake → J Makemake Dec 15.5349 15.5556 ninth (loose)
+  - S Orcus → J Orcus Dec 17.9582 φ^6 phi power (loose)
+  - S Quaoar → J Quaoar RA 48.5627 30×φ golden (loose)
+  - S Quaoar → J Quaoar Dec 2.0256 2 whole (loose)
+  - S Transpluto → J Transpluto RA 12.2939 12.2222 ninth (loose)
+- **7 Dixie Mafia / Jack Tudor**
+  - S Mercury → H Mercury RA 141.1262 141.4 sqrt2 (loose)
+  - S Venus → H Venus Dec 6.0296 6 whole (loose)
+  - S Pluto → H Pluto RA 12.0223 12 whole (loose)
+  - S Chiron → H Chiron RA 26.0873 10×φ^2 phi power (loose)
+  - S Vesta → H Vesta Dec 5.0266 5 whole (loose)
+  - S Rahu → H Rahu RA 148.8624 92×φ golden (80.73)
+  - S Eris → H Eris RA 1.2177 1.22222 ninth (loose)
+  - S Haumea → H Haumea RA 6.0297 6 whole (loose)
+  - S Gonggong → H Gonggong Dec 1.6688 1.66667 ninth (loose)
+  - S Transpluto → H Transpluto RA 3.0298 3 whole (loose)
+  - S Ketu → H Ketu RA 148.8624 92×φ golden (80.73)
+  - S Sun → J Sun Dec 33.3434 33.3333 ninth (loose)
+  - S Pluto → J Pluto Dec 10.9770 11 whole (loose)
+  - S Juno → J Juno RA 161.7115 100×φ^1 phi power (loose)
+  - S Sedna → J Sedna RA 14.0850 14.14 sqrt2 (loose)
+  - S Haumea → J Haumea RA 22.6512 14×φ golden (91.97)
+  - S Orcus → J Orcus Dec 11.9918 12 whole (34.61)
+  - S Gonggong → J Gonggong Dec 6.0163 6 whole (3.45)
+### READ 2 Jupiter / Sun star lines, highest score first, each in full
+#### 1. S Jupiter → Capella Dec 31.9998 32 whole (97.55) — runners with cells 6/6
+- Moon confirms: none
+- 1 Off The Jury / Sean Bowen
+  - star rows: H Capella → H Saturn Dec 67.9803 68 whole (0.03) — also: 6 Barnpark / Harry Skelton
+  - star rows: H Capella → H Makemake Dec 21.9809 22 whole (0.19) — also: 2 Stride On / Derek Fox
+  - star rows: J Capella → J Venus RA 121.3784 75×φ golden (4.04) — also: 2 Stride On / Derek Fox
+  - star rows: J Capella → J Gonggong RA 107.9827 108 whole (1.76) — only
+  - MATCH EXACT: H Al Rescha → Chiron RA 31.9896 32 whole (23.18)
+  - MATCH EXACT: H Mirach → Mercury RA 31.9889 32 whole (19.71)
+  - MATCH EXACT: H Alhena → Quaoar Dec 31.9827 32 whole (1.79)
+  - MATCH EXACT: J Deneb → Transpluto Dec 31.9927 32 whole (40.53)
+  - same number: H Alhena → H Quaoar Dec 31.9827 32 whole (1.79) — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies
+- 2 Stride On / Derek Fox
+  - star rows: H Capella → H Venus RA 1.1644 conj (5.00) — also: 1 Off The Jury / Sean Bowen
+  - star rows: H Capella → H Vesta RA 0.5690 conj (38.52) — only
+  - star rows: H Capella → H Makemake Dec 21.9868 22 whole (11.40) — also: 1 Off The Jury / Sean Bowen
+  - star rows: J Capella → J Sun RA 27.5033 17×φ golden (80.70) — also: 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor
+  - star rows: J Capella → J Sedna RA 35.9978 36 whole (79.09) — also: 6 Barnpark / Harry Skelton
+  - MATCH EXACT: H Facies → Sedna Dec 31.9972 32 whole (74.15)
+  - MATCH EXACT: H Meissa → Pluto Dec 31.9914 32 whole (32.42)
+  - MATCH EXACT: J El Nath → Pluto Dec 32.0050 32 whole (56.60)
+  - MATCH EXACT: J Sualocin → Saturn Dec 31.9931 32 whole (42.89)
+- 3 Leader Crik / Dylan Johnston
+  - star rows: H Capella → H Pluto RA 141.4751 141.4 sqrt2 (85.37) — also: 6 Barnpark / Harry Skelton
+  - star rows: H Capella → H Eris RA 53.3999 33×φ golden (72.47) — only
+  - star rows: J Capella → J Sun RA 121.3289 75×φ golden (7.21) — also: 2 Stride On / Derek Fox, 7 Dixie Mafia / Jack Tudor
+  - star rows: J Capella → J Mercury RA 117.9806 118 whole (0.09) — also: 7 Dixie Mafia / Jack Tudor
+  - star rows: J Capella → J Chiron RA 174.7685 108×φ golden (12.65) — only
+  - MATCH EXACT: H Aldebaran → Quaoar Dec 31.9829 32 whole (2.16)
+  - MATCH EXACT: J Hamal → Mercury Dec 31.9993 32 whole (93.39)
+  - MATCH EXACT: J Zosma → Sun RA 31.9831 32 whole (2.33)
+  - MATCH EXACT: J Alnilam → Makemake Dec 32.0180 32 whole (1.01)
+  - MATCH EXACT: J Rukbat → Sun Dec 31.9802 32 whole (0.01)
+  - same number: J Rukbat → J Sun Dec 31.9802 32 whole (0.01) — also: 1 Off The Jury / Sean Bowen, 4 Below The Radar / Sam Twiston-Davies
+- 4 Below The Radar / Sam Twiston-Davies
+  - star rows: J Capella → J Haumea Dec 24.1437 24.14 silver (97.39) — also: 6 Barnpark / Harry Skelton
+  - MATCH EXACT: H Kaus Australis → Eris Dec 31.9962 32 whole (65.29)
+  - MATCH EXACT: H Altair → Sun RA 32.0076 32 whole (38.49)
+  - MATCH EXACT: H Algenib → Vesta Dec 32.0177 32 whole (1.30)
+  - MATCH EXACT: J Castor → Transpluto RA 31.9895 32 whole (22.48)
+  - same number: H Kaus Australis → H Eris Dec 31.9962 32 whole (65.29) — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston
+- 6 Barnpark / Harry Skelton
+  - star rows: H Capella → H Saturn RA 135.9131 84×φ golden (89.35) — also: 1 Off The Jury / Sean Bowen
+  - star rows: H Capella → H Saturn Dec 66.0024 66 whole (77.05) — also: 1 Off The Jury / Sean Bowen
+  - star rows: H Capella → H Pluto Dec 67.9999 68 whole (98.53) — also: 3 Leader Crik / Dylan Johnston
+  - star rows: H Capella → H Pallas Dec 31.9815 32 whole (0.55) — only
+  - star rows: H Capella → H Sedna Dec 38.0028 38 whole (73.89) — also: 2 Stride On / Derek Fox
+  - star rows: H Capella → H Haumea RA 135.9459 84×φ golden (0.17) — also: 4 Below The Radar / Sam Twiston-Davies
+  - star rows: H Capella → H Orcus RA 74.9816 75 whole (0.67) — only
+  - star rows: J Capella → J Ceres Dec 24.9810 25 whole (0.25) — only
+  - star rows: J Capella → J Juno RA 111.0048 111 whole (58.05) — only
+  - star rows: J Capella → J Rahu Dec 59.0120 59 whole (16.05) — only
+  - star rows: J Capella → J Ketu Dec 32.9823 33 whole (1.27) — only
+  - MATCH EXACT: H Difda → Pallas Dec 32.0038 32 whole (65.56)
+  - MATCH EXACT: H Jupiter → H body → Transpluto Dec 32.0138 32 whole (9.74)
+  - MATCH EXACT: H Capella → Pallas Dec 31.9815 32 whole (0.55)
+- 7 Dixie Mafia / Jack Tudor
+  - star rows: H Capella → H Sun Dec 51.7714 32×φ golden (67.98) — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston
+  - star rows: H Capella → H Mercury RA 81.0195 81 whole (0.07) — also: 3 Leader Crik / Dylan Johnston
+  - star rows: J Capella → J Mercury RA 13.0089 13 whole (30.57) — also: 3 Leader Crik / Dylan Johnston
+  - star rows: J Capella → J Mercury Dec 21.9905 22 whole (27.37) — also: 3 Leader Crik / Dylan Johnston
+  - star rows: J Capella → J Transpluto Dec 32.9838 33 whole (3.58) — only
+  - MATCH EXACT: H Vindemiatrix → Ketu Dec 31.9967 32 whole (70.11)
+  - MATCH EXACT: H Vega → Pallas Dec 31.9824 32 whole (1.44)
+  - MATCH EXACT: J Nunki → Sedna Dec 32.0017 32 whole (83.49)
+#### 2. S Sun → Adhara Dec 12.9993 13 whole (93.43) — runners with cells 6/6
+- Moon confirms: none
+- 1 Off The Jury / Sean Bowen
+  - star rows: H Adhara → H Saturn Dec 6.9931 7 whole (42.93) — also: 3 Leader Crik / Dylan Johnston
+  - star rows: H Adhara → H Ceres RA 141.4756 141.4 sqrt2 (85.25) — also: 6 Barnpark / Harry Skelton
+  - star rows: H Adhara → H Makemake Dec 52.9926 53 whole (39.52) — also: 2 Stride On / Derek Fox
+  - star rows: J Adhara → J Venus Dec 20.0153 20 whole (5.49) — also: 7 Dixie Mafia / Jack Tudor
+  - star rows: J Adhara → J Chiron Dec 18.0059 18 whole (49.46) — only
+  - star rows: J Adhara → J Quaoar RA 137.5574 85×φ golden (5.85) — only
+  - MATCH EXACT: H Fomalhaut → Sun RA 13.0158 13 whole (4.37)
+  - MATCH EXACT: J Algenib → Vesta Dec 13.0089 13 whole (30.88)
+  - same number: S Makemake → J Makemake Dec 13.0022 13 whole (79.20) — also: 2 Stride On / Derek Fox, 7 Dixie Mafia / Jack Tudor
+- 2 Stride On / Derek Fox
+  - star rows: H Adhara → H Neptune RA 113.2720 70×φ golden (49.59) — also: 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
+  - star rows: H Adhara → H Haumea RA 109.9913 110 whole (31.97) — also: 7 Dixie Mafia / Jack Tudor
+  - star rows: H Adhara → H Makemake Dec 52.9850 53 whole (6.32) — also: 1 Off The Jury / Sean Bowen
+  - star rows: J Adhara → J Sun RA 52.9907 53 whole (28.81) — also: 7 Dixie Mafia / Jack Tudor
+  - star rows: J Adhara → J Mars RA 97.9889 98 whole (19.89) — also: 3 Leader Crik / Dylan Johnston
+  - star rows: J Adhara → J Sedna RA 61.4852 38×φ golden (99.64) — also: 6 Barnpark / Harry Skelton
+  - star rows: J Adhara → J Haumea RA 84.0048 84 whole (57.67) — also: 7 Dixie Mafia / Jack Tudor
+  - MATCH EXACT: J Jupiter → J body → Makemake RA 12.9975 13 whole (76.13)
+  - MATCH EXACT: J Kaus Australis → Neptune Dec 13.0178 13 whole (1.16)
+  - same number: J Jupiter → J Makemake RA 12.9975 13 whole (76.13) — also: 1 Off The Jury / Sean Bowen, 7 Dixie Mafia / Jack Tudor
+  - same number: J Kaus Australis → J Neptune Dec 13.0178 13 whole (1.16) — also: 1 Off The Jury / Sean Bowen, 7 Dixie Mafia / Jack Tudor
+- 3 Leader Crik / Dylan Johnston
+  - star rows: H Adhara → H Mars RA 55.0128 34×φ golden (97.96) — also: 2 Stride On / Derek Fox
+  - star rows: H Adhara → H Saturn RA 155.0140 155 whole (9.08) — also: 1 Off The Jury / Sean Bowen
+  - star rows: J Adhara → J Gonggong Dec 12.0024 12 whole (77.32) — also: 7 Dixie Mafia / Jack Tudor
+  - star rows: J Adhara → J Transpluto RA 44.0149 44 whole (6.62) — also: 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+  - MATCH EXACT: J Sadalsuud → Pallas Dec 12.9985 13 whole (85.67)
+  - MATCH EXACT: J Spica → Mars Dec 13.0043 13 whole (61.50)
+  - MATCH EXACT: J Ras Algethi → Venus Dec 13.0087 13 whole (32.19)
+- 4 Below The Radar / Sam Twiston-Davies
+  - star rows: H Adhara → H Vesta RA 148.9948 149 whole (54.70) — also: 6 Barnpark / Harry Skelton
+  - star rows: J Adhara → J Mercury Dec 11.9891 12 whole (20.89) — also: 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+  - star rows: J Adhara → J Neptune RA 177.0019 177 whole (82.29) — also: 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton
+  - star rows: J Adhara → J Vesta Dec 15.9908 16 whole (29.19) — also: 6 Barnpark / Harry Skelton
+  - star rows: J Adhara → J Transpluto RA 40.9820 41 whole (1.04) — also: 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor
+  - MATCH EXACT: H Sadalsuud → Gonggong RA 12.9994 13 whole (94.41)
+  - MATCH EXACT: H Zosma → Sedna Dec 12.9913 13 whole (31.73)
+  - MATCH EXACT: H Aldebaran → Sedna RA 13.0194 13 whole (0.08)
+  - MATCH EXACT: J Murzim → Ketu RA 12.9939 13 whole (48.15)
+  - MATCH EXACT: J Al Rescha → Sedna RA 13.0075 13 whole (39.09)
+  - MATCH EXACT: J Menkar → Eris Dec 13.0127 13 whole (13.33)
+  - MATCH EXACT: J Altair → Haumea Dec 12.9831 13 whole (2.41)
+- 6 Barnpark / Harry Skelton
+  - star rows: H Adhara → H Mercury RA 102.0081 102 whole (35.27) — also: 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+  - star rows: H Adhara → H Neptune RA 114.0073 114 whole (40.31) — also: 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies
+  - star rows: H Adhara → H Pallas Dec 42.9921 43 whole (36.89) — only
+  - star rows: H Adhara → H Vesta RA 38.0109 38 whole (20.75) — also: 4 Below The Radar / Sam Twiston-Davies
+  - star rows: J Adhara → J Uranus RA 167.0102 167 whole (24.12) — only
+  - star rows: J Adhara → J Ceres Dec 49.9839 50 whole (3.72) — also: 1 Off The Jury / Sean Bowen
+  - star rows: J Adhara → J Vesta Dec 2.9883 3 whole (17.19) — also: 4 Below The Radar / Sam Twiston-Davies
+  - star rows: J Adhara → J Sedna Dec 32.9921 33 whole (36.52) — also: 2 Stride On / Derek Fox
+  - star rows: J Adhara → J Orcus Dec 33.0139 33 whole (9.17) — only
+  - star rows: J Adhara → J Ketu Dec 41.9826 42 whole (1.68) — only
+  - MATCH EXACT: H Vindemiatrix → Makemake Dec 13.0058 13 whole (50.40)
+  - MATCH EXACT: H Deneb → Jupiter RA 12.9912 13 whole (31.18)
+  - MATCH EXACT: H Vega → Venus Dec 13.0177 13 whole (1.37)
+  - MATCH EXACT: J Ras Algethi → Uranus RA 13.0039 13 whole (64.43)
+- 7 Dixie Mafia / Jack Tudor
+  - star rows: H Adhara → H Sun RA 118.1413 73×φ golden (5.45) — also: 2 Stride On / Derek Fox
+  - star rows: H Adhara → H Venus RA 156.9912 157 whole (31.50) — also: 1 Off The Jury / Sean Bowen
+  - star rows: H Adhara → H Rahu Dec 50.0164 50 whole (3.33) — only
+  - star rows: H Adhara → H Haumea RA 110.0449 68×φ golden (18.03) — also: 2 Stride On / Derek Fox
+  - star rows: H Adhara → H Gonggong Dec 16.9946 17 whole (53.34) — also: 3 Leader Crik / Dylan Johnston
+  - star rows: H Adhara → H Transpluto RA 49.0177 49 whole (1.31) — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies
+  - star rows: J Adhara → J Jupiter RA 1.2484 conj (2.81) — only
+  - star rows: J Adhara → J Mercury Dec 52.9836 53 whole (3.20) — also: 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
+  - star rows: J Adhara → J Transpluto Dec 41.9903 42 whole (26.29) — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies
+  - MATCH EXACT: H Acumen → Pluto Dec 13.0004 13 whole (96.38)
+  - MATCH EXACT: H Vindemiatrix → Eris Dec 13.0040 13 whole (63.71)
+  - MATCH EXACT: H Jupiter → H body → Vesta Dec 12.9817 13 whole (0.75)
+  - MATCH EXACT: J Sadalmelik → Pallas Dec 13.0026 13 whole (75.81)
+  - MATCH EXACT: J Capella → Mercury RA 13.0089 13 whole (30.57)
+  - same number: J Capella → J Mercury RA 13.0089 13 whole (30.57) — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox
+#### 3. S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32) — runners with cells 6/6
+- Moon confirms: S Moon → Alphard Dec 0.1204 conj (35.82)
+- 1 Off The Jury / Sean Bowen
+  - star rows: J Alphard → J Venus Dec 0.2966 conj (0.01) — only
+  - star rows: J Alphard → J Saturn RA 122.9668 φ^10 phi power (92.00) — only
+  - star rows: J Alphard → J Uranus RA 166.0000 166 whole (99.68) — also: 2 Stride On / Derek Fox, 7 Dixie Mafia / Jack Tudor
+  - star rows: J Alphard → J Pluto Dec 0.0065 conj (95.74) — only
+  - star rows: J Alphard → J Quaoar RA 100.3188 62×φ golden (95.93) — also: 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton
+  - MATCH EXACT: H Kaus Australis → Sun Dec 22.6563 14×φ golden (77.53)
+  - MATCH EXACT: J Alnilam → Ceres Dec 22.6538 14×φ golden (92.01)
+  - MATCH EXACT: S Jupiter → J body → Pluto Dec 22.6568 14×φ golden (75.21)
+  - MATCH EXACT: J Alphecca → Rahu Dec 22.6589 14×φ golden (64.30)
+  - same number: H Kaus Australis → H Sun Dec 22.6563 14×φ golden (77.53) — also: 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+  - same number: S Sun → J Sun Dec 22.6491 14×φ golden (loose) — also: 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+  - same number: S Jupiter → J Pluto Dec 22.6568 14×φ golden (75.21) — also: 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+- 2 Stride On / Derek Fox
+  - star rows: H Alphard → H Chiron RA 135.9944 136 whole (51.91) — also: 4 Below The Radar / Sam Twiston-Davies
+  - star rows: J Alphard → J Uranus Dec 13.9930 14 whole (42.44) — also: 1 Off The Jury / Sean Bowen, 7 Dixie Mafia / Jack Tudor
+  - star rows: J Alphard → J Pallas RA 132.9928 133 whole (41.09) — only
+  - star rows: J Alphard → J Eris RA 118.9912 119 whole (31.16) — also: 4 Below The Radar / Sam Twiston-Davies
+  - star rows: J Alphard → J Eris Dec 0.0718 conj (57.85) — also: 4 Below The Radar / Sam Twiston-Davies
+  - star rows: J Alphard → J Quaoar RA 95.0023 95 whole (78.17) — also: 1 Off The Jury / Sean Bowen, 6 Barnpark / Harry Skelton
+  - star rows: J Alphard → J Quaoar Dec 4.9838 5 whole (3.68) — also: 1 Off The Jury / Sean Bowen, 6 Barnpark / Harry Skelton
+  - MATCH EXACT: J Menkar → Eris RA 22.6592 14×φ golden (62.63)
+- 3 Leader Crik / Dylan Johnston
+  - star rows: H Alphard → H Orcus Dec 2.9881 3 whole (16.40) — also: 4 Below The Radar / Sam Twiston-Davies
+  - star rows: J Alphard → J Sun Dec 0.0182 conj (88.23) — also: 4 Below The Radar / Sam Twiston-Davies
+  - star rows: J Alphard → J Mercury Dec 0.1205 conj (35.80) — only
+  - star rows: J Alphard → J Mars RA 152.0781 94×φ golden (22.26) — only
+  - star rows: J Alphard → J Neptune Dec 10.0031 10 whole (71.57) — only
+  - star rows: J Alphard → J Juno RA 9.9959 10 whole (62.91) — also: 7 Dixie Mafia / Jack Tudor
+  - star rows: J Alphard → J Vesta RA 69.0075 69 whole (38.90) — only
+  - star rows: J Alphard → J Orcus RA 1.3919 conj (0.52) — also: 4 Below The Radar / Sam Twiston-Davies
+- 4 Below The Radar / Sam Twiston-Davies
+  - star rows: H Alphard → H Sedna Dec 16.1896 10×φ^1 phi power (78.41) — only
+  - star rows: H Alphard → H Haumea RA 72.0132 72 whole (11.45) — only
+  - star rows: H Alphard → H Gonggong RA 166.0184 166 whole (0.66) — also: 6 Barnpark / Harry Skelton
+  - star rows: J Alphard → J Sun Dec 0.0946 conj (46.86) — also: 3 Leader Crik / Dylan Johnston
+  - star rows: J Alphard → J Chiron RA 0.1966 conj (75.51) — also: 2 Stride On / Derek Fox
+  - star rows: J Alphard → J Chiron Dec 17.0171 17 whole (2.10) — also: 2 Stride On / Derek Fox
+  - star rows: J Alphard → J Eris Dec 0.2650 conj (1.36) — also: 2 Stride On / Derek Fox
+  - star rows: J Alphard → J Orcus RA 8.9939 9 whole (48.64) — also: 3 Leader Crik / Dylan Johnston
+  - MATCH EXACT: H Castor → Uranus Dec 22.6561 14×φ golden (78.72)
+- 6 Barnpark / Harry Skelton
+  - star rows: H Alphard → H Quaoar RA 132.6564 82×φ golden (9.49) — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox
+  - star rows: H Alphard → H Gonggong RA 165.0433 102×φ golden (77.93) — also: 4 Below The Radar / Sam Twiston-Davies
+  - MATCH EXACT: J Aculeus → Eris Dec 22.6597 14×φ golden (60.12)
+  - same number: J Aculeus → J Eris Dec 22.6597 14×φ golden (60.12) — also: 1 Off The Jury / Sean Bowen, 7 Dixie Mafia / Jack Tudor
+- 7 Dixie Mafia / Jack Tudor
+  - star rows: H Alphard → H Ketu RA 155.5563 155.556 ninth (99.93) — only
+  - star rows: J Alphard → J Uranus Dec 3.9956 4 whole (60.49) — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox
+  - star rows: J Alphard → J Ceres Dec 0.1689 conj (19.09) — only
+  - star rows: J Alphard → J Juno RA 0.4009 conj (53.69) — also: 3 Leader Crik / Dylan Johnston
+  - MATCH EXACT: H Aculeus → Vesta Dec 22.6504 14×φ golden (87.72)
+  - same number: H Aculeus → H Vesta Dec 22.6504 14×φ golden (87.72) — also: 1 Off The Jury / Sean Bowen, 6 Barnpark / Harry Skelton
+  - same number: S Haumea → J Haumea RA 22.6512 14×φ golden (91.97) — also: 1 Off The Jury / Sean Bowen, 6 Barnpark / Harry Skelton
+#### 4. S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05) — runners with cells 6/6
+- Moon confirms: none
+- 1 Off The Jury / Sean Bowen
+  - star rows: J Galactic Centre → J Mars RA 45.0116 45 whole (17.65) — only
+  - star rows: J Galactic Centre → J Chiron RA 57.9890 58 whole (20.15) — also: 3 Leader Crik / Dylan Johnston
+  - MATCH EXACT: J Hamal → Uranus Dec 43.0157 43 whole (4.55)
+- 2 Stride On / Derek Fox
+  - star rows: H Galactic Centre → H Ceres RA 72.9969 73 whole (71.50) — only
+  - star rows: H Galactic Centre → H Eris Dec 27.5090 17×φ golden (85.62) — also: 6 Barnpark / Harry Skelton
+  - star rows: H Galactic Centre → H Haumea RA 51.7778 32×φ golden (95.72) — only
+  - star rows: H Galactic Centre → H Makemake Dec 53.0172 53 whole (1.91) — only
+  - star rows: J Galactic Centre → J Rahu RA 4.9815 5 whole (0.55) — also: 6 Barnpark / Harry Skelton
+  - star rows: J Galactic Centre → J Eris RA 116.4832 72×φ golden (27.94) — also: 6 Barnpark / Harry Skelton
+  - star rows: J Galactic Centre → J Ketu RA 175.0185 175 whole (0.55) — only
+  - MATCH EXACT: H Wezen → Haumea Dec 42.9952 43 whole (57.79)
+  - MATCH EXACT: H Sadalsuud → Chiron RA 43.0126 43 whole (13.51)
+  - MATCH EXACT: J Antares → Neptune RA 43.0012 43 whole (88.18)
+- 3 Leader Crik / Dylan Johnston
+  - star rows: H Galactic Centre → H Sun Dec 17.7914 11×φ golden (61.39) — also: 4 Below The Radar / Sam Twiston-Davies
+  - star rows: S Galactic Centre → J Jupiter RA 160.0059 160 whole (49.65) — also: 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+  - star rows: J Galactic Centre → J Chiron RA 2.0056 2 whole (51.58) — also: 1 Off The Jury / Sean Bowen
+  - MATCH EXACT: H Castor → Juno Dec 42.9989 43 whole (88.96)
+- 4 Below The Radar / Sam Twiston-Davies
+  - star rows: H Galactic Centre → H Sun Dec 16.6680 16.6667 ninth (98.84) — also: 3 Leader Crik / Dylan Johnston
+  - MATCH EXACT: H Denebola → Ceres RA 42.9864 43 whole (10.34)
+  - MATCH EXACT: J Jupiter → J body → Vesta RA 42.9838 43 whole (3.55)
+- 6 Barnpark / Harry Skelton
+  - star rows: H Galactic Centre → H Saturn Dec 9.0022 9 whole (79.11) — only
+  - star rows: H Galactic Centre → H Pluto Dec 7.0048 7 whole (57.73) — only
+  - star rows: H Galactic Centre → H Sedna Dec 37.0018 37 whole (82.37) — only
+  - star rows: J Galactic Centre → J Jupiter RA 166.9814 167 whole (0.48) — also: 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor
+  - star rows: J Galactic Centre → J Rahu Dec 15.9935 16 whole (45.33) — also: 2 Stride On / Derek Fox
+  - star rows: J Galactic Centre → J Eris Dec 19.4139 12×φ golden (85.27) — also: 2 Stride On / Derek Fox
+  - star rows: J Galactic Centre → J Transpluto RA 122.0035 122 whole (68.33) — only
+  - MATCH EXACT: H Adhara → Pallas Dec 42.9921 43 whole (36.89)
+  - same number: H Adhara → H Pallas Dec 42.9921 43 whole (36.89) — also: 7 Dixie Mafia / Jack Tudor
+- 7 Dixie Mafia / Jack Tudor
+  - star rows: H Galactic Centre → H Jupiter RA 4.8542 3×φ golden (99.66) — also: 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton
+  - star rows: S Galactic Centre → J Jupiter RA 163.0075 163 whole (38.84) — also: 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton
+  - star rows: J Galactic Centre → J Mercury Dec 53.0157 53 whole (4.70) — only
+  - natal Jupiter → star: H Jupiter → H star Galactic Centre RA 4.8542 3×φ golden (99.66) — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
+  - MATCH EXACT: H Algol → Eris Dec 43.0045 43 whole (59.89)
+  - MATCH EXACT: H Alkaid → Ceres RA 42.9813 43 whole (0.42)
+  - MATCH EXACT: J Pollux → Saturn RA 42.9918 43 whole (34.68)
+  - MATCH EXACT: J Kaus Australis → Pallas RA 43.0127 43 whole (13.31)
+  - MATCH EXACT: J Unukalhai → Chiron RA 43.0130 43 whole (12.31)
+  - same number: J Kaus Australis → J Pallas RA 43.0127 43 whole (13.31) — also: 6 Barnpark / Harry Skelton
+#### 5. S Sun → Alhena Dec 32.3683 20×φ golden (58.48) — runners with cells 6/6
+- Moon confirms: none
+- 1 Off The Jury / Sean Bowen
+  - star rows: H Alhena → H Jupiter RA 160.0181 160 whole (0.89) — also: 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+  - star rows: H Alhena → H Mercury RA 113.9907 114 whole (28.67) — also: 6 Barnpark / Harry Skelton
+  - star rows: H Alhena → H Haumea Dec 0.1578 conj (22.47) — also: 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+  - star rows: H Alhena → H Quaoar Dec 31.9827 32 whole (1.79) — only
+  - star rows: J Alhena → J Mercury Dec 8.9912 9 whole (31.30) — also: 6 Barnpark / Harry Skelton
+  - star rows: J Alhena → J Mars RA 121.9811 122 whole (0.31) — also: 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+  - star rows: J Alhena → J Chiron RA 109.0037 109 whole (66.10) — also: 6 Barnpark / Harry Skelton
+  - star rows: J Alhena → J Sedna Dec 11.3255 7×φ golden (95.27) — only
+  - MATCH EXACT: H Antares → Juno Dec 32.3696 20×φ golden (52.33)
+- 2 Stride On / Derek Fox
+  - star rows: H Alhena → H Ceres RA 120.0055 120 whole (52.67) — also: 3 Leader Crik / Dylan Johnston
+  - star rows: H Alhena → H Haumea Dec 0.2001 conj (11.10) — also: 1 Off The Jury / Sean Bowen, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+  - star rows: H Alhena → H Ketu RA 169.8858 105×φ golden (57.83) — only
+  - star rows: J Alhena → J Eris Dec 24.9881 25 whole (16.59) — also: 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton
+  - star rows: J Alhena → J Transpluto Dec 2.2229 2.22222 ninth (91.28) — also: 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton
+- 3 Leader Crik / Dylan Johnston
+  - star rows: H Alhena → H Ceres Dec 23.9869 24 whole (11.90) — also: 2 Stride On / Derek Fox
+  - star rows: H Alhena → H Juno Dec 27.5097 17×φ golden (81.61) — only
+  - star rows: H Alhena → H Vesta RA 73.0062 73 whole (47.89) — also: 7 Dixie Mafia / Jack Tudor
+  - star rows: H Alhena → H Eris Dec 17.9966 18 whole (69.19) — also: 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton
+  - star rows: H Alhena → H Gonggong RA 122.9002 φ^10 phi power (72.42) — also: 4 Below The Radar / Sam Twiston-Davies
+  - star rows: H Alhena → H Transpluto RA 55.0105 34×φ golden (84.45) — also: 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton
+  - star rows: J Alhena → J Venus Dec 15.0150 15 whole (6.15) — only
+  - star rows: J Alhena → J Juno Dec 10.0190 10 whole (0.26) — only
+  - star rows: J Alhena → J Eris Dec 23.0165 23 whole (3.01) — also: 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton
+  - MATCH EXACT: H Sirius → Haumea Dec 32.3700 20×φ golden (50.74)
+- 4 Below The Radar / Sam Twiston-Davies
+  - star rows: H Alhena → H Pallas Dec 33.3373 33.3333 ninth (95.30) — also: 6 Barnpark / Harry Skelton
+  - star rows: H Alhena → H Rahu Dec 0.0140 conj (90.91) — only
+  - star rows: H Alhena → H Haumea Dec 0.1239 conj (34.46) — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+  - star rows: J Alhena → J Mars RA 9.0069 9 whole (42.87) — also: 1 Off The Jury / Sean Bowen, 7 Dixie Mafia / Jack Tudor
+  - star rows: J Alhena → J Gonggong Dec 35.9912 36 whole (31.52) — also: 3 Leader Crik / Dylan Johnston
+- 6 Barnpark / Harry Skelton
+  - star rows: H Alhena → H Mercury Dec 17.9801 18 whole (0.00) — also: 1 Off The Jury / Sean Bowen
+  - star rows: H Alhena → H Eris Dec 18.0068 18 whole (43.75) — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston
+  - star rows: H Alhena → H Haumea Dec 0.0597 conj (64.14) — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+  - star rows: S Alhena → J Jupiter RA 0.0037 conj (99.51) — also: 1 Off The Jury / Sean Bowen, 7 Dixie Mafia / Jack Tudor
+  - star rows: J Alhena → J Chiron Dec 0.2769 conj (0.59) — also: 1 Off The Jury / Sean Bowen
+  - star rows: J Alhena → J Pallas Dec 24.2722 15×φ golden (89.89) — also: 4 Below The Radar / Sam Twiston-Davies
+  - star rows: J Alhena → J Eris Dec 25.9946 26 whole (53.09) — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston
+  - star rows: J Alhena → J Transpluto RA 44.9863 45 whole (9.78) — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston
+  - natal Jupiter → star: J Jupiter → J star Alhena RA 0.0083 conj (98.89) — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+- 7 Dixie Mafia / Jack Tudor
+  - star rows: S Alhena → H Jupiter Dec 38.9830 39 whole (2.26) — also: 1 Off The Jury / Sean Bowen, 6 Barnpark / Harry Skelton
+  - star rows: H Alhena → H Mars Dec 0.0881 conj (49.91) — also: 1 Off The Jury / Sean Bowen, 4 Below The Radar / Sam Twiston-Davies
+  - star rows: H Alhena → H Vesta Dec 26.0003 26 whole (97.31) — also: 3 Leader Crik / Dylan Johnston
+  - star rows: H Alhena → H Haumea Dec 0.0127 conj (91.73) — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
+  - star rows: J Alhena → J Jupiter RA 3.9802 4 whole (0.01) — also: 1 Off The Jury / Sean Bowen, 6 Barnpark / Harry Skelton
+  - MATCH EXACT: J Spica → Saturn Dec 32.3686 20×φ golden (57.05)
+#### 6. S Sun → Zubenelgenubi Dec 0.0715 conj (58.00) — runners with cells 6/6
+- Moon confirms: none
+- 1 Off The Jury / Sean Bowen
+  - star rows: H Zubenelgenubi → H Juno Dec 21.9807 22 whole (0.12) — only
+  - star rows: H Zubenelgenubi → H Gonggong Dec 3.9853 4 whole (6.96) — also: 7 Dixie Mafia / Jack Tudor
+  - star rows: J Zubenelgenubi → J Mars RA 1.3104 conj (1.60) — also: 2 Stride On / Derek Fox
+  - star rows: J Zubenelgenubi → J Gonggong Dec 2.0009 2 whole (91.19) — also: 7 Dixie Mafia / Jack Tudor
+  - star rows: J Zubenelgenubi → J Ketu Dec 11.9809 12 whole (0.20) — also: 7 Dixie Mafia / Jack Tudor
+  - MATCH CONJ STAR: J Zubenelgenubi → Gonggong Dec 2.0009 2 whole (91.19)
+  - MATCH CONJ STAR: S Jupiter → J body → Pluto Dec 22.6568 14×φ golden (75.21)
+  - MATCH CONJ STAR: S Jupiter → J body → Pallas RA 138.0024 138 whole (77.40)
+  - MATCH CONJ STAR: S Jupiter → J body → Transpluto RA 0.1323 conj (83.14)
+- 2 Stride On / Derek Fox
+  - star rows: H Zubenelgenubi → H Venus RA 142.3941 88×φ golden (61.02) — also: 6 Barnpark / Harry Skelton
+  - star rows: H Zubenelgenubi → H Mars RA 107.9948 108 whole (55.05) — also: 1 Off The Jury / Sean Bowen
+  - star rows: H Zubenelgenubi → H Pluto Dec 6.0144 6 whole (7.84) — also: 3 Leader Crik / Dylan Johnston
+  - star rows: J Zubenelgenubi → J Venus RA 178.9985 179 whole (85.99) — also: 6 Barnpark / Harry Skelton
+  - star rows: J Zubenelgenubi → J Saturn Dec 0.0405 conj (74.82) — only
+  - star rows: J Zubenelgenubi → J Eris RA 160.1800 99×φ golden (69.50) — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+  - MATCH CONJ STAR: H Zubenelgenubi → Venus RA 142.3941 88×φ golden (61.02)
+  - MATCH CONJ STAR: H Zubenelgenubi → Mars RA 107.9948 108 whole (55.05)
+  - MATCH CONJ STAR: J Zubenelgenubi → Venus RA 178.9985 179 whole (85.99)
+  - MATCH CONJ STAR: J Zubenelgenubi → Saturn Dec 0.0405 conj (74.82)
+  - MATCH CONJ STAR: J Zubenelgenubi → Eris RA 160.1800 99×φ golden (69.50)
+  - MATCH CONJ STAR: S Jupiter → J body → Sun RA 95.4603 59×φ golden (78.23)
+  - MATCH CONJ STAR: S Jupiter → J body → Saturn RA 174.0040 174 whole (64.22)
+- 3 Leader Crik / Dylan Johnston
+  - star rows: H Zubenelgenubi → H Pluto RA 74.9801 75 whole (0.00) — also: 2 Stride On / Derek Fox
+  - star rows: H Zubenelgenubi → H Pallas Dec 16.9921 17 whole (36.60) — only
+  - star rows: H Zubenelgenubi → H Eris Dec 14.4442 14.4444 ninth (99.75) — also: 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+  - star rows: H Zubenelgenubi → H Sedna RA 165.0105 165 whole (22.63) — also: 7 Dixie Mafia / Jack Tudor
+  - star rows: H Zubenelgenubi → H Sedna Dec 23.9884 24 whole (17.82) — also: 7 Dixie Mafia / Jack Tudor
+  - star rows: J Zubenelgenubi → J Neptune Dec 2.6186 φ^2 phi power (95.15) — only
+  - MATCH CONJ STAR: H Zubenelgenubi → Eris Dec 14.4442 14.4444 ninth (99.75)
+  - MATCH CONJ STAR: S Jupiter → H body → Venus RA 177.7292 177.778 ninth (96.20)
+  - MATCH CONJ STAR: S Jupiter → H body → Eris RA 121.3461 75×φ golden (64.27)
+  - MATCH CONJ STAR: J Zubenelgenubi → Neptune Dec 2.6186 φ^2 phi power (95.15)
+  - MATCH CONJ STAR: S Jupiter → J body → Pallas RA 110.9975 111 whole (76.28)
+- 4 Below The Radar / Sam Twiston-Davies
+  - star rows: H Zubenelgenubi → H Sun RA 106.9811 107 whole (0.29) — only
+  - star rows: H Zubenelgenubi → H Transpluto Dec 26.9838 27 whole (3.70) — also: 6 Barnpark / Harry Skelton
+  - star rows: J Zubenelgenubi → J Chiron RA 81.0167 81 whole (2.72) — only
+  - star rows: J Zubenelgenubi → J Eris RA 159.9987 160 whole (86.99) — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor
+  - MATCH CONJ STAR: S Jupiter → H body → Pluto RA 144.4985 144.444 ninth (94.28)
+  - MATCH CONJ STAR: J Zubenelgenubi → Eris RA 159.9987 160 whole (86.99)
+- 6 Barnpark / Harry Skelton
+  - star rows: H Zubenelgenubi → H Uranus Dec 28.9802 29 whole (0.01) — only
+  - star rows: H Zubenelgenubi → H Makemake Dec 40.0069 40 whole (43.22) — also: 7 Dixie Mafia / Jack Tudor
+  - star rows: H Zubenelgenubi → H Transpluto RA 69.0095 69 whole (27.67) — also: 4 Below The Radar / Sam Twiston-Davies
+  - star rows: J Zubenelgenubi → J Mercury Dec 9.9963 10 whole (66.44) — only
+  - star rows: J Zubenelgenubi → J Venus Dec 0.2933 conj (0.05) — also: 2 Stride On / Derek Fox
+  - MATCH CONJ STAR: S Jupiter → H body → Mercury RA 144.4745 144.444 ninth (96.82)
+  - MATCH CONJ STAR: S Jupiter → H body → Saturn Dec 33.9993 34 whole (93.27)
+  - MATCH CONJ STAR: S Jupiter → H body → Pluto Dec 35.9967 36 whole (69.92)
+  - MATCH CONJ STAR: S Jupiter → H body → Pallas Dec 0.0216 conj (86.09)
+  - MATCH CONJ STAR: S Jupiter → H body → Sedna Dec 5.9997 6 whole (96.81)
+  - MATCH CONJ STAR: J Zubenelgenubi → Mercury Dec 9.9963 10 whole (66.44)
+- 7 Dixie Mafia / Jack Tudor
+  - star rows: H Zubenelgenubi → H Jupiter RA 38.8394 24×φ golden (63.27) — only
+  - star rows: H Zubenelgenubi → H Ceres Dec 0.1280 conj (32.87) — only
+  - star rows: H Zubenelgenubi → H Vesta RA 126.2247 78×φ golden (19.50) — only
+  - star rows: H Zubenelgenubi → H Eris Dec 13.9955 14 whole (60.35) — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies
+  - star rows: H Zubenelgenubi → H Haumea RA 8.0173 8 whole (1.82) — only
+  - star rows: H Zubenelgenubi → H Ketu Dec 4.9972 5 whole (73.73) — also: 1 Off The Jury / Sean Bowen
+  - star rows: J Zubenelgenubi → J Rahu RA 145.6428 90×φ golden (15.16) — only
+  - star rows: J Zubenelgenubi → J Sedna RA 174.7387 108×φ golden (52.19) — also: 3 Leader Crik / Dylan Johnston
+  - star rows: J Zubenelgenubi → J Makemake Dec 47.9915 48 whole (33.03) — also: 6 Barnpark / Harry Skelton
+  - star rows: J Zubenelgenubi → J Gonggong Dec 0.2856 conj (0.23) — also: 1 Off The Jury / Sean Bowen
+  - natal Jupiter → star: H Jupiter → H star Zubenelgenubi RA 38.8394 24×φ golden (63.27) — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
+  - MATCH CONJ STAR: H Zubenelgenubi → Jupiter RA 38.8394 24×φ golden (63.27)
+  - MATCH CONJ STAR: H Zubenelgenubi → Eris Dec 13.9955 14 whole (60.35)
+  - MATCH CONJ STAR: H Zubenelgenubi → Ketu Dec 4.9972 5 whole (73.73)
+  - MATCH CONJ STAR: S Jupiter → H body → Pluto RA 147.0051 147 whole (55.32)
+  - MATCH CONJ STAR: J Zubenelgenubi → Sedna RA 174.7387 108×φ golden (52.19)
+#### 7. S Sun → Deneb Algedi Dec 0.1604 conj (21.67) — runners with cells 6/6
+- Moon confirms: none
+- 1 Off The Jury / Sean Bowen
+  - star rows: H Deneb Algedi → H Venus RA 38.9978 39 whole (79.58) — also: 7 Dixie Mafia / Jack Tudor
+  - star rows: H Deneb Algedi → H Eris Dec 14.0081 14 whole (35.63) — also: 3 Leader Crik / Dylan Johnston
+  - star rows: J Deneb Algedi → J Venus RA 126.2154 78×φ golden (53.46) — also: 7 Dixie Mafia / Jack Tudor
+  - star rows: J Deneb Algedi → J Haumea RA 133.0056 133 whole (52.17) — also: 6 Barnpark / Harry Skelton
+- 2 Stride On / Derek Fox
+  - star rows: H Deneb Algedi → H Pluto RA 30.0080 30 whole (36.14) — also: 6 Barnpark / Harry Skelton
+  - star rows: H Deneb Algedi → H Juno RA 137.5053 85×φ golden (2.18) — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+  - star rows: H Deneb Algedi → H Transpluto RA 173.1416 107×φ golden (39.82) — also: 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+  - star rows: J Deneb Algedi → J Saturn Dec 0.0427 conj (73.57) — also: 3 Leader Crik / Dylan Johnston
+- 3 Leader Crik / Dylan Johnston
+  - star rows: H Deneb Algedi → H Jupiter RA 9.9998 10 ninth (98.85) — also: 6 Barnpark / Harry Skelton
+  - star rows: S Deneb Algedi → H Jupiter Dec 0.9957 1 whole (61.73) — also: 6 Barnpark / Harry Skelton
+  - star rows: H Deneb Algedi → H Juno Dec 5.0194 5 whole (0.09) — also: 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+  - star rows: H Deneb Algedi → H Eris RA 59.0196 59 whole (0.05) — also: 1 Off The Jury / Sean Bowen
+  - star rows: J Deneb Algedi → J Saturn RA 106.7956 66×φ golden (69.62) — also: 2 Stride On / Derek Fox
+  - natal Jupiter → star: H Jupiter → H star Deneb Algedi RA 9.9998 10 ninth (98.85) — also: 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+  - natal Jupiter → star: H Jupiter → H star Deneb Algedi Dec 0.9942 1 whole (50.67) — also: 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+- 4 Below The Radar / Sam Twiston-Davies
+  - star rows: H Deneb Algedi → H Neptune RA 17.9974 18 whole (75.38) — also: 6 Barnpark / Harry Skelton
+  - star rows: H Deneb Algedi → H Juno RA 0.5323 conj (41.62) — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor
+  - star rows: H Deneb Algedi → H Ketu Dec 0.2815 conj (0.38) — only
+  - star rows: J Deneb Algedi → J Ceres Dec 13.9890 14 whole (20.40) — also: 7 Dixie Mafia / Jack Tudor
+  - star rows: J Deneb Algedi → J Pallas RA 56.9906 57 whole (28.00) — only
+- 6 Barnpark / Harry Skelton
+  - star rows: H Deneb Algedi → H Jupiter Dec 5.0168 5 whole (2.48) — also: 3 Leader Crik / Dylan Johnston
+  - star rows: H Deneb Algedi → H Neptune Dec 10.9842 11 whole (4.38) — also: 4 Below The Radar / Sam Twiston-Davies
+  - star rows: H Deneb Algedi → H Pluto RA 30.0058 30 whole (50.19) — also: 2 Stride On / Derek Fox
+  - star rows: H Deneb Algedi → H Chiron Dec 21.0371 13×φ golden (84.18) — only
+  - star rows: H Deneb Algedi → H Haumea RA 111.6442 69×φ golden (99.25) — also: 1 Off The Jury / Sean Bowen
+  - star rows: H Deneb Algedi → H Transpluto Dec 26.9969 27 whole (71.47) — also: 2 Stride On / Derek Fox, 7 Dixie Mafia / Jack Tudor
+  - star rows: S Deneb Algedi → J Jupiter RA 132.6721 82×φ golden (62.75) — also: 3 Leader Crik / Dylan Johnston
+  - star rows: S Deneb Algedi → J Jupiter Dec 38.9986 39 whole (86.71) — also: 3 Leader Crik / Dylan Johnston
+  - star rows: J Deneb Algedi → J Rahu RA 1.0206 conj (10.21) — only
+  - star rows: J Deneb Algedi → J Haumea RA 139.9906 140 whole (28.28) — also: 1 Off The Jury / Sean Bowen
+  - star rows: J Deneb Algedi → J Quaoar Dec 2.9973 3 whole (74.63) — only
+  - natal Jupiter → star: J Jupiter → J star Deneb Algedi RA 132.6713 82×φ golden (58.97) — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+  - natal Jupiter → star: J Jupiter → J star Deneb Algedi Dec 38.9942 39 whole (50.53) — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+- 7 Dixie Mafia / Jack Tudor
+  - star rows: H Deneb Algedi → H Ceres Dec 0.2156 conj (7.92) — also: 4 Below The Radar / Sam Twiston-Davies
+  - star rows: H Deneb Algedi → H Transpluto Dec 27.0122 27 whole (15.14) — also: 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton
+  - star rows: J Deneb Algedi → J Venus Dec 40.0163 40 whole (3.43) — also: 1 Off The Jury / Sean Bowen
+  - star rows: J Deneb Algedi → J Juno Dec 29.0319 φ^7 phi power (96.48) — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies
+  - star rows: J Deneb Algedi → J Gonggong Dec 0.2016 conj (10.75) — only
+### READ 3 Jupiter / Sun lines to bodies (not followed)
+- S Sun → Haumea RA 0.5695 conj (38.48)
+### READ 4 Moon only, not active (confirm no lead line; not followed)
+- S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+- S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+- S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+- S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+- S Moon → Procyon Dec 13.9948 14 whole (54.47)
+
 ## 1 Off The Jury / Sean Bowen
 ### L1 same bodies
 - S Neptune → H Neptune Dec 6.0264 6 whole (loose)

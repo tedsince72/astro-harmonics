@@ -27,6 +27,492 @@ The stage 1 data laid out in fixed layers for every runner; data only, no interp
 - S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)
 - Hubs: Gonggong, Scheat
 
+## READ (reading order, Eddie 7 Nov 2026)
+### READ 1 same body first
+- **1 Eclair D'Ainay / Harry Skelton**
+  - S Pluto → H Pluto RA 14.4543 14.4444 ninth (loose)
+  - S Sedna → H Sedna RA 4.1479 4.14 silver (loose)
+  - S Haumea → H Haumea Dec 3.2304 2×φ golden (loose)
+  - S Transpluto → H Transpluto Dec 1.2219 1.22222 ninth (loose)
+  - S Mercury → J Mercury RA 122.4232 122.222 ninth (loose)
+  - S Mercury → J Mercury Dec 10.0129 10 whole (12.50)
+  - S Mars → J Mars Dec 24.2671 15×φ golden (loose)
+  - S Jupiter → J Jupiter RA 122.6607 122.222 ninth (loose)
+  - S Rahu → J Rahu Dec 32.9868 33 whole (11.53)
+  - S Sedna → J Sedna Dec 3.9959 4 whole (62.95)
+  - S Haumea → J Haumea RA 30.7414 19×φ golden (92.20)
+  - S Ketu → J Ketu Dec 32.9868 33 whole (11.53)
+- **2 Financier / Richard Patrick**
+  - S Sun → H Sun RA 61.0020 61 whole (80.77)
+  - S Mercury → H Mercury Dec 6.9870 7 whole (12.28)
+  - S Venus → H Venus Dec 16.6048 16.6667 ninth (loose)
+  - S Jupiter → H Jupiter Dec 32.3846 20×φ golden (loose)
+  - S Uranus → H Uranus Dec 12.0033 12 whole (69.56)
+  - S Neptune → H Neptune Dec 6.0143 6 whole (8.23)
+  - S Pluto → H Pluto RA 16.6706 16.6667 ninth (loose)
+  - S Rahu → H Rahu RA 167.9826 168 whole (1.66)
+  - S Rahu → H Rahu Dec 37.0000 37 whole (99.61)
+  - S Sedna → H Sedna RA 5.0152 5 whole (5.87)
+  - S Quaoar → H Quaoar RA 11.0198 11 whole (0.02)
+  - S Ketu → H Ketu RA 167.9826 168 whole (1.66)
+  - S Ketu → H Ketu Dec 37.0000 37 whole (99.61)
+  - S Sun → J Sun Dec 17.9253 φ^6 phi power (loose)
+  - S Uranus → J Uranus Dec 35.9819 36 whole (0.87)
+  - S Pluto → J Pluto Dec 15.5312 15.5556 ninth (loose)
+  - S Pallas → J Pallas Dec 9.9729 10 whole (loose)
+  - S Makemake → J Makemake RA 24.1381 24.14 silver (loose)
+  - S Gonggong → J Gonggong RA 5.9767 6 whole (loose)
+- **3 Frero Banbou / Charlie Deutsch**
+  - S Mercury → H Mercury RA 122.2286 122.222 ninth (99.11)
+  - S Venus → H Venus Dec 42.3012 10×φ^3 phi power (loose)
+  - S Mars → H Mars RA 150.4565 93×φ golden (12.96)
+  - S Saturn → H Saturn RA 76.0779 φ^9 phi power (loose)
+  - S Saturn → H Saturn Dec 1.0098 1 whole (26.07)
+  - S Eris → H Eris Dec 1.3290 1.33333 ninth (loose)
+  - S Haumea → H Haumea Dec 3.0057 3 whole (50.82)
+  - S Orcus → H Orcus Dec 4.0004 4 whole (95.56)
+  - S Transpluto → H Transpluto RA 2.9790 3 whole (loose)
+  - S Transpluto → H Transpluto Dec 1.1164 1.11111 ninth (loose)
+  - S Neptune → J Neptune Dec 15.5335 15.5556 ninth (loose)
+  - S Chiron → J Chiron RA 179.5005 10×φ^6 phi power (loose)
+  - S Pallas → J Pallas RA 143.9673 144.444 ninth (loose)
+  - S Eris → J Eris RA 2.2182 2.22222 ninth (loose)
+  - S Sedna → J Sedna RA 12.9931 13 whole (42.97)
+  - S Sedna → J Sedna Dec 3.0023 3 whole (78.24)
+  - S Orcus → J Orcus Dec 13.3194 13.3333 ninth (loose)
+- **4 One True King / Sam Twiston-Davies**
+  - S Uranus → H Uranus RA 21.0584 13×φ golden (loose)
+  - S Uranus → H Uranus Dec 7.9808 8 whole (0.16)
+  - S Vesta → H Vesta Dec 14.0109 14 whole (20.72)
+  - S Haumea → H Haumea Dec 3.0101 3 whole (24.56)
+  - S Orcus → H Orcus Dec 4.0202 4 whole (loose)
+  - S Transpluto → H Transpluto RA 2.9804 3 whole (0.04)
+  - S Transpluto → H Transpluto Dec 1.1170 1.11111 ninth (loose)
+  - S Sun → J Sun Dec 11.1440 11.1111 ninth (loose)
+  - S Mars → J Mars Dec 46.8930 φ^8 phi power (loose)
+  - S Jupiter → J Jupiter RA 155.3018 155.556 ninth (loose)
+  - S Jupiter → J Jupiter Dec 11.2978 7×φ golden (loose)
+  - S Saturn → J Saturn RA 1.9749 2 whole (loose)
+  - S Chiron → J Chiron Dec 3.0146 3 whole (7.41)
+  - S Ceres → J Ceres Dec 48.9833 49 whole (2.80)
+  - S Pallas → J Pallas Dec 17.6761 17.7778 ninth (loose)
+  - S Juno → J Juno RA 161.9749 162 whole (loose)
+  - S Orcus → J Orcus RA 24.2653 15×φ golden (loose)
+  - S Orcus → J Orcus Dec 14.4973 14.4444 ninth (loose)
+- **5 Cedar Hill / Jonathan Burke**
+  - S Sun → H Sun RA 164.0028 164 whole (73.99)
+  - S Sun → H Sun Dec 42.3654 10×φ^3 phi power (95.58)
+  - S Venus → H Venus Dec 38.0256 38 whole (loose)
+  - S Uranus → H Uranus RA 23.0164 23 whole (3.19)
+  - S Ceres → H Ceres Dec 20.9872 21 whole (12.91)
+  - S Haumea → H Haumea RA 8.9761 9 whole (loose)
+  - S Orcus → H Orcus RA 7.7760 7.77778 ninth (loose)
+  - S Quaoar → H Quaoar RA 11.1638 11.1111 ninth (loose)
+  - S Mercury → J Mercury RA 17.6596 17.7778 ninth (loose)
+  - S Saturn → J Saturn RA 34.0095 34 whole (27.71)
+  - S Saturn → J Saturn Dec 11.0959 φ^5 phi power (80.48)
+  - S Chiron → J Chiron Dec 12.9679 8×φ golden (loose)
+  - S Juno → J Juno Dec 0.9737 1 whole (loose)
+  - S Vesta → J Vesta RA 66.6537 66.6667 ninth (loose)
+  - S Makemake → J Makemake Dec 11.0665 φ^5 phi power (loose)
+  - S Transpluto → J Transpluto Dec 3.0150 3 whole (6.23)
+- **6 Le Ligerien / Ben Jones**
+  - S Mercury → H Mercury RA 36.0035 36 whole (67.67)
+  - S Jupiter → H Jupiter RA 92.9778 93 whole (loose)
+  - S Pluto → H Pluto RA 16.6353 16.6667 ninth (loose)
+  - S Chiron → H Chiron Dec 8.0971 5×φ golden (loose)
+  - S Pallas → H Pallas Dec 3.9971 4 whole (72.96)
+  - S Juno → H Juno Dec 4.2264 φ^3 phi power (loose)
+  - S Eris → H Eris Dec 2.0176 2 whole (1.40)
+  - S Sedna → H Sedna RA 4.9812 5 whole (0.36)
+  - S Sedna → H Sedna Dec 1.0205 1 whole (loose)
+  - S Quaoar → H Quaoar RA 11.0218 11 whole (loose)
+  - S Gonggong → H Gonggong Dec 2.0162 2 whole (3.55)
+  - S Mercury → J Mercury RA 76.9705 77 whole (loose)
+  - S Venus → J Venus Dec 14.5361 9×φ golden (loose)
+  - S Pluto → J Pluto RA 48.9795 49 whole (loose)
+  - S Chiron → J Chiron RA 122.2762 122.222 ninth (92.53)
+  - S Ceres → J Ceres RA 118.9791 119 whole (loose)
+  - S Ceres → J Ceres Dec 6.8594 φ^4 phi power (loose)
+- **7 Beaufort West / Page Fuller**
+  - S Mercury → H Mercury Dec 24.1436 24.14 silver (97.52)
+  - S Mars → H Mars Dec 19.9963 20 whole (66.18)
+  - S Neptune → H Neptune RA 13.2935 13.3333 ninth (loose)
+  - S Neptune → H Neptune Dec 5.0123 5 whole (14.81)
+  - S Pluto → H Pluto RA 14.4334 14.4444 ninth (loose)
+  - S Vesta → H Vesta RA 70.9801 71 whole (0.00)
+  - S Eris → H Eris Dec 1.6634 1.66667 ninth (loose)
+  - S Transpluto → H Transpluto Dec 1.2151 1.22222 ninth (loose)
+  - S Sun → J Sun Dec 33.9857 34 whole (8.18)
+  - S Jupiter → J Jupiter Dec 9.9726 10 whole (loose)
+  - S Neptune → J Neptune Dec 16.1905 10×φ^1 phi power (loose)
+  - S Pluto → J Pluto Dec 16.0264 16 whole (loose)
+  - S Eris → J Eris Dec 6.4758 4×φ golden (loose)
+  - S Haumea → J Haumea Dec 6.8504 φ^4 phi power (loose)
+### READ 2 Jupiter / Sun star lines, highest score first, each in full
+#### 1. S Sun → Pleiades Dec 44.0004 44 whole (96.38) — runners with cells 7/7
+- Moon confirms: none
+- 1 Eclair D'Ainay / Harry Skelton
+  - star rows: J Pleiades → J Chiron Dec 7.9822 8 whole (1.23) — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch
+  - star rows: J Pleiades → J Juno RA 133.3040 133.333 ninth (96.47) — also: 6 Le Ligerien / Ben Jones
+  - star rows: J Pleiades → J Makemake Dec 11.0036 11 whole (67.32) — also: 2 Financier / Richard Patrick
+  - star rows: J Pleiades → J Ketu Dec 11.0907 φ^5 phi power (98.25) — only
+  - MATCH EXACT: H Deneb → Quaoar RA 43.9993 44 whole (93.20)
+- 2 Financier / Richard Patrick
+  - star rows: H Pleiades → H Jupiter RA 12.2259 12.2222 ninth (94.86) — also: 4 One True King / Sam Twiston-Davies
+  - star rows: H Pleiades → H Haumea RA 152.0990 94×φ golden (78.06) — only
+  - star rows: S Pleiades → J Jupiter RA 168.3000 104×φ golden (5.95) — also: 4 One True King / Sam Twiston-Davies
+  - star rows: J Pleiades → J Uranus RA 118.1235 73×φ golden (61.35) — also: 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
+  - star rows: J Pleiades → J Chiron RA 124.5727 77×φ golden (25.86) — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch
+  - star rows: J Pleiades → J Makemake Dec 9.0055 9 whole (52.66) — also: 1 Eclair D'Ainay / Harry Skelton
+  - natal Jupiter → star: H Jupiter → H star Pleiades RA 12.2259 12.2222 ninth (94.86) — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 7 Beaufort West / Page Fuller
+  - MATCH EXACT: H Rukbat → Mars Dec 44.0117 44 whole (17.42)
+  - MATCH EXACT: H Alkes → Haumea RA 44.0198 44 whole (0.01)
+  - same number: H Alkes → H Haumea RA 44.0198 44 whole (0.01) — also: 5 Cedar Hill / Jonathan Burke
+- 3 Frero Banbou / Charlie Deutsch
+  - star rows: H Pleiades → H Mercury Dec 0.2252 conj (6.22) — also: 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+  - star rows: H Pleiades → H Mars RA 0.9142 conj (15.25) — also: 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+  - star rows: H Pleiades → H Ceres RA 105.1869 65×φ golden (29.77) — only
+  - star rows: H Pleiades → H Ceres Dec 48.0036 48 whole (67.10) — only
+  - star rows: J Pleiades → J Mars RA 1.2837 conj (2.08) — also: 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+  - star rows: J Pleiades → J Chiron Dec 28.9922 29 whole (37.40) — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick
+  - MATCH EXACT: H Hamal → Pluto Dec 43.9963 44 whole (66.65)
+  - MATCH EXACT: H Difda → Venus Dec 44.0094 44 whole (28.04)
+  - MATCH EXACT: H Murzim → Venus Dec 43.9811 44 whole (0.31)
+- 4 One True King / Sam Twiston-Davies
+  - star rows: H Pleiades → H Mercury Dec 0.0239 conj (84.72) — also: 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+  - star rows: H Pleiades → H Sedna Dec 16.6677 16.6667 ninth (99.08) — also: 6 Le Ligerien / Ben Jones
+  - star rows: J Pleiades → J Jupiter RA 124.5968 77×φ golden (55.96) — also: 2 Financier / Richard Patrick
+  - star rows: J Pleiades → J Mars Dec 0.9937 1 whole (47.09) — also: 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+  - natal Jupiter → star: J Jupiter → J star Pleiades RA 124.5968 77×φ golden (55.96) — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 7 Beaufort West / Page Fuller
+  - MATCH EXACT: H Hamal → Pluto Dec 44.0030 44 whole (72.36)
+  - MATCH EXACT: H Praesepe → Ceres Dec 43.9919 44 whole (35.44)
+  - MATCH EXACT: J Acumen → Vesta RA 44.0030 44 whole (71.86)
+- 5 Cedar Hill / Jonathan Burke
+  - star rows: H Pleiades → H Mars Dec 33.0032 33 whole (70.76) — also: 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones
+  - star rows: H Pleiades → H Gonggong Dec 37.2111 23×φ golden (78.33) — only
+  - star rows: J Pleiades → J Mercury Dec 48.5484 30×φ golden (59.62) — also: 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+  - star rows: J Pleiades → J Uranus Dec 45.0020 45 whole (80.70) — also: 2 Financier / Richard Patrick, 7 Beaufort West / Page Fuller
+  - star rows: J Pleiades → J Pluto Dec 32.0140 32 whole (8.99) — only
+  - MATCH EXACT: H El Nath → Quaoar Dec 44.0059 44 whole (49.88)
+  - MATCH EXACT: H Deneb Algedi → Pluto RA 43.9897 44 whole (23.67)
+  - MATCH EXACT: H Antares → Vesta RA 43.9836 44 whole (3.21)
+  - MATCH EXACT: J Alkes → Vesta RA 43.9826 44 whole (1.71)
+  - same number: J Alkes → J Vesta RA 43.9826 44 whole (1.71) — also: 2 Financier / Richard Patrick
+- 6 Le Ligerien / Ben Jones
+  - star rows: J Pleiades → J Mercury RA 173.1589 107×φ golden (0.91) — also: 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
+  - star rows: J Pleiades → J Mercury Dec 42.0075 42 whole (38.82) — also: 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
+  - star rows: J Pleiades → J Venus RA 131.0702 81×φ golden (49.94) — only
+  - star rows: J Pleiades → J Mars RA 122.2413 122.222 ninth (97.36) — also: 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
+  - star rows: J Pleiades → J Juno RA 155.5666 155.556 ninth (98.96) — also: 1 Eclair D'Ainay / Harry Skelton
+  - star rows: J Pleiades → J Sedna Dec 18.9955 19 whole (60.18) — also: 4 One True King / Sam Twiston-Davies
+  - MATCH EXACT: H Vindemiatrix → Transpluto RA 43.9925 44 whole (39.35)
+- 7 Beaufort West / Page Fuller
+  - star rows: H Pleiades → H Mercury Dec 16.0175 16 whole (1.60) — also: 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+  - star rows: H Pleiades → H Orcus Dec 31.9817 32 whole (0.73) — only
+  - star rows: H Pleiades → H Quaoar RA 150.4584 93×φ golden (17.76) — only
+  - star rows: J Pleiades → J Sun Dec 10.0135 10 whole (10.52) — only
+  - star rows: J Pleiades → J Uranus Dec 45.3052 28×φ golden (98.25) — also: 2 Financier / Richard Patrick, 5 Cedar Hill / Jonathan Burke
+  - star rows: J Pleiades → J Pallas RA 87.3789 54×φ golden (71.28) — only
+  - MATCH EXACT: H Rukbat → Vesta Dec 43.9840 44 whole (4.09)
+#### 2. S Jupiter → Scheat Dec 38.8362 24×φ golden (80.40) — runners with cells 7/7
+- Moon confirms: S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)
+- 1 Eclair D'Ainay / Harry Skelton
+  - star rows: H Scheat → H Chiron RA 0.5061 conj (43.91) — also: 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
+  - star rows: H Scheat → H Orcus RA 162.9829 163 whole (2.04) — also: 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
+  - star rows: J Scheat → J Ceres RA 104.0173 104 whole (1.84) — also: 2 Financier / Richard Patrick, 5 Cedar Hill / Jonathan Burke
+  - star rows: J Scheat → J Gonggong RA 17.0125 17 whole (14.21) — only
+  - star rows: J Scheat → J Ketu RA 161.8359 100×φ^1 phi power (92.12) — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch
+  - MATCH EXACT: H Phact → Uranus Dec 38.8344 24×φ golden (90.47)
+- 2 Financier / Richard Patrick
+  - star rows: H Scheat → H Mercury RA 6.0106 6 whole (22.24) — also: 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+  - star rows: H Scheat → H Neptune RA 9.9949 10 whole (55.30) — only
+  - star rows: H Scheat → H Rahu RA 120.9902 121 whole (25.82) — also: 3 Frero Banbou / Charlie Deutsch, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+  - star rows: H Scheat → H Quaoar Dec 43.6854 27×φ golden (91.03) — also: 5 Cedar Hill / Jonathan Burke
+  - star rows: H Scheat → H Ketu RA 59.0098 59 whole (25.82) — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch
+  - star rows: J Scheat → J Ceres RA 153.0054 153 whole (53.33) — also: 1 Eclair D'Ainay / Harry Skelton, 5 Cedar Hill / Jonathan Burke
+  - star rows: J Scheat → J Quaoar RA 106.0068 106 whole (43.55) — also: 5 Cedar Hill / Jonathan Burke
+  - MATCH EXACT: H Meissa → Ketu RA 38.8349 24×φ golden (87.45)
+  - MATCH EXACT: J Fomalhaut → Eris RA 38.8339 24×φ golden (93.50)
+  - same number: J Fomalhaut → J Eris RA 38.8339 24×φ golden (93.50) — also: 6 Le Ligerien / Ben Jones
+- 3 Frero Banbou / Charlie Deutsch
+  - star rows: H Scheat → H Vesta Dec 36.0077 36 whole (37.72) — also: 5 Cedar Hill / Jonathan Burke
+  - star rows: H Scheat → H Sedna RA 69.0159 69 whole (4.27) — only
+  - star rows: H Scheat → H Haumea RA 135.9141 84×φ golden (95.25) — also: 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
+  - star rows: H Scheat → H Haumea Dec 10.0192 10 whole (0.16) — also: 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
+  - star rows: H Scheat → H Makemake RA 153.7385 95×φ golden (4.77) — also: 4 One True King / Sam Twiston-Davies
+  - star rows: J Scheat → J Pallas RA 133.9945 134 whole (52.33) — also: 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+  - star rows: J Scheat → J Rahu RA 152.0077 152 whole (37.68) — also: 2 Financier / Richard Patrick, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+  - star rows: J Scheat → J Makemake RA 171.5125 106×φ golden (94.38) — also: 4 One True King / Sam Twiston-Davies
+  - star rows: J Scheat → J Ketu RA 27.9923 28 whole (37.68) — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick
+- 4 One True King / Sam Twiston-Davies
+  - star rows: H Scheat → H Mercury Dec 3.9999 4 whole (98.82) — also: 2 Financier / Richard Patrick, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+  - star rows: H Scheat → H Venus RA 112.9816 113 whole (0.62) — also: 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+  - star rows: H Scheat → H Haumea Dec 10.0149 10 whole (6.56) — also: 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke
+  - star rows: J Scheat → J Juno RA 111.6241 69×φ golden (14.04) — only
+  - star rows: J Scheat → J Eris Dec 37.0068 37 whole (43.69) — also: 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
+  - star rows: J Scheat → J Makemake Dec 5.9830 6 whole (2.25) — also: 3 Frero Banbou / Charlie Deutsch
+- 5 Cedar Hill / Jonathan Burke
+  - star rows: S Scheat → H Jupiter RA 134.2752 83×φ golden (11.02) — also: 7 Beaufort West / Page Fuller
+  - star rows: H Scheat → H Mercury RA 99.9964 100 ninth (97.63) — also: 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+  - star rows: H Scheat → H Mars Dec 36.9809 37 whole (0.22) — only
+  - star rows: H Scheat → H Chiron RA 0.5083 conj (43.71) — also: 1 Eclair D'Ainay / Harry Skelton, 7 Beaufort West / Page Fuller
+  - star rows: H Scheat → H Pallas RA 174.7439 108×φ golden (77.98) — also: 3 Frero Banbou / Charlie Deutsch, 6 Le Ligerien / Ben Jones
+  - star rows: H Scheat → H Eris RA 40.0171 40 whole (2.11) — also: 4 One True King / Sam Twiston-Davies, 7 Beaufort West / Page Fuller
+  - star rows: H Scheat → H Orcus RA 163.4424 101×φ golden (12.50) — also: 1 Eclair D'Ainay / Harry Skelton, 7 Beaufort West / Page Fuller
+  - star rows: H Scheat → H Quaoar RA 80.9042 50×φ golden (85.02) — also: 2 Financier / Richard Patrick
+  - star rows: J Scheat → J Uranus Dec 48.9808 49 whole (0.14) — only
+  - star rows: J Scheat → J Pluto Dec 35.9927 36 whole (40.51) — only
+  - star rows: J Scheat → J Ceres RA 118.0070 118 whole (42.06) — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick
+  - star rows: J Scheat → J Vesta RA 137.0131 137 whole (11.83) — also: 3 Frero Banbou / Charlie Deutsch
+  - star rows: J Scheat → J Haumea RA 152.0992 94×φ golden (76.65) — also: 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies
+  - star rows: J Scheat → J Quaoar RA 103.9856 104 whole (7.97) — also: 2 Financier / Richard Patrick
+  - MATCH EXACT: J Ras Algethi → Mercury Dec 38.8319 24×φ golden (94.25)
+- 6 Le Ligerien / Ben Jones
+  - star rows: H Scheat → H Rahu Dec 45.0170 45 whole (2.19) — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 7 Beaufort West / Page Fuller
+  - star rows: J Scheat → J Mercury Dec 45.9876 46 whole (14.48) — also: 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
+  - star rows: J Scheat → J Venus RA 157.9982 158 whole (82.42) — also: 4 One True King / Sam Twiston-Davies, 7 Beaufort West / Page Fuller
+  - star rows: J Scheat → J Pallas RA 135.9074 84×φ golden (59.44) — also: 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke
+  - MATCH EXACT: H Castor → Pallas Dec 38.8330 24×φ golden (98.63)
+  - same number: H Castor → H Pallas Dec 38.8330 24×φ golden (98.63) — also: 2 Financier / Richard Patrick
+- 7 Beaufort West / Page Fuller
+  - star rows: H Scheat → H Mercury Dec 19.9932 20 whole (43.65) — also: 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+  - star rows: H Scheat → H Venus RA 1.1542 conj (5.31) — also: 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones
+  - star rows: H Scheat → H Jupiter Dec 5.0172 5 whole (1.95) — also: 5 Cedar Hill / Jonathan Burke
+  - star rows: H Scheat → H Chiron RA 0.7176 conj (27.21) — also: 1 Eclair D'Ainay / Harry Skelton, 5 Cedar Hill / Jonathan Burke
+  - star rows: H Scheat → H Orcus RA 163.0133 163 whole (11.27) — also: 1 Eclair D'Ainay / Harry Skelton, 5 Cedar Hill / Jonathan Burke
+  - star rows: J Scheat → J Sun Dec 13.9920 14 whole (35.80) — only
+  - star rows: J Scheat → J Rahu RA 139.1537 86×φ golden (83.60) — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 6 Le Ligerien / Ben Jones
+  - star rows: J Scheat → J Eris Dec 36.0091 36 whole (29.78) — also: 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
+#### 3. S Sun → Galactic Centre RA 37.0023 37 whole (77.89) — runners with cells 7/7
+- Moon confirms: none
+- 1 Eclair D'Ainay / Harry Skelton
+  - star rows: S Galactic Centre → H Jupiter Dec 52.0075 52 whole (39.25) — also: 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+  - star rows: H Galactic Centre → H Pluto RA 17.7991 11×φ golden (95.54) — only
+  - star rows: H Galactic Centre → H Chiron RA 79.0139 79 whole (9.41) — only
+  - star rows: H Galactic Centre → H Quaoar RA 0.0625 conj (91.84) — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+  - star rows: J Galactic Centre → J Jupiter RA 166.9814 167 whole (0.48) — also: 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+  - star rows: J Galactic Centre → J Rahu Dec 15.9935 16 whole (45.33) — also: 7 Beaufort West / Page Fuller
+  - star rows: J Galactic Centre → J Eris Dec 19.4139 12×φ golden (85.27) — also: 7 Beaufort West / Page Fuller
+  - star rows: J Galactic Centre → J Transpluto RA 122.0035 122 whole (68.33) — also: 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+  - MATCH EXACT: H Aculeus → Uranus Dec 37.0093 37 whole (28.86)
+  - MATCH EXACT: J Aldebaran → Gonggong Dec 36.9806 37 whole (0.10)
+- 2 Financier / Richard Patrick
+  - star rows: H Galactic Centre → H Sun RA 97.9981 98 whole (82.02) — also: 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke
+  - star rows: H Galactic Centre → H Ceres RA 179.9950 180 whole (56.44) — also: 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones
+  - star rows: H Galactic Centre → H Pallas RA 125.9840 126 whole (3.93) — only
+  - star rows: H Galactic Centre → H Vesta Dec 51.7746 32×φ golden (85.15) — only
+  - star rows: H Galactic Centre → H Sedna Dec 35.9917 36 whole (33.94) — also: 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+  - star rows: H Galactic Centre → H Quaoar RA 1.2303 conj (3.23) — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+  - star rows: H Galactic Centre → H Gonggong Dec 15.5558 15.5556 ninth (99.77) — also: 3 Frero Banbou / Charlie Deutsch
+  - star rows: J Galactic Centre → J Haumea RA 74.0158 74 whole (4.43) — only
+  - MATCH EXACT: H Praesepe → Rahu Dec 37.0107 37 whole (21.72)
+  - MATCH EXACT: J Aculeus → Sedna Dec 37.0016 37 whole (84.84)
+  - MATCH EXACT: J Alphecca → Rahu Dec 36.9910 37 whole (30.08)
+  - same number: S Rahu → H Rahu Dec 37.0000 37 whole (99.61) — also: 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
+  - same number: S Ketu → H Ketu Dec 37.0000 37 whole (99.61) — also: 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
+- 3 Frero Banbou / Charlie Deutsch
+  - star rows: H Galactic Centre → H Quaoar RA 1.0664 conj (8.36) — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+  - star rows: H Galactic Centre → H Gonggong RA 69.5764 43×φ golden (94.40) — also: 2 Financier / Richard Patrick
+  - star rows: J Galactic Centre → J Sun Dec 51.9882 52 whole (16.78) — also: 2 Financier / Richard Patrick, 5 Cedar Hill / Jonathan Burke
+  - star rows: J Galactic Centre → J Makemake RA 91.9919 92 whole (35.21) — also: 5 Cedar Hill / Jonathan Burke
+  - MATCH EXACT: H Alpheratz → Vesta Dec 37.0144 37 whole (7.86)
+  - MATCH EXACT: H Algorab → Mars Dec 36.9827 37 whole (1.88)
+- 4 One True King / Sam Twiston-Davies
+  - star rows: H Galactic Centre → H Ceres Dec 4.9996 5 whole (96.35) — also: 2 Financier / Richard Patrick, 6 Le Ligerien / Ben Jones
+  - star rows: H Galactic Centre → H Quaoar RA 1.0184 conj (10.31) — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+  - MATCH EXACT: J Algorab → Vesta RA 36.9953 37 whole (58.39)
+  - MATCH EXACT: J Scheat → Eris Dec 37.0068 37 whole (43.69)
+  - same number: J Scheat → J Eris Dec 37.0068 37 whole (43.69) — also: 2 Financier / Richard Patrick, 5 Cedar Hill / Jonathan Burke
+- 5 Cedar Hill / Jonathan Burke
+  - star rows: H Galactic Centre → H Sun RA 159.0063 159 whole (47.06) — also: 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch
+  - star rows: H Galactic Centre → H Mars RA 66.9866 67 whole (10.76) — only
+  - star rows: H Galactic Centre → H Saturn Dec 14.4500 14.4444 ninth (94.15) — only
+  - star rows: H Galactic Centre → H Quaoar RA 1.3795 conj (0.64) — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones, 7 Beaufort West / Page Fuller
+  - star rows: S Galactic Centre → J Jupiter RA 0.9767 conj (12.17) — also: 1 Eclair D'Ainay / Harry Skelton, 6 Le Ligerien / Ben Jones
+  - star rows: J Galactic Centre → J Saturn Dec 22.6593 14×φ golden (62.13) — only
+  - star rows: J Galactic Centre → J Juno Dec 14.9965 15 whole (67.79) — only
+  - star rows: J Galactic Centre → J Sedna RA 137.9983 138 whole (83.42) — also: 2 Financier / Richard Patrick, 6 Le Ligerien / Ben Jones
+  - star rows: J Galactic Centre → J Makemake RA 89.9905 90 whole (27.77) — also: 3 Frero Banbou / Charlie Deutsch
+  - star rows: J Galactic Centre → J Transpluto RA 119.7195 74×φ golden (28.58) — also: 1 Eclair D'Ainay / Harry Skelton, 6 Le Ligerien / Ben Jones
+  - MATCH EXACT: H Fomalhaut → Sedna Dec 37.0172 37 whole (1.94)
+  - MATCH EXACT: H Scheat → Mars Dec 36.9809 37 whole (0.22)
+  - MATCH EXACT: J Alpheratz → Pluto Dec 37.0009 37 whole (91.27)
+  - MATCH EXACT: J Rasalhague → Mercury Dec 37.0020 37 whole (81.05)
+  - MATCH EXACT: J Castor → Vesta Dec 37.0153 37 whole (5.52)
+  - same number: H Fomalhaut → H Sedna Dec 37.0172 37 whole (1.94) — also: 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies
+  - same number: H Scheat → H Mars Dec 36.9809 37 whole (0.22) — also: 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies
+  - same number: J Castor → J Vesta Dec 37.0153 37 whole (5.52) — also: 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies
+- 6 Le Ligerien / Ben Jones
+  - star rows: H Galactic Centre → H Sedna Dec 36.0070 36 whole (42.04) — also: 2 Financier / Richard Patrick, 5 Cedar Hill / Jonathan Burke
+  - star rows: H Galactic Centre → H Orcus RA 118.1031 73×φ golden (34.24) — also: 7 Beaufort West / Page Fuller
+  - star rows: H Galactic Centre → H Quaoar RA 1.2327 conj (3.17) — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
+  - star rows: H Galactic Centre → H Transpluto RA 114.8622 71×φ golden (19.20) — also: 1 Eclair D'Ainay / Harry Skelton, 5 Cedar Hill / Jonathan Burke
+  - star rows: S Galactic Centre → J Jupiter Dec 38.0096 38 whole (27.27) — also: 1 Eclair D'Ainay / Harry Skelton, 5 Cedar Hill / Jonathan Burke
+  - star rows: J Galactic Centre → J Ceres Dec 41.0170 41 whole (2.29) — also: 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies
+  - MATCH EXACT: J Algorab → Haumea Dec 37.0023 37 whole (78.50)
+  - MATCH EXACT: J Capella → Jupiter Dec 36.9953 37 whole (58.57)
+  - MATCH EXACT: J Orion Nebula Cluster → Makemake Dec 36.9815 37 whole (0.54)
+- 7 Beaufort West / Page Fuller
+  - star rows: H Galactic Centre → H Eris RA 118.9868 119 whole (11.47) — also: 1 Eclair D'Ainay / Harry Skelton
+  - star rows: H Galactic Centre → H Quaoar RA 0.0127 conj (98.32) — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+  - star rows: H Galactic Centre → H Ketu RA 119.7545 74×φ golden (14.74) — only
+  - star rows: J Galactic Centre → J Rahu Dec 17.9492 φ^6 phi power (89.35) — also: 1 Eclair D'Ainay / Harry Skelton
+  - star rows: J Galactic Centre → J Orcus RA 131.9820 132 whole (0.98) — also: 6 Le Ligerien / Ben Jones
+  - MATCH EXACT: J Wezen → Ceres Dec 37.0040 37 whole (63.98)
+  - MATCH EXACT: J Alpheratz → Eris Dec 37.0164 37 whole (3.16)
+#### 4. S Sun → Al Rescha Dec 22.6574 14×φ golden (71.84) — runners with cells 7/7
+- Moon confirms: none
+- 1 Eclair D'Ainay / Harry Skelton
+  - star rows: H Al Rescha → H Uranus RA 17.7708 17.7778 ninth (94.58) — also: 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+  - star rows: H Al Rescha → H Uranus Dec 1.9946 2 whole (53.10) — also: 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+  - star rows: H Al Rescha → H Ceres Dec 1.0000 1 whole (99.56) — also: 6 Le Ligerien / Ben Jones
+  - star rows: H Al Rescha → H Pallas Dec 7.7774 7.77778 ninth (96.82) — only
+  - star rows: J Al Rescha → J Mars RA 150.4766 93×φ golden (96.57) — only
+  - star rows: J Al Rescha → J Pluto Dec 4.0075 4 whole (39.13) — only
+  - star rows: J Al Rescha → J Pallas RA 15.9876 16 whole (14.31) — only
+  - MATCH EXACT: J Aculeus → Eris Dec 22.6597 14×φ golden (60.12)
+- 2 Financier / Richard Patrick
+  - star rows: H Al Rescha → H Uranus Dec 0.1658 conj (20.01) — also: 1 Eclair D'Ainay / Harry Skelton, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+  - star rows: H Al Rescha → H Vesta Dec 20.0056 20 whole (51.48) — also: 7 Beaufort West / Page Fuller
+  - star rows: H Al Rescha → H Ketu RA 14.4414 14.4444 ninth (96.78) — only
+  - star rows: J Al Rescha → J Uranus Dec 24.1487 24.14 silver (89.49) — also: 1 Eclair D'Ainay / Harry Skelton, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+  - star rows: J Al Rescha → J Sedna Dec 1.9816 2 whole (0.60) — also: 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones
+  - star rows: J Al Rescha → J Haumea RA 161.8836 100×φ^1 phi power (81.17) — also: 4 One True King / Sam Twiston-Davies
+  - star rows: J Al Rescha → J Transpluto RA 116.0143 116 whole (8.26) — also: 4 One True King / Sam Twiston-Davies
+  - MATCH EXACT: H Regulus → Neptune Dec 22.6517 14×φ golden (95.42)
+  - MATCH EXACT: H Arcturus → Eris Dec 22.6592 14×φ golden (62.70)
+  - same number: H Regulus → H Neptune Dec 22.6517 14×φ golden (95.42) — also: 5 Cedar Hill / Jonathan Burke
+- 3 Frero Banbou / Charlie Deutsch
+  - star rows: H Al Rescha → H Juno Dec 10.9942 11 whole (50.36) — only
+  - star rows: H Al Rescha → H Quaoar RA 123.0186 123 whole (0.50) — also: 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones
+  - star rows: J Al Rescha → J Rahu RA 163.4279 101×φ golden (63.78) — also: 4 One True King / Sam Twiston-Davies
+  - MATCH EXACT: H Spica → Transpluto Dec 22.6589 14×φ golden (64.47)
+- 4 One True King / Sam Twiston-Davies
+  - star rows: H Al Rescha → H Uranus RA 13.3370 13.3333 ninth (95.60) — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+  - star rows: H Al Rescha → H Haumea RA 179.4734 10×φ^6 phi power (93.28) — also: 2 Financier / Richard Patrick
+  - star rows: J Al Rescha → J Mercury RA 171.5425 106×φ golden (0.21) — also: 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
+  - star rows: J Al Rescha → J Saturn Dec 20.9817 21 whole (0.74) — only
+  - star rows: J Al Rescha → J Chiron RA 111.1810 111.111 ninth (88.56) — only
+  - star rows: J Al Rescha → J Rahu RA 127.8340 79×φ golden (50.70) — also: 3 Frero Banbou / Charlie Deutsch
+  - star rows: J Al Rescha → J Sedna RA 13.0075 13 whole (39.09) — also: 2 Financier / Richard Patrick, 6 Le Ligerien / Ben Jones
+  - star rows: J Al Rescha → J Quaoar RA 153.9885 154 whole (18.17) — also: 3 Frero Banbou / Charlie Deutsch, 6 Le Ligerien / Ben Jones
+  - star rows: J Al Rescha → J Gonggong RA 60.9801 61 whole (0.00) — only
+  - star rows: J Al Rescha → J Transpluto Dec 10.9846 11 whole (5.39) — also: 2 Financier / Richard Patrick
+  - MATCH EXACT: H Rukbat → Pallas RA 22.6558 14×φ golden (80.64)
+  - MATCH EXACT: H Spica → Transpluto Dec 22.6593 14×φ golden (62.08)
+- 5 Cedar Hill / Jonathan Burke
+  - star rows: H Al Rescha → H Mercury Dec 16.9886 17 whole (18.57) — also: 4 One True King / Sam Twiston-Davies, 7 Beaufort West / Page Fuller
+  - star rows: H Al Rescha → H Venus Dec 18.9830 19 whole (2.27) — also: 7 Beaufort West / Page Fuller
+  - star rows: H Al Rescha → H Uranus Dec 2.9962 3 whole (65.42) — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies, 6 Le Ligerien / Ben Jones
+  - MATCH EXACT: H Algenib → Eris RA 22.6544 14×φ golden (88.25)
+  - MATCH EXACT: J Menkar → Gonggong Dec 22.6544 14×φ golden (88.34)
+  - MATCH EXACT: J Diadem → Vesta Dec 22.6556 14×φ golden (81.45)
+  - MATCH EXACT: J Galactic Centre → Saturn Dec 22.6593 14×φ golden (62.13)
+  - same number: J Galactic Centre → J Saturn Dec 22.6593 14×φ golden (62.13) — also: 2 Financier / Richard Patrick
+- 6 Le Ligerien / Ben Jones
+  - star rows: H Al Rescha → H Uranus Dec 0.0766 conj (55.43) — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
+  - star rows: H Al Rescha → H Ceres Dec 25.9852 26 whole (6.70) — also: 1 Eclair D'Ainay / Harry Skelton
+  - star rows: J Al Rescha → J Sedna RA 16.1893 10×φ^1 phi power (78.97) — also: 2 Financier / Richard Patrick, 4 One True King / Sam Twiston-Davies
+  - star rows: J Al Rescha → J Quaoar RA 144.4893 144.444 ninth (95.25) — also: 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies
+  - MATCH EXACT: J Pollux → Orcus RA 22.6555 14×φ golden (82.27)
+  - MATCH EXACT: J Deneb Algedi → Neptune RA 22.6600 14×φ golden (58.91)
+- 7 Beaufort West / Page Fuller
+  - star rows: H Al Rescha → H Venus Dec 9.0017 9 whole (83.52) — also: 5 Cedar Hill / Jonathan Burke
+  - star rows: H Al Rescha → H Jupiter RA 73.9822 74 whole (1.21) — only
+  - star rows: J Al Rescha → J Sun Dec 11.3259 7×φ golden (97.67) — only
+  - star rows: J Al Rescha → J Mercury RA 131.0112 131 whole (19.54) — also: 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
+  - star rows: J Al Rescha → J Venus Dec 12.9919 13 whole (35.16) — also: 5 Cedar Hill / Jonathan Burke
+  - star rows: J Al Rescha → J Vesta Dec 12.9821 13 whole (1.06) — also: 2 Financier / Richard Patrick
+  - MATCH EXACT: J Menkar → Gonggong Dec 22.6537 14×φ golden (92.37)
+#### 5. S Sun → Fomalhaut RA 40.9968 41 whole (70.51) — runners with cells 7/7
+- Moon confirms: none
+- 1 Eclair D'Ainay / Harry Skelton
+  - star rows: H Fomalhaut → H Mercury Dec 42.0684 26×φ golden (97.08) — also: 6 Le Ligerien / Ben Jones
+  - star rows: H Fomalhaut → H Neptune Dec 19.9810 20 whole (0.26) — also: 6 Le Ligerien / Ben Jones
+  - star rows: H Fomalhaut → H Chiron RA 1.0241 conj (10.07) — also: 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
+  - star rows: H Fomalhaut → H Ketu Dec 40.4533 25×φ golden (85.39) — only
+  - star rows: J Fomalhaut → J Mars RA 163.4247 101×φ golden (80.71) — also: 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
+  - star rows: J Fomalhaut → J Jupiter RA 115.0179 115 whole (1.12) — also: 4 One True King / Sam Twiston-Davies
+  - star rows: J Fomalhaut → J Makemake Dec 64.7296 40×φ golden (55.76) — also: 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke
+  - star rows: J Fomalhaut → J Transpluto RA 159.9958 160 whole (62.48) — also: 5 Cedar Hill / Jonathan Burke
+  - MATCH EXACT: H Difda → Jupiter Dec 40.9876 41 whole (14.34)
+  - MATCH EXACT: J Zosma → Gonggong Dec 40.9959 41 whole (63.30)
+- 2 Financier / Richard Patrick
+  - star rows: H Fomalhaut → H Sun RA 20.0072 20 whole (40.69) — also: 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
+  - star rows: H Fomalhaut → H Ceres RA 102.0042 102 whole (62.77) — also: 5 Cedar Hill / Jonathan Burke
+  - star rows: H Fomalhaut → H Pallas RA 47.9931 48 whole (42.87) — also: 7 Beaufort West / Page Fuller
+  - star rows: H Fomalhaut → H Orcus Dec 22.0075 22 whole (38.98) — also: 3 Frero Banbou / Charlie Deutsch
+  - star rows: H Fomalhaut → H Quaoar Dec 14.0190 14 whole (0.24) — also: 7 Beaufort West / Page Fuller
+  - star rows: J Fomalhaut → J Pluto RA 105.1946 65×φ golden (9.41) — only
+  - star rows: J Fomalhaut → J Pallas RA 177.7087 177.778 ninth (94.60) — also: 7 Beaufort West / Page Fuller
+  - star rows: J Fomalhaut → J Eris RA 38.8339 24×φ golden (93.50) — also: 7 Beaufort West / Page Fuller
+  - star rows: J Fomalhaut → J Haumea RA 152.0177 152 whole (1.28) — also: 5 Cedar Hill / Jonathan Burke, 6 Le Ligerien / Ben Jones
+  - MATCH EXACT: H El Nath → Saturn Dec 41.0185 41 whole (0.54)
+- 3 Frero Banbou / Charlie Deutsch
+  - star rows: H Fomalhaut → H Chiron Dec 30.0037 30 whole (66.11) — also: 1 Eclair D'Ainay / Harry Skelton, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
+  - star rows: H Fomalhaut → H Makemake Dec 55.9800 56 whole (0.00) — also: 1 Eclair D'Ainay / Harry Skelton, 5 Cedar Hill / Jonathan Burke
+  - star rows: J Fomalhaut → J Rahu RA 150.4769 93×φ golden (98.30) — only
+  - star rows: J Fomalhaut → J Makemake RA 169.9817 170 whole (0.71) — also: 1 Eclair D'Ainay / Harry Skelton, 5 Cedar Hill / Jonathan Burke
+  - star rows: J Fomalhaut → J Orcus Dec 30.7491 19×φ golden (64.04) — also: 2 Financier / Richard Patrick
+  - MATCH EXACT: H Rukbat → Chiron Dec 40.9966 41 whole (68.94)
+  - MATCH EXACT: H Zubeneschamali → Rahu RA 40.9826 41 whole (1.73)
+  - MATCH EXACT: J Capella → Sedna Dec 40.9802 41 whole (0.01)
+- 4 One True King / Sam Twiston-Davies
+  - star rows: H Fomalhaut → H Jupiter Dec 46.9997 47 whole (97.03) — also: 1 Eclair D'Ainay / Harry Skelton
+  - star rows: J Fomalhaut → J Mars RA 124.0199 124 whole (0.01) — also: 1 Eclair D'Ainay / Harry Skelton, 5 Cedar Hill / Jonathan Burke
+  - star rows: J Fomalhaut → J Chiron Dec 37.9830 38 whole (2.29) — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch, 5 Cedar Hill / Jonathan Burke, 7 Beaufort West / Page Fuller
+  - natal Jupiter → star: H Jupiter → H star Fomalhaut Dec 46.9997 47 whole (97.03) — also: 1 Eclair D'Ainay / Harry Skelton, 2 Financier / Richard Patrick, 3 Frero Banbou / Charlie Deutsch, 7 Beaufort West / Page Fuller
+  - MATCH EXACT: H Kaus Australis → Uranus Dec 41.0026 41 whole (75.76)
+  - MATCH EXACT: J Pollux → Vesta Dec 41.0026 41 whole (75.60)
+  - MATCH EXACT: J Vindemiatrix → Quaoar RA 40.9890 41 whole (20.13)
+  - MATCH EXACT: J Adhara → Transpluto RA 40.9820 41 whole (1.04)
+- 5 Cedar Hill / Jonathan Burke
+  - star rows: H Fomalhaut → H Sun RA 122.9990 φ^10 phi power (97.68) — also: 2 Financier / Richard Patrick, 7 Beaufort West / Page Fuller
+  - star rows: H Fomalhaut → H Mars RA 144.9813 145 whole (0.39) — also: 1 Eclair D'Ainay / Harry Skelton, 4 One True King / Sam Twiston-Davies
+  - star rows: H Fomalhaut → H Ceres Dec 27.5012 17×φ golden (69.52) — also: 2 Financier / Richard Patrick
+  - star rows: H Fomalhaut → H Sedna Dec 37.0172 37 whole (1.94) — only
+  - star rows: H Fomalhaut → H Makemake Dec 56.0194 56 whole (0.10) — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch
+  - star rows: J Fomalhaut → J Chiron Dec 22.0036 22 whole (67.02) — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 7 Beaufort West / Page Fuller
+  - star rows: J Fomalhaut → J Ceres RA 116.4757 72×φ golden (8.89) — also: 2 Financier / Richard Patrick
+  - star rows: J Fomalhaut → J Sedna RA 59.9982 60 whole (83.07) — only
+  - star rows: J Fomalhaut → J Haumea Dec 51.0011 51 whole (89.11) — also: 2 Financier / Richard Patrick, 6 Le Ligerien / Ben Jones
+  - star rows: J Fomalhaut → J Makemake RA 167.9906 168 whole (27.97) — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch
+  - star rows: J Fomalhaut → J Transpluto Dec 43.0189 43 whole (0.33) — also: 1 Eclair D'Ainay / Harry Skelton
+- 6 Le Ligerien / Ben Jones
+  - star rows: H Fomalhaut → H Mercury RA 1.3985 conj (0.46) — also: 1 Eclair D'Ainay / Harry Skelton
+  - star rows: H Fomalhaut → H Neptune Dec 18.9839 19 whole (3.79) — also: 1 Eclair D'Ainay / Harry Skelton
+  - star rows: H Fomalhaut → H Haumea Dec 48.0022 48 whole (79.33) — also: 2 Financier / Richard Patrick, 5 Cedar Hill / Jonathan Burke
+  - star rows: H Fomalhaut → H Gonggong Dec 16.1874 10×φ^1 phi power (83.31) — only
+  - MATCH EXACT: H Menkent → Mars Dec 40.9919 41 whole (35.55)
+  - MATCH EXACT: J Hamal → Uranus Dec 40.9923 41 whole (37.97)
+  - MATCH EXACT: J Hamal → Gonggong Dec 40.9877 41 whole (14.82)
+  - MATCH EXACT: J Galactic Centre → Ceres Dec 41.0170 41 whole (2.29)
+  - same number: J Galactic Centre → J Ceres Dec 41.0170 41 whole (2.29) — only
+- 7 Beaufort West / Page Fuller
+  - star rows: H Fomalhaut → H Saturn RA 114.8772 71×φ golden (81.15) — only
+  - star rows: H Fomalhaut → H Chiron RA 0.8125 conj (21.01) — also: 1 Eclair D'Ainay / Harry Skelton, 3 Frero Banbou / Charlie Deutsch, 4 One True King / Sam Twiston-Davies, 5 Cedar Hill / Jonathan Burke
+  - star rows: H Fomalhaut → H Pallas RA 161.8858 100×φ^1 phi power (80.66) — also: 2 Financier / Richard Patrick
+  - star rows: H Fomalhaut → H Vesta Dec 32.9922 33 whole (37.18) — only
+  - star rows: H Fomalhaut → H Eris RA 40.9969 41 whole (71.67) — also: 2 Financier / Richard Patrick
+  - star rows: H Fomalhaut → H Quaoar RA 78.0025 78 whole (76.53) — also: 2 Financier / Richard Patrick
+  - star rows: J Fomalhaut → J Sun RA 160.1998 99×φ golden (30.83) — also: 2 Financier / Richard Patrick, 5 Cedar Hill / Jonathan Burke
+  - MATCH EXACT: H Fomalhaut → Eris RA 40.9969 41 whole (71.67)
+### READ 3 Jupiter / Sun lines to bodies (not followed)
+- S Jupiter → Orcus RA 179.6087 111×φ golden (61.81)
+- S Jupiter → Gonggong RA 0.3439 conj (59.41)
+- S Sun → Ketu Dec 0.0774 conj (55.07)
+### READ 4 Moon only, not active (confirm no lead line; not followed)
+- S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)
+- S Moon → Castor RA 51.7767 32×φ golden (97.46)
+- S Moon → Sualocin RA 144.4728 144.444 ninth (97.00)
+- S Moon → Rigel Dec 18.8804 18.8889 ninth (93.87)
+- S Moon → Gonggong RA 170.9993 171 whole (93.54)
+- S Moon → Mirach RA 147.9983 148 whole (84.01)
+- S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)
+- S Moon → Alhena RA 65.9978 66 whole (78.94)
+- S Moon → Alkes RA 0.4866 conj (45.64)
+
 ## 1 Eclair D'Ainay / Harry Skelton
 ### L1 same bodies
 - S Pluto → H Pluto RA 14.4543 14.4444 ninth (loose)
