@@ -1,6 +1,6 @@
 # Stage 3 back-test
 
-Races: 20 (results file 20).
+Races: 21 (results file 21).
 fired = races with a pick; only pick = races with exactly one pick; alone = one pick and it won; chance from field sizes.
 In-sample = races the rule was seen on or written from (rules.json); test = every other race. Only the test races are evidence.
 
@@ -8,26 +8,26 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 
 | Rule | Name | races | fired | picks | winners (chance) | 1st or 2nd (chance) | only pick | alone |
 |---|---|---|---|---|---|---|---|---|
-| R25 | Pallas reached twice | 20 | 6 | 7 | 0 (1.1) | 3 (2.4) | 5 | 0 |
-| R28 | Chiron to Jupiter, lit by Sun / Moon | 20 | 5 | 7 | 1 (1.1) | 2 (2.4) | 3 | 0 |
-| R1b | Moon to X, sky X to Jupiter | 20 | 11 | 17 | 1 (3.1) | 6 (6.1) | 6 | 0 |
-| R7 | Line star on own Jupiter and on one body both charts | 20 | 11 | 18 | 0 (3.0) | 2 (6.4) | 5 | 0 |
-| R26 | Royal line star on own Jupiter | 20 | 9 | 13 | 3 (2.1) | 4 (4.2) | 6 | 1 |
-| R40 | Node axis | 20 | 5 | 7 | 0 (1.2) | 3 (2.3) | 3 | 0 |
-| R42 | Moon on a same body | 20 | 16 | 26 | 1 (4.4) | 8 (9.1) | 7 | 0 |
-| R1 | Sun / Moon on one body both charts, sky X to Jupiter | 20 | 3 | 3 | 0 (0.5) | 0 (0.9) | 3 | 0 |
-| B1 | Natal body on a strong line star (filter) | 2 | 2 | 5 | 1 (0.7) | 2 (1.3) | 1 | 0 |
-| B2 | Top natal body on a strong line star | 5 | 4 | 4 | 1 (0.7) | 2 (1.4) | 4 | 1 |
-| B3 | Version 4 | 4 | 3 | 3 | 0 (0.4) | 1 (0.9) | 3 | 0 |
-| B4 | Same body, clear lead | 2 | 1 | 1 | 0 (0.2) | 1 (0.3) | 1 | 0 |
-| B5 | Same body in both planes | 2 | 0 | 0 | 0 (0.0) | 0 (0.0) | 0 | 0 |
-| B6 | Same body on both charts | 2 | 0 | 0 | 0 (0.0) | 0 (0.0) | 0 | 0 |
-| B7 | Most sky bodies onto the jockey's Jupiter | 19 | 18 | 22 | 6 (3.6) | 12 (7.4) | 15 | 4 |
-| B8 | One line star on the most natal bodies | 19 | 19 | 39 | 8 (6.6) | 16 (13.3) | 9 | 3 |
-| B9 | Jupiter and two of its line stars on one natal body | 19 | 7 | 11 | 2 (1.8) | 3 (3.7) | 5 | 0 |
-| B10 | Sun and two of its line stars on one natal body | 19 | 12 | 21 | 8 (3.4) | 12 (7.2) | 9 | 6 |
-| B11 | Moon and two of its line stars on one natal body | 19 | 11 | 29 | 8 (4.9) | 12 (10.0) | 2 | 2 |
-| B12 | Same body and two line stars on it | 19 | 12 | 20 | 7 (3.5) | 9 (7.1) | 7 | 3 |
+| R25 | Pallas reached twice | 21 | 6 | 7 | 0 (1.1) | 3 (2.4) | 5 | 0 |
+| R28 | Chiron to Jupiter, lit by Sun / Moon | 21 | 5 | 7 | 1 (1.1) | 2 (2.4) | 3 | 0 |
+| R1b | Moon to X, sky X to Jupiter | 21 | 12 | 18 | 1 (3.2) | 6 (6.4) | 7 | 0 |
+| R7 | Line star on own Jupiter and on one body both charts | 21 | 12 | 20 | 0 (3.3) | 2 (7.1) | 5 | 0 |
+| R26 | Royal line star on own Jupiter | 21 | 9 | 13 | 3 (2.1) | 4 (4.2) | 6 | 1 |
+| R40 | Node axis | 21 | 5 | 7 | 0 (1.2) | 3 (2.3) | 3 | 0 |
+| R42 | Moon on a same body | 21 | 17 | 27 | 1 (4.6) | 8 (9.5) | 8 | 0 |
+| R1 | Sun / Moon on one body both charts, sky X to Jupiter | 21 | 3 | 3 | 0 (0.5) | 0 (0.9) | 3 | 0 |
+| B1 | Natal body on a strong line star (filter) | 3 | 3 | 6 | 1 (0.8) | 2 (1.7) | 2 | 0 |
+| B2 | Top natal body on a strong line star | 6 | 5 | 5 | 1 (0.9) | 2 (1.7) | 5 | 1 |
+| B3 | Version 4 | 5 | 4 | 4 | 0 (0.6) | 1 (1.2) | 4 | 0 |
+| B4 | Same body, clear lead | 3 | 2 | 2 | 0 (0.3) | 1 (0.7) | 2 | 0 |
+| B5 | Same body in both planes | 3 | 0 | 0 | 0 (0.0) | 0 (0.0) | 0 | 0 |
+| B6 | Same body on both charts | 3 | 0 | 0 | 0 (0.0) | 0 (0.0) | 0 | 0 |
+| B7 | Most sky bodies onto the jockey's Jupiter | 20 | 19 | 23 | 7 (3.8) | 13 (7.7) | 16 | 5 |
+| B8 | One line star on the most natal bodies | 20 | 20 | 42 | 8 (7.1) | 17 (14.3) | 9 | 3 |
+| B9 | Jupiter and two of its line stars on one natal body | 20 | 8 | 13 | 3 (2.2) | 5 (4.3) | 5 | 0 |
+| B10 | Sun and two of its line stars on one natal body | 20 | 12 | 21 | 8 (3.4) | 12 (7.2) | 9 | 6 |
+| B11 | Moon and two of its line stars on one natal body | 20 | 12 | 30 | 8 (5.0) | 12 (10.4) | 3 | 2 |
+| B12 | Same body and two line stars on it | 20 | 13 | 21 | 7 (3.7) | 10 (7.4) | 8 | 3 |
 
 ## In-sample races
 
@@ -58,26 +58,26 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 
 | Rule | Name | races | fired | picks | winners (chance) | 1st or 2nd (chance) | only pick | alone |
 |---|---|---|---|---|---|---|---|---|
-| R25 | Pallas reached twice | 20 | 6 | 7 | 0 (1.1) | 3 (2.4) | 5 | 0 |
-| R28 | Chiron to Jupiter, lit by Sun / Moon | 20 | 5 | 7 | 1 (1.1) | 2 (2.4) | 3 | 0 |
-| R1b | Moon to X, sky X to Jupiter | 20 | 11 | 17 | 1 (3.1) | 6 (6.1) | 6 | 0 |
-| R7 | Line star on own Jupiter and on one body both charts | 20 | 11 | 18 | 0 (3.0) | 2 (6.4) | 5 | 0 |
-| R26 | Royal line star on own Jupiter | 20 | 9 | 13 | 3 (2.1) | 4 (4.2) | 6 | 1 |
-| R40 | Node axis | 20 | 5 | 7 | 0 (1.2) | 3 (2.3) | 3 | 0 |
-| R42 | Moon on a same body | 20 | 16 | 26 | 1 (4.4) | 8 (9.1) | 7 | 0 |
-| R1 | Sun / Moon on one body both charts, sky X to Jupiter | 20 | 3 | 3 | 0 (0.5) | 0 (0.9) | 3 | 0 |
-| B1 | Natal body on a strong line star (filter) | 20 | 16 | 53 | 12 (8.9) | 20 (18.3) | 3 | 0 |
-| B2 | Top natal body on a strong line star | 20 | 16 | 16 | 5 (2.7) | 7 (5.6) | 16 | 5 |
-| B3 | Version 4 | 20 | 16 | 16 | 6 (2.7) | 8 (5.6) | 16 | 6 |
-| B4 | Same body, clear lead | 20 | 7 | 7 | 2 (1.2) | 5 (2.5) | 7 | 2 |
-| B5 | Same body in both planes | 20 | 4 | 4 | 1 (0.6) | 2 (1.3) | 4 | 1 |
-| B6 | Same body on both charts | 20 | 3 | 4 | 2 (0.7) | 2 (1.4) | 2 | 1 |
-| B7 | Most sky bodies onto the jockey's Jupiter | 20 | 19 | 23 | 7 (3.9) | 13 (7.9) | 16 | 5 |
-| B8 | One line star on the most natal bodies | 20 | 20 | 40 | 9 (6.8) | 17 (13.7) | 10 | 4 |
-| B9 | Jupiter and two of its line stars on one natal body | 20 | 8 | 12 | 3 (2.0) | 4 (3.9) | 6 | 1 |
-| B10 | Sun and two of its line stars on one natal body | 20 | 13 | 23 | 8 (3.6) | 12 (7.7) | 9 | 6 |
-| B11 | Moon and two of its line stars on one natal body | 20 | 12 | 31 | 8 (5.1) | 12 (10.5) | 2 | 2 |
-| B12 | Same body and two line stars on it | 20 | 13 | 21 | 7 (3.6) | 9 (7.4) | 8 | 3 |
+| R25 | Pallas reached twice | 21 | 6 | 7 | 0 (1.1) | 3 (2.4) | 5 | 0 |
+| R28 | Chiron to Jupiter, lit by Sun / Moon | 21 | 5 | 7 | 1 (1.1) | 2 (2.4) | 3 | 0 |
+| R1b | Moon to X, sky X to Jupiter | 21 | 12 | 18 | 1 (3.2) | 6 (6.4) | 7 | 0 |
+| R7 | Line star on own Jupiter and on one body both charts | 21 | 12 | 20 | 0 (3.3) | 2 (7.1) | 5 | 0 |
+| R26 | Royal line star on own Jupiter | 21 | 9 | 13 | 3 (2.1) | 4 (4.2) | 6 | 1 |
+| R40 | Node axis | 21 | 5 | 7 | 0 (1.2) | 3 (2.3) | 3 | 0 |
+| R42 | Moon on a same body | 21 | 17 | 27 | 1 (4.6) | 8 (9.5) | 8 | 0 |
+| R1 | Sun / Moon on one body both charts, sky X to Jupiter | 21 | 3 | 3 | 0 (0.5) | 0 (0.9) | 3 | 0 |
+| B1 | Natal body on a strong line star (filter) | 21 | 17 | 54 | 12 (9.0) | 20 (18.6) | 4 | 0 |
+| B2 | Top natal body on a strong line star | 21 | 17 | 17 | 5 (2.9) | 7 (6.0) | 17 | 5 |
+| B3 | Version 4 | 21 | 17 | 17 | 6 (2.9) | 8 (6.0) | 17 | 6 |
+| B4 | Same body, clear lead | 21 | 8 | 8 | 2 (1.4) | 5 (2.8) | 8 | 2 |
+| B5 | Same body in both planes | 21 | 4 | 4 | 1 (0.6) | 2 (1.3) | 4 | 1 |
+| B6 | Same body on both charts | 21 | 3 | 4 | 2 (0.7) | 2 (1.4) | 2 | 1 |
+| B7 | Most sky bodies onto the jockey's Jupiter | 21 | 20 | 24 | 8 (4.0) | 14 (8.2) | 17 | 6 |
+| B8 | One line star on the most natal bodies | 21 | 21 | 43 | 9 (7.3) | 18 (14.7) | 10 | 4 |
+| B9 | Jupiter and two of its line stars on one natal body | 21 | 9 | 14 | 4 (2.3) | 6 (4.6) | 6 | 1 |
+| B10 | Sun and two of its line stars on one natal body | 21 | 13 | 23 | 8 (3.6) | 12 (7.7) | 9 | 6 |
+| B11 | Moon and two of its line stars on one natal body | 21 | 13 | 32 | 8 (5.3) | 12 (10.9) | 3 | 2 |
+| B12 | Same body and two line stars on it | 21 | 14 | 22 | 7 (3.8) | 10 (7.7) | 9 | 3 |
 
 
 ## Per rule, every race
@@ -103,6 +103,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 - 20261106_aintree_1350 (test, 7 ran): Lyssenko (2); winner All In You
 - 20261106_aintree_1500 (test, 6 ran): none; winner Rubaud
 - 20261106_fontwell_1435 (test, 8 ran): none; winner Fire Flyer
+- 20261106_fontwell_1510 (test, 6 ran): none; winner Steal The Moves
 
 ### R28 Chiron to Jupiter, lit by Sun / Moon
 - 20220108_lingfield_aw_1345 (test, 5 ran): Supakalanistic (5), Eleven Eleven (4); winner Trevolli
@@ -125,6 +126,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 - 20261106_aintree_1350 (test, 7 ran): none; winner All In You
 - 20261106_aintree_1500 (test, 6 ran): none; winner Rubaud
 - 20261106_fontwell_1435 (test, 8 ran): Motazzen (2); winner Fire Flyer
+- 20261106_fontwell_1510 (test, 6 ran): none; winner Steal The Moves
 
 ### R1b Moon to X, sky X to Jupiter
 - 20220108_lingfield_aw_1345 (test, 5 ran): Supakalanistic (5); winner Trevolli
@@ -147,6 +149,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 - 20261106_aintree_1350 (test, 7 ran): Bucephalus (3); winner All In You
 - 20261106_aintree_1500 (test, 6 ran): JPR One (2), Mirabad (3), Daytime Dreaming (5); winner Rubaud
 - 20261106_fontwell_1435 (test, 8 ran): none; winner Fire Flyer
+- 20261106_fontwell_1510 (test, 6 ran): Ted The Thief (5); winner Steal The Moves
 
 ### R7 Line star on own Jupiter and on one body both charts
 - 20220108_lingfield_aw_1345 (test, 5 ran): Supakalanistic (5), Eleven Eleven (4); winner Trevolli
@@ -169,6 +172,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 - 20261106_aintree_1350 (test, 7 ran): Star Of Guiting (5); winner All In You
 - 20261106_aintree_1500 (test, 6 ran): none; winner Rubaud
 - 20261106_fontwell_1435 (test, 8 ran): none; winner Fire Flyer
+- 20261106_fontwell_1510 (test, 6 ran): My Own Lovely Lee (3), Pawpaw (6); winner Steal The Moves
 
 ### R26 Royal line star on own Jupiter
 - 20220108_lingfield_aw_1345 (test, 5 ran): Protected Guest (2); winner Trevolli
@@ -191,6 +195,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 - 20261106_aintree_1350 (test, 7 ran): none; winner All In You
 - 20261106_aintree_1500 (test, 6 ran): none; winner Rubaud
 - 20261106_fontwell_1435 (test, 8 ran): Fire Flyer (won); winner Fire Flyer
+- 20261106_fontwell_1510 (test, 6 ran): none; winner Steal The Moves
 
 ### R40 Node axis
 - 20220108_lingfield_aw_1345 (test, 5 ran): none; winner Trevolli
@@ -213,6 +218,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 - 20261106_aintree_1350 (test, 7 ran): none; winner All In You
 - 20261106_aintree_1500 (test, 6 ran): none; winner Rubaud
 - 20261106_fontwell_1435 (test, 8 ran): none; winner Fire Flyer
+- 20261106_fontwell_1510 (test, 6 ran): none; winner Steal The Moves
 
 ### R42 Moon on a same body
 - 20220108_lingfield_aw_1345 (test, 5 ran): Supakalanistic (5), Trevolli (won); winner Trevolli
@@ -235,6 +241,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 - 20261106_aintree_1350 (test, 7 ran): Dedicated Hero (6), Lyssenko (2), King Ulanda (7); winner All In You
 - 20261106_aintree_1500 (test, 6 ran): JPR One (2), Brookie (4); winner Rubaud
 - 20261106_fontwell_1435 (test, 8 ran): Motazzen (2); winner Fire Flyer
+- 20261106_fontwell_1510 (test, 6 ran): Pawpaw (6); winner Steal The Moves
 
 ### R1 Sun / Moon on one body both charts, sky X to Jupiter
 - 20220108_lingfield_aw_1345 (test, 5 ran): none; winner Trevolli
@@ -257,6 +264,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 - 20261106_aintree_1350 (test, 7 ran): none; winner All In You
 - 20261106_aintree_1500 (test, 6 ran): none; winner Rubaud
 - 20261106_fontwell_1435 (test, 8 ran): none; winner Fire Flyer
+- 20261106_fontwell_1510 (test, 6 ran): none; winner Steal The Moves
 
 ### B1 Natal body on a strong line star (filter)
 - 20220108_lingfield_aw_1345 (in-sample, 5 ran): Protected Guest (2), Creationist (3), Eleven Eleven (4); winner Trevolli
@@ -279,6 +287,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 - 20261106_aintree_1350 (in-sample, 7 ran): Manuelito (4), All In You (won); winner All In You
 - 20261106_aintree_1500 (test, 6 ran): JPR One (2); winner Rubaud
 - 20261106_fontwell_1435 (test, 8 ran): Fire Flyer (won), Donnie Azoff (7), He's A Latchico (8), So You Know (4); winner Fire Flyer
+- 20261106_fontwell_1510 (test, 6 ran): Pawpaw (6); winner Steal The Moves
 
 ### B2 Top natal body on a strong line star
 - 20220108_lingfield_aw_1345 (in-sample, 5 ran): Creationist (3); winner Trevolli
@@ -301,6 +310,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 - 20261106_aintree_1350 (test, 7 ran): Manuelito (4); winner All In You
 - 20261106_aintree_1500 (test, 6 ran): JPR One (2); winner Rubaud
 - 20261106_fontwell_1435 (test, 8 ran): So You Know (4); winner Fire Flyer
+- 20261106_fontwell_1510 (test, 6 ran): Pawpaw (6); winner Steal The Moves
 
 ### B3 Version 4
 - 20220108_lingfield_aw_1345 (in-sample, 5 ran): Creationist (3); winner Trevolli
@@ -323,6 +333,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 - 20261106_aintree_1350 (test, 7 ran): Manuelito (4); winner All In You
 - 20261106_aintree_1500 (test, 6 ran): JPR One (2); winner Rubaud
 - 20261106_fontwell_1435 (test, 8 ran): So You Know (4); winner Fire Flyer
+- 20261106_fontwell_1510 (test, 6 ran): Pawpaw (6); winner Steal The Moves
 
 ### B4 Same body, clear lead
 - 20220108_lingfield_aw_1345 (in-sample, 5 ran): Protected Guest (2); winner Trevolli
@@ -345,6 +356,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 - 20261106_aintree_1350 (in-sample, 7 ran): All In You (won); winner All In You
 - 20261106_aintree_1500 (test, 6 ran): JPR One (2); winner Rubaud
 - 20261106_fontwell_1435 (test, 8 ran): none; winner Fire Flyer
+- 20261106_fontwell_1510 (test, 6 ran): Sweet Nightingale (4); winner Steal The Moves
 
 ### B5 Same body in both planes
 - 20220108_lingfield_aw_1345 (in-sample, 5 ran): none; winner Trevolli
@@ -367,6 +379,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 - 20261106_aintree_1350 (in-sample, 7 ran): All In You (won); winner All In You
 - 20261106_aintree_1500 (test, 6 ran): none; winner Rubaud
 - 20261106_fontwell_1435 (test, 8 ran): none; winner Fire Flyer
+- 20261106_fontwell_1510 (test, 6 ran): none; winner Steal The Moves
 
 ### B6 Same body on both charts
 - 20220108_lingfield_aw_1345 (in-sample, 5 ran): none; winner Trevolli
@@ -389,6 +402,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 - 20261106_aintree_1350 (in-sample, 7 ran): Dedicated Hero (6), All In You (won); winner All In You
 - 20261106_aintree_1500 (test, 6 ran): none; winner Rubaud
 - 20261106_fontwell_1435 (test, 8 ran): none; winner Fire Flyer
+- 20261106_fontwell_1510 (test, 6 ran): none; winner Steal The Moves
 
 ### B7 Most sky bodies onto the jockey's Jupiter
 - 20220108_lingfield_aw_1345 (test, 5 ran): Protected Guest (2); winner Trevolli
@@ -411,6 +425,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 - 20261106_aintree_1350 (test, 7 ran): Bucephalus (3), Lyssenko (2); winner All In You
 - 20261106_aintree_1500 (test, 6 ran): JPR One (2), Mirabad (3), Rubaud (won); winner Rubaud
 - 20261106_fontwell_1435 (test, 8 ran): Motazzen (2); winner Fire Flyer
+- 20261106_fontwell_1510 (test, 6 ran): Steal The Moves (won); winner Steal The Moves
 
 ### B8 One line star on the most natal bodies
 - 20220108_lingfield_aw_1345 (test, 5 ran): Protected Guest (2), Supakalanistic (5); winner Trevolli
@@ -433,6 +448,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 - 20261106_aintree_1350 (test, 7 ran): Dedicated Hero (6), All In You (won), Lyssenko (2), Star Of Guiting (5), King Ulanda (7); winner All In You
 - 20261106_aintree_1500 (test, 6 ran): Mirabad (3), Rubaud (won), Daytime Dreaming (5); winner Rubaud
 - 20261106_fontwell_1435 (test, 8 ran): Donnie Azoff (7); winner Fire Flyer
+- 20261106_fontwell_1510 (test, 6 ran): Ted The Thief (5), Hard Stare (2), Sweet Nightingale (4); winner Steal The Moves
 
 ### B9 Jupiter and two of its line stars on one natal body
 - 20220108_lingfield_aw_1345 (test, 5 ran): none; winner Trevolli
@@ -455,6 +471,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 - 20261106_aintree_1350 (test, 7 ran): Bucephalus (3); winner All In You
 - 20261106_aintree_1500 (test, 6 ran): JPR One (2), Rubaud (won), Brookie (4); winner Rubaud
 - 20261106_fontwell_1435 (in-sample, 8 ran): Fire Flyer (won); winner Fire Flyer
+- 20261106_fontwell_1510 (test, 6 ran): Hard Stare (2), Steal The Moves (won); winner Steal The Moves
 
 ### B10 Sun and two of its line stars on one natal body
 - 20220108_lingfield_aw_1345 (test, 5 ran): Trevolli (won); winner Trevolli
@@ -477,6 +494,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 - 20261106_aintree_1350 (test, 7 ran): Lyssenko (2); winner All In You
 - 20261106_aintree_1500 (test, 6 ran): none; winner Rubaud
 - 20261106_fontwell_1435 (in-sample, 8 ran): Lynx De Thaix (3), Donnie Azoff (7); winner Fire Flyer
+- 20261106_fontwell_1510 (test, 6 ran): none; winner Steal The Moves
 
 ### B11 Moon and two of its line stars on one natal body
 - 20220108_lingfield_aw_1345 (test, 5 ran): Trevolli (won); winner Trevolli
@@ -499,6 +517,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 - 20261106_aintree_1350 (test, 7 ran): Dedicated Hero (6), All In You (won), Star Of Guiting (5), King Ulanda (7); winner All In You
 - 20261106_aintree_1500 (test, 6 ran): none; winner Rubaud
 - 20261106_fontwell_1435 (in-sample, 8 ran): Donnie Azoff (7), The Bellhop (5); winner Fire Flyer
+- 20261106_fontwell_1510 (test, 6 ran): Ted The Thief (5); winner Steal The Moves
 
 ### B12 Same body and two line stars on it
 - 20220108_lingfield_aw_1345 (test, 5 ran): Protected Guest (2); winner Trevolli
@@ -521,4 +540,5 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 - 20261106_aintree_1350 (test, 7 ran): Bucephalus (3), All In You (won), Star Of Guiting (5); winner All In You
 - 20261106_aintree_1500 (test, 6 ran): none; winner Rubaud
 - 20261106_fontwell_1435 (in-sample, 8 ran): Donnie Azoff (7); winner Fire Flyer
+- 20261106_fontwell_1510 (test, 6 ran): Hard Stare (2); winner Steal The Moves
 

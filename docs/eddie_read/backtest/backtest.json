@@ -2,7 +2,7 @@
  "R25": {
   "name": "Pallas reached twice",
   "test": {
-   "races": 20,
+   "races": 21,
    "fired": 6,
    "picks": 7,
    "winners": 0,
@@ -26,7 +26,7 @@
    "missed": 0
   },
   "all": {
-   "races": 20,
+   "races": 21,
    "fired": 6,
    "picks": 7,
    "winners": 0,
@@ -231,13 +231,21 @@
     "picks": [],
     "winner": "Fire Flyer",
     "n_sel": 0
+   },
+   {
+    "race": "20261106_fontwell_1510",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Steal The Moves",
+    "n_sel": 0
    }
   ]
  },
  "R28": {
   "name": "Chiron to Jupiter, lit by Sun / Moon",
   "test": {
-   "races": 20,
+   "races": 21,
    "fired": 5,
    "picks": 7,
    "winners": 1,
@@ -261,7 +269,7 @@
    "missed": 0
   },
   "all": {
-   "races": 20,
+   "races": 21,
    "fired": 5,
    "picks": 7,
    "winners": 1,
@@ -465,22 +473,30 @@
     ],
     "winner": "Fire Flyer",
     "n_sel": 1
+   },
+   {
+    "race": "20261106_fontwell_1510",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Steal The Moves",
+    "n_sel": 0
    }
   ]
  },
  "R1b": {
   "name": "Moon to X, sky X to Jupiter",
   "test": {
-   "races": 20,
-   "fired": 11,
-   "picks": 17,
+   "races": 21,
+   "fired": 12,
+   "picks": 18,
    "winners": 1,
    "top2": 6,
-   "chance_w": 3.0547619047619046,
-   "chance_2": 6.109523809523809,
-   "only": 6,
+   "chance_w": 3.221428571428571,
+   "chance_2": 6.442857142857142,
+   "only": 7,
    "alone": 0,
-   "missed": 10
+   "missed": 11
   },
   "in_sample": {
    "races": 0,
@@ -495,16 +511,16 @@
    "missed": 0
   },
   "all": {
-   "races": 20,
-   "fired": 11,
-   "picks": 17,
+   "races": 21,
+   "fired": 12,
+   "picks": 18,
    "winners": 1,
    "top2": 6,
-   "chance_w": 3.0547619047619046,
-   "chance_2": 6.109523809523809,
-   "only": 6,
+   "chance_w": 3.221428571428571,
+   "chance_2": 6.442857142857142,
+   "only": 7,
    "alone": 0,
-   "missed": 10
+   "missed": 11
   },
   "races": [
    {
@@ -745,22 +761,35 @@
     "picks": [],
     "winner": "Fire Flyer",
     "n_sel": 0
+   },
+   {
+    "race": "20261106_fontwell_1510",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Ted The Thief",
+      5
+     ]
+    ],
+    "winner": "Steal The Moves",
+    "n_sel": 1
    }
   ]
  },
  "R7": {
   "name": "Line star on own Jupiter and on one body both charts",
   "test": {
-   "races": 20,
-   "fired": 11,
-   "picks": 18,
+   "races": 21,
+   "fired": 12,
+   "picks": 20,
    "winners": 0,
    "top2": 2,
-   "chance_w": 3.0,
-   "chance_2": 6.428571428571429,
+   "chance_w": 3.3333333333333335,
+   "chance_2": 7.095238095238096,
    "only": 5,
    "alone": 0,
-   "missed": 11
+   "missed": 12
   },
   "in_sample": {
    "races": 0,
@@ -775,16 +804,16 @@
    "missed": 0
   },
   "all": {
-   "races": 20,
-   "fired": 11,
-   "picks": 18,
+   "races": 21,
+   "fired": 12,
+   "picks": 20,
    "winners": 0,
    "top2": 2,
-   "chance_w": 3.0,
-   "chance_2": 6.428571428571429,
+   "chance_w": 3.3333333333333335,
+   "chance_2": 7.095238095238096,
    "only": 5,
    "alone": 0,
-   "missed": 11
+   "missed": 12
   },
   "races": [
    {
@@ -1029,13 +1058,30 @@
     "picks": [],
     "winner": "Fire Flyer",
     "n_sel": 0
+   },
+   {
+    "race": "20261106_fontwell_1510",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "My Own Lovely Lee",
+      3
+     ],
+     [
+      "Pawpaw",
+      6
+     ]
+    ],
+    "winner": "Steal The Moves",
+    "n_sel": 2
    }
   ]
  },
  "R26": {
   "name": "Royal line star on own Jupiter",
   "test": {
-   "races": 20,
+   "races": 21,
    "fired": 9,
    "picks": 13,
    "winners": 3,
@@ -1059,7 +1105,7 @@
    "missed": 0
   },
   "all": {
-   "races": 20,
+   "races": 21,
    "fired": 9,
    "picks": 13,
    "winners": 3,
@@ -1291,13 +1337,21 @@
     ],
     "winner": "Fire Flyer",
     "n_sel": 1
+   },
+   {
+    "race": "20261106_fontwell_1510",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Steal The Moves",
+    "n_sel": 0
    }
   ]
  },
  "R40": {
   "name": "Node axis",
   "test": {
-   "races": 20,
+   "races": 21,
    "fired": 5,
    "picks": 7,
    "winners": 0,
@@ -1321,7 +1375,7 @@
    "missed": 0
   },
   "all": {
-   "races": 20,
+   "races": 21,
    "fired": 5,
    "picks": 7,
    "winners": 0,
@@ -1525,22 +1579,30 @@
     "picks": [],
     "winner": "Fire Flyer",
     "n_sel": 0
+   },
+   {
+    "race": "20261106_fontwell_1510",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Steal The Moves",
+    "n_sel": 0
    }
   ]
  },
  "R42": {
   "name": "Moon on a same body",
   "test": {
-   "races": 20,
-   "fired": 16,
-   "picks": 26,
+   "races": 21,
+   "fired": 17,
+   "picks": 27,
    "winners": 1,
    "top2": 8,
-   "chance_w": 4.420238095238095,
-   "chance_2": 9.126190476190475,
-   "only": 7,
+   "chance_w": 4.586904761904762,
+   "chance_2": 9.459523809523809,
+   "only": 8,
    "alone": 0,
-   "missed": 15
+   "missed": 16
   },
   "in_sample": {
    "races": 0,
@@ -1555,16 +1617,16 @@
    "missed": 0
   },
   "all": {
-   "races": 20,
-   "fired": 16,
-   "picks": 26,
+   "races": 21,
+   "fired": 17,
+   "picks": 27,
    "winners": 1,
    "top2": 8,
-   "chance_w": 4.420238095238095,
-   "chance_2": 9.126190476190475,
-   "only": 7,
+   "chance_w": 4.586904761904762,
+   "chance_2": 9.459523809523809,
+   "only": 8,
    "alone": 0,
-   "missed": 15
+   "missed": 16
   },
   "races": [
    {
@@ -1846,13 +1908,26 @@
     ],
     "winner": "Fire Flyer",
     "n_sel": 1
+   },
+   {
+    "race": "20261106_fontwell_1510",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Pawpaw",
+      6
+     ]
+    ],
+    "winner": "Steal The Moves",
+    "n_sel": 1
    }
   ]
  },
  "R1": {
   "name": "Sun / Moon on one body both charts, sky X to Jupiter",
   "test": {
-   "races": 20,
+   "races": 21,
    "fired": 3,
    "picks": 3,
    "winners": 0,
@@ -1876,7 +1951,7 @@
    "missed": 0
   },
   "all": {
-   "races": 20,
+   "races": 21,
    "fired": 3,
    "picks": 3,
    "winners": 0,
@@ -2062,22 +2137,30 @@
     "picks": [],
     "winner": "Fire Flyer",
     "n_sel": 0
+   },
+   {
+    "race": "20261106_fontwell_1510",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Steal The Moves",
+    "n_sel": 0
    }
   ]
  },
  "B1": {
   "name": "Natal body on a strong line star (filter)",
   "test": {
-   "races": 2,
-   "fired": 2,
-   "picks": 5,
+   "races": 3,
+   "fired": 3,
+   "picks": 6,
    "winners": 1,
    "top2": 2,
-   "chance_w": 0.6666666666666666,
-   "chance_2": 1.3333333333333333,
-   "only": 1,
+   "chance_w": 0.8333333333333333,
+   "chance_2": 1.6666666666666665,
+   "only": 2,
    "alone": 0,
-   "missed": 1
+   "missed": 2
   },
   "in_sample": {
    "races": 18,
@@ -2092,16 +2175,16 @@
    "missed": 3
   },
   "all": {
-   "races": 20,
-   "fired": 16,
-   "picks": 53,
+   "races": 21,
+   "fired": 17,
+   "picks": 54,
    "winners": 12,
    "top2": 20,
-   "chance_w": 8.854761904761903,
-   "chance_2": 18.280952380952378,
-   "only": 3,
+   "chance_w": 9.021428571428569,
+   "chance_2": 18.61428571428571,
+   "only": 4,
    "alone": 0,
-   "missed": 4
+   "missed": 5
   },
   "races": [
    {
@@ -2491,22 +2574,35 @@
     ],
     "winner": "Fire Flyer",
     "n_sel": 4
+   },
+   {
+    "race": "20261106_fontwell_1510",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Pawpaw",
+      6
+     ]
+    ],
+    "winner": "Steal The Moves",
+    "n_sel": 1
    }
   ]
  },
  "B2": {
   "name": "Top natal body on a strong line star",
   "test": {
-   "races": 5,
-   "fired": 4,
-   "picks": 4,
+   "races": 6,
+   "fired": 5,
+   "picks": 5,
    "winners": 1,
    "top2": 2,
-   "chance_w": 0.6845238095238095,
-   "chance_2": 1.369047619047619,
-   "only": 4,
+   "chance_w": 0.8511904761904762,
+   "chance_2": 1.7023809523809523,
+   "only": 5,
    "alone": 1,
-   "missed": 3
+   "missed": 4
   },
   "in_sample": {
    "races": 15,
@@ -2521,16 +2617,16 @@
    "missed": 8
   },
   "all": {
-   "races": 20,
-   "fired": 16,
-   "picks": 16,
+   "races": 21,
+   "fired": 17,
+   "picks": 17,
    "winners": 5,
    "top2": 7,
-   "chance_w": 2.7392857142857143,
-   "chance_2": 5.621428571428571,
-   "only": 16,
+   "chance_w": 2.905952380952381,
+   "chance_2": 5.954761904761904,
+   "only": 17,
    "alone": 5,
-   "missed": 11
+   "missed": 12
   },
   "races": [
    {
@@ -2772,22 +2868,35 @@
     ],
     "winner": "Fire Flyer",
     "n_sel": 1
+   },
+   {
+    "race": "20261106_fontwell_1510",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Pawpaw",
+      6
+     ]
+    ],
+    "winner": "Steal The Moves",
+    "n_sel": 1
    }
   ]
  },
  "B3": {
   "name": "Version 4",
   "test": {
-   "races": 4,
-   "fired": 3,
-   "picks": 3,
+   "races": 5,
+   "fired": 4,
+   "picks": 4,
    "winners": 0,
    "top2": 1,
-   "chance_w": 0.43452380952380953,
-   "chance_2": 0.8690476190476191,
-   "only": 3,
+   "chance_w": 0.6011904761904762,
+   "chance_2": 1.2023809523809523,
+   "only": 4,
    "alone": 0,
-   "missed": 3
+   "missed": 4
   },
   "in_sample": {
    "races": 16,
@@ -2802,16 +2911,16 @@
    "missed": 7
   },
   "all": {
-   "races": 20,
-   "fired": 16,
-   "picks": 16,
+   "races": 21,
+   "fired": 17,
+   "picks": 17,
    "winners": 6,
    "top2": 8,
-   "chance_w": 2.7392857142857143,
-   "chance_2": 5.621428571428571,
-   "only": 16,
+   "chance_w": 2.905952380952381,
+   "chance_2": 5.954761904761904,
+   "only": 17,
    "alone": 6,
-   "missed": 10
+   "missed": 11
   },
   "races": [
    {
@@ -3053,22 +3162,35 @@
     ],
     "winner": "Fire Flyer",
     "n_sel": 1
+   },
+   {
+    "race": "20261106_fontwell_1510",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Pawpaw",
+      6
+     ]
+    ],
+    "winner": "Steal The Moves",
+    "n_sel": 1
    }
   ]
  },
  "B4": {
   "name": "Same body, clear lead",
   "test": {
-   "races": 2,
-   "fired": 1,
-   "picks": 1,
+   "races": 3,
+   "fired": 2,
+   "picks": 2,
    "winners": 0,
    "top2": 1,
-   "chance_w": 0.16666666666666666,
-   "chance_2": 0.3333333333333333,
-   "only": 1,
+   "chance_w": 0.3333333333333333,
+   "chance_2": 0.6666666666666666,
+   "only": 2,
    "alone": 0,
-   "missed": 1
+   "missed": 2
   },
   "in_sample": {
    "races": 18,
@@ -3083,16 +3205,16 @@
    "missed": 4
   },
   "all": {
-   "races": 20,
-   "fired": 7,
-   "picks": 7,
+   "races": 21,
+   "fired": 8,
+   "picks": 8,
    "winners": 2,
    "top2": 5,
-   "chance_w": 1.2452380952380953,
-   "chance_2": 2.4904761904761905,
-   "only": 7,
+   "chance_w": 1.411904761904762,
+   "chance_2": 2.823809523809524,
+   "only": 8,
    "alone": 2,
-   "missed": 5
+   "missed": 6
   },
   "races": [
    {
@@ -3289,13 +3411,26 @@
     "picks": [],
     "winner": "Fire Flyer",
     "n_sel": 0
+   },
+   {
+    "race": "20261106_fontwell_1510",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Sweet Nightingale",
+      4
+     ]
+    ],
+    "winner": "Steal The Moves",
+    "n_sel": 1
    }
   ]
  },
  "B5": {
   "name": "Same body in both planes",
   "test": {
-   "races": 2,
+   "races": 3,
    "fired": 0,
    "picks": 0,
    "winners": 0,
@@ -3319,7 +3454,7 @@
    "missed": 3
   },
   "all": {
-   "races": 20,
+   "races": 21,
    "fired": 4,
    "picks": 4,
    "winners": 1,
@@ -3510,13 +3645,21 @@
     "picks": [],
     "winner": "Fire Flyer",
     "n_sel": 0
+   },
+   {
+    "race": "20261106_fontwell_1510",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Steal The Moves",
+    "n_sel": 0
    }
   ]
  },
  "B6": {
   "name": "Same body on both charts",
   "test": {
-   "races": 2,
+   "races": 3,
    "fired": 0,
    "picks": 0,
    "winners": 0,
@@ -3540,7 +3683,7 @@
    "missed": 1
   },
   "all": {
-   "races": 20,
+   "races": 21,
    "fired": 3,
    "picks": 4,
    "winners": 2,
@@ -3730,21 +3873,29 @@
     "picks": [],
     "winner": "Fire Flyer",
     "n_sel": 0
+   },
+   {
+    "race": "20261106_fontwell_1510",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Steal The Moves",
+    "n_sel": 0
    }
   ]
  },
  "B7": {
   "name": "Most sky bodies onto the jockey's Jupiter",
   "test": {
-   "races": 19,
-   "fired": 18,
-   "picks": 22,
-   "winners": 6,
-   "top2": 12,
-   "chance_w": 3.6178571428571424,
-   "chance_2": 7.378571428571428,
-   "only": 15,
-   "alone": 4,
+   "races": 20,
+   "fired": 19,
+   "picks": 23,
+   "winners": 7,
+   "top2": 13,
+   "chance_w": 3.784523809523809,
+   "chance_2": 7.711904761904761,
+   "only": 16,
+   "alone": 5,
    "missed": 12
   },
   "in_sample": {
@@ -3760,15 +3911,15 @@
    "missed": 0
   },
   "all": {
-   "races": 20,
-   "fired": 19,
-   "picks": 23,
-   "winners": 7,
-   "top2": 13,
-   "chance_w": 3.8678571428571424,
-   "chance_2": 7.878571428571428,
-   "only": 16,
-   "alone": 5,
+   "races": 21,
+   "fired": 20,
+   "picks": 24,
+   "winners": 8,
+   "top2": 14,
+   "chance_w": 4.034523809523809,
+   "chance_2": 8.211904761904762,
+   "only": 17,
+   "alone": 6,
    "missed": 12
   },
   "races": [
@@ -4042,22 +4193,35 @@
     ],
     "winner": "Fire Flyer",
     "n_sel": 1
+   },
+   {
+    "race": "20261106_fontwell_1510",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Steal The Moves",
+      1
+     ]
+    ],
+    "winner": "Steal The Moves",
+    "n_sel": 1
    }
   ]
  },
  "B8": {
   "name": "One line star on the most natal bodies",
   "test": {
-   "races": 19,
-   "fired": 19,
-   "picks": 39,
+   "races": 20,
+   "fired": 20,
+   "picks": 42,
    "winners": 8,
-   "top2": 16,
-   "chance_w": 6.5773809523809526,
-   "chance_2": 13.29761904761905,
+   "top2": 17,
+   "chance_w": 7.0773809523809526,
+   "chance_2": 14.29761904761905,
    "only": 9,
    "alone": 3,
-   "missed": 11
+   "missed": 12
   },
   "in_sample": {
    "races": 1,
@@ -4072,16 +4236,16 @@
    "missed": 0
   },
   "all": {
-   "races": 20,
-   "fired": 20,
-   "picks": 40,
+   "races": 21,
+   "fired": 21,
+   "picks": 43,
    "winners": 9,
-   "top2": 17,
-   "chance_w": 6.777380952380953,
-   "chance_2": 13.69761904761905,
+   "top2": 18,
+   "chance_w": 7.277380952380953,
+   "chance_2": 14.69761904761905,
    "only": 10,
    "alone": 4,
-   "missed": 11
+   "missed": 12
   },
   "races": [
    {
@@ -4423,19 +4587,40 @@
     ],
     "winner": "Fire Flyer",
     "n_sel": 1
+   },
+   {
+    "race": "20261106_fontwell_1510",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Ted The Thief",
+      5
+     ],
+     [
+      "Hard Stare",
+      2
+     ],
+     [
+      "Sweet Nightingale",
+      4
+     ]
+    ],
+    "winner": "Steal The Moves",
+    "n_sel": 3
    }
   ]
  },
  "B9": {
   "name": "Jupiter and two of its line stars on one natal body",
   "test": {
-   "races": 19,
-   "fired": 7,
-   "picks": 11,
-   "winners": 2,
-   "top2": 3,
-   "chance_w": 1.8309523809523809,
-   "chance_2": 3.6619047619047618,
+   "races": 20,
+   "fired": 8,
+   "picks": 13,
+   "winners": 3,
+   "top2": 5,
+   "chance_w": 2.164285714285714,
+   "chance_2": 4.328571428571428,
    "only": 5,
    "alone": 0,
    "missed": 5
@@ -4453,13 +4638,13 @@
    "missed": 0
   },
   "all": {
-   "races": 20,
-   "fired": 8,
-   "picks": 12,
-   "winners": 3,
-   "top2": 4,
-   "chance_w": 1.9559523809523809,
-   "chance_2": 3.9119047619047618,
+   "races": 21,
+   "fired": 9,
+   "picks": 14,
+   "winners": 4,
+   "top2": 6,
+   "chance_w": 2.289285714285714,
+   "chance_2": 4.578571428571428,
    "only": 6,
    "alone": 1,
    "missed": 5
@@ -4680,13 +4865,30 @@
     ],
     "winner": "Fire Flyer",
     "n_sel": 1
+   },
+   {
+    "race": "20261106_fontwell_1510",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Hard Stare",
+      2
+     ],
+     [
+      "Steal The Moves",
+      1
+     ]
+    ],
+    "winner": "Steal The Moves",
+    "n_sel": 2
    }
   ]
  },
  "B10": {
   "name": "Sun and two of its line stars on one natal body",
   "test": {
-   "races": 19,
+   "races": 20,
    "fired": 12,
    "picks": 21,
    "winners": 8,
@@ -4710,7 +4912,7 @@
    "missed": 1
   },
   "all": {
-   "races": 20,
+   "races": 21,
    "fired": 13,
    "picks": 23,
    "winners": 8,
@@ -4986,22 +5188,30 @@
     ],
     "winner": "Fire Flyer",
     "n_sel": 2
+   },
+   {
+    "race": "20261106_fontwell_1510",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Steal The Moves",
+    "n_sel": 0
    }
   ]
  },
  "B11": {
   "name": "Moon and two of its line stars on one natal body",
   "test": {
-   "races": 19,
-   "fired": 11,
-   "picks": 29,
+   "races": 20,
+   "fired": 12,
+   "picks": 30,
    "winners": 8,
    "top2": 12,
-   "chance_w": 4.871428571428571,
-   "chance_2": 10.028571428571428,
-   "only": 2,
+   "chance_w": 5.038095238095238,
+   "chance_2": 10.361904761904762,
+   "only": 3,
    "alone": 2,
-   "missed": 3
+   "missed": 4
   },
   "in_sample": {
    "races": 1,
@@ -5016,16 +5226,16 @@
    "missed": 1
   },
   "all": {
-   "races": 20,
-   "fired": 12,
-   "picks": 31,
+   "races": 21,
+   "fired": 13,
+   "picks": 32,
    "winners": 8,
    "top2": 12,
-   "chance_w": 5.121428571428571,
-   "chance_2": 10.528571428571428,
-   "only": 2,
+   "chance_w": 5.288095238095238,
+   "chance_2": 10.861904761904762,
+   "only": 3,
    "alone": 2,
-   "missed": 4
+   "missed": 5
   },
   "races": [
    {
@@ -5323,22 +5533,35 @@
     ],
     "winner": "Fire Flyer",
     "n_sel": 2
+   },
+   {
+    "race": "20261106_fontwell_1510",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Ted The Thief",
+      5
+     ]
+    ],
+    "winner": "Steal The Moves",
+    "n_sel": 1
    }
   ]
  },
  "B12": {
   "name": "Same body and two line stars on it",
   "test": {
-   "races": 19,
-   "fired": 12,
-   "picks": 20,
+   "races": 20,
+   "fired": 13,
+   "picks": 21,
    "winners": 7,
-   "top2": 9,
-   "chance_w": 3.4857142857142853,
-   "chance_2": 7.114285714285714,
-   "only": 7,
+   "top2": 10,
+   "chance_w": 3.652380952380952,
+   "chance_2": 7.447619047619047,
+   "only": 8,
    "alone": 3,
-   "missed": 5
+   "missed": 6
   },
   "in_sample": {
    "races": 1,
@@ -5353,16 +5576,16 @@
    "missed": 1
   },
   "all": {
-   "races": 20,
-   "fired": 13,
-   "picks": 21,
+   "races": 21,
+   "fired": 14,
+   "picks": 22,
    "winners": 7,
-   "top2": 9,
-   "chance_w": 3.6107142857142853,
-   "chance_2": 7.364285714285714,
-   "only": 8,
+   "top2": 10,
+   "chance_w": 3.777380952380952,
+   "chance_2": 7.697619047619047,
+   "only": 9,
    "alone": 3,
-   "missed": 6
+   "missed": 7
   },
   "races": [
    {
@@ -5620,6 +5843,19 @@
      ]
     ],
     "winner": "Fire Flyer",
+    "n_sel": 1
+   },
+   {
+    "race": "20261106_fontwell_1510",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Hard Stare",
+      2
+     ]
+    ],
+    "winner": "Steal The Moves",
     "n_sel": 1
    }
   ]
