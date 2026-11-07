@@ -175,7 +175,7 @@ bt = json.load(open(os.path.join(ER, 'backtest', 'backtest.json')))
 for r in rules:
     ins = set(r.get('in_sample', []))
     for part in ('test', 'in_sample', 'all'):
-        n = dict(races=0, fired=0, picks=0, winners=0, top2=0, cw=0.0, c2=0.0, alone=0)
+        n = dict(races=0, fired=0, picks=0, winners=0, top2=0, cw=0.0, c2=0.0, alone=0, only=0)
         for race in results:
             if (part == 'test' and race in ins) or (part == 'in_sample' and race not in ins):
                 continue
@@ -194,9 +194,10 @@ for r in rules:
             n['cw'] += len(pk) / res['ran']
             n['c2'] += len(pk) * (len(res['first']) + len(res['second'])) / res['ran']
             n['alone'] += 1 if len(pk) == 1 and w == 1 else 0
+            n['only'] += 1 if len(pk) == 1 else 0
         t = bt[r['id']][part]
-        check((t['races'], t['fired'], t['picks'], t['winners'], t['top2'], t['alone']) ==
-              (n['races'], n['fired'], n['picks'], n['winners'], n['top2'], n['alone'])
+        check((t['races'], t['fired'], t['picks'], t['winners'], t['top2'], t['alone'], t['only']) ==
+              (n['races'], n['fired'], n['picks'], n['winners'], n['top2'], n['alone'], n['only'])
               and abs(t['chance_w'] - n['cw']) < 1e-9 and abs(t['chance_2'] - n['c2']) < 1e-9, f"backtest {r['id']} {part}")
 b = {k: bt[k]['in_sample'] for k in ('B1', 'B3', 'B4')}
 check(b['B1']['fired'] == 14 and b['B1']['winners'] == 11 and round(b['B1']['chance_w'], 1) == 8.2, 'B1 in-sample 11 of 14 (8.2)')

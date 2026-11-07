@@ -1,83 +1,83 @@
 # Stage 3 back-test
 
 Races: 20 (results file 20).
-fired = races with a pick; alone = one pick and it won; chance from field sizes.
+fired = races with a pick; only pick = races with exactly one pick; alone = one pick and it won; chance from field sizes.
 In-sample = races the rule was seen on or written from (rules.json); test = every other race. Only the test races are evidence.
 
 ## Test races
 
-| Rule | Name | races | fired | picks | winners (chance) | 1st or 2nd (chance) | alone |
-|---|---|---|---|---|---|---|---|
-| R25 | Pallas reached twice | 20 | 6 | 7 | 0 (1.1) | 3 (2.4) | 0 |
-| R28 | Chiron to Jupiter, lit by Sun / Moon | 20 | 5 | 7 | 1 (1.1) | 2 (2.4) | 0 |
-| R1b | Moon to X, sky X to Jupiter | 20 | 11 | 17 | 1 (3.1) | 6 (6.1) | 0 |
-| R7 | Line star on own Jupiter and on one body both charts | 20 | 11 | 18 | 0 (3.0) | 2 (6.4) | 0 |
-| R26 | Royal line star on own Jupiter | 20 | 9 | 13 | 3 (2.1) | 4 (4.2) | 1 |
-| R40 | Node axis | 20 | 5 | 7 | 0 (1.2) | 3 (2.3) | 0 |
-| R42 | Moon on a same body | 20 | 16 | 26 | 1 (4.4) | 8 (9.1) | 0 |
-| R1 | Sun / Moon on one body both charts, sky X to Jupiter | 20 | 3 | 3 | 0 (0.5) | 0 (0.9) | 0 |
-| B1 | Natal body on a strong line star (filter) | 2 | 2 | 5 | 1 (0.7) | 2 (1.3) | 0 |
-| B2 | Top natal body on a strong line star | 5 | 4 | 4 | 1 (0.7) | 2 (1.4) | 1 |
-| B3 | Version 4 | 4 | 3 | 3 | 0 (0.4) | 1 (0.9) | 0 |
-| B4 | Same body, clear lead | 2 | 1 | 1 | 0 (0.2) | 1 (0.3) | 0 |
-| B5 | Same body in both planes | 2 | 0 | 0 | 0 (0.0) | 0 (0.0) | 0 |
-| B6 | Same body on both charts | 2 | 0 | 0 | 0 (0.0) | 0 (0.0) | 0 |
-| B7 | Most sky bodies onto the jockey's Jupiter | 19 | 18 | 22 | 6 (3.6) | 12 (7.4) | 4 |
-| B8 | One line star on the most natal bodies | 19 | 19 | 39 | 8 (6.6) | 16 (13.3) | 3 |
-| B9 | Jupiter and two of its line stars on one natal body | 19 | 7 | 11 | 2 (1.8) | 3 (3.7) | 0 |
-| B10 | Sun and two of its line stars on one natal body | 19 | 12 | 21 | 8 (3.4) | 12 (7.2) | 6 |
-| B11 | Moon and two of its line stars on one natal body | 19 | 11 | 29 | 8 (4.9) | 12 (10.0) | 2 |
-| B12 | Same body and two line stars on it | 19 | 12 | 20 | 7 (3.5) | 9 (7.1) | 3 |
+| Rule | Name | races | fired | picks | winners (chance) | 1st or 2nd (chance) | only pick | alone |
+|---|---|---|---|---|---|---|---|---|
+| R25 | Pallas reached twice | 20 | 6 | 7 | 0 (1.1) | 3 (2.4) | 5 | 0 |
+| R28 | Chiron to Jupiter, lit by Sun / Moon | 20 | 5 | 7 | 1 (1.1) | 2 (2.4) | 3 | 0 |
+| R1b | Moon to X, sky X to Jupiter | 20 | 11 | 17 | 1 (3.1) | 6 (6.1) | 6 | 0 |
+| R7 | Line star on own Jupiter and on one body both charts | 20 | 11 | 18 | 0 (3.0) | 2 (6.4) | 5 | 0 |
+| R26 | Royal line star on own Jupiter | 20 | 9 | 13 | 3 (2.1) | 4 (4.2) | 6 | 1 |
+| R40 | Node axis | 20 | 5 | 7 | 0 (1.2) | 3 (2.3) | 3 | 0 |
+| R42 | Moon on a same body | 20 | 16 | 26 | 1 (4.4) | 8 (9.1) | 7 | 0 |
+| R1 | Sun / Moon on one body both charts, sky X to Jupiter | 20 | 3 | 3 | 0 (0.5) | 0 (0.9) | 3 | 0 |
+| B1 | Natal body on a strong line star (filter) | 2 | 2 | 5 | 1 (0.7) | 2 (1.3) | 1 | 0 |
+| B2 | Top natal body on a strong line star | 5 | 4 | 4 | 1 (0.7) | 2 (1.4) | 4 | 1 |
+| B3 | Version 4 | 4 | 3 | 3 | 0 (0.4) | 1 (0.9) | 3 | 0 |
+| B4 | Same body, clear lead | 2 | 1 | 1 | 0 (0.2) | 1 (0.3) | 1 | 0 |
+| B5 | Same body in both planes | 2 | 0 | 0 | 0 (0.0) | 0 (0.0) | 0 | 0 |
+| B6 | Same body on both charts | 2 | 0 | 0 | 0 (0.0) | 0 (0.0) | 0 | 0 |
+| B7 | Most sky bodies onto the jockey's Jupiter | 19 | 18 | 22 | 6 (3.6) | 12 (7.4) | 15 | 4 |
+| B8 | One line star on the most natal bodies | 19 | 19 | 39 | 8 (6.6) | 16 (13.3) | 9 | 3 |
+| B9 | Jupiter and two of its line stars on one natal body | 19 | 7 | 11 | 2 (1.8) | 3 (3.7) | 5 | 0 |
+| B10 | Sun and two of its line stars on one natal body | 19 | 12 | 21 | 8 (3.4) | 12 (7.2) | 9 | 6 |
+| B11 | Moon and two of its line stars on one natal body | 19 | 11 | 29 | 8 (4.9) | 12 (10.0) | 2 | 2 |
+| B12 | Same body and two line stars on it | 19 | 12 | 20 | 7 (3.5) | 9 (7.1) | 7 | 3 |
 
 ## In-sample races
 
-| Rule | Name | races | fired | picks | winners (chance) | 1st or 2nd (chance) | alone |
-|---|---|---|---|---|---|---|---|
-| R25 | Pallas reached twice | 0 | 0 | 0 | 0 (0.0) | 0 (0.0) | 0 |
-| R28 | Chiron to Jupiter, lit by Sun / Moon | 0 | 0 | 0 | 0 (0.0) | 0 (0.0) | 0 |
-| R1b | Moon to X, sky X to Jupiter | 0 | 0 | 0 | 0 (0.0) | 0 (0.0) | 0 |
-| R7 | Line star on own Jupiter and on one body both charts | 0 | 0 | 0 | 0 (0.0) | 0 (0.0) | 0 |
-| R26 | Royal line star on own Jupiter | 0 | 0 | 0 | 0 (0.0) | 0 (0.0) | 0 |
-| R40 | Node axis | 0 | 0 | 0 | 0 (0.0) | 0 (0.0) | 0 |
-| R42 | Moon on a same body | 0 | 0 | 0 | 0 (0.0) | 0 (0.0) | 0 |
-| R1 | Sun / Moon on one body both charts, sky X to Jupiter | 0 | 0 | 0 | 0 (0.0) | 0 (0.0) | 0 |
-| B1 | Natal body on a strong line star (filter) | 18 | 14 | 48 | 11 (8.2) | 18 (16.9) | 0 |
-| B2 | Top natal body on a strong line star | 15 | 12 | 12 | 4 (2.1) | 5 (4.3) | 4 |
-| B3 | Version 4 | 16 | 13 | 13 | 6 (2.3) | 7 (4.8) | 6 |
-| B4 | Same body, clear lead | 18 | 6 | 6 | 2 (1.1) | 4 (2.2) | 2 |
-| B5 | Same body in both planes | 18 | 4 | 4 | 1 (0.6) | 2 (1.3) | 1 |
-| B6 | Same body on both charts | 18 | 3 | 4 | 2 (0.7) | 2 (1.4) | 1 |
-| B7 | Most sky bodies onto the jockey's Jupiter | 1 | 1 | 1 | 1 (0.2) | 1 (0.5) | 1 |
-| B8 | One line star on the most natal bodies | 1 | 1 | 1 | 1 (0.2) | 1 (0.4) | 1 |
-| B9 | Jupiter and two of its line stars on one natal body | 1 | 1 | 1 | 1 (0.1) | 1 (0.2) | 1 |
-| B10 | Sun and two of its line stars on one natal body | 1 | 1 | 2 | 0 (0.2) | 0 (0.5) | 0 |
-| B11 | Moon and two of its line stars on one natal body | 1 | 1 | 2 | 0 (0.2) | 0 (0.5) | 0 |
-| B12 | Same body and two line stars on it | 1 | 1 | 1 | 0 (0.1) | 0 (0.2) | 0 |
+| Rule | Name | races | fired | picks | winners (chance) | 1st or 2nd (chance) | only pick | alone |
+|---|---|---|---|---|---|---|---|---|
+| R25 | Pallas reached twice | 0 | 0 | 0 | 0 (0.0) | 0 (0.0) | 0 | 0 |
+| R28 | Chiron to Jupiter, lit by Sun / Moon | 0 | 0 | 0 | 0 (0.0) | 0 (0.0) | 0 | 0 |
+| R1b | Moon to X, sky X to Jupiter | 0 | 0 | 0 | 0 (0.0) | 0 (0.0) | 0 | 0 |
+| R7 | Line star on own Jupiter and on one body both charts | 0 | 0 | 0 | 0 (0.0) | 0 (0.0) | 0 | 0 |
+| R26 | Royal line star on own Jupiter | 0 | 0 | 0 | 0 (0.0) | 0 (0.0) | 0 | 0 |
+| R40 | Node axis | 0 | 0 | 0 | 0 (0.0) | 0 (0.0) | 0 | 0 |
+| R42 | Moon on a same body | 0 | 0 | 0 | 0 (0.0) | 0 (0.0) | 0 | 0 |
+| R1 | Sun / Moon on one body both charts, sky X to Jupiter | 0 | 0 | 0 | 0 (0.0) | 0 (0.0) | 0 | 0 |
+| B1 | Natal body on a strong line star (filter) | 18 | 14 | 48 | 11 (8.2) | 18 (16.9) | 2 | 0 |
+| B2 | Top natal body on a strong line star | 15 | 12 | 12 | 4 (2.1) | 5 (4.3) | 12 | 4 |
+| B3 | Version 4 | 16 | 13 | 13 | 6 (2.3) | 7 (4.8) | 13 | 6 |
+| B4 | Same body, clear lead | 18 | 6 | 6 | 2 (1.1) | 4 (2.2) | 6 | 2 |
+| B5 | Same body in both planes | 18 | 4 | 4 | 1 (0.6) | 2 (1.3) | 4 | 1 |
+| B6 | Same body on both charts | 18 | 3 | 4 | 2 (0.7) | 2 (1.4) | 2 | 1 |
+| B7 | Most sky bodies onto the jockey's Jupiter | 1 | 1 | 1 | 1 (0.2) | 1 (0.5) | 1 | 1 |
+| B8 | One line star on the most natal bodies | 1 | 1 | 1 | 1 (0.2) | 1 (0.4) | 1 | 1 |
+| B9 | Jupiter and two of its line stars on one natal body | 1 | 1 | 1 | 1 (0.1) | 1 (0.2) | 1 | 1 |
+| B10 | Sun and two of its line stars on one natal body | 1 | 1 | 2 | 0 (0.2) | 0 (0.5) | 0 | 0 |
+| B11 | Moon and two of its line stars on one natal body | 1 | 1 | 2 | 0 (0.2) | 0 (0.5) | 0 | 0 |
+| B12 | Same body and two line stars on it | 1 | 1 | 1 | 0 (0.1) | 0 (0.2) | 1 | 0 |
 
 ## All races
 
-| Rule | Name | races | fired | picks | winners (chance) | 1st or 2nd (chance) | alone |
-|---|---|---|---|---|---|---|---|
-| R25 | Pallas reached twice | 20 | 6 | 7 | 0 (1.1) | 3 (2.4) | 0 |
-| R28 | Chiron to Jupiter, lit by Sun / Moon | 20 | 5 | 7 | 1 (1.1) | 2 (2.4) | 0 |
-| R1b | Moon to X, sky X to Jupiter | 20 | 11 | 17 | 1 (3.1) | 6 (6.1) | 0 |
-| R7 | Line star on own Jupiter and on one body both charts | 20 | 11 | 18 | 0 (3.0) | 2 (6.4) | 0 |
-| R26 | Royal line star on own Jupiter | 20 | 9 | 13 | 3 (2.1) | 4 (4.2) | 1 |
-| R40 | Node axis | 20 | 5 | 7 | 0 (1.2) | 3 (2.3) | 0 |
-| R42 | Moon on a same body | 20 | 16 | 26 | 1 (4.4) | 8 (9.1) | 0 |
-| R1 | Sun / Moon on one body both charts, sky X to Jupiter | 20 | 3 | 3 | 0 (0.5) | 0 (0.9) | 0 |
-| B1 | Natal body on a strong line star (filter) | 20 | 16 | 53 | 12 (8.9) | 20 (18.3) | 0 |
-| B2 | Top natal body on a strong line star | 20 | 16 | 16 | 5 (2.7) | 7 (5.6) | 5 |
-| B3 | Version 4 | 20 | 16 | 16 | 6 (2.7) | 8 (5.6) | 6 |
-| B4 | Same body, clear lead | 20 | 7 | 7 | 2 (1.2) | 5 (2.5) | 2 |
-| B5 | Same body in both planes | 20 | 4 | 4 | 1 (0.6) | 2 (1.3) | 1 |
-| B6 | Same body on both charts | 20 | 3 | 4 | 2 (0.7) | 2 (1.4) | 1 |
-| B7 | Most sky bodies onto the jockey's Jupiter | 20 | 19 | 23 | 7 (3.9) | 13 (7.9) | 5 |
-| B8 | One line star on the most natal bodies | 20 | 20 | 40 | 9 (6.8) | 17 (13.7) | 4 |
-| B9 | Jupiter and two of its line stars on one natal body | 20 | 8 | 12 | 3 (2.0) | 4 (3.9) | 1 |
-| B10 | Sun and two of its line stars on one natal body | 20 | 13 | 23 | 8 (3.6) | 12 (7.7) | 6 |
-| B11 | Moon and two of its line stars on one natal body | 20 | 12 | 31 | 8 (5.1) | 12 (10.5) | 2 |
-| B12 | Same body and two line stars on it | 20 | 13 | 21 | 7 (3.6) | 9 (7.4) | 3 |
+| Rule | Name | races | fired | picks | winners (chance) | 1st or 2nd (chance) | only pick | alone |
+|---|---|---|---|---|---|---|---|---|
+| R25 | Pallas reached twice | 20 | 6 | 7 | 0 (1.1) | 3 (2.4) | 5 | 0 |
+| R28 | Chiron to Jupiter, lit by Sun / Moon | 20 | 5 | 7 | 1 (1.1) | 2 (2.4) | 3 | 0 |
+| R1b | Moon to X, sky X to Jupiter | 20 | 11 | 17 | 1 (3.1) | 6 (6.1) | 6 | 0 |
+| R7 | Line star on own Jupiter and on one body both charts | 20 | 11 | 18 | 0 (3.0) | 2 (6.4) | 5 | 0 |
+| R26 | Royal line star on own Jupiter | 20 | 9 | 13 | 3 (2.1) | 4 (4.2) | 6 | 1 |
+| R40 | Node axis | 20 | 5 | 7 | 0 (1.2) | 3 (2.3) | 3 | 0 |
+| R42 | Moon on a same body | 20 | 16 | 26 | 1 (4.4) | 8 (9.1) | 7 | 0 |
+| R1 | Sun / Moon on one body both charts, sky X to Jupiter | 20 | 3 | 3 | 0 (0.5) | 0 (0.9) | 3 | 0 |
+| B1 | Natal body on a strong line star (filter) | 20 | 16 | 53 | 12 (8.9) | 20 (18.3) | 3 | 0 |
+| B2 | Top natal body on a strong line star | 20 | 16 | 16 | 5 (2.7) | 7 (5.6) | 16 | 5 |
+| B3 | Version 4 | 20 | 16 | 16 | 6 (2.7) | 8 (5.6) | 16 | 6 |
+| B4 | Same body, clear lead | 20 | 7 | 7 | 2 (1.2) | 5 (2.5) | 7 | 2 |
+| B5 | Same body in both planes | 20 | 4 | 4 | 1 (0.6) | 2 (1.3) | 4 | 1 |
+| B6 | Same body on both charts | 20 | 3 | 4 | 2 (0.7) | 2 (1.4) | 2 | 1 |
+| B7 | Most sky bodies onto the jockey's Jupiter | 20 | 19 | 23 | 7 (3.9) | 13 (7.9) | 16 | 5 |
+| B8 | One line star on the most natal bodies | 20 | 20 | 40 | 9 (6.8) | 17 (13.7) | 10 | 4 |
+| B9 | Jupiter and two of its line stars on one natal body | 20 | 8 | 12 | 3 (2.0) | 4 (3.9) | 6 | 1 |
+| B10 | Sun and two of its line stars on one natal body | 20 | 13 | 23 | 8 (3.6) | 12 (7.7) | 9 | 6 |
+| B11 | Moon and two of its line stars on one natal body | 20 | 12 | 31 | 8 (5.1) | 12 (10.5) | 2 | 2 |
+| B12 | Same body and two line stars on it | 20 | 13 | 21 | 7 (3.6) | 9 (7.4) | 8 | 3 |
 
 
 ## Per rule, every race

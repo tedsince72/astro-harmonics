@@ -12,6 +12,7 @@ races (every other race), and all races:
   picks      selected runners that ran (non-runners in the workbook left out)
   winners    picks that won;  chance = sum over races of picks / ran
   1st or 2nd picks that finished 1st or 2nd (a dead heat counts both);  chance = sum of picks x placed / ran
+  only pick  races where the rule selected exactly one runner (won or not)
   alone      races where the rule selected exactly one runner and it won
   missed     races where it fired and the winner was not selected
 Field size 'ran' is from the results (a runner that ran but is not in the workbook still counts in the field).
@@ -42,7 +43,7 @@ def pos_of(res, h):
 
 
 def tally(rows):
-    t = dict(races=len(rows), fired=0, picks=0, winners=0, top2=0, chance_w=0.0, chance_2=0.0, alone=0, missed=0)
+    t = dict(races=len(rows), fired=0, picks=0, winners=0, top2=0, chance_w=0.0, chance_2=0.0, only=0, alone=0, missed=0)
     for r in rows:
         if not r['picks']:
             continue
@@ -52,6 +53,7 @@ def tally(rows):
         t['top2'] += sum(1 for _, p in r['picks'] if p in (1, 2))
         t['chance_w'] += len(r['picks']) / r['ran']
         t['chance_2'] += len(r['picks']) * r['placed'] / r['ran']
+        t['only'] += 1 if len(r['picks']) == 1 else 0
         t['alone'] += 1 if len(r['picks']) == 1 and r['picks'][0][1] == 1 else 0
         t['missed'] += 0 if any(p == 1 for _, p in r['picks']) else 1
     return t
@@ -59,10 +61,10 @@ def tally(rows):
 
 def fmt(t):
     return (f"{t['races']} | {t['fired']} | {t['picks']} | {t['winners']} ({t['chance_w']:.1f}) | "
-            f"{t['top2']} ({t['chance_2']:.1f}) | {t['alone']}")
+            f"{t['top2']} ({t['chance_2']:.1f}) | {t['only']} | {t['alone']}")
 
 
-HEAD = '| Rule | Name | races | fired | picks | winners (chance) | 1st or 2nd (chance) | alone |\n|---|---|---|---|---|---|---|---|'
+HEAD = '| Rule | Name | races | fired | picks | winners (chance) | 1st or 2nd (chance) | only pick | alone |\n|---|---|---|---|---|---|---|---|---|'
 
 
 def main():
@@ -100,7 +102,7 @@ def main():
                                       winner=res['first'][0], n_sel=len(picks)))
     out, L = {}, ['# Stage 3 back-test', '',
                   f"Races: {len(sel)} (results file {len(results)}" + (f"; no rules output for {', '.join(missing)}" if missing else '') + ').',
-                  'fired = races with a pick; alone = one pick and it won; chance from field sizes.',
+                  'fired = races with a pick; only pick = races with exactly one pick; alone = one pick and it won; chance from field sizes.',
                   'In-sample = races the rule was seen on or written from (rules.json); test = every other race. Only the test races are evidence.', '']
     for r in rules:
         ins = set(r.get('in_sample', []))
