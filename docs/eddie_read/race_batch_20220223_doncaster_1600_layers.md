@@ -1,5 +1,5 @@
 # Stage 2 layers: race_batch_20220223_doncaster_1600_jupiter_tables.xlsx
-Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_layers.py).
+The stage 1 data laid out in fixed layers for every runner; data only, no interpretation, no ranking, no pick (tools/eddie_layers.py).
 
 ## L0 field
 - In the tables workbook (6): 1 Boss Man Fred / Harry Skelton; 2 Mister Watson / Kielan Woods; 3 Gredin / Brian Hughes; 4 Mr Washington / Jordan Nailor; 5 Half Track / Sean Quinlan; 6 Silva Eclipse / Thomas Willmott
@@ -43,91 +43,140 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - S Ketu → J Ketu RA 85.7605 53×φ golden (loose)
 ### L2 what lands on each same body
 - **H Jupiter** (same body: S Jupiter → H Jupiter RA 124.5702 77×φ golden (18.58))
-  - top rows: S Saturn → H Jupiter RA 148.0006 148 whole (93.73) [Jupiter]
-  - top rows: S Sedna → H Jupiter Dec 14.5608 9×φ golden (90.61) [Jupiter]
-  - top rows: S Makemake → H Jupiter Dec 0.0425 conj (73.66) [Jupiter, Moon]
+  - top rows: S Saturn → H Jupiter RA 148.0006 148 whole (93.73)
+  - top rows: S Sedna → H Jupiter Dec 14.5608 9×φ golden (90.61)
+  - top rows: S Makemake → H Jupiter Dec 0.0425 conj (73.66)
+    - source line: S Moon → Makemake Dec 43.9984 44 whole (84.30)
   - other chart, same body: S Jupiter → J Jupiter Dec 30.7261 19×φ golden (loose)
-  - other chart, top rows: S Mars → J Jupiter Dec 45.3001 28×φ golden (72.08) [Jupiter]
-  - other chart, top rows: S Makemake → J Jupiter Dec 0.2571 conj (2.05) [Jupiter, Moon]
-  - other chart, star rows: S Alhena → J Jupiter RA 0.0038 conj (99.50) [Sun]
-  - other chart, star rows: J Fomalhaut → J Jupiter RA 115.0179 115 whole (1.12) [Jupiter]
-  - other chart, star rows: J Mirach → J Jupiter RA 81.9968 82 whole (70.94) [Moon]
+  - other chart, top rows: S Mars → J Jupiter Dec 45.3001 28×φ golden (72.08)
+  - other chart, top rows: S Makemake → J Jupiter Dec 0.2571 conj (2.05)
+    - source line: S Moon → Makemake Dec 43.9984 44 whole (84.30)
+  - other chart, star rows: S Alhena → J Jupiter RA 0.0038 conj (99.50)
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - other chart, star rows: J Fomalhaut → J Jupiter RA 115.0179 115 whole (1.12)
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+  - other chart, star rows: J Mirach → J Jupiter RA 81.9968 82 whole (70.94)
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
 - **H Chiron** (same body: S Chiron → H Chiron RA 22.2228 22.2222 ninth (99.25); S Chiron → H Chiron Dec 6.4769 4×φ golden (loose))
-  - star rows: H Acumen → H Chiron RA 77.6633 48×φ golden (86.12) [Sun]
-  - star rows: H Alhena → H Chiron RA 113.2925 70×φ golden (0.47) [Sun]
+  - star rows: H Acumen → H Chiron RA 77.6633 48×φ golden (86.12)
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - star rows: H Alhena → H Chiron RA 113.2925 70×φ golden (0.47)
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
   - other chart, same body: S Chiron → J Chiron RA 97.9861 98 whole (9.16)
-  - other chart, star rows: J Alhena → J Chiron Dec 0.2769 conj (0.59) [Sun]
-  - other chart, star rows: J Zubeneschamali → J Chiron RA 122.9085 φ^10 phi power (74.73) [Moon]
+  - other chart, star rows: J Alhena → J Chiron Dec 0.2769 conj (0.59)
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - other chart, star rows: J Zubeneschamali → J Chiron RA 122.9085 φ^10 phi power (74.73)
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
 - **H Ceres** (same body: S Ceres → H Ceres Dec 17.9202 φ^6 phi power (loose))
-  - star rows: H Deneb → H Ceres RA 108.0192 108 whole (0.17) [Moon]
+  - star rows: H Deneb → H Ceres RA 108.0192 108 whole (0.17)
+    - source line: S Moon → Deneb Dec 66.6638 66.6667 ninth (97.54)
 - **H Rahu** (same body: S Rahu → H Rahu Dec 30.0072 30 whole (40.95))
-  - top rows: S Sun → H Rahu Dec 0.9973 1 whole (74.67) [Sun]
-  - star rows: H Acumen → H Rahu Dec 24.0075 24 whole (38.89) [Sun]
-  - star rows: H Kaus Australis → H Rahu RA 69.9807 70 whole (0.13) [Moon]
-  - star rows: H Praesepe → H Rahu RA 76.0437 47×φ golden (77.49) [Jupiter]
-  - star rows: H Procyon → H Rahu Dec 16.0052 16 whole (54.55) [Sun]
+  - top rows: S Sun → H Rahu Dec 0.9973 1 whole (74.67)
+  - star rows: H Acumen → H Rahu Dec 24.0075 24 whole (38.89)
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - star rows: H Kaus Australis → H Rahu RA 69.9807 70 whole (0.13)
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - star rows: H Praesepe → H Rahu RA 76.0437 47×φ golden (77.49)
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+  - star rows: H Procyon → H Rahu Dec 16.0052 16 whole (54.55)
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
   - other chart, same body: S Rahu → J Rahu RA 85.7605 53×φ golden (loose)
-  - other chart, star rows: J Praesepe → J Rahu Dec 32.9990 33 whole (90.27) [Jupiter]
+  - other chart, star rows: J Praesepe → J Rahu Dec 32.9990 33 whole (90.27)
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
 - **H Gonggong** (same body: S Gonggong → H Gonggong RA 0.9776 1 whole (loose))
-  - body line: S Sun → Gonggong RA 0.2231 conj (72.47)
-  - top rows: S Sun → H Gonggong RA 0.7546 conj (24.70) [Sun]
-  - other chart, star rows: J Praesepe → J Gonggong Dec 40.4542 25×φ golden (80.61) [Jupiter]
+  - sky line to Gonggong: S Sun → Gonggong RA 0.2231 conj (72.47)
+  - top rows: S Sun → H Gonggong RA 0.7546 conj (24.70)
+  - other chart, star rows: J Praesepe → J Gonggong Dec 40.4542 25×φ golden (80.61)
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
 - **H Transpluto** (same body: S Transpluto → H Transpluto RA 3.0172 3 whole (1.89))
-  - top rows: S Moon → H Transpluto Dec 33.0003 33 whole (97.45) [Moon]
-  - star rows: H El Nath → H Transpluto Dec 16.9927 17 whole (40.41) [Moon]
-  - star rows: H Kaus Australis → H Transpluto Dec 45.9982 46 whole (83.13) [Moon]
-  - star rows: H Mirach → H Transpluto RA 134.2750 83×φ golden (10.56) [Moon]
-  - star rows: H Mirach → H Transpluto Dec 24.0031 24 whole (71.73) [Moon]
-  - star rows: H Zubeneschamali → H Transpluto Dec 20.9984 21 whole (84.60) [Moon]
-  - other chart, star rows: J Alhena → J Transpluto RA 44.9863 45 whole (9.78) [Sun]
-  - other chart, star rows: J El Nath → J Transpluto Dec 14.4479 14.4444 ninth (96.32) [Moon]
-  - other chart, star rows: J Fomalhaut → J Transpluto RA 159.9958 160 whole (62.48) [Jupiter]
-  - other chart, star rows: J Kaus Australis → J Transpluto Dec 48.5448 30×φ golden (77.81) [Moon]
+  - top rows: S Moon → H Transpluto Dec 33.0003 33 whole (97.45)
+  - star rows: H El Nath → H Transpluto Dec 16.9927 17 whole (40.41)
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - star rows: H Kaus Australis → H Transpluto Dec 45.9982 46 whole (83.13)
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - star rows: H Mirach → H Transpluto RA 134.2750 83×φ golden (10.56)
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+  - star rows: H Mirach → H Transpluto Dec 24.0031 24 whole (71.73)
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+  - star rows: H Zubeneschamali → H Transpluto Dec 20.9984 21 whole (84.60)
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+  - other chart, star rows: J Alhena → J Transpluto RA 44.9863 45 whole (9.78)
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - other chart, star rows: J El Nath → J Transpluto Dec 14.4479 14.4444 ninth (96.32)
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - other chart, star rows: J Fomalhaut → J Transpluto RA 159.9958 160 whole (62.48)
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+  - other chart, star rows: J Kaus Australis → J Transpluto Dec 48.5448 30×φ golden (77.81)
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
 - **H Ketu** (same body: S Ketu → H Ketu Dec 30.0072 30 whole (40.95))
-  - star rows: H Kaus Australis → H Ketu RA 110.0193 68×φ golden (61.27) [Moon]
+  - star rows: H Kaus Australis → H Ketu RA 110.0193 68×φ golden (61.27)
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
   - other chart, same body: S Ketu → J Ketu RA 85.7605 53×φ golden (loose)
 - **J Jupiter** (same body: S Jupiter → J Jupiter Dec 30.7261 19×φ golden (loose))
-  - top rows: S Mars → J Jupiter Dec 45.3001 28×φ golden (72.08) [Jupiter]
-  - top rows: S Makemake → J Jupiter Dec 0.2571 conj (2.05) [Jupiter, Moon]
-  - star rows: S Alhena → J Jupiter RA 0.0038 conj (99.50) [Sun]
-  - star rows: J Fomalhaut → J Jupiter RA 115.0179 115 whole (1.12) [Jupiter]
-  - star rows: J Mirach → J Jupiter RA 81.9968 82 whole (70.94) [Moon]
+  - top rows: S Mars → J Jupiter Dec 45.3001 28×φ golden (72.08)
+  - top rows: S Makemake → J Jupiter Dec 0.2571 conj (2.05)
+    - source line: S Moon → Makemake Dec 43.9984 44 whole (84.30)
+  - star rows: S Alhena → J Jupiter RA 0.0038 conj (99.50)
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - star rows: J Fomalhaut → J Jupiter RA 115.0179 115 whole (1.12)
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+  - star rows: J Mirach → J Jupiter RA 81.9968 82 whole (70.94)
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
   - other chart, same body: S Jupiter → H Jupiter RA 124.5702 77×φ golden (18.58)
-  - other chart, top rows: S Saturn → H Jupiter RA 148.0006 148 whole (93.73) [Jupiter]
-  - other chart, top rows: S Sedna → H Jupiter Dec 14.5608 9×φ golden (90.61) [Jupiter]
-  - other chart, top rows: S Makemake → H Jupiter Dec 0.0425 conj (73.66) [Jupiter, Moon]
+  - other chart, top rows: S Saturn → H Jupiter RA 148.0006 148 whole (93.73)
+  - other chart, top rows: S Sedna → H Jupiter Dec 14.5608 9×φ golden (90.61)
+  - other chart, top rows: S Makemake → H Jupiter Dec 0.0425 conj (73.66)
+    - source line: S Moon → Makemake Dec 43.9984 44 whole (84.30)
 - **J Neptune** (same body: S Neptune → J Neptune Dec 17.9451 φ^6 phi power (98.27))
-  - star rows: J Facies → J Neptune RA 1.4358 conj (0.18) [Moon]
-  - other chart, top rows: S Sun → H Neptune Dec 0.2754 conj (0.67) [Sun]
-  - other chart, star rows: H Murzim → H Neptune RA 116.4790 72×φ golden (15.86) [Jupiter]
-  - other chart, star rows: H Zubeneschamali → H Neptune Dec 0.1281 conj (32.82) [Moon]
+  - star rows: J Facies → J Neptune RA 1.4358 conj (0.18)
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - other chart, top rows: S Sun → H Neptune Dec 0.2754 conj (0.67)
+  - other chart, star rows: H Murzim → H Neptune RA 116.4790 72×φ golden (15.86)
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+  - other chart, star rows: H Zubeneschamali → H Neptune Dec 0.1281 conj (32.82)
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
 - **J Chiron** (same body: S Chiron → J Chiron RA 97.9861 98 whole (9.16))
-  - star rows: J Alhena → J Chiron Dec 0.2769 conj (0.59) [Sun]
-  - star rows: J Zubeneschamali → J Chiron RA 122.9085 φ^10 phi power (74.73) [Moon]
+  - star rows: J Alhena → J Chiron Dec 0.2769 conj (0.59)
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - star rows: J Zubeneschamali → J Chiron RA 122.9085 φ^10 phi power (74.73)
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
   - other chart, same body: S Chiron → H Chiron RA 22.2228 22.2222 ninth (99.25)
   - other chart, same body: S Chiron → H Chiron Dec 6.4769 4×φ golden (loose)
-  - other chart, star rows: H Acumen → H Chiron RA 77.6633 48×φ golden (86.12) [Sun]
-  - other chart, star rows: H Alhena → H Chiron RA 113.2925 70×φ golden (0.47) [Sun]
+  - other chart, star rows: H Acumen → H Chiron RA 77.6633 48×φ golden (86.12)
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - other chart, star rows: H Alhena → H Chiron RA 113.2925 70×φ golden (0.47)
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
 - **J Rahu** (same body: S Rahu → J Rahu RA 85.7605 53×φ golden (loose))
-  - star rows: J Praesepe → J Rahu Dec 32.9990 33 whole (90.27) [Jupiter]
+  - star rows: J Praesepe → J Rahu Dec 32.9990 33 whole (90.27)
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
   - other chart, same body: S Rahu → H Rahu Dec 30.0072 30 whole (40.95)
-  - other chart, top rows: S Sun → H Rahu Dec 0.9973 1 whole (74.67) [Sun]
-  - other chart, star rows: H Acumen → H Rahu Dec 24.0075 24 whole (38.89) [Sun]
-  - other chart, star rows: H Kaus Australis → H Rahu RA 69.9807 70 whole (0.13) [Moon]
-  - other chart, star rows: H Praesepe → H Rahu RA 76.0437 47×φ golden (77.49) [Jupiter]
-  - other chart, star rows: H Procyon → H Rahu Dec 16.0052 16 whole (54.55) [Sun]
+  - other chart, top rows: S Sun → H Rahu Dec 0.9973 1 whole (74.67)
+  - other chart, star rows: H Acumen → H Rahu Dec 24.0075 24 whole (38.89)
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - other chart, star rows: H Kaus Australis → H Rahu RA 69.9807 70 whole (0.13)
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - other chart, star rows: H Praesepe → H Rahu RA 76.0437 47×φ golden (77.49)
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+  - other chart, star rows: H Procyon → H Rahu Dec 16.0052 16 whole (54.55)
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
 - **J Haumea** (same body: S Haumea → J Haumea RA 30.7423 19×φ golden (97.92))
-  - star rows: J El Nath → J Haumea RA 105.1997 65×φ golden (2.25) [Moon]
-  - other chart, star rows: H Kaus Australis → H Haumea RA 66.9889 67 whole (19.92) [Moon]
+  - star rows: J El Nath → J Haumea RA 105.1997 65×φ golden (2.25)
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - other chart, star rows: H Kaus Australis → H Haumea RA 66.9889 67 whole (19.92)
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
 - **J Orcus** (same body: S Orcus → J Orcus Dec 16.1333 10×φ^1 phi power (loose))
-  - star rows: J Deneb → J Orcus RA 179.6308 111×φ golden (1.08) [Moon]
-  - star rows: J Murzim → J Orcus Dec 21.9984 22 whole (84.80) [Jupiter]
-  - star rows: J Praesepe → J Orcus RA 0.0277 conj (96.34) [Jupiter]
-  - other chart, top rows: S Jupiter → H Orcus Dec 0.1612 conj (21.39) [Jupiter]
+  - star rows: J Deneb → J Orcus RA 179.6308 111×φ golden (1.08)
+    - source line: S Moon → Deneb Dec 66.6638 66.6667 ninth (97.54)
+  - star rows: J Murzim → J Orcus Dec 21.9984 22 whole (84.80)
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+  - star rows: J Praesepe → J Orcus RA 0.0277 conj (96.34)
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+  - other chart, top rows: S Jupiter → H Orcus Dec 0.1612 conj (21.39)
 - **J Ketu** (same body: S Ketu → J Ketu RA 85.7605 53×φ golden (loose))
   - other chart, same body: S Ketu → H Ketu Dec 30.0072 30 whole (40.95)
-  - other chart, star rows: H Kaus Australis → H Ketu RA 110.0193 68×φ golden (61.27) [Moon]
-### L3 the seven cases (L5 field tag on each)
+  - other chart, star rows: H Kaus Australis → H Ketu RA 110.0193 68×φ golden (61.27)
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+### L3 matches
 - **1. same body on both charts**
   - Jupiter — only
     - S Jupiter → H Jupiter RA 124.5702 77×φ golden (18.58)
@@ -154,16 +203,26 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - **4. circle divisions**
   - 30 = 360/12 — only
     - S Rahu → H Rahu Dec 30.0072 30 whole (40.95)
-  - 1 = 360/360 — also: 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan
+  - 1 = 360/360 — also: 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
     - S Gonggong → H Gonggong RA 0.9776 1 whole (loose)
-  - 3 = 360/120 — also: 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
+  - 3 = 360/120 — also: 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
     - S Transpluto → H Transpluto RA 3.0172 3 whole (1.89)
   - 30 = 360/12 — only
     - S Ketu → H Ketu Dec 30.0072 30 whole (40.95)
-  - 1 = 360/360 — also: 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan
+  - 1 = 360/360 — also: 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
     - S Sun → H Rahu Dec 0.9973 1 whole (74.67)
   - 24 = 360/15 — also: 6 Silva Eclipse / Thomas Willmott
+    - H Acumen → H Rahu Dec 24.0075 24 whole (38.89)
+  - 3 = 360/120 — also: 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+    - H Alhena → H Pallas Dec 2.9815 3 whole (0.56)
+  - 45 = 360/8 — only
+    - H Alhena → H Sedna RA 44.9837 45 whole (3.43)
+  - 24 = 360/15 — also: 6 Silva Eclipse / Thomas Willmott
     - H Mirach → H Transpluto Dec 24.0031 24 whole (71.73)
+  - 4 = 360/90 — also: 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+    - J Al Rescha → J Pluto Dec 4.0075 4 whole (39.13)
+  - 45 = 360/8 — only
+    - J Alhena → J Transpluto RA 44.9863 45 whole (9.78)
 - **5. same number in more than one place**
   - φ^6 phi power — also: 3 Gredin / Brian Hughes
     - S Ceres → H Ceres Dec 17.9202 φ^6 phi power (loose)
@@ -171,137 +230,263 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 30 whole — only
     - S Rahu → H Rahu Dec 30.0072 30 whole (40.95)
     - S Ketu → H Ketu Dec 30.0072 30 whole (40.95)
-  - 1 whole — only
+  - 1 whole — also: 3 Gredin / Brian Hughes
     - S Gonggong → H Gonggong RA 0.9776 1 whole (loose)
     - S Sun → H Rahu Dec 0.9973 1 whole (74.67)
-  - 33 whole — only
+  - 3 whole — also: 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
+    - S Transpluto → H Transpluto RA 3.0172 3 whole (1.89)
+    - H Alhena → H Pallas Dec 2.9815 3 whole (0.56)
+  - 33 whole — also: 4 Mr Washington / Jordan Nailor
     - S Moon → H Transpluto Dec 33.0003 33 whole (97.45)
     - J Praesepe → J Rahu Dec 32.9990 33 whole (90.27)
-  - 46 whole — only
+  - 65×φ golden — only
+    - H Acumen → H Venus RA 105.1569 65×φ golden (27.69)
+    - J El Nath → J Haumea RA 105.1997 65×φ golden (2.25)
+  - 24 whole — also: 6 Silva Eclipse / Thomas Willmott
+    - H Acumen → H Rahu Dec 24.0075 24 whole (38.89)
+    - H Mirach → H Transpluto Dec 24.0031 24 whole (71.73)
+  - 22 whole — also: 2 Mister Watson / Kielan Woods, 6 Silva Eclipse / Thomas Willmott
+    - H Al Rescha → H Mercury Dec 21.9907 22 whole (28.37)
+    - J Murzim → J Orcus Dec 21.9984 22 whole (84.80)
+  - 45 whole — only
+    - H Alhena → H Sedna RA 44.9837 45 whole (3.43)
+    - J Alhena → J Transpluto RA 44.9863 45 whole (9.78)
+  - 46 whole — also: 4 Mr Washington / Jordan Nailor
     - H Kaus Australis → H Transpluto Dec 45.9982 46 whole (83.13)
     - S Sun → J Eris RA 46.0041 46 whole (63.57)
+  - 82 whole — only
+    - H Murzim → H Uranus RA 81.9912 82 whole (31.53)
+    - J Jupiter → J star Mirach RA 81.9968 82 whole (70.94)
+    - J Mirach → J Jupiter RA 81.9968 82 whole (70.94)
+  - 78 whole — only
+    - H Praesepe → H Sun RA 78.0081 78 whole (35.20)
+    - J Deneb → J Quaoar RA 78.0127 78 whole (13.28)
+  - 16 whole — only
+    - H Procyon → H Rahu Dec 16.0052 16 whole (54.55)
+    - J Al Rescha → J Pallas RA 15.9876 16 whole (14.31)
   - 19×φ golden — only
     - S Jupiter → J Jupiter Dec 30.7261 19×φ golden (loose)
     - S Haumea → J Haumea RA 30.7423 19×φ golden (97.92)
   - 53×φ golden — only
     - S Rahu → J Rahu RA 85.7605 53×φ golden (loose)
     - S Ketu → J Ketu RA 85.7605 53×φ golden (loose)
-  - 82 whole — only
-    - J Jupiter → J star Mirach RA 81.9968 82 whole (70.94)
-    - J Mirach → J Jupiter RA 81.9968 82 whole (70.94)
   - 101×φ golden — only
     - J El Nath → J Saturn RA 163.4241 101×φ golden (84.02)
     - J Fomalhaut → J Mars RA 163.4247 101×φ golden (80.71)
-- **6. star and sky line on one body**
-  - H Uranus on Procyon — only
-    - H Procyon → H Uranus Dec 0.0729 conj (57.32)
-    - S Jupiter → H Uranus Dec 13.0040 13 whole (64.01)
-- **7. centres meeting**
-  - Gonggong: Jupiter, Sun — only
-    - [Jupiter] J Praesepe → J Gonggong Dec 40.4542 25×φ golden (80.61)
-    - [Sun] S Gonggong → H Gonggong RA 0.9776 1 whole (loose)
-    - [Sun] S Sun → H Gonggong RA 0.7546 conj (24.70)
-  - Uranus: Jupiter, Moon, Sun — also: 2 Mister Watson / Kielan Woods, 6 Silva Eclipse / Thomas Willmott
-    - [Jupiter] S Jupiter → H Uranus Dec 13.0040 13 whole (64.01)
-    - [Jupiter] H Murzim → H Uranus RA 81.9912 82 whole (31.53)
-    - [Jupiter] J Murzim → J Uranus RA 175.9907 176 whole (28.69)
-    - [Jupiter] J Praesepe → J Uranus Dec 43.6862 27×φ golden (95.48)
-    - [Moon] H Zubeneschamali → H Uranus RA 144.4225 144.444 ninth (97.68)
-    - [Moon] J Deneb → J Uranus Dec 68.9867 69 whole (11.15)
-    - [Moon] J Facies → J Uranus Dec 0.2027 conj (10.52)
-    - [Sun] H Procyon → H Uranus Dec 0.0729 conj (57.32)
-    - [Sun] J Acumen → J Uranus Dec 11.0924 φ^5 phi power (92.25)
-  - Orcus: Jupiter, Moon — also: 5 Half Track / Sean Quinlan
-    - [Jupiter] S Jupiter → H Orcus Dec 0.1612 conj (21.39)
-    - [Jupiter] J Murzim → J Orcus Dec 21.9984 22 whole (84.80)
-    - [Jupiter] J Praesepe → J Orcus RA 0.0277 conj (96.34)
-    - [Moon] J Deneb → J Orcus RA 179.6308 111×φ golden (1.08)
-  - Neptune: Jupiter, Moon, Sun — also: 4 Mr Washington / Jordan Nailor
-    - [Jupiter] H Murzim → H Neptune RA 116.4790 72×φ golden (15.86)
-    - [Moon] H Zubeneschamali → H Neptune Dec 0.1281 conj (32.82)
-    - [Moon] J Facies → J Neptune RA 1.4358 conj (0.18)
-    - [Sun] S Sun → H Neptune Dec 0.2754 conj (0.67)
-  - Rahu: Jupiter, Moon, Sun — also: 3 Gredin / Brian Hughes
-    - [Jupiter] H Praesepe → H Rahu RA 76.0437 47×φ golden (77.49)
-    - [Jupiter] J Praesepe → J Rahu Dec 32.9990 33 whole (90.27)
-    - [Moon] H Kaus Australis → H Rahu RA 69.9807 70 whole (0.13)
-    - [Sun] S Sun → H Rahu Dec 0.9973 1 whole (74.67)
-    - [Sun] H Acumen → H Rahu Dec 24.0075 24 whole (38.89)
-    - [Sun] H Procyon → H Rahu Dec 16.0052 16 whole (54.55)
-  - Eris: Jupiter, Moon, Sun — also: 2 Mister Watson / Kielan Woods, 5 Half Track / Sean Quinlan
-    - [Jupiter] H Praesepe → H Eris Dec 23.0089 23 whole (30.73)
-    - [Moon] S Moon → H Eris RA 146.9973 147 whole (74.39)
-    - [Moon] J El Nath → J Eris RA 59.0153 59 whole (5.56)
-    - [Moon] J Zubeneschamali → J Eris Dec 0.2131 conj (8.39)
-    - [Sun] S Sun → J Eris RA 46.0041 46 whole (63.57)
-    - [Sun] S Sun → J Eris Dec 0.1936 conj (12.59)
-    - [Sun] J Alhena → J Eris Dec 25.9946 26 whole (53.09)
-  - Transpluto: Jupiter, Moon, Sun — also: 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan
-    - [Jupiter] J Fomalhaut → J Transpluto RA 159.9958 160 whole (62.48)
-    - [Moon] S Moon → H Transpluto Dec 33.0003 33 whole (97.45)
-    - [Moon] H El Nath → H Transpluto Dec 16.9927 17 whole (40.41)
-    - [Moon] H Kaus Australis → H Transpluto Dec 45.9982 46 whole (83.13)
-    - [Moon] H Mirach → H Transpluto RA 134.2750 83×φ golden (10.56)
-    - [Moon] H Mirach → H Transpluto Dec 24.0031 24 whole (71.73)
-    - [Moon] H Zubeneschamali → H Transpluto Dec 20.9984 21 whole (84.60)
-    - [Moon] J El Nath → J Transpluto Dec 14.4479 14.4444 ninth (96.32)
-    - [Moon] J Kaus Australis → J Transpluto Dec 48.5448 30×φ golden (77.81)
-    - [Sun] J Alhena → J Transpluto RA 44.9863 45 whole (9.78)
-  - Jupiter: Jupiter, Moon, Sun — also: 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
-    - [Jupiter] S Saturn → H Jupiter RA 148.0006 148 whole (93.73)
-    - [Jupiter] S Sedna → H Jupiter Dec 14.5608 9×φ golden (90.61)
-    - [Jupiter] S Makemake → H Jupiter Dec 0.0425 conj (73.66)
-    - [Jupiter] S Mars → J Jupiter Dec 45.3001 28×φ golden (72.08)
-    - [Jupiter] S Makemake → J Jupiter Dec 0.2571 conj (2.05)
-    - [Jupiter] J Fomalhaut → J Jupiter RA 115.0179 115 whole (1.12)
-    - [Moon] S Makemake → H Jupiter Dec 0.0425 conj (73.66)
-    - [Moon] S Makemake → J Jupiter Dec 0.2571 conj (2.05)
-    - [Moon] J Mirach → J Jupiter RA 81.9968 82 whole (70.94)
-    - [Sun] S Alhena → J Jupiter RA 0.0038 conj (99.50)
-  - Venus: Moon, Sun — also: 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan
-    - [Moon] H Deneb → H Venus Dec 41.4214 41.4 silver (99.94)
-    - [Sun] H Acumen → H Venus RA 105.1569 65×φ golden (27.69)
-  - Chiron: Moon, Sun — only
-    - [Moon] J Zubeneschamali → J Chiron RA 122.9085 φ^10 phi power (74.73)
-    - [Sun] H Acumen → H Chiron RA 77.6633 48×φ golden (86.12)
-    - [Sun] H Alhena → H Chiron RA 113.2925 70×φ golden (0.47)
-    - [Sun] J Alhena → J Chiron Dec 0.2769 conj (0.59)
-  - Pallas: Jupiter, Moon, Sun — also: 3 Gredin / Brian Hughes
-    - [Jupiter] S Jupiter → J Pallas Dec 0.0151 conj (90.17)
-    - [Moon] H Zubeneschamali → H Pallas RA 76.9824 77 whole (1.40)
-    - [Moon] J Al Rescha → J Pallas RA 15.9876 16 whole (14.31)
-    - [Sun] H Alhena → H Pallas Dec 2.9815 3 whole (0.56)
-    - [Sun] J Alhena → J Pallas Dec 24.2722 15×φ golden (89.89)
-  - Sedna: Jupiter, Moon, Sun — also: 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
-    - [Jupiter] S Jupiter → J Sedna RA 58.2486 36×φ golden (96.32)
-    - [Jupiter] J Murzim → J Sedna RA 53.3989 33×φ golden (78.24)
-    - [Moon] H Mirach → H Sedna RA 37.0115 37 whole (17.95)
-    - [Moon] J Kaus Australis → J Sedna RA 126.2315 78×φ golden (5.45)
-    - [Sun] H Alhena → H Sedna RA 44.9837 45 whole (3.43)
-  - Quaoar: Moon, Sun — also: 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
-    - [Moon] J Deneb → J Quaoar RA 78.0127 78 whole (13.28)
-    - [Sun] H Alhena → H Quaoar RA 166.6580 166.667 ninth (99.26)
-  - Sun: Jupiter, Sun — only
-    - [Jupiter] H Praesepe → H Sun RA 78.0081 78 whole (35.20)
-    - [Jupiter] J Murzim → J Sun Dec 18.8882 18.8889 ninth (99.49)
-    - [Sun] J Procyon → J Sun RA 63.0108 63 whole (21.27)
-  - Pluto: Jupiter, Moon, Sun — also: 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor
-    - [Jupiter] H Praesepe → H Pluto RA 153.9868 154 whole (11.63)
-    - [Moon] J Al Rescha → J Pluto Dec 4.0075 4 whole (39.13)
-    - [Moon] J El Nath → J Pluto RA 143.9887 144 whole (19.02)
-    - [Sun] S Sun → J Pluto RA 110.9919 10×φ^5 phi power (70.10)
-  - Mars: Jupiter, Moon, Sun — also: 3 Gredin / Brian Hughes, 6 Silva Eclipse / Thomas Willmott
-    - [Jupiter] J Fomalhaut → J Mars RA 163.4247 101×φ golden (80.71)
-    - [Moon] J Al Rescha → J Mars RA 150.4766 93×φ golden (96.57)
-    - [Sun] S Sun → J Mars RA 155.5616 155.556 ninth (99.42)
-  - Saturn: Moon, Sun — only
-    - [Moon] J El Nath → J Saturn RA 163.4241 101×φ golden (84.02)
-    - [Moon] J Facies → J Saturn RA 0.9513 conj (13.38)
-    - [Sun] J Procyon → J Saturn Dec 27.9928 28 whole (40.65)
-  - Makemake: Jupiter, Moon, Sun — also: 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan
-    - [Jupiter] J Fomalhaut → J Makemake Dec 64.7296 40×φ golden (55.76)
-    - [Moon] J Facies → J Makemake Dec 59.0138 59 whole (9.49)
-    - [Sun] J Procyon → J Makemake RA 54.0110 54 whole (20.36)
+  - 59 whole — only
+    - J El Nath → J Eris RA 59.0153 59 whole (5.56)
+    - J Facies → J Makemake Dec 59.0138 59 whole (9.49)
+### L4 every natal body
+- **Jupiter**
+  - same body: S Jupiter → H Jupiter RA 124.5702 77×φ golden (18.58) — also: 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+  - top rows: S Saturn → H Jupiter RA 148.0006 148 whole (93.73) — also: 3 Gredin / Brian Hughes
+  - top rows: S Sedna → H Jupiter Dec 14.5608 9×φ golden (90.61) — also: 2 Mister Watson / Kielan Woods
+  - top rows: S Makemake → H Jupiter Dec 0.0425 conj (73.66) — also: 3 Gredin / Brian Hughes
+    - source line: S Moon → Makemake Dec 43.9984 44 whole (84.30)
+  - same body: S Jupiter → J Jupiter Dec 30.7261 19×φ golden (loose) — also: 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+  - T2: J Jupiter → J star Alhena RA 0.0083 conj (98.89) — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+  - T2: J Jupiter → J star Mirach RA 81.9968 82 whole (70.94) — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+  - top rows: S Mars → J Jupiter Dec 45.3001 28×φ golden (72.08) — also: 3 Gredin / Brian Hughes
+  - top rows: S Makemake → J Jupiter Dec 0.2571 conj (2.05) — also: 3 Gredin / Brian Hughes
+    - source line: S Moon → Makemake Dec 43.9984 44 whole (84.30)
+  - star rows: S Alhena → J Jupiter RA 0.0038 conj (99.50) — also: 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - star rows: J Fomalhaut → J Jupiter RA 115.0179 115 whole (1.12) — also: 5 Half Track / Sean Quinlan
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+  - star rows: J Mirach → J Jupiter RA 81.9968 82 whole (70.94) — also: 5 Half Track / Sean Quinlan
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+- **Chiron**
+  - same body: S Chiron → H Chiron RA 22.2228 22.2222 ninth (99.25) — also: 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
+  - same body: S Chiron → H Chiron Dec 6.4769 4×φ golden (loose) — also: 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
+  - star rows: H Acumen → H Chiron RA 77.6633 48×φ golden (86.12) — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - star rows: H Alhena → H Chiron RA 113.2925 70×φ golden (0.47) — also: 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - same body: S Chiron → J Chiron RA 97.9861 98 whole (9.16) — also: 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
+  - star rows: J Alhena → J Chiron Dec 0.2769 conj (0.59) — also: 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - star rows: J Zubeneschamali → J Chiron RA 122.9085 φ^10 phi power (74.73) — also: 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+- **Ceres**
+  - same body: S Ceres → H Ceres Dec 17.9202 φ^6 phi power (loose) — also: 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
+  - star rows: H Deneb → H Ceres RA 108.0192 108 whole (0.17) — only
+    - source line: S Moon → Deneb Dec 66.6638 66.6667 ninth (97.54)
+- **Rahu**
+  - same body: S Rahu → H Rahu Dec 30.0072 30 whole (40.95) — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor
+  - top rows: S Sun → H Rahu Dec 0.9973 1 whole (74.67) — only
+  - star rows: H Acumen → H Rahu Dec 24.0075 24 whole (38.89) — also: 3 Gredin / Brian Hughes, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - star rows: H Kaus Australis → H Rahu RA 69.9807 70 whole (0.13) — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - star rows: H Praesepe → H Rahu RA 76.0437 47×φ golden (77.49) — also: 2 Mister Watson / Kielan Woods
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+  - star rows: H Procyon → H Rahu Dec 16.0052 16 whole (54.55) — also: 6 Silva Eclipse / Thomas Willmott
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+  - same body: S Rahu → J Rahu RA 85.7605 53×φ golden (loose) — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor
+  - star rows: J Praesepe → J Rahu Dec 32.9990 33 whole (90.27) — also: 2 Mister Watson / Kielan Woods
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+- **Gonggong**
+  - same body: S Gonggong → H Gonggong RA 0.9776 1 whole (loose) — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Sun → Gonggong RA 0.2231 conj (72.47)
+  - top rows: S Sun → H Gonggong RA 0.7546 conj (24.70) — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+  - star rows: J Praesepe → J Gonggong Dec 40.4542 25×φ golden (80.61) — also: 5 Half Track / Sean Quinlan
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+- **Transpluto**
+  - same body: S Transpluto → H Transpluto RA 3.0172 3 whole (1.89) — also: 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+  - top rows: S Moon → H Transpluto Dec 33.0003 33 whole (97.45) — only
+  - star rows: H El Nath → H Transpluto Dec 16.9927 17 whole (40.41) — also: 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - star rows: H Kaus Australis → H Transpluto Dec 45.9982 46 whole (83.13) — also: 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - star rows: H Mirach → H Transpluto RA 134.2750 83×φ golden (10.56) — only
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+  - star rows: H Mirach → H Transpluto Dec 24.0031 24 whole (71.73) — only
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+  - star rows: H Zubeneschamali → H Transpluto Dec 20.9984 21 whole (84.60) — also: 4 Mr Washington / Jordan Nailor
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+  - star rows: J Alhena → J Transpluto RA 44.9863 45 whole (9.78) — only
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - star rows: J El Nath → J Transpluto Dec 14.4479 14.4444 ninth (96.32) — also: 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - star rows: J Fomalhaut → J Transpluto RA 159.9958 160 whole (62.48) — also: 2 Mister Watson / Kielan Woods, 5 Half Track / Sean Quinlan
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+  - star rows: J Kaus Australis → J Transpluto Dec 48.5448 30×φ golden (77.81) — also: 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+- **Ketu**
+  - same body: S Ketu → H Ketu Dec 30.0072 30 whole (40.95) — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor
+  - star rows: H Kaus Australis → H Ketu RA 110.0193 68×φ golden (61.27) — also: 2 Mister Watson / Kielan Woods
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - same body: S Ketu → J Ketu RA 85.7605 53×φ golden (loose) — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor
+- **Uranus**
+  - top rows: S Jupiter → H Uranus Dec 13.0040 13 whole (64.01) — only
+  - star rows: H Murzim → H Uranus RA 81.9912 82 whole (31.53) — also: 2 Mister Watson / Kielan Woods
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+  - star rows: H Procyon → H Uranus Dec 0.0729 conj (57.32) — also: 3 Gredin / Brian Hughes, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+  - star rows: H Zubeneschamali → H Uranus RA 144.4225 144.444 ninth (97.68) — also: 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+  - star rows: J Acumen → J Uranus Dec 11.0924 φ^5 phi power (92.25) — also: 2 Mister Watson / Kielan Woods, 5 Half Track / Sean Quinlan
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - star rows: J Deneb → J Uranus Dec 68.9867 69 whole (11.15) — also: 3 Gredin / Brian Hughes
+    - source line: S Moon → Deneb Dec 66.6638 66.6667 ninth (97.54)
+  - star rows: J Facies → J Uranus Dec 0.2027 conj (10.52) — also: 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - star rows: J Murzim → J Uranus RA 175.9907 176 whole (28.69) — also: 2 Mister Watson / Kielan Woods
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+  - star rows: J Praesepe → J Uranus Dec 43.6862 27×φ golden (95.48) — also: 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+- **Orcus**
+  - top rows: S Jupiter → H Orcus Dec 0.1612 conj (21.39) — also: 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+  - same body: S Orcus → J Orcus Dec 16.1333 10×φ^1 phi power (loose) — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
+  - star rows: J Deneb → J Orcus RA 179.6308 111×φ golden (1.08) — also: 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → Deneb Dec 66.6638 66.6667 ninth (97.54)
+  - star rows: J Murzim → J Orcus Dec 21.9984 22 whole (84.80) — also: 5 Half Track / Sean Quinlan
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+  - star rows: J Praesepe → J Orcus RA 0.0277 conj (96.34) — only
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+- **Neptune**
+  - top rows: S Sun → H Neptune Dec 0.2754 conj (0.67) — also: 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
+  - star rows: H Murzim → H Neptune RA 116.4790 72×φ golden (15.86) — only
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+  - star rows: H Zubeneschamali → H Neptune Dec 0.1281 conj (32.82) — only
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+  - same body: S Neptune → J Neptune Dec 17.9451 φ^6 phi power (98.27) — also: 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
+  - star rows: J Facies → J Neptune RA 1.4358 conj (0.18) — only
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+- **Eris**
+  - top rows: S Moon → H Eris RA 146.9973 147 whole (74.39) — also: 6 Silva Eclipse / Thomas Willmott
+  - star rows: H Praesepe → H Eris Dec 23.0089 23 whole (30.73) — also: 2 Mister Watson / Kielan Woods, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+  - top rows: S Sun → J Eris RA 46.0041 46 whole (63.57) — only
+  - top rows: S Sun → J Eris Dec 0.1936 conj (12.59) — only
+  - star rows: J Alhena → J Eris Dec 25.9946 26 whole (53.09) — also: 5 Half Track / Sean Quinlan
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - star rows: J El Nath → J Eris RA 59.0153 59 whole (5.56) — also: 4 Mr Washington / Jordan Nailor
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - star rows: J Zubeneschamali → J Eris Dec 0.2131 conj (8.39) — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+- **Venus**
+  - star rows: H Acumen → H Venus RA 105.1569 65×φ golden (27.69) — only
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - star rows: H Deneb → H Venus Dec 41.4214 41.4 silver (99.94) — also: 2 Mister Watson / Kielan Woods, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → Deneb Dec 66.6638 66.6667 ninth (97.54)
+- **Mercury**
+  - star rows: H Al Rescha → H Mercury Dec 21.9907 22 whole (28.37) — also: 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - star rows: J El Nath → J Mercury RA 103.0099 103 whole (25.75) — also: 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+- **Pallas**
+  - star rows: H Alhena → H Pallas Dec 2.9815 3 whole (0.56) — also: 3 Gredin / Brian Hughes
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - star rows: H Zubeneschamali → H Pallas RA 76.9824 77 whole (1.40) — only
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+  - top rows: S Jupiter → J Pallas Dec 0.0151 conj (90.17) — also: 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan
+  - star rows: J Al Rescha → J Pallas RA 15.9876 16 whole (14.31) — only
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - star rows: J Alhena → J Pallas Dec 24.2722 15×φ golden (89.89) — also: 3 Gredin / Brian Hughes
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+- **Sedna**
+  - star rows: H Alhena → H Sedna RA 44.9837 45 whole (3.43) — only
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - star rows: H Mirach → H Sedna RA 37.0115 37 whole (17.95) — only
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+  - top rows: S Jupiter → J Sedna RA 58.2486 36×φ golden (96.32) — only
+  - star rows: J Kaus Australis → J Sedna RA 126.2315 78×φ golden (5.45) — only
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - star rows: J Murzim → J Sedna RA 53.3989 33×φ golden (78.24) — also: 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+- **Quaoar**
+  - star rows: H Alhena → H Quaoar RA 166.6580 166.667 ninth (99.26) — also: 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - star rows: J Deneb → J Quaoar RA 78.0127 78 whole (13.28) — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes
+    - source line: S Moon → Deneb Dec 66.6638 66.6667 ninth (97.54)
+- **Haumea**
+  - star rows: H Kaus Australis → H Haumea RA 66.9889 67 whole (19.92) — only
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - same body: S Haumea → J Haumea RA 30.7423 19×φ golden (97.92) — also: 2 Mister Watson / Kielan Woods, 6 Silva Eclipse / Thomas Willmott
+  - star rows: J El Nath → J Haumea RA 105.1997 65×φ golden (2.25) — also: 2 Mister Watson / Kielan Woods, 5 Half Track / Sean Quinlan
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+- **Sun**
+  - star rows: H Praesepe → H Sun RA 78.0081 78 whole (35.20) — also: 2 Mister Watson / Kielan Woods
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+  - star rows: J Murzim → J Sun Dec 18.8882 18.8889 ninth (99.49) — only
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+  - star rows: J Procyon → J Sun RA 63.0108 63 whole (21.27) — also: 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+- **Pluto**
+  - star rows: H Praesepe → H Pluto RA 153.9868 154 whole (11.63) — also: 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+  - top rows: S Sun → J Pluto RA 110.9919 10×φ^5 phi power (70.10) — also: 4 Mr Washington / Jordan Nailor
+  - star rows: J Al Rescha → J Pluto Dec 4.0075 4 whole (39.13) — also: 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - star rows: J El Nath → J Pluto RA 143.9887 144 whole (19.02) — also: 4 Mr Washington / Jordan Nailor
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+- **Mars**
+  - top rows: S Sun → J Mars RA 155.5616 155.556 ninth (99.42) — also: 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor
+  - star rows: J Al Rescha → J Mars RA 150.4766 93×φ golden (96.57) — only
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - star rows: J Fomalhaut → J Mars RA 163.4247 101×φ golden (80.71) — also: 6 Silva Eclipse / Thomas Willmott
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+- **Saturn**
+  - star rows: J El Nath → J Saturn RA 163.4241 101×φ golden (84.02) — also: 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - star rows: J Facies → J Saturn RA 0.9513 conj (13.38) — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - star rows: J Procyon → J Saturn Dec 27.9928 28 whole (40.65) — only
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+- **Makemake**
+  - star rows: J Facies → J Makemake Dec 59.0138 59 whole (9.49) — only
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - star rows: J Fomalhaut → J Makemake Dec 64.7296 40×φ golden (55.76) — also: 3 Gredin / Brian Hughes
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+  - star rows: J Procyon → J Makemake RA 54.0110 54 whole (20.36) — also: 2 Mister Watson / Kielan Woods
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+- **Vesta**
+  - star rows: J Kaus Australis → J Vesta RA 0.4469 conj (49.29) — also: 4 Mr Washington / Jordan Nailor
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+- **Juno**
+  - star rows: J Murzim → J Juno Dec 17.7707 17.7778 ninth (94.45) — also: 2 Mister Watson / Kielan Woods, 5 Half Track / Sean Quinlan
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
 
 ## 2 Mister Watson / Kielan Woods
 ### L1 same bodies
@@ -317,57 +502,91 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - S Quaoar → J Quaoar RA 40.4474 25×φ golden (loose)
 ### L2 what lands on each same body
 - **H Sun** (same body: S Sun → H Sun Dec 7.0234 7 whole (loose))
-  - star rows: H Acumen → H Sun Dec 17.9812 18 whole (0.34) [Sun]
-  - star rows: H Procyon → H Sun RA 159.0017 159 whole (84.17) [Sun]
-  - other chart, top rows: S Jupiter → J Sun Dec 0.2212 conj (6.90) [Jupiter]
-  - other chart, star rows: J Fomalhaut → J Sun Dec 21.9860 22 whole (8.88) [Jupiter]
-  - other chart, star rows: J Mirach → J Sun RA 179.4325 10×φ^6 phi power (97.74) [Moon]
-  - other chart, star rows: J Praesepe → J Sun RA 67.9832 68 whole (2.58) [Jupiter]
+  - star rows: H Acumen → H Sun Dec 17.9812 18 whole (0.34)
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - star rows: H Procyon → H Sun RA 159.0017 159 whole (84.17)
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+  - other chart, top rows: S Jupiter → J Sun Dec 0.2212 conj (6.90)
+  - other chart, star rows: J Fomalhaut → J Sun Dec 21.9860 22 whole (8.88)
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+  - other chart, star rows: J Mirach → J Sun RA 179.4325 10×φ^6 phi power (97.74)
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+  - other chart, star rows: J Praesepe → J Sun RA 67.9832 68 whole (2.58)
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
 - **H Rahu** (same body: S Rahu → H Rahu RA 155.8261 155.556 ninth (loose))
-  - star rows: H Kaus Australis → H Rahu RA 66.6661 66.6667 ninth (99.50) [Moon]
-  - star rows: H Praesepe → H Rahu Dec 31.9854 32 whole (7.41) [Jupiter]
-  - other chart, top rows: S Jupiter → J Rahu RA 80.9954 81 whole (59.60) [Jupiter]
-  - other chart, star rows: J Kaus Australis → J Rahu RA 13.0100 13 whole (25.13) [Moon]
-  - other chart, star rows: J Kaus Australis → J Rahu Dec 11.0999 φ^5 phi power (68.04) [Moon]
-  - other chart, star rows: J Praesepe → J Rahu RA 133.0081 133 whole (35.61) [Jupiter]
+  - star rows: H Kaus Australis → H Rahu RA 66.6661 66.6667 ninth (99.50)
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - star rows: H Praesepe → H Rahu Dec 31.9854 32 whole (7.41)
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+  - other chart, top rows: S Jupiter → J Rahu RA 80.9954 81 whole (59.60)
+  - other chart, star rows: J Kaus Australis → J Rahu RA 13.0100 13 whole (25.13)
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - other chart, star rows: J Kaus Australis → J Rahu Dec 11.0999 φ^5 phi power (68.04)
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - other chart, star rows: J Praesepe → J Rahu RA 133.0081 133 whole (35.61)
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
 - **H Gonggong** (same body: S Gonggong → H Gonggong RA 1.8781 1.88889 ninth (loose))
-  - body line: S Sun → Gonggong RA 0.2231 conj (72.47)
-  - star rows: H Al Rescha → H Gonggong Dec 16.1877 10×φ^1 phi power (82.72) [Moon]
-  - other chart, top rows: S Sun → J Gonggong RA 6.9982 7 whole (82.92) [Sun]
-  - other chart, star rows: J Alhena → J Gonggong Dec 35.9901 36 whole (25.61) [Sun]
-  - other chart, star rows: J El Nath → J Gonggong RA 112.0199 112 whole (0.00) [Moon]
-  - other chart, star rows: J Zubeneschamali → J Gonggong RA 100.3089 62×φ golden (50.97) [Moon]
+  - sky line to Gonggong: S Sun → Gonggong RA 0.2231 conj (72.47)
+  - star rows: H Al Rescha → H Gonggong Dec 16.1877 10×φ^1 phi power (82.72)
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - other chart, top rows: S Sun → J Gonggong RA 6.9982 7 whole (82.92)
+  - other chart, star rows: J Alhena → J Gonggong Dec 35.9901 36 whole (25.61)
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - other chart, star rows: J El Nath → J Gonggong RA 112.0199 112 whole (0.00)
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - other chart, star rows: J Zubeneschamali → J Gonggong RA 100.3089 62×φ golden (50.97)
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
 - **H Ketu** (same body: S Ketu → H Ketu RA 155.8261 155.556 ninth (loose))
-  - star rows: H Al Rescha → H Ketu RA 1.1397 conj (5.77) [Moon]
-  - other chart, top rows: S Jupiter → J Ketu RA 99.0046 99 whole (59.60) [Jupiter]
-  - other chart, star rows: J Deneb → J Ketu RA 132.6710 82×φ golden (57.84) [Moon]
-  - other chart, star rows: J Deneb → J Ketu Dec 21.9998 22 whole (97.95) [Moon]
-  - other chart, star rows: J El Nath → J Ketu RA 1.4554 conj (0.09) [Moon]
-  - other chart, star rows: J Kaus Australis → J Ketu RA 166.9900 167 whole (25.13) [Moon]
-  - other chart, star rows: J Praesepe → J Ketu RA 46.9919 47 whole (35.61) [Jupiter]
+  - star rows: H Al Rescha → H Ketu RA 1.1397 conj (5.77)
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - other chart, top rows: S Jupiter → J Ketu RA 99.0046 99 whole (59.60)
+  - other chart, star rows: J Deneb → J Ketu RA 132.6710 82×φ golden (57.84)
+    - source line: S Moon → Deneb Dec 66.6638 66.6667 ninth (97.54)
+  - other chart, star rows: J Deneb → J Ketu Dec 21.9998 22 whole (97.95)
+    - source line: S Moon → Deneb Dec 66.6638 66.6667 ninth (97.54)
+  - other chart, star rows: J El Nath → J Ketu RA 1.4554 conj (0.09)
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - other chart, star rows: J Kaus Australis → J Ketu RA 166.9900 167 whole (25.13)
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - other chart, star rows: J Praesepe → J Ketu RA 46.9919 47 whole (35.61)
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
 - **J Pluto** (same body: S Pluto → J Pluto Dec 18.0214 18 whole (loose))
-  - top rows: S Jupiter → J Pluto RA 111.1150 111.111 ninth (99.37) [Jupiter]
+  - top rows: S Jupiter → J Pluto RA 111.1150 111.111 ninth (99.37)
 - **J Chiron** (same body: S Chiron → J Chiron RA 133.1068 133.333 ninth (loose))
-  - star rows: J Acumen → J Chiron RA 126.9989 127 whole (89.63) [Sun]
-  - star rows: J Al Rescha → J Chiron RA 110.9441 10×φ^5 phi power (85.28) [Moon]
-  - star rows: J Facies → J Chiron Dec 32.3684 20×φ golden (57.86) [Moon]
-  - other chart, top rows: S Jupiter → H Chiron Dec 5.0024 5 whole (77.66) [Jupiter]
+  - star rows: J Acumen → J Chiron RA 126.9989 127 whole (89.63)
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - star rows: J Al Rescha → J Chiron RA 110.9441 10×φ^5 phi power (85.28)
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - star rows: J Facies → J Chiron Dec 32.3684 20×φ golden (57.86)
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - other chart, top rows: S Jupiter → H Chiron Dec 5.0024 5 whole (77.66)
 - **J Pallas** (same body: S Pallas → J Pallas Dec 15.4903 15.5556 ninth (loose))
-  - star rows: J Acumen → J Pallas RA 0.5927 conj (36.59) [Sun]
-  - star rows: J Kaus Australis → J Pallas RA 6.9887 7 whole (18.88) [Moon]
+  - star rows: J Acumen → J Pallas RA 0.5927 conj (36.59)
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - star rows: J Kaus Australis → J Pallas RA 6.9887 7 whole (18.88)
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
 - **J Haumea** (same body: S Haumea → J Haumea RA 27.5309 17×φ golden (loose))
-  - star rows: J El Nath → J Haumea RA 108.4087 67×φ golden (97.18) [Moon]
+  - star rows: J El Nath → J Haumea RA 108.4087 67×φ golden (97.18)
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
 - **J Orcus** (same body: S Orcus → J Orcus Dec 14.4195 14.4444 ninth (loose))
-  - other chart, star rows: H Facies → H Orcus RA 129.0184 129 whole (0.67) [Moon]
+  - other chart, star rows: H Facies → H Orcus RA 129.0184 129 whole (0.67)
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
 - **J Quaoar** (same body: S Quaoar → J Quaoar RA 40.4474 25×φ golden (loose))
-  - star rows: J Acumen → J Quaoar RA 31.9950 32 whole (56.30) [Sun]
-  - star rows: J Acumen → J Quaoar Dec 21.0382 13×φ golden (77.93) [Sun]
-  - star rows: J El Nath → J Quaoar Dec 42.3636 10×φ^3 phi power (97.28) [Moon]
-  - star rows: J Murzim → J Quaoar RA 140.7884 87×φ golden (15.90) [Jupiter]
-  - star rows: J Procyon → J Quaoar Dec 18.9848 19 whole (5.70) [Sun]
-  - other chart, star rows: H Deneb → H Quaoar Dec 61.0181 61 whole (0.94) [Moon]
-  - other chart, star rows: H Praesepe → H Quaoar RA 135.9282 84×φ golden (34.39) [Jupiter]
-### L3 the seven cases (L5 field tag on each)
+  - star rows: J Acumen → J Quaoar RA 31.9950 32 whole (56.30)
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - star rows: J Acumen → J Quaoar Dec 21.0382 13×φ golden (77.93)
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - star rows: J El Nath → J Quaoar Dec 42.3636 10×φ^3 phi power (97.28)
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - star rows: J Murzim → J Quaoar RA 140.7884 87×φ golden (15.90)
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+  - star rows: J Procyon → J Quaoar Dec 18.9848 19 whole (5.70)
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+  - other chart, star rows: H Deneb → H Quaoar Dec 61.0181 61 whole (0.94)
+    - source line: S Moon → Deneb Dec 66.6638 66.6667 ninth (97.54)
+  - other chart, star rows: H Praesepe → H Quaoar RA 135.9282 84×φ golden (34.39)
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+### L3 matches
 - **1. same body on both charts**: none
 - **2. one body in both planes**: none
 - **3. runner number = sky number**
@@ -384,20 +603,31 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 13 whole — also: 1 Boss Man Fred / Harry Skelton, 6 Silva Eclipse / Thomas Willmott
     - J Kaus Australis → J Rahu RA 13.0100 13 whole (25.13) = S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
 - **4. circle divisions**
-  - 5 = 360/72 — also: 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+  - 5 = 360/72 — also: 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
     - S Jupiter → H Chiron Dec 5.0024 5 whole (77.66)
   - 15 = 360/24 — also: 3 Gredin / Brian Hughes
     - S Sedna → H Jupiter Dec 15.0052 15 whole (54.50)
+  - 18 = 360/20 — also: 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor
+    - H Acumen → H Sun Dec 17.9812 18 whole (0.34)
+  - 8 = 360/45 — also: 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
+    - H Facies → H Venus Dec 7.9822 8 whole (1.27)
+  - 20 = 360/18 — also: 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+    - H Praesepe → H Ceres Dec 19.9938 20 whole (47.32)
   - 90 = 360/4 — only
     - H Procyon → H Eris RA 89.9948 90 whole (54.51)
-  - 18 = 360/20 — also: 3 Gredin / Brian Hughes
+  - 18 = 360/20 — also: 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor
     - S Pluto → J Pluto Dec 18.0214 18 whole (loose)
-  - 5 = 360/72 — also: 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+  - 5 = 360/72 — also: 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
     - S Chiron → J Jupiter Dec 5.0056 5 whole (51.50)
+  - 36 = 360/10 — only
+    - J Alhena → J Gonggong Dec 35.9901 36 whole (25.61)
+  - 15 = 360/24 — also: 3 Gredin / Brian Hughes
+    - J Facies → J Eris Dec 14.9931 15 whole (43.10)
 - **5. same number in more than one place**
-  - 7 whole — only
+  - 7 whole — also: 4 Mr Washington / Jordan Nailor
     - S Sun → H Sun Dec 7.0234 7 whole (loose)
     - S Sun → J Gonggong RA 6.9982 7 whole (82.92)
+    - J Kaus Australis → J Pallas RA 6.9887 7 whole (18.88)
   - 155.556 ninth — only
     - S Rahu → H Rahu RA 155.8261 155.556 ninth (loose)
     - S Ketu → H Ketu RA 155.8261 155.556 ninth (loose)
@@ -406,119 +636,242 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 47 whole — only
     - H Jupiter → H star Facies Dec 47.0041 47 whole (62.89)
     - S Facies → H Jupiter Dec 47.0040 47 whole (63.67)
-  - 5 whole — also: 3 Gredin / Brian Hughes, 6 Silva Eclipse / Thomas Willmott
+    - J Praesepe → J Ketu RA 46.9919 47 whole (35.61)
+  - 5 whole — also: 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
     - S Jupiter → H Chiron Dec 5.0024 5 whole (77.66)
     - S Chiron → J Jupiter Dec 5.0056 5 whole (51.50)
+  - 15 whole — only
+    - S Sedna → H Jupiter Dec 15.0052 15 whole (54.50)
+    - J Facies → J Eris Dec 14.9931 15 whole (43.10)
+  - 18 whole — also: 3 Gredin / Brian Hughes
+    - H Acumen → H Sun Dec 17.9812 18 whole (0.34)
+    - S Pluto → J Pluto Dec 18.0214 18 whole (loose)
+  - 62×φ golden — only
+    - H Acumen → H Uranus RA 100.3500 62×φ golden (0.02)
+    - J Zubeneschamali → J Gonggong RA 100.3089 62×φ golden (50.97)
+  - 61 whole — only
+    - H Acumen → H Makemake Dec 61.0175 61 whole (1.58)
+    - H Deneb → H Quaoar Dec 61.0181 61 whole (0.94)
   - 10×φ^1 phi power — only
     - H Al Rescha → H Gonggong Dec 16.1877 10×φ^1 phi power (82.72)
     - S Quaoar → J Jupiter Dec 16.1895 10×φ^1 phi power (78.54)
   - 13×φ golden — also: 4 Mr Washington / Jordan Nailor
     - H Murzim → H Uranus Dec 21.0318 13×φ golden (84.56)
     - J Acumen → J Quaoar Dec 21.0382 13×φ golden (77.93)
-- **6. star and sky line on one body**: none
-- **7. centres meeting**
-  - Gonggong: Moon, Sun — also: 6 Silva Eclipse / Thomas Willmott
-    - [Moon] H Al Rescha → H Gonggong Dec 16.1877 10×φ^1 phi power (82.72)
-    - [Moon] J El Nath → J Gonggong RA 112.0199 112 whole (0.00)
-    - [Moon] J Zubeneschamali → J Gonggong RA 100.3089 62×φ golden (50.97)
-    - [Sun] S Gonggong → H Gonggong RA 1.8781 1.88889 ninth (loose)
-    - [Sun] S Sun → J Gonggong RA 6.9982 7 whole (82.92)
-    - [Sun] J Alhena → J Gonggong Dec 35.9901 36 whole (25.61)
-  - Mars: Jupiter, Moon — also: 5 Half Track / Sean Quinlan
-    - [Jupiter] S Jupiter → H Mars RA 141.4538 141.4 sqrt2 (91.04)
-    - [Jupiter] S Jupiter → J Mars RA 122.9909 φ^10 phi power (99.67)
-    - [Jupiter] J Praesepe → J Mars RA 23.0056 23 whole (51.57)
-    - [Moon] H Deneb → H Mars Dec 51.9844 52 whole (4.79)
-    - [Moon] H El Nath → H Mars RA 120.9958 121 whole (62.47)
-    - [Moon] J Zubeneschamali → J Mars RA 122.2296 122.222 ninth (98.98)
-  - Chiron: Jupiter, Moon, Sun — also: 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
-    - [Jupiter] S Jupiter → H Chiron Dec 5.0024 5 whole (77.66)
-    - [Moon] J Al Rescha → J Chiron RA 110.9441 10×φ^5 phi power (85.28)
-    - [Moon] J Facies → J Chiron Dec 32.3684 20×φ golden (57.86)
-    - [Sun] J Acumen → J Chiron RA 126.9989 127 whole (89.63)
-  - Jupiter: Jupiter, Moon — also: 3 Gredin / Brian Hughes, 6 Silva Eclipse / Thomas Willmott
-    - [Jupiter] S Eris → H Jupiter RA 77.0055 77 whole (52.21)
-    - [Jupiter] S Sedna → H Jupiter Dec 15.0052 15 whole (54.50)
-    - [Jupiter] S Chiron → J Jupiter Dec 5.0056 5 whole (51.50)
-    - [Jupiter] S Juno → J Jupiter RA 127.8166 79×φ golden (56.19)
-    - [Jupiter] S Vesta → J Jupiter RA 112.9958 113 whole (62.75)
-    - [Jupiter] S Orcus → J Jupiter RA 24.2750 15×φ golden (74.17)
-    - [Jupiter] S Quaoar → J Jupiter Dec 16.1895 10×φ^1 phi power (78.54)
-    - [Moon] S Facies → H Jupiter Dec 47.0040 47 whole (63.67)
-    - [Moon] S Kaus Australis → H Jupiter RA 173.1088 107×φ golden (12.60)
-    - [Moon] S Deneb → J Jupiter RA 129.4563 80×φ golden (33.54)
-  - Sun: Jupiter, Moon, Sun — also: 3 Gredin / Brian Hughes, 6 Silva Eclipse / Thomas Willmott
-    - [Jupiter] S Jupiter → J Sun Dec 0.2212 conj (6.90)
-    - [Jupiter] J Fomalhaut → J Sun Dec 21.9860 22 whole (8.88)
-    - [Jupiter] J Praesepe → J Sun RA 67.9832 68 whole (2.58)
-    - [Moon] J Mirach → J Sun RA 179.4325 10×φ^6 phi power (97.74)
-    - [Sun] H Acumen → H Sun Dec 17.9812 18 whole (0.34)
-    - [Sun] H Procyon → H Sun RA 159.0017 159 whole (84.17)
-  - Mercury: Jupiter, Sun — only
-    - [Jupiter] H Fomalhaut → H Mercury Dec 19.4190 12×φ golden (84.36)
-    - [Sun] H Acumen → H Mercury RA 64.7202 40×φ golden (93.16)
-    - [Sun] J Procyon → J Mercury RA 100.0157 100 whole (4.65)
-  - Uranus: Jupiter, Moon, Sun — also: 1 Boss Man Fred / Harry Skelton, 6 Silva Eclipse / Thomas Willmott
-    - [Jupiter] H Murzim → H Uranus Dec 21.0318 13×φ golden (84.56)
-    - [Jupiter] J Praesepe → J Uranus RA 155.5552 155.556 ninth (99.97)
-    - [Moon] J El Nath → J Uranus RA 155.9975 156 whole (76.25)
-    - [Sun] H Acumen → H Uranus RA 100.3500 62×φ golden (0.02)
-  - Makemake: Moon, Sun — also: 4 Mr Washington / Jordan Nailor
-    - [Moon] J Kaus Australis → J Makemake RA 103.5567 64×φ golden (85.12)
-    - [Sun] H Acumen → H Makemake Dec 61.0175 61 whole (1.58)
-    - [Sun] H Procyon → H Makemake Dec 21.0055 21 whole (52.83)
-  - Ketu: Jupiter, Moon — also: 4 Mr Washington / Jordan Nailor
-    - [Jupiter] S Jupiter → J Ketu RA 99.0046 99 whole (59.60)
-    - [Jupiter] J Praesepe → J Ketu RA 46.9919 47 whole (35.61)
-    - [Moon] H Al Rescha → H Ketu RA 1.1397 conj (5.77)
-    - [Moon] J Deneb → J Ketu RA 132.6710 82×φ golden (57.84)
-    - [Moon] J Deneb → J Ketu Dec 21.9998 22 whole (97.95)
-    - [Moon] J El Nath → J Ketu RA 1.4554 conj (0.09)
-    - [Moon] J Kaus Australis → J Ketu RA 166.9900 167 whole (25.13)
-  - Quaoar: Jupiter, Moon, Sun — also: 4 Mr Washington / Jordan Nailor
-    - [Jupiter] H Praesepe → H Quaoar RA 135.9282 84×φ golden (34.39)
-    - [Jupiter] J Murzim → J Quaoar RA 140.7884 87×φ golden (15.90)
-    - [Moon] H Deneb → H Quaoar Dec 61.0181 61 whole (0.94)
-    - [Moon] J El Nath → J Quaoar Dec 42.3636 10×φ^3 phi power (97.28)
-    - [Sun] J Acumen → J Quaoar RA 31.9950 32 whole (56.30)
-    - [Sun] J Acumen → J Quaoar Dec 21.0382 13×φ golden (77.93)
-    - [Sun] J Procyon → J Quaoar Dec 18.9848 19 whole (5.70)
-  - Transpluto: Jupiter, Moon — also: 6 Silva Eclipse / Thomas Willmott
-    - [Jupiter] H Fomalhaut → H Transpluto Dec 40.9993 41 whole (93.40)
-    - [Moon] H Deneb → H Transpluto RA 157.9928 158 whole (41.11)
-    - [Moon] J Al Rescha → J Transpluto Dec 10.9910 11 whole (30.20)
-  - Venus: Jupiter, Moon — only
-    - [Jupiter] J Murzim → J Venus RA 133.0013 133 whole (87.41)
-    - [Moon] H Facies → H Venus Dec 7.9822 8 whole (1.27)
-    - [Moon] J Al Rescha → J Venus RA 161.8391 100×φ^1 phi power (91.38)
-    - [Moon] J Deneb → J Venus Dec 63.9973 64 whole (74.45)
-    - [Moon] J Zubeneschamali → J Venus RA 0.5694 conj (38.49)
-  - Rahu: Jupiter, Moon — only
-    - [Jupiter] H Praesepe → H Rahu Dec 31.9854 32 whole (7.41)
-    - [Jupiter] S Jupiter → J Rahu RA 80.9954 81 whole (59.60)
-    - [Jupiter] J Praesepe → J Rahu RA 133.0081 133 whole (35.61)
-    - [Moon] H Kaus Australis → H Rahu RA 66.6661 66.6667 ninth (99.50)
-    - [Moon] J Kaus Australis → J Rahu RA 13.0100 13 whole (25.13)
-    - [Moon] J Kaus Australis → J Rahu Dec 11.0999 φ^5 phi power (68.04)
-  - Sedna: Jupiter, Sun — only
-    - [Jupiter] H Murzim → H Sedna RA 41.9878 42 whole (15.34)
-    - [Sun] S Sun → J Sedna RA 66.9942 67 whole (50.30)
-  - Eris: Jupiter, Moon, Sun — also: 1 Boss Man Fred / Harry Skelton, 5 Half Track / Sean Quinlan
-    - [Jupiter] H Praesepe → H Eris RA 105.1976 65×φ golden (4.60)
-    - [Moon] H Zubeneschamali → H Eris RA 155.5827 155.556 ninth (97.42)
-    - [Moon] J Facies → J Eris Dec 14.9931 15 whole (43.10)
-    - [Sun] H Procyon → H Eris RA 89.9948 90 whole (54.51)
-    - [Sun] J Acumen → J Eris Dec 25.8826 16×φ golden (66.53)
-    - [Sun] J Procyon → J Eris Dec 14.1404 14.14 sqrt2 (95.24)
-  - Saturn: Jupiter, Moon — also: 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
-    - [Jupiter] J Murzim → J Saturn RA 140.9828 141 whole (1.95)
-    - [Jupiter] J Murzim → J Saturn Dec 0.2618 conj (1.62)
-    - [Moon] H Zubeneschamali → H Saturn RA 1.3859 conj (0.58)
-    - [Moon] S Moon → J Saturn RA 76.0487 47×φ golden (93.38)
-    - [Moon] J Facies → J Saturn RA 35.5953 22×φ golden (91.09)
-  - Pallas: Moon, Sun — also: 6 Silva Eclipse / Thomas Willmott
-    - [Moon] J Kaus Australis → J Pallas RA 6.9887 7 whole (18.88)
-    - [Sun] J Acumen → J Pallas RA 0.5927 conj (36.59)
+  - 32 whole — also: 4 Mr Washington / Jordan Nailor
+    - H Praesepe → H Rahu Dec 31.9854 32 whole (7.41)
+    - J Acumen → J Quaoar RA 31.9950 32 whole (56.30)
+  - 22 whole — also: 1 Boss Man Fred / Harry Skelton, 6 Silva Eclipse / Thomas Willmott
+    - J Deneb → J Ketu Dec 21.9998 22 whole (97.95)
+    - J Fomalhaut → J Sun Dec 21.9860 22 whole (8.88)
+  - 133 whole — only
+    - J Murzim → J Venus RA 133.0013 133 whole (87.41)
+    - J Praesepe → J Rahu RA 133.0081 133 whole (35.61)
+### L4 every natal body
+- **Sun**
+  - same body: S Sun → H Sun Dec 7.0234 7 whole (loose) — also: 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
+  - star rows: H Acumen → H Sun Dec 17.9812 18 whole (0.34) — only
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - star rows: H Procyon → H Sun RA 159.0017 159 whole (84.17) — also: 1 Boss Man Fred / Harry Skelton, 4 Mr Washington / Jordan Nailor
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+  - top rows: S Jupiter → J Sun Dec 0.2212 conj (6.90) — only
+  - star rows: J Fomalhaut → J Sun Dec 21.9860 22 whole (8.88) — also: 3 Gredin / Brian Hughes, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+  - star rows: J Mirach → J Sun RA 179.4325 10×φ^6 phi power (97.74) — also: 3 Gredin / Brian Hughes, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+  - star rows: J Praesepe → J Sun RA 67.9832 68 whole (2.58) — also: 1 Boss Man Fred / Harry Skelton
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+- **Rahu**
+  - same body: S Rahu → H Rahu RA 155.8261 155.556 ninth (loose) — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor
+  - star rows: H Kaus Australis → H Rahu RA 66.6661 66.6667 ninth (99.50) — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - star rows: H Praesepe → H Rahu Dec 31.9854 32 whole (7.41) — also: 1 Boss Man Fred / Harry Skelton
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+  - top rows: S Jupiter → J Rahu RA 80.9954 81 whole (59.60) — also: 3 Gredin / Brian Hughes
+  - star rows: J Kaus Australis → J Rahu RA 13.0100 13 whole (25.13) — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - star rows: J Kaus Australis → J Rahu Dec 11.0999 φ^5 phi power (68.04) — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - star rows: J Praesepe → J Rahu RA 133.0081 133 whole (35.61) — also: 1 Boss Man Fred / Harry Skelton
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+- **Gonggong**
+  - same body: S Gonggong → H Gonggong RA 1.8781 1.88889 ninth (loose) — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Sun → Gonggong RA 0.2231 conj (72.47)
+  - star rows: H Al Rescha → H Gonggong Dec 16.1877 10×φ^1 phi power (82.72) — also: 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - top rows: S Sun → J Gonggong RA 6.9982 7 whole (82.92) — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+  - star rows: J Alhena → J Gonggong Dec 35.9901 36 whole (25.61) — also: 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - star rows: J El Nath → J Gonggong RA 112.0199 112 whole (0.00) — also: 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - star rows: J Zubeneschamali → J Gonggong RA 100.3089 62×φ golden (50.97) — also: 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+- **Ketu**
+  - same body: S Ketu → H Ketu RA 155.8261 155.556 ninth (loose) — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor
+  - star rows: H Al Rescha → H Ketu RA 1.1397 conj (5.77) — also: 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - top rows: S Jupiter → J Ketu RA 99.0046 99 whole (59.60) — only
+  - star rows: J Deneb → J Ketu RA 132.6710 82×φ golden (57.84) — also: 5 Half Track / Sean Quinlan
+    - source line: S Moon → Deneb Dec 66.6638 66.6667 ninth (97.54)
+  - star rows: J Deneb → J Ketu Dec 21.9998 22 whole (97.95) — also: 5 Half Track / Sean Quinlan
+    - source line: S Moon → Deneb Dec 66.6638 66.6667 ninth (97.54)
+  - star rows: J El Nath → J Ketu RA 1.4554 conj (0.09) — only
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - star rows: J Kaus Australis → J Ketu RA 166.9900 167 whole (25.13) — also: 1 Boss Man Fred / Harry Skelton
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - star rows: J Praesepe → J Ketu RA 46.9919 47 whole (35.61) — also: 6 Silva Eclipse / Thomas Willmott
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+- **Jupiter**
+  - T1: H Jupiter → H star Facies Dec 47.0041 47 whole (62.89) — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+  - top rows: S Eris → H Jupiter RA 77.0055 77 whole (52.21) — also: 3 Gredin / Brian Hughes, 6 Silva Eclipse / Thomas Willmott
+  - top rows: S Sedna → H Jupiter Dec 15.0052 15 whole (54.50) — also: 1 Boss Man Fred / Harry Skelton
+  - star rows: S Facies → H Jupiter Dec 47.0040 47 whole (63.67) — also: 4 Mr Washington / Jordan Nailor
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - star rows: S Kaus Australis → H Jupiter RA 173.1088 107×φ golden (12.60) — also: 3 Gredin / Brian Hughes
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - top rows: S Chiron → J Jupiter Dec 5.0056 5 whole (51.50) — only
+  - top rows: S Juno → J Jupiter RA 127.8166 79×φ golden (56.19) — only
+  - top rows: S Vesta → J Jupiter RA 112.9958 113 whole (62.75) — only
+  - top rows: S Orcus → J Jupiter RA 24.2750 15×φ golden (74.17) — only
+  - top rows: S Quaoar → J Jupiter Dec 16.1895 10×φ^1 phi power (78.54) — only
+  - star rows: S Deneb → J Jupiter RA 129.4563 80×φ golden (33.54) — only
+    - source line: S Moon → Deneb Dec 66.6638 66.6667 ninth (97.54)
+- **Mars**
+  - top rows: S Jupiter → H Mars RA 141.4538 141.4 sqrt2 (91.04) — also: 5 Half Track / Sean Quinlan
+  - star rows: H Deneb → H Mars Dec 51.9844 52 whole (4.79) — only
+    - source line: S Moon → Deneb Dec 66.6638 66.6667 ninth (97.54)
+  - star rows: H El Nath → H Mars RA 120.9958 121 whole (62.47) — only
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - top rows: S Jupiter → J Mars RA 122.9909 φ^10 phi power (99.67) — also: 5 Half Track / Sean Quinlan
+  - star rows: J Praesepe → J Mars RA 23.0056 23 whole (51.57) — only
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+  - star rows: J Zubeneschamali → J Mars RA 122.2296 122.222 ninth (98.98) — also: 3 Gredin / Brian Hughes, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+- **Chiron**
+  - top rows: S Jupiter → H Chiron Dec 5.0024 5 whole (77.66) — also: 5 Half Track / Sean Quinlan
+  - same body: S Chiron → J Chiron RA 133.1068 133.333 ninth (loose) — also: 1 Boss Man Fred / Harry Skelton, 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
+  - star rows: J Acumen → J Chiron RA 126.9989 127 whole (89.63) — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - star rows: J Al Rescha → J Chiron RA 110.9441 10×φ^5 phi power (85.28) — only
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - star rows: J Facies → J Chiron Dec 32.3684 20×φ golden (57.86) — also: 5 Half Track / Sean Quinlan
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+- **Neptune**
+  - top rows: S Sun → H Neptune RA 0.3654 conj (57.21) — also: 1 Boss Man Fred / Harry Skelton, 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
+  - star rows: H Acumen → H Neptune Dec 24.1455 24.14 silver (94.44) — also: 5 Half Track / Sean Quinlan
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+- **Mercury**
+  - star rows: H Acumen → H Mercury RA 64.7202 40×φ golden (93.16) — also: 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - star rows: H Fomalhaut → H Mercury Dec 19.4190 12×φ golden (84.36) — also: 5 Half Track / Sean Quinlan
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+  - star rows: J Procyon → J Mercury RA 100.0157 100 whole (4.65) — also: 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+- **Uranus**
+  - star rows: H Acumen → H Uranus RA 100.3500 62×φ golden (0.02) — also: 1 Boss Man Fred / Harry Skelton, 5 Half Track / Sean Quinlan
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - star rows: H Murzim → H Uranus Dec 21.0318 13×φ golden (84.56) — also: 1 Boss Man Fred / Harry Skelton
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+  - star rows: J El Nath → J Uranus RA 155.9975 156 whole (76.25) — also: 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - star rows: J Praesepe → J Uranus RA 155.5552 155.556 ninth (99.97) — also: 1 Boss Man Fred / Harry Skelton, 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+- **Makemake**
+  - star rows: H Acumen → H Makemake Dec 61.0175 61 whole (1.58) — only
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - star rows: H Procyon → H Makemake Dec 21.0055 21 whole (52.83) — also: 1 Boss Man Fred / Harry Skelton
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+  - star rows: J Kaus Australis → J Makemake RA 103.5567 64×φ golden (85.12) — also: 4 Mr Washington / Jordan Nailor
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+- **Quaoar**
+  - star rows: H Deneb → H Quaoar Dec 61.0181 61 whole (0.94) — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes
+    - source line: S Moon → Deneb Dec 66.6638 66.6667 ninth (97.54)
+  - star rows: H Praesepe → H Quaoar RA 135.9282 84×φ golden (34.39) — only
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+  - same body: S Quaoar → J Quaoar RA 40.4474 25×φ golden (loose) — also: 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+  - star rows: J Acumen → J Quaoar RA 31.9950 32 whole (56.30) — also: 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - star rows: J Acumen → J Quaoar Dec 21.0382 13×φ golden (77.93) — also: 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - star rows: J El Nath → J Quaoar Dec 42.3636 10×φ^3 phi power (97.28) — also: 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - star rows: J Murzim → J Quaoar RA 140.7884 87×φ golden (15.90) — only
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+  - star rows: J Procyon → J Quaoar Dec 18.9848 19 whole (5.70) — also: 6 Silva Eclipse / Thomas Willmott
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+- **Transpluto**
+  - star rows: H Deneb → H Transpluto RA 157.9928 158 whole (41.11) — also: 4 Mr Washington / Jordan Nailor
+    - source line: S Moon → Deneb Dec 66.6638 66.6667 ninth (97.54)
+  - star rows: H Fomalhaut → H Transpluto Dec 40.9993 41 whole (93.40) — also: 1 Boss Man Fred / Harry Skelton, 5 Half Track / Sean Quinlan
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+  - star rows: J Al Rescha → J Transpluto Dec 10.9910 11 whole (30.20) — also: 5 Half Track / Sean Quinlan
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+- **Venus**
+  - star rows: H Facies → H Venus Dec 7.9822 8 whole (1.27) — only
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - star rows: J Al Rescha → J Venus RA 161.8391 100×φ^1 phi power (91.38) — also: 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - star rows: J Deneb → J Venus Dec 63.9973 64 whole (74.45) — also: 1 Boss Man Fred / Harry Skelton, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → Deneb Dec 66.6638 66.6667 ninth (97.54)
+  - star rows: J Murzim → J Venus RA 133.0013 133 whole (87.41) — only
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+  - star rows: J Zubeneschamali → J Venus RA 0.5694 conj (38.49) — only
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+- **Orcus**
+  - star rows: H Facies → H Orcus RA 129.0184 129 whole (0.67) — also: 3 Gredin / Brian Hughes
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - same body: S Orcus → J Orcus Dec 14.4195 14.4444 ninth (loose) — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
+- **Ceres**
+  - star rows: H Murzim → H Ceres Dec 17.9465 φ^6 phi power (95.10) — only
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+  - star rows: H Praesepe → H Ceres Dec 19.9938 20 whole (47.32) — only
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+- **Juno**
+  - star rows: H Murzim → H Juno RA 109.0052 109 whole (55.13) — also: 1 Boss Man Fred / Harry Skelton, 5 Half Track / Sean Quinlan
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+  - top rows: S Jupiter → J Juno Dec 14.5635 9×φ golden (92.95) — also: 3 Gredin / Brian Hughes
+  - star rows: J Murzim → J Juno RA 1.0797 conj (7.85) — also: 1 Boss Man Fred / Harry Skelton, 5 Half Track / Sean Quinlan
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+- **Sedna**
+  - star rows: H Murzim → H Sedna RA 41.9878 42 whole (15.34) — also: 1 Boss Man Fred / Harry Skelton, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+  - top rows: S Sun → J Sedna RA 66.9942 67 whole (50.30) — only
+- **Eris**
+  - star rows: H Praesepe → H Eris RA 105.1976 65×φ golden (4.60) — also: 1 Boss Man Fred / Harry Skelton, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+  - star rows: H Procyon → H Eris RA 89.9948 90 whole (54.51) — only
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+  - star rows: H Zubeneschamali → H Eris RA 155.5827 155.556 ninth (97.42) — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+  - star rows: J Acumen → J Eris Dec 25.8826 16×φ golden (66.53) — only
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - star rows: J Facies → J Eris Dec 14.9931 15 whole (43.10) — also: 3 Gredin / Brian Hughes, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - star rows: J Procyon → J Eris Dec 14.1404 14.14 sqrt2 (95.24) — only
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+- **Saturn**
+  - star rows: H Zubeneschamali → H Saturn RA 1.3859 conj (0.58) — also: 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+  - top rows: S Moon → J Saturn RA 76.0487 47×φ golden (93.38) — also: 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+  - star rows: J Facies → J Saturn RA 35.5953 22×φ golden (91.09) — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - star rows: J Murzim → J Saturn RA 140.9828 141 whole (1.95) — only
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+  - star rows: J Murzim → J Saturn Dec 0.2618 conj (1.62) — only
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+- **Pluto**
+  - same body: S Pluto → J Pluto Dec 18.0214 18 whole (loose) — also: 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+  - top rows: S Jupiter → J Pluto RA 111.1150 111.111 ninth (99.37) — also: 5 Half Track / Sean Quinlan
+- **Pallas**
+  - same body: S Pallas → J Pallas Dec 15.4903 15.5556 ninth (loose) — also: 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor
+  - star rows: J Acumen → J Pallas RA 0.5927 conj (36.59) — only
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - star rows: J Kaus Australis → J Pallas RA 6.9887 7 whole (18.88) — also: 4 Mr Washington / Jordan Nailor
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+- **Haumea**
+  - same body: S Haumea → J Haumea RA 27.5309 17×φ golden (loose) — also: 1 Boss Man Fred / Harry Skelton, 6 Silva Eclipse / Thomas Willmott
+  - star rows: J El Nath → J Haumea RA 108.4087 67×φ golden (97.18) — also: 1 Boss Man Fred / Harry Skelton, 5 Half Track / Sean Quinlan
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
 
 ## 3 Gredin / Brian Hughes
 ### L1 same bodies
@@ -540,81 +893,127 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - S Ketu → J Ketu Dec 2.0243 2 whole (loose)
 ### L2 what lands on each same body
 - **H Mars** (same body: S Mars → H Mars Dec 5.9980 6 whole (80.63))
-  - star rows: H Zubeneschamali → H Mars RA 1.0435 conj (9.26) [Moon]
-  - other chart, top rows: S Sun → J Mars Dec 34.0055 34 whole (52.76) [Sun]
-  - other chart, star rows: J Acumen → J Mars Dec 59.0108 59 whole (21.03) [Sun]
-  - other chart, star rows: J Facies → J Mars RA 176.9968 177 whole (70.68) [Moon]
-  - other chart, star rows: J Murzim → J Mars RA 0.4333 conj (50.57) [Jupiter]
-  - other chart, star rows: J Procyon → J Mars Dec 18.9882 19 whole (16.85) [Sun]
+  - star rows: H Zubeneschamali → H Mars RA 1.0435 conj (9.26)
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+  - other chart, top rows: S Sun → J Mars Dec 34.0055 34 whole (52.76)
+  - other chart, star rows: J Acumen → J Mars Dec 59.0108 59 whole (21.03)
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - other chart, star rows: J Facies → J Mars RA 176.9968 177 whole (70.68)
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - other chart, star rows: J Murzim → J Mars RA 0.4333 conj (50.57)
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+  - other chart, star rows: J Procyon → J Mars Dec 18.9882 19 whole (16.85)
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
 - **H Orcus** (same body: S Orcus → H Orcus RA 4.9867 5 whole (11.17))
-  - star rows: H Facies → H Orcus Dec 14.5632 9×φ golden (94.61) [Moon]
-  - star rows: H Procyon → H Orcus Dec 14.5605 9×φ golden (89.34) [Sun]
-  - star rows: H Zubeneschamali → H Orcus Dec 0.0421 conj (73.90) [Moon]
+  - star rows: H Facies → H Orcus Dec 14.5632 9×φ golden (94.61)
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - star rows: H Procyon → H Orcus Dec 14.5605 9×φ golden (89.34)
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+  - star rows: H Zubeneschamali → H Orcus Dec 0.0421 conj (73.90)
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
   - other chart, same body: S Orcus → J Orcus Dec 18.7662 18.8889 ninth (loose)
-  - other chart, star rows: J Al Rescha → J Orcus RA 94.0042 94 whole (62.51) [Moon]
+  - other chart, star rows: J Al Rescha → J Orcus RA 94.0042 94 whole (62.51)
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
 - **J Uranus** (same body: S Uranus → J Uranus RA 144.2324 144.444 ninth (loose))
-  - star rows: J Deneb → J Uranus Dec 67.9876 68 whole (14.62) [Moon]
-  - other chart, top rows: S Moon → H Uranus RA 137.5423 85×φ golden (50.41) [Moon]
-  - other chart, star rows: H Mirach → H Uranus RA 1.2431 conj (2.93) [Moon]
-  - other chart, star rows: H Procyon → H Uranus Dec 1.0123 1 whole (14.77) [Sun]
+  - star rows: J Deneb → J Uranus Dec 67.9876 68 whole (14.62)
+    - source line: S Moon → Deneb Dec 66.6638 66.6667 ninth (97.54)
+  - other chart, top rows: S Moon → H Uranus RA 137.5423 85×φ golden (50.41)
+  - other chart, star rows: H Mirach → H Uranus RA 1.2431 conj (2.93)
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+  - other chart, star rows: H Procyon → H Uranus Dec 1.0123 1 whole (14.77)
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
 - **J Neptune** (same body: S Neptune → J Neptune Dec 18.0101 18 whole (24.53))
-  - star rows: J Al Rescha → J Neptune Dec 25.0151 25 whole (6.00) [Moon]
-  - star rows: J Procyon → J Neptune RA 158.0029 158 whole (73.11) [Sun]
-  - other chart, star rows: H El Nath → H Neptune RA 101.0053 101 whole (53.77) [Moon]
+  - star rows: J Al Rescha → J Neptune Dec 25.0151 25 whole (6.00)
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - star rows: J Procyon → J Neptune RA 158.0029 158 whole (73.11)
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+  - other chart, star rows: H El Nath → H Neptune RA 101.0053 101 whole (53.77)
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
 - **J Pallas** (same body: S Pallas → J Pallas RA 41.9801 42 whole (0.00))
-  - star rows: J Alhena → J Pallas Dec 17.0033 17 whole (70.04) [Sun]
-  - star rows: J Fomalhaut → J Pallas Dec 29.0155 29 whole (5.16) [Jupiter]
-  - other chart, top rows: S Jupiter → H Pallas Dec 11.0950 φ^5 phi power (83.24) [Jupiter]
-  - other chart, star rows: H Alhena → H Pallas RA 155.3628 96×φ golden (0.07) [Sun]
-  - other chart, star rows: H El Nath → H Pallas RA 137.5068 85×φ golden (3.74) [Moon]
-  - other chart, star rows: H Procyon → H Pallas Dec 1.9806 2 whole (0.09) [Sun]
+  - star rows: J Alhena → J Pallas Dec 17.0033 17 whole (70.04)
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - star rows: J Fomalhaut → J Pallas Dec 29.0155 29 whole (5.16)
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+  - other chart, top rows: S Jupiter → H Pallas Dec 11.0950 φ^5 phi power (83.24)
+  - other chart, star rows: H Alhena → H Pallas RA 155.3628 96×φ golden (0.07)
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - other chart, star rows: H El Nath → H Pallas RA 137.5068 85×φ golden (3.74)
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - other chart, star rows: H Procyon → H Pallas Dec 1.9806 2 whole (0.09)
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
 - **J Juno** (same body: S Juno → J Juno RA 126.0074 126 whole (39.96))
-  - star rows: J Acumen → J Juno Dec 41.0145 41 whole (7.67) [Sun]
-  - star rows: J Procyon → J Juno Dec 0.9918 1 whole (35.07) [Sun]
-  - other chart, top rows: S Jupiter → H Juno Dec 0.0229 conj (85.32) [Jupiter]
+  - star rows: J Acumen → J Juno Dec 41.0145 41 whole (7.67)
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - star rows: J Procyon → J Juno Dec 0.9918 1 whole (35.07)
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+  - other chart, top rows: S Jupiter → H Juno Dec 0.0229 conj (85.32)
 - **J Rahu** (same body: S Rahu → J Rahu RA 7.9991 8 whole (91.32); S Rahu → J Rahu Dec 2.0243 2 whole (loose))
-  - star rows: J Acumen → J Rahu Dec 51.9909 52 whole (29.86) [Sun]
-  - other chart, T1: H Jupiter → H Rahu RA 0.0713 conj (90.72) [Jupiter]
-  - other chart, top rows: S Jupiter → H Rahu Dec 11.1141 11.1111 ninth (95.18) [Jupiter]
-  - other chart, star rows: H Acumen → H Rahu RA 96.0013 96 whole (87.51) [Sun]
-  - other chart, star rows: H Kaus Australis → H Rahu RA 103.5809 64×φ golden (2.99) [Moon]
-  - other chart, star rows: H Mirach → H Rahu Dec 32.3641 20×φ golden (80.16) [Moon]
+  - star rows: J Acumen → J Rahu Dec 51.9909 52 whole (29.86)
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - other chart, T1: H Jupiter → H Rahu RA 0.0713 conj (90.72)
+  - other chart, top rows: S Jupiter → H Rahu Dec 11.1141 11.1111 ninth (95.18)
+  - other chart, star rows: H Acumen → H Rahu RA 96.0013 96 whole (87.51)
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - other chart, star rows: H Kaus Australis → H Rahu RA 103.5809 64×φ golden (2.99)
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - other chart, star rows: H Mirach → H Rahu Dec 32.3641 20×φ golden (80.16)
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
 - **J Eris** (same body: S Eris → J Eris Dec 8.9929 9 whole (41.37))
-  - star rows: J Zubeneschamali → J Eris RA 153.0024 153 whole (77.36) [Moon]
-  - other chart, star rows: H Facies → H Eris Dec 20.9825 21 whole (1.54) [Moon]
+  - star rows: J Zubeneschamali → J Eris RA 153.0024 153 whole (77.36)
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+  - other chart, star rows: H Facies → H Eris Dec 20.9825 21 whole (1.54)
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
 - **J Sedna** (same body: S Sedna → J Sedna RA 18.0128 18 whole (12.82))
-  - other chart, star rows: H Procyon → H Sedna RA 60.0100 60 whole (25.10) [Sun]
+  - other chart, star rows: H Procyon → H Sedna RA 60.0100 60 whole (25.10)
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
 - **J Makemake** (same body: S Makemake → J Makemake Dec 14.5723 9×φ golden (loose))
-  - body line: S Moon → Makemake Dec 43.9984 44 whole (84.30)
-  - top rows: S Sun → J Makemake Dec 46.9723 φ^8 phi power (94.64) [Sun]
-  - star rows: J El Nath → J Makemake RA 81.0136 81 whole (10.22) [Moon]
-  - other chart, star rows: H Alhena → H Makemake Dec 8.9877 9 whole (14.84) [Sun]
-  - other chart, star rows: H Fomalhaut → H Makemake RA 150.0133 150 whole (11.19) [Jupiter]
-  - other chart, star rows: H Fomalhaut → H Makemake Dec 55.0116 34×φ golden (90.88) [Jupiter]
+  - sky line to Makemake: S Moon → Makemake Dec 43.9984 44 whole (84.30)
+  - top rows: S Sun → J Makemake Dec 46.9723 φ^8 phi power (94.64)
+  - star rows: J El Nath → J Makemake RA 81.0136 81 whole (10.22)
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - other chart, star rows: H Alhena → H Makemake Dec 8.9877 9 whole (14.84)
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - other chart, star rows: H Fomalhaut → H Makemake RA 150.0133 150 whole (11.19)
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+  - other chart, star rows: H Fomalhaut → H Makemake Dec 55.0116 34×φ golden (90.88)
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
 - **J Orcus** (same body: S Orcus → J Orcus Dec 18.7662 18.8889 ninth (loose))
-  - star rows: J Al Rescha → J Orcus RA 94.0042 94 whole (62.51) [Moon]
+  - star rows: J Al Rescha → J Orcus RA 94.0042 94 whole (62.51)
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
   - other chart, same body: S Orcus → H Orcus RA 4.9867 5 whole (11.17)
-  - other chart, star rows: H Facies → H Orcus Dec 14.5632 9×φ golden (94.61) [Moon]
-  - other chart, star rows: H Procyon → H Orcus Dec 14.5605 9×φ golden (89.34) [Sun]
-  - other chart, star rows: H Zubeneschamali → H Orcus Dec 0.0421 conj (73.90) [Moon]
+  - other chart, star rows: H Facies → H Orcus Dec 14.5632 9×φ golden (94.61)
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - other chart, star rows: H Procyon → H Orcus Dec 14.5605 9×φ golden (89.34)
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+  - other chart, star rows: H Zubeneschamali → H Orcus Dec 0.0421 conj (73.90)
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
 - **J Gonggong** (same body: S Gonggong → J Gonggong RA 8.0088 8 whole (31.49))
-  - body line: S Sun → Gonggong RA 0.2231 conj (72.47)
-  - top rows: S Moon → J Gonggong Dec 0.0236 conj (84.87) [Moon]
-  - star rows: J El Nath → J Gonggong Dec 50.0177 50 whole (1.33) [Moon]
-  - other chart, top rows: S Jupiter → H Gonggong Dec 5.0026 5 whole (75.34) [Jupiter]
-  - other chart, top rows: S Sun → H Gonggong RA 1.1330 conj (5.98) [Sun]
-  - other chart, star rows: H Alhena → H Gonggong RA 124.0111 124 whole (19.86) [Sun]
-  - other chart, star rows: H Fomalhaut → H Gonggong RA 8.9875 9 whole (14.03) [Jupiter]
-  - other chart, star rows: H Mirach → H Gonggong RA 42.0092 42 whole (29.27) [Moon]
+  - sky line to Gonggong: S Sun → Gonggong RA 0.2231 conj (72.47)
+  - top rows: S Moon → J Gonggong Dec 0.0236 conj (84.87)
+  - star rows: J El Nath → J Gonggong Dec 50.0177 50 whole (1.33)
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - other chart, top rows: S Jupiter → H Gonggong Dec 5.0026 5 whole (75.34)
+  - other chart, top rows: S Sun → H Gonggong RA 1.1330 conj (5.98)
+  - other chart, star rows: H Alhena → H Gonggong RA 124.0111 124 whole (19.86)
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - other chart, star rows: H Fomalhaut → H Gonggong RA 8.9875 9 whole (14.03)
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+  - other chart, star rows: H Mirach → H Gonggong RA 42.0092 42 whole (29.27)
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
 - **J Transpluto** (same body: S Transpluto → J Transpluto Dec 4.4391 4.44444 ninth (loose))
-  - star rows: J Facies → J Transpluto Dec 38.8305 24×φ golden (86.34) [Moon]
-  - star rows: J Kaus Australis → J Transpluto RA 133.9903 134 whole (26.29) [Moon]
-  - other chart, top rows: S Sun → H Transpluto RA 176.3645 109×φ golden (92.55) [Sun]
-  - other chart, star rows: H Murzim → H Transpluto Dec 29.1245 18×φ golden (99.54) [Jupiter]
+  - star rows: J Facies → J Transpluto Dec 38.8305 24×φ golden (86.34)
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - star rows: J Kaus Australis → J Transpluto RA 133.9903 134 whole (26.29)
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - other chart, top rows: S Sun → H Transpluto RA 176.3645 109×φ golden (92.55)
+  - other chart, star rows: H Murzim → H Transpluto Dec 29.1245 18×φ golden (99.54)
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
 - **J Ketu** (same body: S Ketu → J Ketu RA 7.9991 8 whole (91.32); S Ketu → J Ketu Dec 2.0243 2 whole (loose))
-  - other chart, star rows: H Acumen → H Ketu RA 83.9987 84 whole (87.51) [Sun]
-  - other chart, star rows: H Al Rescha → H Ketu Dec 6.0193 6 whole (0.11) [Moon]
-### L3 the seven cases (L5 field tag on each)
+  - other chart, star rows: H Acumen → H Ketu RA 83.9987 84 whole (87.51)
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - other chart, star rows: H Al Rescha → H Ketu Dec 6.0193 6 whole (0.11)
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+### L3 matches
 - **1. same body on both charts**
   - Orcus — only
     - S Orcus → H Orcus RA 4.9867 5 whole (11.17)
@@ -638,185 +1037,330 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 50 whole — also: 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
     - J El Nath → J Gonggong Dec 50.0177 50 whole (1.33) = S Moon → El Nath Dec 49.9932 50 whole (43.85)
 - **4. circle divisions**
-  - 6 = 360/60 — only
+  - 6 = 360/60 — also: 4 Mr Washington / Jordan Nailor
     - S Mars → H Mars Dec 5.9980 6 whole (80.63)
-  - 5 = 360/72 — also: 2 Mister Watson / Kielan Woods, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+  - 5 = 360/72 — also: 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
     - S Orcus → H Orcus RA 4.9867 5 whole (11.17)
-  - 5 = 360/72 — also: 2 Mister Watson / Kielan Woods, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+  - 5 = 360/72 — also: 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
     - S Jupiter → H Gonggong Dec 5.0026 5 whole (75.34)
   - 15 = 360/24 — also: 2 Mister Watson / Kielan Woods
     - S Moon → H Saturn RA 15.0047 15 whole (58.26)
-  - 3 = 360/120 — also: 1 Boss Man Fred / Harry Skelton, 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
+  - 6 = 360/60 — also: 4 Mr Washington / Jordan Nailor
+    - H Al Rescha → H Ketu Dec 6.0193 6 whole (0.11)
+  - 9 = 360/40 — also: 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
+    - H Alhena → H Makemake Dec 8.9877 9 whole (14.84)
+  - 3 = 360/120 — also: 1 Boss Man Fred / Harry Skelton, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
     - H Facies → H Saturn Dec 3.0039 3 whole (64.77)
-  - 4 = 360/90 — also: 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
+  - 4 = 360/90 — also: 1 Boss Man Fred / Harry Skelton, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
     - H Fomalhaut → H Chiron RA 3.9988 4 whole (88.65)
-  - 18 = 360/20 — also: 2 Mister Watson / Kielan Woods
+  - 9 = 360/40 — also: 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
+    - H Fomalhaut → H Gonggong RA 8.9875 9 whole (14.03)
+  - 1 = 360/360 — also: 1 Boss Man Fred / Harry Skelton, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+    - H Procyon → H Uranus Dec 1.0123 1 whole (14.77)
+  - 2 = 360/180 — also: 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+    - H Procyon → H Pallas Dec 1.9806 2 whole (0.09)
+  - 60 = 360/6 — only
+    - H Procyon → H Sedna RA 60.0100 60 whole (25.10)
+  - 18 = 360/20 — also: 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor
     - S Neptune → J Neptune Dec 18.0101 18 whole (24.53)
-  - 8 = 360/45 — also: 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
+  - 8 = 360/45 — also: 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
     - S Rahu → J Rahu RA 7.9991 8 whole (91.32)
-  - 2 = 360/180 — also: 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
+  - 2 = 360/180 — also: 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
     - S Rahu → J Rahu Dec 2.0243 2 whole (loose)
-  - 9 = 360/40 — also: 6 Silva Eclipse / Thomas Willmott
+  - 9 = 360/40 — also: 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
     - S Eris → J Eris Dec 8.9929 9 whole (41.37)
-  - 18 = 360/20 — also: 2 Mister Watson / Kielan Woods
+  - 18 = 360/20 — also: 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor
     - S Sedna → J Sedna RA 18.0128 18 whole (12.82)
-  - 8 = 360/45 — also: 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
+  - 8 = 360/45 — also: 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
     - S Gonggong → J Gonggong RA 8.0088 8 whole (31.49)
-  - 8 = 360/45 — also: 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
+  - 8 = 360/45 — also: 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
     - S Ketu → J Ketu RA 7.9991 8 whole (91.32)
-  - 2 = 360/180 — also: 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
+  - 2 = 360/180 — also: 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
     - S Ketu → J Ketu Dec 2.0243 2 whole (loose)
-  - 6 = 360/60 — only
+  - 6 = 360/60 — also: 4 Mr Washington / Jordan Nailor
     - S Mars → J Jupiter Dec 5.9966 6 whole (69.14)
-  - 1 = 360/360 — also: 1 Boss Man Fred / Harry Skelton, 5 Half Track / Sean Quinlan
+  - 1 = 360/360 — also: 1 Boss Man Fred / Harry Skelton, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
     - S Saturn → J Jupiter RA 1.0055 1 whole (52.87)
+  - 1 = 360/360 — also: 1 Boss Man Fred / Harry Skelton, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+    - J Al Rescha → J Pluto Dec 0.9867 1 whole (11.14)
+  - 4 = 360/90 — also: 1 Boss Man Fred / Harry Skelton, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+    - J Alhena → J Venus Dec 3.9902 4 whole (25.81)
+  - 1 = 360/360 — also: 1 Boss Man Fred / Harry Skelton, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+    - J Procyon → J Juno Dec 0.9918 1 whole (35.07)
 - **5. same number in more than one place**
   - 6 whole — only
     - S Mars → H Mars Dec 5.9980 6 whole (80.63)
+    - H Al Rescha → H Ketu Dec 6.0193 6 whole (0.11)
     - S Mars → J Jupiter Dec 5.9966 6 whole (69.14)
-  - 5 whole — also: 2 Mister Watson / Kielan Woods, 6 Silva Eclipse / Thomas Willmott
+  - 5 whole — also: 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
     - S Orcus → H Orcus RA 4.9867 5 whole (11.17)
     - S Jupiter → H Gonggong Dec 5.0026 5 whole (75.34)
   - 11.1111 ninth — only
     - S Jupiter → H Rahu Dec 11.1141 11.1111 ninth (95.18)
     - S Sun → H Saturn Dec 11.1131 11.1111 ninth (96.73)
+  - 85×φ golden — only
+    - S Moon → H Uranus RA 137.5423 85×φ golden (50.41)
+    - H El Nath → H Pallas RA 137.5068 85×φ golden (3.74)
+  - 9 whole — only
+    - H Alhena → H Makemake Dec 8.9877 9 whole (14.84)
+    - H Fomalhaut → H Gonggong RA 8.9875 9 whole (14.03)
+    - S Eris → J Eris Dec 8.9929 9 whole (41.37)
+  - 101 whole — only
+    - H El Nath → H Neptune RA 101.0053 101 whole (53.77)
+    - J Praesepe → J Saturn RA 100.9863 101 whole (10.04)
+  - 21 whole — only
+    - H Facies → H Eris Dec 20.9825 21 whole (1.54)
+    - J Praesepe → J Vesta Dec 21.0122 21 whole (15.02)
+    - J Procyon → J Ceres RA 20.9935 21 whole (45.77)
+  - 67 whole — only
+    - H Facies → H Haumea RA 66.9810 67 whole (0.24)
+    - J Procyon → J Haumea RA 67.0197 67 whole (0.02)
   - 9×φ golden — only
     - H Facies → H Orcus Dec 14.5632 9×φ golden (94.61)
     - H Procyon → H Orcus Dec 14.5605 9×φ golden (89.34)
     - S Makemake → J Makemake Dec 14.5723 9×φ golden (loose)
-  - 18 whole — only
+  - 4 whole — also: 4 Mr Washington / Jordan Nailor
+    - H Fomalhaut → H Chiron RA 3.9988 4 whole (88.65)
+    - J Alhena → J Venus Dec 3.9902 4 whole (25.81)
+  - 42 whole — also: 4 Mr Washington / Jordan Nailor
+    - H Mirach → H Gonggong RA 42.0092 42 whole (29.27)
+    - S Pallas → J Pallas RA 41.9801 42 whole (0.00)
+  - 108×φ golden — only
+    - H Procyon → H Mercury RA 174.7551 108×φ golden (59.48)
+    - J Facies → J Ceres RA 174.7243 108×φ golden (7.67)
+  - 1 whole — also: 1 Boss Man Fred / Harry Skelton
+    - H Procyon → H Uranus Dec 1.0123 1 whole (14.77)
+    - S Saturn → J Jupiter RA 1.0055 1 whole (52.87)
+    - J Al Rescha → J Pluto Dec 0.9867 1 whole (11.14)
+    - J Procyon → J Juno Dec 0.9918 1 whole (35.07)
+  - 2 whole — also: 5 Half Track / Sean Quinlan
+    - H Procyon → H Pallas Dec 1.9806 2 whole (0.09)
+    - S Rahu → J Rahu Dec 2.0243 2 whole (loose)
+    - S Ketu → J Ketu Dec 2.0243 2 whole (loose)
+  - 18 whole — also: 2 Mister Watson / Kielan Woods
     - S Neptune → J Neptune Dec 18.0101 18 whole (24.53)
     - S Sedna → J Sedna RA 18.0128 18 whole (12.82)
-  - 8 whole — only
+  - 8 whole — also: 4 Mr Washington / Jordan Nailor
     - S Rahu → J Rahu RA 7.9991 8 whole (91.32)
     - S Gonggong → J Gonggong RA 8.0088 8 whole (31.49)
     - S Ketu → J Ketu RA 7.9991 8 whole (91.32)
-  - 2 whole — only
-    - S Rahu → J Rahu Dec 2.0243 2 whole (loose)
-    - S Ketu → J Ketu Dec 2.0243 2 whole (loose)
   - φ^6 phi power — also: 1 Boss Man Fred / Harry Skelton
     - J Jupiter → J star Kaus Australis Dec 17.9495 φ^6 phi power (88.75)
     - J Kaus Australis → J Jupiter Dec 17.9495 φ^6 phi power (88.75)
-- **6. star and sky line on one body**
-  - J Mars on Murzim — only
-    - J Murzim → J Mars RA 0.4333 conj (50.57)
-    - S Sun → J Mars Dec 34.0055 34 whole (52.76)
-- **7. centres meeting**
-  - Rahu: Jupiter, Moon, Sun — also: 1 Boss Man Fred / Harry Skelton
-    - [Jupiter] H Jupiter → H Rahu RA 0.0713 conj (90.72)
-    - [Jupiter] S Jupiter → H Rahu Dec 11.1141 11.1111 ninth (95.18)
-    - [Moon] H Kaus Australis → H Rahu RA 103.5809 64×φ golden (2.99)
-    - [Moon] H Mirach → H Rahu Dec 32.3641 20×φ golden (80.16)
-    - [Sun] H Acumen → H Rahu RA 96.0013 96 whole (87.51)
-    - [Sun] J Acumen → J Rahu Dec 51.9909 52 whole (29.86)
-  - Pallas: Jupiter, Moon, Sun — also: 1 Boss Man Fred / Harry Skelton
-    - [Jupiter] S Jupiter → H Pallas Dec 11.0950 φ^5 phi power (83.24)
-    - [Jupiter] J Fomalhaut → J Pallas Dec 29.0155 29 whole (5.16)
-    - [Moon] H El Nath → H Pallas RA 137.5068 85×φ golden (3.74)
-    - [Sun] H Alhena → H Pallas RA 155.3628 96×φ golden (0.07)
-    - [Sun] H Procyon → H Pallas Dec 1.9806 2 whole (0.09)
-    - [Sun] J Alhena → J Pallas Dec 17.0033 17 whole (70.04)
-  - Juno: Jupiter, Sun — only
-    - [Jupiter] S Jupiter → H Juno Dec 0.0229 conj (85.32)
-    - [Sun] J Acumen → J Juno Dec 41.0145 41 whole (7.67)
-    - [Sun] J Procyon → J Juno Dec 0.9918 1 whole (35.07)
-  - Gonggong: Jupiter, Moon, Sun — also: 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
-    - [Jupiter] S Jupiter → H Gonggong Dec 5.0026 5 whole (75.34)
-    - [Jupiter] H Fomalhaut → H Gonggong RA 8.9875 9 whole (14.03)
-    - [Moon] H Mirach → H Gonggong RA 42.0092 42 whole (29.27)
-    - [Moon] S Moon → J Gonggong Dec 0.0236 conj (84.87)
-    - [Moon] J El Nath → J Gonggong Dec 50.0177 50 whole (1.33)
-    - [Sun] S Sun → H Gonggong RA 1.1330 conj (5.98)
-    - [Sun] H Alhena → H Gonggong RA 124.0111 124 whole (19.86)
-    - [Sun] S Gonggong → J Gonggong RA 8.0088 8 whole (31.49)
-  - Saturn: Jupiter, Moon, Sun — only
-    - [Jupiter] J Praesepe → J Saturn RA 100.9863 101 whole (10.04)
-    - [Moon] S Moon → H Saturn RA 15.0047 15 whole (58.26)
-    - [Moon] H Facies → H Saturn Dec 3.0039 3 whole (64.77)
-    - [Moon] J Al Rescha → J Saturn Dec 19.0107 19 whole (21.60)
-    - [Sun] S Sun → H Saturn Dec 11.1131 11.1111 ninth (96.73)
-  - Vesta: Jupiter, Moon, Sun — only
-    - [Jupiter] J Fomalhaut → J Vesta RA 140.0176 140 whole (1.41)
-    - [Jupiter] J Praesepe → J Vesta Dec 21.0122 21 whole (15.02)
-    - [Moon] H Al Rescha → H Vesta Dec 0.1224 conj (35.03)
-    - [Moon] H Mirach → H Vesta Dec 32.9815 33 whole (0.54)
-    - [Sun] S Sun → H Vesta RA 44.0011 44 whole (89.26)
-  - Transpluto: Jupiter, Moon, Sun — also: 1 Boss Man Fred / Harry Skelton, 5 Half Track / Sean Quinlan
-    - [Jupiter] H Murzim → H Transpluto Dec 29.1245 18×φ golden (99.54)
-    - [Moon] J Facies → J Transpluto Dec 38.8305 24×φ golden (86.34)
-    - [Moon] J Kaus Australis → J Transpluto RA 133.9903 134 whole (26.29)
-    - [Sun] S Sun → H Transpluto RA 176.3645 109×φ golden (92.55)
-  - Venus: Moon, Sun — also: 1 Boss Man Fred / Harry Skelton, 5 Half Track / Sean Quinlan
-    - [Moon] S Moon → H Venus Dec 0.1850 conj (14.70)
-    - [Sun] J Alhena → J Venus Dec 3.9902 4 whole (25.81)
-  - Uranus: Moon, Sun — also: 5 Half Track / Sean Quinlan
-    - [Moon] S Moon → H Uranus RA 137.5423 85×φ golden (50.41)
-    - [Moon] H Mirach → H Uranus RA 1.2431 conj (2.93)
-    - [Moon] J Deneb → J Uranus Dec 67.9876 68 whole (14.62)
-    - [Sun] H Procyon → H Uranus Dec 1.0123 1 whole (14.77)
-  - Jupiter: Jupiter, Moon — also: 2 Mister Watson / Kielan Woods, 6 Silva Eclipse / Thomas Willmott
-    - [Jupiter] S Makemake → H Jupiter Dec 17.7783 17.7778 ninth (99.63)
-    - [Jupiter] S Mars → J Jupiter Dec 5.9966 6 whole (69.14)
-    - [Jupiter] S Saturn → J Jupiter RA 1.0055 1 whole (52.87)
-    - [Jupiter] S Saturn → J Jupiter Dec 0.1283 conj (32.77)
-    - [Jupiter] S Eris → J Jupiter RA 66.3338 41×φ golden (68.49)
-    - [Moon] S Makemake → H Jupiter Dec 17.7783 17.7778 ninth (99.63)
-    - [Moon] S El Nath → J Jupiter RA 121.9843 122 whole (4.67)
-    - [Moon] J Kaus Australis → J Jupiter Dec 17.9495 φ^6 phi power (88.75)
-  - Quaoar: Moon, Sun — also: 1 Boss Man Fred / Harry Skelton, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
-    - [Moon] J Deneb → J Quaoar RA 82.9807 83 whole (0.12)
-    - [Sun] H Acumen → H Quaoar RA 0.3032 conj (63.66)
-  - Ketu: Moon, Sun — also: 5 Half Track / Sean Quinlan
-    - [Moon] H Al Rescha → H Ketu Dec 6.0193 6 whole (0.11)
-    - [Sun] H Acumen → H Ketu RA 83.9987 84 whole (87.51)
-  - Makemake: Jupiter, Moon, Sun — also: 1 Boss Man Fred / Harry Skelton, 5 Half Track / Sean Quinlan
-    - [Jupiter] H Fomalhaut → H Makemake RA 150.0133 150 whole (11.19)
-    - [Jupiter] H Fomalhaut → H Makemake Dec 55.0116 34×φ golden (90.88)
-    - [Moon] S Makemake → J Makemake Dec 14.5723 9×φ golden (loose)
-    - [Moon] J El Nath → J Makemake RA 81.0136 81 whole (10.22)
-    - [Sun] H Alhena → H Makemake Dec 8.9877 9 whole (14.84)
-    - [Sun] S Sun → J Makemake Dec 46.9723 φ^8 phi power (94.64)
-  - Mercury: Jupiter, Moon, Sun — also: 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
-    - [Jupiter] J Murzim → J Mercury Dec 43.0060 43 whole (49.21)
-    - [Moon] H Deneb → H Mercury Dec 66.0135 66 whole (10.68)
-    - [Sun] H Procyon → H Mercury RA 174.7551 108×φ golden (59.48)
-    - [Sun] J Alhena → J Mercury RA 0.4408 conj (49.86)
-  - Neptune: Moon, Sun — only
-    - [Moon] H El Nath → H Neptune RA 101.0053 101 whole (53.77)
-    - [Moon] J Al Rescha → J Neptune Dec 25.0151 25 whole (6.00)
-    - [Sun] J Procyon → J Neptune RA 158.0029 158 whole (73.11)
-  - Haumea: Moon, Sun — only
-    - [Moon] H Facies → H Haumea RA 66.9810 67 whole (0.24)
-    - [Sun] J Procyon → J Haumea RA 67.0197 67 whole (0.02)
-  - Orcus: Moon, Sun — only
-    - [Moon] H Facies → H Orcus Dec 14.5632 9×φ golden (94.61)
-    - [Moon] H Zubeneschamali → H Orcus Dec 0.0421 conj (73.90)
-    - [Moon] J Al Rescha → J Orcus RA 94.0042 94 whole (62.51)
-    - [Sun] H Procyon → H Orcus Dec 14.5605 9×φ golden (89.34)
-  - Pluto: Jupiter, Moon, Sun — also: 1 Boss Man Fred / Harry Skelton, 4 Mr Washington / Jordan Nailor
-    - [Jupiter] H Fomalhaut → H Pluto RA 57.0092 57 whole (28.91)
-    - [Jupiter] H Murzim → H Pluto RA 168.2795 104×φ golden (76.81)
-    - [Moon] J Al Rescha → J Pluto Dec 0.9867 1 whole (11.14)
-    - [Sun] J Alhena → J Pluto RA 116.4873 72×φ golden (42.85)
-  - Chiron: Jupiter, Sun — only
-    - [Jupiter] H Fomalhaut → H Chiron RA 3.9988 4 whole (88.65)
-    - [Sun] J Acumen → J Chiron RA 160.9949 161 whole (55.49)
-  - Mars: Jupiter, Moon, Sun — also: 1 Boss Man Fred / Harry Skelton, 6 Silva Eclipse / Thomas Willmott
-    - [Jupiter] J Murzim → J Mars RA 0.4333 conj (50.57)
-    - [Moon] H Zubeneschamali → H Mars RA 1.0435 conj (9.26)
-    - [Moon] J Facies → J Mars RA 176.9968 177 whole (70.68)
-    - [Sun] S Sun → J Mars Dec 34.0055 34 whole (52.76)
-    - [Sun] J Acumen → J Mars Dec 59.0108 59 whole (21.03)
-    - [Sun] J Procyon → J Mars Dec 18.9882 19 whole (16.85)
-  - Sun: Jupiter, Moon, Sun — also: 2 Mister Watson / Kielan Woods, 6 Silva Eclipse / Thomas Willmott
-    - [Jupiter] J Fomalhaut → J Sun Dec 53.0110 53 whole (20.27)
-    - [Moon] J Facies → J Sun RA 167.0128 167 whole (13.08)
-    - [Moon] J Mirach → J Sun Dec 12.2259 12.2222 ninth (94.93)
-    - [Sun] J Alhena → J Sun Dec 6.9923 7 whole (37.67)
-  - Ceres: Moon, Sun — also: 5 Half Track / Sean Quinlan
-    - [Moon] J Facies → J Ceres RA 174.7243 108×φ golden (7.67)
-    - [Moon] J Kaus Australis → J Ceres RA 177.7801 177.778 ninth (99.82)
-    - [Sun] J Procyon → J Ceres RA 20.9935 21 whole (45.77)
+  - 19 whole — also: 5 Half Track / Sean Quinlan
+    - J Al Rescha → J Saturn Dec 19.0107 19 whole (21.60)
+    - J Procyon → J Mars Dec 18.9882 19 whole (16.85)
+### L4 every natal body
+- **Mars**
+  - same body: S Mars → H Mars Dec 5.9980 6 whole (80.63) — also: 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+  - star rows: H Zubeneschamali → H Mars RA 1.0435 conj (9.26) — also: 2 Mister Watson / Kielan Woods, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+  - top rows: S Sun → J Mars Dec 34.0055 34 whole (52.76) — also: 1 Boss Man Fred / Harry Skelton, 4 Mr Washington / Jordan Nailor
+  - star rows: J Acumen → J Mars Dec 59.0108 59 whole (21.03) — also: 4 Mr Washington / Jordan Nailor
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - star rows: J Facies → J Mars RA 176.9968 177 whole (70.68) — also: 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - star rows: J Murzim → J Mars RA 0.4333 conj (50.57) — only
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+  - star rows: J Procyon → J Mars Dec 18.9882 19 whole (16.85) — also: 4 Mr Washington / Jordan Nailor
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+- **Orcus**
+  - same body: S Orcus → H Orcus RA 4.9867 5 whole (11.17) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
+  - star rows: H Facies → H Orcus Dec 14.5632 9×φ golden (94.61) — also: 2 Mister Watson / Kielan Woods
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - star rows: H Procyon → H Orcus Dec 14.5605 9×φ golden (89.34) — also: 4 Mr Washington / Jordan Nailor
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+  - star rows: H Zubeneschamali → H Orcus Dec 0.0421 conj (73.90) — also: 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+  - same body: S Orcus → J Orcus Dec 18.7662 18.8889 ninth (loose) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
+  - star rows: J Al Rescha → J Orcus RA 94.0042 94 whole (62.51) — only
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+- **Rahu**
+  - T1: H Jupiter → H Rahu RA 0.0713 conj (90.72) — only
+  - top rows: S Jupiter → H Rahu Dec 11.1141 11.1111 ninth (95.18) — also: 2 Mister Watson / Kielan Woods
+  - star rows: H Acumen → H Rahu RA 96.0013 96 whole (87.51) — also: 1 Boss Man Fred / Harry Skelton, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - star rows: H Kaus Australis → H Rahu RA 103.5809 64×φ golden (2.99) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - star rows: H Mirach → H Rahu Dec 32.3641 20×φ golden (80.16) — only
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+  - same body: S Rahu → J Rahu RA 7.9991 8 whole (91.32) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor
+  - same body: S Rahu → J Rahu Dec 2.0243 2 whole (loose) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor
+  - star rows: J Acumen → J Rahu Dec 51.9909 52 whole (29.86) — also: 1 Boss Man Fred / Harry Skelton, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+- **Pallas**
+  - top rows: S Jupiter → H Pallas Dec 11.0950 φ^5 phi power (83.24) — also: 1 Boss Man Fred / Harry Skelton, 5 Half Track / Sean Quinlan
+  - star rows: H Alhena → H Pallas RA 155.3628 96×φ golden (0.07) — also: 1 Boss Man Fred / Harry Skelton
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - star rows: H El Nath → H Pallas RA 137.5068 85×φ golden (3.74) — only
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - star rows: H Procyon → H Pallas Dec 1.9806 2 whole (0.09) — also: 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+  - same body: S Pallas → J Pallas RA 41.9801 42 whole (0.00) — also: 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor
+  - star rows: J Alhena → J Pallas Dec 17.0033 17 whole (70.04) — also: 1 Boss Man Fred / Harry Skelton
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - star rows: J Fomalhaut → J Pallas Dec 29.0155 29 whole (5.16) — also: 4 Mr Washington / Jordan Nailor
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+- **Juno**
+  - top rows: S Jupiter → H Juno Dec 0.0229 conj (85.32) — also: 2 Mister Watson / Kielan Woods
+  - same body: S Juno → J Juno RA 126.0074 126 whole (39.96) — also: 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
+  - star rows: J Acumen → J Juno Dec 41.0145 41 whole (7.67) — only
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - star rows: J Procyon → J Juno Dec 0.9918 1 whole (35.07) — also: 6 Silva Eclipse / Thomas Willmott
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+- **Gonggong**
+  - top rows: S Jupiter → H Gonggong Dec 5.0026 5 whole (75.34) — only
+  - top rows: S Sun → H Gonggong RA 1.1330 conj (5.98) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+  - star rows: H Alhena → H Gonggong RA 124.0111 124 whole (19.86) — also: 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - star rows: H Fomalhaut → H Gonggong RA 8.9875 9 whole (14.03) — also: 4 Mr Washington / Jordan Nailor
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+  - star rows: H Mirach → H Gonggong RA 42.0092 42 whole (29.27) — also: 4 Mr Washington / Jordan Nailor
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+  - same body: S Gonggong → J Gonggong RA 8.0088 8 whole (31.49) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Sun → Gonggong RA 0.2231 conj (72.47)
+  - top rows: S Moon → J Gonggong Dec 0.0236 conj (84.87) — also: 4 Mr Washington / Jordan Nailor
+  - star rows: J El Nath → J Gonggong Dec 50.0177 50 whole (1.33) — also: 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+- **Saturn**
+  - top rows: S Sun → H Saturn Dec 11.1131 11.1111 ninth (96.73) — only
+  - top rows: S Moon → H Saturn RA 15.0047 15 whole (58.26) — also: 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+  - star rows: H Facies → H Saturn Dec 3.0039 3 whole (64.77) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - star rows: J Al Rescha → J Saturn Dec 19.0107 19 whole (21.60) — also: 5 Half Track / Sean Quinlan
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - star rows: J Praesepe → J Saturn RA 100.9863 101 whole (10.04) — also: 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+- **Vesta**
+  - top rows: S Sun → H Vesta RA 44.0011 44 whole (89.26) — only
+  - star rows: H Al Rescha → H Vesta Dec 0.1224 conj (35.03) — only
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - star rows: H Mirach → H Vesta Dec 32.9815 33 whole (0.54) — also: 4 Mr Washington / Jordan Nailor
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+  - star rows: J Fomalhaut → J Vesta RA 140.0176 140 whole (1.41) — only
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+  - star rows: J Praesepe → J Vesta Dec 21.0122 21 whole (15.02) — only
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+- **Transpluto**
+  - top rows: S Sun → H Transpluto RA 176.3645 109×φ golden (92.55) — also: 5 Half Track / Sean Quinlan
+  - star rows: H Murzim → H Transpluto Dec 29.1245 18×φ golden (99.54) — also: 6 Silva Eclipse / Thomas Willmott
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+  - same body: S Transpluto → J Transpluto Dec 4.4391 4.44444 ninth (loose) — also: 1 Boss Man Fred / Harry Skelton, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+  - star rows: J Facies → J Transpluto Dec 38.8305 24×φ golden (86.34) — only
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - star rows: J Kaus Australis → J Transpluto RA 133.9903 134 whole (26.29) — also: 1 Boss Man Fred / Harry Skelton, 4 Mr Washington / Jordan Nailor
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+- **Venus**
+  - top rows: S Moon → H Venus Dec 0.1850 conj (14.70) — only
+  - star rows: J Alhena → J Venus Dec 3.9902 4 whole (25.81) — also: 5 Half Track / Sean Quinlan
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+- **Uranus**
+  - top rows: S Moon → H Uranus RA 137.5423 85×φ golden (50.41) — also: 6 Silva Eclipse / Thomas Willmott
+  - star rows: H Mirach → H Uranus RA 1.2431 conj (2.93) — also: 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+  - star rows: H Procyon → H Uranus Dec 1.0123 1 whole (14.77) — also: 1 Boss Man Fred / Harry Skelton, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+  - same body: S Uranus → J Uranus RA 144.2324 144.444 ninth (loose) — also: 6 Silva Eclipse / Thomas Willmott
+  - star rows: J Deneb → J Uranus Dec 67.9876 68 whole (14.62) — also: 1 Boss Man Fred / Harry Skelton
+    - source line: S Moon → Deneb Dec 66.6638 66.6667 ninth (97.54)
+- **Jupiter**
+  - top rows: S Makemake → H Jupiter Dec 17.7783 17.7778 ninth (99.63) — also: 1 Boss Man Fred / Harry Skelton
+    - source line: S Moon → Makemake Dec 43.9984 44 whole (84.30)
+  - T2: J Jupiter → J star Kaus Australis Dec 17.9495 φ^6 phi power (88.75) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+  - top rows: S Mars → J Jupiter Dec 5.9966 6 whole (69.14) — also: 1 Boss Man Fred / Harry Skelton
+  - top rows: S Saturn → J Jupiter RA 1.0055 1 whole (52.87) — also: 1 Boss Man Fred / Harry Skelton
+  - top rows: S Saturn → J Jupiter Dec 0.1283 conj (32.77) — also: 1 Boss Man Fred / Harry Skelton
+  - top rows: S Eris → J Jupiter RA 66.3338 41×φ golden (68.49) — also: 2 Mister Watson / Kielan Woods, 6 Silva Eclipse / Thomas Willmott
+  - star rows: S El Nath → J Jupiter RA 121.9843 122 whole (4.67) — only
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - star rows: J Kaus Australis → J Jupiter Dec 17.9495 φ^6 phi power (88.75) — also: 2 Mister Watson / Kielan Woods
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+- **Quaoar**
+  - star rows: H Acumen → H Quaoar RA 0.3032 conj (63.66) — also: 2 Mister Watson / Kielan Woods, 5 Half Track / Sean Quinlan
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - star rows: J Deneb → J Quaoar RA 82.9807 83 whole (0.12) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods
+    - source line: S Moon → Deneb Dec 66.6638 66.6667 ninth (97.54)
+- **Ketu**
+  - star rows: H Acumen → H Ketu RA 83.9987 84 whole (87.51) — only
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - star rows: H Al Rescha → H Ketu Dec 6.0193 6 whole (0.11) — also: 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - same body: S Ketu → J Ketu RA 7.9991 8 whole (91.32) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor
+  - same body: S Ketu → J Ketu Dec 2.0243 2 whole (loose) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor
+- **Makemake**
+  - star rows: H Alhena → H Makemake Dec 8.9877 9 whole (14.84) — also: 5 Half Track / Sean Quinlan
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - star rows: H Fomalhaut → H Makemake RA 150.0133 150 whole (11.19) — also: 1 Boss Man Fred / Harry Skelton
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+  - star rows: H Fomalhaut → H Makemake Dec 55.0116 34×φ golden (90.88) — also: 1 Boss Man Fred / Harry Skelton
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+  - same body: S Makemake → J Makemake Dec 14.5723 9×φ golden (loose) — also: 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → Makemake Dec 43.9984 44 whole (84.30)
+  - top rows: S Sun → J Makemake Dec 46.9723 φ^8 phi power (94.64) — also: 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
+  - star rows: J El Nath → J Makemake RA 81.0136 81 whole (10.22) — only
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+- **Mercury**
+  - star rows: H Deneb → H Mercury Dec 66.0135 66 whole (10.68) — only
+    - source line: S Moon → Deneb Dec 66.6638 66.6667 ninth (97.54)
+  - star rows: H Procyon → H Mercury RA 174.7551 108×φ golden (59.48) — also: 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+  - star rows: J Alhena → J Mercury RA 0.4408 conj (49.86) — also: 5 Half Track / Sean Quinlan
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - star rows: J Murzim → J Mercury Dec 43.0060 43 whole (49.21) — only
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+- **Neptune**
+  - star rows: H El Nath → H Neptune RA 101.0053 101 whole (53.77) — also: 4 Mr Washington / Jordan Nailor
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - same body: S Neptune → J Neptune Dec 18.0101 18 whole (24.53) — also: 1 Boss Man Fred / Harry Skelton, 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
+  - star rows: J Al Rescha → J Neptune Dec 25.0151 25 whole (6.00) — also: 4 Mr Washington / Jordan Nailor
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - star rows: J Procyon → J Neptune RA 158.0029 158 whole (73.11) — also: 5 Half Track / Sean Quinlan
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+- **Eris**
+  - star rows: H Facies → H Eris Dec 20.9825 21 whole (1.54) — also: 2 Mister Watson / Kielan Woods, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - same body: S Eris → J Eris Dec 8.9929 9 whole (41.37) — also: 4 Mr Washington / Jordan Nailor
+  - star rows: J Zubeneschamali → J Eris RA 153.0024 153 whole (77.36) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+- **Haumea**
+  - star rows: H Facies → H Haumea RA 66.9810 67 whole (0.24) — only
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - star rows: J Procyon → J Haumea RA 67.0197 67 whole (0.02) — also: 4 Mr Washington / Jordan Nailor
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+- **Pluto**
+  - star rows: H Fomalhaut → H Pluto RA 57.0092 57 whole (28.91) — also: 6 Silva Eclipse / Thomas Willmott
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+  - star rows: H Murzim → H Pluto RA 168.2795 104×φ golden (76.81) — only
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+  - star rows: J Al Rescha → J Pluto Dec 0.9867 1 whole (11.14) — also: 1 Boss Man Fred / Harry Skelton, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - star rows: J Alhena → J Pluto RA 116.4873 72×φ golden (42.85) — only
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+- **Chiron**
+  - star rows: H Fomalhaut → H Chiron RA 3.9988 4 whole (88.65) — also: 6 Silva Eclipse / Thomas Willmott
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+  - star rows: J Acumen → J Chiron RA 160.9949 161 whole (55.49) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+- **Sedna**
+  - star rows: H Procyon → H Sedna RA 60.0100 60 whole (25.10) — also: 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+  - same body: S Sedna → J Sedna RA 18.0128 18 whole (12.82) — also: 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+- **Sun**
+  - star rows: J Alhena → J Sun Dec 6.9923 7 whole (37.67) — also: 6 Silva Eclipse / Thomas Willmott
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - star rows: J Facies → J Sun RA 167.0128 167 whole (13.08) — only
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - star rows: J Fomalhaut → J Sun Dec 53.0110 53 whole (20.27) — also: 2 Mister Watson / Kielan Woods, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+  - star rows: J Mirach → J Sun Dec 12.2259 12.2222 ninth (94.93) — also: 2 Mister Watson / Kielan Woods, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+- **Ceres**
+  - star rows: J Facies → J Ceres RA 174.7243 108×φ golden (7.67) — only
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - star rows: J Kaus Australis → J Ceres RA 177.7801 177.778 ninth (99.82) — also: 5 Half Track / Sean Quinlan
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - star rows: J Procyon → J Ceres RA 20.9935 21 whole (45.77) — also: 5 Half Track / Sean Quinlan
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
 
 ## 4 Mr Washington / Jordan Nailor
 ### L1 same bodies
@@ -837,57 +1381,91 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 ### L2 what lands on each same body
 - **H Venus** (same body: S Venus → H Venus RA 93.8181 58×φ golden (loose))
 - **H Saturn** (same body: S Saturn → H Saturn RA 102.9849 103 whole (6.04))
-  - top rows: S Moon → H Saturn RA 21.0336 13×φ golden (94.82) [Moon]
-  - star rows: H Facies → H Saturn RA 61.4899 38×φ golden (73.81) [Moon]
-  - star rows: H Praesepe → H Saturn Dec 31.9816 32 whole (0.65) [Jupiter]
+  - top rows: S Moon → H Saturn RA 21.0336 13×φ golden (94.82)
+  - star rows: H Facies → H Saturn RA 61.4899 38×φ golden (73.81)
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - star rows: H Praesepe → H Saturn Dec 31.9816 32 whole (0.65)
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
 - **H Pluto** (same body: S Pluto → H Pluto RA 17.6756 17.7778 ninth (loose))
-  - star rows: H Al Rescha → H Pluto RA 108.4120 67×φ golden (78.36) [Moon]
-  - star rows: H Facies → H Pluto RA 2.9934 3 whole (44.82) [Moon]
-  - star rows: H Praesepe → H Pluto RA 152.0682 94×φ golden (2.75) [Jupiter]
-  - other chart, top rows: S Sun → J Pluto RA 90.9993 91 whole (92.91) [Sun]
-  - other chart, star rows: J El Nath → J Pluto RA 163.9855 164 whole (7.47) [Moon]
-  - other chart, star rows: J Zubeneschamali → J Pluto Dec 0.0365 conj (77.16) [Moon]
+  - star rows: H Al Rescha → H Pluto RA 108.4120 67×φ golden (78.36)
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - star rows: H Facies → H Pluto RA 2.9934 3 whole (44.82)
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - star rows: H Praesepe → H Pluto RA 152.0682 94×φ golden (2.75)
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+  - other chart, top rows: S Sun → J Pluto RA 90.9993 91 whole (92.91)
+  - other chart, star rows: J El Nath → J Pluto RA 163.9855 164 whole (7.47)
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - other chart, star rows: J Zubeneschamali → J Pluto Dec 0.0365 conj (77.16)
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
 - **H Chiron** (same body: S Chiron → H Chiron RA 27.0155 27 whole (5.13))
-  - star rows: H Deneb → H Chiron RA 30.9827 31 whole (1.84) [Moon]
-  - star rows: H El Nath → H Chiron Dec 31.0194 31 whole (0.10) [Moon]
+  - star rows: H Deneb → H Chiron RA 30.9827 31 whole (1.84)
+    - source line: S Moon → Deneb Dec 66.6638 66.6667 ninth (97.54)
+  - star rows: H El Nath → H Chiron Dec 31.0194 31 whole (0.10)
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
 - **H Pallas** (same body: S Pallas → H Pallas Dec 2.9863 3 whole (10.07))
-  - star rows: H Fomalhaut → H Pallas Dec 24.2760 15×φ golden (69.06) [Jupiter]
-  - star rows: H Kaus Australis → H Pallas RA 124.5870 77×φ golden (90.06) [Moon]
-  - star rows: H Kaus Australis → H Pallas Dec 29.0370 φ^7 phi power (96.52) [Moon]
-  - other chart, star rows: J Praesepe → J Pallas RA 131.0877 81×φ golden (2.81) [Jupiter]
+  - star rows: H Fomalhaut → H Pallas Dec 24.2760 15×φ golden (69.06)
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+  - star rows: H Kaus Australis → H Pallas RA 124.5870 77×φ golden (90.06)
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - star rows: H Kaus Australis → H Pallas Dec 29.0370 φ^7 phi power (96.52)
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - other chart, star rows: J Praesepe → J Pallas RA 131.0877 81×φ golden (2.81)
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
 - **H Juno** (same body: S Juno → H Juno Dec 3.2331 2×φ golden (loose))
 - **J Sun** (same body: S Sun → J Sun Dec 25.0249 25 whole (loose))
-  - star rows: J Procyon → J Sun Dec 10.0100 10 whole (25.07) [Sun]
+  - star rows: J Procyon → J Sun Dec 10.0100 10 whole (25.07)
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
 - **J Mars** (same body: S Mars → J Mars RA 177.6414 177.778 ninth (loose))
-  - star rows: J Acumen → J Mars Dec 56.9944 57 whole (51.70) [Sun]
-  - star rows: J Kaus Australis → J Mars RA 159.9985 160 whole (85.87) [Moon]
-  - star rows: J Procyon → J Mars RA 1.2285 conj (3.28) [Sun]
-  - other chart, top rows: S Sun → H Mars Dec 18.8838 18.8889 ninth (96.35) [Sun]
-  - other chart, star rows: H Facies → H Mars Dec 33.0005 33 whole (95.36) [Moon]
+  - star rows: J Acumen → J Mars Dec 56.9944 57 whole (51.70)
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - star rows: J Kaus Australis → J Mars RA 159.9985 160 whole (85.87)
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - star rows: J Procyon → J Mars RA 1.2285 conj (3.28)
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+  - other chart, top rows: S Sun → H Mars Dec 18.8838 18.8889 ninth (96.35)
+  - other chart, star rows: H Facies → H Mars Dec 33.0005 33 whole (95.36)
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
 - **J Neptune** (same body: S Neptune → J Neptune Dec 15.5079 15.5556 ninth (loose))
-  - star rows: J Alhena → J Neptune RA 157.0099 157 whole (25.62) [Sun]
-  - star rows: J El Nath → J Neptune RA 139.1558 86×φ golden (71.98) [Moon]
-  - star rows: J Fomalhaut → J Neptune RA 42.0043 42 whole (61.86) [Jupiter]
-  - other chart, top rows: S Sun → H Neptune RA 0.0552 conj (92.78) [Sun]
-  - other chart, star rows: H Al Rescha → H Neptune RA 54.0076 54 whole (38.53) [Moon]
-  - other chart, star rows: H Alhena → H Neptune RA 122.9275 φ^10 phi power (80.16) [Sun]
+  - star rows: J Alhena → J Neptune RA 157.0099 157 whole (25.62)
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - star rows: J El Nath → J Neptune RA 139.1558 86×φ golden (71.98)
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - star rows: J Fomalhaut → J Neptune RA 42.0043 42 whole (61.86)
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+  - other chart, top rows: S Sun → H Neptune RA 0.0552 conj (92.78)
+  - other chart, star rows: H Al Rescha → H Neptune RA 54.0076 54 whole (38.53)
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - other chart, star rows: H Alhena → H Neptune RA 122.9275 φ^10 phi power (80.16)
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
 - **J Ceres** (same body: S Ceres → J Ceres RA 2.9800 3 whole (loose))
 - **J Rahu** (same body: S Rahu → J Rahu RA 99.9727 100 whole (loose))
-  - star rows: J Al Rescha → J Rahu RA 123.0046 123 whole (59.60) [Moon]
-  - other chart, star rows: H Zubeneschamali → H Rahu RA 5.0145 5 whole (7.50) [Moon]
+  - star rows: J Al Rescha → J Rahu RA 123.0046 123 whole (59.60)
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - other chart, star rows: H Zubeneschamali → H Rahu RA 5.0145 5 whole (7.50)
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
 - **J Eris** (same body: S Eris → J Eris RA 1.9888 2 whole (19.52))
-  - other chart, star rows: H El Nath → H Eris Dec 32.0047 32 whole (58.36) [Moon]
-  - other chart, star rows: H Kaus Australis → H Eris Dec 30.9864 31 whole (10.08) [Moon]
-  - other chart, star rows: H Mirach → H Eris Dec 39.0157 39 whole (4.60) [Moon]
-  - other chart, star rows: H Murzim → H Eris Dec 14.5618 9×φ golden (96.84) [Jupiter]
-  - other chart, star rows: H Zubeneschamali → H Eris Dec 5.9870 6 whole (12.39) [Moon]
+  - other chart, star rows: H El Nath → H Eris Dec 32.0047 32 whole (58.36)
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - other chart, star rows: H Kaus Australis → H Eris Dec 30.9864 31 whole (10.08)
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - other chart, star rows: H Mirach → H Eris Dec 39.0157 39 whole (4.60)
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+  - other chart, star rows: H Murzim → H Eris Dec 14.5618 9×φ golden (96.84)
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+  - other chart, star rows: H Zubeneschamali → H Eris Dec 5.9870 6 whole (12.39)
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
 - **J Orcus** (same body: S Orcus → J Orcus Dec 11.9871 12 whole (12.66))
-  - other chart, star rows: H Procyon → H Orcus RA 33.3324 33.3333 ninth (98.91) [Sun]
+  - other chart, star rows: H Procyon → H Orcus RA 33.3324 33.3333 ninth (98.91)
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
 - **J Ketu** (same body: S Ketu → J Ketu RA 99.9727 100 whole (loose))
-  - star rows: J Al Rescha → J Ketu RA 56.9954 57 whole (59.60) [Moon]
-  - star rows: J Murzim → J Ketu Dec 7.0112 7 whole (19.50) [Jupiter]
-  - other chart, star rows: H Zubeneschamali → H Ketu RA 174.9855 175 whole (7.50) [Moon]
-### L3 the seven cases (L5 field tag on each)
+  - star rows: J Al Rescha → J Ketu RA 56.9954 57 whole (59.60)
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - star rows: J Murzim → J Ketu Dec 7.0112 7 whole (19.50)
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+  - other chart, star rows: H Zubeneschamali → H Ketu RA 174.9855 175 whole (7.50)
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+### L3 matches
 - **1. same body on both charts**: none
 - **2. one body in both planes**: none
 - **3. runner number = sky number**
@@ -906,48 +1484,100 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 50 whole — also: 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan
     - J Mirach → J Quaoar Dec 49.9846 50 whole (5.22) = S Moon → El Nath Dec 49.9932 50 whole (43.85)
 - **4. circle divisions**
-  - 3 = 360/120 — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes, 6 Silva Eclipse / Thomas Willmott
+  - 3 = 360/120 — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
     - S Pallas → H Pallas Dec 2.9863 3 whole (10.07)
-  - 8 = 360/45 — also: 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan
+  - 8 = 360/45 — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan
     - S Moon → H Gonggong Dec 8.0005 8 whole (95.38)
+  - 18 = 360/20 — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes
+    - H Deneb → H Makemake Dec 18.0112 18 whole (19.46)
+  - 5 = 360/72 — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+    - H El Nath → H Vesta Dec 4.9838 5 whole (3.68)
+  - 3 = 360/120 — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+    - H Facies → H Pluto RA 2.9934 3 whole (44.82)
+  - 9 = 360/40 — also: 3 Gredin / Brian Hughes, 6 Silva Eclipse / Thomas Willmott
+    - H Fomalhaut → H Gonggong RA 8.9859 9 whole (8.60)
   - 12 = 360/30 — also: 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
     - H Mirach → H Vesta Dec 11.9948 12 whole (54.95)
-  - 4 = 360/90 — also: 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan
+  - 8 = 360/45 — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan
+    - H Procyon → H Mercury Dec 8.0108 8 whole (20.99)
+  - 5 = 360/72 — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+    - H Zubeneschamali → H Rahu RA 5.0145 5 whole (7.50)
+  - 6 = 360/60 — also: 3 Gredin / Brian Hughes
+    - H Zubeneschamali → H Eris Dec 5.9870 6 whole (12.39)
+  - 4 = 360/90 — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
     - H Zubeneschamali → H Gonggong Dec 4.0011 4 whole (89.18)
-  - 3 = 360/120 — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes, 6 Silva Eclipse / Thomas Willmott
+  - 3 = 360/120 — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
     - S Ceres → J Ceres RA 2.9800 3 whole (loose)
-  - 2 = 360/180 — also: 3 Gredin / Brian Hughes, 6 Silva Eclipse / Thomas Willmott
+  - 2 = 360/180 — also: 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
     - S Eris → J Eris RA 1.9888 2 whole (19.52)
   - 12 = 360/30 — also: 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
     - S Orcus → J Orcus Dec 11.9871 12 whole (12.66)
-  - 4 = 360/90 — also: 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan
+  - 5 = 360/72 — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+    - J Alhena → J Haumea Dec 5.0134 5 whole (10.90)
+  - 40 = 360/9 — only
+    - J Deneb → J Sedna Dec 40.0170 40 whole (2.24)
+  - 20 = 360/18 — also: 2 Mister Watson / Kielan Woods, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+    - J Kaus Australis → J Quaoar Dec 20.0198 20 whole (0.01)
+  - 10 = 360/36 — also: 5 Half Track / Sean Quinlan
+    - J Procyon → J Sun Dec 10.0100 10 whole (25.07)
+  - 4 = 360/90 — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
     - J Procyon → J Mercury Dec 4.0045 4 whole (60.06)
+  - 5 = 360/72 — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+    - J Zubeneschamali → J Quaoar Dec 4.9832 5 whole (2.55)
 - **5. same number in more than one place**
   - 58×φ golden — only
     - S Venus → H Venus RA 93.8181 58×φ golden (loose)
     - H Procyon → H Haumea RA 93.8411 58×φ golden (72.38)
-  - 3 whole — also: 6 Silva Eclipse / Thomas Willmott
+  - 3 whole — also: 1 Boss Man Fred / Harry Skelton, 6 Silva Eclipse / Thomas Willmott
     - S Pallas → H Pallas Dec 2.9863 3 whole (10.07)
+    - H Facies → H Pluto RA 2.9934 3 whole (44.82)
     - S Ceres → J Ceres RA 2.9800 3 whole (loose)
+  - 7 whole — also: 2 Mister Watson / Kielan Woods
+    - S Sun → H Mercury Dec 6.9967 7 whole (69.82)
+    - J Murzim → J Ketu Dec 7.0112 7 whole (19.50)
   - 18.8889 ninth — only
     - S Sun → H Mars Dec 18.8838 18.8889 ninth (96.35)
     - S Alhena → J Jupiter Dec 18.8893 18.8889 ninth (99.69)
   - 13×φ golden — also: 2 Mister Watson / Kielan Woods
     - S Moon → H Saturn RA 21.0336 13×φ golden (94.82)
     - J Al Rescha → J Uranus Dec 21.0376 13×φ golden (81.38)
-  - 32 whole — only
+  - 8 whole — also: 3 Gredin / Brian Hughes
+    - S Moon → H Gonggong Dec 8.0005 8 whole (95.38)
+    - H Procyon → H Mercury Dec 8.0108 8 whole (20.99)
+  - 32 whole — also: 2 Mister Watson / Kielan Woods
     - H Acumen → H Mercury Dec 32.0011 32 whole (89.14)
     - H El Nath → H Eris Dec 32.0047 32 whole (58.36)
-  - 77×φ golden — only
-    - H Kaus Australis → H Pallas RA 124.5870 77×φ golden (90.06)
-    - H Kaus Australis → H Transpluto RA 124.5800 77×φ golden (53.80)
-  - 12 whole — only
-    - H Mirach → H Vesta Dec 11.9948 12 whole (54.95)
-    - S Orcus → J Orcus Dec 11.9871 12 whole (12.66)
-  - 42 whole — only
+    - H Praesepe → H Saturn Dec 31.9816 32 whole (0.65)
+    - J Deneb → J Transpluto Dec 32.0127 32 whole (13.32)
+  - 31 whole — also: 6 Silva Eclipse / Thomas Willmott
+    - H Deneb → H Chiron RA 30.9827 31 whole (1.84)
+    - H El Nath → H Chiron Dec 31.0194 31 whole (0.10)
+    - H Kaus Australis → H Eris Dec 30.9864 31 whole (10.08)
+  - 5 whole — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+    - H El Nath → H Vesta Dec 4.9838 5 whole (3.68)
+    - H Zubeneschamali → H Rahu RA 5.0145 5 whole (7.50)
+    - J Alhena → J Haumea Dec 5.0134 5 whole (10.90)
+    - J Zubeneschamali → J Quaoar Dec 4.9832 5 whole (2.55)
+  - 42 whole — also: 3 Gredin / Brian Hughes
+    - H El Nath → H Gonggong Dec 41.9929 42 whole (41.44)
     - H Mirach → H Gonggong RA 42.0038 42 whole (65.72)
     - J Fomalhaut → J Neptune RA 42.0043 42 whole (61.86)
-  - 4 whole — only
+  - 46 whole — also: 1 Boss Man Fred / Harry Skelton
+    - H Facies → H Jupiter Dec 46.0093 46 whole (28.45)
+    - S Mercury → J Jupiter RA 45.9968 46 whole (70.45)
+  - 33 whole — also: 1 Boss Man Fred / Harry Skelton
+    - H Facies → H Mars Dec 33.0005 33 whole (95.36)
+    - H Zubeneschamali → H Vesta Dec 33.0079 33 whole (36.44)
+  - 77×φ golden — also: 5 Half Track / Sean Quinlan
+    - H Kaus Australis → H Pallas RA 124.5870 77×φ golden (90.06)
+    - H Kaus Australis → H Transpluto RA 124.5800 77×φ golden (53.80)
+  - 12 whole — also: 5 Half Track / Sean Quinlan
+    - H Mirach → H Vesta Dec 11.9948 12 whole (54.95)
+    - S Orcus → J Orcus Dec 11.9871 12 whole (12.66)
+  - 25 whole — only
+    - H Murzim → H Sedna Dec 25.0176 25 whole (1.46)
+    - S Sun → J Sun Dec 25.0249 25 whole (loose)
+  - 4 whole — also: 3 Gredin / Brian Hughes
     - H Zubeneschamali → H Gonggong Dec 4.0011 4 whole (89.18)
     - J Procyon → J Mercury Dec 4.0045 4 whole (60.06)
   - 100 whole — only
@@ -956,110 +1586,224 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 57 whole — only
     - J Acumen → J Mars Dec 56.9944 57 whole (51.70)
     - J Al Rescha → J Ketu RA 56.9954 57 whole (59.60)
-- **6. star and sky line on one body**
-  - J Pluto on Zubeneschamali — only
-    - J Zubeneschamali → J Pluto Dec 0.0365 conj (77.16)
-    - S Sun → J Pluto RA 90.9993 91 whole (92.91)
-- **7. centres meeting**
-  - Mercury: Jupiter, Moon, Sun — also: 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan
-    - [Jupiter] H Praesepe → H Mercury RA 129.9872 130 whole (12.89)
-    - [Moon] H Kaus Australis → H Mercury RA 83.9945 84 whole (52.32)
-    - [Moon] J Al Rescha → J Mercury RA 113.2919 70×φ golden (0.78)
-    - [Sun] S Sun → H Mercury Dec 6.9967 7 whole (69.82)
-    - [Sun] H Acumen → H Mercury Dec 32.0011 32 whole (89.14)
-    - [Sun] H Procyon → H Mercury Dec 8.0108 8 whole (20.99)
-    - [Sun] J Procyon → J Mercury RA 28.9842 29 whole (4.48)
-    - [Sun] J Procyon → J Mercury Dec 4.0045 4 whole (60.06)
-  - Mars: Moon, Sun — only
-    - [Moon] H Facies → H Mars Dec 33.0005 33 whole (95.36)
-    - [Moon] J Kaus Australis → J Mars RA 159.9985 160 whole (85.87)
-    - [Sun] S Sun → H Mars Dec 18.8838 18.8889 ninth (96.35)
-    - [Sun] J Acumen → J Mars Dec 56.9944 57 whole (51.70)
-    - [Sun] J Procyon → J Mars RA 1.2285 conj (3.28)
-  - Neptune: Jupiter, Moon, Sun — also: 1 Boss Man Fred / Harry Skelton
-    - [Jupiter] J Fomalhaut → J Neptune RA 42.0043 42 whole (61.86)
-    - [Moon] H Al Rescha → H Neptune RA 54.0076 54 whole (38.53)
-    - [Moon] J El Nath → J Neptune RA 139.1558 86×φ golden (71.98)
-    - [Sun] S Sun → H Neptune RA 0.0552 conj (92.78)
-    - [Sun] H Alhena → H Neptune RA 122.9275 φ^10 phi power (80.16)
-    - [Sun] J Alhena → J Neptune RA 157.0099 157 whole (25.62)
-  - Makemake: Moon, Sun — also: 2 Mister Watson / Kielan Woods
-    - [Moon] H Deneb → H Makemake Dec 18.0112 18 whole (19.46)
-    - [Moon] J Kaus Australis → J Makemake RA 98.9815 99 whole (0.54)
-    - [Sun] S Sun → H Makemake RA 145.6162 90×φ golden (61.88)
-  - Gonggong: Jupiter, Moon, Sun — also: 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan
-    - [Jupiter] H Fomalhaut → H Gonggong RA 8.9859 9 whole (8.60)
-    - [Jupiter] J Murzim → J Gonggong Dec 0.2861 conj (0.21)
-    - [Moon] S Moon → H Gonggong Dec 8.0005 8 whole (95.38)
-    - [Moon] H El Nath → H Gonggong Dec 41.9929 42 whole (41.44)
-    - [Moon] H Kaus Australis → H Gonggong Dec 20.9982 21 whole (82.79)
-    - [Moon] H Mirach → H Gonggong RA 42.0038 42 whole (65.72)
-    - [Moon] H Mirach → H Gonggong Dec 49.0039 49 whole (65.08)
-    - [Moon] H Zubeneschamali → H Gonggong Dec 4.0011 4 whole (89.18)
-    - [Sun] S Sun → H Gonggong RA 1.1306 conj (6.06)
-    - [Sun] H Alhena → H Gonggong RA 124.0029 124 whole (72.76)
-  - Saturn: Jupiter, Moon — also: 2 Mister Watson / Kielan Woods, 5 Half Track / Sean Quinlan
-    - [Jupiter] H Praesepe → H Saturn Dec 31.9816 32 whole (0.65)
-    - [Moon] S Moon → H Saturn RA 21.0336 13×φ golden (94.82)
-    - [Moon] H Facies → H Saturn RA 61.4899 38×φ golden (73.81)
-  - Transpluto: Moon, Sun — only
-    - [Moon] H Kaus Australis → H Transpluto RA 124.5800 77×φ golden (53.80)
-    - [Moon] J Deneb → J Transpluto Dec 32.0127 32 whole (13.32)
-    - [Moon] J Kaus Australis → J Transpluto RA 128.9954 129 whole (59.26)
-    - [Moon] J Zubeneschamali → J Transpluto Dec 22.6513 14×φ golden (93.09)
-    - [Sun] H Acumen → H Transpluto RA 117.0005 117 whole (95.36)
-  - Uranus: Jupiter, Moon — only
-    - [Jupiter] H Praesepe → H Uranus RA 121.3323 75×φ golden (13.95)
-    - [Moon] H Al Rescha → H Uranus Dec 0.2588 conj (1.89)
-    - [Moon] J Al Rescha → J Uranus Dec 21.0376 13×φ golden (81.38)
-    - [Moon] J Facies → J Uranus RA 34.0019 34 whole (81.96)
-  - Pluto: Jupiter, Moon, Sun — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes
-    - [Jupiter] H Praesepe → H Pluto RA 152.0682 94×φ golden (2.75)
-    - [Moon] H Al Rescha → H Pluto RA 108.4120 67×φ golden (78.36)
-    - [Moon] H Facies → H Pluto RA 2.9934 3 whole (44.82)
-    - [Moon] J El Nath → J Pluto RA 163.9855 164 whole (7.47)
-    - [Moon] J Zubeneschamali → J Pluto Dec 0.0365 conj (77.16)
-    - [Sun] S Sun → J Pluto RA 90.9993 91 whole (92.91)
-  - Sedna: Jupiter, Moon, Sun — also: 1 Boss Man Fred / Harry Skelton, 6 Silva Eclipse / Thomas Willmott
-    - [Jupiter] H Murzim → H Sedna Dec 25.0176 25 whole (1.46)
-    - [Moon] H Al Rescha → H Sedna RA 23.0039 23 whole (64.91)
-    - [Moon] J Deneb → J Sedna Dec 40.0170 40 whole (2.24)
-    - [Sun] J Procyon → J Sedna Dec 0.0380 conj (76.25)
-  - Eris: Jupiter, Moon — also: 6 Silva Eclipse / Thomas Willmott
-    - [Jupiter] H Murzim → H Eris Dec 14.5618 9×φ golden (96.84)
-    - [Moon] H El Nath → H Eris Dec 32.0047 32 whole (58.36)
-    - [Moon] H Kaus Australis → H Eris Dec 30.9864 31 whole (10.08)
-    - [Moon] H Mirach → H Eris Dec 39.0157 39 whole (4.60)
-    - [Moon] H Zubeneschamali → H Eris Dec 5.9870 6 whole (12.39)
-  - Jupiter: Jupiter, Moon, Sun — also: 1 Boss Man Fred / Harry Skelton, 5 Half Track / Sean Quinlan
-    - [Jupiter] S Mercury → J Jupiter RA 45.9968 46 whole (70.45)
-    - [Moon] H Facies → H Jupiter Dec 46.0093 46 whole (28.45)
-    - [Sun] S Alhena → J Jupiter Dec 18.8893 18.8889 ninth (99.69)
-  - Quaoar: Jupiter, Moon, Sun — also: 2 Mister Watson / Kielan Woods
-    - [Jupiter] H Fomalhaut → H Quaoar RA 79.2883 49×φ golden (73.16)
-    - [Jupiter] J Fomalhaut → J Quaoar RA 100.9808 101 whole (0.18)
-    - [Moon] H Facies → H Quaoar RA 13.9801 14 whole (0.00)
-    - [Moon] J El Nath → J Quaoar RA 161.8676 100×φ^1 phi power (84.76)
-    - [Moon] J Kaus Australis → J Quaoar Dec 20.0198 20 whole (0.01)
-    - [Moon] J Mirach → J Quaoar RA 133.9990 134 whole (90.36)
-    - [Moon] J Mirach → J Quaoar Dec 49.9846 50 whole (5.22)
-    - [Moon] J Zubeneschamali → J Quaoar Dec 4.9832 5 whole (2.55)
-    - [Sun] J Alhena → J Quaoar RA 144.0135 89×φ golden (54.26)
-  - Pallas: Jupiter, Moon — only
-    - [Jupiter] H Fomalhaut → H Pallas Dec 24.2760 15×φ golden (69.06)
-    - [Jupiter] J Praesepe → J Pallas RA 131.0877 81×φ golden (2.81)
-    - [Moon] H Kaus Australis → H Pallas RA 124.5870 77×φ golden (90.06)
-    - [Moon] H Kaus Australis → H Pallas Dec 29.0370 φ^7 phi power (96.52)
-  - Haumea: Jupiter, Moon, Sun — only
-    - [Jupiter] H Murzim → H Haumea RA 112.9908 113 whole (29.11)
-    - [Moon] J Zubeneschamali → J Haumea RA 34.9856 35 whole (7.91)
-    - [Sun] H Procyon → H Haumea RA 93.8411 58×φ golden (72.38)
-    - [Sun] J Alhena → J Haumea Dec 5.0134 5 whole (10.90)
-    - [Sun] J Procyon → J Haumea Dec 16.1865 10×φ^1 phi power (85.33)
-  - Ketu: Jupiter, Moon — also: 2 Mister Watson / Kielan Woods
-    - [Jupiter] J Murzim → J Ketu Dec 7.0112 7 whole (19.50)
-    - [Moon] H Zubeneschamali → H Ketu RA 174.9855 175 whole (7.50)
-    - [Moon] J Al Rescha → J Ketu RA 56.9954 57 whole (59.60)
+### L4 every natal body
+- **Venus**
+  - same body: S Venus → H Venus RA 93.8181 58×φ golden (loose) — only
+- **Saturn**
+  - same body: S Saturn → H Saturn RA 102.9849 103 whole (6.04) — also: 5 Half Track / Sean Quinlan
+  - top rows: S Moon → H Saturn RA 21.0336 13×φ golden (94.82) — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+  - star rows: H Facies → H Saturn RA 61.4899 38×φ golden (73.81) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - star rows: H Praesepe → H Saturn Dec 31.9816 32 whole (0.65) — also: 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+- **Pluto**
+  - same body: S Pluto → H Pluto RA 17.6756 17.7778 ninth (loose) — also: 2 Mister Watson / Kielan Woods, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+  - star rows: H Al Rescha → H Pluto RA 108.4120 67×φ golden (78.36) — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - star rows: H Facies → H Pluto RA 2.9934 3 whole (44.82) — only
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - star rows: H Praesepe → H Pluto RA 152.0682 94×φ golden (2.75) — also: 1 Boss Man Fred / Harry Skelton, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+  - top rows: S Sun → J Pluto RA 90.9993 91 whole (92.91) — also: 1 Boss Man Fred / Harry Skelton
+  - star rows: J El Nath → J Pluto RA 163.9855 164 whole (7.47) — also: 1 Boss Man Fred / Harry Skelton
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - star rows: J Zubeneschamali → J Pluto Dec 0.0365 conj (77.16) — only
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+- **Chiron**
+  - same body: S Chiron → H Chiron RA 27.0155 27 whole (5.13) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods, 6 Silva Eclipse / Thomas Willmott
+  - star rows: H Deneb → H Chiron RA 30.9827 31 whole (1.84) — also: 5 Half Track / Sean Quinlan
+    - source line: S Moon → Deneb Dec 66.6638 66.6667 ninth (97.54)
+  - star rows: H El Nath → H Chiron Dec 31.0194 31 whole (0.10) — only
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+- **Pallas**
+  - same body: S Pallas → H Pallas Dec 2.9863 3 whole (10.07) — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes
+  - star rows: H Fomalhaut → H Pallas Dec 24.2760 15×φ golden (69.06) — also: 3 Gredin / Brian Hughes
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+  - star rows: H Kaus Australis → H Pallas RA 124.5870 77×φ golden (90.06) — also: 2 Mister Watson / Kielan Woods
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - star rows: H Kaus Australis → H Pallas Dec 29.0370 φ^7 phi power (96.52) — also: 2 Mister Watson / Kielan Woods
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - star rows: J Praesepe → J Pallas RA 131.0877 81×φ golden (2.81) — only
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+- **Juno**
+  - same body: S Juno → H Juno Dec 3.2331 2×φ golden (loose) — also: 3 Gredin / Brian Hughes, 6 Silva Eclipse / Thomas Willmott
+- **Mercury**
+  - top rows: S Sun → H Mercury Dec 6.9967 7 whole (69.82) — only
+  - star rows: H Acumen → H Mercury Dec 32.0011 32 whole (89.14) — also: 2 Mister Watson / Kielan Woods, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - star rows: H Kaus Australis → H Mercury RA 83.9945 84 whole (52.32) — only
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - star rows: H Praesepe → H Mercury RA 129.9872 130 whole (12.89) — only
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+  - star rows: H Procyon → H Mercury Dec 8.0108 8 whole (20.99) — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+  - star rows: J Al Rescha → J Mercury RA 113.2919 70×φ golden (0.78) — also: 1 Boss Man Fred / Harry Skelton, 5 Half Track / Sean Quinlan
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - star rows: J Procyon → J Mercury RA 28.9842 29 whole (4.48) — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+  - star rows: J Procyon → J Mercury Dec 4.0045 4 whole (60.06) — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+- **Mars**
+  - top rows: S Sun → H Mars Dec 18.8838 18.8889 ninth (96.35) — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes
+  - star rows: H Facies → H Mars Dec 33.0005 33 whole (95.36) — also: 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - same body: S Mars → J Mars RA 177.6414 177.778 ninth (loose) — also: 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+  - star rows: J Acumen → J Mars Dec 56.9944 57 whole (51.70) — also: 3 Gredin / Brian Hughes
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - star rows: J Kaus Australis → J Mars RA 159.9985 160 whole (85.87) — only
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - star rows: J Procyon → J Mars RA 1.2285 conj (3.28) — also: 3 Gredin / Brian Hughes
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+- **Neptune**
+  - top rows: S Sun → H Neptune RA 0.0552 conj (92.78) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods, 6 Silva Eclipse / Thomas Willmott
+  - star rows: H Al Rescha → H Neptune RA 54.0076 54 whole (38.53) — also: 3 Gredin / Brian Hughes
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - star rows: H Alhena → H Neptune RA 122.9275 φ^10 phi power (80.16) — only
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - same body: S Neptune → J Neptune Dec 15.5079 15.5556 ninth (loose) — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes, 6 Silva Eclipse / Thomas Willmott
+  - star rows: J Alhena → J Neptune RA 157.0099 157 whole (25.62) — only
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - star rows: J El Nath → J Neptune RA 139.1558 86×φ golden (71.98) — also: 3 Gredin / Brian Hughes
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - star rows: J Fomalhaut → J Neptune RA 42.0043 42 whole (61.86) — only
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+- **Makemake**
+  - top rows: S Sun → H Makemake RA 145.6162 90×φ golden (61.88) — also: 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan
+  - star rows: H Deneb → H Makemake Dec 18.0112 18 whole (19.46) — also: 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → Deneb Dec 66.6638 66.6667 ninth (97.54)
+  - star rows: J Kaus Australis → J Makemake RA 98.9815 99 whole (0.54) — also: 2 Mister Watson / Kielan Woods
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+- **Gonggong**
+  - top rows: S Sun → H Gonggong RA 1.1306 conj (6.06) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan, 6 Silva Eclipse / Thomas Willmott
+  - top rows: S Moon → H Gonggong Dec 8.0005 8 whole (95.38) — also: 3 Gredin / Brian Hughes
+  - star rows: H Alhena → H Gonggong RA 124.0029 124 whole (72.76) — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - star rows: H El Nath → H Gonggong Dec 41.9929 42 whole (41.44) — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - star rows: H Fomalhaut → H Gonggong RA 8.9859 9 whole (8.60) — also: 3 Gredin / Brian Hughes
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+  - star rows: H Kaus Australis → H Gonggong Dec 20.9982 21 whole (82.79) — also: 5 Half Track / Sean Quinlan
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - star rows: H Mirach → H Gonggong RA 42.0038 42 whole (65.72) — also: 3 Gredin / Brian Hughes
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+  - star rows: H Mirach → H Gonggong Dec 49.0039 49 whole (65.08) — also: 3 Gredin / Brian Hughes
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+  - star rows: H Zubeneschamali → H Gonggong Dec 4.0011 4 whole (89.18) — also: 2 Mister Watson / Kielan Woods, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+  - star rows: J Murzim → J Gonggong Dec 0.2861 conj (0.21) — only
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+- **Transpluto**
+  - star rows: H Acumen → H Transpluto RA 117.0005 117 whole (95.36) — only
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - star rows: H Kaus Australis → H Transpluto RA 124.5800 77×φ golden (53.80) — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - star rows: J Deneb → J Transpluto Dec 32.0127 32 whole (13.32) — also: 2 Mister Watson / Kielan Woods
+    - source line: S Moon → Deneb Dec 66.6638 66.6667 ninth (97.54)
+  - star rows: J Kaus Australis → J Transpluto RA 128.9954 129 whole (59.26) — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - star rows: J Zubeneschamali → J Transpluto Dec 22.6513 14×φ golden (93.09) — also: 1 Boss Man Fred / Harry Skelton
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+- **Uranus**
+  - star rows: H Al Rescha → H Uranus Dec 0.2588 conj (1.89) — also: 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - star rows: H Praesepe → H Uranus RA 121.3323 75×φ golden (13.95) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+  - star rows: J Al Rescha → J Uranus Dec 21.0376 13×φ golden (81.38) — also: 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - star rows: J Facies → J Uranus RA 34.0019 34 whole (81.96) — also: 1 Boss Man Fred / Harry Skelton, 5 Half Track / Sean Quinlan
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+- **Sedna**
+  - star rows: H Al Rescha → H Sedna RA 23.0039 23 whole (64.91) — only
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - star rows: H Murzim → H Sedna Dec 25.0176 25 whole (1.46) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods, 5 Half Track / Sean Quinlan
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+  - star rows: J Deneb → J Sedna Dec 40.0170 40 whole (2.24) — also: 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → Deneb Dec 66.6638 66.6667 ninth (97.54)
+  - star rows: J Procyon → J Sedna Dec 0.0380 conj (76.25) — also: 3 Gredin / Brian Hughes, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+- **Vesta**
+  - star rows: H El Nath → H Vesta Dec 4.9838 5 whole (3.68) — also: 5 Half Track / Sean Quinlan
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - star rows: H Kaus Australis → H Vesta Dec 58.0072 58 whole (40.73) — also: 1 Boss Man Fred / Harry Skelton
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - star rows: H Mirach → H Vesta Dec 11.9948 12 whole (54.95) — also: 3 Gredin / Brian Hughes
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+  - star rows: H Zubeneschamali → H Vesta RA 143.9834 144 whole (2.95) — also: 5 Half Track / Sean Quinlan
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+  - star rows: H Zubeneschamali → H Vesta Dec 33.0079 33 whole (36.44) — also: 5 Half Track / Sean Quinlan
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+- **Eris**
+  - star rows: H El Nath → H Eris Dec 32.0047 32 whole (58.36) — also: 1 Boss Man Fred / Harry Skelton
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - star rows: H Kaus Australis → H Eris Dec 30.9864 31 whole (10.08) — also: 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - star rows: H Mirach → H Eris Dec 39.0157 39 whole (4.60) — only
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+  - star rows: H Murzim → H Eris Dec 14.5618 9×φ golden (96.84) — also: 5 Half Track / Sean Quinlan
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+  - star rows: H Zubeneschamali → H Eris Dec 5.9870 6 whole (12.39) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+  - same body: S Eris → J Eris RA 1.9888 2 whole (19.52) — also: 3 Gredin / Brian Hughes
+- **Jupiter**
+  - star rows: H Facies → H Jupiter Dec 46.0093 46 whole (28.45) — also: 2 Mister Watson / Kielan Woods
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - top rows: S Mercury → J Jupiter RA 45.9968 46 whole (70.45) — only
+  - star rows: S Alhena → J Jupiter Dec 18.8893 18.8889 ninth (99.69) — also: 1 Boss Man Fred / Harry Skelton, 5 Half Track / Sean Quinlan
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+- **Quaoar**
+  - star rows: H Facies → H Quaoar RA 13.9801 14 whole (0.00) — also: 5 Half Track / Sean Quinlan
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - star rows: H Fomalhaut → H Quaoar RA 79.2883 49×φ golden (73.16) — only
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+  - star rows: J Alhena → J Quaoar RA 144.0135 89×φ golden (54.26) — also: 1 Boss Man Fred / Harry Skelton, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - star rows: J El Nath → J Quaoar RA 161.8676 100×φ^1 phi power (84.76) — also: 2 Mister Watson / Kielan Woods, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - star rows: J Fomalhaut → J Quaoar RA 100.9808 101 whole (0.18) — only
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+  - star rows: J Kaus Australis → J Quaoar Dec 20.0198 20 whole (0.01) — only
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - star rows: J Mirach → J Quaoar RA 133.9990 134 whole (90.36) — only
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+  - star rows: J Mirach → J Quaoar Dec 49.9846 50 whole (5.22) — only
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+  - star rows: J Zubeneschamali → J Quaoar Dec 4.9832 5 whole (2.55) — only
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+- **Haumea**
+  - star rows: H Murzim → H Haumea RA 112.9908 113 whole (29.11) — also: 6 Silva Eclipse / Thomas Willmott
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+  - star rows: H Procyon → H Haumea RA 93.8411 58×φ golden (72.38) — also: 3 Gredin / Brian Hughes
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+  - star rows: J Alhena → J Haumea Dec 5.0134 5 whole (10.90) — only
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - star rows: J Procyon → J Haumea Dec 16.1865 10×φ^1 phi power (85.33) — also: 3 Gredin / Brian Hughes
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+  - star rows: J Zubeneschamali → J Haumea RA 34.9856 35 whole (7.91) — only
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+- **Orcus**
+  - star rows: H Procyon → H Orcus RA 33.3324 33.3333 ninth (98.91) — also: 3 Gredin / Brian Hughes
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+  - same body: S Orcus → J Orcus Dec 11.9871 12 whole (12.66) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan
+- **Rahu**
+  - star rows: H Zubeneschamali → H Rahu RA 5.0145 5 whole (7.50) — only
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+  - same body: S Rahu → J Rahu RA 99.9727 100 whole (loose) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes
+  - star rows: J Al Rescha → J Rahu RA 123.0046 123 whole (59.60) — only
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+- **Ketu**
+  - star rows: H Zubeneschamali → H Ketu RA 174.9855 175 whole (7.50) — also: 5 Half Track / Sean Quinlan
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+  - same body: S Ketu → J Ketu RA 99.9727 100 whole (loose) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes
+  - star rows: J Al Rescha → J Ketu RA 56.9954 57 whole (59.60) — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - star rows: J Murzim → J Ketu Dec 7.0112 7 whole (19.50) — only
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+- **Sun**
+  - same body: S Sun → J Sun Dec 25.0249 25 whole (loose) — also: 2 Mister Watson / Kielan Woods, 6 Silva Eclipse / Thomas Willmott
+  - star rows: J Procyon → J Sun Dec 10.0100 10 whole (25.07) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+- **Ceres**
+  - same body: S Ceres → J Ceres RA 2.9800 3 whole (loose) — also: 1 Boss Man Fred / Harry Skelton, 6 Silva Eclipse / Thomas Willmott
 
 ## 5 Half Track / Sean Quinlan
 ### L1 same bodies
@@ -1076,62 +1820,96 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - S Transpluto → J Transpluto RA 12.1686 12.2222 ninth (loose)
 ### L2 what lands on each same body
 - **H Mars** (same body: S Mars → H Mars Dec 1.0127 1 whole (13.18))
-  - top rows: S Jupiter → H Mars RA 97.0823 60×φ golden (98.56) [Jupiter]
-  - top rows: S Moon → H Mars Dec 0.0319 conj (79.88) [Moon]
-  - other chart, star rows: J Facies → J Mars RA 85.9866 86 whole (10.78) [Moon]
-  - other chart, star rows: J Facies → J Mars Dec 20.0060 20 whole (49.08) [Moon]
+  - top rows: S Jupiter → H Mars RA 97.0823 60×φ golden (98.56)
+  - top rows: S Moon → H Mars Dec 0.0319 conj (79.88)
+  - other chart, star rows: J Facies → J Mars RA 85.9866 86 whole (10.78)
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - other chart, star rows: J Facies → J Mars Dec 20.0060 20 whole (49.08)
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
 - **H Jupiter** (same body: S Jupiter → H Jupiter RA 178.6047 10×φ^6 phi power (loose))
-  - top rows: S Ceres → H Jupiter RA 105.1747 65×φ golden (85.44) [Jupiter]
-  - star rows: S Al Rescha → H Jupiter Dec 5.0082 5 whole (34.78) [Moon]
-  - star rows: H Alhena → H Jupiter RA 65.9962 66 whole (65.35) [Sun]
-  - star rows: H Fomalhaut → H Jupiter RA 178.9883 179 whole (17.09) [Jupiter]
-  - star rows: H Mirach → H Jupiter RA 147.9943 148 whole (51.47) [Moon]
-  - other chart, top rows: S Uranus → J Jupiter RA 137.9968 138 whole (70.18) [Jupiter]
-  - other chart, top rows: S Pluto → J Jupiter RA 39.0014 39 whole (86.83) [Jupiter]
+  - top rows: S Ceres → H Jupiter RA 105.1747 65×φ golden (85.44)
+  - star rows: S Al Rescha → H Jupiter Dec 5.0082 5 whole (34.78)
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - star rows: H Alhena → H Jupiter RA 65.9962 66 whole (65.35)
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - star rows: H Fomalhaut → H Jupiter RA 178.9883 179 whole (17.09)
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+  - star rows: H Mirach → H Jupiter RA 147.9943 148 whole (51.47)
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+  - other chart, top rows: S Uranus → J Jupiter RA 137.9968 138 whole (70.18)
+  - other chart, top rows: S Pluto → J Jupiter RA 39.0014 39 whole (86.83)
 - **H Saturn** (same body: S Saturn → H Saturn RA 65.9928 66 whole (40.86))
-  - star rows: H Al Rescha → H Saturn RA 135.9031 84×φ golden (40.41) [Moon]
-  - star rows: H Praesepe → H Saturn RA 124.5778 77×φ golden (44.30) [Jupiter]
-  - other chart, top rows: S Moon → J Saturn Dec 8.0013 8 whole (87.45) [Moon]
-  - other chart, star rows: J El Nath → J Saturn Dec 41.9935 42 whole (45.59) [Moon]
-  - other chart, star rows: J Kaus Australis → J Saturn RA 55.5584 55.5556 ninth (97.35) [Moon]
-  - other chart, star rows: J Kaus Australis → J Saturn Dec 20.9996 21 whole (96.24) [Moon]
-  - other chart, star rows: J Mirach → J Saturn RA 156.9571 97×φ golden (57.80) [Moon]
-  - other chart, star rows: J Mirach → J Saturn Dec 49.0093 49 whole (28.48) [Moon]
-  - other chart, star rows: J Zubeneschamali → J Saturn Dec 4.0030 4 whole (71.91) [Moon]
+  - star rows: H Al Rescha → H Saturn RA 135.9031 84×φ golden (40.41)
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - star rows: H Praesepe → H Saturn RA 124.5778 77×φ golden (44.30)
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+  - other chart, top rows: S Moon → J Saturn Dec 8.0013 8 whole (87.45)
+  - other chart, star rows: J El Nath → J Saturn Dec 41.9935 42 whole (45.59)
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - other chart, star rows: J Kaus Australis → J Saturn RA 55.5584 55.5556 ninth (97.35)
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - other chart, star rows: J Kaus Australis → J Saturn Dec 20.9996 21 whole (96.24)
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - other chart, star rows: J Mirach → J Saturn RA 156.9571 97×φ golden (57.80)
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+  - other chart, star rows: J Mirach → J Saturn Dec 49.0093 49 whole (28.48)
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+  - other chart, star rows: J Zubeneschamali → J Saturn Dec 4.0030 4 whole (71.91)
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
 - **J Pluto** (same body: S Pluto → J Pluto Dec 26.0278 26 whole (loose))
-  - top rows: S Jupiter → J Pluto RA 129.0035 129 whole (68.04) [Jupiter]
-  - star rows: J Kaus Australis → J Pluto RA 61.0133 61 whole (11.37) [Moon]
-  - star rows: J Praesepe → J Pluto RA 84.9943 85 whole (51.46) [Jupiter]
-  - other chart, star rows: H Al Rescha → H Pluto RA 102.0017 102 whole (83.51) [Moon]
+  - top rows: S Jupiter → J Pluto RA 129.0035 129 whole (68.04)
+  - star rows: J Kaus Australis → J Pluto RA 61.0133 61 whole (11.37)
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - star rows: J Praesepe → J Pluto RA 84.9943 85 whole (51.46)
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+  - other chart, star rows: H Al Rescha → H Pluto RA 102.0017 102 whole (83.51)
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
 - **J Vesta** (same body: S Vesta → J Vesta RA 147.2391 91×φ golden (87.94))
-  - star rows: J El Nath → J Vesta RA 0.4499 conj (49.01) [Moon]
-  - other chart, star rows: H Zubeneschamali → H Vesta RA 177.7031 177.778 ninth (94.15) [Moon]
+  - star rows: J El Nath → J Vesta RA 0.4499 conj (49.01)
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - other chart, star rows: H Zubeneschamali → H Vesta RA 177.7031 177.778 ninth (94.15)
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
 - **J Sedna** (same body: S Sedna → J Sedna RA 19.4183 12×φ golden (88.73); S Sedna → J Sedna Dec 5.0120 5 whole (16.14))
-  - star rows: J Facies → J Sedna Dec 26.9870 27 whole (12.25) [Moon]
-  - star rows: J Murzim → J Sedna Dec 21.0370 13×φ golden (85.02) [Jupiter]
-  - other chart, star rows: H Zubeneschamali → H Sedna RA 173.9915 174 whole (33.02) [Moon]
+  - star rows: J Facies → J Sedna Dec 26.9870 27 whole (12.25)
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - star rows: J Murzim → J Sedna Dec 21.0370 13×φ golden (85.02)
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+  - other chart, star rows: H Zubeneschamali → H Sedna RA 173.9915 174 whole (33.02)
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
 - **J Makemake** (same body: S Makemake → J Makemake Dec 14.4398 14.4444 ninth (loose))
-  - body line: S Moon → Makemake Dec 43.9984 44 whole (84.30)
-  - top rows: S Jupiter → J Makemake RA 179.4059 10×φ^6 phi power (91.95) [Jupiter]
-  - top rows: S Sun → J Makemake RA 173.1216 107×φ golden (56.58) [Sun]
-  - star rows: J Alhena → J Makemake RA 63.9991 64 whole (91.30) [Sun]
-  - star rows: J Mirach → J Makemake RA 145.9974 146 whole (75.70) [Moon]
-  - star rows: J Murzim → J Makemake Dec 55.0069 55 whole (42.63) [Jupiter]
-  - other chart, star rows: H Deneb → H Makemake RA 116.9926 117 whole (39.88) [Moon]
+  - sky line to Makemake: S Moon → Makemake Dec 43.9984 44 whole (84.30)
+  - top rows: S Jupiter → J Makemake RA 179.4059 10×φ^6 phi power (91.95)
+  - top rows: S Sun → J Makemake RA 173.1216 107×φ golden (56.58)
+  - star rows: J Alhena → J Makemake RA 63.9991 64 whole (91.30)
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - star rows: J Mirach → J Makemake RA 145.9974 146 whole (75.70)
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+  - star rows: J Murzim → J Makemake Dec 55.0069 55 whole (42.63)
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+  - other chart, star rows: H Deneb → H Makemake RA 116.9926 117 whole (39.88)
+    - source line: S Moon → Deneb Dec 66.6638 66.6667 ninth (97.54)
 - **J Orcus** (same body: S Orcus → J Orcus Dec 18.7736 18.8889 ninth (loose))
-  - star rows: J Murzim → J Orcus RA 29.0115 29 whole (17.98) [Jupiter]
-  - other chart, top rows: S Jupiter → H Orcus RA 166.6272 166.667 ninth (96.62) [Jupiter]
-  - other chart, star rows: H Mirach → H Orcus Dec 44.4419 44.4444 ninth (97.30) [Moon]
-  - other chart, star rows: H Murzim → H Orcus RA 54.9815 55 whole (0.57) [Jupiter]
+  - star rows: J Murzim → J Orcus RA 29.0115 29 whole (17.98)
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+  - other chart, top rows: S Jupiter → H Orcus RA 166.6272 166.667 ninth (96.62)
+  - other chart, star rows: H Mirach → H Orcus Dec 44.4419 44.4444 ninth (97.30)
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+  - other chart, star rows: H Murzim → H Orcus RA 54.9815 55 whole (0.57)
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
 - **J Quaoar** (same body: S Quaoar → J Quaoar RA 50.0098 50 whole (26.20))
-  - other chart, star rows: H Acumen → H Quaoar RA 0.6308 conj (33.58) [Sun]
-  - other chart, star rows: H Facies → H Quaoar RA 10.0052 10 whole (55.00) [Moon]
+  - other chart, star rows: H Acumen → H Quaoar RA 0.6308 conj (33.58)
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - other chart, star rows: H Facies → H Quaoar RA 10.0052 10 whole (55.00)
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
 - **J Transpluto** (same body: S Transpluto → J Transpluto RA 12.1686 12.2222 ninth (loose))
-  - top rows: S Sun → J Transpluto RA 165.9980 166 whole (81.37) [Sun]
-  - star rows: J Al Rescha → J Transpluto Dec 12.0046 12 whole (59.08) [Moon]
-  - other chart, star rows: H Fomalhaut → H Transpluto RA 167.9904 168 whole (26.90) [Jupiter]
-  - other chart, star rows: H Fomalhaut → H Transpluto Dec 40.9803 41 whole (0.02) [Jupiter]
-### L3 the seven cases (L5 field tag on each)
+  - top rows: S Sun → J Transpluto RA 165.9980 166 whole (81.37)
+  - star rows: J Al Rescha → J Transpluto Dec 12.0046 12 whole (59.08)
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - other chart, star rows: H Fomalhaut → H Transpluto RA 167.9904 168 whole (26.90)
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+  - other chart, star rows: H Fomalhaut → H Transpluto Dec 40.9803 41 whole (0.02)
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+### L3 matches
 - **1. same body on both charts**: none
 - **2. one body in both planes**
   - J Sedna — only
@@ -1151,17 +1929,29 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 146 whole — only
     - J Mirach → J Makemake RA 145.9974 146 whole (75.70) = S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
 - **4. circle divisions**
-  - 1 = 360/360 — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes
+  - 1 = 360/360 — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes, 6 Silva Eclipse / Thomas Willmott
     - S Mars → H Mars Dec 1.0127 1 whole (13.18)
-  - 10 = 360/36 — only
+  - 5 = 360/72 — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
+    - S Al Rescha → H Jupiter Dec 5.0082 5 whole (34.78)
+  - 2 = 360/180 — also: 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
+    - H Al Rescha → H Sun RA 2.0147 2 whole (7.08)
+  - 3 = 360/120 — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
+    - H Al Rescha → H Venus Dec 2.9877 3 whole (14.76)
+  - 10 = 360/36 — also: 4 Mr Washington / Jordan Nailor
     - H Facies → H Quaoar RA 10.0052 10 whole (55.00)
-  - 5 = 360/72 — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes, 6 Silva Eclipse / Thomas Willmott
+  - 12 = 360/30 — also: 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
+    - H Procyon → H Ceres Dec 11.9889 12 whole (19.73)
+  - 5 = 360/72 — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
     - S Sedna → J Sedna Dec 5.0120 5 whole (16.14)
-  - 8 = 360/45 — also: 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor
+  - 8 = 360/45 — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor
     - S Moon → J Saturn Dec 8.0013 8 whole (87.45)
   - 12 = 360/30 — also: 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
     - J Al Rescha → J Transpluto Dec 12.0046 12 whole (59.08)
-  - 4 = 360/90 — also: 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor
+  - 20 = 360/18 — also: 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
+    - J Facies → J Mars Dec 20.0060 20 whole (49.08)
+  - 2 = 360/180 — also: 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
+    - J Facies → J Uranus Dec 1.9872 2 whole (13.03)
+  - 4 = 360/90 — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
     - J Zubeneschamali → J Saturn Dec 4.0030 4 whole (71.91)
 - **5. same number in more than one place**
   - 10×φ^6 phi power — only
@@ -1174,131 +1964,269 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 148 whole — only
     - H Jupiter → H star Mirach RA 147.9943 148 whole (51.47)
     - H Mirach → H Jupiter RA 147.9943 148 whole (51.47)
+  - 5 whole — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
+    - S Al Rescha → H Jupiter Dec 5.0082 5 whole (34.78)
+    - S Sedna → J Sedna Dec 5.0120 5 whole (16.14)
+  - 2 whole — also: 3 Gredin / Brian Hughes
+    - H Al Rescha → H Sun RA 2.0147 2 whole (7.08)
+    - J Facies → J Uranus Dec 1.9872 2 whole (13.03)
+  - 19 whole — also: 3 Gredin / Brian Hughes
+    - H Alhena → H Eris Dec 18.9992 19 whole (92.00)
+    - H Murzim → H Chiron Dec 19.0106 19 whole (22.10)
+  - 179 whole — only
+    - H Fomalhaut → H Jupiter RA 178.9883 179 whole (17.09)
+    - J Alhena → J Mercury RA 179.0090 179 whole (30.41)
   - 55.5556 ninth — only
     - H Kaus Australis → H Juno RA 55.5564 55.5556 ninth (99.24)
     - J Kaus Australis → J Saturn RA 55.5584 55.5556 ninth (97.35)
+  - 97×φ golden — only
+    - H Mirach → H Juno RA 156.9385 97×φ golden (44.51)
+    - J Mirach → J Saturn RA 156.9571 97×φ golden (57.80)
+  - 55 whole — only
+    - H Murzim → H Orcus RA 54.9815 55 whole (0.57)
+    - J Murzim → J Makemake Dec 55.0069 55 whole (42.63)
+  - 77×φ golden — also: 4 Mr Washington / Jordan Nailor
+    - H Praesepe → H Saturn RA 124.5778 77×φ golden (44.30)
+    - J Deneb → J Rahu RA 124.5830 77×φ golden (68.35)
+  - 91×φ golden — only
+    - H Praesepe → H Neptune RA 147.2138 91×φ golden (2.45)
+    - S Vesta → J Vesta RA 147.2391 91×φ golden (87.94)
+  - 12 whole — also: 4 Mr Washington / Jordan Nailor
+    - H Procyon → H Ceres Dec 11.9889 12 whole (19.73)
+    - J Al Rescha → J Transpluto Dec 12.0046 12 whole (59.08)
   - 12.2222 ninth — only
     - S Transpluto → J Transpluto RA 12.1686 12.2222 ninth (loose)
     - J Kaus Australis → J Ceres Dec 12.2202 12.2222 ninth (97.23)
-- **6. star and sky line on one body**: none
-- **7. centres meeting**
-  - Mars: Jupiter, Moon — also: 2 Mister Watson / Kielan Woods
-    - [Jupiter] S Jupiter → H Mars RA 97.0823 60×φ golden (98.56)
-    - [Moon] S Moon → H Mars Dec 0.0319 conj (79.88)
-    - [Moon] J Facies → J Mars RA 85.9866 86 whole (10.78)
-    - [Moon] J Facies → J Mars Dec 20.0060 20 whole (49.08)
-  - Neptune: Jupiter, Sun — only
-    - [Jupiter] S Jupiter → H Neptune RA 1.2148 conj (3.61)
-    - [Jupiter] H Praesepe → H Neptune RA 147.2138 91×φ golden (2.45)
-    - [Sun] H Procyon → H Neptune RA 132.0095 132 whole (27.34)
-    - [Sun] J Acumen → J Neptune RA 0.2510 conj (69.34)
-    - [Sun] J Procyon → J Neptune Dec 27.5015 17×φ golden (70.86)
-  - Pallas: Jupiter, Sun — only
-    - [Jupiter] S Jupiter → H Pallas Dec 17.0029 17 whole (73.25)
-    - [Jupiter] J Murzim → J Pallas RA 159.9807 160 whole (0.12)
-    - [Sun] H Procyon → H Pallas RA 152.0182 152 whole (0.82)
-  - Orcus: Jupiter, Moon — also: 1 Boss Man Fred / Harry Skelton
-    - [Jupiter] S Jupiter → H Orcus RA 166.6272 166.667 ninth (96.62)
-    - [Jupiter] H Murzim → H Orcus RA 54.9815 55 whole (0.57)
-    - [Jupiter] J Murzim → J Orcus RA 29.0115 29 whole (17.98)
-    - [Moon] H Mirach → H Orcus Dec 44.4419 44.4444 ninth (97.30)
-  - Gonggong: Jupiter, Moon, Sun — also: 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor
-    - [Jupiter] J Praesepe → J Gonggong RA 163.0084 163 whole (33.93)
-    - [Moon] H Facies → H Gonggong RA 56.9972 57 whole (73.70)
-    - [Moon] H Facies → H Gonggong Dec 11.3237 7×φ golden (85.00)
-    - [Moon] J Deneb → J Gonggong RA 16.6678 16.6667 ninth (98.99)
-    - [Moon] J Kaus Australis → J Gonggong RA 50.9840 51 whole (4.10)
-    - [Sun] S Sun → H Gonggong RA 0.4551 conj (48.53)
-    - [Sun] H Procyon → H Gonggong Dec 17.7997 11×φ golden (91.90)
-  - Jupiter: Jupiter, Moon, Sun — also: 1 Boss Man Fred / Harry Skelton, 4 Mr Washington / Jordan Nailor
-    - [Jupiter] S Ceres → H Jupiter RA 105.1747 65×φ golden (85.44)
-    - [Jupiter] H Fomalhaut → H Jupiter RA 178.9883 179 whole (17.09)
-    - [Jupiter] S Uranus → J Jupiter RA 137.9968 138 whole (70.18)
-    - [Jupiter] S Pluto → J Jupiter RA 39.0014 39 whole (86.83)
-    - [Moon] S Al Rescha → H Jupiter Dec 5.0082 5 whole (34.78)
-    - [Moon] H Mirach → H Jupiter RA 147.9943 148 whole (51.47)
-    - [Sun] H Alhena → H Jupiter RA 65.9962 66 whole (65.35)
-  - Uranus: Moon, Sun — also: 3 Gredin / Brian Hughes
-    - [Moon] J Facies → J Uranus Dec 1.9872 2 whole (13.03)
-    - [Sun] H Acumen → H Uranus RA 111.0004 111 whole (95.57)
-  - Quaoar: Moon, Sun — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes, 6 Silva Eclipse / Thomas Willmott
-    - [Moon] H Facies → H Quaoar RA 10.0052 10 whole (55.00)
-    - [Sun] H Acumen → H Quaoar RA 0.6308 conj (33.58)
-  - Venus: Moon, Sun — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes
-    - [Moon] H Al Rescha → H Venus Dec 2.9877 3 whole (14.76)
-    - [Moon] H Mirach → H Venus RA 0.2463 conj (69.86)
-    - [Moon] J Al Rescha → J Venus Dec 13.9949 14 whole (55.48)
-    - [Sun] S Sun → J Venus RA 122.2420 122.222 ninth (97.25)
-    - [Sun] J Alhena → J Venus RA 114.8787 71×φ golden (89.58)
-  - Saturn: Jupiter, Moon — also: 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor
-    - [Jupiter] H Praesepe → H Saturn RA 124.5778 77×φ golden (44.30)
-    - [Moon] H Al Rescha → H Saturn RA 135.9031 84×φ golden (40.41)
-    - [Moon] S Moon → J Saturn Dec 8.0013 8 whole (87.45)
-    - [Moon] J El Nath → J Saturn Dec 41.9935 42 whole (45.59)
-    - [Moon] J Kaus Australis → J Saturn RA 55.5584 55.5556 ninth (97.35)
-    - [Moon] J Kaus Australis → J Saturn Dec 20.9996 21 whole (96.24)
-    - [Moon] J Mirach → J Saturn RA 156.9571 97×φ golden (57.80)
-    - [Moon] J Mirach → J Saturn Dec 49.0093 49 whole (28.48)
-    - [Moon] J Zubeneschamali → J Saturn Dec 4.0030 4 whole (71.91)
-  - Pluto: Jupiter, Moon — only
-    - [Jupiter] S Jupiter → J Pluto RA 129.0035 129 whole (68.04)
-    - [Jupiter] J Praesepe → J Pluto RA 84.9943 85 whole (51.46)
-    - [Moon] H Al Rescha → H Pluto RA 102.0017 102 whole (83.51)
-    - [Moon] J Kaus Australis → J Pluto RA 61.0133 61 whole (11.37)
-  - Juno: Jupiter, Moon — only
-    - [Jupiter] J Murzim → J Juno Dec 11.1146 11.1111 ninth (94.26)
-    - [Moon] H Al Rescha → H Juno RA 170.0174 170 whole (1.65)
-    - [Moon] H Kaus Australis → H Juno RA 55.5564 55.5556 ninth (99.24)
-    - [Moon] H Mirach → H Juno RA 156.9385 97×φ golden (44.51)
-    - [Moon] J Al Rescha → J Juno RA 0.7694 conj (23.73)
-  - Eris: Jupiter, Moon, Sun — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods
-    - [Jupiter] H Murzim → H Eris RA 70.0131 70 whole (11.75)
-    - [Moon] J Al Rescha → J Eris Dec 14.0151 14 whole (6.03)
-    - [Sun] H Alhena → H Eris Dec 18.9992 19 whole (92.00)
-  - Makemake: Jupiter, Moon, Sun — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes
-    - [Jupiter] S Jupiter → J Makemake RA 179.4059 10×φ^6 phi power (91.95)
-    - [Jupiter] J Murzim → J Makemake Dec 55.0069 55 whole (42.63)
-    - [Moon] H Deneb → H Makemake RA 116.9926 117 whole (39.88)
-    - [Moon] S Makemake → J Makemake Dec 14.4398 14.4444 ninth (loose)
-    - [Moon] J Mirach → J Makemake RA 145.9974 146 whole (75.70)
-    - [Sun] S Sun → J Makemake RA 173.1216 107×φ golden (56.58)
-    - [Sun] J Alhena → J Makemake RA 63.9991 64 whole (91.30)
-  - Mercury: Jupiter, Moon, Sun — also: 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor
-    - [Jupiter] J Fomalhaut → J Mercury RA 63.9857 64 whole (8.17)
-    - [Moon] H Facies → H Mercury RA 127.8028 79×φ golden (10.50)
-    - [Moon] J Al Rescha → J Mercury Dec 28.0047 28 whole (58.38)
-    - [Moon] J Facies → J Mercury RA 1.3308 conj (1.27)
-    - [Moon] J Mirach → J Mercury RA 97.0107 97 whole (21.72)
-    - [Sun] J Alhena → J Mercury RA 179.0090 179 whole (30.41)
-  - Transpluto: Jupiter, Moon, Sun — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes
-    - [Jupiter] H Fomalhaut → H Transpluto RA 167.9904 168 whole (26.90)
-    - [Jupiter] H Fomalhaut → H Transpluto Dec 40.9803 41 whole (0.02)
-    - [Moon] J Al Rescha → J Transpluto Dec 12.0046 12 whole (59.08)
-    - [Sun] S Sun → J Transpluto RA 165.9980 166 whole (81.37)
-  - Chiron: Jupiter, Moon, Sun — also: 2 Mister Watson / Kielan Woods, 6 Silva Eclipse / Thomas Willmott
-    - [Jupiter] H Murzim → H Chiron Dec 19.0106 19 whole (22.10)
-    - [Jupiter] S Jupiter → J Chiron Dec 24.1471 24.14 silver (91.99)
-    - [Moon] J Deneb → J Chiron Dec 28.9936 29 whole (45.92)
-    - [Moon] J Facies → J Chiron RA 139.1692 86×φ golden (18.92)
-    - [Moon] J Zubeneschamali → J Chiron RA 170.9842 171 whole (4.40)
-    - [Sun] J Alhena → J Chiron Dec 0.1092 conj (40.44)
-  - Ceres: Moon, Sun — also: 3 Gredin / Brian Hughes
-    - [Moon] J Kaus Australis → J Ceres Dec 12.2202 12.2222 ninth (97.23)
-    - [Moon] J Zubeneschamali → J Ceres RA 101.9250 63×φ golden (43.17)
-    - [Sun] H Procyon → H Ceres Dec 11.9889 12 whole (19.73)
-  - Ketu: Moon, Sun — also: 3 Gredin / Brian Hughes
-    - [Moon] J Deneb → J Ketu Dec 68.0026 68 whole (75.49)
-    - [Moon] J Zubeneschamali → J Ketu Dec 13.3370 13.3333 ninth (95.64)
-    - [Sun] H Procyon → H Ketu RA 122.9513 φ^10 phi power (87.24)
-    - [Sun] J Alhena → J Ketu RA 155.5022 155.556 ninth (94.95)
-  - Sedna: Jupiter, Moon — only
-    - [Jupiter] J Murzim → J Sedna Dec 21.0370 13×φ golden (85.02)
-    - [Moon] H Zubeneschamali → H Sedna RA 173.9915 174 whole (33.02)
-    - [Moon] J Facies → J Sedna Dec 26.9870 27 whole (12.25)
-  - Haumea: Jupiter, Moon — only
-    - [Jupiter] J Fomalhaut → J Haumea RA 161.8115 100×φ^1 phi power (98.01)
-    - [Moon] J Al Rescha → J Haumea RA 152.0835 94×φ golden (40.83)
-    - [Moon] J El Nath → J Haumea RA 101.0194 101 whole (0.08)
+  - 14 whole — only
+    - J Al Rescha → J Venus Dec 13.9949 14 whole (55.48)
+    - J Al Rescha → J Eris Dec 14.0151 14 whole (6.03)
+  - 64 whole — only
+    - J Alhena → J Makemake RA 63.9991 64 whole (91.30)
+    - J Fomalhaut → J Mercury RA 63.9857 64 whole (8.17)
+  - 29 whole — only
+    - J Deneb → J Chiron Dec 28.9936 29 whole (45.92)
+    - J Murzim → J Orcus RA 29.0115 29 whole (17.98)
+### L4 every natal body
+- **Mars**
+  - same body: S Mars → H Mars Dec 1.0127 1 whole (13.18) — also: 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
+  - top rows: S Jupiter → H Mars RA 97.0823 60×φ golden (98.56) — also: 2 Mister Watson / Kielan Woods
+  - top rows: S Moon → H Mars Dec 0.0319 conj (79.88) — only
+  - star rows: J Facies → J Mars RA 85.9866 86 whole (10.78) — also: 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - star rows: J Facies → J Mars Dec 20.0060 20 whole (49.08) — also: 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+- **Jupiter**
+  - same body: S Jupiter → H Jupiter RA 178.6047 10×φ^6 phi power (loose) — also: 1 Boss Man Fred / Harry Skelton, 6 Silva Eclipse / Thomas Willmott
+  - T1: H Jupiter → H star Alhena RA 65.9962 66 whole (65.35) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes, 6 Silva Eclipse / Thomas Willmott
+  - T1: H Jupiter → H star Mirach RA 147.9943 148 whole (51.47) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes, 6 Silva Eclipse / Thomas Willmott
+  - top rows: S Ceres → H Jupiter RA 105.1747 65×φ golden (85.44) — also: 6 Silva Eclipse / Thomas Willmott
+  - star rows: S Al Rescha → H Jupiter Dec 5.0082 5 whole (34.78) — only
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - star rows: H Alhena → H Jupiter RA 65.9962 66 whole (65.35) — also: 1 Boss Man Fred / Harry Skelton, 4 Mr Washington / Jordan Nailor
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - star rows: H Fomalhaut → H Jupiter RA 178.9883 179 whole (17.09) — also: 1 Boss Man Fred / Harry Skelton
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+  - star rows: H Mirach → H Jupiter RA 147.9943 148 whole (51.47) — also: 1 Boss Man Fred / Harry Skelton
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+  - top rows: S Uranus → J Jupiter RA 137.9968 138 whole (70.18) — only
+  - top rows: S Pluto → J Jupiter RA 39.0014 39 whole (86.83) — only
+- **Saturn**
+  - same body: S Saturn → H Saturn RA 65.9928 66 whole (40.86) — also: 4 Mr Washington / Jordan Nailor
+  - star rows: H Al Rescha → H Saturn RA 135.9031 84×φ golden (40.41) — also: 3 Gredin / Brian Hughes
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - star rows: H Praesepe → H Saturn RA 124.5778 77×φ golden (44.30) — also: 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+  - top rows: S Moon → J Saturn Dec 8.0013 8 whole (87.45) — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
+  - star rows: J El Nath → J Saturn Dec 41.9935 42 whole (45.59) — also: 1 Boss Man Fred / Harry Skelton, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - star rows: J Kaus Australis → J Saturn RA 55.5584 55.5556 ninth (97.35) — also: 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - star rows: J Kaus Australis → J Saturn Dec 20.9996 21 whole (96.24) — also: 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - star rows: J Mirach → J Saturn RA 156.9571 97×φ golden (57.80) — also: 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+  - star rows: J Mirach → J Saturn Dec 49.0093 49 whole (28.48) — also: 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+  - star rows: J Zubeneschamali → J Saturn Dec 4.0030 4 whole (71.91) — also: 2 Mister Watson / Kielan Woods, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+- **Neptune**
+  - top rows: S Jupiter → H Neptune RA 1.2148 conj (3.61) — only
+  - star rows: H Praesepe → H Neptune RA 147.2138 91×φ golden (2.45) — only
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+  - star rows: H Procyon → H Neptune RA 132.0095 132 whole (27.34) — also: 3 Gredin / Brian Hughes
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+  - star rows: J Acumen → J Neptune RA 0.2510 conj (69.34) — also: 2 Mister Watson / Kielan Woods
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - star rows: J Procyon → J Neptune Dec 27.5015 17×φ golden (70.86) — also: 3 Gredin / Brian Hughes
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+- **Pallas**
+  - top rows: S Jupiter → H Pallas Dec 17.0029 17 whole (73.25) — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes
+  - star rows: H Procyon → H Pallas RA 152.0182 152 whole (0.82) — also: 3 Gredin / Brian Hughes, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+  - star rows: J Murzim → J Pallas RA 159.9807 160 whole (0.12) — only
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+- **Orcus**
+  - top rows: S Jupiter → H Orcus RA 166.6272 166.667 ninth (96.62) — also: 1 Boss Man Fred / Harry Skelton, 6 Silva Eclipse / Thomas Willmott
+  - star rows: H Mirach → H Orcus Dec 44.4419 44.4444 ninth (97.30) — only
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+  - star rows: H Murzim → H Orcus RA 54.9815 55 whole (0.57) — also: 1 Boss Man Fred / Harry Skelton
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+  - same body: S Orcus → J Orcus Dec 18.7736 18.8889 ninth (loose) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor
+  - star rows: J Murzim → J Orcus RA 29.0115 29 whole (17.98) — also: 1 Boss Man Fred / Harry Skelton
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+- **Gonggong**
+  - top rows: S Sun → H Gonggong RA 0.4551 conj (48.53) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
+  - star rows: H Facies → H Gonggong RA 56.9972 57 whole (73.70) — only
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - star rows: H Facies → H Gonggong Dec 11.3237 7×φ golden (85.00) — only
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - star rows: H Procyon → H Gonggong Dec 17.7997 11×φ golden (91.90) — only
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+  - star rows: J Deneb → J Gonggong RA 16.6678 16.6667 ninth (98.99) — only
+    - source line: S Moon → Deneb Dec 66.6638 66.6667 ninth (97.54)
+  - star rows: J Kaus Australis → J Gonggong RA 50.9840 51 whole (4.10) — also: 4 Mr Washington / Jordan Nailor
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - star rows: J Praesepe → J Gonggong RA 163.0084 163 whole (33.93) — also: 1 Boss Man Fred / Harry Skelton
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+- **Uranus**
+  - star rows: H Acumen → H Uranus RA 111.0004 111 whole (95.57) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - star rows: J Facies → J Uranus Dec 1.9872 2 whole (13.03) — also: 1 Boss Man Fred / Harry Skelton, 4 Mr Washington / Jordan Nailor
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+- **Quaoar**
+  - star rows: H Acumen → H Quaoar RA 0.6308 conj (33.58) — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - star rows: H Facies → H Quaoar RA 10.0052 10 whole (55.00) — also: 4 Mr Washington / Jordan Nailor
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - same body: S Quaoar → J Quaoar RA 50.0098 50 whole (26.20) — also: 2 Mister Watson / Kielan Woods, 6 Silva Eclipse / Thomas Willmott
+- **Sun**
+  - star rows: H Al Rescha → H Sun RA 2.0147 2 whole (7.08) — only
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+- **Venus**
+  - star rows: H Al Rescha → H Venus Dec 2.9877 3 whole (14.76) — also: 2 Mister Watson / Kielan Woods, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - star rows: H Mirach → H Venus RA 0.2463 conj (69.86) — only
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+  - top rows: S Sun → J Venus RA 122.2420 122.222 ninth (97.25) — only
+  - star rows: J Al Rescha → J Venus Dec 13.9949 14 whole (55.48) — also: 2 Mister Watson / Kielan Woods, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - star rows: J Alhena → J Venus RA 114.8787 71×φ golden (89.58) — also: 3 Gredin / Brian Hughes
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+- **Pluto**
+  - star rows: H Al Rescha → H Pluto RA 102.0017 102 whole (83.51) — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - same body: S Pluto → J Pluto Dec 26.0278 26 whole (loose) — also: 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
+  - top rows: S Jupiter → J Pluto RA 129.0035 129 whole (68.04) — also: 2 Mister Watson / Kielan Woods
+  - star rows: J Kaus Australis → J Pluto RA 61.0133 61 whole (11.37) — only
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - star rows: J Praesepe → J Pluto RA 84.9943 85 whole (51.46) — also: 1 Boss Man Fred / Harry Skelton, 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+- **Juno**
+  - star rows: H Al Rescha → H Juno RA 170.0174 170 whole (1.65) — only
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - star rows: H Kaus Australis → H Juno RA 55.5564 55.5556 ninth (99.24) — only
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - star rows: H Mirach → H Juno RA 156.9385 97×φ golden (44.51) — only
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+  - star rows: J Al Rescha → J Juno RA 0.7694 conj (23.73) — only
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - star rows: J Murzim → J Juno Dec 11.1146 11.1111 ninth (94.26) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+- **Eris**
+  - star rows: H Alhena → H Eris Dec 18.9992 19 whole (92.00) — also: 1 Boss Man Fred / Harry Skelton
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - star rows: H Murzim → H Eris RA 70.0131 70 whole (11.75) — also: 4 Mr Washington / Jordan Nailor
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+  - star rows: J Al Rescha → J Eris Dec 14.0151 14 whole (6.03) — only
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+- **Makemake**
+  - star rows: H Deneb → H Makemake RA 116.9926 117 whole (39.88) — also: 4 Mr Washington / Jordan Nailor, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → Deneb Dec 66.6638 66.6667 ninth (97.54)
+  - same body: S Makemake → J Makemake Dec 14.4398 14.4444 ninth (loose) — also: 3 Gredin / Brian Hughes, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → Makemake Dec 43.9984 44 whole (84.30)
+  - top rows: S Jupiter → J Makemake RA 179.4059 10×φ^6 phi power (91.95) — only
+  - top rows: S Sun → J Makemake RA 173.1216 107×φ golden (56.58) — also: 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor
+  - star rows: J Alhena → J Makemake RA 63.9991 64 whole (91.30) — also: 3 Gredin / Brian Hughes
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - star rows: J Mirach → J Makemake RA 145.9974 146 whole (75.70) — also: 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+  - star rows: J Murzim → J Makemake Dec 55.0069 55 whole (42.63) — only
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+- **Mercury**
+  - star rows: H Facies → H Mercury RA 127.8028 79×φ golden (10.50) — only
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - star rows: J Al Rescha → J Mercury Dec 28.0047 28 whole (58.38) — also: 1 Boss Man Fred / Harry Skelton, 4 Mr Washington / Jordan Nailor
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - star rows: J Alhena → J Mercury RA 179.0090 179 whole (30.41) — also: 3 Gredin / Brian Hughes
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - star rows: J Facies → J Mercury RA 1.3308 conj (1.27) — only
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - star rows: J Fomalhaut → J Mercury RA 63.9857 64 whole (8.17) — also: 2 Mister Watson / Kielan Woods
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+  - star rows: J Mirach → J Mercury RA 97.0107 97 whole (21.72) — only
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+- **Transpluto**
+  - star rows: H Fomalhaut → H Transpluto RA 167.9904 168 whole (26.90) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+  - star rows: H Fomalhaut → H Transpluto Dec 40.9803 41 whole (0.02) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+  - same body: S Transpluto → J Transpluto RA 12.1686 12.2222 ninth (loose) — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes, 6 Silva Eclipse / Thomas Willmott
+  - top rows: S Sun → J Transpluto RA 165.9980 166 whole (81.37) — also: 3 Gredin / Brian Hughes
+  - star rows: J Al Rescha → J Transpluto Dec 12.0046 12 whole (59.08) — also: 2 Mister Watson / Kielan Woods
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+- **Chiron**
+  - star rows: H Murzim → H Chiron Dec 19.0106 19 whole (22.10) — only
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+  - top rows: S Jupiter → J Chiron Dec 24.1471 24.14 silver (91.99) — also: 2 Mister Watson / Kielan Woods
+  - star rows: J Alhena → J Chiron Dec 0.1092 conj (40.44) — also: 1 Boss Man Fred / Harry Skelton, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - star rows: J Deneb → J Chiron Dec 28.9936 29 whole (45.92) — also: 4 Mr Washington / Jordan Nailor
+    - source line: S Moon → Deneb Dec 66.6638 66.6667 ninth (97.54)
+  - star rows: J Facies → J Chiron RA 139.1692 86×φ golden (18.92) — also: 2 Mister Watson / Kielan Woods
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - star rows: J Zubeneschamali → J Chiron RA 170.9842 171 whole (4.40) — also: 1 Boss Man Fred / Harry Skelton, 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+- **Ceres**
+  - star rows: H Procyon → H Ceres Dec 11.9889 12 whole (19.73) — also: 3 Gredin / Brian Hughes
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+  - star rows: J Kaus Australis → J Ceres Dec 12.2202 12.2222 ninth (97.23) — also: 3 Gredin / Brian Hughes
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - star rows: J Zubeneschamali → J Ceres RA 101.9250 63×φ golden (43.17) — only
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+- **Ketu**
+  - star rows: H Procyon → H Ketu RA 122.9513 φ^10 phi power (87.24) — also: 6 Silva Eclipse / Thomas Willmott
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+  - star rows: J Alhena → J Ketu RA 155.5022 155.556 ninth (94.95) — only
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - star rows: J Deneb → J Ketu Dec 68.0026 68 whole (75.49) — also: 2 Mister Watson / Kielan Woods
+    - source line: S Moon → Deneb Dec 66.6638 66.6667 ninth (97.54)
+  - star rows: J Zubeneschamali → J Ketu Dec 13.3370 13.3333 ninth (95.64) — also: 4 Mr Washington / Jordan Nailor
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+- **Vesta**
+  - star rows: H Zubeneschamali → H Vesta RA 177.7031 177.778 ninth (94.15) — also: 4 Mr Washington / Jordan Nailor
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+  - same body: S Vesta → J Vesta RA 147.2391 91×φ golden (87.94) — only
+  - star rows: J El Nath → J Vesta RA 0.4499 conj (49.01) — also: 4 Mr Washington / Jordan Nailor
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+- **Sedna**
+  - star rows: H Zubeneschamali → H Sedna RA 173.9915 174 whole (33.02) — also: 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+  - same body: S Sedna → J Sedna RA 19.4183 12×φ golden (88.73) — also: 3 Gredin / Brian Hughes, 6 Silva Eclipse / Thomas Willmott
+  - same body: S Sedna → J Sedna Dec 5.0120 5 whole (16.14) — also: 3 Gredin / Brian Hughes, 6 Silva Eclipse / Thomas Willmott
+  - star rows: J Facies → J Sedna Dec 26.9870 27 whole (12.25) — also: 6 Silva Eclipse / Thomas Willmott
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - star rows: J Murzim → J Sedna Dec 21.0370 13×φ golden (85.02) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+- **Haumea**
+  - star rows: J Al Rescha → J Haumea RA 152.0835 94×φ golden (40.83) — only
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - star rows: J El Nath → J Haumea RA 101.0194 101 whole (0.08) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - star rows: J Fomalhaut → J Haumea RA 161.8115 100×φ^1 phi power (98.01) — only
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+- **Rahu**
+  - star rows: J Deneb → J Rahu RA 124.5830 77×φ golden (68.35) — only
+    - source line: S Moon → Deneb Dec 66.6638 66.6667 ninth (97.54)
 
 ## 6 Silva Eclipse / Thomas Willmott
 ### L1 same bodies
@@ -1324,92 +2252,146 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - S Transpluto → J Transpluto RA 6.9875 7 whole (14.01)
 ### L2 what lands on each same body
 - **H Mars** (same body: S Mars → H Mars Dec 26.1379 10×φ^2 phi power (loose))
-  - star rows: H Fomalhaut → H Mars Dec 33.3309 33.3333 ninth (97.06) [Jupiter]
-  - other chart, star rows: J Alhena → J Mars RA 105.1788 65×φ golden (63.63) [Sun]
-  - other chart, star rows: J Zubeneschamali → J Mars RA 125.0032 125 whole (70.95) [Moon]
+  - star rows: H Fomalhaut → H Mars Dec 33.3309 33.3333 ninth (97.06)
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+  - other chart, star rows: J Alhena → J Mars RA 105.1788 65×φ golden (63.63)
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - other chart, star rows: J Zubeneschamali → J Mars RA 125.0032 125 whole (70.95)
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
 - **H Uranus** (same body: S Uranus → H Uranus RA 31.0110 31 whole (20.24); S Uranus → H Uranus Dec 12.1670 12.2222 ninth (loose))
-  - top rows: S Moon → H Uranus Dec 24.0046 24 whole (59.10) [Moon]
-  - star rows: H Al Rescha → H Uranus Dec 0.1432 conj (27.30) [Moon]
-  - star rows: H El Nath → H Uranus Dec 25.9889 26 whole (19.69) [Moon]
-  - star rows: H Kaus Australis → H Uranus Dec 37.0024 37 whole (77.70) [Moon]
-  - star rows: H Mirach → H Uranus Dec 33.0006 33 whole (94.35) [Moon]
-  - star rows: H Praesepe → H Uranus RA 122.2735 122.222 ninth (92.90) [Jupiter]
-  - star rows: H Zubeneschamali → H Uranus Dec 12.0030 12 whole (72.35) [Moon]
-  - other chart, star rows: J El Nath → J Uranus RA 122.2796 122.222 ninth (92.06) [Moon]
-  - other chart, star rows: J Procyon → J Uranus RA 155.5333 155.556 ninth (97.89) [Sun]
+  - top rows: S Moon → H Uranus Dec 24.0046 24 whole (59.10)
+  - star rows: H Al Rescha → H Uranus Dec 0.1432 conj (27.30)
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - star rows: H El Nath → H Uranus Dec 25.9889 26 whole (19.69)
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - star rows: H Kaus Australis → H Uranus Dec 37.0024 37 whole (77.70)
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - star rows: H Mirach → H Uranus Dec 33.0006 33 whole (94.35)
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+  - star rows: H Praesepe → H Uranus RA 122.2735 122.222 ninth (92.90)
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+  - star rows: H Zubeneschamali → H Uranus Dec 12.0030 12 whole (72.35)
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+  - other chart, star rows: J El Nath → J Uranus RA 122.2796 122.222 ninth (92.06)
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - other chart, star rows: J Procyon → J Uranus RA 155.5333 155.556 ninth (97.89)
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
 - **H Neptune** (same body: S Neptune → H Neptune RA 17.0262 17 whole (loose))
-  - top rows: S Sun → H Neptune RA 0.5785 conj (37.74) [Sun]
+  - top rows: S Sun → H Neptune RA 0.5785 conj (37.74)
 - **H Pluto** (same body: S Pluto → H Pluto RA 17.7570 17.7778 ninth (loose))
-  - star rows: H Praesepe → H Pluto RA 151.9851 152 whole (6.52) [Jupiter]
+  - star rows: H Praesepe → H Pluto RA 151.9851 152 whole (6.52)
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
   - other chart, same body: S Pluto → J Pluto Dec 11.0456 φ^5 phi power (loose)
-  - other chart, star rows: J Fomalhaut → J Pluto RA 92.0068 92 whole (43.37) [Jupiter]
+  - other chart, star rows: J Fomalhaut → J Pluto RA 92.0068 92 whole (43.37)
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
 - **H Sedna** (same body: S Sedna → H Sedna RA 4.9709 5 whole (loose); S Sedna → H Sedna Dec 1.1057 1.11111 ninth (loose))
-  - star rows: H Deneb → H Sedna RA 102.9836 103 whole (3.32) [Moon]
-  - star rows: H Praesepe → H Sedna Dec 12.9945 13 whole (52.40) [Jupiter]
-  - star rows: H Procyon → H Sedna RA 61.4871 38×φ golden (89.09) [Sun]
+  - star rows: H Deneb → H Sedna RA 102.9836 103 whole (3.32)
+    - source line: S Moon → Deneb Dec 66.6638 66.6667 ninth (97.54)
+  - star rows: H Praesepe → H Sedna Dec 12.9945 13 whole (52.40)
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+  - star rows: H Procyon → H Sedna RA 61.4871 38×φ golden (89.09)
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
   - other chart, same body: S Sedna → J Sedna Dec 2.9882 3 whole (16.65)
-  - other chart, star rows: J Facies → J Sedna Dec 29.0107 29 whole (21.49) [Moon]
-  - other chart, star rows: J Procyon → J Sedna Dec 0.1178 conj (36.89) [Sun]
-  - other chart, star rows: J Zubeneschamali → J Sedna RA 177.0091 177 whole (29.73) [Moon]
+  - other chart, star rows: J Facies → J Sedna Dec 29.0107 29 whole (21.49)
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - other chart, star rows: J Procyon → J Sedna Dec 0.1178 conj (36.89)
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+  - other chart, star rows: J Zubeneschamali → J Sedna RA 177.0091 177 whole (29.73)
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
 - **H Haumea** (same body: S Haumea → H Haumea Dec 2.9794 3 whole (loose))
-  - star rows: H Murzim → H Haumea RA 113.2769 70×φ golden (30.37) [Jupiter]
-  - other chart, top rows: S Sun → J Haumea RA 139.0057 139 whole (50.97) [Sun]
-  - other chart, star rows: J Praesepe → J Haumea Dec 0.9834 1 whole (2.96) [Jupiter]
+  - star rows: H Murzim → H Haumea RA 113.2769 70×φ golden (30.37)
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+  - other chart, top rows: S Sun → J Haumea RA 139.0057 139 whole (50.97)
+  - other chart, star rows: J Praesepe → J Haumea Dec 0.9834 1 whole (2.96)
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
 - **J Sun** (same body: S Sun → J Sun Dec 6.8529 φ^4 phi power (loose))
-  - star rows: J Alhena → J Sun RA 143.0071 143 whole (41.90) [Sun]
-  - star rows: J Fomalhaut → J Sun RA 27.9816 28 whole (0.65) [Jupiter]
-  - star rows: J Fomalhaut → J Sun Dec 12.9843 13 whole (4.57) [Jupiter]
-  - star rows: J Mirach → J Sun RA 61.0045 61 whole (59.89) [Moon]
+  - star rows: J Alhena → J Sun RA 143.0071 143 whole (41.90)
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - star rows: J Fomalhaut → J Sun RA 27.9816 28 whole (0.65)
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+  - star rows: J Fomalhaut → J Sun Dec 12.9843 13 whole (4.57)
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+  - star rows: J Mirach → J Sun RA 61.0045 61 whole (59.89)
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
 - **J Mercury** (same body: S Mercury → J Mercury Dec 4.8505 3×φ golden (loose))
-  - star rows: J Acumen → J Mercury Dec 20.9885 21 whole (18.17) [Sun]
-  - star rows: J El Nath → J Mercury RA 112.0146 112 whole (7.34) [Moon]
-  - star rows: J Zubeneschamali → J Mercury RA 100.3115 62×φ golden (63.47) [Moon]
+  - star rows: J Acumen → J Mercury Dec 20.9885 21 whole (18.17)
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - star rows: J El Nath → J Mercury RA 112.0146 112 whole (7.34)
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - star rows: J Zubeneschamali → J Mercury RA 100.3115 62×φ golden (63.47)
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
 - **J Jupiter** (same body: S Jupiter → J Jupiter Dec 17.6893 17.7778 ninth (loose))
-  - top rows: S Eris → J Jupiter RA 0.7517 conj (24.89) [Jupiter]
-  - star rows: S Murzim → J Jupiter RA 69.0017 69 whole (83.61) [Jupiter]
-  - other chart, top rows: S Ceres → H Jupiter Dec 0.2445 conj (3.43) [Jupiter]
-  - other chart, star rows: H Zubeneschamali → H Jupiter RA 159.9982 160 whole (83.04) [Moon]
+  - top rows: S Eris → J Jupiter RA 0.7517 conj (24.89)
+  - star rows: S Murzim → J Jupiter RA 69.0017 69 whole (83.61)
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+  - other chart, top rows: S Ceres → H Jupiter Dec 0.2445 conj (3.43)
+  - other chart, star rows: H Zubeneschamali → H Jupiter RA 159.9982 160 whole (83.04)
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
 - **J Pluto** (same body: S Pluto → J Pluto Dec 11.0456 φ^5 phi power (loose))
-  - star rows: J Fomalhaut → J Pluto RA 92.0068 92 whole (43.37) [Jupiter]
+  - star rows: J Fomalhaut → J Pluto RA 92.0068 92 whole (43.37)
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
   - other chart, same body: S Pluto → H Pluto RA 17.7570 17.7778 ninth (loose)
-  - other chart, star rows: H Praesepe → H Pluto RA 151.9851 152 whole (6.52) [Jupiter]
+  - other chart, star rows: H Praesepe → H Pluto RA 151.9851 152 whole (6.52)
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
 - **J Chiron** (same body: S Chiron → J Chiron Dec 24.0879 24.14 silver (loose))
-  - other chart, star rows: H Alhena → H Chiron RA 119.0094 119 whole (28.33) [Sun]
-  - other chart, star rows: H Fomalhaut → H Chiron RA 3.9895 4 whole (22.52) [Jupiter]
-  - other chart, star rows: H Mirach → H Chiron RA 37.0085 37 whole (32.82) [Moon]
-  - other chart, star rows: H Zubeneschamali → H Chiron RA 111.1639 111.111 ninth (91.36) [Moon]
+  - other chart, star rows: H Alhena → H Chiron RA 119.0094 119 whole (28.33)
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - other chart, star rows: H Fomalhaut → H Chiron RA 3.9895 4 whole (22.52)
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+  - other chart, star rows: H Mirach → H Chiron RA 37.0085 37 whole (32.82)
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+  - other chart, star rows: H Zubeneschamali → H Chiron RA 111.1639 111.111 ninth (91.36)
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
 - **J Ceres** (same body: S Ceres → J Ceres RA 133.3910 133.333 ninth (93.08))
-  - other chart, star rows: H El Nath → H Ceres Dec 0.0872 conj (50.33) [Moon]
+  - other chart, star rows: H El Nath → H Ceres Dec 0.0872 conj (50.33)
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
 - **J Juno** (same body: S Juno → J Juno Dec 2.0033 2 whole (69.82))
-  - top rows: S Sun → J Juno RA 45.9994 46 whole (93.92) [Sun]
-  - other chart, star rows: H Procyon → H Juno RA 171.0041 171 whole (63.02) [Sun]
+  - top rows: S Sun → J Juno RA 45.9994 46 whole (93.92)
+  - other chart, star rows: H Procyon → H Juno RA 171.0041 171 whole (63.02)
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
 - **J Sedna** (same body: S Sedna → J Sedna Dec 2.9882 3 whole (16.65))
-  - star rows: J Facies → J Sedna Dec 29.0107 29 whole (21.49) [Moon]
-  - star rows: J Procyon → J Sedna Dec 0.1178 conj (36.89) [Sun]
-  - star rows: J Zubeneschamali → J Sedna RA 177.0091 177 whole (29.73) [Moon]
+  - star rows: J Facies → J Sedna Dec 29.0107 29 whole (21.49)
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - star rows: J Procyon → J Sedna Dec 0.1178 conj (36.89)
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+  - star rows: J Zubeneschamali → J Sedna RA 177.0091 177 whole (29.73)
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
   - other chart, same body: S Sedna → H Sedna RA 4.9709 5 whole (loose)
   - other chart, same body: S Sedna → H Sedna Dec 1.1057 1.11111 ninth (loose)
-  - other chart, star rows: H Deneb → H Sedna RA 102.9836 103 whole (3.32) [Moon]
-  - other chart, star rows: H Praesepe → H Sedna Dec 12.9945 13 whole (52.40) [Jupiter]
-  - other chart, star rows: H Procyon → H Sedna RA 61.4871 38×φ golden (89.09) [Sun]
+  - other chart, star rows: H Deneb → H Sedna RA 102.9836 103 whole (3.32)
+    - source line: S Moon → Deneb Dec 66.6638 66.6667 ninth (97.54)
+  - other chart, star rows: H Praesepe → H Sedna Dec 12.9945 13 whole (52.40)
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+  - other chart, star rows: H Procyon → H Sedna RA 61.4871 38×φ golden (89.09)
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
 - **J Makemake** (same body: S Makemake → J Makemake RA 18.9806 19 whole (0.10))
-  - body line: S Moon → Makemake Dec 43.9984 44 whole (84.30)
-  - star rows: J Deneb → J Makemake Dec 12.9904 13 whole (26.96) [Moon]
-  - star rows: J Mirach → J Makemake Dec 3.3334 3.33333 ninth (99.14) [Moon]
-  - other chart, star rows: H Zubeneschamali → H Makemake RA 38.0041 38 whole (62.86) [Moon]
+  - sky line to Makemake: S Moon → Makemake Dec 43.9984 44 whole (84.30)
+  - star rows: J Deneb → J Makemake Dec 12.9904 13 whole (26.96)
+    - source line: S Moon → Deneb Dec 66.6638 66.6667 ninth (97.54)
+  - star rows: J Mirach → J Makemake Dec 3.3334 3.33333 ninth (99.14)
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+  - other chart, star rows: H Zubeneschamali → H Makemake RA 38.0041 38 whole (62.86)
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
 - **J Quaoar** (same body: S Quaoar → J Quaoar RA 29.0824 φ^7 phi power (loose))
-  - star rows: J Procyon → J Quaoar RA 132.9992 133 whole (91.97) [Sun]
-  - other chart, star rows: H Alhena → H Quaoar Dec 32.0001 32 whole (99.07) [Sun]
-  - other chart, star rows: H El Nath → H Quaoar RA 176.3842 109×φ golden (18.28) [Moon]
+  - star rows: J Procyon → J Quaoar RA 132.9992 133 whole (91.97)
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+  - other chart, star rows: H Alhena → H Quaoar Dec 32.0001 32 whole (99.07)
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - other chart, star rows: H El Nath → H Quaoar RA 176.3842 109×φ golden (18.28)
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
 - **J Gonggong** (same body: S Gonggong → J Gonggong RA 5.0202 5 whole (loose))
-  - body line: S Sun → Gonggong RA 0.2231 conj (72.47)
-  - star rows: J Al Rescha → J Gonggong Dec 19.9834 20 whole (2.81) [Moon]
-  - other chart, top rows: S Sun → H Gonggong RA 1.2897 conj (1.97) [Sun]
-  - other chart, star rows: H Zubeneschamali → H Gonggong RA 106.0094 106 whole (27.99) [Moon]
+  - sky line to Gonggong: S Sun → Gonggong RA 0.2231 conj (72.47)
+  - star rows: J Al Rescha → J Gonggong Dec 19.9834 20 whole (2.81)
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - other chart, top rows: S Sun → H Gonggong RA 1.2897 conj (1.97)
+  - other chart, star rows: H Zubeneschamali → H Gonggong RA 106.0094 106 whole (27.99)
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
 - **J Transpluto** (same body: S Transpluto → J Transpluto RA 6.9875 7 whole (14.01))
-  - star rows: J Murzim → J Transpluto Dec 30.9912 31 whole (31.63) [Jupiter]
-  - other chart, star rows: H El Nath → H Transpluto RA 70.0052 70 whole (55.06) [Moon]
-### L3 the seven cases (L5 field tag on each)
+  - star rows: J Murzim → J Transpluto Dec 30.9912 31 whole (31.63)
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+  - other chart, star rows: H El Nath → H Transpluto RA 70.0052 70 whole (55.06)
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+### L3 matches
 - **1. same body on both charts**
   - Pluto — only
     - S Pluto → H Pluto RA 17.7570 17.7778 ninth (loose)
@@ -1441,118 +2423,270 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 13 whole — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods
     - J Fomalhaut → J Sun Dec 12.9843 13 whole (4.57) = S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
 - **4. circle divisions**
-  - 5 = 360/72 — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan
+  - 5 = 360/72 — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
     - S Sedna → H Sedna RA 4.9709 5 whole (loose)
-  - 3 = 360/120 — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor
+  - 3 = 360/120 — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
     - S Haumea → H Haumea Dec 2.9794 3 whole (loose)
-  - 9 = 360/40 — also: 3 Gredin / Brian Hughes
+  - 9 = 360/40 — also: 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor
     - S Moon → H Saturn Dec 8.9944 9 whole (51.54)
   - 24 = 360/15 — also: 1 Boss Man Fred / Harry Skelton
     - S Moon → H Uranus Dec 24.0046 24 whole (59.10)
+  - 24 = 360/15 — also: 1 Boss Man Fred / Harry Skelton
+    - H Alhena → H Orcus Dec 24.0064 24 whole (46.47)
+  - 4 = 360/90 — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
+    - H Fomalhaut → H Chiron RA 3.9895 4 whole (22.52)
+  - 3 = 360/120 — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
+    - H Praesepe → H Ketu Dec 2.9881 3 whole (16.52)
+  - 3 = 360/120 — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
+    - H Zubeneschamali → H Saturn Dec 3.0073 3 whole (40.46)
   - 12 = 360/30 — also: 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
     - H Zubeneschamali → H Uranus Dec 12.0030 12 whole (72.35)
-  - 2 = 360/180 — also: 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor
+  - 2 = 360/180 — also: 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
     - S Juno → J Juno Dec 2.0033 2 whole (69.82)
-  - 3 = 360/120 — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor
+  - 3 = 360/120 — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
     - S Sedna → J Sedna Dec 2.9882 3 whole (16.65)
-  - 5 = 360/72 — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan
+  - 5 = 360/72 — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
     - S Gonggong → J Gonggong RA 5.0202 5 whole (loose)
+  - 20 = 360/18 — also: 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
+    - J Al Rescha → J Gonggong Dec 19.9834 20 whole (2.81)
+  - 1 = 360/360 — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan
+    - J Praesepe → J Haumea Dec 0.9834 1 whole (2.96)
 - **5. same number in more than one place**
+  - 31 whole — also: 4 Mr Washington / Jordan Nailor
+    - S Uranus → H Uranus RA 31.0110 31 whole (20.24)
+    - J Murzim → J Transpluto Dec 30.9912 31 whole (31.63)
   - 17.7778 ninth — only
     - S Pluto → H Pluto RA 17.7570 17.7778 ninth (loose)
     - S Jupiter → J Jupiter Dec 17.6893 17.7778 ninth (loose)
-  - 5 whole — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes
+  - 5 whole — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
     - S Sedna → H Sedna RA 4.9709 5 whole (loose)
     - S Gonggong → J Gonggong RA 5.0202 5 whole (loose)
-  - 3 whole — also: 4 Mr Washington / Jordan Nailor
+  - 3 whole — also: 1 Boss Man Fred / Harry Skelton, 4 Mr Washington / Jordan Nailor
     - S Haumea → H Haumea Dec 2.9794 3 whole (loose)
+    - H Praesepe → H Ketu Dec 2.9881 3 whole (16.52)
+    - H Zubeneschamali → H Saturn Dec 3.0073 3 whole (40.46)
     - S Sedna → J Sedna Dec 2.9882 3 whole (16.65)
   - 160 whole — only
     - H Jupiter → H star Zubeneschamali RA 159.9982 160 whole (83.04)
     - H Zubeneschamali → H Jupiter RA 159.9982 160 whole (83.04)
+  - 24 whole — also: 1 Boss Man Fred / Harry Skelton
+    - S Moon → H Uranus Dec 24.0046 24 whole (59.10)
+    - H Alhena → H Orcus Dec 24.0064 24 whole (46.47)
   - 70 whole — only
     - H El Nath → H Transpluto RA 70.0052 70 whole (55.06)
     - H Procyon → H Ketu RA 69.9952 70 whole (57.58)
+  - 22 whole — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods
+    - H Fomalhaut → H Orcus Dec 22.0159 22 whole (4.24)
+    - H Kaus Australis → H Saturn Dec 21.9921 22 whole (36.63)
+  - 37 whole — only
+    - H Kaus Australis → H Uranus Dec 37.0024 37 whole (77.70)
+    - H Mirach → H Chiron RA 37.0085 37 whole (32.82)
   - 122.222 ninth — only
     - H Praesepe → H Uranus RA 122.2735 122.222 ninth (92.90)
     - J El Nath → J Uranus RA 122.2796 122.222 ninth (92.06)
+  - 13 whole — only
+    - H Praesepe → H Sedna Dec 12.9945 13 whole (52.40)
+    - J Deneb → J Makemake Dec 12.9904 13 whole (26.96)
+    - J Fomalhaut → J Sun Dec 12.9843 13 whole (4.57)
   - 69 whole — only
     - J Jupiter → J star Murzim RA 69.0033 69 whole (69.83)
     - S Murzim → J Jupiter RA 69.0017 69 whole (83.61)
-- **6. star and sky line on one body**: none
-- **7. centres meeting**
-  - Orcus: Jupiter, Moon, Sun — only
-    - [Jupiter] S Jupiter → H Orcus Dec 0.2489 conj (2.90)
-    - [Jupiter] H Fomalhaut → H Orcus Dec 22.0159 22 whole (4.24)
-    - [Moon] H Deneb → H Orcus RA 162.0007 162 whole (93.51)
-    - [Moon] H Zubeneschamali → H Orcus RA 80.9020 50×φ golden (97.91)
-    - [Sun] H Alhena → H Orcus Dec 24.0064 24 whole (46.47)
-  - Gonggong: Moon, Sun — also: 2 Mister Watson / Kielan Woods
-    - [Moon] H Zubeneschamali → H Gonggong RA 106.0094 106 whole (27.99)
-    - [Moon] J Al Rescha → J Gonggong Dec 19.9834 20 whole (2.81)
-    - [Sun] S Sun → H Gonggong RA 1.2897 conj (1.97)
-    - [Sun] S Gonggong → J Gonggong RA 5.0202 5 whole (loose)
-  - Uranus: Jupiter, Moon, Sun — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods
-    - [Jupiter] H Praesepe → H Uranus RA 122.2735 122.222 ninth (92.90)
-    - [Moon] S Moon → H Uranus Dec 24.0046 24 whole (59.10)
-    - [Moon] H Al Rescha → H Uranus Dec 0.1432 conj (27.30)
-    - [Moon] H El Nath → H Uranus Dec 25.9889 26 whole (19.69)
-    - [Moon] H Kaus Australis → H Uranus Dec 37.0024 37 whole (77.70)
-    - [Moon] H Mirach → H Uranus Dec 33.0006 33 whole (94.35)
-    - [Moon] H Zubeneschamali → H Uranus Dec 12.0030 12 whole (72.35)
-    - [Moon] J El Nath → J Uranus RA 122.2796 122.222 ninth (92.06)
-    - [Sun] J Procyon → J Uranus RA 155.5333 155.556 ninth (97.89)
-  - Jupiter: Jupiter, Moon — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes
-    - [Jupiter] S Ceres → H Jupiter Dec 0.2445 conj (3.43)
-    - [Jupiter] S Eris → J Jupiter RA 0.7517 conj (24.89)
-    - [Jupiter] S Murzim → J Jupiter RA 69.0017 69 whole (83.61)
-    - [Moon] H Zubeneschamali → H Jupiter RA 159.9982 160 whole (83.04)
-  - Chiron: Jupiter, Moon, Sun — also: 2 Mister Watson / Kielan Woods, 5 Half Track / Sean Quinlan
-    - [Jupiter] H Fomalhaut → H Chiron RA 3.9895 4 whole (22.52)
-    - [Moon] H Mirach → H Chiron RA 37.0085 37 whole (32.82)
-    - [Moon] H Zubeneschamali → H Chiron RA 111.1639 111.111 ninth (91.36)
-    - [Sun] H Alhena → H Chiron RA 119.0094 119 whole (28.33)
-  - Quaoar: Moon, Sun — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan
-    - [Moon] H El Nath → H Quaoar RA 176.3842 109×φ golden (18.28)
-    - [Sun] H Alhena → H Quaoar Dec 32.0001 32 whole (99.07)
-    - [Sun] J Procyon → J Quaoar RA 132.9992 133 whole (91.97)
-  - Sedna: Jupiter, Moon, Sun — also: 1 Boss Man Fred / Harry Skelton, 4 Mr Washington / Jordan Nailor
-    - [Jupiter] H Praesepe → H Sedna Dec 12.9945 13 whole (52.40)
-    - [Moon] H Deneb → H Sedna RA 102.9836 103 whole (3.32)
-    - [Moon] J Facies → J Sedna Dec 29.0107 29 whole (21.49)
-    - [Moon] J Zubeneschamali → J Sedna RA 177.0091 177 whole (29.73)
-    - [Sun] H Procyon → H Sedna RA 61.4871 38×φ golden (89.09)
-    - [Sun] J Procyon → J Sedna Dec 0.1178 conj (36.89)
-  - Transpluto: Jupiter, Moon — also: 2 Mister Watson / Kielan Woods
-    - [Jupiter] J Murzim → J Transpluto Dec 30.9912 31 whole (31.63)
-    - [Moon] H El Nath → H Transpluto RA 70.0052 70 whole (55.06)
-  - Mars: Jupiter, Moon, Sun — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes
-    - [Jupiter] H Fomalhaut → H Mars Dec 33.3309 33.3333 ninth (97.06)
-    - [Moon] J Zubeneschamali → J Mars RA 125.0032 125 whole (70.95)
-    - [Sun] J Alhena → J Mars RA 105.1788 65×φ golden (63.63)
-  - Eris: Jupiter, Moon — also: 4 Mr Washington / Jordan Nailor
-    - [Jupiter] H Praesepe → H Eris RA 104.9821 105 whole (1.10)
-    - [Jupiter] J Praesepe → J Eris Dec 27.0180 27 whole (0.97)
-    - [Moon] H Kaus Australis → H Eris RA 109.0033 109 whole (69.88)
-    - [Moon] S Moon → J Eris RA 144.4431 144.444 ninth (99.85)
-    - [Moon] J Facies → J Eris RA 103.9935 104 whole (45.28)
-  - Haumea: Jupiter, Sun — only
-    - [Jupiter] H Murzim → H Haumea RA 113.2769 70×φ golden (30.37)
-    - [Jupiter] J Praesepe → J Haumea Dec 0.9834 1 whole (2.96)
-    - [Sun] S Sun → J Haumea RA 139.0057 139 whole (50.97)
-  - Ketu: Jupiter, Sun — only
-    - [Jupiter] H Praesepe → H Ketu Dec 2.9881 3 whole (16.52)
-    - [Sun] H Procyon → H Ketu RA 69.9952 70 whole (57.58)
-  - Pallas: Moon, Sun — also: 2 Mister Watson / Kielan Woods
-    - [Moon] J Facies → J Pallas Dec 0.2863 conj (0.21)
-    - [Sun] H Procyon → H Pallas RA 82.0031 82 whole (71.47)
-    - [Sun] J Procyon → J Pallas RA 1.0769 conj (7.95)
-  - Mercury: Moon, Sun — only
-    - [Moon] J El Nath → J Mercury RA 112.0146 112 whole (7.34)
-    - [Moon] J Zubeneschamali → J Mercury RA 100.3115 62×φ golden (63.47)
-    - [Sun] J Acumen → J Mercury Dec 20.9885 21 whole (18.17)
-  - Sun: Jupiter, Moon, Sun — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes
-    - [Jupiter] J Fomalhaut → J Sun RA 27.9816 28 whole (0.65)
-    - [Jupiter] J Fomalhaut → J Sun Dec 12.9843 13 whole (4.57)
-    - [Moon] J Mirach → J Sun RA 61.0045 61 whole (59.89)
-    - [Sun] J Alhena → J Sun RA 143.0071 143 whole (41.90)
+### L4 every natal body
+- **Mars**
+  - same body: S Mars → H Mars Dec 26.1379 10×φ^2 phi power (loose) — also: 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
+  - star rows: H Fomalhaut → H Mars Dec 33.3309 33.3333 ninth (97.06) — also: 1 Boss Man Fred / Harry Skelton
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+  - star rows: J Alhena → J Mars RA 105.1788 65×φ golden (63.63) — only
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - star rows: J Zubeneschamali → J Mars RA 125.0032 125 whole (70.95) — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+- **Uranus**
+  - same body: S Uranus → H Uranus RA 31.0110 31 whole (20.24) — also: 3 Gredin / Brian Hughes
+  - same body: S Uranus → H Uranus Dec 12.1670 12.2222 ninth (loose) — also: 3 Gredin / Brian Hughes
+  - top rows: S Moon → H Uranus Dec 24.0046 24 whole (59.10) — also: 3 Gredin / Brian Hughes
+  - star rows: H Al Rescha → H Uranus Dec 0.1432 conj (27.30) — also: 4 Mr Washington / Jordan Nailor
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+  - star rows: H El Nath → H Uranus Dec 25.9889 26 whole (19.69) — also: 2 Mister Watson / Kielan Woods
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - star rows: H Kaus Australis → H Uranus Dec 37.0024 37 whole (77.70) — only
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - star rows: H Mirach → H Uranus Dec 33.0006 33 whole (94.35) — also: 3 Gredin / Brian Hughes
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+  - star rows: H Praesepe → H Uranus RA 122.2735 122.222 ninth (92.90) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+  - star rows: H Zubeneschamali → H Uranus Dec 12.0030 12 whole (72.35) — also: 1 Boss Man Fred / Harry Skelton
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+  - star rows: J El Nath → J Uranus RA 122.2796 122.222 ninth (92.06) — also: 2 Mister Watson / Kielan Woods
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - star rows: J Procyon → J Uranus RA 155.5333 155.556 ninth (97.89) — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+- **Neptune**
+  - same body: S Neptune → H Neptune RA 17.0262 17 whole (loose) — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor
+  - top rows: S Sun → H Neptune RA 0.5785 conj (37.74) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor
+- **Pluto**
+  - same body: S Pluto → H Pluto RA 17.7570 17.7778 ninth (loose) — also: 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
+  - star rows: H Praesepe → H Pluto RA 151.9851 152 whole (6.52) — also: 1 Boss Man Fred / Harry Skelton, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+  - same body: S Pluto → J Pluto Dec 11.0456 φ^5 phi power (loose) — also: 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
+  - star rows: J Fomalhaut → J Pluto RA 92.0068 92 whole (43.37) — also: 3 Gredin / Brian Hughes
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+- **Sedna**
+  - same body: S Sedna → H Sedna RA 4.9709 5 whole (loose) — also: 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan
+  - same body: S Sedna → H Sedna Dec 1.1057 1.11111 ninth (loose) — also: 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan
+  - star rows: H Deneb → H Sedna RA 102.9836 103 whole (3.32) — also: 4 Mr Washington / Jordan Nailor
+    - source line: S Moon → Deneb Dec 66.6638 66.6667 ninth (97.54)
+  - star rows: H Praesepe → H Sedna Dec 12.9945 13 whole (52.40) — only
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+  - star rows: H Procyon → H Sedna RA 61.4871 38×φ golden (89.09) — also: 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+  - same body: S Sedna → J Sedna Dec 2.9882 3 whole (16.65) — also: 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan
+  - star rows: J Facies → J Sedna Dec 29.0107 29 whole (21.49) — also: 5 Half Track / Sean Quinlan
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - star rows: J Procyon → J Sedna Dec 0.1178 conj (36.89) — also: 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+  - star rows: J Zubeneschamali → J Sedna RA 177.0091 177 whole (29.73) — also: 5 Half Track / Sean Quinlan
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+- **Haumea**
+  - same body: S Haumea → H Haumea Dec 2.9794 3 whole (loose) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods
+  - star rows: H Murzim → H Haumea RA 113.2769 70×φ golden (30.37) — also: 4 Mr Washington / Jordan Nailor
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+  - top rows: S Sun → J Haumea RA 139.0057 139 whole (50.97) — only
+  - star rows: J Praesepe → J Haumea Dec 0.9834 1 whole (2.96) — only
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+- **Jupiter**
+  - T1: H Jupiter → H star Zubeneschamali RA 159.9982 160 whole (83.04) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan
+  - top rows: S Ceres → H Jupiter Dec 0.2445 conj (3.43) — also: 5 Half Track / Sean Quinlan
+  - star rows: H Zubeneschamali → H Jupiter RA 159.9982 160 whole (83.04) — only
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+  - same body: S Jupiter → J Jupiter Dec 17.6893 17.7778 ninth (loose) — also: 1 Boss Man Fred / Harry Skelton, 5 Half Track / Sean Quinlan
+  - T2: J Jupiter → J star Murzim RA 69.0033 69 whole (69.83) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan
+  - top rows: S Eris → J Jupiter RA 0.7517 conj (24.89) — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes
+  - star rows: S Murzim → J Jupiter RA 69.0017 69 whole (83.61) — only
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+- **Orcus**
+  - top rows: S Jupiter → H Orcus Dec 0.2489 conj (2.90) — also: 1 Boss Man Fred / Harry Skelton, 5 Half Track / Sean Quinlan
+  - star rows: H Alhena → H Orcus Dec 24.0064 24 whole (46.47) — only
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - star rows: H Deneb → H Orcus RA 162.0007 162 whole (93.51) — also: 1 Boss Man Fred / Harry Skelton
+    - source line: S Moon → Deneb Dec 66.6638 66.6667 ninth (97.54)
+  - star rows: H Fomalhaut → H Orcus Dec 22.0159 22 whole (4.24) — only
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+  - star rows: H Zubeneschamali → H Orcus RA 80.9020 50×φ golden (97.91) — also: 3 Gredin / Brian Hughes
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+- **Gonggong**
+  - top rows: S Sun → H Gonggong RA 1.2897 conj (1.97) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
+  - star rows: H Zubeneschamali → H Gonggong RA 106.0094 106 whole (27.99) — also: 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+  - same body: S Gonggong → J Gonggong RA 5.0202 5 whole (loose) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes
+    - source line: S Sun → Gonggong RA 0.2231 conj (72.47)
+  - star rows: J Al Rescha → J Gonggong Dec 19.9834 20 whole (2.81) — also: 2 Mister Watson / Kielan Woods
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+- **Saturn**
+  - top rows: S Moon → H Saturn Dec 8.9944 9 whole (51.54) — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
+  - star rows: H El Nath → H Saturn Dec 40.9991 41 whole (91.60) — also: 1 Boss Man Fred / Harry Skelton, 5 Half Track / Sean Quinlan
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - star rows: H Kaus Australis → H Saturn Dec 21.9921 22 whole (36.63) — also: 5 Half Track / Sean Quinlan
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - star rows: H Mirach → H Saturn Dec 48.0108 48 whole (20.98) — also: 5 Half Track / Sean Quinlan
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+  - star rows: H Zubeneschamali → H Saturn Dec 3.0073 3 whole (40.46) — also: 2 Mister Watson / Kielan Woods, 5 Half Track / Sean Quinlan
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+- **Rahu**
+  - star rows: H Acumen → H Rahu Dec 17.7977 11×φ golden (96.06) — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - star rows: H Procyon → H Rahu RA 110.0048 110 whole (57.58) — also: 1 Boss Man Fred / Harry Skelton
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+  - star rows: J Acumen → J Rahu RA 142.3948 88×φ golden (57.73) — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+- **Chiron**
+  - star rows: H Alhena → H Chiron RA 119.0094 119 whole (28.33) — also: 1 Boss Man Fred / Harry Skelton, 5 Half Track / Sean Quinlan
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - star rows: H Fomalhaut → H Chiron RA 3.9895 4 whole (22.52) — also: 3 Gredin / Brian Hughes
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+  - star rows: H Mirach → H Chiron RA 37.0085 37 whole (32.82) — only
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+  - star rows: H Zubeneschamali → H Chiron RA 111.1639 111.111 ninth (91.36) — also: 1 Boss Man Fred / Harry Skelton, 5 Half Track / Sean Quinlan
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+  - same body: S Chiron → J Chiron Dec 24.0879 24.14 silver (loose) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor
+- **Quaoar**
+  - star rows: H Alhena → H Quaoar Dec 32.0001 32 whole (99.07) — also: 1 Boss Man Fred / Harry Skelton, 4 Mr Washington / Jordan Nailor
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - star rows: H El Nath → H Quaoar RA 176.3842 109×φ golden (18.28) — also: 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - same body: S Quaoar → J Quaoar RA 29.0824 φ^7 phi power (loose) — also: 2 Mister Watson / Kielan Woods, 5 Half Track / Sean Quinlan
+  - star rows: J Procyon → J Quaoar RA 132.9992 133 whole (91.97) — also: 2 Mister Watson / Kielan Woods
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+- **Venus**
+  - star rows: H Deneb → H Venus RA 54.9955 55 whole (60.38) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods
+    - source line: S Moon → Deneb Dec 66.6638 66.6667 ninth (97.54)
+  - star rows: H Deneb → H Venus Dec 44.4455 44.4444 ninth (98.85) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods
+    - source line: S Moon → Deneb Dec 66.6638 66.6667 ninth (97.54)
+  - star rows: J Al Rescha → J Venus Dec 25.0124 25 whole (14.37) — also: 2 Mister Watson / Kielan Woods, 5 Half Track / Sean Quinlan
+    - source line: S Moon → Al Rescha Dec 24.1482 24.14 silver (90.23)
+- **Ceres**
+  - star rows: H El Nath → H Ceres Dec 0.0872 conj (50.33) — only
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - same body: S Ceres → J Ceres RA 133.3910 133.333 ninth (93.08) — also: 1 Boss Man Fred / Harry Skelton, 4 Mr Washington / Jordan Nailor
+- **Transpluto**
+  - star rows: H El Nath → H Transpluto RA 70.0052 70 whole (55.06) — also: 1 Boss Man Fred / Harry Skelton
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - same body: S Transpluto → J Transpluto RA 6.9875 7 whole (14.01) — also: 1 Boss Man Fred / Harry Skelton, 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan
+  - star rows: J Murzim → J Transpluto Dec 30.9912 31 whole (31.63) — also: 3 Gredin / Brian Hughes
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)
+- **Eris**
+  - star rows: H Kaus Australis → H Eris RA 109.0033 109 whole (69.88) — also: 4 Mr Washington / Jordan Nailor
+    - source line: S Moon → Kaus Australis Dec 12.9983 13 whole (83.95)
+  - star rows: H Praesepe → H Eris RA 104.9821 105 whole (1.10) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+  - top rows: S Moon → J Eris RA 144.4431 144.444 ninth (99.85) — also: 1 Boss Man Fred / Harry Skelton
+  - star rows: J Facies → J Eris RA 103.9935 104 whole (45.28) — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - star rows: J Praesepe → J Eris Dec 27.0180 27 whole (0.97) — also: 1 Boss Man Fred / Harry Skelton, 2 Mister Watson / Kielan Woods
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+- **Ketu**
+  - star rows: H Praesepe → H Ketu Dec 2.9881 3 whole (16.52) — also: 2 Mister Watson / Kielan Woods
+    - source line: S Jupiter → Praesepe RA 146.0035 146 whole (68.02)
+  - star rows: H Procyon → H Ketu RA 69.9952 70 whole (57.58) — also: 5 Half Track / Sean Quinlan
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+- **Pallas**
+  - star rows: H Procyon → H Pallas RA 82.0031 82 whole (71.47) — also: 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+  - star rows: J Facies → J Pallas Dec 0.2863 conj (0.21) — only
+    - source line: S Moon → Facies RA 40.4512 25×φ golden (98.01)
+  - star rows: J Procyon → J Pallas RA 1.0769 conj (7.95) — also: 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+- **Juno**
+  - star rows: H Procyon → H Juno RA 171.0041 171 whole (63.02) — also: 3 Gredin / Brian Hughes
+    - source line: S Sun → Procyon Dec 15.0048 15 whole (57.63)
+  - same body: S Juno → J Juno Dec 2.0033 2 whole (69.82) — also: 3 Gredin / Brian Hughes, 4 Mr Washington / Jordan Nailor
+  - top rows: S Sun → J Juno RA 45.9994 46 whole (93.92) — only
+- **Makemake**
+  - star rows: H Zubeneschamali → H Makemake RA 38.0041 38 whole (62.86) — only
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+  - same body: S Makemake → J Makemake RA 18.9806 19 whole (0.10) — also: 3 Gredin / Brian Hughes, 5 Half Track / Sean Quinlan
+    - source line: S Moon → Makemake Dec 43.9984 44 whole (84.30)
+  - star rows: J Deneb → J Makemake Dec 12.9904 13 whole (26.96) — also: 4 Mr Washington / Jordan Nailor, 5 Half Track / Sean Quinlan
+    - source line: S Moon → Deneb Dec 66.6638 66.6667 ninth (97.54)
+  - star rows: J Mirach → J Makemake Dec 3.3334 3.33333 ninth (99.14) — also: 5 Half Track / Sean Quinlan
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+- **Sun**
+  - same body: S Sun → J Sun Dec 6.8529 φ^4 phi power (loose) — also: 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor
+  - star rows: J Alhena → J Sun RA 143.0071 143 whole (41.90) — also: 3 Gredin / Brian Hughes
+    - source line: S Sun → Alhena Dec 26.1861 10×φ^2 phi power (91.35)
+  - star rows: J Fomalhaut → J Sun RA 27.9816 28 whole (0.65) — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+  - star rows: J Fomalhaut → J Sun Dec 12.9843 13 whole (4.57) — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes
+    - source line: S Jupiter → Fomalhaut RA 0.3822 conj (55.53)
+  - star rows: J Mirach → J Sun RA 61.0045 61 whole (59.89) — also: 2 Mister Watson / Kielan Woods, 3 Gredin / Brian Hughes
+    - source line: S Moon → Mirach Dec 57.0067 57 whole (44.27)
+- **Mercury**
+  - same body: S Mercury → J Mercury Dec 4.8505 3×φ golden (loose) — only
+  - star rows: J Acumen → J Mercury Dec 20.9885 21 whole (18.17) — also: 2 Mister Watson / Kielan Woods, 4 Mr Washington / Jordan Nailor
+    - source line: S Sun → Acumen Dec 25.0044 25 whole (61.20)
+  - star rows: J El Nath → J Mercury RA 112.0146 112 whole (7.34) — also: 1 Boss Man Fred / Harry Skelton
+    - source line: S Moon → El Nath Dec 49.9932 50 whole (43.85)
+  - star rows: J Zubeneschamali → J Mercury RA 100.3115 62×φ golden (63.47) — only
+    - source line: S Moon → Zubeneschamali Dec 12.0021 12 whole (80.50)
+- **Vesta**
+  - star rows: J Murzim → J Vesta RA 166.6189 166.667 ninth (95.90) — only
+    - source line: S Jupiter → Murzim RA 111.6513 69×φ golden (61.66)

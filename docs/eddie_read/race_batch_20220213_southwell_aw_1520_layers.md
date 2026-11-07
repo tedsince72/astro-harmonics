@@ -1,5 +1,5 @@
 # Stage 2 layers: race_batch_20220213_southwell_aw_1520_jupiter_tables.xlsx
-Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_layers.py).
+The stage 1 data laid out in fixed layers for every runner; data only, no interpretation, no ranking, no pick (tools/eddie_layers.py).
 
 ## L0 field
 - In the tables workbook (7): 1 The Dancing Poet / Harry Russell; 2 Flying Instructor / Dylan Hogan; 3 Chase The Dollar / Rossa Ryan; 4 Deluxe Music / Callum Rodriguez; 5 Carn A Chlamain / Tom Marquand; 6 Flamingo Rose / Dougie Costello; 7 Red Tornado / Jason Hart
@@ -43,63 +43,95 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - S Ketu → J Ketu RA 111.5996 111.111 ninth (loose)
 ### L2 what lands on each same body
 - **H Mercury** (same body: S Mercury → H Mercury RA 13.9902 14 whole (26.07))
-  - top rows: S Sun → H Mercury Dec 7.0030 7 whole (72.18) [Sun]
-  - star rows: H Sadalmelik → H Mercury Dec 20.0082 20 whole (34.58) [Sun]
+  - top rows: S Sun → H Mercury Dec 7.0030 7 whole (72.18)
+  - star rows: H Sadalmelik → H Mercury Dec 20.0082 20 whole (34.58)
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
   - other chart, same body: S Mercury → J Mercury RA 28.9809 29 whole (0.19)
-  - other chart, top rows: S Jupiter → J Mercury Dec 16.6649 16.6667 ninth (98.47) [Jupiter]
-  - other chart, star rows: J Rasalhague → J Mercury Dec 37.9935 38 whole (45.90) [Sun]
+  - other chart, top rows: S Jupiter → J Mercury Dec 16.6649 16.6667 ninth (98.47)
+  - other chart, star rows: J Rasalhague → J Mercury Dec 37.9935 38 whole (45.90)
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
 - **H Saturn** (same body: S Saturn → H Saturn Dec 4.1466 4.14 silver (loose))
-  - body line: S Moon → Saturn RA 152.9975 153 whole (76.77)
-  - other chart, star rows: J Castor → J Saturn RA 99.9840 100 whole (3.96) [Moon]
-  - other chart, star rows: J Galactic Centre → J Saturn Dec 31.9961 32 whole (64.81) [Moon]
-  - other chart, star rows: J Spica → J Saturn Dec 14.1480 14.14 sqrt2 (84.16) [Moon]
+  - sky line to Saturn: S Moon → Saturn RA 152.9975 153 whole (76.77)
+  - other chart, star rows: J Castor → J Saturn RA 99.9840 100 whole (3.96)
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
+  - other chart, star rows: J Galactic Centre → J Saturn Dec 31.9961 32 whole (64.81)
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - other chart, star rows: J Spica → J Saturn Dec 14.1480 14.14 sqrt2 (84.16)
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
 - **H Pallas** (same body: S Pallas → H Pallas RA 63.9711 64 whole (loose))
-  - other chart, top rows: S Jupiter → J Pallas RA 42.0630 26×φ golden (67.15) [Jupiter]
-  - other chart, star rows: J Rasalhague → J Pallas RA 35.9908 36 whole (29.30) [Sun]
-  - other chart, star rows: J Sadalmelik → J Pallas Dec 0.0367 conj (77.03) [Sun]
+  - other chart, top rows: S Jupiter → J Pallas RA 42.0630 26×φ golden (67.15)
+  - other chart, star rows: J Rasalhague → J Pallas RA 35.9908 36 whole (29.30)
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - other chart, star rows: J Sadalmelik → J Pallas Dec 0.0367 conj (77.03)
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
 - **H Eris** (same body: S Eris → H Eris Dec 1.6145 1×φ golden (loose))
-  - star rows: H Aculeus → H Eris RA 119.9924 120 whole (38.24) [Sun]
-  - star rows: H Rasalhague → H Eris RA 121.3408 75×φ golden (40.58) [Sun]
+  - star rows: H Aculeus → H Eris RA 119.9924 120 whole (38.24)
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: H Rasalhague → H Eris RA 121.3408 75×φ golden (40.58)
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
 - **H Gonggong** (same body: S Gonggong → H Gonggong Dec 1.6101 1×φ golden (loose))
-  - star rows: H Alphard → H Gonggong RA 166.6317 166.667 ninth (97.00) [Jupiter]
-  - other chart, star rows: J Deneb Algedi → J Gonggong RA 3.9917 4 whole (34.17) [Sun]
-  - other chart, star rows: J Meissa → J Gonggong Dec 27.9943 28 whole (51.37) [Jupiter]
-  - other chart, star rows: J Sadalmelik → J Gonggong RA 0.6948 conj (28.82) [Sun]
-  - other chart, star rows: J Spica → J Gonggong RA 129.4555 80×φ golden (36.76) [Moon]
+  - star rows: H Alphard → H Gonggong RA 166.6317 166.667 ninth (97.00)
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - other chart, star rows: J Deneb Algedi → J Gonggong RA 3.9917 4 whole (34.17)
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - other chart, star rows: J Meissa → J Gonggong Dec 27.9943 28 whole (51.37)
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+  - other chart, star rows: J Sadalmelik → J Gonggong RA 0.6948 conj (28.82)
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - other chart, star rows: J Spica → J Gonggong RA 129.4555 80×φ golden (36.76)
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
 - **H Transpluto** (same body: S Transpluto → H Transpluto RA 1.7698 1.77778 ninth (loose))
-  - other chart, top rows: S Sun → J Transpluto RA 179.4323 10×φ^6 phi power (97.68) [Sun]
-  - other chart, star rows: J Sadalmelik → J Transpluto RA 176.0052 176 whole (54.89) [Sun]
+  - other chart, top rows: S Sun → J Transpluto RA 179.4323 10×φ^6 phi power (97.68)
+  - other chart, star rows: J Sadalmelik → J Transpluto RA 176.0052 176 whole (54.89)
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
 - **J Mercury** (same body: S Mercury → J Mercury RA 28.9809 29 whole (0.19))
-  - top rows: S Jupiter → J Mercury Dec 16.6649 16.6667 ninth (98.47) [Jupiter]
-  - star rows: J Rasalhague → J Mercury Dec 37.9935 38 whole (45.90) [Sun]
+  - top rows: S Jupiter → J Mercury Dec 16.6649 16.6667 ninth (98.47)
+  - star rows: J Rasalhague → J Mercury Dec 37.9935 38 whole (45.90)
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
   - other chart, same body: S Mercury → H Mercury RA 13.9902 14 whole (26.07)
-  - other chart, top rows: S Sun → H Mercury Dec 7.0030 7 whole (72.18) [Sun]
-  - other chart, star rows: H Sadalmelik → H Mercury Dec 20.0082 20 whole (34.58) [Sun]
+  - other chart, top rows: S Sun → H Mercury Dec 7.0030 7 whole (72.18)
+  - other chart, star rows: H Sadalmelik → H Mercury Dec 20.0082 20 whole (34.58)
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
 - **J Jupiter** (same body: S Jupiter → J Jupiter RA 22.2315 22.2222 ninth (loose))
-  - top rows: S Venus → J Jupiter RA 33.9953 34 whole (58.60) [Jupiter, Moon]
-  - top rows: S Venus → J Jupiter Dec 0.1343 conj (30.50) [Jupiter, Moon]
-  - top rows: S Saturn → J Jupiter RA 0.1337 conj (82.97) [Jupiter, Moon]
-  - top rows: S Saturn → J Jupiter Dec 0.0043 conj (97.17) [Jupiter, Moon]
-  - top rows: S Haumea → J Jupiter RA 101.9961 102 whole (64.47) [Jupiter]
-  - star rows: J Alphard → J Jupiter Dec 7.9919 8 whole (35.21) [Jupiter]
-  - star rows: S Facies → J Jupiter RA 40.4549 25×φ golden (76.68) [Moon]
-  - other chart, top rows: S Pluto → H Jupiter RA 125.9983 126 whole (83.72) [Jupiter]
-  - other chart, top rows: S Pallas → H Jupiter RA 170.0026 170 whole (75.82) [Jupiter]
-  - other chart, top rows: S Orcus → H Jupiter RA 16.6659 16.6667 ninth (99.39) [Jupiter]
-  - other chart, star rows: S Alkaid → H Jupiter Dec 44.9924 45 whole (38.26) [Sun]
+  - top rows: S Venus → J Jupiter RA 33.9953 34 whole (58.60)
+    - source line: S Moon → Venus RA 173.1408 107×φ golden (42.72)
+  - top rows: S Venus → J Jupiter Dec 0.1343 conj (30.50)
+    - source line: S Moon → Venus RA 173.1408 107×φ golden (42.72)
+  - top rows: S Saturn → J Jupiter RA 0.1337 conj (82.97)
+    - source line: S Moon → Saturn RA 152.9975 153 whole (76.77)
+  - top rows: S Saturn → J Jupiter Dec 0.0043 conj (97.17)
+    - source line: S Moon → Saturn RA 152.9975 153 whole (76.77)
+  - top rows: S Haumea → J Jupiter RA 101.9961 102 whole (64.47)
+  - star rows: J Alphard → J Jupiter Dec 7.9919 8 whole (35.21)
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: S Facies → J Jupiter RA 40.4549 25×φ golden (76.68)
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+  - other chart, top rows: S Pluto → H Jupiter RA 125.9983 126 whole (83.72)
+  - other chart, top rows: S Pallas → H Jupiter RA 170.0026 170 whole (75.82)
+  - other chart, top rows: S Orcus → H Jupiter RA 16.6659 16.6667 ninth (99.39)
+  - other chart, star rows: S Alkaid → H Jupiter Dec 44.9924 45 whole (38.26)
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
 - **J Pluto** (same body: S Pluto → J Pluto Dec 12.9513 8×φ golden (loose))
-  - top rows: S Sun → J Pluto RA 80.9947 81 whole (54.28) [Sun]
-  - star rows: J Alkaid → J Pluto RA 39.0084 39 whole (33.49) [Sun]
-  - star rows: J Alphard → J Pluto RA 103.9887 104 whole (19.07) [Jupiter]
-  - star rows: J Sadalsuud → J Pluto RA 77.0002 77 whole (98.06) [Sun]
-  - star rows: J Sadalsuud → J Pluto Dec 3.9865 4 whole (10.52) [Sun]
+  - top rows: S Sun → J Pluto RA 80.9947 81 whole (54.28)
+  - star rows: J Alkaid → J Pluto RA 39.0084 39 whole (33.49)
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: J Alphard → J Pluto RA 103.9887 104 whole (19.07)
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: J Sadalsuud → J Pluto RA 77.0002 77 whole (98.06)
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+  - star rows: J Sadalsuud → J Pluto Dec 3.9865 4 whole (10.52)
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
 - **J Rahu** (same body: S Rahu → J Rahu RA 111.5996 111.111 ninth (loose))
-  - star rows: J Fomalhaut → J Rahu RA 177.7849 177.778 ninth (99.45) [Moon]
+  - star rows: J Fomalhaut → J Rahu RA 177.7849 177.778 ninth (99.45)
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
 - **J Ketu** (same body: S Ketu → J Ketu RA 111.5996 111.111 ninth (loose))
-  - star rows: J Sadalsuud → J Ketu Dec 0.1550 conj (23.35) [Sun]
-  - other chart, star rows: H Deneb Algedi → H Ketu RA 26.1830 10×φ^2 phi power (95.91) [Sun]
-  - other chart, star rows: H Meissa → H Ketu Dec 12.9839 13 whole (3.88) [Jupiter]
-### L3 the seven cases (L5 field tag on each)
+  - star rows: J Sadalsuud → J Ketu Dec 0.1550 conj (23.35)
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+  - other chart, star rows: H Deneb Algedi → H Ketu RA 26.1830 10×φ^2 phi power (95.91)
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - other chart, star rows: H Meissa → H Ketu Dec 12.9839 13 whole (3.88)
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+### L3 matches
 - **1. same body on both charts**
   - Mercury — only
     - S Mercury → H Mercury RA 13.9902 14 whole (26.07)
@@ -124,7 +156,25 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
     - J Facies → J Juno RA 102.0098 102 whole (25.87) = S Jupiter → Meissa RA 102.0057 102 whole (50.91)
   - 4 whole — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
     - J Sadalsuud → J Pluto Dec 3.9865 4 whole (10.52) = S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
-- **4. circle divisions**: none
+- **4. circle divisions**
+  - 120 = 360/3 — also: 2 Flying Instructor / Dylan Hogan
+    - H Aculeus → H Eris RA 119.9924 120 whole (38.24)
+  - 45 = 360/8 — only
+    - S Alkaid → H Jupiter Dec 44.9924 45 whole (38.26)
+  - 20 = 360/18 — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+    - H Sadalmelik → H Mercury Dec 20.0082 20 whole (34.58)
+  - 8 = 360/45 — also: 3 Chase The Dollar / Rossa Ryan, 6 Flamingo Rose / Dougie Costello
+    - J Alphard → J Jupiter Dec 7.9919 8 whole (35.21)
+  - 4 = 360/90 — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+    - J Deneb Algedi → J Gonggong RA 3.9917 4 whole (34.17)
+  - 12 = 360/30 — also: 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+    - J Meissa → J Vesta Dec 11.9937 12 whole (47.13)
+  - 36 = 360/10 — also: 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+    - J Rasalhague → J Pallas RA 35.9908 36 whole (29.30)
+  - 4 = 360/90 — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+    - J Sadalsuud → J Pluto Dec 3.9865 4 whole (10.52)
+  - 18 = 360/20 — also: 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+    - J Sadalsuud → J Ceres RA 18.0141 18 whole (8.80)
 - **5. same number in more than one place**
   - 1×φ golden — only
     - S Eris → H Eris Dec 1.6145 1×φ golden (loose)
@@ -132,13 +182,20 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 166.667 ninth — only
     - H Jupiter → H Neptune RA 166.6433 166.667 ninth (97.99)
     - H Alphard → H Gonggong RA 166.6317 166.667 ninth (97.00)
-  - 7 whole — also: 7 Red Tornado / Jason Hart
+  - 7 whole — also: 3 Chase The Dollar / Rossa Ryan, 7 Red Tornado / Jason Hart
     - S Sun → H Mercury Dec 7.0030 7 whole (72.18)
+    - H Meissa → H Haumea Dec 6.9896 7 whole (22.85)
     - J Galactic Centre → J Sun Dec 7.0012 7 whole (88.38)
   - 16.6667 ninth — only
     - S Orcus → H Jupiter RA 16.6659 16.6667 ninth (99.39)
     - S Jupiter → J Mercury Dec 16.6649 16.6667 ninth (98.47)
-  - 28 whole — only
+  - 23 whole — also: 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand
+    - H Aculeus → H Neptune Dec 23.0086 23 whole (32.60)
+    - J Spica → J Makemake RA 22.9966 23 whole (68.57)
+  - 56 whole — only
+    - H Facies → H Ceres RA 55.9869 56 whole (11.83)
+    - J Castor → J Venus Dec 55.9864 56 whole (10.39)
+  - 28 whole — also: 5 Carn A Chlamain / Tom Marquand
     - H Meissa → H Sun Dec 27.9992 28 whole (91.89)
     - J Meissa → J Gonggong Dec 27.9943 28 whole (51.37)
   - 111.111 ninth — also: 2 Flying Instructor / Dylan Hogan, 6 Flamingo Rose / Dougie Costello
@@ -147,109 +204,221 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 25×φ golden — only
     - J Jupiter → J star Facies RA 40.4560 25×φ golden (70.50)
     - S Facies → J Jupiter RA 40.4549 25×φ golden (76.68)
+  - 102 whole — also: 6 Flamingo Rose / Dougie Costello
+    - S Haumea → J Jupiter RA 101.9961 102 whole (64.47)
+    - J Facies → J Juno RA 102.0098 102 whole (25.87)
   - 14.14 sqrt2 — only
     - J Deneb Algedi → J Ceres RA 14.1435 14.14 sqrt2 (96.31)
     - J Spica → J Saturn Dec 14.1480 14.14 sqrt2 (84.16)
-- **6. star and sky line on one body**
-  - J Pallas on Sadalmelik — only
-    - J Sadalmelik → J Pallas Dec 0.0367 conj (77.03)
-    - S Jupiter → J Pallas RA 42.0630 26×φ golden (67.15)
-- **7. centres meeting**
-  - Neptune: Jupiter, Moon, Sun — also: 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
-    - [Jupiter] H Jupiter → H Neptune RA 166.6433 166.667 ninth (97.99)
-    - [Moon] H Facies → H Neptune RA 61.0109 61 whole (20.64)
-    - [Sun] H Aculeus → H Neptune Dec 23.0086 23 whole (32.60)
-  - Uranus: Jupiter, Moon, Sun — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan
-    - [Jupiter] S Jupiter → H Uranus RA 33.9729 21×φ golden (67.20)
-    - [Moon] J Spica → J Uranus RA 106.9947 107 whole (53.80)
-    - [Sun] H Deneb Algedi → H Uranus RA 48.9986 49 whole (86.49)
-    - [Sun] J Rasalhague → J Uranus Dec 31.9829 32 whole (2.12)
-  - Mercury: Jupiter, Sun — also: 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
-    - [Jupiter] S Jupiter → J Mercury Dec 16.6649 16.6667 ninth (98.47)
-    - [Sun] S Sun → H Mercury Dec 7.0030 7 whole (72.18)
-    - [Sun] H Sadalmelik → H Mercury Dec 20.0082 20 whole (34.58)
-    - [Sun] J Rasalhague → J Mercury Dec 37.9935 38 whole (45.90)
-  - Vesta: Jupiter, Moon, Sun — also: 2 Flying Instructor / Dylan Hogan
-    - [Jupiter] J Meissa → J Vesta RA 64.9876 65 whole (14.43)
-    - [Jupiter] J Meissa → J Vesta Dec 11.9937 12 whole (47.13)
-    - [Moon] S Moon → H Vesta Dec 24.9951 25 whole (57.34)
-    - [Sun] H Aculeus → H Vesta RA 110.9108 10×φ^5 phi power (96.75)
-  - Makemake: Moon, Sun — also: 4 Deluxe Music / Callum Rodriguez
-    - [Moon] S Moon → H Makemake Dec 0.0028 conj (98.17)
-    - [Moon] J Spica → J Makemake RA 22.9966 23 whole (68.57)
-    - [Sun] J Sadalsuud → J Makemake Dec 38.0060 38 whole (48.79)
-  - Jupiter: Jupiter, Moon, Sun — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
-    - [Jupiter] S Pluto → H Jupiter RA 125.9983 126 whole (83.72)
-    - [Jupiter] S Pallas → H Jupiter RA 170.0026 170 whole (75.82)
-    - [Jupiter] S Orcus → H Jupiter RA 16.6659 16.6667 ninth (99.39)
-    - [Jupiter] S Venus → J Jupiter RA 33.9953 34 whole (58.60)
-    - [Jupiter] S Venus → J Jupiter Dec 0.1343 conj (30.50)
-    - [Jupiter] S Saturn → J Jupiter RA 0.1337 conj (82.97)
-    - [Jupiter] S Saturn → J Jupiter Dec 0.0043 conj (97.17)
-    - [Jupiter] S Haumea → J Jupiter RA 101.9961 102 whole (64.47)
-    - [Jupiter] J Alphard → J Jupiter Dec 7.9919 8 whole (35.21)
-    - [Moon] S Venus → J Jupiter RA 33.9953 34 whole (58.60)
-    - [Moon] S Venus → J Jupiter Dec 0.1343 conj (30.50)
-    - [Moon] S Saturn → J Jupiter RA 0.1337 conj (82.97)
-    - [Moon] S Saturn → J Jupiter Dec 0.0043 conj (97.17)
-    - [Moon] S Facies → J Jupiter RA 40.4549 25×φ golden (76.68)
-    - [Sun] S Alkaid → H Jupiter Dec 44.9924 45 whole (38.26)
-  - Mars: Moon, Sun — also: 2 Flying Instructor / Dylan Hogan, 6 Flamingo Rose / Dougie Costello
-    - [Moon] H Fomalhaut → H Mars RA 122.9198 φ^10 phi power (77.95)
-    - [Sun] H Aculeus → H Mars Dec 17.7711 17.7778 ninth (94.74)
-    - [Sun] J Alkaid → J Mars Dec 72.8148 45×φ golden (80.64)
-    - [Sun] J Sadalmelik → J Mars RA 42.0097 42 whole (26.53)
-  - Ceres: Jupiter, Moon, Sun — only
-    - [Jupiter] S Jupiter → J Ceres RA 0.8799 conj (17.09)
-    - [Jupiter] J Alphard → J Ceres RA 160.9970 161 whole (72.30)
-    - [Jupiter] J Alphard → J Ceres Dec 11.1167 11.1111 ninth (90.86)
-    - [Moon] H Facies → H Ceres RA 55.9869 56 whole (11.83)
-    - [Moon] J Facies → J Ceres RA 61.8077 100×φ^-1 phi power (97.26)
-    - [Sun] H Aculeus → H Ceres RA 70.0029 70 whole (73.30)
-    - [Sun] J Deneb Algedi → J Ceres RA 14.1435 14.14 sqrt2 (96.31)
-    - [Sun] J Sadalsuud → J Ceres RA 18.0141 18 whole (8.80)
-  - Gonggong: Jupiter, Moon, Sun — also: 6 Flamingo Rose / Dougie Costello
-    - [Jupiter] H Alphard → H Gonggong RA 166.6317 166.667 ninth (97.00)
-    - [Jupiter] J Meissa → J Gonggong Dec 27.9943 28 whole (51.37)
-    - [Moon] J Spica → J Gonggong RA 129.4555 80×φ golden (36.76)
-    - [Sun] J Deneb Algedi → J Gonggong RA 3.9917 4 whole (34.17)
-    - [Sun] J Sadalmelik → J Gonggong RA 0.6948 conj (28.82)
-  - Ketu: Jupiter, Sun — only
-    - [Jupiter] H Meissa → H Ketu Dec 12.9839 13 whole (3.88)
-    - [Sun] H Deneb Algedi → H Ketu RA 26.1830 10×φ^2 phi power (95.91)
-    - [Sun] J Sadalsuud → J Ketu Dec 0.1550 conj (23.35)
-  - Sun: Jupiter, Moon, Sun — also: 7 Red Tornado / Jason Hart
-    - [Jupiter] H Meissa → H Sun Dec 27.9992 28 whole (91.89)
-    - [Moon] J Galactic Centre → J Sun Dec 7.0012 7 whole (88.38)
-    - [Sun] J Deneb Algedi → J Sun RA 77.9964 78 whole (67.24)
-  - Haumea: Jupiter, Moon, Sun — also: 6 Flamingo Rose / Dougie Costello
-    - [Jupiter] H Meissa → H Haumea Dec 6.9896 7 whole (22.85)
-    - [Jupiter] J Meissa → J Haumea RA 111.6583 69×φ golden (32.25)
-    - [Moon] J Castor → J Haumea Dec 10.9857 11 whole (8.00)
-    - [Sun] J Sadalmelik → J Haumea RA 135.9964 136 whole (67.47)
-  - Venus: Moon, Sun — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
-    - [Moon] J Castor → J Venus Dec 55.9864 56 whole (10.39)
-    - [Moon] J Facies → J Venus Dec 0.1943 conj (12.41)
-    - [Sun] H Rasalhague → H Venus Dec 35.0154 35 whole (5.26)
-  - Chiron: Moon, Sun — only
-    - [Moon] J Galactic Centre → J Chiron Dec 14.5606 9×φ golden (89.54)
-    - [Sun] H Sadalsuud → H Chiron Dec 4.8546 3×φ golden (96.78)
-    - [Sun] J Deneb Algedi → J Chiron RA 106.7804 66×φ golden (48.56)
-    - [Sun] J Rasalhague → J Chiron Dec 27.0084 27 whole (33.65)
-  - Pallas: Jupiter, Sun — only
-    - [Jupiter] S Jupiter → J Pallas RA 42.0630 26×φ golden (67.15)
-    - [Sun] J Rasalhague → J Pallas RA 35.9908 36 whole (29.30)
-    - [Sun] J Sadalmelik → J Pallas Dec 0.0367 conj (77.03)
-  - Pluto: Jupiter, Sun — only
-    - [Jupiter] J Alphard → J Pluto RA 103.9887 104 whole (19.07)
-    - [Sun] S Sun → J Pluto RA 80.9947 81 whole (54.28)
-    - [Sun] J Alkaid → J Pluto RA 39.0084 39 whole (33.49)
-    - [Sun] J Sadalsuud → J Pluto RA 77.0002 77 whole (98.06)
-    - [Sun] J Sadalsuud → J Pluto Dec 3.9865 4 whole (10.52)
-  - Juno: Moon, Sun — also: 7 Red Tornado / Jason Hart
-    - [Moon] J Facies → J Juno RA 102.0098 102 whole (25.87)
-    - [Moon] J Facies → J Juno Dec 21.9898 22 whole (24.06)
-    - [Sun] J Aculeus → J Juno RA 87.9924 88 whole (38.55)
+  - 4 whole — also: 3 Chase The Dollar / Rossa Ryan
+    - J Deneb Algedi → J Gonggong RA 3.9917 4 whole (34.17)
+    - J Sadalsuud → J Pluto Dec 3.9865 4 whole (10.52)
+  - 32 whole — only
+    - J Galactic Centre → J Saturn Dec 31.9961 32 whole (64.81)
+    - J Rasalhague → J Uranus Dec 31.9829 32 whole (2.12)
+  - 38 whole — only
+    - J Rasalhague → J Mercury Dec 37.9935 38 whole (45.90)
+    - J Sadalsuud → J Makemake Dec 38.0060 38 whole (48.79)
+### L4 every natal body
+- **Mercury**
+  - same body: S Mercury → H Mercury RA 13.9902 14 whole (26.07) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand
+  - top rows: S Sun → H Mercury Dec 7.0030 7 whole (72.18) — only
+  - star rows: H Sadalmelik → H Mercury Dec 20.0082 20 whole (34.58) — also: 3 Chase The Dollar / Rossa Ryan
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - same body: S Mercury → J Mercury RA 28.9809 29 whole (0.19) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand
+  - top rows: S Jupiter → J Mercury Dec 16.6649 16.6667 ninth (98.47) — only
+  - star rows: J Rasalhague → J Mercury Dec 37.9935 38 whole (45.90) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+- **Saturn**
+  - same body: S Saturn → H Saturn Dec 4.1466 4.14 silver (loose) — also: 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+    - source line: S Moon → Saturn RA 152.9975 153 whole (76.77)
+  - star rows: J Castor → J Saturn RA 99.9840 100 whole (3.96) — also: 7 Red Tornado / Jason Hart
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
+  - star rows: J Galactic Centre → J Saturn Dec 31.9961 32 whole (64.81) — also: 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - star rows: J Spica → J Saturn Dec 14.1480 14.14 sqrt2 (84.16) — also: 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
+- **Pallas**
+  - same body: S Pallas → H Pallas RA 63.9711 64 whole (loose) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+  - top rows: S Jupiter → J Pallas RA 42.0630 26×φ golden (67.15) — also: 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand
+  - star rows: J Rasalhague → J Pallas RA 35.9908 36 whole (29.30) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - star rows: J Sadalmelik → J Pallas Dec 0.0367 conj (77.03) — also: 3 Chase The Dollar / Rossa Ryan, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+- **Eris**
+  - same body: S Eris → H Eris Dec 1.6145 1×φ golden (loose) — also: 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+  - star rows: H Aculeus → H Eris RA 119.9924 120 whole (38.24) — also: 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: H Rasalhague → H Eris RA 121.3408 75×φ golden (40.58) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+- **Gonggong**
+  - same body: S Gonggong → H Gonggong Dec 1.6101 1×φ golden (loose) — also: 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+  - star rows: H Alphard → H Gonggong RA 166.6317 166.667 ninth (97.00) — also: 5 Carn A Chlamain / Tom Marquand
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: J Deneb Algedi → J Gonggong RA 3.9917 4 whole (34.17) — also: 3 Chase The Dollar / Rossa Ryan, 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - star rows: J Meissa → J Gonggong Dec 27.9943 28 whole (51.37) — also: 5 Carn A Chlamain / Tom Marquand
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+  - star rows: J Sadalmelik → J Gonggong RA 0.6948 conj (28.82) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - star rows: J Spica → J Gonggong RA 129.4555 80×φ golden (36.76) — also: 2 Flying Instructor / Dylan Hogan
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
+- **Transpluto**
+  - same body: S Transpluto → H Transpluto RA 1.7698 1.77778 ninth (loose) — also: 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+  - top rows: S Sun → J Transpluto RA 179.4323 10×φ^6 phi power (97.68) — only
+  - star rows: J Sadalmelik → J Transpluto RA 176.0052 176 whole (54.89) — also: 7 Red Tornado / Jason Hart
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+- **Neptune**
+  - T1: H Jupiter → H Neptune RA 166.6433 166.667 ninth (97.99) — only
+  - star rows: H Aculeus → H Neptune Dec 23.0086 23 whole (32.60) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: H Facies → H Neptune RA 61.0109 61 whole (20.64) — also: 4 Deluxe Music / Callum Rodriguez
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+- **Uranus**
+  - top rows: S Jupiter → H Uranus RA 33.9729 21×φ golden (67.20) — only
+  - star rows: H Deneb Algedi → H Uranus RA 48.9986 49 whole (86.49) — only
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - star rows: J Rasalhague → J Uranus Dec 31.9829 32 whole (2.12) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - star rows: J Spica → J Uranus RA 106.9947 107 whole (53.80) — also: 6 Flamingo Rose / Dougie Costello
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
+- **Vesta**
+  - top rows: S Moon → H Vesta Dec 24.9951 25 whole (57.34) — also: 4 Deluxe Music / Callum Rodriguez
+  - star rows: H Aculeus → H Vesta RA 110.9108 10×φ^5 phi power (96.75) — also: 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: J Meissa → J Vesta RA 64.9876 65 whole (14.43) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+  - star rows: J Meissa → J Vesta Dec 11.9937 12 whole (47.13) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+- **Makemake**
+  - top rows: S Moon → H Makemake Dec 0.0028 conj (98.17) — also: 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+  - star rows: J Sadalsuud → J Makemake Dec 38.0060 38 whole (48.79) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+  - star rows: J Spica → J Makemake RA 22.9966 23 whole (68.57) — only
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
+- **Jupiter**
+  - top rows: S Pluto → H Jupiter RA 125.9983 126 whole (83.72) — only
+  - top rows: S Pallas → H Jupiter RA 170.0026 170 whole (75.82) — also: 5 Carn A Chlamain / Tom Marquand
+  - top rows: S Orcus → H Jupiter RA 16.6659 16.6667 ninth (99.39) — only
+  - star rows: S Alkaid → H Jupiter Dec 44.9924 45 whole (38.26) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - same body: S Jupiter → J Jupiter RA 22.2315 22.2222 ninth (loose) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+  - T2: J Jupiter → J star Facies RA 40.4560 25×φ golden (70.50) — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+  - top rows: S Venus → J Jupiter RA 33.9953 34 whole (58.60) — also: 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+    - source line: S Moon → Venus RA 173.1408 107×φ golden (42.72)
+  - top rows: S Venus → J Jupiter Dec 0.1343 conj (30.50) — also: 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+    - source line: S Moon → Venus RA 173.1408 107×φ golden (42.72)
+  - top rows: S Saturn → J Jupiter RA 0.1337 conj (82.97) — also: 5 Carn A Chlamain / Tom Marquand
+    - source line: S Moon → Saturn RA 152.9975 153 whole (76.77)
+  - top rows: S Saturn → J Jupiter Dec 0.0043 conj (97.17) — also: 5 Carn A Chlamain / Tom Marquand
+    - source line: S Moon → Saturn RA 152.9975 153 whole (76.77)
+  - top rows: S Haumea → J Jupiter RA 101.9961 102 whole (64.47) — only
+  - star rows: J Alphard → J Jupiter Dec 7.9919 8 whole (35.21) — only
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: S Facies → J Jupiter RA 40.4549 25×φ golden (76.68) — only
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+- **Mars**
+  - star rows: H Aculeus → H Mars Dec 17.7711 17.7778 ninth (94.74) — only
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: H Fomalhaut → H Mars RA 122.9198 φ^10 phi power (77.95) — also: 5 Carn A Chlamain / Tom Marquand
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: J Alkaid → J Mars Dec 72.8148 45×φ golden (80.64) — also: 2 Flying Instructor / Dylan Hogan, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: J Sadalmelik → J Mars RA 42.0097 42 whole (26.53) — also: 4 Deluxe Music / Callum Rodriguez
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+- **Ceres**
+  - star rows: H Aculeus → H Ceres RA 70.0029 70 whole (73.30) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: H Facies → H Ceres RA 55.9869 56 whole (11.83) — also: 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+  - top rows: S Jupiter → J Ceres RA 0.8799 conj (17.09) — only
+  - star rows: J Alphard → J Ceres RA 160.9970 161 whole (72.30) — only
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: J Alphard → J Ceres Dec 11.1167 11.1111 ninth (90.86) — only
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: J Deneb Algedi → J Ceres RA 14.1435 14.14 sqrt2 (96.31) — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - star rows: J Facies → J Ceres RA 61.8077 100×φ^-1 phi power (97.26) — also: 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+  - star rows: J Sadalsuud → J Ceres RA 18.0141 18 whole (8.80) — also: 5 Carn A Chlamain / Tom Marquand
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+- **Orcus**
+  - star rows: H Alkaid → H Orcus RA 55.0147 34×φ golden (90.89) — only
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: H Sadalsuud → H Orcus RA 171.0135 171 whole (10.70) — also: 7 Red Tornado / Jason Hart
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+  - star rows: J Aculeus → J Orcus RA 127.8461 79×φ golden (11.35) — only
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: J Sadalmelik → J Orcus Dec 0.2158 conj (7.88) — also: 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+- **Ketu**
+  - star rows: H Deneb Algedi → H Ketu RA 26.1830 10×φ^2 phi power (95.91) — also: 3 Chase The Dollar / Rossa Ryan
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - star rows: H Meissa → H Ketu Dec 12.9839 13 whole (3.88) — also: 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+  - same body: S Ketu → J Ketu RA 111.5996 111.111 ninth (loose) — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+  - star rows: J Sadalsuud → J Ketu Dec 0.1550 conj (23.35) — also: 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+- **Sun**
+  - star rows: H Meissa → H Sun Dec 27.9992 28 whole (91.89) — only
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+  - star rows: J Deneb Algedi → J Sun RA 77.9964 78 whole (67.24) — also: 7 Red Tornado / Jason Hart
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - star rows: J Galactic Centre → J Sun Dec 7.0012 7 whole (88.38) — only
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+- **Haumea**
+  - star rows: H Meissa → H Haumea Dec 6.9896 7 whole (22.85) — also: 5 Carn A Chlamain / Tom Marquand
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+  - star rows: J Castor → J Haumea Dec 10.9857 11 whole (8.00) — only
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
+  - star rows: J Meissa → J Haumea RA 111.6583 69×φ golden (32.25) — also: 5 Carn A Chlamain / Tom Marquand
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+  - star rows: J Sadalmelik → J Haumea RA 135.9964 136 whole (67.47) — also: 3 Chase The Dollar / Rossa Ryan
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+- **Venus**
+  - star rows: H Rasalhague → H Venus Dec 35.0154 35 whole (5.26) — also: 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - star rows: J Castor → J Venus Dec 55.9864 56 whole (10.39) — only
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
+  - star rows: J Facies → J Venus Dec 0.1943 conj (12.41) — only
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+- **Chiron**
+  - star rows: H Sadalsuud → H Chiron Dec 4.8546 3×φ golden (96.78) — also: 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+  - star rows: J Deneb Algedi → J Chiron RA 106.7804 66×φ golden (48.56) — only
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - star rows: J Galactic Centre → J Chiron Dec 14.5606 9×φ golden (89.54) — only
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - star rows: J Rasalhague → J Chiron Dec 27.0084 27 whole (33.65) — only
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+- **Pluto**
+  - same body: S Pluto → J Pluto Dec 12.9513 8×φ golden (loose) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+  - top rows: S Sun → J Pluto RA 80.9947 81 whole (54.28) — only
+  - star rows: J Alkaid → J Pluto RA 39.0084 39 whole (33.49) — only
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: J Alphard → J Pluto RA 103.9887 104 whole (19.07) — also: 2 Flying Instructor / Dylan Hogan
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: J Sadalsuud → J Pluto RA 77.0002 77 whole (98.06) — also: 2 Flying Instructor / Dylan Hogan
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+  - star rows: J Sadalsuud → J Pluto Dec 3.9865 4 whole (10.52) — also: 2 Flying Instructor / Dylan Hogan
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+- **Rahu**
+  - same body: S Rahu → J Rahu RA 111.5996 111.111 ninth (loose) — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+  - star rows: J Fomalhaut → J Rahu RA 177.7849 177.778 ninth (99.45) — also: 2 Flying Instructor / Dylan Hogan
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+- **Juno**
+  - star rows: J Aculeus → J Juno RA 87.9924 88 whole (38.55) — also: 7 Red Tornado / Jason Hart
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: J Facies → J Juno RA 102.0098 102 whole (25.87) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+  - star rows: J Facies → J Juno Dec 21.9898 22 whole (24.06) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+- **Sedna**
+  - star rows: J Galactic Centre → J Sedna RA 139.1383 86×φ golden (37.19) — also: 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+- **Quaoar**
+  - star rows: J Meissa → J Quaoar RA 160.1573 99×φ golden (1.78) — also: 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
 
 ## 2 Flying Instructor / Dylan Hogan
 ### L1 same bodies
@@ -271,79 +440,125 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - S Orcus → J Orcus Dec 13.3095 13.3333 ninth (loose)
 ### L2 what lands on each same body
 - **H Venus** (same body: S Venus → H Venus RA 90.0206 90 whole (loose))
-  - body line: S Moon → Venus RA 173.1408 107×φ golden (42.72)
-  - star rows: H Sadalmelik → H Venus Dec 5.9828 6 whole (1.91) [Sun]
+  - sky line to Venus: S Moon → Venus RA 173.1408 107×φ golden (42.72)
+  - star rows: H Sadalmelik → H Venus Dec 5.9828 6 whole (1.91)
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
 - **H Jupiter** (same body: S Jupiter → H Jupiter RA 111.0856 111.111 ninth (loose))
-  - top rows: S Mars → H Jupiter RA 55.0042 55 whole (62.22) [Jupiter, Moon]
-  - star rows: S Aculeus → H Jupiter Dec 14.9800 15 whole (0.00) [Sun]
-  - other chart, top rows: S Eris → J Jupiter Dec 15.9947 16 whole (54.28) [Jupiter]
-  - other chart, star rows: S Alkaid → J Jupiter Dec 66.6679 66.6667 ninth (98.96) [Sun]
-  - other chart, star rows: J Spica → J Jupiter RA 27.9911 28 whole (30.81) [Moon]
+  - top rows: S Mars → H Jupiter RA 55.0042 55 whole (62.22)
+    - source line: S Moon → Mars Dec 48.5423 30×φ golden (92.44)
+  - star rows: S Aculeus → H Jupiter Dec 14.9800 15 whole (0.00)
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - other chart, top rows: S Eris → J Jupiter Dec 15.9947 16 whole (54.28)
+  - other chart, star rows: S Alkaid → J Jupiter Dec 66.6679 66.6667 ninth (98.96)
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - other chart, star rows: J Spica → J Jupiter RA 27.9911 28 whole (30.81)
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
 - **H Pluto** (same body: S Pluto → H Pluto Dec 1.0099 1 whole (25.32))
-  - star rows: H Alphard → H Pluto RA 150.4977 93×φ golden (13.36) [Jupiter]
-  - star rows: H Fomalhaut → H Pluto RA 52.0102 52 whole (24.24) [Moon]
-  - star rows: H Galactic Centre → H Pluto RA 25.9816 26 whole (0.68) [Moon]
+  - star rows: H Alphard → H Pluto RA 150.4977 93×φ golden (13.36)
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: H Fomalhaut → H Pluto RA 52.0102 52 whole (24.24)
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: H Galactic Centre → H Pluto RA 25.9816 26 whole (0.68)
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
   - other chart, same body: S Pluto → J Pluto RA 61.4578 38×φ golden (loose)
-  - other chart, star rows: J Sadalsuud → J Pluto Dec 0.9903 1 whole (26.72) [Sun]
+  - other chart, star rows: J Sadalsuud → J Pluto Dec 0.9903 1 whole (26.72)
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
 - **H Chiron** (same body: S Chiron → H Chiron RA 10.9724 11 whole (loose); S Chiron → H Chiron Dec 3.2294 2×φ golden (loose))
   - other chart, same body: S Chiron → J Chiron RA 163.0124 163 whole (14.35)
 - **H Ceres** (same body: S Ceres → H Ceres Dec 11.1655 11.1111 ninth (loose))
-  - star rows: H Aculeus → H Ceres Dec 64.0027 64 whole (74.89) [Sun]
-  - star rows: H Castor → H Ceres Dec 0.1379 conj (29.18) [Moon]
-  - star rows: H Galactic Centre → H Ceres RA 135.9804 136 whole (0.03) [Moon]
-  - star rows: H Sadalmelik → H Ceres RA 158.9952 159 whole (57.75) [Sun]
+  - star rows: H Aculeus → H Ceres Dec 64.0027 64 whole (74.89)
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: H Castor → H Ceres Dec 0.1379 conj (29.18)
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
+  - star rows: H Galactic Centre → H Ceres RA 135.9804 136 whole (0.03)
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - star rows: H Sadalmelik → H Ceres RA 158.9952 159 whole (57.75)
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
   - other chart, same body: S Ceres → J Ceres RA 79.0161 79 whole (3.79)
-  - other chart, star rows: J Aculeus → J Ceres RA 127.8465 79×φ golden (10.60) [Sun]
+  - other chart, star rows: J Aculeus → J Ceres RA 127.8465 79×φ golden (10.60)
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
 - **H Pallas** (same body: S Pallas → H Pallas Dec 1.0190 1 whole (0.23))
-  - star rows: H Fomalhaut → H Pallas RA 74.9984 75 whole (84.51) [Moon]
-  - star rows: H Galactic Centre → H Pallas RA 152.9902 153 whole (25.93) [Moon]
-  - other chart, top rows: S Jupiter → J Pallas Dec 16.6661 16.6667 ninth (99.48) [Jupiter]
-  - other chart, star rows: J Rasalhague → J Pallas RA 155.0032 155 whole (70.67) [Sun]
-  - other chart, star rows: J Rasalhague → J Pallas Dec 37.9965 38 whole (67.81) [Sun]
+  - star rows: H Fomalhaut → H Pallas RA 74.9984 75 whole (84.51)
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: H Galactic Centre → H Pallas RA 152.9902 153 whole (25.93)
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - other chart, top rows: S Jupiter → J Pallas Dec 16.6661 16.6667 ninth (99.48)
+  - other chart, star rows: J Rasalhague → J Pallas RA 155.0032 155 whole (70.67)
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - other chart, star rows: J Rasalhague → J Pallas Dec 37.9965 38 whole (67.81)
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
 - **J Sun** (same body: S Sun → J Sun RA 111.3434 111.111 ninth (loose))
-  - star rows: J Spica → J Sun Dec 2.9880 3 whole (15.90) [Moon]
-  - other chart, star rows: H Sadalmelik → H Sun Dec 0.1499 conj (25.02) [Sun]
-  - other chart, star rows: H Spica → H Sun Dec 10.9911 11 whole (30.73) [Moon]
+  - star rows: J Spica → J Sun Dec 2.9880 3 whole (15.90)
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
+  - other chart, star rows: H Sadalmelik → H Sun Dec 0.1499 conj (25.02)
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - other chart, star rows: H Spica → H Sun Dec 10.9911 11 whole (30.73)
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
 - **J Mercury** (same body: S Mercury → J Mercury Dec 12.9887 13 whole (18.81))
-  - star rows: J Aculeus → J Mercury RA 64.9831 65 whole (2.38) [Sun]
-  - star rows: J Facies → J Mercury RA 79.0010 79 whole (90.69) [Moon]
-  - star rows: J Fomalhaut → J Mercury Dec 23.0038 23 whole (66.02) [Moon]
-  - star rows: J Spica → J Mercury RA 1.1975 conj (4.07) [Moon]
-  - other chart, star rows: H Meissa → H Mercury RA 69.9940 70 whole (48.97) [Jupiter]
-  - other chart, star rows: H Rasalhague → H Mercury RA 110.0554 68×φ golden (1.03) [Sun]
+  - star rows: J Aculeus → J Mercury RA 64.9831 65 whole (2.38)
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: J Facies → J Mercury RA 79.0010 79 whole (90.69)
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+  - star rows: J Fomalhaut → J Mercury Dec 23.0038 23 whole (66.02)
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: J Spica → J Mercury RA 1.1975 conj (4.07)
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
+  - other chart, star rows: H Meissa → H Mercury RA 69.9940 70 whole (48.97)
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+  - other chart, star rows: H Rasalhague → H Mercury RA 110.0554 68×φ golden (1.03)
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
 - **J Mars** (same body: S Mars → J Mars Dec 41.3567 41.4 silver (loose))
-  - body line: S Moon → Mars Dec 48.5423 30×φ golden (92.44)
-  - other chart, star rows: H Alkaid → H Mars Dec 72.8183 45×φ golden (62.65) [Sun]
+  - sky line to Mars: S Moon → Mars Dec 48.5423 30×φ golden (92.44)
+  - other chart, star rows: H Alkaid → H Mars Dec 72.8183 45×φ golden (62.65)
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
 - **J Pluto** (same body: S Pluto → J Pluto RA 61.4578 38×φ golden (loose))
-  - star rows: J Sadalsuud → J Pluto Dec 0.9903 1 whole (26.72) [Sun]
+  - star rows: J Sadalsuud → J Pluto Dec 0.9903 1 whole (26.72)
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
   - other chart, same body: S Pluto → H Pluto Dec 1.0099 1 whole (25.32)
-  - other chart, star rows: H Alphard → H Pluto RA 150.4977 93×φ golden (13.36) [Jupiter]
-  - other chart, star rows: H Fomalhaut → H Pluto RA 52.0102 52 whole (24.24) [Moon]
-  - other chart, star rows: H Galactic Centre → H Pluto RA 25.9816 26 whole (0.68) [Moon]
+  - other chart, star rows: H Alphard → H Pluto RA 150.4977 93×φ golden (13.36)
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - other chart, star rows: H Fomalhaut → H Pluto RA 52.0102 52 whole (24.24)
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - other chart, star rows: H Galactic Centre → H Pluto RA 25.9816 26 whole (0.68)
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
 - **J Chiron** (same body: S Chiron → J Chiron RA 163.0124 163 whole (14.35))
   - other chart, same body: S Chiron → H Chiron RA 10.9724 11 whole (loose)
   - other chart, same body: S Chiron → H Chiron Dec 3.2294 2×φ golden (loose)
 - **J Ceres** (same body: S Ceres → J Ceres RA 79.0161 79 whole (3.79))
-  - star rows: J Aculeus → J Ceres RA 127.8465 79×φ golden (10.60) [Sun]
+  - star rows: J Aculeus → J Ceres RA 127.8465 79×φ golden (10.60)
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
   - other chart, same body: S Ceres → H Ceres Dec 11.1655 11.1111 ninth (loose)
-  - other chart, star rows: H Aculeus → H Ceres Dec 64.0027 64 whole (74.89) [Sun]
-  - other chart, star rows: H Castor → H Ceres Dec 0.1379 conj (29.18) [Moon]
-  - other chart, star rows: H Galactic Centre → H Ceres RA 135.9804 136 whole (0.03) [Moon]
-  - other chart, star rows: H Sadalmelik → H Ceres RA 158.9952 159 whole (57.75) [Sun]
+  - other chart, star rows: H Aculeus → H Ceres Dec 64.0027 64 whole (74.89)
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - other chart, star rows: H Castor → H Ceres Dec 0.1379 conj (29.18)
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
+  - other chart, star rows: H Galactic Centre → H Ceres RA 135.9804 136 whole (0.03)
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - other chart, star rows: H Sadalmelik → H Ceres RA 158.9952 159 whole (57.75)
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
 - **J Vesta** (same body: S Vesta → J Vesta Dec 40.4467 25×φ golden (loose))
-  - star rows: J Alkaid → J Vesta Dec 30.0155 30 whole (5.09) [Sun]
-  - star rows: J Fomalhaut → J Vesta RA 117.0198 117 whole (0.01) [Moon]
-  - star rows: J Sadalmelik → J Vesta RA 129.9875 130 whole (13.99) [Sun]
-  - other chart, star rows: H Aculeus → H Vesta RA 0.9257 conj (14.66) [Sun]
-  - other chart, star rows: H Galactic Centre → H Vesta RA 0.4076 conj (53.04) [Moon]
-  - other chart, star rows: H Meissa → H Vesta RA 177.7746 177.778 ninth (99.75) [Jupiter]
+  - star rows: J Alkaid → J Vesta Dec 30.0155 30 whole (5.09)
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: J Fomalhaut → J Vesta RA 117.0198 117 whole (0.01)
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: J Sadalmelik → J Vesta RA 129.9875 130 whole (13.99)
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - other chart, star rows: H Aculeus → H Vesta RA 0.9257 conj (14.66)
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - other chart, star rows: H Galactic Centre → H Vesta RA 0.4076 conj (53.04)
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - other chart, star rows: H Meissa → H Vesta RA 177.7746 177.778 ninth (99.75)
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
 - **J Haumea** (same body: S Haumea → J Haumea Dec 6.1843 10×φ^-1 phi power (loose))
-  - other chart, top rows: S Sun → H Haumea RA 113.2548 70×φ golden (58.45) [Sun]
-  - other chart, star rows: H Deneb Algedi → H Haumea Dec 32.9881 33 whole (16.40) [Sun]
+  - other chart, top rows: S Sun → H Haumea RA 113.2548 70×φ golden (58.45)
+  - other chart, star rows: H Deneb Algedi → H Haumea Dec 32.9881 33 whole (16.40)
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
 - **J Orcus** (same body: S Orcus → J Orcus Dec 13.3095 13.3333 ninth (loose))
-  - star rows: J Rasalhague → J Orcus RA 129.0145 129 whole (7.43) [Sun]
-  - other chart, star rows: H Rasalhague → H Orcus RA 110.9992 111 whole (92.15) [Sun]
-### L3 the seven cases (L5 field tag on each)
+  - star rows: J Rasalhague → J Orcus RA 129.0145 129 whole (7.43)
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - other chart, star rows: H Rasalhague → H Orcus RA 110.9992 111 whole (92.15)
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+### L3 matches
 - **1. same body on both charts**
   - Pluto — also: 5 Carn A Chlamain / Tom Marquand
     - S Pluto → H Pluto Dec 1.0099 1 whole (25.32)
@@ -373,7 +588,27 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
     - S Pluto → H Pluto Dec 1.0099 1 whole (25.32)
   - 1 = 360/360 — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
     - S Pallas → H Pallas Dec 1.0190 1 whole (0.23)
-  - 3 = 360/120 — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+  - 15 = 360/24 — also: 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand
+    - S Aculeus → H Jupiter Dec 14.9800 15 whole (0.00)
+  - 30 = 360/12 — also: 6 Flamingo Rose / Dougie Costello
+    - H Aculeus → H Eris Dec 30.0179 30 whole (1.15)
+  - 72 = 360/5 — also: 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+    - H Alkaid → H Saturn RA 72.0111 72 whole (19.78)
+  - 6 = 360/60 — also: 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+    - H Sadalmelik → H Venus Dec 5.9828 6 whole (1.91)
+  - 1 = 360/360 — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+    - H Spica → H Gonggong Dec 1.0112 1 whole (19.36)
+  - 30 = 360/12 — also: 6 Flamingo Rose / Dougie Costello
+    - J Alkaid → J Vesta Dec 30.0155 30 whole (5.09)
+  - 10 = 360/36 — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+    - J Galactic Centre → J Gonggong Dec 10.0141 10 whole (8.58)
+  - 120 = 360/3 — also: 1 The Dancing Poet / Harry Russell
+    - J Galactic Centre → J Transpluto RA 120.0130 120 whole (12.41)
+  - 1 = 360/360 — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+    - J Sadalsuud → J Pluto Dec 0.9903 1 whole (26.72)
+  - 3 = 360/120 — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+    - J Spica → J Sun Dec 2.9880 3 whole (15.90)
+  - 3 = 360/120 — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
     - J Spica → J Quaoar Dec 3.0038 3 whole (65.95)
 - **5. same number in more than one place**
   - 111.111 ninth — also: 1 The Dancing Poet / Harry Russell, 6 Flamingo Rose / Dougie Costello
@@ -382,132 +617,282 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 1 whole — also: 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
     - S Pluto → H Pluto Dec 1.0099 1 whole (25.32)
     - S Pallas → H Pallas Dec 1.0190 1 whole (0.23)
+    - H Spica → H Gonggong Dec 1.0112 1 whole (19.36)
+    - J Sadalsuud → J Pluto Dec 0.9903 1 whole (26.72)
   - 11 whole — also: 5 Carn A Chlamain / Tom Marquand
     - S Chiron → H Chiron RA 10.9724 11 whole (loose)
+    - H Spica → H Sun Dec 10.9911 11 whole (30.73)
     - J Aculeus → J Neptune Dec 11.0024 11 whole (77.20)
+  - 58 whole — only
+    - S Sun → H Uranus RA 58.0016 58 whole (84.61)
+    - J Fomalhaut → J Ketu RA 58.0105 58 whole (22.43)
+  - 30 whole — only
+    - H Aculeus → H Eris Dec 30.0179 30 whole (1.15)
+    - J Alkaid → J Vesta Dec 30.0155 30 whole (5.09)
   - 38×φ golden — also: 3 Chase The Dollar / Rossa Ryan
     - H Alkaid → H Gonggong Dec 61.4844 38×φ golden (94.36)
     - S Pluto → J Pluto RA 61.4578 38×φ golden (loose)
   - 137 whole — only
     - H Alphard → H Saturn RA 137.0014 137 whole (86.80)
     - H Facies → H Sedna RA 137.0013 137 whole (87.37)
+  - 117 whole — only
+    - H Alphard → H Uranus RA 117.0170 117 whole (2.20)
+    - J Fomalhaut → J Vesta RA 117.0198 117 whole (0.01)
+  - 33 whole — only
+    - H Deneb Algedi → H Haumea Dec 32.9881 33 whole (16.40)
+    - J Alkaid → J Ketu Dec 33.0092 33 whole (29.39)
+    - J Alphard → J Makemake RA 32.9906 33 whole (28.05)
+  - 22 whole — also: 5 Carn A Chlamain / Tom Marquand
+    - H Galactic Centre → H Neptune Dec 21.9817 22 whole (0.73)
+    - H Sadalmelik → H Saturn Dec 21.9818 22 whole (0.78)
+  - 136 whole — also: 3 Chase The Dollar / Rossa Ryan
+    - H Galactic Centre → H Ceres RA 135.9804 136 whole (0.03)
+    - J Galactic Centre → J Ketu RA 136.0136 136 whole (10.32)
+  - 44 whole — only
+    - H Sadalsuud → H Saturn RA 43.9832 44 whole (2.61)
+    - J Galactic Centre → J Rahu RA 43.9864 44 whole (10.32)
+  - 23 whole — also: 1 The Dancing Poet / Harry Russell, 5 Carn A Chlamain / Tom Marquand
+    - H Sadalsuud → H Neptune RA 22.9887 23 whole (18.75)
+    - J Fomalhaut → J Mercury Dec 23.0038 23 whole (66.02)
   - 79 whole — only
     - S Ceres → J Ceres RA 79.0161 79 whole (3.79)
     - J Facies → J Mercury RA 79.0010 79 whole (90.69)
-- **6. star and sky line on one body**: none
-- **7. centres meeting**
-  - Venus: Moon, Sun — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
-    - [Moon] S Venus → H Venus RA 90.0206 90 whole (loose)
-    - [Sun] H Sadalmelik → H Venus Dec 5.9828 6 whole (1.91)
-  - Juno: Jupiter, Moon, Sun — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
-    - [Jupiter] S Jupiter → H Juno RA 0.0583 conj (92.38)
-    - [Jupiter] H Alphard → H Juno RA 160.1775 99×φ golden (57.44)
-    - [Jupiter] S Jupiter → J Juno Dec 0.2621 conj (1.60)
-    - [Moon] H Facies → H Juno Dec 19.0038 19 whole (65.97)
-    - [Sun] H Rasalhague → H Juno RA 77.9888 78 whole (19.32)
-  - Uranus: Jupiter, Moon, Sun — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan
-    - [Jupiter] H Alphard → H Uranus RA 117.0170 117 whole (2.20)
-    - [Jupiter] H Meissa → H Uranus Dec 0.1648 conj (20.30)
-    - [Moon] J Galactic Centre → J Uranus Dec 7.0003 7 whole (96.60)
-    - [Sun] S Sun → H Uranus RA 58.0016 58 whole (84.61)
-    - [Sun] H Alkaid → H Uranus RA 177.9927 110×φ golden (52.26)
-    - [Sun] H Sadalsuud → H Uranus RA 61.9984 62 whole (84.37)
-    - [Sun] J Rasalhague → J Uranus RA 31.0031 31 whole (71.41)
-  - Eris: Jupiter, Sun — also: 5 Carn A Chlamain / Tom Marquand
-    - [Jupiter] J Alphard → J Eris Dec 0.2051 conj (10.01)
-    - [Sun] S Sun → H Eris Dec 11.0919 φ^5 phi power (93.87)
-    - [Sun] H Aculeus → H Eris Dec 30.0179 30 whole (1.15)
-    - [Sun] J Rasalhague → J Eris Dec 21.0139 21 whole (9.33)
-  - Jupiter: Jupiter, Moon, Sun — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
-    - [Jupiter] S Mars → H Jupiter RA 55.0042 55 whole (62.22)
-    - [Jupiter] S Eris → J Jupiter Dec 15.9947 16 whole (54.28)
-    - [Moon] S Mars → H Jupiter RA 55.0042 55 whole (62.22)
-    - [Moon] J Spica → J Jupiter RA 27.9911 28 whole (30.81)
-    - [Sun] S Aculeus → H Jupiter Dec 14.9800 15 whole (0.00)
-    - [Sun] S Alkaid → J Jupiter Dec 66.6679 66.6667 ninth (98.96)
-  - Ceres: Moon, Sun — also: 3 Chase The Dollar / Rossa Ryan, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
-    - [Moon] H Castor → H Ceres Dec 0.1379 conj (29.18)
-    - [Moon] H Galactic Centre → H Ceres RA 135.9804 136 whole (0.03)
-    - [Sun] H Aculeus → H Ceres Dec 64.0027 64 whole (74.89)
-    - [Sun] H Sadalmelik → H Ceres RA 158.9952 159 whole (57.75)
-    - [Sun] J Aculeus → J Ceres RA 127.8465 79×φ golden (10.60)
-  - Vesta: Jupiter, Moon, Sun — also: 1 The Dancing Poet / Harry Russell
-    - [Jupiter] H Meissa → H Vesta RA 177.7746 177.778 ninth (99.75)
-    - [Moon] H Galactic Centre → H Vesta RA 0.4076 conj (53.04)
-    - [Moon] J Fomalhaut → J Vesta RA 117.0198 117 whole (0.01)
-    - [Sun] H Aculeus → H Vesta RA 0.9257 conj (14.66)
-    - [Sun] J Alkaid → J Vesta Dec 30.0155 30 whole (5.09)
-    - [Sun] J Sadalmelik → J Vesta RA 129.9875 130 whole (13.99)
-  - Sedna: Moon, Sun — also: 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
-    - [Moon] H Facies → H Sedna RA 137.0013 137 whole (87.37)
-    - [Moon] J Spica → J Sedna RA 156.9350 97×φ golden (31.06)
-    - [Sun] H Aculeus → H Sedna RA 151.0164 151 whole (3.33)
-  - Mars: Moon, Sun — also: 1 The Dancing Poet / Harry Russell, 6 Flamingo Rose / Dougie Costello
-    - [Moon] S Mars → J Mars Dec 41.3567 41.4 silver (loose)
-    - [Sun] H Alkaid → H Mars Dec 72.8183 45×φ golden (62.65)
-  - Saturn: Jupiter, Moon, Sun — also: 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
-    - [Jupiter] H Alphard → H Saturn RA 137.0014 137 whole (86.80)
-    - [Moon] H Facies → H Saturn RA 0.1964 conj (75.53)
-    - [Moon] J Spica → J Saturn Dec 0.0126 conj (91.78)
-    - [Sun] H Alkaid → H Saturn RA 72.0111 72 whole (19.78)
-    - [Sun] H Sadalmelik → H Saturn Dec 21.9818 22 whole (0.78)
-    - [Sun] H Sadalsuud → H Saturn RA 43.9832 44 whole (2.61)
-  - Neptune: Moon, Sun — also: 3 Chase The Dollar / Rossa Ryan
-    - [Moon] H Fomalhaut → H Neptune RA 1.4654 conj (0.05)
-    - [Moon] H Galactic Centre → H Neptune Dec 21.9817 22 whole (0.73)
-    - [Sun] H Alkaid → H Neptune RA 138.9830 139 whole (2.24)
-    - [Sun] H Sadalsuud → H Neptune RA 22.9887 23 whole (18.75)
-    - [Sun] J Aculeus → J Neptune Dec 11.0024 11 whole (77.20)
-  - Rahu: Moon, Sun — also: 3 Chase The Dollar / Rossa Ryan
-    - [Moon] J Fomalhaut → J Rahu RA 121.9895 122 whole (22.43)
-    - [Moon] J Galactic Centre → J Rahu RA 43.9864 44 whole (10.32)
-    - [Sun] H Alkaid → H Rahu RA 70.7150 70.7 sqrt2 (97.58)
-    - [Sun] J Deneb Algedi → J Rahu Dec 0.1777 conj (16.63)
-    - [Sun] J Sadalmelik → J Rahu Dec 15.9862 16 whole (9.57)
-  - Gonggong: Moon, Sun — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez
-    - [Moon] H Spica → H Gonggong Dec 1.0112 1 whole (19.36)
-    - [Moon] J Galactic Centre → J Gonggong Dec 10.0141 10 whole (8.58)
-    - [Sun] H Alkaid → H Gonggong Dec 61.4844 38×φ golden (94.36)
-    - [Sun] J Sadalmelik → J Gonggong RA 1.4616 conj (0.07)
-  - Ketu: Moon, Sun — also: 4 Deluxe Music / Callum Rodriguez
-    - [Moon] H Spica → H Ketu RA 114.8734 71×φ golden (61.11)
-    - [Moon] J Fomalhaut → J Ketu RA 58.0105 58 whole (22.43)
-    - [Moon] J Galactic Centre → J Ketu RA 136.0136 136 whole (10.32)
-    - [Sun] H Alkaid → H Ketu Dec 66.0185 66 whole (0.55)
-    - [Sun] J Alkaid → J Ketu Dec 33.0092 33 whole (29.39)
-  - Pluto: Jupiter, Moon, Sun — only
-    - [Jupiter] H Alphard → H Pluto RA 150.4977 93×φ golden (13.36)
-    - [Moon] H Fomalhaut → H Pluto RA 52.0102 52 whole (24.24)
-    - [Moon] H Galactic Centre → H Pluto RA 25.9816 26 whole (0.68)
-    - [Sun] J Sadalsuud → J Pluto Dec 0.9903 1 whole (26.72)
-  - Pallas: Jupiter, Moon, Sun — also: 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
-    - [Jupiter] S Jupiter → J Pallas Dec 16.6661 16.6667 ninth (99.48)
-    - [Moon] H Fomalhaut → H Pallas RA 74.9984 75 whole (84.51)
-    - [Moon] H Galactic Centre → H Pallas RA 152.9902 153 whole (25.93)
-    - [Sun] J Rasalhague → J Pallas RA 155.0032 155 whole (70.67)
-    - [Sun] J Rasalhague → J Pallas Dec 37.9965 38 whole (67.81)
-  - Makemake: Jupiter, Moon, Sun — only
-    - [Jupiter] J Alphard → J Makemake RA 32.9906 33 whole (28.05)
-    - [Moon] H Fomalhaut → H Makemake RA 148.8501 92×φ golden (51.90)
-    - [Moon] J Fomalhaut → J Makemake Dec 63.0105 63 whole (22.60)
-    - [Sun] H Rasalhague → H Makemake Dec 12.2252 12.2222 ninth (95.90)
-    - [Sun] S Sun → J Makemake RA 151.9959 152 whole (63.11)
-    - [Sun] J Alkaid → J Makemake RA 31.9909 32 whole (29.97)
-    - [Sun] J Sadalsuud → J Makemake RA 148.0043 148 whole (61.36)
-  - Mercury: Jupiter, Moon, Sun — also: 3 Chase The Dollar / Rossa Ryan
-    - [Jupiter] H Meissa → H Mercury RA 69.9940 70 whole (48.97)
-    - [Moon] J Facies → J Mercury RA 79.0010 79 whole (90.69)
-    - [Moon] J Fomalhaut → J Mercury Dec 23.0038 23 whole (66.02)
-    - [Moon] J Spica → J Mercury RA 1.1975 conj (4.07)
-    - [Sun] H Rasalhague → H Mercury RA 110.0554 68×φ golden (1.03)
-    - [Sun] J Aculeus → J Mercury RA 64.9831 65 whole (2.38)
-  - Sun: Moon, Sun — also: 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
-    - [Moon] H Spica → H Sun Dec 10.9911 11 whole (30.73)
-    - [Moon] J Spica → J Sun Dec 2.9880 3 whole (15.90)
-    - [Sun] H Sadalmelik → H Sun Dec 0.1499 conj (25.02)
-  - Quaoar: Jupiter, Moon — only
-    - [Jupiter] J Meissa → J Quaoar RA 155.5821 155.556 ninth (97.49)
-    - [Moon] J Spica → J Quaoar Dec 3.0038 3 whole (65.95)
+  - 16 whole — also: 3 Chase The Dollar / Rossa Ryan
+    - S Eris → J Jupiter Dec 15.9947 16 whole (54.28)
+    - J Sadalmelik → J Rahu Dec 15.9862 16 whole (9.57)
+  - 3 whole — also: 5 Carn A Chlamain / Tom Marquand
+    - J Spica → J Sun Dec 2.9880 3 whole (15.90)
+    - J Spica → J Quaoar Dec 3.0038 3 whole (65.95)
+  - 79 and 79×φ on J Ceres — only
+    - S Ceres → J Ceres RA 79.0161 79 whole (3.79)
+    - J Aculeus → J Ceres RA 127.8465 79×φ golden (10.60)
+### L4 every natal body
+- **Venus**
+  - same body: S Venus → H Venus RA 90.0206 90 whole (loose) — also: 3 Chase The Dollar / Rossa Ryan
+    - source line: S Moon → Venus RA 173.1408 107×φ golden (42.72)
+  - star rows: H Sadalmelik → H Venus Dec 5.9828 6 whole (1.91) — only
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+- **Jupiter**
+  - same body: S Jupiter → H Jupiter RA 111.0856 111.111 ninth (loose) — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+  - top rows: S Mars → H Jupiter RA 55.0042 55 whole (62.22) — only
+    - source line: S Moon → Mars Dec 48.5423 30×φ golden (92.44)
+  - star rows: S Aculeus → H Jupiter Dec 14.9800 15 whole (0.00) — only
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - top rows: S Eris → J Jupiter Dec 15.9947 16 whole (54.28) — only
+  - star rows: S Alkaid → J Jupiter Dec 66.6679 66.6667 ninth (98.96) — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: J Spica → J Jupiter RA 27.9911 28 whole (30.81) — also: 4 Deluxe Music / Callum Rodriguez
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
+- **Pluto**
+  - same body: S Pluto → H Pluto Dec 1.0099 1 whole (25.32) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+  - star rows: H Alphard → H Pluto RA 150.4977 93×φ golden (13.36) — also: 1 The Dancing Poet / Harry Russell
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: H Fomalhaut → H Pluto RA 52.0102 52 whole (24.24) — only
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: H Galactic Centre → H Pluto RA 25.9816 26 whole (0.68) — also: 6 Flamingo Rose / Dougie Costello
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - same body: S Pluto → J Pluto RA 61.4578 38×φ golden (loose) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+  - star rows: J Sadalsuud → J Pluto Dec 0.9903 1 whole (26.72) — also: 1 The Dancing Poet / Harry Russell
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+- **Chiron**
+  - same body: S Chiron → H Chiron RA 10.9724 11 whole (loose) — also: 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+  - same body: S Chiron → H Chiron Dec 3.2294 2×φ golden (loose) — also: 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+  - same body: S Chiron → J Chiron RA 163.0124 163 whole (14.35) — also: 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+- **Ceres**
+  - same body: S Ceres → H Ceres Dec 11.1655 11.1111 ninth (loose) — also: 6 Flamingo Rose / Dougie Costello
+  - star rows: H Aculeus → H Ceres Dec 64.0027 64 whole (74.89) — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: H Castor → H Ceres Dec 0.1379 conj (29.18) — only
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
+  - star rows: H Galactic Centre → H Ceres RA 135.9804 136 whole (0.03) — only
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - star rows: H Sadalmelik → H Ceres RA 158.9952 159 whole (57.75) — also: 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - same body: S Ceres → J Ceres RA 79.0161 79 whole (3.79) — also: 6 Flamingo Rose / Dougie Costello
+  - star rows: J Aculeus → J Ceres RA 127.8465 79×φ golden (10.60) — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+- **Pallas**
+  - same body: S Pallas → H Pallas Dec 1.0190 1 whole (0.23) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+  - star rows: H Fomalhaut → H Pallas RA 74.9984 75 whole (84.51) — also: 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: H Galactic Centre → H Pallas RA 152.9902 153 whole (25.93) — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - top rows: S Jupiter → J Pallas Dec 16.6661 16.6667 ninth (99.48) — also: 1 The Dancing Poet / Harry Russell, 5 Carn A Chlamain / Tom Marquand
+  - star rows: J Rasalhague → J Pallas RA 155.0032 155 whole (70.67) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - star rows: J Rasalhague → J Pallas Dec 37.9965 38 whole (67.81) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+- **Juno**
+  - top rows: S Jupiter → H Juno RA 0.0583 conj (92.38) — also: 6 Flamingo Rose / Dougie Costello
+  - star rows: H Alphard → H Juno RA 160.1775 99×φ golden (57.44) — also: 6 Flamingo Rose / Dougie Costello
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: H Facies → H Juno Dec 19.0038 19 whole (65.97) — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+  - star rows: H Rasalhague → H Juno RA 77.9888 78 whole (19.32) — only
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - top rows: S Jupiter → J Juno Dec 0.2621 conj (1.60) — also: 6 Flamingo Rose / Dougie Costello
+- **Uranus**
+  - top rows: S Sun → H Uranus RA 58.0016 58 whole (84.61) — also: 3 Chase The Dollar / Rossa Ryan
+  - star rows: H Alkaid → H Uranus RA 177.9927 110×φ golden (52.26) — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: H Alphard → H Uranus RA 117.0170 117 whole (2.20) — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: H Meissa → H Uranus Dec 0.1648 conj (20.30) — also: 3 Chase The Dollar / Rossa Ryan, 7 Red Tornado / Jason Hart
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+  - star rows: H Sadalsuud → H Uranus RA 61.9984 62 whole (84.37) — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+  - star rows: J Galactic Centre → J Uranus Dec 7.0003 7 whole (96.60) — also: 3 Chase The Dollar / Rossa Ryan
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - star rows: J Rasalhague → J Uranus RA 31.0031 31 whole (71.41) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+- **Eris**
+  - top rows: S Sun → H Eris Dec 11.0919 φ^5 phi power (93.87) — only
+  - star rows: H Aculeus → H Eris Dec 30.0179 30 whole (1.15) — also: 1 The Dancing Poet / Harry Russell, 5 Carn A Chlamain / Tom Marquand
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: J Alphard → J Eris Dec 0.2051 conj (10.01) — also: 4 Deluxe Music / Callum Rodriguez
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: J Rasalhague → J Eris Dec 21.0139 21 whole (9.33) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+- **Haumea**
+  - top rows: S Sun → H Haumea RA 113.2548 70×φ golden (58.45) — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez
+  - star rows: H Deneb Algedi → H Haumea Dec 32.9881 33 whole (16.40) — also: 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - same body: S Haumea → J Haumea Dec 6.1843 10×φ^-1 phi power (loose) — also: 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+- **Vesta**
+  - star rows: H Aculeus → H Vesta RA 0.9257 conj (14.66) — also: 1 The Dancing Poet / Harry Russell, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: H Galactic Centre → H Vesta RA 0.4076 conj (53.04) — only
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - star rows: H Meissa → H Vesta RA 177.7746 177.778 ninth (99.75) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+  - same body: S Vesta → J Vesta Dec 40.4467 25×φ golden (loose) — also: 3 Chase The Dollar / Rossa Ryan, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+  - star rows: J Alkaid → J Vesta Dec 30.0155 30 whole (5.09) — also: 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: J Fomalhaut → J Vesta RA 117.0198 117 whole (0.01) — only
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: J Sadalmelik → J Vesta RA 129.9875 130 whole (13.99) — also: 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+- **Sedna**
+  - star rows: H Aculeus → H Sedna RA 151.0164 151 whole (3.33) — also: 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: H Facies → H Sedna RA 137.0013 137 whole (87.37) — also: 6 Flamingo Rose / Dougie Costello
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+  - star rows: J Spica → J Sedna RA 156.9350 97×φ golden (31.06) — only
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
+- **Mars**
+  - star rows: H Alkaid → H Mars Dec 72.8183 45×φ golden (62.65) — also: 1 The Dancing Poet / Harry Russell, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - same body: S Mars → J Mars Dec 41.3567 41.4 silver (loose) — also: 3 Chase The Dollar / Rossa Ryan, 6 Flamingo Rose / Dougie Costello
+    - source line: S Moon → Mars Dec 48.5423 30×φ golden (92.44)
+- **Saturn**
+  - star rows: H Alkaid → H Saturn RA 72.0111 72 whole (19.78) — also: 7 Red Tornado / Jason Hart
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: H Alphard → H Saturn RA 137.0014 137 whole (86.80) — also: 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: H Facies → H Saturn RA 0.1964 conj (75.53) — also: 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+  - star rows: H Sadalmelik → H Saturn Dec 21.9818 22 whole (0.78) — also: 4 Deluxe Music / Callum Rodriguez
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - star rows: H Sadalsuud → H Saturn RA 43.9832 44 whole (2.61) — also: 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+  - star rows: J Spica → J Saturn Dec 0.0126 conj (91.78) — also: 1 The Dancing Poet / Harry Russell, 5 Carn A Chlamain / Tom Marquand
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
+- **Neptune**
+  - star rows: H Alkaid → H Neptune RA 138.9830 139 whole (2.24) — also: 5 Carn A Chlamain / Tom Marquand
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: H Fomalhaut → H Neptune RA 1.4654 conj (0.05) — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: H Galactic Centre → H Neptune Dec 21.9817 22 whole (0.73) — only
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - star rows: H Sadalsuud → H Neptune RA 22.9887 23 whole (18.75) — also: 5 Carn A Chlamain / Tom Marquand
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+  - star rows: J Aculeus → J Neptune Dec 11.0024 11 whole (77.20) — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+- **Rahu**
+  - star rows: H Alkaid → H Rahu RA 70.7150 70.7 sqrt2 (97.58) — only
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: J Deneb Algedi → J Rahu Dec 0.1777 conj (16.63) — also: 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - star rows: J Fomalhaut → J Rahu RA 121.9895 122 whole (22.43) — also: 1 The Dancing Poet / Harry Russell
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: J Galactic Centre → J Rahu RA 43.9864 44 whole (10.32) — also: 5 Carn A Chlamain / Tom Marquand
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - star rows: J Sadalmelik → J Rahu Dec 15.9862 16 whole (9.57) — also: 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+- **Gonggong**
+  - star rows: H Alkaid → H Gonggong Dec 61.4844 38×φ golden (94.36) — also: 3 Chase The Dollar / Rossa Ryan, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: H Spica → H Gonggong Dec 1.0112 1 whole (19.36) — also: 1 The Dancing Poet / Harry Russell
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
+  - star rows: J Galactic Centre → J Gonggong Dec 10.0141 10 whole (8.58) — also: 6 Flamingo Rose / Dougie Costello
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - star rows: J Sadalmelik → J Gonggong RA 1.4616 conj (0.07) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+- **Ketu**
+  - star rows: H Alkaid → H Ketu Dec 66.0185 66 whole (0.55) — also: 7 Red Tornado / Jason Hart
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: H Spica → H Ketu RA 114.8734 71×φ golden (61.11) — also: 6 Flamingo Rose / Dougie Costello
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
+  - star rows: J Alkaid → J Ketu Dec 33.0092 33 whole (29.39) — also: 7 Red Tornado / Jason Hart
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: J Fomalhaut → J Ketu RA 58.0105 58 whole (22.43) — only
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: J Galactic Centre → J Ketu RA 136.0136 136 whole (10.32) — also: 5 Carn A Chlamain / Tom Marquand
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+- **Makemake**
+  - star rows: H Fomalhaut → H Makemake RA 148.8501 92×φ golden (51.90) — also: 6 Flamingo Rose / Dougie Costello
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: H Rasalhague → H Makemake Dec 12.2252 12.2222 ninth (95.90) — also: 7 Red Tornado / Jason Hart
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - top rows: S Sun → J Makemake RA 151.9959 152 whole (63.11) — only
+  - star rows: J Alkaid → J Makemake RA 31.9909 32 whole (29.97) — also: 4 Deluxe Music / Callum Rodriguez
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: J Alphard → J Makemake RA 32.9906 33 whole (28.05) — only
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: J Fomalhaut → J Makemake Dec 63.0105 63 whole (22.60) — also: 6 Flamingo Rose / Dougie Costello
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: J Sadalsuud → J Makemake RA 148.0043 148 whole (61.36) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+- **Mercury**
+  - star rows: H Meissa → H Mercury RA 69.9940 70 whole (48.97) — also: 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+  - star rows: H Rasalhague → H Mercury RA 110.0554 68×φ golden (1.03) — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - same body: S Mercury → J Mercury Dec 12.9887 13 whole (18.81) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand
+  - star rows: J Aculeus → J Mercury RA 64.9831 65 whole (2.38) — also: 7 Red Tornado / Jason Hart
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: J Facies → J Mercury RA 79.0010 79 whole (90.69) — only
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+  - star rows: J Fomalhaut → J Mercury Dec 23.0038 23 whole (66.02) — also: 3 Chase The Dollar / Rossa Ryan
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: J Spica → J Mercury RA 1.1975 conj (4.07) — only
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
+- **Orcus**
+  - star rows: H Rasalhague → H Orcus RA 110.9992 111 whole (92.15) — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - same body: S Orcus → J Orcus Dec 13.3095 13.3333 ninth (loose) — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+  - star rows: J Rasalhague → J Orcus RA 129.0145 129 whole (7.43) — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+- **Sun**
+  - star rows: H Sadalmelik → H Sun Dec 0.1499 conj (25.02) — only
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - star rows: H Spica → H Sun Dec 10.9911 11 whole (30.73) — also: 7 Red Tornado / Jason Hart
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
+  - same body: S Sun → J Sun RA 111.3434 111.111 ninth (loose) — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+  - star rows: J Spica → J Sun Dec 2.9880 3 whole (15.90) — also: 7 Red Tornado / Jason Hart
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
+- **Transpluto**
+  - star rows: J Facies → J Transpluto RA 132.6971 82×φ golden (18.88) — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+  - star rows: J Fomalhaut → J Transpluto RA 161.9840 162 whole (3.99) — also: 7 Red Tornado / Jason Hart
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: J Galactic Centre → J Transpluto RA 120.0130 120 whole (12.41) — also: 3 Chase The Dollar / Rossa Ryan, 7 Red Tornado / Jason Hart
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+- **Quaoar**
+  - star rows: J Meissa → J Quaoar RA 155.5821 155.556 ninth (97.49) — also: 1 The Dancing Poet / Harry Russell, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+  - star rows: J Spica → J Quaoar Dec 3.0038 3 whole (65.95) — only
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
 
 ## 3 Chase The Dollar / Rossa Ryan
 ### L1 same bodies
@@ -529,86 +914,135 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - S Ketu → J Ketu RA 61.5000 38×φ golden (loose)
 ### L2 what lands on each same body
 - **H Sun** (same body: S Sun → H Sun Dec 17.8550 φ^6 phi power (loose))
-  - star rows: H Rasalhague → H Sun RA 106.7960 66×φ golden (67.50) [Sun]
+  - star rows: H Rasalhague → H Sun RA 106.7960 66×φ golden (67.50)
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
   - other chart, same body: S Sun → J Sun RA 135.9982 136 whole (83.22)
-  - other chart, top rows: S Sun → J Sun RA 135.9982 136 whole (83.22) [Sun]
-  - other chart, star rows: J Alkaid → J Sun RA 104.0069 104 whole (43.11) [Sun]
-  - other chart, star rows: J Alphard → J Sun RA 39.0120 39 whole (15.87) [Jupiter]
-  - other chart, star rows: J Sadalsuud → J Sun RA 139.9867 140 whole (11.33) [Sun]
+  - other chart, star rows: J Alkaid → J Sun RA 104.0069 104 whole (43.11)
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - other chart, star rows: J Alphard → J Sun RA 39.0120 39 whole (15.87)
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - other chart, star rows: J Sadalsuud → J Sun RA 139.9867 140 whole (11.33)
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
 - **H Uranus** (same body: S Uranus → H Uranus RA 13.0102 13 whole (23.91))
-  - star rows: H Galactic Centre → H Uranus Dec 39.0123 39 whole (14.93) [Moon]
-  - star rows: H Meissa → H Uranus Dec 0.0721 conj (57.71) [Jupiter]
-  - other chart, top rows: S Sun → J Uranus RA 4.0048 4 whole (57.89) [Sun]
-  - other chart, star rows: J Alkaid → J Uranus RA 115.9901 116 whole (25.52) [Sun]
-  - other chart, star rows: J Alphard → J Uranus RA 179.0151 179 whole (6.10) [Jupiter]
-  - other chart, star rows: J Rasalhague → J Uranus Dec 27.9898 28 whole (24.15) [Sun]
-  - other chart, star rows: J Sadalsuud → J Uranus RA 0.0163 conj (97.84) [Sun]
+  - star rows: H Galactic Centre → H Uranus Dec 39.0123 39 whole (14.93)
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - star rows: H Meissa → H Uranus Dec 0.0721 conj (57.71)
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+  - other chart, top rows: S Sun → J Uranus RA 4.0048 4 whole (57.89)
+  - other chart, star rows: J Alkaid → J Uranus RA 115.9901 116 whole (25.52)
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - other chart, star rows: J Alphard → J Uranus RA 179.0151 179 whole (6.10)
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - other chart, star rows: J Rasalhague → J Uranus Dec 27.9898 28 whole (24.15)
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - other chart, star rows: J Sadalsuud → J Uranus RA 0.0163 conj (97.84)
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
 - **H Pluto** (same body: S Pluto → H Pluto Dec 1.0176 1 whole (1.43))
-  - other chart, star rows: J Deneb Algedi → J Pluto RA 76.0156 φ^9 phi power (98.72) [Sun]
-  - other chart, star rows: J Rasalhague → J Pluto RA 12.9904 13 whole (27.00) [Sun]
-  - other chart, star rows: J Spica → J Pluto Dec 0.2097 conj (9.05) [Moon]
+  - other chart, star rows: J Deneb Algedi → J Pluto RA 76.0156 φ^9 phi power (98.72)
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - other chart, star rows: J Rasalhague → J Pluto RA 12.9904 13 whole (27.00)
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - other chart, star rows: J Spica → J Pluto Dec 0.2097 conj (9.05)
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
 - **H Juno** (same body: S Juno → H Juno RA 42.3887 10×φ^3 phi power (loose))
-  - body line: S Jupiter → Juno RA 37.0056 37 whole (51.90)
-  - star rows: H Sadalsuud → H Juno RA 24.2785 15×φ golden (56.64) [Sun]
-  - star rows: H Spica → H Juno Dec 7.9973 8 whole (74.39) [Moon]
+  - sky line to Juno: S Jupiter → Juno RA 37.0056 37 whole (51.90)
+  - star rows: H Sadalsuud → H Juno RA 24.2785 15×φ golden (56.64)
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+  - star rows: H Spica → H Juno Dec 7.9973 8 whole (74.39)
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
   - other chart, same body: S Juno → J Juno Dec 10.0060 10 whole (49.28)
 - **H Vesta** (same body: S Vesta → H Vesta RA 18.8874 18.8889 ninth (98.92))
-  - other chart, star rows: J Meissa → J Vesta Dec 32.0138 32 whole (9.55) [Jupiter]
+  - other chart, star rows: J Meissa → J Vesta Dec 32.0138 32 whole (9.55)
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
 - **H Orcus** (same body: S Orcus → H Orcus RA 4.2302 φ^3 phi power (loose))
-  - star rows: H Rasalhague → H Orcus RA 111.1700 111.111 ninth (90.36) [Sun]
-  - other chart, star rows: J Rasalhague → J Orcus RA 126.0046 126 whole (59.41) [Sun]
+  - star rows: H Rasalhague → H Orcus RA 111.1700 111.111 ninth (90.36)
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - other chart, star rows: J Rasalhague → J Orcus RA 126.0046 126 whole (59.41)
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
 - **H Quaoar** (same body: S Quaoar → H Quaoar RA 4.8554 3×φ golden (loose))
-  - body line: S Sun → Quaoar RA 50.1519 31×φ golden (60.58)
-  - star rows: H Alkaid → H Quaoar RA 64.9832 65 whole (2.49) [Sun]
-  - star rows: H Sadalsuud → H Quaoar RA 51.0113 51 whole (18.86) [Sun]
-  - other chart, top rows: S Moon → J Quaoar RA 133.9988 134 whole (88.01) [Moon]
-  - other chart, star rows: J Fomalhaut → J Quaoar RA 98.0028 98 whole (74.24) [Moon]
-  - other chart, star rows: J Galactic Centre → J Quaoar RA 20.0101 20 whole (24.58) [Moon]
+  - sky line to Quaoar: S Sun → Quaoar RA 50.1519 31×φ golden (60.58)
+  - star rows: H Alkaid → H Quaoar RA 64.9832 65 whole (2.49)
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: H Sadalsuud → H Quaoar RA 51.0113 51 whole (18.86)
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+  - other chart, top rows: S Moon → J Quaoar RA 133.9988 134 whole (88.01)
+  - other chart, star rows: J Fomalhaut → J Quaoar RA 98.0028 98 whole (74.24)
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - other chart, star rows: J Galactic Centre → J Quaoar RA 20.0101 20 whole (24.58)
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
 - **H Transpluto** (same body: S Transpluto → H Transpluto RA 1.6622 1.66667 ninth (loose))
-  - star rows: H Facies → H Transpluto Dec 34.9840 35 whole (3.95) [Moon]
-  - star rows: H Galactic Centre → H Transpluto RA 113.2689 70×φ golden (63.61) [Moon]
-  - other chart, star rows: J Deneb Algedi → J Transpluto RA 179.4212 10×φ^6 phi power (95.25) [Sun]
+  - star rows: H Facies → H Transpluto Dec 34.9840 35 whole (3.95)
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+  - star rows: H Galactic Centre → H Transpluto RA 113.2689 70×φ golden (63.61)
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - other chart, star rows: J Deneb Algedi → J Transpluto RA 179.4212 10×φ^6 phi power (95.25)
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
 - **J Sun** (same body: S Sun → J Sun RA 135.9982 136 whole (83.22))
-  - top rows: S Sun → J Sun RA 135.9982 136 whole (83.22) [Sun]
-  - star rows: J Alkaid → J Sun RA 104.0069 104 whole (43.11) [Sun]
-  - star rows: J Alphard → J Sun RA 39.0120 39 whole (15.87) [Jupiter]
-  - star rows: J Sadalsuud → J Sun RA 139.9867 140 whole (11.33) [Sun]
+  - star rows: J Alkaid → J Sun RA 104.0069 104 whole (43.11)
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: J Alphard → J Sun RA 39.0120 39 whole (15.87)
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: J Sadalsuud → J Sun RA 139.9867 140 whole (11.33)
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
   - other chart, same body: S Sun → H Sun Dec 17.8550 φ^6 phi power (loose)
-  - other chart, star rows: H Rasalhague → H Sun RA 106.7960 66×φ golden (67.50) [Sun]
+  - other chart, star rows: H Rasalhague → H Sun RA 106.7960 66×φ golden (67.50)
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
 - **J Mercury** (same body: S Mercury → J Mercury RA 166.8627 166.667 ninth (loose))
-  - star rows: J Fomalhaut → J Mercury RA 122.9567 φ^10 phi power (88.88) [Moon]
-  - star rows: J Sadalmelik → J Mercury RA 135.9228 84×φ golden (57.02) [Sun]
-  - star rows: J Sadalsuud → J Mercury RA 144.4784 144.444 ninth (96.40) [Sun]
-  - other chart, star rows: H Alphard → H Mercury Dec 16.0152 16 whole (5.81) [Jupiter]
+  - star rows: J Fomalhaut → J Mercury RA 122.9567 φ^10 phi power (88.88)
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: J Sadalmelik → J Mercury RA 135.9228 84×φ golden (57.02)
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - star rows: J Sadalsuud → J Mercury RA 144.4784 144.444 ninth (96.40)
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+  - other chart, star rows: H Alphard → H Mercury Dec 16.0152 16 whole (5.81)
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
 - **J Venus** (same body: S Venus → J Venus RA 176.0231 176 whole (loose))
-  - body line: S Moon → Venus RA 173.1408 107×φ golden (42.72)
-  - star rows: J Aculeus → J Venus RA 155.5578 155.556 ninth (99.79) [Sun]
-  - star rows: J Alphard → J Venus RA 32.3608 20×φ golden (99.30) [Jupiter]
-  - other chart, star rows: H Galactic Centre → H Venus RA 122.9430 φ^10 phi power (84.73) [Moon]
+  - sky line to Venus: S Moon → Venus RA 173.1408 107×φ golden (42.72)
+  - star rows: J Aculeus → J Venus RA 155.5578 155.556 ninth (99.79)
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: J Alphard → J Venus RA 32.3608 20×φ golden (99.30)
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - other chart, star rows: H Galactic Centre → H Venus RA 122.9430 φ^10 phi power (84.73)
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
 - **J Mars** (same body: S Mars → J Mars RA 176.6814 177.778 ninth (loose))
-  - body line: S Moon → Mars Dec 48.5423 30×φ golden (92.44)
-  - star rows: J Spica → J Mars Dec 34.9992 35 whole (92.11) [Moon]
-  - other chart, star rows: H Facies → H Mars RA 0.2949 conj (64.54) [Moon]
+  - sky line to Mars: S Moon → Mars Dec 48.5423 30×φ golden (92.44)
+  - star rows: J Spica → J Mars Dec 34.9992 35 whole (92.11)
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
+  - other chart, star rows: H Facies → H Mars RA 0.2949 conj (64.54)
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
 - **J Pallas** (same body: S Pallas → J Pallas RA 151.9767 152 whole (loose))
-  - star rows: J Galactic Centre → J Pallas RA 110.9868 10×φ^5 phi power (71.66) [Moon]
-  - star rows: J Rasalhague → J Pallas Dec 2.0109 2 whole (20.69) [Sun]
-  - star rows: J Sadalmelik → J Pallas RA 176.0134 176 whole (11.03) [Sun]
-  - other chart, star rows: H Castor → H Pallas RA 48.9829 49 whole (2.17) [Moon]
-  - other chart, star rows: H Facies → H Pallas Dec 16.0162 16 whole (3.65) [Moon]
+  - star rows: J Galactic Centre → J Pallas RA 110.9868 10×φ^5 phi power (71.66)
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - star rows: J Rasalhague → J Pallas Dec 2.0109 2 whole (20.69)
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - star rows: J Sadalmelik → J Pallas RA 176.0134 176 whole (11.03)
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - other chart, star rows: H Castor → H Pallas RA 48.9829 49 whole (2.17)
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
+  - other chart, star rows: H Facies → H Pallas Dec 16.0162 16 whole (3.65)
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
 - **J Juno** (same body: S Juno → J Juno Dec 10.0060 10 whole (49.28))
-  - body line: S Jupiter → Juno RA 37.0056 37 whole (51.90)
+  - sky line to Juno: S Jupiter → Juno RA 37.0056 37 whole (51.90)
   - other chart, same body: S Juno → H Juno RA 42.3887 10×φ^3 phi power (loose)
-  - other chart, star rows: H Sadalsuud → H Juno RA 24.2785 15×φ golden (56.64) [Sun]
-  - other chart, star rows: H Spica → H Juno Dec 7.9973 8 whole (74.39) [Moon]
+  - other chart, star rows: H Sadalsuud → H Juno RA 24.2785 15×φ golden (56.64)
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+  - other chart, star rows: H Spica → H Juno Dec 7.9973 8 whole (74.39)
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
 - **J Rahu** (same body: S Rahu → J Rahu RA 61.5000 38×φ golden (loose))
-  - star rows: J Rasalhague → J Rahu RA 147.2109 91×φ golden (0.43) [Sun]
-  - star rows: J Spica → J Rahu Dec 32.3634 20×φ golden (83.66) [Moon]
-  - other chart, star rows: H Castor → H Rahu Dec 14.9807 15 whole (0.11) [Moon]
+  - star rows: J Rasalhague → J Rahu RA 147.2109 91×φ golden (0.43)
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - star rows: J Spica → J Rahu Dec 32.3634 20×φ golden (83.66)
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
+  - other chart, star rows: H Castor → H Rahu Dec 14.9807 15 whole (0.11)
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
 - **J Ketu** (same body: S Ketu → J Ketu RA 61.5000 38×φ golden (loose))
-  - star rows: J Meissa → J Ketu RA 147.2509 91×φ golden (48.44) [Jupiter]
-  - other chart, star rows: H Deneb Algedi → H Ketu Dec 0.7778 0.777778 ninth (99.12) [Sun]
-  - other chart, star rows: H Facies → H Ketu Dec 6.9970 7 whole (72.44) [Moon]
-### L3 the seven cases (L5 field tag on each)
+  - star rows: J Meissa → J Ketu RA 147.2509 91×φ golden (48.44)
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+  - other chart, star rows: H Deneb Algedi → H Ketu Dec 0.7778 0.777778 ninth (99.12)
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - other chart, star rows: H Facies → H Ketu Dec 6.9970 7 whole (72.44)
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+### L3 matches
 - **1. same body on both charts**
   - Sun — also: 7 Red Tornado / Jason Hart
     - S Sun → H Sun Dec 17.8550 φ^6 phi power (loose)
@@ -631,31 +1065,64 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - **4. circle divisions**
   - 1 = 360/360 — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
     - S Pluto → H Pluto Dec 1.0176 1 whole (1.43)
-  - 4 = 360/90 — only
+  - 15 = 360/24 — also: 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand
+    - H Castor → H Rahu Dec 14.9807 15 whole (0.11)
+  - 4 = 360/90 — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
     - H Deneb Algedi → H Gonggong Dec 4.0034 4 whole (69.03)
-  - 3 = 360/120 — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+  - 3 = 360/120 — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
     - H Sadalmelik → H Chiron Dec 2.9988 3 whole (88.58)
-  - 8 = 360/45 — only
+  - 8 = 360/45 — also: 1 The Dancing Poet / Harry Russell, 6 Flamingo Rose / Dougie Costello
     - H Sadalmelik → H Sedna Dec 8.0032 8 whole (70.16)
-  - 8 = 360/45 — only
+  - 8 = 360/45 — also: 1 The Dancing Poet / Harry Russell, 6 Flamingo Rose / Dougie Costello
     - H Spica → H Juno Dec 7.9973 8 whole (74.39)
-  - 10 = 360/36 — also: 5 Carn A Chlamain / Tom Marquand
+  - 9 = 360/40 — also: 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+    - H Spica → H Eris Dec 8.9872 9 whole (12.81)
+  - 10 = 360/36 — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
     - S Juno → J Juno Dec 10.0060 10 whole (49.28)
-  - 4 = 360/90 — only
+  - 4 = 360/90 — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
     - S Sun → J Uranus RA 4.0048 4 whole (57.89)
+  - 20 = 360/18 — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+    - J Galactic Centre → J Quaoar RA 20.0101 20 whole (24.58)
+  - 2 = 360/180 — also: 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+    - J Rasalhague → J Pallas Dec 2.0109 2 whole (20.69)
 - **5. same number in more than one place**
+  - 13 whole — also: 4 Deluxe Music / Callum Rodriguez
+    - S Uranus → H Uranus RA 13.0102 13 whole (23.91)
+    - J Rasalhague → J Pluto RA 12.9904 13 whole (27.00)
   - 18.8889 ninth — also: 4 Deluxe Music / Callum Rodriguez
     - S Vesta → H Vesta RA 18.8874 18.8889 ninth (98.92)
     - S Sun → J Sedna Dec 18.8804 18.8889 ninth (93.88)
-  - 4 whole — only
+  - 16 whole — also: 2 Flying Instructor / Dylan Hogan
+    - S Sun → H Chiron Dec 16.0033 16 whole (69.92)
+    - H Alphard → H Mercury Dec 16.0152 16 whole (5.81)
+    - H Facies → H Pallas Dec 16.0162 16 whole (3.65)
+  - 41 whole — also: 4 Deluxe Music / Callum Rodriguez
+    - H Deneb Algedi → H Makemake Dec 40.9939 41 whole (48.64)
+    - S Jupiter → J Makemake Dec 41.0006 41 whole (94.11)
+  - 4 whole — also: 1 The Dancing Poet / Harry Russell
     - H Deneb Algedi → H Gonggong Dec 4.0034 4 whole (69.03)
     - S Sun → J Uranus RA 4.0048 4 whole (57.89)
+  - 35 whole — only
+    - H Facies → H Transpluto Dec 34.9840 35 whole (3.95)
+    - J Spica → J Mars Dec 34.9992 35 whole (92.11)
+  - 7 whole — also: 1 The Dancing Poet / Harry Russell, 7 Red Tornado / Jason Hart
+    - H Facies → H Ketu Dec 6.9970 7 whole (72.44)
+    - J Rasalhague → J Sedna Dec 7.0070 7 whole (42.34)
   - φ^10 phi power — only
     - H Galactic Centre → H Venus RA 122.9430 φ^10 phi power (84.73)
     - J Fomalhaut → J Mercury RA 122.9567 φ^10 phi power (88.88)
+  - 39 whole — only
+    - H Galactic Centre → H Uranus Dec 39.0123 39 whole (14.93)
+    - J Alphard → J Sun RA 39.0120 39 whole (15.87)
   - 8 whole — only
     - H Sadalmelik → H Sedna Dec 8.0032 8 whole (70.16)
     - H Spica → H Juno Dec 7.9973 8 whole (74.39)
+  - 136 whole — also: 2 Flying Instructor / Dylan Hogan
+    - S Sun → J Sun RA 135.9982 136 whole (83.22)
+    - J Facies → J Saturn RA 135.9907 136 whole (28.75)
+  - 176 whole — only
+    - S Venus → J Venus RA 176.0231 176 whole (loose)
+    - J Sadalmelik → J Pallas RA 176.0134 176 whole (11.03)
   - 38×φ golden — also: 2 Flying Instructor / Dylan Hogan
     - S Rahu → J Rahu RA 61.5000 38×φ golden (loose)
     - S Ketu → J Ketu RA 61.5000 38×φ golden (loose)
@@ -665,100 +1132,200 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 20×φ golden — only
     - J Alphard → J Venus RA 32.3608 20×φ golden (99.30)
     - J Spica → J Rahu Dec 32.3634 20×φ golden (83.66)
+  - 91×φ golden — only
+    - J Meissa → J Ketu RA 147.2509 91×φ golden (48.44)
+    - J Rasalhague → J Rahu RA 147.2109 91×φ golden (0.43)
   - 144.444 ninth — only
     - J Sadalsuud → J Mercury RA 144.4784 144.444 ninth (96.40)
     - J Sadalsuud → J Makemake RA 144.4143 144.444 ninth (96.81)
-- **6. star and sky line on one body**
-  - J Uranus on Sadalsuud — only
-    - J Sadalsuud → J Uranus RA 0.0163 conj (97.84)
-    - S Sun → J Uranus RA 4.0048 4 whole (57.89)
-- **7. centres meeting**
-  - Juno: Jupiter, Moon, Sun — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
-    - [Jupiter] S Juno → H Juno RA 42.3887 10×φ^3 phi power (loose)
-    - [Jupiter] S Juno → J Juno Dec 10.0060 10 whole (49.28)
-    - [Moon] H Spica → H Juno Dec 7.9973 8 whole (74.39)
-    - [Sun] H Sadalsuud → H Juno RA 24.2785 15×φ golden (56.64)
-  - Quaoar: Moon, Sun — only
-    - [Moon] S Moon → J Quaoar RA 133.9988 134 whole (88.01)
-    - [Moon] J Fomalhaut → J Quaoar RA 98.0028 98 whole (74.24)
-    - [Moon] J Galactic Centre → J Quaoar RA 20.0101 20 whole (24.58)
-    - [Sun] S Quaoar → H Quaoar RA 4.8554 3×φ golden (loose)
-    - [Sun] H Alkaid → H Quaoar RA 64.9832 65 whole (2.49)
-    - [Sun] H Sadalsuud → H Quaoar RA 51.0113 51 whole (18.86)
-  - Gonggong: Moon, Sun — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez
-    - [Moon] H Castor → H Gonggong Dec 44.0149 44 whole (6.58)
-    - [Sun] H Alkaid → H Gonggong RA 129.4602 80×φ golden (21.04)
-    - [Sun] H Deneb Algedi → H Gonggong Dec 4.0034 4 whole (69.03)
-    - [Sun] J Sadalmelik → J Gonggong RA 1.1083 conj (6.82)
-  - Mercury: Jupiter, Moon, Sun — also: 2 Flying Instructor / Dylan Hogan
-    - [Jupiter] H Alphard → H Mercury Dec 16.0152 16 whole (5.81)
-    - [Moon] J Fomalhaut → J Mercury RA 122.9567 φ^10 phi power (88.88)
-    - [Sun] J Sadalmelik → J Mercury RA 135.9228 84×φ golden (57.02)
-    - [Sun] J Sadalsuud → J Mercury RA 144.4784 144.444 ninth (96.40)
-  - Pallas: Moon, Sun — also: 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
-    - [Moon] H Castor → H Pallas RA 48.9829 49 whole (2.17)
-    - [Moon] H Facies → H Pallas Dec 16.0162 16 whole (3.65)
-    - [Moon] J Galactic Centre → J Pallas RA 110.9868 10×φ^5 phi power (71.66)
-    - [Sun] J Rasalhague → J Pallas Dec 2.0109 2 whole (20.69)
-    - [Sun] J Sadalmelik → J Pallas RA 176.0134 176 whole (11.03)
-  - Rahu: Moon, Sun — also: 2 Flying Instructor / Dylan Hogan
-    - [Moon] H Castor → H Rahu Dec 14.9807 15 whole (0.11)
-    - [Moon] J Spica → J Rahu Dec 32.3634 20×φ golden (83.66)
-    - [Sun] J Rasalhague → J Rahu RA 147.2109 91×φ golden (0.43)
-  - Makemake: Jupiter, Sun — only
-    - [Jupiter] S Jupiter → J Makemake Dec 41.0006 41 whole (94.11)
-    - [Sun] H Deneb Algedi → H Makemake Dec 40.9939 41 whole (48.64)
-    - [Sun] J Sadalsuud → J Makemake RA 144.4143 144.444 ninth (96.81)
-  - Ketu: Jupiter, Moon, Sun — also: 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
-    - [Jupiter] J Meissa → J Ketu RA 147.2509 91×φ golden (48.44)
-    - [Moon] H Facies → H Ketu Dec 6.9970 7 whole (72.44)
-    - [Sun] H Deneb Algedi → H Ketu Dec 0.7778 0.777778 ninth (99.12)
-  - Saturn: Moon, Sun — only
-    - [Moon] H Facies → H Saturn RA 0.2755 conj (66.64)
-    - [Moon] J Facies → J Saturn RA 135.9907 136 whole (28.75)
-    - [Sun] J Aculeus → J Saturn RA 150.0069 150 whole (42.92)
-  - Transpluto: Moon, Sun — also: 4 Deluxe Music / Callum Rodriguez
-    - [Moon] H Facies → H Transpluto Dec 34.9840 35 whole (3.95)
-    - [Moon] H Galactic Centre → H Transpluto RA 113.2689 70×φ golden (63.61)
-    - [Sun] J Deneb Algedi → J Transpluto RA 179.4212 10×φ^6 phi power (95.25)
-  - Venus: Jupiter, Moon, Sun — also: 7 Red Tornado / Jason Hart
-    - [Jupiter] J Alphard → J Venus RA 32.3608 20×φ golden (99.30)
-    - [Moon] H Galactic Centre → H Venus RA 122.9430 φ^10 phi power (84.73)
-    - [Moon] S Venus → J Venus RA 176.0231 176 whole (loose)
-    - [Sun] J Aculeus → J Venus RA 155.5578 155.556 ninth (99.79)
-  - Uranus: Jupiter, Moon, Sun — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan
-    - [Jupiter] H Meissa → H Uranus Dec 0.0721 conj (57.71)
-    - [Jupiter] J Alphard → J Uranus RA 179.0151 179 whole (6.10)
-    - [Moon] H Galactic Centre → H Uranus Dec 39.0123 39 whole (14.93)
-    - [Sun] S Sun → J Uranus RA 4.0048 4 whole (57.89)
-    - [Sun] J Alkaid → J Uranus RA 115.9901 116 whole (25.52)
-    - [Sun] J Rasalhague → J Uranus Dec 27.9898 28 whole (24.15)
-    - [Sun] J Sadalsuud → J Uranus RA 0.0163 conj (97.84)
-  - Sun: Jupiter, Sun — only
-    - [Jupiter] J Alphard → J Sun RA 39.0120 39 whole (15.87)
-    - [Sun] H Rasalhague → H Sun RA 106.7960 66×φ golden (67.50)
-    - [Sun] S Sun → J Sun RA 135.9982 136 whole (83.22)
-    - [Sun] J Alkaid → J Sun RA 104.0069 104 whole (43.11)
-    - [Sun] J Sadalsuud → J Sun RA 139.9867 140 whole (11.33)
-  - Neptune: Moon, Sun — also: 2 Flying Instructor / Dylan Hogan
-    - [Moon] J Fomalhaut → J Neptune Dec 11.0098 11 whole (25.79)
-    - [Sun] H Rasalhague → H Neptune Dec 19.4186 12×φ golden (86.77)
-  - Eris: Jupiter, Moon, Sun — also: 4 Deluxe Music / Callum Rodriguez
-    - [Jupiter] S Jupiter → J Eris Dec 2.2222 2.22222 ninth (99.49)
-    - [Moon] H Spica → H Eris Dec 8.9872 9 whole (12.81)
-    - [Sun] H Rasalhague → H Eris RA 121.9816 122 whole (0.62)
-  - Ceres: Moon, Sun — also: 2 Flying Instructor / Dylan Hogan, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
-    - [Moon] S Moon → J Ceres Dec 18.9948 19 whole (54.62)
-    - [Sun] J Deneb Algedi → J Ceres RA 139.1708 86×φ golden (14.91)
-  - Jupiter: Jupiter, Sun — only
-    - [Jupiter] S Ceres → J Jupiter RA 0.4724 conj (46.93)
-    - [Jupiter] S Rahu → J Jupiter Dec 0.0909 conj (48.60)
-    - [Jupiter] S Sedna → J Jupiter RA 0.3925 conj (54.52)
-    - [Sun] S Deneb Algedi → J Jupiter Dec 35.5961 22×φ golden (96.06)
-  - Pluto: Moon, Sun — also: 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
-    - [Moon] J Spica → J Pluto Dec 0.2097 conj (9.05)
-    - [Sun] J Deneb Algedi → J Pluto RA 76.0156 φ^9 phi power (98.72)
-    - [Sun] J Rasalhague → J Pluto RA 12.9904 13 whole (27.00)
+### L4 every natal body
+- **Sun**
+  - same body: S Sun → H Sun Dec 17.8550 φ^6 phi power (loose) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+  - star rows: H Rasalhague → H Sun RA 106.7960 66×φ golden (67.50) — also: 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - same body + top rows: S Sun → J Sun RA 135.9982 136 whole (83.22) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+  - star rows: J Alkaid → J Sun RA 104.0069 104 whole (43.11) — also: 7 Red Tornado / Jason Hart
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: J Alphard → J Sun RA 39.0120 39 whole (15.87) — also: 7 Red Tornado / Jason Hart
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: J Sadalsuud → J Sun RA 139.9867 140 whole (11.33) — also: 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+- **Uranus**
+  - same body: S Uranus → H Uranus RA 13.0102 13 whole (23.91) — also: 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+  - star rows: H Galactic Centre → H Uranus Dec 39.0123 39 whole (14.93) — also: 2 Flying Instructor / Dylan Hogan
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - star rows: H Meissa → H Uranus Dec 0.0721 conj (57.71) — also: 2 Flying Instructor / Dylan Hogan, 7 Red Tornado / Jason Hart
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+  - top rows: S Sun → J Uranus RA 4.0048 4 whole (57.89) — also: 2 Flying Instructor / Dylan Hogan
+  - star rows: J Alkaid → J Uranus RA 115.9901 116 whole (25.52) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: J Alphard → J Uranus RA 179.0151 179 whole (6.10) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: J Rasalhague → J Uranus Dec 27.9898 28 whole (24.15) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - star rows: J Sadalsuud → J Uranus RA 0.0163 conj (97.84) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+- **Pluto**
+  - same body: S Pluto → H Pluto Dec 1.0176 1 whole (1.43) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+  - star rows: J Deneb Algedi → J Pluto RA 76.0156 φ^9 phi power (98.72) — also: 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - star rows: J Rasalhague → J Pluto RA 12.9904 13 whole (27.00) — only
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - star rows: J Spica → J Pluto Dec 0.2097 conj (9.05) — only
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
+- **Juno**
+  - same body: S Juno → H Juno RA 42.3887 10×φ^3 phi power (loose) — also: 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+    - source line: S Jupiter → Juno RA 37.0056 37 whole (51.90)
+  - star rows: H Sadalsuud → H Juno RA 24.2785 15×φ golden (56.64) — also: 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+  - star rows: H Spica → H Juno Dec 7.9973 8 whole (74.39) — also: 5 Carn A Chlamain / Tom Marquand
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
+  - same body: S Juno → J Juno Dec 10.0060 10 whole (49.28) — also: 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+    - source line: S Jupiter → Juno RA 37.0056 37 whole (51.90)
+- **Vesta**
+  - same body: S Vesta → H Vesta RA 18.8874 18.8889 ninth (98.92) — also: 2 Flying Instructor / Dylan Hogan, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+  - star rows: J Meissa → J Vesta Dec 32.0138 32 whole (9.55) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+- **Orcus**
+  - same body: S Orcus → H Orcus RA 4.2302 φ^3 phi power (loose) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+  - star rows: H Rasalhague → H Orcus RA 111.1700 111.111 ninth (90.36) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - star rows: J Rasalhague → J Orcus RA 126.0046 126 whole (59.41) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+- **Quaoar**
+  - same body: S Quaoar → H Quaoar RA 4.8554 3×φ golden (loose) — also: 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Quaoar RA 50.1519 31×φ golden (60.58)
+  - star rows: H Alkaid → H Quaoar RA 64.9832 65 whole (2.49) — also: 5 Carn A Chlamain / Tom Marquand
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: H Sadalsuud → H Quaoar RA 51.0113 51 whole (18.86) — also: 4 Deluxe Music / Callum Rodriguez
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+  - top rows: S Moon → J Quaoar RA 133.9988 134 whole (88.01) — only
+  - star rows: J Fomalhaut → J Quaoar RA 98.0028 98 whole (74.24) — also: 5 Carn A Chlamain / Tom Marquand
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: J Galactic Centre → J Quaoar RA 20.0101 20 whole (24.58) — only
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+- **Transpluto**
+  - same body: S Transpluto → H Transpluto RA 1.6622 1.66667 ninth (loose) — also: 1 The Dancing Poet / Harry Russell, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+  - star rows: H Facies → H Transpluto Dec 34.9840 35 whole (3.95) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+  - star rows: H Galactic Centre → H Transpluto RA 113.2689 70×φ golden (63.61) — also: 2 Flying Instructor / Dylan Hogan, 7 Red Tornado / Jason Hart
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - star rows: J Deneb Algedi → J Transpluto RA 179.4212 10×φ^6 phi power (95.25) — also: 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+- **Chiron**
+  - top rows: S Sun → H Chiron Dec 16.0033 16 whole (69.92) — also: 6 Flamingo Rose / Dougie Costello
+  - star rows: H Sadalmelik → H Chiron Dec 2.9988 3 whole (88.58) — only
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+- **Gonggong**
+  - star rows: H Alkaid → H Gonggong RA 129.4602 80×φ golden (21.04) — also: 2 Flying Instructor / Dylan Hogan, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: H Castor → H Gonggong Dec 44.0149 44 whole (6.58) — also: 6 Flamingo Rose / Dougie Costello
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
+  - star rows: H Deneb Algedi → H Gonggong Dec 4.0034 4 whole (69.03) — also: 1 The Dancing Poet / Harry Russell, 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - star rows: J Sadalmelik → J Gonggong RA 1.1083 conj (6.82) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+- **Mercury**
+  - star rows: H Alphard → H Mercury Dec 16.0152 16 whole (5.81) — also: 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - same body: S Mercury → J Mercury RA 166.8627 166.667 ninth (loose) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand
+  - star rows: J Fomalhaut → J Mercury RA 122.9567 φ^10 phi power (88.88) — also: 2 Flying Instructor / Dylan Hogan
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: J Sadalmelik → J Mercury RA 135.9228 84×φ golden (57.02) — also: 1 The Dancing Poet / Harry Russell
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - star rows: J Sadalsuud → J Mercury RA 144.4784 144.444 ninth (96.40) — also: 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+- **Pallas**
+  - star rows: H Castor → H Pallas RA 48.9829 49 whole (2.17) — also: 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
+  - star rows: H Facies → H Pallas Dec 16.0162 16 whole (3.65) — also: 5 Carn A Chlamain / Tom Marquand
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+  - same body: S Pallas → J Pallas RA 151.9767 152 whole (loose) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+  - star rows: J Galactic Centre → J Pallas RA 110.9868 10×φ^5 phi power (71.66) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - star rows: J Rasalhague → J Pallas Dec 2.0109 2 whole (20.69) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - star rows: J Sadalmelik → J Pallas RA 176.0134 176 whole (11.03) — also: 1 The Dancing Poet / Harry Russell, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+- **Rahu**
+  - star rows: H Castor → H Rahu Dec 14.9807 15 whole (0.11) — only
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
+  - same body: S Rahu → J Rahu RA 61.5000 38×φ golden (loose) — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+  - star rows: J Rasalhague → J Rahu RA 147.2109 91×φ golden (0.43) — also: 5 Carn A Chlamain / Tom Marquand
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - star rows: J Spica → J Rahu Dec 32.3634 20×φ golden (83.66) — only
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
+- **Makemake**
+  - star rows: H Deneb Algedi → H Makemake Dec 40.9939 41 whole (48.64) — also: 4 Deluxe Music / Callum Rodriguez
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - top rows: S Jupiter → J Makemake Dec 41.0006 41 whole (94.11) — only
+  - star rows: J Sadalsuud → J Makemake RA 144.4143 144.444 ninth (96.81) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+- **Ketu**
+  - star rows: H Deneb Algedi → H Ketu Dec 0.7778 0.777778 ninth (99.12) — also: 1 The Dancing Poet / Harry Russell
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - star rows: H Facies → H Ketu Dec 6.9970 7 whole (72.44) — also: 4 Deluxe Music / Callum Rodriguez
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+  - same body: S Ketu → J Ketu RA 61.5000 38×φ golden (loose) — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+  - star rows: J Meissa → J Ketu RA 147.2509 91×φ golden (48.44) — also: 1 The Dancing Poet / Harry Russell, 5 Carn A Chlamain / Tom Marquand
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+- **Mars**
+  - star rows: H Facies → H Mars RA 0.2949 conj (64.54) — only
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+  - same body: S Mars → J Mars RA 176.6814 177.778 ninth (loose) — also: 2 Flying Instructor / Dylan Hogan, 6 Flamingo Rose / Dougie Costello
+    - source line: S Moon → Mars Dec 48.5423 30×φ golden (92.44)
+  - star rows: J Spica → J Mars Dec 34.9992 35 whole (92.11) — also: 4 Deluxe Music / Callum Rodriguez
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
+- **Saturn**
+  - star rows: H Facies → H Saturn RA 0.2755 conj (66.64) — also: 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+  - star rows: J Aculeus → J Saturn RA 150.0069 150 whole (42.92) — also: 5 Carn A Chlamain / Tom Marquand
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: J Facies → J Saturn RA 135.9907 136 whole (28.75) — also: 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+- **Venus**
+  - star rows: H Galactic Centre → H Venus RA 122.9430 φ^10 phi power (84.73) — also: 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - same body: S Venus → J Venus RA 176.0231 176 whole (loose) — also: 2 Flying Instructor / Dylan Hogan
+    - source line: S Moon → Venus RA 173.1408 107×φ golden (42.72)
+  - star rows: J Aculeus → J Venus RA 155.5578 155.556 ninth (99.79) — also: 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: J Alphard → J Venus RA 32.3608 20×φ golden (99.30) — only
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+- **Neptune**
+  - star rows: H Rasalhague → H Neptune Dec 19.4186 12×φ golden (86.77) — only
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - star rows: J Fomalhaut → J Neptune Dec 11.0098 11 whole (25.79) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+- **Eris**
+  - star rows: H Rasalhague → H Eris RA 121.9816 122 whole (0.62) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - star rows: H Spica → H Eris Dec 8.9872 9 whole (12.81) — also: 6 Flamingo Rose / Dougie Costello
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
+  - top rows: S Jupiter → J Eris Dec 2.2222 2.22222 ninth (99.49) — only
+- **Sedna**
+  - star rows: H Sadalmelik → H Sedna Dec 8.0032 8 whole (70.16) — also: 4 Deluxe Music / Callum Rodriguez
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - top rows: S Sun → J Sedna Dec 18.8804 18.8889 ninth (93.88) — only
+  - star rows: J Rasalhague → J Sedna Dec 7.0070 7 whole (42.34) — also: 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+- **Haumea**
+  - star rows: H Sadalmelik → H Haumea RA 117.9846 118 whole (5.18) — also: 1 The Dancing Poet / Harry Russell
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - top rows: S Sun → J Haumea RA 131.0634 81×φ golden (84.22) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez
+  - star rows: J Sadalsuud → J Haumea Dec 27.0005 27 whole (95.52) — also: 7 Red Tornado / Jason Hart
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+- **Jupiter**
+  - T2: J Jupiter → J star Deneb Algedi Dec 35.5908 22×φ golden (66.64) — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+  - top rows: S Ceres → J Jupiter RA 0.4724 conj (46.93) — also: 4 Deluxe Music / Callum Rodriguez
+  - top rows: S Rahu → J Jupiter Dec 0.0909 conj (48.60) — also: 5 Carn A Chlamain / Tom Marquand
+  - top rows: S Sedna → J Jupiter RA 0.3925 conj (54.52) — only
+  - star rows: S Deneb Algedi → J Jupiter Dec 35.5961 22×φ golden (96.06) — also: 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+- **Ceres**
+  - top rows: S Moon → J Ceres Dec 18.9948 19 whole (54.62) — only
+  - star rows: J Deneb Algedi → J Ceres RA 139.1708 86×φ golden (14.91) — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
 
 ## 4 Deluxe Music / Callum Rodriguez
 ### L1 same bodies
@@ -778,73 +1345,117 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - S Ketu → J Ketu Dec 18.7587 18.8889 ninth (loose)
 ### L2 what lands on each same body
 - **H Sun** (same body: S Sun → H Sun Dec 9.7032 6×φ golden (loose))
-  - star rows: H Fomalhaut → H Sun Dec 26.0014 26 whole (86.92) [Moon]
-  - other chart, star rows: J Castor → J Sun RA 72.0109 72 whole (20.67) [Moon]
+  - star rows: H Fomalhaut → H Sun Dec 26.0014 26 whole (86.92)
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - other chart, star rows: J Castor → J Sun RA 72.0109 72 whole (20.67)
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
 - **H Jupiter** (same body: S Jupiter → H Jupiter RA 141.5826 141.4 sqrt2 (loose))
-  - top rows: S Mercury → H Jupiter RA 100.3104 62×φ golden (58.18) [Jupiter]
-  - star rows: S Spica → H Jupiter RA 1.1016 conj (7.06) [Moon]
-  - other chart, top rows: S Ceres → J Jupiter Dec 36.0033 36 whole (69.83) [Jupiter]
-  - other chart, top rows: S Quaoar → J Jupiter Dec 0.0119 conj (92.25) [Jupiter, Sun]
-  - other chart, star rows: S Alkaid → J Jupiter Dec 64.7268 40×φ golden (69.02) [Sun]
-  - other chart, star rows: S Sadalsuud → J Jupiter RA 0.3409 conj (59.71) [Sun]
+  - top rows: S Mercury → H Jupiter RA 100.3104 62×φ golden (58.18)
+  - star rows: S Spica → H Jupiter RA 1.1016 conj (7.06)
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
+  - other chart, top rows: S Ceres → J Jupiter Dec 36.0033 36 whole (69.83)
+  - other chart, top rows: S Quaoar → J Jupiter Dec 0.0119 conj (92.25)
+    - source line: S Sun → Quaoar RA 50.1519 31×φ golden (60.58)
+  - other chart, star rows: S Alkaid → J Jupiter Dec 64.7268 40×φ golden (69.02)
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - other chart, star rows: S Sadalsuud → J Jupiter RA 0.3409 conj (59.71)
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
 - **J Uranus** (same body: S Uranus → J Uranus Dec 33.3795 33.3333 ninth (loose))
-  - star rows: J Alkaid → J Uranus Dec 67.9936 68 whole (46.04) [Sun]
-  - star rows: J Alphard → J Uranus Dec 10.0190 10 whole (0.25) [Jupiter]
-  - other chart, star rows: H Alkaid → H Uranus RA 174.0046 174 whole (59.61) [Sun]
-  - other chart, star rows: H Alphard → H Uranus RA 121.0063 121 whole (46.92) [Jupiter]
-  - other chart, star rows: H Sadalsuud → H Uranus RA 58.0101 58 whole (24.70) [Sun]
+  - star rows: J Alkaid → J Uranus Dec 67.9936 68 whole (46.04)
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: J Alphard → J Uranus Dec 10.0190 10 whole (0.25)
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - other chart, star rows: H Alkaid → H Uranus RA 174.0046 174 whole (59.61)
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - other chart, star rows: H Alphard → H Uranus RA 121.0063 121 whole (46.92)
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - other chart, star rows: H Sadalsuud → H Uranus RA 58.0101 58 whole (24.70)
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
 - **J Pluto** (same body: S Pluto → J Pluto Dec 14.1601 14.14 sqrt2 (loose))
-  - star rows: J Facies → J Pluto Dec 15.5558 15.5556 ninth (99.74) [Moon]
-  - other chart, top rows: S Moon → H Pluto RA 177.7684 177.778 ninth (99.26) [Moon]
+  - star rows: J Facies → J Pluto Dec 15.5558 15.5556 ninth (99.74)
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+  - other chart, top rows: S Moon → H Pluto RA 177.7684 177.778 ninth (99.26)
 - **J Juno** (same body: S Juno → J Juno RA 132.6862 82×φ golden (59.38))
-  - body line: S Jupiter → Juno RA 37.0056 37 whole (51.90)
-  - star rows: J Alkaid → J Juno RA 129.4307 80×φ golden (39.57) [Sun]
-  - star rows: J Sadalmelik → J Juno RA 106.0178 106 whole (1.19) [Sun]
-  - star rows: J Sadalmelik → J Juno Dec 14.0058 14 whole (50.24) [Sun]
-  - other chart, star rows: H Alkaid → H Juno RA 72.9855 73 whole (7.60) [Sun]
-  - other chart, star rows: H Facies → H Juno RA 0.7783 conj (23.15) [Moon]
-  - other chart, star rows: H Sadalsuud → H Juno RA 43.0090 43 whole (30.33) [Sun]
+  - sky line to Juno: S Jupiter → Juno RA 37.0056 37 whole (51.90)
+  - star rows: J Alkaid → J Juno RA 129.4307 80×φ golden (39.57)
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: J Sadalmelik → J Juno RA 106.0178 106 whole (1.19)
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - star rows: J Sadalmelik → J Juno Dec 14.0058 14 whole (50.24)
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - other chart, star rows: H Alkaid → H Juno RA 72.9855 73 whole (7.60)
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - other chart, star rows: H Facies → H Juno RA 0.7783 conj (23.15)
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+  - other chart, star rows: H Sadalsuud → H Juno RA 43.0090 43 whole (30.33)
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
 - **J Rahu** (same body: S Rahu → J Rahu Dec 18.7587 18.8889 ninth (loose))
-  - other chart, star rows: H Aculeus → H Rahu RA 109.9866 110 whole (10.85) [Sun]
-  - other chart, star rows: H Alphard → H Rahu Dec 19.0066 19 whole (45.20) [Jupiter]
-  - other chart, star rows: H Facies → H Rahu RA 124.0017 124 whole (83.41) [Moon]
-  - other chart, star rows: H Sadalmelik → H Rahu RA 176.3450 109×φ golden (12.99) [Sun]
+  - other chart, star rows: H Aculeus → H Rahu RA 109.9866 110 whole (10.85)
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - other chart, star rows: H Alphard → H Rahu Dec 19.0066 19 whole (45.20)
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - other chart, star rows: H Facies → H Rahu RA 124.0017 124 whole (83.41)
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+  - other chart, star rows: H Sadalmelik → H Rahu RA 176.3450 109×φ golden (12.99)
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
 - **J Eris** (same body: S Eris → J Eris Dec 5.9988 6 whole (88.68))
-  - star rows: J Galactic Centre → J Eris RA 117.0097 117 whole (26.31) [Moon]
-  - star rows: J Sadalmelik → J Eris RA 51.9867 52 whole (11.14) [Sun]
-  - other chart, top rows: S Moon → H Eris RA 87.0007 87 whole (92.81) [Moon]
-  - other chart, star rows: H Alphard → H Eris RA 116.4881 72×φ golden (46.29) [Jupiter]
-  - other chart, star rows: H Fomalhaut → H Eris RA 41.0048 41 whole (57.50) [Moon]
-  - other chart, star rows: H Galactic Centre → H Eris RA 118.9973 119 whole (74.96) [Moon]
+  - star rows: J Galactic Centre → J Eris RA 117.0097 117 whole (26.31)
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - star rows: J Sadalmelik → J Eris RA 51.9867 52 whole (11.14)
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - other chart, top rows: S Moon → H Eris RA 87.0007 87 whole (92.81)
+  - other chart, star rows: H Alphard → H Eris RA 116.4881 72×φ golden (46.29)
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - other chart, star rows: H Fomalhaut → H Eris RA 41.0048 41 whole (57.50)
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - other chart, star rows: H Galactic Centre → H Eris RA 118.9973 119 whole (74.96)
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
 - **J Sedna** (same body: S Sedna → J Sedna Dec 3.0169 3 whole (2.39))
-  - star rows: J Galactic Centre → J Sedna RA 139.0160 139 whole (3.98) [Moon]
-  - star rows: J Sadalmelik → J Sedna RA 73.9929 74 whole (41.87) [Sun]
-  - other chart, top rows: S Moon → H Sedna Dec 17.7723 17.7778 ninth (95.73) [Moon]
+  - star rows: J Galactic Centre → J Sedna RA 139.0160 139 whole (3.98)
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - star rows: J Sadalmelik → J Sedna RA 73.9929 74 whole (41.87)
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - other chart, top rows: S Moon → H Sedna Dec 17.7723 17.7778 ninth (95.73)
 - **J Haumea** (same body: S Haumea → J Haumea RA 24.0548 24.14 silver (loose); S Haumea → J Haumea Dec 6.9903 7 whole (26.77))
-  - top rows: S Sun → J Haumea RA 133.3830 133.333 ninth (94.04) [Sun]
+  - top rows: S Sun → J Haumea RA 133.3830 133.333 ninth (94.04)
 - **J Makemake** (same body: S Makemake → J Makemake Dec 11.3474 7×φ golden (loose))
-  - star rows: J Castor → J Makemake RA 62.0049 62 whole (57.07) [Moon]
-  - star rows: J Deneb Algedi → J Makemake Dec 49.9847 50 whole (5.42) [Sun]
-  - star rows: J Sadalsuud → J Makemake RA 147.2369 91×φ golden (75.73) [Sun]
-  - other chart, top rows: S Moon → H Makemake Dec 0.0554 conj (66.45) [Moon]
-  - other chart, star rows: H Alkaid → H Makemake RA 12.0182 12 whole (0.77) [Sun]
-  - other chart, star rows: H Sadalsuud → H Makemake RA 128.0127 128 whole (13.16) [Sun]
+  - star rows: J Castor → J Makemake RA 62.0049 62 whole (57.07)
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
+  - star rows: J Deneb Algedi → J Makemake Dec 49.9847 50 whole (5.42)
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - star rows: J Sadalsuud → J Makemake RA 147.2369 91×φ golden (75.73)
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+  - other chart, top rows: S Moon → H Makemake Dec 0.0554 conj (66.45)
+  - other chart, star rows: H Alkaid → H Makemake RA 12.0182 12 whole (0.77)
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - other chart, star rows: H Sadalsuud → H Makemake RA 128.0127 128 whole (13.16)
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
 - **J Orcus** (same body: S Orcus → J Orcus RA 22.2721 22.2222 ninth (loose))
-  - star rows: J Rasalhague → J Orcus Dec 12.0119 12 whole (16.22) [Sun]
-  - other chart, star rows: H Deneb Algedi → H Orcus RA 174.7442 108×φ golden (79.64) [Sun]
-  - other chart, star rows: H Fomalhaut → H Orcus Dec 19.9838 20 whole (3.54) [Moon]
-  - other chart, star rows: H Sadalmelik → H Orcus RA 179.4288 10×φ^6 phi power (96.93) [Sun]
+  - star rows: J Rasalhague → J Orcus Dec 12.0119 12 whole (16.22)
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - other chart, star rows: H Deneb Algedi → H Orcus RA 174.7442 108×φ golden (79.64)
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - other chart, star rows: H Fomalhaut → H Orcus Dec 19.9838 20 whole (3.54)
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - other chart, star rows: H Sadalmelik → H Orcus RA 179.4288 10×φ^6 phi power (96.93)
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
 - **J Quaoar** (same body: S Quaoar → J Quaoar Dec 1.0122 1 whole (15.26))
-  - body line: S Sun → Quaoar RA 50.1519 31×φ golden (60.58)
-  - T2: J Jupiter → J Quaoar Dec 1.0003 1 whole (96.79) [Jupiter]
-  - star rows: J Sadalsuud → J Quaoar RA 79.2867 49×φ golden (82.23) [Sun]
-  - other chart, star rows: H Aculeus → H Quaoar Dec 16.6604 16.6667 ninth (94.60) [Sun]
-  - other chart, star rows: H Sadalmelik → H Quaoar RA 60.9901 61 whole (25.54) [Sun]
-  - other chart, star rows: H Sadalsuud → H Quaoar Dec 10.0189 10 whole (0.30) [Sun]
+  - sky line to Quaoar: S Sun → Quaoar RA 50.1519 31×φ golden (60.58)
+  - T2: J Jupiter → J Quaoar Dec 1.0003 1 whole (96.79)
+  - star rows: J Sadalsuud → J Quaoar RA 79.2867 49×φ golden (82.23)
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+  - other chart, star rows: H Aculeus → H Quaoar Dec 16.6604 16.6667 ninth (94.60)
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - other chart, star rows: H Sadalmelik → H Quaoar RA 60.9901 61 whole (25.54)
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - other chart, star rows: H Sadalsuud → H Quaoar Dec 10.0189 10 whole (0.30)
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
 - **J Ketu** (same body: S Ketu → J Ketu Dec 18.7587 18.8889 ninth (loose))
-  - other chart, star rows: H Aculeus → H Ketu RA 70.0134 70 whole (10.85) [Sun]
-  - other chart, star rows: H Facies → H Ketu RA 55.9983 56 whole (83.41) [Moon]
-### L3 the seven cases (L5 field tag on each)
+  - other chart, star rows: H Aculeus → H Ketu RA 70.0134 70 whole (10.85)
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - other chart, star rows: H Facies → H Ketu RA 55.9983 56 whole (83.41)
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+### L3 matches
 - **1. same body on both charts**: none
 - **2. one body in both planes**
   - J Haumea — only
@@ -866,134 +1477,296 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 4 whole — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 7 Red Tornado / Jason Hart
     - J Sadalmelik → J Saturn Dec 3.9841 4 whole (4.23) = S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
 - **4. circle divisions**
-  - 6 = 360/60 — only
+  - 12 = 360/30 — also: 1 The Dancing Poet / Harry Russell, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+    - H Alkaid → H Makemake RA 12.0182 12 whole (0.77)
+  - 20 = 360/18 — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+    - H Castor → H Mars Dec 19.9831 20 whole (2.36)
+  - 60 = 360/6 — also: 7 Red Tornado / Jason Hart
+    - H Deneb Algedi → H Saturn RA 59.9807 60 whole (0.11)
+  - 20 = 360/18 — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+    - H Fomalhaut → H Orcus Dec 19.9838 20 whole (3.54)
+  - 10 = 360/36 — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+    - H Sadalsuud → H Quaoar Dec 10.0189 10 whole (0.30)
+  - 6 = 360/60 — also: 2 Flying Instructor / Dylan Hogan, 6 Flamingo Rose / Dougie Costello
     - S Eris → J Eris Dec 5.9988 6 whole (88.68)
-  - 3 = 360/120 — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+  - 3 = 360/120 — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
     - S Sedna → J Sedna Dec 3.0169 3 whole (2.39)
   - 1 = 360/360 — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
     - S Quaoar → J Quaoar Dec 1.0122 1 whole (15.26)
   - 1 = 360/360 — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
     - J Jupiter → J Quaoar Dec 1.0003 1 whole (96.79)
-  - 36 = 360/10 — only
+  - 36 = 360/10 — also: 1 The Dancing Poet / Harry Russell, 6 Flamingo Rose / Dougie Costello
     - S Ceres → J Jupiter Dec 36.0033 36 whole (69.83)
-  - 12 = 360/30 — only
+  - 10 = 360/36 — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+    - J Alphard → J Uranus Dec 10.0190 10 whole (0.25)
+  - 2 = 360/180 — also: 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+    - J Alphard → J Chiron Dec 1.9835 2 whole (3.11)
+  - 72 = 360/5 — also: 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand
+    - J Castor → J Sun RA 72.0109 72 whole (20.67)
+  - 12 = 360/30 — also: 1 The Dancing Poet / Harry Russell, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
     - J Deneb Algedi → J Ceres RA 11.9987 12 whole (87.31)
+  - 12 = 360/30 — also: 1 The Dancing Poet / Harry Russell, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+    - J Rasalhague → J Orcus Dec 12.0119 12 whole (16.22)
+  - 4 = 360/90 — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 7 Red Tornado / Jason Hart
+    - J Sadalmelik → J Saturn Dec 3.9841 4 whole (4.23)
+  - 18 = 360/20 — also: 1 The Dancing Poet / Harry Russell, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+    - J Spica → J Mars Dec 17.9839 18 whole (3.78)
 - **5. same number in more than one place**
+  - 12 whole — also: 5 Carn A Chlamain / Tom Marquand
+    - H Alkaid → H Makemake RA 12.0182 12 whole (0.77)
+    - J Deneb Algedi → J Ceres RA 11.9987 12 whole (87.31)
+    - J Rasalhague → J Orcus Dec 12.0119 12 whole (16.22)
+  - 19 whole — only
+    - H Alphard → H Rahu Dec 19.0066 19 whole (45.20)
+    - J Alphard → J Mercury Dec 18.9937 19 whole (46.95)
+    - J Facies → J Vesta Dec 18.9980 19 whole (80.97)
+  - 20 whole — only
+    - H Castor → H Mars Dec 19.9831 20 whole (2.36)
+    - H Fomalhaut → H Orcus Dec 19.9838 20 whole (3.54)
+  - 13 whole — also: 3 Chase The Dollar / Rossa Ryan
+    - H Deneb Algedi → H Pallas Dec 13.0086 13 whole (32.31)
+    - H Meissa → H Mercury Dec 12.9963 13 whole (66.33)
+  - 41 whole — also: 3 Chase The Dollar / Rossa Ryan
+    - H Fomalhaut → H Eris RA 41.0048 41 whole (57.50)
+    - H Galactic Centre → H Venus Dec 40.9931 41 whole (43.07)
   - 119 whole — only
     - H Galactic Centre → H Eris RA 118.9973 119 whole (74.96)
     - J Aculeus → J Transpluto RA 118.9966 119 whole (69.02)
+  - 43 whole — only
+    - H Sadalsuud → H Juno RA 43.0090 43 whole (30.33)
+    - S Moon → J Gonggong Dec 42.9970 43 whole (72.59)
+  - 10 whole — only
+    - H Sadalsuud → H Quaoar Dec 10.0189 10 whole (0.30)
+    - J Alphard → J Uranus Dec 10.0190 10 whole (0.25)
   - 18.8889 ninth — also: 3 Chase The Dollar / Rossa Ryan
     - S Rahu → J Rahu Dec 18.7587 18.8889 ninth (loose)
     - S Ketu → J Ketu Dec 18.7587 18.8889 ninth (loose)
   - 1 whole — also: 2 Flying Instructor / Dylan Hogan, 6 Flamingo Rose / Dougie Costello
     - S Quaoar → J Quaoar Dec 1.0122 1 whole (15.26)
     - J Jupiter → J Quaoar Dec 1.0003 1 whole (96.79)
-- **6. star and sky line on one body**: none
-- **7. centres meeting**
-  - Mars: Jupiter, Moon, Sun — only
-    - [Jupiter] H Alphard → H Mars RA 113.2536 70×φ golden (53.16)
-    - [Moon] S Moon → H Mars Dec 13.3365 13.3333 ninth (96.25)
-    - [Moon] H Castor → H Mars RA 85.0040 85 whole (63.93)
-    - [Moon] H Castor → H Mars Dec 19.9831 20 whole (2.36)
-    - [Moon] H Galactic Centre → H Mars RA 122.2318 122.222 ninth (98.67)
-    - [Moon] J Spica → J Mars Dec 17.9839 18 whole (3.78)
-    - [Sun] H Sadalmelik → H Mars Dec 12.2270 12.2222 ninth (93.36)
-  - Eris: Jupiter, Moon, Sun — also: 3 Chase The Dollar / Rossa Ryan
-    - [Jupiter] H Alphard → H Eris RA 116.4881 72×φ golden (46.29)
-    - [Moon] S Moon → H Eris RA 87.0007 87 whole (92.81)
-    - [Moon] H Fomalhaut → H Eris RA 41.0048 41 whole (57.50)
-    - [Moon] H Galactic Centre → H Eris RA 118.9973 119 whole (74.96)
-    - [Moon] J Galactic Centre → J Eris RA 117.0097 117 whole (26.31)
-    - [Sun] J Sadalmelik → J Eris RA 51.9867 52 whole (11.14)
-  - Sedna: Moon, Sun — also: 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand
-    - [Moon] S Moon → H Sedna Dec 17.7723 17.7778 ninth (95.73)
-    - [Moon] J Galactic Centre → J Sedna RA 139.0160 139 whole (3.98)
-    - [Sun] J Sadalmelik → J Sedna RA 73.9929 74 whole (41.87)
-  - Makemake: Moon, Sun — also: 1 The Dancing Poet / Harry Russell
-    - [Moon] S Moon → H Makemake Dec 0.0554 conj (66.45)
-    - [Moon] J Castor → J Makemake RA 62.0049 62 whole (57.07)
-    - [Sun] H Alkaid → H Makemake RA 12.0182 12 whole (0.77)
-    - [Sun] H Sadalsuud → H Makemake RA 128.0127 128 whole (13.16)
-    - [Sun] J Deneb Algedi → J Makemake Dec 49.9847 50 whole (5.42)
-    - [Sun] J Sadalsuud → J Makemake RA 147.2369 91×φ golden (75.73)
-  - Jupiter: Jupiter, Moon, Sun — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
-    - [Jupiter] S Mercury → H Jupiter RA 100.3104 62×φ golden (58.18)
-    - [Jupiter] S Ceres → J Jupiter Dec 36.0033 36 whole (69.83)
-    - [Jupiter] S Quaoar → J Jupiter Dec 0.0119 conj (92.25)
-    - [Moon] S Spica → H Jupiter RA 1.1016 conj (7.06)
-    - [Sun] S Quaoar → J Jupiter Dec 0.0119 conj (92.25)
-    - [Sun] S Alkaid → J Jupiter Dec 64.7268 40×φ golden (69.02)
-    - [Sun] S Sadalsuud → J Jupiter RA 0.3409 conj (59.71)
-  - Rahu: Jupiter, Moon, Sun — also: 5 Carn A Chlamain / Tom Marquand
-    - [Jupiter] H Alphard → H Rahu Dec 19.0066 19 whole (45.20)
-    - [Moon] H Facies → H Rahu RA 124.0017 124 whole (83.41)
-    - [Sun] H Aculeus → H Rahu RA 109.9866 110 whole (10.85)
-    - [Sun] H Sadalmelik → H Rahu RA 176.3450 109×φ golden (12.99)
-  - Quaoar: Jupiter, Sun — also: 7 Red Tornado / Jason Hart
-    - [Jupiter] J Jupiter → J Quaoar Dec 1.0003 1 whole (96.79)
-    - [Sun] H Aculeus → H Quaoar Dec 16.6604 16.6667 ninth (94.60)
-    - [Sun] H Sadalmelik → H Quaoar RA 60.9901 61 whole (25.54)
-    - [Sun] H Sadalsuud → H Quaoar Dec 10.0189 10 whole (0.30)
-    - [Sun] S Quaoar → J Quaoar Dec 1.0122 1 whole (15.26)
-    - [Sun] J Sadalsuud → J Quaoar RA 79.2867 49×φ golden (82.23)
-  - Ketu: Moon, Sun — also: 2 Flying Instructor / Dylan Hogan
-    - [Moon] H Facies → H Ketu RA 55.9983 56 whole (83.41)
-    - [Sun] H Aculeus → H Ketu RA 70.0134 70 whole (10.85)
-  - Uranus: Jupiter, Sun — only
-    - [Jupiter] H Alphard → H Uranus RA 121.0063 121 whole (46.92)
-    - [Jupiter] J Alphard → J Uranus Dec 10.0190 10 whole (0.25)
-    - [Sun] H Alkaid → H Uranus RA 174.0046 174 whole (59.61)
-    - [Sun] H Sadalsuud → H Uranus RA 58.0101 58 whole (24.70)
-    - [Sun] J Alkaid → J Uranus Dec 67.9936 68 whole (46.04)
-  - Juno: Jupiter, Moon, Sun — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
-    - [Jupiter] S Juno → J Juno RA 132.6862 82×φ golden (59.38)
-    - [Moon] H Facies → H Juno RA 0.7783 conj (23.15)
-    - [Sun] H Alkaid → H Juno RA 72.9855 73 whole (7.60)
-    - [Sun] H Sadalsuud → H Juno RA 43.0090 43 whole (30.33)
-    - [Sun] J Alkaid → J Juno RA 129.4307 80×φ golden (39.57)
-    - [Sun] J Sadalmelik → J Juno RA 106.0178 106 whole (1.19)
-    - [Sun] J Sadalmelik → J Juno Dec 14.0058 14 whole (50.24)
-  - Pallas: Moon, Sun — also: 3 Chase The Dollar / Rossa Ryan, 7 Red Tornado / Jason Hart
-    - [Moon] H Castor → H Pallas RA 119.7142 74×φ golden (13.75)
-    - [Moon] H Castor → H Pallas Dec 35.0096 35 whole (26.86)
-    - [Moon] H Galactic Centre → H Pallas Dec 25.8856 16×φ golden (82.78)
-    - [Moon] J Fomalhaut → J Pallas Dec 45.9959 46 whole (63.28)
-    - [Sun] H Deneb Algedi → H Pallas Dec 13.0086 13 whole (32.31)
-  - Saturn: Jupiter, Moon, Sun — also: 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
-    - [Jupiter] H Meissa → H Saturn RA 177.0091 177 whole (29.61)
-    - [Moon] H Galactic Centre → H Saturn RA 0.3598 conj (57.78)
-    - [Sun] H Deneb Algedi → H Saturn RA 59.9807 60 whole (0.11)
-    - [Sun] J Sadalmelik → J Saturn Dec 3.9841 4 whole (4.23)
-  - Orcus: Moon, Sun — also: 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
-    - [Moon] H Fomalhaut → H Orcus Dec 19.9838 20 whole (3.54)
-    - [Sun] H Deneb Algedi → H Orcus RA 174.7442 108×φ golden (79.64)
-    - [Sun] H Sadalmelik → H Orcus RA 179.4288 10×φ^6 phi power (96.93)
-    - [Sun] J Rasalhague → J Orcus Dec 12.0119 12 whole (16.22)
-  - Neptune: Jupiter, Moon, Sun — also: 1 The Dancing Poet / Harry Russell, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
-    - [Jupiter] J Alphard → J Neptune RA 160.1825 99×φ golden (83.01)
-    - [Moon] H Facies → H Neptune Dec 15.9908 16 whole (29.40)
-    - [Moon] H Fomalhaut → H Neptune RA 0.8443 conj (19.11)
-    - [Sun] J Aculeus → J Neptune RA 36.9917 37 whole (34.20)
-    - [Sun] J Sadalmelik → J Neptune Dec 19.4186 12×φ golden (87.04)
-  - Venus: Moon, Sun — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 6 Flamingo Rose / Dougie Costello
-    - [Moon] H Galactic Centre → H Venus Dec 40.9931 41 whole (43.07)
-    - [Sun] H Rasalhague → H Venus RA 104.0011 104 whole (88.88)
-  - Mercury: Jupiter, Sun — also: 1 The Dancing Poet / Harry Russell, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
-    - [Jupiter] H Meissa → H Mercury Dec 12.9963 13 whole (66.33)
-    - [Jupiter] J Alphard → J Mercury Dec 18.9937 19 whole (46.95)
-    - [Sun] H Rasalhague → H Mercury RA 92.2216 57×φ golden (64.68)
-    - [Sun] J Alkaid → J Mercury Dec 38.9809 39 whole (0.19)
-  - Transpluto: Moon, Sun — also: 3 Chase The Dollar / Rossa Ryan
-    - [Moon] J Facies → J Transpluto RA 133.0116 133 whole (17.53)
-    - [Sun] H Sadalsuud → H Transpluto RA 169.8953 105×φ golden (89.68)
-    - [Sun] J Aculeus → J Transpluto RA 118.9966 119 whole (69.02)
-  - Gonggong: Moon, Sun — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan
-    - [Moon] S Moon → J Gonggong Dec 42.9970 43 whole (72.59)
-    - [Sun] J Sadalmelik → J Gonggong RA 0.4808 conj (46.16)
-  - Chiron: Jupiter, Sun — also: 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
-    - [Jupiter] J Alphard → J Chiron Dec 1.9835 2 whole (3.11)
-    - [Jupiter] J Meissa → J Chiron RA 122.0154 122 whole (5.20)
-    - [Sun] J Alkaid → J Chiron RA 1.0974 conj (7.20)
+### L4 every natal body
+- **Sun**
+  - same body: S Sun → H Sun Dec 9.7032 6×φ golden (loose) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+  - star rows: H Fomalhaut → H Sun Dec 26.0014 26 whole (86.92) — also: 6 Flamingo Rose / Dougie Costello
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: J Castor → J Sun RA 72.0109 72 whole (20.67) — only
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
+- **Jupiter**
+  - same body: S Jupiter → H Jupiter RA 141.5826 141.4 sqrt2 (loose) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand
+  - top rows: S Mercury → H Jupiter RA 100.3104 62×φ golden (58.18) — only
+  - star rows: S Spica → H Jupiter RA 1.1016 conj (7.06) — also: 2 Flying Instructor / Dylan Hogan
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
+  - T2: J Jupiter → J star Sadalsuud RA 0.3456 conj (59.23) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+  - top rows: S Ceres → J Jupiter Dec 36.0033 36 whole (69.83) — also: 3 Chase The Dollar / Rossa Ryan
+  - top rows: S Quaoar → J Jupiter Dec 0.0119 conj (92.25) — also: 7 Red Tornado / Jason Hart
+    - source line: S Sun → Quaoar RA 50.1519 31×φ golden (60.58)
+  - star rows: S Alkaid → J Jupiter Dec 64.7268 40×φ golden (69.02) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: S Sadalsuud → J Jupiter RA 0.3409 conj (59.71) — also: 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+- **Mars**
+  - top rows: S Moon → H Mars Dec 13.3365 13.3333 ninth (96.25) — only
+  - star rows: H Alphard → H Mars RA 113.2536 70×φ golden (53.16) — only
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: H Castor → H Mars RA 85.0040 85 whole (63.93) — also: 6 Flamingo Rose / Dougie Costello
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
+  - star rows: H Castor → H Mars Dec 19.9831 20 whole (2.36) — also: 6 Flamingo Rose / Dougie Costello
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
+  - star rows: H Galactic Centre → H Mars RA 122.2318 122.222 ninth (98.67) — only
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - star rows: H Sadalmelik → H Mars Dec 12.2270 12.2222 ninth (93.36) — also: 1 The Dancing Poet / Harry Russell
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - star rows: J Spica → J Mars Dec 17.9839 18 whole (3.78) — also: 3 Chase The Dollar / Rossa Ryan
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
+- **Pluto**
+  - top rows: S Moon → H Pluto RA 177.7684 177.778 ninth (99.26) — only
+  - same body: S Pluto → J Pluto Dec 14.1601 14.14 sqrt2 (loose) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+  - star rows: J Facies → J Pluto Dec 15.5558 15.5556 ninth (99.74) — also: 7 Red Tornado / Jason Hart
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+- **Vesta**
+  - top rows: S Moon → H Vesta RA 0.1230 conj (84.28) — also: 1 The Dancing Poet / Harry Russell
+  - star rows: H Castor → H Vesta RA 1.3607 conj (0.86) — also: 5 Carn A Chlamain / Tom Marquand
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
+  - star rows: H Spica → H Vesta RA 89.0114 89 whole (18.40) — only
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
+  - star rows: J Castor → J Vesta RA 113.0030 113 whole (72.06) — also: 5 Carn A Chlamain / Tom Marquand
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
+  - star rows: J Facies → J Vesta Dec 18.9980 19 whole (80.97) — only
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+- **Eris**
+  - top rows: S Moon → H Eris RA 87.0007 87 whole (92.81) — only
+  - star rows: H Alphard → H Eris RA 116.4881 72×φ golden (46.29) — also: 2 Flying Instructor / Dylan Hogan
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: H Fomalhaut → H Eris RA 41.0048 41 whole (57.50) — only
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: H Galactic Centre → H Eris RA 118.9973 119 whole (74.96) — only
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - same body: S Eris → J Eris Dec 5.9988 6 whole (88.68) — also: 1 The Dancing Poet / Harry Russell, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+  - star rows: J Galactic Centre → J Eris RA 117.0097 117 whole (26.31) — only
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - star rows: J Sadalmelik → J Eris RA 51.9867 52 whole (11.14) — also: 5 Carn A Chlamain / Tom Marquand
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+- **Sedna**
+  - top rows: S Moon → H Sedna Dec 17.7723 17.7778 ninth (95.73) — also: 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+  - same body: S Sedna → J Sedna Dec 3.0169 3 whole (2.39) — also: 5 Carn A Chlamain / Tom Marquand
+  - star rows: J Galactic Centre → J Sedna RA 139.0160 139 whole (3.98) — also: 1 The Dancing Poet / Harry Russell, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - star rows: J Sadalmelik → J Sedna RA 73.9929 74 whole (41.87) — also: 3 Chase The Dollar / Rossa Ryan
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+- **Makemake**
+  - top rows: S Moon → H Makemake Dec 0.0554 conj (66.45) — also: 1 The Dancing Poet / Harry Russell, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+  - star rows: H Alkaid → H Makemake RA 12.0182 12 whole (0.77) — also: 2 Flying Instructor / Dylan Hogan
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: H Sadalsuud → H Makemake RA 128.0127 128 whole (13.16) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+  - same body: S Makemake → J Makemake Dec 11.3474 7×φ golden (loose) — also: 5 Carn A Chlamain / Tom Marquand
+  - star rows: J Castor → J Makemake RA 62.0049 62 whole (57.07) — only
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
+  - star rows: J Deneb Algedi → J Makemake Dec 49.9847 50 whole (5.42) — also: 3 Chase The Dollar / Rossa Ryan
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - star rows: J Sadalsuud → J Makemake RA 147.2369 91×φ golden (75.73) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+- **Rahu**
+  - star rows: H Aculeus → H Rahu RA 109.9866 110 whole (10.85) — also: 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: H Alphard → H Rahu Dec 19.0066 19 whole (45.20) — only
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: H Facies → H Rahu RA 124.0017 124 whole (83.41) — only
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+  - star rows: H Sadalmelik → H Rahu RA 176.3450 109×φ golden (12.99) — also: 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - same body: S Rahu → J Rahu Dec 18.7587 18.8889 ninth (loose) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+- **Quaoar**
+  - star rows: H Aculeus → H Quaoar Dec 16.6604 16.6667 ninth (94.60) — also: 7 Red Tornado / Jason Hart
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: H Sadalmelik → H Quaoar RA 60.9901 61 whole (25.54) — also: 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - star rows: H Sadalsuud → H Quaoar Dec 10.0189 10 whole (0.30) — also: 3 Chase The Dollar / Rossa Ryan
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+  - same body: S Quaoar → J Quaoar Dec 1.0122 1 whole (15.26) — also: 3 Chase The Dollar / Rossa Ryan, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Quaoar RA 50.1519 31×φ golden (60.58)
+  - T2: J Jupiter → J Quaoar Dec 1.0003 1 whole (96.79) — only
+  - star rows: J Sadalsuud → J Quaoar RA 79.2867 49×φ golden (82.23) — also: 3 Chase The Dollar / Rossa Ryan
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+- **Ketu**
+  - star rows: H Aculeus → H Ketu RA 70.0134 70 whole (10.85) — only
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: H Facies → H Ketu RA 55.9983 56 whole (83.41) — also: 3 Chase The Dollar / Rossa Ryan
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+  - same body: S Ketu → J Ketu Dec 18.7587 18.8889 ninth (loose) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+- **Uranus**
+  - star rows: H Alkaid → H Uranus RA 174.0046 174 whole (59.61) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: H Alphard → H Uranus RA 121.0063 121 whole (46.92) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: H Sadalsuud → H Uranus RA 58.0101 58 whole (24.70) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+  - same body: S Uranus → J Uranus Dec 33.3795 33.3333 ninth (loose) — also: 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand
+  - star rows: J Alkaid → J Uranus Dec 67.9936 68 whole (46.04) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: J Alphard → J Uranus Dec 10.0190 10 whole (0.25) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+- **Juno**
+  - star rows: H Alkaid → H Juno RA 72.9855 73 whole (7.60) — only
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: H Facies → H Juno RA 0.7783 conj (23.15) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 7 Red Tornado / Jason Hart
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+  - star rows: H Sadalsuud → H Juno RA 43.0090 43 whole (30.33) — also: 3 Chase The Dollar / Rossa Ryan, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+  - same body: S Juno → J Juno RA 132.6862 82×φ golden (59.38) — also: 3 Chase The Dollar / Rossa Ryan, 6 Flamingo Rose / Dougie Costello
+    - source line: S Jupiter → Juno RA 37.0056 37 whole (51.90)
+  - star rows: J Alkaid → J Juno RA 129.4307 80×φ golden (39.57) — only
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: J Sadalmelik → J Juno RA 106.0178 106 whole (1.19) — also: 5 Carn A Chlamain / Tom Marquand
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - star rows: J Sadalmelik → J Juno Dec 14.0058 14 whole (50.24) — also: 5 Carn A Chlamain / Tom Marquand
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+- **Pallas**
+  - star rows: H Castor → H Pallas RA 119.7142 74×φ golden (13.75) — also: 3 Chase The Dollar / Rossa Ryan, 6 Flamingo Rose / Dougie Costello
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
+  - star rows: H Castor → H Pallas Dec 35.0096 35 whole (26.86) — also: 3 Chase The Dollar / Rossa Ryan, 6 Flamingo Rose / Dougie Costello
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
+  - star rows: H Deneb Algedi → H Pallas Dec 13.0086 13 whole (32.31) — also: 5 Carn A Chlamain / Tom Marquand
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - star rows: H Galactic Centre → H Pallas Dec 25.8856 16×φ golden (82.78) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 7 Red Tornado / Jason Hart
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - star rows: J Fomalhaut → J Pallas Dec 45.9959 46 whole (63.28) — also: 2 Flying Instructor / Dylan Hogan, 7 Red Tornado / Jason Hart
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+- **Saturn**
+  - star rows: H Deneb Algedi → H Saturn RA 59.9807 60 whole (0.11) — only
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - star rows: H Galactic Centre → H Saturn RA 0.3598 conj (57.78) — also: 1 The Dancing Poet / Harry Russell, 6 Flamingo Rose / Dougie Costello
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - star rows: H Meissa → H Saturn RA 177.0091 177 whole (29.61) — also: 6 Flamingo Rose / Dougie Costello
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+  - star rows: J Sadalmelik → J Saturn Dec 3.9841 4 whole (4.23) — also: 2 Flying Instructor / Dylan Hogan
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+- **Orcus**
+  - star rows: H Deneb Algedi → H Orcus RA 174.7442 108×φ golden (79.64) — also: 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - star rows: H Fomalhaut → H Orcus Dec 19.9838 20 whole (3.54) — also: 7 Red Tornado / Jason Hart
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: H Sadalmelik → H Orcus RA 179.4288 10×φ^6 phi power (96.93) — also: 1 The Dancing Poet / Harry Russell, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - same body: S Orcus → J Orcus RA 22.2721 22.2222 ninth (loose) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+  - star rows: J Rasalhague → J Orcus Dec 12.0119 12 whole (16.22) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+- **Neptune**
+  - star rows: H Facies → H Neptune Dec 15.9908 16 whole (29.40) — also: 1 The Dancing Poet / Harry Russell
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+  - star rows: H Fomalhaut → H Neptune RA 0.8443 conj (19.11) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: J Aculeus → J Neptune RA 36.9917 37 whole (34.20) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: J Alphard → J Neptune RA 160.1825 99×φ golden (83.01) — also: 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: J Sadalmelik → J Neptune Dec 19.4186 12×φ golden (87.04) — only
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+- **Venus**
+  - star rows: H Galactic Centre → H Venus Dec 40.9931 41 whole (43.07) — also: 3 Chase The Dollar / Rossa Ryan, 7 Red Tornado / Jason Hart
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - star rows: H Rasalhague → H Venus RA 104.0011 104 whole (88.88) — also: 1 The Dancing Poet / Harry Russell, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+- **Mercury**
+  - star rows: H Meissa → H Mercury Dec 12.9963 13 whole (66.33) — also: 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+  - star rows: H Rasalhague → H Mercury RA 92.2216 57×φ golden (64.68) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - star rows: J Alkaid → J Mercury Dec 38.9809 39 whole (0.19) — also: 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: J Alphard → J Mercury Dec 18.9937 19 whole (46.95) — also: 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+- **Transpluto**
+  - star rows: H Sadalsuud → H Transpluto RA 169.8953 105×φ golden (89.68) — also: 5 Carn A Chlamain / Tom Marquand
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+  - star rows: J Aculeus → J Transpluto RA 118.9966 119 whole (69.02) — only
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: J Facies → J Transpluto RA 133.0116 133 whole (17.53) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 6 Flamingo Rose / Dougie Costello
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+- **Haumea**
+  - same body: S Haumea → J Haumea RA 24.0548 24.14 silver (loose) — also: 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+  - same body: S Haumea → J Haumea Dec 6.9903 7 whole (26.77) — also: 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+  - top rows: S Sun → J Haumea RA 133.3830 133.333 ninth (94.04) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan
+- **Gonggong**
+  - top rows: S Moon → J Gonggong Dec 42.9970 43 whole (72.59) — only
+  - star rows: J Sadalmelik → J Gonggong RA 0.4808 conj (46.16) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+- **Ceres**
+  - star rows: J Aculeus → J Ceres Dec 14.5647 9×φ golden (85.80) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: J Alkaid → J Ceres Dec 67.0017 67 whole (83.33) — only
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: J Deneb Algedi → J Ceres RA 11.9987 12 whole (87.31) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - star rows: J Rasalhague → J Ceres RA 75.0198 75 whole (0.02) — also: 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+- **Chiron**
+  - star rows: J Alkaid → J Chiron RA 1.0974 conj (7.20) — also: 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: J Alphard → J Chiron Dec 1.9835 2 whole (3.11) — also: 7 Red Tornado / Jason Hart
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: J Meissa → J Chiron RA 122.0154 122 whole (5.20) — also: 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
 
 ## 5 Carn A Chlamain / Tom Marquand
 ### L1 same bodies
@@ -1020,108 +1793,168 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - S Ketu → J Ketu RA 106.7701 66×φ golden (14.16)
 ### L2 what lands on each same body
 - **H Jupiter** (same body: S Jupiter → H Jupiter Dec 7.7736 7.77778 ninth (loose))
-  - top rows: S Venus → H Jupiter Dec 0.2422 conj (3.72) [Jupiter, Moon]
-  - top rows: S Saturn → H Jupiter Dec 0.1121 conj (39.22) [Jupiter, Moon]
-  - top rows: S Rahu → H Jupiter RA 173.0021 173 whole (80.02) [Jupiter]
-  - top rows: S Ketu → H Jupiter RA 6.9979 7 whole (80.02) [Jupiter]
-  - other chart, top rows: S Pallas → J Jupiter RA 18.8875 18.8889 ninth (99.02) [Jupiter]
-  - other chart, star rows: S Fomalhaut → J Jupiter RA 0.1626 conj (79.49) [Moon]
-  - other chart, star rows: S Sadalsuud → J Jupiter Dec 2.0182 2 whole (0.77) [Sun]
+  - top rows: S Venus → H Jupiter Dec 0.2422 conj (3.72)
+    - source line: S Moon → Venus RA 173.1408 107×φ golden (42.72)
+  - top rows: S Saturn → H Jupiter Dec 0.1121 conj (39.22)
+    - source line: S Moon → Saturn RA 152.9975 153 whole (76.77)
+  - top rows: S Rahu → H Jupiter RA 173.0021 173 whole (80.02)
+  - top rows: S Ketu → H Jupiter RA 6.9979 7 whole (80.02)
+  - other chart, top rows: S Pallas → J Jupiter RA 18.8875 18.8889 ninth (99.02)
+  - other chart, star rows: S Fomalhaut → J Jupiter RA 0.1626 conj (79.49)
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - other chart, star rows: S Sadalsuud → J Jupiter Dec 2.0182 2 whole (0.77)
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
 - **H Neptune** (same body: S Neptune → H Neptune Dec 2.2278 2.22222 ninth (loose))
-  - body line: S Moon → Neptune RA 119.7408 74×φ golden (65.12)
-  - star rows: H Alkaid → H Neptune RA 140.0120 140 whole (16.01) [Sun]
-  - star rows: H Alphard → H Neptune RA 154.9942 155 whole (50.34) [Jupiter]
-  - star rows: H Fomalhaut → H Neptune Dec 23.0113 23 whole (18.83) [Moon]
-  - star rows: H Sadalsuud → H Neptune RA 24.0161 24 whole (3.76) [Sun]
-  - star rows: H Spica → H Neptune RA 145.6010 90×φ golden (10.05) [Moon]
+  - sky line to Neptune: S Moon → Neptune RA 119.7408 74×φ golden (65.12)
+  - star rows: H Alkaid → H Neptune RA 140.0120 140 whole (16.01)
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: H Alphard → H Neptune RA 154.9942 155 whole (50.34)
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: H Fomalhaut → H Neptune Dec 23.0113 23 whole (18.83)
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: H Sadalsuud → H Neptune RA 24.0161 24 whole (3.76)
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+  - star rows: H Spica → H Neptune RA 145.6010 90×φ golden (10.05)
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
   - other chart, same body: S Neptune → J Neptune Dec 15.0180 15 whole (1.05)
 - **H Pluto** (same body: S Pluto → H Pluto Dec 1.0047 1 whole (58.15))
-  - star rows: H Castor → H Pluto Dec 53.3927 33×φ golden (85.35) [Moon]
+  - star rows: H Castor → H Pluto Dec 53.3927 33×φ golden (85.35)
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
   - other chart, same body: S Pluto → J Pluto Dec 13.0274 13 whole (loose)
-  - other chart, star rows: J Meissa → J Pluto Dec 19.4141 12×φ golden (86.39) [Jupiter]
+  - other chart, star rows: J Meissa → J Pluto Dec 19.4141 12×φ golden (86.39)
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
 - **H Sedna** (same body: S Sedna → H Sedna RA 1.8778 1.88889 ninth (loose))
-  - top rows: S Moon → H Sedna RA 55.9958 56 whole (62.41) [Moon]
-  - star rows: H Aculeus → H Sedna Dec 40.0140 40 whole (8.99) [Sun]
-  - star rows: H Alkaid → H Sedna RA 150.4739 93×φ golden (81.03) [Sun]
-  - star rows: H Fomalhaut → H Sedna RA 72.0076 72 whole (38.60) [Moon]
-  - star rows: H Galactic Centre → H Sedna RA 149.9978 150 whole (79.48) [Moon]
-  - star rows: H Sadalsuud → H Sedna Dec 13.3338 13.3333 ninth (99.38) [Sun]
+  - top rows: S Moon → H Sedna RA 55.9958 56 whole (62.41)
+  - star rows: H Aculeus → H Sedna Dec 40.0140 40 whole (8.99)
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: H Alkaid → H Sedna RA 150.4739 93×φ golden (81.03)
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: H Fomalhaut → H Sedna RA 72.0076 72 whole (38.60)
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: H Galactic Centre → H Sedna RA 149.9978 150 whole (79.48)
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - star rows: H Sadalsuud → H Sedna Dec 13.3338 13.3333 ninth (99.38)
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
   - other chart, same body: S Sedna → J Sedna Dec 3.0246 3 whole (loose)
-  - other chart, star rows: J Galactic Centre → J Sedna RA 139.1335 86×φ golden (21.41) [Moon]
+  - other chart, star rows: J Galactic Centre → J Sedna RA 139.1335 86×φ golden (21.41)
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
 - **H Haumea** (same body: S Haumea → H Haumea RA 4.4416 4.44444 ninth (loose))
-  - top rows: S Jupiter → H Haumea Dec 25.8898 16×φ golden (92.35) [Jupiter]
-  - star rows: H Facies → H Haumea RA 65.9896 66 whole (22.89) [Moon]
-  - other chart, star rows: J Meissa → J Haumea Dec 11.9855 12 whole (7.66) [Jupiter]
+  - top rows: S Jupiter → H Haumea Dec 25.8898 16×φ golden (92.35)
+  - star rows: H Facies → H Haumea RA 65.9896 66 whole (22.89)
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+  - other chart, star rows: J Meissa → J Haumea Dec 11.9855 12 whole (7.66)
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
 - **H Orcus** (same body: S Orcus → H Orcus RA 4.4462 4.44444 ninth (loose))
-  - top rows: S Moon → H Orcus Dec 34.9949 35 whole (55.28) [Moon]
-  - other chart, top rows: S Jupiter → J Orcus RA 153.7201 95×φ golden (61.87) [Jupiter]
-  - other chart, star rows: J Sadalmelik → J Orcus Dec 0.1541 conj (23.66) [Sun]
-  - other chart, star rows: J Spica → J Orcus Dec 10.9953 11 whole (58.58) [Moon]
+  - top rows: S Moon → H Orcus Dec 34.9949 35 whole (55.28)
+  - other chart, top rows: S Jupiter → J Orcus RA 153.7201 95×φ golden (61.87)
+  - other chart, star rows: J Sadalmelik → J Orcus Dec 0.1541 conj (23.66)
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - other chart, star rows: J Spica → J Orcus Dec 10.9953 11 whole (58.58)
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
 - **H Transpluto** (same body: S Transpluto → H Transpluto RA 1.7776 1.77778 ninth (98.59))
   - other chart, same body: S Transpluto → J Transpluto Dec 2.9826 3 whole (1.70)
-  - other chart, star rows: J Sadalsuud → J Transpluto Dec 19.0083 19 whole (34.02) [Sun]
+  - other chart, star rows: J Sadalsuud → J Transpluto Dec 19.0083 19 whole (34.02)
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
 - **J Mercury** (same body: S Mercury → J Mercury RA 77.6868 77.7778 ninth (loose))
-  - star rows: J Alphard → J Mercury Dec 20.0089 20 whole (30.70) [Jupiter]
-  - star rows: J Meissa → J Mercury Dec 1.4147 1.414 sqrt2 (96.12) [Jupiter]
+  - star rows: J Alphard → J Mercury Dec 20.0089 20 whole (30.70)
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: J Meissa → J Mercury Dec 1.4147 1.414 sqrt2 (96.12)
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
 - **J Saturn** (same body: S Saturn → J Saturn Dec 22.9885 23 whole (17.94))
-  - body line: S Moon → Saturn RA 152.9975 153 whole (76.77)
-  - star rows: J Alphard → J Saturn Dec 14.9967 15 whole (69.40) [Jupiter]
-  - other chart, star rows: H Aculeus → H Saturn Dec 9.9975 10 whole (76.16) [Sun]
-  - other chart, star rows: H Facies → H Saturn RA 0.4972 conj (44.70) [Moon]
-  - other chart, star rows: H Spica → H Saturn Dec 11.0918 φ^5 phi power (94.30) [Moon]
+  - sky line to Saturn: S Moon → Saturn RA 152.9975 153 whole (76.77)
+  - star rows: J Alphard → J Saturn Dec 14.9967 15 whole (69.40)
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - other chart, star rows: H Aculeus → H Saturn Dec 9.9975 10 whole (76.16)
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - other chart, star rows: H Facies → H Saturn RA 0.4972 conj (44.70)
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+  - other chart, star rows: H Spica → H Saturn Dec 11.0918 φ^5 phi power (94.30)
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
 - **J Uranus** (same body: S Uranus → J Uranus RA 84.0272 84 whole (loose))
-  - other chart, star rows: H Castor → H Uranus RA 87.0052 87 whole (54.99) [Moon]
-  - other chart, star rows: H Rasalhague → H Uranus RA 122.9044 φ^10 phi power (73.56) [Sun]
-  - other chart, star rows: H Sadalsuud → H Uranus Dec 16.0115 16 whole (18.18) [Sun]
+  - other chart, star rows: H Castor → H Uranus RA 87.0052 87 whole (54.99)
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
+  - other chart, star rows: H Rasalhague → H Uranus RA 122.9044 φ^10 phi power (73.56)
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - other chart, star rows: H Sadalsuud → H Uranus Dec 16.0115 16 whole (18.18)
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
 - **J Neptune** (same body: S Neptune → J Neptune Dec 15.0180 15 whole (1.05))
-  - body line: S Moon → Neptune RA 119.7408 74×φ golden (65.12)
+  - sky line to Neptune: S Moon → Neptune RA 119.7408 74×φ golden (65.12)
   - other chart, same body: S Neptune → H Neptune Dec 2.2278 2.22222 ninth (loose)
-  - other chart, star rows: H Alkaid → H Neptune RA 140.0120 140 whole (16.01) [Sun]
-  - other chart, star rows: H Alphard → H Neptune RA 154.9942 155 whole (50.34) [Jupiter]
-  - other chart, star rows: H Fomalhaut → H Neptune Dec 23.0113 23 whole (18.83) [Moon]
-  - other chart, star rows: H Sadalsuud → H Neptune RA 24.0161 24 whole (3.76) [Sun]
-  - other chart, star rows: H Spica → H Neptune RA 145.6010 90×φ golden (10.05) [Moon]
+  - other chart, star rows: H Alkaid → H Neptune RA 140.0120 140 whole (16.01)
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - other chart, star rows: H Alphard → H Neptune RA 154.9942 155 whole (50.34)
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - other chart, star rows: H Fomalhaut → H Neptune Dec 23.0113 23 whole (18.83)
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - other chart, star rows: H Sadalsuud → H Neptune RA 24.0161 24 whole (3.76)
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+  - other chart, star rows: H Spica → H Neptune RA 145.6010 90×φ golden (10.05)
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
 - **J Pluto** (same body: S Pluto → J Pluto Dec 13.0274 13 whole (loose))
-  - star rows: J Meissa → J Pluto Dec 19.4141 12×φ golden (86.39) [Jupiter]
+  - star rows: J Meissa → J Pluto Dec 19.4141 12×φ golden (86.39)
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
   - other chart, same body: S Pluto → H Pluto Dec 1.0047 1 whole (58.15)
-  - other chart, star rows: H Castor → H Pluto Dec 53.3927 33×φ golden (85.35) [Moon]
+  - other chart, star rows: H Castor → H Pluto Dec 53.3927 33×φ golden (85.35)
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
 - **J Chiron** (same body: S Chiron → J Chiron RA 141.7147 141.4 sqrt2 (loose); S Chiron → J Chiron Dec 20.9825 21 whole (1.52))
 - **J Pallas** (same body: S Pallas → J Pallas Dec 12.2489 12.2222 ninth (loose))
-  - star rows: J Facies → J Pallas RA 58.0157 58 whole (4.60) [Moon]
-  - other chart, top rows: S Jupiter → H Pallas RA 92.9976 93 whole (77.64) [Jupiter]
-  - other chart, star rows: H Aculeus → H Pallas Dec 28.0147 28 whole (6.96) [Sun]
-  - other chart, star rows: H Deneb Algedi → H Pallas RA 108.0199 108 whole (0.00) [Sun]
-  - other chart, star rows: H Meissa → H Pallas RA 9.0017 9 whole (83.73) [Jupiter]
+  - star rows: J Facies → J Pallas RA 58.0157 58 whole (4.60)
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+  - other chart, top rows: S Jupiter → H Pallas RA 92.9976 93 whole (77.64)
+  - other chart, star rows: H Aculeus → H Pallas Dec 28.0147 28 whole (6.96)
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - other chart, star rows: H Deneb Algedi → H Pallas RA 108.0199 108 whole (0.00)
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - other chart, star rows: H Meissa → H Pallas RA 9.0017 9 whole (83.73)
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
 - **J Rahu** (same body: S Rahu → J Rahu RA 106.7701 66×φ golden (14.16))
-  - top rows: S Sun → J Rahu Dec 21.0390 13×φ golden (73.55) [Sun]
-  - star rows: J Meissa → J Rahu RA 78.0152 78 whole (5.77) [Jupiter]
-  - star rows: J Rasalhague → J Rahu RA 101.9368 63×φ golden (96.17) [Sun]
-  - other chart, star rows: H Deneb Algedi → H Rahu RA 166.6791 166.667 ninth (98.94) [Sun]
-  - other chart, star rows: H Galactic Centre → H Rahu RA 132.9819 133 whole (0.91) [Moon]
-  - other chart, star rows: H Sadalmelik → H Rahu RA 161.9949 162 whole (55.51) [Sun]
-  - other chart, star rows: H Sadalmelik → H Rahu Dec 17.7945 11×φ golden (77.46) [Sun]
+  - top rows: S Sun → J Rahu Dec 21.0390 13×φ golden (73.55)
+  - star rows: J Meissa → J Rahu RA 78.0152 78 whole (5.77)
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+  - star rows: J Rasalhague → J Rahu RA 101.9368 63×φ golden (96.17)
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - other chart, star rows: H Deneb Algedi → H Rahu RA 166.6791 166.667 ninth (98.94)
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - other chart, star rows: H Galactic Centre → H Rahu RA 132.9819 133 whole (0.91)
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - other chart, star rows: H Sadalmelik → H Rahu RA 161.9949 162 whole (55.51)
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - other chart, star rows: H Sadalmelik → H Rahu Dec 17.7945 11×φ golden (77.46)
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
 - **J Sedna** (same body: S Sedna → J Sedna Dec 3.0246 3 whole (loose))
-  - star rows: J Galactic Centre → J Sedna RA 139.1335 86×φ golden (21.41) [Moon]
+  - star rows: J Galactic Centre → J Sedna RA 139.1335 86×φ golden (21.41)
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
   - other chart, same body: S Sedna → H Sedna RA 1.8778 1.88889 ninth (loose)
-  - other chart, top rows: S Moon → H Sedna RA 55.9958 56 whole (62.41) [Moon]
-  - other chart, star rows: H Aculeus → H Sedna Dec 40.0140 40 whole (8.99) [Sun]
-  - other chart, star rows: H Alkaid → H Sedna RA 150.4739 93×φ golden (81.03) [Sun]
-  - other chart, star rows: H Fomalhaut → H Sedna RA 72.0076 72 whole (38.60) [Moon]
-  - other chart, star rows: H Galactic Centre → H Sedna RA 149.9978 150 whole (79.48) [Moon]
-  - other chart, star rows: H Sadalsuud → H Sedna Dec 13.3338 13.3333 ninth (99.38) [Sun]
+  - other chart, top rows: S Moon → H Sedna RA 55.9958 56 whole (62.41)
+  - other chart, star rows: H Aculeus → H Sedna Dec 40.0140 40 whole (8.99)
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - other chart, star rows: H Alkaid → H Sedna RA 150.4739 93×φ golden (81.03)
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - other chart, star rows: H Fomalhaut → H Sedna RA 72.0076 72 whole (38.60)
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - other chart, star rows: H Galactic Centre → H Sedna RA 149.9978 150 whole (79.48)
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - other chart, star rows: H Sadalsuud → H Sedna Dec 13.3338 13.3333 ninth (99.38)
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
 - **J Makemake** (same body: S Makemake → J Makemake RA 21.9997 22 whole (97.17); S Makemake → J Makemake Dec 10.9960 11 whole (63.98))
-  - other chart, top rows: S Moon → H Makemake Dec 0.2890 conj (0.13) [Moon]
-  - other chart, star rows: H Meissa → H Makemake Dec 15.0194 15 whole (0.09) [Jupiter]
+  - other chart, top rows: S Moon → H Makemake Dec 0.2890 conj (0.13)
+  - other chart, star rows: H Meissa → H Makemake Dec 15.0194 15 whole (0.09)
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
 - **J Transpluto** (same body: S Transpluto → J Transpluto Dec 2.9826 3 whole (1.70))
-  - star rows: J Sadalsuud → J Transpluto Dec 19.0083 19 whole (34.02) [Sun]
+  - star rows: J Sadalsuud → J Transpluto Dec 19.0083 19 whole (34.02)
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
   - other chart, same body: S Transpluto → H Transpluto RA 1.7776 1.77778 ninth (98.59)
 - **J Ketu** (same body: S Ketu → J Ketu RA 106.7701 66×φ golden (14.16))
-  - top rows: S Jupiter → J Ketu RA 0.0165 conj (97.81) [Jupiter]
-  - star rows: J Meissa → J Ketu RA 101.9848 102 whole (5.77) [Jupiter]
-  - other chart, star rows: H Alphard → H Ketu RA 171.5401 106×φ golden (1.39) [Jupiter]
-  - other chart, star rows: H Galactic Centre → H Ketu RA 47.0181 47 whole (0.91) [Moon]
-  - other chart, star rows: H Sadalmelik → H Ketu RA 18.0051 18 whole (55.51) [Sun]
-### L3 the seven cases (L5 field tag on each)
+  - top rows: S Jupiter → J Ketu RA 0.0165 conj (97.81)
+  - star rows: J Meissa → J Ketu RA 101.9848 102 whole (5.77)
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+  - other chart, star rows: H Alphard → H Ketu RA 171.5401 106×φ golden (1.39)
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - other chart, star rows: H Galactic Centre → H Ketu RA 47.0181 47 whole (0.91)
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - other chart, star rows: H Sadalmelik → H Ketu RA 18.0051 18 whole (55.51)
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+### L3 matches
 - **1. same body on both charts**
   - Neptune — only
     - S Neptune → H Neptune Dec 2.2278 2.22222 ninth (loose)
@@ -1156,139 +1989,278 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - **4. circle divisions**
   - 1 = 360/360 — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
     - S Pluto → H Pluto Dec 1.0047 1 whole (58.15)
-  - 10 = 360/36 — also: 3 Chase The Dollar / Rossa Ryan
+  - 10 = 360/36 — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
     - H Aculeus → H Saturn Dec 9.9975 10 whole (76.16)
-  - 9 = 360/40 — also: 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+  - 40 = 360/9 — also: 7 Red Tornado / Jason Hart
+    - H Aculeus → H Sedna Dec 40.0140 40 whole (8.99)
+  - 72 = 360/5 — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez
+    - H Fomalhaut → H Sedna RA 72.0076 72 whole (38.60)
+  - 9 = 360/40 — also: 3 Chase The Dollar / Rossa Ryan, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
     - H Meissa → H Pallas RA 9.0017 9 whole (83.73)
-  - 18 = 360/20 — also: 6 Flamingo Rose / Dougie Costello
+  - 12 = 360/30 — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+    - H Meissa → H Eris Dec 12.0143 12 whole (8.22)
+  - 15 = 360/24 — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan
+    - H Meissa → H Makemake Dec 15.0194 15 whole (0.09)
+  - 18 = 360/20 — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
     - H Sadalmelik → H Ketu RA 18.0051 18 whole (55.51)
-  - 15 = 360/24 — only
+  - 24 = 360/15 — also: 7 Red Tornado / Jason Hart
+    - H Sadalsuud → H Neptune RA 24.0161 24 whole (3.76)
+  - 15 = 360/24 — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan
     - S Neptune → J Neptune Dec 15.0180 15 whole (1.05)
-  - 3 = 360/120 — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+  - 3 = 360/120 — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
     - S Sedna → J Sedna Dec 3.0246 3 whole (loose)
-  - 3 = 360/120 — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+  - 3 = 360/120 — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
     - S Transpluto → J Transpluto Dec 2.9826 3 whole (1.70)
-  - 15 = 360/24 — only
+  - 20 = 360/18 — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+    - J Alphard → J Mercury Dec 20.0089 20 whole (30.70)
+  - 15 = 360/24 — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan
     - J Alphard → J Saturn Dec 14.9967 15 whole (69.40)
   - 5 = 360/72 — also: 6 Flamingo Rose / Dougie Costello
     - J Meissa → J Juno Dec 5.0037 5 whole (66.34)
+  - 12 = 360/30 — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+    - J Meissa → J Haumea Dec 11.9855 12 whole (7.66)
+  - 2 = 360/180 — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+    - S Sadalsuud → J Jupiter Dec 2.0182 2 whole (0.77)
+  - 5 = 360/72 — also: 6 Flamingo Rose / Dougie Costello
+    - J Sadalsuud → J Ceres Dec 5.0141 5 whole (8.64)
 - **5. same number in more than one place**
   - 4.44444 ninth — only
     - S Haumea → H Haumea RA 4.4416 4.44444 ninth (loose)
     - S Orcus → H Orcus RA 4.4462 4.44444 ninth (loose)
+  - 28 whole — also: 1 The Dancing Poet / Harry Russell
+    - H Aculeus → H Pallas Dec 28.0147 28 whole (6.96)
+    - H Rasalhague → H Quaoar Dec 27.9825 28 whole (1.58)
+  - 23 whole — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan
+    - H Fomalhaut → H Neptune Dec 23.0113 23 whole (18.83)
+    - S Saturn → J Saturn Dec 22.9885 23 whole (17.94)
+  - 12 whole — also: 4 Deluxe Music / Callum Rodriguez
+    - H Meissa → H Eris Dec 12.0143 12 whole (8.22)
+    - J Meissa → J Haumea Dec 11.9855 12 whole (7.66)
   - 15 whole — only
+    - H Meissa → H Makemake Dec 15.0194 15 whole (0.09)
     - S Neptune → J Neptune Dec 15.0180 15 whole (1.05)
     - J Alphard → J Saturn Dec 14.9967 15 whole (69.40)
+  - 22 whole — also: 2 Flying Instructor / Dylan Hogan
+    - H Meissa → H Gonggong Dec 21.9917 22 whole (34.51)
+    - S Makemake → J Makemake RA 21.9997 22 whole (97.17)
   - 66×φ golden — only
     - S Rahu → J Rahu RA 106.7701 66×φ golden (14.16)
     - S Ketu → J Ketu RA 106.7701 66×φ golden (14.16)
-  - 3 whole — only
+  - 3 whole — also: 2 Flying Instructor / Dylan Hogan
     - S Sedna → J Sedna Dec 3.0246 3 whole (loose)
     - S Transpluto → J Transpluto Dec 2.9826 3 whole (1.70)
   - 11 whole — also: 2 Flying Instructor / Dylan Hogan
     - S Makemake → J Makemake Dec 10.9960 11 whole (63.98)
     - J Spica → J Orcus Dec 10.9953 11 whole (58.58)
-- **6. star and sky line on one body**: none
-- **7. centres meeting**
-  - Neptune: Jupiter, Moon, Sun — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
-    - [Jupiter] H Alphard → H Neptune RA 154.9942 155 whole (50.34)
-    - [Moon] S Neptune → H Neptune Dec 2.2278 2.22222 ninth (loose)
-    - [Moon] H Fomalhaut → H Neptune Dec 23.0113 23 whole (18.83)
-    - [Moon] H Spica → H Neptune RA 145.6010 90×φ golden (10.05)
-    - [Moon] S Neptune → J Neptune Dec 15.0180 15 whole (1.05)
-    - [Sun] H Alkaid → H Neptune RA 140.0120 140 whole (16.01)
-    - [Sun] H Sadalsuud → H Neptune RA 24.0161 24 whole (3.76)
-  - Pallas: Jupiter, Moon, Sun — also: 2 Flying Instructor / Dylan Hogan, 6 Flamingo Rose / Dougie Costello
-    - [Jupiter] S Jupiter → H Pallas RA 92.9976 93 whole (77.64)
-    - [Jupiter] H Meissa → H Pallas RA 9.0017 9 whole (83.73)
-    - [Moon] J Facies → J Pallas RA 58.0157 58 whole (4.60)
-    - [Sun] H Aculeus → H Pallas Dec 28.0147 28 whole (6.96)
-    - [Sun] H Deneb Algedi → H Pallas RA 108.0199 108 whole (0.00)
-  - Haumea: Jupiter, Moon — only
-    - [Jupiter] S Jupiter → H Haumea Dec 25.8898 16×φ golden (92.35)
-    - [Jupiter] J Meissa → J Haumea Dec 11.9855 12 whole (7.66)
-    - [Moon] H Facies → H Haumea RA 65.9896 66 whole (22.89)
-  - Sedna: Moon, Sun — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez
-    - [Moon] S Moon → H Sedna RA 55.9958 56 whole (62.41)
-    - [Moon] H Fomalhaut → H Sedna RA 72.0076 72 whole (38.60)
-    - [Moon] H Galactic Centre → H Sedna RA 149.9978 150 whole (79.48)
-    - [Moon] J Galactic Centre → J Sedna RA 139.1335 86×φ golden (21.41)
-    - [Sun] H Aculeus → H Sedna Dec 40.0140 40 whole (8.99)
-    - [Sun] H Alkaid → H Sedna RA 150.4739 93×φ golden (81.03)
-    - [Sun] H Sadalsuud → H Sedna Dec 13.3338 13.3333 ninth (99.38)
-  - Makemake: Jupiter, Moon — only
-    - [Jupiter] H Meissa → H Makemake Dec 15.0194 15 whole (0.09)
-    - [Moon] S Moon → H Makemake Dec 0.2890 conj (0.13)
-  - Orcus: Jupiter, Moon, Sun — only
-    - [Jupiter] S Jupiter → J Orcus RA 153.7201 95×φ golden (61.87)
-    - [Moon] S Moon → H Orcus Dec 34.9949 35 whole (55.28)
-    - [Moon] J Spica → J Orcus Dec 10.9953 11 whole (58.58)
-    - [Sun] J Sadalmelik → J Orcus Dec 0.1541 conj (23.66)
-  - Jupiter: Jupiter, Moon, Sun — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
-    - [Jupiter] S Venus → H Jupiter Dec 0.2422 conj (3.72)
-    - [Jupiter] S Saturn → H Jupiter Dec 0.1121 conj (39.22)
-    - [Jupiter] S Rahu → H Jupiter RA 173.0021 173 whole (80.02)
-    - [Jupiter] S Ketu → H Jupiter RA 6.9979 7 whole (80.02)
-    - [Jupiter] S Pallas → J Jupiter RA 18.8875 18.8889 ninth (99.02)
-    - [Moon] S Venus → H Jupiter Dec 0.2422 conj (3.72)
-    - [Moon] S Saturn → H Jupiter Dec 0.1121 conj (39.22)
-    - [Moon] S Fomalhaut → J Jupiter RA 0.1626 conj (79.49)
-    - [Sun] S Sadalsuud → J Jupiter Dec 2.0182 2 whole (0.77)
-  - Sun: Moon, Sun — also: 2 Flying Instructor / Dylan Hogan, 6 Flamingo Rose / Dougie Costello
-    - [Moon] H Facies → H Sun RA 110.9759 10×φ^5 phi power (75.04)
-    - [Sun] H Aculeus → H Sun RA 124.9908 125 whole (29.33)
-  - Saturn: Jupiter, Moon, Sun — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
-    - [Jupiter] J Alphard → J Saturn Dec 14.9967 15 whole (69.40)
-    - [Moon] H Facies → H Saturn RA 0.4972 conj (44.70)
-    - [Moon] H Spica → H Saturn Dec 11.0918 φ^5 phi power (94.30)
-    - [Moon] S Saturn → J Saturn Dec 22.9885 23 whole (17.94)
-    - [Sun] H Aculeus → H Saturn Dec 9.9975 10 whole (76.16)
-  - Ketu: Jupiter, Moon, Sun — also: 3 Chase The Dollar / Rossa Ryan, 6 Flamingo Rose / Dougie Costello
-    - [Jupiter] H Alphard → H Ketu RA 171.5401 106×φ golden (1.39)
-    - [Jupiter] S Jupiter → J Ketu RA 0.0165 conj (97.81)
-    - [Jupiter] J Meissa → J Ketu RA 101.9848 102 whole (5.77)
-    - [Moon] H Galactic Centre → H Ketu RA 47.0181 47 whole (0.91)
-    - [Sun] H Sadalmelik → H Ketu RA 18.0051 18 whole (55.51)
-  - Uranus: Moon, Sun — only
-    - [Moon] H Castor → H Uranus RA 87.0052 87 whole (54.99)
-    - [Sun] H Rasalhague → H Uranus RA 122.9044 φ^10 phi power (73.56)
-    - [Sun] H Sadalsuud → H Uranus Dec 16.0115 16 whole (18.18)
-  - Pluto: Jupiter, Moon — only
-    - [Jupiter] J Meissa → J Pluto Dec 19.4141 12×φ golden (86.39)
-    - [Moon] H Castor → H Pluto Dec 53.3927 33×φ golden (85.35)
-  - Vesta: Moon, Sun — only
-    - [Moon] H Castor → H Vesta RA 160.1993 99×φ golden (32.38)
-    - [Sun] J Aculeus → J Vesta Dec 45.9891 46 whole (20.86)
-    - [Sun] J Sadalsuud → J Vesta RA 84.1385 52×φ golden (95.29)
-  - Rahu: Jupiter, Moon, Sun — also: 4 Deluxe Music / Callum Rodriguez
-    - [Jupiter] J Meissa → J Rahu RA 78.0152 78 whole (5.77)
-    - [Moon] H Galactic Centre → H Rahu RA 132.9819 133 whole (0.91)
-    - [Sun] H Deneb Algedi → H Rahu RA 166.6791 166.667 ninth (98.94)
-    - [Sun] H Sadalmelik → H Rahu RA 161.9949 162 whole (55.51)
-    - [Sun] H Sadalmelik → H Rahu Dec 17.7945 11×φ golden (77.46)
-    - [Sun] S Sun → J Rahu Dec 21.0390 13×φ golden (73.55)
-    - [Sun] J Rasalhague → J Rahu RA 101.9368 63×φ golden (96.17)
-  - Mars: Jupiter, Moon — only
-    - [Jupiter] H Meissa → H Mars Dec 32.9847 33 whole (5.53)
-    - [Moon] J Fomalhaut → J Mars Dec 36.9867 37 whole (11.18)
-  - Eris: Jupiter, Sun — also: 2 Flying Instructor / Dylan Hogan
-    - [Jupiter] H Meissa → H Eris Dec 12.0143 12 whole (8.22)
-    - [Sun] J Aculeus → J Eris RA 118.1333 73×φ golden (23.05)
-    - [Sun] J Aculeus → J Eris Dec 24.9953 25 whole (58.49)
-    - [Sun] J Sadalmelik → J Eris RA 51.7763 32×φ golden (95.06)
-  - Quaoar: Jupiter, Moon, Sun — only
-    - [Jupiter] H Meissa → H Quaoar RA 171.9923 172 whole (37.80)
-    - [Moon] J Fomalhaut → J Quaoar RA 99.0114 99 whole (18.58)
-    - [Sun] H Rasalhague → H Quaoar Dec 27.9825 28 whole (1.58)
-    - [Sun] J Alkaid → J Quaoar Dec 64.0026 64 whole (75.51)
-  - Gonggong: Jupiter, Sun — only
-    - [Jupiter] H Meissa → H Gonggong Dec 21.9917 22 whole (34.51)
-    - [Jupiter] J Alphard → J Gonggong RA 169.9812 170 whole (0.35)
-    - [Sun] J Sadalmelik → J Gonggong RA 0.4773 conj (46.48)
-  - Juno: Jupiter, Moon, Sun — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
-    - [Jupiter] J Meissa → J Juno Dec 5.0037 5 whole (66.34)
-    - [Moon] H Spica → H Juno RA 155.5139 155.556 ninth (96.05)
-    - [Sun] H Sadalmelik → H Juno Dec 0.2932 conj (0.05)
+  - 73×φ golden — only
+    - J Aculeus → J Eris RA 118.1333 73×φ golden (23.05)
+    - J Alkaid → J Venus RA 118.1369 73×φ golden (13.62)
+  - 5 whole — also: 6 Flamingo Rose / Dougie Costello
+    - J Meissa → J Juno Dec 5.0037 5 whole (66.34)
+    - J Sadalsuud → J Ceres Dec 5.0141 5 whole (8.64)
+### L4 every natal body
+- **Jupiter**
+  - same body: S Jupiter → H Jupiter Dec 7.7736 7.77778 ninth (loose) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez
+  - top rows: S Venus → H Jupiter Dec 0.2422 conj (3.72) — also: 1 The Dancing Poet / Harry Russell, 6 Flamingo Rose / Dougie Costello
+    - source line: S Moon → Venus RA 173.1408 107×φ golden (42.72)
+  - top rows: S Saturn → H Jupiter Dec 0.1121 conj (39.22) — also: 1 The Dancing Poet / Harry Russell
+    - source line: S Moon → Saturn RA 152.9975 153 whole (76.77)
+  - top rows: S Rahu → H Jupiter RA 173.0021 173 whole (80.02) — also: 3 Chase The Dollar / Rossa Ryan
+  - top rows: S Ketu → H Jupiter RA 6.9979 7 whole (80.02) — only
+  - T2: J Jupiter → J star Fomalhaut RA 0.1648 conj (79.24) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+  - top rows: S Pallas → J Jupiter RA 18.8875 18.8889 ninth (99.02) — also: 1 The Dancing Poet / Harry Russell
+  - star rows: S Fomalhaut → J Jupiter RA 0.1626 conj (79.49) — only
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: S Sadalsuud → J Jupiter Dec 2.0182 2 whole (0.77) — also: 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+- **Neptune**
+  - same body: S Neptune → H Neptune Dec 2.2278 2.22222 ninth (loose) — only
+    - source line: S Moon → Neptune RA 119.7408 74×φ golden (65.12)
+  - star rows: H Alkaid → H Neptune RA 140.0120 140 whole (16.01) — also: 2 Flying Instructor / Dylan Hogan
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: H Alphard → H Neptune RA 154.9942 155 whole (50.34) — also: 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: H Fomalhaut → H Neptune Dec 23.0113 23 whole (18.83) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: H Sadalsuud → H Neptune RA 24.0161 24 whole (3.76) — also: 2 Flying Instructor / Dylan Hogan
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+  - star rows: H Spica → H Neptune RA 145.6010 90×φ golden (10.05) — only
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
+  - same body: S Neptune → J Neptune Dec 15.0180 15 whole (1.05) — only
+    - source line: S Moon → Neptune RA 119.7408 74×φ golden (65.12)
+- **Pluto**
+  - same body: S Pluto → H Pluto Dec 1.0047 1 whole (58.15) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+  - star rows: H Castor → H Pluto Dec 53.3927 33×φ golden (85.35) — only
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
+  - same body: S Pluto → J Pluto Dec 13.0274 13 whole (loose) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+  - star rows: J Meissa → J Pluto Dec 19.4141 12×φ golden (86.39) — only
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+- **Sedna**
+  - same body: S Sedna → H Sedna RA 1.8778 1.88889 ninth (loose) — also: 4 Deluxe Music / Callum Rodriguez
+  - top rows: S Moon → H Sedna RA 55.9958 56 whole (62.41) — also: 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+  - star rows: H Aculeus → H Sedna Dec 40.0140 40 whole (8.99) — also: 2 Flying Instructor / Dylan Hogan, 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: H Alkaid → H Sedna RA 150.4739 93×φ golden (81.03) — only
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: H Fomalhaut → H Sedna RA 72.0076 72 whole (38.60) — also: 6 Flamingo Rose / Dougie Costello
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: H Galactic Centre → H Sedna RA 149.9978 150 whole (79.48) — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - star rows: H Sadalsuud → H Sedna Dec 13.3338 13.3333 ninth (99.38) — only
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+  - same body: S Sedna → J Sedna Dec 3.0246 3 whole (loose) — also: 4 Deluxe Music / Callum Rodriguez
+  - star rows: J Galactic Centre → J Sedna RA 139.1335 86×φ golden (21.41) — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+- **Haumea**
+  - same body: S Haumea → H Haumea RA 4.4416 4.44444 ninth (loose) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+  - top rows: S Jupiter → H Haumea Dec 25.8898 16×φ golden (92.35) — only
+  - star rows: H Facies → H Haumea RA 65.9896 66 whole (22.89) — only
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+  - star rows: J Meissa → J Haumea Dec 11.9855 12 whole (7.66) — also: 1 The Dancing Poet / Harry Russell
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+- **Orcus**
+  - same body: S Orcus → H Orcus RA 4.4462 4.44444 ninth (loose) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+  - top rows: S Moon → H Orcus Dec 34.9949 35 whole (55.28) — only
+  - top rows: S Jupiter → J Orcus RA 153.7201 95×φ golden (61.87) — only
+  - star rows: J Sadalmelik → J Orcus Dec 0.1541 conj (23.66) — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - star rows: J Spica → J Orcus Dec 10.9953 11 whole (58.58) — also: 6 Flamingo Rose / Dougie Costello
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
+- **Transpluto**
+  - same body: S Transpluto → H Transpluto RA 1.7776 1.77778 ninth (98.59) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 6 Flamingo Rose / Dougie Costello
+  - same body: S Transpluto → J Transpluto Dec 2.9826 3 whole (1.70) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 6 Flamingo Rose / Dougie Costello
+  - star rows: J Sadalsuud → J Transpluto Dec 19.0083 19 whole (34.02) — also: 4 Deluxe Music / Callum Rodriguez
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+- **Pallas**
+  - top rows: S Jupiter → H Pallas RA 92.9976 93 whole (77.64) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan
+  - star rows: H Aculeus → H Pallas Dec 28.0147 28 whole (6.96) — also: 7 Red Tornado / Jason Hart
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: H Deneb Algedi → H Pallas RA 108.0199 108 whole (0.00) — also: 4 Deluxe Music / Callum Rodriguez
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - star rows: H Meissa → H Pallas RA 9.0017 9 whole (83.73) — only
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+  - same body: S Pallas → J Pallas Dec 12.2489 12.2222 ninth (loose) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 6 Flamingo Rose / Dougie Costello
+  - star rows: J Facies → J Pallas RA 58.0157 58 whole (4.60) — also: 3 Chase The Dollar / Rossa Ryan
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+- **Makemake**
+  - top rows: S Moon → H Makemake Dec 0.2890 conj (0.13) — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+  - star rows: H Meissa → H Makemake Dec 15.0194 15 whole (0.09) — only
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+  - same body: S Makemake → J Makemake RA 21.9997 22 whole (97.17) — also: 4 Deluxe Music / Callum Rodriguez
+  - same body: S Makemake → J Makemake Dec 10.9960 11 whole (63.98) — also: 4 Deluxe Music / Callum Rodriguez
+- **Sun**
+  - star rows: H Aculeus → H Sun RA 124.9908 125 whole (29.33) — also: 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: H Facies → H Sun RA 110.9759 10×φ^5 phi power (75.04) — also: 7 Red Tornado / Jason Hart
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+- **Saturn**
+  - star rows: H Aculeus → H Saturn Dec 9.9975 10 whole (76.16) — also: 3 Chase The Dollar / Rossa Ryan
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: H Facies → H Saturn RA 0.4972 conj (44.70) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+  - star rows: H Spica → H Saturn Dec 11.0918 φ^5 phi power (94.30) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
+  - same body: S Saturn → J Saturn Dec 22.9885 23 whole (17.94) — also: 1 The Dancing Poet / Harry Russell, 6 Flamingo Rose / Dougie Costello
+    - source line: S Moon → Saturn RA 152.9975 153 whole (76.77)
+  - star rows: J Alphard → J Saturn Dec 14.9967 15 whole (69.40) — also: 2 Flying Instructor / Dylan Hogan, 7 Red Tornado / Jason Hart
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+- **Ketu**
+  - star rows: H Alphard → H Ketu RA 171.5401 106×φ golden (1.39) — only
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: H Galactic Centre → H Ketu RA 47.0181 47 whole (0.91) — also: 2 Flying Instructor / Dylan Hogan
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - star rows: H Sadalmelik → H Ketu RA 18.0051 18 whole (55.51) — also: 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - same body: S Ketu → J Ketu RA 106.7701 66×φ golden (14.16) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+  - top rows: S Jupiter → J Ketu RA 0.0165 conj (97.81) — also: 6 Flamingo Rose / Dougie Costello
+  - star rows: J Meissa → J Ketu RA 101.9848 102 whole (5.77) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+- **Uranus**
+  - star rows: H Castor → H Uranus RA 87.0052 87 whole (54.99) — also: 6 Flamingo Rose / Dougie Costello
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
+  - star rows: H Rasalhague → H Uranus RA 122.9044 φ^10 phi power (73.56) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - star rows: H Sadalsuud → H Uranus Dec 16.0115 16 whole (18.18) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+  - same body: S Uranus → J Uranus RA 84.0272 84 whole (loose) — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez
+- **Vesta**
+  - star rows: H Castor → H Vesta RA 160.1993 99×φ golden (32.38) — also: 4 Deluxe Music / Callum Rodriguez
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
+  - star rows: J Aculeus → J Vesta Dec 45.9891 46 whole (20.86) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: J Sadalsuud → J Vesta RA 84.1385 52×φ golden (95.29) — also: 7 Red Tornado / Jason Hart
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+- **Rahu**
+  - star rows: H Deneb Algedi → H Rahu RA 166.6791 166.667 ninth (98.94) — also: 2 Flying Instructor / Dylan Hogan, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - star rows: H Galactic Centre → H Rahu RA 132.9819 133 whole (0.91) — also: 2 Flying Instructor / Dylan Hogan
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - star rows: H Sadalmelik → H Rahu RA 161.9949 162 whole (55.51) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - star rows: H Sadalmelik → H Rahu Dec 17.7945 11×φ golden (77.46) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - same body: S Rahu → J Rahu RA 106.7701 66×φ golden (14.16) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+  - top rows: S Sun → J Rahu Dec 21.0390 13×φ golden (73.55) — only
+  - star rows: J Meissa → J Rahu RA 78.0152 78 whole (5.77) — only
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+  - star rows: J Rasalhague → J Rahu RA 101.9368 63×φ golden (96.17) — also: 3 Chase The Dollar / Rossa Ryan
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+- **Mars**
+  - star rows: H Meissa → H Mars Dec 32.9847 33 whole (5.53) — also: 7 Red Tornado / Jason Hart
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+  - star rows: J Fomalhaut → J Mars Dec 36.9867 37 whole (11.18) — also: 1 The Dancing Poet / Harry Russell
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+- **Eris**
+  - star rows: H Meissa → H Eris Dec 12.0143 12 whole (8.22) — only
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+  - star rows: J Aculeus → J Eris RA 118.1333 73×φ golden (23.05) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: J Aculeus → J Eris Dec 24.9953 25 whole (58.49) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: J Sadalmelik → J Eris RA 51.7763 32×φ golden (95.06) — also: 4 Deluxe Music / Callum Rodriguez
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+- **Quaoar**
+  - star rows: H Meissa → H Quaoar RA 171.9923 172 whole (37.80) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 7 Red Tornado / Jason Hart
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+  - star rows: H Rasalhague → H Quaoar Dec 27.9825 28 whole (1.58) — also: 7 Red Tornado / Jason Hart
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - star rows: J Alkaid → J Quaoar Dec 64.0026 64 whole (75.51) — also: 3 Chase The Dollar / Rossa Ryan
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: J Fomalhaut → J Quaoar RA 99.0114 99 whole (18.58) — also: 3 Chase The Dollar / Rossa Ryan
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+- **Gonggong**
+  - star rows: H Meissa → H Gonggong Dec 21.9917 22 whole (34.51) — also: 1 The Dancing Poet / Harry Russell
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+  - star rows: J Alphard → J Gonggong RA 169.9812 170 whole (0.35) — also: 1 The Dancing Poet / Harry Russell
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: J Sadalmelik → J Gonggong RA 0.4773 conj (46.48) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+- **Juno**
+  - star rows: H Sadalmelik → H Juno Dec 0.2932 conj (0.05) — also: 4 Deluxe Music / Callum Rodriguez
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - star rows: H Spica → H Juno RA 155.5139 155.556 ninth (96.05) — also: 3 Chase The Dollar / Rossa Ryan
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
+  - star rows: J Meissa → J Juno Dec 5.0037 5 whole (66.34) — only
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+- **Mercury**
+  - same body: S Mercury → J Mercury RA 77.6868 77.7778 ninth (loose) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan
+  - star rows: J Alphard → J Mercury Dec 20.0089 20 whole (30.70) — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: J Meissa → J Mercury Dec 1.4147 1.414 sqrt2 (96.12) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+- **Chiron**
+  - same body: S Chiron → J Chiron RA 141.7147 141.4 sqrt2 (loose) — also: 2 Flying Instructor / Dylan Hogan, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+  - same body: S Chiron → J Chiron Dec 20.9825 21 whole (1.52) — also: 2 Flying Instructor / Dylan Hogan, 6 Flamingo Rose / Dougie Costello, 7 Red Tornado / Jason Hart
+- **Ceres**
+  - star rows: J Aculeus → J Ceres RA 111.6176 69×φ golden (3.01) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: J Sadalmelik → J Ceres Dec 0.2368 conj (4.43) — also: 2 Flying Instructor / Dylan Hogan, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - star rows: J Sadalsuud → J Ceres Dec 5.0141 5 whole (8.64) — also: 1 The Dancing Poet / Harry Russell
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+- **Venus**
+  - star rows: J Alkaid → J Venus RA 118.1369 73×φ golden (13.62) — also: 7 Red Tornado / Jason Hart
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
 
 ## 6 Flamingo Rose / Dougie Costello
 ### L1 same bodies
@@ -1309,96 +2281,151 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - S Transpluto → J Transpluto RA 13.3233 13.3333 ninth (loose)
 ### L2 what lands on each same body
 - **H Chiron** (same body: S Chiron → H Chiron RA 12.9539 8×φ golden (loose))
-  - star rows: H Meissa → H Chiron Dec 8.0186 8 whole (0.48) [Jupiter]
+  - star rows: H Meissa → H Chiron Dec 8.0186 8 whole (0.48)
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
   - other chart, same body: S Chiron → J Chiron RA 43.9759 44 whole (loose)
-  - other chart, top rows: S Sun → J Chiron RA 84.9991 85 whole (91.37) [Sun]
-  - other chart, star rows: J Alkaid → J Chiron RA 155.0102 155 whole (23.90) [Sun]
-  - other chart, star rows: J Sadalsuud → J Chiron RA 88.9968 55×φ golden (71.62) [Sun]
+  - other chart, top rows: S Sun → J Chiron RA 84.9991 85 whole (91.37)
+  - other chart, star rows: J Alkaid → J Chiron RA 155.0102 155 whole (23.90)
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - other chart, star rows: J Sadalsuud → J Chiron RA 88.9968 55×φ golden (71.62)
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
 - **H Pallas** (same body: S Pallas → H Pallas RA 1.7657 1.77778 ninth (loose))
-  - star rows: H Castor → H Pallas RA 108.4233 67×φ golden (28.79) [Moon]
+  - star rows: H Castor → H Pallas RA 108.4233 67×φ golden (28.79)
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
   - other chart, same body: S Pallas → J Pallas Dec 17.8623 φ^6 phi power (loose)
-  - other chart, top rows: S Sun → J Pallas RA 45.9999 46 whole (98.58) [Sun]
-  - other chart, star rows: J Alkaid → J Pallas RA 73.9908 74 whole (29.17) [Sun]
-  - other chart, star rows: J Alphard → J Pallas RA 138.9806 139 whole (0.08) [Jupiter]
-  - other chart, star rows: J Sadalmelik → J Pallas Dec 8.9876 9 whole (14.48) [Sun]
-  - other chart, star rows: J Sadalsuud → J Pallas RA 42.0021 42 whole (79.83) [Sun]
+  - other chart, top rows: S Sun → J Pallas RA 45.9999 46 whole (98.58)
+  - other chart, star rows: J Alkaid → J Pallas RA 73.9908 74 whole (29.17)
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - other chart, star rows: J Alphard → J Pallas RA 138.9806 139 whole (0.08)
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - other chart, star rows: J Sadalmelik → J Pallas Dec 8.9876 9 whole (14.48)
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - other chart, star rows: J Sadalsuud → J Pallas RA 42.0021 42 whole (79.83)
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
 - **H Juno** (same body: S Juno → H Juno Dec 3.0100 3 whole (24.89))
-  - body line: S Jupiter → Juno RA 37.0056 37 whole (51.90)
-  - top rows: S Jupiter → H Juno Dec 0.2736 conj (0.78) [Jupiter]
-  - star rows: H Alphard → H Juno Dec 0.1672 conj (19.58) [Jupiter]
-  - other chart, top rows: S Sun → J Juno RA 0.4880 conj (45.52) [Sun]
-  - other chart, star rows: J Deneb Algedi → J Juno RA 0.6167 conj (34.67) [Sun]
-  - other chart, star rows: J Galactic Centre → J Juno Dec 21.0054 21 whole (53.36) [Moon]
+  - sky line to Juno: S Jupiter → Juno RA 37.0056 37 whole (51.90)
+  - top rows: S Jupiter → H Juno Dec 0.2736 conj (0.78)
+  - star rows: H Alphard → H Juno Dec 0.1672 conj (19.58)
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - other chart, top rows: S Sun → J Juno RA 0.4880 conj (45.52)
+  - other chart, star rows: J Deneb Algedi → J Juno RA 0.6167 conj (34.67)
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - other chart, star rows: J Galactic Centre → J Juno Dec 21.0054 21 whole (53.36)
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
 - **H Vesta** (same body: S Vesta → H Vesta Dec 46.8806 φ^8 phi power (loose))
-  - star rows: H Aculeus → H Vesta Dec 57.9845 58 whole (5.02) [Sun]
-  - star rows: H Sadalmelik → H Vesta RA 145.6015 90×φ golden (11.10) [Sun]
-  - other chart, star rows: J Aculeus → J Vesta RA 101.9946 102 whole (53.53) [Sun]
-  - other chart, star rows: J Alkaid → J Vesta RA 160.1848 99×φ golden (96.66) [Sun]
-  - other chart, star rows: J Alphard → J Vesta Dec 6.0160 6 whole (4.09) [Jupiter]
+  - star rows: H Aculeus → H Vesta Dec 57.9845 58 whole (5.02)
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: H Sadalmelik → H Vesta RA 145.6015 90×φ golden (11.10)
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - other chart, star rows: J Aculeus → J Vesta RA 101.9946 102 whole (53.53)
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - other chart, star rows: J Alkaid → J Vesta RA 160.1848 99×φ golden (96.66)
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - other chart, star rows: J Alphard → J Vesta Dec 6.0160 6 whole (4.09)
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
 - **H Eris** (same body: S Eris → H Eris Dec 1.0156 1 whole (4.89))
-  - other chart, star rows: J Deneb Algedi → J Eris Dec 4.9851 5 whole (6.55) [Sun]
-  - other chart, star rows: J Spica → J Eris Dec 0.0201 conj (87.02) [Moon]
+  - other chart, star rows: J Deneb Algedi → J Eris Dec 4.9851 5 whole (6.55)
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - other chart, star rows: J Spica → J Eris Dec 0.0201 conj (87.02)
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
 - **H Gonggong** (same body: S Gonggong → H Gonggong Dec 1.0300 1 whole (loose))
-  - star rows: H Galactic Centre → H Gonggong Dec 16.6619 16.6667 ninth (95.91) [Moon]
+  - star rows: H Galactic Centre → H Gonggong Dec 16.6619 16.6667 ninth (95.91)
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
   - other chart, same body: S Gonggong → J Gonggong RA 8.9795 9 whole (loose)
-  - other chart, top rows: S Jupiter → J Gonggong Dec 13.3365 13.3333 ninth (96.18) [Jupiter]
-  - other chart, top rows: S Sun → J Gonggong RA 0.8052 conj (21.46) [Sun]
-  - other chart, star rows: J Castor → J Gonggong Dec 53.9932 54 whole (43.66) [Moon]
-  - other chart, star rows: J Deneb Algedi → J Gonggong RA 0.9339 conj (14.24) [Sun]
+  - other chart, top rows: S Jupiter → J Gonggong Dec 13.3365 13.3333 ninth (96.18)
+  - other chart, top rows: S Sun → J Gonggong RA 0.8052 conj (21.46)
+  - other chart, star rows: J Castor → J Gonggong Dec 53.9932 54 whole (43.66)
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
+  - other chart, star rows: J Deneb Algedi → J Gonggong RA 0.9339 conj (14.24)
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
 - **J Sun** (same body: S Sun → J Sun RA 17.9875 18 whole (14.05))
-  - star rows: J Fomalhaut → J Sun RA 0.4650 conj (47.61) [Moon]
-  - star rows: J Rasalhague → J Sun Dec 19.0167 19 whole (2.67) [Sun]
-  - star rows: J Sadalsuud → J Sun RA 21.9852 22 whole (6.82) [Sun]
-  - other chart, star rows: H Aculeus → H Sun Dec 41.0160 41 whole (4.01) [Sun]
+  - star rows: J Fomalhaut → J Sun RA 0.4650 conj (47.61)
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: J Rasalhague → J Sun Dec 19.0167 19 whole (2.67)
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - star rows: J Sadalsuud → J Sun RA 21.9852 22 whole (6.82)
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+  - other chart, star rows: H Aculeus → H Sun Dec 41.0160 41 whole (4.01)
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
 - **J Mars** (same body: S Mars → J Mars RA 80.0208 80 whole (loose))
-  - body line: S Moon → Mars Dec 48.5423 30×φ golden (92.44)
-  - top rows: S Sun → J Mars RA 38.8388 24×φ golden (66.48) [Sun]
-  - star rows: J Castor → J Mars Dec 30.0060 30 whole (48.95) [Moon]
-  - star rows: J Deneb Algedi → J Mars Dec 18.0108 18 whole (21.21) [Sun]
-  - star rows: J Rasalhague → J Mars RA 101.9892 102 whole (20.99) [Sun]
+  - sky line to Mars: S Moon → Mars Dec 48.5423 30×φ golden (92.44)
+  - top rows: S Sun → J Mars RA 38.8388 24×φ golden (66.48)
+  - star rows: J Castor → J Mars Dec 30.0060 30 whole (48.95)
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
+  - star rows: J Deneb Algedi → J Mars Dec 18.0108 18 whole (21.21)
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - star rows: J Rasalhague → J Mars RA 101.9892 102 whole (20.99)
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
 - **J Saturn** (same body: S Saturn → J Saturn Dec 6.1841 10×φ^-1 phi power (loose))
-  - body line: S Moon → Saturn RA 152.9975 153 whole (76.77)
-  - other chart, star rows: H Galactic Centre → H Saturn RA 0.9089 conj (15.53) [Moon]
-  - other chart, star rows: H Meissa → H Saturn Dec 31.9961 32 whole (64.89) [Jupiter]
-  - other chart, star rows: H Sadalsuud → H Saturn RA 55.5588 55.5556 ninth (96.89) [Sun]
+  - sky line to Saturn: S Moon → Saturn RA 152.9975 153 whole (76.77)
+  - other chart, star rows: H Galactic Centre → H Saturn RA 0.9089 conj (15.53)
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - other chart, star rows: H Meissa → H Saturn Dec 31.9961 32 whole (64.89)
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+  - other chart, star rows: H Sadalsuud → H Saturn RA 55.5588 55.5556 ninth (96.89)
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
 - **J Pluto** (same body: S Pluto → J Pluto Dec 27.5168 17×φ golden (loose))
-  - star rows: J Deneb Algedi → J Pluto RA 113.2490 70×φ golden (34.58) [Sun]
-  - star rows: J Galactic Centre → J Pluto Dec 34.0153 34 whole (5.45) [Moon]
+  - star rows: J Deneb Algedi → J Pluto RA 113.2490 70×φ golden (34.58)
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - star rows: J Galactic Centre → J Pluto Dec 34.0153 34 whole (5.45)
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
 - **J Chiron** (same body: S Chiron → J Chiron RA 43.9759 44 whole (loose))
-  - top rows: S Sun → J Chiron RA 84.9991 85 whole (91.37) [Sun]
-  - star rows: J Alkaid → J Chiron RA 155.0102 155 whole (23.90) [Sun]
-  - star rows: J Sadalsuud → J Chiron RA 88.9968 55×φ golden (71.62) [Sun]
+  - top rows: S Sun → J Chiron RA 84.9991 85 whole (91.37)
+  - star rows: J Alkaid → J Chiron RA 155.0102 155 whole (23.90)
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: J Sadalsuud → J Chiron RA 88.9968 55×φ golden (71.62)
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
   - other chart, same body: S Chiron → H Chiron RA 12.9539 8×φ golden (loose)
-  - other chart, star rows: H Meissa → H Chiron Dec 8.0186 8 whole (0.48) [Jupiter]
+  - other chart, star rows: H Meissa → H Chiron Dec 8.0186 8 whole (0.48)
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
 - **J Ceres** (same body: S Ceres → J Ceres RA 111.5022 111.111 ninth (loose))
-  - star rows: J Facies → J Ceres Dec 0.2972 conj (0.01) [Moon]
-  - star rows: J Fomalhaut → J Ceres Dec 6.0158 6 whole (4.31) [Moon]
-  - star rows: J Rasalhague → J Ceres RA 42.9820 43 whole (0.97) [Sun]
-  - other chart, star rows: H Facies → H Ceres RA 132.0055 132 whole (52.58) [Moon]
+  - star rows: J Facies → J Ceres Dec 0.2972 conj (0.01)
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+  - star rows: J Fomalhaut → J Ceres Dec 6.0158 6 whole (4.31)
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: J Rasalhague → J Ceres RA 42.9820 43 whole (0.97)
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - other chart, star rows: H Facies → H Ceres RA 132.0055 132 whole (52.58)
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
 - **J Pallas** (same body: S Pallas → J Pallas Dec 17.8623 φ^6 phi power (loose))
-  - top rows: S Sun → J Pallas RA 45.9999 46 whole (98.58) [Sun]
-  - star rows: J Alkaid → J Pallas RA 73.9908 74 whole (29.17) [Sun]
-  - star rows: J Alphard → J Pallas RA 138.9806 139 whole (0.08) [Jupiter]
-  - star rows: J Sadalmelik → J Pallas Dec 8.9876 9 whole (14.48) [Sun]
-  - star rows: J Sadalsuud → J Pallas RA 42.0021 42 whole (79.83) [Sun]
+  - top rows: S Sun → J Pallas RA 45.9999 46 whole (98.58)
+  - star rows: J Alkaid → J Pallas RA 73.9908 74 whole (29.17)
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: J Alphard → J Pallas RA 138.9806 139 whole (0.08)
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: J Sadalmelik → J Pallas Dec 8.9876 9 whole (14.48)
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - star rows: J Sadalsuud → J Pallas RA 42.0021 42 whole (79.83)
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
   - other chart, same body: S Pallas → H Pallas RA 1.7657 1.77778 ninth (loose)
-  - other chart, star rows: H Castor → H Pallas RA 108.4233 67×φ golden (28.79) [Moon]
+  - other chart, star rows: H Castor → H Pallas RA 108.4233 67×φ golden (28.79)
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
 - **J Gonggong** (same body: S Gonggong → J Gonggong RA 8.9795 9 whole (loose))
-  - top rows: S Jupiter → J Gonggong Dec 13.3365 13.3333 ninth (96.18) [Jupiter]
-  - top rows: S Sun → J Gonggong RA 0.8052 conj (21.46) [Sun]
-  - star rows: J Castor → J Gonggong Dec 53.9932 54 whole (43.66) [Moon]
-  - star rows: J Deneb Algedi → J Gonggong RA 0.9339 conj (14.24) [Sun]
+  - top rows: S Jupiter → J Gonggong Dec 13.3365 13.3333 ninth (96.18)
+  - top rows: S Sun → J Gonggong RA 0.8052 conj (21.46)
+  - star rows: J Castor → J Gonggong Dec 53.9932 54 whole (43.66)
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
+  - star rows: J Deneb Algedi → J Gonggong RA 0.9339 conj (14.24)
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
   - other chart, same body: S Gonggong → H Gonggong Dec 1.0300 1 whole (loose)
-  - other chart, star rows: H Galactic Centre → H Gonggong Dec 16.6619 16.6667 ninth (95.91) [Moon]
+  - other chart, star rows: H Galactic Centre → H Gonggong Dec 16.6619 16.6667 ninth (95.91)
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
 - **J Transpluto** (same body: S Transpluto → J Transpluto RA 13.3233 13.3333 ninth (loose))
-  - star rows: J Alphard → J Transpluto RA 0.4137 conj (52.45) [Jupiter]
-  - star rows: J Deneb Algedi → J Transpluto RA 174.7346 108×φ golden (35.57) [Sun]
-  - star rows: J Facies → J Transpluto Dec 39.0137 39 whole (9.99) [Moon]
-  - star rows: J Rasalhague → J Transpluto RA 122.2437 122.222 ninth (97.02) [Sun]
-  - other chart, star rows: H Deneb Algedi → H Transpluto RA 173.9975 174 whole (76.81) [Sun]
-  - other chart, star rows: H Rasalhague → H Transpluto RA 110.9758 10×φ^5 phi power (75.05) [Sun]
-  - other chart, star rows: H Spica → H Transpluto RA 48.5424 30×φ golden (91.85) [Moon]
-### L3 the seven cases (L5 field tag on each)
+  - star rows: J Alphard → J Transpluto RA 0.4137 conj (52.45)
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: J Deneb Algedi → J Transpluto RA 174.7346 108×φ golden (35.57)
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - star rows: J Facies → J Transpluto Dec 39.0137 39 whole (9.99)
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+  - star rows: J Rasalhague → J Transpluto RA 122.2437 122.222 ninth (97.02)
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - other chart, star rows: H Deneb Algedi → H Transpluto RA 173.9975 174 whole (76.81)
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - other chart, star rows: H Rasalhague → H Transpluto RA 110.9758 10×φ^5 phi power (75.05)
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - other chart, star rows: H Spica → H Transpluto RA 48.5424 30×φ golden (91.85)
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
+### L3 matches
 - **1. same body on both charts**
   - Chiron — also: 2 Flying Instructor / Dylan Hogan
     - S Chiron → H Chiron RA 12.9539 8×φ golden (loose)
@@ -1420,30 +2447,50 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 102 whole — also: 1 The Dancing Poet / Harry Russell, 5 Carn A Chlamain / Tom Marquand
     - J Rasalhague → J Mars RA 101.9892 102 whole (20.99) = S Jupiter → Meissa RA 102.0057 102 whole (50.91)
 - **4. circle divisions**
-  - 3 = 360/120 — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+  - 3 = 360/120 — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
     - S Juno → H Juno Dec 3.0100 3 whole (24.89)
   - 1 = 360/360 — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
     - S Eris → H Eris Dec 1.0156 1 whole (4.89)
   - 1 = 360/360 — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
     - S Gonggong → H Gonggong Dec 1.0300 1 whole (loose)
-  - 2 = 360/180 — only
+  - 2 = 360/180 — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
     - S Jupiter → H Ketu Dec 2.0009 2 whole (91.59)
   - 1 = 360/360 — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
     - S Neptune → H Jupiter Dec 0.9969 1 whole (71.03)
   - 90 = 360/4 — also: 2 Flying Instructor / Dylan Hogan
     - H Aculeus → H Venus RA 89.9947 90 whole (53.74)
-  - 20 = 360/18 — only
+  - 8 = 360/45 — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan
+    - H Meissa → H Chiron Dec 8.0186 8 whole (0.48)
+  - 20 = 360/18 — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
     - H Spica → H Uranus Dec 19.9976 20 whole (77.27)
-  - 18 = 360/20 — also: 5 Carn A Chlamain / Tom Marquand
+  - 18 = 360/20 — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
     - S Sun → J Sun RA 17.9875 18 whole (14.05)
-  - 9 = 360/40 — also: 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+  - 9 = 360/40 — also: 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
     - S Gonggong → J Gonggong RA 8.9795 9 whole (loose)
   - 5 = 360/72 — also: 5 Carn A Chlamain / Tom Marquand
     - J Jupiter → J star Deneb Algedi Dec 5.0009 5 whole (91.09)
   - 1 = 360/360 — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
     - S Sun → J Quaoar Dec 0.9970 1 whole (72.49)
+  - 6 = 360/60 — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez
+    - J Alphard → J Vesta Dec 6.0160 6 whole (4.09)
+  - 30 = 360/12 — also: 2 Flying Instructor / Dylan Hogan
+    - J Castor → J Mars Dec 30.0060 30 whole (48.95)
   - 5 = 360/72 — also: 5 Carn A Chlamain / Tom Marquand
     - J Deneb Algedi → J Jupiter Dec 5.0009 5 whole (91.09)
+  - 18 = 360/20 — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+    - J Deneb Algedi → J Mars Dec 18.0108 18 whole (21.21)
+  - 5 = 360/72 — also: 5 Carn A Chlamain / Tom Marquand
+    - J Deneb Algedi → J Eris Dec 4.9851 5 whole (6.55)
+  - 6 = 360/60 — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez
+    - J Fomalhaut → J Ceres Dec 6.0158 6 whole (4.31)
+  - 36 = 360/10 — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez
+    - J Rasalhague → J Ketu Dec 35.9914 36 whole (32.28)
+  - 9 = 360/40 — also: 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+    - J Sadalmelik → J Pallas Dec 8.9876 9 whole (14.48)
+  - 12 = 360/30 — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+    - J Sadalmelik → J Quaoar Dec 12.0076 12 whole (38.73)
+  - 6 = 360/60 — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez
+    - J Sadalsuud → J Mercury RA 5.9875 6 whole (13.91)
 - **5. same number in more than one place**
   - φ^8 phi power — only
     - S Vesta → H Vesta Dec 46.8806 φ^8 phi power (loose)
@@ -1465,139 +2512,281 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 132 whole — only
     - H Facies → H Ceres RA 132.0055 132 whole (52.58)
     - J Galactic Centre → J Sedna RA 131.9998 132 whole (98.49)
+  - 90×φ golden — only
+    - H Sadalmelik → H Vesta RA 145.6015 90×φ golden (11.10)
+    - J Deneb Algedi → J Haumea RA 145.6148 90×φ golden (55.31)
   - φ^5 phi power — only
     - H Sadalmelik → H Rahu Dec 11.0904 φ^5 phi power (99.30)
     - H Sadalsuud → H Ketu RA 11.0910 φ^5 phi power (97.20)
+  - 18 whole — also: 7 Red Tornado / Jason Hart
+    - S Sun → J Sun RA 17.9875 18 whole (14.05)
+    - J Deneb Algedi → J Mars Dec 18.0108 18 whole (21.21)
+  - 9 whole — also: 7 Red Tornado / Jason Hart
+    - S Gonggong → J Gonggong RA 8.9795 9 whole (loose)
+    - J Sadalmelik → J Pallas Dec 8.9876 9 whole (14.48)
   - 13.3333 ninth — only
     - S Transpluto → J Transpluto RA 13.3233 13.3333 ninth (loose)
     - S Jupiter → J Gonggong Dec 13.3365 13.3333 ninth (96.18)
-  - 5 whole — only
+  - 5 whole — also: 5 Carn A Chlamain / Tom Marquand
     - J Jupiter → J star Deneb Algedi Dec 5.0009 5 whole (91.09)
     - J Deneb Algedi → J Jupiter Dec 5.0009 5 whole (91.09)
+    - J Deneb Algedi → J Eris Dec 4.9851 5 whole (6.55)
   - 102×φ golden — only
     - J Jupiter → J star Meissa RA 165.0461 102×φ golden (62.97)
     - S Meissa → J Jupiter RA 165.0443 102×φ golden (72.18)
   - 15.5556 ninth — only
     - J Jupiter → J star Sadalsuud Dec 15.5554 15.5556 ninth (99.85)
     - S Sadalsuud → J Jupiter Dec 15.5555 15.5556 ninth (99.91)
+  - 74 whole — only
+    - S Moon → J Sedna RA 73.9990 74 whole (90.03)
+    - J Alkaid → J Pallas RA 73.9908 74 whole (29.17)
+  - 102 whole — also: 1 The Dancing Poet / Harry Russell
+    - J Aculeus → J Vesta RA 101.9946 102 whole (53.53)
+    - J Rasalhague → J Mars RA 101.9892 102 whole (20.99)
+  - 6 whole — only
+    - J Alphard → J Vesta Dec 6.0160 6 whole (4.09)
+    - J Fomalhaut → J Ceres Dec 6.0158 6 whole (4.31)
+    - J Sadalsuud → J Mercury RA 5.9875 6 whole (13.91)
   - 155.556 ninth — only
     - J Castor → J Neptune RA 155.5457 155.556 ninth (99.07)
     - J Deneb Algedi → J Orcus RA 155.5459 155.556 ninth (99.09)
-- **6. star and sky line on one body**: none
-- **7. centres meeting**
-  - Juno: Jupiter, Moon, Sun — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
-    - [Jupiter] S Juno → H Juno Dec 3.0100 3 whole (24.89)
-    - [Jupiter] S Jupiter → H Juno Dec 0.2736 conj (0.78)
-    - [Jupiter] H Alphard → H Juno Dec 0.1672 conj (19.58)
-    - [Moon] J Galactic Centre → J Juno Dec 21.0054 21 whole (53.36)
-    - [Sun] S Sun → J Juno RA 0.4880 conj (45.52)
-    - [Sun] J Deneb Algedi → J Juno RA 0.6167 conj (34.67)
-  - Ketu: Jupiter, Moon, Sun — also: 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand
-    - [Jupiter] S Jupiter → H Ketu Dec 2.0009 2 whole (91.59)
-    - [Moon] H Spica → H Ketu RA 132.6748 82×φ golden (76.97)
-    - [Sun] H Sadalsuud → H Ketu RA 11.0910 φ^5 phi power (97.20)
-    - [Sun] J Rasalhague → J Ketu Dec 35.9914 36 whole (32.28)
-    - [Sun] J Sadalmelik → J Ketu RA 59.8629 37×φ golden (74.79)
-  - Jupiter: Jupiter, Moon, Sun — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
-    - [Jupiter] S Venus → H Jupiter RA 88.8837 88.8889 ninth (96.23)
-    - [Jupiter] S Neptune → H Jupiter RA 156.0020 156 whole (80.55)
-    - [Jupiter] S Neptune → H Jupiter Dec 0.9969 1 whole (71.03)
-    - [Jupiter] S Gonggong → H Jupiter RA 139.9957 140 whole (61.55)
-    - [Jupiter] S Vesta → J Jupiter Dec 0.0203 conj (86.95)
-    - [Jupiter] S Meissa → J Jupiter RA 165.0443 102×φ golden (72.18)
-    - [Moon] S Venus → H Jupiter RA 88.8837 88.8889 ninth (96.23)
-    - [Moon] S Neptune → H Jupiter RA 156.0020 156 whole (80.55)
-    - [Moon] S Neptune → H Jupiter Dec 0.9969 1 whole (71.03)
-    - [Moon] S Castor → H Jupiter RA 83.0175 83 whole (1.52)
-    - [Moon] S Castor → J Jupiter Dec 53.0157 53 whole (4.66)
-    - [Sun] S Sadalsuud → H Jupiter RA 126.2131 78×φ golden (64.12)
-    - [Sun] H Sadalsuud → H Jupiter Dec 0.1924 conj (12.86)
-    - [Sun] J Deneb Algedi → J Jupiter Dec 5.0009 5 whole (91.09)
-    - [Sun] S Sadalsuud → J Jupiter Dec 15.5555 15.5556 ninth (99.91)
-  - Sun: Moon, Sun — also: 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand
-    - [Moon] J Fomalhaut → J Sun RA 0.4650 conj (47.61)
-    - [Sun] H Aculeus → H Sun Dec 41.0160 41 whole (4.01)
-    - [Sun] J Rasalhague → J Sun Dec 19.0167 19 whole (2.67)
-    - [Sun] J Sadalsuud → J Sun RA 21.9852 22 whole (6.82)
-  - Venus: Moon, Sun — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez
-    - [Moon] H Spica → H Venus Dec 14.5693 9×φ golden (61.65)
-    - [Sun] H Aculeus → H Venus RA 89.9947 90 whole (53.74)
-  - Vesta: Jupiter, Sun — also: 7 Red Tornado / Jason Hart
-    - [Jupiter] J Alphard → J Vesta Dec 6.0160 6 whole (4.09)
-    - [Sun] H Aculeus → H Vesta Dec 57.9845 58 whole (5.02)
-    - [Sun] H Sadalmelik → H Vesta RA 145.6015 90×φ golden (11.10)
-    - [Sun] J Aculeus → J Vesta RA 101.9946 102 whole (53.53)
-    - [Sun] J Alkaid → J Vesta RA 160.1848 99×φ golden (96.66)
-  - Mercury: Jupiter, Sun — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
-    - [Jupiter] H Alphard → H Mercury RA 110.9424 10×φ^5 phi power (85.85)
-    - [Sun] J Alkaid → J Mercury RA 121.9804 122 whole (0.04)
-    - [Sun] J Sadalsuud → J Mercury RA 5.9875 6 whole (13.91)
-  - Haumea: Jupiter, Moon, Sun — also: 1 The Dancing Poet / Harry Russell
-    - [Jupiter] H Alphard → H Haumea Dec 26.0147 26 whole (6.97)
-    - [Moon] H Fomalhaut → H Haumea Dec 46.9767 φ^8 phi power (98.33)
-    - [Sun] J Deneb Algedi → J Haumea RA 145.6148 90×φ golden (55.31)
-  - Pallas: Jupiter, Moon, Sun — also: 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand
-    - [Jupiter] J Alphard → J Pallas RA 138.9806 139 whole (0.08)
-    - [Moon] H Castor → H Pallas RA 108.4233 67×φ golden (28.79)
-    - [Sun] S Sun → J Pallas RA 45.9999 46 whole (98.58)
-    - [Sun] J Alkaid → J Pallas RA 73.9908 74 whole (29.17)
-    - [Sun] J Sadalmelik → J Pallas Dec 8.9876 9 whole (14.48)
-    - [Sun] J Sadalsuud → J Pallas RA 42.0021 42 whole (79.83)
-  - Sedna: Jupiter, Moon, Sun — only
-    - [Jupiter] S Jupiter → J Sedna RA 56.6334 35×φ golden (86.88)
-    - [Moon] H Fomalhaut → H Sedna Dec 37.2131 23×φ golden (89.74)
-    - [Moon] S Moon → J Sedna RA 73.9990 74 whole (90.03)
-    - [Moon] J Facies → J Sedna Dec 27.0143 27 whole (8.07)
-    - [Moon] J Fomalhaut → J Sedna RA 54.0102 54 whole (23.88)
-    - [Moon] J Galactic Centre → J Sedna RA 131.9998 132 whole (98.49)
-    - [Sun] H Deneb Algedi → H Sedna RA 88.9811 89 whole (0.31)
-    - [Sun] H Rasalhague → H Sedna RA 152.0028 152 whole (73.87)
-    - [Sun] J Aculeus → J Sedna RA 133.3332 133.333 ninth (99.99)
-  - Transpluto: Jupiter, Moon, Sun — also: 7 Red Tornado / Jason Hart
-    - [Jupiter] J Alphard → J Transpluto RA 0.4137 conj (52.45)
-    - [Moon] H Spica → H Transpluto RA 48.5424 30×φ golden (91.85)
-    - [Moon] J Facies → J Transpluto Dec 39.0137 39 whole (9.99)
-    - [Sun] H Deneb Algedi → H Transpluto RA 173.9975 174 whole (76.81)
-    - [Sun] H Rasalhague → H Transpluto RA 110.9758 10×φ^5 phi power (75.05)
-    - [Sun] J Deneb Algedi → J Transpluto RA 174.7346 108×φ golden (35.57)
-    - [Sun] J Rasalhague → J Transpluto RA 122.2437 122.222 ninth (97.02)
-  - Ceres: Moon, Sun — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 7 Red Tornado / Jason Hart
-    - [Moon] H Facies → H Ceres RA 132.0055 132 whole (52.58)
-    - [Moon] J Facies → J Ceres Dec 0.2972 conj (0.01)
-    - [Moon] J Fomalhaut → J Ceres Dec 6.0158 6 whole (4.31)
-    - [Sun] J Rasalhague → J Ceres RA 42.9820 43 whole (0.97)
-  - Saturn: Jupiter, Moon, Sun — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
-    - [Jupiter] H Meissa → H Saturn Dec 31.9961 32 whole (64.89)
-    - [Moon] H Galactic Centre → H Saturn RA 0.9089 conj (15.53)
-    - [Moon] S Saturn → J Saturn Dec 6.1841 10×φ^-1 phi power (loose)
-    - [Sun] H Sadalsuud → H Saturn RA 55.5588 55.5556 ninth (96.89)
-  - Gonggong: Jupiter, Moon, Sun — also: 1 The Dancing Poet / Harry Russell
-    - [Jupiter] S Jupiter → J Gonggong Dec 13.3365 13.3333 ninth (96.18)
-    - [Moon] H Galactic Centre → H Gonggong Dec 16.6619 16.6667 ninth (95.91)
-    - [Moon] J Castor → J Gonggong Dec 53.9932 54 whole (43.66)
-    - [Sun] S Sun → J Gonggong RA 0.8052 conj (21.46)
-    - [Sun] J Deneb Algedi → J Gonggong RA 0.9339 conj (14.24)
-  - Chiron: Jupiter, Sun — also: 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
-    - [Jupiter] H Meissa → H Chiron Dec 8.0186 8 whole (0.48)
-    - [Sun] S Sun → J Chiron RA 84.9991 85 whole (91.37)
-    - [Sun] J Alkaid → J Chiron RA 155.0102 155 whole (23.90)
-    - [Sun] J Sadalsuud → J Chiron RA 88.9968 55×φ golden (71.62)
-  - Mars: Moon, Sun — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan
-    - [Moon] S Mars → J Mars RA 80.0208 80 whole (loose)
-    - [Moon] J Castor → J Mars Dec 30.0060 30 whole (48.95)
-    - [Sun] S Sun → J Mars RA 38.8388 24×φ golden (66.48)
-    - [Sun] J Deneb Algedi → J Mars Dec 18.0108 18 whole (21.21)
-    - [Sun] J Rasalhague → J Mars RA 101.9892 102 whole (20.99)
-  - Pluto: Moon, Sun — also: 3 Chase The Dollar / Rossa Ryan, 7 Red Tornado / Jason Hart
-    - [Moon] J Galactic Centre → J Pluto Dec 34.0153 34 whole (5.45)
-    - [Sun] J Deneb Algedi → J Pluto RA 113.2490 70×φ golden (34.58)
-  - Eris: Moon, Sun — also: 7 Red Tornado / Jason Hart
-    - [Moon] J Spica → J Eris Dec 0.0201 conj (87.02)
-    - [Sun] J Deneb Algedi → J Eris Dec 4.9851 5 whole (6.55)
-  - Orcus: Moon, Sun — also: 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
-    - [Moon] J Spica → J Orcus RA 79.0030 79 whole (72.04)
-    - [Sun] J Deneb Algedi → J Orcus RA 155.5459 155.556 ninth (99.09)
-    - [Sun] J Rasalhague → J Orcus RA 141.4324 141.4 sqrt2 (96.89)
+  - 54 whole — only
+    - J Castor → J Gonggong Dec 53.9932 54 whole (43.66)
+    - J Fomalhaut → J Sedna RA 54.0102 54 whole (23.88)
+  - 8 and 8×φ on H Chiron — only
+    - H Meissa → H Chiron Dec 8.0186 8 whole (0.48)
+    - S Chiron → H Chiron RA 12.9539 8×φ golden (loose)
+### L4 every natal body
+- **Chiron**
+  - same body: S Chiron → H Chiron RA 12.9539 8×φ golden (loose) — also: 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+  - star rows: H Meissa → H Chiron Dec 8.0186 8 whole (0.48) — also: 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+  - same body: S Chiron → J Chiron RA 43.9759 44 whole (loose) — also: 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+  - top rows: S Sun → J Chiron RA 84.9991 85 whole (91.37) — also: 3 Chase The Dollar / Rossa Ryan
+  - star rows: J Alkaid → J Chiron RA 155.0102 155 whole (23.90) — also: 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: J Sadalsuud → J Chiron RA 88.9968 55×φ golden (71.62) — also: 1 The Dancing Poet / Harry Russell, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+- **Pallas**
+  - same body: S Pallas → H Pallas RA 1.7657 1.77778 ninth (loose) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand
+  - star rows: H Castor → H Pallas RA 108.4233 67×φ golden (28.79) — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
+  - same body: S Pallas → J Pallas Dec 17.8623 φ^6 phi power (loose) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand
+  - top rows: S Sun → J Pallas RA 45.9999 46 whole (98.58) — only
+  - star rows: J Alkaid → J Pallas RA 73.9908 74 whole (29.17) — only
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: J Alphard → J Pallas RA 138.9806 139 whole (0.08) — only
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: J Sadalmelik → J Pallas Dec 8.9876 9 whole (14.48) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - star rows: J Sadalsuud → J Pallas RA 42.0021 42 whole (79.83) — only
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+- **Juno**
+  - same body: S Juno → H Juno Dec 3.0100 3 whole (24.89) — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez
+    - source line: S Jupiter → Juno RA 37.0056 37 whole (51.90)
+  - top rows: S Jupiter → H Juno Dec 0.2736 conj (0.78) — also: 2 Flying Instructor / Dylan Hogan
+  - star rows: H Alphard → H Juno Dec 0.1672 conj (19.58) — also: 2 Flying Instructor / Dylan Hogan
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - top rows: S Sun → J Juno RA 0.4880 conj (45.52) — only
+  - star rows: J Deneb Algedi → J Juno RA 0.6167 conj (34.67) — only
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - star rows: J Galactic Centre → J Juno Dec 21.0054 21 whole (53.36) — only
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+- **Vesta**
+  - same body: S Vesta → H Vesta Dec 46.8806 φ^8 phi power (loose) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 7 Red Tornado / Jason Hart
+  - star rows: H Aculeus → H Vesta Dec 57.9845 58 whole (5.02) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: H Sadalmelik → H Vesta RA 145.6015 90×φ golden (11.10) — also: 2 Flying Instructor / Dylan Hogan
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - star rows: J Aculeus → J Vesta RA 101.9946 102 whole (53.53) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: J Alkaid → J Vesta RA 160.1848 99×φ golden (96.66) — also: 2 Flying Instructor / Dylan Hogan
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: J Alphard → J Vesta Dec 6.0160 6 whole (4.09) — also: 7 Red Tornado / Jason Hart
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+- **Eris**
+  - same body: S Eris → H Eris Dec 1.0156 1 whole (4.89) — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+  - star rows: J Deneb Algedi → J Eris Dec 4.9851 5 whole (6.55) — also: 7 Red Tornado / Jason Hart
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - star rows: J Spica → J Eris Dec 0.0201 conj (87.02) — also: 3 Chase The Dollar / Rossa Ryan
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
+- **Gonggong**
+  - same body: S Gonggong → H Gonggong Dec 1.0300 1 whole (loose) — also: 1 The Dancing Poet / Harry Russell, 7 Red Tornado / Jason Hart
+  - star rows: H Galactic Centre → H Gonggong Dec 16.6619 16.6667 ninth (95.91) — also: 2 Flying Instructor / Dylan Hogan
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - same body: S Gonggong → J Gonggong RA 8.9795 9 whole (loose) — also: 1 The Dancing Poet / Harry Russell, 7 Red Tornado / Jason Hart
+  - top rows: S Jupiter → J Gonggong Dec 13.3365 13.3333 ninth (96.18) — only
+  - top rows: S Sun → J Gonggong RA 0.8052 conj (21.46) — only
+  - star rows: J Castor → J Gonggong Dec 53.9932 54 whole (43.66) — also: 3 Chase The Dollar / Rossa Ryan
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
+  - star rows: J Deneb Algedi → J Gonggong RA 0.9339 conj (14.24) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+- **Jupiter**
+  - T1: H Jupiter → H star Sadalsuud RA 126.2159 78×φ golden (50.81) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+  - top rows: S Venus → H Jupiter RA 88.8837 88.8889 ninth (96.23) — also: 1 The Dancing Poet / Harry Russell, 5 Carn A Chlamain / Tom Marquand
+    - source line: S Moon → Venus RA 173.1408 107×φ golden (42.72)
+  - top rows: S Neptune → H Jupiter RA 156.0020 156 whole (80.55) — only
+    - source line: S Moon → Neptune RA 119.7408 74×φ golden (65.12)
+  - top rows: S Neptune → H Jupiter Dec 0.9969 1 whole (71.03) — only
+    - source line: S Moon → Neptune RA 119.7408 74×φ golden (65.12)
+  - top rows: S Gonggong → H Jupiter RA 139.9957 140 whole (61.55) — only
+  - star rows: S Castor → H Jupiter RA 83.0175 83 whole (1.52) — also: 7 Red Tornado / Jason Hart
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
+  - star rows: S Sadalsuud → H Jupiter RA 126.2131 78×φ golden (64.12) — also: 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+  - star rows: H Sadalsuud → H Jupiter Dec 0.1924 conj (12.86) — also: 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+  - T2: J Jupiter → J star Deneb Algedi Dec 5.0009 5 whole (91.09) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+  - T2: J Jupiter → J star Meissa RA 165.0461 102×φ golden (62.97) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+  - T2: J Jupiter → J star Sadalsuud Dec 15.5554 15.5556 ninth (99.85) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+  - top rows: S Vesta → J Jupiter Dec 0.0203 conj (86.95) — only
+  - star rows: S Castor → J Jupiter Dec 53.0157 53 whole (4.66) — also: 7 Red Tornado / Jason Hart
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
+  - star rows: J Deneb Algedi → J Jupiter Dec 5.0009 5 whole (91.09) — also: 3 Chase The Dollar / Rossa Ryan
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - star rows: S Meissa → J Jupiter RA 165.0443 102×φ golden (72.18) — only
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+  - star rows: S Sadalsuud → J Jupiter Dec 15.5555 15.5556 ninth (99.91) — also: 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+- **Ketu**
+  - top rows: S Jupiter → H Ketu Dec 2.0009 2 whole (91.59) — also: 5 Carn A Chlamain / Tom Marquand
+  - star rows: H Sadalsuud → H Ketu RA 11.0910 φ^5 phi power (97.20) — also: 1 The Dancing Poet / Harry Russell
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+  - star rows: H Spica → H Ketu RA 132.6748 82×φ golden (76.97) — also: 2 Flying Instructor / Dylan Hogan
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
+  - star rows: J Rasalhague → J Ketu Dec 35.9914 36 whole (32.28) — only
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - star rows: J Sadalmelik → J Ketu RA 59.8629 37×φ golden (74.79) — also: 5 Carn A Chlamain / Tom Marquand
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+- **Makemake**
+  - top rows: S Moon → H Makemake Dec 0.1548 conj (23.44) — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+  - star rows: H Fomalhaut → H Makemake Dec 55.0193 34×φ golden (65.46) — also: 2 Flying Instructor / Dylan Hogan
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+- **Sun**
+  - star rows: H Aculeus → H Sun Dec 41.0160 41 whole (4.01) — also: 5 Carn A Chlamain / Tom Marquand
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - same body: S Sun → J Sun RA 17.9875 18 whole (14.05) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+  - star rows: J Fomalhaut → J Sun RA 0.4650 conj (47.61) — also: 4 Deluxe Music / Callum Rodriguez
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: J Rasalhague → J Sun Dec 19.0167 19 whole (2.67) — also: 3 Chase The Dollar / Rossa Ryan
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - star rows: J Sadalsuud → J Sun RA 21.9852 22 whole (6.82) — also: 3 Chase The Dollar / Rossa Ryan, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+- **Venus**
+  - star rows: H Aculeus → H Venus RA 89.9947 90 whole (53.74) — also: 3 Chase The Dollar / Rossa Ryan
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: H Spica → H Venus Dec 14.5693 9×φ golden (61.65) — only
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
+- **Rahu**
+  - star rows: H Aculeus → H Rahu RA 111.1081 111.111 ninth (99.50) — also: 4 Deluxe Music / Callum Rodriguez
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: H Sadalmelik → H Rahu Dec 11.0904 φ^5 phi power (99.30) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - star rows: J Sadalsuud → J Rahu Dec 29.0067 29 whole (44.35) — only
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+- **Mercury**
+  - star rows: H Alphard → H Mercury RA 110.9424 10×φ^5 phi power (85.85) — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: J Alkaid → J Mercury RA 121.9804 122 whole (0.04) — also: 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: J Sadalsuud → J Mercury RA 5.9875 6 whole (13.91) — also: 3 Chase The Dollar / Rossa Ryan
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+- **Haumea**
+  - star rows: H Alphard → H Haumea Dec 26.0147 26 whole (6.97) — only
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: H Fomalhaut → H Haumea Dec 46.9767 φ^8 phi power (98.33) — only
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: J Deneb Algedi → J Haumea RA 145.6148 90×φ golden (55.31) — also: 2 Flying Instructor / Dylan Hogan
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+- **Sedna**
+  - star rows: H Deneb Algedi → H Sedna RA 88.9811 89 whole (0.31) — only
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - star rows: H Fomalhaut → H Sedna Dec 37.2131 23×φ golden (89.74) — also: 5 Carn A Chlamain / Tom Marquand
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: H Rasalhague → H Sedna RA 152.0028 152 whole (73.87) — also: 3 Chase The Dollar / Rossa Ryan
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - top rows: S Jupiter → J Sedna RA 56.6334 35×φ golden (86.88) — only
+  - top rows: S Moon → J Sedna RA 73.9990 74 whole (90.03) — also: 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+  - star rows: J Aculeus → J Sedna RA 133.3332 133.333 ninth (99.99) — also: 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: J Facies → J Sedna Dec 27.0143 27 whole (8.07) — also: 2 Flying Instructor / Dylan Hogan
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+  - star rows: J Fomalhaut → J Sedna RA 54.0102 54 whole (23.88) — also: 5 Carn A Chlamain / Tom Marquand
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: J Galactic Centre → J Sedna RA 131.9998 132 whole (98.49) — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+- **Transpluto**
+  - star rows: H Deneb Algedi → H Transpluto RA 173.9975 174 whole (76.81) — also: 3 Chase The Dollar / Rossa Ryan, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - star rows: H Rasalhague → H Transpluto RA 110.9758 10×φ^5 phi power (75.05) — also: 7 Red Tornado / Jason Hart
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - star rows: H Spica → H Transpluto RA 48.5424 30×φ golden (91.85) — only
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
+  - same body: S Transpluto → J Transpluto RA 13.3233 13.3333 ninth (loose) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand
+  - star rows: J Alphard → J Transpluto RA 0.4137 conj (52.45) — also: 7 Red Tornado / Jason Hart
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: J Deneb Algedi → J Transpluto RA 174.7346 108×φ golden (35.57) — also: 3 Chase The Dollar / Rossa Ryan, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - star rows: J Facies → J Transpluto Dec 39.0137 39 whole (9.99) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+  - star rows: J Rasalhague → J Transpluto RA 122.2437 122.222 ninth (97.02) — also: 7 Red Tornado / Jason Hart
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+- **Ceres**
+  - star rows: H Facies → H Ceres RA 132.0055 132 whole (52.58) — also: 1 The Dancing Poet / Harry Russell, 7 Red Tornado / Jason Hart
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+  - same body: S Ceres → J Ceres RA 111.5022 111.111 ninth (loose) — also: 2 Flying Instructor / Dylan Hogan
+  - star rows: J Facies → J Ceres Dec 0.2972 conj (0.01) — also: 1 The Dancing Poet / Harry Russell, 7 Red Tornado / Jason Hart
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+  - star rows: J Fomalhaut → J Ceres Dec 6.0158 6 whole (4.31) — only
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: J Rasalhague → J Ceres RA 42.9820 43 whole (0.97) — also: 4 Deluxe Music / Callum Rodriguez
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+- **Neptune**
+  - star rows: H Fomalhaut → H Neptune RA 0.2004 conj (75.06) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 7 Red Tornado / Jason Hart
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: J Castor → J Neptune RA 155.5457 155.556 ninth (99.07) — only
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
+- **Saturn**
+  - star rows: H Galactic Centre → H Saturn RA 0.9089 conj (15.53) — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - star rows: H Meissa → H Saturn Dec 31.9961 32 whole (64.89) — also: 4 Deluxe Music / Callum Rodriguez
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+  - star rows: H Sadalsuud → H Saturn RA 55.5588 55.5556 ninth (96.89) — also: 2 Flying Instructor / Dylan Hogan
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+  - same body: S Saturn → J Saturn Dec 6.1841 10×φ^-1 phi power (loose) — also: 1 The Dancing Poet / Harry Russell, 5 Carn A Chlamain / Tom Marquand
+    - source line: S Moon → Saturn RA 152.9975 153 whole (76.77)
+- **Uranus**
+  - star rows: H Spica → H Uranus Dec 19.9976 20 whole (77.27) — also: 1 The Dancing Poet / Harry Russell
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
+  - star rows: J Castor → J Uranus RA 133.9824 134 whole (1.47) — also: 5 Carn A Chlamain / Tom Marquand
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
+- **Mars**
+  - same body: S Mars → J Mars RA 80.0208 80 whole (loose) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan
+    - source line: S Moon → Mars Dec 48.5423 30×φ golden (92.44)
+  - top rows: S Sun → J Mars RA 38.8388 24×φ golden (66.48) — only
+  - star rows: J Castor → J Mars Dec 30.0060 30 whole (48.95) — also: 4 Deluxe Music / Callum Rodriguez
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
+  - star rows: J Deneb Algedi → J Mars Dec 18.0108 18 whole (21.21) — only
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - star rows: J Rasalhague → J Mars RA 101.9892 102 whole (20.99) — also: 7 Red Tornado / Jason Hart
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+- **Pluto**
+  - same body: S Pluto → J Pluto Dec 27.5168 17×φ golden (loose) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+  - star rows: J Deneb Algedi → J Pluto RA 113.2490 70×φ golden (34.58) — also: 3 Chase The Dollar / Rossa Ryan, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - star rows: J Galactic Centre → J Pluto Dec 34.0153 34 whole (5.45) — also: 2 Flying Instructor / Dylan Hogan
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+- **Quaoar**
+  - top rows: S Sun → J Quaoar Dec 0.9970 1 whole (72.49) — only
+  - star rows: J Sadalmelik → J Quaoar Dec 12.0076 12 whole (38.73) — also: 4 Deluxe Music / Callum Rodriguez
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+- **Orcus**
+  - star rows: J Deneb Algedi → J Orcus RA 155.5459 155.556 ninth (99.09) — also: 4 Deluxe Music / Callum Rodriguez
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - star rows: J Rasalhague → J Orcus RA 141.4324 141.4 sqrt2 (96.89) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 7 Red Tornado / Jason Hart
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - star rows: J Spica → J Orcus RA 79.0030 79 whole (72.04) — also: 5 Carn A Chlamain / Tom Marquand
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
 
 ## 7 Red Tornado / Jason Hart
 ### L1 same bodies
@@ -1614,64 +2803,107 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - S Gonggong → J Gonggong RA 6.4652 4×φ golden (loose)
 ### L2 what lands on each same body
 - **H Sun** (same body: S Sun → H Sun RA 19.4016 12×φ golden (loose))
-  - star rows: H Sadalsuud → H Sun Dec 0.2981 conj (0.00) [Sun]
-  - star rows: H Spica → H Sun RA 144.9816 145 whole (0.65) [Moon]
+  - star rows: H Sadalsuud → H Sun Dec 0.2981 conj (0.00)
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+  - star rows: H Spica → H Sun RA 144.9816 145 whole (0.65)
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
   - other chart, same body: S Sun → J Sun RA 143.0085 143 whole (33.16)
-  - other chart, star rows: J Alkaid → J Sun RA 23.0042 23 whole (62.55) [Sun]
-  - other chart, star rows: J Alkaid → J Sun Dec 50.9962 51 whole (65.34) [Sun]
-  - other chart, star rows: J Alphard → J Sun RA 41.9808 42 whole (0.14) [Jupiter]
-  - other chart, star rows: J Deneb Algedi → J Sun Dec 14.4456 14.4444 ninth (98.77) [Sun]
-  - other chart, star rows: J Facies → J Sun Dec 22.2248 22.2222 ninth (96.45) [Moon]
-  - other chart, star rows: J Sadalsuud → J Sun RA 139.0196 139 whole (0.03) [Sun]
+  - other chart, star rows: J Alkaid → J Sun RA 23.0042 23 whole (62.55)
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - other chart, star rows: J Alkaid → J Sun Dec 50.9962 51 whole (65.34)
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - other chart, star rows: J Alphard → J Sun RA 41.9808 42 whole (0.14)
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - other chart, star rows: J Deneb Algedi → J Sun Dec 14.4456 14.4444 ninth (98.77)
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - other chart, star rows: J Facies → J Sun Dec 22.2248 22.2222 ninth (96.45)
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+  - other chart, star rows: J Sadalsuud → J Sun RA 139.0196 139 whole (0.03)
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
 - **H Vesta** (same body: S Vesta → H Vesta Dec 17.9232 φ^6 phi power (loose))
-  - star rows: H Deneb Algedi → H Vesta RA 38.8373 24×φ golden (74.42) [Sun]
-  - other chart, star rows: J Alphard → J Vesta Dec 28.0093 28 whole (28.56) [Jupiter]
-  - other chart, star rows: J Sadalsuud → J Vesta RA 133.3774 133.333 ninth (94.71) [Sun]
+  - star rows: H Deneb Algedi → H Vesta RA 38.8373 24×φ golden (74.42)
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - other chart, star rows: J Alphard → J Vesta Dec 28.0093 28 whole (28.56)
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - other chart, star rows: J Sadalsuud → J Vesta RA 133.3774 133.333 ninth (94.71)
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
 - **H Rahu** (same body: S Rahu → H Rahu Dec 41.3640 41.4 silver (loose))
-  - other chart, star rows: J Deneb Algedi → J Rahu RA 103.5857 64×φ golden (0.06) [Sun]
+  - other chart, star rows: J Deneb Algedi → J Rahu RA 103.5857 64×φ golden (0.06)
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
 - **H Orcus** (same body: S Orcus → H Orcus RA 8.9826 9 whole (1.64))
-  - star rows: H Fomalhaut → H Orcus RA 163.4056 101×φ golden (25.95) [Moon]
-  - star rows: H Sadalmelik → H Orcus RA 176.3726 109×φ golden (61.94) [Sun]
-  - other chart, star rows: J Fomalhaut → J Orcus RA 149.9833 150 whole (2.70) [Moon]
-  - other chart, star rows: J Galactic Centre → J Orcus RA 132.0149 132 whole (6.44) [Moon]
-  - other chart, star rows: J Rasalhague → J Orcus Dec 11.0999 φ^5 phi power (67.94) [Sun]
-  - other chart, star rows: J Sadalsuud → J Orcus RA 171.5075 106×φ golden (75.98) [Sun]
+  - star rows: H Fomalhaut → H Orcus RA 163.4056 101×φ golden (25.95)
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: H Sadalmelik → H Orcus RA 176.3726 109×φ golden (61.94)
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - other chart, star rows: J Fomalhaut → J Orcus RA 149.9833 150 whole (2.70)
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - other chart, star rows: J Galactic Centre → J Orcus RA 132.0149 132 whole (6.44)
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - other chart, star rows: J Rasalhague → J Orcus Dec 11.0999 φ^5 phi power (67.94)
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - other chart, star rows: J Sadalsuud → J Orcus RA 171.5075 106×φ golden (75.98)
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
 - **H Quaoar** (same body: S Quaoar → H Quaoar RA 12.9481 8×φ golden (77.65))
-  - body line: S Sun → Quaoar RA 50.1519 31×φ golden (60.58)
-  - top rows: S Jupiter → H Quaoar RA 77.9994 78 whole (93.92) [Jupiter]
-  - star rows: H Aculeus → H Quaoar RA 1.2997 conj (1.78) [Sun]
-  - star rows: H Alphard → H Quaoar Dec 6.9989 7 whole (89.06) [Jupiter]
-  - star rows: H Meissa → H Quaoar RA 179.9969 180 whole (71.14) [Jupiter]
-  - star rows: H Rasalhague → H Quaoar RA 0.0493 conj (93.53) [Sun]
+  - sky line to Quaoar: S Sun → Quaoar RA 50.1519 31×φ golden (60.58)
+  - top rows: S Jupiter → H Quaoar RA 77.9994 78 whole (93.92)
+  - star rows: H Aculeus → H Quaoar RA 1.2997 conj (1.78)
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: H Alphard → H Quaoar Dec 6.9989 7 whole (89.06)
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: H Meissa → H Quaoar RA 179.9969 180 whole (71.14)
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+  - star rows: H Rasalhague → H Quaoar RA 0.0493 conj (93.53)
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
 - **H Ketu** (same body: S Ketu → H Ketu Dec 41.3640 41.4 silver (loose))
-  - star rows: H Alkaid → H Ketu Dec 27.5009 17×φ golden (68.09) [Sun]
+  - star rows: H Alkaid → H Ketu Dec 27.5009 17×φ golden (68.09)
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
 - **J Sun** (same body: S Sun → J Sun RA 143.0085 143 whole (33.16))
-  - star rows: J Alkaid → J Sun RA 23.0042 23 whole (62.55) [Sun]
-  - star rows: J Alkaid → J Sun Dec 50.9962 51 whole (65.34) [Sun]
-  - star rows: J Alphard → J Sun RA 41.9808 42 whole (0.14) [Jupiter]
-  - star rows: J Deneb Algedi → J Sun Dec 14.4456 14.4444 ninth (98.77) [Sun]
-  - star rows: J Facies → J Sun Dec 22.2248 22.2222 ninth (96.45) [Moon]
-  - star rows: J Sadalsuud → J Sun RA 139.0196 139 whole (0.03) [Sun]
+  - star rows: J Alkaid → J Sun RA 23.0042 23 whole (62.55)
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: J Alkaid → J Sun Dec 50.9962 51 whole (65.34)
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: J Alphard → J Sun RA 41.9808 42 whole (0.14)
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: J Deneb Algedi → J Sun Dec 14.4456 14.4444 ninth (98.77)
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - star rows: J Facies → J Sun Dec 22.2248 22.2222 ninth (96.45)
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+  - star rows: J Sadalsuud → J Sun RA 139.0196 139 whole (0.03)
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
   - other chart, same body: S Sun → H Sun RA 19.4016 12×φ golden (loose)
-  - other chart, star rows: H Sadalsuud → H Sun Dec 0.2981 conj (0.00) [Sun]
-  - other chart, star rows: H Spica → H Sun RA 144.9816 145 whole (0.65) [Moon]
+  - other chart, star rows: H Sadalsuud → H Sun Dec 0.2981 conj (0.00)
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+  - other chart, star rows: H Spica → H Sun RA 144.9816 145 whole (0.65)
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
 - **J Chiron** (same body: S Chiron → J Chiron RA 158.9894 159 whole (21.94))
-  - star rows: J Alkaid → J Chiron RA 39.9831 40 whole (2.44) [Sun]
-  - star rows: J Alphard → J Chiron RA 25.0018 25 whole (82.65) [Jupiter]
-  - star rows: J Meissa → J Chiron Dec 9.0110 9 whole (20.13) [Jupiter]
-  - star rows: J Sadalsuud → J Chiron RA 155.9986 156 whole (86.34) [Sun]
+  - star rows: J Alkaid → J Chiron RA 39.9831 40 whole (2.44)
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: J Alphard → J Chiron RA 25.0018 25 whole (82.65)
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: J Meissa → J Chiron Dec 9.0110 9 whole (20.13)
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+  - star rows: J Sadalsuud → J Chiron RA 155.9986 156 whole (86.34)
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
 - **J Eris** (same body: S Eris → J Eris Dec 6.9841 7 whole (4.28))
-  - star rows: J Facies → J Eris Dec 15.5557 15.5556 ninth (99.85) [Moon]
-  - other chart, star rows: H Deneb Algedi → H Eris RA 57.9926 58 whole (39.69) [Sun]
-  - other chart, star rows: H Rasalhague → H Eris RA 121.0154 121 whole (5.18) [Sun]
+  - star rows: J Facies → J Eris Dec 15.5557 15.5556 ninth (99.85)
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+  - other chart, star rows: H Deneb Algedi → H Eris RA 57.9926 58 whole (39.69)
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - other chart, star rows: H Rasalhague → H Eris RA 121.0154 121 whole (5.18)
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
 - **J Haumea** (same body: S Haumea → J Haumea RA 26.0761 10×φ^2 phi power (loose))
-  - other chart, star rows: H Alkaid → H Haumea RA 1.4200 conj (0.28) [Sun]
-  - other chart, star rows: H Sadalsuud → H Haumea Dec 23.9912 24 whole (31.34) [Sun]
-  - other chart, star rows: H Spica → H Haumea RA 7.0080 7 whole (36.03) [Moon]
+  - other chart, star rows: H Alkaid → H Haumea RA 1.4200 conj (0.28)
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - other chart, star rows: H Sadalsuud → H Haumea Dec 23.9912 24 whole (31.34)
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+  - other chart, star rows: H Spica → H Haumea RA 7.0080 7 whole (36.03)
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
 - **J Gonggong** (same body: S Gonggong → J Gonggong RA 6.4652 4×φ golden (loose))
-  - star rows: J Sadalmelik → J Gonggong RA 1.2485 conj (2.81) [Sun]
-  - other chart, star rows: H Alkaid → H Gonggong Dec 63.1093 39×φ golden (66.35) [Sun]
-### L3 the seven cases (L5 field tag on each)
+  - star rows: J Sadalmelik → J Gonggong RA 1.2485 conj (2.81)
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - other chart, star rows: H Alkaid → H Gonggong Dec 63.1093 39×φ golden (66.35)
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+### L3 matches
 - **1. same body on both charts**
   - Sun — also: 3 Chase The Dollar / Rossa Ryan
     - S Sun → H Sun RA 19.4016 12×φ golden (loose)
@@ -1689,128 +2921,279 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 154 whole — only
     - J Sadalmelik → J Ceres RA 154.0123 154 whole (15.01) = S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
 - **4. circle divisions**
-  - 9 = 360/40 — also: 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+  - 9 = 360/40 — also: 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
     - S Orcus → H Orcus RA 8.9826 9 whole (1.64)
+  - 3 = 360/120 — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+    - H Alphard → H Neptune Dec 2.9802 3 whole (0.01)
+  - 18 = 360/20 — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+    - H Fomalhaut → H Neptune Dec 17.9836 18 whole (3.24)
+  - 9 = 360/40 — also: 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+    - H Fomalhaut → H Pallas RA 8.9866 9 whole (10.85)
   - 180 = 360/2 — only
     - H Meissa → H Quaoar RA 179.9969 180 whole (71.14)
+  - 2 = 360/180 — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+    - H Rasalhague → H Mars Dec 1.9852 2 whole (6.85)
+  - 4 = 360/90 — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez
+    - H Sadalmelik → H Pallas RA 3.9805 4 whole (0.05)
+  - 180 = 360/2 — only
+    - H Sadalmelik → H Transpluto RA 179.9802 180 whole (0.01)
+  - 24 = 360/15 — also: 5 Carn A Chlamain / Tom Marquand
+    - H Sadalsuud → H Haumea Dec 23.9912 24 whole (31.34)
+  - 18 = 360/20 — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+    - J Aculeus → J Mercury Dec 18.0195 18 whole (0.06)
+  - 60 = 360/6 — also: 4 Deluxe Music / Callum Rodriguez
+    - J Alkaid → J Saturn Dec 60.0125 60 whole (14.05)
+  - 40 = 360/9 — also: 5 Carn A Chlamain / Tom Marquand
+    - J Alkaid → J Chiron RA 39.9831 40 whole (2.44)
+  - 10 = 360/36 — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+    - J Deneb Algedi → J Pluto Dec 9.9879 10 whole (15.78)
+  - 18 = 360/20 — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+    - J Facies → J Juno Dec 18.0110 18 whole (20.21)
+  - 9 = 360/40 — also: 3 Chase The Dollar / Rossa Ryan, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+    - J Meissa → J Chiron Dec 9.0110 9 whole (20.13)
   - 1 = 360/360 — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
     - J Rasalhague → J Transpluto Dec 1.0028 1 whole (74.04)
 - **5. same number in more than one place**
   - 41.4 silver — only
     - S Rahu → H Rahu Dec 41.3640 41.4 silver (loose)
     - S Ketu → H Ketu Dec 41.3640 41.4 silver (loose)
+  - 9 whole — also: 6 Flamingo Rose / Dougie Costello
+    - S Orcus → H Orcus RA 8.9826 9 whole (1.64)
+    - H Fomalhaut → H Pallas RA 8.9866 9 whole (10.85)
+    - J Meissa → J Chiron Dec 9.0110 9 whole (20.13)
+  - 78 whole — only
+    - S Jupiter → H Quaoar RA 77.9994 78 whole (93.92)
+    - H Castor → H Jupiter RA 78.0167 78 whole (2.78)
+  - 96×φ golden — only
+    - H Alkaid → H Mercury RA 155.3567 96×φ golden (4.52)
+    - J Aculeus → J Pallas RA 155.3367 96×φ golden (68.99)
   - 17×φ golden — only
     - H Alkaid → H Ketu Dec 27.5009 17×φ golden (68.09)
     - J Alkaid → J Mars Dec 27.5064 17×φ golden (99.04)
     - J Rasalhague → J Pallas Dec 27.5040 17×φ golden (84.94)
-  - 7 whole — also: 1 The Dancing Poet / Harry Russell
+  - 7 whole — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan
     - H Alphard → H Quaoar Dec 6.9989 7 whole (89.06)
     - H Meissa → H Mercury Dec 7.0034 7 whole (68.77)
+    - H Spica → H Haumea RA 7.0080 7 whole (36.03)
     - S Eris → J Eris Dec 6.9841 7 whole (4.28)
+  - 18 whole — also: 6 Flamingo Rose / Dougie Costello
+    - H Fomalhaut → H Neptune Dec 17.9836 18 whole (3.24)
+    - J Aculeus → J Mercury Dec 18.0195 18 whole (0.06)
+    - J Facies → J Juno Dec 18.0110 18 whole (20.21)
+  - 180 whole — only
+    - H Meissa → H Quaoar RA 179.9969 180 whole (71.14)
+    - H Sadalmelik → H Transpluto RA 179.9802 180 whole (0.01)
   - 22.2222 ninth — only
     - J Alphard → J Transpluto Dec 22.2223 22.2222 ninth (99.85)
     - J Facies → J Sun Dec 22.2248 22.2222 ninth (96.45)
-- **6. star and sky line on one body**
-  - H Quaoar on Rasalhague — only
-    - H Rasalhague → H Quaoar RA 0.0493 conj (93.53)
-    - S Jupiter → H Quaoar RA 77.9994 78 whole (93.92)
-- **7. centres meeting**
-  - Quaoar: Jupiter, Sun — also: 4 Deluxe Music / Callum Rodriguez
-    - [Jupiter] S Jupiter → H Quaoar RA 77.9994 78 whole (93.92)
-    - [Jupiter] H Alphard → H Quaoar Dec 6.9989 7 whole (89.06)
-    - [Jupiter] H Meissa → H Quaoar RA 179.9969 180 whole (71.14)
-    - [Sun] S Quaoar → H Quaoar RA 12.9481 8×φ golden (77.65)
-    - [Sun] H Aculeus → H Quaoar RA 1.2997 conj (1.78)
-    - [Sun] H Rasalhague → H Quaoar RA 0.0493 conj (93.53)
-  - Saturn: Jupiter, Moon, Sun — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
-    - [Jupiter] S Jupiter → H Saturn Dec 0.2674 conj (1.18)
-    - [Jupiter] H Alphard → H Saturn Dec 0.1608 conj (21.52)
-    - [Moon] H Castor → H Saturn RA 94.0012 94 whole (87.96)
-    - [Sun] H Alkaid → H Saturn RA 0.7636 conj (24.10)
-    - [Sun] J Alkaid → J Saturn Dec 60.0125 60 whole (14.05)
-  - Pluto: Moon, Sun — also: 3 Chase The Dollar / Rossa Ryan, 6 Flamingo Rose / Dougie Costello
-    - [Moon] H Facies → H Pluto RA 0.4719 conj (46.98)
-    - [Sun] H Aculeus → H Pluto Dec 12.9965 13 whole (67.67)
-    - [Sun] J Deneb Algedi → J Pluto Dec 9.9879 10 whole (15.78)
-  - Juno: Moon, Sun — also: 1 The Dancing Poet / Harry Russell
-    - [Moon] J Facies → J Juno Dec 18.0110 18 whole (20.21)
-    - [Sun] H Aculeus → H Juno RA 18.8898 18.8889 ninth (99.33)
-    - [Sun] J Sadalsuud → J Juno RA 103.5234 64×φ golden (0.24)
-  - Mercury: Jupiter, Sun — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
-    - [Jupiter] H Meissa → H Mercury Dec 7.0034 7 whole (68.77)
-    - [Sun] H Alkaid → H Mercury RA 155.3567 96×φ golden (4.52)
-    - [Sun] J Aculeus → J Mercury Dec 18.0195 18 whole (0.06)
-    - [Sun] J Alkaid → J Mercury RA 0.1764 conj (77.87)
-    - [Sun] J Deneb Algedi → J Mercury RA 119.7095 74×φ golden (5.22)
-  - Venus: Jupiter, Moon, Sun — also: 3 Chase The Dollar / Rossa Ryan
-    - [Jupiter] S Jupiter → J Venus RA 122.2954 122.222 ninth (89.87)
-    - [Moon] J Galactic Centre → J Venus RA 46.9295 29×φ golden (63.81)
-    - [Sun] H Alkaid → H Venus RA 179.6166 111×φ golden (29.43)
-    - [Sun] H Rasalhague → H Venus Dec 0.1524 conj (24.20)
-  - Haumea: Moon, Sun — only
-    - [Moon] H Spica → H Haumea RA 7.0080 7 whole (36.03)
-    - [Sun] H Alkaid → H Haumea RA 1.4200 conj (0.28)
-    - [Sun] H Sadalsuud → H Haumea Dec 23.9912 24 whole (31.34)
-  - Neptune: Jupiter, Moon, Sun — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
-    - [Jupiter] H Alphard → H Neptune Dec 2.9802 3 whole (0.01)
-    - [Moon] H Fomalhaut → H Neptune Dec 17.9836 18 whole (3.24)
-    - [Sun] J Aculeus → J Neptune Dec 10.9860 11 whole (8.93)
-  - Jupiter: Jupiter, Moon, Sun — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
-    - [Jupiter] S Quaoar → J Jupiter Dec 0.0827 conj (52.47)
-    - [Moon] H Castor → H Jupiter RA 78.0167 78 whole (2.78)
-    - [Sun] S Quaoar → J Jupiter Dec 0.0827 conj (52.47)
-  - Vesta: Jupiter, Sun — also: 6 Flamingo Rose / Dougie Costello
-    - [Jupiter] J Alphard → J Vesta Dec 28.0093 28 whole (28.56)
-    - [Sun] H Deneb Algedi → H Vesta RA 38.8373 24×φ golden (74.42)
-    - [Sun] J Sadalsuud → J Vesta RA 133.3774 133.333 ninth (94.71)
-  - Eris: Moon, Sun — also: 6 Flamingo Rose / Dougie Costello
-    - [Moon] J Facies → J Eris Dec 15.5557 15.5556 ninth (99.85)
-    - [Sun] H Deneb Algedi → H Eris RA 57.9926 58 whole (39.69)
-    - [Sun] H Rasalhague → H Eris RA 121.0154 121 whole (5.18)
-  - Pallas: Moon, Sun — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez
-    - [Moon] H Fomalhaut → H Pallas RA 8.9866 9 whole (10.85)
-    - [Moon] H Galactic Centre → H Pallas RA 69.0059 69 whole (49.45)
-    - [Moon] H Galactic Centre → H Pallas Dec 28.9988 29 whole (88.59)
-    - [Moon] S Moon → J Pallas RA 51.9951 52 whole (57.24)
-    - [Moon] J Fomalhaut → J Pallas RA 76.0013 76 whole (87.47)
-    - [Moon] J Galactic Centre → J Pallas RA 154.0031 154 whole (71.51)
-    - [Sun] H Sadalmelik → H Pallas RA 3.9805 4 whole (0.05)
-    - [Sun] J Aculeus → J Pallas RA 155.3367 96×φ golden (68.99)
-    - [Sun] J Rasalhague → J Pallas Dec 27.5040 17×φ golden (84.94)
-  - Orcus: Moon, Sun — also: 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
-    - [Moon] H Fomalhaut → H Orcus RA 163.4056 101×φ golden (25.95)
-    - [Moon] J Fomalhaut → J Orcus RA 149.9833 150 whole (2.70)
-    - [Moon] J Galactic Centre → J Orcus RA 132.0149 132 whole (6.44)
-    - [Sun] H Sadalmelik → H Orcus RA 176.3726 109×φ golden (61.94)
-    - [Sun] J Rasalhague → J Orcus Dec 11.0999 φ^5 phi power (67.94)
-    - [Sun] J Sadalsuud → J Orcus RA 171.5075 106×φ golden (75.98)
-  - Transpluto: Jupiter, Moon, Sun — also: 6 Flamingo Rose / Dougie Costello
-    - [Jupiter] J Alphard → J Transpluto Dec 22.2223 22.2222 ninth (99.85)
-    - [Moon] H Fomalhaut → H Transpluto RA 167.0131 167 whole (11.76)
-    - [Moon] H Galactic Centre → H Transpluto RA 114.9943 115 whole (51.37)
-    - [Sun] H Sadalmelik → H Transpluto RA 179.9802 180 whole (0.01)
-    - [Sun] J Deneb Algedi → J Transpluto RA 179.4207 10×φ^6 phi power (95.15)
-    - [Sun] J Rasalhague → J Transpluto Dec 1.0028 1 whole (74.04)
-    - [Sun] J Sadalmelik → J Transpluto RA 174.7344 108×φ golden (34.80)
-  - Mars: Jupiter, Sun — only
-    - [Jupiter] H Meissa → H Mars RA 82.0139 82 whole (9.21)
-    - [Sun] H Rasalhague → H Mars Dec 1.9852 2 whole (6.85)
-    - [Sun] J Alkaid → J Mars Dec 27.5064 17×φ golden (99.04)
-    - [Sun] J Rasalhague → J Mars RA 145.6034 90×φ golden (15.47)
-  - Sun: Jupiter, Moon, Sun — also: 1 The Dancing Poet / Harry Russell
-    - [Jupiter] J Alphard → J Sun RA 41.9808 42 whole (0.14)
-    - [Moon] H Spica → H Sun RA 144.9816 145 whole (0.65)
-    - [Moon] J Facies → J Sun Dec 22.2248 22.2222 ninth (96.45)
-    - [Sun] H Sadalsuud → H Sun Dec 0.2981 conj (0.00)
-    - [Sun] J Alkaid → J Sun RA 23.0042 23 whole (62.55)
-    - [Sun] J Alkaid → J Sun Dec 50.9962 51 whole (65.34)
-    - [Sun] J Deneb Algedi → J Sun Dec 14.4456 14.4444 ninth (98.77)
-    - [Sun] J Sadalsuud → J Sun RA 139.0196 139 whole (0.03)
-  - Chiron: Jupiter, Sun — also: 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
-    - [Jupiter] J Alphard → J Chiron RA 25.0018 25 whole (82.65)
-    - [Jupiter] J Meissa → J Chiron Dec 9.0110 9 whole (20.13)
-    - [Sun] J Alkaid → J Chiron RA 39.9831 40 whole (2.44)
-    - [Sun] J Sadalsuud → J Chiron RA 155.9986 156 whole (86.34)
-  - Ceres: Moon, Sun — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 6 Flamingo Rose / Dougie Costello
-    - [Moon] J Facies → J Ceres Dec 47.0135 47 whole (10.43)
-    - [Sun] J Sadalmelik → J Ceres RA 154.0123 154 whole (15.01)
+  - 64×φ golden — only
+    - J Deneb Algedi → J Rahu RA 103.5857 64×φ golden (0.06)
+    - J Sadalsuud → J Juno RA 103.5234 64×φ golden (0.24)
+  - 154 whole — only
+    - J Galactic Centre → J Pallas RA 154.0031 154 whole (71.51)
+    - J Sadalmelik → J Ceres RA 154.0123 154 whole (15.01)
+### L4 every natal body
+- **Sun**
+  - same body: S Sun → H Sun RA 19.4016 12×φ golden (loose) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+  - star rows: H Sadalsuud → H Sun Dec 0.2981 conj (0.00) — also: 3 Chase The Dollar / Rossa Ryan, 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+  - star rows: H Spica → H Sun RA 144.9816 145 whole (0.65) — also: 2 Flying Instructor / Dylan Hogan
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
+  - same body: S Sun → J Sun RA 143.0085 143 whole (33.16) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+  - star rows: J Alkaid → J Sun RA 23.0042 23 whole (62.55) — also: 3 Chase The Dollar / Rossa Ryan
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: J Alkaid → J Sun Dec 50.9962 51 whole (65.34) — also: 3 Chase The Dollar / Rossa Ryan
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: J Alphard → J Sun RA 41.9808 42 whole (0.14) — also: 3 Chase The Dollar / Rossa Ryan
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: J Deneb Algedi → J Sun Dec 14.4456 14.4444 ninth (98.77) — also: 1 The Dancing Poet / Harry Russell
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - star rows: J Facies → J Sun Dec 22.2248 22.2222 ninth (96.45) — also: 5 Carn A Chlamain / Tom Marquand
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+  - star rows: J Sadalsuud → J Sun RA 139.0196 139 whole (0.03) — also: 3 Chase The Dollar / Rossa Ryan, 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+- **Vesta**
+  - same body: S Vesta → H Vesta Dec 17.9232 φ^6 phi power (loose) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 6 Flamingo Rose / Dougie Costello
+  - star rows: H Deneb Algedi → H Vesta RA 38.8373 24×φ golden (74.42) — only
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - star rows: J Alphard → J Vesta Dec 28.0093 28 whole (28.56) — also: 6 Flamingo Rose / Dougie Costello
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: J Sadalsuud → J Vesta RA 133.3774 133.333 ninth (94.71) — also: 5 Carn A Chlamain / Tom Marquand
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+- **Rahu**
+  - same body: S Rahu → H Rahu Dec 41.3640 41.4 silver (loose) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+  - star rows: J Deneb Algedi → J Rahu RA 103.5857 64×φ golden (0.06) — also: 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+- **Orcus**
+  - same body: S Orcus → H Orcus RA 8.9826 9 whole (1.64) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+  - star rows: H Fomalhaut → H Orcus RA 163.4056 101×φ golden (25.95) — also: 4 Deluxe Music / Callum Rodriguez
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: H Sadalmelik → H Orcus RA 176.3726 109×φ golden (61.94) — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - star rows: J Fomalhaut → J Orcus RA 149.9833 150 whole (2.70) — also: 4 Deluxe Music / Callum Rodriguez
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: J Galactic Centre → J Orcus RA 132.0149 132 whole (6.44) — only
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - star rows: J Rasalhague → J Orcus Dec 11.0999 φ^5 phi power (67.94) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - star rows: J Sadalsuud → J Orcus RA 171.5075 106×φ golden (75.98) — also: 1 The Dancing Poet / Harry Russell
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+- **Quaoar**
+  - same body: S Quaoar → H Quaoar RA 12.9481 8×φ golden (77.65) — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez
+    - source line: S Sun → Quaoar RA 50.1519 31×φ golden (60.58)
+  - top rows: S Jupiter → H Quaoar RA 77.9994 78 whole (93.92) — only
+  - star rows: H Aculeus → H Quaoar RA 1.2997 conj (1.78) — also: 4 Deluxe Music / Callum Rodriguez
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: H Alphard → H Quaoar Dec 6.9989 7 whole (89.06) — only
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: H Meissa → H Quaoar RA 179.9969 180 whole (71.14) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+  - star rows: H Rasalhague → H Quaoar RA 0.0493 conj (93.53) — also: 5 Carn A Chlamain / Tom Marquand
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+- **Ketu**
+  - same body: S Ketu → H Ketu Dec 41.3640 41.4 silver (loose) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+  - star rows: H Alkaid → H Ketu Dec 27.5009 17×φ golden (68.09) — also: 2 Flying Instructor / Dylan Hogan
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+- **Saturn**
+  - top rows: S Jupiter → H Saturn Dec 0.2674 conj (1.18) — only
+  - star rows: H Alkaid → H Saturn RA 0.7636 conj (24.10) — also: 2 Flying Instructor / Dylan Hogan
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: H Alphard → H Saturn Dec 0.1608 conj (21.52) — also: 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: H Castor → H Saturn RA 94.0012 94 whole (87.96) — also: 1 The Dancing Poet / Harry Russell
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
+  - star rows: J Alkaid → J Saturn Dec 60.0125 60 whole (14.05) — also: 2 Flying Instructor / Dylan Hogan
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+- **Pluto**
+  - star rows: H Aculeus → H Pluto Dec 12.9965 13 whole (67.67) — only
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: H Facies → H Pluto RA 0.4719 conj (46.98) — also: 4 Deluxe Music / Callum Rodriguez
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+  - star rows: J Deneb Algedi → J Pluto Dec 9.9879 10 whole (15.78) — also: 3 Chase The Dollar / Rossa Ryan, 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+- **Juno**
+  - star rows: H Aculeus → H Juno RA 18.8898 18.8889 ninth (99.33) — also: 1 The Dancing Poet / Harry Russell
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: J Facies → J Juno Dec 18.0110 18 whole (20.21) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+  - star rows: J Sadalsuud → J Juno RA 103.5234 64×φ golden (0.24) — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+- **Mercury**
+  - star rows: H Alkaid → H Mercury RA 155.3567 96×φ golden (4.52) — also: 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: H Meissa → H Mercury Dec 7.0034 7 whole (68.77) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+  - star rows: J Aculeus → J Mercury Dec 18.0195 18 whole (0.06) — also: 2 Flying Instructor / Dylan Hogan
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: J Alkaid → J Mercury RA 0.1764 conj (77.87) — also: 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: J Deneb Algedi → J Mercury RA 119.7095 74×φ golden (5.22) — only
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+- **Venus**
+  - star rows: H Alkaid → H Venus RA 179.6166 111×φ golden (29.43) — also: 5 Carn A Chlamain / Tom Marquand
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: H Rasalhague → H Venus Dec 0.1524 conj (24.20) — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - top rows: S Jupiter → J Venus RA 122.2954 122.222 ninth (89.87) — only
+  - star rows: J Galactic Centre → J Venus RA 46.9295 29×φ golden (63.81) — also: 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+- **Haumea**
+  - star rows: H Alkaid → H Haumea RA 1.4200 conj (0.28) — only
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: H Sadalsuud → H Haumea Dec 23.9912 24 whole (31.34) — also: 3 Chase The Dollar / Rossa Ryan
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+  - star rows: H Spica → H Haumea RA 7.0080 7 whole (36.03) — only
+    - source line: S Moon → Spica RA 88.8867 88.8889 ninth (98.39)
+  - same body: S Haumea → J Haumea RA 26.0761 10×φ^2 phi power (loose) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+- **Gonggong**
+  - star rows: H Alkaid → H Gonggong Dec 63.1093 39×φ golden (66.35) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - same body: S Gonggong → J Gonggong RA 6.4652 4×φ golden (loose) — also: 1 The Dancing Poet / Harry Russell, 6 Flamingo Rose / Dougie Costello
+  - star rows: J Sadalmelik → J Gonggong RA 1.2485 conj (2.81) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+- **Neptune**
+  - star rows: H Alphard → H Neptune Dec 2.9802 3 whole (0.01) — also: 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: H Fomalhaut → H Neptune Dec 17.9836 18 whole (3.24) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: J Aculeus → J Neptune Dec 10.9860 11 whole (8.93) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+- **Jupiter**
+  - star rows: H Castor → H Jupiter RA 78.0167 78 whole (2.78) — also: 6 Flamingo Rose / Dougie Costello
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
+  - top rows: S Quaoar → J Jupiter Dec 0.0827 conj (52.47) — also: 4 Deluxe Music / Callum Rodriguez
+    - source line: S Sun → Quaoar RA 50.1519 31×φ golden (60.58)
+- **Sedna**
+  - star rows: H Castor → H Sedna RA 61.0089 61 whole (30.75) — only
+    - source line: S Moon → Castor RA 1.2396 conj (3.01)
+- **Eris**
+  - star rows: H Deneb Algedi → H Eris RA 57.9926 58 whole (39.69) — also: 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - star rows: H Rasalhague → H Eris RA 121.0154 121 whole (5.18) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - same body: S Eris → J Eris Dec 6.9841 7 whole (4.28) — also: 1 The Dancing Poet / Harry Russell, 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+  - star rows: J Facies → J Eris Dec 15.5557 15.5556 ninth (99.85) — only
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+- **Pallas**
+  - star rows: H Fomalhaut → H Pallas RA 8.9866 9 whole (10.85) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: H Galactic Centre → H Pallas RA 69.0059 69 whole (49.45) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - star rows: H Galactic Centre → H Pallas Dec 28.9988 29 whole (88.59) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - star rows: H Sadalmelik → H Pallas RA 3.9805 4 whole (0.05) — also: 1 The Dancing Poet / Harry Russell, 3 Chase The Dollar / Rossa Ryan, 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - top rows: S Moon → J Pallas RA 51.9951 52 whole (57.24) — only
+  - star rows: J Aculeus → J Pallas RA 155.3367 96×φ golden (68.99) — also: 5 Carn A Chlamain / Tom Marquand
+    - source line: S Sun → Aculeus RA 61.8026 100×φ^-1 phi power (99.49)
+  - star rows: J Fomalhaut → J Pallas RA 76.0013 76 whole (87.47) — also: 2 Flying Instructor / Dylan Hogan, 4 Deluxe Music / Callum Rodriguez
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: J Galactic Centre → J Pallas RA 154.0031 154 whole (71.51) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan, 4 Deluxe Music / Callum Rodriguez
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - star rows: J Rasalhague → J Pallas Dec 27.5040 17×φ golden (84.94) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+- **Transpluto**
+  - star rows: H Fomalhaut → H Transpluto RA 167.0131 167 whole (11.76) — also: 2 Flying Instructor / Dylan Hogan
+    - source line: S Moon → Fomalhaut RA 128.0048 128 whole (57.65)
+  - star rows: H Galactic Centre → H Transpluto RA 114.9943 115 whole (51.37) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan
+    - source line: S Moon → Galactic Centre RA 153.9991 154 whole (91.44)
+  - star rows: H Sadalmelik → H Transpluto RA 179.9802 180 whole (0.01) — also: 1 The Dancing Poet / Harry Russell
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+  - star rows: J Alphard → J Transpluto Dec 22.2223 22.2222 ninth (99.85) — also: 6 Flamingo Rose / Dougie Costello
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: J Deneb Algedi → J Transpluto RA 179.4207 10×φ^6 phi power (95.15) — also: 3 Chase The Dollar / Rossa Ryan, 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Deneb Algedi RA 0.1261 conj (83.89)
+  - star rows: J Rasalhague → J Transpluto Dec 1.0028 1 whole (74.04) — also: 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - star rows: J Sadalmelik → J Transpluto RA 174.7344 108×φ golden (34.80) — also: 1 The Dancing Poet / Harry Russell
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+- **Mars**
+  - star rows: H Meissa → H Mars RA 82.0139 82 whole (9.21) — also: 5 Carn A Chlamain / Tom Marquand
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+  - star rows: H Rasalhague → H Mars Dec 1.9852 2 whole (6.85) — also: 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+  - star rows: J Alkaid → J Mars Dec 27.5064 17×φ golden (99.04) — also: 1 The Dancing Poet / Harry Russell, 2 Flying Instructor / Dylan Hogan
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: J Rasalhague → J Mars RA 145.6034 90×φ golden (15.47) — also: 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+- **Makemake**
+  - star rows: H Rasalhague → H Makemake RA 72.9982 73 whole (83.15) — also: 2 Flying Instructor / Dylan Hogan
+    - source line: S Sun → Rasalhague Dec 25.8824 16×φ golden (65.78)
+- **Chiron**
+  - same body: S Chiron → J Chiron RA 158.9894 159 whole (21.94) — also: 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand, 6 Flamingo Rose / Dougie Costello
+  - star rows: J Alkaid → J Chiron RA 39.9831 40 whole (2.44) — also: 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Alkaid RA 119.9949 120 whole (55.43)
+  - star rows: J Alphard → J Chiron RA 25.0018 25 whole (82.65) — also: 4 Deluxe Music / Callum Rodriguez
+    - source line: S Jupiter → Alphard Dec 0.1073 conj (41.25)
+  - star rows: J Meissa → J Chiron Dec 9.0110 9 whole (20.13) — also: 4 Deluxe Music / Callum Rodriguez, 6 Flamingo Rose / Dougie Costello
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)
+  - star rows: J Sadalsuud → J Chiron RA 155.9986 156 whole (86.34) — also: 1 The Dancing Poet / Harry Russell, 6 Flamingo Rose / Dougie Costello
+    - source line: S Sun → Sadalsuud RA 3.9980 4 whole (80.68)
+- **Ceres**
+  - star rows: J Facies → J Ceres Dec 47.0135 47 whole (10.43) — also: 1 The Dancing Poet / Harry Russell, 6 Flamingo Rose / Dougie Costello
+    - source line: S Moon → Facies RA 166.6813 166.667 ninth (98.75)
+  - star rows: J Sadalmelik → J Ceres RA 154.0123 154 whole (15.01) — also: 2 Flying Instructor / Dylan Hogan, 5 Carn A Chlamain / Tom Marquand
+    - source line: S Sun → Sadalmelik Dec 13.0048 13 whole (57.77)
+- **Uranus**
+  - star rows: J Meissa → J Uranus Dec 32.0132 32 whole (11.39) — also: 2 Flying Instructor / Dylan Hogan, 3 Chase The Dollar / Rossa Ryan
+    - source line: S Jupiter → Meissa RA 102.0057 102 whole (50.91)

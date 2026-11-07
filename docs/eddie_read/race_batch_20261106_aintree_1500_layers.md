@@ -1,5 +1,5 @@
 # Stage 2 layers: race_batch_20261106_aintree_1500_jupiter_tables.xlsx
-Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_layers.py).
+The stage 1 data laid out in fixed layers for every runner; data only, no interpretation, no ranking, no pick (tools/eddie_layers.py).
 
 ## L0 field
 - In the tables workbook (6): 1 JPR One / Jonjo O'Neill Jr; 2 Mirabad / Harry Skelton; 3 Rubaud / Sam Twiston-Davies; 4 Stencil / Harry Cobden; 5 Brookie / Ben Godfrey; 6 Daytime Dreaming / Jack Andrews
@@ -54,144 +54,218 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - S Ketu → J Ketu RA 166.1405 166.667 ninth (loose)
 ### L2 what lands on each same body
 - **H Sun** (same body: S Sun → H Sun Dec 36.0135 36 whole (10.60))
-  - star rows: H Difda → H Sun Dec 38.0089 38 whole (30.70) [Sun]
+  - star rows: H Difda → H Sun Dec 38.0089 38 whole (30.70)
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
   - other chart, same body: S Sun → J Sun RA 87.3623 54×φ golden (loose)
-  - other chart, star rows: J Deneb Algedi → J Sun RA 18.0167 18 whole (2.71) [Sun]
-  - other chart, star rows: J Zubenelgenubi → J Sun RA 86.0192 86 whole (0.16) [Sun]
+  - other chart, star rows: J Deneb Algedi → J Sun RA 18.0167 18 whole (2.71)
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+  - other chart, star rows: J Zubenelgenubi → J Sun RA 86.0192 86 whole (0.16)
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
 - **H Mercury** (same body: S Mercury → H Mercury Dec 23.9903 24 whole (26.57))
-  - star rows: H Difda → H Mercury RA 22.0058 22 whole (50.50) [Sun]
-  - other chart, top rows: S Jupiter → J Mercury Dec 37.0003 37 whole (97.49) [Jupiter]
-  - other chart, star rows: J Capella → J Mercury Dec 69.0087 69 whole (32.10) [Jupiter]
-  - other chart, star rows: J Difda → J Mercury Dec 5.0191 5 whole (0.21) [Sun]
-  - other chart, star rows: J Galactic Centre → J Mercury Dec 5.9988 6 whole (88.26) [Jupiter]
+  - star rows: H Difda → H Mercury RA 22.0058 22 whole (50.50)
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - other chart, top rows: S Jupiter → J Mercury Dec 37.0003 37 whole (97.49)
+  - other chart, star rows: J Capella → J Mercury Dec 69.0087 69 whole (32.10)
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - other chart, star rows: J Difda → J Mercury Dec 5.0191 5 whole (0.21)
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - other chart, star rows: J Galactic Centre → J Mercury Dec 5.9988 6 whole (88.26)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
 - **H Jupiter** (same body: S Jupiter → H Jupiter Dec 17.9814 18 whole (0.49))
-  - top rows: S Sun → H Jupiter Dec 12.0011 12 whole (89.26) [Jupiter, Sun]
-  - top rows: S Ceres → H Jupiter RA 77.9990 78 whole (90.20) [Jupiter]
-  - top rows: S Juno → H Jupiter RA 110.9571 10×φ^5 phi power (81.03) [Jupiter]
-  - top rows: S Sedna → H Jupiter RA 131.0032 131 whole (70.33) [Jupiter]
-  - star rows: H Capella → H Jupiter Dec 49.9861 50 whole (9.21) [Jupiter]
-  - star rows: H Difda → H Jupiter Dec 13.9965 14 whole (68.36) [Sun]
-  - star rows: H Galactic Centre → H Jupiter Dec 25.0180 25 whole (1.00) [Jupiter]
+  - top rows: S Sun → H Jupiter Dec 12.0011 12 whole (89.26)
+  - top rows: S Ceres → H Jupiter RA 77.9990 78 whole (90.20)
+  - top rows: S Juno → H Jupiter RA 110.9571 10×φ^5 phi power (81.03)
+  - top rows: S Sedna → H Jupiter RA 131.0032 131 whole (70.33)
+  - star rows: H Capella → H Jupiter Dec 49.9861 50 whole (9.21)
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: H Difda → H Jupiter Dec 13.9965 14 whole (68.36)
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - star rows: H Galactic Centre → H Jupiter Dec 25.0180 25 whole (1.00)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
   - other chart, same body: S Jupiter → J Jupiter RA 176.7201 177.778 ninth (loose)
   - other chart, same body: S Jupiter → J Jupiter Dec 26.9996 27 whole (95.87)
-  - other chart, top rows: S Jupiter → J Jupiter Dec 26.9996 27 whole (95.87) [Jupiter]
-  - other chart, top rows: S Mars → J Jupiter Dec 29.1237 18×φ golden (94.26) [Jupiter]
-  - other chart, top rows: S Rahu → J Jupiter Dec 0.2760 conj (0.64) [Jupiter]
-  - other chart, star rows: S Capella → J Jupiter Dec 59.0017 59 whole (83.37) [Jupiter]
-  - other chart, star rows: J Difda → J Jupiter Dec 4.9816 5 whole (0.64) [Sun]
-  - other chart, star rows: J Galactic Centre → J Jupiter RA 63.9979 64 whole (79.73) [Jupiter]
-  - other chart, star rows: S Galactic Centre → J Jupiter Dec 16.0002 16 whole (97.72) [Jupiter]
+  - other chart, top rows: S Mars → J Jupiter Dec 29.1237 18×φ golden (94.26)
+  - other chart, top rows: S Rahu → J Jupiter Dec 0.2760 conj (0.64)
+  - other chart, star rows: S Capella → J Jupiter Dec 59.0017 59 whole (83.37)
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - other chart, star rows: J Difda → J Jupiter Dec 4.9816 5 whole (0.64)
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - other chart, star rows: J Galactic Centre → J Jupiter RA 63.9979 64 whole (79.73)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - other chart, star rows: S Galactic Centre → J Jupiter Dec 16.0002 16 whole (97.72)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
 - **H Neptune** (same body: S Neptune → H Neptune RA 16.5826 16.6667 ninth (loose))
-  - star rows: H Galactic Centre → H Neptune RA 79.0198 79 whole (0.01) [Jupiter]
-  - star rows: H Spica → H Neptune Dec 3.9872 4 whole (12.78) [Moon]
+  - star rows: H Galactic Centre → H Neptune RA 79.0198 79 whole (0.01)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - star rows: H Spica → H Neptune Dec 3.9872 4 whole (12.78)
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
   - other chart, same body: S Neptune → J Neptune RA 59.9978 60 whole (79.05)
 - **H Pluto** (same body: S Pluto → H Pluto Dec 2.4162 2.414 silver (loose))
-  - other chart, star rows: J Zubenelgenubi → J Pluto RA 25.0048 25 whole (57.80) [Sun]
+  - other chart, star rows: J Zubenelgenubi → J Pluto RA 25.0048 25 whole (57.80)
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
 - **H Chiron** (same body: S Chiron → H Chiron Dec 8.0271 8 whole (loose))
-  - other chart, top rows: S Sun → J Chiron Dec 0.2588 conj (1.89) [Sun]
-  - other chart, star rows: J Rigel → J Chiron RA 146.9932 147 whole (43.61) [Moon]
+  - other chart, top rows: S Sun → J Chiron Dec 0.2588 conj (1.89)
+  - other chart, star rows: J Rigel → J Chiron RA 146.9932 147 whole (43.61)
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
 - **H Rahu** (same body: S Rahu → H Rahu RA 177.9370 177.778 ninth (loose))
-  - top rows: S Jupiter → H Rahu Dec 1.9953 2 whole (58.17) [Jupiter]
-  - star rows: H Capella → H Rahu Dec 33.9999 34 whole (99.18) [Jupiter]
-  - star rows: H Difda → H Rahu Dec 29.9827 30 whole (1.80) [Sun]
-  - star rows: H Galactic Centre → H Rahu Dec 41.0042 41 whole (62.80) [Jupiter]
-  - star rows: H Rigel → H Rahu RA 72.0196 72 whole (0.04) [Moon]
+  - top rows: S Jupiter → H Rahu Dec 1.9953 2 whole (58.17)
+  - star rows: H Capella → H Rahu Dec 33.9999 34 whole (99.18)
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: H Difda → H Rahu Dec 29.9827 30 whole (1.80)
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - star rows: H Galactic Centre → H Rahu Dec 41.0042 41 whole (62.80)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - star rows: H Rigel → H Rahu RA 72.0196 72 whole (0.04)
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
   - other chart, same body: S Rahu → J Rahu RA 166.1405 166.667 ninth (loose)
 - **H Eris** (same body: S Eris → H Eris RA 0.7767 0.777778 ninth (loose))
-  - body line: S Moon → Eris Dec 9.0057 9 whole (51.17)
+  - sky line to Eris: S Moon → Eris Dec 9.0057 9 whole (51.17)
   - other chart, same body: S Eris → J Eris RA 4.0212 4 whole (loose)
 - **H Haumea** (same body: S Haumea → H Haumea RA 9.0022 9 whole (78.95); S Haumea → H Haumea Dec 4.1448 4.14 silver (loose))
-  - body line: S Sun → Haumea RA 0.6400 conj (32.87)
-  - star rows: H Zubenelgenubi → H Haumea RA 10.9910 11 whole (30.07) [Sun]
+  - sky line to Haumea: S Sun → Haumea RA 0.6400 conj (32.87)
+  - star rows: H Zubenelgenubi → H Haumea RA 10.9910 11 whole (30.07)
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
   - other chart, same body: S Haumea → J Haumea RA 24.9940 25 whole (48.99)
-  - other chart, star rows: J Deneb Algedi → J Haumea RA 131.0129 131 whole (12.42) [Sun]
+  - other chart, star rows: J Deneb Algedi → J Haumea RA 131.0129 131 whole (12.42)
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
 - **H Ketu** (same body: S Ketu → H Ketu RA 177.9370 177.778 ninth (loose))
-  - body line: S Jupiter → Ketu RA 1.4561 conj (0.09)
-  - top rows: S Sun → H Ketu Dec 3.9944 4 whole (51.93) [Sun]
-  - star rows: H Capella → H Ketu Dec 57.9928 58 whole (40.71) [Jupiter]
-  - star rows: H Difda → H Ketu Dec 5.9898 6 whole (24.23) [Sun]
-  - star rows: H Galactic Centre → H Ketu Dec 17.0113 17 whole (18.89) [Jupiter]
-  - star rows: H Rigel → H Ketu RA 107.9804 108 whole (0.04) [Moon]
+  - sky line to Ketu: S Jupiter → Ketu RA 1.4561 conj (0.09)
+  - top rows: S Sun → H Ketu Dec 3.9944 4 whole (51.93)
+  - star rows: H Capella → H Ketu Dec 57.9928 58 whole (40.71)
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: H Difda → H Ketu Dec 5.9898 6 whole (24.23)
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - star rows: H Galactic Centre → H Ketu Dec 17.0113 17 whole (18.89)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - star rows: H Rigel → H Ketu RA 107.9804 108 whole (0.04)
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
   - other chart, same body: S Ketu → J Ketu RA 166.1405 166.667 ninth (loose)
-  - other chart, star rows: J Zubenelgenubi → J Ketu RA 119.7265 74×φ golden (56.39) [Sun]
+  - other chart, star rows: J Zubenelgenubi → J Ketu RA 119.7265 74×φ golden (56.39)
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
 - **J Sun** (same body: S Sun → J Sun RA 87.3623 54×φ golden (loose))
-  - star rows: J Deneb Algedi → J Sun RA 18.0167 18 whole (2.71) [Sun]
-  - star rows: J Zubenelgenubi → J Sun RA 86.0192 86 whole (0.16) [Sun]
+  - star rows: J Deneb Algedi → J Sun RA 18.0167 18 whole (2.71)
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+  - star rows: J Zubenelgenubi → J Sun RA 86.0192 86 whole (0.16)
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
   - other chart, same body: S Sun → H Sun Dec 36.0135 36 whole (10.60)
-  - other chart, star rows: H Difda → H Sun Dec 38.0089 38 whole (30.70) [Sun]
+  - other chart, star rows: H Difda → H Sun Dec 38.0089 38 whole (30.70)
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
 - **J Jupiter** (same body: S Jupiter → J Jupiter RA 176.7201 177.778 ninth (loose); S Jupiter → J Jupiter Dec 26.9996 27 whole (95.87))
-  - top rows: S Jupiter → J Jupiter Dec 26.9996 27 whole (95.87) [Jupiter]
-  - top rows: S Mars → J Jupiter Dec 29.1237 18×φ golden (94.26) [Jupiter]
-  - top rows: S Rahu → J Jupiter Dec 0.2760 conj (0.64) [Jupiter]
-  - star rows: S Capella → J Jupiter Dec 59.0017 59 whole (83.37) [Jupiter]
-  - star rows: J Difda → J Jupiter Dec 4.9816 5 whole (0.64) [Sun]
-  - star rows: J Galactic Centre → J Jupiter RA 63.9979 64 whole (79.73) [Jupiter]
-  - star rows: S Galactic Centre → J Jupiter Dec 16.0002 16 whole (97.72) [Jupiter]
+  - top rows: S Mars → J Jupiter Dec 29.1237 18×φ golden (94.26)
+  - top rows: S Rahu → J Jupiter Dec 0.2760 conj (0.64)
+  - star rows: S Capella → J Jupiter Dec 59.0017 59 whole (83.37)
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: J Difda → J Jupiter Dec 4.9816 5 whole (0.64)
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - star rows: J Galactic Centre → J Jupiter RA 63.9979 64 whole (79.73)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - star rows: S Galactic Centre → J Jupiter Dec 16.0002 16 whole (97.72)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
   - other chart, same body: S Jupiter → H Jupiter Dec 17.9814 18 whole (0.49)
-  - other chart, top rows: S Sun → H Jupiter Dec 12.0011 12 whole (89.26) [Jupiter, Sun]
-  - other chart, top rows: S Ceres → H Jupiter RA 77.9990 78 whole (90.20) [Jupiter]
-  - other chart, top rows: S Juno → H Jupiter RA 110.9571 10×φ^5 phi power (81.03) [Jupiter]
-  - other chart, top rows: S Sedna → H Jupiter RA 131.0032 131 whole (70.33) [Jupiter]
-  - other chart, star rows: H Capella → H Jupiter Dec 49.9861 50 whole (9.21) [Jupiter]
-  - other chart, star rows: H Difda → H Jupiter Dec 13.9965 14 whole (68.36) [Sun]
-  - other chart, star rows: H Galactic Centre → H Jupiter Dec 25.0180 25 whole (1.00) [Jupiter]
+  - other chart, top rows: S Sun → H Jupiter Dec 12.0011 12 whole (89.26)
+  - other chart, top rows: S Ceres → H Jupiter RA 77.9990 78 whole (90.20)
+  - other chart, top rows: S Juno → H Jupiter RA 110.9571 10×φ^5 phi power (81.03)
+  - other chart, top rows: S Sedna → H Jupiter RA 131.0032 131 whole (70.33)
+  - other chart, star rows: H Capella → H Jupiter Dec 49.9861 50 whole (9.21)
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - other chart, star rows: H Difda → H Jupiter Dec 13.9965 14 whole (68.36)
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - other chart, star rows: H Galactic Centre → H Jupiter Dec 25.0180 25 whole (1.00)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
 - **J Uranus** (same body: S Uranus → J Uranus RA 110.9407 10×φ^5 phi power (86.43))
-  - body line: S Jupiter → Uranus RA 85.0019 85 whole (82.28)
-  - star rows: J Capella → J Uranus RA 127.9909 128 whole (29.49) [Jupiter]
-  - other chart, star rows: H Rigel → H Uranus Dec 17.7973 11×φ golden (93.52) [Moon]
+  - sky line to Uranus: S Jupiter → Uranus RA 85.0019 85 whole (82.28)
+  - star rows: J Capella → J Uranus RA 127.9909 128 whole (29.49)
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - other chart, star rows: H Rigel → H Uranus Dec 17.7973 11×φ golden (93.52)
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
 - **J Neptune** (same body: S Neptune → J Neptune RA 59.9978 60 whole (79.05))
   - other chart, same body: S Neptune → H Neptune RA 16.5826 16.6667 ninth (loose)
-  - other chart, star rows: H Galactic Centre → H Neptune RA 79.0198 79 whole (0.01) [Jupiter]
-  - other chart, star rows: H Spica → H Neptune Dec 3.9872 4 whole (12.78) [Moon]
+  - other chart, star rows: H Galactic Centre → H Neptune RA 79.0198 79 whole (0.01)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - other chart, star rows: H Spica → H Neptune Dec 3.9872 4 whole (12.78)
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
 - **J Ceres** (same body: S Ceres → J Ceres Dec 35.5657 22×φ golden (loose))
-  - star rows: J Spica → J Ceres Dec 0.1433 conj (27.29) [Moon]
-  - star rows: J Zubeneschamali → J Ceres RA 126.0125 126 whole (13.97) [Moon]
-  - other chart, top rows: S Moon → H Ceres RA 122.9703 76×φ golden (98.52) [Moon]
+  - star rows: J Spica → J Ceres Dec 0.1433 conj (27.29)
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+  - star rows: J Zubeneschamali → J Ceres RA 126.0125 126 whole (13.97)
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+  - other chart, top rows: S Moon → H Ceres RA 122.9703 76×φ golden (98.52)
 - **J Juno** (same body: S Juno → J Juno RA 117.9874 118 whole (13.81); S Juno → J Juno Dec 11.1019 11.1111 ninth (loose))
-  - star rows: J Deneb Algedi → J Juno Dec 12.9874 13 whole (13.83) [Sun]
-  - star rows: J Spica → J Juno Dec 8.0200 8 whole (0.00) [Moon]
-  - other chart, star rows: H Capella → H Juno Dec 51.7706 32×φ golden (63.70) [Jupiter]
+  - star rows: J Deneb Algedi → J Juno Dec 12.9874 13 whole (13.83)
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+  - star rows: J Spica → J Juno Dec 8.0200 8 whole (0.00)
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+  - other chart, star rows: H Capella → H Juno Dec 51.7706 32×φ golden (63.70)
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
 - **J Rahu** (same body: S Rahu → J Rahu RA 166.1405 166.667 ninth (loose))
   - other chart, same body: S Rahu → H Rahu RA 177.9370 177.778 ninth (loose)
-  - other chart, top rows: S Jupiter → H Rahu Dec 1.9953 2 whole (58.17) [Jupiter]
-  - other chart, star rows: H Capella → H Rahu Dec 33.9999 34 whole (99.18) [Jupiter]
-  - other chart, star rows: H Difda → H Rahu Dec 29.9827 30 whole (1.80) [Sun]
-  - other chart, star rows: H Galactic Centre → H Rahu Dec 41.0042 41 whole (62.80) [Jupiter]
-  - other chart, star rows: H Rigel → H Rahu RA 72.0196 72 whole (0.04) [Moon]
+  - other chart, top rows: S Jupiter → H Rahu Dec 1.9953 2 whole (58.17)
+  - other chart, star rows: H Capella → H Rahu Dec 33.9999 34 whole (99.18)
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - other chart, star rows: H Difda → H Rahu Dec 29.9827 30 whole (1.80)
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - other chart, star rows: H Galactic Centre → H Rahu Dec 41.0042 41 whole (62.80)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - other chart, star rows: H Rigel → H Rahu RA 72.0196 72 whole (0.04)
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
 - **J Eris** (same body: S Eris → J Eris RA 4.0212 4 whole (loose))
-  - body line: S Moon → Eris Dec 9.0057 9 whole (51.17)
+  - sky line to Eris: S Moon → Eris Dec 9.0057 9 whole (51.17)
   - other chart, same body: S Eris → H Eris RA 0.7767 0.777778 ninth (loose)
 - **J Haumea** (same body: S Haumea → J Haumea RA 24.9940 25 whole (48.99))
-  - body line: S Sun → Haumea RA 0.6400 conj (32.87)
-  - star rows: J Deneb Algedi → J Haumea RA 131.0129 131 whole (12.42) [Sun]
+  - sky line to Haumea: S Sun → Haumea RA 0.6400 conj (32.87)
+  - star rows: J Deneb Algedi → J Haumea RA 131.0129 131 whole (12.42)
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
   - other chart, same body: S Haumea → H Haumea RA 9.0022 9 whole (78.95)
   - other chart, same body: S Haumea → H Haumea Dec 4.1448 4.14 silver (loose)
-  - other chart, star rows: H Zubenelgenubi → H Haumea RA 10.9910 11 whole (30.07) [Sun]
+  - other chart, star rows: H Zubenelgenubi → H Haumea RA 10.9910 11 whole (30.07)
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
 - **J Makemake** (same body: S Makemake → J Makemake RA 24.0205 24 whole (loose))
-  - star rows: J Capella → J Makemake Dec 13.0196 13 whole (0.04) [Jupiter]
-  - star rows: J Galactic Centre → J Makemake Dec 61.9879 62 whole (15.44) [Jupiter]
-  - star rows: J Zubeneschamali → J Makemake RA 51.0011 51 whole (89.19) [Moon]
-  - star rows: J Zubeneschamali → J Makemake Dec 42.3639 10×φ^3 phi power (97.03) [Moon]
-  - other chart, star rows: H Deneb Algedi → H Makemake RA 132.9917 133 whole (34.35) [Sun]
+  - star rows: J Capella → J Makemake Dec 13.0196 13 whole (0.04)
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: J Galactic Centre → J Makemake Dec 61.9879 62 whole (15.44)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - star rows: J Zubeneschamali → J Makemake RA 51.0011 51 whole (89.19)
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+  - star rows: J Zubeneschamali → J Makemake Dec 42.3639 10×φ^3 phi power (97.03)
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+  - other chart, star rows: H Deneb Algedi → H Makemake RA 132.9917 133 whole (34.35)
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
 - **J Orcus** (same body: S Orcus → J Orcus Dec 13.3593 13.3333 ninth (loose))
-  - other chart, top rows: S Moon → H Orcus Dec 0.0856 conj (51.06) [Moon]
-  - other chart, star rows: H Galactic Centre → H Orcus RA 114.9972 115 whole (73.99) [Jupiter]
+  - other chart, top rows: S Moon → H Orcus Dec 0.0856 conj (51.06)
+  - other chart, star rows: H Galactic Centre → H Orcus RA 114.9972 115 whole (73.99)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
 - **J Gonggong** (same body: S Gonggong → J Gonggong RA 5.9846 6 whole (5.25))
-  - top rows: S Moon → J Gonggong RA 141.4050 141.4 sqrt2 (95.43) [Moon]
-  - star rows: J Capella → J Gonggong RA 107.9953 108 whole (58.17) [Jupiter]
-  - star rows: J Difda → J Gonggong Dec 0.1637 conj (20.65) [Sun]
-  - star rows: J Zubeneschamali → J Gonggong RA 101.9324 63×φ golden (78.46) [Moon]
-  - other chart, star rows: H Galactic Centre → H Gonggong RA 70.0087 70 whole (32.12) [Jupiter]
+  - top rows: S Moon → J Gonggong RA 141.4050 141.4 sqrt2 (95.43)
+  - star rows: J Capella → J Gonggong RA 107.9953 108 whole (58.17)
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: J Difda → J Gonggong Dec 0.1637 conj (20.65)
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - star rows: J Zubeneschamali → J Gonggong RA 101.9324 63×φ golden (78.46)
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+  - other chart, star rows: H Galactic Centre → H Gonggong RA 70.0087 70 whole (32.12)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
 - **J Ketu** (same body: S Ketu → J Ketu RA 166.1405 166.667 ninth (loose))
-  - body line: S Jupiter → Ketu RA 1.4561 conj (0.09)
-  - star rows: J Zubenelgenubi → J Ketu RA 119.7265 74×φ golden (56.39) [Sun]
+  - sky line to Ketu: S Jupiter → Ketu RA 1.4561 conj (0.09)
+  - star rows: J Zubenelgenubi → J Ketu RA 119.7265 74×φ golden (56.39)
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
   - other chart, same body: S Ketu → H Ketu RA 177.9370 177.778 ninth (loose)
-  - other chart, top rows: S Sun → H Ketu Dec 3.9944 4 whole (51.93) [Sun]
-  - other chart, star rows: H Capella → H Ketu Dec 57.9928 58 whole (40.71) [Jupiter]
-  - other chart, star rows: H Difda → H Ketu Dec 5.9898 6 whole (24.23) [Sun]
-  - other chart, star rows: H Galactic Centre → H Ketu Dec 17.0113 17 whole (18.89) [Jupiter]
-  - other chart, star rows: H Rigel → H Ketu RA 107.9804 108 whole (0.04) [Moon]
-### L3 the seven cases (L5 field tag on each)
+  - other chart, top rows: S Sun → H Ketu Dec 3.9944 4 whole (51.93)
+  - other chart, star rows: H Capella → H Ketu Dec 57.9928 58 whole (40.71)
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - other chart, star rows: H Difda → H Ketu Dec 5.9898 6 whole (24.23)
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - other chart, star rows: H Galactic Centre → H Ketu Dec 17.0113 17 whole (18.89)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - other chart, star rows: H Rigel → H Ketu RA 107.9804 108 whole (0.04)
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+### L3 matches
 - **1. same body on both charts**
   - Sun — only
     - S Sun → H Sun Dec 36.0135 36 whole (10.60)
@@ -240,32 +314,50 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - **4. circle divisions**
   - 36 = 360/10 — also: 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
     - S Sun → H Sun Dec 36.0135 36 whole (10.60)
-  - 24 = 360/15 — also: 4 Stencil / Harry Cobden
+  - 24 = 360/15 — also: 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
     - S Mercury → H Mercury Dec 23.9903 24 whole (26.57)
-  - 18 = 360/20 — also: 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+  - 18 = 360/20 — also: 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
     - S Jupiter → H Jupiter Dec 17.9814 18 whole (0.49)
-  - 8 = 360/45 — also: 2 Mirabad / Harry Skelton, 6 Daytime Dreaming / Jack Andrews
+  - 8 = 360/45 — also: 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
     - S Chiron → H Chiron Dec 8.0271 8 whole (loose)
-  - 9 = 360/40 — also: 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
+  - 9 = 360/40 — also: 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
     - S Haumea → H Haumea RA 9.0022 9 whole (78.95)
   - 36 = 360/10 — also: 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
     - S Jupiter → H Saturn Dec 36.0006 36 whole (93.90)
-  - 2 = 360/180 — also: 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey
+  - 2 = 360/180 — also: 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
     - S Jupiter → H Rahu Dec 1.9953 2 whole (58.17)
-  - 12 = 360/30 — also: 6 Daytime Dreaming / Jack Andrews
+  - 12 = 360/30 — also: 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
     - S Sun → H Jupiter Dec 12.0011 12 whole (89.26)
-  - 4 = 360/90 — also: 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey
+  - 4 = 360/90 — also: 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
     - S Sun → H Ketu Dec 3.9944 4 whole (51.93)
+  - 30 = 360/12 — also: 6 Daytime Dreaming / Jack Andrews
+    - H Difda → H Rahu Dec 29.9827 30 whole (1.80)
+  - 6 = 360/60 — also: 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+    - H Difda → H Ketu Dec 5.9898 6 whole (24.23)
+  - 72 = 360/5 — only
+    - H Rigel → H Rahu RA 72.0196 72 whole (0.04)
+  - 4 = 360/90 — also: 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
+    - H Spica → H Neptune Dec 3.9872 4 whole (12.78)
+  - 6 = 360/60 — also: 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+    - H Zubeneschamali → H Quaoar Dec 6.0112 6 whole (19.26)
   - 60 = 360/6 — only
     - S Neptune → J Neptune RA 59.9978 60 whole (79.05)
-  - 4 = 360/90 — also: 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey
+  - 4 = 360/90 — also: 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
     - S Eris → J Eris RA 4.0212 4 whole (loose)
-  - 24 = 360/15 — also: 4 Stencil / Harry Cobden
+  - 24 = 360/15 — also: 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
     - S Makemake → J Makemake RA 24.0205 24 whole (loose)
-  - 6 = 360/60 — also: 3 Rubaud / Sam Twiston-Davies
+  - 6 = 360/60 — also: 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
     - S Gonggong → J Gonggong RA 5.9846 6 whole (5.25)
-  - 6 = 360/60 — also: 3 Rubaud / Sam Twiston-Davies
+  - 18 = 360/20 — also: 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+    - J Deneb Algedi → J Sun RA 18.0167 18 whole (2.71)
+  - 5 = 360/72 — also: 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+    - J Difda → J Mercury Dec 5.0191 5 whole (0.21)
+  - 5 = 360/72 — also: 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+    - J Difda → J Jupiter Dec 4.9816 5 whole (0.64)
+  - 6 = 360/60 — also: 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
     - J Galactic Centre → J Mercury Dec 5.9988 6 whole (88.26)
+  - 8 = 360/45 — also: 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
+    - J Spica → J Juno Dec 8.0200 8 whole (0.00)
 - **5. same number in more than one place**
   - 36 whole — only
     - S Sun → H Sun Dec 36.0135 36 whole (10.60)
@@ -273,129 +365,277 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 24 whole — only
     - S Mercury → H Mercury Dec 23.9903 24 whole (26.57)
     - S Makemake → J Makemake RA 24.0205 24 whole (loose)
+  - 18 whole — only
+    - S Jupiter → H Jupiter Dec 17.9814 18 whole (0.49)
+    - J Deneb Algedi → J Sun RA 18.0167 18 whole (2.71)
+  - 8 whole — also: 2 Mirabad / Harry Skelton, 6 Daytime Dreaming / Jack Andrews
+    - S Chiron → H Chiron Dec 8.0271 8 whole (loose)
+    - J Spica → J Juno Dec 8.0200 8 whole (0.00)
   - 177.778 ninth — also: 5 Brookie / Ben Godfrey
     - S Rahu → H Rahu RA 177.9370 177.778 ninth (loose)
     - S Ketu → H Ketu RA 177.9370 177.778 ninth (loose)
     - S Jupiter → J Jupiter RA 176.7201 177.778 ninth (loose)
-  - 14 whole — only
+  - 14 whole — also: 3 Rubaud / Sam Twiston-Davies
     - H Jupiter → H star Difda Dec 13.9965 14 whole (68.36)
     - H Difda → H Jupiter Dec 13.9965 14 whole (68.36)
-  - 4 whole — only
+  - 4 whole — also: 3 Rubaud / Sam Twiston-Davies
     - S Sun → H Ketu Dec 3.9944 4 whole (51.93)
+    - H Spica → H Neptune Dec 3.9872 4 whole (12.78)
     - S Eris → J Eris RA 4.0212 4 whole (loose)
   - 10×φ^5 phi power — only
     - S Juno → H Jupiter RA 110.9571 10×φ^5 phi power (81.03)
     - S Uranus → J Uranus RA 110.9407 10×φ^5 phi power (86.43)
+  - 131 whole — only
+    - S Sedna → H Jupiter RA 131.0032 131 whole (70.33)
+    - J Deneb Algedi → J Haumea RA 131.0129 131 whole (12.42)
+  - 6 whole — also: 5 Brookie / Ben Godfrey
+    - H Difda → H Ketu Dec 5.9898 6 whole (24.23)
+    - H Zubeneschamali → H Quaoar Dec 6.0112 6 whole (19.26)
+    - S Gonggong → J Gonggong RA 5.9846 6 whole (5.25)
+    - J Galactic Centre → J Mercury Dec 5.9988 6 whole (88.26)
+  - 25 whole — also: 3 Rubaud / Sam Twiston-Davies
+    - H Galactic Centre → H Jupiter Dec 25.0180 25 whole (1.00)
+    - S Haumea → J Haumea RA 24.9940 25 whole (48.99)
+    - J Zubenelgenubi → J Pluto RA 25.0048 25 whole (57.80)
+  - 108 whole — only
+    - H Rigel → H Ketu RA 107.9804 108 whole (0.04)
+    - J Capella → J Gonggong RA 107.9953 108 whole (58.17)
   - 166.667 ninth — also: 5 Brookie / Ben Godfrey
     - S Rahu → J Rahu RA 166.1405 166.667 ninth (loose)
     - S Ketu → J Ketu RA 166.1405 166.667 ninth (loose)
-  - 25 whole — only
-    - S Haumea → J Haumea RA 24.9940 25 whole (48.99)
-    - J Zubenelgenubi → J Pluto RA 25.0048 25 whole (57.80)
-  - 6 whole — only
-    - S Gonggong → J Gonggong RA 5.9846 6 whole (5.25)
-    - J Galactic Centre → J Mercury Dec 5.9988 6 whole (88.26)
   - 64 whole — only
     - J Jupiter → J star Galactic Centre RA 63.9979 64 whole (79.73)
     - J Galactic Centre → J Jupiter RA 63.9979 64 whole (79.73)
   - 16 whole — only
     - J Jupiter → J star Galactic Centre Dec 15.9995 16 whole (94.67)
     - S Galactic Centre → J Jupiter Dec 16.0002 16 whole (97.72)
-- **6. star and sky line on one body**
-  - H Mars on Rigel — only
-    - H Rigel → H Mars RA 0.0079 conj (98.96)
-    - S Moon → H Mars RA 111.1563 111.111 ninth (92.60)
-- **7. centres meeting**
-  - Ketu: Jupiter, Moon, Sun — also: 5 Brookie / Ben Godfrey
-    - [Jupiter] S Ketu → H Ketu RA 177.9370 177.778 ninth (loose)
-    - [Jupiter] H Capella → H Ketu Dec 57.9928 58 whole (40.71)
-    - [Jupiter] H Galactic Centre → H Ketu Dec 17.0113 17 whole (18.89)
-    - [Jupiter] S Ketu → J Ketu RA 166.1405 166.667 ninth (loose)
-    - [Moon] H Rigel → H Ketu RA 107.9804 108 whole (0.04)
-    - [Sun] S Sun → H Ketu Dec 3.9944 4 whole (51.93)
-    - [Sun] H Difda → H Ketu Dec 5.9898 6 whole (24.23)
-    - [Sun] J Zubenelgenubi → J Ketu RA 119.7265 74×φ golden (56.39)
-  - Venus: Jupiter, Moon, Sun — only
-    - [Jupiter] S Jupiter → H Venus RA 133.3873 133.333 ninth (93.53)
-    - [Moon] H Zubeneschamali → H Venus RA 144.4857 144.444 ninth (95.63)
-    - [Moon] J Zubeneschamali → J Venus RA 62.0089 62 whole (30.81)
-    - [Sun] H Deneb Algedi → H Venus RA 46.9805 47 whole (0.05)
-    - [Sun] H Zubenelgenubi → H Venus RA 151.0179 151 whole (1.09)
-    - [Sun] J Zubenelgenubi → J Venus RA 68.5404 10×φ^4 phi power (99.62)
-  - Saturn: Jupiter, Sun — also: 5 Brookie / Ben Godfrey
-    - [Jupiter] S Jupiter → H Saturn Dec 36.0006 36 whole (93.90)
-    - [Jupiter] H Capella → H Saturn Dec 68.0053 68 whole (54.14)
-    - [Jupiter] H Galactic Centre → H Saturn RA 0.6587 conj (31.46)
-    - [Jupiter] H Galactic Centre → H Saturn Dec 6.9988 7 whole (88.22)
-    - [Sun] H Deneb Algedi → H Saturn RA 60.9982 61 whole (82.70)
-    - [Sun] J Zubenelgenubi → J Saturn RA 152.0781 94×φ golden (22.33)
-  - Rahu: Jupiter, Moon, Sun — also: 5 Brookie / Ben Godfrey
-    - [Jupiter] S Jupiter → H Rahu Dec 1.9953 2 whole (58.17)
-    - [Jupiter] H Capella → H Rahu Dec 33.9999 34 whole (99.18)
-    - [Jupiter] H Galactic Centre → H Rahu Dec 41.0042 41 whole (62.80)
-    - [Moon] H Rigel → H Rahu RA 72.0196 72 whole (0.04)
-    - [Sun] H Difda → H Rahu Dec 29.9827 30 whole (1.80)
-  - Quaoar: Jupiter, Moon — also: 5 Brookie / Ben Godfrey
-    - [Jupiter] S Jupiter → H Quaoar RA 122.9407 φ^10 phi power (84.05)
-    - [Jupiter] J Capella → J Quaoar RA 165.9954 166 whole (59.05)
-    - [Moon] H Zubeneschamali → H Quaoar Dec 6.0112 6 whole (19.26)
-  - Jupiter: Jupiter, Sun — also: 2 Mirabad / Harry Skelton, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
-    - [Jupiter] S Sun → H Jupiter Dec 12.0011 12 whole (89.26)
-    - [Jupiter] S Ceres → H Jupiter RA 77.9990 78 whole (90.20)
-    - [Jupiter] S Juno → H Jupiter RA 110.9571 10×φ^5 phi power (81.03)
-    - [Jupiter] S Sedna → H Jupiter RA 131.0032 131 whole (70.33)
-    - [Jupiter] H Capella → H Jupiter Dec 49.9861 50 whole (9.21)
-    - [Jupiter] H Galactic Centre → H Jupiter Dec 25.0180 25 whole (1.00)
-    - [Jupiter] S Jupiter → J Jupiter Dec 26.9996 27 whole (95.87)
-    - [Jupiter] S Mars → J Jupiter Dec 29.1237 18×φ golden (94.26)
-    - [Jupiter] S Rahu → J Jupiter Dec 0.2760 conj (0.64)
-    - [Jupiter] S Capella → J Jupiter Dec 59.0017 59 whole (83.37)
-    - [Jupiter] J Galactic Centre → J Jupiter RA 63.9979 64 whole (79.73)
-    - [Jupiter] S Galactic Centre → J Jupiter Dec 16.0002 16 whole (97.72)
-    - [Sun] S Sun → H Jupiter Dec 12.0011 12 whole (89.26)
-    - [Sun] H Difda → H Jupiter Dec 13.9965 14 whole (68.36)
-    - [Sun] J Difda → J Jupiter Dec 4.9816 5 whole (0.64)
-  - Mars: Jupiter, Moon — also: 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
-    - [Jupiter] H Capella → H Mars RA 0.5440 conj (40.62)
-    - [Moon] S Moon → H Mars RA 111.1563 111.111 ninth (92.60)
-    - [Moon] H Rigel → H Mars RA 0.0079 conj (98.96)
-    - [Moon] H Spica → H Mars Dec 34.9889 35 whole (19.92)
-    - [Moon] J Spica → J Mars RA 132.0176 132 whole (1.43)
-  - Orcus: Jupiter, Moon — also: 5 Brookie / Ben Godfrey
-    - [Jupiter] H Galactic Centre → H Orcus RA 114.9972 115 whole (73.99)
-    - [Moon] S Moon → H Orcus Dec 0.0856 conj (51.06)
-  - Juno: Jupiter, Moon, Sun — also: 2 Mirabad / Harry Skelton
-    - [Jupiter] H Capella → H Juno Dec 51.7706 32×φ golden (63.70)
-    - [Moon] J Spica → J Juno Dec 8.0200 8 whole (0.00)
-    - [Sun] J Deneb Algedi → J Juno Dec 12.9874 13 whole (13.83)
-  - Makemake: Jupiter, Moon, Sun — only
-    - [Jupiter] J Capella → J Makemake Dec 13.0196 13 whole (0.04)
-    - [Jupiter] J Galactic Centre → J Makemake Dec 61.9879 62 whole (15.44)
-    - [Moon] J Zubeneschamali → J Makemake RA 51.0011 51 whole (89.19)
-    - [Moon] J Zubeneschamali → J Makemake Dec 42.3639 10×φ^3 phi power (97.03)
-    - [Sun] H Deneb Algedi → H Makemake RA 132.9917 133 whole (34.35)
-  - Mercury: Jupiter, Sun — also: 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies
-    - [Jupiter] S Jupiter → J Mercury Dec 37.0003 37 whole (97.49)
-    - [Jupiter] J Capella → J Mercury Dec 69.0087 69 whole (32.10)
-    - [Jupiter] J Galactic Centre → J Mercury Dec 5.9988 6 whole (88.26)
-    - [Sun] H Difda → H Mercury RA 22.0058 22 whole (50.50)
-    - [Sun] J Difda → J Mercury Dec 5.0191 5 whole (0.21)
-  - Neptune: Jupiter, Moon — also: 5 Brookie / Ben Godfrey
-    - [Jupiter] H Galactic Centre → H Neptune RA 79.0198 79 whole (0.01)
-    - [Moon] H Spica → H Neptune Dec 3.9872 4 whole (12.78)
-  - Gonggong: Jupiter, Moon, Sun — also: 5 Brookie / Ben Godfrey
-    - [Jupiter] H Galactic Centre → H Gonggong RA 70.0087 70 whole (32.12)
-    - [Jupiter] J Capella → J Gonggong RA 107.9953 108 whole (58.17)
-    - [Moon] S Moon → J Gonggong RA 141.4050 141.4 sqrt2 (95.43)
-    - [Moon] J Zubeneschamali → J Gonggong RA 101.9324 63×φ golden (78.46)
-    - [Sun] J Difda → J Gonggong Dec 0.1637 conj (20.65)
-  - Uranus: Jupiter, Moon — also: 3 Rubaud / Sam Twiston-Davies
-    - [Jupiter] S Uranus → J Uranus RA 110.9407 10×φ^5 phi power (86.43)
-    - [Jupiter] J Capella → J Uranus RA 127.9909 128 whole (29.49)
-    - [Moon] H Rigel → H Uranus Dec 17.7973 11×φ golden (93.52)
-  - Chiron: Moon, Sun — also: 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden
-    - [Moon] J Rigel → J Chiron RA 146.9932 147 whole (43.61)
-    - [Sun] S Sun → J Chiron Dec 0.2588 conj (1.89)
+    - J Spica → J Sedna Dec 15.9935 16 whole (45.83)
+  - 13 whole — also: 6 Daytime Dreaming / Jack Andrews
+    - J Capella → J Makemake Dec 13.0196 13 whole (0.04)
+    - J Deneb Algedi → J Juno Dec 12.9874 13 whole (13.83)
+  - 5 whole — also: 6 Daytime Dreaming / Jack Andrews
+    - J Difda → J Mercury Dec 5.0191 5 whole (0.21)
+    - J Difda → J Jupiter Dec 4.9816 5 whole (0.64)
+  - 62 whole — only
+    - J Galactic Centre → J Makemake Dec 61.9879 62 whole (15.44)
+    - J Zubeneschamali → J Venus RA 62.0089 62 whole (30.81)
+### L4 every natal body
+- **Sun**
+  - same body: S Sun → H Sun Dec 36.0135 36 whole (10.60) — also: 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+  - star rows: H Difda → H Sun Dec 38.0089 38 whole (30.70) — also: 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - same body: S Sun → J Sun RA 87.3623 54×φ golden (loose) — also: 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+  - star rows: J Deneb Algedi → J Sun RA 18.0167 18 whole (2.71) — also: 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+  - star rows: J Zubenelgenubi → J Sun RA 86.0192 86 whole (0.16) — only
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
+- **Mercury**
+  - same body: S Mercury → H Mercury Dec 23.9903 24 whole (26.57) — also: 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey
+  - star rows: H Difda → H Mercury RA 22.0058 22 whole (50.50) — also: 3 Rubaud / Sam Twiston-Davies
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - top rows: S Jupiter → J Mercury Dec 37.0003 37 whole (97.49) — also: 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey
+  - star rows: J Capella → J Mercury Dec 69.0087 69 whole (32.10) — also: 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: J Difda → J Mercury Dec 5.0191 5 whole (0.21) — also: 3 Rubaud / Sam Twiston-Davies
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - star rows: J Galactic Centre → J Mercury Dec 5.9988 6 whole (88.26) — also: 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+- **Jupiter**
+  - same body: S Jupiter → H Jupiter Dec 17.9814 18 whole (0.49) — also: 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
+  - T1: H Jupiter → H star Difda Dec 13.9965 14 whole (68.36) — also: 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+  - top rows: S Sun → H Jupiter Dec 12.0011 12 whole (89.26) — also: 4 Stencil / Harry Cobden
+  - top rows: S Ceres → H Jupiter RA 77.9990 78 whole (90.20) — only
+  - top rows: S Juno → H Jupiter RA 110.9571 10×φ^5 phi power (81.03) — only
+  - top rows: S Sedna → H Jupiter RA 131.0032 131 whole (70.33) — only
+  - star rows: H Capella → H Jupiter Dec 49.9861 50 whole (9.21) — also: 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: H Difda → H Jupiter Dec 13.9965 14 whole (68.36) — also: 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - star rows: H Galactic Centre → H Jupiter Dec 25.0180 25 whole (1.00) — also: 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - same body: S Jupiter → J Jupiter RA 176.7201 177.778 ninth (loose) — also: 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
+  - same body + top rows: S Jupiter → J Jupiter Dec 26.9996 27 whole (95.87) — also: 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
+  - T2: J Jupiter → J star Galactic Centre RA 63.9979 64 whole (79.73) — also: 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+  - T2: J Jupiter → J star Galactic Centre Dec 15.9995 16 whole (94.67) — also: 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+  - top rows: S Mars → J Jupiter Dec 29.1237 18×φ golden (94.26) — only
+  - top rows: S Rahu → J Jupiter Dec 0.2760 conj (0.64) — also: 2 Mirabad / Harry Skelton
+  - star rows: S Capella → J Jupiter Dec 59.0017 59 whole (83.37) — also: 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: J Difda → J Jupiter Dec 4.9816 5 whole (0.64) — also: 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - star rows: J Galactic Centre → J Jupiter RA 63.9979 64 whole (79.73) — also: 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - star rows: S Galactic Centre → J Jupiter Dec 16.0002 16 whole (97.72) — also: 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+- **Neptune**
+  - same body: S Neptune → H Neptune RA 16.5826 16.6667 ninth (loose) — also: 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+  - star rows: H Galactic Centre → H Neptune RA 79.0198 79 whole (0.01) — also: 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - star rows: H Spica → H Neptune Dec 3.9872 4 whole (12.78) — also: 2 Mirabad / Harry Skelton
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+  - same body: S Neptune → J Neptune RA 59.9978 60 whole (79.05) — also: 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+- **Pluto**
+  - same body: S Pluto → H Pluto Dec 2.4162 2.414 silver (loose) — only
+  - star rows: J Zubenelgenubi → J Pluto RA 25.0048 25 whole (57.80) — only
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
+- **Chiron**
+  - same body: S Chiron → H Chiron Dec 8.0271 8 whole (loose) — also: 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+  - top rows: S Sun → J Chiron Dec 0.2588 conj (1.89) — also: 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
+  - star rows: J Rigel → J Chiron RA 146.9932 147 whole (43.61) — also: 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+- **Rahu**
+  - same body: S Rahu → H Rahu RA 177.9370 177.778 ninth (loose) — also: 2 Mirabad / Harry Skelton, 5 Brookie / Ben Godfrey
+  - top rows: S Jupiter → H Rahu Dec 1.9953 2 whole (58.17) — also: 5 Brookie / Ben Godfrey
+  - star rows: H Capella → H Rahu Dec 33.9999 34 whole (99.18) — also: 2 Mirabad / Harry Skelton, 5 Brookie / Ben Godfrey
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: H Difda → H Rahu Dec 29.9827 30 whole (1.80) — only
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - star rows: H Galactic Centre → H Rahu Dec 41.0042 41 whole (62.80) — also: 2 Mirabad / Harry Skelton, 5 Brookie / Ben Godfrey
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - star rows: H Rigel → H Rahu RA 72.0196 72 whole (0.04) — only
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+  - same body: S Rahu → J Rahu RA 166.1405 166.667 ninth (loose) — also: 2 Mirabad / Harry Skelton, 5 Brookie / Ben Godfrey
+- **Eris**
+  - same body: S Eris → H Eris RA 0.7767 0.777778 ninth (loose) — also: 6 Daytime Dreaming / Jack Andrews
+    - source line: S Moon → Eris Dec 9.0057 9 whole (51.17)
+  - same body: S Eris → J Eris RA 4.0212 4 whole (loose) — also: 6 Daytime Dreaming / Jack Andrews
+    - source line: S Moon → Eris Dec 9.0057 9 whole (51.17)
+- **Haumea**
+  - same body: S Haumea → H Haumea RA 9.0022 9 whole (78.95) — also: 2 Mirabad / Harry Skelton, 5 Brookie / Ben Godfrey
+    - source line: S Sun → Haumea RA 0.6400 conj (32.87)
+  - same body: S Haumea → H Haumea Dec 4.1448 4.14 silver (loose) — also: 2 Mirabad / Harry Skelton, 5 Brookie / Ben Godfrey
+    - source line: S Sun → Haumea RA 0.6400 conj (32.87)
+  - star rows: H Zubenelgenubi → H Haumea RA 10.9910 11 whole (30.07) — only
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
+  - same body: S Haumea → J Haumea RA 24.9940 25 whole (48.99) — also: 2 Mirabad / Harry Skelton, 5 Brookie / Ben Godfrey
+    - source line: S Sun → Haumea RA 0.6400 conj (32.87)
+  - star rows: J Deneb Algedi → J Haumea RA 131.0129 131 whole (12.42) — also: 2 Mirabad / Harry Skelton, 5 Brookie / Ben Godfrey
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+- **Ketu**
+  - same body: S Ketu → H Ketu RA 177.9370 177.778 ninth (loose) — also: 2 Mirabad / Harry Skelton, 5 Brookie / Ben Godfrey
+    - source line: S Jupiter → Ketu RA 1.4561 conj (0.09)
+  - top rows: S Sun → H Ketu Dec 3.9944 4 whole (51.93) — also: 2 Mirabad / Harry Skelton, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+  - star rows: H Capella → H Ketu Dec 57.9928 58 whole (40.71) — also: 2 Mirabad / Harry Skelton, 5 Brookie / Ben Godfrey
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: H Difda → H Ketu Dec 5.9898 6 whole (24.23) — also: 2 Mirabad / Harry Skelton, 5 Brookie / Ben Godfrey
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - star rows: H Galactic Centre → H Ketu Dec 17.0113 17 whole (18.89) — also: 5 Brookie / Ben Godfrey
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - star rows: H Rigel → H Ketu RA 107.9804 108 whole (0.04) — only
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+  - same body: S Ketu → J Ketu RA 166.1405 166.667 ninth (loose) — also: 2 Mirabad / Harry Skelton, 5 Brookie / Ben Godfrey
+    - source line: S Jupiter → Ketu RA 1.4561 conj (0.09)
+  - star rows: J Zubenelgenubi → J Ketu RA 119.7265 74×φ golden (56.39) — also: 6 Daytime Dreaming / Jack Andrews
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
+- **Venus**
+  - top rows: S Jupiter → H Venus RA 133.3873 133.333 ninth (93.53) — only
+  - star rows: H Deneb Algedi → H Venus RA 46.9805 47 whole (0.05) — also: 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+  - star rows: H Zubenelgenubi → H Venus RA 151.0179 151 whole (1.09) — also: 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
+  - star rows: H Zubeneschamali → H Venus RA 144.4857 144.444 ninth (95.63) — also: 4 Stencil / Harry Cobden
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+  - star rows: J Zubenelgenubi → J Venus RA 68.5404 10×φ^4 phi power (99.62) — also: 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
+  - star rows: J Zubeneschamali → J Venus RA 62.0089 62 whole (30.81) — also: 4 Stencil / Harry Cobden
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+- **Saturn**
+  - top rows: S Jupiter → H Saturn Dec 36.0006 36 whole (93.90) — also: 5 Brookie / Ben Godfrey
+  - star rows: H Capella → H Saturn Dec 68.0053 68 whole (54.14) — also: 5 Brookie / Ben Godfrey
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: H Deneb Algedi → H Saturn RA 60.9982 61 whole (82.70) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+  - star rows: H Galactic Centre → H Saturn RA 0.6587 conj (31.46) — also: 5 Brookie / Ben Godfrey
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - star rows: H Galactic Centre → H Saturn Dec 6.9988 7 whole (88.22) — also: 5 Brookie / Ben Godfrey
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - star rows: J Zubenelgenubi → J Saturn RA 152.0781 94×φ golden (22.33) — only
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
+- **Quaoar**
+  - top rows: S Jupiter → H Quaoar RA 122.9407 φ^10 phi power (84.05) — also: 5 Brookie / Ben Godfrey
+  - star rows: H Zubeneschamali → H Quaoar Dec 6.0112 6 whole (19.26) — also: 5 Brookie / Ben Godfrey
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+  - star rows: J Capella → J Quaoar RA 165.9954 166 whole (59.05) — also: 6 Daytime Dreaming / Jack Andrews
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+- **Mars**
+  - top rows: S Moon → H Mars RA 111.1563 111.111 ninth (92.60) — only
+  - star rows: H Capella → H Mars RA 0.5440 conj (40.62) — also: 5 Brookie / Ben Godfrey
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: H Rigel → H Mars RA 0.0079 conj (98.96) — also: 5 Brookie / Ben Godfrey
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+  - star rows: H Spica → H Mars Dec 34.9889 35 whole (19.92) — also: 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+  - star rows: J Spica → J Mars RA 132.0176 132 whole (1.43) — also: 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+- **Ceres**
+  - top rows: S Moon → H Ceres RA 122.9703 76×φ golden (98.52) — also: 6 Daytime Dreaming / Jack Andrews
+  - same body: S Ceres → J Ceres Dec 35.5657 22×φ golden (loose) — also: 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden
+  - star rows: J Spica → J Ceres Dec 0.1433 conj (27.29) — also: 3 Rubaud / Sam Twiston-Davies
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+  - star rows: J Zubeneschamali → J Ceres RA 126.0125 126 whole (13.97) — also: 3 Rubaud / Sam Twiston-Davies, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+- **Orcus**
+  - top rows: S Moon → H Orcus Dec 0.0856 conj (51.06) — also: 5 Brookie / Ben Godfrey
+  - star rows: H Galactic Centre → H Orcus RA 114.9972 115 whole (73.99) — also: 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - same body: S Orcus → J Orcus Dec 13.3593 13.3333 ninth (loose) — also: 2 Mirabad / Harry Skelton
+- **Juno**
+  - star rows: H Capella → H Juno Dec 51.7706 32×φ golden (63.70) — also: 2 Mirabad / Harry Skelton
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - same body: S Juno → J Juno RA 117.9874 118 whole (13.81) — also: 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden
+  - same body: S Juno → J Juno Dec 11.1019 11.1111 ninth (loose) — also: 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden
+  - star rows: J Deneb Algedi → J Juno Dec 12.9874 13 whole (13.83) — also: 2 Mirabad / Harry Skelton
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+  - star rows: J Spica → J Juno Dec 8.0200 8 whole (0.00) — also: 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+- **Makemake**
+  - star rows: H Deneb Algedi → H Makemake RA 132.9917 133 whole (34.35) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+  - same body: S Makemake → J Makemake RA 24.0205 24 whole (loose) — also: 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies
+  - star rows: J Capella → J Makemake Dec 13.0196 13 whole (0.04) — also: 3 Rubaud / Sam Twiston-Davies, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: J Galactic Centre → J Makemake Dec 61.9879 62 whole (15.44) — also: 6 Daytime Dreaming / Jack Andrews
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - star rows: J Zubeneschamali → J Makemake RA 51.0011 51 whole (89.19) — also: 6 Daytime Dreaming / Jack Andrews
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+  - star rows: J Zubeneschamali → J Makemake Dec 42.3639 10×φ^3 phi power (97.03) — also: 6 Daytime Dreaming / Jack Andrews
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+- **Gonggong**
+  - star rows: H Galactic Centre → H Gonggong RA 70.0087 70 whole (32.12) — also: 5 Brookie / Ben Godfrey
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - same body: S Gonggong → J Gonggong RA 5.9846 6 whole (5.25) — also: 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden
+  - top rows: S Moon → J Gonggong RA 141.4050 141.4 sqrt2 (95.43) — also: 2 Mirabad / Harry Skelton
+  - star rows: J Capella → J Gonggong RA 107.9953 108 whole (58.17) — also: 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: J Difda → J Gonggong Dec 0.1637 conj (20.65) — also: 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - star rows: J Zubeneschamali → J Gonggong RA 101.9324 63×φ golden (78.46) — only
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+- **Uranus**
+  - star rows: H Rigel → H Uranus Dec 17.7973 11×φ golden (93.52) — also: 3 Rubaud / Sam Twiston-Davies
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+  - same body: S Uranus → J Uranus RA 110.9407 10×φ^5 phi power (86.43) — also: 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden
+    - source line: S Jupiter → Uranus RA 85.0019 85 whole (82.28)
+  - star rows: J Capella → J Uranus RA 127.9909 128 whole (29.49) — also: 6 Daytime Dreaming / Jack Andrews
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+- **Sedna**
+  - star rows: H Spica → H Sedna Dec 18.8826 18.8889 ninth (95.50) — also: 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+  - star rows: J Spica → J Sedna Dec 15.9935 16 whole (45.83) — also: 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+  - star rows: J Zubeneschamali → J Sedna RA 176.0135 176 whole (10.63) — also: 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+- **Pallas**
+  - top rows: S Jupiter → J Pallas RA 169.8881 105×φ golden (69.15) — only
+- **Transpluto**
+  - top rows: S Jupiter → J Transpluto RA 0.0099 conj (98.68) — also: 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
 
 ## 2 Mirabad / Harry Skelton
 ### L1 same bodies
@@ -419,80 +659,119 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - S Transpluto → J Transpluto RA 12.2942 12.2222 ninth (loose)
 ### L2 what lands on each same body
 - **H Chiron** (same body: S Chiron → H Chiron RA 24.1934 24.14 silver (loose))
-  - star rows: H Deneb Algedi → H Chiron Dec 19.9999 20 whole (98.60) [Sun]
-  - star rows: H Zubeneschamali → H Chiron RA 131.9807 132 whole (0.12) [Moon]
+  - star rows: H Deneb Algedi → H Chiron Dec 19.9999 20 whole (98.60)
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+  - star rows: H Zubeneschamali → H Chiron RA 131.9807 132 whole (0.12)
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
   - other chart, same body: S Chiron → J Chiron RA 80.9103 50×φ golden (loose)
-  - other chart, star rows: J Zubeneschamali → J Chiron RA 122.9085 φ^10 phi power (74.73) [Moon]
+  - other chart, star rows: J Zubeneschamali → J Chiron RA 122.9085 φ^10 phi power (74.73)
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
 - **H Ceres** (same body: S Ceres → H Ceres Dec 40.9766 41 whole (loose))
-  - star rows: H Rigel → H Ceres RA 174.7322 108×φ golden (27.32) [Moon]
-  - other chart, star rows: J Capella → J Ceres Dec 24.9810 25 whole (0.25) [Jupiter]
-  - other chart, star rows: J Difda → J Ceres Dec 39.0003 39 whole (96.55) [Sun]
+  - star rows: H Rigel → H Ceres RA 174.7322 108×φ golden (27.32)
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+  - other chart, star rows: J Capella → J Ceres Dec 24.9810 25 whole (0.25)
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - other chart, star rows: J Difda → J Ceres Dec 39.0003 39 whole (96.55)
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
 - **H Pallas** (same body: S Pallas → H Pallas RA 166.1286 166.667 ninth (loose))
-  - body line: S Moon → Pallas Dec 11.1105 11.1111 ninth (98.98)
-  - other chart, T2: J Jupiter → J Pallas Dec 30.7412 19×φ golden (91.27) [Jupiter]
+  - sky line to Pallas: S Moon → Pallas Dec 11.1105 11.1111 ninth (98.98)
+  - other chart, T2: J Jupiter → J Pallas Dec 30.7412 19×φ golden (91.27)
 - **H Juno** (same body: S Juno → H Juno RA 140.7236 141.4 sqrt2 (loose))
-  - star rows: H Deneb Algedi → H Juno RA 117.9962 118 whole (65.27) [Sun]
-  - other chart, top rows: S Moon → J Juno RA 0.4003 conj (53.75) [Moon]
-  - other chart, star rows: J Capella → J Juno RA 111.0048 111 whole (58.05) [Jupiter]
-  - other chart, star rows: J Rigel → J Juno Dec 8.0172 8 whole (2.00) [Moon]
-  - other chart, star rows: J Spica → J Juno RA 11.1155 11.1111 ninth (92.74) [Moon]
+  - star rows: H Deneb Algedi → H Juno RA 117.9962 118 whole (65.27)
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+  - other chart, top rows: S Moon → J Juno RA 0.4003 conj (53.75)
+  - other chart, star rows: J Capella → J Juno RA 111.0048 111 whole (58.05)
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - other chart, star rows: J Rigel → J Juno Dec 8.0172 8 whole (2.00)
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+  - other chart, star rows: J Spica → J Juno RA 11.1155 11.1111 ninth (92.74)
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
 - **H Rahu** (same body: S Rahu → H Rahu RA 144.9835 145 whole (3.02))
-  - other chart, star rows: J Capella → J Rahu Dec 59.0120 59 whole (16.05) [Jupiter]
-  - other chart, star rows: J Deneb Algedi → J Rahu RA 1.0206 conj (10.21) [Sun]
-  - other chart, star rows: J Galactic Centre → J Rahu Dec 15.9935 16 whole (45.33) [Jupiter]
+  - other chart, star rows: J Capella → J Rahu Dec 59.0120 59 whole (16.05)
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - other chart, star rows: J Deneb Algedi → J Rahu RA 1.0206 conj (10.21)
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+  - other chart, star rows: J Galactic Centre → J Rahu Dec 15.9935 16 whole (45.33)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
 - **H Makemake** (same body: S Makemake → H Makemake Dec 4.8578 3×φ golden (loose))
-  - star rows: H Spica → H Makemake Dec 35.5953 22×φ golden (91.52) [Moon]
+  - star rows: H Spica → H Makemake Dec 35.5953 22×φ golden (91.52)
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
   - other chart, same body: S Makemake → J Makemake Dec 15.5352 15.5556 ninth (loose)
 - **H Ketu** (same body: S Ketu → H Ketu RA 144.9835 145 whole (3.02))
-  - body line: S Jupiter → Ketu RA 1.4561 conj (0.09)
-  - T1: H Jupiter → H Ketu Dec 1.0015 1 whole (85.19) [Jupiter]
-  - other chart, top rows: S Jupiter → J Ketu RA 0.6549 conj (31.74) [Jupiter]
-  - other chart, top rows: S Sun → J Ketu Dec 29.0057 29 whole (51.13) [Sun]
-  - other chart, star rows: J Capella → J Ketu Dec 32.9823 33 whole (1.27) [Jupiter]
-  - other chart, star rows: J Difda → J Ketu Dec 30.9991 31 whole (91.04) [Sun]
+  - sky line to Ketu: S Jupiter → Ketu RA 1.4561 conj (0.09)
+  - T1: H Jupiter → H Ketu Dec 1.0015 1 whole (85.19)
+  - other chart, top rows: S Jupiter → J Ketu RA 0.6549 conj (31.74)
+  - other chart, top rows: S Sun → J Ketu Dec 29.0057 29 whole (51.13)
+  - other chart, star rows: J Capella → J Ketu Dec 32.9823 33 whole (1.27)
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - other chart, star rows: J Difda → J Ketu Dec 30.9991 31 whole (91.04)
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
 - **J Mercury** (same body: S Mercury → J Mercury RA 32.3660 20×φ golden (69.92))
-  - star rows: J Zubenelgenubi → J Mercury Dec 9.9963 10 whole (66.44) [Sun]
-  - other chart, star rows: H Galactic Centre → H Mercury RA 87.3714 54×φ golden (85.30) [Jupiter]
-  - other chart, star rows: H Zubenelgenubi → H Mercury RA 131.0665 81×φ golden (67.44) [Sun]
+  - star rows: J Zubenelgenubi → J Mercury Dec 9.9963 10 whole (66.44)
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
+  - other chart, star rows: H Galactic Centre → H Mercury RA 87.3714 54×φ golden (85.30)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - other chart, star rows: H Zubenelgenubi → H Mercury RA 131.0665 81×φ golden (67.44)
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
 - **J Mars** (same body: S Mars → J Mars RA 37.0099 37 whole (25.75))
-  - other chart, top rows: S Sun → H Mars RA 156.9423 97×φ golden (61.49) [Sun]
-  - other chart, star rows: H Galactic Centre → H Mars RA 158.0142 158 whole (8.48) [Jupiter]
+  - other chart, top rows: S Sun → H Mars RA 156.9423 97×φ golden (61.49)
+  - other chart, star rows: H Galactic Centre → H Mars RA 158.0142 158 whole (8.48)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
 - **J Jupiter** (same body: S Jupiter → J Jupiter Dec 8.8775 8.88889 ninth (loose))
-  - top rows: S Chiron → J Jupiter RA 74.0053 74 whole (53.97) [Jupiter]
-  - top rows: S Gonggong → J Jupiter RA 122.2679 122.222 ninth (93.67) [Jupiter]
-  - star rows: S Deneb Algedi → J Jupiter RA 132.6720 82×φ golden (62.67) [Sun]
-  - star rows: S Deneb Algedi → J Jupiter Dec 38.9986 39 whole (86.75) [Sun]
-  - star rows: J Galactic Centre → J Jupiter RA 166.9814 167 whole (0.48) [Jupiter]
-  - other chart, top rows: S Rahu → H Jupiter RA 64.9974 65 whole (75.73) [Jupiter]
-  - other chart, top rows: S Ketu → H Jupiter RA 115.0026 115 whole (75.73) [Jupiter]
+  - top rows: S Chiron → J Jupiter RA 74.0053 74 whole (53.97)
+  - top rows: S Gonggong → J Jupiter RA 122.2679 122.222 ninth (93.67)
+  - star rows: S Deneb Algedi → J Jupiter RA 132.6720 82×φ golden (62.67)
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+  - star rows: S Deneb Algedi → J Jupiter Dec 38.9986 39 whole (86.75)
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+  - star rows: J Galactic Centre → J Jupiter RA 166.9814 167 whole (0.48)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - other chart, top rows: S Rahu → H Jupiter RA 64.9974 65 whole (75.73)
+  - other chart, top rows: S Ketu → H Jupiter RA 115.0026 115 whole (75.73)
+    - source line: S Jupiter → Ketu RA 1.4561 conj (0.09)
 - **J Uranus** (same body: S Uranus → J Uranus RA 150.4628 93×φ golden (31.03))
-  - body line: S Jupiter → Uranus RA 85.0019 85 whole (82.28)
+  - sky line to Uranus: S Jupiter → Uranus RA 85.0019 85 whole (82.28)
 - **J Chiron** (same body: S Chiron → J Chiron RA 80.9103 50×φ golden (loose))
-  - star rows: J Zubeneschamali → J Chiron RA 122.9085 φ^10 phi power (74.73) [Moon]
+  - star rows: J Zubeneschamali → J Chiron RA 122.9085 φ^10 phi power (74.73)
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
   - other chart, same body: S Chiron → H Chiron RA 24.1934 24.14 silver (loose)
-  - other chart, star rows: H Deneb Algedi → H Chiron Dec 19.9999 20 whole (98.60) [Sun]
-  - other chart, star rows: H Zubeneschamali → H Chiron RA 131.9807 132 whole (0.12) [Moon]
+  - other chart, star rows: H Deneb Algedi → H Chiron Dec 19.9999 20 whole (98.60)
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+  - other chart, star rows: H Zubeneschamali → H Chiron RA 131.9807 132 whole (0.12)
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
 - **J Haumea** (same body: S Haumea → J Haumea RA 33.9624 21×φ golden (loose))
-  - body line: S Sun → Haumea RA 0.6400 conj (32.87)
-  - top rows: S Moon → J Haumea RA 3.0044 3 whole (60.91) [Moon]
-  - star rows: J Deneb Algedi → J Haumea RA 139.9906 140 whole (28.28) [Sun]
-  - other chart, star rows: H Zubeneschamali → H Haumea RA 15.0153 15 whole (5.60) [Moon]
+  - sky line to Haumea: S Sun → Haumea RA 0.6400 conj (32.87)
+  - top rows: S Moon → J Haumea RA 3.0044 3 whole (60.91)
+  - star rows: J Deneb Algedi → J Haumea RA 139.9906 140 whole (28.28)
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+  - other chart, star rows: H Zubeneschamali → H Haumea RA 15.0153 15 whole (5.60)
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
 - **J Makemake** (same body: S Makemake → J Makemake Dec 15.5352 15.5556 ninth (loose))
   - other chart, same body: S Makemake → H Makemake Dec 4.8578 3×φ golden (loose)
-  - other chart, star rows: H Spica → H Makemake Dec 35.5953 22×φ golden (91.52) [Moon]
+  - other chart, star rows: H Spica → H Makemake Dec 35.5953 22×φ golden (91.52)
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
 - **J Orcus** (same body: S Orcus → J Orcus Dec 17.9590 φ^6 phi power (loose))
-  - other chart, star rows: H Spica → H Orcus RA 47.9823 48 whole (1.35) [Moon]
+  - other chart, star rows: H Spica → H Orcus RA 47.9823 48 whole (1.35)
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
 - **J Quaoar** (same body: S Quaoar → J Quaoar RA 48.5640 30×φ golden (loose); S Quaoar → J Quaoar Dec 2.0258 2 whole (loose))
-  - star rows: J Deneb Algedi → J Quaoar Dec 2.9973 3 whole (74.63) [Sun]
-  - star rows: J Rigel → J Quaoar RA 153.7148 95×φ golden (90.48) [Moon]
+  - star rows: J Deneb Algedi → J Quaoar Dec 2.9973 3 whole (74.63)
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+  - star rows: J Rigel → J Quaoar RA 153.7148 95×φ golden (90.48)
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
 - **J Transpluto** (same body: S Transpluto → J Transpluto RA 12.2942 12.2222 ninth (loose))
-  - body line: S Moon → Transpluto Dec 18.8875 18.8889 ninth (99.02)
-  - top rows: S Jupiter → J Transpluto Dec 0.1679 conj (19.40) [Jupiter]
-  - star rows: J Galactic Centre → J Transpluto RA 122.0035 122 whole (68.33) [Jupiter]
-  - other chart, star rows: H Capella → H Transpluto Dec 35.0170 35 whole (2.24) [Jupiter]
-  - other chart, star rows: H Galactic Centre → H Transpluto RA 113.0059 113 whole (49.68) [Jupiter]
-  - other chart, star rows: H Galactic Centre → H Transpluto Dec 39.9878 40 whole (15.28) [Jupiter]
-### L3 the seven cases (L5 field tag on each)
+  - sky line to Transpluto: S Moon → Transpluto Dec 18.8875 18.8889 ninth (99.02)
+  - top rows: S Jupiter → J Transpluto Dec 0.1679 conj (19.40)
+  - star rows: J Galactic Centre → J Transpluto RA 122.0035 122 whole (68.33)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - other chart, star rows: H Capella → H Transpluto Dec 35.0170 35 whole (2.24)
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - other chart, star rows: H Galactic Centre → H Transpluto RA 113.0059 113 whole (49.68)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - other chart, star rows: H Galactic Centre → H Transpluto Dec 39.9878 40 whole (15.28)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+### L3 matches
 - **1. same body on both charts**
   - Chiron — only
     - S Chiron → H Chiron RA 24.1934 24.14 silver (loose)
@@ -512,17 +791,29 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - **4. circle divisions**
   - 1 = 360/360 — also: 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
     - H Jupiter → H Ketu Dec 1.0015 1 whole (85.19)
-  - 20 = 360/18 — only
+  - 10 = 360/36 — also: 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey
+    - H Deneb Algedi → H Venus Dec 9.9805 10 whole (0.07)
+  - 20 = 360/18 — also: 4 Stencil / Harry Cobden
     - H Deneb Algedi → H Chiron Dec 19.9999 20 whole (98.60)
-  - 2 = 360/180 — also: 1 JPR One / Jonjo O'Neill Jr, 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey
+  - 12 = 360/30 — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+    - H Difda → H Neptune Dec 12.0172 12 whole (1.93)
+  - 40 = 360/9 — only
+    - H Galactic Centre → H Transpluto Dec 39.9878 40 whole (15.28)
+  - 5 = 360/72 — also: 1 JPR One / Jonjo O'Neill Jr, 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+    - H Spica → H Venus Dec 5.0144 5 whole (7.96)
+  - 15 = 360/24 — only
+    - H Zubeneschamali → H Haumea RA 15.0153 15 whole (5.60)
+  - 2 = 360/180 — also: 1 JPR One / Jonjo O'Neill Jr, 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
     - S Quaoar → J Quaoar Dec 2.0258 2 whole (loose)
   - 3 = 360/120 — also: 6 Daytime Dreaming / Jack Andrews
     - S Moon → J Haumea RA 3.0044 3 whole (60.91)
   - 3 = 360/120 — also: 6 Daytime Dreaming / Jack Andrews
     - J Deneb Algedi → J Quaoar Dec 2.9973 3 whole (74.63)
-  - 8 = 360/45 — also: 1 JPR One / Jonjo O'Neill Jr, 6 Daytime Dreaming / Jack Andrews
+  - 8 = 360/45 — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
     - J Difda → J Vesta Dec 7.9952 8 whole (57.88)
-  - 10 = 360/36 — only
+  - 8 = 360/45 — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
+    - J Rigel → J Juno Dec 8.0172 8 whole (2.00)
+  - 10 = 360/36 — also: 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey
     - J Zubenelgenubi → J Mercury Dec 9.9963 10 whole (66.44)
 - **5. same number in more than one place**
   - 145 whole — only
@@ -531,6 +822,15 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 144.444 ninth — also: 6 Daytime Dreaming / Jack Andrews
     - H Capella → H Pluto RA 144.4676 144.444 ninth (97.55)
     - H Spica → H Sedna RA 144.4481 144.444 ninth (99.62)
+  - 10 whole — only
+    - H Deneb Algedi → H Venus Dec 9.9805 10 whole (0.07)
+    - J Zubenelgenubi → J Mercury Dec 9.9963 10 whole (66.44)
+  - 22 whole — also: 5 Brookie / Ben Godfrey
+    - H Difda → H Venus RA 22.0050 22 whole (56.40)
+    - J Difda → J Sedna Dec 22.0086 22 whole (32.62)
+  - 19 whole — only
+    - H Spica → H Sun Dec 18.9913 19 whole (32.06)
+    - H Spica → H Sedna Dec 19.0126 19 whole (13.82)
   - 12.2222 ninth — also: 6 Daytime Dreaming / Jack Andrews
     - S Transpluto → J Transpluto RA 12.2942 12.2222 ninth (loose)
     - J Rigel → J Sedna Dec 12.2230 12.2222 ninth (98.86)
@@ -544,87 +844,182 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 3 whole — only
     - S Moon → J Haumea RA 3.0044 3 whole (60.91)
     - J Deneb Algedi → J Quaoar Dec 2.9973 3 whole (74.63)
-- **6. star and sky line on one body**: none
-- **7. centres meeting**
-  - Pallas: Jupiter, Moon — also: 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
-    - [Jupiter] J Jupiter → J Pallas Dec 30.7412 19×φ golden (91.27)
-    - [Moon] S Pallas → H Pallas RA 166.1286 166.667 ninth (loose)
-  - Ketu: Jupiter, Sun — only
-    - [Jupiter] S Ketu → H Ketu RA 144.9835 145 whole (3.02)
-    - [Jupiter] H Jupiter → H Ketu Dec 1.0015 1 whole (85.19)
-    - [Jupiter] S Jupiter → J Ketu RA 0.6549 conj (31.74)
-    - [Jupiter] J Capella → J Ketu Dec 32.9823 33 whole (1.27)
-    - [Sun] S Sun → J Ketu Dec 29.0057 29 whole (51.13)
-    - [Sun] J Difda → J Ketu Dec 30.9991 31 whole (91.04)
-  - Neptune: Jupiter, Moon, Sun — also: 3 Rubaud / Sam Twiston-Davies
-    - [Jupiter] S Jupiter → H Neptune RA 158.5720 98×φ golden (73.08)
-    - [Moon] H Spica → H Neptune RA 147.2543 91×φ golden (34.98)
-    - [Moon] J Rigel → J Neptune Dec 13.9880 14 whole (15.94)
-    - [Sun] H Difda → H Neptune Dec 12.0172 12 whole (1.93)
-  - Mars: Jupiter, Sun — only
-    - [Jupiter] H Galactic Centre → H Mars RA 158.0142 158 whole (8.48)
-    - [Sun] S Sun → H Mars RA 156.9423 97×φ golden (61.49)
-  - Jupiter: Jupiter, Sun — also: 1 JPR One / Jonjo O'Neill Jr, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
-    - [Jupiter] S Rahu → H Jupiter RA 64.9974 65 whole (75.73)
-    - [Jupiter] S Ketu → H Jupiter RA 115.0026 115 whole (75.73)
-    - [Jupiter] S Chiron → J Jupiter RA 74.0053 74 whole (53.97)
-    - [Jupiter] S Gonggong → J Jupiter RA 122.2679 122.222 ninth (93.67)
-    - [Jupiter] J Galactic Centre → J Jupiter RA 166.9814 167 whole (0.48)
-    - [Sun] S Deneb Algedi → J Jupiter RA 132.6720 82×φ golden (62.67)
-    - [Sun] S Deneb Algedi → J Jupiter Dec 38.9986 39 whole (86.75)
-  - Transpluto: Jupiter, Moon — only
-    - [Jupiter] H Capella → H Transpluto Dec 35.0170 35 whole (2.24)
-    - [Jupiter] H Galactic Centre → H Transpluto RA 113.0059 113 whole (49.68)
-    - [Jupiter] H Galactic Centre → H Transpluto Dec 39.9878 40 whole (15.28)
-    - [Jupiter] S Jupiter → J Transpluto Dec 0.1679 conj (19.40)
-    - [Jupiter] J Galactic Centre → J Transpluto RA 122.0035 122 whole (68.33)
-    - [Moon] S Transpluto → J Transpluto RA 12.2942 12.2222 ninth (loose)
-  - Venus: Moon, Sun — also: 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden
-    - [Moon] H Spica → H Venus Dec 5.0144 5 whole (7.96)
-    - [Moon] J Rigel → J Venus RA 137.9904 138 whole (27.24)
-    - [Sun] H Deneb Algedi → H Venus Dec 9.9805 10 whole (0.07)
-    - [Sun] H Difda → H Venus RA 22.0050 22 whole (56.40)
-    - [Sun] S Sun → J Venus Dec 0.2438 conj (3.51)
-    - [Sun] J Zubenelgenubi → J Venus Dec 0.2933 conj (0.05)
-  - Chiron: Moon, Sun — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden
-    - [Moon] H Zubeneschamali → H Chiron RA 131.9807 132 whole (0.12)
-    - [Moon] J Zubeneschamali → J Chiron RA 122.9085 φ^10 phi power (74.73)
-    - [Sun] H Deneb Algedi → H Chiron Dec 19.9999 20 whole (98.60)
-  - Juno: Jupiter, Moon, Sun — also: 1 JPR One / Jonjo O'Neill Jr
-    - [Jupiter] J Capella → J Juno RA 111.0048 111 whole (58.05)
-    - [Moon] S Moon → J Juno RA 0.4003 conj (53.75)
-    - [Moon] J Rigel → J Juno Dec 8.0172 8 whole (2.00)
-    - [Moon] J Spica → J Juno RA 11.1155 11.1111 ninth (92.74)
-    - [Sun] H Deneb Algedi → H Juno RA 117.9962 118 whole (65.27)
-  - Mercury: Jupiter, Sun — also: 1 JPR One / Jonjo O'Neill Jr, 3 Rubaud / Sam Twiston-Davies
-    - [Jupiter] H Galactic Centre → H Mercury RA 87.3714 54×φ golden (85.30)
-    - [Sun] H Zubenelgenubi → H Mercury RA 131.0665 81×φ golden (67.44)
-    - [Sun] J Zubenelgenubi → J Mercury Dec 9.9963 10 whole (66.44)
-  - Ceres: Jupiter, Moon, Sun — also: 3 Rubaud / Sam Twiston-Davies
-    - [Jupiter] J Capella → J Ceres Dec 24.9810 25 whole (0.25)
-    - [Moon] H Rigel → H Ceres RA 174.7322 108×φ golden (27.32)
-    - [Sun] J Difda → J Ceres Dec 39.0003 39 whole (96.55)
-  - Sedna: Moon, Sun — also: 3 Rubaud / Sam Twiston-Davies, 6 Daytime Dreaming / Jack Andrews
-    - [Moon] H Spica → H Sedna RA 144.4481 144.444 ninth (99.62)
-    - [Moon] H Spica → H Sedna Dec 19.0126 19 whole (13.82)
-    - [Moon] J Rigel → J Sedna Dec 12.2230 12.2222 ninth (98.86)
-    - [Moon] J Spica → J Sedna RA 159.0181 159 whole (0.87)
-    - [Sun] J Difda → J Sedna Dec 22.0086 22 whole (32.62)
-  - Haumea: Moon, Sun — also: 4 Stencil / Harry Cobden
-    - [Moon] H Zubeneschamali → H Haumea RA 15.0153 15 whole (5.60)
-    - [Moon] S Moon → J Haumea RA 3.0044 3 whole (60.91)
-    - [Sun] S Haumea → J Haumea RA 33.9624 21×φ golden (loose)
-    - [Sun] J Deneb Algedi → J Haumea RA 139.9906 140 whole (28.28)
-  - Rahu: Jupiter, Sun — only
-    - [Jupiter] J Capella → J Rahu Dec 59.0120 59 whole (16.05)
-    - [Jupiter] J Galactic Centre → J Rahu Dec 15.9935 16 whole (45.33)
-    - [Sun] J Deneb Algedi → J Rahu RA 1.0206 conj (10.21)
-  - Quaoar: Moon, Sun — only
-    - [Moon] J Rigel → J Quaoar RA 153.7148 95×φ golden (90.48)
-    - [Sun] J Deneb Algedi → J Quaoar Dec 2.9973 3 whole (74.63)
-  - Eris: Jupiter, Moon — only
-    - [Jupiter] J Galactic Centre → J Eris Dec 19.4139 12×φ golden (85.27)
-    - [Moon] J Zubeneschamali → J Eris Dec 0.2131 conj (8.39)
+  - 8 whole — also: 1 JPR One / Jonjo O'Neill Jr, 6 Daytime Dreaming / Jack Andrews
+    - J Difda → J Vesta Dec 7.9952 8 whole (57.88)
+    - J Rigel → J Juno Dec 8.0172 8 whole (2.00)
+### L4 every natal body
+- **Chiron**
+  - same body: S Chiron → H Chiron RA 24.1934 24.14 silver (loose) — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+  - star rows: H Deneb Algedi → H Chiron Dec 19.9999 20 whole (98.60) — also: 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+  - star rows: H Zubeneschamali → H Chiron RA 131.9807 132 whole (0.12) — also: 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+  - same body: S Chiron → J Chiron RA 80.9103 50×φ golden (loose) — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+  - star rows: J Zubeneschamali → J Chiron RA 122.9085 φ^10 phi power (74.73) — also: 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+- **Ceres**
+  - same body: S Ceres → H Ceres Dec 40.9766 41 whole (loose) — also: 1 JPR One / Jonjo O'Neill Jr, 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden
+  - star rows: H Rigel → H Ceres RA 174.7322 108×φ golden (27.32) — only
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+  - star rows: J Capella → J Ceres Dec 24.9810 25 whole (0.25) — also: 4 Stencil / Harry Cobden
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: J Difda → J Ceres Dec 39.0003 39 whole (96.55) — also: 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+- **Pallas**
+  - same body: S Pallas → H Pallas RA 166.1286 166.667 ninth (loose) — also: 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
+    - source line: S Moon → Pallas Dec 11.1105 11.1111 ninth (98.98)
+  - T2: J Jupiter → J Pallas Dec 30.7412 19×φ golden (91.27) — only
+- **Juno**
+  - same body: S Juno → H Juno RA 140.7236 141.4 sqrt2 (loose) — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden
+  - star rows: H Deneb Algedi → H Juno RA 117.9962 118 whole (65.27) — also: 1 JPR One / Jonjo O'Neill Jr
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+  - top rows: S Moon → J Juno RA 0.4003 conj (53.75) — also: 5 Brookie / Ben Godfrey
+  - star rows: J Capella → J Juno RA 111.0048 111 whole (58.05) — also: 1 JPR One / Jonjo O'Neill Jr
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: J Rigel → J Juno Dec 8.0172 8 whole (2.00) — only
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+  - star rows: J Spica → J Juno RA 11.1155 11.1111 ninth (92.74) — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+- **Rahu**
+  - same body: S Rahu → H Rahu RA 144.9835 145 whole (3.02) — also: 1 JPR One / Jonjo O'Neill Jr, 5 Brookie / Ben Godfrey
+  - star rows: J Capella → J Rahu Dec 59.0120 59 whole (16.05) — also: 1 JPR One / Jonjo O'Neill Jr, 5 Brookie / Ben Godfrey
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: J Deneb Algedi → J Rahu RA 1.0206 conj (10.21) — also: 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+  - star rows: J Galactic Centre → J Rahu Dec 15.9935 16 whole (45.33) — also: 1 JPR One / Jonjo O'Neill Jr, 5 Brookie / Ben Godfrey
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+- **Makemake**
+  - same body: S Makemake → H Makemake Dec 4.8578 3×φ golden (loose) — also: 1 JPR One / Jonjo O'Neill Jr, 3 Rubaud / Sam Twiston-Davies
+  - star rows: H Spica → H Makemake Dec 35.5953 22×φ golden (91.52) — also: 5 Brookie / Ben Godfrey
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+  - same body: S Makemake → J Makemake Dec 15.5352 15.5556 ninth (loose) — also: 1 JPR One / Jonjo O'Neill Jr, 3 Rubaud / Sam Twiston-Davies
+- **Ketu**
+  - same body: S Ketu → H Ketu RA 144.9835 145 whole (3.02) — also: 1 JPR One / Jonjo O'Neill Jr, 5 Brookie / Ben Godfrey
+    - source line: S Jupiter → Ketu RA 1.4561 conj (0.09)
+  - T1: H Jupiter → H Ketu Dec 1.0015 1 whole (85.19) — only
+  - top rows: S Jupiter → J Ketu RA 0.6549 conj (31.74) — only
+  - top rows: S Sun → J Ketu Dec 29.0057 29 whole (51.13) — also: 1 JPR One / Jonjo O'Neill Jr, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+  - star rows: J Capella → J Ketu Dec 32.9823 33 whole (1.27) — also: 1 JPR One / Jonjo O'Neill Jr, 5 Brookie / Ben Godfrey
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: J Difda → J Ketu Dec 30.9991 31 whole (91.04) — also: 1 JPR One / Jonjo O'Neill Jr, 5 Brookie / Ben Godfrey
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+- **Neptune**
+  - top rows: S Jupiter → H Neptune RA 158.5720 98×φ golden (73.08) — only
+  - star rows: H Difda → H Neptune Dec 12.0172 12 whole (1.93) — only
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - star rows: H Spica → H Neptune RA 147.2543 91×φ golden (34.98) — also: 1 JPR One / Jonjo O'Neill Jr
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+  - star rows: J Rigel → J Neptune Dec 13.9880 14 whole (15.94) — also: 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+- **Mars**
+  - top rows: S Sun → H Mars RA 156.9423 97×φ golden (61.49) — only
+  - star rows: H Galactic Centre → H Mars RA 158.0142 158 whole (8.48) — also: 4 Stencil / Harry Cobden
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - same body: S Mars → J Mars RA 37.0099 37 whole (25.75) — also: 3 Rubaud / Sam Twiston-Davies
+- **Jupiter**
+  - top rows: S Rahu → H Jupiter RA 64.9974 65 whole (75.73) — also: 1 JPR One / Jonjo O'Neill Jr
+  - top rows: S Ketu → H Jupiter RA 115.0026 115 whole (75.73) — only
+    - source line: S Jupiter → Ketu RA 1.4561 conj (0.09)
+  - same body: S Jupiter → J Jupiter Dec 8.8775 8.88889 ninth (loose) — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
+  - T2: J Jupiter → J star Deneb Algedi RA 132.6713 82×φ golden (58.97) — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+  - T2: J Jupiter → J star Deneb Algedi Dec 38.9942 39 whole (50.53) — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+  - top rows: S Chiron → J Jupiter RA 74.0053 74 whole (53.97) — also: 3 Rubaud / Sam Twiston-Davies
+  - top rows: S Gonggong → J Jupiter RA 122.2679 122.222 ninth (93.67) — only
+  - star rows: S Deneb Algedi → J Jupiter RA 132.6720 82×φ golden (62.67) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+  - star rows: S Deneb Algedi → J Jupiter Dec 38.9986 39 whole (86.75) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+  - star rows: J Galactic Centre → J Jupiter RA 166.9814 167 whole (0.48) — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+- **Pluto**
+  - star rows: H Capella → H Pluto RA 144.4676 144.444 ninth (97.55) — also: 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+- **Transpluto**
+  - star rows: H Capella → H Transpluto Dec 35.0170 35 whole (2.24) — only
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: H Galactic Centre → H Transpluto RA 113.0059 113 whole (49.68) — also: 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - star rows: H Galactic Centre → H Transpluto Dec 39.9878 40 whole (15.28) — also: 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - same body: S Transpluto → J Transpluto RA 12.2942 12.2222 ninth (loose) — also: 3 Rubaud / Sam Twiston-Davies
+    - source line: S Moon → Transpluto Dec 18.8875 18.8889 ninth (99.02)
+  - top rows: S Jupiter → J Transpluto Dec 0.1679 conj (19.40) — also: 1 JPR One / Jonjo O'Neill Jr, 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+  - star rows: J Galactic Centre → J Transpluto RA 122.0035 122 whole (68.33) — also: 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+- **Venus**
+  - star rows: H Deneb Algedi → H Venus Dec 9.9805 10 whole (0.07) — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+  - star rows: H Difda → H Venus RA 22.0050 22 whole (56.40) — also: 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - star rows: H Spica → H Venus Dec 5.0144 5 whole (7.96) — only
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+  - top rows: S Sun → J Venus Dec 0.2438 conj (3.51) — also: 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden
+  - star rows: J Rigel → J Venus RA 137.9904 138 whole (27.24) — also: 3 Rubaud / Sam Twiston-Davies, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+  - star rows: J Zubenelgenubi → J Venus Dec 0.2933 conj (0.05) — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
+- **Mercury**
+  - star rows: H Galactic Centre → H Mercury RA 87.3714 54×φ golden (85.30) — also: 1 JPR One / Jonjo O'Neill Jr, 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - star rows: H Zubenelgenubi → H Mercury RA 131.0665 81×φ golden (67.44) — only
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
+  - same body: S Mercury → J Mercury RA 32.3660 20×φ golden (69.92) — also: 1 JPR One / Jonjo O'Neill Jr, 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey
+  - star rows: J Zubenelgenubi → J Mercury Dec 9.9963 10 whole (66.44) — only
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
+- **Gonggong**
+  - star rows: H Rigel → H Gonggong RA 102.0006 102 whole (94.24) — also: 3 Rubaud / Sam Twiston-Davies, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+  - top rows: S Moon → J Gonggong RA 139.1585 86×φ golden (58.69) — also: 1 JPR One / Jonjo O'Neill Jr
+- **Sun**
+  - star rows: H Spica → H Sun Dec 18.9913 19 whole (32.06) — also: 3 Rubaud / Sam Twiston-Davies, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+- **Sedna**
+  - star rows: H Spica → H Sedna RA 144.4481 144.444 ninth (99.62) — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+  - star rows: H Spica → H Sedna Dec 19.0126 19 whole (13.82) — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+  - star rows: J Difda → J Sedna Dec 22.0086 22 whole (32.62) — also: 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - star rows: J Rigel → J Sedna Dec 12.2230 12.2222 ninth (98.86) — only
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+  - star rows: J Spica → J Sedna RA 159.0181 159 whole (0.87) — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+- **Orcus**
+  - star rows: H Spica → H Orcus RA 47.9823 48 whole (1.35) — also: 6 Daytime Dreaming / Jack Andrews
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+  - same body: S Orcus → J Orcus Dec 17.9590 φ^6 phi power (loose) — also: 1 JPR One / Jonjo O'Neill Jr
+- **Haumea**
+  - star rows: H Zubeneschamali → H Haumea RA 15.0153 15 whole (5.60) — only
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+  - same body: S Haumea → J Haumea RA 33.9624 21×φ golden (loose) — also: 1 JPR One / Jonjo O'Neill Jr, 5 Brookie / Ben Godfrey
+    - source line: S Sun → Haumea RA 0.6400 conj (32.87)
+  - top rows: S Moon → J Haumea RA 3.0044 3 whole (60.91) — also: 3 Rubaud / Sam Twiston-Davies
+  - star rows: J Deneb Algedi → J Haumea RA 139.9906 140 whole (28.28) — also: 1 JPR One / Jonjo O'Neill Jr, 5 Brookie / Ben Godfrey
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+- **Uranus**
+  - same body: S Uranus → J Uranus RA 150.4628 93×φ golden (31.03) — also: 1 JPR One / Jonjo O'Neill Jr, 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden
+    - source line: S Jupiter → Uranus RA 85.0019 85 whole (82.28)
+- **Quaoar**
+  - same body: S Quaoar → J Quaoar RA 48.5640 30×φ golden (loose) — also: 3 Rubaud / Sam Twiston-Davies
+  - same body: S Quaoar → J Quaoar Dec 2.0258 2 whole (loose) — also: 3 Rubaud / Sam Twiston-Davies
+  - star rows: J Deneb Algedi → J Quaoar Dec 2.9973 3 whole (74.63) — also: 6 Daytime Dreaming / Jack Andrews
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+  - star rows: J Rigel → J Quaoar RA 153.7148 95×φ golden (90.48) — only
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+- **Vesta**
+  - star rows: J Difda → J Vesta Dec 7.9952 8 whole (57.88) — also: 3 Rubaud / Sam Twiston-Davies
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+- **Eris**
+  - star rows: J Galactic Centre → J Eris Dec 19.4139 12×φ golden (85.27) — also: 5 Brookie / Ben Godfrey
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - star rows: J Zubeneschamali → J Eris Dec 0.2131 conj (8.39) — only
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+- **Saturn**
+  - star rows: J Rigel → J Saturn Dec 14.5643 9×φ golden (88.11) — also: 3 Rubaud / Sam Twiston-Davies
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
 
 ## 3 Rubaud / Sam Twiston-Davies
 ### L1 same bodies
@@ -646,67 +1041,101 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - S Transpluto → J Transpluto Dec 4.0246 4 whole (loose)
 ### L2 what lands on each same body
 - **H Sun** (same body: S Sun → H Sun RA 133.6261 133.333 ninth (loose))
-  - top rows: S Moon → H Sun Dec 6.9964 7 whole (67.15) [Moon]
-  - star rows: H Spica → H Sun Dec 8.9979 9 whole (80.49) [Moon]
-  - other chart, star rows: J Spica → J Sun RA 0.5040 conj (44.09) [Moon]
+  - top rows: S Moon → H Sun Dec 6.9964 7 whole (67.15)
+  - star rows: H Spica → H Sun Dec 8.9979 9 whole (80.49)
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+  - other chart, star rows: J Spica → J Sun RA 0.5040 conj (44.09)
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
 - **H Venus** (same body: S Venus → H Venus Dec 15.4817 15.5556 ninth (loose))
-  - star rows: H Difda → H Venus RA 1.0354 conj (9.59) [Sun]
-  - other chart, top rows: S Sun → J Venus RA 11.0051 11 whole (55.36) [Sun]
-  - other chart, star rows: J Rigel → J Venus RA 153.7432 95×φ golden (0.53) [Moon]
+  - star rows: H Difda → H Venus RA 1.0354 conj (9.59)
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - other chart, top rows: S Sun → J Venus RA 11.0051 11 whole (55.36)
+  - other chart, star rows: J Rigel → J Venus RA 153.7432 95×φ golden (0.53)
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
 - **H Uranus** (same body: S Uranus → H Uranus Dec 11.1403 11.1111 ninth (loose))
-  - body line: S Jupiter → Uranus RA 85.0019 85 whole (82.28)
-  - star rows: H Rigel → H Uranus RA 53.9954 54 whole (59.63) [Moon]
-  - other chart, star rows: J Rigel → J Uranus RA 153.0015 153 whole (85.29) [Moon]
+  - sky line to Uranus: S Jupiter → Uranus RA 85.0019 85 whole (82.28)
+  - star rows: H Rigel → H Uranus RA 53.9954 54 whole (59.63)
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+  - other chart, star rows: J Rigel → J Uranus RA 153.0015 153 whole (85.29)
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
 - **H Ceres** (same body: S Ceres → H Ceres RA 15.4757 15.5556 ninth (loose))
-  - top rows: S Jupiter → H Ceres Dec 17.9495 φ^6 phi power (88.68) [Jupiter]
-  - star rows: H Zubenelgenubi → H Ceres Dec 47.9844 48 whole (4.79) [Sun]
-  - star rows: H Zubeneschamali → H Ceres RA 98.7035 61×φ golden (79.72) [Moon]
-  - other chart, star rows: J Deneb Algedi → J Ceres Dec 13.9890 14 whole (20.40) [Sun]
-  - other chart, star rows: J Spica → J Ceres RA 101.9858 102 whole (8.37) [Moon]
+  - top rows: S Jupiter → H Ceres Dec 17.9495 φ^6 phi power (88.68)
+  - star rows: H Zubenelgenubi → H Ceres Dec 47.9844 48 whole (4.79)
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
+  - star rows: H Zubeneschamali → H Ceres RA 98.7035 61×φ golden (79.72)
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+  - other chart, star rows: J Deneb Algedi → J Ceres Dec 13.9890 14 whole (20.40)
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+  - other chart, star rows: J Spica → J Ceres RA 101.9858 102 whole (8.37)
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
 - **H Pallas** (same body: S Pallas → H Pallas RA 42.3975 10×φ^3 phi power (loose))
-  - body line: S Moon → Pallas Dec 11.1105 11.1111 ninth (98.98)
-  - star rows: H Galactic Centre → H Pallas Dec 17.7705 17.7778 ninth (94.29) [Jupiter]
-  - star rows: H Spica → H Pallas RA 143.9882 144 whole (16.62) [Moon]
-  - star rows: H Spica → H Pallas Dec 0.0736 conj (56.94) [Moon]
+  - sky line to Pallas: S Moon → Pallas Dec 11.1105 11.1111 ninth (98.98)
+  - star rows: H Galactic Centre → H Pallas Dec 17.7705 17.7778 ninth (94.29)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - star rows: H Spica → H Pallas RA 143.9882 144 whole (16.62)
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+  - star rows: H Spica → H Pallas Dec 0.0736 conj (56.94)
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
   - other chart, same body: S Pallas → J Pallas RA 105.1452 65×φ golden (2.70)
   - other chart, same body: S Pallas → J Pallas Dec 27.0066 27 whole (44.81)
-  - other chart, top rows: S Moon → J Pallas RA 79.9942 80 whole (50.31) [Moon]
-  - other chart, star rows: J Deneb Algedi → J Pallas RA 56.9906 57 whole (28.00) [Sun]
+  - other chart, top rows: S Moon → J Pallas RA 79.9942 80 whole (50.31)
+  - other chart, star rows: J Deneb Algedi → J Pallas RA 56.9906 57 whole (28.00)
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
 - **H Sedna** (same body: S Sedna → H Sedna RA 6.0049 6 whole (57.00))
-  - star rows: H Zubenelgenubi → H Sedna RA 166.6568 166.667 ninth (99.15) [Sun]
-  - star rows: H Zubeneschamali → H Sedna Dec 17.0016 17 whole (84.21) [Moon]
+  - star rows: H Zubenelgenubi → H Sedna RA 166.6568 166.667 ninth (99.15)
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
+  - star rows: H Zubeneschamali → H Sedna Dec 17.0016 17 whole (84.21)
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
 - **H Gonggong** (same body: S Gonggong → H Gonggong RA 0.9849 1 whole (loose); S Gonggong → H Gonggong Dec 1.8834 1.88889 ninth (loose))
-  - top rows: S Jupiter → H Gonggong Dec 26.1880 10×φ^2 phi power (88.70) [Jupiter]
-  - star rows: H Capella → H Gonggong RA 102.9899 103 whole (24.44) [Jupiter]
-  - star rows: H Rigel → H Gonggong Dec 3.9917 4 whole (34.03) [Moon]
+  - top rows: S Jupiter → H Gonggong Dec 26.1880 10×φ^2 phi power (88.70)
+  - star rows: H Capella → H Gonggong RA 102.9899 103 whole (24.44)
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: H Rigel → H Gonggong Dec 3.9917 4 whole (34.03)
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
 - **J Mercury** (same body: S Mercury → J Mercury RA 2.0250 2 whole (loose))
-  - star rows: J Difda → J Mercury Dec 1.0065 1 whole (45.69) [Sun]
-  - other chart, top rows: S Jupiter → H Mercury Dec 6.9945 7 whole (52.62) [Jupiter]
-  - other chart, star rows: H Capella → H Mercury Dec 39.0008 39 whole (91.97) [Jupiter]
-  - other chart, star rows: H Difda → H Mercury RA 0.0945 conj (87.79) [Sun]
-  - other chart, star rows: H Difda → H Mercury Dec 24.9863 25 whole (9.79) [Sun]
-  - other chart, star rows: H Galactic Centre → H Mercury Dec 36.0045 36 whole (60.22) [Jupiter]
+  - star rows: J Difda → J Mercury Dec 1.0065 1 whole (45.69)
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - other chart, top rows: S Jupiter → H Mercury Dec 6.9945 7 whole (52.62)
+  - other chart, star rows: H Capella → H Mercury Dec 39.0008 39 whole (91.97)
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - other chart, star rows: H Difda → H Mercury RA 0.0945 conj (87.79)
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - other chart, star rows: H Difda → H Mercury Dec 24.9863 25 whole (9.79)
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - other chart, star rows: H Galactic Centre → H Mercury Dec 36.0045 36 whole (60.22)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
 - **J Mars** (same body: S Mars → J Mars Dec 6.9965 7 whole (68.15))
-  - other chart, star rows: H Zubeneschamali → H Mars Dec 14.0182 14 whole (0.78) [Moon]
+  - other chart, star rows: H Zubeneschamali → H Mars Dec 14.0182 14 whole (0.78)
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
 - **J Pallas** (same body: S Pallas → J Pallas RA 105.1452 65×φ golden (2.70); S Pallas → J Pallas Dec 27.0066 27 whole (44.81))
-  - body line: S Moon → Pallas Dec 11.1105 11.1111 ninth (98.98)
-  - top rows: S Moon → J Pallas RA 79.9942 80 whole (50.31) [Moon]
-  - star rows: J Deneb Algedi → J Pallas RA 56.9906 57 whole (28.00) [Sun]
+  - sky line to Pallas: S Moon → Pallas Dec 11.1105 11.1111 ninth (98.98)
+  - top rows: S Moon → J Pallas RA 79.9942 80 whole (50.31)
+  - star rows: J Deneb Algedi → J Pallas RA 56.9906 57 whole (28.00)
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
   - other chart, same body: S Pallas → H Pallas RA 42.3975 10×φ^3 phi power (loose)
-  - other chart, star rows: H Galactic Centre → H Pallas Dec 17.7705 17.7778 ninth (94.29) [Jupiter]
-  - other chart, star rows: H Spica → H Pallas RA 143.9882 144 whole (16.62) [Moon]
-  - other chart, star rows: H Spica → H Pallas Dec 0.0736 conj (56.94) [Moon]
+  - other chart, star rows: H Galactic Centre → H Pallas Dec 17.7705 17.7778 ninth (94.29)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - other chart, star rows: H Spica → H Pallas RA 143.9882 144 whole (16.62)
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+  - other chart, star rows: H Spica → H Pallas Dec 0.0736 conj (56.94)
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
 - **J Makemake** (same body: S Makemake → J Makemake Dec 14.4950 14.4444 ninth (loose))
-  - other chart, star rows: H Capella → H Makemake RA 116.4669 72×φ golden (0.06) [Jupiter]
-  - other chart, star rows: H Rigel → H Makemake RA 117.0051 117 whole (55.21) [Moon]
+  - other chart, star rows: H Capella → H Makemake RA 116.4669 72×φ golden (0.06)
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - other chart, star rows: H Rigel → H Makemake RA 117.0051 117 whole (55.21)
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
 - **J Quaoar** (same body: S Quaoar → J Quaoar RA 44.3857 44.4444 ninth (loose))
 - **J Transpluto** (same body: S Transpluto → J Transpluto RA 11.0678 φ^5 phi power (loose); S Transpluto → J Transpluto Dec 4.0246 4 whole (loose))
-  - body line: S Moon → Transpluto Dec 18.8875 18.8889 ninth (99.02)
-  - top rows: S Jupiter → J Transpluto RA 1.4901 conj (0.00) [Jupiter]
-  - top rows: S Jupiter → J Transpluto Dec 0.2412 conj (3.84) [Jupiter]
-  - star rows: J Rigel → J Transpluto RA 67.0020 67 whole (81.36) [Moon]
-  - other chart, star rows: H Difda → H Transpluto RA 142.3856 88×φ golden (91.60) [Sun]
-### L3 the seven cases (L5 field tag on each)
+  - sky line to Transpluto: S Moon → Transpluto Dec 18.8875 18.8889 ninth (99.02)
+  - top rows: S Jupiter → J Transpluto RA 1.4901 conj (0.00)
+  - top rows: S Jupiter → J Transpluto Dec 0.2412 conj (3.84)
+  - star rows: J Rigel → J Transpluto RA 67.0020 67 whole (81.36)
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+  - other chart, star rows: H Difda → H Transpluto RA 142.3856 88×φ golden (91.60)
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+### L3 matches
 - **1. same body on both charts**
   - Pallas — only
     - S Pallas → H Pallas RA 42.3975 10×φ^3 phi power (loose)
@@ -730,113 +1159,205 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 2 whole — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
     - S Mercury → J Mercury RA 2.0250 2 whole (loose) = S Moon → Spica Dec 1.9978 2 whole (79.48)
 - **4. circle divisions**
-  - 6 = 360/60 — also: 1 JPR One / Jonjo O'Neill Jr
+  - 6 = 360/60 — also: 1 JPR One / Jonjo O'Neill Jr, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
     - S Sedna → H Sedna RA 6.0049 6 whole (57.00)
   - 1 = 360/360 — also: 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
     - S Gonggong → H Gonggong RA 0.9849 1 whole (loose)
   - 36 = 360/10 — also: 1 JPR One / Jonjo O'Neill Jr, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
     - H Galactic Centre → H Mercury Dec 36.0045 36 whole (60.22)
-  - 9 = 360/40 — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
+  - 4 = 360/90 — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
+    - H Rigel → H Gonggong Dec 3.9917 4 whole (34.03)
+  - 9 = 360/40 — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
     - H Spica → H Sun Dec 8.9979 9 whole (80.49)
-  - 2 = 360/180 — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 5 Brookie / Ben Godfrey
+  - 2 = 360/180 — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
     - S Mercury → J Mercury RA 2.0250 2 whole (loose)
-  - 4 = 360/90 — also: 1 JPR One / Jonjo O'Neill Jr, 5 Brookie / Ben Godfrey
+  - 4 = 360/90 — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
     - S Transpluto → J Transpluto Dec 4.0246 4 whole (loose)
+  - 1 = 360/360 — also: 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+    - J Difda → J Mercury Dec 1.0065 1 whole (45.69)
+  - 5 = 360/72 — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+    - J Difda → J Vesta Dec 5.0081 5 whole (35.14)
+  - 10 = 360/36 — also: 2 Mirabad / Harry Skelton, 5 Brookie / Ben Godfrey
+    - J Rigel → J Saturn Dec 10.0169 10 whole (2.36)
 - **5. same number in more than one place**
   - 15.5556 ninth — only
     - S Venus → H Venus Dec 15.4817 15.5556 ninth (loose)
     - S Ceres → H Ceres RA 15.4757 15.5556 ninth (loose)
-  - 7 whole — only
+  - 1 whole — also: 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
+    - S Gonggong → H Gonggong RA 0.9849 1 whole (loose)
+    - J Difda → J Mercury Dec 1.0065 1 whole (45.69)
+  - 7 whole — also: 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
     - S Jupiter → H Mercury Dec 6.9945 7 whole (52.62)
     - S Moon → H Sun Dec 6.9964 7 whole (67.15)
     - S Mars → J Mars Dec 6.9965 7 whole (68.15)
+  - 25 whole — also: 1 JPR One / Jonjo O'Neill Jr
+    - H Difda → H Mercury Dec 24.9863 25 whole (9.79)
+    - H Rigel → H Haumea Dec 25.0120 25 whole (15.93)
   - 160 whole — only
     - H Rigel → H Saturn RA 160.0018 160 whole (82.93)
     - J Zubenelgenubi → J Eris RA 159.9987 160 whole (86.99)
-- **6. star and sky line on one body**
-  - H Mercury on Difda — only
-    - H Difda → H Mercury RA 0.0945 conj (87.79)
-    - S Jupiter → H Mercury Dec 6.9945 7 whole (52.62)
-- **7. centres meeting**
-  - Uranus: Jupiter, Moon — also: 1 JPR One / Jonjo O'Neill Jr
-    - [Jupiter] S Uranus → H Uranus Dec 11.1403 11.1111 ninth (loose)
-    - [Moon] H Rigel → H Uranus RA 53.9954 54 whole (59.63)
-    - [Moon] J Rigel → J Uranus RA 153.0015 153 whole (85.29)
-  - Pallas: Jupiter, Moon, Sun — only
-    - [Jupiter] H Galactic Centre → H Pallas Dec 17.7705 17.7778 ninth (94.29)
-    - [Moon] S Pallas → H Pallas RA 42.3975 10×φ^3 phi power (loose)
-    - [Moon] H Spica → H Pallas RA 143.9882 144 whole (16.62)
-    - [Moon] H Spica → H Pallas Dec 0.0736 conj (56.94)
-    - [Moon] S Pallas → J Pallas RA 105.1452 65×φ golden (2.70)
-    - [Moon] S Pallas → J Pallas Dec 27.0066 27 whole (44.81)
-    - [Moon] S Moon → J Pallas RA 79.9942 80 whole (50.31)
-    - [Sun] J Deneb Algedi → J Pallas RA 56.9906 57 whole (28.00)
-  - Mercury: Jupiter, Sun — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton
-    - [Jupiter] S Jupiter → H Mercury Dec 6.9945 7 whole (52.62)
-    - [Jupiter] H Capella → H Mercury Dec 39.0008 39 whole (91.97)
-    - [Jupiter] H Galactic Centre → H Mercury Dec 36.0045 36 whole (60.22)
-    - [Sun] H Difda → H Mercury RA 0.0945 conj (87.79)
-    - [Sun] H Difda → H Mercury Dec 24.9863 25 whole (9.79)
-    - [Sun] J Difda → J Mercury Dec 1.0065 1 whole (45.69)
-  - Chiron: Jupiter, Moon, Sun — also: 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
-    - [Jupiter] S Jupiter → H Chiron RA 150.4742 93×φ golden (82.42)
-    - [Jupiter] H Capella → H Chiron RA 82.5168 51×φ golden (82.87)
-    - [Moon] H Spica → H Chiron RA 155.3528 96×φ golden (11.23)
-    - [Sun] J Zubenelgenubi → J Chiron RA 81.0167 81 whole (2.72)
-  - Ceres: Jupiter, Moon, Sun — also: 2 Mirabad / Harry Skelton
-    - [Jupiter] S Jupiter → H Ceres Dec 17.9495 φ^6 phi power (88.68)
-    - [Moon] H Zubeneschamali → H Ceres RA 98.7035 61×φ golden (79.72)
-    - [Moon] J Spica → J Ceres RA 101.9858 102 whole (8.37)
-    - [Sun] H Zubenelgenubi → H Ceres Dec 47.9844 48 whole (4.79)
-    - [Sun] J Deneb Algedi → J Ceres Dec 13.9890 14 whole (20.40)
-  - Gonggong: Jupiter, Moon — only
-    - [Jupiter] S Jupiter → H Gonggong Dec 26.1880 10×φ^2 phi power (88.70)
-    - [Jupiter] H Capella → H Gonggong RA 102.9899 103 whole (24.44)
-    - [Moon] H Rigel → H Gonggong Dec 3.9917 4 whole (34.03)
-  - Jupiter: Jupiter, Moon — only
-    - [Jupiter] S Chiron → H Jupiter Dec 27.9993 28 whole (93.02)
-    - [Jupiter] S Eris → H Jupiter RA 156.0018 156 whole (83.26)
-    - [Jupiter] S Neptune → J Jupiter RA 179.4479 10×φ^6 phi power (98.84)
-    - [Moon] S Eris → H Jupiter RA 156.0018 156 whole (83.26)
-  - Makemake: Jupiter, Moon — also: 6 Daytime Dreaming / Jack Andrews
-    - [Jupiter] H Capella → H Makemake RA 116.4669 72×φ golden (0.06)
-    - [Moon] H Rigel → H Makemake RA 117.0051 117 whole (55.21)
-  - Venus: Moon, Sun — also: 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden
-    - [Moon] J Rigel → J Venus RA 153.7432 95×φ golden (0.53)
-    - [Sun] H Difda → H Venus RA 1.0354 conj (9.59)
-    - [Sun] S Sun → J Venus RA 11.0051 11 whole (55.36)
-  - Transpluto: Jupiter, Moon, Sun — also: 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
-    - [Jupiter] S Jupiter → J Transpluto RA 1.4901 conj (0.00)
-    - [Jupiter] S Jupiter → J Transpluto Dec 0.2412 conj (3.84)
-    - [Moon] S Transpluto → J Transpluto RA 11.0678 φ^5 phi power (loose)
-    - [Moon] S Transpluto → J Transpluto Dec 4.0246 4 whole (loose)
-    - [Moon] J Rigel → J Transpluto RA 67.0020 67 whole (81.36)
-    - [Sun] H Difda → H Transpluto RA 142.3856 88×φ golden (91.60)
-  - Neptune: Jupiter, Moon, Sun — also: 2 Mirabad / Harry Skelton
-    - [Jupiter] H Galactic Centre → H Neptune RA 79.2829 49×φ golden (95.32)
-    - [Moon] J Rigel → J Neptune RA 150.9819 151 whole (0.94)
-    - [Sun] H Zubenelgenubi → H Neptune RA 122.9768 φ^10 phi power (95.15)
-  - Pluto: Jupiter, Moon — only
-    - [Jupiter] H Galactic Centre → H Pluto RA 25.8886 16×φ golden (99.36)
-    - [Moon] H Spica → H Pluto RA 91.0024 91 whole (77.38)
-  - Saturn: Moon, Sun — also: 4 Stencil / Harry Cobden
-    - [Moon] H Rigel → H Saturn RA 160.0018 160 whole (82.93)
-    - [Moon] J Rigel → J Saturn Dec 10.0169 10 whole (2.36)
-    - [Sun] J Difda → J Saturn Dec 0.2308 conj (5.32)
-  - Haumea: Jupiter, Moon — also: 6 Daytime Dreaming / Jack Andrews
-    - [Jupiter] J Capella → J Haumea Dec 24.1437 24.14 silver (97.39)
-    - [Moon] H Rigel → H Haumea Dec 25.0120 25 whole (15.93)
-    - [Moon] S Moon → J Haumea RA 0.2696 conj (67.28)
-    - [Moon] J Spica → J Haumea Dec 33.0127 33 whole (13.30)
-  - Vesta: Moon, Sun — only
-    - [Moon] H Spica → H Vesta RA 63.0020 63 whole (80.64)
-    - [Sun] J Difda → J Vesta Dec 5.0081 5 whole (35.14)
-  - Sedna: Moon, Sun — also: 2 Mirabad / Harry Skelton, 6 Daytime Dreaming / Jack Andrews
-    - [Moon] H Zubeneschamali → H Sedna Dec 17.0016 17 whole (84.21)
-    - [Sun] H Zubenelgenubi → H Sedna RA 166.6568 166.667 ninth (99.15)
-  - Eris: Moon, Sun — also: 6 Daytime Dreaming / Jack Andrews
-    - [Moon] S Moon → J Eris Dec 0.2408 conj (3.89)
-    - [Sun] J Zubenelgenubi → J Eris RA 159.9987 160 whole (86.99)
+  - 4 whole — also: 1 JPR One / Jonjo O'Neill Jr
+    - H Rigel → H Gonggong Dec 3.9917 4 whole (34.03)
+    - S Transpluto → J Transpluto Dec 4.0246 4 whole (loose)
+  - 14 whole — also: 1 JPR One / Jonjo O'Neill Jr
+    - H Zubeneschamali → H Mars Dec 14.0182 14 whole (0.78)
+    - J Deneb Algedi → J Ceres Dec 13.9890 14 whole (20.40)
+### L4 every natal body
+- **Sun**
+  - same body: S Sun → H Sun RA 133.6261 133.333 ninth (loose) — also: 1 JPR One / Jonjo O'Neill Jr, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+  - top rows: S Moon → H Sun Dec 6.9964 7 whole (67.15) — also: 6 Daytime Dreaming / Jack Andrews
+  - star rows: H Spica → H Sun Dec 8.9979 9 whole (80.49) — also: 2 Mirabad / Harry Skelton, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+  - star rows: J Spica → J Sun RA 0.5040 conj (44.09) — also: 2 Mirabad / Harry Skelton, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+- **Venus**
+  - same body: S Venus → H Venus Dec 15.4817 15.5556 ninth (loose) — also: 5 Brookie / Ben Godfrey
+  - star rows: H Difda → H Venus RA 1.0354 conj (9.59) — also: 2 Mirabad / Harry Skelton, 5 Brookie / Ben Godfrey
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - top rows: S Sun → J Venus RA 11.0051 11 whole (55.36) — also: 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden
+  - star rows: J Rigel → J Venus RA 153.7432 95×φ golden (0.53) — also: 2 Mirabad / Harry Skelton, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+- **Uranus**
+  - same body: S Uranus → H Uranus Dec 11.1403 11.1111 ninth (loose) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden
+    - source line: S Jupiter → Uranus RA 85.0019 85 whole (82.28)
+  - star rows: H Rigel → H Uranus RA 53.9954 54 whole (59.63) — also: 1 JPR One / Jonjo O'Neill Jr
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+  - star rows: J Rigel → J Uranus RA 153.0015 153 whole (85.29) — also: 1 JPR One / Jonjo O'Neill Jr
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+- **Ceres**
+  - same body: S Ceres → H Ceres RA 15.4757 15.5556 ninth (loose) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden
+  - top rows: S Jupiter → H Ceres Dec 17.9495 φ^6 phi power (88.68) — only
+  - star rows: H Zubenelgenubi → H Ceres Dec 47.9844 48 whole (4.79) — also: 6 Daytime Dreaming / Jack Andrews
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
+  - star rows: H Zubeneschamali → H Ceres RA 98.7035 61×φ golden (79.72) — also: 1 JPR One / Jonjo O'Neill Jr, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+  - star rows: J Deneb Algedi → J Ceres Dec 13.9890 14 whole (20.40) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+  - star rows: J Spica → J Ceres RA 101.9858 102 whole (8.37) — also: 1 JPR One / Jonjo O'Neill Jr
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+- **Pallas**
+  - same body: S Pallas → H Pallas RA 42.3975 10×φ^3 phi power (loose) — also: 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
+    - source line: S Moon → Pallas Dec 11.1105 11.1111 ninth (98.98)
+  - star rows: H Galactic Centre → H Pallas Dec 17.7705 17.7778 ninth (94.29) — also: 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - star rows: H Spica → H Pallas RA 143.9882 144 whole (16.62) — also: 4 Stencil / Harry Cobden
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+  - star rows: H Spica → H Pallas Dec 0.0736 conj (56.94) — also: 4 Stencil / Harry Cobden
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+  - same body: S Pallas → J Pallas RA 105.1452 65×φ golden (2.70) — also: 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
+    - source line: S Moon → Pallas Dec 11.1105 11.1111 ninth (98.98)
+  - same body: S Pallas → J Pallas Dec 27.0066 27 whole (44.81) — also: 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
+    - source line: S Moon → Pallas Dec 11.1105 11.1111 ninth (98.98)
+  - top rows: S Moon → J Pallas RA 79.9942 80 whole (50.31) — only
+  - star rows: J Deneb Algedi → J Pallas RA 56.9906 57 whole (28.00) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+- **Sedna**
+  - same body: S Sedna → H Sedna RA 6.0049 6 whole (57.00) — also: 5 Brookie / Ben Godfrey
+  - star rows: H Zubenelgenubi → H Sedna RA 166.6568 166.667 ninth (99.15) — also: 4 Stencil / Harry Cobden
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
+  - star rows: H Zubeneschamali → H Sedna Dec 17.0016 17 whole (84.21) — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+- **Gonggong**
+  - same body: S Gonggong → H Gonggong RA 0.9849 1 whole (loose) — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden
+  - same body: S Gonggong → H Gonggong Dec 1.8834 1.88889 ninth (loose) — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden
+  - top rows: S Jupiter → H Gonggong Dec 26.1880 10×φ^2 phi power (88.70) — only
+  - star rows: H Capella → H Gonggong RA 102.9899 103 whole (24.44) — also: 1 JPR One / Jonjo O'Neill Jr, 5 Brookie / Ben Godfrey
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: H Rigel → H Gonggong Dec 3.9917 4 whole (34.03) — also: 2 Mirabad / Harry Skelton, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+- **Mercury**
+  - top rows: S Jupiter → H Mercury Dec 6.9945 7 whole (52.62) — also: 1 JPR One / Jonjo O'Neill Jr, 5 Brookie / Ben Godfrey
+  - star rows: H Capella → H Mercury Dec 39.0008 39 whole (91.97) — also: 1 JPR One / Jonjo O'Neill Jr, 5 Brookie / Ben Godfrey
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: H Difda → H Mercury RA 0.0945 conj (87.79) — also: 1 JPR One / Jonjo O'Neill Jr
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - star rows: H Difda → H Mercury Dec 24.9863 25 whole (9.79) — also: 1 JPR One / Jonjo O'Neill Jr
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - star rows: H Galactic Centre → H Mercury Dec 36.0045 36 whole (60.22) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 5 Brookie / Ben Godfrey
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - same body: S Mercury → J Mercury RA 2.0250 2 whole (loose) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 5 Brookie / Ben Godfrey
+  - star rows: J Difda → J Mercury Dec 1.0065 1 whole (45.69) — also: 1 JPR One / Jonjo O'Neill Jr
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+- **Chiron**
+  - top rows: S Jupiter → H Chiron RA 150.4742 93×φ golden (82.42) — only
+  - star rows: H Capella → H Chiron RA 82.5168 51×φ golden (82.87) — also: 5 Brookie / Ben Godfrey
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: H Spica → H Chiron RA 155.3528 96×φ golden (11.23) — also: 6 Daytime Dreaming / Jack Andrews
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+  - star rows: J Zubenelgenubi → J Chiron RA 81.0167 81 whole (2.72) — also: 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
+- **Jupiter**
+  - top rows: S Chiron → H Jupiter Dec 27.9993 28 whole (93.02) — also: 2 Mirabad / Harry Skelton
+  - top rows: S Eris → H Jupiter RA 156.0018 156 whole (83.26) — only
+    - source line: S Moon → Eris Dec 9.0057 9 whole (51.17)
+  - top rows: S Neptune → J Jupiter RA 179.4479 10×φ^6 phi power (98.84) — also: 6 Daytime Dreaming / Jack Andrews
+- **Makemake**
+  - star rows: H Capella → H Makemake RA 116.4669 72×φ golden (0.06) — also: 1 JPR One / Jonjo O'Neill Jr, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: H Rigel → H Makemake RA 117.0051 117 whole (55.21) — also: 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+  - same body: S Makemake → J Makemake Dec 14.4950 14.4444 ninth (loose) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton
+- **Transpluto**
+  - star rows: H Difda → H Transpluto RA 142.3856 88×φ golden (91.60) — also: 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - same body: S Transpluto → J Transpluto RA 11.0678 φ^5 phi power (loose) — also: 2 Mirabad / Harry Skelton
+    - source line: S Moon → Transpluto Dec 18.8875 18.8889 ninth (99.02)
+  - same body: S Transpluto → J Transpluto Dec 4.0246 4 whole (loose) — also: 2 Mirabad / Harry Skelton
+    - source line: S Moon → Transpluto Dec 18.8875 18.8889 ninth (99.02)
+  - top rows: S Jupiter → J Transpluto RA 1.4901 conj (0.00) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+  - top rows: S Jupiter → J Transpluto Dec 0.2412 conj (3.84) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+  - star rows: J Rigel → J Transpluto RA 67.0020 67 whole (81.36) — also: 6 Daytime Dreaming / Jack Andrews
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+- **Neptune**
+  - star rows: H Galactic Centre → H Neptune RA 79.2829 49×φ golden (95.32) — also: 1 JPR One / Jonjo O'Neill Jr, 5 Brookie / Ben Godfrey
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - star rows: H Zubenelgenubi → H Neptune RA 122.9768 φ^10 phi power (95.15) — only
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
+  - star rows: J Rigel → J Neptune RA 150.9819 151 whole (0.94) — also: 2 Mirabad / Harry Skelton, 5 Brookie / Ben Godfrey
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+- **Pluto**
+  - star rows: H Galactic Centre → H Pluto RA 25.8886 16×φ golden (99.36) — also: 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - star rows: H Spica → H Pluto RA 91.0024 91 whole (77.38) — also: 5 Brookie / Ben Godfrey
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+- **Saturn**
+  - star rows: H Rigel → H Saturn RA 160.0018 160 whole (82.93) — also: 2 Mirabad / Harry Skelton
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+  - star rows: J Difda → J Saturn Dec 0.2308 conj (5.32) — also: 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - star rows: J Rigel → J Saturn Dec 10.0169 10 whole (2.36) — also: 2 Mirabad / Harry Skelton
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+- **Haumea**
+  - star rows: H Rigel → H Haumea Dec 25.0120 25 whole (15.93) — also: 4 Stencil / Harry Cobden
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+  - top rows: S Moon → J Haumea RA 0.2696 conj (67.28) — also: 2 Mirabad / Harry Skelton
+  - star rows: J Capella → J Haumea Dec 24.1437 24.14 silver (97.39) — also: 6 Daytime Dreaming / Jack Andrews
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: J Spica → J Haumea Dec 33.0127 33 whole (13.30) — also: 6 Daytime Dreaming / Jack Andrews
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+- **Vesta**
+  - star rows: H Spica → H Vesta RA 63.0020 63 whole (80.64) — also: 6 Daytime Dreaming / Jack Andrews
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+  - star rows: J Difda → J Vesta Dec 5.0081 5 whole (35.14) — also: 2 Mirabad / Harry Skelton
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+- **Mars**
+  - star rows: H Zubeneschamali → H Mars Dec 14.0182 14 whole (0.78) — also: 6 Daytime Dreaming / Jack Andrews
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+  - same body: S Mars → J Mars Dec 6.9965 7 whole (68.15) — also: 2 Mirabad / Harry Skelton
+- **Quaoar**
+  - same body: S Quaoar → J Quaoar RA 44.3857 44.4444 ninth (loose) — also: 2 Mirabad / Harry Skelton
+- **Eris**
+  - top rows: S Moon → J Eris Dec 0.2408 conj (3.89) — only
+  - star rows: J Zubenelgenubi → J Eris RA 159.9987 160 whole (86.99) — only
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
+- **Orcus**
+  - star rows: J Difda → J Orcus RA 121.9983 122 whole (83.73) — also: 6 Daytime Dreaming / Jack Andrews
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
 
 ## 4 Stencil / Harry Cobden
 ### L1 same bodies
@@ -853,43 +1374,64 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - S Vesta → J Vesta RA 121.7272 122.222 ninth (loose)
 ### L2 what lands on each same body
 - **H Jupiter** (same body: S Jupiter → H Jupiter Dec 30.9825 31 whole (1.54))
-  - top rows: S Sun → H Jupiter Dec 1.0000 1 whole (99.75) [Jupiter, Sun]
-  - top rows: S Orcus → H Jupiter RA 155.5501 155.556 ninth (99.48) [Jupiter]
-  - star rows: H Capella → H Jupiter Dec 62.9885 63 whole (18.12) [Jupiter]
-  - star rows: H Difda → H Jupiter Dec 0.9986 1 whole (86.64) [Sun]
-  - star rows: H Galactic Centre → H Jupiter Dec 12.0165 12 whole (3.07) [Jupiter]
-  - star rows: S Zubeneschamali → H Jupiter RA 87.9868 88 whole (11.46) [Moon]
-  - other chart, star rows: S Difda → J Jupiter Dec 12.0106 12 whole (22.06) [Sun]
+  - top rows: S Sun → H Jupiter Dec 1.0000 1 whole (99.75)
+  - top rows: S Orcus → H Jupiter RA 155.5501 155.556 ninth (99.48)
+  - star rows: H Capella → H Jupiter Dec 62.9885 63 whole (18.12)
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: H Difda → H Jupiter Dec 0.9986 1 whole (86.64)
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - star rows: H Galactic Centre → H Jupiter Dec 12.0165 12 whole (3.07)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - star rows: S Zubeneschamali → H Jupiter RA 87.9868 88 whole (11.46)
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+  - other chart, star rows: S Difda → J Jupiter Dec 12.0106 12 whole (22.06)
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
 - **H Neptune** (same body: S Neptune → H Neptune RA 11.0846 φ^5 phi power (loose))
-  - other chart, star rows: J Capella → J Neptune RA 137.5089 85×φ golden (6.76) [Jupiter]
+  - other chart, star rows: J Capella → J Neptune RA 137.5089 85×φ golden (6.76)
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
 - **H Vesta** (same body: S Vesta → H Vesta RA 154.8133 155.556 ninth (loose))
   - other chart, same body: S Vesta → J Vesta RA 121.7272 122.222 ninth (loose)
 - **H Gonggong** (same body: S Gonggong → H Gonggong Dec 1.2177 1.22222 ninth (loose))
-  - other chart, star rows: J Difda → J Gonggong Dec 0.1627 conj (20.94) [Sun]
+  - other chart, star rows: J Difda → J Gonggong Dec 0.1627 conj (20.94)
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
 - **J Uranus** (same body: S Uranus → J Uranus RA 110.5535 10×φ^5 phi power (loose))
-  - body line: S Jupiter → Uranus RA 85.0019 85 whole (82.28)
+  - sky line to Uranus: S Jupiter → Uranus RA 85.0019 85 whole (82.28)
 - **J Chiron** (same body: S Chiron → J Chiron RA 155.0621 155.556 ninth (loose))
-  - top rows: S Sun → J Chiron Dec 0.1450 conj (26.68) [Sun]
-  - star rows: J Deneb Algedi → J Chiron Dec 0.2813 conj (0.39) [Sun]
-  - star rows: J Zubenelgenubi → J Chiron Dec 0.1943 conj (12.42) [Sun]
-  - star rows: J Zubeneschamali → J Chiron RA 1.1215 conj (6.37) [Moon]
-  - other chart, star rows: H Rigel → H Chiron Dec 13.0074 13 whole (39.79) [Moon]
+  - top rows: S Sun → J Chiron Dec 0.1450 conj (26.68)
+  - star rows: J Deneb Algedi → J Chiron Dec 0.2813 conj (0.39)
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+  - star rows: J Zubenelgenubi → J Chiron Dec 0.1943 conj (12.42)
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
+  - star rows: J Zubeneschamali → J Chiron RA 1.1215 conj (6.37)
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+  - other chart, star rows: H Rigel → H Chiron Dec 13.0074 13 whole (39.79)
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
 - **J Ceres** (same body: S Ceres → J Ceres RA 44.4666 44.4444 ninth (loose))
-  - top rows: S Sun → J Ceres Dec 32.9949 33 whole (55.53) [Sun]
-  - star rows: J Capella → J Ceres Dec 28.9931 29 whole (42.78) [Jupiter]
-  - star rows: J Difda → J Ceres Dec 34.9901 35 whole (25.49) [Sun]
-  - star rows: J Galactic Centre → J Ceres Dec 46.0121 46 whole (15.40) [Jupiter]
+  - top rows: S Sun → J Ceres Dec 32.9949 33 whole (55.53)
+  - star rows: J Capella → J Ceres Dec 28.9931 29 whole (42.78)
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: J Difda → J Ceres Dec 34.9901 35 whole (25.49)
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - star rows: J Galactic Centre → J Ceres Dec 46.0121 46 whole (15.40)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
 - **J Pallas** (same body: S Pallas → J Pallas RA 27.4922 17×φ golden (loose); S Pallas → J Pallas Dec 8.0968 5×φ golden (loose))
-  - body line: S Moon → Pallas Dec 11.1105 11.1111 ninth (98.98)
-  - star rows: J Galactic Centre → J Pallas RA 81.0128 81 whole (12.81) [Jupiter]
-  - star rows: J Spica → J Pallas Dec 1.0161 1 whole (3.84) [Moon]
+  - sky line to Pallas: S Moon → Pallas Dec 11.1105 11.1111 ninth (98.98)
+  - star rows: J Galactic Centre → J Pallas RA 81.0128 81 whole (12.81)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - star rows: J Spica → J Pallas Dec 1.0161 1 whole (3.84)
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
 - **J Juno** (same body: S Juno → J Juno Dec 7.0703 7.07 sqrt2 (loose))
-  - star rows: J Spica → J Juno Dec 3.9861 4 whole (9.34) [Moon]
-  - other chart, star rows: H Spica → H Juno Dec 0.1322 conj (31.30) [Moon]
-  - other chart, star rows: H Zubenelgenubi → H Juno Dec 5.0122 5 whole (15.22) [Sun]
+  - star rows: J Spica → J Juno Dec 3.9861 4 whole (9.34)
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+  - other chart, star rows: H Spica → H Juno Dec 0.1322 conj (31.30)
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+  - other chart, star rows: H Zubenelgenubi → H Juno Dec 5.0122 5 whole (15.22)
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
 - **J Vesta** (same body: S Vesta → J Vesta RA 121.7272 122.222 ninth (loose))
   - other chart, same body: S Vesta → H Vesta RA 154.8133 155.556 ninth (loose)
-### L3 the seven cases (L5 field tag on each)
+### L3 matches
 - **1. same body on both charts**
   - Vesta — only
     - S Vesta → H Vesta RA 154.8133 155.556 ninth (loose)
@@ -908,12 +1450,30 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
     - H Jupiter → H star Difda Dec 0.9986 1 whole (86.64)
   - 1 = 360/360 — also: 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
     - S Sun → H Jupiter Dec 1.0000 1 whole (99.75)
+  - 8 = 360/45 — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 6 Daytime Dreaming / Jack Andrews
+    - H Deneb Algedi → H Sun RA 7.9859 8 whole (8.79)
   - 1 = 360/360 — also: 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
     - H Difda → H Jupiter Dec 0.9986 1 whole (86.64)
-  - 24 = 360/15 — also: 1 JPR One / Jonjo O'Neill Jr
+  - 12 = 360/30 — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+    - H Galactic Centre → H Jupiter Dec 12.0165 12 whole (3.07)
+  - 5 = 360/72 — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+    - H Zubenelgenubi → H Juno Dec 5.0122 5 whole (15.22)
+  - 24 = 360/15 — also: 1 JPR One / Jonjo O'Neill Jr, 5 Brookie / Ben Godfrey
     - H Zubenelgenubi → H Sedna Dec 23.9944 24 whole (51.87)
-  - 9 = 360/40 — also: 1 JPR One / Jonjo O'Neill Jr, 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey
+  - 20 = 360/18 — also: 2 Mirabad / Harry Skelton
+    - H Zubeneschamali → H Transpluto Dec 19.9841 20 whole (4.22)
+  - 9 = 360/40 — also: 1 JPR One / Jonjo O'Neill Jr, 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
     - S Jupiter → J Orcus RA 9.0016 9 whole (84.58)
+  - 12 = 360/30 — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+    - S Difda → J Jupiter Dec 12.0106 12 whole (22.06)
+  - 2 = 360/180 — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey
+    - J Rigel → J Pluto Dec 1.9898 2 whole (24.04)
+  - 1 = 360/360 — also: 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+    - J Spica → J Pallas Dec 1.0161 1 whole (3.84)
+  - 4 = 360/90 — also: 1 JPR One / Jonjo O'Neill Jr, 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey
+    - J Spica → J Juno Dec 3.9861 4 whole (9.34)
+  - 18 = 360/20 — also: 1 JPR One / Jonjo O'Neill Jr, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+    - J Zubeneschamali → J Saturn Dec 17.9863 18 whole (9.99)
 - **5. same number in more than one place**
   - 31 whole — only
     - S Jupiter → H Jupiter Dec 30.9825 31 whole (1.54)
@@ -922,80 +1482,173 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
     - S Vesta → H Vesta RA 154.8133 155.556 ninth (loose)
     - S Orcus → H Jupiter RA 155.5501 155.556 ninth (99.48)
     - S Chiron → J Chiron RA 155.0621 155.556 ninth (loose)
-  - 1 whole — also: 5 Brookie / Ben Godfrey
+  - 1 whole — also: 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey
     - H Jupiter → H star Difda Dec 0.9986 1 whole (86.64)
     - S Sun → H Jupiter Dec 1.0000 1 whole (99.75)
     - H Difda → H Jupiter Dec 0.9986 1 whole (86.64)
-- **6. star and sky line on one body**: none
-- **7. centres meeting**
-  - Jupiter: Jupiter, Moon, Sun — only
-    - [Jupiter] S Sun → H Jupiter Dec 1.0000 1 whole (99.75)
-    - [Jupiter] S Orcus → H Jupiter RA 155.5501 155.556 ninth (99.48)
-    - [Jupiter] H Capella → H Jupiter Dec 62.9885 63 whole (18.12)
-    - [Jupiter] H Galactic Centre → H Jupiter Dec 12.0165 12 whole (3.07)
-    - [Moon] S Zubeneschamali → H Jupiter RA 87.9868 88 whole (11.46)
-    - [Sun] S Sun → H Jupiter Dec 1.0000 1 whole (99.75)
-    - [Sun] H Difda → H Jupiter Dec 0.9986 1 whole (86.64)
-    - [Sun] S Difda → J Jupiter Dec 12.0106 12 whole (22.06)
-  - Pluto: Jupiter, Moon, Sun — also: 5 Brookie / Ben Godfrey
-    - [Jupiter] H Capella → H Pluto RA 141.4134 141.4 sqrt2 (97.77)
-    - [Moon] J Rigel → J Pluto Dec 1.9898 2 whole (24.04)
-    - [Sun] H Deneb Algedi → H Pluto RA 28.9942 29 whole (50.38)
-  - Venus: Moon, Sun — also: 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies
-    - [Moon] J Zubeneschamali → J Venus RA 7.0047 7 whole (58.47)
-    - [Sun] H Deneb Algedi → H Venus RA 0.6035 conj (35.72)
-    - [Sun] S Sun → J Venus RA 0.8658 conj (17.88)
-    - [Sun] J Zubenelgenubi → J Venus RA 0.4725 conj (46.92)
-  - Saturn: Moon, Sun — also: 3 Rubaud / Sam Twiston-Davies
-    - [Moon] J Zubeneschamali → J Saturn Dec 17.9863 18 whole (9.99)
-    - [Sun] H Difda → H Saturn RA 61.0131 61 whole (11.76)
-  - Mars: Jupiter, Moon — also: 1 JPR One / Jonjo O'Neill Jr, 5 Brookie / Ben Godfrey
-    - [Jupiter] H Galactic Centre → H Mars RA 144.4222 144.444 ninth (97.65)
-    - [Moon] H Spica → H Mars RA 150.4651 93×φ golden (39.29)
-  - Transpluto: Jupiter, Moon, Sun — also: 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
-    - [Jupiter] H Galactic Centre → H Transpluto RA 111.9904 112 whole (27.11)
-    - [Jupiter] J Jupiter → J Transpluto Dec 18.9950 19 whole (56.24)
-    - [Jupiter] S Jupiter → J Transpluto RA 0.6428 conj (32.66)
-    - [Moon] H Zubeneschamali → H Transpluto Dec 19.9841 20 whole (4.22)
-    - [Moon] S Moon → J Transpluto RA 42.0052 42 whole (54.40)
-    - [Sun] J Deneb Algedi → J Transpluto RA 178.9886 179 whole (18.70)
-    - [Sun] J Difda → J Transpluto Dec 31.0058 31 whole (50.31)
-  - Chiron: Moon, Sun — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton
-    - [Moon] H Rigel → H Chiron Dec 13.0074 13 whole (39.79)
-    - [Moon] J Zubeneschamali → J Chiron RA 1.1215 conj (6.37)
-    - [Sun] S Sun → J Chiron Dec 0.1450 conj (26.68)
-    - [Sun] J Deneb Algedi → J Chiron Dec 0.2813 conj (0.39)
-    - [Sun] J Zubenelgenubi → J Chiron Dec 0.1943 conj (12.42)
-  - Haumea: Moon, Sun — also: 2 Mirabad / Harry Skelton
-    - [Moon] H Rigel → H Haumea RA 137.9820 138 whole (1.04)
-    - [Sun] J Difda → J Haumea RA 175.0117 175 whole (17.39)
-  - Makemake: Moon, Sun — also: 5 Brookie / Ben Godfrey
-    - [Moon] H Rigel → H Makemake RA 119.7118 74×φ golden (8.95)
-    - [Sun] J Difda → J Makemake RA 167.9943 168 whole (51.17)
-    - [Sun] J Zubenelgenubi → J Makemake Dec 47.9873 48 whole (13.31)
-  - Juno: Moon, Sun — only
-    - [Moon] H Spica → H Juno Dec 0.1322 conj (31.30)
-    - [Moon] J Spica → J Juno Dec 3.9861 4 whole (9.34)
-    - [Sun] H Zubenelgenubi → H Juno Dec 5.0122 5 whole (15.22)
-  - Sedna: Jupiter, Moon, Sun — only
-    - [Jupiter] J Capella → J Sedna Dec 40.9881 41 whole (16.53)
-    - [Jupiter] J Galactic Centre → J Sedna Dec 34.0171 34 whole (2.10)
-    - [Moon] H Zubeneschamali → H Sedna RA 171.5386 106×φ golden (2.76)
-    - [Moon] J Spica → J Sedna RA 154.9956 155 whole (60.85)
-    - [Sun] H Zubenelgenubi → H Sedna RA 165.0071 165 whole (41.70)
-    - [Sun] H Zubenelgenubi → H Sedna Dec 23.9944 24 whole (51.87)
-    - [Sun] S Sun → J Sedna Dec 20.9999 21 whole (98.53)
-    - [Sun] J Difda → J Sedna Dec 22.9950 23 whole (56.60)
-  - Pallas: Jupiter, Moon — also: 2 Mirabad / Harry Skelton, 6 Daytime Dreaming / Jack Andrews
-    - [Jupiter] J Galactic Centre → J Pallas RA 81.0128 81 whole (12.81)
-    - [Moon] S Pallas → J Pallas RA 27.4922 17×φ golden (loose)
-    - [Moon] S Pallas → J Pallas Dec 8.0968 5×φ golden (loose)
-    - [Moon] J Spica → J Pallas Dec 1.0161 1 whole (3.84)
-  - Ceres: Jupiter, Sun — only
-    - [Jupiter] J Capella → J Ceres Dec 28.9931 29 whole (42.78)
-    - [Jupiter] J Galactic Centre → J Ceres Dec 46.0121 46 whole (15.40)
-    - [Sun] S Sun → J Ceres Dec 32.9949 33 whole (55.53)
-    - [Sun] J Difda → J Ceres Dec 34.9901 35 whole (25.49)
+    - J Spica → J Pallas Dec 1.0161 1 whole (3.84)
+  - 29 whole — also: 5 Brookie / Ben Godfrey
+    - H Deneb Algedi → H Pluto RA 28.9942 29 whole (50.38)
+    - J Capella → J Ceres Dec 28.9931 29 whole (42.78)
+  - 12 whole — also: 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+    - H Galactic Centre → H Jupiter Dec 12.0165 12 whole (3.07)
+    - S Difda → J Jupiter Dec 12.0106 12 whole (22.06)
+  - 93×φ golden — only
+    - H Spica → H Mars RA 150.4651 93×φ golden (39.29)
+    - J Difda → J Sun RA 150.4691 93×φ golden (56.48)
+### L4 every natal body
+- **Jupiter**
+  - same body: S Jupiter → H Jupiter Dec 30.9825 31 whole (1.54) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 5 Brookie / Ben Godfrey
+  - T1: H Jupiter → H star Difda Dec 0.9986 1 whole (86.64) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+  - top rows: S Sun → H Jupiter Dec 1.0000 1 whole (99.75) — also: 1 JPR One / Jonjo O'Neill Jr
+  - top rows: S Orcus → H Jupiter RA 155.5501 155.556 ninth (99.48) — also: 5 Brookie / Ben Godfrey
+  - star rows: H Capella → H Jupiter Dec 62.9885 63 whole (18.12) — also: 1 JPR One / Jonjo O'Neill Jr, 5 Brookie / Ben Godfrey
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: H Difda → H Jupiter Dec 0.9986 1 whole (86.64) — also: 1 JPR One / Jonjo O'Neill Jr, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - star rows: H Galactic Centre → H Jupiter Dec 12.0165 12 whole (3.07) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - star rows: S Zubeneschamali → H Jupiter RA 87.9868 88 whole (11.46) — only
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+  - star rows: S Difda → J Jupiter Dec 12.0106 12 whole (22.06) — also: 1 JPR One / Jonjo O'Neill Jr, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+- **Neptune**
+  - same body: S Neptune → H Neptune RA 11.0846 φ^5 phi power (loose) — also: 1 JPR One / Jonjo O'Neill Jr, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+  - star rows: J Capella → J Neptune RA 137.5089 85×φ golden (6.76) — also: 6 Daytime Dreaming / Jack Andrews
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+- **Vesta**
+  - same body: S Vesta → H Vesta RA 154.8133 155.556 ninth (loose) — also: 5 Brookie / Ben Godfrey
+  - same body: S Vesta → J Vesta RA 121.7272 122.222 ninth (loose) — also: 5 Brookie / Ben Godfrey
+- **Gonggong**
+  - same body: S Gonggong → H Gonggong Dec 1.2177 1.22222 ninth (loose) — also: 1 JPR One / Jonjo O'Neill Jr, 3 Rubaud / Sam Twiston-Davies
+  - star rows: J Difda → J Gonggong Dec 0.1627 conj (20.94) — also: 1 JPR One / Jonjo O'Neill Jr, 5 Brookie / Ben Godfrey
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+- **Pluto**
+  - star rows: H Capella → H Pluto RA 141.4134 141.4 sqrt2 (97.77) — also: 2 Mirabad / Harry Skelton, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: H Deneb Algedi → H Pluto RA 28.9942 29 whole (50.38) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+  - star rows: J Rigel → J Pluto Dec 1.9898 2 whole (24.04) — only
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+- **Sun**
+  - star rows: H Deneb Algedi → H Sun RA 7.9859 8 whole (8.79) — also: 1 JPR One / Jonjo O'Neill Jr, 5 Brookie / Ben Godfrey
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+  - top rows: S Sun → J Sun RA 0.9429 conj (13.79) — only
+  - top rows: S Sun → J Sun Dec 0.2832 conj (0.31) — only
+  - star rows: J Difda → J Sun RA 150.4691 93×φ golden (56.48) — also: 1 JPR One / Jonjo O'Neill Jr, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+- **Mercury**
+  - star rows: H Deneb Algedi → H Mercury RA 14.1494 14.14 sqrt2 (80.54) — also: 6 Daytime Dreaming / Jack Andrews
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+- **Venus**
+  - star rows: H Deneb Algedi → H Venus RA 0.6035 conj (35.72) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+  - top rows: S Sun → J Venus RA 0.8658 conj (17.88) — also: 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies
+  - star rows: J Zubenelgenubi → J Venus RA 0.4725 conj (46.92) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
+  - star rows: J Zubeneschamali → J Venus RA 7.0047 7 whole (58.47) — also: 1 JPR One / Jonjo O'Neill Jr
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+- **Saturn**
+  - star rows: H Difda → H Saturn RA 61.0131 61 whole (11.76) — also: 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - star rows: J Zubeneschamali → J Saturn Dec 17.9863 18 whole (9.99) — only
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+- **Mars**
+  - star rows: H Galactic Centre → H Mars RA 144.4222 144.444 ninth (97.65) — also: 2 Mirabad / Harry Skelton
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - star rows: H Spica → H Mars RA 150.4651 93×φ golden (39.29) — also: 1 JPR One / Jonjo O'Neill Jr, 5 Brookie / Ben Godfrey
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+- **Transpluto**
+  - star rows: H Galactic Centre → H Transpluto RA 111.9904 112 whole (27.11) — also: 2 Mirabad / Harry Skelton, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - star rows: H Zubeneschamali → H Transpluto Dec 19.9841 20 whole (4.22) — only
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+  - T2: J Jupiter → J Transpluto Dec 18.9950 19 whole (56.24) — also: 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+  - top rows: S Jupiter → J Transpluto RA 0.6428 conj (32.66) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+  - top rows: S Moon → J Transpluto RA 42.0052 42 whole (54.40) — only
+  - star rows: J Deneb Algedi → J Transpluto RA 178.9886 179 whole (18.70) — also: 5 Brookie / Ben Godfrey
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+  - star rows: J Difda → J Transpluto Dec 31.0058 31 whole (50.31) — also: 3 Rubaud / Sam Twiston-Davies, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+- **Chiron**
+  - star rows: H Rigel → H Chiron Dec 13.0074 13 whole (39.79) — also: 1 JPR One / Jonjo O'Neill Jr, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+  - same body: S Chiron → J Chiron RA 155.0621 155.556 ninth (loose) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 5 Brookie / Ben Godfrey, 6 Daytime Dreaming / Jack Andrews
+  - top rows: S Sun → J Chiron Dec 0.1450 conj (26.68) — also: 1 JPR One / Jonjo O'Neill Jr, 6 Daytime Dreaming / Jack Andrews
+  - star rows: J Deneb Algedi → J Chiron Dec 0.2813 conj (0.39) — also: 2 Mirabad / Harry Skelton, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+  - star rows: J Zubenelgenubi → J Chiron Dec 0.1943 conj (12.42) — also: 3 Rubaud / Sam Twiston-Davies, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
+  - star rows: J Zubeneschamali → J Chiron RA 1.1215 conj (6.37) — also: 2 Mirabad / Harry Skelton, 5 Brookie / Ben Godfrey
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+- **Haumea**
+  - star rows: H Rigel → H Haumea RA 137.9820 138 whole (1.04) — also: 3 Rubaud / Sam Twiston-Davies
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+  - star rows: J Difda → J Haumea RA 175.0117 175 whole (17.39) — only
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+- **Makemake**
+  - star rows: H Rigel → H Makemake RA 119.7118 74×φ golden (8.95) — also: 3 Rubaud / Sam Twiston-Davies, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+  - star rows: J Difda → J Makemake RA 167.9943 168 whole (51.17) — only
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - star rows: J Zubenelgenubi → J Makemake Dec 47.9873 48 whole (13.31) — only
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
+- **Juno**
+  - star rows: H Spica → H Juno Dec 0.1322 conj (31.30) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+  - star rows: H Zubenelgenubi → H Juno Dec 5.0122 5 whole (15.22) — only
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
+  - same body: S Juno → J Juno Dec 7.0703 7.07 sqrt2 (loose) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton
+  - star rows: J Spica → J Juno Dec 3.9861 4 whole (9.34) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+- **Sedna**
+  - star rows: H Zubenelgenubi → H Sedna RA 165.0071 165 whole (41.70) — also: 3 Rubaud / Sam Twiston-Davies
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
+  - star rows: H Zubenelgenubi → H Sedna Dec 23.9944 24 whole (51.87) — also: 3 Rubaud / Sam Twiston-Davies
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
+  - star rows: H Zubeneschamali → H Sedna RA 171.5386 106×φ golden (2.76) — also: 1 JPR One / Jonjo O'Neill Jr, 3 Rubaud / Sam Twiston-Davies, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+  - top rows: S Sun → J Sedna Dec 20.9999 21 whole (98.53) — only
+  - star rows: J Capella → J Sedna Dec 40.9881 41 whole (16.53) — also: 5 Brookie / Ben Godfrey
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: J Difda → J Sedna Dec 22.9950 23 whole (56.60) — also: 2 Mirabad / Harry Skelton, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - star rows: J Galactic Centre → J Sedna Dec 34.0171 34 whole (2.10) — only
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - star rows: J Spica → J Sedna RA 154.9956 155 whole (60.85) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+- **Uranus**
+  - same body: S Uranus → J Uranus RA 110.5535 10×φ^5 phi power (loose) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies
+    - source line: S Jupiter → Uranus RA 85.0019 85 whole (82.28)
+- **Ceres**
+  - same body: S Ceres → J Ceres RA 44.4666 44.4444 ninth (loose) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies
+  - top rows: S Sun → J Ceres Dec 32.9949 33 whole (55.53) — only
+  - star rows: J Capella → J Ceres Dec 28.9931 29 whole (42.78) — also: 2 Mirabad / Harry Skelton
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: J Difda → J Ceres Dec 34.9901 35 whole (25.49) — also: 2 Mirabad / Harry Skelton, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - star rows: J Galactic Centre → J Ceres Dec 46.0121 46 whole (15.40) — only
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+- **Pallas**
+  - same body: S Pallas → J Pallas RA 27.4922 17×φ golden (loose) — also: 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey
+    - source line: S Moon → Pallas Dec 11.1105 11.1111 ninth (98.98)
+  - same body: S Pallas → J Pallas Dec 8.0968 5×φ golden (loose) — also: 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey
+    - source line: S Moon → Pallas Dec 11.1105 11.1111 ninth (98.98)
+  - star rows: J Galactic Centre → J Pallas RA 81.0128 81 whole (12.81) — also: 3 Rubaud / Sam Twiston-Davies, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - star rows: J Spica → J Pallas Dec 1.0161 1 whole (3.84) — also: 3 Rubaud / Sam Twiston-Davies
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+- **Orcus**
+  - top rows: S Jupiter → J Orcus RA 9.0016 9 whole (84.58) — only
+- **Eris**
+  - star rows: J Spica → J Eris RA 178.0088 178 whole (31.61) — only
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
 
 ## 5 Brookie / Ben Godfrey
 ### L1 same bodies
@@ -1022,110 +1675,167 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - S Ketu → J Ketu RA 155.0929 155.556 ninth (loose)
 ### L2 what lands on each same body
 - **H Sun** (same body: S Sun → H Sun RA 166.1571 166.667 ninth (loose); S Sun → H Sun Dec 35.5877 22×φ golden (loose))
-  - star rows: H Zubeneschamali → H Sun Dec 28.9812 29 whole (0.38) [Moon]
-  - other chart, star rows: J Deneb Algedi → J Sun Dec 17.7768 17.7778 ninth (99.23) [Sun]
+  - star rows: H Zubeneschamali → H Sun Dec 28.9812 29 whole (0.38)
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+  - other chart, star rows: J Deneb Algedi → J Sun Dec 17.7768 17.7778 ninth (99.23)
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
 - **H Mercury** (same body: S Mercury → H Mercury RA 173.9754 174 whole (loose))
-  - top rows: S Jupiter → H Mercury Dec 5.0021 5 whole (80.28) [Jupiter]
-  - star rows: H Capella → H Mercury Dec 37.0068 37 whole (43.44) [Jupiter]
-  - star rows: H Galactic Centre → H Mercury Dec 37.9973 38 whole (74.88) [Jupiter]
+  - top rows: S Jupiter → H Mercury Dec 5.0021 5 whole (80.28)
+  - star rows: H Capella → H Mercury Dec 37.0068 37 whole (43.44)
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: H Galactic Centre → H Mercury Dec 37.9973 38 whole (74.88)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
   - other chart, same body: S Mercury → J Mercury RA 121.8962 122.222 ninth (loose)
-  - other chart, top rows: S Jupiter → J Mercury RA 168.2840 104×φ golden (54.52) [Jupiter]
-  - other chart, star rows: J Capella → J Mercury RA 100.3248 62×φ golden (62.97) [Jupiter]
-  - other chart, star rows: J Spica → J Mercury RA 137.5424 85×φ golden (49.93) [Moon]
+  - other chart, top rows: S Jupiter → J Mercury RA 168.2840 104×φ golden (54.52)
+  - other chart, star rows: J Capella → J Mercury RA 100.3248 62×φ golden (62.97)
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - other chart, star rows: J Spica → J Mercury RA 137.5424 85×φ golden (49.93)
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
 - **H Jupiter** (same body: S Jupiter → H Jupiter Dec 18.0225 18 whole (loose))
-  - top rows: S Uranus → H Jupiter RA 131.0640 81×φ golden (80.88) [Jupiter]
-  - star rows: S Capella → H Jupiter RA 114.0120 114 whole (15.90) [Jupiter]
-  - star rows: S Difda → H Jupiter RA 177.7120 177.778 ninth (94.86) [Sun]
-  - star rows: S Zubenelgenubi → H Jupiter Dec 12.0098 12 whole (26.14) [Sun]
+  - top rows: S Uranus → H Jupiter RA 131.0640 81×φ golden (80.88)
+    - source line: S Jupiter → Uranus RA 85.0019 85 whole (82.28)
+  - star rows: S Capella → H Jupiter RA 114.0120 114 whole (15.90)
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: S Difda → H Jupiter RA 177.7120 177.778 ninth (94.86)
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - star rows: S Zubenelgenubi → H Jupiter Dec 12.0098 12 whole (26.14)
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
   - other chart, same body: S Jupiter → J Jupiter RA 111.6614 69×φ golden (22.34)
-  - other chart, top rows: S Haumea → J Jupiter Dec 0.2264 conj (6.02) [Jupiter, Sun]
-  - other chart, top rows: S Orcus → J Jupiter RA 126.2139 78×φ golden (60.26) [Jupiter]
+  - other chart, top rows: S Haumea → J Jupiter Dec 0.2264 conj (6.02)
+    - source line: S Sun → Haumea RA 0.6400 conj (32.87)
+  - other chart, top rows: S Orcus → J Jupiter RA 126.2139 78×φ golden (60.26)
 - **H Neptune** (same body: S Neptune → H Neptune RA 16.6110 16.6667 ninth (loose))
-  - star rows: H Galactic Centre → H Neptune RA 78.9916 79 whole (33.35) [Jupiter]
-  - star rows: H Rigel → H Neptune Dec 1.0166 1 whole (2.84) [Moon]
+  - star rows: H Galactic Centre → H Neptune RA 78.9916 79 whole (33.35)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - star rows: H Rigel → H Neptune Dec 1.0166 1 whole (2.84)
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
   - other chart, same body: S Neptune → J Neptune Dec 17.8869 φ^6 phi power (loose)
 - **H Chiron** (same body: S Chiron → H Chiron RA 28.9575 φ^7 phi power (loose))
-  - top rows: S Moon → H Chiron RA 166.6947 166.667 ninth (97.60) [Moon]
-  - star rows: H Zubeneschamali → H Chiron Dec 12.0062 12 whole (47.83) [Moon]
-  - other chart, star rows: J Capella → J Chiron Dec 63.9991 64 whole (90.87) [Jupiter]
-  - other chart, star rows: J Difda → J Chiron Dec 0.0101 conj (93.38) [Sun]
-  - other chart, star rows: J Galactic Centre → J Chiron Dec 11.0082 11 whole (34.56) [Jupiter]
-  - other chart, star rows: J Rigel → J Chiron RA 177.9760 110×φ golden (57.97) [Moon]
+  - top rows: S Moon → H Chiron RA 166.6947 166.667 ninth (97.60)
+  - star rows: H Zubeneschamali → H Chiron Dec 12.0062 12 whole (47.83)
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+  - other chart, star rows: J Capella → J Chiron Dec 63.9991 64 whole (90.87)
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - other chart, star rows: J Difda → J Chiron Dec 0.0101 conj (93.38)
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - other chart, star rows: J Galactic Centre → J Chiron Dec 11.0082 11 whole (34.56)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - other chart, star rows: J Rigel → J Chiron RA 177.9760 110×φ golden (57.97)
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
 - **H Vesta** (same body: S Vesta → H Vesta RA 111.2058 111.111 ninth (loose))
-  - other chart, star rows: J Zubeneschamali → J Vesta Dec 10.0130 10 whole (12.32) [Moon]
+  - other chart, star rows: J Zubeneschamali → J Vesta Dec 10.0130 10 whole (12.32)
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
 - **H Rahu** (same body: S Rahu → H Rahu RA 177.9267 177.778 ninth (loose))
-  - top rows: S Jupiter → H Rahu Dec 1.9990 2 whole (89.89) [Jupiter]
-  - top rows: S Sun → H Rahu RA 70.7167 70.7 sqrt2 (96.63) [Sun]
-  - star rows: H Capella → H Rahu Dec 34.0037 34 whole (66.43) [Jupiter]
-  - star rows: H Galactic Centre → H Rahu Dec 41.0004 41 whole (95.80) [Jupiter]
+  - top rows: S Jupiter → H Rahu Dec 1.9990 2 whole (89.89)
+  - top rows: S Sun → H Rahu RA 70.7167 70.7 sqrt2 (96.63)
+  - star rows: H Capella → H Rahu Dec 34.0037 34 whole (66.43)
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: H Galactic Centre → H Rahu Dec 41.0004 41 whole (95.80)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
   - other chart, same body: S Rahu → J Rahu RA 155.0929 155.556 ninth (loose)
-  - other chart, top rows: S Moon → J Rahu Dec 29.0003 29 whole (96.54) [Moon]
-  - other chart, star rows: J Deneb Algedi → J Rahu RA 156.9228 97×φ golden (3.26) [Sun]
-  - other chart, star rows: J Spica → J Rahu Dec 31.0019 31 whole (81.70) [Moon]
+  - other chart, top rows: S Moon → J Rahu Dec 29.0003 29 whole (96.54)
+  - other chart, star rows: J Deneb Algedi → J Rahu RA 156.9228 97×φ golden (3.26)
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+  - other chart, star rows: J Spica → J Rahu Dec 31.0019 31 whole (81.70)
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
 - **H Haumea** (same body: S Haumea → H Haumea RA 8.9719 9 whole (loose); S Haumea → H Haumea Dec 4.1438 4.14 silver (loose))
-  - body line: S Sun → Haumea RA 0.6400 conj (32.87)
-  - star rows: H Deneb Algedi → H Haumea RA 114.9979 115 whole (79.98) [Sun]
+  - sky line to Haumea: S Sun → Haumea RA 0.6400 conj (32.87)
+  - star rows: H Deneb Algedi → H Haumea RA 114.9979 115 whole (79.98)
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
 - **H Ketu** (same body: S Ketu → H Ketu RA 177.9267 177.778 ninth (loose))
-  - body line: S Jupiter → Ketu RA 1.4561 conj (0.09)
-  - top rows: S Sun → H Ketu Dec 3.9981 4 whole (82.09) [Sun]
-  - star rows: H Capella → H Ketu Dec 57.9891 58 whole (20.82) [Jupiter]
-  - star rows: H Difda → H Ketu Dec 5.9937 6 whole (46.60) [Sun]
-  - star rows: H Galactic Centre → H Ketu Dec 17.0150 17 whole (6.26) [Jupiter]
+  - sky line to Ketu: S Jupiter → Ketu RA 1.4561 conj (0.09)
+  - top rows: S Sun → H Ketu Dec 3.9981 4 whole (82.09)
+  - star rows: H Capella → H Ketu Dec 57.9891 58 whole (20.82)
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: H Difda → H Ketu Dec 5.9937 6 whole (46.60)
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - star rows: H Galactic Centre → H Ketu Dec 17.0150 17 whole (6.26)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
   - other chart, same body: S Ketu → J Ketu RA 155.0929 155.556 ninth (loose)
-  - other chart, star rows: J Zubeneschamali → J Ketu RA 74.4233 46×φ golden (64.94) [Moon]
+  - other chart, star rows: J Zubeneschamali → J Ketu RA 74.4233 46×φ golden (64.94)
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
 - **J Mercury** (same body: S Mercury → J Mercury RA 121.8962 122.222 ninth (loose))
-  - top rows: S Jupiter → J Mercury RA 168.2840 104×φ golden (54.52) [Jupiter]
-  - star rows: J Capella → J Mercury RA 100.3248 62×φ golden (62.97) [Jupiter]
-  - star rows: J Spica → J Mercury RA 137.5424 85×φ golden (49.93) [Moon]
+  - top rows: S Jupiter → J Mercury RA 168.2840 104×φ golden (54.52)
+  - star rows: J Capella → J Mercury RA 100.3248 62×φ golden (62.97)
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: J Spica → J Mercury RA 137.5424 85×φ golden (49.93)
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
   - other chart, same body: S Mercury → H Mercury RA 173.9754 174 whole (loose)
-  - other chart, top rows: S Jupiter → H Mercury Dec 5.0021 5 whole (80.28) [Jupiter]
-  - other chart, star rows: H Capella → H Mercury Dec 37.0068 37 whole (43.44) [Jupiter]
-  - other chart, star rows: H Galactic Centre → H Mercury Dec 37.9973 38 whole (74.88) [Jupiter]
+  - other chart, top rows: S Jupiter → H Mercury Dec 5.0021 5 whole (80.28)
+  - other chart, star rows: H Capella → H Mercury Dec 37.0068 37 whole (43.44)
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - other chart, star rows: H Galactic Centre → H Mercury Dec 37.9973 38 whole (74.88)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
 - **J Venus** (same body: S Venus → J Venus RA 144.8842 144.444 ninth (loose))
-  - star rows: J Galactic Centre → J Venus RA 78.9972 79 whole (73.97) [Jupiter]
-  - other chart, star rows: H Difda → H Venus RA 1.2472 conj (2.84) [Sun]
-  - other chart, star rows: H Difda → H Venus Dec 22.0139 22 whole (9.35) [Sun]
+  - star rows: J Galactic Centre → J Venus RA 78.9972 79 whole (73.97)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - other chart, star rows: H Difda → H Venus RA 1.2472 conj (2.84)
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - other chart, star rows: H Difda → H Venus Dec 22.0139 22 whole (9.35)
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
 - **J Jupiter** (same body: S Jupiter → J Jupiter RA 111.6614 69×φ golden (22.34))
-  - top rows: S Haumea → J Jupiter Dec 0.2264 conj (6.02) [Jupiter, Sun]
-  - top rows: S Orcus → J Jupiter RA 126.2139 78×φ golden (60.26) [Jupiter]
+  - top rows: S Haumea → J Jupiter Dec 0.2264 conj (6.02)
+    - source line: S Sun → Haumea RA 0.6400 conj (32.87)
+  - top rows: S Orcus → J Jupiter RA 126.2139 78×φ golden (60.26)
   - other chart, same body: S Jupiter → H Jupiter Dec 18.0225 18 whole (loose)
-  - other chart, top rows: S Uranus → H Jupiter RA 131.0640 81×φ golden (80.88) [Jupiter]
-  - other chart, star rows: S Capella → H Jupiter RA 114.0120 114 whole (15.90) [Jupiter]
-  - other chart, star rows: S Difda → H Jupiter RA 177.7120 177.778 ninth (94.86) [Sun]
-  - other chart, star rows: S Zubenelgenubi → H Jupiter Dec 12.0098 12 whole (26.14) [Sun]
+  - other chart, top rows: S Uranus → H Jupiter RA 131.0640 81×φ golden (80.88)
+    - source line: S Jupiter → Uranus RA 85.0019 85 whole (82.28)
+  - other chart, star rows: S Capella → H Jupiter RA 114.0120 114 whole (15.90)
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - other chart, star rows: S Difda → H Jupiter RA 177.7120 177.778 ninth (94.86)
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - other chart, star rows: S Zubenelgenubi → H Jupiter Dec 12.0098 12 whole (26.14)
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
 - **J Saturn** (same body: S Saturn → J Saturn Dec 13.3018 13.3333 ninth (loose))
-  - top rows: S Jupiter → J Saturn Dec 0.2536 conj (2.40) [Jupiter]
-  - other chart, top rows: S Jupiter → H Saturn Dec 36.0040 36 whole (64.11) [Jupiter]
-  - other chart, star rows: H Capella → H Saturn Dec 68.0087 68 whole (31.79) [Jupiter]
-  - other chart, star rows: H Difda → H Saturn RA 105.0003 105 whole (96.88) [Sun]
-  - other chart, star rows: H Galactic Centre → H Saturn RA 0.5279 conj (42.00) [Jupiter]
-  - other chart, star rows: H Galactic Centre → H Saturn Dec 6.9954 7 whole (59.30) [Jupiter]
+  - top rows: S Jupiter → J Saturn Dec 0.2536 conj (2.40)
+  - other chart, top rows: S Jupiter → H Saturn Dec 36.0040 36 whole (64.11)
+  - other chart, star rows: H Capella → H Saturn Dec 68.0087 68 whole (31.79)
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - other chart, star rows: H Difda → H Saturn RA 105.0003 105 whole (96.88)
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - other chart, star rows: H Galactic Centre → H Saturn RA 0.5279 conj (42.00)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - other chart, star rows: H Galactic Centre → H Saturn Dec 6.9954 7 whole (59.30)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
 - **J Neptune** (same body: S Neptune → J Neptune Dec 17.8869 φ^6 phi power (loose))
   - other chart, same body: S Neptune → H Neptune RA 16.6110 16.6667 ninth (loose)
-  - other chart, star rows: H Galactic Centre → H Neptune RA 78.9916 79 whole (33.35) [Jupiter]
-  - other chart, star rows: H Rigel → H Neptune Dec 1.0166 1 whole (2.84) [Moon]
+  - other chart, star rows: H Galactic Centre → H Neptune RA 78.9916 79 whole (33.35)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - other chart, star rows: H Rigel → H Neptune Dec 1.0166 1 whole (2.84)
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
 - **J Pallas** (same body: S Pallas → J Pallas RA 101.9040 63×φ golden (0.01); S Pallas → J Pallas Dec 16.0035 16 whole (67.98))
-  - body line: S Moon → Pallas Dec 11.1105 11.1111 ninth (98.98)
+  - sky line to Pallas: S Moon → Pallas Dec 11.1105 11.1111 ninth (98.98)
 - **J Rahu** (same body: S Rahu → J Rahu RA 155.0929 155.556 ninth (loose))
-  - top rows: S Moon → J Rahu Dec 29.0003 29 whole (96.54) [Moon]
-  - star rows: J Deneb Algedi → J Rahu RA 156.9228 97×φ golden (3.26) [Sun]
-  - star rows: J Spica → J Rahu Dec 31.0019 31 whole (81.70) [Moon]
+  - top rows: S Moon → J Rahu Dec 29.0003 29 whole (96.54)
+  - star rows: J Deneb Algedi → J Rahu RA 156.9228 97×φ golden (3.26)
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+  - star rows: J Spica → J Rahu Dec 31.0019 31 whole (81.70)
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
   - other chart, same body: S Rahu → H Rahu RA 177.9267 177.778 ninth (loose)
-  - other chart, top rows: S Jupiter → H Rahu Dec 1.9990 2 whole (89.89) [Jupiter]
-  - other chart, top rows: S Sun → H Rahu RA 70.7167 70.7 sqrt2 (96.63) [Sun]
-  - other chart, star rows: H Capella → H Rahu Dec 34.0037 34 whole (66.43) [Jupiter]
-  - other chart, star rows: H Galactic Centre → H Rahu Dec 41.0004 41 whole (95.80) [Jupiter]
+  - other chart, top rows: S Jupiter → H Rahu Dec 1.9990 2 whole (89.89)
+  - other chart, top rows: S Sun → H Rahu RA 70.7167 70.7 sqrt2 (96.63)
+  - other chart, star rows: H Capella → H Rahu Dec 34.0037 34 whole (66.43)
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - other chart, star rows: H Galactic Centre → H Rahu Dec 41.0004 41 whole (95.80)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
 - **J Sedna** (same body: S Sedna → J Sedna RA 15.5759 15.5556 ninth (loose))
-  - other chart, star rows: H Capella → H Sedna RA 22.9974 23 whole (75.28) [Jupiter]
+  - other chart, star rows: H Capella → H Sedna RA 22.9974 23 whole (75.28)
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
 - **J Ketu** (same body: S Ketu → J Ketu RA 155.0929 155.556 ninth (loose))
-  - body line: S Jupiter → Ketu RA 1.4561 conj (0.09)
-  - star rows: J Zubeneschamali → J Ketu RA 74.4233 46×φ golden (64.94) [Moon]
+  - sky line to Ketu: S Jupiter → Ketu RA 1.4561 conj (0.09)
+  - star rows: J Zubeneschamali → J Ketu RA 74.4233 46×φ golden (64.94)
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
   - other chart, same body: S Ketu → H Ketu RA 177.9267 177.778 ninth (loose)
-  - other chart, top rows: S Sun → H Ketu Dec 3.9981 4 whole (82.09) [Sun]
-  - other chart, star rows: H Capella → H Ketu Dec 57.9891 58 whole (20.82) [Jupiter]
-  - other chart, star rows: H Difda → H Ketu Dec 5.9937 6 whole (46.60) [Sun]
-  - other chart, star rows: H Galactic Centre → H Ketu Dec 17.0150 17 whole (6.26) [Jupiter]
-### L3 the seven cases (L5 field tag on each)
+  - other chart, top rows: S Sun → H Ketu Dec 3.9981 4 whole (82.09)
+  - other chart, star rows: H Capella → H Ketu Dec 57.9891 58 whole (20.82)
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - other chart, star rows: H Difda → H Ketu Dec 5.9937 6 whole (46.60)
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - other chart, star rows: H Galactic Centre → H Ketu Dec 17.0150 17 whole (6.26)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+### L3 matches
 - **1. same body on both charts**
   - Mercury — only
     - S Mercury → H Mercury RA 173.9754 174 whole (loose)
@@ -1162,22 +1872,40 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 2 whole — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden
     - H Capella → H Mars RA 2.0108 2 whole (21.32) = S Moon → Spica Dec 1.9978 2 whole (79.48)
 - **4. circle divisions**
-  - 18 = 360/20 — also: 1 JPR One / Jonjo O'Neill Jr, 6 Daytime Dreaming / Jack Andrews
+  - 18 = 360/20 — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
     - S Jupiter → H Jupiter Dec 18.0225 18 whole (loose)
-  - 9 = 360/40 — also: 1 JPR One / Jonjo O'Neill Jr, 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden
+  - 9 = 360/40 — also: 1 JPR One / Jonjo O'Neill Jr, 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
     - S Haumea → H Haumea RA 8.9719 9 whole (loose)
-  - 5 = 360/72 — also: 6 Daytime Dreaming / Jack Andrews
+  - 5 = 360/72 — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
     - S Jupiter → H Mercury Dec 5.0021 5 whole (80.28)
   - 36 = 360/10 — also: 1 JPR One / Jonjo O'Neill Jr, 3 Rubaud / Sam Twiston-Davies, 6 Daytime Dreaming / Jack Andrews
     - S Jupiter → H Saturn Dec 36.0040 36 whole (64.11)
-  - 2 = 360/180 — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies
+  - 2 = 360/180 — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden
     - S Jupiter → H Rahu Dec 1.9990 2 whole (89.89)
-  - 4 = 360/90 — also: 1 JPR One / Jonjo O'Neill Jr, 3 Rubaud / Sam Twiston-Davies
+  - 4 = 360/90 — also: 1 JPR One / Jonjo O'Neill Jr, 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden
     - S Sun → H Ketu Dec 3.9981 4 whole (82.09)
+  - 2 = 360/180 — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden
+    - H Capella → H Mars RA 2.0108 2 whole (21.32)
+  - 6 = 360/60 — also: 1 JPR One / Jonjo O'Neill Jr, 3 Rubaud / Sam Twiston-Davies, 6 Daytime Dreaming / Jack Andrews
+    - H Difda → H Ketu Dec 5.9937 6 whole (46.60)
+  - 24 = 360/15 — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden
+    - H Galactic Centre → H Pluto RA 23.9918 24 whole (35.01)
+  - 1 = 360/360 — also: 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
+    - H Rigel → H Neptune Dec 1.0166 1 whole (2.84)
+  - 12 = 360/30 — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
+    - S Zubenelgenubi → H Jupiter Dec 12.0098 12 whole (26.14)
+  - 12 = 360/30 — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
+    - H Zubeneschamali → H Chiron Dec 12.0062 12 whole (47.83)
+  - 6 = 360/60 — also: 1 JPR One / Jonjo O'Neill Jr, 3 Rubaud / Sam Twiston-Davies, 6 Daytime Dreaming / Jack Andrews
+    - H Zubeneschamali → H Quaoar Dec 6.0148 6 whole (6.75)
   - 1 = 360/360 — also: 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
     - S Sun → J Gonggong Dec 1.0012 1 whole (87.95)
   - 1 = 360/360 — also: 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
     - J Difda → J Gonggong Dec 0.9969 1 whole (71.36)
+  - 12 = 360/30 — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
+    - J Galactic Centre → J Gonggong Dec 12.0152 12 whole (5.68)
+  - 10 = 360/36 — also: 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies
+    - J Zubeneschamali → J Vesta Dec 10.0130 10 whole (12.32)
 - **5. same number in more than one place**
   - 166.667 ninth — also: 1 JPR One / Jonjo O'Neill Jr
     - S Sun → H Sun RA 166.1571 166.667 ninth (loose)
@@ -1187,105 +1915,235 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
     - S Ketu → H Ketu RA 177.9267 177.778 ninth (loose)
     - H Jupiter → H star Difda RA 177.7029 177.778 ninth (94.14)
     - S Difda → H Jupiter RA 177.7120 177.778 ninth (94.86)
+  - 2 whole — only
+    - S Jupiter → H Rahu Dec 1.9990 2 whole (89.89)
+    - H Capella → H Mars RA 2.0108 2 whole (21.32)
+  - 81×φ golden — only
+    - S Uranus → H Jupiter RA 131.0640 81×φ golden (80.88)
+    - J Spica → J Gonggong RA 131.0412 81×φ golden (15.54)
+  - 23 whole — only
+    - H Capella → H Sedna RA 22.9974 23 whole (75.28)
+    - J Spica → J Mars Dec 22.9930 23 whole (42.33)
   - 115 whole — only
     - H Deneb Algedi → H Haumea RA 114.9979 115 whole (79.98)
     - H Galactic Centre → H Orcus RA 115.0005 115 whole (94.93)
+  - 22 whole — also: 2 Mirabad / Harry Skelton
+    - H Difda → H Venus Dec 22.0139 22 whole (9.35)
+    - J Spica → J Makemake RA 21.9959 22 whole (63.45)
+  - 6 whole — also: 1 JPR One / Jonjo O'Neill Jr
+    - H Difda → H Ketu Dec 5.9937 6 whole (46.60)
+    - H Zubeneschamali → H Quaoar Dec 6.0148 6 whole (6.75)
+  - 7 whole — also: 3 Rubaud / Sam Twiston-Davies, 6 Daytime Dreaming / Jack Andrews
+    - H Galactic Centre → H Saturn Dec 6.9954 7 whole (59.30)
+    - J Rigel → J Orcus Dec 6.9889 7 whole (19.69)
+  - 118 whole — only
+    - H Galactic Centre → H Uranus RA 117.9955 118 whole (59.68)
+    - J Difda → J Pluto RA 118.0167 118 whole (2.76)
+  - 79 whole — only
+    - H Galactic Centre → H Neptune RA 78.9916 79 whole (33.35)
+    - J Galactic Centre → J Venus RA 78.9972 79 whole (73.97)
+  - 1 whole — also: 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden
+    - H Rigel → H Neptune Dec 1.0166 1 whole (2.84)
+    - S Sun → J Gonggong Dec 1.0012 1 whole (87.95)
+    - J Difda → J Gonggong Dec 0.9969 1 whole (71.36)
+  - 12 whole — also: 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
+    - S Zubenelgenubi → H Jupiter Dec 12.0098 12 whole (26.14)
+    - H Zubeneschamali → H Chiron Dec 12.0062 12 whole (47.83)
+    - J Galactic Centre → J Gonggong Dec 12.0152 12 whole (5.68)
+  - 29 whole — also: 4 Stencil / Harry Cobden
+    - H Zubeneschamali → H Sun Dec 28.9812 29 whole (0.38)
+    - S Moon → J Rahu Dec 29.0003 29 whole (96.54)
   - 155.556 ninth — also: 4 Stencil / Harry Cobden
     - S Rahu → J Rahu RA 155.0929 155.556 ninth (loose)
     - S Ketu → J Ketu RA 155.0929 155.556 ninth (loose)
-  - 1 whole — also: 4 Stencil / Harry Cobden
-    - S Sun → J Gonggong Dec 1.0012 1 whole (87.95)
-    - J Difda → J Gonggong Dec 0.9969 1 whole (71.36)
-- **6. star and sky line on one body**: none
-- **7. centres meeting**
-  - Ketu: Jupiter, Moon, Sun — also: 1 JPR One / Jonjo O'Neill Jr
-    - [Jupiter] S Ketu → H Ketu RA 177.9267 177.778 ninth (loose)
-    - [Jupiter] H Capella → H Ketu Dec 57.9891 58 whole (20.82)
-    - [Jupiter] H Galactic Centre → H Ketu Dec 17.0150 17 whole (6.26)
-    - [Jupiter] S Ketu → J Ketu RA 155.0929 155.556 ninth (loose)
-    - [Moon] J Zubeneschamali → J Ketu RA 74.4233 46×φ golden (64.94)
-    - [Sun] S Sun → H Ketu Dec 3.9981 4 whole (82.09)
-    - [Sun] H Difda → H Ketu Dec 5.9937 6 whole (46.60)
-  - Mercury: Jupiter, Moon — only
-    - [Jupiter] S Jupiter → H Mercury Dec 5.0021 5 whole (80.28)
-    - [Jupiter] H Capella → H Mercury Dec 37.0068 37 whole (43.44)
-    - [Jupiter] H Galactic Centre → H Mercury Dec 37.9973 38 whole (74.88)
-    - [Jupiter] S Jupiter → J Mercury RA 168.2840 104×φ golden (54.52)
-    - [Jupiter] J Capella → J Mercury RA 100.3248 62×φ golden (62.97)
-    - [Moon] J Spica → J Mercury RA 137.5424 85×φ golden (49.93)
-  - Mars: Jupiter, Moon — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden
-    - [Jupiter] S Jupiter → H Mars Dec 9.7083 6×φ golden (99.38)
-    - [Jupiter] H Capella → H Mars RA 2.0108 2 whole (21.32)
-    - [Moon] H Rigel → H Mars RA 1.4746 conj (0.03)
-    - [Moon] J Spica → J Mars Dec 22.9930 23 whole (42.33)
-  - Saturn: Jupiter, Sun — also: 1 JPR One / Jonjo O'Neill Jr
-    - [Jupiter] S Jupiter → H Saturn Dec 36.0040 36 whole (64.11)
-    - [Jupiter] H Capella → H Saturn Dec 68.0087 68 whole (31.79)
-    - [Jupiter] H Galactic Centre → H Saturn RA 0.5279 conj (42.00)
-    - [Jupiter] H Galactic Centre → H Saturn Dec 6.9954 7 whole (59.30)
-    - [Jupiter] S Jupiter → J Saturn Dec 0.2536 conj (2.40)
-    - [Sun] H Difda → H Saturn RA 105.0003 105 whole (96.88)
-  - Rahu: Jupiter, Moon, Sun — also: 1 JPR One / Jonjo O'Neill Jr
-    - [Jupiter] S Jupiter → H Rahu Dec 1.9990 2 whole (89.89)
-    - [Jupiter] H Capella → H Rahu Dec 34.0037 34 whole (66.43)
-    - [Jupiter] H Galactic Centre → H Rahu Dec 41.0004 41 whole (95.80)
-    - [Moon] S Moon → J Rahu Dec 29.0003 29 whole (96.54)
-    - [Moon] J Spica → J Rahu Dec 31.0019 31 whole (81.70)
-    - [Sun] S Sun → H Rahu RA 70.7167 70.7 sqrt2 (96.63)
-    - [Sun] J Deneb Algedi → J Rahu RA 156.9228 97×φ golden (3.26)
-  - Quaoar: Jupiter, Moon — also: 1 JPR One / Jonjo O'Neill Jr
-    - [Jupiter] S Jupiter → H Quaoar RA 122.9737 φ^10 phi power (94.18)
-    - [Moon] H Zubeneschamali → H Quaoar Dec 6.0148 6 whole (6.75)
-  - Chiron: Jupiter, Moon, Sun — also: 3 Rubaud / Sam Twiston-Davies, 6 Daytime Dreaming / Jack Andrews
-    - [Jupiter] J Capella → J Chiron Dec 63.9991 64 whole (90.87)
-    - [Jupiter] J Galactic Centre → J Chiron Dec 11.0082 11 whole (34.56)
-    - [Moon] S Moon → H Chiron RA 166.6947 166.667 ninth (97.60)
-    - [Moon] H Zubeneschamali → H Chiron Dec 12.0062 12 whole (47.83)
-    - [Moon] J Rigel → J Chiron RA 177.9760 110×φ golden (57.97)
-    - [Sun] J Difda → J Chiron Dec 0.0101 conj (93.38)
-  - Orcus: Jupiter, Moon — also: 1 JPR One / Jonjo O'Neill Jr
-    - [Jupiter] H Galactic Centre → H Orcus RA 115.0005 115 whole (94.93)
-    - [Moon] S Moon → H Orcus Dec 0.0733 conj (57.08)
-    - [Moon] H Zubeneschamali → H Orcus Dec 0.2960 conj (0.02)
-    - [Moon] J Rigel → J Orcus Dec 6.9889 7 whole (19.69)
-  - Jupiter: Jupiter, Sun — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 6 Daytime Dreaming / Jack Andrews
-    - [Jupiter] S Uranus → H Jupiter RA 131.0640 81×φ golden (80.88)
-    - [Jupiter] S Capella → H Jupiter RA 114.0120 114 whole (15.90)
-    - [Jupiter] S Haumea → J Jupiter Dec 0.2264 conj (6.02)
-    - [Jupiter] S Orcus → J Jupiter RA 126.2139 78×φ golden (60.26)
-    - [Sun] S Difda → H Jupiter RA 177.7120 177.778 ninth (94.86)
-    - [Sun] S Zubenelgenubi → H Jupiter Dec 12.0098 12 whole (26.14)
-    - [Sun] S Haumea → J Jupiter Dec 0.2264 conj (6.02)
-  - Venus: Jupiter, Sun — only
-    - [Jupiter] J Galactic Centre → J Venus RA 78.9972 79 whole (73.97)
-    - [Sun] H Difda → H Venus RA 1.2472 conj (2.84)
-    - [Sun] H Difda → H Venus Dec 22.0139 22 whole (9.35)
-  - Neptune: Jupiter, Moon — also: 1 JPR One / Jonjo O'Neill Jr
-    - [Jupiter] H Galactic Centre → H Neptune RA 78.9916 79 whole (33.35)
-    - [Moon] H Rigel → H Neptune Dec 1.0166 1 whole (2.84)
-  - Pluto: Jupiter, Moon, Sun — also: 4 Stencil / Harry Cobden
-    - [Jupiter] H Galactic Centre → H Pluto RA 23.9918 24 whole (35.01)
-    - [Moon] J Spica → J Pluto Dec 0.0891 conj (49.43)
-    - [Sun] J Difda → J Pluto RA 118.0167 118 whole (2.76)
-  - Gonggong: Jupiter, Moon, Sun — also: 1 JPR One / Jonjo O'Neill Jr
-    - [Jupiter] H Galactic Centre → H Gonggong RA 70.0050 70 whole (56.53)
-    - [Jupiter] J Capella → J Gonggong Dec 62.9921 63 whole (36.45)
-    - [Jupiter] J Galactic Centre → J Gonggong Dec 12.0152 12 whole (5.68)
-    - [Moon] J Spica → J Gonggong RA 131.0412 81×φ golden (15.54)
-    - [Sun] S Sun → J Gonggong RA 110.9687 10×φ^5 phi power (77.30)
-    - [Sun] S Sun → J Gonggong Dec 1.0012 1 whole (87.95)
-    - [Sun] J Difda → J Gonggong Dec 0.9969 1 whole (71.36)
-  - Sun: Moon, Sun — also: 6 Daytime Dreaming / Jack Andrews
-    - [Moon] H Zubeneschamali → H Sun Dec 28.9812 29 whole (0.38)
-    - [Sun] J Deneb Algedi → J Sun Dec 17.7768 17.7778 ninth (99.23)
-  - Transpluto: Jupiter, Moon, Sun — also: 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
-    - [Jupiter] J Jupiter → J Transpluto Dec 0.0582 conj (64.98)
-    - [Jupiter] S Jupiter → J Transpluto RA 0.1601 conj (79.79)
-    - [Moon] J Spica → J Transpluto RA 54.0135 54 whole (10.55)
-    - [Sun] J Deneb Algedi → J Transpluto RA 179.4661 10×φ^6 phi power (94.85)
-  - Makemake: Moon, Sun — also: 4 Stencil / Harry Cobden
-    - [Moon] J Spica → J Makemake RA 21.9959 22 whole (63.45)
-    - [Sun] S Sun → J Makemake RA 42.0684 26×φ golden (97.02)
+### L4 every natal body
+- **Sun**
+  - same body: S Sun → H Sun RA 166.1571 166.667 ninth (loose) — also: 1 JPR One / Jonjo O'Neill Jr, 3 Rubaud / Sam Twiston-Davies, 6 Daytime Dreaming / Jack Andrews
+  - same body: S Sun → H Sun Dec 35.5877 22×φ golden (loose) — also: 1 JPR One / Jonjo O'Neill Jr, 3 Rubaud / Sam Twiston-Davies, 6 Daytime Dreaming / Jack Andrews
+  - star rows: H Zubeneschamali → H Sun Dec 28.9812 29 whole (0.38) — only
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+  - star rows: J Deneb Algedi → J Sun Dec 17.7768 17.7778 ninth (99.23) — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+- **Mercury**
+  - same body: S Mercury → H Mercury RA 173.9754 174 whole (loose) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies
+  - top rows: S Jupiter → H Mercury Dec 5.0021 5 whole (80.28) — also: 1 JPR One / Jonjo O'Neill Jr, 3 Rubaud / Sam Twiston-Davies
+  - star rows: H Capella → H Mercury Dec 37.0068 37 whole (43.44) — also: 1 JPR One / Jonjo O'Neill Jr, 3 Rubaud / Sam Twiston-Davies
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: H Galactic Centre → H Mercury Dec 37.9973 38 whole (74.88) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - same body: S Mercury → J Mercury RA 121.8962 122.222 ninth (loose) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies
+  - top rows: S Jupiter → J Mercury RA 168.2840 104×φ golden (54.52) — also: 1 JPR One / Jonjo O'Neill Jr, 3 Rubaud / Sam Twiston-Davies
+  - star rows: J Capella → J Mercury RA 100.3248 62×φ golden (62.97) — also: 1 JPR One / Jonjo O'Neill Jr, 3 Rubaud / Sam Twiston-Davies
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: J Spica → J Mercury RA 137.5424 85×φ golden (49.93) — also: 6 Daytime Dreaming / Jack Andrews
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+- **Jupiter**
+  - same body: S Jupiter → H Jupiter Dec 18.0225 18 whole (loose) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden
+  - T1: H Jupiter → H star Difda RA 177.7029 177.778 ninth (94.14) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
+  - top rows: S Uranus → H Jupiter RA 131.0640 81×φ golden (80.88) — only
+    - source line: S Jupiter → Uranus RA 85.0019 85 whole (82.28)
+  - star rows: S Capella → H Jupiter RA 114.0120 114 whole (15.90) — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: S Difda → H Jupiter RA 177.7120 177.778 ninth (94.86) — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - star rows: S Zubenelgenubi → H Jupiter Dec 12.0098 12 whole (26.14) — also: 6 Daytime Dreaming / Jack Andrews
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
+  - same body: S Jupiter → J Jupiter RA 111.6614 69×φ golden (22.34) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden
+  - top rows: S Haumea → J Jupiter Dec 0.2264 conj (6.02) — also: 6 Daytime Dreaming / Jack Andrews
+    - source line: S Sun → Haumea RA 0.6400 conj (32.87)
+  - top rows: S Orcus → J Jupiter RA 126.2139 78×φ golden (60.26) — also: 4 Stencil / Harry Cobden
+- **Neptune**
+  - same body: S Neptune → H Neptune RA 16.6110 16.6667 ninth (loose) — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
+  - star rows: H Galactic Centre → H Neptune RA 78.9916 79 whole (33.35) — also: 1 JPR One / Jonjo O'Neill Jr, 3 Rubaud / Sam Twiston-Davies
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - star rows: H Rigel → H Neptune Dec 1.0166 1 whole (2.84) — also: 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+  - same body: S Neptune → J Neptune Dec 17.8869 φ^6 phi power (loose) — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
+- **Chiron**
+  - same body: S Chiron → H Chiron RA 28.9575 φ^7 phi power (loose) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
+  - top rows: S Moon → H Chiron RA 166.6947 166.667 ninth (97.60) — only
+  - star rows: H Zubeneschamali → H Chiron Dec 12.0062 12 whole (47.83) — also: 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+  - star rows: J Capella → J Chiron Dec 63.9991 64 whole (90.87) — also: 3 Rubaud / Sam Twiston-Davies
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: J Difda → J Chiron Dec 0.0101 conj (93.38) — only
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - star rows: J Galactic Centre → J Chiron Dec 11.0082 11 whole (34.56) — also: 6 Daytime Dreaming / Jack Andrews
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - star rows: J Rigel → J Chiron RA 177.9760 110×φ golden (57.97) — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+- **Vesta**
+  - same body: S Vesta → H Vesta RA 111.2058 111.111 ninth (loose) — also: 4 Stencil / Harry Cobden
+  - star rows: J Zubeneschamali → J Vesta Dec 10.0130 10 whole (12.32) — only
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+- **Rahu**
+  - same body: S Rahu → H Rahu RA 177.9267 177.778 ninth (loose) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton
+  - top rows: S Jupiter → H Rahu Dec 1.9990 2 whole (89.89) — also: 1 JPR One / Jonjo O'Neill Jr
+  - top rows: S Sun → H Rahu RA 70.7167 70.7 sqrt2 (96.63) — only
+  - star rows: H Capella → H Rahu Dec 34.0037 34 whole (66.43) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: H Galactic Centre → H Rahu Dec 41.0004 41 whole (95.80) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - same body: S Rahu → J Rahu RA 155.0929 155.556 ninth (loose) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton
+  - top rows: S Moon → J Rahu Dec 29.0003 29 whole (96.54) — only
+  - star rows: J Deneb Algedi → J Rahu RA 156.9228 97×φ golden (3.26) — also: 2 Mirabad / Harry Skelton, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+  - star rows: J Spica → J Rahu Dec 31.0019 31 whole (81.70) — only
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+- **Haumea**
+  - same body: S Haumea → H Haumea RA 8.9719 9 whole (loose) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton
+    - source line: S Sun → Haumea RA 0.6400 conj (32.87)
+  - same body: S Haumea → H Haumea Dec 4.1438 4.14 silver (loose) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton
+    - source line: S Sun → Haumea RA 0.6400 conj (32.87)
+  - star rows: H Deneb Algedi → H Haumea RA 114.9979 115 whole (79.98) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+- **Ketu**
+  - same body: S Ketu → H Ketu RA 177.9267 177.778 ninth (loose) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton
+    - source line: S Jupiter → Ketu RA 1.4561 conj (0.09)
+  - top rows: S Sun → H Ketu Dec 3.9981 4 whole (82.09) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 6 Daytime Dreaming / Jack Andrews
+  - star rows: H Capella → H Ketu Dec 57.9891 58 whole (20.82) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: H Difda → H Ketu Dec 5.9937 6 whole (46.60) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - star rows: H Galactic Centre → H Ketu Dec 17.0150 17 whole (6.26) — also: 1 JPR One / Jonjo O'Neill Jr
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - same body: S Ketu → J Ketu RA 155.0929 155.556 ninth (loose) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton
+    - source line: S Jupiter → Ketu RA 1.4561 conj (0.09)
+  - star rows: J Zubeneschamali → J Ketu RA 74.4233 46×φ golden (64.94) — also: 6 Daytime Dreaming / Jack Andrews
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+- **Mars**
+  - top rows: S Jupiter → H Mars Dec 9.7083 6×φ golden (99.38) — only
+  - star rows: H Capella → H Mars RA 2.0108 2 whole (21.32) — also: 1 JPR One / Jonjo O'Neill Jr
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: H Rigel → H Mars RA 1.4746 conj (0.03) — also: 1 JPR One / Jonjo O'Neill Jr
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+  - star rows: J Spica → J Mars Dec 22.9930 23 whole (42.33) — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+- **Saturn**
+  - top rows: S Jupiter → H Saturn Dec 36.0040 36 whole (64.11) — also: 1 JPR One / Jonjo O'Neill Jr
+  - star rows: H Capella → H Saturn Dec 68.0087 68 whole (31.79) — also: 1 JPR One / Jonjo O'Neill Jr
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: H Difda → H Saturn RA 105.0003 105 whole (96.88) — also: 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - star rows: H Galactic Centre → H Saturn RA 0.5279 conj (42.00) — also: 1 JPR One / Jonjo O'Neill Jr
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - star rows: H Galactic Centre → H Saturn Dec 6.9954 7 whole (59.30) — also: 1 JPR One / Jonjo O'Neill Jr
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - same body: S Saturn → J Saturn Dec 13.3018 13.3333 ninth (loose) — also: 6 Daytime Dreaming / Jack Andrews
+  - top rows: S Jupiter → J Saturn Dec 0.2536 conj (2.40) — also: 1 JPR One / Jonjo O'Neill Jr
+- **Quaoar**
+  - top rows: S Jupiter → H Quaoar RA 122.9737 φ^10 phi power (94.18) — also: 1 JPR One / Jonjo O'Neill Jr
+  - star rows: H Zubeneschamali → H Quaoar Dec 6.0148 6 whole (6.75) — also: 1 JPR One / Jonjo O'Neill Jr
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+- **Orcus**
+  - top rows: S Moon → H Orcus Dec 0.0733 conj (57.08) — also: 1 JPR One / Jonjo O'Neill Jr
+  - star rows: H Galactic Centre → H Orcus RA 115.0005 115 whole (94.93) — also: 1 JPR One / Jonjo O'Neill Jr, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - star rows: H Zubeneschamali → H Orcus Dec 0.2960 conj (0.02) — also: 6 Daytime Dreaming / Jack Andrews
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+  - star rows: J Rigel → J Orcus Dec 6.9889 7 whole (19.69) — only
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+- **Sedna**
+  - star rows: H Capella → H Sedna RA 22.9974 23 whole (75.28) — also: 4 Stencil / Harry Cobden
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - same body: S Sedna → J Sedna RA 15.5759 15.5556 ninth (loose) — also: 3 Rubaud / Sam Twiston-Davies
+- **Venus**
+  - star rows: H Difda → H Venus RA 1.2472 conj (2.84) — also: 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - star rows: H Difda → H Venus Dec 22.0139 22 whole (9.35) — also: 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - same body: S Venus → J Venus RA 144.8842 144.444 ninth (loose) — also: 3 Rubaud / Sam Twiston-Davies
+  - star rows: J Galactic Centre → J Venus RA 78.9972 79 whole (73.97) — only
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+- **Uranus**
+  - star rows: H Galactic Centre → H Uranus RA 117.9955 118 whole (59.68) — only
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - star rows: J Galactic Centre → J Uranus RA 55.5557 55.5556 ninth (99.85) — only
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+- **Pluto**
+  - star rows: H Galactic Centre → H Pluto RA 23.9918 24 whole (35.01) — also: 3 Rubaud / Sam Twiston-Davies, 6 Daytime Dreaming / Jack Andrews
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - star rows: J Difda → J Pluto RA 118.0167 118 whole (2.76) — only
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - star rows: J Spica → J Pluto Dec 0.0891 conj (49.43) — also: 3 Rubaud / Sam Twiston-Davies
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+- **Gonggong**
+  - star rows: H Galactic Centre → H Gonggong RA 70.0050 70 whole (56.53) — also: 1 JPR One / Jonjo O'Neill Jr
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - top rows: S Sun → J Gonggong RA 110.9687 10×φ^5 phi power (77.30) — only
+  - top rows: S Sun → J Gonggong Dec 1.0012 1 whole (87.95) — only
+  - star rows: J Capella → J Gonggong Dec 62.9921 63 whole (36.45) — also: 1 JPR One / Jonjo O'Neill Jr, 3 Rubaud / Sam Twiston-Davies
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: J Difda → J Gonggong Dec 0.9969 1 whole (71.36) — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - star rows: J Galactic Centre → J Gonggong Dec 12.0152 12 whole (5.68) — also: 1 JPR One / Jonjo O'Neill Jr
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - star rows: J Spica → J Gonggong RA 131.0412 81×φ golden (15.54) — also: 6 Daytime Dreaming / Jack Andrews
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+- **Pallas**
+  - same body: S Pallas → J Pallas RA 101.9040 63×φ golden (0.01) — also: 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden
+    - source line: S Moon → Pallas Dec 11.1105 11.1111 ninth (98.98)
+  - same body: S Pallas → J Pallas Dec 16.0035 16 whole (67.98) — also: 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden
+    - source line: S Moon → Pallas Dec 11.1105 11.1111 ninth (98.98)
+- **Transpluto**
+  - T2: J Jupiter → J Transpluto Dec 0.0582 conj (64.98) — also: 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
+  - top rows: S Jupiter → J Transpluto RA 0.1601 conj (79.79) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden, 6 Daytime Dreaming / Jack Andrews
+  - star rows: J Deneb Algedi → J Transpluto RA 179.4661 10×φ^6 phi power (94.85) — also: 4 Stencil / Harry Cobden
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+  - star rows: J Spica → J Transpluto RA 54.0135 54 whole (10.55) — only
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+- **Makemake**
+  - top rows: S Sun → J Makemake RA 42.0684 26×φ golden (97.02) — only
+  - star rows: J Spica → J Makemake RA 21.9959 22 whole (63.45) — also: 2 Mirabad / Harry Skelton
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+- **Juno**
+  - top rows: S Moon → J Juno Dec 0.2997 conj (0.00) — also: 2 Mirabad / Harry Skelton
+- **Eris**
+  - star rows: J Galactic Centre → J Eris RA 117.0011 117 whole (89.56) — also: 2 Mirabad / Harry Skelton
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - star rows: J Galactic Centre → J Eris Dec 22.2263 22.2222 ninth (94.37) — also: 2 Mirabad / Harry Skelton
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
 
 ## 6 Daytime Dreaming / Jack Andrews
 ### L1 same bodies
@@ -1298,29 +2156,42 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - S Neptune → J Neptune RA 55.5096 55.5556 ninth (loose)
 ### L2 what lands on each same body
 - **H Sun** (same body: S Sun → H Sun RA 135.9428 84×φ golden (1.89))
-  - top rows: S Moon → H Sun Dec 7.9975 8 whole (76.82) [Moon]
-  - star rows: H Spica → H Sun RA 156.0157 156 whole (4.57) [Moon]
-  - star rows: H Spica → H Sun Dec 9.9992 10 ninth (94.34) [Moon]
-  - other chart, star rows: J Difda → J Sun RA 54.0048 54 whole (57.59) [Sun]
+  - top rows: S Moon → H Sun Dec 7.9975 8 whole (76.82)
+  - star rows: H Spica → H Sun RA 156.0157 156 whole (4.57)
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+  - star rows: H Spica → H Sun Dec 9.9992 10 ninth (94.34)
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+  - other chart, star rows: J Difda → J Sun RA 54.0048 54 whole (57.59)
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
 - **H Neptune** (same body: S Neptune → H Neptune RA 12.2378 12.2222 ninth (loose))
   - other chart, same body: S Neptune → J Neptune RA 55.5096 55.5556 ninth (loose)
-  - other chart, star rows: J Capella → J Neptune RA 132.6493 82×φ golden (0.78) [Jupiter]
+  - other chart, star rows: J Capella → J Neptune RA 132.6493 82×φ golden (0.78)
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
 - **H Chiron** (same body: S Chiron → H Chiron RA 22.2804 22.2222 ninth (loose))
-  - star rows: H Galactic Centre → H Chiron Dec 33.3331 33.3333 ninth (99.67) [Jupiter]
-  - star rows: H Spica → H Chiron RA 161.8467 100×φ^1 phi power (89.58) [Moon]
-  - other chart, top rows: S Sun → J Chiron Dec 0.2278 conj (5.79) [Sun]
-  - other chart, star rows: J Deneb Algedi → J Chiron Dec 0.0920 conj (48.05) [Sun]
-  - other chart, star rows: J Rigel → J Chiron Dec 8.0160 8 whole (4.08) [Moon]
-  - other chart, star rows: J Zubenelgenubi → J Chiron Dec 0.1754 conj (17.26) [Sun]
+  - star rows: H Galactic Centre → H Chiron Dec 33.3331 33.3333 ninth (99.67)
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - star rows: H Spica → H Chiron RA 161.8467 100×φ^1 phi power (89.58)
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+  - other chart, top rows: S Sun → J Chiron Dec 0.2278 conj (5.79)
+  - other chart, star rows: J Deneb Algedi → J Chiron Dec 0.0920 conj (48.05)
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+  - other chart, star rows: J Rigel → J Chiron Dec 8.0160 8 whole (4.08)
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+  - other chart, star rows: J Zubenelgenubi → J Chiron Dec 0.1754 conj (17.26)
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
 - **H Eris** (same body: S Eris → H Eris RA 1.0001 1 whole (98.75))
-  - body line: S Moon → Eris Dec 9.0057 9 whole (51.17)
-  - star rows: H Rigel → H Eris Dec 6.4726 4×φ golden (97.21) [Moon]
-  - other chart, star rows: J Difda → J Eris RA 12.9872 13 whole (12.80) [Sun]
+  - sky line to Eris: S Moon → Eris Dec 9.0057 9 whole (51.17)
+  - star rows: H Rigel → H Eris Dec 6.4726 4×φ golden (97.21)
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+  - other chart, star rows: J Difda → J Eris RA 12.9872 13 whole (12.80)
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
 - **J Saturn** (same body: S Saturn → J Saturn RA 30.0016 30 whole (84.92); S Saturn → J Saturn Dec 11.9870 12 whole (12.38))
 - **J Neptune** (same body: S Neptune → J Neptune RA 55.5096 55.5556 ninth (loose))
-  - star rows: J Capella → J Neptune RA 132.6493 82×φ golden (0.78) [Jupiter]
+  - star rows: J Capella → J Neptune RA 132.6493 82×φ golden (0.78)
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
   - other chart, same body: S Neptune → H Neptune RA 12.2378 12.2222 ninth (loose)
-### L3 the seven cases (L5 field tag on each)
+### L3 matches
 - **1. same body on both charts**
   - Neptune — also: 1 JPR One / Jonjo O'Neill Jr, 5 Brookie / Ben Godfrey
     - S Neptune → H Neptune RA 12.2378 12.2222 ninth (loose)
@@ -1343,121 +2214,244 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
     - S Eris → H Eris RA 1.0001 1 whole (98.75)
   - 36 = 360/10 — also: 1 JPR One / Jonjo O'Neill Jr, 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey
     - S Jupiter → H Pluto Dec 36.0042 36 whole (62.73)
-  - 8 = 360/45 — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton
+  - 8 = 360/45 — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden
     - S Moon → H Sun Dec 7.9975 8 whole (76.82)
-  - 18 = 360/20 — also: 1 JPR One / Jonjo O'Neill Jr, 5 Brookie / Ben Godfrey
+  - 18 = 360/20 — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
     - H Galactic Centre → H Orcus Dec 18.0049 18 whole (56.81)
   - 3 = 360/120 — also: 2 Mirabad / Harry Skelton
     - H Spica → H Juno RA 3.0048 3 whole (58.08)
-  - 30 = 360/12 — only
+  - 12 = 360/30 — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
+    - H Zubeneschamali → H Ceres Dec 12.0063 12 whole (47.17)
+  - 9 = 360/40 — also: 1 JPR One / Jonjo O'Neill Jr, 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
+    - H Zubeneschamali → H Juno Dec 8.9879 9 whole (15.77)
+  - 30 = 360/12 — also: 1 JPR One / Jonjo O'Neill Jr
     - S Saturn → J Saturn RA 30.0016 30 whole (84.92)
-  - 12 = 360/30 — also: 1 JPR One / Jonjo O'Neill Jr
+  - 12 = 360/30 — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
     - S Saturn → J Saturn Dec 11.9870 12 whole (12.38)
-  - 5 = 360/72 — also: 5 Brookie / Ben Godfrey
+  - 5 = 360/72 — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
     - J Jupiter → J Transpluto Dec 4.9997 5 whole (97.18)
-  - 5 = 360/72 — also: 5 Brookie / Ben Godfrey
+  - 5 = 360/72 — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
     - S Haumea → J Jupiter Dec 4.9976 5 whole (77.35)
-  - 12 = 360/30 — also: 1 JPR One / Jonjo O'Neill Jr
+  - 12 = 360/30 — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
     - S Difda → J Jupiter RA 12.0050 12 whole (56.31)
+  - 8 = 360/45 — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden
+    - J Rigel → J Chiron Dec 8.0160 8 whole (4.08)
+  - 6 = 360/60 — also: 1 JPR One / Jonjo O'Neill Jr, 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey
+    - J Spica → J Gonggong Dec 6.0171 6 whole (2.12)
+  - 5 = 360/72 — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
+    - J Spica → J Ketu Dec 4.9907 5 whole (28.56)
+  - 9 = 360/40 — also: 1 JPR One / Jonjo O'Neill Jr, 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
+    - J Zubeneschamali → J Orcus Dec 9.0125 9 whole (14.22)
 - **5. same number in more than one place**
+  - 84×φ golden — only
+    - S Sun → H Sun RA 135.9428 84×φ golden (1.89)
+    - J Difda → J Transpluto RA 135.9029 84×φ golden (39.58)
   - 12.2222 ninth — also: 2 Mirabad / Harry Skelton
     - S Neptune → H Neptune RA 12.2378 12.2222 ninth (loose)
     - S Moon → H Ceres Dec 12.2292 12.2222 ninth (90.36)
+  - 8 whole — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton
+    - S Moon → H Sun Dec 7.9975 8 whole (76.82)
+    - J Rigel → J Chiron Dec 8.0160 8 whole (4.08)
+  - 7 whole — also: 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey
+    - H Difda → H Orcus Dec 6.9866 7 whole (10.94)
+    - H Galactic Centre → H Pluto Dec 6.9948 7 whole (55.01)
+  - 102 whole — only
+    - H Rigel → H Gonggong RA 102.0180 102 whole (1.02)
+    - S Quaoar → J Jupiter RA 101.9947 102 whole (54.33)
   - 144.444 ninth — also: 2 Mirabad / Harry Skelton
     - H Spica → H Vesta RA 144.4973 144.444 ninth (94.40)
     - J Galactic Centre → J Pallas RA 144.4392 144.444 ninth (99.44)
-  - 12 whole — only
+  - 12 whole — also: 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
+    - H Zubeneschamali → H Ceres Dec 12.0063 12 whole (47.17)
     - S Saturn → J Saturn Dec 11.9870 12 whole (12.38)
     - S Difda → J Jupiter RA 12.0050 12 whole (56.31)
-  - 5 whole — only
+  - 9 whole — only
+    - H Zubeneschamali → H Juno Dec 8.9879 9 whole (15.77)
+    - J Zubeneschamali → J Orcus Dec 9.0125 9 whole (14.22)
+  - 5 whole — also: 1 JPR One / Jonjo O'Neill Jr
     - J Jupiter → J Transpluto Dec 4.9997 5 whole (97.18)
     - S Haumea → J Jupiter Dec 4.9976 5 whole (77.35)
+    - J Spica → J Ketu Dec 4.9907 5 whole (28.56)
   - 99×φ golden — only
     - J Jupiter → J star Zubenelgenubi RA 160.1840 99×φ golden (91.94)
     - J Zubenelgenubi → J Jupiter RA 160.1840 99×φ golden (91.94)
+  - 13 whole — also: 1 JPR One / Jonjo O'Neill Jr
+    - J Capella → J Makemake Dec 13.0151 13 whole (6.08)
+    - J Difda → J Eris RA 12.9872 13 whole (12.80)
   - 10×φ^3 phi power — only
     - J Galactic Centre → J Transpluto Dec 42.3647 10×φ^3 phi power (96.26)
     - J Zubeneschamali → J Makemake Dec 42.3672 10×φ^3 phi power (93.93)
-- **6. star and sky line on one body**
-  - J Ketu on Deneb Algedi — only
-    - J Deneb Algedi → J Ketu Dec 0.0271 conj (82.78)
-    - S Sun → J Ketu Dec 0.1628 conj (20.91)
-- **7. centres meeting**
-  - Eris: Moon, Sun — also: 3 Rubaud / Sam Twiston-Davies
-    - [Moon] S Eris → H Eris RA 1.0001 1 whole (98.75)
-    - [Moon] H Rigel → H Eris Dec 6.4726 4×φ golden (97.21)
-    - [Sun] J Difda → J Eris RA 12.9872 13 whole (12.80)
-  - Mercury: Moon, Sun — only
-    - [Moon] H Spica → H Mercury Dec 0.2884 conj (0.15)
-    - [Moon] J Spica → J Mercury Dec 34.0171 34 whole (2.06)
-    - [Sun] S Sun → H Mercury RA 111.1604 111.111 ninth (91.94)
-    - [Sun] J Deneb Algedi → J Mercury Dec 38.9808 39 whole (0.15)
-  - Sun: Moon, Sun — also: 5 Brookie / Ben Godfrey
-    - [Moon] S Moon → H Sun Dec 7.9975 8 whole (76.82)
-    - [Moon] H Spica → H Sun RA 156.0157 156 whole (4.57)
-    - [Moon] H Spica → H Sun Dec 9.9992 10 ninth (94.34)
-    - [Sun] J Difda → J Sun RA 54.0048 54 whole (57.59)
-  - Ceres: Moon, Sun — only
-    - [Moon] S Moon → H Ceres Dec 12.2292 12.2222 ninth (90.36)
-    - [Moon] H Zubeneschamali → H Ceres Dec 12.0063 12 whole (47.17)
-    - [Sun] H Zubenelgenubi → H Ceres RA 99.0114 99 whole (18.63)
-    - [Sun] J Difda → J Ceres RA 86.0134 86 whole (10.83)
-  - Jupiter: Jupiter, Sun — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 5 Brookie / Ben Godfrey
-    - [Jupiter] S Neptune → H Jupiter Dec 21.0010 21 whole (90.12)
-    - [Jupiter] S Quaoar → H Jupiter RA 12.9455 8×φ golden (92.58)
-    - [Jupiter] S Haumea → J Jupiter Dec 4.9976 5 whole (77.35)
-    - [Jupiter] S Quaoar → J Jupiter RA 101.9947 102 whole (54.33)
-    - [Jupiter] S Galactic Centre → J Jupiter RA 116.4969 72×φ golden (90.49)
-    - [Sun] S Haumea → J Jupiter Dec 4.9976 5 whole (77.35)
-    - [Sun] S Difda → J Jupiter RA 12.0050 12 whole (56.31)
-    - [Sun] J Zubenelgenubi → J Jupiter RA 160.1840 99×φ golden (91.94)
-  - Orcus: Jupiter, Moon, Sun — only
-    - [Jupiter] H Capella → H Orcus Dec 57.0001 57 whole (98.80)
-    - [Jupiter] H Galactic Centre → H Orcus Dec 18.0049 18 whole (56.81)
-    - [Moon] H Spica → H Orcus Dec 0.1609 conj (21.50)
-    - [Moon] J Zubeneschamali → J Orcus Dec 9.0125 9 whole (14.22)
-    - [Sun] H Difda → H Orcus Dec 6.9866 7 whole (10.94)
-  - Ketu: Moon, Sun — only
-    - [Moon] H Zubeneschamali → H Ketu Dec 13.9802 14 whole (0.01)
-    - [Moon] J Spica → J Ketu Dec 4.9907 5 whole (28.56)
-    - [Sun] H Deneb Algedi → H Ketu RA 52.0062 52 whole (47.71)
-    - [Sun] S Sun → J Ketu Dec 0.1628 conj (20.91)
-    - [Sun] J Deneb Algedi → J Ketu Dec 0.0271 conj (82.78)
-    - [Sun] J Zubenelgenubi → J Ketu Dec 0.1104 conj (39.95)
-  - Sedna: Moon, Sun — also: 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies
-    - [Moon] H Zubeneschamali → H Sedna RA 172.0192 172 whole (0.15)
-    - [Sun] H Difda → H Sedna Dec 25.8857 16×φ golden (83.17)
-  - Transpluto: Jupiter, Moon, Sun — also: 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
-    - [Jupiter] J Jupiter → J Transpluto Dec 4.9997 5 whole (97.18)
-    - [Jupiter] S Jupiter → J Transpluto RA 0.3326 conj (60.57)
-    - [Jupiter] J Galactic Centre → J Transpluto Dec 42.3647 10×φ^3 phi power (96.26)
-    - [Moon] H Rigel → H Transpluto Dec 19.0043 19 whole (61.86)
-    - [Sun] H Difda → H Transpluto RA 143.0011 143 whole (89.00)
-    - [Sun] J Difda → J Transpluto RA 135.9029 84×φ golden (39.58)
-  - Chiron: Jupiter, Moon, Sun — also: 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey
-    - [Jupiter] H Galactic Centre → H Chiron Dec 33.3331 33.3333 ninth (99.67)
-    - [Moon] H Spica → H Chiron RA 161.8467 100×φ^1 phi power (89.58)
-    - [Moon] J Rigel → J Chiron Dec 8.0160 8 whole (4.08)
-    - [Sun] S Sun → J Chiron Dec 0.2278 conj (5.79)
-    - [Sun] J Deneb Algedi → J Chiron Dec 0.0920 conj (48.05)
-    - [Sun] J Zubenelgenubi → J Chiron Dec 0.1754 conj (17.26)
-  - Pallas: Jupiter, Moon — also: 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden
-    - [Jupiter] J Galactic Centre → J Pallas RA 144.4392 144.444 ninth (99.44)
-    - [Moon] H Rigel → H Pallas RA 150.9933 151 whole (44.55)
-  - Makemake: Jupiter, Moon — also: 3 Rubaud / Sam Twiston-Davies
-    - [Jupiter] J Capella → J Makemake Dec 13.0151 13 whole (6.08)
-    - [Jupiter] J Galactic Centre → J Makemake Dec 61.9909 62 whole (29.68)
-    - [Moon] H Rigel → H Makemake Dec 32.0013 32 whole (87.11)
-    - [Moon] J Zubeneschamali → J Makemake Dec 42.3672 10×φ^3 phi power (93.93)
-  - Mars: Moon, Sun — only
-    - [Moon] H Zubeneschamali → H Mars RA 62.9929 63 whole (41.51)
-    - [Moon] J Zubeneschamali → J Mars Dec 0.2936 conj (0.05)
-    - [Sun] J Difda → J Mars RA 167.9871 168 whole (12.44)
-  - Quaoar: Jupiter, Moon, Sun — only
-    - [Jupiter] J Capella → J Quaoar RA 166.6130 166.667 ninth (95.40)
-    - [Jupiter] J Galactic Centre → J Quaoar Dec 14.4421 14.4444 ninth (97.49)
-    - [Moon] S Moon → J Quaoar RA 55.9998 56 whole (98.44)
-    - [Sun] J Deneb Algedi → J Quaoar RA 80.9837 81 whole (3.45)
-  - Haumea: Jupiter, Moon — also: 3 Rubaud / Sam Twiston-Davies
-    - [Jupiter] J Capella → J Haumea Dec 24.1451 24.14 silver (95.09)
-    - [Moon] J Spica → J Haumea Dec 33.0160 33 whole (3.95)
+### L4 every natal body
+- **Sun**
+  - same body: S Sun → H Sun RA 135.9428 84×φ golden (1.89) — also: 1 JPR One / Jonjo O'Neill Jr, 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey
+  - top rows: S Moon → H Sun Dec 7.9975 8 whole (76.82) — also: 3 Rubaud / Sam Twiston-Davies
+  - star rows: H Spica → H Sun RA 156.0157 156 whole (4.57) — also: 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+  - star rows: H Spica → H Sun Dec 9.9992 10 ninth (94.34) — also: 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+  - star rows: J Difda → J Sun RA 54.0048 54 whole (57.59) — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+- **Neptune**
+  - same body: S Neptune → H Neptune RA 12.2378 12.2222 ninth (loose) — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
+  - same body: S Neptune → J Neptune RA 55.5096 55.5556 ninth (loose) — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
+  - star rows: J Capella → J Neptune RA 132.6493 82×φ golden (0.78) — also: 4 Stencil / Harry Cobden
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+- **Chiron**
+  - same body: S Chiron → H Chiron RA 22.2804 22.2222 ninth (loose) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
+  - star rows: H Galactic Centre → H Chiron Dec 33.3331 33.3333 ninth (99.67) — also: 5 Brookie / Ben Godfrey
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - star rows: H Spica → H Chiron RA 161.8467 100×φ^1 phi power (89.58) — also: 3 Rubaud / Sam Twiston-Davies
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+  - top rows: S Sun → J Chiron Dec 0.2278 conj (5.79) — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden
+  - star rows: J Deneb Algedi → J Chiron Dec 0.0920 conj (48.05) — also: 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+  - star rows: J Rigel → J Chiron Dec 8.0160 8 whole (4.08) — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+  - star rows: J Zubenelgenubi → J Chiron Dec 0.1754 conj (17.26) — also: 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
+- **Eris**
+  - same body: S Eris → H Eris RA 1.0001 1 whole (98.75) — also: 1 JPR One / Jonjo O'Neill Jr
+    - source line: S Moon → Eris Dec 9.0057 9 whole (51.17)
+  - star rows: H Rigel → H Eris Dec 6.4726 4×φ golden (97.21) — only
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+  - star rows: J Difda → J Eris RA 12.9872 13 whole (12.80) — only
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+- **Pluto**
+  - top rows: S Jupiter → H Pluto Dec 36.0042 36 whole (62.73) — only
+  - star rows: H Capella → H Pluto Dec 68.0102 68 whole (23.95) — also: 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: H Galactic Centre → H Pluto Dec 6.9948 7 whole (55.01) — also: 3 Rubaud / Sam Twiston-Davies, 5 Brookie / Ben Godfrey
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+- **Mercury**
+  - top rows: S Sun → H Mercury RA 111.1604 111.111 ninth (91.94) — only
+  - star rows: H Spica → H Mercury Dec 0.2884 conj (0.15) — also: 5 Brookie / Ben Godfrey
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+  - star rows: J Deneb Algedi → J Mercury Dec 38.9808 39 whole (0.15) — also: 4 Stencil / Harry Cobden
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+  - star rows: J Spica → J Mercury Dec 34.0171 34 whole (2.06) — also: 5 Brookie / Ben Godfrey
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+- **Ceres**
+  - top rows: S Moon → H Ceres Dec 12.2292 12.2222 ninth (90.36) — also: 1 JPR One / Jonjo O'Neill Jr
+  - star rows: H Zubenelgenubi → H Ceres RA 99.0114 99 whole (18.63) — also: 3 Rubaud / Sam Twiston-Davies
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
+  - star rows: H Zubeneschamali → H Ceres Dec 12.0063 12 whole (47.17) — also: 1 JPR One / Jonjo O'Neill Jr, 3 Rubaud / Sam Twiston-Davies
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+  - star rows: J Difda → J Ceres RA 86.0134 86 whole (10.83) — also: 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+- **Jupiter**
+  - top rows: S Neptune → H Jupiter Dec 21.0010 21 whole (90.12) — also: 3 Rubaud / Sam Twiston-Davies
+  - top rows: S Quaoar → H Jupiter RA 12.9455 8×φ golden (92.58) — only
+  - T2: J Jupiter → J star Zubenelgenubi RA 160.1840 99×φ golden (91.94) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
+  - top rows: S Haumea → J Jupiter Dec 4.9976 5 whole (77.35) — also: 5 Brookie / Ben Godfrey
+    - source line: S Sun → Haumea RA 0.6400 conj (32.87)
+  - top rows: S Quaoar → J Jupiter RA 101.9947 102 whole (54.33) — only
+  - star rows: S Difda → J Jupiter RA 12.0050 12 whole (56.31) — also: 1 JPR One / Jonjo O'Neill Jr, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - star rows: S Galactic Centre → J Jupiter RA 116.4969 72×φ golden (90.49) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - star rows: J Zubenelgenubi → J Jupiter RA 160.1840 99×φ golden (91.94) — also: 5 Brookie / Ben Godfrey
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
+- **Orcus**
+  - star rows: H Capella → H Orcus Dec 57.0001 57 whole (98.80) — only
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: H Difda → H Orcus Dec 6.9866 7 whole (10.94) — also: 3 Rubaud / Sam Twiston-Davies
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - star rows: H Galactic Centre → H Orcus Dec 18.0049 18 whole (56.81) — also: 1 JPR One / Jonjo O'Neill Jr, 5 Brookie / Ben Godfrey
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - star rows: H Spica → H Orcus Dec 0.1609 conj (21.50) — also: 2 Mirabad / Harry Skelton
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+  - star rows: J Zubeneschamali → J Orcus Dec 9.0125 9 whole (14.22) — also: 5 Brookie / Ben Godfrey
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+- **Rahu**
+  - star rows: H Deneb Algedi → H Rahu RA 127.9938 128 whole (47.71) — also: 2 Mirabad / Harry Skelton, 5 Brookie / Ben Godfrey
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+- **Ketu**
+  - star rows: H Deneb Algedi → H Ketu RA 52.0062 52 whole (47.71) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+  - star rows: H Zubeneschamali → H Ketu Dec 13.9802 14 whole (0.01) — also: 5 Brookie / Ben Godfrey
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+  - top rows: S Sun → J Ketu Dec 0.1628 conj (20.91) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 5 Brookie / Ben Godfrey
+  - star rows: J Deneb Algedi → J Ketu Dec 0.0271 conj (82.78) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+  - star rows: J Spica → J Ketu Dec 4.9907 5 whole (28.56) — only
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+  - star rows: J Zubenelgenubi → J Ketu Dec 0.1104 conj (39.95) — also: 1 JPR One / Jonjo O'Neill Jr
+    - source line: S Sun → Zubenelgenubi RA 1.3375 conj (1.17)
+    - source line: S Sun → Zubenelgenubi Dec 0.0498 conj (69.57)
+- **Sedna**
+  - star rows: H Difda → H Sedna Dec 25.8857 16×φ golden (83.17) — also: 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - star rows: H Zubeneschamali → H Sedna RA 172.0192 172 whole (0.15) — also: 1 JPR One / Jonjo O'Neill Jr, 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+- **Transpluto**
+  - star rows: H Difda → H Transpluto RA 143.0011 143 whole (89.00) — also: 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - star rows: H Rigel → H Transpluto Dec 19.0043 19 whole (61.86) — also: 3 Rubaud / Sam Twiston-Davies
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+  - T2: J Jupiter → J Transpluto Dec 4.9997 5 whole (97.18) — also: 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
+  - top rows: S Jupiter → J Transpluto RA 0.3326 conj (60.57) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden, 5 Brookie / Ben Godfrey
+  - star rows: J Difda → J Transpluto RA 135.9029 84×φ golden (39.58) — also: 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - star rows: J Galactic Centre → J Transpluto Dec 42.3647 10×φ^3 phi power (96.26) — also: 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+- **Pallas**
+  - star rows: H Rigel → H Pallas RA 150.9933 151 whole (44.55) — only
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+  - star rows: J Galactic Centre → J Pallas RA 144.4392 144.444 ninth (99.44) — also: 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+- **Makemake**
+  - star rows: H Rigel → H Makemake Dec 32.0013 32 whole (87.11) — also: 3 Rubaud / Sam Twiston-Davies, 4 Stencil / Harry Cobden
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+  - star rows: J Capella → J Makemake Dec 13.0151 13 whole (6.08) — also: 1 JPR One / Jonjo O'Neill Jr, 3 Rubaud / Sam Twiston-Davies
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: J Galactic Centre → J Makemake Dec 61.9909 62 whole (29.68) — also: 1 JPR One / Jonjo O'Neill Jr
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+  - star rows: J Zubeneschamali → J Makemake Dec 42.3672 10×φ^3 phi power (93.93) — also: 1 JPR One / Jonjo O'Neill Jr
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+- **Gonggong**
+  - star rows: H Rigel → H Gonggong RA 102.0180 102 whole (1.02) — also: 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+  - star rows: J Spica → J Gonggong Dec 6.0171 6 whole (2.12) — also: 5 Brookie / Ben Godfrey
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+- **Juno**
+  - star rows: H Spica → H Juno RA 3.0048 3 whole (58.08) — also: 1 JPR One / Jonjo O'Neill Jr, 2 Mirabad / Harry Skelton, 4 Stencil / Harry Cobden
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+  - star rows: H Zubeneschamali → H Juno Dec 8.9879 9 whole (15.77) — only
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+- **Vesta**
+  - star rows: H Spica → H Vesta RA 144.4973 144.444 ninth (94.40) — also: 3 Rubaud / Sam Twiston-Davies
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+  - star rows: J Rigel → J Vesta RA 65.9844 66 whole (4.86) — only
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)
+- **Mars**
+  - star rows: H Zubeneschamali → H Mars RA 62.9929 63 whole (41.51) — also: 3 Rubaud / Sam Twiston-Davies
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+  - star rows: J Difda → J Mars RA 167.9871 168 whole (12.44) — only
+    - source line: S Sun → Difda Dec 1.9950 2 whole (56.13)
+  - star rows: J Zubeneschamali → J Mars Dec 0.2936 conj (0.05) — also: 3 Rubaud / Sam Twiston-Davies
+    - source line: S Moon → Zubeneschamali Dec 0.2198 conj (7.14)
+- **Saturn**
+  - same body: S Saturn → J Saturn RA 30.0016 30 whole (84.92) — also: 5 Brookie / Ben Godfrey
+  - same body: S Saturn → J Saturn Dec 11.9870 12 whole (12.38) — also: 5 Brookie / Ben Godfrey
+- **Quaoar**
+  - top rows: S Moon → J Quaoar RA 55.9998 56 whole (98.44) — only
+  - star rows: J Capella → J Quaoar RA 166.6130 166.667 ninth (95.40) — also: 1 JPR One / Jonjo O'Neill Jr
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: J Deneb Algedi → J Quaoar RA 80.9837 81 whole (3.45) — also: 2 Mirabad / Harry Skelton
+    - source line: S Sun → Deneb Algedi Dec 0.1386 conj (28.94)
+  - star rows: J Galactic Centre → J Quaoar Dec 14.4421 14.4444 ninth (97.49) — only
+    - source line: S Jupiter → Galactic Centre Dec 42.9998 43 whole (98.12)
+- **Uranus**
+  - star rows: J Capella → J Uranus RA 119.7098 74×φ golden (5.64) — also: 1 JPR One / Jonjo O'Neill Jr
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+- **Haumea**
+  - star rows: J Capella → J Haumea Dec 24.1451 24.14 silver (95.09) — also: 3 Rubaud / Sam Twiston-Davies
+    - source line: S Jupiter → Capella Dec 32.0022 32 whole (79.60)
+  - star rows: J Spica → J Haumea Dec 33.0160 33 whole (3.95) — also: 3 Rubaud / Sam Twiston-Davies
+    - source line: S Moon → Spica Dec 1.9978 2 whole (79.48)
+- **Venus**
+  - star rows: J Rigel → J Venus RA 35.0195 35 whole (0.07) — also: 2 Mirabad / Harry Skelton, 3 Rubaud / Sam Twiston-Davies
+    - source line: S Moon → Rigel RA 111.1385 111.111 ninth (95.51)

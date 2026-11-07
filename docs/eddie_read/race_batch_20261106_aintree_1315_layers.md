@@ -1,5 +1,5 @@
 # Stage 2 layers: race_batch_20261106_aintree_1315_jupiter_tables.xlsx
-Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_layers.py).
+The stage 1 data laid out in fixed layers for every runner; data only, no interpretation, no ranking, no pick (tools/eddie_layers.py).
 
 ## L0 field
 - In the tables workbook (6): 1 Off The Jury / Sean Bowen; 2 Stride On / Derek Fox; 3 Leader Crik / Dylan Johnston; 4 Below The Radar / Sam Twiston-Davies; 6 Barnpark / Harry Skelton; 7 Dixie Mafia / Jack Tudor
@@ -47,73 +47,121 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - S Ketu → J Ketu RA 158.0181 158 whole (0.90)
 ### L2 what lands on each same body
 - **H Neptune** (same body: S Neptune → H Neptune Dec 6.0264 6 whole (loose))
-  - star rows: H Procyon → H Neptune RA 128.0071 128 whole (41.51) [Moon]
-  - other chart, star rows: J Aculeus → J Neptune Dec 11.9927 12 whole (40.43) [Moon]
+  - star rows: H Procyon → H Neptune RA 128.0071 128 whole (41.51)
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
+  - other chart, star rows: J Aculeus → J Neptune Dec 11.9927 12 whole (40.43)
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
 - **H Ceres** (same body: S Ceres → H Ceres RA 131.0708 81×φ golden (47.35))
-  - star rows: H Adhara → H Ceres RA 141.4756 141.4 sqrt2 (85.25) [Sun]
+  - star rows: H Adhara → H Ceres RA 141.4756 141.4 sqrt2 (85.25)
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
 - **H Pallas** (same body: S Pallas → H Pallas Dec 22.1935 22.2222 ninth (loose))
-  - star rows: H Aculeus → H Pallas RA 52.9925 53 whole (38.81) [Moon]
-  - other chart, top rows: S Jupiter → J Pallas RA 138.0024 138 whole (77.40) [Jupiter]
+  - star rows: H Aculeus → H Pallas RA 52.9925 53 whole (38.81)
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - other chart, top rows: S Jupiter → J Pallas RA 138.0024 138 whole (77.40)
 - **H Makemake** (same body: S Makemake → H Makemake Dec 4.4428 4.44444 ninth (loose))
-  - star rows: H Adhara → H Makemake Dec 52.9926 53 whole (39.52) [Sun]
-  - star rows: H Betelgeuse → H Makemake RA 107.9912 108 whole (31.60) [Moon]
-  - star rows: H Capella → H Makemake Dec 21.9809 22 whole (0.19) [Jupiter]
-  - star rows: H Pollux → H Makemake Dec 4.0084 4 whole (33.38) [Sun]
+  - star rows: H Adhara → H Makemake Dec 52.9926 53 whole (39.52)
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: H Betelgeuse → H Makemake RA 107.9912 108 whole (31.60)
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - star rows: H Capella → H Makemake Dec 21.9809 22 whole (0.19)
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - star rows: H Pollux → H Makemake Dec 4.0084 4 whole (33.38)
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
   - other chart, same body: S Makemake → J Makemake Dec 13.0022 13 whole (79.20)
-  - other chart, top rows: S Sun → J Makemake Dec 48.5455 30×φ golden (74.16) [Sun]
-  - other chart, star rows: J Procyon → J Makemake RA 61.8028 100×φ^-1 phi power (99.62) [Moon]
+  - other chart, top rows: S Sun → J Makemake Dec 48.5455 30×φ golden (74.16)
+  - other chart, star rows: J Procyon → J Makemake RA 61.8028 100×φ^-1 phi power (99.62)
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
 - **J Sun** (same body: S Sun → J Sun RA 56.9798 57 whole (loose); S Sun → J Sun Dec 22.6491 14×φ golden (loose))
-  - star rows: J Pollux → J Sun RA 47.9985 48 whole (85.65) [Sun]
-  - other chart, star rows: H Kaus Australis → H Sun Dec 22.6563 14×φ golden (77.53) [Moon]
+  - star rows: J Pollux → J Sun RA 47.9985 48 whole (85.65)
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - other chart, star rows: H Kaus Australis → H Sun Dec 22.6563 14×φ golden (77.53)
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
 - **J Mars** (same body: S Mars → J Mars Dec 33.0185 33 whole (0.55))
-  - top rows: S Sun → J Mars RA 0.1029 conj (86.75) [Sun]
-  - star rows: J Alhena → J Mars RA 121.9811 122 whole (0.31) [Sun]
-  - star rows: J Galactic Centre → J Mars RA 45.0116 45 whole (17.65) [Jupiter]
-  - star rows: J Zubenelgenubi → J Mars RA 1.3104 conj (1.60) [Sun]
-  - other chart, star rows: H Aculeus → H Mars RA 125.0111 125 whole (19.81) [Moon]
+  - top rows: S Sun → J Mars RA 0.1029 conj (86.75)
+  - star rows: J Alhena → J Mars RA 121.9811 122 whole (0.31)
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: J Galactic Centre → J Mars RA 45.0116 45 whole (17.65)
+    - source line: S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)
+  - star rows: J Zubenelgenubi → J Mars RA 1.3104 conj (1.60)
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+  - other chart, star rows: H Aculeus → H Mars RA 125.0111 125 whole (19.81)
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
 - **J Saturn** (same body: S Saturn → J Saturn RA 9.9938 10 whole (47.93); S Saturn → J Saturn Dec 4.1448 4.14 silver (loose))
-  - star rows: J Alphard → J Saturn RA 122.9668 φ^10 phi power (92.00) [Jupiter, Moon]
-  - star rows: J Procyon → J Saturn Dec 0.1378 conj (29.23) [Moon]
-  - other chart, star rows: H Adhara → H Saturn Dec 6.9931 7 whole (42.93) [Sun]
-  - other chart, star rows: H Capella → H Saturn Dec 67.9803 68 whole (0.03) [Jupiter]
-  - other chart, star rows: H Pollux → H Saturn RA 171.5162 106×φ golden (73.72) [Sun]
-  - other chart, star rows: H Pollux → H Saturn Dec 50.0079 50 whole (36.52) [Sun]
+  - star rows: J Alphard → J Saturn RA 122.9668 φ^10 phi power (92.00)
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+  - star rows: J Procyon → J Saturn Dec 0.1378 conj (29.23)
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
+  - other chart, star rows: H Adhara → H Saturn Dec 6.9931 7 whole (42.93)
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - other chart, star rows: H Capella → H Saturn Dec 67.9803 68 whole (0.03)
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - other chart, star rows: H Pollux → H Saturn RA 171.5162 106×φ golden (73.72)
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - other chart, star rows: H Pollux → H Saturn Dec 50.0079 50 whole (36.52)
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
 - **J Pluto** (same body: S Pluto → J Pluto Dec 15.0206 15 whole (loose))
-  - top rows: S Jupiter → J Pluto Dec 22.6568 14×φ golden (75.21) [Jupiter]
-  - top rows: S Moon → J Pluto Dec 0.1137 conj (38.57) [Moon]
-  - star rows: J Alphard → J Pluto Dec 0.0065 conj (95.74) [Jupiter, Moon]
+  - top rows: S Jupiter → J Pluto Dec 22.6568 14×φ golden (75.21)
+  - top rows: S Moon → J Pluto Dec 0.1137 conj (38.57)
+  - star rows: J Alphard → J Pluto Dec 0.0065 conj (95.74)
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
 - **J Chiron** (same body: S Chiron → J Chiron RA 177.0037 177 whole (66.73))
-  - star rows: J Adhara → J Chiron Dec 18.0059 18 whole (49.46) [Sun]
-  - star rows: J Alhena → J Chiron RA 109.0037 109 whole (66.10) [Sun]
-  - star rows: J Galactic Centre → J Chiron RA 57.9890 58 whole (20.15) [Jupiter]
-  - star rows: J Pollux → J Chiron Dec 38.9885 39 whole (18.17) [Sun]
-  - star rows: J Procyon → J Chiron Dec 16.1896 10×φ^1 phi power (78.40) [Moon]
-  - other chart, star rows: H Aculeus → H Chiron Dec 35.0182 35 whole (0.85) [Moon]
+  - star rows: J Adhara → J Chiron Dec 18.0059 18 whole (49.46)
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: J Alhena → J Chiron RA 109.0037 109 whole (66.10)
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: J Galactic Centre → J Chiron RA 57.9890 58 whole (20.15)
+    - source line: S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)
+  - star rows: J Pollux → J Chiron Dec 38.9885 39 whole (18.17)
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - star rows: J Procyon → J Chiron Dec 16.1896 10×φ^1 phi power (78.40)
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
+  - other chart, star rows: H Aculeus → H Chiron Dec 35.0182 35 whole (0.85)
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
 - **J Rahu** (same body: S Rahu → J Rahu RA 158.0181 158 whole (0.90))
-  - other chart, star rows: H Pollux → H Rahu RA 1.8883 1.88889 ninth (95.81) [Sun]
+  - other chart, star rows: H Pollux → H Rahu RA 1.8883 1.88889 ninth (95.81)
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
 - **J Haumea** (same body: S Haumea → J Haumea RA 26.9746 27 whole (loose))
-  - body line: S Sun → Haumea RA 0.5695 conj (38.48)
-  - star rows: J Deneb Algedi → J Haumea RA 133.0056 133 whole (52.17) [Sun]
-  - other chart, star rows: H Alhena → H Haumea Dec 0.1578 conj (22.47) [Sun]
-  - other chart, star rows: H Procyon → H Haumea RA 99.9911 100 ninth (94.09) [Moon]
+  - sky line to Haumea: S Sun → Haumea RA 0.5695 conj (38.48)
+  - star rows: J Deneb Algedi → J Haumea RA 133.0056 133 whole (52.17)
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - other chart, star rows: H Alhena → H Haumea Dec 0.1578 conj (22.47)
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - other chart, star rows: H Procyon → H Haumea RA 99.9911 100 ninth (94.09)
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
 - **J Makemake** (same body: S Makemake → J Makemake Dec 13.0022 13 whole (79.20))
-  - top rows: S Sun → J Makemake Dec 48.5455 30×φ golden (74.16) [Sun]
-  - star rows: J Procyon → J Makemake RA 61.8028 100×φ^-1 phi power (99.62) [Moon]
+  - top rows: S Sun → J Makemake Dec 48.5455 30×φ golden (74.16)
+  - star rows: J Procyon → J Makemake RA 61.8028 100×φ^-1 phi power (99.62)
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
   - other chart, same body: S Makemake → H Makemake Dec 4.4428 4.44444 ninth (loose)
-  - other chart, star rows: H Adhara → H Makemake Dec 52.9926 53 whole (39.52) [Sun]
-  - other chart, star rows: H Betelgeuse → H Makemake RA 107.9912 108 whole (31.60) [Moon]
-  - other chart, star rows: H Capella → H Makemake Dec 21.9809 22 whole (0.19) [Jupiter]
-  - other chart, star rows: H Pollux → H Makemake Dec 4.0084 4 whole (33.38) [Sun]
+  - other chart, star rows: H Adhara → H Makemake Dec 52.9926 53 whole (39.52)
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - other chart, star rows: H Betelgeuse → H Makemake RA 107.9912 108 whole (31.60)
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - other chart, star rows: H Capella → H Makemake Dec 21.9809 22 whole (0.19)
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - other chart, star rows: H Pollux → H Makemake Dec 4.0084 4 whole (33.38)
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
 - **J Orcus** (same body: S Orcus → J Orcus Dec 14.0908 14.14 sqrt2 (loose))
-  - other chart, star rows: H Aculeus → H Orcus RA 110.9672 10×φ^5 phi power (77.76) [Moon]
+  - other chart, star rows: H Aculeus → H Orcus RA 110.9672 10×φ^5 phi power (77.76)
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
 - **J Gonggong** (same body: S Gonggong → J Gonggong RA 5.9787 6 whole (loose))
-  - star rows: J Capella → J Gonggong RA 107.9827 108 whole (1.76) [Jupiter]
-  - star rows: J Zubenelgenubi → J Gonggong Dec 2.0009 2 whole (91.19) [Sun]
-  - other chart, star rows: H Zubenelgenubi → H Gonggong Dec 3.9853 4 whole (6.96) [Sun]
+  - star rows: J Capella → J Gonggong RA 107.9827 108 whole (1.76)
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - star rows: J Zubenelgenubi → J Gonggong Dec 2.0009 2 whole (91.19)
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+  - other chart, star rows: H Zubenelgenubi → H Gonggong Dec 3.9853 4 whole (6.96)
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
 - **J Ketu** (same body: S Ketu → J Ketu RA 158.0181 158 whole (0.90))
-  - body line: S Jupiter → Ketu RA 1.4737 conj (0.03)
-  - star rows: J Zubenelgenubi → J Ketu Dec 11.9809 12 whole (0.20) [Sun]
-### L3 the seven cases (L5 field tag on each)
+  - sky line to Ketu: S Jupiter → Ketu RA 1.4737 conj (0.03)
+  - star rows: J Zubenelgenubi → J Ketu Dec 11.9809 12 whole (0.20)
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+### L3 matches
 - **1. same body on both charts**
   - Makemake — only
     - S Makemake → H Makemake Dec 4.4428 4.44444 ninth (loose)
@@ -143,137 +191,270 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 10×φ^1 phi power — also: 4 Below The Radar / Sam Twiston-Davies
     - J Procyon → J Chiron Dec 16.1896 10×φ^1 phi power (78.40) = S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
 - **4. circle divisions**
-  - 6 = 360/60 — also: 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+  - 6 = 360/60 — also: 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
     - S Neptune → H Neptune Dec 6.0264 6 whole (loose)
+  - 4 = 360/90 — also: 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+    - H Pollux → H Makemake Dec 4.0084 4 whole (33.38)
+  - 4 = 360/90 — also: 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+    - H Zubenelgenubi → H Gonggong Dec 3.9853 4 whole (6.96)
   - 10 = 360/36 — also: 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton
     - S Saturn → J Saturn RA 9.9938 10 whole (47.93)
-  - 15 = 360/24 — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor
+  - 15 = 360/24 — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
     - S Pluto → J Pluto Dec 15.0206 15 whole (loose)
-  - 6 = 360/60 — also: 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+  - 6 = 360/60 — also: 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
     - S Gonggong → J Gonggong RA 5.9787 6 whole (loose)
+  - 12 = 360/30 — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+    - J Aculeus → J Neptune Dec 11.9927 12 whole (40.43)
+  - 20 = 360/18 — only
+    - J Adhara → J Venus Dec 20.0153 20 whole (5.49)
+  - 18 = 360/20 — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
+    - J Adhara → J Chiron Dec 18.0059 18 whole (49.46)
+  - 9 = 360/40 — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+    - J Alhena → J Mercury Dec 8.9912 9 whole (31.30)
+  - 45 = 360/8 — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
+    - J Galactic Centre → J Mars RA 45.0116 45 whole (17.65)
   - 2 = 360/180 — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
     - J Zubenelgenubi → J Gonggong Dec 2.0009 2 whole (91.19)
+  - 12 = 360/30 — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+    - J Zubenelgenubi → J Ketu Dec 11.9809 12 whole (0.20)
 - **5. same number in more than one place**
-  - 6 whole — also: 7 Dixie Mafia / Jack Tudor
+  - 6 whole — also: 2 Stride On / Derek Fox, 7 Dixie Mafia / Jack Tudor
     - S Neptune → H Neptune Dec 6.0264 6 whole (loose)
     - S Gonggong → J Gonggong RA 5.9787 6 whole (loose)
-  - 39 whole — also: 6 Barnpark / Harry Skelton
+  - 53 whole — also: 2 Stride On / Derek Fox, 7 Dixie Mafia / Jack Tudor
+    - H Aculeus → H Pallas RA 52.9925 53 whole (38.81)
+    - H Adhara → H Makemake Dec 52.9926 53 whole (39.52)
+  - 108 whole — only
+    - H Betelgeuse → H Makemake RA 107.9912 108 whole (31.60)
+    - J Capella → J Gonggong RA 107.9827 108 whole (1.76)
+  - 23 whole — only
+    - H Betelgeuse → H Quaoar Dec 22.9902 23 whole (26.15)
+    - S Rukbat → J Jupiter Dec 22.9830 23 whole (2.18)
+  - 22 whole — only
+    - H Capella → H Makemake Dec 21.9809 22 whole (0.19)
+    - H Zubenelgenubi → H Juno Dec 21.9807 22 whole (0.12)
+  - 39 whole — also: 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
     - H Deneb Algedi → H Venus RA 38.9978 39 whole (79.58)
     - H Procyon → H Transpluto RA 38.9958 39 whole (62.70)
+    - J Pollux → J Chiron Dec 38.9885 39 whole (18.17)
   - 14×φ golden — also: 7 Dixie Mafia / Jack Tudor
     - H Kaus Australis → H Sun Dec 22.6563 14×φ golden (77.53)
     - S Sun → J Sun Dec 22.6491 14×φ golden (loose)
     - S Jupiter → J Pluto Dec 22.6568 14×φ golden (75.21)
+  - 4 whole — also: 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+    - H Pollux → H Makemake Dec 4.0084 4 whole (33.38)
+    - H Zubenelgenubi → H Gonggong Dec 3.9853 4 whole (6.96)
   - 158 whole — only
+    - H Procyon → H Quaoar RA 158.0103 158 whole (23.41)
     - S Rahu → J Rahu RA 158.0181 158 whole (0.90)
     - S Ketu → J Ketu RA 158.0181 158 whole (0.90)
   - 10×φ^1 phi power — only
     - S Moon → J Mercury Dec 16.1853 10×φ^1 phi power (88.21)
     - J Procyon → J Chiron Dec 16.1896 10×φ^1 phi power (78.40)
-- **6. star and sky line on one body**
-  - J Pluto on Alphard — only
-    - J Alphard → J Pluto Dec 0.0065 conj (95.74)
-    - S Jupiter → J Pluto Dec 22.6568 14×φ golden (75.21)
-    - S Moon → J Pluto Dec 0.1137 conj (38.57)
-  - J Mercury on Betelgeuse — only
-    - J Betelgeuse → J Mercury Dec 0.0003 conj (99.77)
-    - S Moon → J Mercury Dec 16.1853 10×φ^1 phi power (88.21)
-- **7. centres meeting**
-  - Mars: Jupiter, Moon, Sun — also: 3 Leader Crik / Dylan Johnston
-    - [Jupiter] J Galactic Centre → J Mars RA 45.0116 45 whole (17.65)
-    - [Moon] H Aculeus → H Mars RA 125.0111 125 whole (19.81)
-    - [Sun] S Sun → J Mars RA 0.1029 conj (86.75)
-    - [Sun] J Alhena → J Mars RA 121.9811 122 whole (0.31)
-    - [Sun] J Zubenelgenubi → J Mars RA 1.3104 conj (1.60)
-  - Chiron: Jupiter, Moon, Sun — also: 4 Below The Radar / Sam Twiston-Davies
-    - [Jupiter] J Galactic Centre → J Chiron RA 57.9890 58 whole (20.15)
-    - [Moon] H Aculeus → H Chiron Dec 35.0182 35 whole (0.85)
-    - [Moon] J Procyon → J Chiron Dec 16.1896 10×φ^1 phi power (78.40)
-    - [Sun] J Adhara → J Chiron Dec 18.0059 18 whole (49.46)
-    - [Sun] J Alhena → J Chiron RA 109.0037 109 whole (66.10)
-    - [Sun] J Pollux → J Chiron Dec 38.9885 39 whole (18.17)
-  - Pallas: Jupiter, Moon — only
-    - [Jupiter] S Jupiter → J Pallas RA 138.0024 138 whole (77.40)
-    - [Moon] H Aculeus → H Pallas RA 52.9925 53 whole (38.81)
-  - Quaoar: Jupiter, Moon, Sun — also: 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton
-    - [Jupiter] J Alphard → J Quaoar RA 100.3188 62×φ golden (95.93)
-    - [Moon] H Aculeus → H Quaoar Dec 16.6681 16.6667 ninth (98.81)
-    - [Moon] H Betelgeuse → H Quaoar Dec 22.9902 23 whole (26.15)
-    - [Moon] H Procyon → H Quaoar RA 158.0103 158 whole (23.41)
-    - [Moon] J Aculeus → J Quaoar Dec 17.9484 φ^6 phi power (91.02)
-    - [Moon] J Alphard → J Quaoar RA 100.3188 62×φ golden (95.93)
-    - [Sun] H Alhena → H Quaoar Dec 31.9827 32 whole (1.79)
-    - [Sun] J Adhara → J Quaoar RA 137.5574 85×φ golden (5.85)
-  - Saturn: Jupiter, Moon, Sun — also: 6 Barnpark / Harry Skelton
-    - [Jupiter] H Capella → H Saturn Dec 67.9803 68 whole (0.03)
-    - [Jupiter] J Alphard → J Saturn RA 122.9668 φ^10 phi power (92.00)
-    - [Moon] J Alphard → J Saturn RA 122.9668 φ^10 phi power (92.00)
-    - [Moon] J Procyon → J Saturn Dec 0.1378 conj (29.23)
-    - [Sun] H Adhara → H Saturn Dec 6.9931 7 whole (42.93)
-    - [Sun] H Pollux → H Saturn RA 171.5162 106×φ golden (73.72)
-    - [Sun] H Pollux → H Saturn Dec 50.0079 50 whole (36.52)
-  - Makemake: Jupiter, Moon, Sun — only
-    - [Jupiter] H Capella → H Makemake Dec 21.9809 22 whole (0.19)
-    - [Moon] H Betelgeuse → H Makemake RA 107.9912 108 whole (31.60)
-    - [Moon] J Procyon → J Makemake RA 61.8028 100×φ^-1 phi power (99.62)
-    - [Sun] H Adhara → H Makemake Dec 52.9926 53 whole (39.52)
-    - [Sun] H Pollux → H Makemake Dec 4.0084 4 whole (33.38)
-    - [Sun] S Sun → J Makemake Dec 48.5455 30×φ golden (74.16)
-  - Jupiter: Jupiter, Moon, Sun — also: 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor
-    - [Jupiter] S Sun → J Jupiter Dec 1.6667 1.66667 ninth (99.34)
-    - [Jupiter] S Makemake → J Jupiter Dec 37.2101 23×φ golden (72.92)
-    - [Moon] S Rukbat → J Jupiter Dec 22.9830 23 whole (2.18)
-    - [Sun] H Alhena → H Jupiter RA 160.0181 160 whole (0.89)
-    - [Sun] S Sun → J Jupiter Dec 1.6667 1.66667 ninth (99.34)
-  - Mercury: Moon, Sun — also: 4 Below The Radar / Sam Twiston-Davies
-    - [Moon] S Moon → J Mercury Dec 16.1853 10×φ^1 phi power (88.21)
-    - [Moon] J Aculeus → J Mercury RA 109.9974 110 whole (75.99)
-    - [Moon] J Betelgeuse → J Mercury Dec 0.0003 conj (99.77)
-    - [Sun] H Alhena → H Mercury RA 113.9907 114 whole (28.67)
-    - [Sun] J Alhena → J Mercury Dec 8.9912 9 whole (31.30)
-  - Haumea: Moon, Sun — only
-    - [Moon] H Procyon → H Haumea RA 99.9911 100 ninth (94.09)
-    - [Sun] H Alhena → H Haumea Dec 0.1578 conj (22.47)
-    - [Sun] S Haumea → J Haumea RA 26.9746 27 whole (loose)
-    - [Sun] J Deneb Algedi → J Haumea RA 133.0056 133 whole (52.17)
-  - Sedna: Moon, Sun — also: 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor
-    - [Moon] H Betelgeuse → H Sedna Dec 0.2639 conj (1.45)
-    - [Moon] J Procyon → J Sedna Dec 0.1528 conj (24.06)
-    - [Sun] J Alhena → J Sedna Dec 11.3255 7×φ golden (95.27)
-  - Venus: Jupiter, Moon, Sun — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston
-    - [Jupiter] J Alphard → J Venus Dec 0.2966 conj (0.01)
-    - [Jupiter] J Capella → J Venus RA 121.3784 75×φ golden (4.04)
-    - [Moon] S Moon → J Venus Dec 0.1764 conj (16.97)
-    - [Moon] J Alphard → J Venus Dec 0.2966 conj (0.01)
-    - [Sun] H Deneb Algedi → H Venus RA 38.9978 39 whole (79.58)
-    - [Sun] J Adhara → J Venus Dec 20.0153 20 whole (5.49)
-    - [Sun] J Deneb Algedi → J Venus RA 126.2154 78×φ golden (53.46)
-  - Sun: Moon, Sun — only
-    - [Moon] H Kaus Australis → H Sun Dec 22.6563 14×φ golden (77.53)
-    - [Sun] J Pollux → J Sun RA 47.9985 48 whole (85.65)
-  - Juno: Moon, Sun — also: 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies
-    - [Moon] H Kaus Australis → H Juno RA 147.2227 91×φ golden (18.73)
-    - [Sun] H Zubenelgenubi → H Juno Dec 21.9807 22 whole (0.12)
-  - Transpluto: Jupiter, Moon — only
-    - [Jupiter] S Jupiter → J Transpluto RA 0.1323 conj (83.14)
-    - [Moon] H Kaus Australis → H Transpluto RA 122.2165 122.222 ninth (99.21)
-    - [Moon] H Procyon → H Transpluto RA 38.9958 39 whole (62.70)
-    - [Moon] J Rukbat → J Transpluto RA 143.9861 144 whole (9.39)
-  - Gonggong: Jupiter, Sun — only
-    - [Jupiter] J Capella → J Gonggong RA 107.9827 108 whole (1.76)
-    - [Sun] H Zubenelgenubi → H Gonggong Dec 3.9853 4 whole (6.96)
-    - [Sun] J Zubenelgenubi → J Gonggong Dec 2.0009 2 whole (91.19)
-  - Ketu: Jupiter, Sun — also: 3 Leader Crik / Dylan Johnston
-    - [Jupiter] S Ketu → J Ketu RA 158.0181 158 whole (0.90)
-    - [Sun] J Zubenelgenubi → J Ketu Dec 11.9809 12 whole (0.20)
-  - Pluto: Jupiter, Moon — also: 4 Below The Radar / Sam Twiston-Davies
-    - [Jupiter] S Jupiter → J Pluto Dec 22.6568 14×φ golden (75.21)
-    - [Jupiter] J Alphard → J Pluto Dec 0.0065 conj (95.74)
-    - [Moon] S Moon → J Pluto Dec 0.1137 conj (38.57)
-    - [Moon] J Alphard → J Pluto Dec 0.0065 conj (95.74)
-  - Uranus: Jupiter, Moon — also: 7 Dixie Mafia / Jack Tudor
-    - [Jupiter] J Alphard → J Uranus RA 166.0000 166 whole (99.68)
-    - [Moon] J Alphard → J Uranus RA 166.0000 166 whole (99.68)
+  - 12 whole — also: 7 Dixie Mafia / Jack Tudor
+    - J Aculeus → J Neptune Dec 11.9927 12 whole (40.43)
+    - J Zubenelgenubi → J Ketu Dec 11.9809 12 whole (0.20)
+  - 23 and 23×φ on J Jupiter — only
+    - S Rukbat → J Jupiter Dec 22.9830 23 whole (2.18)
+    - S Makemake → J Jupiter Dec 37.2101 23×φ golden (72.92)
+### L4 every natal body
+- **Neptune**
+  - same body: S Neptune → H Neptune Dec 6.0264 6 whole (loose) — also: 3 Leader Crik / Dylan Johnston
+  - star rows: H Procyon → H Neptune RA 128.0071 128 whole (41.51) — only
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
+  - star rows: J Aculeus → J Neptune Dec 11.9927 12 whole (40.43) — only
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+- **Ceres**
+  - same body: S Ceres → H Ceres RA 131.0708 81×φ golden (47.35) — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton
+  - star rows: H Adhara → H Ceres RA 141.4756 141.4 sqrt2 (85.25) — also: 6 Barnpark / Harry Skelton
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+- **Pallas**
+  - same body: S Pallas → H Pallas Dec 22.1935 22.2222 ninth (loose) — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies
+  - star rows: H Aculeus → H Pallas RA 52.9925 53 whole (38.81) — also: 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - top rows: S Jupiter → J Pallas RA 138.0024 138 whole (77.40) — also: 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton
+- **Makemake**
+  - same body: S Makemake → H Makemake Dec 4.4428 4.44444 ninth (loose) — also: 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
+  - star rows: H Adhara → H Makemake Dec 52.9926 53 whole (39.52) — also: 2 Stride On / Derek Fox
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: H Betelgeuse → H Makemake RA 107.9912 108 whole (31.60) — also: 6 Barnpark / Harry Skelton
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - star rows: H Capella → H Makemake Dec 21.9809 22 whole (0.19) — also: 2 Stride On / Derek Fox
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - star rows: H Pollux → H Makemake Dec 4.0084 4 whole (33.38) — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - same body: S Makemake → J Makemake Dec 13.0022 13 whole (79.20) — also: 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
+  - top rows: S Sun → J Makemake Dec 48.5455 30×φ golden (74.16) — only
+  - star rows: J Procyon → J Makemake RA 61.8028 100×φ^-1 phi power (99.62) — also: 6 Barnpark / Harry Skelton
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
+- **Mars**
+  - star rows: H Aculeus → H Mars RA 125.0111 125 whole (19.81) — also: 3 Leader Crik / Dylan Johnston
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - same body: S Mars → J Mars Dec 33.0185 33 whole (0.55) — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies
+  - top rows: S Sun → J Mars RA 0.1029 conj (86.75) — only
+  - star rows: J Alhena → J Mars RA 121.9811 122 whole (0.31) — also: 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: J Galactic Centre → J Mars RA 45.0116 45 whole (17.65) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)
+  - star rows: J Zubenelgenubi → J Mars RA 1.3104 conj (1.60) — also: 2 Stride On / Derek Fox
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+- **Chiron**
+  - star rows: H Aculeus → H Chiron Dec 35.0182 35 whole (0.85) — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - same body: S Chiron → J Chiron RA 177.0037 177 whole (66.73) — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+  - star rows: J Adhara → J Chiron Dec 18.0059 18 whole (49.46) — only
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: J Alhena → J Chiron RA 109.0037 109 whole (66.10) — also: 6 Barnpark / Harry Skelton
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: J Galactic Centre → J Chiron RA 57.9890 58 whole (20.15) — also: 3 Leader Crik / Dylan Johnston
+    - source line: S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)
+  - star rows: J Pollux → J Chiron Dec 38.9885 39 whole (18.17) — also: 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - star rows: J Procyon → J Chiron Dec 16.1896 10×φ^1 phi power (78.40) — also: 2 Stride On / Derek Fox
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
+- **Orcus**
+  - star rows: H Aculeus → H Orcus RA 110.9672 10×φ^5 phi power (77.76) — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - same body: S Orcus → J Orcus Dec 14.0908 14.14 sqrt2 (loose) — also: 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+- **Quaoar**
+  - star rows: H Aculeus → H Quaoar Dec 16.6681 16.6667 ninth (98.81) — also: 7 Dixie Mafia / Jack Tudor
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - star rows: H Alhena → H Quaoar Dec 31.9827 32 whole (1.79) — only
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: H Betelgeuse → H Quaoar Dec 22.9902 23 whole (26.15) — only
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - star rows: H Procyon → H Quaoar RA 158.0103 158 whole (23.41) — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
+  - star rows: J Aculeus → J Quaoar Dec 17.9484 φ^6 phi power (91.02) — also: 7 Dixie Mafia / Jack Tudor
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - star rows: J Adhara → J Quaoar RA 137.5574 85×φ golden (5.85) — only
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: J Alphard → J Quaoar RA 100.3188 62×φ golden (95.93) — also: 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+- **Saturn**
+  - star rows: H Adhara → H Saturn Dec 6.9931 7 whole (42.93) — also: 3 Leader Crik / Dylan Johnston
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: H Capella → H Saturn Dec 67.9803 68 whole (0.03) — also: 6 Barnpark / Harry Skelton
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - star rows: H Pollux → H Saturn RA 171.5162 106×φ golden (73.72) — also: 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - star rows: H Pollux → H Saturn Dec 50.0079 50 whole (36.52) — also: 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - same body: S Saturn → J Saturn RA 9.9938 10 whole (47.93) — also: 2 Stride On / Derek Fox
+  - same body: S Saturn → J Saturn Dec 4.1448 4.14 silver (loose) — also: 2 Stride On / Derek Fox
+  - star rows: J Alphard → J Saturn RA 122.9668 φ^10 phi power (92.00) — only
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+  - star rows: J Procyon → J Saturn Dec 0.1378 conj (29.23) — also: 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
+- **Jupiter**
+  - star rows: H Alhena → H Jupiter RA 160.0181 160 whole (0.89) — also: 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - top rows: S Sun → J Jupiter Dec 1.6667 1.66667 ninth (99.34) — also: 6 Barnpark / Harry Skelton
+  - top rows: S Makemake → J Jupiter Dec 37.2101 23×φ golden (72.92) — only
+  - star rows: S Rukbat → J Jupiter Dec 22.9830 23 whole (2.18) — only
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+- **Mercury**
+  - star rows: H Alhena → H Mercury RA 113.9907 114 whole (28.67) — also: 6 Barnpark / Harry Skelton
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - top rows: S Moon → J Mercury Dec 16.1853 10×φ^1 phi power (88.21) — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston
+  - star rows: J Aculeus → J Mercury RA 109.9974 110 whole (75.99) — also: 2 Stride On / Derek Fox
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - star rows: J Alhena → J Mercury Dec 8.9912 9 whole (31.30) — also: 6 Barnpark / Harry Skelton
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: J Betelgeuse → J Mercury Dec 0.0003 conj (99.77) — also: 6 Barnpark / Harry Skelton
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+- **Haumea**
+  - star rows: H Alhena → H Haumea Dec 0.1578 conj (22.47) — also: 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: H Procyon → H Haumea RA 99.9911 100 ninth (94.09) — only
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
+  - same body: S Haumea → J Haumea RA 26.9746 27 whole (loose) — also: 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Haumea RA 0.5695 conj (38.48)
+  - star rows: J Deneb Algedi → J Haumea RA 133.0056 133 whole (52.17) — also: 6 Barnpark / Harry Skelton
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+- **Sedna**
+  - star rows: H Betelgeuse → H Sedna Dec 0.2639 conj (1.45) — also: 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - star rows: J Alhena → J Sedna Dec 11.3255 7×φ golden (95.27) — only
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: J Procyon → J Sedna Dec 0.1528 conj (24.06) — also: 3 Leader Crik / Dylan Johnston
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
+- **Venus**
+  - star rows: H Deneb Algedi → H Venus RA 38.9978 39 whole (79.58) — also: 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - top rows: S Moon → J Venus Dec 0.1764 conj (16.97) — also: 4 Below The Radar / Sam Twiston-Davies
+  - star rows: J Adhara → J Venus Dec 20.0153 20 whole (5.49) — also: 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: J Alphard → J Venus Dec 0.2966 conj (0.01) — only
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+  - star rows: J Capella → J Venus RA 121.3784 75×φ golden (4.04) — also: 2 Stride On / Derek Fox
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - star rows: J Deneb Algedi → J Venus RA 126.2154 78×φ golden (53.46) — also: 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+- **Eris**
+  - star rows: H Deneb Algedi → H Eris Dec 14.0081 14 whole (35.63) — also: 3 Leader Crik / Dylan Johnston
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+- **Sun**
+  - star rows: H Kaus Australis → H Sun Dec 22.6563 14×φ golden (77.53) — also: 6 Barnpark / Harry Skelton
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+  - same body: S Sun → J Sun RA 56.9798 57 whole (loose) — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+  - same body: S Sun → J Sun Dec 22.6491 14×φ golden (loose) — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+  - star rows: J Pollux → J Sun RA 47.9985 48 whole (85.65) — only
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+- **Juno**
+  - star rows: H Kaus Australis → H Juno RA 147.2227 91×φ golden (18.73) — only
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+  - star rows: H Zubenelgenubi → H Juno Dec 21.9807 22 whole (0.12) — only
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+- **Transpluto**
+  - star rows: H Kaus Australis → H Transpluto RA 122.2165 122.222 ninth (99.21) — also: 6 Barnpark / Harry Skelton
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+  - star rows: H Procyon → H Transpluto RA 38.9958 39 whole (62.70) — only
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
+  - top rows: S Jupiter → J Transpluto RA 0.1323 conj (83.14) — also: 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+  - star rows: J Rukbat → J Transpluto RA 143.9861 144 whole (9.39) — only
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+- **Rahu**
+  - star rows: H Pollux → H Rahu RA 1.8883 1.88889 ninth (95.81) — also: 2 Stride On / Derek Fox, 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - same body: S Rahu → J Rahu RA 158.0181 158 whole (0.90) — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+- **Vesta**
+  - star rows: H Procyon → H Vesta RA 133.3468 133.333 ninth (98.39) — only
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
+  - star rows: J Kaus Australis → J Vesta RA 117.0134 117 whole (10.88) — also: 6 Barnpark / Harry Skelton
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+- **Gonggong**
+  - star rows: H Zubenelgenubi → H Gonggong Dec 3.9853 4 whole (6.96) — also: 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+  - same body: S Gonggong → J Gonggong RA 5.9787 6 whole (loose) — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+  - star rows: J Capella → J Gonggong RA 107.9827 108 whole (1.76) — only
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - star rows: J Zubenelgenubi → J Gonggong Dec 2.0009 2 whole (91.19) — also: 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+- **Pluto**
+  - same body: S Pluto → J Pluto Dec 15.0206 15 whole (loose) — also: 7 Dixie Mafia / Jack Tudor
+  - top rows: S Jupiter → J Pluto Dec 22.6568 14×φ golden (75.21) — also: 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+  - top rows: S Moon → J Pluto Dec 0.1137 conj (38.57) — only
+  - star rows: J Alphard → J Pluto Dec 0.0065 conj (95.74) — only
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+- **Ketu**
+  - same body: S Ketu → J Ketu RA 158.0181 158 whole (0.90) — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+    - source line: S Jupiter → Ketu RA 1.4737 conj (0.03)
+  - star rows: J Zubenelgenubi → J Ketu Dec 11.9809 12 whole (0.20) — also: 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+- **Uranus**
+  - star rows: J Alphard → J Uranus RA 166.0000 166 whole (99.68) — also: 2 Stride On / Derek Fox, 7 Dixie Mafia / Jack Tudor
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
 
 ## 2 Stride On / Derek Fox
 ### L1 same bodies
@@ -291,64 +472,106 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - S Quaoar → J Quaoar RA 44.0140 44 whole (8.86)
 ### L2 what lands on each same body
 - **H Venus** (same body: S Venus → H Venus Dec 40.0154 40 whole (5.23))
-  - star rows: H Capella → H Venus RA 1.1644 conj (5.00) [Jupiter]
-  - star rows: H Kaus Australis → H Venus Dec 61.9866 62 whole (10.88) [Moon]
-  - star rows: H Pollux → H Venus RA 35.9918 36 whole (34.93) [Sun]
-  - star rows: H Zubenelgenubi → H Venus RA 142.3941 88×φ golden (61.02) [Sun]
-  - other chart, star rows: J Zubenelgenubi → J Venus RA 178.9985 179 whole (85.99) [Sun]
+  - star rows: H Capella → H Venus RA 1.1644 conj (5.00)
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - star rows: H Kaus Australis → H Venus Dec 61.9866 62 whole (10.88)
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+  - star rows: H Pollux → H Venus RA 35.9918 36 whole (34.93)
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - star rows: H Zubenelgenubi → H Venus RA 142.3941 88×φ golden (61.02)
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+  - other chart, star rows: J Zubenelgenubi → J Venus RA 178.9985 179 whole (85.99)
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
 - **H Saturn** (same body: S Saturn → H Saturn RA 64.9806 65 whole (0.09))
   - other chart, same body: S Saturn → J Saturn Dec 17.0286 17 whole (loose)
-  - other chart, top rows: S Jupiter → J Saturn RA 174.0040 174 whole (64.22) [Jupiter]
-  - other chart, top rows: S Sun → J Saturn Dec 0.1147 conj (38.16) [Sun]
-  - other chart, star rows: J Deneb Algedi → J Saturn Dec 0.0427 conj (73.57) [Sun]
-  - other chart, star rows: J Zubenelgenubi → J Saturn Dec 0.0405 conj (74.82) [Sun]
+  - other chart, top rows: S Jupiter → J Saturn RA 174.0040 174 whole (64.22)
+  - other chart, top rows: S Sun → J Saturn Dec 0.1147 conj (38.16)
+  - other chart, star rows: J Deneb Algedi → J Saturn Dec 0.0427 conj (73.57)
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - other chart, star rows: J Zubenelgenubi → J Saturn Dec 0.0405 conj (74.82)
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
 - **H Ceres** (same body: S Ceres → H Ceres Dec 42.0116 42 whole (17.54))
-  - top rows: S Sun → H Ceres RA 118.1150 73×φ golden (91.34) [Sun]
-  - star rows: H Alhena → H Ceres RA 120.0055 120 whole (52.67) [Sun]
-  - star rows: H Galactic Centre → H Ceres RA 72.9969 73 whole (71.50) [Jupiter]
+  - top rows: S Sun → H Ceres RA 118.1150 73×φ golden (91.34)
+  - star rows: H Alhena → H Ceres RA 120.0055 120 whole (52.67)
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: H Galactic Centre → H Ceres RA 72.9969 73 whole (71.50)
+    - source line: S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)
   - other chart, same body: S Ceres → J Ceres RA 161.6059 100×φ^1 phi power (loose)
   - other chart, same body: S Ceres → J Ceres Dec 48.0269 48 whole (loose)
-  - other chart, star rows: J Procyon → J Ceres Dec 28.9959 29 whole (63.48) [Moon]
+  - other chart, star rows: J Procyon → J Ceres Dec 28.9959 29 whole (63.48)
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
 - **H Makemake** (same body: S Makemake → H Makemake Dec 4.4354 4.44444 ninth (loose))
-  - star rows: H Adhara → H Makemake Dec 52.9850 53 whole (6.32) [Sun]
-  - star rows: H Capella → H Makemake Dec 21.9868 22 whole (11.40) [Jupiter]
-  - star rows: H Galactic Centre → H Makemake Dec 53.0172 53 whole (1.91) [Jupiter]
-  - star rows: H Pollux → H Makemake Dec 4.0174 4 whole (1.75) [Sun]
-  - other chart, T2: J Jupiter → J Makemake RA 12.9975 13 whole (76.13) [Jupiter]
-  - other chart, star rows: J Pollux → J Makemake RA 53.9915 54 whole (32.97) [Sun]
+  - star rows: H Adhara → H Makemake Dec 52.9850 53 whole (6.32)
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: H Capella → H Makemake Dec 21.9868 22 whole (11.40)
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - star rows: H Galactic Centre → H Makemake Dec 53.0172 53 whole (1.91)
+    - source line: S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)
+  - star rows: H Pollux → H Makemake Dec 4.0174 4 whole (1.75)
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - other chart, T2: J Jupiter → J Makemake RA 12.9975 13 whole (76.13)
+  - other chart, star rows: J Pollux → J Makemake RA 53.9915 54 whole (32.97)
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
 - **J Mercury** (same body: S Mercury → J Mercury RA 177.1660 177.778 ninth (loose))
-  - star rows: J Aculeus → J Mercury Dec 43.6858 27×φ golden (93.01) [Moon]
-  - star rows: J Kaus Australis → J Mercury RA 118.1458 73×φ golden (0.87) [Moon]
-  - other chart, top rows: S Moon → H Mercury Dec 29.0336 φ^7 phi power (98.82) [Moon]
+  - star rows: J Aculeus → J Mercury Dec 43.6858 27×φ golden (93.01)
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - star rows: J Kaus Australis → J Mercury RA 118.1458 73×φ golden (0.87)
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+  - other chart, top rows: S Moon → H Mercury Dec 29.0336 φ^7 phi power (98.82)
 - **J Saturn** (same body: S Saturn → J Saturn Dec 17.0286 17 whole (loose))
-  - top rows: S Jupiter → J Saturn RA 174.0040 174 whole (64.22) [Jupiter]
-  - top rows: S Sun → J Saturn Dec 0.1147 conj (38.16) [Sun]
-  - star rows: J Deneb Algedi → J Saturn Dec 0.0427 conj (73.57) [Sun]
-  - star rows: J Zubenelgenubi → J Saturn Dec 0.0405 conj (74.82) [Sun]
+  - top rows: S Jupiter → J Saturn RA 174.0040 174 whole (64.22)
+  - top rows: S Sun → J Saturn Dec 0.1147 conj (38.16)
+  - star rows: J Deneb Algedi → J Saturn Dec 0.0427 conj (73.57)
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - star rows: J Zubenelgenubi → J Saturn Dec 0.0405 conj (74.82)
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
   - other chart, same body: S Saturn → H Saturn RA 64.9806 65 whole (0.09)
 - **J Uranus** (same body: S Uranus → J Uranus RA 132.6672 82×φ golden (41.14))
-  - star rows: J Alphard → J Uranus Dec 13.9930 14 whole (42.44) [Jupiter, Moon]
-  - star rows: J Pollux → J Uranus RA 173.1361 107×φ golden (63.95) [Sun]
-  - other chart, star rows: H Pollux → H Uranus Dec 14.5607 9×φ golden (90.13) [Sun]
+  - star rows: J Alphard → J Uranus Dec 13.9930 14 whole (42.44)
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+  - star rows: J Pollux → J Uranus RA 173.1361 107×φ golden (63.95)
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - other chart, star rows: H Pollux → H Uranus Dec 14.5607 9×φ golden (90.13)
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
 - **J Chiron** (same body: S Chiron → J Chiron Dec 1.9728 2 whole (loose))
-  - other chart, star rows: H Alphard → H Chiron RA 135.9944 136 whole (51.91) [Jupiter, Moon]
-  - other chart, star rows: H Procyon → H Chiron Dec 0.2723 conj (0.85) [Moon]
+  - other chart, star rows: H Alphard → H Chiron RA 135.9944 136 whole (51.91)
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+  - other chart, star rows: H Procyon → H Chiron Dec 0.2723 conj (0.85)
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
 - **J Ceres** (same body: S Ceres → J Ceres RA 161.6059 100×φ^1 phi power (loose); S Ceres → J Ceres Dec 48.0269 48 whole (loose))
-  - star rows: J Procyon → J Ceres Dec 28.9959 29 whole (63.48) [Moon]
+  - star rows: J Procyon → J Ceres Dec 28.9959 29 whole (63.48)
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
   - other chart, same body: S Ceres → H Ceres Dec 42.0116 42 whole (17.54)
-  - other chart, top rows: S Sun → H Ceres RA 118.1150 73×φ golden (91.34) [Sun]
-  - other chart, star rows: H Alhena → H Ceres RA 120.0055 120 whole (52.67) [Sun]
-  - other chart, star rows: H Galactic Centre → H Ceres RA 72.9969 73 whole (71.50) [Jupiter]
+  - other chart, top rows: S Sun → H Ceres RA 118.1150 73×φ golden (91.34)
+  - other chart, star rows: H Alhena → H Ceres RA 120.0055 120 whole (52.67)
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - other chart, star rows: H Galactic Centre → H Ceres RA 72.9969 73 whole (71.50)
+    - source line: S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)
 - **J Orcus** (same body: S Orcus → J Orcus Dec 17.0227 17 whole (loose))
-  - other chart, star rows: H Aculeus → H Orcus RA 111.1176 111.111 ninth (98.95) [Moon]
-  - other chart, star rows: H Betelgeuse → H Orcus Dec 17.9437 φ^6 phi power (98.74) [Moon]
-  - other chart, star rows: H Rukbat → H Orcus RA 137.0043 137 whole (61.31) [Moon]
+  - other chart, star rows: H Aculeus → H Orcus RA 111.1176 111.111 ninth (98.95)
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - other chart, star rows: H Betelgeuse → H Orcus Dec 17.9437 φ^6 phi power (98.74)
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - other chart, star rows: H Rukbat → H Orcus RA 137.0043 137 whole (61.31)
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
 - **J Quaoar** (same body: S Quaoar → J Quaoar RA 44.0140 44 whole (8.86))
-  - star rows: J Alphard → J Quaoar RA 95.0023 95 whole (78.17) [Jupiter, Moon]
-  - star rows: J Alphard → J Quaoar Dec 4.9838 5 whole (3.68) [Jupiter, Moon]
-  - other chart, star rows: H Pollux → H Quaoar RA 157.9927 158 whole (40.45) [Sun]
-  - other chart, star rows: H Rukbat → H Quaoar RA 16.6604 16.6667 ninth (94.63) [Moon]
-### L3 the seven cases (L5 field tag on each)
+  - star rows: J Alphard → J Quaoar RA 95.0023 95 whole (78.17)
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+  - star rows: J Alphard → J Quaoar Dec 4.9838 5 whole (3.68)
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+  - other chart, star rows: H Pollux → H Quaoar RA 157.9927 158 whole (40.45)
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - other chart, star rows: H Rukbat → H Quaoar RA 16.6604 16.6667 ninth (94.63)
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+### L3 matches
 - **1. same body on both charts**
   - Saturn — only
     - S Saturn → H Saturn RA 64.9806 65 whole (0.09)
@@ -371,160 +594,298 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 13 whole — also: 1 Off The Jury / Sean Bowen, 7 Dixie Mafia / Jack Tudor
     - J Kaus Australis → J Neptune Dec 13.0178 13 whole (1.16) = S Sun → Adhara Dec 12.9993 13 whole (93.43)
 - **4. circle divisions**
-  - 40 = 360/9 — also: 7 Dixie Mafia / Jack Tudor
+  - 40 = 360/9 — also: 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
     - S Venus → H Venus Dec 40.0154 40 whole (5.23)
-  - 5 = 360/72 — also: 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+  - 5 = 360/72 — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
     - S Juno → H Jupiter RA 5.0015 5 whole (85.28)
   - 120 = 360/3 — only
     - H Alhena → H Ceres RA 120.0055 120 whole (52.67)
+  - 30 = 360/12 — also: 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+    - H Deneb Algedi → H Pluto RA 30.0080 30 whole (36.14)
+  - 36 = 360/10 — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
+    - H Pollux → H Venus RA 35.9918 36 whole (34.93)
+  - 4 = 360/90 — also: 1 Off The Jury / Sean Bowen, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+    - H Pollux → H Makemake Dec 4.0174 4 whole (1.75)
+  - 6 = 360/60 — also: 1 Off The Jury / Sean Bowen, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+    - H Zubenelgenubi → H Pluto Dec 6.0144 6 whole (7.84)
   - 2 = 360/180 — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
     - S Chiron → J Chiron Dec 1.9728 2 whole (loose)
-  - 15 = 360/24 — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor
+  - 15 = 360/24 — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
     - S Moon → J Juno Dec 14.9975 15 whole (76.90)
-  - 36 = 360/10 — also: 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton
+  - 5 = 360/72 — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+    - J Alphard → J Quaoar Dec 4.9838 5 whole (3.68)
+  - 6 = 360/60 — also: 1 Off The Jury / Sean Bowen, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+    - J Betelgeuse → J Mars Dec 5.9833 6 whole (2.77)
+  - 36 = 360/10 — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
     - J Capella → J Sedna RA 35.9978 36 whole (79.09)
+  - 5 = 360/72 — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+    - J Galactic Centre → J Rahu RA 4.9815 5 whole (0.55)
   - 1 = 360/360 — also: 3 Leader Crik / Dylan Johnston
     - J Procyon → J Juno Dec 0.9949 1 whole (55.32)
 - **5. same number in more than one place**
+  - 73×φ golden — only
+    - S Sun → H Ceres RA 118.1150 73×φ golden (91.34)
+    - J Kaus Australis → J Mercury RA 118.1458 73×φ golden (0.87)
+  - 5 whole — also: 7 Dixie Mafia / Jack Tudor
+    - S Juno → H Jupiter RA 5.0015 5 whole (85.28)
+    - J Alphard → J Quaoar Dec 4.9838 5 whole (3.68)
+    - J Galactic Centre → J Rahu RA 4.9815 5 whole (0.55)
+  - 53 whole — also: 1 Off The Jury / Sean Bowen, 7 Dixie Mafia / Jack Tudor
+    - H Adhara → H Makemake Dec 52.9850 53 whole (6.32)
+    - H Galactic Centre → H Makemake Dec 53.0172 53 whole (1.91)
+    - J Adhara → J Sun RA 52.9907 53 whole (28.81)
+  - 31 whole — only
+    - H Betelgeuse → H Sedna RA 30.9978 31 whole (79.32)
+    - J Kaus Australis → J Pluto Dec 30.9863 31 whole (9.92)
+  - 107×φ golden — only
+    - H Deneb Algedi → H Transpluto RA 173.1416 107×φ golden (39.82)
+    - J Pollux → J Uranus RA 173.1361 107×φ golden (63.95)
   - 17×φ golden — only
     - H Galactic Centre → H Eris Dec 27.5090 17×φ golden (85.62)
     - J Capella → J Sun RA 27.5033 17×φ golden (80.70)
+  - 36 whole — only
+    - H Pollux → H Venus RA 35.9918 36 whole (34.93)
+    - J Capella → J Sedna RA 35.9978 36 whole (79.09)
+  - 90×φ golden — only
+    - H Pollux → H Mars RA 145.6029 90×φ golden (14.23)
+    - J Pollux → J Gonggong RA 145.6230 90×φ golden (99.77)
   - 88×φ golden — only
     - H Zubenelgenubi → H Venus RA 142.3941 88×φ golden (61.02)
     - S Pallas → J Jupiter RA 142.3941 88×φ golden (60.77)
-  - 17 whole — only
+  - 6 whole — also: 1 Off The Jury / Sean Bowen, 7 Dixie Mafia / Jack Tudor
+    - H Zubenelgenubi → H Pluto Dec 6.0144 6 whole (7.84)
+    - J Betelgeuse → J Mars Dec 5.9833 6 whole (2.77)
+  - 17 whole — also: 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor
     - S Saturn → J Saturn Dec 17.0286 17 whole (loose)
     - S Orcus → J Orcus Dec 17.0227 17 whole (loose)
+  - 13 whole — only
+    - J Jupiter → J Makemake RA 12.9975 13 whole (76.13)
+    - J Kaus Australis → J Neptune Dec 13.0178 13 whole (1.16)
   - 73 and 73×φ on H Ceres — only
     - H Galactic Centre → H Ceres RA 72.9969 73 whole (71.50)
     - S Sun → H Ceres RA 118.1150 73×φ golden (91.34)
-- **6. star and sky line on one body**
-  - J Eris on Alphard — only
-    - J Alphard → J Eris Dec 0.0718 conj (57.85)
-    - S Moon → J Eris Dec 0.1874 conj (14.09)
-  - J Saturn on Deneb Algedi — only
-    - J Deneb Algedi → J Saturn Dec 0.0427 conj (73.57)
-    - S Jupiter → J Saturn RA 174.0040 174 whole (64.22)
-    - S Sun → J Saturn Dec 0.1147 conj (38.16)
-  - J Saturn on Zubenelgenubi — only
-    - J Zubenelgenubi → J Saturn Dec 0.0405 conj (74.82)
-    - S Jupiter → J Saturn RA 174.0040 174 whole (64.22)
-    - S Sun → J Saturn Dec 0.1147 conj (38.16)
-- **7. centres meeting**
-  - Neptune: Moon, Sun — also: 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
-    - [Moon] J Kaus Australis → J Neptune Dec 13.0178 13 whole (1.16)
-    - [Moon] J Rukbat → J Neptune RA 0.6165 conj (34.70)
-    - [Sun] S Sun → H Neptune Dec 11.1185 11.1111 ninth (87.87)
-    - [Sun] H Adhara → H Neptune RA 113.2720 70×φ golden (49.59)
-  - Ceres: Jupiter, Moon, Sun — also: 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
-    - [Jupiter] H Galactic Centre → H Ceres RA 72.9969 73 whole (71.50)
-    - [Moon] J Procyon → J Ceres Dec 28.9959 29 whole (63.48)
-    - [Sun] S Sun → H Ceres RA 118.1150 73×φ golden (91.34)
-    - [Sun] H Alhena → H Ceres RA 120.0055 120 whole (52.67)
-  - Eris: Jupiter, Moon, Sun — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
-    - [Jupiter] H Galactic Centre → H Eris Dec 27.5090 17×φ golden (85.62)
-    - [Jupiter] J Alphard → J Eris RA 118.9912 119 whole (31.16)
-    - [Jupiter] J Alphard → J Eris Dec 0.0718 conj (57.85)
-    - [Jupiter] J Galactic Centre → J Eris RA 116.4832 72×φ golden (27.94)
-    - [Moon] S Moon → J Eris Dec 0.1874 conj (14.09)
-    - [Moon] J Alphard → J Eris RA 118.9912 119 whole (31.16)
-    - [Moon] J Alphard → J Eris Dec 0.0718 conj (57.85)
-    - [Moon] J Betelgeuse → J Eris Dec 15.9951 16 whole (56.77)
-    - [Sun] S Sun → H Eris RA 165.0417 102×φ golden (86.59)
-    - [Sun] J Alhena → J Eris Dec 24.9881 25 whole (16.59)
-    - [Sun] J Zubenelgenubi → J Eris RA 160.1800 99×φ golden (69.50)
-  - Sun: Jupiter, Moon, Sun — also: 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
-    - [Jupiter] S Jupiter → J Sun RA 95.4603 59×φ golden (78.23)
-    - [Jupiter] J Capella → J Sun RA 27.5033 17×φ golden (80.70)
-    - [Moon] S Moon → H Sun RA 141.4740 141.4 sqrt2 (85.66)
-    - [Moon] H Aculeus → H Sun Dec 49.9921 50 whole (36.48)
-    - [Sun] J Adhara → J Sun RA 52.9907 53 whole (28.81)
-  - Juno: Moon, Sun — also: 1 Off The Jury / Sean Bowen, 4 Below The Radar / Sam Twiston-Davies
-    - [Moon] S Moon → H Juno RA 0.2206 conj (72.75)
-    - [Moon] H Procyon → H Juno Dec 0.2815 conj (0.38)
-    - [Moon] S Moon → J Juno Dec 14.9975 15 whole (76.90)
-    - [Moon] J Betelgeuse → J Juno RA 65.9981 66 whole (82.07)
-    - [Moon] J Procyon → J Juno Dec 0.9949 1 whole (55.32)
-    - [Sun] H Deneb Algedi → H Juno RA 137.5053 85×φ golden (2.18)
-  - Jupiter: Jupiter, Sun — also: 6 Barnpark / Harry Skelton
-    - [Jupiter] S Juno → H Jupiter RA 5.0015 5 whole (85.28)
-    - [Jupiter] S Chiron → J Jupiter Dec 0.1508 conj (24.73)
-    - [Jupiter] S Pallas → J Jupiter RA 142.3941 88×φ golden (60.77)
-    - [Jupiter] S Transpluto → J Jupiter RA 0.6144 conj (34.86)
-    - [Sun] S Pollux → J Jupiter RA 40.9956 41 whole (60.79)
-  - Haumea: Jupiter, Moon, Sun — also: 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
-    - [Jupiter] H Galactic Centre → H Haumea RA 51.7778 32×φ golden (95.72)
-    - [Moon] H Kaus Australis → H Haumea Dec 50.9831 51 whole (2.47)
-    - [Moon] S Moon → J Haumea RA 0.3782 conj (55.93)
-    - [Sun] H Adhara → H Haumea RA 109.9913 110 whole (31.97)
-    - [Sun] H Alhena → H Haumea Dec 0.2001 conj (11.10)
-    - [Sun] J Adhara → J Haumea RA 84.0048 84 whole (57.67)
-  - Makemake: Jupiter, Sun — only
-    - [Jupiter] H Capella → H Makemake Dec 21.9868 22 whole (11.40)
-    - [Jupiter] H Galactic Centre → H Makemake Dec 53.0172 53 whole (1.91)
-    - [Jupiter] J Jupiter → J Makemake RA 12.9975 13 whole (76.13)
-    - [Sun] H Adhara → H Makemake Dec 52.9850 53 whole (6.32)
-    - [Sun] H Pollux → H Makemake Dec 4.0174 4 whole (1.75)
-    - [Sun] J Pollux → J Makemake RA 53.9915 54 whole (32.97)
-  - Ketu: Jupiter, Moon, Sun — also: 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
-    - [Jupiter] J Galactic Centre → J Ketu RA 175.0185 175 whole (0.55)
-    - [Moon] H Betelgeuse → H Ketu RA 179.4787 10×φ^6 phi power (92.14)
-    - [Sun] H Alhena → H Ketu RA 169.8858 105×φ golden (57.83)
-    - [Sun] H Pollux → H Ketu RA 152.9878 153 whole (15.11)
-  - Chiron: Jupiter, Moon — also: 3 Leader Crik / Dylan Johnston
-    - [Jupiter] H Alphard → H Chiron RA 135.9944 136 whole (51.91)
-    - [Moon] H Alphard → H Chiron RA 135.9944 136 whole (51.91)
-    - [Moon] H Procyon → H Chiron Dec 0.2723 conj (0.85)
-  - Rahu: Jupiter, Moon, Sun — also: 6 Barnpark / Harry Skelton
-    - [Jupiter] J Galactic Centre → J Rahu RA 4.9815 5 whole (0.55)
-    - [Moon] H Betelgeuse → H Rahu RA 0.5213 conj (42.57)
-    - [Sun] H Pollux → H Rahu RA 27.0122 27 whole (15.11)
-  - Sedna: Jupiter, Moon, Sun — also: 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
-    - [Jupiter] J Capella → J Sedna RA 35.9978 36 whole (79.09)
-    - [Moon] H Betelgeuse → H Sedna RA 30.9978 31 whole (79.32)
-    - [Sun] J Adhara → J Sedna RA 61.4852 38×φ golden (99.64)
-  - Venus: Jupiter, Moon, Sun — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston
-    - [Jupiter] H Capella → H Venus RA 1.1644 conj (5.00)
-    - [Moon] H Kaus Australis → H Venus Dec 61.9866 62 whole (10.88)
-    - [Sun] H Pollux → H Venus RA 35.9918 36 whole (34.93)
-    - [Sun] H Zubenelgenubi → H Venus RA 142.3941 88×φ golden (61.02)
-    - [Sun] J Zubenelgenubi → J Venus RA 178.9985 179 whole (85.99)
-  - Pluto: Moon, Sun — only
-    - [Moon] J Kaus Australis → J Pluto Dec 30.9863 31 whole (9.92)
-    - [Moon] J Rukbat → J Pluto Dec 37.2166 23×φ golden (88.94)
-    - [Sun] H Deneb Algedi → H Pluto RA 30.0080 30 whole (36.14)
-    - [Sun] H Zubenelgenubi → H Pluto Dec 6.0144 6 whole (7.84)
-  - Transpluto: Jupiter, Sun — only
-    - [Jupiter] S Jupiter → J Transpluto Dec 0.1822 conj (15.41)
-    - [Sun] H Deneb Algedi → H Transpluto RA 173.1416 107×φ golden (39.82)
-    - [Sun] J Alhena → J Transpluto Dec 2.2229 2.22222 ninth (91.28)
-  - Mars: Moon, Sun — also: 6 Barnpark / Harry Skelton
-    - [Moon] J Betelgeuse → J Mars Dec 5.9833 6 whole (2.77)
-    - [Sun] H Pollux → H Mars RA 145.6029 90×φ golden (14.23)
-    - [Sun] H Zubenelgenubi → H Mars RA 107.9948 108 whole (55.05)
-    - [Sun] J Adhara → J Mars RA 97.9889 98 whole (19.89)
-  - Uranus: Jupiter, Moon, Sun — only
-    - [Jupiter] J Alphard → J Uranus Dec 13.9930 14 whole (42.44)
-    - [Moon] J Alphard → J Uranus Dec 13.9930 14 whole (42.44)
-    - [Sun] H Pollux → H Uranus Dec 14.5607 9×φ golden (90.13)
-    - [Sun] J Pollux → J Uranus RA 173.1361 107×φ golden (63.95)
-  - Quaoar: Jupiter, Moon, Sun — also: 1 Off The Jury / Sean Bowen, 6 Barnpark / Harry Skelton
-    - [Jupiter] J Alphard → J Quaoar RA 95.0023 95 whole (78.17)
-    - [Jupiter] J Alphard → J Quaoar Dec 4.9838 5 whole (3.68)
-    - [Moon] H Rukbat → H Quaoar RA 16.6604 16.6667 ninth (94.63)
-    - [Moon] J Alphard → J Quaoar RA 95.0023 95 whole (78.17)
-    - [Moon] J Alphard → J Quaoar Dec 4.9838 5 whole (3.68)
-    - [Sun] H Pollux → H Quaoar RA 157.9927 158 whole (40.45)
-  - Saturn: Jupiter, Sun — only
-    - [Jupiter] S Jupiter → J Saturn RA 174.0040 174 whole (64.22)
-    - [Sun] S Sun → J Saturn Dec 0.1147 conj (38.16)
-    - [Sun] J Deneb Algedi → J Saturn Dec 0.0427 conj (73.57)
-    - [Sun] J Zubenelgenubi → J Saturn Dec 0.0405 conj (74.82)
-  - Pallas: Jupiter, Moon, Sun — also: 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton
-    - [Jupiter] J Alphard → J Pallas RA 132.9928 133 whole (41.09)
-    - [Moon] J Alphard → J Pallas RA 132.9928 133 whole (41.09)
-    - [Moon] J Kaus Australis → J Pallas RA 1.1588 conj (5.17)
-    - [Sun] J Pollux → J Pallas RA 158.5619 98×φ golden (69.26)
+### L4 every natal body
+- **Venus**
+  - same body: S Venus → H Venus Dec 40.0154 40 whole (5.23) — also: 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+  - star rows: H Capella → H Venus RA 1.1644 conj (5.00) — also: 1 Off The Jury / Sean Bowen
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - star rows: H Kaus Australis → H Venus Dec 61.9866 62 whole (10.88) — only
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+  - star rows: H Pollux → H Venus RA 35.9918 36 whole (34.93) — only
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - star rows: H Zubenelgenubi → H Venus RA 142.3941 88×φ golden (61.02) — also: 6 Barnpark / Harry Skelton
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+  - star rows: J Zubenelgenubi → J Venus RA 178.9985 179 whole (85.99) — also: 6 Barnpark / Harry Skelton
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+- **Saturn**
+  - same body: S Saturn → H Saturn RA 64.9806 65 whole (0.09) — also: 1 Off The Jury / Sean Bowen
+  - same body: S Saturn → J Saturn Dec 17.0286 17 whole (loose) — also: 1 Off The Jury / Sean Bowen
+  - top rows: S Jupiter → J Saturn RA 174.0040 174 whole (64.22) — also: 6 Barnpark / Harry Skelton
+  - top rows: S Sun → J Saturn Dec 0.1147 conj (38.16) — only
+  - star rows: J Deneb Algedi → J Saturn Dec 0.0427 conj (73.57) — also: 3 Leader Crik / Dylan Johnston
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - star rows: J Zubenelgenubi → J Saturn Dec 0.0405 conj (74.82) — only
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+- **Ceres**
+  - same body: S Ceres → H Ceres Dec 42.0116 42 whole (17.54) — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton
+  - top rows: S Sun → H Ceres RA 118.1150 73×φ golden (91.34) — also: 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+  - star rows: H Alhena → H Ceres RA 120.0055 120 whole (52.67) — also: 3 Leader Crik / Dylan Johnston
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: H Galactic Centre → H Ceres RA 72.9969 73 whole (71.50) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)
+  - same body: S Ceres → J Ceres RA 161.6059 100×φ^1 phi power (loose) — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton
+  - same body: S Ceres → J Ceres Dec 48.0269 48 whole (loose) — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton
+  - star rows: J Procyon → J Ceres Dec 28.9959 29 whole (63.48) — only
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
+- **Makemake**
+  - same body: S Makemake → H Makemake Dec 4.4354 4.44444 ninth (loose) — also: 1 Off The Jury / Sean Bowen, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
+  - star rows: H Adhara → H Makemake Dec 52.9850 53 whole (6.32) — also: 1 Off The Jury / Sean Bowen
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: H Capella → H Makemake Dec 21.9868 22 whole (11.40) — also: 1 Off The Jury / Sean Bowen
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - star rows: H Galactic Centre → H Makemake Dec 53.0172 53 whole (1.91) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)
+  - star rows: H Pollux → H Makemake Dec 4.0174 4 whole (1.75) — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - T2: J Jupiter → J Makemake RA 12.9975 13 whole (76.13) — only
+  - star rows: J Pollux → J Makemake RA 53.9915 54 whole (32.97) — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+- **Neptune**
+  - top rows: S Sun → H Neptune Dec 11.1185 11.1111 ninth (87.87) — only
+  - star rows: H Adhara → H Neptune RA 113.2720 70×φ golden (49.59) — also: 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: J Kaus Australis → J Neptune Dec 13.0178 13 whole (1.16) — also: 7 Dixie Mafia / Jack Tudor
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+  - star rows: J Rukbat → J Neptune RA 0.6165 conj (34.70) — also: 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+- **Eris**
+  - top rows: S Sun → H Eris RA 165.0417 102×φ golden (86.59) — only
+  - star rows: H Galactic Centre → H Eris Dec 27.5090 17×φ golden (85.62) — also: 6 Barnpark / Harry Skelton
+    - source line: S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)
+  - top rows: S Moon → J Eris Dec 0.1874 conj (14.09) — also: 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+  - star rows: J Alhena → J Eris Dec 24.9881 25 whole (16.59) — also: 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: J Alphard → J Eris RA 118.9912 119 whole (31.16) — also: 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+  - star rows: J Alphard → J Eris Dec 0.0718 conj (57.85) — also: 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+  - star rows: J Betelgeuse → J Eris Dec 15.9951 16 whole (56.77) — also: 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - star rows: J Galactic Centre → J Eris RA 116.4832 72×φ golden (27.94) — also: 6 Barnpark / Harry Skelton
+    - source line: S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)
+  - star rows: J Zubenelgenubi → J Eris RA 160.1800 99×φ golden (69.50) — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+- **Sun**
+  - top rows: S Moon → H Sun RA 141.4740 141.4 sqrt2 (85.66) — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+  - star rows: H Aculeus → H Sun Dec 49.9921 50 whole (36.48) — also: 3 Leader Crik / Dylan Johnston
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - top rows: S Jupiter → J Sun RA 95.4603 59×φ golden (78.23) — only
+  - star rows: J Adhara → J Sun RA 52.9907 53 whole (28.81) — also: 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: J Capella → J Sun RA 27.5033 17×φ golden (80.70) — also: 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+- **Mercury**
+  - top rows: S Moon → H Mercury Dec 29.0336 φ^7 phi power (98.82) — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston
+  - same body: S Mercury → J Mercury RA 177.1660 177.778 ninth (loose) — also: 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+  - star rows: J Aculeus → J Mercury Dec 43.6858 27×φ golden (93.01) — also: 1 Off The Jury / Sean Bowen
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - star rows: J Kaus Australis → J Mercury RA 118.1458 73×φ golden (0.87) — also: 7 Dixie Mafia / Jack Tudor
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+- **Juno**
+  - top rows: S Moon → H Juno RA 0.2206 conj (72.75) — also: 6 Barnpark / Harry Skelton
+  - star rows: H Deneb Algedi → H Juno RA 137.5053 85×φ golden (2.18) — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - star rows: H Procyon → H Juno Dec 0.2815 conj (0.38) — only
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
+  - top rows: S Moon → J Juno Dec 14.9975 15 whole (76.90) — also: 6 Barnpark / Harry Skelton
+  - star rows: J Betelgeuse → J Juno RA 65.9981 66 whole (82.07) — only
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - star rows: J Procyon → J Juno Dec 0.9949 1 whole (55.32) — only
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
+- **Jupiter**
+  - top rows: S Juno → H Jupiter RA 5.0015 5 whole (85.28) — only
+  - top rows: S Chiron → J Jupiter Dec 0.1508 conj (24.73) — also: 6 Barnpark / Harry Skelton
+  - top rows: S Pallas → J Jupiter RA 142.3941 88×φ golden (60.77) — only
+  - top rows: S Transpluto → J Jupiter RA 0.6144 conj (34.86) — only
+  - star rows: S Pollux → J Jupiter RA 40.9956 41 whole (60.79) — only
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+- **Orcus**
+  - star rows: H Aculeus → H Orcus RA 111.1176 111.111 ninth (98.95) — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - star rows: H Betelgeuse → H Orcus Dec 17.9437 φ^6 phi power (98.74) — also: 7 Dixie Mafia / Jack Tudor
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - star rows: H Rukbat → H Orcus RA 137.0043 137 whole (61.31) — also: 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+  - same body: S Orcus → J Orcus Dec 17.0227 17 whole (loose) — also: 1 Off The Jury / Sean Bowen, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+- **Haumea**
+  - star rows: H Adhara → H Haumea RA 109.9913 110 whole (31.97) — also: 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: H Alhena → H Haumea Dec 0.2001 conj (11.10) — also: 1 Off The Jury / Sean Bowen, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: H Galactic Centre → H Haumea RA 51.7778 32×φ golden (95.72) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)
+  - star rows: H Kaus Australis → H Haumea Dec 50.9831 51 whole (2.47) — also: 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+  - top rows: S Moon → J Haumea RA 0.3782 conj (55.93) — only
+  - star rows: J Adhara → J Haumea RA 84.0048 84 whole (57.67) — also: 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+- **Ketu**
+  - star rows: H Alhena → H Ketu RA 169.8858 105×φ golden (57.83) — only
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: H Betelgeuse → H Ketu RA 179.4787 10×φ^6 phi power (92.14) — also: 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - star rows: H Pollux → H Ketu RA 152.9878 153 whole (15.11) — also: 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - star rows: J Galactic Centre → J Ketu RA 175.0185 175 whole (0.55) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)
+- **Chiron**
+  - star rows: H Alphard → H Chiron RA 135.9944 136 whole (51.91) — also: 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+  - star rows: H Procyon → H Chiron Dec 0.2723 conj (0.85) — also: 1 Off The Jury / Sean Bowen
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
+  - same body: S Chiron → J Chiron Dec 1.9728 2 whole (loose) — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+- **Rahu**
+  - star rows: H Betelgeuse → H Rahu RA 0.5213 conj (42.57) — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - star rows: H Pollux → H Rahu RA 27.0122 27 whole (15.11) — also: 1 Off The Jury / Sean Bowen, 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - star rows: J Galactic Centre → J Rahu RA 4.9815 5 whole (0.55) — also: 6 Barnpark / Harry Skelton
+    - source line: S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)
+- **Sedna**
+  - star rows: H Betelgeuse → H Sedna RA 30.9978 31 whole (79.32) — also: 1 Off The Jury / Sean Bowen, 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - star rows: J Adhara → J Sedna RA 61.4852 38×φ golden (99.64) — also: 6 Barnpark / Harry Skelton
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: J Capella → J Sedna RA 35.9978 36 whole (79.09) — also: 6 Barnpark / Harry Skelton
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+- **Vesta**
+  - star rows: H Capella → H Vesta RA 0.5690 conj (38.52) — only
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+- **Pluto**
+  - star rows: H Deneb Algedi → H Pluto RA 30.0080 30 whole (36.14) — also: 6 Barnpark / Harry Skelton
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - star rows: H Zubenelgenubi → H Pluto Dec 6.0144 6 whole (7.84) — also: 3 Leader Crik / Dylan Johnston
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+  - star rows: J Kaus Australis → J Pluto Dec 30.9863 31 whole (9.92) — only
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+  - star rows: J Rukbat → J Pluto Dec 37.2166 23×φ golden (88.94) — also: 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+- **Transpluto**
+  - star rows: H Deneb Algedi → H Transpluto RA 173.1416 107×φ golden (39.82) — also: 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - top rows: S Jupiter → J Transpluto Dec 0.1822 conj (15.41) — also: 1 Off The Jury / Sean Bowen, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+  - star rows: J Alhena → J Transpluto Dec 2.2229 2.22222 ninth (91.28) — also: 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+- **Mars**
+  - star rows: H Pollux → H Mars RA 145.6029 90×φ golden (14.23) — also: 6 Barnpark / Harry Skelton
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - star rows: H Zubenelgenubi → H Mars RA 107.9948 108 whole (55.05) — also: 1 Off The Jury / Sean Bowen
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+  - star rows: J Adhara → J Mars RA 97.9889 98 whole (19.89) — also: 3 Leader Crik / Dylan Johnston
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: J Betelgeuse → J Mars Dec 5.9833 6 whole (2.77) — only
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+- **Uranus**
+  - star rows: H Pollux → H Uranus Dec 14.5607 9×φ golden (90.13) — also: 6 Barnpark / Harry Skelton
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - same body: S Uranus → J Uranus RA 132.6672 82×φ golden (41.14) — also: 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton
+  - star rows: J Alphard → J Uranus Dec 13.9930 14 whole (42.44) — also: 1 Off The Jury / Sean Bowen, 7 Dixie Mafia / Jack Tudor
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+  - star rows: J Pollux → J Uranus RA 173.1361 107×φ golden (63.95) — also: 6 Barnpark / Harry Skelton
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+- **Quaoar**
+  - star rows: H Pollux → H Quaoar RA 157.9927 158 whole (40.45) — only
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - star rows: H Rukbat → H Quaoar RA 16.6604 16.6667 ninth (94.63) — also: 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+  - same body: S Quaoar → J Quaoar RA 44.0140 44 whole (8.86) — also: 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
+  - star rows: J Alphard → J Quaoar RA 95.0023 95 whole (78.17) — also: 1 Off The Jury / Sean Bowen, 6 Barnpark / Harry Skelton
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+  - star rows: J Alphard → J Quaoar Dec 4.9838 5 whole (3.68) — also: 1 Off The Jury / Sean Bowen, 6 Barnpark / Harry Skelton
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+- **Pallas**
+  - star rows: J Alphard → J Pallas RA 132.9928 133 whole (41.09) — only
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+  - star rows: J Kaus Australis → J Pallas RA 1.1588 conj (5.17) — also: 7 Dixie Mafia / Jack Tudor
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+  - star rows: J Pollux → J Pallas RA 158.5619 98×φ golden (69.26) — also: 6 Barnpark / Harry Skelton
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+- **Gonggong**
+  - star rows: J Pollux → J Gonggong RA 145.6230 90×φ golden (99.77) — also: 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
 
 ## 3 Leader Crik / Dylan Johnston
 ### L1 same bodies
@@ -546,89 +907,153 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - S Ketu → J Ketu RA 121.0095 121 whole (27.37)
 ### L2 what lands on each same body
 - **H Sun** (same body: S Sun → H Sun RA 111.4816 111.111 ninth (loose))
-  - star rows: H Aculeus → H Sun Dec 21.0366 13×φ golden (87.29) [Moon]
-  - star rows: H Betelgeuse → H Sun RA 116.0106 116 whole (22.24) [Moon]
-  - star rows: H Galactic Centre → H Sun Dec 17.7914 11×φ golden (61.39) [Jupiter]
-  - other chart, top rows: S Moon → J Sun Dec 0.1388 conj (28.88) [Moon]
-  - other chart, star rows: J Alphard → J Sun Dec 0.0182 conj (88.23) [Jupiter, Moon]
-  - other chart, star rows: J Capella → J Sun RA 121.3289 75×φ golden (7.21) [Jupiter]
-  - other chart, star rows: J Rukbat → J Sun Dec 31.9802 32 whole (0.01) [Moon]
+  - star rows: H Aculeus → H Sun Dec 21.0366 13×φ golden (87.29)
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - star rows: H Betelgeuse → H Sun RA 116.0106 116 whole (22.24)
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - star rows: H Galactic Centre → H Sun Dec 17.7914 11×φ golden (61.39)
+    - source line: S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)
+  - other chart, top rows: S Moon → J Sun Dec 0.1388 conj (28.88)
+  - other chart, star rows: J Alphard → J Sun Dec 0.0182 conj (88.23)
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+  - other chart, star rows: J Capella → J Sun RA 121.3289 75×φ golden (7.21)
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - other chart, star rows: J Rukbat → J Sun Dec 31.9802 32 whole (0.01)
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
 - **H Neptune** (same body: S Neptune → H Neptune RA 11.1545 11.1111 ninth (loose))
-  - top rows: S Moon → H Neptune RA 161.8363 100×φ^1 phi power (92.04) [Moon]
+  - top rows: S Moon → H Neptune RA 161.8363 100×φ^1 phi power (92.04)
   - other chart, same body: S Neptune → J Neptune Dec 17.9975 18 whole (76.59)
-  - other chart, star rows: J Alphard → J Neptune Dec 10.0031 10 whole (71.57) [Jupiter, Moon]
-  - other chart, star rows: J Pollux → J Neptune RA 168.0118 168 whole (16.75) [Sun]
-  - other chart, star rows: J Zubenelgenubi → J Neptune Dec 2.6186 φ^2 phi power (95.15) [Sun]
+  - other chart, star rows: J Alphard → J Neptune Dec 10.0031 10 whole (71.57)
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+  - other chart, star rows: J Pollux → J Neptune RA 168.0118 168 whole (16.75)
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - other chart, star rows: J Zubenelgenubi → J Neptune Dec 2.6186 φ^2 phi power (95.15)
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
 - **H Pallas** (same body: S Pallas → H Pallas RA 53.3721 33×φ golden (loose))
-  - star rows: H Zubenelgenubi → H Pallas Dec 16.9921 17 whole (36.60) [Sun]
-  - other chart, top rows: S Jupiter → J Pallas RA 110.9975 111 whole (76.28) [Jupiter]
-  - other chart, star rows: J Betelgeuse → J Pallas Dec 0.0204 conj (86.85) [Moon]
+  - star rows: H Zubenelgenubi → H Pallas Dec 16.9921 17 whole (36.60)
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+  - other chart, top rows: S Jupiter → J Pallas RA 110.9975 111 whole (76.28)
+  - other chart, star rows: J Betelgeuse → J Pallas Dec 0.0204 conj (86.85)
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
 - **H Vesta** (same body: S Vesta → H Vesta RA 155.1871 155.556 ninth (loose); S Vesta → H Vesta Dec 18.8158 18.8889 ninth (loose))
-  - top rows: S Jupiter → H Vesta Dec 0.2462 conj (3.21) [Jupiter]
-  - star rows: H Alhena → H Vesta RA 73.0062 73 whole (47.89) [Sun]
-  - other chart, star rows: J Alphard → J Vesta RA 69.0075 69 whole (38.90) [Jupiter, Moon]
+  - top rows: S Jupiter → H Vesta Dec 0.2462 conj (3.21)
+  - star rows: H Alhena → H Vesta RA 73.0062 73 whole (47.89)
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - other chart, star rows: J Alphard → J Vesta RA 69.0075 69 whole (38.90)
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
 - **H Eris** (same body: S Eris → H Eris Dec 1.4426 1.44444 ninth (loose))
-  - top rows: S Jupiter → H Eris RA 121.3461 75×φ golden (64.27) [Jupiter]
-  - star rows: H Alhena → H Eris Dec 17.9966 18 whole (69.19) [Sun]
-  - star rows: H Betelgeuse → H Eris Dec 9.0042 9 whole (62.38) [Moon]
-  - star rows: H Capella → H Eris RA 53.3999 33×φ golden (72.47) [Jupiter]
-  - star rows: H Deneb Algedi → H Eris RA 59.0196 59 whole (0.05) [Sun]
-  - star rows: H Rukbat → H Eris Dec 39.0176 39 whole (1.45) [Moon]
-  - star rows: H Zubenelgenubi → H Eris Dec 14.4442 14.4444 ninth (99.75) [Sun]
+  - top rows: S Jupiter → H Eris RA 121.3461 75×φ golden (64.27)
+  - star rows: H Alhena → H Eris Dec 17.9966 18 whole (69.19)
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: H Betelgeuse → H Eris Dec 9.0042 9 whole (62.38)
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - star rows: H Capella → H Eris RA 53.3999 33×φ golden (72.47)
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - star rows: H Deneb Algedi → H Eris RA 59.0196 59 whole (0.05)
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - star rows: H Rukbat → H Eris Dec 39.0176 39 whole (1.45)
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+  - star rows: H Zubenelgenubi → H Eris Dec 14.4442 14.4444 ninth (99.75)
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
   - other chart, same body: S Eris → J Eris RA 2.9774 3 whole (loose)
-  - other chart, star rows: J Alhena → J Eris Dec 23.0165 23 whole (3.01) [Sun]
-  - other chart, star rows: J Rukbat → J Eris Dec 34.0011 34 whole (89.09) [Moon]
+  - other chart, star rows: J Alhena → J Eris Dec 23.0165 23 whole (3.01)
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - other chart, star rows: J Rukbat → J Eris Dec 34.0011 34 whole (89.09)
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
 - **H Gonggong** (same body: S Gonggong → H Gonggong Dec 1.2275 1.22222 ninth (loose))
-  - star rows: H Alhena → H Gonggong RA 122.9002 φ^10 phi power (72.42) [Sun]
-  - other chart, top rows: S Sun → J Gonggong Dec 0.9963 1 whole (66.04) [Sun]
-  - other chart, star rows: J Adhara → J Gonggong Dec 12.0024 12 whole (77.32) [Sun]
-  - other chart, star rows: J Pollux → J Gonggong Dec 44.9909 45 whole (29.62) [Sun]
-  - other chart, star rows: J Procyon → J Gonggong RA 143.0020 143 whole (80.66) [Moon]
+  - star rows: H Alhena → H Gonggong RA 122.9002 φ^10 phi power (72.42)
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - other chart, top rows: S Sun → J Gonggong Dec 0.9963 1 whole (66.04)
+  - other chart, star rows: J Adhara → J Gonggong Dec 12.0024 12 whole (77.32)
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - other chart, star rows: J Pollux → J Gonggong Dec 44.9909 45 whole (29.62)
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - other chart, star rows: J Procyon → J Gonggong RA 143.0020 143 whole (80.66)
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
 - **J Mars** (same body: S Mars → J Mars RA 150.0252 150 whole (loose))
-  - star rows: J Aculeus → J Mars Dec 8.0904 5×φ golden (98.44) [Moon]
-  - star rows: J Alphard → J Mars RA 152.0781 94×φ golden (22.26) [Jupiter, Moon]
-  - star rows: J Rukbat → J Mars RA 3.0014 3 whole (86.13) [Moon]
-  - other chart, star rows: H Aculeus → H Mars Dec 51.9849 52 whole (6.03) [Moon]
-  - other chart, star rows: H Adhara → H Mars RA 55.0128 34×φ golden (97.96) [Sun]
+  - star rows: J Aculeus → J Mars Dec 8.0904 5×φ golden (98.44)
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - star rows: J Alphard → J Mars RA 152.0781 94×φ golden (22.26)
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+  - star rows: J Rukbat → J Mars RA 3.0014 3 whole (86.13)
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+  - other chart, star rows: H Aculeus → H Mars Dec 51.9849 52 whole (6.03)
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - other chart, star rows: H Adhara → H Mars RA 55.0128 34×φ golden (97.96)
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
 - **J Uranus** (same body: S Uranus → J Uranus Dec 36.0173 36 whole (1.87))
-  - other chart, star rows: H Betelgeuse → H Uranus RA 54.0034 54 whole (68.82) [Moon]
+  - other chart, star rows: H Betelgeuse → H Uranus RA 54.0034 54 whole (68.82)
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
 - **J Neptune** (same body: S Neptune → J Neptune Dec 17.9975 18 whole (76.59))
-  - star rows: J Alphard → J Neptune Dec 10.0031 10 whole (71.57) [Jupiter, Moon]
-  - star rows: J Pollux → J Neptune RA 168.0118 168 whole (16.75) [Sun]
-  - star rows: J Zubenelgenubi → J Neptune Dec 2.6186 φ^2 phi power (95.15) [Sun]
+  - star rows: J Alphard → J Neptune Dec 10.0031 10 whole (71.57)
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+  - star rows: J Pollux → J Neptune RA 168.0118 168 whole (16.75)
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - star rows: J Zubenelgenubi → J Neptune Dec 2.6186 φ^2 phi power (95.15)
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
   - other chart, same body: S Neptune → H Neptune RA 11.1545 11.1111 ninth (loose)
-  - other chart, top rows: S Moon → H Neptune RA 161.8363 100×φ^1 phi power (92.04) [Moon]
+  - other chart, top rows: S Moon → H Neptune RA 161.8363 100×φ^1 phi power (92.04)
 - **J Chiron** (same body: S Chiron → J Chiron RA 121.0246 121 whole (loose))
-  - star rows: J Aculeus → J Chiron RA 0.6719 conj (30.48) [Moon]
-  - star rows: J Capella → J Chiron RA 174.7685 108×φ golden (12.65) [Jupiter]
-  - star rows: J Galactic Centre → J Chiron RA 2.0056 2 whole (51.58) [Jupiter]
-  - other chart, star rows: H Aculeus → H Chiron Dec 37.0191 37 whole (0.22) [Moon]
-  - other chart, star rows: H Rukbat → H Chiron RA 74.0065 74 whole (45.38) [Moon]
+  - star rows: J Aculeus → J Chiron RA 0.6719 conj (30.48)
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - star rows: J Capella → J Chiron RA 174.7685 108×φ golden (12.65)
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - star rows: J Galactic Centre → J Chiron RA 2.0056 2 whole (51.58)
+    - source line: S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)
+  - other chart, star rows: H Aculeus → H Chiron Dec 37.0191 37 whole (0.22)
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - other chart, star rows: H Rukbat → H Chiron RA 74.0065 74 whole (45.38)
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
 - **J Ceres** (same body: S Ceres → J Ceres RA 171.9838 172 whole (3.69))
-  - star rows: J Kaus Australis → J Ceres RA 11.0087 11 whole (31.79) [Moon]
-  - other chart, star rows: H Alhena → H Ceres Dec 23.9869 24 whole (11.90) [Sun]
-  - other chart, star rows: H Betelgeuse → H Ceres Dec 14.9945 15 whole (52.32) [Moon]
+  - star rows: J Kaus Australis → J Ceres RA 11.0087 11 whole (31.79)
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+  - other chart, star rows: H Alhena → H Ceres Dec 23.9869 24 whole (11.90)
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - other chart, star rows: H Betelgeuse → H Ceres Dec 14.9945 15 whole (52.32)
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
 - **J Rahu** (same body: S Rahu → J Rahu RA 121.0095 121 whole (27.37))
-  - star rows: J Betelgeuse → J Rahu RA 0.8098 conj (21.17) [Moon]
-  - other chart, star rows: H Aculeus → H Rahu Dec 54.9990 55 whole (90.22) [Moon]
+  - star rows: J Betelgeuse → J Rahu RA 0.8098 conj (21.17)
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - other chart, star rows: H Aculeus → H Rahu Dec 54.9990 55 whole (90.22)
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
 - **J Eris** (same body: S Eris → J Eris RA 2.9774 3 whole (loose))
-  - star rows: J Alhena → J Eris Dec 23.0165 23 whole (3.01) [Sun]
-  - star rows: J Rukbat → J Eris Dec 34.0011 34 whole (89.09) [Moon]
+  - star rows: J Alhena → J Eris Dec 23.0165 23 whole (3.01)
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: J Rukbat → J Eris Dec 34.0011 34 whole (89.09)
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
   - other chart, same body: S Eris → H Eris Dec 1.4426 1.44444 ninth (loose)
-  - other chart, top rows: S Jupiter → H Eris RA 121.3461 75×φ golden (64.27) [Jupiter]
-  - other chart, star rows: H Alhena → H Eris Dec 17.9966 18 whole (69.19) [Sun]
-  - other chart, star rows: H Betelgeuse → H Eris Dec 9.0042 9 whole (62.38) [Moon]
-  - other chart, star rows: H Capella → H Eris RA 53.3999 33×φ golden (72.47) [Jupiter]
-  - other chart, star rows: H Deneb Algedi → H Eris RA 59.0196 59 whole (0.05) [Sun]
-  - other chart, star rows: H Rukbat → H Eris Dec 39.0176 39 whole (1.45) [Moon]
-  - other chart, star rows: H Zubenelgenubi → H Eris Dec 14.4442 14.4444 ninth (99.75) [Sun]
+  - other chart, top rows: S Jupiter → H Eris RA 121.3461 75×φ golden (64.27)
+  - other chart, star rows: H Alhena → H Eris Dec 17.9966 18 whole (69.19)
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - other chart, star rows: H Betelgeuse → H Eris Dec 9.0042 9 whole (62.38)
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - other chart, star rows: H Capella → H Eris RA 53.3999 33×φ golden (72.47)
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - other chart, star rows: H Deneb Algedi → H Eris RA 59.0196 59 whole (0.05)
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - other chart, star rows: H Rukbat → H Eris Dec 39.0176 39 whole (1.45)
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+  - other chart, star rows: H Zubenelgenubi → H Eris Dec 14.4442 14.4444 ninth (99.75)
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
 - **J Transpluto** (same body: S Transpluto → J Transpluto Dec 2.9770 3 whole (loose))
-  - star rows: J Adhara → J Transpluto RA 44.0149 44 whole (6.62) [Sun]
-  - other chart, star rows: H Alhena → H Transpluto RA 55.0105 34×φ golden (84.45) [Sun]
+  - star rows: J Adhara → J Transpluto RA 44.0149 44 whole (6.62)
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - other chart, star rows: H Alhena → H Transpluto RA 55.0105 34×φ golden (84.45)
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
 - **J Ketu** (same body: S Ketu → J Ketu RA 121.0095 121 whole (27.37))
-  - body line: S Jupiter → Ketu RA 1.4737 conj (0.03)
-  - other chart, top rows: S Sun → H Ketu RA 33.9741 21×φ golden (73.28) [Sun]
-### L3 the seven cases (L5 field tag on each)
+  - sky line to Ketu: S Jupiter → Ketu RA 1.4737 conj (0.03)
+  - other chart, top rows: S Sun → H Ketu RA 33.9741 21×φ golden (73.28)
+### L3 matches
 - **1. same body on both charts**
   - Neptune — only
     - S Neptune → H Neptune RA 11.1545 11.1111 ninth (loose)
@@ -648,17 +1073,25 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - **4. circle divisions**
   - 1 = 360/360 — also: 2 Stride On / Derek Fox
     - H Jupiter → H star Deneb Algedi Dec 0.9942 1 whole (50.67)
-  - 18 = 360/20 — also: 4 Below The Radar / Sam Twiston-Davies
+  - 24 = 360/15 — also: 6 Barnpark / Harry Skelton
+    - H Alhena → H Ceres Dec 23.9869 24 whole (11.90)
+  - 18 = 360/20 — also: 1 Off The Jury / Sean Bowen, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
     - H Alhena → H Eris Dec 17.9966 18 whole (69.19)
-  - 15 = 360/24 — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 7 Dixie Mafia / Jack Tudor
+  - 3 = 360/120 — also: 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+    - H Alphard → H Orcus Dec 2.9881 3 whole (16.40)
+  - 15 = 360/24 — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
     - H Betelgeuse → H Ceres Dec 14.9945 15 whole (52.32)
-  - 9 = 360/40 — also: 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+  - 9 = 360/40 — also: 1 Off The Jury / Sean Bowen, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
     - H Betelgeuse → H Eris Dec 9.0042 9 whole (62.38)
   - 1 = 360/360 — also: 2 Stride On / Derek Fox
     - S Deneb Algedi → H Jupiter Dec 0.9957 1 whole (61.73)
-  - 36 = 360/10 — also: 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton
+  - 5 = 360/72 — also: 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+    - H Deneb Algedi → H Juno Dec 5.0194 5 whole (0.09)
+  - 24 = 360/15 — also: 6 Barnpark / Harry Skelton
+    - H Zubenelgenubi → H Sedna Dec 23.9884 24 whole (17.82)
+  - 36 = 360/10 — also: 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
     - S Uranus → J Uranus Dec 36.0173 36 whole (1.87)
-  - 18 = 360/20 — also: 4 Below The Radar / Sam Twiston-Davies
+  - 18 = 360/20 — also: 1 Off The Jury / Sean Bowen, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
     - S Neptune → J Neptune Dec 17.9975 18 whole (76.59)
   - 3 = 360/120 — also: 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
     - S Eris → J Eris RA 2.9774 3 whole (loose)
@@ -666,14 +1099,22 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
     - S Transpluto → J Transpluto Dec 2.9770 3 whole (loose)
   - 1 = 360/360 — also: 2 Stride On / Derek Fox
     - S Sun → J Gonggong Dec 0.9963 1 whole (66.04)
-  - 12 = 360/30 — also: 7 Dixie Mafia / Jack Tudor
+  - 12 = 360/30 — also: 1 Off The Jury / Sean Bowen, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
     - J Adhara → J Gonggong Dec 12.0024 12 whole (77.32)
+  - 15 = 360/24 — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+    - J Alhena → J Venus Dec 15.0150 15 whole (6.15)
+  - 10 = 360/36 — also: 1 Off The Jury / Sean Bowen, 6 Barnpark / Harry Skelton
+    - J Alhena → J Juno Dec 10.0190 10 whole (0.26)
   - 10 = 360/36 — also: 1 Off The Jury / Sean Bowen, 6 Barnpark / Harry Skelton
     - J Alphard → J Neptune Dec 10.0031 10 whole (71.57)
   - 10 = 360/36 — also: 1 Off The Jury / Sean Bowen, 6 Barnpark / Harry Skelton
     - J Alphard → J Juno RA 9.9959 10 whole (62.91)
+  - 15 = 360/24 — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+    - J Betelgeuse → J Jupiter Dec 15.0191 15 whole (0.22)
   - 2 = 360/180 — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
     - J Galactic Centre → J Chiron RA 2.0056 2 whole (51.58)
+  - 45 = 360/8 — also: 1 Off The Jury / Sean Bowen, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
+    - J Pollux → J Gonggong Dec 44.9909 45 whole (29.62)
   - 3 = 360/120 — also: 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
     - J Rukbat → J Mars RA 3.0014 3 whole (86.13)
 - **5. same number in more than one place**
@@ -687,140 +1128,262 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
     - H Jupiter → H star Deneb Algedi Dec 0.9942 1 whole (50.67)
     - S Deneb Algedi → H Jupiter Dec 0.9957 1 whole (61.73)
     - S Sun → J Gonggong Dec 0.9963 1 whole (66.04)
+  - 75×φ golden — only
+    - S Jupiter → H Eris RA 121.3461 75×φ golden (64.27)
+    - J Capella → J Sun RA 121.3289 75×φ golden (7.21)
+  - 17 whole — also: 2 Stride On / Derek Fox, 7 Dixie Mafia / Jack Tudor
+    - H Aculeus → H Venus Dec 16.9905 17 whole (27.47)
+    - H Zubenelgenubi → H Pallas Dec 16.9921 17 whole (36.60)
   - 34×φ golden — only
     - H Adhara → H Mars RA 55.0128 34×φ golden (97.96)
     - H Alhena → H Transpluto RA 55.0105 34×φ golden (84.45)
-  - 18 whole — only
+  - 24 whole — only
+    - H Alhena → H Ceres Dec 23.9869 24 whole (11.90)
+    - H Zubenelgenubi → H Sedna Dec 23.9884 24 whole (17.82)
+  - 18 whole — also: 6 Barnpark / Harry Skelton
     - H Alhena → H Eris Dec 17.9966 18 whole (69.19)
     - S Neptune → J Neptune Dec 17.9975 18 whole (76.59)
-  - 121 whole — only
-    - S Chiron → J Chiron RA 121.0246 121 whole (loose)
-    - S Rahu → J Rahu RA 121.0095 121 whole (27.37)
-    - S Ketu → J Ketu RA 121.0095 121 whole (27.37)
   - 3 whole — also: 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+    - H Alphard → H Orcus Dec 2.9881 3 whole (16.40)
     - S Eris → J Eris RA 2.9774 3 whole (loose)
     - S Transpluto → J Transpluto Dec 2.9770 3 whole (loose)
     - J Rukbat → J Mars RA 3.0014 3 whole (86.13)
-  - 10 whole — only
+  - 15 whole — also: 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+    - H Betelgeuse → H Ceres Dec 14.9945 15 whole (52.32)
+    - J Alhena → J Venus Dec 15.0150 15 whole (6.15)
+    - J Betelgeuse → J Jupiter Dec 15.0191 15 whole (0.22)
+  - 121 whole — also: 6 Barnpark / Harry Skelton
+    - S Chiron → J Chiron RA 121.0246 121 whole (loose)
+    - S Rahu → J Rahu RA 121.0095 121 whole (27.37)
+    - S Ketu → J Ketu RA 121.0095 121 whole (27.37)
+  - 10 whole — also: 6 Barnpark / Harry Skelton
+    - J Alhena → J Juno Dec 10.0190 10 whole (0.26)
     - J Alphard → J Neptune Dec 10.0031 10 whole (71.57)
     - J Alphard → J Juno RA 9.9959 10 whole (62.91)
-- **6. star and sky line on one body**
-  - J Sun on Alphard — only
-    - J Alphard → J Sun Dec 0.0182 conj (88.23)
-    - S Moon → J Sun Dec 0.1388 conj (28.88)
-  - J Pallas on Betelgeuse — only
-    - J Betelgeuse → J Pallas Dec 0.0204 conj (86.85)
-    - S Jupiter → J Pallas RA 110.9975 111 whole (76.28)
-- **7. centres meeting**
-  - Venus: Jupiter, Moon, Sun — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox
-    - [Jupiter] S Jupiter → H Venus RA 177.7292 177.778 ninth (96.20)
-    - [Moon] H Aculeus → H Venus Dec 16.9905 17 whole (27.47)
-    - [Moon] J Rukbat → J Venus Dec 42.0026 42 whole (75.58)
-    - [Sun] S Sun → H Venus RA 103.5474 64×φ golden (62.28)
-    - [Sun] J Alhena → J Venus Dec 15.0150 15 whole (6.15)
-  - Vesta: Jupiter, Moon, Sun — only
-    - [Jupiter] S Jupiter → H Vesta Dec 0.2462 conj (3.21)
-    - [Jupiter] J Alphard → J Vesta RA 69.0075 69 whole (38.90)
-    - [Moon] J Alphard → J Vesta RA 69.0075 69 whole (38.90)
-    - [Sun] H Alhena → H Vesta RA 73.0062 73 whole (47.89)
-  - Eris: Jupiter, Moon, Sun — also: 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
-    - [Jupiter] S Jupiter → H Eris RA 121.3461 75×φ golden (64.27)
-    - [Jupiter] H Capella → H Eris RA 53.3999 33×φ golden (72.47)
-    - [Moon] H Betelgeuse → H Eris Dec 9.0042 9 whole (62.38)
-    - [Moon] H Rukbat → H Eris Dec 39.0176 39 whole (1.45)
-    - [Moon] J Rukbat → J Eris Dec 34.0011 34 whole (89.09)
-    - [Sun] H Alhena → H Eris Dec 17.9966 18 whole (69.19)
-    - [Sun] H Deneb Algedi → H Eris RA 59.0196 59 whole (0.05)
-    - [Sun] H Zubenelgenubi → H Eris Dec 14.4442 14.4444 ninth (99.75)
-    - [Sun] J Alhena → J Eris Dec 23.0165 23 whole (3.01)
-  - Ketu: Jupiter, Sun — also: 1 Off The Jury / Sean Bowen
-    - [Jupiter] S Ketu → J Ketu RA 121.0095 121 whole (27.37)
-    - [Sun] S Sun → H Ketu RA 33.9741 21×φ golden (73.28)
-  - Neptune: Jupiter, Moon, Sun — only
-    - [Jupiter] J Alphard → J Neptune Dec 10.0031 10 whole (71.57)
-    - [Moon] S Moon → H Neptune RA 161.8363 100×φ^1 phi power (92.04)
-    - [Moon] J Alphard → J Neptune Dec 10.0031 10 whole (71.57)
-    - [Sun] J Pollux → J Neptune RA 168.0118 168 whole (16.75)
-    - [Sun] J Zubenelgenubi → J Neptune Dec 2.6186 φ^2 phi power (95.15)
-  - Sun: Jupiter, Moon — only
-    - [Jupiter] H Galactic Centre → H Sun Dec 17.7914 11×φ golden (61.39)
-    - [Jupiter] J Alphard → J Sun Dec 0.0182 conj (88.23)
-    - [Jupiter] J Capella → J Sun RA 121.3289 75×φ golden (7.21)
-    - [Moon] H Aculeus → H Sun Dec 21.0366 13×φ golden (87.29)
-    - [Moon] H Betelgeuse → H Sun RA 116.0106 116 whole (22.24)
-    - [Moon] S Moon → J Sun Dec 0.1388 conj (28.88)
-    - [Moon] J Alphard → J Sun Dec 0.0182 conj (88.23)
-    - [Moon] J Rukbat → J Sun Dec 31.9802 32 whole (0.01)
-  - Mars: Jupiter, Moon, Sun — also: 1 Off The Jury / Sean Bowen
-    - [Jupiter] J Alphard → J Mars RA 152.0781 94×φ golden (22.26)
-    - [Moon] H Aculeus → H Mars Dec 51.9849 52 whole (6.03)
-    - [Moon] J Aculeus → J Mars Dec 8.0904 5×φ golden (98.44)
-    - [Moon] J Alphard → J Mars RA 152.0781 94×φ golden (22.26)
-    - [Moon] J Rukbat → J Mars RA 3.0014 3 whole (86.13)
-    - [Sun] H Adhara → H Mars RA 55.0128 34×φ golden (97.96)
-  - Saturn: Moon, Sun — also: 7 Dixie Mafia / Jack Tudor
-    - [Moon] H Aculeus → H Saturn Dec 13.3308 13.3333 ninth (97.00)
-    - [Moon] H Betelgeuse → H Saturn RA 139.1489 86×φ golden (87.96)
-    - [Sun] H Adhara → H Saturn RA 155.0140 155 whole (9.08)
-    - [Sun] H Pollux → H Saturn RA 166.6830 166.667 ninth (98.60)
-    - [Sun] J Deneb Algedi → J Saturn RA 106.7956 66×φ golden (69.62)
-  - Chiron: Jupiter, Moon — also: 2 Stride On / Derek Fox
-    - [Jupiter] J Capella → J Chiron RA 174.7685 108×φ golden (12.65)
-    - [Jupiter] J Galactic Centre → J Chiron RA 2.0056 2 whole (51.58)
-    - [Moon] H Aculeus → H Chiron Dec 37.0191 37 whole (0.22)
-    - [Moon] H Rukbat → H Chiron RA 74.0065 74 whole (45.38)
-    - [Moon] J Aculeus → J Chiron RA 0.6719 conj (30.48)
-  - Ceres: Moon, Sun — also: 4 Below The Radar / Sam Twiston-Davies
-    - [Moon] H Betelgeuse → H Ceres Dec 14.9945 15 whole (52.32)
-    - [Moon] J Kaus Australis → J Ceres RA 11.0087 11 whole (31.79)
-    - [Sun] H Alhena → H Ceres Dec 23.9869 24 whole (11.90)
-  - Juno: Jupiter, Moon, Sun — also: 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
-    - [Jupiter] J Alphard → J Juno RA 9.9959 10 whole (62.91)
-    - [Moon] J Alphard → J Juno RA 9.9959 10 whole (62.91)
-    - [Moon] J Rukbat → J Juno Dec 46.9987 47 whole (87.07)
-    - [Sun] H Alhena → H Juno Dec 27.5097 17×φ golden (81.61)
-    - [Sun] H Deneb Algedi → H Juno Dec 5.0194 5 whole (0.09)
-    - [Sun] J Alhena → J Juno Dec 10.0190 10 whole (0.26)
-  - Gonggong: Moon, Sun — only
-    - [Moon] J Procyon → J Gonggong RA 143.0020 143 whole (80.66)
-    - [Sun] H Alhena → H Gonggong RA 122.9002 φ^10 phi power (72.42)
-    - [Sun] S Sun → J Gonggong Dec 0.9963 1 whole (66.04)
-    - [Sun] J Adhara → J Gonggong Dec 12.0024 12 whole (77.32)
-    - [Sun] J Pollux → J Gonggong Dec 44.9909 45 whole (29.62)
-  - Orcus: Jupiter, Moon — also: 4 Below The Radar / Sam Twiston-Davies
-    - [Jupiter] H Alphard → H Orcus Dec 2.9881 3 whole (16.40)
-    - [Jupiter] J Alphard → J Orcus RA 1.3919 conj (0.52)
-    - [Moon] H Alphard → H Orcus Dec 2.9881 3 whole (16.40)
-    - [Moon] H Procyon → H Orcus RA 40.9943 41 whole (50.82)
-    - [Moon] J Aculeus → J Orcus RA 124.5777 77×φ golden (43.92)
-    - [Moon] J Alphard → J Orcus RA 1.3919 conj (0.52)
-    - [Moon] J Rukbat → J Orcus RA 150.4686 93×φ golden (53.92)
-  - Pluto: Jupiter, Sun — only
-    - [Jupiter] H Capella → H Pluto RA 141.4751 141.4 sqrt2 (85.37)
-    - [Sun] H Zubenelgenubi → H Pluto RA 74.9801 75 whole (0.00)
-  - Jupiter: Jupiter, Moon, Sun — also: 1 Off The Jury / Sean Bowen, 7 Dixie Mafia / Jack Tudor
-    - [Jupiter] S Vesta → J Jupiter Dec 27.0030 27 whole (71.83)
-    - [Jupiter] S Galactic Centre → J Jupiter RA 160.0059 160 whole (49.65)
-    - [Moon] J Betelgeuse → J Jupiter Dec 15.0191 15 whole (0.22)
-    - [Sun] H Deneb Algedi → H Jupiter RA 9.9998 10 ninth (98.85)
-    - [Sun] S Deneb Algedi → H Jupiter Dec 0.9957 1 whole (61.73)
-  - Makemake: Moon, Sun — also: 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
-    - [Moon] H Kaus Australis → H Makemake RA 77.6693 48×φ golden (78.78)
-    - [Sun] J Pollux → J Makemake RA 64.9835 65 whole (3.01)
-  - Pallas: Jupiter, Moon, Sun — also: 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton
-    - [Jupiter] S Jupiter → J Pallas RA 110.9975 111 whole (76.28)
-    - [Moon] J Betelgeuse → J Pallas Dec 0.0204 conj (86.85)
-    - [Sun] H Zubenelgenubi → H Pallas Dec 16.9921 17 whole (36.60)
-  - Sedna: Moon, Sun — also: 1 Off The Jury / Sean Bowen, 7 Dixie Mafia / Jack Tudor
-    - [Moon] J Procyon → J Sedna Dec 0.2380 conj (4.27)
-    - [Sun] H Zubenelgenubi → H Sedna RA 165.0105 165 whole (22.63)
-    - [Sun] H Zubenelgenubi → H Sedna Dec 23.9884 24 whole (17.82)
-  - Mercury: Jupiter, Moon, Sun — also: 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
-    - [Jupiter] J Alphard → J Mercury Dec 0.1205 conj (35.80)
-    - [Jupiter] J Capella → J Mercury RA 117.9806 118 whole (0.09)
-    - [Moon] S Moon → J Mercury Dec 0.2410 conj (3.86)
-    - [Moon] J Alphard → J Mercury Dec 0.1205 conj (35.80)
-    - [Sun] S Sun → J Mercury RA 24.1463 24.14 silver (93.22)
+### L4 every natal body
+- **Sun**
+  - same body: S Sun → H Sun RA 111.4816 111.111 ninth (loose) — also: 1 Off The Jury / Sean Bowen, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+  - star rows: H Aculeus → H Sun Dec 21.0366 13×φ golden (87.29) — also: 2 Stride On / Derek Fox
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - star rows: H Betelgeuse → H Sun RA 116.0106 116 whole (22.24) — also: 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - star rows: H Galactic Centre → H Sun Dec 17.7914 11×φ golden (61.39) — also: 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)
+  - top rows: S Moon → J Sun Dec 0.1388 conj (28.88) — also: 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+  - star rows: J Alphard → J Sun Dec 0.0182 conj (88.23) — also: 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+  - star rows: J Capella → J Sun RA 121.3289 75×φ golden (7.21) — also: 2 Stride On / Derek Fox, 7 Dixie Mafia / Jack Tudor
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - star rows: J Rukbat → J Sun Dec 31.9802 32 whole (0.01) — also: 7 Dixie Mafia / Jack Tudor
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+- **Neptune**
+  - same body: S Neptune → H Neptune RA 11.1545 11.1111 ninth (loose) — also: 1 Off The Jury / Sean Bowen
+  - top rows: S Moon → H Neptune RA 161.8363 100×φ^1 phi power (92.04) — only
+  - same body: S Neptune → J Neptune Dec 17.9975 18 whole (76.59) — also: 1 Off The Jury / Sean Bowen
+  - star rows: J Alphard → J Neptune Dec 10.0031 10 whole (71.57) — only
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+  - star rows: J Pollux → J Neptune RA 168.0118 168 whole (16.75) — only
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - star rows: J Zubenelgenubi → J Neptune Dec 2.6186 φ^2 phi power (95.15) — only
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+- **Pallas**
+  - same body: S Pallas → H Pallas RA 53.3721 33×φ golden (loose) — also: 1 Off The Jury / Sean Bowen, 4 Below The Radar / Sam Twiston-Davies
+  - star rows: H Zubenelgenubi → H Pallas Dec 16.9921 17 whole (36.60) — only
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+  - top rows: S Jupiter → J Pallas RA 110.9975 111 whole (76.28) — also: 1 Off The Jury / Sean Bowen, 6 Barnpark / Harry Skelton
+  - star rows: J Betelgeuse → J Pallas Dec 0.0204 conj (86.85) — only
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+- **Vesta**
+  - same body: S Vesta → H Vesta RA 155.1871 155.556 ninth (loose) — also: 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+  - same body: S Vesta → H Vesta Dec 18.8158 18.8889 ninth (loose) — also: 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+  - top rows: S Jupiter → H Vesta Dec 0.2462 conj (3.21) — only
+  - star rows: H Alhena → H Vesta RA 73.0062 73 whole (47.89) — also: 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: J Alphard → J Vesta RA 69.0075 69 whole (38.90) — only
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+- **Eris**
+  - same body: S Eris → H Eris Dec 1.4426 1.44444 ninth (loose) — also: 7 Dixie Mafia / Jack Tudor
+  - top rows: S Jupiter → H Eris RA 121.3461 75×φ golden (64.27) — only
+  - star rows: H Alhena → H Eris Dec 17.9966 18 whole (69.19) — also: 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: H Betelgeuse → H Eris Dec 9.0042 9 whole (62.38) — also: 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - star rows: H Capella → H Eris RA 53.3999 33×φ golden (72.47) — only
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - star rows: H Deneb Algedi → H Eris RA 59.0196 59 whole (0.05) — also: 1 Off The Jury / Sean Bowen
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - star rows: H Rukbat → H Eris Dec 39.0176 39 whole (1.45) — also: 6 Barnpark / Harry Skelton
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+  - star rows: H Zubenelgenubi → H Eris Dec 14.4442 14.4444 ninth (99.75) — also: 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+  - same body: S Eris → J Eris RA 2.9774 3 whole (loose) — also: 7 Dixie Mafia / Jack Tudor
+  - star rows: J Alhena → J Eris Dec 23.0165 23 whole (3.01) — also: 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: J Rukbat → J Eris Dec 34.0011 34 whole (89.09) — also: 6 Barnpark / Harry Skelton
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+- **Gonggong**
+  - same body: S Gonggong → H Gonggong Dec 1.2275 1.22222 ninth (loose) — also: 1 Off The Jury / Sean Bowen, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+  - star rows: H Alhena → H Gonggong RA 122.9002 φ^10 phi power (72.42) — also: 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - top rows: S Sun → J Gonggong Dec 0.9963 1 whole (66.04) — only
+  - star rows: J Adhara → J Gonggong Dec 12.0024 12 whole (77.32) — also: 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: J Pollux → J Gonggong Dec 44.9909 45 whole (29.62) — also: 2 Stride On / Derek Fox, 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - star rows: J Procyon → J Gonggong RA 143.0020 143 whole (80.66) — only
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
+- **Jupiter**
+  - T1: H Jupiter → H star Deneb Algedi RA 9.9998 10 ninth (98.85) — also: 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+  - T1: H Jupiter → H star Deneb Algedi Dec 0.9942 1 whole (50.67) — also: 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+  - star rows: H Deneb Algedi → H Jupiter RA 9.9998 10 ninth (98.85) — also: 6 Barnpark / Harry Skelton
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - star rows: S Deneb Algedi → H Jupiter Dec 0.9957 1 whole (61.73) — also: 6 Barnpark / Harry Skelton
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - top rows: S Vesta → J Jupiter Dec 27.0030 27 whole (71.83) — only
+  - star rows: J Betelgeuse → J Jupiter Dec 15.0191 15 whole (0.22) — also: 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - star rows: S Galactic Centre → J Jupiter RA 160.0059 160 whole (49.65) — also: 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+    - source line: S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)
+- **Venus**
+  - top rows: S Jupiter → H Venus RA 177.7292 177.778 ninth (96.20) — only
+  - top rows: S Sun → H Venus RA 103.5474 64×φ golden (62.28) — also: 6 Barnpark / Harry Skelton
+  - star rows: H Aculeus → H Venus Dec 16.9905 17 whole (27.47) — also: 6 Barnpark / Harry Skelton
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - star rows: J Alhena → J Venus Dec 15.0150 15 whole (6.15) — only
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: J Rukbat → J Venus Dec 42.0026 42 whole (75.58) — also: 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+- **Ketu**
+  - top rows: S Sun → H Ketu RA 33.9741 21×φ golden (73.28) — only
+  - same body: S Ketu → J Ketu RA 121.0095 121 whole (27.37) — also: 1 Off The Jury / Sean Bowen, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+    - source line: S Jupiter → Ketu RA 1.4737 conj (0.03)
+- **Mars**
+  - star rows: H Aculeus → H Mars Dec 51.9849 52 whole (6.03) — also: 1 Off The Jury / Sean Bowen
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - star rows: H Adhara → H Mars RA 55.0128 34×φ golden (97.96) — also: 2 Stride On / Derek Fox
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - same body: S Mars → J Mars RA 150.0252 150 whole (loose) — also: 1 Off The Jury / Sean Bowen, 4 Below The Radar / Sam Twiston-Davies
+  - star rows: J Aculeus → J Mars Dec 8.0904 5×φ golden (98.44) — also: 1 Off The Jury / Sean Bowen
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - star rows: J Alphard → J Mars RA 152.0781 94×φ golden (22.26) — only
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+  - star rows: J Rukbat → J Mars RA 3.0014 3 whole (86.13) — also: 6 Barnpark / Harry Skelton
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+- **Saturn**
+  - star rows: H Aculeus → H Saturn Dec 13.3308 13.3333 ninth (97.00) — also: 7 Dixie Mafia / Jack Tudor
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - star rows: H Adhara → H Saturn RA 155.0140 155 whole (9.08) — also: 1 Off The Jury / Sean Bowen
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: H Betelgeuse → H Saturn RA 139.1489 86×φ golden (87.96) — only
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - star rows: H Pollux → H Saturn RA 166.6830 166.667 ninth (98.60) — also: 1 Off The Jury / Sean Bowen, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - star rows: J Deneb Algedi → J Saturn RA 106.7956 66×φ golden (69.62) — also: 2 Stride On / Derek Fox
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+- **Chiron**
+  - star rows: H Aculeus → H Chiron Dec 37.0191 37 whole (0.22) — also: 1 Off The Jury / Sean Bowen, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - star rows: H Rukbat → H Chiron RA 74.0065 74 whole (45.38) — only
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+  - same body: S Chiron → J Chiron RA 121.0246 121 whole (loose) — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+  - star rows: J Aculeus → J Chiron RA 0.6719 conj (30.48) — also: 1 Off The Jury / Sean Bowen, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - star rows: J Capella → J Chiron RA 174.7685 108×φ golden (12.65) — only
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - star rows: J Galactic Centre → J Chiron RA 2.0056 2 whole (51.58) — also: 1 Off The Jury / Sean Bowen
+    - source line: S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)
+- **Rahu**
+  - star rows: H Aculeus → H Rahu Dec 54.9990 55 whole (90.22) — also: 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - same body: S Rahu → J Rahu RA 121.0095 121 whole (27.37) — also: 1 Off The Jury / Sean Bowen, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+  - star rows: J Betelgeuse → J Rahu RA 0.8098 conj (21.17) — also: 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+- **Ceres**
+  - star rows: H Alhena → H Ceres Dec 23.9869 24 whole (11.90) — also: 2 Stride On / Derek Fox
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: H Betelgeuse → H Ceres Dec 14.9945 15 whole (52.32) — also: 6 Barnpark / Harry Skelton
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - same body: S Ceres → J Ceres RA 171.9838 172 whole (3.69) — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton
+  - star rows: J Kaus Australis → J Ceres RA 11.0087 11 whole (31.79) — also: 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+- **Juno**
+  - star rows: H Alhena → H Juno Dec 27.5097 17×φ golden (81.61) — only
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: H Deneb Algedi → H Juno Dec 5.0194 5 whole (0.09) — also: 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - star rows: J Alhena → J Juno Dec 10.0190 10 whole (0.26) — only
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: J Alphard → J Juno RA 9.9959 10 whole (62.91) — also: 7 Dixie Mafia / Jack Tudor
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+  - star rows: J Rukbat → J Juno Dec 46.9987 47 whole (87.07) — also: 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+- **Transpluto**
+  - star rows: H Alhena → H Transpluto RA 55.0105 34×φ golden (84.45) — also: 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - same body: S Transpluto → J Transpluto Dec 2.9770 3 whole (loose) — also: 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+  - star rows: J Adhara → J Transpluto RA 44.0149 44 whole (6.62) — also: 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+- **Orcus**
+  - star rows: H Alphard → H Orcus Dec 2.9881 3 whole (16.40) — also: 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+  - star rows: H Procyon → H Orcus RA 40.9943 41 whole (50.82) — also: 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
+  - star rows: J Aculeus → J Orcus RA 124.5777 77×φ golden (43.92) — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - star rows: J Alphard → J Orcus RA 1.3919 conj (0.52) — also: 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+  - star rows: J Rukbat → J Orcus RA 150.4686 93×φ golden (53.92) — also: 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+- **Uranus**
+  - star rows: H Betelgeuse → H Uranus RA 54.0034 54 whole (68.82) — only
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - same body: S Uranus → J Uranus Dec 36.0173 36 whole (1.87) — also: 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton
+- **Haumea**
+  - star rows: H Betelgeuse → H Haumea RA 127.8322 79×φ golden (58.82) — also: 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+- **Pluto**
+  - star rows: H Capella → H Pluto RA 141.4751 141.4 sqrt2 (85.37) — also: 6 Barnpark / Harry Skelton
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - star rows: H Zubenelgenubi → H Pluto RA 74.9801 75 whole (0.00) — also: 2 Stride On / Derek Fox
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+- **Makemake**
+  - star rows: H Kaus Australis → H Makemake RA 77.6693 48×φ golden (78.78) — also: 7 Dixie Mafia / Jack Tudor
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+  - star rows: J Pollux → J Makemake RA 64.9835 65 whole (3.01) — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+- **Quaoar**
+  - star rows: H Kaus Australis → H Quaoar RA 0.5219 conj (42.52) — also: 6 Barnpark / Harry Skelton
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+  - star rows: J Procyon → J Quaoar RA 133.0028 133 whole (74.03) — also: 1 Off The Jury / Sean Bowen, 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
+- **Sedna**
+  - star rows: H Zubenelgenubi → H Sedna RA 165.0105 165 whole (22.63) — also: 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+  - star rows: H Zubenelgenubi → H Sedna Dec 23.9884 24 whole (17.82) — also: 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+  - star rows: J Procyon → J Sedna Dec 0.2380 conj (4.27) — also: 1 Off The Jury / Sean Bowen
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
+- **Mercury**
+  - top rows: S Sun → J Mercury RA 24.1463 24.14 silver (93.22) — only
+  - top rows: S Moon → J Mercury Dec 0.2410 conj (3.86) — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox
+  - star rows: J Alphard → J Mercury Dec 0.1205 conj (35.80) — only
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+  - star rows: J Capella → J Mercury RA 117.9806 118 whole (0.09) — also: 7 Dixie Mafia / Jack Tudor
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
 
 ## 4 Below The Radar / Sam Twiston-Davies
 ### L1 same bodies
@@ -840,62 +1403,99 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - S Transpluto → J Transpluto Dec 4.0245 4 whole (loose)
 ### L2 what lands on each same body
 - **H Sun** (same body: S Sun → H Sun RA 108.3976 67×φ golden (loose))
-  - star rows: H Galactic Centre → H Sun Dec 16.6680 16.6667 ninth (98.84) [Jupiter]
-  - star rows: H Zubenelgenubi → H Sun RA 106.9811 107 whole (0.29) [Sun]
-  - other chart, top rows: S Moon → J Sun Dec 0.0258 conj (83.52) [Moon]
-  - other chart, star rows: J Alphard → J Sun Dec 0.0946 conj (46.86) [Jupiter, Moon]
-  - other chart, star rows: J Betelgeuse → J Sun RA 111.9938 112 whole (47.33) [Moon]
+  - star rows: H Galactic Centre → H Sun Dec 16.6680 16.6667 ninth (98.84)
+    - source line: S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)
+  - star rows: H Zubenelgenubi → H Sun RA 106.9811 107 whole (0.29)
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+  - other chart, top rows: S Moon → J Sun Dec 0.0258 conj (83.52)
+  - other chart, star rows: J Alphard → J Sun Dec 0.0946 conj (46.86)
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+  - other chart, star rows: J Betelgeuse → J Sun RA 111.9938 112 whole (47.33)
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
 - **H Venus** (same body: S Venus → H Venus Dec 1.9908 2 whole (29.25))
-  - star rows: H Rukbat → H Venus RA 47.9979 48 whole (80.47) [Moon]
-  - other chart, top rows: S Moon → J Venus Dec 11.0038 11 whole (65.43) [Moon]
-  - other chart, star rows: J Procyon → J Venus Dec 25.0088 25 whole (31.17) [Moon]
+  - star rows: H Rukbat → H Venus RA 47.9979 48 whole (80.47)
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+  - other chart, top rows: S Moon → J Venus Dec 11.0038 11 whole (65.43)
+  - other chart, star rows: J Procyon → J Venus Dec 25.0088 25 whole (31.17)
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
 - **H Vesta** (same body: S Vesta → H Vesta Dec 12.2597 12.2222 ninth (loose))
-  - star rows: H Adhara → H Vesta RA 148.9948 149 whole (54.70) [Sun]
-  - other chart, star rows: J Adhara → J Vesta Dec 15.9908 16 whole (29.19) [Sun]
-  - other chart, star rows: J Pollux → J Vesta Dec 41.0026 41 whole (75.60) [Sun]
+  - star rows: H Adhara → H Vesta RA 148.9948 149 whole (54.70)
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - other chart, star rows: J Adhara → J Vesta Dec 15.9908 16 whole (29.19)
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - other chart, star rows: J Pollux → J Vesta Dec 41.0026 41 whole (75.60)
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
 - **H Rahu** (same body: S Rahu → H Rahu Dec 29.1406 18×φ golden (loose))
-  - star rows: H Alhena → H Rahu Dec 0.0140 conj (90.91) [Sun]
-  - star rows: H Betelgeuse → H Rahu Dec 9.0064 9 whole (46.18) [Moon]
-  - other chart, star rows: J Aculeus → J Rahu Dec 8.9843 9 whole (4.54) [Moon]
-  - other chart, star rows: J Kaus Australis → J Rahu Dec 11.1157 11.1111 ninth (92.44) [Moon]
+  - star rows: H Alhena → H Rahu Dec 0.0140 conj (90.91)
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: H Betelgeuse → H Rahu Dec 9.0064 9 whole (46.18)
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - other chart, star rows: J Aculeus → J Rahu Dec 8.9843 9 whole (4.54)
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - other chart, star rows: J Kaus Australis → J Rahu Dec 11.1157 11.1111 ninth (92.44)
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
 - **H Gonggong** (same body: S Gonggong → H Gonggong Dec 2.0093 2 whole (28.64))
-  - star rows: H Alphard → H Gonggong RA 166.0184 166 whole (0.66) [Jupiter, Moon]
-  - other chart, star rows: J Alhena → J Gonggong Dec 35.9912 36 whole (31.52) [Sun]
-  - other chart, star rows: J Betelgeuse → J Gonggong Dec 26.9998 27 whole (97.70) [Moon]
+  - star rows: H Alphard → H Gonggong RA 166.0184 166 whole (0.66)
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+  - other chart, star rows: J Alhena → J Gonggong Dec 35.9912 36 whole (31.52)
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - other chart, star rows: J Betelgeuse → J Gonggong Dec 26.9998 27 whole (97.70)
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
 - **H Transpluto** (same body: S Transpluto → H Transpluto Dec 1.2153 1.22222 ninth (loose))
-  - star rows: H Betelgeuse → H Transpluto RA 64.7231 40×φ golden (89.75) [Moon]
-  - star rows: H Zubenelgenubi → H Transpluto Dec 26.9838 27 whole (3.70) [Sun]
+  - star rows: H Betelgeuse → H Transpluto RA 64.7231 40×φ golden (89.75)
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - star rows: H Zubenelgenubi → H Transpluto Dec 26.9838 27 whole (3.70)
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
   - other chart, same body: S Transpluto → J Transpluto RA 11.0675 φ^5 phi power (loose)
   - other chart, same body: S Transpluto → J Transpluto Dec 4.0245 4 whole (loose)
-  - other chart, top rows: S Jupiter → J Transpluto RA 1.4823 conj (0.01) [Jupiter]
-  - other chart, top rows: S Jupiter → J Transpluto Dec 0.2436 conj (3.53) [Jupiter]
-  - other chart, star rows: J Aculeus → J Transpluto Dec 46.0044 46 whole (60.54) [Moon]
-  - other chart, star rows: J Adhara → J Transpluto RA 40.9820 41 whole (1.04) [Sun]
+  - other chart, top rows: S Jupiter → J Transpluto RA 1.4823 conj (0.01)
+  - other chart, top rows: S Jupiter → J Transpluto Dec 0.2436 conj (3.53)
+  - other chart, star rows: J Aculeus → J Transpluto Dec 46.0044 46 whole (60.54)
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - other chart, star rows: J Adhara → J Transpluto RA 40.9820 41 whole (1.04)
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
 - **H Ketu** (same body: S Ketu → H Ketu Dec 29.1406 18×φ golden (loose))
-  - body line: S Jupiter → Ketu RA 1.4737 conj (0.03)
-  - star rows: H Deneb Algedi → H Ketu Dec 0.2815 conj (0.38) [Sun]
-  - other chart, star rows: J Kaus Australis → J Ketu RA 166.6419 166.667 ninth (97.88) [Moon]
+  - sky line to Ketu: S Jupiter → Ketu RA 1.4737 conj (0.03)
+  - star rows: H Deneb Algedi → H Ketu Dec 0.2815 conj (0.38)
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - other chart, star rows: J Kaus Australis → J Ketu RA 166.6419 166.667 ninth (97.88)
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
 - **J Mars** (same body: S Mars → J Mars Dec 6.9865 7 whole (10.67))
-  - star rows: J Alhena → J Mars RA 9.0069 9 whole (42.87) [Sun]
+  - star rows: J Alhena → J Mars RA 9.0069 9 whole (42.87)
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
 - **J Pallas** (same body: S Pallas → J Pallas RA 105.1554 65×φ golden (23.19); S Pallas → J Pallas Dec 26.9977 27 whole (78.66))
-  - star rows: J Aculeus → J Pallas Dec 38.9884 39 whole (17.82) [Moon]
-  - star rows: J Deneb Algedi → J Pallas RA 56.9906 57 whole (28.00) [Sun]
-  - other chart, top rows: S Moon → H Pallas RA 141.4989 141.4 sqrt2 (79.28) [Moon]
-  - other chart, star rows: H Alhena → H Pallas Dec 33.3373 33.3333 ninth (95.30) [Sun]
+  - star rows: J Aculeus → J Pallas Dec 38.9884 39 whole (17.82)
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - star rows: J Deneb Algedi → J Pallas RA 56.9906 57 whole (28.00)
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - other chart, top rows: S Moon → H Pallas RA 141.4989 141.4 sqrt2 (79.28)
+  - other chart, star rows: H Alhena → H Pallas Dec 33.3373 33.3333 ninth (95.30)
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
 - **J Makemake** (same body: S Makemake → J Makemake Dec 14.4947 14.4444 ninth (loose))
 - **J Quaoar** (same body: S Quaoar → J Quaoar RA 44.3845 44.4444 ninth (loose))
-  - top rows: S Moon → J Quaoar Dec 4.9969 5 whole (71.12) [Moon]
-  - star rows: J Procyon → J Quaoar Dec 19.0019 19 whole (82.09) [Moon]
-  - other chart, star rows: H Rukbat → H Quaoar Dec 24.9866 25 whole (10.86) [Moon]
+  - top rows: S Moon → J Quaoar Dec 4.9969 5 whole (71.12)
+  - star rows: J Procyon → J Quaoar Dec 19.0019 19 whole (82.09)
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
+  - other chart, star rows: H Rukbat → H Quaoar Dec 24.9866 25 whole (10.86)
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
 - **J Transpluto** (same body: S Transpluto → J Transpluto RA 11.0675 φ^5 phi power (loose); S Transpluto → J Transpluto Dec 4.0245 4 whole (loose))
-  - top rows: S Jupiter → J Transpluto RA 1.4823 conj (0.01) [Jupiter]
-  - top rows: S Jupiter → J Transpluto Dec 0.2436 conj (3.53) [Jupiter]
-  - star rows: J Aculeus → J Transpluto Dec 46.0044 46 whole (60.54) [Moon]
-  - star rows: J Adhara → J Transpluto RA 40.9820 41 whole (1.04) [Sun]
+  - top rows: S Jupiter → J Transpluto RA 1.4823 conj (0.01)
+  - top rows: S Jupiter → J Transpluto Dec 0.2436 conj (3.53)
+  - star rows: J Aculeus → J Transpluto Dec 46.0044 46 whole (60.54)
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - star rows: J Adhara → J Transpluto RA 40.9820 41 whole (1.04)
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
   - other chart, same body: S Transpluto → H Transpluto Dec 1.2153 1.22222 ninth (loose)
-  - other chart, star rows: H Betelgeuse → H Transpluto RA 64.7231 40×φ golden (89.75) [Moon]
-  - other chart, star rows: H Zubenelgenubi → H Transpluto Dec 26.9838 27 whole (3.70) [Sun]
-### L3 the seven cases (L5 field tag on each)
+  - other chart, star rows: H Betelgeuse → H Transpluto RA 64.7231 40×φ golden (89.75)
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - other chart, star rows: H Zubenelgenubi → H Transpluto Dec 26.9838 27 whole (3.70)
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+### L3 matches
 - **1. same body on both charts**
   - Transpluto — also: 6 Barnpark / Harry Skelton
     - S Transpluto → H Transpluto Dec 1.2153 1.22222 ninth (loose)
@@ -920,13 +1520,31 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
     - S Venus → H Venus Dec 1.9908 2 whole (29.25)
   - 2 = 360/180 — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton
     - S Gonggong → H Gonggong Dec 2.0093 2 whole (28.64)
-  - 18 = 360/20 — also: 3 Leader Crik / Dylan Johnston
+  - 15 = 360/24 — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+    - H Aculeus → H Jupiter Dec 15.0181 15 whole (0.94)
+  - 72 = 360/5 — only
+    - H Alphard → H Haumea RA 72.0132 72 whole (11.45)
+  - 9 = 360/40 — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+    - H Betelgeuse → H Rahu Dec 9.0064 9 whole (46.18)
+  - 18 = 360/20 — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton
     - H Deneb Algedi → H Neptune RA 17.9974 18 whole (75.38)
-  - 4 = 360/90 — also: 7 Dixie Mafia / Jack Tudor
+  - 4 = 360/90 — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 7 Dixie Mafia / Jack Tudor
+    - H Procyon → H Uranus Dec 4.0132 4 whole (11.65)
+  - 4 = 360/90 — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 7 Dixie Mafia / Jack Tudor
     - S Transpluto → J Transpluto Dec 4.0245 4 whole (loose)
-  - 5 = 360/72 — also: 2 Stride On / Derek Fox, 7 Dixie Mafia / Jack Tudor
+  - 5 = 360/72 — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
     - S Moon → J Quaoar Dec 4.9969 5 whole (71.12)
-  - 45 = 360/8 — only
+  - 9 = 360/40 — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+    - J Aculeus → J Rahu Dec 8.9843 9 whole (4.54)
+  - 12 = 360/30 — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor
+    - J Adhara → J Mercury Dec 11.9891 12 whole (20.89)
+  - 9 = 360/40 — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+    - J Alhena → J Mars RA 9.0069 9 whole (42.87)
+  - 36 = 360/10 — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton
+    - J Alhena → J Gonggong Dec 35.9912 36 whole (31.52)
+  - 9 = 360/40 — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+    - J Alphard → J Orcus RA 8.9939 9 whole (48.64)
+  - 45 = 360/8 — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton
     - J Pollux → J Mercury Dec 45.0043 45 whole (61.83)
   - 72 = 360/5 — only
     - J Rukbat → J Mercury RA 71.9965 72 whole (68.12)
@@ -941,7 +1559,22 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
     - H Jupiter → H star Betelgeuse RA 141.4137 141.4 sqrt2 (97.85)
     - S Moon → H Pallas RA 141.4989 141.4 sqrt2 (79.28)
     - H Betelgeuse → H Jupiter RA 141.4137 141.4 sqrt2 (97.85)
-  - 27 whole — only
+  - 72 whole — only
+    - H Alphard → H Haumea RA 72.0132 72 whole (11.45)
+    - J Rukbat → J Mercury RA 71.9965 72 whole (68.12)
+  - 9 whole — also: 6 Barnpark / Harry Skelton
+    - H Betelgeuse → H Rahu Dec 9.0064 9 whole (46.18)
+    - J Aculeus → J Rahu Dec 8.9843 9 whole (4.54)
+    - J Alhena → J Mars RA 9.0069 9 whole (42.87)
+    - J Alphard → J Orcus RA 8.9939 9 whole (48.64)
+  - 4 whole — also: 1 Off The Jury / Sean Bowen, 7 Dixie Mafia / Jack Tudor
+    - H Procyon → H Uranus Dec 4.0132 4 whole (11.65)
+    - S Transpluto → J Transpluto Dec 4.0245 4 whole (loose)
+  - 25 whole — only
+    - H Rukbat → H Quaoar Dec 24.9866 25 whole (10.86)
+    - J Procyon → J Venus Dec 25.0088 25 whole (31.17)
+  - 27 whole — also: 7 Dixie Mafia / Jack Tudor
+    - H Zubenelgenubi → H Transpluto Dec 26.9838 27 whole (3.70)
     - S Pallas → J Pallas Dec 26.9977 27 whole (78.66)
     - J Betelgeuse → J Gonggong Dec 26.9998 27 whole (97.70)
   - 14.4444 ninth — only
@@ -950,99 +1583,201 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 14.14 sqrt2 — only
     - S Sun → J Ceres Dec 14.1459 14.14 sqrt2 (89.65)
     - J Procyon → J Eris Dec 14.1495 14.14 sqrt2 (80.23)
+  - 41 whole — only
+    - J Adhara → J Transpluto RA 40.9820 41 whole (1.04)
+    - J Pollux → J Vesta Dec 41.0026 41 whole (75.60)
   - 166.667 ninth — only
     - J Kaus Australis → J Ketu RA 166.6419 166.667 ninth (97.88)
     - J Rukbat → J Juno RA 166.6009 166.667 ninth (94.36)
-- **6. star and sky line on one body**: none
-- **7. centres meeting**
-  - Ketu: Jupiter, Moon, Sun — also: 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
-    - [Jupiter] S Ketu → H Ketu Dec 29.1406 18×φ golden (loose)
-    - [Moon] J Kaus Australis → J Ketu RA 166.6419 166.667 ninth (97.88)
-    - [Sun] H Deneb Algedi → H Ketu Dec 0.2815 conj (0.38)
-  - Pluto: Jupiter, Moon — also: 1 Off The Jury / Sean Bowen
-    - [Jupiter] S Jupiter → H Pluto RA 144.4985 144.444 ninth (94.28)
-    - [Moon] H Rukbat → H Pluto RA 0.6545 conj (31.77)
-  - Pallas: Moon, Sun — only
-    - [Moon] S Moon → H Pallas RA 141.4989 141.4 sqrt2 (79.28)
-    - [Moon] J Aculeus → J Pallas Dec 38.9884 39 whole (17.82)
-    - [Sun] H Alhena → H Pallas Dec 33.3373 33.3333 ninth (95.30)
-    - [Sun] J Deneb Algedi → J Pallas RA 56.9906 57 whole (28.00)
-  - Jupiter: Jupiter, Moon — only
-    - [Jupiter] S Sedna → H Jupiter Dec 26.0043 26 whole (61.36)
-    - [Jupiter] S Neptune → J Jupiter RA 179.4467 10×φ^6 phi power (99.12)
-    - [Moon] H Aculeus → H Jupiter Dec 15.0181 15 whole (0.94)
-    - [Moon] H Betelgeuse → H Jupiter RA 141.4137 141.4 sqrt2 (97.85)
-  - Chiron: Jupiter, Moon, Sun — also: 1 Off The Jury / Sean Bowen
-    - [Jupiter] J Alphard → J Chiron RA 0.1966 conj (75.51)
-    - [Jupiter] J Alphard → J Chiron Dec 17.0171 17 whole (2.10)
-    - [Moon] H Aculeus → H Chiron Dec 33.9701 21×φ golden (54.05)
-    - [Moon] J Alphard → J Chiron RA 0.1966 conj (75.51)
-    - [Moon] J Alphard → J Chiron Dec 17.0171 17 whole (2.10)
-    - [Sun] J Zubenelgenubi → J Chiron RA 81.0167 81 whole (2.72)
-  - Orcus: Jupiter, Moon — also: 3 Leader Crik / Dylan Johnston
-    - [Jupiter] J Alphard → J Orcus RA 8.9939 9 whole (48.64)
-    - [Moon] H Aculeus → H Orcus Dec 21.9867 22 whole (11.39)
-    - [Moon] J Alphard → J Orcus RA 8.9939 9 whole (48.64)
-  - Rahu: Moon, Sun — also: 7 Dixie Mafia / Jack Tudor
-    - [Moon] H Betelgeuse → H Rahu Dec 9.0064 9 whole (46.18)
-    - [Moon] J Aculeus → J Rahu Dec 8.9843 9 whole (4.54)
-    - [Moon] J Kaus Australis → J Rahu Dec 11.1157 11.1111 ninth (92.44)
-    - [Sun] H Alhena → H Rahu Dec 0.0140 conj (90.91)
-  - Haumea: Jupiter, Moon, Sun — also: 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
-    - [Jupiter] H Alphard → H Haumea RA 72.0132 72 whole (11.45)
-    - [Jupiter] J Capella → J Haumea Dec 24.1437 24.14 silver (97.39)
-    - [Moon] H Alphard → H Haumea RA 72.0132 72 whole (11.45)
-    - [Moon] J Betelgeuse → J Haumea Dec 14.4450 14.4444 ninth (99.39)
-    - [Moon] J Kaus Australis → J Haumea RA 85.9937 86 whole (46.74)
-    - [Sun] H Alhena → H Haumea Dec 0.1239 conj (34.46)
-  - Sedna: Jupiter, Moon, Sun — also: 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton
-    - [Jupiter] H Alphard → H Sedna Dec 16.1896 10×φ^1 phi power (78.41)
-    - [Moon] H Alphard → H Sedna Dec 16.1896 10×φ^1 phi power (78.41)
-    - [Moon] H Betelgeuse → H Sedna Dec 0.1235 conj (34.63)
-    - [Moon] H Rukbat → H Sedna RA 124.9966 125 whole (68.83)
-    - [Sun] S Sun → J Sedna RA 177.7793 177.778 ninth (99.88)
-  - Gonggong: Jupiter, Moon, Sun — only
-    - [Jupiter] H Alphard → H Gonggong RA 166.0184 166 whole (0.66)
-    - [Moon] H Alphard → H Gonggong RA 166.0184 166 whole (0.66)
-    - [Moon] J Betelgeuse → J Gonggong Dec 26.9998 27 whole (97.70)
-    - [Sun] J Alhena → J Gonggong Dec 35.9912 36 whole (31.52)
-  - Transpluto: Jupiter, Moon, Sun — also: 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
-    - [Jupiter] S Jupiter → J Transpluto RA 1.4823 conj (0.01)
-    - [Jupiter] S Jupiter → J Transpluto Dec 0.2436 conj (3.53)
-    - [Moon] H Betelgeuse → H Transpluto RA 64.7231 40×φ golden (89.75)
-    - [Moon] J Aculeus → J Transpluto Dec 46.0044 46 whole (60.54)
-    - [Sun] H Zubenelgenubi → H Transpluto Dec 26.9838 27 whole (3.70)
-    - [Sun] J Adhara → J Transpluto RA 40.9820 41 whole (1.04)
-  - Neptune: Moon, Sun — also: 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton
-    - [Moon] J Rukbat → J Neptune Dec 18.8805 18.8889 ninth (93.98)
-    - [Sun] H Deneb Algedi → H Neptune RA 17.9974 18 whole (75.38)
-    - [Sun] J Adhara → J Neptune RA 177.0019 177 whole (82.29)
-  - Juno: Moon, Sun — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox
-    - [Moon] J Rukbat → J Juno RA 166.6009 166.667 ninth (94.36)
-    - [Sun] H Deneb Algedi → H Juno RA 0.5323 conj (41.62)
-  - Sun: Jupiter, Moon, Sun — also: 2 Stride On / Derek Fox, 7 Dixie Mafia / Jack Tudor
-    - [Jupiter] H Galactic Centre → H Sun Dec 16.6680 16.6667 ninth (98.84)
-    - [Jupiter] J Alphard → J Sun Dec 0.0946 conj (46.86)
-    - [Moon] S Moon → J Sun Dec 0.0258 conj (83.52)
-    - [Moon] J Alphard → J Sun Dec 0.0946 conj (46.86)
-    - [Moon] J Betelgeuse → J Sun RA 111.9938 112 whole (47.33)
-    - [Sun] H Zubenelgenubi → H Sun RA 106.9811 107 whole (0.29)
-  - Ceres: Moon, Sun — also: 3 Leader Crik / Dylan Johnston
-    - [Moon] H Kaus Australis → H Ceres Dec 65.9831 66 whole (2.40)
-    - [Sun] H Pollux → H Ceres RA 17.9498 φ^6 phi power (87.96)
-    - [Sun] S Sun → J Ceres Dec 14.1459 14.14 sqrt2 (89.65)
-    - [Sun] J Deneb Algedi → J Ceres Dec 13.9890 14 whole (20.40)
-  - Eris: Jupiter, Moon, Sun — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton
-    - [Jupiter] J Alphard → J Eris Dec 0.2650 conj (1.36)
-    - [Moon] H Kaus Australis → H Eris Dec 31.9962 32 whole (65.29)
-    - [Moon] S Moon → J Eris Dec 0.1445 conj (26.87)
-    - [Moon] J Alphard → J Eris Dec 0.2650 conj (1.36)
-    - [Moon] J Procyon → J Eris Dec 14.1495 14.14 sqrt2 (80.23)
-    - [Sun] J Zubenelgenubi → J Eris RA 159.9987 160 whole (86.99)
-  - Mercury: Moon, Sun — also: 1 Off The Jury / Sean Bowen
-    - [Moon] J Rukbat → J Mercury RA 71.9965 72 whole (68.12)
-    - [Sun] J Adhara → J Mercury Dec 11.9891 12 whole (20.89)
-    - [Sun] J Pollux → J Mercury Dec 45.0043 45 whole (61.83)
+### L4 every natal body
+- **Sun**
+  - same body: S Sun → H Sun RA 108.3976 67×φ golden (loose) — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor
+  - star rows: H Galactic Centre → H Sun Dec 16.6680 16.6667 ninth (98.84) — also: 3 Leader Crik / Dylan Johnston
+    - source line: S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)
+  - star rows: H Zubenelgenubi → H Sun RA 106.9811 107 whole (0.29) — only
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+  - top rows: S Moon → J Sun Dec 0.0258 conj (83.52) — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor
+  - star rows: J Alphard → J Sun Dec 0.0946 conj (46.86) — also: 3 Leader Crik / Dylan Johnston
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+  - star rows: J Betelgeuse → J Sun RA 111.9938 112 whole (47.33) — also: 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+- **Venus**
+  - same body: S Venus → H Venus Dec 1.9908 2 whole (29.25) — also: 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+  - star rows: H Rukbat → H Venus RA 47.9979 48 whole (80.47) — also: 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+  - top rows: S Moon → J Venus Dec 11.0038 11 whole (65.43) — also: 1 Off The Jury / Sean Bowen
+  - star rows: J Procyon → J Venus Dec 25.0088 25 whole (31.17) — only
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
+- **Vesta**
+  - same body: S Vesta → H Vesta Dec 12.2597 12.2222 ninth (loose) — also: 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor
+  - star rows: H Adhara → H Vesta RA 148.9948 149 whole (54.70) — also: 6 Barnpark / Harry Skelton
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: J Adhara → J Vesta Dec 15.9908 16 whole (29.19) — also: 6 Barnpark / Harry Skelton
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: J Pollux → J Vesta Dec 41.0026 41 whole (75.60) — also: 6 Barnpark / Harry Skelton
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+- **Rahu**
+  - same body: S Rahu → H Rahu Dec 29.1406 18×φ golden (loose) — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+  - star rows: H Alhena → H Rahu Dec 0.0140 conj (90.91) — only
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: H Betelgeuse → H Rahu Dec 9.0064 9 whole (46.18) — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - star rows: J Aculeus → J Rahu Dec 8.9843 9 whole (4.54) — also: 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - star rows: J Kaus Australis → J Rahu Dec 11.1157 11.1111 ninth (92.44) — also: 7 Dixie Mafia / Jack Tudor
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+- **Gonggong**
+  - same body: S Gonggong → H Gonggong Dec 2.0093 2 whole (28.64) — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor
+  - star rows: H Alphard → H Gonggong RA 166.0184 166 whole (0.66) — also: 6 Barnpark / Harry Skelton
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+  - star rows: J Alhena → J Gonggong Dec 35.9912 36 whole (31.52) — also: 3 Leader Crik / Dylan Johnston
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: J Betelgeuse → J Gonggong Dec 26.9998 27 whole (97.70) — only
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+- **Transpluto**
+  - same body: S Transpluto → H Transpluto Dec 1.2153 1.22222 ninth (loose) — also: 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+  - star rows: H Betelgeuse → H Transpluto RA 64.7231 40×φ golden (89.75) — also: 7 Dixie Mafia / Jack Tudor
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - star rows: H Zubenelgenubi → H Transpluto Dec 26.9838 27 whole (3.70) — also: 6 Barnpark / Harry Skelton
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+  - same body: S Transpluto → J Transpluto RA 11.0675 φ^5 phi power (loose) — also: 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+  - same body: S Transpluto → J Transpluto Dec 4.0245 4 whole (loose) — also: 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+  - top rows: S Jupiter → J Transpluto RA 1.4823 conj (0.01) — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+  - top rows: S Jupiter → J Transpluto Dec 0.2436 conj (3.53) — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+  - star rows: J Aculeus → J Transpluto Dec 46.0044 46 whole (60.54) — only
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - star rows: J Adhara → J Transpluto RA 40.9820 41 whole (1.04) — also: 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+- **Ketu**
+  - same body: S Ketu → H Ketu Dec 29.1406 18×φ golden (loose) — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+    - source line: S Jupiter → Ketu RA 1.4737 conj (0.03)
+  - star rows: H Deneb Algedi → H Ketu Dec 0.2815 conj (0.38) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - star rows: J Kaus Australis → J Ketu RA 166.6419 166.667 ninth (97.88) — only
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+- **Jupiter**
+  - T1: H Jupiter → H star Betelgeuse RA 141.4137 141.4 sqrt2 (97.85) — also: 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+  - top rows: S Sedna → H Jupiter Dec 26.0043 26 whole (61.36) — only
+  - star rows: H Aculeus → H Jupiter Dec 15.0181 15 whole (0.94) — only
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - star rows: H Betelgeuse → H Jupiter RA 141.4137 141.4 sqrt2 (97.85) — also: 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - top rows: S Neptune → J Jupiter RA 179.4467 10×φ^6 phi power (99.12) — only
+- **Pluto**
+  - top rows: S Jupiter → H Pluto RA 144.4985 144.444 ninth (94.28) — also: 1 Off The Jury / Sean Bowen, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+  - star rows: H Rukbat → H Pluto RA 0.6545 conj (31.77) — also: 2 Stride On / Derek Fox
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+- **Pallas**
+  - top rows: S Moon → H Pallas RA 141.4989 141.4 sqrt2 (79.28) — only
+  - star rows: H Alhena → H Pallas Dec 33.3373 33.3333 ninth (95.30) — also: 6 Barnpark / Harry Skelton
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - same body: S Pallas → J Pallas RA 105.1554 65×φ golden (23.19) — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston
+  - same body: S Pallas → J Pallas Dec 26.9977 27 whole (78.66) — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston
+  - star rows: J Aculeus → J Pallas Dec 38.9884 39 whole (17.82) — also: 1 Off The Jury / Sean Bowen
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - star rows: J Deneb Algedi → J Pallas RA 56.9906 57 whole (28.00) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+- **Chiron**
+  - star rows: H Aculeus → H Chiron Dec 33.9701 21×φ golden (54.05) — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - star rows: J Alphard → J Chiron RA 0.1966 conj (75.51) — also: 2 Stride On / Derek Fox
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+  - star rows: J Alphard → J Chiron Dec 17.0171 17 whole (2.10) — also: 2 Stride On / Derek Fox
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+  - star rows: J Zubenelgenubi → J Chiron RA 81.0167 81 whole (2.72) — only
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+- **Orcus**
+  - star rows: H Aculeus → H Orcus Dec 21.9867 22 whole (11.39) — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - star rows: J Alphard → J Orcus RA 8.9939 9 whole (48.64) — also: 3 Leader Crik / Dylan Johnston
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+- **Haumea**
+  - star rows: H Alhena → H Haumea Dec 0.1239 conj (34.46) — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: H Alphard → H Haumea RA 72.0132 72 whole (11.45) — only
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+  - star rows: J Betelgeuse → J Haumea Dec 14.4450 14.4444 ninth (99.39) — also: 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - star rows: J Capella → J Haumea Dec 24.1437 24.14 silver (97.39) — also: 6 Barnpark / Harry Skelton
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - star rows: J Kaus Australis → J Haumea RA 85.9937 86 whole (46.74) — also: 2 Stride On / Derek Fox
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+- **Sedna**
+  - star rows: H Alphard → H Sedna Dec 16.1896 10×φ^1 phi power (78.41) — only
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+  - star rows: H Betelgeuse → H Sedna Dec 0.1235 conj (34.63) — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - star rows: H Rukbat → H Sedna RA 124.9966 125 whole (68.83) — also: 7 Dixie Mafia / Jack Tudor
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+  - top rows: S Sun → J Sedna RA 177.7793 177.778 ninth (99.88) — only
+- **Neptune**
+  - star rows: H Deneb Algedi → H Neptune RA 17.9974 18 whole (75.38) — also: 6 Barnpark / Harry Skelton
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - star rows: J Adhara → J Neptune RA 177.0019 177 whole (82.29) — also: 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: J Rukbat → J Neptune Dec 18.8805 18.8889 ninth (93.98) — also: 2 Stride On / Derek Fox
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+- **Juno**
+  - star rows: H Deneb Algedi → H Juno RA 0.5323 conj (41.62) — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - star rows: J Rukbat → J Juno RA 166.6009 166.667 ninth (94.36) — also: 3 Leader Crik / Dylan Johnston
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+- **Saturn**
+  - star rows: H Kaus Australis → H Saturn RA 0.5161 conj (43.03) — also: 7 Dixie Mafia / Jack Tudor
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+- **Ceres**
+  - star rows: H Kaus Australis → H Ceres Dec 65.9831 66 whole (2.40) — also: 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+  - star rows: H Pollux → H Ceres RA 17.9498 φ^6 phi power (87.96) — also: 6 Barnpark / Harry Skelton
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - top rows: S Sun → J Ceres Dec 14.1459 14.14 sqrt2 (89.65) — also: 2 Stride On / Derek Fox, 7 Dixie Mafia / Jack Tudor
+  - star rows: J Deneb Algedi → J Ceres Dec 13.9890 14 whole (20.40) — also: 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+- **Eris**
+  - star rows: H Kaus Australis → H Eris Dec 31.9962 32 whole (65.29) — also: 6 Barnpark / Harry Skelton
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+  - top rows: S Moon → J Eris Dec 0.1445 conj (26.87) — also: 2 Stride On / Derek Fox, 7 Dixie Mafia / Jack Tudor
+  - star rows: J Alphard → J Eris Dec 0.2650 conj (1.36) — also: 2 Stride On / Derek Fox
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+  - star rows: J Procyon → J Eris Dec 14.1495 14.14 sqrt2 (80.23) — only
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
+  - star rows: J Zubenelgenubi → J Eris RA 159.9987 160 whole (86.99) — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+- **Uranus**
+  - star rows: H Procyon → H Uranus Dec 4.0132 4 whole (11.65) — also: 7 Dixie Mafia / Jack Tudor
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
+- **Quaoar**
+  - star rows: H Rukbat → H Quaoar Dec 24.9866 25 whole (10.86) — also: 2 Stride On / Derek Fox
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+  - same body: S Quaoar → J Quaoar RA 44.3845 44.4444 ninth (loose) — also: 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton
+  - top rows: S Moon → J Quaoar Dec 4.9969 5 whole (71.12) — only
+  - star rows: J Procyon → J Quaoar Dec 19.0019 19 whole (82.09) — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
+- **Mars**
+  - same body: S Mars → J Mars Dec 6.9865 7 whole (10.67) — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston
+  - star rows: J Alhena → J Mars RA 9.0069 9 whole (42.87) — also: 1 Off The Jury / Sean Bowen, 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+- **Makemake**
+  - same body: S Makemake → J Makemake Dec 14.4947 14.4444 ninth (loose) — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton
+- **Mercury**
+  - star rows: J Adhara → J Mercury Dec 11.9891 12 whole (20.89) — also: 6 Barnpark / Harry Skelton, 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: J Pollux → J Mercury Dec 45.0043 45 whole (61.83) — also: 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - star rows: J Rukbat → J Mercury RA 71.9965 72 whole (68.12) — only
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
 
 ## 6 Barnpark / Harry Skelton
 ### L1 same bodies
@@ -1065,99 +1800,168 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - S Transpluto → J Transpluto RA 12.2939 12.2222 ninth (loose)
 ### L2 what lands on each same body
 - **H Mercury** (same body: S Mercury → H Mercury RA 145.6195 90×φ golden (79.11))
-  - top rows: S Jupiter → H Mercury RA 144.4745 144.444 ninth (96.82) [Jupiter]
-  - star rows: H Adhara → H Mercury RA 102.0081 102 whole (35.27) [Sun]
-  - star rows: H Alhena → H Mercury Dec 17.9801 18 whole (0.00) [Sun]
-  - star rows: H Betelgeuse → H Mercury Dec 8.9874 9 whole (13.56) [Moon]
-  - other chart, star rows: J Zubenelgenubi → J Mercury Dec 9.9963 10 whole (66.44) [Sun]
+  - top rows: S Jupiter → H Mercury RA 144.4745 144.444 ninth (96.82)
+  - star rows: H Adhara → H Mercury RA 102.0081 102 whole (35.27)
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: H Alhena → H Mercury Dec 17.9801 18 whole (0.00)
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: H Betelgeuse → H Mercury Dec 8.9874 9 whole (13.56)
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - other chart, star rows: J Zubenelgenubi → J Mercury Dec 9.9963 10 whole (66.44)
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
 - **H Ceres** (same body: S Ceres → H Ceres RA 144.0872 144.444 ninth (loose); S Ceres → H Ceres Dec 43.6569 27×φ golden (loose))
-  - star rows: H Kaus Australis → H Ceres Dec 14.9846 15 whole (5.38) [Moon]
-  - star rows: H Rukbat → H Ceres RA 40.0065 40 whole (45.74) [Moon]
-  - other chart, star rows: J Adhara → J Ceres Dec 49.9839 50 whole (3.72) [Sun]
-  - other chart, star rows: J Betelgeuse → J Ceres RA 1.1731 conj (4.75) [Moon]
-  - other chart, star rows: J Capella → J Ceres Dec 24.9810 25 whole (0.25) [Jupiter]
-  - other chart, star rows: J Pollux → J Ceres Dec 7.0100 7 whole (24.76) [Sun]
-  - other chart, star rows: J Rukbat → J Ceres RA 158.9919 159 whole (35.45) [Moon]
+  - star rows: H Kaus Australis → H Ceres Dec 14.9846 15 whole (5.38)
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+  - star rows: H Rukbat → H Ceres RA 40.0065 40 whole (45.74)
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+  - other chart, star rows: J Adhara → J Ceres Dec 49.9839 50 whole (3.72)
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - other chart, star rows: J Betelgeuse → J Ceres RA 1.1731 conj (4.75)
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - other chart, star rows: J Capella → J Ceres Dec 24.9810 25 whole (0.25)
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - other chart, star rows: J Pollux → J Ceres Dec 7.0100 7 whole (24.76)
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - other chart, star rows: J Rukbat → J Ceres RA 158.9919 159 whole (35.45)
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
 - **H Juno** (same body: S Juno → H Juno RA 110.6894 10×φ^5 phi power (loose))
-  - star rows: H Pollux → H Juno RA 76.9948 77 whole (54.46) [Sun]
-  - other chart, top rows: S Moon → J Juno RA 1.1426 conj (5.68) [Moon]
-  - other chart, star rows: J Capella → J Juno RA 111.0048 111 whole (58.05) [Jupiter]
+  - star rows: H Pollux → H Juno RA 76.9948 77 whole (54.46)
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - other chart, top rows: S Moon → J Juno RA 1.1426 conj (5.68)
+  - other chart, star rows: J Capella → J Juno RA 111.0048 111 whole (58.05)
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
 - **H Rahu** (same body: S Rahu → H Rahu RA 122.8714 φ^10 phi power (loose))
-  - other chart, star rows: J Betelgeuse → J Rahu RA 121.0082 121 whole (34.63) [Moon]
-  - other chart, star rows: J Capella → J Rahu Dec 59.0120 59 whole (16.05) [Jupiter]
-  - other chart, star rows: J Deneb Algedi → J Rahu RA 1.0206 conj (10.21) [Sun]
-  - other chart, star rows: J Galactic Centre → J Rahu Dec 15.9935 16 whole (45.33) [Jupiter]
+  - other chart, star rows: J Betelgeuse → J Rahu RA 121.0082 121 whole (34.63)
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - other chart, star rows: J Capella → J Rahu Dec 59.0120 59 whole (16.05)
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - other chart, star rows: J Deneb Algedi → J Rahu RA 1.0206 conj (10.21)
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - other chart, star rows: J Galactic Centre → J Rahu Dec 15.9935 16 whole (45.33)
+    - source line: S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)
 - **H Transpluto** (same body: S Transpluto → H Transpluto RA 2.9924 3 whole (38.40))
-  - star rows: H Deneb Algedi → H Transpluto Dec 26.9969 27 whole (71.47) [Sun]
-  - star rows: H Zubenelgenubi → H Transpluto RA 69.0095 69 whole (27.67) [Sun]
+  - star rows: H Deneb Algedi → H Transpluto Dec 26.9969 27 whole (71.47)
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - star rows: H Zubenelgenubi → H Transpluto RA 69.0095 69 whole (27.67)
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
   - other chart, same body: S Transpluto → J Transpluto RA 12.2939 12.2222 ninth (loose)
-  - other chart, top rows: S Jupiter → J Transpluto Dec 0.1655 conj (20.11) [Jupiter]
-  - other chart, star rows: J Alhena → J Transpluto RA 44.9863 45 whole (9.78) [Sun]
-  - other chart, star rows: J Galactic Centre → J Transpluto RA 122.0035 122 whole (68.33) [Jupiter]
-  - other chart, star rows: J Kaus Australis → J Transpluto Dec 48.5448 30×φ golden (77.81) [Moon]
+  - other chart, top rows: S Jupiter → J Transpluto Dec 0.1655 conj (20.11)
+  - other chart, star rows: J Alhena → J Transpluto RA 44.9863 45 whole (9.78)
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - other chart, star rows: J Galactic Centre → J Transpluto RA 122.0035 122 whole (68.33)
+    - source line: S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)
+  - other chart, star rows: J Kaus Australis → J Transpluto Dec 48.5448 30×φ golden (77.81)
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
 - **H Ketu** (same body: S Ketu → H Ketu RA 122.8714 φ^10 phi power (loose))
-  - body line: S Jupiter → Ketu RA 1.4737 conj (0.03)
-  - other chart, top rows: S Jupiter → J Ketu RA 0.6627 conj (31.16) [Jupiter]
-  - other chart, star rows: J Adhara → J Ketu Dec 41.9826 42 whole (1.68) [Sun]
-  - other chart, star rows: J Betelgeuse → J Ketu RA 58.9918 59 whole (34.63) [Moon]
-  - other chart, star rows: J Capella → J Ketu Dec 32.9823 33 whole (1.27) [Jupiter]
-  - other chart, star rows: J Pollux → J Ketu Dec 15.0113 15 whole (18.87) [Sun]
+  - sky line to Ketu: S Jupiter → Ketu RA 1.4737 conj (0.03)
+  - other chart, top rows: S Jupiter → J Ketu RA 0.6627 conj (31.16)
+  - other chart, star rows: J Adhara → J Ketu Dec 41.9826 42 whole (1.68)
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - other chart, star rows: J Betelgeuse → J Ketu RA 58.9918 59 whole (34.63)
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - other chart, star rows: J Capella → J Ketu Dec 32.9823 33 whole (1.27)
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - other chart, star rows: J Pollux → J Ketu Dec 15.0113 15 whole (18.87)
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
 - **J Venus** (same body: S Venus → J Venus Dec 3.3338 3.33333 ninth (94.04))
-  - top rows: S Sun → J Venus Dec 0.2220 conj (6.76) [Sun]
-  - star rows: J Betelgeuse → J Venus RA 127.8330 79×φ golden (55.40) [Moon]
-  - star rows: J Zubenelgenubi → J Venus Dec 0.2933 conj (0.05) [Sun]
-  - other chart, star rows: H Aculeus → H Venus Dec 58.0155 58 whole (4.96) [Moon]
+  - top rows: S Sun → J Venus Dec 0.2220 conj (6.76)
+  - star rows: J Betelgeuse → J Venus RA 127.8330 79×φ golden (55.40)
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - star rows: J Zubenelgenubi → J Venus Dec 0.2933 conj (0.05)
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+  - other chart, star rows: H Aculeus → H Venus Dec 58.0155 58 whole (4.96)
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
 - **J Jupiter** (same body: S Jupiter → J Jupiter Dec 8.8751 8.88889 ninth (loose))
-  - top rows: S Sun → J Jupiter Dec 38.8383 24×φ golden (69.13) [Jupiter, Sun]
-  - top rows: S Chiron → J Jupiter RA 74.0023 74 whole (78.25) [Jupiter]
-  - top rows: S Rahu → J Jupiter Dec 35.5976 22×φ golden (94.74) [Jupiter]
-  - top rows: S Gonggong → J Jupiter RA 122.2677 122.222 ninth (93.70) [Jupiter]
-  - star rows: S Alhena → J Jupiter RA 0.0037 conj (99.51) [Sun]
-  - star rows: S Deneb Algedi → J Jupiter RA 132.6721 82×φ golden (62.75) [Sun]
-  - star rows: S Deneb Algedi → J Jupiter Dec 38.9986 39 whole (86.71) [Sun]
-  - star rows: J Galactic Centre → J Jupiter RA 166.9814 167 whole (0.48) [Jupiter]
-  - other chart, top rows: S Ceres → H Jupiter RA 177.7011 177.778 ninth (94.00) [Jupiter]
-  - other chart, star rows: H Deneb Algedi → H Jupiter Dec 5.0168 5 whole (2.48) [Sun]
+  - top rows: S Sun → J Jupiter Dec 38.8383 24×φ golden (69.13)
+  - top rows: S Chiron → J Jupiter RA 74.0023 74 whole (78.25)
+  - top rows: S Rahu → J Jupiter Dec 35.5976 22×φ golden (94.74)
+  - top rows: S Gonggong → J Jupiter RA 122.2677 122.222 ninth (93.70)
+  - star rows: S Alhena → J Jupiter RA 0.0037 conj (99.51)
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: S Deneb Algedi → J Jupiter RA 132.6721 82×φ golden (62.75)
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - star rows: S Deneb Algedi → J Jupiter Dec 38.9986 39 whole (86.71)
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - star rows: J Galactic Centre → J Jupiter RA 166.9814 167 whole (0.48)
+    - source line: S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)
+  - other chart, top rows: S Ceres → H Jupiter RA 177.7011 177.778 ninth (94.00)
+  - other chart, star rows: H Deneb Algedi → H Jupiter Dec 5.0168 5 whole (2.48)
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
 - **J Uranus** (same body: S Uranus → J Uranus RA 150.4657 93×φ golden (41.89))
-  - star rows: J Adhara → J Uranus RA 167.0102 167 whole (24.12) [Sun]
-  - star rows: J Pollux → J Uranus RA 155.3367 96×φ golden (69.21) [Sun]
-  - other chart, star rows: H Zubenelgenubi → H Uranus Dec 28.9802 29 whole (0.01) [Sun]
+  - star rows: J Adhara → J Uranus RA 167.0102 167 whole (24.12)
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: J Pollux → J Uranus RA 155.3367 96×φ golden (69.21)
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - other chart, star rows: H Zubenelgenubi → H Uranus Dec 28.9802 29 whole (0.01)
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
 - **J Chiron** (same body: S Chiron → J Chiron RA 80.9073 50×φ golden (68.46))
-  - star rows: J Alhena → J Chiron Dec 0.2769 conj (0.59) [Sun]
-  - star rows: J Pollux → J Chiron RA 9.9881 10 whole (16.29) [Sun]
-  - other chart, star rows: H Deneb Algedi → H Chiron Dec 21.0371 13×φ golden (84.18) [Sun]
+  - star rows: J Alhena → J Chiron Dec 0.2769 conj (0.59)
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: J Pollux → J Chiron RA 9.9881 10 whole (16.29)
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - other chart, star rows: H Deneb Algedi → H Chiron Dec 21.0371 13×φ golden (84.18)
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
 - **J Haumea** (same body: S Haumea → J Haumea RA 33.9609 21×φ golden (loose))
-  - body line: S Sun → Haumea RA 0.5695 conj (38.48)
-  - star rows: J Betelgeuse → J Haumea RA 97.9805 98 whole (0.06) [Moon]
-  - star rows: J Deneb Algedi → J Haumea RA 139.9906 140 whole (28.28) [Sun]
-  - star rows: J Rukbat → J Haumea Dec 63.1055 39×φ golden (87.11) [Moon]
-  - other chart, star rows: H Alhena → H Haumea Dec 0.0597 conj (64.14) [Sun]
-  - other chart, star rows: H Capella → H Haumea RA 135.9459 84×φ golden (0.17) [Jupiter]
-  - other chart, star rows: H Deneb Algedi → H Haumea RA 111.6442 69×φ golden (99.25) [Sun]
+  - sky line to Haumea: S Sun → Haumea RA 0.5695 conj (38.48)
+  - star rows: J Betelgeuse → J Haumea RA 97.9805 98 whole (0.06)
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - star rows: J Deneb Algedi → J Haumea RA 139.9906 140 whole (28.28)
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - star rows: J Rukbat → J Haumea Dec 63.1055 39×φ golden (87.11)
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+  - other chart, star rows: H Alhena → H Haumea Dec 0.0597 conj (64.14)
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - other chart, star rows: H Capella → H Haumea RA 135.9459 84×φ golden (0.17)
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - other chart, star rows: H Deneb Algedi → H Haumea RA 111.6442 69×φ golden (99.25)
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
 - **J Makemake** (same body: S Makemake → J Makemake Dec 15.5349 15.5556 ninth (loose))
-  - star rows: J Procyon → J Makemake RA 54.0110 54 whole (20.36) [Moon]
-  - other chart, star rows: H Betelgeuse → H Makemake RA 108.0001 108 whole (98.85) [Moon]
-  - other chart, star rows: H Zubenelgenubi → H Makemake Dec 40.0069 40 whole (43.22) [Sun]
+  - star rows: J Procyon → J Makemake RA 54.0110 54 whole (20.36)
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
+  - other chart, star rows: H Betelgeuse → H Makemake RA 108.0001 108 whole (98.85)
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - other chart, star rows: H Zubenelgenubi → H Makemake Dec 40.0069 40 whole (43.22)
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
 - **J Orcus** (same body: S Orcus → J Orcus Dec 17.9582 φ^6 phi power (loose))
-  - star rows: J Adhara → J Orcus Dec 33.0139 33 whole (9.17) [Sun]
-  - star rows: J Rukbat → J Orcus RA 160.9804 161 whole (0.04) [Moon]
-  - other chart, top rows: S Moon → H Orcus Dec 1.9975 2 whole (76.57) [Moon]
-  - other chart, star rows: H Aculeus → H Orcus RA 110.9360 10×φ^5 phi power (88.03) [Moon]
-  - other chart, star rows: H Capella → H Orcus RA 74.9816 75 whole (0.67) [Jupiter]
-  - other chart, star rows: H Procyon → H Orcus Dec 15.9914 16 whole (32.56) [Moon]
+  - star rows: J Adhara → J Orcus Dec 33.0139 33 whole (9.17)
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: J Rukbat → J Orcus RA 160.9804 161 whole (0.04)
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+  - other chart, top rows: S Moon → H Orcus Dec 1.9975 2 whole (76.57)
+  - other chart, star rows: H Aculeus → H Orcus RA 110.9360 10×φ^5 phi power (88.03)
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - other chart, star rows: H Capella → H Orcus RA 74.9816 75 whole (0.67)
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - other chart, star rows: H Procyon → H Orcus Dec 15.9914 16 whole (32.56)
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
 - **J Quaoar** (same body: S Quaoar → J Quaoar RA 48.5627 30×φ golden (loose); S Quaoar → J Quaoar Dec 2.0256 2 whole (loose))
-  - star rows: J Deneb Algedi → J Quaoar Dec 2.9973 3 whole (74.63) [Sun]
-  - other chart, star rows: H Alphard → H Quaoar RA 132.6564 82×φ golden (9.49) [Jupiter, Moon]
-  - other chart, star rows: H Kaus Australis → H Quaoar RA 1.4890 conj (0.01) [Moon]
+  - star rows: J Deneb Algedi → J Quaoar Dec 2.9973 3 whole (74.63)
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - other chart, star rows: H Alphard → H Quaoar RA 132.6564 82×φ golden (9.49)
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+  - other chart, star rows: H Kaus Australis → H Quaoar RA 1.4890 conj (0.01)
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
 - **J Transpluto** (same body: S Transpluto → J Transpluto RA 12.2939 12.2222 ninth (loose))
-  - top rows: S Jupiter → J Transpluto Dec 0.1655 conj (20.11) [Jupiter]
-  - star rows: J Alhena → J Transpluto RA 44.9863 45 whole (9.78) [Sun]
-  - star rows: J Galactic Centre → J Transpluto RA 122.0035 122 whole (68.33) [Jupiter]
-  - star rows: J Kaus Australis → J Transpluto Dec 48.5448 30×φ golden (77.81) [Moon]
+  - top rows: S Jupiter → J Transpluto Dec 0.1655 conj (20.11)
+  - star rows: J Alhena → J Transpluto RA 44.9863 45 whole (9.78)
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: J Galactic Centre → J Transpluto RA 122.0035 122 whole (68.33)
+    - source line: S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)
+  - star rows: J Kaus Australis → J Transpluto Dec 48.5448 30×φ golden (77.81)
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
   - other chart, same body: S Transpluto → H Transpluto RA 2.9924 3 whole (38.40)
-  - other chart, star rows: H Deneb Algedi → H Transpluto Dec 26.9969 27 whole (71.47) [Sun]
-  - other chart, star rows: H Zubenelgenubi → H Transpluto RA 69.0095 69 whole (27.67) [Sun]
-### L3 the seven cases (L5 field tag on each)
+  - other chart, star rows: H Deneb Algedi → H Transpluto Dec 26.9969 27 whole (71.47)
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - other chart, star rows: H Zubenelgenubi → H Transpluto RA 69.0095 69 whole (27.67)
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+### L3 matches
 - **1. same body on both charts**
   - Transpluto — also: 4 Below The Radar / Sam Twiston-Davies
     - S Transpluto → H Transpluto RA 2.9924 3 whole (38.40)
@@ -1181,22 +1985,46 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - **4. circle divisions**
   - 3 = 360/120 — also: 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor
     - S Transpluto → H Transpluto RA 2.9924 3 whole (38.40)
-  - 36 = 360/10 — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston
+  - 36 = 360/10 — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies
     - S Jupiter → H Pluto Dec 35.9967 36 whole (69.92)
-  - 6 = 360/60 — also: 1 Off The Jury / Sean Bowen, 7 Dixie Mafia / Jack Tudor
+  - 6 = 360/60 — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 7 Dixie Mafia / Jack Tudor
     - S Jupiter → H Sedna Dec 5.9997 6 whole (96.81)
   - 2 = 360/180 — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies
     - S Moon → H Orcus Dec 1.9975 2 whole (76.57)
-  - 30 = 360/12 — only
+  - 18 = 360/20 — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies
+    - H Alhena → H Mercury Dec 17.9801 18 whole (0.00)
+  - 18 = 360/20 — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies
+    - H Alhena → H Eris Dec 18.0068 18 whole (43.75)
+  - 9 = 360/40 — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+    - H Betelgeuse → H Mercury Dec 8.9874 9 whole (13.56)
+  - 9 = 360/40 — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+    - H Betelgeuse → H Eris Dec 9.0140 9 whole (8.88)
+  - 5 = 360/72 — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+    - H Deneb Algedi → H Jupiter Dec 5.0168 5 whole (2.48)
+  - 30 = 360/12 — also: 2 Stride On / Derek Fox, 7 Dixie Mafia / Jack Tudor
     - H Deneb Algedi → H Pluto RA 30.0058 30 whole (50.19)
-  - 9 = 360/40 — also: 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor
+  - 9 = 360/40 — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
     - H Galactic Centre → H Saturn Dec 9.0022 9 whole (79.11)
+  - 15 = 360/24 — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+    - H Kaus Australis → H Ceres Dec 14.9846 15 whole (5.38)
+  - 40 = 360/9 — also: 2 Stride On / Derek Fox, 7 Dixie Mafia / Jack Tudor
+    - H Rukbat → H Ceres RA 40.0065 40 whole (45.74)
+  - 40 = 360/9 — also: 2 Stride On / Derek Fox, 7 Dixie Mafia / Jack Tudor
+    - H Zubenelgenubi → H Makemake Dec 40.0069 40 whole (43.22)
   - 2 = 360/180 — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies
     - S Quaoar → J Quaoar Dec 2.0256 2 whole (loose)
   - 3 = 360/120 — also: 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor
+    - J Adhara → J Vesta Dec 2.9883 3 whole (17.19)
+  - 45 = 360/8 — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies
+    - J Alhena → J Transpluto RA 44.9863 45 whole (9.78)
+  - 3 = 360/120 — also: 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor
     - J Deneb Algedi → J Quaoar Dec 2.9973 3 whole (74.63)
-  - 24 = 360/15 — only
+  - 10 = 360/36 — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston
+    - J Pollux → J Chiron RA 9.9881 10 whole (16.29)
+  - 24 = 360/15 — also: 3 Leader Crik / Dylan Johnston
     - J Pollux → J Sedna Dec 24.0018 24 whole (82.64)
+  - 15 = 360/24 — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+    - J Pollux → J Ketu Dec 15.0113 15 whole (18.87)
   - 10 = 360/36 — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston
     - J Zubenelgenubi → J Mercury Dec 9.9963 10 whole (66.44)
 - **5. same number in more than one place**
@@ -1211,6 +2039,7 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
     - S Ketu → H Ketu RA 122.8714 φ^10 phi power (loose)
   - 3 whole — also: 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor
     - S Transpluto → H Transpluto RA 2.9924 3 whole (38.40)
+    - J Adhara → J Vesta Dec 2.9883 3 whole (17.19)
     - J Deneb Algedi → J Quaoar Dec 2.9973 3 whole (74.63)
   - 122.222 ninth — only
     - S Moon → H Mars RA 122.2559 122.222 ninth (95.34)
@@ -1218,156 +2047,334 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 2 whole — also: 4 Below The Radar / Sam Twiston-Davies
     - S Moon → H Orcus Dec 1.9975 2 whole (76.57)
     - S Quaoar → J Quaoar Dec 2.0256 2 whole (loose)
+  - 121 whole — also: 3 Leader Crik / Dylan Johnston
+    - H Aculeus → H Eris RA 120.9895 121 whole (22.54)
+    - J Betelgeuse → J Rahu RA 121.0082 121 whole (34.63)
+  - 38 whole — only
+    - H Adhara → H Vesta RA 38.0109 38 whole (20.75)
+    - H Capella → H Sedna Dec 38.0028 38 whole (73.89)
+  - 18 whole — also: 3 Leader Crik / Dylan Johnston
+    - H Alhena → H Mercury Dec 17.9801 18 whole (0.00)
+    - H Alhena → H Eris Dec 18.0068 18 whole (43.75)
+  - 82×φ golden — only
+    - H Alphard → H Quaoar RA 132.6564 82×φ golden (9.49)
+    - J Jupiter → J star Deneb Algedi RA 132.6713 82×φ golden (58.97)
+    - S Deneb Algedi → J Jupiter RA 132.6721 82×φ golden (62.75)
   - 102×φ golden — only
     - H Alphard → H Gonggong RA 165.0433 102×φ golden (77.93)
     - H Pollux → H Mars RA 165.0339 102×φ golden (68.76)
+  - 9 whole — also: 4 Below The Radar / Sam Twiston-Davies
+    - H Betelgeuse → H Mercury Dec 8.9874 9 whole (13.56)
+    - H Betelgeuse → H Eris Dec 9.0140 9 whole (8.88)
+    - H Galactic Centre → H Saturn Dec 9.0022 9 whole (79.11)
+  - 84×φ golden — only
+    - H Capella → H Saturn RA 135.9131 84×φ golden (89.35)
+    - H Capella → H Haumea RA 135.9459 84×φ golden (0.17)
+  - 7 whole — only
+    - H Galactic Centre → H Pluto Dec 7.0048 7 whole (57.73)
+    - J Pollux → J Ceres Dec 7.0100 7 whole (24.76)
+  - 15 whole — also: 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor
+    - H Kaus Australis → H Ceres Dec 14.9846 15 whole (5.38)
+    - J Pollux → J Ketu Dec 15.0113 15 whole (18.87)
+  - 16 whole — only
+    - H Procyon → H Orcus Dec 15.9914 16 whole (32.56)
+    - J Galactic Centre → J Rahu Dec 15.9935 16 whole (45.33)
+  - 40 whole — also: 7 Dixie Mafia / Jack Tudor
+    - H Rukbat → H Ceres RA 40.0065 40 whole (45.74)
+    - H Zubenelgenubi → H Makemake Dec 40.0069 40 whole (43.22)
+  - 39 whole — also: 1 Off The Jury / Sean Bowen, 7 Dixie Mafia / Jack Tudor
+    - H Rukbat → H Eris Dec 39.0064 39 whole (46.11)
+    - J Jupiter → J star Deneb Algedi Dec 38.9942 39 whole (50.53)
+    - S Deneb Algedi → J Jupiter Dec 38.9986 39 whole (86.71)
   - 30×φ golden — only
     - S Quaoar → J Quaoar RA 48.5627 30×φ golden (loose)
     - J Kaus Australis → J Transpluto Dec 48.5448 30×φ golden (77.81)
-  - 82×φ golden — only
-    - J Jupiter → J star Deneb Algedi RA 132.6713 82×φ golden (58.97)
-    - S Deneb Algedi → J Jupiter RA 132.6721 82×φ golden (62.75)
-  - 39 whole — also: 1 Off The Jury / Sean Bowen
-    - J Jupiter → J star Deneb Algedi Dec 38.9942 39 whole (50.53)
-    - S Deneb Algedi → J Jupiter Dec 38.9986 39 whole (86.71)
-- **6. star and sky line on one body**
-  - J Jupiter on Alhena — only
-    - S Alhena → J Jupiter RA 0.0037 conj (99.51)
-    - S Sun → J Jupiter Dec 38.8383 24×φ golden (69.13)
-- **7. centres meeting**
-  - Ketu: Jupiter, Moon, Sun — also: 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
-    - [Jupiter] S Ketu → H Ketu RA 122.8714 φ^10 phi power (loose)
-    - [Jupiter] S Jupiter → J Ketu RA 0.6627 conj (31.16)
-    - [Jupiter] J Capella → J Ketu Dec 32.9823 33 whole (1.27)
-    - [Moon] J Betelgeuse → J Ketu RA 58.9918 59 whole (34.63)
-    - [Sun] J Adhara → J Ketu Dec 41.9826 42 whole (1.68)
-    - [Sun] J Pollux → J Ketu Dec 15.0113 15 whole (18.87)
-  - Mercury: Jupiter, Moon, Sun — also: 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor
-    - [Jupiter] S Jupiter → H Mercury RA 144.4745 144.444 ninth (96.82)
-    - [Moon] H Betelgeuse → H Mercury Dec 8.9874 9 whole (13.56)
-    - [Sun] H Adhara → H Mercury RA 102.0081 102 whole (35.27)
-    - [Sun] H Alhena → H Mercury Dec 17.9801 18 whole (0.00)
-    - [Sun] J Zubenelgenubi → J Mercury Dec 9.9963 10 whole (66.44)
-  - Saturn: Jupiter, Moon, Sun — also: 1 Off The Jury / Sean Bowen
-    - [Jupiter] S Jupiter → H Saturn Dec 33.9993 34 whole (93.27)
-    - [Jupiter] H Capella → H Saturn RA 135.9131 84×φ golden (89.35)
-    - [Jupiter] H Capella → H Saturn Dec 66.0024 66 whole (77.05)
-    - [Jupiter] H Galactic Centre → H Saturn Dec 9.0022 9 whole (79.11)
-    - [Moon] J Procyon → J Saturn Dec 27.9928 28 whole (40.65)
-    - [Sun] J Pollux → J Saturn RA 161.8212 100×φ^1 phi power (95.65)
-  - Pluto: Jupiter, Moon, Sun — also: 7 Dixie Mafia / Jack Tudor
-    - [Jupiter] S Jupiter → H Pluto Dec 35.9967 36 whole (69.92)
-    - [Jupiter] H Capella → H Pluto Dec 67.9999 68 whole (98.53)
-    - [Jupiter] H Galactic Centre → H Pluto Dec 7.0048 7 whole (57.73)
-    - [Moon] J Aculeus → J Pluto Dec 31.0125 31 whole (13.94)
-    - [Sun] H Deneb Algedi → H Pluto RA 30.0058 30 whole (50.19)
-  - Pallas: Jupiter, Moon, Sun — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston
-    - [Jupiter] S Jupiter → H Pallas Dec 0.0216 conj (86.09)
-    - [Jupiter] H Capella → H Pallas Dec 31.9815 32 whole (0.55)
-    - [Moon] H Rukbat → H Pallas RA 1.4991 conj (0.00)
-    - [Sun] H Adhara → H Pallas Dec 42.9921 43 whole (36.89)
-    - [Sun] H Pollux → H Pallas Dec 14.0108 14 whole (21.11)
-    - [Sun] J Alhena → J Pallas Dec 24.2722 15×φ golden (89.89)
-  - Sedna: Jupiter, Moon, Sun — also: 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies
-    - [Jupiter] S Jupiter → H Sedna Dec 5.9997 6 whole (96.81)
-    - [Jupiter] H Capella → H Sedna Dec 38.0028 38 whole (73.89)
-    - [Jupiter] H Galactic Centre → H Sedna Dec 37.0018 37 whole (82.37)
-    - [Moon] H Kaus Australis → H Sedna RA 141.4170 141.4 sqrt2 (98.76)
-    - [Moon] J Kaus Australis → J Sedna RA 126.2315 78×φ golden (5.45)
-    - [Sun] J Adhara → J Sedna Dec 32.9921 33 whole (36.52)
-    - [Sun] J Pollux → J Sedna Dec 24.0018 24 whole (82.64)
-  - Mars: Moon, Sun — also: 2 Stride On / Derek Fox
-    - [Moon] S Moon → H Mars RA 122.2559 122.222 ninth (95.34)
-    - [Moon] J Rukbat → J Mars RA 109.9814 110 whole (0.50)
-    - [Sun] H Pollux → H Mars RA 165.0339 102×φ golden (68.76)
-  - Orcus: Jupiter, Moon, Sun — only
-    - [Jupiter] H Capella → H Orcus RA 74.9816 75 whole (0.67)
-    - [Moon] S Moon → H Orcus Dec 1.9975 2 whole (76.57)
-    - [Moon] H Aculeus → H Orcus RA 110.9360 10×φ^5 phi power (88.03)
-    - [Moon] H Procyon → H Orcus Dec 15.9914 16 whole (32.56)
-    - [Moon] J Rukbat → J Orcus RA 160.9804 161 whole (0.04)
-    - [Sun] J Adhara → J Orcus Dec 33.0139 33 whole (9.17)
-  - Jupiter: Jupiter, Sun — also: 2 Stride On / Derek Fox
-    - [Jupiter] S Ceres → H Jupiter RA 177.7011 177.778 ninth (94.00)
-    - [Jupiter] S Sun → J Jupiter Dec 38.8383 24×φ golden (69.13)
-    - [Jupiter] S Chiron → J Jupiter RA 74.0023 74 whole (78.25)
-    - [Jupiter] S Rahu → J Jupiter Dec 35.5976 22×φ golden (94.74)
-    - [Jupiter] S Gonggong → J Jupiter RA 122.2677 122.222 ninth (93.70)
-    - [Jupiter] J Galactic Centre → J Jupiter RA 166.9814 167 whole (0.48)
-    - [Sun] H Deneb Algedi → H Jupiter Dec 5.0168 5 whole (2.48)
-    - [Sun] S Sun → J Jupiter Dec 38.8383 24×φ golden (69.13)
-    - [Sun] S Alhena → J Jupiter RA 0.0037 conj (99.51)
-    - [Sun] S Deneb Algedi → J Jupiter RA 132.6721 82×φ golden (62.75)
-    - [Sun] S Deneb Algedi → J Jupiter Dec 38.9986 39 whole (86.71)
-  - Venus: Moon, Sun — also: 7 Dixie Mafia / Jack Tudor
-    - [Moon] H Aculeus → H Venus Dec 58.0155 58 whole (4.96)
-    - [Moon] J Betelgeuse → J Venus RA 127.8330 79×φ golden (55.40)
-    - [Sun] S Sun → J Venus Dec 0.2220 conj (6.76)
-    - [Sun] J Zubenelgenubi → J Venus Dec 0.2933 conj (0.05)
-  - Vesta: Moon, Sun — also: 7 Dixie Mafia / Jack Tudor
-    - [Moon] H Aculeus → H Vesta Dec 51.9826 52 whole (1.67)
-    - [Moon] J Kaus Australis → J Vesta RA 0.4469 conj (49.29)
-    - [Sun] H Adhara → H Vesta RA 38.0109 38 whole (20.75)
-    - [Sun] J Adhara → J Vesta Dec 2.9883 3 whole (17.19)
-    - [Sun] J Pollux → J Vesta Dec 54.0056 54 whole (51.75)
-  - Eris: Jupiter, Moon, Sun — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies
-    - [Jupiter] J Galactic Centre → J Eris Dec 19.4139 12×φ golden (85.27)
-    - [Moon] H Aculeus → H Eris RA 120.9895 121 whole (22.54)
-    - [Moon] H Betelgeuse → H Eris Dec 9.0140 9 whole (8.88)
-    - [Moon] H Kaus Australis → H Eris RA 110.0311 68×φ golden (72.48)
-    - [Moon] H Rukbat → H Eris Dec 39.0064 39 whole (46.11)
-    - [Moon] J Aculeus → J Eris Dec 22.6597 14×φ golden (60.12)
-    - [Moon] J Betelgeuse → J Eris Dec 17.0030 17 whole (72.23)
-    - [Sun] H Alhena → H Eris Dec 18.0068 18 whole (43.75)
-    - [Sun] J Alhena → J Eris Dec 25.9946 26 whole (53.09)
-  - Neptune: Moon, Sun — also: 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies
-    - [Moon] J Betelgeuse → J Neptune RA 168.2563 104×φ golden (16.37)
-    - [Sun] H Adhara → H Neptune RA 114.0073 114 whole (40.31)
-    - [Sun] H Deneb Algedi → H Neptune Dec 10.9842 11 whole (4.38)
-  - Haumea: Jupiter, Moon, Sun — also: 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
-    - [Jupiter] H Capella → H Haumea RA 135.9459 84×φ golden (0.17)
-    - [Moon] J Betelgeuse → J Haumea RA 97.9805 98 whole (0.06)
-    - [Moon] J Rukbat → J Haumea Dec 63.1055 39×φ golden (87.11)
-    - [Sun] H Alhena → H Haumea Dec 0.0597 conj (64.14)
-    - [Sun] H Deneb Algedi → H Haumea RA 111.6442 69×φ golden (99.25)
-    - [Sun] S Haumea → J Haumea RA 33.9609 21×φ golden (loose)
-    - [Sun] J Deneb Algedi → J Haumea RA 139.9906 140 whole (28.28)
-  - Quaoar: Jupiter, Moon, Sun — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox
-    - [Jupiter] H Alphard → H Quaoar RA 132.6564 82×φ golden (9.49)
-    - [Moon] H Alphard → H Quaoar RA 132.6564 82×φ golden (9.49)
-    - [Moon] H Kaus Australis → H Quaoar RA 1.4890 conj (0.01)
-    - [Sun] J Deneb Algedi → J Quaoar Dec 2.9973 3 whole (74.63)
-  - Gonggong: Jupiter, Moon — only
-    - [Jupiter] H Alphard → H Gonggong RA 165.0433 102×φ golden (77.93)
-    - [Moon] H Alphard → H Gonggong RA 165.0433 102×φ golden (77.93)
-  - Makemake: Moon, Sun — also: 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor
-    - [Moon] H Betelgeuse → H Makemake RA 108.0001 108 whole (98.85)
-    - [Moon] J Procyon → J Makemake RA 54.0110 54 whole (20.36)
-    - [Sun] H Zubenelgenubi → H Makemake Dec 40.0069 40 whole (43.22)
-  - Transpluto: Jupiter, Moon, Sun — also: 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
-    - [Jupiter] S Jupiter → J Transpluto Dec 0.1655 conj (20.11)
-    - [Jupiter] J Galactic Centre → J Transpluto RA 122.0035 122 whole (68.33)
-    - [Moon] J Kaus Australis → J Transpluto Dec 48.5448 30×φ golden (77.81)
-    - [Sun] H Deneb Algedi → H Transpluto Dec 26.9969 27 whole (71.47)
-    - [Sun] H Zubenelgenubi → H Transpluto RA 69.0095 69 whole (27.67)
-    - [Sun] J Alhena → J Transpluto RA 44.9863 45 whole (9.78)
-  - Ceres: Jupiter, Moon, Sun — also: 2 Stride On / Derek Fox, 7 Dixie Mafia / Jack Tudor
-    - [Jupiter] J Capella → J Ceres Dec 24.9810 25 whole (0.25)
-    - [Moon] H Kaus Australis → H Ceres Dec 14.9846 15 whole (5.38)
-    - [Moon] H Rukbat → H Ceres RA 40.0065 40 whole (45.74)
-    - [Moon] J Betelgeuse → J Ceres RA 1.1731 conj (4.75)
-    - [Moon] J Rukbat → J Ceres RA 158.9919 159 whole (35.45)
-    - [Sun] J Adhara → J Ceres Dec 49.9839 50 whole (3.72)
-    - [Sun] J Pollux → J Ceres Dec 7.0100 7 whole (24.76)
-  - Juno: Jupiter, Moon, Sun — also: 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor
-    - [Jupiter] J Capella → J Juno RA 111.0048 111 whole (58.05)
-    - [Moon] S Moon → J Juno RA 1.1426 conj (5.68)
-    - [Sun] H Pollux → H Juno RA 76.9948 77 whole (54.46)
-  - Rahu: Jupiter, Moon, Sun — also: 2 Stride On / Derek Fox
-    - [Jupiter] J Capella → J Rahu Dec 59.0120 59 whole (16.05)
-    - [Jupiter] J Galactic Centre → J Rahu Dec 15.9935 16 whole (45.33)
-    - [Moon] J Betelgeuse → J Rahu RA 121.0082 121 whole (34.63)
-    - [Sun] J Deneb Algedi → J Rahu RA 1.0206 conj (10.21)
+  - 167 whole — only
+    - J Adhara → J Uranus RA 167.0102 167 whole (24.12)
+    - J Galactic Centre → J Jupiter RA 166.9814 167 whole (0.48)
+  - 33 whole — only
+    - J Adhara → J Sedna Dec 32.9921 33 whole (36.52)
+    - J Adhara → J Orcus Dec 33.0139 33 whole (9.17)
+    - J Capella → J Ketu Dec 32.9823 33 whole (1.27)
+  - 59 whole — only
+    - J Betelgeuse → J Ketu RA 58.9918 59 whole (34.63)
+    - J Capella → J Rahu Dec 59.0120 59 whole (16.05)
+  - 10 whole — also: 3 Leader Crik / Dylan Johnston
+    - J Pollux → J Chiron RA 9.9881 10 whole (16.29)
+    - J Zubenelgenubi → J Mercury Dec 9.9963 10 whole (66.44)
+  - 54 whole — only
+    - J Pollux → J Vesta Dec 54.0056 54 whole (51.75)
+    - J Procyon → J Makemake RA 54.0110 54 whole (20.36)
+### L4 every natal body
+- **Mercury**
+  - same body: S Mercury → H Mercury RA 145.6195 90×φ golden (79.11) — also: 2 Stride On / Derek Fox, 7 Dixie Mafia / Jack Tudor
+  - top rows: S Jupiter → H Mercury RA 144.4745 144.444 ninth (96.82) — only
+  - star rows: H Adhara → H Mercury RA 102.0081 102 whole (35.27) — also: 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: H Alhena → H Mercury Dec 17.9801 18 whole (0.00) — also: 1 Off The Jury / Sean Bowen
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: H Betelgeuse → H Mercury Dec 8.9874 9 whole (13.56) — also: 1 Off The Jury / Sean Bowen
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - star rows: J Zubenelgenubi → J Mercury Dec 9.9963 10 whole (66.44) — only
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+- **Ceres**
+  - same body: S Ceres → H Ceres RA 144.0872 144.444 ninth (loose) — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston
+  - same body: S Ceres → H Ceres Dec 43.6569 27×φ golden (loose) — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston
+  - star rows: H Kaus Australis → H Ceres Dec 14.9846 15 whole (5.38) — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+  - star rows: H Rukbat → H Ceres RA 40.0065 40 whole (45.74) — only
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+  - star rows: J Adhara → J Ceres Dec 49.9839 50 whole (3.72) — also: 1 Off The Jury / Sean Bowen
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: J Betelgeuse → J Ceres RA 1.1731 conj (4.75) — also: 3 Leader Crik / Dylan Johnston
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - star rows: J Capella → J Ceres Dec 24.9810 25 whole (0.25) — only
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - star rows: J Pollux → J Ceres Dec 7.0100 7 whole (24.76) — also: 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - star rows: J Rukbat → J Ceres RA 158.9919 159 whole (35.45) — only
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+- **Juno**
+  - same body: S Juno → H Juno RA 110.6894 10×φ^5 phi power (loose) — also: 7 Dixie Mafia / Jack Tudor
+  - star rows: H Pollux → H Juno RA 76.9948 77 whole (54.46) — only
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - top rows: S Moon → J Juno RA 1.1426 conj (5.68) — also: 2 Stride On / Derek Fox
+  - star rows: J Capella → J Juno RA 111.0048 111 whole (58.05) — only
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+- **Rahu**
+  - same body: S Rahu → H Rahu RA 122.8714 φ^10 phi power (loose) — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+  - star rows: J Betelgeuse → J Rahu RA 121.0082 121 whole (34.63) — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - star rows: J Capella → J Rahu Dec 59.0120 59 whole (16.05) — only
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - star rows: J Deneb Algedi → J Rahu RA 1.0206 conj (10.21) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - star rows: J Galactic Centre → J Rahu Dec 15.9935 16 whole (45.33) — also: 2 Stride On / Derek Fox
+    - source line: S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)
+- **Transpluto**
+  - same body: S Transpluto → H Transpluto RA 2.9924 3 whole (38.40) — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+  - star rows: H Deneb Algedi → H Transpluto Dec 26.9969 27 whole (71.47) — also: 2 Stride On / Derek Fox, 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - star rows: H Zubenelgenubi → H Transpluto RA 69.0095 69 whole (27.67) — also: 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+  - same body: S Transpluto → J Transpluto RA 12.2939 12.2222 ninth (loose) — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+  - top rows: S Jupiter → J Transpluto Dec 0.1655 conj (20.11) — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+  - star rows: J Alhena → J Transpluto RA 44.9863 45 whole (9.78) — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: J Galactic Centre → J Transpluto RA 122.0035 122 whole (68.33) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)
+  - star rows: J Kaus Australis → J Transpluto Dec 48.5448 30×φ golden (77.81) — also: 1 Off The Jury / Sean Bowen
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+- **Ketu**
+  - same body: S Ketu → H Ketu RA 122.8714 φ^10 phi power (loose) — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+    - source line: S Jupiter → Ketu RA 1.4737 conj (0.03)
+  - top rows: S Jupiter → J Ketu RA 0.6627 conj (31.16) — only
+  - star rows: J Adhara → J Ketu Dec 41.9826 42 whole (1.68) — only
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: J Betelgeuse → J Ketu RA 58.9918 59 whole (34.63) — also: 2 Stride On / Derek Fox, 7 Dixie Mafia / Jack Tudor
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - star rows: J Capella → J Ketu Dec 32.9823 33 whole (1.27) — only
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - star rows: J Pollux → J Ketu Dec 15.0113 15 whole (18.87) — also: 2 Stride On / Derek Fox, 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+- **Saturn**
+  - top rows: S Jupiter → H Saturn Dec 33.9993 34 whole (93.27) — also: 2 Stride On / Derek Fox
+  - star rows: H Capella → H Saturn RA 135.9131 84×φ golden (89.35) — also: 1 Off The Jury / Sean Bowen
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - star rows: H Capella → H Saturn Dec 66.0024 66 whole (77.05) — also: 1 Off The Jury / Sean Bowen
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - star rows: H Galactic Centre → H Saturn Dec 9.0022 9 whole (79.11) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)
+  - star rows: J Pollux → J Saturn RA 161.8212 100×φ^1 phi power (95.65) — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - star rows: J Procyon → J Saturn Dec 27.9928 28 whole (40.65) — also: 1 Off The Jury / Sean Bowen, 7 Dixie Mafia / Jack Tudor
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
+- **Pluto**
+  - top rows: S Jupiter → H Pluto Dec 35.9967 36 whole (69.92) — also: 1 Off The Jury / Sean Bowen, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+  - star rows: H Capella → H Pluto Dec 67.9999 68 whole (98.53) — also: 3 Leader Crik / Dylan Johnston
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - star rows: H Deneb Algedi → H Pluto RA 30.0058 30 whole (50.19) — also: 2 Stride On / Derek Fox
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - star rows: H Galactic Centre → H Pluto Dec 7.0048 7 whole (57.73) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)
+  - star rows: J Aculeus → J Pluto Dec 31.0125 31 whole (13.94) — only
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+- **Pallas**
+  - top rows: S Jupiter → H Pallas Dec 0.0216 conj (86.09) — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston
+  - star rows: H Adhara → H Pallas Dec 42.9921 43 whole (36.89) — only
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: H Capella → H Pallas Dec 31.9815 32 whole (0.55) — only
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - star rows: H Pollux → H Pallas Dec 14.0108 14 whole (21.11) — also: 2 Stride On / Derek Fox
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - star rows: H Rukbat → H Pallas RA 1.4991 conj (0.00) — only
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+  - star rows: J Alhena → J Pallas Dec 24.2722 15×φ golden (89.89) — also: 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+- **Sedna**
+  - top rows: S Jupiter → H Sedna Dec 5.9997 6 whole (96.81) — only
+  - star rows: H Capella → H Sedna Dec 38.0028 38 whole (73.89) — also: 2 Stride On / Derek Fox
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - star rows: H Galactic Centre → H Sedna Dec 37.0018 37 whole (82.37) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)
+  - star rows: H Kaus Australis → H Sedna RA 141.4170 141.4 sqrt2 (98.76) — only
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+  - star rows: J Adhara → J Sedna Dec 32.9921 33 whole (36.52) — also: 2 Stride On / Derek Fox
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: J Kaus Australis → J Sedna RA 126.2315 78×φ golden (5.45) — only
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+  - star rows: J Pollux → J Sedna Dec 24.0018 24 whole (82.64) — only
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+- **Mars**
+  - top rows: S Moon → H Mars RA 122.2559 122.222 ninth (95.34) — only
+  - star rows: H Pollux → H Mars RA 165.0339 102×φ golden (68.76) — also: 2 Stride On / Derek Fox
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - star rows: J Rukbat → J Mars RA 109.9814 110 whole (0.50) — also: 3 Leader Crik / Dylan Johnston
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+- **Orcus**
+  - top rows: S Moon → H Orcus Dec 1.9975 2 whole (76.57) — only
+  - star rows: H Aculeus → H Orcus RA 110.9360 10×φ^5 phi power (88.03) — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - star rows: H Capella → H Orcus RA 74.9816 75 whole (0.67) — only
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - star rows: H Procyon → H Orcus Dec 15.9914 16 whole (32.56) — also: 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
+  - same body: S Orcus → J Orcus Dec 17.9582 φ^6 phi power (loose) — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 7 Dixie Mafia / Jack Tudor
+  - star rows: J Adhara → J Orcus Dec 33.0139 33 whole (9.17) — only
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: J Rukbat → J Orcus RA 160.9804 161 whole (0.04) — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+- **Jupiter**
+  - top rows: S Ceres → H Jupiter RA 177.7011 177.778 ninth (94.00) — only
+  - star rows: H Deneb Algedi → H Jupiter Dec 5.0168 5 whole (2.48) — also: 3 Leader Crik / Dylan Johnston
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - same body: S Jupiter → J Jupiter Dec 8.8751 8.88889 ninth (loose) — only
+  - T2: J Jupiter → J star Alhena RA 0.0083 conj (98.89) — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+  - T2: J Jupiter → J star Deneb Algedi RA 132.6713 82×φ golden (58.97) — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+  - T2: J Jupiter → J star Deneb Algedi Dec 38.9942 39 whole (50.53) — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+  - top rows: S Sun → J Jupiter Dec 38.8383 24×φ golden (69.13) — also: 1 Off The Jury / Sean Bowen
+  - top rows: S Chiron → J Jupiter RA 74.0023 74 whole (78.25) — also: 2 Stride On / Derek Fox
+  - top rows: S Rahu → J Jupiter Dec 35.5976 22×φ golden (94.74) — only
+  - top rows: S Gonggong → J Jupiter RA 122.2677 122.222 ninth (93.70) — only
+  - star rows: S Alhena → J Jupiter RA 0.0037 conj (99.51) — also: 1 Off The Jury / Sean Bowen, 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: S Deneb Algedi → J Jupiter RA 132.6721 82×φ golden (62.75) — also: 3 Leader Crik / Dylan Johnston
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - star rows: S Deneb Algedi → J Jupiter Dec 38.9986 39 whole (86.71) — also: 3 Leader Crik / Dylan Johnston
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - star rows: J Galactic Centre → J Jupiter RA 166.9814 167 whole (0.48) — also: 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor
+    - source line: S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)
+- **Venus**
+  - star rows: H Aculeus → H Venus Dec 58.0155 58 whole (4.96) — also: 3 Leader Crik / Dylan Johnston
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - same body: S Venus → J Venus Dec 3.3338 3.33333 ninth (94.04) — also: 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+  - top rows: S Sun → J Venus Dec 0.2220 conj (6.76) — also: 3 Leader Crik / Dylan Johnston
+  - star rows: J Betelgeuse → J Venus RA 127.8330 79×φ golden (55.40) — only
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - star rows: J Zubenelgenubi → J Venus Dec 0.2933 conj (0.05) — also: 2 Stride On / Derek Fox
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+- **Vesta**
+  - star rows: H Aculeus → H Vesta Dec 51.9826 52 whole (1.67) — also: 7 Dixie Mafia / Jack Tudor
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - star rows: H Adhara → H Vesta RA 38.0109 38 whole (20.75) — also: 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: J Adhara → J Vesta Dec 2.9883 3 whole (17.19) — also: 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: J Kaus Australis → J Vesta RA 0.4469 conj (49.29) — also: 1 Off The Jury / Sean Bowen
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+  - star rows: J Pollux → J Vesta Dec 54.0056 54 whole (51.75) — also: 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+- **Eris**
+  - star rows: H Aculeus → H Eris RA 120.9895 121 whole (22.54) — also: 7 Dixie Mafia / Jack Tudor
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - star rows: H Alhena → H Eris Dec 18.0068 18 whole (43.75) — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: H Betelgeuse → H Eris Dec 9.0140 9 whole (8.88) — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - star rows: H Kaus Australis → H Eris RA 110.0311 68×φ golden (72.48) — also: 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+  - star rows: H Rukbat → H Eris Dec 39.0064 39 whole (46.11) — also: 3 Leader Crik / Dylan Johnston
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+  - star rows: J Aculeus → J Eris Dec 22.6597 14×φ golden (60.12) — also: 7 Dixie Mafia / Jack Tudor
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - star rows: J Alhena → J Eris Dec 25.9946 26 whole (53.09) — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: J Betelgeuse → J Eris Dec 17.0030 17 whole (72.23) — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - star rows: J Galactic Centre → J Eris Dec 19.4139 12×φ golden (85.27) — also: 2 Stride On / Derek Fox
+    - source line: S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)
+- **Neptune**
+  - star rows: H Adhara → H Neptune RA 114.0073 114 whole (40.31) — also: 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: H Deneb Algedi → H Neptune Dec 10.9842 11 whole (4.38) — also: 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - star rows: J Betelgeuse → J Neptune RA 168.2563 104×φ golden (16.37) — only
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+- **Haumea**
+  - star rows: H Alhena → H Haumea Dec 0.0597 conj (64.14) — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: H Capella → H Haumea RA 135.9459 84×φ golden (0.17) — also: 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - star rows: H Deneb Algedi → H Haumea RA 111.6442 69×φ golden (99.25) — also: 1 Off The Jury / Sean Bowen
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - same body: S Haumea → J Haumea RA 33.9609 21×φ golden (loose) — also: 1 Off The Jury / Sean Bowen, 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Haumea RA 0.5695 conj (38.48)
+  - star rows: J Betelgeuse → J Haumea RA 97.9805 98 whole (0.06) — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 7 Dixie Mafia / Jack Tudor
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - star rows: J Deneb Algedi → J Haumea RA 139.9906 140 whole (28.28) — also: 1 Off The Jury / Sean Bowen
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - star rows: J Rukbat → J Haumea Dec 63.1055 39×φ golden (87.11) — only
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+- **Quaoar**
+  - star rows: H Alphard → H Quaoar RA 132.6564 82×φ golden (9.49) — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+  - star rows: H Kaus Australis → H Quaoar RA 1.4890 conj (0.01) — also: 3 Leader Crik / Dylan Johnston
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+  - same body: S Quaoar → J Quaoar RA 48.5627 30×φ golden (loose) — also: 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies
+  - same body: S Quaoar → J Quaoar Dec 2.0256 2 whole (loose) — also: 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies
+  - star rows: J Deneb Algedi → J Quaoar Dec 2.9973 3 whole (74.63) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+- **Gonggong**
+  - star rows: H Alphard → H Gonggong RA 165.0433 102×φ golden (77.93) — also: 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+- **Makemake**
+  - star rows: H Betelgeuse → H Makemake RA 108.0001 108 whole (98.85) — also: 1 Off The Jury / Sean Bowen
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - star rows: H Zubenelgenubi → H Makemake Dec 40.0069 40 whole (43.22) — also: 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+  - same body: S Makemake → J Makemake Dec 15.5349 15.5556 ninth (loose) — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies
+  - star rows: J Procyon → J Makemake RA 54.0110 54 whole (20.36) — also: 1 Off The Jury / Sean Bowen
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
+- **Chiron**
+  - star rows: H Deneb Algedi → H Chiron Dec 21.0371 13×φ golden (84.18) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - same body: S Chiron → J Chiron RA 80.9073 50×φ golden (68.46) — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 7 Dixie Mafia / Jack Tudor
+  - star rows: J Alhena → J Chiron Dec 0.2769 conj (0.59) — also: 1 Off The Jury / Sean Bowen
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: J Pollux → J Chiron RA 9.9881 10 whole (16.29) — also: 1 Off The Jury / Sean Bowen, 7 Dixie Mafia / Jack Tudor
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+- **Sun**
+  - star rows: H Kaus Australis → H Sun RA 105.0081 105 whole (35.50) — also: 1 Off The Jury / Sean Bowen
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+  - star rows: J Betelgeuse → J Sun Dec 6.4726 4×φ golden (97.02) — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - star rows: J Procyon → J Sun RA 63.0108 63 whole (21.27) — also: 7 Dixie Mafia / Jack Tudor
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
+- **Uranus**
+  - star rows: H Zubenelgenubi → H Uranus Dec 28.9802 29 whole (0.01) — only
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+  - same body: S Uranus → J Uranus RA 150.4657 93×φ golden (41.89) — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston
+  - star rows: J Adhara → J Uranus RA 167.0102 167 whole (24.12) — only
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: J Pollux → J Uranus RA 155.3367 96×φ golden (69.21) — also: 2 Stride On / Derek Fox
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
 
 ## 7 Dixie Mafia / Jack Tudor
 ### L1 same bodies
@@ -1391,116 +2398,200 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - S Gonggong → J Gonggong Dec 6.0163 6 whole (3.45)
 ### L2 what lands on each same body
 - **H Mercury** (same body: S Mercury → H Mercury RA 141.1262 141.4 sqrt2 (loose))
-  - star rows: H Capella → H Mercury RA 81.0195 81 whole (0.07) [Jupiter]
-  - star rows: H Kaus Australis → H Mercury Dec 36.9900 37 whole (25.07) [Moon]
-  - other chart, star rows: J Adhara → J Mercury Dec 52.9836 53 whole (3.20) [Sun]
-  - other chart, star rows: J Capella → J Mercury RA 13.0089 13 whole (30.57) [Jupiter]
-  - other chart, star rows: J Capella → J Mercury Dec 21.9905 22 whole (27.37) [Jupiter]
-  - other chart, star rows: J Galactic Centre → J Mercury Dec 53.0157 53 whole (4.70) [Jupiter]
-  - other chart, star rows: J Pollux → J Mercury Dec 4.0191 4 whole (0.20) [Sun]
+  - star rows: H Capella → H Mercury RA 81.0195 81 whole (0.07)
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - star rows: H Kaus Australis → H Mercury Dec 36.9900 37 whole (25.07)
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+  - other chart, star rows: J Adhara → J Mercury Dec 52.9836 53 whole (3.20)
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - other chart, star rows: J Capella → J Mercury RA 13.0089 13 whole (30.57)
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - other chart, star rows: J Capella → J Mercury Dec 21.9905 22 whole (27.37)
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - other chart, star rows: J Galactic Centre → J Mercury Dec 53.0157 53 whole (4.70)
+    - source line: S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)
+  - other chart, star rows: J Pollux → J Mercury Dec 4.0191 4 whole (0.20)
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
 - **H Venus** (same body: S Venus → H Venus Dec 6.0296 6 whole (loose))
-  - star rows: H Adhara → H Venus RA 156.9912 157 whole (31.50) [Sun]
-  - other chart, star rows: J Deneb Algedi → J Venus Dec 40.0163 40 whole (3.43) [Sun]
-  - other chart, star rows: J Rukbat → J Venus RA 144.4073 144.444 ninth (96.07) [Moon]
+  - star rows: H Adhara → H Venus RA 156.9912 157 whole (31.50)
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - other chart, star rows: J Deneb Algedi → J Venus Dec 40.0163 40 whole (3.43)
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - other chart, star rows: J Rukbat → J Venus RA 144.4073 144.444 ninth (96.07)
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
 - **H Pluto** (same body: S Pluto → H Pluto RA 12.0223 12 whole (loose))
-  - top rows: S Jupiter → H Pluto RA 147.0051 147 whole (55.32) [Jupiter]
-  - star rows: H Pollux → H Pluto RA 177.7978 177.778 ninth (98.43) [Sun]
-  - star rows: H Procyon → H Pluto Dec 27.0095 27 whole (27.39) [Moon]
+  - top rows: S Jupiter → H Pluto RA 147.0051 147 whole (55.32)
+  - star rows: H Pollux → H Pluto RA 177.7978 177.778 ninth (98.43)
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - star rows: H Procyon → H Pluto Dec 27.0095 27 whole (27.39)
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
   - other chart, same body: S Pluto → J Pluto Dec 10.9770 11 whole (loose)
 - **H Chiron** (same body: S Chiron → H Chiron RA 26.0873 10×φ^2 phi power (loose))
-  - star rows: H Pollux → H Chiron RA 116.9836 117 whole (3.21) [Sun]
-  - other chart, star rows: J Aculeus → J Chiron RA 13.9969 14 whole (71.22) [Moon]
+  - star rows: H Pollux → H Chiron RA 116.9836 117 whole (3.21)
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - other chart, star rows: J Aculeus → J Chiron RA 13.9969 14 whole (71.22)
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
 - **H Vesta** (same body: S Vesta → H Vesta Dec 5.0266 5 whole (loose))
-  - star rows: H Aculeus → H Vesta Dec 22.6504 14×φ golden (87.72) [Moon]
-  - star rows: H Alhena → H Vesta Dec 26.0003 26 whole (97.31) [Sun]
-  - star rows: H Betelgeuse → H Vesta Dec 17.0077 17 whole (38.09) [Moon]
-  - star rows: H Rukbat → H Vesta Dec 31.0135 31 whole (10.65) [Moon]
-  - star rows: H Zubenelgenubi → H Vesta RA 126.2247 78×φ golden (19.50) [Sun]
-  - other chart, star rows: J Betelgeuse → J Vesta RA 0.9283 conj (14.52) [Moon]
+  - star rows: H Aculeus → H Vesta Dec 22.6504 14×φ golden (87.72)
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - star rows: H Alhena → H Vesta Dec 26.0003 26 whole (97.31)
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: H Betelgeuse → H Vesta Dec 17.0077 17 whole (38.09)
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - star rows: H Rukbat → H Vesta Dec 31.0135 31 whole (10.65)
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+  - star rows: H Zubenelgenubi → H Vesta RA 126.2247 78×φ golden (19.50)
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+  - other chart, star rows: J Betelgeuse → J Vesta RA 0.9283 conj (14.52)
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
 - **H Rahu** (same body: S Rahu → H Rahu RA 148.8624 92×φ golden (80.73))
-  - star rows: H Adhara → H Rahu Dec 50.0164 50 whole (3.33) [Sun]
-  - star rows: H Kaus Australis → H Rahu RA 158.5823 98×φ golden (28.95) [Moon]
-  - star rows: H Pollux → H Rahu RA 1.1288 conj (6.12) [Sun]
-  - star rows: H Pollux → H Rahu Dec 6.9856 7 whole (7.96) [Sun]
-  - other chart, star rows: J Aculeus → J Rahu RA 171.9937 172 whole (47.16) [Moon]
-  - other chart, star rows: J Zubenelgenubi → J Rahu RA 145.6428 90×φ golden (15.16) [Sun]
+  - star rows: H Adhara → H Rahu Dec 50.0164 50 whole (3.33)
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: H Kaus Australis → H Rahu RA 158.5823 98×φ golden (28.95)
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+  - star rows: H Pollux → H Rahu RA 1.1288 conj (6.12)
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - star rows: H Pollux → H Rahu Dec 6.9856 7 whole (7.96)
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - other chart, star rows: J Aculeus → J Rahu RA 171.9937 172 whole (47.16)
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - other chart, star rows: J Zubenelgenubi → J Rahu RA 145.6428 90×φ golden (15.16)
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
 - **H Eris** (same body: S Eris → H Eris RA 1.2177 1.22222 ninth (loose))
-  - top rows: S Moon → H Eris RA 163.4167 101×φ golden (72.72) [Moon]
-  - star rows: H Zubenelgenubi → H Eris Dec 13.9955 14 whole (60.35) [Sun]
-  - other chart, star rows: J Aculeus → J Eris RA 119.0123 119 whole (14.82) [Moon]
-  - other chart, star rows: J Pollux → J Eris RA 92.2251 57×φ golden (83.31) [Sun]
+  - top rows: S Moon → H Eris RA 163.4167 101×φ golden (72.72)
+  - star rows: H Zubenelgenubi → H Eris Dec 13.9955 14 whole (60.35)
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+  - other chart, star rows: J Aculeus → J Eris RA 119.0123 119 whole (14.82)
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - other chart, star rows: J Pollux → J Eris RA 92.2251 57×φ golden (83.31)
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
 - **H Haumea** (same body: S Haumea → H Haumea RA 6.0297 6 whole (loose))
-  - body line: S Sun → Haumea RA 0.5695 conj (38.48)
-  - T1: H Jupiter → H Haumea Dec 38.9947 39 whole (53.87) [Jupiter]
-  - star rows: H Adhara → H Haumea RA 110.0449 68×φ golden (18.03) [Sun]
-  - star rows: H Alhena → H Haumea Dec 0.0127 conj (91.73) [Sun]
-  - star rows: H Betelgeuse → H Haumea Dec 9.0053 9 whole (54.11) [Moon]
-  - star rows: H Zubenelgenubi → H Haumea RA 8.0173 8 whole (1.82) [Sun]
+  - sky line to Haumea: S Sun → Haumea RA 0.5695 conj (38.48)
+  - T1: H Jupiter → H Haumea Dec 38.9947 39 whole (53.87)
+  - star rows: H Adhara → H Haumea RA 110.0449 68×φ golden (18.03)
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: H Alhena → H Haumea Dec 0.0127 conj (91.73)
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: H Betelgeuse → H Haumea Dec 9.0053 9 whole (54.11)
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - star rows: H Zubenelgenubi → H Haumea RA 8.0173 8 whole (1.82)
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
   - other chart, same body: S Haumea → J Haumea RA 22.6512 14×φ golden (91.97)
-  - other chart, star rows: J Aculeus → J Haumea RA 67.0055 67 whole (52.44) [Moon]
+  - other chart, star rows: J Aculeus → J Haumea RA 67.0055 67 whole (52.44)
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
 - **H Gonggong** (same body: S Gonggong → H Gonggong Dec 1.6688 1.66667 ninth (loose))
-  - star rows: H Adhara → H Gonggong Dec 16.9946 17 whole (53.34) [Sun]
-  - star rows: H Pollux → H Gonggong Dec 40.0074 40 whole (39.77) [Sun]
+  - star rows: H Adhara → H Gonggong Dec 16.9946 17 whole (53.34)
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: H Pollux → H Gonggong Dec 40.0074 40 whole (39.77)
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
   - other chart, same body: S Gonggong → J Gonggong Dec 6.0163 6 whole (3.45)
-  - other chart, star rows: J Deneb Algedi → J Gonggong Dec 0.2016 conj (10.75) [Sun]
-  - other chart, star rows: J Zubenelgenubi → J Gonggong Dec 0.2856 conj (0.23) [Sun]
+  - other chart, star rows: J Deneb Algedi → J Gonggong Dec 0.2016 conj (10.75)
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - other chart, star rows: J Zubenelgenubi → J Gonggong Dec 0.2856 conj (0.23)
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
 - **H Transpluto** (same body: S Transpluto → H Transpluto RA 3.0298 3 whole (loose))
-  - star rows: H Adhara → H Transpluto RA 49.0177 49 whole (1.31) [Sun]
-  - star rows: H Deneb Algedi → H Transpluto Dec 27.0122 27 whole (15.14) [Sun]
-  - other chart, top rows: S Jupiter → J Transpluto RA 0.6597 conj (31.38) [Jupiter]
-  - other chart, star rows: J Adhara → J Transpluto Dec 41.9903 42 whole (26.29) [Sun]
-  - other chart, star rows: J Betelgeuse → J Transpluto RA 58.9930 59 whole (41.94) [Moon]
-  - other chart, star rows: J Capella → J Transpluto Dec 32.9838 33 whole (3.58) [Jupiter]
-  - other chart, star rows: J Pollux → J Transpluto Dec 15.0124 15 whole (14.38) [Sun]
+  - star rows: H Adhara → H Transpluto RA 49.0177 49 whole (1.31)
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: H Deneb Algedi → H Transpluto Dec 27.0122 27 whole (15.14)
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - other chart, top rows: S Jupiter → J Transpluto RA 0.6597 conj (31.38)
+  - other chart, star rows: J Adhara → J Transpluto Dec 41.9903 42 whole (26.29)
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - other chart, star rows: J Betelgeuse → J Transpluto RA 58.9930 59 whole (41.94)
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - other chart, star rows: J Capella → J Transpluto Dec 32.9838 33 whole (3.58)
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - other chart, star rows: J Pollux → J Transpluto Dec 15.0124 15 whole (14.38)
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
 - **H Ketu** (same body: S Ketu → H Ketu RA 148.8624 92×φ golden (80.73))
-  - body line: S Jupiter → Ketu RA 1.4737 conj (0.03)
-  - star rows: H Alphard → H Ketu RA 155.5563 155.556 ninth (99.93) [Jupiter, Moon]
-  - star rows: H Zubenelgenubi → H Ketu Dec 4.9972 5 whole (73.73) [Sun]
-  - other chart, T2: J Jupiter → J Ketu Dec 45.9965 46 whole (68.34) [Jupiter]
-  - other chart, star rows: J Aculeus → J Ketu RA 8.0063 8 whole (47.16) [Moon]
-  - other chart, star rows: J Betelgeuse → J Ketu RA 168.2936 104×φ golden (19.53) [Moon]
-  - other chart, star rows: J Pollux → J Ketu RA 140.7563 87×φ golden (37.15) [Sun]
+  - sky line to Ketu: S Jupiter → Ketu RA 1.4737 conj (0.03)
+  - star rows: H Alphard → H Ketu RA 155.5563 155.556 ninth (99.93)
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+  - star rows: H Zubenelgenubi → H Ketu Dec 4.9972 5 whole (73.73)
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+  - other chart, T2: J Jupiter → J Ketu Dec 45.9965 46 whole (68.34)
+  - other chart, star rows: J Aculeus → J Ketu RA 8.0063 8 whole (47.16)
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - other chart, star rows: J Betelgeuse → J Ketu RA 168.2936 104×φ golden (19.53)
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - other chart, star rows: J Pollux → J Ketu RA 140.7563 87×φ golden (37.15)
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
 - **J Sun** (same body: S Sun → J Sun Dec 33.3434 33.3333 ninth (loose))
-  - star rows: J Rukbat → J Sun Dec 57.9884 58 whole (17.61) [Moon]
-  - other chart, top rows: S Moon → H Sun Dec 3.0029 3 whole (73.13) [Moon]
-  - other chart, star rows: H Adhara → H Sun RA 118.1413 73×φ golden (5.45) [Sun]
-  - other chart, star rows: H Capella → H Sun Dec 51.7714 32×φ golden (67.98) [Jupiter]
-  - other chart, star rows: H Procyon → H Sun Dec 10.9911 11 whole (30.77) [Moon]
-  - other chart, star rows: H Rukbat → H Sun RA 55.5508 55.5556 ninth (95.47) [Moon]
+  - star rows: J Rukbat → J Sun Dec 57.9884 58 whole (17.61)
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+  - other chart, top rows: S Moon → H Sun Dec 3.0029 3 whole (73.13)
+  - other chart, star rows: H Adhara → H Sun RA 118.1413 73×φ golden (5.45)
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - other chart, star rows: H Capella → H Sun Dec 51.7714 32×φ golden (67.98)
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - other chart, star rows: H Procyon → H Sun Dec 10.9911 11 whole (30.77)
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
+  - other chart, star rows: H Rukbat → H Sun RA 55.5508 55.5556 ninth (95.47)
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
 - **J Pluto** (same body: S Pluto → J Pluto Dec 10.9770 11 whole (loose))
   - other chart, same body: S Pluto → H Pluto RA 12.0223 12 whole (loose)
-  - other chart, top rows: S Jupiter → H Pluto RA 147.0051 147 whole (55.32) [Jupiter]
-  - other chart, star rows: H Pollux → H Pluto RA 177.7978 177.778 ninth (98.43) [Sun]
-  - other chart, star rows: H Procyon → H Pluto Dec 27.0095 27 whole (27.39) [Moon]
+  - other chart, top rows: S Jupiter → H Pluto RA 147.0051 147 whole (55.32)
+  - other chart, star rows: H Pollux → H Pluto RA 177.7978 177.778 ninth (98.43)
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - other chart, star rows: H Procyon → H Pluto Dec 27.0095 27 whole (27.39)
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
 - **J Juno** (same body: S Juno → J Juno RA 161.7115 100×φ^1 phi power (loose))
-  - top rows: S Sun → J Juno RA 79.0058 79 whole (50.29) [Sun]
-  - star rows: J Alphard → J Juno RA 0.4009 conj (53.69) [Jupiter, Moon]
-  - star rows: J Deneb Algedi → J Juno Dec 29.0319 φ^7 phi power (96.48) [Sun]
+  - top rows: S Sun → J Juno RA 79.0058 79 whole (50.29)
+  - star rows: J Alphard → J Juno RA 0.4009 conj (53.69)
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+  - star rows: J Deneb Algedi → J Juno Dec 29.0319 φ^7 phi power (96.48)
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
 - **J Sedna** (same body: S Sedna → J Sedna RA 14.0850 14.14 sqrt2 (loose))
-  - star rows: J Rukbat → J Sedna RA 117.0114 117 whole (18.69) [Moon]
-  - star rows: J Zubenelgenubi → J Sedna RA 174.7387 108×φ golden (52.19) [Sun]
+  - star rows: J Rukbat → J Sedna RA 117.0114 117 whole (18.69)
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+  - star rows: J Zubenelgenubi → J Sedna RA 174.7387 108×φ golden (52.19)
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
 - **J Haumea** (same body: S Haumea → J Haumea RA 22.6512 14×φ golden (91.97))
-  - body line: S Sun → Haumea RA 0.5695 conj (38.48)
-  - star rows: J Aculeus → J Haumea RA 67.0055 67 whole (52.44) [Moon]
+  - sky line to Haumea: S Sun → Haumea RA 0.5695 conj (38.48)
+  - star rows: J Aculeus → J Haumea RA 67.0055 67 whole (52.44)
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
   - other chart, same body: S Haumea → H Haumea RA 6.0297 6 whole (loose)
-  - other chart, T1: H Jupiter → H Haumea Dec 38.9947 39 whole (53.87) [Jupiter]
-  - other chart, star rows: H Adhara → H Haumea RA 110.0449 68×φ golden (18.03) [Sun]
-  - other chart, star rows: H Alhena → H Haumea Dec 0.0127 conj (91.73) [Sun]
-  - other chart, star rows: H Betelgeuse → H Haumea Dec 9.0053 9 whole (54.11) [Moon]
-  - other chart, star rows: H Zubenelgenubi → H Haumea RA 8.0173 8 whole (1.82) [Sun]
+  - other chart, T1: H Jupiter → H Haumea Dec 38.9947 39 whole (53.87)
+  - other chart, star rows: H Adhara → H Haumea RA 110.0449 68×φ golden (18.03)
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - other chart, star rows: H Alhena → H Haumea Dec 0.0127 conj (91.73)
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - other chart, star rows: H Betelgeuse → H Haumea Dec 9.0053 9 whole (54.11)
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - other chart, star rows: H Zubenelgenubi → H Haumea RA 8.0173 8 whole (1.82)
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
 - **J Orcus** (same body: S Orcus → J Orcus Dec 11.9918 12 whole (34.61))
-  - top rows: S Sun → J Orcus RA 82.5156 51×φ golden (75.91) [Sun]
-  - star rows: J Betelgeuse → J Orcus RA 49.9995 50 whole (94.60) [Moon]
-  - other chart, star rows: H Kaus Australis → H Orcus RA 122.2085 122.222 ninth (98.10) [Moon]
-  - other chart, star rows: H Procyon → H Orcus RA 39.0067 39 whole (44.47) [Moon]
-  - other chart, star rows: H Rukbat → H Orcus Dec 29.9898 30 whole (24.05) [Moon]
+  - top rows: S Sun → J Orcus RA 82.5156 51×φ golden (75.91)
+  - star rows: J Betelgeuse → J Orcus RA 49.9995 50 whole (94.60)
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - other chart, star rows: H Kaus Australis → H Orcus RA 122.2085 122.222 ninth (98.10)
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+  - other chart, star rows: H Procyon → H Orcus RA 39.0067 39 whole (44.47)
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
+  - other chart, star rows: H Rukbat → H Orcus Dec 29.9898 30 whole (24.05)
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
 - **J Gonggong** (same body: S Gonggong → J Gonggong Dec 6.0163 6 whole (3.45))
-  - star rows: J Deneb Algedi → J Gonggong Dec 0.2016 conj (10.75) [Sun]
-  - star rows: J Zubenelgenubi → J Gonggong Dec 0.2856 conj (0.23) [Sun]
+  - star rows: J Deneb Algedi → J Gonggong Dec 0.2016 conj (10.75)
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - star rows: J Zubenelgenubi → J Gonggong Dec 0.2856 conj (0.23)
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
   - other chart, same body: S Gonggong → H Gonggong Dec 1.6688 1.66667 ninth (loose)
-  - other chart, star rows: H Adhara → H Gonggong Dec 16.9946 17 whole (53.34) [Sun]
-  - other chart, star rows: H Pollux → H Gonggong Dec 40.0074 40 whole (39.77) [Sun]
-### L3 the seven cases (L5 field tag on each)
+  - other chart, star rows: H Adhara → H Gonggong Dec 16.9946 17 whole (53.34)
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - other chart, star rows: H Pollux → H Gonggong Dec 40.0074 40 whole (39.77)
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+### L3 matches
 - **1. same body on both charts**
   - Pluto — only
     - S Pluto → H Pluto RA 12.0223 12 whole (loose)
@@ -1530,41 +2621,61 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 43 whole — also: 6 Barnpark / Harry Skelton
     - J Pollux → J Saturn RA 42.9918 43 whole (34.68) = S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)
 - **4. circle divisions**
-  - 6 = 360/60 — also: 1 Off The Jury / Sean Bowen, 6 Barnpark / Harry Skelton
+  - 6 = 360/60 — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton
     - S Venus → H Venus Dec 6.0296 6 whole (loose)
-  - 12 = 360/30 — also: 3 Leader Crik / Dylan Johnston
+  - 12 = 360/30 — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies
     - S Pluto → H Pluto RA 12.0223 12 whole (loose)
-  - 5 = 360/72 — also: 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies
+  - 5 = 360/72 — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
     - S Vesta → H Vesta Dec 5.0266 5 whole (loose)
-  - 6 = 360/60 — also: 1 Off The Jury / Sean Bowen, 6 Barnpark / Harry Skelton
+  - 6 = 360/60 — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton
     - S Haumea → H Haumea RA 6.0297 6 whole (loose)
   - 3 = 360/120 — also: 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton
     - S Transpluto → H Transpluto RA 3.0298 3 whole (loose)
   - 3 = 360/120 — also: 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton
     - S Moon → H Sun Dec 3.0029 3 whole (73.13)
-  - 9 = 360/40 — also: 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton
+  - 8 = 360/45 — only
+    - H Aculeus → H Quaoar RA 7.9821 8 whole (1.12)
+  - 30 = 360/12 — also: 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton
+    - S Betelgeuse → H Jupiter Dec 29.9921 30 whole (36.54)
+  - 9 = 360/40 — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
     - H Betelgeuse → H Haumea Dec 9.0053 9 whole (54.11)
-  - 5 = 360/72 — also: 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies
+  - 40 = 360/9 — also: 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton
+    - H Pollux → H Gonggong Dec 40.0074 40 whole (39.77)
+  - 30 = 360/12 — also: 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton
+    - H Rukbat → H Orcus Dec 29.9898 30 whole (24.05)
+  - 8 = 360/45 — only
+    - H Zubenelgenubi → H Haumea RA 8.0173 8 whole (1.82)
+  - 5 = 360/72 — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
     - H Zubenelgenubi → H Ketu Dec 4.9972 5 whole (73.73)
-  - 12 = 360/30 — also: 3 Leader Crik / Dylan Johnston
+  - 12 = 360/30 — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies
     - S Orcus → J Orcus Dec 11.9918 12 whole (34.61)
-  - 6 = 360/60 — also: 1 Off The Jury / Sean Bowen, 6 Barnpark / Harry Skelton
+  - 6 = 360/60 — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton
     - S Gonggong → J Gonggong Dec 6.0163 6 whole (3.45)
-  - 15 = 360/24 — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston
+  - 15 = 360/24 — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
     - J Aculeus → J Quaoar RA 15.0011 15 whole (88.85)
-  - 4 = 360/90 — also: 4 Below The Radar / Sam Twiston-Davies
+  - 8 = 360/45 — only
+    - J Aculeus → J Ketu RA 8.0063 8 whole (47.16)
+  - 4 = 360/90 — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies
+    - J Alhena → J Jupiter RA 3.9802 4 whole (0.01)
+  - 4 = 360/90 — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies
     - J Alphard → J Uranus Dec 3.9956 4 whole (60.49)
-  - 40 = 360/9 — also: 2 Stride On / Derek Fox
+  - 40 = 360/9 — also: 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton
+    - J Deneb Algedi → J Venus Dec 40.0163 40 whole (3.43)
+  - 4 = 360/90 — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies
+    - J Pollux → J Mercury Dec 4.0191 4 whole (0.20)
+  - 15 = 360/24 — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
+    - J Pollux → J Transpluto Dec 15.0124 15 whole (14.38)
+  - 40 = 360/9 — also: 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton
     - J Rukbat → J Uranus RA 39.9984 40 whole (84.34)
 - **5. same number in more than one place**
-  - 6 whole — also: 1 Off The Jury / Sean Bowen
+  - 6 whole — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox
     - S Venus → H Venus Dec 6.0296 6 whole (loose)
     - S Haumea → H Haumea RA 6.0297 6 whole (loose)
     - S Gonggong → J Gonggong Dec 6.0163 6 whole (3.45)
-  - 12 whole — only
+  - 12 whole — also: 1 Off The Jury / Sean Bowen
     - S Pluto → H Pluto RA 12.0223 12 whole (loose)
     - S Orcus → J Orcus Dec 11.9918 12 whole (34.61)
-  - 5 whole — only
+  - 5 whole — also: 2 Stride On / Derek Fox
     - S Vesta → H Vesta Dec 5.0266 5 whole (loose)
     - H Zubenelgenubi → H Ketu Dec 4.9972 5 whole (73.73)
   - 92×φ golden — only
@@ -1573,6 +2684,10 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 3 whole — also: 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton
     - S Transpluto → H Transpluto RA 3.0298 3 whole (loose)
     - S Moon → H Sun Dec 3.0029 3 whole (73.13)
+  - 39 whole — also: 1 Off The Jury / Sean Bowen, 6 Barnpark / Harry Skelton
+    - H Jupiter → H Haumea Dec 38.9947 39 whole (53.87)
+    - S Alhena → H Jupiter Dec 38.9830 39 whole (2.26)
+    - H Procyon → H Orcus RA 39.0067 39 whole (44.47)
   - 3×φ golden — only
     - H Jupiter → H star Galactic Centre RA 4.8542 3×φ golden (99.66)
     - H Galactic Centre → H Jupiter RA 4.8542 3×φ golden (99.66)
@@ -1582,126 +2697,301 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 14×φ golden — also: 1 Off The Jury / Sean Bowen
     - H Aculeus → H Vesta Dec 22.6504 14×φ golden (87.72)
     - S Haumea → J Haumea RA 22.6512 14×φ golden (91.97)
+  - 8 whole — only
+    - H Aculeus → H Quaoar RA 7.9821 8 whole (1.12)
+    - H Zubenelgenubi → H Haumea RA 8.0173 8 whole (1.82)
+    - J Aculeus → J Ketu RA 8.0063 8 whole (47.16)
+  - 50 whole — only
+    - H Adhara → H Rahu Dec 50.0164 50 whole (3.33)
+    - J Betelgeuse → J Orcus RA 49.9995 50 whole (94.60)
+  - 17 whole — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston
+    - H Adhara → H Gonggong Dec 16.9946 17 whole (53.34)
+    - H Betelgeuse → H Vesta Dec 17.0077 17 whole (38.09)
+    - J Kaus Australis → J Neptune Dec 16.9817 17 whole (0.72)
+  - 30 whole — only
+    - S Betelgeuse → H Jupiter Dec 29.9921 30 whole (36.54)
+    - H Rukbat → H Orcus Dec 29.9898 30 whole (24.05)
+  - 27 whole — also: 4 Below The Radar / Sam Twiston-Davies
+    - H Deneb Algedi → H Transpluto Dec 27.0122 27 whole (15.14)
+    - H Procyon → H Pluto Dec 27.0095 27 whole (27.39)
+  - 37 whole — only
+    - H Kaus Australis → H Mercury Dec 36.9900 37 whole (25.07)
+    - S Orcus → J Jupiter Dec 37.0008 37 whole (91.97)
+  - 117 whole — only
+    - H Pollux → H Chiron RA 116.9836 117 whole (3.21)
+    - J Rukbat → J Sedna RA 117.0114 117 whole (18.69)
+  - 40 whole — also: 6 Barnpark / Harry Skelton
+    - H Pollux → H Gonggong Dec 40.0074 40 whole (39.77)
+    - J Deneb Algedi → J Venus Dec 40.0163 40 whole (3.43)
+    - J Rukbat → J Uranus RA 39.9984 40 whole (84.34)
+  - 11 whole — only
+    - H Procyon → H Sun Dec 10.9911 11 whole (30.77)
+    - S Pluto → J Pluto Dec 10.9770 11 whole (loose)
   - 14 whole — only
     - H Zubenelgenubi → H Eris Dec 13.9955 14 whole (60.35)
     - J Aculeus → J Chiron RA 13.9969 14 whole (71.22)
-- **6. star and sky line on one body**
-  - J Juno on Alphard — only
-    - J Alphard → J Juno RA 0.4009 conj (53.69)
-    - S Sun → J Juno RA 79.0058 79 whole (50.29)
-- **7. centres meeting**
-  - Haumea: Jupiter, Moon, Sun — also: 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
-    - [Jupiter] H Jupiter → H Haumea Dec 38.9947 39 whole (53.87)
-    - [Moon] H Betelgeuse → H Haumea Dec 9.0053 9 whole (54.11)
-    - [Moon] J Aculeus → J Haumea RA 67.0055 67 whole (52.44)
-    - [Sun] S Haumea → H Haumea RA 6.0297 6 whole (loose)
-    - [Sun] H Adhara → H Haumea RA 110.0449 68×φ golden (18.03)
-    - [Sun] H Alhena → H Haumea Dec 0.0127 conj (91.73)
-    - [Sun] H Zubenelgenubi → H Haumea RA 8.0173 8 whole (1.82)
-    - [Sun] S Haumea → J Haumea RA 22.6512 14×φ golden (91.97)
-  - Ketu: Jupiter, Moon, Sun — also: 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
-    - [Jupiter] S Ketu → H Ketu RA 148.8624 92×φ golden (80.73)
-    - [Jupiter] H Alphard → H Ketu RA 155.5563 155.556 ninth (99.93)
-    - [Jupiter] J Jupiter → J Ketu Dec 45.9965 46 whole (68.34)
-    - [Moon] H Alphard → H Ketu RA 155.5563 155.556 ninth (99.93)
-    - [Moon] J Aculeus → J Ketu RA 8.0063 8 whole (47.16)
-    - [Moon] J Betelgeuse → J Ketu RA 168.2936 104×φ golden (19.53)
-    - [Sun] H Zubenelgenubi → H Ketu Dec 4.9972 5 whole (73.73)
-    - [Sun] J Pollux → J Ketu RA 140.7563 87×φ golden (37.15)
-  - Pluto: Jupiter, Moon, Sun — also: 6 Barnpark / Harry Skelton
-    - [Jupiter] S Jupiter → H Pluto RA 147.0051 147 whole (55.32)
-    - [Moon] H Procyon → H Pluto Dec 27.0095 27 whole (27.39)
-    - [Sun] H Pollux → H Pluto RA 177.7978 177.778 ninth (98.43)
-  - Ceres: Jupiter, Moon, Sun — also: 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton
-    - [Jupiter] J Alphard → J Ceres Dec 0.1689 conj (19.09)
-    - [Moon] S Moon → J Ceres Dec 0.0534 conj (67.55)
-    - [Moon] J Alphard → J Ceres Dec 0.1689 conj (19.09)
-    - [Sun] S Sun → H Ceres Dec 0.0541 conj (67.19)
-    - [Sun] H Deneb Algedi → H Ceres Dec 0.2156 conj (7.92)
-    - [Sun] H Zubenelgenubi → H Ceres Dec 0.1280 conj (32.87)
-  - Sun: Jupiter, Moon, Sun — also: 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies
-    - [Jupiter] H Capella → H Sun Dec 51.7714 32×φ golden (67.98)
-    - [Moon] S Moon → H Sun Dec 3.0029 3 whole (73.13)
-    - [Moon] H Procyon → H Sun Dec 10.9911 11 whole (30.77)
-    - [Moon] H Rukbat → H Sun RA 55.5508 55.5556 ninth (95.47)
-    - [Moon] J Rukbat → J Sun Dec 57.9884 58 whole (17.61)
-    - [Sun] H Adhara → H Sun RA 118.1413 73×φ golden (5.45)
-  - Eris: Moon, Sun — only
-    - [Moon] S Moon → H Eris RA 163.4167 101×φ golden (72.72)
-    - [Moon] J Aculeus → J Eris RA 119.0123 119 whole (14.82)
-    - [Sun] H Zubenelgenubi → H Eris Dec 13.9955 14 whole (60.35)
-    - [Sun] J Pollux → J Eris RA 92.2251 57×φ golden (83.31)
-  - Vesta: Moon, Sun — also: 6 Barnpark / Harry Skelton
-    - [Moon] H Aculeus → H Vesta Dec 22.6504 14×φ golden (87.72)
-    - [Moon] H Betelgeuse → H Vesta Dec 17.0077 17 whole (38.09)
-    - [Moon] H Rukbat → H Vesta Dec 31.0135 31 whole (10.65)
-    - [Moon] J Betelgeuse → J Vesta RA 0.9283 conj (14.52)
-    - [Sun] H Alhena → H Vesta Dec 26.0003 26 whole (97.31)
-    - [Sun] H Zubenelgenubi → H Vesta RA 126.2247 78×φ golden (19.50)
-  - Venus: Moon, Sun — also: 6 Barnpark / Harry Skelton
-    - [Moon] J Rukbat → J Venus RA 144.4073 144.444 ninth (96.07)
-    - [Sun] H Adhara → H Venus RA 156.9912 157 whole (31.50)
-    - [Sun] J Deneb Algedi → J Venus Dec 40.0163 40 whole (3.43)
-  - Rahu: Moon, Sun — also: 4 Below The Radar / Sam Twiston-Davies
-    - [Moon] H Kaus Australis → H Rahu RA 158.5823 98×φ golden (28.95)
-    - [Moon] J Aculeus → J Rahu RA 171.9937 172 whole (47.16)
-    - [Sun] H Adhara → H Rahu Dec 50.0164 50 whole (3.33)
-    - [Sun] H Pollux → H Rahu RA 1.1288 conj (6.12)
-    - [Sun] H Pollux → H Rahu Dec 6.9856 7 whole (7.96)
-    - [Sun] J Zubenelgenubi → J Rahu RA 145.6428 90×φ golden (15.16)
-  - Transpluto: Jupiter, Moon, Sun — also: 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
-    - [Jupiter] S Jupiter → J Transpluto RA 0.6597 conj (31.38)
-    - [Jupiter] J Capella → J Transpluto Dec 32.9838 33 whole (3.58)
-    - [Moon] J Betelgeuse → J Transpluto RA 58.9930 59 whole (41.94)
-    - [Sun] H Adhara → H Transpluto RA 49.0177 49 whole (1.31)
-    - [Sun] H Deneb Algedi → H Transpluto Dec 27.0122 27 whole (15.14)
-    - [Sun] J Adhara → J Transpluto Dec 41.9903 42 whole (26.29)
-    - [Sun] J Pollux → J Transpluto Dec 15.0124 15 whole (14.38)
-  - Jupiter: Jupiter, Moon, Sun — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston
-    - [Jupiter] H Galactic Centre → H Jupiter RA 4.8542 3×φ golden (99.66)
-    - [Jupiter] S Orcus → J Jupiter Dec 37.0008 37 whole (91.97)
-    - [Jupiter] S Galactic Centre → J Jupiter RA 163.0075 163 whole (38.84)
-    - [Moon] S Betelgeuse → H Jupiter Dec 29.9921 30 whole (36.54)
-    - [Sun] S Alhena → H Jupiter Dec 38.9830 39 whole (2.26)
-    - [Sun] H Zubenelgenubi → H Jupiter RA 38.8394 24×φ golden (63.27)
-    - [Sun] J Adhara → J Jupiter RA 1.2484 conj (2.81)
-    - [Sun] J Alhena → J Jupiter RA 3.9802 4 whole (0.01)
-  - Mercury: Jupiter, Moon, Sun — also: 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton
-    - [Jupiter] H Capella → H Mercury RA 81.0195 81 whole (0.07)
-    - [Jupiter] J Capella → J Mercury RA 13.0089 13 whole (30.57)
-    - [Jupiter] J Capella → J Mercury Dec 21.9905 22 whole (27.37)
-    - [Jupiter] J Galactic Centre → J Mercury Dec 53.0157 53 whole (4.70)
-    - [Moon] H Kaus Australis → H Mercury Dec 36.9900 37 whole (25.07)
-    - [Sun] J Adhara → J Mercury Dec 52.9836 53 whole (3.20)
-    - [Sun] J Pollux → J Mercury Dec 4.0191 4 whole (0.20)
-  - Saturn: Moon, Sun — also: 3 Leader Crik / Dylan Johnston
-    - [Moon] H Kaus Australis → H Saturn RA 13.3317 13.3333 ninth (98.03)
-    - [Moon] J Aculeus → J Saturn RA 168.2456 104×φ golden (0.58)
-    - [Moon] J Procyon → J Saturn Dec 15.9820 16 whole (1.01)
-    - [Moon] J Rukbat → J Saturn RA 142.3591 88×φ golden (1.93)
-    - [Sun] J Pollux → J Saturn RA 42.9918 43 whole (34.68)
-  - Orcus: Moon, Sun — only
-    - [Moon] H Kaus Australis → H Orcus RA 122.2085 122.222 ninth (98.10)
-    - [Moon] H Procyon → H Orcus RA 39.0067 39 whole (44.47)
-    - [Moon] H Rukbat → H Orcus Dec 29.9898 30 whole (24.05)
-    - [Moon] J Betelgeuse → J Orcus RA 49.9995 50 whole (94.60)
-    - [Sun] S Sun → J Orcus RA 82.5156 51×φ golden (75.91)
-  - Chiron: Moon, Sun — only
-    - [Moon] J Aculeus → J Chiron RA 13.9969 14 whole (71.22)
-    - [Sun] H Pollux → H Chiron RA 116.9836 117 whole (3.21)
-  - Uranus: Jupiter, Moon — also: 1 Off The Jury / Sean Bowen
-    - [Jupiter] J Alphard → J Uranus Dec 3.9956 4 whole (60.49)
-    - [Moon] H Procyon → H Uranus RA 86.9802 87 whole (0.01)
-    - [Moon] J Alphard → J Uranus Dec 3.9956 4 whole (60.49)
-    - [Moon] J Rukbat → J Uranus RA 39.9984 40 whole (84.34)
-  - Juno: Jupiter, Moon, Sun — also: 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton
-    - [Jupiter] J Alphard → J Juno RA 0.4009 conj (53.69)
-    - [Moon] J Alphard → J Juno RA 0.4009 conj (53.69)
-    - [Sun] S Sun → J Juno RA 79.0058 79 whole (50.29)
-    - [Sun] J Deneb Algedi → J Juno Dec 29.0319 φ^7 phi power (96.48)
-  - Makemake: Moon, Sun — also: 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton
-    - [Moon] J Kaus Australis → J Makemake Dec 66.3318 41×φ golden (58.56)
-    - [Sun] J Zubenelgenubi → J Makemake Dec 47.9915 48 whole (33.03)
-  - Sedna: Moon, Sun — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston
-    - [Moon] J Rukbat → J Sedna RA 117.0114 117 whole (18.69)
-    - [Sun] J Zubenelgenubi → J Sedna RA 174.7387 108×φ golden (52.19)
+  - 104×φ golden — only
+    - J Aculeus → J Saturn RA 168.2456 104×φ golden (0.58)
+    - J Betelgeuse → J Ketu RA 168.2936 104×φ golden (19.53)
+  - 15 whole — also: 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton
+    - J Aculeus → J Quaoar RA 15.0011 15 whole (88.85)
+    - J Pollux → J Transpluto Dec 15.0124 15 whole (14.38)
+  - 53 whole — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox
+    - J Adhara → J Mercury Dec 52.9836 53 whole (3.20)
+    - J Galactic Centre → J Mercury Dec 53.0157 53 whole (4.70)
+  - 4 whole — also: 1 Off The Jury / Sean Bowen, 4 Below The Radar / Sam Twiston-Davies
+    - J Alhena → J Jupiter RA 3.9802 4 whole (0.01)
+    - J Alphard → J Uranus Dec 3.9956 4 whole (60.49)
+    - J Pollux → J Mercury Dec 4.0191 4 whole (0.20)
+  - 43 whole — only
+    - J Kaus Australis → J Pallas RA 43.0127 43 whole (13.31)
+    - J Pollux → J Saturn RA 42.9918 43 whole (34.68)
+### L4 every natal body
+- **Mercury**
+  - same body: S Mercury → H Mercury RA 141.1262 141.4 sqrt2 (loose) — also: 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton
+  - star rows: H Capella → H Mercury RA 81.0195 81 whole (0.07) — also: 3 Leader Crik / Dylan Johnston
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - star rows: H Kaus Australis → H Mercury Dec 36.9900 37 whole (25.07) — also: 2 Stride On / Derek Fox
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+  - star rows: J Adhara → J Mercury Dec 52.9836 53 whole (3.20) — also: 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: J Capella → J Mercury RA 13.0089 13 whole (30.57) — also: 3 Leader Crik / Dylan Johnston
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - star rows: J Capella → J Mercury Dec 21.9905 22 whole (27.37) — also: 3 Leader Crik / Dylan Johnston
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - star rows: J Galactic Centre → J Mercury Dec 53.0157 53 whole (4.70) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)
+  - star rows: J Pollux → J Mercury Dec 4.0191 4 whole (0.20) — also: 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+- **Venus**
+  - same body: S Venus → H Venus Dec 6.0296 6 whole (loose) — also: 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
+  - star rows: H Adhara → H Venus RA 156.9912 157 whole (31.50) — also: 1 Off The Jury / Sean Bowen
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: J Deneb Algedi → J Venus Dec 40.0163 40 whole (3.43) — also: 1 Off The Jury / Sean Bowen
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - star rows: J Rukbat → J Venus RA 144.4073 144.444 ninth (96.07) — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+- **Pluto**
+  - same body: S Pluto → H Pluto RA 12.0223 12 whole (loose) — also: 1 Off The Jury / Sean Bowen
+  - top rows: S Jupiter → H Pluto RA 147.0051 147 whole (55.32) — also: 1 Off The Jury / Sean Bowen, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
+  - star rows: H Pollux → H Pluto RA 177.7978 177.778 ninth (98.43) — only
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - star rows: H Procyon → H Pluto Dec 27.0095 27 whole (27.39) — only
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
+  - same body: S Pluto → J Pluto Dec 10.9770 11 whole (loose) — also: 1 Off The Jury / Sean Bowen
+- **Chiron**
+  - same body: S Chiron → H Chiron RA 26.0873 10×φ^2 phi power (loose) — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton
+  - star rows: H Pollux → H Chiron RA 116.9836 117 whole (3.21) — also: 1 Off The Jury / Sean Bowen, 6 Barnpark / Harry Skelton
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - star rows: J Aculeus → J Chiron RA 13.9969 14 whole (71.22) — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+- **Vesta**
+  - same body: S Vesta → H Vesta Dec 5.0266 5 whole (loose) — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies
+  - star rows: H Aculeus → H Vesta Dec 22.6504 14×φ golden (87.72) — also: 6 Barnpark / Harry Skelton
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - star rows: H Alhena → H Vesta Dec 26.0003 26 whole (97.31) — also: 3 Leader Crik / Dylan Johnston
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: H Betelgeuse → H Vesta Dec 17.0077 17 whole (38.09) — only
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - star rows: H Rukbat → H Vesta Dec 31.0135 31 whole (10.65) — only
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+  - star rows: H Zubenelgenubi → H Vesta RA 126.2247 78×φ golden (19.50) — only
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+  - star rows: J Betelgeuse → J Vesta RA 0.9283 conj (14.52) — only
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+- **Rahu**
+  - same body: S Rahu → H Rahu RA 148.8624 92×φ golden (80.73) — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
+  - star rows: H Adhara → H Rahu Dec 50.0164 50 whole (3.33) — only
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: H Kaus Australis → H Rahu RA 158.5823 98×φ golden (28.95) — also: 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+  - star rows: H Pollux → H Rahu RA 1.1288 conj (6.12) — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - star rows: H Pollux → H Rahu Dec 6.9856 7 whole (7.96) — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - star rows: J Aculeus → J Rahu RA 171.9937 172 whole (47.16) — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - star rows: J Zubenelgenubi → J Rahu RA 145.6428 90×φ golden (15.16) — only
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+- **Eris**
+  - same body: S Eris → H Eris RA 1.2177 1.22222 ninth (loose) — also: 3 Leader Crik / Dylan Johnston
+  - top rows: S Moon → H Eris RA 163.4167 101×φ golden (72.72) — also: 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies
+  - star rows: H Zubenelgenubi → H Eris Dec 13.9955 14 whole (60.35) — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+  - star rows: J Aculeus → J Eris RA 119.0123 119 whole (14.82) — also: 6 Barnpark / Harry Skelton
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - star rows: J Pollux → J Eris RA 92.2251 57×φ golden (83.31) — only
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+- **Haumea**
+  - same body: S Haumea → H Haumea RA 6.0297 6 whole (loose) — also: 1 Off The Jury / Sean Bowen, 6 Barnpark / Harry Skelton
+    - source line: S Sun → Haumea RA 0.5695 conj (38.48)
+  - T1: H Jupiter → H Haumea Dec 38.9947 39 whole (53.87) — only
+  - star rows: H Adhara → H Haumea RA 110.0449 68×φ golden (18.03) — also: 2 Stride On / Derek Fox
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: H Alhena → H Haumea Dec 0.0127 conj (91.73) — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: H Betelgeuse → H Haumea Dec 9.0053 9 whole (54.11) — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - star rows: H Zubenelgenubi → H Haumea RA 8.0173 8 whole (1.82) — only
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+  - same body: S Haumea → J Haumea RA 22.6512 14×φ golden (91.97) — also: 1 Off The Jury / Sean Bowen, 6 Barnpark / Harry Skelton
+    - source line: S Sun → Haumea RA 0.5695 conj (38.48)
+  - star rows: J Aculeus → J Haumea RA 67.0055 67 whole (52.44) — only
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+- **Gonggong**
+  - same body: S Gonggong → H Gonggong Dec 1.6688 1.66667 ninth (loose) — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies
+  - star rows: H Adhara → H Gonggong Dec 16.9946 17 whole (53.34) — also: 3 Leader Crik / Dylan Johnston
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: H Pollux → H Gonggong Dec 40.0074 40 whole (39.77) — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - same body: S Gonggong → J Gonggong Dec 6.0163 6 whole (3.45) — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies
+  - star rows: J Deneb Algedi → J Gonggong Dec 0.2016 conj (10.75) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - star rows: J Zubenelgenubi → J Gonggong Dec 0.2856 conj (0.23) — also: 1 Off The Jury / Sean Bowen
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+- **Transpluto**
+  - same body: S Transpluto → H Transpluto RA 3.0298 3 whole (loose) — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
+  - star rows: H Adhara → H Transpluto RA 49.0177 49 whole (1.31) — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: H Deneb Algedi → H Transpluto Dec 27.0122 27 whole (15.14) — also: 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - top rows: S Jupiter → J Transpluto RA 0.6597 conj (31.38) — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
+  - star rows: J Adhara → J Transpluto Dec 41.9903 42 whole (26.29) — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: J Betelgeuse → J Transpluto RA 58.9930 59 whole (41.94) — also: 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - star rows: J Capella → J Transpluto Dec 32.9838 33 whole (3.58) — only
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - star rows: J Pollux → J Transpluto Dec 15.0124 15 whole (14.38) — only
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+- **Ketu**
+  - same body: S Ketu → H Ketu RA 148.8624 92×φ golden (80.73) — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
+    - source line: S Jupiter → Ketu RA 1.4737 conj (0.03)
+  - star rows: H Alphard → H Ketu RA 155.5563 155.556 ninth (99.93) — only
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+  - star rows: H Zubenelgenubi → H Ketu Dec 4.9972 5 whole (73.73) — also: 1 Off The Jury / Sean Bowen
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+  - T2: J Jupiter → J Ketu Dec 45.9965 46 whole (68.34) — only
+  - star rows: J Aculeus → J Ketu RA 8.0063 8 whole (47.16) — only
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - star rows: J Betelgeuse → J Ketu RA 168.2936 104×φ golden (19.53) — also: 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - star rows: J Pollux → J Ketu RA 140.7563 87×φ golden (37.15) — also: 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+- **Jupiter**
+  - T1: H Jupiter → H star Galactic Centre RA 4.8542 3×φ golden (99.66) — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
+  - T1: H Jupiter → H star Zubenelgenubi RA 38.8394 24×φ golden (63.27) — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies, 6 Barnpark / Harry Skelton
+  - star rows: S Alhena → H Jupiter Dec 38.9830 39 whole (2.26) — also: 1 Off The Jury / Sean Bowen, 6 Barnpark / Harry Skelton
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: S Betelgeuse → H Jupiter Dec 29.9921 30 whole (36.54) — also: 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+  - star rows: H Galactic Centre → H Jupiter RA 4.8542 3×φ golden (99.66) — also: 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton
+    - source line: S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)
+  - star rows: H Zubenelgenubi → H Jupiter RA 38.8394 24×φ golden (63.27) — only
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+  - top rows: S Orcus → J Jupiter Dec 37.0008 37 whole (91.97) — only
+  - star rows: J Adhara → J Jupiter RA 1.2484 conj (2.81) — only
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: J Alhena → J Jupiter RA 3.9802 4 whole (0.01) — also: 1 Off The Jury / Sean Bowen, 6 Barnpark / Harry Skelton
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+  - star rows: S Galactic Centre → J Jupiter RA 163.0075 163 whole (38.84) — also: 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton
+    - source line: S Jupiter → Galactic Centre Dec 43.0022 43 whole (79.05)
+- **Ceres**
+  - top rows: S Sun → H Ceres Dec 0.0541 conj (67.19) — also: 2 Stride On / Derek Fox, 4 Below The Radar / Sam Twiston-Davies
+  - star rows: H Deneb Algedi → H Ceres Dec 0.2156 conj (7.92) — also: 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+  - star rows: H Zubenelgenubi → H Ceres Dec 0.1280 conj (32.87) — only
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+  - top rows: S Moon → J Ceres Dec 0.0534 conj (67.55) — only
+  - star rows: J Alphard → J Ceres Dec 0.1689 conj (19.09) — only
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+- **Sun**
+  - top rows: S Moon → H Sun Dec 3.0029 3 whole (73.13) — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies
+  - star rows: H Adhara → H Sun RA 118.1413 73×φ golden (5.45) — also: 2 Stride On / Derek Fox
+    - source line: S Sun → Adhara Dec 12.9993 13 whole (93.43)
+  - star rows: H Capella → H Sun Dec 51.7714 32×φ golden (67.98) — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston
+    - source line: S Jupiter → Capella Dec 31.9998 32 whole (97.55)
+  - star rows: H Procyon → H Sun Dec 10.9911 11 whole (30.77) — also: 6 Barnpark / Harry Skelton
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
+  - star rows: H Rukbat → H Sun RA 55.5508 55.5556 ninth (95.47) — also: 3 Leader Crik / Dylan Johnston
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+  - same body: S Sun → J Sun Dec 33.3434 33.3333 ninth (loose) — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies
+  - star rows: J Rukbat → J Sun Dec 57.9884 58 whole (17.61) — also: 3 Leader Crik / Dylan Johnston
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+- **Quaoar**
+  - star rows: H Aculeus → H Quaoar RA 7.9821 8 whole (1.12) — also: 1 Off The Jury / Sean Bowen
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - star rows: J Aculeus → J Quaoar RA 15.0011 15 whole (88.85) — also: 1 Off The Jury / Sean Bowen
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+- **Mars**
+  - star rows: H Alhena → H Mars Dec 0.0881 conj (49.91) — also: 1 Off The Jury / Sean Bowen, 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Sun → Alhena Dec 32.3683 20×φ golden (58.48)
+- **Saturn**
+  - star rows: H Kaus Australis → H Saturn RA 13.3317 13.3333 ninth (98.03) — also: 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+  - star rows: J Aculeus → J Saturn RA 168.2456 104×φ golden (0.58) — also: 3 Leader Crik / Dylan Johnston
+    - source line: S Moon → Aculeus RA 76.0429 47×φ golden (72.93)
+  - star rows: J Pollux → J Saturn RA 42.9918 43 whole (34.68) — also: 1 Off The Jury / Sean Bowen, 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton
+    - source line: S Sun → Pollux Dec 43.9940 44 whole (48.83)
+  - star rows: J Procyon → J Saturn Dec 15.9820 16 whole (1.01) — also: 1 Off The Jury / Sean Bowen, 6 Barnpark / Harry Skelton
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
+  - star rows: J Rukbat → J Saturn RA 142.3591 88×φ golden (1.93) — only
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+- **Orcus**
+  - star rows: H Kaus Australis → H Orcus RA 122.2085 122.222 ninth (98.10) — only
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+  - star rows: H Procyon → H Orcus RA 39.0067 39 whole (44.47) — also: 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
+  - star rows: H Rukbat → H Orcus Dec 29.9898 30 whole (24.05) — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 6 Barnpark / Harry Skelton
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+  - same body: S Orcus → J Orcus Dec 11.9918 12 whole (34.61) — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox, 6 Barnpark / Harry Skelton
+  - top rows: S Sun → J Orcus RA 82.5156 51×φ golden (75.91) — only
+  - star rows: J Betelgeuse → J Orcus RA 49.9995 50 whole (94.60) — also: 2 Stride On / Derek Fox
+    - source line: S Moon → Betelgeuse Dec 16.1847 10×φ^1 phi power (89.62)
+- **Uranus**
+  - star rows: H Procyon → H Uranus RA 86.9802 87 whole (0.01) — also: 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
+  - star rows: J Alphard → J Uranus Dec 3.9956 4 whole (60.49) — also: 1 Off The Jury / Sean Bowen, 2 Stride On / Derek Fox
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+  - star rows: J Rukbat → J Uranus RA 39.9984 40 whole (84.34) — only
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+- **Pallas**
+  - star rows: H Procyon → H Pallas RA 98.0172 98 whole (1.95) — only
+    - source line: S Moon → Procyon Dec 13.9948 14 whole (54.47)
+  - star rows: J Kaus Australis → J Pallas RA 43.0127 43 whole (13.31) — also: 2 Stride On / Derek Fox
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+- **Juno**
+  - same body: S Juno → J Juno RA 161.7115 100×φ^1 phi power (loose) — also: 6 Barnpark / Harry Skelton
+  - top rows: S Sun → J Juno RA 79.0058 79 whole (50.29) — only
+  - star rows: J Alphard → J Juno RA 0.4009 conj (53.69) — also: 3 Leader Crik / Dylan Johnston
+    - source line: S Jupiter → Alphard Dec 22.6500 14×φ golden (85.32)
+    - source line: S Moon → Alphard Dec 0.1204 conj (35.82)
+  - star rows: J Deneb Algedi → J Juno Dec 29.0319 φ^7 phi power (96.48) — also: 2 Stride On / Derek Fox, 3 Leader Crik / Dylan Johnston, 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Sun → Deneb Algedi Dec 0.1604 conj (21.67)
+- **Sedna**
+  - same body: S Sedna → J Sedna RA 14.0850 14.14 sqrt2 (loose) — only
+  - star rows: J Rukbat → J Sedna RA 117.0114 117 whole (18.69) — also: 4 Below The Radar / Sam Twiston-Davies
+    - source line: S Moon → Rukbat RA 101.9333 63×φ golden (83.45)
+  - star rows: J Zubenelgenubi → J Sedna RA 174.7387 108×φ golden (52.19) — also: 3 Leader Crik / Dylan Johnston
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)
+- **Neptune**
+  - star rows: J Kaus Australis → J Neptune Dec 16.9817 17 whole (0.72) — also: 2 Stride On / Derek Fox
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+- **Makemake**
+  - star rows: J Kaus Australis → J Makemake Dec 66.3318 41×φ golden (58.56) — also: 3 Leader Crik / Dylan Johnston
+    - source line: S Moon → Kaus Australis RA 87.0029 87 whole (72.78)
+  - star rows: J Zubenelgenubi → J Makemake Dec 47.9915 48 whole (33.03) — also: 6 Barnpark / Harry Skelton
+    - source line: S Sun → Zubenelgenubi RA 1.4095 conj (0.36)
+    - source line: S Sun → Zubenelgenubi Dec 0.0715 conj (58.00)

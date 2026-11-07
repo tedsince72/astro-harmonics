@@ -151,11 +151,13 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   One fixed star on one natal body counts once (Eddie, 7 Nov 2026): a star's natal and sky copies onto the same natal body (same plane)
   are one star-row line (best copy kept, the others in '[same star: ...]'), a thread counts a star once per body, and the 'locked line
   star on natal Jupiter' flag is gone. Tests 8070/8070; independent checker 0 mismatches. Version 4 back-test unchanged (6 of 14).
-- Stage 2 layers (7 Nov 2026, Eddie's go-ahead; no judgement, no ranking, no pick): `python3 tools/eddie_layers.py
-  docs/eddie_read/<race>_eddie_read.json [--active <race>_active.xlsx]` -> <race>_layers.md + .json: L0 field (tables vs
-  _active.xlsx runners, cloth gaps), L1 same bodies, L2 what lands on each same body (tagged by centre), L3 the seven cases,
-  L5 'only' / 'also' on every item. Rules in the docstring. Tests `python3 tests/eddie_layers_check.py` (16567/16567);
-  independent checker 0 mismatches on Fontwell 14:35, Aintree 15:00, 13:50. Stage 3 (Eddie's rules file) grows race by race.
+- Stage 2 layers (7 Nov 2026, Eddie's go-ahead; data only - "I just want to show the data": no centre tags, no score cut-offs,
+  no ranking, no pick): `python3 tools/eddie_layers.py docs/eddie_read/<race>_eddie_read.json [--active <race>_active.xlsx]` ->
+  <race>_layers.md + .json: L0 field (tables vs _active.xlsx runners, cloth gaps), L1 same bodies, L2 what lands on each same body
+  (with each source's own sky lines), L3 plain matches (same body both charts, one body both planes, runner number = sky number,
+  circle divisions, same number several places / N and N×φ), L4 every natal body with every cell on it; 'only' / 'also' on every
+  item. Rules in the docstring. Tests `python3 tests/eddie_layers_check.py` (10207/10207); independent checker 0 mismatches on
+  Fontwell 14:35, Aintree 15:00, 13:50 6 Nov 2026 and Haydock 14:05 2022. Rules come beyond stage 2 (stage 3), race by race.
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
 - On the Mac: see `docs/MAC_SETUP.md` (venv with Python 3.12+, `pip install openpyxl`). Scripts call `python3.12`; inside the venv

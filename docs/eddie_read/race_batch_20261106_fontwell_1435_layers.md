@@ -1,5 +1,5 @@
 # Stage 2 layers: race_batch_20261106_fontwell_1435_jupiter_tables.xlsx
-Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_layers.py).
+The stage 1 data laid out in fixed layers for every runner; data only, no interpretation, no ranking, no pick (tools/eddie_layers.py).
 
 ## L0 field
 - In the tables workbook (7): 1 Fire Flyer / Richie McLernon; 2 Lynx De Thaix / Gavin Sheehan; 3 Donnie Azoff / Isabelle Ryder; 5 He's A Latchico / Caoilin Quinn; 6 So You Know / Tom Bellamy; 7 Motazzen / Paul O'Brien; 8 The Bellhop / Freddie Mitchell
@@ -47,69 +47,120 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 ### L2 what lands on each same body
 - **H Mercury** (same body: S Mercury → H Mercury RA 166.4606 166.667 ninth (loose))
 - **H Mars** (same body: S Mars → H Mars Dec 37.9815 38 whole (0.58))
-  - other chart, star rows: J Algol → J Mars RA 95.9969 96 whole (71.48) [Moon]
-  - other chart, star rows: J Deneb → J Mars RA 0.6930 conj (28.94) [Sun]
+  - other chart, star rows: J Algol → J Mars RA 95.9969 96 whole (71.48)
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - other chart, star rows: J Deneb → J Mars RA 0.6930 conj (28.94)
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
 - **H Neptune** (same body: S Neptune → H Neptune RA 14.4595 14.4444 ninth (loose))
-  - top rows: S Sun → H Neptune RA 126.2072 78×φ golden (96.41) [Sun]
-  - star rows: H Galactic Centre → H Neptune Dec 22.6507 14×φ golden (89.51) [Jupiter]
-  - star rows: H Vindemiatrix → H Neptune RA 152.0195 152 whole (0.07) [Moon]
-  - other chart, star rows: J Difda → J Neptune RA 96.9977 97 whole (78.10) [Sun]
-  - other chart, star rows: J Sadalsuud → J Neptune RA 48.9875 49 whole (14.15) [Moon]
+  - top rows: S Sun → H Neptune RA 126.2072 78×φ golden (96.41)
+  - star rows: H Galactic Centre → H Neptune Dec 22.6507 14×φ golden (89.51)
+    - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
+  - star rows: H Vindemiatrix → H Neptune RA 152.0195 152 whole (0.07)
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - other chart, star rows: J Difda → J Neptune RA 96.9977 97 whole (78.10)
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - other chart, star rows: J Sadalsuud → J Neptune RA 48.9875 49 whole (14.15)
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
 - **H Juno** (same body: S Juno → H Juno Dec 18.9787 19 whole (loose))
-  - star rows: H Difda → H Juno RA 1.3969 conj (0.47) [Sun]
-  - star rows: H Rigel → H Juno RA 66.3368 41×φ golden (84.64) [Moon]
-  - other chart, top rows: S Jupiter → J Juno Dec 26.0003 26 whole (97.32) [Jupiter]
-  - other chart, star rows: J Capella → J Juno RA 177.7605 177.778 ninth (98.65) [Jupiter]
-  - other chart, star rows: J Capella → J Juno Dec 58.0061 58 whole (48.00) [Jupiter]
-  - other chart, star rows: J Galactic Centre → J Juno Dec 17.0002 17 whole (98.41) [Jupiter]
-  - other chart, star rows: J Orion Nebula Cluster → J Juno RA 173.1123 107×φ golden (21.47) [Sun]
-  - other chart, star rows: J Scheat → J Juno RA 89.0093 89 whole (28.61) [Sun]
+  - star rows: H Difda → H Juno RA 1.3969 conj (0.47)
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: H Rigel → H Juno RA 66.3368 41×φ golden (84.64)
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+  - other chart, top rows: S Jupiter → J Juno Dec 26.0003 26 whole (97.32)
+  - other chart, star rows: J Capella → J Juno RA 177.7605 177.778 ninth (98.65)
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - other chart, star rows: J Capella → J Juno Dec 58.0061 58 whole (48.00)
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - other chart, star rows: J Galactic Centre → J Juno Dec 17.0002 17 whole (98.41)
+    - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
+  - other chart, star rows: J Orion Nebula Cluster → J Juno RA 173.1123 107×φ golden (21.47)
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - other chart, star rows: J Scheat → J Juno RA 89.0093 89 whole (28.61)
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
 - **H Rahu** (same body: S Rahu → H Rahu RA 161.6637 100×φ^1 phi power (loose))
-  - other chart, star rows: J Galactic Centre → J Rahu Dec 37.2175 23×φ golden (83.82) [Jupiter]
+  - other chart, star rows: J Galactic Centre → J Rahu Dec 37.2175 23×φ golden (83.82)
+    - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
 - **H Transpluto** (same body: S Transpluto → H Transpluto Dec 1.4129 1.414 sqrt2 (loose))
-  - star rows: H Difda → H Transpluto Dec 29.1247 18×φ golden (99.17) [Sun]
-  - star rows: H Vindemiatrix → H Transpluto Dec 0.1797 conj (16.09) [Moon]
-  - other chart, star rows: J Difda → J Transpluto RA 132.7000 82×φ golden (11.97) [Sun]
-  - other chart, star rows: J Sadalsuud → J Transpluto Dec 19.9966 20 whole (68.64) [Moon]
+  - star rows: H Difda → H Transpluto Dec 29.1247 18×φ golden (99.17)
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: H Vindemiatrix → H Transpluto Dec 0.1797 conj (16.09)
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - other chart, star rows: J Difda → J Transpluto RA 132.7000 82×φ golden (11.97)
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - other chart, star rows: J Sadalsuud → J Transpluto Dec 19.9966 20 whole (68.64)
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
 - **H Ketu** (same body: S Ketu → H Ketu RA 161.6637 100×φ^1 phi power (loose))
-  - body line: S Jupiter → Ketu RA 1.4603 conj (0.07)
-  - star rows: H Deneb → H Ketu RA 0.1096 conj (85.92) [Sun]
-  - other chart, star rows: J Deneb → J Ketu RA 110.9248 10×φ^5 phi power (91.85) [Sun]
-  - other chart, star rows: J Rigel → J Ketu Dec 0.0102 conj (93.31) [Moon]
+  - sky line to Ketu: S Jupiter → Ketu RA 1.4603 conj (0.07)
+  - star rows: H Deneb → H Ketu RA 0.1096 conj (85.92)
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - other chart, star rows: J Deneb → J Ketu RA 110.9248 10×φ^5 phi power (91.85)
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - other chart, star rows: J Rigel → J Ketu Dec 0.0102 conj (93.31)
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
 - **J Sun** (same body: S Sun → J Sun RA 14.4271 14.4444 ninth (loose))
-  - star rows: J Deneb Algedi → J Sun Dec 5.0131 5 whole (11.80) [Sun]
-  - star rows: J Scheat → J Sun RA 139.0156 139 whole (4.84) [Sun]
-  - other chart, star rows: H Pleiades → H Sun Dec 2.9859 3 whole (8.57) [Moon]
+  - star rows: J Deneb Algedi → J Sun Dec 5.0131 5 whole (11.80)
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: J Scheat → J Sun RA 139.0156 139 whole (4.84)
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+  - other chart, star rows: H Pleiades → H Sun Dec 2.9859 3 whole (8.57)
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
 - **J Jupiter** (same body: S Jupiter → J Jupiter RA 161.6366 100×φ^1 phi power (loose))
-  - star rows: J Scheat → J Jupiter RA 0.4558 conj (48.46) [Sun]
-  - other chart, top rows: S Makemake → H Jupiter Dec 35.0038 35 whole (65.83) [Jupiter]
-  - other chart, top rows: S Quaoar → H Jupiter Dec 0.2763 conj (0.63) [Jupiter]
-  - other chart, star rows: H Pleiades → H Jupiter RA 166.9874 167 whole (13.71) [Moon]
-  - other chart, star rows: H Zubenelgenubi → H Jupiter RA 1.1284 conj (6.14) [Moon, Sun]
+  - star rows: J Scheat → J Jupiter RA 0.4558 conj (48.46)
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+  - other chart, top rows: S Makemake → H Jupiter Dec 35.0038 35 whole (65.83)
+  - other chart, top rows: S Quaoar → H Jupiter Dec 0.2763 conj (0.63)
+  - other chart, star rows: H Pleiades → H Jupiter RA 166.9874 167 whole (13.71)
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - other chart, star rows: H Zubenelgenubi → H Jupiter RA 1.1284 conj (6.14)
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **J Saturn** (same body: S Saturn → J Saturn RA 122.9257 φ^10 phi power (79.64))
-  - star rows: J Galactic Centre → J Saturn Dec 8.9860 9 whole (8.92) [Jupiter]
-  - star rows: J Vindemiatrix → J Saturn Dec 30.9829 31 whole (2.14) [Moon]
-  - star rows: J Zubenelgenubi → J Saturn Dec 3.9823 4 whole (1.32) [Moon, Sun]
+  - star rows: J Galactic Centre → J Saturn Dec 8.9860 9 whole (8.92)
+    - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
+  - star rows: J Vindemiatrix → J Saturn Dec 30.9829 31 whole (2.14)
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - star rows: J Zubenelgenubi → J Saturn Dec 3.9823 4 whole (1.32)
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **J Chiron** (same body: S Chiron → J Chiron Dec 7.0248 7 whole (loose))
-  - star rows: J Orion Nebula Cluster → J Chiron RA 2.9975 3 whole (76.91) [Sun]
+  - star rows: J Orion Nebula Cluster → J Chiron RA 2.9975 3 whole (76.91)
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
 - **J Pallas** (same body: S Pallas → J Pallas RA 179.6607 10×φ^6 phi power (loose))
-  - star rows: J Vindemiatrix → J Pallas RA 0.2811 conj (66.04) [Moon]
-  - other chart, star rows: H Algol → H Pallas Dec 41.0047 41 whole (58.89) [Moon]
-  - other chart, star rows: H Vindemiatrix → H Pallas Dec 11.0101 11 whole (24.74) [Moon]
-  - other chart, star rows: H Zubenelgenubi → H Pallas Dec 15.9927 16 whole (40.46) [Moon, Sun]
+  - star rows: J Vindemiatrix → J Pallas RA 0.2811 conj (66.04)
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - other chart, star rows: H Algol → H Pallas Dec 41.0047 41 whole (58.89)
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - other chart, star rows: H Vindemiatrix → H Pallas Dec 11.0101 11 whole (24.74)
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - other chart, star rows: H Zubenelgenubi → H Pallas Dec 15.9927 16 whole (40.46)
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **J Makemake** (same body: S Makemake → J Makemake RA 35.9707 36 whole (loose))
-  - other chart, star rows: H Difda → H Makemake RA 176.3647 109×φ golden (93.98) [Sun]
-  - other chart, star rows: H Vindemiatrix → H Makemake RA 1.0156 conj (10.43) [Moon]
+  - other chart, star rows: H Difda → H Makemake RA 176.3647 109×φ golden (93.98)
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - other chart, star rows: H Vindemiatrix → H Makemake RA 1.0156 conj (10.43)
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
 - **J Orcus** (same body: S Orcus → J Orcus RA 34.0160 34 whole (4.01))
 - **J Gonggong** (same body: S Gonggong → J Gonggong Dec 11.1004 11.1111 ninth (loose))
-  - star rows: J Deneb Algedi → J Gonggong RA 1.0960 conj (7.25) [Sun]
-  - star rows: J Pleiades → J Gonggong RA 89.0189 89 whole (0.30) [Moon]
-  - star rows: J Zubenelgenubi → J Gonggong RA 105.1428 65×φ golden (0.85) [Moon, Sun]
-  - other chart, top rows: S Jupiter → H Gonggong Dec 26.0009 26 whole (91.57) [Jupiter]
-  - other chart, star rows: H Capella → H Gonggong Dec 58.0046 58 whole (59.22) [Jupiter]
-  - other chart, star rows: H Galactic Centre → H Gonggong Dec 16.9992 17 whole (91.98) [Jupiter]
-  - other chart, star rows: H Rigel → H Gonggong RA 101.9862 102 whole (9.73) [Moon]
-### L3 the seven cases (L5 field tag on each)
+  - star rows: J Deneb Algedi → J Gonggong RA 1.0960 conj (7.25)
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: J Pleiades → J Gonggong RA 89.0189 89 whole (0.30)
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: J Zubenelgenubi → J Gonggong RA 105.1428 65×φ golden (0.85)
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+  - other chart, top rows: S Jupiter → H Gonggong Dec 26.0009 26 whole (91.57)
+  - other chart, star rows: H Capella → H Gonggong Dec 58.0046 58 whole (59.22)
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - other chart, star rows: H Galactic Centre → H Gonggong Dec 16.9992 17 whole (91.98)
+    - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
+  - other chart, star rows: H Rigel → H Gonggong RA 101.9862 102 whole (9.73)
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+### L3 matches
 - **1. same body on both charts**: none
 - **2. one body in both planes**: none
 - **3. runner number = sky number**
@@ -132,13 +183,24 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - **4. circle divisions**
   - 24 = 360/15 — also: 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn
     - H Deneb Algedi → H Sedna Dec 23.9969 24 whole (71.35)
+  - 3 = 360/120 — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 8 The Bellhop / Freddie Mitchell
+    - H Pleiades → H Sun Dec 2.9859 3 whole (8.57)
   - 36 = 360/10 — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
     - S Makemake → J Makemake RA 35.9707 36 whole (loose)
+  - 5 = 360/72 — also: 2 Lynx De Thaix / Gavin Sheehan, 6 So You Know / Tom Bellamy
+    - J Deneb Algedi → J Sun Dec 5.0131 5 whole (11.80)
+  - 9 = 360/40 — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+    - J Galactic Centre → J Saturn Dec 8.9860 9 whole (8.92)
   - 3 = 360/120 — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 8 The Bellhop / Freddie Mitchell
     - J Orion Nebula Cluster → J Chiron RA 2.9975 3 whole (76.91)
-  - 20 = 360/18 — only
+  - 20 = 360/18 — also: 7 Motazzen / Paul O'Brien
     - J Sadalsuud → J Transpluto Dec 19.9966 20 whole (68.64)
+  - 4 = 360/90 — also: 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+    - J Zubenelgenubi → J Saturn Dec 3.9823 4 whole (1.32)
 - **5. same number in more than one place**
+  - 38 whole — only
+    - S Mars → H Mars Dec 37.9815 38 whole (0.58)
+    - J Rigel → J Sedna RA 37.9872 38 whole (12.84)
   - 14.4444 ninth — only
     - S Neptune → H Neptune RA 14.4595 14.4444 ninth (loose)
     - S Sun → J Sun RA 14.4271 14.4444 ninth (loose)
@@ -148,7 +210,21 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
     - S Jupiter → J Jupiter RA 161.6366 100×φ^1 phi power (loose)
   - 26 whole — only
     - S Jupiter → H Gonggong Dec 26.0009 26 whole (91.57)
+    - H Galactic Centre → H Pluto RA 25.9927 26 whole (40.17)
     - S Jupiter → J Juno Dec 26.0003 26 whole (97.32)
+  - 35 whole — only
+    - S Makemake → H Jupiter Dec 35.0038 35 whole (65.83)
+    - J Pleiades → J Eris RA 34.9900 35 whole (24.86)
+  - 16 whole — also: 8 The Bellhop / Freddie Mitchell
+    - H Algol → H Venus Dec 15.9901 16 whole (25.58)
+    - H Difda → H Eris Dec 16.0143 16 whole (8.19)
+    - H Zubenelgenubi → H Pallas Dec 15.9927 16 whole (40.46)
+  - 41 whole — also: 8 The Bellhop / Freddie Mitchell
+    - H Algol → H Pallas Dec 41.0047 41 whole (58.89)
+    - H Zubenelgenubi → H Venus Dec 41.0073 41 whole (40.59)
+  - 58 whole — also: 8 The Bellhop / Freddie Mitchell
+    - H Capella → H Gonggong Dec 58.0046 58 whole (59.22)
+    - J Capella → J Juno Dec 58.0061 58 whole (48.00)
   - φ^10 phi power — only
     - H Galactic Centre → H Ceres RA 122.9215 φ^10 phi power (78.42)
     - S Saturn → J Saturn RA 122.9257 φ^10 phi power (79.64)
@@ -156,121 +232,232 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
     - H Galactic Centre → H Gonggong Dec 16.9992 17 whole (91.98)
     - H Scheat → H Uranus Dec 16.9945 17 whole (52.48)
     - J Galactic Centre → J Juno Dec 17.0002 17 whole (98.41)
+  - 3 whole — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 8 The Bellhop / Freddie Mitchell
+    - H Pleiades → H Sun Dec 2.9859 3 whole (8.57)
+    - J Orion Nebula Cluster → J Chiron RA 2.9975 3 whole (76.91)
+  - 11 whole — also: 2 Lynx De Thaix / Gavin Sheehan
+    - H Vindemiatrix → H Pallas Dec 11.0101 11 whole (24.74)
+    - J Difda → J Eris RA 10.9847 11 whole (5.53)
   - 177.778 ninth — also: 2 Lynx De Thaix / Gavin Sheehan
     - J Algol → J Quaoar RA 177.7256 177.778 ninth (95.92)
     - J Capella → J Juno RA 177.7605 177.778 ninth (98.65)
-- **6. star and sky line on one body**: none
-- **7. centres meeting**
-  - Ketu: Jupiter, Moon, Sun — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
-    - [Jupiter] S Ketu → H Ketu RA 161.6637 100×φ^1 phi power (loose)
-    - [Moon] J Rigel → J Ketu Dec 0.0102 conj (93.31)
-    - [Sun] H Deneb → H Ketu RA 0.1096 conj (85.92)
-    - [Sun] J Deneb → J Ketu RA 110.9248 10×φ^5 phi power (91.85)
-  - Quaoar: Jupiter, Moon — only
-    - [Jupiter] H Jupiter → H Quaoar Dec 0.0756 conj (55.95)
-    - [Moon] J Algol → J Quaoar RA 177.7256 177.778 ninth (95.92)
-  - Gonggong: Jupiter, Moon, Sun — also: 3 Donnie Azoff / Isabelle Ryder
-    - [Jupiter] S Jupiter → H Gonggong Dec 26.0009 26 whole (91.57)
-    - [Jupiter] H Capella → H Gonggong Dec 58.0046 58 whole (59.22)
-    - [Jupiter] H Galactic Centre → H Gonggong Dec 16.9992 17 whole (91.98)
-    - [Moon] H Rigel → H Gonggong RA 101.9862 102 whole (9.73)
-    - [Moon] J Pleiades → J Gonggong RA 89.0189 89 whole (0.30)
-    - [Moon] J Zubenelgenubi → J Gonggong RA 105.1428 65×φ golden (0.85)
-    - [Sun] J Deneb Algedi → J Gonggong RA 1.0960 conj (7.25)
-    - [Sun] J Zubenelgenubi → J Gonggong RA 105.1428 65×φ golden (0.85)
-  - Neptune: Jupiter, Moon, Sun — also: 5 He's A Latchico / Caoilin Quinn
-    - [Jupiter] H Galactic Centre → H Neptune Dec 22.6507 14×φ golden (89.51)
-    - [Moon] H Vindemiatrix → H Neptune RA 152.0195 152 whole (0.07)
-    - [Moon] J Sadalsuud → J Neptune RA 48.9875 49 whole (14.15)
-    - [Sun] S Sun → H Neptune RA 126.2072 78×φ golden (96.41)
-    - [Sun] J Difda → J Neptune RA 96.9977 97 whole (78.10)
-  - Eris: Moon, Sun — also: 3 Donnie Azoff / Isabelle Ryder, 8 The Bellhop / Freddie Mitchell
-    - [Moon] S Moon → H Eris Dec 7.0714 7.07 sqrt2 (98.36)
-    - [Moon] J Pleiades → J Eris RA 34.9900 35 whole (24.86)
-    - [Moon] J Sadalsuud → J Eris RA 58.9949 59 whole (55.17)
-    - [Sun] H Difda → H Eris Dec 16.0143 16 whole (8.19)
-    - [Sun] J Difda → J Eris RA 10.9847 11 whole (5.53)
-  - Jupiter: Jupiter, Moon, Sun — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
-    - [Jupiter] S Makemake → H Jupiter Dec 35.0038 35 whole (65.83)
-    - [Jupiter] S Quaoar → H Jupiter Dec 0.2763 conj (0.63)
-    - [Moon] H Pleiades → H Jupiter RA 166.9874 167 whole (13.71)
-    - [Moon] H Zubenelgenubi → H Jupiter RA 1.1284 conj (6.14)
-    - [Sun] H Zubenelgenubi → H Jupiter RA 1.1284 conj (6.14)
-    - [Sun] J Scheat → J Jupiter RA 0.4558 conj (48.46)
-  - Venus: Jupiter, Moon, Sun — only
-    - [Jupiter] H Capella → H Venus Dec 21.0324 13×φ golden (87.80)
-    - [Jupiter] J Capella → J Venus RA 146.0103 146 whole (23.37)
-    - [Moon] H Algol → H Venus Dec 15.9901 16 whole (25.58)
-    - [Moon] H Pleiades → H Venus RA 42.0068 42 whole (43.42)
-    - [Moon] H Sadalsuud → H Venus RA 135.9810 136 whole (0.28)
-    - [Moon] H Vindemiatrix → H Venus Dec 14.0045 14 whole (60.19)
-    - [Moon] H Zubenelgenubi → H Venus Dec 41.0073 41 whole (40.59)
-    - [Sun] H Zubenelgenubi → H Venus Dec 41.0073 41 whole (40.59)
-  - Pallas: Moon, Sun — also: 3 Donnie Azoff / Isabelle Ryder
-    - [Moon] H Algol → H Pallas Dec 41.0047 41 whole (58.89)
-    - [Moon] H Vindemiatrix → H Pallas Dec 11.0101 11 whole (24.74)
-    - [Moon] H Zubenelgenubi → H Pallas Dec 15.9927 16 whole (40.46)
-    - [Moon] J Vindemiatrix → J Pallas RA 0.2811 conj (66.04)
-    - [Sun] H Zubenelgenubi → H Pallas Dec 15.9927 16 whole (40.46)
-  - Pluto: Jupiter, Sun — only
-    - [Jupiter] H Galactic Centre → H Pluto RA 25.9927 26 whole (40.17)
-    - [Jupiter] J Capella → J Pluto RA 140.7500 87×φ golden (17.23)
-    - [Sun] H Deneb → H Pluto RA 17.9461 φ^6 phi power (96.07)
-    - [Sun] S Sun → J Pluto RA 1.4313 conj (0.21)
-    - [Sun] J Scheat → J Pluto RA 126.0198 126 whole (0.01)
-  - Sedna: Moon, Sun — also: 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
-    - [Moon] H Pleiades → H Sedna RA 0.0291 conj (96.16)
-    - [Moon] J Rigel → J Sedna RA 37.9872 38 whole (12.84)
-    - [Sun] H Deneb Algedi → H Sedna Dec 23.9969 24 whole (71.35)
-    - [Sun] H Orion Nebula Cluster → H Sedna RA 26.9806 27 whole (0.09)
-  - Haumea: Moon, Sun — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
-    - [Moon] J Pleiades → J Haumea RA 127.8046 79×φ golden (14.49)
-    - [Sun] H Deneb Algedi → H Haumea Dec 33.3361 33.3333 ninth (96.70)
-    - [Sun] H Scheat → H Haumea RA 133.3764 133.333 ninth (94.83)
-    - [Sun] J Deneb Algedi → J Haumea Dec 38.8386 24×φ golden (67.65)
-  - Juno: Jupiter, Moon, Sun — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
-    - [Jupiter] S Jupiter → J Juno Dec 26.0003 26 whole (97.32)
-    - [Jupiter] J Capella → J Juno RA 177.7605 177.778 ninth (98.65)
-    - [Jupiter] J Capella → J Juno Dec 58.0061 58 whole (48.00)
-    - [Jupiter] J Galactic Centre → J Juno Dec 17.0002 17 whole (98.41)
-    - [Moon] H Rigel → H Juno RA 66.3368 41×φ golden (84.64)
-    - [Sun] H Difda → H Juno RA 1.3969 conj (0.47)
-    - [Sun] J Orion Nebula Cluster → J Juno RA 173.1123 107×φ golden (21.47)
-    - [Sun] J Scheat → J Juno RA 89.0093 89 whole (28.61)
-  - Makemake: Moon, Sun — also: 2 Lynx De Thaix / Gavin Sheehan, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
-    - [Moon] H Vindemiatrix → H Makemake RA 1.0156 conj (10.43)
-    - [Sun] H Difda → H Makemake RA 176.3647 109×φ golden (93.98)
-  - Transpluto: Moon, Sun — also: 6 So You Know / Tom Bellamy
-    - [Moon] H Vindemiatrix → H Transpluto Dec 0.1797 conj (16.09)
-    - [Moon] J Sadalsuud → J Transpluto Dec 19.9966 20 whole (68.64)
-    - [Sun] H Difda → H Transpluto Dec 29.1247 18×φ golden (99.17)
-    - [Sun] J Difda → J Transpluto RA 132.7000 82×φ golden (11.97)
-  - Ceres: Jupiter, Moon — only
-    - [Jupiter] H Galactic Centre → H Ceres RA 122.9215 φ^10 phi power (78.42)
-    - [Moon] J Rigel → J Ceres RA 135.9412 84×φ golden (3.47)
-    - [Moon] J Rigel → J Ceres Dec 0.0289 conj (81.63)
-  - Sun: Moon, Sun — also: 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien
-    - [Moon] H Pleiades → H Sun Dec 2.9859 3 whole (8.57)
-    - [Sun] J Deneb Algedi → J Sun Dec 5.0131 5 whole (11.80)
-    - [Sun] J Scheat → J Sun RA 139.0156 139 whole (4.84)
-  - Uranus: Moon, Sun — only
-    - [Moon] H Pleiades → H Uranus Dec 13.0181 13 whole (0.93)
-    - [Moon] H Vindemiatrix → H Uranus Dec 0.1265 conj (33.45)
-    - [Sun] H Scheat → H Uranus Dec 16.9945 17 whole (52.48)
-    - [Sun] J Difda → J Uranus RA 111.9852 112 whole (6.72)
-  - Vesta: Jupiter, Moon, Sun — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn
-    - [Jupiter] S Jupiter → J Vesta RA 137.5366 85×φ golden (78.63)
-    - [Moon] J Rigel → J Vesta Dec 0.2596 conj (1.81)
-    - [Moon] J Vindemiatrix → J Vesta Dec 19.4195 12×φ golden (82.03)
-    - [Sun] J Difda → J Vesta RA 1.3104 conj (1.60)
-  - Mars: Moon, Sun — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
-    - [Moon] J Algol → J Mars RA 95.9969 96 whole (71.48)
-    - [Sun] J Deneb → J Mars RA 0.6930 conj (28.94)
-  - Saturn: Jupiter, Moon, Sun — also: 2 Lynx De Thaix / Gavin Sheehan, 7 Motazzen / Paul O'Brien
-    - [Jupiter] J Galactic Centre → J Saturn Dec 8.9860 9 whole (8.92)
-    - [Moon] J Vindemiatrix → J Saturn Dec 30.9829 31 whole (2.14)
-    - [Moon] J Zubenelgenubi → J Saturn Dec 3.9823 4 whole (1.32)
-    - [Sun] J Zubenelgenubi → J Saturn Dec 3.9823 4 whole (1.32)
+  - 89 whole — also: 6 So You Know / Tom Bellamy
+    - J Pleiades → J Gonggong RA 89.0189 89 whole (0.30)
+    - J Scheat → J Juno RA 89.0093 89 whole (28.61)
+### L4 every natal body
+- **Mercury**
+  - same body: S Mercury → H Mercury RA 166.4606 166.667 ninth (loose) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+- **Mars**
+  - same body: S Mars → H Mars Dec 37.9815 38 whole (0.58) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Algol → J Mars RA 95.9969 96 whole (71.48) — also: 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - star rows: J Deneb → J Mars RA 0.6930 conj (28.94) — also: 5 He's A Latchico / Caoilin Quinn
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+- **Neptune**
+  - same body: S Neptune → H Neptune RA 14.4595 14.4444 ninth (loose) — also: 7 Motazzen / Paul O'Brien
+  - top rows: S Sun → H Neptune RA 126.2072 78×φ golden (96.41) — only
+  - star rows: H Galactic Centre → H Neptune Dec 22.6507 14×φ golden (89.51) — also: 5 He's A Latchico / Caoilin Quinn
+    - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
+  - star rows: H Vindemiatrix → H Neptune RA 152.0195 152 whole (0.07) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - star rows: J Difda → J Neptune RA 96.9977 97 whole (78.10) — also: 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: J Sadalsuud → J Neptune RA 48.9875 49 whole (14.15) — also: 6 So You Know / Tom Bellamy
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+- **Juno**
+  - same body: S Juno → H Juno Dec 18.9787 19 whole (loose) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy
+  - star rows: H Difda → H Juno RA 1.3969 conj (0.47) — also: 6 So You Know / Tom Bellamy
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: H Rigel → H Juno RA 66.3368 41×φ golden (84.64) — also: 5 He's A Latchico / Caoilin Quinn
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+  - top rows: S Jupiter → J Juno Dec 26.0003 26 whole (97.32) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn
+  - star rows: J Capella → J Juno RA 177.7605 177.778 ninth (98.65) — also: 2 Lynx De Thaix / Gavin Sheehan, 8 The Bellhop / Freddie Mitchell
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - star rows: J Capella → J Juno Dec 58.0061 58 whole (48.00) — also: 2 Lynx De Thaix / Gavin Sheehan, 8 The Bellhop / Freddie Mitchell
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - star rows: J Galactic Centre → J Juno Dec 17.0002 17 whole (98.41) — also: 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
+  - star rows: J Orion Nebula Cluster → J Juno RA 173.1123 107×φ golden (21.47) — also: 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - star rows: J Scheat → J Juno RA 89.0093 89 whole (28.61) — also: 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+- **Rahu**
+  - same body: S Rahu → H Rahu RA 161.6637 100×φ^1 phi power (loose) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Galactic Centre → J Rahu Dec 37.2175 23×φ golden (83.82) — also: 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn
+    - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
+- **Transpluto**
+  - same body: S Transpluto → H Transpluto Dec 1.4129 1.414 sqrt2 (loose) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+  - star rows: H Difda → H Transpluto Dec 29.1247 18×φ golden (99.17) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: H Vindemiatrix → H Transpluto Dec 0.1797 conj (16.09) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - star rows: J Difda → J Transpluto RA 132.7000 82×φ golden (11.97) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: J Sadalsuud → J Transpluto Dec 19.9966 20 whole (68.64) — also: 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+- **Ketu**
+  - same body: S Ketu → H Ketu RA 161.6637 100×φ^1 phi power (loose) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+    - source line: S Jupiter → Ketu RA 1.4603 conj (0.07)
+  - star rows: H Deneb → H Ketu RA 0.1096 conj (85.92) — also: 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - star rows: J Deneb → J Ketu RA 110.9248 10×φ^5 phi power (91.85) — also: 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - star rows: J Rigel → J Ketu Dec 0.0102 conj (93.31) — only
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+- **Quaoar**
+  - T1: H Jupiter → H Quaoar Dec 0.0756 conj (55.95) — only
+  - star rows: J Algol → J Quaoar RA 177.7256 177.778 ninth (95.92) — also: 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+- **Gonggong**
+  - top rows: S Jupiter → H Gonggong Dec 26.0009 26 whole (91.57) — only
+  - star rows: H Capella → H Gonggong Dec 58.0046 58 whole (59.22) — also: 8 The Bellhop / Freddie Mitchell
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - star rows: H Galactic Centre → H Gonggong Dec 16.9992 17 whole (91.98) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
+  - star rows: H Rigel → H Gonggong RA 101.9862 102 whole (9.73) — also: 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+  - same body: S Gonggong → J Gonggong Dec 11.1004 11.1111 ninth (loose) — also: 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Deneb Algedi → J Gonggong RA 1.0960 conj (7.25) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: J Pleiades → J Gonggong RA 89.0189 89 whole (0.30) — also: 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: J Zubenelgenubi → J Gonggong RA 105.1428 65×φ golden (0.85) — only
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+- **Eris**
+  - top rows: S Moon → H Eris Dec 7.0714 7.07 sqrt2 (98.36) — also: 7 Motazzen / Paul O'Brien
+  - star rows: H Difda → H Eris Dec 16.0143 16 whole (8.19) — only
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: J Difda → J Eris RA 10.9847 11 whole (5.53) — only
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: J Pleiades → J Eris RA 34.9900 35 whole (24.86) — only
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: J Sadalsuud → J Eris RA 58.9949 59 whole (55.17) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+- **Jupiter**
+  - top rows: S Makemake → H Jupiter Dec 35.0038 35 whole (65.83) — only
+  - top rows: S Quaoar → H Jupiter Dec 0.2763 conj (0.63) — also: 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+  - star rows: H Pleiades → H Jupiter RA 166.9874 167 whole (13.71) — also: 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: H Zubenelgenubi → H Jupiter RA 1.1284 conj (6.14) — also: 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+  - same body: S Jupiter → J Jupiter RA 161.6366 100×φ^1 phi power (loose) — also: 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Scheat → J Jupiter RA 0.4558 conj (48.46) — also: 6 So You Know / Tom Bellamy
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+- **Venus**
+  - star rows: H Algol → H Venus Dec 15.9901 16 whole (25.58) — also: 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - star rows: H Capella → H Venus Dec 21.0324 13×φ golden (87.80) — only
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - star rows: H Pleiades → H Venus RA 42.0068 42 whole (43.42) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: H Sadalsuud → H Venus RA 135.9810 136 whole (0.28) — also: 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+  - star rows: H Vindemiatrix → H Venus Dec 14.0045 14 whole (60.19) — also: 5 He's A Latchico / Caoilin Quinn
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - star rows: H Zubenelgenubi → H Venus Dec 41.0073 41 whole (40.59) — also: 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+  - star rows: J Capella → J Venus RA 146.0103 146 whole (23.37) — only
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+- **Pallas**
+  - star rows: H Algol → H Pallas Dec 41.0047 41 whole (58.89) — also: 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - star rows: H Vindemiatrix → H Pallas Dec 11.0101 11 whole (24.74) — also: 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - star rows: H Zubenelgenubi → H Pallas Dec 15.9927 16 whole (40.46) — only
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+  - same body: S Pallas → J Pallas RA 179.6607 10×φ^6 phi power (loose) — also: 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn
+  - star rows: J Vindemiatrix → J Pallas RA 0.2811 conj (66.04) — also: 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+- **Pluto**
+  - star rows: H Deneb → H Pluto RA 17.9461 φ^6 phi power (96.07) — also: 5 He's A Latchico / Caoilin Quinn
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - star rows: H Galactic Centre → H Pluto RA 25.9927 26 whole (40.17) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
+  - top rows: S Sun → J Pluto RA 1.4313 conj (0.21) — also: 5 He's A Latchico / Caoilin Quinn
+  - star rows: J Capella → J Pluto RA 140.7500 87×φ golden (17.23) — also: 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - star rows: J Scheat → J Pluto RA 126.0198 126 whole (0.01) — only
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+- **Sedna**
+  - star rows: H Deneb Algedi → H Sedna Dec 23.9969 24 whole (71.35) — also: 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: H Orion Nebula Cluster → H Sedna RA 26.9806 27 whole (0.09) — also: 3 Donnie Azoff / Isabelle Ryder, 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - star rows: H Pleiades → H Sedna RA 0.0291 conj (96.16) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: J Rigel → J Sedna RA 37.9872 38 whole (12.84) — also: 6 So You Know / Tom Bellamy
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+- **Haumea**
+  - star rows: H Deneb Algedi → H Haumea Dec 33.3361 33.3333 ninth (96.70) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: H Scheat → H Haumea RA 133.3764 133.333 ninth (94.83) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+  - star rows: J Deneb Algedi → J Haumea Dec 38.8386 24×φ golden (67.65) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: J Pleiades → J Haumea RA 127.8046 79×φ golden (14.49) — also: 7 Motazzen / Paul O'Brien
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+- **Makemake**
+  - star rows: H Difda → H Makemake RA 176.3647 109×φ golden (93.98) — also: 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: H Vindemiatrix → H Makemake RA 1.0156 conj (10.43) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - same body: S Makemake → J Makemake RA 35.9707 36 whole (loose) — also: 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+- **Ceres**
+  - star rows: H Galactic Centre → H Ceres RA 122.9215 φ^10 phi power (78.42) — also: 5 He's A Latchico / Caoilin Quinn
+    - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
+  - star rows: J Rigel → J Ceres RA 135.9412 84×φ golden (3.47) — only
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+  - star rows: J Rigel → J Ceres Dec 0.0289 conj (81.63) — only
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+- **Sun**
+  - star rows: H Pleiades → H Sun Dec 2.9859 3 whole (8.57) — only
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - same body: S Sun → J Sun RA 14.4271 14.4444 ninth (loose) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Deneb Algedi → J Sun Dec 5.0131 5 whole (11.80) — also: 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: J Scheat → J Sun RA 139.0156 139 whole (4.84) — also: 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+- **Uranus**
+  - star rows: H Pleiades → H Uranus Dec 13.0181 13 whole (0.93) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: H Scheat → H Uranus Dec 16.9945 17 whole (52.48) — also: 6 So You Know / Tom Bellamy
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+  - star rows: H Vindemiatrix → H Uranus Dec 0.1265 conj (33.45) — also: 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - star rows: J Difda → J Uranus RA 111.9852 112 whole (6.72) — also: 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+- **Saturn**
+  - same body: S Saturn → J Saturn RA 122.9257 φ^10 phi power (79.64) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
+  - star rows: J Galactic Centre → J Saturn Dec 8.9860 9 whole (8.92) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
+  - star rows: J Vindemiatrix → J Saturn Dec 30.9829 31 whole (2.14) — also: 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - star rows: J Zubenelgenubi → J Saturn Dec 3.9823 4 whole (1.32) — also: 2 Lynx De Thaix / Gavin Sheehan, 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+- **Chiron**
+  - same body: S Chiron → J Chiron Dec 7.0248 7 whole (loose) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy
+  - star rows: J Orion Nebula Cluster → J Chiron RA 2.9975 3 whole (76.91) — also: 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+- **Orcus**
+  - same body: S Orcus → J Orcus RA 34.0160 34 whole (4.01) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
+- **Vesta**
+  - top rows: S Jupiter → J Vesta RA 137.5366 85×φ golden (78.63) — also: 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien
+  - star rows: J Difda → J Vesta RA 1.3104 conj (1.60) — only
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: J Rigel → J Vesta Dec 0.2596 conj (1.81) — also: 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+  - star rows: J Vindemiatrix → J Vesta Dec 19.4195 12×φ golden (82.03) — also: 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
 
 ## 2 Lynx De Thaix / Gavin Sheehan
 ### L1 same bodies
@@ -291,87 +478,145 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - S Transpluto → J Transpluto RA 12.1622 12.2222 ninth (loose)
 ### L2 what lands on each same body
 - **H Mercury** (same body: S Mercury → H Mercury RA 111.0261 111 whole (loose))
-  - star rows: H Capella → H Mercury RA 111.1788 111.111 ninth (88.92) [Jupiter]
-  - star rows: H Deneb Algedi → H Mercury RA 1.2372 conj (3.07) [Sun]
-  - star rows: H Scheat → H Mercury RA 17.9449 φ^6 phi power (98.53) [Sun]
+  - star rows: H Capella → H Mercury RA 111.1788 111.111 ninth (88.92)
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - star rows: H Deneb Algedi → H Mercury RA 1.2372 conj (3.07)
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: H Scheat → H Mercury RA 17.9449 φ^6 phi power (98.53)
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
   - other chart, same body: S Mercury → J Mercury RA 99.9818 100 whole (0.77)
-  - other chart, star rows: J Deneb → J Mercury RA 166.6220 166.667 ninth (96.17) [Sun]
-  - other chart, star rows: J Scheat → J Mercury RA 131.0413 81×φ golden (15.81) [Sun]
+  - other chart, star rows: J Deneb → J Mercury RA 166.6220 166.667 ninth (96.17)
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - other chart, star rows: J Scheat → J Mercury RA 131.0413 81×φ golden (15.81)
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
 - **H Saturn** (same body: S Saturn → H Saturn RA 57.0047 57 whole (58.49))
-  - top rows: S Jupiter → H Saturn Dec 32.3680 20×φ golden (59.77) [Jupiter]
-  - star rows: H Orion Nebula Cluster → H Saturn Dec 12.9819 13 whole (0.92) [Sun]
-  - star rows: H Scheat → H Saturn RA 34.0152 34 whole (5.86) [Sun]
-  - other chart, star rows: J Deneb Algedi → J Saturn Dec 0.1757 conj (17.17) [Sun]
-  - other chart, star rows: J Zubenelgenubi → J Saturn Dec 0.2583 conj (1.93) [Moon, Sun]
+  - top rows: S Jupiter → H Saturn Dec 32.3680 20×φ golden (59.77)
+  - star rows: H Orion Nebula Cluster → H Saturn Dec 12.9819 13 whole (0.92)
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - star rows: H Scheat → H Saturn RA 34.0152 34 whole (5.86)
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+  - other chart, star rows: J Deneb Algedi → J Saturn Dec 0.1757 conj (17.17)
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - other chart, star rows: J Zubenelgenubi → J Saturn Dec 0.2583 conj (1.93)
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **H Pluto** (same body: S Pluto → H Pluto Dec 1.4482 1.44444 ninth (loose))
-  - star rows: H Sadalsuud → H Pluto Dec 16.6617 16.6667 ninth (95.76) [Moon]
+  - star rows: H Sadalsuud → H Pluto Dec 16.6617 16.6667 ninth (95.76)
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
   - other chart, same body: S Pluto → J Pluto RA 74.0019 74 whole (82.30)
-  - other chart, star rows: J Capella → J Pluto RA 152.9837 153 whole (3.44) [Jupiter]
+  - other chart, star rows: J Capella → J Pluto RA 152.9837 153 whole (3.44)
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
 - **H Chiron** (same body: S Chiron → H Chiron RA 19.4009 12×φ golden (loose))
-  - star rows: H Algol → H Chiron RA 41.0087 41 whole (31.99) [Moon]
+  - star rows: H Algol → H Chiron RA 41.0087 41 whole (31.99)
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
 - **J Mercury** (same body: S Mercury → J Mercury RA 99.9818 100 whole (0.77))
-  - star rows: J Deneb → J Mercury RA 166.6220 166.667 ninth (96.17) [Sun]
-  - star rows: J Scheat → J Mercury RA 131.0413 81×φ golden (15.81) [Sun]
+  - star rows: J Deneb → J Mercury RA 166.6220 166.667 ninth (96.17)
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - star rows: J Scheat → J Mercury RA 131.0413 81×φ golden (15.81)
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
   - other chart, same body: S Mercury → H Mercury RA 111.0261 111 whole (loose)
-  - other chart, star rows: H Capella → H Mercury RA 111.1788 111.111 ninth (88.92) [Jupiter]
-  - other chart, star rows: H Deneb Algedi → H Mercury RA 1.2372 conj (3.07) [Sun]
-  - other chart, star rows: H Scheat → H Mercury RA 17.9449 φ^6 phi power (98.53) [Sun]
+  - other chart, star rows: H Capella → H Mercury RA 111.1788 111.111 ninth (88.92)
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - other chart, star rows: H Deneb Algedi → H Mercury RA 1.2372 conj (3.07)
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - other chart, star rows: H Scheat → H Mercury RA 17.9449 φ^6 phi power (98.53)
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
 - **J Venus** (same body: S Venus → J Venus RA 105.0131 105 whole (11.96))
-  - star rows: J Deneb Algedi → J Venus Dec 39.9998 40 whole (98.02) [Sun]
-  - star rows: J Pleiades → J Venus Dec 0.2295 conj (5.52) [Moon]
-  - other chart, star rows: H Orion Nebula Cluster → H Venus RA 93.9936 94 whole (46.15) [Sun]
+  - star rows: J Deneb Algedi → J Venus Dec 39.9998 40 whole (98.02)
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: J Pleiades → J Venus Dec 0.2295 conj (5.52)
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - other chart, star rows: H Orion Nebula Cluster → H Venus RA 93.9936 94 whole (46.15)
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
 - **J Uranus** (same body: S Uranus → J Uranus RA 133.9566 133.333 ninth (loose))
-  - body line: S Jupiter → Uranus RA 84.9993 85 whole (93.10)
-  - star rows: J Capella → J Uranus RA 150.9924 151 whole (38.43) [Jupiter]
-  - star rows: J Pleiades → J Uranus Dec 46.9259 29×φ golden (82.98) [Moon]
-  - star rows: J Rigel → J Uranus RA 150.4571 93×φ golden (14.43) [Moon]
-  - other chart, top rows: S Jupiter → H Uranus Dec 0.2872 conj (0.18) [Jupiter]
-  - other chart, top rows: S Moon → H Uranus RA 154.0010 154 whole (90.13) [Moon]
-  - other chart, star rows: H Vindemiatrix → H Uranus RA 159.9966 160 whole (68.57) [Moon]
+  - sky line to Uranus: S Jupiter → Uranus RA 84.9993 85 whole (93.10)
+  - star rows: J Capella → J Uranus RA 150.9924 151 whole (38.43)
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - star rows: J Pleiades → J Uranus Dec 46.9259 29×φ golden (82.98)
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: J Rigel → J Uranus RA 150.4571 93×φ golden (14.43)
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+  - other chart, top rows: S Jupiter → H Uranus Dec 0.2872 conj (0.18)
+  - other chart, top rows: S Moon → H Uranus RA 154.0010 154 whole (90.13)
+  - other chart, star rows: H Vindemiatrix → H Uranus RA 159.9966 160 whole (68.57)
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
 - **J Pluto** (same body: S Pluto → J Pluto RA 74.0019 74 whole (82.30))
-  - star rows: J Capella → J Pluto RA 152.9837 153 whole (3.44) [Jupiter]
+  - star rows: J Capella → J Pluto RA 152.9837 153 whole (3.44)
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
   - other chart, same body: S Pluto → H Pluto Dec 1.4482 1.44444 ninth (loose)
-  - other chart, star rows: H Sadalsuud → H Pluto Dec 16.6617 16.6667 ninth (95.76) [Moon]
+  - other chart, star rows: H Sadalsuud → H Pluto Dec 16.6617 16.6667 ninth (95.76)
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
 - **J Pallas** (same body: S Pallas → J Pallas Dec 45.0224 45 whole (loose))
-  - star rows: J Galactic Centre → J Pallas RA 1.1614 conj (5.10) [Jupiter]
-  - other chart, star rows: H Capella → H Pallas RA 110.9661 10×φ^5 phi power (78.11) [Jupiter]
-  - other chart, star rows: H Deneb Algedi → H Pallas RA 1.4498 conj (0.11) [Sun]
-  - other chart, star rows: H Vindemiatrix → H Pallas RA 132.6593 82×φ golden (15.89) [Moon]
+  - star rows: J Galactic Centre → J Pallas RA 1.1614 conj (5.10)
+    - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
+  - other chart, star rows: H Capella → H Pallas RA 110.9661 10×φ^5 phi power (78.11)
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - other chart, star rows: H Deneb Algedi → H Pallas RA 1.4498 conj (0.11)
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - other chart, star rows: H Vindemiatrix → H Pallas RA 132.6593 82×φ golden (15.89)
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
 - **J Vesta** (same body: S Vesta → J Vesta Dec 14.0190 14 whole (0.26))
-  - star rows: J Sadalsuud → J Vesta Dec 15.0137 15 whole (9.81) [Moon]
-  - star rows: J Zubenelgenubi → J Vesta RA 46.0087 46 whole (31.89) [Moon, Sun]
-  - other chart, star rows: H Orion Nebula Cluster → H Vesta RA 83.9870 84 whole (12.36) [Sun]
-  - other chart, star rows: H Pleiades → H Vesta RA 110.9404 10×φ^5 phi power (86.51) [Moon]
-  - other chart, star rows: H Pleiades → H Vesta Dec 7.0142 7 whole (8.41) [Moon]
-  - other chart, star rows: H Scheat → H Vesta Dec 10.9908 11 whole (29.42) [Sun]
+  - star rows: J Sadalsuud → J Vesta Dec 15.0137 15 whole (9.81)
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+  - star rows: J Zubenelgenubi → J Vesta RA 46.0087 46 whole (31.89)
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+  - other chart, star rows: H Orion Nebula Cluster → H Vesta RA 83.9870 84 whole (12.36)
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - other chart, star rows: H Pleiades → H Vesta RA 110.9404 10×φ^5 phi power (86.51)
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - other chart, star rows: H Pleiades → H Vesta Dec 7.0142 7 whole (8.41)
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - other chart, star rows: H Scheat → H Vesta Dec 10.9908 11 whole (29.42)
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
 - **J Sedna** (same body: S Sedna → J Sedna Dec 4.2322 φ^3 phi power (loose))
-  - top rows: S Jupiter → J Sedna RA 103.5616 64×φ golden (59.22) [Jupiter]
-  - top rows: S Sun → J Sedna RA 177.7923 177.778 ninth (98.86) [Sun]
-  - star rows: J Capella → J Sedna RA 35.5982 22×φ golden (91.51) [Jupiter]
-  - other chart, top rows: S Sun → H Sedna Dec 23.9991 24 whole (90.74) [Sun]
-  - other chart, star rows: H Capella → H Sedna Dec 37.9842 38 whole (4.44) [Jupiter]
-  - other chart, star rows: H Deneb Algedi → H Sedna Dec 24.1441 24.14 silver (96.83) [Sun]
-  - other chart, star rows: H Difda → H Sedna Dec 26.0026 26 whole (75.89) [Sun]
-  - other chart, star rows: H Pleiades → H Sedna RA 0.9171 conj (15.10) [Moon]
+  - top rows: S Jupiter → J Sedna RA 103.5616 64×φ golden (59.22)
+  - top rows: S Sun → J Sedna RA 177.7923 177.778 ninth (98.86)
+  - star rows: J Capella → J Sedna RA 35.5982 22×φ golden (91.51)
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - other chart, top rows: S Sun → H Sedna Dec 23.9991 24 whole (90.74)
+  - other chart, star rows: H Capella → H Sedna Dec 37.9842 38 whole (4.44)
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - other chart, star rows: H Deneb Algedi → H Sedna Dec 24.1441 24.14 silver (96.83)
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - other chart, star rows: H Difda → H Sedna Dec 26.0026 26 whole (75.89)
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - other chart, star rows: H Pleiades → H Sedna RA 0.9171 conj (15.10)
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
 - **J Makemake** (same body: S Makemake → J Makemake Dec 15.5388 15.5556 ninth (loose))
-  - star rows: J Pleiades → J Makemake Dec 11.0088 11 whole (31.43) [Moon]
-  - other chart, star rows: H Deneb → H Makemake Dec 22.0115 22 whole (18.04) [Sun]
+  - star rows: J Pleiades → J Makemake Dec 11.0088 11 whole (31.43)
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - other chart, star rows: H Deneb → H Makemake Dec 22.0115 22 whole (18.04)
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
 - **J Orcus** (same body: S Orcus → J Orcus Dec 17.0282 17 whole (loose))
-  - star rows: J Orion Nebula Cluster → J Orcus RA 46.9774 φ^8 phi power (98.93) [Sun]
-  - star rows: J Pleiades → J Orcus Dec 20.9884 21 whole (17.65) [Moon]
-  - other chart, star rows: H Algol → H Orcus RA 108.4150 67×φ golden (62.85) [Moon]
-  - other chart, star rows: H Galactic Centre → H Orcus RA 110.9627 10×φ^5 phi power (79.20) [Jupiter]
+  - star rows: J Orion Nebula Cluster → J Orcus RA 46.9774 φ^8 phi power (98.93)
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - star rows: J Pleiades → J Orcus Dec 20.9884 21 whole (17.65)
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - other chart, star rows: H Algol → H Orcus RA 108.4150 67×φ golden (62.85)
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - other chart, star rows: H Galactic Centre → H Orcus RA 110.9627 10×φ^5 phi power (79.20)
+    - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
 - **J Quaoar** (same body: S Quaoar → J Quaoar Dec 1.6560 1.66667 ninth (loose))
-  - star rows: J Capella → J Quaoar RA 157.0087 157 whole (31.81) [Jupiter]
-  - other chart, star rows: H Orion Nebula Cluster → H Quaoar RA 168.0184 168 whole (0.61) [Sun]
-  - other chart, star rows: H Orion Nebula Cluster → H Quaoar Dec 10.0100 10 whole (25.01) [Sun]
+  - star rows: J Capella → J Quaoar RA 157.0087 157 whole (31.81)
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - other chart, star rows: H Orion Nebula Cluster → H Quaoar RA 168.0184 168 whole (0.61)
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - other chart, star rows: H Orion Nebula Cluster → H Quaoar Dec 10.0100 10 whole (25.01)
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
 - **J Transpluto** (same body: S Transpluto → J Transpluto RA 12.1622 12.2222 ninth (loose))
-  - top rows: S Jupiter → J Transpluto Dec 0.1248 conj (34.12) [Jupiter]
-  - star rows: J Deneb Algedi → J Transpluto RA 177.7822 177.778 ninth (99.66) [Sun]
-  - star rows: J Pleiades → J Transpluto Dec 9.9870 10 whole (12.13) [Moon]
-  - star rows: J Vindemiatrix → J Transpluto RA 51.0009 51 whole (91.19) [Moon]
-  - other chart, star rows: H Vindemiatrix → H Transpluto Dec 0.2930 conj (0.05) [Moon]
-### L3 the seven cases (L5 field tag on each)
+  - top rows: S Jupiter → J Transpluto Dec 0.1248 conj (34.12)
+  - star rows: J Deneb Algedi → J Transpluto RA 177.7822 177.778 ninth (99.66)
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: J Pleiades → J Transpluto Dec 9.9870 10 whole (12.13)
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: J Vindemiatrix → J Transpluto RA 51.0009 51 whole (91.19)
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - other chart, star rows: H Vindemiatrix → H Transpluto Dec 0.2930 conj (0.05)
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+### L3 matches
 - **1. same body on both charts**
   - Mercury — only
     - S Mercury → H Mercury RA 111.0261 111 whole (loose)
@@ -398,7 +643,7 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 133.333 ninth — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
     - S Uranus → J Uranus RA 133.9566 133.333 ninth (loose) = S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
 - **4. circle divisions**
-  - 12 = 360/30 — also: 8 The Bellhop / Freddie Mitchell
+  - 12 = 360/30 — also: 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
     - S Sun → H Ceres Dec 12.0016 12 whole (84.58)
   - 24 = 360/15 — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn
     - S Sun → H Sedna Dec 23.9991 24 whole (90.74)
@@ -406,20 +651,40 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
     - S Ceres → H Jupiter Dec 39.9967 40 whole (69.35)
   - 3 = 360/120 — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 8 The Bellhop / Freddie Mitchell
     - S Rahu → H Jupiter Dec 3.0056 3 whole (52.02)
-  - 10 = 360/36 — also: 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien
+  - 10 = 360/36 — also: 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
     - H Deneb Algedi → H Gonggong RA 10.0056 10 whole (52.13)
-  - 45 = 360/8 — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn
+  - 5 = 360/72 — also: 1 Fire Flyer / Richie McLernon, 6 So You Know / Tom Bellamy
+    - H Galactic Centre → H Juno RA 4.9801 5 whole (0.00)
+  - 10 = 360/36 — also: 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+    - H Orion Nebula Cluster → H Quaoar Dec 10.0100 10 whole (25.01)
+  - 6 = 360/60 — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+    - H Zubenelgenubi → H Juno Dec 5.9829 6 whole (2.08)
+  - 45 = 360/8 — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
     - S Pallas → J Pallas Dec 45.0224 45 whole (loose)
-  - 4 = 360/90 — also: 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+  - 4 = 360/90 — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
     - S Haumea → J Jupiter Dec 4.0045 4 whole (60.23)
-  - 4 = 360/90 — also: 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+  - 4 = 360/90 — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
     - J Deneb → J Ceres RA 4.0037 4 whole (66.05)
   - 40 = 360/9 — also: 7 Motazzen / Paul O'Brien
     - J Deneb Algedi → J Venus Dec 39.9998 40 whole (98.02)
+  - 18 = 360/20 — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+    - J Orion Nebula Cluster → J Mars Dec 17.9916 18 whole (33.42)
+  - 10 = 360/36 — also: 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+    - J Pleiades → J Transpluto Dec 9.9870 10 whole (12.13)
+  - 15 = 360/24 — also: 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+    - J Sadalsuud → J Vesta Dec 15.0137 15 whole (9.81)
+  - 3 = 360/120 — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 8 The Bellhop / Freddie Mitchell
+    - J Sadalsuud → J Eris Dec 2.9885 3 whole (18.25)
 - **5. same number in more than one place**
-  - 40 whole — only
+  - 40 whole — also: 7 Motazzen / Paul O'Brien
     - S Ceres → H Jupiter Dec 39.9967 40 whole (69.35)
     - J Deneb Algedi → J Venus Dec 39.9998 40 whole (98.02)
+  - 3 whole — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 8 The Bellhop / Freddie Mitchell
+    - S Rahu → H Jupiter Dec 3.0056 3 whole (52.02)
+    - J Sadalsuud → J Eris Dec 2.9885 3 whole (18.25)
+  - 51 whole — only
+    - H Algol → H Juno Dec 51.0171 51 whole (2.10)
+    - J Vindemiatrix → J Transpluto RA 51.0009 51 whole (91.19)
   - 10×φ^5 phi power — only
     - H Capella → H Pallas RA 110.9661 10×φ^5 phi power (78.11)
     - H Galactic Centre → H Orcus RA 110.9627 10×φ^5 phi power (79.20)
@@ -428,138 +693,257 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
     - H Capella → H Juno RA 177.7367 177.778 ninth (96.79)
     - S Sun → J Sedna RA 177.7923 177.778 ninth (98.86)
     - J Deneb Algedi → J Transpluto RA 177.7822 177.778 ninth (99.66)
+  - 10 whole — also: 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien
+    - H Deneb Algedi → H Gonggong RA 10.0056 10 whole (52.13)
+    - H Orion Nebula Cluster → H Quaoar Dec 10.0100 10 whole (25.01)
+    - J Pleiades → J Transpluto Dec 9.9870 10 whole (12.13)
   - 14 whole — only
     - H Difda → H Ceres Dec 14.0051 14 whole (55.26)
     - S Vesta → J Vesta Dec 14.0190 14 whole (0.26)
   - 166.667 ninth — also: 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy
     - H Galactic Centre → H Rahu RA 166.6520 166.667 ninth (98.75)
     - J Deneb → J Mercury RA 166.6220 166.667 ninth (96.17)
+  - 11 whole — also: 1 Fire Flyer / Richie McLernon
+    - H Scheat → H Vesta Dec 10.9908 11 whole (29.42)
+    - J Pleiades → J Makemake Dec 11.0088 11 whole (31.43)
+  - 80×φ golden — only
+    - H Scheat → H Haumea RA 129.4721 80×φ golden (0.86)
+    - J Orion Nebula Cluster → J Ceres RA 129.4487 80×φ golden (66.68)
+  - 21 whole — only
+    - H Vindemiatrix → H Juno Dec 21.0170 21 whole (2.32)
+    - J Pleiades → J Orcus Dec 20.9884 21 whole (17.65)
   - 4 whole — also: 8 The Bellhop / Freddie Mitchell
     - S Haumea → J Jupiter Dec 4.0045 4 whole (60.23)
     - J Deneb → J Ceres RA 4.0037 4 whole (66.05)
-- **6. star and sky line on one body**: none
-- **7. centres meeting**
-  - Saturn: Jupiter, Moon, Sun — also: 1 Fire Flyer / Richie McLernon, 7 Motazzen / Paul O'Brien
-    - [Jupiter] S Jupiter → H Saturn Dec 32.3680 20×φ golden (59.77)
-    - [Moon] J Zubenelgenubi → J Saturn Dec 0.2583 conj (1.93)
-    - [Sun] H Orion Nebula Cluster → H Saturn Dec 12.9819 13 whole (0.92)
-    - [Sun] H Scheat → H Saturn RA 34.0152 34 whole (5.86)
-    - [Sun] J Deneb Algedi → J Saturn Dec 0.1757 conj (17.17)
-    - [Sun] J Zubenelgenubi → J Saturn Dec 0.2583 conj (1.93)
-  - Uranus: Jupiter, Moon — only
-    - [Jupiter] S Jupiter → H Uranus Dec 0.2872 conj (0.18)
-    - [Jupiter] S Uranus → J Uranus RA 133.9566 133.333 ninth (loose)
-    - [Jupiter] J Capella → J Uranus RA 150.9924 151 whole (38.43)
-    - [Moon] S Moon → H Uranus RA 154.0010 154 whole (90.13)
-    - [Moon] H Vindemiatrix → H Uranus RA 159.9966 160 whole (68.57)
-    - [Moon] J Pleiades → J Uranus Dec 46.9259 29×φ golden (82.98)
-    - [Moon] J Rigel → J Uranus RA 150.4571 93×φ golden (14.43)
-  - Neptune: Jupiter, Sun — only
-    - [Jupiter] S Jupiter → H Neptune RA 155.5306 155.556 ninth (97.64)
-    - [Sun] H Orion Nebula Cluster → H Neptune RA 92.2253 57×φ golden (84.11)
-  - Jupiter: Jupiter, Moon, Sun — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
-    - [Jupiter] S Sun → H Jupiter Dec 0.2490 conj (2.89)
-    - [Jupiter] S Ceres → H Jupiter Dec 39.9967 40 whole (69.35)
-    - [Jupiter] S Rahu → H Jupiter Dec 3.0056 3 whole (52.02)
-    - [Jupiter] S Haumea → J Jupiter Dec 4.0045 4 whole (60.23)
-    - [Jupiter] S Orcus → J Jupiter RA 0.8897 conj (16.55)
-    - [Jupiter] S Gonggong → J Jupiter RA 176.3751 109×φ golden (50.41)
-    - [Moon] H Sadalsuud → H Jupiter RA 1.3872 conj (0.57)
-    - [Sun] S Sun → H Jupiter Dec 0.2490 conj (2.89)
-    - [Sun] H Deneb → H Jupiter Dec 61.0130 61 whole (12.20)
-    - [Sun] S Haumea → J Jupiter Dec 4.0045 4 whole (60.23)
-  - Ceres: Jupiter, Sun — also: 5 He's A Latchico / Caoilin Quinn
-    - [Jupiter] H Capella → H Ceres Dec 49.9817 50 whole (0.69)
-    - [Sun] S Sun → H Ceres Dec 12.0016 12 whole (84.58)
-    - [Sun] H Difda → H Ceres RA 1.3809 conj (0.63)
-    - [Sun] H Difda → H Ceres Dec 14.0051 14 whole (55.26)
-    - [Sun] J Deneb → J Ceres RA 4.0037 4 whole (66.05)
-    - [Sun] J Orion Nebula Cluster → J Ceres RA 129.4487 80×φ golden (66.68)
-  - Sedna: Jupiter, Moon, Sun — also: 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy
-    - [Jupiter] H Capella → H Sedna Dec 37.9842 38 whole (4.44)
-    - [Jupiter] S Jupiter → J Sedna RA 103.5616 64×φ golden (59.22)
-    - [Jupiter] J Capella → J Sedna RA 35.5982 22×φ golden (91.51)
-    - [Moon] H Pleiades → H Sedna RA 0.9171 conj (15.10)
-    - [Sun] S Sun → H Sedna Dec 23.9991 24 whole (90.74)
-    - [Sun] H Deneb Algedi → H Sedna Dec 24.1441 24.14 silver (96.83)
-    - [Sun] H Difda → H Sedna Dec 26.0026 26 whole (75.89)
-    - [Sun] S Sun → J Sedna RA 177.7923 177.778 ninth (98.86)
-  - Juno: Jupiter, Moon, Sun — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
-    - [Jupiter] H Capella → H Juno RA 177.7367 177.778 ninth (96.79)
-    - [Jupiter] H Galactic Centre → H Juno RA 4.9801 5 whole (0.00)
-    - [Jupiter] J Capella → J Juno RA 34.9862 35 whole (9.48)
-    - [Moon] H Algol → H Juno RA 145.6024 90×φ golden (13.00)
-    - [Moon] H Algol → H Juno Dec 51.0171 51 whole (2.10)
-    - [Moon] H Vindemiatrix → H Juno Dec 21.0170 21 whole (2.32)
-    - [Moon] H Zubenelgenubi → H Juno Dec 5.9829 6 whole (2.08)
-    - [Moon] J Vindemiatrix → J Juno Dec 0.0340 conj (78.62)
-    - [Sun] H Zubenelgenubi → H Juno Dec 5.9829 6 whole (2.08)
-  - Orcus: Jupiter, Moon, Sun — only
-    - [Jupiter] H Galactic Centre → H Orcus RA 110.9627 10×φ^5 phi power (79.20)
-    - [Moon] H Algol → H Orcus RA 108.4150 67×φ golden (62.85)
-    - [Moon] J Pleiades → J Orcus Dec 20.9884 21 whole (17.65)
-    - [Sun] J Orion Nebula Cluster → J Orcus RA 46.9774 φ^8 phi power (98.93)
-  - Mercury: Jupiter, Sun — only
-    - [Jupiter] H Capella → H Mercury RA 111.1788 111.111 ninth (88.92)
-    - [Sun] H Deneb Algedi → H Mercury RA 1.2372 conj (3.07)
-    - [Sun] H Scheat → H Mercury RA 17.9449 φ^6 phi power (98.53)
-    - [Sun] J Deneb → J Mercury RA 166.6220 166.667 ninth (96.17)
-    - [Sun] J Scheat → J Mercury RA 131.0413 81×φ golden (15.81)
-  - Pallas: Jupiter, Moon, Sun — also: 7 Motazzen / Paul O'Brien
-    - [Jupiter] H Capella → H Pallas RA 110.9661 10×φ^5 phi power (78.11)
-    - [Jupiter] J Galactic Centre → J Pallas RA 1.1614 conj (5.10)
-    - [Moon] H Vindemiatrix → H Pallas RA 132.6593 82×φ golden (15.89)
-    - [Sun] H Deneb Algedi → H Pallas RA 1.4498 conj (0.11)
-  - Makemake: Moon, Sun — also: 1 Fire Flyer / Richie McLernon, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
-    - [Moon] J Pleiades → J Makemake Dec 11.0088 11 whole (31.43)
-    - [Sun] H Deneb → H Makemake Dec 22.0115 22 whole (18.04)
-  - Haumea: Jupiter, Moon, Sun — only
-    - [Jupiter] J Galactic Centre → J Haumea RA 77.9982 78 whole (82.64)
-    - [Moon] S Moon → J Haumea RA 1.1268 conj (6.19)
-    - [Sun] H Deneb Algedi → H Haumea Dec 31.9962 32 whole (65.83)
-    - [Sun] H Scheat → H Haumea RA 129.4721 80×φ golden (0.86)
-  - Gonggong: Moon, Sun — only
-    - [Moon] J Rigel → J Gonggong RA 108.0080 108 whole (36.05)
-    - [Sun] H Deneb Algedi → H Gonggong RA 10.0056 10 whole (52.13)
-  - Eris: Jupiter, Moon, Sun — also: 6 So You Know / Tom Bellamy
-    - [Jupiter] H Galactic Centre → H Eris Dec 27.5080 17×φ golden (91.37)
-    - [Jupiter] J Capella → J Eris RA 55.9971 56 whole (72.95)
-    - [Moon] J Sadalsuud → J Eris Dec 2.9885 3 whole (18.25)
-    - [Sun] S Sun → J Eris RA 161.8088 100×φ^1 phi power (98.68)
-  - Venus: Moon, Sun — also: 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
-    - [Moon] J Pleiades → J Venus Dec 0.2295 conj (5.52)
-    - [Sun] H Orion Nebula Cluster → H Venus RA 93.9936 94 whole (46.15)
-    - [Sun] J Deneb Algedi → J Venus Dec 39.9998 40 whole (98.02)
-  - Vesta: Moon, Sun — also: 8 The Bellhop / Freddie Mitchell
-    - [Moon] H Pleiades → H Vesta RA 110.9404 10×φ^5 phi power (86.51)
-    - [Moon] H Pleiades → H Vesta Dec 7.0142 7 whole (8.41)
-    - [Moon] J Sadalsuud → J Vesta Dec 15.0137 15 whole (9.81)
-    - [Moon] J Zubenelgenubi → J Vesta RA 46.0087 46 whole (31.89)
-    - [Sun] H Orion Nebula Cluster → H Vesta RA 83.9870 84 whole (12.36)
-    - [Sun] H Scheat → H Vesta Dec 10.9908 11 whole (29.42)
-    - [Sun] J Zubenelgenubi → J Vesta RA 46.0087 46 whole (31.89)
-  - Quaoar: Jupiter, Sun — only
-    - [Jupiter] J Capella → J Quaoar RA 157.0087 157 whole (31.81)
-    - [Sun] H Orion Nebula Cluster → H Quaoar RA 168.0184 168 whole (0.61)
-    - [Sun] H Orion Nebula Cluster → H Quaoar Dec 10.0100 10 whole (25.01)
-  - Pluto: Jupiter, Moon — also: 8 The Bellhop / Freddie Mitchell
-    - [Jupiter] J Capella → J Pluto RA 152.9837 153 whole (3.44)
-    - [Moon] H Sadalsuud → H Pluto Dec 16.6617 16.6667 ninth (95.76)
-  - Transpluto: Jupiter, Moon, Sun — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
-    - [Jupiter] S Jupiter → J Transpluto Dec 0.1248 conj (34.12)
-    - [Moon] H Vindemiatrix → H Transpluto Dec 0.2930 conj (0.05)
-    - [Moon] J Pleiades → J Transpluto Dec 9.9870 10 whole (12.13)
-    - [Moon] J Vindemiatrix → J Transpluto RA 51.0009 51 whole (91.19)
-    - [Sun] J Deneb Algedi → J Transpluto RA 177.7822 177.778 ninth (99.66)
-  - Ketu: Moon, Sun — only
-    - [Moon] S Moon → J Ketu RA 98.7069 61×φ golden (62.39)
-    - [Moon] J Pleiades → J Ketu RA 33.9788 21×φ golden (99.73)
-    - [Moon] J Sadalsuud → J Ketu Dec 29.0086 29 whole (32.25)
-    - [Sun] J Difda → J Ketu Dec 41.4229 41.4 silver (98.53)
-  - Mars: Moon, Sun — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder
-    - [Moon] J Pleiades → J Mars RA 22.2201 22.2222 ninth (97.13)
-    - [Moon] J Rigel → J Mars RA 43.9830 44 whole (2.29)
-    - [Sun] J Orion Nebula Cluster → J Mars Dec 17.9916 18 whole (33.42)
+  - 29 whole — also: 3 Donnie Azoff / Isabelle Ryder
+    - J Sadalsuud → J Sun Dec 28.9889 29 whole (19.85)
+    - J Sadalsuud → J Ketu Dec 29.0086 29 whole (32.25)
+### L4 every natal body
+- **Mercury**
+  - same body: S Mercury → H Mercury RA 111.0261 111 whole (loose) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+  - star rows: H Capella → H Mercury RA 111.1788 111.111 ninth (88.92) — only
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - star rows: H Deneb Algedi → H Mercury RA 1.2372 conj (3.07) — also: 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: H Scheat → H Mercury RA 17.9449 φ^6 phi power (98.53) — also: 5 He's A Latchico / Caoilin Quinn
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+  - same body: S Mercury → J Mercury RA 99.9818 100 whole (0.77) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Deneb → J Mercury RA 166.6220 166.667 ninth (96.17) — only
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - star rows: J Scheat → J Mercury RA 131.0413 81×φ golden (15.81) — also: 5 He's A Latchico / Caoilin Quinn
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+- **Saturn**
+  - same body: S Saturn → H Saturn RA 57.0047 57 whole (58.49) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder
+  - top rows: S Jupiter → H Saturn Dec 32.3680 20×φ golden (59.77) — also: 7 Motazzen / Paul O'Brien
+  - star rows: H Orion Nebula Cluster → H Saturn Dec 12.9819 13 whole (0.92) — also: 5 He's A Latchico / Caoilin Quinn
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - star rows: H Scheat → H Saturn RA 34.0152 34 whole (5.86) — also: 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+  - star rows: J Deneb Algedi → J Saturn Dec 0.1757 conj (17.17) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: J Zubenelgenubi → J Saturn Dec 0.2583 conj (1.93) — also: 1 Fire Flyer / Richie McLernon, 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+- **Pluto**
+  - same body: S Pluto → H Pluto Dec 1.4482 1.44444 ninth (loose) — also: 3 Donnie Azoff / Isabelle Ryder
+  - star rows: H Sadalsuud → H Pluto Dec 16.6617 16.6667 ninth (95.76) — only
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+  - same body: S Pluto → J Pluto RA 74.0019 74 whole (82.30) — also: 3 Donnie Azoff / Isabelle Ryder
+  - star rows: J Capella → J Pluto RA 152.9837 153 whole (3.44) — also: 1 Fire Flyer / Richie McLernon
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+- **Chiron**
+  - same body: S Chiron → H Chiron RA 19.4009 12×φ golden (loose) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy
+  - star rows: H Algol → H Chiron RA 41.0087 41 whole (31.99) — also: 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+- **Uranus**
+  - top rows: S Jupiter → H Uranus Dec 0.2872 conj (0.18) — also: 7 Motazzen / Paul O'Brien
+  - top rows: S Moon → H Uranus RA 154.0010 154 whole (90.13) — only
+  - star rows: H Vindemiatrix → H Uranus RA 159.9966 160 whole (68.57) — also: 1 Fire Flyer / Richie McLernon
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - same body: S Uranus → J Uranus RA 133.9566 133.333 ninth (loose) — also: 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+    - source line: S Jupiter → Uranus RA 84.9993 85 whole (93.10)
+  - star rows: J Capella → J Uranus RA 150.9924 151 whole (38.43) — also: 7 Motazzen / Paul O'Brien
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - star rows: J Pleiades → J Uranus Dec 46.9259 29×φ golden (82.98) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: J Rigel → J Uranus RA 150.4571 93×φ golden (14.43) — also: 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+- **Neptune**
+  - top rows: S Jupiter → H Neptune RA 155.5306 155.556 ninth (97.64) — only
+  - star rows: H Orion Nebula Cluster → H Neptune RA 92.2253 57×φ golden (84.11) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+- **Jupiter**
+  - top rows: S Sun → H Jupiter Dec 0.2490 conj (2.89) — also: 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+  - top rows: S Ceres → H Jupiter Dec 39.9967 40 whole (69.35) — only
+  - top rows: S Rahu → H Jupiter Dec 3.0056 3 whole (52.02) — also: 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+  - star rows: H Deneb → H Jupiter Dec 61.0130 61 whole (12.20) — also: 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - star rows: H Sadalsuud → H Jupiter RA 1.3872 conj (0.57) — also: 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+  - top rows: S Haumea → J Jupiter Dec 4.0045 4 whole (60.23) — also: 6 So You Know / Tom Bellamy
+    - source line: S Sun → Haumea RA 0.6231 conj (34.18)
+  - top rows: S Orcus → J Jupiter RA 0.8897 conj (16.55) — only
+  - top rows: S Gonggong → J Jupiter RA 176.3751 109×φ golden (50.41) — also: 3 Donnie Azoff / Isabelle Ryder
+- **Ceres**
+  - top rows: S Sun → H Ceres Dec 12.0016 12 whole (84.58) — also: 8 The Bellhop / Freddie Mitchell
+  - star rows: H Capella → H Ceres Dec 49.9817 50 whole (0.69) — also: 8 The Bellhop / Freddie Mitchell
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - star rows: H Difda → H Ceres RA 1.3809 conj (0.63) — also: 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: H Difda → H Ceres Dec 14.0051 14 whole (55.26) — also: 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: J Deneb → J Ceres RA 4.0037 4 whole (66.05) — also: 6 So You Know / Tom Bellamy
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - star rows: J Orion Nebula Cluster → J Ceres RA 129.4487 80×φ golden (66.68) — also: 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+- **Sedna**
+  - top rows: S Sun → H Sedna Dec 23.9991 24 whole (90.74) — also: 6 So You Know / Tom Bellamy
+  - star rows: H Capella → H Sedna Dec 37.9842 38 whole (4.44) — also: 6 So You Know / Tom Bellamy
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - star rows: H Deneb Algedi → H Sedna Dec 24.1441 24.14 silver (96.83) — also: 1 Fire Flyer / Richie McLernon
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: H Difda → H Sedna Dec 26.0026 26 whole (75.89) — only
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: H Pleiades → H Sedna RA 0.9171 conj (15.10) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - same body: S Sedna → J Sedna Dec 4.2322 φ^3 phi power (loose) — also: 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+  - top rows: S Jupiter → J Sedna RA 103.5616 64×φ golden (59.22) — also: 6 So You Know / Tom Bellamy
+  - top rows: S Sun → J Sedna RA 177.7923 177.778 ninth (98.86) — also: 6 So You Know / Tom Bellamy
+  - star rows: J Capella → J Sedna RA 35.5982 22×φ golden (91.51) — also: 6 So You Know / Tom Bellamy
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+- **Juno**
+  - star rows: H Algol → H Juno RA 145.6024 90×φ golden (13.00) — also: 3 Donnie Azoff / Isabelle Ryder, 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - star rows: H Algol → H Juno Dec 51.0171 51 whole (2.10) — also: 3 Donnie Azoff / Isabelle Ryder, 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - star rows: H Capella → H Juno RA 177.7367 177.778 ninth (96.79) — also: 1 Fire Flyer / Richie McLernon, 8 The Bellhop / Freddie Mitchell
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - star rows: H Galactic Centre → H Juno RA 4.9801 5 whole (0.00) — also: 1 Fire Flyer / Richie McLernon
+    - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
+  - star rows: H Vindemiatrix → H Juno Dec 21.0170 21 whole (2.32) — also: 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - star rows: H Zubenelgenubi → H Juno Dec 5.9829 6 whole (2.08) — also: 3 Donnie Azoff / Isabelle Ryder, 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+  - star rows: J Capella → J Juno RA 34.9862 35 whole (9.48) — also: 1 Fire Flyer / Richie McLernon, 8 The Bellhop / Freddie Mitchell
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - star rows: J Vindemiatrix → J Juno Dec 0.0340 conj (78.62) — also: 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+- **Orcus**
+  - star rows: H Algol → H Orcus RA 108.4150 67×φ golden (62.85) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - star rows: H Galactic Centre → H Orcus RA 110.9627 10×φ^5 phi power (79.20) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
+  - same body: S Orcus → J Orcus Dec 17.0282 17 whole (loose) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder
+  - star rows: J Orion Nebula Cluster → J Orcus RA 46.9774 φ^8 phi power (98.93) — only
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - star rows: J Pleiades → J Orcus Dec 20.9884 21 whole (17.65) — only
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+- **Pallas**
+  - star rows: H Capella → H Pallas RA 110.9661 10×φ^5 phi power (78.11) — also: 7 Motazzen / Paul O'Brien
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - star rows: H Deneb Algedi → H Pallas RA 1.4498 conj (0.11) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: H Vindemiatrix → H Pallas RA 132.6593 82×φ golden (15.89) — also: 1 Fire Flyer / Richie McLernon
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - same body: S Pallas → J Pallas Dec 45.0224 45 whole (loose) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn
+  - star rows: J Galactic Centre → J Pallas RA 1.1614 conj (5.10) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
+- **Makemake**
+  - star rows: H Deneb → H Makemake Dec 22.0115 22 whole (18.04) — also: 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - same body: S Makemake → J Makemake Dec 15.5388 15.5556 ninth (loose) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Pleiades → J Makemake Dec 11.0088 11 whole (31.43) — also: 3 Donnie Azoff / Isabelle Ryder, 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+- **Haumea**
+  - star rows: H Deneb Algedi → H Haumea Dec 31.9962 32 whole (65.83) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: H Scheat → H Haumea RA 129.4721 80×φ golden (0.86) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+  - top rows: S Moon → J Haumea RA 1.1268 conj (6.19) — also: 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+  - star rows: J Galactic Centre → J Haumea RA 77.9982 78 whole (82.64) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
+- **Gonggong**
+  - star rows: H Deneb Algedi → H Gonggong RA 10.0056 10 whole (52.13) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: J Rigel → J Gonggong RA 108.0080 108 whole (36.05) — also: 1 Fire Flyer / Richie McLernon
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+- **Rahu**
+  - star rows: H Galactic Centre → H Rahu RA 166.6520 166.667 ninth (98.75) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn
+    - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
+- **Eris**
+  - star rows: H Galactic Centre → H Eris Dec 27.5080 17×φ golden (91.37) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
+  - top rows: S Sun → J Eris RA 161.8088 100×φ^1 phi power (98.68) — also: 6 So You Know / Tom Bellamy
+  - star rows: J Capella → J Eris RA 55.9971 56 whole (72.95) — also: 6 So You Know / Tom Bellamy
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - star rows: J Sadalsuud → J Eris Dec 2.9885 3 whole (18.25) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+- **Venus**
+  - star rows: H Orion Nebula Cluster → H Venus RA 93.9936 94 whole (46.15) — also: 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - same body: S Venus → J Venus RA 105.0131 105 whole (11.96) — also: 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy
+  - star rows: J Deneb Algedi → J Venus Dec 39.9998 40 whole (98.02) — also: 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: J Pleiades → J Venus Dec 0.2295 conj (5.52) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+- **Vesta**
+  - star rows: H Orion Nebula Cluster → H Vesta RA 83.9870 84 whole (12.36) — also: 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - star rows: H Pleiades → H Vesta RA 110.9404 10×φ^5 phi power (86.51) — also: 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: H Pleiades → H Vesta Dec 7.0142 7 whole (8.41) — also: 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: H Scheat → H Vesta Dec 10.9908 11 whole (29.42) — also: 5 He's A Latchico / Caoilin Quinn
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+  - same body: S Vesta → J Vesta Dec 14.0190 14 whole (0.26) — also: 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+  - star rows: J Sadalsuud → J Vesta Dec 15.0137 15 whole (9.81) — also: 5 He's A Latchico / Caoilin Quinn
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+  - star rows: J Zubenelgenubi → J Vesta RA 46.0087 46 whole (31.89) — only
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+- **Quaoar**
+  - star rows: H Orion Nebula Cluster → H Quaoar RA 168.0184 168 whole (0.61) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - star rows: H Orion Nebula Cluster → H Quaoar Dec 10.0100 10 whole (25.01) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - same body: S Quaoar → J Quaoar Dec 1.6560 1.66667 ninth (loose) — also: 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+  - star rows: J Capella → J Quaoar RA 157.0087 157 whole (31.81) — also: 8 The Bellhop / Freddie Mitchell
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+- **Sun**
+  - star rows: H Vindemiatrix → H Sun RA 156.9186 97×φ golden (0.28) — also: 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - star rows: J Sadalsuud → J Sun Dec 28.9889 29 whole (19.85) — also: 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+- **Transpluto**
+  - star rows: H Vindemiatrix → H Transpluto Dec 0.2930 conj (0.05) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - same body: S Transpluto → J Transpluto RA 12.1622 12.2222 ninth (loose) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+  - top rows: S Jupiter → J Transpluto Dec 0.1248 conj (34.12) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Deneb Algedi → J Transpluto RA 177.7822 177.778 ninth (99.66) — also: 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: J Pleiades → J Transpluto Dec 9.9870 10 whole (12.13) — also: 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: J Vindemiatrix → J Transpluto RA 51.0009 51 whole (91.19) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+- **Ketu**
+  - top rows: S Moon → J Ketu RA 98.7069 61×φ golden (62.39) — only
+  - star rows: J Difda → J Ketu Dec 41.4229 41.4 silver (98.53) — also: 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: J Pleiades → J Ketu RA 33.9788 21×φ golden (99.73) — only
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: J Sadalsuud → J Ketu Dec 29.0086 29 whole (32.25) — also: 3 Donnie Azoff / Isabelle Ryder, 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+- **Mars**
+  - star rows: J Orion Nebula Cluster → J Mars Dec 17.9916 18 whole (33.42) — only
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - star rows: J Pleiades → J Mars RA 22.2201 22.2222 ninth (97.13) — only
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: J Rigel → J Mars RA 43.9830 44 whole (2.29) — only
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
 
 ## 3 Donnie Azoff / Isabelle Ryder
 ### L1 same bodies
@@ -580,83 +964,142 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - S Ketu → J Ketu RA 111.1926 111.111 ninth (86.67)
 ### L2 what lands on each same body
 - **H Pluto** (same body: S Pluto → H Pluto RA 18.0199 18 whole (0.00))
-  - top rows: S Jupiter → H Pluto RA 141.0022 141 whole (79.35) [Jupiter]
-  - star rows: H Orion Nebula Cluster → H Pluto Dec 15.5584 15.5556 ninth (97.31) [Sun]
-  - star rows: H Rigel → H Pluto RA 150.4990 93×φ golden (10.48) [Moon]
+  - top rows: S Jupiter → H Pluto RA 141.0022 141 whole (79.35)
+  - star rows: H Orion Nebula Cluster → H Pluto Dec 15.5584 15.5556 ninth (97.31)
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - star rows: H Rigel → H Pluto RA 150.4990 93×φ golden (10.48)
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
 - **H Chiron** (same body: S Chiron → H Chiron Dec 8.9804 9 whole (0.04))
-  - other chart, star rows: J Algol → J Chiron RA 127.8279 79×φ golden (81.02) [Moon]
+  - other chart, star rows: J Algol → J Chiron RA 127.8279 79×φ golden (81.02)
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
 - **H Juno** (same body: S Juno → H Juno Dec 15.4625 15.5556 ninth (loose))
-  - star rows: H Algol → H Juno RA 166.6792 166.667 ninth (98.93) [Moon]
-  - star rows: H Zubenelgenubi → H Juno RA 9.0097 9 whole (26.66) [Moon, Sun]
-  - other chart, top rows: S Jupiter → J Juno RA 10.9960 11 whole (64.38) [Jupiter]
-  - other chart, star rows: J Vindemiatrix → J Juno Dec 0.2964 conj (0.01) [Moon]
+  - star rows: H Algol → H Juno RA 166.6792 166.667 ninth (98.93)
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - star rows: H Zubenelgenubi → H Juno RA 9.0097 9 whole (26.66)
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+  - other chart, top rows: S Jupiter → J Juno RA 10.9960 11 whole (64.38)
+  - other chart, star rows: J Vindemiatrix → J Juno Dec 0.2964 conj (0.01)
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
 - **H Haumea** (same body: S Haumea → H Haumea RA 10.0239 10 whole (loose))
-  - body line: S Sun → Haumea RA 0.6231 conj (34.18)
-  - star rows: H Difda → H Haumea RA 160.1838 99×φ golden (90.71) [Sun]
-  - star rows: H Rigel → H Haumea Dec 25.9851 26 whole (6.61) [Moon]
-  - star rows: H Zubenelgenubi → H Haumea RA 12.0128 12 whole (12.98) [Moon, Sun]
+  - sky line to Haumea: S Sun → Haumea RA 0.6231 conj (34.18)
+  - star rows: H Difda → H Haumea RA 160.1838 99×φ golden (90.71)
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: H Rigel → H Haumea Dec 25.9851 26 whole (6.61)
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+  - star rows: H Zubenelgenubi → H Haumea RA 12.0128 12 whole (12.98)
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
   - other chart, same body: S Haumea → J Haumea RA 21.9890 22 whole (20.09)
-  - other chart, star rows: J Deneb Algedi → J Haumea RA 128.0099 128 whole (25.42) [Sun]
-  - other chart, star rows: J Deneb Algedi → J Haumea Dec 37.2115 23×φ golden (80.48) [Sun]
-  - other chart, star rows: J Scheat → J Haumea Dec 6.9972 7 whole (73.74) [Sun]
+  - other chart, star rows: J Deneb Algedi → J Haumea RA 128.0099 128 whole (25.42)
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - other chart, star rows: J Deneb Algedi → J Haumea Dec 37.2115 23×φ golden (80.48)
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - other chart, star rows: J Scheat → J Haumea Dec 6.9972 7 whole (73.74)
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
 - **H Orcus** (same body: S Orcus → H Orcus RA 11.0766 φ^5 phi power (loose))
-  - star rows: H Algol → H Orcus RA 103.5699 64×φ golden (26.30) [Moon]
-  - star rows: H Sadalsuud → H Orcus Dec 2.9963 3 whole (66.28) [Moon]
-  - other chart, star rows: J Rigel → J Orcus Dec 6.0188 6 whole (0.36) [Moon]
-  - other chart, star rows: J Scheat → J Orcus RA 153.0131 153 whole (12.04) [Sun]
+  - star rows: H Algol → H Orcus RA 103.5699 64×φ golden (26.30)
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - star rows: H Sadalsuud → H Orcus Dec 2.9963 3 whole (66.28)
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+  - other chart, star rows: J Rigel → J Orcus Dec 6.0188 6 whole (0.36)
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+  - other chart, star rows: J Scheat → J Orcus RA 153.0131 153 whole (12.04)
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
 - **H Gonggong** (same body: S Gonggong → H Gonggong Dec 2.2162 2.22222 ninth (loose))
-  - top rows: S Sun → H Gonggong RA 114.8747 71×φ golden (67.64) [Sun]
-  - other chart, T2: J Jupiter → J Gonggong RA 124.5921 77×φ golden (79.47) [Jupiter]
-  - other chart, star rows: J Deneb Algedi → J Gonggong Dec 0.2876 conj (0.17) [Sun]
-  - other chart, star rows: J Orion Nebula Cluster → J Gonggong RA 110.9632 10×φ^5 phi power (79.05) [Sun]
-  - other chart, star rows: J Pleiades → J Gonggong RA 84.0098 84 whole (25.85) [Moon]
+  - top rows: S Sun → H Gonggong RA 114.8747 71×φ golden (67.64)
+  - other chart, T2: J Jupiter → J Gonggong RA 124.5921 77×φ golden (79.47)
+  - other chart, star rows: J Deneb Algedi → J Gonggong Dec 0.2876 conj (0.17)
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - other chart, star rows: J Orion Nebula Cluster → J Gonggong RA 110.9632 10×φ^5 phi power (79.05)
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - other chart, star rows: J Pleiades → J Gonggong RA 84.0098 84 whole (25.85)
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
 - **J Sun** (same body: S Sun → J Sun Dec 19.3900 12×φ golden (loose))
-  - star rows: J Difda → J Sun RA 3.0014 3 whole (86.42) [Sun]
-  - star rows: J Sadalsuud → J Sun RA 45.0046 45 whole (59.25) [Moon]
-  - other chart, star rows: H Vindemiatrix → H Sun RA 131.0171 131 whole (2.11) [Moon]
+  - star rows: J Difda → J Sun RA 3.0014 3 whole (86.42)
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: J Sadalsuud → J Sun RA 45.0046 45 whole (59.25)
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+  - other chart, star rows: H Vindemiatrix → H Sun RA 131.0171 131 whole (2.11)
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
 - **J Mercury** (same body: S Mercury → J Mercury RA 143.5740 144.444 ninth (loose))
-  - star rows: J Vindemiatrix → J Mercury RA 164.9927 165 whole (40.24) [Moon]
+  - star rows: J Vindemiatrix → J Mercury RA 164.9927 165 whole (40.24)
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
 - **J Mars** (same body: S Mars → J Mars RA 97.0827 60×φ golden (96.01))
-  - star rows: J Algol → J Mars RA 0.1453 conj (81.57) [Moon]
-  - star rows: J Difda → J Mars RA 35.9995 36 whole (94.97) [Sun]
-  - star rows: J Sadalsuud → J Mars RA 84.0055 84 whole (52.55) [Moon]
-  - other chart, star rows: H Zubenelgenubi → H Mars RA 14.5616 9×φ golden (95.73) [Moon, Sun]
+  - star rows: J Algol → J Mars RA 0.1453 conj (81.57)
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - star rows: J Difda → J Mars RA 35.9995 36 whole (94.97)
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: J Sadalsuud → J Mars RA 84.0055 84 whole (52.55)
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+  - other chart, star rows: H Zubenelgenubi → H Mars RA 14.5616 9×φ golden (95.73)
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **J Saturn** (same body: S Saturn → J Saturn RA 59.8562 37×φ golden (loose))
 - **J Ceres** (same body: S Ceres → J Ceres Dec 38.0206 38 whole (loose))
 - **J Rahu** (same body: S Rahu → J Rahu RA 111.1926 111.111 ninth (86.67))
-  - star rows: J Capella → J Rahu RA 0.6108 conj (35.14) [Jupiter]
-  - star rows: J Deneb → J Rahu RA 129.4266 80×φ golden (25.27) [Sun]
-  - star rows: J Pleiades → J Rahu Dec 0.9982 1 whole (82.85) [Moon]
-  - star rows: J Rigel → J Rahu RA 1.1480 conj (5.51) [Moon]
-  - star rows: J Scheat → J Rahu RA 93.8424 58×φ golden (79.33) [Sun]
-  - other chart, star rows: H Rigel → H Rahu Dec 12.9980 13 whole (81.21) [Moon]
+  - star rows: J Capella → J Rahu RA 0.6108 conj (35.14)
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - star rows: J Deneb → J Rahu RA 129.4266 80×φ golden (25.27)
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - star rows: J Pleiades → J Rahu Dec 0.9982 1 whole (82.85)
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: J Rigel → J Rahu RA 1.1480 conj (5.51)
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+  - star rows: J Scheat → J Rahu RA 93.8424 58×φ golden (79.33)
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+  - other chart, star rows: H Rigel → H Rahu Dec 12.9980 13 whole (81.21)
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
 - **J Haumea** (same body: S Haumea → J Haumea RA 21.9890 22 whole (20.09))
-  - body line: S Sun → Haumea RA 0.6231 conj (34.18)
-  - star rows: J Deneb Algedi → J Haumea RA 128.0099 128 whole (25.42) [Sun]
-  - star rows: J Deneb Algedi → J Haumea Dec 37.2115 23×φ golden (80.48) [Sun]
-  - star rows: J Scheat → J Haumea Dec 6.9972 7 whole (73.74) [Sun]
+  - sky line to Haumea: S Sun → Haumea RA 0.6231 conj (34.18)
+  - star rows: J Deneb Algedi → J Haumea RA 128.0099 128 whole (25.42)
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: J Deneb Algedi → J Haumea Dec 37.2115 23×φ golden (80.48)
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: J Scheat → J Haumea Dec 6.9972 7 whole (73.74)
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
   - other chart, same body: S Haumea → H Haumea RA 10.0239 10 whole (loose)
-  - other chart, star rows: H Difda → H Haumea RA 160.1838 99×φ golden (90.71) [Sun]
-  - other chart, star rows: H Rigel → H Haumea Dec 25.9851 26 whole (6.61) [Moon]
-  - other chart, star rows: H Zubenelgenubi → H Haumea RA 12.0128 12 whole (12.98) [Moon, Sun]
+  - other chart, star rows: H Difda → H Haumea RA 160.1838 99×φ golden (90.71)
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - other chart, star rows: H Rigel → H Haumea Dec 25.9851 26 whole (6.61)
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+  - other chart, star rows: H Zubenelgenubi → H Haumea RA 12.0128 12 whole (12.98)
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **J Transpluto** (same body: S Transpluto → J Transpluto Dec 3.2355 2×φ golden (loose))
-  - top rows: S Jupiter → J Transpluto RA 0.8067 conj (21.36) [Jupiter]
-  - top rows: S Moon → J Transpluto Dec 22.0045 22 whole (60.33) [Moon]
-  - star rows: J Algol → J Transpluto Dec 27.9947 28 whole (53.66) [Moon]
-  - star rows: J Scheat → J Transpluto RA 161.9962 162 whole (66.01) [Sun]
-  - star rows: J Vindemiatrix → J Transpluto Dec 2.0046 2 whole (59.51) [Moon]
-  - star rows: J Zubenelgenubi → J Transpluto Dec 29.0046 29 whole (59.45) [Moon, Sun]
-  - other chart, top rows: S Jupiter → H Transpluto Dec 2.6180 φ^2 phi power (99.80) [Jupiter]
-  - other chart, top rows: S Sun → H Transpluto RA 69.0028 69 whole (74.19) [Sun]
-  - other chart, star rows: H Deneb → H Transpluto RA 158.0059 158 whole (49.84) [Sun]
-  - other chart, star rows: H Deneb Algedi → H Transpluto Dec 27.5023 17×φ golden (75.13) [Sun]
-  - other chart, star rows: H Difda → H Transpluto RA 141.4604 141.4 sqrt2 (89.27) [Sun]
+  - top rows: S Jupiter → J Transpluto RA 0.8067 conj (21.36)
+  - top rows: S Moon → J Transpluto Dec 22.0045 22 whole (60.33)
+  - star rows: J Algol → J Transpluto Dec 27.9947 28 whole (53.66)
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - star rows: J Scheat → J Transpluto RA 161.9962 162 whole (66.01)
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+  - star rows: J Vindemiatrix → J Transpluto Dec 2.0046 2 whole (59.51)
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - star rows: J Zubenelgenubi → J Transpluto Dec 29.0046 29 whole (59.45)
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+  - other chart, top rows: S Jupiter → H Transpluto Dec 2.6180 φ^2 phi power (99.80)
+  - other chart, top rows: S Sun → H Transpluto RA 69.0028 69 whole (74.19)
+  - other chart, star rows: H Deneb → H Transpluto RA 158.0059 158 whole (49.84)
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - other chart, star rows: H Deneb Algedi → H Transpluto Dec 27.5023 17×φ golden (75.13)
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - other chart, star rows: H Difda → H Transpluto RA 141.4604 141.4 sqrt2 (89.27)
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
 - **J Ketu** (same body: S Ketu → J Ketu RA 111.1926 111.111 ninth (86.67))
-  - body line: S Jupiter → Ketu RA 1.4603 conj (0.07)
-  - star rows: J Algol → J Ketu RA 147.2561 91×φ golden (28.60) [Moon]
-  - star rows: J Difda → J Ketu RA 111.1114 111.111 ninth (99.96) [Sun]
-  - star rows: J Sadalsuud → J Ketu RA 63.1054 39×φ golden (87.79) [Moon]
-### L3 the seven cases (L5 field tag on each)
+  - sky line to Ketu: S Jupiter → Ketu RA 1.4603 conj (0.07)
+  - star rows: J Algol → J Ketu RA 147.2561 91×φ golden (28.60)
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - star rows: J Difda → J Ketu RA 111.1114 111.111 ninth (99.96)
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: J Sadalsuud → J Ketu RA 63.1054 39×φ golden (87.79)
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+### L3 matches
 - **1. same body on both charts**
   - Haumea — only
     - S Haumea → H Haumea RA 10.0239 10 whole (loose)
@@ -674,42 +1117,68 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 2 whole — also: 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
     - J Vindemiatrix → J Transpluto Dec 2.0046 2 whole (59.51) = S Sun → Difda Dec 2.0002 2 whole (97.91)
 - **4. circle divisions**
-  - 18 = 360/20 — also: 8 The Bellhop / Freddie Mitchell
+  - 18 = 360/20 — also: 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
     - S Pluto → H Pluto RA 18.0199 18 whole (0.00)
-  - 9 = 360/40 — also: 7 Motazzen / Paul O'Brien
+  - 9 = 360/40 — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
     - S Chiron → H Chiron Dec 8.9804 9 whole (0.04)
-  - 10 = 360/36 — also: 2 Lynx De Thaix / Gavin Sheehan, 7 Motazzen / Paul O'Brien
+  - 10 = 360/36 — also: 2 Lynx De Thaix / Gavin Sheehan, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
     - S Haumea → H Haumea RA 10.0239 10 whole (loose)
   - 3 = 360/120 — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 8 The Bellhop / Freddie Mitchell
     - S Chiron → H Jupiter Dec 2.9955 3 whole (59.99)
-  - 18 = 360/20 — also: 8 The Bellhop / Freddie Mitchell
+  - 18 = 360/20 — also: 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
     - S Gonggong → H Jupiter Dec 17.9981 18 whole (82.14)
+  - 10 = 360/36 — also: 2 Lynx De Thaix / Gavin Sheehan, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+    - H Orion Nebula Cluster → H Quaoar Dec 10.0152 10 whole (5.85)
   - 3 = 360/120 — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 8 The Bellhop / Freddie Mitchell
     - H Sadalsuud → H Orcus Dec 2.9963 3 whole (66.28)
+  - 36 = 360/10 — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
+    - H Scheat → H Neptune Dec 36.0108 36 whole (21.16)
+  - 9 = 360/40 — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+    - H Zubenelgenubi → H Juno RA 9.0097 9 whole (26.66)
+  - 12 = 360/30 — also: 2 Lynx De Thaix / Gavin Sheehan, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+    - H Zubenelgenubi → H Haumea RA 12.0128 12 whole (12.98)
+  - 9 = 360/40 — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+    - J Algol → J Makemake Dec 9.0109 9 whole (20.51)
+  - 3 = 360/120 — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 8 The Bellhop / Freddie Mitchell
+    - J Deneb Algedi → J Uranus Dec 3.0089 3 whole (31.00)
   - 3 = 360/120 — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 8 The Bellhop / Freddie Mitchell
     - J Difda → J Sun RA 3.0014 3 whole (86.42)
   - 36 = 360/10 — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
     - J Difda → J Mars RA 35.9995 36 whole (94.97)
+  - 3 = 360/120 — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 8 The Bellhop / Freddie Mitchell
+    - J Pleiades → J Vesta Dec 2.9905 3 whole (27.60)
   - 1 = 360/360 — also: 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
     - J Pleiades → J Rahu Dec 0.9982 1 whole (82.85)
-  - 45 = 360/8 — also: 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn
+  - 6 = 360/60 — also: 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+    - J Rigel → J Orcus Dec 6.0188 6 whole (0.36)
+  - 45 = 360/8 — also: 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
     - J Sadalsuud → J Sun RA 45.0046 45 whole (59.25)
-  - 2 = 360/180 — also: 8 The Bellhop / Freddie Mitchell
+  - 2 = 360/180 — also: 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
     - J Vindemiatrix → J Transpluto Dec 2.0046 2 whole (59.51)
 - **5. same number in more than one place**
-  - 18 whole — only
+  - 18 whole — also: 5 He's A Latchico / Caoilin Quinn
     - S Pluto → H Pluto RA 18.0199 18 whole (0.00)
     - S Gonggong → H Jupiter Dec 17.9981 18 whole (82.14)
+  - 9 whole — only
+    - S Chiron → H Chiron Dec 8.9804 9 whole (0.04)
+    - H Zubenelgenubi → H Juno RA 9.0097 9 whole (26.66)
+    - J Algol → J Makemake Dec 9.0109 9 whole (20.51)
   - 15.5556 ninth — only
     - S Juno → H Juno Dec 15.4625 15.5556 ninth (loose)
     - H Orion Nebula Cluster → H Pluto Dec 15.5584 15.5556 ninth (97.31)
+  - 10 whole — also: 2 Lynx De Thaix / Gavin Sheehan, 7 Motazzen / Paul O'Brien
+    - S Haumea → H Haumea RA 10.0239 10 whole (loose)
+    - H Orion Nebula Cluster → H Quaoar Dec 10.0152 10 whole (5.85)
   - 84 whole — only
     - S Jupiter → H Vesta RA 84.0020 84 whole (80.82)
+    - J Pleiades → J Gonggong RA 84.0098 84 whole (25.85)
     - J Sadalsuud → J Mars RA 84.0055 84 whole (52.55)
-  - 3 whole — also: 8 The Bellhop / Freddie Mitchell
+  - 3 whole — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 8 The Bellhop / Freddie Mitchell
     - S Chiron → H Jupiter Dec 2.9955 3 whole (59.99)
     - H Sadalsuud → H Orcus Dec 2.9963 3 whole (66.28)
+    - J Deneb Algedi → J Uranus Dec 3.0089 3 whole (31.00)
     - J Difda → J Sun RA 3.0014 3 whole (86.42)
+    - J Pleiades → J Vesta Dec 2.9905 3 whole (27.60)
   - 17×φ golden — also: 7 Motazzen / Paul O'Brien
     - H Deneb → H Vesta Dec 27.5009 17×φ golden (67.84)
     - H Deneb Algedi → H Transpluto Dec 27.5023 17×φ golden (75.13)
@@ -719,11 +1188,17 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 39×φ golden — only
     - H Sadalsuud → H Eris RA 63.1032 39×φ golden (99.15)
     - J Sadalsuud → J Ketu RA 63.1054 39×φ golden (87.79)
+  - 36 whole — also: 5 He's A Latchico / Caoilin Quinn
+    - H Scheat → H Neptune Dec 36.0108 36 whole (21.16)
+    - J Difda → J Mars RA 35.9995 36 whole (94.97)
+  - 131 whole — only
+    - H Vindemiatrix → H Sun RA 131.0171 131 whole (2.11)
+    - J Orion Nebula Cluster → J Neptune RA 130.9857 131 whole (8.04)
   - 111.111 ninth — only
     - S Rahu → J Rahu RA 111.1926 111.111 ninth (86.67)
     - S Ketu → J Ketu RA 111.1926 111.111 ninth (86.67)
     - J Difda → J Ketu RA 111.1114 111.111 ninth (99.96)
-  - 22 whole — only
+  - 22 whole — also: 8 The Bellhop / Freddie Mitchell
     - S Haumea → J Haumea RA 21.9890 22 whole (20.09)
     - S Moon → J Transpluto Dec 22.0045 22 whole (60.33)
   - 79×φ golden — only
@@ -732,137 +1207,250 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 41.4 silver — also: 7 Motazzen / Paul O'Brien
     - J Jupiter → J star Difda Dec 41.4209 41.4 silver (99.52)
     - J Difda → J Jupiter Dec 41.4209 41.4 silver (99.52)
-  - 29 whole — only
+  - 29 whole — also: 2 Lynx De Thaix / Gavin Sheehan
     - J Jupiter → J star Sadalsuud Dec 29.0051 29 whole (55.36)
     - S Sadalsuud → J Jupiter Dec 29.0022 29 whole (79.15)
     - J Zubenelgenubi → J Transpluto Dec 29.0046 29 whole (59.45)
-- **6. star and sky line on one body**: none
-- **7. centres meeting**
-  - Haumea: Moon, Sun — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
-    - [Moon] H Rigel → H Haumea Dec 25.9851 26 whole (6.61)
-    - [Moon] H Zubenelgenubi → H Haumea RA 12.0128 12 whole (12.98)
-    - [Sun] S Haumea → H Haumea RA 10.0239 10 whole (loose)
-    - [Sun] H Difda → H Haumea RA 160.1838 99×φ golden (90.71)
-    - [Sun] H Zubenelgenubi → H Haumea RA 12.0128 12 whole (12.98)
-    - [Sun] S Haumea → J Haumea RA 21.9890 22 whole (20.09)
-    - [Sun] J Deneb Algedi → J Haumea RA 128.0099 128 whole (25.42)
-    - [Sun] J Deneb Algedi → J Haumea Dec 37.2115 23×φ golden (80.48)
-    - [Sun] J Scheat → J Haumea Dec 6.9972 7 whole (73.74)
-  - Sedna: Jupiter, Moon, Sun — also: 2 Lynx De Thaix / Gavin Sheehan, 6 So You Know / Tom Bellamy
-    - [Jupiter] H Jupiter → H Sedna Dec 0.0803 conj (53.64)
-    - [Moon] H Pleiades → H Sedna RA 1.1469 conj (5.54)
-    - [Moon] H Zubenelgenubi → H Sedna RA 167.0058 167 whole (50.07)
-    - [Moon] J Algol → J Sedna RA 0.5063 conj (43.89)
-    - [Moon] J Vindemiatrix → J Sedna RA 148.0061 148 whole (48.50)
-    - [Sun] H Orion Nebula Cluster → H Sedna Dec 12.9972 13 whole (73.92)
-    - [Sun] H Zubenelgenubi → H Sedna RA 167.0058 167 whole (50.07)
-  - Pluto: Jupiter, Moon, Sun — only
-    - [Jupiter] S Jupiter → H Pluto RA 141.0022 141 whole (79.35)
-    - [Moon] H Rigel → H Pluto RA 150.4990 93×φ golden (10.48)
-    - [Sun] H Orion Nebula Cluster → H Pluto Dec 15.5584 15.5556 ninth (97.31)
-  - Vesta: Jupiter, Moon, Sun — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn
-    - [Jupiter] S Jupiter → H Vesta RA 84.0020 84 whole (80.82)
-    - [Moon] J Pleiades → J Vesta Dec 2.9905 3 whole (27.60)
-    - [Sun] H Deneb → H Vesta Dec 27.5009 17×φ golden (67.84)
-    - [Sun] S Sun → J Vesta RA 150.0028 150 whole (74.28)
-    - [Sun] J Deneb → J Vesta RA 121.0016 121 whole (84.40)
-  - Transpluto: Jupiter, Moon, Sun — also: 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
-    - [Jupiter] S Jupiter → H Transpluto Dec 2.6180 φ^2 phi power (99.80)
-    - [Jupiter] S Jupiter → J Transpluto RA 0.8067 conj (21.36)
-    - [Moon] S Moon → J Transpluto Dec 22.0045 22 whole (60.33)
-    - [Moon] J Algol → J Transpluto Dec 27.9947 28 whole (53.66)
-    - [Moon] J Vindemiatrix → J Transpluto Dec 2.0046 2 whole (59.51)
-    - [Moon] J Zubenelgenubi → J Transpluto Dec 29.0046 29 whole (59.45)
-    - [Sun] S Sun → H Transpluto RA 69.0028 69 whole (74.19)
-    - [Sun] H Deneb → H Transpluto RA 158.0059 158 whole (49.84)
-    - [Sun] H Deneb Algedi → H Transpluto Dec 27.5023 17×φ golden (75.13)
-    - [Sun] H Difda → H Transpluto RA 141.4604 141.4 sqrt2 (89.27)
-    - [Sun] J Scheat → J Transpluto RA 161.9962 162 whole (66.01)
-    - [Sun] J Zubenelgenubi → J Transpluto Dec 29.0046 29 whole (59.45)
-  - Uranus: Jupiter, Moon, Sun — also: 5 He's A Latchico / Caoilin Quinn
-    - [Jupiter] J Jupiter → J Uranus RA 127.8340 79×φ golden (50.78)
-    - [Moon] H Pleiades → H Uranus RA 35.5989 22×φ golden (86.96)
-    - [Moon] H Zubenelgenubi → H Uranus RA 158.5421 98×φ golden (4.84)
-    - [Moon] J Rigel → J Uranus RA 109.0170 109 whole (2.27)
-    - [Sun] S Sun → H Uranus Dec 24.2795 15×φ golden (52.11)
-    - [Sun] H Deneb → H Uranus Dec 36.9823 37 whole (1.36)
-    - [Sun] H Zubenelgenubi → H Uranus RA 158.5421 98×φ golden (4.84)
-    - [Sun] J Deneb Algedi → J Uranus Dec 3.0089 3 whole (31.00)
-  - Gonggong: Jupiter, Moon, Sun — also: 1 Fire Flyer / Richie McLernon
-    - [Jupiter] J Jupiter → J Gonggong RA 124.5921 77×φ golden (79.47)
-    - [Moon] J Pleiades → J Gonggong RA 84.0098 84 whole (25.85)
-    - [Sun] S Sun → H Gonggong RA 114.8747 71×φ golden (67.64)
-    - [Sun] J Deneb Algedi → J Gonggong Dec 0.2876 conj (0.17)
-    - [Sun] J Orion Nebula Cluster → J Gonggong RA 110.9632 10×φ^5 phi power (79.05)
-  - Jupiter: Jupiter, Moon, Sun — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
-    - [Jupiter] S Chiron → H Jupiter Dec 2.9955 3 whole (59.99)
-    - [Jupiter] S Gonggong → H Jupiter Dec 17.9981 18 whole (82.14)
-    - [Moon] S Pleiades → H Jupiter RA 108.4343 67×φ golden (3.83)
-    - [Moon] S Sadalsuud → J Jupiter Dec 29.0022 29 whole (79.15)
-    - [Sun] J Difda → J Jupiter Dec 41.4209 41.4 silver (99.52)
-  - Juno: Jupiter, Moon, Sun — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
-    - [Jupiter] S Jupiter → J Juno RA 10.9960 11 whole (64.38)
-    - [Moon] H Algol → H Juno RA 166.6792 166.667 ninth (98.93)
-    - [Moon] H Zubenelgenubi → H Juno RA 9.0097 9 whole (26.66)
-    - [Moon] J Vindemiatrix → J Juno Dec 0.2964 conj (0.01)
-    - [Sun] H Zubenelgenubi → H Juno RA 9.0097 9 whole (26.66)
-  - Orcus: Moon, Sun — also: 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy
-    - [Moon] H Algol → H Orcus RA 103.5699 64×φ golden (26.30)
-    - [Moon] H Sadalsuud → H Orcus Dec 2.9963 3 whole (66.28)
-    - [Moon] J Rigel → J Orcus Dec 6.0188 6 whole (0.36)
-    - [Sun] J Scheat → J Orcus RA 153.0131 153 whole (12.04)
-  - Neptune: Moon, Sun — also: 6 So You Know / Tom Bellamy
-    - [Moon] H Rigel → H Neptune Dec 0.2719 conj (0.87)
-    - [Moon] H Vindemiatrix → H Neptune Dec 18.8899 18.8889 ninth (99.25)
-    - [Sun] H Orion Nebula Cluster → H Neptune RA 100.3498 62×φ golden (0.04)
-    - [Sun] H Scheat → H Neptune Dec 36.0108 36 whole (21.16)
-    - [Sun] J Deneb Algedi → J Neptune Dec 1.4142 1.414 sqrt2 (99.72)
-    - [Sun] J Orion Nebula Cluster → J Neptune RA 130.9857 131 whole (8.04)
-  - Quaoar: Moon, Sun — also: 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
-    - [Moon] J Rigel → J Quaoar RA 171.9838 172 whole (3.68)
-    - [Sun] H Orion Nebula Cluster → H Quaoar Dec 10.0152 10 whole (5.85)
-  - Makemake: Jupiter, Moon, Sun — also: 5 He's A Latchico / Caoilin Quinn
-    - [Jupiter] J Capella → J Makemake RA 102.0083 102 whole (34.48)
-    - [Moon] H Pleiades → H Makemake RA 135.9966 136 whole (69.04)
-    - [Moon] J Algol → J Makemake Dec 9.0109 9 whole (20.51)
-    - [Moon] J Vindemiatrix → J Makemake Dec 20.9883 21 whole (17.14)
-    - [Moon] J Zubenelgenubi → J Makemake Dec 47.9883 48 whole (17.18)
-    - [Sun] J Deneb → J Makemake Dec 13.3305 13.3333 ninth (96.62)
-    - [Sun] J Zubenelgenubi → J Makemake Dec 47.9883 48 whole (17.18)
-  - Venus: Jupiter, Moon — only
-    - [Jupiter] S Jupiter → J Venus RA 122.2652 122.222 ninth (94.05)
-    - [Moon] H Rigel → H Venus RA 16.9868 17 whole (11.45)
-    - [Moon] J Pleiades → J Venus RA 32.0048 32 whole (57.54)
-  - Pallas: Moon, Sun — also: 1 Fire Flyer / Richie McLernon
-    - [Moon] H Rigel → H Pallas RA 110.0383 68×φ golden (39.54)
-    - [Sun] J Deneb → J Pallas RA 0.8678 conj (17.76)
-    - [Sun] J Difda → J Pallas Dec 26.1826 10×φ^2 phi power (96.52)
-  - Rahu: Jupiter, Moon, Sun — only
-    - [Jupiter] J Capella → J Rahu RA 0.6108 conj (35.14)
-    - [Moon] H Rigel → H Rahu Dec 12.9980 13 whole (81.21)
-    - [Moon] J Pleiades → J Rahu Dec 0.9982 1 whole (82.85)
-    - [Moon] J Rigel → J Rahu RA 1.1480 conj (5.51)
-    - [Sun] J Deneb → J Rahu RA 129.4266 80×φ golden (25.27)
-    - [Sun] J Scheat → J Rahu RA 93.8424 58×φ golden (79.33)
-  - Eris: Moon, Sun — also: 1 Fire Flyer / Richie McLernon, 8 The Bellhop / Freddie Mitchell
-    - [Moon] H Sadalsuud → H Eris RA 63.1032 39×φ golden (99.15)
-    - [Moon] J Zubenelgenubi → J Eris RA 160.9859 161 whole (8.83)
-    - [Sun] J Zubenelgenubi → J Eris RA 160.9859 161 whole (8.83)
-  - Sun: Moon, Sun — also: 1 Fire Flyer / Richie McLernon, 7 Motazzen / Paul O'Brien
-    - [Moon] H Vindemiatrix → H Sun RA 131.0171 131 whole (2.11)
-    - [Moon] J Sadalsuud → J Sun RA 45.0046 45 whole (59.25)
-    - [Sun] J Difda → J Sun RA 3.0014 3 whole (86.42)
-  - Mars: Moon, Sun — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan
-    - [Moon] H Zubenelgenubi → H Mars RA 14.5616 9×φ golden (95.73)
-    - [Moon] J Algol → J Mars RA 0.1453 conj (81.57)
-    - [Moon] J Sadalsuud → J Mars RA 84.0055 84 whole (52.55)
-    - [Sun] H Zubenelgenubi → H Mars RA 14.5616 9×φ golden (95.73)
-    - [Sun] J Difda → J Mars RA 35.9995 36 whole (94.97)
-  - Ketu: Jupiter, Moon, Sun — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
-    - [Jupiter] S Ketu → J Ketu RA 111.1926 111.111 ninth (86.67)
-    - [Moon] J Algol → J Ketu RA 147.2561 91×φ golden (28.60)
-    - [Moon] J Sadalsuud → J Ketu RA 63.1054 39×φ golden (87.79)
-    - [Sun] J Difda → J Ketu RA 111.1114 111.111 ninth (99.96)
+  - 2 and 2×φ on J Transpluto — only
+    - J Vindemiatrix → J Transpluto Dec 2.0046 2 whole (59.51)
+    - S Transpluto → J Transpluto Dec 3.2355 2×φ golden (loose)
+### L4 every natal body
+- **Pluto**
+  - same body: S Pluto → H Pluto RA 18.0199 18 whole (0.00) — also: 2 Lynx De Thaix / Gavin Sheehan
+  - top rows: S Jupiter → H Pluto RA 141.0022 141 whole (79.35) — also: 8 The Bellhop / Freddie Mitchell
+  - star rows: H Orion Nebula Cluster → H Pluto Dec 15.5584 15.5556 ninth (97.31) — also: 6 So You Know / Tom Bellamy
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - star rows: H Rigel → H Pluto RA 150.4990 93×φ golden (10.48) — also: 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+- **Chiron**
+  - same body: S Chiron → H Chiron Dec 8.9804 9 whole (0.04) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 6 So You Know / Tom Bellamy
+  - star rows: J Algol → J Chiron RA 127.8279 79×φ golden (81.02) — also: 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+- **Juno**
+  - same body: S Juno → H Juno Dec 15.4625 15.5556 ninth (loose) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy
+  - star rows: H Algol → H Juno RA 166.6792 166.667 ninth (98.93) — also: 2 Lynx De Thaix / Gavin Sheehan, 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - star rows: H Zubenelgenubi → H Juno RA 9.0097 9 whole (26.66) — also: 2 Lynx De Thaix / Gavin Sheehan, 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+  - top rows: S Jupiter → J Juno RA 10.9960 11 whole (64.38) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn
+  - star rows: J Vindemiatrix → J Juno Dec 0.2964 conj (0.01) — also: 2 Lynx De Thaix / Gavin Sheehan, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+- **Haumea**
+  - same body: S Haumea → H Haumea RA 10.0239 10 whole (loose) — also: 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Haumea RA 0.6231 conj (34.18)
+  - star rows: H Difda → H Haumea RA 160.1838 99×φ golden (90.71) — also: 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: H Rigel → H Haumea Dec 25.9851 26 whole (6.61) — also: 5 He's A Latchico / Caoilin Quinn
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+  - star rows: H Zubenelgenubi → H Haumea RA 12.0128 12 whole (12.98) — also: 5 He's A Latchico / Caoilin Quinn
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+  - same body: S Haumea → J Haumea RA 21.9890 22 whole (20.09) — also: 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Haumea RA 0.6231 conj (34.18)
+  - star rows: J Deneb Algedi → J Haumea RA 128.0099 128 whole (25.42) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: J Deneb Algedi → J Haumea Dec 37.2115 23×φ golden (80.48) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: J Scheat → J Haumea Dec 6.9972 7 whole (73.74) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+- **Orcus**
+  - same body: S Orcus → H Orcus RA 11.0766 φ^5 phi power (loose) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan
+  - star rows: H Algol → H Orcus RA 103.5699 64×φ golden (26.30) — also: 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - star rows: H Sadalsuud → H Orcus Dec 2.9963 3 whole (66.28) — only
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+  - star rows: J Rigel → J Orcus Dec 6.0188 6 whole (0.36) — also: 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+  - star rows: J Scheat → J Orcus RA 153.0131 153 whole (12.04) — also: 6 So You Know / Tom Bellamy
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+- **Gonggong**
+  - same body: S Gonggong → H Gonggong Dec 2.2162 2.22222 ninth (loose) — also: 1 Fire Flyer / Richie McLernon, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+  - top rows: S Sun → H Gonggong RA 114.8747 71×φ golden (67.64) — also: 8 The Bellhop / Freddie Mitchell
+  - T2: J Jupiter → J Gonggong RA 124.5921 77×φ golden (79.47) — only
+  - star rows: J Deneb Algedi → J Gonggong Dec 0.2876 conj (0.17) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: J Orion Nebula Cluster → J Gonggong RA 110.9632 10×φ^5 phi power (79.05) — also: 5 He's A Latchico / Caoilin Quinn
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - star rows: J Pleiades → J Gonggong RA 84.0098 84 whole (25.85) — also: 1 Fire Flyer / Richie McLernon, 7 Motazzen / Paul O'Brien
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+- **Sedna**
+  - T1: H Jupiter → H Sedna Dec 0.0803 conj (53.64) — only
+  - star rows: H Orion Nebula Cluster → H Sedna Dec 12.9972 13 whole (73.92) — also: 1 Fire Flyer / Richie McLernon, 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - star rows: H Pleiades → H Sedna RA 1.1469 conj (5.54) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: H Zubenelgenubi → H Sedna RA 167.0058 167 whole (50.07) — also: 5 He's A Latchico / Caoilin Quinn
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+  - star rows: J Algol → J Sedna RA 0.5063 conj (43.89) — also: 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - star rows: J Vindemiatrix → J Sedna RA 148.0061 148 whole (48.50) — only
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+- **Vesta**
+  - top rows: S Jupiter → H Vesta RA 84.0020 84 whole (80.82) — also: 1 Fire Flyer / Richie McLernon, 7 Motazzen / Paul O'Brien
+  - star rows: H Deneb → H Vesta Dec 27.5009 17×φ golden (67.84) — also: 5 He's A Latchico / Caoilin Quinn
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - top rows: S Sun → J Vesta RA 150.0028 150 whole (74.28) — only
+  - star rows: J Deneb → J Vesta RA 121.0016 121 whole (84.40) — also: 5 He's A Latchico / Caoilin Quinn
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - star rows: J Pleiades → J Vesta Dec 2.9905 3 whole (27.60) — also: 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+- **Transpluto**
+  - top rows: S Jupiter → H Transpluto Dec 2.6180 φ^2 phi power (99.80) — also: 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+  - top rows: S Sun → H Transpluto RA 69.0028 69 whole (74.19) — also: 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+  - star rows: H Deneb → H Transpluto RA 158.0059 158 whole (49.84) — also: 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - star rows: H Deneb Algedi → H Transpluto Dec 27.5023 17×φ golden (75.13) — also: 2 Lynx De Thaix / Gavin Sheehan, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: H Difda → H Transpluto RA 141.4604 141.4 sqrt2 (89.27) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - same body: S Transpluto → J Transpluto Dec 3.2355 2×φ golden (loose) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+  - top rows: S Jupiter → J Transpluto RA 0.8067 conj (21.36) — also: 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+  - top rows: S Moon → J Transpluto Dec 22.0045 22 whole (60.33) — only
+  - star rows: J Algol → J Transpluto Dec 27.9947 28 whole (53.66) — only
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - star rows: J Scheat → J Transpluto RA 161.9962 162 whole (66.01) — also: 6 So You Know / Tom Bellamy
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+  - star rows: J Vindemiatrix → J Transpluto Dec 2.0046 2 whole (59.51) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - star rows: J Zubenelgenubi → J Transpluto Dec 29.0046 29 whole (59.45) — only
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+- **Uranus**
+  - top rows: S Sun → H Uranus Dec 24.2795 15×φ golden (52.11) — also: 5 He's A Latchico / Caoilin Quinn
+  - star rows: H Deneb → H Uranus Dec 36.9823 37 whole (1.36) — also: 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - star rows: H Pleiades → H Uranus RA 35.5989 22×φ golden (86.96) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: H Zubenelgenubi → H Uranus RA 158.5421 98×φ golden (4.84) — only
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+  - T2: J Jupiter → J Uranus RA 127.8340 79×φ golden (50.78) — only
+  - star rows: J Deneb Algedi → J Uranus Dec 3.0089 3 whole (31.00) — also: 5 He's A Latchico / Caoilin Quinn
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: J Rigel → J Uranus RA 109.0170 109 whole (2.27) — also: 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+- **Jupiter**
+  - top rows: S Chiron → H Jupiter Dec 2.9955 3 whole (59.99) — also: 7 Motazzen / Paul O'Brien
+  - top rows: S Gonggong → H Jupiter Dec 17.9981 18 whole (82.14) — also: 2 Lynx De Thaix / Gavin Sheehan
+  - star rows: S Pleiades → H Jupiter RA 108.4343 67×φ golden (3.83) — also: 1 Fire Flyer / Richie McLernon, 7 Motazzen / Paul O'Brien
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - T2: J Jupiter → J star Difda Dec 41.4209 41.4 silver (99.52) — also: 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+  - T2: J Jupiter → J star Sadalsuud Dec 29.0051 29 whole (55.36) — also: 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+  - star rows: J Difda → J Jupiter Dec 41.4209 41.4 silver (99.52) — also: 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: S Sadalsuud → J Jupiter Dec 29.0022 29 whole (79.15) — also: 2 Lynx De Thaix / Gavin Sheehan, 7 Motazzen / Paul O'Brien
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+- **Neptune**
+  - star rows: H Orion Nebula Cluster → H Neptune RA 100.3498 62×φ golden (0.04) — also: 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - star rows: H Rigel → H Neptune Dec 0.2719 conj (0.87) — only
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+  - star rows: H Scheat → H Neptune Dec 36.0108 36 whole (21.16) — also: 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+  - star rows: H Vindemiatrix → H Neptune Dec 18.8899 18.8889 ninth (99.25) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - star rows: J Deneb Algedi → J Neptune Dec 1.4142 1.414 sqrt2 (99.72) — also: 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: J Orion Nebula Cluster → J Neptune RA 130.9857 131 whole (8.04) — also: 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+- **Quaoar**
+  - star rows: H Orion Nebula Cluster → H Quaoar Dec 10.0152 10 whole (5.85) — also: 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - star rows: J Rigel → J Quaoar RA 171.9838 172 whole (3.68) — only
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+- **Makemake**
+  - star rows: H Pleiades → H Makemake RA 135.9966 136 whole (69.04) — also: 2 Lynx De Thaix / Gavin Sheehan, 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: J Algol → J Makemake Dec 9.0109 9 whole (20.51) — also: 6 So You Know / Tom Bellamy
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - star rows: J Capella → J Makemake RA 102.0083 102 whole (34.48) — only
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - star rows: J Deneb → J Makemake Dec 13.3305 13.3333 ninth (96.62) — also: 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - star rows: J Vindemiatrix → J Makemake Dec 20.9883 21 whole (17.14) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - star rows: J Zubenelgenubi → J Makemake Dec 47.9883 48 whole (17.18) — only
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+- **Venus**
+  - star rows: H Rigel → H Venus RA 16.9868 17 whole (11.45) — only
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+  - top rows: S Jupiter → J Venus RA 122.2652 122.222 ninth (94.05) — only
+  - star rows: J Pleiades → J Venus RA 32.0048 32 whole (57.54) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+- **Pallas**
+  - star rows: H Rigel → H Pallas RA 110.0383 68×φ golden (39.54) — also: 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+  - star rows: J Deneb → J Pallas RA 0.8678 conj (17.76) — only
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - star rows: J Difda → J Pallas Dec 26.1826 10×φ^2 phi power (96.52) — also: 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+- **Rahu**
+  - star rows: H Rigel → H Rahu Dec 12.9980 13 whole (81.21) — only
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+  - same body: S Rahu → J Rahu RA 111.1926 111.111 ninth (86.67) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Capella → J Rahu RA 0.6108 conj (35.14) — only
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - star rows: J Deneb → J Rahu RA 129.4266 80×φ golden (25.27) — also: 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - star rows: J Pleiades → J Rahu Dec 0.9982 1 whole (82.85) — also: 6 So You Know / Tom Bellamy
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: J Rigel → J Rahu RA 1.1480 conj (5.51) — only
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+  - star rows: J Scheat → J Rahu RA 93.8424 58×φ golden (79.33) — also: 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+- **Eris**
+  - star rows: H Sadalsuud → H Eris RA 63.1032 39×φ golden (99.15) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+  - star rows: J Zubenelgenubi → J Eris RA 160.9859 161 whole (8.83) — only
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+- **Sun**
+  - star rows: H Vindemiatrix → H Sun RA 131.0171 131 whole (2.11) — also: 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - same body: S Sun → J Sun Dec 19.3900 12×φ golden (loose) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Difda → J Sun RA 3.0014 3 whole (86.42) — also: 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: J Sadalsuud → J Sun RA 45.0046 45 whole (59.25) — also: 2 Lynx De Thaix / Gavin Sheehan, 7 Motazzen / Paul O'Brien
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+- **Mars**
+  - star rows: H Zubenelgenubi → H Mars RA 14.5616 9×φ golden (95.73) — only
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+  - same body: S Mars → J Mars RA 97.0827 60×φ golden (96.01) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Algol → J Mars RA 0.1453 conj (81.57) — also: 1 Fire Flyer / Richie McLernon
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - star rows: J Difda → J Mars RA 35.9995 36 whole (94.97) — only
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: J Sadalsuud → J Mars RA 84.0055 84 whole (52.55) — only
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+- **Mercury**
+  - same body: S Mercury → J Mercury RA 143.5740 144.444 ninth (loose) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Vindemiatrix → J Mercury RA 164.9927 165 whole (40.24) — also: 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+- **Saturn**
+  - same body: S Saturn → J Saturn RA 59.8562 37×φ golden (loose) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan
+- **Ceres**
+  - same body: S Ceres → J Ceres Dec 38.0206 38 whole (loose) — also: 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+- **Ketu**
+  - same body: S Ketu → J Ketu RA 111.1926 111.111 ninth (86.67) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+    - source line: S Jupiter → Ketu RA 1.4603 conj (0.07)
+  - star rows: J Algol → J Ketu RA 147.2561 91×φ golden (28.60) — also: 5 He's A Latchico / Caoilin Quinn
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - star rows: J Difda → J Ketu RA 111.1114 111.111 ninth (99.96) — also: 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: J Sadalsuud → J Ketu RA 63.1054 39×φ golden (87.79) — also: 2 Lynx De Thaix / Gavin Sheehan, 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
 
 ## 5 He's A Latchico / Caoilin Quinn
 ### L1 same bodies
@@ -884,76 +1472,126 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - S Ketu → J Ketu Dec 36.0170 36 whole (2.28)
 ### L2 what lands on each same body
 - **H Sun** (same body: S Sun → H Sun Dec 15.0225 15 whole (loose))
-  - other chart, star rows: J Rigel → J Sun RA 23.9860 24 whole (8.87) [Moon]
+  - other chart, star rows: J Rigel → J Sun RA 23.9860 24 whole (8.87)
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
 - **H Uranus** (same body: S Uranus → H Uranus Dec 11.0832 φ^5 phi power (loose))
-  - body line: S Jupiter → Uranus RA 84.9993 85 whole (93.10)
-  - top rows: S Sun → H Uranus RA 163.4271 101×φ golden (68.19) [Sun]
-  - other chart, star rows: J Deneb Algedi → J Uranus RA 0.1468 conj (81.39) [Sun]
-  - other chart, star rows: J Deneb Algedi → J Uranus Dec 2.0176 2 whole (1.46) [Sun]
-  - other chart, star rows: J Difda → J Uranus RA 43.9864 44 whole (10.22) [Sun]
-  - other chart, star rows: J Sadalsuud → J Uranus RA 4.0172 4 whole (1.91) [Moon]
+  - sky line to Uranus: S Jupiter → Uranus RA 84.9993 85 whole (93.10)
+  - top rows: S Sun → H Uranus RA 163.4271 101×φ golden (68.19)
+  - other chart, star rows: J Deneb Algedi → J Uranus RA 0.1468 conj (81.39)
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - other chart, star rows: J Deneb Algedi → J Uranus Dec 2.0176 2 whole (1.46)
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - other chart, star rows: J Difda → J Uranus RA 43.9864 44 whole (10.22)
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - other chart, star rows: J Sadalsuud → J Uranus RA 4.0172 4 whole (1.91)
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
 - **H Sedna** (same body: S Sedna → H Sedna RA 5.9849 6 whole (6.06))
-  - star rows: H Pleiades → H Sedna RA 0.7825 conj (22.88) [Moon]
-  - star rows: H Zubenelgenubi → H Sedna RA 166.6369 166.667 ninth (97.45) [Moon, Sun]
+  - star rows: H Pleiades → H Sedna RA 0.7825 conj (22.88)
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: H Zubenelgenubi → H Sedna RA 166.6369 166.667 ninth (97.45)
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
   - other chart, same body: S Sedna → J Sedna RA 14.0126 14 whole (13.64)
-  - other chart, top rows: S Moon → J Sedna RA 141.4935 141.4 sqrt2 (80.63) [Moon]
-  - other chart, star rows: J Algol → J Sedna RA 1.0204 conj (10.22) [Moon]
+  - other chart, top rows: S Moon → J Sedna RA 141.4935 141.4 sqrt2 (80.63)
+  - other chart, star rows: J Algol → J Sedna RA 1.0204 conj (10.22)
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
 - **J Venus** (same body: S Venus → J Venus RA 144.5527 144.444 ninth (loose))
-  - star rows: J Algol → J Venus Dec 23.9829 24 whole (2.09) [Moon]
-  - star rows: J Pleiades → J Venus RA 0.8858 conj (16.76) [Moon]
-  - star rows: J Scheat → J Venus Dec 11.1107 11.1111 ninth (99.33) [Sun]
-  - star rows: J Vindemiatrix → J Venus Dec 6.0095 6 whole (27.48) [Moon]
-  - star rows: J Zubenelgenubi → J Venus Dec 33.0128 33 whole (12.85) [Moon, Sun]
-  - other chart, star rows: H Vindemiatrix → H Venus RA 177.7566 177.778 ninth (98.34) [Moon]
+  - star rows: J Algol → J Venus Dec 23.9829 24 whole (2.09)
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - star rows: J Pleiades → J Venus RA 0.8858 conj (16.76)
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: J Scheat → J Venus Dec 11.1107 11.1111 ninth (99.33)
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+  - star rows: J Vindemiatrix → J Venus Dec 6.0095 6 whole (27.48)
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - star rows: J Zubenelgenubi → J Venus Dec 33.0128 33 whole (12.85)
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+  - other chart, star rows: H Vindemiatrix → H Venus RA 177.7566 177.778 ninth (98.34)
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
 - **J Mars** (same body: S Mars → J Mars RA 111.4004 111.111 ninth (loose); S Mars → J Mars Dec 42.9755 43 whole (loose))
-  - star rows: J Deneb → J Mars RA 54.9901 55 whole (25.69) [Sun]
+  - star rows: J Deneb → J Mars RA 54.9901 55 whole (25.69)
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
 - **J Ceres** (same body: S Ceres → J Ceres Dec 53.3840 33×φ golden (loose))
-  - star rows: J Deneb Algedi → J Ceres Dec 12.9981 13 whole (82.27) [Sun]
-  - star rows: J Galactic Centre → J Ceres Dec 0.1159 conj (37.65) [Jupiter]
-  - other chart, top rows: S Jupiter → H Ceres RA 16.6697 16.6667 ninth (97.43) [Jupiter]
+  - star rows: J Deneb Algedi → J Ceres Dec 12.9981 13 whole (82.27)
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: J Galactic Centre → J Ceres Dec 0.1159 conj (37.65)
+    - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
+  - other chart, top rows: S Jupiter → H Ceres RA 16.6697 16.6667 ninth (97.43)
 - **J Pallas** (same body: S Pallas → J Pallas RA 129.0003 129 whole (96.65); S Pallas → J Pallas Dec 45.0175 45 whole (1.62))
-  - star rows: J Scheat → J Pallas Dec 3.3334 3.33333 ninth (98.90) [Sun]
+  - star rows: J Scheat → J Pallas Dec 3.3334 3.33333 ninth (98.90)
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
 - **J Juno** (same body: S Juno → J Juno RA 133.5991 133.333 ninth (loose))
-  - top rows: S Jupiter → J Juno Dec 0.2374 conj (4.36) [Jupiter]
-  - star rows: J Rigel → J Juno RA 1.0043 1 whole (61.37) [Moon]
-  - other chart, star rows: H Orion Nebula Cluster → H Juno RA 103.0043 103 whole (61.35) [Sun]
-  - other chart, star rows: H Orion Nebula Cluster → H Juno Dec 0.2095 conj (9.10) [Sun]
+  - top rows: S Jupiter → J Juno Dec 0.2374 conj (4.36)
+  - star rows: J Rigel → J Juno RA 1.0043 1 whole (61.37)
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+  - other chart, star rows: H Orion Nebula Cluster → H Juno RA 103.0043 103 whole (61.35)
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - other chart, star rows: H Orion Nebula Cluster → H Juno Dec 0.2095 conj (9.10)
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
 - **J Rahu** (same body: S Rahu → J Rahu Dec 36.0170 36 whole (2.28))
-  - star rows: J Deneb → J Rahu Dec 21.9928 22 whole (40.82) [Sun]
-  - star rows: J Scheat → J Rahu RA 110.9886 10×φ^5 phi power (71.11) [Sun]
-  - other chart, star rows: H Galactic Centre → H Rahu RA 129.9812 130 whole (0.34) [Jupiter]
-  - other chart, star rows: H Scheat → H Rahu RA 150.4968 93×φ golden (15.53) [Sun]
+  - star rows: J Deneb → J Rahu Dec 21.9928 22 whole (40.82)
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - star rows: J Scheat → J Rahu RA 110.9886 10×φ^5 phi power (71.11)
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+  - other chart, star rows: H Galactic Centre → H Rahu RA 129.9812 130 whole (0.34)
+    - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
+  - other chart, star rows: H Scheat → H Rahu RA 150.4968 93×φ golden (15.53)
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
 - **J Sedna** (same body: S Sedna → J Sedna RA 14.0126 14 whole (13.64))
-  - top rows: S Moon → J Sedna RA 141.4935 141.4 sqrt2 (80.63) [Moon]
-  - star rows: J Algol → J Sedna RA 1.0204 conj (10.22) [Moon]
+  - top rows: S Moon → J Sedna RA 141.4935 141.4 sqrt2 (80.63)
+  - star rows: J Algol → J Sedna RA 1.0204 conj (10.22)
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
   - other chart, same body: S Sedna → H Sedna RA 5.9849 6 whole (6.06)
-  - other chart, star rows: H Pleiades → H Sedna RA 0.7825 conj (22.88) [Moon]
-  - other chart, star rows: H Zubenelgenubi → H Sedna RA 166.6369 166.667 ninth (97.45) [Moon, Sun]
+  - other chart, star rows: H Pleiades → H Sedna RA 0.7825 conj (22.88)
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - other chart, star rows: H Zubenelgenubi → H Sedna RA 166.6369 166.667 ninth (97.45)
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **J Haumea** (same body: S Haumea → J Haumea RA 24.0028 24 whole (74.05))
-  - body line: S Sun → Haumea RA 0.6231 conj (34.18)
-  - top rows: S Sun → J Haumea Dec 37.2173 23×φ golden (85.07) [Sun]
-  - star rows: J Rigel → J Haumea RA 118.1033 73×φ golden (35.13) [Moon]
-  - star rows: J Vindemiatrix → J Haumea RA 1.1881 conj (4.32) [Moon]
-  - star rows: J Zubenelgenubi → J Haumea RA 25.9900 26 whole (25.21) [Moon, Sun]
-  - other chart, top rows: S Moon → H Haumea Dec 25.8811 16×φ golden (59.42) [Moon]
-  - other chart, star rows: H Algol → H Haumea RA 166.6154 166.667 ninth (95.61) [Moon]
-  - other chart, star rows: H Rigel → H Haumea RA 135.0195 135 whole (0.06) [Moon]
+  - sky line to Haumea: S Sun → Haumea RA 0.6231 conj (34.18)
+  - top rows: S Sun → J Haumea Dec 37.2173 23×φ golden (85.07)
+  - star rows: J Rigel → J Haumea RA 118.1033 73×φ golden (35.13)
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+  - star rows: J Vindemiatrix → J Haumea RA 1.1881 conj (4.32)
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - star rows: J Zubenelgenubi → J Haumea RA 25.9900 26 whole (25.21)
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+  - other chart, top rows: S Moon → H Haumea Dec 25.8811 16×φ golden (59.42)
+  - other chart, star rows: H Algol → H Haumea RA 166.6154 166.667 ninth (95.61)
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - other chart, star rows: H Rigel → H Haumea RA 135.0195 135 whole (0.06)
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
 - **J Makemake** (same body: S Makemake → J Makemake Dec 12.2841 12.2222 ninth (loose))
-  - star rows: J Deneb Algedi → J Makemake Dec 47.9840 48 whole (4.04) [Sun]
-  - star rows: J Galactic Centre → J Makemake RA 86.9872 87 whole (12.95) [Jupiter]
-  - other chart, star rows: H Vindemiatrix → H Makemake RA 0.0433 conj (94.31) [Moon]
+  - star rows: J Deneb Algedi → J Makemake Dec 47.9840 48 whole (4.04)
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: J Galactic Centre → J Makemake RA 86.9872 87 whole (12.95)
+    - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
+  - other chart, star rows: H Vindemiatrix → H Makemake RA 0.0433 conj (94.31)
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
 - **J Transpluto** (same body: S Transpluto → J Transpluto Dec 3.3268 3.33333 ninth (loose))
-  - top rows: S Jupiter → J Transpluto RA 0.5464 conj (40.42) [Jupiter]
-  - top rows: S Sun → J Transpluto Dec 29.0383 φ^7 phi power (94.73) [Sun]
-  - star rows: J Galactic Centre → J Transpluto Dec 42.0608 26×φ golden (56.30) [Jupiter]
-  - other chart, star rows: H Difda → H Transpluto RA 142.3607 88×φ golden (3.56) [Sun]
-  - other chart, star rows: H Vindemiatrix → H Transpluto Dec 0.0836 conj (52.05) [Moon]
+  - top rows: S Jupiter → J Transpluto RA 0.5464 conj (40.42)
+  - top rows: S Sun → J Transpluto Dec 29.0383 φ^7 phi power (94.73)
+  - star rows: J Galactic Centre → J Transpluto Dec 42.0608 26×φ golden (56.30)
+    - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
+  - other chart, star rows: H Difda → H Transpluto RA 142.3607 88×φ golden (3.56)
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - other chart, star rows: H Vindemiatrix → H Transpluto Dec 0.0836 conj (52.05)
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
 - **J Ketu** (same body: S Ketu → J Ketu Dec 36.0170 36 whole (2.28))
-  - body line: S Jupiter → Ketu RA 1.4603 conj (0.07)
-  - star rows: J Scheat → J Ketu RA 69.0114 69 whole (18.51) [Sun]
-  - other chart, star rows: H Algol → H Ketu RA 90.6022 56×φ golden (58.22) [Moon]
-  - other chart, star rows: H Galactic Centre → H Ketu RA 50.0188 50 whole (0.34) [Jupiter]
-### L3 the seven cases (L5 field tag on each)
+  - sky line to Ketu: S Jupiter → Ketu RA 1.4603 conj (0.07)
+  - star rows: J Scheat → J Ketu RA 69.0114 69 whole (18.51)
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+  - other chart, star rows: H Algol → H Ketu RA 90.6022 56×φ golden (58.22)
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - other chart, star rows: H Galactic Centre → H Ketu RA 50.0188 50 whole (0.34)
+    - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
+### L3 matches
 - **1. same body on both charts**
   - Sedna — only
     - S Sedna → H Sedna RA 5.9849 6 whole (6.06)
@@ -981,11 +1619,21 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 10×φ^5 phi power — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
     - J Scheat → J Rahu RA 110.9886 10×φ^5 phi power (71.11) = S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
 - **4. circle divisions**
-  - 15 = 360/24 — also: 8 The Bellhop / Freddie Mitchell
+  - 15 = 360/24 — also: 2 Lynx De Thaix / Gavin Sheehan, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
     - S Sun → H Sun Dec 15.0225 15 whole (loose)
-  - 6 = 360/60 — also: 8 The Bellhop / Freddie Mitchell
+  - 6 = 360/60 — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
     - S Sedna → H Sedna RA 5.9849 6 whole (6.06)
-  - 45 = 360/8 — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
+  - 18 = 360/20 — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+    - H Deneb → H Pluto RA 17.9899 18 whole (24.34)
+  - 45 = 360/8 — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+    - H Deneb → H Vesta RA 45.0064 45 whole (46.09)
+  - 18 = 360/20 — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+    - H Vindemiatrix → H Neptune Dec 18.0104 18 whole (23.14)
+  - 9 = 360/40 — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien
+    - H Zubenelgenubi → H Neptune Dec 8.9896 9 whole (22.99)
+  - 6 = 360/60 — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+    - H Zubenelgenubi → H Orcus Dec 5.9832 6 whole (2.62)
+  - 45 = 360/8 — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
     - S Pallas → J Pallas Dec 45.0175 45 whole (1.62)
   - 36 = 360/10 — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 8 The Bellhop / Freddie Mitchell
     - S Rahu → J Rahu Dec 36.0170 36 whole (2.28)
@@ -993,136 +1641,293 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
     - S Haumea → J Haumea RA 24.0028 24 whole (74.05)
   - 36 = 360/10 — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 8 The Bellhop / Freddie Mitchell
     - S Ketu → J Ketu Dec 36.0170 36 whole (2.28)
+  - 24 = 360/15 — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan
+    - J Algol → J Venus Dec 23.9829 24 whole (2.09)
+  - 2 = 360/180 — also: 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+    - J Deneb Algedi → J Uranus Dec 2.0176 2 whole (1.46)
+  - 2 = 360/180 — also: 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+    - J Deneb Algedi → J Neptune Dec 1.9838 2 whole (3.69)
+  - 24 = 360/15 — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan
+    - J Rigel → J Sun RA 23.9860 24 whole (8.87)
   - 1 = 360/360 — also: 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
     - J Rigel → J Juno RA 1.0043 1 whole (61.37)
+  - 4 = 360/90 — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+    - J Sadalsuud → J Uranus RA 4.0172 4 whole (1.91)
+  - 45 = 360/8 — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+    - J Scheat → J Chiron Dec 45.0175 45 whole (1.52)
+  - 6 = 360/60 — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+    - J Vindemiatrix → J Venus Dec 6.0095 6 whole (27.48)
 - **5. same number in more than one place**
+  - 6 whole — only
+    - S Sedna → H Sedna RA 5.9849 6 whole (6.06)
+    - H Zubenelgenubi → H Orcus Dec 5.9832 6 whole (2.62)
+    - J Vindemiatrix → J Venus Dec 6.0095 6 whole (27.48)
   - 36×φ golden — only
     - H Jupiter → H star Algol Dec 58.2497 36×φ golden (96.89)
     - H Algol → H Jupiter Dec 58.2497 36×φ golden (96.89)
   - 96 whole — only
     - H Jupiter → H star Deneb Algedi RA 95.9964 96 whole (67.58)
     - S Deneb Algedi → H Jupiter RA 96.0028 96 whole (74.33)
+    - J Scheat → J Mercury RA 95.9831 96 whole (2.33)
+  - 48 whole — only
+    - H Algol → H Neptune Dec 48.0102 48 whole (23.90)
+    - J Deneb Algedi → J Makemake Dec 47.9840 48 whole (4.04)
   - 166.667 ninth — also: 2 Lynx De Thaix / Gavin Sheehan, 6 So You Know / Tom Bellamy
     - H Algol → H Haumea RA 166.6154 166.667 ninth (95.61)
     - H Zubenelgenubi → H Sedna RA 166.6369 166.667 ninth (97.45)
+  - 18 whole — also: 3 Donnie Azoff / Isabelle Ryder
+    - H Deneb → H Pluto RA 17.9899 18 whole (24.34)
+    - H Vindemiatrix → H Neptune Dec 18.0104 18 whole (23.14)
+  - 45 whole — only
+    - H Deneb → H Vesta RA 45.0064 45 whole (46.09)
+    - S Pallas → J Pallas Dec 45.0175 45 whole (1.62)
+    - J Scheat → J Chiron Dec 45.0175 45 whole (1.52)
+  - 87 whole — only
+    - H Orion Nebula Cluster → H Chiron RA 86.9988 87 whole (88.77)
+    - J Galactic Centre → J Makemake RA 86.9872 87 whole (12.95)
   - 133.333 ninth — also: 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
     - S Juno → J Juno RA 133.5991 133.333 ninth (loose)
     - J Orion Nebula Cluster → J Neptune RA 133.3748 133.333 ninth (95.02)
-  - 36 whole — only
+  - 36 whole — also: 3 Donnie Azoff / Isabelle Ryder
     - S Rahu → J Rahu Dec 36.0170 36 whole (2.28)
     - S Ketu → J Ketu Dec 36.0170 36 whole (2.28)
+  - 24 whole — only
+    - S Haumea → J Haumea RA 24.0028 24 whole (74.05)
+    - J Algol → J Venus Dec 23.9829 24 whole (2.09)
+    - J Rigel → J Sun RA 23.9860 24 whole (8.87)
   - 3.33333 ninth — only
     - S Transpluto → J Transpluto Dec 3.3268 3.33333 ninth (loose)
     - J Scheat → J Pallas Dec 3.3334 3.33333 ninth (98.90)
   - 23×φ golden — only
     - S Sun → J Haumea Dec 37.2173 23×φ golden (85.07)
     - J Difda → J Mercury Dec 37.2114 23×φ golden (80.32)
-- **6. star and sky line on one body**: none
-- **7. centres meeting**
-  - Uranus: Jupiter, Moon, Sun — also: 3 Donnie Azoff / Isabelle Ryder
-    - [Jupiter] S Uranus → H Uranus Dec 11.0832 φ^5 phi power (loose)
-    - [Moon] J Sadalsuud → J Uranus RA 4.0172 4 whole (1.91)
-    - [Sun] S Sun → H Uranus RA 163.4271 101×φ golden (68.19)
-    - [Sun] J Deneb Algedi → J Uranus RA 0.1468 conj (81.39)
-    - [Sun] J Deneb Algedi → J Uranus Dec 2.0176 2 whole (1.46)
-    - [Sun] J Difda → J Uranus RA 43.9864 44 whole (10.22)
-  - Ceres: Jupiter, Sun — also: 2 Lynx De Thaix / Gavin Sheehan
-    - [Jupiter] S Jupiter → H Ceres RA 16.6697 16.6667 ninth (97.43)
-    - [Jupiter] J Galactic Centre → J Ceres Dec 0.1159 conj (37.65)
-    - [Sun] J Deneb Algedi → J Ceres Dec 12.9981 13 whole (82.27)
-  - Haumea: Moon, Sun — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
-    - [Moon] S Moon → H Haumea Dec 25.8811 16×φ golden (59.42)
-    - [Moon] H Algol → H Haumea RA 166.6154 166.667 ninth (95.61)
-    - [Moon] H Rigel → H Haumea RA 135.0195 135 whole (0.06)
-    - [Moon] J Rigel → J Haumea RA 118.1033 73×φ golden (35.13)
-    - [Moon] J Vindemiatrix → J Haumea RA 1.1881 conj (4.32)
-    - [Moon] J Zubenelgenubi → J Haumea RA 25.9900 26 whole (25.21)
-    - [Sun] S Haumea → J Haumea RA 24.0028 24 whole (74.05)
-    - [Sun] S Sun → J Haumea Dec 37.2173 23×φ golden (85.07)
-    - [Sun] J Zubenelgenubi → J Haumea RA 25.9900 26 whole (25.21)
-  - Jupiter: Jupiter, Moon, Sun — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
-    - [Jupiter] S Quaoar → H Jupiter RA 50.1534 31×φ golden (68.06)
-    - [Moon] H Algol → H Jupiter Dec 58.2497 36×φ golden (96.89)
-    - [Sun] S Deneb Algedi → H Jupiter RA 96.0028 96 whole (74.33)
-  - Mercury: Moon, Sun — also: 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
-    - [Moon] H Algol → H Mercury RA 34.0073 34 whole (40.49)
-    - [Moon] J Zubenelgenubi → J Mercury RA 140.7933 87×φ golden (6.16)
-    - [Sun] J Difda → J Mercury Dec 37.2114 23×φ golden (80.32)
-    - [Sun] J Scheat → J Mercury RA 95.9831 96 whole (2.33)
-    - [Sun] J Zubenelgenubi → J Mercury RA 140.7933 87×φ golden (6.16)
-  - Neptune: Jupiter, Moon, Sun — also: 1 Fire Flyer / Richie McLernon
-    - [Jupiter] J Galactic Centre → J Neptune RA 44.0190 44 whole (0.25)
-    - [Moon] H Algol → H Neptune Dec 48.0102 48 whole (23.90)
-    - [Moon] H Vindemiatrix → H Neptune Dec 18.0104 18 whole (23.14)
-    - [Moon] H Zubenelgenubi → H Neptune Dec 8.9896 9 whole (22.99)
-    - [Moon] J Vindemiatrix → J Neptune RA 114.8974 71×φ golden (22.50)
-    - [Sun] H Orion Nebula Cluster → H Neptune RA 98.0167 98 whole (2.77)
-    - [Sun] H Scheat → H Neptune RA 0.1337 conj (82.97)
-    - [Sun] H Zubenelgenubi → H Neptune Dec 8.9896 9 whole (22.99)
-    - [Sun] J Deneb → J Neptune RA 0.0771 conj (89.98)
-    - [Sun] J Deneb Algedi → J Neptune Dec 1.9838 2 whole (3.69)
-    - [Sun] J Difda → J Neptune Dec 0.1253 conj (33.93)
-    - [Sun] J Orion Nebula Cluster → J Neptune RA 133.3748 133.333 ninth (95.02)
-  - Orcus: Moon, Sun — also: 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy
-    - [Moon] H Algol → H Orcus Dec 51.0166 51 whole (2.93)
-    - [Moon] H Vindemiatrix → H Orcus Dec 21.0167 21 whole (2.66)
-    - [Moon] H Zubenelgenubi → H Orcus Dec 5.9832 6 whole (2.62)
-    - [Moon] J Vindemiatrix → J Orcus RA 56.9807 57 whole (0.11)
-    - [Sun] H Deneb Algedi → H Orcus RA 173.9905 174 whole (27.63)
-    - [Sun] H Zubenelgenubi → H Orcus Dec 5.9832 6 whole (2.62)
-  - Ketu: Jupiter, Moon, Sun — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
-    - [Jupiter] H Galactic Centre → H Ketu RA 50.0188 50 whole (0.34)
-    - [Jupiter] S Ketu → J Ketu Dec 36.0170 36 whole (2.28)
-    - [Moon] H Algol → H Ketu RA 90.6022 56×φ golden (58.22)
-    - [Sun] J Scheat → J Ketu RA 69.0114 69 whole (18.51)
-  - Vesta: Jupiter, Moon, Sun — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder
-    - [Jupiter] H Galactic Centre → H Vesta RA 1.0703 conj (8.20)
-    - [Moon] J Sadalsuud → J Vesta Dec 17.7780 17.7778 ninth (99.79)
-    - [Sun] H Deneb → H Vesta RA 45.0064 45 whole (46.09)
-    - [Sun] J Scheat → J Vesta RA 63.0028 63 whole (74.23)
-  - Transpluto: Jupiter, Moon, Sun — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
-    - [Jupiter] S Jupiter → J Transpluto RA 0.5464 conj (40.42)
-    - [Jupiter] J Galactic Centre → J Transpluto Dec 42.0608 26×φ golden (56.30)
-    - [Moon] H Vindemiatrix → H Transpluto Dec 0.0836 conj (52.05)
-    - [Sun] H Difda → H Transpluto RA 142.3607 88×φ golden (3.56)
-    - [Sun] S Sun → J Transpluto Dec 29.0383 φ^7 phi power (94.73)
-  - Rahu: Jupiter, Sun — only
-    - [Jupiter] H Galactic Centre → H Rahu RA 129.9812 130 whole (0.34)
-    - [Sun] H Scheat → H Rahu RA 150.4968 93×φ golden (15.53)
-    - [Sun] J Deneb → J Rahu Dec 21.9928 22 whole (40.82)
-    - [Sun] J Scheat → J Rahu RA 110.9886 10×φ^5 phi power (71.11)
-  - Chiron: Moon, Sun — also: 8 The Bellhop / Freddie Mitchell
-    - [Moon] S Moon → J Chiron RA 75.0037 75 whole (66.30)
-    - [Moon] J Vindemiatrix → J Chiron RA 69.0110 69 whole (20.37)
-    - [Sun] H Orion Nebula Cluster → H Chiron RA 86.9988 87 whole (88.77)
-    - [Sun] J Scheat → J Chiron Dec 45.0175 45 whole (1.52)
-  - Juno: Jupiter, Moon, Sun — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 8 The Bellhop / Freddie Mitchell
-    - [Jupiter] S Jupiter → J Juno Dec 0.2374 conj (4.36)
-    - [Moon] J Rigel → J Juno RA 1.0043 1 whole (61.37)
-    - [Sun] H Orion Nebula Cluster → H Juno RA 103.0043 103 whole (61.35)
-    - [Sun] H Orion Nebula Cluster → H Juno Dec 0.2095 conj (9.10)
-  - Quaoar: Moon, Sun — also: 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
-    - [Moon] J Zubenelgenubi → J Quaoar RA 25.0051 25 whole (55.40)
-    - [Sun] H Orion Nebula Cluster → H Quaoar RA 171.9886 172 whole (18.28)
-    - [Sun] J Zubenelgenubi → J Quaoar RA 25.0051 25 whole (55.40)
-  - Sedna: Moon, Sun — also: 1 Fire Flyer / Richie McLernon, 8 The Bellhop / Freddie Mitchell
-    - [Moon] H Pleiades → H Sedna RA 0.7825 conj (22.88)
-    - [Moon] H Zubenelgenubi → H Sedna RA 166.6369 166.667 ninth (97.45)
-    - [Moon] S Moon → J Sedna RA 141.4935 141.4 sqrt2 (80.63)
-    - [Moon] J Algol → J Sedna RA 1.0204 conj (10.22)
-    - [Sun] H Zubenelgenubi → H Sedna RA 166.6369 166.667 ninth (97.45)
-  - Venus: Moon, Sun — also: 2 Lynx De Thaix / Gavin Sheehan, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
-    - [Moon] H Vindemiatrix → H Venus RA 177.7566 177.778 ninth (98.34)
-    - [Moon] J Algol → J Venus Dec 23.9829 24 whole (2.09)
-    - [Moon] J Pleiades → J Venus RA 0.8858 conj (16.76)
-    - [Moon] J Vindemiatrix → J Venus Dec 6.0095 6 whole (27.48)
-    - [Moon] J Zubenelgenubi → J Venus Dec 33.0128 33 whole (12.85)
-    - [Sun] J Scheat → J Venus Dec 11.1107 11.1111 ninth (99.33)
-    - [Sun] J Zubenelgenubi → J Venus Dec 33.0128 33 whole (12.85)
-  - Makemake: Jupiter, Moon, Sun — also: 3 Donnie Azoff / Isabelle Ryder
-    - [Jupiter] J Galactic Centre → J Makemake RA 86.9872 87 whole (12.95)
-    - [Moon] H Vindemiatrix → H Makemake RA 0.0433 conj (94.31)
-    - [Sun] J Deneb Algedi → J Makemake Dec 47.9840 48 whole (4.04)
+  - 2 whole — also: 8 The Bellhop / Freddie Mitchell
+    - J Deneb Algedi → J Uranus Dec 2.0176 2 whole (1.46)
+    - J Deneb Algedi → J Neptune Dec 1.9838 2 whole (3.69)
+  - 44 whole — only
+    - J Difda → J Uranus RA 43.9864 44 whole (10.22)
+    - J Galactic Centre → J Neptune RA 44.0190 44 whole (0.25)
+  - 69 whole — only
+    - J Scheat → J Ketu RA 69.0114 69 whole (18.51)
+    - J Vindemiatrix → J Chiron RA 69.0110 69 whole (20.37)
+### L4 every natal body
+- **Sun**
+  - same body: S Sun → H Sun Dec 15.0225 15 whole (loose) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Rigel → J Sun RA 23.9860 24 whole (8.87) — also: 7 Motazzen / Paul O'Brien
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+- **Uranus**
+  - same body: S Uranus → H Uranus Dec 11.0832 φ^5 phi power (loose) — also: 2 Lynx De Thaix / Gavin Sheehan, 7 Motazzen / Paul O'Brien
+    - source line: S Jupiter → Uranus RA 84.9993 85 whole (93.10)
+  - top rows: S Sun → H Uranus RA 163.4271 101×φ golden (68.19) — also: 3 Donnie Azoff / Isabelle Ryder
+  - star rows: J Deneb Algedi → J Uranus RA 0.1468 conj (81.39) — also: 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: J Deneb Algedi → J Uranus Dec 2.0176 2 whole (1.46) — also: 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: J Difda → J Uranus RA 43.9864 44 whole (10.22) — also: 1 Fire Flyer / Richie McLernon, 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: J Sadalsuud → J Uranus RA 4.0172 4 whole (1.91) — only
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+- **Sedna**
+  - same body: S Sedna → H Sedna RA 5.9849 6 whole (6.06) — also: 2 Lynx De Thaix / Gavin Sheehan, 7 Motazzen / Paul O'Brien
+  - star rows: H Pleiades → H Sedna RA 0.7825 conj (22.88) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: H Zubenelgenubi → H Sedna RA 166.6369 166.667 ninth (97.45) — also: 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+  - same body: S Sedna → J Sedna RA 14.0126 14 whole (13.64) — also: 2 Lynx De Thaix / Gavin Sheehan, 7 Motazzen / Paul O'Brien
+  - top rows: S Moon → J Sedna RA 141.4935 141.4 sqrt2 (80.63) — only
+  - star rows: J Algol → J Sedna RA 1.0204 conj (10.22) — also: 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+- **Jupiter**
+  - T1: H Jupiter → H star Algol Dec 58.2497 36×φ golden (96.89) — also: 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+  - T1: H Jupiter → H star Deneb Algedi RA 95.9964 96 whole (67.58) — also: 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+  - top rows: S Quaoar → H Jupiter RA 50.1534 31×φ golden (68.06) — also: 1 Fire Flyer / Richie McLernon, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+  - star rows: H Algol → H Jupiter Dec 58.2497 36×φ golden (96.89) — also: 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - star rows: S Deneb Algedi → H Jupiter RA 96.0028 96 whole (74.33) — also: 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+- **Ceres**
+  - top rows: S Jupiter → H Ceres RA 16.6697 16.6667 ninth (97.43) — only
+  - same body: S Ceres → J Ceres Dec 53.3840 33×φ golden (loose) — also: 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Deneb Algedi → J Ceres Dec 12.9981 13 whole (82.27) — also: 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: J Galactic Centre → J Ceres Dec 0.1159 conj (37.65) — also: 1 Fire Flyer / Richie McLernon
+    - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
+- **Pluto**
+  - top rows: S Sun → H Pluto RA 71.0045 71 whole (59.80) — also: 1 Fire Flyer / Richie McLernon
+  - star rows: H Deneb → H Pluto RA 17.9899 18 whole (24.34) — also: 1 Fire Flyer / Richie McLernon
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+- **Haumea**
+  - top rows: S Moon → H Haumea Dec 25.8811 16×φ golden (59.42) — also: 2 Lynx De Thaix / Gavin Sheehan, 7 Motazzen / Paul O'Brien
+  - star rows: H Algol → H Haumea RA 166.6154 166.667 ninth (95.61) — only
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - star rows: H Rigel → H Haumea RA 135.0195 135 whole (0.06) — also: 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+  - same body: S Haumea → J Haumea RA 24.0028 24 whole (74.05) — also: 3 Donnie Azoff / Isabelle Ryder, 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Haumea RA 0.6231 conj (34.18)
+  - top rows: S Sun → J Haumea Dec 37.2173 23×φ golden (85.07) — also: 7 Motazzen / Paul O'Brien
+  - star rows: J Rigel → J Haumea RA 118.1033 73×φ golden (35.13) — also: 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+  - star rows: J Vindemiatrix → J Haumea RA 1.1881 conj (4.32) — also: 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - star rows: J Zubenelgenubi → J Haumea RA 25.9900 26 whole (25.21) — also: 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+- **Mercury**
+  - star rows: H Algol → H Mercury RA 34.0073 34 whole (40.49) — also: 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - star rows: J Difda → J Mercury Dec 37.2114 23×φ golden (80.32) — also: 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: J Scheat → J Mercury RA 95.9831 96 whole (2.33) — also: 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+  - star rows: J Zubenelgenubi → J Mercury RA 140.7933 87×φ golden (6.16) — also: 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+- **Neptune**
+  - star rows: H Algol → H Neptune Dec 48.0102 48 whole (23.90) — only
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - star rows: H Orion Nebula Cluster → H Neptune RA 98.0167 98 whole (2.77) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - star rows: H Scheat → H Neptune RA 0.1337 conj (82.97) — also: 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+  - star rows: H Vindemiatrix → H Neptune Dec 18.0104 18 whole (23.14) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - star rows: H Zubenelgenubi → H Neptune Dec 8.9896 9 whole (22.99) — only
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+  - star rows: J Deneb → J Neptune RA 0.0771 conj (89.98) — only
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - star rows: J Deneb Algedi → J Neptune Dec 1.9838 2 whole (3.69) — also: 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: J Difda → J Neptune Dec 0.1253 conj (33.93) — also: 1 Fire Flyer / Richie McLernon, 6 So You Know / Tom Bellamy
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: J Galactic Centre → J Neptune RA 44.0190 44 whole (0.25) — also: 1 Fire Flyer / Richie McLernon
+    - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
+  - star rows: J Orion Nebula Cluster → J Neptune RA 133.3748 133.333 ninth (95.02) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - star rows: J Vindemiatrix → J Neptune RA 114.8974 71×φ golden (22.50) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+- **Orcus**
+  - star rows: H Algol → H Orcus Dec 51.0166 51 whole (2.93) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - star rows: H Deneb Algedi → H Orcus RA 173.9905 174 whole (27.63) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: H Vindemiatrix → H Orcus Dec 21.0167 21 whole (2.66) — only
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - star rows: H Zubenelgenubi → H Orcus Dec 5.9832 6 whole (2.62) — only
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+  - star rows: J Vindemiatrix → J Orcus RA 56.9807 57 whole (0.11) — only
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+- **Ketu**
+  - star rows: H Algol → H Ketu RA 90.6022 56×φ golden (58.22) — also: 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - star rows: H Galactic Centre → H Ketu RA 50.0188 50 whole (0.34) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
+  - same body: S Ketu → J Ketu Dec 36.0170 36 whole (2.28) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+    - source line: S Jupiter → Ketu RA 1.4603 conj (0.07)
+  - star rows: J Scheat → J Ketu RA 69.0114 69 whole (18.51) — also: 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+- **Vesta**
+  - star rows: H Deneb → H Vesta RA 45.0064 45 whole (46.09) — also: 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - star rows: H Galactic Centre → H Vesta RA 1.0703 conj (8.20) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
+  - star rows: J Sadalsuud → J Vesta Dec 17.7780 17.7778 ninth (99.79) — also: 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+  - star rows: J Scheat → J Vesta RA 63.0028 63 whole (74.23) — also: 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+- **Transpluto**
+  - star rows: H Difda → H Transpluto RA 142.3607 88×φ golden (3.56) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: H Vindemiatrix → H Transpluto Dec 0.0836 conj (52.05) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - same body: S Transpluto → J Transpluto Dec 3.3268 3.33333 ninth (loose) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien
+  - top rows: S Jupiter → J Transpluto RA 0.5464 conj (40.42) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+  - top rows: S Sun → J Transpluto Dec 29.0383 φ^7 phi power (94.73) — also: 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien
+  - star rows: J Galactic Centre → J Transpluto Dec 42.0608 26×φ golden (56.30) — also: 7 Motazzen / Paul O'Brien
+    - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
+- **Rahu**
+  - star rows: H Galactic Centre → H Rahu RA 129.9812 130 whole (0.34) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
+  - star rows: H Scheat → H Rahu RA 150.4968 93×φ golden (15.53) — also: 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+  - same body: S Rahu → J Rahu Dec 36.0170 36 whole (2.28) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Deneb → J Rahu Dec 21.9928 22 whole (40.82) — also: 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - star rows: J Scheat → J Rahu RA 110.9886 10×φ^5 phi power (71.11) — also: 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+- **Saturn**
+  - star rows: H Orion Nebula Cluster → H Saturn RA 165.0217 102×φ golden (20.43) — also: 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - star rows: J Orion Nebula Cluster → J Saturn RA 16.0108 16 whole (21.03) — also: 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+- **Chiron**
+  - star rows: H Orion Nebula Cluster → H Chiron RA 86.9988 87 whole (88.77) — also: 1 Fire Flyer / Richie McLernon, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - top rows: S Moon → J Chiron RA 75.0037 75 whole (66.30) — also: 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Scheat → J Chiron Dec 45.0175 45 whole (1.52) — also: 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+  - star rows: J Vindemiatrix → J Chiron RA 69.0110 69 whole (20.37) — only
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+- **Juno**
+  - star rows: H Orion Nebula Cluster → H Juno RA 103.0043 103 whole (61.35) — also: 1 Fire Flyer / Richie McLernon, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - star rows: H Orion Nebula Cluster → H Juno Dec 0.2095 conj (9.10) — also: 1 Fire Flyer / Richie McLernon, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - same body: S Juno → J Juno RA 133.5991 133.333 ninth (loose) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy
+  - top rows: S Jupiter → J Juno Dec 0.2374 conj (4.36) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder
+  - star rows: J Rigel → J Juno RA 1.0043 1 whole (61.37) — also: 1 Fire Flyer / Richie McLernon
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+- **Quaoar**
+  - star rows: H Orion Nebula Cluster → H Quaoar RA 171.9886 172 whole (18.28) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - star rows: J Zubenelgenubi → J Quaoar RA 25.0051 25 whole (55.40) — also: 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+- **Venus**
+  - star rows: H Vindemiatrix → H Venus RA 177.7566 177.778 ninth (98.34) — also: 1 Fire Flyer / Richie McLernon
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - same body: S Venus → J Venus RA 144.5527 144.444 ninth (loose) — also: 2 Lynx De Thaix / Gavin Sheehan, 6 So You Know / Tom Bellamy
+  - star rows: J Algol → J Venus Dec 23.9829 24 whole (2.09) — also: 1 Fire Flyer / Richie McLernon, 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - star rows: J Pleiades → J Venus RA 0.8858 conj (16.76) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: J Scheat → J Venus Dec 11.1107 11.1111 ninth (99.33) — also: 6 So You Know / Tom Bellamy
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+  - star rows: J Vindemiatrix → J Venus Dec 6.0095 6 whole (27.48) — also: 1 Fire Flyer / Richie McLernon
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - star rows: J Zubenelgenubi → J Venus Dec 33.0128 33 whole (12.85) — also: 1 Fire Flyer / Richie McLernon, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+- **Makemake**
+  - star rows: H Vindemiatrix → H Makemake RA 0.0433 conj (94.31) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - same body: S Makemake → J Makemake Dec 12.2841 12.2222 ninth (loose) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Deneb Algedi → J Makemake Dec 47.9840 48 whole (4.04) — also: 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: J Galactic Centre → J Makemake RA 86.9872 87 whole (12.95) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
+- **Mars**
+  - same body: S Mars → J Mars RA 111.4004 111.111 ninth (loose) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+  - same body: S Mars → J Mars Dec 42.9755 43 whole (loose) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Deneb → J Mars RA 54.9901 55 whole (25.69) — also: 1 Fire Flyer / Richie McLernon
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+- **Pallas**
+  - same body: S Pallas → J Pallas RA 129.0003 129 whole (96.65) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan
+  - same body: S Pallas → J Pallas Dec 45.0175 45 whole (1.62) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan
+  - star rows: J Scheat → J Pallas Dec 3.3334 3.33333 ninth (98.90) — only
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+- **Gonggong**
+  - star rows: J Orion Nebula Cluster → J Gonggong RA 111.0189 111 whole (0.31) — also: 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
 
 ## 6 So You Know / Tom Bellamy
 ### L1 same bodies
@@ -1141,66 +1946,110 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - S Quaoar → J Quaoar RA 42.3162 10×φ^3 phi power (loose)
 ### L2 what lands on each same body
 - **H Sun** (same body: S Sun → H Sun RA 166.8735 166.667 ninth (loose))
-  - star rows: H Orion Nebula Cluster → H Sun Dec 16.9803 17 whole (0.02) [Sun]
+  - star rows: H Orion Nebula Cluster → H Sun Dec 16.9803 17 whole (0.02)
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
   - other chart, same body: S Sun → J Sun RA 41.9791 42 whole (loose)
-  - other chart, star rows: J Deneb → J Sun RA 130.9833 131 whole (2.77) [Sun]
-  - other chart, star rows: J Deneb → J Sun Dec 45.0175 45 whole (1.54) [Sun]
+  - other chart, star rows: J Deneb → J Sun RA 130.9833 131 whole (2.77)
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - other chart, star rows: J Deneb → J Sun Dec 45.0175 45 whole (1.54)
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
 - **H Mercury** (same body: S Mercury → H Mercury Dec 26.1253 10×φ^2 phi power (loose))
-  - star rows: H Difda → H Mercury RA 19.0125 19 whole (14.09) [Sun]
-  - star rows: H Sadalsuud → H Mercury RA 67.0182 67 whole (0.78) [Moon]
+  - star rows: H Difda → H Mercury RA 19.0125 19 whole (14.09)
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: H Sadalsuud → H Mercury RA 67.0182 67 whole (0.78)
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
 - **H Venus** (same body: S Venus → H Venus RA 165.8219 166.667 ninth (loose))
-  - star rows: H Deneb Algedi → H Venus RA 67.9523 42×φ golden (70.69) [Sun]
-  - star rows: H Pleiades → H Venus Dec 11.0151 11 whole (5.95) [Moon]
-  - star rows: H Scheat → H Venus Dec 14.9912 15 whole (31.43) [Sun]
-  - star rows: H Zubenelgenubi → H Venus RA 171.9874 172 whole (13.70) [Moon, Sun]
-  - other chart, star rows: J Orion Nebula Cluster → J Venus RA 133.0121 133 whole (15.60) [Sun]
+  - star rows: H Deneb Algedi → H Venus RA 67.9523 42×φ golden (70.69)
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: H Pleiades → H Venus Dec 11.0151 11 whole (5.95)
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: H Scheat → H Venus Dec 14.9912 15 whole (31.43)
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+  - star rows: H Zubenelgenubi → H Venus RA 171.9874 172 whole (13.70)
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+  - other chart, star rows: J Orion Nebula Cluster → J Venus RA 133.0121 133 whole (15.60)
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
 - **H Juno** (same body: S Juno → H Juno Dec 7.0796 7.07 sqrt2 (loose))
-  - star rows: H Deneb Algedi → H Juno RA 62.9918 63 whole (34.81) [Sun]
-  - other chart, star rows: J Difda → J Juno RA 152.9913 153 whole (32.08) [Sun]
-  - other chart, star rows: J Orion Nebula Cluster → J Juno Dec 0.0019 conj (98.76) [Sun]
-  - other chart, star rows: J Sadalsuud → J Juno RA 104.9828 105 whole (1.93) [Moon]
-  - other chart, star rows: J Sadalsuud → J Juno Dec 0.1827 conj (15.29) [Moon]
+  - star rows: H Deneb Algedi → H Juno RA 62.9918 63 whole (34.81)
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - other chart, star rows: J Difda → J Juno RA 152.9913 153 whole (32.08)
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - other chart, star rows: J Orion Nebula Cluster → J Juno Dec 0.0019 conj (98.76)
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - other chart, star rows: J Sadalsuud → J Juno RA 104.9828 105 whole (1.93)
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+  - other chart, star rows: J Sadalsuud → J Juno Dec 0.1827 conj (15.29)
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
 - **H Vesta** (same body: S Vesta → H Vesta RA 144.8254 144.444 ninth (loose))
   - other chart, same body: S Vesta → J Vesta RA 77.7661 77.7778 ninth (loose)
 - **H Gonggong** (same body: S Gonggong → H Gonggong Dec 0.9819 1 whole (0.92))
-  - other chart, star rows: J Difda → J Gonggong Dec 0.9842 1 whole (4.49) [Sun]
+  - other chart, star rows: J Difda → J Gonggong Dec 0.9842 1 whole (4.49)
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
 - **J Sun** (same body: S Sun → J Sun RA 41.9791 42 whole (loose))
-  - star rows: J Deneb → J Sun RA 130.9833 131 whole (2.77) [Sun]
-  - star rows: J Deneb → J Sun Dec 45.0175 45 whole (1.54) [Sun]
+  - star rows: J Deneb → J Sun RA 130.9833 131 whole (2.77)
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - star rows: J Deneb → J Sun Dec 45.0175 45 whole (1.54)
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
   - other chart, same body: S Sun → H Sun RA 166.8735 166.667 ninth (loose)
-  - other chart, star rows: H Orion Nebula Cluster → H Sun Dec 16.9803 17 whole (0.02) [Sun]
+  - other chart, star rows: H Orion Nebula Cluster → H Sun Dec 16.9803 17 whole (0.02)
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
 - **J Mars** (same body: S Mars → J Mars RA 28.9795 29 whole (loose))
-  - other chart, star rows: H Deneb Algedi → H Mars Dec 41.0138 41 whole (9.70) [Sun]
+  - other chart, star rows: H Deneb Algedi → H Mars Dec 41.0138 41 whole (9.70)
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
 - **J Jupiter** (same body: S Jupiter → J Jupiter Dec 29.0490 φ^7 phi power (loose))
-  - top rows: S Sun → J Jupiter RA 0.0166 conj (97.80) [Jupiter, Sun]
-  - top rows: S Saturn → J Jupiter Dec 16.0005 16 whole (95.24) [Jupiter]
-  - top rows: S Haumea → J Jupiter RA 0.6065 conj (35.48) [Jupiter, Sun]
-  - top rows: S Quaoar → J Jupiter Dec 0.0968 conj (45.89) [Jupiter]
-  - star rows: J Algol → J Jupiter Dec 56.0116 56 whole (17.59) [Moon]
-  - star rows: S Deneb → J Jupiter RA 89.0153 89 whole (5.52) [Sun]
-  - star rows: J Orion Nebula Cluster → J Jupiter RA 137.5192 85×φ golden (33.23) [Sun]
-  - star rows: S Vindemiatrix → J Jupiter Dec 26.0171 26 whole (2.13) [Moon]
-  - star rows: S Zubenelgenubi → J Jupiter RA 1.3714 conj (0.73) [Moon, Sun]
-  - star rows: S Zubenelgenubi → J Jupiter Dec 0.9839 1 whole (3.80) [Moon, Sun]
-  - other chart, top rows: S Rahu → H Jupiter RA 0.3471 conj (59.07) [Jupiter]
-  - other chart, star rows: H Orion Nebula Cluster → H Jupiter RA 114.8836 71×φ golden (81.26) [Sun]
-  - other chart, star rows: H Scheat → H Jupiter RA 17.0054 17 whole (53.14) [Sun]
-  - other chart, star rows: H Vindemiatrix → H Jupiter RA 133.3876 133.333 ninth (93.49) [Moon]
+  - top rows: S Sun → J Jupiter RA 0.0166 conj (97.80)
+  - top rows: S Saturn → J Jupiter Dec 16.0005 16 whole (95.24)
+  - top rows: S Haumea → J Jupiter RA 0.6065 conj (35.48)
+    - source line: S Sun → Haumea RA 0.6231 conj (34.18)
+  - top rows: S Quaoar → J Jupiter Dec 0.0968 conj (45.89)
+  - star rows: J Algol → J Jupiter Dec 56.0116 56 whole (17.59)
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - star rows: S Deneb → J Jupiter RA 89.0153 89 whole (5.52)
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - star rows: J Orion Nebula Cluster → J Jupiter RA 137.5192 85×φ golden (33.23)
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - star rows: S Vindemiatrix → J Jupiter Dec 26.0171 26 whole (2.13)
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - star rows: S Zubenelgenubi → J Jupiter RA 1.3714 conj (0.73)
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+  - star rows: S Zubenelgenubi → J Jupiter Dec 0.9839 1 whole (3.80)
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+  - other chart, top rows: S Rahu → H Jupiter RA 0.3471 conj (59.07)
+  - other chart, star rows: H Orion Nebula Cluster → H Jupiter RA 114.8836 71×φ golden (81.26)
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - other chart, star rows: H Scheat → H Jupiter RA 17.0054 17 whole (53.14)
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+  - other chart, star rows: H Vindemiatrix → H Jupiter RA 133.3876 133.333 ninth (93.49)
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
 - **J Chiron** (same body: S Chiron → J Chiron RA 140.8208 141.4 sqrt2 (loose))
-  - star rows: J Difda → J Chiron RA 155.3491 96×φ golden (20.04) [Sun]
-  - other chart, top rows: S Jupiter → H Chiron RA 138.9991 139 whole (91.28) [Jupiter]
+  - star rows: J Difda → J Chiron RA 155.3491 96×φ golden (20.04)
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - other chart, top rows: S Jupiter → H Chiron RA 138.9991 139 whole (91.28)
 - **J Ceres** (same body: S Ceres → J Ceres Dec 0.9856 1 whole (7.83))
-  - star rows: J Deneb → J Ceres RA 173.1376 107×φ golden (56.87) [Sun]
-  - star rows: J Deneb → J Ceres Dec 22.0103 22 whole (23.58) [Sun]
-  - star rows: J Scheat → J Ceres RA 137.5514 85×φ golden (18.40) [Sun]
-  - other chart, star rows: H Sadalsuud → H Ceres Dec 7.9881 8 whole (16.41) [Moon]
+  - star rows: J Deneb → J Ceres RA 173.1376 107×φ golden (56.87)
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - star rows: J Deneb → J Ceres Dec 22.0103 22 whole (23.58)
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - star rows: J Scheat → J Ceres RA 137.5514 85×φ golden (18.40)
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+  - other chart, star rows: H Sadalsuud → H Ceres Dec 7.9881 8 whole (16.41)
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
 - **J Vesta** (same body: S Vesta → J Vesta RA 77.7661 77.7778 ninth (loose))
   - other chart, same body: S Vesta → H Vesta RA 144.8254 144.444 ninth (loose)
 - **J Quaoar** (same body: S Quaoar → J Quaoar RA 42.3162 10×φ^3 phi power (loose))
-  - other chart, star rows: H Difda → H Quaoar RA 95.0187 95 whole (0.43) [Sun]
-  - other chart, star rows: H Pleiades → H Quaoar RA 140.9911 141 whole (30.81) [Moon]
-  - other chart, star rows: H Sadalsuud → H Quaoar RA 47.0130 47 whole (12.42) [Moon]
-### L3 the seven cases (L5 field tag on each)
+  - other chart, star rows: H Difda → H Quaoar RA 95.0187 95 whole (0.43)
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - other chart, star rows: H Pleiades → H Quaoar RA 140.9911 141 whole (30.81)
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - other chart, star rows: H Sadalsuud → H Quaoar RA 47.0130 47 whole (12.42)
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+### L3 matches
 - **1. same body on both charts**
   - Sun — only
     - S Sun → H Sun RA 166.8735 166.667 ninth (loose)
@@ -1227,10 +2076,30 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - **4. circle divisions**
   - 1 = 360/360 — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
     - S Gonggong → H Gonggong Dec 0.9819 1 whole (0.92)
-  - 30 = 360/12 — only
+  - 6 = 360/60 — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
+    - H Deneb Algedi → H Ketu Dec 5.9897 6 whole (23.44)
+  - 18 = 360/20 — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
+    - H Difda → H Neptune RA 18.0099 18 whole (25.53)
+  - 2 = 360/180 — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
+    - H Pleiades → H Rahu Dec 1.9847 2 whole (5.55)
+  - 30 = 360/12 — also: 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
     - H Sadalsuud → H Neptune RA 29.9958 30 whole (62.77)
+  - 8 = 360/45 — also: 7 Motazzen / Paul O'Brien
+    - H Sadalsuud → H Ceres Dec 7.9881 8 whole (16.41)
+  - 15 = 360/24 — also: 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
+    - H Scheat → H Venus Dec 14.9912 15 whole (31.43)
   - 1 = 360/360 — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
     - S Ceres → J Ceres Dec 0.9856 1 whole (7.83)
+  - 45 = 360/8 — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
+    - J Deneb → J Sun Dec 45.0175 45 whole (1.54)
+  - 1 = 360/360 — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
+    - J Difda → J Gonggong Dec 0.9842 1 whole (4.49)
+  - 8 = 360/45 — also: 7 Motazzen / Paul O'Brien
+    - J Orion Nebula Cluster → J Pallas Dec 8.0060 8 whole (49.13)
+  - 5 = 360/72 — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan
+    - J Sadalsuud → J Saturn Dec 5.0070 5 whole (42.24)
+  - 1 = 360/360 — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
+    - S Zubenelgenubi → J Jupiter Dec 0.9839 1 whole (3.80)
 - **5. same number in more than one place**
   - 166.667 ninth — also: 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn
     - S Sun → H Sun RA 166.8735 166.667 ninth (loose)
@@ -1241,102 +2110,221 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 1 whole — also: 8 The Bellhop / Freddie Mitchell
     - S Gonggong → H Gonggong Dec 0.9819 1 whole (0.92)
     - S Ceres → J Ceres Dec 0.9856 1 whole (7.83)
+    - J Difda → J Gonggong Dec 0.9842 1 whole (4.49)
+    - S Zubenelgenubi → J Jupiter Dec 0.9839 1 whole (3.80)
   - 71×φ golden — only
     - H Jupiter → H star Orion Nebula Cluster RA 114.8836 71×φ golden (81.26)
     - H Orion Nebula Cluster → H Jupiter RA 114.8836 71×φ golden (81.26)
   - 17 whole — also: 1 Fire Flyer / Richie McLernon
     - H Jupiter → H star Scheat RA 17.0054 17 whole (53.14)
+    - H Orion Nebula Cluster → H Sun Dec 16.9803 17 whole (0.02)
     - H Scheat → H Jupiter RA 17.0054 17 whole (53.14)
   - 133.333 ninth — also: 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
     - H Jupiter → H star Vindemiatrix RA 133.3876 133.333 ninth (93.49)
     - H Vindemiatrix → H Jupiter RA 133.3876 133.333 ninth (93.49)
-- **6. star and sky line on one body**: none
-- **7. centres meeting**
-  - Ketu: Jupiter, Sun — only
-    - [Jupiter] H Jupiter → H Ketu RA 79.2805 49×φ golden (81.38)
-    - [Sun] H Deneb Algedi → H Ketu Dec 5.9897 6 whole (23.44)
-  - Chiron: Jupiter, Sun — only
-    - [Jupiter] S Jupiter → H Chiron RA 138.9991 139 whole (91.28)
-    - [Sun] J Difda → J Chiron RA 155.3491 96×φ golden (20.04)
-  - Sedna: Jupiter, Moon, Sun — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
-    - [Jupiter] S Jupiter → H Sedna RA 88.9992 89 whole (92.61)
-    - [Jupiter] H Capella → H Sedna RA 21.0393 13×φ golden (72.37)
-    - [Moon] H Algol → H Sedna RA 11.0930 φ^5 phi power (89.94)
-    - [Moon] H Pleiades → H Sedna RA 1.2625 conj (2.51)
-    - [Moon] J Rigel → J Sedna RA 33.9800 34 whole (0.00)
-    - [Sun] S Sun → H Sedna Dec 24.1439 24.14 silver (97.07)
-  - Jupiter: Jupiter, Moon, Sun — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
-    - [Jupiter] S Rahu → H Jupiter RA 0.3471 conj (59.07)
-    - [Jupiter] S Sun → J Jupiter RA 0.0166 conj (97.80)
-    - [Jupiter] S Saturn → J Jupiter Dec 16.0005 16 whole (95.24)
-    - [Jupiter] S Haumea → J Jupiter RA 0.6065 conj (35.48)
-    - [Jupiter] S Quaoar → J Jupiter Dec 0.0968 conj (45.89)
-    - [Moon] H Vindemiatrix → H Jupiter RA 133.3876 133.333 ninth (93.49)
-    - [Moon] J Algol → J Jupiter Dec 56.0116 56 whole (17.59)
-    - [Moon] S Vindemiatrix → J Jupiter Dec 26.0171 26 whole (2.13)
-    - [Moon] S Zubenelgenubi → J Jupiter RA 1.3714 conj (0.73)
-    - [Moon] S Zubenelgenubi → J Jupiter Dec 0.9839 1 whole (3.80)
-    - [Sun] H Orion Nebula Cluster → H Jupiter RA 114.8836 71×φ golden (81.26)
-    - [Sun] H Scheat → H Jupiter RA 17.0054 17 whole (53.14)
-    - [Sun] S Sun → J Jupiter RA 0.0166 conj (97.80)
-    - [Sun] S Haumea → J Jupiter RA 0.6065 conj (35.48)
-    - [Sun] S Deneb → J Jupiter RA 89.0153 89 whole (5.52)
-    - [Sun] J Orion Nebula Cluster → J Jupiter RA 137.5192 85×φ golden (33.23)
-    - [Sun] S Zubenelgenubi → J Jupiter RA 1.3714 conj (0.73)
-    - [Sun] S Zubenelgenubi → J Jupiter Dec 0.9839 1 whole (3.80)
-  - Venus: Moon, Sun — also: 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
-    - [Moon] H Pleiades → H Venus Dec 11.0151 11 whole (5.95)
-    - [Moon] H Zubenelgenubi → H Venus RA 171.9874 172 whole (13.70)
-    - [Sun] H Deneb Algedi → H Venus RA 67.9523 42×φ golden (70.69)
-    - [Sun] H Scheat → H Venus Dec 14.9912 15 whole (31.43)
-    - [Sun] H Zubenelgenubi → H Venus RA 171.9874 172 whole (13.70)
-    - [Sun] J Orion Nebula Cluster → J Venus RA 133.0121 133 whole (15.60)
-  - Juno: Moon, Sun — also: 7 Motazzen / Paul O'Brien
-    - [Moon] J Sadalsuud → J Juno RA 104.9828 105 whole (1.93)
-    - [Moon] J Sadalsuud → J Juno Dec 0.1827 conj (15.29)
-    - [Sun] H Deneb Algedi → H Juno RA 62.9918 63 whole (34.81)
-    - [Sun] J Difda → J Juno RA 152.9913 153 whole (32.08)
-    - [Sun] J Orion Nebula Cluster → J Juno Dec 0.0019 conj (98.76)
-  - Mercury: Moon, Sun — also: 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
-    - [Moon] H Sadalsuud → H Mercury RA 67.0182 67 whole (0.78)
-    - [Sun] H Difda → H Mercury RA 19.0125 19 whole (14.09)
-  - Neptune: Moon, Sun — also: 3 Donnie Azoff / Isabelle Ryder
-    - [Moon] H Pleiades → H Neptune RA 63.9823 64 whole (1.33)
-    - [Moon] H Sadalsuud → H Neptune RA 29.9958 30 whole (62.77)
-    - [Sun] H Difda → H Neptune RA 18.0099 18 whole (25.53)
-  - Haumea: Moon, Sun — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
-    - [Moon] H Sadalsuud → H Haumea RA 106.9839 107 whole (3.74)
-    - [Sun] H Difda → H Haumea RA 154.9896 155 whole (23.06)
-    - [Sun] J Deneb → J Haumea RA 118.9884 119 whole (17.78)
-  - Quaoar: Moon, Sun — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
-    - [Moon] H Pleiades → H Quaoar RA 140.9911 141 whole (30.81)
-    - [Moon] H Sadalsuud → H Quaoar RA 47.0130 47 whole (12.42)
-    - [Sun] H Difda → H Quaoar RA 95.0187 95 whole (0.43)
-  - Pluto: Moon, Sun — only
-    - [Moon] H Rigel → H Pluto Dec 14.0181 14 whole (0.93)
-    - [Sun] H Orion Nebula Cluster → H Pluto RA 145.0096 145 whole (26.96)
-    - [Sun] J Orion Nebula Cluster → J Pluto RA 153.0119 153 whole (16.21)
-  - Rahu: Moon, Sun — also: 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
-    - [Moon] H Pleiades → H Rahu Dec 1.9847 2 whole (5.55)
-    - [Moon] H Sadalsuud → H Rahu RA 106.7668 66×φ golden (7.66)
-    - [Moon] J Zubenelgenubi → J Rahu RA 0.4208 conj (51.76)
-    - [Sun] J Zubenelgenubi → J Rahu RA 0.4208 conj (51.76)
-  - Ceres: Moon, Sun — also: 7 Motazzen / Paul O'Brien
-    - [Moon] H Sadalsuud → H Ceres Dec 7.9881 8 whole (16.41)
-    - [Sun] J Deneb → J Ceres RA 173.1376 107×φ golden (56.87)
-    - [Sun] J Deneb → J Ceres Dec 22.0103 22 whole (23.58)
-    - [Sun] J Scheat → J Ceres RA 137.5514 85×φ golden (18.40)
-  - Orcus: Moon, Sun — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn
-    - [Moon] J Rigel → J Orcus Dec 9.7085 6×φ golden (98.32)
-    - [Sun] H Scheat → H Orcus RA 168.9951 169 whole (56.98)
-  - Transpluto: Moon, Sun — also: 1 Fire Flyer / Richie McLernon
-    - [Moon] H Vindemiatrix → H Transpluto Dec 0.1950 conj (12.26)
-    - [Sun] J Scheat → J Transpluto RA 160.1913 99×φ golden (66.70)
-  - Eris: Jupiter, Moon, Sun — also: 2 Lynx De Thaix / Gavin Sheehan
-    - [Jupiter] J Capella → J Eris RA 55.9989 56 whole (89.75)
-    - [Moon] J Rigel → J Eris Dec 0.1314 conj (31.57)
-    - [Sun] S Sun → J Eris RA 161.8162 100×φ^1 phi power (96.86)
-    - [Sun] J Deneb → J Eris RA 72.8120 45×φ golden (97.19)
+  - 89 whole — also: 1 Fire Flyer / Richie McLernon
+    - S Jupiter → H Sedna RA 88.9992 89 whole (92.61)
+    - S Deneb → J Jupiter RA 89.0153 89 whole (5.52)
+  - 8 whole — only
+    - H Sadalsuud → H Ceres Dec 7.9881 8 whole (16.41)
+    - J Orion Nebula Cluster → J Pallas Dec 8.0060 8 whole (49.13)
+  - 56 whole — only
+    - J Algol → J Jupiter Dec 56.0116 56 whole (17.59)
+    - J Capella → J Eris RA 55.9989 56 whole (89.75)
+  - 153 whole — only
+    - J Difda → J Juno RA 152.9913 153 whole (32.08)
+    - J Orion Nebula Cluster → J Pluto RA 153.0119 153 whole (16.21)
+  - 85×φ golden — only
+    - J Orion Nebula Cluster → J Jupiter RA 137.5192 85×φ golden (33.23)
+    - J Scheat → J Ceres RA 137.5514 85×φ golden (18.40)
+### L4 every natal body
+- **Sun**
+  - same body: S Sun → H Sun RA 166.8735 166.667 ninth (loose) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
+  - star rows: H Orion Nebula Cluster → H Sun Dec 16.9803 17 whole (0.02) — also: 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - same body: S Sun → J Sun RA 41.9791 42 whole (loose) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Deneb → J Sun RA 130.9833 131 whole (2.77) — only
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - star rows: J Deneb → J Sun Dec 45.0175 45 whole (1.54) — only
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+- **Mercury**
+  - same body: S Mercury → H Mercury Dec 26.1253 10×φ^2 phi power (loose) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+  - star rows: H Difda → H Mercury RA 19.0125 19 whole (14.09) — also: 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: H Sadalsuud → H Mercury RA 67.0182 67 whole (0.78) — also: 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+- **Venus**
+  - same body: S Venus → H Venus RA 165.8219 166.667 ninth (loose) — also: 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn
+  - star rows: H Deneb Algedi → H Venus RA 67.9523 42×φ golden (70.69) — also: 2 Lynx De Thaix / Gavin Sheehan, 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: H Pleiades → H Venus Dec 11.0151 11 whole (5.95) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: H Scheat → H Venus Dec 14.9912 15 whole (31.43) — also: 5 He's A Latchico / Caoilin Quinn
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+  - star rows: H Zubenelgenubi → H Venus RA 171.9874 172 whole (13.70) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+  - star rows: J Orion Nebula Cluster → J Venus RA 133.0121 133 whole (15.60) — also: 2 Lynx De Thaix / Gavin Sheehan, 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+- **Juno**
+  - same body: S Juno → H Juno Dec 7.0796 7.07 sqrt2 (loose) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn
+  - star rows: H Deneb Algedi → H Juno RA 62.9918 63 whole (34.81) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: J Difda → J Juno RA 152.9913 153 whole (32.08) — also: 1 Fire Flyer / Richie McLernon
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: J Orion Nebula Cluster → J Juno Dec 0.0019 conj (98.76) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - star rows: J Sadalsuud → J Juno RA 104.9828 105 whole (1.93) — only
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+  - star rows: J Sadalsuud → J Juno Dec 0.1827 conj (15.29) — only
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+- **Vesta**
+  - same body: S Vesta → H Vesta RA 144.8254 144.444 ninth (loose) — also: 2 Lynx De Thaix / Gavin Sheehan, 7 Motazzen / Paul O'Brien
+  - same body: S Vesta → J Vesta RA 77.7661 77.7778 ninth (loose) — also: 2 Lynx De Thaix / Gavin Sheehan, 7 Motazzen / Paul O'Brien
+- **Gonggong**
+  - same body: S Gonggong → H Gonggong Dec 0.9819 1 whole (0.92) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Difda → J Gonggong Dec 0.9842 1 whole (4.49) — also: 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+- **Ketu**
+  - T1: H Jupiter → H Ketu RA 79.2805 49×φ golden (81.38) — also: 8 The Bellhop / Freddie Mitchell
+  - star rows: H Deneb Algedi → H Ketu Dec 5.9897 6 whole (23.44) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+- **Jupiter**
+  - T1: H Jupiter → H star Orion Nebula Cluster RA 114.8836 71×φ golden (81.26) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+  - T1: H Jupiter → H star Scheat RA 17.0054 17 whole (53.14) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+  - T1: H Jupiter → H star Vindemiatrix RA 133.3876 133.333 ninth (93.49) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+  - top rows: S Rahu → H Jupiter RA 0.3471 conj (59.07) — also: 2 Lynx De Thaix / Gavin Sheehan, 8 The Bellhop / Freddie Mitchell
+  - star rows: H Orion Nebula Cluster → H Jupiter RA 114.8836 71×φ golden (81.26) — also: 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - star rows: H Scheat → H Jupiter RA 17.0054 17 whole (53.14) — also: 1 Fire Flyer / Richie McLernon
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+  - star rows: H Vindemiatrix → H Jupiter RA 133.3876 133.333 ninth (93.49) — only
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - same body: S Jupiter → J Jupiter Dec 29.0490 φ^7 phi power (loose) — also: 1 Fire Flyer / Richie McLernon, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+  - top rows: S Sun → J Jupiter RA 0.0166 conj (97.80) — also: 2 Lynx De Thaix / Gavin Sheehan, 8 The Bellhop / Freddie Mitchell
+  - top rows: S Saturn → J Jupiter Dec 16.0005 16 whole (95.24) — only
+  - top rows: S Haumea → J Jupiter RA 0.6065 conj (35.48) — also: 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Sun → Haumea RA 0.6231 conj (34.18)
+  - top rows: S Quaoar → J Jupiter Dec 0.0968 conj (45.89) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+  - star rows: J Algol → J Jupiter Dec 56.0116 56 whole (17.59) — also: 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - star rows: S Deneb → J Jupiter RA 89.0153 89 whole (5.52) — also: 2 Lynx De Thaix / Gavin Sheehan, 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - star rows: J Orion Nebula Cluster → J Jupiter RA 137.5192 85×φ golden (33.23) — also: 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - star rows: S Vindemiatrix → J Jupiter Dec 26.0171 26 whole (2.13) — only
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - star rows: S Zubenelgenubi → J Jupiter RA 1.3714 conj (0.73) — also: 1 Fire Flyer / Richie McLernon, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+  - star rows: S Zubenelgenubi → J Jupiter Dec 0.9839 1 whole (3.80) — also: 1 Fire Flyer / Richie McLernon, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+- **Chiron**
+  - top rows: S Jupiter → H Chiron RA 138.9991 139 whole (91.28) — also: 7 Motazzen / Paul O'Brien
+  - same body: S Chiron → J Chiron RA 140.8208 141.4 sqrt2 (loose) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
+  - star rows: J Difda → J Chiron RA 155.3491 96×φ golden (20.04) — only
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+- **Sedna**
+  - top rows: S Jupiter → H Sedna RA 88.9992 89 whole (92.61) — also: 2 Lynx De Thaix / Gavin Sheehan
+  - top rows: S Sun → H Sedna Dec 24.1439 24.14 silver (97.07) — also: 2 Lynx De Thaix / Gavin Sheehan
+  - star rows: H Algol → H Sedna RA 11.0930 φ^5 phi power (89.94) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - star rows: H Capella → H Sedna RA 21.0393 13×φ golden (72.37) — also: 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - star rows: H Pleiades → H Sedna RA 1.2625 conj (2.51) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: J Rigel → J Sedna RA 33.9800 34 whole (0.00) — also: 1 Fire Flyer / Richie McLernon
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+- **Mars**
+  - star rows: H Deneb Algedi → H Mars Dec 41.0138 41 whole (9.70) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - same body: S Mars → J Mars RA 28.9795 29 whole (loose) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
+- **Neptune**
+  - star rows: H Difda → H Neptune RA 18.0099 18 whole (25.53) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: H Pleiades → H Neptune RA 63.9823 64 whole (1.33) — only
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: H Sadalsuud → H Neptune RA 29.9958 30 whole (62.77) — also: 1 Fire Flyer / Richie McLernon
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+- **Haumea**
+  - star rows: H Difda → H Haumea RA 154.9896 155 whole (23.06) — also: 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: H Sadalsuud → H Haumea RA 106.9839 107 whole (3.74) — only
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+  - star rows: J Deneb → J Haumea RA 118.9884 119 whole (17.78) — only
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+- **Quaoar**
+  - star rows: H Difda → H Quaoar RA 95.0187 95 whole (0.43) — also: 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: H Pleiades → H Quaoar RA 140.9911 141 whole (30.81) — only
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: H Sadalsuud → H Quaoar RA 47.0130 47 whole (12.42) — also: 7 Motazzen / Paul O'Brien
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+  - same body: S Quaoar → J Quaoar RA 42.3162 10×φ^3 phi power (loose) — also: 2 Lynx De Thaix / Gavin Sheehan, 7 Motazzen / Paul O'Brien
+- **Pluto**
+  - star rows: H Orion Nebula Cluster → H Pluto RA 145.0096 145 whole (26.96) — also: 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - star rows: H Rigel → H Pluto Dec 14.0181 14 whole (0.93) — also: 3 Donnie Azoff / Isabelle Ryder, 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+  - star rows: J Orion Nebula Cluster → J Pluto RA 153.0119 153 whole (16.21) — also: 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+- **Rahu**
+  - star rows: H Pleiades → H Rahu Dec 1.9847 2 whole (5.55) — also: 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: H Sadalsuud → H Rahu RA 106.7668 66×φ golden (7.66) — only
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+  - star rows: J Zubenelgenubi → J Rahu RA 0.4208 conj (51.76) — also: 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+- **Ceres**
+  - star rows: H Sadalsuud → H Ceres Dec 7.9881 8 whole (16.41) — only
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+  - same body: S Ceres → J Ceres Dec 0.9856 1 whole (7.83) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Deneb → J Ceres RA 173.1376 107×φ golden (56.87) — also: 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - star rows: J Deneb → J Ceres Dec 22.0103 22 whole (23.58) — also: 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - star rows: J Scheat → J Ceres RA 137.5514 85×φ golden (18.40) — only
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+- **Orcus**
+  - star rows: H Scheat → H Orcus RA 168.9951 169 whole (56.98) — also: 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+  - star rows: J Rigel → J Orcus Dec 9.7085 6×φ golden (98.32) — also: 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+- **Transpluto**
+  - star rows: H Vindemiatrix → H Transpluto Dec 0.1950 conj (12.26) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - star rows: J Scheat → J Transpluto RA 160.1913 99×φ golden (66.70) — also: 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+- **Eris**
+  - top rows: S Sun → J Eris RA 161.8162 100×φ^1 phi power (96.86) — also: 2 Lynx De Thaix / Gavin Sheehan
+  - star rows: J Capella → J Eris RA 55.9989 56 whole (89.75) — also: 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - star rows: J Deneb → J Eris RA 72.8120 45×φ golden (97.19) — only
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - star rows: J Rigel → J Eris Dec 0.1314 conj (31.57) — also: 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+- **Makemake**
+  - star rows: J Algol → J Makemake RA 127.0051 127 whole (55.14) — also: 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - star rows: J Sadalsuud → J Makemake RA 148.8418 92×φ golden (21.45) — also: 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+- **Pallas**
+  - star rows: J Orion Nebula Cluster → J Pallas Dec 8.0060 8 whole (49.13) — also: 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+- **Saturn**
+  - star rows: J Sadalsuud → J Saturn Dec 5.0070 5 whole (42.24) — also: 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+  - star rows: J Vindemiatrix → J Saturn RA 144.4527 144.444 ninth (99.13) — also: 1 Fire Flyer / Richie McLernon, 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+- **Uranus**
+  - star rows: J Scheat → J Uranus Dec 50.1596 31×φ golden (96.74) — also: 1 Fire Flyer / Richie McLernon
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
 
 ## 7 Motazzen / Paul O'Brien
 ### L1 same bodies
@@ -1357,85 +2345,137 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - S Ketu → J Ketu Dec 9.9988 10 whole (88.74)
 ### L2 what lands on each same body
 - **H Mercury** (same body: S Mercury → H Mercury Dec 14.4415 14.4444 ninth (96.86))
-  - other chart, star rows: J Difda → J Mercury RA 163.0161 163 whole (3.81) [Sun]
-  - other chart, star rows: J Pleiades → J Mercury RA 151.0101 151 whole (24.37) [Moon]
-  - other chart, star rows: J Sadalsuud → J Mercury RA 115.0061 115 whole (48.42) [Moon]
+  - other chart, star rows: J Difda → J Mercury RA 163.0161 163 whole (3.81)
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - other chart, star rows: J Pleiades → J Mercury RA 151.0101 151 whole (24.37)
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - other chart, star rows: J Sadalsuud → J Mercury RA 115.0061 115 whole (48.42)
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
 - **H Uranus** (same body: S Uranus → H Uranus Dec 11.3014 7×φ golden (loose))
-  - body line: S Jupiter → Uranus RA 84.9993 85 whole (93.10)
-  - top rows: S Jupiter → H Uranus RA 122.9004 φ^10 phi power (72.45) [Jupiter]
-  - star rows: H Difda → H Uranus RA 13.3337 13.3333 ninth (99.53) [Sun]
-  - star rows: H Difda → H Uranus Dec 27.5008 17×φ golden (67.69) [Sun]
+  - sky line to Uranus: S Jupiter → Uranus RA 84.9993 85 whole (93.10)
+  - top rows: S Jupiter → H Uranus RA 122.9004 φ^10 phi power (72.45)
+  - star rows: H Difda → H Uranus RA 13.3337 13.3333 ninth (99.53)
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: H Difda → H Uranus Dec 27.5008 17×φ golden (67.69)
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
   - other chart, same body: S Uranus → J Uranus RA 140.9632 141.4 sqrt2 (loose)
-  - other chart, star rows: J Capella → J Uranus RA 158.0111 158 whole (19.65) [Jupiter]
+  - other chart, star rows: J Capella → J Uranus RA 158.0111 158 whole (19.65)
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
 - **H Neptune** (same body: S Neptune → H Neptune RA 16.6412 16.6667 ninth (loose))
-  - star rows: H Scheat → H Neptune RA 0.5547 conj (39.72) [Sun]
-  - other chart, star rows: J Deneb Algedi → J Neptune RA 41.4297 41.4 silver (92.09) [Sun]
-  - other chart, star rows: J Scheat → J Neptune Dec 50.0074 50 whole (39.77) [Sun]
+  - star rows: H Scheat → H Neptune RA 0.5547 conj (39.72)
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+  - other chart, star rows: J Deneb Algedi → J Neptune RA 41.4297 41.4 silver (92.09)
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - other chart, star rows: J Scheat → J Neptune Dec 50.0074 50 whole (39.77)
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
 - **H Ceres** (same body: S Ceres → H Ceres RA 16.1657 10×φ^1 phi power (loose))
-  - star rows: H Pleiades → H Ceres Dec 7.9971 8 whole (73.36) [Moon]
-  - other chart, star rows: J Algol → J Ceres RA 173.0185 173 whole (0.53) [Moon]
-  - other chart, star rows: J Orion Nebula Cluster → J Ceres Dec 11.9862 12 whole (9.75) [Sun]
+  - star rows: H Pleiades → H Ceres Dec 7.9971 8 whole (73.36)
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - other chart, star rows: J Algol → J Ceres RA 173.0185 173 whole (0.53)
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - other chart, star rows: J Orion Nebula Cluster → J Ceres Dec 11.9862 12 whole (9.75)
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
 - **H Eris** (same body: S Eris → H Eris RA 1.3392 1.33333 ninth (loose))
   - other chart, same body: S Eris → J Eris Dec 9.0168 9 whole (2.54)
-  - other chart, top rows: S Moon → J Eris Dec 0.1297 conj (32.23) [Moon]
+  - other chart, top rows: S Moon → J Eris Dec 0.1297 conj (32.23)
 - **J Jupiter** (same body: S Jupiter → J Jupiter Dec 4.1475 4.14 silver (loose))
-  - top rows: S Moon → J Jupiter Dec 18.8878 18.8889 ninth (99.21) [Jupiter, Moon]
-  - top rows: S Chiron → J Jupiter RA 133.3847 133.333 ninth (93.84) [Jupiter]
-  - top rows: S Eris → J Jupiter Dec 10.0007 10 whole (93.45) [Jupiter]
-  - top rows: S Quaoar → J Jupiter Dec 24.9982 25 whole (83.01) [Jupiter]
-  - top rows: S Transpluto → J Jupiter Dec 0.1188 conj (36.47) [Jupiter]
-  - star rows: J Orion Nebula Cluster → J Jupiter RA 74.9905 75 whole (27.82) [Sun]
-  - star rows: S Pleiades → J Jupiter RA 101.9381 63×φ golden (88.12) [Moon]
-  - star rows: S Zubenelgenubi → J Jupiter Dec 25.8854 16×φ golden (81.26) [Moon, Sun]
-  - other chart, star rows: H Deneb Algedi → H Jupiter Dec 1.2226 1.22222 ninth (94.78) [Sun]
-  - other chart, star rows: H Difda → H Jupiter RA 140.0142 140 whole (8.50) [Sun]
-  - other chart, star rows: S Pleiades → H Jupiter RA 174.0023 174 whole (77.89) [Moon]
-  - other chart, star rows: H Sadalsuud → H Jupiter RA 92.0053 92 whole (53.84) [Moon]
+  - top rows: S Moon → J Jupiter Dec 18.8878 18.8889 ninth (99.21)
+  - top rows: S Chiron → J Jupiter RA 133.3847 133.333 ninth (93.84)
+  - top rows: S Eris → J Jupiter Dec 10.0007 10 whole (93.45)
+  - top rows: S Quaoar → J Jupiter Dec 24.9982 25 whole (83.01)
+  - top rows: S Transpluto → J Jupiter Dec 0.1188 conj (36.47)
+  - star rows: J Orion Nebula Cluster → J Jupiter RA 74.9905 75 whole (27.82)
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - star rows: S Pleiades → J Jupiter RA 101.9381 63×φ golden (88.12)
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: S Zubenelgenubi → J Jupiter Dec 25.8854 16×φ golden (81.26)
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+  - other chart, star rows: H Deneb Algedi → H Jupiter Dec 1.2226 1.22222 ninth (94.78)
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - other chart, star rows: H Difda → H Jupiter RA 140.0142 140 whole (8.50)
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - other chart, star rows: S Pleiades → H Jupiter RA 174.0023 174 whole (77.89)
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - other chart, star rows: H Sadalsuud → H Jupiter RA 92.0053 92 whole (53.84)
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
 - **J Uranus** (same body: S Uranus → J Uranus RA 140.9632 141.4 sqrt2 (loose))
-  - body line: S Jupiter → Uranus RA 84.9993 85 whole (93.10)
-  - star rows: J Capella → J Uranus RA 158.0111 158 whole (19.65) [Jupiter]
+  - sky line to Uranus: S Jupiter → Uranus RA 84.9993 85 whole (93.10)
+  - star rows: J Capella → J Uranus RA 158.0111 158 whole (19.65)
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
   - other chart, same body: S Uranus → H Uranus Dec 11.3014 7×φ golden (loose)
-  - other chart, top rows: S Jupiter → H Uranus RA 122.9004 φ^10 phi power (72.45) [Jupiter]
-  - other chart, star rows: H Difda → H Uranus RA 13.3337 13.3333 ninth (99.53) [Sun]
-  - other chart, star rows: H Difda → H Uranus Dec 27.5008 17×φ golden (67.69) [Sun]
+  - other chart, top rows: S Jupiter → H Uranus RA 122.9004 φ^10 phi power (72.45)
+  - other chart, star rows: H Difda → H Uranus RA 13.3337 13.3333 ninth (99.53)
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - other chart, star rows: H Difda → H Uranus Dec 27.5008 17×φ golden (67.69)
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
 - **J Vesta** (same body: S Vesta → J Vesta Dec 18.7910 18.8889 ninth (loose))
-  - top rows: S Jupiter → J Vesta Dec 0.2229 conj (6.61) [Jupiter]
-  - other chart, T1: H Jupiter → H Vesta Dec 0.0146 conj (90.51) [Jupiter]
-  - other chart, star rows: H Algol → H Vesta RA 146.0149 146 whole (6.45) [Moon]
+  - top rows: S Jupiter → J Vesta Dec 0.2229 conj (6.61)
+  - other chart, T1: H Jupiter → H Vesta Dec 0.0146 conj (90.51)
+  - other chart, star rows: H Algol → H Vesta RA 146.0149 146 whole (6.45)
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
 - **J Rahu** (same body: S Rahu → J Rahu Dec 9.9988 10 whole (88.74))
-  - star rows: J Deneb → J Rahu Dec 68.0153 68 whole (5.54) [Sun]
-  - star rows: J Scheat → J Rahu RA 61.0098 61 whole (25.79) [Sun]
-  - other chart, star rows: H Zubenelgenubi → H Rahu RA 85.9872 86 whole (12.95) [Moon, Sun]
+  - star rows: J Deneb → J Rahu Dec 68.0153 68 whole (5.54)
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - star rows: J Scheat → J Rahu RA 61.0098 61 whole (25.79)
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+  - other chart, star rows: H Zubenelgenubi → H Rahu RA 85.9872 86 whole (12.95)
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **J Eris** (same body: S Eris → J Eris Dec 9.0168 9 whole (2.54))
-  - top rows: S Moon → J Eris Dec 0.1297 conj (32.23) [Moon]
+  - top rows: S Moon → J Eris Dec 0.1297 conj (32.23)
   - other chart, same body: S Eris → H Eris RA 1.3392 1.33333 ninth (loose)
 - **J Sedna** (same body: S Sedna → J Sedna RA 19.0187 19 whole (0.45))
-  - star rows: J Algol → J Sedna RA 3.9964 4 whole (67.56) [Moon]
-  - other chart, star rows: H Pleiades → H Sedna RA 0.8535 conj (18.58) [Moon]
+  - star rows: J Algol → J Sedna RA 3.9964 4 whole (67.56)
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - other chart, star rows: H Pleiades → H Sedna RA 0.8535 conj (18.58)
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
 - **J Makemake** (same body: S Makemake → J Makemake RA 30.7715 19×φ golden (loose))
-  - other chart, star rows: H Deneb Algedi → H Makemake RA 130.9831 131 whole (2.41) [Sun]
-  - other chart, star rows: H Vindemiatrix → H Makemake RA 0.2259 conj (72.14) [Moon]
+  - other chart, star rows: H Deneb Algedi → H Makemake RA 130.9831 131 whole (2.41)
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - other chart, star rows: H Vindemiatrix → H Makemake RA 0.2259 conj (72.14)
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
 - **J Quaoar** (same body: S Quaoar → J Quaoar Dec 1.5455 1.55556 ninth (loose))
-  - other chart, star rows: H Difda → H Quaoar Dec 2.4141 2.414 silver (99.21) [Sun]
-  - other chart, star rows: H Sadalsuud → H Quaoar Dec 10.0019 10 whole (81.52) [Moon]
-  - other chart, star rows: H Zubenelgenubi → H Quaoar RA 49.0120 49 whole (15.81) [Moon, Sun]
+  - other chart, star rows: H Difda → H Quaoar Dec 2.4141 2.414 silver (99.21)
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - other chart, star rows: H Sadalsuud → H Quaoar Dec 10.0019 10 whole (81.52)
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+  - other chart, star rows: H Zubenelgenubi → H Quaoar RA 49.0120 49 whole (15.81)
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **J Transpluto** (same body: S Transpluto → J Transpluto Dec 4.1411 4.14 silver (loose))
-  - top rows: S Jupiter → J Transpluto Dec 0.1252 conj (33.93) [Jupiter]
-  - star rows: J Deneb → J Transpluto RA 165.0679 102×φ golden (1.47) [Sun]
-  - star rows: J Deneb Algedi → J Transpluto Dec 29.9929 30 whole (41.33) [Sun]
-  - other chart, top rows: S Sun → H Transpluto RA 68.0023 68 whole (78.12) [Sun]
-  - other chart, star rows: H Capella → H Transpluto Dec 34.9958 35 whole (62.75) [Jupiter]
-  - other chart, star rows: H Deneb → H Transpluto RA 156.9956 157 whole (60.91) [Sun]
-  - other chart, star rows: H Difda → H Transpluto Dec 28.9915 29 whole (33.07) [Sun]
-  - other chart, star rows: H Galactic Centre → H Transpluto Dec 40.0095 40 whole (27.51) [Jupiter]
-  - other chart, star rows: H Vindemiatrix → H Transpluto Dec 0.0456 conj (71.88) [Moon]
+  - top rows: S Jupiter → J Transpluto Dec 0.1252 conj (33.93)
+  - star rows: J Deneb → J Transpluto RA 165.0679 102×φ golden (1.47)
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - star rows: J Deneb Algedi → J Transpluto Dec 29.9929 30 whole (41.33)
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - other chart, top rows: S Sun → H Transpluto RA 68.0023 68 whole (78.12)
+  - other chart, star rows: H Capella → H Transpluto Dec 34.9958 35 whole (62.75)
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - other chart, star rows: H Deneb → H Transpluto RA 156.9956 157 whole (60.91)
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - other chart, star rows: H Difda → H Transpluto Dec 28.9915 29 whole (33.07)
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - other chart, star rows: H Galactic Centre → H Transpluto Dec 40.0095 40 whole (27.51)
+    - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
+  - other chart, star rows: H Vindemiatrix → H Transpluto Dec 0.0456 conj (71.88)
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
 - **J Ketu** (same body: S Ketu → J Ketu Dec 9.9988 10 whole (88.74))
-  - body line: S Jupiter → Ketu RA 1.4603 conj (0.07)
-  - star rows: J Scheat → J Ketu RA 118.9902 119 whole (25.79) [Sun]
-  - star rows: J Vindemiatrix → J Ketu RA 90.6016 56×φ golden (55.28) [Moon]
-  - other chart, star rows: H Vindemiatrix → H Ketu Dec 27.5041 17×φ golden (85.47) [Moon]
-  - other chart, star rows: H Zubenelgenubi → H Ketu RA 94.0128 94 whole (12.95) [Moon, Sun]
-### L3 the seven cases (L5 field tag on each)
+  - sky line to Ketu: S Jupiter → Ketu RA 1.4603 conj (0.07)
+  - star rows: J Scheat → J Ketu RA 118.9902 119 whole (25.79)
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+  - star rows: J Vindemiatrix → J Ketu RA 90.6016 56×φ golden (55.28)
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - other chart, star rows: H Vindemiatrix → H Ketu Dec 27.5041 17×φ golden (85.47)
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - other chart, star rows: H Zubenelgenubi → H Ketu RA 94.0128 94 whole (12.95)
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+### L3 matches
 - **1. same body on both charts**
   - Uranus — only
     - S Uranus → H Uranus Dec 11.3014 7×φ golden (loose)
@@ -1458,22 +2498,32 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 50 whole — also: 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
     - J Scheat → J Neptune Dec 50.0074 50 whole (39.77) = S Moon → Algol Dec 49.9999 50 whole (98.95)
 - **4. circle divisions**
-  - 8 = 360/45 — only
+  - 20 = 360/18 — also: 1 Fire Flyer / Richie McLernon
+    - H Deneb Algedi → H Sun RA 19.9937 20 whole (47.15)
+  - 40 = 360/9 — also: 2 Lynx De Thaix / Gavin Sheehan
+    - H Galactic Centre → H Transpluto Dec 40.0095 40 whole (27.51)
+  - 8 = 360/45 — also: 6 So You Know / Tom Bellamy
     - H Pleiades → H Ceres Dec 7.9971 8 whole (73.36)
-  - 10 = 360/36 — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
+  - 10 = 360/36 — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 8 The Bellhop / Freddie Mitchell
     - H Sadalsuud → H Quaoar Dec 10.0019 10 whole (81.52)
-  - 10 = 360/36 — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
+  - 10 = 360/36 — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 8 The Bellhop / Freddie Mitchell
     - S Rahu → J Rahu Dec 9.9988 10 whole (88.74)
-  - 9 = 360/40 — also: 3 Donnie Azoff / Isabelle Ryder
+  - 9 = 360/40 — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn
     - S Eris → J Eris Dec 9.0168 9 whole (2.54)
-  - 10 = 360/36 — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
+  - 10 = 360/36 — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 8 The Bellhop / Freddie Mitchell
     - S Ketu → J Ketu Dec 9.9988 10 whole (88.74)
-  - 10 = 360/36 — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
+  - 10 = 360/36 — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 8 The Bellhop / Freddie Mitchell
     - S Eris → J Jupiter Dec 10.0007 10 whole (93.45)
-  - 4 = 360/90 — also: 2 Lynx De Thaix / Gavin Sheehan, 8 The Bellhop / Freddie Mitchell
+  - 4 = 360/90 — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
     - J Algol → J Sedna RA 3.9964 4 whole (67.56)
+  - 20 = 360/18 — also: 1 Fire Flyer / Richie McLernon
+    - J Deneb → J Juno RA 19.9894 20 whole (21.98)
+  - 30 = 360/12 — also: 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+    - J Deneb Algedi → J Transpluto Dec 29.9929 30 whole (41.33)
   - 40 = 360/9 — also: 2 Lynx De Thaix / Gavin Sheehan
     - J Difda → J Haumea Dec 40.0035 40 whole (67.78)
+  - 12 = 360/30 — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 8 The Bellhop / Freddie Mitchell
+    - J Orion Nebula Cluster → J Ceres Dec 11.9862 12 whole (9.75)
 - **5. same number in more than one place**
   - 1.22222 ninth — only
     - H Jupiter → H star Deneb Algedi Dec 1.2226 1.22222 ninth (94.78)
@@ -1484,10 +2534,19 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 24.14 silver — only
     - S Jupiter → H Orcus Dec 24.1458 24.14 silver (94.03)
     - H Difda → H Sun RA 24.1437 24.14 silver (97.51)
+  - 68 whole — only
+    - S Sun → H Transpluto RA 68.0023 68 whole (78.12)
+    - J Deneb → J Rahu Dec 68.0153 68 whole (5.54)
+  - 20 whole — only
+    - H Deneb Algedi → H Sun RA 19.9937 20 whole (47.15)
+    - J Deneb → J Juno RA 19.9894 20 whole (21.98)
   - 17×φ golden — also: 3 Donnie Azoff / Isabelle Ryder
     - H Difda → H Uranus Dec 27.5008 17×φ golden (67.69)
     - H Vindemiatrix → H Ketu Dec 27.5041 17×φ golden (85.47)
-  - 10 whole — only
+  - 40 whole — also: 2 Lynx De Thaix / Gavin Sheehan
+    - H Galactic Centre → H Transpluto Dec 40.0095 40 whole (27.51)
+    - J Difda → J Haumea Dec 40.0035 40 whole (67.78)
+  - 10 whole — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
     - H Sadalsuud → H Quaoar Dec 10.0019 10 whole (81.52)
     - S Rahu → J Rahu Dec 9.9988 10 whole (88.74)
     - S Ketu → J Ketu Dec 9.9988 10 whole (88.74)
@@ -1507,126 +2566,242 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 133.333 ninth — also: 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy
     - S Chiron → J Jupiter RA 133.3847 133.333 ninth (93.84)
     - J Orion Nebula Cluster → J Pallas RA 133.3680 133.333 ninth (95.84)
+  - 50 whole — only
+    - J Capella → J Chiron RA 50.0080 50 whole (35.95)
+    - J Scheat → J Neptune Dec 50.0074 50 whole (39.77)
   - 41.4 silver — also: 3 Donnie Azoff / Isabelle Ryder
     - J Deneb Algedi → J Neptune RA 41.4297 41.4 silver (92.09)
     - J Scheat → J Juno Dec 41.4251 41.4 silver (96.41)
-- **6. star and sky line on one body**
-  - H Transpluto on Vindemiatrix — only
-    - H Vindemiatrix → H Transpluto Dec 0.0456 conj (71.88)
-    - S Sun → H Transpluto RA 68.0023 68 whole (78.12)
-- **7. centres meeting**
-  - Uranus: Jupiter, Sun — only
-    - [Jupiter] S Uranus → H Uranus Dec 11.3014 7×φ golden (loose)
-    - [Jupiter] S Jupiter → H Uranus RA 122.9004 φ^10 phi power (72.45)
-    - [Jupiter] S Uranus → J Uranus RA 140.9632 141.4 sqrt2 (loose)
-    - [Jupiter] J Capella → J Uranus RA 158.0111 158 whole (19.65)
-    - [Sun] H Difda → H Uranus RA 13.3337 13.3333 ninth (99.53)
-    - [Sun] H Difda → H Uranus Dec 27.5008 17×φ golden (67.69)
-  - Vesta: Jupiter, Moon — only
-    - [Jupiter] H Jupiter → H Vesta Dec 0.0146 conj (90.51)
-    - [Jupiter] S Jupiter → J Vesta Dec 0.2229 conj (6.61)
-    - [Moon] H Algol → H Vesta RA 146.0149 146 whole (6.45)
-  - Orcus: Jupiter, Moon — only
-    - [Jupiter] S Jupiter → H Orcus Dec 24.1458 24.14 silver (94.03)
-    - [Moon] J Rigel → J Orcus RA 53.3904 33×φ golden (73.11)
-    - [Moon] J Rigel → J Orcus Dec 11.0199 11 whole (0.00)
-  - Transpluto: Jupiter, Moon, Sun — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
-    - [Jupiter] H Capella → H Transpluto Dec 34.9958 35 whole (62.75)
-    - [Jupiter] H Galactic Centre → H Transpluto Dec 40.0095 40 whole (27.51)
-    - [Jupiter] S Jupiter → J Transpluto Dec 0.1252 conj (33.93)
-    - [Moon] H Vindemiatrix → H Transpluto Dec 0.0456 conj (71.88)
-    - [Sun] S Sun → H Transpluto RA 68.0023 68 whole (78.12)
-    - [Sun] H Deneb → H Transpluto RA 156.9956 157 whole (60.91)
-    - [Sun] H Difda → H Transpluto Dec 28.9915 29 whole (33.07)
-    - [Sun] J Deneb → J Transpluto RA 165.0679 102×φ golden (1.47)
-    - [Sun] J Deneb Algedi → J Transpluto Dec 29.9929 30 whole (41.33)
-  - Chiron: Jupiter, Moon, Sun — only
-    - [Jupiter] H Capella → H Chiron RA 83.0092 83 whole (29.06)
-    - [Jupiter] S Jupiter → J Chiron RA 17.9433 φ^6 phi power (97.87)
-    - [Jupiter] J Capella → J Chiron RA 50.0080 50 whole (35.95)
-    - [Moon] S Moon → H Chiron RA 166.6126 166.667 ninth (95.37)
-    - [Moon] H Pleiades → H Chiron Dec 22.0170 22 whole (2.29)
-    - [Sun] H Scheat → H Chiron Dec 25.9937 26 whole (46.62)
-    - [Sun] J Orion Nebula Cluster → J Chiron Dec 16.9874 17 whole (13.81)
-  - Saturn: Jupiter, Moon, Sun — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan
-    - [Jupiter] S Jupiter → J Saturn RA 155.5881 155.556 ninth (96.91)
-    - [Moon] H Algol → H Saturn RA 128.9846 129 whole (5.32)
-    - [Moon] H Rigel → H Saturn Dec 14.1480 14.14 sqrt2 (84.16)
-    - [Moon] J Rigel → J Saturn RA 135.9216 84×φ golden (62.51)
-    - [Moon] J Zubenelgenubi → J Saturn RA 80.0013 80 whole (87.83)
-    - [Sun] J Zubenelgenubi → J Saturn RA 80.0013 80 whole (87.83)
-  - Sun: Moon, Sun — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder
-    - [Moon] H Sadalsuud → H Sun Dec 0.1033 conj (43.00)
-    - [Moon] J Rigel → J Sun Dec 0.2787 conj (0.50)
-    - [Sun] H Deneb Algedi → H Sun RA 19.9937 20 whole (47.15)
-    - [Sun] H Difda → H Sun RA 24.1437 24.14 silver (97.51)
-    - [Sun] H Orion Nebula Cluster → H Sun Dec 0.2827 conj (0.33)
-    - [Sun] H Scheat → H Sun RA 0.8114 conj (21.08)
-  - Jupiter: Jupiter, Moon, Sun — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
-    - [Jupiter] S Moon → J Jupiter Dec 18.8878 18.8889 ninth (99.21)
-    - [Jupiter] S Chiron → J Jupiter RA 133.3847 133.333 ninth (93.84)
-    - [Jupiter] S Eris → J Jupiter Dec 10.0007 10 whole (93.45)
-    - [Jupiter] S Quaoar → J Jupiter Dec 24.9982 25 whole (83.01)
-    - [Jupiter] S Transpluto → J Jupiter Dec 0.1188 conj (36.47)
-    - [Moon] S Pleiades → H Jupiter RA 174.0023 174 whole (77.89)
-    - [Moon] H Sadalsuud → H Jupiter RA 92.0053 92 whole (53.84)
-    - [Moon] S Moon → J Jupiter Dec 18.8878 18.8889 ninth (99.21)
-    - [Moon] S Pleiades → J Jupiter RA 101.9381 63×φ golden (88.12)
-    - [Moon] S Zubenelgenubi → J Jupiter Dec 25.8854 16×φ golden (81.26)
-    - [Sun] H Deneb Algedi → H Jupiter Dec 1.2226 1.22222 ninth (94.78)
-    - [Sun] H Difda → H Jupiter RA 140.0142 140 whole (8.50)
-    - [Sun] J Orion Nebula Cluster → J Jupiter RA 74.9905 75 whole (27.82)
-    - [Sun] S Zubenelgenubi → J Jupiter Dec 25.8854 16×φ golden (81.26)
-  - Makemake: Moon, Sun — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 8 The Bellhop / Freddie Mitchell
-    - [Moon] H Vindemiatrix → H Makemake RA 0.2259 conj (72.14)
-    - [Sun] H Deneb Algedi → H Makemake RA 130.9831 131 whole (2.41)
-  - Quaoar: Moon, Sun — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy
-    - [Moon] H Sadalsuud → H Quaoar Dec 10.0019 10 whole (81.52)
-    - [Moon] H Zubenelgenubi → H Quaoar RA 49.0120 49 whole (15.81)
-    - [Sun] H Difda → H Quaoar Dec 2.4141 2.414 silver (99.21)
-    - [Sun] H Zubenelgenubi → H Quaoar RA 49.0120 49 whole (15.81)
-  - Juno: Moon, Sun — also: 6 So You Know / Tom Bellamy
-    - [Moon] H Vindemiatrix → H Juno Dec 17.7924 11×φ golden (66.40)
-    - [Sun] H Orion Nebula Cluster → H Juno RA 108.4324 67×φ golden (6.48)
-    - [Sun] J Deneb → J Juno RA 19.9894 20 whole (21.98)
-    - [Sun] J Scheat → J Juno Dec 41.4251 41.4 silver (96.41)
-  - Ceres: Moon, Sun — also: 6 So You Know / Tom Bellamy
-    - [Moon] H Pleiades → H Ceres Dec 7.9971 8 whole (73.36)
-    - [Moon] J Algol → J Ceres RA 173.0185 173 whole (0.53)
-    - [Sun] J Orion Nebula Cluster → J Ceres Dec 11.9862 12 whole (9.75)
-  - Haumea: Moon, Sun — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
-    - [Moon] H Pleiades → H Haumea RA 156.9182 97×φ golden (0.14)
-    - [Moon] S Moon → J Haumea RA 0.4331 conj (50.59)
-    - [Sun] S Sun → J Haumea Dec 38.0041 38 whole (63.50)
-    - [Sun] J Difda → J Haumea Dec 40.0035 40 whole (67.78)
-  - Ketu: Jupiter, Moon, Sun — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
-    - [Jupiter] S Ketu → J Ketu Dec 9.9988 10 whole (88.74)
-    - [Moon] H Vindemiatrix → H Ketu Dec 27.5041 17×φ golden (85.47)
-    - [Moon] H Zubenelgenubi → H Ketu RA 94.0128 94 whole (12.95)
-    - [Moon] J Vindemiatrix → J Ketu RA 90.6016 56×φ golden (55.28)
-    - [Sun] H Zubenelgenubi → H Ketu RA 94.0128 94 whole (12.95)
-    - [Sun] J Scheat → J Ketu RA 118.9902 119 whole (25.79)
-  - Venus: Moon, Sun — also: 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
-    - [Moon] H Zubenelgenubi → H Venus RA 136.9964 137 whole (67.28)
-    - [Moon] J Zubenelgenubi → J Venus RA 64.9804 65 whole (0.03)
-    - [Sun] H Zubenelgenubi → H Venus RA 136.9964 137 whole (67.28)
-    - [Sun] J Orion Nebula Cluster → J Venus Dec 12.9488 8×φ golden (74.01)
-    - [Sun] J Zubenelgenubi → J Venus RA 64.9804 65 whole (0.03)
-  - Rahu: Moon, Sun — also: 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
-    - [Moon] H Zubenelgenubi → H Rahu RA 85.9872 86 whole (12.95)
-    - [Sun] H Zubenelgenubi → H Rahu RA 85.9872 86 whole (12.95)
-    - [Sun] J Deneb → J Rahu Dec 68.0153 68 whole (5.54)
-    - [Sun] J Scheat → J Rahu RA 61.0098 61 whole (25.79)
-  - Pallas: Jupiter, Moon, Sun — also: 2 Lynx De Thaix / Gavin Sheehan
-    - [Jupiter] J Capella → J Pallas RA 138.0163 138 whole (3.51)
-    - [Jupiter] J Capella → J Pallas Dec 40.4541 25×φ golden (80.79)
-    - [Moon] J Sadalsuud → J Pallas Dec 11.1127 11.1111 ninth (97.33)
-    - [Sun] J Difda → J Pallas RA 153.7095 95×φ golden (78.04)
-    - [Sun] J Orion Nebula Cluster → J Pallas RA 133.3680 133.333 ninth (95.84)
-  - Mercury: Moon, Sun — also: 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
-    - [Moon] J Pleiades → J Mercury RA 151.0101 151 whole (24.37)
-    - [Moon] J Sadalsuud → J Mercury RA 115.0061 115 whole (48.42)
-    - [Sun] J Difda → J Mercury RA 163.0161 163 whole (3.81)
+### L4 every natal body
+- **Mercury**
+  - same body: S Mercury → H Mercury Dec 14.4415 14.4444 ninth (96.86) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Difda → J Mercury RA 163.0161 163 whole (3.81) — also: 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: J Pleiades → J Mercury RA 151.0101 151 whole (24.37) — also: 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: J Sadalsuud → J Mercury RA 115.0061 115 whole (48.42) — also: 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+- **Uranus**
+  - same body: S Uranus → H Uranus Dec 11.3014 7×φ golden (loose) — also: 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn
+    - source line: S Jupiter → Uranus RA 84.9993 85 whole (93.10)
+  - top rows: S Jupiter → H Uranus RA 122.9004 φ^10 phi power (72.45) — also: 2 Lynx De Thaix / Gavin Sheehan
+  - star rows: H Difda → H Uranus RA 13.3337 13.3333 ninth (99.53) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: H Difda → H Uranus Dec 27.5008 17×φ golden (67.69) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - same body: S Uranus → J Uranus RA 140.9632 141.4 sqrt2 (loose) — also: 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn
+    - source line: S Jupiter → Uranus RA 84.9993 85 whole (93.10)
+  - star rows: J Capella → J Uranus RA 158.0111 158 whole (19.65) — also: 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+- **Neptune**
+  - same body: S Neptune → H Neptune RA 16.6412 16.6667 ninth (loose) — also: 1 Fire Flyer / Richie McLernon
+  - star rows: H Scheat → H Neptune RA 0.5547 conj (39.72) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+  - star rows: J Deneb Algedi → J Neptune RA 41.4297 41.4 silver (92.09) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: J Scheat → J Neptune Dec 50.0074 50 whole (39.77) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+- **Ceres**
+  - same body: S Ceres → H Ceres RA 16.1657 10×φ^1 phi power (loose) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+  - star rows: H Pleiades → H Ceres Dec 7.9971 8 whole (73.36) — also: 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: J Algol → J Ceres RA 173.0185 173 whole (0.53) — only
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - star rows: J Orion Nebula Cluster → J Ceres Dec 11.9862 12 whole (9.75) — also: 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+- **Eris**
+  - same body: S Eris → H Eris RA 1.3392 1.33333 ninth (loose) — also: 8 The Bellhop / Freddie Mitchell
+  - same body: S Eris → J Eris Dec 9.0168 9 whole (2.54) — also: 8 The Bellhop / Freddie Mitchell
+  - top rows: S Moon → J Eris Dec 0.1297 conj (32.23) — also: 1 Fire Flyer / Richie McLernon
+- **Vesta**
+  - T1: H Jupiter → H Vesta Dec 0.0146 conj (90.51) — only
+  - star rows: H Algol → H Vesta RA 146.0149 146 whole (6.45) — only
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - same body: S Vesta → J Vesta Dec 18.7910 18.8889 ninth (loose) — also: 2 Lynx De Thaix / Gavin Sheehan, 6 So You Know / Tom Bellamy
+  - top rows: S Jupiter → J Vesta Dec 0.2229 conj (6.61) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder
+- **Jupiter**
+  - T1: H Jupiter → H star Deneb Algedi Dec 1.2226 1.22222 ninth (94.78) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy
+  - T1: H Jupiter → H star Sadalsuud RA 92.0053 92 whole (53.84) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy
+  - star rows: H Deneb Algedi → H Jupiter Dec 1.2226 1.22222 ninth (94.78) — also: 5 He's A Latchico / Caoilin Quinn
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: H Difda → H Jupiter RA 140.0142 140 whole (8.50) — also: 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: S Pleiades → H Jupiter RA 174.0023 174 whole (77.89) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: H Sadalsuud → H Jupiter RA 92.0053 92 whole (53.84) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+  - same body: S Jupiter → J Jupiter Dec 4.1475 4.14 silver (loose) — also: 1 Fire Flyer / Richie McLernon, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+  - T2: J Jupiter → J star Pleiades RA 101.9394 63×φ golden (81.12) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy
+  - T2: J Jupiter → J star Zubenelgenubi Dec 25.8848 16×φ golden (78.16) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy
+  - top rows: S Moon → J Jupiter Dec 18.8878 18.8889 ninth (99.21) — only
+  - top rows: S Chiron → J Jupiter RA 133.3847 133.333 ninth (93.84) — also: 3 Donnie Azoff / Isabelle Ryder
+  - top rows: S Eris → J Jupiter Dec 10.0007 10 whole (93.45) — also: 8 The Bellhop / Freddie Mitchell
+  - top rows: S Quaoar → J Jupiter Dec 24.9982 25 whole (83.01) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy
+  - top rows: S Transpluto → J Jupiter Dec 0.1188 conj (36.47) — only
+  - star rows: J Orion Nebula Cluster → J Jupiter RA 74.9905 75 whole (27.82) — also: 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - star rows: S Pleiades → J Jupiter RA 101.9381 63×φ golden (88.12) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: S Zubenelgenubi → J Jupiter Dec 25.8854 16×φ golden (81.26) — also: 1 Fire Flyer / Richie McLernon, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+- **Orcus**
+  - top rows: S Jupiter → H Orcus Dec 24.1458 24.14 silver (94.03) — only
+  - star rows: J Rigel → J Orcus RA 53.3904 33×φ golden (73.11) — also: 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+  - star rows: J Rigel → J Orcus Dec 11.0199 11 whole (0.00) — also: 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+- **Transpluto**
+  - top rows: S Sun → H Transpluto RA 68.0023 68 whole (78.12) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn
+  - star rows: H Capella → H Transpluto Dec 34.9958 35 whole (62.75) — only
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - star rows: H Deneb → H Transpluto RA 156.9956 157 whole (60.91) — also: 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - star rows: H Difda → H Transpluto Dec 28.9915 29 whole (33.07) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: H Galactic Centre → H Transpluto Dec 40.0095 40 whole (27.51) — also: 5 He's A Latchico / Caoilin Quinn
+    - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
+  - star rows: H Vindemiatrix → H Transpluto Dec 0.0456 conj (71.88) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - same body: S Transpluto → J Transpluto Dec 4.1411 4.14 silver (loose) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn
+  - top rows: S Jupiter → J Transpluto Dec 0.1252 conj (33.93) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Deneb → J Transpluto RA 165.0679 102×φ golden (1.47) — also: 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - star rows: J Deneb Algedi → J Transpluto Dec 29.9929 30 whole (41.33) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+- **Chiron**
+  - top rows: S Moon → H Chiron RA 166.6126 166.667 ninth (95.37) — also: 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
+  - star rows: H Capella → H Chiron RA 83.0092 83 whole (29.06) — only
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - star rows: H Pleiades → H Chiron Dec 22.0170 22 whole (2.29) — only
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: H Scheat → H Chiron Dec 25.9937 26 whole (46.62) — also: 5 He's A Latchico / Caoilin Quinn
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+  - top rows: S Jupiter → J Chiron RA 17.9433 φ^6 phi power (97.87) — also: 6 So You Know / Tom Bellamy
+  - star rows: J Capella → J Chiron RA 50.0080 50 whole (35.95) — only
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - star rows: J Orion Nebula Cluster → J Chiron Dec 16.9874 17 whole (13.81) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+- **Saturn**
+  - star rows: H Algol → H Saturn RA 128.9846 129 whole (5.32) — only
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - star rows: H Rigel → H Saturn Dec 14.1480 14.14 sqrt2 (84.16) — only
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+  - top rows: S Jupiter → J Saturn RA 155.5881 155.556 ninth (96.91) — also: 2 Lynx De Thaix / Gavin Sheehan
+  - star rows: J Rigel → J Saturn RA 135.9216 84×φ golden (62.51) — only
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+  - star rows: J Zubenelgenubi → J Saturn RA 80.0013 80 whole (87.83) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+- **Sun**
+  - star rows: H Deneb Algedi → H Sun RA 19.9937 20 whole (47.15) — also: 1 Fire Flyer / Richie McLernon
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: H Difda → H Sun RA 24.1437 24.14 silver (97.51) — also: 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: H Orion Nebula Cluster → H Sun Dec 0.2827 conj (0.33) — also: 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - star rows: H Sadalsuud → H Sun Dec 0.1033 conj (43.00) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+  - star rows: H Scheat → H Sun RA 0.8114 conj (21.08) — also: 1 Fire Flyer / Richie McLernon
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+  - star rows: J Rigel → J Sun Dec 0.2787 conj (0.50) — also: 5 He's A Latchico / Caoilin Quinn
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+- **Makemake**
+  - star rows: H Deneb Algedi → H Makemake RA 130.9831 131 whole (2.41) — also: 5 He's A Latchico / Caoilin Quinn
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: H Vindemiatrix → H Makemake RA 0.2259 conj (72.14) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - same body: S Makemake → J Makemake RA 30.7715 19×φ golden (loose) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
+- **Quaoar**
+  - star rows: H Difda → H Quaoar Dec 2.4141 2.414 silver (99.21) — also: 6 So You Know / Tom Bellamy
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: H Sadalsuud → H Quaoar Dec 10.0019 10 whole (81.52) — also: 6 So You Know / Tom Bellamy
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+  - star rows: H Zubenelgenubi → H Quaoar RA 49.0120 49 whole (15.81) — also: 5 He's A Latchico / Caoilin Quinn
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+  - same body: S Quaoar → J Quaoar Dec 1.5455 1.55556 ninth (loose) — also: 2 Lynx De Thaix / Gavin Sheehan, 6 So You Know / Tom Bellamy
+- **Juno**
+  - star rows: H Orion Nebula Cluster → H Juno RA 108.4324 67×φ golden (6.48) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - star rows: H Vindemiatrix → H Juno Dec 17.7924 11×φ golden (66.40) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - star rows: J Deneb → J Juno RA 19.9894 20 whole (21.98) — also: 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - star rows: J Scheat → J Juno Dec 41.4251 41.4 silver (96.41) — also: 1 Fire Flyer / Richie McLernon, 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+- **Sedna**
+  - star rows: H Pleiades → H Sedna RA 0.8535 conj (18.58) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - same body: S Sedna → J Sedna RA 19.0187 19 whole (0.45) — also: 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn
+  - star rows: J Algol → J Sedna RA 3.9964 4 whole (67.56) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+- **Haumea**
+  - star rows: H Pleiades → H Haumea RA 156.9182 97×φ golden (0.14) — also: 1 Fire Flyer / Richie McLernon
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - top rows: S Sun → J Haumea Dec 38.0041 38 whole (63.50) — also: 5 He's A Latchico / Caoilin Quinn
+  - top rows: S Moon → J Haumea RA 0.4331 conj (50.59) — also: 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn
+  - star rows: J Difda → J Haumea Dec 40.0035 40 whole (67.78) — also: 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+- **Ketu**
+  - star rows: H Vindemiatrix → H Ketu Dec 27.5041 17×φ golden (85.47) — only
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - star rows: H Zubenelgenubi → H Ketu RA 94.0128 94 whole (12.95) — only
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+  - same body: S Ketu → J Ketu Dec 9.9988 10 whole (88.74) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
+    - source line: S Jupiter → Ketu RA 1.4603 conj (0.07)
+  - star rows: J Scheat → J Ketu RA 118.9902 119 whole (25.79) — also: 5 He's A Latchico / Caoilin Quinn
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+  - star rows: J Vindemiatrix → J Ketu RA 90.6016 56×φ golden (55.28) — only
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+- **Venus**
+  - star rows: H Zubenelgenubi → H Venus RA 136.9964 137 whole (67.28) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+  - star rows: J Orion Nebula Cluster → J Venus Dec 12.9488 8×φ golden (74.01) — also: 2 Lynx De Thaix / Gavin Sheehan, 6 So You Know / Tom Bellamy
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - star rows: J Zubenelgenubi → J Venus RA 64.9804 65 whole (0.03) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+- **Rahu**
+  - star rows: H Zubenelgenubi → H Rahu RA 85.9872 86 whole (12.95) — also: 6 So You Know / Tom Bellamy, 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+  - same body: S Rahu → J Rahu Dec 9.9988 10 whole (88.74) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
+  - star rows: J Deneb → J Rahu Dec 68.0153 68 whole (5.54) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 8 The Bellhop / Freddie Mitchell
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - star rows: J Scheat → J Rahu RA 61.0098 61 whole (25.79) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+- **Gonggong**
+  - star rows: J Algol → J Gonggong RA 77.7726 77.7778 ninth (95.92) — only
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - star rows: J Pleiades → J Gonggong Dec 43.9966 44 whole (68.74) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+- **Pallas**
+  - star rows: J Capella → J Pallas RA 138.0163 138 whole (3.51) — also: 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - star rows: J Capella → J Pallas Dec 40.4541 25×φ golden (80.79) — also: 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - star rows: J Difda → J Pallas RA 153.7095 95×φ golden (78.04) — also: 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: J Orion Nebula Cluster → J Pallas RA 133.3680 133.333 ninth (95.84) — also: 6 So You Know / Tom Bellamy
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - star rows: J Sadalsuud → J Pallas Dec 11.1127 11.1111 ninth (97.33) — only
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+- **Pluto**
+  - star rows: J Deneb Algedi → J Pluto RA 96.0078 96 whole (37.14) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+- **Mars**
+  - star rows: J Scheat → J Mars Dec 39.0009 39 whole (91.16) — only
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
 
 ## 8 The Bellhop / Freddie Mitchell
 ### L1 same bodies
@@ -1645,77 +2820,129 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 ### L2 what lands on each same body
 - **H Mars** (same body: S Mars → H Mars RA 136.0223 136 whole (loose))
   - other chart, same body: S Mars → J Mars RA 22.1857 22.2222 ninth (loose)
-  - other chart, top rows: S Sun → J Mars Dec 37.2188 23×φ golden (76.52) [Sun]
+  - other chart, top rows: S Sun → J Mars Dec 37.2188 23×φ golden (76.52)
 - **H Jupiter** (same body: S Jupiter → H Jupiter RA 166.9263 166.667 ninth (loose))
-  - star rows: H Orion Nebula Cluster → H Jupiter Dec 4.0081 4 whole (35.67) [Sun]
-  - other chart, top rows: S Sun → J Jupiter Dec 0.2838 conj (0.29) [Jupiter, Sun]
-  - other chart, top rows: S Rahu → J Jupiter RA 105.1643 65×φ golden (57.00) [Jupiter]
-  - other chart, top rows: S Eris → J Jupiter RA 163.4121 101×φ golden (50.50) [Jupiter]
-  - other chart, star rows: S Algol → J Jupiter RA 176.3744 109×φ golden (53.61) [Moon]
-  - other chart, star rows: S Deneb → J Jupiter Dec 60.9871 61 whole (12.65) [Sun]
-  - other chart, star rows: J Galactic Centre → J Jupiter RA 42.9914 43 whole (32.30) [Jupiter]
-  - other chart, star rows: J Zubenelgenubi → J Jupiter RA 0.7087 conj (27.83) [Moon, Sun]
+  - star rows: H Orion Nebula Cluster → H Jupiter Dec 4.0081 4 whole (35.67)
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - other chart, top rows: S Sun → J Jupiter Dec 0.2838 conj (0.29)
+  - other chart, top rows: S Rahu → J Jupiter RA 105.1643 65×φ golden (57.00)
+  - other chart, top rows: S Eris → J Jupiter RA 163.4121 101×φ golden (50.50)
+  - other chart, star rows: S Algol → J Jupiter RA 176.3744 109×φ golden (53.61)
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - other chart, star rows: S Deneb → J Jupiter Dec 60.9871 61 whole (12.65)
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - other chart, star rows: J Galactic Centre → J Jupiter RA 42.9914 43 whole (32.30)
+    - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
+  - other chart, star rows: J Zubenelgenubi → J Jupiter RA 0.7087 conj (27.83)
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **H Ceres** (same body: S Ceres → H Ceres RA 57.9728 58 whole (loose))
-  - top rows: S Sun → H Ceres Dec 36.0023 36 whole (78.06) [Sun]
-  - star rows: H Capella → H Ceres Dec 25.9807 26 whole (0.13) [Jupiter]
-  - star rows: H Difda → H Ceres Dec 38.0061 38 whole (48.01) [Sun]
-  - star rows: H Pleiades → H Ceres RA 0.2274 conj (71.98) [Moon]
-  - other chart, top rows: S Moon → J Ceres RA 61.8006 100×φ^-1 phi power (98.19) [Moon]
-  - other chart, star rows: J Deneb Algedi → J Ceres RA 160.9876 161 whole (14.50) [Sun]
+  - top rows: S Sun → H Ceres Dec 36.0023 36 whole (78.06)
+  - star rows: H Capella → H Ceres Dec 25.9807 26 whole (0.13)
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - star rows: H Difda → H Ceres Dec 38.0061 38 whole (48.01)
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: H Pleiades → H Ceres RA 0.2274 conj (71.98)
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - other chart, top rows: S Moon → J Ceres RA 61.8006 100×φ^-1 phi power (98.19)
+  - other chart, star rows: J Deneb Algedi → J Ceres RA 160.9876 161 whole (14.50)
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
 - **H Rahu** (same body: S Rahu → H Rahu Dec 32.3615 20×φ golden (95.14))
-  - star rows: H Deneb → H Rahu RA 105.0175 105 whole (1.61) [Sun]
-  - other chart, top rows: S Sun → J Rahu RA 1.4810 conj (0.02) [Sun]
-  - other chart, star rows: J Deneb Algedi → J Rahu Dec 0.2999 conj (0.00) [Sun]
-  - other chart, star rows: J Orion Nebula Cluster → J Rahu RA 139.0158 139 whole (4.49) [Sun]
-  - other chart, star rows: J Zubenelgenubi → J Rahu RA 0.1243 conj (84.11) [Moon, Sun]
+  - star rows: H Deneb → H Rahu RA 105.0175 105 whole (1.61)
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - other chart, top rows: S Sun → J Rahu RA 1.4810 conj (0.02)
+  - other chart, star rows: J Deneb Algedi → J Rahu Dec 0.2999 conj (0.00)
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - other chart, star rows: J Orion Nebula Cluster → J Rahu RA 139.0158 139 whole (4.49)
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - other chart, star rows: J Zubenelgenubi → J Rahu RA 0.1243 conj (84.11)
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **H Eris** (same body: S Eris → H Eris RA 0.9922 1 whole (37.51))
-  - star rows: H Orion Nebula Cluster → H Eris RA 57.9819 58 whole (0.91) [Sun]
-  - star rows: H Orion Nebula Cluster → H Eris Dec 3.9991 4 whole (91.07) [Sun]
-  - other chart, star rows: J Orion Nebula Cluster → J Eris Dec 2.9824 3 whole (1.47) [Sun]
-  - other chart, star rows: J Rigel → J Eris RA 55.5572 55.5556 ninth (98.43) [Moon]
-  - other chart, star rows: J Rigel → J Eris Dec 0.1721 conj (18.18) [Moon]
+  - star rows: H Orion Nebula Cluster → H Eris RA 57.9819 58 whole (0.91)
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - star rows: H Orion Nebula Cluster → H Eris Dec 3.9991 4 whole (91.07)
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - other chart, star rows: J Orion Nebula Cluster → J Eris Dec 2.9824 3 whole (1.47)
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - other chart, star rows: J Rigel → J Eris RA 55.5572 55.5556 ninth (98.43)
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+  - other chart, star rows: J Rigel → J Eris Dec 0.1721 conj (18.18)
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
 - **H Makemake** (same body: S Makemake → H Makemake RA 3.0058 3 whole (50.23))
-  - star rows: H Pleiades → H Makemake RA 142.3909 88×φ golden (77.40) [Moon]
-  - star rows: H Sadalsuud → H Makemake Dec 28.0102 28 whole (23.94) [Moon]
-  - other chart, star rows: J Difda → J Makemake RA 163.4043 101×φ golden (22.08) [Sun]
-  - other chart, star rows: J Sadalsuud → J Makemake Dec 38.9996 39 whole (95.66) [Moon]
+  - star rows: H Pleiades → H Makemake RA 142.3909 88×φ golden (77.40)
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: H Sadalsuud → H Makemake Dec 28.0102 28 whole (23.94)
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+  - other chart, star rows: J Difda → J Makemake RA 163.4043 101×φ golden (22.08)
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - other chart, star rows: J Sadalsuud → J Makemake Dec 38.9996 39 whole (95.66)
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
 - **H Ketu** (same body: S Ketu → H Ketu Dec 32.3615 20×φ golden (95.14))
-  - body line: S Jupiter → Ketu RA 1.4603 conj (0.07)
-  - star rows: H Deneb → H Ketu RA 74.9825 75 whole (1.61) [Sun]
-  - other chart, T2: J Jupiter → J Ketu RA 179.4156 10×φ^6 phi power (94.05) [Jupiter]
-  - other chart, star rows: J Orion Nebula Cluster → J Ketu RA 40.9842 41 whole (4.49) [Sun]
-  - other chart, star rows: J Sadalsuud → J Ketu Dec 21.9950 22 whole (56.44) [Moon]
+  - sky line to Ketu: S Jupiter → Ketu RA 1.4603 conj (0.07)
+  - star rows: H Deneb → H Ketu RA 74.9825 75 whole (1.61)
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - other chart, T2: J Jupiter → J Ketu RA 179.4156 10×φ^6 phi power (94.05)
+  - other chart, star rows: J Orion Nebula Cluster → J Ketu RA 40.9842 41 whole (4.49)
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - other chart, star rows: J Sadalsuud → J Ketu Dec 21.9950 22 whole (56.44)
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
 - **J Sun** (same body: S Sun → J Sun Dec 11.9759 12 whole (loose))
-  - top rows: S Jupiter → J Sun Dec 18.0019 18 whole (81.74) [Jupiter]
-  - top rows: S Moon → J Sun RA 0.2529 conj (69.13) [Moon]
-  - star rows: J Capella → J Sun Dec 50.0064 50 whole (46.37) [Jupiter]
-  - star rows: J Galactic Centre → J Sun Dec 24.9986 25 whole (86.81) [Jupiter]
-  - other chart, star rows: H Galactic Centre → H Sun RA 53.3978 33×φ golden (83.86) [Jupiter]
-  - other chart, star rows: H Orion Nebula Cluster → H Sun RA 124.0151 124 whole (5.94) [Sun]
+  - top rows: S Jupiter → J Sun Dec 18.0019 18 whole (81.74)
+  - top rows: S Moon → J Sun RA 0.2529 conj (69.13)
+  - star rows: J Capella → J Sun Dec 50.0064 50 whole (46.37)
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - star rows: J Galactic Centre → J Sun Dec 24.9986 25 whole (86.81)
+    - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
+  - other chart, star rows: H Galactic Centre → H Sun RA 53.3978 33×φ golden (83.86)
+    - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
+  - other chart, star rows: H Orion Nebula Cluster → H Sun RA 124.0151 124 whole (5.94)
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
 - **J Mercury** (same body: S Mercury → J Mercury Dec 2.0112 2 whole (19.36))
-  - star rows: J Deneb Algedi → J Mercury Dec 0.1695 conj (18.92) [Sun]
-  - star rows: J Rigel → J Mercury RA 132.6966 82×φ golden (20.29) [Moon]
-  - star rows: J Zubenelgenubi → J Mercury Dec 0.2550 conj (2.25) [Moon, Sun]
-  - other chart, star rows: H Algol → H Mercury RA 111.1551 111.111 ninth (92.81) [Moon]
-  - other chart, star rows: H Algol → H Mercury Dec 60.0080 60 whole (36.21) [Moon]
-  - other chart, star rows: H Difda → H Mercury RA 75.0082 75 whole (34.88) [Sun]
-  - other chart, star rows: H Pleiades → H Mercury RA 120.9851 121 whole (6.41) [Moon]
-  - other chart, star rows: H Sadalsuud → H Mercury RA 26.9969 27 whole (71.31) [Moon]
-  - other chart, star rows: H Vindemiatrix → H Mercury RA 100.3424 62×φ golden (6.28) [Moon]
-  - other chart, star rows: H Vindemiatrix → H Mercury Dec 30.0067 30 whole (43.98) [Moon]
-  - other chart, star rows: H Zubenelgenubi → H Mercury Dec 3.0077 3 whole (37.68) [Moon, Sun]
+  - star rows: J Deneb Algedi → J Mercury Dec 0.1695 conj (18.92)
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: J Rigel → J Mercury RA 132.6966 82×φ golden (20.29)
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+  - star rows: J Zubenelgenubi → J Mercury Dec 0.2550 conj (2.25)
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+  - other chart, star rows: H Algol → H Mercury RA 111.1551 111.111 ninth (92.81)
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - other chart, star rows: H Algol → H Mercury Dec 60.0080 60 whole (36.21)
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - other chart, star rows: H Difda → H Mercury RA 75.0082 75 whole (34.88)
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - other chart, star rows: H Pleiades → H Mercury RA 120.9851 121 whole (6.41)
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - other chart, star rows: H Sadalsuud → H Mercury RA 26.9969 27 whole (71.31)
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+  - other chart, star rows: H Vindemiatrix → H Mercury RA 100.3424 62×φ golden (6.28)
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - other chart, star rows: H Vindemiatrix → H Mercury Dec 30.0067 30 whole (43.98)
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - other chart, star rows: H Zubenelgenubi → H Mercury Dec 3.0077 3 whole (37.68)
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
 - **J Mars** (same body: S Mars → J Mars RA 22.1857 22.2222 ninth (loose))
-  - top rows: S Sun → J Mars Dec 37.2188 23×φ golden (76.52) [Sun]
+  - top rows: S Sun → J Mars Dec 37.2188 23×φ golden (76.52)
   - other chart, same body: S Mars → H Mars RA 136.0223 136 whole (loose)
 - **J Haumea** (same body: S Haumea → J Haumea RA 29.1311 18×φ golden (loose))
-  - body line: S Sun → Haumea RA 0.6231 conj (34.18)
-  - star rows: J Orion Nebula Cluster → J Haumea Dec 26.9855 27 whole (7.59) [Sun]
-  - other chart, star rows: H Vindemiatrix → H Haumea RA 22.0162 22 whole (3.54) [Moon]
+  - sky line to Haumea: S Sun → Haumea RA 0.6231 conj (34.18)
+  - star rows: J Orion Nebula Cluster → J Haumea Dec 26.9855 27 whole (7.59)
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - other chart, star rows: H Vindemiatrix → H Haumea RA 22.0162 22 whole (3.54)
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
 - **J Gonggong** (same body: S Gonggong → J Gonggong RA 7.0169 7 whole (2.41))
-  - top rows: S Sun → J Gonggong Dec 3.0007 3 whole (92.89) [Sun]
-  - star rows: J Capella → J Gonggong Dec 64.9831 65 whole (2.33) [Jupiter]
-  - star rows: J Difda → J Gonggong Dec 1.0017 1 whole (83.26) [Sun]
-### L3 the seven cases (L5 field tag on each)
+  - top rows: S Sun → J Gonggong Dec 3.0007 3 whole (92.89)
+  - star rows: J Capella → J Gonggong Dec 64.9831 65 whole (2.33)
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - star rows: J Difda → J Gonggong Dec 1.0017 1 whole (83.26)
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+### L3 matches
 - **1. same body on both charts**
   - Mars — only
     - S Mars → H Mars RA 136.0223 136 whole (loose)
@@ -1747,168 +2974,319 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
     - S Sun → H Ceres Dec 36.0023 36 whole (78.06)
   - 3 = 360/120 — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
     - S Moon → H Juno Dec 2.9999 3 whole (98.86)
-  - 4 = 360/90 — also: 2 Lynx De Thaix / Gavin Sheehan, 7 Motazzen / Paul O'Brien
+  - 60 = 360/6 — only
+    - H Algol → H Mercury Dec 60.0080 60 whole (36.21)
+  - 4 = 360/90 — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+    - H Orion Nebula Cluster → H Jupiter Dec 4.0081 4 whole (35.67)
+  - 4 = 360/90 — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
     - H Orion Nebula Cluster → H Eris Dec 3.9991 4 whole (91.07)
-  - 4 = 360/90 — also: 2 Lynx De Thaix / Gavin Sheehan, 7 Motazzen / Paul O'Brien
+  - 45 = 360/8 — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy
+    - H Scheat → H Saturn Dec 44.9847 45 whole (5.54)
+  - 30 = 360/12 — also: 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+    - H Vindemiatrix → H Mercury Dec 30.0067 30 whole (43.98)
+  - 3 = 360/120 — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
+    - H Zubenelgenubi → H Mercury Dec 3.0077 3 whole (37.68)
+  - 4 = 360/90 — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
     - H Zubenelgenubi → H Juno Dec 3.9994 4 whole (93.66)
-  - 12 = 360/30 — also: 2 Lynx De Thaix / Gavin Sheehan
+  - 12 = 360/30 — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien
     - S Sun → J Sun Dec 11.9759 12 whole (loose)
-  - 2 = 360/180 — also: 3 Donnie Azoff / Isabelle Ryder
+  - 2 = 360/180 — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy
     - S Mercury → J Mercury Dec 2.0112 2 whole (19.36)
-  - 18 = 360/20 — also: 3 Donnie Azoff / Isabelle Ryder
+  - 18 = 360/20 — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy
     - S Jupiter → J Sun Dec 18.0019 18 whole (81.74)
   - 3 = 360/120 — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
     - S Sun → J Gonggong Dec 3.0007 3 whole (92.89)
+  - 60 = 360/6 — only
+    - J Capella → J Quaoar Dec 60.0075 60 whole (39.30)
   - 1 = 360/360 — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy
     - J Difda → J Gonggong Dec 1.0017 1 whole (83.26)
-  - 15 = 360/24 — also: 5 He's A Latchico / Caoilin Quinn
+  - 15 = 360/24 — also: 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy
     - J Galactic Centre → J Quaoar Dec 14.9976 15 whole (77.03)
-  - 6 = 360/60 — also: 5 He's A Latchico / Caoilin Quinn
+  - 6 = 360/60 — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy
     - J Orion Nebula Cluster → J Chiron Dec 5.9987 6 whole (87.50)
+  - 3 = 360/120 — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
+    - J Orion Nebula Cluster → J Eris Dec 2.9824 3 whole (1.47)
+  - 10 = 360/36 — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien
+    - J Orion Nebula Cluster → J Sedna Dec 9.9916 10 whole (33.89)
+  - 2 = 360/180 — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy
+    - J Rigel → J Pluto Dec 1.9840 2 whole (4.07)
 - **5. same number in more than one place**
+  - 58 whole — also: 1 Fire Flyer / Richie McLernon
+    - S Ceres → H Ceres RA 57.9728 58 whole (loose)
+    - H Orion Nebula Cluster → H Eris RA 57.9819 58 whole (0.91)
   - 20×φ golden — only
     - S Rahu → H Rahu Dec 32.3615 20×φ golden (95.14)
     - S Ketu → H Ketu Dec 32.3615 20×φ golden (95.14)
   - 1 whole — also: 6 So You Know / Tom Bellamy
     - S Eris → H Eris RA 0.9922 1 whole (37.51)
     - J Difda → J Gonggong Dec 1.0017 1 whole (83.26)
-  - 3 whole — also: 3 Donnie Azoff / Isabelle Ryder
+  - 3 whole — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
     - S Makemake → H Makemake RA 3.0058 3 whole (50.23)
     - S Moon → H Juno Dec 2.9999 3 whole (98.86)
+    - H Zubenelgenubi → H Mercury Dec 3.0077 3 whole (37.68)
     - S Sun → J Gonggong Dec 3.0007 3 whole (92.89)
+    - J Orion Nebula Cluster → J Eris Dec 2.9824 3 whole (1.47)
+  - 60 whole — only
+    - H Algol → H Mercury Dec 60.0080 60 whole (36.21)
+    - J Capella → J Quaoar Dec 60.0075 60 whole (39.30)
+  - 75 whole — only
+    - H Deneb → H Ketu RA 74.9825 75 whole (1.61)
+    - H Difda → H Mercury RA 75.0082 75 whole (34.88)
   - 4 whole — also: 2 Lynx De Thaix / Gavin Sheehan
+    - H Orion Nebula Cluster → H Jupiter Dec 4.0081 4 whole (35.67)
     - H Orion Nebula Cluster → H Eris Dec 3.9991 4 whole (91.07)
     - H Zubenelgenubi → H Juno Dec 3.9994 4 whole (93.66)
+  - 16 whole — also: 1 Fire Flyer / Richie McLernon
+    - H Orion Nebula Cluster → H Vesta Dec 15.9847 16 whole (5.55)
+    - H Sadalsuud → H Transpluto Dec 16.0016 16 whole (84.42)
+    - J Deneb → J Uranus RA 16.0164 16 whole (3.28)
+  - 41 whole — also: 1 Fire Flyer / Richie McLernon
+    - H Pleiades → H Saturn Dec 41.0067 41 whole (43.98)
+    - J Orion Nebula Cluster → J Ketu RA 40.9842 41 whole (4.49)
+  - 27 whole — only
+    - H Sadalsuud → H Mercury RA 26.9969 27 whole (71.31)
+    - J Orion Nebula Cluster → J Haumea Dec 26.9855 27 whole (7.59)
+  - 28 whole — only
+    - H Sadalsuud → H Makemake Dec 28.0102 28 whole (23.94)
+    - S Jupiter → J Quaoar Dec 28.0030 28 whole (72.26)
+  - 22 whole — also: 3 Donnie Azoff / Isabelle Ryder
+    - H Vindemiatrix → H Haumea RA 22.0162 22 whole (3.54)
+    - J Sadalsuud → J Ketu Dec 21.9950 22 whole (56.44)
+  - 2 whole — also: 5 He's A Latchico / Caoilin Quinn
+    - S Mercury → J Mercury Dec 2.0112 2 whole (19.36)
+    - J Rigel → J Pluto Dec 1.9840 2 whole (4.07)
   - 10×φ^6 phi power — only
     - J Jupiter → J Ketu RA 179.4156 10×φ^6 phi power (94.05)
     - J Deneb Algedi → J Transpluto RA 179.4707 10×φ^6 phi power (93.86)
-- **6. star and sky line on one body**
-  - H Ceres on Pleiades — only
-    - H Pleiades → H Ceres RA 0.2274 conj (71.98)
-    - S Sun → H Ceres Dec 36.0023 36 whole (78.06)
-  - J Rahu on Zubenelgenubi — only
-    - J Zubenelgenubi → J Rahu RA 0.1243 conj (84.11)
-    - S Sun → J Rahu RA 1.4810 conj (0.02)
-- **7. centres meeting**
-  - Ketu: Jupiter, Moon, Sun — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
-    - [Jupiter] S Ketu → H Ketu Dec 32.3615 20×φ golden (95.14)
-    - [Jupiter] J Jupiter → J Ketu RA 179.4156 10×φ^6 phi power (94.05)
-    - [Moon] J Sadalsuud → J Ketu Dec 21.9950 22 whole (56.44)
-    - [Sun] H Deneb → H Ketu RA 74.9825 75 whole (1.61)
-    - [Sun] J Orion Nebula Cluster → J Ketu RA 40.9842 41 whole (4.49)
-  - Pluto: Jupiter, Moon — also: 2 Lynx De Thaix / Gavin Sheehan
-    - [Jupiter] S Jupiter → H Pluto RA 152.0976 94×φ golden (85.40)
-    - [Moon] J Rigel → J Pluto Dec 1.9840 2 whole (4.07)
-  - Ceres: Jupiter, Moon, Sun — only
-    - [Jupiter] H Capella → H Ceres Dec 25.9807 26 whole (0.13)
-    - [Moon] H Pleiades → H Ceres RA 0.2274 conj (71.98)
-    - [Moon] S Moon → J Ceres RA 61.8006 100×φ^-1 phi power (98.19)
-    - [Sun] S Sun → H Ceres Dec 36.0023 36 whole (78.06)
-    - [Sun] H Difda → H Ceres Dec 38.0061 38 whole (48.01)
-    - [Sun] J Deneb Algedi → J Ceres RA 160.9876 161 whole (14.50)
-  - Chiron: Moon, Sun — also: 5 He's A Latchico / Caoilin Quinn
-    - [Moon] S Moon → H Chiron Dec 14.5698 9×φ golden (59.10)
-    - [Moon] H Sadalsuud → H Chiron Dec 11.0997 φ^5 phi power (68.58)
-    - [Moon] J Rigel → J Chiron RA 89.0185 89 whole (0.53)
-    - [Sun] J Orion Nebula Cluster → J Chiron Dec 5.9987 6 whole (87.50)
-  - Juno: Jupiter, Moon, Sun — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn
-    - [Jupiter] J Capella → J Juno RA 141.9870 142 whole (12.11)
-    - [Moon] S Moon → H Juno Dec 2.9999 3 whole (98.86)
-    - [Moon] H Algol → H Juno Dec 53.0009 53 whole (91.32)
-    - [Moon] H Vindemiatrix → H Juno Dec 22.9997 23 whole (96.62)
-    - [Moon] H Zubenelgenubi → H Juno Dec 3.9994 4 whole (93.66)
-    - [Sun] H Scheat → H Juno RA 43.9906 44 whole (27.97)
-    - [Sun] H Zubenelgenubi → H Juno Dec 3.9994 4 whole (93.66)
-    - [Sun] S Sun → J Juno RA 0.1964 conj (75.53)
-    - [Sun] J Deneb → J Juno Dec 51.7761 32×φ golden (94.12)
-  - Mercury: Moon, Sun — also: 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
-    - [Moon] H Algol → H Mercury RA 111.1551 111.111 ninth (92.81)
-    - [Moon] H Algol → H Mercury Dec 60.0080 60 whole (36.21)
-    - [Moon] H Pleiades → H Mercury RA 120.9851 121 whole (6.41)
-    - [Moon] H Sadalsuud → H Mercury RA 26.9969 27 whole (71.31)
-    - [Moon] H Vindemiatrix → H Mercury RA 100.3424 62×φ golden (6.28)
-    - [Moon] H Vindemiatrix → H Mercury Dec 30.0067 30 whole (43.98)
-    - [Moon] H Zubenelgenubi → H Mercury Dec 3.0077 3 whole (37.68)
-    - [Moon] J Rigel → J Mercury RA 132.6966 82×φ golden (20.29)
-    - [Moon] J Zubenelgenubi → J Mercury Dec 0.2550 conj (2.25)
-    - [Sun] H Difda → H Mercury RA 75.0082 75 whole (34.88)
-    - [Sun] H Zubenelgenubi → H Mercury Dec 3.0077 3 whole (37.68)
-    - [Sun] J Deneb Algedi → J Mercury Dec 0.1695 conj (18.92)
-    - [Sun] J Zubenelgenubi → J Mercury Dec 0.2550 conj (2.25)
-  - Venus: Moon, Sun — also: 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
-    - [Moon] H Algol → H Venus RA 124.5631 77×φ golden (4.47)
-    - [Moon] J Pleiades → J Venus RA 165.0338 102×φ golden (68.16)
-    - [Moon] J Sadalsuud → J Venus RA 100.9841 101 whole (4.24)
-    - [Moon] J Zubenelgenubi → J Venus RA 0.8062 conj (21.40)
-    - [Sun] S Sun → J Venus RA 0.5505 conj (40.07)
-    - [Sun] J Deneb Algedi → J Venus Dec 6.6660 6.66667 ninth (94.56)
-    - [Sun] J Difda → J Venus RA 148.9935 149 whole (45.55)
-    - [Sun] J Zubenelgenubi → J Venus RA 0.8062 conj (21.40)
-  - Rahu: Moon, Sun — also: 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
-    - [Moon] J Zubenelgenubi → J Rahu RA 0.1243 conj (84.11)
-    - [Sun] H Deneb → H Rahu RA 105.0175 105 whole (1.61)
-    - [Sun] S Sun → J Rahu RA 1.4810 conj (0.02)
-    - [Sun] J Deneb Algedi → J Rahu Dec 0.2999 conj (0.00)
-    - [Sun] J Orion Nebula Cluster → J Rahu RA 139.0158 139 whole (4.49)
-    - [Sun] J Zubenelgenubi → J Rahu RA 0.1243 conj (84.11)
-  - Sun: Jupiter, Moon, Sun — only
-    - [Jupiter] H Galactic Centre → H Sun RA 53.3978 33×φ golden (83.86)
-    - [Jupiter] S Jupiter → J Sun Dec 18.0019 18 whole (81.74)
-    - [Jupiter] J Capella → J Sun Dec 50.0064 50 whole (46.37)
-    - [Jupiter] J Galactic Centre → J Sun Dec 24.9986 25 whole (86.81)
-    - [Moon] S Moon → J Sun RA 0.2529 conj (69.13)
-    - [Sun] H Orion Nebula Cluster → H Sun RA 124.0151 124 whole (5.94)
-  - Jupiter: Jupiter, Moon, Sun — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
-    - [Jupiter] S Sun → J Jupiter Dec 0.2838 conj (0.29)
-    - [Jupiter] S Rahu → J Jupiter RA 105.1643 65×φ golden (57.00)
-    - [Jupiter] S Eris → J Jupiter RA 163.4121 101×φ golden (50.50)
-    - [Jupiter] J Galactic Centre → J Jupiter RA 42.9914 43 whole (32.30)
-    - [Moon] S Algol → J Jupiter RA 176.3744 109×φ golden (53.61)
-    - [Moon] J Zubenelgenubi → J Jupiter RA 0.7087 conj (27.83)
-    - [Sun] H Orion Nebula Cluster → H Jupiter Dec 4.0081 4 whole (35.67)
-    - [Sun] S Sun → J Jupiter Dec 0.2838 conj (0.29)
-    - [Sun] S Deneb → J Jupiter Dec 60.9871 61 whole (12.65)
-    - [Sun] J Zubenelgenubi → J Jupiter RA 0.7087 conj (27.83)
-  - Vesta: Moon, Sun — also: 2 Lynx De Thaix / Gavin Sheehan
-    - [Moon] H Vindemiatrix → H Vesta RA 88.9931 55×φ golden (92.69)
-    - [Moon] J Rigel → J Vesta RA 19.0051 19 whole (55.68)
-    - [Sun] H Orion Nebula Cluster → H Vesta Dec 15.9847 16 whole (5.55)
-  - Eris: Moon, Sun — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder
-    - [Moon] J Rigel → J Eris RA 55.5572 55.5556 ninth (98.43)
-    - [Moon] J Rigel → J Eris Dec 0.1721 conj (18.18)
-    - [Sun] H Orion Nebula Cluster → H Eris RA 57.9819 58 whole (0.91)
-    - [Sun] H Orion Nebula Cluster → H Eris Dec 3.9991 4 whole (91.07)
-    - [Sun] J Orion Nebula Cluster → J Eris Dec 2.9824 3 whole (1.47)
-  - Saturn: Moon, Sun — only
-    - [Moon] H Pleiades → H Saturn Dec 41.0067 41 whole (43.98)
-    - [Moon] H Sadalsuud → H Saturn Dec 11.3283 7×φ golden (87.91)
-    - [Moon] H Vindemiatrix → H Saturn RA 123.0181 123 whole (0.88)
-    - [Sun] H Scheat → H Saturn Dec 44.9847 45 whole (5.54)
-  - Sedna: Moon, Sun — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn
-    - [Moon] H Pleiades → H Sedna RA 1.4271 conj (0.24)
-    - [Sun] J Orion Nebula Cluster → J Sedna Dec 9.9916 10 whole (33.89)
-  - Makemake: Moon, Sun — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 7 Motazzen / Paul O'Brien
-    - [Moon] H Pleiades → H Makemake RA 142.3909 88×φ golden (77.40)
-    - [Moon] H Sadalsuud → H Makemake Dec 28.0102 28 whole (23.94)
-    - [Moon] J Sadalsuud → J Makemake Dec 38.9996 39 whole (95.66)
-    - [Sun] J Difda → J Makemake RA 163.4043 101×φ golden (22.08)
-  - Transpluto: Jupiter, Moon, Sun — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
-    - [Jupiter] S Jupiter → J Transpluto RA 0.8935 conj (16.35)
-    - [Moon] H Pleiades → H Transpluto RA 98.0023 98 whole (78.16)
-    - [Moon] H Sadalsuud → H Transpluto RA 168.0095 168 whole (27.52)
-    - [Moon] H Sadalsuud → H Transpluto Dec 16.0016 16 whole (84.42)
-    - [Sun] J Deneb Algedi → J Transpluto RA 179.4707 10×φ^6 phi power (93.86)
-  - Haumea: Moon, Sun — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
-    - [Moon] H Vindemiatrix → H Haumea RA 22.0162 22 whole (3.54)
-    - [Sun] S Haumea → J Haumea RA 29.1311 18×φ golden (loose)
-    - [Sun] J Orion Nebula Cluster → J Haumea Dec 26.9855 27 whole (7.59)
-  - Quaoar: Jupiter, Moon, Sun — only
-    - [Jupiter] S Jupiter → J Quaoar Dec 28.0030 28 whole (72.26)
-    - [Jupiter] J Capella → J Quaoar Dec 60.0075 60 whole (39.30)
-    - [Jupiter] J Galactic Centre → J Quaoar Dec 14.9976 15 whole (77.03)
-    - [Moon] J Algol → J Quaoar RA 168.2729 104×φ golden (84.47)
-    - [Sun] J Deneb Algedi → J Quaoar RA 87.9886 88 whole (18.65)
-  - Gonggong: Jupiter, Sun — only
-    - [Jupiter] J Capella → J Gonggong Dec 64.9831 65 whole (2.33)
-    - [Sun] S Sun → J Gonggong Dec 3.0007 3 whole (92.89)
-    - [Sun] J Difda → J Gonggong Dec 1.0017 1 whole (83.26)
+  - 101×φ golden — only
+    - S Eris → J Jupiter RA 163.4121 101×φ golden (50.50)
+    - J Difda → J Makemake RA 163.4043 101×φ golden (22.08)
+### L4 every natal body
+- **Mars**
+  - same body: S Mars → H Mars RA 136.0223 136 whole (loose) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy
+  - same body: S Mars → J Mars RA 22.1857 22.2222 ninth (loose) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy
+  - top rows: S Sun → J Mars Dec 37.2188 23×φ golden (76.52) — only
+- **Jupiter**
+  - same body: S Jupiter → H Jupiter RA 166.9263 166.667 ninth (loose) — also: 1 Fire Flyer / Richie McLernon, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+  - star rows: H Orion Nebula Cluster → H Jupiter Dec 4.0081 4 whole (35.67) — also: 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - top rows: S Sun → J Jupiter Dec 0.2838 conj (0.29) — also: 2 Lynx De Thaix / Gavin Sheehan, 6 So You Know / Tom Bellamy
+  - top rows: S Rahu → J Jupiter RA 105.1643 65×φ golden (57.00) — also: 2 Lynx De Thaix / Gavin Sheehan, 6 So You Know / Tom Bellamy
+  - top rows: S Eris → J Jupiter RA 163.4121 101×φ golden (50.50) — also: 7 Motazzen / Paul O'Brien
+  - star rows: S Algol → J Jupiter RA 176.3744 109×φ golden (53.61) — also: 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - star rows: S Deneb → J Jupiter Dec 60.9871 61 whole (12.65) — also: 2 Lynx De Thaix / Gavin Sheehan, 6 So You Know / Tom Bellamy
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - star rows: J Galactic Centre → J Jupiter RA 42.9914 43 whole (32.30) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
+  - star rows: J Zubenelgenubi → J Jupiter RA 0.7087 conj (27.83) — also: 1 Fire Flyer / Richie McLernon, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+- **Ceres**
+  - same body: S Ceres → H Ceres RA 57.9728 58 whole (loose) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+  - top rows: S Sun → H Ceres Dec 36.0023 36 whole (78.06) — also: 2 Lynx De Thaix / Gavin Sheehan
+  - star rows: H Capella → H Ceres Dec 25.9807 26 whole (0.13) — also: 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - star rows: H Difda → H Ceres Dec 38.0061 38 whole (48.01) — also: 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: H Pleiades → H Ceres RA 0.2274 conj (71.98) — also: 7 Motazzen / Paul O'Brien
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - top rows: S Moon → J Ceres RA 61.8006 100×φ^-1 phi power (98.19) — only
+  - star rows: J Deneb Algedi → J Ceres RA 160.9876 161 whole (14.50) — also: 5 He's A Latchico / Caoilin Quinn
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+- **Rahu**
+  - same body: S Rahu → H Rahu Dec 32.3615 20×φ golden (95.14) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+  - star rows: H Deneb → H Rahu RA 105.0175 105 whole (1.61) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - top rows: S Sun → J Rahu RA 1.4810 conj (0.02) — only
+  - star rows: J Deneb Algedi → J Rahu Dec 0.2999 conj (0.00) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: J Orion Nebula Cluster → J Rahu RA 139.0158 139 whole (4.49) — only
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - star rows: J Zubenelgenubi → J Rahu RA 0.1243 conj (84.11) — also: 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+- **Eris**
+  - same body: S Eris → H Eris RA 0.9922 1 whole (37.51) — also: 7 Motazzen / Paul O'Brien
+  - star rows: H Orion Nebula Cluster → H Eris RA 57.9819 58 whole (0.91) — only
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - star rows: H Orion Nebula Cluster → H Eris Dec 3.9991 4 whole (91.07) — only
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - star rows: J Orion Nebula Cluster → J Eris Dec 2.9824 3 whole (1.47) — only
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - star rows: J Rigel → J Eris RA 55.5572 55.5556 ninth (98.43) — also: 6 So You Know / Tom Bellamy
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+  - star rows: J Rigel → J Eris Dec 0.1721 conj (18.18) — also: 6 So You Know / Tom Bellamy
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+- **Makemake**
+  - same body: S Makemake → H Makemake RA 3.0058 3 whole (50.23) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+  - star rows: H Pleiades → H Makemake RA 142.3909 88×φ golden (77.40) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: H Sadalsuud → H Makemake Dec 28.0102 28 whole (23.94) — also: 6 So You Know / Tom Bellamy
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+  - star rows: J Difda → J Makemake RA 163.4043 101×φ golden (22.08) — also: 1 Fire Flyer / Richie McLernon
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: J Sadalsuud → J Makemake Dec 38.9996 39 whole (95.66) — also: 6 So You Know / Tom Bellamy
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+- **Ketu**
+  - same body: S Ketu → H Ketu Dec 32.3615 20×φ golden (95.14) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+    - source line: S Jupiter → Ketu RA 1.4603 conj (0.07)
+  - star rows: H Deneb → H Ketu RA 74.9825 75 whole (1.61) — also: 1 Fire Flyer / Richie McLernon
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+  - T2: J Jupiter → J Ketu RA 179.4156 10×φ^6 phi power (94.05) — also: 6 So You Know / Tom Bellamy
+  - star rows: J Orion Nebula Cluster → J Ketu RA 40.9842 41 whole (4.49) — only
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - star rows: J Sadalsuud → J Ketu Dec 21.9950 22 whole (56.44) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+- **Pluto**
+  - top rows: S Jupiter → H Pluto RA 152.0976 94×φ golden (85.40) — also: 3 Donnie Azoff / Isabelle Ryder
+  - star rows: J Rigel → J Pluto Dec 1.9840 2 whole (4.07) — also: 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+- **Chiron**
+  - top rows: S Moon → H Chiron Dec 14.5698 9×φ golden (59.10) — also: 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+  - star rows: H Sadalsuud → H Chiron Dec 11.0997 φ^5 phi power (68.58) — only
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+  - star rows: J Orion Nebula Cluster → J Chiron Dec 5.9987 6 whole (87.50) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - star rows: J Rigel → J Chiron RA 89.0185 89 whole (0.53) — only
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+- **Juno**
+  - top rows: S Moon → H Juno Dec 2.9999 3 whole (98.86) — only
+  - star rows: H Algol → H Juno Dec 53.0009 53 whole (91.32) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - star rows: H Scheat → H Juno RA 43.9906 44 whole (27.97) — also: 1 Fire Flyer / Richie McLernon, 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+  - star rows: H Vindemiatrix → H Juno Dec 22.9997 23 whole (96.62) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - star rows: H Zubenelgenubi → H Juno Dec 3.9994 4 whole (93.66) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+  - top rows: S Sun → J Juno RA 0.1964 conj (75.53) — only
+  - star rows: J Capella → J Juno RA 141.9870 142 whole (12.11) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - star rows: J Deneb → J Juno Dec 51.7761 32×φ golden (94.12) — also: 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)
+- **Mercury**
+  - star rows: H Algol → H Mercury RA 111.1551 111.111 ninth (92.81) — also: 5 He's A Latchico / Caoilin Quinn
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - star rows: H Algol → H Mercury Dec 60.0080 60 whole (36.21) — also: 5 He's A Latchico / Caoilin Quinn
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - star rows: H Difda → H Mercury RA 75.0082 75 whole (34.88) — also: 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: H Pleiades → H Mercury RA 120.9851 121 whole (6.41) — also: 7 Motazzen / Paul O'Brien
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: H Sadalsuud → H Mercury RA 26.9969 27 whole (71.31) — also: 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+  - star rows: H Vindemiatrix → H Mercury RA 100.3424 62×φ golden (6.28) — also: 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - star rows: H Vindemiatrix → H Mercury Dec 30.0067 30 whole (43.98) — also: 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - star rows: H Zubenelgenubi → H Mercury Dec 3.0077 3 whole (37.68) — also: 5 He's A Latchico / Caoilin Quinn
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+  - same body: S Mercury → J Mercury Dec 2.0112 2 whole (19.36) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+  - star rows: J Deneb Algedi → J Mercury Dec 0.1695 conj (18.92) — also: 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: J Rigel → J Mercury RA 132.6966 82×φ golden (20.29) — only
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+  - star rows: J Zubenelgenubi → J Mercury Dec 0.2550 conj (2.25) — also: 5 He's A Latchico / Caoilin Quinn
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+- **Venus**
+  - star rows: H Algol → H Venus RA 124.5631 77×φ golden (4.47) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - top rows: S Sun → J Venus RA 0.5505 conj (40.07) — only
+  - star rows: J Deneb Algedi → J Venus Dec 6.6660 6.66667 ninth (94.56) — also: 2 Lynx De Thaix / Gavin Sheehan, 6 So You Know / Tom Bellamy
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: J Difda → J Venus RA 148.9935 149 whole (45.55) — only
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+  - star rows: J Pleiades → J Venus RA 165.0338 102×φ golden (68.16) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: J Sadalsuud → J Venus RA 100.9841 101 whole (4.24) — also: 1 Fire Flyer / Richie McLernon
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+  - star rows: J Zubenelgenubi → J Venus RA 0.8062 conj (21.40) — also: 1 Fire Flyer / Richie McLernon, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Zubenelgenubi RA 1.3548 conj (0.94)
+    - source line: S Sun → Zubenelgenubi Dec 0.0550 conj (66.69)
+    - source line: S Moon → Zubenelgenubi Dec 6.9976 7 whole (77.13)
+- **Pallas**
+  - star rows: H Algol → H Pallas RA 46.0121 46 whole (15.44) — also: 1 Fire Flyer / Richie McLernon
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - star rows: J Rigel → J Pallas RA 17.9427 φ^6 phi power (96.61) — also: 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+- **Sun**
+  - star rows: H Galactic Centre → H Sun RA 53.3978 33×φ golden (83.86) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
+  - star rows: H Orion Nebula Cluster → H Sun RA 124.0151 124 whole (5.94) — also: 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - same body: S Sun → J Sun Dec 11.9759 12 whole (loose) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy
+  - top rows: S Jupiter → J Sun Dec 18.0019 18 whole (81.74) — only
+  - top rows: S Moon → J Sun RA 0.2529 conj (69.13) — only
+  - star rows: J Capella → J Sun Dec 50.0064 50 whole (46.37) — only
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - star rows: J Galactic Centre → J Sun Dec 24.9986 25 whole (86.81) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
+- **Vesta**
+  - star rows: H Orion Nebula Cluster → H Vesta Dec 15.9847 16 whole (5.55) — also: 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+  - star rows: H Vindemiatrix → H Vesta RA 88.9931 55×φ golden (92.69) — also: 1 Fire Flyer / Richie McLernon
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - star rows: J Rigel → J Vesta RA 19.0051 19 whole (55.68) — also: 1 Fire Flyer / Richie McLernon
+    - source line: S Moon → Rigel RA 110.9126 10×φ^5 phi power (96.10)
+- **Saturn**
+  - star rows: H Pleiades → H Saturn Dec 41.0067 41 whole (43.98) — only
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: H Sadalsuud → H Saturn Dec 11.3283 7×φ golden (87.91) — also: 6 So You Know / Tom Bellamy
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+  - star rows: H Scheat → H Saturn Dec 44.9847 45 whole (5.54) — also: 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Sun → Scheat RA 124.5897 77×φ golden (93.37)
+  - star rows: H Vindemiatrix → H Saturn RA 123.0181 123 whole (0.88) — also: 1 Fire Flyer / Richie McLernon, 6 So You Know / Tom Bellamy
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+- **Sedna**
+  - star rows: H Pleiades → H Sedna RA 1.4271 conj (0.24) — also: 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 6 So You Know / Tom Bellamy, 7 Motazzen / Paul O'Brien
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: J Orion Nebula Cluster → J Sedna Dec 9.9916 10 whole (33.89) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+- **Transpluto**
+  - star rows: H Pleiades → H Transpluto RA 98.0023 98 whole (78.16) — also: 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Moon → Pleiades RA 132.6746 82×φ golden (75.62)
+  - star rows: H Sadalsuud → H Transpluto RA 168.0095 168 whole (27.52) — also: 1 Fire Flyer / Richie McLernon
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+  - star rows: H Sadalsuud → H Transpluto Dec 16.0016 16 whole (84.42) — also: 1 Fire Flyer / Richie McLernon
+    - source line: S Moon → Sadalsuud RA 133.3387 133.333 ninth (99.36)
+  - top rows: S Jupiter → J Transpluto RA 0.8935 conj (16.35) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn, 7 Motazzen / Paul O'Brien
+  - star rows: J Deneb Algedi → J Transpluto RA 179.4707 10×φ^6 phi power (93.86) — also: 2 Lynx De Thaix / Gavin Sheehan, 3 Donnie Azoff / Isabelle Ryder, 7 Motazzen / Paul O'Brien
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+- **Haumea**
+  - star rows: H Vindemiatrix → H Haumea RA 22.0162 22 whole (3.54) — also: 5 He's A Latchico / Caoilin Quinn
+    - source line: S Moon → Vindemiatrix Dec 20.0034 20 whole (68.76)
+  - same body: S Haumea → J Haumea RA 29.1311 18×φ golden (loose) — also: 3 Donnie Azoff / Isabelle Ryder, 5 He's A Latchico / Caoilin Quinn
+    - source line: S Sun → Haumea RA 0.6231 conj (34.18)
+  - star rows: J Orion Nebula Cluster → J Haumea Dec 26.9855 27 whole (7.59) — only
+    - source line: S Sun → Orion Nebula Cluster RA 137.5320 85×φ golden (94.58)
+- **Gonggong**
+  - same body: S Gonggong → J Gonggong RA 7.0169 7 whole (2.41) — also: 1 Fire Flyer / Richie McLernon, 3 Donnie Azoff / Isabelle Ryder, 6 So You Know / Tom Bellamy
+  - top rows: S Sun → J Gonggong Dec 3.0007 3 whole (92.89) — also: 3 Donnie Azoff / Isabelle Ryder
+  - star rows: J Capella → J Gonggong Dec 64.9831 65 whole (2.33) — also: 1 Fire Flyer / Richie McLernon
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - star rows: J Difda → J Gonggong Dec 1.0017 1 whole (83.26) — also: 6 So You Know / Tom Bellamy
+    - source line: S Sun → Difda Dec 2.0002 2 whole (97.91)
+- **Quaoar**
+  - top rows: S Jupiter → J Quaoar Dec 28.0030 28 whole (72.26) — only
+  - star rows: J Algol → J Quaoar RA 168.2729 104×φ golden (84.47) — also: 1 Fire Flyer / Richie McLernon
+    - source line: S Moon → Algol Dec 49.9999 50 whole (98.95)
+  - star rows: J Capella → J Quaoar Dec 60.0075 60 whole (39.30) — also: 2 Lynx De Thaix / Gavin Sheehan
+    - source line: S Jupiter → Capella Dec 32.0016 32 whole (84.88)
+  - star rows: J Deneb Algedi → J Quaoar RA 87.9886 88 whole (18.65) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1438 conj (27.10)
+  - star rows: J Galactic Centre → J Quaoar Dec 14.9976 15 whole (77.03) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0004 43 whole (96.10)
+- **Neptune**
+  - top rows: S Moon → J Neptune Dec 12.2292 12.2222 ninth (90.34) — only
+- **Uranus**
+  - star rows: J Deneb → J Uranus RA 16.0164 16 whole (3.28) — also: 3 Donnie Azoff / Isabelle Ryder
+    - source line: S Sun → Deneb RA 88.9987 89 whole (87.17)

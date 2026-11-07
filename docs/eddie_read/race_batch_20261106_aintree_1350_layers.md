@@ -1,5 +1,5 @@
 # Stage 2 layers: race_batch_20261106_aintree_1350_jupiter_tables.xlsx
-Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_layers.py).
+The stage 1 data laid out in fixed layers for every runner; data only, no interpretation, no ranking, no pick (tools/eddie_layers.py).
 
 ## L0 field
 - In the tables workbook (7): 1 Dedicated Hero / Sam Twiston-Davies; 2 Bucephalus / Harriet Tucker; 3 Manuelito / Harry Cobden; 4 All In You / Sean Bowen; 5 Lyssenko / Harry Skelton; 6 Star Of Guiting / Craig Nichol; 7 King Ulanda / Jack Tudor
@@ -51,80 +51,132 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - S Transpluto → J Transpluto Dec 4.0245 4 whole (loose)
 ### L2 what lands on each same body
 - **H Sun** (same body: S Sun → H Sun RA 155.3704 155.556 ninth (loose))
-  - top rows: S Moon → H Sun Dec 16.0041 16 whole (63.44) [Moon]
-  - star rows: H Alpheratz → H Sun Dec 21.9891 22 whole (20.75) [Moon, Sun]
-  - star rows: H Altair → H Sun RA 79.0001 79 whole (98.80) [Moon]
-  - star rows: H Facies → H Sun Dec 31.0025 31 whole (76.61) [Moon]
-  - star rows: H Menkar → H Sun Dec 3.0105 3 whole (22.58) [Moon]
-  - star rows: H Scheat → H Sun Dec 20.9825 21 whole (1.50) [Moon]
-  - other chart, top rows: S Moon → J Sun Dec 0.1557 conj (23.13) [Moon]
-  - other chart, star rows: J Alphard → J Sun Dec 0.0946 conj (46.86) [Moon]
-  - other chart, star rows: J Hamal → J Sun RA 168.9904 169 whole (26.85) [Moon]
-  - other chart, star rows: J Meissa → J Sun RA 117.0017 117 whole (83.45) [Sun]
+  - top rows: S Moon → H Sun Dec 16.0041 16 whole (63.44)
+  - star rows: H Alpheratz → H Sun Dec 21.9891 22 whole (20.75)
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: H Altair → H Sun RA 79.0001 79 whole (98.80)
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: H Facies → H Sun Dec 31.0025 31 whole (76.61)
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - star rows: H Menkar → H Sun Dec 3.0105 3 whole (22.58)
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: H Scheat → H Sun Dec 20.9825 21 whole (1.50)
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+  - other chart, top rows: S Moon → J Sun Dec 0.1557 conj (23.13)
+  - other chart, star rows: J Alphard → J Sun Dec 0.0946 conj (46.86)
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - other chart, star rows: J Hamal → J Sun RA 168.9904 169 whole (26.85)
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - other chart, star rows: J Meissa → J Sun RA 117.0017 117 whole (83.45)
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
 - **H Mars** (same body: S Mars → H Mars RA 80.8957 50×φ golden (loose); S Mars → H Mars Dec 5.9884 6 whole (17.57))
-  - top rows: S Moon → H Mars RA 126.2081 78×φ golden (91.12) [Moon]
-  - star rows: H Facies → H Mars Dec 46.0155 46 whole (5.16) [Moon]
+  - top rows: S Moon → H Mars RA 126.2081 78×φ golden (91.12)
+  - star rows: H Facies → H Mars Dec 46.0155 46 whole (5.16)
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
   - other chart, same body: S Mars → J Mars Dec 6.9899 7 whole (24.31)
-  - other chart, star rows: J Alpheratz → J Mars Dec 5.9813 6 whole (0.43) [Moon, Sun]
-  - other chart, star rows: J Facies → J Mars Dec 47.0172 47 whole (2.02) [Moon]
+  - other chart, star rows: J Alpheratz → J Mars Dec 5.9813 6 whole (0.43)
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - other chart, star rows: J Facies → J Mars Dec 47.0172 47 whole (2.02)
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
 - **H Chiron** (same body: S Chiron → H Chiron RA 24.2985 15×φ golden (loose); S Chiron → H Chiron Dec 6.8553 φ^4 phi power (loose))
-  - star rows: H Alphard → H Chiron RA 140.7662 87×φ golden (83.78) [Moon]
-  - star rows: H Alpheratz → H Chiron RA 0.9586 conj (13.03) [Moon, Sun]
-  - star rows: H Menkar → H Chiron Dec 0.2613 conj (1.66) [Moon]
-  - other chart, star rows: J Alphard → J Chiron RA 0.1966 conj (75.51) [Moon]
-  - other chart, star rows: J Alphard → J Chiron Dec 17.0171 17 whole (2.10) [Moon]
-  - other chart, star rows: J Altair → J Chiron RA 155.9970 156 whole (72.04) [Moon]
-  - other chart, star rows: J Zubenelgenubi → J Chiron RA 81.0167 81 whole (2.72) [Sun]
+  - star rows: H Alphard → H Chiron RA 140.7662 87×φ golden (83.78)
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - star rows: H Alpheratz → H Chiron RA 0.9586 conj (13.03)
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: H Menkar → H Chiron Dec 0.2613 conj (1.66)
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - other chart, star rows: J Alphard → J Chiron RA 0.1966 conj (75.51)
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - other chart, star rows: J Alphard → J Chiron Dec 17.0171 17 whole (2.10)
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - other chart, star rows: J Altair → J Chiron RA 155.9970 156 whole (72.04)
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - other chart, star rows: J Zubenelgenubi → J Chiron RA 81.0167 81 whole (2.72)
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
 - **H Pallas** (same body: S Pallas → H Pallas RA 165.7664 166.667 ninth (loose); S Pallas → H Pallas Dec 37.9950 38 whole (56.58))
-  - star rows: H Capella → H Pallas RA 129.9883 130 whole (17.33) [Jupiter]
+  - star rows: H Capella → H Pallas RA 129.9883 130 whole (17.33)
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
   - other chart, same body: S Pallas → J Pallas RA 105.1520 65×φ golden (14.15)
   - other chart, same body: S Pallas → J Pallas Dec 27.0007 27 whole (93.16)
-  - other chart, star rows: J Acumen → J Pallas RA 1.3123 conj (1.57) [Moon]
-  - other chart, star rows: J Deneb Algedi → J Pallas RA 56.9906 57 whole (28.00) [Sun]
-  - other chart, star rows: J Meissa → J Pallas RA 174.0154 174 whole (5.33) [Sun]
+  - other chart, star rows: J Acumen → J Pallas RA 1.3123 conj (1.57)
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - other chart, star rows: J Deneb Algedi → J Pallas RA 56.9906 57 whole (28.00)
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - other chart, star rows: J Meissa → J Pallas RA 174.0154 174 whole (5.33)
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
 - **H Makemake** (same body: S Makemake → H Makemake Dec 4.8482 3×φ golden (loose))
-  - body line: S Moon → Makemake RA 12.9972 13 whole (73.81)
-  - star rows: H Altair → H Makemake Dec 15.5549 15.5556 ninth (99.33) [Moon]
-  - star rows: H Menkar → H Makemake RA 150.4961 93×φ golden (17.23) [Moon]
+  - sky line to Makemake: S Moon → Makemake RA 12.9972 13 whole (73.81)
+  - star rows: H Altair → H Makemake Dec 15.5549 15.5556 ninth (99.33)
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: H Menkar → H Makemake RA 150.4961 93×φ golden (17.23)
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
   - other chart, same body: S Makemake → J Makemake Dec 14.4948 14.4444 ninth (loose)
-  - other chart, star rows: J Hamal → J Makemake RA 140.7498 87×φ golden (16.60) [Moon]
-  - other chart, star rows: J Scheat → J Makemake Dec 5.9830 6 whole (2.25) [Moon]
+  - other chart, star rows: J Hamal → J Makemake RA 140.7498 87×φ golden (16.60)
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - other chart, star rows: J Scheat → J Makemake Dec 5.9830 6 whole (2.25)
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
 - **J Mercury** (same body: S Mercury → J Mercury RA 1.9728 2 whole (loose))
-  - top rows: S Sun → J Mercury Dec 1.0023 1 whole (78.56) [Sun]
-  - star rows: J Pollux → J Mercury Dec 45.0043 45 whole (61.83) [Sun]
-  - other chart, star rows: H Alpheratz → H Mercury RA 9.9827 10 whole (1.77) [Moon, Sun]
-  - other chart, star rows: H Facies → H Mercury RA 73.0087 73 whole (32.13) [Moon]
+  - top rows: S Sun → J Mercury Dec 1.0023 1 whole (78.56)
+  - star rows: J Pollux → J Mercury Dec 45.0043 45 whole (61.83)
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - other chart, star rows: H Alpheratz → H Mercury RA 9.9827 10 whole (1.77)
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - other chart, star rows: H Facies → H Mercury RA 73.0087 73 whole (32.13)
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
 - **J Mars** (same body: S Mars → J Mars Dec 6.9899 7 whole (24.31))
-  - star rows: J Alpheratz → J Mars Dec 5.9813 6 whole (0.43) [Moon, Sun]
-  - star rows: J Facies → J Mars Dec 47.0172 47 whole (2.02) [Moon]
+  - star rows: J Alpheratz → J Mars Dec 5.9813 6 whole (0.43)
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: J Facies → J Mars Dec 47.0172 47 whole (2.02)
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
   - other chart, same body: S Mars → H Mars RA 80.8957 50×φ golden (loose)
   - other chart, same body: S Mars → H Mars Dec 5.9884 6 whole (17.57)
-  - other chart, top rows: S Moon → H Mars RA 126.2081 78×φ golden (91.12) [Moon]
-  - other chart, star rows: H Facies → H Mars Dec 46.0155 46 whole (5.16) [Moon]
+  - other chart, top rows: S Moon → H Mars RA 126.2081 78×φ golden (91.12)
+  - other chart, star rows: H Facies → H Mars Dec 46.0155 46 whole (5.16)
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
 - **J Pallas** (same body: S Pallas → J Pallas RA 105.1520 65×φ golden (14.15); S Pallas → J Pallas Dec 27.0007 27 whole (93.16))
-  - star rows: J Acumen → J Pallas RA 1.3123 conj (1.57) [Moon]
-  - star rows: J Deneb Algedi → J Pallas RA 56.9906 57 whole (28.00) [Sun]
-  - star rows: J Meissa → J Pallas RA 174.0154 174 whole (5.33) [Sun]
+  - star rows: J Acumen → J Pallas RA 1.3123 conj (1.57)
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - star rows: J Deneb Algedi → J Pallas RA 56.9906 57 whole (28.00)
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - star rows: J Meissa → J Pallas RA 174.0154 174 whole (5.33)
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
   - other chart, same body: S Pallas → H Pallas RA 165.7664 166.667 ninth (loose)
   - other chart, same body: S Pallas → H Pallas Dec 37.9950 38 whole (56.58)
-  - other chart, star rows: H Capella → H Pallas RA 129.9883 130 whole (17.33) [Jupiter]
+  - other chart, star rows: H Capella → H Pallas RA 129.9883 130 whole (17.33)
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
 - **J Makemake** (same body: S Makemake → J Makemake Dec 14.4948 14.4444 ninth (loose))
-  - body line: S Moon → Makemake RA 12.9972 13 whole (73.81)
-  - star rows: J Hamal → J Makemake RA 140.7498 87×φ golden (16.60) [Moon]
-  - star rows: J Scheat → J Makemake Dec 5.9830 6 whole (2.25) [Moon]
+  - sky line to Makemake: S Moon → Makemake RA 12.9972 13 whole (73.81)
+  - star rows: J Hamal → J Makemake RA 140.7498 87×φ golden (16.60)
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - star rows: J Scheat → J Makemake Dec 5.9830 6 whole (2.25)
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
   - other chart, same body: S Makemake → H Makemake Dec 4.8482 3×φ golden (loose)
-  - other chart, star rows: H Altair → H Makemake Dec 15.5549 15.5556 ninth (99.33) [Moon]
-  - other chart, star rows: H Menkar → H Makemake RA 150.4961 93×φ golden (17.23) [Moon]
+  - other chart, star rows: H Altair → H Makemake Dec 15.5549 15.5556 ninth (99.33)
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - other chart, star rows: H Menkar → H Makemake RA 150.4961 93×φ golden (17.23)
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
 - **J Quaoar** (same body: S Quaoar → J Quaoar RA 44.3849 44.4444 ninth (loose))
 - **J Transpluto** (same body: S Transpluto → J Transpluto RA 11.0676 φ^5 phi power (loose); S Transpluto → J Transpluto Dec 4.0245 4 whole (loose))
-  - top rows: S Jupiter → J Transpluto RA 1.4849 conj (0.01) [Jupiter]
-  - top rows: S Jupiter → J Transpluto Dec 0.2428 conj (3.63) [Jupiter]
-  - top rows: S Moon → J Transpluto Dec 22.6567 14×φ golden (75.62) [Moon]
-  - star rows: J Acumen → J Transpluto Dec 48.5447 30×φ golden (78.29) [Moon]
-  - other chart, star rows: H Galactic Centre → H Transpluto RA 112.9942 113 whole (50.15) [Jupiter]
-  - other chart, star rows: H Galactic Centre → H Transpluto Dec 39.9835 40 whole (3.03) [Jupiter]
-  - other chart, star rows: H Zubenelgenubi → H Transpluto Dec 27.0197 27 whole (0.02) [Sun]
-### L3 the seven cases (L5 field tag on each)
+  - top rows: S Jupiter → J Transpluto RA 1.4849 conj (0.01)
+  - top rows: S Jupiter → J Transpluto Dec 0.2428 conj (3.63)
+  - top rows: S Moon → J Transpluto Dec 22.6567 14×φ golden (75.62)
+  - star rows: J Acumen → J Transpluto Dec 48.5447 30×φ golden (78.29)
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - other chart, star rows: H Galactic Centre → H Transpluto RA 112.9942 113 whole (50.15)
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - other chart, star rows: H Galactic Centre → H Transpluto Dec 39.9835 40 whole (3.03)
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - other chart, star rows: H Zubenelgenubi → H Transpluto Dec 27.0197 27 whole (0.02)
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+### L3 matches
 - **1. same body on both charts**
   - Mars — only
     - S Mars → H Mars RA 80.8957 50×φ golden (loose)
@@ -180,154 +232,347 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 37 whole — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
     - J Scheat → J Eris Dec 37.0068 37 whole (43.69) = S Moon → Scheat Dec 36.9937 37 whole (47.09)
 - **4. circle divisions**
-  - 6 = 360/60 — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - 6 = 360/60 — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
     - S Mars → H Mars Dec 5.9884 6 whole (17.57)
-  - 30 = 360/12 — also: 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - 8 = 360/45 — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - H Alphard → H Ceres Dec 8.0193 8 whole (0.14)
+  - 10 = 360/36 — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - H Alpheratz → H Mercury RA 9.9827 10 whole (1.77)
+  - 3 = 360/120 — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+    - H Altair → H Pluto RA 3.0127 3 whole (13.23)
+  - 40 = 360/9 — also: 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - H Galactic Centre → H Transpluto Dec 39.9835 40 whole (3.03)
+  - 3 = 360/120 — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+    - H Meissa → H Juno Dec 3.0197 3 whole (0.02)
+  - 30 = 360/12 — also: 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
     - H Meissa → H Rahu RA 30.0007 30 whole (92.86)
+  - 3 = 360/120 — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+    - H Menkar → H Sun Dec 3.0105 3 whole (22.58)
   - 2 = 360/180 — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
     - S Mercury → J Mercury RA 1.9728 2 whole (loose)
-  - 4 = 360/90 — also: 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+  - 4 = 360/90 — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
     - S Transpluto → J Transpluto Dec 4.0245 4 whole (loose)
-  - 1 = 360/360 — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - 1 = 360/360 — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
     - S Sun → J Mercury Dec 1.0023 1 whole (78.56)
-  - 3 = 360/120 — also: 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton
+  - 3 = 360/120 — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
     - S Sun → J Vesta Dec 2.9994 3 whole (94.00)
-  - 45 = 360/8 — only
+  - 15 = 360/24 — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - J Acumen → J Venus Dec 15.0141 15 whole (8.69)
+  - 9 = 360/40 — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+    - J Alphard → J Orcus RA 8.9939 9 whole (48.64)
+  - 6 = 360/60 — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - J Alpheratz → J Mars Dec 5.9813 6 whole (0.43)
+  - 15 = 360/24 — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - J Facies → J Eris Dec 14.9840 15 whole (4.04)
+  - 45 = 360/8 — also: 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
     - J Pollux → J Mercury Dec 45.0043 45 whole (61.83)
+  - 6 = 360/60 — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - J Scheat → J Makemake Dec 5.9830 6 whole (2.25)
 - **5. same number in more than one place**
+  - 6 whole — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - S Mars → H Mars Dec 5.9884 6 whole (17.57)
+    - J Alpheratz → J Mars Dec 5.9813 6 whole (0.43)
+    - J Scheat → J Makemake Dec 5.9830 6 whole (2.25)
+  - 38 whole — also: 2 Bucephalus / Harriet Tucker
+    - S Pallas → H Pallas Dec 37.9950 38 whole (56.58)
+    - J Alpheratz → J Eris Dec 38.0144 38 whole (7.71)
+  - 21 whole — only
+    - S Jupiter → H Venus Dec 21.0022 21 whole (79.50)
+    - H Scheat → H Sun Dec 20.9825 21 whole (1.50)
+  - 14 whole — also: 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+    - H Alphard → H Jupiter Dec 14.0101 14 whole (24.45)
+    - J Deneb Algedi → J Ceres Dec 13.9890 14 whole (20.40)
+  - 87×φ golden — only
+    - H Alphard → H Chiron RA 140.7662 87×φ golden (83.78)
+    - J Hamal → J Makemake RA 140.7498 87×φ golden (16.60)
+  - 22 whole — also: 3 Manuelito / Harry Cobden, 7 King Ulanda / Jack Tudor
+    - H Alpheratz → H Sun Dec 21.9891 22 whole (20.75)
+    - H Facies → H Eris Dec 22.0170 22 whole (2.22)
+    - H Galactic Centre → H Venus Dec 21.9985 22 whole (85.79)
+  - 3 whole — also: 2 Bucephalus / Harriet Tucker
+    - H Altair → H Pluto RA 3.0127 3 whole (13.23)
+    - H Meissa → H Juno Dec 3.0197 3 whole (0.02)
+    - H Menkar → H Sun Dec 3.0105 3 whole (22.58)
+    - S Sun → J Vesta Dec 2.9994 3 whole (94.00)
+  - 52 whole — only
+    - H Capella → H Neptune Dec 51.9931 52 whole (42.97)
+    - J Menkar → J Juno RA 51.9970 52 whole (72.36)
   - 144.444 ninth — only
     - H Capella → H Pluto RA 144.4840 144.444 ninth (95.82)
     - J Menkar → J Haumea RA 144.4725 144.444 ninth (97.03)
   - φ^5 phi power — only
     - H Menkar → H Venus Dec 11.0962 φ^5 phi power (79.38)
     - S Transpluto → J Transpluto RA 11.0676 φ^5 phi power (loose)
-- **6. star and sky line on one body**: none
-- **7. centres meeting**
-  - Venus: Jupiter, Moon — only
-    - [Jupiter] S Jupiter → H Venus Dec 21.0022 21 whole (79.50)
-    - [Jupiter] H Capella → H Venus Dec 53.0063 53 whole (46.66)
-    - [Jupiter] H Galactic Centre → H Venus Dec 21.9985 22 whole (85.79)
-    - [Moon] H Menkar → H Venus Dec 11.0962 φ^5 phi power (79.38)
-    - [Moon] H Scheat → H Venus RA 0.7300 conj (26.35)
-    - [Moon] J Acumen → J Venus Dec 15.0141 15 whole (8.69)
-  - Sun: Moon, Sun — also: 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
-    - [Moon] S Moon → H Sun Dec 16.0041 16 whole (63.44)
-    - [Moon] H Alpheratz → H Sun Dec 21.9891 22 whole (20.75)
-    - [Moon] H Altair → H Sun RA 79.0001 79 whole (98.80)
-    - [Moon] H Facies → H Sun Dec 31.0025 31 whole (76.61)
-    - [Moon] H Menkar → H Sun Dec 3.0105 3 whole (22.58)
-    - [Moon] H Scheat → H Sun Dec 20.9825 21 whole (1.50)
-    - [Moon] S Moon → J Sun Dec 0.1557 conj (23.13)
-    - [Moon] J Alphard → J Sun Dec 0.0946 conj (46.86)
-    - [Moon] J Hamal → J Sun RA 168.9904 169 whole (26.85)
-    - [Sun] H Alpheratz → H Sun Dec 21.9891 22 whole (20.75)
-    - [Sun] J Meissa → J Sun RA 117.0017 117 whole (83.45)
-  - Mars: Moon, Sun — also: 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
-    - [Moon] S Moon → H Mars RA 126.2081 78×φ golden (91.12)
-    - [Moon] H Facies → H Mars Dec 46.0155 46 whole (5.16)
-    - [Moon] J Alpheratz → J Mars Dec 5.9813 6 whole (0.43)
-    - [Moon] J Facies → J Mars Dec 47.0172 47 whole (2.02)
-    - [Sun] J Alpheratz → J Mars Dec 5.9813 6 whole (0.43)
-  - Haumea: Jupiter, Moon — also: 6 Star Of Guiting / Craig Nichol
-    - [Jupiter] J Capella → J Haumea Dec 24.1437 24.14 silver (97.39)
-    - [Moon] S Moon → H Haumea RA 25.0005 25 whole (95.25)
-    - [Moon] S Moon → J Haumea RA 0.7758 conj (23.31)
-    - [Moon] J Altair → J Haumea Dec 12.9831 13 whole (2.41)
-    - [Moon] J Menkar → J Haumea RA 144.4725 144.444 ninth (97.03)
-  - Jupiter: Jupiter, Moon, Sun — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
-    - [Jupiter] S Ceres → H Jupiter Dec 46.9298 29×φ golden (62.33)
-    - [Jupiter] S Neptune → J Jupiter RA 179.4471 10×φ^6 phi power (99.03)
-    - [Moon] H Alphard → H Jupiter Dec 14.0101 14 whole (24.45)
-    - [Moon] S Menkar → H Jupiter RA 141.9949 142 whole (55.80)
-    - [Moon] J Acumen → J Jupiter RA 86.9868 87 whole (11.60)
-    - [Sun] H Pollux → H Jupiter RA 147.2544 91×φ golden (34.56)
-  - Uranus: Moon, Sun — also: 7 King Ulanda / Jack Tudor
-    - [Moon] H Acumen → H Uranus RA 120.9966 121 whole (68.65)
-    - [Sun] J Meissa → J Uranus Dec 33.0197 33 whole (0.03)
-  - Chiron: Moon, Sun — also: 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
-    - [Moon] H Alphard → H Chiron RA 140.7662 87×φ golden (83.78)
-    - [Moon] H Alpheratz → H Chiron RA 0.9586 conj (13.03)
-    - [Moon] H Menkar → H Chiron Dec 0.2613 conj (1.66)
-    - [Moon] J Alphard → J Chiron RA 0.1966 conj (75.51)
-    - [Moon] J Alphard → J Chiron Dec 17.0171 17 whole (2.10)
-    - [Moon] J Altair → J Chiron RA 155.9970 156 whole (72.04)
-    - [Sun] H Alpheratz → H Chiron RA 0.9586 conj (13.03)
-    - [Sun] J Zubenelgenubi → J Chiron RA 81.0167 81 whole (2.72)
-  - Ceres: Moon, Sun — also: 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
-    - [Moon] H Alphard → H Ceres Dec 8.0193 8 whole (0.14)
-    - [Moon] J Altair → J Ceres Dec 38.9854 39 whole (7.27)
-    - [Sun] J Deneb Algedi → J Ceres Dec 13.9890 14 whole (20.40)
-  - Eris: Moon, Sun — also: 3 Manuelito / Harry Cobden, 7 King Ulanda / Jack Tudor
-    - [Moon] H Alphard → H Eris RA 115.9943 116 whole (51.20)
-    - [Moon] H Facies → H Eris Dec 22.0170 22 whole (2.22)
-    - [Moon] S Moon → J Eris Dec 0.0146 conj (90.49)
-    - [Moon] J Alphard → J Eris Dec 0.2650 conj (1.36)
-    - [Moon] J Alpheratz → J Eris Dec 38.0144 38 whole (7.71)
-    - [Moon] J Altair → J Eris RA 85.0184 85 whole (0.66)
-    - [Moon] J Altair → J Eris Dec 17.7913 11×φ golden (60.93)
-    - [Moon] J Facies → J Eris Dec 14.9840 15 whole (4.04)
-    - [Moon] J Menkar → J Eris Dec 13.0127 13 whole (13.33)
-    - [Moon] J Scheat → J Eris Dec 37.0068 37 whole (43.69)
-    - [Sun] J Alpheratz → J Eris Dec 38.0144 38 whole (7.71)
-    - [Sun] J Zubenelgenubi → J Eris RA 159.9987 160 whole (86.99)
-  - Mercury: Moon, Sun — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
-    - [Moon] H Alpheratz → H Mercury RA 9.9827 10 whole (1.77)
-    - [Moon] H Facies → H Mercury RA 73.0087 73 whole (32.13)
-    - [Sun] H Alpheratz → H Mercury RA 9.9827 10 whole (1.77)
-    - [Sun] S Sun → J Mercury Dec 1.0023 1 whole (78.56)
-    - [Sun] J Pollux → J Mercury Dec 45.0043 45 whole (61.83)
-  - Pluto: Jupiter, Moon — also: 6 Star Of Guiting / Craig Nichol
-    - [Jupiter] H Capella → H Pluto RA 144.4840 144.444 ninth (95.82)
-    - [Moon] H Altair → H Pluto RA 3.0127 3 whole (13.23)
-    - [Moon] J Facies → J Pluto Dec 19.4153 12×φ golden (93.32)
-  - Neptune: Jupiter, Sun — only
-    - [Jupiter] H Capella → H Neptune Dec 51.9931 52 whole (42.97)
-    - [Jupiter] H Galactic Centre → H Neptune Dec 23.0118 23 whole (17.00)
-    - [Sun] H Pollux → H Neptune RA 127.8290 79×φ golden (74.90)
-  - Pallas: Jupiter, Moon, Sun — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
-    - [Jupiter] H Capella → H Pallas RA 129.9883 130 whole (17.33)
-    - [Moon] J Acumen → J Pallas RA 1.3123 conj (1.57)
-    - [Sun] J Deneb Algedi → J Pallas RA 56.9906 57 whole (28.00)
-    - [Sun] J Meissa → J Pallas RA 174.0154 174 whole (5.33)
-  - Transpluto: Jupiter, Moon, Sun — also: 3 Manuelito / Harry Cobden, 7 King Ulanda / Jack Tudor
-    - [Jupiter] H Galactic Centre → H Transpluto RA 112.9942 113 whole (50.15)
-    - [Jupiter] H Galactic Centre → H Transpluto Dec 39.9835 40 whole (3.03)
-    - [Jupiter] S Jupiter → J Transpluto RA 1.4849 conj (0.01)
-    - [Jupiter] S Jupiter → J Transpluto Dec 0.2428 conj (3.63)
-    - [Moon] S Moon → J Transpluto Dec 22.6567 14×φ golden (75.62)
-    - [Moon] J Acumen → J Transpluto Dec 48.5447 30×φ golden (78.29)
-    - [Sun] H Zubenelgenubi → H Transpluto Dec 27.0197 27 whole (0.02)
-  - Rahu: Moon, Sun — also: 2 Bucephalus / Harriet Tucker, 7 King Ulanda / Jack Tudor
-    - [Moon] H Hamal → H Rahu RA 81.9941 82 whole (49.42)
-    - [Moon] H Scheat → H Rahu RA 127.8432 79×φ golden (18.20)
-    - [Moon] J Altair → J Rahu RA 35.0120 35 whole (16.05)
-    - [Sun] H Meissa → H Rahu RA 30.0007 30 whole (92.86)
-  - Ketu: Moon, Sun — also: 3 Manuelito / Harry Cobden
-    - [Moon] H Hamal → H Ketu RA 98.0059 98 whole (49.42)
-    - [Moon] J Altair → J Ketu RA 144.9880 145 whole (16.05)
-    - [Moon] J Hamal → J Ketu Dec 0.1947 conj (12.33)
-    - [Sun] H Meissa → H Ketu RA 149.9993 150 whole (92.86)
-    - [Sun] J Meissa → J Ketu RA 1.1044 conj (6.96)
-    - [Sun] J Meissa → J Ketu Dec 13.3343 13.3333 ninth (98.86)
-  - Juno: Moon, Sun — also: 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
-    - [Moon] J Alpheratz → J Juno RA 95.4697 59×φ golden (67.72)
-    - [Moon] J Menkar → J Juno RA 51.9970 52 whole (72.36)
-    - [Moon] J Scheat → J Juno RA 111.6241 69×φ golden (14.04)
-    - [Sun] H Meissa → H Juno RA 0.0357 conj (95.30)
-    - [Sun] H Meissa → H Juno Dec 3.0197 3 whole (0.02)
-    - [Sun] H Zubenelgenubi → H Juno Dec 28.9962 29 whole (65.34)
-    - [Sun] J Alpheratz → J Juno RA 95.4697 59×φ golden (67.72)
-  - Orcus: Moon, Sun — also: 7 King Ulanda / Jack Tudor
-    - [Moon] J Alphard → J Orcus RA 8.9939 9 whole (48.64)
-    - [Sun] H Pollux → H Orcus RA 37.0171 37 whole (2.12)
-  - Vesta: Moon, Sun — also: 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
-    - [Moon] J Acumen → J Vesta RA 44.0030 44 whole (71.86)
-    - [Sun] S Sun → J Vesta Dec 2.9994 3 whole (94.00)
-    - [Sun] J Pollux → J Vesta Dec 41.0026 41 whole (75.60)
-  - Sedna: Moon, Sun — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
-    - [Moon] J Alpheratz → J Sedna RA 41.4223 41.4 silver (99.10)
-    - [Moon] J Menkar → J Sedna Dec 0.2185 conj (7.37)
-    - [Sun] J Alpheratz → J Sedna RA 41.4223 41.4 silver (99.10)
+  - 79×φ golden — only
+    - H Pollux → H Neptune RA 127.8290 79×φ golden (74.90)
+    - H Scheat → H Rahu RA 127.8432 79×φ golden (18.20)
+  - 37 whole — also: 4 All In You / Sean Bowen
+    - H Pollux → H Orcus RA 37.0171 37 whole (2.12)
+    - J Scheat → J Eris Dec 37.0068 37 whole (43.69)
+  - 27 whole — only
+    - H Zubenelgenubi → H Transpluto Dec 27.0197 27 whole (0.02)
+    - S Pallas → J Pallas Dec 27.0007 27 whole (93.16)
+  - 15 whole — also: 3 Manuelito / Harry Cobden
+    - J Acumen → J Venus Dec 15.0141 15 whole (8.69)
+    - J Facies → J Eris Dec 14.9840 15 whole (4.04)
+  - 17 whole — only
+    - J Alphard → J Chiron Dec 17.0171 17 whole (2.10)
+    - J Altair → J Saturn RA 16.9876 17 whole (14.49)
+  - 13 whole — only
+    - J Altair → J Haumea Dec 12.9831 13 whole (2.41)
+    - J Menkar → J Eris Dec 13.0127 13 whole (13.33)
+### L4 every natal body
+- **Sun**
+  - same body: S Sun → H Sun RA 155.3704 155.556 ninth (loose) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - top rows: S Moon → H Sun Dec 16.0041 16 whole (63.44) — also: 5 Lyssenko / Harry Skelton
+  - star rows: H Alpheratz → H Sun Dec 21.9891 22 whole (20.75) — only
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: H Altair → H Sun RA 79.0001 79 whole (98.80) — also: 4 All In You / Sean Bowen
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: H Facies → H Sun Dec 31.0025 31 whole (76.61) — also: 4 All In You / Sean Bowen
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - star rows: H Menkar → H Sun Dec 3.0105 3 whole (22.58) — also: 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: H Scheat → H Sun Dec 20.9825 21 whole (1.50) — also: 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+  - top rows: S Moon → J Sun Dec 0.1557 conj (23.13) — also: 5 Lyssenko / Harry Skelton
+  - star rows: J Alphard → J Sun Dec 0.0946 conj (46.86) — also: 2 Bucephalus / Harriet Tucker
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - star rows: J Hamal → J Sun RA 168.9904 169 whole (26.85) — also: 2 Bucephalus / Harriet Tucker
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - star rows: J Meissa → J Sun RA 117.0017 117 whole (83.45) — also: 5 Lyssenko / Harry Skelton
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+- **Mars**
+  - same body: S Mars → H Mars RA 80.8957 50×φ golden (loose) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - same body: S Mars → H Mars Dec 5.9884 6 whole (17.57) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - top rows: S Moon → H Mars RA 126.2081 78×φ golden (91.12) — also: 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+  - star rows: H Facies → H Mars Dec 46.0155 46 whole (5.16) — also: 4 All In You / Sean Bowen
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - same body: S Mars → J Mars Dec 6.9899 7 whole (24.31) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - star rows: J Alpheratz → J Mars Dec 5.9813 6 whole (0.43) — also: 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: J Facies → J Mars Dec 47.0172 47 whole (2.02) — also: 4 All In You / Sean Bowen
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+- **Chiron**
+  - same body: S Chiron → H Chiron RA 24.2985 15×φ golden (loose) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - same body: S Chiron → H Chiron Dec 6.8553 φ^4 phi power (loose) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - star rows: H Alphard → H Chiron RA 140.7662 87×φ golden (83.78) — also: 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - star rows: H Alpheratz → H Chiron RA 0.9586 conj (13.03) — also: 3 Manuelito / Harry Cobden, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: H Menkar → H Chiron Dec 0.2613 conj (1.66) — only
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: J Alphard → J Chiron RA 0.1966 conj (75.51) — also: 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - star rows: J Alphard → J Chiron Dec 17.0171 17 whole (2.10) — also: 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - star rows: J Altair → J Chiron RA 155.9970 156 whole (72.04) — also: 4 All In You / Sean Bowen
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: J Zubenelgenubi → J Chiron RA 81.0167 81 whole (2.72) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+- **Pallas**
+  - same body: S Pallas → H Pallas RA 165.7664 166.667 ninth (loose) — also: 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol
+  - same body: S Pallas → H Pallas Dec 37.9950 38 whole (56.58) — also: 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol
+  - star rows: H Capella → H Pallas RA 129.9883 130 whole (17.33) — also: 7 King Ulanda / Jack Tudor
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - same body: S Pallas → J Pallas RA 105.1520 65×φ golden (14.15) — also: 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol
+  - same body: S Pallas → J Pallas Dec 27.0007 27 whole (93.16) — also: 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol
+  - star rows: J Acumen → J Pallas RA 1.3123 conj (1.57) — also: 4 All In You / Sean Bowen
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - star rows: J Deneb Algedi → J Pallas RA 56.9906 57 whole (28.00) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - star rows: J Meissa → J Pallas RA 174.0154 174 whole (5.33) — also: 4 All In You / Sean Bowen
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+- **Makemake**
+  - same body: S Makemake → H Makemake Dec 4.8482 3×φ golden (loose) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Makemake RA 12.9972 13 whole (73.81)
+  - star rows: H Altair → H Makemake Dec 15.5549 15.5556 ninth (99.33) — also: 3 Manuelito / Harry Cobden
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: H Menkar → H Makemake RA 150.4961 93×φ golden (17.23) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - same body: S Makemake → J Makemake Dec 14.4948 14.4444 ninth (loose) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Makemake RA 12.9972 13 whole (73.81)
+  - star rows: J Hamal → J Makemake RA 140.7498 87×φ golden (16.60) — also: 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - star rows: J Scheat → J Makemake Dec 5.9830 6 whole (2.25) — also: 2 Bucephalus / Harriet Tucker
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+- **Venus**
+  - top rows: S Jupiter → H Venus Dec 21.0022 21 whole (79.50) — only
+  - star rows: H Capella → H Venus Dec 53.0063 53 whole (46.66) — also: 4 All In You / Sean Bowen
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: H Galactic Centre → H Venus Dec 21.9985 22 whole (85.79) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: H Menkar → H Venus Dec 11.0962 φ^5 phi power (79.38) — also: 2 Bucephalus / Harriet Tucker
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: H Scheat → H Venus RA 0.7300 conj (26.35) — also: 4 All In You / Sean Bowen
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+  - star rows: J Acumen → J Venus Dec 15.0141 15 whole (8.69) — also: 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+- **Haumea**
+  - top rows: S Moon → H Haumea RA 25.0005 25 whole (95.25) — also: 5 Lyssenko / Harry Skelton
+  - top rows: S Moon → J Haumea RA 0.7758 conj (23.31) — also: 5 Lyssenko / Harry Skelton
+  - star rows: J Altair → J Haumea Dec 12.9831 13 whole (2.41) — also: 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: J Capella → J Haumea Dec 24.1437 24.14 silver (97.39) — also: 2 Bucephalus / Harriet Tucker
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: J Menkar → J Haumea RA 144.4725 144.444 ninth (97.03) — only
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+- **Jupiter**
+  - top rows: S Ceres → H Jupiter Dec 46.9298 29×φ golden (62.33) — also: 2 Bucephalus / Harriet Tucker
+  - star rows: H Alphard → H Jupiter Dec 14.0101 14 whole (24.45) — also: 3 Manuelito / Harry Cobden
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - star rows: S Menkar → H Jupiter RA 141.9949 142 whole (55.80) — also: 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: H Pollux → H Jupiter RA 147.2544 91×φ golden (34.56) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - top rows: S Neptune → J Jupiter RA 179.4471 10×φ^6 phi power (99.03) — also: 5 Lyssenko / Harry Skelton
+  - star rows: J Acumen → J Jupiter RA 86.9868 87 whole (11.60) — also: 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+- **Uranus**
+  - star rows: H Acumen → H Uranus RA 120.9966 121 whole (68.65) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - star rows: J Meissa → J Uranus Dec 33.0197 33 whole (0.03) — only
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+- **Ceres**
+  - star rows: H Alphard → H Ceres Dec 8.0193 8 whole (0.14) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - star rows: J Altair → J Ceres Dec 38.9854 39 whole (7.27) — also: 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: J Deneb Algedi → J Ceres Dec 13.9890 14 whole (20.40) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+- **Eris**
+  - star rows: H Alphard → H Eris RA 115.9943 116 whole (51.20) — also: 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - star rows: H Facies → H Eris Dec 22.0170 22 whole (2.22) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - top rows: S Moon → J Eris Dec 0.0146 conj (90.49) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden
+  - star rows: J Alphard → J Eris Dec 0.2650 conj (1.36) — also: 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - star rows: J Alpheratz → J Eris Dec 38.0144 38 whole (7.71) — also: 3 Manuelito / Harry Cobden, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: J Altair → J Eris RA 85.0184 85 whole (0.66) — also: 4 All In You / Sean Bowen
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: J Altair → J Eris Dec 17.7913 11×φ golden (60.93) — also: 4 All In You / Sean Bowen
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: J Facies → J Eris Dec 14.9840 15 whole (4.04) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - star rows: J Menkar → J Eris Dec 13.0127 13 whole (13.33) — also: 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: J Scheat → J Eris Dec 37.0068 37 whole (43.69) — also: 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+  - star rows: J Zubenelgenubi → J Eris RA 159.9987 160 whole (86.99) — only
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+- **Mercury**
+  - star rows: H Alpheratz → H Mercury RA 9.9827 10 whole (1.77) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: H Facies → H Mercury RA 73.0087 73 whole (32.13) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - same body: S Mercury → J Mercury RA 1.9728 2 whole (loose) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+  - top rows: S Sun → J Mercury Dec 1.0023 1 whole (78.56) — only
+  - star rows: J Pollux → J Mercury Dec 45.0043 45 whole (61.83) — also: 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+- **Pluto**
+  - star rows: H Altair → H Pluto RA 3.0127 3 whole (13.23) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: H Capella → H Pluto RA 144.4840 144.444 ninth (95.82) — also: 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: J Facies → J Pluto Dec 19.4153 12×φ golden (93.32) — also: 3 Manuelito / Harry Cobden
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+- **Neptune**
+  - star rows: H Capella → H Neptune Dec 51.9931 52 whole (42.97) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: H Galactic Centre → H Neptune Dec 23.0118 23 whole (17.00) — also: 6 Star Of Guiting / Craig Nichol
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: H Pollux → H Neptune RA 127.8290 79×φ golden (74.90) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+- **Transpluto**
+  - star rows: H Galactic Centre → H Transpluto RA 112.9942 113 whole (50.15) — also: 5 Lyssenko / Harry Skelton
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: H Galactic Centre → H Transpluto Dec 39.9835 40 whole (3.03) — also: 5 Lyssenko / Harry Skelton
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: H Zubenelgenubi → H Transpluto Dec 27.0197 27 whole (0.02) — only
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+  - same body: S Transpluto → J Transpluto RA 11.0676 φ^5 phi power (loose) — also: 5 Lyssenko / Harry Skelton
+  - same body: S Transpluto → J Transpluto Dec 4.0245 4 whole (loose) — also: 5 Lyssenko / Harry Skelton
+  - top rows: S Jupiter → J Transpluto RA 1.4849 conj (0.01) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - top rows: S Jupiter → J Transpluto Dec 0.2428 conj (3.63) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - top rows: S Moon → J Transpluto Dec 22.6567 14×φ golden (75.62) — only
+  - star rows: J Acumen → J Transpluto Dec 48.5447 30×φ golden (78.29) — also: 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+- **Saturn**
+  - star rows: H Hamal → H Saturn RA 100.3462 62×φ golden (1.77) — only
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - star rows: J Altair → J Saturn RA 16.9876 17 whole (14.49) — also: 3 Manuelito / Harry Cobden
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+- **Rahu**
+  - star rows: H Hamal → H Rahu RA 81.9941 82 whole (49.42) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - star rows: H Meissa → H Rahu RA 30.0007 30 whole (92.86) — also: 5 Lyssenko / Harry Skelton
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+  - star rows: H Scheat → H Rahu RA 127.8432 79×φ golden (18.20) — only
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+  - star rows: J Altair → J Rahu RA 35.0120 35 whole (16.05) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+- **Ketu**
+  - star rows: H Hamal → H Ketu RA 98.0059 98 whole (49.42) — also: 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - star rows: H Meissa → H Ketu RA 149.9993 150 whole (92.86) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+  - star rows: J Altair → J Ketu RA 144.9880 145 whole (16.05) — only
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: J Hamal → J Ketu Dec 0.1947 conj (12.33) — also: 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - star rows: J Meissa → J Ketu RA 1.1044 conj (6.96) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+  - star rows: J Meissa → J Ketu Dec 13.3343 13.3333 ninth (98.86) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+- **Juno**
+  - star rows: H Meissa → H Juno RA 0.0357 conj (95.30) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+  - star rows: H Meissa → H Juno Dec 3.0197 3 whole (0.02) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+  - star rows: H Zubenelgenubi → H Juno Dec 28.9962 29 whole (65.34) — only
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+  - star rows: J Alpheratz → J Juno RA 95.4697 59×φ golden (67.72) — also: 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: J Menkar → J Juno RA 51.9970 52 whole (72.36) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: J Scheat → J Juno RA 111.6241 69×φ golden (14.04) — only
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+- **Orcus**
+  - star rows: H Pollux → H Orcus RA 37.0171 37 whole (2.12) — only
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - star rows: J Alphard → J Orcus RA 8.9939 9 whole (48.64) — only
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+- **Quaoar**
+  - same body: S Quaoar → J Quaoar RA 44.3849 44.4444 ninth (loose) — also: 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+- **Vesta**
+  - top rows: S Sun → J Vesta Dec 2.9994 3 whole (94.00) — also: 5 Lyssenko / Harry Skelton
+  - star rows: J Acumen → J Vesta RA 44.0030 44 whole (71.86) — also: 4 All In You / Sean Bowen
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - star rows: J Pollux → J Vesta Dec 41.0026 41 whole (75.60) — also: 5 Lyssenko / Harry Skelton
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+- **Sedna**
+  - star rows: J Alpheratz → J Sedna RA 41.4223 41.4 silver (99.10) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: J Menkar → J Sedna Dec 0.2185 conj (7.37) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
 
 ## 2 Bucephalus / Harriet Tucker
 ### L1 same bodies
@@ -353,109 +598,180 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - S Ketu → J Ketu Dec 2.9830 3 whole (2.19)
 ### L2 what lands on each same body
 - **H Uranus** (same body: S Uranus → H Uranus RA 38.0080 38 whole (35.77))
-  - body line: S Jupiter → Uranus RA 84.9947 85 whole (54.32)
-  - top rows: S Jupiter → H Uranus RA 123.0028 123 whole (74.14) [Jupiter]
-  - star rows: H Facies → H Uranus RA 105.0178 105 whole (1.19) [Moon]
-  - star rows: H Hamal → H Uranus Dec 14.0144 14 whole (7.91) [Moon]
+  - sky line to Uranus: S Jupiter → Uranus RA 84.9947 85 whole (54.32)
+  - top rows: S Jupiter → H Uranus RA 123.0028 123 whole (74.14)
+  - star rows: H Facies → H Uranus RA 105.0178 105 whole (1.19)
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - star rows: H Hamal → H Uranus Dec 14.0144 14 whole (7.91)
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
   - other chart, same body: S Uranus → J Uranus RA 121.6859 122.222 ninth (loose)
-  - other chart, T2: J Jupiter → J Uranus Dec 2.0002 2 whole (98.32) [Jupiter]
-  - other chart, top rows: S Moon → J Uranus RA 111.1723 111.111 ninth (89.99) [Moon]
-  - other chart, star rows: J Acumen → J Uranus RA 31.9881 32 whole (16.56) [Moon]
-  - other chart, star rows: J Alphard → J Uranus RA 158.5444 98×φ golden (8.41) [Moon]
-  - other chart, star rows: J Zubenelgenubi → J Uranus Dec 5.0025 5 whole (76.86) [Sun]
+  - other chart, T2: J Jupiter → J Uranus Dec 2.0002 2 whole (98.32)
+  - other chart, top rows: S Moon → J Uranus RA 111.1723 111.111 ninth (89.99)
+  - other chart, star rows: J Acumen → J Uranus RA 31.9881 32 whole (16.56)
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - other chart, star rows: J Alphard → J Uranus RA 158.5444 98×φ golden (8.41)
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - other chart, star rows: J Zubenelgenubi → J Uranus Dec 5.0025 5 whole (76.86)
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
 - **H Juno** (same body: S Juno → H Juno RA 16.5556 16.6667 ninth (loose); S Juno → H Juno Dec 7.9742 8 whole (loose))
-  - star rows: H Acumen → H Juno RA 18.9931 19 whole (43.20) [Moon]
-  - star rows: H Galactic Centre → H Juno RA 21.0391 13×φ golden (73.48) [Jupiter]
-  - star rows: H Menkar → H Juno RA 118.1034 73×φ golden (35.66) [Moon]
-  - other chart, star rows: J Meissa → J Juno RA 156.9687 97×φ golden (16.01) [Sun]
+  - star rows: H Acumen → H Juno RA 18.9931 19 whole (43.20)
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - star rows: H Galactic Centre → H Juno RA 21.0391 13×φ golden (73.48)
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: H Menkar → H Juno RA 118.1034 73×φ golden (35.66)
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - other chart, star rows: J Meissa → J Juno RA 156.9687 97×φ golden (16.01)
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
 - **H Vesta** (same body: S Vesta → H Vesta RA 108.9960 109 whole (64.37))
-  - top rows: S Jupiter → H Vesta Dec 9.9986 10 whole (86.82) [Jupiter]
-  - star rows: H Capella → H Vesta Dec 22.0047 22 whole (58.45) [Jupiter]
-  - star rows: H Galactic Centre → H Vesta Dec 52.9996 53 whole (95.84) [Jupiter]
+  - top rows: S Jupiter → H Vesta Dec 9.9986 10 whole (86.82)
+  - star rows: H Capella → H Vesta Dec 22.0047 22 whole (58.45)
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: H Galactic Centre → H Vesta Dec 52.9996 53 whole (95.84)
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
 - **H Rahu** (same body: S Rahu → H Rahu RA 177.3109 177.778 ninth (loose))
-  - star rows: H Facies → H Rahu RA 127.8224 79×φ golden (86.44) [Moon]
+  - star rows: H Facies → H Rahu RA 127.8224 79×φ golden (86.44)
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
   - other chart, same body: S Rahu → J Rahu Dec 2.9830 3 whole (2.19)
-  - other chart, star rows: J Hamal → J Rahu RA 171.5423 106×φ golden (0.28) [Moon]
-  - other chart, star rows: J Pollux → J Rahu RA 87.0048 87 whole (58.03) [Sun]
+  - other chart, star rows: J Hamal → J Rahu RA 171.5423 106×φ golden (0.28)
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - other chart, star rows: J Pollux → J Rahu RA 87.0048 87 whole (58.03)
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
 - **H Sedna** (same body: S Sedna → H Sedna RA 5.9792 6 whole (loose))
-  - star rows: H Alpheratz → H Sedna RA 53.9981 54 whole (82.08) [Moon, Sun]
-  - star rows: H Facies → H Sedna RA 136.9880 137 whole (16.19) [Moon]
-  - star rows: H Zubenelgenubi → H Sedna RA 166.6327 166.667 ninth (97.09) [Sun]
-  - other chart, star rows: J Menkar → J Sedna RA 1.0675 conj (8.31) [Moon]
+  - star rows: H Alpheratz → H Sedna RA 53.9981 54 whole (82.08)
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: H Facies → H Sedna RA 136.9880 137 whole (16.19)
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - star rows: H Zubenelgenubi → H Sedna RA 166.6327 166.667 ninth (97.09)
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+  - other chart, star rows: J Menkar → J Sedna RA 1.0675 conj (8.31)
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
 - **H Haumea** (same body: S Haumea → H Haumea RA 8.8761 8.88889 ninth (loose); S Haumea → H Haumea Dec 4.1358 4.14 silver (loose))
-  - body line: S Sun → Haumea RA 0.5930 conj (36.56)
-  - star rows: H Capella → H Haumea RA 132.6927 82×φ golden (32.36) [Jupiter]
+  - sky line to Haumea: S Sun → Haumea RA 0.5930 conj (36.56)
+  - star rows: H Capella → H Haumea RA 132.6927 82×φ golden (32.36)
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
   - other chart, same body: S Haumea → J Haumea RA 27.0230 27 whole (loose)
-  - other chart, star rows: J Zubenelgenubi → J Haumea RA 29.0032 29 whole (70.65) [Sun]
+  - other chart, star rows: J Zubenelgenubi → J Haumea RA 29.0032 29 whole (70.65)
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
 - **H Ketu** (same body: S Ketu → H Ketu RA 177.3109 177.778 ninth (loose))
-  - body line: S Jupiter → Ketu RA 1.4679 conj (0.05)
+  - sky line to Ketu: S Jupiter → Ketu RA 1.4679 conj (0.05)
   - other chart, same body: S Ketu → J Ketu Dec 2.9830 3 whole (2.19)
-  - other chart, star rows: J Acumen → J Ketu RA 114.8840 71×φ golden (79.20) [Moon]
-  - other chart, star rows: J Meissa → J Ketu Dec 0.1880 conj (13.95) [Sun]
-  - other chart, star rows: J Pollux → J Ketu RA 92.9952 93 whole (58.03) [Sun]
+  - other chart, star rows: J Acumen → J Ketu RA 114.8840 71×φ golden (79.20)
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - other chart, star rows: J Meissa → J Ketu Dec 0.1880 conj (13.95)
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+  - other chart, star rows: J Pollux → J Ketu RA 92.9952 93 whole (58.03)
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
 - **J Mercury** (same body: S Mercury → J Mercury RA 48.5390 30×φ golden (loose); S Mercury → J Mercury Dec 10.9890 11 whole (20.19))
-  - star rows: J Galactic Centre → J Mercury RA 0.8697 conj (17.66) [Jupiter]
-  - other chart, star rows: H Galactic Centre → H Mercury RA 119.7230 74×φ golden (41.37) [Jupiter]
-  - other chart, star rows: H Hamal → H Mercury Dec 15.9973 16 whole (74.45) [Moon]
-  - other chart, star rows: H Menkar → H Mercury RA 19.4195 12×φ golden (81.59) [Moon]
-  - other chart, star rows: H Zubenelgenubi → H Mercury RA 163.4203 101×φ golden (93.23) [Sun]
+  - star rows: J Galactic Centre → J Mercury RA 0.8697 conj (17.66)
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - other chart, star rows: H Galactic Centre → H Mercury RA 119.7230 74×φ golden (41.37)
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - other chart, star rows: H Hamal → H Mercury Dec 15.9973 16 whole (74.45)
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - other chart, star rows: H Menkar → H Mercury RA 19.4195 12×φ golden (81.59)
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - other chart, star rows: H Zubenelgenubi → H Mercury RA 163.4203 101×φ golden (93.23)
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
 - **J Mars** (same body: S Mars → J Mars RA 133.5461 133.333 ninth (loose))
-  - star rows: J Galactic Centre → J Mars RA 11.0949 φ^5 phi power (83.75) [Jupiter]
-  - other chart, star rows: H Hamal → H Mars Dec 0.2233 conj (6.54) [Moon]
-  - other chart, star rows: H Zubenelgenubi → H Mars RA 149.9967 150 whole (69.92) [Sun]
+  - star rows: J Galactic Centre → J Mars RA 11.0949 φ^5 phi power (83.75)
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - other chart, star rows: H Hamal → H Mars Dec 0.2233 conj (6.54)
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - other chart, star rows: H Zubenelgenubi → H Mars RA 149.9967 150 whole (69.92)
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
 - **J Saturn** (same body: S Saturn → J Saturn RA 18.8031 18.8889 ninth (loose))
-  - top rows: S Jupiter → J Saturn RA 156.9975 157 whole (76.23) [Jupiter]
-  - star rows: J Pollux → J Saturn RA 126.2078 78×φ golden (92.76) [Sun]
-  - other chart, star rows: H Capella → H Saturn Dec 68.0187 68 whole (0.40) [Jupiter]
-  - other chart, star rows: H Galactic Centre → H Saturn RA 0.1594 conj (79.88) [Jupiter]
-  - other chart, star rows: H Galactic Centre → H Saturn Dec 6.9855 7 whole (7.70) [Jupiter]
+  - top rows: S Jupiter → J Saturn RA 156.9975 157 whole (76.23)
+  - star rows: J Pollux → J Saturn RA 126.2078 78×φ golden (92.76)
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - other chart, star rows: H Capella → H Saturn Dec 68.0187 68 whole (0.40)
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - other chart, star rows: H Galactic Centre → H Saturn RA 0.1594 conj (79.88)
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - other chart, star rows: H Galactic Centre → H Saturn Dec 6.9855 7 whole (7.70)
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
 - **J Uranus** (same body: S Uranus → J Uranus RA 121.6859 122.222 ninth (loose))
-  - body line: S Jupiter → Uranus RA 84.9947 85 whole (54.32)
-  - T2: J Jupiter → J Uranus Dec 2.0002 2 whole (98.32) [Jupiter]
-  - top rows: S Moon → J Uranus RA 111.1723 111.111 ninth (89.99) [Moon]
-  - star rows: J Acumen → J Uranus RA 31.9881 32 whole (16.56) [Moon]
-  - star rows: J Alphard → J Uranus RA 158.5444 98×φ golden (8.41) [Moon]
-  - star rows: J Zubenelgenubi → J Uranus Dec 5.0025 5 whole (76.86) [Sun]
+  - sky line to Uranus: S Jupiter → Uranus RA 84.9947 85 whole (54.32)
+  - T2: J Jupiter → J Uranus Dec 2.0002 2 whole (98.32)
+  - top rows: S Moon → J Uranus RA 111.1723 111.111 ninth (89.99)
+  - star rows: J Acumen → J Uranus RA 31.9881 32 whole (16.56)
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - star rows: J Alphard → J Uranus RA 158.5444 98×φ golden (8.41)
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - star rows: J Zubenelgenubi → J Uranus Dec 5.0025 5 whole (76.86)
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
   - other chart, same body: S Uranus → H Uranus RA 38.0080 38 whole (35.77)
-  - other chart, top rows: S Jupiter → H Uranus RA 123.0028 123 whole (74.14) [Jupiter]
-  - other chart, star rows: H Facies → H Uranus RA 105.0178 105 whole (1.19) [Moon]
-  - other chart, star rows: H Hamal → H Uranus Dec 14.0144 14 whole (7.91) [Moon]
+  - other chart, top rows: S Jupiter → H Uranus RA 123.0028 123 whole (74.14)
+  - other chart, star rows: H Facies → H Uranus RA 105.0178 105 whole (1.19)
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - other chart, star rows: H Hamal → H Uranus Dec 14.0144 14 whole (7.91)
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
 - **J Chiron** (same body: S Chiron → J Chiron Dec 17.8619 φ^6 phi power (loose))
-  - top rows: S Moon → J Chiron RA 0.7029 conj (28.24) [Moon]
-  - other chart, top rows: S Moon → H Chiron RA 166.9947 167 whole (54.17) [Moon]
-  - other chart, star rows: H Alphard → H Chiron RA 145.6304 90×φ golden (59.79) [Moon]
+  - top rows: S Moon → J Chiron RA 0.7029 conj (28.24)
+  - other chart, top rows: S Moon → H Chiron RA 166.9947 167 whole (54.17)
+  - other chart, star rows: H Alphard → H Chiron RA 145.6304 90×φ golden (59.79)
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
 - **J Rahu** (same body: S Rahu → J Rahu Dec 2.9830 3 whole (2.19))
-  - star rows: J Hamal → J Rahu RA 171.5423 106×φ golden (0.28) [Moon]
-  - star rows: J Pollux → J Rahu RA 87.0048 87 whole (58.03) [Sun]
+  - star rows: J Hamal → J Rahu RA 171.5423 106×φ golden (0.28)
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - star rows: J Pollux → J Rahu RA 87.0048 87 whole (58.03)
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
   - other chart, same body: S Rahu → H Rahu RA 177.3109 177.778 ninth (loose)
-  - other chart, star rows: H Facies → H Rahu RA 127.8224 79×φ golden (86.44) [Moon]
+  - other chart, star rows: H Facies → H Rahu RA 127.8224 79×φ golden (86.44)
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
 - **J Haumea** (same body: S Haumea → J Haumea RA 27.0230 27 whole (loose))
-  - body line: S Sun → Haumea RA 0.5930 conj (36.56)
-  - star rows: J Zubenelgenubi → J Haumea RA 29.0032 29 whole (70.65) [Sun]
+  - sky line to Haumea: S Sun → Haumea RA 0.5930 conj (36.56)
+  - star rows: J Zubenelgenubi → J Haumea RA 29.0032 29 whole (70.65)
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
   - other chart, same body: S Haumea → H Haumea RA 8.8761 8.88889 ninth (loose)
   - other chart, same body: S Haumea → H Haumea Dec 4.1358 4.14 silver (loose)
-  - other chart, star rows: H Capella → H Haumea RA 132.6927 82×φ golden (32.36) [Jupiter]
+  - other chart, star rows: H Capella → H Haumea RA 132.6927 82×φ golden (32.36)
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
 - **J Makemake** (same body: S Makemake → J Makemake RA 25.8978 16×φ golden (loose))
-  - body line: S Moon → Makemake RA 12.9972 13 whole (73.81)
-  - star rows: J Acumen → J Makemake Dec 68.0144 68 whole (7.87) [Moon]
-  - other chart, T1: H Jupiter → H Makemake RA 0.2633 conj (67.97) [Jupiter]
-  - other chart, star rows: H Scheat → H Makemake RA 152.0715 94×φ golden (7.25) [Moon]
+  - sky line to Makemake: S Moon → Makemake RA 12.9972 13 whole (73.81)
+  - star rows: J Acumen → J Makemake Dec 68.0144 68 whole (7.87)
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - other chart, T1: H Jupiter → H Makemake RA 0.2633 conj (67.97)
+  - other chart, star rows: H Scheat → H Makemake RA 152.0715 94×φ golden (7.25)
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
 - **J Orcus** (same body: S Orcus → J Orcus Dec 14.3632 14.4444 ninth (loose))
-  - body line: S Moon → Orcus Dec 5.0060 5 whole (49.11)
-  - star rows: J Acumen → J Orcus RA 132.9934 133 whole (44.85) [Moon]
-  - star rows: J Alpheratz → J Orcus RA 133.3640 133.333 ninth (96.32) [Moon, Sun]
-  - star rows: J Hamal → J Orcus Dec 23.0137 23 whole (9.84) [Moon]
-  - other chart, top rows: S Moon → H Orcus Dec 0.2218 conj (6.79) [Moon]
-  - other chart, star rows: H Altair → H Orcus Dec 17.9961 18 whole (65.09) [Moon]
-  - other chart, star rows: H Deneb Algedi → H Orcus Dec 7.0005 7 whole (95.14) [Sun]
-  - other chart, star rows: H Galactic Centre → H Orcus RA 115.0025 115 whole (76.22) [Jupiter]
+  - sky line to Orcus: S Moon → Orcus Dec 5.0060 5 whole (49.11)
+  - star rows: J Acumen → J Orcus RA 132.9934 133 whole (44.85)
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - star rows: J Alpheratz → J Orcus RA 133.3640 133.333 ninth (96.32)
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: J Hamal → J Orcus Dec 23.0137 23 whole (9.84)
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - other chart, top rows: S Moon → H Orcus Dec 0.2218 conj (6.79)
+  - other chart, star rows: H Altair → H Orcus Dec 17.9961 18 whole (65.09)
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - other chart, star rows: H Deneb Algedi → H Orcus Dec 7.0005 7 whole (95.14)
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - other chart, star rows: H Galactic Centre → H Orcus RA 115.0025 115 whole (76.22)
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
 - **J Ketu** (same body: S Ketu → J Ketu Dec 2.9830 3 whole (2.19))
-  - body line: S Jupiter → Ketu RA 1.4679 conj (0.05)
-  - star rows: J Acumen → J Ketu RA 114.8840 71×φ golden (79.20) [Moon]
-  - star rows: J Meissa → J Ketu Dec 0.1880 conj (13.95) [Sun]
-  - star rows: J Pollux → J Ketu RA 92.9952 93 whole (58.03) [Sun]
+  - sky line to Ketu: S Jupiter → Ketu RA 1.4679 conj (0.05)
+  - star rows: J Acumen → J Ketu RA 114.8840 71×φ golden (79.20)
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - star rows: J Meissa → J Ketu Dec 0.1880 conj (13.95)
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+  - star rows: J Pollux → J Ketu RA 92.9952 93 whole (58.03)
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
   - other chart, same body: S Ketu → H Ketu RA 177.3109 177.778 ninth (loose)
-### L3 the seven cases (L5 field tag on each)
+### L3 matches
 - **1. same body on both charts**
   - Uranus — also: 5 Lyssenko / Harry Skelton
     - S Uranus → H Uranus RA 38.0080 38 whole (35.77)
@@ -496,25 +812,37 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 5 whole — also: 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
     - J Zubenelgenubi → J Uranus Dec 5.0025 5 whole (76.86) = S Moon → Orcus Dec 5.0060 5 whole (49.11)
 - **4. circle divisions**
-  - 8 = 360/45 — also: 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - 8 = 360/45 — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
     - S Juno → H Juno Dec 7.9742 8 whole (loose)
-  - 6 = 360/60 — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - 6 = 360/60 — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
     - S Sedna → H Sedna RA 5.9792 6 whole (loose)
-  - 10 = 360/36 — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+  - 10 = 360/36 — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
     - S Jupiter → H Vesta Dec 9.9986 10 whole (86.82)
-  - 18 = 360/20 — also: 6 Star Of Guiting / Craig Nichol
+  - 8 = 360/45 — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - H Altair → H Pallas Dec 8.0162 8 whole (3.52)
+  - 18 = 360/20 — also: 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
     - H Altair → H Orcus Dec 17.9961 18 whole (65.09)
-  - 3 = 360/120 — also: 1 Dedicated Hero / Sam Twiston-Davies, 5 Lyssenko / Harry Skelton
+  - 3 = 360/120 — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
     - S Rahu → J Rahu Dec 2.9830 3 whole (2.19)
-  - 3 = 360/120 — also: 1 Dedicated Hero / Sam Twiston-Davies, 5 Lyssenko / Harry Skelton
+  - 3 = 360/120 — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
     - S Ketu → J Ketu Dec 2.9830 3 whole (2.19)
   - 2 = 360/180 — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
     - J Jupiter → J Uranus Dec 2.0002 2 whole (98.32)
-  - 1 = 360/360 — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - 12 = 360/30 — also: 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - J Acumen → J Sun Dec 11.9877 12 whole (14.81)
+  - 1 = 360/360 — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
     - J Alphard → J Ceres Dec 0.9978 1 whole (79.15)
+  - 180 = 360/2 — also: 5 Lyssenko / Harry Skelton
+    - J Deneb Algedi → J Transpluto RA 179.9936 180 whole (45.91)
   - 5 = 360/72 — also: 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
     - J Zubenelgenubi → J Uranus Dec 5.0025 5 whole (76.86)
 - **5. same number in more than one place**
+  - 38 whole — also: 1 Dedicated Hero / Sam Twiston-Davies
+    - S Uranus → H Uranus RA 38.0080 38 whole (35.77)
+    - H Menkar → H Venus RA 37.9902 38 whole (25.94)
+  - 8 whole — also: 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol
+    - S Juno → H Juno Dec 7.9742 8 whole (loose)
+    - H Altair → H Pallas Dec 8.0162 8 whole (3.52)
   - 177.778 ninth — also: 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
     - S Rahu → H Rahu RA 177.3109 177.778 ninth (loose)
     - S Ketu → H Ketu RA 177.3109 177.778 ninth (loose)
@@ -525,134 +853,271 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
     - H Jupiter → H star Hamal RA 161.8185 100×φ^1 phi power (96.30)
     - S Jupiter → H Neptune RA 161.8076 100×φ^1 phi power (98.96)
     - S Hamal → H Jupiter RA 161.8067 100×φ^1 phi power (99.17)
+  - 68 whole — only
+    - H Capella → H Saturn Dec 68.0187 68 whole (0.40)
+    - J Acumen → J Makemake Dec 68.0144 68 whole (7.87)
   - 7 whole — also: 5 Lyssenko / Harry Skelton
     - H Deneb Algedi → H Orcus Dec 7.0005 7 whole (95.14)
+    - H Galactic Centre → H Saturn Dec 6.9855 7 whole (7.70)
     - J Jupiter → J star Zubenelgenubi Dec 7.0026 7 whole (75.39)
     - S Zubenelgenubi → J Jupiter Dec 7.0023 7 whole (78.21)
+  - 97×φ golden — only
+    - H Galactic Centre → H Ceres RA 156.9263 97×φ golden (8.31)
+    - J Meissa → J Juno RA 156.9687 97×φ golden (16.01)
   - 166.667 ninth — only
     - H Zubenelgenubi → H Sedna RA 166.6327 166.667 ninth (97.09)
     - S Moon → J Eris RA 166.6202 166.667 ninth (96.02)
   - 133.333 ninth — only
     - S Mars → J Mars RA 133.5461 133.333 ninth (loose)
     - J Alpheratz → J Orcus RA 133.3640 133.333 ninth (96.32)
-  - 3 whole — only
+  - 3 whole — also: 1 Dedicated Hero / Sam Twiston-Davies
     - S Rahu → J Rahu Dec 2.9830 3 whole (2.19)
     - S Ketu → J Ketu Dec 2.9830 3 whole (2.19)
-- **6. star and sky line on one body**
-  - J Ceres on Zubenelgenubi — only
-    - J Zubenelgenubi → J Ceres RA 0.3363 conj (60.18)
-    - S Sun → J Ceres RA 1.0509 conj (8.96)
-- **7. centres meeting**
-  - Uranus: Jupiter, Moon, Sun — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
-    - [Jupiter] S Uranus → H Uranus RA 38.0080 38 whole (35.77)
-    - [Jupiter] S Jupiter → H Uranus RA 123.0028 123 whole (74.14)
-    - [Jupiter] S Uranus → J Uranus RA 121.6859 122.222 ninth (loose)
-    - [Jupiter] J Jupiter → J Uranus Dec 2.0002 2 whole (98.32)
-    - [Moon] H Facies → H Uranus RA 105.0178 105 whole (1.19)
-    - [Moon] H Hamal → H Uranus Dec 14.0144 14 whole (7.91)
-    - [Moon] S Moon → J Uranus RA 111.1723 111.111 ninth (89.99)
-    - [Moon] J Acumen → J Uranus RA 31.9881 32 whole (16.56)
-    - [Moon] J Alphard → J Uranus RA 158.5444 98×φ golden (8.41)
-    - [Sun] J Zubenelgenubi → J Uranus Dec 5.0025 5 whole (76.86)
-  - Haumea: Jupiter, Sun — only
-    - [Jupiter] H Capella → H Haumea RA 132.6927 82×φ golden (32.36)
-    - [Sun] S Haumea → H Haumea RA 8.8761 8.88889 ninth (loose)
-    - [Sun] S Haumea → H Haumea Dec 4.1358 4.14 silver (loose)
-    - [Sun] S Haumea → J Haumea RA 27.0230 27 whole (loose)
-    - [Sun] J Zubenelgenubi → J Haumea RA 29.0032 29 whole (70.65)
-  - Ketu: Jupiter, Moon, Sun — also: 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
-    - [Jupiter] S Ketu → H Ketu RA 177.3109 177.778 ninth (loose)
-    - [Jupiter] S Ketu → J Ketu Dec 2.9830 3 whole (2.19)
-    - [Moon] J Acumen → J Ketu RA 114.8840 71×φ golden (79.20)
-    - [Sun] J Meissa → J Ketu Dec 0.1880 conj (13.95)
-    - [Sun] J Pollux → J Ketu RA 92.9952 93 whole (58.03)
-  - Makemake: Jupiter, Moon — only
-    - [Jupiter] H Jupiter → H Makemake RA 0.2633 conj (67.97)
-    - [Moon] H Scheat → H Makemake RA 152.0715 94×φ golden (7.25)
-    - [Moon] S Makemake → J Makemake RA 25.8978 16×φ golden (loose)
-    - [Moon] J Acumen → J Makemake Dec 68.0144 68 whole (7.87)
-  - Neptune: Jupiter, Moon, Sun — also: 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
-    - [Jupiter] S Jupiter → H Neptune RA 161.8076 100×φ^1 phi power (98.96)
-    - [Jupiter] H Capella → H Neptune RA 93.8490 58×φ golden (82.34)
-    - [Moon] H Scheat → H Neptune RA 0.6254 conj (34.00)
-    - [Sun] H Pollux → H Neptune RA 131.0059 131 whole (50.04)
-    - [Sun] J Deneb Algedi → J Neptune RA 31.0135 31 whole (10.54)
-    - [Sun] J Pollux → J Neptune RA 179.4093 10×φ^6 phi power (92.69)
-  - Orcus: Jupiter, Moon, Sun — also: 6 Star Of Guiting / Craig Nichol
-    - [Jupiter] H Galactic Centre → H Orcus RA 115.0025 115 whole (76.22)
-    - [Moon] S Moon → H Orcus Dec 0.2218 conj (6.79)
-    - [Moon] H Altair → H Orcus Dec 17.9961 18 whole (65.09)
-    - [Moon] S Orcus → J Orcus Dec 14.3632 14.4444 ninth (loose)
-    - [Moon] J Acumen → J Orcus RA 132.9934 133 whole (44.85)
-    - [Moon] J Alpheratz → J Orcus RA 133.3640 133.333 ninth (96.32)
-    - [Moon] J Hamal → J Orcus Dec 23.0137 23 whole (9.84)
-    - [Sun] H Deneb Algedi → H Orcus Dec 7.0005 7 whole (95.14)
-    - [Sun] J Alpheratz → J Orcus RA 133.3640 133.333 ninth (96.32)
-  - Jupiter: Jupiter, Moon, Sun — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
-    - [Jupiter] S Uranus → H Jupiter Dec 24.9944 25 whole (51.49)
-    - [Jupiter] S Vesta → H Jupiter RA 176.3606 109×φ golden (71.15)
-    - [Jupiter] H Galactic Centre → H Jupiter RA 72.8146 45×φ golden (82.01)
-    - [Jupiter] S Mercury → J Jupiter RA 46.9216 29×φ golden (91.44)
-    - [Jupiter] S Ceres → J Jupiter RA 148.8544 92×φ golden (73.12)
-    - [Jupiter] S Pallas → J Jupiter RA 111.0007 111 whole (93.51)
-    - [Jupiter] S Eris → J Jupiter RA 122.9129 φ^10 phi power (75.98)
-    - [Moon] S Hamal → H Jupiter RA 161.8067 100×φ^1 phi power (99.17)
-    - [Moon] J Scheat → J Jupiter RA 82.0198 82 whole (0.01)
-    - [Sun] S Zubenelgenubi → J Jupiter Dec 7.0023 7 whole (78.21)
-  - Juno: Jupiter, Moon, Sun — also: 5 Lyssenko / Harry Skelton
-    - [Jupiter] H Galactic Centre → H Juno RA 21.0391 13×φ golden (73.48)
-    - [Moon] H Acumen → H Juno RA 18.9931 19 whole (43.20)
-    - [Moon] H Menkar → H Juno RA 118.1034 73×φ golden (35.66)
-    - [Sun] J Meissa → J Juno RA 156.9687 97×φ golden (16.01)
-  - Sedna: Moon, Sun — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
-    - [Moon] H Alpheratz → H Sedna RA 53.9981 54 whole (82.08)
-    - [Moon] H Facies → H Sedna RA 136.9880 137 whole (16.19)
-    - [Moon] J Menkar → J Sedna RA 1.0675 conj (8.31)
-    - [Sun] H Alpheratz → H Sedna RA 53.9981 54 whole (82.08)
-    - [Sun] H Zubenelgenubi → H Sedna RA 166.6327 166.667 ninth (97.09)
-  - Pallas: Jupiter, Moon, Sun — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
-    - [Jupiter] J Galactic Centre → J Pallas RA 66.6673 66.6667 ninth (99.42)
-    - [Moon] H Altair → H Pallas Dec 8.0162 8 whole (3.52)
-    - [Moon] H Menkar → H Pallas Dec 3.2361 2×φ golden (99.88)
-    - [Sun] H Deneb Algedi → H Pallas Dec 16.9804 17 whole (0.04)
-    - [Sun] J Deneb Algedi → J Pallas RA 127.0146 127 whole (7.20)
-  - Saturn: Jupiter, Sun — only
-    - [Jupiter] H Capella → H Saturn Dec 68.0187 68 whole (0.40)
-    - [Jupiter] H Galactic Centre → H Saturn RA 0.1594 conj (79.88)
-    - [Jupiter] H Galactic Centre → H Saturn Dec 6.9855 7 whole (7.70)
-    - [Jupiter] S Jupiter → J Saturn RA 156.9975 157 whole (76.23)
-    - [Sun] J Pollux → J Saturn RA 126.2078 78×φ golden (92.76)
-  - Rahu: Moon, Sun — also: 1 Dedicated Hero / Sam Twiston-Davies, 7 King Ulanda / Jack Tudor
-    - [Moon] H Facies → H Rahu RA 127.8224 79×φ golden (86.44)
-    - [Moon] J Hamal → J Rahu RA 171.5423 106×φ golden (0.28)
-    - [Sun] J Pollux → J Rahu RA 87.0048 87 whole (58.03)
-  - Mercury: Jupiter, Moon, Sun — also: 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
-    - [Jupiter] H Galactic Centre → H Mercury RA 119.7230 74×φ golden (41.37)
-    - [Jupiter] J Galactic Centre → J Mercury RA 0.8697 conj (17.66)
-    - [Moon] H Hamal → H Mercury Dec 15.9973 16 whole (74.45)
-    - [Moon] H Menkar → H Mercury RA 19.4195 12×φ golden (81.59)
-    - [Sun] H Zubenelgenubi → H Mercury RA 163.4203 101×φ golden (93.23)
-  - Ceres: Jupiter, Moon, Sun — also: 5 Lyssenko / Harry Skelton
-    - [Jupiter] H Galactic Centre → H Ceres RA 156.9263 97×φ golden (8.31)
-    - [Moon] J Alphard → J Ceres Dec 0.9978 1 whole (79.15)
-    - [Sun] S Sun → J Ceres RA 1.0509 conj (8.96)
-    - [Sun] J Deneb Algedi → J Ceres Dec 6.4728 4×φ golden (96.03)
-    - [Sun] J Zubenelgenubi → J Ceres RA 0.3363 conj (60.18)
-  - Gonggong: Jupiter, Moon — only
-    - [Jupiter] H Galactic Centre → H Gonggong RA 69.9895 70 whole (22.72)
-    - [Moon] S Moon → J Gonggong RA 140.9967 141 whole (69.99)
-  - Mars: Jupiter, Moon, Sun — also: 4 All In You / Sean Bowen
-    - [Jupiter] J Galactic Centre → J Mars RA 11.0949 φ^5 phi power (83.75)
-    - [Moon] H Hamal → H Mars Dec 0.2233 conj (6.54)
-    - [Sun] H Zubenelgenubi → H Mars RA 149.9967 150 whole (69.92)
-  - Venus: Moon, Sun — also: 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
-    - [Moon] H Menkar → H Venus RA 37.9902 38 whole (25.94)
-    - [Moon] J Alphard → J Venus RA 144.4389 144.444 ninth (99.42)
-    - [Moon] J Facies → J Venus Dec 0.2895 conj (0.12)
-    - [Sun] J Pollux → J Venus RA 170.0035 170 whole (68.01)
-  - Transpluto: Jupiter, Sun — also: 4 All In You / Sean Bowen
-    - [Jupiter] S Jupiter → J Transpluto RA 0.3733 conj (56.42)
-    - [Sun] J Deneb Algedi → J Transpluto RA 179.9936 180 whole (45.91)
+### L4 every natal body
+- **Uranus**
+  - same body: S Uranus → H Uranus RA 38.0080 38 whole (35.77) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+    - source line: S Jupiter → Uranus RA 84.9947 85 whole (54.32)
+  - top rows: S Jupiter → H Uranus RA 123.0028 123 whole (74.14) — also: 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+  - star rows: H Facies → H Uranus RA 105.0178 105 whole (1.19) — also: 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - star rows: H Hamal → H Uranus Dec 14.0144 14 whole (7.91) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - same body: S Uranus → J Uranus RA 121.6859 122.222 ninth (loose) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+    - source line: S Jupiter → Uranus RA 84.9947 85 whole (54.32)
+  - T2: J Jupiter → J Uranus Dec 2.0002 2 whole (98.32) — only
+  - top rows: S Moon → J Uranus RA 111.1723 111.111 ninth (89.99) — also: 3 Manuelito / Harry Cobden
+  - star rows: J Acumen → J Uranus RA 31.9881 32 whole (16.56) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - star rows: J Alphard → J Uranus RA 158.5444 98×φ golden (8.41) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - star rows: J Zubenelgenubi → J Uranus Dec 5.0025 5 whole (76.86) — also: 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+- **Juno**
+  - same body: S Juno → H Juno RA 16.5556 16.6667 ninth (loose) — also: 3 Manuelito / Harry Cobden, 7 King Ulanda / Jack Tudor
+  - same body: S Juno → H Juno Dec 7.9742 8 whole (loose) — also: 3 Manuelito / Harry Cobden, 7 King Ulanda / Jack Tudor
+  - star rows: H Acumen → H Juno RA 18.9931 19 whole (43.20) — also: 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - star rows: H Galactic Centre → H Juno RA 21.0391 13×φ golden (73.48) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: H Menkar → H Juno RA 118.1034 73×φ golden (35.66) — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: J Meissa → J Juno RA 156.9687 97×φ golden (16.01) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+- **Vesta**
+  - same body: S Vesta → H Vesta RA 108.9960 109 whole (64.37) — also: 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
+  - top rows: S Jupiter → H Vesta Dec 9.9986 10 whole (86.82) — only
+  - star rows: H Capella → H Vesta Dec 22.0047 22 whole (58.45) — only
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: H Galactic Centre → H Vesta Dec 52.9996 53 whole (95.84) — also: 5 Lyssenko / Harry Skelton
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+- **Rahu**
+  - same body: S Rahu → H Rahu RA 177.3109 177.778 ninth (loose) — also: 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+  - star rows: H Facies → H Rahu RA 127.8224 79×φ golden (86.44) — also: 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - same body: S Rahu → J Rahu Dec 2.9830 3 whole (2.19) — also: 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+  - star rows: J Hamal → J Rahu RA 171.5423 106×φ golden (0.28) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - star rows: J Pollux → J Rahu RA 87.0048 87 whole (58.03) — only
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+- **Sedna**
+  - same body: S Sedna → H Sedna RA 5.9792 6 whole (loose) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+  - star rows: H Alpheratz → H Sedna RA 53.9981 54 whole (82.08) — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: H Facies → H Sedna RA 136.9880 137 whole (16.19) — also: 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - star rows: H Zubenelgenubi → H Sedna RA 166.6327 166.667 ninth (97.09) — also: 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+  - star rows: J Menkar → J Sedna RA 1.0675 conj (8.31) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+- **Haumea**
+  - same body: S Haumea → H Haumea RA 8.8761 8.88889 ninth (loose) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Haumea RA 0.5930 conj (36.56)
+  - same body: S Haumea → H Haumea Dec 4.1358 4.14 silver (loose) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Haumea RA 0.5930 conj (36.56)
+  - star rows: H Capella → H Haumea RA 132.6927 82×φ golden (32.36) — also: 1 Dedicated Hero / Sam Twiston-Davies
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - same body: S Haumea → J Haumea RA 27.0230 27 whole (loose) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Haumea RA 0.5930 conj (36.56)
+  - star rows: J Zubenelgenubi → J Haumea RA 29.0032 29 whole (70.65) — only
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+- **Ketu**
+  - same body: S Ketu → H Ketu RA 177.3109 177.778 ninth (loose) — also: 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+    - source line: S Jupiter → Ketu RA 1.4679 conj (0.05)
+  - same body: S Ketu → J Ketu Dec 2.9830 3 whole (2.19) — also: 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+    - source line: S Jupiter → Ketu RA 1.4679 conj (0.05)
+  - star rows: J Acumen → J Ketu RA 114.8840 71×φ golden (79.20) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - star rows: J Meissa → J Ketu Dec 0.1880 conj (13.95) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+  - star rows: J Pollux → J Ketu RA 92.9952 93 whole (58.03) — also: 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+- **Makemake**
+  - T1: H Jupiter → H Makemake RA 0.2633 conj (67.97) — only
+  - star rows: H Scheat → H Makemake RA 152.0715 94×φ golden (7.25) — also: 1 Dedicated Hero / Sam Twiston-Davies
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+  - same body: S Makemake → J Makemake RA 25.8978 16×φ golden (loose) — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Makemake RA 12.9972 13 whole (73.81)
+  - star rows: J Acumen → J Makemake Dec 68.0144 68 whole (7.87) — also: 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+- **Jupiter**
+  - T1: H Jupiter → H star Galactic Centre RA 72.8146 45×φ golden (82.01) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - T1: H Jupiter → H star Hamal RA 161.8185 100×φ^1 phi power (96.30) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - top rows: S Uranus → H Jupiter Dec 24.9944 25 whole (51.49) — only
+    - source line: S Jupiter → Uranus RA 84.9947 85 whole (54.32)
+  - top rows: S Vesta → H Jupiter RA 176.3606 109×φ golden (71.15) — only
+  - star rows: H Galactic Centre → H Jupiter RA 72.8146 45×φ golden (82.01) — also: 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: S Hamal → H Jupiter RA 161.8067 100×φ^1 phi power (99.17) — also: 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - T2: J Jupiter → J star Zubenelgenubi Dec 7.0026 7 whole (75.39) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - top rows: S Mercury → J Jupiter RA 46.9216 29×φ golden (91.44) — only
+  - top rows: S Ceres → J Jupiter RA 148.8544 92×φ golden (73.12) — also: 1 Dedicated Hero / Sam Twiston-Davies
+  - top rows: S Pallas → J Jupiter RA 111.0007 111 whole (93.51) — only
+  - top rows: S Eris → J Jupiter RA 122.9129 φ^10 phi power (75.98) — only
+  - star rows: J Scheat → J Jupiter RA 82.0198 82 whole (0.01) — also: 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+  - star rows: S Zubenelgenubi → J Jupiter Dec 7.0023 7 whole (78.21) — also: 6 Star Of Guiting / Craig Nichol
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+- **Neptune**
+  - top rows: S Jupiter → H Neptune RA 161.8076 100×φ^1 phi power (98.96) — also: 7 King Ulanda / Jack Tudor
+  - star rows: H Capella → H Neptune RA 93.8490 58×φ golden (82.34) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: H Pollux → H Neptune RA 131.0059 131 whole (50.04) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - star rows: H Scheat → H Neptune RA 0.6254 conj (34.00) — also: 3 Manuelito / Harry Cobden
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+  - star rows: J Deneb Algedi → J Neptune RA 31.0135 31 whole (10.54) — also: 6 Star Of Guiting / Craig Nichol
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - star rows: J Pollux → J Neptune RA 179.4093 10×φ^6 phi power (92.69) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+- **Chiron**
+  - top rows: S Moon → H Chiron RA 166.9947 167 whole (54.17) — also: 6 Star Of Guiting / Craig Nichol
+  - star rows: H Alphard → H Chiron RA 145.6304 90×φ golden (59.79) — also: 1 Dedicated Hero / Sam Twiston-Davies, 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - same body: S Chiron → J Chiron Dec 17.8619 φ^6 phi power (loose) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - top rows: S Moon → J Chiron RA 0.7029 conj (28.24) — also: 6 Star Of Guiting / Craig Nichol
+- **Orcus**
+  - top rows: S Moon → H Orcus Dec 0.2218 conj (6.79) — only
+  - star rows: H Altair → H Orcus Dec 17.9961 18 whole (65.09) — only
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: H Deneb Algedi → H Orcus Dec 7.0005 7 whole (95.14) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - star rows: H Galactic Centre → H Orcus RA 115.0025 115 whole (76.22) — also: 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - same body: S Orcus → J Orcus Dec 14.3632 14.4444 ninth (loose) — also: 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Orcus Dec 5.0060 5 whole (49.11)
+  - star rows: J Acumen → J Orcus RA 132.9934 133 whole (44.85) — also: 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - star rows: J Alpheratz → J Orcus RA 133.3640 133.333 ninth (96.32) — also: 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: J Hamal → J Orcus Dec 23.0137 23 whole (9.84) — also: 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+- **Sun**
+  - star rows: H Acumen → H Sun RA 140.7794 87×φ golden (45.71) — only
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - star rows: J Acumen → J Sun Dec 11.9877 12 whole (14.81) — only
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - star rows: J Alphard → J Sun Dec 14.1484 14.14 sqrt2 (83.02) — also: 1 Dedicated Hero / Sam Twiston-Davies
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - star rows: J Hamal → J Sun RA 135.9373 84×φ golden (9.30) — also: 1 Dedicated Hero / Sam Twiston-Davies
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+- **Pallas**
+  - star rows: H Altair → H Pallas Dec 8.0162 8 whole (3.52) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: H Deneb Algedi → H Pallas Dec 16.9804 17 whole (0.04) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - star rows: H Menkar → H Pallas Dec 3.2361 2×φ golden (99.88) — also: 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: J Deneb Algedi → J Pallas RA 127.0146 127 whole (7.20) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - star rows: J Galactic Centre → J Pallas RA 66.6673 66.6667 ninth (99.42) — also: 3 Manuelito / Harry Cobden
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+- **Quaoar**
+  - star rows: H Altair → H Quaoar RA 27.5035 17×φ golden (81.90) — also: 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: H Altair → H Quaoar Dec 24.2792 15×φ golden (53.48) — also: 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+- **Saturn**
+  - star rows: H Capella → H Saturn Dec 68.0187 68 whole (0.40) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: H Galactic Centre → H Saturn RA 0.1594 conj (79.88) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: H Galactic Centre → H Saturn Dec 6.9855 7 whole (7.70) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - same body: S Saturn → J Saturn RA 18.8031 18.8889 ninth (loose) — also: 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+  - top rows: S Jupiter → J Saturn RA 156.9975 157 whole (76.23) — only
+  - star rows: J Pollux → J Saturn RA 126.2078 78×φ golden (92.76) — also: 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+- **Mercury**
+  - star rows: H Galactic Centre → H Mercury RA 119.7230 74×φ golden (41.37) — also: 7 King Ulanda / Jack Tudor
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: H Hamal → H Mercury Dec 15.9973 16 whole (74.45) — also: 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - star rows: H Menkar → H Mercury RA 19.4195 12×φ golden (81.59) — also: 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: H Zubenelgenubi → H Mercury RA 163.4203 101×φ golden (93.23) — also: 5 Lyssenko / Harry Skelton
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+  - same body: S Mercury → J Mercury RA 48.5390 30×φ golden (loose) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+  - same body: S Mercury → J Mercury Dec 10.9890 11 whole (20.19) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+  - star rows: J Galactic Centre → J Mercury RA 0.8697 conj (17.66) — also: 7 King Ulanda / Jack Tudor
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+- **Ceres**
+  - star rows: H Galactic Centre → H Ceres RA 156.9263 97×φ golden (8.31) — also: 3 Manuelito / Harry Cobden
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - top rows: S Sun → J Ceres RA 1.0509 conj (8.96) — also: 7 King Ulanda / Jack Tudor
+  - star rows: J Alphard → J Ceres Dec 0.9978 1 whole (79.15) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - star rows: J Deneb Algedi → J Ceres Dec 6.4728 4×φ golden (96.03) — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - star rows: J Zubenelgenubi → J Ceres RA 0.3363 conj (60.18) — only
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+- **Gonggong**
+  - star rows: H Galactic Centre → H Gonggong RA 69.9895 70 whole (22.72) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - top rows: S Moon → J Gonggong RA 140.9967 141 whole (69.99) — only
+- **Mars**
+  - star rows: H Hamal → H Mars Dec 0.2233 conj (6.54) — also: 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - star rows: H Zubenelgenubi → H Mars RA 149.9967 150 whole (69.92) — also: 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+  - same body: S Mars → J Mars RA 133.5461 133.333 ninth (loose) — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - star rows: J Galactic Centre → J Mars RA 11.0949 φ^5 phi power (83.75) — also: 4 All In You / Sean Bowen
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+- **Venus**
+  - star rows: H Menkar → H Venus RA 37.9902 38 whole (25.94) — also: 1 Dedicated Hero / Sam Twiston-Davies
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: J Alphard → J Venus RA 144.4389 144.444 ninth (99.42) — also: 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - star rows: J Facies → J Venus Dec 0.2895 conj (0.12) — also: 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - star rows: J Pollux → J Venus RA 170.0035 170 whole (68.01) — also: 4 All In You / Sean Bowen
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+- **Transpluto**
+  - top rows: S Jupiter → J Transpluto RA 0.3733 conj (56.42) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - star rows: J Deneb Algedi → J Transpluto RA 179.9936 180 whole (45.91) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+- **Eris**
+  - top rows: S Moon → J Eris RA 166.6202 166.667 ninth (96.02) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden
+  - star rows: J Facies → J Eris RA 103.5574 64×φ golden (81.18) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+- **Pluto**
+  - star rows: J Altair → J Pluto RA 56.0070 56 whole (42.37) — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
 
 ## 3 Manuelito / Harry Cobden
 ### L1 same bodies
@@ -674,86 +1139,146 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - S Vesta → J Vesta RA 121.7190 122.222 ninth (loose)
 ### L2 what lands on each same body
 - **H Sun** (same body: S Sun → H Sun RA 100.9961 101 whole (64.92))
-  - top rows: S Sun → H Sun RA 100.9961 101 whole (64.92) [Sun]
-  - star rows: H Pollux → H Sun RA 154.0069 154 whole (42.69) [Sun]
-  - other chart, top rows: S Sun → J Sun RA 0.8949 conj (16.27) [Sun]
-  - other chart, top rows: S Sun → J Sun Dec 0.2687 conj (1.09) [Sun]
+  - star rows: H Pollux → H Sun RA 154.0069 154 whole (42.69)
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - other chart, top rows: S Sun → J Sun RA 0.8949 conj (16.27)
+  - other chart, top rows: S Sun → J Sun Dec 0.2687 conj (1.09)
 - **H Mercury** (same body: S Mercury → H Mercury RA 122.5219 122.222 ninth (loose); S Mercury → H Mercury Dec 6.1773 10×φ^-1 phi power (loose))
-  - star rows: H Alpheratz → H Mercury Dec 37.2186 23×φ golden (77.82) [Moon, Sun]
-  - star rows: H Altair → H Mercury Dec 16.9972 17 whole (73.83) [Moon]
-  - star rows: H Deneb Algedi → H Mercury Dec 8.0022 8 whole (79.56) [Sun]
-  - other chart, star rows: J Acumen → J Mercury RA 25.9946 26 whole (53.40) [Moon]
-  - other chart, star rows: J Alphard → J Mercury Dec 15.0159 15 whole (4.11) [Moon]
-  - other chart, star rows: J Facies → J Mercury Dec 0.2329 conj (5.00) [Moon]
+  - star rows: H Alpheratz → H Mercury Dec 37.2186 23×φ golden (77.82)
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: H Altair → H Mercury Dec 16.9972 17 whole (73.83)
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: H Deneb Algedi → H Mercury Dec 8.0022 8 whole (79.56)
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - other chart, star rows: J Acumen → J Mercury RA 25.9946 26 whole (53.40)
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - other chart, star rows: J Alphard → J Mercury Dec 15.0159 15 whole (4.11)
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - other chart, star rows: J Facies → J Mercury Dec 0.2329 conj (5.00)
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
 - **H Venus** (same body: S Venus → H Venus RA 161.1514 100×φ^1 phi power (loose))
-  - star rows: H Alpheratz → H Venus RA 0.4014 conj (53.64) [Moon, Sun]
-  - star rows: H Altair → H Venus RA 63.9983 64 whole (83.52) [Moon]
-  - other chart, top rows: S Sun → J Venus RA 0.9138 conj (15.27) [Sun]
-  - other chart, star rows: J Zubenelgenubi → J Venus RA 0.4725 conj (46.92) [Sun]
+  - star rows: H Alpheratz → H Venus RA 0.4014 conj (53.64)
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: H Altair → H Venus RA 63.9983 64 whole (83.52)
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - other chart, top rows: S Sun → J Venus RA 0.9138 conj (15.27)
+  - other chart, star rows: J Zubenelgenubi → J Venus RA 0.4725 conj (46.92)
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
 - **H Chiron** (same body: S Chiron → H Chiron RA 24.1403 24.14 silver (97.00); S Chiron → H Chiron Dec 7.0773 7.07 sqrt2 (loose))
-  - star rows: H Alpheratz → H Chiron RA 0.8018 conj (21.67) [Moon, Sun]
-  - star rows: H Facies → H Chiron Dec 27.5091 17×φ golden (85.13) [Moon]
+  - star rows: H Alpheratz → H Chiron RA 0.8018 conj (21.67)
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: H Facies → H Chiron Dec 27.5091 17×φ golden (85.13)
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
   - other chart, same body: S Chiron → J Chiron RA 155.0641 155.556 ninth (loose)
-  - other chart, top rows: S Sun → J Chiron Dec 0.1306 conj (31.90) [Sun]
-  - other chart, star rows: J Deneb Algedi → J Chiron Dec 0.2813 conj (0.39) [Sun]
-  - other chart, star rows: J Zubenelgenubi → J Chiron Dec 0.1943 conj (12.42) [Sun]
+  - other chart, top rows: S Sun → J Chiron Dec 0.1306 conj (31.90)
+  - other chart, star rows: J Deneb Algedi → J Chiron Dec 0.2813 conj (0.39)
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - other chart, star rows: J Zubenelgenubi → J Chiron Dec 0.1943 conj (12.42)
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
 - **H Pallas** (same body: S Pallas → H Pallas Dec 26.1434 10×φ^2 phi power (loose))
-  - top rows: S Moon → H Pallas RA 87.9942 88 whole (50.29) [Moon]
-  - star rows: H Altair → H Pallas Dec 2.9913 3 whole (32.15) [Moon]
-  - star rows: H Deneb Algedi → H Pallas Dec 22.0080 22 whole (35.97) [Sun]
+  - top rows: S Moon → H Pallas RA 87.9942 88 whole (50.29)
+  - star rows: H Altair → H Pallas Dec 2.9913 3 whole (32.15)
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: H Deneb Algedi → H Pallas Dec 22.0080 22 whole (35.97)
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
   - other chart, same body: S Pallas → J Pallas RA 27.4990 17×φ golden (loose)
   - other chart, same body: S Pallas → J Pallas Dec 8.0909 5×φ golden (95.46)
-  - other chart, star rows: J Galactic Centre → J Pallas RA 81.0128 81 whole (12.81) [Jupiter]
-  - other chart, star rows: J Scheat → J Pallas RA 1.4783 conj (0.02) [Moon]
+  - other chart, star rows: J Galactic Centre → J Pallas RA 81.0128 81 whole (12.81)
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - other chart, star rows: J Scheat → J Pallas RA 1.4783 conj (0.02)
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
 - **H Sedna** (same body: S Sedna → H Sedna Dec 0.9884 1 whole (17.78))
-  - other chart, star rows: J Capella → J Sedna Dec 40.9881 41 whole (16.53) [Jupiter]
-  - other chart, star rows: J Galactic Centre → J Sedna Dec 34.0171 34 whole (2.10) [Jupiter]
-  - other chart, star rows: J Menkar → J Sedna RA 0.7223 conj (26.88) [Moon]
-  - other chart, star rows: J Pollux → J Sedna Dec 23.0162 23 whole (3.53) [Sun]
+  - other chart, star rows: J Capella → J Sedna Dec 40.9881 41 whole (16.53)
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - other chart, star rows: J Galactic Centre → J Sedna Dec 34.0171 34 whole (2.10)
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - other chart, star rows: J Menkar → J Sedna RA 0.7223 conj (26.88)
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - other chart, star rows: J Pollux → J Sedna Dec 23.0162 23 whole (3.53)
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
 - **H Haumea** (same body: S Haumea → H Haumea RA 4.9824 5 whole (1.47))
-  - body line: S Sun → Haumea RA 0.5930 conj (36.56)
-  - star rows: H Deneb Algedi → H Haumea RA 111.0039 111 whole (65.19) [Sun]
-  - other chart, star rows: J Alphard → J Haumea RA 53.9940 54 whole (48.96) [Moon]
+  - sky line to Haumea: S Sun → Haumea RA 0.5930 conj (36.56)
+  - star rows: H Deneb Algedi → H Haumea RA 111.0039 111 whole (65.19)
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - other chart, star rows: J Alphard → J Haumea RA 53.9940 54 whole (48.96)
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
 - **J Uranus** (same body: S Uranus → J Uranus RA 110.5555 10×φ^5 phi power (loose))
-  - body line: S Jupiter → Uranus RA 84.9947 85 whole (54.32)
-  - star rows: J Alphard → J Uranus Dec 9.9904 10 whole (27.02) [Moon]
-  - star rows: J Menkar → J Uranus RA 94.0011 94 whole (89.54) [Moon]
-  - other chart, top rows: S Moon → H Uranus RA 158.5620 98×φ golden (70.00) [Moon]
-  - other chart, star rows: H Acumen → H Uranus RA 122.2514 122.222 ninth (95.97) [Moon]
-  - other chart, star rows: H Alphard → H Uranus RA 111.1928 111.111 ninth (86.63) [Moon]
-  - other chart, star rows: H Altair → H Uranus RA 93.0158 93 whole (4.43) [Moon]
-  - other chart, star rows: H Capella → H Uranus Dec 34.0183 34 whole (0.76) [Jupiter]
-  - other chart, star rows: H Facies → H Uranus RA 111.6144 69×φ golden (0.56) [Moon]
-  - other chart, star rows: H Galactic Centre → H Uranus Dec 40.9868 41 whole (11.53) [Jupiter]
-  - other chart, star rows: H Hamal → H Uranus RA 1.0835 conj (7.71) [Moon]
-  - other chart, star rows: H Zubenelgenubi → H Uranus RA 167.9900 168 whole (25.08) [Sun]
+  - sky line to Uranus: S Jupiter → Uranus RA 84.9947 85 whole (54.32)
+  - star rows: J Alphard → J Uranus Dec 9.9904 10 whole (27.02)
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - star rows: J Menkar → J Uranus RA 94.0011 94 whole (89.54)
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - other chart, top rows: S Moon → H Uranus RA 158.5620 98×φ golden (70.00)
+  - other chart, star rows: H Acumen → H Uranus RA 122.2514 122.222 ninth (95.97)
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - other chart, star rows: H Alphard → H Uranus RA 111.1928 111.111 ninth (86.63)
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - other chart, star rows: H Altair → H Uranus RA 93.0158 93 whole (4.43)
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - other chart, star rows: H Capella → H Uranus Dec 34.0183 34 whole (0.76)
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - other chart, star rows: H Facies → H Uranus RA 111.6144 69×φ golden (0.56)
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - other chart, star rows: H Galactic Centre → H Uranus Dec 40.9868 41 whole (11.53)
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - other chart, star rows: H Hamal → H Uranus RA 1.0835 conj (7.71)
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - other chart, star rows: H Zubenelgenubi → H Uranus RA 167.9900 168 whole (25.08)
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
 - **J Chiron** (same body: S Chiron → J Chiron RA 155.0641 155.556 ninth (loose))
-  - top rows: S Sun → J Chiron Dec 0.1306 conj (31.90) [Sun]
-  - star rows: J Deneb Algedi → J Chiron Dec 0.2813 conj (0.39) [Sun]
-  - star rows: J Zubenelgenubi → J Chiron Dec 0.1943 conj (12.42) [Sun]
+  - top rows: S Sun → J Chiron Dec 0.1306 conj (31.90)
+  - star rows: J Deneb Algedi → J Chiron Dec 0.2813 conj (0.39)
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - star rows: J Zubenelgenubi → J Chiron Dec 0.1943 conj (12.42)
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
   - other chart, same body: S Chiron → H Chiron RA 24.1403 24.14 silver (97.00)
   - other chart, same body: S Chiron → H Chiron Dec 7.0773 7.07 sqrt2 (loose)
-  - other chart, star rows: H Alpheratz → H Chiron RA 0.8018 conj (21.67) [Moon, Sun]
-  - other chart, star rows: H Facies → H Chiron Dec 27.5091 17×φ golden (85.13) [Moon]
+  - other chart, star rows: H Alpheratz → H Chiron RA 0.8018 conj (21.67)
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - other chart, star rows: H Facies → H Chiron Dec 27.5091 17×φ golden (85.13)
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
 - **J Ceres** (same body: S Ceres → J Ceres RA 44.4604 44.4444 ninth (loose))
-  - star rows: J Capella → J Ceres Dec 28.9931 29 whole (42.78) [Jupiter]
-  - star rows: J Galactic Centre → J Ceres Dec 46.0121 46 whole (15.40) [Jupiter]
-  - other chart, star rows: H Alphard → H Ceres RA 164.9830 165 whole (2.27) [Moon]
-  - other chart, star rows: H Facies → H Ceres Dec 0.2979 conj (0.00) [Moon]
+  - star rows: J Capella → J Ceres Dec 28.9931 29 whole (42.78)
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: J Galactic Centre → J Ceres Dec 46.0121 46 whole (15.40)
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - other chart, star rows: H Alphard → H Ceres RA 164.9830 165 whole (2.27)
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - other chart, star rows: H Facies → H Ceres Dec 0.2979 conj (0.00)
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
 - **J Pallas** (same body: S Pallas → J Pallas RA 27.4990 17×φ golden (loose); S Pallas → J Pallas Dec 8.0909 5×φ golden (95.46))
-  - star rows: J Galactic Centre → J Pallas RA 81.0128 81 whole (12.81) [Jupiter]
-  - star rows: J Scheat → J Pallas RA 1.4783 conj (0.02) [Moon]
+  - star rows: J Galactic Centre → J Pallas RA 81.0128 81 whole (12.81)
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: J Scheat → J Pallas RA 1.4783 conj (0.02)
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
   - other chart, same body: S Pallas → H Pallas Dec 26.1434 10×φ^2 phi power (loose)
-  - other chart, top rows: S Moon → H Pallas RA 87.9942 88 whole (50.29) [Moon]
-  - other chart, star rows: H Altair → H Pallas Dec 2.9913 3 whole (32.15) [Moon]
-  - other chart, star rows: H Deneb Algedi → H Pallas Dec 22.0080 22 whole (35.97) [Sun]
+  - other chart, top rows: S Moon → H Pallas RA 87.9942 88 whole (50.29)
+  - other chart, star rows: H Altair → H Pallas Dec 2.9913 3 whole (32.15)
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - other chart, star rows: H Deneb Algedi → H Pallas Dec 22.0080 22 whole (35.97)
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
 - **J Juno** (same body: S Juno → J Juno Dec 7.0696 7.07 sqrt2 (loose))
-  - star rows: J Pollux → J Juno RA 101.0073 101 whole (40.36) [Sun]
-  - other chart, star rows: H Meissa → H Juno Dec 14.4475 14.4444 ninth (96.79) [Sun]
+  - star rows: J Pollux → J Juno RA 101.0073 101 whole (40.36)
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - other chart, star rows: H Meissa → H Juno Dec 14.4475 14.4444 ninth (96.79)
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
 - **J Vesta** (same body: S Vesta → J Vesta RA 121.7190 122.222 ninth (loose))
-  - star rows: J Scheat → J Vesta RA 153.0192 153 whole (0.15) [Moon]
-  - other chart, star rows: H Menkar → H Vesta RA 0.4807 conj (46.18) [Moon]
-### L3 the seven cases (L5 field tag on each)
+  - star rows: J Scheat → J Vesta RA 153.0192 153 whole (0.15)
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+  - other chart, star rows: H Menkar → H Vesta RA 0.4807 conj (46.18)
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+### L3 matches
 - **1. same body on both charts**
   - Chiron — only
     - S Chiron → H Chiron RA 24.1403 24.14 silver (97.00)
@@ -791,19 +1316,40 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 15 whole — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
     - J Pollux → J Transpluto Dec 15.0055 15 whole (52.73) = S Moon → Facies Dec 14.9988 15 whole (88.35)
 - **4. circle divisions**
-  - 1 = 360/360 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - 1 = 360/360 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
     - S Sedna → H Sedna Dec 0.9884 1 whole (17.78)
   - 5 = 360/72 — also: 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
     - S Haumea → H Haumea RA 4.9824 5 whole (1.47)
-  - 8 = 360/45 — also: 2 Bucephalus / Harriet Tucker, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - 4 = 360/90 — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - H Acumen → H Mars RA 3.9849 4 whole (5.96)
+  - 3 = 360/120 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+    - H Altair → H Pallas Dec 2.9913 3 whole (32.15)
+  - 8 = 360/45 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
     - H Deneb Algedi → H Mercury Dec 8.0022 8 whole (79.56)
-  - 9 = 360/40 — also: 5 Lyssenko / Harry Skelton
+  - 6 = 360/60 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - H Deneb Algedi → H Pluto Dec 5.9801 6 whole (0.00)
+  - 8 = 360/45 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - H Galactic Centre → H Saturn Dec 8.0161 8 whole (3.72)
+  - 6 = 360/60 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - H Menkar → H Eris Dec 5.9919 6 whole (35.51)
+  - 30 = 360/12 — also: 1 Dedicated Hero / Sam Twiston-Davies, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - H Scheat → H Eris Dec 29.9872 30 whole (13.03)
+  - 10 = 360/36 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - H Zubenelgenubi → H Neptune Dec 10.0069 10 whole (42.83)
+  - 9 = 360/40 — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
     - S Jupiter → J Orcus RA 8.9964 9 whole (67.51)
-  - 10 = 360/36 — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+  - 10 = 360/36 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
     - S Sun → J Jupiter Dec 10.0011 10 whole (88.99)
-  - 15 = 360/24 — also: 4 All In You / Sean Bowen
+  - 15 = 360/24 — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - J Alphard → J Mercury Dec 15.0159 15 whole (4.11)
+  - 10 = 360/36 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - J Alphard → J Uranus Dec 9.9904 10 whole (27.02)
+  - 15 = 360/24 — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
     - J Pollux → J Transpluto Dec 15.0055 15 whole (52.73)
 - **5. same number in more than one place**
+  - 101 whole — only
+    - S Sun → H Sun RA 100.9961 101 whole (64.92)
+    - J Pollux → J Juno RA 101.0073 101 whole (40.36)
   - 122.222 ninth — also: 4 All In You / Sean Bowen
     - S Mercury → H Mercury RA 122.5219 122.222 ninth (loose)
     - H Acumen → H Uranus RA 122.2514 122.222 ninth (95.97)
@@ -817,152 +1363,334 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 10×φ^4 phi power — only
     - H Jupiter → H star Capella Dec 68.5406 10×φ^4 phi power (99.75)
     - H Capella → H Jupiter Dec 68.5406 10×φ^4 phi power (99.75)
-  - 46 whole — only
+  - 46 whole — also: 4 All In You / Sean Bowen
     - H Jupiter → H star Hamal Dec 46.0050 46 whole (56.57)
     - H Hamal → H Jupiter Dec 46.0050 46 whole (56.57)
+    - J Galactic Centre → J Ceres Dec 46.0121 46 whole (15.40)
   - 9×φ golden — only
     - H Alphard → H Ketu Dec 14.5669 9×φ golden (73.50)
     - H Altair → H Makemake Dec 14.5691 9×φ golden (62.43)
+  - 64 whole — also: 5 Lyssenko / Harry Skelton
+    - H Altair → H Venus RA 63.9983 64 whole (83.52)
+    - J Meissa → J Transpluto RA 63.9836 64 whole (3.23)
+  - 34 whole — only
+    - H Capella → H Uranus Dec 34.0183 34 whole (0.76)
+    - J Jupiter → J star Pollux Dec 34.0005 34 whole (95.30)
+    - J Galactic Centre → J Sedna Dec 34.0171 34 whole (2.10)
+    - S Pollux → J Jupiter Dec 34.0001 34 whole (98.99)
+  - 8 whole — also: 2 Bucephalus / Harriet Tucker, 6 Star Of Guiting / Craig Nichol
+    - H Deneb Algedi → H Mercury Dec 8.0022 8 whole (79.56)
+    - H Galactic Centre → H Saturn Dec 8.0161 8 whole (3.72)
+  - 6 whole — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - H Deneb Algedi → H Pluto Dec 5.9801 6 whole (0.00)
+    - H Menkar → H Eris Dec 5.9919 6 whole (35.51)
+  - 22 whole — also: 1 Dedicated Hero / Sam Twiston-Davies, 7 King Ulanda / Jack Tudor
+    - H Deneb Algedi → H Pallas Dec 22.0080 22 whole (35.97)
+    - H Facies → H Eris Dec 22.0010 22 whole (89.82)
+    - J Meissa → J Makemake Dec 22.0120 22 whole (15.96)
+    - J Meissa → J Ketu Dec 21.9980 22 whole (81.21)
   - 17×φ golden — only
     - H Facies → H Chiron Dec 27.5091 17×φ golden (85.13)
     - S Pallas → J Pallas RA 27.4990 17×φ golden (loose)
-  - 22 whole — only
-    - H Facies → H Eris Dec 22.0010 22 whole (89.82)
-    - J Meissa → J Ketu Dec 21.9980 22 whole (81.21)
+  - 41 whole — only
+    - H Galactic Centre → H Uranus Dec 40.9868 41 whole (11.53)
+    - J Capella → J Sedna Dec 40.9881 41 whole (16.53)
+  - 104×φ golden — only
+    - H Galactic Centre → H Rahu RA 168.2974 104×φ golden (10.59)
+    - H Scheat → H Transpluto RA 168.2835 104×φ golden (56.71)
+  - 10 whole — also: 5 Lyssenko / Harry Skelton
+    - H Zubenelgenubi → H Neptune Dec 10.0069 10 whole (42.83)
+    - S Sun → J Jupiter Dec 10.0011 10 whole (88.99)
+    - J Alphard → J Uranus Dec 9.9904 10 whole (27.02)
   - 94×φ golden — only
     - J Jupiter → J star Alphard RA 152.0884 94×φ golden (62.19)
     - J Alphard → J Jupiter RA 152.0884 94×φ golden (62.19)
   - 70.7 sqrt2 — only
     - J Jupiter → J star Facies RA 70.7118 70.7 sqrt2 (99.37)
     - J Facies → J Jupiter RA 70.7118 70.7 sqrt2 (99.37)
-  - 34 whole — only
-    - J Jupiter → J star Pollux Dec 34.0005 34 whole (95.30)
-    - S Pollux → J Jupiter Dec 34.0001 34 whole (98.99)
-- **6. star and sky line on one body**: none
-- **7. centres meeting**
-  - Haumea: Moon, Sun — also: 7 King Ulanda / Jack Tudor
-    - [Moon] J Alphard → J Haumea RA 53.9940 54 whole (48.96)
-    - [Sun] S Haumea → H Haumea RA 4.9824 5 whole (1.47)
-    - [Sun] H Deneb Algedi → H Haumea RA 111.0039 111 whole (65.19)
-  - Gonggong: Moon, Sun — also: 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
-    - [Moon] H Alpheratz → H Gonggong RA 25.8829 16×φ golden (68.38)
-    - [Sun] S Sun → H Gonggong RA 114.8827 71×φ golden (86.11)
-    - [Sun] H Alpheratz → H Gonggong RA 25.8829 16×φ golden (68.38)
-  - Uranus: Jupiter, Moon, Sun — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
-    - [Jupiter] H Capella → H Uranus Dec 34.0183 34 whole (0.76)
-    - [Jupiter] H Galactic Centre → H Uranus Dec 40.9868 41 whole (11.53)
-    - [Jupiter] S Uranus → J Uranus RA 110.5555 10×φ^5 phi power (loose)
-    - [Moon] S Moon → H Uranus RA 158.5620 98×φ golden (70.00)
-    - [Moon] H Acumen → H Uranus RA 122.2514 122.222 ninth (95.97)
-    - [Moon] H Alphard → H Uranus RA 111.1928 111.111 ninth (86.63)
-    - [Moon] H Altair → H Uranus RA 93.0158 93 whole (4.43)
-    - [Moon] H Facies → H Uranus RA 111.6144 69×φ golden (0.56)
-    - [Moon] H Hamal → H Uranus RA 1.0835 conj (7.71)
-    - [Moon] J Alphard → J Uranus Dec 9.9904 10 whole (27.02)
-    - [Moon] J Menkar → J Uranus RA 94.0011 94 whole (89.54)
-    - [Sun] H Zubenelgenubi → H Uranus RA 167.9900 168 whole (25.08)
-  - Pallas: Jupiter, Moon, Sun — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen
-    - [Jupiter] J Galactic Centre → J Pallas RA 81.0128 81 whole (12.81)
-    - [Moon] S Moon → H Pallas RA 87.9942 88 whole (50.29)
-    - [Moon] H Altair → H Pallas Dec 2.9913 3 whole (32.15)
-    - [Moon] J Scheat → J Pallas RA 1.4783 conj (0.02)
-    - [Sun] H Deneb Algedi → H Pallas Dec 22.0080 22 whole (35.97)
-  - Eris: Moon, Sun — also: 1 Dedicated Hero / Sam Twiston-Davies, 7 King Ulanda / Jack Tudor
-    - [Moon] S Moon → H Eris Dec 7.0023 7 whole (78.53)
-    - [Moon] H Alpheratz → H Eris Dec 30.9938 31 whole (47.82)
-    - [Moon] H Facies → H Eris Dec 22.0010 22 whole (89.82)
-    - [Moon] H Menkar → H Eris Dec 5.9919 6 whole (35.51)
-    - [Moon] H Scheat → H Eris Dec 29.9872 30 whole (13.03)
-    - [Sun] H Alpheratz → H Eris Dec 30.9938 31 whole (47.82)
-  - Rahu: Jupiter, Moon — also: 6 Star Of Guiting / Craig Nichol
-    - [Jupiter] H Galactic Centre → H Rahu RA 168.2974 104×φ golden (10.59)
-    - [Moon] H Acumen → H Rahu Dec 58.0194 58 whole (0.08)
-    - [Moon] H Hamal → H Rahu Dec 0.2351 conj (4.68)
-    - [Moon] J Acumen → J Rahu RA 117.9895 118 whole (22.36)
-    - [Moon] J Altair → J Rahu RA 147.2257 91×φ golden (27.55)
-  - Ceres: Jupiter, Moon — only
-    - [Jupiter] J Capella → J Ceres Dec 28.9931 29 whole (42.78)
-    - [Jupiter] J Galactic Centre → J Ceres Dec 46.0121 46 whole (15.40)
-    - [Moon] H Alphard → H Ceres RA 164.9830 165 whole (2.27)
-    - [Moon] H Facies → H Ceres Dec 0.2979 conj (0.00)
-  - Ketu: Moon, Sun — also: 1 Dedicated Hero / Sam Twiston-Davies
-    - [Moon] H Alphard → H Ketu Dec 14.5669 9×φ golden (73.50)
-    - [Moon] H Facies → H Ketu RA 0.9796 conj (12.04)
-    - [Moon] J Acumen → J Ketu RA 62.0105 62 whole (22.36)
-    - [Sun] J Meissa → J Ketu Dec 21.9980 22 whole (81.21)
-  - Mercury: Moon, Sun — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
-    - [Moon] H Alpheratz → H Mercury Dec 37.2186 23×φ golden (77.82)
-    - [Moon] H Altair → H Mercury Dec 16.9972 17 whole (73.83)
-    - [Moon] J Acumen → J Mercury RA 25.9946 26 whole (53.40)
-    - [Moon] J Alphard → J Mercury Dec 15.0159 15 whole (4.11)
-    - [Moon] J Facies → J Mercury Dec 0.2329 conj (5.00)
-    - [Sun] H Alpheratz → H Mercury Dec 37.2186 23×φ golden (77.82)
-    - [Sun] H Deneb Algedi → H Mercury Dec 8.0022 8 whole (79.56)
-  - Venus: Moon, Sun — also: 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
-    - [Moon] H Alpheratz → H Venus RA 0.4014 conj (53.64)
-    - [Moon] H Altair → H Venus RA 63.9983 64 whole (83.52)
-    - [Sun] H Alpheratz → H Venus RA 0.4014 conj (53.64)
-    - [Sun] S Sun → J Venus RA 0.9138 conj (15.27)
-    - [Sun] J Zubenelgenubi → J Venus RA 0.4725 conj (46.92)
-  - Chiron: Moon, Sun — also: 1 Dedicated Hero / Sam Twiston-Davies, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
-    - [Moon] H Alpheratz → H Chiron RA 0.8018 conj (21.67)
-    - [Moon] H Facies → H Chiron Dec 27.5091 17×φ golden (85.13)
-    - [Sun] H Alpheratz → H Chiron RA 0.8018 conj (21.67)
-    - [Sun] S Sun → J Chiron Dec 0.1306 conj (31.90)
-    - [Sun] J Deneb Algedi → J Chiron Dec 0.2813 conj (0.39)
-    - [Sun] J Zubenelgenubi → J Chiron Dec 0.1943 conj (12.42)
-  - Saturn: Jupiter, Moon, Sun — also: 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
-    - [Jupiter] H Capella → H Saturn RA 141.4647 141.4 sqrt2 (88.12)
-    - [Jupiter] H Capella → H Saturn Dec 66.9889 67 whole (19.83)
-    - [Jupiter] H Galactic Centre → H Saturn Dec 8.0161 8 whole (3.72)
-    - [Moon] H Altair → H Saturn RA 0.0188 conj (97.52)
-    - [Moon] J Alpheratz → J Saturn RA 26.0098 26 whole (26.14)
-    - [Moon] J Altair → J Saturn Dec 0.2656 conj (1.31)
-    - [Moon] J Facies → J Saturn RA 109.0149 109 whole (6.38)
-    - [Sun] H Pollux → H Saturn Dec 49.0165 49 whole (3.05)
-    - [Sun] H Zubenelgenubi → H Saturn RA 74.9930 75 whole (42.11)
-    - [Sun] J Alpheratz → J Saturn RA 26.0098 26 whole (26.14)
-  - Makemake: Moon, Sun — also: 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
-    - [Moon] H Altair → H Makemake Dec 14.5691 9×φ golden (62.43)
-    - [Moon] H Hamal → H Makemake Dec 0.0245 conj (84.32)
-    - [Moon] J Alphard → J Makemake RA 37.0000 37 whole (99.60)
-    - [Moon] J Menkar → J Makemake RA 133.3209 133.333 ninth (98.51)
-    - [Sun] J Meissa → J Makemake Dec 22.0120 22 whole (15.96)
-    - [Sun] J Zubenelgenubi → J Makemake Dec 47.9873 48 whole (13.31)
-  - Jupiter: Jupiter, Moon, Sun — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
-    - [Jupiter] H Capella → H Jupiter Dec 68.5406 10×φ^4 phi power (99.75)
-    - [Jupiter] S Sun → J Jupiter Dec 10.0011 10 whole (88.99)
-    - [Moon] H Hamal → H Jupiter Dec 46.0050 46 whole (56.57)
-    - [Moon] J Alphard → J Jupiter RA 152.0884 94×φ golden (62.19)
-    - [Moon] J Facies → J Jupiter RA 70.7118 70.7 sqrt2 (99.37)
-    - [Moon] S Hamal → J Jupiter RA 41.9927 42 whole (40.20)
-    - [Sun] S Sun → J Jupiter Dec 10.0011 10 whole (88.99)
-    - [Sun] S Meissa → J Jupiter RA 93.9810 94 whole (0.23)
-    - [Sun] S Pollux → J Jupiter Dec 34.0001 34 whole (98.99)
-  - Pluto: Moon, Sun — also: 5 Lyssenko / Harry Skelton
-    - [Moon] J Alphard → J Pluto RA 105.1925 65×φ golden (13.93)
-    - [Moon] J Alpheratz → J Pluto RA 115.0125 115 whole (13.95)
-    - [Moon] J Facies → J Pluto RA 32.0074 32 whole (39.96)
-    - [Sun] H Deneb Algedi → H Pluto Dec 5.9801 6 whole (0.00)
-    - [Sun] J Alpheratz → J Pluto RA 115.0125 115 whole (13.95)
-  - Neptune: Jupiter, Moon, Sun — also: 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
-    - [Jupiter] J Capella → J Neptune RA 137.5089 85×φ golden (6.76)
-    - [Moon] J Scheat → J Neptune Dec 48.0165 48 whole (3.05)
-    - [Sun] H Pollux → H Neptune RA 127.8127 79×φ golden (39.66)
-    - [Sun] H Zubenelgenubi → H Neptune Dec 10.0069 10 whole (42.83)
-  - Transpluto: Jupiter, Moon, Sun — also: 1 Dedicated Hero / Sam Twiston-Davies, 7 King Ulanda / Jack Tudor
-    - [Jupiter] S Jupiter → J Transpluto RA 0.6480 conj (32.26)
-    - [Moon] H Scheat → H Transpluto RA 168.2835 104×φ golden (56.71)
-    - [Moon] J Scheat → J Transpluto RA 161.8259 100×φ^1 phi power (94.51)
-    - [Sun] S Sun → J Transpluto Dec 28.9961 29 whole (65.06)
-    - [Sun] J Deneb Algedi → J Transpluto RA 178.9886 179 whole (18.70)
-    - [Sun] J Meissa → J Transpluto RA 63.9836 64 whole (3.23)
-    - [Sun] J Pollux → J Transpluto Dec 15.0055 15 whole (52.73)
-  - Sedna: Jupiter, Moon, Sun — only
-    - [Jupiter] J Capella → J Sedna Dec 40.9881 41 whole (16.53)
-    - [Jupiter] J Galactic Centre → J Sedna Dec 34.0171 34 whole (2.10)
-    - [Moon] J Menkar → J Sedna RA 0.7223 conj (26.88)
-    - [Sun] J Pollux → J Sedna Dec 23.0162 23 whole (3.53)
+  - 29 whole — also: 6 Star Of Guiting / Craig Nichol
+    - S Sun → J Transpluto Dec 28.9961 29 whole (65.06)
+    - J Capella → J Ceres Dec 28.9931 29 whole (42.78)
+  - 26 whole — only
+    - J Acumen → J Mercury RA 25.9946 26 whole (53.40)
+    - J Alpheratz → J Saturn RA 26.0098 26 whole (26.14)
+  - 15 whole — also: 1 Dedicated Hero / Sam Twiston-Davies
+    - J Alphard → J Mercury Dec 15.0159 15 whole (4.11)
+    - J Pollux → J Transpluto Dec 15.0055 15 whole (52.73)
+  - 94 whole — only
+    - S Meissa → J Jupiter RA 93.9810 94 whole (0.23)
+    - J Menkar → J Uranus RA 94.0011 94 whole (89.54)
+  - 48 whole — also: 7 King Ulanda / Jack Tudor
+    - J Scheat → J Neptune Dec 48.0165 48 whole (3.05)
+    - J Zubenelgenubi → J Makemake Dec 47.9873 48 whole (13.31)
+  - 94 and 94×φ on J Jupiter — only
+    - S Meissa → J Jupiter RA 93.9810 94 whole (0.23)
+    - J Alphard → J Jupiter RA 152.0884 94×φ golden (62.19)
+### L4 every natal body
+- **Sun**
+  - same body + top rows: S Sun → H Sun RA 100.9961 101 whole (64.92) — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - star rows: H Pollux → H Sun RA 154.0069 154 whole (42.69) — also: 4 All In You / Sean Bowen
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - top rows: S Sun → J Sun RA 0.8949 conj (16.27) — only
+  - top rows: S Sun → J Sun Dec 0.2687 conj (1.09) — only
+- **Mercury**
+  - same body: S Mercury → H Mercury RA 122.5219 122.222 ninth (loose) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+  - same body: S Mercury → H Mercury Dec 6.1773 10×φ^-1 phi power (loose) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+  - star rows: H Alpheratz → H Mercury Dec 37.2186 23×φ golden (77.82) — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: H Altair → H Mercury Dec 16.9972 17 whole (73.83) — also: 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: H Deneb Algedi → H Mercury Dec 8.0022 8 whole (79.56) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - star rows: J Acumen → J Mercury RA 25.9946 26 whole (53.40) — also: 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - star rows: J Alphard → J Mercury Dec 15.0159 15 whole (4.11) — only
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - star rows: J Facies → J Mercury Dec 0.2329 conj (5.00) — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+- **Venus**
+  - same body: S Venus → H Venus RA 161.1514 100×φ^1 phi power (loose) — also: 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+  - star rows: H Alpheratz → H Venus RA 0.4014 conj (53.64) — also: 5 Lyssenko / Harry Skelton
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: H Altair → H Venus RA 63.9983 64 whole (83.52) — also: 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - top rows: S Sun → J Venus RA 0.9138 conj (15.27) — also: 5 Lyssenko / Harry Skelton
+  - star rows: J Zubenelgenubi → J Venus RA 0.4725 conj (46.92) — also: 5 Lyssenko / Harry Skelton
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+- **Chiron**
+  - same body: S Chiron → H Chiron RA 24.1403 24.14 silver (97.00) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - same body: S Chiron → H Chiron Dec 7.0773 7.07 sqrt2 (loose) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - star rows: H Alpheratz → H Chiron RA 0.8018 conj (21.67) — also: 1 Dedicated Hero / Sam Twiston-Davies, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: H Facies → H Chiron Dec 27.5091 17×φ golden (85.13) — also: 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - same body: S Chiron → J Chiron RA 155.0641 155.556 ninth (loose) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - top rows: S Sun → J Chiron Dec 0.1306 conj (31.90) — only
+  - star rows: J Deneb Algedi → J Chiron Dec 0.2813 conj (0.39) — also: 4 All In You / Sean Bowen
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - star rows: J Zubenelgenubi → J Chiron Dec 0.1943 conj (12.42) — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+- **Pallas**
+  - same body: S Pallas → H Pallas Dec 26.1434 10×φ^2 phi power (loose) — also: 1 Dedicated Hero / Sam Twiston-Davies, 6 Star Of Guiting / Craig Nichol
+  - top rows: S Moon → H Pallas RA 87.9942 88 whole (50.29) — also: 5 Lyssenko / Harry Skelton
+  - star rows: H Altair → H Pallas Dec 2.9913 3 whole (32.15) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: H Deneb Algedi → H Pallas Dec 22.0080 22 whole (35.97) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - same body: S Pallas → J Pallas RA 27.4990 17×φ golden (loose) — also: 1 Dedicated Hero / Sam Twiston-Davies, 6 Star Of Guiting / Craig Nichol
+  - same body: S Pallas → J Pallas Dec 8.0909 5×φ golden (95.46) — also: 1 Dedicated Hero / Sam Twiston-Davies, 6 Star Of Guiting / Craig Nichol
+  - star rows: J Galactic Centre → J Pallas RA 81.0128 81 whole (12.81) — also: 2 Bucephalus / Harriet Tucker
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: J Scheat → J Pallas RA 1.4783 conj (0.02) — only
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+- **Sedna**
+  - same body: S Sedna → H Sedna Dec 0.9884 1 whole (17.78) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+  - star rows: J Capella → J Sedna Dec 40.9881 41 whole (16.53) — only
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: J Galactic Centre → J Sedna Dec 34.0171 34 whole (2.10) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: J Menkar → J Sedna RA 0.7223 conj (26.88) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: J Pollux → J Sedna Dec 23.0162 23 whole (3.53) — also: 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+- **Haumea**
+  - same body: S Haumea → H Haumea RA 4.9824 5 whole (1.47) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Haumea RA 0.5930 conj (36.56)
+  - star rows: H Deneb Algedi → H Haumea RA 111.0039 111 whole (65.19) — also: 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - star rows: J Alphard → J Haumea RA 53.9940 54 whole (48.96) — only
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+- **Jupiter**
+  - T1: H Jupiter → H star Capella Dec 68.5406 10×φ^4 phi power (99.75) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - T1: H Jupiter → H star Hamal Dec 46.0050 46 whole (56.57) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - star rows: H Capella → H Jupiter Dec 68.5406 10×φ^4 phi power (99.75) — also: 6 Star Of Guiting / Craig Nichol
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: H Hamal → H Jupiter Dec 46.0050 46 whole (56.57) — also: 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - T2: J Jupiter → J star Alphard RA 152.0884 94×φ golden (62.19) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - T2: J Jupiter → J star Facies RA 70.7118 70.7 sqrt2 (99.37) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - T2: J Jupiter → J star Pollux Dec 34.0005 34 whole (95.30) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - top rows: S Sun → J Jupiter Dec 10.0011 10 whole (88.99) — also: 6 Star Of Guiting / Craig Nichol
+  - star rows: J Alphard → J Jupiter RA 152.0884 94×φ golden (62.19) — also: 1 Dedicated Hero / Sam Twiston-Davies
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - star rows: J Facies → J Jupiter RA 70.7118 70.7 sqrt2 (99.37) — also: 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - star rows: S Hamal → J Jupiter RA 41.9927 42 whole (40.20) — also: 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - star rows: S Meissa → J Jupiter RA 93.9810 94 whole (0.23) — also: 4 All In You / Sean Bowen
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+  - star rows: S Pollux → J Jupiter Dec 34.0001 34 whole (98.99) — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+- **Gonggong**
+  - top rows: S Sun → H Gonggong RA 114.8827 71×φ golden (86.11) — only
+  - star rows: H Alpheratz → H Gonggong RA 25.8829 16×φ golden (68.38) — only
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+- **Uranus**
+  - top rows: S Moon → H Uranus RA 158.5620 98×φ golden (70.00) — also: 2 Bucephalus / Harriet Tucker
+  - star rows: H Acumen → H Uranus RA 122.2514 122.222 ninth (95.97) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - star rows: H Alphard → H Uranus RA 111.1928 111.111 ninth (86.63) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - star rows: H Altair → H Uranus RA 93.0158 93 whole (4.43) — also: 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: H Capella → H Uranus Dec 34.0183 34 whole (0.76) — only
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: H Facies → H Uranus RA 111.6144 69×φ golden (0.56) — also: 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - star rows: H Galactic Centre → H Uranus Dec 40.9868 41 whole (11.53) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: H Hamal → H Uranus RA 1.0835 conj (7.71) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - star rows: H Zubenelgenubi → H Uranus RA 167.9900 168 whole (25.08) — also: 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+  - same body: S Uranus → J Uranus RA 110.5555 10×φ^5 phi power (loose) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+    - source line: S Jupiter → Uranus RA 84.9947 85 whole (54.32)
+  - star rows: J Alphard → J Uranus Dec 9.9904 10 whole (27.02) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - star rows: J Menkar → J Uranus RA 94.0011 94 whole (89.54) — only
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+- **Eris**
+  - top rows: S Moon → H Eris Dec 7.0023 7 whole (78.53) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker
+  - star rows: H Alpheratz → H Eris Dec 30.9938 31 whole (47.82) — also: 1 Dedicated Hero / Sam Twiston-Davies, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: H Facies → H Eris Dec 22.0010 22 whole (89.82) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - star rows: H Menkar → H Eris Dec 5.9919 6 whole (35.51) — also: 1 Dedicated Hero / Sam Twiston-Davies, 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: H Scheat → H Eris Dec 29.9872 30 whole (13.03) — also: 1 Dedicated Hero / Sam Twiston-Davies, 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+- **Mars**
+  - star rows: H Acumen → H Mars RA 3.9849 4 whole (5.96) — only
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+- **Rahu**
+  - star rows: H Acumen → H Rahu Dec 58.0194 58 whole (0.08) — also: 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - star rows: H Galactic Centre → H Rahu RA 168.2974 104×φ golden (10.59) — also: 5 Lyssenko / Harry Skelton
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: H Hamal → H Rahu Dec 0.2351 conj (4.68) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - star rows: J Acumen → J Rahu RA 117.9895 118 whole (22.36) — also: 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - star rows: J Altair → J Rahu RA 147.2257 91×φ golden (27.55) — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+- **Ceres**
+  - star rows: H Alphard → H Ceres RA 164.9830 165 whole (2.27) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - star rows: H Facies → H Ceres Dec 0.2979 conj (0.00) — also: 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - same body: S Ceres → J Ceres RA 44.4604 44.4444 ninth (loose) — also: 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+  - star rows: J Capella → J Ceres Dec 28.9931 29 whole (42.78) — also: 5 Lyssenko / Harry Skelton
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: J Galactic Centre → J Ceres Dec 46.0121 46 whole (15.40) — also: 2 Bucephalus / Harriet Tucker
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+- **Ketu**
+  - star rows: H Alphard → H Ketu Dec 14.5669 9×φ golden (73.50) — only
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - star rows: H Facies → H Ketu RA 0.9796 conj (12.04) — also: 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - star rows: J Acumen → J Ketu RA 62.0105 62 whole (22.36) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - star rows: J Meissa → J Ketu Dec 21.9980 22 whole (81.21) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+- **Saturn**
+  - star rows: H Altair → H Saturn RA 0.0188 conj (97.52) — also: 1 Dedicated Hero / Sam Twiston-Davies
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: H Capella → H Saturn RA 141.4647 141.4 sqrt2 (88.12) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: H Capella → H Saturn Dec 66.9889 67 whole (19.83) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: H Galactic Centre → H Saturn Dec 8.0161 8 whole (3.72) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: H Pollux → H Saturn Dec 49.0165 49 whole (3.05) — also: 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - star rows: H Zubenelgenubi → H Saturn RA 74.9930 75 whole (42.11) — only
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+  - star rows: J Alpheratz → J Saturn RA 26.0098 26 whole (26.14) — also: 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: J Altair → J Saturn Dec 0.2656 conj (1.31) — also: 1 Dedicated Hero / Sam Twiston-Davies
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: J Facies → J Saturn RA 109.0149 109 whole (6.38) — also: 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+- **Makemake**
+  - star rows: H Altair → H Makemake Dec 14.5691 9×φ golden (62.43) — also: 1 Dedicated Hero / Sam Twiston-Davies
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: H Hamal → H Makemake Dec 0.0245 conj (84.32) — also: 1 Dedicated Hero / Sam Twiston-Davies, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - star rows: J Alphard → J Makemake RA 37.0000 37 whole (99.60) — only
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - star rows: J Meissa → J Makemake Dec 22.0120 22 whole (15.96) — also: 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+  - star rows: J Menkar → J Makemake RA 133.3209 133.333 ninth (98.51) — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: J Zubenelgenubi → J Makemake Dec 47.9873 48 whole (13.31) — also: 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+- **Pluto**
+  - star rows: H Deneb Algedi → H Pluto Dec 5.9801 6 whole (0.00) — also: 4 All In You / Sean Bowen
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - star rows: J Alphard → J Pluto RA 105.1925 65×φ golden (13.93) — also: 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - star rows: J Alpheratz → J Pluto RA 115.0125 115 whole (13.95) — only
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: J Facies → J Pluto RA 32.0074 32 whole (39.96) — also: 1 Dedicated Hero / Sam Twiston-Davies
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+- **Orcus**
+  - star rows: H Galactic Centre → H Orcus Dec 17.7735 17.7778 ninth (96.65) — also: 2 Bucephalus / Harriet Tucker, 6 Star Of Guiting / Craig Nichol
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - top rows: S Jupiter → J Orcus RA 8.9964 9 whole (67.51) — only
+- **Juno**
+  - star rows: H Meissa → H Juno Dec 14.4475 14.4444 ninth (96.79) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+  - same body: S Juno → J Juno Dec 7.0696 7.07 sqrt2 (loose) — also: 2 Bucephalus / Harriet Tucker, 7 King Ulanda / Jack Tudor
+  - star rows: J Pollux → J Juno RA 101.0073 101 whole (40.36) — also: 5 Lyssenko / Harry Skelton
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+- **Vesta**
+  - star rows: H Menkar → H Vesta RA 0.4807 conj (46.18) — also: 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - same body: S Vesta → J Vesta RA 121.7190 122.222 ninth (loose) — also: 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton
+  - star rows: J Scheat → J Vesta RA 153.0192 153 whole (0.15) — also: 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+- **Neptune**
+  - star rows: H Pollux → H Neptune RA 127.8127 79×φ golden (39.66) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - star rows: H Zubenelgenubi → H Neptune Dec 10.0069 10 whole (42.83) — also: 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+  - star rows: J Capella → J Neptune RA 137.5089 85×φ golden (6.76) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: J Scheat → J Neptune Dec 48.0165 48 whole (3.05) — also: 2 Bucephalus / Harriet Tucker
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+- **Transpluto**
+  - star rows: H Scheat → H Transpluto RA 168.2835 104×φ golden (56.71) — also: 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+  - top rows: S Jupiter → J Transpluto RA 0.6480 conj (32.26) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - top rows: S Sun → J Transpluto Dec 28.9961 29 whole (65.06) — only
+  - star rows: J Deneb Algedi → J Transpluto RA 178.9886 179 whole (18.70) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - star rows: J Meissa → J Transpluto RA 63.9836 64 whole (3.23) — also: 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+  - star rows: J Pollux → J Transpluto Dec 15.0055 15 whole (52.73) — also: 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - star rows: J Scheat → J Transpluto RA 161.8259 100×φ^1 phi power (94.51) — also: 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
 
 ## 4 All In You / Sean Bowen
 ### L1 same bodies
@@ -987,126 +1715,229 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - S Ketu → J Ketu RA 158.0149 158 whole (6.59)
 ### L2 what lands on each same body
 - **H Mercury** (same body: S Mercury → H Mercury RA 122.1659 122.222 ninth (loose))
-  - other chart, star rows: J Alpheratz → J Mercury RA 152.9848 153 whole (5.87) [Moon, Sun]
-  - other chart, star rows: J Facies → J Mercury RA 124.0150 124 whole (6.14) [Moon]
+  - other chart, star rows: J Alpheratz → J Mercury RA 152.9848 153 whole (5.87)
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - other chart, star rows: J Facies → J Mercury RA 124.0150 124 whole (6.14)
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
 - **H Venus** (same body: S Venus → H Venus Dec 35.9806 36 whole (0.09))
-  - star rows: H Hamal → H Venus Dec 0.1165 conj (37.43) [Moon]
-  - star rows: H Pollux → H Venus RA 43.0029 43 whole (73.17) [Sun]
-  - star rows: H Scheat → H Venus RA 87.3732 54×φ golden (95.85) [Moon]
-  - other chart, top rows: S Moon → J Venus Dec 0.0465 conj (71.39) [Moon]
-  - other chart, star rows: J Alphard → J Venus Dec 0.2966 conj (0.01) [Moon]
-  - other chart, star rows: J Capella → J Venus RA 121.3784 75×φ golden (4.04) [Jupiter]
-  - other chart, star rows: J Deneb Algedi → J Venus RA 126.2154 78×φ golden (53.46) [Sun]
-  - other chart, star rows: J Meissa → J Venus Dec 18.8882 18.8889 ninth (99.49) [Sun]
+  - star rows: H Hamal → H Venus Dec 0.1165 conj (37.43)
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - star rows: H Pollux → H Venus RA 43.0029 43 whole (73.17)
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - star rows: H Scheat → H Venus RA 87.3732 54×φ golden (95.85)
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+  - other chart, top rows: S Moon → J Venus Dec 0.0465 conj (71.39)
+  - other chart, star rows: J Alphard → J Venus Dec 0.2966 conj (0.01)
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - other chart, star rows: J Capella → J Venus RA 121.3784 75×φ golden (4.04)
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - other chart, star rows: J Deneb Algedi → J Venus RA 126.2154 78×φ golden (53.46)
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - other chart, star rows: J Meissa → J Venus Dec 18.8882 18.8889 ninth (99.49)
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
 - **H Uranus** (same body: S Uranus → H Uranus RA 26.0518 10×φ^2 phi power (loose))
-  - body line: S Jupiter → Uranus RA 84.9947 85 whole (54.32)
-  - top rows: S Jupiter → H Uranus Dec 0.1448 conj (26.77) [Jupiter]
-  - top rows: S Sun → H Uranus RA 174.7502 108×φ golden (84.94) [Sun]
-  - star rows: H Alpheratz → H Uranus RA 33.9822 34 whole (1.25) [Moon, Sun]
-  - other chart, star rows: J Alphard → J Uranus RA 166.0000 166 whole (99.68) [Moon]
-  - other chart, star rows: J Hamal → J Uranus Dec 43.0157 43 whole (4.55) [Moon]
+  - sky line to Uranus: S Jupiter → Uranus RA 84.9947 85 whole (54.32)
+  - top rows: S Jupiter → H Uranus Dec 0.1448 conj (26.77)
+  - top rows: S Sun → H Uranus RA 174.7502 108×φ golden (84.94)
+  - star rows: H Alpheratz → H Uranus RA 33.9822 34 whole (1.25)
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - other chart, star rows: J Alphard → J Uranus RA 166.0000 166 whole (99.68)
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - other chart, star rows: J Hamal → J Uranus Dec 43.0157 43 whole (4.55)
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
 - **H Ceres** (same body: S Ceres → H Ceres Dec 41.4397 41.4 silver (loose))
-  - star rows: H Deneb Algedi → H Ceres RA 17.7953 11×φ golden (82.16) [Sun]
-  - star rows: H Menkar → H Ceres RA 61.0063 61 whole (47.11) [Moon]
-  - star rows: H Scheat → H Ceres RA 1.3858 conj (0.58) [Moon]
-  - other chart, star rows: J Facies → J Ceres Dec 0.0512 conj (68.78) [Moon]
+  - star rows: H Deneb Algedi → H Ceres RA 17.7953 11×φ golden (82.16)
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - star rows: H Menkar → H Ceres RA 61.0063 61 whole (47.11)
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: H Scheat → H Ceres RA 1.3858 conj (0.58)
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+  - other chart, star rows: J Facies → J Ceres Dec 0.0512 conj (68.78)
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
 - **H Sedna** (same body: S Sedna → H Sedna RA 3.9998 4 whole (97.73))
-  - star rows: H Pollux → H Sedna RA 58.2490 36×φ golden (98.91) [Sun]
-  - other chart, star rows: J Alpheratz → J Sedna Dec 24.0170 24 whole (2.31) [Moon, Sun]
-  - other chart, star rows: J Menkar → J Sedna RA 0.6346 conj (33.29) [Moon]
-  - other chart, star rows: J Menkar → J Sedna Dec 0.9830 1 whole (2.27) [Moon]
-  - other chart, star rows: J Scheat → J Sedna Dec 23.0098 23 whole (25.84) [Moon]
+  - star rows: H Pollux → H Sedna RA 58.2490 36×φ golden (98.91)
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - other chart, star rows: J Alpheratz → J Sedna Dec 24.0170 24 whole (2.31)
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - other chart, star rows: J Menkar → J Sedna RA 0.6346 conj (33.29)
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - other chart, star rows: J Menkar → J Sedna Dec 0.9830 1 whole (2.27)
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - other chart, star rows: J Scheat → J Sedna Dec 23.0098 23 whole (25.84)
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
 - **H Makemake** (same body: S Makemake → H Makemake RA 6.1805 10×φ^-1 phi power (99.15))
-  - body line: S Moon → Makemake RA 12.9972 13 whole (73.81)
-  - star rows: H Alpheratz → H Makemake RA 166.0075 166 whole (39.29) [Moon, Sun]
-  - star rows: H Facies → H Makemake RA 83.0169 83 whole (2.36) [Moon]
-  - star rows: H Meissa → H Makemake Dec 14.0064 14 whole (46.08) [Sun]
-  - star rows: H Zubenelgenubi → H Makemake Dec 39.9836 40 whole (3.31) [Sun]
+  - sky line to Makemake: S Moon → Makemake RA 12.9972 13 whole (73.81)
+  - star rows: H Alpheratz → H Makemake RA 166.0075 166 whole (39.29)
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: H Facies → H Makemake RA 83.0169 83 whole (2.36)
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - star rows: H Meissa → H Makemake Dec 14.0064 14 whole (46.08)
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+  - star rows: H Zubenelgenubi → H Makemake Dec 39.9836 40 whole (3.31)
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
   - other chart, same body: S Makemake → J Makemake Dec 13.0023 13 whole (78.38)
-  - other chart, star rows: J Menkar → J Makemake RA 131.0531 81×φ golden (58.25) [Moon]
+  - other chart, star rows: J Menkar → J Makemake RA 131.0531 81×φ golden (58.25)
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
 - **J Sun** (same body: S Sun → J Sun RA 57.0038 57 whole (65.46); S Sun → J Sun Dec 22.6563 14×φ golden (77.55))
-  - top rows: S Sun → J Sun RA 57.0038 57 whole (65.46) [Sun]
-  - top rows: S Sun → J Sun Dec 22.6563 14×φ golden (77.55) [Sun]
-  - star rows: J Altair → J Sun RA 133.3753 133.333 ninth (94.97) [Moon]
-  - star rows: J Pollux → J Sun RA 47.9985 48 whole (85.65) [Sun]
-  - other chart, star rows: H Facies → H Sun RA 150.4643 93×φ golden (36.40) [Moon]
-  - other chart, star rows: H Facies → H Sun Dec 46.0119 46 whole (16.30) [Moon]
-  - other chart, star rows: H Menkar → H Sun RA 24.0046 24 whole (59.52) [Moon]
-  - other chart, star rows: H Menkar → H Sun Dec 18.0191 18 whole (0.20) [Moon]
+  - star rows: J Altair → J Sun RA 133.3753 133.333 ninth (94.97)
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: J Pollux → J Sun RA 47.9985 48 whole (85.65)
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - other chart, star rows: H Facies → H Sun RA 150.4643 93×φ golden (36.40)
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - other chart, star rows: H Facies → H Sun Dec 46.0119 46 whole (16.30)
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - other chart, star rows: H Menkar → H Sun RA 24.0046 24 whole (59.52)
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - other chart, star rows: H Menkar → H Sun Dec 18.0191 18 whole (0.20)
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
 - **J Mars** (same body: S Mars → J Mars Dec 33.0152 33 whole (5.79))
-  - top rows: S Sun → J Mars RA 0.0789 conj (89.75) [Sun]
-  - star rows: J Alpheratz → J Mars Dec 45.9844 46 whole (4.74) [Moon, Sun]
-  - star rows: J Facies → J Mars Dec 7.0119 7 whole (16.53) [Moon]
-  - star rows: J Galactic Centre → J Mars RA 45.0116 45 whole (17.65) [Jupiter]
-  - star rows: J Menkar → J Mars Dec 20.9844 21 whole (4.80) [Moon]
-  - star rows: J Zubenelgenubi → J Mars RA 1.3104 conj (1.60) [Sun]
-  - other chart, top rows: S Moon → H Mars Dec 0.0852 conj (51.29) [Moon]
-  - other chart, star rows: H Capella → H Mars Dec 54.9869 55 whole (11.98) [Jupiter]
-  - other chart, star rows: H Galactic Centre → H Mars Dec 20.0165 20 whole (3.15) [Jupiter]
-  - other chart, star rows: H Pollux → H Mars Dec 37.0185 37 whole (0.58) [Sun]
-  - other chart, star rows: H Scheat → H Mars RA 0.9494 conj (13.47) [Moon]
-  - other chart, star rows: H Zubenelgenubi → H Mars RA 122.2710 122.222 ninth (93.25) [Sun]
+  - top rows: S Sun → J Mars RA 0.0789 conj (89.75)
+  - star rows: J Alpheratz → J Mars Dec 45.9844 46 whole (4.74)
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: J Facies → J Mars Dec 7.0119 7 whole (16.53)
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - star rows: J Galactic Centre → J Mars RA 45.0116 45 whole (17.65)
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: J Menkar → J Mars Dec 20.9844 21 whole (4.80)
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: J Zubenelgenubi → J Mars RA 1.3104 conj (1.60)
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+  - other chart, top rows: S Moon → H Mars Dec 0.0852 conj (51.29)
+  - other chart, star rows: H Capella → H Mars Dec 54.9869 55 whole (11.98)
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - other chart, star rows: H Galactic Centre → H Mars Dec 20.0165 20 whole (3.15)
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - other chart, star rows: H Pollux → H Mars Dec 37.0185 37 whole (0.58)
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - other chart, star rows: H Scheat → H Mars RA 0.9494 conj (13.47)
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+  - other chart, star rows: H Zubenelgenubi → H Mars RA 122.2710 122.222 ninth (93.25)
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
 - **J Saturn** (same body: S Saturn → J Saturn RA 9.9951 10 whole (57.08); S Saturn → J Saturn Dec 4.1453 4.14 silver (loose))
-  - top rows: S Moon → J Saturn Dec 13.9959 14 whole (63.14) [Moon]
-  - star rows: J Alphard → J Saturn RA 122.9668 φ^10 phi power (92.00) [Moon]
-  - star rows: J Alpheratz → J Saturn Dec 24.0019 24 whole (81.66) [Moon, Sun]
-  - star rows: J Facies → J Saturn Dec 28.9943 29 whole (51.11) [Moon]
-  - star rows: J Menkar → J Saturn Dec 0.9980 1 whole (81.41) [Moon]
-  - star rows: J Scheat → J Saturn Dec 22.9948 23 whole (54.77) [Moon]
-  - other chart, star rows: H Capella → H Saturn Dec 66.0105 66 whole (22.79) [Jupiter]
-  - other chart, star rows: H Galactic Centre → H Saturn Dec 8.9929 9 whole (41.74) [Jupiter]
-  - other chart, star rows: H Menkar → H Saturn RA 101.9823 102 whole (1.27) [Moon]
-  - other chart, star rows: H Scheat → H Saturn RA 42.3617 10×φ^3 phi power (99.00) [Moon]
+  - top rows: S Moon → J Saturn Dec 13.9959 14 whole (63.14)
+  - star rows: J Alphard → J Saturn RA 122.9668 φ^10 phi power (92.00)
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - star rows: J Alpheratz → J Saturn Dec 24.0019 24 whole (81.66)
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: J Facies → J Saturn Dec 28.9943 29 whole (51.11)
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - star rows: J Menkar → J Saturn Dec 0.9980 1 whole (81.41)
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: J Scheat → J Saturn Dec 22.9948 23 whole (54.77)
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+  - other chart, star rows: H Capella → H Saturn Dec 66.0105 66 whole (22.79)
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - other chart, star rows: H Galactic Centre → H Saturn Dec 8.9929 9 whole (41.74)
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - other chart, star rows: H Menkar → H Saturn RA 101.9823 102 whole (1.27)
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - other chart, star rows: H Scheat → H Saturn RA 42.3617 10×φ^3 phi power (99.00)
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
 - **J Pluto** (same body: S Pluto → J Pluto Dec 15.0206 15 whole (loose))
-  - top rows: S Jupiter → J Pluto Dec 22.6560 14×φ golden (79.59) [Jupiter]
-  - top rows: S Moon → J Pluto Dec 0.2436 conj (3.54) [Moon]
-  - star rows: J Alphard → J Pluto Dec 0.0065 conj (95.74) [Moon]
-  - other chart, star rows: H Altair → H Pluto RA 1.2134 conj (3.65) [Moon]
-  - other chart, star rows: H Altair → H Pluto Dec 31.0146 31 whole (7.35) [Moon]
-  - other chart, star rows: H Deneb Algedi → H Pluto Dec 6.0172 6 whole (1.99) [Sun]
+  - top rows: S Jupiter → J Pluto Dec 22.6560 14×φ golden (79.59)
+  - top rows: S Moon → J Pluto Dec 0.2436 conj (3.54)
+  - star rows: J Alphard → J Pluto Dec 0.0065 conj (95.74)
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - other chart, star rows: H Altair → H Pluto RA 1.2134 conj (3.65)
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - other chart, star rows: H Altair → H Pluto Dec 31.0146 31 whole (7.35)
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - other chart, star rows: H Deneb Algedi → H Pluto Dec 6.0172 6 whole (1.99)
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
 - **J Chiron** (same body: S Chiron → J Chiron RA 177.0027 177 whole (75.14))
-  - star rows: J Facies → J Chiron Dec 12.9425 8×φ golden (89.33) [Moon]
-  - star rows: J Galactic Centre → J Chiron RA 57.9890 58 whole (20.15) [Jupiter]
-  - star rows: J Pollux → J Chiron Dec 38.9885 39 whole (18.17) [Sun]
-  - star rows: J Scheat → J Chiron RA 137.5200 85×φ golden (36.28) [Moon]
-  - other chart, star rows: H Altair → H Chiron RA 69.0019 69 whole (82.29) [Moon]
-  - other chart, star rows: H Altair → H Chiron Dec 3.0152 3 whole (5.65) [Moon]
-  - other chart, star rows: H Deneb Algedi → H Chiron Dec 21.9822 22 whole (1.16) [Sun]
-  - other chart, star rows: H Scheat → H Chiron Dec 22.2264 22.2222 ninth (94.25) [Moon]
-  - other chart, star rows: H Zubenelgenubi → H Chiron RA 143.9807 144 whole (0.13) [Sun]
+  - star rows: J Facies → J Chiron Dec 12.9425 8×φ golden (89.33)
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - star rows: J Galactic Centre → J Chiron RA 57.9890 58 whole (20.15)
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: J Pollux → J Chiron Dec 38.9885 39 whole (18.17)
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - star rows: J Scheat → J Chiron RA 137.5200 85×φ golden (36.28)
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+  - other chart, star rows: H Altair → H Chiron RA 69.0019 69 whole (82.29)
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - other chart, star rows: H Altair → H Chiron Dec 3.0152 3 whole (5.65)
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - other chart, star rows: H Deneb Algedi → H Chiron Dec 21.9822 22 whole (1.16)
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - other chart, star rows: H Scheat → H Chiron Dec 22.2264 22.2222 ninth (94.25)
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+  - other chart, star rows: H Zubenelgenubi → H Chiron RA 143.9807 144 whole (0.13)
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
 - **J Rahu** (same body: S Rahu → J Rahu RA 158.0149 158 whole (6.59))
-  - star rows: J Menkar → J Rahu RA 125.0052 125 whole (54.47) [Moon]
-  - star rows: J Menkar → J Rahu Dec 0.0316 conj (80.03) [Moon]
-  - other chart, star rows: H Altair → H Rahu Dec 14.5631 9×φ golden (95.22) [Moon]
-  - other chart, star rows: H Hamal → H Rahu Dec 0.0272 conj (82.70) [Moon]
+  - star rows: J Menkar → J Rahu RA 125.0052 125 whole (54.47)
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: J Menkar → J Rahu Dec 0.0316 conj (80.03)
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - other chart, star rows: H Altair → H Rahu Dec 14.5631 9×φ golden (95.22)
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - other chart, star rows: H Hamal → H Rahu Dec 0.0272 conj (82.70)
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
 - **J Haumea** (same body: S Haumea → J Haumea RA 26.9751 27 whole (loose))
-  - body line: S Sun → Haumea RA 0.5930 conj (36.56)
-  - star rows: J Deneb Algedi → J Haumea RA 133.0056 133 whole (52.17) [Sun]
-  - other chart, star rows: H Pollux → H Haumea RA 97.9894 98 whole (21.89) [Sun]
+  - sky line to Haumea: S Sun → Haumea RA 0.5930 conj (36.56)
+  - star rows: J Deneb Algedi → J Haumea RA 133.0056 133 whole (52.17)
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - other chart, star rows: H Pollux → H Haumea RA 97.9894 98 whole (21.89)
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
 - **J Makemake** (same body: S Makemake → J Makemake Dec 13.0023 13 whole (78.38))
-  - body line: S Moon → Makemake RA 12.9972 13 whole (73.81)
-  - star rows: J Menkar → J Makemake RA 131.0531 81×φ golden (58.25) [Moon]
+  - sky line to Makemake: S Moon → Makemake RA 12.9972 13 whole (73.81)
+  - star rows: J Menkar → J Makemake RA 131.0531 81×φ golden (58.25)
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
   - other chart, same body: S Makemake → H Makemake RA 6.1805 10×φ^-1 phi power (99.15)
-  - other chart, star rows: H Alpheratz → H Makemake RA 166.0075 166 whole (39.29) [Moon, Sun]
-  - other chart, star rows: H Facies → H Makemake RA 83.0169 83 whole (2.36) [Moon]
-  - other chart, star rows: H Meissa → H Makemake Dec 14.0064 14 whole (46.08) [Sun]
-  - other chart, star rows: H Zubenelgenubi → H Makemake Dec 39.9836 40 whole (3.31) [Sun]
+  - other chart, star rows: H Alpheratz → H Makemake RA 166.0075 166 whole (39.29)
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - other chart, star rows: H Facies → H Makemake RA 83.0169 83 whole (2.36)
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - other chart, star rows: H Meissa → H Makemake Dec 14.0064 14 whole (46.08)
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+  - other chart, star rows: H Zubenelgenubi → H Makemake Dec 39.9836 40 whole (3.31)
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
 - **J Orcus** (same body: S Orcus → J Orcus Dec 14.0910 14.14 sqrt2 (loose))
-  - body line: S Moon → Orcus Dec 5.0060 5 whole (49.11)
-  - star rows: J Menkar → J Orcus RA 90.9805 91 whole (0.07) [Moon]
-  - other chart, star rows: H Hamal → H Orcus RA 122.2150 122.222 ninth (99.00) [Moon]
-  - other chart, star rows: H Menkar → H Orcus RA 108.4401 67×φ golden (0.03) [Moon]
+  - sky line to Orcus: S Moon → Orcus Dec 5.0060 5 whole (49.11)
+  - star rows: J Menkar → J Orcus RA 90.9805 91 whole (0.07)
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - other chart, star rows: H Hamal → H Orcus RA 122.2150 122.222 ninth (99.00)
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - other chart, star rows: H Menkar → H Orcus RA 108.4401 67×φ golden (0.03)
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
 - **J Gonggong** (same body: S Gonggong → J Gonggong RA 5.9787 6 whole (loose))
-  - star rows: J Capella → J Gonggong RA 107.9827 108 whole (1.76) [Jupiter]
-  - star rows: J Zubenelgenubi → J Gonggong Dec 2.0009 2 whole (91.19) [Sun]
+  - star rows: J Capella → J Gonggong RA 107.9827 108 whole (1.76)
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: J Zubenelgenubi → J Gonggong Dec 2.0009 2 whole (91.19)
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
 - **J Ketu** (same body: S Ketu → J Ketu RA 158.0149 158 whole (6.59))
-  - body line: S Jupiter → Ketu RA 1.4679 conj (0.05)
-  - star rows: J Meissa → J Ketu Dec 13.9954 14 whole (59.26) [Sun]
-  - star rows: J Menkar → J Ketu RA 54.9948 55 whole (54.47) [Moon]
-  - star rows: J Zubenelgenubi → J Ketu Dec 11.9809 12 whole (0.20) [Sun]
-  - other chart, star rows: H Acumen → H Ketu RA 0.3641 conj (57.35) [Moon]
-  - other chart, star rows: H Hamal → H Ketu RA 122.9569 φ^10 phi power (88.96) [Moon]
-### L3 the seven cases (L5 field tag on each)
+  - sky line to Ketu: S Jupiter → Ketu RA 1.4679 conj (0.05)
+  - star rows: J Meissa → J Ketu Dec 13.9954 14 whole (59.26)
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+  - star rows: J Menkar → J Ketu RA 54.9948 55 whole (54.47)
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: J Zubenelgenubi → J Ketu Dec 11.9809 12 whole (0.20)
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+  - other chart, star rows: H Acumen → H Ketu RA 0.3641 conj (57.35)
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - other chart, star rows: H Hamal → H Ketu RA 122.9569 φ^10 phi power (88.96)
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+### L3 matches
 - **1. same body on both charts**
   - Makemake — also: 1 Dedicated Hero / Sam Twiston-Davies
     - S Makemake → H Makemake RA 6.1805 10×φ^-1 phi power (99.15)
@@ -1136,22 +1967,48 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - **4. circle divisions**
   - 36 = 360/10 — only
     - S Venus → H Venus Dec 35.9806 36 whole (0.09)
-  - 4 = 360/90 — also: 1 Dedicated Hero / Sam Twiston-Davies, 7 King Ulanda / Jack Tudor
+  - 4 = 360/90 — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
     - S Sedna → H Sedna RA 3.9998 4 whole (97.73)
+  - 3 = 360/120 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
+    - H Altair → H Chiron Dec 3.0152 3 whole (5.65)
+  - 12 = 360/30 — also: 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - H Altair → H Pallas Dec 12.0149 12 whole (6.56)
+  - 6 = 360/60 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - H Deneb Algedi → H Pluto Dec 6.0172 6 whole (1.99)
+  - 20 = 360/18 — also: 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - H Galactic Centre → H Mars Dec 20.0165 20 whole (3.15)
+  - 9 = 360/40 — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+    - H Galactic Centre → H Saturn Dec 8.9929 9 whole (41.74)
   - 24 = 360/15 — also: 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
     - H Menkar → H Sun RA 24.0046 24 whole (59.52)
-  - 10 = 360/36 — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
+  - 18 = 360/20 — also: 2 Bucephalus / Harriet Tucker, 6 Star Of Guiting / Craig Nichol
+    - H Menkar → H Sun Dec 18.0191 18 whole (0.20)
+  - 72 = 360/5 — only
+    - H Scheat → H Quaoar RA 71.9813 72 whole (0.45)
+  - 40 = 360/9 — also: 1 Dedicated Hero / Sam Twiston-Davies, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - H Zubenelgenubi → H Makemake Dec 39.9836 40 whole (3.31)
+  - 10 = 360/36 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
     - S Saturn → J Saturn RA 9.9951 10 whole (57.08)
-  - 15 = 360/24 — also: 3 Manuelito / Harry Cobden
+  - 15 = 360/24 — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
     - S Pluto → J Pluto Dec 15.0206 15 whole (loose)
-  - 6 = 360/60 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - 6 = 360/60 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
     - S Gonggong → J Gonggong RA 5.9787 6 whole (loose)
   - 24 = 360/15 — also: 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
     - J Alpheratz → J Saturn Dec 24.0019 24 whole (81.66)
-  - 1 = 360/360 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - 24 = 360/15 — also: 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - J Alpheratz → J Sedna Dec 24.0170 24 whole (2.31)
+  - 45 = 360/8 — also: 1 Dedicated Hero / Sam Twiston-Davies, 7 King Ulanda / Jack Tudor
+    - J Galactic Centre → J Mars RA 45.0116 45 whole (17.65)
+  - 2 = 360/180 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton
+    - J Meissa → J Pallas Dec 1.9826 2 whole (1.68)
+  - 1 = 360/360 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
     - J Menkar → J Saturn Dec 0.9980 1 whole (81.41)
+  - 1 = 360/360 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - J Menkar → J Sedna Dec 0.9830 1 whole (2.27)
   - 2 = 360/180 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton
     - J Zubenelgenubi → J Gonggong Dec 2.0009 2 whole (91.19)
+  - 12 = 360/30 — also: 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - J Zubenelgenubi → J Ketu Dec 11.9809 12 whole (0.20)
 - **5. same number in more than one place**
   - 122.222 ninth — also: 3 Manuelito / Harry Cobden
     - S Mercury → H Mercury RA 122.1659 122.222 ninth (loose)
@@ -1165,23 +2022,52 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
     - H Facies → H Jupiter RA 19.4156 12×φ golden (95.35)
   - 31 whole — only
     - H Jupiter → H star Meissa Dec 31.0030 31 whole (72.56)
+    - H Altair → H Pluto Dec 31.0146 31 whole (7.35)
     - H Meissa → H Jupiter Dec 31.0030 31 whole (72.56)
   - 177.778 ninth — also: 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton
     - H Jupiter → H star Pollux RA 177.7996 177.778 ninth (98.29)
     - H Pollux → H Jupiter RA 177.7996 177.778 ninth (98.29)
+  - 166 whole — only
+    - H Alpheratz → H Makemake RA 166.0075 166 whole (39.29)
+    - J Alphard → J Uranus RA 166.0000 166 whole (99.68)
+  - 12 whole — only
+    - H Altair → H Pallas Dec 12.0149 12 whole (6.56)
+    - J Zubenelgenubi → J Ketu Dec 11.9809 12 whole (0.20)
+  - 55 whole — only
+    - H Capella → H Mars Dec 54.9869 55 whole (11.98)
+    - J Menkar → J Ketu RA 54.9948 55 whole (54.47)
+  - 6 whole — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - H Deneb Algedi → H Pluto Dec 6.0172 6 whole (1.99)
+    - S Gonggong → J Gonggong RA 5.9787 6 whole (loose)
+  - 37 whole — also: 1 Dedicated Hero / Sam Twiston-Davies
+    - H Deneb Algedi → H Pallas Dec 37.0123 37 whole (14.92)
+    - H Pollux → H Mars Dec 37.0185 37 whole (0.58)
+  - 46 whole — also: 3 Manuelito / Harry Cobden
+    - H Facies → H Sun Dec 46.0119 46 whole (16.30)
+    - J Alpheratz → J Mars Dec 45.9844 46 whole (4.74)
   - φ^10 phi power — only
     - H Hamal → H Ketu RA 122.9569 φ^10 phi power (88.96)
     - J Alphard → J Saturn RA 122.9668 φ^10 phi power (92.00)
+  - 14 whole — also: 1 Dedicated Hero / Sam Twiston-Davies, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+    - H Meissa → H Makemake Dec 14.0064 14 whole (46.08)
+    - S Moon → J Saturn Dec 13.9959 14 whole (63.14)
+    - J Meissa → J Ketu Dec 13.9954 14 whole (59.26)
   - 24 whole — only
     - H Menkar → H Sun RA 24.0046 24 whole (59.52)
     - J Alpheratz → J Saturn Dec 24.0019 24 whole (81.66)
+    - J Alpheratz → J Sedna Dec 24.0170 24 whole (2.31)
+  - 43 whole — only
+    - H Pollux → H Venus RA 43.0029 43 whole (73.17)
+    - J Hamal → J Uranus Dec 43.0157 43 whole (4.55)
   - 77×φ golden — only
     - H Pollux → H Neptune RA 124.5844 77×φ golden (75.45)
     - J Acumen → J Vesta RA 124.5947 77×φ golden (65.97)
+  - 98 whole — only
+    - H Pollux → H Haumea RA 97.9894 98 whole (21.89)
+    - J Menkar → J Juno RA 98.0162 98 whole (3.64)
   - 14×φ golden — only
     - S Sun → J Sun Dec 22.6563 14×φ golden (77.55)
     - S Jupiter → J Pluto Dec 22.6560 14×φ golden (79.59)
-    - S Sun → J Sun Dec 22.6563 14×φ golden (77.55)
   - 158 whole — only
     - S Rahu → J Rahu RA 158.0149 158 whole (6.59)
     - S Ketu → J Ketu RA 158.0149 158 whole (6.59)
@@ -1189,147 +2075,316 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
     - J Jupiter → J star Altair RA 18.8856 18.8889 ninth (97.62)
     - S Altair → J Jupiter RA 18.8867 18.8889 ninth (98.43)
     - J Meissa → J Venus Dec 18.8882 18.8889 ninth (99.49)
-  - 14 whole — also: 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
-    - S Moon → J Saturn Dec 13.9959 14 whole (63.14)
-    - J Meissa → J Ketu Dec 13.9954 14 whole (59.26)
+  - 2 whole — only
+    - J Meissa → J Pallas Dec 1.9826 2 whole (1.68)
+    - J Zubenelgenubi → J Gonggong Dec 2.0009 2 whole (91.19)
+  - 1 whole — only
+    - J Menkar → J Saturn Dec 0.9980 1 whole (81.41)
+    - J Menkar → J Sedna Dec 0.9830 1 whole (2.27)
+  - 23 whole — also: 5 Lyssenko / Harry Skelton
+    - J Scheat → J Saturn Dec 22.9948 23 whole (54.77)
+    - J Scheat → J Sedna Dec 23.0098 23 whole (25.84)
   - 31 and 31×φ on H Jupiter — only
     - H Meissa → H Jupiter Dec 31.0030 31 whole (72.56)
     - H Alpheratz → H Jupiter Dec 50.1557 31×φ golden (80.40)
-- **6. star and sky line on one body**
-  - J Pluto on Alphard — only
-    - J Alphard → J Pluto Dec 0.0065 conj (95.74)
-    - S Jupiter → J Pluto Dec 22.6560 14×φ golden (79.59)
-    - S Moon → J Pluto Dec 0.2436 conj (3.54)
-- **7. centres meeting**
-  - Uranus: Jupiter, Moon, Sun — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
-    - [Jupiter] S Uranus → H Uranus RA 26.0518 10×φ^2 phi power (loose)
-    - [Jupiter] S Jupiter → H Uranus Dec 0.1448 conj (26.77)
-    - [Moon] H Alpheratz → H Uranus RA 33.9822 34 whole (1.25)
-    - [Moon] J Alphard → J Uranus RA 166.0000 166 whole (99.68)
-    - [Moon] J Hamal → J Uranus Dec 43.0157 43 whole (4.55)
-    - [Sun] S Sun → H Uranus RA 174.7502 108×φ golden (84.94)
-    - [Sun] H Alpheratz → H Uranus RA 33.9822 34 whole (1.25)
-  - Makemake: Moon, Sun — also: 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
-    - [Moon] S Makemake → H Makemake RA 6.1805 10×φ^-1 phi power (99.15)
-    - [Moon] H Alpheratz → H Makemake RA 166.0075 166 whole (39.29)
-    - [Moon] H Facies → H Makemake RA 83.0169 83 whole (2.36)
-    - [Moon] S Makemake → J Makemake Dec 13.0023 13 whole (78.38)
-    - [Moon] J Menkar → J Makemake RA 131.0531 81×φ golden (58.25)
-    - [Sun] H Alpheratz → H Makemake RA 166.0075 166 whole (39.29)
-    - [Sun] H Meissa → H Makemake Dec 14.0064 14 whole (46.08)
-    - [Sun] H Zubenelgenubi → H Makemake Dec 39.9836 40 whole (3.31)
-  - Mars: Jupiter, Moon, Sun — also: 2 Bucephalus / Harriet Tucker
-    - [Jupiter] H Capella → H Mars Dec 54.9869 55 whole (11.98)
-    - [Jupiter] H Galactic Centre → H Mars Dec 20.0165 20 whole (3.15)
-    - [Jupiter] J Galactic Centre → J Mars RA 45.0116 45 whole (17.65)
-    - [Moon] S Moon → H Mars Dec 0.0852 conj (51.29)
-    - [Moon] H Scheat → H Mars RA 0.9494 conj (13.47)
-    - [Moon] J Alpheratz → J Mars Dec 45.9844 46 whole (4.74)
-    - [Moon] J Facies → J Mars Dec 7.0119 7 whole (16.53)
-    - [Moon] J Menkar → J Mars Dec 20.9844 21 whole (4.80)
-    - [Sun] H Pollux → H Mars Dec 37.0185 37 whole (0.58)
-    - [Sun] H Zubenelgenubi → H Mars RA 122.2710 122.222 ninth (93.25)
-    - [Sun] S Sun → J Mars RA 0.0789 conj (89.75)
-    - [Sun] J Alpheratz → J Mars Dec 45.9844 46 whole (4.74)
-    - [Sun] J Zubenelgenubi → J Mars RA 1.3104 conj (1.60)
-  - Juno: Moon, Sun — also: 1 Dedicated Hero / Sam Twiston-Davies, 7 King Ulanda / Jack Tudor
-    - [Moon] S Moon → H Juno RA 0.6899 conj (29.17)
-    - [Moon] H Menkar → H Juno RA 143.0167 143 whole (2.74)
-    - [Moon] J Alpheratz → J Juno RA 141.4860 141.4 sqrt2 (82.54)
-    - [Moon] J Altair → J Juno Dec 0.2281 conj (5.75)
-    - [Moon] J Menkar → J Juno RA 98.0162 98 whole (3.64)
-    - [Sun] J Alpheratz → J Juno RA 141.4860 141.4 sqrt2 (82.54)
-  - Ketu: Jupiter, Moon, Sun — also: 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
-    - [Jupiter] S Ketu → J Ketu RA 158.0149 158 whole (6.59)
-    - [Moon] H Acumen → H Ketu RA 0.3641 conj (57.35)
-    - [Moon] H Hamal → H Ketu RA 122.9569 φ^10 phi power (88.96)
-    - [Moon] J Menkar → J Ketu RA 54.9948 55 whole (54.47)
-    - [Sun] J Meissa → J Ketu Dec 13.9954 14 whole (59.26)
-    - [Sun] J Zubenelgenubi → J Ketu Dec 11.9809 12 whole (0.20)
-  - Jupiter: Moon, Sun — only
-    - [Moon] H Alpheratz → H Jupiter Dec 50.1557 31×φ golden (80.40)
-    - [Moon] H Altair → H Jupiter RA 0.8179 conj (20.68)
-    - [Moon] H Facies → H Jupiter RA 19.4156 12×φ golden (95.35)
-    - [Moon] S Altair → J Jupiter RA 18.8867 18.8889 ninth (98.43)
-    - [Moon] S Menkar → J Jupiter RA 88.9906 55×φ golden (92.03)
-    - [Sun] H Alpheratz → H Jupiter Dec 50.1557 31×φ golden (80.40)
-    - [Sun] H Meissa → H Jupiter Dec 31.0030 31 whole (72.56)
-    - [Sun] H Pollux → H Jupiter RA 177.7996 177.778 ninth (98.29)
-  - Pluto: Jupiter, Moon, Sun — also: 7 King Ulanda / Jack Tudor
-    - [Jupiter] S Jupiter → J Pluto Dec 22.6560 14×φ golden (79.59)
-    - [Moon] H Altair → H Pluto RA 1.2134 conj (3.65)
-    - [Moon] H Altair → H Pluto Dec 31.0146 31 whole (7.35)
-    - [Moon] S Moon → J Pluto Dec 0.2436 conj (3.54)
-    - [Moon] J Alphard → J Pluto Dec 0.0065 conj (95.74)
-    - [Sun] H Deneb Algedi → H Pluto Dec 6.0172 6 whole (1.99)
-  - Chiron: Jupiter, Moon, Sun — also: 7 King Ulanda / Jack Tudor
-    - [Jupiter] J Galactic Centre → J Chiron RA 57.9890 58 whole (20.15)
-    - [Moon] H Altair → H Chiron RA 69.0019 69 whole (82.29)
-    - [Moon] H Altair → H Chiron Dec 3.0152 3 whole (5.65)
-    - [Moon] H Scheat → H Chiron Dec 22.2264 22.2222 ninth (94.25)
-    - [Moon] J Facies → J Chiron Dec 12.9425 8×φ golden (89.33)
-    - [Moon] J Scheat → J Chiron RA 137.5200 85×φ golden (36.28)
-    - [Sun] H Deneb Algedi → H Chiron Dec 21.9822 22 whole (1.16)
-    - [Sun] H Zubenelgenubi → H Chiron RA 143.9807 144 whole (0.13)
-    - [Sun] J Pollux → J Chiron Dec 38.9885 39 whole (18.17)
-  - Pallas: Jupiter, Moon, Sun — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden
-    - [Jupiter] S Jupiter → J Pallas RA 137.9998 138 whole (98.26)
-    - [Moon] H Altair → H Pallas Dec 12.0149 12 whole (6.56)
-    - [Moon] J Acumen → J Pallas RA 16.6601 16.6667 ninth (94.36)
-    - [Sun] H Deneb Algedi → H Pallas Dec 37.0123 37 whole (14.92)
-    - [Sun] J Meissa → J Pallas Dec 1.9826 2 whole (1.68)
-  - Saturn: Jupiter, Moon, Sun — also: 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
-    - [Jupiter] H Capella → H Saturn Dec 66.0105 66 whole (22.79)
-    - [Jupiter] H Galactic Centre → H Saturn Dec 8.9929 9 whole (41.74)
-    - [Moon] H Menkar → H Saturn RA 101.9823 102 whole (1.27)
-    - [Moon] H Scheat → H Saturn RA 42.3617 10×φ^3 phi power (99.00)
-    - [Moon] S Moon → J Saturn Dec 13.9959 14 whole (63.14)
-    - [Moon] J Alphard → J Saturn RA 122.9668 φ^10 phi power (92.00)
-    - [Moon] J Alpheratz → J Saturn Dec 24.0019 24 whole (81.66)
-    - [Moon] J Facies → J Saturn Dec 28.9943 29 whole (51.11)
-    - [Moon] J Menkar → J Saturn Dec 0.9980 1 whole (81.41)
-    - [Moon] J Scheat → J Saturn Dec 22.9948 23 whole (54.77)
-    - [Sun] J Alpheratz → J Saturn Dec 24.0019 24 whole (81.66)
-  - Ceres: Moon, Sun — also: 1 Dedicated Hero / Sam Twiston-Davies, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
-    - [Moon] H Menkar → H Ceres RA 61.0063 61 whole (47.11)
-    - [Moon] H Scheat → H Ceres RA 1.3858 conj (0.58)
-    - [Moon] J Facies → J Ceres Dec 0.0512 conj (68.78)
-    - [Sun] H Deneb Algedi → H Ceres RA 17.7953 11×φ golden (82.16)
-  - Transpluto: Jupiter, Sun — also: 2 Bucephalus / Harriet Tucker
-    - [Jupiter] S Jupiter → J Transpluto RA 0.1349 conj (82.83)
-    - [Sun] H Deneb Algedi → H Transpluto RA 173.1310 107×φ golden (91.65)
-  - Sun: Moon, Sun — also: 1 Dedicated Hero / Sam Twiston-Davies, 5 Lyssenko / Harry Skelton
-    - [Moon] H Facies → H Sun RA 150.4643 93×φ golden (36.40)
-    - [Moon] H Facies → H Sun Dec 46.0119 46 whole (16.30)
-    - [Moon] H Menkar → H Sun RA 24.0046 24 whole (59.52)
-    - [Moon] H Menkar → H Sun Dec 18.0191 18 whole (0.20)
-    - [Moon] J Altair → J Sun RA 133.3753 133.333 ninth (94.97)
-    - [Sun] S Sun → J Sun RA 57.0038 57 whole (65.46)
-    - [Sun] S Sun → J Sun Dec 22.6563 14×φ golden (77.55)
-    - [Sun] J Pollux → J Sun RA 47.9985 48 whole (85.65)
-  - Venus: Jupiter, Moon, Sun — only
-    - [Jupiter] J Capella → J Venus RA 121.3784 75×φ golden (4.04)
-    - [Moon] H Hamal → H Venus Dec 0.1165 conj (37.43)
-    - [Moon] H Scheat → H Venus RA 87.3732 54×φ golden (95.85)
-    - [Moon] S Moon → J Venus Dec 0.0465 conj (71.39)
-    - [Moon] J Alphard → J Venus Dec 0.2966 conj (0.01)
-    - [Sun] H Pollux → H Venus RA 43.0029 43 whole (73.17)
-    - [Sun] J Deneb Algedi → J Venus RA 126.2154 78×φ golden (53.46)
-    - [Sun] J Meissa → J Venus Dec 18.8882 18.8889 ninth (99.49)
-  - Sedna: Moon, Sun — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
-    - [Moon] J Alpheratz → J Sedna Dec 24.0170 24 whole (2.31)
-    - [Moon] J Menkar → J Sedna RA 0.6346 conj (33.29)
-    - [Moon] J Menkar → J Sedna Dec 0.9830 1 whole (2.27)
-    - [Moon] J Scheat → J Sedna Dec 23.0098 23 whole (25.84)
-    - [Sun] H Pollux → H Sedna RA 58.2490 36×φ golden (98.91)
-    - [Sun] J Alpheratz → J Sedna Dec 24.0170 24 whole (2.31)
-  - Mercury: Moon, Sun — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol
-    - [Moon] J Alpheratz → J Mercury RA 152.9848 153 whole (5.87)
-    - [Moon] J Facies → J Mercury RA 124.0150 124 whole (6.14)
-    - [Sun] J Alpheratz → J Mercury RA 152.9848 153 whole (5.87)
-  - Gonggong: Jupiter, Sun — only
-    - [Jupiter] J Capella → J Gonggong RA 107.9827 108 whole (1.76)
-    - [Sun] J Zubenelgenubi → J Gonggong Dec 2.0009 2 whole (91.19)
+### L4 every natal body
+- **Mercury**
+  - same body: S Mercury → H Mercury RA 122.1659 122.222 ninth (loose) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+  - star rows: J Alpheratz → J Mercury RA 152.9848 153 whole (5.87) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: J Facies → J Mercury RA 124.0150 124 whole (6.14) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+- **Venus**
+  - same body: S Venus → H Venus Dec 35.9806 36 whole (0.09) — also: 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
+  - star rows: H Hamal → H Venus Dec 0.1165 conj (37.43) — only
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - star rows: H Pollux → H Venus RA 43.0029 43 whole (73.17) — also: 2 Bucephalus / Harriet Tucker
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - star rows: H Scheat → H Venus RA 87.3732 54×φ golden (95.85) — also: 1 Dedicated Hero / Sam Twiston-Davies
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+  - top rows: S Moon → J Venus Dec 0.0465 conj (71.39) — only
+  - star rows: J Alphard → J Venus Dec 0.2966 conj (0.01) — also: 2 Bucephalus / Harriet Tucker, 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - star rows: J Capella → J Venus RA 121.3784 75×φ golden (4.04) — also: 1 Dedicated Hero / Sam Twiston-Davies
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: J Deneb Algedi → J Venus RA 126.2154 78×φ golden (53.46) — also: 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - star rows: J Meissa → J Venus Dec 18.8882 18.8889 ninth (99.49) — only
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+- **Uranus**
+  - same body: S Uranus → H Uranus RA 26.0518 10×φ^2 phi power (loose) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
+    - source line: S Jupiter → Uranus RA 84.9947 85 whole (54.32)
+  - top rows: S Jupiter → H Uranus Dec 0.1448 conj (26.77) — also: 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton
+  - top rows: S Sun → H Uranus RA 174.7502 108×φ golden (84.94) — only
+  - star rows: H Alpheratz → H Uranus RA 33.9822 34 whole (1.25) — only
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: J Alphard → J Uranus RA 166.0000 166 whole (99.68) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - star rows: J Hamal → J Uranus Dec 43.0157 43 whole (4.55) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+- **Ceres**
+  - same body: S Ceres → H Ceres Dec 41.4397 41.4 silver (loose) — also: 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
+  - star rows: H Deneb Algedi → H Ceres RA 17.7953 11×φ golden (82.16) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - star rows: H Menkar → H Ceres RA 61.0063 61 whole (47.11) — also: 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: H Scheat → H Ceres RA 1.3858 conj (0.58) — also: 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+  - star rows: J Facies → J Ceres Dec 0.0512 conj (68.78) — also: 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+- **Sedna**
+  - same body: S Sedna → H Sedna RA 3.9998 4 whole (97.73) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 7 King Ulanda / Jack Tudor
+  - star rows: H Pollux → H Sedna RA 58.2490 36×φ golden (98.91) — also: 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - star rows: J Alpheratz → J Sedna Dec 24.0170 24 whole (2.31) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: J Menkar → J Sedna RA 0.6346 conj (33.29) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: J Menkar → J Sedna Dec 0.9830 1 whole (2.27) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: J Scheat → J Sedna Dec 23.0098 23 whole (25.84) — also: 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+- **Makemake**
+  - same body: S Makemake → H Makemake RA 6.1805 10×φ^-1 phi power (99.15) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Makemake RA 12.9972 13 whole (73.81)
+  - star rows: H Alpheratz → H Makemake RA 166.0075 166 whole (39.29) — also: 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: H Facies → H Makemake RA 83.0169 83 whole (2.36) — also: 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - star rows: H Meissa → H Makemake Dec 14.0064 14 whole (46.08) — also: 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+  - star rows: H Zubenelgenubi → H Makemake Dec 39.9836 40 whole (3.31) — also: 3 Manuelito / Harry Cobden, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+  - same body: S Makemake → J Makemake Dec 13.0023 13 whole (78.38) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Makemake RA 12.9972 13 whole (73.81)
+  - star rows: J Menkar → J Makemake RA 131.0531 81×φ golden (58.25) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+- **Jupiter**
+  - T1: H Jupiter → H star Alpheratz Dec 50.1557 31×φ golden (80.40) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - T1: H Jupiter → H star Facies RA 19.4156 12×φ golden (95.35) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - T1: H Jupiter → H star Meissa Dec 31.0030 31 whole (72.56) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - T1: H Jupiter → H star Pollux RA 177.7996 177.778 ninth (98.29) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - star rows: H Alpheratz → H Jupiter Dec 50.1557 31×φ golden (80.40) — also: 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: H Altair → H Jupiter RA 0.8179 conj (20.68) — also: 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: H Facies → H Jupiter RA 19.4156 12×φ golden (95.35) — also: 3 Manuelito / Harry Cobden, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - star rows: H Meissa → H Jupiter Dec 31.0030 31 whole (72.56) — also: 3 Manuelito / Harry Cobden
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+  - star rows: H Pollux → H Jupiter RA 177.7996 177.778 ninth (98.29) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - T2: J Jupiter → J star Altair RA 18.8856 18.8889 ninth (97.62) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - star rows: S Altair → J Jupiter RA 18.8867 18.8889 ninth (98.43) — also: 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: S Menkar → J Jupiter RA 88.9906 55×φ golden (92.03) — also: 1 Dedicated Hero / Sam Twiston-Davies, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+- **Mars**
+  - top rows: S Moon → H Mars Dec 0.0852 conj (51.29) — also: 1 Dedicated Hero / Sam Twiston-Davies, 6 Star Of Guiting / Craig Nichol
+  - star rows: H Capella → H Mars Dec 54.9869 55 whole (11.98) — only
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: H Galactic Centre → H Mars Dec 20.0165 20 whole (3.15) — also: 2 Bucephalus / Harriet Tucker
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: H Pollux → H Mars Dec 37.0185 37 whole (0.58) — also: 6 Star Of Guiting / Craig Nichol
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - star rows: H Scheat → H Mars RA 0.9494 conj (13.47) — only
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+  - star rows: H Zubenelgenubi → H Mars RA 122.2710 122.222 ninth (93.25) — also: 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+  - same body: S Mars → J Mars Dec 33.0152 33 whole (5.79) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - top rows: S Sun → J Mars RA 0.0789 conj (89.75) — also: 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - star rows: J Alpheratz → J Mars Dec 45.9844 46 whole (4.74) — also: 1 Dedicated Hero / Sam Twiston-Davies, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: J Facies → J Mars Dec 7.0119 7 whole (16.53) — also: 1 Dedicated Hero / Sam Twiston-Davies
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - star rows: J Galactic Centre → J Mars RA 45.0116 45 whole (17.65) — also: 2 Bucephalus / Harriet Tucker
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: J Menkar → J Mars Dec 20.9844 21 whole (4.80) — only
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: J Zubenelgenubi → J Mars RA 1.3104 conj (1.60) — also: 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+- **Juno**
+  - top rows: S Moon → H Juno RA 0.6899 conj (29.17) — also: 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - star rows: H Menkar → H Juno RA 143.0167 143 whole (2.74) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: J Alpheratz → J Juno RA 141.4860 141.4 sqrt2 (82.54) — also: 1 Dedicated Hero / Sam Twiston-Davies, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: J Altair → J Juno Dec 0.2281 conj (5.75) — also: 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: J Menkar → J Juno RA 98.0162 98 whole (3.64) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+- **Ketu**
+  - star rows: H Acumen → H Ketu RA 0.3641 conj (57.35) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - star rows: H Hamal → H Ketu RA 122.9569 φ^10 phi power (88.96) — also: 1 Dedicated Hero / Sam Twiston-Davies, 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - same body: S Ketu → J Ketu RA 158.0149 158 whole (6.59) — also: 2 Bucephalus / Harriet Tucker, 7 King Ulanda / Jack Tudor
+    - source line: S Jupiter → Ketu RA 1.4679 conj (0.05)
+  - star rows: J Meissa → J Ketu Dec 13.9954 14 whole (59.26) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+  - star rows: J Menkar → J Ketu RA 54.9948 55 whole (54.47) — also: 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: J Zubenelgenubi → J Ketu Dec 11.9809 12 whole (0.20) — also: 6 Star Of Guiting / Craig Nichol
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+- **Pluto**
+  - star rows: H Altair → H Pluto RA 1.2134 conj (3.65) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: H Altair → H Pluto Dec 31.0146 31 whole (7.35) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: H Deneb Algedi → H Pluto Dec 6.0172 6 whole (1.99) — also: 3 Manuelito / Harry Cobden
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - same body: S Pluto → J Pluto Dec 15.0206 15 whole (loose) — also: 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - top rows: S Jupiter → J Pluto Dec 22.6560 14×φ golden (79.59) — only
+  - top rows: S Moon → J Pluto Dec 0.2436 conj (3.54) — only
+  - star rows: J Alphard → J Pluto Dec 0.0065 conj (95.74) — also: 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+- **Chiron**
+  - star rows: H Altair → H Chiron RA 69.0019 69 whole (82.29) — also: 1 Dedicated Hero / Sam Twiston-Davies
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: H Altair → H Chiron Dec 3.0152 3 whole (5.65) — also: 1 Dedicated Hero / Sam Twiston-Davies
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: H Deneb Algedi → H Chiron Dec 21.9822 22 whole (1.16) — also: 3 Manuelito / Harry Cobden
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - star rows: H Scheat → H Chiron Dec 22.2264 22.2222 ninth (94.25) — only
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+  - star rows: H Zubenelgenubi → H Chiron RA 143.9807 144 whole (0.13) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+  - same body: S Chiron → J Chiron RA 177.0027 177 whole (75.14) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - star rows: J Facies → J Chiron Dec 12.9425 8×φ golden (89.33) — also: 3 Manuelito / Harry Cobden, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - star rows: J Galactic Centre → J Chiron RA 57.9890 58 whole (20.15) — also: 7 King Ulanda / Jack Tudor
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: J Pollux → J Chiron Dec 38.9885 39 whole (18.17) — also: 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - star rows: J Scheat → J Chiron RA 137.5200 85×φ golden (36.28) — only
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+- **Pallas**
+  - star rows: H Altair → H Pallas Dec 12.0149 12 whole (6.56) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: H Deneb Algedi → H Pallas Dec 37.0123 37 whole (14.92) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - top rows: S Jupiter → J Pallas RA 137.9998 138 whole (98.26) — only
+  - star rows: J Acumen → J Pallas RA 16.6601 16.6667 ninth (94.36) — also: 1 Dedicated Hero / Sam Twiston-Davies
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - star rows: J Meissa → J Pallas Dec 1.9826 2 whole (1.68) — also: 1 Dedicated Hero / Sam Twiston-Davies
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+- **Rahu**
+  - star rows: H Altair → H Rahu Dec 14.5631 9×φ golden (95.22) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: H Hamal → H Rahu Dec 0.0272 conj (82.70) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - same body: S Rahu → J Rahu RA 158.0149 158 whole (6.59) — also: 2 Bucephalus / Harriet Tucker, 7 King Ulanda / Jack Tudor
+  - star rows: J Menkar → J Rahu RA 125.0052 125 whole (54.47) — only
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: J Menkar → J Rahu Dec 0.0316 conj (80.03) — only
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+- **Saturn**
+  - star rows: H Capella → H Saturn Dec 66.0105 66 whole (22.79) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: H Galactic Centre → H Saturn Dec 8.9929 9 whole (41.74) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: H Menkar → H Saturn RA 101.9823 102 whole (1.27) — also: 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: H Scheat → H Saturn RA 42.3617 10×φ^3 phi power (99.00) — also: 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+  - same body: S Saturn → J Saturn RA 9.9951 10 whole (57.08) — also: 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton
+  - same body: S Saturn → J Saturn Dec 4.1453 4.14 silver (loose) — also: 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton
+  - top rows: S Moon → J Saturn Dec 13.9959 14 whole (63.14) — also: 7 King Ulanda / Jack Tudor
+  - star rows: J Alphard → J Saturn RA 122.9668 φ^10 phi power (92.00) — only
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - star rows: J Alpheratz → J Saturn Dec 24.0019 24 whole (81.66) — also: 3 Manuelito / Harry Cobden, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: J Facies → J Saturn Dec 28.9943 29 whole (51.11) — also: 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - star rows: J Menkar → J Saturn Dec 0.9980 1 whole (81.41) — also: 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: J Scheat → J Saturn Dec 22.9948 23 whole (54.77) — also: 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+- **Transpluto**
+  - star rows: H Deneb Algedi → H Transpluto RA 173.1310 107×φ golden (91.65) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - top rows: S Jupiter → J Transpluto RA 0.1349 conj (82.83) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+- **Sun**
+  - star rows: H Facies → H Sun RA 150.4643 93×φ golden (36.40) — also: 1 Dedicated Hero / Sam Twiston-Davies
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - star rows: H Facies → H Sun Dec 46.0119 46 whole (16.30) — also: 1 Dedicated Hero / Sam Twiston-Davies
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - star rows: H Menkar → H Sun RA 24.0046 24 whole (59.52) — also: 1 Dedicated Hero / Sam Twiston-Davies, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: H Menkar → H Sun Dec 18.0191 18 whole (0.20) — also: 1 Dedicated Hero / Sam Twiston-Davies, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - same body + top rows: S Sun → J Sun RA 57.0038 57 whole (65.46) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - same body + top rows: S Sun → J Sun Dec 22.6563 14×φ golden (77.55) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - star rows: J Altair → J Sun RA 133.3753 133.333 ninth (94.97) — also: 1 Dedicated Hero / Sam Twiston-Davies
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: J Pollux → J Sun RA 47.9985 48 whole (85.65) — also: 3 Manuelito / Harry Cobden
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+- **Orcus**
+  - star rows: H Hamal → H Orcus RA 122.2150 122.222 ninth (99.00) — also: 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - star rows: H Menkar → H Orcus RA 108.4401 67×φ golden (0.03) — also: 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - same body: S Orcus → J Orcus Dec 14.0910 14.14 sqrt2 (loose) — also: 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Orcus Dec 5.0060 5 whole (49.11)
+  - star rows: J Menkar → J Orcus RA 90.9805 91 whole (0.07) — also: 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+- **Neptune**
+  - star rows: H Pollux → H Neptune RA 124.5844 77×φ golden (75.45) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - star rows: H Zubenelgenubi → H Neptune RA 129.0121 129 whole (15.68) — also: 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+  - star rows: H Zubenelgenubi → H Neptune Dec 11.3281 7×φ golden (89.11) — also: 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+- **Haumea**
+  - star rows: H Pollux → H Haumea RA 97.9894 98 whole (21.89) — also: 5 Lyssenko / Harry Skelton
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - same body: S Haumea → J Haumea RA 26.9751 27 whole (loose) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Haumea RA 0.5930 conj (36.56)
+  - star rows: J Deneb Algedi → J Haumea RA 133.0056 133 whole (52.17) — also: 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+- **Quaoar**
+  - star rows: H Scheat → H Quaoar RA 71.9813 72 whole (0.45) — only
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+  - star rows: J Alphard → J Quaoar RA 100.3188 62×φ golden (95.93) — also: 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+- **Gonggong**
+  - same body: S Gonggong → J Gonggong RA 5.9787 6 whole (loose) — also: 7 King Ulanda / Jack Tudor
+  - star rows: J Capella → J Gonggong RA 107.9827 108 whole (1.76) — also: 6 Star Of Guiting / Craig Nichol
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: J Zubenelgenubi → J Gonggong Dec 2.0009 2 whole (91.19) — also: 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+- **Vesta**
+  - star rows: J Acumen → J Vesta RA 124.5947 77×φ golden (65.97) — also: 1 Dedicated Hero / Sam Twiston-Davies
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - star rows: J Hamal → J Vesta RA 1.2620 conj (2.52) — also: 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+- **Eris**
+  - star rows: J Altair → J Eris RA 85.9811 86 whole (0.30) — also: 1 Dedicated Hero / Sam Twiston-Davies
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
 
 ## 5 Lyssenko / Harry Skelton
 ### L1 same bodies
@@ -1355,127 +2410,206 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - S Transpluto → J Transpluto RA 12.2940 12.2222 ninth (loose)
 ### L2 what lands on each same body
 - **H Sun** (same body: S Sun → H Sun Dec 19.0271 19 whole (loose))
-  - top rows: S Moon → H Sun RA 177.7950 177.778 ninth (98.66) [Moon]
-  - other chart, star rows: J Meissa → J Sun Dec 8.9995 9 whole (95.24) [Sun]
+  - top rows: S Moon → H Sun RA 177.7950 177.778 ninth (98.66)
+  - other chart, star rows: J Meissa → J Sun Dec 8.9995 9 whole (95.24)
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
 - **H Mercury** (same body: S Mercury → H Mercury RA 133.1525 133.333 ninth (loose))
-  - star rows: H Acumen → H Mercury Dec 27.9868 28 whole (11.67) [Moon]
-  - star rows: H Capella → H Mercury RA 89.0164 89 whole (3.26) [Jupiter]
-  - other chart, star rows: J Menkar → J Mercury RA 139.0100 139 whole (24.89) [Moon]
-  - other chart, star rows: J Zubenelgenubi → J Mercury Dec 9.9963 10 whole (66.44) [Sun]
+  - star rows: H Acumen → H Mercury Dec 27.9868 28 whole (11.67)
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - star rows: H Capella → H Mercury RA 89.0164 89 whole (3.26)
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - other chart, star rows: J Menkar → J Mercury RA 139.0100 139 whole (24.89)
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - other chart, star rows: J Zubenelgenubi → J Mercury Dec 9.9963 10 whole (66.44)
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
 - **H Venus** (same body: S Venus → H Venus Dec 14.4582 14.4444 ninth (loose))
-  - star rows: H Alpheratz → H Venus RA 6.0018 6 whole (83.26) [Moon, Sun]
-  - star rows: H Facies → H Venus RA 88.9941 55×φ golden (86.82) [Moon]
-  - other chart, top rows: S Sun → J Venus Dec 0.2293 conj (5.56) [Sun]
-  - other chart, star rows: J Zubenelgenubi → J Venus Dec 0.2933 conj (0.05) [Sun]
+  - star rows: H Alpheratz → H Venus RA 6.0018 6 whole (83.26)
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: H Facies → H Venus RA 88.9941 55×φ golden (86.82)
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - other chart, top rows: S Sun → J Venus Dec 0.2293 conj (5.56)
+  - other chart, star rows: J Zubenelgenubi → J Venus Dec 0.2933 conj (0.05)
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
 - **H Jupiter** (same body: S Jupiter → H Jupiter RA 177.6860 177.778 ninth (loose))
-  - top rows: S Neptune → H Jupiter RA 37.2153 23×φ golden (97.12) [Jupiter]
-  - star rows: S Hamal → H Jupiter RA 66.9902 67 whole (25.93) [Moon]
+  - top rows: S Neptune → H Jupiter RA 37.2153 23×φ golden (97.12)
+  - star rows: S Hamal → H Jupiter RA 66.9902 67 whole (25.93)
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
   - other chart, same body: S Jupiter → J Jupiter Dec 8.8759 8.88889 ninth (loose)
-  - other chart, top rows: S Chiron → J Jupiter RA 74.0033 74 whole (69.66) [Jupiter]
-  - other chart, top rows: S Rahu → J Jupiter Dec 35.5988 22×φ golden (88.00) [Jupiter]
-  - other chart, top rows: S Gonggong → J Jupiter RA 122.2678 122.222 ninth (93.69) [Jupiter]
-  - other chart, star rows: J Altair → J Jupiter Dec 13.9990 14 whole (90.63) [Moon]
-  - other chart, star rows: S Deneb Algedi → J Jupiter RA 132.6721 82×φ golden (62.72) [Sun]
-  - other chart, star rows: S Deneb Algedi → J Jupiter Dec 38.9986 39 whole (86.72) [Sun]
-  - other chart, star rows: J Galactic Centre → J Jupiter RA 166.9814 167 whole (0.48) [Jupiter]
+  - other chart, top rows: S Chiron → J Jupiter RA 74.0033 74 whole (69.66)
+  - other chart, top rows: S Rahu → J Jupiter Dec 35.5988 22×φ golden (88.00)
+  - other chart, top rows: S Gonggong → J Jupiter RA 122.2678 122.222 ninth (93.69)
+  - other chart, star rows: J Altair → J Jupiter Dec 13.9990 14 whole (90.63)
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - other chart, star rows: S Deneb Algedi → J Jupiter RA 132.6721 82×φ golden (62.72)
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - other chart, star rows: S Deneb Algedi → J Jupiter Dec 38.9986 39 whole (86.72)
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - other chart, star rows: J Galactic Centre → J Jupiter RA 166.9814 167 whole (0.48)
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
 - **H Saturn** (same body: S Saturn → H Saturn RA 55.5330 55.5556 ninth (loose))
-  - star rows: H Capella → H Saturn Dec 64.0115 64 whole (18.09) [Jupiter]
-  - star rows: H Galactic Centre → H Saturn RA 46.9791 φ^8 phi power (99.65) [Jupiter]
-  - star rows: H Galactic Centre → H Saturn Dec 10.9933 11 whole (44.27) [Jupiter]
-  - other chart, star rows: J Facies → J Saturn RA 0.9513 conj (13.38) [Moon]
-  - other chart, star rows: J Pollux → J Saturn RA 161.8212 100×φ^1 phi power (95.65) [Sun]
+  - star rows: H Capella → H Saturn Dec 64.0115 64 whole (18.09)
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: H Galactic Centre → H Saturn RA 46.9791 φ^8 phi power (99.65)
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: H Galactic Centre → H Saturn Dec 10.9933 11 whole (44.27)
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - other chart, star rows: J Facies → J Saturn RA 0.9513 conj (13.38)
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - other chart, star rows: J Pollux → J Saturn RA 161.8212 100×φ^1 phi power (95.65)
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
 - **H Uranus** (same body: S Uranus → H Uranus Dec 6.8569 φ^4 phi power (loose))
-  - body line: S Jupiter → Uranus RA 84.9947 85 whole (54.32)
-  - top rows: S Jupiter → H Uranus Dec 0.0370 conj (76.86) [Jupiter]
-  - star rows: H Acumen → H Uranus RA 127.8303 79×φ golden (68.07) [Moon]
-  - star rows: H Zubenelgenubi → H Uranus Dec 29.9998 30 whole (98.18) [Sun]
+  - sky line to Uranus: S Jupiter → Uranus RA 84.9947 85 whole (54.32)
+  - top rows: S Jupiter → H Uranus Dec 0.0370 conj (76.86)
+  - star rows: H Acumen → H Uranus RA 127.8303 79×φ golden (68.07)
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - star rows: H Zubenelgenubi → H Uranus Dec 29.9998 30 whole (98.18)
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
   - other chart, same body: S Uranus → J Uranus RA 150.4648 93×φ golden (38.09)
-  - other chart, star rows: J Acumen → J Uranus Dec 11.0924 φ^5 phi power (92.25) [Moon]
-  - other chart, star rows: J Facies → J Uranus Dec 0.2027 conj (10.52) [Moon]
-  - other chart, star rows: J Pollux → J Uranus RA 155.3367 96×φ golden (69.21) [Sun]
+  - other chart, star rows: J Acumen → J Uranus Dec 11.0924 φ^5 phi power (92.25)
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - other chart, star rows: J Facies → J Uranus Dec 0.2027 conj (10.52)
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - other chart, star rows: J Pollux → J Uranus RA 155.3367 96×φ golden (69.21)
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
 - **H Ceres** (same body: S Ceres → H Ceres RA 99.8816 100 ninth (loose))
-  - star rows: H Capella → H Ceres RA 63.9834 64 whole (2.84) [Jupiter]
-  - other chart, star rows: J Capella → J Ceres Dec 24.9810 25 whole (0.25) [Jupiter]
-  - other chart, star rows: J Pollux → J Ceres Dec 7.0100 7 whole (24.76) [Sun]
-  - other chart, star rows: J Scheat → J Ceres RA 104.0173 104 whole (1.84) [Moon]
+  - star rows: H Capella → H Ceres RA 63.9834 64 whole (2.84)
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - other chart, star rows: J Capella → J Ceres Dec 24.9810 25 whole (0.25)
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - other chart, star rows: J Pollux → J Ceres Dec 7.0100 7 whole (24.76)
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - other chart, star rows: J Scheat → J Ceres RA 104.0173 104 whole (1.84)
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
 - **H Vesta** (same body: S Vesta → H Vesta Dec 23.0105 23 whole (22.39))
-  - star rows: H Galactic Centre → H Vesta RA 102.0126 102 whole (13.64) [Jupiter]
-  - other chart, top rows: S Sun → J Vesta Dec 10.0031 10 whole (71.50) [Sun]
-  - other chart, star rows: J Pollux → J Vesta Dec 54.0056 54 whole (51.75) [Sun]
+  - star rows: H Galactic Centre → H Vesta RA 102.0126 102 whole (13.64)
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - other chart, top rows: S Sun → J Vesta Dec 10.0031 10 whole (71.50)
+  - other chart, star rows: J Pollux → J Vesta Dec 54.0056 54 whole (51.75)
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
 - **H Orcus** (same body: S Orcus → H Orcus RA 6.4783 4×φ golden (loose))
-  - body line: S Moon → Orcus Dec 5.0060 5 whole (49.11)
-  - star rows: H Acumen → H Orcus RA 113.2602 70×φ golden (87.03) [Moon]
+  - sky line to Orcus: S Moon → Orcus Dec 5.0060 5 whole (49.11)
+  - star rows: H Acumen → H Orcus RA 113.2602 70×φ golden (87.03)
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
   - other chart, same body: S Orcus → J Orcus Dec 17.9584 φ^6 phi power (loose)
-  - other chart, star rows: J Hamal → J Orcus Dec 19.4176 12×φ golden (92.99) [Moon]
-  - other chart, star rows: J Menkar → J Orcus Dec 0.0457 conj (71.85) [Moon]
+  - other chart, star rows: J Hamal → J Orcus Dec 19.4176 12×φ golden (92.99)
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - other chart, star rows: J Menkar → J Orcus Dec 0.0457 conj (71.85)
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
 - **H Quaoar** (same body: S Quaoar → H Quaoar RA 5.0055 5 whole (52.39))
-  - star rows: H Alphard → H Quaoar RA 134.0073 134 whole (40.05) [Moon]
+  - star rows: H Alphard → H Quaoar RA 134.0073 134 whole (40.05)
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
   - other chart, same body: S Quaoar → J Quaoar RA 48.5631 30×φ golden (loose)
   - other chart, same body: S Quaoar → J Quaoar Dec 2.0257 2 whole (loose)
-  - other chart, star rows: J Altair → J Quaoar Dec 21.9979 22 whole (80.09) [Moon]
-  - other chart, star rows: J Deneb Algedi → J Quaoar Dec 2.9973 3 whole (74.63) [Sun]
+  - other chart, star rows: J Altair → J Quaoar Dec 21.9979 22 whole (80.09)
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - other chart, star rows: J Deneb Algedi → J Quaoar Dec 2.9973 3 whole (74.63)
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
 - **H Transpluto** (same body: S Transpluto → H Transpluto Dec 0.9855 1 whole (7.47))
-  - top rows: S Jupiter → H Transpluto RA 7.0034 7 whole (69.19) [Jupiter]
-  - star rows: H Alphard → H Transpluto RA 12.2274 12.2222 ninth (92.78) [Moon]
+  - top rows: S Jupiter → H Transpluto RA 7.0034 7 whole (69.19)
+  - star rows: H Alphard → H Transpluto RA 12.2274 12.2222 ninth (92.78)
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
   - other chart, same body: S Transpluto → J Transpluto RA 12.2940 12.2222 ninth (loose)
-  - other chart, top rows: S Jupiter → J Transpluto Dec 0.1663 conj (19.87) [Jupiter]
-  - other chart, star rows: J Galactic Centre → J Transpluto RA 122.0035 122 whole (68.33) [Jupiter]
+  - other chart, top rows: S Jupiter → J Transpluto Dec 0.1663 conj (19.87)
+  - other chart, star rows: J Galactic Centre → J Transpluto RA 122.0035 122 whole (68.33)
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
 - **J Jupiter** (same body: S Jupiter → J Jupiter Dec 8.8759 8.88889 ninth (loose))
-  - top rows: S Chiron → J Jupiter RA 74.0033 74 whole (69.66) [Jupiter]
-  - top rows: S Rahu → J Jupiter Dec 35.5988 22×φ golden (88.00) [Jupiter]
-  - top rows: S Gonggong → J Jupiter RA 122.2678 122.222 ninth (93.69) [Jupiter]
-  - star rows: J Altair → J Jupiter Dec 13.9990 14 whole (90.63) [Moon]
-  - star rows: S Deneb Algedi → J Jupiter RA 132.6721 82×φ golden (62.72) [Sun]
-  - star rows: S Deneb Algedi → J Jupiter Dec 38.9986 39 whole (86.72) [Sun]
-  - star rows: J Galactic Centre → J Jupiter RA 166.9814 167 whole (0.48) [Jupiter]
+  - top rows: S Chiron → J Jupiter RA 74.0033 74 whole (69.66)
+  - top rows: S Rahu → J Jupiter Dec 35.5988 22×φ golden (88.00)
+  - top rows: S Gonggong → J Jupiter RA 122.2678 122.222 ninth (93.69)
+  - star rows: J Altair → J Jupiter Dec 13.9990 14 whole (90.63)
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: S Deneb Algedi → J Jupiter RA 132.6721 82×φ golden (62.72)
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - star rows: S Deneb Algedi → J Jupiter Dec 38.9986 39 whole (86.72)
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - star rows: J Galactic Centre → J Jupiter RA 166.9814 167 whole (0.48)
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
   - other chart, same body: S Jupiter → H Jupiter RA 177.6860 177.778 ninth (loose)
-  - other chart, top rows: S Neptune → H Jupiter RA 37.2153 23×φ golden (97.12) [Jupiter]
-  - other chart, star rows: S Hamal → H Jupiter RA 66.9902 67 whole (25.93) [Moon]
+  - other chart, top rows: S Neptune → H Jupiter RA 37.2153 23×φ golden (97.12)
+  - other chart, star rows: S Hamal → H Jupiter RA 66.9902 67 whole (25.93)
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
 - **J Uranus** (same body: S Uranus → J Uranus RA 150.4648 93×φ golden (38.09))
-  - body line: S Jupiter → Uranus RA 84.9947 85 whole (54.32)
-  - star rows: J Acumen → J Uranus Dec 11.0924 φ^5 phi power (92.25) [Moon]
-  - star rows: J Facies → J Uranus Dec 0.2027 conj (10.52) [Moon]
-  - star rows: J Pollux → J Uranus RA 155.3367 96×φ golden (69.21) [Sun]
+  - sky line to Uranus: S Jupiter → Uranus RA 84.9947 85 whole (54.32)
+  - star rows: J Acumen → J Uranus Dec 11.0924 φ^5 phi power (92.25)
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - star rows: J Facies → J Uranus Dec 0.2027 conj (10.52)
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - star rows: J Pollux → J Uranus RA 155.3367 96×φ golden (69.21)
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
   - other chart, same body: S Uranus → H Uranus Dec 6.8569 φ^4 phi power (loose)
-  - other chart, top rows: S Jupiter → H Uranus Dec 0.0370 conj (76.86) [Jupiter]
-  - other chart, star rows: H Acumen → H Uranus RA 127.8303 79×φ golden (68.07) [Moon]
-  - other chart, star rows: H Zubenelgenubi → H Uranus Dec 29.9998 30 whole (98.18) [Sun]
+  - other chart, top rows: S Jupiter → H Uranus Dec 0.0370 conj (76.86)
+  - other chart, star rows: H Acumen → H Uranus RA 127.8303 79×φ golden (68.07)
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - other chart, star rows: H Zubenelgenubi → H Uranus Dec 29.9998 30 whole (98.18)
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
 - **J Chiron** (same body: S Chiron → J Chiron RA 80.9083 50×φ golden (63.45))
-  - star rows: J Pollux → J Chiron RA 9.9881 10 whole (16.29) [Sun]
-  - other chart, star rows: H Alphard → H Chiron RA 135.0057 135 whole (50.95) [Moon]
+  - star rows: J Pollux → J Chiron RA 9.9881 10 whole (16.29)
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - other chart, star rows: H Alphard → H Chiron RA 135.0057 135 whole (50.95)
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
 - **J Haumea** (same body: S Haumea → J Haumea RA 33.9614 21×φ golden (loose))
-  - body line: S Sun → Haumea RA 0.5930 conj (36.56)
-  - star rows: J Altair → J Haumea RA 110.9235 10×φ^5 phi power (92.30) [Moon]
-  - star rows: J Deneb Algedi → J Haumea RA 139.9906 140 whole (28.28) [Sun]
-  - star rows: J Meissa → J Haumea RA 102.9884 103 whole (17.67) [Sun]
-  - other chart, top rows: S Sun → H Haumea Dec 31.9997 32 whole (97.21) [Sun]
-  - other chart, top rows: S Moon → H Haumea RA 26.9953 27 whole (58.90) [Moon]
-  - other chart, star rows: H Galactic Centre → H Haumea RA 50.1511 31×φ golden (56.77) [Jupiter]
-  - other chart, star rows: H Pollux → H Haumea Dec 12.0029 12 whole (73.30) [Sun]
+  - sky line to Haumea: S Sun → Haumea RA 0.5930 conj (36.56)
+  - star rows: J Altair → J Haumea RA 110.9235 10×φ^5 phi power (92.30)
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: J Deneb Algedi → J Haumea RA 139.9906 140 whole (28.28)
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - star rows: J Meissa → J Haumea RA 102.9884 103 whole (17.67)
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+  - other chart, top rows: S Sun → H Haumea Dec 31.9997 32 whole (97.21)
+  - other chart, top rows: S Moon → H Haumea RA 26.9953 27 whole (58.90)
+  - other chart, star rows: H Galactic Centre → H Haumea RA 50.1511 31×φ golden (56.77)
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - other chart, star rows: H Pollux → H Haumea Dec 12.0029 12 whole (73.30)
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
 - **J Makemake** (same body: S Makemake → J Makemake Dec 15.5350 15.5556 ninth (loose))
-  - body line: S Moon → Makemake RA 12.9972 13 whole (73.81)
-  - star rows: J Alpheratz → J Makemake Dec 6.0164 6 whole (3.23) [Moon, Sun]
-  - star rows: J Facies → J Makemake Dec 59.0138 59 whole (9.49) [Moon]
-  - star rows: J Menkar → J Makemake Dec 31.0172 31 whole (1.99) [Moon]
-  - other chart, star rows: H Hamal → H Makemake Dec 0.0683 conj (59.65) [Moon]
+  - sky line to Makemake: S Moon → Makemake RA 12.9972 13 whole (73.81)
+  - star rows: J Alpheratz → J Makemake Dec 6.0164 6 whole (3.23)
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: J Facies → J Makemake Dec 59.0138 59 whole (9.49)
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - star rows: J Menkar → J Makemake Dec 31.0172 31 whole (1.99)
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - other chart, star rows: H Hamal → H Makemake Dec 0.0683 conj (59.65)
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
 - **J Orcus** (same body: S Orcus → J Orcus Dec 17.9584 φ^6 phi power (loose))
-  - body line: S Moon → Orcus Dec 5.0060 5 whole (49.11)
-  - star rows: J Hamal → J Orcus Dec 19.4176 12×φ golden (92.99) [Moon]
-  - star rows: J Menkar → J Orcus Dec 0.0457 conj (71.85) [Moon]
+  - sky line to Orcus: S Moon → Orcus Dec 5.0060 5 whole (49.11)
+  - star rows: J Hamal → J Orcus Dec 19.4176 12×φ golden (92.99)
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - star rows: J Menkar → J Orcus Dec 0.0457 conj (71.85)
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
   - other chart, same body: S Orcus → H Orcus RA 6.4783 4×φ golden (loose)
-  - other chart, star rows: H Acumen → H Orcus RA 113.2602 70×φ golden (87.03) [Moon]
+  - other chart, star rows: H Acumen → H Orcus RA 113.2602 70×φ golden (87.03)
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
 - **J Quaoar** (same body: S Quaoar → J Quaoar RA 48.5631 30×φ golden (loose); S Quaoar → J Quaoar Dec 2.0257 2 whole (loose))
-  - star rows: J Altair → J Quaoar Dec 21.9979 22 whole (80.09) [Moon]
-  - star rows: J Deneb Algedi → J Quaoar Dec 2.9973 3 whole (74.63) [Sun]
+  - star rows: J Altair → J Quaoar Dec 21.9979 22 whole (80.09)
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: J Deneb Algedi → J Quaoar Dec 2.9973 3 whole (74.63)
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
   - other chart, same body: S Quaoar → H Quaoar RA 5.0055 5 whole (52.39)
-  - other chart, star rows: H Alphard → H Quaoar RA 134.0073 134 whole (40.05) [Moon]
+  - other chart, star rows: H Alphard → H Quaoar RA 134.0073 134 whole (40.05)
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
 - **J Transpluto** (same body: S Transpluto → J Transpluto RA 12.2940 12.2222 ninth (loose))
-  - top rows: S Jupiter → J Transpluto Dec 0.1663 conj (19.87) [Jupiter]
-  - star rows: J Galactic Centre → J Transpluto RA 122.0035 122 whole (68.33) [Jupiter]
+  - top rows: S Jupiter → J Transpluto Dec 0.1663 conj (19.87)
+  - star rows: J Galactic Centre → J Transpluto RA 122.0035 122 whole (68.33)
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
   - other chart, same body: S Transpluto → H Transpluto Dec 0.9855 1 whole (7.47)
-  - other chart, top rows: S Jupiter → H Transpluto RA 7.0034 7 whole (69.19) [Jupiter]
-  - other chart, star rows: H Alphard → H Transpluto RA 12.2274 12.2222 ninth (92.78) [Moon]
-### L3 the seven cases (L5 field tag on each)
+  - other chart, top rows: S Jupiter → H Transpluto RA 7.0034 7 whole (69.19)
+  - other chart, star rows: H Alphard → H Transpluto RA 12.2274 12.2222 ninth (92.78)
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+### L3 matches
 - **1. same body on both charts**
   - Jupiter — only
     - S Jupiter → H Jupiter RA 177.6860 177.778 ninth (loose)
@@ -1511,193 +2645,366 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - **4. circle divisions**
   - 5 = 360/72 — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
     - S Quaoar → H Quaoar RA 5.0055 5 whole (52.39)
-  - 1 = 360/360 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+  - 1 = 360/360 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
     - S Transpluto → H Transpluto Dec 0.9855 1 whole (7.47)
-  - 6 = 360/60 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - 6 = 360/60 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
     - H Alpheratz → H Venus RA 6.0018 6 whole (83.26)
-  - 12 = 360/30 — also: 7 King Ulanda / Jack Tudor
+  - 4 = 360/90 — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+    - H Menkar → H Sedna Dec 3.9848 4 whole (5.75)
+  - 12 = 360/30 — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
     - H Pollux → H Haumea Dec 12.0029 12 whole (73.30)
-  - 40 = 360/9 — only
+  - 20 = 360/18 — also: 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - H Scheat → H Sedna Dec 20.0086 20 whole (32.21)
+  - 9 = 360/40 — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+    - H Scheat → H Gonggong RA 9.0144 9 whole (7.72)
+  - 40 = 360/9 — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
     - H Zubenelgenubi → H Mars Dec 39.9961 40 whole (64.73)
-  - 30 = 360/12 — also: 1 Dedicated Hero / Sam Twiston-Davies, 7 King Ulanda / Jack Tudor
+  - 30 = 360/12 — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 7 King Ulanda / Jack Tudor
     - H Zubenelgenubi → H Uranus Dec 29.9998 30 whole (98.18)
   - 2 = 360/180 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen
     - S Quaoar → J Quaoar Dec 2.0257 2 whole (loose)
-  - 10 = 360/36 — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+  - 10 = 360/36 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
     - S Sun → J Vesta Dec 10.0031 10 whole (71.50)
-  - 20 = 360/18 — also: 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - 20 = 360/18 — also: 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
     - S Sun → J Sedna Dec 20.0007 20 whole (93.07)
-  - 3 = 360/120 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker
+  - 6 = 360/60 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - J Alpheratz → J Makemake Dec 6.0164 6 whole (3.23)
+  - 3 = 360/120 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
     - J Deneb Algedi → J Quaoar Dec 2.9973 3 whole (74.63)
-  - 9 = 360/40 — also: 3 Manuelito / Harry Cobden
+  - 9 = 360/40 — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
     - J Meissa → J Sun Dec 8.9995 9 whole (95.24)
+  - 180 = 360/2 — also: 2 Bucephalus / Harriet Tucker
+    - J Menkar → J Pluto RA 179.9889 180 whole (19.78)
+  - 10 = 360/36 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - J Pollux → J Chiron RA 9.9881 10 whole (16.29)
   - 24 = 360/15 — also: 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
     - J Pollux → J Sedna Dec 24.0018 24 whole (82.64)
-  - 10 = 360/36 — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+  - 15 = 360/24 — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - J Pollux → J Ketu Dec 15.0113 15 whole (18.87)
+  - 10 = 360/36 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
     - J Zubenelgenubi → J Mercury Dec 9.9963 10 whole (66.44)
 - **5. same number in more than one place**
   - 177.778 ninth — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen
     - S Jupiter → H Jupiter RA 177.6860 177.778 ninth (loose)
     - S Moon → H Sun RA 177.7950 177.778 ninth (98.66)
     - H Pollux → H Pluto RA 177.7492 177.778 ninth (97.76)
+  - 23 whole — also: 4 All In You / Sean Bowen
+    - S Vesta → H Vesta Dec 23.0105 23 whole (22.39)
+    - J Menkar → J Eris RA 23.0151 23 whole (5.97)
   - 7 whole — also: 2 Bucephalus / Harriet Tucker
     - S Jupiter → H Transpluto RA 7.0034 7 whole (69.19)
     - S Sun → H Juno Dec 6.9989 7 whole (88.83)
+    - J Pollux → J Ceres Dec 7.0100 7 whole (24.76)
+  - 28 whole — only
+    - H Acumen → H Mercury Dec 27.9868 28 whole (11.67)
+    - H Hamal → H Neptune Dec 28.0151 28 whole (5.99)
   - 12.2222 ninth — only
     - H Alphard → H Transpluto RA 12.2274 12.2222 ninth (92.78)
     - S Transpluto → J Transpluto RA 12.2940 12.2222 ninth (loose)
-  - 14 whole — also: 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+  - 6 whole — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - H Alpheratz → H Venus RA 6.0018 6 whole (83.26)
+    - J Alpheratz → J Makemake Dec 6.0164 6 whole (3.23)
+  - 64 whole — also: 3 Manuelito / Harry Cobden
+    - H Capella → H Saturn Dec 64.0115 64 whole (18.09)
+    - H Capella → H Ceres RA 63.9834 64 whole (2.84)
+    - J Hamal → J Rahu RA 64.0129 64 whole (12.72)
+    - J Meissa → J Ketu RA 63.9997 64 whole (96.86)
+  - 14 whole — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+    - H Meissa → H Mars Dec 14.0198 14 whole (0.01)
     - J Jupiter → J star Altair Dec 13.9990 14 whole (90.63)
     - J Altair → J Jupiter Dec 13.9990 14 whole (90.63)
+  - 20 whole — only
+    - H Scheat → H Sedna Dec 20.0086 20 whole (32.21)
+    - S Sun → J Sedna Dec 20.0007 20 whole (93.07)
+  - 9 whole — only
+    - H Scheat → H Gonggong RA 9.0144 9 whole (7.72)
+    - J Meissa → J Sun Dec 8.9995 9 whole (95.24)
   - 82×φ golden — only
     - J Jupiter → J star Deneb Algedi RA 132.6713 82×φ golden (58.97)
     - S Deneb Algedi → J Jupiter RA 132.6721 82×φ golden (62.72)
   - 39 whole — only
     - J Jupiter → J star Deneb Algedi Dec 38.9942 39 whole (50.53)
     - S Deneb Algedi → J Jupiter Dec 38.9986 39 whole (86.72)
-  - 10 whole — only
+  - 10 whole — also: 3 Manuelito / Harry Cobden
     - S Sun → J Vesta Dec 10.0031 10 whole (71.50)
+    - J Pollux → J Chiron RA 9.9881 10 whole (16.29)
     - J Zubenelgenubi → J Mercury Dec 9.9963 10 whole (66.44)
+  - 59 whole — only
+    - J Capella → J Rahu Dec 59.0120 59 whole (16.05)
+    - J Facies → J Makemake Dec 59.0138 59 whole (9.49)
   - 12×φ golden — also: 4 All In You / Sean Bowen
     - J Galactic Centre → J Eris Dec 19.4139 12×φ golden (85.27)
     - J Hamal → J Orcus Dec 19.4176 12×φ golden (92.99)
+  - 116 whole — also: 6 Star Of Guiting / Craig Nichol
+    - J Hamal → J Ketu RA 115.9871 116 whole (12.72)
+    - J Meissa → J Rahu RA 116.0003 116 whole (96.86)
   - 100×φ^1 phi power — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 7 King Ulanda / Jack Tudor
     - J Pollux → J Saturn RA 161.8212 100×φ^1 phi power (95.65)
     - J Scheat → J Ketu RA 161.8359 100×φ^1 phi power (92.12)
-- **6. star and sky line on one body**
-  - J Sedna on Menkar — only
-    - J Menkar → J Sedna Dec 0.0676 conj (60.02)
-    - S Sun → J Sedna Dec 20.0007 20 whole (93.07)
-    - S Moon → J Sedna RA 146.9961 147 whole (64.79)
-- **7. centres meeting**
-  - Uranus: Jupiter, Moon, Sun — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
-    - [Jupiter] S Uranus → H Uranus Dec 6.8569 φ^4 phi power (loose)
-    - [Jupiter] S Jupiter → H Uranus Dec 0.0370 conj (76.86)
-    - [Jupiter] S Uranus → J Uranus RA 150.4648 93×φ golden (38.09)
-    - [Moon] H Acumen → H Uranus RA 127.8303 79×φ golden (68.07)
-    - [Moon] J Acumen → J Uranus Dec 11.0924 φ^5 phi power (92.25)
-    - [Moon] J Facies → J Uranus Dec 0.2027 conj (10.52)
-    - [Sun] H Zubenelgenubi → H Uranus Dec 29.9998 30 whole (98.18)
-    - [Sun] J Pollux → J Uranus RA 155.3367 96×φ golden (69.21)
-  - Transpluto: Jupiter, Moon — also: 6 Star Of Guiting / Craig Nichol
-    - [Jupiter] S Jupiter → H Transpluto RA 7.0034 7 whole (69.19)
-    - [Jupiter] S Jupiter → J Transpluto Dec 0.1663 conj (19.87)
-    - [Jupiter] J Galactic Centre → J Transpluto RA 122.0035 122 whole (68.33)
-    - [Moon] H Alphard → H Transpluto RA 12.2274 12.2222 ninth (92.78)
-  - Juno: Jupiter, Moon, Sun — also: 2 Bucephalus / Harriet Tucker
-    - [Jupiter] J Capella → J Juno RA 111.0048 111 whole (58.05)
-    - [Moon] S Moon → H Juno Dec 0.0713 conj (58.14)
-    - [Moon] H Alphard → H Juno RA 121.3814 75×φ golden (1.16)
-    - [Moon] S Moon → J Juno RA 0.9065 conj (15.66)
-    - [Sun] S Sun → H Juno Dec 6.9989 7 whole (88.83)
-    - [Sun] H Meissa → H Juno RA 179.4986 10×φ^6 phi power (87.93)
-    - [Sun] H Pollux → H Juno Dec 37.0037 37 whole (66.05)
-  - Sedna: Moon, Sun — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
-    - [Moon] H Alphard → H Sedna RA 84.0014 84 whole (86.13)
-    - [Moon] H Alpheratz → H Sedna Dec 21.0152 21 whole (5.76)
-    - [Moon] H Menkar → H Sedna Dec 3.9848 4 whole (5.75)
-    - [Moon] H Scheat → H Sedna Dec 20.0086 20 whole (32.21)
-    - [Moon] S Moon → J Sedna RA 146.9961 147 whole (64.79)
-    - [Moon] J Menkar → J Sedna Dec 0.0676 conj (60.02)
-    - [Sun] S Sun → H Sedna RA 163.4287 101×φ golden (59.97)
-    - [Sun] H Alpheratz → H Sedna Dec 21.0152 21 whole (5.76)
-    - [Sun] H Meissa → H Sedna RA 25.8843 16×φ golden (75.30)
-    - [Sun] S Sun → J Sedna Dec 20.0007 20 whole (93.07)
-    - [Sun] J Pollux → J Sedna Dec 24.0018 24 whole (82.64)
-  - Haumea: Jupiter, Moon, Sun — only
-    - [Jupiter] H Galactic Centre → H Haumea RA 50.1511 31×φ golden (56.77)
-    - [Moon] S Moon → H Haumea RA 26.9953 27 whole (58.90)
-    - [Moon] J Altair → J Haumea RA 110.9235 10×φ^5 phi power (92.30)
-    - [Sun] S Sun → H Haumea Dec 31.9997 32 whole (97.21)
-    - [Sun] H Pollux → H Haumea Dec 12.0029 12 whole (73.30)
-    - [Sun] S Haumea → J Haumea RA 33.9614 21×φ golden (loose)
-    - [Sun] J Deneb Algedi → J Haumea RA 139.9906 140 whole (28.28)
-    - [Sun] J Meissa → J Haumea RA 102.9884 103 whole (17.67)
-  - Sun: Moon, Sun — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen
-    - [Moon] S Moon → H Sun RA 177.7950 177.778 ninth (98.66)
-    - [Sun] J Meissa → J Sun Dec 8.9995 9 whole (95.24)
-  - Jupiter: Jupiter, Moon, Sun — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
-    - [Jupiter] S Neptune → H Jupiter RA 37.2153 23×φ golden (97.12)
-    - [Jupiter] S Chiron → J Jupiter RA 74.0033 74 whole (69.66)
-    - [Jupiter] S Rahu → J Jupiter Dec 35.5988 22×φ golden (88.00)
-    - [Jupiter] S Gonggong → J Jupiter RA 122.2678 122.222 ninth (93.69)
-    - [Jupiter] J Galactic Centre → J Jupiter RA 166.9814 167 whole (0.48)
-    - [Moon] S Hamal → H Jupiter RA 66.9902 67 whole (25.93)
-    - [Moon] J Altair → J Jupiter Dec 13.9990 14 whole (90.63)
-    - [Sun] S Deneb Algedi → J Jupiter RA 132.6721 82×φ golden (62.72)
-    - [Sun] S Deneb Algedi → J Jupiter Dec 38.9986 39 whole (86.72)
-  - Mercury: Jupiter, Moon, Sun — also: 2 Bucephalus / Harriet Tucker, 7 King Ulanda / Jack Tudor
-    - [Jupiter] H Capella → H Mercury RA 89.0164 89 whole (3.26)
-    - [Moon] H Acumen → H Mercury Dec 27.9868 28 whole (11.67)
-    - [Moon] J Menkar → J Mercury RA 139.0100 139 whole (24.89)
-    - [Sun] J Zubenelgenubi → J Mercury Dec 9.9963 10 whole (66.44)
-  - Chiron: Moon, Sun — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol
-    - [Moon] H Alphard → H Chiron RA 135.0057 135 whole (50.95)
-    - [Sun] J Pollux → J Chiron RA 9.9881 10 whole (16.29)
-  - Quaoar: Moon, Sun — also: 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
-    - [Moon] H Alphard → H Quaoar RA 134.0073 134 whole (40.05)
-    - [Moon] J Altair → J Quaoar Dec 21.9979 22 whole (80.09)
-    - [Sun] J Deneb Algedi → J Quaoar Dec 2.9973 3 whole (74.63)
-  - Venus: Moon, Sun — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol
-    - [Moon] H Alpheratz → H Venus RA 6.0018 6 whole (83.26)
-    - [Moon] H Facies → H Venus RA 88.9941 55×φ golden (86.82)
-    - [Sun] H Alpheratz → H Venus RA 6.0018 6 whole (83.26)
-    - [Sun] S Sun → J Venus Dec 0.2293 conj (5.56)
-    - [Sun] J Zubenelgenubi → J Venus Dec 0.2933 conj (0.05)
-  - Pluto: Moon, Sun — also: 3 Manuelito / Harry Cobden
-    - [Moon] H Altair → H Pluto RA 0.8802 conj (17.08)
-    - [Moon] H Menkar → H Pluto RA 106.9883 107 whole (17.30)
-    - [Moon] J Menkar → J Pluto RA 179.9889 180 whole (19.78)
-    - [Sun] H Pollux → H Pluto RA 177.7492 177.778 ninth (97.76)
-  - Saturn: Jupiter, Moon, Sun — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
-    - [Jupiter] H Capella → H Saturn Dec 64.0115 64 whole (18.09)
-    - [Jupiter] H Galactic Centre → H Saturn RA 46.9791 φ^8 phi power (99.65)
-    - [Jupiter] H Galactic Centre → H Saturn Dec 10.9933 11 whole (44.27)
-    - [Moon] J Facies → J Saturn RA 0.9513 conj (13.38)
-    - [Sun] J Pollux → J Saturn RA 161.8212 100×φ^1 phi power (95.65)
-  - Neptune: Jupiter, Moon, Sun — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
-    - [Jupiter] H Capella → H Neptune RA 87.0189 87 whole (0.30)
-    - [Moon] H Hamal → H Neptune Dec 28.0151 28 whole (5.99)
-    - [Moon] J Facies → J Neptune RA 1.4358 conj (0.18)
-    - [Sun] H Zubenelgenubi → H Neptune RA 129.4283 80×φ golden (30.71)
-  - Ceres: Jupiter, Moon, Sun — also: 2 Bucephalus / Harriet Tucker
-    - [Jupiter] H Capella → H Ceres RA 63.9834 64 whole (2.84)
-    - [Jupiter] J Capella → J Ceres Dec 24.9810 25 whole (0.25)
-    - [Moon] J Scheat → J Ceres RA 104.0173 104 whole (1.84)
-    - [Sun] J Pollux → J Ceres Dec 7.0100 7 whole (24.76)
-  - Ketu: Jupiter, Moon, Sun — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
-    - [Jupiter] S Jupiter → J Ketu RA 0.6601 conj (31.35)
-    - [Jupiter] J Capella → J Ketu Dec 32.9823 33 whole (1.27)
-    - [Moon] J Hamal → J Ketu RA 115.9871 116 whole (12.72)
-    - [Moon] J Scheat → J Ketu RA 161.8359 100×φ^1 phi power (92.12)
-    - [Sun] H Deneb Algedi → H Ketu Dec 6.1805 10×φ^-1 phi power (98.79)
-    - [Sun] J Meissa → J Ketu RA 63.9997 64 whole (96.86)
-    - [Sun] J Pollux → J Ketu Dec 15.0113 15 whole (18.87)
-  - Rahu: Jupiter, Moon, Sun — only
-    - [Jupiter] J Capella → J Rahu Dec 59.0120 59 whole (16.05)
-    - [Jupiter] J Galactic Centre → J Rahu Dec 15.9935 16 whole (45.33)
-    - [Moon] H Facies → H Rahu RA 152.0935 94×φ golden (89.54)
-    - [Moon] J Hamal → J Rahu RA 64.0129 64 whole (12.72)
-    - [Sun] J Deneb Algedi → J Rahu RA 1.0206 conj (10.21)
-    - [Sun] J Meissa → J Rahu RA 116.0003 116 whole (96.86)
-  - Vesta: Jupiter, Sun — only
-    - [Jupiter] H Galactic Centre → H Vesta RA 102.0126 102 whole (13.64)
-    - [Sun] S Sun → J Vesta Dec 10.0031 10 whole (71.50)
-    - [Sun] J Pollux → J Vesta Dec 54.0056 54 whole (51.75)
-  - Makemake: Moon, Sun — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
-    - [Moon] H Hamal → H Makemake Dec 0.0683 conj (59.65)
-    - [Moon] S Makemake → J Makemake Dec 15.5350 15.5556 ninth (loose)
-    - [Moon] J Alpheratz → J Makemake Dec 6.0164 6 whole (3.23)
-    - [Moon] J Facies → J Makemake Dec 59.0138 59 whole (9.49)
-    - [Moon] J Menkar → J Makemake Dec 31.0172 31 whole (1.99)
-    - [Sun] J Alpheratz → J Makemake Dec 6.0164 6 whole (3.23)
-  - Gonggong: Moon, Sun — also: 3 Manuelito / Harry Cobden, 7 King Ulanda / Jack Tudor
-    - [Moon] H Scheat → H Gonggong RA 9.0144 9 whole (7.72)
-    - [Moon] J Scheat → J Gonggong RA 17.0125 17 whole (14.21)
-    - [Sun] J Meissa → J Gonggong RA 114.8487 71×φ golden (0.04)
-  - Eris: Jupiter, Moon — also: 6 Star Of Guiting / Craig Nichol
-    - [Jupiter] J Galactic Centre → J Eris Dec 19.4139 12×φ golden (85.27)
-    - [Moon] J Menkar → J Eris RA 23.0151 23 whole (5.97)
+### L4 every natal body
+- **Sun**
+  - same body: S Sun → H Sun Dec 19.0271 19 whole (loose) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - top rows: S Moon → H Sun RA 177.7950 177.778 ninth (98.66) — also: 1 Dedicated Hero / Sam Twiston-Davies
+  - star rows: J Meissa → J Sun Dec 8.9995 9 whole (95.24) — also: 1 Dedicated Hero / Sam Twiston-Davies
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+- **Mercury**
+  - same body: S Mercury → H Mercury RA 133.1525 133.333 ninth (loose) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+  - star rows: H Acumen → H Mercury Dec 27.9868 28 whole (11.67) — also: 3 Manuelito / Harry Cobden
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - star rows: H Capella → H Mercury RA 89.0164 89 whole (3.26) — also: 7 King Ulanda / Jack Tudor
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: J Menkar → J Mercury RA 139.0100 139 whole (24.89) — also: 2 Bucephalus / Harriet Tucker, 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: J Zubenelgenubi → J Mercury Dec 9.9963 10 whole (66.44) — also: 2 Bucephalus / Harriet Tucker
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+- **Venus**
+  - same body: S Venus → H Venus Dec 14.4582 14.4444 ninth (loose) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+  - star rows: H Alpheratz → H Venus RA 6.0018 6 whole (83.26) — also: 3 Manuelito / Harry Cobden
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: H Facies → H Venus RA 88.9941 55×φ golden (86.82) — also: 2 Bucephalus / Harriet Tucker, 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - top rows: S Sun → J Venus Dec 0.2293 conj (5.56) — also: 3 Manuelito / Harry Cobden
+  - star rows: J Zubenelgenubi → J Venus Dec 0.2933 conj (0.05) — also: 3 Manuelito / Harry Cobden
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+- **Jupiter**
+  - same body: S Jupiter → H Jupiter RA 177.6860 177.778 ninth (loose) — also: 6 Star Of Guiting / Craig Nichol
+  - top rows: S Neptune → H Jupiter RA 37.2153 23×φ golden (97.12) — also: 1 Dedicated Hero / Sam Twiston-Davies
+  - star rows: S Hamal → H Jupiter RA 66.9902 67 whole (25.93) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - same body: S Jupiter → J Jupiter Dec 8.8759 8.88889 ninth (loose) — also: 6 Star Of Guiting / Craig Nichol
+  - T2: J Jupiter → J star Altair Dec 13.9990 14 whole (90.63) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - T2: J Jupiter → J star Deneb Algedi RA 132.6713 82×φ golden (58.97) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - T2: J Jupiter → J star Deneb Algedi Dec 38.9942 39 whole (50.53) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - top rows: S Chiron → J Jupiter RA 74.0033 74 whole (69.66) — only
+  - top rows: S Rahu → J Jupiter Dec 35.5988 22×φ golden (88.00) — also: 6 Star Of Guiting / Craig Nichol
+  - top rows: S Gonggong → J Jupiter RA 122.2678 122.222 ninth (93.69) — only
+  - star rows: J Altair → J Jupiter Dec 13.9990 14 whole (90.63) — also: 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: S Deneb Algedi → J Jupiter RA 132.6721 82×φ golden (62.72) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - star rows: S Deneb Algedi → J Jupiter Dec 38.9986 39 whole (86.72) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - star rows: J Galactic Centre → J Jupiter RA 166.9814 167 whole (0.48) — also: 2 Bucephalus / Harriet Tucker, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+- **Saturn**
+  - same body: S Saturn → H Saturn RA 55.5330 55.5556 ninth (loose) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen
+  - star rows: H Capella → H Saturn Dec 64.0115 64 whole (18.09) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: H Galactic Centre → H Saturn RA 46.9791 φ^8 phi power (99.65) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: H Galactic Centre → H Saturn Dec 10.9933 11 whole (44.27) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: J Facies → J Saturn RA 0.9513 conj (13.38) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - star rows: J Pollux → J Saturn RA 161.8212 100×φ^1 phi power (95.65) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+- **Uranus**
+  - same body: S Uranus → H Uranus Dec 6.8569 φ^4 phi power (loose) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+    - source line: S Jupiter → Uranus RA 84.9947 85 whole (54.32)
+  - top rows: S Jupiter → H Uranus Dec 0.0370 conj (76.86) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen
+  - star rows: H Acumen → H Uranus RA 127.8303 79×φ golden (68.07) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - star rows: H Zubenelgenubi → H Uranus Dec 29.9998 30 whole (98.18) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+  - same body: S Uranus → J Uranus RA 150.4648 93×φ golden (38.09) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+    - source line: S Jupiter → Uranus RA 84.9947 85 whole (54.32)
+  - star rows: J Acumen → J Uranus Dec 11.0924 φ^5 phi power (92.25) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - star rows: J Facies → J Uranus Dec 0.2027 conj (10.52) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - star rows: J Pollux → J Uranus RA 155.3367 96×φ golden (69.21) — also: 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+- **Ceres**
+  - same body: S Ceres → H Ceres RA 99.8816 100 ninth (loose) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+  - star rows: H Capella → H Ceres RA 63.9834 64 whole (2.84) — also: 3 Manuelito / Harry Cobden
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: J Capella → J Ceres Dec 24.9810 25 whole (0.25) — also: 3 Manuelito / Harry Cobden
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: J Pollux → J Ceres Dec 7.0100 7 whole (24.76) — also: 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - star rows: J Scheat → J Ceres RA 104.0173 104 whole (1.84) — also: 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+- **Vesta**
+  - same body: S Vesta → H Vesta Dec 23.0105 23 whole (22.39) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden
+  - star rows: H Galactic Centre → H Vesta RA 102.0126 102 whole (13.64) — also: 2 Bucephalus / Harriet Tucker
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - top rows: S Sun → J Vesta Dec 10.0031 10 whole (71.50) — also: 1 Dedicated Hero / Sam Twiston-Davies
+  - star rows: J Pollux → J Vesta Dec 54.0056 54 whole (51.75) — also: 1 Dedicated Hero / Sam Twiston-Davies
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+- **Orcus**
+  - same body: S Orcus → H Orcus RA 6.4783 4×φ golden (loose) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Orcus Dec 5.0060 5 whole (49.11)
+  - star rows: H Acumen → H Orcus RA 113.2602 70×φ golden (87.03) — also: 2 Bucephalus / Harriet Tucker, 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - same body: S Orcus → J Orcus Dec 17.9584 φ^6 phi power (loose) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Orcus Dec 5.0060 5 whole (49.11)
+  - star rows: J Hamal → J Orcus Dec 19.4176 12×φ golden (92.99) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - star rows: J Menkar → J Orcus Dec 0.0457 conj (71.85) — also: 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+- **Quaoar**
+  - same body: S Quaoar → H Quaoar RA 5.0055 5 whole (52.39) — also: 1 Dedicated Hero / Sam Twiston-Davies, 7 King Ulanda / Jack Tudor
+  - star rows: H Alphard → H Quaoar RA 134.0073 134 whole (40.05) — also: 4 All In You / Sean Bowen
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - same body: S Quaoar → J Quaoar RA 48.5631 30×φ golden (loose) — also: 1 Dedicated Hero / Sam Twiston-Davies, 7 King Ulanda / Jack Tudor
+  - same body: S Quaoar → J Quaoar Dec 2.0257 2 whole (loose) — also: 1 Dedicated Hero / Sam Twiston-Davies, 7 King Ulanda / Jack Tudor
+  - star rows: J Altair → J Quaoar Dec 21.9979 22 whole (80.09) — also: 2 Bucephalus / Harriet Tucker
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: J Deneb Algedi → J Quaoar Dec 2.9973 3 whole (74.63) — also: 6 Star Of Guiting / Craig Nichol
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+- **Transpluto**
+  - same body: S Transpluto → H Transpluto Dec 0.9855 1 whole (7.47) — also: 1 Dedicated Hero / Sam Twiston-Davies
+  - top rows: S Jupiter → H Transpluto RA 7.0034 7 whole (69.19) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - star rows: H Alphard → H Transpluto RA 12.2274 12.2222 ninth (92.78) — only
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - same body: S Transpluto → J Transpluto RA 12.2940 12.2222 ninth (loose) — also: 1 Dedicated Hero / Sam Twiston-Davies
+  - top rows: S Jupiter → J Transpluto Dec 0.1663 conj (19.87) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+  - star rows: J Galactic Centre → J Transpluto RA 122.0035 122 whole (68.33) — also: 1 Dedicated Hero / Sam Twiston-Davies
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+- **Juno**
+  - top rows: S Sun → H Juno Dec 6.9989 7 whole (88.83) — only
+  - top rows: S Moon → H Juno Dec 0.0713 conj (58.14) — also: 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+  - star rows: H Alphard → H Juno RA 121.3814 75×φ golden (1.16) — also: 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - star rows: H Meissa → H Juno RA 179.4986 10×φ^6 phi power (87.93) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+  - star rows: H Pollux → H Juno Dec 37.0037 37 whole (66.05) — also: 3 Manuelito / Harry Cobden
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - top rows: S Moon → J Juno RA 0.9065 conj (15.66) — also: 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+  - star rows: J Capella → J Juno RA 111.0048 111 whole (58.05) — only
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+- **Sedna**
+  - top rows: S Sun → H Sedna RA 163.4287 101×φ golden (59.97) — only
+  - star rows: H Alphard → H Sedna RA 84.0014 84 whole (86.13) — only
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - star rows: H Alpheratz → H Sedna Dec 21.0152 21 whole (5.76) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: H Meissa → H Sedna RA 25.8843 16×φ golden (75.30) — only
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+  - star rows: H Menkar → H Sedna Dec 3.9848 4 whole (5.75) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: H Scheat → H Sedna Dec 20.0086 20 whole (32.21) — also: 4 All In You / Sean Bowen
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+  - top rows: S Sun → J Sedna Dec 20.0007 20 whole (93.07) — only
+  - top rows: S Moon → J Sedna RA 146.9961 147 whole (64.79) — also: 6 Star Of Guiting / Craig Nichol
+  - star rows: J Menkar → J Sedna Dec 0.0676 conj (60.02) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: J Pollux → J Sedna Dec 24.0018 24 whole (82.64) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+- **Haumea**
+  - top rows: S Sun → H Haumea Dec 31.9997 32 whole (97.21) — only
+  - top rows: S Moon → H Haumea RA 26.9953 27 whole (58.90) — also: 1 Dedicated Hero / Sam Twiston-Davies
+  - star rows: H Galactic Centre → H Haumea RA 50.1511 31×φ golden (56.77) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: H Pollux → H Haumea Dec 12.0029 12 whole (73.30) — also: 4 All In You / Sean Bowen
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - same body: S Haumea → J Haumea RA 33.9614 21×φ golden (loose) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Haumea RA 0.5930 conj (36.56)
+  - star rows: J Altair → J Haumea RA 110.9235 10×φ^5 phi power (92.30) — also: 1 Dedicated Hero / Sam Twiston-Davies, 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: J Deneb Algedi → J Haumea RA 139.9906 140 whole (28.28) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - star rows: J Meissa → J Haumea RA 102.9884 103 whole (17.67) — also: 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+- **Chiron**
+  - star rows: H Alphard → H Chiron RA 135.0057 135 whole (50.95) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - same body: S Chiron → J Chiron RA 80.9083 50×φ golden (63.45) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+  - star rows: J Pollux → J Chiron RA 9.9881 10 whole (16.29) — also: 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+- **Pluto**
+  - star rows: H Altair → H Pluto RA 0.8802 conj (17.08) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: H Menkar → H Pluto RA 106.9883 107 whole (17.30) — only
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: H Pollux → H Pluto RA 177.7492 177.778 ninth (97.76) — only
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - star rows: J Menkar → J Pluto RA 179.9889 180 whole (19.78) — only
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+- **Neptune**
+  - star rows: H Capella → H Neptune RA 87.0189 87 whole (0.30) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: H Hamal → H Neptune Dec 28.0151 28 whole (5.99) — only
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - star rows: H Zubenelgenubi → H Neptune RA 129.4283 80×φ golden (30.71) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+  - star rows: J Facies → J Neptune RA 1.4358 conj (0.18) — only
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+- **Ketu**
+  - star rows: H Deneb Algedi → H Ketu Dec 6.1805 10×φ^-1 phi power (98.79) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - top rows: S Jupiter → J Ketu RA 0.6601 conj (31.35) — only
+  - star rows: J Capella → J Ketu Dec 32.9823 33 whole (1.27) — also: 6 Star Of Guiting / Craig Nichol
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: J Hamal → J Ketu RA 115.9871 116 whole (12.72) — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - star rows: J Meissa → J Ketu RA 63.9997 64 whole (96.86) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+  - star rows: J Pollux → J Ketu Dec 15.0113 15 whole (18.87) — also: 2 Bucephalus / Harriet Tucker, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - star rows: J Scheat → J Ketu RA 161.8359 100×φ^1 phi power (92.12) — also: 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+- **Rahu**
+  - star rows: H Facies → H Rahu RA 152.0935 94×φ golden (89.54) — also: 2 Bucephalus / Harriet Tucker
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - star rows: J Capella → J Rahu Dec 59.0120 59 whole (16.05) — also: 6 Star Of Guiting / Craig Nichol
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: J Deneb Algedi → J Rahu RA 1.0206 conj (10.21) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - star rows: J Galactic Centre → J Rahu Dec 15.9935 16 whole (45.33) — also: 3 Manuelito / Harry Cobden
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: J Hamal → J Rahu RA 64.0129 64 whole (12.72) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - star rows: J Meissa → J Rahu RA 116.0003 116 whole (96.86) — also: 1 Dedicated Hero / Sam Twiston-Davies
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+- **Makemake**
+  - star rows: H Hamal → H Makemake Dec 0.0683 conj (59.65) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - same body: S Makemake → J Makemake Dec 15.5350 15.5556 ninth (loose) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Makemake RA 12.9972 13 whole (73.81)
+  - star rows: J Alpheratz → J Makemake Dec 6.0164 6 whole (3.23) — also: 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: J Facies → J Makemake Dec 59.0138 59 whole (9.49) — also: 4 All In You / Sean Bowen
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - star rows: J Menkar → J Makemake Dec 31.0172 31 whole (1.99) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+- **Mars**
+  - star rows: H Meissa → H Mars Dec 14.0198 14 whole (0.01) — only
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+  - star rows: H Zubenelgenubi → H Mars Dec 39.9961 40 whole (64.73) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+- **Gonggong**
+  - star rows: H Scheat → H Gonggong RA 9.0144 9 whole (7.72) — only
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+  - star rows: J Meissa → J Gonggong RA 114.8487 71×φ golden (0.04) — only
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+  - star rows: J Scheat → J Gonggong RA 17.0125 17 whole (14.21) — only
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+- **Pallas**
+  - top rows: S Moon → J Pallas RA 174.7430 108×φ golden (73.47) — also: 3 Manuelito / Harry Cobden
+- **Eris**
+  - star rows: J Galactic Centre → J Eris Dec 19.4139 12×φ golden (85.27) — also: 6 Star Of Guiting / Craig Nichol
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: J Menkar → J Eris RA 23.0151 23 whole (5.97) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
 
 ## 6 Star Of Guiting / Craig Nichol
 ### L1 same bodies
@@ -1715,81 +3022,140 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - S Orcus → J Orcus Dec 15.5295 15.5556 ninth (loose)
 ### L2 what lands on each same body
 - **H Mercury** (same body: S Mercury → H Mercury RA 163.0018 163 whole (82.96))
-  - star rows: H Alpheratz → H Mercury Dec 8.0108 8 whole (21.19) [Moon, Sun]
-  - star rows: H Menkar → H Mercury Dec 16.9879 17 whole (15.47) [Moon]
-  - star rows: H Scheat → H Mercury Dec 7.0045 7 whole (59.95) [Moon]
-  - other chart, star rows: J Alpheratz → J Mercury RA 29.0013 29 whole (87.13) [Moon, Sun]
-  - other chart, star rows: J Altair → J Mercury Dec 16.0182 16 whole (0.81) [Moon]
-  - other chart, star rows: J Facies → J Mercury RA 53.9944 54 whole (51.74) [Moon]
+  - star rows: H Alpheratz → H Mercury Dec 8.0108 8 whole (21.19)
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: H Menkar → H Mercury Dec 16.9879 17 whole (15.47)
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: H Scheat → H Mercury Dec 7.0045 7 whole (59.95)
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+  - other chart, star rows: J Alpheratz → J Mercury RA 29.0013 29 whole (87.13)
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - other chart, star rows: J Altair → J Mercury Dec 16.0182 16 whole (0.81)
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - other chart, star rows: J Facies → J Mercury RA 53.9944 54 whole (51.74)
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
 - **H Pluto** (same body: S Pluto → H Pluto Dec 1.4365 1.44444 ninth (loose))
-  - star rows: H Alphard → H Pluto RA 156.9249 97×φ golden (6.05) [Moon]
-  - star rows: H Altair → H Pluto RA 1.1218 conj (6.36) [Moon]
+  - star rows: H Alphard → H Pluto RA 156.9249 97×φ golden (6.05)
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - star rows: H Altair → H Pluto RA 1.1218 conj (6.36)
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
   - other chart, same body: S Pluto → J Pluto Dec 17.6686 17.7778 ninth (loose)
-  - other chart, star rows: J Capella → J Pluto Dec 52.0156 52 whole (4.93) [Jupiter]
-  - other chart, star rows: J Galactic Centre → J Pluto Dec 22.9926 23 whole (39.72) [Jupiter]
+  - other chart, star rows: J Capella → J Pluto Dec 52.0156 52 whole (4.93)
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - other chart, star rows: J Galactic Centre → J Pluto Dec 22.9926 23 whole (39.72)
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
 - **H Pallas** (same body: S Pallas → H Pallas RA 32.3495 20×φ golden (loose))
-  - top rows: S Sun → H Pallas Dec 22.2254 22.2222 ninth (95.66) [Sun]
-  - star rows: H Menkar → H Pallas RA 62.9900 63 whole (25.11) [Moon]
-  - other chart, star rows: J Menkar → J Pallas RA 54.9908 55 whole (29.00) [Moon]
-  - other chart, star rows: J Zubenelgenubi → J Pallas RA 127.8567 79×φ golden (0.01) [Sun]
+  - top rows: S Sun → H Pallas Dec 22.2254 22.2222 ninth (95.66)
+  - star rows: H Menkar → H Pallas RA 62.9900 63 whole (25.11)
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - other chart, star rows: J Menkar → J Pallas RA 54.9908 55 whole (29.00)
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - other chart, star rows: J Zubenelgenubi → J Pallas RA 127.8567 79×φ golden (0.01)
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
 - **H Eris** (same body: S Eris → H Eris Dec 1.1128 1.11111 ninth (loose))
-  - star rows: H Scheat → H Eris RA 40.4520 25×φ golden (93.00) [Moon]
-  - other chart, star rows: J Alphard → J Eris Dec 0.1947 conj (12.33) [Moon]
-  - other chart, star rows: J Galactic Centre → J Eris RA 115.9992 116 whole (91.83) [Jupiter]
+  - star rows: H Scheat → H Eris RA 40.4520 25×φ golden (93.00)
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+  - other chart, star rows: J Alphard → J Eris Dec 0.1947 conj (12.33)
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - other chart, star rows: J Galactic Centre → J Eris RA 115.9992 116 whole (91.83)
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
 - **H Makemake** (same body: S Makemake → H Makemake RA 4.9988 5 whole (87.93))
-  - body line: S Moon → Makemake RA 12.9972 13 whole (73.81)
-  - top rows: S Moon → H Makemake RA 7.9984 8 whole (84.90) [Moon]
-  - star rows: H Acumen → H Makemake RA 71.1972 44×φ golden (78.46) [Moon]
-  - star rows: H Alpheratz → H Makemake Dec 5.5557 5.55556 ninth (99.03) [Moon, Sun]
-  - star rows: H Capella → H Makemake RA 118.1032 73×φ golden (34.90) [Jupiter]
-  - star rows: H Hamal → H Makemake Dec 0.0710 conj (58.24) [Moon]
-  - other chart, star rows: J Hamal → J Makemake RA 142.0125 142 whole (14.22) [Moon]
-  - other chart, star rows: J Meissa → J Makemake RA 90.0160 90 whole (3.92) [Sun]
+  - sky line to Makemake: S Moon → Makemake RA 12.9972 13 whole (73.81)
+  - top rows: S Moon → H Makemake RA 7.9984 8 whole (84.90)
+  - star rows: H Acumen → H Makemake RA 71.1972 44×φ golden (78.46)
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - star rows: H Alpheratz → H Makemake Dec 5.5557 5.55556 ninth (99.03)
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: H Capella → H Makemake RA 118.1032 73×φ golden (34.90)
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: H Hamal → H Makemake Dec 0.0710 conj (58.24)
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - other chart, star rows: J Hamal → J Makemake RA 142.0125 142 whole (14.22)
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - other chart, star rows: J Meissa → J Makemake RA 90.0160 90 whole (3.92)
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
 - **J Sun** (same body: S Sun → J Sun RA 111.4231 111.111 ninth (loose))
-  - star rows: J Deneb Algedi → J Sun RA 5.9967 6 whole (69.44) [Sun]
-  - star rows: J Galactic Centre → J Sun RA 66.3369 41×φ golden (85.36) [Jupiter]
-  - star rows: J Galactic Centre → J Sun Dec 17.7769 17.7778 ninth (99.28) [Jupiter]
-  - star rows: J Menkar → J Sun RA 72.8179 45×φ golden (64.30) [Moon]
-  - star rows: J Zubenelgenubi → J Sun RA 110.0295 68×φ golden (81.04) [Sun]
-  - other chart, star rows: H Galactic Centre → H Sun Dec 44.4431 44.4444 ninth (98.59) [Jupiter]
-  - other chart, star rows: H Menkar → H Sun RA 5.9944 6 whole (51.58) [Moon]
+  - star rows: J Deneb Algedi → J Sun RA 5.9967 6 whole (69.44)
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - star rows: J Galactic Centre → J Sun RA 66.3369 41×φ golden (85.36)
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: J Galactic Centre → J Sun Dec 17.7769 17.7778 ninth (99.28)
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: J Menkar → J Sun RA 72.8179 45×φ golden (64.30)
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: J Zubenelgenubi → J Sun RA 110.0295 68×φ golden (81.04)
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+  - other chart, star rows: H Galactic Centre → H Sun Dec 44.4431 44.4444 ninth (98.59)
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - other chart, star rows: H Menkar → H Sun RA 5.9944 6 whole (51.58)
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
 - **J Mars** (same body: S Mars → J Mars RA 176.3650 109×φ golden (95.88))
-  - top rows: S Sun → J Mars RA 98.9964 99 whole (67.40) [Sun]
-  - top rows: S Moon → J Mars RA 131.0526 81×φ golden (56.07) [Moon]
-  - star rows: J Pollux → J Mars RA 156.0111 156 whole (19.64) [Sun]
-  - other chart, star rows: H Altair → H Mars RA 158.0011 158 whole (89.46) [Moon]
+  - top rows: S Sun → J Mars RA 98.9964 99 whole (67.40)
+  - top rows: S Moon → J Mars RA 131.0526 81×φ golden (56.07)
+  - star rows: J Pollux → J Mars RA 156.0111 156 whole (19.64)
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - other chart, star rows: H Altair → H Mars RA 158.0011 158 whole (89.46)
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
 - **J Jupiter** (same body: S Jupiter → J Jupiter Dec 28.9951 29 whole (57.13))
-  - top rows: S Jupiter → J Jupiter Dec 28.9951 29 whole (57.13) [Jupiter]
-  - top rows: S Sun → J Jupiter RA 1.2038 conj (3.90) [Jupiter, Sun]
-  - top rows: S Quaoar → J Jupiter Dec 0.1516 conj (24.47) [Jupiter]
-  - star rows: J Capella → J Jupiter Dec 61.0027 61 whole (74.59) [Jupiter]
-  - star rows: J Galactic Centre → J Jupiter Dec 14.0054 14 whole (53.02) [Jupiter]
-  - star rows: S Zubenelgenubi → J Jupiter RA 0.1817 conj (77.24) [Sun]
-  - other chart, top rows: S Moon → H Jupiter RA 141.4298 141.4 sqrt2 (97.62) [Jupiter, Moon]
-  - other chart, top rows: S Rahu → H Jupiter Dec 0.0509 conj (68.96) [Jupiter]
-  - other chart, top rows: S Transpluto → H Jupiter RA 173.9942 174 whole (50.14) [Jupiter]
-  - other chart, star rows: H Acumen → H Jupiter Dec 22.0122 22 whole (15.37) [Moon]
-  - other chart, star rows: H Altair → H Jupiter RA 33.0008 33 whole (92.63) [Moon]
-  - other chart, star rows: S Pollux → H Jupiter RA 145.6245 90×φ golden (91.17) [Sun]
-  - other chart, star rows: S Zubenelgenubi → H Jupiter RA 107.9881 108 whole (16.33) [Sun]
+  - top rows: S Sun → J Jupiter RA 1.2038 conj (3.90)
+  - top rows: S Quaoar → J Jupiter Dec 0.1516 conj (24.47)
+  - star rows: J Capella → J Jupiter Dec 61.0027 61 whole (74.59)
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: J Galactic Centre → J Jupiter Dec 14.0054 14 whole (53.02)
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: S Zubenelgenubi → J Jupiter RA 0.1817 conj (77.24)
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+  - other chart, top rows: S Moon → H Jupiter RA 141.4298 141.4 sqrt2 (97.62)
+  - other chart, top rows: S Rahu → H Jupiter Dec 0.0509 conj (68.96)
+  - other chart, top rows: S Transpluto → H Jupiter RA 173.9942 174 whole (50.14)
+  - other chart, star rows: H Acumen → H Jupiter Dec 22.0122 22 whole (15.37)
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - other chart, star rows: H Altair → H Jupiter RA 33.0008 33 whole (92.63)
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - other chart, star rows: S Pollux → H Jupiter RA 145.6245 90×φ golden (91.17)
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - other chart, star rows: S Zubenelgenubi → H Jupiter RA 107.9881 108 whole (16.33)
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
 - **J Neptune** (same body: S Neptune → J Neptune RA 68.0161 68 whole (3.84))
-  - star rows: J Capella → J Neptune Dec 66.9908 67 whole (28.94) [Jupiter]
-  - star rows: J Galactic Centre → J Neptune Dec 8.0174 8 whole (1.68) [Jupiter]
-  - star rows: J Pollux → J Neptune Dec 49.0157 49 whole (4.61) [Sun]
-  - other chart, star rows: H Altair → H Neptune Dec 12.9876 13 whole (14.60) [Moon]
-  - other chart, star rows: H Deneb Algedi → H Neptune Dec 12.0097 12 whole (26.33) [Sun]
+  - star rows: J Capella → J Neptune Dec 66.9908 67 whole (28.94)
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: J Galactic Centre → J Neptune Dec 8.0174 8 whole (1.68)
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: J Pollux → J Neptune Dec 49.0157 49 whole (4.61)
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - other chart, star rows: H Altair → H Neptune Dec 12.9876 13 whole (14.60)
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - other chart, star rows: H Deneb Algedi → H Neptune Dec 12.0097 12 whole (26.33)
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
 - **J Pluto** (same body: S Pluto → J Pluto Dec 17.6686 17.7778 ninth (loose))
-  - star rows: J Capella → J Pluto Dec 52.0156 52 whole (4.93) [Jupiter]
-  - star rows: J Galactic Centre → J Pluto Dec 22.9926 23 whole (39.72) [Jupiter]
+  - star rows: J Capella → J Pluto Dec 52.0156 52 whole (4.93)
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: J Galactic Centre → J Pluto Dec 22.9926 23 whole (39.72)
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
   - other chart, same body: S Pluto → H Pluto Dec 1.4365 1.44444 ninth (loose)
-  - other chart, star rows: H Alphard → H Pluto RA 156.9249 97×φ golden (6.05) [Moon]
-  - other chart, star rows: H Altair → H Pluto RA 1.1218 conj (6.36) [Moon]
+  - other chart, star rows: H Alphard → H Pluto RA 156.9249 97×φ golden (6.05)
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - other chart, star rows: H Altair → H Pluto RA 1.1218 conj (6.36)
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
 - **J Orcus** (same body: S Orcus → J Orcus RA 29.1343 18×φ golden (loose); S Orcus → J Orcus Dec 15.5295 15.5556 ninth (loose))
-  - body line: S Moon → Orcus Dec 5.0060 5 whole (49.11)
-  - star rows: J Acumen → J Orcus RA 135.9119 84×φ golden (82.44) [Moon]
-  - other chart, star rows: H Galactic Centre → H Orcus Dec 17.9436 φ^6 phi power (98.44) [Jupiter]
-  - other chart, star rows: H Meissa → H Orcus Dec 20.9971 21 whole (72.86) [Sun]
-### L3 the seven cases (L5 field tag on each)
+  - sky line to Orcus: S Moon → Orcus Dec 5.0060 5 whole (49.11)
+  - star rows: J Acumen → J Orcus RA 135.9119 84×φ golden (82.44)
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - other chart, star rows: H Galactic Centre → H Orcus Dec 17.9436 φ^6 phi power (98.44)
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - other chart, star rows: H Meissa → H Orcus Dec 20.9971 21 whole (72.86)
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+### L3 matches
 - **1. same body on both charts**
   - Pluto — only
     - S Pluto → H Pluto Dec 1.4365 1.44444 ninth (loose)
@@ -1822,16 +3188,34 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - **4. circle divisions**
   - 5 = 360/72 — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
     - S Makemake → H Makemake RA 4.9988 5 whole (87.93)
-  - 8 = 360/45 — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 7 King Ulanda / Jack Tudor
+  - 8 = 360/45 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 7 King Ulanda / Jack Tudor
     - S Moon → H Makemake RA 7.9984 8 whole (84.90)
-  - 6 = 360/60 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - 8 = 360/45 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 7 King Ulanda / Jack Tudor
+    - H Alpheratz → H Mercury Dec 8.0108 8 whole (21.19)
+  - 9 = 360/40 — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+    - H Altair → H Venus Dec 9.0148 9 whole (6.80)
+  - 10 = 360/36 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - H Capella → H Rahu RA 9.9807 10 whole (0.11)
+  - 12 = 360/30 — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - H Deneb Algedi → H Neptune Dec 12.0097 12 whole (26.33)
+  - 6 = 360/60 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
     - H Menkar → H Sun RA 5.9944 6 whole (51.58)
-  - 18 = 360/20 — also: 2 Bucephalus / Harriet Tucker
+  - 6 = 360/60 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - H Zubenelgenubi → H Ketu Dec 6.0141 6 whole (8.63)
+  - 18 = 360/20 — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen
     - S Moon → J Ceres Dec 17.9966 18 whole (68.68)
-  - 20 = 360/18 — also: 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - 15 = 360/24 — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - J Acumen → J Rahu Dec 15.0149 15 whole (6.48)
+  - 1 = 360/360 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - J Alphard → J Venus Dec 0.9859 1 whole (8.79)
+  - 20 = 360/18 — also: 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
     - J Alpheratz → J Ceres Dec 20.0001 20 whole (99.14)
-  - 6 = 360/60 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - 6 = 360/60 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
     - J Deneb Algedi → J Sun RA 5.9967 6 whole (69.44)
+  - 8 = 360/45 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 7 King Ulanda / Jack Tudor
+    - J Galactic Centre → J Neptune Dec 8.0174 8 whole (1.68)
+  - 90 = 360/4 — only
+    - J Meissa → J Makemake RA 90.0160 90 whole (3.92)
   - 5 = 360/72 — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
     - J Menkar → J Ceres Dec 5.0021 5 whole (80.27)
 - **5. same number in more than one place**
@@ -1845,12 +3229,26 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 90×φ golden — only
     - H Jupiter → H star Pollux RA 145.6216 90×φ golden (91.09)
     - S Pollux → H Jupiter RA 145.6245 90×φ golden (91.17)
-  - 6 whole — also: 7 King Ulanda / Jack Tudor
+  - 8 whole — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden
+    - S Moon → H Makemake RA 7.9984 8 whole (84.90)
+    - H Alpheratz → H Mercury Dec 8.0108 8 whole (21.19)
+    - J Galactic Centre → J Neptune Dec 8.0174 8 whole (1.68)
+  - 86×φ golden — only
+    - H Facies → H Sedna RA 139.1674 86×φ golden (24.03)
+    - H Pollux → H Gonggong RA 139.1385 86×φ golden (37.93)
+  - 116 whole — also: 5 Lyssenko / Harry Skelton
+    - H Hamal → H Quaoar RA 116.0116 116 whole (17.48)
+    - J Galactic Centre → J Eris RA 115.9992 116 whole (91.83)
+  - 168 whole — only
+    - H Meissa → H Quaoar RA 168.0031 168 whole (71.33)
+    - H Scheat → H Transpluto RA 168.0081 168 whole (35.55)
+  - 6 whole — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
     - H Menkar → H Sun RA 5.9944 6 whole (51.58)
+    - H Zubenelgenubi → H Ketu Dec 6.0141 6 whole (8.63)
     - J Deneb Algedi → J Sun RA 5.9967 6 whole (69.44)
-  - 29 whole — only
+  - 29 whole — also: 3 Manuelito / Harry Cobden
     - S Jupiter → J Jupiter Dec 28.9951 29 whole (57.13)
-    - S Jupiter → J Jupiter Dec 28.9951 29 whole (57.13)
+    - J Acumen → J Juno Dec 28.9849 29 whole (5.96)
     - J Alpheratz → J Mercury RA 29.0013 29 whole (87.13)
   - 17.7778 ninth — only
     - S Pluto → J Pluto Dec 17.6686 17.7778 ninth (loose)
@@ -1858,146 +3256,263 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 61 whole — only
     - J Jupiter → J star Capella Dec 61.0027 61 whole (74.59)
     - J Capella → J Jupiter Dec 61.0027 61 whole (74.59)
-  - 14 whole — also: 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+  - 14 whole — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
     - J Jupiter → J star Galactic Centre Dec 14.0054 14 whole (53.02)
     - J Galactic Centre → J Jupiter Dec 14.0054 14 whole (53.02)
+  - 19 whole — also: 7 King Ulanda / Jack Tudor
+    - S Sun → J Quaoar RA 18.9972 19 whole (73.68)
+    - J Scheat → J Ceres Dec 18.9913 19 whole (31.69)
   - 41×φ golden — only
     - J Capella → J Transpluto RA 66.3344 41×φ golden (71.47)
     - J Galactic Centre → J Sun RA 66.3369 41×φ golden (85.36)
-- **6. star and sky line on one body**
-  - H Makemake on Hamal — only
-    - H Hamal → H Makemake Dec 0.0710 conj (58.24)
-    - S Moon → H Makemake RA 7.9984 8 whole (84.90)
-  - J Jupiter on Zubenelgenubi — only
-    - S Zubenelgenubi → J Jupiter RA 0.1817 conj (77.24)
-    - S Jupiter → J Jupiter Dec 28.9951 29 whole (57.13)
-    - S Sun → J Jupiter RA 1.2038 conj (3.90)
-- **7. centres meeting**
-  - Makemake: Jupiter, Moon, Sun — also: 7 King Ulanda / Jack Tudor
-    - [Jupiter] H Capella → H Makemake RA 118.1032 73×φ golden (34.90)
-    - [Moon] S Makemake → H Makemake RA 4.9988 5 whole (87.93)
-    - [Moon] S Moon → H Makemake RA 7.9984 8 whole (84.90)
-    - [Moon] H Acumen → H Makemake RA 71.1972 44×φ golden (78.46)
-    - [Moon] H Alpheratz → H Makemake Dec 5.5557 5.55556 ninth (99.03)
-    - [Moon] H Hamal → H Makemake Dec 0.0710 conj (58.24)
-    - [Moon] J Hamal → J Makemake RA 142.0125 142 whole (14.22)
-    - [Sun] H Alpheratz → H Makemake Dec 5.5557 5.55556 ninth (99.03)
-    - [Sun] J Meissa → J Makemake RA 90.0160 90 whole (3.92)
-  - Haumea: Jupiter, Moon — also: 1 Dedicated Hero / Sam Twiston-Davies
-    - [Jupiter] H Jupiter → H Haumea RA 115.0010 115 whole (90.66)
-    - [Moon] H Altair → H Haumea RA 82.0002 82 whole (97.95)
-  - Pallas: Moon, Sun — only
-    - [Moon] H Menkar → H Pallas RA 62.9900 63 whole (25.11)
-    - [Moon] J Menkar → J Pallas RA 54.9908 55 whole (29.00)
-    - [Sun] S Sun → H Pallas Dec 22.2254 22.2222 ninth (95.66)
-    - [Sun] J Zubenelgenubi → J Pallas RA 127.8567 79×φ golden (0.01)
-  - Jupiter: Jupiter, Moon, Sun — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
-    - [Jupiter] S Moon → H Jupiter RA 141.4298 141.4 sqrt2 (97.62)
-    - [Jupiter] S Rahu → H Jupiter Dec 0.0509 conj (68.96)
-    - [Jupiter] S Transpluto → H Jupiter RA 173.9942 174 whole (50.14)
-    - [Jupiter] S Jupiter → J Jupiter Dec 28.9951 29 whole (57.13)
-    - [Jupiter] S Sun → J Jupiter RA 1.2038 conj (3.90)
-    - [Jupiter] S Quaoar → J Jupiter Dec 0.1516 conj (24.47)
-    - [Jupiter] J Capella → J Jupiter Dec 61.0027 61 whole (74.59)
-    - [Jupiter] J Galactic Centre → J Jupiter Dec 14.0054 14 whole (53.02)
-    - [Moon] S Moon → H Jupiter RA 141.4298 141.4 sqrt2 (97.62)
-    - [Moon] H Acumen → H Jupiter Dec 22.0122 22 whole (15.37)
-    - [Moon] H Altair → H Jupiter RA 33.0008 33 whole (92.63)
-    - [Sun] S Pollux → H Jupiter RA 145.6245 90×φ golden (91.17)
-    - [Sun] S Zubenelgenubi → H Jupiter RA 107.9881 108 whole (16.33)
-    - [Sun] S Sun → J Jupiter RA 1.2038 conj (3.90)
-    - [Sun] S Zubenelgenubi → J Jupiter RA 0.1817 conj (77.24)
-  - Chiron: Moon, Sun — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
-    - [Moon] S Moon → H Chiron RA 179.4551 10×φ^6 phi power (97.27)
-    - [Sun] H Zubenelgenubi → H Chiron RA 146.0020 146 whole (80.66)
-  - Venus: Moon, Sun — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
-    - [Moon] H Acumen → H Venus RA 140.7923 87×φ golden (7.80)
-    - [Moon] H Altair → H Venus Dec 9.0148 9 whole (6.80)
-    - [Moon] J Alphard → J Venus RA 160.9999 161 whole (99.39)
-    - [Moon] J Alphard → J Venus Dec 0.9859 1 whole (8.79)
-    - [Moon] J Facies → J Venus RA 61.8064 100×φ^-1 phi power (98.04)
-    - [Sun] H Deneb Algedi → H Venus Dec 34.0122 34 whole (15.35)
-    - [Sun] J Deneb Algedi → J Venus RA 14.1482 14.14 sqrt2 (83.68)
-  - Pluto: Jupiter, Moon — also: 1 Dedicated Hero / Sam Twiston-Davies
-    - [Jupiter] J Capella → J Pluto Dec 52.0156 52 whole (4.93)
-    - [Jupiter] J Galactic Centre → J Pluto Dec 22.9926 23 whole (39.72)
-    - [Moon] H Alphard → H Pluto RA 156.9249 97×φ golden (6.05)
-    - [Moon] H Altair → H Pluto RA 1.1218 conj (6.36)
-  - Mercury: Moon, Sun — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
-    - [Moon] H Alpheratz → H Mercury Dec 8.0108 8 whole (21.19)
-    - [Moon] H Menkar → H Mercury Dec 16.9879 17 whole (15.47)
-    - [Moon] H Scheat → H Mercury Dec 7.0045 7 whole (59.95)
-    - [Moon] J Alpheratz → J Mercury RA 29.0013 29 whole (87.13)
-    - [Moon] J Altair → J Mercury Dec 16.0182 16 whole (0.81)
-    - [Moon] J Facies → J Mercury RA 53.9944 54 whole (51.74)
-    - [Sun] H Alpheratz → H Mercury Dec 8.0108 8 whole (21.19)
-    - [Sun] J Alpheratz → J Mercury RA 29.0013 29 whole (87.13)
-  - Vesta: Moon, Sun — also: 1 Dedicated Hero / Sam Twiston-Davies, 7 King Ulanda / Jack Tudor
-    - [Moon] H Alpheratz → H Vesta Dec 11.3270 7×φ golden (95.64)
-    - [Sun] H Alpheratz → H Vesta Dec 11.3270 7×φ golden (95.64)
-  - Mars: Moon, Sun — also: 1 Dedicated Hero / Sam Twiston-Davies, 7 King Ulanda / Jack Tudor
-    - [Moon] H Altair → H Mars RA 158.0011 158 whole (89.46)
-    - [Moon] S Moon → J Mars RA 131.0526 81×φ golden (56.07)
-    - [Sun] S Sun → J Mars RA 98.9964 99 whole (67.40)
-    - [Sun] J Pollux → J Mars RA 156.0111 156 whole (19.64)
-  - Neptune: Jupiter, Moon, Sun — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
-    - [Jupiter] J Capella → J Neptune Dec 66.9908 67 whole (28.94)
-    - [Jupiter] J Galactic Centre → J Neptune Dec 8.0174 8 whole (1.68)
-    - [Moon] H Altair → H Neptune Dec 12.9876 13 whole (14.60)
-    - [Sun] H Deneb Algedi → H Neptune Dec 12.0097 12 whole (26.33)
-    - [Sun] J Pollux → J Neptune Dec 49.0157 49 whole (4.61)
-  - Rahu: Jupiter, Moon — also: 3 Manuelito / Harry Cobden
-    - [Jupiter] H Capella → H Rahu RA 9.9807 10 whole (0.11)
-    - [Moon] J Acumen → J Rahu Dec 15.0149 15 whole (6.48)
-    - [Moon] J Alphard → J Rahu Dec 11.1167 11.1111 ninth (90.83)
-  - Gonggong: Jupiter, Moon, Sun — only
-    - [Jupiter] H Capella → H Gonggong RA 101.9823 102 whole (1.29)
-    - [Moon] J Acumen → J Gonggong RA 62.0175 62 whole (1.54)
-    - [Sun] H Pollux → H Gonggong RA 139.1385 86×φ golden (37.93)
-  - Ketu: Jupiter, Moon, Sun — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
-    - [Jupiter] H Capella → H Ketu RA 170.0193 170 whole (0.11)
-    - [Moon] J Facies → J Ketu Dec 43.6823 27×φ golden (73.69)
-    - [Sun] H Meissa → H Ketu Dec 31.9910 32 whole (30.33)
-    - [Sun] H Zubenelgenubi → H Ketu Dec 6.0141 6 whole (8.63)
-    - [Sun] J Zubenelgenubi → J Ketu RA 166.6902 166.667 ninth (97.98)
-  - Quaoar: Moon, Sun — also: 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
-    - [Moon] H Hamal → H Quaoar RA 116.0116 116 whole (17.48)
-    - [Sun] H Deneb Algedi → H Quaoar RA 50.9833 51 whole (2.76)
-    - [Sun] H Meissa → H Quaoar RA 168.0031 168 whole (71.33)
-    - [Sun] S Sun → J Quaoar RA 18.9972 19 whole (73.68)
-    - [Sun] J Pollux → J Quaoar RA 123.9896 124 whole (23.10)
-  - Sun: Jupiter, Moon, Sun — only
-    - [Jupiter] H Galactic Centre → H Sun Dec 44.4431 44.4444 ninth (98.59)
-    - [Jupiter] J Galactic Centre → J Sun RA 66.3369 41×φ golden (85.36)
-    - [Jupiter] J Galactic Centre → J Sun Dec 17.7769 17.7778 ninth (99.28)
-    - [Moon] H Menkar → H Sun RA 5.9944 6 whole (51.58)
-    - [Moon] J Menkar → J Sun RA 72.8179 45×φ golden (64.30)
-    - [Sun] J Deneb Algedi → J Sun RA 5.9967 6 whole (69.44)
-    - [Sun] J Zubenelgenubi → J Sun RA 110.0295 68×φ golden (81.04)
-  - Orcus: Jupiter, Moon, Sun — also: 2 Bucephalus / Harriet Tucker
-    - [Jupiter] H Galactic Centre → H Orcus Dec 17.9436 φ^6 phi power (98.44)
-    - [Moon] S Orcus → J Orcus RA 29.1343 18×φ golden (loose)
-    - [Moon] S Orcus → J Orcus Dec 15.5295 15.5556 ninth (loose)
-    - [Moon] J Acumen → J Orcus RA 135.9119 84×φ golden (82.44)
-    - [Sun] H Meissa → H Orcus Dec 20.9971 21 whole (72.86)
-  - Ceres: Moon, Sun — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
-    - [Moon] H Menkar → H Ceres Dec 0.1405 conj (28.28)
-    - [Moon] S Moon → J Ceres Dec 17.9966 18 whole (68.68)
-    - [Moon] J Alpheratz → J Ceres Dec 20.0001 20 whole (99.14)
-    - [Moon] J Altair → J Ceres Dec 0.2250 conj (6.24)
-    - [Moon] J Facies → J Ceres Dec 32.9953 33 whole (58.22)
-    - [Moon] J Menkar → J Ceres Dec 5.0021 5 whole (80.27)
-    - [Moon] J Scheat → J Ceres Dec 18.9913 19 whole (31.69)
-    - [Sun] J Alpheratz → J Ceres Dec 20.0001 20 whole (99.14)
-  - Eris: Jupiter, Moon — also: 5 Lyssenko / Harry Skelton
-    - [Jupiter] J Galactic Centre → J Eris RA 115.9992 116 whole (91.83)
-    - [Moon] H Scheat → H Eris RA 40.4520 25×φ golden (93.00)
-    - [Moon] J Alphard → J Eris Dec 0.1947 conj (12.33)
-  - Transpluto: Jupiter, Moon — also: 5 Lyssenko / Harry Skelton
-    - [Jupiter] S Jupiter → J Transpluto Dec 0.1982 conj (11.50)
-    - [Jupiter] J Capella → J Transpluto RA 66.3344 41×φ golden (71.47)
-    - [Moon] H Scheat → H Transpluto RA 168.0081 168 whole (35.55)
-    - [Moon] J Acumen → J Transpluto RA 122.9499 φ^10 phi power (86.80)
+### L4 every natal body
+- **Mercury**
+  - same body: S Mercury → H Mercury RA 163.0018 163 whole (82.96) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+  - star rows: H Alpheratz → H Mercury Dec 8.0108 8 whole (21.19) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: H Menkar → H Mercury Dec 16.9879 17 whole (15.47) — also: 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: H Scheat → H Mercury Dec 7.0045 7 whole (59.95) — only
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+  - star rows: J Alpheratz → J Mercury RA 29.0013 29 whole (87.13) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: J Altair → J Mercury Dec 16.0182 16 whole (0.81) — also: 3 Manuelito / Harry Cobden
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: J Facies → J Mercury RA 53.9944 54 whole (51.74) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+- **Pluto**
+  - same body: S Pluto → H Pluto Dec 1.4365 1.44444 ninth (loose) — also: 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+  - star rows: H Alphard → H Pluto RA 156.9249 97×φ golden (6.05) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - star rows: H Altair → H Pluto RA 1.1218 conj (6.36) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - same body: S Pluto → J Pluto Dec 17.6686 17.7778 ninth (loose) — also: 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+  - star rows: J Capella → J Pluto Dec 52.0156 52 whole (4.93) — also: 1 Dedicated Hero / Sam Twiston-Davies, 7 King Ulanda / Jack Tudor
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: J Galactic Centre → J Pluto Dec 22.9926 23 whole (39.72) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+- **Pallas**
+  - same body: S Pallas → H Pallas RA 32.3495 20×φ golden (loose) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden
+  - top rows: S Sun → H Pallas Dec 22.2254 22.2222 ninth (95.66) — only
+  - star rows: H Menkar → H Pallas RA 62.9900 63 whole (25.11) — also: 2 Bucephalus / Harriet Tucker
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: J Menkar → J Pallas RA 54.9908 55 whole (29.00) — also: 2 Bucephalus / Harriet Tucker
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: J Zubenelgenubi → J Pallas RA 127.8567 79×φ golden (0.01) — only
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+- **Eris**
+  - same body: S Eris → H Eris Dec 1.1128 1.11111 ninth (loose) — only
+  - star rows: H Scheat → H Eris RA 40.4520 25×φ golden (93.00) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+  - star rows: J Alphard → J Eris Dec 0.1947 conj (12.33) — also: 1 Dedicated Hero / Sam Twiston-Davies
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - star rows: J Galactic Centre → J Eris RA 115.9992 116 whole (91.83) — also: 5 Lyssenko / Harry Skelton
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+- **Makemake**
+  - same body: S Makemake → H Makemake RA 4.9988 5 whole (87.93) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Makemake RA 12.9972 13 whole (73.81)
+  - top rows: S Moon → H Makemake RA 7.9984 8 whole (84.90) — only
+  - star rows: H Acumen → H Makemake RA 71.1972 44×φ golden (78.46) — also: 2 Bucephalus / Harriet Tucker
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - star rows: H Alpheratz → H Makemake Dec 5.5557 5.55556 ninth (99.03) — also: 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: H Capella → H Makemake RA 118.1032 73×φ golden (34.90) — also: 7 King Ulanda / Jack Tudor
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: H Hamal → H Makemake Dec 0.0710 conj (58.24) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - star rows: J Hamal → J Makemake RA 142.0125 142 whole (14.22) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - star rows: J Meissa → J Makemake RA 90.0160 90 whole (3.92) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+- **Haumea**
+  - T1: H Jupiter → H Haumea RA 115.0010 115 whole (90.66) — only
+  - star rows: H Altair → H Haumea RA 82.0002 82 whole (97.95) — also: 1 Dedicated Hero / Sam Twiston-Davies, 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+- **Jupiter**
+  - T1: H Jupiter → H star Altair RA 33.0008 33 whole (92.63) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - T1: H Jupiter → H star Pollux RA 145.6216 90×φ golden (91.09) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - top rows: S Moon → H Jupiter RA 141.4298 141.4 sqrt2 (97.62) — also: 7 King Ulanda / Jack Tudor
+  - top rows: S Rahu → H Jupiter Dec 0.0509 conj (68.96) — also: 5 Lyssenko / Harry Skelton
+  - top rows: S Transpluto → H Jupiter RA 173.9942 174 whole (50.14) — only
+  - star rows: H Acumen → H Jupiter Dec 22.0122 22 whole (15.37) — also: 1 Dedicated Hero / Sam Twiston-Davies, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - star rows: H Altair → H Jupiter RA 33.0008 33 whole (92.63) — also: 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: S Pollux → H Jupiter RA 145.6245 90×φ golden (91.17) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - star rows: S Zubenelgenubi → H Jupiter RA 107.9881 108 whole (16.33) — also: 2 Bucephalus / Harriet Tucker
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+  - same body + top rows: S Jupiter → J Jupiter Dec 28.9951 29 whole (57.13) — also: 5 Lyssenko / Harry Skelton
+  - T2: J Jupiter → J star Capella Dec 61.0027 61 whole (74.59) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - T2: J Jupiter → J star Galactic Centre Dec 14.0054 14 whole (53.02) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - T2: J Jupiter → J star Zubenelgenubi RA 0.1898 conj (76.30) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - top rows: S Sun → J Jupiter RA 1.2038 conj (3.90) — also: 3 Manuelito / Harry Cobden
+  - top rows: S Quaoar → J Jupiter Dec 0.1516 conj (24.47) — only
+  - star rows: J Capella → J Jupiter Dec 61.0027 61 whole (74.59) — also: 3 Manuelito / Harry Cobden
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: J Galactic Centre → J Jupiter Dec 14.0054 14 whole (53.02) — also: 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: S Zubenelgenubi → J Jupiter RA 0.1817 conj (77.24) — also: 2 Bucephalus / Harriet Tucker
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+- **Chiron**
+  - top rows: S Moon → H Chiron RA 179.4551 10×φ^6 phi power (97.27) — also: 2 Bucephalus / Harriet Tucker
+  - star rows: H Zubenelgenubi → H Chiron RA 146.0020 146 whole (80.66) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+- **Sedna**
+  - top rows: S Moon → H Sedna RA 131.0010 131 whole (90.29) — also: 5 Lyssenko / Harry Skelton
+  - star rows: H Acumen → H Sedna Dec 42.9932 43 whole (43.67) — only
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - star rows: H Facies → H Sedna RA 139.1674 86×φ golden (24.03) — also: 2 Bucephalus / Harriet Tucker
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+- **Venus**
+  - star rows: H Acumen → H Venus RA 140.7923 87×φ golden (7.80) — also: 1 Dedicated Hero / Sam Twiston-Davies
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - star rows: H Altair → H Venus Dec 9.0148 9 whole (6.80) — also: 3 Manuelito / Harry Cobden
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: H Deneb Algedi → H Venus Dec 34.0122 34 whole (15.35) — also: 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - star rows: J Alphard → J Venus RA 160.9999 161 whole (99.39) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - star rows: J Alphard → J Venus Dec 0.9859 1 whole (8.79) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - star rows: J Deneb Algedi → J Venus RA 14.1482 14.14 sqrt2 (83.68) — also: 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - star rows: J Facies → J Venus RA 61.8064 100×φ^-1 phi power (98.04) — also: 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+- **Juno**
+  - star rows: H Alphard → H Juno RA 121.0151 121 whole (5.98) — also: 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - star rows: J Acumen → J Juno Dec 28.9849 29 whole (5.96) — also: 2 Bucephalus / Harriet Tucker, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+- **Vesta**
+  - star rows: H Alpheratz → H Vesta Dec 11.3270 7×φ golden (95.64) — also: 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+- **Mars**
+  - star rows: H Altair → H Mars RA 158.0011 158 whole (89.46) — only
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - same body: S Mars → J Mars RA 176.3650 109×φ golden (95.88) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+  - top rows: S Sun → J Mars RA 98.9964 99 whole (67.40) — also: 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+  - top rows: S Moon → J Mars RA 131.0526 81×φ golden (56.07) — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen
+  - star rows: J Pollux → J Mars RA 156.0111 156 whole (19.64) — also: 4 All In You / Sean Bowen
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+- **Neptune**
+  - star rows: H Altair → H Neptune Dec 12.9876 13 whole (14.60) — only
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: H Deneb Algedi → H Neptune Dec 12.0097 12 whole (26.33) — also: 2 Bucephalus / Harriet Tucker
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - same body: S Neptune → J Neptune RA 68.0161 68 whole (3.84) — only
+  - star rows: J Capella → J Neptune Dec 66.9908 67 whole (28.94) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: J Galactic Centre → J Neptune Dec 8.0174 8 whole (1.68) — also: 1 Dedicated Hero / Sam Twiston-Davies
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: J Pollux → J Neptune Dec 49.0157 49 whole (4.61) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+- **Rahu**
+  - star rows: H Capella → H Rahu RA 9.9807 10 whole (0.11) — also: 5 Lyssenko / Harry Skelton
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: J Acumen → J Rahu Dec 15.0149 15 whole (6.48) — also: 3 Manuelito / Harry Cobden
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - star rows: J Alphard → J Rahu Dec 11.1167 11.1111 ninth (90.83) — only
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+- **Gonggong**
+  - star rows: H Capella → H Gonggong RA 101.9823 102 whole (1.29) — also: 4 All In You / Sean Bowen
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: H Pollux → H Gonggong RA 139.1385 86×φ golden (37.93) — only
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - star rows: J Acumen → J Gonggong RA 62.0175 62 whole (1.54) — only
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+- **Ketu**
+  - star rows: H Capella → H Ketu RA 170.0193 170 whole (0.11) — also: 5 Lyssenko / Harry Skelton
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: H Meissa → H Ketu Dec 31.9910 32 whole (30.33) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+  - star rows: H Zubenelgenubi → H Ketu Dec 6.0141 6 whole (8.63) — also: 4 All In You / Sean Bowen
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+  - star rows: J Facies → J Ketu Dec 43.6823 27×φ golden (73.69) — also: 3 Manuelito / Harry Cobden, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - star rows: J Zubenelgenubi → J Ketu RA 166.6902 166.667 ninth (97.98) — also: 4 All In You / Sean Bowen
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+- **Quaoar**
+  - star rows: H Deneb Algedi → H Quaoar RA 50.9833 51 whole (2.76) — also: 5 Lyssenko / Harry Skelton
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - star rows: H Hamal → H Quaoar RA 116.0116 116 whole (17.48) — only
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - star rows: H Meissa → H Quaoar RA 168.0031 168 whole (71.33) — only
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+  - top rows: S Sun → J Quaoar RA 18.9972 19 whole (73.68) — only
+  - star rows: J Pollux → J Quaoar RA 123.9896 124 whole (23.10) — only
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+- **Sun**
+  - star rows: H Galactic Centre → H Sun Dec 44.4431 44.4444 ninth (98.59) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: H Menkar → H Sun RA 5.9944 6 whole (51.58) — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - same body: S Sun → J Sun RA 111.4231 111.111 ninth (loose) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - star rows: J Deneb Algedi → J Sun RA 5.9967 6 whole (69.44) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - star rows: J Galactic Centre → J Sun RA 66.3369 41×φ golden (85.36) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: J Galactic Centre → J Sun Dec 17.7769 17.7778 ninth (99.28) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: J Menkar → J Sun RA 72.8179 45×φ golden (64.30) — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: J Zubenelgenubi → J Sun RA 110.0295 68×φ golden (81.04) — only
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+- **Orcus**
+  - star rows: H Galactic Centre → H Orcus Dec 17.9436 φ^6 phi power (98.44) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: H Meissa → H Orcus Dec 20.9971 21 whole (72.86) — also: 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+  - same body: S Orcus → J Orcus RA 29.1343 18×φ golden (loose) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Orcus Dec 5.0060 5 whole (49.11)
+  - same body: S Orcus → J Orcus Dec 15.5295 15.5556 ninth (loose) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Orcus Dec 5.0060 5 whole (49.11)
+  - star rows: J Acumen → J Orcus RA 135.9119 84×φ golden (82.44) — also: 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+- **Ceres**
+  - star rows: H Menkar → H Ceres Dec 0.1405 conj (28.28) — also: 4 All In You / Sean Bowen
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - top rows: S Moon → J Ceres Dec 17.9966 18 whole (68.68) — also: 7 King Ulanda / Jack Tudor
+  - star rows: J Alpheratz → J Ceres Dec 20.0001 20 whole (99.14) — also: 7 King Ulanda / Jack Tudor
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: J Altair → J Ceres Dec 0.2250 conj (6.24) — also: 1 Dedicated Hero / Sam Twiston-Davies
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: J Facies → J Ceres Dec 32.9953 33 whole (58.22) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - star rows: J Menkar → J Ceres Dec 5.0021 5 whole (80.27) — also: 4 All In You / Sean Bowen
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: J Scheat → J Ceres Dec 18.9913 19 whole (31.69) — also: 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+- **Transpluto**
+  - star rows: H Scheat → H Transpluto RA 168.0081 168 whole (35.55) — also: 3 Manuelito / Harry Cobden, 7 King Ulanda / Jack Tudor
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+  - top rows: S Jupiter → J Transpluto Dec 0.1982 conj (11.50) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 7 King Ulanda / Jack Tudor
+  - star rows: J Acumen → J Transpluto RA 122.9499 φ^10 phi power (86.80) — also: 1 Dedicated Hero / Sam Twiston-Davies
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - star rows: J Capella → J Transpluto RA 66.3344 41×φ golden (71.47) — also: 7 King Ulanda / Jack Tudor
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+- **Uranus**
+  - star rows: J Altair → J Uranus RA 1.2108 conj (3.72) — also: 3 Manuelito / Harry Cobden
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: J Facies → J Uranus Dec 2.2227 2.22222 ninth (93.17) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
 
 ## 7 King Ulanda / Jack Tudor
 ### L1 same bodies
@@ -2017,82 +3532,157 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
 - S Gonggong → J Gonggong Dec 6.0163 6 whole (3.48)
 ### L2 what lands on each same body
 - **H Mars** (same body: S Mars → H Mars RA 179.2843 10×φ^6 phi power (loose); S Mars → H Mars Dec 32.3401 20×φ golden (loose))
-  - top rows: S Sun → H Mars Dec 0.2413 conj (3.83) [Sun]
-  - star rows: H Alpheratz → H Mars Dec 45.3040 28×φ golden (94.21) [Moon, Sun]
-  - star rows: H Deneb Algedi → H Mars Dec 0.0884 conj (49.73) [Sun]
-  - star rows: H Hamal → H Mars RA 68.5454 10×φ^4 phi power (97.47) [Moon]
-  - star rows: H Zubenelgenubi → H Mars Dec 0.1739 conj (17.68) [Sun]
-  - other chart, star rows: J Hamal → J Mars Dec 0.2507 conj (2.70) [Moon]
+  - top rows: S Sun → H Mars Dec 0.2413 conj (3.83)
+  - star rows: H Alpheratz → H Mars Dec 45.3040 28×φ golden (94.21)
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: H Deneb Algedi → H Mars Dec 0.0884 conj (49.73)
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - star rows: H Hamal → H Mars RA 68.5454 10×φ^4 phi power (97.47)
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - star rows: H Zubenelgenubi → H Mars Dec 0.1739 conj (17.68)
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+  - other chart, star rows: J Hamal → J Mars Dec 0.2507 conj (2.70)
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
 - **H Chiron** (same body: S Chiron → H Chiron RA 20.0252 20 whole (loose))
-  - star rows: H Galactic Centre → H Chiron RA 98.9857 99 whole (8.01) [Jupiter]
-  - star rows: H Pollux → H Chiron RA 110.9167 10×φ^5 phi power (94.67) [Sun]
-  - other chart, star rows: J Alpheratz → J Chiron RA 83.0075 83 whole (39.15) [Moon, Sun]
-  - other chart, star rows: J Facies → J Chiron RA 0.0182 conj (97.59) [Moon]
+  - star rows: H Galactic Centre → H Chiron RA 98.9857 99 whole (8.01)
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: H Pollux → H Chiron RA 110.9167 10×φ^5 phi power (94.67)
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - other chart, star rows: J Alpheratz → J Chiron RA 83.0075 83 whole (39.15)
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - other chart, star rows: J Facies → J Chiron RA 0.0182 conj (97.59)
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
 - **H Rahu** (same body: S Rahu → H Rahu RA 121.3821 75×φ golden (0.75))
-  - star rows: H Altair → H Rahu Dec 14.5687 9×φ golden (64.58) [Moon]
-  - star rows: H Hamal → H Rahu Dec 0.0230 conj (85.26) [Moon]
-  - other chart, star rows: J Alpheratz → J Rahu RA 74.9894 75 whole (21.96) [Moon, Sun]
-  - other chart, star rows: J Zubenelgenubi → J Rahu RA 145.6428 90×φ golden (15.16) [Sun]
+  - star rows: H Altair → H Rahu Dec 14.5687 9×φ golden (64.58)
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: H Hamal → H Rahu Dec 0.0230 conj (85.26)
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - other chart, star rows: J Alpheratz → J Rahu RA 74.9894 75 whole (21.96)
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - other chart, star rows: J Zubenelgenubi → J Rahu RA 145.6428 90×φ golden (15.16)
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
 - **H Makemake** (same body: S Makemake → H Makemake Dec 4.4353 4.44444 ninth (loose))
-  - body line: S Moon → Makemake RA 12.9972 13 whole (73.81)
-  - star rows: H Capella → H Makemake Dec 21.9873 22 whole (13.32) [Jupiter]
-  - star rows: H Galactic Centre → H Makemake Dec 53.0170 53 whole (2.30) [Jupiter]
-  - star rows: H Pollux → H Makemake Dec 4.0174 4 whole (1.70) [Sun]
-  - other chart, star rows: J Meissa → J Makemake Dec 22.0149 22 whole (6.62) [Sun]
-  - other chart, star rows: J Zubenelgenubi → J Makemake Dec 47.9915 48 whole (33.03) [Sun]
+  - sky line to Makemake: S Moon → Makemake RA 12.9972 13 whole (73.81)
+  - star rows: H Capella → H Makemake Dec 21.9873 22 whole (13.32)
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: H Galactic Centre → H Makemake Dec 53.0170 53 whole (2.30)
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: H Pollux → H Makemake Dec 4.0174 4 whole (1.70)
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - other chart, star rows: J Meissa → J Makemake Dec 22.0149 22 whole (6.62)
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+  - other chart, star rows: J Zubenelgenubi → J Makemake Dec 47.9915 48 whole (33.03)
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
 - **H Quaoar** (same body: S Quaoar → H Quaoar RA 6.4712 4×φ golden (loose))
-  - other chart, star rows: J Alpheratz → J Quaoar RA 112.0055 112 whole (52.48) [Moon, Sun]
-  - other chart, star rows: J Facies → J Quaoar RA 29.0162 29 whole (3.57) [Moon]
+  - other chart, star rows: J Alpheratz → J Quaoar RA 112.0055 112 whole (52.48)
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - other chart, star rows: J Facies → J Quaoar RA 29.0162 29 whole (3.57)
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
 - **H Ketu** (same body: S Ketu → H Ketu RA 121.3821 75×φ golden (0.75))
-  - body line: S Jupiter → Ketu RA 1.4679 conj (0.05)
-  - other chart, T2: J Jupiter → J Ketu Dec 45.9965 46 whole (68.34) [Jupiter]
-  - other chart, top rows: S Moon → J Ketu Dec 14.0014 14 whole (86.22) [Moon]
-  - other chart, star rows: J Alpheratz → J Ketu RA 105.0106 105 whole (21.96) [Moon, Sun]
-  - other chart, star rows: J Alpheratz → J Ketu Dec 51.9947 52 whole (54.15) [Moon, Sun]
-  - other chart, star rows: J Facies → J Ketu Dec 0.9968 1 whole (70.74) [Moon]
-  - other chart, star rows: J Menkar → J Ketu Dec 26.9958 27 whole (62.48) [Moon]
-  - other chart, star rows: J Pollux → J Ketu RA 140.7563 87×φ golden (37.15) [Sun]
-  - other chart, star rows: J Scheat → J Ketu Dec 50.9869 51 whole (11.99) [Moon]
+  - sky line to Ketu: S Jupiter → Ketu RA 1.4679 conj (0.05)
+  - other chart, T2: J Jupiter → J Ketu Dec 45.9965 46 whole (68.34)
+  - other chart, top rows: S Moon → J Ketu Dec 14.0014 14 whole (86.22)
+  - other chart, star rows: J Alpheratz → J Ketu RA 105.0106 105 whole (21.96)
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - other chart, star rows: J Alpheratz → J Ketu Dec 51.9947 52 whole (54.15)
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - other chart, star rows: J Facies → J Ketu Dec 0.9968 1 whole (70.74)
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - other chart, star rows: J Menkar → J Ketu Dec 26.9958 27 whole (62.48)
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - other chart, star rows: J Pollux → J Ketu RA 140.7563 87×φ golden (37.15)
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - other chart, star rows: J Scheat → J Ketu Dec 50.9869 51 whole (11.99)
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
 - **J Sun** (same body: S Sun → J Sun Dec 33.3506 33.3333 ninth (loose))
-  - star rows: J Menkar → J Sun RA 0.6359 conj (33.19) [Moon]
-  - other chart, star rows: H Scheat → H Sun RA 51.0150 51 whole (6.35) [Moon]
+  - star rows: J Menkar → J Sun RA 0.6359 conj (33.19)
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - other chart, star rows: H Scheat → H Sun RA 51.0150 51 whole (6.35)
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
 - **J Pluto** (same body: S Pluto → J Pluto Dec 10.9769 11 whole (loose))
-  - other chart, star rows: H Altair → H Pluto RA 0.8992 conj (16.04) [Moon]
-  - other chart, star rows: H Capella → H Pluto RA 142.3659 88×φ golden (12.16) [Jupiter]
-  - other chart, star rows: H Hamal → H Pluto RA 94.9878 95 whole (15.23) [Moon]
-  - other chart, star rows: H Zubenelgenubi → H Pluto Dec 5.9845 6 whole (4.98) [Sun]
+  - other chart, star rows: H Altair → H Pluto RA 0.8992 conj (16.04)
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - other chart, star rows: H Capella → H Pluto RA 142.3659 88×φ golden (12.16)
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - other chart, star rows: H Hamal → H Pluto RA 94.9878 95 whole (15.23)
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - other chart, star rows: H Zubenelgenubi → H Pluto Dec 5.9845 6 whole (4.98)
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
 - **J Juno** (same body: S Juno → J Juno RA 161.7187 100×φ^1 phi power (loose))
-  - top rows: S Moon → J Juno RA 46.9736 φ^8 phi power (95.69) [Moon]
-  - star rows: J Alphard → J Juno RA 0.4009 conj (53.69) [Moon]
-  - star rows: J Alpheratz → J Juno Dec 16.1826 10×φ^1 phi power (94.44) [Moon, Sun]
-  - star rows: J Deneb Algedi → J Juno Dec 29.0319 φ^7 phi power (96.48) [Sun]
-  - other chart, top rows: S Moon → H Juno RA 1.2103 conj (3.73) [Moon]
-  - other chart, star rows: H Acumen → H Juno RA 77.9851 78 whole (6.41) [Moon]
-  - other chart, star rows: H Altair → H Juno Dec 4.0065 4 whole (45.68) [Moon]
-  - other chart, star rows: H Deneb Algedi → H Juno Dec 20.9907 21 whole (28.72) [Sun]
+  - top rows: S Moon → J Juno RA 46.9736 φ^8 phi power (95.69)
+  - star rows: J Alphard → J Juno RA 0.4009 conj (53.69)
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - star rows: J Alpheratz → J Juno Dec 16.1826 10×φ^1 phi power (94.44)
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: J Deneb Algedi → J Juno Dec 29.0319 φ^7 phi power (96.48)
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - other chart, top rows: S Moon → H Juno RA 1.2103 conj (3.73)
+  - other chart, star rows: H Acumen → H Juno RA 77.9851 78 whole (6.41)
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - other chart, star rows: H Altair → H Juno Dec 4.0065 4 whole (45.68)
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - other chart, star rows: H Deneb Algedi → H Juno Dec 20.9907 21 whole (28.72)
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
 - **J Sedna** (same body: S Sedna → J Sedna RA 14.0847 14.14 sqrt2 (loose))
-  - star rows: J Zubenelgenubi → J Sedna RA 174.7387 108×φ golden (52.19) [Sun]
-  - other chart, star rows: H Alpheratz → H Sedna Dec 21.0301 13×φ golden (75.10) [Moon, Sun]
-  - other chart, star rows: H Zubenelgenubi → H Sedna RA 165.0699 102×φ golden (0.37) [Sun]
+  - star rows: J Zubenelgenubi → J Sedna RA 174.7387 108×φ golden (52.19)
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+  - other chart, star rows: H Alpheratz → H Sedna Dec 21.0301 13×φ golden (75.10)
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - other chart, star rows: H Zubenelgenubi → H Sedna RA 165.0699 102×φ golden (0.37)
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
 - **J Haumea** (same body: S Haumea → J Haumea RA 22.6517 14×φ golden (95.08))
-  - body line: S Sun → Haumea RA 0.5930 conj (36.56)
-  - star rows: J Alpheratz → J Haumea RA 164.0099 164 whole (25.60) [Moon, Sun]
-  - other chart, star rows: H Alpheratz → H Haumea RA 147.2643 91×φ golden (8.08) [Moon, Sun]
-  - other chart, star rows: H Meissa → H Haumea RA 131.0483 81×φ golden (37.82) [Sun]
+  - sky line to Haumea: S Sun → Haumea RA 0.5930 conj (36.56)
+  - star rows: J Alpheratz → J Haumea RA 164.0099 164 whole (25.60)
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - other chart, star rows: H Alpheratz → H Haumea RA 147.2643 91×φ golden (8.08)
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - other chart, star rows: H Meissa → H Haumea RA 131.0483 81×φ golden (37.82)
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
 - **J Orcus** (same body: S Orcus → J Orcus Dec 11.9920 12 whole (36.21))
-  - body line: S Moon → Orcus Dec 5.0060 5 whole (49.11)
-  - star rows: J Alpheratz → J Orcus Dec 31.0072 31 whole (40.72) [Moon, Sun]
-  - star rows: J Facies → J Orcus Dec 21.9843 22 whole (4.62) [Moon]
-  - star rows: J Hamal → J Orcus RA 107.0002 107 whole (97.70) [Moon]
-  - star rows: J Meissa → J Orcus RA 55.0082 55 whole (34.65) [Sun]
-  - star rows: J Menkar → J Orcus Dec 6.0083 6 whole (34.05) [Moon]
-  - star rows: J Scheat → J Orcus Dec 29.9994 30 whole (94.54) [Moon]
-  - other chart, star rows: H Hamal → H Orcus RA 122.2241 122.222 ninth (99.74) [Moon]
+  - sky line to Orcus: S Moon → Orcus Dec 5.0060 5 whole (49.11)
+  - star rows: J Alpheratz → J Orcus Dec 31.0072 31 whole (40.72)
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: J Facies → J Orcus Dec 21.9843 22 whole (4.62)
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - star rows: J Hamal → J Orcus RA 107.0002 107 whole (97.70)
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - star rows: J Meissa → J Orcus RA 55.0082 55 whole (34.65)
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+  - star rows: J Menkar → J Orcus Dec 6.0083 6 whole (34.05)
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: J Scheat → J Orcus Dec 29.9994 30 whole (94.54)
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+  - other chart, star rows: H Hamal → H Orcus RA 122.2241 122.222 ninth (99.74)
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
 - **J Gonggong** (same body: S Gonggong → J Gonggong Dec 6.0163 6 whole (3.48))
-  - star rows: J Deneb Algedi → J Gonggong Dec 0.2016 conj (10.75) [Sun]
-  - star rows: J Zubenelgenubi → J Gonggong Dec 0.2856 conj (0.23) [Sun]
-  - other chart, star rows: H Hamal → H Gonggong Dec 34.9867 35 whole (11.23) [Moon]
-### L3 the seven cases (L5 field tag on each)
+  - star rows: J Deneb Algedi → J Gonggong Dec 0.2016 conj (10.75)
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - star rows: J Zubenelgenubi → J Gonggong Dec 0.2856 conj (0.23)
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+  - other chart, star rows: H Hamal → H Gonggong Dec 34.9867 35 whole (11.23)
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+### L3 matches
 - **1. same body on both charts**: none
 - **2. one body in both planes**
   - H Mars — also: 1 Dedicated Hero / Sam Twiston-Davies
@@ -2120,29 +3710,47 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
   - 5 whole — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
     - S Scheat → J Jupiter Dec 4.9986 5 whole (86.67) = S Moon → Orcus Dec 5.0060 5 whole (49.11)
 - **4. circle divisions**
-  - 20 = 360/18 — also: 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+  - 20 = 360/18 — also: 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
     - S Chiron → H Chiron RA 20.0252 20 whole (loose)
-  - 8 = 360/45 — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol
+  - 8 = 360/45 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol
     - H Alpheratz → H Vesta Dec 8.0004 8 whole (95.81)
-  - 4 = 360/90 — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen
+  - 4 = 360/90 — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+    - H Altair → H Juno Dec 4.0065 4 whole (45.68)
+  - 4 = 360/90 — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
     - H Facies → H Saturn Dec 3.9961 4 whole (64.65)
+  - 45 = 360/8 — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen
+    - H Facies → H Vesta Dec 44.9905 45 whole (27.38)
+  - 10 = 360/36 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+    - H Meissa → H Vesta RA 10.0117 10 whole (17.27)
   - 24 = 360/15 — also: 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
     - H Menkar → H Saturn Dec 23.9960 24 whole (64.29)
-  - 12 = 360/30 — also: 5 Lyssenko / Harry Skelton
+  - 4 = 360/90 — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+    - H Pollux → H Makemake Dec 4.0174 4 whole (1.70)
+  - 6 = 360/60 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+    - H Zubenelgenubi → H Pluto Dec 5.9845 6 whole (4.98)
+  - 12 = 360/30 — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
     - S Orcus → J Orcus Dec 11.9920 12 whole (36.21)
-  - 6 = 360/60 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+  - 6 = 360/60 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
     - S Gonggong → J Gonggong Dec 6.0163 6 whole (3.48)
-  - 6 = 360/60 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+  - 6 = 360/60 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
     - J Jupiter → J star Alpheratz Dec 5.9982 6 whole (82.66)
-  - 4 = 360/90 — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen
+  - 4 = 360/90 — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
     - J Alphard → J Uranus Dec 3.9956 4 whole (60.49)
-  - 6 = 360/60 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+  - 6 = 360/60 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
     - J Alpheratz → J Jupiter Dec 5.9982 6 whole (82.66)
-  - 1 = 360/360 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+  - 40 = 360/9 — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+    - J Deneb Algedi → J Venus Dec 40.0163 40 whole (3.43)
+  - 1 = 360/360 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
     - J Facies → J Ketu Dec 0.9968 1 whole (70.74)
+  - 6 = 360/60 — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+    - J Menkar → J Orcus Dec 6.0083 6 whole (34.05)
+  - 4 = 360/90 — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+    - J Pollux → J Mercury Dec 4.0191 4 whole (0.20)
+  - 15 = 360/24 — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+    - J Pollux → J Transpluto Dec 15.0124 15 whole (14.38)
   - 5 = 360/72 — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
     - S Scheat → J Jupiter Dec 4.9986 5 whole (86.67)
-  - 30 = 360/12 — also: 1 Dedicated Hero / Sam Twiston-Davies, 5 Lyssenko / Harry Skelton
+  - 30 = 360/12 — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
     - J Scheat → J Orcus Dec 29.9994 30 whole (94.54)
 - **5. same number in more than one place**
   - 75×φ golden — only
@@ -2155,177 +3763,344 @@ Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_la
     - S Moon → H Neptune RA 161.8541 100×φ^1 phi power (87.86)
     - S Juno → J Juno RA 161.7187 100×φ^1 phi power (loose)
     - J Scheat → J Transpluto RA 161.8406 100×φ^1 phi power (91.02)
+  - 49 whole — only
+    - H Alpheratz → H Saturn Dec 48.9948 49 whole (54.83)
+    - H Pollux → H Jupiter Dec 48.9841 49 whole (4.21)
   - 4 whole — only
+    - H Altair → H Juno Dec 4.0065 4 whole (45.68)
     - H Facies → H Saturn Dec 3.9961 4 whole (64.65)
+    - H Pollux → H Makemake Dec 4.0174 4 whole (1.70)
     - J Alphard → J Uranus Dec 3.9956 4 whole (60.49)
-  - 6 whole — also: 6 Star Of Guiting / Craig Nichol
+    - J Pollux → J Mercury Dec 4.0191 4 whole (0.20)
+  - 22 whole — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden
+    - H Capella → H Makemake Dec 21.9873 22 whole (13.32)
+    - J Alpheratz → J Eris RA 22.0079 22 whole (36.37)
+    - J Capella → J Mercury Dec 21.9905 22 whole (27.37)
+    - J Facies → J Orcus Dec 21.9843 22 whole (4.62)
+    - J Meissa → J Makemake Dec 22.0149 22 whole (6.62)
+  - 107 whole — only
+    - H Deneb Algedi → H Vesta RA 107.0086 107 whole (32.51)
+    - J Hamal → J Orcus RA 107.0002 107 whole (97.70)
+  - 53 whole — only
+    - H Galactic Centre → H Makemake Dec 53.0170 53 whole (2.30)
+    - J Galactic Centre → J Mercury Dec 53.0157 53 whole (4.70)
+  - 51 whole — only
+    - H Scheat → H Sun RA 51.0150 51 whole (6.35)
+    - J Scheat → J Ketu Dec 50.9869 51 whole (11.99)
+  - 48 whole — also: 3 Manuelito / Harry Cobden
+    - H Scheat → H Saturn Dec 47.9884 48 whole (17.72)
+    - J Zubenelgenubi → J Makemake Dec 47.9915 48 whole (33.03)
+  - 6 whole — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+    - H Zubenelgenubi → H Pluto Dec 5.9845 6 whole (4.98)
     - S Gonggong → J Gonggong Dec 6.0163 6 whole (3.48)
     - J Jupiter → J star Alpheratz Dec 5.9982 6 whole (82.66)
     - J Alpheratz → J Jupiter Dec 5.9982 6 whole (82.66)
-  - 19 whole — only
+    - J Menkar → J Orcus Dec 6.0083 6 whole (34.05)
+  - 102×φ golden — only
+    - H Zubenelgenubi → H Sedna RA 165.0699 102×φ golden (0.37)
+    - S Acumen → J Jupiter RA 165.0531 102×φ golden (33.46)
+  - 19 whole — also: 6 Star Of Guiting / Craig Nichol
     - J Jupiter → J star Menkar Dec 19.0007 19 whole (92.89)
     - J Menkar → J Jupiter Dec 19.0007 19 whole (92.89)
-- **6. star and sky line on one body**
-  - J Juno on Alphard — only
-    - J Alphard → J Juno RA 0.4009 conj (53.69)
-    - S Moon → J Juno RA 46.9736 φ^8 phi power (95.69)
-  - J Ceres on Alpheratz — only
-    - J Alpheratz → J Ceres RA 0.0891 conj (88.47)
-    - S Moon → J Ceres Dec 0.0764 conj (55.54)
-- **7. centres meeting**
-  - Makemake: Jupiter, Moon, Sun — also: 6 Star Of Guiting / Craig Nichol
-    - [Jupiter] H Capella → H Makemake Dec 21.9873 22 whole (13.32)
-    - [Jupiter] H Galactic Centre → H Makemake Dec 53.0170 53 whole (2.30)
-    - [Moon] S Makemake → H Makemake Dec 4.4353 4.44444 ninth (loose)
-    - [Sun] H Pollux → H Makemake Dec 4.0174 4 whole (1.70)
-    - [Sun] J Meissa → J Makemake Dec 22.0149 22 whole (6.62)
-    - [Sun] J Zubenelgenubi → J Makemake Dec 47.9915 48 whole (33.03)
-  - Ketu: Jupiter, Moon, Sun — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
-    - [Jupiter] S Ketu → H Ketu RA 121.3821 75×φ golden (0.75)
-    - [Jupiter] J Jupiter → J Ketu Dec 45.9965 46 whole (68.34)
-    - [Moon] S Moon → J Ketu Dec 14.0014 14 whole (86.22)
-    - [Moon] J Alpheratz → J Ketu RA 105.0106 105 whole (21.96)
-    - [Moon] J Alpheratz → J Ketu Dec 51.9947 52 whole (54.15)
-    - [Moon] J Facies → J Ketu Dec 0.9968 1 whole (70.74)
-    - [Moon] J Menkar → J Ketu Dec 26.9958 27 whole (62.48)
-    - [Moon] J Scheat → J Ketu Dec 50.9869 51 whole (11.99)
-    - [Sun] J Alpheratz → J Ketu RA 105.0106 105 whole (21.96)
-    - [Sun] J Alpheratz → J Ketu Dec 51.9947 52 whole (54.15)
-    - [Sun] J Pollux → J Ketu RA 140.7563 87×φ golden (37.15)
-  - Neptune: Jupiter, Moon, Sun — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
-    - [Jupiter] S Jupiter → H Neptune RA 155.9989 156 whole (89.21)
-    - [Moon] S Moon → H Neptune RA 161.8541 100×φ^1 phi power (87.86)
-    - [Sun] H Zubenelgenubi → H Neptune Dec 11.0918 φ^5 phi power (94.16)
-  - Mars: Moon, Sun — also: 1 Dedicated Hero / Sam Twiston-Davies, 6 Star Of Guiting / Craig Nichol
-    - [Moon] H Alpheratz → H Mars Dec 45.3040 28×φ golden (94.21)
-    - [Moon] H Hamal → H Mars RA 68.5454 10×φ^4 phi power (97.47)
-    - [Moon] J Hamal → J Mars Dec 0.2507 conj (2.70)
-    - [Sun] S Sun → H Mars Dec 0.2413 conj (3.83)
-    - [Sun] H Alpheratz → H Mars Dec 45.3040 28×φ golden (94.21)
-    - [Sun] H Deneb Algedi → H Mars Dec 0.0884 conj (49.73)
-    - [Sun] H Zubenelgenubi → H Mars Dec 0.1739 conj (17.68)
-  - Ceres: Moon, Sun — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
-    - [Moon] S Moon → J Ceres Dec 0.0764 conj (55.54)
-    - [Moon] J Alphard → J Ceres Dec 0.1689 conj (19.09)
-    - [Moon] J Alpheratz → J Ceres RA 0.0891 conj (88.47)
-    - [Sun] S Sun → H Ceres RA 114.9949 115 whole (55.27)
-    - [Sun] H Pollux → H Ceres RA 140.0008 140 whole (92.04)
-    - [Sun] J Alpheratz → J Ceres RA 0.0891 conj (88.47)
-  - Mercury: Jupiter, Moon, Sun — also: 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton
-    - [Jupiter] J Capella → J Mercury RA 13.0089 13 whole (30.57)
-    - [Jupiter] J Capella → J Mercury Dec 21.9905 22 whole (27.37)
-    - [Jupiter] J Galactic Centre → J Mercury Dec 53.0157 53 whole (4.70)
-    - [Moon] S Moon → H Mercury RA 157.9967 158 whole (69.37)
-    - [Moon] H Hamal → H Mercury RA 0.5139 conj (43.21)
-    - [Sun] J Pollux → J Mercury Dec 4.0191 4 whole (0.20)
-  - Saturn: Moon, Sun — only
-    - [Moon] S Moon → H Saturn Dec 11.0022 11 whole (78.95)
-    - [Moon] H Alpheratz → H Saturn Dec 48.9948 49 whole (54.83)
-    - [Moon] H Facies → H Saturn Dec 3.9961 4 whole (64.65)
-    - [Moon] H Menkar → H Saturn Dec 23.9960 24 whole (64.29)
-    - [Moon] H Scheat → H Saturn Dec 47.9884 48 whole (17.72)
-    - [Moon] J Acumen → J Saturn Dec 55.9980 56 whole (80.62)
-    - [Sun] H Alpheratz → H Saturn Dec 48.9948 49 whole (54.83)
-    - [Sun] J Pollux → J Saturn RA 42.9918 43 whole (34.68)
-  - Juno: Moon, Sun — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen
-    - [Moon] S Moon → H Juno RA 1.2103 conj (3.73)
-    - [Moon] H Acumen → H Juno RA 77.9851 78 whole (6.41)
-    - [Moon] H Altair → H Juno Dec 4.0065 4 whole (45.68)
-    - [Moon] S Moon → J Juno RA 46.9736 φ^8 phi power (95.69)
-    - [Moon] J Alphard → J Juno RA 0.4009 conj (53.69)
-    - [Moon] J Alpheratz → J Juno Dec 16.1826 10×φ^1 phi power (94.44)
-    - [Sun] H Deneb Algedi → H Juno Dec 20.9907 21 whole (28.72)
-    - [Sun] J Alpheratz → J Juno Dec 16.1826 10×φ^1 phi power (94.44)
-    - [Sun] J Deneb Algedi → J Juno Dec 29.0319 φ^7 phi power (96.48)
-  - Vesta: Moon, Sun — also: 1 Dedicated Hero / Sam Twiston-Davies, 6 Star Of Guiting / Craig Nichol
-    - [Moon] H Alpheratz → H Vesta Dec 8.0004 8 whole (95.81)
-    - [Moon] H Facies → H Vesta Dec 44.9905 45 whole (27.38)
-    - [Moon] H Hamal → H Vesta RA 41.9800 42 whole (0.00)
-    - [Moon] H Menkar → H Vesta Dec 16.9983 17 whole (84.17)
-    - [Moon] H Scheat → H Vesta Dec 6.9940 7 whole (49.24)
-    - [Moon] J Hamal → J Vesta Dec 0.1650 conj (20.26)
-    - [Moon] J Scheat → J Vesta RA 101.9193 63×φ golden (22.97)
-    - [Sun] H Alpheratz → H Vesta Dec 8.0004 8 whole (95.81)
-    - [Sun] H Deneb Algedi → H Vesta RA 107.0086 107 whole (32.51)
-    - [Sun] H Deneb Algedi → H Vesta Dec 37.2151 23×φ golden (97.78)
-    - [Sun] H Meissa → H Vesta RA 10.0117 10 whole (17.27)
-  - Eris: Moon, Sun — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden
-    - [Moon] H Alpheratz → H Eris RA 24.1486 24.14 silver (89.53)
-    - [Moon] H Hamal → H Eris Dec 24.9972 25 whole (73.64)
-    - [Moon] J Alpheratz → J Eris RA 22.0079 22 whole (36.37)
-    - [Moon] J Facies → J Eris RA 104.9972 105 whole (74.20)
-    - [Sun] H Alpheratz → H Eris RA 24.1486 24.14 silver (89.53)
-    - [Sun] J Alpheratz → J Eris RA 22.0079 22 whole (36.37)
-    - [Sun] J Pollux → J Eris RA 92.2251 57×φ golden (83.31)
-  - Sedna: Moon, Sun — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
-    - [Moon] H Alpheratz → H Sedna Dec 21.0301 13×φ golden (75.10)
-    - [Sun] H Alpheratz → H Sedna Dec 21.0301 13×φ golden (75.10)
-    - [Sun] H Zubenelgenubi → H Sedna RA 165.0699 102×φ golden (0.37)
-    - [Sun] J Zubenelgenubi → J Sedna RA 174.7387 108×φ golden (52.19)
-  - Haumea: Moon, Sun — also: 3 Manuelito / Harry Cobden
-    - [Moon] H Alpheratz → H Haumea RA 147.2643 91×φ golden (8.08)
-    - [Moon] J Alpheratz → J Haumea RA 164.0099 164 whole (25.60)
-    - [Sun] H Alpheratz → H Haumea RA 147.2643 91×φ golden (8.08)
-    - [Sun] H Meissa → H Haumea RA 131.0483 81×φ golden (37.82)
-    - [Sun] S Haumea → J Haumea RA 22.6517 14×φ golden (95.08)
-    - [Sun] J Alpheratz → J Haumea RA 164.0099 164 whole (25.60)
-  - Jupiter: Jupiter, Moon, Sun — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
-    - [Jupiter] S Moon → J Jupiter Dec 31.9951 32 whole (57.04)
-    - [Jupiter] S Orcus → J Jupiter Dec 37.0011 37 whole (89.40)
-    - [Jupiter] S Galactic Centre → J Jupiter RA 163.0075 163 whole (38.83)
-    - [Moon] H Altair → H Jupiter RA 0.9555 conj (13.18)
-    - [Moon] S Moon → J Jupiter Dec 31.9951 32 whole (57.04)
-    - [Moon] S Orcus → J Jupiter Dec 37.0011 37 whole (89.40)
-    - [Moon] S Acumen → J Jupiter RA 165.0531 102×φ golden (33.46)
-    - [Moon] J Alpheratz → J Jupiter Dec 5.9982 6 whole (82.66)
-    - [Moon] S Facies → J Jupiter Dec 46.9939 47 whole (48.33)
-    - [Moon] J Menkar → J Jupiter Dec 19.0007 19 whole (92.89)
-    - [Moon] S Scheat → J Jupiter Dec 4.9986 5 whole (86.67)
-    - [Sun] H Pollux → H Jupiter Dec 48.9841 49 whole (4.21)
-    - [Sun] J Alpheratz → J Jupiter Dec 5.9982 6 whole (82.66)
-  - Pluto: Jupiter, Moon, Sun — also: 4 All In You / Sean Bowen
-    - [Jupiter] H Capella → H Pluto RA 142.3659 88×φ golden (12.16)
-    - [Moon] H Altair → H Pluto RA 0.8992 conj (16.04)
-    - [Moon] H Hamal → H Pluto RA 94.9878 95 whole (15.23)
-    - [Sun] H Zubenelgenubi → H Pluto Dec 5.9845 6 whole (4.98)
-  - Rahu: Moon, Sun — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker
-    - [Moon] H Altair → H Rahu Dec 14.5687 9×φ golden (64.58)
-    - [Moon] H Hamal → H Rahu Dec 0.0230 conj (85.26)
-    - [Moon] J Alpheratz → J Rahu RA 74.9894 75 whole (21.96)
-    - [Sun] J Alpheratz → J Rahu RA 74.9894 75 whole (21.96)
-    - [Sun] J Zubenelgenubi → J Rahu RA 145.6428 90×φ golden (15.16)
-  - Transpluto: Jupiter, Moon, Sun — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden
-    - [Jupiter] S Jupiter → J Transpluto RA 0.6572 conj (31.57)
-    - [Jupiter] J Capella → J Transpluto Dec 32.9838 33 whole (3.58)
-    - [Moon] J Hamal → J Transpluto RA 115.9937 116 whole (47.14)
-    - [Moon] J Scheat → J Transpluto RA 161.8406 100×φ^1 phi power (91.02)
-    - [Sun] H Deneb Algedi → H Transpluto RA 173.1175 107×φ golden (39.04)
-    - [Sun] J Meissa → J Transpluto RA 64.0017 64 whole (83.47)
-    - [Sun] J Pollux → J Transpluto Dec 15.0124 15 whole (14.38)
-  - Chiron: Jupiter, Moon, Sun — also: 4 All In You / Sean Bowen
-    - [Jupiter] H Galactic Centre → H Chiron RA 98.9857 99 whole (8.01)
-    - [Moon] J Alpheratz → J Chiron RA 83.0075 83 whole (39.15)
-    - [Moon] J Facies → J Chiron RA 0.0182 conj (97.59)
-    - [Sun] H Pollux → H Chiron RA 110.9167 10×φ^5 phi power (94.67)
-    - [Sun] J Alpheratz → J Chiron RA 83.0075 83 whole (39.15)
-  - Orcus: Moon, Sun — also: 1 Dedicated Hero / Sam Twiston-Davies
-    - [Moon] H Hamal → H Orcus RA 122.2241 122.222 ninth (99.74)
-    - [Moon] S Orcus → J Orcus Dec 11.9920 12 whole (36.21)
-    - [Moon] J Alpheratz → J Orcus Dec 31.0072 31 whole (40.72)
-    - [Moon] J Facies → J Orcus Dec 21.9843 22 whole (4.62)
-    - [Moon] J Hamal → J Orcus RA 107.0002 107 whole (97.70)
-    - [Moon] J Menkar → J Orcus Dec 6.0083 6 whole (34.05)
-    - [Moon] J Scheat → J Orcus Dec 29.9994 30 whole (94.54)
-    - [Sun] J Alpheratz → J Orcus Dec 31.0072 31 whole (40.72)
-    - [Sun] J Meissa → J Orcus RA 55.0082 55 whole (34.65)
-  - Gonggong: Moon, Sun — also: 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
-    - [Moon] H Hamal → H Gonggong Dec 34.9867 35 whole (11.23)
-    - [Sun] J Deneb Algedi → J Gonggong Dec 0.2016 conj (10.75)
-    - [Sun] J Zubenelgenubi → J Gonggong Dec 0.2856 conj (0.23)
-  - Uranus: Moon, Sun — also: 1 Dedicated Hero / Sam Twiston-Davies
-    - [Moon] J Alphard → J Uranus Dec 3.9956 4 whole (60.49)
-    - [Sun] H Pollux → H Uranus RA 82.0054 82 whole (53.03)
-  - Quaoar: Moon, Sun — also: 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
-    - [Moon] J Alpheratz → J Quaoar RA 112.0055 112 whole (52.48)
-    - [Moon] J Facies → J Quaoar RA 29.0162 29 whole (3.57)
-    - [Sun] J Alpheratz → J Quaoar RA 112.0055 112 whole (52.48)
+  - 105 whole — only
+    - J Alpheratz → J Ketu RA 105.0106 105 whole (21.96)
+    - J Facies → J Eris RA 104.9972 105 whole (74.20)
+### L4 every natal body
+- **Mars**
+  - same body: S Mars → H Mars RA 179.2843 10×φ^6 phi power (loose) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+  - same body: S Mars → H Mars Dec 32.3401 20×φ golden (loose) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+  - top rows: S Sun → H Mars Dec 0.2413 conj (3.83) — also: 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+  - star rows: H Alpheratz → H Mars Dec 45.3040 28×φ golden (94.21) — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: H Deneb Algedi → H Mars Dec 0.0884 conj (49.73) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - star rows: H Hamal → H Mars RA 68.5454 10×φ^4 phi power (97.47) — also: 2 Bucephalus / Harriet Tucker
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - star rows: H Zubenelgenubi → H Mars Dec 0.1739 conj (17.68) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+  - star rows: J Hamal → J Mars Dec 0.2507 conj (2.70) — also: 2 Bucephalus / Harriet Tucker
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+- **Chiron**
+  - same body: S Chiron → H Chiron RA 20.0252 20 whole (loose) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+  - star rows: H Galactic Centre → H Chiron RA 98.9857 99 whole (8.01) — also: 4 All In You / Sean Bowen
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: H Pollux → H Chiron RA 110.9167 10×φ^5 phi power (94.67) — also: 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - star rows: J Alpheratz → J Chiron RA 83.0075 83 whole (39.15) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: J Facies → J Chiron RA 0.0182 conj (97.59) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+- **Rahu**
+  - same body: S Rahu → H Rahu RA 121.3821 75×φ golden (0.75) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen
+  - star rows: H Altair → H Rahu Dec 14.5687 9×φ golden (64.58) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: H Hamal → H Rahu Dec 0.0230 conj (85.26) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - star rows: J Alpheratz → J Rahu RA 74.9894 75 whole (21.96) — only
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: J Zubenelgenubi → J Rahu RA 145.6428 90×φ golden (15.16) — only
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+- **Makemake**
+  - same body: S Makemake → H Makemake Dec 4.4353 4.44444 ninth (loose) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Makemake RA 12.9972 13 whole (73.81)
+  - star rows: H Capella → H Makemake Dec 21.9873 22 whole (13.32) — also: 6 Star Of Guiting / Craig Nichol
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: H Galactic Centre → H Makemake Dec 53.0170 53 whole (2.30) — only
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: H Pollux → H Makemake Dec 4.0174 4 whole (1.70) — only
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - star rows: J Meissa → J Makemake Dec 22.0149 22 whole (6.62) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+  - star rows: J Zubenelgenubi → J Makemake Dec 47.9915 48 whole (33.03) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+- **Quaoar**
+  - same body: S Quaoar → H Quaoar RA 6.4712 4×φ golden (loose) — also: 1 Dedicated Hero / Sam Twiston-Davies, 5 Lyssenko / Harry Skelton
+  - star rows: J Alpheratz → J Quaoar RA 112.0055 112 whole (52.48) — only
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: J Facies → J Quaoar RA 29.0162 29 whole (3.57) — only
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+- **Ketu**
+  - same body: S Ketu → H Ketu RA 121.3821 75×φ golden (0.75) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen
+    - source line: S Jupiter → Ketu RA 1.4679 conj (0.05)
+  - T2: J Jupiter → J Ketu Dec 45.9965 46 whole (68.34) — only
+  - top rows: S Moon → J Ketu Dec 14.0014 14 whole (86.22) — only
+  - star rows: J Alpheratz → J Ketu RA 105.0106 105 whole (21.96) — only
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: J Alpheratz → J Ketu Dec 51.9947 52 whole (54.15) — only
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: J Facies → J Ketu Dec 0.9968 1 whole (70.74) — also: 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - star rows: J Menkar → J Ketu Dec 26.9958 27 whole (62.48) — also: 4 All In You / Sean Bowen
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: J Pollux → J Ketu RA 140.7563 87×φ golden (37.15) — also: 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - star rows: J Scheat → J Ketu Dec 50.9869 51 whole (11.99) — also: 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+- **Neptune**
+  - top rows: S Jupiter → H Neptune RA 155.9989 156 whole (89.21) — also: 2 Bucephalus / Harriet Tucker
+  - top rows: S Moon → H Neptune RA 161.8541 100×φ^1 phi power (87.86) — only
+  - star rows: H Zubenelgenubi → H Neptune Dec 11.0918 φ^5 phi power (94.16) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+- **Ceres**
+  - top rows: S Sun → H Ceres RA 114.9949 115 whole (55.27) — also: 2 Bucephalus / Harriet Tucker
+  - star rows: H Pollux → H Ceres RA 140.0008 140 whole (92.04) — also: 5 Lyssenko / Harry Skelton
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - top rows: S Moon → J Ceres Dec 0.0764 conj (55.54) — also: 6 Star Of Guiting / Craig Nichol
+  - star rows: J Alphard → J Ceres Dec 0.1689 conj (19.09) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - star rows: J Alpheratz → J Ceres RA 0.0891 conj (88.47) — also: 6 Star Of Guiting / Craig Nichol
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+- **Mercury**
+  - top rows: S Moon → H Mercury RA 157.9967 158 whole (69.37) — only
+  - star rows: H Hamal → H Mercury RA 0.5139 conj (43.21) — also: 2 Bucephalus / Harriet Tucker
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - star rows: J Capella → J Mercury RA 13.0089 13 whole (30.57) — also: 5 Lyssenko / Harry Skelton
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: J Capella → J Mercury Dec 21.9905 22 whole (27.37) — also: 5 Lyssenko / Harry Skelton
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: J Galactic Centre → J Mercury Dec 53.0157 53 whole (4.70) — also: 2 Bucephalus / Harriet Tucker
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: J Pollux → J Mercury Dec 4.0191 4 whole (0.20) — also: 1 Dedicated Hero / Sam Twiston-Davies
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+- **Saturn**
+  - top rows: S Moon → H Saturn Dec 11.0022 11 whole (78.95) — also: 4 All In You / Sean Bowen
+  - star rows: H Alpheratz → H Saturn Dec 48.9948 49 whole (54.83) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: H Facies → H Saturn Dec 3.9961 4 whole (64.65) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - star rows: H Menkar → H Saturn Dec 23.9960 24 whole (64.29) — also: 4 All In You / Sean Bowen
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: H Scheat → H Saturn Dec 47.9884 48 whole (17.72) — also: 4 All In You / Sean Bowen
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+  - star rows: J Acumen → J Saturn Dec 55.9980 56 whole (80.62) — only
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - star rows: J Pollux → J Saturn RA 42.9918 43 whole (34.68) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 5 Lyssenko / Harry Skelton
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+- **Juno**
+  - top rows: S Moon → H Juno RA 1.2103 conj (3.73) — also: 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+  - star rows: H Acumen → H Juno RA 77.9851 78 whole (6.41) — also: 2 Bucephalus / Harriet Tucker, 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - star rows: H Altair → H Juno Dec 4.0065 4 whole (45.68) — also: 4 All In You / Sean Bowen
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: H Deneb Algedi → H Juno Dec 20.9907 21 whole (28.72) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - same body: S Juno → J Juno RA 161.7187 100×φ^1 phi power (loose) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden
+  - top rows: S Moon → J Juno RA 46.9736 φ^8 phi power (95.69) — also: 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+  - star rows: J Alphard → J Juno RA 0.4009 conj (53.69) — also: 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+  - star rows: J Alpheratz → J Juno Dec 16.1826 10×φ^1 phi power (94.44) — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: J Deneb Algedi → J Juno Dec 29.0319 φ^7 phi power (96.48) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+- **Vesta**
+  - star rows: H Alpheratz → H Vesta Dec 8.0004 8 whole (95.81) — also: 6 Star Of Guiting / Craig Nichol
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: H Deneb Algedi → H Vesta RA 107.0086 107 whole (32.51) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - star rows: H Deneb Algedi → H Vesta Dec 37.2151 23×φ golden (97.78) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - star rows: H Facies → H Vesta Dec 44.9905 45 whole (27.38) — only
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - star rows: H Hamal → H Vesta RA 41.9800 42 whole (0.00) — also: 4 All In You / Sean Bowen
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - star rows: H Meissa → H Vesta RA 10.0117 10 whole (17.27) — only
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+  - star rows: H Menkar → H Vesta Dec 16.9983 17 whole (84.17) — also: 3 Manuelito / Harry Cobden
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: H Scheat → H Vesta Dec 6.9940 7 whole (49.24) — also: 3 Manuelito / Harry Cobden
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+  - star rows: J Hamal → J Vesta Dec 0.1650 conj (20.26) — also: 4 All In You / Sean Bowen
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - star rows: J Scheat → J Vesta RA 101.9193 63×φ golden (22.97) — also: 3 Manuelito / Harry Cobden
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+- **Eris**
+  - star rows: H Alpheratz → H Eris RA 24.1486 24.14 silver (89.53) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: H Hamal → H Eris Dec 24.9972 25 whole (73.64) — only
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - star rows: J Alpheratz → J Eris RA 22.0079 22 whole (36.37) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: J Facies → J Eris RA 104.9972 105 whole (74.20) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - star rows: J Pollux → J Eris RA 92.2251 57×φ golden (83.31) — only
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+- **Sedna**
+  - star rows: H Alpheratz → H Sedna Dec 21.0301 13×φ golden (75.10) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: H Zubenelgenubi → H Sedna RA 165.0699 102×φ golden (0.37) — also: 2 Bucephalus / Harriet Tucker
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+  - same body: S Sedna → J Sedna RA 14.0847 14.14 sqrt2 (loose) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+  - star rows: J Zubenelgenubi → J Sedna RA 174.7387 108×φ golden (52.19) — also: 2 Bucephalus / Harriet Tucker
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+- **Haumea**
+  - star rows: H Alpheratz → H Haumea RA 147.2643 91×φ golden (8.08) — only
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: H Meissa → H Haumea RA 131.0483 81×φ golden (37.82) — also: 5 Lyssenko / Harry Skelton
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+  - same body: S Haumea → J Haumea RA 22.6517 14×φ golden (95.08) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+    - source line: S Sun → Haumea RA 0.5930 conj (36.56)
+  - star rows: J Alpheratz → J Haumea RA 164.0099 164 whole (25.60) — only
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+- **Jupiter**
+  - star rows: H Altair → H Jupiter RA 0.9555 conj (13.18) — also: 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: H Pollux → H Jupiter Dec 48.9841 49 whole (4.21) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - T2: J Jupiter → J star Alpheratz Dec 5.9982 6 whole (82.66) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+  - T2: J Jupiter → J star Menkar Dec 19.0007 19 whole (92.89) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+  - top rows: S Moon → J Jupiter Dec 31.9951 32 whole (57.04) — also: 6 Star Of Guiting / Craig Nichol
+  - top rows: S Orcus → J Jupiter Dec 37.0011 37 whole (89.40) — only
+    - source line: S Moon → Orcus Dec 5.0060 5 whole (49.11)
+  - star rows: S Acumen → J Jupiter RA 165.0531 102×φ golden (33.46) — also: 1 Dedicated Hero / Sam Twiston-Davies, 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Acumen Dec 25.8879 16×φ golden (95.82)
+  - star rows: J Alpheratz → J Jupiter Dec 5.9982 6 whole (82.66) — also: 4 All In You / Sean Bowen
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: S Facies → J Jupiter Dec 46.9939 47 whole (48.33) — also: 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - star rows: S Galactic Centre → J Jupiter RA 163.0075 163 whole (38.83) — also: 2 Bucephalus / Harriet Tucker, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+    - source line: S Jupiter → Galactic Centre Dec 43.0014 43 whole (86.35)
+  - star rows: J Menkar → J Jupiter Dec 19.0007 19 whole (92.89) — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: S Scheat → J Jupiter Dec 4.9986 5 whole (86.67) — also: 2 Bucephalus / Harriet Tucker
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+- **Pluto**
+  - star rows: H Altair → H Pluto RA 0.8992 conj (16.04) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Altair Dec 17.7798 17.7778 ninth (98.40)
+  - star rows: H Capella → H Pluto RA 142.3659 88×φ golden (12.16) — also: 1 Dedicated Hero / Sam Twiston-Davies, 6 Star Of Guiting / Craig Nichol
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: H Hamal → H Pluto RA 94.9878 95 whole (15.23) — only
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - star rows: H Zubenelgenubi → H Pluto Dec 5.9845 6 whole (4.98) — only
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+  - same body: S Pluto → J Pluto Dec 10.9769 11 whole (loose) — also: 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+- **Pallas**
+  - star rows: H Capella → H Pallas RA 145.0160 145 whole (3.97) — also: 1 Dedicated Hero / Sam Twiston-Davies
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+- **Transpluto**
+  - star rows: H Deneb Algedi → H Transpluto RA 173.1175 107×φ golden (39.04) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - top rows: S Jupiter → J Transpluto RA 0.6572 conj (31.57) — also: 1 Dedicated Hero / Sam Twiston-Davies, 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+  - star rows: J Capella → J Transpluto Dec 32.9838 33 whole (3.58) — also: 6 Star Of Guiting / Craig Nichol
+    - source line: S Jupiter → Capella Dec 32.0006 32 whole (94.53)
+  - star rows: J Hamal → J Transpluto RA 115.9937 116 whole (47.14) — only
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - star rows: J Meissa → J Transpluto RA 64.0017 64 whole (83.47) — also: 3 Manuelito / Harry Cobden
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+  - star rows: J Pollux → J Transpluto Dec 15.0124 15 whole (14.38) — also: 3 Manuelito / Harry Cobden
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - star rows: J Scheat → J Transpluto RA 161.8406 100×φ^1 phi power (91.02) — also: 3 Manuelito / Harry Cobden, 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+- **Orcus**
+  - star rows: H Hamal → H Orcus RA 122.2241 122.222 ninth (99.74) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - same body: S Orcus → J Orcus Dec 11.9920 12 whole (36.21) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Orcus Dec 5.0060 5 whole (49.11)
+  - star rows: J Alpheratz → J Orcus Dec 31.0072 31 whole (40.72) — also: 2 Bucephalus / Harriet Tucker
+    - source line: S Sun → Alpheratz RA 140.7748 87×φ golden (67.09)
+    - source line: S Moon → Alpheratz Dec 37.9987 38 whole (87.77)
+  - star rows: J Facies → J Orcus Dec 21.9843 22 whole (4.62) — only
+    - source line: S Moon → Facies Dec 14.9988 15 whole (88.35)
+  - star rows: J Hamal → J Orcus RA 107.0002 107 whole (97.70) — also: 2 Bucephalus / Harriet Tucker, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - star rows: J Meissa → J Orcus RA 55.0082 55 whole (34.65) — also: 6 Star Of Guiting / Craig Nichol
+    - source line: S Sun → Meissa RA 137.5388 85×φ golden (66.82)
+  - star rows: J Menkar → J Orcus Dec 6.0083 6 whole (34.05) — also: 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+  - star rows: J Scheat → J Orcus Dec 29.9994 30 whole (94.54) — only
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+- **Gonggong**
+  - star rows: H Hamal → H Gonggong Dec 34.9867 35 whole (11.23) — only
+    - source line: S Moon → Hamal Dec 32.3696 20×φ golden (52.45)
+  - same body: S Gonggong → J Gonggong Dec 6.0163 6 whole (3.48) — also: 4 All In You / Sean Bowen
+  - star rows: J Deneb Algedi → J Gonggong Dec 0.2016 conj (10.75) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)
+  - star rows: J Zubenelgenubi → J Gonggong Dec 0.2856 conj (0.23) — also: 4 All In You / Sean Bowen
+    - source line: S Sun → Zubenelgenubi RA 1.3855 conj (0.58)
+    - source line: S Sun → Zubenelgenubi Dec 0.0643 conj (61.74)
+- **Uranus**
+  - star rows: H Pollux → H Uranus RA 82.0054 82 whole (53.03) — also: 5 Lyssenko / Harry Skelton
+    - source line: S Sun → Pollux RA 105.0019 105 whole (82.29)
+    - source line: S Sun → Pollux Dec 44.0012 44 whole (88.04)
+  - star rows: J Alphard → J Uranus Dec 3.9956 4 whole (60.49) — also: 2 Bucephalus / Harriet Tucker, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen
+    - source line: S Moon → Alphard Dec 0.2503 conj (2.74)
+- **Sun**
+  - star rows: H Scheat → H Sun RA 51.0150 51 whole (6.35) — also: 1 Dedicated Hero / Sam Twiston-Davies
+    - source line: S Moon → Scheat Dec 36.9937 37 whole (47.09)
+  - same body: S Sun → J Sun Dec 33.3506 33.3333 ninth (loose) — also: 1 Dedicated Hero / Sam Twiston-Davies, 3 Manuelito / Harry Cobden, 4 All In You / Sean Bowen, 5 Lyssenko / Harry Skelton, 6 Star Of Guiting / Craig Nichol
+  - star rows: J Menkar → J Sun RA 0.6359 conj (33.19) — also: 1 Dedicated Hero / Sam Twiston-Davies, 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+    - source line: S Moon → Menkar Dec 12.9970 13 whole (72.51)
+- **Venus**
+  - star rows: J Deneb Algedi → J Venus Dec 40.0163 40 whole (3.43) — also: 4 All In You / Sean Bowen, 6 Star Of Guiting / Craig Nichol
+    - source line: S Sun → Deneb Algedi Dec 0.1531 conj (23.98)

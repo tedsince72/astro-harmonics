@@ -1,42 +1,36 @@
 #!/usr/bin/env python3
-"""eddie_layers.py - stage 2 of Eddie's race read: fixed layers, every runner, no judgement, no ranking, no pick.
+"""eddie_layers.py - stage 2 of Eddie's race read: the stage 1 data laid out in fixed layers, every runner. It shows the
+data only: no interpretation, no weighing, no score cut-offs, no ranking, no pick (Eddie, 7 Nov 2026: "I just want to show the
+data"). Rules come later, beyond stage 2 (stage 3).
 
 Usage:  python3 tools/eddie_layers.py <race>_eddie_read.json [--active <race>_active.xlsx] [--out DIR]
 
-Input: the stage 1 json written by tools/eddie_read.py (every piece: layer, chart, source, body, plane, value, target,
-family, score, sky_number, circle, note) and, for layer 0, the race's _active.xlsx (runner names only). Never the csv.
+Input: the stage 1 json written by tools/eddie_read.py and, for L0, the race's _active.xlsx (runner names only). Never the csv.
 Writes <race>_layers.md and <race>_layers.json.
 
-Built 7 Nov 2026 on Eddie's go-ahead ("everything needs to be scripted"; claude/race-read-instruction.md). The layers:
-  L0 field       runners in the tables workbook vs the _active.xlsx (odd P sheets, A1 = '<cloth> <horse>'); cloth gaps
-  L1 same bodies every sky X -> natal X cell of the runner, scoring and loose, H and J
-  L2 landings    for each same body (chart, body): every other piece of the runner on that natal body (same chart, then
-                 the other chart), each tagged with the centre(s) it comes from (see 'centre of a piece'), plus the noted
-                 sky lines from a centre to the sky body X (body lines)
-  L3 seven cases each a fixed test (race-read-instruction Part 2):
-                 1 same body on both charts   (the body has a same-body cell in H and in J; loose counts)
-                 2 one body in both planes    (same chart, RA and Dec same-body cells)
-                 3 runner number = sky number (a piece the stage 1 report tagged with a sky number)
-                 4 circle divisions           (a piece whose target is a whole number dividing 360, scoring >= 50 or a
-                                               same-body cell)
-                 5 same number, several places (same family and target on two or more different (chart, body, source),
-                                               scoring >= 50 or a same-body cell (loose counts); and N with N x phi on one
-                                               natal body, scoring >= 50)
-                 6 star and sky line on one body (a natal body conj a noted star (star row, conj, >= 50) and a centre's
-                                               own line onto that natal body (top rows S centre -> natal body), any score)
-                 7 centres meeting            (a natal body reached by 2 or 3 centres, see below; per chart and over both)
-  L5 field       every L3 item carries 'only' or 'also: <runners>' by a fixed key (listed per case in KEYS)
+A cell is every stage 1 piece with a score (any score) and every loose same-body cell (Eddie's underline: its nearest
+target is shown with '(loose)' and it takes part in the L3 matches on that target). The same connection carried by two stage 1
+layers (e.g. 'same body' and 'top rows' for S Jupiter -> natal Jupiter) is shown once, with both layer names. Beside each cell whose source is a sky
+point or a star, its own noted sky lines are copied from the sky notes ('source line: S Moon -> Rigel ...'): the source of
+'J Rigel -> J Ketu' is Rigel, of 'S Chiron -> J Jupiter' Chiron, of the same body 'S Ketu -> H Ketu' Ketu; a source that is S
+Jupiter / S Sun / S Moon is itself a centre and gets none. Nothing is tagged or grouped by centre.
 
-Centre of a piece (fixed rules):
-  top rows 'S Jupiter / S Sun / S Moon -> natal X'  -> that centre (direct)
-  top rows 'S X -> natal Jupiter'                   -> Jupiter (natal Jupiter); and any centre with a noted line to X
-  star rows '<chart> star -> natal X'               -> the centre(s) whose noted line or conj point is that star
-                                                       (also 'S star -> natal Jupiter'; no Jupiter centre added)
-  T1 / T2 'natal Jupiter -> X'                       -> Jupiter (natal Jupiter)
-  same body 'S X -> natal X'                         -> any centre with a noted line to X (body line); a same-body cell
-                                                       is not itself a centre
-  A piece counts for L2 / L7 when it has a score (any score) or is a loose same-body cell.
-Nothing here weighs, counts toward a total, ranks or picks. Rules change only with Eddie.
+  L0 field         runners in the tables workbook vs the _active.xlsx (odd P sheets, A1 = '<cloth> <horse>'); cloth gaps
+  L1 same bodies   every sky X -> natal X cell of the runner, H and J
+  L2 same bodies   for each same body (chart, body): the sky lines to X, every other cell of the runner on that natal body,
+     landings      this chart then the other chart, each with its source lines
+  L3 matches       plain matches, each with 'only' / 'also: <runners>' (same key in another runner):
+                   1 same body on both charts     the body has a same-body cell in H and in J          key: body
+                   2 one body in both planes      same chart, RA and Dec same-body cells                key: chart, body
+                   3 runner number = sky number   a cell stage 1 tagged with a sky number               key: target, family
+                   4 circle divisions             a whole target dividing 360                           key: the number
+                   5 same number, several places  same family and target on 2+ different (chart, body,  key: family, target
+                                                  source), not conj; N and N x phi on one natal body     key: N, chart, body
+  L4 every body    every natal body of the runner (both charts) with every cell on it and the source lines (T1 / T2
+                   natal Jupiter -> star cells under Jupiter); each cell
+                   'only' / 'also: <runners>' for the same source onto the same body, any chart, plane or number (source:
+                   a star with the chart letter dropped; a top-rows sky source as written, e.g. 'S Sun', 'S Chiron';
+                   'natal Jupiter' for T1 / T2; 'same body')
 """
 import argparse
 import json
@@ -46,15 +40,12 @@ from collections import defaultdict
 
 import openpyxl
 
-CENTRES = ('Jupiter', 'Sun', 'Moon')
 CASE_NAMES = {
     1: 'same body on both charts',
     2: 'one body in both planes',
     3: 'runner number = sky number',
     4: 'circle divisions',
     5: 'same number in more than one place',
-    6: 'star and sky line on one body',
-    7: 'centres meeting',
 }
 DIV360 = {n for n in range(1, 361) if 360 % n == 0}
 
@@ -96,37 +87,53 @@ def active_names(path):
 def build(d, active=None):
     names = d['names']
     runners = d['runners']
-    star_centre = d.get('star_centre', {})
     lines = d['lines']
-    line_to = defaultdict(set)          # sky point -> centres with a noted line to it
+    lines_of = defaultdict(list)          # sky point -> its noted lines (text)
     for l in lines:
-        line_to[l['point']].add(l['centre'])
+        lines_of[l['point']].append(line_txt(l))
 
-    def centres_of(p):
-        src = p['source']
-        s = src.split(' ', 1)[1] if ' ' in src else src
-        out = set()
-        if p['layer'] == 'top rows':
-            if src.startswith('S ') and s in CENTRES:
-                out.add(s)
-            if p['body'] == 'Jupiter':
-                out.add('Jupiter')
-                out |= line_to.get(s, set())
-        elif p['layer'] == 'star rows':
-            out |= set(star_centre.get(s, []))
-            out |= line_to.get(s, set())
-        elif p['layer'] in ('T1', 'T2'):
-            out.add('Jupiter')
-        elif p['layer'] == 'same body':
-            out |= line_to.get(p['body'], set())
-        return out
+    def src_name(p):
+        s = p['source'].split(' ', 1)[1] if ' ' in p['source'] else p['source']
+        return s
 
-    pieces = [dict(p, centres=sorted(centres_of(p))) for p in d['pieces'] if counts(p)]
-    for p in pieces:
-        p['text'] = cell(p)
+    def src_key(p):
+        if p['layer'] in ('T1', 'T2'):
+            return 'natal Jupiter'
+        if p['layer'].startswith('same body'):
+            return 'same body'
+        if p['source'].startswith('S ') and p['layer'] == 'top rows':
+            return p['source']
+        return src_name(p)
+
+    def src_lines(p):
+        s = src_name(p)
+        if p['source'] in ('S Jupiter', 'S Sun', 'S Moon'):
+            return []
+        if p['layer'] in ('T1', 'T2'):        # natal Jupiter -> X
+            return []
+        if p['layer'].startswith('same body'):
+            return lines_of.get(p['body'], [])
+        return lines_of.get(s, [])
+
+    pieces = []
+    seen_conn = {}
+    for p in d['pieces']:
+        if counts(p):
+            conn = (p['runner'], p['source'], p['chart'], p['body'], p['plane'], round(p['value'], 6))
+            if conn in seen_conn:                   # the same connection carried by two stage 1 layers: shown once
+                seen_conn[conn]['layer'] += ' + ' + p['layer']
+                continue
+            q = dict(p)
+            q['text'] = cell(p)
+            q['source_lines'] = src_lines(p)
+            seen_conn[conn] = q
+            pieces.append(q)
     by_r = defaultdict(list)
     for p in pieces:
         by_r[p['runner']].append(p)
+
+    def cj(p):
+        return dict(text=p['text'], layer=p['layer'], source_lines=p['source_lines'])
 
     # ---------------- L0 field
     l0 = {'tables': [names[r] for r in runners], 'missing_in_tables': [], 'cloth_gaps': [], 'active_read': bool(active)}
@@ -138,92 +145,75 @@ def build(d, active=None):
             if c not in cloths:
                 l0['missing_in_tables'].append(f'{c} {h}')
 
-    # ---------------- per runner L1, L2, L3 items (keys for the field)
     R = {}
-    items = []        # (case, runner, key, text, cells)
+    items = []        # (case, runner, key, label, cells)
+    l4keys = defaultdict(set)
     for r in runners:
         mine = by_r[r]
-        sb = [p for p in mine if p['layer'] == 'same body']
+        sb = [p for p in mine if p['layer'].startswith('same body')]
         sb_bodies = list(dict.fromkeys((p['chart'], p['body']) for p in sb))
         l2 = []
         for ch, b in sb_bodies:
             own = [p for p in sb if p['chart'] == ch and p['body'] == b]
-            same = [p for p in mine if p['layer'] != 'same body' and p['chart'] == ch and p['body'] == b]
-            other_sb = [p for p in sb if p['chart'] != ch and p['body'] == b]
-            other = [p for p in mine if p['layer'] != 'same body' and p['chart'] != ch and p['body'] == b]
-            bl = [line_txt(l) for l in lines if l['point'] == b]
-            l2.append(dict(chart=ch, body=b, same_body=[p['text'] for p in own],
-                           body_lines=bl,
-                           on_this_chart=[dict(text=p['text'], layer=p['layer'], centres=p['centres']) for p in same],
-                           other_chart_same_body=[p['text'] for p in other_sb],
-                           on_other_chart=[dict(text=p['text'], layer=p['layer'], centres=p['centres']) for p in other]))
-        # case 1
+            l2.append(dict(chart=ch, body=b, same_body=[p['text'] for p in own], body_lines=lines_of.get(b, []),
+                           on_this_chart=[cj(p) for p in mine if not p['layer'].startswith('same body') and p['chart'] == ch and p['body'] == b],
+                           other_chart_same_body=[p['text'] for p in sb if p['chart'] != ch and p['body'] == b],
+                           on_other_chart=[cj(p) for p in mine if not p['layer'].startswith('same body') and p['chart'] != ch and p['body'] == b]))
+        # 1
         for b in dict.fromkeys(b for _, b in sb_bodies):
             hs = [p for p in sb if p['body'] == b and p['chart'] == 'H']
             js = [p for p in sb if p['body'] == b and p['chart'] == 'J']
             if hs and js:
-                items.append((1, r, b, f'{b}', [p['text'] for p in hs + js]))
-        # case 2
+                items.append((1, r, b, b, [p['text'] for p in hs + js]))
+        # 2
         for ch, b in sb_bodies:
             ps = [p for p in sb if p['chart'] == ch and p['body'] == b]
             if {'RA', 'Dec'} <= {p['plane'] for p in ps}:
                 items.append((2, r, (ch, b), f'{ch} {b}', [p['text'] for p in ps]))
-        # case 3
+        # 3
         for p in mine:
             if p.get('sky_number'):
                 items.append((3, r, (p['target'], p['family']), f"{p['target']} {p['family']}",
                               [p['text'] + ' = ' + p['sky_number']]))
-        # case 4
+        # 4
         for p in mine:
-            if p['family'] == 'whole' and p['target'].isdigit() and int(p['target']) in DIV360 \
-                    and (p['layer'] == 'same body' or (p['score'] or 0) >= 50):
+            if p['family'] == 'whole' and p['target'].isdigit() and int(p['target']) in DIV360:
                 n = int(p['target'])
                 items.append((4, r, n, f'{n} = 360/{360 // n}', [p['text']]))
-        # case 5
+        # 5
         grp = defaultdict(list)
         for p in mine:
-            if p['family'] != 'conj' and ((p['score'] is not None and p['score'] >= 50) or p['layer'] == 'same body'):
+            if p['family'] != 'conj':
                 grp[(p['family'], p['target'])].append(p)
         for (fam, tg), ps in grp.items():
             if len({(p['chart'], p['body'], p['source']) for p in ps}) >= 2:
                 items.append((5, r, (fam, tg), f'{tg} {fam}', [p['text'] for p in ps]))
         byb = defaultdict(list)
         for p in mine:
-            if p['score'] is not None and p['score'] >= 50:
-                byb[(p['chart'], p['body'])].append(p)
+            byb[(p['chart'], p['body'])].append(p)
         for (ch, b), ps in byb.items():
-            wh = {p['target']: p for p in ps if p['family'] == 'whole'}
+            wh = defaultdict(list)
+            for p in ps:
+                if p['family'] == 'whole':
+                    wh[p['target']].append(p)
             for p in ps:
                 m = re.fullmatch(r'(\d+)×φ', p['target']) if p['family'] == 'golden' else None
                 if m and m.group(1) in wh:
-                    items.append((5, r, ('N and N×φ', ch, b), f"{m.group(1)} and {p['target']} on {ch} {b}",
-                                  [wh[m.group(1)]['text'], p['text']]))
-        # case 6
-        for p in mine:
-            if p['layer'] == 'star rows' and p['family'] == 'conj' and (p['score'] or 0) >= 50:
-                st = p['source'].split(' ', 1)[1]
-                if st not in star_centre and st not in line_to:
-                    continue
-                direct = [q for q in mine if q['layer'] == 'top rows' and q['chart'] == p['chart']
-                          and q['body'] == p['body'] and q['source'] in ('S Jupiter', 'S Sun', 'S Moon')]
-                if direct:
-                    items.append((6, r, (st, p['body']), f"{p['chart']} {p['body']} on {st}",
-                                  [p['text']] + [q['text'] for q in direct]))
-        # case 7
-        bodies = defaultdict(lambda: defaultdict(list))   # body -> centre -> texts (both charts)
-        for p in mine:
-            for c in p['centres']:
-                bodies[p['body']][c].append(p['text'])
-        for b, cs in bodies.items():
-            if b.startswith('star '):
-                continue
-            if len(cs) >= 2:
-                key = (b, tuple(sorted(cs)))
-                items.append((7, r, key, f"{b}: {', '.join(sorted(cs))}",
-                              [f'[{c}] ' + t for c in sorted(cs) for t in cs[c]]))
-        R[r] = dict(name=names[r], same_bodies=[p['text'] for p in sb], landings=l2)
+                    items.append((5, r, ('N and N×φ', m.group(1), ch, b), f"{m.group(1)} and {p['target']} on {ch} {b}",
+                                  [q['text'] for q in wh[m.group(1)]] + [p['text']]))
+        # L4
+        def l4body(p):                          # natal Jupiter -> star (T1 / T2) sits on natal Jupiter
+            return 'Jupiter' if p['body'].startswith('star ') else p['body']
+        bodies = list(dict.fromkeys(l4body(p) for p in mine))
+        l4 = []
+        for b in bodies:
+            cs = [p for p in mine if l4body(p) == b]
+            for p in cs:
+                l4keys[(src_key(p), b)].add(r)
+            l4.append(dict(body=b, cells=[dict(cj(p), key=(src_key(p), b)) for p in cs]))
+        R[r] = dict(name=names[r], same_bodies=[p['text'] for p in sb], landings=l2, bodies=l4)
 
-    # ---------------- L5 field tags
+    # ---------------- field tags
     held = defaultdict(set)
     for case, r, key, _, _ in items:
         held[(case, key)].add(r)
@@ -239,14 +229,20 @@ def build(d, active=None):
         out_items[r][case].append(dict(label=label, cells=list(cells_), field=field))
     for r in runners:
         R[r]['cases'] = {str(c): out_items[r].get(c, []) for c in CASE_NAMES}
+        for B in R[r]['bodies']:
+            for c in B['cells']:
+                others = sorted(l4keys[c['key']] - {r})
+                c['field'] = 'only' if not others else 'also: ' + ', '.join(names[o] for o in others)
+                c['key'] = list(c['key'])
     return dict(workbook=d.get('workbook'), l0=l0, runners=runners, report=R,
-                sky=dict(top=d.get('top'), hubs=d.get('hubs'), lines=[line_txt(l) for l in lines]))
+                sky=dict(hubs=d.get('hubs'), lines=[line_txt(l) for l in lines]))
 
 
 def write_md(D, path):
     o = []
     o.append(f"# Stage 2 layers: {os.path.basename(D['workbook'] or '')}")
-    o.append('Fixed layers for every runner; no judgement, no ranking, no pick (tools/eddie_layers.py).\n')
+    o.append('The stage 1 data laid out in fixed layers for every runner; data only, no interpretation, no ranking, no pick '
+             '(tools/eddie_layers.py).\n')
     l0 = D['l0']
     o.append('## L0 field')
     o.append(f"- In the tables workbook ({len(l0['tables'])}): " + '; '.join(l0['tables']))
@@ -259,6 +255,15 @@ def write_md(D, path):
     for t in D['sky']['lines']:
         o.append(f'- {t}')
     o.append('- Hubs: ' + (', '.join(D['sky']['hubs']) or 'none'))
+
+    def cl(q, pre=''):
+        s = f"  - {pre}{q['layer']}: {q['text']}"
+        if q.get('field'):
+            s += f" — {q['field']}"
+        out = [s]
+        for t in q['source_lines']:
+            out.append(f'    - source line: {t}')
+        return out
     for r in D['runners']:
         x = D['report'][r]
         o.append(f"\n## {x['name']}")
@@ -268,14 +273,14 @@ def write_md(D, path):
         for L in x['landings']:
             o.append(f"- **{L['chart']} {L['body']}** (same body: {'; '.join(L['same_body'])})")
             for t in L['body_lines']:
-                o.append(f'  - body line: {t}')
+                o.append(f'  - sky line to {L["body"]}: {t}')
             for q in L['on_this_chart']:
-                o.append(f"  - {q['layer']}: {q['text']}" + (f" [{', '.join(q['centres'])}]" if q['centres'] else ''))
+                o += cl(q)
             for t in L['other_chart_same_body']:
                 o.append(f'  - other chart, same body: {t}')
             for q in L['on_other_chart']:
-                o.append(f"  - other chart, {q['layer']}: {q['text']}" + (f" [{', '.join(q['centres'])}]" if q['centres'] else ''))
-        o.append('### L3 the seven cases (L5 field tag on each)')
+                o += cl(q, 'other chart, ')
+        o.append('### L3 matches')
         for c, nm in CASE_NAMES.items():
             its = x['cases'][str(c)]
             o.append(f'- **{c}. {nm}**' + ('' if its else ': none'))
@@ -283,6 +288,11 @@ def write_md(D, path):
                 o.append(f"  - {it['label']} — {it['field']}")
                 for t in it['cells']:
                     o.append(f'    - {t}')
+        o.append('### L4 every natal body')
+        for B in x['bodies']:
+            o.append(f"- **{B['body']}**")
+            for q in B['cells']:
+                o += cl(q)
     with open(path, 'w') as f:
         f.write('\n'.join(o) + '\n')
 
