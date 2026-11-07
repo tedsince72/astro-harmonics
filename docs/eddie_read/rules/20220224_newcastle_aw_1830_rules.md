@@ -19,14 +19,15 @@ Workbook race_batch_20220224_newcastle_aw_1830_jupiter_tables.xlsx. Runners 5. R
 - **B5 Same body in both planes** (0 of 5): none
 - **B6 Same body on both charts** (0 of 5): none
 - **B7 Most sky bodies onto the jockey's Jupiter** (0 of 5): none
+- **B8 One line star on the most natal bodies** (2 of 5): 4 Blazing Hot / Hollie Doyle, 5 Tathmeen / Cam Hardie
 
 ## Per runner
 
 - 1 James Watt / Ben Robinson: R7, R26
 - 2 Alablaq / George Downing: R42, B1
 - 3 Gowanlad / Phil Dennis: R26, B1, B2, B3
-- 4 Blazing Hot / Hollie Doyle: R1b, B4
-- 5 Tathmeen / Cam Hardie: R7, R42, B1
+- 4 Blazing Hot / Hollie Doyle: R1b, B4, B8
+- 5 Tathmeen / Cam Hardie: R7, R42, B1, B8
 
 ## Cells
 
@@ -112,4 +113,21 @@ _One body X with a same-body cell sky X -> H X scoring 50 or more and a same-bod
 ### B7 Most sky bodies onto the jockey's Jupiter
 _The runner(s) with the most sky bodies reaching the jockey's natal Jupiter (stage 1 top rows 'S X -> J Jupiter', X a sky body other than Jupiter, either plane) scoring 80 or more; S Jupiter -> J Jupiter is the same-body cell and is not counted; ties: every runner on the top count; no pick when nobody has one. Jockey chart only, so it comes with the jockey to every ride._
 - none
+
+### B8 One line star on the most natal bodies
+_For each runner and each natal star on one chart (every star-row star is on a sky Jupiter, Sun or Moon line), count the different natal bodies of that chart it reaches with a cell scoring 80 or more (the natal star's own cell; a sky copy of the star does not count). The runner(s) with the highest count are picked; ties: every runner on the top count. Horse and jockey charts count separately._
+- 4 Blazing Hot / Hollie Doyle
+  - H Vindemiatrix on 3 natal bodies at 80 or more (most in the field; tied with 1, next 2)
+  - H Vindemiatrix → H Pallas Dec 15.5568 15.5556 ninth (98.83)
+  - H Vindemiatrix → H Neptune RA 147.2406 91×φ golden (97.24)
+  - H Vindemiatrix → H Mercury Dec 29.0384 φ^7 phi power (94.65)
+- 5 Tathmeen / Cam Hardie
+  - J Sirius on 3 natal bodies at 80 or more (most in the field; tied with 1, next 2)
+  - J Sirius → J Venus Dec 44.4469 44.4444 ninth (97.37)
+  - J Sirius → J Chiron Dec 11.3251 7×φ golden (93.35)
+  - J Sirius → J Pluto RA 141.4488 141.4 sqrt2 (92.40)
+  - J Zubenelgenubi on 3 natal bodies at 80 or more (most in the field; tied with 1, next 2)
+  - J Zubenelgenubi → J Gonggong Dec 1.9995 2 whole (95.07)
+  - J Zubenelgenubi → J Sedna RA 177.7131 177.778 ninth (94.94)
+  - J Zubenelgenubi → J Saturn RA 141.4396 141.4 sqrt2 (94.91)
 

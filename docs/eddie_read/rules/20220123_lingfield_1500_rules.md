@@ -19,13 +19,14 @@ Workbook race_batch_20220123_lingfield_1500_jupiter_tables.xlsx. Runners 6. Resu
 - **B5 Same body in both planes** (0 of 6): none
 - **B6 Same body on both charts** (0 of 6): none
 - **B7 Most sky bodies onto the jockey's Jupiter** (1 of 6): 3 Master Tommytucker / Harry Cobden
+- **B8 One line star on the most natal bodies** (1 of 6): 5 Itchy Feet / Gavin Sheehan
 
 ## Per runner
 
 - 1 Bristol De Mai / Sam Twiston-Davies: B1
 - 2 Dashel Drasher / Rex Dingle: B1
 - 3 Master Tommytucker / Harry Cobden: B1, B2, B7
-- 5 Itchy Feet / Gavin Sheehan: R7, R42, B1
+- 5 Itchy Feet / Gavin Sheehan: R7, R42, B1, B8
 - 6 Lieutenant Rocco / Tom Scudamore: R26, B1
 - 7 Two For Gold / David Bass: R26, B1, B3
 
@@ -115,4 +116,13 @@ _The runner(s) with the most sky bodies reaching the jockey's natal Jupiter (sta
   - 2 sky bodies -> J Jupiter at 80 or more (most in the field; next 1)
   - S Juno → J Jupiter RA 53.3926 33×φ golden (84.82)
   - S Sedna → J Jupiter Dec 13.9983 14 whole (83.91)
+
+### B8 One line star on the most natal bodies
+_For each runner and each natal star on one chart (every star-row star is on a sky Jupiter, Sun or Moon line), count the different natal bodies of that chart it reaches with a cell scoring 80 or more (the natal star's own cell; a sky copy of the star does not count). The runner(s) with the highest count are picked; ties: every runner on the top count. Horse and jockey charts count separately._
+- 5 Itchy Feet / Gavin Sheehan
+  - J El Nath on 4 natal bodies at 80 or more (most in the field; next 3)
+  - J El Nath → J Sedna RA 38.0005 38 whole (94.80)
+  - J El Nath → J Mars RA 46.9207 29×φ golden (86.39)
+  - J El Nath → J Gonggong RA 110.9457 10×φ^5 phi power (84.77)
+  - J El Nath → J Sun RA 11.0019 11 whole (82.30)
 

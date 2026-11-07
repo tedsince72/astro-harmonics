@@ -52,6 +52,10 @@
     {"id": "B7", "set": "B", "name": "Most sky bodies onto the jockey's Jupiter",
      "text": "The runner(s) with the most sky bodies reaching the jockey's natal Jupiter (stage 1 top rows 'S X -> J Jupiter', X a sky body other than Jupiter, either plane) scoring 80 or more; S Jupiter -> J Jupiter is the same-body cell and is not counted; ties: every runner on the top count; no pick when nobody has one. Jockey chart only, so it comes with the jockey to every ride.",
      "origin": "Eddie, 7 Nov 2026 ('build 5'): filter 5 from the stage 2 data of Aintree 12:40 6 Nov 2026 (Risky Obsession / Harry Skelton: S Rahu 98.35, S Gonggong 93.71, S Sun 89.08, S Chiron 87.33). Its result on the other 19 races was looked at once before the rule was fixed (6 of 22 picks won, 3.7 by chance).", "added": "2026-11-07",
-     "in_sample": ["20261106_aintree_1240"]}
+     "in_sample": ["20261106_aintree_1240"]},
+    {"id": "B8", "set": "B", "name": "One line star on the most natal bodies",
+     "text": "For each runner and each natal star on one chart (every star-row star is on a sky Jupiter, Sun or Moon line), count the different natal bodies of that chart it reaches with a cell scoring 80 or more (the natal star's own cell; a sky copy of the star does not count). The runner(s) with the highest count are picked; ties: every runner on the top count. Horse and jockey charts count separately.",
+     "origin": "Eddie, 7 Nov 2026 ('ok, do it'): from the stage 2 data of Aintree 13:15 6 Nov 2026 (Off The Jury / Sean Bowen: J Alphard on J Uranus 99.68, J Quaoar 95.93, J Pluto 95.74, J Saturn 92.00; next runner 3). Its result on the other 19 races was looked at once before the rule was fixed (34 picks, 8 won, 5.8 by chance).", "added": "2026-11-07",
+     "in_sample": ["20261106_aintree_1315"]}
   ]
 }

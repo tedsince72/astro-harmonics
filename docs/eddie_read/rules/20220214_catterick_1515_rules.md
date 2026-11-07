@@ -19,13 +19,14 @@ Workbook race_batch_20220214_catterick_1515_jupiter_tables.xlsx. Runners 6. Resu
 - **B5 Same body in both planes** (0 of 6): none
 - **B6 Same body on both charts** (0 of 6): none
 - **B7 Most sky bodies onto the jockey's Jupiter** (1 of 6): 5 Brian Boranha / Callum Bewley
+- **B8 One line star on the most natal bodies** (1 of 6): 4 Winds Of Fire / Adam Wedge
 
 ## Per runner
 
 - 1 Almazhar Garde / Luca Morgan: R40, R42
 - 2 Marown / Brian Hughes: none
 - 3 Omar Maretti / Kielan Woods: none
-- 4 Winds Of Fire / Adam Wedge: R1b, R40, R1
+- 4 Winds Of Fire / Adam Wedge: R1b, R40, R1, B8
 - 5 Brian Boranha / Callum Bewley: R1b, R7, B7
 - 6 The Paddy Pie / Sean Quinlan: none
 
@@ -103,4 +104,12 @@ _The runner(s) with the most sky bodies reaching the jockey's natal Jupiter (sta
   - S Neptune → J Jupiter Dec 9.0001 9 whole (99.16)
   - S Uranus → J Jupiter RA 177.7985 177.778 ninth (98.38)
   - S Haumea → J Jupiter RA 1.2226 1.22222 ninth (94.80)
+
+### B8 One line star on the most natal bodies
+_For each runner and each natal star on one chart (every star-row star is on a sky Jupiter, Sun or Moon line), count the different natal bodies of that chart it reaches with a cell scoring 80 or more (the natal star's own cell; a sky copy of the star does not count). The runner(s) with the highest count are picked; ties: every runner on the top count. Horse and jockey charts count separately._
+- 4 Winds Of Fire / Adam Wedge
+  - H Alphard on 3 natal bodies at 80 or more (most in the field; next 2)
+  - H Alphard → H Pluto RA 144.4362 144.444 ninth (99.12)
+  - H Alphard → H Pallas Dec 24.1406 24.14 silver (97.53)
+  - H Alphard → H Juno RA 16.6608 16.6667 ninth (95.00)
 

@@ -19,12 +19,13 @@ Workbook race_batch_20261106_fontwell_1435_jupiter_tables.xlsx. Runners 7. Resul
 - **B5 Same body in both planes** (0 of 7): none
 - **B6 Same body on both charts** (0 of 7): none
 - **B7 Most sky bodies onto the jockey's Jupiter** (1 of 7): 7 Motazzen / Paul O'Brien
+- **B8 One line star on the most natal bodies** (1 of 7): 3 Donnie Azoff / Isabelle Ryder
 
 ## Per runner
 
 - 1 Fire Flyer / Richie McLernon: R26, B1
 - 2 Lynx De Thaix / Gavin Sheehan: none
-- 3 Donnie Azoff / Isabelle Ryder: B1
+- 3 Donnie Azoff / Isabelle Ryder: B1, B8
 - 5 He's A Latchico / Caoilin Quinn: B1
 - 6 So You Know / Tom Bellamy: B1, B2, B3
 - 7 Motazzen / Paul O'Brien: R28, R42, B7
@@ -110,4 +111,14 @@ _The runner(s) with the most sky bodies reaching the jockey's natal Jupiter (sta
   - S Chiron → J Jupiter RA 133.3847 133.333 ninth (93.84)
   - S Eris → J Jupiter Dec 10.0007 10 whole (93.45)
   - S Quaoar → J Jupiter Dec 24.9982 25 whole (83.01)
+
+### B8 One line star on the most natal bodies
+_For each runner and each natal star on one chart (every star-row star is on a sky Jupiter, Sun or Moon line), count the different natal bodies of that chart it reaches with a cell scoring 80 or more (the natal star's own cell; a sky copy of the star does not count). The runner(s) with the highest count are picked; ties: every runner on the top count. Horse and jockey charts count separately._
+- 3 Donnie Azoff / Isabelle Ryder
+  - J Difda on 5 natal bodies at 80 or more (most in the field; next 3)
+  - J Difda → J Ketu RA 111.1114 111.111 ninth (99.96)
+  - J Difda → J Jupiter Dec 41.4209 41.4 silver (99.52)
+  - J Difda → J Pallas Dec 26.1826 10×φ^2 phi power (96.52)
+  - J Difda → J Mars RA 35.9995 36 whole (94.97)
+  - J Difda → J Sun RA 3.0014 3 whole (86.42)
 

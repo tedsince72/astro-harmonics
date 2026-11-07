@@ -19,12 +19,13 @@ Workbook race_batch_20220213_southwell_aw_1520_jupiter_tables.xlsx. Runners 7. R
 - **B5 Same body in both planes** (1 of 7): 5 Carn A Chlamain / Tom Marquand
 - **B6 Same body on both charts** (0 of 7): none
 - **B7 Most sky bodies onto the jockey's Jupiter** (1 of 7): 1 The Dancing Poet / Harry Russell
+- **B8 One line star on the most natal bodies** (1 of 7): 3 Chase The Dollar / Rossa Ryan
 
 ## Per runner
 
 - 1 The Dancing Poet / Harry Russell: B7
 - 2 Flying Instructor / Dylan Hogan: B1, B2, B3
-- 3 Chase The Dollar / Rossa Ryan: B1
+- 3 Chase The Dollar / Rossa Ryan: B1, B8
 - 4 Deluxe Music / Callum Rodriguez: B1
 - 5 Carn A Chlamain / Tom Marquand: R26, R40, B4, B5
 - 6 Flamingo Rose / Dougie Costello: B1
@@ -115,4 +116,13 @@ _The runner(s) with the most sky bodies reaching the jockey's natal Jupiter (sta
   - 2 sky bodies -> J Jupiter at 80 or more (most in the field; next 1)
   - S Saturn → J Jupiter Dec 0.0043 conj (97.17)
   - S Saturn → J Jupiter RA 0.1337 conj (82.97)
+
+### B8 One line star on the most natal bodies
+_For each runner and each natal star on one chart (every star-row star is on a sky Jupiter, Sun or Moon line), count the different natal bodies of that chart it reaches with a cell scoring 80 or more (the natal star's own cell; a sky copy of the star does not count). The runner(s) with the highest count are picked; ties: every runner on the top count. Horse and jockey charts count separately._
+- 3 Chase The Dollar / Rossa Ryan
+  - J Sadalsuud on 4 natal bodies at 80 or more (most in the field; next 2)
+  - J Sadalsuud → J Uranus RA 0.0163 conj (97.84)
+  - J Sadalsuud → J Makemake RA 144.4143 144.444 ninth (96.81)
+  - J Sadalsuud → J Mercury RA 144.4784 144.444 ninth (96.40)
+  - J Sadalsuud → J Haumea Dec 27.0005 27 whole (95.52)
 

@@ -19,10 +19,11 @@ Workbook race_batch_20220128_doncaster_1315_jupiter_tables.xlsx. Runners 7. Resu
 - **B5 Same body in both planes** (1 of 7): 2 Before Midnight / James Bowen
 - **B6 Same body on both charts** (0 of 7): none
 - **B7 Most sky bodies onto the jockey's Jupiter** (1 of 7): 1 Funambule Sivola / Charlie Deutsch
+- **B8 One line star on the most natal bodies** (1 of 7): 1 Funambule Sivola / Charlie Deutsch
 
 ## Per runner
 
-- 1 Funambule Sivola / Charlie Deutsch: B1, B2, B3, B7
+- 1 Funambule Sivola / Charlie Deutsch: B1, B2, B3, B7, B8
 - 2 Before Midnight / James Bowen: B5
 - 3 The Big Bite / Brian Hughes: R7, R42
 - 4 King D'argent / Harry Skelton: R28, B1
@@ -116,4 +117,18 @@ _The runner(s) with the most sky bodies reaching the jockey's natal Jupiter (sta
   - 2 sky bodies -> J Jupiter at 80 or more (most in the field; next 1)
   - S Uranus → J Jupiter RA 111.1423 111.111 ninth (94.90)
   - S Haumea → J Jupiter RA 69.5774 43×φ golden (88.65)
+
+### B8 One line star on the most natal bodies
+_For each runner and each natal star on one chart (every star-row star is on a sky Jupiter, Sun or Moon line), count the different natal bodies of that chart it reaches with a cell scoring 80 or more (the natal star's own cell; a sky copy of the star does not count). The runner(s) with the highest count are picked; ties: every runner on the top count. Horse and jockey charts count separately._
+- 1 Funambule Sivola / Charlie Deutsch
+  - H Murzim on 4 natal bodies at 80 or more (most in the field; next 3)
+  - H Murzim → H Sedna RA 41.4216 41.4 silver (99.74)
+  - H Murzim → H Quaoar Dec 2.2221 2.22222 ninth (98.79)
+  - H Murzim → H Ceres RA 175.9997 176 whole (96.57)
+  - H Murzim → H Chiron Dec 16.1824 10×φ^1 phi power (95.06)
+  - J Sualocin on 4 natal bodies at 80 or more (most in the field; next 3)
+  - J Sualocin → J Pluto RA 67.9997 68 whole (97.14)
+  - J Sualocin → J Transpluto Dec 2.2228 2.22222 ninth (91.96)
+  - J Sualocin → J Gonggong Dec 33.9767 21×φ golden (87.80)
+  - J Sualocin → J Saturn RA 56.6334 35×φ golden (87.00)
 

@@ -19,11 +19,12 @@ Workbook race_batch_20220129_doncaster_1410_jupiter_tables.xlsx. Runners 5. Resu
 - **B5 Same body in both planes** (0 of 5): none
 - **B6 Same body on both charts** (0 of 5): none
 - **B7 Most sky bodies onto the jockey's Jupiter** (1 of 5): 3 Anna Bunina / James Bowen
+- **B8 One line star on the most natal bodies** (1 of 5): 2 Western Victory / Tom Bellamy
 
 ## Per runner
 
 - 1 Miranda / Bryony Frost: none
-- 2 Western Victory / Tom Bellamy: R42
+- 2 Western Victory / Tom Bellamy: R42, B8
 - 3 Anna Bunina / James Bowen: B7
 - 4 Dazzling Glory / Harry Skelton: none
 - 5 Miss Heritage / Sean Quinlan: none
@@ -95,4 +96,14 @@ _The runner(s) with the most sky bodies reaching the jockey's natal Jupiter (sta
   - S Quaoar → J Jupiter Dec 35.9997 36 whole (96.93)
   - S Sun → J Jupiter RA 110.9120 10×φ^5 phi power (96.32)
   - S Mars → J Jupiter RA 148.9993 149 whole (92.75)
+
+### B8 One line star on the most natal bodies
+_For each runner and each natal star on one chart (every star-row star is on a sky Jupiter, Sun or Moon line), count the different natal bodies of that chart it reaches with a cell scoring 80 or more (the natal star's own cell; a sky copy of the star does not count). The runner(s) with the highest count are picked; ties: every runner on the top count. Horse and jockey charts count separately._
+- 2 Western Victory / Tom Bellamy
+  - H Difda on 5 natal bodies at 80 or more (most in the field; next 3)
+  - H Difda → H Vesta RA 64.9997 65 whole (97.47)
+  - H Difda → H Pallas RA 17.7992 11×φ golden (94.73)
+  - H Difda → H Makemake RA 179.4716 10×φ^6 phi power (93.66)
+  - H Difda → H Sedna RA 42.3675 10×φ^3 phi power (93.62)
+  - H Difda → H Pluto RA 89.0010 89 whole (90.54)
 

@@ -19,10 +19,11 @@ Workbook race_batch_20220223_doncaster_1600_jupiter_tables.xlsx. Runners 6. Resu
 - **B5 Same body in both planes** (0 of 6): none
 - **B6 Same body on both charts** (0 of 6): none
 - **B7 Most sky bodies onto the jockey's Jupiter** (1 of 6): 5 Half Track / Sean Quinlan
+- **B8 One line star on the most natal bodies** (1 of 6): 1 Boss Man Fred / Harry Skelton
 
 ## Per runner
 
-- 1 Boss Man Fred / Harry Skelton: R25, R42, B1, B2, B3
+- 1 Boss Man Fred / Harry Skelton: R25, R42, B1, B2, B3, B8
 - 2 Mister Watson / Kielan Woods: none
 - 3 Gredin / Brian Hughes: none
 - 4 Mr Washington / Jordan Nailor: R42
@@ -99,4 +100,13 @@ _The runner(s) with the most sky bodies reaching the jockey's natal Jupiter (sta
 - 5 Half Track / Sean Quinlan
   - 1 sky bodies -> J Jupiter at 80 or more (most in the field; next 0)
   - S Pluto → J Jupiter RA 39.0014 39 whole (86.83)
+
+### B8 One line star on the most natal bodies
+_For each runner and each natal star on one chart (every star-row star is on a sky Jupiter, Sun or Moon line), count the different natal bodies of that chart it reaches with a cell scoring 80 or more (the natal star's own cell; a sky copy of the star does not count). The runner(s) with the highest count are picked; ties: every runner on the top count. Horse and jockey charts count separately._
+- 1 Boss Man Fred / Harry Skelton
+  - J Praesepe on 4 natal bodies at 80 or more (most in the field; next 3)
+  - J Praesepe → J Orcus RA 0.0277 conj (96.34)
+  - J Praesepe → J Uranus Dec 43.6862 27×φ golden (95.48)
+  - J Praesepe → J Rahu Dec 32.9990 33 whole (90.27)
+  - J Praesepe → J Gonggong Dec 40.4542 25×φ golden (80.61)
 

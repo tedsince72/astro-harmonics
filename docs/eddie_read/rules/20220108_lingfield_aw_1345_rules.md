@@ -19,11 +19,12 @@ Workbook race_batch_20220108_lingfield_aw_1345_jupiter_tables.xlsx. Runners 5. R
 - **B5 Same body in both planes** (0 of 5): none
 - **B6 Same body on both charts** (0 of 5): none
 - **B7 Most sky bodies onto the jockey's Jupiter** (1 of 5): 1 Protected Guest / Jane Elliott
+- **B8 One line star on the most natal bodies** (2 of 5): 1 Protected Guest / Jane Elliott, 2 Supakalanistic / Liam Keniry
 
 ## Per runner
 
-- 1 Protected Guest / Jane Elliott: R26, B1, B4, B7
-- 2 Supakalanistic / Liam Keniry: R28, R1b, R7, R42
+- 1 Protected Guest / Jane Elliott: R26, B1, B4, B7, B8
+- 2 Supakalanistic / Liam Keniry: R28, R1b, R7, R42, B8
 - 3 Creationist / Connor Murtagh: B1, B2, B3
 - 4 Trevolli / Kieran O'Neill: R42
 - 5 Eleven Eleven / Joey Haynes: R28, R7, B1
@@ -118,4 +119,17 @@ _The runner(s) with the most sky bodies reaching the jockey's natal Jupiter (sta
   - 2 sky bodies -> J Jupiter at 80 or more (most in the field; next 1)
   - S Uranus → J Jupiter RA 144.0015 144 whole (85.89)
   - S Makemake → J Jupiter Dec 43.9984 44 whole (84.63)
+
+### B8 One line star on the most natal bodies
+_For each runner and each natal star on one chart (every star-row star is on a sky Jupiter, Sun or Moon line), count the different natal bodies of that chart it reaches with a cell scoring 80 or more (the natal star's own cell; a sky copy of the star does not count). The runner(s) with the highest count are picked; ties: every runner on the top count. Horse and jockey charts count separately._
+- 1 Protected Guest / Jane Elliott
+  - H Al Rescha on 3 natal bodies at 80 or more (most in the field; tied with 1, next 2)
+  - H Al Rescha → H Quaoar RA 122.9754 φ^10 phi power (94.70)
+  - H Al Rescha → H Neptune RA 51.7748 32×φ golden (86.34)
+  - H Al Rescha → H Makemake RA 162.9985 163 whole (85.54)
+- 2 Supakalanistic / Liam Keniry
+  - H Ankaa on 3 natal bodies at 80 or more (most in the field; tied with 1, next 2)
+  - H Ankaa → H Transpluto Dec 53.9993 54 whole (92.68)
+  - H Ankaa → H Jupiter RA 64.9991 65 whole (91.40)
+  - H Ankaa → H Mercury Dec 37.0021 37 whole (80.06)
 

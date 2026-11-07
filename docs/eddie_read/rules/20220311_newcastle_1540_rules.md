@@ -19,12 +19,13 @@ Workbook race_batch_20220311_newcastle_1540_jupiter_tables.xlsx. Runners 6. Resu
 - **B5 Same body in both planes** (0 of 6): none
 - **B6 Same body on both charts** (0 of 6): none
 - **B7 Most sky bodies onto the jockey's Jupiter** (1 of 6): 6 Thundersockssundae / Kielan Woods
+- **B8 One line star on the most natal bodies** (1 of 6): 3 Peak Time / Conor O'Farrell
 
 ## Per runner
 
 - 1 Vocaliser / Fergus Gregory: R7
 - 2 Edmond Dantes / Brian Hughes: R42
-- 3 Peak Time / Conor O'Farrell: B1, B2, B3
+- 3 Peak Time / Conor O'Farrell: B1, B2, B3, B8
 - 5 Sir Apollo / Jonathan England: none
 - 6 Thundersockssundae / Kielan Woods: R7, B1, B7
 - 7 Black Opium / Stephen Mulqueen: none
@@ -102,4 +103,13 @@ _The runner(s) with the most sky bodies reaching the jockey's natal Jupiter (sta
   - 2 sky bodies -> J Jupiter at 80 or more (most in the field; next 1)
   - S Pallas → J Jupiter RA 168.0011 168 whole (89.12)
   - S Saturn → J Jupiter RA 141.4959 141.4 sqrt2 (80.02)
+
+### B8 One line star on the most natal bodies
+_For each runner and each natal star on one chart (every star-row star is on a sky Jupiter, Sun or Moon line), count the different natal bodies of that chart it reaches with a cell scoring 80 or more (the natal star's own cell; a sky copy of the star does not count). The runner(s) with the highest count are picked; ties: every runner on the top count. Horse and jockey charts count separately._
+- 3 Peak Time / Conor O'Farrell
+  - H Markab on 4 natal bodies at 80 or more (most in the field; next 3)
+  - H Markab → H Makemake RA 155.5839 155.556 ninth (97.31)
+  - H Markab → H Ketu Dec 1.6187 1×φ golden (96.22)
+  - H Markab → H Chiron RA 4.0008 4 whole (92.27)
+  - H Markab → H Orcus RA 161.8551 100×φ^1 phi power (87.63)
 

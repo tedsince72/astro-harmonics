@@ -19,13 +19,14 @@ Workbook race_batch_20220217_leicester_1445_jupiter_tables.xlsx. Runners 4. Resu
 - **B5 Same body in both planes** (0 of 4): none
 - **B6 Same body on both charts** (1 of 4): 3 Nelson River / Harry Bannister
 - **B7 Most sky bodies onto the jockey's Jupiter** (1 of 4): 3 Nelson River / Harry Bannister
+- **B8 One line star on the most natal bodies** (3 of 4): 1 Fransham / Jack Andrews, 3 Nelson River / Harry Bannister, 5 Stepney Causeway / Harry Skelton
 
 ## Per runner
 
-- 1 Fransham / Jack Andrews: R1b, B1
-- 3 Nelson River / Harry Bannister: R1b, B1, B2, B3, B4, B6, B7
+- 1 Fransham / Jack Andrews: R1b, B1, B8
+- 3 Nelson River / Harry Bannister: R1b, B1, B2, B3, B4, B6, B7, B8
 - 4 Nickolson / Jonjo O'Neill Jr: R40
-- 5 Stepney Causeway / Harry Skelton: none
+- 5 Stepney Causeway / Harry Skelton: B8
 
 ## Cells
 
@@ -108,4 +109,26 @@ _The runner(s) with the most sky bodies reaching the jockey's natal Jupiter (sta
   - S Pallas → J Jupiter Dec 3.3332 3.33333 ninth (98.95)
   - S Sedna → J Jupiter RA 155.5073 155.556 ninth (95.43)
   - S Quaoar → J Jupiter RA 63.0006 63 whole (93.87)
+
+### B8 One line star on the most natal bodies
+_For each runner and each natal star on one chart (every star-row star is on a sky Jupiter, Sun or Moon line), count the different natal bodies of that chart it reaches with a cell scoring 80 or more (the natal star's own cell; a sky copy of the star does not count). The runner(s) with the highest count are picked; ties: every runner on the top count. Horse and jockey charts count separately._
+- 1 Fransham / Jack Andrews
+  - J Acubens on 3 natal bodies at 80 or more (most in the field; tied with 2, next 2)
+  - J Acubens → J Gonggong Dec 29.0379 φ^7 phi power (95.27)
+  - J Acubens → J Quaoar RA 111.1580 111.111 ninth (92.32)
+  - J Acubens → J Orcus Dec 12.2295 12.2222 ninth (89.94)
+- 3 Nelson River / Harry Bannister
+  - H Alkes on 3 natal bodies at 80 or more (most in the field; tied with 2, next 2)
+  - H Alkes → H Ketu RA 155.5255 155.556 ninth (97.15)
+  - H Alkes → H Chiron RA 179.4180 10×φ^6 phi power (94.57)
+  - H Alkes → H Mercury Dec 0.0094 conj (93.85)
+- 5 Stepney Causeway / Harry Skelton
+  - J Murzim on 3 natal bodies at 80 or more (most in the field; tied with 2, next 2)
+  - J Murzim → J Sun Dec 18.8882 18.8889 ninth (99.49)
+  - J Murzim → J Juno Dec 17.7707 17.7778 ninth (94.45)
+  - J Murzim → J Orcus Dec 21.9984 22 whole (84.80)
+  - J Rigel on 3 natal bodies at 80 or more (most in the field; tied with 2, next 2)
+  - J Rigel → J Sedna Dec 12.2230 12.2222 ninth (98.86)
+  - J Rigel → J Quaoar RA 153.7148 95×φ golden (90.48)
+  - J Rigel → J Saturn Dec 14.5643 9×φ golden (88.11)
 

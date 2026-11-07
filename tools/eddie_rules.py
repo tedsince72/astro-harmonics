@@ -19,6 +19,7 @@ Rules (Eddie, 7 Nov 2026: "create the rules for all of these"; text in rules.jso
          B4 most same-body cells scoring >= 50 (pieces layer 'same body', score >= 50), alone, lead >= 2
          B5 one natal body with same-body cells >= 50 in RA and in Dec on the same chart
          B6 one body with a same-body cell >= 50 on the horse chart and one on the jockey chart
+         B8 one natal line star on the most natal bodies of its chart, each cell scoring >= 80 (ties all)
          B7 most sky bodies onto the jockey's natal Jupiter (top rows 'S X -> J Jupiter', score >= 80, X not Jupiter; ties all)
 A new rule: its entry in rules.json and a function in RULES below (takes the race context, returns {runner: [cells]}).
 """
@@ -158,15 +159,45 @@ def b7(ctx):
     out = {}
     for R, v in cnt.items():
         if len(v) == top:
-            others = sorted((len(cnt.get(Q, {})) for Q in ctx['d']['runners'] if Q != R), reverse=True)
-            nxt = f"next {others[0]}" if others else 'no other runner'
+            others = sorted((len(cnt.get(Q, {})) for Q in ctx['d']['runners'] if len(cnt.get(Q, {})) != top), reverse=True)
+            tied = sum(1 for Q in cnt if len(cnt[Q]) == top) - 1
+            nxt = (f"tied with {tied}, " if tied else '') + (f"next {others[0]}" if others else 'no other runner')
             out[R] = [f"{top} sky bodies -> J Jupiter at 80 or more (most in the field; {nxt})"] + \
                 [sbtxt(p) for p in sorted(v.values(), key=lambda p: -p['score'])]
     return out
 
 
+def b8(ctx):
+    reach = defaultdict(lambda: defaultdict(dict))   # runner -> (chart, star) -> body -> piece
+    for p in ctx['d']['pieces']:
+        if (p['layer'] == 'star rows' and p['source'].startswith(p['chart'] + ' ')
+                and p.get('score') is not None and p['score'] >= 80):
+            b = reach[p['runner']][(p['chart'], p['star'])]
+            if p['body'] not in b or p['score'] > b[p['body']]['score']:
+                b[p['body']] = p
+    best = {R: max(len(v) for v in st.values()) for R, st in reach.items() if st}
+    if not best:
+        return {}
+    top = max(best.values())
+    out = {}
+    for R, n in best.items():
+        if n == top:
+            others = sorted((best.get(Q, 0) for Q in ctx['d']['runners'] if best.get(Q, 0) != top), reverse=True)
+            tied = sum(1 for Q in best if best[Q] == top) - 1
+            nxt = (f"tied with {tied}, " if tied else '') + (f"next {others[0]}" if others else 'no other runner')
+            L = []
+            for (ch, star), bodies in sorted(reach[R].items()):
+                if len(bodies) == top:
+                    L.append(f"{ch} {star} on {top} natal bodies at 80 or more (most in the field; {nxt})")
+                    L += [f"{p['source']} → {ch} {p['body']} {p['plane']} {p['value']:.4f} "
+                          + (f"conj ({p['score']:.2f})" if p['family'] == 'conj' else f"{p['target']} {p['family']} ({p['score']:.2f})")
+                          for p in sorted(bodies.values(), key=lambda p: -p['score'])]
+            out[R] = L
+    return out
+
+
 RULES = {rid: reg_rule(rid) for rid in ('R25', 'R28', 'R1b', 'R7', 'R26', 'R40', 'R42', 'R1')}
-RULES.update(B1=b1, B2=b2, B3=b3, B4=b4, B5=b5, B6=b6, B7=b7)
+RULES.update(B1=b1, B2=b2, B3=b3, B4=b4, B5=b5, B6=b6, B7=b7, B8=b8)
 
 
 def run(json_path, rules):

@@ -19,6 +19,7 @@ Workbook race_batch_20220215_newcastle_aw_1640_jupiter_tables.xlsx. Runners 6. R
 - **B5 Same body in both planes** (0 of 6): none
 - **B6 Same body on both charts** (0 of 6): none
 - **B7 Most sky bodies onto the jockey's Jupiter** (1 of 6): 4 Onesmoothoperator / Harry Russell
+- **B8 One line star on the most natal bodies** (1 of 6): 5 Aced It / Jack Mitchell
 
 ## Per runner
 
@@ -26,7 +27,7 @@ Workbook race_batch_20220215_newcastle_aw_1640_jupiter_tables.xlsx. Runners 6. R
 - 2 Alba Rose / Joe Fanning: B1
 - 3 Wise Eagle / Graham Lee: R1b, R7, B1, B2, B3
 - 4 Onesmoothoperator / Harry Russell: R1b, R7, B1, B7
-- 5 Aced It / Jack Mitchell: B1
+- 5 Aced It / Jack Mitchell: B1, B8
 - 6 Resumption / Tom Marquand: R26
 
 ## Cells
@@ -116,4 +117,13 @@ _The runner(s) with the most sky bodies reaching the jockey's natal Jupiter (sta
   - 2 sky bodies -> J Jupiter at 80 or more (most in the field; next 1)
   - S Haumea → J Jupiter RA 102.0013 102 whole (87.61)
   - S Saturn → J Jupiter RA 0.1104 conj (85.83)
+
+### B8 One line star on the most natal bodies
+_For each runner and each natal star on one chart (every star-row star is on a sky Jupiter, Sun or Moon line), count the different natal bodies of that chart it reaches with a cell scoring 80 or more (the natal star's own cell; a sky copy of the star does not count). The runner(s) with the highest count are picked; ties: every runner on the top count. Horse and jockey charts count separately._
+- 5 Aced It / Jack Mitchell
+  - J Difda on 4 natal bodies at 80 or more (most in the field; next 3)
+  - J Difda → J Transpluto RA 133.3345 133.333 ninth (99.86)
+  - J Difda → J Gonggong Dec 2.6181 φ^2 phi power (99.31)
+  - J Difda → J Quaoar RA 137.5332 85×φ golden (97.81)
+  - J Difda → J Mercury Dec 5.9990 6 whole (90.40)
 
