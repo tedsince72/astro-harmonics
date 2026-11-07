@@ -1,0 +1,2443 @@
+# Stage 2 layers: race_batch_20261106_fontwell_1510_jupiter_tables.xlsx
+The stage 1 data laid out in fixed layers for every runner; data only, no interpretation, no ranking, no pick (tools/eddie_layers.py).
+
+## L0 field
+- In the tables workbook (6): 1 My Own Lovely Lee / Callum Pritchard; 2 Ted The Thief / Harry Kimber; 3 Hard Stare / Jonathan Burke; 4 Sweet Nightingale / Tristan Durrell; 5 Pawpaw / Caoilin Quinn; 6 Steal The Moves / Lilly Pinchin
+- Missing from the tables workbook (in the _active.xlsx): none
+- Cloth numbers not in the tables workbook: none
+
+## Sky (noted lines)
+- S Jupiter → Venus RA 53.3984 33×φ golden (80.90)
+- S Jupiter → Uranus RA 85.0029 85 whole (73.42)
+- S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+- S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+- S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+- S Sun → Haumea RA 0.6466 conj (32.37)
+- S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+- S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+- S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+- S Moon → Procyon RA 74.9943 75 whole (50.95)
+- S Moon → Nunki RA 93.9966 94 whole (69.18)
+- Hubs: none
+
+## READ (reading order, Eddie 7 Nov 2026)
+### READ 1 same body first
+- **1 My Own Lovely Lee / Callum Pritchard**
+  - S Mercury → H Mercury RA 166.8689 166.667 ninth (loose)
+  - S Jupiter → H Jupiter Dec 34.9796 35 whole (loose)
+  - S Neptune → H Neptune RA 11.0031 11 whole (71.07)
+  - S Pluto → H Pluto Dec 1.6631 1.66667 ninth (loose)
+  - S Juno → H Juno RA 112.9723 113 whole (loose)
+  - S Juno → H Juno Dec 18.7821 18.8889 ninth (loose)
+  - S Gonggong → H Gonggong Dec 1.2236 1.22222 ninth (loose)
+  - S Venus → J Venus RA 158.5671 98×φ golden (98.34)
+  - S Juno → J Juno Dec 8.0930 5×φ golden (loose)
+  - S Vesta → J Vesta RA 32.3566 20×φ golden (loose)
+  - S Haumea → J Haumea RA 22.2668 22.2222 ninth (loose)
+- **2 Ted The Thief / Harry Kimber**
+  - S Mars → H Mars Dec 38.8471 24×φ golden (loose)
+  - S Pluto → H Pluto Dec 1.6675 1.66667 ninth (loose)
+  - S Eris → H Eris RA 1.0167 1 whole (loose)
+  - S Sedna → H Sedna RA 4.8485 3×φ golden (loose)
+  - S Makemake → H Makemake RA 5.0146 5 whole (7.16)
+  - S Jupiter → J Jupiter RA 88.8702 88.8889 ninth (loose)
+  - S Neptune → J Neptune Dec 17.9356 φ^6 phi power (loose)
+  - S Chiron → J Chiron RA 133.8224 133.333 ninth (loose)
+  - S Chiron → J Chiron Dec 27.5350 17×φ golden (loose)
+  - S Ceres → J Ceres Dec 17.6653 17.7778 ninth (loose)
+  - S Juno → J Juno RA 21.0048 21 whole (57.81)
+  - S Sedna → J Sedna RA 14.5344 9×φ golden (loose)
+  - S Haumea → J Haumea Dec 8.0926 5×φ golden (loose)
+  - S Orcus → J Orcus RA 23.9840 24 whole (4.02)
+- **3 Hard Stare / Jonathan Burke**
+  - S Sun → H Sun RA 168.0238 168 whole (loose)
+  - S Sun → H Sun Dec 28.0068 28 whole (43.48)
+  - S Jupiter → H Jupiter RA 151.0269 151 whole (loose)
+  - S Jupiter → H Jupiter Dec 35.0192 35 whole (0.16)
+  - S Neptune → H Neptune RA 11.1126 11.1111 ninth (97.63)
+  - S Ceres → H Ceres RA 141.1896 141.4 sqrt2 (loose)
+  - S Rahu → H Rahu RA 122.1129 122.222 ninth (loose)
+  - S Eris → H Eris Dec 1.4135 1.414 sqrt2 (loose)
+  - S Ketu → H Ketu RA 122.1129 122.222 ninth (loose)
+  - S Chiron → J Chiron RA 165.5987 166.667 ninth (loose)
+  - S Sedna → J Sedna RA 17.6621 17.7778 ninth (loose)
+  - S Haumea → J Haumea Dec 8.0215 8 whole (loose)
+  - S Transpluto → J Transpluto RA 10.0166 10 whole (2.90)
+- **4 Sweet Nightingale / Tristan Durrell**
+  - S Sun → H Sun RA 166.8660 166.667 ninth (loose)
+  - S Venus → H Venus RA 155.5560 155.556 ninth (99.96)
+  - S Jupiter → H Jupiter Dec 18.9978 19 whole (79.42)
+  - S Saturn → H Saturn Dec 22.9968 23 whole (70.42)
+  - S Pluto → H Pluto RA 15.5415 15.5556 ninth (loose)
+  - S Pallas → H Pallas RA 6.8531 φ^4 phi power (loose)
+  - S Vesta → H Vesta RA 101.9201 63×φ golden (25.42)
+  - S Gonggong → H Gonggong Dec 2.0094 2 whole (27.93)
+  - S Transpluto → H Transpluto RA 3.9848 4 whole (5.87)
+  - S Mars → J Mars RA 111.3927 111.111 ninth (loose)
+  - S Mars → J Mars Dec 43.0203 43 whole (loose)
+  - S Neptune → J Neptune Dec 17.6743 17.7778 ninth (loose)
+  - S Chiron → J Chiron RA 122.5436 122.222 ninth (loose)
+  - S Ceres → J Ceres RA 166.7777 166.667 ninth (loose)
+  - S Juno → J Juno Dec 27.9813 28 whole (0.44)
+  - S Vesta → J Vesta Dec 19.0127 19 whole (13.19)
+  - S Rahu → J Rahu RA 127.8303 79×φ golden (68.28)
+  - S Gonggong → J Gonggong Dec 6.4684 4×φ golden (loose)
+  - S Ketu → J Ketu RA 127.8303 79×φ golden (68.28)
+- **5 Pawpaw / Caoilin Quinn**
+  - S Sun → H Sun RA 121.8848 122.222 ninth (loose)
+  - S Sun → H Sun Dec 8.8759 8.88889 ninth (loose)
+  - S Saturn → H Saturn Dec 23.0293 23 whole (loose)
+  - S Neptune → H Neptune RA 18.7790 18.8889 ninth (loose)
+  - S Pluto → H Pluto RA 16.1720 10×φ^1 phi power (loose)
+  - S Chiron → H Chiron Dec 9.7008 6×φ golden (loose)
+  - S Pallas → H Pallas RA 24.1099 24.14 silver (loose)
+  - S Vesta → H Vesta Dec 30.7243 19×φ golden (loose)
+  - S Sedna → H Sedna Dec 1.3318 1.33333 ninth (loose)
+  - S Gonggong → H Gonggong RA 1.3285 1.33333 ninth (loose)
+  - S Mercury → J Mercury RA 135.0125 135 whole (14.10)
+  - S Venus → J Venus RA 144.5478 144.444 ninth (loose)
+  - S Mars → J Mars RA 111.3885 111.111 ninth (loose)
+  - S Mars → J Mars Dec 42.9722 43 whole (loose)
+  - S Ceres → J Ceres Dec 53.3853 33×φ golden (loose)
+  - S Pallas → J Pallas RA 128.9969 129 whole (71.38)
+  - S Pallas → J Pallas Dec 45.0204 45 whole (loose)
+  - S Juno → J Juno RA 133.5919 133.333 ninth (loose)
+  - S Rahu → J Rahu Dec 36.0181 36 whole (0.86)
+  - S Sedna → J Sedna RA 14.0124 14 whole (14.50)
+  - S Haumea → J Haumea RA 24.0033 24 whole (69.67)
+  - S Makemake → J Makemake Dec 12.2842 12.2222 ninth (loose)
+  - S Transpluto → J Transpluto Dec 3.3268 3.33333 ninth (loose)
+  - S Ketu → J Ketu Dec 36.0181 36 whole (0.86)
+- **6 Steal The Moves / Lilly Pinchin**
+  - S Venus → H Venus Dec 39.9870 40 whole (12.41)
+  - S Saturn → H Saturn RA 64.9765 65 whole (loose)
+  - S Ceres → H Ceres Dec 42.0156 42 whole (4.90)
+  - S Makemake → H Makemake Dec 4.4357 4.44444 ninth (loose)
+  - S Sun → J Sun Dec 1.9795 2 whole (loose)
+  - S Mercury → J Mercury Dec 6.6699 6.66667 ninth (loose)
+  - S Venus → J Venus RA 133.1154 133.333 ninth (loose)
+  - S Mars → J Mars Dec 26.0709 10×φ^2 phi power (loose)
+  - S Chiron → J Chiron RA 144.8300 144.444 ninth (loose)
+  - S Juno → J Juno Dec 3.3357 3.33333 ninth (loose)
+  - S Vesta → J Vesta Dec 26.0513 10×φ^2 phi power (loose)
+  - S Haumea → J Haumea RA 24.0842 24.14 silver (loose)
+  - S Haumea → J Haumea Dec 7.7665 7.77778 ninth (loose)
+### READ 2 Jupiter / Sun star lines, highest score first, each in full
+#### 1. S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96) — runners with cells 6/6
+- Moon confirms: none
+- 1 My Own Lovely Lee / Callum Pritchard
+  - star rows: H Galactic Centre → H Jupiter RA 32.0107 32 whole (21.44) — also: 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell
+  - star rows: H Galactic Centre → H Mars Dec 12.0118 12 whole (16.65) — only
+  - star rows: H Galactic Centre → H Jupiter Dec 8.0194 8 whole (0.09) — also: 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell
+  - star rows: H Galactic Centre → H Neptune Dec 24.0137 24 whole (9.91) — also: 5 Pawpaw / Caoilin Quinn
+  - star rows: H Galactic Centre → H Pluto Dec 6.9876 7 whole (14.41) — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke
+  - star rows: H Galactic Centre → H Rahu RA 176.3821 109×φ golden (24.25) — also: 4 Sweet Nightingale / Tristan Durrell
+  - star rows: H Galactic Centre → H Makemake Dec 53.0110 53 whole (20.21) — also: 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+  - star rows: J Galactic Centre → J Chiron RA 0.7707 conj (23.64) — also: 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+  - star rows: J Galactic Centre → J Eris Dec 22.2230 22.2222 ninth (98.85) — also: 3 Hard Stare / Jonathan Burke, 6 Steal The Moves / Lilly Pinchin
+  - MATCH EXACT: H Algol → Rahu RA 43.0033 43 whole (69.98)
+  - MATCH EXACT: J Algol → Orcus Dec 42.9996 43 whole (95.60)
+- 2 Ted The Thief / Harry Kimber
+  - star rows: H Galactic Centre → H Pluto Dec 6.9918 7 whole (34.57) — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke
+  - star rows: H Galactic Centre → H Orcus Dec 17.9886 18 whole (18.62) — only
+  - star rows: J Galactic Centre → J Ceres RA 79.2825 49×φ golden (92.72) — also: 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+  - star rows: J Galactic Centre → J Vesta RA 33.9892 34 whole (21.09) — also: 4 Sweet Nightingale / Tristan Durrell
+- 3 Hard Stare / Jonathan Burke
+  - star rows: S Galactic Centre → H Jupiter Dec 7.9804 8 whole (0.04) — also: 1 My Own Lovely Lee / Callum Pritchard, 4 Sweet Nightingale / Tristan Durrell
+  - star rows: H Galactic Centre → H Sun RA 122.9859 φ^10 phi power (98.06) — only
+  - star rows: H Galactic Centre → H Mercury Dec 33.9951 34 whole (57.14) — only
+  - star rows: H Galactic Centre → H Pluto Dec 6.9945 7 whole (52.50) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber
+  - star rows: H Galactic Centre → H Eris RA 119.7435 74×φ golden (52.35) — also: 1 My Own Lovely Lee / Callum Pritchard, 6 Steal The Moves / Lilly Pinchin
+  - star rows: H Galactic Centre → H Makemake Dec 53.0019 53 whole (81.46) — also: 1 My Own Lovely Lee / Callum Pritchard, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+  - star rows: S Galactic Centre → J Jupiter RA 0.9761 conj (12.20) — also: 1 My Own Lovely Lee / Callum Pritchard, 4 Sweet Nightingale / Tristan Durrell
+  - star rows: J Galactic Centre → J Saturn Dec 22.6593 14×φ golden (62.13) — also: 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+  - star rows: J Galactic Centre → J Juno Dec 14.9965 15 whole (67.79) — only
+  - star rows: J Galactic Centre → J Sedna RA 137.9983 138 whole (83.42) — also: 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+  - star rows: J Galactic Centre → J Makemake RA 89.9905 90 whole (27.77) — also: 1 My Own Lovely Lee / Callum Pritchard, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+  - star rows: J Galactic Centre → J Transpluto RA 119.7195 74×φ golden (28.58) — also: 5 Pawpaw / Caoilin Quinn
+  - MATCH EXACT: J Fomalhaut → Transpluto Dec 43.0189 43 whole (0.33)
+- 4 Sweet Nightingale / Tristan Durrell
+  - star rows: H Galactic Centre → H Jupiter Dec 24.0011 24 whole (89.20) — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke
+  - star rows: H Galactic Centre → H Saturn RA 0.7641 conj (24.07) — also: 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn
+  - star rows: H Galactic Centre → H Uranus Dec 38.0099 38 whole (25.43) — also: 5 Pawpaw / Caoilin Quinn
+  - star rows: H Galactic Centre → H Vesta RA 147.2627 91×φ golden (11.13) — also: 2 Ted The Thief / Harry Kimber
+  - star rows: H Galactic Centre → H Ketu Dec 17.9869 18 whole (11.76) — only
+  - star rows: J Galactic Centre → J Jupiter RA 170.9828 171 whole (1.96) — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke
+  - star rows: J Galactic Centre → J Chiron Dec 12.0178 12 whole (1.24) — also: 1 My Own Lovely Lee / Callum Pritchard, 5 Pawpaw / Caoilin Quinn
+  - star rows: J Galactic Centre → J Rahu RA 170.0060 170 whole (48.82) — also: 1 My Own Lovely Lee / Callum Pritchard
+  - star rows: J Galactic Centre → J Gonggong Dec 12.2270 12.2222 ninth (93.32) — only
+  - star rows: J Galactic Centre → J Ketu RA 9.9940 10 whole (48.82) — only
+  - natal Jupiter → star: H Jupiter → H star Galactic Centre Dec 24.0011 24 whole (89.20) — also: 5 Pawpaw / Caoilin Quinn
+  - MATCH EXACT: H Mirfak → Pallas RA 43.0102 43 whole (24.17)
+  - MATCH EXACT: H Jupiter → H body → Transpluto RA 43.0167 43 whole (2.79)
+  - same number: S Mars → J Mars Dec 43.0203 43 whole (loose) — also: 5 Pawpaw / Caoilin Quinn
+- 5 Pawpaw / Caoilin Quinn
+  - star rows: H Galactic Centre → H Saturn RA 0.1119 conj (85.63) — also: 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell
+  - star rows: H Galactic Centre → H Uranus Dec 37.0185 37 whole (0.56) — also: 4 Sweet Nightingale / Tristan Durrell
+  - star rows: H Galactic Centre → H Chiron Dec 29.9869 30 whole (11.76) — also: 1 My Own Lovely Lee / Callum Pritchard, 4 Sweet Nightingale / Tristan Durrell
+  - star rows: H Galactic Centre → H Sedna RA 149.0137 149 whole (10.06) — also: 3 Hard Stare / Jonathan Burke, 6 Steal The Moves / Lilly Pinchin
+  - star rows: J Galactic Centre → J Neptune RA 44.0190 44 whole (0.25) — also: 1 My Own Lovely Lee / Callum Pritchard
+  - star rows: J Galactic Centre → J Ceres Dec 0.1159 conj (37.65) — also: 2 Ted The Thief / Harry Kimber, 6 Steal The Moves / Lilly Pinchin
+  - star rows: J Galactic Centre → J Makemake RA 86.9872 87 whole (12.95) — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke, 6 Steal The Moves / Lilly Pinchin
+  - star rows: J Galactic Centre → J Transpluto Dec 42.0608 26×φ golden (56.30) — also: 3 Hard Stare / Jonathan Burke
+  - same number: S Mars → J Mars Dec 42.9722 43 whole (loose) — also: 4 Sweet Nightingale / Tristan Durrell
+- 6 Steal The Moves / Lilly Pinchin
+  - star rows: H Galactic Centre → H Ceres RA 72.9969 73 whole (71.50) — also: 2 Ted The Thief / Harry Kimber, 5 Pawpaw / Caoilin Quinn
+  - star rows: H Galactic Centre → H Eris Dec 27.5090 17×φ golden (85.62) — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke
+  - star rows: H Galactic Centre → H Haumea RA 51.7778 32×φ golden (95.72) — only
+  - star rows: H Galactic Centre → H Makemake Dec 53.0172 53 whole (1.91) — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn
+  - star rows: J Galactic Centre → J Ceres Dec 49.0033 49 whole (69.87) — also: 2 Ted The Thief / Harry Kimber, 5 Pawpaw / Caoilin Quinn
+  - star rows: J Galactic Centre → J Sedna Dec 33.9734 21×φ golden (69.67) — also: 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn
+  - MATCH EXACT: H Wezen → Haumea Dec 42.9952 43 whole (57.79)
+  - MATCH EXACT: H Sadalsuud → Chiron RA 43.0126 43 whole (13.51)
+#### 2. S Jupiter → Capella Dec 32.0024 32 whole (77.66) — runners with cells 6/6
+- Moon confirms: none
+- 1 My Own Lovely Lee / Callum Pritchard
+  - star rows: S Capella → H Jupiter RA 140.7483 87×φ golden (13.11) — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell
+  - star rows: H Capella → H Jupiter Dec 66.9850 67 whole (6.15) — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell
+  - star rows: H Capella → H Sun RA 46.0019 46 whole (81.83) — also: 3 Hard Stare / Jonathan Burke
+  - star rows: H Capella → H Mars Dec 62.9925 63 whole (39.25) — only
+  - star rows: H Capella → H Neptune Dec 50.9907 51 whole (28.43) — also: 2 Ted The Thief / Harry Kimber
+  - star rows: H Capella → H Pluto RA 142.3641 88×φ golden (8.50) — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke
+  - star rows: H Capella → H Pluto Dec 68.0168 68 whole (2.60) — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke
+  - star rows: H Capella → H Makemake Dec 21.9934 22 whole (44.62) — also: 3 Hard Stare / Jonathan Burke, 6 Steal The Moves / Lilly Pinchin
+  - star rows: J Capella → J Sun RA 123.0095 123 whole (27.77) — also: 3 Hard Stare / Jonathan Burke
+  - star rows: J Capella → J Makemake RA 101.9291 63×φ golden (61.45) — also: 3 Hard Stare / Jonathan Burke, 6 Steal The Moves / Lilly Pinchin
+  - MATCH EXACT: H Alpheratz → Uranus RA 32.0023 32 whole (78.51)
+  - MATCH EXACT: H Galactic Centre → Jupiter RA 32.0107 32 whole (21.44)
+  - MATCH EXACT: J Jupiter → J body → Pluto Dec 31.9958 32 whole (62.25)
+  - same number: H Galactic Centre → H Jupiter RA 32.0107 32 whole (21.44) — also: 2 Ted The Thief / Harry Kimber
+  - same number: J Jupiter → J Pluto Dec 31.9958 32 whole (62.25) — also: 2 Ted The Thief / Harry Kimber
+- 2 Ted The Thief / Harry Kimber
+  - star rows: H Capella → H Jupiter RA 145.6483 90×φ golden (4.87) — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell
+  - star rows: H Capella → H Pluto Dec 68.0133 68 whole (11.21) — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke
+  - star rows: H Capella → H Pallas RA 151.9999 152 whole (99.30) — also: 3 Hard Stare / Jonathan Burke
+  - star rows: H Capella → H Orcus Dec 57.0164 57 whole (3.18) — also: 5 Pawpaw / Caoilin Quinn
+  - star rows: J Capella → J Neptune RA 130.9865 131 whole (10.60) — also: 1 My Own Lovely Lee / Callum Pritchard
+  - MATCH EXACT: H Zubeneschamali → Makemake RA 31.9991 32 whole (90.91)
+  - MATCH EXACT: H Algenib → Mercury RA 31.9850 32 whole (6.28)
+  - MATCH EXACT: H Rigel → Makemake Dec 31.9846 32 whole (5.27)
+  - MATCH EXACT: H Zosma → Mercury Dec 31.9822 32 whole (1.18)
+  - MATCH EXACT: J Antares → Sedna Dec 31.9860 32 whole (8.94)
+  - same number: H Rigel → H Makemake Dec 31.9846 32 whole (5.27) — also: 1 My Own Lovely Lee / Callum Pritchard
+- 3 Hard Stare / Jonathan Burke
+  - star rows: H Capella → H Sun Dec 33.9830 34 whole (2.24) — also: 1 My Own Lovely Lee / Callum Pritchard
+  - star rows: H Capella → H Mercury Dec 41.0093 41 whole (28.38) — only
+  - star rows: H Capella → H Jupiter RA 141.0104 141 whole (23.23) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber, 4 Sweet Nightingale / Tristan Durrell
+  - star rows: H Capella → H Pluto RA 142.3706 88×φ golden (24.20) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber
+  - star rows: H Capella → H Pluto Dec 68.0100 68 whole (25.14) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber
+  - star rows: H Capella → H Pallas RA 145.6438 90×φ golden (12.85) — also: 2 Ted The Thief / Harry Kimber
+  - star rows: H Capella → H Eris RA 53.0038 53 whole (65.35) — only
+  - star rows: H Capella → H Makemake Dec 22.0025 22 whole (76.44) — also: 1 My Own Lovely Lee / Callum Pritchard, 6 Steal The Moves / Lilly Pinchin
+  - star rows: J Capella → J Venus RA 134.2810 83×φ golden (26.23) — also: 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+  - star rows: J Capella → J Uranus RA 137.9906 138 whole (28.08) — also: 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+  - star rows: J Capella → J Pluto RA 163.0121 163 whole (15.64) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber
+  - star rows: J Capella → J Juno Dec 60.0105 60 whole (22.66) — only
+  - MATCH EXACT: H Vindemiatrix → Jupiter Dec 31.9854 32 whole (7.36)
+  - MATCH EXACT: J Pleiades → Pluto Dec 32.0140 32 whole (8.99)
+- 4 Sweet Nightingale / Tristan Durrell
+  - star rows: S Capella → H Jupiter Dec 51.0002 51 whole (98.03) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke
+  - star rows: H Capella → H Saturn RA 171.9834 172 whole (2.81) — only
+  - star rows: H Capella → H Uranus Dec 36.9949 37 whole (55.71) — also: 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn
+  - star rows: H Capella → H Vesta RA 39.9899 40 whole (24.51) — also: 6 Steal The Moves / Lilly Pinchin
+  - star rows: H Capella → H Ketu Dec 57.0180 57 whole (1.02) — only
+  - star rows: J Capella → J Chiron Dec 62.9864 63 whole (10.13) — also: 5 Pawpaw / Caoilin Quinn
+  - natal Jupiter → star: H Jupiter → H star Capella Dec 51.0037 51 whole (66.17) — also: 5 Pawpaw / Caoilin Quinn
+  - MATCH EXACT: H Meissa → Saturn Dec 31.9864 32 whole (10.30)
+  - MATCH EXACT: J Markab → Gonggong Dec 31.9872 32 whole (12.90)
+  - MATCH EXACT: J Diadem → Uranus Dec 32.0193 32 whole (0.13)
+- 5 Pawpaw / Caoilin Quinn
+  - star rows: H Capella → H Venus RA 69.9939 70 whole (48.27) — also: 3 Hard Stare / Jonathan Burke, 6 Steal The Moves / Lilly Pinchin
+  - star rows: H Capella → H Uranus Dec 37.9870 38 whole (12.15) — also: 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell
+  - star rows: H Capella → H Chiron Dec 45.0186 45 whole (0.47) — also: 4 Sweet Nightingale / Tristan Durrell
+  - star rows: H Capella → H Orcus RA 72.9905 73 whole (27.50) — also: 2 Ted The Thief / Harry Kimber
+  - MATCH EXACT: H Alhena → Quaoar Dec 32.0185 32 whole (0.59)
+  - MATCH EXACT: H Meissa → Saturn Dec 32.0189 32 whole (0.29)
+  - MATCH EXACT: J Acubens → Sun RA 32.0018 32 whole (82.41)
+  - MATCH EXACT: J Arcturus → Pallas RA 32.0021 32 whole (79.77)
+- 6 Steal The Moves / Lilly Pinchin
+  - star rows: H Capella → H Venus RA 1.1644 conj (5.00) — also: 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn
+  - star rows: H Capella → H Vesta RA 0.5690 conj (38.52) — also: 4 Sweet Nightingale / Tristan Durrell
+  - star rows: H Capella → H Makemake Dec 21.9868 22 whole (11.40) — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke
+  - star rows: J Capella → J Ceres Dec 26.0041 26 whole (63.21) — only
+  - MATCH EXACT: H Facies → Sedna Dec 31.9972 32 whole (74.15)
+  - MATCH EXACT: H Meissa → Pluto Dec 31.9914 32 whole (32.42)
+  - MATCH EXACT: J Kaus Australis → Mercury RA 32.0057 32 whole (50.88)
+#### 3. S Sun → Zubenelgenubi Dec 0.0478 conj (70.68) — runners with cells 6/6
+- Moon confirms: none
+- 1 My Own Lovely Lee / Callum Pritchard
+  - star rows: H Zubenelgenubi → H Saturn RA 81.0157 81 whole (4.60) — also: 4 Sweet Nightingale / Tristan Durrell
+  - star rows: H Zubenelgenubi → H Rahu RA 132.6859 82×φ golden (60.89) — only
+  - star rows: J Zubenelgenubi → J Jupiter RA 163.4087 101×φ golden (36.68) — also: 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell
+  - star rows: J Zubenelgenubi → J Uranus RA 100.3043 62×φ golden (32.96) — only
+  - star rows: J Zubenelgenubi → J Vesta Dec 4.2363 φ^3 phi power (98.31) — also: 2 Ted The Thief / Harry Kimber, 4 Sweet Nightingale / Tristan Durrell
+  - star rows: J Zubenelgenubi → J Orcus Dec 14.0003 14 whole (97.32) — also: 6 Steal The Moves / Lilly Pinchin
+  - MATCH CONJ STAR: H Zubenelgenubi → Rahu RA 132.6859 82×φ golden (60.89)
+  - MATCH CONJ STAR: S Jupiter → H body → Ketu RA 122.9082 φ^10 phi power (74.64)
+  - MATCH CONJ STAR: J Zubenelgenubi → Vesta Dec 4.2363 φ^3 phi power (98.31)
+  - MATCH CONJ STAR: J Zubenelgenubi → Orcus Dec 14.0003 14 whole (97.32)
+  - MATCH CONJ STAR: S Jupiter → J body → Ceres RA 121.9949 122 whole (55.50)
+  - MATCH CONJ STAR: S Jupiter → J body → Makemake RA 33.9760 21×φ golden (83.93)
+- 2 Ted The Thief / Harry Kimber
+  - star rows: H Zubenelgenubi → H Neptune RA 126.9947 127 whole (53.85) — also: 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn
+  - star rows: H Zubenelgenubi → H Vesta RA 166.6084 166.667 ninth (95.01) — also: 1 My Own Lovely Lee / Callum Pritchard, 4 Sweet Nightingale / Tristan Durrell
+  - star rows: H Zubenelgenubi → H Quaoar RA 51.7716 32×φ golden (69.00) — also: 5 Pawpaw / Caoilin Quinn
+  - MATCH CONJ STAR: H Zubenelgenubi → Neptune RA 126.9947 127 whole (53.85)
+  - MATCH CONJ STAR: H Zubenelgenubi → Vesta RA 166.6084 166.667 ninth (95.01)
+  - MATCH CONJ STAR: H Zubenelgenubi → Quaoar RA 51.7716 32×φ golden (69.00)
+  - MATCH CONJ STAR: S Jupiter → J body → Eris RA 122.9347 φ^10 phi power (82.28)
+  - MATCH CONJ STAR: S Jupiter → J body → Transpluto RA 0.1967 conj (75.50)
+- 3 Hard Stare / Jonathan Burke
+  - star rows: S Zubenelgenubi → H Jupiter Dec 4.9871 5 whole (12.74) — also: 1 My Own Lovely Lee / Callum Pritchard, 4 Sweet Nightingale / Tristan Durrell
+  - star rows: H Zubenelgenubi → H Sun RA 166.6818 166.667 ninth (98.70) — only
+  - star rows: H Zubenelgenubi → H Mercury Dec 21.0314 13×φ golden (82.06) — also: 5 Pawpaw / Caoilin Quinn
+  - star rows: H Zubenelgenubi → H Neptune Dec 11.0057 11 whole (51.08) — also: 2 Ted The Thief / Harry Kimber, 5 Pawpaw / Caoilin Quinn
+  - star rows: H Zubenelgenubi → H Ceres RA 111.1618 111.111 ninth (91.70) — only
+  - star rows: H Zubenelgenubi → H Eris RA 163.4394 101×φ golden (19.74) — only
+  - MATCH CONJ STAR: H Zubenelgenubi → Sun RA 166.6818 166.667 ninth (98.70)
+  - MATCH CONJ STAR: H Zubenelgenubi → Mercury Dec 21.0314 13×φ golden (82.06)
+  - MATCH CONJ STAR: H Zubenelgenubi → Neptune Dec 11.0057 11 whole (51.08)
+  - MATCH CONJ STAR: H Zubenelgenubi → Ceres RA 111.1618 111.111 ninth (91.70)
+  - MATCH CONJ STAR: S Jupiter → H body → Mercury Dec 9.0038 9 whole (65.37)
+  - MATCH CONJ STAR: S Jupiter → H body → Uranus RA 113.2581 70×φ golden (75.25)
+  - MATCH CONJ STAR: S Jupiter → H body → Pluto Dec 36.0045 36 whole (60.40)
+  - MATCH CONJ STAR: S Jupiter → H body → Makemake Dec 10.0030 10 whole (72.24)
+  - MATCH CONJ STAR: S Jupiter → J body → Juno Dec 28.0026 28 whole (75.46)
+- 4 Sweet Nightingale / Tristan Durrell
+  - star rows: H Zubenelgenubi → H Venus RA 133.3603 133.333 ninth (96.77) — also: 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+  - star rows: H Zubenelgenubi → H Venus Dec 17.9434 φ^6 phi power (98.07) — also: 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+  - star rows: H Zubenelgenubi → H Jupiter RA 26.9853 27 whole (6.92) — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke
+  - star rows: H Zubenelgenubi → H Saturn Dec 6.0098 6 whole (26.07) — also: 1 My Own Lovely Lee / Callum Pritchard
+  - star rows: H Zubenelgenubi → H Vesta RA 103.5669 64×φ golden (36.92) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber
+  - star rows: H Zubenelgenubi → H Vesta Dec 41.4279 41.4 silver (93.80) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber
+  - star rows: H Zubenelgenubi → H Transpluto RA 70.0019 70 whole (81.71) — only
+  - star rows: J Zubenelgenubi → J Vesta RA 162.0130 162 whole (12.40) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber
+  - star rows: J Zubenelgenubi → J Transpluto Dec 28.9846 29 whole (5.19) — only
+  - MATCH CONJ STAR: H Zubenelgenubi → Venus RA 133.3603 133.333 ninth (96.77)
+  - MATCH CONJ STAR: H Zubenelgenubi → Venus Dec 17.9434 φ^6 phi power (98.07)
+  - MATCH CONJ STAR: H Zubenelgenubi → Vesta Dec 41.4279 41.4 silver (93.80)
+  - MATCH CONJ STAR: H Zubenelgenubi → Transpluto RA 70.0019 70 whole (81.71)
+  - MATCH CONJ STAR: S Jupiter → H body → Jupiter Dec 18.9978 19 whole (79.42)
+  - MATCH CONJ STAR: S Jupiter → H body → Eris RA 121.3503 75×φ golden (86.81)
+- 5 Pawpaw / Caoilin Quinn
+  - star rows: H Zubenelgenubi → H Neptune Dec 8.0005 8 whole (94.81) — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke
+  - star rows: H Zubenelgenubi → H Chiron RA 130.0048 130 whole (57.42) — only
+  - star rows: H Zubenelgenubi → H Haumea Dec 33.0138 33 whole (9.70) — only
+  - star rows: J Zubenelgenubi → J Mercury RA 140.7933 87×φ golden (6.16) — also: 3 Hard Stare / Jonathan Burke
+  - star rows: J Zubenelgenubi → J Venus Dec 33.0128 33 whole (12.85) — also: 4 Sweet Nightingale / Tristan Durrell, 6 Steal The Moves / Lilly Pinchin
+  - star rows: J Zubenelgenubi → J Haumea RA 25.9900 26 whole (25.21) — only
+  - star rows: J Zubenelgenubi → J Quaoar RA 25.0051 25 whole (55.40) — also: 2 Ted The Thief / Harry Kimber
+  - MATCH CONJ STAR: H Zubenelgenubi → Neptune Dec 8.0005 8 whole (94.81)
+  - MATCH CONJ STAR: H Zubenelgenubi → Chiron RA 130.0048 130 whole (57.42)
+  - MATCH CONJ STAR: S Jupiter → H body → Makemake Dec 11.1111 11.1111 ninth (99.99)
+  - MATCH CONJ STAR: J Zubenelgenubi → Quaoar RA 25.0051 25 whole (55.40)
+- 6 Steal The Moves / Lilly Pinchin
+  - star rows: H Zubenelgenubi → H Venus RA 142.3941 88×φ golden (61.02) — also: 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+  - star rows: H Zubenelgenubi → H Mars RA 107.9948 108 whole (55.05) — only
+  - star rows: H Zubenelgenubi → H Pluto Dec 6.0144 6 whole (7.84) — only
+  - star rows: J Zubenelgenubi → J Venus RA 110.9252 10×φ^5 phi power (91.72) — also: 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+  - star rows: J Zubenelgenubi → J Sedna Dec 21.0076 21 whole (38.27) — only
+  - star rows: J Zubenelgenubi → J Orcus Dec 14.9912 15 whole (31.11) — also: 1 My Own Lovely Lee / Callum Pritchard
+  - MATCH CONJ STAR: H Zubenelgenubi → Venus RA 142.3941 88×φ golden (61.02)
+  - MATCH CONJ STAR: H Zubenelgenubi → Mars RA 107.9948 108 whole (55.05)
+  - MATCH CONJ STAR: J Zubenelgenubi → Venus RA 110.9252 10×φ^5 phi power (91.72)
+  - MATCH CONJ STAR: S Jupiter → J body → Ceres Dec 6.0045 6 whole (60.26)
+  - MATCH CONJ STAR: S Jupiter → J body → Transpluto RA 0.3064 conj (63.32)
+#### 4. S Jupiter → Capella RA 67.9506 42×φ golden (62.28) — runners with cells 6/6
+- Moon confirms: none
+- 1 My Own Lovely Lee / Callum Pritchard
+  - star rows: S Capella → H Jupiter RA 140.7483 87×φ golden (13.11) — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell
+  - star rows: H Capella → H Jupiter Dec 66.9850 67 whole (6.15) — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell
+  - star rows: H Capella → H Sun RA 46.0019 46 whole (81.83) — also: 3 Hard Stare / Jonathan Burke
+  - star rows: H Capella → H Mars Dec 62.9925 63 whole (39.25) — only
+  - star rows: H Capella → H Neptune Dec 50.9907 51 whole (28.43) — also: 2 Ted The Thief / Harry Kimber
+  - star rows: H Capella → H Pluto RA 142.3641 88×φ golden (8.50) — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke
+  - star rows: H Capella → H Pluto Dec 68.0168 68 whole (2.60) — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke
+  - star rows: H Capella → H Makemake Dec 21.9934 22 whole (44.62) — also: 3 Hard Stare / Jonathan Burke, 6 Steal The Moves / Lilly Pinchin
+  - star rows: J Capella → J Sun RA 123.0095 123 whole (27.77) — also: 3 Hard Stare / Jonathan Burke
+  - star rows: J Capella → J Makemake RA 101.9291 63×φ golden (61.45) — also: 3 Hard Stare / Jonathan Burke, 6 Steal The Moves / Lilly Pinchin
+- 2 Ted The Thief / Harry Kimber
+  - star rows: H Capella → H Jupiter RA 145.6483 90×φ golden (4.87) — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell
+  - star rows: H Capella → H Pluto Dec 68.0133 68 whole (11.21) — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke
+  - star rows: H Capella → H Pallas RA 151.9999 152 whole (99.30) — also: 3 Hard Stare / Jonathan Burke
+  - star rows: H Capella → H Orcus Dec 57.0164 57 whole (3.18) — also: 5 Pawpaw / Caoilin Quinn
+  - star rows: J Capella → J Neptune RA 130.9865 131 whole (10.60) — also: 1 My Own Lovely Lee / Callum Pritchard
+- 3 Hard Stare / Jonathan Burke
+  - star rows: H Capella → H Sun Dec 33.9830 34 whole (2.24) — also: 1 My Own Lovely Lee / Callum Pritchard
+  - star rows: H Capella → H Mercury Dec 41.0093 41 whole (28.38) — only
+  - star rows: H Capella → H Jupiter RA 141.0104 141 whole (23.23) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber, 4 Sweet Nightingale / Tristan Durrell
+  - star rows: H Capella → H Pluto RA 142.3706 88×φ golden (24.20) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber
+  - star rows: H Capella → H Pluto Dec 68.0100 68 whole (25.14) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber
+  - star rows: H Capella → H Pallas RA 145.6438 90×φ golden (12.85) — also: 2 Ted The Thief / Harry Kimber
+  - star rows: H Capella → H Eris RA 53.0038 53 whole (65.35) — only
+  - star rows: H Capella → H Makemake Dec 22.0025 22 whole (76.44) — also: 1 My Own Lovely Lee / Callum Pritchard, 6 Steal The Moves / Lilly Pinchin
+  - star rows: J Capella → J Venus RA 134.2810 83×φ golden (26.23) — also: 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+  - star rows: J Capella → J Uranus RA 137.9906 138 whole (28.08) — also: 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+  - star rows: J Capella → J Pluto RA 163.0121 163 whole (15.64) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber
+  - star rows: J Capella → J Juno Dec 60.0105 60 whole (22.66) — only
+- 4 Sweet Nightingale / Tristan Durrell
+  - star rows: S Capella → H Jupiter Dec 51.0002 51 whole (98.03) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke
+  - star rows: H Capella → H Saturn RA 171.9834 172 whole (2.81) — only
+  - star rows: H Capella → H Uranus Dec 36.9949 37 whole (55.71) — also: 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn
+  - star rows: H Capella → H Vesta RA 39.9899 40 whole (24.51) — also: 6 Steal The Moves / Lilly Pinchin
+  - star rows: H Capella → H Ketu Dec 57.0180 57 whole (1.02) — only
+  - star rows: J Capella → J Chiron Dec 62.9864 63 whole (10.13) — also: 5 Pawpaw / Caoilin Quinn
+  - natal Jupiter → star: H Jupiter → H star Capella Dec 51.0037 51 whole (66.17) — also: 5 Pawpaw / Caoilin Quinn
+- 5 Pawpaw / Caoilin Quinn
+  - star rows: H Capella → H Venus RA 69.9939 70 whole (48.27) — also: 3 Hard Stare / Jonathan Burke, 6 Steal The Moves / Lilly Pinchin
+  - star rows: H Capella → H Uranus Dec 37.9870 38 whole (12.15) — also: 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell
+  - star rows: H Capella → H Chiron Dec 45.0186 45 whole (0.47) — also: 4 Sweet Nightingale / Tristan Durrell
+  - star rows: H Capella → H Orcus RA 72.9905 73 whole (27.50) — also: 2 Ted The Thief / Harry Kimber
+- 6 Steal The Moves / Lilly Pinchin
+  - star rows: H Capella → H Venus RA 1.1644 conj (5.00) — also: 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn
+  - star rows: H Capella → H Vesta RA 0.5690 conj (38.52) — also: 4 Sweet Nightingale / Tristan Durrell
+  - star rows: H Capella → H Makemake Dec 21.9868 22 whole (11.40) — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke
+  - star rows: J Capella → J Ceres Dec 26.0041 26 whole (63.21) — only
+#### 5. S Sun → Deneb Algedi Dec 0.1366 conj (29.66) — runners with cells 6/6
+- Moon confirms: none
+- 1 My Own Lovely Lee / Callum Pritchard
+  - star rows: H Deneb Algedi → H Saturn RA 23.0197 23 whole (0.03) — only
+  - star rows: H Deneb Algedi → H Transpluto RA 173.1040 107×φ golden (4.27) — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke, 6 Steal The Moves / Lilly Pinchin
+  - star rows: H Deneb Algedi → H Transpluto Dec 27.0185 27 whole (0.54) — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke, 6 Steal The Moves / Lilly Pinchin
+  - star rows: J Deneb Algedi → J Sedna RA 80.0107 80 whole (21.81) — also: 2 Ted The Thief / Harry Kimber, 6 Steal The Moves / Lilly Pinchin
+  - star rows: J Deneb Algedi → J Makemake RA 145.6484 90×φ golden (4.74) — also: 5 Pawpaw / Caoilin Quinn
+  - star rows: J Deneb Algedi → J Makemake Dec 48.0164 48 whole (3.27) — also: 5 Pawpaw / Caoilin Quinn
+  - star rows: J Deneb Algedi → J Quaoar Dec 0.9886 1 whole (18.58) — only
+- 2 Ted The Thief / Harry Kimber
+  - star rows: H Deneb Algedi → H Mars RA 36.0033 36 whole (69.82) — also: 4 Sweet Nightingale / Tristan Durrell
+  - star rows: H Deneb Algedi → H Pallas Dec 26.0122 26 whole (15.17) — only
+  - star rows: H Deneb Algedi → H Rahu RA 128.0004 128 whole (96.14) — also: 6 Steal The Moves / Lilly Pinchin
+  - star rows: H Deneb Algedi → H Sedna Dec 24.0199 24 whole (0.00) — also: 1 My Own Lovely Lee / Callum Pritchard, 6 Steal The Moves / Lilly Pinchin
+  - star rows: H Deneb Algedi → H Ketu RA 51.9996 52 whole (96.14) — also: 6 Steal The Moves / Lilly Pinchin
+  - star rows: J Deneb Algedi → J Transpluto RA 179.4370 10×φ^6 phi power (98.74) — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke, 6 Steal The Moves / Lilly Pinchin
+- 3 Hard Stare / Jonathan Burke
+  - star rows: H Deneb Algedi → H Neptune Dec 11.0914 φ^5 phi power (95.57) — also: 5 Pawpaw / Caoilin Quinn
+  - star rows: H Deneb Algedi → H Eris Dec 14.5600 9×φ golden (86.41) — only
+  - star rows: H Deneb Algedi → H Transpluto Dec 27.0128 27 whole (12.80) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber, 6 Steal The Moves / Lilly Pinchin
+  - star rows: J Deneb Algedi → J Vesta Dec 11.0003 11 whole (97.23) — only
+- 4 Sweet Nightingale / Tristan Durrell
+  - star rows: H Deneb Algedi → H Sun RA 61.4893 38×φ golden (76.85) — also: 5 Pawpaw / Caoilin Quinn
+  - star rows: H Deneb Algedi → H Mars RA 90.0035 90 whole (68.21) — also: 2 Ted The Thief / Harry Kimber
+  - star rows: H Deneb Algedi → H Jupiter RA 131.0200 131 whole (0.00) — only
+  - star rows: H Deneb Algedi → H Ceres Dec 33.3386 33.3333 ninth (93.70) — also: 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+  - star rows: J Deneb Algedi → J Sun Dec 33.0049 33 whole (56.78) — also: 5 Pawpaw / Caoilin Quinn
+  - star rows: J Deneb Algedi → J Uranus RA 0.9320 conj (14.34) — also: 5 Pawpaw / Caoilin Quinn
+- 5 Pawpaw / Caoilin Quinn
+  - star rows: H Deneb Algedi → H Sun Dec 9.0135 9 whole (10.64) — also: 4 Sweet Nightingale / Tristan Durrell
+  - star rows: H Deneb Algedi → H Uranus Dec 24.1417 24.14 silver (99.23) — also: 4 Sweet Nightingale / Tristan Durrell
+  - star rows: J Deneb Algedi → J Uranus RA 0.1468 conj (81.39) — also: 4 Sweet Nightingale / Tristan Durrell
+  - star rows: J Deneb Algedi → J Uranus Dec 2.0176 2 whole (1.46) — also: 4 Sweet Nightingale / Tristan Durrell
+  - star rows: J Deneb Algedi → J Neptune Dec 1.9838 2 whole (3.69) — also: 3 Hard Stare / Jonathan Burke
+  - star rows: J Deneb Algedi → J Ceres Dec 12.9981 13 whole (82.27) — also: 4 Sweet Nightingale / Tristan Durrell, 6 Steal The Moves / Lilly Pinchin
+  - star rows: J Deneb Algedi → J Makemake Dec 47.9840 48 whole (4.04) — also: 1 My Own Lovely Lee / Callum Pritchard
+- 6 Steal The Moves / Lilly Pinchin
+  - star rows: H Deneb Algedi → H Pluto RA 30.0080 30 whole (36.14) — only
+  - star rows: H Deneb Algedi → H Juno RA 137.5053 85×φ golden (2.18) — only
+  - star rows: H Deneb Algedi → H Transpluto RA 173.1416 107×φ golden (39.82) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke
+  - star rows: J Deneb Algedi → J Ceres RA 90.9992 91 whole (91.68) — also: 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+  - star rows: J Deneb Algedi → J Rahu RA 177.7636 177.778 ninth (98.89) — also: 2 Ted The Thief / Harry Kimber
+  - star rows: J Deneb Algedi → J Sedna RA 79.0043 79 whole (61.58) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber
+  - star rows: J Deneb Algedi → J Ketu Dec 2.0037 2 whole (66.07) — also: 2 Ted The Thief / Harry Kimber
+### READ 3 Jupiter / Sun lines to bodies (not followed)
+- S Jupiter → Venus RA 53.3984 33×φ golden (80.90)
+- S Jupiter → Uranus RA 85.0029 85 whole (73.42)
+- S Sun → Haumea RA 0.6466 conj (32.37)
+### READ 4 Moon only, not active (confirm no lead line; not followed)
+- S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+- S Moon → Nunki RA 93.9966 94 whole (69.18)
+- S Moon → Procyon RA 74.9943 75 whole (50.95)
+
+## 1 My Own Lovely Lee / Callum Pritchard
+### L1 same bodies
+- S Mercury → H Mercury RA 166.8689 166.667 ninth (loose)
+- S Jupiter → H Jupiter Dec 34.9796 35 whole (loose)
+- S Neptune → H Neptune RA 11.0031 11 whole (71.07)
+- S Pluto → H Pluto Dec 1.6631 1.66667 ninth (loose)
+- S Juno → H Juno RA 112.9723 113 whole (loose)
+- S Juno → H Juno Dec 18.7821 18.8889 ninth (loose)
+- S Gonggong → H Gonggong Dec 1.2236 1.22222 ninth (loose)
+- S Venus → J Venus RA 158.5671 98×φ golden (98.34)
+- S Juno → J Juno Dec 8.0930 5×φ golden (loose)
+- S Vesta → J Vesta RA 32.3566 20×φ golden (loose)
+- S Haumea → J Haumea RA 22.2668 22.2222 ninth (loose)
+### L2 what lands on each same body
+- **H Mercury** (same body: S Mercury → H Mercury RA 166.8689 166.667 ninth (loose))
+  - top rows: S Moon → H Mercury RA 166.0058 166 whole (50.40)
+  - star rows: H Nunki → H Mercury RA 99.9920 100 ninth (94.64)
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+  - star rows: H Procyon → H Mercury RA 91.0095 91 whole (27.49)
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+- **H Jupiter** (same body: S Jupiter → H Jupiter Dec 34.9796 35 whole (loose))
+  - top rows: S Sun → H Jupiter Dec 4.9953 5 whole (58.36)
+  - top rows: S Chiron → H Jupiter RA 86.9982 87 whole (82.54)
+  - star rows: S Capella → H Jupiter RA 140.7483 87×φ golden (13.11)
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: H Capella → H Jupiter Dec 66.9850 67 whole (6.15)
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: H Galactic Centre → H Jupiter RA 32.0107 32 whole (21.44)
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - star rows: H Galactic Centre → H Jupiter Dec 8.0194 8 whole (0.09)
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - star rows: H Procyon → H Jupiter RA 176.3888 109×φ golden (8.24)
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+  - other chart, top rows: S Juno → J Jupiter Dec 34.0017 34 whole (83.63)
+  - other chart, top rows: S Makemake → J Jupiter Dec 0.1842 conj (14.89)
+  - other chart, star rows: J Zubenelgenubi → J Jupiter RA 163.4087 101×φ golden (36.68)
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+- **H Neptune** (same body: S Neptune → H Neptune RA 11.0031 11 whole (71.07))
+  - top rows: S Sun → H Neptune Dec 10.9990 11 whole (90.41)
+  - star rows: H Capella → H Neptune Dec 50.9907 51 whole (28.43)
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: H Galactic Centre → H Neptune Dec 24.0137 24 whole (9.91)
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+- **H Pluto** (same body: S Pluto → H Pluto Dec 1.6631 1.66667 ninth (loose))
+  - star rows: H Capella → H Pluto RA 142.3641 88×φ golden (8.50)
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: H Capella → H Pluto Dec 68.0168 68 whole (2.60)
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: H Galactic Centre → H Pluto Dec 6.9876 7 whole (14.41)
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - star rows: H Nunki → H Pluto RA 12.9844 13 whole (4.89)
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+  - star rows: H Procyon → H Pluto RA 178.0170 178 whole (2.18)
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+  - other chart, T2: J Jupiter → J Pluto Dec 31.9958 32 whole (62.25)
+  - other chart, star rows: J Rigel → J Pluto RA 175.9990 176 whole (90.25)
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+- **H Juno** (same body: S Juno → H Juno RA 112.9723 113 whole (loose); S Juno → H Juno Dec 18.7821 18.8889 ninth (loose))
+  - top rows: S Moon → H Juno RA 1.2442 conj (2.91)
+  - other chart, same body: S Juno → J Juno Dec 8.0930 5×φ golden (loose)
+- **H Gonggong** (same body: S Gonggong → H Gonggong Dec 1.2236 1.22222 ninth (loose))
+- **J Venus** (same body: S Venus → J Venus RA 158.5671 98×φ golden (98.34))
+  - sky line to Venus: S Jupiter → Venus RA 53.3984 33×φ golden (80.90)
+  - other chart, top rows: S Sun → H Venus RA 146.9994 147 whole (94.17)
+- **J Juno** (same body: S Juno → J Juno Dec 8.0930 5×φ golden (loose))
+  - other chart, same body: S Juno → H Juno RA 112.9723 113 whole (loose)
+  - other chart, same body: S Juno → H Juno Dec 18.7821 18.8889 ninth (loose)
+  - other chart, top rows: S Moon → H Juno RA 1.2442 conj (2.91)
+- **J Vesta** (same body: S Vesta → J Vesta RA 32.3566 20×φ golden (loose))
+  - star rows: J Zubenelgenubi → J Vesta Dec 4.2363 φ^3 phi power (98.31)
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+  - other chart, star rows: H Rigel → H Vesta Dec 29.0000 29 whole (99.63)
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+- **J Haumea** (same body: S Haumea → J Haumea RA 22.2668 22.2222 ninth (loose))
+  - sky line to Haumea: S Sun → Haumea RA 0.6466 conj (32.37)
+  - T2: J Jupiter → J Haumea RA 139.1583 86×φ golden (59.46)
+  - other chart, star rows: H Procyon → H Haumea Dec 11.3223 7×φ golden (76.95)
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+### L3 matches
+- **1. same body on both charts**
+  - Juno — only
+    - S Juno → H Juno RA 112.9723 113 whole (loose)
+    - S Juno → H Juno Dec 18.7821 18.8889 ninth (loose)
+    - S Juno → J Juno Dec 8.0930 5×φ golden (loose)
+- **2. one body in both planes**
+  - H Juno — only
+    - S Juno → H Juno RA 112.9723 113 whole (loose)
+    - S Juno → H Juno Dec 18.7821 18.8889 ninth (loose)
+- **3. runner number = sky number**
+  - 32 whole — also: 2 Ted The Thief / Harry Kimber
+    - H Galactic Centre → H Jupiter RA 32.0107 32 whole (21.44) = S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - 32 whole — also: 2 Ted The Thief / Harry Kimber
+    - J Jupiter → J Pluto Dec 31.9958 32 whole (62.25) = S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+- **4. circle divisions**
+  - 1 = 360/360 — also: 2 Ted The Thief / Harry Kimber, 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+    - S Sun → H Mars Dec 1.0028 1 whole (73.55)
+  - 5 = 360/72 — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke
+    - S Sun → H Jupiter Dec 4.9953 5 whole (58.36)
+  - 40 = 360/9 — also: 4 Sweet Nightingale / Tristan Durrell, 6 Steal The Moves / Lilly Pinchin
+    - S Sun → H Makemake Dec 39.9963 40 whole (66.60)
+  - 12 = 360/30 — also: 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+    - H Galactic Centre → H Mars Dec 12.0118 12 whole (16.65)
+  - 8 = 360/45 — also: 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn
+    - H Galactic Centre → H Jupiter Dec 8.0194 8 whole (0.09)
+  - 24 = 360/15 — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+    - H Galactic Centre → H Neptune Dec 24.0137 24 whole (9.91)
+  - 1 = 360/360 — also: 2 Ted The Thief / Harry Kimber, 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+    - J Deneb Algedi → J Quaoar Dec 0.9886 1 whole (18.58)
+  - 12 = 360/30 — also: 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+    - J Procyon → J Eris Dec 12.0075 12 whole (38.98)
+- **5. same number in more than one place**
+  - 166.667 ninth — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell
+    - S Mercury → H Mercury RA 166.8689 166.667 ninth (loose)
+    - S Moon → J Eris RA 166.6030 166.667 ninth (94.54)
+  - 11 whole — also: 3 Hard Stare / Jonathan Burke
+    - S Neptune → H Neptune RA 11.0031 11 whole (71.07)
+    - S Sun → H Neptune Dec 10.9990 11 whole (90.41)
+  - φ^10 phi power — only
+    - S Jupiter → H Ketu RA 122.9082 φ^10 phi power (74.64)
+    - J Nunki → J Sedna RA 122.9545 φ^10 phi power (88.23)
+  - 1 whole — only
+    - S Sun → H Mars Dec 1.0028 1 whole (73.55)
+    - J Deneb Algedi → J Quaoar Dec 0.9886 1 whole (18.58)
+  - 32 whole — only
+    - H Galactic Centre → H Jupiter RA 32.0107 32 whole (21.44)
+    - J Jupiter → J Pluto Dec 31.9958 32 whole (62.25)
+  - 12 whole — also: 4 Sweet Nightingale / Tristan Durrell, 6 Steal The Moves / Lilly Pinchin
+    - H Galactic Centre → H Mars Dec 12.0118 12 whole (16.65)
+    - J Procyon → J Eris Dec 12.0075 12 whole (38.98)
+  - 109×φ golden — only
+    - H Galactic Centre → H Rahu RA 176.3821 109×φ golden (24.25)
+    - H Procyon → H Jupiter RA 176.3888 109×φ golden (8.24)
+  - 22.2222 ninth — only
+    - S Haumea → J Haumea RA 22.2668 22.2222 ninth (loose)
+    - J Galactic Centre → J Eris Dec 22.2230 22.2222 ninth (98.85)
+  - 87 and 87×φ on H Jupiter — only
+    - S Chiron → H Jupiter RA 86.9982 87 whole (82.54)
+    - S Capella → H Jupiter RA 140.7483 87×φ golden (13.11)
+### L4 every natal body
+- **Mercury**
+  - same body: S Mercury → H Mercury RA 166.8689 166.667 ninth (loose) — also: 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+  - top rows: S Moon → H Mercury RA 166.0058 166 whole (50.40) — only
+  - star rows: H Nunki → H Mercury RA 99.9920 100 ninth (94.64) — also: 3 Hard Stare / Jonathan Burke
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+  - star rows: H Procyon → H Mercury RA 91.0095 91 whole (27.49) — also: 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+- **Jupiter**
+  - same body: S Jupiter → H Jupiter Dec 34.9796 35 whole (loose) — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell
+  - top rows: S Sun → H Jupiter Dec 4.9953 5 whole (58.36) — also: 3 Hard Stare / Jonathan Burke
+  - top rows: S Chiron → H Jupiter RA 86.9982 87 whole (82.54) — only
+  - star rows: S Capella → H Jupiter RA 140.7483 87×φ golden (13.11) — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: H Capella → H Jupiter Dec 66.9850 67 whole (6.15) — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: H Galactic Centre → H Jupiter RA 32.0107 32 whole (21.44) — also: 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - star rows: H Galactic Centre → H Jupiter Dec 8.0194 8 whole (0.09) — also: 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - star rows: H Procyon → H Jupiter RA 176.3888 109×φ golden (8.24) — only
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+  - top rows: S Juno → J Jupiter Dec 34.0017 34 whole (83.63) — only
+  - top rows: S Makemake → J Jupiter Dec 0.1842 conj (14.89) — also: 2 Ted The Thief / Harry Kimber, 5 Pawpaw / Caoilin Quinn
+  - star rows: J Zubenelgenubi → J Jupiter RA 163.4087 101×φ golden (36.68) — also: 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+- **Neptune**
+  - same body: S Neptune → H Neptune RA 11.0031 11 whole (71.07) — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+  - top rows: S Sun → H Neptune Dec 10.9990 11 whole (90.41) — also: 6 Steal The Moves / Lilly Pinchin
+  - star rows: H Capella → H Neptune Dec 50.9907 51 whole (28.43) — also: 2 Ted The Thief / Harry Kimber
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: H Galactic Centre → H Neptune Dec 24.0137 24 whole (9.91) — also: 5 Pawpaw / Caoilin Quinn
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+- **Pluto**
+  - same body: S Pluto → H Pluto Dec 1.6631 1.66667 ninth (loose) — also: 2 Ted The Thief / Harry Kimber, 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+  - star rows: H Capella → H Pluto RA 142.3641 88×φ golden (8.50) — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: H Capella → H Pluto Dec 68.0168 68 whole (2.60) — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: H Galactic Centre → H Pluto Dec 6.9876 7 whole (14.41) — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - star rows: H Nunki → H Pluto RA 12.9844 13 whole (4.89) — only
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+  - star rows: H Procyon → H Pluto RA 178.0170 178 whole (2.18) — only
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+  - T2: J Jupiter → J Pluto Dec 31.9958 32 whole (62.25) — only
+  - star rows: J Rigel → J Pluto RA 175.9990 176 whole (90.25) — also: 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+- **Juno**
+  - same body: S Juno → H Juno RA 112.9723 113 whole (loose) — also: 2 Ted The Thief / Harry Kimber, 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+  - same body: S Juno → H Juno Dec 18.7821 18.8889 ninth (loose) — also: 2 Ted The Thief / Harry Kimber, 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+  - top rows: S Moon → H Juno RA 1.2442 conj (2.91) — also: 3 Hard Stare / Jonathan Burke, 6 Steal The Moves / Lilly Pinchin
+  - same body: S Juno → J Juno Dec 8.0930 5×φ golden (loose) — also: 2 Ted The Thief / Harry Kimber, 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+- **Gonggong**
+  - same body: S Gonggong → H Gonggong Dec 1.2236 1.22222 ninth (loose) — also: 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+- **Ketu**
+  - top rows: S Jupiter → H Ketu RA 122.9082 φ^10 phi power (74.64) — only
+- **Venus**
+  - top rows: S Sun → H Venus RA 146.9994 147 whole (94.17) — only
+  - same body: S Venus → J Venus RA 158.5671 98×φ golden (98.34) — also: 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Jupiter → Venus RA 53.3984 33×φ golden (80.90)
+- **Mars**
+  - top rows: S Sun → H Mars Dec 1.0028 1 whole (73.55) — also: 4 Sweet Nightingale / Tristan Durrell
+  - star rows: H Capella → H Mars Dec 62.9925 63 whole (39.25) — only
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: H Galactic Centre → H Mars Dec 12.0118 12 whole (16.65) — only
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+- **Makemake**
+  - top rows: S Sun → H Makemake Dec 39.9963 40 whole (66.60) — also: 6 Steal The Moves / Lilly Pinchin
+  - star rows: H Capella → H Makemake Dec 21.9934 22 whole (44.62) — also: 3 Hard Stare / Jonathan Burke, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: H Galactic Centre → H Makemake Dec 53.0110 53 whole (20.21) — also: 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - top rows: S Jupiter → J Makemake RA 33.9760 21×φ golden (83.93) — also: 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn
+  - star rows: J Capella → J Makemake RA 101.9291 63×φ golden (61.45) — also: 3 Hard Stare / Jonathan Burke, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: J Deneb Algedi → J Makemake RA 145.6484 90×φ golden (4.74) — also: 5 Pawpaw / Caoilin Quinn
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+  - star rows: J Deneb Algedi → J Makemake Dec 48.0164 48 whole (3.27) — also: 5 Pawpaw / Caoilin Quinn
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+- **Sun**
+  - star rows: H Capella → H Sun RA 46.0019 46 whole (81.83) — also: 3 Hard Stare / Jonathan Burke
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: J Capella → J Sun RA 123.0095 123 whole (27.77) — also: 3 Hard Stare / Jonathan Burke
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+- **Saturn**
+  - star rows: H Deneb Algedi → H Saturn RA 23.0197 23 whole (0.03) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+  - star rows: H Zubenelgenubi → H Saturn RA 81.0157 81 whole (4.60) — also: 4 Sweet Nightingale / Tristan Durrell
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+  - star rows: J Rigel → J Saturn Dec 25.0193 25 whole (0.13) — also: 3 Hard Stare / Jonathan Burke
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+- **Transpluto**
+  - star rows: H Deneb Algedi → H Transpluto RA 173.1040 107×φ golden (4.27) — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+  - star rows: H Deneb Algedi → H Transpluto Dec 27.0185 27 whole (0.54) — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+  - star rows: H Procyon → H Transpluto RA 38.8357 24×φ golden (83.16) — also: 4 Sweet Nightingale / Tristan Durrell
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+  - top rows: S Jupiter → J Transpluto RA 0.9442 conj (13.73) — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+- **Rahu**
+  - star rows: H Galactic Centre → H Rahu RA 176.3821 109×φ golden (24.25) — also: 4 Sweet Nightingale / Tristan Durrell
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - star rows: H Zubenelgenubi → H Rahu RA 132.6859 82×φ golden (60.89) — only
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+- **Chiron**
+  - star rows: H Procyon → H Chiron Dec 0.0281 conj (82.14) — also: 3 Hard Stare / Jonathan Burke, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+  - star rows: J Galactic Centre → J Chiron RA 0.7707 conj (23.64) — also: 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - star rows: J Rigel → J Chiron RA 172.9963 173 whole (66.18) — only
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+- **Haumea**
+  - star rows: H Procyon → H Haumea Dec 11.3223 7×φ golden (76.95) — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+  - same body: S Haumea → J Haumea RA 22.2668 22.2222 ninth (loose) — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Sun → Haumea RA 0.6466 conj (32.37)
+  - T2: J Jupiter → J Haumea RA 139.1583 86×φ golden (59.46) — also: 5 Pawpaw / Caoilin Quinn
+- **Vesta**
+  - star rows: H Rigel → H Vesta Dec 29.0000 29 whole (99.63) — also: 6 Steal The Moves / Lilly Pinchin
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+  - same body: S Vesta → J Vesta RA 32.3566 20×φ golden (loose) — also: 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+  - star rows: J Zubenelgenubi → J Vesta Dec 4.2363 φ^3 phi power (98.31) — also: 2 Ted The Thief / Harry Kimber, 4 Sweet Nightingale / Tristan Durrell
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+- **Ceres**
+  - top rows: S Jupiter → J Ceres RA 121.9949 122 whole (55.50) — also: 6 Steal The Moves / Lilly Pinchin
+- **Eris**
+  - top rows: S Sun → J Eris RA 161.8310 100×φ^1 phi power (93.28) — only
+  - top rows: S Moon → J Eris RA 166.6030 166.667 ninth (94.54) — also: 2 Ted The Thief / Harry Kimber
+  - star rows: J Galactic Centre → J Eris Dec 22.2230 22.2222 ninth (98.85) — also: 3 Hard Stare / Jonathan Burke, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - star rows: J Procyon → J Eris Dec 12.0075 12 whole (38.98) — also: 2 Ted The Thief / Harry Kimber
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+- **Sedna**
+  - star rows: J Deneb Algedi → J Sedna RA 80.0107 80 whole (21.81) — also: 2 Ted The Thief / Harry Kimber, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+  - star rows: J Nunki → J Sedna RA 122.9545 φ^10 phi power (88.23) — also: 4 Sweet Nightingale / Tristan Durrell
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+  - star rows: J Procyon → J Sedna Dec 0.0113 conj (92.63) — also: 4 Sweet Nightingale / Tristan Durrell, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+- **Quaoar**
+  - star rows: J Deneb Algedi → J Quaoar Dec 0.9886 1 whole (18.58) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+  - star rows: J Procyon → J Quaoar RA 134.2730 83×φ golden (6.94) — also: 5 Pawpaw / Caoilin Quinn
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+- **Uranus**
+  - star rows: J Zubenelgenubi → J Uranus RA 100.3043 62×φ golden (32.96) — only
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+- **Orcus**
+  - star rows: J Zubenelgenubi → J Orcus Dec 14.0003 14 whole (97.32) — also: 6 Steal The Moves / Lilly Pinchin
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+
+## 2 Ted The Thief / Harry Kimber
+### L1 same bodies
+- S Mars → H Mars Dec 38.8471 24×φ golden (loose)
+- S Pluto → H Pluto Dec 1.6675 1.66667 ninth (loose)
+- S Eris → H Eris RA 1.0167 1 whole (loose)
+- S Sedna → H Sedna RA 4.8485 3×φ golden (loose)
+- S Makemake → H Makemake RA 5.0146 5 whole (7.16)
+- S Jupiter → J Jupiter RA 88.8702 88.8889 ninth (loose)
+- S Neptune → J Neptune Dec 17.9356 φ^6 phi power (loose)
+- S Chiron → J Chiron RA 133.8224 133.333 ninth (loose)
+- S Chiron → J Chiron Dec 27.5350 17×φ golden (loose)
+- S Ceres → J Ceres Dec 17.6653 17.7778 ninth (loose)
+- S Juno → J Juno RA 21.0048 21 whole (57.81)
+- S Sedna → J Sedna RA 14.5344 9×φ golden (loose)
+- S Haumea → J Haumea Dec 8.0926 5×φ golden (loose)
+- S Orcus → J Orcus RA 23.9840 24 whole (4.02)
+### L2 what lands on each same body
+- **H Mars** (same body: S Mars → H Mars Dec 38.8471 24×φ golden (loose))
+  - star rows: H Deneb Algedi → H Mars RA 36.0033 36 whole (69.82)
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+- **H Pluto** (same body: S Pluto → H Pluto Dec 1.6675 1.66667 ninth (loose))
+  - star rows: H Capella → H Pluto Dec 68.0133 68 whole (11.21)
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: H Galactic Centre → H Pluto Dec 6.9918 7 whole (34.57)
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+- **H Eris** (same body: S Eris → H Eris RA 1.0167 1 whole (loose))
+  - top rows: S Moon → H Eris RA 163.9976 164 whole (77.14)
+  - star rows: H Nunki → H Eris RA 102.0045 102 whole (59.96)
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+  - star rows: H Procyon → H Eris RA 89.0051 89 whole (55.26)
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+  - other chart, top rows: S Jupiter → J Eris RA 122.9347 φ^10 phi power (82.28)
+- **H Sedna** (same body: S Sedna → H Sedna RA 4.8485 3×φ golden (loose))
+  - star rows: H Deneb Algedi → H Sedna Dec 24.0199 24 whole (0.00)
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+  - other chart, same body: S Sedna → J Sedna RA 14.5344 9×φ golden (loose)
+- **H Makemake** (same body: S Makemake → H Makemake RA 5.0146 5 whole (7.16))
+  - star rows: H Rigel → H Makemake Dec 31.9846 32 whole (5.27)
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+  - other chart, top rows: S Moon → J Makemake Dec 41.4258 41.4 silver (95.72)
+  - other chart, star rows: J Rigel → J Makemake Dec 40.4579 25×φ golden (61.13)
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+- **J Jupiter** (same body: S Jupiter → J Jupiter RA 88.8702 88.8889 ninth (loose))
+  - top rows: S Makemake → J Jupiter RA 144.0095 89×φ golden (74.00)
+  - top rows: S Makemake → J Jupiter Dec 0.1943 conj (12.42)
+  - other chart, top rows: S Venus → H Jupiter RA 92.9953 93 whole (58.28)
+    - source line: S Jupiter → Venus RA 53.3984 33×φ golden (80.90)
+  - other chart, top rows: S Saturn → H Jupiter Dec 22.6529 14×φ golden (97.30)
+  - other chart, star rows: H Capella → H Jupiter RA 145.6483 90×φ golden (4.87)
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+- **J Neptune** (same body: S Neptune → J Neptune Dec 17.9356 φ^6 phi power (loose))
+  - star rows: J Capella → J Neptune RA 130.9865 131 whole (10.60)
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: J Procyon → J Neptune RA 166.6417 166.667 ninth (97.86)
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+  - other chart, star rows: H Zubenelgenubi → H Neptune RA 126.9947 127 whole (53.85)
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+- **J Chiron** (same body: S Chiron → J Chiron RA 133.8224 133.333 ninth (loose); S Chiron → J Chiron Dec 27.5350 17×φ golden (loose))
+- **J Ceres** (same body: S Ceres → J Ceres Dec 17.6653 17.7778 ninth (loose))
+  - star rows: J Galactic Centre → J Ceres RA 79.2825 49×φ golden (92.72)
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+- **J Juno** (same body: S Juno → J Juno RA 21.0048 21 whole (57.81))
+  - other chart, star rows: H Rigel → H Juno RA 119.9964 120 whole (67.21)
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+- **J Sedna** (same body: S Sedna → J Sedna RA 14.5344 9×φ golden (loose))
+  - other chart, same body: S Sedna → H Sedna RA 4.8485 3×φ golden (loose)
+  - other chart, star rows: H Deneb Algedi → H Sedna Dec 24.0199 24 whole (0.00)
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+- **J Haumea** (same body: S Haumea → J Haumea Dec 8.0926 5×φ golden (loose))
+  - sky line to Haumea: S Sun → Haumea RA 0.6466 conj (32.37)
+  - top rows: S Moon → J Haumea RA 6.0017 6 whole (83.97)
+  - star rows: J Nunki → J Haumea RA 88.0043 88 whole (61.60)
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+  - star rows: J Procyon → J Haumea RA 80.9982 81 whole (82.60)
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+  - other chart, star rows: H Procyon → H Haumea Dec 10.9906 11 whole (28.08)
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+- **J Orcus** (same body: S Orcus → J Orcus RA 23.9840 24 whole (4.02))
+  - other chart, star rows: H Capella → H Orcus Dec 57.0164 57 whole (3.18)
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - other chart, star rows: H Galactic Centre → H Orcus Dec 17.9886 18 whole (18.62)
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+### L3 matches
+- **1. same body on both charts**
+  - Sedna — also: 5 Pawpaw / Caoilin Quinn
+    - S Sedna → H Sedna RA 4.8485 3×φ golden (loose)
+    - S Sedna → J Sedna RA 14.5344 9×φ golden (loose)
+- **2. one body in both planes**
+  - J Chiron — only
+    - S Chiron → J Chiron RA 133.8224 133.333 ninth (loose)
+    - S Chiron → J Chiron Dec 27.5350 17×φ golden (loose)
+- **3. runner number = sky number**
+  - 32 whole — also: 1 My Own Lovely Lee / Callum Pritchard
+    - H Rigel → H Makemake Dec 31.9846 32 whole (5.27) = S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - 111.111 ninth — also: 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+    - S Sun → J Gonggong RA 111.1887 111.111 ninth (87.30) = S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+- **4. circle divisions**
+  - 1 = 360/360 — also: 1 My Own Lovely Lee / Callum Pritchard, 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+    - S Eris → H Eris RA 1.0167 1 whole (loose)
+  - 5 = 360/72 — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke
+    - S Makemake → H Makemake RA 5.0146 5 whole (7.16)
+  - 36 = 360/10 — also: 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn
+    - H Deneb Algedi → H Mars RA 36.0033 36 whole (69.82)
+  - 24 = 360/15 — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+    - H Deneb Algedi → H Sedna Dec 24.0199 24 whole (0.00)
+  - 18 = 360/20 — also: 4 Sweet Nightingale / Tristan Durrell, 6 Steal The Moves / Lilly Pinchin
+    - H Galactic Centre → H Orcus Dec 17.9886 18 whole (18.62)
+  - 120 = 360/3 — only
+    - H Rigel → H Juno RA 119.9964 120 whole (67.21)
+  - 24 = 360/15 — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+    - S Orcus → J Orcus RA 23.9840 24 whole (4.02)
+  - 4 = 360/90 — also: 4 Sweet Nightingale / Tristan Durrell
+    - J Jupiter → J Venus Dec 4.0028 4 whole (73.71)
+  - 6 = 360/60 — also: 4 Sweet Nightingale / Tristan Durrell, 6 Steal The Moves / Lilly Pinchin
+    - S Moon → J Haumea RA 6.0017 6 whole (83.97)
+- **5. same number in more than one place**
+  - 24 whole — also: 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+    - H Deneb Algedi → H Sedna Dec 24.0199 24 whole (0.00)
+    - S Orcus → J Orcus RA 23.9840 24 whole (4.02)
+  - 89 whole — only
+    - H Procyon → H Eris RA 89.0051 89 whole (55.26)
+    - S Moon → J Sun RA 89.0013 89 whole (87.51)
+  - 166.667 ninth — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell
+    - H Zubenelgenubi → H Vesta RA 166.6084 166.667 ninth (95.01)
+    - J Procyon → J Neptune RA 166.6417 166.667 ninth (97.86)
+### L4 every natal body
+- **Mars**
+  - same body: S Mars → H Mars Dec 38.8471 24×φ golden (loose) — also: 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+  - star rows: H Deneb Algedi → H Mars RA 36.0033 36 whole (69.82) — also: 4 Sweet Nightingale / Tristan Durrell
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+- **Pluto**
+  - same body: S Pluto → H Pluto Dec 1.6675 1.66667 ninth (loose) — also: 1 My Own Lovely Lee / Callum Pritchard, 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+  - star rows: H Capella → H Pluto Dec 68.0133 68 whole (11.21) — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: H Galactic Centre → H Pluto Dec 6.9918 7 whole (34.57) — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+- **Eris**
+  - same body: S Eris → H Eris RA 1.0167 1 whole (loose) — also: 3 Hard Stare / Jonathan Burke
+  - top rows: S Moon → H Eris RA 163.9976 164 whole (77.14) — also: 1 My Own Lovely Lee / Callum Pritchard
+  - star rows: H Nunki → H Eris RA 102.0045 102 whole (59.96) — also: 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+  - star rows: H Procyon → H Eris RA 89.0051 89 whole (55.26) — also: 1 My Own Lovely Lee / Callum Pritchard
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+  - top rows: S Jupiter → J Eris RA 122.9347 φ^10 phi power (82.28) — also: 4 Sweet Nightingale / Tristan Durrell
+- **Sedna**
+  - same body: S Sedna → H Sedna RA 4.8485 3×φ golden (loose) — also: 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn
+  - star rows: H Deneb Algedi → H Sedna Dec 24.0199 24 whole (0.00) — also: 1 My Own Lovely Lee / Callum Pritchard, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+  - same body: S Sedna → J Sedna RA 14.5344 9×φ golden (loose) — also: 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn
+- **Makemake**
+  - same body: S Makemake → H Makemake RA 5.0146 5 whole (7.16) — also: 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+  - star rows: H Rigel → H Makemake Dec 31.9846 32 whole (5.27) — also: 3 Hard Stare / Jonathan Burke
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+  - top rows: S Moon → J Makemake Dec 41.4258 41.4 silver (95.72) — only
+  - star rows: J Rigel → J Makemake Dec 40.4579 25×φ golden (61.13) — also: 3 Hard Stare / Jonathan Burke
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+- **Jupiter**
+  - top rows: S Venus → H Jupiter RA 92.9953 93 whole (58.28) — also: 5 Pawpaw / Caoilin Quinn
+    - source line: S Jupiter → Venus RA 53.3984 33×φ golden (80.90)
+  - top rows: S Saturn → H Jupiter Dec 22.6529 14×φ golden (97.30) — only
+  - star rows: H Capella → H Jupiter RA 145.6483 90×φ golden (4.87) — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - same body: S Jupiter → J Jupiter RA 88.8702 88.8889 ninth (loose) — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell
+  - top rows: S Makemake → J Jupiter RA 144.0095 89×φ golden (74.00) — also: 1 My Own Lovely Lee / Callum Pritchard, 5 Pawpaw / Caoilin Quinn
+  - top rows: S Makemake → J Jupiter Dec 0.1943 conj (12.42) — also: 1 My Own Lovely Lee / Callum Pritchard, 5 Pawpaw / Caoilin Quinn
+- **Pallas**
+  - star rows: H Capella → H Pallas RA 151.9999 152 whole (99.30) — also: 3 Hard Stare / Jonathan Burke
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: H Deneb Algedi → H Pallas Dec 26.0122 26 whole (15.17) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+- **Orcus**
+  - star rows: H Capella → H Orcus Dec 57.0164 57 whole (3.18) — also: 5 Pawpaw / Caoilin Quinn
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: H Galactic Centre → H Orcus Dec 17.9886 18 whole (18.62) — only
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - same body: S Orcus → J Orcus RA 23.9840 24 whole (4.02) — only
+- **Rahu**
+  - star rows: H Deneb Algedi → H Rahu RA 128.0004 128 whole (96.14) — also: 6 Steal The Moves / Lilly Pinchin
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+- **Ketu**
+  - star rows: H Deneb Algedi → H Ketu RA 51.9996 52 whole (96.14) — also: 6 Steal The Moves / Lilly Pinchin
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+  - star rows: J Rigel → J Ketu Dec 12.9994 13 whole (93.98) — also: 5 Pawpaw / Caoilin Quinn
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+- **Haumea**
+  - star rows: H Procyon → H Haumea Dec 10.9906 11 whole (28.08) — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+  - same body: S Haumea → J Haumea Dec 8.0926 5×φ golden (loose) — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Sun → Haumea RA 0.6466 conj (32.37)
+  - top rows: S Moon → J Haumea RA 6.0017 6 whole (83.97) — only
+  - star rows: J Nunki → J Haumea RA 88.0043 88 whole (61.60) — only
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+  - star rows: J Procyon → J Haumea RA 80.9982 81 whole (82.60) — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+- **Juno**
+  - star rows: H Rigel → H Juno RA 119.9964 120 whole (67.21) — also: 5 Pawpaw / Caoilin Quinn
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+  - same body: S Juno → J Juno RA 21.0048 21 whole (57.81) — also: 1 My Own Lovely Lee / Callum Pritchard, 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+- **Transpluto**
+  - star rows: H Rigel → H Transpluto Dec 18.9981 19 whole (81.53) — also: 6 Steal The Moves / Lilly Pinchin
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+  - top rows: S Jupiter → J Transpluto RA 0.1967 conj (75.50) — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+  - star rows: J Deneb Algedi → J Transpluto RA 179.4370 10×φ^6 phi power (98.74) — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+- **Neptune**
+  - star rows: H Zubenelgenubi → H Neptune RA 126.9947 127 whole (53.85) — also: 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+  - same body: S Neptune → J Neptune Dec 17.9356 φ^6 phi power (loose) — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+  - star rows: J Capella → J Neptune RA 130.9865 131 whole (10.60) — also: 1 My Own Lovely Lee / Callum Pritchard
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: J Procyon → J Neptune RA 166.6417 166.667 ninth (97.86) — also: 4 Sweet Nightingale / Tristan Durrell
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+- **Vesta**
+  - star rows: H Zubenelgenubi → H Vesta RA 166.6084 166.667 ninth (95.01) — also: 1 My Own Lovely Lee / Callum Pritchard, 4 Sweet Nightingale / Tristan Durrell
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+  - star rows: J Galactic Centre → J Vesta RA 33.9892 34 whole (21.09) — also: 4 Sweet Nightingale / Tristan Durrell
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+- **Quaoar**
+  - star rows: H Zubenelgenubi → H Quaoar RA 51.7716 32×φ golden (69.00) — also: 5 Pawpaw / Caoilin Quinn
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+- **Chiron**
+  - same body: S Chiron → J Chiron RA 133.8224 133.333 ninth (loose) — also: 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+  - same body: S Chiron → J Chiron Dec 27.5350 17×φ golden (loose) — also: 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+- **Ceres**
+  - same body: S Ceres → J Ceres Dec 17.6653 17.7778 ninth (loose) — also: 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+  - star rows: J Galactic Centre → J Ceres RA 79.2825 49×φ golden (92.72) — also: 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+- **Venus**
+  - T2: J Jupiter → J Venus Dec 4.0028 4 whole (73.71) — also: 5 Pawpaw / Caoilin Quinn
+- **Gonggong**
+  - top rows: S Sun → J Gonggong RA 111.1887 111.111 ninth (87.30) — also: 4 Sweet Nightingale / Tristan Durrell
+- **Sun**
+  - top rows: S Moon → J Sun RA 89.0013 89 whole (87.51) — only
+  - star rows: J Nunki → J Sun RA 176.9927 177 whole (40.53) — only
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+  - star rows: J Procyon → J Sun RA 14.0048 14 whole (57.86) — only
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+- **Saturn**
+  - star rows: J Nunki → J Saturn RA 131.0597 81×φ golden (93.57) — also: 5 Pawpaw / Caoilin Quinn
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+  - star rows: J Procyon → J Saturn Dec 12.2230 12.2222 ninth (98.99) — also: 5 Pawpaw / Caoilin Quinn
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+
+## 3 Hard Stare / Jonathan Burke
+### L1 same bodies
+- S Sun → H Sun RA 168.0238 168 whole (loose)
+- S Sun → H Sun Dec 28.0068 28 whole (43.48)
+- S Jupiter → H Jupiter RA 151.0269 151 whole (loose)
+- S Jupiter → H Jupiter Dec 35.0192 35 whole (0.16)
+- S Neptune → H Neptune RA 11.1126 11.1111 ninth (97.63)
+- S Ceres → H Ceres RA 141.1896 141.4 sqrt2 (loose)
+- S Rahu → H Rahu RA 122.1129 122.222 ninth (loose)
+- S Eris → H Eris Dec 1.4135 1.414 sqrt2 (loose)
+- S Ketu → H Ketu RA 122.1129 122.222 ninth (loose)
+- S Chiron → J Chiron RA 165.5987 166.667 ninth (loose)
+- S Sedna → J Sedna RA 17.6621 17.7778 ninth (loose)
+- S Haumea → J Haumea Dec 8.0215 8 whole (loose)
+- S Transpluto → J Transpluto RA 10.0166 10 whole (2.90)
+### L2 what lands on each same body
+- **H Sun** (same body: S Sun → H Sun RA 168.0238 168 whole (loose); S Sun → H Sun Dec 28.0068 28 whole (43.48))
+  - star rows: H Capella → H Sun Dec 33.9830 34 whole (2.24)
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: H Galactic Centre → H Sun RA 122.9859 φ^10 phi power (98.06)
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - star rows: H Zubenelgenubi → H Sun RA 166.6818 166.667 ninth (98.70)
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+- **H Jupiter** (same body: S Jupiter → H Jupiter RA 151.0269 151 whole (loose); S Jupiter → H Jupiter Dec 35.0192 35 whole (0.16))
+  - top rows: S Transpluto → H Jupiter RA 141.4499 141.4 sqrt2 (92.09)
+  - star rows: H Capella → H Jupiter RA 141.0104 141 whole (23.23)
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: S Galactic Centre → H Jupiter Dec 7.9804 8 whole (0.04)
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - star rows: S Zubenelgenubi → H Jupiter Dec 4.9871 5 whole (12.74)
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+  - other chart, top rows: S Sun → J Jupiter RA 46.0055 46 whole (52.31)
+  - other chart, top rows: S Eris → J Jupiter Dec 23.0043 23 whole (61.33)
+  - other chart, star rows: S Galactic Centre → J Jupiter RA 0.9761 conj (12.20)
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+- **H Neptune** (same body: S Neptune → H Neptune RA 11.1126 11.1111 ninth (97.63))
+  - star rows: H Deneb Algedi → H Neptune Dec 11.0914 φ^5 phi power (95.57)
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+  - star rows: H Zubenelgenubi → H Neptune Dec 11.0057 11 whole (51.08)
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+  - other chart, star rows: J Rigel → J Neptune RA 142.3982 88×φ golden (42.77)
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+- **H Ceres** (same body: S Ceres → H Ceres RA 141.1896 141.4 sqrt2 (loose))
+  - star rows: H Procyon → H Ceres Dec 24.0072 24 whole (41.00)
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+  - star rows: H Zubenelgenubi → H Ceres RA 111.1618 111.111 ninth (91.70)
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+- **H Rahu** (same body: S Rahu → H Rahu RA 122.1129 122.222 ninth (loose))
+  - other chart, top rows: S Moon → J Rahu Dec 0.1561 conj (23.02)
+- **H Eris** (same body: S Eris → H Eris Dec 1.4135 1.414 sqrt2 (loose))
+  - star rows: H Capella → H Eris RA 53.0038 53 whole (65.35)
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: H Deneb Algedi → H Eris Dec 14.5600 9×φ golden (86.41)
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+  - star rows: H Galactic Centre → H Eris RA 119.7435 74×φ golden (52.35)
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - star rows: H Zubenelgenubi → H Eris RA 163.4394 101×φ golden (19.74)
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+  - other chart, star rows: J Rigel → J Eris Dec 0.0047 conj (96.89)
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+- **H Ketu** (same body: S Ketu → H Ketu RA 122.1129 122.222 ninth (loose))
+- **J Chiron** (same body: S Chiron → J Chiron RA 165.5987 166.667 ninth (loose))
+  - top rows: S Moon → J Chiron RA 1.2118 conj (3.69)
+  - other chart, star rows: H Procyon → H Chiron Dec 0.1133 conj (38.73)
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+- **J Sedna** (same body: S Sedna → J Sedna RA 17.6621 17.7778 ninth (loose))
+  - star rows: J Galactic Centre → J Sedna RA 137.9983 138 whole (83.42)
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+- **J Haumea** (same body: S Haumea → J Haumea Dec 8.0215 8 whole (loose))
+  - sky line to Haumea: S Sun → Haumea RA 0.6466 conj (32.37)
+  - star rows: J Procyon → J Haumea RA 79.0108 79 whole (21.33)
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+- **J Transpluto** (same body: S Transpluto → J Transpluto RA 10.0166 10 whole (2.90))
+  - top rows: S Jupiter → J Transpluto RA 0.4396 conj (49.98)
+  - star rows: J Galactic Centre → J Transpluto RA 119.7195 74×φ golden (28.58)
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - other chart, star rows: H Deneb Algedi → H Transpluto Dec 27.0128 27 whole (12.80)
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+### L3 matches
+- **1. same body on both charts**: none
+- **2. one body in both planes**
+  - H Sun — also: 5 Pawpaw / Caoilin Quinn
+    - S Sun → H Sun RA 168.0238 168 whole (loose)
+    - S Sun → H Sun Dec 28.0068 28 whole (43.48)
+  - H Jupiter — only
+    - S Jupiter → H Jupiter RA 151.0269 151 whole (loose)
+    - S Jupiter → H Jupiter Dec 35.0192 35 whole (0.16)
+- **3. runner number = sky number**
+  - 33×φ golden — also: 5 Pawpaw / Caoilin Quinn
+    - H Nunki → H Venus Dec 53.3968 33×φ golden (90.07) = S Jupiter → Venus RA 53.3984 33×φ golden (80.90)
+  - 111.111 ninth — also: 2 Ted The Thief / Harry Kimber, 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+    - H Zubenelgenubi → H Ceres RA 111.1618 111.111 ninth (91.70) = S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+- **4. circle divisions**
+  - 9 = 360/40 — also: 5 Pawpaw / Caoilin Quinn
+    - S Jupiter → H Mercury Dec 9.0038 9 whole (65.37)
+  - 36 = 360/10 — also: 2 Ted The Thief / Harry Kimber, 5 Pawpaw / Caoilin Quinn
+    - S Jupiter → H Pluto Dec 36.0045 36 whole (60.40)
+  - 10 = 360/36 — also: 4 Sweet Nightingale / Tristan Durrell
+    - S Jupiter → H Makemake Dec 10.0030 10 whole (72.24)
+  - 8 = 360/45 — also: 1 My Own Lovely Lee / Callum Pritchard, 5 Pawpaw / Caoilin Quinn
+    - S Galactic Centre → H Jupiter Dec 7.9804 8 whole (0.04)
+  - 24 = 360/15 — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber, 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+    - H Procyon → H Ceres Dec 24.0072 24 whole (41.00)
+  - 5 = 360/72 — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber
+    - S Zubenelgenubi → H Jupiter Dec 4.9871 5 whole (12.74)
+  - 8 = 360/45 — also: 1 My Own Lovely Lee / Callum Pritchard, 5 Pawpaw / Caoilin Quinn
+    - S Haumea → J Haumea Dec 8.0215 8 whole (loose)
+  - 10 = 360/36 — also: 4 Sweet Nightingale / Tristan Durrell
+    - S Transpluto → J Transpluto RA 10.0166 10 whole (2.90)
+  - 60 = 360/6 — only
+    - J Capella → J Juno Dec 60.0105 60 whole (22.66)
+  - 15 = 360/24 — also: 6 Steal The Moves / Lilly Pinchin
+    - J Galactic Centre → J Juno Dec 14.9965 15 whole (67.79)
+  - 90 = 360/4 — also: 4 Sweet Nightingale / Tristan Durrell
+    - J Galactic Centre → J Makemake RA 89.9905 90 whole (27.77)
+- **5. same number in more than one place**
+  - 28 whole — only
+    - S Sun → H Sun Dec 28.0068 28 whole (43.48)
+    - S Jupiter → J Juno Dec 28.0026 28 whole (75.46)
+  - 141.4 sqrt2 — only
+    - S Ceres → H Ceres RA 141.1896 141.4 sqrt2 (loose)
+    - S Transpluto → H Jupiter RA 141.4499 141.4 sqrt2 (92.09)
+  - 122.222 ninth — also: 5 Pawpaw / Caoilin Quinn
+    - S Rahu → H Rahu RA 122.1129 122.222 ninth (loose)
+    - S Ketu → H Ketu RA 122.1129 122.222 ninth (loose)
+  - 10 whole — only
+    - S Jupiter → H Makemake Dec 10.0030 10 whole (72.24)
+    - S Transpluto → J Transpluto RA 10.0166 10 whole (2.90)
+  - 34 whole — only
+    - H Capella → H Sun Dec 33.9830 34 whole (2.24)
+    - H Galactic Centre → H Mercury Dec 33.9951 34 whole (57.14)
+  - 88×φ golden — only
+    - H Capella → H Pluto RA 142.3706 88×φ golden (24.20)
+    - J Rigel → J Neptune RA 142.3982 88×φ golden (42.77)
+  - 53 whole — only
+    - H Capella → H Eris RA 53.0038 53 whole (65.35)
+    - H Galactic Centre → H Makemake Dec 53.0019 53 whole (81.46)
+  - 22 whole — only
+    - H Capella → H Makemake Dec 22.0025 22 whole (76.44)
+    - J Nunki → J Pallas Dec 21.9940 22 whole (48.78)
+  - 8 whole — also: 5 Pawpaw / Caoilin Quinn
+    - S Galactic Centre → H Jupiter Dec 7.9804 8 whole (0.04)
+    - S Haumea → J Haumea Dec 8.0215 8 whole (loose)
+  - 74×φ golden — only
+    - H Galactic Centre → H Eris RA 119.7435 74×φ golden (52.35)
+    - J Galactic Centre → J Transpluto RA 119.7195 74×φ golden (28.58)
+  - 166.667 ninth — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber, 4 Sweet Nightingale / Tristan Durrell
+    - H Zubenelgenubi → H Sun RA 166.6818 166.667 ninth (98.70)
+    - S Chiron → J Chiron RA 165.5987 166.667 ninth (loose)
+  - 11 whole — also: 1 My Own Lovely Lee / Callum Pritchard
+    - H Zubenelgenubi → H Neptune Dec 11.0057 11 whole (51.08)
+    - J Deneb Algedi → J Vesta Dec 11.0003 11 whole (97.23)
+  - 138 whole — only
+    - J Capella → J Uranus RA 137.9906 138 whole (28.08)
+    - J Galactic Centre → J Sedna RA 137.9983 138 whole (83.42)
+### L4 every natal body
+- **Sun**
+  - same body: S Sun → H Sun RA 168.0238 168 whole (loose) — also: 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+  - same body: S Sun → H Sun Dec 28.0068 28 whole (43.48) — also: 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+  - star rows: H Capella → H Sun Dec 33.9830 34 whole (2.24) — also: 1 My Own Lovely Lee / Callum Pritchard
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: H Galactic Centre → H Sun RA 122.9859 φ^10 phi power (98.06) — only
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - star rows: H Zubenelgenubi → H Sun RA 166.6818 166.667 ninth (98.70) — only
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+- **Jupiter**
+  - same body: S Jupiter → H Jupiter RA 151.0269 151 whole (loose) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber, 4 Sweet Nightingale / Tristan Durrell
+  - same body: S Jupiter → H Jupiter Dec 35.0192 35 whole (0.16) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber, 4 Sweet Nightingale / Tristan Durrell
+  - top rows: S Transpluto → H Jupiter RA 141.4499 141.4 sqrt2 (92.09) — also: 6 Steal The Moves / Lilly Pinchin
+  - star rows: H Capella → H Jupiter RA 141.0104 141 whole (23.23) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber, 4 Sweet Nightingale / Tristan Durrell
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: S Galactic Centre → H Jupiter Dec 7.9804 8 whole (0.04) — also: 1 My Own Lovely Lee / Callum Pritchard, 4 Sweet Nightingale / Tristan Durrell
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - star rows: S Zubenelgenubi → H Jupiter Dec 4.9871 5 whole (12.74) — also: 1 My Own Lovely Lee / Callum Pritchard, 4 Sweet Nightingale / Tristan Durrell
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+  - top rows: S Sun → J Jupiter RA 46.0055 46 whole (52.31) — also: 1 My Own Lovely Lee / Callum Pritchard
+  - top rows: S Eris → J Jupiter Dec 23.0043 23 whole (61.33) — also: 5 Pawpaw / Caoilin Quinn
+  - star rows: S Galactic Centre → J Jupiter RA 0.9761 conj (12.20) — also: 1 My Own Lovely Lee / Callum Pritchard, 4 Sweet Nightingale / Tristan Durrell
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+- **Neptune**
+  - same body: S Neptune → H Neptune RA 11.1126 11.1111 ninth (97.63) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber, 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+  - star rows: H Deneb Algedi → H Neptune Dec 11.0914 φ^5 phi power (95.57) — also: 5 Pawpaw / Caoilin Quinn
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+  - star rows: H Zubenelgenubi → H Neptune Dec 11.0057 11 whole (51.08) — also: 2 Ted The Thief / Harry Kimber, 5 Pawpaw / Caoilin Quinn
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+  - star rows: J Rigel → J Neptune RA 142.3982 88×φ golden (42.77) — also: 5 Pawpaw / Caoilin Quinn
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+- **Ceres**
+  - same body: S Ceres → H Ceres RA 141.1896 141.4 sqrt2 (loose) — also: 2 Ted The Thief / Harry Kimber, 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+  - star rows: H Procyon → H Ceres Dec 24.0072 24 whole (41.00) — also: 4 Sweet Nightingale / Tristan Durrell
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+  - star rows: H Zubenelgenubi → H Ceres RA 111.1618 111.111 ninth (91.70) — only
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+- **Rahu**
+  - same body: S Rahu → H Rahu RA 122.1129 122.222 ninth (loose) — also: 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+  - top rows: S Moon → J Rahu Dec 0.1561 conj (23.02) — only
+- **Eris**
+  - same body: S Eris → H Eris Dec 1.4135 1.414 sqrt2 (loose) — also: 2 Ted The Thief / Harry Kimber
+  - star rows: H Capella → H Eris RA 53.0038 53 whole (65.35) — only
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: H Deneb Algedi → H Eris Dec 14.5600 9×φ golden (86.41) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+  - star rows: H Galactic Centre → H Eris RA 119.7435 74×φ golden (52.35) — also: 1 My Own Lovely Lee / Callum Pritchard, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - star rows: H Zubenelgenubi → H Eris RA 163.4394 101×φ golden (19.74) — only
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+  - star rows: J Rigel → J Eris Dec 0.0047 conj (96.89) — only
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+- **Ketu**
+  - same body: S Ketu → H Ketu RA 122.1129 122.222 ninth (loose) — also: 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+- **Mercury**
+  - top rows: S Jupiter → H Mercury Dec 9.0038 9 whole (65.37) — only
+  - star rows: H Capella → H Mercury Dec 41.0093 41 whole (28.38) — only
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: H Galactic Centre → H Mercury Dec 33.9951 34 whole (57.14) — only
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - star rows: H Nunki → H Mercury RA 93.0175 93 whole (1.57) — also: 1 My Own Lovely Lee / Callum Pritchard
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+  - star rows: H Procyon → H Mercury RA 97.9848 98 whole (5.66) — also: 1 My Own Lovely Lee / Callum Pritchard, 5 Pawpaw / Caoilin Quinn
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+  - star rows: H Procyon → H Mercury Dec 0.2301 conj (5.43) — also: 1 My Own Lovely Lee / Callum Pritchard, 5 Pawpaw / Caoilin Quinn
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+  - star rows: H Zubenelgenubi → H Mercury Dec 21.0314 13×φ golden (82.06) — also: 5 Pawpaw / Caoilin Quinn
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+- **Uranus**
+  - top rows: S Jupiter → H Uranus RA 113.2581 70×φ golden (75.25) — only
+  - star rows: H Nunki → H Uranus RA 110.0539 68×φ golden (2.15) — also: 4 Sweet Nightingale / Tristan Durrell, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+  - star rows: J Capella → J Uranus RA 137.9906 138 whole (28.08) — also: 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+- **Pluto**
+  - top rows: S Jupiter → H Pluto Dec 36.0045 36 whole (60.40) — only
+  - star rows: H Capella → H Pluto RA 142.3706 88×φ golden (24.20) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: H Capella → H Pluto Dec 68.0100 68 whole (25.14) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: H Galactic Centre → H Pluto Dec 6.9945 7 whole (52.50) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - star rows: J Capella → J Pluto RA 163.0121 163 whole (15.64) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: J Rigel → J Pluto Dec 0.2943 conj (0.04) — also: 1 My Own Lovely Lee / Callum Pritchard, 4 Sweet Nightingale / Tristan Durrell
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+- **Makemake**
+  - top rows: S Jupiter → H Makemake Dec 10.0030 10 whole (72.24) — also: 1 My Own Lovely Lee / Callum Pritchard, 5 Pawpaw / Caoilin Quinn
+  - star rows: H Capella → H Makemake Dec 22.0025 22 whole (76.44) — also: 1 My Own Lovely Lee / Callum Pritchard, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: H Galactic Centre → H Makemake Dec 53.0019 53 whole (81.46) — also: 1 My Own Lovely Lee / Callum Pritchard, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - star rows: H Rigel → H Makemake RA 118.0091 118 whole (29.72) — also: 2 Ted The Thief / Harry Kimber
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+  - star rows: J Galactic Centre → J Makemake RA 89.9905 90 whole (27.77) — also: 1 My Own Lovely Lee / Callum Pritchard, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+- **Venus**
+  - top rows: S Moon → H Venus RA 118.1128 73×φ golden (78.40) — only
+  - star rows: H Nunki → H Venus Dec 53.3968 33×φ golden (90.07) — only
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+  - star rows: J Capella → J Venus RA 134.2810 83×φ golden (26.23) — also: 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+- **Juno**
+  - top rows: S Moon → H Juno Dec 13.3376 13.3333 ninth (94.83) — also: 1 My Own Lovely Lee / Callum Pritchard, 6 Steal The Moves / Lilly Pinchin
+  - top rows: S Jupiter → J Juno Dec 28.0026 28 whole (75.46) — also: 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+  - star rows: J Capella → J Juno Dec 60.0105 60 whole (22.66) — only
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: J Galactic Centre → J Juno Dec 14.9965 15 whole (67.79) — only
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+- **Pallas**
+  - star rows: H Capella → H Pallas RA 145.6438 90×φ golden (12.85) — also: 2 Ted The Thief / Harry Kimber
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: J Nunki → J Pallas Dec 21.9940 22 whole (48.78) — also: 5 Pawpaw / Caoilin Quinn
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+- **Transpluto**
+  - star rows: H Deneb Algedi → H Transpluto Dec 27.0128 27 whole (12.80) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+  - same body: S Transpluto → J Transpluto RA 10.0166 10 whole (2.90) — also: 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+  - top rows: S Jupiter → J Transpluto RA 0.4396 conj (49.98) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber, 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+  - star rows: J Galactic Centre → J Transpluto RA 119.7195 74×φ golden (28.58) — also: 5 Pawpaw / Caoilin Quinn
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+- **Chiron**
+  - star rows: H Procyon → H Chiron Dec 0.1133 conj (38.73) — also: 1 My Own Lovely Lee / Callum Pritchard, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+  - same body: S Chiron → J Chiron RA 165.5987 166.667 ninth (loose) — also: 2 Ted The Thief / Harry Kimber, 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+  - top rows: S Moon → J Chiron RA 1.2118 conj (3.69) — only
+- **Saturn**
+  - star rows: H Rigel → H Saturn RA 135.0103 135 whole (23.32) — also: 1 My Own Lovely Lee / Callum Pritchard
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+  - star rows: J Galactic Centre → J Saturn Dec 22.6593 14×φ golden (62.13) — also: 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+- **Sedna**
+  - same body: S Sedna → J Sedna RA 17.6621 17.7778 ninth (loose) — also: 2 Ted The Thief / Harry Kimber, 5 Pawpaw / Caoilin Quinn
+  - star rows: J Galactic Centre → J Sedna RA 137.9983 138 whole (83.42) — also: 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+- **Haumea**
+  - same body: S Haumea → J Haumea Dec 8.0215 8 whole (loose) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Sun → Haumea RA 0.6466 conj (32.37)
+  - star rows: J Procyon → J Haumea RA 79.0108 79 whole (21.33) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber, 5 Pawpaw / Caoilin Quinn
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+- **Vesta**
+  - star rows: J Deneb Algedi → J Vesta Dec 11.0003 11 whole (97.23) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+- **Gonggong**
+  - star rows: J Procyon → J Gonggong RA 144.4808 144.444 ninth (96.15) — also: 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+
+## 4 Sweet Nightingale / Tristan Durrell
+### L1 same bodies
+- S Sun → H Sun RA 166.8660 166.667 ninth (loose)
+- S Venus → H Venus RA 155.5560 155.556 ninth (99.96)
+- S Jupiter → H Jupiter Dec 18.9978 19 whole (79.42)
+- S Saturn → H Saturn Dec 22.9968 23 whole (70.42)
+- S Pluto → H Pluto RA 15.5415 15.5556 ninth (loose)
+- S Pallas → H Pallas RA 6.8531 φ^4 phi power (loose)
+- S Vesta → H Vesta RA 101.9201 63×φ golden (25.42)
+- S Gonggong → H Gonggong Dec 2.0094 2 whole (27.93)
+- S Transpluto → H Transpluto RA 3.9848 4 whole (5.87)
+- S Mars → J Mars RA 111.3927 111.111 ninth (loose)
+- S Mars → J Mars Dec 43.0203 43 whole (loose)
+- S Neptune → J Neptune Dec 17.6743 17.7778 ninth (loose)
+- S Chiron → J Chiron RA 122.5436 122.222 ninth (loose)
+- S Ceres → J Ceres RA 166.7777 166.667 ninth (loose)
+- S Juno → J Juno Dec 27.9813 28 whole (0.44)
+- S Vesta → J Vesta Dec 19.0127 19 whole (13.19)
+- S Rahu → J Rahu RA 127.8303 79×φ golden (68.28)
+- S Gonggong → J Gonggong Dec 6.4684 4×φ golden (loose)
+- S Ketu → J Ketu RA 127.8303 79×φ golden (68.28)
+### L2 what lands on each same body
+- **H Sun** (same body: S Sun → H Sun RA 166.8660 166.667 ninth (loose))
+  - star rows: H Deneb Algedi → H Sun RA 61.4893 38×φ golden (76.85)
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+  - other chart, star rows: J Deneb Algedi → J Sun Dec 33.0049 33 whole (56.78)
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+- **H Venus** (same body: S Venus → H Venus RA 155.5560 155.556 ninth (99.96))
+  - sky line to Venus: S Jupiter → Venus RA 53.3984 33×φ golden (80.90)
+  - star rows: H Zubenelgenubi → H Venus RA 133.3603 133.333 ninth (96.77)
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+  - star rows: H Zubenelgenubi → H Venus Dec 17.9434 φ^6 phi power (98.07)
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+- **H Jupiter** (same body: S Jupiter → H Jupiter Dec 18.9978 19 whole (79.42))
+  - top rows: S Haumea → H Jupiter RA 24.9967 25 whole (69.50)
+    - source line: S Sun → Haumea RA 0.6466 conj (32.37)
+  - top rows: S Gonggong → H Jupiter RA 141.4281 141.4 sqrt2 (98.11)
+  - star rows: S Capella → H Jupiter Dec 51.0002 51 whole (98.03)
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: H Deneb Algedi → H Jupiter RA 131.0200 131 whole (0.00)
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+  - star rows: H Galactic Centre → H Jupiter Dec 24.0011 24 whole (89.20)
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - star rows: H Zubenelgenubi → H Jupiter RA 26.9853 27 whole (6.92)
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+  - other chart, top rows: S Mars → J Jupiter RA 48.5478 30×φ golden (62.62)
+  - other chart, star rows: J Galactic Centre → J Jupiter RA 170.9828 171 whole (1.96)
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+- **H Saturn** (same body: S Saturn → H Saturn Dec 22.9968 23 whole (70.42))
+  - star rows: H Capella → H Saturn RA 171.9834 172 whole (2.81)
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: H Galactic Centre → H Saturn RA 0.7641 conj (24.07)
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - star rows: H Zubenelgenubi → H Saturn Dec 6.0098 6 whole (26.07)
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+- **H Pluto** (same body: S Pluto → H Pluto RA 15.5415 15.5556 ninth (loose))
+  - star rows: H Rigel → H Pluto Dec 12.9967 13 whole (69.86)
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+- **H Pallas** (same body: S Pallas → H Pallas RA 6.8531 φ^4 phi power (loose))
+  - star rows: H Procyon → H Pallas RA 106.7583 66×φ golden (0.02)
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+- **H Vesta** (same body: S Vesta → H Vesta RA 101.9201 63×φ golden (25.42))
+  - star rows: H Capella → H Vesta RA 39.9899 40 whole (24.51)
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: H Galactic Centre → H Vesta RA 147.2627 91×φ golden (11.13)
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - star rows: H Zubenelgenubi → H Vesta RA 103.5669 64×φ golden (36.92)
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+  - star rows: H Zubenelgenubi → H Vesta Dec 41.4279 41.4 silver (93.80)
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+  - other chart, same body: S Vesta → J Vesta Dec 19.0127 19 whole (13.19)
+  - other chart, star rows: J Zubenelgenubi → J Vesta RA 162.0130 162 whole (12.40)
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+- **H Gonggong** (same body: S Gonggong → H Gonggong Dec 2.0094 2 whole (27.93))
+  - other chart, same body: S Gonggong → J Gonggong Dec 6.4684 4×φ golden (loose)
+  - other chart, top rows: S Sun → J Gonggong RA 111.1265 111.111 ninth (97.48)
+  - other chart, star rows: J Galactic Centre → J Gonggong Dec 12.2270 12.2222 ninth (93.32)
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - other chart, star rows: J Procyon → J Gonggong Dec 22.0072 22 whole (40.99)
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+- **H Transpluto** (same body: S Transpluto → H Transpluto RA 3.9848 4 whole (5.87))
+  - star rows: H Procyon → H Transpluto Dec 6.0197 6 whole (0.02)
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+  - star rows: H Zubenelgenubi → H Transpluto RA 70.0019 70 whole (81.71)
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+  - other chart, top rows: S Jupiter → J Transpluto RA 0.8589 conj (18.26)
+  - other chart, star rows: J Zubenelgenubi → J Transpluto Dec 28.9846 29 whole (5.19)
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+- **J Mars** (same body: S Mars → J Mars RA 111.3927 111.111 ninth (loose); S Mars → J Mars Dec 43.0203 43 whole (loose))
+  - top rows: S Sun → J Mars RA 33.9963 34 whole (66.32)
+  - other chart, star rows: H Deneb Algedi → H Mars RA 90.0035 90 whole (68.21)
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+- **J Neptune** (same body: S Neptune → J Neptune Dec 17.6743 17.7778 ninth (loose))
+  - other chart, star rows: H Nunki → H Neptune RA 61.0137 61 whole (9.96)
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+  - other chart, star rows: H Nunki → H Neptune Dec 18.8870 18.8889 ninth (98.67)
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+  - other chart, star rows: H Procyon → H Neptune RA 129.9894 130 whole (22.18)
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+- **J Chiron** (same body: S Chiron → J Chiron RA 122.5436 122.222 ninth (loose))
+  - top rows: S Sun → J Chiron Dec 0.9977 1 whole (78.20)
+  - star rows: J Capella → J Chiron Dec 62.9864 63 whole (10.13)
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: J Galactic Centre → J Chiron Dec 12.0178 12 whole (1.24)
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+- **J Ceres** (same body: S Ceres → J Ceres RA 166.7777 166.667 ninth (loose))
+  - other chart, star rows: H Deneb Algedi → H Ceres Dec 33.3386 33.3333 ninth (93.70)
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+  - other chart, star rows: H Procyon → H Ceres Dec 11.9908 12 whole (29.00)
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+- **J Juno** (same body: S Juno → J Juno Dec 27.9813 28 whole (0.44))
+  - top rows: S Jupiter → J Juno Dec 0.2537 conj (2.38)
+  - star rows: J Nunki → J Juno RA 173.1059 107×φ golden (7.12)
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+- **J Vesta** (same body: S Vesta → J Vesta Dec 19.0127 19 whole (13.19))
+  - star rows: J Zubenelgenubi → J Vesta RA 162.0130 162 whole (12.40)
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+  - other chart, same body: S Vesta → H Vesta RA 101.9201 63×φ golden (25.42)
+  - other chart, star rows: H Capella → H Vesta RA 39.9899 40 whole (24.51)
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - other chart, star rows: H Galactic Centre → H Vesta RA 147.2627 91×φ golden (11.13)
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - other chart, star rows: H Zubenelgenubi → H Vesta RA 103.5669 64×φ golden (36.92)
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+  - other chart, star rows: H Zubenelgenubi → H Vesta Dec 41.4279 41.4 silver (93.80)
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+- **J Rahu** (same body: S Rahu → J Rahu RA 127.8303 79×φ golden (68.28))
+  - star rows: J Galactic Centre → J Rahu RA 170.0060 170 whole (48.82)
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+- **J Gonggong** (same body: S Gonggong → J Gonggong Dec 6.4684 4×φ golden (loose))
+  - top rows: S Sun → J Gonggong RA 111.1265 111.111 ninth (97.48)
+  - star rows: J Galactic Centre → J Gonggong Dec 12.2270 12.2222 ninth (93.32)
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - star rows: J Procyon → J Gonggong Dec 22.0072 22 whole (40.99)
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+  - other chart, same body: S Gonggong → H Gonggong Dec 2.0094 2 whole (27.93)
+- **J Ketu** (same body: S Ketu → J Ketu RA 127.8303 79×φ golden (68.28))
+  - star rows: J Galactic Centre → J Ketu RA 9.9940 10 whole (48.82)
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - star rows: J Nunki → J Ketu Dec 2.9884 3 whole (17.80)
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+  - other chart, star rows: H Capella → H Ketu Dec 57.0180 57 whole (1.02)
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - other chart, star rows: H Galactic Centre → H Ketu Dec 17.9869 18 whole (11.76)
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+### L3 matches
+- **1. same body on both charts**
+  - Vesta — only
+    - S Vesta → H Vesta RA 101.9201 63×φ golden (25.42)
+    - S Vesta → J Vesta Dec 19.0127 19 whole (13.19)
+  - Gonggong — only
+    - S Gonggong → H Gonggong Dec 2.0094 2 whole (27.93)
+    - S Gonggong → J Gonggong Dec 6.4684 4×φ golden (loose)
+- **2. one body in both planes**
+  - J Mars — also: 5 Pawpaw / Caoilin Quinn
+    - S Mars → J Mars RA 111.3927 111.111 ninth (loose)
+    - S Mars → J Mars Dec 43.0203 43 whole (loose)
+- **3. runner number = sky number**
+  - 111.111 ninth — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+    - S Mars → J Mars RA 111.3927 111.111 ninth (loose) = S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+  - 43 whole — also: 5 Pawpaw / Caoilin Quinn
+    - S Mars → J Mars Dec 43.0203 43 whole (loose) = S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - 111.111 ninth — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+    - S Sun → J Gonggong RA 111.1265 111.111 ninth (97.48) = S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+- **4. circle divisions**
+  - 2 = 360/180 — also: 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+    - S Gonggong → H Gonggong Dec 2.0094 2 whole (27.93)
+  - 4 = 360/90 — also: 2 Ted The Thief / Harry Kimber
+    - S Transpluto → H Transpluto RA 3.9848 4 whole (5.87)
+  - 24 = 360/15 — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn
+    - H Jupiter → H star Galactic Centre Dec 24.0011 24 whole (89.20)
+  - 40 = 360/9 — also: 1 My Own Lovely Lee / Callum Pritchard, 6 Steal The Moves / Lilly Pinchin
+    - H Capella → H Vesta RA 39.9899 40 whole (24.51)
+  - 90 = 360/4 — also: 3 Hard Stare / Jonathan Burke
+    - H Deneb Algedi → H Mars RA 90.0035 90 whole (68.21)
+  - 24 = 360/15 — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn
+    - H Galactic Centre → H Jupiter Dec 24.0011 24 whole (89.20)
+  - 18 = 360/20 — also: 2 Ted The Thief / Harry Kimber, 6 Steal The Moves / Lilly Pinchin
+    - H Galactic Centre → H Ketu Dec 17.9869 18 whole (11.76)
+  - 12 = 360/30 — also: 1 My Own Lovely Lee / Callum Pritchard, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+    - H Procyon → H Ceres Dec 11.9908 12 whole (29.00)
+  - 6 = 360/60 — also: 2 Ted The Thief / Harry Kimber, 6 Steal The Moves / Lilly Pinchin
+    - H Procyon → H Transpluto Dec 6.0197 6 whole (0.02)
+  - 6 = 360/60 — also: 2 Ted The Thief / Harry Kimber, 6 Steal The Moves / Lilly Pinchin
+    - H Zubenelgenubi → H Saturn Dec 6.0098 6 whole (26.07)
+  - 1 = 360/360 — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber, 5 Pawpaw / Caoilin Quinn
+    - S Sun → J Chiron Dec 0.9977 1 whole (78.20)
+  - 12 = 360/30 — also: 1 My Own Lovely Lee / Callum Pritchard, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+    - J Galactic Centre → J Chiron Dec 12.0178 12 whole (1.24)
+  - 10 = 360/36 — also: 3 Hard Stare / Jonathan Burke
+    - J Galactic Centre → J Ketu RA 9.9940 10 whole (48.82)
+  - 3 = 360/120 — also: 5 Pawpaw / Caoilin Quinn
+    - J Nunki → J Ketu Dec 2.9884 3 whole (17.80)
+- **5. same number in more than one place**
+  - 166.667 ninth — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke
+    - S Sun → H Sun RA 166.8660 166.667 ninth (loose)
+    - S Ceres → J Ceres RA 166.7777 166.667 ninth (loose)
+  - 19 whole — only
+    - S Jupiter → H Jupiter Dec 18.9978 19 whole (79.42)
+    - S Vesta → J Vesta Dec 19.0127 19 whole (13.19)
+  - 63×φ golden — only
+    - S Vesta → H Vesta RA 101.9201 63×φ golden (25.42)
+    - H Nunki → H Eris RA 101.9618 63×φ golden (4.27)
+  - 51 whole — only
+    - H Jupiter → H star Capella Dec 51.0037 51 whole (66.17)
+    - S Capella → H Jupiter Dec 51.0002 51 whole (98.03)
+  - 24 whole — also: 2 Ted The Thief / Harry Kimber, 5 Pawpaw / Caoilin Quinn
+    - H Jupiter → H star Galactic Centre Dec 24.0011 24 whole (89.20)
+    - H Galactic Centre → H Jupiter Dec 24.0011 24 whole (89.20)
+  - 25 whole — only
+    - S Sun → H Uranus Dec 24.9953 25 whole (58.31)
+    - S Haumea → H Jupiter RA 24.9967 25 whole (69.50)
+  - 57 whole — only
+    - H Capella → H Ketu Dec 57.0180 57 whole (1.02)
+    - J Rigel → J Mercury RA 56.9975 57 whole (76.51)
+  - 12 whole — also: 1 My Own Lovely Lee / Callum Pritchard, 6 Steal The Moves / Lilly Pinchin
+    - H Procyon → H Ceres Dec 11.9908 12 whole (29.00)
+    - J Galactic Centre → J Chiron Dec 12.0178 12 whole (1.24)
+  - 6 whole — also: 6 Steal The Moves / Lilly Pinchin
+    - H Procyon → H Transpluto Dec 6.0197 6 whole (0.02)
+    - H Zubenelgenubi → H Saturn Dec 6.0098 6 whole (26.07)
+  - 111.111 ninth — also: 6 Steal The Moves / Lilly Pinchin
+    - S Mars → J Mars RA 111.3927 111.111 ninth (loose)
+    - S Sun → J Gonggong RA 111.1265 111.111 ninth (97.48)
+  - 79×φ golden — only
+    - S Rahu → J Rahu RA 127.8303 79×φ golden (68.28)
+    - S Ketu → J Ketu RA 127.8303 79×φ golden (68.28)
+### L4 every natal body
+- **Sun**
+  - same body: S Sun → H Sun RA 166.8660 166.667 ninth (loose) — also: 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+  - star rows: H Deneb Algedi → H Sun RA 61.4893 38×φ golden (76.85) — also: 5 Pawpaw / Caoilin Quinn
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+  - star rows: J Deneb Algedi → J Sun Dec 33.0049 33 whole (56.78) — also: 5 Pawpaw / Caoilin Quinn
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+- **Venus**
+  - same body: S Venus → H Venus RA 155.5560 155.556 ninth (99.96) — also: 1 My Own Lovely Lee / Callum Pritchard, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Jupiter → Venus RA 53.3984 33×φ golden (80.90)
+  - star rows: H Zubenelgenubi → H Venus RA 133.3603 133.333 ninth (96.77) — also: 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+  - star rows: H Zubenelgenubi → H Venus Dec 17.9434 φ^6 phi power (98.07) — also: 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+- **Jupiter**
+  - same body + top rows: S Jupiter → H Jupiter Dec 18.9978 19 whole (79.42) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke
+  - T1: H Jupiter → H star Capella Dec 51.0037 51 whole (66.17) — also: 5 Pawpaw / Caoilin Quinn
+  - T1: H Jupiter → H star Galactic Centre Dec 24.0011 24 whole (89.20) — also: 5 Pawpaw / Caoilin Quinn
+  - top rows: S Haumea → H Jupiter RA 24.9967 25 whole (69.50) — only
+    - source line: S Sun → Haumea RA 0.6466 conj (32.37)
+  - top rows: S Gonggong → H Jupiter RA 141.4281 141.4 sqrt2 (98.11) — only
+  - star rows: S Capella → H Jupiter Dec 51.0002 51 whole (98.03) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: H Deneb Algedi → H Jupiter RA 131.0200 131 whole (0.00) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+  - star rows: H Galactic Centre → H Jupiter Dec 24.0011 24 whole (89.20) — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - star rows: H Zubenelgenubi → H Jupiter RA 26.9853 27 whole (6.92) — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+  - top rows: S Mars → J Jupiter RA 48.5478 30×φ golden (62.62) — only
+  - star rows: J Galactic Centre → J Jupiter RA 170.9828 171 whole (1.96) — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+- **Saturn**
+  - same body: S Saturn → H Saturn Dec 22.9968 23 whole (70.42) — also: 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+  - star rows: H Capella → H Saturn RA 171.9834 172 whole (2.81) — only
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: H Galactic Centre → H Saturn RA 0.7641 conj (24.07) — also: 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - star rows: H Zubenelgenubi → H Saturn Dec 6.0098 6 whole (26.07) — also: 1 My Own Lovely Lee / Callum Pritchard
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+- **Pluto**
+  - same body: S Pluto → H Pluto RA 15.5415 15.5556 ninth (loose) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber, 5 Pawpaw / Caoilin Quinn
+  - star rows: H Rigel → H Pluto Dec 12.9967 13 whole (69.86) — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+- **Pallas**
+  - same body: S Pallas → H Pallas RA 6.8531 φ^4 phi power (loose) — also: 5 Pawpaw / Caoilin Quinn
+  - star rows: H Procyon → H Pallas RA 106.7583 66×φ golden (0.02) — also: 5 Pawpaw / Caoilin Quinn
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+- **Vesta**
+  - same body: S Vesta → H Vesta RA 101.9201 63×φ golden (25.42) — also: 1 My Own Lovely Lee / Callum Pritchard, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+  - star rows: H Capella → H Vesta RA 39.9899 40 whole (24.51) — also: 6 Steal The Moves / Lilly Pinchin
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: H Galactic Centre → H Vesta RA 147.2627 91×φ golden (11.13) — also: 2 Ted The Thief / Harry Kimber
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - star rows: H Zubenelgenubi → H Vesta RA 103.5669 64×φ golden (36.92) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+  - star rows: H Zubenelgenubi → H Vesta Dec 41.4279 41.4 silver (93.80) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+  - same body: S Vesta → J Vesta Dec 19.0127 19 whole (13.19) — also: 1 My Own Lovely Lee / Callum Pritchard, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+  - star rows: J Zubenelgenubi → J Vesta RA 162.0130 162 whole (12.40) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+- **Gonggong**
+  - same body: S Gonggong → H Gonggong Dec 2.0094 2 whole (27.93) — also: 1 My Own Lovely Lee / Callum Pritchard, 5 Pawpaw / Caoilin Quinn
+  - same body: S Gonggong → J Gonggong Dec 6.4684 4×φ golden (loose) — also: 1 My Own Lovely Lee / Callum Pritchard, 5 Pawpaw / Caoilin Quinn
+  - top rows: S Sun → J Gonggong RA 111.1265 111.111 ninth (97.48) — also: 2 Ted The Thief / Harry Kimber
+  - star rows: J Galactic Centre → J Gonggong Dec 12.2270 12.2222 ninth (93.32) — only
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - star rows: J Procyon → J Gonggong Dec 22.0072 22 whole (40.99) — also: 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+- **Transpluto**
+  - same body: S Transpluto → H Transpluto RA 3.9848 4 whole (5.87) — also: 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn
+  - star rows: H Procyon → H Transpluto Dec 6.0197 6 whole (0.02) — also: 1 My Own Lovely Lee / Callum Pritchard
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+  - star rows: H Zubenelgenubi → H Transpluto RA 70.0019 70 whole (81.71) — only
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+  - top rows: S Jupiter → J Transpluto RA 0.8589 conj (18.26) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+  - star rows: J Zubenelgenubi → J Transpluto Dec 28.9846 29 whole (5.19) — only
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+- **Eris**
+  - top rows: S Jupiter → H Eris RA 121.3503 75×φ golden (86.81) — also: 2 Ted The Thief / Harry Kimber
+  - star rows: H Nunki → H Eris RA 101.9618 63×φ golden (4.27) — also: 2 Ted The Thief / Harry Kimber, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+- **Uranus**
+  - top rows: S Sun → H Uranus Dec 24.9953 25 whole (58.31) — also: 5 Pawpaw / Caoilin Quinn
+  - star rows: H Capella → H Uranus Dec 36.9949 37 whole (55.71) — also: 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: H Galactic Centre → H Uranus Dec 38.0099 38 whole (25.43) — also: 5 Pawpaw / Caoilin Quinn
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - star rows: J Deneb Algedi → J Uranus RA 0.9320 conj (14.34) — also: 5 Pawpaw / Caoilin Quinn
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+  - star rows: J Nunki → J Uranus RA 42.0120 42 whole (15.89) — also: 3 Hard Stare / Jonathan Burke, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+  - star rows: J Procyon → J Uranus RA 148.9864 149 whole (10.14) — only
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+- **Orcus**
+  - top rows: S Moon → H Orcus Dec 0.1304 conj (31.95) — only
+  - star rows: H Nunki → H Orcus Dec 16.9972 17 whole (73.70) — only
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+- **Ketu**
+  - star rows: H Capella → H Ketu Dec 57.0180 57 whole (1.02) — only
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: H Galactic Centre → H Ketu Dec 17.9869 18 whole (11.76) — only
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - same body: S Ketu → J Ketu RA 127.8303 79×φ golden (68.28) — also: 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn
+  - star rows: J Galactic Centre → J Ketu RA 9.9940 10 whole (48.82) — only
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - star rows: J Nunki → J Ketu Dec 2.9884 3 whole (17.80) — also: 5 Pawpaw / Caoilin Quinn
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+- **Mars**
+  - star rows: H Deneb Algedi → H Mars RA 90.0035 90 whole (68.21) — also: 2 Ted The Thief / Harry Kimber
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+  - same body: S Mars → J Mars RA 111.3927 111.111 ninth (loose) — also: 2 Ted The Thief / Harry Kimber, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+  - same body: S Mars → J Mars Dec 43.0203 43 whole (loose) — also: 2 Ted The Thief / Harry Kimber, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+  - top rows: S Sun → J Mars RA 33.9963 34 whole (66.32) — also: 1 My Own Lovely Lee / Callum Pritchard
+- **Ceres**
+  - star rows: H Deneb Algedi → H Ceres Dec 33.3386 33.3333 ninth (93.70) — also: 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+  - star rows: H Procyon → H Ceres Dec 11.9908 12 whole (29.00) — also: 3 Hard Stare / Jonathan Burke
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+  - same body: S Ceres → J Ceres RA 166.7777 166.667 ninth (loose) — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+- **Neptune**
+  - star rows: H Nunki → H Neptune RA 61.0137 61 whole (9.96) — only
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+  - star rows: H Nunki → H Neptune Dec 18.8870 18.8889 ninth (98.67) — only
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+  - star rows: H Procyon → H Neptune RA 129.9894 130 whole (22.18) — also: 2 Ted The Thief / Harry Kimber
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+  - same body: S Neptune → J Neptune Dec 17.6743 17.7778 ninth (loose) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn
+- **Sedna**
+  - star rows: H Nunki → H Sedna RA 132.0088 132 whole (31.18) — also: 1 My Own Lovely Lee / Callum Pritchard
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+  - star rows: H Procyon → H Sedna RA 58.9943 59 whole (50.96) — also: 1 My Own Lovely Lee / Callum Pritchard, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+- **Chiron**
+  - same body: S Chiron → J Chiron RA 122.5436 122.222 ninth (loose) — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+  - top rows: S Sun → J Chiron Dec 0.9977 1 whole (78.20) — only
+  - star rows: J Capella → J Chiron Dec 62.9864 63 whole (10.13) — also: 5 Pawpaw / Caoilin Quinn
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: J Galactic Centre → J Chiron Dec 12.0178 12 whole (1.24) — also: 1 My Own Lovely Lee / Callum Pritchard, 5 Pawpaw / Caoilin Quinn
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+- **Juno**
+  - same body: S Juno → J Juno Dec 27.9813 28 whole (0.44) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber, 5 Pawpaw / Caoilin Quinn, 6 Steal The Moves / Lilly Pinchin
+  - top rows: S Jupiter → J Juno Dec 0.2537 conj (2.38) — also: 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn
+  - star rows: J Nunki → J Juno RA 173.1059 107×φ golden (7.12) — only
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+- **Rahu**
+  - same body: S Rahu → J Rahu RA 127.8303 79×φ golden (68.28) — also: 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn
+  - star rows: J Galactic Centre → J Rahu RA 170.0060 170 whole (48.82) — also: 1 My Own Lovely Lee / Callum Pritchard
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+- **Mercury**
+  - top rows: S Sun → J Mercury RA 85.7538 53×φ golden (88.19) — only
+  - star rows: J Rigel → J Mercury RA 56.9975 57 whole (76.51) — only
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+- **Makemake**
+  - star rows: J Nunki → J Makemake RA 103.9969 104 whole (71.13) — only
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+  - star rows: J Procyon → J Makemake RA 65.0047 65 whole (58.23) — only
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+
+## 5 Pawpaw / Caoilin Quinn
+### L1 same bodies
+- S Sun → H Sun RA 121.8848 122.222 ninth (loose)
+- S Sun → H Sun Dec 8.8759 8.88889 ninth (loose)
+- S Saturn → H Saturn Dec 23.0293 23 whole (loose)
+- S Neptune → H Neptune RA 18.7790 18.8889 ninth (loose)
+- S Pluto → H Pluto RA 16.1720 10×φ^1 phi power (loose)
+- S Chiron → H Chiron Dec 9.7008 6×φ golden (loose)
+- S Pallas → H Pallas RA 24.1099 24.14 silver (loose)
+- S Vesta → H Vesta Dec 30.7243 19×φ golden (loose)
+- S Sedna → H Sedna Dec 1.3318 1.33333 ninth (loose)
+- S Gonggong → H Gonggong RA 1.3285 1.33333 ninth (loose)
+- S Mercury → J Mercury RA 135.0125 135 whole (14.10)
+- S Venus → J Venus RA 144.5478 144.444 ninth (loose)
+- S Mars → J Mars RA 111.3885 111.111 ninth (loose)
+- S Mars → J Mars Dec 42.9722 43 whole (loose)
+- S Ceres → J Ceres Dec 53.3853 33×φ golden (loose)
+- S Pallas → J Pallas RA 128.9969 129 whole (71.38)
+- S Pallas → J Pallas Dec 45.0204 45 whole (loose)
+- S Juno → J Juno RA 133.5919 133.333 ninth (loose)
+- S Rahu → J Rahu Dec 36.0181 36 whole (0.86)
+- S Sedna → J Sedna RA 14.0124 14 whole (14.50)
+- S Haumea → J Haumea RA 24.0033 24 whole (69.67)
+- S Makemake → J Makemake Dec 12.2842 12.2222 ninth (loose)
+- S Transpluto → J Transpluto Dec 3.3268 3.33333 ninth (loose)
+- S Ketu → J Ketu Dec 36.0181 36 whole (0.86)
+### L2 what lands on each same body
+- **H Sun** (same body: S Sun → H Sun RA 121.8848 122.222 ninth (loose); S Sun → H Sun Dec 8.8759 8.88889 ninth (loose))
+  - T1: H Jupiter → H Sun Dec 0.0387 conj (75.89)
+  - star rows: H Deneb Algedi → H Sun Dec 9.0135 9 whole (10.64)
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+  - other chart, star rows: J Rigel → J Sun RA 23.9860 24 whole (8.87)
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+- **H Saturn** (same body: S Saturn → H Saturn Dec 23.0293 23 whole (loose))
+  - star rows: H Galactic Centre → H Saturn RA 0.1119 conj (85.63)
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - other chart, star rows: J Nunki → J Saturn RA 143.9834 144 whole (2.92)
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+  - other chart, star rows: J Procyon → J Saturn RA 47.0139 47 whole (9.43)
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+- **H Neptune** (same body: S Neptune → H Neptune RA 18.7790 18.8889 ninth (loose))
+  - star rows: H Rigel → H Neptune Dec 0.1622 conj (21.11)
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+  - star rows: H Zubenelgenubi → H Neptune Dec 8.0005 8 whole (94.81)
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+  - other chart, star rows: J Deneb Algedi → J Neptune Dec 1.9838 2 whole (3.69)
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+  - other chart, star rows: J Galactic Centre → J Neptune RA 44.0190 44 whole (0.25)
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+- **H Pluto** (same body: S Pluto → H Pluto RA 16.1720 10×φ^1 phi power (loose))
+- **H Chiron** (same body: S Chiron → H Chiron Dec 9.7008 6×φ golden (loose))
+  - star rows: H Capella → H Chiron Dec 45.0186 45 whole (0.47)
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: H Galactic Centre → H Chiron Dec 29.9869 30 whole (11.76)
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - star rows: H Zubenelgenubi → H Chiron RA 130.0048 130 whole (57.42)
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+- **H Pallas** (same body: S Pallas → H Pallas RA 24.1099 24.14 silver (loose))
+  - star rows: H Nunki → H Pallas RA 66.9931 67 whole (43.23)
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+  - star rows: H Procyon → H Pallas RA 124.0195 124 whole (0.06)
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+  - other chart, same body: S Pallas → J Pallas RA 128.9969 129 whole (71.38)
+  - other chart, same body: S Pallas → J Pallas Dec 45.0204 45 whole (loose)
+- **H Vesta** (same body: S Vesta → H Vesta Dec 30.7243 19×φ golden (loose))
+  - star rows: H Nunki → H Vesta RA 171.5093 106×φ golden (86.55)
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+  - other chart, star rows: J Procyon → J Vesta Dec 6.9825 7 whole (1.60)
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+- **H Sedna** (same body: S Sedna → H Sedna Dec 1.3318 1.33333 ninth (loose))
+  - star rows: H Galactic Centre → H Sedna RA 149.0137 149 whole (10.06)
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - other chart, same body: S Sedna → J Sedna RA 14.0124 14 whole (14.50)
+- **H Gonggong** (same body: S Gonggong → H Gonggong RA 1.3285 1.33333 ninth (loose))
+  - star rows: H Procyon → H Gonggong RA 138.9870 139 whole (12.09)
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+- **J Mercury** (same body: S Mercury → J Mercury RA 135.0125 135 whole (14.10))
+  - star rows: J Procyon → J Mercury Dec 14.0018 14 whole (82.63)
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+  - star rows: J Zubenelgenubi → J Mercury RA 140.7933 87×φ golden (6.16)
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+- **J Venus** (same body: S Venus → J Venus RA 144.5478 144.444 ninth (loose))
+  - sky line to Venus: S Jupiter → Venus RA 53.3984 33×φ golden (80.90)
+  - star rows: J Zubenelgenubi → J Venus Dec 33.0128 33 whole (12.85)
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+  - other chart, T1: H Jupiter → H Venus RA 168.2766 104×φ golden (93.27)
+  - other chart, star rows: H Capella → H Venus RA 69.9939 70 whole (48.27)
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+- **J Mars** (same body: S Mars → J Mars RA 111.3885 111.111 ninth (loose); S Mars → J Mars Dec 42.9722 43 whole (loose))
+- **J Ceres** (same body: S Ceres → J Ceres Dec 53.3853 33×φ golden (loose))
+  - star rows: J Deneb Algedi → J Ceres Dec 12.9981 13 whole (82.27)
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+  - star rows: J Galactic Centre → J Ceres Dec 0.1159 conj (37.65)
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - other chart, star rows: H Rigel → H Ceres RA 42.0070 42 whole (42.28)
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+- **J Pallas** (same body: S Pallas → J Pallas RA 128.9969 129 whole (71.38); S Pallas → J Pallas Dec 45.0204 45 whole (loose))
+  - other chart, same body: S Pallas → H Pallas RA 24.1099 24.14 silver (loose)
+  - other chart, star rows: H Nunki → H Pallas RA 66.9931 67 whole (43.23)
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+  - other chart, star rows: H Procyon → H Pallas RA 124.0195 124 whole (0.06)
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+- **J Juno** (same body: S Juno → J Juno RA 133.5919 133.333 ninth (loose))
+  - top rows: S Jupiter → J Juno Dec 0.2382 conj (4.24)
+  - star rows: J Procyon → J Juno Dec 9.0045 9 whole (60.00)
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+  - star rows: J Rigel → J Juno RA 1.0043 1 whole (61.37)
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+  - other chart, star rows: H Rigel → H Juno RA 161.0058 161 whole (50.68)
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+- **J Rahu** (same body: S Rahu → J Rahu Dec 36.0181 36 whole (0.86))
+  - star rows: J Nunki → J Rahu RA 173.1124 107×φ golden (21.76)
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+- **J Sedna** (same body: S Sedna → J Sedna RA 14.0124 14 whole (14.50))
+  - other chart, same body: S Sedna → H Sedna Dec 1.3318 1.33333 ninth (loose)
+  - other chart, star rows: H Galactic Centre → H Sedna RA 149.0137 149 whole (10.06)
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+- **J Haumea** (same body: S Haumea → J Haumea RA 24.0033 24 whole (69.67))
+  - sky line to Haumea: S Sun → Haumea RA 0.6466 conj (32.37)
+  - star rows: J Procyon → J Haumea Dec 16.0065 16 whole (45.25)
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+  - star rows: J Rigel → J Haumea RA 118.1033 73×φ golden (35.13)
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+  - star rows: J Zubenelgenubi → J Haumea RA 25.9900 26 whole (25.21)
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+  - other chart, T1: H Jupiter → H Haumea RA 12.0046 12 whole (58.95)
+  - other chart, star rows: H Rigel → H Haumea RA 134.2729 83×φ golden (6.76)
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+  - other chart, star rows: H Zubenelgenubi → H Haumea Dec 33.0138 33 whole (9.70)
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+- **J Makemake** (same body: S Makemake → J Makemake Dec 12.2842 12.2222 ninth (loose))
+  - star rows: J Deneb Algedi → J Makemake Dec 47.9840 48 whole (4.04)
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+  - star rows: J Galactic Centre → J Makemake RA 86.9872 87 whole (12.95)
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - other chart, top rows: S Jupiter → H Makemake Dec 11.1111 11.1111 ninth (99.99)
+- **J Transpluto** (same body: S Transpluto → J Transpluto Dec 3.3268 3.33333 ninth (loose))
+  - top rows: S Jupiter → J Transpluto RA 0.5438 conj (40.64)
+  - top rows: S Moon → J Transpluto Dec 22.2216 22.2222 ninth (99.17)
+  - star rows: J Galactic Centre → J Transpluto Dec 42.0608 26×φ golden (56.30)
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+- **J Ketu** (same body: S Ketu → J Ketu Dec 36.0181 36 whole (0.86))
+  - top rows: S Sun → J Ketu RA 55.5524 55.5556 ninth (97.00)
+  - star rows: J Nunki → J Ketu Dec 3.0103 3 whole (23.61)
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+  - other chart, star rows: H Rigel → H Ketu RA 103.5783 64×φ golden (6.55)
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+### L3 matches
+- **1. same body on both charts**
+  - Pallas — only
+    - S Pallas → H Pallas RA 24.1099 24.14 silver (loose)
+    - S Pallas → J Pallas RA 128.9969 129 whole (71.38)
+    - S Pallas → J Pallas Dec 45.0204 45 whole (loose)
+  - Sedna — also: 2 Ted The Thief / Harry Kimber
+    - S Sedna → H Sedna Dec 1.3318 1.33333 ninth (loose)
+    - S Sedna → J Sedna RA 14.0124 14 whole (14.50)
+- **2. one body in both planes**
+  - H Sun — also: 3 Hard Stare / Jonathan Burke
+    - S Sun → H Sun RA 121.8848 122.222 ninth (loose)
+    - S Sun → H Sun Dec 8.8759 8.88889 ninth (loose)
+  - J Mars — also: 4 Sweet Nightingale / Tristan Durrell
+    - S Mars → J Mars RA 111.3885 111.111 ninth (loose)
+    - S Mars → J Mars Dec 42.9722 43 whole (loose)
+  - J Pallas — only
+    - S Pallas → J Pallas RA 128.9969 129 whole (71.38)
+    - S Pallas → J Pallas Dec 45.0204 45 whole (loose)
+- **3. runner number = sky number**
+  - 111.111 ninth — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell, 6 Steal The Moves / Lilly Pinchin
+    - S Mars → J Mars RA 111.3885 111.111 ninth (loose) = S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+  - 43 whole — also: 4 Sweet Nightingale / Tristan Durrell
+    - S Mars → J Mars Dec 42.9722 43 whole (loose) = S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - 33×φ golden — also: 3 Hard Stare / Jonathan Burke
+    - S Ceres → J Ceres Dec 53.3853 33×φ golden (loose) = S Jupiter → Venus RA 53.3984 33×φ golden (80.90)
+- **4. circle divisions**
+  - 12 = 360/30 — also: 1 My Own Lovely Lee / Callum Pritchard, 4 Sweet Nightingale / Tristan Durrell, 6 Steal The Moves / Lilly Pinchin
+    - H Jupiter → H Haumea RA 12.0046 12 whole (58.95)
+  - 24 = 360/15 — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell
+    - S Sun → H Uranus Dec 24.0041 24 whole (63.57)
+  - 8 = 360/45 — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke
+    - S Quaoar → H Jupiter Dec 7.9979 8 whole (80.01)
+  - 45 = 360/8 — only
+    - H Capella → H Chiron Dec 45.0186 45 whole (0.47)
+  - 9 = 360/40 — also: 3 Hard Stare / Jonathan Burke
+    - H Deneb Algedi → H Sun Dec 9.0135 9 whole (10.64)
+  - 30 = 360/12 — also: 6 Steal The Moves / Lilly Pinchin
+    - H Galactic Centre → H Chiron Dec 29.9869 30 whole (11.76)
+  - 8 = 360/45 — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke
+    - H Zubenelgenubi → H Neptune Dec 8.0005 8 whole (94.81)
+  - 45 = 360/8 — only
+    - S Pallas → J Pallas Dec 45.0204 45 whole (loose)
+  - 36 = 360/10 — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke
+    - S Rahu → J Rahu Dec 36.0181 36 whole (0.86)
+  - 24 = 360/15 — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell
+    - S Haumea → J Haumea RA 24.0033 24 whole (69.67)
+  - 36 = 360/10 — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke
+    - S Ketu → J Ketu Dec 36.0181 36 whole (0.86)
+  - 2 = 360/180 — also: 4 Sweet Nightingale / Tristan Durrell, 6 Steal The Moves / Lilly Pinchin
+    - J Deneb Algedi → J Uranus Dec 2.0176 2 whole (1.46)
+  - 2 = 360/180 — also: 4 Sweet Nightingale / Tristan Durrell, 6 Steal The Moves / Lilly Pinchin
+    - J Deneb Algedi → J Neptune Dec 1.9838 2 whole (3.69)
+  - 20 = 360/18 — only
+    - J Nunki → J Eris Dec 20.0052 20 whole (54.94)
+  - 3 = 360/120 — also: 4 Sweet Nightingale / Tristan Durrell
+    - J Nunki → J Ketu Dec 3.0103 3 whole (23.61)
+  - 9 = 360/40 — also: 3 Hard Stare / Jonathan Burke
+    - J Procyon → J Juno Dec 9.0045 9 whole (60.00)
+  - 24 = 360/15 — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell
+    - J Rigel → J Sun RA 23.9860 24 whole (8.87)
+  - 1 = 360/360 — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber, 4 Sweet Nightingale / Tristan Durrell
+    - J Rigel → J Juno RA 1.0043 1 whole (61.37)
+- **5. same number in more than one place**
+  - 122.222 ninth — also: 3 Hard Stare / Jonathan Burke
+    - S Sun → H Sun RA 121.8848 122.222 ninth (loose)
+    - H Jupiter → H star Rigel RA 122.2682 122.222 ninth (93.63)
+    - S Rigel → H Jupiter RA 122.2644 122.222 ninth (94.16)
+  - 24.14 silver — only
+    - S Pallas → H Pallas RA 24.1099 24.14 silver (loose)
+    - H Deneb Algedi → H Uranus Dec 24.1417 24.14 silver (99.23)
+  - 1.33333 ninth — only
+    - S Sedna → H Sedna Dec 1.3318 1.33333 ninth (loose)
+    - S Gonggong → H Gonggong RA 1.3285 1.33333 ninth (loose)
+  - 104×φ golden — only
+    - H Jupiter → H Venus RA 168.2766 104×φ golden (93.27)
+    - H Rigel → H Quaoar RA 168.2730 104×φ golden (84.94)
+  - 24 whole — also: 2 Ted The Thief / Harry Kimber, 4 Sweet Nightingale / Tristan Durrell
+    - S Sun → H Uranus Dec 24.0041 24 whole (63.57)
+    - S Haumea → J Haumea RA 24.0033 24 whole (69.67)
+    - J Rigel → J Sun RA 23.9860 24 whole (8.87)
+  - 7 whole — only
+    - S Eris → H Jupiter Dec 6.9996 7 whole (96.51)
+    - J Procyon → J Vesta Dec 6.9825 7 whole (1.60)
+  - 8 whole — also: 3 Hard Stare / Jonathan Burke
+    - S Quaoar → H Jupiter Dec 7.9979 8 whole (80.01)
+    - H Zubenelgenubi → H Neptune Dec 8.0005 8 whole (94.81)
+  - 45 whole — only
+    - H Capella → H Chiron Dec 45.0186 45 whole (0.47)
+    - S Pallas → J Pallas Dec 45.0204 45 whole (loose)
+  - 9 whole — only
+    - H Deneb Algedi → H Sun Dec 9.0135 9 whole (10.64)
+    - J Procyon → J Juno Dec 9.0045 9 whole (60.00)
+  - 33 whole — only
+    - H Zubenelgenubi → H Haumea Dec 33.0138 33 whole (9.70)
+    - J Zubenelgenubi → J Venus Dec 33.0128 33 whole (12.85)
+  - 36 whole — only
+    - S Rahu → J Rahu Dec 36.0181 36 whole (0.86)
+    - S Ketu → J Ketu Dec 36.0181 36 whole (0.86)
+  - 14 whole — only
+    - S Sedna → J Sedna RA 14.0124 14 whole (14.50)
+    - J Procyon → J Mercury Dec 14.0018 14 whole (82.63)
+  - 2 whole — also: 6 Steal The Moves / Lilly Pinchin
+    - J Deneb Algedi → J Uranus Dec 2.0176 2 whole (1.46)
+    - J Deneb Algedi → J Neptune Dec 1.9838 2 whole (3.69)
+### L4 every natal body
+- **Sun**
+  - same body: S Sun → H Sun RA 121.8848 122.222 ninth (loose) — also: 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell, 6 Steal The Moves / Lilly Pinchin
+  - same body: S Sun → H Sun Dec 8.8759 8.88889 ninth (loose) — also: 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell, 6 Steal The Moves / Lilly Pinchin
+  - T1: H Jupiter → H Sun Dec 0.0387 conj (75.89) — only
+  - star rows: H Deneb Algedi → H Sun Dec 9.0135 9 whole (10.64) — also: 4 Sweet Nightingale / Tristan Durrell
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+  - star rows: J Rigel → J Sun RA 23.9860 24 whole (8.87) — only
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+- **Saturn**
+  - same body: S Saturn → H Saturn Dec 23.0293 23 whole (loose) — also: 4 Sweet Nightingale / Tristan Durrell, 6 Steal The Moves / Lilly Pinchin
+  - star rows: H Galactic Centre → H Saturn RA 0.1119 conj (85.63) — also: 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - star rows: J Nunki → J Saturn RA 143.9834 144 whole (2.92) — also: 2 Ted The Thief / Harry Kimber
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+  - star rows: J Procyon → J Saturn RA 47.0139 47 whole (9.43) — also: 2 Ted The Thief / Harry Kimber
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+- **Neptune**
+  - same body: S Neptune → H Neptune RA 18.7790 18.8889 ninth (loose) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell
+  - star rows: H Rigel → H Neptune Dec 0.1622 conj (21.11) — also: 3 Hard Stare / Jonathan Burke
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+  - star rows: H Zubenelgenubi → H Neptune Dec 8.0005 8 whole (94.81) — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+  - star rows: J Deneb Algedi → J Neptune Dec 1.9838 2 whole (3.69) — also: 3 Hard Stare / Jonathan Burke
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+  - star rows: J Galactic Centre → J Neptune RA 44.0190 44 whole (0.25) — also: 1 My Own Lovely Lee / Callum Pritchard
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+- **Pluto**
+  - same body: S Pluto → H Pluto RA 16.1720 10×φ^1 phi power (loose) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber, 4 Sweet Nightingale / Tristan Durrell
+- **Chiron**
+  - same body: S Chiron → H Chiron Dec 9.7008 6×φ golden (loose) — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell, 6 Steal The Moves / Lilly Pinchin
+  - star rows: H Capella → H Chiron Dec 45.0186 45 whole (0.47) — also: 4 Sweet Nightingale / Tristan Durrell
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: H Galactic Centre → H Chiron Dec 29.9869 30 whole (11.76) — also: 1 My Own Lovely Lee / Callum Pritchard, 4 Sweet Nightingale / Tristan Durrell
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - star rows: H Zubenelgenubi → H Chiron RA 130.0048 130 whole (57.42) — only
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+- **Pallas**
+  - same body: S Pallas → H Pallas RA 24.1099 24.14 silver (loose) — also: 4 Sweet Nightingale / Tristan Durrell
+  - star rows: H Nunki → H Pallas RA 66.9931 67 whole (43.23) — also: 3 Hard Stare / Jonathan Burke
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+  - star rows: H Procyon → H Pallas RA 124.0195 124 whole (0.06) — also: 4 Sweet Nightingale / Tristan Durrell
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+  - same body: S Pallas → J Pallas RA 128.9969 129 whole (71.38) — also: 4 Sweet Nightingale / Tristan Durrell
+  - same body: S Pallas → J Pallas Dec 45.0204 45 whole (loose) — also: 4 Sweet Nightingale / Tristan Durrell
+- **Vesta**
+  - same body: S Vesta → H Vesta Dec 30.7243 19×φ golden (loose) — also: 1 My Own Lovely Lee / Callum Pritchard, 4 Sweet Nightingale / Tristan Durrell, 6 Steal The Moves / Lilly Pinchin
+  - star rows: H Nunki → H Vesta RA 171.5093 106×φ golden (86.55) — only
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+  - star rows: J Procyon → J Vesta Dec 6.9825 7 whole (1.60) — only
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+- **Sedna**
+  - same body: S Sedna → H Sedna Dec 1.3318 1.33333 ninth (loose) — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke
+  - star rows: H Galactic Centre → H Sedna RA 149.0137 149 whole (10.06) — also: 3 Hard Stare / Jonathan Burke, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - same body: S Sedna → J Sedna RA 14.0124 14 whole (14.50) — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke
+- **Gonggong**
+  - same body: S Gonggong → H Gonggong RA 1.3285 1.33333 ninth (loose) — also: 1 My Own Lovely Lee / Callum Pritchard, 4 Sweet Nightingale / Tristan Durrell
+  - star rows: H Procyon → H Gonggong RA 138.9870 139 whole (12.09) — also: 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+- **Venus**
+  - T1: H Jupiter → H Venus RA 168.2766 104×φ golden (93.27) — also: 2 Ted The Thief / Harry Kimber
+  - star rows: H Capella → H Venus RA 69.9939 70 whole (48.27) — also: 3 Hard Stare / Jonathan Burke, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - same body: S Venus → J Venus RA 144.5478 144.444 ninth (loose) — also: 1 My Own Lovely Lee / Callum Pritchard, 4 Sweet Nightingale / Tristan Durrell, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Jupiter → Venus RA 53.3984 33×φ golden (80.90)
+  - star rows: J Zubenelgenubi → J Venus Dec 33.0128 33 whole (12.85) — also: 4 Sweet Nightingale / Tristan Durrell, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+- **Haumea**
+  - T1: H Jupiter → H Haumea RA 12.0046 12 whole (58.95) — also: 1 My Own Lovely Lee / Callum Pritchard
+  - star rows: H Rigel → H Haumea RA 134.2729 83×φ golden (6.76) — also: 6 Steal The Moves / Lilly Pinchin
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+  - star rows: H Zubenelgenubi → H Haumea Dec 33.0138 33 whole (9.70) — only
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+  - same body: S Haumea → J Haumea RA 24.0033 24 whole (69.67) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Sun → Haumea RA 0.6466 conj (32.37)
+  - star rows: J Procyon → J Haumea Dec 16.0065 16 whole (45.25) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+  - star rows: J Rigel → J Haumea RA 118.1033 73×φ golden (35.13) — also: 6 Steal The Moves / Lilly Pinchin
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+  - star rows: J Zubenelgenubi → J Haumea RA 25.9900 26 whole (25.21) — only
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+- **Jupiter**
+  - T1: H Jupiter → H star Rigel RA 122.2682 122.222 ninth (93.63) — also: 4 Sweet Nightingale / Tristan Durrell
+  - top rows: S Venus → H Jupiter RA 0.3748 conj (56.27) — also: 2 Ted The Thief / Harry Kimber
+    - source line: S Jupiter → Venus RA 53.3984 33×φ golden (80.90)
+  - top rows: S Eris → H Jupiter Dec 6.9996 7 whole (96.51) — also: 3 Hard Stare / Jonathan Burke
+  - top rows: S Makemake → H Jupiter RA 1.3662 conj (0.80) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber
+  - top rows: S Quaoar → H Jupiter Dec 7.9979 8 whole (80.01) — only
+  - star rows: S Rigel → H Jupiter RA 122.2644 122.222 ninth (94.16) — only
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+- **Makemake**
+  - top rows: S Jupiter → H Makemake Dec 11.1111 11.1111 ninth (99.99) — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke
+  - same body: S Makemake → J Makemake Dec 12.2842 12.2222 ninth (loose) — also: 2 Ted The Thief / Harry Kimber, 6 Steal The Moves / Lilly Pinchin
+  - star rows: J Deneb Algedi → J Makemake Dec 47.9840 48 whole (4.04) — also: 1 My Own Lovely Lee / Callum Pritchard
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+  - star rows: J Galactic Centre → J Makemake RA 86.9872 87 whole (12.95) — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+- **Uranus**
+  - top rows: S Sun → H Uranus Dec 24.0041 24 whole (63.57) — also: 4 Sweet Nightingale / Tristan Durrell
+  - star rows: H Capella → H Uranus Dec 37.9870 38 whole (12.15) — also: 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: H Deneb Algedi → H Uranus Dec 24.1417 24.14 silver (99.23) — also: 4 Sweet Nightingale / Tristan Durrell
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+  - star rows: H Galactic Centre → H Uranus Dec 37.0185 37 whole (0.56) — also: 4 Sweet Nightingale / Tristan Durrell
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - star rows: J Deneb Algedi → J Uranus RA 0.1468 conj (81.39) — also: 4 Sweet Nightingale / Tristan Durrell
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+  - star rows: J Deneb Algedi → J Uranus Dec 2.0176 2 whole (1.46) — also: 4 Sweet Nightingale / Tristan Durrell
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+- **Orcus**
+  - star rows: H Capella → H Orcus RA 72.9905 73 whole (27.50) — also: 2 Ted The Thief / Harry Kimber
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+- **Quaoar**
+  - star rows: H Procyon → H Quaoar RA 155.5365 155.556 ninth (98.20) — also: 1 My Own Lovely Lee / Callum Pritchard
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+  - star rows: H Rigel → H Quaoar RA 168.2730 104×φ golden (84.94) — only
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+  - star rows: J Zubenelgenubi → J Quaoar RA 25.0051 25 whole (55.40) — also: 2 Ted The Thief / Harry Kimber
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+- **Ceres**
+  - star rows: H Rigel → H Ceres RA 42.0070 42 whole (42.28) — only
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+  - same body: S Ceres → J Ceres Dec 53.3853 33×φ golden (loose) — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell, 6 Steal The Moves / Lilly Pinchin
+  - star rows: J Deneb Algedi → J Ceres Dec 12.9981 13 whole (82.27) — also: 4 Sweet Nightingale / Tristan Durrell, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+  - star rows: J Galactic Centre → J Ceres Dec 0.1159 conj (37.65) — also: 2 Ted The Thief / Harry Kimber, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+- **Juno**
+  - star rows: H Rigel → H Juno RA 161.0058 161 whole (50.68) — also: 2 Ted The Thief / Harry Kimber
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+  - same body: S Juno → J Juno RA 133.5919 133.333 ninth (loose) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber, 4 Sweet Nightingale / Tristan Durrell, 6 Steal The Moves / Lilly Pinchin
+  - top rows: S Jupiter → J Juno Dec 0.2382 conj (4.24) — also: 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell
+  - star rows: J Procyon → J Juno Dec 9.0045 9 whole (60.00) — also: 6 Steal The Moves / Lilly Pinchin
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+  - star rows: J Rigel → J Juno RA 1.0043 1 whole (61.37) — also: 2 Ted The Thief / Harry Kimber
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+- **Ketu**
+  - star rows: H Rigel → H Ketu RA 103.5783 64×φ golden (6.55) — also: 2 Ted The Thief / Harry Kimber
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+  - same body: S Ketu → J Ketu Dec 36.0181 36 whole (0.86) — also: 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell
+  - top rows: S Sun → J Ketu RA 55.5524 55.5556 ninth (97.00) — only
+  - star rows: J Nunki → J Ketu Dec 3.0103 3 whole (23.61) — also: 4 Sweet Nightingale / Tristan Durrell
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+- **Mercury**
+  - same body: S Mercury → J Mercury RA 135.0125 135 whole (14.10) — also: 1 My Own Lovely Lee / Callum Pritchard, 6 Steal The Moves / Lilly Pinchin
+  - star rows: J Procyon → J Mercury Dec 14.0018 14 whole (82.63) — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+  - star rows: J Zubenelgenubi → J Mercury RA 140.7933 87×φ golden (6.16) — also: 3 Hard Stare / Jonathan Burke
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+- **Mars**
+  - same body: S Mars → J Mars RA 111.3885 111.111 ninth (loose) — also: 2 Ted The Thief / Harry Kimber, 4 Sweet Nightingale / Tristan Durrell, 6 Steal The Moves / Lilly Pinchin
+  - same body: S Mars → J Mars Dec 42.9722 43 whole (loose) — also: 2 Ted The Thief / Harry Kimber, 4 Sweet Nightingale / Tristan Durrell, 6 Steal The Moves / Lilly Pinchin
+- **Rahu**
+  - same body: S Rahu → J Rahu Dec 36.0181 36 whole (0.86) — also: 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell
+  - star rows: J Nunki → J Rahu RA 173.1124 107×φ golden (21.76) — only
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+- **Transpluto**
+  - same body: S Transpluto → J Transpluto Dec 3.3268 3.33333 ninth (loose) — also: 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell
+  - top rows: S Jupiter → J Transpluto RA 0.5438 conj (40.64) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell, 6 Steal The Moves / Lilly Pinchin
+  - top rows: S Moon → J Transpluto Dec 22.2216 22.2222 ninth (99.17) — only
+  - star rows: J Galactic Centre → J Transpluto Dec 42.0608 26×φ golden (56.30) — also: 3 Hard Stare / Jonathan Burke
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+- **Eris**
+  - star rows: J Nunki → J Eris Dec 20.0052 20 whole (54.94) — also: 2 Ted The Thief / Harry Kimber, 4 Sweet Nightingale / Tristan Durrell, 6 Steal The Moves / Lilly Pinchin
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+
+## 6 Steal The Moves / Lilly Pinchin
+### L1 same bodies
+- S Venus → H Venus Dec 39.9870 40 whole (12.41)
+- S Saturn → H Saturn RA 64.9765 65 whole (loose)
+- S Ceres → H Ceres Dec 42.0156 42 whole (4.90)
+- S Makemake → H Makemake Dec 4.4357 4.44444 ninth (loose)
+- S Sun → J Sun Dec 1.9795 2 whole (loose)
+- S Mercury → J Mercury Dec 6.6699 6.66667 ninth (loose)
+- S Venus → J Venus RA 133.1154 133.333 ninth (loose)
+- S Mars → J Mars Dec 26.0709 10×φ^2 phi power (loose)
+- S Chiron → J Chiron RA 144.8300 144.444 ninth (loose)
+- S Juno → J Juno Dec 3.3357 3.33333 ninth (loose)
+- S Vesta → J Vesta Dec 26.0513 10×φ^2 phi power (loose)
+- S Haumea → J Haumea RA 24.0842 24.14 silver (loose)
+- S Haumea → J Haumea Dec 7.7665 7.77778 ninth (loose)
+### L2 what lands on each same body
+- **H Venus** (same body: S Venus → H Venus Dec 39.9870 40 whole (12.41))
+  - sky line to Venus: S Jupiter → Venus RA 53.3984 33×φ golden (80.90)
+  - star rows: H Capella → H Venus RA 1.1644 conj (5.00)
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: H Zubenelgenubi → H Venus RA 142.3941 88×φ golden (61.02)
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+  - other chart, same body: S Venus → J Venus RA 133.1154 133.333 ninth (loose)
+  - other chart, star rows: J Procyon → J Venus Dec 17.7772 17.7778 ninth (99.53)
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+  - other chart, star rows: J Rigel → J Venus RA 104.9940 105 whole (49.19)
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+  - other chart, star rows: J Zubenelgenubi → J Venus RA 110.9252 10×φ^5 phi power (91.72)
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+- **H Saturn** (same body: S Saturn → H Saturn RA 64.9765 65 whole (loose))
+- **H Ceres** (same body: S Ceres → H Ceres Dec 42.0156 42 whole (4.90))
+  - star rows: H Galactic Centre → H Ceres RA 72.9969 73 whole (71.50)
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - other chart, top rows: S Jupiter → J Ceres Dec 6.0045 6 whole (60.26)
+  - other chart, star rows: J Capella → J Ceres Dec 26.0041 26 whole (63.21)
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - other chart, star rows: J Deneb Algedi → J Ceres RA 90.9992 91 whole (91.68)
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+  - other chart, star rows: J Galactic Centre → J Ceres Dec 49.0033 49 whole (69.87)
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+- **H Makemake** (same body: S Makemake → H Makemake Dec 4.4357 4.44444 ninth (loose))
+  - top rows: S Sun → H Makemake Dec 40.0024 40 whole (77.22)
+  - star rows: H Capella → H Makemake Dec 21.9868 22 whole (11.40)
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: H Galactic Centre → H Makemake Dec 53.0172 53 whole (1.91)
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+- **J Sun** (same body: S Sun → J Sun Dec 1.9795 2 whole (loose))
+- **J Mercury** (same body: S Mercury → J Mercury Dec 6.6699 6.66667 ninth (loose))
+- **J Venus** (same body: S Venus → J Venus RA 133.1154 133.333 ninth (loose))
+  - sky line to Venus: S Jupiter → Venus RA 53.3984 33×φ golden (80.90)
+  - star rows: J Procyon → J Venus Dec 17.7772 17.7778 ninth (99.53)
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+  - star rows: J Rigel → J Venus RA 104.9940 105 whole (49.19)
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+  - star rows: J Zubenelgenubi → J Venus RA 110.9252 10×φ^5 phi power (91.72)
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+  - other chart, same body: S Venus → H Venus Dec 39.9870 40 whole (12.41)
+  - other chart, star rows: H Capella → H Venus RA 1.1644 conj (5.00)
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - other chart, star rows: H Zubenelgenubi → H Venus RA 142.3941 88×φ golden (61.02)
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+- **J Mars** (same body: S Mars → J Mars Dec 26.0709 10×φ^2 phi power (loose))
+  - star rows: J Nunki → J Mars RA 74.0035 74 whole (67.96)
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+  - other chart, star rows: H Zubenelgenubi → H Mars RA 107.9948 108 whole (55.05)
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+- **J Chiron** (same body: S Chiron → J Chiron RA 144.8300 144.444 ninth (loose))
+  - other chart, star rows: H Procyon → H Chiron Dec 0.2723 conj (0.85)
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+- **J Juno** (same body: S Juno → J Juno Dec 3.3357 3.33333 ninth (loose))
+  - other chart, top rows: S Moon → H Juno RA 0.5606 conj (39.22)
+  - other chart, star rows: H Deneb Algedi → H Juno RA 137.5053 85×φ golden (2.18)
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+  - other chart, star rows: H Procyon → H Juno Dec 0.2815 conj (0.38)
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+- **J Vesta** (same body: S Vesta → J Vesta Dec 26.0513 10×φ^2 phi power (loose))
+  - other chart, star rows: H Capella → H Vesta RA 0.5690 conj (38.52)
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - other chart, star rows: H Rigel → H Vesta RA 0.0326 conj (95.70)
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+  - other chart, star rows: H Rigel → H Vesta Dec 29.9846 30 whole (5.21)
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+- **J Haumea** (same body: S Haumea → J Haumea RA 24.0842 24.14 silver (loose); S Haumea → J Haumea Dec 7.7665 7.77778 ninth (loose))
+  - sky line to Haumea: S Sun → Haumea RA 0.6466 conj (32.37)
+  - star rows: J Rigel → J Haumea RA 118.0135 118 whole (10.59)
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+  - other chart, star rows: H Galactic Centre → H Haumea RA 51.7778 32×φ golden (95.72)
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - other chart, star rows: H Rigel → H Haumea RA 136.0144 136 whole (7.70)
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+### L3 matches
+- **1. same body on both charts**
+  - Venus — only
+    - S Venus → H Venus Dec 39.9870 40 whole (12.41)
+    - S Venus → J Venus RA 133.1154 133.333 ninth (loose)
+- **2. one body in both planes**
+  - J Haumea — only
+    - S Haumea → J Haumea RA 24.0842 24.14 silver (loose)
+    - S Haumea → J Haumea Dec 7.7665 7.77778 ninth (loose)
+- **3. runner number = sky number**
+  - 111.111 ninth — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+    - H Nunki → H Uranus RA 111.1069 111.111 ninth (99.31) = S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+  - 75 whole — only
+    - H Rigel → H Transpluto RA 74.9901 75 whole (25.27) = S Moon → Procyon RA 74.9943 75 whole (50.95)
+  - 111.111 ninth — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+    - J Jupiter → J Quaoar RA 111.1825 111.111 ninth (88.32) = S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+- **4. circle divisions**
+  - 40 = 360/9 — also: 1 My Own Lovely Lee / Callum Pritchard, 4 Sweet Nightingale / Tristan Durrell
+    - S Venus → H Venus Dec 39.9870 40 whole (12.41)
+  - 40 = 360/9 — also: 1 My Own Lovely Lee / Callum Pritchard, 4 Sweet Nightingale / Tristan Durrell
+    - S Sun → H Makemake Dec 40.0024 40 whole (77.22)
+  - 30 = 360/12 — also: 5 Pawpaw / Caoilin Quinn
+    - H Deneb Algedi → H Pluto RA 30.0080 30 whole (36.14)
+  - 30 = 360/12 — also: 5 Pawpaw / Caoilin Quinn
+    - H Rigel → H Vesta Dec 29.9846 30 whole (5.21)
+  - 6 = 360/60 — also: 2 Ted The Thief / Harry Kimber, 4 Sweet Nightingale / Tristan Durrell
+    - H Zubenelgenubi → H Pluto Dec 6.0144 6 whole (7.84)
+  - 2 = 360/180 — also: 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+    - S Sun → J Sun Dec 1.9795 2 whole (loose)
+  - 6 = 360/60 — also: 2 Ted The Thief / Harry Kimber, 4 Sweet Nightingale / Tristan Durrell
+    - S Jupiter → J Ceres Dec 6.0045 6 whole (60.26)
+  - 12 = 360/30 — also: 1 My Own Lovely Lee / Callum Pritchard, 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+    - S Mercury → J Jupiter Dec 11.9947 12 whole (54.21)
+  - 18 = 360/20 — also: 2 Ted The Thief / Harry Kimber, 4 Sweet Nightingale / Tristan Durrell
+    - S Pallas → J Jupiter Dec 18.0006 18 whole (93.72)
+  - 12 = 360/30 — also: 1 My Own Lovely Lee / Callum Pritchard, 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+    - S Transpluto → J Jupiter Dec 11.9982 12 whole (82.72)
+  - 15 = 360/24 — also: 3 Hard Stare / Jonathan Burke
+    - S Ketu → J Jupiter Dec 15.0045 15 whole (59.73)
+  - 2 = 360/180 — also: 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+    - J Deneb Algedi → J Ketu Dec 2.0037 2 whole (66.07)
+  - 15 = 360/24 — also: 3 Hard Stare / Jonathan Burke
+    - J Zubenelgenubi → J Orcus Dec 14.9912 15 whole (31.11)
+- **5. same number in more than one place**
+  - 40 whole — only
+    - S Venus → H Venus Dec 39.9870 40 whole (12.41)
+    - S Sun → H Makemake Dec 40.0024 40 whole (77.22)
+  - 30 whole — only
+    - H Deneb Algedi → H Pluto RA 30.0080 30 whole (36.14)
+    - H Rigel → H Vesta Dec 29.9846 30 whole (5.21)
+  - 111.111 ninth — also: 4 Sweet Nightingale / Tristan Durrell
+    - H Nunki → H Uranus RA 111.1069 111.111 ninth (99.31)
+    - J Jupiter → J Quaoar RA 111.1825 111.111 ninth (88.32)
+  - 6 whole — also: 4 Sweet Nightingale / Tristan Durrell
+    - H Zubenelgenubi → H Pluto Dec 6.0144 6 whole (7.84)
+    - S Jupiter → J Ceres Dec 6.0045 6 whole (60.26)
+  - 2 whole — also: 5 Pawpaw / Caoilin Quinn
+    - S Sun → J Sun Dec 1.9795 2 whole (loose)
+    - J Deneb Algedi → J Ketu Dec 2.0037 2 whole (66.07)
+  - 10×φ^2 phi power — only
+    - S Mars → J Mars Dec 26.0709 10×φ^2 phi power (loose)
+    - S Vesta → J Vesta Dec 26.0513 10×φ^2 phi power (loose)
+  - 12 whole — also: 1 My Own Lovely Lee / Callum Pritchard, 4 Sweet Nightingale / Tristan Durrell
+    - S Mercury → J Jupiter Dec 11.9947 12 whole (54.21)
+    - S Transpluto → J Jupiter Dec 11.9982 12 whole (82.72)
+  - 15 whole — only
+    - S Ketu → J Jupiter Dec 15.0045 15 whole (59.73)
+    - J Zubenelgenubi → J Orcus Dec 14.9912 15 whole (31.11)
+  - 21 and 21×φ on J Sedna — only
+    - J Zubenelgenubi → J Sedna Dec 21.0076 21 whole (38.27)
+    - J Galactic Centre → J Sedna Dec 33.9734 21×φ golden (69.67)
+### L4 every natal body
+- **Venus**
+  - same body: S Venus → H Venus Dec 39.9870 40 whole (12.41) — also: 1 My Own Lovely Lee / Callum Pritchard, 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+    - source line: S Jupiter → Venus RA 53.3984 33×φ golden (80.90)
+  - star rows: H Capella → H Venus RA 1.1644 conj (5.00) — also: 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: H Zubenelgenubi → H Venus RA 142.3941 88×φ golden (61.02) — also: 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+  - same body: S Venus → J Venus RA 133.1154 133.333 ninth (loose) — also: 1 My Own Lovely Lee / Callum Pritchard, 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+    - source line: S Jupiter → Venus RA 53.3984 33×φ golden (80.90)
+  - star rows: J Procyon → J Venus Dec 17.7772 17.7778 ninth (99.53) — only
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+  - star rows: J Rigel → J Venus RA 104.9940 105 whole (49.19) — only
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+  - star rows: J Zubenelgenubi → J Venus RA 110.9252 10×φ^5 phi power (91.72) — also: 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+- **Saturn**
+  - same body: S Saturn → H Saturn RA 64.9765 65 whole (loose) — also: 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+- **Ceres**
+  - same body: S Ceres → H Ceres Dec 42.0156 42 whole (4.90) — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+  - star rows: H Galactic Centre → H Ceres RA 72.9969 73 whole (71.50) — also: 2 Ted The Thief / Harry Kimber, 5 Pawpaw / Caoilin Quinn
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - top rows: S Jupiter → J Ceres Dec 6.0045 6 whole (60.26) — also: 1 My Own Lovely Lee / Callum Pritchard
+  - star rows: J Capella → J Ceres Dec 26.0041 26 whole (63.21) — only
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: J Deneb Algedi → J Ceres RA 90.9992 91 whole (91.68) — also: 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+  - star rows: J Galactic Centre → J Ceres Dec 49.0033 49 whole (69.87) — also: 2 Ted The Thief / Harry Kimber, 5 Pawpaw / Caoilin Quinn
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+- **Makemake**
+  - same body: S Makemake → H Makemake Dec 4.4357 4.44444 ninth (loose) — also: 2 Ted The Thief / Harry Kimber, 5 Pawpaw / Caoilin Quinn
+  - top rows: S Sun → H Makemake Dec 40.0024 40 whole (77.22) — also: 1 My Own Lovely Lee / Callum Pritchard
+  - star rows: H Capella → H Makemake Dec 21.9868 22 whole (11.40) — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: H Galactic Centre → H Makemake Dec 53.0172 53 whole (1.91) — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+- **Neptune**
+  - top rows: S Sun → H Neptune RA 129.9983 130 whole (83.80) — also: 1 My Own Lovely Lee / Callum Pritchard
+- **Juno**
+  - top rows: S Moon → H Juno RA 0.5606 conj (39.22) — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke
+  - star rows: H Deneb Algedi → H Juno RA 137.5053 85×φ golden (2.18) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+  - star rows: H Procyon → H Juno Dec 0.2815 conj (0.38) — also: 5 Pawpaw / Caoilin Quinn
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+  - same body: S Juno → J Juno Dec 3.3357 3.33333 ninth (loose) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber, 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+- **Vesta**
+  - star rows: H Capella → H Vesta RA 0.5690 conj (38.52) — also: 4 Sweet Nightingale / Tristan Durrell
+    - source line: S Jupiter → Capella RA 67.9506 42×φ golden (62.28)
+    - source line: S Jupiter → Capella Dec 32.0024 32 whole (77.66)
+  - star rows: H Rigel → H Vesta RA 0.0326 conj (95.70) — also: 1 My Own Lovely Lee / Callum Pritchard
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+  - star rows: H Rigel → H Vesta Dec 29.9846 30 whole (5.21) — also: 1 My Own Lovely Lee / Callum Pritchard
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+  - same body: S Vesta → J Vesta Dec 26.0513 10×φ^2 phi power (loose) — also: 1 My Own Lovely Lee / Callum Pritchard, 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+- **Pluto**
+  - star rows: H Deneb Algedi → H Pluto RA 30.0080 30 whole (36.14) — only
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+  - star rows: H Zubenelgenubi → H Pluto Dec 6.0144 6 whole (7.84) — only
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+- **Transpluto**
+  - star rows: H Deneb Algedi → H Transpluto RA 173.1416 107×φ golden (39.82) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+  - star rows: H Rigel → H Transpluto RA 74.9901 75 whole (25.27) — also: 2 Ted The Thief / Harry Kimber
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+  - top rows: S Jupiter → J Transpluto RA 0.3064 conj (63.32) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+  - top rows: S Sun → J Transpluto Dec 29.1292 18×φ golden (73.78) — only
+- **Eris**
+  - star rows: H Galactic Centre → H Eris Dec 27.5090 17×φ golden (85.62) — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - star rows: J Nunki → J Eris Dec 18.9863 19 whole (9.90) — also: 2 Ted The Thief / Harry Kimber, 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+- **Haumea**
+  - star rows: H Galactic Centre → H Haumea RA 51.7778 32×φ golden (95.72) — only
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - star rows: H Rigel → H Haumea RA 136.0144 136 whole (7.70) — also: 5 Pawpaw / Caoilin Quinn
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+  - same body: S Haumea → J Haumea RA 24.0842 24.14 silver (loose) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn
+    - source line: S Sun → Haumea RA 0.6466 conj (32.37)
+  - same body: S Haumea → J Haumea Dec 7.7665 7.77778 ninth (loose) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn
+    - source line: S Sun → Haumea RA 0.6466 conj (32.37)
+  - star rows: J Rigel → J Haumea RA 118.0135 118 whole (10.59) — also: 5 Pawpaw / Caoilin Quinn
+    - source line: S Moon → Rigel RA 111.1774 111.111 ninth (89.16)
+- **Uranus**
+  - star rows: H Nunki → H Uranus RA 111.1069 111.111 ninth (99.31) — also: 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+- **Quaoar**
+  - star rows: H Nunki → H Quaoar Dec 11.0077 11 whole (38.05) — only
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+  - T2: J Jupiter → J Quaoar RA 111.1825 111.111 ninth (88.32) — only
+- **Chiron**
+  - star rows: H Procyon → H Chiron Dec 0.2723 conj (0.85) — also: 1 My Own Lovely Lee / Callum Pritchard, 3 Hard Stare / Jonathan Burke
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+  - same body: S Chiron → J Chiron RA 144.8300 144.444 ninth (loose) — also: 2 Ted The Thief / Harry Kimber, 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+- **Mars**
+  - star rows: H Zubenelgenubi → H Mars RA 107.9948 108 whole (55.05) — only
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+  - same body: S Mars → J Mars Dec 26.0709 10×φ^2 phi power (loose) — also: 2 Ted The Thief / Harry Kimber, 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+  - star rows: J Nunki → J Mars RA 74.0035 74 whole (67.96) — only
+    - source line: S Moon → Nunki RA 93.9966 94 whole (69.18)
+- **Sun**
+  - same body: S Sun → J Sun Dec 1.9795 2 whole (loose) — also: 3 Hard Stare / Jonathan Burke, 4 Sweet Nightingale / Tristan Durrell, 5 Pawpaw / Caoilin Quinn
+- **Mercury**
+  - same body: S Mercury → J Mercury Dec 6.6699 6.66667 ninth (loose) — also: 1 My Own Lovely Lee / Callum Pritchard, 5 Pawpaw / Caoilin Quinn
+- **Rahu**
+  - top rows: S Jupiter → J Rahu Dec 0.1339 conj (30.64) — only
+  - star rows: J Deneb Algedi → J Rahu RA 177.7636 177.778 ninth (98.89) — also: 2 Ted The Thief / Harry Kimber
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+- **Jupiter**
+  - top rows: S Mercury → J Jupiter Dec 11.9947 12 whole (54.21) — only
+  - top rows: S Pallas → J Jupiter Dec 18.0006 18 whole (93.72) — only
+  - top rows: S Transpluto → J Jupiter Dec 11.9982 12 whole (82.72) — also: 3 Hard Stare / Jonathan Burke
+  - top rows: S Ketu → J Jupiter Dec 15.0045 15 whole (59.73) — only
+- **Sedna**
+  - star rows: J Deneb Algedi → J Sedna RA 79.0043 79 whole (61.58) — also: 1 My Own Lovely Lee / Callum Pritchard, 2 Ted The Thief / Harry Kimber
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+  - star rows: J Galactic Centre → J Sedna Dec 33.9734 21×φ golden (69.67) — also: 3 Hard Stare / Jonathan Burke, 5 Pawpaw / Caoilin Quinn
+    - source line: S Jupiter → Galactic Centre Dec 42.9996 43 whole (95.96)
+  - star rows: J Procyon → J Sedna Dec 0.2579 conj (1.97) — also: 1 My Own Lovely Lee / Callum Pritchard, 4 Sweet Nightingale / Tristan Durrell
+    - source line: S Moon → Procyon RA 74.9943 75 whole (50.95)
+  - star rows: J Zubenelgenubi → J Sedna Dec 21.0076 21 whole (38.27) — only
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)
+- **Ketu**
+  - star rows: J Deneb Algedi → J Ketu Dec 2.0037 2 whole (66.07) — also: 2 Ted The Thief / Harry Kimber
+    - source line: S Sun → Deneb Algedi Dec 0.1366 conj (29.66)
+- **Orcus**
+  - star rows: J Zubenelgenubi → J Orcus Dec 14.9912 15 whole (31.11) — also: 1 My Own Lovely Lee / Callum Pritchard
+    - source line: S Sun → Zubenelgenubi Dec 0.0478 conj (70.68)

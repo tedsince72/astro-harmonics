@@ -1,0 +1,262 @@
+{
+ "race": "20261106_fontwell_1510",
+ "workbook": "race_batch_20261106_fontwell_1510_jupiter_tables.xlsx",
+ "runners": [
+  "P01",
+  "P03",
+  "P05",
+  "P07",
+  "P09",
+  "P11"
+ ],
+ "names": {
+  "P01": "1 My Own Lovely Lee / Callum Pritchard",
+  "P03": "2 Ted The Thief / Harry Kimber",
+  "P05": "3 Hard Stare / Jonathan Burke",
+  "P07": "4 Sweet Nightingale / Tristan Durrell",
+  "P09": "5 Pawpaw / Caoilin Quinn",
+  "P11": "6 Steal The Moves / Lilly Pinchin"
+ },
+ "rules": [
+  {
+   "id": "R25",
+   "name": "Pallas reached twice",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R28",
+   "name": "Chiron to Jupiter, lit by Sun / Moon",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R1b",
+   "name": "Moon to X, sky X to Jupiter",
+   "selected": [
+    "P03"
+   ],
+   "cells": {
+    "P03": [
+     "S Moon → J Makemake [Dec 41.4258 41.4 silver 95.72] + S Makemake → J Jupiter [RA 144.0095 89×φ golden 74.00]"
+    ]
+   }
+  },
+  {
+   "id": "R7",
+   "name": "Line star on own Jupiter and on one body both charts",
+   "selected": [
+    "P01",
+    "P09"
+   ],
+   "cells": {
+    "P01": [
+     "H Hamal (Moon) → H Jupiter [Dec 44.4478 44.4444 ninth 96.43]; on both charts' Hamal: Mars"
+    ],
+    "P09": [
+     "H Rigel (Moon) → H Jupiter [RA 122.2682 122.222 ninth 93.63]; on both charts' Rigel: Juno"
+    ]
+   }
+  },
+  {
+   "id": "R26",
+   "name": "Royal line star on own Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R40",
+   "name": "Node axis",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R42",
+   "name": "Moon on a same body",
+   "selected": [
+    "P09"
+   ],
+   "cells": {
+    "P09": [
+     "S Transpluto → J Transpluto Dec 3.3268 3.33333 ninth (-0.0065) | S Moon → J Transpluto [Dec 22.2216 22.2222 ninth 99.17]"
+    ]
+   }
+  },
+  {
+   "id": "R1",
+   "name": "Sun / Moon on one body both charts, sky X to Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B1",
+   "name": "Natal body on a strong line star (filter)",
+   "selected": [
+    "P09"
+   ],
+   "cells": {
+    "P09": [
+     "H Galactic Centre → H Saturn RA 0.1119 conj (85.63)"
+    ]
+   }
+  },
+  {
+   "id": "B2",
+   "name": "Top natal body on a strong line star",
+   "selected": [
+    "P09"
+   ],
+   "cells": {
+    "P09": [
+     "H Galactic Centre → H Saturn RA 0.1119 conj (85.63) (top score in the field)"
+    ]
+   }
+  },
+  {
+   "id": "B3",
+   "name": "Version 4",
+   "selected": [
+    "P09"
+   ],
+   "cells": {
+    "P09": [
+     "step 2: H Galactic Centre → H Saturn RA 0.1119 conj (85.63) (top score in the field)"
+    ]
+   }
+  },
+  {
+   "id": "B4",
+   "name": "Same body, clear lead",
+   "selected": [
+    "P07"
+   ],
+   "cells": {
+    "P07": [
+     "5 same-body cells >= 50, next 2 (5 Pawpaw / Caoilin Quinn), lead 3",
+     "S Venus → H Venus RA 155.5560 155.556 ninth (99.96)",
+     "S Jupiter → H Jupiter Dec 18.9978 19 whole (79.42)",
+     "S Saturn → H Saturn Dec 22.9968 23 whole (70.42)",
+     "S Rahu → J Rahu RA 127.8303 79×φ golden (68.28)",
+     "S Ketu → J Ketu RA 127.8303 79×φ golden (68.28)"
+    ]
+   }
+  },
+  {
+   "id": "B5",
+   "name": "Same body in both planes",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B6",
+   "name": "Same body on both charts",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B7",
+   "name": "Most sky bodies onto the jockey's Jupiter",
+   "selected": [
+    "P11"
+   ],
+   "cells": {
+    "P11": [
+     "2 sky bodies -> J Jupiter at 80 or more (most in the field; next 1)",
+     "S Pallas → J Jupiter Dec 18.0006 18 whole (93.72)",
+     "S Transpluto → J Jupiter Dec 11.9982 12 whole (82.72)"
+    ]
+   }
+  },
+  {
+   "id": "B8",
+   "name": "One line star on the most natal bodies",
+   "selected": [
+    "P03",
+    "P05",
+    "P07"
+   ],
+   "cells": {
+    "P03": [
+     "J Procyon on 3 natal bodies at 80 or more (most in the field; tied with 2, next 2)",
+     "J Procyon → J Saturn Dec 12.2230 12.2222 ninth (98.99)",
+     "J Procyon → J Neptune RA 166.6417 166.667 ninth (97.86)",
+     "J Procyon → J Haumea RA 80.9982 81 whole (82.60)"
+    ],
+    "P05": [
+     "H Zubenelgenubi on 3 natal bodies at 80 or more (most in the field; tied with 2, next 2)",
+     "H Zubenelgenubi → H Sun RA 166.6818 166.667 ninth (98.70)",
+     "H Zubenelgenubi → H Ceres RA 111.1618 111.111 ninth (91.70)",
+     "H Zubenelgenubi → H Mercury Dec 21.0314 13×φ golden (82.06)"
+    ],
+    "P07": [
+     "H Zubenelgenubi on 3 natal bodies at 80 or more (most in the field; tied with 2, next 2)",
+     "H Zubenelgenubi → H Venus Dec 17.9434 φ^6 phi power (98.07)",
+     "H Zubenelgenubi → H Vesta Dec 41.4279 41.4 silver (93.80)",
+     "H Zubenelgenubi → H Transpluto RA 70.0019 70 whole (81.71)"
+    ]
+   }
+  },
+  {
+   "id": "B9",
+   "name": "Jupiter and two of its line stars on one natal body",
+   "selected": [
+    "P05",
+    "P11"
+   ],
+   "cells": {
+    "P05": [
+     "H Makemake: S Jupiter and 2 Jupiter-line stars (Capella, Galactic Centre)",
+     "S Jupiter → H Makemake Dec 10.0030 10 whole (72.24)",
+     "H Capella → H Makemake Dec 22.0025 22 whole (76.44)",
+     "H Galactic Centre → H Makemake Dec 53.0019 53 whole (81.46)"
+    ],
+    "P11": [
+     "J Ceres: S Jupiter and 2 Jupiter-line stars (Capella, Galactic Centre)",
+     "S Jupiter → J Ceres Dec 6.0045 6 whole (60.26)",
+     "J Capella → J Ceres Dec 26.0041 26 whole (63.21)",
+     "J Galactic Centre → J Ceres Dec 49.0033 49 whole (69.87)"
+    ]
+   }
+  },
+  {
+   "id": "B10",
+   "name": "Sun and two of its line stars on one natal body",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B11",
+   "name": "Moon and two of its line stars on one natal body",
+   "selected": [
+    "P03"
+   ],
+   "cells": {
+    "P03": [
+     "H Eris: S Moon and 2 Moon-line stars (Nunki, Procyon)",
+     "S Moon → H Eris RA 163.9976 164 whole (77.14)",
+     "H Nunki → H Eris RA 102.0045 102 whole (59.96)",
+     "H Procyon → H Eris RA 89.0051 89 whole (55.26)",
+     "J Haumea: S Moon and 2 Moon-line stars (Nunki, Procyon)",
+     "S Moon → J Haumea RA 6.0017 6 whole (83.97)",
+     "J Nunki → J Haumea RA 88.0043 88 whole (61.60)",
+     "J Procyon → J Haumea RA 80.9982 81 whole (82.60)"
+    ]
+   }
+  },
+  {
+   "id": "B12",
+   "name": "Same body and two line stars on it",
+   "selected": [
+    "P05"
+   ],
+   "cells": {
+    "P05": [
+     "H Neptune: same body and 2 line stars (Deneb Algedi (Sun), Zubenelgenubi (Sun))",
+     "S Neptune → H Neptune RA 11.1126 11.1111 ninth (97.63)",
+     "H Deneb Algedi → H Neptune Dec 11.0914 φ^5 phi power (95.57)",
+     "H Zubenelgenubi → H Neptune Dec 11.0057 11 whole (51.08)"
+    ]
+   }
+  }
+ ]
+}
