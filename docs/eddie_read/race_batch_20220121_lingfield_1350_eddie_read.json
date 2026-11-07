@@ -445,21 +445,21 @@
   }
  ],
  "numbers": [
-  "S Jupiter → Orcus RA 111×φ",
-  "S Jupiter → Scheat Dec 24×φ",
-  "S Moon → Alhena RA 66",
-  "S Moon → Castor RA 32×φ",
-  "S Moon → Gonggong RA 171",
-  "S Moon → Mirach RA 148",
-  "S Moon → Regulus RA 13.3333",
-  "S Moon → Rigel Dec 18.8889",
-  "S Moon → Sadalmelik Dec 11",
-  "S Moon → Scheat RA 10×φ^6",
-  "S Moon → Sualocin RA 144.444",
-  "S Sun → Al Rescha Dec 14×φ",
-  "S Sun → Fomalhaut RA 41",
-  "S Sun → Galactic Centre RA 37",
-  "S Sun → Pleiades Dec 44"
+  "S Jupiter → Orcus RA 179.6087 111×φ golden (61.81)",
+  "S Jupiter → Scheat Dec 38.8362 24×φ golden (80.40)",
+  "S Moon → Alhena RA 65.9978 66 whole (78.94)",
+  "S Moon → Castor RA 51.7767 32×φ golden (97.46)",
+  "S Moon → Gonggong RA 170.9993 171 whole (93.54)",
+  "S Moon → Mirach RA 147.9983 148 whole (84.01)",
+  "S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)",
+  "S Moon → Rigel Dec 18.8804 18.8889 ninth (93.87)",
+  "S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)",
+  "S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)",
+  "S Moon → Sualocin RA 144.4728 144.444 ninth (97.00)",
+  "S Sun → Al Rescha Dec 22.6574 14×φ golden (71.84)",
+  "S Sun → Fomalhaut RA 40.9968 41 whole (70.51)",
+  "S Sun → Galactic Centre RA 37.0023 37 whole (77.89)",
+  "S Sun → Pleiades Dec 44.0004 44 whole (96.38)"
  ],
  "pieces": [
   {
@@ -745,7 +745,7 @@
    "target": "171",
    "family": "whole",
    "score": 58.49,
-   "sky_number": "S Moon → Gonggong RA 171",
+   "sky_number": "S Moon → Gonggong RA 170.9993 171 whole (93.54)",
    "circle": "",
    "note": "",
    "field": "only"
@@ -1033,6 +1033,22 @@
    "target": "25×φ",
    "family": "golden",
    "score": 85.39,
+   "sky_number": null,
+   "circle": "",
+   "note": "",
+   "field": "only"
+  },
+  {
+   "runner": "P01",
+   "layer": "star rows",
+   "chart": "H",
+   "source": "S Galactic Centre",
+   "body": "Jupiter",
+   "plane": "Dec",
+   "value": 52.00747,
+   "target": "52",
+   "family": "whole",
+   "score": 39.25,
    "sky_number": null,
    "circle": "",
    "note": "",
@@ -1657,23 +1673,7 @@
    "target": "66",
    "family": "whole",
    "score": 64.92,
-   "sky_number": "S Moon → Alhena RA 66",
-   "circle": "",
-   "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P01",
-   "layer": "top rows",
-   "chart": "J",
-   "source": "S Alhena",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 0.001655,
-   "target": "conj",
-   "family": "conj",
-   "score": 99.78,
-   "sky_number": null,
+   "sky_number": "S Moon → Alhena RA 65.9978 66 whole (78.94)",
    "circle": "",
    "note": "",
    "field": "only"
@@ -1728,22 +1728,6 @@
   },
   {
    "runner": "P01",
-   "layer": "top rows",
-   "chart": "J",
-   "source": "S Mirach",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 82.002217,
-   "target": "82",
-   "family": "whole",
-   "score": 79.06,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P01",
    "layer": "star rows",
    "chart": "J",
    "source": "J Al Rescha",
@@ -1785,6 +1769,22 @@
    "target": "16",
    "family": "whole",
    "score": 14.31,
+   "sky_number": null,
+   "circle": "",
+   "note": "",
+   "field": "only"
+  },
+  {
+   "runner": "P01",
+   "layer": "star rows",
+   "chart": "J",
+   "source": "S Alhena",
+   "body": "Jupiter",
+   "plane": "RA",
+   "value": 0.001655,
+   "target": "conj",
+   "family": "conj",
+   "score": 99.78,
    "sky_number": null,
    "circle": "",
    "note": "",
@@ -1899,6 +1899,22 @@
    "score": 67.89,
    "sky_number": null,
    "circle": "",
+   "note": "",
+   "field": "only"
+  },
+  {
+   "runner": "P01",
+   "layer": "star rows",
+   "chart": "J",
+   "source": "S Castor",
+   "body": "Jupiter",
+   "plane": "Dec",
+   "value": 9.017459,
+   "target": "9",
+   "family": "whole",
+   "score": 1.61,
+   "sky_number": null,
+   "circle": "360/40",
    "note": "",
    "field": "only"
   },
@@ -2082,6 +2098,22 @@
    "runner": "P01",
    "layer": "star rows",
    "chart": "J",
+   "source": "S Mirach",
+   "body": "Jupiter",
+   "plane": "RA",
+   "value": 82.002217,
+   "target": "82",
+   "family": "whole",
+   "score": 79.06,
+   "sky_number": null,
+   "circle": "",
+   "note": "",
+   "field": "only"
+  },
+  {
+   "runner": "P01",
+   "layer": "star rows",
+   "chart": "J",
    "source": "J Mirach",
    "body": "Jupiter",
    "plane": "RA",
@@ -2137,7 +2169,7 @@
    "target": "11",
    "family": "whole",
    "score": 67.32,
-   "sky_number": "S Moon → Sadalmelik Dec 11",
+   "sky_number": "S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)",
    "circle": "",
    "note": "",
    "field": "only"
@@ -2306,6 +2338,22 @@
    "runner": "P01",
    "layer": "star rows",
    "chart": "J",
+   "source": "S Sadalmelik",
+   "body": "Jupiter",
+   "plane": "RA",
+   "value": 127.993843,
+   "target": "128",
+   "family": "whole",
+   "score": 47.91,
+   "sky_number": null,
+   "circle": "",
+   "note": "",
+   "field": "only"
+  },
+  {
+   "runner": "P01",
+   "layer": "star rows",
+   "chart": "J",
    "source": "J Sadalmelik",
    "body": "Mars",
    "plane": "RA",
@@ -2393,7 +2441,7 @@
    "target": "13.3333",
    "family": "ninth",
    "score": 98.94,
-   "sky_number": "S Moon → Regulus RA 13.3333",
+   "sky_number": "S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)",
    "circle": "",
    "note": "",
    "field": "only"
@@ -2713,7 +2761,7 @@
    "target": "37",
    "family": "whole",
    "score": 99.61,
-   "sky_number": "S Sun → Galactic Centre RA 37",
+   "sky_number": "S Sun → Galactic Centre RA 37.0023 37 whole (77.89)",
    "circle": "",
    "note": "4-digit",
    "field": "only"
@@ -2745,7 +2793,7 @@
    "target": "11",
    "family": "whole",
    "score": 0.02,
-   "sky_number": "S Moon → Sadalmelik Dec 11",
+   "sky_number": "S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)",
    "circle": "",
    "note": "4-digit",
    "field": "also: 6 Le Ligerien"
@@ -2777,7 +2825,7 @@
    "target": "37",
    "family": "whole",
    "score": 99.61,
-   "sky_number": "S Sun → Galactic Centre RA 37",
+   "sky_number": "S Sun → Galactic Centre RA 37.0023 37 whole (77.89)",
    "circle": "",
    "note": "4-digit",
    "field": "only"
@@ -2992,22 +3040,6 @@
   },
   {
    "runner": "P03",
-   "layer": "top rows",
-   "chart": "H",
-   "source": "S Regulus",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 83.002479,
-   "target": "83",
-   "family": "whole",
-   "score": 76.74,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P03",
    "layer": "star rows",
    "chart": "H",
    "source": "H Al Rescha",
@@ -3161,7 +3193,7 @@
    "target": "171",
    "family": "whole",
    "score": 71.73,
-   "sky_number": "S Moon → Gonggong RA 171",
+   "sky_number": "S Moon → Gonggong RA 170.9993 171 whole (93.54)",
    "circle": "",
    "note": "",
    "field": "only"
@@ -3225,7 +3257,7 @@
    "target": "44",
    "family": "whole",
    "score": 0.01,
-   "sky_number": "S Sun → Pleiades Dec 44",
+   "sky_number": "S Sun → Pleiades Dec 44.0004 44 whole (96.38)",
    "circle": "",
    "note": "",
    "field": "only"
@@ -3385,7 +3417,7 @@
    "target": "32×φ",
    "family": "golden",
    "score": 85.15,
-   "sky_number": "S Moon → Castor RA 32×φ",
+   "sky_number": "S Moon → Castor RA 51.7767 32×φ golden (97.46)",
    "circle": "",
    "note": "",
    "field": "only"
@@ -3433,6 +3465,22 @@
    "target": "15.5556",
    "family": "ninth",
    "score": 99.77,
+   "sky_number": null,
+   "circle": "",
+   "note": "",
+   "field": "only"
+  },
+  {
+   "runner": "P03",
+   "layer": "star rows",
+   "chart": "H",
+   "source": "S Mirach",
+   "body": "Jupiter",
+   "plane": "Dec",
+   "value": 13.989184,
+   "target": "14",
+   "family": "whole",
+   "score": 21.09,
    "sky_number": null,
    "circle": "",
    "note": "",
@@ -3538,6 +3586,22 @@
    "runner": "P03",
    "layer": "star rows",
    "chart": "H",
+   "source": "S Regulus",
+   "body": "Jupiter",
+   "plane": "RA",
+   "value": 83.002479,
+   "target": "83",
+   "family": "whole",
+   "score": 76.74,
+   "sky_number": null,
+   "circle": "",
+   "note": "",
+   "field": "only"
+  },
+  {
+   "runner": "P03",
+   "layer": "star rows",
+   "chart": "H",
    "source": "H Regulus",
    "body": "Mercury",
    "plane": "Dec",
@@ -3577,7 +3641,7 @@
    "target": "14×φ",
    "family": "golden",
    "score": 95.42,
-   "sky_number": "S Sun → Al Rescha Dec 14×φ",
+   "sky_number": "S Sun → Al Rescha Dec 22.6574 14×φ golden (71.84)",
    "circle": "",
    "note": "",
    "field": "only"
@@ -4265,7 +4329,7 @@
    "target": "24×φ",
    "family": "golden",
    "score": 93.5,
-   "sky_number": "S Jupiter → Scheat Dec 24×φ",
+   "sky_number": "S Jupiter → Scheat Dec 38.8362 24×φ golden (80.40)",
    "circle": "",
    "note": "",
    "field": "only"
@@ -4386,6 +4450,22 @@
    "runner": "P03",
    "layer": "star rows",
    "chart": "J",
+   "source": "S Pleiades",
+   "body": "Jupiter",
+   "plane": "RA",
+   "value": 168.299998,
+   "target": "104×φ",
+   "family": "golden",
+   "score": 5.95,
+   "sky_number": null,
+   "circle": "",
+   "note": "",
+   "field": "only"
+  },
+  {
+   "runner": "P03",
+   "layer": "star rows",
+   "chart": "J",
    "source": "J Pleiades",
    "body": "Uranus",
    "plane": "RA",
@@ -4441,7 +4521,7 @@
    "target": "11",
    "family": "whole",
    "score": 20.87,
-   "sky_number": "S Moon → Sadalmelik Dec 11",
+   "sky_number": "S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)",
    "circle": "",
    "note": "",
    "field": "only"
@@ -4617,7 +4697,7 @@
    "target": "11",
    "family": "whole",
    "score": 59.19,
-   "sky_number": "S Moon → Sadalmelik Dec 11",
+   "sky_number": "S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)",
    "circle": "",
    "note": "",
    "field": "only"
@@ -4946,38 +5026,6 @@
    "runner": "P05",
    "layer": "top rows",
    "chart": "H",
-   "source": "S Pluto",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 161.854692,
-   "target": "100×φ^1",
-   "family": "phi power",
-   "score": 87.72,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P05",
-   "layer": "top rows",
-   "chart": "H",
-   "source": "S Sadalmelik",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 17.792113,
-   "target": "11×φ",
-   "family": "golden",
-   "score": 65.05,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P05",
-   "layer": "top rows",
-   "chart": "H",
    "source": "S Venus",
    "body": "Jupiter",
    "plane": "RA",
@@ -4985,6 +5033,22 @@
    "target": "90×φ",
    "family": "golden",
    "score": 65.65,
+   "sky_number": null,
+   "circle": "",
+   "note": "",
+   "field": "only"
+  },
+  {
+   "runner": "P05",
+   "layer": "top rows",
+   "chart": "H",
+   "source": "S Pluto",
+   "body": "Jupiter",
+   "plane": "RA",
+   "value": 161.854692,
+   "target": "100×φ^1",
+   "family": "phi power",
+   "score": 87.72,
    "sky_number": null,
    "circle": "",
    "note": "",
@@ -5001,7 +5065,7 @@
    "target": "11",
    "family": "whole",
    "score": 50.36,
-   "sky_number": "S Moon → Sadalmelik Dec 11",
+   "sky_number": "S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)",
    "circle": "",
    "note": "",
    "field": "only"
@@ -5298,6 +5362,22 @@
    "runner": "P05",
    "layer": "star rows",
    "chart": "H",
+   "source": "S Sadalmelik",
+   "body": "Jupiter",
+   "plane": "Dec",
+   "value": 17.792113,
+   "target": "11×φ",
+   "family": "golden",
+   "score": 65.05,
+   "sky_number": null,
+   "circle": "",
+   "note": "",
+   "field": "only"
+  },
+  {
+   "runner": "P05",
+   "layer": "star rows",
+   "chart": "H",
    "source": "H Sadalmelik",
    "body": "Jupiter",
    "plane": "Dec",
@@ -5321,7 +5401,7 @@
    "target": "10×φ^6",
    "family": "phi power",
    "score": 94.67,
-   "sky_number": "S Moon → Scheat RA 10×φ^6",
+   "sky_number": "S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)",
    "circle": "",
    "note": "",
    "field": "also: 4 One True King"
@@ -5465,7 +5545,7 @@
    "target": "18.8889",
    "family": "ninth",
    "score": 98.22,
-   "sky_number": "S Moon → Rigel Dec 18.8889",
+   "sky_number": "S Moon → Rigel Dec 18.8804 18.8889 ninth (93.87)",
    "circle": "",
    "note": "",
    "field": "only"
@@ -5497,7 +5577,7 @@
    "target": "10×φ^6",
    "family": "phi power",
    "score": null,
-   "sky_number": "S Moon → Scheat RA 10×φ^6",
+   "sky_number": "S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)",
    "circle": "",
    "note": "loose",
    "field": "only"
@@ -5513,7 +5593,7 @@
    "target": "144.444",
    "family": "ninth",
    "score": null,
-   "sky_number": "S Moon → Sualocin RA 144.444",
+   "sky_number": "S Moon → Sualocin RA 144.4728 144.444 ninth (97.00)",
    "circle": "",
    "note": "loose",
    "field": "only"
@@ -5577,7 +5657,7 @@
    "target": "13.3333",
    "family": "ninth",
    "score": null,
-   "sky_number": "S Moon → Regulus RA 13.3333",
+   "sky_number": "S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)",
    "circle": "",
    "note": "loose",
    "field": "only"
@@ -5682,29 +5762,13 @@
    "runner": "P05",
    "layer": "top rows",
    "chart": "J",
-   "source": "S Gonggong",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 11.093481,
-   "target": "φ^5",
-   "family": "phi power",
-   "score": 88.41,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P05",
-   "layer": "top rows",
-   "chart": "J",
-   "source": "S Ketu",
+   "source": "S Uranus",
    "body": "Jupiter",
    "plane": "RA",
-   "value": 50.157113,
-   "target": "31×φ",
-   "family": "golden",
-   "score": 88.37,
+   "value": 111.105262,
+   "target": "111.111",
+   "family": "ninth",
+   "score": 99.04,
    "sky_number": null,
    "circle": "",
    "note": "",
@@ -5730,13 +5794,29 @@
    "runner": "P05",
    "layer": "top rows",
    "chart": "J",
-   "source": "S Uranus",
+   "source": "S Gonggong",
+   "body": "Jupiter",
+   "plane": "Dec",
+   "value": 11.093481,
+   "target": "φ^5",
+   "family": "phi power",
+   "score": 88.41,
+   "sky_number": null,
+   "circle": "",
+   "note": "",
+   "field": "only"
+  },
+  {
+   "runner": "P05",
+   "layer": "top rows",
+   "chart": "J",
+   "source": "S Ketu",
    "body": "Jupiter",
    "plane": "RA",
-   "value": 111.105262,
-   "target": "111.111",
-   "family": "ninth",
-   "score": 99.04,
+   "value": 50.157113,
+   "target": "31×φ",
+   "family": "golden",
+   "score": 88.37,
    "sky_number": null,
    "circle": "",
    "note": "",
@@ -6105,7 +6185,7 @@
    "target": "11",
    "family": "whole",
    "score": 14.28,
-   "sky_number": "S Moon → Sadalmelik Dec 11",
+   "sky_number": "S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)",
    "circle": "",
    "note": "",
    "field": "only"
@@ -6137,7 +6217,7 @@
    "target": "111×φ",
    "family": "golden",
    "score": 78.47,
-   "sky_number": "S Jupiter → Orcus RA 111×φ",
+   "sky_number": "S Jupiter → Orcus RA 179.6087 111×φ golden (61.81)",
    "circle": "",
    "note": "",
    "field": "only"
@@ -6489,7 +6569,7 @@
    "target": "171",
    "family": "whole",
    "score": 96.11,
-   "sky_number": "S Moon → Gonggong RA 171",
+   "sky_number": "S Moon → Gonggong RA 170.9993 171 whole (93.54)",
    "circle": "",
    "note": "",
    "field": "only"
@@ -6722,22 +6802,6 @@
    "runner": "P07",
    "layer": "top rows",
    "chart": "H",
-   "source": "S Fomalhaut",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 47.004421,
-   "target": "47",
-   "family": "whole",
-   "score": 60.68,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P07",
-   "layer": "top rows",
-   "chart": "H",
    "source": "S Transpluto",
    "body": "Jupiter",
    "plane": "Dec",
@@ -6761,7 +6825,7 @@
    "target": "13.3333",
    "family": "ninth",
    "score": 95.6,
-   "sky_number": "S Moon → Regulus RA 13.3333",
+   "sky_number": "S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)",
    "circle": "",
    "note": "",
    "field": "only"
@@ -6777,7 +6841,7 @@
    "target": "10×φ^6",
    "family": "phi power",
    "score": 93.28,
-   "sky_number": "S Moon → Scheat RA 10×φ^6",
+   "sky_number": "S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)",
    "circle": "",
    "note": "",
    "field": "only"
@@ -6873,7 +6937,7 @@
    "target": "66",
    "family": "whole",
    "score": 0.08,
-   "sky_number": "S Moon → Alhena RA 66",
+   "sky_number": "S Moon → Alhena RA 65.9978 66 whole (78.94)",
    "circle": "",
    "note": "",
    "field": "only"
@@ -6969,6 +7033,22 @@
    "target": "22",
    "family": "whole",
    "score": 73.83,
+   "sky_number": null,
+   "circle": "",
+   "note": "",
+   "field": "only"
+  },
+  {
+   "runner": "P07",
+   "layer": "star rows",
+   "chart": "H",
+   "source": "S Fomalhaut",
+   "body": "Jupiter",
+   "plane": "Dec",
+   "value": 47.004421,
+   "target": "47",
+   "family": "whole",
+   "score": 60.68,
    "sky_number": null,
    "circle": "",
    "note": "",
@@ -7273,7 +7353,7 @@
    "target": "10×φ^6",
    "family": "phi power",
    "score": 95.04,
-   "sky_number": "S Moon → Scheat RA 10×φ^6",
+   "sky_number": "S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)",
    "circle": "",
    "note": "",
    "field": "also: 3 Frero Banbou"
@@ -7817,7 +7897,7 @@
    "target": "11",
    "family": "whole",
    "score": 5.39,
-   "sky_number": "S Moon → Sadalmelik Dec 11",
+   "sky_number": "S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)",
    "circle": "",
    "note": "",
    "field": "only"
@@ -7993,7 +8073,7 @@
    "target": "144.444",
    "family": "ninth",
    "score": 98.48,
-   "sky_number": "S Moon → Sualocin RA 144.444",
+   "sky_number": "S Moon → Sualocin RA 144.4728 144.444 ninth (97.00)",
    "circle": "",
    "note": "",
    "field": "only"
@@ -8009,6 +8089,22 @@
    "target": "153",
    "family": "whole",
    "score": 1.49,
+   "sky_number": null,
+   "circle": "",
+   "note": "",
+   "field": "only"
+  },
+  {
+   "runner": "P07",
+   "layer": "star rows",
+   "chart": "J",
+   "source": "S Pleiades",
+   "body": "Jupiter",
+   "plane": "RA",
+   "value": 124.598587,
+   "target": "77×φ",
+   "family": "golden",
+   "score": 47.88,
    "sky_number": null,
    "circle": "",
    "note": "",
@@ -8217,7 +8313,7 @@
    "target": "37",
    "family": "whole",
    "score": 43.69,
-   "sky_number": "S Sun → Galactic Centre RA 37",
+   "sky_number": "S Sun → Galactic Centre RA 37.0023 37 whole (77.89)",
    "circle": "",
    "note": "",
    "field": "only"
@@ -8345,7 +8441,7 @@
    "target": "41",
    "family": "whole",
    "score": 20.13,
-   "sky_number": "S Sun → Fomalhaut RA 41",
+   "sky_number": "S Sun → Fomalhaut RA 40.9968 41 whole (70.51)",
    "circle": "",
    "note": "",
    "field": "only"
@@ -8601,7 +8697,7 @@
    "target": "11",
    "family": "whole",
    "score": 58.0,
-   "sky_number": "S Moon → Sadalmelik Dec 11",
+   "sky_number": "S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)",
    "circle": "",
    "note": "",
    "field": "only"
@@ -8649,22 +8745,6 @@
    "target": "34",
    "family": "whole",
    "score": 57.21,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P09",
-   "layer": "top rows",
-   "chart": "H",
-   "source": "S Rigel",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 29.121254,
-   "target": "18×φ",
-   "family": "golden",
-   "score": 80.33,
    "sky_number": null,
    "circle": "",
    "note": "",
@@ -8985,7 +9065,7 @@
    "target": "37",
    "family": "whole",
    "score": 1.94,
-   "sky_number": "S Sun → Galactic Centre RA 37",
+   "sky_number": "S Sun → Galactic Centre RA 37.0023 37 whole (77.89)",
    "circle": "",
    "note": "",
    "field": "only"
@@ -9170,6 +9250,22 @@
    "runner": "P09",
    "layer": "star rows",
    "chart": "H",
+   "source": "S Rigel",
+   "body": "Jupiter",
+   "plane": "Dec",
+   "value": 29.121254,
+   "target": "18×φ",
+   "family": "golden",
+   "score": 80.33,
+   "sky_number": null,
+   "circle": "",
+   "note": "",
+   "field": "only"
+  },
+  {
+   "runner": "P09",
+   "layer": "star rows",
+   "chart": "H",
    "source": "H Rigel",
    "body": "Ceres",
    "plane": "RA",
@@ -9282,6 +9378,22 @@
    "runner": "P09",
    "layer": "star rows",
    "chart": "H",
+   "source": "S Scheat",
+   "body": "Jupiter",
+   "plane": "RA",
+   "value": 134.275202,
+   "target": "83×φ",
+   "family": "golden",
+   "score": 11.02,
+   "sky_number": null,
+   "circle": "",
+   "note": "",
+   "field": "only"
+  },
+  {
+   "runner": "P09",
+   "layer": "star rows",
+   "chart": "H",
    "source": "H Scheat",
    "body": "Mercury",
    "plane": "RA",
@@ -9305,7 +9417,7 @@
    "target": "37",
    "family": "whole",
    "score": 0.22,
-   "sky_number": "S Sun → Galactic Centre RA 37",
+   "sky_number": "S Sun → Galactic Centre RA 37.0023 37 whole (77.89)",
    "circle": "",
    "note": "",
    "field": "only"
@@ -9410,6 +9522,22 @@
    "runner": "P09",
    "layer": "star rows",
    "chart": "H",
+   "source": "S Sualocin",
+   "body": "Jupiter",
+   "plane": "Dec",
+   "value": 5.00664,
+   "target": "5",
+   "family": "whole",
+   "score": 44.62,
+   "sky_number": null,
+   "circle": "360/72",
+   "note": "",
+   "field": "only"
+  },
+  {
+   "runner": "P09",
+   "layer": "star rows",
+   "chart": "H",
    "source": "H Sualocin",
    "body": "Jupiter",
    "plane": "Dec",
@@ -9449,7 +9577,7 @@
    "target": "18.8889",
    "family": "ninth",
    "score": 95.71,
-   "sky_number": "S Moon → Rigel Dec 18.8889",
+   "sky_number": "S Moon → Rigel Dec 18.8804 18.8889 ninth (93.87)",
    "circle": "",
    "note": "",
    "field": "only"
@@ -9746,22 +9874,6 @@
    "runner": "P09",
    "layer": "top rows",
    "chart": "J",
-   "source": "S Galactic Centre",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 0.976687,
-   "target": "conj",
-   "family": "conj",
-   "score": 12.17,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P09",
-   "layer": "top rows",
-   "chart": "J",
    "source": "S Mars",
    "body": "Jupiter",
    "plane": "RA",
@@ -9849,7 +9961,7 @@
    "target": "44",
    "family": "whole",
    "score": 1.71,
-   "sky_number": "S Sun → Pleiades Dec 44",
+   "sky_number": "S Sun → Pleiades Dec 44.0004 44 whole (96.38)",
    "circle": "",
    "note": "",
    "field": "only"
@@ -9906,6 +10018,22 @@
    "runner": "P09",
    "layer": "star rows",
    "chart": "J",
+   "source": "S Castor",
+   "body": "Jupiter",
+   "plane": "RA",
+   "value": 153.733368,
+   "target": "95×φ",
+   "family": "golden",
+   "score": 14.26,
+   "sky_number": null,
+   "circle": "",
+   "note": "",
+   "field": "only"
+  },
+  {
+   "runner": "P09",
+   "layer": "star rows",
+   "chart": "J",
    "source": "J Castor",
    "body": "Jupiter",
    "plane": "RA",
@@ -9945,7 +10073,7 @@
    "target": "37",
    "family": "whole",
    "score": 5.52,
-   "sky_number": "S Sun → Galactic Centre RA 37",
+   "sky_number": "S Sun → Galactic Centre RA 37.0023 37 whole (77.89)",
    "circle": "",
    "note": "",
    "field": "only"
@@ -10050,6 +10178,22 @@
    "runner": "P09",
    "layer": "star rows",
    "chart": "J",
+   "source": "S Galactic Centre",
+   "body": "Jupiter",
+   "plane": "RA",
+   "value": 0.976687,
+   "target": "conj",
+   "family": "conj",
+   "score": 12.17,
+   "sky_number": null,
+   "circle": "",
+   "note": "",
+   "field": "only"
+  },
+  {
+   "runner": "P09",
+   "layer": "star rows",
+   "chart": "J",
    "source": "J Galactic Centre",
    "body": "Jupiter",
    "plane": "RA",
@@ -10073,7 +10217,7 @@
    "target": "14×φ",
    "family": "golden",
    "score": 62.13,
-   "sky_number": "S Sun → Al Rescha Dec 14×φ",
+   "sky_number": "S Sun → Al Rescha Dec 22.6574 14×φ golden (71.84)",
    "circle": "",
    "note": "",
    "field": "only"
@@ -10137,6 +10281,22 @@
    "target": "74×φ",
    "family": "golden",
    "score": 28.58,
+   "sky_number": null,
+   "circle": "",
+   "note": "",
+   "field": "only"
+  },
+  {
+   "runner": "P09",
+   "layer": "star rows",
+   "chart": "J",
+   "source": "S Mirach",
+   "body": "Jupiter",
+   "plane": "RA",
+   "value": 110.044974,
+   "target": "68×φ",
+   "family": "golden",
+   "score": 17.92,
    "sky_number": null,
    "circle": "",
    "note": "",
@@ -10649,7 +10809,7 @@
    "target": "11",
    "family": "whole",
    "score": null,
-   "sky_number": "S Moon → Sadalmelik Dec 11",
+   "sky_number": "S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)",
    "circle": "",
    "note": "loose",
    "field": "also: 2 Financier"
@@ -11001,7 +11161,7 @@
    "target": "24×φ",
    "family": "golden",
    "score": 98.63,
-   "sky_number": "S Jupiter → Scheat Dec 24×φ",
+   "sky_number": "S Jupiter → Scheat Dec 38.8362 24×φ golden (80.40)",
    "circle": "",
    "note": "",
    "field": "only"
@@ -11193,7 +11353,7 @@
    "target": "11",
    "family": "whole",
    "score": 58.67,
-   "sky_number": "S Moon → Sadalmelik Dec 11",
+   "sky_number": "S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)",
    "circle": "",
    "note": "",
    "field": "only"
@@ -11465,7 +11625,7 @@
    "target": "44",
    "family": "whole",
    "score": 39.35,
-   "sky_number": "S Sun → Pleiades Dec 44",
+   "sky_number": "S Sun → Pleiades Dec 44.0004 44 whole (96.38)",
    "circle": "",
    "note": "",
    "field": "only"
@@ -11657,7 +11817,7 @@
    "target": "144.444",
    "family": "ninth",
    "score": 95.25,
-   "sky_number": "S Moon → Sualocin RA 144.444",
+   "sky_number": "S Moon → Sualocin RA 144.4728 144.444 ninth (97.00)",
    "circle": "",
    "note": "",
    "field": "only"
@@ -11858,6 +12018,22 @@
    "runner": "P11",
    "layer": "star rows",
    "chart": "J",
+   "source": "S Galactic Centre",
+   "body": "Jupiter",
+   "plane": "Dec",
+   "value": 38.009556,
+   "target": "38",
+   "family": "whole",
+   "score": 27.27,
+   "sky_number": null,
+   "circle": "",
+   "note": "",
+   "field": "only"
+  },
+  {
+   "runner": "P11",
+   "layer": "star rows",
+   "chart": "J",
    "source": "J Galactic Centre",
    "body": "Jupiter",
    "plane": "Dec",
@@ -11881,7 +12057,7 @@
    "target": "41",
    "family": "whole",
    "score": 2.29,
-   "sky_number": "S Sun → Fomalhaut RA 41",
+   "sky_number": "S Sun → Fomalhaut RA 40.9968 41 whole (70.51)",
    "circle": "",
    "note": "",
    "field": "only"
@@ -12210,6 +12386,22 @@
    "runner": "P11",
    "layer": "star rows",
    "chart": "J",
+   "source": "S Vindemiatrix",
+   "body": "Jupiter",
+   "plane": "RA",
+   "value": 169.993298,
+   "target": "170",
+   "family": "whole",
+   "score": 44.21,
+   "sky_number": null,
+   "circle": "",
+   "note": "",
+   "field": "only"
+  },
+  {
+   "runner": "P11",
+   "layer": "star rows",
+   "chart": "J",
    "source": "J Vindemiatrix",
    "body": "Jupiter",
    "plane": "RA",
@@ -12313,7 +12505,7 @@
    "target": "13.3333",
    "family": "ninth",
    "score": null,
-   "sky_number": "S Moon → Regulus RA 13.3333",
+   "sky_number": "S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)",
    "circle": "",
    "note": "loose",
    "field": "only"
@@ -12505,22 +12697,6 @@
    "target": "34",
    "family": "whole",
    "score": 61.98,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P13",
-   "layer": "top rows",
-   "chart": "H",
-   "source": "S Regulus",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 11.097177,
-   "target": "φ^5",
-   "family": "phi power",
-   "score": 76.32,
    "sky_number": null,
    "circle": "",
    "note": "",
@@ -12793,7 +12969,7 @@
    "target": "41",
    "family": "whole",
    "score": 71.67,
-   "sky_number": "S Sun → Fomalhaut RA 41",
+   "sky_number": "S Sun → Fomalhaut RA 40.9968 41 whole (70.51)",
    "circle": "",
    "note": "",
    "field": "only"
@@ -12921,6 +13097,22 @@
    "target": "93×φ",
    "family": "golden",
    "score": 17.76,
+   "sky_number": null,
+   "circle": "",
+   "note": "",
+   "field": "only"
+  },
+  {
+   "runner": "P13",
+   "layer": "star rows",
+   "chart": "H",
+   "source": "S Regulus",
+   "body": "Jupiter",
+   "plane": "Dec",
+   "value": 11.097177,
+   "target": "φ^5",
+   "family": "phi power",
+   "score": 76.32,
    "sky_number": null,
    "circle": "",
    "note": "",
@@ -13362,38 +13554,6 @@
    "runner": "P13",
    "layer": "top rows",
    "chart": "J",
-   "source": "S Makemake",
-   "body": "Jupiter",
-   "plane": "Dec",
-   "value": 43.005683,
-   "target": "43",
-   "family": "whole",
-   "score": 51.24,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P13",
-   "layer": "top rows",
-   "chart": "J",
-   "source": "S Mirach",
-   "body": "Jupiter",
-   "plane": "RA",
-   "value": 133.383655,
-   "target": "133.333",
-   "family": "ninth",
-   "score": 93.96,
-   "sky_number": null,
-   "circle": "",
-   "note": "",
-   "field": "only"
-  },
-  {
-   "runner": "P13",
-   "layer": "top rows",
-   "chart": "J",
    "source": "S Pluto",
    "body": "Jupiter",
    "plane": "Dec",
@@ -13401,6 +13561,22 @@
    "target": "1.88889",
    "family": "ninth",
    "score": 94.78,
+   "sky_number": null,
+   "circle": "",
+   "note": "",
+   "field": "only"
+  },
+  {
+   "runner": "P13",
+   "layer": "top rows",
+   "chart": "J",
+   "source": "S Makemake",
+   "body": "Jupiter",
+   "plane": "Dec",
+   "value": 43.005683,
+   "target": "43",
+   "family": "whole",
+   "score": 51.24,
    "sky_number": null,
    "circle": "",
    "note": "",
@@ -13634,6 +13810,22 @@
    "runner": "P13",
    "layer": "star rows",
    "chart": "J",
+   "source": "S Mirach",
+   "body": "Jupiter",
+   "plane": "RA",
+   "value": 133.383655,
+   "target": "133.333",
+   "family": "ninth",
+   "score": 93.96,
+   "sky_number": null,
+   "circle": "",
+   "note": "",
+   "field": "only"
+  },
+  {
+   "runner": "P13",
+   "layer": "star rows",
+   "chart": "J",
    "source": "J Mirach",
    "body": "Jupiter",
    "plane": "RA",
@@ -13817,7 +14009,7 @@
    "target": "66",
    "family": "whole",
    "score": 7.82,
-   "sky_number": "S Moon → Alhena RA 66",
+   "sky_number": "S Moon → Alhena RA 65.9978 66 whole (78.94)",
    "circle": "",
    "note": "",
    "field": "only"
@@ -13865,7 +14057,7 @@
    "target": "10×φ^6",
    "family": "phi power",
    "score": 99.94,
-   "sky_number": "S Moon → Scheat RA 10×φ^6",
+   "sky_number": "S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)",
    "circle": "",
    "note": "",
    "field": "only"
@@ -13897,7 +14089,7 @@
    "target": "10×φ^6",
    "family": "phi power",
    "score": 98.17,
-   "sky_number": "S Moon → Scheat RA 10×φ^6",
+   "sky_number": "S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)",
    "circle": "",
    "note": "",
    "field": "only"
@@ -14185,7 +14377,7 @@
    "target": "18.8889",
    "family": "ninth",
    "score": 99.12,
-   "sky_number": "S Moon → Rigel Dec 18.8889",
+   "sky_number": "S Moon → Rigel Dec 18.8804 18.8889 ninth (93.87)",
    "circle": "",
    "note": "",
    "field": "only"
@@ -14459,6 +14651,7 @@
     "body": "Uranus",
     "t24_plane": "Dec",
     "value": 38.834397,
+    "family": "golden",
     "target": "24×φ",
     "score": 90.47
    },
@@ -14473,6 +14666,7 @@
     "body": "Quaoar",
     "t24_plane": "RA",
     "value": 43.999308,
+    "family": "whole",
     "target": "44",
     "score": 93.2
    },
@@ -14487,6 +14681,7 @@
     "body": "Uranus",
     "t24_plane": "Dec",
     "value": 37.009255,
+    "family": "whole",
     "target": "37",
     "score": 28.86
    },
@@ -14501,6 +14696,7 @@
     "body": "Jupiter",
     "t24_plane": "Dec",
     "value": 40.987573,
+    "family": "whole",
     "target": "41",
     "score": 14.34
    },
@@ -14515,6 +14711,7 @@
     "body": "Haumea",
     "t24_plane": "RA",
     "value": 13.339578,
+    "family": "ninth",
     "target": "13.3333",
     "score": 92.51
    },
@@ -14529,6 +14726,7 @@
     "body": "Eris",
     "t24_plane": "RA",
     "value": 18.889165,
+    "family": "ninth",
     "target": "18.8889",
     "score": 99.8
    },
@@ -14543,6 +14741,7 @@
     "body": "Sedna",
     "t24_plane": "RA",
     "value": 179.481797,
+    "family": "phi power",
     "target": "10×φ^6",
     "score": 91.48
    },
@@ -14557,6 +14756,7 @@
     "body": "Mercury",
     "t24_plane": "Dec",
     "value": 11.013975,
+    "family": "whole",
     "target": "11",
     "score": 9.08
    },
@@ -14571,6 +14771,7 @@
     "body": "Quaoar",
     "t24_plane": "RA",
     "value": 171.004704,
+    "family": "whole",
     "target": "171",
     "score": 58.49
    },
@@ -14585,6 +14786,7 @@
     "body": "Orcus",
     "t24_plane": "RA",
     "value": 179.630773,
+    "family": "golden",
     "target": "111×φ",
     "score": 1.08
    },
@@ -14599,6 +14801,7 @@
     "body": "Gonggong",
     "t24_plane": "Dec",
     "value": 36.98064,
+    "family": "whole",
     "target": "37",
     "score": 0.1
    },
@@ -14613,6 +14816,7 @@
     "body": "Eris",
     "t24_plane": "Dec",
     "value": 22.659745,
+    "family": "golden",
     "target": "14×φ",
     "score": 60.12
    },
@@ -14627,6 +14831,7 @@
     "body": "Gonggong",
     "t24_plane": "Dec",
     "value": 40.995912,
+    "family": "whole",
     "target": "41",
     "score": 63.3
    },
@@ -14641,6 +14846,7 @@
     "body": "Ketu",
     "t24_plane": "Dec",
     "value": 13.33245,
+    "family": "ninth",
     "target": "13.3333",
     "score": 98.94
    },
@@ -14655,6 +14861,7 @@
     "body": "Ketu",
     "t24_plane": "RA",
     "value": 144.470324,
+    "family": "ninth",
     "target": "144.444",
     "score": 97.26
    },
@@ -14669,6 +14876,7 @@
     "body": "Sun",
     "t24_plane": "Dec",
     "value": 18.88818,
+    "family": "ninth",
     "target": "18.8889",
     "score": 99.49
    },
@@ -14683,6 +14891,7 @@
     "body": "Makemake",
     "t24_plane": "Dec",
     "value": 11.00359,
+    "family": "whole",
     "target": "11",
     "score": 67.32
    },
@@ -14697,6 +14906,7 @@
     "body": "Jupiter",
     "t24_plane": "Dec",
     "value": 11.009924,
+    "family": "whole",
     "target": "11",
     "score": 25.38
    },
@@ -14711,6 +14921,7 @@
     "body": "Ketu",
     "t24_plane": "RA",
     "value": 171.010043,
+    "family": "whole",
     "target": "171",
     "score": 24.78
    }
@@ -14727,6 +14938,7 @@
     "body": "Ketu",
     "t24_plane": "RA",
     "value": 38.834914,
+    "family": "golden",
     "target": "24×φ",
     "score": 87.45
    },
@@ -14741,6 +14953,7 @@
     "body": "Makemake",
     "t24_plane": "RA",
     "value": 179.624536,
+    "family": "golden",
     "target": "111×φ",
     "score": 8.79
    },
@@ -14755,6 +14968,7 @@
     "body": "Mars",
     "t24_plane": "Dec",
     "value": 44.011652,
+    "family": "whole",
     "target": "44",
     "score": 17.42
    },
@@ -14769,6 +14983,7 @@
     "body": "Haumea",
     "t24_plane": "RA",
     "value": 44.019776,
+    "family": "whole",
     "target": "44",
     "score": 0.01
    },
@@ -14783,6 +14998,7 @@
     "body": "Rahu",
     "t24_plane": "Dec",
     "value": 37.01068,
+    "family": "whole",
     "target": "37",
     "score": 21.72
    },
@@ -14797,6 +15013,7 @@
     "body": "Neptune",
     "t24_plane": "Dec",
     "value": 22.651726,
+    "family": "golden",
     "target": "14×φ",
     "score": 95.42
    },
@@ -14811,6 +15028,7 @@
     "body": "Eris",
     "t24_plane": "Dec",
     "value": 22.659212,
+    "family": "golden",
     "target": "14×φ",
     "score": 62.7
    },
@@ -14825,6 +15043,7 @@
     "body": "Saturn",
     "t24_plane": "Dec",
     "value": 41.018533,
+    "family": "whole",
     "target": "41",
     "score": 0.54
    },
@@ -14839,6 +15058,7 @@
     "body": "Ketu",
     "t24_plane": "RA",
     "value": 24.145094,
+    "family": "silver",
     "target": "24.14",
     "score": 95.16
    },
@@ -14853,6 +15073,7 @@
     "body": "Vesta",
     "t24_plane": "Dec",
     "value": 51.774588,
+    "family": "golden",
     "target": "32×φ",
     "score": 85.15
    },
@@ -14867,6 +15088,7 @@
     "body": "Ketu",
     "t24_plane": "Dec",
     "value": 10.99826,
+    "family": "whole",
     "target": "11",
     "score": 83.36
    },
@@ -14881,6 +15103,7 @@
     "body": "Mars",
     "t24_plane": "Dec",
     "value": 10.990249,
+    "family": "whole",
     "target": "11",
     "score": 26.26
    },
@@ -14895,6 +15118,7 @@
     "body": "Neptune",
     "t24_plane": "RA",
     "value": 170.996939,
+    "family": "whole",
     "target": "171",
     "score": 71.73
    },
@@ -14909,6 +15133,7 @@
     "body": "Eris",
     "t24_plane": "RA",
     "value": 38.833885,
+    "family": "golden",
     "target": "24×φ",
     "score": 93.5
    },
@@ -14923,6 +15148,7 @@
     "body": "Juno",
     "t24_plane": "RA",
     "value": 179.614934,
+    "family": "golden",
     "target": "111×φ",
     "score": 35.2
    },
@@ -14937,6 +15163,7 @@
     "body": "Sedna",
     "t24_plane": "Dec",
     "value": 37.001579,
+    "family": "whole",
     "target": "37",
     "score": 84.84
    },
@@ -14951,6 +15178,7 @@
     "body": "Rahu",
     "t24_plane": "Dec",
     "value": 36.990969,
+    "family": "whole",
     "target": "37",
     "score": 30.08
    },
@@ -14965,6 +15193,7 @@
     "body": "Transpluto",
     "t24_plane": "RA",
     "value": 144.442516,
+    "family": "ninth",
     "target": "144.444",
     "score": 99.8
    },
@@ -14979,6 +15208,7 @@
     "body": "Transpluto",
     "t24_plane": "RA",
     "value": 144.428064,
+    "family": "ninth",
     "target": "144.444",
     "score": 98.27
    },
@@ -14993,6 +15223,7 @@
     "body": "Pallas",
     "t24_plane": "RA",
     "value": 179.486152,
+    "family": "phi power",
     "target": "10×φ^6",
     "score": 90.55
    },
@@ -15007,6 +15238,7 @@
     "body": "Mars",
     "t24_plane": "Dec",
     "value": 11.000916,
+    "family": "whole",
     "target": "11",
     "score": 91.05
    },
@@ -15021,6 +15253,7 @@
     "body": "Sun",
     "t24_plane": "RA",
     "value": 10.995387,
+    "family": "whole",
     "target": "11",
     "score": 59.19
    },
@@ -15035,6 +15268,7 @@
     "body": "Orcus",
     "t24_plane": "Dec",
     "value": 11.010863,
+    "family": "whole",
     "target": "11",
     "score": 20.87
    },
@@ -15049,6 +15283,7 @@
     "body": "Makemake",
     "t24_plane": "RA",
     "value": 171.011113,
+    "family": "whole",
     "target": "171",
     "score": 19.74
    }
@@ -15065,6 +15300,7 @@
     "body": "Pluto",
     "t24_plane": "Dec",
     "value": 43.996328,
+    "family": "whole",
     "target": "44",
     "score": 66.65
    },
@@ -15079,6 +15315,7 @@
     "body": "Venus",
     "t24_plane": "Dec",
     "value": 44.00941,
+    "family": "whole",
     "target": "44",
     "score": 28.04
    },
@@ -15093,6 +15330,7 @@
     "body": "Venus",
     "t24_plane": "Dec",
     "value": 43.981105,
+    "family": "whole",
     "target": "44",
     "score": 0.31
    },
@@ -15107,6 +15345,7 @@
     "body": "Vesta",
     "t24_plane": "Dec",
     "value": 37.014392,
+    "family": "whole",
     "target": "37",
     "score": 7.86
    },
@@ -15121,6 +15360,7 @@
     "body": "Mars",
     "t24_plane": "Dec",
     "value": 36.982746,
+    "family": "whole",
     "target": "37",
     "score": 1.88
    },
@@ -15135,6 +15375,7 @@
     "body": "Transpluto",
     "t24_plane": "Dec",
     "value": 22.658853,
+    "family": "golden",
     "target": "14×φ",
     "score": 64.47
    },
@@ -15149,6 +15390,7 @@
     "body": "Chiron",
     "t24_plane": "Dec",
     "value": 40.996606,
+    "family": "whole",
     "target": "41",
     "score": 68.94
    },
@@ -15163,6 +15405,7 @@
     "body": "Rahu",
     "t24_plane": "RA",
     "value": 40.982627,
+    "family": "whole",
     "target": "41",
     "score": 1.73
    },
@@ -15177,6 +15420,7 @@
     "body": "Juno",
     "t24_plane": "RA",
     "value": 144.40192,
+    "family": "ninth",
     "target": "144.444",
     "score": 95.5
    },
@@ -15191,6 +15435,7 @@
     "body": "Vesta",
     "t24_plane": "Dec",
     "value": 18.886412,
+    "family": "ninth",
     "target": "18.8889",
     "score": 98.22
    },
@@ -15205,6 +15450,7 @@
     "body": "Transpluto",
     "t24_plane": "RA",
     "value": 179.418479,
+    "family": "phi power",
     "target": "10×φ^6",
     "score": 94.67
    },
@@ -15219,6 +15465,7 @@
     "body": "Ketu",
     "t24_plane": "Dec",
     "value": 11.001669,
+    "family": "whole",
     "target": "11",
     "score": 84
    },
@@ -15233,6 +15480,7 @@
     "body": "Juno",
     "t24_plane": "Dec",
     "value": 10.994194,
+    "family": "whole",
     "target": "11",
     "score": 50.36
    },
@@ -15247,6 +15495,7 @@
     "body": "Rahu",
     "t24_plane": "RA",
     "value": 11.008295,
+    "family": "whole",
     "target": "11",
     "score": 34.25
    },
@@ -15261,6 +15510,7 @@
     "body": "Haumea",
     "t24_plane": "RA",
     "value": 66.019541,
+    "family": "whole",
     "target": "66",
     "score": 0.05
    },
@@ -15275,6 +15525,7 @@
     "body": "Gonggong",
     "t24_plane": "RA",
     "value": 179.605467,
+    "family": "golden",
     "target": "111×φ",
     "score": 78.47
    },
@@ -15289,6 +15540,7 @@
     "body": "Sedna",
     "t24_plane": "Dec",
     "value": 40.980159,
+    "family": "whole",
     "target": "41",
     "score": 0.01
    },
@@ -15303,6 +15555,7 @@
     "body": "Neptune",
     "t24_plane": "RA",
     "value": 144.44193,
+    "family": "ninth",
     "target": "144.444",
     "score": 99.73
    },
@@ -15317,6 +15570,7 @@
     "body": "Neptune",
     "t24_plane": "RA",
     "value": 144.479579,
+    "family": "ninth",
     "target": "144.444",
     "score": 96.28
    },
@@ -15331,6 +15585,7 @@
     "body": "Eris",
     "t24_plane": "Dec",
     "value": 18.882913,
+    "family": "ninth",
     "target": "18.8889",
     "score": 95.7
    },
@@ -15345,6 +15600,7 @@
     "body": "Vesta",
     "t24_plane": "RA",
     "value": 10.994922,
+    "family": "whole",
     "target": "11",
     "score": 55.67
    },
@@ -15359,6 +15615,7 @@
     "body": "Vesta",
     "t24_plane": "RA",
     "value": 11.006611,
+    "family": "whole",
     "target": "11",
     "score": 44.82
    },
@@ -15373,6 +15630,7 @@
     "body": "Sun",
     "t24_plane": "Dec",
     "value": 11.012442,
+    "family": "whole",
     "target": "11",
     "score": 14.28
    },
@@ -15387,6 +15645,7 @@
     "body": "Saturn",
     "t24_plane": "RA",
     "value": 170.999607,
+    "family": "whole",
     "target": "171",
     "score": 96.11
    }
@@ -15403,6 +15662,7 @@
     "body": "Pluto",
     "t24_plane": "Dec",
     "value": 44.002987,
+    "family": "whole",
     "target": "44",
     "score": 72.36
    },
@@ -15417,6 +15677,7 @@
     "body": "Ceres",
     "t24_plane": "Dec",
     "value": 43.991907,
+    "family": "whole",
     "target": "44",
     "score": 35.44
    },
@@ -15431,6 +15692,7 @@
     "body": "Pallas",
     "t24_plane": "RA",
     "value": 22.655777,
+    "family": "golden",
     "target": "14×φ",
     "score": 80.64
    },
@@ -15445,6 +15707,7 @@
     "body": "Transpluto",
     "t24_plane": "Dec",
     "value": 22.65934,
+    "family": "golden",
     "target": "14×φ",
     "score": 62.08
    },
@@ -15459,6 +15722,7 @@
     "body": "Uranus",
     "t24_plane": "Dec",
     "value": 41.002592,
+    "family": "whole",
     "target": "41",
     "score": 75.76
    },
@@ -15473,6 +15737,7 @@
     "body": "Uranus",
     "t24_plane": "RA",
     "value": 13.337,
+    "family": "ninth",
     "target": "13.3333",
     "score": 95.6
    },
@@ -15487,6 +15752,7 @@
     "body": "Vesta",
     "t24_plane": "Dec",
     "value": 18.88382,
+    "family": "ninth",
     "target": "18.8889",
     "score": 96.35
    },
@@ -15501,6 +15767,7 @@
     "body": "Transpluto",
     "t24_plane": "RA",
     "value": 179.42017,
+    "family": "phi power",
     "target": "10×φ^6",
     "score": 95.04
    },
@@ -15515,6 +15782,7 @@
     "body": "Haumea",
     "t24_plane": "RA",
     "value": 179.47339,
+    "family": "phi power",
     "target": "10×φ^6",
     "score": 93.28
    },
@@ -15529,6 +15797,7 @@
     "body": "Mars",
     "t24_plane": "Dec",
     "value": 11.001015,
+    "family": "whole",
     "target": "11",
     "score": 90.11
    },
@@ -15543,6 +15812,7 @@
     "body": "Ketu",
     "t24_plane": "Dec",
     "value": 10.988893,
+    "family": "whole",
     "target": "11",
     "score": 19.77
    },
@@ -15557,6 +15827,7 @@
     "body": "Rahu",
     "t24_plane": "Dec",
     "value": 10.988728,
+    "family": "whole",
     "target": "11",
     "score": 19.05
    },
@@ -15571,6 +15842,7 @@
     "body": "Quaoar",
     "t24_plane": "Dec",
     "value": 10.986016,
+    "family": "whole",
     "target": "11",
     "score": 9.05
    },
@@ -15585,6 +15857,7 @@
     "body": "Venus",
     "t24_plane": "RA",
     "value": 66.019443,
+    "family": "whole",
     "target": "66",
     "score": 0.08
    },
@@ -15599,6 +15872,7 @@
     "body": "Vesta",
     "t24_plane": "RA",
     "value": 44.003046,
+    "family": "whole",
     "target": "44",
     "score": 71.86
    },
@@ -15613,6 +15887,7 @@
     "body": "Vesta",
     "t24_plane": "RA",
     "value": 36.995282,
+    "family": "whole",
     "target": "37",
     "score": 58.39
    },
@@ -15627,6 +15902,7 @@
     "body": "Eris",
     "t24_plane": "Dec",
     "value": 37.00678,
+    "family": "whole",
     "target": "37",
     "score": 43.69
    },
@@ -15641,6 +15917,7 @@
     "body": "Vesta",
     "t24_plane": "Dec",
     "value": 41.00261,
+    "family": "whole",
     "target": "41",
     "score": 75.6
    },
@@ -15655,6 +15932,7 @@
     "body": "Quaoar",
     "t24_plane": "RA",
     "value": 40.988972,
+    "family": "whole",
     "target": "41",
     "score": 20.13
    },
@@ -15669,6 +15947,7 @@
     "body": "Transpluto",
     "t24_plane": "RA",
     "value": 40.98204,
+    "family": "whole",
     "target": "41",
     "score": 1.04
    },
@@ -15683,6 +15962,7 @@
     "body": "Ketu",
     "t24_plane": "Dec",
     "value": 13.334282,
+    "family": "ninth",
     "target": "13.3333",
     "score": 98.86
    },
@@ -15697,6 +15977,7 @@
     "body": "Pluto",
     "t24_plane": "RA",
     "value": 144.430097,
+    "family": "ninth",
     "target": "144.444",
     "score": 98.48
    },
@@ -15711,6 +15992,7 @@
     "body": "Haumea",
     "t24_plane": "RA",
     "value": 144.47245,
+    "family": "ninth",
     "target": "144.444",
     "score": 97.03
    },
@@ -15725,6 +16007,7 @@
     "body": "Pluto",
     "t24_plane": "Dec",
     "value": 18.882915,
+    "family": "ninth",
     "target": "18.8889",
     "score": 95.7
    },
@@ -15739,6 +16022,7 @@
     "body": "Makemake",
     "t24_plane": "Dec",
     "value": 18.882786,
+    "family": "ninth",
     "target": "18.8889",
     "score": 95.61
    },
@@ -15753,6 +16037,7 @@
     "body": "Neptune",
     "t24_plane": "Dec",
     "value": 18.880534,
+    "family": "ninth",
     "target": "18.8889",
     "score": 93.98
    },
@@ -15767,6 +16052,7 @@
     "body": "Neptune",
     "t24_plane": "RA",
     "value": 179.442993,
+    "family": "phi power",
     "target": "10×φ^6",
     "score": 99.94
    },
@@ -15781,6 +16067,7 @@
     "body": "Uranus",
     "t24_plane": "Dec",
     "value": 10.985553,
+    "family": "whole",
     "target": "11",
     "score": 7.71
    },
@@ -15795,6 +16082,7 @@
     "body": "Neptune",
     "t24_plane": "Dec",
     "value": 10.985362,
+    "family": "whole",
     "target": "11",
     "score": 7.19
    },
@@ -15809,6 +16097,7 @@
     "body": "Transpluto",
     "t24_plane": "Dec",
     "value": 10.984642,
+    "family": "whole",
     "target": "11",
     "score": 5.39
    },
@@ -15823,6 +16112,7 @@
     "body": "Transpluto",
     "t24_plane": "RA",
     "value": 11.019704,
+    "family": "whole",
     "target": "11",
     "score": 0.02
    }
@@ -15839,6 +16129,7 @@
     "body": "Quaoar",
     "t24_plane": "Dec",
     "value": 44.005874,
+    "family": "whole",
     "target": "44",
     "score": 49.88
    },
@@ -15853,6 +16144,7 @@
     "body": "Pluto",
     "t24_plane": "RA",
     "value": 43.989731,
+    "family": "whole",
     "target": "44",
     "score": 23.67
    },
@@ -15867,6 +16159,7 @@
     "body": "Vesta",
     "t24_plane": "RA",
     "value": 43.983582,
+    "family": "whole",
     "target": "44",
     "score": 3.21
    },
@@ -15881,6 +16174,7 @@
     "body": "Sedna",
     "t24_plane": "Dec",
     "value": 37.017212,
+    "family": "whole",
     "target": "37",
     "score": 1.94
    },
@@ -15895,6 +16189,7 @@
     "body": "Mars",
     "t24_plane": "Dec",
     "value": 36.980945,
+    "family": "whole",
     "target": "37",
     "score": 0.22
    },
@@ -15909,6 +16204,7 @@
     "body": "Eris",
     "t24_plane": "RA",
     "value": 22.654436,
+    "family": "golden",
     "target": "14×φ",
     "score": 88.25
    },
@@ -15923,6 +16219,7 @@
     "body": "Eris",
     "t24_plane": "Dec",
     "value": 18.882937,
+    "family": "ninth",
     "target": "18.8889",
     "score": 95.71
    },
@@ -15937,6 +16234,7 @@
     "body": "Ketu",
     "t24_plane": "Dec",
     "value": 11.000406,
+    "family": "whole",
     "target": "11",
     "score": 95.98
    },
@@ -15951,6 +16249,7 @@
     "body": "Quaoar",
     "t24_plane": "RA",
     "value": 11.006154,
+    "family": "whole",
     "target": "11",
     "score": 47.93
    },
@@ -15965,6 +16264,7 @@
     "body": "Quaoar",
     "t24_plane": "Dec",
     "value": 10.993099,
+    "family": "whole",
     "target": "11",
     "score": 42.9
    },
@@ -15979,6 +16279,7 @@
     "body": "Ceres",
     "t24_plane": "Dec",
     "value": 10.989144,
+    "family": "whole",
     "target": "11",
     "score": 20.9
    },
@@ -15993,6 +16294,7 @@
     "body": "Jupiter",
     "t24_plane": "Dec",
     "value": 10.983528,
+    "family": "whole",
     "target": "11",
     "score": 3.11
    },
@@ -16007,6 +16309,7 @@
     "body": "Ketu",
     "t24_plane": "RA",
     "value": 66.015988,
+    "family": "whole",
     "target": "66",
     "score": 4.02
    },
@@ -16021,6 +16324,7 @@
     "body": "Mercury",
     "t24_plane": "Dec",
     "value": 38.831872,
+    "family": "golden",
     "target": "24×φ",
     "score": 94.25
    },
@@ -16035,6 +16339,7 @@
     "body": "Vesta",
     "t24_plane": "RA",
     "value": 43.982616,
+    "family": "whole",
     "target": "44",
     "score": 1.71
    },
@@ -16049,6 +16354,7 @@
     "body": "Pluto",
     "t24_plane": "Dec",
     "value": 37.000893,
+    "family": "whole",
     "target": "37",
     "score": 91.27
    },
@@ -16063,6 +16369,7 @@
     "body": "Mercury",
     "t24_plane": "Dec",
     "value": 37.001995,
+    "family": "whole",
     "target": "37",
     "score": 81.05
    },
@@ -16077,6 +16384,7 @@
     "body": "Vesta",
     "t24_plane": "Dec",
     "value": 37.0153,
+    "family": "whole",
     "target": "37",
     "score": 5.52
    },
@@ -16091,6 +16399,7 @@
     "body": "Gonggong",
     "t24_plane": "Dec",
     "value": 22.65442,
+    "family": "golden",
     "target": "14×φ",
     "score": 88.34
    },
@@ -16105,6 +16414,7 @@
     "body": "Vesta",
     "t24_plane": "Dec",
     "value": 22.655631,
+    "family": "golden",
     "target": "14×φ",
     "score": 81.45
    },
@@ -16119,6 +16429,7 @@
     "body": "Saturn",
     "t24_plane": "Dec",
     "value": 22.659328,
+    "family": "golden",
     "target": "14×φ",
     "score": 62.13
    },
@@ -16133,6 +16444,7 @@
     "body": "Quaoar",
     "t24_plane": "Dec",
     "value": 13.334282,
+    "family": "ninth",
     "target": "13.3333",
     "score": 98.86
    },
@@ -16147,6 +16459,7 @@
     "body": "Gonggong",
     "t24_plane": "RA",
     "value": 144.480811,
+    "family": "ninth",
     "target": "144.444",
     "score": 96.15
    },
@@ -16161,6 +16474,7 @@
     "body": "Vesta",
     "t24_plane": "Dec",
     "value": 11.000279,
+    "family": "whole",
     "target": "11",
     "score": 97.23
    },
@@ -16175,6 +16489,7 @@
     "body": "Venus",
     "t24_plane": "RA",
     "value": 65.998857,
+    "family": "whole",
     "target": "66",
     "score": 88.89
    },
@@ -16189,6 +16504,7 @@
     "body": "Orcus",
     "t24_plane": "RA",
     "value": 65.991257,
+    "family": "whole",
     "target": "66",
     "score": 31.68
    }
@@ -16205,6 +16521,7 @@
     "body": "Pallas",
     "t24_plane": "Dec",
     "value": 38.833038,
+    "family": "golden",
     "target": "24×φ",
     "score": 98.63
    },
@@ -16219,6 +16536,7 @@
     "body": "Transpluto",
     "t24_plane": "RA",
     "value": 43.992546,
+    "family": "whole",
     "target": "44",
     "score": 39.35
    },
@@ -16233,6 +16551,7 @@
     "body": "Mars",
     "t24_plane": "Dec",
     "value": 40.991924,
+    "family": "whole",
     "target": "41",
     "score": 35.55
    },
@@ -16247,6 +16566,7 @@
     "body": "Vesta",
     "t24_plane": "Dec",
     "value": 18.882925,
+    "family": "ninth",
     "target": "18.8889",
     "score": 95.71
    },
@@ -16261,6 +16581,7 @@
     "body": "Sun",
     "t24_plane": "RA",
     "value": 179.454244,
+    "family": "phi power",
     "target": "10×φ^6",
     "score": 97.45
    },
@@ -16275,6 +16596,7 @@
     "body": "Saturn",
     "t24_plane": "RA",
     "value": 148.001116,
+    "family": "whole",
     "target": "148",
     "score": 89.15
    },
@@ -16289,6 +16611,7 @@
     "body": "Vesta",
     "t24_plane": "Dec",
     "value": 11.004681,
+    "family": "whole",
     "target": "11",
     "score": 58.67
    },
@@ -16303,6 +16626,7 @@
     "body": "Pallas",
     "t24_plane": "Dec",
     "value": 11.015103,
+    "family": "whole",
     "target": "11",
     "score": 5.99
    },
@@ -16317,6 +16641,7 @@
     "body": "Venus",
     "t24_plane": "Dec",
     "value": 10.980869,
+    "family": "whole",
     "target": "11",
     "score": 0.19
    },
@@ -16331,6 +16656,7 @@
     "body": "Haumea",
     "t24_plane": "Dec",
     "value": 37.00228,
+    "family": "whole",
     "target": "37",
     "score": 78.5
    },
@@ -16345,6 +16671,7 @@
     "body": "Jupiter",
     "t24_plane": "Dec",
     "value": 36.995306,
+    "family": "whole",
     "target": "37",
     "score": 58.57
    },
@@ -16359,6 +16686,7 @@
     "body": "Makemake",
     "t24_plane": "Dec",
     "value": 36.981464,
+    "family": "whole",
     "target": "37",
     "score": 0.54
    },
@@ -16373,6 +16701,7 @@
     "body": "Orcus",
     "t24_plane": "RA",
     "value": 22.655484,
+    "family": "golden",
     "target": "14×φ",
     "score": 82.27
    },
@@ -16387,6 +16716,7 @@
     "body": "Neptune",
     "t24_plane": "RA",
     "value": 22.66,
+    "family": "golden",
     "target": "14×φ",
     "score": 58.91
    },
@@ -16401,6 +16731,7 @@
     "body": "Uranus",
     "t24_plane": "Dec",
     "value": 40.992325,
+    "family": "whole",
     "target": "41",
     "score": 37.97
    },
@@ -16415,6 +16746,7 @@
     "body": "Gonggong",
     "t24_plane": "Dec",
     "value": 40.9877,
+    "family": "whole",
     "target": "41",
     "score": 14.82
    },
@@ -16429,6 +16761,7 @@
     "body": "Ceres",
     "t24_plane": "Dec",
     "value": 41.016973,
+    "family": "whole",
     "target": "41",
     "score": 2.29
    },
@@ -16443,6 +16776,7 @@
     "body": "Quaoar",
     "t24_plane": "RA",
     "value": 144.489307,
+    "family": "ninth",
     "target": "144.444",
     "score": 95.25
    },
@@ -16457,6 +16791,7 @@
     "body": "Jupiter",
     "t24_plane": "Dec",
     "value": 10.98066,
+    "family": "whole",
     "target": "11",
     "score": 0.11
    }
@@ -16473,6 +16808,7 @@
     "body": "Vesta",
     "t24_plane": "Dec",
     "value": 43.984046,
+    "family": "whole",
     "target": "44",
     "score": 4.09
    },
@@ -16487,6 +16823,7 @@
     "body": "Eris",
     "t24_plane": "RA",
     "value": 40.996932,
+    "family": "whole",
     "target": "41",
     "score": 71.67
    },
@@ -16501,6 +16838,7 @@
     "body": "Vesta",
     "t24_plane": "Dec",
     "value": 11.018113,
+    "family": "whole",
     "target": "11",
     "score": 0.89
    },
@@ -16515,6 +16853,7 @@
     "body": "Chiron",
     "t24_plane": "RA",
     "value": 65.984265,
+    "family": "whole",
     "target": "66",
     "score": 4.55
    },
@@ -16529,6 +16868,7 @@
     "body": "Ceres",
     "t24_plane": "Dec",
     "value": 37.004002,
+    "family": "whole",
     "target": "37",
     "score": 63.98
    },
@@ -16543,6 +16883,7 @@
     "body": "Eris",
     "t24_plane": "Dec",
     "value": 37.016446,
+    "family": "whole",
     "target": "37",
     "score": 3.16
    },
@@ -16557,6 +16898,7 @@
     "body": "Gonggong",
     "t24_plane": "Dec",
     "value": 22.653735,
+    "family": "golden",
     "target": "14×φ",
     "score": 92.37
    },
@@ -16571,6 +16913,7 @@
     "body": "Venus",
     "t24_plane": "Dec",
     "value": 13.333326,
+    "family": "ninth",
     "target": "13.3333",
     "score": 99.99
    },
@@ -16585,6 +16928,7 @@
     "body": "Eris",
     "t24_plane": "Dec",
     "value": 18.887665,
+    "family": "ninth",
     "target": "18.8889",
     "score": 99.12
    },
@@ -16599,6 +16943,7 @@
     "body": "Juno",
     "t24_plane": "RA",
     "value": 179.442453,
+    "family": "phi power",
     "target": "10×φ^6",
     "score": 99.94
    },
@@ -16613,6 +16958,7 @@
     "body": "Vesta",
     "t24_plane": "RA",
     "value": 179.450986,
+    "family": "phi power",
     "target": "10×φ^6",
     "score": 98.17
    },
@@ -16627,6 +16973,7 @@
     "body": "Saturn",
     "t24_plane": "Dec",
     "value": 11.017507,
+    "family": "whole",
     "target": "11",
     "score": 1.55
    },
@@ -16641,6 +16988,7 @@
     "body": "Jupiter",
     "t24_plane": "Dec",
     "value": 66.006487,
+    "family": "whole",
     "target": "66",
     "score": 45.65
    },
@@ -16655,6 +17003,7 @@
     "body": "Vesta",
     "t24_plane": "RA",
     "value": 65.993467,
+    "family": "whole",
     "target": "66",
     "score": 45.34
    },
@@ -16669,6 +17018,7 @@
     "body": "Sun",
     "t24_plane": "RA",
     "value": 65.985593,
+    "family": "whole",
     "target": "66",
     "score": 7.82
    }
@@ -16678,57 +17028,57 @@
   "natal body on a strong line star": [
    {
     "runner": "P01",
-    "text": "H Regulus conj H Transpluto RA 0.3551 (58.25)",
+    "text": "H Regulus → H Transpluto RA 0.3551 conj (58.25)",
     "score": 58.252641997672136
    },
    {
     "runner": "P03",
-    "text": "H Rigel conj H Vesta RA 0.0163 (97.84)",
+    "text": "H Rigel → H Vesta RA 0.0163 conj (97.84)",
     "score": 97.84402958296083
    },
    {
     "runner": "P05",
-    "text": "H Regulus conj H Transpluto RA 0.0659 (91.40)",
+    "text": "H Regulus → H Transpluto RA 0.0659 conj (91.40)",
     "score": 91.40085436080602
    },
    {
     "runner": "P05",
-    "text": "H Rigel conj H Orcus Dec 0.0138 (91.01)",
+    "text": "H Rigel → H Orcus Dec 0.0138 conj (91.01)",
     "score": 91.00769476220886
    },
    {
     "runner": "P07",
-    "text": "H Pleiades conj H Mercury Dec 0.0239 (84.72)",
+    "text": "H Pleiades → H Mercury Dec 0.0239 conj (84.72)",
     "score": 84.72200060835989
    },
    {
     "runner": "P07",
-    "text": "H Regulus conj H Transpluto RA 0.0671 (91.25)",
+    "text": "H Regulus → H Transpluto RA 0.0671 conj (91.25)",
     "score": 91.25278907300917
    },
    {
     "runner": "P07",
-    "text": "H Rigel conj H Orcus Dec 0.0334 (78.97)",
+    "text": "H Rigel → H Orcus Dec 0.0334 conj (78.97)",
     "score": 78.96549400131902
    },
    {
     "runner": "P09",
-    "text": "H Regulus conj H Transpluto RA 0.1628 (79.47)",
+    "text": "H Regulus → H Transpluto RA 0.1628 conj (79.47)",
     "score": 79.47465979109306
    },
    {
     "runner": "P09",
-    "text": "J Rigel conj J Eris Dec 0.0047 (96.89)",
+    "text": "J Rigel → J Eris Dec 0.0047 conj (96.89)",
     "score": 96.88716478032799
    },
    {
     "runner": "P11",
-    "text": "J Regulus conj J Ceres Dec 0.0416 (74.18)",
+    "text": "J Regulus → J Ceres Dec 0.0416 conj (74.18)",
     "score": 74.17851008370519
    },
    {
     "runner": "P13",
-    "text": "H Regulus conj H Transpluto RA 0.3369 (60.12)",
+    "text": "H Regulus → H Transpluto RA 0.3369 conj (60.12)",
     "score": 60.1239895441194
    }
   ],
@@ -16736,255 +17086,255 @@
    {
     "runner": "P01",
     "chart": "J",
-    "text": "J Alhena ↔ J Jupiter RA conj (natal 0.0083 98.89 / sky 0.0017 99.78)",
+    "text": "J Alhena → J Jupiter RA 0.0083 conj (98.89) | S Alhena → J Jupiter RA 0.0017 conj (99.78)",
     "score": 98.8923546569548
    },
    {
     "runner": "P01",
     "chart": "J",
-    "text": "J Mirach ↔ J Jupiter RA 82 (natal 81.9968 70.94 / sky 82.0022 79.06)",
+    "text": "J Mirach → J Jupiter RA 81.9968 82 whole (70.94) | S Mirach → J Jupiter RA 82.0022 82 whole (79.06)",
     "score": 70.9418262123158
    },
    {
     "runner": "P03",
     "chart": "H",
-    "text": "H Regulus ↔ H Jupiter RA 83 (natal 83.0028 73.99 / sky 83.0025 76.74)",
+    "text": "H Regulus → H Jupiter RA 83.0028 83 whole (73.99) | S Regulus → H Jupiter RA 83.0025 83 whole (76.74)",
     "score": 73.98695095045296
    },
    {
     "runner": "P05",
     "chart": "H",
-    "text": "H Sadalmelik ↔ H Jupiter Dec 11×φ (natal 17.7923 65.96 / sky 17.7921 65.05)",
+    "text": "H Sadalmelik → H Jupiter Dec 17.7923 11×φ golden (65.96) | S Sadalmelik → H Jupiter Dec 17.7921 11×φ golden (65.05)",
     "score": 65.04823422683462
    },
    {
     "runner": "P07",
     "chart": "H",
-    "text": "H Fomalhaut ↔ H Jupiter Dec 47 (natal 46.9997 97.03 / sky 47.0044 60.68)",
+    "text": "H Fomalhaut → H Jupiter Dec 46.9997 47 whole (97.03) | S Fomalhaut → H Jupiter Dec 47.0044 47 whole (60.68)",
     "score": 60.67686284433699
    },
    {
     "runner": "P13",
     "chart": "H",
-    "text": "H Regulus ↔ H Jupiter Dec φ^5 (natal 11.0964 78.89 / sky 11.0972 76.32)",
+    "text": "H Regulus → H Jupiter Dec 11.0964 φ^5 phi power (78.89) | S Regulus → H Jupiter Dec 11.0972 φ^5 phi power (76.32)",
     "score": 76.32470345683288
    },
    {
     "runner": "P13",
     "chart": "J",
-    "text": "J Mirach ↔ J Jupiter RA 133.333 (natal 133.3869 93.57 / sky 133.3837 93.96)",
+    "text": "J Mirach → J Jupiter RA 133.3869 133.333 ninth (93.57) | S Mirach → J Jupiter RA 133.3837 133.333 ninth (93.96)",
     "score": 93.56788945550225
    }
   ],
   "hub point onto natal Jupiter": [
    {
     "runner": "P01",
-    "text": "S Gonggong → J Jupiter RA 123.0045 123 (59.74)",
+    "text": "S Gonggong → J Jupiter RA 123.0045 123 whole (59.74)",
     "score": 59.737920226289425
    },
    {
     "runner": "P05",
-    "text": "S Gonggong → J Jupiter Dec 11.0935 φ^5 (88.41)",
+    "text": "S Gonggong → J Jupiter Dec 11.0935 φ^5 phi power (88.41)",
     "score": 88.41396471122978
    }
   ],
   "N and N×φ on one Jupiter": [
    {
     "runner": "P01",
-    "text": "J Jupiter: 82: S Mirach RA 82.0022 82 (79.06) | 82×φ: S Deneb Algedi RA 132.6785 82×φ (98.40)",
+    "text": "S Mirach → J Jupiter RA 82.0022 82 whole (79.06) | S Deneb Algedi → J Jupiter RA 132.6785 82×φ golden (98.40)",
     "score": null
    }
   ],
   "hub landing": [
    {
     "runner": "P05",
-    "text": "hub body J Gonggong conj J Sadalmelik RA 0.2493 (69.52)",
+    "text": "hub body J Gonggong → J Sadalmelik RA 0.2493 conj (69.52)",
     "score": 69.52213934053349
    },
    {
     "runner": "P11",
-    "text": "hub body J Gonggong conj J Sadalmelik RA 0.2206 (72.75)",
+    "text": "hub body J Gonggong → J Sadalmelik RA 0.2206 conj (72.75)",
     "score": 72.75022492367164
    }
   ],
   "same source on the same body, both charts": [
    {
     "runner": "P01",
-    "text": "Haumea: S Jupiter",
+    "text": "S Jupiter → H Haumea Dec 29.0369 φ^7 phi power (96.69) | S Jupiter → J Haumea RA 150.0012 150 whole (88.05)",
     "score": null
    },
    {
     "runner": "P01",
-    "text": "Venus: S Jupiter",
+    "text": "S Jupiter → H Venus RA 15.5508 15.5556 ninth (95.52) | S Jupiter → J Venus Dec 4.9954 5 whole (59.47)",
     "score": null
    },
    {
     "runner": "P03",
-    "text": "Ceres: Alkes",
+    "text": "H Alkes → H Ceres Dec 46.9764 φ^8 phi power (98.04) | J Alkes → J Ceres RA 28.0043 28 whole (61.73)",
     "score": null
    },
    {
     "runner": "P03",
-    "text": "Pluto: Sualocin",
+    "text": "H Sualocin → H Pluto Dec 35.5966 22×φ golden (98.96) | J Sualocin → J Pluto Dec 22.9966 23 whole (68.80)",
     "score": null
    },
    {
     "runner": "P05",
-    "text": "Uranus: Mirach",
+    "text": "H Mirach → H Uranus RA 0.3987 conj (53.90) | J Mirach → J Uranus RA 70.7143 70.7 sqrt2 (97.94)",
     "score": null
    },
    {
     "runner": "P09",
-    "text": "Mars: S Moon",
+    "text": "S Moon → H Mars RA 34.0049 34 whole (57.21) | S Moon → J Mars Dec 33.9973 34 whole (75.09)",
     "score": null
    },
    {
     "runner": "P09",
-    "text": "Saturn: Castor",
+    "text": "H Castor → H Saturn RA 111.1398 111.111 ninth (95.31) | J Castor → J Saturn RA 122.9891 φ^10 phi power (99.09)",
     "score": null
    },
    {
     "runner": "P09",
-    "text": "Saturn: Galactic Centre",
+    "text": "H Galactic Centre → H Saturn Dec 14.4500 14.4444 ninth (94.15) | J Galactic Centre → J Saturn Dec 22.6593 14×φ golden (62.13)",
     "score": null
    },
    {
     "runner": "P09",
-    "text": "Sedna: S Sun",
+    "text": "S Sun → H Sedna RA 111.6371 69×φ golden (60.26) | S Sun → J Sedna RA 100.9948 101 whole (55.01)",
     "score": null
    }
   ],
   "line star carries a sky number": [
    {
     "runner": "P01",
-    "text": "J Pleiades → J Makemake Dec 11.00359 11 (67.32) = S Moon → Sadalmelik Dec 11",
+    "text": "J Pleiades → J Makemake Dec 11.0036 11 whole (67.32) = S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)",
     "score": 67.32
    },
    {
     "runner": "P01",
-    "text": "J Sadalmelik → J Ketu Dec 13.33245 13.3333 (98.94) = S Moon → Regulus RA 13.3333",
+    "text": "J Sadalmelik → J Ketu Dec 13.3324 13.3333 ninth (98.94) = S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)",
     "score": 98.94
    },
    {
     "runner": "P03",
-    "text": "H Alkes → H Neptune RA 170.996939 171 (71.73) = S Moon → Gonggong RA 171",
+    "text": "H Alkes → H Neptune RA 170.9969 171 whole (71.73) = S Moon → Gonggong RA 170.9993 171 whole (93.54)",
     "score": 71.73
    },
    {
     "runner": "P03",
-    "text": "H Galactic Centre → H Vesta Dec 51.774588 32×φ (85.15) = S Moon → Castor RA 32×φ",
+    "text": "H Galactic Centre → H Vesta Dec 51.7746 32×φ golden (85.15) = S Moon → Castor RA 51.7767 32×φ golden (97.46)",
     "score": 85.15
    },
    {
     "runner": "P03",
-    "text": "H Regulus → H Neptune Dec 22.651726 14×φ (95.42) = S Sun → Al Rescha Dec 14×φ",
+    "text": "H Regulus → H Neptune Dec 22.6517 14×φ golden (95.42) = S Sun → Al Rescha Dec 22.6574 14×φ golden (71.84)",
     "score": 95.42
    },
    {
     "runner": "P03",
-    "text": "J Fomalhaut → J Eris RA 38.833885 24×φ (93.5) = S Jupiter → Scheat Dec 24×φ",
+    "text": "J Fomalhaut → J Eris RA 38.8339 24×φ golden (93.50) = S Jupiter → Scheat Dec 38.8362 24×φ golden (80.40)",
     "score": 93.5
    },
    {
     "runner": "P03",
-    "text": "J Vindemiatrix → J Sun RA 10.995387 11 (59.19) = S Moon → Sadalmelik Dec 11",
+    "text": "J Vindemiatrix → J Sun RA 10.9954 11 whole (59.19) = S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)",
     "score": 59.19
    },
    {
     "runner": "P05",
-    "text": "H Al Rescha → H Juno Dec 10.994194 11 (50.36) = S Moon → Sadalmelik Dec 11",
+    "text": "H Al Rescha → H Juno Dec 10.9942 11 whole (50.36) = S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)",
     "score": 50.36
    },
    {
     "runner": "P05",
-    "text": "H Sadalmelik → H Transpluto RA 179.418479 10×φ^6 (94.67) = S Moon → Scheat RA 10×φ^6",
+    "text": "H Sadalmelik → H Transpluto RA 179.4185 10×φ^6 phi power (94.67) = S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)",
     "score": 94.67
    },
    {
     "runner": "P05",
-    "text": "H Vindemiatrix → H Vesta Dec 18.886412 18.8889 (98.22) = S Moon → Rigel Dec 18.8889",
+    "text": "H Vindemiatrix → H Vesta Dec 18.8864 18.8889 ninth (98.22) = S Moon → Rigel Dec 18.8804 18.8889 ninth (93.87)",
     "score": 98.22
    },
    {
     "runner": "P05",
-    "text": "J Regulus → J Gonggong RA 179.605467 111×φ (78.47) = S Jupiter → Orcus RA 111×φ",
+    "text": "J Regulus → J Gonggong RA 179.6055 111×φ golden (78.47) = S Jupiter → Orcus RA 179.6087 111×φ golden (61.81)",
     "score": 78.47
    },
    {
     "runner": "P05",
-    "text": "J Vindemiatrix → J Saturn RA 170.999607 171 (96.11) = S Moon → Gonggong RA 171",
+    "text": "J Vindemiatrix → J Saturn RA 170.9996 171 whole (96.11) = S Moon → Gonggong RA 170.9993 171 whole (93.54)",
     "score": 96.11
    },
    {
     "runner": "P07",
-    "text": "H Al Rescha → H Uranus RA 13.337 13.3333 (95.6) = S Moon → Regulus RA 13.3333",
+    "text": "H Al Rescha → H Uranus RA 13.3370 13.3333 ninth (95.60) = S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)",
     "score": 95.6
    },
    {
     "runner": "P07",
-    "text": "H Al Rescha → H Haumea RA 179.47339 10×φ^6 (93.28) = S Moon → Scheat RA 10×φ^6",
+    "text": "H Al Rescha → H Haumea RA 179.4734 10×φ^6 phi power (93.28) = S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)",
     "score": 93.28
    },
    {
     "runner": "P07",
-    "text": "H Sadalmelik → H Transpluto RA 179.42017 10×φ^6 (95.04) = S Moon → Scheat RA 10×φ^6",
+    "text": "H Sadalmelik → H Transpluto RA 179.4202 10×φ^6 phi power (95.04) = S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)",
     "score": 95.04
    },
    {
     "runner": "P07",
-    "text": "J Mirach → J Pluto RA 144.430097 144.444 (98.48) = S Moon → Sualocin RA 144.444",
+    "text": "J Mirach → J Pluto RA 144.4301 144.444 ninth (98.48) = S Moon → Sualocin RA 144.4728 144.444 ninth (97.00)",
     "score": 98.48
    },
    {
     "runner": "P09",
-    "text": "H Sualocin → H Eris Dec 18.882937 18.8889 (95.71) = S Moon → Rigel Dec 18.8889",
+    "text": "H Sualocin → H Eris Dec 18.8829 18.8889 ninth (95.71) = S Moon → Rigel Dec 18.8804 18.8889 ninth (93.87)",
     "score": 95.71
    },
    {
     "runner": "P09",
-    "text": "J Galactic Centre → J Saturn Dec 22.659328 14×φ (62.13) = S Sun → Al Rescha Dec 14×φ",
+    "text": "J Galactic Centre → J Saturn Dec 22.6593 14×φ golden (62.13) = S Sun → Al Rescha Dec 22.6574 14×φ golden (71.84)",
     "score": 62.13
    },
    {
     "runner": "P11",
-    "text": "H Castor → H Pallas Dec 38.833038 24×φ (98.63) = S Jupiter → Scheat Dec 24×φ",
+    "text": "H Castor → H Pallas Dec 38.8330 24×φ golden (98.63) = S Jupiter → Scheat Dec 38.8362 24×φ golden (80.40)",
     "score": 98.63
    },
    {
     "runner": "P11",
-    "text": "H Regulus → H Vesta Dec 11.004681 11 (58.67) = S Moon → Sadalmelik Dec 11",
+    "text": "H Regulus → H Vesta Dec 11.0047 11 whole (58.67) = S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)",
     "score": 58.67
    },
    {
     "runner": "P11",
-    "text": "J Al Rescha → J Quaoar RA 144.489307 144.444 (95.25) = S Moon → Sualocin RA 144.444",
+    "text": "J Al Rescha → J Quaoar RA 144.4893 144.444 ninth (95.25) = S Moon → Sualocin RA 144.4728 144.444 ninth (97.00)",
     "score": 95.25
    },
    {
     "runner": "P13",
-    "text": "H Fomalhaut → H Eris RA 40.996932 41 (71.67) = S Sun → Fomalhaut RA 41",
+    "text": "H Fomalhaut → H Eris RA 40.9969 41 whole (71.67) = S Sun → Fomalhaut RA 40.9968 41 whole (70.51)",
     "score": 71.67
    },
    {
     "runner": "P13",
-    "text": "J Rigel → J Juno RA 179.442453 10×φ^6 (99.94) = S Moon → Scheat RA 10×φ^6",
+    "text": "J Rigel → J Juno RA 179.4425 10×φ^6 phi power (99.94) = S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)",
     "score": 99.94
    },
    {
     "runner": "P13",
-    "text": "J Sadalmelik → J Vesta RA 179.450986 10×φ^6 (98.17) = S Moon → Scheat RA 10×φ^6",
+    "text": "J Sadalmelik → J Vesta RA 179.4510 10×φ^6 phi power (98.17) = S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)",
     "score": 98.17
    },
    {
     "runner": "P13",
-    "text": "J Vindemiatrix → J Eris Dec 18.887665 18.8889 (99.12) = S Moon → Rigel Dec 18.8889",
+    "text": "J Vindemiatrix → J Eris Dec 18.8877 18.8889 ninth (99.12) = S Moon → Rigel Dec 18.8804 18.8889 ninth (93.87)",
     "score": 99.12
    }
   ],
   "same number on the same body, both charts": [
    {
     "runner": "P09",
-    "text": "Mars: 34 (whole)",
+    "text": "S Moon → H Mars RA 34.0049 34 whole (57.21) | S Moon → J Mars Dec 33.9973 34 whole (75.09)",
     "score": null
    }
   ]
@@ -17047,6 +17397,19 @@
      "same body",
      "star rows",
      "top rows"
+    ],
+    "detail": [
+     "same body: S Jupiter → J Jupiter RA 122.6607 122.222 ninth (loose) — only",
+     "top rows: S Quaoar → H Jupiter RA 171.0047 171 whole (58.49) [sky number: S Moon → Gonggong RA 170.9993 171 whole (93.54)] — only",
+     "top rows: S Ceres → J Jupiter Dec 4.0008 4 whole (92.00) [360/90] — only",
+     "top rows: S Ketu → J Jupiter RA 137.5308 85×φ golden (87.54) — only",
+     "top rows: S Moon → J Jupiter RA 65.9961 66 whole (64.92) [sky number: S Moon → Alhena RA 65.9978 66 whole (78.94)] — only",
+     "top rows: S Gonggong → J Jupiter RA 123.0045 123 whole (59.74) — only",
+     "star rows: H Castor → H Jupiter Dec 8.8888 8.88889 ninth (99.50) — only",
+     "star rows: S Alhena → J Jupiter RA 0.0017 conj (99.78) — only",
+     "star rows: J Alhena → J Jupiter RA 0.0083 conj (98.89) — only",
+     "star rows: S Mirach → J Jupiter RA 82.0022 82 whole (79.06) — only",
+     "star rows: J Mirach → J Jupiter RA 81.9968 82 whole (70.94) — only"
     ]
    },
    {
@@ -17058,6 +17421,14 @@
      "same body",
      "star rows",
      "top rows"
+    ],
+    "detail": [
+     "same body: S Mercury → J Mercury Dec 10.0129 10 whole (12.50) [360/36] — only",
+     "same body: S Mercury → J Mercury RA 122.4232 122.222 ninth (loose) — also: 3 Frero Banbou",
+     "top rows: S Moon → H Mercury RA 133.3468 133.333 ninth (98.38) — only",
+     "star rows: H Fomalhaut → H Mercury Dec 42.0684 26×φ golden (97.08) — only",
+     "star rows: H Alkes → H Mercury Dec 30.7473 19×φ golden (73.26) — only",
+     "star rows: J Vindemiatrix → J Mercury Dec 17.0057 17 whole (51.12) — only"
     ]
    },
    {
@@ -17069,6 +17440,13 @@
      "same body",
      "star rows",
      "top rows"
+    ],
+    "detail": [
+     "same body: S Transpluto → H Transpluto Dec 1.2219 1.22222 ninth (loose) — also: 7 Beaufort West",
+     "top rows: S Sun → J Transpluto RA 159.0005 159 whole (94.60) — only",
+     "star rows: H Regulus → H Transpluto RA 0.3551 conj (58.25) — also: 2 Financier, 3 Frero Banbou, 4 One True King, 5 Cedar Hill, 6 Le Ligerien, 7 Beaufort West",
+     "star rows: J Galactic Centre → J Transpluto RA 122.0035 122 whole (68.33) — only",
+     "star rows: J Fomalhaut → J Transpluto RA 159.9958 160 whole (62.48) — only"
     ]
    },
    {
@@ -17079,6 +17457,13 @@
     "layers": [
      "same body",
      "star rows"
+    ],
+    "detail": [
+     "same body: S Ketu → J Ketu Dec 32.9868 33 whole (11.53) — only",
+     "star rows: H Fomalhaut → H Ketu Dec 40.4533 25×φ golden (85.39) — only",
+     "star rows: J Sadalmelik → J Ketu Dec 13.3324 13.3333 ninth (98.94) [sky number: S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)] — only",
+     "star rows: J Pleiades → J Ketu Dec 11.0907 φ^5 phi power (98.25) — only",
+     "star rows: J Scheat → J Ketu RA 161.8359 100×φ^1 phi power (92.12) — only"
     ]
    },
    {
@@ -17089,6 +17474,12 @@
     "layers": [
      "same body",
      "top rows"
+    ],
+    "detail": [
+     "same body: S Haumea → H Haumea Dec 3.2304 2×φ golden (loose) — only",
+     "same body: S Haumea → J Haumea RA 30.7414 19×φ golden (92.20) — only",
+     "top rows: S Jupiter → H Haumea Dec 29.0369 φ^7 phi power (96.69) — only",
+     "top rows: S Jupiter → J Haumea RA 150.0012 150 whole (88.05) — only"
     ]
    },
    {
@@ -17100,6 +17491,12 @@
      "same body",
      "star rows",
      "top rows"
+    ],
+    "detail": [
+     "same body: S Mars → J Mars Dec 24.2671 15×φ golden (loose) — only",
+     "top rows: S Sun → H Mars RA 110.9559 10×φ^5 phi power (81.41) — only",
+     "star rows: J Al Rescha → J Mars RA 150.4766 93×φ golden (96.57) — only",
+     "star rows: J Fomalhaut → J Mars RA 163.4247 101×φ golden (80.71) — only"
     ]
    }
   ],
@@ -17112,17 +17509,16 @@
     "layers": [
      "star rows",
      "top rows"
-    ]
-   },
-   {
-    "body": "Sun",
-    "cells": 6,
-    "H": 4,
-    "J": 2,
-    "layers": [
-     "same body",
-     "star rows",
-     "top rows"
+    ],
+    "detail": [
+     "top rows: S Sun → H Ceres RA 142.9989 143 whole (89.66) — only",
+     "top rows: S Moon → H Ceres Dec 17.9984 18 whole (84.20) [360/20] — only",
+     "star rows: H Alkes → H Ceres Dec 46.9764 φ^8 phi power (98.04) — only",
+     "star rows: H Sadalmelik → H Ceres Dec 28.9975 29 whole (76.90) — only",
+     "star rows: H Fomalhaut → H Ceres RA 102.0042 102 whole (62.77) — only",
+     "star rows: H Galactic Centre → H Ceres RA 179.9950 180 whole (56.44) [360/2] — only",
+     "star rows: J Alkes → J Ceres RA 28.0043 28 whole (61.73) — only",
+     "star rows: J Scheat → J Ceres RA 153.0054 153 whole (53.33) — only"
     ]
    },
    {
@@ -17134,6 +17530,14 @@
      "same body",
      "star rows",
      "top rows"
+    ],
+    "detail": [
+     "same body: S Jupiter → H Jupiter Dec 32.3846 20×φ golden (loose) — only",
+     "top rows: S Chiron → H Jupiter RA 62.0057 62 whole (50.79) — only",
+     "top rows: S Vesta → J Jupiter Dec 0.0140 conj (90.89) — only",
+     "star rows: H Pleiades → H Jupiter RA 12.2259 12.2222 ninth (94.86) — only",
+     "star rows: S Regulus → H Jupiter RA 83.0025 83 whole (76.74) — only",
+     "star rows: H Regulus → H Jupiter RA 83.0028 83 whole (73.99) — only"
     ]
    },
    {
@@ -17145,6 +17549,14 @@
      "same body",
      "star rows",
      "top rows"
+    ],
+    "detail": [
+     "same body: S Uranus → H Uranus Dec 12.0033 12 whole (69.56) [360/30] — only",
+     "same body: S Uranus → J Uranus Dec 35.9819 36 whole (0.87) [360/10] — only",
+     "top rows: S Moon → J Uranus RA 133.3199 133.333 ninth (98.39) — only",
+     "star rows: J Al Rescha → J Uranus Dec 24.1487 24.14 silver (89.49) — only",
+     "star rows: J Pleiades → J Uranus RA 118.1235 73×φ golden (61.35) — only",
+     "star rows: J Mirach → J Uranus Dec 57.0047 57 whole (58.52) — only"
     ]
    },
    {
@@ -17155,6 +17567,31 @@
     "layers": [
      "same body",
      "star rows"
+    ],
+    "detail": [
+     "same body: S Pluto → H Pluto RA 16.6706 16.6667 ninth (loose) — also: 6 Le Ligerien",
+     "same body: S Pluto → J Pluto Dec 15.5312 15.5556 ninth (loose) — only",
+     "star rows: H Sualocin → H Pluto Dec 35.5966 22×φ golden (98.96) — also: 6 Le Ligerien",
+     "star rows: J Sadalmelik → J Pluto RA 92.2271 57×φ golden (94.89) — only",
+     "star rows: J Vindemiatrix → J Pluto RA 43.6838 27×φ golden (81.61) — only",
+     "star rows: J Sualocin → J Pluto Dec 22.9966 23 whole (68.80) — only"
+    ]
+   },
+   {
+    "body": "Sun",
+    "cells": 5,
+    "H": 3,
+    "J": 2,
+    "layers": [
+     "same body",
+     "star rows"
+    ],
+    "detail": [
+     "same body: S Sun → H Sun RA 61.0020 61 whole (80.77) — only",
+     "same body: S Sun → J Sun Dec 17.9253 φ^6 phi power (loose) — only",
+     "star rows: H Sualocin → H Sun Dec 13.9993 14 whole (93.10) — only",
+     "star rows: H Galactic Centre → H Sun RA 97.9981 98 whole (82.02) — only",
+     "star rows: J Vindemiatrix → J Sun RA 10.9954 11 whole (59.19) [sky number: S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)] — only"
     ]
    },
    {
@@ -17165,6 +17602,13 @@
     "layers": [
      "same body",
      "star rows"
+    ],
+    "detail": [
+     "same body: S Mercury → H Mercury Dec 6.9870 7 whole (12.28) — only",
+     "star rows: H Regulus → H Mercury Dec 21.0356 13×φ golden (92.89) — only",
+     "star rows: H Rigel → H Mercury RA 98.7049 61×φ golden (72.65) — only",
+     "star rows: J Mirach → J Mercury RA 177.7992 177.778 ninth (98.32) — only",
+     "star rows: J Vindemiatrix → J Mercury RA 0.3011 conj (63.89) — only"
     ]
    },
    {
@@ -17176,6 +17620,13 @@
      "same body",
      "star rows",
      "top rows"
+    ],
+    "detail": [
+     "same body: S Rahu → H Rahu Dec 37.0000 37 whole (99.61) [sky number: S Sun → Galactic Centre RA 37.0023 37 whole (77.89)] — only",
+     "same body: S Rahu → H Rahu RA 167.9826 168 whole (1.66) — only",
+     "top rows: S Sun → J Rahu RA 98.7048 61×φ golden (72.89) — only",
+     "star rows: H Alkes → H Rahu RA 60.0016 60 whole (84.19) [360/6] — only",
+     "star rows: J Sualocin → J Rahu Dec 26.1879 10×φ^2 phi power (88.83) — only"
     ]
    },
    {
@@ -17186,6 +17637,12 @@
     "layers": [
      "same body",
      "star rows"
+    ],
+    "detail": [
+     "same body: S Quaoar → H Quaoar RA 11.0198 11 whole (0.02) [sky number: S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)] — also: 6 Le Ligerien",
+     "star rows: H Scheat → H Quaoar Dec 43.6854 27×φ golden (91.03) — only",
+     "star rows: H Alhena → H Quaoar Dec 32.0033 32 whole (69.93) — also: 6 Le Ligerien",
+     "star rows: J Alkes → J Quaoar RA 75.0029 75 whole (73.28) — only"
     ]
    }
   ],
@@ -17198,6 +17655,15 @@
     "layers": [
      "star rows",
      "top rows"
+    ],
+    "detail": [
+     "top rows: S Pluto → H Jupiter RA 161.8547 100×φ^1 phi power (87.72) — only",
+     "top rows: S Venus → H Jupiter RA 145.6292 90×φ golden (65.65) — only",
+     "top rows: S Uranus → J Jupiter RA 111.1053 111.111 ninth (99.04) — only",
+     "top rows: S Gonggong → J Jupiter Dec 11.0935 φ^5 phi power (88.41) — only",
+     "top rows: S Ketu → J Jupiter RA 50.1571 31×φ golden (88.37) — only",
+     "star rows: H Sadalmelik → H Jupiter Dec 17.7923 11×φ golden (65.96) — only",
+     "star rows: S Sadalmelik → H Jupiter Dec 17.7921 11×φ golden (65.05) — only"
     ]
    },
    {
@@ -17208,6 +17674,13 @@
     "layers": [
      "same body",
      "star rows"
+    ],
+    "detail": [
+     "same body: S Orcus → H Orcus Dec 4.0004 4 whole (95.56) [360/90] — also: 4 One True King",
+     "same body: S Orcus → J Orcus Dec 13.3194 13.3333 ninth (loose) [sky number: S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)] — only",
+     "star rows: H Sualocin → H Orcus RA 160.1859 99×φ golden (96.88) — also: 4 One True King",
+     "star rows: H Rigel → H Orcus Dec 0.0138 conj (91.01) — also: 4 One True King",
+     "star rows: J Fomalhaut → J Orcus Dec 30.7491 19×φ golden (64.04) — only"
     ]
    },
    {
@@ -17218,6 +17691,13 @@
     "layers": [
      "same body",
      "star rows"
+    ],
+    "detail": [
+     "same body: S Transpluto → H Transpluto RA 2.9790 3 whole (loose) [360/120] — also: 4 One True King",
+     "same body: S Transpluto → H Transpluto Dec 1.1164 1.11111 ninth (loose) — also: 4 One True King",
+     "star rows: H Sadalmelik → H Transpluto RA 179.4185 10×φ^6 phi power (94.67) [sky number: S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)] — also: 4 One True King",
+     "star rows: H Regulus → H Transpluto RA 0.0659 conj (91.40) — also: 1 Eclair D'Ainay, 2 Financier, 4 One True King, 5 Cedar Hill, 6 Le Ligerien, 7 Beaufort West",
+     "star rows: J Sualocin → J Transpluto Dec 2.2228 2.22222 ninth (91.96) — only"
     ]
    },
    {
@@ -17228,6 +17708,12 @@
     "layers": [
      "same body",
      "star rows"
+    ],
+    "detail": [
+     "same body: S Saturn → H Saturn Dec 1.0098 1 whole (26.07) [360/360] — only",
+     "same body: S Saturn → H Saturn RA 76.0779 φ^9 phi power (loose) — only",
+     "star rows: J Vindemiatrix → J Saturn RA 170.9996 171 whole (96.11) [sky number: S Moon → Gonggong RA 170.9993 171 whole (93.54)] — only",
+     "star rows: J Sualocin → J Saturn RA 56.6334 35×φ golden (87.00) — only"
     ]
    }
   ],
@@ -17241,6 +17727,17 @@
      "same body",
      "star rows",
      "top rows"
+    ],
+    "detail": [
+     "same body: S Uranus → H Uranus Dec 7.9808 8 whole (0.16) [360/45] — only",
+     "same body: S Uranus → H Uranus RA 21.0584 13×φ golden (loose) — only",
+     "top rows: S Sun → J Uranus RA 17.7776 17.7778 ninth (99.85) — only",
+     "star rows: H Al Rescha → H Uranus RA 13.3370 13.3333 ninth (95.60) [sky number: S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)] — only",
+     "star rows: H Mirach → H Uranus Dec 28.9987 29 whole (87.49) — only",
+     "star rows: H Mirach → H Uranus RA 0.2587 conj (68.48) — also: 3 Frero Banbou",
+     "star rows: J Sualocin → J Uranus Dec 38.9997 39 whole (96.98) — only",
+     "star rows: J Rigel → J Uranus RA 153.0015 153 whole (85.29) — only",
+     "star rows: J Sualocin → J Uranus RA 24.2747 15×φ golden (75.83) — only"
     ]
    },
    {
@@ -17252,6 +17749,15 @@
      "same body",
      "star rows",
      "top rows"
+    ],
+    "detail": [
+     "same body: S Jupiter → J Jupiter RA 155.3018 155.556 ninth (loose) — only",
+     "same body: S Jupiter → J Jupiter Dec 11.2978 7×φ golden (loose) — only",
+     "top rows: S Transpluto → H Jupiter Dec 6.9991 7 whole (91.55) — only",
+     "top rows: S Eris → J Jupiter Dec 1.9963 2 whole (66.38) [360/180] — only",
+     "star rows: H Fomalhaut → H Jupiter Dec 46.9997 47 whole (97.03) — only",
+     "star rows: S Fomalhaut → H Jupiter Dec 47.0044 47 whole (60.68) — only",
+     "star rows: J Pleiades → J Jupiter RA 124.5968 77×φ golden (55.96) — only"
     ]
    },
    {
@@ -17262,6 +17768,13 @@
     "layers": [
      "same body",
      "star rows"
+    ],
+    "detail": [
+     "same body: S Orcus → H Orcus Dec 4.0202 4 whole (loose) [360/90] — also: 3 Frero Banbou",
+     "same body: S Orcus → J Orcus RA 24.2653 15×φ golden (loose) — only",
+     "same body: S Orcus → J Orcus Dec 14.4973 14.4444 ninth (loose) — only",
+     "star rows: H Sualocin → H Orcus RA 160.1851 99×φ golden (98.67) — also: 3 Frero Banbou",
+     "star rows: H Rigel → H Orcus Dec 0.0334 conj (78.97) — also: 3 Frero Banbou"
     ]
    },
    {
@@ -17272,6 +17785,13 @@
     "layers": [
      "same body",
      "star rows"
+    ],
+    "detail": [
+     "same body: S Transpluto → H Transpluto RA 2.9804 3 whole (0.04) [360/120] — also: 3 Frero Banbou",
+     "same body: S Transpluto → H Transpluto Dec 1.1170 1.11111 ninth (loose) — also: 3 Frero Banbou",
+     "star rows: H Sadalmelik → H Transpluto RA 179.4202 10×φ^6 phi power (95.04) [sky number: S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)] — also: 3 Frero Banbou",
+     "star rows: H Regulus → H Transpluto RA 0.0671 conj (91.25) — also: 1 Eclair D'Ainay, 2 Financier, 3 Frero Banbou, 5 Cedar Hill, 6 Le Ligerien, 7 Beaufort West",
+     "star rows: J Rigel → J Transpluto RA 67.0020 67 whole (81.36) — only"
     ]
    },
    {
@@ -17283,6 +17803,13 @@
      "same body",
      "star rows",
      "top rows"
+    ],
+    "detail": [
+     "same body: S Ceres → J Ceres Dec 48.9833 49 whole (2.80) — only",
+     "top rows: S Sun → J Ceres RA 0.1349 conj (82.82) — only",
+     "star rows: H Galactic Centre → H Ceres Dec 4.9996 5 whole (96.35) [360/72] — only",
+     "star rows: H Regulus → H Ceres RA 160.0043 160 whole (61.39) — only",
+     "star rows: J Castor → J Ceres Dec 62.0025 62 whole (76.20) — only"
     ]
    },
    {
@@ -17293,6 +17820,12 @@
     "layers": [
      "same body",
      "star rows"
+    ],
+    "detail": [
+     "same body: S Haumea → H Haumea Dec 3.0101 3 whole (24.56) [360/120] — also: 3 Frero Banbou",
+     "star rows: H Alhena → H Haumea Dec 1.6661 1.66667 ninth (95.11) — only",
+     "star rows: H Al Rescha → H Haumea RA 179.4734 10×φ^6 phi power (93.28) [sky number: S Moon → Scheat RA 179.4908 10×φ^6 phi power (89.58)] — only",
+     "star rows: J Sadalmelik → J Haumea RA 141.4017 141.4 sqrt2 (94.53) — only"
     ]
    }
   ],
@@ -17306,6 +17839,14 @@
      "same body",
      "star rows",
      "top rows"
+    ],
+    "detail": [
+     "same body: S Ceres → H Ceres Dec 20.9872 21 whole (12.91) — only",
+     "top rows: S Sun → H Ceres Dec 17.7757 17.7778 ninth (98.41) — only",
+     "star rows: H Alkes → H Ceres Dec 16.1803 10×φ^1 phi power (99.98) — only",
+     "star rows: H Rigel → H Ceres RA 124.5903 77×φ golden (89.62) — only",
+     "star rows: H Fomalhaut → H Ceres Dec 27.5012 17×φ golden (69.52) — only",
+     "star rows: J Mirach → J Ceres Dec 46.9784 φ^8 phi power (99.76) — only"
     ]
    },
    {
@@ -17316,6 +17857,14 @@
     "layers": [
      "star rows",
      "top rows"
+    ],
+    "detail": [
+     "top rows: S Sun → H Mars Dec 10.9952 11 whole (58.00) [sky number: S Moon → Sadalmelik Dec 10.9982 11 whole (82.42)] — only",
+     "top rows: S Moon → H Mars RA 34.0049 34 whole (57.21) — only",
+     "top rows: S Moon → J Mars Dec 33.9973 34 whole (75.09) — only",
+     "star rows: H Mirach → H Mars RA 177.9974 178 whole (75.51) — only",
+     "star rows: H Pleiades → H Mars Dec 33.0032 33 whole (70.76) — only",
+     "star rows: J Sadalmelik → J Mars Dec 23.0004 23 whole (96.50) — only"
     ]
    },
    {
@@ -17326,6 +17875,14 @@
     "layers": [
      "same body",
      "star rows"
+    ],
+    "detail": [
+     "same body: S Saturn → J Saturn Dec 11.0959 φ^5 phi power (80.48) — only",
+     "same body: S Saturn → J Saturn RA 34.0095 34 whole (27.71) — only",
+     "star rows: H Castor → H Saturn RA 111.1398 111.111 ninth (95.31) — only",
+     "star rows: H Galactic Centre → H Saturn Dec 14.4500 14.4444 ninth (94.15) — only",
+     "star rows: J Castor → J Saturn RA 122.9891 φ^10 phi power (99.09) — only",
+     "star rows: J Galactic Centre → J Saturn Dec 22.6593 14×φ golden (62.13) [sky number: S Sun → Al Rescha Dec 22.6574 14×φ golden (71.84)] — only"
     ]
    },
    {
@@ -17336,6 +17893,13 @@
     "layers": [
      "same body",
      "star rows"
+    ],
+    "detail": [
+     "same body: S Haumea → H Haumea RA 8.9761 9 whole (loose) [360/40] — only",
+     "star rows: H Sadalmelik → H Haumea RA 122.9113 φ^10 phi power (75.51) — only",
+     "star rows: H Vindemiatrix → H Haumea RA 12.9955 13 whole (59.75) — only",
+     "star rows: J Fomalhaut → J Haumea Dec 51.0011 51 whole (89.11) — only",
+     "star rows: J Scheat → J Haumea RA 152.0992 94×φ golden (76.65) — only"
     ]
    },
    {
@@ -17346,6 +17910,13 @@
     "layers": [
      "star rows",
      "top rows"
+    ],
+    "detail": [
+     "top rows: S Sun → H Sedna RA 111.6371 69×φ golden (60.26) — only",
+     "top rows: S Sun → J Sedna RA 100.9948 101 whole (55.01) — only",
+     "star rows: H Alhena → H Sedna Dec 9.0023 9 whole (78.33) [360/40] — only",
+     "star rows: J Galactic Centre → J Sedna RA 137.9983 138 whole (83.42) — only",
+     "star rows: J Fomalhaut → J Sedna RA 59.9982 60 whole (83.07) [360/6] — only"
     ]
    },
    {
@@ -17357,6 +17928,13 @@
      "same body",
      "star rows",
      "top rows"
+    ],
+    "detail": [
+     "same body: S Transpluto → J Transpluto Dec 3.0150 3 whole (6.23) [360/120] — only",
+     "top rows: S Jupiter → J Transpluto Dec 24.1457 24.14 silver (94.25) — only",
+     "star rows: H Regulus → H Transpluto RA 0.1628 conj (79.47) — also: 1 Eclair D'Ainay, 2 Financier, 3 Frero Banbou, 4 One True King, 6 Le Ligerien, 7 Beaufort West",
+     "star rows: J Mirach → J Transpluto Dec 22.2298 22.2222 ninth (89.48) — only",
+     "star rows: J Alhena → J Transpluto Dec 3.0050 3 whole (55.99) [360/120] — only"
     ]
    },
    {
@@ -17368,6 +17946,12 @@
      "same body",
      "star rows",
      "top rows"
+    ],
+    "detail": [
+     "same body: S Uranus → H Uranus RA 23.0164 23 whole (3.19) — only",
+     "top rows: S Sun → J Uranus Dec 1.0010 1 whole (90.11) [360/360] — only",
+     "star rows: H Al Rescha → H Uranus Dec 2.9962 3 whole (65.42) [360/120] — only",
+     "star rows: J Pleiades → J Uranus Dec 45.0020 45 whole (80.70) [360/8] — only"
     ]
    },
    {
@@ -17378,6 +17962,12 @@
     "layers": [
      "star rows",
      "top rows"
+    ],
+    "detail": [
+     "top rows: S Jupiter → H Rahu RA 134.0028 134 whole (73.70) — only",
+     "top rows: S Moon → J Rahu Dec 20.0020 20 whole (80.85) [360/18] — only",
+     "star rows: J Regulus → J Rahu RA 50.1588 31×φ golden (98.55) — only",
+     "star rows: J Sadalmelik → J Rahu Dec 9.0050 9 whole (55.96) [360/40] — only"
     ]
    },
    {
@@ -17388,6 +17978,12 @@
     "layers": [
      "same body",
      "star rows"
+    ],
+    "detail": [
+     "same body: S Mercury → J Mercury RA 17.6596 17.7778 ninth (loose) — only",
+     "star rows: H Scheat → H Mercury RA 99.9964 100 ninth (97.63) — only",
+     "star rows: H Alkes → H Mercury RA 78.9948 79 whole (54.96) — only",
+     "star rows: J Pleiades → J Mercury Dec 48.5484 30×φ golden (59.62) — only"
     ]
    }
   ],
@@ -17401,6 +17997,13 @@
      "same body",
      "star rows",
      "top rows"
+    ],
+    "detail": [
+     "same body: S Chiron → H Chiron Dec 8.0971 5×φ golden (loose) — only",
+     "same body: S Chiron → J Chiron RA 122.2762 122.222 ninth (92.53) — only",
+     "top rows: S Jupiter → H Chiron Dec 8.0012 8 whole (88.11) [360/45] — only",
+     "star rows: H Alkes → H Chiron Dec 15.5507 15.5556 ninth (95.38) — only",
+     "star rows: H Regulus → H Chiron RA 171.5166 106×φ golden (71.73) — only"
     ]
    },
    {
@@ -17412,6 +18015,13 @@
      "same body",
      "star rows",
      "top rows"
+    ],
+    "detail": [
+     "same body: S Sedna → H Sedna RA 4.9812 5 whole (0.36) [360/72] — also: 2 Financier",
+     "same body: S Sedna → H Sedna Dec 1.0205 1 whole (loose) [360/360] — only",
+     "top rows: S Sun → J Sedna Dec 25.0054 25 whole (53.34) — only",
+     "star rows: J Al Rescha → J Sedna RA 16.1893 10×φ^1 phi power (78.97) — only",
+     "star rows: J Pleiades → J Sedna Dec 18.9955 19 whole (60.18) — only"
     ]
    },
    {
@@ -17423,6 +18033,12 @@
      "same body",
      "star rows",
      "top rows"
+    ],
+    "detail": [
+     "same body: S Mercury → H Mercury RA 36.0035 36 whole (67.67) [360/10] — only",
+     "same body: S Mercury → J Mercury RA 76.9705 77 whole (loose) — only",
+     "top rows: S Sun → H Mercury Dec 11.3245 7×φ golden (89.27) — only",
+     "star rows: H Castor → H Mercury Dec 40.4586 25×φ golden (57.85) — only"
     ]
    },
    {
@@ -17434,6 +18050,12 @@
      "same body",
      "star rows",
      "top rows"
+    ],
+    "detail": [
+     "same body: S Eris → H Eris Dec 2.0176 2 whole (1.40) [360/180] — only",
+     "top rows: S Moon → H Eris Dec 14.1448 14.14 sqrt2 (92.59) — only",
+     "star rows: J Alkes → J Eris Dec 11.0997 φ^5 phi power (68.67) — only",
+     "star rows: J Rigel → J Eris Dec 1.0038 1 whole (65.34) [360/360] — only"
     ]
    }
   ],
@@ -17447,6 +18069,16 @@
      "same body",
      "star rows",
      "top rows"
+    ],
+    "detail": [
+     "same body: S Jupiter → J Jupiter Dec 9.9726 10 whole (loose) [360/36] — only",
+     "top rows: S Pallas → H Jupiter Dec 34.0043 34 whole (61.98) — only",
+     "top rows: S Pluto → J Jupiter Dec 1.8882 1.88889 ninth (94.78) — only",
+     "top rows: S Makemake → J Jupiter Dec 43.0057 43 whole (51.24) — only",
+     "star rows: H Regulus → H Jupiter Dec 11.0964 φ^5 phi power (78.89) — only",
+     "star rows: S Regulus → H Jupiter Dec 11.0972 φ^5 phi power (76.32) — only",
+     "star rows: S Mirach → J Jupiter RA 133.3837 133.333 ninth (93.96) — only",
+     "star rows: J Mirach → J Jupiter RA 133.3869 133.333 ninth (93.57) — only"
     ]
    },
    {
@@ -17457,6 +18089,14 @@
     "layers": [
      "same body",
      "star rows"
+    ],
+    "detail": [
+     "same body: S Eris → H Eris Dec 1.6634 1.66667 ninth (loose) — only",
+     "same body: S Eris → J Eris Dec 6.4758 4×φ golden (loose) — only",
+     "star rows: H Castor → H Eris Dec 35.0023 35 whole (78.31) — also: 1 Eclair D'Ainay",
+     "star rows: H Fomalhaut → H Eris RA 40.9969 41 whole (71.67) [sky number: S Sun → Fomalhaut RA 40.9968 41 whole (70.51)] — only",
+     "star rows: J Vindemiatrix → J Eris Dec 18.8877 18.8889 ninth (99.12) [sky number: S Moon → Rigel Dec 18.8804 18.8889 ninth (93.87)] — only",
+     "star rows: J Vindemiatrix → J Eris RA 171.9981 172 whole (81.60) — only"
     ]
    },
    {
@@ -17467,6 +18107,12 @@
     "layers": [
      "same body",
      "star rows"
+    ],
+    "detail": [
+     "same body: S Neptune → H Neptune Dec 5.0123 5 whole (14.81) [360/72] — only",
+     "same body: S Neptune → H Neptune RA 13.2935 13.3333 ninth (loose) [sky number: S Moon → Regulus RA 13.3352 13.3333 ninth (97.81)] — only",
+     "same body: S Neptune → J Neptune Dec 16.1905 10×φ^1 phi power (loose) — only",
+     "star rows: H Mirach → H Neptune Dec 45.3019 28×φ golden (82.26) — only"
     ]
    },
    {
@@ -17477,6 +18123,12 @@
     "layers": [
      "same body",
      "star rows"
+    ],
+    "detail": [
+     "same body: S Pluto → H Pluto RA 14.4334 14.4444 ninth (loose) — also: 1 Eclair D'Ainay",
+     "same body: S Pluto → J Pluto Dec 16.0264 16 whole (loose) — only",
+     "star rows: H Castor → H Pluto Dec 51.9978 52 whole (79.37) — also: 1 Eclair D'Ainay",
+     "star rows: J Rigel → J Pluto RA 160.0034 160 whole (68.95) — only"
     ]
    }
   ]

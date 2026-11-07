@@ -20,30 +20,31 @@ import families as F  # noqa: E402
 REF = os.path.join(ROOT, 'reference', 'classic')
 CASES = {
     'race_batch_20220219_haydock_1405_jupiter_tables.xlsx': ('5 Wholestone', [
-        'S Sun → H Sun RA 45.0052 45 (54.84) [360/8]',
+        'S Sun → H Sun RA 45.0052 45 whole (54.84) [360/8]',
         'S Sun → H Neptune RA 0.4062 conj (53.18)',
-        'H Jupiter → H star Vindemiatrix RA 179.4714 10×φ^6 (93.71)',
-        'J Wezen → J Neptune RA 179.4430 10×φ^6 (99.94)',
+        'H Jupiter → H star Vindemiatrix RA 179.4714 10×φ^6 phi power (93.71)',
+        'J Wezen → J Neptune RA 179.4430 10×φ^6 phi power (99.94)',
         'H RA midpoints: Sun = Eris 97.36 (far, far side)',
         'S Moon → J Jupiter Dec 0.1147 conj (38.14)',
         'S Chiron → H Jupiter Dec 0.0486 conj (70.20)',
-        'S Moon → J Venus RA 45.9949 46 (55.35)',
-        'S Sun → J Neptune RA 44.9979 45 (79.69) [360/8]',
+        'S Moon → J Venus RA 45.9949 46 whole (55.35)',
+        'S Sun → J Neptune RA 44.9979 45 whole (79.69) [360/8]',
+        '  - S Vindemiatrix → H Jupiter RA 179.4689 10×φ^6 phi power (94.25)',   # under its star, not in top rows
     ]),
     'race_batch_20220217_leicester_1445_jupiter_tables.xlsx': ('3 Nelson River', [
         'H Alkes → H Mercury Dec 0.0094 conj (93.85)',
-        'H Alkes → H Chiron RA 179.4180 10×φ^6 (94.57)',
-        'H Alkes → H Ketu RA 155.5255 155.556 (97.15)',
-        'J Alkes → J Juno RA 35.0063 35 (47.24)',
-        'S Juno → H Juno RA 177.7114 177.778 (94.81)',
-        'S Gonggong → H Gonggong Dec 1.7775 1.77778 (98.15)',
-        'S Juno → J Juno Dec 14.5657 9×φ (80.15)',
-        'H Sadalmelik → H Haumea Dec 17.7709 17.7778 (94.63)',
+        'H Alkes → H Chiron RA 179.4180 10×φ^6 phi power (94.57)',
+        'H Alkes → H Ketu RA 155.5255 155.556 ninth (97.15)',
+        'J Alkes → J Juno RA 35.0063 35 whole (47.24)',
+        'S Juno → H Juno RA 177.7114 177.778 ninth (94.81)',
+        'S Gonggong → H Gonggong Dec 1.7775 1.77778 ninth (98.15)',
+        'S Juno → J Juno Dec 14.5657 9×φ golden (80.15)',
+        'H Sadalmelik → H Haumea Dec 17.7709 17.7778 ninth (94.63)',
         'J Sadalmelik → J Gonggong RA 0.2481 conj (69.65)',
-        'J Sadalmelik → J Sun RA 105.0153 105 (5.52)',
-        'J Sadalmelik → J Mars RA 67.9857 68 (8.07)',
-        'J Sadalmelik → J Mars Dec 15.0080 15 (35.74)',
-        'J Sadalmelik → J Pluto Dec 4.9976 5 (77.58)',
+        'J Sadalmelik → J Sun RA 105.0153 105 whole (5.52)',
+        'J Sadalmelik → J Mars RA 67.9857 68 whole (8.07)',
+        'J Sadalmelik → J Mars Dec 15.0080 15 whole (35.74)',
+        'J Sadalmelik → J Pluto Dec 4.9976 5 whole (77.58)',
     ]),
     'race_batch_20220311_newcastle_1540_jupiter_tables.xlsx': ('3 Peak Time', [
         'J Zubeneschamali → J Eris Dec 0.0002 conj (99.84)',
@@ -111,6 +112,8 @@ for wbname, (runner, cells) in CASES.items():
             a, b = P[(p['runner'], ch, 'Jupiter')], P[(p['runner'], ch, x)]
         elif p['layer'] == 'top rows':
             a, b = P[('SKY', 'S', p['source'][2:])], P[(p['runner'], ch, p['body'])]
+        elif p['source'][:2] == 'S ':   # star rows: the sky star onto natal Jupiter
+            a, b = P[('SKY', 'S', p['source'][2:])], P[(p['runner'], ch, p['body'])]
         else:
             a, b = P[(p['runner'], ch, p['source'][2:])], P[(p['runner'], ch, p['body'])]
         v = own_dist(a, b, p['plane'])
@@ -132,6 +135,38 @@ for wbname, (runner, cells) in CASES.items():
 
 for wbname, runner, c in EXTRA:
     check(c in section(E.report(E.read(os.path.join(REF, wbname))), runner), f'{wbname} {runner}: missing "{c}"')
+
+# layout (Eddie, 7 Nov 2026): no by body / number / family; top rows bodies only, Jupiter, Sun, Moon order;
+# threads count a cell once and list it; flags held list their cells
+for wbname, (runner, _) in CASES.items():
+    D = E.read(os.path.join(REF, wbname))
+    md = E.report(D)
+    check('By body' not in md and 'By number' not in md and 'By family' not in md, f'{wbname}: organised lists still there')
+    tops = [p for p in D['pieces'] if p['layer'] == 'top rows']
+    stars = set(D['noted_stars'])
+    check(all(p['source'][2:] not in stars for p in tops), f'{wbname}: a star in the top rows')
+    for R in D['runners']:
+        sec = section(md, D['names'][R])
+        t = sec[sec.index('### 7. T24 top rows'):sec.index('### 8.')].splitlines()[1:]
+        key = []
+        for ln in t:
+            if ln == '- none':
+                continue
+            src = ln[2:].split(' → ')[0][2:]
+            ch = ln.split(' → ')[1][0]
+            core = ln.split(' — ')[0].split(' [')[0]   # the cell itself, without circle / sky-number tags
+            sc = float(core.rsplit('(', 1)[1].split(')')[0]) if '(loose)' not in core else 0
+            key.append(((E.CENTRES.index(src) if src in E.CENTRES else 3), ch, -sc))
+        check(key == sorted(key), f'{wbname} {R}: top rows order')
+        for th in D['threads'].get(R, []):
+            ks = [d.split(' — ')[0].split(': ', 1)[1].rsplit(' ', 3)[0] for d in th['detail']]
+            check(len(ks) == len(set(ks)) == th['cells'], f'{wbname} {R}: thread {th["body"]} cells')
+            check(f"- **{th['body']}**: {th['cells']} cells" in sec, f'{wbname} {R}: thread {th["body"]} not shown')
+        for k, v in D['flag_holders'].items():
+            if R in v:
+                for x in D['flags'][k]:
+                    if x['runner'] == R:
+                        check(f"  - {x['text']}" in sec[sec.index('### Flags held'):], f'{wbname} {R}: flag line {k}')
 
 # every race runs
 for f in sorted(os.listdir(REF)):

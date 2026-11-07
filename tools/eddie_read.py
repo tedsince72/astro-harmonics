@@ -13,11 +13,13 @@ Eddie's order (6 Nov 2026):
   2-4 sky notes        S Jupiter, S Sun, S Moon lines (noted lines), conj points, hubs, the top line, sky numbers
   5 MATCH              the runner sheet's MATCH rows (EXACT / BODY / CONJ STAR) for the noted sky cells
   6 T1 / T2            natal Jupiter -> natal body / noted star that matches a note (same point or same number), or conj
-  7 T24 top rows       S Jupiter / Sun / Moon -> natal body; noted sky point -> natal Jupiter
+  7 T24 top rows       S Jupiter / Sun / Moon -> natal body, then S body -> natal Jupiter (bodies only);
+                       order Jupiter, Sun, Moon, horse then jockey, highest score first
   8 T24 star rows      the noted stars (Jupiter stars, Sun stars, Moon stars), horse and jockey together:
-                       body cells, conj, midpoints (read from the T24 sheets), sky numbers carried, own centre bodies
-  Part 2               by body, by number, by family, threads; every piece flagged 'only' or 'also: ...'
-  Flags                the shapes found so far (named, field-checked, no ranking)
+                       body cells, conj, midpoints (read from the T24 sheets), sky numbers carried, own centre bodies,
+                       and the sky star onto natal Jupiter (S star -> H / J Jupiter)
+  Part 2               threads in detail; every piece flagged 'only' or 'also: ...'
+  Flags                the shapes found so far (named, field-checked, no ranking), each with its cells
 
 Rules fixed here so the output repeats race to race (Claude's choices, 6 Nov 2026; change only with Eddie):
   noted line   : a SKY block line of S Jupiter / Sun / Moon scoring >= 40 and exact within +-120 min of the off,
@@ -117,6 +119,17 @@ def mins(t):
     return float(m.group(1)) if m else 1e9
 
 
+def tf(e):
+    """target, family and score as written in every cell: '45 whole (54.84)', 'conj (53.18)'."""
+    if e['family'] == 'conj':
+        return f"conj ({e['score']:.2f})"
+    return f"{e['target']} {e['family']} ({e['score']:.2f})"
+
+
+def cell(label, pl, x, e):
+    return f"{label} {pl} {x:.4f} {tf(e)}"
+
+
 def golden_mult(target):
     m = re.match(r'^(\d+)×φ$', target or '')
     return int(m.group(1)) if m else None
@@ -177,7 +190,7 @@ def load(path):
                 if len(t) >= 7:
                     match[sh].append(dict(chart='H' if r[0] == 'MATCH HORSE' else 'J', kind=r[1], centre=c, point=p,
                                           plane=pl, sky_value=vals[i + 2], t24_row=t[0], body=t[1], t24_plane=t[2],
-                                          value=t[3], target=t[5], score=t[6]))
+                                          value=t[3], family=t[4], target=t[5], score=t[6]))
     return P, kinds, names, sky, mids, match
 
 
@@ -201,7 +214,7 @@ def read(path):
     noted_points = sorted({l['point'] for l in lines})
     noted_cells = {(l['centre'], l['point'], l['plane']) for l in lines}
     star_centre = {s: [c for c in CENTRES if c in pts_by_centre[s]] for s in noted_stars}
-    numbers = {(l['family'], l['target']): f"S {l['centre']} → {l['point']} {l['plane']} {l['target']}"
+    numbers = {(l['family'], l['target']): f"S {l['centre']} → {l['point']} {l['plane']} {l['value']:.4f} {tf(l)}"
                for l in lines if l['family'] != 'conj'}
     atoff = [l for l in lines if mins(l['timing']) <= 5 and l['family'] != 'conj']
     top = max(atoff, key=lambda l: l['score']) if atoff else None
@@ -255,7 +268,7 @@ def read(path):
                         e = best(v, pl)
                         if e and (e['score'] >= CELL_MIN or (e['family'] == 'conj' and e['score'] >= CONJ_LIST)):
                             add(R, 'top rows', ch, f'S {c}', X, pl, v, e)
-            for X in sorted(set(noted_points) | set(bodies)):   # Eddie reads the whole 'S body → natal Jupiter' row
+            for X in bodies:   # the whole 'S body → natal Jupiter' row (bodies only, as on the sheet)
                 if X in CENTRES or S(X) is None:
                     continue
                 for pl in ('RA', 'Dec'):
@@ -265,6 +278,12 @@ def read(path):
                         add(R, 'top rows', ch, f'S {X}', 'Jupiter', pl, v, e)
             # 8 star rows
             for st in noted_stars:
+                if S(st) is not None:   # the sky star onto natal Jupiter, read beside the natal star's row
+                    for pl in ('RA', 'Dec'):
+                        v = dist(S(st), J, pl)
+                        e = best(v, pl)
+                        if e and (e['score'] > STAR_HI or e['family'] == 'conj'):
+                            add(R, 'star rows', ch, f'S {st}', 'Jupiter', pl, v, e)
                 if nat(st) is None:
                     continue
                 for X in bodies:
@@ -306,7 +325,7 @@ def read(path):
                         e = best(x, pl)
                         if e and e['family'] == 'conj' and e['score'] >= CELL_MIN:
                             flags['natal body on a strong line star'].append(
-                                dict(runner=R, text=f"{ch} {st} conj {ch} {X} {pl} {x:.4f} ({e['score']:.2f})", score=e['score']))
+                                dict(runner=R, text=cell(f"{ch} {st} → {ch} {X}", pl, x, e), score=e['score']))
             # locked line star on natal Jupiter (natal and sky star on the same number)
             for st in noted_stars:
                 if nat(ch, st) is None or S(st) is None:
@@ -316,7 +335,7 @@ def read(path):
                     e1, e2 = best(a, pl), best(b, pl)
                     if e1 and e2 and e1['score'] >= CELL_MIN and e2['score'] >= CELL_MIN and e1['target'] == e2['target']:
                         flags['locked line star on natal Jupiter'].append(
-                            dict(runner=R, chart=ch, text=f"{ch} {st} ↔ {ch} Jupiter {pl} {e1['target']} (natal {a:.4f} {e1['score']:.2f} / sky {b:.4f} {e2['score']:.2f})",
+                            dict(runner=R, chart=ch, text=cell(f"{ch} {st} → {ch} Jupiter", pl, a, e1) + ' | ' + cell(f"S {st} → {ch} Jupiter", pl, b, e2),
                                  score=min(e1['score'], e2['score'])))
             # centre in conj with natal Jupiter
             for c in CENTRES:
@@ -324,13 +343,13 @@ def read(path):
                     x = dist(S(c), J, pl)
                     e = best(x, pl)
                     if e and e['family'] == 'conj' and e['score'] >= CONJ_LIST:
-                        flags['sky centre conj natal Jupiter'].append(dict(runner=R, text=f"S {c} conj {ch} Jupiter {pl} {x:.4f} ({e['score']:.2f})", score=e['score']))
+                        flags['sky centre conj natal Jupiter'].append(dict(runner=R, text=cell(f"S {c} → {ch} Jupiter", pl, x, e), score=e['score']))
             # same-body Jupiter scoring >= 50 (4-digit)
             for pl in ('RA', 'Dec'):
                 x = dist(S('Jupiter'), J, pl)
                 e = best(x, pl)
                 if e and e['family'] != 'conj' and e['score'] >= CELL_MIN:
-                    flags['same-body Jupiter >= 50'].append(dict(runner=R, text=f"S Jupiter → {ch} Jupiter {pl} {x:.4f} {e['target']} ({e['score']:.2f})", score=e['score']))
+                    flags['same-body Jupiter >= 50'].append(dict(runner=R, text=cell(f"S Jupiter → {ch} Jupiter", pl, x, e), score=e['score']))
             # hub point onto natal Jupiter
             for h in hubs:
                 if S(h) is None or h in CENTRES:
@@ -339,7 +358,7 @@ def read(path):
                     x = dist(S(h), J, pl)
                     e = best(x, pl)
                     if e and e['score'] >= CELL_MIN:
-                        flags['hub point onto natal Jupiter'].append(dict(runner=R, text=f"S {h} → {ch} Jupiter {pl} {x:.4f} {e['target']} ({e['score']:.2f})", score=e['score']))
+                        flags['hub point onto natal Jupiter'].append(dict(runner=R, text=cell(f"S {h} → {ch} Jupiter", pl, x, e), score=e['score']))
             # hub landing: natal body conj a hub star with the line landing; or a hub body conj a noted star
             for h in hubs:
                 if kinds.get(h) == 'star' and nat(ch, h) is not None:
@@ -353,7 +372,7 @@ def read(path):
                             if e and e['family'] == 'conj' and e['score'] >= CELL_MIN:
                                 y = dist(S(l['centre']), nat(ch, X), pl)
                                 if abs(y - l['value']) < 0.05:
-                                    flags['hub landing'].append(dict(runner=R, text=f"{ch} {h} conj {ch} {X} {pl} {x:.4f} ({e['score']:.2f}); S {l['centre']} → {ch} {X} {y:.4f} on line {l['value']:.4f}", score=e['score']))
+                                    flags['hub landing'].append(dict(runner=R, text=cell(f"{ch} {h} → {ch} {X}", pl, x, e) + f" | S {l['centre']} → {ch} {X} {pl} {y:.4f} on the line S {l['centre']} → {h} {l['value']:.4f} {tf(l)}", score=e['score']))
                 elif kinds.get(h) == 'body' and nat(ch, h) is not None:
                     for st in noted_stars:
                         if nat(ch, st) is None:
@@ -362,7 +381,7 @@ def read(path):
                             x = dist(nat(ch, st), nat(ch, h), pl)
                             e = best(x, pl)
                             if e and e['family'] == 'conj' and e['score'] >= CELL_MIN:
-                                flags['hub landing'].append(dict(runner=R, text=f"hub body {ch} {h} conj {ch} {st} {pl} {x:.4f} ({e['score']:.2f})", score=e['score']))
+                                flags['hub landing'].append(dict(runner=R, text=cell(f"hub body {ch} {h} → {ch} {st}", pl, x, e), score=e['score']))
             # a centre's conj star landing with the centre on the same natal body
             for l in conj_pts:
                 st, c = l['point'], l['centre']
@@ -375,7 +394,7 @@ def read(path):
                             e1, e2 = best(x, pl), best(y, pl)
                             if e1 and e2 and e1['score'] >= CELL_MIN and e2['score'] >= CELL_MIN:
                                 flags['centre conj star landing with the centre'].append(
-                                    dict(runner=R, text=f"{ch} {st} conj {ch} {X} {pl} {x:.4f} ({e1['score']:.2f}) + S {c} conj {ch} {X} {y:.4f} ({e2['score']:.2f})", score=min(e1['score'], e2['score'])))
+                                    dict(runner=R, text=cell(f"{ch} {st} → {ch} {X}", pl, x, e1) + ' | ' + cell(f"S {c} → {ch} {X}", pl, y, e2), score=min(e1['score'], e2['score'])))
             # top-line number on natal Jupiter
             if top:
                 for k, v in P.items():
@@ -385,7 +404,7 @@ def read(path):
                         x = dist(v, J, pl)
                         e = best(x, pl)
                         if e and e['score'] >= CELL_MIN and e['target'] == top['target'] and e['family'] == top['family']:
-                            flags['top-line number on natal Jupiter'].append(dict(runner=R, text=f"{'S' if k[0] == 'SKY' else ch} {k[2]} → {ch} Jupiter {pl} {x:.4f} {e['target']} ({e['score']:.2f})", score=e['score']))
+                            flags['top-line number on natal Jupiter'].append(dict(runner=R, text=cell(f"{'S' if k[0] == 'SKY' else ch} {k[2]} → {ch} Jupiter", pl, x, e) + f" | top line S {top['centre']} → {top['point']} {top['plane']} {top['value']:.4f} {tf(top)}", score=e['score']))
         # N and N×φ on one Jupiter
         for ch in 'HJ':
             J = nat(ch, 'Jupiter')
@@ -397,14 +416,14 @@ def read(path):
                     x = dist(v, J, pl)
                     e = best(x, pl)
                     if e and e['score'] >= CELL_MIN:
-                        lab = f"{'S' if k[0] == 'SKY' else ch} {k[2]} {pl} {x:.4f} {e['target']} ({e['score']:.2f})"
+                        lab = cell(f"{'S' if k[0] == 'SKY' else ch} {k[2]} → {ch} Jupiter", pl, x, e)
                         if e['family'] == 'whole':
                             ws[e['target']].append(lab)
                         g = golden_mult(e['target'])
                         if g:
                             gs[str(g)].append(lab)
             for n in sorted(set(ws) & set(gs), key=int):
-                flags['N and N×φ on one Jupiter'].append(dict(runner=R, text=f"{ch} Jupiter: {n}: {ws[n][0]} | {n}×φ: {gs[n][0]}", score=None))
+                flags['N and N×φ on one Jupiter'].append(dict(runner=R, text=f"{ws[n][0]} | {gs[n][0]}", score=None))
 
     # cross-chart: same source on the same body on both charts, same number on the same body on both charts
     for R in runners:
@@ -414,26 +433,33 @@ def read(path):
             H = [p for p in mine if p['body'] == b and p['chart'] == 'H']
             Jc = [p for p in mine if p['body'] == b and p['chart'] == 'J']
             for s in sorted({src(p) for p in H} & {src(p) for p in Jc}):
-                flags['same source on the same body, both charts'].append(dict(runner=R, text=f"{b}: {s}", score=None))
+                cs = [p for p in H + Jc if src(p) == s]
+                flags['same source on the same body, both charts'].append(dict(runner=R, text=' | '.join(fmt_cell(p) for p in cs), score=None))
             for f, t in sorted({(p['family'], p['target']) for p in H if p['family'] != 'conj'} & {(p['family'], p['target']) for p in Jc if p['family'] != 'conj'}):
-                flags['same number on the same body, both charts'].append(dict(runner=R, text=f"{b}: {t} ({f})", score=None))
+                cs = [p for p in H + Jc if (p['family'], p['target']) == (f, t)]
+                flags['same number on the same body, both charts'].append(dict(runner=R, text=' | '.join(fmt_cell(p) for p in cs), score=None))
         for p in mine:
             if p['layer'] == 'star rows' and p['family'] != 'conj' and p['sky_number']:
-                flags['line star carries a sky number'].append(dict(runner=R, text=f"{p['source']} → {p['chart']} {p['body']} {p['plane']} {p['value']} {p['target']} ({p['score']}) = {p['sky_number']}", score=p['score']))
+                flags['line star carries a sky number'].append(dict(runner=R, text=fmt_cell(p) + f" = {p['sky_number']}", score=p['score']))
 
     # threads (Part 2F): >= 4 cells on one body, both charts, >= 2 layers
     threads = defaultdict(list)
     for R in runners:
         mine = [p for p in pieces if p['runner'] == R and (p['score'] or 0) >= CELL_MIN or (p['runner'] == R and p['layer'] == 'same body')]
-        byb = defaultdict(list)
-        for p in mine:
-            byb[p['body']].append(p)
+        byb, seen = defaultdict(list), set()
+        for p in mine:   # a cell found by two layers (e.g. S Sun → H Sun: same body and top row) counts once
+            k = (p['source'], p['chart'], p['body'], p['plane'])
+            if k not in seen:
+                seen.add(k)
+                byb[p['body']].append(p)
         for b, v in byb.items():
             ch = {p['chart'] for p in v}
             lay = {p['layer'] if p['layer'] not in ('T1', 'T2') else 'T1/T2' for p in v}
             if len(v) >= 4 and ch == {'H', 'J'} and len(lay) >= 2:
                 threads[R].append(dict(body=b, cells=len(v), H=sum(p['chart'] == 'H' for p in v),
-                                       J=sum(p['chart'] == 'J' for p in v), layers=sorted(lay)))
+                                       J=sum(p['chart'] == 'J' for p in v), layers=sorted(lay),
+                                       detail=[f"{p['layer']}: {fmt_piece(p)}" for p in
+                                               sorted(v, key=lambda p: (LAYERS.index(p['layer']), p['chart'], -(p['score'] or 0)))]))
         threads[R].sort(key=lambda t: -t['cells'])
 
     # field counts per flag
@@ -447,9 +473,19 @@ def read(path):
 
 
 # ---------------------------------------------------------------- report
+LAYERS = ['same body', 'T1', 'T2', 'top rows', 'star rows']
+
+
+def fmt_cell(p):
+    """source → chart body, plane, value, target, family, score."""
+    s = f"{p['source']} → {p['chart']} {p['body']} {p['plane']} {p['value']:.4f} "
+    if p['family'] == 'conj':
+        return s + f"conj ({p['score']:.2f})"
+    return s + f"{p['target']} {p['family']}" + (f" ({p['score']:.2f})" if p['score'] is not None else ' (loose)')
+
+
 def fmt_piece(p):
-    s = f"{p['source']} → {p['chart']} {p['body']} {p['plane']} {p['value']:.4f} {p['target']}"
-    s += f" ({p['score']:.2f})" if p['score'] is not None else ' (loose)'
+    s = fmt_cell(p)
     if p['circle']:
         s += f" [{p['circle']}]"
     if p['sky_number']:
@@ -471,7 +507,7 @@ def report(D):
     for c in CENTRES:
         w(f'### Sky {c}')
         for l in sorted([l for l in D['lines'] if l['centre'] == c], key=lambda l: -l['score']):
-            w(f"- {l['point']} {l['plane']} {l['value']:.6f} {l['target']} ({l['family']}) ({l['score']:.2f}) {l['arrow'] or ''} — {l['timing']}"
+            w(f"- {l['point']} {l['plane']} {l['value']:.6f} {tf(l)} {l['arrow'] or ''} — {l['timing']}"
               + (f" [{circle(l['target'], l['family'])}]" if circle(l['target'], l['family']) else ''))
     w(f"- **Hubs** (a point two centres reach): {', '.join(f'{h} ({' + '.join(D['star_centre'].get(h, []) or sorted({l['centre'] for l in D['lines'] if l['point'] == h}))})' for h in D['hubs']) or 'none'}")
     t = D['top']
@@ -497,7 +533,7 @@ def report(D):
                 if not ms:
                     w('- no MATCH rows for the noted sky cells')
                 for m in ms:
-                    w(f"- {m['chart']} {m['kind']}: S {m['centre']} → {m['point']} {m['plane']} {m['sky_value']} | {m['t24_row']} {m['body']} {m['t24_plane']} {m['value']} {m['target']} ({m['score']})")
+                    w(f"- {m['chart']} {m['kind']}: S {m['centre']} → {m['point']} {m['plane']} {m['sky_value']} | {m['t24_row']} {m['body']} {m['t24_plane']} {m['value']} {m['target']} {m['family']} ({m['score']})")
                 continue
             ps = [p for p in mine if p['layer'] == lay]
             if lay == 'star rows':
@@ -514,25 +550,29 @@ def report(D):
                 continue
             if not ps:
                 w('- none')
-            for p in sorted(ps, key=lambda p: (p['chart'], -(p['score'] or 0))):
+            if lay == 'top rows':   # Jupiter, Sun, Moon, then S body → natal Jupiter; horse, jockey; score
+                order = lambda p: ((CENTRES.index(p['source'][2:]) if p['source'][2:] in CENTRES else 3), p['chart'], -(p['score'] or 0))
+            else:
+                order = lambda p: (p['chart'], -(p['score'] or 0))
+            for p in sorted(ps, key=order):
                 w(f"- {fmt_piece(p)}")
-        w('### Organised')
-        byb = defaultdict(list)
-        for p in mine:
-            byb[p['body']].append(p)
-        w('- **By body** (3 or more cells): ' + '; '.join(f"{b} {len(v)} ({''.join(sorted({p['chart'] for p in v}))})" for b, v in sorted(byb.items(), key=lambda kv: -len(kv[1])) if len(v) >= 3))
-        byn = defaultdict(list)
-        for p in mine:
-            if p['family'] != 'conj' and p['target']:
-                byn[(p['family'], p['target'])].append(p)
-        rep = [(k, v) for k, v in byn.items() if len({p['layer'] for p in v}) >= 2 or (len(v) >= 2 and len({p['chart'] for p in v}) == 2)]
-        w('- **By number** (across layers or charts): ' + ('; '.join(f"{k[1]} ({k[0]}) ×{len(v)}" + (' =SKY' if v[0]['sky_number'] else '') for k, v in sorted(rep, key=lambda kv: -len(kv[1]))) or 'none'))
-        fam = Counter(p['family'] for p in mine if (p['score'] or 0) >= CELL_MIN)
-        w('- **By family** (cells >= 50): ' + ', '.join(f"{f} {n}" for f, n in fam.most_common()))
         th = D['threads'].get(R, [])
-        w('- **Threads** (>= 4 cells on one body, both charts, >= 2 layers): ' + ('; '.join(f"{t['body']} {t['cells']} (H {t['H']}, J {t['J']}; {', '.join(t['layers'])})" for t in th) or 'none'))
+        w('### Threads (4 or more cells on one body, both charts, 2 or more layers)')
+        if not th:
+            w('- none')
+        for t in th:
+            w(f"- **{t['body']}**: {t['cells']} cells (H {t['H']}, J {t['J']}; {', '.join(t['layers'])})")
+            for d in t['detail']:
+                w(f"  - {d}")
         mf = sorted(k for k, v in D['flag_holders'].items() if R in v)
-        w('- **Flags held**: ' + ('; '.join(f"{k}{' (only)' if len(D['flag_holders'][k]) == 1 else ''}" for k in mf) or 'none'))
+        w('### Flags held')
+        if not mf:
+            w('- none')
+        for k in mf:
+            n = len(D['flag_holders'][k])
+            w(f"- **{k}** ({'only this runner' if n == 1 else f'{n} of {len(D["runners"])} runners'})")
+            for x in sorted([x for x in D['flags'][k] if x['runner'] == R], key=lambda x: -(x['score'] or 0)):
+                w(f"  - {x['text']}")
         w('')
     return '\n'.join(out)
 

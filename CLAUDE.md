@@ -144,7 +144,10 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   or any centre conj; star rows: every scoring cell). Reads the tables workbook only, never the csv. Outputs for the 15 Jan-Mar 2022 races in
   docs/eddie_read/. Tests `python3 tests/eddie_read_check.py` (Eddie's hand-read cells in Haydock 19 Feb, Leicester 17 Feb, Newcastle 11 Mar
   2022; every value from POSITIONS; every field flag). Stage 2 (narrower, rule settings file) and stage 3 (back-test, separate results file)
-  come later.
+  come later. Layout revised (Eddie, 7 Nov 2026): by body / number / family removed; each thread listed with all its cells (a cell found by
+  two layers counts once); flags held listed with their cells; T24 top rows = S Jupiter / Sun / Moon -> natal body, then S body -> natal
+  Jupiter (bodies only), order Jupiter, Sun, Moon, horse then jockey, score; S star -> natal Jupiter moved under its star in the star rows;
+  every cell (sky notes, MATCH, flags) written 'value target family (score)'. Tests 5602/5602; independent checker 0 mismatches.
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
 - On the Mac: see `docs/MAC_SETUP.md` (venv with Python 3.12+, `pip install openpyxl`). Scripts call `python3.12`; inside the venv
