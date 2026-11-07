@@ -7,7 +7,8 @@ How to read every race. It follows the order Eddie used when he showed his reads
 2. Copy Eddie's two uploads into `reference/classic/` as `race_batch_<yyyymmdd>_<course>_<hhmm>_jupiter_tables.xlsx` and `..._active.xlsx`.
 3. Run `python3 tools/eddie_read.py reference/classic/race_batch_<...>_jupiter_tables.xlsx --out docs/eddie_read` (stage 1), then
    `python3 tools/eddie_layers.py docs/eddie_read/race_batch_<...>_eddie_read.json` (stage 2: L0 field check, same bodies, what lands
-   on each same body, the seven cases, every item field-tagged). Send Eddie both `.md` files. Part 1 and Part 2 below are read from
+   on each same body with each source's sky lines, plain matches, every natal body with every cell on it, every item field-tagged;
+   data only, no interpretation). Send Eddie both `.md` files. Part 1 and Part 2 below are read from
    these two reports; nothing is judged by hand before Part 3. If L0 shows a runner missing from the tables workbook, say so first.
 4. Never open any `.csv`. Don't look results up.
 
