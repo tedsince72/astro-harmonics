@@ -38,4 +38,19 @@ Seven runners (cloth 4 missing): 1 Fire Flyer / Richie McLernon, 2 Lynx De Thaix
 Independent checker (7 Nov, own code from POSITIONS): every cell confirmed; two corrections applied (S Jupiter → J Jupiter 29.0490 and S Vesta → J Vesta 18.7910 have no score), and 133.333 on a natal Jupiter is also held by Motazzen and The Bellhop.
 
 ## Result
-(to be added when Eddie sends it)
+Pasted by Eddie (7 Nov). Off 14:35:29, 8 ran.
+1 Fire Flyer / Richie McLernon 40/1; 2 Motazzen / Paul O'Brien 11/2 (5½); 3 Lynx De Thaix / Gavin Sheehan 11/4 (nk); 4 So You Know / Tom Bellamy 5/2F (1); 5 The Bellhop / Freddie Mitchell 11/2 (nse); 6 Paso Doble / Paddy Hanlon 8/1 (12); 7 Donnie Azoff / Isabelle Ryder 12/1 (28); 8 He's A Latchico / Caoilin Quinn 12/1 (1).
+Note: Paso Doble (cloth 4) ran but is not in the workbook (7 runners read of 8).
+
+Blind pick So You Know: 4th. Miss. Second pick Motazzen 2nd. I read the winner only in the scan and did not write it up.
+
+### What Fire Flyer had (same body first; field from the report's star-row conj list)
+- **Same body:** S Saturn → J Saturn RA 122.9257 φ^10 (79.64); S Orcus → J Orcus RA 34.0160 34 (4.01); S Mars → H Mars Dec 37.9815 38 (0.58); loose: H Rahu / Ketu RA 161.6637 ~ 100×φ and J Jupiter RA 161.6366 ~ 100×φ (the same number on H Ketu and J Jupiter); H Neptune RA 14.4595 and J Sun RA 14.4271 ~ 14.4444 (the same number on both charts); J Chiron Dec 7.0248 ~ 7 (= the hub, S Moon → Zubenelgenubi 7); J Makemake RA 35.9707 ~ 36 [360/10]; J Gonggong Dec 11.1004 ~ 11.1111; H Transpluto Dec 1.4129 ~ 1.414; H Juno Dec 18.9787 ~ 19; H Mercury RA 166.4606 ~ 166.667.
+- **Ketu — line stars sitting on the same body on both charts, from two centres:** H Deneb conj H Ketu RA 0.1096 (85.92) (Deneb = S Sun → Deneb 89 (87.17)); J Rigel conj J Ketu Dec 0.0102 (93.31) (Rigel = S Moon → Rigel 10×φ^5 (96.10)); J Deneb → J Ketu RA 110.9248 10×φ^5 (91.85) = the Moon's Rigel number; Ketu is also S Jupiter's conj point (RA 1.4603, 0.07) and a same body (H, loose 100×φ). The only runner with a natal line-star conj on the same body in both charts.
+- **Jupiter and both its stars, the same numbers on H Gonggong and J Juno:** S Jupiter → J Juno Dec 26.0003 26 (97.32) and S Jupiter → H Gonggong Dec 26.0009 26 (91.57); J Galactic Centre → J Juno Dec 17.0002 17 (98.41) and H Galactic Centre → H Gonggong Dec 16.9992 17 (91.98); J Capella → J Juno RA 177.7605 177.778 (98.65), H Capella → H Gonggong Dec 58.0046 58 (59.22). Same body J Gonggong (loose), H Juno (loose).
+- **The Sun's strong star Difda:** H Difda → H Transpluto Dec 29.1247 18×φ (99.17) (same body H Transpluto, loose); H Difda → H Makemake RA 176.3647 109×φ (93.98) (same body J Makemake, loose); J Difda → J Neptune RA 96.9977 97 (78.10), with S Sun → H Neptune RA 126.2072 78×φ (96.41) and H Galactic Centre → H Neptune Dec 22.6507 14×φ (89.51) (same body H Neptune, loose).
+- **The Moon's stars:** H Pleiades conj H Sedna RA 0.0291 (96.16); J Rigel conj J Ceres Dec 0.0289 (81.63); J Vindemiatrix conj J Pallas RA 0.2811 (66.04) (same body J Pallas, loose 10×φ^6); top-line number H Scheat → H Haumea RA 133.3764 133.333 (94.83); J Sadalsuud (top-line star) → J Transpluto Dec 19.9966 20 (68.64) = the Moon's Vindemiatrix 20.
+- Five natal bodies sit on line stars (Ketu twice, Sedna, Ceres, Pallas), the most of any runner; every one of them is a same body or carries a sky number.
+
+### What I did wrong
+- Fire Flyer's Ketu, Gonggong / Juno and Difda pieces were all in my scan output; I wrote up only the runners whose Jupiters were reached and left the winner out of the write-up.
