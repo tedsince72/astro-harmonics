@@ -1,0 +1,140 @@
+{
+ "race": "20220223_doncaster_1600",
+ "workbook": "race_batch_20220223_doncaster_1600_jupiter_tables.xlsx",
+ "runners": [
+  "P01",
+  "P03",
+  "P05",
+  "P07",
+  "P09",
+  "P11"
+ ],
+ "names": {
+  "P01": "1 Boss Man Fred / Harry Skelton",
+  "P03": "2 Mister Watson / Kielan Woods",
+  "P05": "3 Gredin / Brian Hughes",
+  "P07": "4 Mr Washington / Jordan Nailor",
+  "P09": "5 Half Track / Sean Quinlan",
+  "P11": "6 Silva Eclipse / Thomas Willmott"
+ },
+ "rules": [
+  {
+   "id": "R25",
+   "name": "Pallas reached twice",
+   "selected": [
+    "P01"
+   ],
+   "cells": {
+    "P01": [
+     "J Pallas: S Jupiter [Dec 0.0151 conj conj 90.17] | J Jupiter [Dec 30.7412 19×φ golden 91.27]"
+    ]
+   }
+  },
+  {
+   "id": "R28",
+   "name": "Chiron to Jupiter, lit by Sun / Moon",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R1b",
+   "name": "Moon to X, sky X to Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R7",
+   "name": "Line star on own Jupiter and on one body both charts",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R26",
+   "name": "Royal line star on own Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R40",
+   "name": "Node axis",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R42",
+   "name": "Moon on a same body",
+   "selected": [
+    "P01",
+    "P07"
+   ],
+   "cells": {
+    "P01": [
+     "S Transpluto → H Transpluto RA 3.0172 3 whole (+0.0172) | S Moon → H Transpluto [Dec 33.0003 33 whole 97.45]"
+    ],
+    "P07": [
+     "S Saturn → H Saturn RA 102.9849 103 whole (-0.0151) | S Moon → H Saturn [RA 21.0336 13×φ golden 94.82]"
+    ]
+   }
+  },
+  {
+   "id": "R1",
+   "name": "Sun / Moon on one body both charts, sky X to Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B1",
+   "name": "Natal body on a strong line star (filter)",
+   "selected": [
+    "P01"
+   ],
+   "cells": {
+    "P01": [
+     "J Alhena → J Jupiter RA 0.0083 conj (98.89)"
+    ]
+   }
+  },
+  {
+   "id": "B2",
+   "name": "Top natal body on a strong line star",
+   "selected": [
+    "P01"
+   ],
+   "cells": {
+    "P01": [
+     "J Alhena → J Jupiter RA 0.0083 conj (98.89) (top score in the field)"
+    ]
+   }
+  },
+  {
+   "id": "B3",
+   "name": "Version 4",
+   "selected": [
+    "P01"
+   ],
+   "cells": {
+    "P01": [
+     "step 2: J Alhena → J Jupiter RA 0.0083 conj (98.89) (top score in the field)"
+    ]
+   }
+  },
+  {
+   "id": "B4",
+   "name": "Same body, clear lead",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B5",
+   "name": "Same body in both planes",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B6",
+   "name": "Same body on both charts",
+   "selected": [],
+   "cells": {}
+  }
+ ]
+}

@@ -1,0 +1,159 @@
+{
+ "race": "20261106_aintree_1500",
+ "workbook": "race_batch_20261106_aintree_1500_jupiter_tables.xlsx",
+ "runners": [
+  "P01",
+  "P03",
+  "P05",
+  "P07",
+  "P09",
+  "P11"
+ ],
+ "names": {
+  "P01": "1 JPR One / Jonjo O'Neill Jr",
+  "P03": "2 Mirabad / Harry Skelton",
+  "P05": "3 Rubaud / Sam Twiston-Davies",
+  "P07": "4 Stencil / Harry Cobden",
+  "P09": "5 Brookie / Ben Godfrey",
+  "P11": "6 Daytime Dreaming / Jack Andrews"
+ },
+ "rules": [
+  {
+   "id": "R25",
+   "name": "Pallas reached twice",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R28",
+   "name": "Chiron to Jupiter, lit by Sun / Moon",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R1b",
+   "name": "Moon to X, sky X to Jupiter",
+   "selected": [
+    "P01",
+    "P03",
+    "P11"
+   ],
+   "cells": {
+    "P01": [
+     "S Moon → H Ceres [RA 122.9703 76×φ golden 98.52] + S Ceres → H Jupiter [RA 77.9990 78 whole 90.20]"
+    ],
+    "P03": [
+     "S Moon → J Gonggong [RA 139.1585 86×φ golden 58.69] + S Gonggong → J Jupiter [RA 122.2679 122.222 ninth 93.67]"
+    ],
+    "P11": [
+     "S Moon → J Quaoar [RA 55.9998 56 whole 98.44] + S Quaoar → J Jupiter [RA 101.9947 102 whole 54.33]"
+    ]
+   }
+  },
+  {
+   "id": "R7",
+   "name": "Line star on own Jupiter and on one body both charts",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R26",
+   "name": "Royal line star on own Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R40",
+   "name": "Node axis",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R42",
+   "name": "Moon on a same body",
+   "selected": [
+    "P01",
+    "P09"
+   ],
+   "cells": {
+    "P01": [
+     "S Gonggong → J Gonggong RA 5.9846 6 whole (-0.0154) | S Moon → J Gonggong [RA 141.4050 141.4 sqrt2 95.43]"
+    ],
+    "P09": [
+     "S Chiron → H Chiron RA 28.9575 φ^7 phi power (-0.0769) | S Moon → H Chiron [RA 166.6947 166.667 ninth 97.60]",
+     "S Rahu → J Rahu RA 155.0929 155.556 ninth (-0.4627) | S Moon → J Rahu [Dec 29.0003 29 whole 96.54]"
+    ]
+   }
+  },
+  {
+   "id": "R1",
+   "name": "Sun / Moon on one body both charts, sky X to Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B1",
+   "name": "Natal body on a strong line star (filter)",
+   "selected": [
+    "P01"
+   ],
+   "cells": {
+    "P01": [
+     "H Rigel → H Mars RA 0.0079 conj (98.96)"
+    ]
+   }
+  },
+  {
+   "id": "B2",
+   "name": "Top natal body on a strong line star",
+   "selected": [
+    "P01"
+   ],
+   "cells": {
+    "P01": [
+     "H Rigel → H Mars RA 0.0079 conj (98.96) (top score in the field)"
+    ]
+   }
+  },
+  {
+   "id": "B3",
+   "name": "Version 4",
+   "selected": [
+    "P01"
+   ],
+   "cells": {
+    "P01": [
+     "step 2: H Rigel → H Mars RA 0.0079 conj (98.96) (top score in the field)"
+    ]
+   }
+  },
+  {
+   "id": "B4",
+   "name": "Same body, clear lead",
+   "selected": [
+    "P01"
+   ],
+   "cells": {
+    "P01": [
+     "4 same-body cells >= 50, next 2 (6 Daytime Dreaming / Jack Andrews), lead 2",
+     "S Haumea → H Haumea RA 9.0022 9 whole (78.95)",
+     "S Jupiter → J Jupiter Dec 26.9996 27 whole (95.87)",
+     "S Uranus → J Uranus RA 110.9407 10×φ^5 phi power (86.43)",
+     "S Neptune → J Neptune RA 59.9978 60 whole (79.05)"
+    ]
+   }
+  },
+  {
+   "id": "B5",
+   "name": "Same body in both planes",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B6",
+   "name": "Same body on both charts",
+   "selected": [],
+   "cells": {}
+  }
+ ]
+}

@@ -1,0 +1,173 @@
+{
+ "race": "20220219_haydock_1405",
+ "workbook": "race_batch_20220219_haydock_1405_jupiter_tables.xlsx",
+ "runners": [
+  "P01",
+  "P03",
+  "P05",
+  "P07",
+  "P09",
+  "P11"
+ ],
+ "names": {
+  "P01": "1 Third Wind / Tom O'Brien",
+  "P03": "2 Thomas Darby / Aidan Coleman",
+  "P05": "3 Emitom / Brian Hughes",
+  "P07": "4 Top Ville Ben / Thomas Dowson",
+  "P09": "5 Wholestone / Sam Twiston-Davies",
+  "P11": "6 Molly Ollys Wishes / Harry Skelton"
+ },
+ "rules": [
+  {
+   "id": "R25",
+   "name": "Pallas reached twice",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R28",
+   "name": "Chiron to Jupiter, lit by Sun / Moon",
+   "selected": [
+    "P03",
+    "P09"
+   ],
+   "cells": {
+    "P03": [
+     "S Sun → S Chiron [Dec 16.9918 17 whole 35.05] ++ S Chiron → H Jupiter [Dec 15.5562 15.5556 ninth 99.41]"
+    ],
+    "P09": [
+     "S Sun → S Chiron [Dec 16.9918 17 whole 35.05] ++ S Chiron → H Jupiter [Dec 0.0486 conj conj 70.20]"
+    ]
+   }
+  },
+  {
+   "id": "R1b",
+   "name": "Moon to X, sky X to Jupiter",
+   "selected": [
+    "P07"
+   ],
+   "cells": {
+    "P07": [
+     "S Moon → J Transpluto [RA 40.0056 40 whole 51.99] + S Transpluto → J Jupiter [RA 122.2193 122.222 ninth 99.59]"
+    ]
+   }
+  },
+  {
+   "id": "R7",
+   "name": "Line star on own Jupiter and on one body both charts",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R26",
+   "name": "Royal line star on own Jupiter",
+   "selected": [
+    "P03"
+   ],
+   "cells": {
+    "P03": [
+     "H Fomalhaut → H Jupiter [RA 82.5189 51×φ golden 95.13]; line: S Jupiter → S Fomalhaut [RA 1.2982 conj conj 1.81]",
+     "J Fomalhaut → J Jupiter [RA 77.7733 77.7778 ninth 96.52]; line: S Jupiter → S Fomalhaut [RA 1.2982 conj conj 1.81]"
+    ]
+   }
+  },
+  {
+   "id": "R40",
+   "name": "Node axis",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R42",
+   "name": "Moon on a same body",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R1",
+   "name": "Sun / Moon on one body both charts, sky X to Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B1",
+   "name": "Natal body on a strong line star (filter)",
+   "selected": [
+    "P01",
+    "P03",
+    "P05",
+    "P09",
+    "P11"
+   ],
+   "cells": {
+    "P01": [
+     "H Diadem → H Mercury Dec 0.0375 conj (76.57)",
+     "H Regulus → H Transpluto RA 0.3722 conj (56.54)"
+    ],
+    "P03": [
+     "H Regulus → H Transpluto RA 0.3925 conj (54.52)",
+     "J Diadem → J Chiron Dec 0.0135 conj (91.17)"
+    ],
+    "P05": [
+     "H Regulus → H Transpluto RA 0.3887 conj (54.89)"
+    ],
+    "P09": [
+     "H Meissa → H Mercury Dec 0.0509 conj (68.94)",
+     "H Regulus → H Transpluto Dec 0.0378 conj (76.41)"
+    ],
+    "P11": [
+     "H Regulus → H Transpluto RA 0.1318 conj (83.19)",
+     "H Vindemiatrix → H Ketu Dec 0.0728 conj (57.36)"
+    ]
+   }
+  },
+  {
+   "id": "B2",
+   "name": "Top natal body on a strong line star",
+   "selected": [
+    "P03"
+   ],
+   "cells": {
+    "P03": [
+     "J Diadem → J Chiron Dec 0.0135 conj (91.17) (top score in the field)"
+    ]
+   }
+  },
+  {
+   "id": "B3",
+   "name": "Version 4",
+   "selected": [
+    "P03"
+   ],
+   "cells": {
+    "P03": [
+     "step 2: J Diadem → J Chiron Dec 0.0135 conj (91.17) (top score in the field)"
+    ]
+   }
+  },
+  {
+   "id": "B4",
+   "name": "Same body, clear lead",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B5",
+   "name": "Same body in both planes",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B6",
+   "name": "Same body on both charts",
+   "selected": [
+    "P11"
+   ],
+   "cells": {
+    "P11": [
+     "Mercury: S Mercury → H Mercury RA 26.1897 10×φ^2 phi power (86.14) | S Mercury → J Mercury RA 122.2566 122.222 ninth (95.24)"
+    ]
+   }
+  }
+ ]
+}

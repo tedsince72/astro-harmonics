@@ -1,0 +1,191 @@
+{
+ "race": "20261106_aintree_1350",
+ "workbook": "race_batch_20261106_aintree_1350_jupiter_tables.xlsx",
+ "runners": [
+  "P01",
+  "P03",
+  "P05",
+  "P07",
+  "P09",
+  "P11",
+  "P13"
+ ],
+ "names": {
+  "P01": "1 Dedicated Hero / Sam Twiston-Davies",
+  "P03": "2 Bucephalus / Harriet Tucker",
+  "P05": "3 Manuelito / Harry Cobden",
+  "P07": "4 All In You / Sean Bowen",
+  "P09": "5 Lyssenko / Harry Skelton",
+  "P11": "6 Star Of Guiting / Craig Nichol",
+  "P13": "7 King Ulanda / Jack Tudor"
+ },
+ "rules": [
+  {
+   "id": "R25",
+   "name": "Pallas reached twice",
+   "selected": [
+    "P09"
+   ],
+   "cells": {
+    "P09": [
+     "J Pallas: S Moon [RA 174.7430 108×φ golden 73.47] | J Jupiter [Dec 30.7412 19×φ golden 91.27]"
+    ]
+   }
+  },
+  {
+   "id": "R28",
+   "name": "Chiron to Jupiter, lit by Sun / Moon",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R1b",
+   "name": "Moon to X, sky X to Jupiter",
+   "selected": [
+    "P03"
+   ],
+   "cells": {
+    "P03": [
+     "S Moon → J Eris [RA 166.6202 166.667 ninth 96.02] + S Eris → J Jupiter [RA 122.9129 φ^10 phi power 75.98]"
+    ]
+   }
+  },
+  {
+   "id": "R7",
+   "name": "Line star on own Jupiter and on one body both charts",
+   "selected": [
+    "P11"
+   ],
+   "cells": {
+    "P11": [
+     "J Galactic Centre (Jupiter) → J Jupiter [Dec 14.0054 14 whole 53.02]; on both charts' Galactic Centre: Sun"
+    ]
+   }
+  },
+  {
+   "id": "R26",
+   "name": "Royal line star on own Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R40",
+   "name": "Node axis",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R42",
+   "name": "Moon on a same body",
+   "selected": [
+    "P01",
+    "P09",
+    "P13"
+   ],
+   "cells": {
+    "P01": [
+     "S Mars → H Mars RA 80.8957 50×φ golden (-0.0060); Dec 5.9884 6 whole (-0.0116) | S Moon → H Mars [RA 126.2081 78×φ golden 91.12]"
+    ],
+    "P09": [
+     "S Sun → H Sun Dec 19.0271 19 whole (+0.0271) | S Moon → H Sun [RA 177.7950 177.778 ninth 98.66]"
+    ],
+    "P13": [
+     "S Juno → J Juno RA 161.7187 100×φ^1 phi power (-0.0847) | S Moon → J Juno [RA 46.9736 φ^8 phi power 95.69]"
+    ]
+   }
+  },
+  {
+   "id": "R1",
+   "name": "Sun / Moon on one body both charts, sky X to Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B1",
+   "name": "Natal body on a strong line star (filter)",
+   "selected": [
+    "P05",
+    "P07"
+   ],
+   "cells": {
+    "P05": [
+     "H Altair → H Saturn RA 0.0188 conj (97.52)"
+    ],
+    "P07": [
+     "H Acumen → H Ketu RA 0.3641 conj (57.35)"
+    ]
+   }
+  },
+  {
+   "id": "B2",
+   "name": "Top natal body on a strong line star",
+   "selected": [
+    "P05"
+   ],
+   "cells": {
+    "P05": [
+     "H Altair → H Saturn RA 0.0188 conj (97.52) (top score in the field)"
+    ]
+   }
+  },
+  {
+   "id": "B3",
+   "name": "Version 4",
+   "selected": [
+    "P05"
+   ],
+   "cells": {
+    "P05": [
+     "step 2: H Altair → H Saturn RA 0.0188 conj (97.52) (top score in the field)"
+    ]
+   }
+  },
+  {
+   "id": "B4",
+   "name": "Same body, clear lead",
+   "selected": [
+    "P07"
+   ],
+   "cells": {
+    "P07": [
+     "7 same-body cells >= 50, next 4 (6 Star Of Guiting / Craig Nichol), lead 3",
+     "S Sedna → H Sedna RA 3.9998 4 whole (97.73)",
+     "S Makemake → H Makemake RA 6.1805 10×φ^-1 phi power (99.15)",
+     "S Sun → J Sun RA 57.0038 57 whole (65.46)",
+     "S Sun → J Sun Dec 22.6563 14×φ golden (77.55)",
+     "S Saturn → J Saturn RA 9.9951 10 whole (57.08)",
+     "S Chiron → J Chiron RA 177.0027 177 whole (75.14)",
+     "S Makemake → J Makemake Dec 13.0023 13 whole (78.38)"
+    ]
+   }
+  },
+  {
+   "id": "B5",
+   "name": "Same body in both planes",
+   "selected": [
+    "P07"
+   ],
+   "cells": {
+    "P07": [
+     "J Sun: S Sun → J Sun RA 57.0038 57 whole (65.46) | S Sun → J Sun Dec 22.6563 14×φ golden (77.55)"
+    ]
+   }
+  },
+  {
+   "id": "B6",
+   "name": "Same body on both charts",
+   "selected": [
+    "P01",
+    "P07"
+   ],
+   "cells": {
+    "P01": [
+     "Pallas: S Pallas → H Pallas Dec 37.9950 38 whole (56.58) | S Pallas → J Pallas Dec 27.0007 27 whole (93.16)"
+    ],
+    "P07": [
+     "Makemake: S Makemake → H Makemake RA 6.1805 10×φ^-1 phi power (99.15) | S Makemake → J Makemake Dec 13.0023 13 whole (78.38)"
+    ]
+   }
+  }
+ ]
+}

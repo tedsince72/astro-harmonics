@@ -1,0 +1,150 @@
+{
+ "race": "20220309_fontwell_1440",
+ "workbook": "race_batch_20220309_fontwell_1440_jupiter_tables.xlsx",
+ "runners": [
+  "P01",
+  "P03",
+  "P05",
+  "P07",
+  "P09",
+  "P11",
+  "P13"
+ ],
+ "names": {
+  "P01": "1 Breaking Waves / Jonjo O'Neill Jr",
+  "P03": "2 Royaume Uni / Joshua Moore",
+  "P05": "3 Hell Red / Harry Cobden",
+  "P07": "4 Dreaming Blue / Rex Dingle",
+  "P09": "5 Grangeclare Glory / Tom Scudamore",
+  "P11": "6 Manvers House / James Best",
+  "P13": "7 Island Run / Tom O'Brien"
+ },
+ "rules": [
+  {
+   "id": "R25",
+   "name": "Pallas reached twice",
+   "selected": [
+    "P05"
+   ],
+   "cells": {
+    "P05": [
+     "J Pallas: S Jupiter [RA 0.2598 conj conj 68.36]"
+    ]
+   }
+  },
+  {
+   "id": "R28",
+   "name": "Chiron to Jupiter, lit by Sun / Moon",
+   "selected": [
+    "P11"
+   ],
+   "cells": {
+    "P11": [
+     "S Sun → J Chiron [Dec 18.0040 18 whole 64.09] | S Moon → S Chiron [Dec 16.6620 16.6667 ninth 96.00] ++ S Chiron → H Jupiter [Dec 16.6637 16.6667 ninth 97.47]"
+    ]
+   }
+  },
+  {
+   "id": "R1b",
+   "name": "Moon to X, sky X to Jupiter",
+   "selected": [
+    "P01"
+   ],
+   "cells": {
+    "P01": [
+     "S Moon → H Pallas [Dec 11.0962 φ^5 phi power 79.47] + S Pallas → H Jupiter [Dec 29.9948 30 whole 55.02]"
+    ]
+   }
+  },
+  {
+   "id": "R7",
+   "name": "Line star on own Jupiter and on one body both charts",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R26",
+   "name": "Royal line star on own Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R40",
+   "name": "Node axis",
+   "selected": [
+    "P09"
+   ],
+   "cells": {
+    "P09": [
+     "S Moon conj J Rahu [Dec 0.0521 conj conj 68.26]; J Zosma (Sun) → J Ketu [RA 117.0050 117 whole 56.62]"
+    ]
+   }
+  },
+  {
+   "id": "R42",
+   "name": "Moon on a same body",
+   "selected": [
+    "P11"
+   ],
+   "cells": {
+    "P11": [
+     "S Neptune → J Neptune Dec 17.9621 φ^6 phi power (+0.0178) | S Moon → J Neptune [RA 144.0057 89×φ golden 95.86]"
+    ]
+   }
+  },
+  {
+   "id": "R1",
+   "name": "Sun / Moon on one body both charts, sky X to Jupiter",
+   "selected": [
+    "P01"
+   ],
+   "cells": {
+    "P01": [
+     "S Moon → H Pallas [Dec 11.0962 φ^5 phi power 79.47], → J Pallas [RA 111.1494 111.111 ninth 93.73]; S Pallas → H Jupiter [Dec 29.9948 30 whole 55.02]"
+    ]
+   }
+  },
+  {
+   "id": "B1",
+   "name": "Natal body on a strong line star (filter)",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B2",
+   "name": "Top natal body on a strong line star",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B3",
+   "name": "Version 4",
+   "selected": [
+    "P09"
+   ],
+   "cells": {
+    "P09": [
+     "step 1, hub landing held alone: hub body J Vesta → J Sadalsuud RA 0.3822 conj (55.54)"
+    ]
+   }
+  },
+  {
+   "id": "B4",
+   "name": "Same body, clear lead",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B5",
+   "name": "Same body in both planes",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B6",
+   "name": "Same body on both charts",
+   "selected": [],
+   "cells": {}
+  }
+ ]
+}

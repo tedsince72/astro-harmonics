@@ -158,6 +158,14 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   circle divisions, same number several places / N and N×φ), L4 every natal body with every cell on it; 'only' / 'also' on every
   item. Rules in the docstring. Tests `python3 tests/eddie_layers_check.py` (10207/10207); independent checker 0 mismatches on
   Fontwell 14:35, Aintree 15:00, 13:50 6 Nov 2026 and Haydock 14:05 2022. Rules come beyond stage 2 (stage 3), race by race.
+- Stage 3 rules (7 Nov 2026, Eddie: "create the rules for all of these"): `python3 tools/eddie_rules.py docs/eddie_read/<race>_eddie_read.json`
+  -> docs/eddie_read/rules/<race>_rules.md + .json (per rule the runners selected and their cells; never reads results). Rules in
+  docs/eddie_read/rules.json (text, origin, in_sample races). Set A = register R25, R28, R1b, R7, R26, R40, R42, R1 via tools/race_rows.py
+  rules_register (it now also returns its picks; printing unchanged, checked byte for byte on 20 races); set B = B1-B6 from the stage 1 json.
+  Back-test `python3 tools/eddie_backtest.py` (the only reader of docs/eddie_read/results/results.json) -> docs/eddie_read/backtest/backtest.md:
+  test / in-sample / all races. First run, 20 races: set A on its first out-of-sample races at or under chance (e.g. R25 0 of 7 picks won,
+  1.1 by chance; R7 0 of 18, 3.0; R42 1 of 26, 4.4; R26 3 of 13, 2.1); set B in-sample as recorded (B1 11 of 14, 8.2; version 4 6 of 14,
+  2.4; B4 2 of 6), test races too few (B2 1 of 4, 0.7). Tests `python3 tests/eddie_rules_check.py` (525/525); independent checker 0 mismatches.
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
 - On the Mac: see `docs/MAC_SETUP.md` (venv with Python 3.12+, `pip install openpyxl`). Scripts call `python3.12`; inside the venv

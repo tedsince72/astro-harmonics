@@ -1,0 +1,177 @@
+{
+ "race": "20220224_newcastle_aw_1830",
+ "workbook": "race_batch_20220224_newcastle_aw_1830_jupiter_tables.xlsx",
+ "runners": [
+  "P01",
+  "P03",
+  "P05",
+  "P07",
+  "P09"
+ ],
+ "names": {
+  "P01": "1 James Watt / Ben Robinson",
+  "P03": "2 Alablaq / George Downing",
+  "P05": "3 Gowanlad / Phil Dennis",
+  "P07": "4 Blazing Hot / Hollie Doyle",
+  "P09": "5 Tathmeen / Cam Hardie"
+ },
+ "rules": [
+  {
+   "id": "R25",
+   "name": "Pallas reached twice",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R28",
+   "name": "Chiron to Jupiter, lit by Sun / Moon",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R1b",
+   "name": "Moon to X, sky X to Jupiter",
+   "selected": [
+    "P07"
+   ],
+   "cells": {
+    "P07": [
+     "S Moon → J Sun [Dec 17.7985 11×φ golden 99.18] + S Sun → J Jupiter [RA 56.6369 35×φ golden 67.77]"
+    ]
+   }
+  },
+  {
+   "id": "R7",
+   "name": "Line star on own Jupiter and on one body both charts",
+   "selected": [
+    "P01",
+    "P09"
+   ],
+   "cells": {
+    "P01": [
+     "H Regulus (Moon) → H Jupiter [RA 15.0018 15 whole 82.98]; on both charts' Regulus: Neptune",
+     "H Wezen (Sun) → H Jupiter [RA 59.9992 60 whole 92.30]; on both charts' Wezen: Rahu, Ketu"
+    ],
+    "P09": [
+     "H Denebola (Jupiter) → H Jupiter [Dec 1.7772 1.77778 ninth 95.49]; on both charts' Denebola: Ketu"
+    ]
+   }
+  },
+  {
+   "id": "R26",
+   "name": "Royal line star on own Jupiter",
+   "selected": [
+    "P01",
+    "P05"
+   ],
+   "cells": {
+    "P01": [
+     "H Regulus → H Jupiter [RA 15.0018 15 whole 82.98]; line: S Moon → S Regulus [Dec 37.0140 37 whole 9.13]",
+     "J Fomalhaut → J Jupiter [Dec 17.7718 17.7778 ninth 95.32]; line: S Jupiter → S Fomalhaut [RA 0.1339 conj conj 82.94]"
+    ],
+    "P05": [
+     "J Regulus → J Jupiter [Dec 34.9962 35 whole 65.46]; line: S Moon → S Regulus [Dec 37.0140 37 whole 9.13]"
+    ]
+   }
+  },
+  {
+   "id": "R40",
+   "name": "Node axis",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R42",
+   "name": "Moon on a same body",
+   "selected": [
+    "P03",
+    "P09"
+   ],
+   "cells": {
+    "P03": [
+     "S Chiron → J Chiron RA 124.6122 77×φ golden (+0.0236) | S Moon → J Chiron [RA 122.2716 122.222 ninth 93.16]"
+    ],
+    "P09": [
+     "S Mars → H Mars Dec 16.1479 10×φ^1 phi power (-0.0324) | S Moon → H Mars [Dec 18.8856 18.8889 ninth 97.60]"
+    ]
+   }
+  },
+  {
+   "id": "R1",
+   "name": "Sun / Moon on one body both charts, sky X to Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B1",
+   "name": "Natal body on a strong line star (filter)",
+   "selected": [
+    "P03",
+    "P05",
+    "P09"
+   ],
+   "cells": {
+    "P03": [
+     "H Zubeneschamali → H Jupiter RA 0.2446 conj (70.05)"
+    ],
+    "P05": [
+     "H Zubeneschamali → H Orcus Dec 0.0100 conj (93.44)"
+    ],
+    "P09": [
+     "J Zubeneschamali → J Vesta RA 0.2817 conj (65.97)"
+    ]
+   }
+  },
+  {
+   "id": "B2",
+   "name": "Top natal body on a strong line star",
+   "selected": [
+    "P05"
+   ],
+   "cells": {
+    "P05": [
+     "H Zubeneschamali → H Orcus Dec 0.0100 conj (93.44) (top score in the field)"
+    ]
+   }
+  },
+  {
+   "id": "B3",
+   "name": "Version 4",
+   "selected": [
+    "P05"
+   ],
+   "cells": {
+    "P05": [
+     "step 2: H Zubeneschamali → H Orcus Dec 0.0100 conj (93.44) (top score in the field)"
+    ]
+   }
+  },
+  {
+   "id": "B4",
+   "name": "Same body, clear lead",
+   "selected": [
+    "P07"
+   ],
+   "cells": {
+    "P07": [
+     "3 same-body cells >= 50, next 1 (3 Gowanlad / Phil Dennis), lead 2",
+     "S Uranus → H Uranus Dec 7.0002 7 whole (97.95)",
+     "S Neptune → H Neptune Dec 4.0020 4 whole (80.74)",
+     "S Juno → H Juno Dec 1.4445 1.44444 ninth (99.91)"
+    ]
+   }
+  },
+  {
+   "id": "B5",
+   "name": "Same body in both planes",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B6",
+   "name": "Same body on both charts",
+   "selected": [],
+   "cells": {}
+  }
+ ]
+}

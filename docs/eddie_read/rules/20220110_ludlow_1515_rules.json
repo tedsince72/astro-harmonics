@@ -1,0 +1,163 @@
+{
+ "race": "20220110_ludlow_1515",
+ "workbook": "race_batch_20220110_ludlow_1515_jupiter_tables.xlsx",
+ "runners": [
+  "P01",
+  "P03",
+  "P05",
+  "P07",
+  "P09",
+  "P11",
+  "P13"
+ ],
+ "names": {
+  "P01": "1 Java Point / Jonathan Burke",
+  "P03": "2 Isolate / Liam Harrison",
+  "P05": "3 Une De La Seniere / Paddy Brennan",
+  "P07": "4 Wildfire Warrior / Tom O'Brien",
+  "P09": "5 Jimmy The Digger / Richard Patrick",
+  "P11": "6 Method Madness / Alex Edwards",
+  "P13": "7 Fanamix / Ben Jones"
+ },
+ "rules": [
+  {
+   "id": "R25",
+   "name": "Pallas reached twice",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R28",
+   "name": "Chiron to Jupiter, lit by Sun / Moon",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R1b",
+   "name": "Moon to X, sky X to Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R7",
+   "name": "Line star on own Jupiter and on one body both charts",
+   "selected": [
+    "P05",
+    "P11"
+   ],
+   "cells": {
+    "P05": [
+     "J Ankaa (Moon) → J Jupiter [Dec 42.3690 10×φ^3 phi power 92.31]; on both charts' Ankaa: Orcus"
+    ],
+    "P11": [
+     "J Vindemiatrix (Jupiter) → J Jupiter [RA 102.9966 103 whole 68.93]; on both charts' Vindemiatrix: Pallas"
+    ]
+   }
+  },
+  {
+   "id": "R26",
+   "name": "Royal line star on own Jupiter",
+   "selected": [
+    "P11"
+   ],
+   "cells": {
+    "P11": [
+     "H Fomalhaut → H Jupiter [RA 155.5176 155.556 ninth 96.40]; line: S Jupiter → S Fomalhaut [Dec 18.0125 18 whole 13.98]"
+    ]
+   }
+  },
+  {
+   "id": "R40",
+   "name": "Node axis",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R42",
+   "name": "Moon on a same body",
+   "selected": [
+    "P07",
+    "P13"
+   ],
+   "cells": {
+    "P07": [
+     "S Saturn → J Saturn RA 65.0289 65 whole (+0.0289) | S Moon → J Saturn [Dec 29.0376 φ^7 phi power 95.71]"
+    ],
+    "P13": [
+     "S Chiron → J Chiron RA 122.0170 122 whole (+0.0170) | S Moon → J Chiron [RA 144.4196 144.444 ninth 97.37]"
+    ]
+   }
+  },
+  {
+   "id": "R1",
+   "name": "Sun / Moon on one body both charts, sky X to Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B1",
+   "name": "Natal body on a strong line star (filter)",
+   "selected": [
+    "P11"
+   ],
+   "cells": {
+    "P11": [
+     "H Alphard → H Neptune Dec 0.0318 conj (79.92)"
+    ]
+   }
+  },
+  {
+   "id": "B2",
+   "name": "Top natal body on a strong line star",
+   "selected": [
+    "P11"
+   ],
+   "cells": {
+    "P11": [
+     "H Alphard → H Neptune Dec 0.0318 conj (79.92) (top score in the field)"
+    ]
+   }
+  },
+  {
+   "id": "B3",
+   "name": "Version 4",
+   "selected": [
+    "P11"
+   ],
+   "cells": {
+    "P11": [
+     "step 2: H Alphard → H Neptune Dec 0.0318 conj (79.92) (top score in the field)"
+    ]
+   }
+  },
+  {
+   "id": "B4",
+   "name": "Same body, clear lead",
+   "selected": [
+    "P09"
+   ],
+   "cells": {
+    "P09": [
+     "5 same-body cells >= 50, next 3 (1 Java Point / Jonathan Burke), lead 2",
+     "S Sun → H Sun RA 69.9977 70 whole (78.17)",
+     "S Mercury → H Mercury RA 27.0039 27 whole (65.06)",
+     "S Vesta → H Vesta Dec 44.0053 44 whole (54.14)",
+     "S Makemake → H Makemake RA 7.9944 8 whole (51.91)",
+     "S Gonggong → H Gonggong Dec 1.9994 2 whole (93.83)"
+    ]
+   }
+  },
+  {
+   "id": "B5",
+   "name": "Same body in both planes",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B6",
+   "name": "Same body on both charts",
+   "selected": [],
+   "cells": {}
+  }
+ ]
+}

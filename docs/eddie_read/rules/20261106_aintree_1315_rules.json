@@ -1,0 +1,140 @@
+{
+ "race": "20261106_aintree_1315",
+ "workbook": "race_batch_20261106_aintree_1315_jupiter_tables.xlsx",
+ "runners": [
+  "P01",
+  "P03",
+  "P05",
+  "P07",
+  "P09",
+  "P11"
+ ],
+ "names": {
+  "P01": "1 Off The Jury / Sean Bowen",
+  "P03": "2 Stride On / Derek Fox",
+  "P05": "3 Leader Crik / Dylan Johnston",
+  "P07": "4 Below The Radar / Sam Twiston-Davies",
+  "P09": "6 Barnpark / Harry Skelton",
+  "P11": "7 Dixie Mafia / Jack Tudor"
+ },
+ "rules": [
+  {
+   "id": "R25",
+   "name": "Pallas reached twice",
+   "selected": [
+    "P05",
+    "P09"
+   ],
+   "cells": {
+    "P05": [
+     "J Pallas: S Jupiter [RA 110.9975 111 whole 76.28] | J Jupiter [Dec 14.9986 15 whole 86.86]"
+    ],
+    "P09": [
+     "H Pallas: S Jupiter [Dec 0.0216 conj conj 86.09]"
+    ]
+   }
+  },
+  {
+   "id": "R28",
+   "name": "Chiron to Jupiter, lit by Sun / Moon",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R1b",
+   "name": "Moon to X, sky X to Jupiter",
+   "selected": [
+    "P03"
+   ],
+   "cells": {
+    "P03": [
+     "S Moon → H Juno [RA 0.2206 conj conj 72.75] + S Juno → H Jupiter [RA 5.0015 5 whole 85.28]"
+    ]
+   }
+  },
+  {
+   "id": "R7",
+   "name": "Line star on own Jupiter and on one body both charts",
+   "selected": [
+    "P11"
+   ],
+   "cells": {
+    "P11": [
+     "J Alpheratz (Jupiter,Sun) → J Jupiter [Dec 5.9982 6 whole 82.66]; on both charts' Alpheratz: Ceres"
+    ]
+   }
+  },
+  {
+   "id": "R26",
+   "name": "Royal line star on own Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R40",
+   "name": "Node axis",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R42",
+   "name": "Moon on a same body",
+   "selected": [
+    "P05"
+   ],
+   "cells": {
+    "P05": [
+     "S Neptune → H Neptune RA 11.1545 11.1111 ninth (+0.0434) | S Moon → H Neptune [RA 161.8363 100×φ^1 phi power 92.04]"
+    ]
+   }
+  },
+  {
+   "id": "R1",
+   "name": "Sun / Moon on one body both charts, sky X to Jupiter",
+   "selected": [
+    "P03"
+   ],
+   "cells": {
+    "P03": [
+     "S Moon → H Juno [RA 0.2206 conj conj 72.75], → J Juno [Dec 14.9975 15 whole 76.90]; S Juno → H Jupiter [RA 5.0015 5 whole 85.28]"
+    ]
+   }
+  },
+  {
+   "id": "B1",
+   "name": "Natal body on a strong line star (filter)",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B2",
+   "name": "Top natal body on a strong line star",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B3",
+   "name": "Version 4",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B4",
+   "name": "Same body, clear lead",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B5",
+   "name": "Same body in both planes",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B6",
+   "name": "Same body on both charts",
+   "selected": [],
+   "cells": {}
+  }
+ ]
+}

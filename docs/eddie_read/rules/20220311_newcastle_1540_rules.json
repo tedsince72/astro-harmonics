@@ -1,0 +1,144 @@
+{
+ "race": "20220311_newcastle_1540",
+ "workbook": "race_batch_20220311_newcastle_1540_jupiter_tables.xlsx",
+ "runners": [
+  "P01",
+  "P03",
+  "P05",
+  "P07",
+  "P09",
+  "P11"
+ ],
+ "names": {
+  "P01": "1 Vocaliser / Fergus Gregory",
+  "P03": "2 Edmond Dantes / Brian Hughes",
+  "P05": "3 Peak Time / Conor O'Farrell",
+  "P07": "5 Sir Apollo / Jonathan England",
+  "P09": "6 Thundersockssundae / Kielan Woods",
+  "P11": "7 Black Opium / Stephen Mulqueen"
+ },
+ "rules": [
+  {
+   "id": "R25",
+   "name": "Pallas reached twice",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R28",
+   "name": "Chiron to Jupiter, lit by Sun / Moon",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R1b",
+   "name": "Moon to X, sky X to Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R7",
+   "name": "Line star on own Jupiter and on one body both charts",
+   "selected": [
+    "P01",
+    "P09"
+   ],
+   "cells": {
+    "P01": [
+     "H Acubens (Jupiter) → H Jupiter [Dec 0.0307 conj conj 80.56]; on both charts' Acubens: Rahu"
+    ],
+    "P09": [
+     "J Alphard (Sun) → J Jupiter [RA 39.0003 39 whole 96.80]; on both charts' Alphard: Chiron"
+    ]
+   }
+  },
+  {
+   "id": "R26",
+   "name": "Royal line star on own Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R40",
+   "name": "Node axis",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R42",
+   "name": "Moon on a same body",
+   "selected": [
+    "P03"
+   ],
+   "cells": {
+    "P03": [
+     "S Neptune → H Neptune RA 10.0151 10 whole (+0.0151) | S Moon → H Neptune [RA 111.1319 111.111 ninth 96.61; Dec 34.0009 34 whole 90.88]"
+    ]
+   }
+  },
+  {
+   "id": "R1",
+   "name": "Sun / Moon on one body both charts, sky X to Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B1",
+   "name": "Natal body on a strong line star (filter)",
+   "selected": [
+    "P05",
+    "P09"
+   ],
+   "cells": {
+    "P05": [
+     "J Zubeneschamali → J Eris Dec 0.0002 conj (99.84)"
+    ],
+    "P09": [
+     "H Sadalmelik → H Chiron Dec 0.0679 conj (59.83)"
+    ]
+   }
+  },
+  {
+   "id": "B2",
+   "name": "Top natal body on a strong line star",
+   "selected": [
+    "P05"
+   ],
+   "cells": {
+    "P05": [
+     "J Zubeneschamali → J Eris Dec 0.0002 conj (99.84) (top score in the field)"
+    ]
+   }
+  },
+  {
+   "id": "B3",
+   "name": "Version 4",
+   "selected": [
+    "P05"
+   ],
+   "cells": {
+    "P05": [
+     "step 2: J Zubeneschamali → J Eris Dec 0.0002 conj (99.84) (top score in the field)"
+    ]
+   }
+  },
+  {
+   "id": "B4",
+   "name": "Same body, clear lead",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B5",
+   "name": "Same body in both planes",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B6",
+   "name": "Same body on both charts",
+   "selected": [],
+   "cells": {}
+  }
+ ]
+}

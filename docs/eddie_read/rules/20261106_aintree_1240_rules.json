@@ -1,0 +1,146 @@
+{
+ "race": "20261106_aintree_1240",
+ "workbook": "race_batch_20261106_aintree_1240_jupiter_tables.xlsx",
+ "runners": [
+  "P01",
+  "P03",
+  "P05",
+  "P07"
+ ],
+ "names": {
+  "P01": "1 Watery Borren / Derek Fox",
+  "P03": "2 Aqua Bleu / Sean Bowen",
+  "P05": "3 Avide / Theo Gillard",
+  "P07": "4 Risky Obsession / Harry Skelton"
+ },
+ "rules": [
+  {
+   "id": "R25",
+   "name": "Pallas reached twice",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R28",
+   "name": "Chiron to Jupiter, lit by Sun / Moon",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R1b",
+   "name": "Moon to X, sky X to Jupiter",
+   "selected": [
+    "P05"
+   ],
+   "cells": {
+    "P05": [
+     "S Moon → J Venus [RA 100.3214 62×φ golden 80.41] + S Venus → J Jupiter [Dec 0.0664 conj conj 60.64]"
+    ]
+   }
+  },
+  {
+   "id": "R7",
+   "name": "Line star on own Jupiter and on one body both charts",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R26",
+   "name": "Royal line star on own Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R40",
+   "name": "Node axis",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R42",
+   "name": "Moon on a same body",
+   "selected": [
+    "P01",
+    "P03"
+   ],
+   "cells": {
+    "P01": [
+     "S Quaoar → J Quaoar RA 44.0136 44 whole (+0.0136) | S Moon → J Quaoar [Dec 4.9999 5 whole 98.76]"
+    ],
+    "P03": [
+     "S Mercury → H Mercury RA 161.6129 100×φ^1 phi power (-0.1905) | S Moon → H Mercury [RA 133.3679 133.333 ninth 95.85; Dec 24.1452 24.14 silver 94.99]"
+    ]
+   }
+  },
+  {
+   "id": "R1",
+   "name": "Sun / Moon on one body both charts, sky X to Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B1",
+   "name": "Natal body on a strong line star (filter)",
+   "selected": [
+    "P01",
+    "P03",
+    "P07"
+   ],
+   "cells": {
+    "P01": [
+     "J Alphard → J Eris Dec 0.0718 conj (57.85)",
+     "J Ankaa → J Mars RA 0.0979 conj (87.38)"
+    ],
+    "P03": [
+     "H Alhena → H Uranus Dec 0.0058 conj (96.17)",
+     "J Alphard → J Pluto Dec 0.0065 conj (95.74)"
+    ],
+    "P07": [
+     "J Alhena → J Jupiter RA 0.0083 conj (98.89)"
+    ]
+   }
+  },
+  {
+   "id": "B2",
+   "name": "Top natal body on a strong line star",
+   "selected": [
+    "P07"
+   ],
+   "cells": {
+    "P07": [
+     "J Alhena → J Jupiter RA 0.0083 conj (98.89) (top score in the field)"
+    ]
+   }
+  },
+  {
+   "id": "B3",
+   "name": "Version 4",
+   "selected": [
+    "P07"
+   ],
+   "cells": {
+    "P07": [
+     "step 2: J Alhena → J Jupiter RA 0.0083 conj (98.89) (top score in the field)"
+    ]
+   }
+  },
+  {
+   "id": "B4",
+   "name": "Same body, clear lead",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B5",
+   "name": "Same body in both planes",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B6",
+   "name": "Same body on both charts",
+   "selected": [],
+   "cells": {}
+  }
+ ]
+}

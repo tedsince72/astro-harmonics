@@ -759,6 +759,8 @@ def rules_register(path):
         print(f"\n  {r}" + ('' if out[r] else ': none'))
         for line in out[r][:40]: print('  ' + line)
         if len(out[r]) > 40: print(f"    ... {len(out[r]) - 40} more")
+    return dict(picked={r: sorted(picked[r]) for r in order}, out={r: list(out[r]) for r in order},
+                names=dict(names), runners=list(runners))       # for tools/eddie_rules.py (stage 3); printing unchanged
 
 
 if __name__ == '__main__':

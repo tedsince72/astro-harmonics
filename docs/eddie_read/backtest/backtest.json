@@ -1,0 +1,3699 @@
+{
+ "R25": {
+  "name": "Pallas reached twice",
+  "test": {
+   "races": 20,
+   "fired": 6,
+   "picks": 7,
+   "winners": 0,
+   "top2": 3,
+   "chance_w": 1.138095238095238,
+   "chance_2": 2.4190476190476184,
+   "alone": 0,
+   "missed": 6
+  },
+  "in_sample": {
+   "races": 0,
+   "fired": 0,
+   "picks": 0,
+   "winners": 0,
+   "top2": 0,
+   "chance_w": 0.0,
+   "chance_2": 0.0,
+   "alone": 0,
+   "missed": 0
+  },
+  "all": {
+   "races": 20,
+   "fired": 6,
+   "picks": 7,
+   "winners": 0,
+   "top2": 3,
+   "chance_w": 1.138095238095238,
+   "chance_2": 2.4190476190476184,
+   "alone": 0,
+   "missed": 6
+  },
+  "races": [
+   {
+    "race": "20220108_lingfield_aw_1345",
+    "ran": 5,
+    "placed": 2,
+    "picks": [],
+    "winner": "Trevolli",
+    "n_sel": 0
+   },
+   {
+    "race": "20220110_ludlow_1515",
+    "ran": 7,
+    "placed": 2,
+    "picks": [],
+    "winner": "Java Point",
+    "n_sel": 0
+   },
+   {
+    "race": "20220121_lingfield_1350",
+    "ran": 7,
+    "placed": 2,
+    "picks": [],
+    "winner": "Frero Banbou",
+    "n_sel": 0
+   },
+   {
+    "race": "20220123_lingfield_1500",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Two For Gold",
+    "n_sel": 0
+   },
+   {
+    "race": "20220128_doncaster_1315",
+    "ran": 7,
+    "placed": 3,
+    "picks": [
+     [
+      "Gold Des Bois",
+      4
+     ]
+    ],
+    "winner": "Funambule Sivola",
+    "n_sel": 1
+   },
+   {
+    "race": "20220129_doncaster_1410",
+    "ran": 5,
+    "placed": 2,
+    "picks": [],
+    "winner": "Miss Heritage",
+    "n_sel": 0
+   },
+   {
+    "race": "20220213_southwell_aw_1520",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Red Tornado",
+      6
+     ]
+    ],
+    "winner": "Chase The Dollar",
+    "n_sel": 1
+   },
+   {
+    "race": "20220214_catterick_1515",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Omar Maretti",
+    "n_sel": 0
+   },
+   {
+    "race": "20220215_newcastle_aw_1640",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Sir Chauvelin",
+    "n_sel": 0
+   },
+   {
+    "race": "20220217_leicester_1445",
+    "ran": 4,
+    "placed": 2,
+    "picks": [],
+    "winner": "Nelson River",
+    "n_sel": 0
+   },
+   {
+    "race": "20220219_haydock_1405",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Wholestone",
+    "n_sel": 0
+   },
+   {
+    "race": "20220223_doncaster_1600",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Boss Man Fred",
+      2
+     ]
+    ],
+    "winner": "Silva Eclipse",
+    "n_sel": 1
+   },
+   {
+    "race": "20220224_newcastle_aw_1830",
+    "ran": 5,
+    "placed": 2,
+    "picks": [],
+    "winner": "Gowanlad",
+    "n_sel": 0
+   },
+   {
+    "race": "20220309_fontwell_1440",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Hell Red",
+      2
+     ]
+    ],
+    "winner": "Royaume Uni",
+    "n_sel": 1
+   },
+   {
+    "race": "20220311_newcastle_1540",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Peak Time",
+    "n_sel": 0
+   },
+   {
+    "race": "20261106_aintree_1240",
+    "ran": 4,
+    "placed": 2,
+    "picks": [],
+    "winner": "Risky Obsession",
+    "n_sel": 0
+   },
+   {
+    "race": "20261106_aintree_1315",
+    "ran": 5,
+    "placed": 2,
+    "picks": [
+     [
+      "Leader Crik",
+      3
+     ],
+     [
+      "Barnpark",
+      5
+     ]
+    ],
+    "winner": "Off The Jury",
+    "n_sel": 2
+   },
+   {
+    "race": "20261106_aintree_1350",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Lyssenko",
+      2
+     ]
+    ],
+    "winner": "All In You",
+    "n_sel": 1
+   },
+   {
+    "race": "20261106_aintree_1500",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Rubaud",
+    "n_sel": 0
+   },
+   {
+    "race": "20261106_fontwell_1435",
+    "ran": 8,
+    "placed": 2,
+    "picks": [],
+    "winner": "Fire Flyer",
+    "n_sel": 0
+   }
+  ]
+ },
+ "R28": {
+  "name": "Chiron to Jupiter, lit by Sun / Moon",
+  "test": {
+   "races": 20,
+   "fired": 5,
+   "picks": 7,
+   "winners": 1,
+   "top2": 2,
+   "chance_w": 1.144047619047619,
+   "chance_2": 2.4309523809523808,
+   "alone": 0,
+   "missed": 4
+  },
+  "in_sample": {
+   "races": 0,
+   "fired": 0,
+   "picks": 0,
+   "winners": 0,
+   "top2": 0,
+   "chance_w": 0.0,
+   "chance_2": 0.0,
+   "alone": 0,
+   "missed": 0
+  },
+  "all": {
+   "races": 20,
+   "fired": 5,
+   "picks": 7,
+   "winners": 1,
+   "top2": 2,
+   "chance_w": 1.144047619047619,
+   "chance_2": 2.4309523809523808,
+   "alone": 0,
+   "missed": 4
+  },
+  "races": [
+   {
+    "race": "20220108_lingfield_aw_1345",
+    "ran": 5,
+    "placed": 2,
+    "picks": [
+     [
+      "Supakalanistic",
+      5
+     ],
+     [
+      "Eleven Eleven",
+      4
+     ]
+    ],
+    "winner": "Trevolli",
+    "n_sel": 2
+   },
+   {
+    "race": "20220110_ludlow_1515",
+    "ran": 7,
+    "placed": 2,
+    "picks": [],
+    "winner": "Java Point",
+    "n_sel": 0
+   },
+   {
+    "race": "20220121_lingfield_1350",
+    "ran": 7,
+    "placed": 2,
+    "picks": [],
+    "winner": "Frero Banbou",
+    "n_sel": 0
+   },
+   {
+    "race": "20220123_lingfield_1500",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Two For Gold",
+    "n_sel": 0
+   },
+   {
+    "race": "20220128_doncaster_1315",
+    "ran": 7,
+    "placed": 3,
+    "picks": [
+     [
+      "King D'argent",
+      5
+     ]
+    ],
+    "winner": "Funambule Sivola",
+    "n_sel": 1
+   },
+   {
+    "race": "20220129_doncaster_1410",
+    "ran": 5,
+    "placed": 2,
+    "picks": [],
+    "winner": "Miss Heritage",
+    "n_sel": 0
+   },
+   {
+    "race": "20220213_southwell_aw_1520",
+    "ran": 7,
+    "placed": 2,
+    "picks": [],
+    "winner": "Chase The Dollar",
+    "n_sel": 0
+   },
+   {
+    "race": "20220214_catterick_1515",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Omar Maretti",
+    "n_sel": 0
+   },
+   {
+    "race": "20220215_newcastle_aw_1640",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Sir Chauvelin",
+    "n_sel": 0
+   },
+   {
+    "race": "20220217_leicester_1445",
+    "ran": 4,
+    "placed": 2,
+    "picks": [],
+    "winner": "Nelson River",
+    "n_sel": 0
+   },
+   {
+    "race": "20220219_haydock_1405",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Thomas Darby",
+      5
+     ],
+     [
+      "Wholestone",
+      1
+     ]
+    ],
+    "winner": "Wholestone",
+    "n_sel": 2
+   },
+   {
+    "race": "20220223_doncaster_1600",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Silva Eclipse",
+    "n_sel": 0
+   },
+   {
+    "race": "20220224_newcastle_aw_1830",
+    "ran": 5,
+    "placed": 2,
+    "picks": [],
+    "winner": "Gowanlad",
+    "n_sel": 0
+   },
+   {
+    "race": "20220309_fontwell_1440",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Manvers House",
+      6
+     ]
+    ],
+    "winner": "Royaume Uni",
+    "n_sel": 1
+   },
+   {
+    "race": "20220311_newcastle_1540",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Peak Time",
+    "n_sel": 0
+   },
+   {
+    "race": "20261106_aintree_1240",
+    "ran": 4,
+    "placed": 2,
+    "picks": [],
+    "winner": "Risky Obsession",
+    "n_sel": 0
+   },
+   {
+    "race": "20261106_aintree_1315",
+    "ran": 5,
+    "placed": 2,
+    "picks": [],
+    "winner": "Off The Jury",
+    "n_sel": 0
+   },
+   {
+    "race": "20261106_aintree_1350",
+    "ran": 7,
+    "placed": 2,
+    "picks": [],
+    "winner": "All In You",
+    "n_sel": 0
+   },
+   {
+    "race": "20261106_aintree_1500",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Rubaud",
+    "n_sel": 0
+   },
+   {
+    "race": "20261106_fontwell_1435",
+    "ran": 8,
+    "placed": 2,
+    "picks": [
+     [
+      "Motazzen",
+      2
+     ]
+    ],
+    "winner": "Fire Flyer",
+    "n_sel": 1
+   }
+  ]
+ },
+ "R1b": {
+  "name": "Moon to X, sky X to Jupiter",
+  "test": {
+   "races": 20,
+   "fired": 11,
+   "picks": 17,
+   "winners": 1,
+   "top2": 6,
+   "chance_w": 3.0547619047619046,
+   "chance_2": 6.109523809523809,
+   "alone": 0,
+   "missed": 10
+  },
+  "in_sample": {
+   "races": 0,
+   "fired": 0,
+   "picks": 0,
+   "winners": 0,
+   "top2": 0,
+   "chance_w": 0.0,
+   "chance_2": 0.0,
+   "alone": 0,
+   "missed": 0
+  },
+  "all": {
+   "races": 20,
+   "fired": 11,
+   "picks": 17,
+   "winners": 1,
+   "top2": 6,
+   "chance_w": 3.0547619047619046,
+   "chance_2": 6.109523809523809,
+   "alone": 0,
+   "missed": 10
+  },
+  "races": [
+   {
+    "race": "20220108_lingfield_aw_1345",
+    "ran": 5,
+    "placed": 2,
+    "picks": [
+     [
+      "Supakalanistic",
+      5
+     ]
+    ],
+    "winner": "Trevolli",
+    "n_sel": 1
+   },
+   {
+    "race": "20220110_ludlow_1515",
+    "ran": 7,
+    "placed": 2,
+    "picks": [],
+    "winner": "Java Point",
+    "n_sel": 0
+   },
+   {
+    "race": "20220121_lingfield_1350",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Eclair D'Ainay",
+      2
+     ],
+     [
+      "Cedar Hill",
+      5
+     ]
+    ],
+    "winner": "Frero Banbou",
+    "n_sel": 2
+   },
+   {
+    "race": "20220123_lingfield_1500",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Two For Gold",
+    "n_sel": 0
+   },
+   {
+    "race": "20220128_doncaster_1315",
+    "ran": 7,
+    "placed": 3,
+    "picks": [],
+    "winner": "Funambule Sivola",
+    "n_sel": 0
+   },
+   {
+    "race": "20220129_doncaster_1410",
+    "ran": 5,
+    "placed": 2,
+    "picks": [],
+    "winner": "Miss Heritage",
+    "n_sel": 0
+   },
+   {
+    "race": "20220213_southwell_aw_1520",
+    "ran": 7,
+    "placed": 2,
+    "picks": [],
+    "winner": "Chase The Dollar",
+    "n_sel": 0
+   },
+   {
+    "race": "20220214_catterick_1515",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Winds Of Fire",
+      5
+     ],
+     [
+      "Brian Boranha",
+      4
+     ]
+    ],
+    "winner": "Omar Maretti",
+    "n_sel": 2
+   },
+   {
+    "race": "20220215_newcastle_aw_1640",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Wise Eagle",
+      4
+     ],
+     [
+      "Onesmoothoperator",
+      2
+     ]
+    ],
+    "winner": "Sir Chauvelin",
+    "n_sel": 2
+   },
+   {
+    "race": "20220217_leicester_1445",
+    "ran": 4,
+    "placed": 2,
+    "picks": [
+     [
+      "Fransham",
+      4
+     ],
+     [
+      "Nelson River",
+      1
+     ]
+    ],
+    "winner": "Nelson River",
+    "n_sel": 2
+   },
+   {
+    "race": "20220219_haydock_1405",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Top Ville Ben",
+      2
+     ]
+    ],
+    "winner": "Wholestone",
+    "n_sel": 1
+   },
+   {
+    "race": "20220223_doncaster_1600",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Silva Eclipse",
+    "n_sel": 0
+   },
+   {
+    "race": "20220224_newcastle_aw_1830",
+    "ran": 5,
+    "placed": 2,
+    "picks": [
+     [
+      "Blazing Hot",
+      2
+     ]
+    ],
+    "winner": "Gowanlad",
+    "n_sel": 1
+   },
+   {
+    "race": "20220309_fontwell_1440",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Breaking Waves",
+      7
+     ]
+    ],
+    "winner": "Royaume Uni",
+    "n_sel": 1
+   },
+   {
+    "race": "20220311_newcastle_1540",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Peak Time",
+    "n_sel": 0
+   },
+   {
+    "race": "20261106_aintree_1240",
+    "ran": 4,
+    "placed": 2,
+    "picks": [
+     [
+      "Avide",
+      4
+     ]
+    ],
+    "winner": "Risky Obsession",
+    "n_sel": 1
+   },
+   {
+    "race": "20261106_aintree_1315",
+    "ran": 5,
+    "placed": 2,
+    "picks": [],
+    "winner": "Off The Jury",
+    "n_sel": 0
+   },
+   {
+    "race": "20261106_aintree_1350",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Bucephalus",
+      3
+     ]
+    ],
+    "winner": "All In You",
+    "n_sel": 1
+   },
+   {
+    "race": "20261106_aintree_1500",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "JPR One",
+      2
+     ],
+     [
+      "Mirabad",
+      3
+     ],
+     [
+      "Daytime Dreaming",
+      5
+     ]
+    ],
+    "winner": "Rubaud",
+    "n_sel": 3
+   },
+   {
+    "race": "20261106_fontwell_1435",
+    "ran": 8,
+    "placed": 2,
+    "picks": [],
+    "winner": "Fire Flyer",
+    "n_sel": 0
+   }
+  ]
+ },
+ "R7": {
+  "name": "Line star on own Jupiter and on one body both charts",
+  "test": {
+   "races": 20,
+   "fired": 11,
+   "picks": 18,
+   "winners": 0,
+   "top2": 2,
+   "chance_w": 3.0,
+   "chance_2": 6.428571428571429,
+   "alone": 0,
+   "missed": 11
+  },
+  "in_sample": {
+   "races": 0,
+   "fired": 0,
+   "picks": 0,
+   "winners": 0,
+   "top2": 0,
+   "chance_w": 0.0,
+   "chance_2": 0.0,
+   "alone": 0,
+   "missed": 0
+  },
+  "all": {
+   "races": 20,
+   "fired": 11,
+   "picks": 18,
+   "winners": 0,
+   "top2": 2,
+   "chance_w": 3.0,
+   "chance_2": 6.428571428571429,
+   "alone": 0,
+   "missed": 11
+  },
+  "races": [
+   {
+    "race": "20220108_lingfield_aw_1345",
+    "ran": 5,
+    "placed": 2,
+    "picks": [
+     [
+      "Supakalanistic",
+      5
+     ],
+     [
+      "Eleven Eleven",
+      4
+     ]
+    ],
+    "winner": "Trevolli",
+    "n_sel": 2
+   },
+   {
+    "race": "20220110_ludlow_1515",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Une De La Seniere",
+      3
+     ],
+     [
+      "Method Madness",
+      6
+     ]
+    ],
+    "winner": "Java Point",
+    "n_sel": 2
+   },
+   {
+    "race": "20220121_lingfield_1350",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Financier",
+      7
+     ]
+    ],
+    "winner": "Frero Banbou",
+    "n_sel": 1
+   },
+   {
+    "race": "20220123_lingfield_1500",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Itchy Feet",
+      4
+     ]
+    ],
+    "winner": "Two For Gold",
+    "n_sel": 1
+   },
+   {
+    "race": "20220128_doncaster_1315",
+    "ran": 7,
+    "placed": 3,
+    "picks": [
+     [
+      "The Big Bite",
+      2
+     ],
+     [
+      "Fransham",
+      6
+     ],
+     [
+      "Gold Des Bois",
+      4
+     ]
+    ],
+    "winner": "Funambule Sivola",
+    "n_sel": 3
+   },
+   {
+    "race": "20220129_doncaster_1410",
+    "ran": 5,
+    "placed": 2,
+    "picks": [],
+    "winner": "Miss Heritage",
+    "n_sel": 0
+   },
+   {
+    "race": "20220213_southwell_aw_1520",
+    "ran": 7,
+    "placed": 2,
+    "picks": [],
+    "winner": "Chase The Dollar",
+    "n_sel": 0
+   },
+   {
+    "race": "20220214_catterick_1515",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Brian Boranha",
+      4
+     ]
+    ],
+    "winner": "Omar Maretti",
+    "n_sel": 1
+   },
+   {
+    "race": "20220215_newcastle_aw_1640",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Wise Eagle",
+      4
+     ],
+     [
+      "Onesmoothoperator",
+      2
+     ]
+    ],
+    "winner": "Sir Chauvelin",
+    "n_sel": 2
+   },
+   {
+    "race": "20220217_leicester_1445",
+    "ran": 4,
+    "placed": 2,
+    "picks": [],
+    "winner": "Nelson River",
+    "n_sel": 0
+   },
+   {
+    "race": "20220219_haydock_1405",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Wholestone",
+    "n_sel": 0
+   },
+   {
+    "race": "20220223_doncaster_1600",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Silva Eclipse",
+    "n_sel": 0
+   },
+   {
+    "race": "20220224_newcastle_aw_1830",
+    "ran": 5,
+    "placed": 2,
+    "picks": [
+     [
+      "James Watt",
+      4
+     ],
+     [
+      "Tathmeen",
+      3
+     ]
+    ],
+    "winner": "Gowanlad",
+    "n_sel": 2
+   },
+   {
+    "race": "20220309_fontwell_1440",
+    "ran": 7,
+    "placed": 2,
+    "picks": [],
+    "winner": "Royaume Uni",
+    "n_sel": 0
+   },
+   {
+    "race": "20220311_newcastle_1540",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Vocaliser",
+      5
+     ],
+     [
+      "Thundersockssundae",
+      3
+     ]
+    ],
+    "winner": "Peak Time",
+    "n_sel": 2
+   },
+   {
+    "race": "20261106_aintree_1240",
+    "ran": 4,
+    "placed": 2,
+    "picks": [],
+    "winner": "Risky Obsession",
+    "n_sel": 0
+   },
+   {
+    "race": "20261106_aintree_1315",
+    "ran": 5,
+    "placed": 2,
+    "picks": [
+     [
+      "Dixie Mafia",
+      4
+     ]
+    ],
+    "winner": "Off The Jury",
+    "n_sel": 1
+   },
+   {
+    "race": "20261106_aintree_1350",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Star Of Guiting",
+      5
+     ]
+    ],
+    "winner": "All In You",
+    "n_sel": 1
+   },
+   {
+    "race": "20261106_aintree_1500",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Rubaud",
+    "n_sel": 0
+   },
+   {
+    "race": "20261106_fontwell_1435",
+    "ran": 8,
+    "placed": 2,
+    "picks": [],
+    "winner": "Fire Flyer",
+    "n_sel": 0
+   }
+  ]
+ },
+ "R26": {
+  "name": "Royal line star on own Jupiter",
+  "test": {
+   "races": 20,
+   "fired": 9,
+   "picks": 13,
+   "winners": 3,
+   "top2": 4,
+   "chance_w": 2.105952380952381,
+   "chance_2": 4.211904761904762,
+   "alone": 1,
+   "missed": 6
+  },
+  "in_sample": {
+   "races": 0,
+   "fired": 0,
+   "picks": 0,
+   "winners": 0,
+   "top2": 0,
+   "chance_w": 0.0,
+   "chance_2": 0.0,
+   "alone": 0,
+   "missed": 0
+  },
+  "all": {
+   "races": 20,
+   "fired": 9,
+   "picks": 13,
+   "winners": 3,
+   "top2": 4,
+   "chance_w": 2.105952380952381,
+   "chance_2": 4.211904761904762,
+   "alone": 1,
+   "missed": 6
+  },
+  "races": [
+   {
+    "race": "20220108_lingfield_aw_1345",
+    "ran": 5,
+    "placed": 2,
+    "picks": [
+     [
+      "Protected Guest",
+      2
+     ]
+    ],
+    "winner": "Trevolli",
+    "n_sel": 1
+   },
+   {
+    "race": "20220110_ludlow_1515",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Method Madness",
+      6
+     ]
+    ],
+    "winner": "Java Point",
+    "n_sel": 1
+   },
+   {
+    "race": "20220121_lingfield_1350",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Financier",
+      7
+     ],
+     [
+      "One True King",
+      4
+     ],
+     [
+      "Beaufort West",
+      6
+     ]
+    ],
+    "winner": "Frero Banbou",
+    "n_sel": 3
+   },
+   {
+    "race": "20220123_lingfield_1500",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Lieutenant Rocco",
+      6
+     ],
+     [
+      "Two For Gold",
+      1
+     ]
+    ],
+    "winner": "Two For Gold",
+    "n_sel": 2
+   },
+   {
+    "race": "20220128_doncaster_1315",
+    "ran": 7,
+    "placed": 3,
+    "picks": [],
+    "winner": "Funambule Sivola",
+    "n_sel": 0
+   },
+   {
+    "race": "20220129_doncaster_1410",
+    "ran": 5,
+    "placed": 2,
+    "picks": [],
+    "winner": "Miss Heritage",
+    "n_sel": 0
+   },
+   {
+    "race": "20220213_southwell_aw_1520",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Carn A Chlamain",
+      7
+     ]
+    ],
+    "winner": "Chase The Dollar",
+    "n_sel": 1
+   },
+   {
+    "race": "20220214_catterick_1515",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Omar Maretti",
+    "n_sel": 0
+   },
+   {
+    "race": "20220215_newcastle_aw_1640",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Resumption",
+      5
+     ]
+    ],
+    "winner": "Sir Chauvelin",
+    "n_sel": 1
+   },
+   {
+    "race": "20220217_leicester_1445",
+    "ran": 4,
+    "placed": 2,
+    "picks": [],
+    "winner": "Nelson River",
+    "n_sel": 0
+   },
+   {
+    "race": "20220219_haydock_1405",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Thomas Darby",
+      5
+     ]
+    ],
+    "winner": "Wholestone",
+    "n_sel": 1
+   },
+   {
+    "race": "20220223_doncaster_1600",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Silva Eclipse",
+    "n_sel": 0
+   },
+   {
+    "race": "20220224_newcastle_aw_1830",
+    "ran": 5,
+    "placed": 2,
+    "picks": [
+     [
+      "James Watt",
+      4
+     ],
+     [
+      "Gowanlad",
+      1
+     ]
+    ],
+    "winner": "Gowanlad",
+    "n_sel": 2
+   },
+   {
+    "race": "20220309_fontwell_1440",
+    "ran": 7,
+    "placed": 2,
+    "picks": [],
+    "winner": "Royaume Uni",
+    "n_sel": 0
+   },
+   {
+    "race": "20220311_newcastle_1540",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Peak Time",
+    "n_sel": 0
+   },
+   {
+    "race": "20261106_aintree_1240",
+    "ran": 4,
+    "placed": 2,
+    "picks": [],
+    "winner": "Risky Obsession",
+    "n_sel": 0
+   },
+   {
+    "race": "20261106_aintree_1315",
+    "ran": 5,
+    "placed": 2,
+    "picks": [],
+    "winner": "Off The Jury",
+    "n_sel": 0
+   },
+   {
+    "race": "20261106_aintree_1350",
+    "ran": 7,
+    "placed": 2,
+    "picks": [],
+    "winner": "All In You",
+    "n_sel": 0
+   },
+   {
+    "race": "20261106_aintree_1500",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Rubaud",
+    "n_sel": 0
+   },
+   {
+    "race": "20261106_fontwell_1435",
+    "ran": 8,
+    "placed": 2,
+    "picks": [
+     [
+      "Fire Flyer",
+      1
+     ]
+    ],
+    "winner": "Fire Flyer",
+    "n_sel": 1
+   }
+  ]
+ },
+ "R40": {
+  "name": "Node axis",
+  "test": {
+   "races": 20,
+   "fired": 5,
+   "picks": 7,
+   "winners": 0,
+   "top2": 3,
+   "chance_w": 1.1547619047619047,
+   "chance_2": 2.3095238095238093,
+   "alone": 0,
+   "missed": 5
+  },
+  "in_sample": {
+   "races": 0,
+   "fired": 0,
+   "picks": 0,
+   "winners": 0,
+   "top2": 0,
+   "chance_w": 0.0,
+   "chance_2": 0.0,
+   "alone": 0,
+   "missed": 0
+  },
+  "all": {
+   "races": 20,
+   "fired": 5,
+   "picks": 7,
+   "winners": 0,
+   "top2": 3,
+   "chance_w": 1.1547619047619047,
+   "chance_2": 2.3095238095238093,
+   "alone": 0,
+   "missed": 5
+  },
+  "races": [
+   {
+    "race": "20220108_lingfield_aw_1345",
+    "ran": 5,
+    "placed": 2,
+    "picks": [],
+    "winner": "Trevolli",
+    "n_sel": 0
+   },
+   {
+    "race": "20220110_ludlow_1515",
+    "ran": 7,
+    "placed": 2,
+    "picks": [],
+    "winner": "Java Point",
+    "n_sel": 0
+   },
+   {
+    "race": "20220121_lingfield_1350",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Eclair D'Ainay",
+      2
+     ],
+     [
+      "Beaufort West",
+      6
+     ]
+    ],
+    "winner": "Frero Banbou",
+    "n_sel": 2
+   },
+   {
+    "race": "20220123_lingfield_1500",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Two For Gold",
+    "n_sel": 0
+   },
+   {
+    "race": "20220128_doncaster_1315",
+    "ran": 7,
+    "placed": 3,
+    "picks": [],
+    "winner": "Funambule Sivola",
+    "n_sel": 0
+   },
+   {
+    "race": "20220129_doncaster_1410",
+    "ran": 5,
+    "placed": 2,
+    "picks": [],
+    "winner": "Miss Heritage",
+    "n_sel": 0
+   },
+   {
+    "race": "20220213_southwell_aw_1520",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Carn A Chlamain",
+      7
+     ]
+    ],
+    "winner": "Chase The Dollar",
+    "n_sel": 1
+   },
+   {
+    "race": "20220214_catterick_1515",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Almazhar Garde",
+      2
+     ],
+     [
+      "Winds Of Fire",
+      5
+     ]
+    ],
+    "winner": "Omar Maretti",
+    "n_sel": 2
+   },
+   {
+    "race": "20220215_newcastle_aw_1640",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Sir Chauvelin",
+    "n_sel": 0
+   },
+   {
+    "race": "20220217_leicester_1445",
+    "ran": 4,
+    "placed": 2,
+    "picks": [
+     [
+      "Nickolson",
+      2
+     ]
+    ],
+    "winner": "Nelson River",
+    "n_sel": 1
+   },
+   {
+    "race": "20220219_haydock_1405",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Wholestone",
+    "n_sel": 0
+   },
+   {
+    "race": "20220223_doncaster_1600",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Silva Eclipse",
+    "n_sel": 0
+   },
+   {
+    "race": "20220224_newcastle_aw_1830",
+    "ran": 5,
+    "placed": 2,
+    "picks": [],
+    "winner": "Gowanlad",
+    "n_sel": 0
+   },
+   {
+    "race": "20220309_fontwell_1440",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Grangeclare Glory",
+      4
+     ]
+    ],
+    "winner": "Royaume Uni",
+    "n_sel": 1
+   },
+   {
+    "race": "20220311_newcastle_1540",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Peak Time",
+    "n_sel": 0
+   },
+   {
+    "race": "20261106_aintree_1240",
+    "ran": 4,
+    "placed": 2,
+    "picks": [],
+    "winner": "Risky Obsession",
+    "n_sel": 0
+   },
+   {
+    "race": "20261106_aintree_1315",
+    "ran": 5,
+    "placed": 2,
+    "picks": [],
+    "winner": "Off The Jury",
+    "n_sel": 0
+   },
+   {
+    "race": "20261106_aintree_1350",
+    "ran": 7,
+    "placed": 2,
+    "picks": [],
+    "winner": "All In You",
+    "n_sel": 0
+   },
+   {
+    "race": "20261106_aintree_1500",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Rubaud",
+    "n_sel": 0
+   },
+   {
+    "race": "20261106_fontwell_1435",
+    "ran": 8,
+    "placed": 2,
+    "picks": [],
+    "winner": "Fire Flyer",
+    "n_sel": 0
+   }
+  ]
+ },
+ "R42": {
+  "name": "Moon on a same body",
+  "test": {
+   "races": 20,
+   "fired": 16,
+   "picks": 26,
+   "winners": 1,
+   "top2": 8,
+   "chance_w": 4.420238095238095,
+   "chance_2": 9.126190476190475,
+   "alone": 0,
+   "missed": 15
+  },
+  "in_sample": {
+   "races": 0,
+   "fired": 0,
+   "picks": 0,
+   "winners": 0,
+   "top2": 0,
+   "chance_w": 0.0,
+   "chance_2": 0.0,
+   "alone": 0,
+   "missed": 0
+  },
+  "all": {
+   "races": 20,
+   "fired": 16,
+   "picks": 26,
+   "winners": 1,
+   "top2": 8,
+   "chance_w": 4.420238095238095,
+   "chance_2": 9.126190476190475,
+   "alone": 0,
+   "missed": 15
+  },
+  "races": [
+   {
+    "race": "20220108_lingfield_aw_1345",
+    "ran": 5,
+    "placed": 2,
+    "picks": [
+     [
+      "Supakalanistic",
+      5
+     ],
+     [
+      "Trevolli",
+      1
+     ]
+    ],
+    "winner": "Trevolli",
+    "n_sel": 2
+   },
+   {
+    "race": "20220110_ludlow_1515",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Wildfire Warrior",
+      7
+     ],
+     [
+      "Fanamix",
+      4
+     ]
+    ],
+    "winner": "Java Point",
+    "n_sel": 2
+   },
+   {
+    "race": "20220121_lingfield_1350",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Financier",
+      7
+     ],
+     [
+      "Le Ligerien",
+      3
+     ]
+    ],
+    "winner": "Frero Banbou",
+    "n_sel": 2
+   },
+   {
+    "race": "20220123_lingfield_1500",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Itchy Feet",
+      4
+     ]
+    ],
+    "winner": "Two For Gold",
+    "n_sel": 1
+   },
+   {
+    "race": "20220128_doncaster_1315",
+    "ran": 7,
+    "placed": 3,
+    "picks": [
+     [
+      "The Big Bite",
+      2
+     ],
+     [
+      "Gold Des Bois",
+      4
+     ]
+    ],
+    "winner": "Funambule Sivola",
+    "n_sel": 2
+   },
+   {
+    "race": "20220129_doncaster_1410",
+    "ran": 5,
+    "placed": 2,
+    "picks": [
+     [
+      "Western Victory",
+      3
+     ]
+    ],
+    "winner": "Miss Heritage",
+    "n_sel": 1
+   },
+   {
+    "race": "20220213_southwell_aw_1520",
+    "ran": 7,
+    "placed": 2,
+    "picks": [],
+    "winner": "Chase The Dollar",
+    "n_sel": 0
+   },
+   {
+    "race": "20220214_catterick_1515",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Almazhar Garde",
+      2
+     ]
+    ],
+    "winner": "Omar Maretti",
+    "n_sel": 1
+   },
+   {
+    "race": "20220215_newcastle_aw_1640",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Sir Chauvelin",
+    "n_sel": 0
+   },
+   {
+    "race": "20220217_leicester_1445",
+    "ran": 4,
+    "placed": 2,
+    "picks": [],
+    "winner": "Nelson River",
+    "n_sel": 0
+   },
+   {
+    "race": "20220219_haydock_1405",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Wholestone",
+    "n_sel": 0
+   },
+   {
+    "race": "20220223_doncaster_1600",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Boss Man Fred",
+      2
+     ],
+     [
+      "Mr Washington",
+      6
+     ]
+    ],
+    "winner": "Silva Eclipse",
+    "n_sel": 2
+   },
+   {
+    "race": "20220224_newcastle_aw_1830",
+    "ran": 5,
+    "placed": 2,
+    "picks": [
+     [
+      "Alablaq",
+      5
+     ],
+     [
+      "Tathmeen",
+      3
+     ]
+    ],
+    "winner": "Gowanlad",
+    "n_sel": 2
+   },
+   {
+    "race": "20220309_fontwell_1440",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Manvers House",
+      6
+     ]
+    ],
+    "winner": "Royaume Uni",
+    "n_sel": 1
+   },
+   {
+    "race": "20220311_newcastle_1540",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Edmond Dantes",
+      6
+     ]
+    ],
+    "winner": "Peak Time",
+    "n_sel": 1
+   },
+   {
+    "race": "20261106_aintree_1240",
+    "ran": 4,
+    "placed": 2,
+    "picks": [
+     [
+      "Watery Borren",
+      3
+     ],
+     [
+      "Aqua Bleu",
+      2
+     ]
+    ],
+    "winner": "Risky Obsession",
+    "n_sel": 2
+   },
+   {
+    "race": "20261106_aintree_1315",
+    "ran": 5,
+    "placed": 2,
+    "picks": [
+     [
+      "Leader Crik",
+      3
+     ]
+    ],
+    "winner": "Off The Jury",
+    "n_sel": 1
+   },
+   {
+    "race": "20261106_aintree_1350",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Dedicated Hero",
+      6
+     ],
+     [
+      "Lyssenko",
+      2
+     ],
+     [
+      "King Ulanda",
+      7
+     ]
+    ],
+    "winner": "All In You",
+    "n_sel": 3
+   },
+   {
+    "race": "20261106_aintree_1500",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "JPR One",
+      2
+     ],
+     [
+      "Brookie",
+      4
+     ]
+    ],
+    "winner": "Rubaud",
+    "n_sel": 2
+   },
+   {
+    "race": "20261106_fontwell_1435",
+    "ran": 8,
+    "placed": 2,
+    "picks": [
+     [
+      "Motazzen",
+      2
+     ]
+    ],
+    "winner": "Fire Flyer",
+    "n_sel": 1
+   }
+  ]
+ },
+ "R1": {
+  "name": "Sun / Moon on one body both charts, sky X to Jupiter",
+  "test": {
+   "races": 20,
+   "fired": 3,
+   "picks": 3,
+   "winners": 0,
+   "top2": 0,
+   "chance_w": 0.4523809523809524,
+   "chance_2": 0.9047619047619048,
+   "alone": 0,
+   "missed": 3
+  },
+  "in_sample": {
+   "races": 0,
+   "fired": 0,
+   "picks": 0,
+   "winners": 0,
+   "top2": 0,
+   "chance_w": 0.0,
+   "chance_2": 0.0,
+   "alone": 0,
+   "missed": 0
+  },
+  "all": {
+   "races": 20,
+   "fired": 3,
+   "picks": 3,
+   "winners": 0,
+   "top2": 0,
+   "chance_w": 0.4523809523809524,
+   "chance_2": 0.9047619047619048,
+   "alone": 0,
+   "missed": 3
+  },
+  "races": [
+   {
+    "race": "20220108_lingfield_aw_1345",
+    "ran": 5,
+    "placed": 2,
+    "picks": [],
+    "winner": "Trevolli",
+    "n_sel": 0
+   },
+   {
+    "race": "20220110_ludlow_1515",
+    "ran": 7,
+    "placed": 2,
+    "picks": [],
+    "winner": "Java Point",
+    "n_sel": 0
+   },
+   {
+    "race": "20220121_lingfield_1350",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Cedar Hill",
+      5
+     ]
+    ],
+    "winner": "Frero Banbou",
+    "n_sel": 1
+   },
+   {
+    "race": "20220123_lingfield_1500",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Two For Gold",
+    "n_sel": 0
+   },
+   {
+    "race": "20220128_doncaster_1315",
+    "ran": 7,
+    "placed": 3,
+    "picks": [],
+    "winner": "Funambule Sivola",
+    "n_sel": 0
+   },
+   {
+    "race": "20220129_doncaster_1410",
+    "ran": 5,
+    "placed": 2,
+    "picks": [],
+    "winner": "Miss Heritage",
+    "n_sel": 0
+   },
+   {
+    "race": "20220213_southwell_aw_1520",
+    "ran": 7,
+    "placed": 2,
+    "picks": [],
+    "winner": "Chase The Dollar",
+    "n_sel": 0
+   },
+   {
+    "race": "20220214_catterick_1515",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Winds Of Fire",
+      5
+     ]
+    ],
+    "winner": "Omar Maretti",
+    "n_sel": 1
+   },
+   {
+    "race": "20220215_newcastle_aw_1640",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Sir Chauvelin",
+    "n_sel": 0
+   },
+   {
+    "race": "20220217_leicester_1445",
+    "ran": 4,
+    "placed": 2,
+    "picks": [],
+    "winner": "Nelson River",
+    "n_sel": 0
+   },
+   {
+    "race": "20220219_haydock_1405",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Wholestone",
+    "n_sel": 0
+   },
+   {
+    "race": "20220223_doncaster_1600",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Silva Eclipse",
+    "n_sel": 0
+   },
+   {
+    "race": "20220224_newcastle_aw_1830",
+    "ran": 5,
+    "placed": 2,
+    "picks": [],
+    "winner": "Gowanlad",
+    "n_sel": 0
+   },
+   {
+    "race": "20220309_fontwell_1440",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Breaking Waves",
+      7
+     ]
+    ],
+    "winner": "Royaume Uni",
+    "n_sel": 1
+   },
+   {
+    "race": "20220311_newcastle_1540",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Peak Time",
+    "n_sel": 0
+   },
+   {
+    "race": "20261106_aintree_1240",
+    "ran": 4,
+    "placed": 2,
+    "picks": [],
+    "winner": "Risky Obsession",
+    "n_sel": 0
+   },
+   {
+    "race": "20261106_aintree_1315",
+    "ran": 5,
+    "placed": 2,
+    "picks": [],
+    "winner": "Off The Jury",
+    "n_sel": 0
+   },
+   {
+    "race": "20261106_aintree_1350",
+    "ran": 7,
+    "placed": 2,
+    "picks": [],
+    "winner": "All In You",
+    "n_sel": 0
+   },
+   {
+    "race": "20261106_aintree_1500",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Rubaud",
+    "n_sel": 0
+   },
+   {
+    "race": "20261106_fontwell_1435",
+    "ran": 8,
+    "placed": 2,
+    "picks": [],
+    "winner": "Fire Flyer",
+    "n_sel": 0
+   }
+  ]
+ },
+ "B1": {
+  "name": "Natal body on a strong line star (filter)",
+  "test": {
+   "races": 2,
+   "fired": 2,
+   "picks": 5,
+   "winners": 1,
+   "top2": 2,
+   "chance_w": 0.6666666666666666,
+   "chance_2": 1.3333333333333333,
+   "alone": 0,
+   "missed": 1
+  },
+  "in_sample": {
+   "races": 18,
+   "fired": 14,
+   "picks": 48,
+   "winners": 11,
+   "top2": 18,
+   "chance_w": 8.188095238095237,
+   "chance_2": 16.947619047619046,
+   "alone": 0,
+   "missed": 3
+  },
+  "all": {
+   "races": 20,
+   "fired": 16,
+   "picks": 53,
+   "winners": 12,
+   "top2": 20,
+   "chance_w": 8.854761904761903,
+   "chance_2": 18.280952380952378,
+   "alone": 0,
+   "missed": 4
+  },
+  "races": [
+   {
+    "race": "20220108_lingfield_aw_1345",
+    "ran": 5,
+    "placed": 2,
+    "picks": [
+     [
+      "Protected Guest",
+      2
+     ],
+     [
+      "Creationist",
+      3
+     ],
+     [
+      "Eleven Eleven",
+      4
+     ]
+    ],
+    "winner": "Trevolli",
+    "n_sel": 3
+   },
+   {
+    "race": "20220110_ludlow_1515",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Method Madness",
+      6
+     ]
+    ],
+    "winner": "Java Point",
+    "n_sel": 1
+   },
+   {
+    "race": "20220121_lingfield_1350",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Eclair D'Ainay",
+      2
+     ],
+     [
+      "Financier",
+      7
+     ],
+     [
+      "Frero Banbou",
+      1
+     ],
+     [
+      "One True King",
+      4
+     ],
+     [
+      "Cedar Hill",
+      5
+     ],
+     [
+      "Le Ligerien",
+      3
+     ],
+     [
+      "Beaufort West",
+      6
+     ]
+    ],
+    "winner": "Frero Banbou",
+    "n_sel": 7
+   },
+   {
+    "race": "20220123_lingfield_1500",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Bristol De Mai",
+      3
+     ],
+     [
+      "Dashel Drasher",
+      2
+     ],
+     [
+      "Master Tommytucker",
+      5
+     ],
+     [
+      "Itchy Feet",
+      4
+     ],
+     [
+      "Lieutenant Rocco",
+      6
+     ],
+     [
+      "Two For Gold",
+      1
+     ]
+    ],
+    "winner": "Two For Gold",
+    "n_sel": 6
+   },
+   {
+    "race": "20220128_doncaster_1315",
+    "ran": 7,
+    "placed": 3,
+    "picks": [
+     [
+      "Funambule Sivola",
+      1
+     ],
+     [
+      "King D'argent",
+      5
+     ],
+     [
+      "Fransham",
+      6
+     ],
+     [
+      "Gold Des Bois",
+      4
+     ]
+    ],
+    "winner": "Funambule Sivola",
+    "n_sel": 4
+   },
+   {
+    "race": "20220129_doncaster_1410",
+    "ran": 5,
+    "placed": 2,
+    "picks": [],
+    "winner": "Miss Heritage",
+    "n_sel": 0
+   },
+   {
+    "race": "20220213_southwell_aw_1520",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Flying Instructor",
+      4
+     ],
+     [
+      "Chase The Dollar",
+      1
+     ],
+     [
+      "Deluxe Music",
+      2
+     ],
+     [
+      "Flamingo Rose",
+      5
+     ]
+    ],
+    "winner": "Chase The Dollar",
+    "n_sel": 4
+   },
+   {
+    "race": "20220214_catterick_1515",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Omar Maretti",
+    "n_sel": 0
+   },
+   {
+    "race": "20220215_newcastle_aw_1640",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Sir Chauvelin",
+      1
+     ],
+     [
+      "Alba Rose",
+      6
+     ],
+     [
+      "Wise Eagle",
+      4
+     ],
+     [
+      "Onesmoothoperator",
+      2
+     ],
+     [
+      "Aced It",
+      3
+     ]
+    ],
+    "winner": "Sir Chauvelin",
+    "n_sel": 5
+   },
+   {
+    "race": "20220217_leicester_1445",
+    "ran": 4,
+    "placed": 2,
+    "picks": [
+     [
+      "Fransham",
+      4
+     ],
+     [
+      "Nelson River",
+      1
+     ]
+    ],
+    "winner": "Nelson River",
+    "n_sel": 2
+   },
+   {
+    "race": "20220219_haydock_1405",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Third Wind",
+      3
+     ],
+     [
+      "Thomas Darby",
+      5
+     ],
+     [
+      "Emitom",
+      4
+     ],
+     [
+      "Wholestone",
+      1
+     ],
+     [
+      "Molly Ollys Wishes",
+      6
+     ]
+    ],
+    "winner": "Wholestone",
+    "n_sel": 5
+   },
+   {
+    "race": "20220223_doncaster_1600",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Boss Man Fred",
+      2
+     ]
+    ],
+    "winner": "Silva Eclipse",
+    "n_sel": 1
+   },
+   {
+    "race": "20220224_newcastle_aw_1830",
+    "ran": 5,
+    "placed": 2,
+    "picks": [
+     [
+      "Alablaq",
+      5
+     ],
+     [
+      "Gowanlad",
+      1
+     ],
+     [
+      "Tathmeen",
+      3
+     ]
+    ],
+    "winner": "Gowanlad",
+    "n_sel": 3
+   },
+   {
+    "race": "20220309_fontwell_1440",
+    "ran": 7,
+    "placed": 2,
+    "picks": [],
+    "winner": "Royaume Uni",
+    "n_sel": 0
+   },
+   {
+    "race": "20220311_newcastle_1540",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Peak Time",
+      1
+     ],
+     [
+      "Thundersockssundae",
+      3
+     ]
+    ],
+    "winner": "Peak Time",
+    "n_sel": 2
+   },
+   {
+    "race": "20261106_aintree_1240",
+    "ran": 4,
+    "placed": 2,
+    "picks": [
+     [
+      "Watery Borren",
+      3
+     ],
+     [
+      "Aqua Bleu",
+      2
+     ],
+     [
+      "Risky Obsession",
+      1
+     ]
+    ],
+    "winner": "Risky Obsession",
+    "n_sel": 3
+   },
+   {
+    "race": "20261106_aintree_1315",
+    "ran": 5,
+    "placed": 2,
+    "picks": [],
+    "winner": "Off The Jury",
+    "n_sel": 0
+   },
+   {
+    "race": "20261106_aintree_1350",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Manuelito",
+      4
+     ],
+     [
+      "All In You",
+      1
+     ]
+    ],
+    "winner": "All In You",
+    "n_sel": 2
+   },
+   {
+    "race": "20261106_aintree_1500",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "JPR One",
+      2
+     ]
+    ],
+    "winner": "Rubaud",
+    "n_sel": 1
+   },
+   {
+    "race": "20261106_fontwell_1435",
+    "ran": 8,
+    "placed": 2,
+    "picks": [
+     [
+      "Fire Flyer",
+      1
+     ],
+     [
+      "Donnie Azoff",
+      7
+     ],
+     [
+      "He's A Latchico",
+      8
+     ],
+     [
+      "So You Know",
+      4
+     ]
+    ],
+    "winner": "Fire Flyer",
+    "n_sel": 4
+   }
+  ]
+ },
+ "B2": {
+  "name": "Top natal body on a strong line star",
+  "test": {
+   "races": 5,
+   "fired": 4,
+   "picks": 4,
+   "winners": 1,
+   "top2": 2,
+   "chance_w": 0.6845238095238095,
+   "chance_2": 1.369047619047619,
+   "alone": 1,
+   "missed": 3
+  },
+  "in_sample": {
+   "races": 15,
+   "fired": 12,
+   "picks": 12,
+   "winners": 4,
+   "top2": 5,
+   "chance_w": 2.054761904761905,
+   "chance_2": 4.252380952380952,
+   "alone": 4,
+   "missed": 8
+  },
+  "all": {
+   "races": 20,
+   "fired": 16,
+   "picks": 16,
+   "winners": 5,
+   "top2": 7,
+   "chance_w": 2.7392857142857143,
+   "chance_2": 5.621428571428571,
+   "alone": 5,
+   "missed": 11
+  },
+  "races": [
+   {
+    "race": "20220108_lingfield_aw_1345",
+    "ran": 5,
+    "placed": 2,
+    "picks": [
+     [
+      "Creationist",
+      3
+     ]
+    ],
+    "winner": "Trevolli",
+    "n_sel": 1
+   },
+   {
+    "race": "20220110_ludlow_1515",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Method Madness",
+      6
+     ]
+    ],
+    "winner": "Java Point",
+    "n_sel": 1
+   },
+   {
+    "race": "20220121_lingfield_1350",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Financier",
+      7
+     ]
+    ],
+    "winner": "Frero Banbou",
+    "n_sel": 1
+   },
+   {
+    "race": "20220123_lingfield_1500",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Master Tommytucker",
+      5
+     ]
+    ],
+    "winner": "Two For Gold",
+    "n_sel": 1
+   },
+   {
+    "race": "20220128_doncaster_1315",
+    "ran": 7,
+    "placed": 3,
+    "picks": [
+     [
+      "Funambule Sivola",
+      1
+     ]
+    ],
+    "winner": "Funambule Sivola",
+    "n_sel": 1
+   },
+   {
+    "race": "20220129_doncaster_1410",
+    "ran": 5,
+    "placed": 2,
+    "picks": [],
+    "winner": "Miss Heritage",
+    "n_sel": 0
+   },
+   {
+    "race": "20220213_southwell_aw_1520",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Flying Instructor",
+      4
+     ]
+    ],
+    "winner": "Chase The Dollar",
+    "n_sel": 1
+   },
+   {
+    "race": "20220214_catterick_1515",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Omar Maretti",
+    "n_sel": 0
+   },
+   {
+    "race": "20220215_newcastle_aw_1640",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Wise Eagle",
+      4
+     ]
+    ],
+    "winner": "Sir Chauvelin",
+    "n_sel": 1
+   },
+   {
+    "race": "20220217_leicester_1445",
+    "ran": 4,
+    "placed": 2,
+    "picks": [
+     [
+      "Nelson River",
+      1
+     ]
+    ],
+    "winner": "Nelson River",
+    "n_sel": 1
+   },
+   {
+    "race": "20220219_haydock_1405",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Thomas Darby",
+      5
+     ]
+    ],
+    "winner": "Wholestone",
+    "n_sel": 1
+   },
+   {
+    "race": "20220223_doncaster_1600",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Boss Man Fred",
+      2
+     ]
+    ],
+    "winner": "Silva Eclipse",
+    "n_sel": 1
+   },
+   {
+    "race": "20220224_newcastle_aw_1830",
+    "ran": 5,
+    "placed": 2,
+    "picks": [
+     [
+      "Gowanlad",
+      1
+     ]
+    ],
+    "winner": "Gowanlad",
+    "n_sel": 1
+   },
+   {
+    "race": "20220309_fontwell_1440",
+    "ran": 7,
+    "placed": 2,
+    "picks": [],
+    "winner": "Royaume Uni",
+    "n_sel": 0
+   },
+   {
+    "race": "20220311_newcastle_1540",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Peak Time",
+      1
+     ]
+    ],
+    "winner": "Peak Time",
+    "n_sel": 1
+   },
+   {
+    "race": "20261106_aintree_1240",
+    "ran": 4,
+    "placed": 2,
+    "picks": [
+     [
+      "Risky Obsession",
+      1
+     ]
+    ],
+    "winner": "Risky Obsession",
+    "n_sel": 1
+   },
+   {
+    "race": "20261106_aintree_1315",
+    "ran": 5,
+    "placed": 2,
+    "picks": [],
+    "winner": "Off The Jury",
+    "n_sel": 0
+   },
+   {
+    "race": "20261106_aintree_1350",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Manuelito",
+      4
+     ]
+    ],
+    "winner": "All In You",
+    "n_sel": 1
+   },
+   {
+    "race": "20261106_aintree_1500",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "JPR One",
+      2
+     ]
+    ],
+    "winner": "Rubaud",
+    "n_sel": 1
+   },
+   {
+    "race": "20261106_fontwell_1435",
+    "ran": 8,
+    "placed": 2,
+    "picks": [
+     [
+      "So You Know",
+      4
+     ]
+    ],
+    "winner": "Fire Flyer",
+    "n_sel": 1
+   }
+  ]
+ },
+ "B3": {
+  "name": "Version 4",
+  "test": {
+   "races": 4,
+   "fired": 3,
+   "picks": 3,
+   "winners": 0,
+   "top2": 1,
+   "chance_w": 0.43452380952380953,
+   "chance_2": 0.8690476190476191,
+   "alone": 0,
+   "missed": 3
+  },
+  "in_sample": {
+   "races": 16,
+   "fired": 14,
+   "picks": 14,
+   "winners": 6,
+   "top2": 7,
+   "chance_w": 2.447619047619048,
+   "chance_2": 5.038095238095238,
+   "alone": 6,
+   "missed": 8
+  },
+  "all": {
+   "races": 20,
+   "fired": 17,
+   "picks": 17,
+   "winners": 6,
+   "top2": 8,
+   "chance_w": 2.882142857142857,
+   "chance_2": 5.907142857142857,
+   "alone": 6,
+   "missed": 11
+  },
+  "races": [
+   {
+    "race": "20220108_lingfield_aw_1345",
+    "ran": 5,
+    "placed": 2,
+    "picks": [
+     [
+      "Creationist",
+      3
+     ]
+    ],
+    "winner": "Trevolli",
+    "n_sel": 1
+   },
+   {
+    "race": "20220110_ludlow_1515",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Method Madness",
+      6
+     ]
+    ],
+    "winner": "Java Point",
+    "n_sel": 1
+   },
+   {
+    "race": "20220121_lingfield_1350",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Financier",
+      7
+     ]
+    ],
+    "winner": "Frero Banbou",
+    "n_sel": 1
+   },
+   {
+    "race": "20220123_lingfield_1500",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Two For Gold",
+      1
+     ]
+    ],
+    "winner": "Two For Gold",
+    "n_sel": 1
+   },
+   {
+    "race": "20220128_doncaster_1315",
+    "ran": 7,
+    "placed": 3,
+    "picks": [
+     [
+      "Funambule Sivola",
+      1
+     ]
+    ],
+    "winner": "Funambule Sivola",
+    "n_sel": 1
+   },
+   {
+    "race": "20220129_doncaster_1410",
+    "ran": 5,
+    "placed": 2,
+    "picks": [],
+    "winner": "Miss Heritage",
+    "n_sel": 0
+   },
+   {
+    "race": "20220213_southwell_aw_1520",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Flying Instructor",
+      4
+     ]
+    ],
+    "winner": "Chase The Dollar",
+    "n_sel": 1
+   },
+   {
+    "race": "20220214_catterick_1515",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Omar Maretti",
+    "n_sel": 0
+   },
+   {
+    "race": "20220215_newcastle_aw_1640",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Wise Eagle",
+      4
+     ]
+    ],
+    "winner": "Sir Chauvelin",
+    "n_sel": 1
+   },
+   {
+    "race": "20220217_leicester_1445",
+    "ran": 4,
+    "placed": 2,
+    "picks": [
+     [
+      "Nelson River",
+      1
+     ]
+    ],
+    "winner": "Nelson River",
+    "n_sel": 1
+   },
+   {
+    "race": "20220219_haydock_1405",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Thomas Darby",
+      5
+     ]
+    ],
+    "winner": "Wholestone",
+    "n_sel": 1
+   },
+   {
+    "race": "20220223_doncaster_1600",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Boss Man Fred",
+      2
+     ]
+    ],
+    "winner": "Silva Eclipse",
+    "n_sel": 1
+   },
+   {
+    "race": "20220224_newcastle_aw_1830",
+    "ran": 5,
+    "placed": 2,
+    "picks": [
+     [
+      "Gowanlad",
+      1
+     ]
+    ],
+    "winner": "Gowanlad",
+    "n_sel": 1
+   },
+   {
+    "race": "20220309_fontwell_1440",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Grangeclare Glory",
+      4
+     ]
+    ],
+    "winner": "Royaume Uni",
+    "n_sel": 1
+   },
+   {
+    "race": "20220311_newcastle_1540",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Peak Time",
+      1
+     ]
+    ],
+    "winner": "Peak Time",
+    "n_sel": 1
+   },
+   {
+    "race": "20261106_aintree_1240",
+    "ran": 4,
+    "placed": 2,
+    "picks": [
+     [
+      "Risky Obsession",
+      1
+     ]
+    ],
+    "winner": "Risky Obsession",
+    "n_sel": 1
+   },
+   {
+    "race": "20261106_aintree_1315",
+    "ran": 5,
+    "placed": 2,
+    "picks": [],
+    "winner": "Off The Jury",
+    "n_sel": 0
+   },
+   {
+    "race": "20261106_aintree_1350",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Manuelito",
+      4
+     ]
+    ],
+    "winner": "All In You",
+    "n_sel": 1
+   },
+   {
+    "race": "20261106_aintree_1500",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "JPR One",
+      2
+     ]
+    ],
+    "winner": "Rubaud",
+    "n_sel": 1
+   },
+   {
+    "race": "20261106_fontwell_1435",
+    "ran": 8,
+    "placed": 2,
+    "picks": [
+     [
+      "So You Know",
+      4
+     ]
+    ],
+    "winner": "Fire Flyer",
+    "n_sel": 1
+   }
+  ]
+ },
+ "B4": {
+  "name": "Same body, clear lead",
+  "test": {
+   "races": 2,
+   "fired": 1,
+   "picks": 1,
+   "winners": 0,
+   "top2": 1,
+   "chance_w": 0.16666666666666666,
+   "chance_2": 0.3333333333333333,
+   "alone": 0,
+   "missed": 1
+  },
+  "in_sample": {
+   "races": 18,
+   "fired": 6,
+   "picks": 6,
+   "winners": 2,
+   "top2": 4,
+   "chance_w": 1.0785714285714285,
+   "chance_2": 2.157142857142857,
+   "alone": 2,
+   "missed": 4
+  },
+  "all": {
+   "races": 20,
+   "fired": 7,
+   "picks": 7,
+   "winners": 2,
+   "top2": 5,
+   "chance_w": 1.2452380952380953,
+   "chance_2": 2.4904761904761905,
+   "alone": 2,
+   "missed": 5
+  },
+  "races": [
+   {
+    "race": "20220108_lingfield_aw_1345",
+    "ran": 5,
+    "placed": 2,
+    "picks": [
+     [
+      "Protected Guest",
+      2
+     ]
+    ],
+    "winner": "Trevolli",
+    "n_sel": 1
+   },
+   {
+    "race": "20220110_ludlow_1515",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Jimmy The Digger",
+      5
+     ]
+    ],
+    "winner": "Java Point",
+    "n_sel": 1
+   },
+   {
+    "race": "20220121_lingfield_1350",
+    "ran": 7,
+    "placed": 2,
+    "picks": [],
+    "winner": "Frero Banbou",
+    "n_sel": 0
+   },
+   {
+    "race": "20220123_lingfield_1500",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Two For Gold",
+    "n_sel": 0
+   },
+   {
+    "race": "20220128_doncaster_1315",
+    "ran": 7,
+    "placed": 3,
+    "picks": [],
+    "winner": "Funambule Sivola",
+    "n_sel": 0
+   },
+   {
+    "race": "20220129_doncaster_1410",
+    "ran": 5,
+    "placed": 2,
+    "picks": [],
+    "winner": "Miss Heritage",
+    "n_sel": 0
+   },
+   {
+    "race": "20220213_southwell_aw_1520",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Carn A Chlamain",
+      7
+     ]
+    ],
+    "winner": "Chase The Dollar",
+    "n_sel": 1
+   },
+   {
+    "race": "20220214_catterick_1515",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Omar Maretti",
+    "n_sel": 0
+   },
+   {
+    "race": "20220215_newcastle_aw_1640",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Sir Chauvelin",
+    "n_sel": 0
+   },
+   {
+    "race": "20220217_leicester_1445",
+    "ran": 4,
+    "placed": 2,
+    "picks": [
+     [
+      "Nelson River",
+      1
+     ]
+    ],
+    "winner": "Nelson River",
+    "n_sel": 1
+   },
+   {
+    "race": "20220219_haydock_1405",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Wholestone",
+    "n_sel": 0
+   },
+   {
+    "race": "20220223_doncaster_1600",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Silva Eclipse",
+    "n_sel": 0
+   },
+   {
+    "race": "20220224_newcastle_aw_1830",
+    "ran": 5,
+    "placed": 2,
+    "picks": [
+     [
+      "Blazing Hot",
+      2
+     ]
+    ],
+    "winner": "Gowanlad",
+    "n_sel": 1
+   },
+   {
+    "race": "20220309_fontwell_1440",
+    "ran": 7,
+    "placed": 2,
+    "picks": [],
+    "winner": "Royaume Uni",
+    "n_sel": 0
+   },
+   {
+    "race": "20220311_newcastle_1540",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Peak Time",
+    "n_sel": 0
+   },
+   {
+    "race": "20261106_aintree_1240",
+    "ran": 4,
+    "placed": 2,
+    "picks": [],
+    "winner": "Risky Obsession",
+    "n_sel": 0
+   },
+   {
+    "race": "20261106_aintree_1315",
+    "ran": 5,
+    "placed": 2,
+    "picks": [],
+    "winner": "Off The Jury",
+    "n_sel": 0
+   },
+   {
+    "race": "20261106_aintree_1350",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "All In You",
+      1
+     ]
+    ],
+    "winner": "All In You",
+    "n_sel": 1
+   },
+   {
+    "race": "20261106_aintree_1500",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "JPR One",
+      2
+     ]
+    ],
+    "winner": "Rubaud",
+    "n_sel": 1
+   },
+   {
+    "race": "20261106_fontwell_1435",
+    "ran": 8,
+    "placed": 2,
+    "picks": [],
+    "winner": "Fire Flyer",
+    "n_sel": 0
+   }
+  ]
+ },
+ "B5": {
+  "name": "Same body in both planes",
+  "test": {
+   "races": 2,
+   "fired": 0,
+   "picks": 0,
+   "winners": 0,
+   "top2": 0,
+   "chance_w": 0.0,
+   "chance_2": 0.0,
+   "alone": 0,
+   "missed": 0
+  },
+  "in_sample": {
+   "races": 18,
+   "fired": 4,
+   "picks": 4,
+   "winners": 1,
+   "top2": 2,
+   "chance_w": 0.5714285714285714,
+   "chance_2": 1.2857142857142856,
+   "alone": 1,
+   "missed": 3
+  },
+  "all": {
+   "races": 20,
+   "fired": 4,
+   "picks": 4,
+   "winners": 1,
+   "top2": 2,
+   "chance_w": 0.5714285714285714,
+   "chance_2": 1.2857142857142856,
+   "alone": 1,
+   "missed": 3
+  },
+  "races": [
+   {
+    "race": "20220108_lingfield_aw_1345",
+    "ran": 5,
+    "placed": 2,
+    "picks": [],
+    "winner": "Trevolli",
+    "n_sel": 0
+   },
+   {
+    "race": "20220110_ludlow_1515",
+    "ran": 7,
+    "placed": 2,
+    "picks": [],
+    "winner": "Java Point",
+    "n_sel": 0
+   },
+   {
+    "race": "20220121_lingfield_1350",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Cedar Hill",
+      5
+     ]
+    ],
+    "winner": "Frero Banbou",
+    "n_sel": 1
+   },
+   {
+    "race": "20220123_lingfield_1500",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Two For Gold",
+    "n_sel": 0
+   },
+   {
+    "race": "20220128_doncaster_1315",
+    "ran": 7,
+    "placed": 3,
+    "picks": [
+     [
+      "Before Midnight",
+      2
+     ]
+    ],
+    "winner": "Funambule Sivola",
+    "n_sel": 1
+   },
+   {
+    "race": "20220129_doncaster_1410",
+    "ran": 5,
+    "placed": 2,
+    "picks": [],
+    "winner": "Miss Heritage",
+    "n_sel": 0
+   },
+   {
+    "race": "20220213_southwell_aw_1520",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Carn A Chlamain",
+      7
+     ]
+    ],
+    "winner": "Chase The Dollar",
+    "n_sel": 1
+   },
+   {
+    "race": "20220214_catterick_1515",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Omar Maretti",
+    "n_sel": 0
+   },
+   {
+    "race": "20220215_newcastle_aw_1640",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Sir Chauvelin",
+    "n_sel": 0
+   },
+   {
+    "race": "20220217_leicester_1445",
+    "ran": 4,
+    "placed": 2,
+    "picks": [],
+    "winner": "Nelson River",
+    "n_sel": 0
+   },
+   {
+    "race": "20220219_haydock_1405",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Wholestone",
+    "n_sel": 0
+   },
+   {
+    "race": "20220223_doncaster_1600",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Silva Eclipse",
+    "n_sel": 0
+   },
+   {
+    "race": "20220224_newcastle_aw_1830",
+    "ran": 5,
+    "placed": 2,
+    "picks": [],
+    "winner": "Gowanlad",
+    "n_sel": 0
+   },
+   {
+    "race": "20220309_fontwell_1440",
+    "ran": 7,
+    "placed": 2,
+    "picks": [],
+    "winner": "Royaume Uni",
+    "n_sel": 0
+   },
+   {
+    "race": "20220311_newcastle_1540",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Peak Time",
+    "n_sel": 0
+   },
+   {
+    "race": "20261106_aintree_1240",
+    "ran": 4,
+    "placed": 2,
+    "picks": [],
+    "winner": "Risky Obsession",
+    "n_sel": 0
+   },
+   {
+    "race": "20261106_aintree_1315",
+    "ran": 5,
+    "placed": 2,
+    "picks": [],
+    "winner": "Off The Jury",
+    "n_sel": 0
+   },
+   {
+    "race": "20261106_aintree_1350",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "All In You",
+      1
+     ]
+    ],
+    "winner": "All In You",
+    "n_sel": 1
+   },
+   {
+    "race": "20261106_aintree_1500",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Rubaud",
+    "n_sel": 0
+   },
+   {
+    "race": "20261106_fontwell_1435",
+    "ran": 8,
+    "placed": 2,
+    "picks": [],
+    "winner": "Fire Flyer",
+    "n_sel": 0
+   }
+  ]
+ },
+ "B6": {
+  "name": "Same body on both charts",
+  "test": {
+   "races": 2,
+   "fired": 0,
+   "picks": 0,
+   "winners": 0,
+   "top2": 0,
+   "chance_w": 0.0,
+   "chance_2": 0.0,
+   "alone": 0,
+   "missed": 0
+  },
+  "in_sample": {
+   "races": 18,
+   "fired": 3,
+   "picks": 4,
+   "winners": 2,
+   "top2": 2,
+   "chance_w": 0.7023809523809523,
+   "chance_2": 1.4047619047619047,
+   "alone": 1,
+   "missed": 1
+  },
+  "all": {
+   "races": 20,
+   "fired": 3,
+   "picks": 4,
+   "winners": 2,
+   "top2": 2,
+   "chance_w": 0.7023809523809523,
+   "chance_2": 1.4047619047619047,
+   "alone": 1,
+   "missed": 1
+  },
+  "races": [
+   {
+    "race": "20220108_lingfield_aw_1345",
+    "ran": 5,
+    "placed": 2,
+    "picks": [],
+    "winner": "Trevolli",
+    "n_sel": 0
+   },
+   {
+    "race": "20220110_ludlow_1515",
+    "ran": 7,
+    "placed": 2,
+    "picks": [],
+    "winner": "Java Point",
+    "n_sel": 0
+   },
+   {
+    "race": "20220121_lingfield_1350",
+    "ran": 7,
+    "placed": 2,
+    "picks": [],
+    "winner": "Frero Banbou",
+    "n_sel": 0
+   },
+   {
+    "race": "20220123_lingfield_1500",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Two For Gold",
+    "n_sel": 0
+   },
+   {
+    "race": "20220128_doncaster_1315",
+    "ran": 7,
+    "placed": 3,
+    "picks": [],
+    "winner": "Funambule Sivola",
+    "n_sel": 0
+   },
+   {
+    "race": "20220129_doncaster_1410",
+    "ran": 5,
+    "placed": 2,
+    "picks": [],
+    "winner": "Miss Heritage",
+    "n_sel": 0
+   },
+   {
+    "race": "20220213_southwell_aw_1520",
+    "ran": 7,
+    "placed": 2,
+    "picks": [],
+    "winner": "Chase The Dollar",
+    "n_sel": 0
+   },
+   {
+    "race": "20220214_catterick_1515",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Omar Maretti",
+    "n_sel": 0
+   },
+   {
+    "race": "20220215_newcastle_aw_1640",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Sir Chauvelin",
+    "n_sel": 0
+   },
+   {
+    "race": "20220217_leicester_1445",
+    "ran": 4,
+    "placed": 2,
+    "picks": [
+     [
+      "Nelson River",
+      1
+     ]
+    ],
+    "winner": "Nelson River",
+    "n_sel": 1
+   },
+   {
+    "race": "20220219_haydock_1405",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Molly Ollys Wishes",
+      6
+     ]
+    ],
+    "winner": "Wholestone",
+    "n_sel": 1
+   },
+   {
+    "race": "20220223_doncaster_1600",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Silva Eclipse",
+    "n_sel": 0
+   },
+   {
+    "race": "20220224_newcastle_aw_1830",
+    "ran": 5,
+    "placed": 2,
+    "picks": [],
+    "winner": "Gowanlad",
+    "n_sel": 0
+   },
+   {
+    "race": "20220309_fontwell_1440",
+    "ran": 7,
+    "placed": 2,
+    "picks": [],
+    "winner": "Royaume Uni",
+    "n_sel": 0
+   },
+   {
+    "race": "20220311_newcastle_1540",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Peak Time",
+    "n_sel": 0
+   },
+   {
+    "race": "20261106_aintree_1240",
+    "ran": 4,
+    "placed": 2,
+    "picks": [],
+    "winner": "Risky Obsession",
+    "n_sel": 0
+   },
+   {
+    "race": "20261106_aintree_1315",
+    "ran": 5,
+    "placed": 2,
+    "picks": [],
+    "winner": "Off The Jury",
+    "n_sel": 0
+   },
+   {
+    "race": "20261106_aintree_1350",
+    "ran": 7,
+    "placed": 2,
+    "picks": [
+     [
+      "Dedicated Hero",
+      6
+     ],
+     [
+      "All In You",
+      1
+     ]
+    ],
+    "winner": "All In You",
+    "n_sel": 2
+   },
+   {
+    "race": "20261106_aintree_1500",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Rubaud",
+    "n_sel": 0
+   },
+   {
+    "race": "20261106_fontwell_1435",
+    "ran": 8,
+    "placed": 2,
+    "picks": [],
+    "winner": "Fire Flyer",
+    "n_sel": 0
+   }
+  ]
+ }
+}

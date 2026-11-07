@@ -1,0 +1,171 @@
+{
+ "race": "20220215_newcastle_aw_1640",
+ "workbook": "race_batch_20220215_newcastle_aw_1640_jupiter_tables.xlsx",
+ "runners": [
+  "P01",
+  "P03",
+  "P05",
+  "P07",
+  "P09",
+  "P11"
+ ],
+ "names": {
+  "P01": "1 Sir Chauvelin / Paul Mulrennan",
+  "P03": "2 Alba Rose / Joe Fanning",
+  "P05": "3 Wise Eagle / Graham Lee",
+  "P07": "4 Onesmoothoperator / Harry Russell",
+  "P09": "5 Aced It / Jack Mitchell",
+  "P11": "6 Resumption / Tom Marquand"
+ },
+ "rules": [
+  {
+   "id": "R25",
+   "name": "Pallas reached twice",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R28",
+   "name": "Chiron to Jupiter, lit by Sun / Moon",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R1b",
+   "name": "Moon to X, sky X to Jupiter",
+   "selected": [
+    "P05",
+    "P07"
+   ],
+   "cells": {
+    "P05": [
+     "S Moon → J Mercury [RA 134.9951 135 whole 57.21] + S Mercury → J Jupiter [Dec 24.2740 15×φ golden 79.48]"
+    ],
+    "P07": [
+     "S Moon → H Pallas [Dec 33.9701 21×φ golden 53.76] + S Pallas → H Jupiter [RA 133.3313 133.333 ninth 99.75]",
+     "S Moon → J Eris [Dec 27.9961 28 whole 65.10] + S Eris → J Jupiter [RA 66.3315 41×φ golden 57.01]"
+    ]
+   }
+  },
+  {
+   "id": "R7",
+   "name": "Line star on own Jupiter and on one body both charts",
+   "selected": [
+    "P05",
+    "P07"
+   ],
+   "cells": {
+    "P05": [
+     "H Sadalsuud (Jupiter,Sun) → H Jupiter [RA 126.2160 78×φ golden 50.65]; on both charts' Sadalsuud: Saturn"
+    ],
+    "P07": [
+     "J Sirius (Moon) → J Jupiter [Dec 0.0650 conj conj 61.35]; on both charts' Sirius: Uranus"
+    ]
+   }
+  },
+  {
+   "id": "R26",
+   "name": "Royal line star on own Jupiter",
+   "selected": [
+    "P11"
+   ],
+   "cells": {
+    "P11": [
+     "J Fomalhaut → J Jupiter [RA 0.1648 conj conj 79.24]; line: S Sun → S Fomalhaut [Dec 16.9988 17 whole 88.65] | S Moon → S Fomalhaut [RA 155.0128 155 whole 12.93]"
+    ]
+   }
+  },
+  {
+   "id": "R40",
+   "name": "Node axis",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R42",
+   "name": "Moon on a same body",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R1",
+   "name": "Sun / Moon on one body both charts, sky X to Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B1",
+   "name": "Natal body on a strong line star (filter)",
+   "selected": [
+    "P01",
+    "P03",
+    "P05",
+    "P07",
+    "P09"
+   ],
+   "cells": {
+    "P01": [
+     "H Alkaid → H Saturn RA 0.1797 conj (77.48)",
+     "J Vindemiatrix → J Pallas RA 0.1415 conj (82.02)"
+    ],
+    "P03": [
+     "H Vindemiatrix → H Makemake RA 0.1899 conj (76.28)"
+    ],
+    "P05": [
+     "J Vindemiatrix → J Orcus Dec 0.0182 conj (88.22)"
+    ],
+    "P07": [
+     "H Algorab → H Ketu Dec 0.0322 conj (79.70)",
+     "H Vindemiatrix → H Makemake RA 0.2650 conj (67.79)",
+     "H Vindemiatrix → H Transpluto Dec 0.0364 conj (77.20)",
+     "J Vindemiatrix → J Haumea RA 0.0927 conj (88.02)"
+    ],
+    "P09": [
+     "J Algorab → J Haumea RA 0.0916 conj (88.16)"
+    ]
+   }
+  },
+  {
+   "id": "B2",
+   "name": "Top natal body on a strong line star",
+   "selected": [
+    "P05"
+   ],
+   "cells": {
+    "P05": [
+     "J Vindemiatrix → J Orcus Dec 0.0182 conj (88.22) (top score in the field)"
+    ]
+   }
+  },
+  {
+   "id": "B3",
+   "name": "Version 4",
+   "selected": [
+    "P05"
+   ],
+   "cells": {
+    "P05": [
+     "step 2: J Vindemiatrix → J Orcus Dec 0.0182 conj (88.22) (top score in the field)"
+    ]
+   }
+  },
+  {
+   "id": "B4",
+   "name": "Same body, clear lead",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B5",
+   "name": "Same body in both planes",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B6",
+   "name": "Same body on both charts",
+   "selected": [],
+   "cells": {}
+  }
+ ]
+}

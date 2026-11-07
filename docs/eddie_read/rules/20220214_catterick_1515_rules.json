@@ -1,0 +1,144 @@
+{
+ "race": "20220214_catterick_1515",
+ "workbook": "race_batch_20220214_catterick_1515_jupiter_tables.xlsx",
+ "runners": [
+  "P01",
+  "P03",
+  "P05",
+  "P07",
+  "P09",
+  "P11"
+ ],
+ "names": {
+  "P01": "1 Almazhar Garde / Luca Morgan",
+  "P03": "2 Marown / Brian Hughes",
+  "P05": "3 Omar Maretti / Kielan Woods",
+  "P07": "4 Winds Of Fire / Adam Wedge",
+  "P09": "5 Brian Boranha / Callum Bewley",
+  "P11": "6 The Paddy Pie / Sean Quinlan"
+ },
+ "rules": [
+  {
+   "id": "R25",
+   "name": "Pallas reached twice",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R28",
+   "name": "Chiron to Jupiter, lit by Sun / Moon",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R1b",
+   "name": "Moon to X, sky X to Jupiter",
+   "selected": [
+    "P07",
+    "P09"
+   ],
+   "cells": {
+    "P07": [
+     "S Moon → H Juno [RA 0.3676 conj conj 56.99] + S Juno → H Jupiter [RA 170.0058 170 whole 50.21]"
+    ],
+    "P09": [
+     "S Moon → H Makemake [RA 63.1051 39×φ golden 89.35] + S Makemake → H Jupiter [RA 174.7498 108×φ golden 87.51]"
+    ]
+   }
+  },
+  {
+   "id": "R7",
+   "name": "Line star on own Jupiter and on one body both charts",
+   "selected": [
+    "P09"
+   ],
+   "cells": {
+    "P09": [
+     "H Galactic Centre (Sun) → H Jupiter [Dec 38.0041 38 whole 63.06]; on both charts' Galactic Centre: Mars"
+    ]
+   }
+  },
+  {
+   "id": "R26",
+   "name": "Royal line star on own Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R40",
+   "name": "Node axis",
+   "selected": [
+    "P01",
+    "P07"
+   ],
+   "cells": {
+    "P01": [
+     "S Moon conj J Rahu [Dec 0.0260 conj conj 83.41]; J Pollux (Sun) → J Ketu [RA 153.7099 95×φ golden 80.22] | J Unukalhai (Sun,Moon) → J Ketu [RA 33.9753 21×φ golden 80.18]"
+    ],
+    "P07": [
+     "S Sun conj J Rahu [RA 0.3830 conj conj 55.46]; J Vega (Sun) → J Ketu [RA 130.9997 131 whole 97.32]"
+    ]
+   }
+  },
+  {
+   "id": "R42",
+   "name": "Moon on a same body",
+   "selected": [
+    "P01"
+   ],
+   "cells": {
+    "P01": [
+     "S Neptune → J Neptune RA 44.3816 44.4444 ninth (-0.0629) | S Moon → J Neptune [Dec 42.0695 26×φ golden 96.37]"
+    ]
+   }
+  },
+  {
+   "id": "R1",
+   "name": "Sun / Moon on one body both charts, sky X to Jupiter",
+   "selected": [
+    "P07"
+   ],
+   "cells": {
+    "P07": [
+     "S Moon → H Juno [RA 0.3676 conj conj 56.99], → J Juno [RA 50.9943 51 whole 50.82]; S Juno → H Jupiter [RA 170.0058 170 whole 50.21]"
+    ]
+   }
+  },
+  {
+   "id": "B1",
+   "name": "Natal body on a strong line star (filter)",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B2",
+   "name": "Top natal body on a strong line star",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B3",
+   "name": "Version 4",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B4",
+   "name": "Same body, clear lead",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B5",
+   "name": "Same body in both planes",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B6",
+   "name": "Same body on both charts",
+   "selected": [],
+   "cells": {}
+  }
+ ]
+}

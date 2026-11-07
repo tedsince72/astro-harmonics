@@ -1,0 +1,158 @@
+{
+ "race": "20261106_fontwell_1435",
+ "workbook": "race_batch_20261106_fontwell_1435_jupiter_tables.xlsx",
+ "runners": [
+  "P01",
+  "P03",
+  "P05",
+  "P09",
+  "P11",
+  "P13",
+  "P15"
+ ],
+ "names": {
+  "P01": "1 Fire Flyer / Richie McLernon",
+  "P03": "2 Lynx De Thaix / Gavin Sheehan",
+  "P05": "3 Donnie Azoff / Isabelle Ryder",
+  "P09": "5 He's A Latchico / Caoilin Quinn",
+  "P11": "6 So You Know / Tom Bellamy",
+  "P13": "7 Motazzen / Paul O'Brien",
+  "P15": "8 The Bellhop / Freddie Mitchell"
+ },
+ "rules": [
+  {
+   "id": "R25",
+   "name": "Pallas reached twice",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R28",
+   "name": "Chiron to Jupiter, lit by Sun / Moon",
+   "selected": [
+    "P13"
+   ],
+   "cells": {
+    "P13": [
+     "S Moon → H Chiron [RA 166.6126 166.667 ninth 95.37] ++ S Chiron → J Jupiter [RA 133.3847 133.333 ninth 93.84]"
+    ]
+   }
+  },
+  {
+   "id": "R1b",
+   "name": "Moon to X, sky X to Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R7",
+   "name": "Line star on own Jupiter and on one body both charts",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R26",
+   "name": "Royal line star on own Jupiter",
+   "selected": [
+    "P01"
+   ],
+   "cells": {
+    "P01": [
+     "H Antares → H Jupiter [Dec 11.0032 11 whole 70.71]; line: S Sun → S Antares [RA 25.9876 26 whole 14.57]",
+     "J Regulus → J Jupiter [RA 166.6000 166.667 ninth 94.29]; line: S Moon → S Regulus [Dec 21.0108 21 whole 21.15]"
+    ]
+   }
+  },
+  {
+   "id": "R40",
+   "name": "Node axis",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R42",
+   "name": "Moon on a same body",
+   "selected": [
+    "P13"
+   ],
+   "cells": {
+    "P13": [
+     "S Jupiter → J Jupiter Dec 4.1475 4.14 silver (+0.0054) | S Moon → J Jupiter [Dec 18.8878 18.8889 ninth 99.21]"
+    ]
+   }
+  },
+  {
+   "id": "R1",
+   "name": "Sun / Moon on one body both charts, sky X to Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B1",
+   "name": "Natal body on a strong line star (filter)",
+   "selected": [
+    "P01",
+    "P05",
+    "P09",
+    "P11"
+   ],
+   "cells": {
+    "P01": [
+     "J Rigel → J Ceres Dec 0.0289 conj (81.63)",
+     "J Rigel → J Ketu Dec 0.0102 conj (93.31)"
+    ],
+    "P05": [
+     "J Algol → J Mars RA 0.1453 conj (81.57)"
+    ],
+    "P09": [
+     "H Scheat → H Neptune RA 0.1337 conj (82.97)"
+    ],
+    "P11": [
+     "J Orion Nebula Cluster → J Juno Dec 0.0019 conj (98.76)"
+    ]
+   }
+  },
+  {
+   "id": "B2",
+   "name": "Top natal body on a strong line star",
+   "selected": [
+    "P11"
+   ],
+   "cells": {
+    "P11": [
+     "J Orion Nebula Cluster → J Juno Dec 0.0019 conj (98.76) (top score in the field)"
+    ]
+   }
+  },
+  {
+   "id": "B3",
+   "name": "Version 4",
+   "selected": [
+    "P11"
+   ],
+   "cells": {
+    "P11": [
+     "step 2: J Orion Nebula Cluster → J Juno Dec 0.0019 conj (98.76) (top score in the field)"
+    ]
+   }
+  },
+  {
+   "id": "B4",
+   "name": "Same body, clear lead",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B5",
+   "name": "Same body in both planes",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B6",
+   "name": "Same body on both charts",
+   "selected": [],
+   "cells": {}
+  }
+ ]
+}

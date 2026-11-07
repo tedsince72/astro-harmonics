@@ -1,0 +1,157 @@
+{
+ "race": "20220217_leicester_1445",
+ "workbook": "race_batch_20220217_leicester_1445_jupiter_tables.xlsx",
+ "runners": [
+  "P01",
+  "P03",
+  "P05",
+  "P07"
+ ],
+ "names": {
+  "P01": "1 Fransham / Jack Andrews",
+  "P03": "3 Nelson River / Harry Bannister",
+  "P05": "4 Nickolson / Jonjo O'Neill Jr",
+  "P07": "5 Stepney Causeway / Harry Skelton"
+ },
+ "rules": [
+  {
+   "id": "R25",
+   "name": "Pallas reached twice",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R28",
+   "name": "Chiron to Jupiter, lit by Sun / Moon",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R1b",
+   "name": "Moon to X, sky X to Jupiter",
+   "selected": [
+    "P01",
+    "P03"
+   ],
+   "cells": {
+    "P01": [
+     "S Moon → J Rahu [RA 24.9986 25 whole 86.15] + S Rahu → J Jupiter [Dec 11.0008 11 whole 91.80]"
+    ],
+    "P03": [
+     "S Moon → J Transpluto [RA 17.9437 φ^6 phi power 98.68] + S Transpluto → J Jupiter [Dec 22.6591 14×φ golden 63.26]"
+    ]
+   }
+  },
+  {
+   "id": "R7",
+   "name": "Line star on own Jupiter and on one body both charts",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R26",
+   "name": "Royal line star on own Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R40",
+   "name": "Node axis",
+   "selected": [
+    "P05"
+   ],
+   "cells": {
+    "P05": [
+     "S Jupiter conj J Ketu [RA 0.2239 conj conj 72.37]; J Sadalmelik (Sun) → J Rahu [RA 168.9958 169 whole 62.38]"
+    ]
+   }
+  },
+  {
+   "id": "R42",
+   "name": "Moon on a same body",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R1",
+   "name": "Sun / Moon on one body both charts, sky X to Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B1",
+   "name": "Natal body on a strong line star (filter)",
+   "selected": [
+    "P01",
+    "P03"
+   ],
+   "cells": {
+    "P01": [
+     "J Mirfak → J Pallas RA 0.2106 conj (73.89)"
+    ],
+    "P03": [
+     "H Alkes → H Mercury Dec 0.0094 conj (93.85)",
+     "J Mirfak → J Ketu RA 0.4052 conj (53.27)"
+    ]
+   }
+  },
+  {
+   "id": "B2",
+   "name": "Top natal body on a strong line star",
+   "selected": [
+    "P03"
+   ],
+   "cells": {
+    "P03": [
+     "H Alkes → H Mercury Dec 0.0094 conj (93.85) (top score in the field)"
+    ]
+   }
+  },
+  {
+   "id": "B3",
+   "name": "Version 4",
+   "selected": [
+    "P03"
+   ],
+   "cells": {
+    "P03": [
+     "step 1, hub landing held alone: hub body H Mercury → H Alkes Dec 0.0094 conj (93.85)"
+    ]
+   }
+  },
+  {
+   "id": "B4",
+   "name": "Same body, clear lead",
+   "selected": [
+    "P03"
+   ],
+   "cells": {
+    "P03": [
+     "4 same-body cells >= 50, next 2 (5 Stepney Causeway / Harry Skelton), lead 2",
+     "S Juno → H Juno RA 177.7114 177.778 ninth (94.81)",
+     "S Gonggong → H Gonggong Dec 1.7775 1.77778 ninth (98.15)",
+     "S Venus → J Venus Dec 40.4533 25×φ golden (85.45)",
+     "S Juno → J Juno Dec 14.5657 9×φ golden (80.15)"
+    ]
+   }
+  },
+  {
+   "id": "B5",
+   "name": "Same body in both planes",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B6",
+   "name": "Same body on both charts",
+   "selected": [
+    "P03"
+   ],
+   "cells": {
+    "P03": [
+     "Juno: S Juno → H Juno RA 177.7114 177.778 ninth (94.81) | S Juno → J Juno Dec 14.5657 9×φ golden (80.15)"
+    ]
+   }
+  }
+ ]
+}

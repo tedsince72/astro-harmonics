@@ -1,0 +1,111 @@
+{
+ "race": "20220129_doncaster_1410",
+ "workbook": "race_batch_20220129_doncaster_1410_jupiter_tables.xlsx",
+ "runners": [
+  "P01",
+  "P03",
+  "P05",
+  "P07",
+  "P09"
+ ],
+ "names": {
+  "P01": "1 Miranda / Bryony Frost",
+  "P03": "2 Western Victory / Tom Bellamy",
+  "P05": "3 Anna Bunina / James Bowen",
+  "P07": "4 Dazzling Glory / Harry Skelton",
+  "P09": "5 Miss Heritage / Sean Quinlan"
+ },
+ "rules": [
+  {
+   "id": "R25",
+   "name": "Pallas reached twice",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R28",
+   "name": "Chiron to Jupiter, lit by Sun / Moon",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R1b",
+   "name": "Moon to X, sky X to Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R7",
+   "name": "Line star on own Jupiter and on one body both charts",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R26",
+   "name": "Royal line star on own Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R40",
+   "name": "Node axis",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R42",
+   "name": "Moon on a same body",
+   "selected": [
+    "P03"
+   ],
+   "cells": {
+    "P03": [
+     "S Chiron → H Chiron RA 27.4787 17×φ golden (-0.0278) | S Moon → H Chiron [Dec 24.0001 24 whole 99.17]",
+     "S Jupiter → J Jupiter Dec 4.9722 5 whole (-0.0278) | S Moon → J Jupiter [Dec 11.9992 12 whole 92.52]"
+    ]
+   }
+  },
+  {
+   "id": "R1",
+   "name": "Sun / Moon on one body both charts, sky X to Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B1",
+   "name": "Natal body on a strong line star (filter)",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B2",
+   "name": "Top natal body on a strong line star",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B3",
+   "name": "Version 4",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B4",
+   "name": "Same body, clear lead",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B5",
+   "name": "Same body in both planes",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B6",
+   "name": "Same body on both charts",
+   "selected": [],
+   "cells": {}
+  }
+ ]
+}

@@ -1,0 +1,216 @@
+{
+ "race": "20220121_lingfield_1350",
+ "workbook": "race_batch_20220121_lingfield_1350_jupiter_tables.xlsx",
+ "runners": [
+  "P01",
+  "P03",
+  "P05",
+  "P07",
+  "P09",
+  "P11",
+  "P13"
+ ],
+ "names": {
+  "P01": "1 Eclair D'Ainay / Harry Skelton",
+  "P03": "2 Financier / Richard Patrick",
+  "P05": "3 Frero Banbou / Charlie Deutsch",
+  "P07": "4 One True King / Sam Twiston-Davies",
+  "P09": "5 Cedar Hill / Jonathan Burke",
+  "P11": "6 Le Ligerien / Ben Jones",
+  "P13": "7 Beaufort West / Page Fuller"
+ },
+ "rules": [
+  {
+   "id": "R25",
+   "name": "Pallas reached twice",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R28",
+   "name": "Chiron to Jupiter, lit by Sun / Moon",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R1b",
+   "name": "Moon to X, sky X to Jupiter",
+   "selected": [
+    "P01",
+    "P09"
+   ],
+   "cells": {
+    "P01": [
+     "S Moon → H Quaoar [Dec 26.1837 10×φ^2 phi power 94.99] + S Quaoar → H Jupiter [RA 171.0047 171 whole 58.49]"
+    ],
+    "P09": [
+     "S Moon → J Mars [Dec 33.9973 34 whole 75.09] + S Mars → J Jupiter [RA 0.0649 conj conj 91.53]"
+    ]
+   }
+  },
+  {
+   "id": "R7",
+   "name": "Line star on own Jupiter and on one body both charts",
+   "selected": [
+    "P03"
+   ],
+   "cells": {
+    "P03": [
+     "J Menkar (Sun) → J Jupiter [RA 156.9997 157 whole 97.20]; on both charts' Menkar: Ketu"
+    ]
+   }
+  },
+  {
+   "id": "R26",
+   "name": "Royal line star on own Jupiter",
+   "selected": [
+    "P03",
+    "P07",
+    "P13"
+   ],
+   "cells": {
+    "P03": [
+     "H Regulus → H Jupiter [RA 83.0028 83 whole 73.99]; line: S Moon → S Regulus [RA 13.3352 13.3333 ninth 97.81]"
+    ],
+    "P07": [
+     "H Fomalhaut → H Jupiter [Dec 46.9997 47 whole 97.03]; line: S Sun → S Fomalhaut [RA 40.9968 41 whole 70.51]"
+    ],
+    "P13": [
+     "H Regulus → H Jupiter [Dec 11.0964 φ^5 phi power 78.89]; line: S Moon → S Regulus [RA 13.3352 13.3333 ninth 97.81]"
+    ]
+   }
+  },
+  {
+   "id": "R40",
+   "name": "Node axis",
+   "selected": [
+    "P01",
+    "P13"
+   ],
+   "cells": {
+    "P01": [
+     "S Jupiter conj H Rahu [Dec 0.0792 conj conj 54.15]; H Fomalhaut (Sun) → H Ketu [Dec 40.4533 25×φ golden 85.39]"
+    ],
+    "P13": [
+     "S Jupiter conj H Rahu [Dec 0.0740 conj conj 56.74]; H Alkes (Moon) → H Ketu [Dec 29.1270 18×φ golden 85.80]"
+    ]
+   }
+  },
+  {
+   "id": "R42",
+   "name": "Moon on a same body",
+   "selected": [
+    "P03",
+    "P11"
+   ],
+   "cells": {
+    "P03": [
+     "S Uranus → J Uranus Dec 35.9819 36 whole (-0.0181) | S Moon → J Uranus [RA 133.3199 133.333 ninth 98.39]"
+    ],
+    "P11": [
+     "S Eris → H Eris Dec 2.0176 2 whole (+0.0176) | S Moon → H Eris [Dec 14.1448 14.14 sqrt2 92.59]"
+    ]
+   }
+  },
+  {
+   "id": "R1",
+   "name": "Sun / Moon on one body both charts, sky X to Jupiter",
+   "selected": [
+    "P09"
+   ],
+   "cells": {
+    "P09": [
+     "S Moon → H Mars [RA 34.0049 34 whole 57.21], → J Mars [Dec 33.9973 34 whole 75.09]; S Mars → J Jupiter [RA 0.0649 conj conj 91.53]"
+    ]
+   }
+  },
+  {
+   "id": "B1",
+   "name": "Natal body on a strong line star (filter)",
+   "selected": [
+    "P01",
+    "P03",
+    "P05",
+    "P07",
+    "P09",
+    "P11",
+    "P13"
+   ],
+   "cells": {
+    "P01": [
+     "H Regulus → H Transpluto RA 0.3551 conj (58.25)"
+    ],
+    "P03": [
+     "H Rigel → H Vesta RA 0.0163 conj (97.84)"
+    ],
+    "P05": [
+     "H Regulus → H Transpluto RA 0.0659 conj (91.40)",
+     "H Rigel → H Orcus Dec 0.0138 conj (91.01)"
+    ],
+    "P07": [
+     "H Pleiades → H Mercury Dec 0.0239 conj (84.72)",
+     "H Regulus → H Transpluto RA 0.0671 conj (91.25)",
+     "H Rigel → H Orcus Dec 0.0334 conj (78.97)"
+    ],
+    "P09": [
+     "H Regulus → H Transpluto RA 0.1628 conj (79.47)",
+     "J Rigel → J Eris Dec 0.0047 conj (96.89)"
+    ],
+    "P11": [
+     "J Regulus → J Ceres Dec 0.0416 conj (74.18)"
+    ],
+    "P13": [
+     "H Regulus → H Transpluto RA 0.3369 conj (60.12)"
+    ]
+   }
+  },
+  {
+   "id": "B2",
+   "name": "Top natal body on a strong line star",
+   "selected": [
+    "P03"
+   ],
+   "cells": {
+    "P03": [
+     "H Rigel → H Vesta RA 0.0163 conj (97.84) (top score in the field)"
+    ]
+   }
+  },
+  {
+   "id": "B3",
+   "name": "Version 4",
+   "selected": [
+    "P03"
+   ],
+   "cells": {
+    "P03": [
+     "step 2: H Rigel → H Vesta RA 0.0163 conj (97.84) (top score in the field)"
+    ]
+   }
+  },
+  {
+   "id": "B4",
+   "name": "Same body, clear lead",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B5",
+   "name": "Same body in both planes",
+   "selected": [
+    "P09"
+   ],
+   "cells": {
+    "P09": [
+     "H Sun: S Sun → H Sun RA 164.0028 164 whole (73.99) | S Sun → H Sun Dec 42.3654 10×φ^3 phi power (95.58)"
+    ]
+   }
+  },
+  {
+   "id": "B6",
+   "name": "Same body on both charts",
+   "selected": [],
+   "cells": {}
+  }
+ ]
+}

@@ -1,0 +1,175 @@
+{
+ "race": "20220213_southwell_aw_1520",
+ "workbook": "race_batch_20220213_southwell_aw_1520_jupiter_tables.xlsx",
+ "runners": [
+  "P01",
+  "P03",
+  "P05",
+  "P07",
+  "P09",
+  "P11",
+  "P13"
+ ],
+ "names": {
+  "P01": "1 The Dancing Poet / Harry Russell",
+  "P03": "2 Flying Instructor / Dylan Hogan",
+  "P05": "3 Chase The Dollar / Rossa Ryan",
+  "P07": "4 Deluxe Music / Callum Rodriguez",
+  "P09": "5 Carn A Chlamain / Tom Marquand",
+  "P11": "6 Flamingo Rose / Dougie Costello",
+  "P13": "7 Red Tornado / Jason Hart"
+ },
+ "rules": [
+  {
+   "id": "R25",
+   "name": "Pallas reached twice",
+   "selected": [
+    "P13"
+   ],
+   "cells": {
+    "P13": [
+     "J Pallas: S Moon [RA 51.9951 52 whole 57.24] | J Jupiter [RA 161.8502 100×φ^1 phi power 88.76]"
+    ]
+   }
+  },
+  {
+   "id": "R28",
+   "name": "Chiron to Jupiter, lit by Sun / Moon",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R1b",
+   "name": "Moon to X, sky X to Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R7",
+   "name": "Line star on own Jupiter and on one body both charts",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R26",
+   "name": "Royal line star on own Jupiter",
+   "selected": [
+    "P09"
+   ],
+   "cells": {
+    "P09": [
+     "J Fomalhaut → J Jupiter [RA 0.1648 conj conj 79.24]; line: S Moon → S Fomalhaut [RA 128.0048 128 whole 57.65]"
+    ]
+   }
+  },
+  {
+   "id": "R40",
+   "name": "Node axis",
+   "selected": [
+    "P09"
+   ],
+   "cells": {
+    "P09": [
+     "S Jupiter conj J Ketu [RA 0.0165 conj conj 97.81]; J Procyon (Jupiter) → J Rahu [RA 46.9711 φ^8 phi power 93.63] | J Rasalhague (Sun) → J Rahu [RA 101.9368 63×φ golden 96.17]"
+    ]
+   }
+  },
+  {
+   "id": "R42",
+   "name": "Moon on a same body",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R1",
+   "name": "Sun / Moon on one body both charts, sky X to Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B1",
+   "name": "Natal body on a strong line star (filter)",
+   "selected": [
+    "P03",
+    "P05",
+    "P07",
+    "P11"
+   ],
+   "cells": {
+    "P03": [
+     "H Facies → H Saturn RA 0.1964 conj (75.53)",
+     "H Galactic Centre → H Vesta RA 0.4076 conj (53.04)",
+     "J Spica → J Saturn Dec 0.0126 conj (91.78)"
+    ],
+    "P05": [
+     "H Facies → H Mars RA 0.2949 conj (64.54)",
+     "H Facies → H Saturn RA 0.2755 conj (66.64)"
+    ],
+    "P07": [
+     "H Galactic Centre → H Saturn RA 0.3598 conj (57.78)"
+    ],
+    "P11": [
+     "J Spica → J Eris Dec 0.0201 conj (87.02)"
+    ]
+   }
+  },
+  {
+   "id": "B2",
+   "name": "Top natal body on a strong line star",
+   "selected": [
+    "P03"
+   ],
+   "cells": {
+    "P03": [
+     "J Spica → J Saturn Dec 0.0126 conj (91.78) (top score in the field)"
+    ]
+   }
+  },
+  {
+   "id": "B3",
+   "name": "Version 4",
+   "selected": [
+    "P03"
+   ],
+   "cells": {
+    "P03": [
+     "step 2: J Spica → J Saturn Dec 0.0126 conj (91.78) (top score in the field)"
+    ]
+   }
+  },
+  {
+   "id": "B4",
+   "name": "Same body, clear lead",
+   "selected": [
+    "P09"
+   ],
+   "cells": {
+    "P09": [
+     "4 same-body cells >= 50, next 2 (4 Deluxe Music / Callum Rodriguez), lead 2",
+     "S Pluto → H Pluto Dec 1.0047 1 whole (58.15)",
+     "S Transpluto → H Transpluto RA 1.7776 1.77778 ninth (98.59)",
+     "S Makemake → J Makemake RA 21.9997 22 whole (97.17)",
+     "S Makemake → J Makemake Dec 10.9960 11 whole (63.98)"
+    ]
+   }
+  },
+  {
+   "id": "B5",
+   "name": "Same body in both planes",
+   "selected": [
+    "P09"
+   ],
+   "cells": {
+    "P09": [
+     "J Makemake: S Makemake → J Makemake RA 21.9997 22 whole (97.17) | S Makemake → J Makemake Dec 10.9960 11 whole (63.98)"
+    ]
+   }
+  },
+  {
+   "id": "B6",
+   "name": "Same body on both charts",
+   "selected": [],
+   "cells": {}
+  }
+ ]
+}

@@ -1,0 +1,185 @@
+{
+ "race": "20220108_lingfield_aw_1345",
+ "workbook": "race_batch_20220108_lingfield_aw_1345_jupiter_tables.xlsx",
+ "runners": [
+  "P01",
+  "P03",
+  "P05",
+  "P07",
+  "P09"
+ ],
+ "names": {
+  "P01": "1 Protected Guest / Jane Elliott",
+  "P03": "2 Supakalanistic / Liam Keniry",
+  "P05": "3 Creationist / Connor Murtagh",
+  "P07": "4 Trevolli / Kieran O'Neill",
+  "P09": "5 Eleven Eleven / Joey Haynes"
+ },
+ "rules": [
+  {
+   "id": "R25",
+   "name": "Pallas reached twice",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R28",
+   "name": "Chiron to Jupiter, lit by Sun / Moon",
+   "selected": [
+    "P03",
+    "P09"
+   ],
+   "cells": {
+    "P03": [
+     "S Moon → S Chiron [RA 0.7864 conj conj 22.64] ++ S Chiron → J Jupiter [Dec 16.6613 16.6667 ninth 95.42]"
+    ],
+    "P09": [
+     "S Moon → S Chiron [RA 0.7864 conj conj 22.64] ++ S Chiron → J Jupiter [Dec 17.9440 φ^6 phi power 99.39]"
+    ]
+   }
+  },
+  {
+   "id": "R1b",
+   "name": "Moon to X, sky X to Jupiter",
+   "selected": [
+    "P03"
+   ],
+   "cells": {
+    "P03": [
+     "S Moon → H Pluto [Dec 16.6652 16.6667 ninth 98.77] + S Pluto → H Jupiter [RA 133.3495 133.333 ninth 98.06]"
+    ]
+   }
+  },
+  {
+   "id": "R7",
+   "name": "Line star on own Jupiter and on one body both charts",
+   "selected": [
+    "P03",
+    "P09"
+   ],
+   "cells": {
+    "P03": [
+     "J Sadalsuud (Sun) → J Jupiter [RA 111.9961 112 whole 64.59]; on both charts' Sadalsuud: Vesta"
+    ],
+    "P09": [
+     "H Pollux (Sun) → H Jupiter [RA 112.9967 113 whole 69.48]; on both charts' Pollux: Quaoar"
+    ]
+   }
+  },
+  {
+   "id": "R26",
+   "name": "Royal line star on own Jupiter",
+   "selected": [
+    "P01"
+   ],
+   "cells": {
+    "P01": [
+     "H Regulus → H Jupiter [Dec 5.0023 5 whole 78.12]; line: S Jupiter → S Regulus [RA 177.9641 110×φ golden 15.52] | S Moon → S Regulus [Dec 14.9805 15 whole 0.05]"
+    ]
+   }
+  },
+  {
+   "id": "R40",
+   "name": "Node axis",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R42",
+   "name": "Moon on a same body",
+   "selected": [
+    "P03",
+    "P07"
+   ],
+   "cells": {
+    "P03": [
+     "S Pluto → H Pluto RA 16.1251 10×φ^1 phi power (-0.0552); Dec 2.9955 3 whole (-0.0045) | S Moon → H Pluto [Dec 16.6652 16.6667 ninth 98.77]"
+    ],
+    "P07": [
+     "S Orcus → J Orcus RA 29.1000 φ^7 phi power (+0.0655) | S Moon → J Orcus [RA 122.2268 122.222 ninth 99.36]"
+    ]
+   }
+  },
+  {
+   "id": "R1",
+   "name": "Sun / Moon on one body both charts, sky X to Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B1",
+   "name": "Natal body on a strong line star (filter)",
+   "selected": [
+    "P01",
+    "P05",
+    "P09"
+   ],
+   "cells": {
+    "P01": [
+     "J Sadalmelik → J Gonggong RA 0.2838 conj (65.74)"
+    ],
+    "P05": [
+     "H Menkent → H Haumea RA 0.1943 conj (75.77)",
+     "J Al Rescha → J Mars RA 0.1795 conj (77.50)",
+     "J Alnilam → J Orcus Dec 0.0032 conj (97.87)"
+    ],
+    "P09": [
+     "J Sadalmelik → J Juno Dec 0.0313 conj (80.22)",
+     "J Sadalsuud → J Pluto Dec 0.0413 conj (74.37)"
+    ]
+   }
+  },
+  {
+   "id": "B2",
+   "name": "Top natal body on a strong line star",
+   "selected": [
+    "P05"
+   ],
+   "cells": {
+    "P05": [
+     "J Alnilam → J Orcus Dec 0.0032 conj (97.87) (top score in the field)"
+    ]
+   }
+  },
+  {
+   "id": "B3",
+   "name": "Version 4",
+   "selected": [
+    "P05"
+   ],
+   "cells": {
+    "P05": [
+     "step 2: J Alnilam → J Orcus Dec 0.0032 conj (97.87) (top score in the field)"
+    ]
+   }
+  },
+  {
+   "id": "B4",
+   "name": "Same body, clear lead",
+   "selected": [
+    "P01"
+   ],
+   "cells": {
+    "P01": [
+     "4 same-body cells >= 50, next 2 (5 Eleven Eleven / Joey Haynes), lead 2",
+     "S Sun → H Sun RA 41.0001 41 whole (98.76)",
+     "S Pluto → J Pluto RA 56.9942 57 whole (50.20)",
+     "S Rahu → J Rahu RA 155.5123 155.556 ninth (95.90)",
+     "S Ketu → J Ketu RA 155.5123 155.556 ninth (95.90)"
+    ]
+   }
+  },
+  {
+   "id": "B5",
+   "name": "Same body in both planes",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B6",
+   "name": "Same body on both charts",
+   "selected": [],
+   "cells": {}
+  }
+ ]
+}

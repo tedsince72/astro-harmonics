@@ -1,0 +1,170 @@
+{
+ "race": "20220123_lingfield_1500",
+ "workbook": "race_batch_20220123_lingfield_1500_jupiter_tables.xlsx",
+ "runners": [
+  "P01",
+  "P03",
+  "P05",
+  "P07",
+  "P09",
+  "P11"
+ ],
+ "names": {
+  "P01": "1 Bristol De Mai / Sam Twiston-Davies",
+  "P03": "2 Dashel Drasher / Rex Dingle",
+  "P05": "3 Master Tommytucker / Harry Cobden",
+  "P07": "5 Itchy Feet / Gavin Sheehan",
+  "P09": "6 Lieutenant Rocco / Tom Scudamore",
+  "P11": "7 Two For Gold / David Bass"
+ },
+ "rules": [
+  {
+   "id": "R25",
+   "name": "Pallas reached twice",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R28",
+   "name": "Chiron to Jupiter, lit by Sun / Moon",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R1b",
+   "name": "Moon to X, sky X to Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R7",
+   "name": "Line star on own Jupiter and on one body both charts",
+   "selected": [
+    "P07"
+   ],
+   "cells": {
+    "P07": [
+     "H Alphecca (Jupiter) → H Jupiter [Dec 3.9961 4 whole 64.64]; on both charts' Alphecca: Sedna",
+     "J Betelgeuse (Jupiter) → J Jupiter [RA 72.0050 72 whole 56.50]; on both charts' Betelgeuse: Saturn"
+    ]
+   }
+  },
+  {
+   "id": "R26",
+   "name": "Royal line star on own Jupiter",
+   "selected": [
+    "P09",
+    "P11"
+   ],
+   "cells": {
+    "P09": [
+     "H Antares → H Jupiter [RA 110.9015 10×φ^5 phi power 99.92]; line: S Sun → S Antares [Dec 7.0061 7 whole 48.51]"
+    ],
+    "P11": [
+     "J Antares → J Jupiter [RA 166.6585 166.667 ninth 99.30]; line: S Sun → S Antares [Dec 7.0061 7 whole 48.51]"
+    ]
+   }
+  },
+  {
+   "id": "R40",
+   "name": "Node axis",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R42",
+   "name": "Moon on a same body",
+   "selected": [
+    "P07"
+   ],
+   "cells": {
+    "P07": [
+     "S Sun → J Sun RA 146.9994 147 whole (-0.0006) | S Moon → J Sun [Dec 24.1440 24.14 silver 96.91]"
+    ]
+   }
+  },
+  {
+   "id": "R1",
+   "name": "Sun / Moon on one body both charts, sky X to Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B1",
+   "name": "Natal body on a strong line star (filter)",
+   "selected": [
+    "P01",
+    "P03",
+    "P05",
+    "P07",
+    "P09",
+    "P11"
+   ],
+   "cells": {
+    "P01": [
+     "H Vindemiatrix → H Mercury Dec 0.0549 conj (66.77)"
+    ],
+    "P03": [
+     "J Vindemiatrix → J Haumea RA 0.2076 conj (74.24)"
+    ],
+    "P05": [
+     "H Sadalsuud → H Venus RA 0.1009 conj (86.99)",
+     "J Vindemiatrix → J Haumea RA 0.3508 conj (58.69)"
+    ],
+    "P07": [
+     "H Nunki → H Pluto RA 0.2338 conj (71.26)",
+     "J Vindemiatrix → J Juno Dec 0.0340 conj (78.62)"
+    ],
+    "P09": [
+     "J Sadalsuud → J Juno Dec 0.0411 conj (74.50)",
+     "J Sadalsuud → J Vesta RA 0.3822 conj (55.54)"
+    ],
+    "P11": [
+     "J Alhena → J Sun RA 0.4391 conj (50.02)"
+    ]
+   }
+  },
+  {
+   "id": "B2",
+   "name": "Top natal body on a strong line star",
+   "selected": [
+    "P05"
+   ],
+   "cells": {
+    "P05": [
+     "H Sadalsuud → H Venus RA 0.1009 conj (86.99) (top score in the field)"
+    ]
+   }
+  },
+  {
+   "id": "B3",
+   "name": "Version 4",
+   "selected": [
+    "P11"
+   ],
+   "cells": {
+    "P11": [
+     "step 1, hub landing held alone: hub body J Transpluto → J Denebola Dec 0.0215 conj (86.15)"
+    ]
+   }
+  },
+  {
+   "id": "B4",
+   "name": "Same body, clear lead",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B5",
+   "name": "Same body in both planes",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B6",
+   "name": "Same body on both charts",
+   "selected": [],
+   "cells": {}
+  }
+ ]
+}

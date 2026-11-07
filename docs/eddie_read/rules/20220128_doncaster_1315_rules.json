@@ -1,0 +1,182 @@
+{
+ "race": "20220128_doncaster_1315",
+ "workbook": "race_batch_20220128_doncaster_1315_jupiter_tables.xlsx",
+ "runners": [
+  "P01",
+  "P03",
+  "P05",
+  "P07",
+  "P09",
+  "P11",
+  "P13"
+ ],
+ "names": {
+  "P01": "1 Funambule Sivola / Charlie Deutsch",
+  "P03": "2 Before Midnight / James Bowen",
+  "P05": "3 The Big Bite / Brian Hughes",
+  "P07": "4 King D'argent / Harry Skelton",
+  "P09": "5 Fransham / Jack Andrews",
+  "P11": "6 Moonlighter / Tom Scudamore",
+  "P13": "7 Gold Des Bois / Conor O'Farrell"
+ },
+ "rules": [
+  {
+   "id": "R25",
+   "name": "Pallas reached twice",
+   "selected": [
+    "P13"
+   ],
+   "cells": {
+    "P13": [
+     "H Pallas: S Sun [RA 166.6766 166.667 ninth 99.15] | S Moon [RA 111.6447 69×φ golden 97.63]"
+    ]
+   }
+  },
+  {
+   "id": "R28",
+   "name": "Chiron to Jupiter, lit by Sun / Moon",
+   "selected": [
+    "P07"
+   ],
+   "cells": {
+    "P07": [
+     "S Sun → H Chiron [RA 34.0009 34 whole 91.55] | S Moon → S Chiron [RA 111.6307 69×φ golden 33.53] ++ S Chiron → H Jupiter [Dec 11.0987 φ^5 phi power 71.49]"
+    ]
+   }
+  },
+  {
+   "id": "R1b",
+   "name": "Moon to X, sky X to Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R7",
+   "name": "Line star on own Jupiter and on one body both charts",
+   "selected": [
+    "P05",
+    "P09",
+    "P13"
+   ],
+   "cells": {
+    "P05": [
+     "H Sualocin (Sun) → H Jupiter [RA 126.2103 78×φ golden 78.87]; on both charts' Sualocin: Pluto"
+    ],
+    "P09": [
+     "H Sualocin (Sun) → H Jupiter [RA 155.0046 155 whole 59.55]; on both charts' Sualocin: Mars",
+     "J Sualocin (Sun) → J Jupiter [RA 72.9966 73 whole 69.25]; on both charts' Sualocin: Mars"
+    ],
+    "P13": [
+     "H Castor (Moon) → H Jupiter [RA 11.3251 7×φ golden 93.32]; on both charts' Castor: Pluto",
+     "J Castor (Moon) → J Jupiter [RA 24.2725 15×φ golden 88.18]; on both charts' Castor: Pluto"
+    ]
+   }
+  },
+  {
+   "id": "R26",
+   "name": "Royal line star on own Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R40",
+   "name": "Node axis",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R42",
+   "name": "Moon on a same body",
+   "selected": [
+    "P05",
+    "P13"
+   ],
+   "cells": {
+    "P05": [
+     "S Pluto → J Pluto RA 83.0093 83 whole (+0.0093) | S Moon → J Pluto [Dec 29.0324 φ^7 phi power 97.23]"
+    ],
+    "P13": [
+     "S Pallas → H Pallas Dec 14.4552 14.4444 ninth (+0.0108) | S Moon → H Pallas [RA 111.6447 69×φ golden 97.63]"
+    ]
+   }
+  },
+  {
+   "id": "R1",
+   "name": "Sun / Moon on one body both charts, sky X to Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B1",
+   "name": "Natal body on a strong line star (filter)",
+   "selected": [
+    "P01",
+    "P07",
+    "P09",
+    "P13"
+   ],
+   "cells": {
+    "P01": [
+     "J Ankaa → J Saturn RA 0.0220 conj (97.08)"
+    ],
+    "P07": [
+     "J Alnilam → J Pluto Dec 0.0421 conj (73.93)"
+    ],
+    "P09": [
+     "H Rasalhague → H Sun Dec 0.0287 conj (81.76)"
+    ],
+    "P13": [
+     "J Arcturus → J Sun Dec 0.0718 conj (57.85)"
+    ]
+   }
+  },
+  {
+   "id": "B2",
+   "name": "Top natal body on a strong line star",
+   "selected": [
+    "P01"
+   ],
+   "cells": {
+    "P01": [
+     "J Ankaa → J Saturn RA 0.0220 conj (97.08) (top score in the field)"
+    ]
+   }
+  },
+  {
+   "id": "B3",
+   "name": "Version 4",
+   "selected": [
+    "P01"
+   ],
+   "cells": {
+    "P01": [
+     "step 2: J Ankaa → J Saturn RA 0.0220 conj (97.08) (top score in the field)"
+    ]
+   }
+  },
+  {
+   "id": "B4",
+   "name": "Same body, clear lead",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B5",
+   "name": "Same body in both planes",
+   "selected": [
+    "P03"
+   ],
+   "cells": {
+    "P03": [
+     "J Venus: S Venus → J Venus RA 92.0007 92 whole (93.06) | S Venus → J Venus Dec 30.0043 30 whole (61.74)"
+    ]
+   }
+  },
+  {
+   "id": "B6",
+   "name": "Same body on both charts",
+   "selected": [],
+   "cells": {}
+  }
+ ]
+}
