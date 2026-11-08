@@ -3,16 +3,16 @@
 The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
-| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 Austrian Theory / Joe Fanning | - | - | 1 (1 only) | - | - | - | - | 2 | - | 1 (1 only) | 3 (1 only) | 4 (0 only) | 2 (0 only) | - | - |
-| 2 Cresta / Tom Marquand | - | - | 1 (1 only) | - | - | - | 1 (1 only) | 3 | - | 4 (4 only) | 15 (10 only) | 6 (1 only) | 7 (2 only) | - | - |
-| 3 Dawn Of Liberation / Sean Levey | - | 1 (1 only) | 2 (2 only) | - | - | - | 1 (1 only) | 4 | - | 4 (4 only) | 3 (1 only) | 13 (9 only) | 8 (1 only) | 2 (2 only) | - |
-| 4 Eydon / David Egan | - | - | 1 (1 only) | - | - | - | - | 0 | - | 3 (3 only) | 6 (3 only) | 10 (4 only) | 10 (1 only) | - | - |
-| 5 Masekela / William Buick | 1 (1 only) | - | - | - | - | - | - | 7 | - | 3 (3 only) | 4 (2 only) | 7 (5 only) | 10 (2 only) | 1 (1 only) | - |
-| 6 Sonny Liston / Marco Ghiani | - | - | 1 (1 only) | - | - | - | - | 2 | - | 2 (2 only) | 3 (2 only) | 14 (7 only) | 8 (0 only) | 1 (1 only) | - |
+| Runner | 1 | 2a | 2b | 15 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 Austrian Theory / Joe Fanning | - | - | 1 (1 only) | - | - | - | - | - | 2 | - | 1 (1 only) | 3 (1 only) | 4 (0 only) | 2 (0 only) | - | - |
+| 2 Cresta / Tom Marquand | - | - | 1 (1 only) | 1 (1 only) | - | - | - | 1 (1 only) | 3 | - | 4 (4 only) | 15 (10 only) | 6 (1 only) | 7 (2 only) | - | - |
+| 3 Dawn Of Liberation / Sean Levey | - | 1 (1 only) | 2 (2 only) | 2 (2 only) | - | - | - | 1 (1 only) | 4 | - | 4 (4 only) | 3 (1 only) | 13 (9 only) | 8 (1 only) | 2 (2 only) | - |
+| 4 Eydon / David Egan | - | - | 1 (1 only) | 1 (1 only) | - | - | - | - | 0 | - | 3 (3 only) | 6 (3 only) | 10 (4 only) | 10 (1 only) | - | - |
+| 5 Masekela / William Buick | 1 (1 only) | - | - | - | - | - | - | - | 7 | - | 3 (3 only) | 4 (2 only) | 7 (5 only) | 10 (2 only) | 1 (1 only) | - |
+| 6 Sonny Liston / Marco Ghiani | - | - | 1 (1 only) | - | - | - | - | - | 2 | - | 2 (2 only) | 3 (2 only) | 14 (7 only) | 8 (0 only) | 1 (1 only) | - |
 
-Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
+Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 15 sky X on natal Y, both charts, crossed planes (>= 80); 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
 ## 1 Austrian Theory / Joe Fanning
 ### 1 natal pair, same number, both charts
@@ -21,6 +21,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Haumea → H Saturn RA 70.7141 70.7 sqrt2 (98.09) | S Haumea → J Saturn RA 165.9984 166 whole (84.70) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -59,6 +61,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Ketu → H Eris RA 155.5312 155.556 ninth (97.69) | S Ketu → J Eris Dec 11.1193 11.1111 ninth (86.64) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- sky Ketu on Eris: H RA, J Dec: S Ketu → H Eris RA 155.5312 155.556 ninth (97.69) | S Ketu → J Eris Dec 11.1193 11.1111 ninth (86.64) — only
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -120,6 +124,9 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Moon → H Sedna RA 122.2345 122.222 ninth (98.31) | S Moon → J Sedna Dec 1.0003 1 whole (97.30) — only
 - both >= 80: S Mars → H Chiron Dec 15.5532 15.5556 ninth (97.81) | S Mars → J Chiron RA 111.1346 111.111 ninth (96.15) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- sky Moon on Sedna: H RA, J Dec: S Moon → H Sedna RA 122.2345 122.222 ninth (98.31) | S Moon → J Sedna Dec 1.0003 1 whole (97.30) — only
+- sky Mars on Chiron: H Dec, J RA: S Mars → H Chiron Dec 15.5532 15.5556 ninth (97.81) | S Mars → J Chiron RA 111.1346 111.111 ninth (96.15) — only
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -177,6 +184,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Vesta → H Sun Dec 18.9996 19 whole (95.64) | S Vesta → J Sun RA 129.4394 80×φ golden (80.57) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- sky Vesta on Sun: H Dec, J RA: S Vesta → H Sun Dec 18.9996 19 whole (95.64) | S Vesta → J Sun RA 129.4394 80×φ golden (80.57) — only
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -234,6 +243,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -286,6 +297,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Haumea → H Gonggong Dec 27.9980 28 whole (80.66) | S Haumea → J Gonggong Dec 33.3331 33.3333 ninth (99.66) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)

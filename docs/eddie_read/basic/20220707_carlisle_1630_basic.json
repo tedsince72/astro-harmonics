@@ -1868,6 +1868,26 @@
      ],
      "note": "5 and 50",
      "field": "also: 7 Noble Mark"
+    },
+    {
+     "check": 15,
+     "key": "('Sun', 'Makemake')",
+     "cells": [
+      "S Sun → H Makemake RA 88.9985 89 whole (85.86)",
+      "S Sun → J Makemake Dec 12.9432 8×φ golden (93.21)"
+     ],
+     "note": "sky Sun on Makemake: H RA, J Dec",
+     "field": "only"
+    },
+    {
+     "check": 15,
+     "key": "('Jupiter', 'Makemake')",
+     "cells": [
+      "S Jupiter → H Makemake Dec 22.6520 14×φ golden (96.91)",
+      "S Jupiter → J Makemake RA 160.1845 99×φ golden (94.79)"
+     ],
+     "note": "sky Jupiter on Makemake: H Dec, J RA",
+     "field": "only"
     }
    ]
   }

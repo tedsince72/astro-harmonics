@@ -696,6 +696,16 @@
      ],
      "note": "15 and 150",
      "field": "also: 6 Pigeonton"
+    },
+    {
+     "check": 15,
+     "key": "('Jupiter', 'Sedna')",
+     "cells": [
+      "S Jupiter → H Sedna RA 15.5523 15.5556 ninth (96.90)",
+      "S Jupiter → J Sedna Dec 11.3267 7×φ golden (97.07)"
+     ],
+     "note": "sky Jupiter on Sedna: H RA, J Dec",
+     "field": "only"
     }
    ]
   },
@@ -1107,6 +1117,16 @@
      ],
      "note": "4 and 40",
      "field": "also: 1 Biscoff Joe, 6 Pigeonton, 7 Vale Dolobo Dancer"
+    },
+    {
+     "check": 15,
+     "key": "('Sun', 'Uranus')",
+     "cells": [
+      "S Sun → H Uranus Dec 16.9985 17 whole (85.69)",
+      "S Sun → J Uranus RA 106.9979 107 whole (80.50)"
+     ],
+     "note": "sky Sun on Uranus: H Dec, J RA",
+     "field": "only"
     }
    ]
   },

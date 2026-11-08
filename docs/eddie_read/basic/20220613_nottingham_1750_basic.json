@@ -1527,6 +1527,16 @@
      ],
      "note": "Venus – Neptune: digits 12",
      "field": "only"
+    },
+    {
+     "check": 15,
+     "key": "('Moon', 'Ceres')",
+     "cells": [
+      "S Moon → H Ceres RA 0.0771 conj conj (89.99)",
+      "S Moon → J Ceres Dec 11.3268 7×φ golden (96.28)"
+     ],
+     "note": "sky Moon on Ceres: H RA, J Dec",
+     "field": "only"
     }
    ]
   },

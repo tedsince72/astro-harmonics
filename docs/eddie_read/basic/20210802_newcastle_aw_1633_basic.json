@@ -834,6 +834,16 @@
      ],
      "note": "Jupiter – Saturn: digits 8",
      "field": "only"
+    },
+    {
+     "check": 15,
+     "key": "('Neptune', 'Jupiter')",
+     "cells": [
+      "S Neptune → H Jupiter RA 179.4564 10×φ^6 phi power (96.98)",
+      "S Neptune → J Jupiter Dec 11.3247 7×φ golden (90.92)"
+     ],
+     "note": "sky Neptune on Jupiter: H RA, J Dec",
+     "field": "only"
     }
    ]
   },
@@ -1136,6 +1146,16 @@
      ],
      "note": "17 and 170",
      "field": "also: 4 Beating All, 6 Tricolore"
+    },
+    {
+     "check": 15,
+     "key": "('Makemake', 'Gonggong')",
+     "cells": [
+      "S Makemake → H Gonggong RA 139.1507 86×φ golden (98.71)",
+      "S Makemake → J Gonggong Dec 43.6870 27×φ golden (99.58)"
+     ],
+     "note": "sky Makemake on Gonggong: H RA, J Dec",
+     "field": "only"
     }
    ]
   },
@@ -2035,6 +2055,16 @@
      ],
      "note": "17 and 170",
      "field": "also: 3 Raise The Roof, 4 Beating All"
+    },
+    {
+     "check": 15,
+     "key": "('Pallas', 'Jupiter')",
+     "cells": [
+      "S Pallas → H Jupiter RA 122.9565 φ^10 phi power (88.82)",
+      "S Pallas → J Jupiter Dec 24.1451 24.14 silver (95.18)"
+     ],
+     "note": "sky Pallas on Jupiter: H RA, J Dec",
+     "field": "only"
     }
    ]
   }

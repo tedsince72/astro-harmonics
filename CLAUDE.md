@@ -182,7 +182,8 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   number both charts; sky X on natal Y both charts; sky X on both natal Jupiters; sky X same number both charts; number swap; centre on a
   body tied to natal Jupiter; numbers in both charts (count, background); axis; natal Jupiter ties; N and N x phi; values close together;
   digits across decades (8 / 80); one body pair every layer (Jupiter - Saturn 80 / 8 / 8); 14 sky Jupiter repeats natal Jupiter
-  (same chart, same number, both >= 50; from Pholas, 8 Nov 2026). Each item 'only' / 'also'. Tests
+  (same chart, same number, both >= 50; from Pholas, 8 Nov 2026); 15 sky X on natal Y both charts, crossed planes (one RA, one Dec,
+  both >= 80; from Athmad / Pholas / Greaneteen, 8 Nov 2026; in-sample 6 winners of 18 holders, 3.0 by chance, over 14 result races). Each item 'only' / 'also'. Tests
   `python3 tests/eddie_basic_check.py` (Newcastle cases + the cell set of every _active.xlsx by its own reader). Run on all 37 _active files.
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).

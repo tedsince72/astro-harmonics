@@ -3,16 +3,16 @@
 The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
-| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 Sir Chauvelin / Paul Mulrennan | 1 (1 only) | - | - | - | 2 (2 only) | - | - | 6 | - | - | 3 (1 only) | 12 (8 only) | 6 (1 only) | 1 (1 only) | - |
-| 2 Alba Rose / Joe Fanning | - | - | - | - | - | - | - | 2 | - | 1 (1 only) | 5 (4 only) | 10 (5 only) | 7 (0 only) | 1 (1 only) | - |
-| 3 Wise Eagle / Graham Lee | - | - | - | - | - | - | - | 3 | - | 3 (3 only) | 8 (5 only) | 11 (6 only) | 7 (0 only) | - | - |
-| 4 Onesmoothoperator / Harry Russell | - | - | - | - | - | - | - | 9 | - | 2 (2 only) | 6 (4 only) | 8 (3 only) | 8 (1 only) | 1 (1 only) | - |
-| 5 Aced It / Jack Mitchell | - | 1 (1 only) | 1 (1 only) | - | 1 (1 only) | - | - | 2 | - | 3 (3 only) | 4 (1 only) | 6 (2 only) | 9 (0 only) | 1 (1 only) | - |
-| 6 Resumption / Tom Marquand | - | - | - | - | - | - | - | 2 | - | 1 (1 only) | 6 (4 only) | 8 (4 only) | 7 (0 only) | - | - |
+| Runner | 1 | 2a | 2b | 15 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 Sir Chauvelin / Paul Mulrennan | 1 (1 only) | - | - | - | - | 2 (2 only) | - | - | 6 | - | - | 3 (1 only) | 12 (8 only) | 6 (1 only) | 1 (1 only) | - |
+| 2 Alba Rose / Joe Fanning | - | - | - | - | - | - | - | - | 2 | - | 1 (1 only) | 5 (4 only) | 10 (5 only) | 7 (0 only) | 1 (1 only) | - |
+| 3 Wise Eagle / Graham Lee | - | - | - | - | - | - | - | - | 3 | - | 3 (3 only) | 8 (5 only) | 11 (6 only) | 7 (0 only) | - | - |
+| 4 Onesmoothoperator / Harry Russell | - | - | - | - | - | - | - | - | 9 | - | 2 (2 only) | 6 (4 only) | 8 (3 only) | 8 (1 only) | 1 (1 only) | - |
+| 5 Aced It / Jack Mitchell | - | 1 (1 only) | 1 (1 only) | 1 (1 only) | - | 1 (1 only) | - | - | 2 | - | 3 (3 only) | 4 (1 only) | 6 (2 only) | 9 (0 only) | 1 (1 only) | - |
+| 6 Resumption / Tom Marquand | - | - | - | - | - | - | - | - | 2 | - | 1 (1 only) | 6 (4 only) | 8 (4 only) | 7 (0 only) | - | - |
 
-Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
+Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 15 sky X on natal Y, both charts, crossed planes (>= 80); 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
 ## 1 Sir Chauvelin / Paul Mulrennan
 ### 1 natal pair, same number, both charts
@@ -20,6 +20,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2a sky X on natal Y, both charts, same number
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
+- none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
 - none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
@@ -72,6 +74,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -122,6 +126,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2a sky X on natal Y, both charts, same number
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
+- none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
 - none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
@@ -180,6 +186,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -232,6 +240,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - same number: S Sun → H Gonggong Dec 0.0251 conj conj (83.94) | S Sun → J Gonggong RA 0.3309 conj conj (60.74) — only
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Pluto → H Mars Dec 2.0005 2 whole (95.05) | S Pluto → J Mars RA 76.9983 77 whole (83.80) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- sky Pluto on Mars: H Dec, J RA: S Pluto → H Mars Dec 2.0005 2 whole (95.05) | S Pluto → J Mars RA 76.9983 77 whole (83.80) — only
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -281,6 +291,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2a sky X on natal Y, both charts, same number
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
+- none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
 - none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none

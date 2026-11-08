@@ -3,16 +3,16 @@
 The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
-| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 Reve / Sean Bowen | - | - | - | - | - | - | - | 5 | - | 1 (1 only) | 4 (2 only) | 10 (8 only) | 10 (0 only) | - | - |
-| 2 Mance Rayder / Jamie Hamilton | 1 (1 only) | 1 (1 only) | - | - | - | - | - | 4 | - | 5 (5 only) | 2 (2 only) | 6 (4 only) | 7 (0 only) | - | - |
-| 3 Red Giant / Sean Quinlan | 1 (1 only) | - | - | - | - | - | - | 4 | - | 2 (2 only) | 4 (2 only) | 9 (6 only) | 5 (1 only) | - | - |
-| 4 Brian Boranha / Callum Bewley | - | - | 1 (1 only) | - | - | - | 1 (1 only) | 4 | - | 1 (1 only) | 4 (2 only) | 12 (9 only) | 3 (0 only) | - | - |
-| 5 Cracking Find / Ryan Mania | - | - | - | - | 2 (2 only) | - | 1 (1 only) | 3 | - | 1 (1 only) | 5 (4 only) | 5 (4 only) | 11 (0 only) | - | - |
-| 6 Blazer / Alain Cawley | - | - | - | - | 1 (1 only) | - | - | 6 | - | 2 (2 only) | 7 (4 only) | 6 (4 only) | 7 (2 only) | 1 (1 only) | - |
+| Runner | 1 | 2a | 2b | 15 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 Reve / Sean Bowen | - | - | - | - | - | - | - | - | 5 | - | 1 (1 only) | 4 (2 only) | 10 (8 only) | 10 (0 only) | - | - |
+| 2 Mance Rayder / Jamie Hamilton | 1 (1 only) | 1 (1 only) | - | - | - | - | - | - | 4 | - | 5 (5 only) | 2 (2 only) | 6 (4 only) | 7 (0 only) | - | - |
+| 3 Red Giant / Sean Quinlan | 1 (1 only) | - | - | - | - | - | - | - | 4 | - | 2 (2 only) | 4 (2 only) | 9 (6 only) | 5 (1 only) | - | - |
+| 4 Brian Boranha / Callum Bewley | - | - | 1 (1 only) | - | - | - | - | 1 (1 only) | 4 | - | 1 (1 only) | 4 (2 only) | 12 (9 only) | 3 (0 only) | - | - |
+| 5 Cracking Find / Ryan Mania | - | - | - | - | - | 2 (2 only) | - | 1 (1 only) | 3 | - | 1 (1 only) | 5 (4 only) | 5 (4 only) | 11 (0 only) | - | - |
+| 6 Blazer / Alain Cawley | - | - | - | - | - | 1 (1 only) | - | - | 6 | - | 2 (2 only) | 7 (4 only) | 6 (4 only) | 7 (2 only) | 1 (1 only) | - |
 
-Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
+Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 15 sky X on natal Y, both charts, crossed planes (>= 80); 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
 ## 1 Reve / Sean Bowen
 ### 1 natal pair, same number, both charts
@@ -20,6 +20,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2a sky X on natal Y, both charts, same number
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
+- none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
 - none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
@@ -74,6 +76,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - same number: S Pallas → H Saturn Dec 0.1722 conj conj (18.14) | S Pallas → J Saturn RA 0.1180 conj conj (84.89) — only
 ### 2b sky X on natal Y, both charts, both >= 80
 - none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -121,6 +125,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2a sky X on natal Y, both charts, same number
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
+- none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
 - none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
@@ -170,6 +176,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Juno → H Sedna RA 141.4372 141.4 sqrt2 (95.57) | S Juno → J Sedna RA 133.3891 133.333 ninth (93.31) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -217,6 +225,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2a sky X on natal Y, both charts, same number
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
+- none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
 - none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
@@ -268,6 +278,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2a sky X on natal Y, both charts, same number
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
+- none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
 - none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none

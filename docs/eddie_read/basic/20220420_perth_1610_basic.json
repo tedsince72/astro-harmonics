@@ -252,6 +252,26 @@
      ],
      "note": "Mercury – Sedna: digits 14",
      "field": "only"
+    },
+    {
+     "check": 15,
+     "key": "('Orcus', 'Haumea')",
+     "cells": [
+      "S Orcus → H Haumea RA 53.9985 54 whole (85.28)",
+      "S Orcus → J Haumea Dec 33.9797 21×φ golden (93.81)"
+     ],
+     "note": "sky Orcus on Haumea: H RA, J Dec",
+     "field": "only"
+    },
+    {
+     "check": 15,
+     "key": "('Ketu', 'Pallas')",
+     "cells": [
+      "S Ketu → H Pallas Dec 21.9994 22 whole (94.03)",
+      "S Ketu → J Pallas RA 17.9425 φ^6 phi power (96.07)"
+     ],
+     "note": "sky Ketu on Pallas: H Dec, J RA",
+     "field": "only"
     }
    ]
   },

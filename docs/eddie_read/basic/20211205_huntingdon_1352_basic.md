@@ -3,16 +3,16 @@
 The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
-| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 Allmankind / Harry Skelton | - | - | 1 (1 only) | 1 (1 only) | - | - | 1 (1 only) | 3 | - | 3 (3 only) | 5 (2 only) | 11 (3 only) | 5 (1 only) | - | - |
-| 2 Eldorado Allen / Brendan Powell | - | - | - | - | - | - | - | 5 | - | 2 (2 only) | 2 (2 only) | 11 (5 only) | 8 (0 only) | - | - |
-| 3 First Flow / David Bass | 1 (1 only) | 1 (1 only) | - | - | - | - | - | 4 | - | 5 (5 only) | 5 (3 only) | 7 (3 only) | 9 (2 only) | 1 (1 only) | - |
-| 4 Master Tommytucker / Harry Cobden | - | - | - | - | 1 (1 only) | - | 1 (1 only) | 3 | - | 3 (3 only) | 7 (6 only) | 8 (3 only) | 5 (0 only) | - | - |
-| 5 Funambule Sivola / Charlie Deutsch | - | - | 1 (1 only) | - | - | - | - | 5 | - | 2 (2 only) | 2 (1 only) | 8 (5 only) | 6 (0 only) | - | - |
-| 6 Keeper Hill / A P Heskin | - | - | - | - | - | - | 1 (1 only) | 3 | - | 2 (2 only) | 5 (2 only) | 6 (4 only) | 8 (2 only) | 1 (1 only) | - |
+| Runner | 1 | 2a | 2b | 15 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 Allmankind / Harry Skelton | - | - | 1 (1 only) | 1 (1 only) | 1 (1 only) | - | - | 1 (1 only) | 3 | - | 3 (3 only) | 5 (2 only) | 11 (3 only) | 5 (1 only) | - | - |
+| 2 Eldorado Allen / Brendan Powell | - | - | - | - | - | - | - | - | 5 | - | 2 (2 only) | 2 (2 only) | 11 (5 only) | 8 (0 only) | - | - |
+| 3 First Flow / David Bass | 1 (1 only) | 1 (1 only) | - | - | - | - | - | - | 4 | - | 5 (5 only) | 5 (3 only) | 7 (3 only) | 9 (2 only) | 1 (1 only) | - |
+| 4 Master Tommytucker / Harry Cobden | - | - | - | - | - | 1 (1 only) | - | 1 (1 only) | 3 | - | 3 (3 only) | 7 (6 only) | 8 (3 only) | 5 (0 only) | - | - |
+| 5 Funambule Sivola / Charlie Deutsch | - | - | 1 (1 only) | 1 (1 only) | - | - | - | - | 5 | - | 2 (2 only) | 2 (1 only) | 8 (5 only) | 6 (0 only) | - | - |
+| 6 Keeper Hill / A P Heskin | - | - | - | - | - | - | - | 1 (1 only) | 3 | - | 2 (2 only) | 5 (2 only) | 6 (4 only) | 8 (2 only) | 1 (1 only) | - |
 
-Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
+Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 15 sky X on natal Y, both charts, crossed planes (>= 80); 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
 ## 1 Allmankind / Harry Skelton
 ### 1 natal pair, same number, both charts
@@ -21,6 +21,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Juno → H Jupiter Dec 20.0019 20 whole (82.31) | S Juno → J Jupiter RA 177.7596 177.778 ninth (98.58) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- sky Juno on Jupiter: H Dec, J RA: S Juno → H Jupiter Dec 20.0019 20 whole (82.31) | S Juno → J Jupiter RA 177.7596 177.778 ninth (98.58) — only
 ### 3 sky X on both natal Jupiters (>= 80)
 - S Juno → H Jupiter Dec 20.0019 20 whole (82.31) | S Juno → J Jupiter RA 177.7596 177.778 ninth (98.58) — only
 ### 4 sky X, same number, both charts (>= 80)
@@ -73,6 +75,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -123,6 +127,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2a sky X on natal Y, both charts, same number
 - same number: S Jupiter → H Gonggong Dec 0.2755 conj conj (0.67) | S Jupiter → J Gonggong RA 1.1825 conj conj (4.48) — only
 ### 2b sky X on natal Y, both charts, both >= 80
+- none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
 - none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
@@ -178,6 +184,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -229,6 +237,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Quaoar → H Eris RA 110.0005 110 whole (95.42) | S Quaoar → J Eris Dec 7.9988 8 whole (88.72) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- sky Quaoar on Eris: H RA, J Dec: S Quaoar → H Eris RA 110.0005 110 whole (95.42) | S Quaoar → J Eris Dec 7.9988 8 whole (88.72) — only
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -274,6 +284,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2a sky X on natal Y, both charts, same number
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
+- none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
 - none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none

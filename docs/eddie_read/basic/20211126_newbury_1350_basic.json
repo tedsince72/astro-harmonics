@@ -618,6 +618,26 @@
      ],
      "note": "2 and 20",
      "field": "also: 1 Solo, 5 Cascova, 7 Not Available"
+    },
+    {
+     "check": 15,
+     "key": "('Haumea', 'Orcus')",
+     "cells": [
+      "S Haumea → H Orcus RA 66.9985 67 whole (85.35)",
+      "S Haumea → J Orcus Dec 16.6668 16.6667 ninth (99.91)"
+     ],
+     "note": "sky Haumea on Orcus: H RA, J Dec",
+     "field": "only"
+    },
+    {
+     "check": 15,
+     "key": "('Moon', 'Ketu')",
+     "cells": [
+      "S Moon → H Ketu Dec 14.1417 14.14 sqrt2 (98.72)",
+      "S Moon → J Ketu RA 136.9996 137 whole (95.77)"
+     ],
+     "note": "sky Moon on Ketu: H Dec, J RA",
+     "field": "only"
     }
    ]
   },
@@ -971,6 +991,16 @@
      ],
      "note": "15 and 150",
      "field": "also: 1 Solo, 7 Not Available"
+    },
+    {
+     "check": 15,
+     "key": "('Eris', 'Transpluto')",
+     "cells": [
+      "S Eris → H Transpluto Dec 13.0005 13 whole (94.69)",
+      "S Eris → J Transpluto RA 116.4971 72×φ golden (91.97)"
+     ],
+     "note": "sky Eris on Transpluto: H Dec, J RA",
+     "field": "only"
     }
    ]
   },

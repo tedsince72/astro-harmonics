@@ -3,18 +3,18 @@
 The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
-| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 This Ones For Fred / Jordan Williams | - | - | - | - | - | - | 1 (1 only) | 0 | - | 1 (1 only) | - | 2 (1 only) | 3 (1 only) | - | - |
-| 2 Sullivan Bay / Shane Kelly | 1 (1 only) | 2 (2 only) | 1 (1 only) | 1 (1 only) | - | - | - | 2 | - | 3 (3 only) | 1 (1 only) | 5 (2 only) | 6 (0 only) | - | - |
-| 3 Good Time Ahead / Morgan Cole | - | - | - | - | - | 1 (1 only) | - | 7 | - | 4 (4 only) | 2 (1 only) | 6 (3 only) | 8 (0 only) | 1 (1 only) | - |
-| 4 New York Bay / Finley Marsh | - | - | - | - | - | - | - | 7 | - | 2 (2 only) | 6 (5 only) | 8 (7 only) | 4 (1 only) | - | - |
-| 5 Reset Button / Jack Gilligan | - | - | - | - | - | - | 1 (1 only) | 5 | - | 2 (2 only) | 3 (1 only) | 11 (5 only) | 4 (0 only) | - | - |
-| 6 Foinix / Dylan Hogan | - | - | - | - | 1 (1 only) | - | - | 3 | - | 1 (1 only) | 2 (2 only) | 12 (7 only) | 10 (2 only) | - | - |
-| 7 Buford / Alex Jary | - | - | 1 (1 only) | - | - | - | - | 3 | - | 1 (1 only) | 7 (2 only) | 6 (2 only) | 5 (0 only) | 1 (1 only) | - |
-| 8 Duveen / David Probert | 1 (1 only) | 1 (1 only) | 1 (1 only) | - | - | - | 2 (2 only) | 3 | - | 6 (6 only) | 5 (4 only) | 11 (6 only) | 8 (2 only) | 1 (1 only) | - |
+| Runner | 1 | 2a | 2b | 15 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 This Ones For Fred / Jordan Williams | - | - | - | - | - | - | - | 1 (1 only) | 0 | - | 1 (1 only) | - | 2 (1 only) | 3 (1 only) | - | - |
+| 2 Sullivan Bay / Shane Kelly | 1 (1 only) | 2 (2 only) | 1 (1 only) | - | 1 (1 only) | - | - | - | 2 | - | 3 (3 only) | 1 (1 only) | 5 (2 only) | 6 (0 only) | - | - |
+| 3 Good Time Ahead / Morgan Cole | - | - | - | - | - | - | 1 (1 only) | - | 7 | - | 4 (4 only) | 2 (1 only) | 6 (3 only) | 8 (0 only) | 1 (1 only) | - |
+| 4 New York Bay / Finley Marsh | - | - | - | - | - | - | - | - | 7 | - | 2 (2 only) | 6 (5 only) | 8 (7 only) | 4 (1 only) | - | - |
+| 5 Reset Button / Jack Gilligan | - | - | - | - | - | - | - | 1 (1 only) | 5 | - | 2 (2 only) | 3 (1 only) | 11 (5 only) | 4 (0 only) | - | - |
+| 6 Foinix / Dylan Hogan | - | - | - | - | - | 1 (1 only) | - | - | 3 | - | 1 (1 only) | 2 (2 only) | 12 (7 only) | 10 (2 only) | - | - |
+| 7 Buford / Alex Jary | - | - | 1 (1 only) | - | - | - | - | - | 3 | - | 1 (1 only) | 7 (2 only) | 6 (2 only) | 5 (0 only) | 1 (1 only) | - |
+| 8 Duveen / David Probert | 1 (1 only) | 1 (1 only) | 1 (1 only) | 1 (1 only) | - | - | - | 2 (2 only) | 3 | - | 6 (6 only) | 5 (4 only) | 11 (6 only) | 8 (2 only) | 1 (1 only) | - |
 
-Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
+Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 15 sky X on natal Y, both charts, crossed planes (>= 80); 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
 ## 1 This Ones For Fred / Jordan Williams
 ### 1 natal pair, same number, both charts
@@ -22,6 +22,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2a sky X on natal Y, both charts, same number
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
+- none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
 - none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
@@ -59,6 +61,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - same number: S Pluto → H Mars Dec 0.1493 conj conj (25.25) | S Pluto → J Mars Dec 0.1628 conj conj (20.93) — only
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Ceres → H Jupiter Dec 0.0105 conj conj (93.14) | S Ceres → J Jupiter Dec 41.0005 41 whole (94.66) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- none
 ### 3 sky X on both natal Jupiters (>= 80)
 - S Ceres → H Jupiter Dec 0.0105 conj conj (93.14) | S Ceres → J Jupiter Dec 41.0005 41 whole (94.66) — only
 ### 4 sky X, same number, both charts (>= 80)
@@ -101,6 +105,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2a sky X on natal Y, both charts, same number
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
+- none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
 - none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
@@ -150,6 +156,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -198,6 +206,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -245,6 +255,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2a sky X on natal Y, both charts, same number
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
+- none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
 - none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
@@ -299,6 +311,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Ceres → H Ceres Dec 53.0014 53 whole (86.44) | S Ceres → J Ceres Dec 22.6558 14×φ golden (80.26) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -346,6 +360,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - same number: S Pluto → H Saturn RA 1.2049 conj conj (3.87) | S Pluto → J Saturn Dec 0.2961 conj conj (0.02) — only
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Gonggong → H Orcus RA 177.7643 177.778 ninth (98.95) | S Gonggong → J Orcus Dec 14.9989 15 whole (88.89) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- sky Gonggong on Orcus: H RA, J Dec: S Gonggong → H Orcus RA 177.7643 177.778 ninth (98.95) | S Gonggong → J Orcus Dec 14.9989 15 whole (88.89) — only
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)

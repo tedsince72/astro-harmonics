@@ -3,18 +3,18 @@
 The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
-| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 Fire Flyer / Richie McLernon | 1 (1 only) | - | 1 (1 only) | - | 1 (1 only) | - | - | 2 | - | 2 (2 only) | 4 (3 only) | 9 (4 only) | 4 (0 only) | - | - |
-| 2 Lynx De Thaix / Gavin Sheehan | - | - | 1 (1 only) | - | - | - | - | 6 | - | 4 (4 only) | 5 (3 only) | 10 (4 only) | 8 (1 only) | - | - |
-| 3 Donnie Azoff / Isabelle Ryder | 1 (1 only) | 1 (1 only) | 1 (1 only) | - | - | - | - | 2 | - | 4 (4 only) | 5 (3 only) | 5 (3 only) | 7 (2 only) | - | - |
-| 4 Paso Doble / Paddy Hanlon | - | - | - | - | - | - | - | 0 | - | 2 (2 only) | 1 (0 only) | 3 (3 only) | 4 (0 only) | - | - |
-| 5 He's A Latchico / Caoilin Quinn | - | 1 (1 only) | 1 (1 only) | - | - | - | - | 5 | - | - | 6 (4 only) | 12 (9 only) | 5 (0 only) | - | - |
-| 6 So You Know / Tom Bellamy | - | 1 (1 only) | 1 (1 only) | - | - | - | 1 (1 only) | 4 | - | 4 (4 only) | 5 (4 only) | 7 (3 only) | 11 (1 only) | - | - |
-| 7 Motazzen / Paul O'Brien | - | - | - | - | - | - | - | 5 | - | 3 (3 only) | 3 (0 only) | 9 (4 only) | 7 (1 only) | - | - |
-| 8 The Bellhop / Freddie Mitchell | - | - | - | - | - | - | - | 5 | - | 2 (2 only) | 9 (5 only) | 9 (4 only) | 5 (0 only) | 1 (1 only) | - |
+| Runner | 1 | 2a | 2b | 15 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 Fire Flyer / Richie McLernon | 1 (1 only) | - | 1 (1 only) | 1 (1 only) | - | 1 (1 only) | - | - | 2 | - | 2 (2 only) | 4 (3 only) | 9 (4 only) | 4 (0 only) | - | - |
+| 2 Lynx De Thaix / Gavin Sheehan | - | - | 1 (1 only) | 1 (1 only) | - | - | - | - | 6 | - | 4 (4 only) | 5 (3 only) | 10 (4 only) | 8 (1 only) | - | - |
+| 3 Donnie Azoff / Isabelle Ryder | 1 (1 only) | 1 (1 only) | 1 (1 only) | - | - | - | - | - | 2 | - | 4 (4 only) | 5 (3 only) | 5 (3 only) | 7 (2 only) | - | - |
+| 4 Paso Doble / Paddy Hanlon | - | - | - | - | - | - | - | - | 0 | - | 2 (2 only) | 1 (0 only) | 3 (3 only) | 4 (0 only) | - | - |
+| 5 He's A Latchico / Caoilin Quinn | - | 1 (1 only) | 1 (1 only) | - | - | - | - | - | 5 | - | - | 6 (4 only) | 12 (9 only) | 5 (0 only) | - | - |
+| 6 So You Know / Tom Bellamy | - | 1 (1 only) | 1 (1 only) | - | - | - | - | 1 (1 only) | 4 | - | 4 (4 only) | 5 (4 only) | 7 (3 only) | 11 (1 only) | - | - |
+| 7 Motazzen / Paul O'Brien | - | - | - | - | - | - | - | - | 5 | - | 3 (3 only) | 3 (0 only) | 9 (4 only) | 7 (1 only) | - | - |
+| 8 The Bellhop / Freddie Mitchell | - | - | - | - | - | - | - | - | 5 | - | 2 (2 only) | 9 (5 only) | 9 (4 only) | 5 (0 only) | 1 (1 only) | - |
 
-Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
+Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 15 sky X on natal Y, both charts, crossed planes (>= 80); 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
 ## 1 Fire Flyer / Richie McLernon
 ### 1 natal pair, same number, both charts
@@ -23,6 +23,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Eris → H Uranus RA 1.5557 1.55556 ninth (98.55) | S Eris → J Uranus Dec 22.9981 23 whole (81.50) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- sky Eris on Uranus: H RA, J Dec: S Eris → H Uranus RA 1.5557 1.55556 ninth (98.55) | S Eris → J Uranus Dec 22.9981 23 whole (81.50) — only
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -70,6 +72,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Sun → H Sedna Dec 23.9991 24 whole (90.74) | S Sun → J Sedna RA 177.7923 177.778 ninth (98.86) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- sky Sun on Sedna: H Dec, J RA: S Sun → H Sedna Dec 23.9991 24 whole (90.74) | S Sun → J Sedna RA 177.7923 177.778 ninth (98.86) — only
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -125,6 +129,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - same number: S Quaoar → H Quaoar Dec 0.2539 conj conj (2.37) | S Quaoar → J Quaoar Dec 0.0535 conj conj (67.52) — only
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Venus → H Sedna Dec 19.9985 20 whole (85.13) | S Venus → J Sedna Dec 17.9446 φ^6 phi power (99.28) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -174,6 +180,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -212,6 +220,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - same number: S Chiron → H Eris RA 0.1612 conj conj (79.66) | S Chiron → J Eris RA 1.1038 conj conj (6.98) — only
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Chiron → H Transpluto RA 127.8234 79×φ golden (92.33) | S Chiron → J Transpluto RA 122.2436 122.222 ninth (97.04) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -264,6 +274,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - same number: S Saturn → H Chiron RA 0.7998 conj conj (21.79) | S Saturn → J Chiron Dec 0.2429 conj conj (3.63) — only
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Mercury → H Venus RA 177.7439 177.778 ninth (97.35) | S Mercury → J Venus RA 0.1331 conj conj (83.04) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -319,6 +331,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -368,6 +382,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2a sky X on natal Y, both charts, same number
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
+- none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
 - none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none

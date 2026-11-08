@@ -1,6 +1,6 @@
 # Stage 3 back-test
 
-Races: 24 (results file 25; no rules output for 20211204_sandown_1425).
+Races: 24 (results file 26; no rules output for 20211204_sandown_1425, 20240608_beverley_1405).
 fired = races with a pick; only pick = races with exactly one pick; alone = one pick and it won; chance from field sizes.
 In-sample = races the rule was seen on or written from (rules.json); test = every other race. Only the test races are evidence.
 

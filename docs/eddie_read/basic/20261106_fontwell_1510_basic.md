@@ -3,16 +3,16 @@
 The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
-| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 My Own Lovely Lee / Callum Pritchard | - | 1 (0 only) | 1 (1 only) | - | - | - | 1 (1 only) | 2 | - | 5 (5 only) | 6 (3 only) | 10 (4 only) | 6 (1 only) | 1 (1 only) | - |
-| 2 Ted The Thief / Harry Kimber | - | 1 (0 only) | - | - | - | - | - | 4 | - | 3 (3 only) | 5 (4 only) | 8 (4 only) | 5 (0 only) | - | - |
-| 3 Hard Stare / Jonathan Burke | - | - | - | - | - | - | - | 4 | - | 1 (1 only) | 2 (2 only) | 7 (4 only) | 10 (1 only) | - | - |
-| 4 Sweet Nightingale / Tristan Durrell | 1 (1 only) | 1 (0 only) | - | - | - | - | 2 (2 only) | 5 | - | 4 (4 only) | 6 (5 only) | 8 (4 only) | 9 (1 only) | - | - |
-| 5 Pawpaw / Caoilin Quinn | 1 (1 only) | 1 (0 only) | 1 (1 only) | - | - | - | - | 4 | - | 3 (3 only) | 7 (6 only) | 10 (8 only) | 9 (1 only) | 1 (1 only) | - |
-| 6 Steal The Moves / Lilly Pinchin | - | 1 (0 only) | - | - | - | - | - | 7 | - | 1 (1 only) | 4 (4 only) | 7 (6 only) | 7 (2 only) | - | - |
+| Runner | 1 | 2a | 2b | 15 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 My Own Lovely Lee / Callum Pritchard | - | 1 (0 only) | 1 (1 only) | - | - | - | - | 1 (1 only) | 2 | - | 5 (5 only) | 6 (3 only) | 10 (4 only) | 6 (1 only) | 1 (1 only) | - |
+| 2 Ted The Thief / Harry Kimber | - | 1 (0 only) | - | - | - | - | - | - | 4 | - | 3 (3 only) | 5 (4 only) | 8 (4 only) | 5 (0 only) | - | - |
+| 3 Hard Stare / Jonathan Burke | - | - | - | - | - | - | - | - | 4 | - | 1 (1 only) | 2 (2 only) | 7 (4 only) | 10 (1 only) | - | - |
+| 4 Sweet Nightingale / Tristan Durrell | 1 (1 only) | 1 (0 only) | - | - | - | - | - | 2 (2 only) | 5 | - | 4 (4 only) | 6 (5 only) | 8 (4 only) | 9 (1 only) | - | - |
+| 5 Pawpaw / Caoilin Quinn | 1 (1 only) | 1 (0 only) | 1 (1 only) | - | - | - | - | - | 4 | - | 3 (3 only) | 7 (6 only) | 10 (8 only) | 9 (1 only) | 1 (1 only) | - |
+| 6 Steal The Moves / Lilly Pinchin | - | 1 (0 only) | - | - | - | - | - | - | 7 | - | 1 (1 only) | 4 (4 only) | 7 (6 only) | 7 (2 only) | - | - |
 
-Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
+Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 15 sky X on natal Y, both charts, crossed planes (>= 80); 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
 ## 1 My Own Lovely Lee / Callum Pritchard
 ### 1 natal pair, same number, both charts
@@ -21,6 +21,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - same number: S Quaoar → H Quaoar Dec 0.1697 conj conj (18.87) | S Quaoar → J Quaoar Dec 0.0128 conj conj (91.63) — also: 6 Steal The Moves
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Gonggong → H Sun RA 55.9981 56 whole (81.74) | S Gonggong → J Sun RA 20.9995 21 whole (95.00) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -76,6 +78,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - same number: S Chiron → H Eris RA 0.3893 conj conj (54.83) | S Chiron → J Eris RA 1.2340 conj conj (3.15) — also: 4 Sweet Nightingale, 5 Pawpaw
 ### 2b sky X on natal Y, both charts, both >= 80
 - none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -125,6 +129,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -172,6 +178,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2a sky X on natal Y, both charts, same number
 - same number: S Chiron → H Eris RA 0.3504 conj conj (58.74) | S Chiron → J Eris RA 1.0958 conj conj (7.26) — also: 2 Ted The Thief, 5 Pawpaw
 ### 2b sky X on natal Y, both charts, both >= 80
+- none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
 - none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
@@ -229,6 +237,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - same number: S Chiron → H Eris RA 0.0829 conj conj (89.25) | S Chiron → J Eris RA 1.1028 conj conj (7.01) — also: 2 Ted The Thief, 4 Sweet Nightingale
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Sedna → H Juno RA 144.4411 144.444 ninth (99.64) | S Sedna → J Juno RA 15.5543 15.5556 ninth (98.83) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -285,6 +295,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2a sky X on natal Y, both charts, same number
 - same number: S Quaoar → H Quaoar Dec 0.1353 conj conj (30.15) | S Quaoar → J Quaoar Dec 0.2107 conj conj (8.86) — also: 1 My Own Lovely Lee
 ### 2b sky X on natal Y, both charts, both >= 80
+- none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
 - none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none

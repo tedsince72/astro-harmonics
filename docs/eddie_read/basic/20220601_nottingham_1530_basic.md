@@ -3,15 +3,15 @@
 The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
-| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2 Dynamic Force / Ray Dawson | - | - | 1 (1 only) | - | - | - | - | 3 | - | 1 (1 only) | 5 (1 only) | 6 (5 only) | 7 (0 only) | 1 (1 only) | - |
-| 3 Princess Shabnam / Harry Burns | - | - | 1 (1 only) | - | - | - | - | 1 | - | - | 8 (4 only) | 5 (3 only) | 2 (0 only) | - | - |
-| 4 Ballet Steps / Kieran Shoemark | - | - | - | - | - | - | - | 5 | - | - | 8 (5 only) | 8 (4 only) | 6 (2 only) | 2 (2 only) | - |
-| 5 Swayze / Lewis Edmunds | - | 1 (1 only) | 1 (1 only) | - | 1 (1 only) | - | - | 8 | - | 2 (2 only) | 3 (3 only) | 11 (8 only) | 7 (1 only) | 1 (1 only) | - |
-| 6 Silky Wilkie / Clifford Lee | - | - | 1 (1 only) | - | - | - | - | 0 | - | 1 (1 only) | 6 (4 only) | 7 (5 only) | 11 (3 only) | - | - |
+| Runner | 1 | 2a | 2b | 15 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 2 Dynamic Force / Ray Dawson | - | - | 1 (1 only) | 1 (1 only) | - | - | - | - | 3 | - | 1 (1 only) | 5 (1 only) | 6 (5 only) | 7 (0 only) | 1 (1 only) | - |
+| 3 Princess Shabnam / Harry Burns | - | - | 1 (1 only) | 1 (1 only) | - | - | - | - | 1 | - | - | 8 (4 only) | 5 (3 only) | 2 (0 only) | - | - |
+| 4 Ballet Steps / Kieran Shoemark | - | - | - | - | - | - | - | - | 5 | - | - | 8 (5 only) | 8 (4 only) | 6 (2 only) | 2 (2 only) | - |
+| 5 Swayze / Lewis Edmunds | - | 1 (1 only) | 1 (1 only) | 1 (1 only) | - | 1 (1 only) | - | - | 8 | - | 2 (2 only) | 3 (3 only) | 11 (8 only) | 7 (1 only) | 1 (1 only) | - |
+| 6 Silky Wilkie / Clifford Lee | - | - | 1 (1 only) | 1 (1 only) | - | - | - | - | 0 | - | 1 (1 only) | 6 (4 only) | 7 (5 only) | 11 (3 only) | - | - |
 
-Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
+Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 15 sky X on natal Y, both charts, crossed planes (>= 80); 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
 ## 2 Dynamic Force / Ray Dawson
 ### 1 natal pair, same number, both charts
@@ -20,6 +20,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Ceres → H Ceres RA 155.5900 155.556 ninth (96.74) | S Ceres → J Ceres Dec 24.2710 15×φ golden (96.75) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- sky Ceres on Ceres: H RA, J Dec: S Ceres → H Ceres RA 155.5900 155.556 ninth (96.74) | S Ceres → J Ceres Dec 24.2710 15×φ golden (96.75) — only
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -67,6 +69,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Saturn → H Quaoar RA 55.0153 34×φ golden (87.23) | S Saturn → J Quaoar Dec 0.0215 conj conj (86.19) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- sky Saturn on Quaoar: H RA, J Dec: S Saturn → H Quaoar RA 55.0153 34×φ golden (87.23) | S Saturn → J Quaoar Dec 0.0215 conj conj (86.19) — only
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -110,6 +114,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2a sky X on natal Y, both charts, same number
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
+- none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
 - none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
@@ -163,6 +169,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - same number: S Gonggong → H Mercury RA 7.9838 8 whole (3.68) | S Gonggong → J Mercury Dec 8.0160 8 whole (4.01) — only
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Mercury → H Ceres Dec 31.0011 31 whole (89.73) | S Mercury → J Ceres RA 17.7753 17.7778 ninth (98.03) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- sky Mercury on Ceres: H Dec, J RA: S Mercury → H Ceres Dec 31.0011 31 whole (89.73) | S Mercury → J Ceres RA 17.7753 17.7778 ninth (98.03) — only
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -214,6 +222,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Gonggong → H Orcus Dec 0.6180 φ^-1 phi power (100.00) | S Gonggong → J Orcus RA 156.9996 157 whole (96.30) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- sky Gonggong on Orcus: H Dec, J RA: S Gonggong → H Orcus Dec 0.6180 φ^-1 phi power (100.00) | S Gonggong → J Orcus RA 156.9996 157 whole (96.30) — only
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)

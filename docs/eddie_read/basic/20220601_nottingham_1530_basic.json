@@ -260,6 +260,16 @@
      ],
      "note": "Uranus – Sedna: digits 3",
      "field": "only"
+    },
+    {
+     "check": 15,
+     "key": "('Ceres', 'Ceres')",
+     "cells": [
+      "S Ceres → H Ceres RA 155.5900 155.556 ninth (96.74)",
+      "S Ceres → J Ceres Dec 24.2710 15×φ golden (96.75)"
+     ],
+     "note": "sky Ceres on Ceres: H RA, J Dec",
+     "field": "only"
     }
    ]
   },
@@ -451,6 +461,16 @@
      ],
      "note": "4 and 40",
      "field": "also: 2 Dynamic Force, 6 Silky Wilkie"
+    },
+    {
+     "check": 15,
+     "key": "('Saturn', 'Quaoar')",
+     "cells": [
+      "S Saturn → H Quaoar RA 55.0153 34×φ golden (87.23)",
+      "S Saturn → J Quaoar Dec 0.0215 conj conj (86.19)"
+     ],
+     "note": "sky Saturn on Quaoar: H RA, J Dec",
+     "field": "only"
     }
    ]
   },
@@ -1098,6 +1118,16 @@
      ],
      "note": "Mercury – Gonggong: digits 8",
      "field": "only"
+    },
+    {
+     "check": 15,
+     "key": "('Mercury', 'Ceres')",
+     "cells": [
+      "S Mercury → H Ceres Dec 31.0011 31 whole (89.73)",
+      "S Mercury → J Ceres RA 17.7753 17.7778 ninth (98.03)"
+     ],
+     "note": "sky Mercury on Ceres: H Dec, J RA",
+     "field": "only"
     }
    ]
   },
@@ -1415,6 +1445,16 @@
      ],
      "note": "7 and 70",
      "field": "also: 2 Dynamic Force, 5 Swayze"
+    },
+    {
+     "check": 15,
+     "key": "('Gonggong', 'Orcus')",
+     "cells": [
+      "S Gonggong → H Orcus Dec 0.6180 φ^-1 phi power (100.00)",
+      "S Gonggong → J Orcus RA 156.9996 157 whole (96.30)"
+     ],
+     "note": "sky Gonggong on Orcus: H Dec, J RA",
+     "field": "only"
     }
    ]
   }

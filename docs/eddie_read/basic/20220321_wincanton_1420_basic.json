@@ -348,6 +348,16 @@
      ],
      "note": "5 and 50",
      "field": "only"
+    },
+    {
+     "check": 15,
+     "key": "('Saturn', 'Quaoar')",
+     "cells": [
+      "S Saturn → H Quaoar RA 56.9997 57 whole (97.37)",
+      "S Saturn → J Quaoar Dec 0.9987 1 whole (87.83)"
+     ],
+     "note": "sky Saturn on Quaoar: H RA, J Dec",
+     "field": "only"
     }
    ]
   },
@@ -699,6 +709,16 @@
      ],
      "note": "3 and 30",
      "field": "also: 1 Reserve Tank, 4 River Bray, 5 Birds Of Prey"
+    },
+    {
+     "check": 15,
+     "key": "('Transpluto', 'Mars')",
+     "cells": [
+      "S Transpluto → H Mars RA 88.8828 88.8889 ninth (95.61)",
+      "S Transpluto → J Mars Dec 22.6501 14×φ golden (86.04)"
+     ],
+     "note": "sky Transpluto on Mars: H RA, J Dec",
+     "field": "only"
     }
    ]
   },
@@ -1114,6 +1134,16 @@
       "S Jupiter → J Chiron Dec 9.9883 10 whole (17.15)"
      ],
      "note": "Jupiter – Chiron: digits 1",
+     "field": "only"
+    },
+    {
+     "check": 15,
+     "key": "('Uranus', 'Haumea')",
+     "cells": [
+      "S Uranus → H Haumea Dec 2.0009 2 whole (91.17)",
+      "S Uranus → J Haumea RA 155.9998 156 whole (97.87)"
+     ],
+     "note": "sky Uranus on Haumea: H Dec, J RA",
      "field": "only"
     }
    ]

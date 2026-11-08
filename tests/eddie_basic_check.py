@@ -58,6 +58,13 @@ check(len(c14) == 1 and c14[0][0] == 5 and 'H Jupiter – H Uranus Dec 14.4459 1
 c5 = sorted(c for c in pl for it in pl[c] if it['check'] == 5)
 check(c5 == [1, 5], f'5 Lingfield swaps Arafi, Pholas {c5}')
 
+check(has(15, 'S Neptune → H Jupiter RA 179.4564', 'S Neptune → J Jupiter Dec 11.3247', field='only'), '15 Athmad Neptune crossed')
+_, ps = EB.run(os.path.join(ROOT, 'reference/classic/race_batch_20211204_sandown_1425_active.xlsx'))
+c15 = [(c, ' | '.join(it['cells'])) for c in ps for it in ps[c] if it['check'] == 15]
+check(len(c15) == 1 and c15[0][0] == 3 and 'S Ceres → H Mars RA 138.0017 138 whole (83.98)' in c15[0][1]
+      and 'S Ceres → J Mars Dec 2.0001 2 whole (99.38)' in c15[0][1], f'15 Sandown Greaneteen only {c15}')
+check(any(it['check'] == 15 and 'S Quaoar → H Vesta Dec 37.2167' in ' '.join(it['cells']) for it in pl[5]), '15 Pholas Quaoar crossed')
+
 # own reader: every body cell of every _active.xlsx = the tool's cell set
 BOD = set(EB.BODIES)
 for path in sorted(glob.glob(os.path.join(ROOT, 'reference/classic/*_active.xlsx'))):

@@ -707,6 +707,16 @@
      ],
      "note": "Venus – Ceres: digits 2",
      "field": "only"
+    },
+    {
+     "check": 15,
+     "key": "('Sun', 'Juno')",
+     "cells": [
+      "S Sun → H Juno RA 144.4510 144.444 ninth (99.31)",
+      "S Sun → J Juno Dec 7.9983 8 whole (84.13)"
+     ],
+     "note": "sky Sun on Juno: H RA, J Dec",
+     "field": "only"
     }
    ]
   },

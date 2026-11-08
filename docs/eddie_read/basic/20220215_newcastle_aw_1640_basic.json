@@ -1603,6 +1603,16 @@
      ],
      "note": "Sun – Saturn: digits 1",
      "field": "only"
+    },
+    {
+     "check": 15,
+     "key": "('Pluto', 'Mars')",
+     "cells": [
+      "S Pluto → H Mars Dec 2.0005 2 whole (95.05)",
+      "S Pluto → J Mars RA 76.9983 77 whole (83.80)"
+     ],
+     "note": "sky Pluto on Mars: H Dec, J RA",
+     "field": "only"
     }
    ]
   },

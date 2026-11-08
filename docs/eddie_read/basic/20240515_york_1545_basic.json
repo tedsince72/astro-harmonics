@@ -617,6 +617,16 @@
      ],
      "note": "Ceres – Pallas: digits 43",
      "field": "only"
+    },
+    {
+     "check": 15,
+     "key": "('Transpluto', 'Ketu')",
+     "cells": [
+      "S Transpluto → H Ketu RA 95.4664 59×φ golden (85.98)",
+      "S Transpluto → J Ketu Dec 0.0176 conj conj (88.61)"
+     ],
+     "note": "sky Transpluto on Ketu: H RA, J Dec",
+     "field": "only"
     }
    ]
   },
@@ -1930,6 +1940,26 @@
       "J Mercury – J Eris Dec 1.9995 2 whole (94.87)"
      ],
      "note": "Mercury – Eris: digits 2",
+     "field": "only"
+    },
+    {
+     "check": 15,
+     "key": "('Chiron', 'Makemake')",
+     "cells": [
+      "S Chiron → H Makemake Dec 14.1448 14.14 sqrt2 (92.47)",
+      "S Chiron → J Makemake RA 155.5652 155.556 ninth (99.08)"
+     ],
+     "note": "sky Chiron on Makemake: H Dec, J RA",
+     "field": "only"
+    },
+    {
+     "check": 15,
+     "key": "('Uranus', 'Mercury')",
+     "cells": [
+      "S Uranus → H Mercury Dec 17.7711 17.7778 ninth (94.75)",
+      "S Uranus → J Mercury RA 137.9987 138 whole (87.62)"
+     ],
+     "note": "sky Uranus on Mercury: H Dec, J RA",
      "field": "only"
     }
    ]

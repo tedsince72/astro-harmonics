@@ -3,16 +3,16 @@
 The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
-| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 Dubai Souq / Sean Kirrane | - | 1 (0 only) | - | - | 1 (1 only) | - | - | 2 | - | 2 (2 only) | 5 (4 only) | 12 (9 only) | 8 (2 only) | - | - |
-| 2 Athmad / Jason Hart | 1 (1 only) | 2 (1 only) | 1 (1 only) | 1 (1 only) | 1 (1 only) | 1 (1 only) | 1 (1 only) | 6 | 6 (6 only) | 4 (4 only) | 4 (3 only) | 9 (7 only) | 10 (0 only) | 1 (1 only) | - |
-| 3 Raise The Roof / Luke Morris | 1 (1 only) | - | 1 (1 only) | - | - | - | - | 3 | - | 4 (4 only) | 7 (3 only) | 6 (3 only) | 7 (0 only) | - | - |
-| 4 Beating All / Ben Curtis | - | - | - | - | - | - | - | 3 | - | 2 (2 only) | 8 (3 only) | 10 (4 only) | 8 (0 only) | - | - |
-| 5 Pallas Dancer / Ben Robinson | - | - | - | - | - | - | - | 4 | - | 3 (3 only) | 1 (0 only) | 10 (6 only) | 7 (0 only) | 1 (1 only) | - |
-| 6 Tricolore / Dylan Hogan | - | - | 1 (1 only) | 1 (1 only) | - | - | - | 3 | - | 1 (1 only) | 6 (5 only) | 6 (5 only) | 8 (0 only) | - | - |
+| Runner | 1 | 2a | 2b | 15 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 Dubai Souq / Sean Kirrane | - | 1 (0 only) | - | - | - | 1 (1 only) | - | - | 2 | - | 2 (2 only) | 5 (4 only) | 12 (9 only) | 8 (2 only) | - | - |
+| 2 Athmad / Jason Hart | 1 (1 only) | 2 (1 only) | 1 (1 only) | 1 (1 only) | 1 (1 only) | 1 (1 only) | 1 (1 only) | 1 (1 only) | 6 | 6 (6 only) | 4 (4 only) | 4 (3 only) | 9 (7 only) | 10 (0 only) | 1 (1 only) | - |
+| 3 Raise The Roof / Luke Morris | 1 (1 only) | - | 1 (1 only) | 1 (1 only) | - | - | - | - | 3 | - | 4 (4 only) | 7 (3 only) | 6 (3 only) | 7 (0 only) | - | - |
+| 4 Beating All / Ben Curtis | - | - | - | - | - | - | - | - | 3 | - | 2 (2 only) | 8 (3 only) | 10 (4 only) | 8 (0 only) | - | - |
+| 5 Pallas Dancer / Ben Robinson | - | - | - | - | - | - | - | - | 4 | - | 3 (3 only) | 1 (0 only) | 10 (6 only) | 7 (0 only) | 1 (1 only) | - |
+| 6 Tricolore / Dylan Hogan | - | - | 1 (1 only) | 1 (1 only) | 1 (1 only) | - | - | - | 3 | - | 1 (1 only) | 6 (5 only) | 6 (5 only) | 8 (0 only) | - | - |
 
-Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
+Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 15 sky X on natal Y, both charts, crossed planes (>= 80); 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
 ## 1 Dubai Souq / Sean Kirrane
 ### 1 natal pair, same number, both charts
@@ -20,6 +20,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2a sky X on natal Y, both charts, same number
 - same number: S Jupiter → H Gonggong Dec 0.2826 conj conj (0.34) | S Jupiter → J Gonggong RA 0.0420 conj conj (94.48) — also: 2 Athmad
 ### 2b sky X on natal Y, both charts, both >= 80
+- none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
 - none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
@@ -77,6 +79,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - same number: S Jupiter → H Gonggong Dec 0.0512 conj conj (68.77) | S Jupiter → J Gonggong RA 1.4607 conj conj (0.07) — also: 1 Dubai Souq
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Neptune → H Jupiter RA 179.4564 10×φ^6 phi power (96.98) | S Neptune → J Jupiter Dec 11.3247 7×φ golden (90.92) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- sky Neptune on Jupiter: H RA, J Dec: S Neptune → H Jupiter RA 179.4564 10×φ^6 phi power (96.98) | S Neptune → J Jupiter Dec 11.3247 7×φ golden (90.92) — only
 ### 3 sky X on both natal Jupiters (>= 80)
 - S Neptune → H Jupiter RA 179.4564 10×φ^6 phi power (96.98) | S Neptune → J Jupiter Dec 11.3247 7×φ golden (90.92) — only
 ### 4 sky X, same number, both charts (>= 80)
@@ -137,6 +141,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Makemake → H Gonggong RA 139.1507 86×φ golden (98.71) | S Makemake → J Gonggong Dec 43.6870 27×φ golden (99.58) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- sky Makemake on Gonggong: H RA, J Dec: S Makemake → H Gonggong RA 139.1507 86×φ golden (98.71) | S Makemake → J Gonggong Dec 43.6870 27×φ golden (99.58) — only
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -188,6 +194,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2a sky X on natal Y, both charts, same number
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
+- none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
 - none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
@@ -245,6 +253,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -294,6 +304,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Pallas → H Jupiter RA 122.9565 φ^10 phi power (88.82) | S Pallas → J Jupiter Dec 24.1451 24.14 silver (95.18) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- sky Pallas on Jupiter: H RA, J Dec: S Pallas → H Jupiter RA 122.9565 φ^10 phi power (88.82) | S Pallas → J Jupiter Dec 24.1451 24.14 silver (95.18) — only
 ### 3 sky X on both natal Jupiters (>= 80)
 - S Pallas → H Jupiter RA 122.9565 φ^10 phi power (88.82) | S Pallas → J Jupiter Dec 24.1451 24.14 silver (95.18) — only
 ### 4 sky X, same number, both charts (>= 80)

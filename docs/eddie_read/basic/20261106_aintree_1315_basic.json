@@ -1023,6 +1023,16 @@
      ],
      "note": "Rahu – Pallas: digits 3",
      "field": "only"
+    },
+    {
+     "check": 15,
+     "key": "('Saturn', 'Vesta')",
+     "cells": [
+      "S Saturn → H Vesta Dec 17.7800 17.7778 ninth (98.26)",
+      "S Saturn → J Vesta RA 144.4748 144.444 ninth (96.79)"
+     ],
+     "note": "sky Saturn on Vesta: H Dec, J RA",
+     "field": "only"
     }
    ]
   },
@@ -1340,6 +1350,16 @@
       "S Venus → J Neptune RA 79.9908 80 whole (29.27)"
      ],
      "note": "8 and 80",
+     "field": "only"
+    },
+    {
+     "check": 15,
+     "key": "('Ketu', 'Vesta')",
+     "cells": [
+      "S Ketu → H Vesta Dec 7.0015 7 whole (85.92)",
+      "S Ketu → J Vesta RA 127.0015 127 whole (85.66)"
+     ],
+     "note": "sky Ketu on Vesta: H Dec, J RA",
      "field": "only"
     }
    ]

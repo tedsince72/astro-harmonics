@@ -527,6 +527,16 @@
      ],
      "note": "3 and 30",
      "field": "also: 3 Dawn Of Liberation, 4 Eydon, 5 Masekela"
+    },
+    {
+     "check": 15,
+     "key": "('Ketu', 'Eris')",
+     "cells": [
+      "S Ketu → H Eris RA 155.5312 155.556 ninth (97.69)",
+      "S Ketu → J Eris Dec 11.1193 11.1111 ninth (86.64)"
+     ],
+     "note": "sky Ketu on Eris: H RA, J Dec",
+     "field": "only"
     }
    ]
   },
@@ -927,6 +937,26 @@
      ],
      "note": "Haumea – Orcus: digits 59",
      "field": "only"
+    },
+    {
+     "check": 15,
+     "key": "('Moon', 'Sedna')",
+     "cells": [
+      "S Moon → H Sedna RA 122.2345 122.222 ninth (98.31)",
+      "S Moon → J Sedna Dec 1.0003 1 whole (97.30)"
+     ],
+     "note": "sky Moon on Sedna: H RA, J Dec",
+     "field": "only"
+    },
+    {
+     "check": 15,
+     "key": "('Mars', 'Chiron')",
+     "cells": [
+      "S Mars → H Chiron Dec 15.5532 15.5556 ninth (97.81)",
+      "S Mars → J Chiron RA 111.1346 111.111 ninth (96.15)"
+     ],
+     "note": "sky Mars on Chiron: H Dec, J RA",
+     "field": "only"
     }
    ]
   },
@@ -1300,6 +1330,16 @@
      ],
      "note": "7 and 70",
      "field": "also: 5 Masekela"
+    },
+    {
+     "check": 15,
+     "key": "('Vesta', 'Sun')",
+     "cells": [
+      "S Vesta → H Sun Dec 18.9996 19 whole (95.64)",
+      "S Vesta → J Sun RA 129.4394 80×φ golden (80.57)"
+     ],
+     "note": "sky Vesta on Sun: H Dec, J RA",
+     "field": "only"
     }
    ]
   },

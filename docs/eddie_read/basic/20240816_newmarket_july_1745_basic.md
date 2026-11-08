@@ -3,19 +3,19 @@
 The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
-| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 Anniversary / Rob Hornby | - | - | 1 (1 only) | - | - | - | - | 3 | - | 5 (5 only) | 8 (1 only) | 8 (3 only) | 9 (0 only) | - | - |
-| 2 Arabian Poet / William Buick | - | - | - | - | 1 (1 only) | - | 2 (2 only) | 4 | - | 4 (4 only) | 6 (4 only) | 10 (4 only) | 7 (0 only) | - | - |
-| 3 Double Meaning / Pat Dobbs | - | 1 (0 only) | 2 (2 only) | - | - | - | - | 3 | - | 1 (1 only) | 7 (1 only) | 10 (2 only) | 5 (0 only) | - | - |
-| 4 King Of Cities / Sean Levey | - | - | 2 (2 only) | - | - | - | - | 5 | - | 2 (1 only) | 8 (4 only) | 10 (2 only) | 8 (0 only) | - | - |
-| 5 Knights Gold / Marco Ghiani | - | 2 (2 only) | - | - | - | - | - | 5 | - | 1 (1 only) | 4 (1 only) | 9 (2 only) | 8 (0 only) | 1 (1 only) | - |
-| 6 Scandinavia / Tom Marquand | - | - | - | - | - | - | 3 (3 only) | 1 | 3 (3 only) | 2 (2 only) | 7 (3 only) | 8 (4 only) | 9 (0 only) | - | - |
-| 7 Sedate / Joshua Bryan | - | - | 1 (1 only) | - | - | - | - | 3 | - | 1 (1 only) | 12 (7 only) | 13 (7 only) | 8 (0 only) | - | - |
-| 8 Vecu / Robert Havlin | - | - | 1 (1 only) | - | - | - | 2 (2 only) | 3 | - | 4 (4 only) | 4 (1 only) | 7 (4 only) | 4 (0 only) | - | - |
-| 9 Big Gypsy King / Neil Callan | - | 1 (0 only) | - | - | - | - | 2 (2 only) | 2 | - | 5 (3 only) | 5 (0 only) | 9 (3 only) | 7 (0 only) | 2 (2 only) | - |
+| Runner | 1 | 2a | 2b | 15 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 Anniversary / Rob Hornby | - | - | 1 (1 only) | 1 (1 only) | - | - | - | - | 3 | - | 5 (5 only) | 8 (1 only) | 8 (3 only) | 9 (0 only) | - | - |
+| 2 Arabian Poet / William Buick | - | - | - | - | - | 1 (1 only) | - | 2 (2 only) | 4 | - | 4 (4 only) | 6 (4 only) | 10 (4 only) | 7 (0 only) | - | - |
+| 3 Double Meaning / Pat Dobbs | - | 1 (0 only) | 2 (2 only) | - | - | - | - | - | 3 | - | 1 (1 only) | 7 (1 only) | 10 (2 only) | 5 (0 only) | - | - |
+| 4 King Of Cities / Sean Levey | - | - | 2 (2 only) | 2 (2 only) | - | - | - | - | 5 | - | 2 (1 only) | 8 (4 only) | 10 (2 only) | 8 (0 only) | - | - |
+| 5 Knights Gold / Marco Ghiani | - | 2 (2 only) | - | - | - | - | - | - | 5 | - | 1 (1 only) | 4 (1 only) | 9 (2 only) | 8 (0 only) | 1 (1 only) | - |
+| 6 Scandinavia / Tom Marquand | - | - | - | - | - | - | - | 3 (3 only) | 1 | 3 (3 only) | 2 (2 only) | 7 (3 only) | 8 (4 only) | 9 (0 only) | - | - |
+| 7 Sedate / Joshua Bryan | - | - | 1 (1 only) | 1 (1 only) | - | - | - | - | 3 | - | 1 (1 only) | 12 (7 only) | 13 (7 only) | 8 (0 only) | - | - |
+| 8 Vecu / Robert Havlin | - | - | 1 (1 only) | - | - | - | - | 2 (2 only) | 3 | - | 4 (4 only) | 4 (1 only) | 7 (4 only) | 4 (0 only) | - | - |
+| 9 Big Gypsy King / Neil Callan | - | 1 (0 only) | - | - | - | - | - | 2 (2 only) | 2 | - | 5 (3 only) | 5 (0 only) | 9 (3 only) | 7 (0 only) | 2 (2 only) | - |
 
-Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
+Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 15 sky X on natal Y, both charts, crossed planes (>= 80); 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
 ## 1 Anniversary / Rob Hornby
 ### 1 natal pair, same number, both charts
@@ -24,6 +24,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Mars → H Mercury Dec 42.0010 42 whole (89.82) | S Mars → J Mercury RA 0.1477 conj conj (81.28) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- sky Mars on Mercury: H Dec, J RA: S Mars → H Mercury Dec 42.0010 42 whole (89.82) | S Mars → J Mercury RA 0.1477 conj conj (81.28) — only
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -82,6 +84,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -139,6 +143,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Vesta → H Neptune RA 155.5119 155.556 ninth (95.87) | S Vesta → J Neptune RA 108.0018 108 whole (82.58) — only
 - both >= 80: S Gonggong → H Saturn Dec 4.9992 5 whole (92.39) | S Gonggong → J Saturn Dec 24.1422 24.14 silver (99.89) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -191,6 +197,9 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Sun → H Pallas RA 119.9980 120 whole (80.68) | S Sun → J Pallas Dec 6.4727 4×φ golden (96.51) — only
 - both >= 80: S Transpluto → H Chiron RA 144.4280 144.444 ninth (98.26) | S Transpluto → J Chiron Dec 7.0718 7.07 sqrt2 (95.83) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- sky Sun on Pallas: H RA, J Dec: S Sun → H Pallas RA 119.9980 120 whole (80.68) | S Sun → J Pallas Dec 6.4727 4×φ golden (96.51) — only
+- sky Transpluto on Chiron: H RA, J Dec: S Transpluto → H Chiron RA 144.4280 144.444 ninth (98.26) | S Transpluto → J Chiron Dec 7.0718 7.07 sqrt2 (95.83) — only
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -248,6 +257,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - same number: S Quaoar → H Quaoar Dec 0.1242 conj conj (34.36) | S Quaoar → J Quaoar Dec 0.1562 conj conj (22.98) — only
 ### 2b sky X on natal Y, both charts, both >= 80
 - none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -297,6 +308,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2a sky X on natal Y, both charts, same number
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
+- none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
 - none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
@@ -356,6 +369,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Pluto → H Neptune RA 49.9994 50 whole (94.43) | S Pluto → J Neptune Dec 3.9998 4 whole (98.09) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- sky Pluto on Neptune: H RA, J Dec: S Pluto → H Neptune RA 49.9994 50 whole (94.43) | S Pluto → J Neptune Dec 3.9998 4 whole (98.09) — only
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -418,6 +433,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Sun → H Neptune RA 153.0003 153 whole (97.33) | S Sun → J Neptune RA 99.9988 100 ninth (99.21) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -465,6 +482,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2a sky X on natal Y, both charts, same number
 - same number: S Transpluto → H Orcus RA 0.4911 conj conj (45.24) | S Transpluto → J Orcus Dec 0.0055 conj conj (96.35) — also: 3 Double Meaning
 ### 2b sky X on natal Y, both charts, both >= 80
+- none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
 - none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none

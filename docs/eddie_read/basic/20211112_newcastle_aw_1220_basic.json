@@ -874,6 +874,16 @@
      ],
      "note": "Saturn – Sedna: digits 8",
      "field": "only"
+    },
+    {
+     "check": 15,
+     "key": "('Venus', 'Pallas')",
+     "cells": [
+      "S Venus → H Pallas Dec 14.0005 14 whole (95.49)",
+      "S Venus → J Pallas RA 49.9996 50 whole (96.37)"
+     ],
+     "note": "sky Venus on Pallas: H Dec, J RA",
+     "field": "only"
     }
    ]
   },
@@ -1598,6 +1608,16 @@
      ],
      "note": "Mars – Ketu: 86×φ golden",
      "field": "only"
+    },
+    {
+     "check": 15,
+     "key": "('Sedna', 'Pluto')",
+     "cells": [
+      "S Sedna → H Pluto Dec 29.0372 φ^7 phi power (96.24)",
+      "S Sedna → J Pluto RA 177.7726 177.778 ninth (99.60)"
+     ],
+     "note": "sky Sedna on Pluto: H Dec, J RA",
+     "field": "only"
     }
    ]
   },
@@ -1971,6 +1991,16 @@
       "S Moon → J Orcus Dec 15.9964 16 whole (67.24)"
      ],
      "note": "Moon – Orcus: digits 16",
+     "field": "only"
+    },
+    {
+     "check": 15,
+     "key": "('Saturn', 'Pallas')",
+     "cells": [
+      "S Saturn → H Pallas Dec 17.7989 11×φ golden (96.69)",
+      "S Saturn → J Pallas RA 111.1463 111.111 ninth (94.25)"
+     ],
+     "note": "sky Saturn on Pallas: H Dec, J RA",
      "field": "only"
     }
    ]

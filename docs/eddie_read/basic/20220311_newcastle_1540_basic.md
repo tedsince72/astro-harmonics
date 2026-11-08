@@ -3,16 +3,16 @@
 The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
-| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 Vocaliser / Fergus Gregory | 1 (1 only) | - | 1 (1 only) | - | - | - | - | 6 | - | 2 (2 only) | 4 (3 only) | 8 (7 only) | 11 (0 only) | 1 (1 only) | - |
-| 2 Edmond Dantes / Brian Hughes | 2 (2 only) | - | - | - | - | - | 1 (1 only) | 1 | 2 (2 only) | 3 (3 only) | 8 (5 only) | 8 (7 only) | 8 (0 only) | 4 (4 only) | - |
-| 3 Peak Time / Conor O'Farrell | - | - | 1 (1 only) | 1 (1 only) | - | 1 (1 only) | - | 6 | - | 2 (2 only) | 2 (1 only) | 7 (3 only) | 8 (1 only) | - | - |
-| 5 Sir Apollo / Jonathan England | - | - | - | - | - | - | - | 0 | - | 1 (1 only) | 5 (4 only) | 7 (4 only) | 6 (0 only) | 1 (1 only) | - |
-| 6 Thundersockssundae / Kielan Woods | - | - | 1 (1 only) | 1 (1 only) | - | - | - | 2 | - | 3 (3 only) | 4 (4 only) | 8 (6 only) | 10 (1 only) | 1 (1 only) | - |
-| 7 Black Opium / Stephen Mulqueen | - | - | - | - | - | - | - | 4 | - | 3 (3 only) | 5 (3 only) | 10 (4 only) | 4 (0 only) | - | - |
+| Runner | 1 | 2a | 2b | 15 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 Vocaliser / Fergus Gregory | 1 (1 only) | - | 1 (1 only) | - | - | - | - | - | 6 | - | 2 (2 only) | 4 (3 only) | 8 (7 only) | 11 (0 only) | 1 (1 only) | - |
+| 2 Edmond Dantes / Brian Hughes | 2 (2 only) | - | - | - | - | - | - | 1 (1 only) | 1 | 2 (2 only) | 3 (3 only) | 8 (5 only) | 8 (7 only) | 8 (0 only) | 4 (4 only) | - |
+| 3 Peak Time / Conor O'Farrell | - | - | 1 (1 only) | 1 (1 only) | 1 (1 only) | - | 1 (1 only) | - | 6 | - | 2 (2 only) | 2 (1 only) | 7 (3 only) | 8 (1 only) | - | - |
+| 5 Sir Apollo / Jonathan England | - | - | - | - | - | - | - | - | 0 | - | 1 (1 only) | 5 (4 only) | 7 (4 only) | 6 (0 only) | 1 (1 only) | - |
+| 6 Thundersockssundae / Kielan Woods | - | - | 1 (1 only) | - | 1 (1 only) | - | - | - | 2 | - | 3 (3 only) | 4 (4 only) | 8 (6 only) | 10 (1 only) | 1 (1 only) | - |
+| 7 Black Opium / Stephen Mulqueen | - | - | - | - | - | - | - | - | 4 | - | 3 (3 only) | 5 (3 only) | 10 (4 only) | 4 (0 only) | - | - |
 
-Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
+Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 15 sky X on natal Y, both charts, crossed planes (>= 80); 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
 ## 1 Vocaliser / Fergus Gregory
 ### 1 natal pair, same number, both charts
@@ -21,6 +21,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Transpluto → H Chiron RA 179.4897 10×φ^6 phi power (89.79) | S Transpluto → J Chiron RA 28.9999 29 whole (98.53) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -74,6 +76,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2a sky X on natal Y, both charts, same number
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
+- none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
 - none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
@@ -134,6 +138,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Sedna → H Jupiter Dec 14.4419 14.4444 ninth (97.31) | S Sedna → J Jupiter RA 31.0019 31 whole (81.83) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- sky Sedna on Jupiter: H Dec, J RA: S Sedna → H Jupiter Dec 14.4419 14.4444 ninth (97.31) | S Sedna → J Jupiter RA 31.0019 31 whole (81.83) — only
 ### 3 sky X on both natal Jupiters (>= 80)
 - S Sedna → H Jupiter Dec 14.4419 14.4444 ninth (97.31) | S Sedna → J Jupiter RA 31.0019 31 whole (81.83) — only
 ### 4 sky X, same number, both charts (>= 80)
@@ -180,6 +186,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2a sky X on natal Y, both charts, same number
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
+- none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
 - none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
@@ -228,6 +236,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Pallas → H Jupiter RA 122.2326 122.222 ninth (98.56) | S Pallas → J Jupiter RA 168.0011 168 whole (89.12) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- none
 ### 3 sky X on both natal Jupiters (>= 80)
 - S Pallas → H Jupiter RA 122.2326 122.222 ninth (98.56) | S Pallas → J Jupiter RA 168.0011 168 whole (89.12) — only
 ### 4 sky X, same number, both charts (>= 80)
@@ -280,6 +290,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2a sky X on natal Y, both charts, same number
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
+- none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
 - none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none

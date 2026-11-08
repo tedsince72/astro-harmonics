@@ -3,16 +3,16 @@
 The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
-| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 Arafi / Sean Levey | - | 2 (0 only) | 3 (3 only) | - | - | 1 (1 only) | - | 7 | - | 3 (3 only) | 5 (4 only) | 10 (5 only) | 4 (0 only) | 1 (1 only) | - |
-| 2 Fizzy Feet / Rossa Ryan | - | - | 1 (1 only) | - | - | - | - | 4 | - | - | 9 (5 only) | 11 (5 only) | 7 (1 only) | 1 (1 only) | - |
-| 3 Indie Angel / Martin Harley | - | 2 (0 only) | - | - | - | - | 1 (1 only) | 1 | - | 2 (2 only) | 2 (2 only) | 11 (6 only) | 6 (1 only) | - | - |
-| 4 Nirodha / Silvestre De Sousa | - | - | 1 (1 only) | - | 1 (1 only) | - | 1 (1 only) | 7 | - | 2 (2 only) | 7 (3 only) | 10 (7 only) | 6 (3 only) | - | - |
-| 5 Pholas / Hollie Doyle | - | - | 1 (1 only) | - | - | 1 (1 only) | - | 6 | - | 3 (3 only) | 7 (7 only) | 9 (1 only) | 6 (0 only) | - | 1 (1 only) |
-| 6 Shimmering Dawn / James Doyle | - | - | - | - | - | - | - | 1 | 3 (3 only) | 2 (2 only) | 3 (2 only) | 11 (3 only) | 5 (0 only) | - | - |
+| Runner | 1 | 2a | 2b | 15 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 Arafi / Sean Levey | - | 2 (0 only) | 3 (3 only) | 1 (1 only) | - | - | 1 (1 only) | - | 7 | - | 3 (3 only) | 5 (4 only) | 10 (5 only) | 4 (0 only) | 1 (1 only) | - |
+| 2 Fizzy Feet / Rossa Ryan | - | - | 1 (1 only) | 1 (1 only) | - | - | - | - | 4 | - | - | 9 (5 only) | 11 (5 only) | 7 (1 only) | 1 (1 only) | - |
+| 3 Indie Angel / Martin Harley | - | 2 (0 only) | - | - | - | - | - | 1 (1 only) | 1 | - | 2 (2 only) | 2 (2 only) | 11 (6 only) | 6 (1 only) | - | - |
+| 4 Nirodha / Silvestre De Sousa | - | - | 1 (1 only) | - | - | 1 (1 only) | - | 1 (1 only) | 7 | - | 2 (2 only) | 7 (3 only) | 10 (7 only) | 6 (3 only) | - | - |
+| 5 Pholas / Hollie Doyle | - | - | 1 (1 only) | 1 (1 only) | - | - | 1 (1 only) | - | 6 | - | 3 (3 only) | 7 (7 only) | 9 (1 only) | 6 (0 only) | - | 1 (1 only) |
+| 6 Shimmering Dawn / James Doyle | - | - | - | - | - | - | - | - | 1 | 3 (3 only) | 2 (2 only) | 3 (2 only) | 11 (3 only) | 5 (0 only) | - | - |
 
-Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
+Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 15 sky X on natal Y, both charts, crossed planes (>= 80); 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
 ## 1 Arafi / Sean Levey
 ### 1 natal pair, same number, both charts
@@ -24,6 +24,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - both >= 80: S Moon → H Transpluto RA 103.9988 104 whole (88.44) | S Moon → J Transpluto RA 113.9996 114 whole (96.13) — only
 - both >= 80: S Vesta → H Juno RA 108.4072 67×φ golden (93.30) | S Vesta → J Juno RA 145.0003 145 whole (96.78) — only
 - both >= 80: S Chiron → H Ketu Dec 16.0017 16 whole (84.11) | S Chiron → J Ketu RA 166.6147 166.667 ninth (95.54) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- sky Chiron on Ketu: H Dec, J RA: S Chiron → H Ketu Dec 16.0017 16 whole (84.11) | S Chiron → J Ketu RA 166.6147 166.667 ninth (95.54) — only
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -74,6 +76,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Ceres → H Saturn RA 122.2526 122.222 ninth (95.79) | S Ceres → J Saturn Dec 17.9408 φ^6 phi power (92.37) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- sky Ceres on Saturn: H RA, J Dec: S Ceres → H Saturn RA 122.2526 122.222 ninth (95.79) | S Ceres → J Saturn Dec 17.9408 φ^6 phi power (92.37) — only
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -131,6 +135,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - same number: S Pluto → H Saturn Dec 0.1248 conj conj (34.09) | S Pluto → J Saturn Dec 0.2255 conj conj (6.16) — also: 1 Arafi
 ### 2b sky X on natal Y, both charts, both >= 80
 - none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -180,6 +186,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Juno → H Transpluto RA 110.9209 10×φ^5 phi power (93.21) | S Juno → J Transpluto RA 122.2846 122.222 ninth (91.36) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -233,6 +241,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Quaoar → H Vesta Dec 37.2167 23×φ golden (88.43) | S Quaoar → J Vesta RA 20.9991 21 whole (91.50) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- sky Quaoar on Vesta: H Dec, J RA: S Quaoar → H Vesta Dec 37.2167 23×φ golden (88.43) | S Quaoar → J Vesta RA 20.9991 21 whole (91.50) — only
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -285,6 +295,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2a sky X on natal Y, both charts, same number
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
+- none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
 - none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none

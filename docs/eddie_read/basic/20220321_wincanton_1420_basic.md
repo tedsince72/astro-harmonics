@@ -3,16 +3,16 @@
 The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
-| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 Reserve Tank / Brendan Powell | - | - | 1 (1 only) | - | - | - | - | 1 | - | 1 (1 only) | 7 (4 only) | 9 (5 only) | 10 (3 only) | - | - |
-| 2 Guernesey / Tom O'Brien | - | - | 1 (1 only) | - | 1 (1 only) | 1 (1 only) | - | 3 | - | 6 (6 only) | 8 (4 only) | 7 (5 only) | 6 (0 only) | - | - |
-| 3 Ballyblack / Rex Dingle | - | - | 1 (1 only) | - | - | - | 3 (3 only) | 4 | 2 (2 only) | 4 (4 only) | 5 (1 only) | 11 (9 only) | 8 (1 only) | 1 (1 only) | - |
-| 4 River Bray / Alan Johns | - | - | - | - | - | - | 1 (1 only) | 4 | - | 4 (4 only) | 6 (4 only) | 10 (5 only) | 11 (1 only) | - | - |
-| 5 Birds Of Prey / Harry Cobden | - | - | - | - | - | - | - | 5 | - | 4 (4 only) | 4 (1 only) | 5 (2 only) | 6 (1 only) | - | - |
-| 6 Electric Annie / Nick Scholfield | - | - | - | - | 1 (1 only) | - | - | 3 | - | 2 (2 only) | 6 (4 only) | 6 (2 only) | 5 (0 only) | - | - |
+| Runner | 1 | 2a | 2b | 15 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 Reserve Tank / Brendan Powell | - | - | 1 (1 only) | 1 (1 only) | - | - | - | - | 1 | - | 1 (1 only) | 7 (4 only) | 9 (5 only) | 10 (3 only) | - | - |
+| 2 Guernesey / Tom O'Brien | - | - | 1 (1 only) | 1 (1 only) | - | 1 (1 only) | 1 (1 only) | - | 3 | - | 6 (6 only) | 8 (4 only) | 7 (5 only) | 6 (0 only) | - | - |
+| 3 Ballyblack / Rex Dingle | - | - | 1 (1 only) | 1 (1 only) | - | - | - | 3 (3 only) | 4 | 2 (2 only) | 4 (4 only) | 5 (1 only) | 11 (9 only) | 8 (1 only) | 1 (1 only) | - |
+| 4 River Bray / Alan Johns | - | - | - | - | - | - | - | 1 (1 only) | 4 | - | 4 (4 only) | 6 (4 only) | 10 (5 only) | 11 (1 only) | - | - |
+| 5 Birds Of Prey / Harry Cobden | - | - | - | - | - | - | - | - | 5 | - | 4 (4 only) | 4 (1 only) | 5 (2 only) | 6 (1 only) | - | - |
+| 6 Electric Annie / Nick Scholfield | - | - | - | - | - | 1 (1 only) | - | - | 3 | - | 2 (2 only) | 6 (4 only) | 6 (2 only) | 5 (0 only) | - | - |
 
-Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
+Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 15 sky X on natal Y, both charts, crossed planes (>= 80); 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
 ## 1 Reserve Tank / Brendan Powell
 ### 1 natal pair, same number, both charts
@@ -21,6 +21,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Saturn → H Quaoar RA 56.9997 57 whole (97.37) | S Saturn → J Quaoar Dec 0.9987 1 whole (87.83) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- sky Saturn on Quaoar: H RA, J Dec: S Saturn → H Quaoar RA 56.9997 57 whole (97.37) | S Saturn → J Quaoar Dec 0.9987 1 whole (87.83) — only
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -76,6 +78,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Transpluto → H Mars RA 88.8828 88.8889 ninth (95.61) | S Transpluto → J Mars Dec 22.6501 14×φ golden (86.04) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- sky Transpluto on Mars: H RA, J Dec: S Transpluto → H Mars RA 88.8828 88.8889 ninth (95.61) | S Transpluto → J Mars Dec 22.6501 14×φ golden (86.04) — only
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -131,6 +135,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Uranus → H Haumea Dec 2.0009 2 whole (91.17) | S Uranus → J Haumea RA 155.9998 156 whole (97.87) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- sky Uranus on Haumea: H Dec, J RA: S Uranus → H Haumea Dec 2.0009 2 whole (91.17) | S Uranus → J Haumea RA 155.9998 156 whole (97.87) — only
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -189,6 +195,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2a sky X on natal Y, both charts, same number
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
+- none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
 - none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
@@ -249,6 +257,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -295,6 +305,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2a sky X on natal Y, both charts, same number
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
+- none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
 - none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none

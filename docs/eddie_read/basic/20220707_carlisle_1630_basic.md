@@ -3,16 +3,16 @@
 The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
-| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 Aswan / David Allan | - | - | - | - | - | - | - | 4 | - | 1 (1 only) | 2 (1 only) | 6 (3 only) | 5 (0 only) | - | - |
-| 2 Million Thanks / Kevin Stott | - | - | - | - | - | - | 2 (2 only) | 2 | - | 4 (4 only) | 5 (2 only) | 9 (6 only) | 7 (0 only) | 1 (1 only) | - |
-| 4 Persist / Stevie Donohoe | - | - | - | - | 2 (2 only) | - | - | 6 | - | 1 (1 only) | 3 (2 only) | 9 (3 only) | 6 (0 only) | - | - |
-| 6 Whitefeathersfall / Franny Norton | 1 (1 only) | - | - | - | - | - | 3 (3 only) | 1 | - | 4 (4 only) | 3 (1 only) | 7 (2 only) | 5 (1 only) | 1 (1 only) | - |
-| 7 Noble Mark / Luke Morris | - | - | - | - | - | - | 1 (1 only) | 2 | - | 7 (7 only) | 9 (5 only) | 15 (9 only) | 11 (2 only) | - | - |
-| 8 Lucia Joy / Ben Curtis | - | - | 2 (2 only) | - | - | - | - | 1 | - | 1 (1 only) | 4 (1 only) | 7 (3 only) | 12 (1 only) | - | - |
+| Runner | 1 | 2a | 2b | 15 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 Aswan / David Allan | - | - | - | - | - | - | - | - | 4 | - | 1 (1 only) | 2 (1 only) | 6 (3 only) | 5 (0 only) | - | - |
+| 2 Million Thanks / Kevin Stott | - | - | - | - | - | - | - | 2 (2 only) | 2 | - | 4 (4 only) | 5 (2 only) | 9 (6 only) | 7 (0 only) | 1 (1 only) | - |
+| 4 Persist / Stevie Donohoe | - | - | - | - | - | 2 (2 only) | - | - | 6 | - | 1 (1 only) | 3 (2 only) | 9 (3 only) | 6 (0 only) | - | - |
+| 6 Whitefeathersfall / Franny Norton | 1 (1 only) | - | - | - | - | - | - | 3 (3 only) | 1 | - | 4 (4 only) | 3 (1 only) | 7 (2 only) | 5 (1 only) | 1 (1 only) | - |
+| 7 Noble Mark / Luke Morris | - | - | - | - | - | - | - | 1 (1 only) | 2 | - | 7 (7 only) | 9 (5 only) | 15 (9 only) | 11 (2 only) | - | - |
+| 8 Lucia Joy / Ben Curtis | - | - | 2 (2 only) | 2 (2 only) | - | - | - | - | 1 | - | 1 (1 only) | 4 (1 only) | 7 (3 only) | 12 (1 only) | - | - |
 
-Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
+Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 15 sky X on natal Y, both charts, crossed planes (>= 80); 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
 ## 1 Aswan / David Allan
 ### 1 natal pair, same number, both charts
@@ -20,6 +20,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2a sky X on natal Y, both charts, same number
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
+- none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
 - none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
@@ -62,6 +64,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2a sky X on natal Y, both charts, same number
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
+- none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
 - none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
@@ -117,6 +121,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -164,6 +170,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2a sky X on natal Y, both charts, same number
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
+- none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
 - none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
@@ -213,6 +221,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2a sky X on natal Y, both charts, same number
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
+- none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
 - none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
@@ -285,6 +295,9 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Sun → H Makemake RA 88.9985 89 whole (85.86) | S Sun → J Makemake Dec 12.9432 8×φ golden (93.21) — only
 - both >= 80: S Jupiter → H Makemake Dec 22.6520 14×φ golden (96.91) | S Jupiter → J Makemake RA 160.1845 99×φ golden (94.79) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- sky Sun on Makemake: H RA, J Dec: S Sun → H Makemake RA 88.9985 89 whole (85.86) | S Sun → J Makemake Dec 12.9432 8×φ golden (93.21) — only
+- sky Jupiter on Makemake: H Dec, J RA: S Jupiter → H Makemake Dec 22.6520 14×φ golden (96.91) | S Jupiter → J Makemake RA 160.1845 99×φ golden (94.79) — only
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)

@@ -3,16 +3,16 @@
 The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
-| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 Further Measure / Tom Marquand | 1 (1 only) | - | - | - | - | - | - | 3 | - | 2 (2 only) | 5 (3 only) | 8 (6 only) | 5 (0 only) | - | - |
-| 2 Sir Chauvelin / Paul Mulrennan | 1 (1 only) | - | - | - | - | - | - | 4 | - | - | 5 (3 only) | 5 (2 only) | 8 (2 only) | 2 (2 only) | - |
-| 3 Dreams Unwind / Joe Fanning | - | - | 1 (1 only) | - | - | - | 1 (1 only) | 3 | - | 3 (3 only) | 4 (2 only) | 8 (4 only) | 11 (1 only) | 2 (2 only) | - |
-| 4 Greengage / Jason Hart | - | - | - | - | - | - | 2 (2 only) | 4 | 1 (1 only) | 3 (3 only) | 4 (3 only) | 12 (8 only) | 7 (0 only) | - | - |
-| 6 Cuban Hope / Ellie MacKenzie | - | - | 2 (2 only) | - | - | - | 1 (1 only) | 5 | 1 (1 only) | 5 (5 only) | 5 (2 only) | 13 (8 only) | 4 (0 only) | 1 (1 only) | - |
-| 7 Buxted Too / David Egan | - | 1 (1 only) | 2 (2 only) | - | - | - | 1 (1 only) | 7 | - | 2 (2 only) | 5 (3 only) | 10 (7 only) | 9 (0 only) | 1 (1 only) | - |
+| Runner | 1 | 2a | 2b | 15 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 Further Measure / Tom Marquand | 1 (1 only) | - | - | - | - | - | - | - | 3 | - | 2 (2 only) | 5 (3 only) | 8 (6 only) | 5 (0 only) | - | - |
+| 2 Sir Chauvelin / Paul Mulrennan | 1 (1 only) | - | - | - | - | - | - | - | 4 | - | - | 5 (3 only) | 5 (2 only) | 8 (2 only) | 2 (2 only) | - |
+| 3 Dreams Unwind / Joe Fanning | - | - | 1 (1 only) | 1 (1 only) | - | - | - | 1 (1 only) | 3 | - | 3 (3 only) | 4 (2 only) | 8 (4 only) | 11 (1 only) | 2 (2 only) | - |
+| 4 Greengage / Jason Hart | - | - | - | - | - | - | - | 2 (2 only) | 4 | 1 (1 only) | 3 (3 only) | 4 (3 only) | 12 (8 only) | 7 (0 only) | - | - |
+| 6 Cuban Hope / Ellie MacKenzie | - | - | 2 (2 only) | 1 (1 only) | - | - | - | 1 (1 only) | 5 | 1 (1 only) | 5 (5 only) | 5 (2 only) | 13 (8 only) | 4 (0 only) | 1 (1 only) | - |
+| 7 Buxted Too / David Egan | - | 1 (1 only) | 2 (2 only) | 1 (1 only) | - | - | - | 1 (1 only) | 7 | - | 2 (2 only) | 5 (3 only) | 10 (7 only) | 9 (0 only) | 1 (1 only) | - |
 
-Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
+Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 15 sky X on natal Y, both charts, crossed planes (>= 80); 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
 ## 1 Further Measure / Tom Marquand
 ### 1 natal pair, same number, both charts
@@ -20,6 +20,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2a sky X on natal Y, both charts, same number
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
+- none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
 - none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
@@ -69,6 +71,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -117,6 +121,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Venus → H Pallas Dec 14.0005 14 whole (95.49) | S Venus → J Pallas RA 49.9996 50 whole (96.37) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- sky Venus on Pallas: H Dec, J RA: S Venus → H Pallas Dec 14.0005 14 whole (95.49) | S Venus → J Pallas RA 49.9996 50 whole (96.37) — only
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -171,6 +177,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2a sky X on natal Y, both charts, same number
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
+- none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
 - none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
@@ -228,6 +236,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Sedna → H Pluto RA 131.9981 132 whole (82.24) | S Sedna → J Pluto RA 177.7726 177.778 ninth (99.60) — only
 - both >= 80: S Sedna → H Pluto Dec 29.0372 φ^7 phi power (96.24) | S Sedna → J Pluto RA 177.7726 177.778 ninth (99.60) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- sky Sedna on Pluto: H Dec, J RA: S Sedna → H Pluto Dec 29.0372 φ^7 phi power (96.24) | S Sedna → J Pluto RA 177.7726 177.778 ninth (99.60) — only
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -284,6 +294,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Saturn → H Pallas Dec 17.7989 11×φ golden (96.69) | S Saturn → J Pallas RA 111.1463 111.111 ninth (94.25) — only
 - both >= 80: S Gonggong → H Sedna Dec 19.4162 12×φ golden (99.00) | S Gonggong → J Sedna Dec 16.9979 17 whole (80.49) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- sky Saturn on Pallas: H Dec, J RA: S Saturn → H Pallas Dec 17.7989 11×φ golden (96.69) | S Saturn → J Pallas RA 111.1463 111.111 ninth (94.25) — only
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)

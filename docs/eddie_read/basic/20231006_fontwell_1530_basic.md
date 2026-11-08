@@ -3,17 +3,17 @@
 The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
-| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 Biscoff Joe / Gearoid Harney | - | 1 (1 only) | - | - | - | - | 1 (1 only) | 2 | - | 4 (3 only) | 5 (0 only) | 9 (7 only) | 6 (1 only) | 2 (2 only) | - |
-| 2 Cosmic View / Jamie Moore | - | - | 1 (1 only) | - | - | - | - | 4 | - | 4 (4 only) | 7 (5 only) | 8 (4 only) | 11 (0 only) | - | - |
-| 3 Kilcummin / David Noonan | - | - | 1 (1 only) | - | - | - | - | 5 | - | 5 (5 only) | 7 (3 only) | 13 (5 only) | 8 (0 only) | - | - |
-| 4 Logistical / Stan Sheppard | - | - | 1 (1 only) | 1 (1 only) | - | - | - | 2 | - | 1 (1 only) | 2 (1 only) | 12 (5 only) | 6 (1 only) | - | - |
-| 5 Makanao / Jack Tudor | - | - | 1 (1 only) | - | - | - | 1 (1 only) | 3 | - | 4 (4 only) | 7 (6 only) | 11 (3 only) | 5 (1 only) | 1 (1 only) | - |
-| 6 Pigeonton / Micheal Nolan | - | 1 (1 only) | - | - | - | - | - | 4 | - | 2 (1 only) | 7 (2 only) | 8 (3 only) | 8 (0 only) | - | - |
-| 7 Vale Dolobo Dancer / Jack Hogan | - | - | - | - | - | - | 1 (1 only) | 4 | - | 2 (1 only) | 5 (4 only) | 9 (4 only) | 8 (0 only) | - | - |
+| Runner | 1 | 2a | 2b | 15 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 Biscoff Joe / Gearoid Harney | - | 1 (1 only) | - | - | - | - | - | 1 (1 only) | 2 | - | 4 (3 only) | 5 (0 only) | 9 (7 only) | 6 (1 only) | 2 (2 only) | - |
+| 2 Cosmic View / Jamie Moore | - | - | 1 (1 only) | 1 (1 only) | - | - | - | - | 4 | - | 4 (4 only) | 7 (5 only) | 8 (4 only) | 11 (0 only) | - | - |
+| 3 Kilcummin / David Noonan | - | - | 1 (1 only) | 1 (1 only) | - | - | - | - | 5 | - | 5 (5 only) | 7 (3 only) | 13 (5 only) | 8 (0 only) | - | - |
+| 4 Logistical / Stan Sheppard | - | - | 1 (1 only) | - | 1 (1 only) | - | - | - | 2 | - | 1 (1 only) | 2 (1 only) | 12 (5 only) | 6 (1 only) | - | - |
+| 5 Makanao / Jack Tudor | - | - | 1 (1 only) | - | - | - | - | 1 (1 only) | 3 | - | 4 (4 only) | 7 (6 only) | 11 (3 only) | 5 (1 only) | 1 (1 only) | - |
+| 6 Pigeonton / Micheal Nolan | - | 1 (1 only) | - | - | - | - | - | - | 4 | - | 2 (1 only) | 7 (2 only) | 8 (3 only) | 8 (0 only) | - | - |
+| 7 Vale Dolobo Dancer / Jack Hogan | - | - | - | - | - | - | - | 1 (1 only) | 4 | - | 2 (1 only) | 5 (4 only) | 9 (4 only) | 8 (0 only) | - | - |
 
-Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
+Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 15 sky X on natal Y, both charts, crossed planes (>= 80); 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
 ## 1 Biscoff Joe / Gearoid Harney
 ### 1 natal pair, same number, both charts
@@ -21,6 +21,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2a sky X on natal Y, both charts, same number
 - same number: S Pluto → H Ketu Dec 0.1066 conj conj (41.54) | S Pluto → J Ketu Dec 0.0747 conj conj (56.42) — only
 ### 2b sky X on natal Y, both charts, both >= 80
+- none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
 - none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
@@ -75,6 +77,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Jupiter → H Sedna RA 15.5523 15.5556 ninth (96.90) | S Jupiter → J Sedna Dec 11.3267 7×φ golden (97.07) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- sky Jupiter on Sedna: H RA, J Dec: S Jupiter → H Sedna RA 15.5523 15.5556 ninth (96.90) | S Jupiter → J Sedna Dec 11.3267 7×φ golden (97.07) — only
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -133,6 +137,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Sun → H Uranus Dec 16.9985 17 whole (85.69) | S Sun → J Uranus RA 106.9979 107 whole (80.50) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- sky Sun on Uranus: H Dec, J RA: S Sun → H Uranus Dec 16.9985 17 whole (85.69) | S Sun → J Uranus RA 106.9979 107 whole (80.50) — only
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -194,6 +200,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Jupiter → H Jupiter Dec 37.0007 37 whole (93.11) | S Jupiter → J Jupiter Dec 32.3621 20×φ golden (91.57) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- none
 ### 3 sky X on both natal Jupiters (>= 80)
 - S Jupiter → H Jupiter Dec 37.0007 37 whole (93.11) | S Jupiter → J Jupiter Dec 32.3621 20×φ golden (91.57) — only
 ### 4 sky X, same number, both charts (>= 80)
@@ -243,6 +251,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Ceres → H Eris RA 168.2735 104×φ golden (87.72) | S Ceres → J Eris RA 166.6108 166.667 ninth (95.21) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -298,6 +308,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - same number: S Jupiter → H Sun RA 0.7887 conj conj (22.49) | S Jupiter → J Sun Dec 0.2755 conj conj (0.67) — only
 ### 2b sky X on natal Y, both charts, both >= 80
 - none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -350,6 +362,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2a sky X on natal Y, both charts, same number
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
+- none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
 - none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none

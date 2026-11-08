@@ -3,16 +3,16 @@
 The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
-| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 Applaud Now / John Fahy | - | - | - | - | 1 (1 only) | - | - | 4 | - | 1 (1 only) | 4 (4 only) | 6 (3 only) | 6 (1 only) | 2 (2 only) | - |
-| 2 The Dunkirk Lads / Duran Fentiman | - | - | - | - | - | - | - | 5 | - | 3 (3 only) | 5 (3 only) | 11 (3 only) | 6 (1 only) | - | - |
-| 3 Gidwa / Andrea Atzeni | - | 1 (1 only) | - | - | 2 (2 only) | - | 1 (1 only) | 4 | - | 3 (3 only) | 3 (2 only) | 11 (4 only) | 9 (1 only) | 1 (1 only) | - |
-| 4 Miss Britain / Tony Hamilton | - | - | 1 (1 only) | - | - | - | 1 (1 only) | 5 | - | 1 (1 only) | 5 (4 only) | 12 (5 only) | 6 (1 only) | - | - |
-| 5 Glory Hallelujah / Rowan Scott | - | - | 1 (1 only) | - | 1 (1 only) | 1 (1 only) | - | 6 | - | 2 (2 only) | 5 (5 only) | 9 (5 only) | 4 (0 only) | 1 (1 only) | - |
-| 6 Baileys Liberty / Jason Hart | - | - | - | - | - | - | - | 6 | 3 (3 only) | 3 (3 only) | 5 (4 only) | 11 (5 only) | 6 (0 only) | 1 (1 only) | - |
+| Runner | 1 | 2a | 2b | 15 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 Applaud Now / John Fahy | - | - | - | - | - | 1 (1 only) | - | - | 4 | - | 1 (1 only) | 4 (4 only) | 6 (3 only) | 6 (1 only) | 2 (2 only) | - |
+| 2 The Dunkirk Lads / Duran Fentiman | - | - | - | - | - | - | - | - | 5 | - | 3 (3 only) | 5 (3 only) | 11 (3 only) | 6 (1 only) | - | - |
+| 3 Gidwa / Andrea Atzeni | - | 1 (1 only) | - | - | - | 2 (2 only) | - | 1 (1 only) | 4 | - | 3 (3 only) | 3 (2 only) | 11 (4 only) | 9 (1 only) | 1 (1 only) | - |
+| 4 Miss Britain / Tony Hamilton | - | - | 1 (1 only) | - | - | - | - | 1 (1 only) | 5 | - | 1 (1 only) | 5 (4 only) | 12 (5 only) | 6 (1 only) | - | - |
+| 5 Glory Hallelujah / Rowan Scott | - | - | 1 (1 only) | 1 (1 only) | - | 1 (1 only) | 1 (1 only) | - | 6 | - | 2 (2 only) | 5 (5 only) | 9 (5 only) | 4 (0 only) | 1 (1 only) | - |
+| 6 Baileys Liberty / Jason Hart | - | - | - | - | - | - | - | - | 6 | 3 (3 only) | 3 (3 only) | 5 (4 only) | 11 (5 only) | 6 (0 only) | 1 (1 only) | - |
 
-Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
+Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 15 sky X on natal Y, both charts, crossed planes (>= 80); 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
 ## 1 Applaud Now / John Fahy
 ### 1 natal pair, same number, both charts
@@ -20,6 +20,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2a sky X on natal Y, both charts, same number
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
+- none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
 - none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
@@ -66,6 +68,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2a sky X on natal Y, both charts, same number
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
+- none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
 - none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
@@ -119,6 +123,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2a sky X on natal Y, both charts, same number
 - same number: S Jupiter → H Sun RA 1.3921 conj conj (0.52) | S Jupiter → J Sun RA 0.3606 conj conj (57.70) — only
 ### 2b sky X on natal Y, both charts, both >= 80
+- none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
 - none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
@@ -175,6 +181,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Moon → H Pluto RA 44.4411 44.4444 ninth (96.50) | S Moon → J Pluto RA 38.8355 24×φ golden (83.83) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -227,6 +235,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Moon → H Ceres RA 0.0771 conj conj (89.99) | S Moon → J Ceres Dec 11.3268 7×φ golden (96.28) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- sky Moon on Ceres: H RA, J Dec: S Moon → H Ceres RA 0.0771 conj conj (89.99) | S Moon → J Ceres Dec 11.3268 7×φ golden (96.28) — only
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -274,6 +284,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2a sky X on natal Y, both charts, same number
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
+- none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
 - none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none

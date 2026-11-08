@@ -359,6 +359,16 @@
      ],
      "note": "1 and 10",
      "field": "also: 2 Arabian Poet, 4 King Of Cities, 6 Scandinavia, 7 Sedate, 8 Vecu, 9 Big Gypsy King"
+    },
+    {
+     "check": 15,
+     "key": "('Mars', 'Mercury')",
+     "cells": [
+      "S Mars → H Mercury Dec 42.0010 42 whole (89.82)",
+      "S Mars → J Mercury RA 0.1477 conj conj (81.28)"
+     ],
+     "note": "sky Mars on Mercury: H Dec, J RA",
+     "field": "only"
     }
    ]
   },
@@ -1406,6 +1416,26 @@
      ],
      "note": "10 and 100",
      "field": "also: 9 Big Gypsy King"
+    },
+    {
+     "check": 15,
+     "key": "('Sun', 'Pallas')",
+     "cells": [
+      "S Sun → H Pallas RA 119.9980 120 whole (80.68)",
+      "S Sun → J Pallas Dec 6.4727 4×φ golden (96.51)"
+     ],
+     "note": "sky Sun on Pallas: H RA, J Dec",
+     "field": "only"
+    },
+    {
+     "check": 15,
+     "key": "('Transpluto', 'Chiron')",
+     "cells": [
+      "S Transpluto → H Chiron RA 144.4280 144.444 ninth (98.26)",
+      "S Transpluto → J Chiron Dec 7.0718 7.07 sqrt2 (95.83)"
+     ],
+     "note": "sky Transpluto on Chiron: H RA, J Dec",
+     "field": "only"
     }
    ]
   },
@@ -2482,6 +2512,16 @@
      ],
      "note": "4 and 40",
      "field": "also: 3 Double Meaning, 4 King Of Cities, 5 Knights Gold, 6 Scandinavia"
+    },
+    {
+     "check": 15,
+     "key": "('Pluto', 'Neptune')",
+     "cells": [
+      "S Pluto → H Neptune RA 49.9994 50 whole (94.43)",
+      "S Pluto → J Neptune Dec 3.9998 4 whole (98.09)"
+     ],
+     "note": "sky Pluto on Neptune: H RA, J Dec",
+     "field": "only"
     }
    ]
   },

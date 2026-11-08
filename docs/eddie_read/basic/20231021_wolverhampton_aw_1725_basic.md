@@ -3,21 +3,21 @@
 The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
-| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 Gladly Ever After / Taylor Fisher | - | 2 (0 only) | - | - | - | - | 1 (1 only) | 3 | - | 4 (4 only) | 6 (3 only) | 7 (2 only) | 7 (0 only) | - | - |
-| 2 Shuangxi / Saffie Osborne | - | 2 (0 only) | - | - | - | 1 (1 only) | - | 3 | 2 (2 only) | 3 (3 only) | 1 (1 only) | 8 (2 only) | 9 (0 only) | 1 (1 only) | - |
-| 3 Ziggy's Dream / Kieran O'Neill | - | - | 2 (2 only) | - | - | - | 1 (1 only) | 4 | - | 3 (3 only) | 7 (2 only) | 7 (3 only) | 10 (0 only) | - | - |
-| 4 Come On You Spurs / Harry Davies | - | 2 (0 only) | 1 (0 only) | - | 1 (0 only) | - | - | 3 | - | 3 (3 only) | 5 (2 only) | 8 (1 only) | 4 (0 only) | - | - |
-| 5 Diligencia / Charles Bishop | - | - | 1 (1 only) | - | - | - | 2 (2 only) | 1 | - | 5 (5 only) | 3 (0 only) | 8 (2 only) | 6 (0 only) | - | - |
-| 6 Land Of Hope / Jack Mitchell | 1 (1 only) | - | 1 (1 only) | - | - | - | - | 3 | - | 1 (1 only) | 7 (2 only) | 6 (1 only) | 8 (0 only) | - | - |
-| 7 Miss Anya / Finley Marsh | - | - | 1 (0 only) | - | - | - | - | 2 | - | 1 (1 only) | 6 (2 only) | 5 (1 only) | 7 (0 only) | 2 (2 only) | - |
-| 8 Princess Alice / Daniel Muscutt | - | - | 1 (1 only) | 1 (1 only) | - | - | - | 2 | - | 1 (1 only) | 1 (0 only) | 6 (1 only) | 6 (0 only) | - | - |
-| 9 Sea Of Angels / Marco Ghiani | - | 1 (1 only) | 2 (2 only) | - | 1 (0 only) | - | - | 3 | - | - | 5 (2 only) | 11 (5 only) | 9 (0 only) | - | - |
-| 10 Showmethewayhome / David Probert | - | - | - | - | 2 (2 only) | - | - | 5 | - | 2 (2 only) | 5 (2 only) | 13 (6 only) | 7 (2 only) | - | - |
-| 11 Via Blanca / Frederick Larson | - | - | - | - | - | - | - | 2 | - | 2 (2 only) | 5 (0 only) | 6 (3 only) | 11 (0 only) | - | - |
+| Runner | 1 | 2a | 2b | 15 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 Gladly Ever After / Taylor Fisher | - | 2 (0 only) | - | - | - | - | - | 1 (1 only) | 3 | - | 4 (4 only) | 6 (3 only) | 7 (2 only) | 7 (0 only) | - | - |
+| 2 Shuangxi / Saffie Osborne | - | 2 (0 only) | - | - | - | - | 1 (1 only) | - | 3 | 2 (2 only) | 3 (3 only) | 1 (1 only) | 8 (2 only) | 9 (0 only) | 1 (1 only) | - |
+| 3 Ziggy's Dream / Kieran O'Neill | - | - | 2 (2 only) | 1 (1 only) | - | - | - | 1 (1 only) | 4 | - | 3 (3 only) | 7 (2 only) | 7 (3 only) | 10 (0 only) | - | - |
+| 4 Come On You Spurs / Harry Davies | - | 2 (0 only) | 1 (0 only) | 1 (0 only) | - | 1 (0 only) | - | - | 3 | - | 3 (3 only) | 5 (2 only) | 8 (1 only) | 4 (0 only) | - | - |
+| 5 Diligencia / Charles Bishop | - | - | 1 (1 only) | - | - | - | - | 2 (2 only) | 1 | - | 5 (5 only) | 3 (0 only) | 8 (2 only) | 6 (0 only) | - | - |
+| 6 Land Of Hope / Jack Mitchell | 1 (1 only) | - | 1 (1 only) | 1 (1 only) | - | - | - | - | 3 | - | 1 (1 only) | 7 (2 only) | 6 (1 only) | 8 (0 only) | - | - |
+| 7 Miss Anya / Finley Marsh | - | - | 1 (0 only) | 1 (0 only) | - | - | - | - | 2 | - | 1 (1 only) | 6 (2 only) | 5 (1 only) | 7 (0 only) | 2 (2 only) | - |
+| 8 Princess Alice / Daniel Muscutt | - | - | 1 (1 only) | 1 (1 only) | 1 (1 only) | - | - | - | 2 | - | 1 (1 only) | 1 (0 only) | 6 (1 only) | 6 (0 only) | - | - |
+| 9 Sea Of Angels / Marco Ghiani | - | 1 (1 only) | 2 (2 only) | 1 (1 only) | - | 1 (0 only) | - | - | 3 | - | - | 5 (2 only) | 11 (5 only) | 9 (0 only) | - | - |
+| 10 Showmethewayhome / David Probert | - | - | - | - | - | 2 (2 only) | - | - | 5 | - | 2 (2 only) | 5 (2 only) | 13 (6 only) | 7 (2 only) | - | - |
+| 11 Via Blanca / Frederick Larson | - | - | - | - | - | - | - | - | 2 | - | 2 (2 only) | 5 (0 only) | 6 (3 only) | 11 (0 only) | - | - |
 
-Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
+Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 15 sky X on natal Y, both charts, crossed planes (>= 80); 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
 ## 1 Gladly Ever After / Taylor Fisher
 ### 1 natal pair, same number, both charts
@@ -26,6 +26,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - same number: S Quaoar → H Quaoar RA 0.8148 conj conj (20.86) | S Quaoar → J Quaoar Dec 0.1727 conj conj (17.99) — also: 2 Shuangxi, 4 Come On You Spurs
 - same number: S Quaoar → H Quaoar Dec 0.0888 conj conj (49.58) | S Quaoar → J Quaoar Dec 0.1727 conj conj (17.99) — also: 2 Shuangxi, 4 Come On You Spurs
 ### 2b sky X on natal Y, both charts, both >= 80
+- none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
 - none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
@@ -80,6 +82,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - same number: S Quaoar → H Quaoar Dec 0.0474 conj conj (70.89) | S Quaoar → J Quaoar Dec 0.2034 conj conj (10.37) — also: 1 Gladly Ever After, 4 Come On You Spurs
 ### 2b sky X on natal Y, both charts, both >= 80
 - none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -131,6 +135,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Mars → H Uranus RA 179.4475 10×φ^6 phi power (98.93) | S Mars → J Uranus RA 48.5408 30×φ golden (98.38) — only
 - both >= 80: S Mars → H Uranus RA 179.4475 10×φ^6 phi power (98.93) | S Mars → J Uranus Dec 9.9999 10 ninth (99.34) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- sky Mars on Uranus: H RA, J Dec: S Mars → H Uranus RA 179.4475 10×φ^6 phi power (98.93) | S Mars → J Uranus Dec 9.9999 10 ninth (99.34) — only
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -187,6 +193,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - same number: S Quaoar → H Quaoar Dec 0.1182 conj conj (36.71) | S Quaoar → J Quaoar Dec 0.0425 conj conj (73.70) — also: 1 Gladly Ever After, 2 Shuangxi
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Transpluto → H Orcus RA 0.1480 conj conj (81.25) | S Transpluto → J Orcus Dec 14.1462 14.14 sqrt2 (88.84) — also: 7 Miss Anya
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- sky Transpluto on Orcus: H RA, J Dec: S Transpluto → H Orcus RA 0.1480 conj conj (81.25) | S Transpluto → J Orcus Dec 14.1462 14.14 sqrt2 (88.84) — also: 7 Miss Anya
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -235,6 +243,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Sedna → H Mars RA 21.9996 22 whole (96.33) | S Sedna → J Mars RA 146.0015 146 whole (85.60) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -286,6 +296,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Sun → H Mercury RA 110.9022 10×φ^5 phi power (99.82) | S Sun → J Mercury Dec 13.3379 13.3333 ninth (94.49) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- sky Sun on Mercury: H RA, J Dec: S Sun → H Mercury RA 110.9022 10×φ^5 phi power (99.82) | S Sun → J Mercury Dec 13.3379 13.3333 ninth (94.49) — only
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -336,6 +348,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Transpluto → H Orcus RA 0.0818 conj conj (89.39) | S Transpluto → J Orcus Dec 10.9983 11 whole (83.67) — also: 4 Come On You Spurs
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- sky Transpluto on Orcus: H RA, J Dec: S Transpluto → H Orcus RA 0.0818 conj conj (89.39) | S Transpluto → J Orcus Dec 10.9983 11 whole (83.67) — also: 4 Come On You Spurs
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -384,6 +398,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Jupiter → H Jupiter Dec 26.9995 27 whole (94.98) | S Jupiter → J Jupiter RA 155.5179 155.556 ninth (96.43) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- sky Jupiter on Jupiter: H Dec, J RA: S Jupiter → H Jupiter Dec 26.9995 27 whole (94.98) | S Jupiter → J Jupiter RA 155.5179 155.556 ninth (96.43) — only
 ### 3 sky X on both natal Jupiters (>= 80)
 - S Jupiter → H Jupiter Dec 26.9995 27 whole (94.98) | S Jupiter → J Jupiter RA 155.5179 155.556 ninth (96.43) — only
 ### 4 sky X, same number, both charts (>= 80)
@@ -427,6 +443,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2b sky X on natal Y, both charts, both >= 80
 - both >= 80: S Rahu → H Chiron RA 17.9422 φ^6 phi power (95.40) | S Rahu → J Chiron RA 141.4625 141.4 sqrt2 (88.71) — only
 - both >= 80: S Pallas → H Uranus Dec 11.3236 7×φ golden (84.39) | S Pallas → J Uranus RA 116.4990 72×φ golden (96.89) — only
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
+- sky Pallas on Uranus: H Dec, J RA: S Pallas → H Uranus Dec 11.3236 7×φ golden (84.39) | S Pallas → J Uranus RA 116.4990 72×φ golden (96.89) — only
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
 ### 4 sky X, same number, both charts (>= 80)
@@ -480,6 +498,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2a sky X on natal Y, both charts, same number
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
+- none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
 - none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none
@@ -536,6 +556,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 2a sky X on natal Y, both charts, same number
 - none
 ### 2b sky X on natal Y, both charts, both >= 80
+- none
+### 15 sky X on natal Y, both charts, crossed planes (>= 80)
 - none
 ### 3 sky X on both natal Jupiters (>= 80)
 - none

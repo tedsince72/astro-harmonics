@@ -3674,6 +3674,16 @@
      ],
      "note": "Ceres – Vesta: digits 5",
      "field": "only"
+    },
+    {
+     "check": 15,
+     "key": "('Sun', 'Neptune')",
+     "cells": [
+      "S Sun → H Neptune RA 141.4392 141.4 sqrt2 (95.01)",
+      "S Sun → J Neptune Dec 9.9997 10 ninth (97.79)"
+     ],
+     "note": "sky Sun on Neptune: H RA, J Dec",
+     "field": "only"
     }
    ]
   },
@@ -4635,6 +4645,16 @@
      ],
      "note": "Gonggong – Orcus: 177.778 ninth",
      "field": "only"
+    },
+    {
+     "check": 15,
+     "key": "('Juno', 'Mars')",
+     "cells": [
+      "S Juno → H Mars Dec 26.1878 10×φ^2 phi power (88.87)",
+      "S Juno → J Mars RA 132.6788 82×φ golden (99.92)"
+     ],
+     "note": "sky Juno on Mars: H Dec, J RA",
+     "field": "only"
     }
    ]
   },
@@ -4929,6 +4949,16 @@
      ],
      "note": "3 and 30",
      "field": "also: 3 Rohaan, 5 Saint Lawrence, 6 Spycatcher, 7 Mill Stream, 8 Makarova, 9 Sandrine, 10 Sense Of Duty, 11 Vadream, 12 Believing, 13 Magical Sunset"
+    },
+    {
+     "check": 15,
+     "key": "('Mercury', 'Venus')",
+     "cells": [
+      "S Mercury → H Venus Dec 25.8878 16×φ golden (95.69)",
+      "S Mercury → J Venus RA 12.2223 12.2222 ninth (99.91)"
+     ],
+     "note": "sky Mercury on Venus: H Dec, J RA",
+     "field": "only"
     }
    ]
   }
