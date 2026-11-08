@@ -112,6 +112,26 @@ for f in files:
             for g in (0, 1, 2):
                 good &= desc([o for o, k in zip(b['other'], grp) if k == g], lambda o: o['hits'][0][2])
     check(good, f'4 {os.path.basename(f)} structure and order')
+# 5 Excel output = the same rows as the .md content (every runner of Catterick)
+import openpyxl
+with tempfile.TemporaryDirectory() as td:
+    xp = os.path.join(td, 'x.xlsx')
+    BB.write_xlsx(xp, '20220406_catterick_1440', res)
+    wb = openpyxl.load_workbook(xp)
+    check(len(wb.sheetnames) == len(res), '5 one sheet per runner')
+    for (c_, (r, bodies)), sn in zip(res.items(), wb.sheetnames):
+        got = [x for x in wb[sn].iter_rows(values_only=True) if x[0] and x[1] is not None and x[0] != 'Line']
+        want = []
+        for b in bodies:
+            for l in b['lines']:
+                want.append((l['line'], l['plane'], round(l['value'], 6), round(l['hits'][0][2], 2) if l['hits'] else None))
+            for m in b['matches']:
+                want.append((m['line'], m['plane'], round(m['value'], 6), round(m['hit'][2], 2)))
+            for o in b['other']:
+                want.append((o['line'], o['plane'], round(o['value'], 6), round(o['hits'][0][2], 2)))
+        check([(g[0], g[1], g[2], g[5]) for g in got] == want, f'5 {sn} rows = the .md rows ({len(want)})')
+        score_cells = [wb[sn].cell(i, 6) for i in range(1, wb[sn].max_row + 1) if isinstance(wb[sn].cell(i, 6).value, (int, float))]
+        check(all(sc.fill.fgColor.rgb[-6:] == BB._fill(sc.value) for sc in score_cells), f'5 {sn} score fills')
 rc = BB.run(os.path.join(ROOT, 'reference/classic/race_batch_20240118_chelmsford_aw_1320_active.xlsx'))
 check(rc[1][0]['missing'] == ['J'] and 'No birth date for the jockey' in BB.md('x', rc[1][0], rc[1][1]), '4 jockey without birth date noted')
 print(f'{ok}/{ok + bad}')

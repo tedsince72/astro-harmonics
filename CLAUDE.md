@@ -191,7 +191,8 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   `python3 tests/eddie_basic_check.py` (Newcastle cases + the cell set of every _active.xlsx by its own reader). Run on all 37 _active files.
 - Body by body view (8 Nov 2026, Eddie's go-ahead; data only, no pick; from his Catterick 14:40 6 Apr 2022 Wotever Next read):
   `python3 tools/eddie_bybody.py <race>_active.xlsx [--out DIR]` -> docs/eddie_read/bybody/<race>/<cloth>_<horse>.md (one per runner) +
-  <race>_bybody.json. Per body (24, no natal Moon): horse then jockey S X -> natal X RA / Dec, natal royal star - X RA then Dec,
+  <race>_bybody.json + <race>_bybody.xlsx (one sheet per runner, same rows; columns Line, Plane, Value, Family, Target, Score,
+  Also, Matches; score cells green >= 80, yellow 50-80, light < 50). Per body (24, no natal Moon): horse then jockey S X -> natal X RA / Dec, natal royal star - X RA then Dec,
   contraparallels; 'Sky lines on the same target' (sky body / royal star pairs on the same family + target, conj not matched);
   'Other scoring sky lines' (S Y - S X, S Y -> H X, S Y -> J X, conj incl.), each group highest score first. Its own scoring (Eddie,
   8 Nov 2026; families.py unchanged): all linear; whole ±0.02, golden ±0.0324, φ powers ±0.15 %, ninths ±0.2 %, √2 / silver ±0.15 %,

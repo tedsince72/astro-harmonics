@@ -2,7 +2,8 @@
 """Body by body view (Eddie, 8 Nov 2026; built on his Catterick 14:40 6 Apr 2022 Wotever Next read). Data only, no pick.
 
 Usage:  python3 tools/eddie_bybody.py <race>_active.xlsx [--out DIR]     (default DIR docs/eddie_read/bybody)
-        -> DIR/<race>/<cloth>_<horse>.md, one file per runner (horse and jockey), and DIR/<race>/<race>_bybody.json.
+        -> DIR/<race>/<cloth>_<horse>.md, one file per runner (horse and jockey), DIR/<race>/<race>_bybody.json, and
+           DIR/<race>/<race>_bybody.xlsx (one sheet per runner, the same content and order; score cells coloured).
 
 Reads the _active.xlsx only: META (tab, role, cloth, name), P##_DIST (NATAL x NATAL and TRANSIT -> NATAL, RA and DEC blocks),
 TT_DIST (TRANSIT x TRANSIT, RA and DEC blocks), P##_POS and TRANS_POS (signed Dec, for contraparallels). Never a csv.
@@ -227,14 +228,17 @@ def runner_view(r, tt, tp, sky):
     return bodies
 
 
+RULES = ('Rules (Eddie, 8 Nov 2026): all linear. Whole ±0.02; golden ±0.0324; φ powers ±0.15 %; ninths ±0.2 %; √2 and silver '
+         '±0.15 %; conjunction RA < 1.5 / Dec < 0.3; opposition RA within 0.75 of 180; contraparallel |Dec a + Dec b| < 0.3. '
+         'Highest score first, other families as "also". Sky lines on the same target = sky body / royal star pairs (Moon '
+         'included, no Rahu–Ketu, no star–star) on the same family and target as any scoring line above them (conjunctions not '
+         'matched). "Other scoring sky lines": every scoring sky line on the body - S Y – S X, then S Y → H X, then S Y → J X - '
+         'conjunctions included, each group highest score first. Data only, no pick (tools/eddie_bybody.py).')
+
+
 def md(race, r, bodies):
     out = [f"# {race} — {r['name']['H']} / {r['name']['J'].split(' ', 1)[1]}, body by body", '',
-           'Rules (Eddie, 8 Nov 2026): all linear. Whole ±0.02; golden ±0.0324; φ powers ±0.15 %; ninths ±0.2 %; √2 and silver '
-           '±0.15 %; conjunction RA < 1.5 / Dec < 0.3; opposition RA within 0.75 of 180; contraparallel |Dec a + Dec b| < 0.3. '
-           'Highest score first, other families as "also". Sky lines on the same target = sky body / royal star pairs (Moon '
-           'included, no Rahu–Ketu, no star–star) on the same family and target as any scoring line above them (conjunctions not '
-           'matched). "Other scoring sky lines": every scoring sky line on the body - S Y – S X, then S Y → H X, then S Y → J X - '
-           'conjunctions included, each group highest score first. Data only, no pick (tools/eddie_bybody.py).', '']
+           RULES, '']
     for ch in r.get('missing', []):
         out += [f"No birth date for the {'horse' if ch == 'H' else 'jockey'} in the workbook: no {ch} lines.", '']
     for b in bodies:
@@ -254,6 +258,77 @@ def md(race, r, bodies):
             out.append('none')
         out.append('')
     return '\n'.join(out) + '\n'
+
+
+GREEN, YELLOW, LIGHT = 'C6EFCE', 'FFEB9C', 'FFF7D6'
+FILL_BODY, FILL_HEAD, FILL_SUB = 'BDD7EE', 'D9D9D9', 'F2F2F2'
+
+
+def _fill(score):
+    return GREEN if score >= 80 else YELLOW if score >= 50 else LIGHT
+
+
+def _tlab(h):
+    return {'whole': h[1], 'conj': 'conj', 'opposition': '180', 'contraparallel': 'cp'}.get(h[0], h[1])
+
+
+def write_xlsx(path, race, res):
+    """One workbook per race, one sheet per runner (same content and order as the .md): per body a band row, then the three tables.
+    Columns: Line, Plane, Value, Family, Target, Score, Also (other families), Matches (sky lines on the same target only).
+    Score cells filled green >= 80, yellow 50-80, light < 50."""
+    from openpyxl import Workbook
+    from openpyxl.styles import Font, PatternFill, Alignment
+    wb = Workbook()
+    wb.remove(wb.active)
+    bold = Font(bold=True)
+    fill = lambda c: PatternFill('solid', fgColor=c)
+    for c, (r, bodies) in res.items():
+        nm = r['name']['H'].split(' ', 1)[1] if ' ' in r['name']['H'] else r['name']['H']
+        ws = wb.create_sheet(re.sub(r'[\\/*?:\[\]]', '', f"{int(c):02d} {nm}")[:31])
+        ws.append([f"{race} — {r['name']['H']} / {r['name']['J'].split(' ', 1)[-1]}, body by body"])
+        ws['A1'].font = Font(bold=True, size=12)
+        ws.append([RULES])
+        for ch in r.get('missing', []):
+            ws.append([f"No birth date for the {'horse' if ch == 'H' else 'jockey'} in the workbook: no {ch} lines."])
+        head = ['Line', 'Plane', 'Value', 'Family', 'Target', 'Score', 'Also', 'Matches']
+
+        def table(title, rows, matches=False):
+            ws.append([title])
+            ws.cell(ws.max_row, 1).font = bold
+            for k in range(1, 9):
+                ws.cell(ws.max_row, k).fill = fill(FILL_SUB)
+            if not rows:
+                ws.append(['none'])
+                return
+            ws.append(head)
+            for k in range(1, 9):
+                ws.cell(ws.max_row, k).font = bold
+                ws.cell(ws.max_row, k).fill = fill(FILL_HEAD)
+            for line, plane, value, hs, m in rows:
+                h = hs[0] if hs else None
+                also = '; '.join(txt(x) for x in hs[1:]) if hs else ''
+                ws.append([line, plane, round(value, 6), h[0] if h else '', _tlab(h) if h else '',
+                           round(h[2], 2) if h else None, also, m or ''])
+                if h:
+                    ws.cell(ws.max_row, 6).fill = fill(_fill(h[2]))
+                ws.cell(ws.max_row, 3).number_format = '0.0000'
+                ws.cell(ws.max_row, 6).number_format = '0.0'
+
+        for b in bodies:
+            ws.append([])
+            ws.append([b['body']])
+            for k in range(1, 9):
+                ws.cell(ws.max_row, k).fill = fill(FILL_BODY)
+            ws.cell(ws.max_row, 1).font = Font(bold=True, size=12)
+            table('Lines', [(l['line'], l['plane'], l['value'], l['hits'], None) for l in b['lines']])
+            table('Sky lines on the same target', [(m['line'], m['plane'], m['value'], [m['hit']], m['matches'])
+                                                   for m in b['matches']])
+            table(f"Other scoring sky lines on {b['body']}", [(o['line'], o['plane'], o['value'], o['hits'], None) for o in b['other']])
+        for col, w in zip('ABCDEFGH', (26, 20, 11, 12, 11, 8, 46, 34)):
+            ws.column_dimensions[col].width = w
+        ws['A2'].alignment = Alignment(wrap_text=False)
+        ws.freeze_panes = 'A3'
+    wb.save(path)
 
 
 def run(path):
@@ -280,6 +355,7 @@ def main():
         js[str(c)] = {'name': r['name'], 'missing': r.get('missing', []), 'bodies': bodies}
     with open(os.path.join(d, f'{race}_bybody.json'), 'w') as f:
         json.dump(js, f, ensure_ascii=False, indent=1)
+    write_xlsx(os.path.join(d, f'{race}_bybody.xlsx'), race, res)
     print(f'{race}: {len(res)} runners -> {d}')
 
 
