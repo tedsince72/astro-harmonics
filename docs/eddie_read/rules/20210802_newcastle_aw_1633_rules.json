@@ -1,0 +1,233 @@
+{
+ "race": "20210802_newcastle_aw_1633",
+ "workbook": "race_batch_20210802_newcastle_aw_1633_jupiter_tables.xlsx",
+ "runners": [
+  "P01",
+  "P03",
+  "P05",
+  "P07",
+  "P09",
+  "P11"
+ ],
+ "names": {
+  "P01": "1 Dubai Souq / Sean Kirrane",
+  "P03": "2 Athmad / Jason Hart",
+  "P05": "3 Raise The Roof / Luke Morris",
+  "P07": "4 Beating All / Ben Curtis",
+  "P09": "5 Pallas Dancer / Ben Robinson",
+  "P11": "6 Tricolore / Dylan Hogan"
+ },
+ "rules": [
+  {
+   "id": "R25",
+   "name": "Pallas reached twice",
+   "selected": [
+    "P03"
+   ],
+   "cells": {
+    "P03": [
+     "J Pallas: S Moon [RA 0.2075 conj conj 74.25] | J Jupiter [RA 161.8502 100×φ^1 phi power 88.76]"
+    ]
+   }
+  },
+  {
+   "id": "R28",
+   "name": "Chiron to Jupiter, lit by Sun / Moon",
+   "selected": [
+    "P09"
+   ],
+   "cells": {
+    "P09": [
+     "S Sun → H Chiron [RA 135.9959 136 whole 63.48] ++ S Chiron → H Jupiter [RA 177.7728 177.778 ninth 99.61]"
+    ]
+   }
+  },
+  {
+   "id": "R1b",
+   "name": "Moon to X, sky X to Jupiter",
+   "selected": [
+    "P03"
+   ],
+   "cells": {
+    "P03": [
+     "S Moon → J Sedna [RA 16.0006 16 whole 94.10] + S Sedna → J Jupiter [RA 162.9948 163 whole 55.03]"
+    ]
+   }
+  },
+  {
+   "id": "R7",
+   "name": "Line star on own Jupiter and on one body both charts",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R26",
+   "name": "Royal line star on own Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "R40",
+   "name": "Node axis",
+   "selected": [
+    "P07"
+   ],
+   "cells": {
+    "P07": [
+     "S Jupiter conj J Rahu [Dec 0.0247 conj conj 84.24]; J Altair (Sun,Moon) → J Ketu [Dec 4.0021 4 whole 80.54]"
+    ]
+   }
+  },
+  {
+   "id": "R42",
+   "name": "Moon on a same body",
+   "selected": [
+    "P07"
+   ],
+   "cells": {
+    "P07": [
+     "S Saturn → J Saturn RA 33.3207 33.3333 ninth (-0.0127) | S Moon → J Saturn [RA 141.4259 141.4 sqrt2 98.71]",
+     "S Juno → J Juno Dec 11.3076 7×φ golden (-0.0186) | S Moon → J Juno [Dec 14.1450 14.14 sqrt2 92.15]"
+    ]
+   }
+  },
+  {
+   "id": "R1",
+   "name": "Sun / Moon on one body both charts, sky X to Jupiter",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B1",
+   "name": "Natal body on a strong line star (filter)",
+   "selected": [
+    "P09"
+   ],
+   "cells": {
+    "P09": [
+     "H Aculeus → H Saturn RA 0.2594 conj (68.40)"
+    ]
+   }
+  },
+  {
+   "id": "B2",
+   "name": "Top natal body on a strong line star",
+   "selected": [
+    "P09"
+   ],
+   "cells": {
+    "P09": [
+     "H Aculeus → H Saturn RA 0.2594 conj (68.40) (top score in the field)"
+    ]
+   }
+  },
+  {
+   "id": "B3",
+   "name": "Version 4",
+   "selected": [
+    "P09"
+   ],
+   "cells": {
+    "P09": [
+     "step 2: H Aculeus → H Saturn RA 0.2594 conj (68.40) (top score in the field)"
+    ]
+   }
+  },
+  {
+   "id": "B4",
+   "name": "Same body, clear lead",
+   "selected": [
+    "P09"
+   ],
+   "cells": {
+    "P09": [
+     "7 same-body cells >= 50, next 4 (1 Dubai Souq / Sean Kirrane), lead 3",
+     "S Sedna → H Sedna RA 3.0051 3 whole (55.55)",
+     "S Pluto → J Pluto Dec 13.0019 13 whole (82.05)",
+     "S Juno → J Juno RA 63.1013 39×φ golden (87.96)",
+     "S Rahu → J Rahu Dec 14.1475 14.14 sqrt2 (85.44)",
+     "S Eris → J Eris RA 3.9951 4 whole (56.86)",
+     "S Sedna → J Sedna RA 14.0051 14 whole (55.43)",
+     "S Ketu → J Ketu Dec 14.1475 14.14 sqrt2 (85.44)"
+    ]
+   }
+  },
+  {
+   "id": "B5",
+   "name": "Same body in both planes",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B6",
+   "name": "Same body on both charts",
+   "selected": [
+    "P09"
+   ],
+   "cells": {
+    "P09": [
+     "Sedna: S Sedna → H Sedna RA 3.0051 3 whole (55.55) | S Sedna → J Sedna RA 14.0051 14 whole (55.43)"
+    ]
+   }
+  },
+  {
+   "id": "B7",
+   "name": "Most sky bodies onto the jockey's Jupiter",
+   "selected": [
+    "P05",
+    "P11"
+   ],
+   "cells": {
+    "P05": [
+     "2 sky bodies -> J Jupiter at 80 or more (most in the field; tied with 1, next 1)",
+     "S Orcus → J Jupiter RA 92.2274 57×φ golden (96.97)",
+     "S Saturn → J Jupiter RA 110.9225 10×φ^5 phi power (92.65)"
+    ],
+    "P11": [
+     "2 sky bodies -> J Jupiter at 80 or more (most in the field; tied with 1, next 1)",
+     "S Neptune → J Jupiter Dec 13.3366 13.3333 ninth (96.06)",
+     "S Pallas → J Jupiter Dec 24.1451 24.14 silver (95.18)"
+    ]
+   }
+  },
+  {
+   "id": "B8",
+   "name": "One line star on the most natal bodies",
+   "selected": [
+    "P07"
+   ],
+   "cells": {
+    "P07": [
+     "H Altair on 3 natal bodies at 80 or more (most in the field; next 2)",
+     "H Altair → H Transpluto RA 144.4103 144.444 ninth (96.39)",
+     "H Altair → H Quaoar RA 25.8874 16×φ golden (93.07)",
+     "H Altair → H Sun Dec 11.3284 7×φ golden (86.81)"
+    ]
+   }
+  },
+  {
+   "id": "B9",
+   "name": "Jupiter and two of its line stars on one natal body",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B10",
+   "name": "Sun and two of its line stars on one natal body",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B11",
+   "name": "Moon and two of its line stars on one natal body",
+   "selected": [],
+   "cells": {}
+  },
+  {
+   "id": "B12",
+   "name": "Same body and two line stars on it",
+   "selected": [],
+   "cells": {}
+  }
+ ]
+}

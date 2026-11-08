@@ -1,0 +1,2450 @@
+# Stage 2 layers: race_batch_20210802_newcastle_aw_1633_jupiter_tables.xlsx
+The stage 1 data laid out in fixed layers for every runner; data only, no interpretation, no ranking, no pick (tools/eddie_layers.py).
+
+## L0 field
+- In the tables workbook (6): 1 Dubai Souq / Sean Kirrane; 2 Athmad / Jason Hart; 3 Raise The Roof / Luke Morris; 4 Beating All / Ben Curtis; 5 Pallas Dancer / Ben Robinson; 6 Tricolore / Dylan Hogan
+- Missing from the tables workbook (in the _active.xlsx): none
+- Cloth numbers not in the tables workbook: none
+
+## Sky (noted lines)
+- S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+- S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+- S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+- S Sun → Quaoar RA 141.4548 141.4 sqrt2 (90.76)
+- S Sun → Diadem Dec 0.1348 conj (30.32)
+- S Sun → Altair RA 164.9999 165 whole (99.11)
+- S Moon → Mars RA 93.8435 58×φ golden (85.06)
+- S Moon → Rigel RA 18.0045 18 whole (60.09)
+- S Moon → Algorab Dec 36.0037 36 whole (66.74)
+- S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+- S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+- Hubs: Altair
+
+## READ (reading order, Eddie 7 Nov 2026)
+### READ 1 same body first
+- **1 Dubai Souq / Sean Kirrane**
+  - S Saturn → H Saturn RA 46.9672 φ^8 phi power (loose)
+  - S Uranus → H Uranus RA 22.0014 22 whole (86.03)
+  - S Eris → H Eris Dec 1.4393 1.44444 ninth (loose)
+  - S Haumea → H Haumea RA 1.8761 1.88889 ninth (loose)
+  - S Gonggong → H Gonggong RA 1.2218 1.22222 ninth (loose)
+  - S Gonggong → H Gonggong Dec 1.2225 1.22222 ninth (96.14)
+  - S Transpluto → H Transpluto Dec 0.4442 0.444444 ninth (loose)
+  - S Neptune → J Neptune Dec 15.0136 15 whole (10.12)
+  - S Ceres → J Ceres RA 133.0008 133 whole (92.17)
+  - S Rahu → J Rahu Dec 2.4077 2.414 silver (loose)
+  - S Sedna → J Sedna RA 13.0048 13 whole (57.42)
+  - S Makemake → J Makemake RA 16.6121 16.6667 ninth (loose)
+  - S Ketu → J Ketu Dec 2.4077 2.414 silver (loose)
+- **2 Athmad / Jason Hart**
+  - S Uranus → H Uranus RA 26.1117 10×φ^2 phi power (loose)
+  - S Neptune → H Neptune RA 13.3000 13.3333 ninth (loose)
+  - S Pluto → H Pluto RA 9.9931 10 whole (42.82)
+  - S Ceres → H Ceres Dec 31.9733 32 whole (loose)
+  - S Pallas → H Pallas Dec 3.9888 4 whole (19.15)
+  - S Vesta → H Vesta RA 169.9047 105×φ golden (loose)
+  - S Rahu → H Rahu RA 105.9702 106 whole (loose)
+  - S Eris → H Eris RA 1.7689 1.77778 ninth (loose)
+  - S Makemake → H Makemake RA 2.4064 2.414 silver (loose)
+  - S Makemake → H Makemake Dec 2.4133 2.414 silver (loose)
+  - S Quaoar → H Quaoar RA 5.5499 5.55556 ninth (loose)
+  - S Gonggong → H Gonggong Dec 1.5563 1.55556 ninth (loose)
+  - S Ketu → H Ketu RA 105.9702 106 whole (loose)
+  - S Venus → J Venus Dec 29.0747 φ^7 phi power (loose)
+  - S Pluto → J Pluto Dec 16.5802 16.6667 ninth (loose)
+- **3 Raise The Roof / Luke Morris**
+  - S Mercury → H Mercury RA 144.0937 144.444 ninth (loose)
+  - S Mercury → H Mercury Dec 24.1962 24.14 silver (loose)
+  - S Venus → H Venus Dec 12.1801 12.2222 ninth (loose)
+  - S Juno → H Juno Dec 1.6590 1.66667 ninth (loose)
+  - S Haumea → H Haumea RA 1.0238 1 whole (loose)
+  - S Makemake → H Makemake RA 1.0127 1 whole (13.16)
+  - S Sun → J Sun RA 72.7981 45×φ golden (loose)
+  - S Mercury → J Mercury Dec 22.6624 14×φ golden (loose)
+  - S Jupiter → J Jupiter Dec 32.9750 33 whole (loose)
+  - S Pluto → J Pluto RA 72.8435 45×φ golden (loose)
+  - S Pluto → J Pluto Dec 21.9945 22 whole (52.59)
+  - S Chiron → J Chiron Dec 9.7071 6×φ golden (loose)
+  - S Juno → J Juno Dec 10.9987 11 whole (87.76)
+  - S Sedna → J Sedna RA 17.6850 17.7778 ninth (loose)
+- **4 Beating All / Ben Curtis**
+  - S Pluto → H Pluto RA 4.8464 3×φ golden (loose)
+  - S Ceres → H Ceres RA 70.9918 71 whole (35.05)
+  - S Ceres → H Ceres Dec 17.9867 18 whole (11.21)
+  - S Makemake → H Makemake RA 1.2168 1.22222 ninth (loose)
+  - S Mercury → J Mercury RA 18.9854 19 whole (7.40)
+  - S Saturn → J Saturn RA 33.3207 33.3333 ninth (loose)
+  - S Juno → J Juno Dec 11.3076 7×φ golden (loose)
+  - S Rahu → J Rahu RA 98.6804 61×φ golden (loose)
+  - S Makemake → J Makemake RA 29.1069 18×φ golden (loose)
+  - S Gonggong → J Gonggong Dec 8.9947 9 whole (53.76)
+  - S Ketu → J Ketu RA 98.6804 61×φ golden (loose)
+- **5 Pallas Dancer / Ben Robinson**
+  - S Neptune → H Neptune RA 8.0851 5×φ golden (loose)
+  - S Sedna → H Sedna RA 3.0051 3 whole (55.55)
+  - S Haumea → H Haumea Dec 1.6079 1×φ golden (loose)
+  - S Orcus → H Orcus RA 4.2278 φ^3 phi power (loose)
+  - S Mercury → J Mercury RA 179.7155 10×φ^6 phi power (loose)
+  - S Jupiter → J Jupiter Dec 0.9932 1 whole (43.86)
+  - S Uranus → J Uranus RA 90.0191 90 whole (0.19)
+  - S Pluto → J Pluto Dec 13.0019 13 whole (82.05)
+  - S Chiron → J Chiron RA 144.1705 144.444 ninth (loose)
+  - S Juno → J Juno RA 63.1013 39×φ golden (87.96)
+  - S Vesta → J Vesta RA 158.0069 158 whole (42.68)
+  - S Rahu → J Rahu Dec 14.1475 14.14 sqrt2 (85.44)
+  - S Eris → J Eris RA 3.9951 4 whole (56.86)
+  - S Sedna → J Sedna RA 14.0051 14 whole (55.43)
+  - S Haumea → J Haumea Dec 5.5519 5.55556 ninth (loose)
+  - S Makemake → J Makemake RA 18.7929 18.8889 ninth (loose)
+  - S Orcus → J Orcus RA 19.4461 12×φ golden (loose)
+  - S Ketu → J Ketu Dec 14.1475 14.14 sqrt2 (85.44)
+- **6 Tricolore / Dylan Hogan**
+  - S Sun → H Sun RA 164.0163 164 whole (3.36)
+  - S Mercury → H Mercury RA 166.5808 166.667 ninth (loose)
+  - S Mars → H Mars RA 95.9888 96 whole (19.50)
+  - S Neptune → H Neptune RA 8.8831 8.88889 ninth (loose)
+  - S Pluto → H Pluto RA 5.5481 5.55556 ninth (loose)
+  - S Juno → H Juno RA 78.0198 78 whole (0.01)
+  - S Gonggong → H Gonggong Dec 0.9858 1 whole (8.36)
+  - S Pluto → J Pluto Dec 16.1576 10×φ^1 phi power (loose)
+  - S Ceres → J Ceres RA 77.6396 48×φ golden (loose)
+  - S Juno → J Juno RA 18.7978 18.8889 ninth (loose)
+  - S Rahu → J Rahu RA 155.5491 155.556 ninth (99.39)
+  - S Haumea → J Haumea RA 22.6826 14×φ golden (loose)
+  - S Makemake → J Makemake RA 21.9813 22 whole (0.40)
+  - S Orcus → J Orcus Dec 12.0039 12 whole (64.42)
+  - S Ketu → J Ketu RA 155.5491 155.556 ninth (99.39)
+### READ 2 Jupiter / Sun star lines, highest score first, each in full
+#### 1. S Sun → Altair RA 164.9999 165 whole (99.11) — runners with cells 6/6
+- Moon confirms: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+- 1 Dubai Souq / Sean Kirrane
+  - star rows: H Altair → H Pluto RA 8.0107 8 whole (21.76) — also: 2 Athmad / Jason Hart
+  - star rows: H Altair → H Ceres Dec 0.2244 conj (6.36) — only
+  - star rows: H Altair → H Haumea Dec 7.9852 8 whole (6.74) — also: 4 Beating All / Ben Curtis
+- 2 Athmad / Jason Hart
+  - star rows: J Altair → J Saturn RA 41.9849 42 whole (5.93) — only
+  - star rows: J Altair → J Pluto Dec 15.0084 15 whole (33.77) — also: 1 Dubai Souq / Sean Kirrane
+  - star rows: J Altair → J Vesta RA 158.5740 98×φ golden (63.08) — also: 4 Beating All / Ben Curtis
+- 3 Raise The Roof / Luke Morris
+  - star rows: H Altair → H Juno RA 34.9900 35 whole (24.98) — also: 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+  - star rows: J Altair → J Pallas Dec 6.9853 7 whole (6.91) — only
+  - star rows: J Altair → J Rahu RA 47.0138 47 whole (9.59) — only
+  - star rows: J Altair → J Orcus RA 168.2568 104×φ golden (17.77) — only
+  - star rows: J Altair → J Quaoar Dec 21.9990 22 whole (90.01) — also: 4 Beating All / Ben Curtis
+  - star rows: J Altair → J Ketu RA 132.9862 133 whole (9.59) — also: 4 Beating All / Ben Curtis
+  - MATCH EXACT: H Regulus → Ketu RA 164.9853 165 whole (7.10)
+- 4 Beating All / Ben Curtis
+  - star rows: H Altair → H Sun Dec 11.3284 7×φ golden (86.81) — also: 6 Tricolore / Dylan Hogan
+  - star rows: H Altair → H Haumea RA 83.9961 84 whole (64.45) — also: 1 Dubai Souq / Sean Kirrane
+  - star rows: H Altair → H Quaoar RA 25.8874 16×φ golden (93.07) — also: 3 Raise The Roof / Luke Morris
+  - star rows: H Altair → H Transpluto RA 144.4103 144.444 ninth (96.39) — only
+  - star rows: J Altair → J Sun Dec 7.9911 8 whole (30.67) — also: 6 Tricolore / Dylan Hogan
+  - star rows: J Altair → J Neptune Dec 30.9879 31 whole (15.76) — also: 5 Pallas Dancer / Ben Robinson
+  - star rows: J Altair → J Vesta Dec 33.0140 33 whole (8.90) — also: 2 Athmad / Jason Hart
+  - star rows: J Altair → J Ketu Dec 4.0021 4 whole (80.54) — also: 3 Raise The Roof / Luke Morris
+- 5 Pallas Dancer / Ben Robinson
+  - star rows: H Altair → H Neptune Dec 16.0185 16 whole (0.56) — also: 4 Beating All / Ben Curtis
+  - star rows: H Altair → H Chiron RA 59.0066 59 whole (44.78) — only
+  - star rows: H Altair → H Eris Dec 11.0969 φ^5 phi power (77.26) — only
+  - star rows: H Altair → H Makemake RA 103.9971 104 whole (72.92) — only
+  - star rows: J Altair → J Venus Dec 24.1484 24.14 silver (89.91) — only
+  - star rows: J Altair → J Mars RA 45.9878 46 whole (15.10) — only
+  - star rows: J Altair → J Juno RA 111.9904 112 whole (27.04) — also: 3 Raise The Roof / Luke Morris, 6 Tricolore / Dylan Hogan
+  - star rows: J Altair → J Sedna Dec 4.0007 4 whole (92.68) — only
+  - MATCH EXACT: H Alkes → Ketu RA 164.9903 165 whole (26.67)
+- 6 Tricolore / Dylan Hogan
+  - star rows: H Altair → H Sun RA 30.9945 31 whole (52.61) — also: 4 Beating All / Ben Curtis
+  - star rows: H Altair → H Juno RA 29.1274 18×φ golden (83.52) — also: 3 Raise The Roof / Luke Morris, 5 Pallas Dancer / Ben Robinson
+  - star rows: J Altair → J Sun Dec 23.0175 23 whole (1.61) — also: 4 Beating All / Ben Curtis
+#### 2. S Jupiter → Sadalmelik RA 0.2115 conj (73.79) — runners with cells 6/6
+- Moon confirms: none
+- 1 Dubai Souq / Sean Kirrane
+  - star rows: H Sadalmelik → H Sun RA 1.4036 conj (0.41) — only
+  - star rows: H Sadalmelik → H Rahu RA 176.3499 109×φ golden (26.23) — also: 2 Athmad / Jason Hart, 6 Tricolore / Dylan Hogan
+  - star rows: J Sadalmelik → J Chiron Dec 17.9497 φ^6 phi power (88.30) — also: 2 Athmad / Jason Hart, 6 Tricolore / Dylan Hogan
+  - star rows: J Sadalmelik → J Gonggong RA 0.1793 conj (77.52) — also: 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+  - star rows: J Sadalmelik → J Ketu Dec 19.0068 19 whole (43.47) — only
+  - MATCH CONJ STAR: J Sadalmelik → Chiron Dec 17.9497 φ^6 phi power (88.30)
+  - MATCH CONJ STAR: J Sadalmelik → Gonggong RA 0.1793 conj (77.52)
+  - MATCH CONJ STAR: S Jupiter → J body → Makemake Dec 44.9997 45 whole (97.49)
+  - MATCH CONJ STAR: S Jupiter → J body → Gonggong RA 0.0420 conj (94.48)
+  - MATCH CONJ STAR: S Jupiter → J body → Orcus RA 166.6277 166.667 ninth (96.66)
+- 2 Athmad / Jason Hart
+  - star rows: H Sadalmelik → H Mars RA 107.0118 107 whole (16.67) — also: 6 Tricolore / Dylan Hogan
+  - star rows: H Sadalmelik → H Chiron Dec 0.2941 conj (0.04) — also: 1 Dubai Souq / Sean Kirrane, 6 Tricolore / Dylan Hogan
+  - star rows: H Sadalmelik → H Rahu RA 158.5937 98×φ golden (3.37) — also: 1 Dubai Souq / Sean Kirrane, 6 Tricolore / Dylan Hogan
+  - star rows: J Sadalmelik → J Ceres RA 154.0123 154 whole (15.01) — also: 5 Pallas Dancer / Ben Robinson
+  - star rows: J Sadalmelik → J Gonggong RA 1.2485 conj (2.81) — also: 1 Dubai Souq / Sean Kirrane, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+  - star rows: J Sadalmelik → J Transpluto RA 174.7344 108×φ golden (34.80) — only
+  - MATCH CONJ STAR: S Jupiter → H body → Saturn Dec 8.0020 8 whole (80.83)
+  - MATCH CONJ STAR: S Jupiter → H body → Gonggong Dec 0.0512 conj (68.77)
+- 3 Raise The Roof / Luke Morris
+  - star rows: H Sadalmelik → H Jupiter Dec 17.0193 17 whole (0.11) — also: 4 Beating All / Ben Curtis
+  - star rows: H Sadalmelik → H Neptune Dec 6.9902 7 whole (25.84) — only
+  - star rows: H Sadalmelik → H Juno RA 1.2437 conj (2.92) — only
+  - star rows: H Sadalmelik → H Eris RA 54.0142 54 whole (8.55) — only
+  - star rows: H Sadalmelik → H Eris Dec 2.0106 2 whole (22.04) — only
+  - star rows: J Sadalmelik → J Jupiter RA 91.9950 92 whole (56.09) — also: 4 Beating All / Ben Curtis
+  - star rows: J Sadalmelik → J Makemake RA 163.0073 163 whole (40.11) — only
+  - star rows: J Sadalmelik → J Orcus RA 157.9884 158 whole (17.46) — also: 5 Pallas Dancer / Ben Robinson
+  - natal Jupiter → star: J Jupiter → J star Sadalmelik RA 91.9950 92 whole (56.09) — also: 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis
+  - MATCH CONJ STAR: S Jupiter → H body → Quaoar RA 59.9994 60 whole (94.40)
+  - MATCH CONJ STAR: J Sadalmelik → Jupiter RA 91.9950 92 whole (56.09)
+- 4 Beating All / Ben Curtis
+  - star rows: H Sadalmelik → H Jupiter Dec 17.0018 17 whole (82.41) — also: 3 Raise The Roof / Luke Morris
+  - star rows: H Sadalmelik → H Saturn Dec 22.0005 22 whole (94.59) — also: 6 Tricolore / Dylan Hogan
+  - star rows: H Sadalmelik → H Uranus Dec 9.9808 10 whole (0.16) — also: 5 Pallas Dancer / Ben Robinson
+  - star rows: J Sadalmelik → J Pluto Dec 0.2906 conj (0.10) — only
+  - star rows: J Sadalmelik → J Gonggong RA 2.0038 2 whole (65.42) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+  - star rows: J Sadalmelik → J Gonggong Dec 20.0177 20 whole (1.34) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+  - natal Jupiter → star: H Jupiter → H star Sadalmelik Dec 17.0018 17 whole (82.41) — also: 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris
+  - MATCH CONJ STAR: H Sadalmelik → Jupiter Dec 17.0018 17 whole (82.41)
+  - MATCH CONJ STAR: H Sadalmelik → Saturn Dec 22.0005 22 whole (94.59)
+  - MATCH CONJ STAR: S Jupiter → H body → Sun RA 22.6526 14×φ golden (99.41)
+  - MATCH CONJ STAR: S Jupiter → H body → Venus Dec 15.5561 15.5556 ninth (99.52)
+  - MATCH CONJ STAR: J Sadalmelik → Gonggong RA 2.0038 2 whole (65.42)
+  - MATCH CONJ STAR: S Jupiter → J body → Ceres RA 103.9969 104 whole (71.10)
+  - MATCH CONJ STAR: S Jupiter → J body → Sedna RA 70.7121 70.7 sqrt2 (99.20)
+  - MATCH CONJ STAR: S Jupiter → J body → Sedna Dec 16.9943 17 whole (51.34)
+  - MATCH CONJ STAR: S Jupiter → J body → Rahu Dec 0.0247 conj (84.24)
+- 5 Pallas Dancer / Ben Robinson
+  - star rows: H Sadalmelik → H Uranus Dec 10.0200 10 whole (0.00) — also: 4 Beating All / Ben Curtis
+  - star rows: H Sadalmelik → H Ceres RA 97.9809 98 whole (0.22) — also: 2 Athmad / Jason Hart
+  - star rows: H Sadalmelik → H Orcus RA 179.9967 180 whole (70.14) — also: 3 Raise The Roof / Luke Morris
+  - star rows: H Sadalmelik → H Quaoar RA 61.4803 38×φ golden (71.62) — only
+  - star rows: H Sadalmelik → H Gonggong RA 4.9917 5 whole (33.96) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis, 6 Tricolore / Dylan Hogan
+  - star rows: J Sadalmelik → J Pallas Dec 0.1542 conj (23.62) — only
+  - star rows: J Sadalmelik → J Orcus Dec 0.1701 conj (18.76) — also: 3 Raise The Roof / Luke Morris
+  - star rows: J Sadalmelik → J Gonggong RA 0.0914 conj (88.19) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis, 6 Tricolore / Dylan Hogan
+  - MATCH CONJ STAR: H Sadalmelik → Quaoar RA 61.4803 38×φ golden (71.62)
+  - MATCH CONJ STAR: H Sadalmelik → Orcus RA 179.9967 180 whole (70.14)
+  - MATCH CONJ STAR: J Sadalmelik → Gonggong RA 0.0914 conj (88.19)
+  - MATCH CONJ STAR: S Jupiter → J body → Haumea RA 136.0033 136 whole (70.11)
+  - MATCH CONJ STAR: S Jupiter → J body → Gonggong RA 0.3131 conj (62.61)
+- 6 Tricolore / Dylan Hogan
+  - star rows: H Sadalmelik → H Mars RA 80.9820 81 whole (1.04) — also: 2 Athmad / Jason Hart
+  - star rows: H Sadalmelik → H Saturn RA 54.9855 55 whole (7.58) — also: 4 Beating All / Ben Curtis
+  - star rows: H Sadalmelik → H Chiron Dec 2.0197 2 whole (0.03) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart
+  - star rows: H Sadalmelik → H Gonggong Dec 12.0053 12 whole (54.13) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson
+  - star rows: J Sadalmelik → J Vesta RA 129.9875 130 whole (13.99) — only
+  - star rows: J Sadalmelik → J Rahu Dec 15.9862 16 whole (9.57) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart
+  - star rows: J Sadalmelik → J Gonggong RA 1.4616 conj (0.07) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson
+  - MATCH CONJ STAR: H Sadalmelik → Gonggong Dec 12.0053 12 whole (54.13)
+#### 3. S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07) — runners with cells 6/6
+- Moon confirms: none
+- 1 Dubai Souq / Sean Kirrane
+  - star rows: H Ras Algethi → H Uranus RA 121.3752 75×φ golden (8.98) — only
+  - star rows: H Ras Algethi → H Rahu RA 103.5691 64×φ golden (28.99) — only
+  - star rows: H Ras Algethi → H Eris Dec 17.0181 17 whole (0.88) — only
+  - star rows: H Ras Algethi → H Sedna Dec 6.9840 7 whole (3.97) — only
+  - star rows: J Ras Algethi → J Rahu RA 132.6553 82×φ golden (7.48) — only
+  - star rows: J Ras Algethi → J Quaoar RA 11.0180 11 whole (0.97) — also: 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris, 6 Tricolore / Dylan Hogan
+- 2 Athmad / Jason Hart
+  - star rows: H Ras Algethi → H Chiron Dec 15.0034 15 whole (68.53) — only
+  - star rows: J Ras Algethi → J Quaoar RA 19.9869 20 whole (11.76) — also: 1 Dubai Souq / Sean Kirrane, 3 Raise The Roof / Luke Morris, 6 Tricolore / Dylan Hogan
+- 3 Raise The Roof / Luke Morris
+  - star rows: H Ras Algethi → H Mars RA 0.1647 conj (79.24) — also: 5 Pallas Dancer / Ben Robinson
+  - star rows: H Ras Algethi → H Juno Dec 22.0113 22 whole (18.84) — only
+  - star rows: H Ras Algethi → H Vesta RA 0.0104 conj (98.61) — only
+  - star rows: H Ras Algethi → H Quaoar RA 13.0023 13 whole (78.66) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 6 Tricolore / Dylan Hogan
+  - star rows: H Ras Algethi → H Quaoar Dec 29.9812 30 whole (0.36) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 6 Tricolore / Dylan Hogan
+  - star rows: J Ras Algethi → J Saturn Dec 36.9817 37 whole (0.75) — also: 4 Beating All / Ben Curtis, 6 Tricolore / Dylan Hogan
+  - star rows: J Ras Algethi → J Transpluto Dec 0.1930 conj (12.72) — also: 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson
+  - MATCH EXACT: S Jupiter → H body → Vesta RA 72.9913 73 whole (31.72)
+- 4 Beating All / Ben Curtis
+  - star rows: H Ras Algethi → H Mercury RA 111.6675 69×φ golden (8.15) — also: 6 Tricolore / Dylan Hogan
+  - star rows: H Ras Algethi → H Neptune RA 87.0109 87 whole (20.60) — only
+  - star rows: H Ras Algethi → H Makemake RA 63.0114 63 whole (18.68) — also: 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+  - star rows: J Ras Algethi → J Sun RA 123.0155 123 whole (5.04) — only
+  - star rows: J Ras Algethi → J Saturn Dec 37.0009 37 whole (91.24) — also: 3 Raise The Roof / Luke Morris, 6 Tricolore / Dylan Hogan
+  - star rows: J Ras Algethi → J Pluto Dec 15.0016 15 whole (84.25) — only
+  - star rows: J Ras Algethi → J Ceres RA 176.9941 177 whole (49.43) — only
+  - star rows: J Ras Algethi → J Transpluto Dec 0.0715 conj (58.01) — also: 3 Raise The Roof / Luke Morris, 5 Pallas Dancer / Ben Robinson
+  - MATCH EXACT: H Praesepe → Pallas RA 73.0193 73 whole (0.12)
+  - MATCH EXACT: J Alkaid → Uranus Dec 73.0171 73 whole (2.17)
+- 5 Pallas Dancer / Ben Robinson
+  - star rows: H Ras Algethi → H Makemake Dec 10.9915 11 whole (33.17) — also: 4 Beating All / Ben Curtis, 6 Tricolore / Dylan Hogan
+  - star rows: H Ras Algethi → H Gonggong RA 77.7708 77.7778 ninth (94.54) — only
+  - star rows: H Ras Algethi → H Transpluto RA 105.9949 106 whole (55.68) — also: 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis
+  - star rows: J Ras Algethi → J Mars RA 85.0191 85 whole (0.18) — also: 3 Raise The Roof / Luke Morris
+  - star rows: J Ras Algethi → J Haumea RA 62.9998 63 whole (97.90) — only
+  - star rows: J Ras Algethi → J Transpluto RA 111.6699 69×φ golden (4.46) — also: 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis
+  - MATCH EXACT: H Algenib → Pluto RA 73.0143 73 whole (8.03)
+  - MATCH EXACT: J Betelgeuse → Saturn RA 72.9841 73 whole (4.10)
+- 6 Tricolore / Dylan Hogan
+  - star rows: H Ras Algethi → H Saturn RA 17.7957 11×φ golden (84.36) — also: 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis
+  - star rows: H Ras Algethi → H Quaoar Dec 30.0198 30 whole (0.01) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris
+  - star rows: J Ras Algethi → J Mercury Dec 21.0118 21 whole (16.85) — also: 4 Beating All / Ben Curtis
+  - star rows: J Ras Algethi → J Makemake Dec 18.9950 19 whole (55.88) — also: 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson
+#### 4. S Jupiter → Menkent RA 119.9965 120 whole (67.85) — runners with cells 6/6
+- Moon confirms: none
+- 1 Dubai Souq / Sean Kirrane
+  - star rows: H Menkent → H Pluto RA 78.0126 78 whole (13.70) — only
+  - star rows: H Menkent → H Ceres Dec 45.0146 45 whole (7.36) — also: 4 Beating All / Ben Curtis
+  - star rows: H Menkent → H Haumea RA 1.3181 conj (1.47) — also: 2 Athmad / Jason Hart, 5 Pallas Dancer / Ben Robinson
+  - MATCH EXACT: J Aldebaran → Mercury RA 120.0013 120 whole (87.57)
+- 2 Athmad / Jason Hart
+  - star rows: H Menkent → H Sun Dec 19.9952 20 whole (57.92) — also: 6 Tricolore / Dylan Hogan
+  - star rows: H Menkent → H Mars Dec 21.0073 21 whole (40.62) — also: 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson
+  - star rows: H Menkent → H Juno RA 11.3218 7×φ golden (74.41) — also: 3 Raise The Roof / Luke Morris
+  - star rows: H Menkent → H Haumea RA 0.4624 conj (47.85) — also: 1 Dubai Souq / Sean Kirrane, 5 Pallas Dancer / Ben Robinson
+  - star rows: H Menkent → H Orcus Dec 26.9969 27 whole (71.74) — only
+  - star rows: J Menkent → J Saturn RA 128.0160 128 whole (3.94) — also: 3 Raise The Roof / Luke Morris
+  - star rows: J Menkent → J Eris Dec 28.0197 28 whole (0.03) — also: 6 Tricolore / Dylan Hogan
+  - star rows: J Menkent → J Sedna Dec 40.9923 41 whole (37.67) — also: 4 Beating All / Ben Curtis
+  - star rows: J Menkent → J Haumea Dec 58.0119 58 whole (16.46) — also: 1 Dubai Souq / Sean Kirrane, 5 Pallas Dancer / Ben Robinson
+  - star rows: J Menkent → J Quaoar RA 27.0077 27 whole (37.73) — also: 3 Raise The Roof / Luke Morris, 5 Pallas Dancer / Ben Robinson
+  - MATCH EXACT: H Aculeus → Eris RA 120.0077 120 whole (37.82)
+  - same number: H Aculeus → H Eris RA 120.0077 120 whole (37.82) — only
+- 3 Raise The Roof / Luke Morris
+  - star rows: H Menkent → H Saturn Dec 13.9959 14 whole (62.87) — also: 2 Athmad / Jason Hart
+  - star rows: H Menkent → H Pallas Dec 22.0025 22 whole (76.64) — also: 4 Beating All / Ben Curtis
+  - star rows: H Menkent → H Juno RA 121.0133 121 whole (11.24) — also: 2 Athmad / Jason Hart
+  - star rows: H Menkent → H Vesta RA 47.0000 47 whole (99.59) — also: 4 Beating All / Ben Curtis
+  - star rows: H Menkent → H Quaoar RA 59.9919 60 whole (35.25) — also: 2 Athmad / Jason Hart, 5 Pallas Dancer / Ben Robinson
+- 4 Beating All / Ben Curtis
+  - star rows: H Menkent → H Mars Dec 12.9903 13 whole (26.38) — also: 2 Athmad / Jason Hart, 5 Pallas Dancer / Ben Robinson
+  - star rows: H Menkent → H Neptune RA 134.0008 134 whole (92.19) — also: 5 Pallas Dancer / Ben Robinson
+  - star rows: H Menkent → H Pallas Dec 24.9820 25 whole (1.02) — also: 3 Raise The Roof / Luke Morris
+  - star rows: H Menkent → H Sedna Dec 43.9868 44 whole (11.68) — also: 2 Athmad / Jason Hart
+  - star rows: J Menkent → J Ceres RA 136.0120 136 whole (15.93) — also: 1 Dubai Souq / Sean Kirrane
+  - star rows: J Menkent → J Vesta Dec 12.2252 12.2222 ninth (95.81) — also: 3 Raise The Roof / Luke Morris
+  - MATCH EXACT: H Hamal → Quaoar RA 119.9818 120 whole (0.83)
+- 5 Pallas Dancer / Ben Robinson
+  - star rows: S Menkent → H Jupiter RA 18.8835 18.8889 ninth (96.15) — also: 6 Tricolore / Dylan Hogan
+  - star rows: H Menkent → H Uranus RA 173.1172 107×φ golden (38.06) — only
+  - star rows: H Menkent → H Haumea RA 0.0270 conj (96.44) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart
+  - star rows: H Menkent → H Quaoar Dec 20.9893 21 whole (21.54) — also: 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris
+  - star rows: H Menkent → H Transpluto RA 59.0006 59 whole (94.24) — only
+  - star rows: J Menkent → J Mercury Dec 17.0127 17 whole (13.20) — only
+  - star rows: J Menkent → J Mars RA 132.0053 132 whole (53.76) — also: 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis
+  - star rows: J Menkent → J Uranus RA 100.3446 62×φ golden (3.25) — only
+  - star rows: J Menkent → J Neptune Dec 16.6611 16.6667 ninth (95.26) — also: 4 Beating All / Ben Curtis
+  - star rows: J Menkent → J Haumea RA 16.0136 16 whole (10.26) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart
+  - MATCH EXACT: S Jupiter → H body → Haumea RA 120.0164 120 whole (3.27)
+- 6 Tricolore / Dylan Hogan
+  - star rows: H Menkent → H Sun RA 117.0183 117 whole (0.69) — also: 2 Athmad / Jason Hart
+  - star rows: H Menkent → H Eris Dec 33.9781 21×φ golden (96.29) — also: 2 Athmad / Jason Hart
+  - star rows: J Menkent → J Jupiter Dec 19.0076 19 whole (38.56) — also: 5 Pallas Dancer / Ben Robinson
+  - star rows: J Menkent → J Sun Dec 22.2201 22.2222 ninth (97.06) — also: 2 Athmad / Jason Hart
+  - MATCH EXACT: J Galactic Centre → Transpluto RA 120.0130 120 whole (12.41)
+#### 5. S Sun → Diadem Dec 0.1348 conj (30.32) — runners with cells 6/6
+- Moon confirms: none
+- 1 Dubai Souq / Sean Kirrane
+  - star rows: S Diadem → H Jupiter RA 3.9912 4 whole (31.59) — also: 2 Athmad / Jason Hart
+  - star rows: H Diadem → H Pallas Dec 22.0021 22 whole (80.51) — only
+  - star rows: J Diadem → J Juno Dec 30.7410 19×φ golden (90.04) — also: 5 Pallas Dancer / Ben Robinson
+  - star rows: J Diadem → J Haumea RA 0.0926 conj (88.03) — also: 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+- 2 Athmad / Jason Hart
+  - star rows: H Diadem → H Jupiter Dec 13.0115 13 whole (18.21) — also: 1 Dubai Souq / Sean Kirrane
+  - star rows: H Diadem → H Ketu RA 155.3498 96×φ golden (18.37) — also: 3 Raise The Roof / Luke Morris, 6 Tricolore / Dylan Hogan
+  - star rows: J Diadem → J Venus RA 21.9940 22 whole (48.95) — also: 4 Beating All / Ben Curtis, 6 Tricolore / Dylan Hogan
+  - star rows: J Diadem → J Venus Dec 38.9977 39 whole (78.11) — also: 4 Beating All / Ben Curtis, 6 Tricolore / Dylan Hogan
+  - star rows: J Diadem → J Eris Dec 25.8808 16×φ golden (57.78) — also: 6 Tricolore / Dylan Hogan
+  - star rows: J Diadem → J Haumea RA 6.0143 6 whole (8.19) — also: 1 Dubai Souq / Sean Kirrane, 3 Raise The Roof / Luke Morris, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+  - star rows: J Diadem → J Ketu Dec 1.0073 1 whole (40.52) — also: 3 Raise The Roof / Luke Morris, 6 Tricolore / Dylan Hogan
+- 3 Raise The Roof / Luke Morris
+  - star rows: H Diadem → H Ketu Dec 33.9735 21×φ golden (70.31) — also: 2 Athmad / Jason Hart, 6 Tricolore / Dylan Hogan
+  - star rows: J Diadem → J Sun RA 8.0096 8 whole (26.90) — also: 4 Beating All / Ben Curtis
+  - star rows: J Diadem → J Neptune RA 80.9935 81 whole (45.30) — also: 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+  - star rows: J Diadem → J Rahu RA 147.2146 91×φ golden (3.29) — only
+  - star rows: J Diadem → J Haumea RA 11.0036 11 whole (67.40) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+  - star rows: J Diadem → J Ketu Dec 11.0070 11 whole (42.45) — also: 2 Athmad / Jason Hart, 6 Tricolore / Dylan Hogan
+- 4 Beating All / Ben Curtis
+  - star rows: H Diadem → H Sun Dec 19.9884 20 whole (17.79) — also: 3 Raise The Roof / Luke Morris
+  - star rows: H Diadem → H Mercury Dec 10.9801 11 whole (0.00) — also: 6 Tricolore / Dylan Hogan
+  - star rows: H Diadem → H Venus RA 171.5097 106×φ golden (88.69) — also: 2 Athmad / Jason Hart, 6 Tricolore / Dylan Hogan
+  - star rows: H Diadem → H Sedna RA 141.4386 141.4 sqrt2 (95.18) — also: 6 Tricolore / Dylan Hogan
+  - star rows: J Diadem → J Makemake Dec 17.9802 18 whole (0.01) — also: 6 Tricolore / Dylan Hogan
+- 5 Pallas Dancer / Ben Robinson
+  - star rows: H Diadem → H Neptune RA 148.0171 148 whole (2.10) — also: 3 Raise The Roof / Luke Morris, 6 Tricolore / Dylan Hogan
+  - star rows: H Diadem → H Juno Dec 22.9889 23 whole (19.90) — also: 1 Dubai Souq / Sean Kirrane
+  - star rows: H Diadem → H Vesta RA 66.0120 66 whole (15.86) — only
+  - star rows: H Diadem → H Haumea RA 14.1475 14.14 sqrt2 (85.38) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris, 6 Tricolore / Dylan Hogan
+  - star rows: H Diadem → H Haumea Dec 0.0326 conj (79.48) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris, 6 Tricolore / Dylan Hogan
+  - star rows: J Diadem → J Saturn Dec 13.3350 13.3333 ninth (98.01) — only
+  - star rows: J Diadem → J Uranus Dec 36.0054 36 whole (53.23) — also: 6 Tricolore / Dylan Hogan
+  - star rows: J Diadem → J Orcus Dec 18.0180 18 whole (1.03) — only
+- 6 Tricolore / Dylan Hogan
+  - star rows: H Diadem → H Uranus RA 174.0109 174 whole (20.59) — also: 5 Pallas Dancer / Ben Robinson
+  - star rows: H Diadem → H Neptune RA 147.2196 91×φ golden (11.28) — also: 3 Raise The Roof / Luke Morris, 5 Pallas Dancer / Ben Robinson
+  - star rows: H Diadem → H Ceres RA 62.9890 63 whole (20.22) — only
+  - star rows: H Diadem → H Ceres Dec 14.0052 14 whole (54.45) — only
+  - star rows: H Diadem → H Sedna Dec 10.0007 10 whole (93.44) — also: 4 Beating All / Ben Curtis
+  - star rows: H Diadem → H Haumea Dec 1.0159 1 whole (4.26) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris, 5 Pallas Dancer / Ben Robinson
+  - star rows: H Diadem → H Makemake RA 1.4931 conj (0.00) — also: 4 Beating All / Ben Curtis
+  - star rows: H Diadem → H Ketu RA 119.7139 74×φ golden (13.10) — also: 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris
+  - star rows: J Diadem → J Mercury Dec 24.1493 24.14 silver (88.55) — also: 4 Beating All / Ben Curtis
+  - star rows: J Diadem → J Venus RA 20.0054 20 whole (53.27) — also: 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis
+  - star rows: J Diadem → J Neptune RA 94.9825 95 whole (1.61) — also: 3 Raise The Roof / Luke Morris, 5 Pallas Dancer / Ben Robinson
+  - star rows: J Diadem → J Eris Dec 25.9813 26 whole (0.42) — also: 2 Athmad / Jason Hart
+  - star rows: J Diadem → J Sedna Dec 13.0184 13 whole (0.66) — also: 4 Beating All / Ben Curtis
+### READ 3 Jupiter / Sun lines to bodies (not followed)
+- S Sun → Quaoar RA 141.4548 141.4 sqrt2 (90.76)
+### READ 4 Moon only, not active (confirm no lead line; not followed)
+- S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+- S Moon → Mars RA 93.8435 58×φ golden (85.06)
+- S Moon → Algorab Dec 36.0037 36 whole (66.74)
+- S Moon → Rigel RA 18.0045 18 whole (60.09)
+
+## 1 Dubai Souq / Sean Kirrane
+### L1 same bodies
+- S Saturn → H Saturn RA 46.9672 φ^8 phi power (loose)
+- S Uranus → H Uranus RA 22.0014 22 whole (86.03)
+- S Eris → H Eris Dec 1.4393 1.44444 ninth (loose)
+- S Haumea → H Haumea RA 1.8761 1.88889 ninth (loose)
+- S Gonggong → H Gonggong RA 1.2218 1.22222 ninth (loose)
+- S Gonggong → H Gonggong Dec 1.2225 1.22222 ninth (96.14)
+- S Transpluto → H Transpluto Dec 0.4442 0.444444 ninth (loose)
+- S Neptune → J Neptune Dec 15.0136 15 whole (10.12)
+- S Ceres → J Ceres RA 133.0008 133 whole (92.17)
+- S Rahu → J Rahu Dec 2.4077 2.414 silver (loose)
+- S Sedna → J Sedna RA 13.0048 13 whole (57.42)
+- S Makemake → J Makemake RA 16.6121 16.6667 ninth (loose)
+- S Ketu → J Ketu Dec 2.4077 2.414 silver (loose)
+### L2 what lands on each same body
+- **H Saturn** (same body: S Saturn → H Saturn RA 46.9672 φ^8 phi power (loose))
+  - star rows: H Aculeus → H Saturn RA 0.4735 conj (46.83)
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+- **H Uranus** (same body: S Uranus → H Uranus RA 22.0014 22 whole (86.03))
+  - star rows: H Ras Algethi → H Uranus RA 121.3752 75×φ golden (8.98)
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+  - other chart, star rows: J Algorab → J Uranus Dec 0.1667 conj (19.75)
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+- **H Eris** (same body: S Eris → H Eris Dec 1.4393 1.44444 ninth (loose))
+  - star rows: H Ras Algethi → H Eris Dec 17.0181 17 whole (0.88)
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+  - other chart, star rows: J Aculeus → J Eris RA 117.9821 118 whole (1.11)
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+- **H Haumea** (same body: S Haumea → H Haumea RA 1.8761 1.88889 ninth (loose))
+  - star rows: H Altair → H Haumea Dec 7.9852 8 whole (6.74)
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+  - star rows: H Menkent → H Haumea RA 1.3181 conj (1.47)
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+  - other chart, star rows: J Diadem → J Haumea RA 0.0926 conj (88.03)
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+- **H Gonggong** (same body: S Gonggong → H Gonggong RA 1.2218 1.22222 ninth (loose); S Gonggong → H Gonggong Dec 1.2225 1.22222 ninth (96.14))
+  - top rows: S Jupiter → H Gonggong Dec 0.2826 conj (0.34)
+  - other chart, top rows: S Jupiter → J Gonggong RA 0.0420 conj (94.48)
+  - other chart, star rows: J Rigel → J Gonggong RA 107.0182 107 whole (0.78)
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+  - other chart, star rows: J Sadalmelik → J Gonggong RA 0.1793 conj (77.52)
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+- **H Transpluto** (same body: S Transpluto → H Transpluto Dec 0.4442 0.444444 ninth (loose))
+- **J Neptune** (same body: S Neptune → J Neptune Dec 15.0136 15 whole (10.12))
+  - other chart, star rows: H Aculeus → H Neptune RA 77.7764 77.7778 ninth (98.96)
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - other chart, star rows: H Rigel → H Neptune Dec 0.0050 conj (96.71)
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+- **J Ceres** (same body: S Ceres → J Ceres RA 133.0008 133 whole (92.17))
+  - T2: J Jupiter → J Ceres Dec 0.0483 conj (70.40)
+  - other chart, star rows: H Altair → H Ceres Dec 0.2244 conj (6.36)
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+  - other chart, star rows: H Menkent → H Ceres Dec 45.0146 45 whole (7.36)
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+- **J Rahu** (same body: S Rahu → J Rahu Dec 2.4077 2.414 silver (loose))
+  - top rows: S Moon → J Rahu Dec 0.1596 conj (21.90)
+  - star rows: J Ras Algethi → J Rahu RA 132.6553 82×φ golden (7.48)
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+  - other chart, star rows: H Aculeus → H Rahu RA 109.9896 110 whole (23.14)
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - other chart, star rows: H Ras Algethi → H Rahu RA 103.5691 64×φ golden (28.99)
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+  - other chart, star rows: H Sadalmelik → H Rahu RA 176.3499 109×φ golden (26.23)
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+- **J Sedna** (same body: S Sedna → J Sedna RA 13.0048 13 whole (57.42))
+  - star rows: J Rigel → J Sedna RA 32.3693 20×φ golden (54.01)
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+  - other chart, star rows: H Ras Algethi → H Sedna Dec 6.9840 7 whole (3.97)
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+- **J Makemake** (same body: S Makemake → J Makemake RA 16.6121 16.6667 ninth (loose))
+  - top rows: S Jupiter → J Makemake Dec 44.9997 45 whole (97.49)
+- **J Ketu** (same body: S Ketu → J Ketu Dec 2.4077 2.414 silver (loose))
+  - top rows: S Sun → J Ketu Dec 36.9959 37 whole (63.23)
+  - star rows: J Sadalmelik → J Ketu Dec 19.0068 19 whole (43.47)
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+  - other chart, star rows: H Aculeus → H Ketu RA 70.0104 70 whole (23.14)
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - other chart, star rows: H Rigel → H Ketu RA 103.5456 64×φ golden (53.91)
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+### L3 matches
+- **1. same body on both charts**: none
+- **2. one body in both planes**
+  - H Gonggong — only
+    - S Gonggong → H Gonggong RA 1.2218 1.22222 ninth (loose)
+    - S Gonggong → H Gonggong Dec 1.2225 1.22222 ninth (96.14)
+- **3. runner number = sky number**: none
+- **4. circle divisions**
+  - 8 = 360/45 — also: 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis
+    - H Altair → H Pluto RA 8.0107 8 whole (21.76)
+  - 8 = 360/45 — also: 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis
+    - H Altair → H Haumea Dec 7.9852 8 whole (6.74)
+  - 4 = 360/90 — also: 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson
+    - S Diadem → H Jupiter RA 3.9912 4 whole (31.59)
+  - 45 = 360/8 — only
+    - H Menkent → H Ceres Dec 45.0146 45 whole (7.36)
+  - 3 = 360/120 — also: 3 Raise The Roof / Luke Morris, 5 Pallas Dancer / Ben Robinson
+    - H Rigel → H Sun Dec 2.9899 3 whole (24.60)
+  - 15 = 360/24 — also: 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis
+    - S Neptune → J Neptune Dec 15.0136 15 whole (10.12)
+  - 45 = 360/8 — only
+    - S Jupiter → J Makemake Dec 44.9997 45 whole (97.49)
+  - 5 = 360/72 — also: 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson
+    - J Rigel → J Juno Dec 5.0110 5 whole (20.35)
+- **5. same number in more than one place**
+  - 22 whole — also: 3 Raise The Roof / Luke Morris, 6 Tricolore / Dylan Hogan
+    - S Uranus → H Uranus RA 22.0014 22 whole (86.03)
+    - H Diadem → H Pallas Dec 22.0021 22 whole (80.51)
+  - 11 whole — also: 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris
+    - H Aculeus → H Pluto Dec 11.0026 11 whole (75.48)
+    - J Ras Algethi → J Quaoar RA 11.0180 11 whole (0.97)
+  - 14 whole — also: 3 Raise The Roof / Luke Morris
+    - H Algorab → H Jupiter RA 14.0142 14 whole (8.30)
+    - J Aculeus → J Chiron Dec 13.9819 14 whole (0.91)
+  - 8 whole — only
+    - H Altair → H Pluto RA 8.0107 8 whole (21.76)
+    - H Altair → H Haumea Dec 7.9852 8 whole (6.74)
+  - 45 whole — only
+    - H Menkent → H Ceres Dec 45.0146 45 whole (7.36)
+    - S Jupiter → J Makemake Dec 44.9997 45 whole (97.49)
+  - 64×φ golden — only
+    - H Ras Algethi → H Rahu RA 103.5691 64×φ golden (28.99)
+    - H Rigel → H Ketu RA 103.5456 64×φ golden (53.91)
+  - 2.414 silver — only
+    - S Rahu → J Rahu Dec 2.4077 2.414 silver (loose)
+    - S Ketu → J Ketu Dec 2.4077 2.414 silver (loose)
+  - 13 whole — also: 3 Raise The Roof / Luke Morris, 5 Pallas Dancer / Ben Robinson
+    - S Sedna → J Sedna RA 13.0048 13 whole (57.42)
+    - J Aculeus → J Pluto RA 12.9847 13 whole (5.61)
+### L4 every natal body
+- **Saturn**
+  - same body: S Saturn → H Saturn RA 46.9672 φ^8 phi power (loose) — also: 4 Beating All / Ben Curtis
+  - star rows: H Aculeus → H Saturn RA 0.4735 conj (46.83) — also: 5 Pallas Dancer / Ben Robinson
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+- **Uranus**
+  - same body: S Uranus → H Uranus RA 22.0014 22 whole (86.03) — also: 2 Athmad / Jason Hart, 5 Pallas Dancer / Ben Robinson
+  - star rows: H Ras Algethi → H Uranus RA 121.3752 75×φ golden (8.98) — only
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+  - star rows: J Algorab → J Uranus Dec 0.1667 conj (19.75) — also: 2 Athmad / Jason Hart, 6 Tricolore / Dylan Hogan
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+- **Eris**
+  - same body: S Eris → H Eris Dec 1.4393 1.44444 ninth (loose) — also: 2 Athmad / Jason Hart, 5 Pallas Dancer / Ben Robinson
+  - star rows: H Ras Algethi → H Eris Dec 17.0181 17 whole (0.88) — only
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+  - star rows: J Aculeus → J Eris RA 117.9821 118 whole (1.11) — also: 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+- **Haumea**
+  - same body: S Haumea → H Haumea RA 1.8761 1.88889 ninth (loose) — also: 3 Raise The Roof / Luke Morris, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+  - star rows: H Altair → H Haumea Dec 7.9852 8 whole (6.74) — also: 4 Beating All / Ben Curtis
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+  - star rows: H Menkent → H Haumea RA 1.3181 conj (1.47) — also: 2 Athmad / Jason Hart, 5 Pallas Dancer / Ben Robinson
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+  - star rows: J Diadem → J Haumea RA 0.0926 conj (88.03) — also: 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+- **Gonggong**
+  - same body: S Gonggong → H Gonggong RA 1.2218 1.22222 ninth (loose) — also: 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis, 6 Tricolore / Dylan Hogan
+  - same body: S Gonggong → H Gonggong Dec 1.2225 1.22222 ninth (96.14) — also: 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis, 6 Tricolore / Dylan Hogan
+  - top rows: S Jupiter → H Gonggong Dec 0.2826 conj (0.34) — also: 2 Athmad / Jason Hart, 5 Pallas Dancer / Ben Robinson
+  - top rows: S Jupiter → J Gonggong RA 0.0420 conj (94.48) — also: 2 Athmad / Jason Hart, 5 Pallas Dancer / Ben Robinson
+  - star rows: J Rigel → J Gonggong RA 107.0182 107 whole (0.78) — also: 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+  - star rows: J Sadalmelik → J Gonggong RA 0.1793 conj (77.52) — also: 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+- **Transpluto**
+  - same body: S Transpluto → H Transpluto Dec 0.4442 0.444444 ninth (loose) — only
+- **Sun**
+  - top rows: S Jupiter → H Sun RA 1.1819 conj (4.50) — also: 4 Beating All / Ben Curtis, 6 Tricolore / Dylan Hogan
+  - star rows: H Rigel → H Sun Dec 2.9899 3 whole (24.60) — also: 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+  - star rows: H Sadalmelik → H Sun RA 1.4036 conj (0.41) — only
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+- **Jupiter**
+  - top rows: S Chiron → H Jupiter Dec 14.5620 9×φ golden (97.82) — also: 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris, 5 Pallas Dancer / Ben Robinson
+  - star rows: H Algorab → H Jupiter RA 14.0142 14 whole (8.30) — also: 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - star rows: S Diadem → H Jupiter RA 3.9912 4 whole (31.59) — also: 2 Athmad / Jason Hart
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - top rows: S Quaoar → J Jupiter RA 111.1493 111.111 ninth (93.76) — also: 2 Athmad / Jason Hart
+    - source line: S Sun → Quaoar RA 141.4548 141.4 sqrt2 (90.76)
+- **Neptune**
+  - star rows: H Aculeus → H Neptune RA 77.7764 77.7778 ninth (98.96) — also: 2 Athmad / Jason Hart, 6 Tricolore / Dylan Hogan
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - star rows: H Rigel → H Neptune Dec 0.0050 conj (96.71) — only
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+  - same body: S Neptune → J Neptune Dec 15.0136 15 whole (10.12) — also: 2 Athmad / Jason Hart, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+- **Pluto**
+  - star rows: H Aculeus → H Pluto Dec 11.0026 11 whole (75.48) — only
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - star rows: H Altair → H Pluto RA 8.0107 8 whole (21.76) — also: 2 Athmad / Jason Hart
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+  - star rows: H Menkent → H Pluto RA 78.0126 78 whole (13.70) — only
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+  - star rows: J Aculeus → J Pluto RA 12.9847 13 whole (5.61) — only
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+- **Chiron**
+  - star rows: H Aculeus → H Chiron Dec 32.9995 33 whole (95.48) — also: 5 Pallas Dancer / Ben Robinson
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - star rows: J Aculeus → J Chiron Dec 13.9819 14 whole (0.91) — also: 5 Pallas Dancer / Ben Robinson
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - star rows: J Sadalmelik → J Chiron Dec 17.9497 φ^6 phi power (88.30) — also: 2 Athmad / Jason Hart, 6 Tricolore / Dylan Hogan
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+- **Rahu**
+  - star rows: H Aculeus → H Rahu RA 109.9896 110 whole (23.14) — also: 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - star rows: H Ras Algethi → H Rahu RA 103.5691 64×φ golden (28.99) — only
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+  - star rows: H Sadalmelik → H Rahu RA 176.3499 109×φ golden (26.23) — also: 2 Athmad / Jason Hart, 6 Tricolore / Dylan Hogan
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+  - same body: S Rahu → J Rahu Dec 2.4077 2.414 silver (loose) — also: 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+  - top rows: S Moon → J Rahu Dec 0.1596 conj (21.90) — only
+  - star rows: J Ras Algethi → J Rahu RA 132.6553 82×φ golden (7.48) — only
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+- **Ketu**
+  - star rows: H Aculeus → H Ketu RA 70.0104 70 whole (23.14) — also: 3 Raise The Roof / Luke Morris, 5 Pallas Dancer / Ben Robinson
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - star rows: H Rigel → H Ketu RA 103.5456 64×φ golden (53.91) — only
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+  - same body: S Ketu → J Ketu Dec 2.4077 2.414 silver (loose) — also: 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+  - top rows: S Sun → J Ketu Dec 36.9959 37 whole (63.23) — also: 3 Raise The Roof / Luke Morris
+  - star rows: J Sadalmelik → J Ketu Dec 19.0068 19 whole (43.47) — only
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+- **Ceres**
+  - star rows: H Altair → H Ceres Dec 0.2244 conj (6.36) — only
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+  - star rows: H Menkent → H Ceres Dec 45.0146 45 whole (7.36) — also: 4 Beating All / Ben Curtis
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+  - same body: S Ceres → J Ceres RA 133.0008 133 whole (92.17) — also: 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis, 6 Tricolore / Dylan Hogan
+  - T2: J Jupiter → J Ceres Dec 0.0483 conj (70.40) — only
+- **Pallas**
+  - star rows: H Diadem → H Pallas Dec 22.0021 22 whole (80.51) — only
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+- **Sedna**
+  - star rows: H Ras Algethi → H Sedna Dec 6.9840 7 whole (3.97) — only
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+  - same body: S Sedna → J Sedna RA 13.0048 13 whole (57.42) — also: 3 Raise The Roof / Luke Morris, 5 Pallas Dancer / Ben Robinson
+  - star rows: J Rigel → J Sedna RA 32.3693 20×φ golden (54.01) — also: 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+- **Juno**
+  - star rows: H Rigel → H Juno RA 164.0158 164 whole (4.35) — also: 2 Athmad / Jason Hart, 5 Pallas Dancer / Ben Robinson
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+  - star rows: J Aculeus → J Juno RA 20.9871 21 whole (12.68) — also: 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - star rows: J Diadem → J Juno Dec 30.7410 19×φ golden (90.04) — also: 5 Pallas Dancer / Ben Robinson
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - star rows: J Rigel → J Juno Dec 5.0110 5 whole (20.35) — also: 2 Athmad / Jason Hart, 5 Pallas Dancer / Ben Robinson
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+- **Vesta**
+  - star rows: H Rigel → H Vesta Dec 34.0102 34 whole (23.79) — also: 3 Raise The Roof / Luke Morris
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+- **Makemake**
+  - same body: S Makemake → J Makemake RA 16.6121 16.6667 ninth (loose) — also: 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+  - top rows: S Jupiter → J Makemake Dec 44.9997 45 whole (97.49) — only
+- **Orcus**
+  - top rows: S Jupiter → J Orcus RA 166.6277 166.667 ninth (96.66) — only
+  - top rows: S Moon → J Orcus RA 77.6638 48×φ golden (88.83) — only
+- **Mercury**
+  - top rows: S Moon → J Mercury RA 111.6438 69×φ golden (96.85) — also: 4 Beating All / Ben Curtis
+- **Venus**
+  - top rows: S Moon → J Venus RA 153.7050 95×φ golden (55.82) — also: 6 Tricolore / Dylan Hogan
+- **Quaoar**
+  - star rows: J Ras Algethi → J Quaoar RA 11.0180 11 whole (0.97) — also: 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris, 6 Tricolore / Dylan Hogan
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+  - star rows: J Rigel → J Quaoar RA 169.0007 169 whole (92.70) — only
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+
+## 2 Athmad / Jason Hart
+### L1 same bodies
+- S Uranus → H Uranus RA 26.1117 10×φ^2 phi power (loose)
+- S Neptune → H Neptune RA 13.3000 13.3333 ninth (loose)
+- S Pluto → H Pluto RA 9.9931 10 whole (42.82)
+- S Ceres → H Ceres Dec 31.9733 32 whole (loose)
+- S Pallas → H Pallas Dec 3.9888 4 whole (19.15)
+- S Vesta → H Vesta RA 169.9047 105×φ golden (loose)
+- S Rahu → H Rahu RA 105.9702 106 whole (loose)
+- S Eris → H Eris RA 1.7689 1.77778 ninth (loose)
+- S Makemake → H Makemake RA 2.4064 2.414 silver (loose)
+- S Makemake → H Makemake Dec 2.4133 2.414 silver (loose)
+- S Quaoar → H Quaoar RA 5.5499 5.55556 ninth (loose)
+- S Gonggong → H Gonggong Dec 1.5563 1.55556 ninth (loose)
+- S Ketu → H Ketu RA 105.9702 106 whole (loose)
+- S Venus → J Venus Dec 29.0747 φ^7 phi power (loose)
+- S Pluto → J Pluto Dec 16.5802 16.6667 ninth (loose)
+### L2 what lands on each same body
+- **H Uranus** (same body: S Uranus → H Uranus RA 26.1117 10×φ^2 phi power (loose))
+  - star rows: H Algorab → H Uranus RA 171.5435 106×φ golden (0.02)
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+- **H Neptune** (same body: S Neptune → H Neptune RA 13.3000 13.3333 ninth (loose))
+  - other chart, star rows: J Aculeus → J Neptune Dec 10.9860 11 whole (8.93)
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+- **H Pluto** (same body: S Pluto → H Pluto RA 9.9931 10 whole (42.82))
+  - other chart, same body: S Pluto → J Pluto Dec 16.5802 16.6667 ninth (loose)
+  - other chart, star rows: J Altair → J Pluto Dec 15.0084 15 whole (33.77)
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+- **H Ceres** (same body: S Ceres → H Ceres Dec 31.9733 32 whole (loose))
+  - other chart, star rows: J Algorab → J Ceres RA 61.9985 62 whole (85.74)
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - other chart, star rows: J Sadalmelik → J Ceres RA 154.0123 154 whole (15.01)
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+- **H Pallas** (same body: S Pallas → H Pallas Dec 3.9888 4 whole (19.15))
+  - star rows: H Algorab → H Pallas RA 114.0072 114 whole (40.85)
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - star rows: H Rigel → H Pallas Dec 11.0005 11 whole (94.85)
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+  - other chart, top rows: S Moon → J Pallas RA 0.2075 conj (74.25)
+  - other chart, star rows: J Aculeus → J Pallas RA 155.3367 96×φ golden (68.99)
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+- **H Vesta** (same body: S Vesta → H Vesta RA 169.9047 105×φ golden (loose))
+  - other chart, top rows: S Moon → J Vesta Dec 0.1341 conj (30.60)
+  - other chart, star rows: J Altair → J Vesta RA 158.5740 98×φ golden (63.08)
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+- **H Rahu** (same body: S Rahu → H Rahu RA 105.9702 106 whole (loose))
+  - T1: H Jupiter → H Rahu RA 0.2100 conj (73.96)
+  - star rows: H Sadalmelik → H Rahu RA 158.5937 98×φ golden (3.37)
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+  - other chart, star rows: J Algorab → J Rahu Dec 0.0113 conj (92.59)
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+- **H Eris** (same body: S Eris → H Eris RA 1.7689 1.77778 ninth (loose))
+  - star rows: H Aculeus → H Eris RA 120.0077 120 whole (37.82)
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - other chart, star rows: J Diadem → J Eris Dec 25.8808 16×φ golden (57.78)
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - other chart, star rows: J Menkent → J Eris Dec 28.0197 28 whole (0.03)
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+  - other chart, star rows: J Rigel → J Eris Dec 0.1504 conj (24.88)
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+- **H Makemake** (same body: S Makemake → H Makemake RA 2.4064 2.414 silver (loose); S Makemake → H Makemake Dec 2.4133 2.414 silver (loose))
+  - star rows: H Algorab → H Makemake RA 6.9930 7 whole (42.03)
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+- **H Quaoar** (same body: S Quaoar → H Quaoar RA 5.5499 5.55556 ninth (loose))
+  - sky line to Quaoar: S Sun → Quaoar RA 141.4548 141.4 sqrt2 (90.76)
+  - other chart, star rows: J Menkent → J Quaoar RA 27.0077 27 whole (37.73)
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+  - other chart, star rows: J Ras Algethi → J Quaoar RA 19.9869 20 whole (11.76)
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+- **H Gonggong** (same body: S Gonggong → H Gonggong Dec 1.5563 1.55556 ninth (loose))
+  - top rows: S Jupiter → H Gonggong Dec 0.0512 conj (68.77)
+  - other chart, top rows: S Jupiter → J Gonggong RA 1.4607 conj (0.07)
+  - other chart, star rows: J Rigel → J Gonggong RA 108.4342 67×φ golden (3.91)
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+  - other chart, star rows: J Sadalmelik → J Gonggong RA 1.2485 conj (2.81)
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+- **H Ketu** (same body: S Ketu → H Ketu RA 105.9702 106 whole (loose))
+  - star rows: H Diadem → H Ketu RA 155.3498 96×φ golden (18.37)
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - other chart, star rows: J Diadem → J Ketu Dec 1.0073 1 whole (40.52)
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+- **J Venus** (same body: S Venus → J Venus Dec 29.0747 φ^7 phi power (loose))
+  - star rows: J Diadem → J Venus RA 21.9940 22 whole (48.95)
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - star rows: J Diadem → J Venus Dec 38.9977 39 whole (78.11)
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+- **J Pluto** (same body: S Pluto → J Pluto Dec 16.5802 16.6667 ninth (loose))
+  - star rows: J Altair → J Pluto Dec 15.0084 15 whole (33.77)
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+  - other chart, same body: S Pluto → H Pluto RA 9.9931 10 whole (42.82)
+### L3 matches
+- **1. same body on both charts**
+  - Pluto — also: 6 Tricolore / Dylan Hogan
+    - S Pluto → H Pluto RA 9.9931 10 whole (42.82)
+    - S Pluto → J Pluto Dec 16.5802 16.6667 ninth (loose)
+- **2. one body in both planes**
+  - H Makemake — only
+    - S Makemake → H Makemake RA 2.4064 2.414 silver (loose)
+    - S Makemake → H Makemake Dec 2.4133 2.414 silver (loose)
+- **3. runner number = sky number**
+  - 120 whole — only
+    - H Aculeus → H Eris RA 120.0077 120 whole (37.82) = S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+  - 18 whole — also: 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson
+    - J Aculeus → J Mercury Dec 18.0195 18 whole (0.06) = S Moon → Rigel RA 18.0045 18 whole (60.09)
+- **4. circle divisions**
+  - 10 = 360/36 — also: 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+    - S Pluto → H Pluto RA 9.9931 10 whole (42.82)
+  - 4 = 360/90 — also: 1 Dubai Souq / Sean Kirrane, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson
+    - S Pallas → H Pallas Dec 3.9888 4 whole (19.15)
+  - 8 = 360/45 — also: 1 Dubai Souq / Sean Kirrane, 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis
+    - S Jupiter → H Saturn Dec 8.0020 8 whole (80.83)
+  - 120 = 360/3 — only
+    - H Aculeus → H Eris RA 120.0077 120 whole (37.82)
+  - 20 = 360/18 — also: 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+    - H Menkent → H Sun Dec 19.9952 20 whole (57.92)
+  - 15 = 360/24 — also: 1 Dubai Souq / Sean Kirrane, 4 Beating All / Ben Curtis
+    - H Ras Algethi → H Chiron Dec 15.0034 15 whole (68.53)
+  - 18 = 360/20 — also: 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson
+    - J Aculeus → J Mercury Dec 18.0195 18 whole (0.06)
+  - 4 = 360/90 — also: 1 Dubai Souq / Sean Kirrane, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson
+    - J Algorab → J Haumea RA 4.0171 4 whole (2.10)
+  - 15 = 360/24 — also: 1 Dubai Souq / Sean Kirrane, 4 Beating All / Ben Curtis
+    - J Altair → J Pluto Dec 15.0084 15 whole (33.77)
+  - 6 = 360/60 — also: 3 Raise The Roof / Luke Morris, 6 Tricolore / Dylan Hogan
+    - J Diadem → J Haumea RA 6.0143 6 whole (8.19)
+  - 1 = 360/360 — also: 3 Raise The Roof / Luke Morris, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+    - J Diadem → J Ketu Dec 1.0073 1 whole (40.52)
+  - 20 = 360/18 — also: 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+    - J Ras Algethi → J Quaoar RA 19.9869 20 whole (11.76)
+  - 30 = 360/12 — also: 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis, 6 Tricolore / Dylan Hogan
+    - J Rigel → J Mars Dec 30.0085 30 whole (33.29)
+- **5. same number in more than one place**
+  - 4 whole — also: 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson
+    - S Pallas → H Pallas Dec 3.9888 4 whole (19.15)
+    - J Algorab → J Haumea RA 4.0171 4 whole (2.10)
+  - 106 whole — only
+    - S Rahu → H Rahu RA 105.9702 106 whole (loose)
+    - S Ketu → H Ketu RA 105.9702 106 whole (loose)
+  - 13×φ golden — only
+    - H Jupiter → H star Algorab Dec 21.0319 13×φ golden (84.86)
+    - H Algorab → H Jupiter Dec 21.0319 13×φ golden (84.86)
+  - 96×φ golden — only
+    - H Diadem → H Ketu RA 155.3498 96×φ golden (18.37)
+    - J Aculeus → J Pallas RA 155.3367 96×φ golden (68.99)
+  - 20 whole — also: 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson
+    - H Menkent → H Sun Dec 19.9952 20 whole (57.92)
+    - J Ras Algethi → J Quaoar RA 19.9869 20 whole (11.76)
+  - 7×φ golden — also: 4 Beating All / Ben Curtis
+    - H Menkent → H Juno RA 11.3218 7×φ golden (74.41)
+    - S Neptune → J Jupiter Dec 11.3247 7×φ golden (90.92)
+  - 27 whole — only
+    - H Menkent → H Orcus Dec 26.9969 27 whole (71.74)
+    - J Menkent → J Quaoar RA 27.0077 27 whole (37.73)
+  - 15 whole — only
+    - H Ras Algethi → H Chiron Dec 15.0034 15 whole (68.53)
+    - J Altair → J Pluto Dec 15.0084 15 whole (33.77)
+  - 11 whole — also: 1 Dubai Souq / Sean Kirrane, 3 Raise The Roof / Luke Morris
+    - H Rigel → H Pallas Dec 11.0005 11 whole (94.85)
+    - J Aculeus → J Neptune Dec 10.9860 11 whole (8.93)
+  - 98×φ golden — only
+    - H Sadalmelik → H Rahu RA 158.5937 98×φ golden (3.37)
+    - J Altair → J Vesta RA 158.5740 98×φ golden (63.08)
+  - 13 and 13×φ on H Jupiter — only
+    - H Diadem → H Jupiter Dec 13.0115 13 whole (18.21)
+    - H Algorab → H Jupiter Dec 21.0319 13×φ golden (84.86)
+### L4 every natal body
+- **Uranus**
+  - same body: S Uranus → H Uranus RA 26.1117 10×φ^2 phi power (loose) — also: 1 Dubai Souq / Sean Kirrane, 5 Pallas Dancer / Ben Robinson
+  - star rows: H Algorab → H Uranus RA 171.5435 106×φ golden (0.02) — also: 1 Dubai Souq / Sean Kirrane, 6 Tricolore / Dylan Hogan
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+- **Neptune**
+  - same body: S Neptune → H Neptune RA 13.3000 13.3333 ninth (loose) — also: 1 Dubai Souq / Sean Kirrane, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+  - star rows: J Aculeus → J Neptune Dec 10.9860 11 whole (8.93) — also: 1 Dubai Souq / Sean Kirrane, 6 Tricolore / Dylan Hogan
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+- **Pluto**
+  - same body: S Pluto → H Pluto RA 9.9931 10 whole (42.82) — also: 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+  - same body: S Pluto → J Pluto Dec 16.5802 16.6667 ninth (loose) — also: 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+  - star rows: J Altair → J Pluto Dec 15.0084 15 whole (33.77) — also: 1 Dubai Souq / Sean Kirrane
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+- **Ceres**
+  - same body: S Ceres → H Ceres Dec 31.9733 32 whole (loose) — also: 1 Dubai Souq / Sean Kirrane, 4 Beating All / Ben Curtis, 6 Tricolore / Dylan Hogan
+  - star rows: J Algorab → J Ceres RA 61.9985 62 whole (85.74) — only
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - star rows: J Sadalmelik → J Ceres RA 154.0123 154 whole (15.01) — also: 5 Pallas Dancer / Ben Robinson
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+- **Pallas**
+  - same body: S Pallas → H Pallas Dec 3.9888 4 whole (19.15) — only
+  - star rows: H Algorab → H Pallas RA 114.0072 114 whole (40.85) — only
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - star rows: H Rigel → H Pallas Dec 11.0005 11 whole (94.85) — only
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+  - top rows: S Moon → J Pallas RA 0.2075 conj (74.25) — only
+  - star rows: J Aculeus → J Pallas RA 155.3367 96×φ golden (68.99) — only
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+- **Vesta**
+  - same body: S Vesta → H Vesta RA 169.9047 105×φ golden (loose) — also: 5 Pallas Dancer / Ben Robinson
+  - top rows: S Moon → J Vesta Dec 0.1341 conj (30.60) — also: 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+  - star rows: J Altair → J Vesta RA 158.5740 98×φ golden (63.08) — also: 4 Beating All / Ben Curtis
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+- **Rahu**
+  - same body: S Rahu → H Rahu RA 105.9702 106 whole (loose) — also: 1 Dubai Souq / Sean Kirrane, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+  - T1: H Jupiter → H Rahu RA 0.2100 conj (73.96) — only
+  - star rows: H Sadalmelik → H Rahu RA 158.5937 98×φ golden (3.37) — also: 1 Dubai Souq / Sean Kirrane, 6 Tricolore / Dylan Hogan
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+  - star rows: J Algorab → J Rahu Dec 0.0113 conj (92.59) — also: 3 Raise The Roof / Luke Morris, 6 Tricolore / Dylan Hogan
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+- **Eris**
+  - same body: S Eris → H Eris RA 1.7689 1.77778 ninth (loose) — also: 1 Dubai Souq / Sean Kirrane, 5 Pallas Dancer / Ben Robinson
+  - star rows: H Aculeus → H Eris RA 120.0077 120 whole (37.82) — also: 1 Dubai Souq / Sean Kirrane, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - star rows: J Diadem → J Eris Dec 25.8808 16×φ golden (57.78) — also: 6 Tricolore / Dylan Hogan
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - star rows: J Menkent → J Eris Dec 28.0197 28 whole (0.03) — also: 6 Tricolore / Dylan Hogan
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+  - star rows: J Rigel → J Eris Dec 0.1504 conj (24.88) — also: 6 Tricolore / Dylan Hogan
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+- **Makemake**
+  - same body: S Makemake → H Makemake RA 2.4064 2.414 silver (loose) — also: 1 Dubai Souq / Sean Kirrane, 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+  - same body: S Makemake → H Makemake Dec 2.4133 2.414 silver (loose) — also: 1 Dubai Souq / Sean Kirrane, 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+  - star rows: H Algorab → H Makemake RA 6.9930 7 whole (42.03) — also: 6 Tricolore / Dylan Hogan
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+- **Quaoar**
+  - same body: S Quaoar → H Quaoar RA 5.5499 5.55556 ninth (loose) — only
+    - source line: S Sun → Quaoar RA 141.4548 141.4 sqrt2 (90.76)
+  - star rows: J Menkent → J Quaoar RA 27.0077 27 whole (37.73) — also: 3 Raise The Roof / Luke Morris, 5 Pallas Dancer / Ben Robinson
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+  - star rows: J Ras Algethi → J Quaoar RA 19.9869 20 whole (11.76) — also: 1 Dubai Souq / Sean Kirrane, 3 Raise The Roof / Luke Morris, 6 Tricolore / Dylan Hogan
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+- **Gonggong**
+  - same body: S Gonggong → H Gonggong Dec 1.5563 1.55556 ninth (loose) — also: 1 Dubai Souq / Sean Kirrane, 4 Beating All / Ben Curtis, 6 Tricolore / Dylan Hogan
+  - top rows: S Jupiter → H Gonggong Dec 0.0512 conj (68.77) — also: 1 Dubai Souq / Sean Kirrane, 5 Pallas Dancer / Ben Robinson
+  - top rows: S Jupiter → J Gonggong RA 1.4607 conj (0.07) — also: 1 Dubai Souq / Sean Kirrane, 5 Pallas Dancer / Ben Robinson
+  - star rows: J Rigel → J Gonggong RA 108.4342 67×φ golden (3.91) — also: 1 Dubai Souq / Sean Kirrane, 4 Beating All / Ben Curtis
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+  - star rows: J Sadalmelik → J Gonggong RA 1.2485 conj (2.81) — also: 1 Dubai Souq / Sean Kirrane, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+- **Ketu**
+  - same body: S Ketu → H Ketu RA 105.9702 106 whole (loose) — also: 1 Dubai Souq / Sean Kirrane, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+  - star rows: H Diadem → H Ketu RA 155.3498 96×φ golden (18.37) — also: 3 Raise The Roof / Luke Morris, 6 Tricolore / Dylan Hogan
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - star rows: J Diadem → J Ketu Dec 1.0073 1 whole (40.52) — also: 3 Raise The Roof / Luke Morris, 6 Tricolore / Dylan Hogan
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+- **Jupiter**
+  - T1: H Jupiter → H star Algorab Dec 21.0319 13×φ golden (84.86) — also: 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis
+  - top rows: S Neptune → H Jupiter RA 179.4564 10×φ^6 phi power (96.98) — also: 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+  - top rows: S Chiron → H Jupiter Dec 2.6187 φ^2 phi power (94.47) — also: 1 Dubai Souq / Sean Kirrane, 3 Raise The Roof / Luke Morris, 5 Pallas Dancer / Ben Robinson
+  - star rows: H Algorab → H Jupiter Dec 21.0319 13×φ golden (84.86) — also: 1 Dubai Souq / Sean Kirrane, 3 Raise The Roof / Luke Morris
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - star rows: H Diadem → H Jupiter Dec 13.0115 13 whole (18.21) — also: 1 Dubai Souq / Sean Kirrane
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - top rows: S Neptune → J Jupiter Dec 11.3247 7×φ golden (90.92) — also: 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+  - top rows: S Sedna → J Jupiter RA 162.9948 163 whole (55.03) — only
+  - top rows: S Quaoar → J Jupiter Dec 0.0930 conj (47.61) — also: 1 Dubai Souq / Sean Kirrane
+    - source line: S Sun → Quaoar RA 141.4548 141.4 sqrt2 (90.76)
+- **Saturn**
+  - top rows: S Jupiter → H Saturn Dec 8.0020 8 whole (80.83) — only
+  - star rows: J Altair → J Saturn RA 41.9849 42 whole (5.93) — only
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+  - star rows: J Menkent → J Saturn RA 128.0160 128 whole (3.94) — also: 3 Raise The Roof / Luke Morris
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+- **Juno**
+  - star rows: H Aculeus → H Juno Dec 24.1485 24.14 silver (89.67) — also: 1 Dubai Souq / Sean Kirrane, 4 Beating All / Ben Curtis
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - star rows: H Menkent → H Juno RA 11.3218 7×φ golden (74.41) — also: 3 Raise The Roof / Luke Morris
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+  - star rows: H Rigel → H Juno Dec 0.0998 conj (44.53) — also: 1 Dubai Souq / Sean Kirrane, 5 Pallas Dancer / Ben Robinson
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+- **Sun**
+  - star rows: H Algorab → H Sun Dec 0.1412 conj (28.03) — only
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - star rows: H Menkent → H Sun Dec 19.9952 20 whole (57.92) — also: 6 Tricolore / Dylan Hogan
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+- **Sedna**
+  - star rows: H Algorab → H Sedna RA 132.6489 82×φ golden (0.58) — only
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - top rows: S Moon → J Sedna RA 16.0006 16 whole (94.10) — only
+  - star rows: J Menkent → J Sedna Dec 40.9923 41 whole (37.67) — also: 4 Beating All / Ben Curtis
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+  - star rows: J Rigel → J Sedna RA 34.0102 34 whole (24.15) — also: 1 Dubai Souq / Sean Kirrane, 3 Raise The Roof / Luke Morris
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+- **Mars**
+  - star rows: H Menkent → H Mars Dec 21.0073 21 whole (40.62) — also: 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+  - star rows: H Sadalmelik → H Mars RA 107.0118 107 whole (16.67) — also: 6 Tricolore / Dylan Hogan
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+  - star rows: J Rigel → J Mars Dec 30.0085 30 whole (33.29) — also: 5 Pallas Dancer / Ben Robinson
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+- **Haumea**
+  - star rows: H Menkent → H Haumea RA 0.4624 conj (47.85) — also: 1 Dubai Souq / Sean Kirrane, 5 Pallas Dancer / Ben Robinson
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+  - star rows: J Algorab → J Haumea RA 4.0171 4 whole (2.10) — also: 3 Raise The Roof / Luke Morris, 5 Pallas Dancer / Ben Robinson
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - star rows: J Diadem → J Haumea RA 6.0143 6 whole (8.19) — also: 1 Dubai Souq / Sean Kirrane, 3 Raise The Roof / Luke Morris, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - star rows: J Menkent → J Haumea Dec 58.0119 58 whole (16.46) — also: 1 Dubai Souq / Sean Kirrane, 5 Pallas Dancer / Ben Robinson
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+- **Orcus**
+  - star rows: H Menkent → H Orcus Dec 26.9969 27 whole (71.74) — only
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+- **Chiron**
+  - star rows: H Ras Algethi → H Chiron Dec 15.0034 15 whole (68.53) — only
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+  - star rows: H Sadalmelik → H Chiron Dec 0.2941 conj (0.04) — also: 1 Dubai Souq / Sean Kirrane, 6 Tricolore / Dylan Hogan
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+- **Venus**
+  - same body: S Venus → J Venus Dec 29.0747 φ^7 phi power (loose) — also: 3 Raise The Roof / Luke Morris
+  - star rows: J Diadem → J Venus RA 21.9940 22 whole (48.95) — also: 4 Beating All / Ben Curtis, 6 Tricolore / Dylan Hogan
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - star rows: J Diadem → J Venus Dec 38.9977 39 whole (78.11) — also: 4 Beating All / Ben Curtis, 6 Tricolore / Dylan Hogan
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+- **Mercury**
+  - star rows: J Aculeus → J Mercury Dec 18.0195 18 whole (0.06) — also: 6 Tricolore / Dylan Hogan
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+- **Transpluto**
+  - star rows: J Sadalmelik → J Transpluto RA 174.7344 108×φ golden (34.80) — only
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+
+## 3 Raise The Roof / Luke Morris
+### L1 same bodies
+- S Mercury → H Mercury RA 144.0937 144.444 ninth (loose)
+- S Mercury → H Mercury Dec 24.1962 24.14 silver (loose)
+- S Venus → H Venus Dec 12.1801 12.2222 ninth (loose)
+- S Juno → H Juno Dec 1.6590 1.66667 ninth (loose)
+- S Haumea → H Haumea RA 1.0238 1 whole (loose)
+- S Makemake → H Makemake RA 1.0127 1 whole (13.16)
+- S Sun → J Sun RA 72.7981 45×φ golden (loose)
+- S Mercury → J Mercury Dec 22.6624 14×φ golden (loose)
+- S Jupiter → J Jupiter Dec 32.9750 33 whole (loose)
+- S Pluto → J Pluto RA 72.8435 45×φ golden (loose)
+- S Pluto → J Pluto Dec 21.9945 22 whole (52.59)
+- S Chiron → J Chiron Dec 9.7071 6×φ golden (loose)
+- S Juno → J Juno Dec 10.9987 11 whole (87.76)
+- S Sedna → J Sedna RA 17.6850 17.7778 ninth (loose)
+### L2 what lands on each same body
+- **H Mercury** (same body: S Mercury → H Mercury RA 144.0937 144.444 ninth (loose); S Mercury → H Mercury Dec 24.1962 24.14 silver (loose))
+  - top rows: S Sun → H Mercury RA 142.3924 88×φ golden (69.26)
+  - star rows: H Algorab → H Mercury Dec 11.3298 7×φ golden (79.07)
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - star rows: H Rigel → H Mercury Dec 3.0169 3 whole (2.41)
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+  - other chart, same body: S Mercury → J Mercury Dec 22.6624 14×φ golden (loose)
+- **H Venus** (same body: S Venus → H Venus Dec 12.1801 12.2222 ninth (loose))
+  - other chart, star rows: J Algorab → J Venus Dec 21.9827 22 whole (1.86)
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+- **H Juno** (same body: S Juno → H Juno Dec 1.6590 1.66667 ninth (loose))
+  - top rows: S Jupiter → H Juno RA 1.0220 conj (10.16)
+  - star rows: H Altair → H Juno RA 34.9900 35 whole (24.98)
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+  - star rows: H Menkent → H Juno RA 121.0133 121 whole (11.24)
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+  - star rows: H Ras Algethi → H Juno Dec 22.0113 22 whole (18.84)
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+  - star rows: H Sadalmelik → H Juno RA 1.2437 conj (2.92)
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+  - other chart, same body: S Juno → J Juno Dec 10.9987 11 whole (87.76)
+- **H Haumea** (same body: S Haumea → H Haumea RA 1.0238 1 whole (loose))
+  - other chart, star rows: J Algorab → J Haumea RA 0.9722 conj (12.38)
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - other chart, star rows: J Diadem → J Haumea RA 11.0036 11 whole (67.40)
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+- **H Makemake** (same body: S Makemake → H Makemake RA 1.0127 1 whole (13.16))
+  - other chart, star rows: J Sadalmelik → J Makemake RA 163.0073 163 whole (40.11)
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+- **J Sun** (same body: S Sun → J Sun RA 72.7981 45×φ golden (loose))
+  - star rows: J Diadem → J Sun RA 8.0096 8 whole (26.90)
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - other chart, star rows: H Aculeus → H Sun Dec 24.2779 15×φ golden (59.61)
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - other chart, star rows: H Rigel → H Sun Dec 0.2299 conj (5.46)
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+- **J Mercury** (same body: S Mercury → J Mercury Dec 22.6624 14×φ golden (loose))
+  - other chart, same body: S Mercury → H Mercury RA 144.0937 144.444 ninth (loose)
+  - other chart, same body: S Mercury → H Mercury Dec 24.1962 24.14 silver (loose)
+  - other chart, top rows: S Sun → H Mercury RA 142.3924 88×φ golden (69.26)
+  - other chart, star rows: H Algorab → H Mercury Dec 11.3298 7×φ golden (79.07)
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - other chart, star rows: H Rigel → H Mercury Dec 3.0169 3 whole (2.41)
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+- **J Jupiter** (same body: S Jupiter → J Jupiter Dec 32.9750 33 whole (loose))
+  - top rows: S Saturn → J Jupiter RA 110.9225 10×φ^5 phi power (92.65)
+  - top rows: S Chiron → J Jupiter Dec 12.9943 13 whole (51.37)
+  - top rows: S Orcus → J Jupiter RA 92.2274 57×φ golden (96.97)
+  - star rows: J Algorab → J Jupiter RA 124.0180 124 whole (0.97)
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - star rows: J Sadalmelik → J Jupiter RA 91.9950 92 whole (56.09)
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+  - other chart, top rows: S Gonggong → H Jupiter Dec 6.0001 6 whole (99.35)
+  - other chart, star rows: H Sadalmelik → H Jupiter Dec 17.0193 17 whole (0.11)
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+- **J Pluto** (same body: S Pluto → J Pluto RA 72.8435 45×φ golden (loose); S Pluto → J Pluto Dec 21.9945 22 whole (52.59))
+  - star rows: J Rigel → J Pluto RA 145.6551 90×φ golden (0.01)
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+  - other chart, star rows: H Algorab → H Pluto Dec 5.0150 5 whole (6.28)
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+- **J Chiron** (same body: S Chiron → J Chiron Dec 9.7071 6×φ golden (loose))
+- **J Juno** (same body: S Juno → J Juno Dec 10.9987 11 whole (87.76))
+  - other chart, same body: S Juno → H Juno Dec 1.6590 1.66667 ninth (loose)
+  - other chart, top rows: S Jupiter → H Juno RA 1.0220 conj (10.16)
+  - other chart, star rows: H Altair → H Juno RA 34.9900 35 whole (24.98)
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+  - other chart, star rows: H Menkent → H Juno RA 121.0133 121 whole (11.24)
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+  - other chart, star rows: H Ras Algethi → H Juno Dec 22.0113 22 whole (18.84)
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+  - other chart, star rows: H Sadalmelik → H Juno RA 1.2437 conj (2.92)
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+- **J Sedna** (same body: S Sedna → J Sedna RA 17.6850 17.7778 ninth (loose))
+  - star rows: J Rigel → J Sedna Dec 11.9985 12 whole (85.13)
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+### L3 matches
+- **1. same body on both charts**
+  - Mercury — only
+    - S Mercury → H Mercury RA 144.0937 144.444 ninth (loose)
+    - S Mercury → H Mercury Dec 24.1962 24.14 silver (loose)
+    - S Mercury → J Mercury Dec 22.6624 14×φ golden (loose)
+  - Juno — also: 6 Tricolore / Dylan Hogan
+    - S Juno → H Juno Dec 1.6590 1.66667 ninth (loose)
+    - S Juno → J Juno Dec 10.9987 11 whole (87.76)
+- **2. one body in both planes**
+  - H Mercury — only
+    - S Mercury → H Mercury RA 144.0937 144.444 ninth (loose)
+    - S Mercury → H Mercury Dec 24.1962 24.14 silver (loose)
+  - J Pluto — only
+    - S Pluto → J Pluto RA 72.8435 45×φ golden (loose)
+    - S Pluto → J Pluto Dec 21.9945 22 whole (52.59)
+- **3. runner number = sky number**
+  - 155.556 ninth — also: 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+    - J Jupiter → J Uranus RA 155.5726 155.556 ninth (98.38) = S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+- **4. circle divisions**
+  - 1 = 360/360 — also: 2 Athmad / Jason Hart, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+    - S Haumea → H Haumea RA 1.0238 1 whole (loose)
+  - 1 = 360/360 — also: 2 Athmad / Jason Hart, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+    - S Makemake → H Makemake RA 1.0127 1 whole (13.16)
+  - 60 = 360/6 — only
+    - S Jupiter → H Quaoar RA 59.9994 60 whole (94.40)
+  - 20 = 360/18 — also: 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+    - S Sun → H Eris Dec 20.0007 20 whole (93.58)
+  - 6 = 360/60 — also: 2 Athmad / Jason Hart, 6 Tricolore / Dylan Hogan
+    - S Gonggong → H Jupiter Dec 6.0001 6 whole (99.35)
+  - 20 = 360/18 — also: 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+    - H Aculeus → H Gonggong Dec 19.9877 20 whole (14.71)
+  - 5 = 360/72 — also: 1 Dubai Souq / Sean Kirrane, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson
+    - H Algorab → H Pluto Dec 5.0150 5 whole (6.28)
+  - 60 = 360/6 — only
+    - H Menkent → H Quaoar RA 59.9919 60 whole (35.25)
+  - 30 = 360/12 — also: 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis, 6 Tricolore / Dylan Hogan
+    - H Ras Algethi → H Quaoar Dec 29.9812 30 whole (0.36)
+  - 3 = 360/120 — also: 1 Dubai Souq / Sean Kirrane, 5 Pallas Dancer / Ben Robinson
+    - H Rigel → H Mercury Dec 3.0169 3 whole (2.41)
+  - 9 = 360/40 — also: 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+    - H Rigel → H Vesta Dec 9.0117 9 whole (17.40)
+  - 2 = 360/180 — also: 4 Beating All / Ben Curtis, 6 Tricolore / Dylan Hogan
+    - H Rigel → H Orcus Dec 1.9908 2 whole (28.96)
+  - 2 = 360/180 — also: 4 Beating All / Ben Curtis, 6 Tricolore / Dylan Hogan
+    - H Sadalmelik → H Eris Dec 2.0106 2 whole (22.04)
+  - 10 = 360/36 — also: 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+    - J Algorab → J Rahu Dec 9.9889 10 whole (19.77)
+  - 8 = 360/45 — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis
+    - J Diadem → J Sun RA 8.0096 8 whole (26.90)
+  - 12 = 360/30 — also: 6 Tricolore / Dylan Hogan
+    - J Rigel → J Sedna Dec 11.9985 12 whole (85.13)
+- **5. same number in more than one place**
+  - 1 whole — also: 6 Tricolore / Dylan Hogan
+    - S Haumea → H Haumea RA 1.0238 1 whole (loose)
+    - S Makemake → H Makemake RA 1.0127 1 whole (13.16)
+  - 60 whole — only
+    - S Jupiter → H Quaoar RA 59.9994 60 whole (94.40)
+    - H Menkent → H Quaoar RA 59.9919 60 whole (35.25)
+  - 20 whole — also: 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson
+    - S Sun → H Eris Dec 20.0007 20 whole (93.58)
+    - H Aculeus → H Gonggong Dec 19.9877 20 whole (14.71)
+  - 14 whole — also: 1 Dubai Souq / Sean Kirrane
+    - H Menkent → H Saturn Dec 13.9959 14 whole (62.87)
+    - J Algorab → J Mars Dec 13.9878 14 whole (15.25)
+  - 22 whole — also: 1 Dubai Souq / Sean Kirrane, 6 Tricolore / Dylan Hogan
+    - H Menkent → H Pallas Dec 22.0025 22 whole (76.64)
+    - H Ras Algethi → H Juno Dec 22.0113 22 whole (18.84)
+    - S Pluto → J Pluto Dec 21.9945 22 whole (52.59)
+    - J Algorab → J Venus Dec 21.9827 22 whole (1.86)
+    - J Altair → J Quaoar Dec 21.9990 22 whole (90.01)
+  - 47 whole — only
+    - H Menkent → H Vesta RA 47.0000 47 whole (99.59)
+    - J Altair → J Rahu RA 47.0138 47 whole (9.59)
+  - 13 whole — also: 1 Dubai Souq / Sean Kirrane, 5 Pallas Dancer / Ben Robinson
+    - H Ras Algethi → H Quaoar RA 13.0023 13 whole (78.66)
+    - S Chiron → J Jupiter Dec 12.9943 13 whole (51.37)
+  - 2 whole — only
+    - H Rigel → H Orcus Dec 1.9908 2 whole (28.96)
+    - H Sadalmelik → H Eris Dec 2.0106 2 whole (22.04)
+  - 7 whole — only
+    - H Sadalmelik → H Neptune Dec 6.9902 7 whole (25.84)
+    - J Altair → J Pallas Dec 6.9853 7 whole (6.91)
+  - 45×φ golden — only
+    - S Sun → J Sun RA 72.7981 45×φ golden (loose)
+    - S Pluto → J Pluto RA 72.8435 45×φ golden (loose)
+  - 14×φ golden — only
+    - S Mercury → J Mercury Dec 22.6624 14×φ golden (loose)
+    - J Jupiter → J Mars Dec 22.6533 14×φ golden (94.77)
+  - 11 whole — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart
+    - S Juno → J Juno Dec 10.9987 11 whole (87.76)
+    - J Diadem → J Haumea RA 11.0036 11 whole (67.40)
+    - J Diadem → J Ketu Dec 11.0070 11 whole (42.45)
+  - 104×φ golden — only
+    - J Jupiter → J Quaoar RA 168.2779 104×φ golden (86.08)
+    - J Altair → J Orcus RA 168.2568 104×φ golden (17.77)
+  - 92 whole — only
+    - J Jupiter → J star Sadalmelik RA 91.9950 92 whole (56.09)
+    - J Sadalmelik → J Jupiter RA 91.9950 92 whole (56.09)
+  - 14 and 14×φ on J Mars — only
+    - J Algorab → J Mars Dec 13.9878 14 whole (15.25)
+    - J Jupiter → J Mars Dec 22.6533 14×φ golden (94.77)
+### L4 every natal body
+- **Mercury**
+  - same body: S Mercury → H Mercury RA 144.0937 144.444 ninth (loose) — also: 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+  - same body: S Mercury → H Mercury Dec 24.1962 24.14 silver (loose) — also: 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+  - top rows: S Sun → H Mercury RA 142.3924 88×φ golden (69.26) — only
+  - star rows: H Algorab → H Mercury Dec 11.3298 7×φ golden (79.07) — only
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - star rows: H Rigel → H Mercury Dec 3.0169 3 whole (2.41) — only
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+  - same body: S Mercury → J Mercury Dec 22.6624 14×φ golden (loose) — also: 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+- **Venus**
+  - same body: S Venus → H Venus Dec 12.1801 12.2222 ninth (loose) — also: 2 Athmad / Jason Hart
+  - star rows: J Algorab → J Venus Dec 21.9827 22 whole (1.86) — only
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+- **Juno**
+  - same body: S Juno → H Juno Dec 1.6590 1.66667 ninth (loose) — also: 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+  - top rows: S Jupiter → H Juno RA 1.0220 conj (10.16) — only
+  - star rows: H Altair → H Juno RA 34.9900 35 whole (24.98) — also: 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+  - star rows: H Menkent → H Juno RA 121.0133 121 whole (11.24) — also: 2 Athmad / Jason Hart
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+  - star rows: H Ras Algethi → H Juno Dec 22.0113 22 whole (18.84) — only
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+  - star rows: H Sadalmelik → H Juno RA 1.2437 conj (2.92) — only
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+  - same body: S Juno → J Juno Dec 10.9987 11 whole (87.76) — also: 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+- **Haumea**
+  - same body: S Haumea → H Haumea RA 1.0238 1 whole (loose) — also: 1 Dubai Souq / Sean Kirrane, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+  - star rows: J Algorab → J Haumea RA 0.9722 conj (12.38) — also: 2 Athmad / Jason Hart, 5 Pallas Dancer / Ben Robinson
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - star rows: J Diadem → J Haumea RA 11.0036 11 whole (67.40) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+- **Makemake**
+  - same body: S Makemake → H Makemake RA 1.0127 1 whole (13.16) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+  - star rows: J Sadalmelik → J Makemake RA 163.0073 163 whole (40.11) — only
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+- **Quaoar**
+  - top rows: S Jupiter → H Quaoar RA 59.9994 60 whole (94.40) — also: 4 Beating All / Ben Curtis
+  - star rows: H Menkent → H Quaoar RA 59.9919 60 whole (35.25) — also: 2 Athmad / Jason Hart, 5 Pallas Dancer / Ben Robinson
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+  - star rows: H Ras Algethi → H Quaoar RA 13.0023 13 whole (78.66) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 6 Tricolore / Dylan Hogan
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+  - star rows: H Ras Algethi → H Quaoar Dec 29.9812 30 whole (0.36) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 6 Tricolore / Dylan Hogan
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+  - T2: J Jupiter → J Quaoar RA 168.2779 104×φ golden (86.08) — only
+  - top rows: S Jupiter → J Quaoar Dec 0.2827 conj (0.33) — also: 4 Beating All / Ben Curtis
+  - star rows: J Altair → J Quaoar Dec 21.9990 22 whole (90.01) — also: 4 Beating All / Ben Curtis
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+- **Ceres**
+  - top rows: S Sun → H Ceres RA 0.6751 conj (30.24) — only
+  - star rows: H Rigel → H Ceres RA 53.3939 33×φ golden (92.35) — only
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+- **Eris**
+  - top rows: S Sun → H Eris Dec 20.0007 20 whole (93.58) — only
+  - star rows: H Algorab → H Eris RA 162.0148 162 whole (6.89) — also: 5 Pallas Dancer / Ben Robinson
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - star rows: H Sadalmelik → H Eris RA 54.0142 54 whole (8.55) — only
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+  - star rows: H Sadalmelik → H Eris Dec 2.0106 2 whole (22.04) — only
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+- **Mars**
+  - top rows: S Moon → H Mars RA 161.8009 100×φ^1 phi power (99.39) — only
+  - star rows: H Ras Algethi → H Mars RA 0.1647 conj (79.24) — also: 5 Pallas Dancer / Ben Robinson
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+  - T2: J Jupiter → J Mars Dec 22.6533 14×φ golden (94.77) — also: 4 Beating All / Ben Curtis
+  - star rows: J Algorab → J Mars Dec 13.9878 14 whole (15.25) — also: 6 Tricolore / Dylan Hogan
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+- **Jupiter**
+  - top rows: S Gonggong → H Jupiter Dec 6.0001 6 whole (99.35) — also: 6 Tricolore / Dylan Hogan
+  - star rows: H Sadalmelik → H Jupiter Dec 17.0193 17 whole (0.11) — also: 4 Beating All / Ben Curtis
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+  - same body: S Jupiter → J Jupiter Dec 32.9750 33 whole (loose) — also: 5 Pallas Dancer / Ben Robinson
+  - T2: J Jupiter → J star Sadalmelik RA 91.9950 92 whole (56.09) — also: 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis
+  - top rows: S Saturn → J Jupiter RA 110.9225 10×φ^5 phi power (92.65) — also: 5 Pallas Dancer / Ben Robinson
+  - top rows: S Chiron → J Jupiter Dec 12.9943 13 whole (51.37) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 5 Pallas Dancer / Ben Robinson
+  - top rows: S Orcus → J Jupiter RA 92.2274 57×φ golden (96.97) — only
+  - star rows: J Algorab → J Jupiter RA 124.0180 124 whole (0.97) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - star rows: J Sadalmelik → J Jupiter RA 91.9950 92 whole (56.09) — also: 4 Beating All / Ben Curtis
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+- **Sun**
+  - star rows: H Aculeus → H Sun Dec 24.2779 15×φ golden (59.61) — also: 4 Beating All / Ben Curtis
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - star rows: H Rigel → H Sun Dec 0.2299 conj (5.46) — also: 1 Dubai Souq / Sean Kirrane, 4 Beating All / Ben Curtis
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+  - same body: S Sun → J Sun RA 72.7981 45×φ golden (loose) — also: 6 Tricolore / Dylan Hogan
+  - star rows: J Diadem → J Sun RA 8.0096 8 whole (26.90) — also: 4 Beating All / Ben Curtis
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+- **Rahu**
+  - star rows: H Aculeus → H Rahu RA 127.9990 128 whole (90.31) — also: 1 Dubai Souq / Sean Kirrane, 4 Beating All / Ben Curtis
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - top rows: S Sun → J Rahu RA 147.9969 148 whole (71.38) — also: 6 Tricolore / Dylan Hogan
+  - star rows: J Algorab → J Rahu Dec 9.9889 10 whole (19.77) — also: 2 Athmad / Jason Hart, 6 Tricolore / Dylan Hogan
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - star rows: J Altair → J Rahu RA 47.0138 47 whole (9.59) — only
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+  - star rows: J Diadem → J Rahu RA 147.2146 91×φ golden (3.29) — only
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+- **Orcus**
+  - star rows: H Aculeus → H Orcus RA 112.0140 112 whole (9.00) — also: 4 Beating All / Ben Curtis, 6 Tricolore / Dylan Hogan
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - star rows: H Rigel → H Orcus Dec 1.9908 2 whole (28.96) — also: 5 Pallas Dancer / Ben Robinson
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+  - star rows: J Altair → J Orcus RA 168.2568 104×φ golden (17.77) — only
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+  - star rows: J Sadalmelik → J Orcus RA 157.9884 158 whole (17.46) — also: 5 Pallas Dancer / Ben Robinson
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+- **Gonggong**
+  - star rows: H Aculeus → H Gonggong Dec 19.9877 20 whole (14.71) — also: 5 Pallas Dancer / Ben Robinson
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+- **Transpluto**
+  - star rows: H Aculeus → H Transpluto RA 111.6717 69×φ golden (2.42) — only
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - star rows: J Ras Algethi → J Transpluto Dec 0.1930 conj (12.72) — also: 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+- **Ketu**
+  - star rows: H Aculeus → H Ketu RA 52.0010 52 whole (90.31) — also: 1 Dubai Souq / Sean Kirrane, 5 Pallas Dancer / Ben Robinson
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - star rows: H Algorab → H Ketu Dec 0.0710 conj (58.25) — also: 4 Beating All / Ben Curtis, 6 Tricolore / Dylan Hogan
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - star rows: H Diadem → H Ketu Dec 33.9735 21×φ golden (70.31) — also: 2 Athmad / Jason Hart, 6 Tricolore / Dylan Hogan
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - top rows: S Sun → J Ketu RA 32.0031 32 whole (71.38) — also: 1 Dubai Souq / Sean Kirrane
+  - star rows: J Altair → J Ketu RA 132.9862 133 whole (9.59) — also: 4 Beating All / Ben Curtis
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+  - star rows: J Diadem → J Ketu Dec 11.0070 11 whole (42.45) — also: 2 Athmad / Jason Hart, 6 Tricolore / Dylan Hogan
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+- **Pluto**
+  - star rows: H Algorab → H Pluto Dec 5.0150 5 whole (6.28) — also: 4 Beating All / Ben Curtis
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - same body: S Pluto → J Pluto RA 72.8435 45×φ golden (loose) — also: 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+  - same body: S Pluto → J Pluto Dec 21.9945 22 whole (52.59) — also: 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+  - star rows: J Rigel → J Pluto RA 145.6551 90×φ golden (0.01) — only
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+- **Saturn**
+  - star rows: H Menkent → H Saturn Dec 13.9959 14 whole (62.87) — also: 2 Athmad / Jason Hart
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+  - star rows: J Ras Algethi → J Saturn Dec 36.9817 37 whole (0.75) — also: 4 Beating All / Ben Curtis, 6 Tricolore / Dylan Hogan
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+- **Pallas**
+  - star rows: H Menkent → H Pallas Dec 22.0025 22 whole (76.64) — also: 4 Beating All / Ben Curtis
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+  - star rows: J Altair → J Pallas Dec 6.9853 7 whole (6.91) — only
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+- **Vesta**
+  - star rows: H Menkent → H Vesta RA 47.0000 47 whole (99.59) — also: 4 Beating All / Ben Curtis
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+  - star rows: H Ras Algethi → H Vesta RA 0.0104 conj (98.61) — only
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+  - star rows: H Rigel → H Vesta Dec 9.0117 9 whole (17.40) — also: 1 Dubai Souq / Sean Kirrane
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+- **Neptune**
+  - star rows: H Sadalmelik → H Neptune Dec 6.9902 7 whole (25.84) — only
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+  - star rows: J Diadem → J Neptune RA 80.9935 81 whole (45.30) — also: 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+- **Chiron**
+  - same body: S Chiron → J Chiron Dec 9.7071 6×φ golden (loose) — also: 5 Pallas Dancer / Ben Robinson
+- **Sedna**
+  - same body: S Sedna → J Sedna RA 17.6850 17.7778 ninth (loose) — also: 1 Dubai Souq / Sean Kirrane, 5 Pallas Dancer / Ben Robinson
+  - star rows: J Rigel → J Sedna Dec 11.9985 12 whole (85.13) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+- **Uranus**
+  - T2: J Jupiter → J Uranus RA 155.5726 155.556 ninth (98.38) — only
+
+## 4 Beating All / Ben Curtis
+### L1 same bodies
+- S Pluto → H Pluto RA 4.8464 3×φ golden (loose)
+- S Ceres → H Ceres RA 70.9918 71 whole (35.05)
+- S Ceres → H Ceres Dec 17.9867 18 whole (11.21)
+- S Makemake → H Makemake RA 1.2168 1.22222 ninth (loose)
+- S Mercury → J Mercury RA 18.9854 19 whole (7.40)
+- S Saturn → J Saturn RA 33.3207 33.3333 ninth (loose)
+- S Juno → J Juno Dec 11.3076 7×φ golden (loose)
+- S Rahu → J Rahu RA 98.6804 61×φ golden (loose)
+- S Makemake → J Makemake RA 29.1069 18×φ golden (loose)
+- S Gonggong → J Gonggong Dec 8.9947 9 whole (53.76)
+- S Ketu → J Ketu RA 98.6804 61×φ golden (loose)
+### L2 what lands on each same body
+- **H Pluto** (same body: S Pluto → H Pluto RA 4.8464 3×φ golden (loose))
+  - star rows: H Algorab → H Pluto Dec 4.9881 5 whole (16.58)
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - other chart, star rows: J Ras Algethi → J Pluto Dec 15.0016 15 whole (84.25)
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+  - other chart, star rows: J Sadalmelik → J Pluto Dec 0.2906 conj (0.10)
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+- **H Ceres** (same body: S Ceres → H Ceres RA 70.9918 71 whole (35.05); S Ceres → H Ceres Dec 17.9867 18 whole (11.21))
+  - other chart, top rows: S Jupiter → J Ceres RA 103.9969 104 whole (71.10)
+  - other chart, top rows: S Moon → J Ceres Dec 0.2236 conj (6.49)
+  - other chart, star rows: J Menkent → J Ceres RA 136.0120 136 whole (15.93)
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+  - other chart, star rows: J Ras Algethi → J Ceres RA 176.9941 177 whole (49.43)
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+- **H Makemake** (same body: S Makemake → H Makemake RA 1.2168 1.22222 ninth (loose))
+  - star rows: H Aculeus → H Makemake Dec 56.9859 57 whole (8.79)
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - star rows: H Ras Algethi → H Makemake RA 63.0114 63 whole (18.68)
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+  - star rows: H Rigel → H Makemake RA 117.0168 117 whole (2.62)
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+  - other chart, same body: S Makemake → J Makemake RA 29.1069 18×φ golden (loose)
+  - other chart, star rows: J Diadem → J Makemake Dec 17.9802 18 whole (0.01)
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+- **J Mercury** (same body: S Mercury → J Mercury RA 18.9854 19 whole (7.40))
+  - other chart, top rows: S Moon → H Mercury Dec 12.9402 8×φ golden (76.39)
+  - other chart, star rows: H Diadem → H Mercury Dec 10.9801 11 whole (0.00)
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - other chart, star rows: H Ras Algethi → H Mercury RA 111.6675 69×φ golden (8.15)
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+- **J Saturn** (same body: S Saturn → J Saturn RA 33.3207 33.3333 ninth (loose))
+  - top rows: S Moon → J Saturn RA 141.4259 141.4 sqrt2 (98.71)
+  - star rows: J Ras Algethi → J Saturn Dec 37.0009 37 whole (91.24)
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+  - other chart, star rows: H Sadalmelik → H Saturn Dec 22.0005 22 whole (94.59)
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+- **J Juno** (same body: S Juno → J Juno Dec 11.3076 7×φ golden (loose))
+  - top rows: S Moon → J Juno Dec 14.1450 14.14 sqrt2 (92.15)
+  - other chart, star rows: H Aculeus → H Juno RA 74.0181 74 whole (0.92)
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+- **J Rahu** (same body: S Rahu → J Rahu RA 98.6804 61×φ golden (loose))
+  - top rows: S Jupiter → J Rahu Dec 0.0247 conj (84.24)
+  - star rows: J Aculeus → J Rahu RA 63.1089 39×φ golden (68.65)
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+- **J Makemake** (same body: S Makemake → J Makemake RA 29.1069 18×φ golden (loose))
+  - star rows: J Diadem → J Makemake Dec 17.9802 18 whole (0.01)
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - other chart, same body: S Makemake → H Makemake RA 1.2168 1.22222 ninth (loose)
+  - other chart, star rows: H Aculeus → H Makemake Dec 56.9859 57 whole (8.79)
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - other chart, star rows: H Ras Algethi → H Makemake RA 63.0114 63 whole (18.68)
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+  - other chart, star rows: H Rigel → H Makemake RA 117.0168 117 whole (2.62)
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+- **J Gonggong** (same body: S Gonggong → J Gonggong Dec 8.9947 9 whole (53.76))
+  - top rows: S Sun → J Gonggong Dec 38.0040 38 whole (64.19)
+  - star rows: J Algorab → J Gonggong RA 141.9835 142 whole (3.12)
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - star rows: J Sadalmelik → J Gonggong RA 2.0038 2 whole (65.42)
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+  - star rows: J Sadalmelik → J Gonggong Dec 20.0177 20 whole (1.34)
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+  - other chart, star rows: H Rigel → H Gonggong Dec 3.9950 4 whole (56.04)
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+- **J Ketu** (same body: S Ketu → J Ketu RA 98.6804 61×φ golden (loose))
+  - star rows: J Altair → J Ketu Dec 4.0021 4 whole (80.54)
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+  - other chart, star rows: H Algorab → H Ketu Dec 0.0343 conj (78.44)
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+### L3 matches
+- **1. same body on both charts**
+  - Makemake — only
+    - S Makemake → H Makemake RA 1.2168 1.22222 ninth (loose)
+    - S Makemake → J Makemake RA 29.1069 18×φ golden (loose)
+- **2. one body in both planes**
+  - H Ceres — only
+    - S Ceres → H Ceres RA 70.9918 71 whole (35.05)
+    - S Ceres → H Ceres Dec 17.9867 18 whole (11.21)
+- **3. runner number = sky number**
+  - 18 whole — also: 2 Athmad / Jason Hart, 5 Pallas Dancer / Ben Robinson
+    - S Ceres → H Ceres Dec 17.9867 18 whole (11.21) = S Moon → Rigel RA 18.0045 18 whole (60.09)
+  - 141.4 sqrt2 — only
+    - H Diadem → H Sedna RA 141.4386 141.4 sqrt2 (95.18) = S Sun → Quaoar RA 141.4548 141.4 sqrt2 (90.76)
+  - 141.4 sqrt2 — only
+    - S Moon → J Saturn RA 141.4259 141.4 sqrt2 (98.71) = S Sun → Quaoar RA 141.4548 141.4 sqrt2 (90.76)
+  - 155.556 ninth — also: 3 Raise The Roof / Luke Morris, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+    - S Ketu → J Jupiter RA 155.5158 155.556 ninth (96.23) = S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - 18 whole — also: 2 Athmad / Jason Hart, 5 Pallas Dancer / Ben Robinson
+    - J Diadem → J Makemake Dec 17.9802 18 whole (0.01) = S Moon → Rigel RA 18.0045 18 whole (60.09)
+- **4. circle divisions**
+  - 18 = 360/20 — also: 2 Athmad / Jason Hart, 5 Pallas Dancer / Ben Robinson
+    - S Ceres → H Ceres Dec 17.9867 18 whole (11.21)
+  - 30 = 360/12 — also: 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris, 6 Tricolore / Dylan Hogan
+    - H Aculeus → H Eris Dec 29.9893 30 whole (21.46)
+  - 5 = 360/72 — also: 1 Dubai Souq / Sean Kirrane, 3 Raise The Roof / Luke Morris, 5 Pallas Dancer / Ben Robinson
+    - H Algorab → H Pluto Dec 4.9881 5 whole (16.58)
+  - 20 = 360/18 — also: 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+    - H Diadem → H Sun Dec 19.9884 20 whole (17.79)
+  - 4 = 360/90 — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 5 Pallas Dancer / Ben Robinson
+    - H Rigel → H Gonggong Dec 3.9950 4 whole (56.04)
+  - 10 = 360/36 — also: 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+    - H Sadalmelik → H Uranus Dec 9.9808 10 whole (0.16)
+  - 9 = 360/40 — also: 3 Raise The Roof / Luke Morris, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+    - S Gonggong → J Gonggong Dec 8.9947 9 whole (53.76)
+  - 8 = 360/45 — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris
+    - J Altair → J Sun Dec 7.9911 8 whole (30.67)
+  - 4 = 360/90 — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 5 Pallas Dancer / Ben Robinson
+    - J Altair → J Ketu Dec 4.0021 4 whole (80.54)
+  - 18 = 360/20 — also: 2 Athmad / Jason Hart, 5 Pallas Dancer / Ben Robinson
+    - J Diadem → J Makemake Dec 17.9802 18 whole (0.01)
+  - 15 = 360/24 — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart
+    - J Ras Algethi → J Pluto Dec 15.0016 15 whole (84.25)
+  - 2 = 360/180 — also: 3 Raise The Roof / Luke Morris, 6 Tricolore / Dylan Hogan
+    - J Sadalmelik → J Gonggong RA 2.0038 2 whole (65.42)
+  - 20 = 360/18 — also: 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+    - J Sadalmelik → J Gonggong Dec 20.0177 20 whole (1.34)
+- **5. same number in more than one place**
+  - 18 whole — only
+    - S Ceres → H Ceres Dec 17.9867 18 whole (11.21)
+    - J Diadem → J Makemake Dec 17.9802 18 whole (0.01)
+  - 37 whole — only
+    - H Jupiter → H Mars RA 37.0047 37 whole (58.26)
+    - J Ras Algethi → J Saturn Dec 37.0009 37 whole (91.24)
+  - 17 whole — only
+    - H Jupiter → H star Sadalmelik Dec 17.0018 17 whole (82.41)
+    - H Sadalmelik → H Jupiter Dec 17.0018 17 whole (82.41)
+    - S Jupiter → J Sedna Dec 16.9943 17 whole (51.34)
+  - 57 whole — only
+    - H Aculeus → H Makemake Dec 56.9859 57 whole (8.79)
+    - J Rigel → J Sun RA 57.0186 57 whole (0.50)
+  - 7×φ golden — also: 2 Athmad / Jason Hart
+    - H Altair → H Sun Dec 11.3284 7×φ golden (86.81)
+    - S Juno → J Juno Dec 11.3076 7×φ golden (loose)
+  - 20 whole — also: 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris, 5 Pallas Dancer / Ben Robinson
+    - H Diadem → H Sun Dec 19.9884 20 whole (17.79)
+    - J Sadalmelik → J Gonggong Dec 20.0177 20 whole (1.34)
+  - 141.4 sqrt2 — only
+    - H Diadem → H Sedna RA 141.4386 141.4 sqrt2 (95.18)
+    - S Moon → J Saturn RA 141.4259 141.4 sqrt2 (98.71)
+  - 25 whole — only
+    - H Menkent → H Pallas Dec 24.9820 25 whole (1.02)
+    - H Rigel → H Haumea Dec 25.0044 25 whole (61.10)
+    - J Rigel → J Chiron Dec 25.0036 25 whole (67.41)
+  - 4 whole — also: 2 Athmad / Jason Hart, 5 Pallas Dancer / Ben Robinson
+    - H Rigel → H Gonggong Dec 3.9950 4 whole (56.04)
+    - J Altair → J Ketu Dec 4.0021 4 whole (80.54)
+  - 61×φ golden — only
+    - S Rahu → J Rahu RA 98.6804 61×φ golden (loose)
+    - S Ketu → J Ketu RA 98.6804 61×φ golden (loose)
+  - 39×φ golden — only
+    - S Mars → J Jupiter RA 63.1087 39×φ golden (69.59)
+    - J Aculeus → J Rahu RA 63.1089 39×φ golden (68.65)
+  - 136 whole — also: 5 Pallas Dancer / Ben Robinson
+    - J Aculeus → J Orcus RA 135.9929 136 whole (41.68)
+    - J Menkent → J Ceres RA 136.0120 136 whole (15.93)
+  - 18 and 18×φ on J Makemake — only
+    - J Diadem → J Makemake Dec 17.9802 18 whole (0.01)
+    - S Makemake → J Makemake RA 29.1069 18×φ golden (loose)
+### L4 every natal body
+- **Pluto**
+  - same body: S Pluto → H Pluto RA 4.8464 3×φ golden (loose) — also: 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+  - star rows: H Algorab → H Pluto Dec 4.9881 5 whole (16.58) — also: 3 Raise The Roof / Luke Morris
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - star rows: J Ras Algethi → J Pluto Dec 15.0016 15 whole (84.25) — only
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+  - star rows: J Sadalmelik → J Pluto Dec 0.2906 conj (0.10) — only
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+- **Ceres**
+  - same body: S Ceres → H Ceres RA 70.9918 71 whole (35.05) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 6 Tricolore / Dylan Hogan
+  - same body: S Ceres → H Ceres Dec 17.9867 18 whole (11.21) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 6 Tricolore / Dylan Hogan
+  - top rows: S Jupiter → J Ceres RA 103.9969 104 whole (71.10) — only
+  - top rows: S Moon → J Ceres Dec 0.2236 conj (6.49) — only
+  - star rows: J Menkent → J Ceres RA 136.0120 136 whole (15.93) — also: 1 Dubai Souq / Sean Kirrane
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+  - star rows: J Ras Algethi → J Ceres RA 176.9941 177 whole (49.43) — only
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+- **Makemake**
+  - same body: S Makemake → H Makemake RA 1.2168 1.22222 ninth (loose) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+  - star rows: H Aculeus → H Makemake Dec 56.9859 57 whole (8.79) — also: 5 Pallas Dancer / Ben Robinson
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - star rows: H Ras Algethi → H Makemake RA 63.0114 63 whole (18.68) — also: 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+  - star rows: H Rigel → H Makemake RA 117.0168 117 whole (2.62) — only
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+  - same body: S Makemake → J Makemake RA 29.1069 18×φ golden (loose) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+  - star rows: J Diadem → J Makemake Dec 17.9802 18 whole (0.01) — also: 6 Tricolore / Dylan Hogan
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+- **Mars**
+  - T1: H Jupiter → H Mars RA 37.0047 37 whole (58.26) — also: 3 Raise The Roof / Luke Morris
+  - star rows: H Menkent → H Mars Dec 12.9903 13 whole (26.38) — also: 2 Athmad / Jason Hart, 5 Pallas Dancer / Ben Robinson
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+- **Jupiter**
+  - T1: H Jupiter → H star Sadalmelik Dec 17.0018 17 whole (82.41) — also: 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris
+  - top rows: S Pallas → H Jupiter RA 122.2499 122.222 ninth (96.17) — also: 6 Tricolore / Dylan Hogan
+  - top rows: S Makemake → H Jupiter RA 33.9799 21×φ golden (92.91) — only
+  - star rows: H Sadalmelik → H Jupiter Dec 17.0018 17 whole (82.41) — also: 3 Raise The Roof / Luke Morris
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+  - top rows: S Mars → J Jupiter RA 63.1087 39×φ golden (69.59) — only
+    - source line: S Moon → Mars RA 93.8435 58×φ golden (85.06)
+  - top rows: S Makemake → J Jupiter Dec 0.2129 conj (8.43) — only
+  - top rows: S Ketu → J Jupiter RA 155.5158 155.556 ninth (96.23) — only
+- **Sun**
+  - top rows: S Jupiter → H Sun RA 22.6526 14×φ golden (99.41) — also: 1 Dubai Souq / Sean Kirrane, 6 Tricolore / Dylan Hogan
+  - star rows: H Altair → H Sun Dec 11.3284 7×φ golden (86.81) — also: 6 Tricolore / Dylan Hogan
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+  - star rows: H Diadem → H Sun Dec 19.9884 20 whole (17.79) — also: 3 Raise The Roof / Luke Morris
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - star rows: J Aculeus → J Sun RA 129.4379 80×φ golden (72.65) — also: 3 Raise The Roof / Luke Morris
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - star rows: J Altair → J Sun Dec 7.9911 8 whole (30.67) — also: 6 Tricolore / Dylan Hogan
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+  - star rows: J Ras Algethi → J Sun RA 123.0155 123 whole (5.04) — only
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+  - star rows: J Rigel → J Sun RA 57.0186 57 whole (0.50) — also: 1 Dubai Souq / Sean Kirrane, 3 Raise The Roof / Luke Morris
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+- **Venus**
+  - top rows: S Jupiter → H Venus Dec 15.5561 15.5556 ninth (99.52) — only
+  - star rows: H Diadem → H Venus RA 171.5097 106×φ golden (88.69) — also: 2 Athmad / Jason Hart, 6 Tricolore / Dylan Hogan
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+- **Haumea**
+  - top rows: S Sun → H Haumea RA 80.9950 81 whole (56.30) — also: 5 Pallas Dancer / Ben Robinson
+  - star rows: H Altair → H Haumea RA 83.9961 84 whole (64.45) — also: 1 Dubai Souq / Sean Kirrane
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+  - star rows: H Rigel → H Haumea Dec 25.0044 25 whole (61.10) — also: 5 Pallas Dancer / Ben Robinson
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+- **Mercury**
+  - top rows: S Moon → H Mercury Dec 12.9402 8×φ golden (76.39) — also: 1 Dubai Souq / Sean Kirrane
+  - star rows: H Diadem → H Mercury Dec 10.9801 11 whole (0.00) — also: 6 Tricolore / Dylan Hogan
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - star rows: H Ras Algethi → H Mercury RA 111.6675 69×φ golden (8.15) — also: 6 Tricolore / Dylan Hogan
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+  - same body: S Mercury → J Mercury RA 18.9854 19 whole (7.40) — also: 3 Raise The Roof / Luke Morris, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+- **Juno**
+  - star rows: H Aculeus → H Juno RA 74.0181 74 whole (0.92) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - same body: S Juno → J Juno Dec 11.3076 7×φ golden (loose) — also: 3 Raise The Roof / Luke Morris, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+  - top rows: S Moon → J Juno Dec 14.1450 14.14 sqrt2 (92.15) — only
+- **Vesta**
+  - star rows: H Aculeus → H Vesta RA 1.0412 conj (9.36) — also: 5 Pallas Dancer / Ben Robinson
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - star rows: J Altair → J Vesta Dec 33.0140 33 whole (8.90) — also: 2 Athmad / Jason Hart
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+  - star rows: J Menkent → J Vesta Dec 12.2252 12.2222 ninth (95.81) — also: 3 Raise The Roof / Luke Morris
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+- **Eris**
+  - star rows: H Aculeus → H Eris Dec 29.9893 30 whole (21.46) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 5 Pallas Dancer / Ben Robinson
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+- **Ketu**
+  - star rows: H Algorab → H Ketu Dec 0.0343 conj (78.44) — also: 3 Raise The Roof / Luke Morris, 6 Tricolore / Dylan Hogan
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - same body: S Ketu → J Ketu RA 98.6804 61×φ golden (loose) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+  - star rows: J Altair → J Ketu Dec 4.0021 4 whole (80.54) — also: 3 Raise The Roof / Luke Morris
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+- **Quaoar**
+  - star rows: H Altair → H Quaoar RA 25.8874 16×φ golden (93.07) — also: 3 Raise The Roof / Luke Morris
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+  - top rows: S Jupiter → J Quaoar Dec 0.1120 conj (39.29) — also: 3 Raise The Roof / Luke Morris
+- **Transpluto**
+  - star rows: H Altair → H Transpluto RA 144.4103 144.444 ninth (96.39) — only
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+  - star rows: J Ras Algethi → J Transpluto Dec 0.0715 conj (58.01) — also: 3 Raise The Roof / Luke Morris, 5 Pallas Dancer / Ben Robinson
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+- **Sedna**
+  - star rows: H Diadem → H Sedna RA 141.4386 141.4 sqrt2 (95.18) — also: 6 Tricolore / Dylan Hogan
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - star rows: H Menkent → H Sedna Dec 43.9868 44 whole (11.68) — also: 2 Athmad / Jason Hart
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+  - top rows: S Jupiter → J Sedna RA 70.7121 70.7 sqrt2 (99.20) — only
+  - top rows: S Jupiter → J Sedna Dec 16.9943 17 whole (51.34) — only
+- **Neptune**
+  - star rows: H Menkent → H Neptune RA 134.0008 134 whole (92.19) — also: 5 Pallas Dancer / Ben Robinson
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+  - star rows: H Ras Algethi → H Neptune RA 87.0109 87 whole (20.60) — only
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+  - star rows: J Altair → J Neptune Dec 30.9879 31 whole (15.76) — also: 5 Pallas Dancer / Ben Robinson
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+- **Pallas**
+  - star rows: H Menkent → H Pallas Dec 24.9820 25 whole (1.02) — also: 3 Raise The Roof / Luke Morris
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+- **Chiron**
+  - star rows: H Rigel → H Chiron RA 82.0199 82 whole (0.00) — only
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+  - star rows: J Rigel → J Chiron Dec 25.0036 25 whole (67.41) — only
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+- **Gonggong**
+  - star rows: H Rigel → H Gonggong Dec 3.9950 4 whole (56.04) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+  - same body: S Gonggong → J Gonggong Dec 8.9947 9 whole (53.76) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 6 Tricolore / Dylan Hogan
+  - top rows: S Sun → J Gonggong Dec 38.0040 38 whole (64.19) — also: 6 Tricolore / Dylan Hogan
+  - star rows: J Algorab → J Gonggong RA 141.9835 142 whole (3.12) — only
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - star rows: J Sadalmelik → J Gonggong RA 2.0038 2 whole (65.42) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+  - star rows: J Sadalmelik → J Gonggong Dec 20.0177 20 whole (1.34) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+- **Saturn**
+  - star rows: H Sadalmelik → H Saturn Dec 22.0005 22 whole (94.59) — also: 6 Tricolore / Dylan Hogan
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+  - same body: S Saturn → J Saturn RA 33.3207 33.3333 ninth (loose) — also: 1 Dubai Souq / Sean Kirrane
+  - top rows: S Moon → J Saturn RA 141.4259 141.4 sqrt2 (98.71) — only
+  - star rows: J Ras Algethi → J Saturn Dec 37.0009 37 whole (91.24) — also: 3 Raise The Roof / Luke Morris, 6 Tricolore / Dylan Hogan
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+- **Uranus**
+  - star rows: H Sadalmelik → H Uranus Dec 9.9808 10 whole (0.16) — also: 5 Pallas Dancer / Ben Robinson
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+- **Rahu**
+  - same body: S Rahu → J Rahu RA 98.6804 61×φ golden (loose) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 5 Pallas Dancer / Ben Robinson, 6 Tricolore / Dylan Hogan
+  - top rows: S Jupiter → J Rahu Dec 0.0247 conj (84.24) — only
+  - star rows: J Aculeus → J Rahu RA 63.1089 39×φ golden (68.65) — also: 1 Dubai Souq / Sean Kirrane, 3 Raise The Roof / Luke Morris
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+- **Orcus**
+  - star rows: J Aculeus → J Orcus RA 135.9929 136 whole (41.68) — also: 3 Raise The Roof / Luke Morris, 6 Tricolore / Dylan Hogan
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+
+## 5 Pallas Dancer / Ben Robinson
+### L1 same bodies
+- S Neptune → H Neptune RA 8.0851 5×φ golden (loose)
+- S Sedna → H Sedna RA 3.0051 3 whole (55.55)
+- S Haumea → H Haumea Dec 1.6079 1×φ golden (loose)
+- S Orcus → H Orcus RA 4.2278 φ^3 phi power (loose)
+- S Mercury → J Mercury RA 179.7155 10×φ^6 phi power (loose)
+- S Jupiter → J Jupiter Dec 0.9932 1 whole (43.86)
+- S Uranus → J Uranus RA 90.0191 90 whole (0.19)
+- S Pluto → J Pluto Dec 13.0019 13 whole (82.05)
+- S Chiron → J Chiron RA 144.1705 144.444 ninth (loose)
+- S Juno → J Juno RA 63.1013 39×φ golden (87.96)
+- S Vesta → J Vesta RA 158.0069 158 whole (42.68)
+- S Rahu → J Rahu Dec 14.1475 14.14 sqrt2 (85.44)
+- S Eris → J Eris RA 3.9951 4 whole (56.86)
+- S Sedna → J Sedna RA 14.0051 14 whole (55.43)
+- S Haumea → J Haumea Dec 5.5519 5.55556 ninth (loose)
+- S Makemake → J Makemake RA 18.7929 18.8889 ninth (loose)
+- S Orcus → J Orcus RA 19.4461 12×φ golden (loose)
+- S Ketu → J Ketu Dec 14.1475 14.14 sqrt2 (85.44)
+### L2 what lands on each same body
+- **H Neptune** (same body: S Neptune → H Neptune RA 8.0851 5×φ golden (loose))
+  - star rows: H Altair → H Neptune Dec 16.0185 16 whole (0.56)
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+  - star rows: H Diadem → H Neptune RA 148.0171 148 whole (2.10)
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - other chart, star rows: J Menkent → J Neptune Dec 16.6611 16.6667 ninth (95.26)
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+- **H Sedna** (same body: S Sedna → H Sedna RA 3.0051 3 whole (55.55))
+  - star rows: H Aculeus → H Sedna Dec 39.9887 40 whole (19.08)
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - other chart, same body: S Sedna → J Sedna RA 14.0051 14 whole (55.43)
+  - other chart, star rows: J Altair → J Sedna Dec 4.0007 4 whole (92.68)
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+- **H Haumea** (same body: S Haumea → H Haumea Dec 1.6079 1×φ golden (loose))
+  - top rows: S Sun → H Haumea Dec 0.1701 conj (18.75)
+  - star rows: H Algorab → H Haumea Dec 34.0163 34 whole (3.46)
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - star rows: H Diadem → H Haumea RA 14.1475 14.14 sqrt2 (85.38)
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - star rows: H Diadem → H Haumea Dec 0.0326 conj (79.48)
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - star rows: H Menkent → H Haumea RA 0.0270 conj (96.44)
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+  - star rows: H Rigel → H Haumea RA 133.0170 133 whole (2.19)
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+  - other chart, same body: S Haumea → J Haumea Dec 5.5519 5.55556 ninth (loose)
+  - other chart, top rows: S Jupiter → J Haumea RA 136.0033 136 whole (70.11)
+  - other chart, star rows: J Menkent → J Haumea RA 16.0136 16 whole (10.26)
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+  - other chart, star rows: J Ras Algethi → J Haumea RA 62.9998 63 whole (97.90)
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+- **H Orcus** (same body: S Orcus → H Orcus RA 4.2278 φ^3 phi power (loose))
+  - star rows: H Rigel → H Orcus RA 72.8142 45×φ golden (83.90)
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+  - star rows: H Sadalmelik → H Orcus RA 179.9967 180 whole (70.14)
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+  - other chart, same body: S Orcus → J Orcus RA 19.4461 12×φ golden (loose)
+  - other chart, star rows: J Diadem → J Orcus Dec 18.0180 18 whole (1.03)
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - other chart, star rows: J Sadalmelik → J Orcus Dec 0.1701 conj (18.76)
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+- **J Mercury** (same body: S Mercury → J Mercury RA 179.7155 10×φ^6 phi power (loose))
+  - star rows: J Menkent → J Mercury Dec 17.0127 17 whole (13.20)
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+- **J Jupiter** (same body: S Jupiter → J Jupiter Dec 0.9932 1 whole (43.86))
+  - other chart, top rows: S Saturn → H Jupiter RA 119.7387 74×φ golden (75.75)
+  - other chart, top rows: S Neptune → H Jupiter Dec 0.1296 conj (32.27)
+  - other chart, top rows: S Chiron → H Jupiter RA 177.7728 177.778 ninth (99.61)
+  - other chart, star rows: S Menkent → H Jupiter RA 18.8835 18.8889 ninth (96.15)
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+- **J Uranus** (same body: S Uranus → J Uranus RA 90.0191 90 whole (0.19))
+  - star rows: J Diadem → J Uranus Dec 36.0054 36 whole (53.23)
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - star rows: J Menkent → J Uranus RA 100.3446 62×φ golden (3.25)
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+  - other chart, star rows: H Menkent → H Uranus RA 173.1172 107×φ golden (38.06)
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+  - other chart, star rows: H Sadalmelik → H Uranus Dec 10.0200 10 whole (0.00)
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+- **J Pluto** (same body: S Pluto → J Pluto Dec 13.0019 13 whole (82.05))
+- **J Chiron** (same body: S Chiron → J Chiron RA 144.1705 144.444 ninth (loose))
+  - other chart, top rows: S Sun → H Chiron RA 135.9959 136 whole (63.48)
+  - other chart, star rows: H Aculeus → H Chiron Dec 34.9952 35 whole (57.82)
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - other chart, star rows: H Altair → H Chiron RA 59.0066 59 whole (44.78)
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+- **J Juno** (same body: S Juno → J Juno RA 63.1013 39×φ golden (87.96))
+  - top rows: S Sun → J Juno RA 52.9955 53 whole (59.76)
+  - star rows: J Altair → J Juno RA 111.9904 112 whole (27.04)
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+  - other chart, star rows: H Diadem → H Juno Dec 22.9889 23 whole (19.90)
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - other chart, star rows: H Rigel → H Juno RA 152.0135 152 whole (10.57)
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+- **J Vesta** (same body: S Vesta → J Vesta RA 158.0069 158 whole (42.68))
+  - top rows: S Moon → J Vesta Dec 13.0018 13 whole (83.26)
+  - star rows: J Algorab → J Vesta Dec 23.0016 23 whole (84.75)
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - other chart, top rows: S Sun → H Vesta RA 1.2180 conj (3.54)
+  - other chart, star rows: H Aculeus → H Vesta Dec 55.0143 34×φ golden (92.90)
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - other chart, star rows: H Algorab → H Vesta RA 55.9814 56 whole (0.48)
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - other chart, star rows: H Diadem → H Vesta RA 66.0120 66 whole (15.86)
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+- **J Rahu** (same body: S Rahu → J Rahu Dec 14.1475 14.14 sqrt2 (85.44))
+- **J Eris** (same body: S Eris → J Eris RA 3.9951 4 whole (56.86))
+  - top rows: S Moon → J Eris Dec 26.9985 27 whole (85.22)
+  - star rows: J Algorab → J Eris Dec 9.0049 9 whole (57.18)
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - other chart, star rows: H Aculeus → H Eris RA 121.0188 121 whole (0.36)
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - other chart, star rows: H Altair → H Eris Dec 11.0969 φ^5 phi power (77.26)
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+- **J Sedna** (same body: S Sedna → J Sedna RA 14.0051 14 whole (55.43))
+  - star rows: J Altair → J Sedna Dec 4.0007 4 whole (92.68)
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+  - other chart, same body: S Sedna → H Sedna RA 3.0051 3 whole (55.55)
+  - other chart, star rows: H Aculeus → H Sedna Dec 39.9887 40 whole (19.08)
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+- **J Haumea** (same body: S Haumea → J Haumea Dec 5.5519 5.55556 ninth (loose))
+  - top rows: S Jupiter → J Haumea RA 136.0033 136 whole (70.11)
+  - star rows: J Menkent → J Haumea RA 16.0136 16 whole (10.26)
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+  - star rows: J Ras Algethi → J Haumea RA 62.9998 63 whole (97.90)
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+  - other chart, same body: S Haumea → H Haumea Dec 1.6079 1×φ golden (loose)
+  - other chart, top rows: S Sun → H Haumea Dec 0.1701 conj (18.75)
+  - other chart, star rows: H Algorab → H Haumea Dec 34.0163 34 whole (3.46)
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - other chart, star rows: H Diadem → H Haumea RA 14.1475 14.14 sqrt2 (85.38)
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - other chart, star rows: H Diadem → H Haumea Dec 0.0326 conj (79.48)
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - other chart, star rows: H Menkent → H Haumea RA 0.0270 conj (96.44)
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+  - other chart, star rows: H Rigel → H Haumea RA 133.0170 133 whole (2.19)
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+- **J Makemake** (same body: S Makemake → J Makemake RA 18.7929 18.8889 ninth (loose))
+  - T2: J Jupiter → J Makemake RA 155.5030 155.556 ninth (95.03)
+  - star rows: J Aculeus → J Makemake RA 87.0046 87 whole (59.09)
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - other chart, top rows: S Sun → H Makemake RA 61.0004 61 whole (96.34)
+  - other chart, star rows: H Altair → H Makemake RA 103.9971 104 whole (72.92)
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+  - other chart, star rows: H Ras Algethi → H Makemake Dec 10.9915 11 whole (33.17)
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+- **J Orcus** (same body: S Orcus → J Orcus RA 19.4461 12×φ golden (loose))
+  - star rows: J Diadem → J Orcus Dec 18.0180 18 whole (1.03)
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - star rows: J Sadalmelik → J Orcus Dec 0.1701 conj (18.76)
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+  - other chart, same body: S Orcus → H Orcus RA 4.2278 φ^3 phi power (loose)
+  - other chart, star rows: H Rigel → H Orcus RA 72.8142 45×φ golden (83.90)
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+  - other chart, star rows: H Sadalmelik → H Orcus RA 179.9967 180 whole (70.14)
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+- **J Ketu** (same body: S Ketu → J Ketu Dec 14.1475 14.14 sqrt2 (85.44))
+  - other chart, star rows: H Aculeus → H Ketu Dec 19.9990 20 whole (90.19)
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+### L3 matches
+- **1. same body on both charts**
+  - Sedna — only
+    - S Sedna → H Sedna RA 3.0051 3 whole (55.55)
+    - S Sedna → J Sedna RA 14.0051 14 whole (55.43)
+  - Haumea — only
+    - S Haumea → H Haumea Dec 1.6079 1×φ golden (loose)
+    - S Haumea → J Haumea Dec 5.5519 5.55556 ninth (loose)
+  - Orcus — only
+    - S Orcus → H Orcus RA 4.2278 φ^3 phi power (loose)
+    - S Orcus → J Orcus RA 19.4461 12×φ golden (loose)
+- **2. one body in both planes**: none
+- **3. runner number = sky number**
+  - 155.556 ninth — also: 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis, 6 Tricolore / Dylan Hogan
+    - J Jupiter → J Makemake RA 155.5030 155.556 ninth (95.03) = S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - 36 whole — only
+    - J Diadem → J Uranus Dec 36.0054 36 whole (53.23) = S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - 18 whole — also: 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis
+    - J Diadem → J Orcus Dec 18.0180 18 whole (1.03) = S Moon → Rigel RA 18.0045 18 whole (60.09)
+- **4. circle divisions**
+  - 3 = 360/120 — also: 1 Dubai Souq / Sean Kirrane, 3 Raise The Roof / Luke Morris
+    - S Sedna → H Sedna RA 3.0051 3 whole (55.55)
+  - 40 = 360/9 — only
+    - H Aculeus → H Sedna Dec 39.9887 40 whole (19.08)
+  - 20 = 360/18 — also: 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis, 6 Tricolore / Dylan Hogan
+    - H Aculeus → H Gonggong Dec 19.9849 20 whole (5.89)
+  - 20 = 360/18 — also: 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis, 6 Tricolore / Dylan Hogan
+    - H Aculeus → H Ketu Dec 19.9990 20 whole (90.19)
+  - 10 = 360/36 — also: 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis, 6 Tricolore / Dylan Hogan
+    - H Sadalmelik → H Uranus Dec 10.0200 10 whole (0.00)
+  - 180 = 360/2 — only
+    - H Sadalmelik → H Orcus RA 179.9967 180 whole (70.14)
+  - 5 = 360/72 — also: 1 Dubai Souq / Sean Kirrane, 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis
+    - H Sadalmelik → H Gonggong RA 4.9917 5 whole (33.96)
+  - 1 = 360/360 — also: 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris, 6 Tricolore / Dylan Hogan
+    - S Jupiter → J Jupiter Dec 0.9932 1 whole (43.86)
+  - 90 = 360/4 — only
+    - S Uranus → J Uranus RA 90.0191 90 whole (0.19)
+  - 4 = 360/90 — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis
+    - S Eris → J Eris RA 3.9951 4 whole (56.86)
+  - 9 = 360/40 — also: 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis, 6 Tricolore / Dylan Hogan
+    - J Algorab → J Eris Dec 9.0049 9 whole (57.18)
+  - 4 = 360/90 — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis
+    - J Altair → J Sedna Dec 4.0007 4 whole (92.68)
+  - 36 = 360/10 — only
+    - J Diadem → J Uranus Dec 36.0054 36 whole (53.23)
+  - 18 = 360/20 — also: 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis
+    - J Diadem → J Orcus Dec 18.0180 18 whole (1.03)
+- **5. same number in more than one place**
+  - 136 whole — also: 4 Beating All / Ben Curtis
+    - S Sun → H Chiron RA 135.9959 136 whole (63.48)
+    - S Jupiter → J Haumea RA 136.0033 136 whole (70.11)
+  - 20 whole — also: 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis
+    - H Aculeus → H Gonggong Dec 19.9849 20 whole (5.89)
+    - H Aculeus → H Ketu Dec 19.9990 20 whole (90.19)
+  - 16 whole — only
+    - H Altair → H Neptune Dec 16.0185 16 whole (0.56)
+    - J Menkent → J Haumea RA 16.0136 16 whole (10.26)
+  - 59 whole — only
+    - H Altair → H Chiron RA 59.0066 59 whole (44.78)
+    - H Menkent → H Transpluto RA 59.0006 59 whole (94.24)
+  - 23 whole — only
+    - H Diadem → H Juno Dec 22.9889 23 whole (19.90)
+    - J Algorab → J Vesta Dec 23.0016 23 whole (84.75)
+  - 14.14 sqrt2 — only
+    - H Diadem → H Haumea RA 14.1475 14.14 sqrt2 (85.38)
+    - S Rahu → J Rahu Dec 14.1475 14.14 sqrt2 (85.44)
+    - S Ketu → J Ketu Dec 14.1475 14.14 sqrt2 (85.44)
+  - 18.8889 ninth — only
+    - S Menkent → H Jupiter RA 18.8835 18.8889 ninth (96.15)
+    - S Makemake → J Makemake RA 18.7929 18.8889 ninth (loose)
+  - 13 whole — also: 1 Dubai Souq / Sean Kirrane, 3 Raise The Roof / Luke Morris
+    - S Pluto → J Pluto Dec 13.0019 13 whole (82.05)
+    - S Moon → J Vesta Dec 13.0018 13 whole (83.26)
+  - 4 whole — also: 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis
+    - S Eris → J Eris RA 3.9951 4 whole (56.86)
+    - J Altair → J Sedna Dec 4.0007 4 whole (92.68)
+### L4 every natal body
+- **Neptune**
+  - same body: S Neptune → H Neptune RA 8.0851 5×φ golden (loose) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 6 Tricolore / Dylan Hogan
+  - star rows: H Altair → H Neptune Dec 16.0185 16 whole (0.56) — also: 4 Beating All / Ben Curtis
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+  - star rows: H Diadem → H Neptune RA 148.0171 148 whole (2.10) — also: 3 Raise The Roof / Luke Morris, 6 Tricolore / Dylan Hogan
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - star rows: J Menkent → J Neptune Dec 16.6611 16.6667 ninth (95.26) — also: 4 Beating All / Ben Curtis
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+- **Sedna**
+  - same body: S Sedna → H Sedna RA 3.0051 3 whole (55.55) — also: 1 Dubai Souq / Sean Kirrane, 3 Raise The Roof / Luke Morris
+  - star rows: H Aculeus → H Sedna Dec 39.9887 40 whole (19.08) — only
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - same body: S Sedna → J Sedna RA 14.0051 14 whole (55.43) — also: 1 Dubai Souq / Sean Kirrane, 3 Raise The Roof / Luke Morris
+  - star rows: J Altair → J Sedna Dec 4.0007 4 whole (92.68) — only
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+- **Haumea**
+  - same body: S Haumea → H Haumea Dec 1.6079 1×φ golden (loose) — also: 1 Dubai Souq / Sean Kirrane, 3 Raise The Roof / Luke Morris, 6 Tricolore / Dylan Hogan
+  - top rows: S Sun → H Haumea Dec 0.1701 conj (18.75) — also: 4 Beating All / Ben Curtis
+  - star rows: H Algorab → H Haumea Dec 34.0163 34 whole (3.46) — also: 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - star rows: H Diadem → H Haumea RA 14.1475 14.14 sqrt2 (85.38) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris, 6 Tricolore / Dylan Hogan
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - star rows: H Diadem → H Haumea Dec 0.0326 conj (79.48) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris, 6 Tricolore / Dylan Hogan
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - star rows: H Menkent → H Haumea RA 0.0270 conj (96.44) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+  - star rows: H Rigel → H Haumea RA 133.0170 133 whole (2.19) — also: 4 Beating All / Ben Curtis
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+  - same body: S Haumea → J Haumea Dec 5.5519 5.55556 ninth (loose) — also: 1 Dubai Souq / Sean Kirrane, 3 Raise The Roof / Luke Morris, 6 Tricolore / Dylan Hogan
+  - top rows: S Jupiter → J Haumea RA 136.0033 136 whole (70.11) — only
+  - star rows: J Menkent → J Haumea RA 16.0136 16 whole (10.26) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+  - star rows: J Ras Algethi → J Haumea RA 62.9998 63 whole (97.90) — only
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+- **Orcus**
+  - same body: S Orcus → H Orcus RA 4.2278 φ^3 phi power (loose) — also: 6 Tricolore / Dylan Hogan
+  - star rows: H Rigel → H Orcus RA 72.8142 45×φ golden (83.90) — also: 3 Raise The Roof / Luke Morris
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+  - star rows: H Sadalmelik → H Orcus RA 179.9967 180 whole (70.14) — also: 3 Raise The Roof / Luke Morris
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+  - same body: S Orcus → J Orcus RA 19.4461 12×φ golden (loose) — also: 6 Tricolore / Dylan Hogan
+  - star rows: J Diadem → J Orcus Dec 18.0180 18 whole (1.03) — only
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - star rows: J Sadalmelik → J Orcus Dec 0.1701 conj (18.76) — also: 3 Raise The Roof / Luke Morris
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+- **Chiron**
+  - top rows: S Sun → H Chiron RA 135.9959 136 whole (63.48) — also: 6 Tricolore / Dylan Hogan
+  - star rows: H Aculeus → H Chiron Dec 34.9952 35 whole (57.82) — also: 1 Dubai Souq / Sean Kirrane
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - star rows: H Altair → H Chiron RA 59.0066 59 whole (44.78) — only
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+  - same body: S Chiron → J Chiron RA 144.1705 144.444 ninth (loose) — also: 3 Raise The Roof / Luke Morris
+- **Vesta**
+  - top rows: S Sun → H Vesta RA 1.2180 conj (3.54) — only
+  - star rows: H Aculeus → H Vesta Dec 55.0143 34×φ golden (92.90) — also: 4 Beating All / Ben Curtis
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - star rows: H Algorab → H Vesta RA 55.9814 56 whole (0.48) — also: 6 Tricolore / Dylan Hogan
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - star rows: H Diadem → H Vesta RA 66.0120 66 whole (15.86) — only
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - same body: S Vesta → J Vesta RA 158.0069 158 whole (42.68) — also: 2 Athmad / Jason Hart
+  - top rows: S Moon → J Vesta Dec 13.0018 13 whole (83.26) — also: 2 Athmad / Jason Hart, 6 Tricolore / Dylan Hogan
+  - star rows: J Algorab → J Vesta Dec 23.0016 23 whole (84.75) — also: 6 Tricolore / Dylan Hogan
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+- **Makemake**
+  - top rows: S Sun → H Makemake RA 61.0004 61 whole (96.34) — only
+  - star rows: H Altair → H Makemake RA 103.9971 104 whole (72.92) — only
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+  - star rows: H Ras Algethi → H Makemake Dec 10.9915 11 whole (33.17) — also: 4 Beating All / Ben Curtis, 6 Tricolore / Dylan Hogan
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+  - same body: S Makemake → J Makemake RA 18.7929 18.8889 ninth (loose) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis, 6 Tricolore / Dylan Hogan
+  - T2: J Jupiter → J Makemake RA 155.5030 155.556 ninth (95.03) — only
+  - star rows: J Aculeus → J Makemake RA 87.0046 87 whole (59.09) — also: 4 Beating All / Ben Curtis
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+- **Jupiter**
+  - top rows: S Saturn → H Jupiter RA 119.7387 74×φ golden (75.75) — also: 3 Raise The Roof / Luke Morris
+  - top rows: S Neptune → H Jupiter Dec 0.1296 conj (32.27) — also: 2 Athmad / Jason Hart, 6 Tricolore / Dylan Hogan
+  - top rows: S Chiron → H Jupiter RA 177.7728 177.778 ninth (99.61) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris
+  - star rows: S Menkent → H Jupiter RA 18.8835 18.8889 ninth (96.15) — also: 6 Tricolore / Dylan Hogan
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+  - same body: S Jupiter → J Jupiter Dec 0.9932 1 whole (43.86) — also: 3 Raise The Roof / Luke Morris
+- **Saturn**
+  - star rows: H Aculeus → H Saturn RA 0.2594 conj (68.40) — also: 1 Dubai Souq / Sean Kirrane
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - star rows: J Diadem → J Saturn Dec 13.3350 13.3333 ninth (98.01) — only
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+- **Eris**
+  - star rows: H Aculeus → H Eris RA 121.0188 121 whole (0.36) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - star rows: H Altair → H Eris Dec 11.0969 φ^5 phi power (77.26) — only
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+  - same body: S Eris → J Eris RA 3.9951 4 whole (56.86) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart
+  - top rows: S Moon → J Eris Dec 26.9985 27 whole (85.22) — only
+  - star rows: J Algorab → J Eris Dec 9.0049 9 whole (57.18) — also: 3 Raise The Roof / Luke Morris
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+- **Gonggong**
+  - star rows: H Aculeus → H Gonggong Dec 19.9849 20 whole (5.89) — also: 3 Raise The Roof / Luke Morris
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - star rows: H Ras Algethi → H Gonggong RA 77.7708 77.7778 ninth (94.54) — only
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+  - star rows: H Sadalmelik → H Gonggong RA 4.9917 5 whole (33.96) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis, 6 Tricolore / Dylan Hogan
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+  - top rows: S Jupiter → J Gonggong RA 0.3131 conj (62.61) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart
+  - star rows: J Sadalmelik → J Gonggong RA 0.0914 conj (88.19) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis, 6 Tricolore / Dylan Hogan
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+- **Ketu**
+  - star rows: H Aculeus → H Ketu Dec 19.9990 20 whole (90.19) — also: 1 Dubai Souq / Sean Kirrane, 3 Raise The Roof / Luke Morris
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - same body: S Ketu → J Ketu Dec 14.1475 14.14 sqrt2 (85.44) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis, 6 Tricolore / Dylan Hogan
+- **Juno**
+  - star rows: H Diadem → H Juno Dec 22.9889 23 whole (19.90) — also: 1 Dubai Souq / Sean Kirrane
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - star rows: H Rigel → H Juno RA 152.0135 152 whole (10.57) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+  - same body: S Juno → J Juno RA 63.1013 39×φ golden (87.96) — also: 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis, 6 Tricolore / Dylan Hogan
+  - top rows: S Sun → J Juno RA 52.9955 53 whole (59.76) — only
+  - star rows: J Altair → J Juno RA 111.9904 112 whole (27.04) — also: 3 Raise The Roof / Luke Morris, 6 Tricolore / Dylan Hogan
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+- **Uranus**
+  - star rows: H Menkent → H Uranus RA 173.1172 107×φ golden (38.06) — only
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+  - star rows: H Sadalmelik → H Uranus Dec 10.0200 10 whole (0.00) — also: 4 Beating All / Ben Curtis
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+  - same body: S Uranus → J Uranus RA 90.0191 90 whole (0.19) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart
+  - star rows: J Diadem → J Uranus Dec 36.0054 36 whole (53.23) — also: 6 Tricolore / Dylan Hogan
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - star rows: J Menkent → J Uranus RA 100.3446 62×φ golden (3.25) — only
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+- **Quaoar**
+  - star rows: H Menkent → H Quaoar Dec 20.9893 21 whole (21.54) — also: 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+  - star rows: H Sadalmelik → H Quaoar RA 61.4803 38×φ golden (71.62) — only
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+- **Transpluto**
+  - star rows: H Menkent → H Transpluto RA 59.0006 59 whole (94.24) — only
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+  - star rows: H Ras Algethi → H Transpluto RA 105.9949 106 whole (55.68) — also: 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+  - star rows: J Ras Algethi → J Transpluto RA 111.6699 69×φ golden (4.46) — also: 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+- **Venus**
+  - star rows: H Rigel → H Venus RA 59.8618 37×φ golden (69.30) — only
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+  - star rows: J Altair → J Venus Dec 24.1484 24.14 silver (89.91) — only
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+- **Ceres**
+  - star rows: H Sadalmelik → H Ceres RA 97.9809 98 whole (0.22) — also: 2 Athmad / Jason Hart
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+- **Mercury**
+  - same body: S Mercury → J Mercury RA 179.7155 10×φ^6 phi power (loose) — also: 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis, 6 Tricolore / Dylan Hogan
+  - star rows: J Menkent → J Mercury Dec 17.0127 17 whole (13.20) — only
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+- **Pluto**
+  - same body: S Pluto → J Pluto Dec 13.0019 13 whole (82.05) — also: 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis, 6 Tricolore / Dylan Hogan
+- **Rahu**
+  - same body: S Rahu → J Rahu Dec 14.1475 14.14 sqrt2 (85.44) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis, 6 Tricolore / Dylan Hogan
+- **Mars**
+  - star rows: J Altair → J Mars RA 45.9878 46 whole (15.10) — only
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+  - star rows: J Menkent → J Mars RA 132.0053 132 whole (53.76) — also: 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+  - star rows: J Ras Algethi → J Mars RA 85.0191 85 whole (0.18) — also: 3 Raise The Roof / Luke Morris
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+  - star rows: J Rigel → J Mars Dec 0.2784 conj (0.52) — also: 2 Athmad / Jason Hart
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+- **Pallas**
+  - star rows: J Sadalmelik → J Pallas Dec 0.1542 conj (23.62) — only
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+
+## 6 Tricolore / Dylan Hogan
+### L1 same bodies
+- S Sun → H Sun RA 164.0163 164 whole (3.36)
+- S Mercury → H Mercury RA 166.5808 166.667 ninth (loose)
+- S Mars → H Mars RA 95.9888 96 whole (19.50)
+- S Neptune → H Neptune RA 8.8831 8.88889 ninth (loose)
+- S Pluto → H Pluto RA 5.5481 5.55556 ninth (loose)
+- S Juno → H Juno RA 78.0198 78 whole (0.01)
+- S Gonggong → H Gonggong Dec 0.9858 1 whole (8.36)
+- S Pluto → J Pluto Dec 16.1576 10×φ^1 phi power (loose)
+- S Ceres → J Ceres RA 77.6396 48×φ golden (loose)
+- S Juno → J Juno RA 18.7978 18.8889 ninth (loose)
+- S Rahu → J Rahu RA 155.5491 155.556 ninth (99.39)
+- S Haumea → J Haumea RA 22.6826 14×φ golden (loose)
+- S Makemake → J Makemake RA 21.9813 22 whole (0.40)
+- S Orcus → J Orcus Dec 12.0039 12 whole (64.42)
+- S Ketu → J Ketu RA 155.5491 155.556 ninth (99.39)
+### L2 what lands on each same body
+- **H Sun** (same body: S Sun → H Sun RA 164.0163 164 whole (3.36))
+  - top rows: S Jupiter → H Sun Dec 0.1479 conj (25.72)
+  - star rows: H Altair → H Sun RA 30.9945 31 whole (52.61)
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+  - star rows: H Menkent → H Sun RA 117.0183 117 whole (0.69)
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+  - other chart, star rows: J Altair → J Sun Dec 23.0175 23 whole (1.61)
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+  - other chart, star rows: J Menkent → J Sun Dec 22.2201 22.2222 ninth (97.06)
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+- **H Mercury** (same body: S Mercury → H Mercury RA 166.5808 166.667 ninth (loose))
+  - other chart, star rows: J Aculeus → J Mercury RA 64.9831 65 whole (2.38)
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - other chart, star rows: J Diadem → J Mercury Dec 24.1493 24.14 silver (88.55)
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - other chart, star rows: J Ras Algethi → J Mercury Dec 21.0118 21 whole (16.85)
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+- **H Mars** (same body: S Mars → H Mars RA 95.9888 96 whole (19.50))
+  - sky line to Mars: S Moon → Mars RA 93.8435 58×φ golden (85.06)
+  - star rows: H Algorab → H Mars RA 62.9897 63 whole (23.58)
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - star rows: H Sadalmelik → H Mars RA 80.9820 81 whole (1.04)
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+- **H Neptune** (same body: S Neptune → H Neptune RA 8.8831 8.88889 ninth (loose))
+  - star rows: H Algorab → H Neptune Dec 9.0180 9 whole (0.98)
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - star rows: H Diadem → H Neptune RA 147.2196 91×φ golden (11.28)
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - other chart, star rows: J Aculeus → J Neptune Dec 11.0024 11 whole (77.20)
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - other chart, star rows: J Algorab → J Neptune RA 105.0133 105 whole (11.11)
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - other chart, star rows: J Diadem → J Neptune RA 94.9825 95 whole (1.61)
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+- **H Pluto** (same body: S Pluto → H Pluto RA 5.5481 5.55556 ninth (loose))
+  - other chart, same body: S Pluto → J Pluto Dec 16.1576 10×φ^1 phi power (loose)
+- **H Juno** (same body: S Juno → H Juno RA 78.0198 78 whole (0.01))
+  - star rows: H Altair → H Juno RA 29.1274 18×φ golden (83.52)
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+  - other chart, same body: S Juno → J Juno RA 18.7978 18.8889 ninth (loose)
+- **H Gonggong** (same body: S Gonggong → H Gonggong Dec 0.9858 1 whole (8.36))
+  - top rows: S Sun → H Gonggong Dec 29.9951 30 whole (56.98)
+  - star rows: H Sadalmelik → H Gonggong Dec 12.0053 12 whole (54.13)
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+  - other chart, star rows: J Sadalmelik → J Gonggong RA 1.4616 conj (0.07)
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+- **J Pluto** (same body: S Pluto → J Pluto Dec 16.1576 10×φ^1 phi power (loose))
+  - other chart, same body: S Pluto → H Pluto RA 5.5481 5.55556 ninth (loose)
+- **J Ceres** (same body: S Ceres → J Ceres RA 77.6396 48×φ golden (loose))
+  - star rows: J Aculeus → J Ceres RA 127.8465 79×φ golden (10.60)
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - other chart, star rows: H Diadem → H Ceres RA 62.9890 63 whole (20.22)
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - other chart, star rows: H Diadem → H Ceres Dec 14.0052 14 whole (54.45)
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+- **J Juno** (same body: S Juno → J Juno RA 18.7978 18.8889 ninth (loose))
+  - other chart, same body: S Juno → H Juno RA 78.0198 78 whole (0.01)
+  - other chart, star rows: H Altair → H Juno RA 29.1274 18×φ golden (83.52)
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+- **J Rahu** (same body: S Rahu → J Rahu RA 155.5491 155.556 ninth (99.39))
+  - top rows: S Sun → J Rahu Dec 33.9723 21×φ golden (64.27)
+  - star rows: J Algorab → J Rahu Dec 0.2084 conj (9.32)
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - star rows: J Sadalmelik → J Rahu Dec 15.9862 16 whole (9.57)
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+- **J Haumea** (same body: S Haumea → J Haumea RA 22.6826 14×φ golden (loose))
+  - other chart, star rows: H Diadem → H Haumea Dec 1.0159 1 whole (4.26)
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+- **J Makemake** (same body: S Makemake → J Makemake RA 21.9813 22 whole (0.40))
+  - star rows: J Ras Algethi → J Makemake Dec 18.9950 19 whole (55.88)
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+  - other chart, star rows: H Algorab → H Makemake Dec 40.9860 41 whole (8.98)
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - other chart, star rows: H Diadem → H Makemake RA 1.4931 conj (0.00)
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+- **J Orcus** (same body: S Orcus → J Orcus Dec 12.0039 12 whole (64.42))
+  - other chart, star rows: H Aculeus → H Orcus Dec 21.9816 22 whole (0.62)
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+- **J Ketu** (same body: S Ketu → J Ketu RA 155.5491 155.556 ninth (99.39))
+  - other chart, star rows: H Algorab → H Ketu Dec 0.1084 conj (40.80)
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - other chart, star rows: H Diadem → H Ketu RA 119.7139 74×φ golden (13.10)
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+### L3 matches
+- **1. same body on both charts**
+  - Pluto — also: 2 Athmad / Jason Hart
+    - S Pluto → H Pluto RA 5.5481 5.55556 ninth (loose)
+    - S Pluto → J Pluto Dec 16.1576 10×φ^1 phi power (loose)
+  - Juno — also: 3 Raise The Roof / Luke Morris
+    - S Juno → H Juno RA 78.0198 78 whole (0.01)
+    - S Juno → J Juno RA 18.7978 18.8889 ninth (loose)
+- **2. one body in both planes**: none
+- **3. runner number = sky number**
+  - φ^10 phi power — only
+    - S Pallas → H Jupiter RA 122.9565 φ^10 phi power (88.82) = S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+  - 155.556 ninth — also: 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson
+    - S Rahu → J Rahu RA 155.5491 155.556 ninth (99.39) = S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - 155.556 ninth — also: 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson
+    - S Ketu → J Ketu RA 155.5491 155.556 ninth (99.39) = S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+- **4. circle divisions**
+  - 1 = 360/360 — also: 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris, 5 Pallas Dancer / Ben Robinson
+    - S Gonggong → H Gonggong Dec 0.9858 1 whole (8.36)
+  - 30 = 360/12 — also: 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis
+    - S Sun → H Gonggong Dec 29.9951 30 whole (56.98)
+  - 24 = 360/15 — only
+    - S Pallas → H Jupiter Dec 24.0053 24 whole (54.23)
+  - 9 = 360/40 — also: 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson
+    - H Algorab → H Neptune Dec 9.0180 9 whole (0.98)
+  - 10 = 360/36 — also: 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson
+    - H Diadem → H Sedna Dec 10.0007 10 whole (93.44)
+  - 1 = 360/360 — also: 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris, 5 Pallas Dancer / Ben Robinson
+    - H Diadem → H Haumea Dec 1.0159 1 whole (4.26)
+  - 30 = 360/12 — also: 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis
+    - H Ras Algethi → H Quaoar Dec 30.0198 30 whole (0.01)
+  - 9 = 360/40 — also: 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson
+    - H Rigel → H Jupiter Dec 9.0156 9 whole (4.74)
+  - 2 = 360/180 — also: 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis
+    - H Sadalmelik → H Chiron Dec 2.0197 2 whole (0.03)
+  - 12 = 360/30 — also: 3 Raise The Roof / Luke Morris
+    - H Sadalmelik → H Gonggong Dec 12.0053 12 whole (54.13)
+  - 12 = 360/30 — also: 3 Raise The Roof / Luke Morris
+    - S Orcus → J Orcus Dec 12.0039 12 whole (64.42)
+  - 6 = 360/60 — also: 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris
+    - S Moon → J Transpluto Dec 5.9942 6 whole (50.50)
+  - 30 = 360/12 — also: 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis
+    - J Algorab → J Transpluto Dec 30.0059 30 whole (49.46)
+  - 20 = 360/18 — also: 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson
+    - J Diadem → J Venus RA 20.0054 20 whole (53.27)
+- **5. same number in more than one place**
+  - 164 whole — only
+    - S Sun → H Sun RA 164.0163 164 whole (3.36)
+    - H Algorab → H Uranus RA 163.9819 164 whole (0.87)
+  - 1 whole — also: 3 Raise The Roof / Luke Morris
+    - S Gonggong → H Gonggong Dec 0.9858 1 whole (8.36)
+    - H Diadem → H Haumea Dec 1.0159 1 whole (4.26)
+  - 30 whole — only
+    - S Sun → H Gonggong Dec 29.9951 30 whole (56.98)
+    - H Ras Algethi → H Quaoar Dec 30.0198 30 whole (0.01)
+    - J Algorab → J Transpluto Dec 30.0059 30 whole (49.46)
+  - 22 whole — also: 1 Dubai Souq / Sean Kirrane, 3 Raise The Roof / Luke Morris
+    - H Aculeus → H Orcus Dec 21.9816 22 whole (0.62)
+    - S Makemake → J Makemake RA 21.9813 22 whole (0.40)
+  - 63 whole — only
+    - H Algorab → H Mars RA 62.9897 63 whole (23.58)
+    - H Diadem → H Ceres RA 62.9890 63 whole (20.22)
+  - 9 whole — only
+    - H Algorab → H Neptune Dec 9.0180 9 whole (0.98)
+    - H Rigel → H Jupiter Dec 9.0156 9 whole (4.74)
+  - 21×φ golden — only
+    - H Menkent → H Eris Dec 33.9781 21×φ golden (96.29)
+    - S Sun → J Rahu Dec 33.9723 21×φ golden (64.27)
+  - 12 whole — only
+    - H Sadalmelik → H Gonggong Dec 12.0053 12 whole (54.13)
+    - S Orcus → J Orcus Dec 12.0039 12 whole (64.42)
+  - 155.556 ninth — only
+    - S Rahu → J Rahu RA 155.5491 155.556 ninth (99.39)
+    - S Ketu → J Ketu RA 155.5491 155.556 ninth (99.39)
+  - 24.14 silver — only
+    - S Pallas → J Jupiter Dec 24.1451 24.14 silver (95.18)
+    - J Diadem → J Mercury Dec 24.1493 24.14 silver (88.55)
+  - 19 whole — only
+    - J Menkent → J Jupiter Dec 19.0076 19 whole (38.56)
+    - J Ras Algethi → J Makemake Dec 18.9950 19 whole (55.88)
+### L4 every natal body
+- **Sun**
+  - same body: S Sun → H Sun RA 164.0163 164 whole (3.36) — also: 3 Raise The Roof / Luke Morris
+  - top rows: S Jupiter → H Sun Dec 0.1479 conj (25.72) — also: 1 Dubai Souq / Sean Kirrane, 4 Beating All / Ben Curtis
+  - star rows: H Altair → H Sun RA 30.9945 31 whole (52.61) — also: 4 Beating All / Ben Curtis
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+  - star rows: H Menkent → H Sun RA 117.0183 117 whole (0.69) — also: 2 Athmad / Jason Hart
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+  - star rows: J Altair → J Sun Dec 23.0175 23 whole (1.61) — also: 4 Beating All / Ben Curtis
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+  - star rows: J Menkent → J Sun Dec 22.2201 22.2222 ninth (97.06) — also: 2 Athmad / Jason Hart
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+- **Mercury**
+  - same body: S Mercury → H Mercury RA 166.5808 166.667 ninth (loose) — also: 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson
+  - star rows: J Aculeus → J Mercury RA 64.9831 65 whole (2.38) — also: 2 Athmad / Jason Hart
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - star rows: J Diadem → J Mercury Dec 24.1493 24.14 silver (88.55) — also: 4 Beating All / Ben Curtis
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - star rows: J Ras Algethi → J Mercury Dec 21.0118 21 whole (16.85) — also: 4 Beating All / Ben Curtis
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+- **Mars**
+  - same body: S Mars → H Mars RA 95.9888 96 whole (19.50) — only
+    - source line: S Moon → Mars RA 93.8435 58×φ golden (85.06)
+  - star rows: H Algorab → H Mars RA 62.9897 63 whole (23.58) — also: 3 Raise The Roof / Luke Morris
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - star rows: H Sadalmelik → H Mars RA 80.9820 81 whole (1.04) — also: 2 Athmad / Jason Hart
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+- **Neptune**
+  - same body: S Neptune → H Neptune RA 8.8831 8.88889 ninth (loose) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 5 Pallas Dancer / Ben Robinson
+  - star rows: H Algorab → H Neptune Dec 9.0180 9 whole (0.98) — only
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - star rows: H Diadem → H Neptune RA 147.2196 91×φ golden (11.28) — also: 3 Raise The Roof / Luke Morris, 5 Pallas Dancer / Ben Robinson
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - star rows: J Aculeus → J Neptune Dec 11.0024 11 whole (77.20) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - star rows: J Algorab → J Neptune RA 105.0133 105 whole (11.11) — only
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - star rows: J Diadem → J Neptune RA 94.9825 95 whole (1.61) — also: 3 Raise The Roof / Luke Morris, 5 Pallas Dancer / Ben Robinson
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+- **Pluto**
+  - same body: S Pluto → H Pluto RA 5.5481 5.55556 ninth (loose) — also: 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson
+  - same body: S Pluto → J Pluto Dec 16.1576 10×φ^1 phi power (loose) — also: 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson
+- **Juno**
+  - same body: S Juno → H Juno RA 78.0198 78 whole (0.01) — also: 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson
+  - star rows: H Altair → H Juno RA 29.1274 18×φ golden (83.52) — also: 3 Raise The Roof / Luke Morris, 5 Pallas Dancer / Ben Robinson
+    - source line: S Sun → Altair RA 164.9999 165 whole (99.11)
+    - source line: S Moon → Altair RA 122.9220 φ^10 phi power (78.56)
+  - same body: S Juno → J Juno RA 18.7978 18.8889 ninth (loose) — also: 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson
+- **Gonggong**
+  - same body: S Gonggong → H Gonggong Dec 0.9858 1 whole (8.36) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis
+  - top rows: S Sun → H Gonggong Dec 29.9951 30 whole (56.98) — also: 4 Beating All / Ben Curtis
+  - star rows: H Sadalmelik → H Gonggong Dec 12.0053 12 whole (54.13) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+  - star rows: J Sadalmelik → J Gonggong RA 1.4616 conj (0.07) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+- **Pallas**
+  - T1: H Jupiter → H Pallas Dec 0.0577 conj (65.22) — only
+- **Chiron**
+  - top rows: S Sun → H Chiron RA 137.5407 85×φ golden (57.61) — also: 5 Pallas Dancer / Ben Robinson
+  - star rows: H Sadalmelik → H Chiron Dec 2.0197 2 whole (0.03) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+- **Jupiter**
+  - top rows: S Pluto → H Jupiter RA 66.9956 67 whole (60.82) — only
+  - top rows: S Pallas → H Jupiter RA 122.9565 φ^10 phi power (88.82) — also: 4 Beating All / Ben Curtis
+  - top rows: S Pallas → H Jupiter Dec 24.0053 24 whole (54.23) — also: 4 Beating All / Ben Curtis
+  - top rows: S Gonggong → H Jupiter RA 106.7957 66×φ golden (68.86) — also: 3 Raise The Roof / Luke Morris
+  - star rows: H Rigel → H Jupiter Dec 9.0156 9 whole (4.74) — only
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+  - top rows: S Neptune → J Jupiter Dec 13.3366 13.3333 ninth (96.06) — also: 2 Athmad / Jason Hart, 5 Pallas Dancer / Ben Robinson
+  - top rows: S Pallas → J Jupiter Dec 24.1451 24.14 silver (95.18) — also: 4 Beating All / Ben Curtis
+  - star rows: J Menkent → J Jupiter Dec 19.0076 19 whole (38.56) — also: 5 Pallas Dancer / Ben Robinson
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+- **Orcus**
+  - star rows: H Aculeus → H Orcus Dec 21.9816 22 whole (0.62) — also: 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+  - same body: S Orcus → J Orcus Dec 12.0039 12 whole (64.42) — also: 5 Pallas Dancer / Ben Robinson
+- **Saturn**
+  - star rows: H Algorab → H Saturn RA 88.9862 89 whole (9.75) — only
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - star rows: H Ras Algethi → H Saturn RA 17.7957 11×φ golden (84.36) — also: 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+  - star rows: H Sadalmelik → H Saturn RA 54.9855 55 whole (7.58) — also: 4 Beating All / Ben Curtis
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+  - star rows: J Rigel → J Saturn RA 100.3074 62×φ golden (44.71) — only
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+- **Uranus**
+  - star rows: H Algorab → H Uranus RA 163.9819 164 whole (0.87) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - star rows: H Diadem → H Uranus RA 174.0109 174 whole (20.59) — also: 5 Pallas Dancer / Ben Robinson
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+- **Vesta**
+  - star rows: H Algorab → H Vesta Dec 0.2756 conj (0.66) — also: 5 Pallas Dancer / Ben Robinson
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - top rows: S Moon → J Vesta Dec 0.1895 conj (13.56) — also: 2 Athmad / Jason Hart, 5 Pallas Dancer / Ben Robinson
+  - star rows: J Sadalmelik → J Vesta RA 129.9875 130 whole (13.99) — only
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+- **Makemake**
+  - star rows: H Algorab → H Makemake Dec 40.9860 41 whole (8.98) — also: 2 Athmad / Jason Hart
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - star rows: H Diadem → H Makemake RA 1.4931 conj (0.00) — also: 4 Beating All / Ben Curtis
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - same body: S Makemake → J Makemake RA 21.9813 22 whole (0.40) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson
+  - star rows: J Ras Algethi → J Makemake Dec 18.9950 19 whole (55.88) — also: 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+- **Quaoar**
+  - star rows: H Algorab → H Quaoar RA 83.9944 84 whole (52.13) — only
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - star rows: H Ras Algethi → H Quaoar Dec 30.0198 30 whole (0.01) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris
+    - source line: S Jupiter → Ras Algethi RA 72.9970 73 whole (72.07)
+- **Ketu**
+  - star rows: H Algorab → H Ketu Dec 0.1084 conj (40.80) — also: 3 Raise The Roof / Luke Morris, 4 Beating All / Ben Curtis
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - star rows: H Diadem → H Ketu RA 119.7139 74×φ golden (13.10) — also: 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - same body: S Ketu → J Ketu RA 155.5491 155.556 ninth (99.39) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson
+- **Ceres**
+  - star rows: H Diadem → H Ceres RA 62.9890 63 whole (20.22) — only
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - star rows: H Diadem → H Ceres Dec 14.0052 14 whole (54.45) — only
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - same body: S Ceres → J Ceres RA 77.6396 48×φ golden (loose) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis
+  - star rows: J Aculeus → J Ceres RA 127.8465 79×φ golden (10.60) — only
+    - source line: S Moon → Aculeus RA 155.5384 155.556 ninth (98.38)
+- **Sedna**
+  - star rows: H Diadem → H Sedna Dec 10.0007 10 whole (93.44) — also: 4 Beating All / Ben Curtis
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - star rows: J Diadem → J Sedna Dec 13.0184 13 whole (0.66) — also: 4 Beating All / Ben Curtis
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+- **Haumea**
+  - star rows: H Diadem → H Haumea Dec 1.0159 1 whole (4.26) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris, 5 Pallas Dancer / Ben Robinson
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - same body: S Haumea → J Haumea RA 22.6826 14×φ golden (loose) — also: 1 Dubai Souq / Sean Kirrane, 3 Raise The Roof / Luke Morris, 5 Pallas Dancer / Ben Robinson
+- **Eris**
+  - star rows: H Menkent → H Eris Dec 33.9781 21×φ golden (96.29) — also: 2 Athmad / Jason Hart
+    - source line: S Jupiter → Menkent RA 119.9965 120 whole (67.85)
+  - star rows: J Diadem → J Eris Dec 25.9813 26 whole (0.42) — also: 2 Athmad / Jason Hart
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+  - star rows: J Rigel → J Eris Dec 0.2516 conj (2.60) — also: 2 Athmad / Jason Hart
+    - source line: S Moon → Rigel RA 18.0045 18 whole (60.09)
+- **Rahu**
+  - same body: S Rahu → J Rahu RA 155.5491 155.556 ninth (99.39) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis, 5 Pallas Dancer / Ben Robinson
+  - top rows: S Sun → J Rahu Dec 33.9723 21×φ golden (64.27) — also: 3 Raise The Roof / Luke Morris
+  - star rows: J Algorab → J Rahu Dec 0.2084 conj (9.32) — also: 2 Athmad / Jason Hart, 3 Raise The Roof / Luke Morris
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
+  - star rows: J Sadalmelik → J Rahu Dec 15.9862 16 whole (9.57) — also: 1 Dubai Souq / Sean Kirrane, 2 Athmad / Jason Hart
+    - source line: S Jupiter → Sadalmelik RA 0.2115 conj (73.79)
+- **Venus**
+  - top rows: S Moon → J Venus Dec 40.4533 25×φ golden (85.51) — also: 1 Dubai Souq / Sean Kirrane
+  - star rows: J Diadem → J Venus RA 20.0054 20 whole (53.27) — also: 2 Athmad / Jason Hart, 4 Beating All / Ben Curtis
+    - source line: S Sun → Diadem Dec 0.1348 conj (30.32)
+- **Transpluto**
+  - top rows: S Moon → J Transpluto Dec 5.9942 6 whole (50.50) — only
+  - star rows: J Algorab → J Transpluto Dec 30.0059 30 whole (49.46) — only
+    - source line: S Moon → Algorab Dec 36.0037 36 whole (66.74)
