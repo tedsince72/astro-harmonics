@@ -189,6 +189,15 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   out of checks 2a, 2b, 4, 5, 7, 13, 15 (kept in 6, 9-12). Checks 2a, 2b, 4, 15 unchanged on all 39 files; added items: 9 +111, 13 +1, 6 +14,
   5 +6, 1 +4, 10-12 grown. Check 9 royal: 45 holders, 7 winners, 6.7 by chance (16 result races). Tests 70/70. Tests
   `python3 tests/eddie_basic_check.py` (Newcastle cases + the cell set of every _active.xlsx by its own reader). Run on all 37 _active files.
+- Body by body view (8 Nov 2026, Eddie's go-ahead; data only, no pick; from his Catterick 14:40 6 Apr 2022 Wotever Next read):
+  `python3 tools/eddie_bybody.py <race>_active.xlsx [--out DIR]` -> docs/eddie_read/bybody/<race>/<cloth>_<horse>.md (one per runner) +
+  <race>_bybody.json. Per body (24, no natal Moon): horse then jockey S X -> natal X RA / Dec, natal royal star - X RA then Dec,
+  contraparallels; 'Sky lines on the same target' (sky body / royal star pairs on the same family + target, conj not matched);
+  'Other scoring sky lines' (S Y - S X, S Y -> H X, S Y -> J X, conj incl.), each group highest score first. Its own scoring (Eddie,
+  8 Nov 2026; families.py unchanged): all linear; whole ±0.02, golden ±0.0324, φ powers ±0.15 %, ninths ±0.2 %, √2 / silver ±0.15 %,
+  conj RA < 1.5 / Dec < 0.3, opposition RA within 0.75 of 180, contraparallel |Dec a + Dec b| < 0.3; no 4-digit rule; overlaps: highest
+  score shown, the other families as 'also'. A chart with no META birth date has no lines (noted). Tests `python3 tests/eddie_bybody_check.py`
+  (Wotever Next = tests/ref/ verified file row for row; hand cases; own scorer; structure and order on every _active.xlsx).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
 - On the Mac: see `docs/MAC_SETUP.md` (venv with Python 3.12+, `pip install openpyxl`). Scripts call `python3.12`; inside the venv
