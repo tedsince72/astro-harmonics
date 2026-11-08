@@ -2076,7 +2076,19 @@
       "hits": []
      }
     ],
-    "matches": [],
+    "matches": [
+     {
+      "line": "S Sun → H Pluto",
+      "plane": "RA",
+      "value": 8.07981,
+      "hit": [
+       "golden",
+       "5×φ",
+       68.02486497075816
+      ],
+      "matches": "H Fomalhaut – H Pluto Dec"
+     }
+    ],
     "other": [
      {
       "line": "S Fomalhaut – S Pluto",
@@ -6491,6 +6503,18 @@
       "plane": "Dec",
       "value": 34.212272,
       "hits": []
+     },
+     {
+      "line": "H Sun – J Sun",
+      "plane": "RA",
+      "value": 65.1755435642047,
+      "hits": []
+     },
+     {
+      "line": "H Sun – J Sun",
+      "plane": "Dec",
+      "value": 19.897377464280652,
+      "hits": []
      }
     ],
     "matches": [
@@ -7032,6 +7056,18 @@
       "plane": "Dec",
       "value": 35.328773,
       "hits": []
+     },
+     {
+      "line": "H Mercury – J Mercury",
+      "plane": "RA",
+      "value": 61.17937751900831,
+      "hits": []
+     },
+     {
+      "line": "H Mercury – J Mercury",
+      "plane": "Dec",
+      "value": 11.94843636419239,
+      "hits": []
      }
     ],
     "matches": [],
@@ -7452,6 +7488,30 @@
         22.770104256499003
        ]
       ]
+     },
+     {
+      "line": "H Venus – J Venus",
+      "plane": "RA",
+      "value": 156.55196916588164,
+      "hits": []
+     },
+     {
+      "line": "H Venus – J Venus",
+      "plane": "Dec",
+      "value": 33.5929572478569,
+      "hits": []
+     },
+     {
+      "line": "H Venus – J Venus",
+      "plane": "Dec contraparallel",
+      "value": 0.10816383537115826,
+      "hits": [
+       [
+        "contraparallel",
+        "cp",
+        63.94538820961392
+       ]
+      ]
      }
     ],
     "matches": [
@@ -7465,6 +7525,17 @@
        95.46509648142016
       ],
       "matches": "J Aldebaran – J Venus Dec contraparallel"
+     },
+     {
+      "line": "S Ceres – S Vesta",
+      "plane": "Dec contraparallel",
+      "value": 0.01360471055573953,
+      "hit": [
+       "contraparallel",
+       "cp",
+       95.46509648142016
+      ],
+      "matches": "H Venus – J Venus Dec contraparallel"
      },
      {
       "line": "S Ketu – S Pallas",
@@ -7489,6 +7560,39 @@
       "matches": "J Antares – J Venus Dec"
      },
      {
+      "line": "S Juno → H Venus",
+      "plane": "RA",
+      "value": 133.409724,
+      "hit": [
+       "ninth",
+       "133.333",
+       71.35337492838308
+      ],
+      "matches": "S Venus → H Venus RA"
+     },
+     {
+      "line": "S Chiron → J Venus",
+      "plane": "RA",
+      "value": 133.508481,
+      "hit": [
+       "ninth",
+       "133.333",
+       34.319499835806724
+      ],
+      "matches": "S Venus → H Venus RA"
+     },
+     {
+      "line": "S Vesta → H Venus",
+      "plane": "Dec",
+      "value": 4.879504,
+      "hit": [
+       "golden",
+       "3×φ",
+       21.59866126445946
+      ],
+      "matches": "H Regulus – H Venus Dec"
+     },
+     {
       "line": "S Jupiter – S Antares",
       "plane": "Dec",
       "value": 38.858835,
@@ -7511,6 +7615,17 @@
       "matches": "J Aldebaran – J Venus Dec contraparallel"
      },
      {
+      "line": "S Ketu – S Chiron",
+      "plane": "Dec contraparallel",
+      "value": 0.2722231494475862,
+      "hit": [
+       "contraparallel",
+       "cp",
+       9.258950184137936
+      ],
+      "matches": "H Venus – J Venus Dec contraparallel"
+     },
+     {
       "line": "S Venus – S Vesta",
       "plane": "Dec contraparallel",
       "value": 0.2817887233427818,
@@ -7520,6 +7635,17 @@
        6.070425552406056
       ],
       "matches": "J Aldebaran – J Venus Dec contraparallel"
+     },
+     {
+      "line": "S Venus – S Vesta",
+      "plane": "Dec contraparallel",
+      "value": 0.2817887233427818,
+      "hit": [
+       "contraparallel",
+       "cp",
+       6.070425552406056
+      ],
+      "matches": "H Venus – J Venus Dec contraparallel"
      },
      {
       "line": "S Uranus – S Ceres",
@@ -7997,6 +8123,24 @@
       "plane": "Dec",
       "value": 34.76278,
       "hits": []
+     },
+     {
+      "line": "H Mars – J Mars",
+      "plane": "RA",
+      "value": 2.638286807732129,
+      "hits": []
+     },
+     {
+      "line": "H Mars – J Mars",
+      "plane": "Dec",
+      "value": 0.013503556248647186,
+      "hits": [
+       [
+        "conj",
+        "0",
+        95.49881458378428
+       ]
+      ]
      }
     ],
     "matches": [],
@@ -8435,9 +8579,38 @@
       "plane": "Dec",
       "value": 7.291226,
       "hits": []
+     },
+     {
+      "line": "H Jupiter – J Jupiter",
+      "plane": "RA",
+      "value": 164.3792075851301,
+      "hits": []
+     },
+     {
+      "line": "H Jupiter – J Jupiter",
+      "plane": "Dec",
+      "value": 40.99006891129336,
+      "hits": [
+       [
+        "whole",
+        "41",
+        50.344556466816925
+       ]
+      ]
      }
     ],
     "matches": [
+     {
+      "line": "S Ceres → J Jupiter",
+      "plane": "Dec",
+      "value": 41.000541,
+      "hit": [
+       "whole",
+       "41",
+       97.29500000000826
+      ],
+      "matches": "H Jupiter – J Jupiter Dec"
+     },
      {
       "line": "S Mercury – S Sedna",
       "plane": "RA",
@@ -8855,6 +9028,18 @@
       "line": "J Regulus – J Saturn",
       "plane": "Dec",
       "value": 3.946894,
+      "hits": []
+     },
+     {
+      "line": "H Saturn – J Saturn",
+      "plane": "RA",
+      "value": 135.23960990153472,
+      "hits": []
+     },
+     {
+      "line": "H Saturn – J Saturn",
+      "plane": "Dec",
+      "value": 28.389572665639307,
       "hits": []
      }
     ],
@@ -9313,6 +9498,18 @@
       "plane": "Dec",
       "value": 29.469246,
       "hits": []
+     },
+     {
+      "line": "H Uranus – J Uranus",
+      "plane": "RA",
+      "value": 163.9449046557121,
+      "hits": []
+     },
+     {
+      "line": "H Uranus – J Uranus",
+      "plane": "Dec",
+      "value": 29.922552658890837,
+      "hits": []
      }
     ],
     "matches": [
@@ -9753,6 +9950,18 @@
       "plane": "Dec",
       "value": 33.605439,
       "hits": []
+     },
+     {
+      "line": "H Neptune – J Neptune",
+      "plane": "RA",
+      "value": 91.10613413955201,
+      "hits": []
+     },
+     {
+      "line": "H Neptune – J Neptune",
+      "plane": "Dec",
+      "value": 16.094644205698653,
+      "hits": []
      }
     ],
     "matches": [],
@@ -10175,6 +10384,18 @@
       "plane": "Dec",
       "value": 3.728939,
       "hits": []
+     },
+     {
+      "line": "H Pluto – J Pluto",
+      "plane": "RA",
+      "value": 91.90646317650237,
+      "hits": []
+     },
+     {
+      "line": "H Pluto – J Pluto",
+      "plane": "Dec",
+      "value": 30.2539086942349,
+      "hits": []
      }
     ],
     "matches": [
@@ -10210,6 +10431,17 @@
        41.917395840160104
       ],
       "matches": "H Regulus – H Pluto Dec"
+     },
+     {
+      "line": "S Saturn → J Pluto",
+      "plane": "RA",
+      "value": 132.655189,
+      "hit": [
+       "golden",
+       "82×φ",
+       27.166427495723642
+      ],
+      "matches": "H Aldebaran – H Pluto RA"
      }
     ],
     "other": [
@@ -10619,6 +10851,30 @@
       "plane": "Dec",
       "value": 8.042157,
       "hits": []
+     },
+     {
+      "line": "H Rahu – J Rahu",
+      "plane": "RA",
+      "value": 76.10890476051597,
+      "hits": [
+       [
+        "phi power",
+        "φ⁹",
+        16.02405992164999
+       ]
+      ]
+     },
+     {
+      "line": "H Rahu – J Rahu",
+      "plane": "Dec",
+      "value": 19.440129470839526,
+      "hits": [
+       [
+        "golden",
+        "12×φ",
+        26.785167158063516
+       ]
+      ]
      }
     ],
     "matches": [
@@ -11044,6 +11300,30 @@
       "plane": "Dec",
       "value": 15.889134,
       "hits": []
+     },
+     {
+      "line": "H Ketu – J Ketu",
+      "plane": "RA",
+      "value": 76.10890476051605,
+      "hits": [
+       [
+        "phi power",
+        "φ⁹",
+        16.02405992157521
+       ]
+      ]
+     },
+     {
+      "line": "H Ketu – J Ketu",
+      "plane": "Dec",
+      "value": 19.440129470839526,
+      "hits": [
+       [
+        "golden",
+        "12×φ",
+        26.785167158063516
+       ]
+      ]
      }
     ],
     "matches": [],
@@ -11512,6 +11792,18 @@
       "plane": "Dec",
       "value": 35.673497,
       "hits": []
+     },
+     {
+      "line": "H Ceres – J Ceres",
+      "plane": "RA",
+      "value": 2.5250873657709008,
+      "hits": []
+     },
+     {
+      "line": "H Ceres – J Ceres",
+      "plane": "Dec",
+      "value": 2.0778380876091305,
+      "hits": []
      }
     ],
     "matches": [
@@ -11977,6 +12269,18 @@
       "plane": "Dec",
       "value": 9.631048,
       "hits": []
+     },
+     {
+      "line": "H Pallas – J Pallas",
+      "plane": "RA",
+      "value": 2.7677198455733105,
+      "hits": []
+     },
+     {
+      "line": "H Pallas – J Pallas",
+      "plane": "Dec",
+      "value": 7.4112330536216025,
+      "hits": []
      }
     ],
     "matches": [
@@ -12368,9 +12672,33 @@
       "plane": "Dec",
       "value": 23.23548,
       "hits": []
+     },
+     {
+      "line": "H Juno – J Juno",
+      "plane": "RA",
+      "value": 128.46955325393358,
+      "hits": []
+     },
+     {
+      "line": "H Juno – J Juno",
+      "plane": "Dec",
+      "value": 10.449899812626334,
+      "hits": []
      }
     ],
-    "matches": [],
+    "matches": [
+     {
+      "line": "S Quaoar → J Juno",
+      "plane": "RA",
+      "value": 48.510121,
+      "hit": [
+       "golden",
+       "30×φ",
+       4.633757725763636
+      ],
+      "matches": "H Antares – H Juno RA"
+     }
+    ],
     "other": [
      {
       "line": "S Makemake – S Juno",
@@ -12806,6 +13134,24 @@
       "plane": "Dec",
       "value": 32.224582,
       "hits": []
+     },
+     {
+      "line": "H Vesta – J Vesta",
+      "plane": "RA",
+      "value": 100.2952996573818,
+      "hits": [
+       [
+        "golden",
+        "62×φ",
+        29.60603360591534
+       ]
+      ]
+     },
+     {
+      "line": "H Vesta – J Vesta",
+      "plane": "Dec",
+      "value": 37.05909803928171,
+      "hits": []
      }
     ],
     "matches": [],
@@ -13124,6 +13470,24 @@
         "conj",
         "0",
         0.7409999999999917
+       ]
+      ]
+     },
+     {
+      "line": "H Chiron – J Chiron",
+      "plane": "RA",
+      "value": 30.45633406526821,
+      "hits": []
+     },
+     {
+      "line": "H Chiron – J Chiron",
+      "plane": "Dec",
+      "value": 8.003261030279845,
+      "hits": [
+       [
+        "whole",
+        "8",
+        83.69484860077705
        ]
       ]
      }
@@ -13503,6 +13867,18 @@
       "line": "J Regulus – J Eris",
       "plane": "Dec",
       "value": 24.386942,
+      "hits": []
+     },
+     {
+      "line": "H Eris – J Eris",
+      "plane": "RA",
+      "value": 5.407945129147137,
+      "hits": []
+     },
+     {
+      "line": "H Eris – J Eris",
+      "plane": "Dec",
+      "value": 10.67455433913798,
       "hits": []
      }
     ],
@@ -14030,6 +14406,18 @@
         54.471458326201834
        ]
       ]
+     },
+     {
+      "line": "H Gonggong – J Gonggong",
+      "plane": "RA",
+      "value": 10.7945408843824,
+      "hits": []
+     },
+     {
+      "line": "H Gonggong – J Gonggong",
+      "plane": "Dec",
+      "value": 11.959468724408561,
+      "hits": []
      }
     ],
     "matches": [
@@ -14520,6 +14908,18 @@
       "plane": "Dec",
       "value": 11.955677,
       "hits": []
+     },
+     {
+      "line": "H Haumea – J Haumea",
+      "plane": "RA",
+      "value": 37.6750823827002,
+      "hits": []
+     },
+     {
+      "line": "H Haumea – J Haumea",
+      "plane": "Dec",
+      "value": 7.723619403806829,
+      "hits": []
      }
     ],
     "matches": [
@@ -14938,6 +15338,18 @@
       "line": "J Regulus – J Makemake",
       "plane": "Dec",
       "value": 26.592924,
+      "hits": []
+     },
+     {
+      "line": "H Makemake – J Makemake",
+      "plane": "RA",
+      "value": 40.029139909726496,
+      "hits": []
+     },
+     {
+      "line": "H Makemake – J Makemake",
+      "plane": "Dec",
+      "value": 14.787136718942758,
       "hits": []
      }
     ],
@@ -15424,6 +15836,18 @@
       "line": "J Regulus – J Orcus",
       "plane": "Dec",
       "value": 2.585046,
+      "hits": []
+     },
+     {
+      "line": "H Orcus – J Orcus",
+      "plane": "RA",
+      "value": 35.13870213801658,
+      "hits": []
+     },
+     {
+      "line": "H Orcus – J Orcus",
+      "plane": "Dec",
+      "value": 20.40731334110153,
       "hits": []
      }
     ],
@@ -15972,6 +16396,18 @@
       "plane": "Dec",
       "value": 23.484787,
       "hits": []
+     },
+     {
+      "line": "H Quaoar – J Quaoar",
+      "plane": "RA",
+      "value": 53.11893468975259,
+      "hits": []
+     },
+     {
+      "line": "H Quaoar – J Quaoar",
+      "plane": "Dec",
+      "value": 3.9356358384515797,
+      "hits": []
      }
     ],
     "matches": [
@@ -16390,6 +16826,18 @@
       "plane": "Dec",
       "value": 9.458185,
       "hits": []
+     },
+     {
+      "line": "H Sedna – J Sedna",
+      "plane": "RA",
+      "value": 20.62286728575912,
+      "hits": []
+     },
+     {
+      "line": "H Sedna – J Sedna",
+      "plane": "Dec",
+      "value": 5.378361480010286,
+      "hits": []
      }
     ],
     "matches": [
@@ -16754,6 +17202,18 @@
       "line": "J Regulus – J Transpluto",
       "plane": "Dec",
       "value": 3.442007,
+      "hits": []
+     },
+     {
+      "line": "H Transpluto – J Transpluto",
+      "plane": "RA",
+      "value": 13.3762813514617,
+      "hits": []
+     },
+     {
+      "line": "H Transpluto – J Transpluto",
+      "plane": "Dec",
+      "value": 4.617357430022471,
       "hits": []
      }
     ],
@@ -17177,9 +17637,122 @@
       "plane": "Dec",
       "value": 24.694854,
       "hits": []
+     },
+     {
+      "line": "H Sun – J Sun",
+      "plane": "RA",
+      "value": 179.45070003793515,
+      "hits": [
+       [
+        "phi power",
+        "10φ⁶",
+        97.0349171466126
+       ],
+       [
+        "opposition",
+        "180",
+        26.760005058019942
+       ]
+      ]
+     },
+     {
+      "line": "H Sun – J Sun",
+      "plane": "Dec",
+      "value": 25.254537716545073,
+      "hits": []
+     },
+     {
+      "line": "H Sun – J Sun",
+      "plane": "Dec contraparallel",
+      "value": 0.19909213058275022,
+      "hits": [
+       [
+        "contraparallel",
+        "cp",
+        33.63595647241659
+       ]
+      ]
      }
     ],
-    "matches": [],
+    "matches": [
+     {
+      "line": "S Ceres – S Vesta",
+      "plane": "Dec contraparallel",
+      "value": 0.01360471055573953,
+      "hit": [
+       "contraparallel",
+       "cp",
+       95.46509648142016
+      ],
+      "matches": "H Sun – J Sun Dec contraparallel"
+     },
+     {
+      "line": "S Moon → J Sun",
+      "plane": "Dec contraparallel",
+      "value": 0.038476465966409634,
+      "hit": [
+       "contraparallel",
+       "cp",
+       87.17451134453013
+      ],
+      "matches": "H Sun – J Sun Dec contraparallel"
+     },
+     {
+      "line": "S Venus – S Vesta",
+      "plane": "RA",
+      "value": 179.24612,
+      "hit": [
+       "phi power",
+       "10φ⁶",
+       26.95938441054707
+      ],
+      "matches": "H Sun – J Sun RA"
+     },
+     {
+      "line": "S Ketu – S Chiron",
+      "plane": "Dec contraparallel",
+      "value": 0.2722231494475862,
+      "hit": [
+       "contraparallel",
+       "cp",
+       9.258950184137936
+      ],
+      "matches": "H Sun – J Sun Dec contraparallel"
+     },
+     {
+      "line": "S Venus – S Vesta",
+      "plane": "Dec contraparallel",
+      "value": 0.2817887233427818,
+      "hit": [
+       "contraparallel",
+       "cp",
+       6.070425552406056
+      ],
+      "matches": "H Sun – J Sun Dec contraparallel"
+     },
+     {
+      "line": "S Moon → J Sun",
+      "plane": "RA",
+      "value": 179.184133,
+      "hit": [
+       "phi power",
+       "10φ⁶",
+       3.929936978003979
+      ],
+      "matches": "H Sun – J Sun RA"
+     },
+     {
+      "line": "S Jupiter → J Sun",
+      "plane": "Dec contraparallel",
+      "value": 0.2992223748628309,
+      "hit": [
+       "contraparallel",
+       "cp",
+       0.2592083790563712
+      ],
+      "matches": "H Sun – J Sun Dec contraparallel"
+     }
+    ],
     "other": [
      {
       "line": "S Gonggong – S Sun",
@@ -17680,6 +18253,24 @@
       "plane": "Dec",
       "value": 34.474898,
       "hits": []
+     },
+     {
+      "line": "H Mercury – J Mercury",
+      "plane": "RA",
+      "value": 153.6835917908918,
+      "hits": [
+       [
+        "golden",
+        "95×φ",
+        8.527344604233681
+       ]
+      ]
+     },
+     {
+      "line": "H Mercury – J Mercury",
+      "plane": "Dec",
+      "value": 33.23182509635022,
+      "hits": []
      }
     ],
     "matches": [
@@ -18018,9 +18609,95 @@
       "plane": "Dec",
       "value": 6.969643,
       "hits": []
+     },
+     {
+      "line": "H Venus – J Venus",
+      "plane": "RA",
+      "value": 177.9154402304159,
+      "hits": [
+       [
+        "ninth",
+        "177.778",
+        61.28249774392942
+       ]
+      ]
+     },
+     {
+      "line": "H Venus – J Venus",
+      "plane": "Dec",
+      "value": 10.118475927130506,
+      "hits": []
+     },
+     {
+      "line": "H Venus – J Venus",
+      "plane": "Dec contraparallel",
+      "value": 0.12168232764713593,
+      "hits": [
+       [
+        "contraparallel",
+        "cp",
+        59.43922411762136
+       ]
+      ]
      }
     ],
-    "matches": [],
+    "matches": [
+     {
+      "line": "S Ceres – S Vesta",
+      "plane": "Dec contraparallel",
+      "value": 0.01360471055573953,
+      "hit": [
+       "contraparallel",
+       "cp",
+       95.46509648142016
+      ],
+      "matches": "H Venus – J Venus Dec contraparallel"
+     },
+     {
+      "line": "S Gonggong – S Orcus",
+      "plane": "RA",
+      "value": 177.84477,
+      "hit": [
+       "ninth",
+       "177.778",
+       81.15850002355215
+      ],
+      "matches": "H Venus – J Venus RA"
+     },
+     {
+      "line": "S Ketu – S Chiron",
+      "plane": "Dec contraparallel",
+      "value": 0.2722231494475862,
+      "hit": [
+       "contraparallel",
+       "cp",
+       9.258950184137936
+      ],
+      "matches": "H Venus – J Venus Dec contraparallel"
+     },
+     {
+      "line": "S Venus – S Vesta",
+      "plane": "Dec contraparallel",
+      "value": 0.2817887233427818,
+      "hit": [
+       "contraparallel",
+       "cp",
+       6.070425552406056
+      ],
+      "matches": "H Venus – J Venus Dec contraparallel"
+     },
+     {
+      "line": "S Saturn – S Orcus",
+      "plane": "RA",
+      "value": 178.124223,
+      "hit": [
+       "ninth",
+       "177.778",
+       2.5623438718002993
+      ],
+      "matches": "H Venus – J Venus RA"
+     }
+    ],
     "other": [
      {
       "line": "S Regulus – S Venus",
@@ -18372,6 +19049,18 @@
       "line": "J Regulus – J Mars",
       "plane": "Dec",
       "value": 36.900442,
+      "hits": []
+     },
+     {
+      "line": "H Mars – J Mars",
+      "plane": "RA",
+      "value": 85.32854958628198,
+      "hits": []
+     },
+     {
+      "line": "H Mars – J Mars",
+      "plane": "Dec",
+      "value": 21.426398314588873,
       "hits": []
      }
     ],
@@ -18761,6 +19450,24 @@
       "plane": "Dec",
       "value": 2.133403,
       "hits": []
+     },
+     {
+      "line": "H Jupiter – J Jupiter",
+      "plane": "RA",
+      "value": 76.99652095329719,
+      "hits": [
+       [
+        "whole",
+        "77",
+        82.60476648596295
+       ]
+      ]
+     },
+     {
+      "line": "H Jupiter – J Jupiter",
+      "plane": "Dec",
+      "value": 13.191130380129964,
+      "hits": []
      }
     ],
     "matches": [
@@ -19062,6 +19769,18 @@
       "line": "J Regulus – J Saturn",
       "plane": "Dec",
       "value": 1.721776,
+      "hits": []
+     },
+     {
+      "line": "H Saturn – J Saturn",
+      "plane": "RA",
+      "value": 173.5190293627369,
+      "hits": []
+     },
+     {
+      "line": "H Saturn – J Saturn",
+      "plane": "Dec",
+      "value": 29.32186705679138,
       "hits": []
      }
     ],
@@ -19399,6 +20118,18 @@
       "line": "J Regulus – J Uranus",
       "plane": "Dec",
       "value": 29.574315,
+      "hits": []
+     },
+     {
+      "line": "H Uranus – J Uranus",
+      "plane": "RA",
+      "value": 57.09115897482246,
+      "hits": []
+     },
+     {
+      "line": "H Uranus – J Uranus",
+      "plane": "Dec",
+      "value": 22.321585786139956,
       "hits": []
      }
     ],
@@ -19837,6 +20568,18 @@
       "plane": "Dec",
       "value": 31.514178,
       "hits": []
+     },
+     {
+      "line": "H Neptune – J Neptune",
+      "plane": "RA",
+      "value": 34.961913327530795,
+      "hits": []
+     },
+     {
+      "line": "H Neptune – J Neptune",
+      "plane": "Dec",
+      "value": 9.888313693130518,
+      "hits": []
      }
     ],
     "matches": [],
@@ -20161,6 +20904,18 @@
       "plane": "Dec",
       "value": 22.919579,
       "hits": []
+     },
+     {
+      "line": "H Pluto – J Pluto",
+      "plane": "RA",
+      "value": 35.23075892129057,
+      "hits": []
+     },
+     {
+      "line": "H Pluto – J Pluto",
+      "plane": "Dec",
+      "value": 9.15946625892693,
+      "hits": []
      }
     ],
     "matches": [
@@ -20479,6 +21234,24 @@
       "line": "J Regulus – J Rahu",
       "plane": "Dec",
       "value": 6.101903,
+      "hits": []
+     },
+     {
+      "line": "H Rahu – J Rahu",
+      "plane": "RA",
+      "value": 74.9855156962513,
+      "hits": [
+       [
+        "whole",
+        "75",
+        27.57848125648934
+       ]
+      ]
+     },
+     {
+      "line": "H Rahu – J Rahu",
+      "plane": "Dec",
+      "value": 28.89530438788724,
       "hits": []
      }
     ],
@@ -20809,6 +21582,24 @@
       "line": "J Regulus – J Ketu",
       "plane": "Dec",
       "value": 30.037982,
+      "hits": []
+     },
+     {
+      "line": "H Ketu – J Ketu",
+      "plane": "RA",
+      "value": 74.98551569625135,
+      "hits": [
+       [
+        "whole",
+        "75",
+        27.578481256773557
+       ]
+      ]
+     },
+     {
+      "line": "H Ketu – J Ketu",
+      "plane": "Dec",
+      "value": 28.89530438788724,
       "hits": []
      }
     ],
@@ -21237,6 +22028,18 @@
       "plane": "Dec",
       "value": 2.23302,
       "hits": []
+     },
+     {
+      "line": "H Ceres – J Ceres",
+      "plane": "RA",
+      "value": 39.3551982137125,
+      "hits": []
+     },
+     {
+      "line": "H Ceres – J Ceres",
+      "plane": "Dec",
+      "value": 10.478115251935979,
+      "hits": []
      }
     ],
     "matches": [
@@ -21626,6 +22429,18 @@
       "line": "J Regulus – J Pallas",
       "plane": "Dec",
       "value": 31.052601,
+      "hits": []
+     },
+     {
+      "line": "H Pallas – J Pallas",
+      "plane": "RA",
+      "value": 29.540060152089694,
+      "hits": []
+     },
+     {
+      "line": "H Pallas – J Pallas",
+      "plane": "Dec",
+      "value": 29.22493282136965,
       "hits": []
      }
     ],
@@ -22102,6 +22917,30 @@
         94.51554865972311
        ]
       ]
+     },
+     {
+      "line": "H Juno – J Juno",
+      "plane": "RA",
+      "value": 133.179804532212,
+      "hits": [
+       [
+        "ninth",
+        "133.333",
+        42.42682443555908
+       ]
+      ]
+     },
+     {
+      "line": "H Juno – J Juno",
+      "plane": "Dec",
+      "value": 17.943043845549504,
+      "hits": [
+       [
+        "phi power",
+        "φ⁶",
+        95.43748758817068
+       ]
+      ]
      }
     ],
     "matches": [
@@ -22115,6 +22954,17 @@
        95.46509648142016
       ],
       "matches": "J Regulus – J Juno Dec contraparallel"
+     },
+     {
+      "line": "S Jupiter → H Juno",
+      "plane": "RA",
+      "value": 6.009192,
+      "hit": [
+       "whole",
+       "6",
+       54.040000000001776
+      ],
+      "matches": "H Regulus – H Juno Dec"
      },
      {
       "line": "S Eris – S Quaoar",
@@ -22548,6 +23398,18 @@
         17.349182102655877
        ]
       ]
+     },
+     {
+      "line": "H Vesta – J Vesta",
+      "plane": "RA",
+      "value": 6.7149987522006995,
+      "hits": []
+     },
+     {
+      "line": "H Vesta – J Vesta",
+      "plane": "Dec",
+      "value": 10.972745395710248,
+      "hits": []
      }
     ],
     "matches": [
@@ -23053,6 +23915,30 @@
         86.00249482535312
        ]
       ]
+     },
+     {
+      "line": "H Chiron – J Chiron",
+      "plane": "RA",
+      "value": 103.01762947288282,
+      "hits": [
+       [
+        "whole",
+        "103",
+        11.852635585916007
+       ]
+      ]
+     },
+     {
+      "line": "H Chiron – J Chiron",
+      "plane": "Dec",
+      "value": 16.000385980238587,
+      "hits": [
+       [
+        "whole",
+        "16",
+        98.07009880706588
+       ]
+      ]
      }
     ],
     "matches": [
@@ -23427,6 +24313,18 @@
       "line": "J Regulus – J Eris",
       "plane": "Dec",
       "value": 19.129465,
+      "hits": []
+     },
+     {
+      "line": "H Eris – J Eris",
+      "plane": "RA",
+      "value": 1.939741316774242,
+      "hits": []
+     },
+     {
+      "line": "H Eris – J Eris",
+      "plane": "Dec",
+      "value": 4.0602079078714475,
       "hits": []
      }
     ],
@@ -23925,9 +24823,38 @@
       "plane": "Dec",
       "value": 29.508298,
       "hits": []
+     },
+     {
+      "line": "H Gonggong – J Gonggong",
+      "plane": "RA",
+      "value": 4.428169357742036,
+      "hits": []
+     },
+     {
+      "line": "H Gonggong – J Gonggong",
+      "plane": "Dec",
+      "value": 4.443452304327531,
+      "hits": [
+       [
+        "ninth",
+        "4.44444",
+        88.8434225690668
+       ]
+      ]
      }
     ],
     "matches": [
+     {
+      "line": "S Neptune – S Ketu",
+      "plane": "Dec",
+      "value": 4.445315,
+      "hit": [
+       "ninth",
+       "4.44444",
+       90.20124902012415
+      ],
+      "matches": "H Gonggong – J Gonggong Dec"
+     },
      {
       "line": "S Orcus – S Antares",
       "plane": "Dec",
@@ -23938,6 +24865,17 @@
        79.47624948690516
       ],
       "matches": "H Antares – H Gonggong Dec"
+     },
+     {
+      "line": "S Orcus → J Gonggong",
+      "plane": "Dec",
+      "value": 4.447822,
+      "hit": [
+       "ninth",
+       "4.44444",
+       61.99749619974346
+      ],
+      "matches": "H Gonggong – J Gonggong Dec"
      },
      {
       "line": "S Juno – S Regulus",
@@ -23960,6 +24898,17 @@
        26.95938441054707
       ],
       "matches": "J Regulus – J Gonggong RA"
+     },
+     {
+      "line": "S Rahu – S Regulus",
+      "plane": "Dec",
+      "value": 4.436857,
+      "hit": [
+       "ninth",
+       "4.44444",
+       14.646241464624023
+      ],
+      "matches": "H Gonggong – J Gonggong Dec"
      }
     ],
     "other": [
@@ -24480,6 +25429,18 @@
       "plane": "Dec",
       "value": 8.570281,
       "hits": []
+     },
+     {
+      "line": "H Haumea – J Haumea",
+      "plane": "RA",
+      "value": 12.816759448351604,
+      "hits": []
+     },
+     {
+      "line": "H Haumea – J Haumea",
+      "plane": "Dec",
+      "value": 2.2626868398581195,
+      "hits": []
      }
     ],
     "matches": [
@@ -24873,6 +25834,18 @@
       "line": "J Regulus – J Makemake",
       "plane": "Dec",
       "value": 19.59811,
+      "hits": []
+     },
+     {
+      "line": "H Makemake – J Makemake",
+      "plane": "RA",
+      "value": 11.955811646064603,
+      "hits": []
+     },
+     {
+      "line": "H Makemake – J Makemake",
+      "plane": "Dec",
+      "value": 4.738994521302679,
       "hits": []
      }
     ],
@@ -25298,6 +26271,29 @@
       "plane": "Dec",
       "value": 13.25174,
       "hits": []
+     },
+     {
+      "line": "H Orcus – J Orcus",
+      "plane": "RA",
+      "value": 10.008997626852107,
+      "hits": [
+       [
+        "whole",
+        "10",
+        55.01186573946484
+       ],
+       [
+        "ninth",
+        "10",
+        55.006861240154706
+       ]
+      ]
+     },
+     {
+      "line": "H Orcus – J Orcus",
+      "plane": "Dec",
+      "value": 6.569654896535866,
+      "hits": []
      }
     ],
     "matches": [
@@ -25313,6 +26309,28 @@
       "matches": "J Aldebaran – J Orcus Dec"
      },
      {
+      "line": "S Eris – S Gonggong",
+      "plane": "Dec",
+      "value": 9.993079,
+      "hit": [
+       "ninth",
+       "10",
+       65.39999653999503
+      ],
+      "matches": "H Orcus – J Orcus RA"
+     },
+     {
+      "line": "S Eris – S Gonggong",
+      "plane": "Dec",
+      "value": 9.993079,
+      "hit": [
+       "whole",
+       "10",
+       65.39499999999911
+      ],
+      "matches": "H Orcus – J Orcus RA"
+     },
+     {
       "line": "S Venus – S Mars",
       "plane": "RA",
       "value": 17.792331,
@@ -25322,6 +26340,28 @@
        59.069688011630674
       ],
       "matches": "J Aldebaran – J Orcus Dec"
+     },
+     {
+      "line": "S Neptune – S Orcus",
+      "plane": "Dec",
+      "value": 10.009099,
+      "hit": [
+       "whole",
+       "10",
+       54.50499999999572
+      ],
+      "matches": "H Orcus – J Orcus RA"
+     },
+     {
+      "line": "S Neptune – S Orcus",
+      "plane": "Dec",
+      "value": 10.009099,
+      "hit": [
+       "ninth",
+       "10",
+       54.499995449999005
+      ],
+      "matches": "H Orcus – J Orcus RA"
      }
     ],
     "other": [
@@ -25724,6 +26764,18 @@
       "plane": "Dec",
       "value": 26.747685,
       "hits": []
+     },
+     {
+      "line": "H Quaoar – J Quaoar",
+      "plane": "RA",
+      "value": 20.837491102339413,
+      "hits": []
+     },
+     {
+      "line": "H Quaoar – J Quaoar",
+      "plane": "Dec",
+      "value": 0.7326761513923987,
+      "hits": []
      }
     ],
     "matches": [
@@ -26098,6 +27150,18 @@
       "plane": "Dec",
       "value": 6.801752,
       "hits": []
+     },
+     {
+      "line": "H Sedna – J Sedna",
+      "plane": "RA",
+      "value": 7.284036737967433,
+      "hits": []
+     },
+     {
+      "line": "H Sedna – J Sedna",
+      "plane": "Dec",
+      "value": 2.062365726994403,
+      "hits": []
      }
     ],
     "matches": [
@@ -26466,6 +27530,18 @@
       "line": "J Regulus – J Transpluto",
       "plane": "Dec",
       "value": 0.946735,
+      "hits": []
+     },
+     {
+      "line": "H Transpluto – J Transpluto",
+      "plane": "RA",
+      "value": 3.6738369403097124,
+      "hits": []
+     },
+     {
+      "line": "H Transpluto – J Transpluto",
+      "plane": "Dec",
+      "value": 1.3163755203145104,
       "hits": []
      }
     ],
@@ -26938,6 +28014,18 @@
         50.89000000000112
        ]
       ]
+     },
+     {
+      "line": "H Sun – J Sun",
+      "plane": "RA",
+      "value": 26.31210759340985,
+      "hits": []
+     },
+     {
+      "line": "H Sun – J Sun",
+      "plane": "Dec",
+      "value": 11.193107474950839,
+      "hits": []
      }
     ],
     "matches": [
@@ -27286,6 +28374,18 @@
         9.312725623872431
        ]
       ]
+     },
+     {
+      "line": "H Mercury – J Mercury",
+      "plane": "RA",
+      "value": 14.091278225788244,
+      "hits": []
+     },
+     {
+      "line": "H Mercury – J Mercury",
+      "plane": "Dec",
+      "value": 8.969460798972598,
+      "hits": []
      }
     ],
     "matches": [],
@@ -27729,6 +28829,18 @@
       "plane": "Dec",
       "value": 9.457289,
       "hits": []
+     },
+     {
+      "line": "H Venus – J Venus",
+      "plane": "RA",
+      "value": 42.846496147328956,
+      "hits": []
+     },
+     {
+      "line": "H Venus – J Venus",
+      "plane": "Dec",
+      "value": 19.470480093853222,
+      "hits": []
      }
     ],
     "matches": [
@@ -27819,6 +28931,17 @@
        41.2300000000009
       ],
       "matches": "J Aldebaran – J Venus Dec"
+     },
+     {
+      "line": "S Ceres → H Venus",
+      "plane": "Dec contraparallel",
+      "value": 0.234742048617413,
+      "hit": [
+       "contraparallel",
+       "cp",
+       21.752650460862334
+      ],
+      "matches": "S Venus → H Venus Dec contraparallel"
      },
      {
       "line": "S Ketu – S Chiron",
@@ -28258,6 +29381,18 @@
       "line": "J Regulus – J Mars",
       "plane": "Dec",
       "value": 24.819751,
+      "hits": []
+     },
+     {
+      "line": "H Mars – J Mars",
+      "plane": "RA",
+      "value": 81.74228424630263,
+      "hits": []
+     },
+     {
+      "line": "H Mars – J Mars",
+      "plane": "Dec",
+      "value": 8.5685248923673,
       "hits": []
      }
     ],
@@ -28726,6 +29861,18 @@
       "plane": "Dec",
       "value": 11.587489,
       "hits": []
+     },
+     {
+      "line": "H Jupiter – J Jupiter",
+      "plane": "RA",
+      "value": 68.10721217371201,
+      "hits": []
+     },
+     {
+      "line": "H Jupiter – J Jupiter",
+      "plane": "Dec",
+      "value": 21.797645487716355,
+      "hits": []
      }
     ],
     "matches": [
@@ -29115,9 +30262,32 @@
       "plane": "Dec",
       "value": 2.653332,
       "hits": []
+     },
+     {
+      "line": "H Saturn – J Saturn",
+      "plane": "RA",
+      "value": 86.31749898170676,
+      "hits": []
+     },
+     {
+      "line": "H Saturn – J Saturn",
+      "plane": "Dec",
+      "value": 29.47902425682423,
+      "hits": []
      }
     ],
     "matches": [
+     {
+      "line": "S Juno → J Saturn",
+      "plane": "RA",
+      "value": 141.387508,
+      "hit": [
+       "sqrt2",
+       "141.4",
+       84.04378791148778
+      ],
+      "matches": "J Antares – J Saturn RA"
+     },
      {
       "line": "S Jupiter – S Fomalhaut",
       "plane": "Dec",
@@ -29502,6 +30672,18 @@
         89.34904856062644
        ]
       ]
+     },
+     {
+      "line": "H Uranus – J Uranus",
+      "plane": "RA",
+      "value": 75.64497507179192,
+      "hits": []
+     },
+     {
+      "line": "H Uranus – J Uranus",
+      "plane": "Dec",
+      "value": 29.81197660563349,
+      "hits": []
      }
     ],
     "matches": [
@@ -29927,6 +31109,18 @@
       "plane": "Dec",
       "value": 31.122807,
       "hits": []
+     },
+     {
+      "line": "H Neptune – J Neptune",
+      "plane": "RA",
+      "value": 44.73009714861905,
+      "hits": []
+     },
+     {
+      "line": "H Neptune – J Neptune",
+      "plane": "Dec",
+      "value": 13.813020825950677,
+      "hits": []
      }
     ],
     "matches": [
@@ -30248,6 +31442,18 @@
       "line": "J Regulus – J Pluto",
       "plane": "Dec",
       "value": 22.482848,
+      "hits": []
+     },
+     {
+      "line": "H Pluto – J Pluto",
+      "plane": "RA",
+      "value": 46.0513245461523,
+      "hits": []
+     },
+     {
+      "line": "H Pluto – J Pluto",
+      "plane": "Dec",
+      "value": 11.483666783587012,
       "hits": []
      }
     ],
@@ -30667,6 +31873,18 @@
       "plane": "Dec",
       "value": 2.154294,
       "hits": []
+     },
+     {
+      "line": "H Rahu – J Rahu",
+      "plane": "RA",
+      "value": 51.71178087820407,
+      "hits": []
+     },
+     {
+      "line": "H Rahu – J Rahu",
+      "plane": "Dec",
+      "value": 9.291744021768041,
+      "hits": []
      }
     ],
     "matches": [],
@@ -31011,6 +32229,18 @@
       "plane": "Dec",
       "value": 26.084736,
       "hits": []
+     },
+     {
+      "line": "H Ketu – J Ketu",
+      "plane": "RA",
+      "value": 51.71178087820414,
+      "hits": []
+     },
+     {
+      "line": "H Ketu – J Ketu",
+      "plane": "Dec",
+      "value": 9.291744021768041,
+      "hits": []
      }
     ],
     "matches": [],
@@ -31336,6 +32566,18 @@
       "line": "J Regulus – J Ceres",
       "plane": "Dec",
       "value": 10.316095,
+      "hits": []
+     },
+     {
+      "line": "H Ceres – J Ceres",
+      "plane": "RA",
+      "value": 96.93209453074019,
+      "hits": []
+     },
+     {
+      "line": "H Ceres – J Ceres",
+      "plane": "Dec",
+      "value": 42.803215239429704,
       "hits": []
      }
     ],
@@ -31745,6 +32987,18 @@
       "line": "J Regulus – J Pallas",
       "plane": "Dec",
       "value": 20.647145,
+      "hits": []
+     },
+     {
+      "line": "H Pallas – J Pallas",
+      "plane": "RA",
+      "value": 83.3893664694209,
+      "hits": []
+     },
+     {
+      "line": "H Pallas – J Pallas",
+      "plane": "Dec",
+      "value": 20.41747534129011,
       "hits": []
      }
     ],
@@ -32208,6 +33462,24 @@
       "plane": "Dec",
       "value": 21.96293,
       "hits": []
+     },
+     {
+      "line": "H Juno – J Juno",
+      "plane": "RA",
+      "value": 53.4162275692652,
+      "hits": [
+       [
+        "golden",
+        "33×φ",
+        34.85820827570032
+       ]
+      ]
+     },
+     {
+      "line": "H Juno – J Juno",
+      "plane": "Dec",
+      "value": 11.17948144019855,
+      "hits": []
      }
     ],
     "matches": [
@@ -32223,6 +33495,17 @@
       "matches": "S Juno → H Juno Dec contraparallel"
      },
      {
+      "line": "S Transpluto → J Juno",
+      "plane": "Dec contraparallel",
+      "value": 0.13314164333482736,
+      "hit": [
+       "contraparallel",
+       "cp",
+       55.61945222172422
+      ],
+      "matches": "S Juno → H Juno Dec contraparallel"
+     },
+     {
       "line": "S Venus – S Vesta",
       "plane": "RA",
       "value": 179.24612,
@@ -32232,6 +33515,17 @@
        26.95938441054707
       ],
       "matches": "J Aldebaran – J Juno RA"
+     },
+     {
+      "line": "S Eris → H Juno",
+      "plane": "Dec contraparallel",
+      "value": 0.24511979569259956,
+      "hit": [
+       "contraparallel",
+       "cp",
+       18.293401435800142
+      ],
+      "matches": "S Juno → H Juno Dec contraparallel"
      },
      {
       "line": "S Ketu – S Chiron",
@@ -32691,6 +33985,18 @@
       "plane": "Dec",
       "value": 12.614118,
       "hits": []
+     },
+     {
+      "line": "H Vesta – J Vesta",
+      "plane": "RA",
+      "value": 72.96854519127058,
+      "hits": []
+     },
+     {
+      "line": "H Vesta – J Vesta",
+      "plane": "Dec",
+      "value": 6.285608237877341,
+      "hits": []
      }
     ],
     "matches": [],
@@ -33062,6 +34368,18 @@
       "line": "J Regulus – J Chiron",
       "plane": "Dec",
       "value": 29.563177,
+      "hits": []
+     },
+     {
+      "line": "H Chiron – J Chiron",
+      "plane": "RA",
+      "value": 121.4253974271642,
+      "hits": []
+     },
+     {
+      "line": "H Chiron – J Chiron",
+      "plane": "Dec",
+      "value": 22.168857979073575,
       "hits": []
      }
     ],
@@ -33435,6 +34753,18 @@
       "line": "J Regulus – J Eris",
       "plane": "Dec",
       "value": 19.127569,
+      "hits": []
+     },
+     {
+      "line": "H Eris – J Eris",
+      "plane": "RA",
+      "value": 2.8402837553152693,
+      "hits": []
+     },
+     {
+      "line": "H Eris – J Eris",
+      "plane": "Dec",
+      "value": 5.483945682887093,
       "hits": []
      }
     ],
@@ -33866,6 +35196,18 @@
       "line": "J Regulus – J Gonggong",
       "plane": "Dec",
       "value": 29.343675,
+      "hits": []
+     },
+     {
+      "line": "H Gonggong – J Gonggong",
+      "plane": "RA",
+      "value": 4.902514796008006,
+      "hits": []
+     },
+     {
+      "line": "H Gonggong – J Gonggong",
+      "plane": "Dec",
+      "value": 5.750959490096838,
       "hits": []
      }
     ],
@@ -34347,6 +35689,18 @@
       "plane": "Dec",
       "value": 9.478098,
       "hits": []
+     },
+     {
+      "line": "H Haumea – J Haumea",
+      "plane": "RA",
+      "value": 18.95439257430982,
+      "hits": []
+     },
+     {
+      "line": "H Haumea – J Haumea",
+      "plane": "Dec",
+      "value": 5.109144614697712,
+      "hits": []
      }
     ],
     "matches": [],
@@ -34684,6 +36038,18 @@
       "line": "J Regulus – J Makemake",
       "plane": "Dec",
       "value": 20.971614,
+      "hits": []
+     },
+     {
+      "line": "H Makemake – J Makemake",
+      "plane": "RA",
+      "value": 18.274717790306994,
+      "hits": []
+     },
+     {
+      "line": "H Makemake – J Makemake",
+      "plane": "Dec",
+      "value": 9.057181706825741,
       "hits": []
      }
     ],
@@ -35146,6 +36512,18 @@
       "line": "J Regulus – J Orcus",
       "plane": "Dec",
       "value": 12.852489,
+      "hits": []
+     },
+     {
+      "line": "H Orcus – J Orcus",
+      "plane": "RA",
+      "value": 17.57160457093468,
+      "hits": []
+     },
+     {
+      "line": "H Orcus – J Orcus",
+      "plane": "Dec",
+      "value": 10.021051904102872,
       "hits": []
      }
     ],
@@ -35717,6 +37095,18 @@
       "plane": "Dec",
       "value": 26.866956,
       "hits": []
+     },
+     {
+      "line": "H Quaoar – J Quaoar",
+      "plane": "RA",
+      "value": 27.792503846698622,
+      "hits": []
+     },
+     {
+      "line": "H Quaoar – J Quaoar",
+      "plane": "Dec",
+      "value": 0.5057799677238997,
+      "hits": []
      }
     ],
     "matches": [
@@ -36101,6 +37491,18 @@
       "line": "J Regulus – J Sedna",
       "plane": "Dec",
       "value": 6.912584,
+      "hits": []
+     },
+     {
+      "line": "H Sedna – J Sedna",
+      "plane": "RA",
+      "value": 11.491790804051135,
+      "hits": []
+     },
+     {
+      "line": "H Sedna – J Sedna",
+      "plane": "Dec",
+      "value": 2.8850155631844103,
       "hits": []
      }
     ],
@@ -36516,9 +37918,39 @@
       "plane": "Dec",
       "value": 1.268563,
       "hits": []
+     },
+     {
+      "line": "H Transpluto – J Transpluto",
+      "plane": "RA",
+      "value": 6.655312929180724,
+      "hits": [
+       [
+        "ninth",
+        "6.66667",
+        14.844473113202378
+       ]
+      ]
+     },
+     {
+      "line": "H Transpluto – J Transpluto",
+      "plane": "Dec",
+      "value": 2.402365607613609,
+      "hits": []
      }
     ],
-    "matches": [],
+    "matches": [
+     {
+      "line": "S Pluto – S Fomalhaut",
+      "plane": "Dec",
+      "value": 6.666472,
+      "hit": [
+       "ninth",
+       "6.66667",
+       98.53750007312041
+      ],
+      "matches": "H Transpluto – J Transpluto RA"
+     }
+    ],
     "other": [
      {
       "line": "S Sun – S Transpluto",
@@ -36897,6 +38329,18 @@
       "line": "J Regulus – J Sun",
       "plane": "Dec",
       "value": 4.643652,
+      "hits": []
+     },
+     {
+      "line": "H Sun – J Sun",
+      "plane": "RA",
+      "value": 171.3791566135217,
+      "hits": []
+     },
+     {
+      "line": "H Sun – J Sun",
+      "plane": "Dec",
+      "value": 11.050345547397622,
       "hits": []
      }
     ],
@@ -37385,9 +38829,38 @@
         25.010000000007437
        ]
       ]
+     },
+     {
+      "line": "H Mercury – J Mercury",
+      "plane": "RA",
+      "value": 174.7341264083546,
+      "hits": [
+       [
+        "golden",
+        "108×φ",
+        58.196368413399355
+       ]
+      ]
+     },
+     {
+      "line": "H Mercury – J Mercury",
+      "plane": "Dec",
+      "value": 9.363007835344176,
+      "hits": []
      }
     ],
     "matches": [
+     {
+      "line": "S Jupiter → H Mercury",
+      "plane": "RA",
+      "value": 26.993828,
+      "hit": [
+       "whole",
+       "27",
+       69.140000000003
+      ],
+      "matches": "S Mercury → H Mercury Dec"
+     },
      {
       "line": "S Sun – S Transpluto",
       "plane": "Dec",
@@ -37812,6 +39285,18 @@
       "plane": "Dec",
       "value": 6.978089,
       "hits": []
+     },
+     {
+      "line": "H Venus – J Venus",
+      "plane": "RA",
+      "value": 112.34805762342687,
+      "hits": []
+     },
+     {
+      "line": "H Venus – J Venus",
+      "plane": "Dec",
+      "value": 17.887611284571737,
+      "hits": []
      }
     ],
     "matches": [
@@ -38209,6 +39694,18 @@
       "plane": "Dec",
       "value": 9.825944,
       "hits": []
+     },
+     {
+      "line": "H Mars – J Mars",
+      "plane": "RA",
+      "value": 147.60668960085732,
+      "hits": []
+     },
+     {
+      "line": "H Mars – J Mars",
+      "plane": "Dec",
+      "value": 45.07544712663124,
+      "hits": []
      }
     ],
     "matches": [],
@@ -38562,6 +40059,18 @@
       "line": "J Regulus – J Jupiter",
       "plane": "Dec",
       "value": 35.362675,
+      "hits": []
+     },
+     {
+      "line": "H Jupiter – J Jupiter",
+      "plane": "RA",
+      "value": 47.68935904169439,
+      "hits": []
+     },
+     {
+      "line": "H Jupiter – J Jupiter",
+      "plane": "Dec",
+      "value": 6.051939357443601,
       "hits": []
      }
     ],
@@ -38961,6 +40470,24 @@
       "plane": "Dec",
       "value": 12.058259,
       "hits": []
+     },
+     {
+      "line": "H Saturn – J Saturn",
+      "plane": "RA",
+      "value": 87.90174894621777,
+      "hits": []
+     },
+     {
+      "line": "H Saturn – J Saturn",
+      "plane": "Dec",
+      "value": 22.244872892394397,
+      "hits": [
+       [
+        "ninth",
+        "22.2222",
+        49.035491602957435
+       ]
+      ]
      }
     ],
     "matches": [
@@ -38974,6 +40501,17 @@
        93.90515432877109
       ],
       "matches": "H Aldebaran – H Saturn Dec"
+     },
+     {
+      "line": "S Eris – S Makemake",
+      "plane": "Dec",
+      "value": 22.203076,
+      "hit": [
+       "ninth",
+       "22.2222",
+       56.921499569216756
+      ],
+      "matches": "H Saturn – J Saturn Dec"
      },
      {
       "line": "S Jupiter – S Antares",
@@ -39314,6 +40852,18 @@
       "line": "J Regulus – J Uranus",
       "plane": "Dec",
       "value": 32.450604,
+      "hits": []
+     },
+     {
+      "line": "H Uranus – J Uranus",
+      "plane": "RA",
+      "value": 80.86631743284107,
+      "hits": []
+     },
+     {
+      "line": "H Uranus – J Uranus",
+      "plane": "Dec",
+      "value": 30.081409515326243,
       "hits": []
      }
     ],
@@ -39699,6 +41249,18 @@
       "line": "J Regulus – J Neptune",
       "plane": "Dec",
       "value": 32.58011,
+      "hits": []
+     },
+     {
+      "line": "H Neptune – J Neptune",
+      "plane": "RA",
+      "value": 48.38325351874789,
+      "hits": []
+     },
+     {
+      "line": "H Neptune – J Neptune",
+      "plane": "Dec",
+      "value": 13.457632280814366,
       "hits": []
      }
     ],
@@ -40152,6 +41714,18 @@
       "line": "J Regulus – J Pluto",
       "plane": "Dec",
       "value": 19.695011,
+      "hits": []
+     },
+     {
+      "line": "H Pluto – J Pluto",
+      "plane": "RA",
+      "value": 51.16904761925258,
+      "hits": []
+     },
+     {
+      "line": "H Pluto – J Pluto",
+      "plane": "Dec",
+      "value": 13.78512768283147,
       "hits": []
      }
     ],
@@ -40622,6 +42196,24 @@
       "plane": "Dec",
       "value": 15.279333,
       "hits": []
+     },
+     {
+      "line": "H Rahu – J Rahu",
+      "plane": "RA",
+      "value": 51.000311241265706,
+      "hits": [
+       [
+        "whole",
+        "51",
+        98.44379367146985
+       ]
+      ]
+     },
+     {
+      "line": "H Rahu – J Rahu",
+      "plane": "Dec",
+      "value": 19.87771848400667,
+      "hits": []
      }
     ],
     "matches": [
@@ -41062,6 +42654,24 @@
       "plane": "Dec",
       "value": 8.658948,
       "hits": []
+     },
+     {
+      "line": "H Ketu – J Ketu",
+      "plane": "RA",
+      "value": 51.000311241265706,
+      "hits": [
+       [
+        "whole",
+        "51",
+        98.44379367146985
+       ]
+      ]
+     },
+     {
+      "line": "H Ketu – J Ketu",
+      "plane": "Dec",
+      "value": 19.87771848400667,
+      "hits": []
      }
     ],
     "matches": [
@@ -41086,6 +42696,17 @@
        59.58376910641009
       ],
       "matches": "J Regulus – J Ketu RA"
+     },
+     {
+      "line": "S Neptune → J Ketu",
+      "plane": "Dec contraparallel",
+      "value": 0.226854784351465,
+      "hit": [
+       "contraparallel",
+       "cp",
+       24.381738549511663
+      ],
+      "matches": "H Aldebaran – H Ketu Dec contraparallel"
      },
      {
       "line": "S Ketu – S Chiron",
@@ -41534,6 +43155,24 @@
       "plane": "Dec",
       "value": 35.098175,
       "hits": []
+     },
+     {
+      "line": "H Ceres – J Ceres",
+      "plane": "RA",
+      "value": 114.99826927165762,
+      "hits": [
+       [
+        "whole",
+        "115",
+        91.34635828809792
+       ]
+      ]
+     },
+     {
+      "line": "H Ceres – J Ceres",
+      "plane": "Dec",
+      "value": 55.17122028181127,
+      "hits": []
      }
     ],
     "matches": [
@@ -41940,6 +43579,18 @@
       "plane": "Dec",
       "value": 0.804276,
       "hits": []
+     },
+     {
+      "line": "H Pallas – J Pallas",
+      "plane": "RA",
+      "value": 169.75109896168652,
+      "hits": []
+     },
+     {
+      "line": "H Pallas – J Pallas",
+      "plane": "Dec",
+      "value": 24.826390788622902,
+      "hits": []
      }
     ],
     "matches": [
@@ -41964,6 +43615,17 @@
        82.91934082935849
       ],
       "matches": "J Fomalhaut – J Pallas Dec"
+     },
+     {
+      "line": "S Eris → H Pallas",
+      "plane": "Dec",
+      "value": 11.116322,
+      "hit": [
+       "ninth",
+       "11.1111",
+       76.55049976550066
+      ],
+      "matches": "S Pallas → J Pallas RA"
      },
      {
       "line": "S Juno – S Orcus",
@@ -42397,6 +44059,18 @@
       "line": "J Regulus – J Juno",
       "plane": "Dec",
       "value": 9.19967,
+      "hits": []
+     },
+     {
+      "line": "H Juno – J Juno",
+      "plane": "RA",
+      "value": 40.211891899822035,
+      "hits": []
+     },
+     {
+      "line": "H Juno – J Juno",
+      "plane": "Dec",
+      "value": 8.928242903148423,
       "hits": []
      }
     ],
@@ -42944,6 +44618,18 @@
       "plane": "Dec",
       "value": 29.893701,
       "hits": []
+     },
+     {
+      "line": "H Vesta – J Vesta",
+      "plane": "RA",
+      "value": 25.171700015301724,
+      "hits": []
+     },
+     {
+      "line": "H Vesta – J Vesta",
+      "plane": "Dec",
+      "value": 0.5139728408754287,
+      "hits": []
      }
     ],
     "matches": [
@@ -43411,6 +45097,18 @@
         85.56029420259242
        ]
       ]
+     },
+     {
+      "line": "H Chiron – J Chiron",
+      "plane": "RA",
+      "value": 163.33219191484918,
+      "hits": []
+     },
+     {
+      "line": "H Chiron – J Chiron",
+      "plane": "Dec",
+      "value": 9.112564647515446,
+      "hits": []
      }
     ],
     "matches": [
@@ -43424,6 +45122,17 @@
        99.34617647442985
       ],
       "matches": "J Regulus – J Chiron Dec"
+     },
+     {
+      "line": "S Makemake → H Chiron",
+      "plane": "RA",
+      "value": 155.579174,
+      "hit": [
+       "ninth",
+       "155.556",
+       92.40850002169032
+      ],
+      "matches": "H Regulus – H Chiron RA"
      },
      {
       "line": "S Ketu – S Antares",
@@ -43792,6 +45501,18 @@
       "line": "J Regulus – J Eris",
       "plane": "Dec",
       "value": 19.715544,
+      "hits": []
+     },
+     {
+      "line": "H Eris – J Eris",
+      "plane": "RA",
+      "value": 1.9696461342169798,
+      "hits": []
+     },
+     {
+      "line": "H Eris – J Eris",
+      "plane": "Dec",
+      "value": 5.467327920219921,
       "hits": []
      }
     ],
@@ -44326,6 +46047,18 @@
       "plane": "Dec",
       "value": 30.299747,
       "hits": []
+     },
+     {
+      "line": "H Gonggong – J Gonggong",
+      "plane": "RA",
+      "value": 5.18657362794454,
+      "hits": []
+     },
+     {
+      "line": "H Gonggong – J Gonggong",
+      "plane": "Dec",
+      "value": 6.11668290325086,
+      "hits": []
      }
     ],
     "matches": [
@@ -44337,6 +46070,17 @@
        "contraparallel",
        "cp",
        95.46509648142016
+      ],
+      "matches": "H Regulus – H Gonggong Dec contraparallel"
+     },
+     {
+      "line": "S Jupiter → H Gonggong",
+      "plane": "Dec contraparallel",
+      "value": 0.21366938032639027,
+      "hit": [
+       "contraparallel",
+       "cp",
+       28.776873224536573
       ],
       "matches": "H Regulus – H Gonggong Dec contraparallel"
      },
@@ -44731,6 +46475,18 @@
       "line": "J Regulus – J Haumea",
       "plane": "Dec",
       "value": 9.547861,
+      "hits": []
+     },
+     {
+      "line": "H Haumea – J Haumea",
+      "plane": "RA",
+      "value": 20.911133615801106,
+      "hits": []
+     },
+     {
+      "line": "H Haumea – J Haumea",
+      "plane": "Dec",
+      "value": 4.750376386799552,
       "hits": []
      }
     ],
@@ -45172,6 +46928,18 @@
       "plane": "Dec",
       "value": 20.976229,
       "hits": []
+     },
+     {
+      "line": "H Makemake – J Makemake",
+      "plane": "RA",
+      "value": 20.09082676789842,
+      "hits": []
+     },
+     {
+      "line": "H Makemake – J Makemake",
+      "plane": "Dec",
+      "value": 8.239919500729414,
+      "hits": []
      }
     ],
     "matches": [],
@@ -45596,6 +47364,18 @@
       "line": "J Regulus – J Orcus",
       "plane": "Dec",
       "value": 11.282426,
+      "hits": []
+     },
+     {
+      "line": "H Orcus – J Orcus",
+      "plane": "RA",
+      "value": 17.195527066593712,
+      "hits": []
+     },
+     {
+      "line": "H Orcus – J Orcus",
+      "plane": "Dec",
+      "value": 10.802743982186037,
       "hits": []
      }
     ],
@@ -46036,6 +47816,18 @@
       "plane": "Dec",
       "value": 26.134329,
       "hits": []
+     },
+     {
+      "line": "H Quaoar – J Quaoar",
+      "plane": "RA",
+      "value": 30.856133652115176,
+      "hits": []
+     },
+     {
+      "line": "H Quaoar – J Quaoar",
+      "plane": "Dec",
+      "value": 1.393889375710149,
+      "hits": []
      }
     ],
     "matches": [
@@ -46434,6 +48226,18 @@
         13.159999999998641
        ]
       ]
+     },
+     {
+      "line": "H Sedna – J Sedna",
+      "plane": "RA",
+      "value": 10.32713800255739,
+      "hits": []
+     },
+     {
+      "line": "H Sedna – J Sedna",
+      "plane": "Dec",
+      "value": 2.6510917865823425,
+      "hits": []
      }
     ],
     "matches": [
@@ -46852,9 +48656,38 @@
         88.71538114319252
        ]
       ]
+     },
+     {
+      "line": "H Transpluto – J Transpluto",
+      "plane": "RA",
+      "value": 6.678323991840699,
+      "hits": [
+       [
+        "ninth",
+        "6.66667",
+        12.572565566130772
+       ]
+      ]
+     },
+     {
+      "line": "H Transpluto – J Transpluto",
+      "plane": "Dec",
+      "value": 2.39476034056929,
+      "hits": []
      }
     ],
     "matches": [
+     {
+      "line": "S Pluto – S Fomalhaut",
+      "plane": "Dec",
+      "value": 6.666472,
+      "hit": [
+       "ninth",
+       "6.66667",
+       98.53750007312041
+      ],
+      "matches": "H Transpluto – J Transpluto RA"
+     },
      {
       "line": "S Makemake – S Quaoar",
       "plane": "RA",
@@ -47244,6 +49077,18 @@
       "line": "J Regulus – J Sun",
       "plane": "Dec",
       "value": 26.115036,
+      "hits": []
+     },
+     {
+      "line": "H Sun – J Sun",
+      "plane": "RA",
+      "value": 86.22623191866091,
+      "hits": []
+     },
+     {
+      "line": "H Sun – J Sun",
+      "plane": "Dec",
+      "value": 6.087434684784789,
       "hits": []
      }
     ],
@@ -47712,9 +49557,49 @@
       "plane": "Dec",
       "value": 18.586855,
       "hits": []
+     },
+     {
+      "line": "H Mercury – J Mercury",
+      "plane": "RA",
+      "value": 108.87274237274647,
+      "hits": []
+     },
+     {
+      "line": "H Mercury – J Mercury",
+      "plane": "Dec",
+      "value": 14.15319461547205,
+      "hits": [
+       [
+        "sqrt2",
+        "14.14",
+        47.86741297855547
+       ]
+      ]
      }
     ],
     "matches": [
+     {
+      "line": "S Rahu → J Mercury",
+      "plane": "Dec",
+      "value": 14.147613,
+      "hit": [
+       "sqrt2",
+       "14.14",
+       74.17940064696899
+      ],
+      "matches": "H Mercury – J Mercury Dec"
+     },
+     {
+      "line": "S Moon – S Juno",
+      "plane": "Dec",
+      "value": 14.149573,
+      "hit": [
+       "sqrt2",
+       "14.14",
+       64.93987203946286
+      ],
+      "matches": "H Mercury – J Mercury Dec"
+     },
      {
       "line": "S Mercury – S Sedna",
       "plane": "RA",
@@ -48192,6 +50077,18 @@
       "plane": "Dec",
       "value": 32.933702,
       "hits": []
+     },
+     {
+      "line": "H Venus – J Venus",
+      "plane": "RA",
+      "value": 122.56075874859002,
+      "hits": []
+     },
+     {
+      "line": "H Venus – J Venus",
+      "plane": "Dec",
+      "value": 11.047824290497138,
+      "hits": []
      }
     ],
     "matches": [],
@@ -48648,6 +50545,18 @@
       "line": "J Regulus – J Mars",
       "plane": "Dec",
       "value": 6.087901,
+      "hits": []
+     },
+     {
+      "line": "H Mars – J Mars",
+      "plane": "RA",
+      "value": 112.57981659725348,
+      "hits": []
+     },
+     {
+      "line": "H Mars – J Mars",
+      "plane": "Dec",
+      "value": 40.036869787396384,
       "hits": []
      }
     ],
@@ -49170,6 +51079,18 @@
       "plane": "Dec",
       "value": 29.327556,
       "hits": []
+     },
+     {
+      "line": "H Jupiter – J Jupiter",
+      "plane": "RA",
+      "value": 52.50686304705138,
+      "hits": []
+     },
+     {
+      "line": "H Jupiter – J Jupiter",
+      "plane": "Dec",
+      "value": 5.576093018555699,
+      "hits": []
      }
     ],
     "matches": [],
@@ -49559,6 +51480,18 @@
       "line": "J Regulus – J Saturn",
       "plane": "Dec",
       "value": 23.139662,
+      "hits": []
+     },
+     {
+      "line": "H Saturn – J Saturn",
+      "plane": "RA",
+      "value": 43.06135668705082,
+      "hits": []
+     },
+     {
+      "line": "H Saturn – J Saturn",
+      "plane": "Dec",
+      "value": 10.20567092437651,
       "hits": []
      }
     ],
@@ -49986,6 +51919,18 @@
         90.60566744509181
        ]
       ]
+     },
+     {
+      "line": "H Uranus – J Uranus",
+      "plane": "RA",
+      "value": 95.66011025592138,
+      "hits": []
+     },
+     {
+      "line": "H Uranus – J Uranus",
+      "plane": "Dec",
+      "value": 33.86300941263476,
+      "hits": []
      }
     ],
     "matches": [
@@ -50365,6 +52310,24 @@
       "plane": "Dec",
       "value": 33.219281,
       "hits": []
+     },
+     {
+      "line": "H Neptune – J Neptune",
+      "plane": "RA",
+      "value": 55.45948850363675,
+      "hits": [
+       [
+        "ninth",
+        "55.5556",
+        13.539253964757217
+       ]
+      ]
+     },
+     {
+      "line": "H Neptune – J Neptune",
+      "plane": "Dec",
+      "value": 14.966274549409196,
+      "hits": []
      }
     ],
     "matches": [],
@@ -50702,6 +52665,18 @@
       "plane": "Dec",
       "value": 18.528143,
       "hits": []
+     },
+     {
+      "line": "H Pluto – J Pluto",
+      "plane": "RA",
+      "value": 56.69369752996599,
+      "hits": []
+     },
+     {
+      "line": "H Pluto – J Pluto",
+      "plane": "Dec",
+      "value": 15.628064877349098,
+      "hits": []
      }
     ],
     "matches": [],
@@ -51038,6 +53013,18 @@
         31.238102130503616
        ]
       ]
+     },
+     {
+      "line": "H Rahu – J Rahu",
+      "plane": "RA",
+      "value": 123.65148945259274,
+      "hits": []
+     },
+     {
+      "line": "H Rahu – J Rahu",
+      "plane": "Dec",
+      "value": 39.49582057550407,
+      "hits": []
      }
     ],
     "matches": [
@@ -51084,6 +53071,17 @@
        38.28249845706215
       ],
       "matches": "J Fomalhaut – J Rahu Dec"
+     },
+     {
+      "line": "S Pluto → H Rahu",
+      "plane": "Dec contraparallel",
+      "value": 0.23164772942826772,
+      "hit": [
+       "contraparallel",
+       "cp",
+       22.784090190577423
+      ],
+      "matches": "J Aldebaran – J Rahu Dec contraparallel"
      },
      {
       "line": "S Ketu – S Chiron",
@@ -51501,6 +53499,18 @@
       "line": "J Regulus – J Ketu",
       "plane": "Dec",
       "value": 4.336381,
+      "hits": []
+     },
+     {
+      "line": "H Ketu – J Ketu",
+      "plane": "RA",
+      "value": 123.65148945259284,
+      "hits": []
+     },
+     {
+      "line": "H Ketu – J Ketu",
+      "plane": "Dec",
+      "value": 39.49582057550407,
       "hits": []
      }
     ],
@@ -51948,6 +53958,18 @@
       "plane": "Dec",
       "value": 10.258711,
       "hits": []
+     },
+     {
+      "line": "H Ceres – J Ceres",
+      "plane": "RA",
+      "value": 161.05033485924272,
+      "hits": []
+     },
+     {
+      "line": "H Ceres – J Ceres",
+      "plane": "Dec",
+      "value": 47.64345235842582,
+      "hits": []
      }
     ],
     "matches": [],
@@ -52301,6 +54323,18 @@
       "line": "J Regulus – J Pallas",
       "plane": "Dec",
       "value": 37.401482,
+      "hits": []
+     },
+     {
+      "line": "H Pallas – J Pallas",
+      "plane": "RA",
+      "value": 148.24496511470826,
+      "hits": []
+     },
+     {
+      "line": "H Pallas – J Pallas",
+      "plane": "Dec",
+      "value": 29.857432368252855,
       "hits": []
      }
     ],
@@ -52747,6 +54781,18 @@
         87.64500000000055
        ]
       ]
+     },
+     {
+      "line": "H Juno – J Juno",
+      "plane": "RA",
+      "value": 30.241796144962393,
+      "hits": []
+     },
+     {
+      "line": "H Juno – J Juno",
+      "plane": "Dec",
+      "value": 3.7023526502176995,
+      "hits": []
      }
     ],
     "matches": [
@@ -53276,6 +55322,18 @@
       "plane": "Dec",
       "value": 7.330048,
       "hits": []
+     },
+     {
+      "line": "H Vesta – J Vesta",
+      "plane": "RA",
+      "value": 58.850365182809526,
+      "hits": []
+     },
+     {
+      "line": "H Vesta – J Vesta",
+      "plane": "Dec",
+      "value": 8.52116899256902,
+      "hits": []
      }
     ],
     "matches": [],
@@ -53688,9 +55746,38 @@
       "plane": "Dec",
       "value": 12.764886,
       "hits": []
+     },
+     {
+      "line": "H Chiron – J Chiron",
+      "plane": "RA",
+      "value": 170.3868959338855,
+      "hits": []
+     },
+     {
+      "line": "H Chiron – J Chiron",
+      "plane": "Dec",
+      "value": 4.137205329800956,
+      "hits": [
+       [
+        "silver",
+        "4.14",
+        20.648116851499182
+       ]
+      ]
      }
     ],
     "matches": [
+     {
+      "line": "S Uranus – S Makemake",
+      "plane": "Dec",
+      "value": 4.145311,
+      "hit": [
+       "silver",
+       "4.14",
+       48.89309030412644
+      ],
+      "matches": "H Chiron – J Chiron Dec"
+     },
      {
       "line": "S Sun – S Ketu",
       "plane": "RA",
@@ -53701,6 +55788,17 @@
        44.25836035996075
       ],
       "matches": "J Aldebaran – J Chiron RA"
+     },
+     {
+      "line": "S Jupiter – S Sedna",
+      "plane": "Dec",
+      "value": 4.137032,
+      "hit": [
+       "silver",
+       "4.14",
+       17.858415809948067
+      ],
+      "matches": "H Chiron – J Chiron Dec"
      }
     ],
     "other": [
@@ -54043,6 +56141,24 @@
       "plane": "Dec",
       "value": 20.418903,
       "hits": []
+     },
+     {
+      "line": "H Eris – J Eris",
+      "plane": "RA",
+      "value": 2.7344738408336795,
+      "hits": []
+     },
+     {
+      "line": "H Eris – J Eris",
+      "plane": "Dec",
+      "value": 6.474663839344062,
+      "hits": [
+       [
+        "golden",
+        "4×φ",
+        92.19788782567068
+       ]
+      ]
      }
     ],
     "matches": [
@@ -54534,6 +56650,18 @@
       "plane": "Dec",
       "value": 30.961869,
       "hits": []
+     },
+     {
+      "line": "H Gonggong – J Gonggong",
+      "plane": "RA",
+      "value": 6.0212373218540165,
+      "hits": []
+     },
+     {
+      "line": "H Gonggong – J Gonggong",
+      "plane": "Dec",
+      "value": 7.057755796411799,
+      "hits": []
      }
     ],
     "matches": [
@@ -54569,6 +56697,17 @@
        81.15850002355215
       ],
       "matches": "J Regulus – J Gonggong RA"
+     },
+     {
+      "line": "S Pallas → H Gonggong",
+      "plane": "Dec",
+      "value": 14.43264,
+      "hit": [
+       "ninth",
+       "14.4444",
+       59.13999874276407
+      ],
+      "matches": "J Fomalhaut – J Gonggong RA"
      },
      {
       "line": "S Eris – S Quaoar",
@@ -55013,6 +57152,18 @@
       "plane": "Dec",
       "value": 9.484967,
       "hits": []
+     },
+     {
+      "line": "H Haumea – J Haumea",
+      "plane": "RA",
+      "value": 23.527293218052307,
+      "hits": []
+     },
+     {
+      "line": "H Haumea – J Haumea",
+      "plane": "Dec",
+      "value": 5.795166158177501,
+      "hits": []
      }
     ],
     "matches": [
@@ -55024,6 +57175,17 @@
        "golden",
        "26×φ",
        53.945347230662335
+      ],
+      "matches": "H Antares – H Haumea Dec"
+     },
+     {
+      "line": "S Sun → J Haumea",
+      "plane": "Dec",
+      "value": 42.094331,
+      "hit": [
+       "golden",
+       "26×φ",
+       21.45897375699715
       ],
       "matches": "H Antares – H Haumea Dec"
      },
@@ -55445,6 +57607,18 @@
       "line": "J Regulus – J Makemake",
       "plane": "Dec",
       "value": 21.419887,
+      "hits": []
+     },
+     {
+      "line": "H Makemake – J Makemake",
+      "plane": "RA",
+      "value": 22.872276116121895,
+      "hits": []
+     },
+     {
+      "line": "H Makemake – J Makemake",
+      "plane": "Dec",
+      "value": 10.150292423555161,
       "hits": []
      }
     ],
@@ -55926,6 +58100,18 @@
       "plane": "Dec",
       "value": 10.795827,
       "hits": []
+     },
+     {
+      "line": "H Orcus – J Orcus",
+      "plane": "RA",
+      "value": 20.74278485129409,
+      "hits": []
+     },
+     {
+      "line": "H Orcus – J Orcus",
+      "plane": "Dec",
+      "value": 12.446017925622128,
+      "hits": []
      }
     ],
     "matches": [
@@ -56335,6 +58521,18 @@
       "plane": "Dec",
       "value": 26.13082,
       "hits": []
+     },
+     {
+      "line": "H Quaoar – J Quaoar",
+      "plane": "RA",
+      "value": 34.160290085147466,
+      "hits": []
+     },
+     {
+      "line": "H Quaoar – J Quaoar",
+      "plane": "Dec",
+      "value": 1.449051143547889,
+      "hits": []
      }
     ],
     "matches": [
@@ -56702,6 +58900,24 @@
       "plane": "Dec",
       "value": 7.455974,
       "hits": []
+     },
+     {
+      "line": "H Sedna – J Sedna",
+      "plane": "RA",
+      "value": 12.809525955611342,
+      "hits": []
+     },
+     {
+      "line": "H Sedna – J Sedna",
+      "plane": "Dec",
+      "value": 3.2325132393112455,
+      "hits": [
+       [
+        "golden",
+        "2×φ",
+        89.02858583782609
+       ]
+      ]
      }
     ],
     "matches": [
@@ -57054,6 +59270,24 @@
       "line": "J Regulus – J Transpluto",
       "plane": "Dec",
       "value": 1.525371,
+      "hits": []
+     },
+     {
+      "line": "H Transpluto – J Transpluto",
+      "plane": "RA",
+      "value": 7.989663878867788,
+      "hits": [
+       [
+        "whole",
+        "8",
+        48.31939433893808
+       ]
+      ]
+     },
+     {
+      "line": "H Transpluto – J Transpluto",
+      "plane": "Dec",
+      "value": 2.879697912836761,
       "hits": []
      }
     ],
@@ -57483,6 +59717,18 @@
       "line": "J Regulus – J Sun",
       "plane": "Dec",
       "value": 4.724359,
+      "hits": []
+     },
+     {
+      "line": "H Sun – J Sun",
+      "plane": "RA",
+      "value": 9.245504902622358,
+      "hits": []
+     },
+     {
+      "line": "H Sun – J Sun",
+      "plane": "Dec",
+      "value": 3.8761535872600903,
       "hits": []
      }
     ],
@@ -57916,6 +60162,24 @@
       "plane": "Dec",
       "value": 3.951629,
       "hits": []
+     },
+     {
+      "line": "H Mercury – J Mercury",
+      "plane": "RA",
+      "value": 1.4344698413631605,
+      "hits": [
+       [
+        "conj",
+        "0",
+        4.368677242455969
+       ]
+      ]
+     },
+     {
+      "line": "H Mercury – J Mercury",
+      "plane": "Dec",
+      "value": 0.6120122488691226,
+      "hits": []
      }
     ],
     "matches": [],
@@ -58294,9 +60558,44 @@
       "plane": "Dec",
       "value": 22.168592,
       "hits": []
+     },
+     {
+      "line": "H Venus – J Venus",
+      "plane": "RA",
+      "value": 51.68148597447839,
+      "hits": []
+     },
+     {
+      "line": "H Venus – J Venus",
+      "plane": "Dec",
+      "value": 20.29756199115917,
+      "hits": []
+     },
+     {
+      "line": "H Venus – J Venus",
+      "plane": "Dec contraparallel",
+      "value": 0.10784111612906955,
+      "hits": [
+       [
+        "contraparallel",
+        "cp",
+        64.05296129031015
+       ]
+      ]
      }
     ],
     "matches": [
+     {
+      "line": "S Ceres – S Vesta",
+      "plane": "Dec contraparallel",
+      "value": 0.01360471055573953,
+      "hit": [
+       "contraparallel",
+       "cp",
+       95.46509648142016
+      ],
+      "matches": "H Venus – J Venus Dec contraparallel"
+     },
      {
       "line": "S Gonggong – S Orcus",
       "plane": "RA",
@@ -58307,6 +60606,39 @@
        81.15850002355215
       ],
       "matches": "J Regulus – J Venus RA"
+     },
+     {
+      "line": "S Transpluto → J Venus",
+      "plane": "Dec contraparallel",
+      "value": 0.07185057804078987,
+      "hit": [
+       "contraparallel",
+       "cp",
+       76.04980731973671
+      ],
+      "matches": "H Venus – J Venus Dec contraparallel"
+     },
+     {
+      "line": "S Ketu – S Chiron",
+      "plane": "Dec contraparallel",
+      "value": 0.2722231494475862,
+      "hit": [
+       "contraparallel",
+       "cp",
+       9.258950184137936
+      ],
+      "matches": "H Venus – J Venus Dec contraparallel"
+     },
+     {
+      "line": "S Venus – S Vesta",
+      "plane": "Dec contraparallel",
+      "value": 0.2817887233427818,
+      "hit": [
+       "contraparallel",
+       "cp",
+       6.070425552406056
+      ],
+      "matches": "H Venus – J Venus Dec contraparallel"
      },
      {
       "line": "S Saturn – S Orcus",
@@ -58732,6 +61064,18 @@
         86.4850000000005
        ]
       ]
+     },
+     {
+      "line": "H Mars – J Mars",
+      "plane": "RA",
+      "value": 107.82039750322386,
+      "hits": []
+     },
+     {
+      "line": "H Mars – J Mars",
+      "plane": "Dec",
+      "value": 33.528303298094755,
+      "hits": []
      }
     ],
     "matches": [],
@@ -59134,6 +61478,18 @@
       "plane": "Dec",
       "value": 18.798149,
       "hits": []
+     },
+     {
+      "line": "H Jupiter – J Jupiter",
+      "plane": "RA",
+      "value": 116.19947794342619,
+      "hits": []
+     },
+     {
+      "line": "H Jupiter – J Jupiter",
+      "plane": "Dec",
+      "value": 10.311039969910608,
+      "hits": []
      }
     ],
     "matches": [],
@@ -59418,9 +61774,50 @@
       "plane": "Dec",
       "value": 5.206446,
       "hits": []
+     },
+     {
+      "line": "H Saturn – J Saturn",
+      "plane": "RA",
+      "value": 102.59410549052666,
+      "hits": []
+     },
+     {
+      "line": "H Saturn – J Saturn",
+      "plane": "Dec",
+      "value": 29.039211395806753,
+      "hits": [
+       [
+        "phi power",
+        "φ⁷",
+        89.04854199909998
+       ]
+      ]
      }
     ],
-    "matches": [],
+    "matches": [
+     {
+      "line": "S Ceres – S Chiron",
+      "plane": "Dec",
+      "value": 29.0001,
+      "hit": [
+       "phi power",
+       "φ⁷",
+       21.14685971549472
+      ],
+      "matches": "H Saturn – J Saturn Dec"
+     },
+     {
+      "line": "S Moon – S Sedna",
+      "plane": "RA",
+      "value": 28.992946,
+      "hit": [
+       "phi power",
+       "φ⁷",
+       4.7203916009802835
+      ],
+      "matches": "H Saturn – J Saturn Dec"
+     }
+    ],
     "other": [
      {
       "line": "S Neptune – S Saturn",
@@ -59791,6 +62188,18 @@
       "line": "J Regulus – J Uranus",
       "plane": "Dec",
       "value": 29.718428,
+      "hits": []
+     },
+     {
+      "line": "H Uranus – J Uranus",
+      "plane": "RA",
+      "value": 70.54816053550502,
+      "hits": []
+     },
+     {
+      "line": "H Uranus – J Uranus",
+      "plane": "Dec",
+      "value": 27.697175515839106,
       "hits": []
      }
     ],
@@ -60172,6 +62581,24 @@
       "plane": "Dec",
       "value": 31.334357,
       "hits": []
+     },
+     {
+      "line": "H Neptune – J Neptune",
+      "plane": "RA",
+      "value": 41.99989691178769,
+      "hits": [
+       [
+        "whole",
+        "42",
+        99.48455893843402
+       ]
+      ]
+     },
+     {
+      "line": "H Neptune – J Neptune",
+      "plane": "Dec",
+      "value": 12.465920788531243,
+      "hits": []
      }
     ],
     "matches": [
@@ -60472,9 +62899,50 @@
       "plane": "Dec",
       "value": 21.391194,
       "hits": []
+     },
+     {
+      "line": "H Pluto – J Pluto",
+      "plane": "RA",
+      "value": 44.43769119269169,
+      "hits": [
+       [
+        "ninth",
+        "44.4444",
+        92.40309170218259
+       ]
+      ]
+     },
+     {
+      "line": "H Pluto – J Pluto",
+      "plane": "Dec",
+      "value": 12.066799254866286,
+      "hits": []
      }
     ],
-    "matches": [],
+    "matches": [
+     {
+      "line": "S Mars – S Pallas",
+      "plane": "RA",
+      "value": 44.465673,
+      "hit": [
+       "ninth",
+       "44.4444",
+       76.11737476116782
+      ],
+      "matches": "H Pluto – J Pluto RA"
+     },
+     {
+      "line": "S Mercury – S Vesta",
+      "plane": "Dec",
+      "value": 44.396357,
+      "hit": [
+       "ninth",
+       "44.4444",
+       45.9021244590265
+      ],
+      "matches": "H Pluto – J Pluto RA"
+     }
+    ],
     "other": [
      {
       "line": "S Fomalhaut – S Pluto",
@@ -60801,6 +63269,18 @@
       "line": "J Regulus – J Rahu",
       "plane": "Dec",
       "value": 4.212141,
+      "hits": []
+     },
+     {
+      "line": "H Rahu – J Rahu",
+      "plane": "RA",
+      "value": 25.8269229636214,
+      "hits": []
+     },
+     {
+      "line": "H Rahu – J Rahu",
+      "plane": "Dec",
+      "value": 9.042717920774848,
       "hits": []
      }
     ],
@@ -61188,6 +63668,18 @@
       "plane": "Dec",
       "value": 19.719641,
       "hits": []
+     },
+     {
+      "line": "H Ketu – J Ketu",
+      "plane": "RA",
+      "value": 25.8269229636216,
+      "hits": []
+     },
+     {
+      "line": "H Ketu – J Ketu",
+      "plane": "Dec",
+      "value": 9.042717920774848,
+      "hits": []
      }
     ],
     "matches": [
@@ -61212,6 +63704,17 @@
        89.06649989066484
       ],
       "matches": "H Aldebaran – H Ketu Dec"
+     },
+     {
+      "line": "S Rahu → J Ketu",
+      "plane": "Dec contraparallel",
+      "value": 0.22509705119492462,
+      "hit": [
+       "contraparallel",
+       "cp",
+       24.96764960169179
+      ],
+      "matches": "H Aldebaran – H Ketu Dec contraparallel"
      },
      {
       "line": "S Ketu – S Chiron",
@@ -61659,6 +64162,24 @@
       "plane": "Dec",
       "value": 11.053716,
       "hits": []
+     },
+     {
+      "line": "H Ceres – J Ceres",
+      "plane": "RA",
+      "value": 110.77674143899269,
+      "hits": [
+       [
+        "phi power",
+        "10φ⁵",
+        24.883628693477153
+       ]
+      ]
+     },
+     {
+      "line": "H Ceres – J Ceres",
+      "plane": "Dec",
+      "value": 30.345560714506195,
+      "hits": []
      }
     ],
     "matches": [
@@ -61685,6 +64206,17 @@
       "matches": "H Aldebaran – H Ceres RA"
      },
      {
+      "line": "S Mars – S Juno",
+      "plane": "RA",
+      "value": 110.971515,
+      "hit": [
+       "phi power",
+       "10φ⁵",
+       58.03156437376357
+      ],
+      "matches": "H Ceres – J Ceres RA"
+     },
+     {
       "line": "S Mercury – S Saturn",
       "plane": "RA",
       "value": 61.843176,
@@ -61705,6 +64237,17 @@
        56.045810180648715
       ],
       "matches": "S Ceres → J Ceres Dec"
+     },
+     {
+      "line": "S Mercury – S Eris",
+      "plane": "RA",
+      "value": 110.826619,
+      "hit": [
+       "phi power",
+       "10φ⁵",
+       54.86667449607596
+      ],
+      "matches": "H Ceres – J Ceres RA"
      }
     ],
     "other": [
@@ -62081,6 +64624,18 @@
       "line": "J Regulus – J Pallas",
       "plane": "Dec",
       "value": 8.229097,
+      "hits": []
+     },
+     {
+      "line": "H Pallas – J Pallas",
+      "plane": "RA",
+      "value": 83.54442010737148,
+      "hits": []
+     },
+     {
+      "line": "H Pallas – J Pallas",
+      "plane": "Dec",
+      "value": 12.191819808598797,
       "hits": []
      }
     ],
@@ -62520,9 +65075,39 @@
       "plane": "Dec",
       "value": 5.878949,
       "hits": []
+     },
+     {
+      "line": "H Juno – J Juno",
+      "plane": "RA",
+      "value": 169.6460661124911,
+      "hits": []
+     },
+     {
+      "line": "H Juno – J Juno",
+      "plane": "Dec",
+      "value": 9.691582141072555,
+      "hits": [
+       [
+        "golden",
+        "6×φ",
+        48.69817460859714
+       ]
+      ]
      }
     ],
-    "matches": [],
+    "matches": [
+     {
+      "line": "S Sun – S Gonggong",
+      "plane": "Dec",
+      "value": 9.711737,
+      "hit": [
+       "golden",
+       "6×φ",
+       89.09547067706795
+      ],
+      "matches": "H Juno – J Juno Dec"
+     }
+    ],
     "other": [
      {
       "line": "S Makemake – S Juno",
@@ -62938,6 +65523,18 @@
       "line": "J Regulus – J Vesta",
       "plane": "Dec",
       "value": 2.961551,
+      "hits": []
+     },
+     {
+      "line": "H Vesta – J Vesta",
+      "plane": "RA",
+      "value": 141.88304134943627,
+      "hits": []
+     },
+     {
+      "line": "H Vesta – J Vesta",
+      "plane": "Dec",
+      "value": 32.43074661204511,
       "hits": []
      }
     ],
@@ -63411,9 +66008,38 @@
       "plane": "Dec",
       "value": 27.115008,
       "hits": []
+     },
+     {
+      "line": "H Chiron – J Chiron",
+      "plane": "RA",
+      "value": 131.7013015846805,
+      "hits": []
+     },
+     {
+      "line": "H Chiron – J Chiron",
+      "plane": "Dec",
+      "value": 17.757057282344842,
+      "hits": [
+       [
+        "ninth",
+        "17.7778",
+        41.722982323327614
+       ]
+      ]
      }
     ],
     "matches": [
+     {
+      "line": "S Venus – S Mars",
+      "plane": "RA",
+      "value": 17.792331,
+      "hit": [
+       "ninth",
+       "17.7778",
+       59.069688011630674
+      ],
+      "matches": "H Chiron – J Chiron Dec"
+     },
      {
       "line": "S Ceres – S Chiron",
       "plane": "Dec",
@@ -63805,6 +66431,18 @@
       "line": "J Regulus – J Eris",
       "plane": "Dec",
       "value": 19.180415,
+      "hits": []
+     },
+     {
+      "line": "H Eris – J Eris",
+      "plane": "RA",
+      "value": 2.3855644145360877,
+      "hits": []
+     },
+     {
+      "line": "H Eris – J Eris",
+      "plane": "Dec",
+      "value": 5.023806029538412,
       "hits": []
      }
     ],
@@ -64296,6 +66934,18 @@
       "plane": "Dec",
       "value": 29.479831,
       "hits": []
+     },
+     {
+      "line": "H Gonggong – J Gonggong",
+      "plane": "RA",
+      "value": 4.322526737818521,
+      "hits": []
+     },
+     {
+      "line": "H Gonggong – J Gonggong",
+      "plane": "Dec",
+      "value": 5.375980319129431,
+      "hits": []
      }
     ],
     "matches": [
@@ -64309,6 +66959,17 @@
        95.46509648142016
       ],
       "matches": "H Regulus – H Gonggong Dec contraparallel"
+     },
+     {
+      "line": "S Transpluto → H Gonggong",
+      "plane": "RA",
+      "value": 179.330712,
+      "hit": [
+       "opposition",
+       "180",
+       10.761600000000726
+      ],
+      "matches": "J Regulus – J Gonggong RA"
      },
      {
       "line": "S Ketu – S Chiron",
@@ -64329,6 +66990,17 @@
        "contraparallel",
        "cp",
        6.070425552406056
+      ],
+      "matches": "H Regulus – H Gonggong Dec contraparallel"
+     },
+     {
+      "line": "S Jupiter → H Gonggong",
+      "plane": "Dec contraparallel",
+      "value": 0.2896332048638506,
+      "hit": [
+       "contraparallel",
+       "cp",
+       3.45559837871647
       ],
       "matches": "H Regulus – H Gonggong Dec contraparallel"
      }
@@ -64766,6 +67438,18 @@
         41.1299941130041
        ]
       ]
+     },
+     {
+      "line": "H Haumea – J Haumea",
+      "plane": "RA",
+      "value": 18.649635518288875,
+      "hits": []
+     },
+     {
+      "line": "H Haumea – J Haumea",
+      "plane": "Dec",
+      "value": 5.034931064109141,
+      "hits": []
      }
     ],
     "matches": [
@@ -65212,9 +67896,33 @@
       "plane": "Dec",
       "value": 21.561868,
       "hits": []
+     },
+     {
+      "line": "H Makemake – J Makemake",
+      "plane": "RA",
+      "value": 18.357778392109793,
+      "hits": []
+     },
+     {
+      "line": "H Makemake – J Makemake",
+      "plane": "Dec",
+      "value": 8.682501842011888,
+      "hits": []
      }
     ],
-    "matches": [],
+    "matches": [
+     {
+      "line": "S Uranus → H Makemake",
+      "plane": "RA",
+      "value": 148.991681,
+      "hit": [
+       "whole",
+       "149",
+       58.40499999999906
+      ],
+      "matches": "H Fomalhaut – H Makemake RA"
+     }
+    ],
     "other": [
      {
       "line": "S Juno – S Makemake",
@@ -65598,9 +68306,33 @@
       "plane": "Dec",
       "value": 12.072262,
       "hits": []
+     },
+     {
+      "line": "H Orcus – J Orcus",
+      "plane": "RA",
+      "value": 17.173915734072096,
+      "hits": []
+     },
+     {
+      "line": "H Orcus – J Orcus",
+      "plane": "Dec",
+      "value": 9.859826498461944,
+      "hits": []
      }
     ],
-    "matches": [],
+    "matches": [
+     {
+      "line": "S Pluto → H Orcus",
+      "plane": "Dec",
+      "value": 12.993699,
+      "hit": [
+       "whole",
+       "13",
+       68.49499999999722
+      ],
+      "matches": "S Orcus → J Orcus Dec"
+     }
+    ],
     "other": [
      {
       "line": "S Gonggong – S Orcus",
@@ -66011,6 +68743,18 @@
       "plane": "Dec",
       "value": 26.62097,
       "hits": []
+     },
+     {
+      "line": "H Quaoar – J Quaoar",
+      "plane": "RA",
+      "value": 26.56771347493492,
+      "hits": []
+     },
+     {
+      "line": "H Quaoar – J Quaoar",
+      "plane": "Dec",
+      "value": 0.8451022878568395,
+      "hits": []
      }
     ],
     "matches": [
@@ -66384,6 +69128,18 @@
       "line": "J Regulus – J Sedna",
       "plane": "Dec",
       "value": 6.888407,
+      "hits": []
+     },
+     {
+      "line": "H Sedna – J Sedna",
+      "plane": "RA",
+      "value": 10.532359510050867,
+      "hits": []
+     },
+     {
+      "line": "H Sedna – J Sedna",
+      "plane": "Dec",
+      "value": 2.592196389921728,
       "hits": []
      }
     ],
@@ -66849,9 +69605,39 @@
       "plane": "Dec",
       "value": 1.48742,
       "hits": []
+     },
+     {
+      "line": "H Transpluto – J Transpluto",
+      "plane": "RA",
+      "value": 6.653551444163298,
+      "hits": [
+       [
+        "ninth",
+        "6.66667",
+        1.6333361430682982
+       ]
+      ]
+     },
+     {
+      "line": "H Transpluto – J Transpluto",
+      "plane": "Dec",
+      "value": 2.38175589702041,
+      "hits": []
      }
     ],
-    "matches": [],
+    "matches": [
+     {
+      "line": "S Pluto – S Fomalhaut",
+      "plane": "Dec",
+      "value": 6.666472,
+      "hit": [
+       "ninth",
+       "6.66667",
+       98.53750007312041
+      ],
+      "matches": "H Transpluto – J Transpluto RA"
+     }
+    ],
     "other": [
      {
       "line": "S Sun – S Transpluto",
@@ -67279,6 +70065,18 @@
       "plane": "Dec",
       "value": 34.418968,
       "hits": []
+     },
+     {
+      "line": "H Sun – J Sun",
+      "plane": "RA",
+      "value": 101.30147282693133,
+      "hits": []
+     },
+     {
+      "line": "H Sun – J Sun",
+      "plane": "Dec",
+      "value": 19.70868914279138,
+      "hits": []
      }
     ],
     "matches": [],
@@ -67673,6 +70471,18 @@
       "line": "J Regulus – J Mercury",
       "plane": "Dec",
       "value": 35.883412,
+      "hits": []
+     },
+     {
+      "line": "H Mercury – J Mercury",
+      "plane": "RA",
+      "value": 75.71433483617398,
+      "hits": []
+     },
+     {
+      "line": "H Mercury – J Mercury",
+      "plane": "Dec",
+      "value": 12.583739015744069,
       "hits": []
      }
     ],
@@ -68118,6 +70928,18 @@
       "line": "J Regulus – J Venus",
       "plane": "Dec",
       "value": 26.687852,
+      "hits": []
+     },
+     {
+      "line": "H Venus – J Venus",
+      "plane": "RA",
+      "value": 172.69367449804102,
+      "hits": []
+     },
+     {
+      "line": "H Venus – J Venus",
+      "plane": "Dec",
+      "value": 31.154935916863998,
       "hits": []
      }
     ],
@@ -68588,6 +71410,18 @@
         51.56312560546011
        ]
       ]
+     },
+     {
+      "line": "H Mars – J Mars",
+      "plane": "RA",
+      "value": 78.46720692366722,
+      "hits": []
+     },
+     {
+      "line": "H Mars – J Mars",
+      "plane": "Dec",
+      "value": 25.972044015248983,
+      "hits": []
      }
     ],
     "matches": [
@@ -69011,6 +71845,18 @@
       "line": "J Regulus – J Jupiter",
       "plane": "Dec",
       "value": 7.112319,
+      "hits": []
+     },
+     {
+      "line": "H Jupiter – J Jupiter",
+      "plane": "RA",
+      "value": 124.39450394207643,
+      "hits": []
+     },
+     {
+      "line": "H Jupiter – J Jupiter",
+      "plane": "Dec",
+      "value": 40.83586624566567,
       "hits": []
      }
     ],
@@ -69439,9 +72285,32 @@
       "plane": "Dec",
       "value": 34.630442,
       "hits": []
+     },
+     {
+      "line": "H Saturn – J Saturn",
+      "plane": "RA",
+      "value": 28.313937162051218,
+      "hits": []
+     },
+     {
+      "line": "H Saturn – J Saturn",
+      "plane": "Dec",
+      "value": 2.2768361592374013,
+      "hits": []
      }
     ],
     "matches": [
+     {
+      "line": "S Ceres → J Saturn",
+      "plane": "RA",
+      "value": 11.327362,
+      "hit": [
+       "golden",
+       "7×φ",
+       96.53062113970215
+      ],
+      "matches": "S Saturn → J Saturn Dec"
+     },
      {
       "line": "S Mercury – S Saturn",
       "plane": "Dec",
@@ -69861,6 +72730,18 @@
         19.60108795584233
        ]
       ]
+     },
+     {
+      "line": "H Uranus – J Uranus",
+      "plane": "RA",
+      "value": 121.51563026528771,
+      "hits": []
+     },
+     {
+      "line": "H Uranus – J Uranus",
+      "plane": "Dec",
+      "value": 36.05896867671729,
+      "hits": []
      }
     ],
     "matches": [
@@ -70250,6 +73131,24 @@
       "plane": "Dec",
       "value": 34.187583,
       "hits": []
+     },
+     {
+      "line": "H Neptune – J Neptune",
+      "plane": "RA",
+      "value": 69.81506948718737,
+      "hits": []
+     },
+     {
+      "line": "H Neptune – J Neptune",
+      "plane": "Dec",
+      "value": 16.66114446483588,
+      "hits": [
+       [
+        "ninth",
+        "16.6667",
+        83.4323948389863
+       ]
+      ]
      }
     ],
     "matches": [],
@@ -70654,6 +73553,18 @@
       "line": "J Regulus – J Pluto",
       "plane": "Dec",
       "value": 13.179193,
+      "hits": []
+     },
+     {
+      "line": "H Pluto – J Pluto",
+      "plane": "RA",
+      "value": 70.33911057592823,
+      "hits": []
+     },
+     {
+      "line": "H Pluto – J Pluto",
+      "plane": "Dec",
+      "value": 20.80639020040874,
       "hits": []
      }
     ],
@@ -71121,6 +74032,18 @@
         18.82000000000375
        ]
       ]
+     },
+     {
+      "line": "H Rahu – J Rahu",
+      "plane": "RA",
+      "value": 113.82053138263353,
+      "hits": []
+     },
+     {
+      "line": "H Rahu – J Rahu",
+      "plane": "Dec",
+      "value": 31.378431545862487,
+      "hits": []
      }
     ],
     "matches": [
@@ -71545,9 +74468,32 @@
       "plane": "Dec",
       "value": 3.949549,
       "hits": []
+     },
+     {
+      "line": "H Ketu – J Ketu",
+      "plane": "RA",
+      "value": 113.8205313826335,
+      "hits": []
+     },
+     {
+      "line": "H Ketu – J Ketu",
+      "plane": "Dec",
+      "value": 31.378431545862487,
+      "hits": []
      }
     ],
     "matches": [
+     {
+      "line": "S Pluto → H Ketu",
+      "plane": "RA",
+      "value": 27.517064,
+      "hit": [
+       "golden",
+       "17×φ",
+       67.63521218583415
+      ],
+      "matches": "H Antares – H Ketu RA"
+     },
      {
       "line": "S Vesta – S Regulus",
       "plane": "RA",
@@ -72012,6 +74958,24 @@
       "plane": "Dec",
       "value": 26.117616,
       "hits": []
+     },
+     {
+      "line": "H Ceres – J Ceres",
+      "plane": "RA",
+      "value": 35.015691560099924,
+      "hits": [
+       [
+        "whole",
+        "35",
+        21.542199500379414
+       ]
+      ]
+     },
+     {
+      "line": "H Ceres – J Ceres",
+      "plane": "Dec",
+      "value": 7.558761523844078,
+      "hits": []
      }
     ],
     "matches": [],
@@ -72433,6 +75397,18 @@
         96.11279846041701
        ]
       ]
+     },
+     {
+      "line": "H Pallas – J Pallas",
+      "plane": "RA",
+      "value": 23.50058534513471,
+      "hits": []
+     },
+     {
+      "line": "H Pallas – J Pallas",
+      "plane": "Dec",
+      "value": 12.11906858305667,
+      "hits": []
      }
     ],
     "matches": [
@@ -72828,6 +75804,18 @@
         65.2049999999992
        ]
       ]
+     },
+     {
+      "line": "H Juno – J Juno",
+      "plane": "RA",
+      "value": 43.10885754392379,
+      "hits": []
+     },
+     {
+      "line": "H Juno – J Juno",
+      "plane": "Dec",
+      "value": 0.9328644450306608,
+      "hits": []
      }
     ],
     "matches": [
@@ -73312,9 +76300,78 @@
       "plane": "Dec",
       "value": 22.770294,
       "hits": []
+     },
+     {
+      "line": "H Vesta – J Vesta",
+      "plane": "RA",
+      "value": 166.38333988157254,
+      "hits": [
+       [
+        "ninth",
+        "166.667",
+        15.001864641761014
+       ]
+      ]
+     },
+     {
+      "line": "H Vesta – J Vesta",
+      "plane": "Dec",
+      "value": 27.49289695614944,
+      "hits": [
+       [
+        "golden",
+        "17×φ",
+        57.77514630008933
+       ]
+      ]
      }
     ],
-    "matches": [],
+    "matches": [
+     {
+      "line": "S Juno – S Gonggong",
+      "plane": "RA",
+      "value": 166.724983,
+      "hit": [
+       "ninth",
+       "166.667",
+       82.50520003498386
+      ],
+      "matches": "H Vesta – J Vesta RA"
+     },
+     {
+      "line": "S Eris – S Haumea",
+      "plane": "RA",
+      "value": 166.781262,
+      "hit": [
+       "ninth",
+       "166.667",
+       65.62150006875446
+      ],
+      "matches": "H Vesta – J Vesta RA"
+     },
+     {
+      "line": "S Haumea – S Orcus",
+      "plane": "Dec",
+      "value": 27.486646,
+      "hit": [
+       "golden",
+       "17×φ",
+       38.48207176478021
+      ],
+      "matches": "H Vesta – J Vesta Dec"
+     },
+     {
+      "line": "S Jupiter – S Makemake",
+      "plane": "RA",
+      "value": 166.963694,
+      "hit": [
+       "ninth",
+       "166.667",
+       10.891900178211952
+      ],
+      "matches": "H Vesta – J Vesta RA"
+     }
+    ],
     "other": [
      {
       "line": "S Ceres – S Vesta",
@@ -73668,6 +76725,18 @@
       "plane": "Dec",
       "value": 4.578275,
       "hits": []
+     },
+     {
+      "line": "H Chiron – J Chiron",
+      "plane": "RA",
+      "value": 92.9758639646039,
+      "hits": []
+     },
+     {
+      "line": "H Chiron – J Chiron",
+      "plane": "Dec",
+      "value": 12.306458104008822,
+      "hits": []
      }
     ],
     "matches": [],
@@ -73997,6 +77066,24 @@
       "line": "J Regulus – J Eris",
       "plane": "Dec",
       "value": 21.960097,
+      "hits": []
+     },
+     {
+      "line": "H Eris – J Eris",
+      "plane": "RA",
+      "value": 4.015774077468873,
+      "hits": [
+       [
+        "whole",
+        "4",
+        21.12961265563698
+       ]
+      ]
+     },
+     {
+      "line": "H Eris – J Eris",
+      "plane": "Dec",
+      "value": 8.241797769951013,
       "hits": []
      }
     ],
@@ -74496,6 +77583,24 @@
       "plane": "Dec",
       "value": 32.6678,
       "hits": []
+     },
+     {
+      "line": "H Gonggong – J Gonggong",
+      "plane": "RA",
+      "value": 8.162952773893778,
+      "hits": []
+     },
+     {
+      "line": "H Gonggong – J Gonggong",
+      "plane": "Dec",
+      "value": 9.01030976216827,
+      "hits": [
+       [
+        "whole",
+        "9",
+        48.45118915865356
+       ]
+      ]
      }
     ],
     "matches": [
@@ -74509,6 +77614,17 @@
        95.46509648142016
       ],
       "matches": "H Regulus – H Gonggong Dec contraparallel"
+     },
+     {
+      "line": "S Sun – S Fomalhaut",
+      "plane": "Dec",
+      "value": 8.984901,
+      "hit": [
+       "whole",
+       "9",
+       24.505000000003466
+      ],
+      "matches": "H Gonggong – J Gonggong Dec"
      },
      {
       "line": "S Ketu – S Chiron",
@@ -74931,6 +78047,18 @@
       "plane": "Dec",
       "value": 10.491867,
       "hits": []
+     },
+     {
+      "line": "H Haumea – J Haumea",
+      "plane": "RA",
+      "value": 28.315364765011793,
+      "hits": []
+     },
+     {
+      "line": "H Haumea – J Haumea",
+      "plane": "Dec",
+      "value": 6.271090806322409,
+      "hits": []
      }
     ],
     "matches": [],
@@ -75314,6 +78442,18 @@
       "line": "J Regulus – J Makemake",
       "plane": "Dec",
       "value": 23.598562,
+      "hits": []
+     },
+     {
+      "line": "H Makemake – J Makemake",
+      "plane": "RA",
+      "value": 28.261032335139788,
+      "hits": []
+     },
+     {
+      "line": "H Makemake – J Makemake",
+      "plane": "Dec",
+      "value": 11.802437764774126,
       "hits": []
      }
     ],
@@ -75753,6 +78893,18 @@
       "line": "J Regulus – J Orcus",
       "plane": "Dec",
       "value": 7.897532,
+      "hits": []
+     },
+     {
+      "line": "H Orcus – J Orcus",
+      "plane": "RA",
+      "value": 25.244374190151206,
+      "hits": []
+     },
+     {
+      "line": "H Orcus – J Orcus",
+      "plane": "Dec",
+      "value": 15.10378743656052,
       "hits": []
      }
     ],
@@ -76211,6 +79363,18 @@
       "plane": "Dec",
       "value": 25.364516,
       "hits": []
+     },
+     {
+      "line": "H Quaoar – J Quaoar",
+      "plane": "RA",
+      "value": 41.612800293086906,
+      "hits": []
+     },
+     {
+      "line": "H Quaoar – J Quaoar",
+      "plane": "Dec",
+      "value": 2.06031951049639,
+      "hits": []
      }
     ],
     "matches": [
@@ -76577,6 +79741,24 @@
       "line": "J Regulus – J Sedna",
       "plane": "Dec",
       "value": 8.277095,
+      "hits": []
+     },
+     {
+      "line": "H Sedna – J Sedna",
+      "plane": "RA",
+      "value": 16.01226684965937,
+      "hits": [
+       [
+        "whole",
+        "16",
+        38.66575170315514
+       ]
+      ]
+     },
+     {
+      "line": "H Sedna – J Sedna",
+      "plane": "Dec",
+      "value": 4.192677705440039,
       "hits": []
      }
     ],
@@ -76945,6 +80127,18 @@
       "line": "J Regulus – J Transpluto",
       "plane": "Dec",
       "value": 2.217307,
+      "hits": []
+     },
+     {
+      "line": "H Transpluto – J Transpluto",
+      "plane": "RA",
+      "value": 9.588467035057022,
+      "hits": []
+     },
+     {
+      "line": "H Transpluto – J Transpluto",
+      "plane": "Dec",
+      "value": 3.396834108778531,
       "hits": []
      }
     ],

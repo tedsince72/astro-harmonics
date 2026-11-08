@@ -119,6 +119,10 @@ def positions(ws):
     return {r[0]: float(r[2]) for r in list(ws.iter_rows(values_only=True))[1:] if r and r[0] and isinstance(r[2], (int, float))}
 
 
+def ra_positions(ws):
+    return {r[0]: float(r[1]) for r in list(ws.iter_rows(values_only=True))[1:] if r and r[0] and isinstance(r[1], (int, float))}
+
+
 def load(path):
     wb = openpyxl.load_workbook(path, read_only=True)
     meta = [r for r in wb['META'].iter_rows(values_only=True) if r and isinstance(r[0], str) and r[0][:1] == 'P'
@@ -130,10 +134,12 @@ def load(path):
         r['name'][ch] = name
         if len(rest) >= 2 and rest[0] is None and rest[1] is None:   # no birth date in META: no chart (its tabs are not read)
             r['dist'][ch], r['pos'][ch] = {}, {}
+            r.setdefault('ra', {})[ch] = {}
             r['missing'].append(ch)
             continue
         r['dist'][ch] = blocks(list(wb[tab + '_DIST'].iter_rows(values_only=True)))
         r['pos'][ch] = positions(wb[tab + '_POS'])
+        r.setdefault('ra', {})[ch] = ra_positions(wb[tab + '_POS'])
     tt = blocks(list(wb['TT_DIST'].iter_rows(values_only=True)))
     tp = positions(wb['TRANS_POS'])
     return runners, tt, tp
@@ -187,6 +193,18 @@ def runner_view(r, tt, tp, sky):
                     c = contraparallel(a, b)
                     if c:
                         lines.append({'line': lab, 'plane': 'Dec contraparallel', 'value': abs(a + b), 'hits': [c]})
+        # horse natal X - jockey natal X (Eddie, 8 Nov 2026): RA wrapped 0-180, Dec |dDec|, contraparallel; from the _POS tabs
+        hra, jra, hd, jd = r['ra']['H'].get(X), r['ra']['J'].get(X), r['pos']['H'].get(X), r['pos']['J'].get(X)
+        if hra is not None and jra is not None:
+            v = abs(hra - jra) % 360
+            v = 360 - v if v > 180 else v
+            lines.append({'line': f'H {X} – J {X}', 'plane': 'RA', 'value': v, 'hits': hits(v, 'RA')})
+        if hd is not None and jd is not None:
+            v = abs(hd - jd)
+            lines.append({'line': f'H {X} – J {X}', 'plane': 'Dec', 'value': v, 'hits': hits(v, 'Dec')})
+            c = contraparallel(hd, jd)
+            if c:
+                lines.append({'line': f'H {X} – J {X}', 'plane': 'Dec contraparallel', 'value': abs(hd + jd), 'hits': [c]})
         matches = []
         for ln in lines:
             for h in ln['hits']:
@@ -224,15 +242,26 @@ def runner_view(r, tt, tp, sky):
                                          'value': abs(tp[Y] + npos[X]), 'hits': [c]})
         for g in other:
             g.sort(key=lambda o: -o['hits'][0][2])
+        # S Y -> H X / J X rows on the same family + target as a line above (Eddie, 8 Nov 2026); S - S rows are already
+        # in via sky_lines. Each such row is kept in 'other' too.
+        for o in other[1] + other[2]:
+            for h in o['hits']:
+                if h[0] == 'conj':
+                    continue
+                for ln in lines:
+                    if any(lh[0] == h[0] and lh[1] == h[1] for lh in ln['hits']):
+                        matches.append({'line': o['line'], 'plane': o['plane'], 'value': o['value'], 'hit': h,
+                                        'matches': f"{ln['line']} {ln['plane']}"})
+        matches.sort(key=lambda m: -m['hit'][2])
         bodies.append({'body': X, 'lines': lines, 'matches': matches, 'other': other[0] + other[1] + other[2]})
     return bodies
 
 
 RULES = ('Rules (Eddie, 8 Nov 2026): all linear. Whole ±0.02; golden ±0.0324; φ powers ±0.15 %; ninths ±0.2 %; √2 and silver '
          '±0.15 %; conjunction RA < 1.5 / Dec < 0.3; opposition RA within 0.75 of 180; contraparallel |Dec a + Dec b| < 0.3. '
-         'Highest score first, other families as "also". Sky lines on the same target = sky body / royal star pairs (Moon '
-         'included, no Rahu–Ketu, no star–star) on the same family and target as any scoring line above them (conjunctions not '
-         'matched). "Other scoring sky lines": every scoring sky line on the body - S Y – S X, then S Y → H X, then S Y → J X - '
+         'Highest score first, other families as "also". Last lines: horse X – jockey X (natal to natal, RA wrapped, Dec). Sky lines on the same target = sky body / royal star pairs (Moon '
+         'included, no Rahu–Ketu, no star–star) and the S Y → H X / S Y → J X lines on the same family and target as any '
+         'scoring line above them (conjunctions not matched; those S Y → natal X rows also stay under "Other"). "Other scoring sky lines": every scoring sky line on the body - S Y – S X, then S Y → H X, then S Y → J X - '
          'conjunctions included, each group highest score first. Data only, no pick (tools/eddie_bybody.py).')
 
 

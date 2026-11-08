@@ -37,8 +37,21 @@ def rows_by_section(s):
 ref = rows_by_section(open(os.path.join(HERE, 'ref/catterick_1440_20220406_wotever_by_body_verified.md')).read())
 new = rows_by_section(doc)
 check(list(ref) == list(new) and len(new) == 24, '1 same 24 sections in order')
+def strip_new(X, rows):
+    # rows added after the verified file (8 Nov 2026): H X – J X lines, S Y → natal X rows in the same-target section,
+    # and same-target rows matched to an H X – J X line
+    hj = f'| H {X} – J {X} |'
+    out, sec = [], 0
+    for l in rows:
+        if l.startswith(hj):
+            continue
+        c = [x.strip() for x in l.strip('|').split('|')]
+        if len(c) == 5 and ('→' in c[0] or c[4].startswith(f'H {X} – J {X}')):
+            continue
+        out.append(l)
+    return out
 for X in ref:
-    check(ref[X] == new.get(X), f'1 {X} rows identical to the verified file')
+    check(ref[X] == strip_new(X, new.get(X, [])), f'1 {X} rows identical to the verified file (new rows set aside)')
 
 # 2 hand cases (values from the workbook; scores by hand)
 def row(X, line, plane):
@@ -104,9 +117,25 @@ for f in files:
     for c_, (r, bodies) in rr.items():
         good &= len(bodies) == 24
         for b in bodies:
-            good &= sum(1 for l in b['lines'] if 'contraparallel' not in l['plane']) == 20 - 10 * len(r['missing'])
+            good &= sum(1 for l in b['lines'] if 'contraparallel' not in l['plane']) == 20 - 10 * len(r['missing']) + (0 if r['missing'] else 2)
             good &= not any(l['line'].split(' ')[-2] in r['missing'] for l in b['lines'] + b['other'])
             good &= desc(b['matches'], lambda m: m['hit'][2])
+            tg = {(h[0], h[1]): f"{l['line']} {l['plane']}" for l in b['lines'] for h in l['hits'] if h[0] != 'conj'}
+            mk = {(m['line'], m['plane'], m['hit'][1], m['matches']) for m in b['matches']}
+            for o in b['other']:
+                if '→' in o['line']:
+                    for h in o['hits']:
+                        if h[0] != 'conj':
+                            for l in b['lines']:
+                                if any((x[0], x[1]) == (h[0], h[1]) for x in l['hits']):
+                                    good &= (o['line'], o['plane'], h[1], f"{l['line']} {l['plane']}") in mk
+            hjl = [l for l in b['lines'] if l['line'].startswith('H ') and ' – J ' in l['line']]
+            if not r['missing']:
+                X = b['body']
+                hra, jra = r['ra']['H'][X], r['ra']['J'][X]
+                d = abs(hra - jra) % 360
+                good &= abs(next(l['value'] for l in hjl if l['plane'] == 'RA') - min(d, 360 - d)) < 1e-9
+                good &= abs(next(l['value'] for l in hjl if l['plane'] == 'Dec') - abs(r['pos']['H'][X] - r['pos']['J'][X])) < 1e-9
             grp = [0 if ' – ' in o['line'] else (1 if '→ H ' in o['line'] else 2) for o in b['other']]
             good &= grp == sorted(grp)
             for g in (0, 1, 2):

@@ -1,6 +1,6 @@
 # 20240118_chelmsford_aw_1320 — 7 Buford / Alex Jary, body by body
 
-Rules (Eddie, 8 Nov 2026): all linear. Whole ±0.02; golden ±0.0324; φ powers ±0.15 %; ninths ±0.2 %; √2 and silver ±0.15 %; conjunction RA < 1.5 / Dec < 0.3; opposition RA within 0.75 of 180; contraparallel |Dec a + Dec b| < 0.3. Highest score first, other families as "also". Sky lines on the same target = sky body / royal star pairs (Moon included, no Rahu–Ketu, no star–star) on the same family and target as any scoring line above them (conjunctions not matched). "Other scoring sky lines": every scoring sky line on the body - S Y – S X, then S Y → H X, then S Y → J X - conjunctions included, each group highest score first. Data only, no pick (tools/eddie_bybody.py).
+Rules (Eddie, 8 Nov 2026): all linear. Whole ±0.02; golden ±0.0324; φ powers ±0.15 %; ninths ±0.2 %; √2 and silver ±0.15 %; conjunction RA < 1.5 / Dec < 0.3; opposition RA within 0.75 of 180; contraparallel |Dec a + Dec b| < 0.3. Highest score first, other families as "also". Last lines: horse X – jockey X (natal to natal, RA wrapped, Dec). Sky lines on the same target = sky body / royal star pairs (Moon included, no Rahu–Ketu, no star–star) and the S Y → H X / S Y → J X lines on the same family and target as any scoring line above them (conjunctions not matched; those S Y → natal X rows also stay under "Other"). "Other scoring sky lines": every scoring sky line on the body - S Y – S X, then S Y → H X, then S Y → J X - conjunctions included, each group highest score first. Data only, no pick (tools/eddie_bybody.py).
 
 ## Sun
 
@@ -26,6 +26,8 @@ Rules (Eddie, 8 Nov 2026): all linear. Whole ±0.02; golden ±0.0324; φ powers 
 | J Antares – J Sun | Dec | 33.6737 | — |
 | J Fomalhaut – J Sun | Dec | 36.8641 | — |
 | J Regulus – J Sun | Dec | 4.7244 | — |
+| H Sun – J Sun | RA | 9.2455 | — |
+| H Sun – J Sun | Dec | 3.8762 | — |
 
 Sky lines on the same target:
 
@@ -85,6 +87,8 @@ Other scoring sky lines on Sun:
 | J Antares – J Mercury | Dec | 34.4464 | — |
 | J Fomalhaut – J Mercury | Dec | 37.6368 | — |
 | J Regulus – J Mercury | Dec | 3.9516 | — |
+| H Mercury – J Mercury | RA | 1.4345 | conj (4.4) |
+| H Mercury – J Mercury | Dec | 0.6120 | — |
 
 Sky lines on the same target:
 
@@ -137,12 +141,19 @@ Other scoring sky lines on Mercury:
 | J Antares – J Venus | Dec | 16.2295 | — |
 | J Fomalhaut – J Venus | Dec | 19.4199 | 12×φ golden (89.4) |
 | J Regulus – J Venus | Dec | 22.1686 | — |
+| H Venus – J Venus | RA | 51.6815 | — |
+| H Venus – J Venus | Dec | 20.2976 | — |
+| H Venus – J Venus | Dec contraparallel | 0.1078 | contraparallel (64.1) |
 
 Sky lines on the same target:
 
 | Sky line | Plane | Value | Score | Matches |
 |---|---|---|---|---|
+| S Ceres – S Vesta | Dec contraparallel | 0.0136 | contraparallel (95.5) | H Venus – J Venus Dec contraparallel |
 | S Gonggong – S Orcus | RA | 177.8448 | 177.778 ninth (81.2) | J Regulus – J Venus RA |
+| S Transpluto → J Venus | Dec contraparallel | 0.0719 | contraparallel (76.0) | H Venus – J Venus Dec contraparallel |
+| S Ketu – S Chiron | Dec contraparallel | 0.2722 | contraparallel (9.3) | H Venus – J Venus Dec contraparallel |
+| S Venus – S Vesta | Dec contraparallel | 0.2818 | contraparallel (6.1) | H Venus – J Venus Dec contraparallel |
 | S Saturn – S Orcus | RA | 178.1242 | 177.778 ninth (2.6) | J Regulus – J Venus RA |
 
 Other scoring sky lines on Venus:
@@ -196,6 +207,8 @@ Other scoring sky lines on Venus:
 | J Antares – J Mars | Dec | 36.3954 | — |
 | J Fomalhaut – J Mars | Dec | 39.5857 | — |
 | J Regulus – J Mars | Dec | 2.0027 | 2 (86.5) |
+| H Mars – J Mars | RA | 107.8204 | — |
+| H Mars – J Mars | Dec | 33.5283 | — |
 
 Sky lines on the same target:
 
@@ -251,6 +264,8 @@ Other scoring sky lines on Mars:
 | J Antares – J Jupiter | Dec | 19.5999 | — |
 | J Fomalhaut – J Jupiter | Dec | 22.7903 | — |
 | J Regulus – J Jupiter | Dec | 18.7981 | — |
+| H Jupiter – J Jupiter | RA | 116.1995 | — |
+| H Jupiter – J Jupiter | Dec | 10.3110 | — |
 
 Sky lines on the same target:
 
@@ -298,10 +313,15 @@ Other scoring sky lines on Jupiter:
 | J Antares – J Saturn | Dec | 33.1916 | — |
 | J Fomalhaut – J Saturn | Dec | 36.3820 | — |
 | J Regulus – J Saturn | Dec | 5.2064 | — |
+| H Saturn – J Saturn | RA | 102.5941 | — |
+| H Saturn – J Saturn | Dec | 29.0392 | φ⁷ phi power (89.0) |
 
 Sky lines on the same target:
 
-none
+| Sky line | Plane | Value | Score | Matches |
+|---|---|---|---|---|
+| S Ceres – S Chiron | Dec | 29.0001 | φ⁷ phi power (21.1) | H Saturn – J Saturn Dec |
+| S Moon – S Sedna | RA | 28.9929 | φ⁷ phi power (4.7) | H Saturn – J Saturn Dec |
 
 Other scoring sky lines on Saturn:
 
@@ -352,6 +372,8 @@ Other scoring sky lines on Saturn:
 | J Antares – J Uranus | Dec | 8.6797 | — |
 | J Fomalhaut – J Uranus | Dec | 11.8700 | — |
 | J Regulus – J Uranus | Dec | 29.7184 | — |
+| H Uranus – J Uranus | RA | 70.5482 | — |
+| H Uranus – J Uranus | Dec | 27.6972 | — |
 
 Sky lines on the same target:
 
@@ -405,6 +427,8 @@ Other scoring sky lines on Uranus:
 | J Antares – J Neptune | Dec | 7.0637 | 7.07 sqrt2 (30.8) |
 | J Fomalhaut – J Neptune | Dec | 10.2541 | — |
 | J Regulus – J Neptune | Dec | 31.3344 | — |
+| H Neptune – J Neptune | RA | 41.9999 | 42 (99.5) |
+| H Neptune – J Neptune | Dec | 12.4659 | — |
 
 Sky lines on the same target:
 
@@ -452,10 +476,15 @@ Other scoring sky lines on Neptune:
 | J Antares – J Pluto | Dec | 17.0069 | 17 (65.6) |
 | J Fomalhaut – J Pluto | Dec | 20.1973 | — |
 | J Regulus – J Pluto | Dec | 21.3912 | — |
+| H Pluto – J Pluto | RA | 44.4377 | 44.4444 ninth (92.4) |
+| H Pluto – J Pluto | Dec | 12.0668 | — |
 
 Sky lines on the same target:
 
-none
+| Sky line | Plane | Value | Score | Matches |
+|---|---|---|---|---|
+| S Mars – S Pallas | RA | 44.4657 | 44.4444 ninth (76.1) | H Pluto – J Pluto RA |
+| S Mercury – S Vesta | Dec | 44.3964 | 44.4444 ninth (45.9) | H Pluto – J Pluto RA |
 
 Other scoring sky lines on Pluto:
 
@@ -500,6 +529,8 @@ Other scoring sky lines on Pluto:
 | J Antares – J Rahu | Dec | 34.1859 | — |
 | J Fomalhaut – J Rahu | Dec | 37.3763 | — |
 | J Regulus – J Rahu | Dec | 4.2121 | — |
+| H Rahu – J Rahu | RA | 25.8269 | — |
+| H Rahu – J Rahu | Dec | 9.0427 | — |
 
 Sky lines on the same target:
 
@@ -553,6 +584,8 @@ Other scoring sky lines on Rahu:
 | J Antares – J Ketu | Dec | 18.6784 | — |
 | J Fomalhaut – J Ketu | Dec | 21.8688 | — |
 | J Regulus – J Ketu | Dec | 19.7196 | — |
+| H Ketu – J Ketu | RA | 25.8269 | — |
+| H Ketu – J Ketu | Dec | 9.0427 | — |
 
 Sky lines on the same target:
 
@@ -560,6 +593,7 @@ Sky lines on the same target:
 |---|---|---|---|---|
 | S Ceres – S Vesta | Dec contraparallel | 0.0136 | contraparallel (95.5) | H Aldebaran – H Ketu Dec contraparallel |
 | S Rahu – S Fomalhaut | RA | 33.3406 | 33.3333 ninth (89.1) | H Aldebaran – H Ketu Dec |
+| S Rahu → J Ketu | Dec contraparallel | 0.2251 | contraparallel (25.0) | H Aldebaran – H Ketu Dec contraparallel |
 | S Ketu – S Chiron | Dec contraparallel | 0.2722 | contraparallel (9.3) | H Aldebaran – H Ketu Dec contraparallel |
 | S Ceres – S Pallas | Dec | 24.2401 | 15×φ golden (6.1) | J Aldebaran – J Ketu Dec |
 | S Venus – S Vesta | Dec contraparallel | 0.2818 | contraparallel (6.1) | H Aldebaran – H Ketu Dec contraparallel |
@@ -615,6 +649,8 @@ Other scoring sky lines on Ketu:
 | J Antares – J Ceres | Dec | 27.3444 | — |
 | J Fomalhaut – J Ceres | Dec | 30.5347 | — |
 | J Regulus – J Ceres | Dec | 11.0537 | — |
+| H Ceres – J Ceres | RA | 110.7767 | 10φ⁵ phi power (24.9) |
+| H Ceres – J Ceres | Dec | 30.3456 | — |
 
 Sky lines on the same target:
 
@@ -622,8 +658,10 @@ Sky lines on the same target:
 |---|---|---|---|---|
 | S Juno – S Makemake | Dec | 22.6507 | 14×φ golden (94.5) | S Ceres → J Ceres Dec |
 | S Mars – S Haumea | RA | 61.7649 | 100φ^-1 phi power (58.5) | H Aldebaran – H Ceres RA |
+| S Mars – S Juno | RA | 110.9715 | 10φ⁵ phi power (58.0) | H Ceres – J Ceres RA |
 | S Mercury – S Saturn | RA | 61.8432 | 100φ^-1 phi power (57.1) | H Aldebaran – H Ceres RA |
 | S Vesta – S Eris | Dec | 22.6667 | 14×φ golden (56.0) | S Ceres → J Ceres Dec |
+| S Mercury – S Eris | RA | 110.8266 | 10φ⁵ phi power (54.9) | H Ceres – J Ceres RA |
 
 Other scoring sky lines on Ceres:
 
@@ -673,6 +711,8 @@ Other scoring sky lines on Ceres:
 | J Antares – J Pallas | Dec | 30.1690 | — |
 | J Fomalhaut – J Pallas | Dec | 33.3594 | 33.3333 ninth (61.0) |
 | J Regulus – J Pallas | Dec | 8.2291 | — |
+| H Pallas – J Pallas | RA | 83.5444 | — |
+| H Pallas – J Pallas | Dec | 12.1918 | — |
 
 Sky lines on the same target:
 
@@ -730,10 +770,14 @@ Other scoring sky lines on Pallas:
 | J Antares – J Juno | Dec | 32.5191 | — |
 | J Fomalhaut – J Juno | Dec | 35.7095 | — |
 | J Regulus – J Juno | Dec | 5.8789 | — |
+| H Juno – J Juno | RA | 169.6461 | — |
+| H Juno – J Juno | Dec | 9.6916 | 6×φ golden (48.7) |
 
 Sky lines on the same target:
 
-none
+| Sky line | Plane | Value | Score | Matches |
+|---|---|---|---|---|
+| S Sun – S Gonggong | Dec | 9.7117 | 6×φ golden (89.1) | H Juno – J Juno Dec |
 
 Other scoring sky lines on Juno:
 
@@ -786,6 +830,8 @@ Other scoring sky lines on Juno:
 | J Antares – J Vesta | Dec | 41.3596 | 41.4 silver (0.7) |
 | J Fomalhaut – J Vesta | Dec | 44.5500 | — |
 | J Regulus – J Vesta | Dec | 2.9616 | — |
+| H Vesta – J Vesta | RA | 141.8830 | — |
+| H Vesta – J Vesta | Dec | 32.4307 | — |
 
 Sky lines on the same target:
 
@@ -847,11 +893,14 @@ Other scoring sky lines on Vesta:
 | J Antares – J Chiron | Dec | 11.2831 | — |
 | J Fomalhaut – J Chiron | Dec | 14.4734 | — |
 | J Regulus – J Chiron | Dec | 27.1150 | — |
+| H Chiron – J Chiron | RA | 131.7013 | — |
+| H Chiron – J Chiron | Dec | 17.7571 | 17.7778 ninth (41.7) |
 
 Sky lines on the same target:
 
 | Sky line | Plane | Value | Score | Matches |
 |---|---|---|---|---|
+| S Venus – S Mars | RA | 17.7923 | 17.7778 ninth (59.1) | H Chiron – J Chiron Dec |
 | S Ceres – S Chiron | Dec | 29.0001 | φ⁷ phi power (21.1) | H Antares – H Chiron Dec |
 | S Moon – S Sedna | RA | 28.9929 | φ⁷ phi power (4.7) | H Antares – H Chiron Dec |
 
@@ -902,6 +951,8 @@ Other scoring sky lines on Chiron:
 | J Antares – J Eris | Dec | 19.2177 | — |
 | J Fomalhaut – J Eris | Dec | 22.4080 | — |
 | J Regulus – J Eris | Dec | 19.1804 | — |
+| H Eris – J Eris | RA | 2.3856 | — |
+| H Eris – J Eris | Dec | 5.0238 | — |
 
 Sky lines on the same target:
 
@@ -964,14 +1015,18 @@ Other scoring sky lines on Eris:
 | J Antares – J Gonggong | Dec | 8.9182 | — |
 | J Fomalhaut – J Gonggong | Dec | 12.1086 | — |
 | J Regulus – J Gonggong | Dec | 29.4798 | — |
+| H Gonggong – J Gonggong | RA | 4.3225 | — |
+| H Gonggong – J Gonggong | Dec | 5.3760 | — |
 
 Sky lines on the same target:
 
 | Sky line | Plane | Value | Score | Matches |
 |---|---|---|---|---|
 | S Ceres – S Vesta | Dec contraparallel | 0.0136 | contraparallel (95.5) | H Regulus – H Gonggong Dec contraparallel |
+| S Transpluto → H Gonggong | RA | 179.3307 | 180 opposition (10.8) | J Regulus – J Gonggong RA |
 | S Ketu – S Chiron | Dec contraparallel | 0.2722 | contraparallel (9.3) | H Regulus – H Gonggong Dec contraparallel |
 | S Venus – S Vesta | Dec contraparallel | 0.2818 | contraparallel (6.1) | H Regulus – H Gonggong Dec contraparallel |
+| S Jupiter → H Gonggong | Dec contraparallel | 0.2896 | contraparallel (3.5) | H Regulus – H Gonggong Dec contraparallel |
 
 Other scoring sky lines on Gonggong:
 
@@ -1025,6 +1080,8 @@ Other scoring sky lines on Gonggong:
 | J Antares – J Haumea | Dec | 48.4099 | — |
 | J Fomalhaut – J Haumea | Dec | 51.6002 | — |
 | J Regulus – J Haumea | Dec | 10.0118 | 10 (41.1) (also: 10 ninth (41.1)) |
+| H Haumea – J Haumea | RA | 18.6496 | — |
+| H Haumea – J Haumea | Dec | 5.0349 | — |
 
 Sky lines on the same target:
 
@@ -1085,10 +1142,14 @@ Other scoring sky lines on Haumea:
 | J Antares – J Makemake | Dec | 59.9599 | — |
 | J Fomalhaut – J Makemake | Dec | 63.1503 | — |
 | J Regulus – J Makemake | Dec | 21.5619 | — |
+| H Makemake – J Makemake | RA | 18.3578 | — |
+| H Makemake – J Makemake | Dec | 8.6825 | — |
 
 Sky lines on the same target:
 
-none
+| Sky line | Plane | Value | Score | Matches |
+|---|---|---|---|---|
+| S Uranus → H Makemake | RA | 148.9917 | 149 (58.4) | H Fomalhaut – H Makemake RA |
 
 Other scoring sky lines on Makemake:
 
@@ -1139,10 +1200,14 @@ Other scoring sky lines on Makemake:
 | J Antares – J Orcus | Dec | 26.3258 | — |
 | J Fomalhaut – J Orcus | Dec | 29.5162 | — |
 | J Regulus – J Orcus | Dec | 12.0723 | — |
+| H Orcus – J Orcus | RA | 17.1739 | — |
+| H Orcus – J Orcus | Dec | 9.8598 | — |
 
 Sky lines on the same target:
 
-none
+| Sky line | Plane | Value | Score | Matches |
+|---|---|---|---|---|
+| S Pluto → H Orcus | Dec | 12.9937 | 13 (68.5) | S Orcus → J Orcus Dec |
 
 Other scoring sky lines on Orcus:
 
@@ -1194,6 +1259,8 @@ Other scoring sky lines on Orcus:
 | J Antares – J Quaoar | Dec | 11.7771 | — |
 | J Fomalhaut – J Quaoar | Dec | 14.9675 | — |
 | J Regulus – J Quaoar | Dec | 26.6210 | — |
+| H Quaoar – J Quaoar | RA | 26.5677 | — |
+| H Quaoar – J Quaoar | Dec | 0.8451 | — |
 
 Sky lines on the same target:
 
@@ -1249,6 +1316,8 @@ Other scoring sky lines on Quaoar:
 | J Antares – J Sedna | Dec | 31.5097 | — |
 | J Fomalhaut – J Sedna | Dec | 34.7000 | — |
 | J Regulus – J Sedna | Dec | 6.8884 | — |
+| H Sedna – J Sedna | RA | 10.5324 | — |
+| H Sedna – J Sedna | Dec | 2.5922 | — |
 
 Sky lines on the same target:
 
@@ -1308,10 +1377,14 @@ Other scoring sky lines on Sedna:
 | J Antares – J Transpluto | Dec | 39.8855 | — |
 | J Fomalhaut – J Transpluto | Dec | 43.0759 | — |
 | J Regulus – J Transpluto | Dec | 1.4874 | — |
+| H Transpluto – J Transpluto | RA | 6.6536 | 6.66667 ninth (1.6) |
+| H Transpluto – J Transpluto | Dec | 2.3818 | — |
 
 Sky lines on the same target:
 
-none
+| Sky line | Plane | Value | Score | Matches |
+|---|---|---|---|---|
+| S Pluto – S Fomalhaut | Dec | 6.6665 | 6.66667 ninth (98.5) | H Transpluto – J Transpluto RA |
 
 Other scoring sky lines on Transpluto:
 
