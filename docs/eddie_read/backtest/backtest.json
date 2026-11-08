@@ -2,15 +2,15 @@
  "R25": {
   "name": "Pallas reached twice",
   "test": {
-   "races": 23,
-   "fired": 6,
-   "picks": 7,
-   "winners": 0,
-   "top2": 3,
-   "chance_w": 1.138095238095238,
-   "chance_2": 2.4190476190476184,
-   "only": 5,
-   "alone": 0,
+   "races": 24,
+   "fired": 7,
+   "picks": 8,
+   "winners": 1,
+   "top2": 4,
+   "chance_w": 1.3047619047619046,
+   "chance_2": 2.7523809523809524,
+   "only": 6,
+   "alone": 1,
    "missed": 6
   },
   "in_sample": {
@@ -26,15 +26,15 @@
    "missed": 0
   },
   "all": {
-   "races": 23,
-   "fired": 6,
-   "picks": 7,
-   "winners": 0,
-   "top2": 3,
-   "chance_w": 1.138095238095238,
-   "chance_2": 2.4190476190476184,
-   "only": 5,
-   "alone": 0,
+   "races": 24,
+   "fired": 7,
+   "picks": 8,
+   "winners": 1,
+   "top2": 4,
+   "chance_w": 1.3047619047619046,
+   "chance_2": 2.7523809523809524,
+   "only": 6,
+   "alone": 1,
    "missed": 6
   },
   "races": [
@@ -45,6 +45,19 @@
     "picks": [],
     "winner": "Pholas",
     "n_sel": 0
+   },
+   {
+    "race": "20210802_newcastle_aw_1633",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Athmad",
+      1
+     ]
+    ],
+    "winner": "Athmad",
+    "n_sel": 1
    },
    {
     "race": "20220108_lingfield_aw_1345",
@@ -261,16 +274,16 @@
  "R28": {
   "name": "Chiron to Jupiter, lit by Sun / Moon",
   "test": {
-   "races": 23,
-   "fired": 5,
-   "picks": 7,
+   "races": 24,
+   "fired": 6,
+   "picks": 8,
    "winners": 1,
-   "top2": 2,
-   "chance_w": 1.144047619047619,
-   "chance_2": 2.4309523809523808,
-   "only": 3,
+   "top2": 3,
+   "chance_w": 1.3107142857142855,
+   "chance_2": 2.7642857142857142,
+   "only": 4,
    "alone": 0,
-   "missed": 4
+   "missed": 5
   },
   "in_sample": {
    "races": 0,
@@ -285,16 +298,16 @@
    "missed": 0
   },
   "all": {
-   "races": 23,
-   "fired": 5,
-   "picks": 7,
+   "races": 24,
+   "fired": 6,
+   "picks": 8,
    "winners": 1,
-   "top2": 2,
-   "chance_w": 1.144047619047619,
-   "chance_2": 2.4309523809523808,
-   "only": 3,
+   "top2": 3,
+   "chance_w": 1.3107142857142855,
+   "chance_2": 2.7642857142857142,
+   "only": 4,
    "alone": 0,
-   "missed": 4
+   "missed": 5
   },
   "races": [
    {
@@ -304,6 +317,19 @@
     "picks": [],
     "winner": "Pholas",
     "n_sel": 0
+   },
+   {
+    "race": "20210802_newcastle_aw_1633",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Pallas Dancer",
+      2
+     ]
+    ],
+    "winner": "Athmad",
+    "n_sel": 1
    },
    {
     "race": "20220108_lingfield_aw_1345",
@@ -519,15 +545,15 @@
  "R1b": {
   "name": "Moon to X, sky X to Jupiter",
   "test": {
-   "races": 23,
-   "fired": 12,
-   "picks": 18,
-   "winners": 1,
-   "top2": 6,
-   "chance_w": 3.221428571428571,
-   "chance_2": 6.442857142857142,
-   "only": 7,
-   "alone": 0,
+   "races": 24,
+   "fired": 13,
+   "picks": 19,
+   "winners": 2,
+   "top2": 7,
+   "chance_w": 3.388095238095238,
+   "chance_2": 6.776190476190476,
+   "only": 8,
+   "alone": 1,
    "missed": 11
   },
   "in_sample": {
@@ -543,15 +569,15 @@
    "missed": 0
   },
   "all": {
-   "races": 23,
-   "fired": 12,
-   "picks": 18,
-   "winners": 1,
-   "top2": 6,
-   "chance_w": 3.221428571428571,
-   "chance_2": 6.442857142857142,
-   "only": 7,
-   "alone": 0,
+   "races": 24,
+   "fired": 13,
+   "picks": 19,
+   "winners": 2,
+   "top2": 7,
+   "chance_w": 3.388095238095238,
+   "chance_2": 6.776190476190476,
+   "only": 8,
+   "alone": 1,
    "missed": 11
   },
   "races": [
@@ -562,6 +588,19 @@
     "picks": [],
     "winner": "Pholas",
     "n_sel": 0
+   },
+   {
+    "race": "20210802_newcastle_aw_1633",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Athmad",
+      1
+     ]
+    ],
+    "winner": "Athmad",
+    "n_sel": 1
    },
    {
     "race": "20220108_lingfield_aw_1345",
@@ -828,7 +867,7 @@
  "R7": {
   "name": "Line star on own Jupiter and on one body both charts",
   "test": {
-   "races": 23,
+   "races": 24,
    "fired": 14,
    "picks": 22,
    "winners": 0,
@@ -852,7 +891,7 @@
    "missed": 0
   },
   "all": {
-   "races": 23,
+   "races": 24,
    "fired": 14,
    "picks": 22,
    "winners": 0,
@@ -876,6 +915,14 @@
     ],
     "winner": "Pholas",
     "n_sel": 1
+   },
+   {
+    "race": "20210802_newcastle_aw_1633",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Athmad",
+    "n_sel": 0
    },
    {
     "race": "20220108_lingfield_aw_1345",
@@ -1155,7 +1202,7 @@
  "R26": {
   "name": "Royal line star on own Jupiter",
   "test": {
-   "races": 23,
+   "races": 24,
    "fired": 9,
    "picks": 13,
    "winners": 3,
@@ -1179,7 +1226,7 @@
    "missed": 0
   },
   "all": {
-   "races": 23,
+   "races": 24,
    "fired": 9,
    "picks": 13,
    "winners": 3,
@@ -1197,6 +1244,14 @@
     "placed": 2,
     "picks": [],
     "winner": "Pholas",
+    "n_sel": 0
+   },
+   {
+    "race": "20210802_newcastle_aw_1633",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Athmad",
     "n_sel": 0
    },
    {
@@ -1441,16 +1496,16 @@
  "R40": {
   "name": "Node axis",
   "test": {
-   "races": 23,
-   "fired": 6,
-   "picks": 8,
+   "races": 24,
+   "fired": 7,
+   "picks": 9,
    "winners": 0,
    "top2": 3,
-   "chance_w": 1.2976190476190474,
-   "chance_2": 2.595238095238095,
-   "only": 4,
+   "chance_w": 1.464285714285714,
+   "chance_2": 2.928571428571428,
+   "only": 5,
    "alone": 0,
-   "missed": 6
+   "missed": 7
   },
   "in_sample": {
    "races": 0,
@@ -1465,16 +1520,16 @@
    "missed": 0
   },
   "all": {
-   "races": 23,
-   "fired": 6,
-   "picks": 8,
+   "races": 24,
+   "fired": 7,
+   "picks": 9,
    "winners": 0,
    "top2": 3,
-   "chance_w": 1.2976190476190474,
-   "chance_2": 2.595238095238095,
-   "only": 4,
+   "chance_w": 1.464285714285714,
+   "chance_2": 2.928571428571428,
+   "only": 5,
    "alone": 0,
-   "missed": 6
+   "missed": 7
   },
   "races": [
    {
@@ -1484,6 +1539,19 @@
     "picks": [],
     "winner": "Pholas",
     "n_sel": 0
+   },
+   {
+    "race": "20210802_newcastle_aw_1633",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Beating All",
+      5
+     ]
+    ],
+    "winner": "Athmad",
+    "n_sel": 1
    },
    {
     "race": "20220108_lingfield_aw_1345",
@@ -1704,16 +1772,16 @@
  "R42": {
   "name": "Moon on a same body",
   "test": {
-   "races": 23,
-   "fired": 19,
-   "picks": 31,
+   "races": 24,
+   "fired": 20,
+   "picks": 32,
    "winners": 3,
    "top2": 10,
-   "chance_w": 5.205952380952381,
-   "chance_2": 10.697619047619048,
-   "only": 8,
+   "chance_w": 5.372619047619048,
+   "chance_2": 11.030952380952382,
+   "only": 9,
    "alone": 0,
-   "missed": 16
+   "missed": 17
   },
   "in_sample": {
    "races": 0,
@@ -1728,16 +1796,16 @@
    "missed": 0
   },
   "all": {
-   "races": 23,
-   "fired": 19,
-   "picks": 31,
+   "races": 24,
+   "fired": 20,
+   "picks": 32,
    "winners": 3,
    "top2": 10,
-   "chance_w": 5.205952380952381,
-   "chance_2": 10.697619047619048,
-   "only": 8,
+   "chance_w": 5.372619047619048,
+   "chance_2": 11.030952380952382,
+   "only": 9,
    "alone": 0,
-   "missed": 16
+   "missed": 17
   },
   "races": [
    {
@@ -1756,6 +1824,19 @@
     ],
     "winner": "Pholas",
     "n_sel": 2
+   },
+   {
+    "race": "20210802_newcastle_aw_1633",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Beating All",
+      5
+     ]
+    ],
+    "winner": "Athmad",
+    "n_sel": 1
    },
    {
     "race": "20220108_lingfield_aw_1345",
@@ -2072,7 +2153,7 @@
  "R1": {
   "name": "Sun / Moon on one body both charts, sky X to Jupiter",
   "test": {
-   "races": 23,
+   "races": 24,
    "fired": 3,
    "picks": 3,
    "winners": 0,
@@ -2096,7 +2177,7 @@
    "missed": 0
   },
   "all": {
-   "races": 23,
+   "races": 24,
    "fired": 3,
    "picks": 3,
    "winners": 0,
@@ -2114,6 +2195,14 @@
     "placed": 2,
     "picks": [],
     "winner": "Pholas",
+    "n_sel": 0
+   },
+   {
+    "race": "20210802_newcastle_aw_1633",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Athmad",
     "n_sel": 0
    },
    {
@@ -2312,16 +2401,16 @@
  "B1": {
   "name": "Natal body on a strong line star (filter)",
   "test": {
-   "races": 5,
-   "fired": 4,
-   "picks": 10,
+   "races": 6,
+   "fired": 5,
+   "picks": 11,
    "winners": 2,
-   "top2": 3,
-   "chance_w": 1.5,
-   "chance_2": 3.0,
-   "only": 2,
+   "top2": 4,
+   "chance_w": 1.6666666666666667,
+   "chance_2": 3.3333333333333335,
+   "only": 3,
    "alone": 0,
-   "missed": 2
+   "missed": 3
   },
   "in_sample": {
    "races": 18,
@@ -2336,16 +2425,16 @@
    "missed": 3
   },
   "all": {
-   "races": 23,
-   "fired": 18,
-   "picks": 58,
+   "races": 24,
+   "fired": 19,
+   "picks": 59,
    "winners": 13,
-   "top2": 21,
-   "chance_w": 9.688095238095237,
-   "chance_2": 19.947619047619046,
-   "only": 4,
+   "top2": 22,
+   "chance_w": 9.854761904761903,
+   "chance_2": 20.280952380952378,
+   "only": 5,
    "alone": 0,
-   "missed": 5
+   "missed": 6
   },
   "races": [
    {
@@ -2372,6 +2461,19 @@
     ],
     "winner": "Pholas",
     "n_sel": 4
+   },
+   {
+    "race": "20210802_newcastle_aw_1633",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Pallas Dancer",
+      2
+     ]
+    ],
+    "winner": "Athmad",
+    "n_sel": 1
    },
    {
     "race": "20220108_lingfield_aw_1345",
@@ -2787,16 +2889,16 @@
  "B2": {
   "name": "Top natal body on a strong line star",
   "test": {
-   "races": 8,
-   "fired": 6,
-   "picks": 6,
+   "races": 9,
+   "fired": 7,
+   "picks": 7,
    "winners": 2,
-   "top2": 3,
-   "chance_w": 1.0178571428571428,
-   "chance_2": 2.0357142857142856,
-   "only": 6,
+   "top2": 4,
+   "chance_w": 1.1845238095238095,
+   "chance_2": 2.369047619047619,
+   "only": 7,
    "alone": 2,
-   "missed": 4
+   "missed": 5
   },
   "in_sample": {
    "races": 15,
@@ -2811,16 +2913,16 @@
    "missed": 8
   },
   "all": {
-   "races": 23,
-   "fired": 18,
-   "picks": 18,
+   "races": 24,
+   "fired": 19,
+   "picks": 19,
    "winners": 6,
-   "top2": 8,
-   "chance_w": 3.0726190476190474,
-   "chance_2": 6.288095238095237,
-   "only": 18,
+   "top2": 9,
+   "chance_w": 3.239285714285714,
+   "chance_2": 6.621428571428571,
+   "only": 19,
    "alone": 6,
-   "missed": 12
+   "missed": 13
   },
   "races": [
    {
@@ -2834,6 +2936,19 @@
      ]
     ],
     "winner": "Pholas",
+    "n_sel": 1
+   },
+   {
+    "race": "20210802_newcastle_aw_1633",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Pallas Dancer",
+      2
+     ]
+    ],
+    "winner": "Athmad",
     "n_sel": 1
    },
    {
@@ -3102,16 +3217,16 @@
  "B3": {
   "name": "Version 4",
   "test": {
-   "races": 7,
-   "fired": 5,
-   "picks": 5,
+   "races": 8,
+   "fired": 6,
+   "picks": 6,
    "winners": 1,
-   "top2": 2,
-   "chance_w": 0.7678571428571428,
-   "chance_2": 1.5357142857142856,
-   "only": 5,
+   "top2": 3,
+   "chance_w": 0.9345238095238094,
+   "chance_2": 1.8690476190476188,
+   "only": 6,
    "alone": 1,
-   "missed": 4
+   "missed": 5
   },
   "in_sample": {
    "races": 16,
@@ -3126,16 +3241,16 @@
    "missed": 7
   },
   "all": {
-   "races": 23,
-   "fired": 18,
-   "picks": 18,
+   "races": 24,
+   "fired": 19,
+   "picks": 19,
    "winners": 7,
-   "top2": 9,
-   "chance_w": 3.0726190476190474,
-   "chance_2": 6.288095238095237,
-   "only": 18,
+   "top2": 10,
+   "chance_w": 3.239285714285714,
+   "chance_2": 6.621428571428571,
+   "only": 19,
    "alone": 7,
-   "missed": 11
+   "missed": 12
   },
   "races": [
    {
@@ -3149,6 +3264,19 @@
      ]
     ],
     "winner": "Pholas",
+    "n_sel": 1
+   },
+   {
+    "race": "20210802_newcastle_aw_1633",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Pallas Dancer",
+      2
+     ]
+    ],
+    "winner": "Athmad",
     "n_sel": 1
    },
    {
@@ -3417,16 +3545,16 @@
  "B4": {
   "name": "Same body, clear lead",
   "test": {
-   "races": 5,
-   "fired": 2,
-   "picks": 2,
+   "races": 6,
+   "fired": 3,
+   "picks": 3,
    "winners": 0,
-   "top2": 1,
-   "chance_w": 0.3333333333333333,
-   "chance_2": 0.6666666666666666,
-   "only": 2,
+   "top2": 2,
+   "chance_w": 0.5,
+   "chance_2": 1.0,
+   "only": 3,
    "alone": 0,
-   "missed": 2
+   "missed": 3
   },
   "in_sample": {
    "races": 18,
@@ -3441,16 +3569,16 @@
    "missed": 4
   },
   "all": {
-   "races": 23,
-   "fired": 8,
-   "picks": 8,
+   "races": 24,
+   "fired": 9,
+   "picks": 9,
    "winners": 2,
-   "top2": 5,
-   "chance_w": 1.411904761904762,
-   "chance_2": 2.823809523809524,
-   "only": 8,
+   "top2": 6,
+   "chance_w": 1.5785714285714285,
+   "chance_2": 3.157142857142857,
+   "only": 9,
    "alone": 2,
-   "missed": 6
+   "missed": 7
   },
   "races": [
    {
@@ -3460,6 +3588,19 @@
     "picks": [],
     "winner": "Pholas",
     "n_sel": 0
+   },
+   {
+    "race": "20210802_newcastle_aw_1633",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Pallas Dancer",
+      2
+     ]
+    ],
+    "winner": "Athmad",
+    "n_sel": 1
    },
    {
     "race": "20220108_lingfield_aw_1345",
@@ -3682,7 +3823,7 @@
  "B5": {
   "name": "Same body in both planes",
   "test": {
-   "races": 5,
+   "races": 6,
    "fired": 0,
    "picks": 0,
    "winners": 0,
@@ -3706,7 +3847,7 @@
    "missed": 3
   },
   "all": {
-   "races": 23,
+   "races": 24,
    "fired": 4,
    "picks": 4,
    "winners": 1,
@@ -3724,6 +3865,14 @@
     "placed": 2,
     "picks": [],
     "winner": "Pholas",
+    "n_sel": 0
+   },
+   {
+    "race": "20210802_newcastle_aw_1633",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Athmad",
     "n_sel": 0
    },
    {
@@ -3927,16 +4076,16 @@
  "B6": {
   "name": "Same body on both charts",
   "test": {
-   "races": 5,
-   "fired": 1,
-   "picks": 1,
+   "races": 6,
+   "fired": 2,
+   "picks": 2,
    "winners": 0,
-   "top2": 0,
-   "chance_w": 0.16666666666666666,
-   "chance_2": 0.3333333333333333,
-   "only": 1,
+   "top2": 1,
+   "chance_w": 0.3333333333333333,
+   "chance_2": 0.6666666666666666,
+   "only": 2,
    "alone": 0,
-   "missed": 1
+   "missed": 2
   },
   "in_sample": {
    "races": 18,
@@ -3951,16 +4100,16 @@
    "missed": 1
   },
   "all": {
-   "races": 23,
-   "fired": 4,
-   "picks": 5,
+   "races": 24,
+   "fired": 5,
+   "picks": 6,
    "winners": 2,
-   "top2": 2,
-   "chance_w": 0.869047619047619,
-   "chance_2": 1.738095238095238,
-   "only": 3,
+   "top2": 3,
+   "chance_w": 1.0357142857142856,
+   "chance_2": 2.071428571428571,
+   "only": 4,
    "alone": 1,
-   "missed": 2
+   "missed": 3
   },
   "races": [
    {
@@ -3974,6 +4123,19 @@
      ]
     ],
     "winner": "Pholas",
+    "n_sel": 1
+   },
+   {
+    "race": "20210802_newcastle_aw_1633",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Pallas Dancer",
+      2
+     ]
+    ],
+    "winner": "Athmad",
     "n_sel": 1
    },
    {
@@ -4176,16 +4338,16 @@
  "B7": {
   "name": "Most sky bodies onto the jockey's Jupiter",
   "test": {
-   "races": 22,
-   "fired": 21,
-   "picks": 25,
+   "races": 23,
+   "fired": 22,
+   "picks": 27,
    "winners": 7,
    "top2": 13,
-   "chance_w": 4.094047619047618,
-   "chance_2": 8.33095238095238,
+   "chance_w": 4.427380952380952,
+   "chance_2": 8.997619047619047,
    "only": 18,
    "alone": 5,
-   "missed": 14
+   "missed": 15
   },
   "in_sample": {
    "races": 1,
@@ -4200,16 +4362,16 @@
    "missed": 0
   },
   "all": {
-   "races": 23,
-   "fired": 22,
-   "picks": 26,
+   "races": 24,
+   "fired": 23,
+   "picks": 28,
    "winners": 8,
    "top2": 14,
-   "chance_w": 4.344047619047619,
-   "chance_2": 8.830952380952382,
+   "chance_w": 4.677380952380952,
+   "chance_2": 9.497619047619047,
    "only": 19,
    "alone": 6,
-   "missed": 14
+   "missed": 15
   },
   "races": [
    {
@@ -4224,6 +4386,23 @@
     ],
     "winner": "Pholas",
     "n_sel": 1
+   },
+   {
+    "race": "20210802_newcastle_aw_1633",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Raise The Roof",
+      3
+     ],
+     [
+      "Tricolore",
+      4
+     ]
+    ],
+    "winner": "Athmad",
+    "n_sel": 2
    },
    {
     "race": "20220108_lingfield_aw_1345",
@@ -4527,16 +4706,16 @@
  "B8": {
   "name": "One line star on the most natal bodies",
   "test": {
-   "races": 22,
-   "fired": 22,
-   "picks": 46,
+   "races": 23,
+   "fired": 23,
+   "picks": 47,
    "winners": 9,
    "top2": 18,
-   "chance_w": 7.696428571428572,
-   "chance_2": 15.535714285714288,
-   "only": 9,
+   "chance_w": 7.863095238095239,
+   "chance_2": 15.86904761904762,
+   "only": 10,
    "alone": 3,
-   "missed": 13
+   "missed": 14
   },
   "in_sample": {
    "races": 1,
@@ -4551,16 +4730,16 @@
    "missed": 0
   },
   "all": {
-   "races": 23,
-   "fired": 23,
-   "picks": 47,
+   "races": 24,
+   "fired": 24,
+   "picks": 48,
    "winners": 10,
    "top2": 19,
-   "chance_w": 7.896428571428572,
-   "chance_2": 15.935714285714289,
-   "only": 10,
+   "chance_w": 8.06309523809524,
+   "chance_2": 16.269047619047623,
+   "only": 11,
    "alone": 4,
-   "missed": 13
+   "missed": 14
   },
   "races": [
    {
@@ -4579,6 +4758,19 @@
     ],
     "winner": "Pholas",
     "n_sel": 2
+   },
+   {
+    "race": "20210802_newcastle_aw_1633",
+    "ran": 6,
+    "placed": 2,
+    "picks": [
+     [
+      "Beating All",
+      5
+     ]
+    ],
+    "winner": "Athmad",
+    "n_sel": 1
    },
    {
     "race": "20220108_lingfield_aw_1345",
@@ -4963,7 +5155,7 @@
  "B9": {
   "name": "Jupiter and two of its line stars on one natal body",
   "test": {
-   "races": 22,
+   "races": 23,
    "fired": 9,
    "picks": 14,
    "winners": 3,
@@ -4987,7 +5179,7 @@
    "missed": 0
   },
   "all": {
-   "races": 23,
+   "races": 24,
    "fired": 10,
    "picks": 15,
    "winners": 4,
@@ -5011,6 +5203,14 @@
     ],
     "winner": "Pholas",
     "n_sel": 1
+   },
+   {
+    "race": "20210802_newcastle_aw_1633",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Athmad",
+    "n_sel": 0
    },
    {
     "race": "20220108_lingfield_aw_1345",
@@ -5258,7 +5458,7 @@
  "B10": {
   "name": "Sun and two of its line stars on one natal body",
   "test": {
-   "races": 22,
+   "races": 23,
    "fired": 14,
    "picks": 24,
    "winners": 9,
@@ -5282,7 +5482,7 @@
    "missed": 1
   },
   "all": {
-   "races": 23,
+   "races": 24,
    "fired": 15,
    "picks": 26,
    "winners": 9,
@@ -5306,6 +5506,14 @@
     ],
     "winner": "Pholas",
     "n_sel": 1
+   },
+   {
+    "race": "20210802_newcastle_aw_1633",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Athmad",
+    "n_sel": 0
    },
    {
     "race": "20220108_lingfield_aw_1345",
@@ -5602,7 +5810,7 @@
  "B11": {
   "name": "Moon and two of its line stars on one natal body",
   "test": {
-   "races": 22,
+   "races": 23,
    "fired": 13,
    "picks": 31,
    "winners": 8,
@@ -5626,7 +5834,7 @@
    "missed": 1
   },
   "all": {
-   "races": 23,
+   "races": 24,
    "fired": 14,
    "picks": 33,
    "winners": 8,
@@ -5644,6 +5852,14 @@
     "placed": 2,
     "picks": [],
     "winner": "Pholas",
+    "n_sel": 0
+   },
+   {
+    "race": "20210802_newcastle_aw_1633",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Athmad",
     "n_sel": 0
    },
    {
@@ -5973,7 +6189,7 @@
  "B12": {
   "name": "Same body and two line stars on it",
   "test": {
-   "races": 22,
+   "races": 23,
    "fired": 14,
    "picks": 24,
    "winners": 8,
@@ -5997,7 +6213,7 @@
    "missed": 1
   },
   "all": {
-   "races": 23,
+   "races": 24,
    "fired": 15,
    "picks": 25,
    "winners": 8,
@@ -6029,6 +6245,14 @@
     ],
     "winner": "Pholas",
     "n_sel": 3
+   },
+   {
+    "race": "20210802_newcastle_aw_1633",
+    "ran": 6,
+    "placed": 2,
+    "picks": [],
+    "winner": "Athmad",
+    "n_sel": 0
    },
    {
     "race": "20220108_lingfield_aw_1345",

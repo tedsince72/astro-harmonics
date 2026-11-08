@@ -1,6 +1,6 @@
 # Stage 3 back-test
 
-Races: 23 (results file 23).
+Races: 24 (results file 24).
 fired = races with a pick; only pick = races with exactly one pick; alone = one pick and it won; chance from field sizes.
 In-sample = races the rule was seen on or written from (rules.json); test = every other race. Only the test races are evidence.
 
@@ -8,26 +8,26 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 
 | Rule | Name | races | fired | picks | winners (chance) | 1st or 2nd (chance) | only pick | alone |
 |---|---|---|---|---|---|---|---|---|
-| R25 | Pallas reached twice | 23 | 6 | 7 | 0 (1.1) | 3 (2.4) | 5 | 0 |
-| R28 | Chiron to Jupiter, lit by Sun / Moon | 23 | 5 | 7 | 1 (1.1) | 2 (2.4) | 3 | 0 |
-| R1b | Moon to X, sky X to Jupiter | 23 | 12 | 18 | 1 (3.2) | 6 (6.4) | 7 | 0 |
-| R7 | Line star on own Jupiter and on one body both charts | 23 | 14 | 22 | 0 (3.6) | 4 (7.7) | 7 | 0 |
-| R26 | Royal line star on own Jupiter | 23 | 9 | 13 | 3 (2.1) | 4 (4.2) | 6 | 1 |
-| R40 | Node axis | 23 | 6 | 8 | 0 (1.3) | 3 (2.6) | 4 | 0 |
-| R42 | Moon on a same body | 23 | 19 | 31 | 3 (5.2) | 10 (10.7) | 8 | 0 |
-| R1 | Sun / Moon on one body both charts, sky X to Jupiter | 23 | 3 | 3 | 0 (0.5) | 0 (0.9) | 3 | 0 |
-| B1 | Natal body on a strong line star (filter) | 5 | 4 | 10 | 2 (1.5) | 3 (3.0) | 2 | 0 |
-| B2 | Top natal body on a strong line star | 8 | 6 | 6 | 2 (1.0) | 3 (2.0) | 6 | 2 |
-| B3 | Version 4 | 7 | 5 | 5 | 1 (0.8) | 2 (1.5) | 5 | 1 |
-| B4 | Same body, clear lead | 5 | 2 | 2 | 0 (0.3) | 1 (0.7) | 2 | 0 |
-| B5 | Same body in both planes | 5 | 0 | 0 | 0 (0.0) | 0 (0.0) | 0 | 0 |
-| B6 | Same body on both charts | 5 | 1 | 1 | 0 (0.2) | 0 (0.3) | 1 | 0 |
-| B7 | Most sky bodies onto the jockey's Jupiter | 22 | 21 | 25 | 7 (4.1) | 13 (8.3) | 18 | 5 |
-| B8 | One line star on the most natal bodies | 22 | 22 | 46 | 9 (7.7) | 18 (15.5) | 9 | 3 |
-| B9 | Jupiter and two of its line stars on one natal body | 22 | 9 | 14 | 3 (2.3) | 5 (4.7) | 6 | 0 |
-| B10 | Sun and two of its line stars on one natal body | 22 | 14 | 24 | 9 (3.8) | 14 (8.1) | 10 | 6 |
-| B11 | Moon and two of its line stars on one natal body | 22 | 13 | 31 | 8 (5.2) | 12 (10.6) | 4 | 2 |
-| B12 | Same body and two line stars on it | 22 | 14 | 24 | 8 (4.2) | 11 (8.4) | 8 | 3 |
+| R25 | Pallas reached twice | 24 | 7 | 8 | 1 (1.3) | 4 (2.8) | 6 | 1 |
+| R28 | Chiron to Jupiter, lit by Sun / Moon | 24 | 6 | 8 | 1 (1.3) | 3 (2.8) | 4 | 0 |
+| R1b | Moon to X, sky X to Jupiter | 24 | 13 | 19 | 2 (3.4) | 7 (6.8) | 8 | 1 |
+| R7 | Line star on own Jupiter and on one body both charts | 24 | 14 | 22 | 0 (3.6) | 4 (7.7) | 7 | 0 |
+| R26 | Royal line star on own Jupiter | 24 | 9 | 13 | 3 (2.1) | 4 (4.2) | 6 | 1 |
+| R40 | Node axis | 24 | 7 | 9 | 0 (1.5) | 3 (2.9) | 5 | 0 |
+| R42 | Moon on a same body | 24 | 20 | 32 | 3 (5.4) | 10 (11.0) | 9 | 0 |
+| R1 | Sun / Moon on one body both charts, sky X to Jupiter | 24 | 3 | 3 | 0 (0.5) | 0 (0.9) | 3 | 0 |
+| B1 | Natal body on a strong line star (filter) | 6 | 5 | 11 | 2 (1.7) | 4 (3.3) | 3 | 0 |
+| B2 | Top natal body on a strong line star | 9 | 7 | 7 | 2 (1.2) | 4 (2.4) | 7 | 2 |
+| B3 | Version 4 | 8 | 6 | 6 | 1 (0.9) | 3 (1.9) | 6 | 1 |
+| B4 | Same body, clear lead | 6 | 3 | 3 | 0 (0.5) | 2 (1.0) | 3 | 0 |
+| B5 | Same body in both planes | 6 | 0 | 0 | 0 (0.0) | 0 (0.0) | 0 | 0 |
+| B6 | Same body on both charts | 6 | 2 | 2 | 0 (0.3) | 1 (0.7) | 2 | 0 |
+| B7 | Most sky bodies onto the jockey's Jupiter | 23 | 22 | 27 | 7 (4.4) | 13 (9.0) | 18 | 5 |
+| B8 | One line star on the most natal bodies | 23 | 23 | 47 | 9 (7.9) | 18 (15.9) | 10 | 3 |
+| B9 | Jupiter and two of its line stars on one natal body | 23 | 9 | 14 | 3 (2.3) | 5 (4.7) | 6 | 0 |
+| B10 | Sun and two of its line stars on one natal body | 23 | 14 | 24 | 9 (3.8) | 14 (8.1) | 10 | 6 |
+| B11 | Moon and two of its line stars on one natal body | 23 | 13 | 31 | 8 (5.2) | 12 (10.6) | 4 | 2 |
+| B12 | Same body and two line stars on it | 23 | 14 | 24 | 8 (4.2) | 11 (8.4) | 8 | 3 |
 
 ## In-sample races
 
@@ -58,32 +58,33 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 
 | Rule | Name | races | fired | picks | winners (chance) | 1st or 2nd (chance) | only pick | alone |
 |---|---|---|---|---|---|---|---|---|
-| R25 | Pallas reached twice | 23 | 6 | 7 | 0 (1.1) | 3 (2.4) | 5 | 0 |
-| R28 | Chiron to Jupiter, lit by Sun / Moon | 23 | 5 | 7 | 1 (1.1) | 2 (2.4) | 3 | 0 |
-| R1b | Moon to X, sky X to Jupiter | 23 | 12 | 18 | 1 (3.2) | 6 (6.4) | 7 | 0 |
-| R7 | Line star on own Jupiter and on one body both charts | 23 | 14 | 22 | 0 (3.6) | 4 (7.7) | 7 | 0 |
-| R26 | Royal line star on own Jupiter | 23 | 9 | 13 | 3 (2.1) | 4 (4.2) | 6 | 1 |
-| R40 | Node axis | 23 | 6 | 8 | 0 (1.3) | 3 (2.6) | 4 | 0 |
-| R42 | Moon on a same body | 23 | 19 | 31 | 3 (5.2) | 10 (10.7) | 8 | 0 |
-| R1 | Sun / Moon on one body both charts, sky X to Jupiter | 23 | 3 | 3 | 0 (0.5) | 0 (0.9) | 3 | 0 |
-| B1 | Natal body on a strong line star (filter) | 23 | 18 | 58 | 13 (9.7) | 21 (19.9) | 4 | 0 |
-| B2 | Top natal body on a strong line star | 23 | 18 | 18 | 6 (3.1) | 8 (6.3) | 18 | 6 |
-| B3 | Version 4 | 23 | 18 | 18 | 7 (3.1) | 9 (6.3) | 18 | 7 |
-| B4 | Same body, clear lead | 23 | 8 | 8 | 2 (1.4) | 5 (2.8) | 8 | 2 |
-| B5 | Same body in both planes | 23 | 4 | 4 | 1 (0.6) | 2 (1.3) | 4 | 1 |
-| B6 | Same body on both charts | 23 | 4 | 5 | 2 (0.9) | 2 (1.7) | 3 | 1 |
-| B7 | Most sky bodies onto the jockey's Jupiter | 23 | 22 | 26 | 8 (4.3) | 14 (8.8) | 19 | 6 |
-| B8 | One line star on the most natal bodies | 23 | 23 | 47 | 10 (7.9) | 19 (15.9) | 10 | 4 |
-| B9 | Jupiter and two of its line stars on one natal body | 23 | 10 | 15 | 4 (2.5) | 6 (4.9) | 7 | 1 |
-| B10 | Sun and two of its line stars on one natal body | 23 | 15 | 26 | 9 (4.1) | 14 (8.6) | 10 | 6 |
-| B11 | Moon and two of its line stars on one natal body | 23 | 14 | 33 | 8 (5.4) | 12 (11.1) | 4 | 2 |
-| B12 | Same body and two line stars on it | 23 | 15 | 25 | 8 (4.3) | 11 (8.7) | 9 | 3 |
+| R25 | Pallas reached twice | 24 | 7 | 8 | 1 (1.3) | 4 (2.8) | 6 | 1 |
+| R28 | Chiron to Jupiter, lit by Sun / Moon | 24 | 6 | 8 | 1 (1.3) | 3 (2.8) | 4 | 0 |
+| R1b | Moon to X, sky X to Jupiter | 24 | 13 | 19 | 2 (3.4) | 7 (6.8) | 8 | 1 |
+| R7 | Line star on own Jupiter and on one body both charts | 24 | 14 | 22 | 0 (3.6) | 4 (7.7) | 7 | 0 |
+| R26 | Royal line star on own Jupiter | 24 | 9 | 13 | 3 (2.1) | 4 (4.2) | 6 | 1 |
+| R40 | Node axis | 24 | 7 | 9 | 0 (1.5) | 3 (2.9) | 5 | 0 |
+| R42 | Moon on a same body | 24 | 20 | 32 | 3 (5.4) | 10 (11.0) | 9 | 0 |
+| R1 | Sun / Moon on one body both charts, sky X to Jupiter | 24 | 3 | 3 | 0 (0.5) | 0 (0.9) | 3 | 0 |
+| B1 | Natal body on a strong line star (filter) | 24 | 19 | 59 | 13 (9.9) | 22 (20.3) | 5 | 0 |
+| B2 | Top natal body on a strong line star | 24 | 19 | 19 | 6 (3.2) | 9 (6.6) | 19 | 6 |
+| B3 | Version 4 | 24 | 19 | 19 | 7 (3.2) | 10 (6.6) | 19 | 7 |
+| B4 | Same body, clear lead | 24 | 9 | 9 | 2 (1.6) | 6 (3.2) | 9 | 2 |
+| B5 | Same body in both planes | 24 | 4 | 4 | 1 (0.6) | 2 (1.3) | 4 | 1 |
+| B6 | Same body on both charts | 24 | 5 | 6 | 2 (1.0) | 3 (2.1) | 4 | 1 |
+| B7 | Most sky bodies onto the jockey's Jupiter | 24 | 23 | 28 | 8 (4.7) | 14 (9.5) | 19 | 6 |
+| B8 | One line star on the most natal bodies | 24 | 24 | 48 | 10 (8.1) | 19 (16.3) | 11 | 4 |
+| B9 | Jupiter and two of its line stars on one natal body | 24 | 10 | 15 | 4 (2.5) | 6 (4.9) | 7 | 1 |
+| B10 | Sun and two of its line stars on one natal body | 24 | 15 | 26 | 9 (4.1) | 14 (8.6) | 10 | 6 |
+| B11 | Moon and two of its line stars on one natal body | 24 | 14 | 33 | 8 (5.4) | 12 (11.1) | 4 | 2 |
+| B12 | Same body and two line stars on it | 24 | 15 | 25 | 8 (4.3) | 11 (8.7) | 9 | 3 |
 
 
 ## Per rule, every race
 
 ### R25 Pallas reached twice
 - 20210402_lingfield_aw_1435 (test, 6 ran): none; winner Pholas
+- 20210802_newcastle_aw_1633 (test, 6 ran): Athmad (won); winner Athmad
 - 20220108_lingfield_aw_1345 (test, 5 ran): none; winner Trevolli
 - 20220110_ludlow_1515 (test, 7 ran): none; winner Java Point
 - 20220121_lingfield_1350 (test, 7 ran): none; winner Frero Banbou
@@ -109,6 +110,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 
 ### R28 Chiron to Jupiter, lit by Sun / Moon
 - 20210402_lingfield_aw_1435 (test, 6 ran): none; winner Pholas
+- 20210802_newcastle_aw_1633 (test, 6 ran): Pallas Dancer (2); winner Athmad
 - 20220108_lingfield_aw_1345 (test, 5 ran): Supakalanistic (5), Eleven Eleven (4); winner Trevolli
 - 20220110_ludlow_1515 (test, 7 ran): none; winner Java Point
 - 20220121_lingfield_1350 (test, 7 ran): none; winner Frero Banbou
@@ -134,6 +136,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 
 ### R1b Moon to X, sky X to Jupiter
 - 20210402_lingfield_aw_1435 (test, 6 ran): none; winner Pholas
+- 20210802_newcastle_aw_1633 (test, 6 ran): Athmad (won); winner Athmad
 - 20220108_lingfield_aw_1345 (test, 5 ran): Supakalanistic (5); winner Trevolli
 - 20220110_ludlow_1515 (test, 7 ran): none; winner Java Point
 - 20220121_lingfield_1350 (test, 7 ran): Eclair D'Ainay (2), Cedar Hill (5); winner Frero Banbou
@@ -159,6 +162,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 
 ### R7 Line star on own Jupiter and on one body both charts
 - 20210402_lingfield_aw_1435 (test, 6 ran): Shimmering Dawn (2); winner Pholas
+- 20210802_newcastle_aw_1633 (test, 6 ran): none; winner Athmad
 - 20220108_lingfield_aw_1345 (test, 5 ran): Supakalanistic (5), Eleven Eleven (4); winner Trevolli
 - 20220110_ludlow_1515 (test, 7 ran): Une De La Seniere (3), Method Madness (6); winner Java Point
 - 20220121_lingfield_1350 (test, 7 ran): Financier (7); winner Frero Banbou
@@ -184,6 +188,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 
 ### R26 Royal line star on own Jupiter
 - 20210402_lingfield_aw_1435 (test, 6 ran): none; winner Pholas
+- 20210802_newcastle_aw_1633 (test, 6 ran): none; winner Athmad
 - 20220108_lingfield_aw_1345 (test, 5 ran): Protected Guest (2); winner Trevolli
 - 20220110_ludlow_1515 (test, 7 ran): Method Madness (6); winner Java Point
 - 20220121_lingfield_1350 (test, 7 ran): Financier (7), One True King (4), Beaufort West (6); winner Frero Banbou
@@ -209,6 +214,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 
 ### R40 Node axis
 - 20210402_lingfield_aw_1435 (test, 6 ran): none; winner Pholas
+- 20210802_newcastle_aw_1633 (test, 6 ran): Beating All (5); winner Athmad
 - 20220108_lingfield_aw_1345 (test, 5 ran): none; winner Trevolli
 - 20220110_ludlow_1515 (test, 7 ran): none; winner Java Point
 - 20220121_lingfield_1350 (test, 7 ran): Eclair D'Ainay (2), Beaufort West (6); winner Frero Banbou
@@ -234,6 +240,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 
 ### R42 Moon on a same body
 - 20210402_lingfield_aw_1435 (test, 6 ran): Fizzy Feet (4), Pholas (won); winner Pholas
+- 20210802_newcastle_aw_1633 (test, 6 ran): Beating All (5); winner Athmad
 - 20220108_lingfield_aw_1345 (test, 5 ran): Supakalanistic (5), Trevolli (won); winner Trevolli
 - 20220110_ludlow_1515 (test, 7 ran): Wildfire Warrior (7), Fanamix (4); winner Java Point
 - 20220121_lingfield_1350 (test, 7 ran): Financier (7), Le Ligerien (3); winner Frero Banbou
@@ -259,6 +266,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 
 ### R1 Sun / Moon on one body both charts, sky X to Jupiter
 - 20210402_lingfield_aw_1435 (test, 6 ran): none; winner Pholas
+- 20210802_newcastle_aw_1633 (test, 6 ran): none; winner Athmad
 - 20220108_lingfield_aw_1345 (test, 5 ran): none; winner Trevolli
 - 20220110_ludlow_1515 (test, 7 ran): none; winner Java Point
 - 20220121_lingfield_1350 (test, 7 ran): Cedar Hill (5); winner Frero Banbou
@@ -284,6 +292,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 
 ### B1 Natal body on a strong line star (filter)
 - 20210402_lingfield_aw_1435 (test, 6 ran): Arafi (3), Fizzy Feet (4), Indie Angel (5), Pholas (won); winner Pholas
+- 20210802_newcastle_aw_1633 (test, 6 ran): Pallas Dancer (2); winner Athmad
 - 20220108_lingfield_aw_1345 (in-sample, 5 ran): Protected Guest (2), Creationist (3), Eleven Eleven (4); winner Trevolli
 - 20220110_ludlow_1515 (in-sample, 7 ran): Method Madness (6); winner Java Point
 - 20220121_lingfield_1350 (in-sample, 7 ran): Eclair D'Ainay (2), Financier (7), Frero Banbou (won), One True King (4), Cedar Hill (5), Le Ligerien (3), Beaufort West (6); winner Frero Banbou
@@ -309,6 +318,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 
 ### B2 Top natal body on a strong line star
 - 20210402_lingfield_aw_1435 (test, 6 ran): Pholas (won); winner Pholas
+- 20210802_newcastle_aw_1633 (test, 6 ran): Pallas Dancer (2); winner Athmad
 - 20220108_lingfield_aw_1345 (in-sample, 5 ran): Creationist (3); winner Trevolli
 - 20220110_ludlow_1515 (in-sample, 7 ran): Method Madness (6); winner Java Point
 - 20220121_lingfield_1350 (in-sample, 7 ran): Financier (7); winner Frero Banbou
@@ -334,6 +344,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 
 ### B3 Version 4
 - 20210402_lingfield_aw_1435 (test, 6 ran): Pholas (won); winner Pholas
+- 20210802_newcastle_aw_1633 (test, 6 ran): Pallas Dancer (2); winner Athmad
 - 20220108_lingfield_aw_1345 (in-sample, 5 ran): Creationist (3); winner Trevolli
 - 20220110_ludlow_1515 (in-sample, 7 ran): Method Madness (6); winner Java Point
 - 20220121_lingfield_1350 (in-sample, 7 ran): Financier (7); winner Frero Banbou
@@ -359,6 +370,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 
 ### B4 Same body, clear lead
 - 20210402_lingfield_aw_1435 (test, 6 ran): none; winner Pholas
+- 20210802_newcastle_aw_1633 (test, 6 ran): Pallas Dancer (2); winner Athmad
 - 20220108_lingfield_aw_1345 (in-sample, 5 ran): Protected Guest (2); winner Trevolli
 - 20220110_ludlow_1515 (in-sample, 7 ran): Jimmy The Digger (5); winner Java Point
 - 20220121_lingfield_1350 (in-sample, 7 ran): none; winner Frero Banbou
@@ -384,6 +396,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 
 ### B5 Same body in both planes
 - 20210402_lingfield_aw_1435 (test, 6 ran): none; winner Pholas
+- 20210802_newcastle_aw_1633 (test, 6 ran): none; winner Athmad
 - 20220108_lingfield_aw_1345 (in-sample, 5 ran): none; winner Trevolli
 - 20220110_ludlow_1515 (in-sample, 7 ran): none; winner Java Point
 - 20220121_lingfield_1350 (in-sample, 7 ran): Cedar Hill (5); winner Frero Banbou
@@ -409,6 +422,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 
 ### B6 Same body on both charts
 - 20210402_lingfield_aw_1435 (test, 6 ran): Indie Angel (5); winner Pholas
+- 20210802_newcastle_aw_1633 (test, 6 ran): Pallas Dancer (2); winner Athmad
 - 20220108_lingfield_aw_1345 (in-sample, 5 ran): none; winner Trevolli
 - 20220110_ludlow_1515 (in-sample, 7 ran): none; winner Java Point
 - 20220121_lingfield_1350 (in-sample, 7 ran): none; winner Frero Banbou
@@ -434,6 +448,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 
 ### B7 Most sky bodies onto the jockey's Jupiter
 - 20210402_lingfield_aw_1435 (test, 6 ran): Nirodha (6); winner Pholas
+- 20210802_newcastle_aw_1633 (test, 6 ran): Raise The Roof (3), Tricolore (4); winner Athmad
 - 20220108_lingfield_aw_1345 (test, 5 ran): Protected Guest (2); winner Trevolli
 - 20220110_ludlow_1515 (test, 7 ran): Java Point (won), Method Madness (6); winner Java Point
 - 20220121_lingfield_1350 (test, 7 ran): Frero Banbou (won); winner Frero Banbou
@@ -459,6 +474,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 
 ### B8 One line star on the most natal bodies
 - 20210402_lingfield_aw_1435 (test, 6 ran): Indie Angel (5), Pholas (won); winner Pholas
+- 20210802_newcastle_aw_1633 (test, 6 ran): Beating All (5); winner Athmad
 - 20220108_lingfield_aw_1345 (test, 5 ran): Protected Guest (2), Supakalanistic (5); winner Trevolli
 - 20220110_ludlow_1515 (test, 7 ran): Isolate (2), Une De La Seniere (3), Wildfire Warrior (7), Jimmy The Digger (5), Method Madness (6); winner Java Point
 - 20220121_lingfield_1350 (test, 7 ran): Frero Banbou (won); winner Frero Banbou
@@ -484,6 +500,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 
 ### B9 Jupiter and two of its line stars on one natal body
 - 20210402_lingfield_aw_1435 (test, 6 ran): Indie Angel (5); winner Pholas
+- 20210802_newcastle_aw_1633 (test, 6 ran): none; winner Athmad
 - 20220108_lingfield_aw_1345 (test, 5 ran): none; winner Trevolli
 - 20220110_ludlow_1515 (test, 7 ran): Java Point (won), Une De La Seniere (3), Jimmy The Digger (5); winner Java Point
 - 20220121_lingfield_1350 (test, 7 ran): none; winner Frero Banbou
@@ -509,6 +526,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 
 ### B10 Sun and two of its line stars on one natal body
 - 20210402_lingfield_aw_1435 (test, 6 ran): Nirodha (6); winner Pholas
+- 20210802_newcastle_aw_1633 (test, 6 ran): none; winner Athmad
 - 20220108_lingfield_aw_1345 (test, 5 ran): Trevolli (won); winner Trevolli
 - 20220110_ludlow_1515 (test, 7 ran): none; winner Java Point
 - 20220121_lingfield_1350 (test, 7 ran): Eclair D'Ainay (2), Financier (7), Cedar Hill (5), Le Ligerien (3); winner Frero Banbou
@@ -534,6 +552,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 
 ### B11 Moon and two of its line stars on one natal body
 - 20210402_lingfield_aw_1435 (test, 6 ran): none; winner Pholas
+- 20210802_newcastle_aw_1633 (test, 6 ran): none; winner Athmad
 - 20220108_lingfield_aw_1345 (test, 5 ran): Trevolli (won); winner Trevolli
 - 20220110_ludlow_1515 (test, 7 ran): none; winner Java Point
 - 20220121_lingfield_1350 (test, 7 ran): Financier (7), Frero Banbou (won), Cedar Hill (5); winner Frero Banbou
@@ -559,6 +578,7 @@ In-sample = races the rule was seen on or written from (rules.json); test = ever
 
 ### B12 Same body and two line stars on it
 - 20210402_lingfield_aw_1435 (test, 6 ran): Indie Angel (5), Nirodha (6), Pholas (won); winner Pholas
+- 20210802_newcastle_aw_1633 (test, 6 ran): none; winner Athmad
 - 20220108_lingfield_aw_1345 (test, 5 ran): Protected Guest (2); winner Trevolli
 - 20220110_ludlow_1515 (test, 7 ran): Java Point (won); winner Java Point
 - 20220121_lingfield_1350 (test, 7 ran): Financier (7), Frero Banbou (won), Cedar Hill (5); winner Frero Banbou
