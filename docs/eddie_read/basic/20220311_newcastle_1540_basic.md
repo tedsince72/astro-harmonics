@@ -3,16 +3,16 @@
 The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
-| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 Vocaliser / Fergus Gregory | 1 (1 only) | - | 1 (1 only) | - | - | - | - | 6 | - | 2 (2 only) | 4 (3 only) | 8 (7 only) | 11 (0 only) | 1 (1 only) |
-| 2 Edmond Dantes / Brian Hughes | 2 (2 only) | - | - | - | - | - | 1 (1 only) | 1 | 2 (2 only) | 3 (3 only) | 8 (5 only) | 8 (7 only) | 8 (0 only) | 4 (4 only) |
-| 3 Peak Time / Conor O'Farrell | - | - | 1 (1 only) | 1 (1 only) | - | 1 (1 only) | - | 6 | - | 2 (2 only) | 2 (1 only) | 7 (3 only) | 8 (1 only) | - |
-| 5 Sir Apollo / Jonathan England | - | - | - | - | - | - | - | 0 | - | 1 (1 only) | 5 (4 only) | 7 (4 only) | 6 (0 only) | 1 (1 only) |
-| 6 Thundersockssundae / Kielan Woods | - | - | 1 (1 only) | 1 (1 only) | - | - | - | 2 | - | 3 (3 only) | 4 (4 only) | 8 (6 only) | 10 (1 only) | 1 (1 only) |
-| 7 Black Opium / Stephen Mulqueen | - | - | - | - | - | - | - | 4 | - | 3 (3 only) | 5 (3 only) | 10 (4 only) | 4 (0 only) | - |
+| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 Vocaliser / Fergus Gregory | 1 (1 only) | - | 1 (1 only) | - | - | - | - | 6 | - | 2 (2 only) | 4 (3 only) | 8 (7 only) | 11 (0 only) | 1 (1 only) | - |
+| 2 Edmond Dantes / Brian Hughes | 2 (2 only) | - | - | - | - | - | 1 (1 only) | 1 | 2 (2 only) | 3 (3 only) | 8 (5 only) | 8 (7 only) | 8 (0 only) | 4 (4 only) | - |
+| 3 Peak Time / Conor O'Farrell | - | - | 1 (1 only) | 1 (1 only) | - | 1 (1 only) | - | 6 | - | 2 (2 only) | 2 (1 only) | 7 (3 only) | 8 (1 only) | - | - |
+| 5 Sir Apollo / Jonathan England | - | - | - | - | - | - | - | 0 | - | 1 (1 only) | 5 (4 only) | 7 (4 only) | 6 (0 only) | 1 (1 only) | - |
+| 6 Thundersockssundae / Kielan Woods | - | - | 1 (1 only) | 1 (1 only) | - | - | - | 2 | - | 3 (3 only) | 4 (4 only) | 8 (6 only) | 10 (1 only) | 1 (1 only) | - |
+| 7 Black Opium / Stephen Mulqueen | - | - | - | - | - | - | - | 4 | - | 3 (3 only) | 5 (3 only) | 10 (4 only) | 4 (0 only) | - | - |
 
-Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer.
+Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
 ## 1 Vocaliser / Fergus Gregory
 ### 1 natal pair, same number, both charts
@@ -64,6 +64,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 4 and 40: S Moon → H Gonggong Dec 39.9931 40 whole (43.18) | S Sedna → J Sedna Dec 4.0091 4 whole (29.75) — also: 2 Edmond Dantes, 3 Peak Time
 ### 13 one body pair, every layer
 - Mercury – Haumea: digits 145: J Mercury – J Haumea RA 144.9853 145 whole (7.04) | S Mercury → J Haumea RA 145.0151 145 whole (6.09) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 2 Edmond Dantes / Brian Hughes
 ### 1 natal pair, same number, both charts
@@ -122,6 +124,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - Jupiter – Pluto: digits 6: S Jupiter → H Pluto RA 60.0168 60 whole (2.62) | S Pluto → J Jupiter Dec 5.9899 6 whole (24.29) — only
 - Saturn – Pluto: digits 2: S Pluto → H Saturn Dec 2.0041 2 whole (63.56) | J Saturn – J Pluto Dec 19.9974 20 whole (75.52) — only
 - Rahu – Makemake: digits 2: H Rahu – H Makemake Dec 19.9993 20 whole (93.16) | J Rahu – J Makemake Dec 19.9868 20 whole (11.40) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 3 Peak Time / Conor O'Farrell
 ### 1 natal pair, same number, both charts
@@ -166,6 +170,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 3 and 30: S Eris → H Ceres Dec 30.0046 30 whole (59.34) | S Quaoar → H Mars Dec 30.0142 30 whole (8.37) | J Ceres – J Sedna RA 30.0197 30 whole (0.02) | J Mercury – J Makemake RA 29.9922 30 whole (37.35) | S Jupiter → J Eris Dec 3.0063 3 whole (47.19) | S Moon → J Jupiter Dec 2.9867 3 whole (11.08) | S Pallas → J Jupiter Dec 29.9945 30 whole (52.38) — also: 1 Vocaliser, 5 Sir Apollo, 6 Thundersockssundae, 7 Black Opium
 - 11 and 110: S Saturn → J Ceres RA 109.9830 110 whole (2.20) | S Mercury → J Uranus Dec 10.9980 11 whole (81.12) — only
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none
 
 ## 5 Sir Apollo / Jonathan England
@@ -212,6 +218,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 15 and 150: J Venus – J Ceres RA 149.9996 150 whole (96.52) | S Transpluto → J Makemake RA 14.9843 15 whole (4.65) | S Neptune → J Saturn Dec 15.0113 15 whole (18.77) — also: 1 Vocaliser, 2 Edmond Dantes
 ### 13 one body pair, every layer
 - Jupiter – Saturn: digits 39: J Jupiter – J Saturn Dec 39.0068 39 whole (43.82) | S Jupiter → J Saturn RA 39.0174 39 whole (1.63) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 6 Thundersockssundae / Kielan Woods
 ### 1 natal pair, same number, both charts
@@ -263,6 +271,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 5 and 50: S Sedna → H Juno Dec 4.9953 5 whole (58.35) | S Neptune → J Sedna RA 49.9952 50 whole (57.55) — also: 1 Vocaliser, 2 Edmond Dantes
 ### 13 one body pair, every layer
 - Pallas – Orcus: digits 12: H Pallas – H Orcus RA 120.0177 120 whole (1.29) | S Pallas → J Orcus RA 119.9805 120 whole (0.06) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 7 Black Opium / Stephen Mulqueen
 ### 1 natal pair, same number, both charts
@@ -310,4 +320,6 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 2 and 20: S Chiron → H Makemake Dec 19.9939 20 whole (48.29) | J Sun – J Gonggong RA 2.0086 2 whole (32.62) | S Mars → J Pallas RA 1.9808 2 whole (0.16) — also: 1 Vocaliser, 2 Edmond Dantes, 3 Peak Time, 5 Sir Apollo, 6 Thundersockssundae
 - 7 and 70: S Rahu → J Ceres RA 69.9825 70 whole (1.55) | S Juno → J Ceres Dec 6.9832 7 whole (2.56) | S Quaoar → J Uranus Dec 6.9811 7 whole (0.29) — also: 2 Edmond Dantes, 3 Peak Time
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none

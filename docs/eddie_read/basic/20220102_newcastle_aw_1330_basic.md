@@ -3,15 +3,15 @@
 The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
-| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 Good Effort / Jim Crowley | - | - | - | - | - | - | - | 3 | - | - | 6 (5 only) | 5 (3 only) | 9 (2 only) | - |
-| 2 King Of Stars / Jason Watson | - | 1 (0 only) | - | - | - | - | - | 3 | - | 3 (3 only) | 4 (3 only) | 8 (4 only) | 6 (0 only) | - |
-| 3 Mondammej / Cam Hardie | - | 1 (0 only) | 1 (1 only) | - | - | - | 2 (2 only) | 0 | - | 2 (2 only) | 2 (2 only) | 7 (4 only) | 5 (0 only) | - |
-| 4 Regional / Daniel Tudhope | 1 (1 only) | - | 1 (1 only) | - | - | - | - | 4 | - | 3 (3 only) | 9 (9 only) | 12 (7 only) | 6 (2 only) | 1 (1 only) |
-| 5 Venturous / Connor Beasley | 1 (1 only) | - | - | - | - | - | - | 3 | - | 3 (3 only) | 5 (5 only) | 7 (4 only) | 7 (1 only) | 1 (1 only) |
+| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 Good Effort / Jim Crowley | - | - | - | - | - | - | - | 3 | - | - | 6 (5 only) | 5 (3 only) | 9 (2 only) | - | - |
+| 2 King Of Stars / Jason Watson | - | 1 (0 only) | - | - | - | - | - | 3 | - | 3 (3 only) | 4 (3 only) | 8 (4 only) | 6 (0 only) | - | - |
+| 3 Mondammej / Cam Hardie | - | 1 (0 only) | 1 (1 only) | - | - | - | 2 (2 only) | 0 | - | 2 (2 only) | 2 (2 only) | 7 (4 only) | 5 (0 only) | - | - |
+| 4 Regional / Daniel Tudhope | 1 (1 only) | - | 1 (1 only) | - | - | - | - | 4 | - | 3 (3 only) | 9 (9 only) | 12 (7 only) | 6 (2 only) | 1 (1 only) | - |
+| 5 Venturous / Connor Beasley | 1 (1 only) | - | - | - | - | - | - | 3 | - | 3 (3 only) | 5 (5 only) | 7 (4 only) | 7 (1 only) | 1 (1 only) | - |
 
-Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer.
+Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
 ## 1 Good Effort / Jim Crowley
 ### 1 natal pair, same number, both charts
@@ -58,6 +58,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 1 and 100: J Jupiter – J Pallas Dec 1.0190 1 whole (0.23) | S Mars → J Pallas RA 0.9975 1 whole (76.62) | S Moon → J Rahu RA 99.9832 100 whole (2.58) | S Uranus → J Transpluto Dec 1.0185 1 whole (0.53) — also: 2 King Of Stars, 3 Mondammej, 4 Regional, 5 Venturous
 - 2 and 20: H Rahu – H Ceres Dec 19.9808 20 whole (0.15) | S Sun → H Mercury RA 19.9813 20 whole (0.44) | S Vesta → H Ceres RA 19.9919 20 whole (35.32) | S Mercury → J Gonggong Dec 1.9925 2 whole (38.76) — also: 2 King Of Stars, 3 Mondammej, 4 Regional, 5 Venturous
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none
 
 ## 2 King Of Stars / Jason Watson
@@ -106,6 +108,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 1 and 10: S Uranus → H Sun Dec 9.9969 10 whole (71.43) | J Orcus – J Transpluto RA 10.0045 10 whole (60.34) | S Mercury → J Ketu Dec 1.0044 1 whole (60.53) | S Venus → J Chiron Dec 0.9951 1 whole (56.66) — also: 1 Good Effort, 3 Mondammej, 4 Regional, 5 Venturous
 ### 13 one body pair, every layer
 - none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 3 Mondammej / Cam Hardie
 ### 1 natal pair, same number, both charts
@@ -148,6 +152,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 2 and 20: H Mars – H Sedna RA 19.9913 20 whole (31.91) | S Juno → H Mercury Dec 19.9910 20 whole (30.39) | S Rahu → H Sun Dec 19.9963 20 whole (66.59) | J Pluto – J Chiron Dec 1.9825 2 whole (1.62) | S Ketu → J Juno Dec 19.9874 20 whole (13.56) | S Uranus → J Chiron Dec 20.0170 20 whole (2.21) — also: 1 Good Effort, 2 King Of Stars, 4 Regional, 5 Venturous
 - 3 and 30: H Mars – H Quaoar Dec 29.9916 30 whole (33.62) | J Pallas – J Chiron Dec 29.9873 30 whole (13.47) | J Sun – J Mercury Dec 2.9859 3 whole (8.68) | S Transpluto → J Uranus Dec 29.9995 30 whole (95.24) — also: 4 Regional, 5 Venturous
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none
 
 ## 4 Regional / Daniel Tudhope
@@ -205,6 +211,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 17 and 170: S Vesta → J Pallas RA 170.0168 170 whole (2.53) | S Rahu → J Sedna Dec 16.9886 17 whole (18.28) — only
 ### 13 one body pair, every layer
 - Venus – Jupiter: digits 1: S Venus → H Jupiter Dec 1.0167 1 whole (2.67) | J Venus – J Jupiter Dec 0.9954 1 whole (59.04) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 5 Venturous / Connor Beasley
 ### 1 natal pair, same number, both charts
@@ -253,3 +261,5 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 13 and 130: S Haumea → H Sun Dec 13.0176 13 whole (1.47) | S Quaoar → J Transpluto RA 130.0049 130 whole (56.96) — only
 ### 13 one body pair, every layer
 - Ceres – Pallas: digits 54: H Ceres – H Pallas RA 54.0110 54 whole (20.10) | J Ceres – J Pallas RA 53.9863 54 whole (10.08) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none

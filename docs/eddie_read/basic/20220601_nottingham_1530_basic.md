@@ -3,15 +3,15 @@
 The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
-| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2 Dynamic Force / Ray Dawson | - | - | 1 (1 only) | - | - | - | - | 3 | - | 1 (1 only) | 5 (1 only) | 6 (5 only) | 7 (0 only) | 1 (1 only) |
-| 3 Princess Shabnam / Harry Burns | - | - | 1 (1 only) | - | - | - | - | 1 | - | - | 8 (4 only) | 5 (3 only) | 2 (0 only) | - |
-| 4 Ballet Steps / Kieran Shoemark | - | - | - | - | - | - | - | 5 | - | - | 8 (5 only) | 8 (4 only) | 6 (2 only) | 2 (2 only) |
-| 5 Swayze / Lewis Edmunds | - | 1 (1 only) | 1 (1 only) | - | 1 (1 only) | - | - | 8 | - | 2 (2 only) | 3 (3 only) | 11 (8 only) | 7 (1 only) | 1 (1 only) |
-| 6 Silky Wilkie / Clifford Lee | - | - | 1 (1 only) | - | - | - | - | 0 | - | 1 (1 only) | 6 (4 only) | 7 (5 only) | 11 (3 only) | - |
+| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 2 Dynamic Force / Ray Dawson | - | - | 1 (1 only) | - | - | - | - | 3 | - | 1 (1 only) | 5 (1 only) | 6 (5 only) | 7 (0 only) | 1 (1 only) | - |
+| 3 Princess Shabnam / Harry Burns | - | - | 1 (1 only) | - | - | - | - | 1 | - | - | 8 (4 only) | 5 (3 only) | 2 (0 only) | - | - |
+| 4 Ballet Steps / Kieran Shoemark | - | - | - | - | - | - | - | 5 | - | - | 8 (5 only) | 8 (4 only) | 6 (2 only) | 2 (2 only) | - |
+| 5 Swayze / Lewis Edmunds | - | 1 (1 only) | 1 (1 only) | - | 1 (1 only) | - | - | 8 | - | 2 (2 only) | 3 (3 only) | 11 (8 only) | 7 (1 only) | 1 (1 only) | - |
+| 6 Silky Wilkie / Clifford Lee | - | - | 1 (1 only) | - | - | - | - | 0 | - | 1 (1 only) | 6 (4 only) | 7 (5 only) | 11 (3 only) | - | - |
 
-Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer.
+Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
 ## 2 Dynamic Force / Ray Dawson
 ### 1 natal pair, same number, both charts
@@ -57,6 +57,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 7 and 70: S Sedna → H Mercury RA 69.9810 70 whole (0.25) | J Ceres – J Juno Dec 6.9889 7 whole (19.66) — also: 5 Swayze, 6 Silky Wilkie
 ### 13 one body pair, every layer
 - Uranus – Sedna: digits 3: S Sedna → H Uranus RA 29.9922 30 whole (37.37) | S Sedna → H Uranus Dec 3.0134 3 whole (10.87) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 3 Princess Shabnam / Harry Burns
 ### 1 natal pair, same number, both charts
@@ -98,6 +100,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 1 and 10: H Ceres – H Quaoar Dec 0.9888 1 whole (19.25) | H Mars – H Uranus Dec 1.0123 1 whole (14.83) | H Saturn – H Gonggong Dec 10.0089 10 whole (30.96) — also: 2 Dynamic Force, 4 Ballet Steps, 5 Swayze, 6 Silky Wilkie
 - 4 and 40: S Ketu → H Jupiter Dec 3.9948 4 whole (54.69) | J Mars – J Uranus Dec 39.9913 40 whole (31.66) | S Vesta → J Sun RA 39.9910 40 whole (30.46) — also: 2 Dynamic Force, 6 Silky Wilkie
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none
 
 ## 4 Ballet Steps / Kieran Shoemark
@@ -149,6 +153,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 13 one body pair, every layer
 - Venus – Transpluto: digits 18: H Venus – H Transpluto Dec 17.9850 18 whole (6.16) | S Transpluto → J Venus RA 179.9847 180 whole (5.60) — only
 - Pluto – Gonggong: digits 3: S Pluto → J Gonggong RA 29.9857 30 whole (8.19) | S Gonggong → J Pluto Dec 3.0119 3 whole (16.50) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 5 Swayze / Lewis Edmunds
 ### 1 natal pair, same number, both charts
@@ -198,6 +204,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 17 and 170: S Eris → H Makemake RA 170.0074 170 whole (39.45) | J Sun – J Mercury RA 17.0010 17 whole (90.67) | S Juno → J Ceres Dec 16.9947 17 whole (54.29) | S Sun → J Sedna Dec 17.0129 17 whole (12.46) — also: 2 Dynamic Force, 6 Silky Wilkie
 ### 13 one body pair, every layer
 - Mercury – Gonggong: digits 8: S Gonggong → H Mercury RA 7.9838 8 whole (3.68) | S Gonggong → J Mercury Dec 8.0160 8 whole (4.01) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 6 Silky Wilkie / Clifford Lee
 ### 1 natal pair, same number, both charts
@@ -248,4 +256,6 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 12 and 120: S Makemake → H Transpluto Dec 12.0127 12 whole (13.30) | J Venus – J Quaoar RA 119.9955 120 whole (59.76) | S Gonggong → J Jupiter Dec 12.0047 12 whole (58.82) — also: 2 Dynamic Force
 - 7 and 70: H Juno – H Orcus RA 70.0127 70 whole (13.44) | S Neptune → J Venus RA 6.9965 7 whole (68.41) | S Chiron → J Venus Dec 6.9959 7 whole (63.47) | S Eris → J Pluto Dec 6.9999 7 whole (99.22) | S Orcus → J Gonggong Dec 7.0085 7 whole (32.88) — also: 2 Dynamic Force, 5 Swayze
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none

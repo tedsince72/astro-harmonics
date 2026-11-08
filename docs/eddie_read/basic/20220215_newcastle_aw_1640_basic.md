@@ -3,16 +3,16 @@
 The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
-| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 Sir Chauvelin / Paul Mulrennan | 1 (1 only) | - | - | - | 2 (2 only) | - | - | 6 | - | - | 3 (1 only) | 12 (8 only) | 6 (1 only) | 1 (1 only) |
-| 2 Alba Rose / Joe Fanning | - | - | - | - | - | - | - | 2 | - | 1 (1 only) | 5 (4 only) | 10 (5 only) | 7 (0 only) | 1 (1 only) |
-| 3 Wise Eagle / Graham Lee | - | - | - | - | - | - | - | 3 | - | 3 (3 only) | 8 (5 only) | 11 (6 only) | 7 (0 only) | - |
-| 4 Onesmoothoperator / Harry Russell | - | - | - | - | - | - | - | 9 | - | 2 (2 only) | 6 (4 only) | 8 (3 only) | 8 (1 only) | 1 (1 only) |
-| 5 Aced It / Jack Mitchell | - | 1 (1 only) | 1 (1 only) | - | 1 (1 only) | - | - | 2 | - | 3 (3 only) | 4 (1 only) | 6 (2 only) | 9 (0 only) | 1 (1 only) |
-| 6 Resumption / Tom Marquand | - | - | - | - | - | - | - | 2 | - | 1 (1 only) | 6 (4 only) | 8 (4 only) | 7 (0 only) | - |
+| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 Sir Chauvelin / Paul Mulrennan | 1 (1 only) | - | - | - | 2 (2 only) | - | - | 6 | - | - | 3 (1 only) | 12 (8 only) | 6 (1 only) | 1 (1 only) | - |
+| 2 Alba Rose / Joe Fanning | - | - | - | - | - | - | - | 2 | - | 1 (1 only) | 5 (4 only) | 10 (5 only) | 7 (0 only) | 1 (1 only) | - |
+| 3 Wise Eagle / Graham Lee | - | - | - | - | - | - | - | 3 | - | 3 (3 only) | 8 (5 only) | 11 (6 only) | 7 (0 only) | - | - |
+| 4 Onesmoothoperator / Harry Russell | - | - | - | - | - | - | - | 9 | - | 2 (2 only) | 6 (4 only) | 8 (3 only) | 8 (1 only) | 1 (1 only) | - |
+| 5 Aced It / Jack Mitchell | - | 1 (1 only) | 1 (1 only) | - | 1 (1 only) | - | - | 2 | - | 3 (3 only) | 4 (1 only) | 6 (2 only) | 9 (0 only) | 1 (1 only) | - |
+| 6 Resumption / Tom Marquand | - | - | - | - | - | - | - | 2 | - | 1 (1 only) | 6 (4 only) | 8 (4 only) | 7 (0 only) | - | - |
 
-Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer.
+Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
 ## 1 Sir Chauvelin / Paul Mulrennan
 ### 1 natal pair, same number, both charts
@@ -62,6 +62,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 2 and 20: H Saturn – H Transpluto Dec 19.9960 20 whole (64.18) | S Neptune → J Chiron Dec 19.9844 20 whole (4.90) | S Quaoar → J Vesta Dec 1.9877 2 whole (14.65) — also: 2 Alba Rose, 3 Wise Eagle, 4 Onesmoothoperator, 5 Aced It, 6 Resumption
 ### 13 one body pair, every layer
 - Ceres – Vesta: digits 8: J Ceres – J Vesta RA 79.9995 80 whole (94.64) | J Ceres – J Vesta Dec 7.9821 8 whole (1.13) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 2 Alba Rose / Joe Fanning
 ### 1 natal pair, same number, both charts
@@ -111,6 +113,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 11 and 110: H Venus – H Saturn RA 109.9858 110 whole (8.34) | S Transpluto → J Sun Dec 11.0135 11 whole (10.67) — also: 3 Wise Eagle, 4 Onesmoothoperator
 ### 13 one body pair, every layer
 - Sun – Neptune: 11×φ golden: S Neptune → H Sun RA 17.7927 11×φ golden (68.16) | J Sun – J Neptune Dec 17.7902 11×φ golden (55.87) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 3 Wise Eagle / Graham Lee
 ### 1 natal pair, same number, both charts
@@ -166,6 +170,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 14 and 140: S Gonggong → H Jupiter RA 140.0182 140 whole (0.85) | S Pluto → H Juno Dec 14.0066 14 whole (45.04) | J Jupiter – J Vesta Dec 14.0149 14 whole (6.53) | J Sun – J Vesta Dec 13.9943 14 whole (50.88) | J Gonggong – J Quaoar Dec 13.9867 14 whole (11.12) | S Juno → J Juno RA 140.0120 140 whole (16.15) | S Jupiter → J Pallas RA 14.0185 14 whole (0.59) | S Neptune → J Chiron Dec 14.0086 14 whole (32.72) — also: 2 Alba Rose
 ### 13 one body pair, every layer
 - none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 4 Onesmoothoperator / Harry Russell
 ### 1 natal pair, same number, both charts
@@ -216,6 +222,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 3 and 30: S Pluto → J Venus RA 3.0153 3 whole (5.57) | S Venus → J Transpluto Dec 29.9908 30 whole (29.32) | S Vesta → J Gonggong Dec 3.0077 3 whole (37.72) | S Haumea → J Quaoar Dec 30.0044 30 whole (61.02) — also: 2 Alba Rose, 3 Wise Eagle, 5 Aced It, 6 Resumption
 ### 13 one body pair, every layer
 - Rahu – Vesta: φ^10 phi power: H Rahu – H Vesta RA 122.9948 φ^10 phi power (99.05) | S Vesta → J Rahu RA 122.9662 φ^10 phi power (91.83) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 5 Aced It / Jack Mitchell
 ### 1 natal pair, same number, both charts
@@ -264,6 +272,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 15 and 150: S Mercury → H Transpluto RA 149.9847 150 whole (5.49) | S Juno → J Sedna Dec 15.0169 15 whole (2.35) | S Gonggong → J Sedna Dec 14.9838 15 whole (3.62) — also: 3 Wise Eagle, 4 Onesmoothoperator
 ### 13 one body pair, every layer
 - Sun – Saturn: digits 1: J Sun – J Saturn RA 1.0127 1 whole (13.25) | S Sun → J Saturn Dec 9.9894 10 whole (21.92) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 6 Resumption / Tom Marquand
 ### 1 natal pair, same number, both charts
@@ -311,4 +321,6 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 4 and 40: S Pallas → H Sun RA 39.9887 40 whole (18.81) | S Uranus → H Uranus Dec 3.9800 4 whole (0.00) | J Mercury – J Mars Dec 3.9838 4 whole (3.67) | S Gonggong → J Ceres RA 40.0130 40 whole (12.09) | S Juno → J Chiron Dec 4.0125 4 whole (14.08) — also: 1 Sir Chauvelin, 5 Aced It
 - 1 and 10: H Eris – H Gonggong Dec 10.0018 10 whole (82.79) | S Ceres → H Uranus Dec 10.0171 10 whole (2.13) | S Orcus → H Pallas Dec 9.9949 10 whole (55.76) | S Jupiter → J Jupiter Dec 0.9913 1 whole (31.77) | S Ketu → J Pluto Dec 9.9800 10 whole (0.00) — also: 1 Sir Chauvelin, 2 Alba Rose, 3 Wise Eagle, 4 Onesmoothoperator, 5 Aced It
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none

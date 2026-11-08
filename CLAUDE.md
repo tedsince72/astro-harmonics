@@ -181,7 +181,8 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   stars, equator, angles, natal Moon). 13 checks (rules in the docstring; from Eddie's Newcastle AW 16:33 2021 read): natal pair same
   number both charts; sky X on natal Y both charts; sky X on both natal Jupiters; sky X same number both charts; number swap; centre on a
   body tied to natal Jupiter; numbers in both charts (count, background); axis; natal Jupiter ties; N and N x phi; values close together;
-  digits across decades (8 / 80); one body pair every layer (Jupiter - Saturn 80 / 8 / 8). Each item 'only' / 'also'. Tests
+  digits across decades (8 / 80); one body pair every layer (Jupiter - Saturn 80 / 8 / 8); 14 sky Jupiter repeats natal Jupiter
+  (same chart, same number, both >= 50; from Pholas, 8 Nov 2026). Each item 'only' / 'also'. Tests
   `python3 tests/eddie_basic_check.py` (Newcastle cases + the cell set of every _active.xlsx by its own reader). Run on all 37 _active files.
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).

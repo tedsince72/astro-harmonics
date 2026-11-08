@@ -3,21 +3,21 @@
 The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
-| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 Gladly Ever After / Taylor Fisher | - | 2 (0 only) | - | - | - | - | 1 (1 only) | 3 | - | 4 (4 only) | 6 (3 only) | 7 (2 only) | 7 (0 only) | - |
-| 2 Shuangxi / Saffie Osborne | - | 2 (0 only) | - | - | - | 1 (1 only) | - | 3 | 2 (2 only) | 3 (3 only) | 1 (1 only) | 8 (2 only) | 9 (0 only) | 1 (1 only) |
-| 3 Ziggy's Dream / Kieran O'Neill | - | - | 2 (2 only) | - | - | - | 1 (1 only) | 4 | - | 3 (3 only) | 7 (2 only) | 7 (3 only) | 10 (0 only) | - |
-| 4 Come On You Spurs / Harry Davies | - | 2 (0 only) | 1 (0 only) | - | 1 (0 only) | - | - | 3 | - | 3 (3 only) | 5 (2 only) | 8 (1 only) | 4 (0 only) | - |
-| 5 Diligencia / Charles Bishop | - | - | 1 (1 only) | - | - | - | 2 (2 only) | 1 | - | 5 (5 only) | 3 (0 only) | 8 (2 only) | 6 (0 only) | - |
-| 6 Land Of Hope / Jack Mitchell | 1 (1 only) | - | 1 (1 only) | - | - | - | - | 3 | - | 1 (1 only) | 7 (2 only) | 6 (1 only) | 8 (0 only) | - |
-| 7 Miss Anya / Finley Marsh | - | - | 1 (0 only) | - | - | - | - | 2 | - | 1 (1 only) | 6 (2 only) | 5 (1 only) | 7 (0 only) | 2 (2 only) |
-| 8 Princess Alice / Daniel Muscutt | - | - | 1 (1 only) | 1 (1 only) | - | - | - | 2 | - | 1 (1 only) | 1 (0 only) | 6 (1 only) | 6 (0 only) | - |
-| 9 Sea Of Angels / Marco Ghiani | - | 1 (1 only) | 2 (2 only) | - | 1 (0 only) | - | - | 3 | - | - | 5 (2 only) | 11 (5 only) | 9 (0 only) | - |
-| 10 Showmethewayhome / David Probert | - | - | - | - | 2 (2 only) | - | - | 5 | - | 2 (2 only) | 5 (2 only) | 13 (6 only) | 7 (2 only) | - |
-| 11 Via Blanca / Frederick Larson | - | - | - | - | - | - | - | 2 | - | 2 (2 only) | 5 (0 only) | 6 (3 only) | 11 (0 only) | - |
+| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 Gladly Ever After / Taylor Fisher | - | 2 (0 only) | - | - | - | - | 1 (1 only) | 3 | - | 4 (4 only) | 6 (3 only) | 7 (2 only) | 7 (0 only) | - | - |
+| 2 Shuangxi / Saffie Osborne | - | 2 (0 only) | - | - | - | 1 (1 only) | - | 3 | 2 (2 only) | 3 (3 only) | 1 (1 only) | 8 (2 only) | 9 (0 only) | 1 (1 only) | - |
+| 3 Ziggy's Dream / Kieran O'Neill | - | - | 2 (2 only) | - | - | - | 1 (1 only) | 4 | - | 3 (3 only) | 7 (2 only) | 7 (3 only) | 10 (0 only) | - | - |
+| 4 Come On You Spurs / Harry Davies | - | 2 (0 only) | 1 (0 only) | - | 1 (0 only) | - | - | 3 | - | 3 (3 only) | 5 (2 only) | 8 (1 only) | 4 (0 only) | - | - |
+| 5 Diligencia / Charles Bishop | - | - | 1 (1 only) | - | - | - | 2 (2 only) | 1 | - | 5 (5 only) | 3 (0 only) | 8 (2 only) | 6 (0 only) | - | - |
+| 6 Land Of Hope / Jack Mitchell | 1 (1 only) | - | 1 (1 only) | - | - | - | - | 3 | - | 1 (1 only) | 7 (2 only) | 6 (1 only) | 8 (0 only) | - | - |
+| 7 Miss Anya / Finley Marsh | - | - | 1 (0 only) | - | - | - | - | 2 | - | 1 (1 only) | 6 (2 only) | 5 (1 only) | 7 (0 only) | 2 (2 only) | - |
+| 8 Princess Alice / Daniel Muscutt | - | - | 1 (1 only) | 1 (1 only) | - | - | - | 2 | - | 1 (1 only) | 1 (0 only) | 6 (1 only) | 6 (0 only) | - | - |
+| 9 Sea Of Angels / Marco Ghiani | - | 1 (1 only) | 2 (2 only) | - | 1 (0 only) | - | - | 3 | - | - | 5 (2 only) | 11 (5 only) | 9 (0 only) | - | - |
+| 10 Showmethewayhome / David Probert | - | - | - | - | 2 (2 only) | - | - | 5 | - | 2 (2 only) | 5 (2 only) | 13 (6 only) | 7 (2 only) | - | - |
+| 11 Via Blanca / Frederick Larson | - | - | - | - | - | - | - | 2 | - | 2 (2 only) | 5 (0 only) | 6 (3 only) | 11 (0 only) | - | - |
 
-Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer.
+Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
 ## 1 Gladly Ever After / Taylor Fisher
 ### 1 natal pair, same number, both charts
@@ -69,6 +69,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 17 and 170: S Mars → H Ceres RA 169.9899 170 whole (24.46) | S Haumea → J Haumea RA 16.9951 17 whole (57.27) — also: 2 Shuangxi, 6 Land Of Hope, 9 Sea Of Angels, 11 Via Blanca
 ### 13 one body pair, every layer
 - none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 2 Shuangxi / Saffie Osborne
 ### 1 natal pair, same number, both charts
@@ -118,6 +120,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 13 and 130: J Neptune – J Rahu RA 129.9868 130 whole (11.55) | S Orcus → J Venus Dec 13.0108 13 whole (21.28) — also: 3 Ziggy's Dream, 5 Diligencia, 8 Princess Alice, 9 Sea Of Angels
 ### 13 one body pair, every layer
 - Ketu – Haumea: digits 37: H Ketu – H Haumea RA 37.0038 37 whole (65.86) | S Haumea → H Ketu Dec 36.9939 37 whole (48.53) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 3 Ziggy's Dream / Kieran O'Neill
 ### 1 natal pair, same number, both charts
@@ -172,6 +176,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 2 and 20: H Pallas – H Gonggong RA 20.0076 20 whole (38.72) | H Vesta – H Transpluto RA 19.9897 20 whole (23.67) | S Pluto → J Saturn Dec 1.9812 2 whole (0.35) | S Vesta → J Ketu Dec 20.0120 20 whole (16.10) | S Makemake → J Sun Dec 19.9889 20 whole (19.76) — also: 2 Shuangxi, 5 Diligencia, 6 Land Of Hope, 7 Miss Anya, 8 Princess Alice, 9 Sea Of Angels, 10 Showmethewayhome, 11 Via Blanca
 ### 13 one body pair, every layer
 - none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 4 Come On You Spurs / Harry Davies
 ### 1 natal pair, same number, both charts
@@ -218,6 +224,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 14 and 140: S Pallas → H Sun Dec 13.9889 14 whole (19.93) | S Venus → J Juno RA 140.0106 140 whole (22.02) — also: 5 Diligencia, 7 Miss Anya, 9 Sea Of Angels, 11 Via Blanca
 - 1 and 10: S Pallas → H Ceres Dec 10.0058 10 whole (50.25) | S Sun → H Orcus Dec 1.0088 1 whole (31.33) | S Haumea → H Uranus Dec 1.0023 1 whole (78.38) | S Sedna → H Eris Dec 10.0122 10 whole (15.26) | J Jupiter – J Ceres Dec 0.9875 1 whole (13.98) | J Pluto – J Juno Dec 1.0068 1 whole (43.85) — also: 1 Gladly Ever After, 2 Shuangxi, 3 Ziggy's Dream, 5 Diligencia, 6 Land Of Hope, 7 Miss Anya, 10 Showmethewayhome, 11 Via Blanca
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none
 
 ## 5 Diligencia / Charles Bishop
@@ -268,6 +276,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 1 and 10: J Venus – J Ceres Dec 10.0144 10 whole (7.78) | S Makemake → J Venus Dec 9.9977 10 whole (78.77) | S Transpluto → J Venus Dec 1.0053 1 whole (53.68) — also: 1 Gladly Ever After, 2 Shuangxi, 3 Ziggy's Dream, 4 Come On You Spurs, 6 Land Of Hope, 7 Miss Anya, 10 Showmethewayhome, 11 Via Blanca
 ### 13 one body pair, every layer
 - none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 6 Land Of Hope / Jack Mitchell
 ### 1 natal pair, same number, both charts
@@ -316,6 +326,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 7 and 70: S Eris → H Mercury RA 69.9929 70 whole (41.92) | S Rahu → J Chiron Dec 7.0161 7 whole (3.74) — also: 3 Ziggy's Dream, 7 Miss Anya, 11 Via Blanca
 ### 13 one body pair, every layer
 - none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 7 Miss Anya / Finley Marsh
 ### 1 natal pair, same number, both charts
@@ -362,6 +374,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 13 one body pair, every layer
 - Venus – Ketu: digits 12: H Venus – H Ketu Dec 11.9923 12 whole (37.79) | S Ketu → J Venus Dec 12.0174 12 whole (1.75) — only
 - Pallas – Quaoar: digits 17: S Quaoar → H Pallas Dec 17.0047 17 whole (58.56) | S Pallas → J Quaoar Dec 16.9817 17 whole (0.75) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 8 Princess Alice / Daniel Muscutt
 ### 1 natal pair, same number, both charts
@@ -401,6 +415,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 3 and 30: S Ketu → H Juno Dec 2.9879 3 whole (15.46) | S Eris → J Eris RA 3.0057 3 whole (51.47) | S Uranus → J Rahu Dec 29.9892 30 whole (21.05) — also: 1 Gladly Ever After, 2 Shuangxi, 3 Ziggy's Dream, 6 Land Of Hope, 11 Via Blanca
 - 13 and 130: J Sun – J Jupiter RA 130.0186 130 whole (0.48) | S Transpluto → J Mercury Dec 13.0079 13 whole (36.87) — also: 2 Shuangxi, 3 Ziggy's Dream, 5 Diligencia, 9 Sea Of Angels
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none
 
 ## 9 Sea Of Angels / Marco Ghiani
@@ -454,6 +470,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 17 and 170: S Eris → J Haumea RA 170.0034 170 whole (68.91) | S Pallas → J Quaoar Dec 17.0175 17 whole (1.53) — also: 1 Gladly Ever After, 2 Shuangxi, 6 Land Of Hope, 11 Via Blanca
 - 4 and 40: J Eris – J Makemake Dec 39.9962 40 whole (65.54) | S Pluto → J Neptune Dec 4.0031 4 whole (71.33) | S Transpluto → J Rahu Dec 4.0111 4 whole (19.65) — also: 1 Gladly Ever After, 4 Come On You Spurs, 5 Diligencia, 6 Land Of Hope, 7 Miss Anya, 8 Princess Alice, 10 Showmethewayhome, 11 Via Blanca
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none
 
 ## 10 Showmethewayhome / David Probert
@@ -509,6 +527,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 4 and 40: J Saturn – J Quaoar RA 39.9977 40 whole (78.19) | S Eris → J Mars Dec 3.9961 4 whole (65.20) — also: 1 Gladly Ever After, 4 Come On You Spurs, 5 Diligencia, 6 Land Of Hope, 7 Miss Anya, 8 Princess Alice, 9 Sea Of Angels, 11 Via Blanca
 ### 13 one body pair, every layer
 - none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 11 Via Blanca / Frederick Larson
 ### 1 natal pair, same number, both charts
@@ -558,4 +578,6 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 2 and 20: S Quaoar → H Chiron Dec 19.9963 20 whole (66.14) | S Sedna → H Gonggong Dec 19.9831 20 whole (2.45) | J Neptune – J Gonggong Dec 1.9928 2 whole (40.90) | S Gonggong → J Vesta Dec 1.9864 2 whole (10.39) — also: 2 Shuangxi, 3 Ziggy's Dream, 5 Diligencia, 6 Land Of Hope, 7 Miss Anya, 8 Princess Alice, 9 Sea Of Angels, 10 Showmethewayhome
 - 10 and 100: H Rahu – H Gonggong RA 99.9841 100 whole (4.19) | S Ketu → J Neptune Dec 10.0196 10 whole (0.04) — also: 1 Gladly Ever After, 2 Shuangxi
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none

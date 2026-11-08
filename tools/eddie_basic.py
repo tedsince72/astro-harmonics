@@ -41,6 +41,9 @@ with the same key):
  13 one body pair, every layer              a body pair {A, B}: the cells natal H A - B, natal J A - B, S A -> H B,
                                             S B -> H A, S A -> J B, S B -> J A (any score; not Rahu - Ketu); two or more of them on the same
                                             whole digits (N, 10 N, 100 N) or the same family + target  key: pair, digits / target
+ 14 sky Jupiter repeats natal Jupiter       same chart: natal Jupiter - X and sky Jupiter -> Y on the same family + target,
+                                            both >= 50, not conj (Eddie, 8 Nov 2026, from Pholas: H Jupiter - H Uranus Dec
+                                            14.4459 and S Jupiter -> H Chiron Dec 14.4461, 14.4444)  key: chart, target
 """
 import argparse, collections, json, os, sys
 
@@ -281,6 +284,12 @@ def runner_checks(cells, opp=()):
                 if len(gc) >= 2:
                     lab = f'digits {g[1]}' if g[0] == 'digits' else f'{g[1]} {g[0]}'
                     add(13, (A, B, g), gc, f'{A} – {B}: {lab}')
+    # 14
+    for ch, cs in (('H', H), ('J', J)):
+        nat = [c for c in cs if c['kind'] == 'N' and 'Jupiter' in (c['a'], c['b']) and c['score'] >= MID and c['family'] != 'conj']
+        sky = [c for c in cs if c['kind'] == 'S' and c['a'] == 'Jupiter' and c['score'] >= MID and c['family'] != 'conj']
+        for k in sorted({tkey(c) for c in nat} & {tkey(c) for c in sky}):
+            add(14, (ch, k[1]), [c for c in nat if tkey(c) == k] + [c for c in sky if tkey(c) == k], f'{ch} {k[1]} {k[0]}')
     return items
 
 
@@ -307,8 +316,8 @@ NAMES = {1: 'natal pair, same number, both charts', '2a': 'sky X on natal Y, bot
          4: 'sky X, same number, both charts (>= 80)', 5: 'number swap (>= 80)', 6: 'centre on a body tied to natal Jupiter (>= 50)',
          7: 'numbers in both charts (>= 80, background)', 8: 'axis (natal Jupiter on a node)', 9: 'natal Jupiter ties (>= 50)',
          10: 'N and N x phi (>= 50)', 11: f'values close together (within {WINDOW})', 12: 'digits across decades (whole N, 10 N)',
-         13: 'one body pair, every layer'}
-ORDER = [1, '2a', '2b', 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+         13: 'one body pair, every layer', 14: 'sky Jupiter repeats natal Jupiter (>= 50)'}
+ORDER = [1, '2a', '2b', 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
 
 
 def main():

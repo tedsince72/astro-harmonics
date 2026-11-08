@@ -3,14 +3,14 @@
 The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
-| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 Grageelagh Girl / Tom Broughton | - | - | 2 (2 only) | - | - | - | 1 (1 only) | 4 | - | 2 (2 only) | 7 (7 only) | 8 (6 only) | 7 (1 only) | - |
-| 2 My Lady Grey / Brendan Powell | - | - | - | - | - | - | - | 5 | - | 3 (3 only) | 4 (3 only) | 10 (9 only) | 4 (1 only) | 2 (2 only) |
-| 3 Cresswell Queen / Harry Reed | - | 2 (2 only) | - | - | - | - | 1 (1 only) | 1 | - | 1 (1 only) | 5 (3 only) | 4 (3 only) | 11 (4 only) | - |
-| 4 On Time / Conor Ring | 1 (1 only) | - | - | - | - | - | 1 (1 only) | 5 | - | 5 (5 only) | 9 (7 only) | 8 (8 only) | 7 (2 only) | - |
+| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 Grageelagh Girl / Tom Broughton | - | - | 2 (2 only) | - | - | - | 1 (1 only) | 4 | - | 2 (2 only) | 7 (7 only) | 8 (6 only) | 7 (1 only) | - | - |
+| 2 My Lady Grey / Brendan Powell | - | - | - | - | - | - | - | 5 | - | 3 (3 only) | 4 (3 only) | 10 (9 only) | 4 (1 only) | 2 (2 only) | - |
+| 3 Cresswell Queen / Harry Reed | - | 2 (2 only) | - | - | - | - | 1 (1 only) | 1 | - | 1 (1 only) | 5 (3 only) | 4 (3 only) | 11 (4 only) | - | - |
+| 4 On Time / Conor Ring | 1 (1 only) | - | - | - | - | - | 1 (1 only) | 5 | - | 5 (5 only) | 9 (7 only) | 8 (8 only) | 7 (2 only) | - | - |
 
-Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer.
+Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
 ## 1 Grageelagh Girl / Tom Broughton
 ### 1 natal pair, same number, both charts
@@ -62,6 +62,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 18 and 180: S Pallas → J Mars RA 179.9984 180 whole (84.77) | S Haumea → J Sun RA 18.0043 18 whole (61.77) — also: 4 On Time
 ### 13 one body pair, every layer
 - none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 2 My Lady Grey / Brendan Powell
 ### 1 natal pair, same number, both charts
@@ -110,6 +112,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 13 one body pair, every layer
 - Ketu – Eris: digits 16: J Ketu – J Eris RA 15.9843 16 whole (4.58) | S Eris → J Ketu Dec 15.9827 16 whole (1.86) — only
 - Eris – Gonggong: digits 52: S Eris → H Gonggong RA 51.9886 52 whole (18.32) | J Eris – J Gonggong RA 52.0081 52 whole (35.33) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 3 Cresswell Queen / Harry Reed
 ### 1 natal pair, same number, both charts
@@ -157,6 +161,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 10 and 100: H Pluto – H Eris RA 99.9893 100 whole (21.55) | S Saturn → H Ceres Dec 10.0097 10 whole (26.58) | S Vesta → J Gonggong RA 9.9855 10 whole (7.44) | S Sedna → J Saturn Dec 10.0124 10 whole (14.52) — only
 - 2 and 20: S Rahu → J Sedna RA 1.9886 2 whole (18.45) | S Uranus → J Rahu Dec 20.0102 20 whole (23.80) — also: 1 Grageelagh Girl, 4 On Time
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none
 
 ## 4 On Time / Conor Ring
@@ -212,4 +218,6 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 11 and 110: J Eris – J Orcus RA 110.0046 110 whole (59.60) | J Saturn – J Pluto Dec 11.0144 11 whole (7.74) | S Vesta → J Venus Dec 10.9952 11 whole (57.80) — only
 - 2 and 20: H Mercury – H Mars Dec 20.0086 20 whole (32.51) | J Saturn – J Quaoar Dec 2.0101 2 whole (24.52) — also: 1 Grageelagh Girl, 3 Cresswell Queen
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none

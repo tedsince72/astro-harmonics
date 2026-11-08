@@ -3,16 +3,16 @@
 The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
-| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 My Own Lovely Lee / Callum Pritchard | - | 1 (0 only) | 1 (1 only) | - | - | - | 1 (1 only) | 2 | - | 5 (5 only) | 6 (3 only) | 10 (4 only) | 6 (1 only) | 1 (1 only) |
-| 2 Ted The Thief / Harry Kimber | - | 1 (0 only) | - | - | - | - | - | 4 | - | 3 (3 only) | 5 (4 only) | 8 (4 only) | 5 (0 only) | - |
-| 3 Hard Stare / Jonathan Burke | - | - | - | - | - | - | - | 4 | - | 1 (1 only) | 2 (2 only) | 7 (4 only) | 10 (1 only) | - |
-| 4 Sweet Nightingale / Tristan Durrell | 1 (1 only) | 1 (0 only) | - | - | - | - | 2 (2 only) | 5 | - | 4 (4 only) | 6 (5 only) | 8 (4 only) | 9 (1 only) | - |
-| 5 Pawpaw / Caoilin Quinn | 1 (1 only) | 1 (0 only) | 1 (1 only) | - | - | - | - | 4 | - | 3 (3 only) | 7 (6 only) | 10 (8 only) | 9 (1 only) | 1 (1 only) |
-| 6 Steal The Moves / Lilly Pinchin | - | 1 (0 only) | - | - | - | - | - | 7 | - | 1 (1 only) | 4 (4 only) | 7 (6 only) | 7 (2 only) | - |
+| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 My Own Lovely Lee / Callum Pritchard | - | 1 (0 only) | 1 (1 only) | - | - | - | 1 (1 only) | 2 | - | 5 (5 only) | 6 (3 only) | 10 (4 only) | 6 (1 only) | 1 (1 only) | - |
+| 2 Ted The Thief / Harry Kimber | - | 1 (0 only) | - | - | - | - | - | 4 | - | 3 (3 only) | 5 (4 only) | 8 (4 only) | 5 (0 only) | - | - |
+| 3 Hard Stare / Jonathan Burke | - | - | - | - | - | - | - | 4 | - | 1 (1 only) | 2 (2 only) | 7 (4 only) | 10 (1 only) | - | - |
+| 4 Sweet Nightingale / Tristan Durrell | 1 (1 only) | 1 (0 only) | - | - | - | - | 2 (2 only) | 5 | - | 4 (4 only) | 6 (5 only) | 8 (4 only) | 9 (1 only) | - | - |
+| 5 Pawpaw / Caoilin Quinn | 1 (1 only) | 1 (0 only) | 1 (1 only) | - | - | - | - | 4 | - | 3 (3 only) | 7 (6 only) | 10 (8 only) | 9 (1 only) | 1 (1 only) | - |
+| 6 Steal The Moves / Lilly Pinchin | - | 1 (0 only) | - | - | - | - | - | 7 | - | 1 (1 only) | 4 (4 only) | 7 (6 only) | 7 (2 only) | - | - |
 
-Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer.
+Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
 ## 1 My Own Lovely Lee / Callum Pritchard
 ### 1 natal pair, same number, both charts
@@ -66,6 +66,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 15 and 150: S Juno → H Orcus RA 149.9955 150 whole (60.39) | S Makemake → J Saturn RA 149.9986 150 whole (86.06) | S Eris → J Quaoar Dec 14.9847 15 whole (5.54) — only
 ### 13 one body pair, every layer
 - Juno – Quaoar: digits 9: J Juno – J Quaoar Dec 8.9902 9 whole (25.85) | S Quaoar → J Juno Dec 9.0030 9 whole (72.27) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 2 Ted The Thief / Harry Kimber
 ### 1 natal pair, same number, both charts
@@ -113,6 +115,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 1 and 10: S Rahu → H Mars Dec 10.0001 10 whole (99.20) | S Uranus → H Transpluto Dec 10.0194 10 whole (0.10) | S Haumea → H Rahu Dec 10.0099 10 whole (25.71) | J Mercury – J Saturn Dec 1.0070 1 whole (42.15) | S Vesta → J Quaoar Dec 10.0167 10 whole (2.72) — also: 1 My Own Lovely Lee, 3 Hard Stare, 4 Sweet Nightingale, 5 Pawpaw, 6 Steal The Moves
 ### 13 one body pair, every layer
 - none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 3 Hard Stare / Jonathan Burke
 ### 1 natal pair, same number, both charts
@@ -158,6 +162,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 7 and 70: S Quaoar → H Neptune RA 69.9980 70 whole (80.71) | J Mars – J Neptune RA 7.0021 7 whole (80.16) | S Pallas → J Venus RA 70.0169 70 whole (2.40) | S Orcus → J Uranus Dec 6.9827 7 whole (1.88) — also: 2 Ted The Thief, 4 Sweet Nightingale, 6 Steal The Moves
 - 2 and 20: S Vesta → H Pallas Dec 19.9883 20 whole (17.19) | J Sun – J Venus Dec 2.0024 2 whole (77.10) | S Chiron → J Rahu Dec 20.0053 20 whole (53.70) | S Sun → J Juno Dec 1.9817 2 whole (0.69) | S Haumea → J Makemake Dec 19.9932 20 whole (43.36) — also: 4 Sweet Nightingale, 5 Pawpaw, 6 Steal The Moves
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none
 
 ## 4 Sweet Nightingale / Tristan Durrell
@@ -212,6 +218,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 10 and 100: J Juno – J Haumea RA 99.9826 100 whole (1.74) | S Moon → J Makemake RA 9.9917 10 whole (34.49) — only
 - 7 and 70: S Gonggong → H Saturn RA 69.9829 70 whole (2.13) | S Chiron → J Jupiter RA 70.0087 70 whole (31.84) | S Mars → J Jupiter Dec 6.9834 7 whole (2.84) — also: 2 Ted The Thief, 3 Hard Stare, 6 Steal The Moves
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none
 
 ## 5 Pawpaw / Caoilin Quinn
@@ -268,6 +276,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 4 and 40: S Ceres → H Rahu RA 39.9813 40 whole (0.39) | J Uranus – J Neptune Dec 4.0014 4 whole (86.24) — also: 1 My Own Lovely Lee, 2 Ted The Thief, 3 Hard Stare, 6 Steal The Moves
 ### 13 one body pair, every layer
 - Jupiter – Quaoar: digits 8: S Quaoar → H Jupiter RA 80.0107 80 whole (21.70) | S Quaoar → H Jupiter Dec 7.9979 8 whole (80.01) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 6 Steal The Moves / Lilly Pinchin
 ### 1 natal pair, same number, both charts
@@ -312,4 +322,6 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 4 and 40: S Ceres → H Mercury Dec 4.0040 4 whole (63.88) | S Sun → H Makemake Dec 40.0024 40 whole (77.23) | S Venus → H Venus Dec 39.9870 40 whole (12.41) | S Juno → J Mercury RA 4.0099 4 whole (25.51) — also: 1 My Own Lovely Lee, 2 Ted The Thief, 3 Hard Stare, 5 Pawpaw
 - 1 and 10: H Eris – H Gonggong Dec 10.0080 10 whole (36.02) | S Mars → H Orcus RA 9.9849 10 whole (6.12) | S Jupiter → H Makemake Dec 10.0181 10 whole (0.87) | J Rahu – J Transpluto Dec 0.9891 1 whole (20.48) — also: 1 My Own Lovely Lee, 2 Ted The Thief, 3 Hard Stare, 4 Sweet Nightingale, 5 Pawpaw
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none

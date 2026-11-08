@@ -3,16 +3,16 @@
 The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
-| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 Reve / Sean Bowen | - | - | - | - | - | - | - | 5 | - | 1 (1 only) | 4 (2 only) | 10 (8 only) | 10 (0 only) | - |
-| 2 Mance Rayder / Jamie Hamilton | 1 (1 only) | 1 (1 only) | - | - | - | - | - | 4 | - | 5 (5 only) | 2 (2 only) | 6 (4 only) | 7 (0 only) | - |
-| 3 Red Giant / Sean Quinlan | 1 (1 only) | - | - | - | - | - | - | 4 | - | 2 (2 only) | 4 (2 only) | 9 (6 only) | 5 (1 only) | - |
-| 4 Brian Boranha / Callum Bewley | - | - | 1 (1 only) | - | - | - | 1 (1 only) | 4 | - | 1 (1 only) | 4 (2 only) | 12 (9 only) | 3 (0 only) | - |
-| 5 Cracking Find / Ryan Mania | - | - | - | - | 2 (2 only) | - | 1 (1 only) | 3 | - | 1 (1 only) | 5 (4 only) | 5 (4 only) | 11 (0 only) | - |
-| 6 Blazer / Alain Cawley | - | - | - | - | 1 (1 only) | - | - | 6 | - | 2 (2 only) | 7 (4 only) | 6 (4 only) | 7 (2 only) | 1 (1 only) |
+| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 Reve / Sean Bowen | - | - | - | - | - | - | - | 5 | - | 1 (1 only) | 4 (2 only) | 10 (8 only) | 10 (0 only) | - | - |
+| 2 Mance Rayder / Jamie Hamilton | 1 (1 only) | 1 (1 only) | - | - | - | - | - | 4 | - | 5 (5 only) | 2 (2 only) | 6 (4 only) | 7 (0 only) | - | - |
+| 3 Red Giant / Sean Quinlan | 1 (1 only) | - | - | - | - | - | - | 4 | - | 2 (2 only) | 4 (2 only) | 9 (6 only) | 5 (1 only) | - | - |
+| 4 Brian Boranha / Callum Bewley | - | - | 1 (1 only) | - | - | - | 1 (1 only) | 4 | - | 1 (1 only) | 4 (2 only) | 12 (9 only) | 3 (0 only) | - | - |
+| 5 Cracking Find / Ryan Mania | - | - | - | - | 2 (2 only) | - | 1 (1 only) | 3 | - | 1 (1 only) | 5 (4 only) | 5 (4 only) | 11 (0 only) | - | - |
+| 6 Blazer / Alain Cawley | - | - | - | - | 1 (1 only) | - | - | 6 | - | 2 (2 only) | 7 (4 only) | 6 (4 only) | 7 (2 only) | 1 (1 only) | - |
 
-Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer.
+Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
 ## 1 Reve / Sean Bowen
 ### 1 natal pair, same number, both charts
@@ -64,6 +64,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 4 and 40: S Haumea → J Makemake RA 39.9833 40 whole (2.71) | S Mars → J Uranus Dec 4.0164 4 whole (3.20) | S Neptune → J Venus Dec 3.9846 4 whole (5.30) | S Rahu → J Uranus Dec 39.9900 40 whole (24.96) | S Makemake → J Gonggong Dec 40.0110 40 whole (20.12) | S Quaoar → J Uranus Dec 4.0150 4 whole (6.32) | S Sedna → J Rahu Dec 3.9928 4 whole (40.68) — also: 2 Mance Rayder, 3 Red Giant, 4 Brian Boranha, 5 Cracking Find, 6 Blazer
 ### 13 one body pair, every layer
 - none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 2 Mance Rayder / Jamie Hamilton
 ### 1 natal pair, same number, both charts
@@ -109,6 +111,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 3 and 30: S Mars → H Makemake RA 30.0151 30 whole (5.92) | J Venus – J Eris Dec 29.9909 30 whole (29.71) | S Mars → J Jupiter RA 3.0088 3 whole (31.43) — also: 1 Reve, 4 Brian Boranha, 5 Cracking Find, 6 Blazer
 - 2 and 20: S Ceres → H Eris Dec 19.9838 20 whole (3.57) | S Eris → H Haumea Dec 20.0176 20 whole (1.39) | S Sedna → H Saturn Dec 19.9800 20 whole (0.00) | S Uranus → J Sun RA 2.0044 2 whole (60.64) | S Ceres → J Mercury Dec 1.9877 2 whole (14.92) — also: 1 Reve, 3 Red Giant, 5 Cracking Find, 6 Blazer
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none
 
 ## 3 Red Giant / Sean Quinlan
@@ -156,6 +160,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 1 and 10: S Makemake → H Makemake RA 10.0137 10 whole (9.95) | S Juno → H Eris Dec 9.9803 10 whole (0.02) | S Makemake → H Transpluto Dec 10.0033 10 whole (70.13) | S Pluto → J Pallas RA 1.0134 1 whole (10.73) | S Rahu → J Chiron RA 1.0105 1 whole (22.67) — also: 1 Reve, 2 Mance Rayder, 4 Brian Boranha, 5 Cracking Find, 6 Blazer
 ### 13 one body pair, every layer
 - none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 4 Brian Boranha / Callum Bewley
 ### 1 natal pair, same number, both charts
@@ -201,6 +207,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 4 and 40: H Sun – H Ketu Dec 4.0000 4 whole (99.99) | S Mercury → H Gonggong Dec 4.0069 4 whole (42.67) | S Orcus → H Makemake Dec 40.0122 40 whole (15.23) | S Pluto → J Neptune RA 4.0049 4 whole (56.65) | S Pluto → J Gonggong Dec 4.0013 4 whole (87.02) | S Sedna → J Sun Dec 4.0193 4 whole (0.14) — also: 1 Reve, 2 Mance Rayder, 3 Red Giant, 5 Cracking Find, 6 Blazer
 - 3 and 30: H Ketu – H Sedna RA 30.0194 30 whole (0.09) | H Saturn – H Makemake Dec 29.9969 30 whole (71.76) | H Sun – H Pallas Dec 2.9811 3 whole (0.29) | S Sun → J Mercury Dec 30.0020 30 whole (80.87) — also: 1 Reve, 2 Mance Rayder, 5 Cracking Find, 6 Blazer
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none
 
 ## 5 Cracking Find / Ryan Mania
@@ -251,6 +259,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 14 and 140: J Mars – J Eris RA 139.9977 140 whole (77.99) | S Eris → J Rahu Dec 14.0043 14 whole (61.92) — also: 1 Reve
 ### 13 one body pair, every layer
 - none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 6 Blazer / Alain Cawley
 ### 1 natal pair, same number, both charts
@@ -299,3 +309,5 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 15 and 150: S Sun → H Ketu RA 149.9814 150 whole (0.46) | S Sun → H Venus Dec 14.9963 15 whole (66.04) | J Eris – J Orcus Dec 15.0186 15 whole (0.49) | S Ceres → J Ceres RA 150.0033 150 whole (70.10) — only
 ### 13 one body pair, every layer
 - Venus – Quaoar: digits 11: H Venus – H Quaoar Dec 10.9873 11 whole (13.16) | S Venus → H Quaoar Dec 10.9916 11 whole (33.70) | S Quaoar → H Venus Dec 11.0013 11 whole (87.56) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none

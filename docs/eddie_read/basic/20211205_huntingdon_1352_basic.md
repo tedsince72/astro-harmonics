@@ -3,16 +3,16 @@
 The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
-| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 Allmankind / Harry Skelton | - | - | 1 (1 only) | 1 (1 only) | - | - | 1 (1 only) | 3 | - | 3 (3 only) | 5 (2 only) | 11 (3 only) | 5 (1 only) | - |
-| 2 Eldorado Allen / Brendan Powell | - | - | - | - | - | - | - | 5 | - | 2 (2 only) | 2 (2 only) | 11 (5 only) | 8 (0 only) | - |
-| 3 First Flow / David Bass | 1 (1 only) | 1 (1 only) | - | - | - | - | - | 4 | - | 5 (5 only) | 5 (3 only) | 7 (3 only) | 9 (2 only) | 1 (1 only) |
-| 4 Master Tommytucker / Harry Cobden | - | - | - | - | 1 (1 only) | - | 1 (1 only) | 3 | - | 3 (3 only) | 7 (6 only) | 8 (3 only) | 5 (0 only) | - |
-| 5 Funambule Sivola / Charlie Deutsch | - | - | 1 (1 only) | - | - | - | - | 5 | - | 2 (2 only) | 2 (1 only) | 8 (5 only) | 6 (0 only) | - |
-| 6 Keeper Hill / A P Heskin | - | - | - | - | - | - | 1 (1 only) | 3 | - | 2 (2 only) | 5 (2 only) | 6 (4 only) | 8 (2 only) | 1 (1 only) |
+| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 Allmankind / Harry Skelton | - | - | 1 (1 only) | 1 (1 only) | - | - | 1 (1 only) | 3 | - | 3 (3 only) | 5 (2 only) | 11 (3 only) | 5 (1 only) | - | - |
+| 2 Eldorado Allen / Brendan Powell | - | - | - | - | - | - | - | 5 | - | 2 (2 only) | 2 (2 only) | 11 (5 only) | 8 (0 only) | - | - |
+| 3 First Flow / David Bass | 1 (1 only) | 1 (1 only) | - | - | - | - | - | 4 | - | 5 (5 only) | 5 (3 only) | 7 (3 only) | 9 (2 only) | 1 (1 only) | - |
+| 4 Master Tommytucker / Harry Cobden | - | - | - | - | 1 (1 only) | - | 1 (1 only) | 3 | - | 3 (3 only) | 7 (6 only) | 8 (3 only) | 5 (0 only) | - | - |
+| 5 Funambule Sivola / Charlie Deutsch | - | - | 1 (1 only) | - | - | - | - | 5 | - | 2 (2 only) | 2 (1 only) | 8 (5 only) | 6 (0 only) | - | - |
+| 6 Keeper Hill / A P Heskin | - | - | - | - | - | - | 1 (1 only) | 3 | - | 2 (2 only) | 5 (2 only) | 6 (4 only) | 8 (2 only) | 1 (1 only) | - |
 
-Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer.
+Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
 ## 1 Allmankind / Harry Skelton
 ### 1 natal pair, same number, both charts
@@ -63,6 +63,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 1 and 10: H Haumea – H Sedna Dec 9.9837 10 whole (3.49) | S Neptune → H Neptune RA 10.0097 10 whole (26.47) | S Uranus → H Pallas Dec 10.0094 10 whole (27.90) | S Orcus → J Rahu Dec 1.0122 1 whole (15.25) — also: 2 Eldorado Allen, 3 First Flow, 4 Master Tommytucker, 5 Funambule Sivola, 6 Keeper Hill
 ### 13 one body pair, every layer
 - none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 2 Eldorado Allen / Brendan Powell
 ### 1 natal pair, same number, both charts
@@ -111,6 +113,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 2 and 20: H Saturn – H Pallas Dec 19.9966 20 whole (69.13) | J Jupiter – J Pallas Dec 2.0063 2 whole (46.62) | S Transpluto → J Makemake RA 19.9865 20 whole (10.67) | S Moon → J Pluto Dec 20.0125 20 whole (14.12) | S Pluto → J Neptune Dec 1.9886 2 whole (18.29) | S Vesta → J Jupiter Dec 1.9954 2 whole (59.09) | S Quaoar → J Sedna Dec 20.0004 20 whole (95.73) — also: 1 Allmankind, 3 First Flow, 4 Master Tommytucker, 5 Funambule Sivola
 - 5 and 50: J Jupiter – J Ceres Dec 49.9846 50 whole (5.23) | S Ceres → J Haumea Dec 4.9822 5 whole (1.16) — also: 3 First Flow
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none
 
 ## 3 First Flow / David Bass
@@ -164,6 +168,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 18 and 180: S Transpluto → H Gonggong RA 179.9921 180 whole (36.33) | J Sun – J Orcus Dec 18.0149 18 whole (6.40) — also: 5 Funambule Sivola
 ### 13 one body pair, every layer
 - Pluto – Haumea: digits 38: H Pluto – H Haumea Dec 37.9849 38 whole (6.06) | J Pluto – J Haumea RA 37.9974 38 whole (76.01) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 4 Master Tommytucker / Harry Cobden
 ### 1 natal pair, same number, both charts
@@ -213,6 +219,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 14 and 140: H Saturn – H Gonggong RA 139.9916 140 whole (33.91) | S Eris → J Venus Dec 13.9821 14 whole (1.11) | S Sedna → J Jupiter Dec 13.9988 14 whole (88.00) — also: 5 Funambule Sivola, 6 Keeper Hill
 ### 13 one body pair, every layer
 - none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 5 Funambule Sivola / Charlie Deutsch
 ### 1 natal pair, same number, both charts
@@ -256,6 +264,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 18 and 180: J Rahu – J Pallas RA 18.0133 18 whole (11.37) | S Ceres → J Quaoar RA 179.9895 180 whole (22.73) | S Venus → J Rahu Dec 18.0189 18 whole (0.29) — also: 3 First Flow
 - 4 and 40: H Rahu – H Orcus RA 39.9909 40 whole (29.47) | S Sun → J Pallas RA 39.9861 40 whole (9.41) | S Juno → J Gonggong Dec 3.9805 4 whole (0.07) | S Ketu → J Mars Dec 39.9930 40 whole (42.53) | S Gonggong → J Eris Dec 4.0150 4 whole (6.28) — also: 2 Eldorado Allen, 3 First Flow
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none
 
 ## 6 Keeper Hill / A P Heskin
@@ -304,3 +314,5 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 1 and 100: J Sun – J Neptune RA 99.9818 100 whole (0.81) | S Sun → J Ceres Dec 0.9823 1 whole (1.34) | S Sun → J Rahu Dec 1.0160 1 whole (3.99) — also: 1 Allmankind, 2 Eldorado Allen, 3 First Flow, 4 Master Tommytucker, 5 Funambule Sivola
 ### 13 one body pair, every layer
 - Neptune – Transpluto: 177.778 ninth: H Neptune – H Transpluto RA 177.7496 177.778 ninth (97.80) | S Transpluto → H Neptune RA 177.7816 177.778 ninth (99.70) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none

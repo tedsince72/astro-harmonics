@@ -3,16 +3,16 @@
 The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
-| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 Austrian Theory / Joe Fanning | - | - | 1 (1 only) | - | - | - | - | 2 | - | 1 (1 only) | 3 (1 only) | 4 (0 only) | 2 (0 only) | - |
-| 2 Cresta / Tom Marquand | - | - | 1 (1 only) | - | - | - | 1 (1 only) | 3 | - | 4 (4 only) | 15 (10 only) | 6 (1 only) | 7 (2 only) | - |
-| 3 Dawn Of Liberation / Sean Levey | - | 1 (1 only) | 2 (2 only) | - | - | - | 1 (1 only) | 4 | - | 4 (4 only) | 3 (1 only) | 13 (9 only) | 8 (1 only) | 2 (2 only) |
-| 4 Eydon / David Egan | - | - | 1 (1 only) | - | - | - | - | 0 | - | 3 (3 only) | 6 (3 only) | 10 (4 only) | 10 (1 only) | - |
-| 5 Masekela / William Buick | 1 (1 only) | - | - | - | - | - | - | 7 | - | 3 (3 only) | 4 (2 only) | 7 (5 only) | 10 (2 only) | 1 (1 only) |
-| 6 Sonny Liston / Marco Ghiani | - | - | 1 (1 only) | - | - | - | - | 2 | - | 2 (2 only) | 3 (2 only) | 14 (7 only) | 8 (0 only) | 1 (1 only) |
+| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 Austrian Theory / Joe Fanning | - | - | 1 (1 only) | - | - | - | - | 2 | - | 1 (1 only) | 3 (1 only) | 4 (0 only) | 2 (0 only) | - | - |
+| 2 Cresta / Tom Marquand | - | - | 1 (1 only) | - | - | - | 1 (1 only) | 3 | - | 4 (4 only) | 15 (10 only) | 6 (1 only) | 7 (2 only) | - | - |
+| 3 Dawn Of Liberation / Sean Levey | - | 1 (1 only) | 2 (2 only) | - | - | - | 1 (1 only) | 4 | - | 4 (4 only) | 3 (1 only) | 13 (9 only) | 8 (1 only) | 2 (2 only) | - |
+| 4 Eydon / David Egan | - | - | 1 (1 only) | - | - | - | - | 0 | - | 3 (3 only) | 6 (3 only) | 10 (4 only) | 10 (1 only) | - | - |
+| 5 Masekela / William Buick | 1 (1 only) | - | - | - | - | - | - | 7 | - | 3 (3 only) | 4 (2 only) | 7 (5 only) | 10 (2 only) | 1 (1 only) | - |
+| 6 Sonny Liston / Marco Ghiani | - | - | 1 (1 only) | - | - | - | - | 2 | - | 2 (2 only) | 3 (2 only) | 14 (7 only) | 8 (0 only) | 1 (1 only) | - |
 
-Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer.
+Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
 ## 1 Austrian Theory / Joe Fanning
 ### 1 natal pair, same number, both charts
@@ -48,6 +48,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 6 and 60: H Saturn – H Pluto RA 5.9897 6 whole (23.41) | S Juno → H Uranus RA 60.0126 60 whole (13.83) | S Jupiter → H Chiron Dec 6.0114 6 whole (18.31) — also: 2 Cresta, 4 Eydon, 6 Sonny Liston
 - 1 and 10: H Sun – H Jupiter Dec 10.0123 10 whole (14.96) | S Gonggong → H Gonggong Dec 1.0079 1 whole (36.48) | S Makemake → H Makemake Dec 0.9975 1 whole (76.24) | J Jupiter – J Uranus Dec 10.0136 10 whole (10.15) | J Pallas – J Quaoar Dec 10.0150 10 whole (6.34) | S Mars → J Uranus Dec 10.0120 10 whole (15.82) | S Sun → J Ketu Dec 0.9887 1 whole (18.96) | S Sun → J Sun Dec 9.9801 10 whole (0.00) — also: 2 Cresta, 3 Dawn Of Liberation, 4 Eydon, 5 Masekela, 6 Sonny Liston
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none
 
 ## 2 Cresta / Tom Marquand
@@ -107,6 +109,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 3 and 30: S Jupiter → J Venus RA 29.9839 30 whole (3.80) | S Rahu → J Vesta RA 3.0019 3 whole (81.91) | S Moon → J Rahu Dec 2.9958 3 whole (62.54) | S Pluto → J Neptune Dec 2.9966 3 whole (68.91) | S Orcus → J Quaoar Dec 3.0086 3 whole (32.74) — also: 3 Dawn Of Liberation, 4 Eydon, 5 Masekela
 ### 13 one body pair, every layer
 - none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 3 Dawn Of Liberation / Sean Levey
 ### 1 natal pair, same number, both charts
@@ -163,6 +167,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 13 one body pair, every layer
 - Venus – Sedna: digits 12: J Venus – J Sedna RA 11.9838 12 whole (3.68) | S Venus → J Sedna Dec 12.0191 12 whole (0.20) — only
 - Haumea – Orcus: digits 59: S Orcus → H Haumea RA 58.9923 59 whole (38.03) | J Haumea – J Orcus RA 59.0031 59 whole (71.34) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 4 Eydon / David Egan
 ### 1 natal pair, same number, both charts
@@ -218,6 +224,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 7 and 70: H Mercury – H Sedna RA 69.9880 70 whole (16.13) | J Ceres – J Makemake RA 70.0083 70 whole (33.95) | S Moon → J Pluto RA 69.9851 70 whole (6.50) | S Venus → J Pallas Dec 6.9915 7 whole (32.86) — also: 5 Masekela
 ### 13 one body pair, every layer
 - none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 5 Masekela / William Buick
 ### 1 natal pair, same number, both charts
@@ -268,6 +276,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 18 and 180: J Rahu – J Makemake RA 179.9813 180 whole (0.46) | S Mars → J Orcus Dec 18.0090 18 whole (30.00) | S Moon → J Mercury Dec 17.9918 18 whole (34.99) | S Neptune → J Transpluto Dec 18.0061 18 whole (48.07) | S Makemake → J Orcus Dec 17.9869 18 whole (11.85) — only
 ### 13 one body pair, every layer
 - Saturn – Pallas: digits 39: H Saturn – H Pallas Dec 39.0072 39 whole (40.74) | J Saturn – J Pallas RA 39.0018 39 whole (82.58) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 6 Sonny Liston / Marco Ghiani
 ### 1 natal pair, same number, both charts
@@ -321,3 +331,5 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 11 and 110: S Transpluto → H Venus RA 110.0076 110 whole (38.41) | J Venus – J Neptune Dec 11.0086 11 whole (32.24) | S Venus → J Neptune Dec 11.0197 11 whole (0.02) — also: 5 Masekela
 ### 13 one body pair, every layer
 - Venus – Neptune: digits 11: J Venus – J Neptune Dec 11.0086 11 whole (32.24) | S Venus → J Neptune Dec 11.0197 11 whole (0.02) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none

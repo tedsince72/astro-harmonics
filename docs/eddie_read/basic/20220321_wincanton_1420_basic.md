@@ -3,16 +3,16 @@
 The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
-| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 Reserve Tank / Brendan Powell | - | - | 1 (1 only) | - | - | - | - | 1 | - | 1 (1 only) | 7 (4 only) | 9 (5 only) | 10 (3 only) | - |
-| 2 Guernesey / Tom O'Brien | - | - | 1 (1 only) | - | 1 (1 only) | 1 (1 only) | - | 3 | - | 6 (6 only) | 8 (4 only) | 7 (5 only) | 6 (0 only) | - |
-| 3 Ballyblack / Rex Dingle | - | - | 1 (1 only) | - | - | - | 3 (3 only) | 4 | 2 (2 only) | 4 (4 only) | 5 (1 only) | 11 (9 only) | 8 (1 only) | 1 (1 only) |
-| 4 River Bray / Alan Johns | - | - | - | - | - | - | 1 (1 only) | 4 | - | 4 (4 only) | 6 (4 only) | 10 (5 only) | 11 (1 only) | - |
-| 5 Birds Of Prey / Harry Cobden | - | - | - | - | - | - | - | 5 | - | 4 (4 only) | 4 (1 only) | 5 (2 only) | 6 (1 only) | - |
-| 6 Electric Annie / Nick Scholfield | - | - | - | - | 1 (1 only) | - | - | 3 | - | 2 (2 only) | 6 (4 only) | 6 (2 only) | 5 (0 only) | - |
+| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 Reserve Tank / Brendan Powell | - | - | 1 (1 only) | - | - | - | - | 1 | - | 1 (1 only) | 7 (4 only) | 9 (5 only) | 10 (3 only) | - | - |
+| 2 Guernesey / Tom O'Brien | - | - | 1 (1 only) | - | 1 (1 only) | 1 (1 only) | - | 3 | - | 6 (6 only) | 8 (4 only) | 7 (5 only) | 6 (0 only) | - | - |
+| 3 Ballyblack / Rex Dingle | - | - | 1 (1 only) | - | - | - | 3 (3 only) | 4 | 2 (2 only) | 4 (4 only) | 5 (1 only) | 11 (9 only) | 8 (1 only) | 1 (1 only) | - |
+| 4 River Bray / Alan Johns | - | - | - | - | - | - | 1 (1 only) | 4 | - | 4 (4 only) | 6 (4 only) | 10 (5 only) | 11 (1 only) | - | - |
+| 5 Birds Of Prey / Harry Cobden | - | - | - | - | - | - | - | 5 | - | 4 (4 only) | 4 (1 only) | 5 (2 only) | 6 (1 only) | - | - |
+| 6 Electric Annie / Nick Scholfield | - | - | - | - | 1 (1 only) | - | - | 3 | - | 2 (2 only) | 6 (4 only) | 6 (2 only) | 5 (0 only) | - | - |
 
-Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer.
+Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
 ## 1 Reserve Tank / Brendan Powell
 ### 1 natal pair, same number, both charts
@@ -66,6 +66,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 5 and 50: S Orcus → H Rahu RA 50.0005 50 whole (94.93) | J Jupiter – J Ceres Dec 49.9846 50 whole (5.23) | S Rahu → J Transpluto Dec 5.0101 5 whole (24.27) — only
 ### 13 one body pair, every layer
 - none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 2 Guernesey / Tom O'Brien
 ### 1 natal pair, same number, both charts
@@ -118,6 +120,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 2 and 20: H Venus – H Uranus RA 20.0009 20 whole (91.42) | S Ketu → H Haumea RA 20.0006 20 whole (94.19) | S Pallas → H Neptune Dec 2.0091 2 whole (29.57) | S Chiron → J Ceres Dec 20.0126 20 whole (13.73) | S Chiron → J Juno Dec 19.9985 20 whole (85.80) — also: 1 Reserve Tank, 3 Ballyblack, 4 River Bray, 6 Electric Annie
 - 3 and 30: S Ketu → H Transpluto Dec 29.9867 30 whole (11.12) | S Transpluto → H Sedna Dec 3.0157 3 whole (4.70) | J Vesta – J Haumea Dec 29.9919 30 whole (35.42) — also: 1 Reserve Tank, 4 River Bray, 5 Birds Of Prey
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none
 
 ## 3 Ballyblack / Rex Dingle
@@ -176,6 +180,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 8 and 80: S Rahu → J Gonggong RA 79.9848 80 whole (5.66) | S Mercury → J Vesta Dec 7.9936 8 whole (46.29) — also: 4 River Bray, 5 Birds Of Prey
 ### 13 one body pair, every layer
 - Jupiter – Chiron: digits 1: J Jupiter – J Chiron Dec 0.9870 1 whole (12.29) | S Jupiter → J Chiron Dec 9.9883 10 whole (17.15) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 4 River Bray / Alan Johns
 ### 1 natal pair, same number, both charts
@@ -233,6 +239,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 6 and 60: J Jupiter – J Sedna RA 59.9805 60 whole (0.07) | S Neptune → J Mars Dec 6.0183 6 whole (0.69) — also: 6 Electric Annie
 ### 13 one body pair, every layer
 - none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 5 Birds Of Prey / Harry Cobden
 ### 1 natal pair, same number, both charts
@@ -278,6 +286,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 9 and 90: S Transpluto → J Quaoar RA 90.0048 90 whole (57.95) | S Eris → J Pluto Dec 8.9927 9 whole (40.41) — only
 ### 13 one body pair, every layer
 - none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 6 Electric Annie / Nick Scholfield
 ### 1 natal pair, same number, both charts
@@ -322,4 +332,6 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 2 and 20: S Mars → H Ceres RA 1.9865 2 whole (10.53) | S Jupiter → J Gonggong RA 20.0179 20 whole (1.15) | S Moon → J Orcus Dec 20.0065 20 whole (45.43) — also: 1 Reserve Tank, 2 Guernesey, 3 Ballyblack, 4 River Bray
 - 13 and 130: S Orcus → H Pluto RA 130.0184 130 whole (0.66) | J Saturn – J Eris Dec 13.0193 13 whole (0.13) | S Juno → J Vesta Dec 13.0163 13 whole (3.35) — also: 1 Reserve Tank, 2 Guernesey, 3 Ballyblack, 4 River Bray
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none

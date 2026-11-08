@@ -3,16 +3,16 @@
 The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
-| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 Aswan / David Allan | - | - | - | - | - | - | - | 4 | - | 1 (1 only) | 2 (1 only) | 6 (3 only) | 5 (0 only) | - |
-| 2 Million Thanks / Kevin Stott | - | - | - | - | - | - | 2 (2 only) | 2 | - | 4 (4 only) | 5 (2 only) | 9 (6 only) | 7 (0 only) | 1 (1 only) |
-| 4 Persist / Stevie Donohoe | - | - | - | - | 2 (2 only) | - | - | 6 | - | 1 (1 only) | 3 (2 only) | 9 (3 only) | 6 (0 only) | - |
-| 6 Whitefeathersfall / Franny Norton | 1 (1 only) | - | - | - | - | - | 3 (3 only) | 1 | - | 4 (4 only) | 3 (1 only) | 7 (2 only) | 5 (1 only) | 1 (1 only) |
-| 7 Noble Mark / Luke Morris | - | - | - | - | - | - | 1 (1 only) | 2 | - | 7 (7 only) | 9 (5 only) | 15 (9 only) | 11 (2 only) | - |
-| 8 Lucia Joy / Ben Curtis | - | - | 2 (2 only) | - | - | - | - | 1 | - | 1 (1 only) | 4 (1 only) | 7 (3 only) | 12 (1 only) | - |
+| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 Aswan / David Allan | - | - | - | - | - | - | - | 4 | - | 1 (1 only) | 2 (1 only) | 6 (3 only) | 5 (0 only) | - | - |
+| 2 Million Thanks / Kevin Stott | - | - | - | - | - | - | 2 (2 only) | 2 | - | 4 (4 only) | 5 (2 only) | 9 (6 only) | 7 (0 only) | 1 (1 only) | - |
+| 4 Persist / Stevie Donohoe | - | - | - | - | 2 (2 only) | - | - | 6 | - | 1 (1 only) | 3 (2 only) | 9 (3 only) | 6 (0 only) | - | - |
+| 6 Whitefeathersfall / Franny Norton | 1 (1 only) | - | - | - | - | - | 3 (3 only) | 1 | - | 4 (4 only) | 3 (1 only) | 7 (2 only) | 5 (1 only) | 1 (1 only) | - |
+| 7 Noble Mark / Luke Morris | - | - | - | - | - | - | 1 (1 only) | 2 | - | 7 (7 only) | 9 (5 only) | 15 (9 only) | 11 (2 only) | - | - |
+| 8 Lucia Joy / Ben Curtis | - | - | 2 (2 only) | - | - | - | - | 1 | - | 1 (1 only) | 4 (1 only) | 7 (3 only) | 12 (1 only) | - | - |
 
-Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer.
+Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
 ## 1 Aswan / David Allan
 ### 1 natal pair, same number, both charts
@@ -52,6 +52,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 14 and 140: S Neptune → H Transpluto Dec 13.9985 14 whole (85.52) | J Haumea – J Sedna RA 139.9814 140 whole (0.52) | S Juno → J Ceres Dec 13.9992 14 whole (92.25) | S Mercury → J Makemake Dec 13.9898 14 whole (23.79) — also: 2 Million Thanks, 8 Lucia Joy
 - 2 and 20: S Chiron → H Gonggong Dec 19.9860 20 whole (8.87) | S Jupiter → J Venus Dec 20.0057 20 whole (50.87) | S Sedna → J Pluto Dec 1.9832 2 whole (2.62) | S Sedna → J Quaoar Dec 19.9977 20 whole (78.03) — also: 2 Million Thanks, 7 Noble Mark, 8 Lucia Joy
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none
 
 ## 2 Million Thanks / Kevin Stott
@@ -105,6 +107,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 3 and 30: J Mars – J Eris Dec 29.9809 30 whole (0.21) | J Mercury – J Ceres Dec 3.0129 3 whole (12.76) | J Uranus – J Gonggong Dec 3.0031 3 whole (71.47) | S Chiron → J Saturn RA 29.9921 30 whole (36.44) — also: 4 Persist, 6 Whitefeathersfall, 7 Noble Mark
 ### 13 one body pair, every layer
 - Chiron – Quaoar: digits 18: S Quaoar → H Chiron Dec 17.9878 18 whole (15.26) | J Chiron – J Quaoar Dec 17.9836 18 whole (3.28) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 4 Persist / Stevie Donohoe
 ### 1 natal pair, same number, both charts
@@ -150,6 +154,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 17 and 170: S Eris → H Makemake RA 169.9978 170 whole (78.86) | J Haumea – J Orcus Dec 16.9861 17 whole (9.42) — also: 7 Noble Mark, 8 Lucia Joy
 - 13 and 130: S Mercury → J Saturn RA 130.0048 130 whole (57.52) | S Juno → J Transpluto Dec 13.0116 13 whole (17.49) — also: 6 Whitefeathersfall, 7 Noble Mark, 8 Lucia Joy
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none
 
 ## 6 Whitefeathersfall / Franny Norton
@@ -198,6 +204,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 13 and 130: J Jupiter – J Pallas RA 129.9808 130 whole (0.17) | J Mars – J Chiron Dec 12.9834 13 whole (2.87) | S Juno → J Rahu RA 13.0095 13 whole (27.52) | S Neptune → J Juno Dec 12.9874 13 whole (13.85) | S Makemake → J Vesta Dec 12.9847 13 whole (5.55) — also: 4 Persist, 7 Noble Mark, 8 Lucia Joy
 ### 13 one body pair, every layer
 - Jupiter – Pallas: digits 21: S Jupiter → H Pallas Dec 20.9856 21 whole (7.71) | J Jupiter – J Pallas Dec 20.9825 21 whole (1.53) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 7 Noble Mark / Luke Morris
 ### 1 natal pair, same number, both charts
@@ -266,6 +274,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 9 and 90: S Jupiter → J Chiron RA 90.0178 90 whole (1.16) | S Moon → J Pallas Dec 8.9888 9 whole (19.38) | S Saturn → J Uranus Dec 9.0007 9 whole (93.36) — also: 1 Aswan, 4 Persist, 8 Lucia Joy
 ### 13 one body pair, every layer
 - none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 8 Lucia Joy / Ben Curtis
 ### 1 natal pair, same number, both charts
@@ -316,4 +326,6 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 13 and 130: H Ceres – H Vesta RA 129.9850 130 whole (6.30) | J Venus – J Mars RA 12.9901 13 whole (25.66) | S Mercury → J Pluto RA 129.9832 130 whole (2.50) — also: 4 Persist, 6 Whitefeathersfall, 7 Noble Mark
 - 5 and 50: J Venus – J Mars Dec 4.9828 5 whole (1.98) | J Venus – J Pallas Dec 4.9806 5 whole (0.08) | S Vesta → J Makemake Dec 50.0069 50 whole (43.01) — also: 7 Noble Mark
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none

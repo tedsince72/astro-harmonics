@@ -3,16 +3,16 @@
 The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
-| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 Bristol De Mai / Sam Twiston-Davies | - | 2 (2 only) | - | - | - | - | - | 0 | - | 2 (2 only) | 5 (4 only) | 4 (3 only) | 5 (1 only) | 2 (2 only) |
-| 2 Dashel Drasher / Rex Dingle | - | - | - | - | 1 (1 only) | - | 1 (1 only) | 5 | - | 3 (3 only) | 4 (2 only) | 9 (3 only) | 8 (1 only) | - |
-| 3 Master Tommytucker / Harry Cobden | - | - | 1 (1 only) | - | 1 (1 only) | - | 1 (1 only) | 1 | - | 3 (3 only) | 2 (0 only) | 5 (1 only) | 5 (2 only) | 1 (1 only) |
-| 5 Itchy Feet / Gavin Sheehan | - | - | - | - | - | - | - | 1 | - | 4 (4 only) | 4 (2 only) | 7 (5 only) | 8 (0 only) | - |
-| 6 Lieutenant Rocco / Tom Scudamore | - | 1 (1 only) | - | - | 2 (2 only) | - | - | 2 | - | 4 (4 only) | 3 (0 only) | 12 (6 only) | 5 (1 only) | 1 (1 only) |
-| 7 Two For Gold / David Bass | - | - | - | - | - | 1 (1 only) | - | 7 | - | 5 (5 only) | 5 (2 only) | 11 (4 only) | 11 (0 only) | 1 (1 only) |
+| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 Bristol De Mai / Sam Twiston-Davies | - | 2 (2 only) | - | - | - | - | - | 0 | - | 2 (2 only) | 5 (4 only) | 4 (3 only) | 5 (1 only) | 2 (2 only) | - |
+| 2 Dashel Drasher / Rex Dingle | - | - | - | - | 1 (1 only) | - | 1 (1 only) | 5 | - | 3 (3 only) | 4 (2 only) | 9 (3 only) | 8 (1 only) | - | - |
+| 3 Master Tommytucker / Harry Cobden | - | - | 1 (1 only) | - | 1 (1 only) | - | 1 (1 only) | 1 | - | 3 (3 only) | 2 (0 only) | 5 (1 only) | 5 (2 only) | 1 (1 only) | - |
+| 5 Itchy Feet / Gavin Sheehan | - | - | - | - | - | - | - | 1 | - | 4 (4 only) | 4 (2 only) | 7 (5 only) | 8 (0 only) | - | - |
+| 6 Lieutenant Rocco / Tom Scudamore | - | 1 (1 only) | - | - | 2 (2 only) | - | - | 2 | - | 4 (4 only) | 3 (0 only) | 12 (6 only) | 5 (1 only) | 1 (1 only) | - |
+| 7 Two For Gold / David Bass | - | - | - | - | - | 1 (1 only) | - | 7 | - | 5 (5 only) | 5 (2 only) | 11 (4 only) | 11 (0 only) | 1 (1 only) | - |
 
-Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer.
+Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
 ## 1 Bristol De Mai / Sam Twiston-Davies
 ### 1 natal pair, same number, both charts
@@ -57,6 +57,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 13 one body pair, every layer
 - Mercury – Rahu: digits 7: S Mercury → H Rahu Dec 6.9860 7 whole (9.05) | S Mercury → J Rahu Dec 6.9832 7 whole (2.51) — only
 - Moon – Ketu: digits 24: S Moon → H Ketu Dec 23.9983 24 whole (84.05) | S Moon → J Ketu Dec 23.9955 24 whole (59.94) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 2 Dashel Drasher / Rex Dingle
 ### 1 natal pair, same number, both charts
@@ -107,6 +109,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 2 and 20: S Juno → H Sedna Dec 20.0112 20 whole (19.47) | S Pluto → J Mars RA 19.9820 20 whole (0.99) | S Ketu → J Gonggong Dec 2.0030 2 whole (72.03) — also: 1 Bristol De Mai, 3 Master Tommytucker, 7 Two For Gold
 ### 13 one body pair, every layer
 - none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 3 Master Tommytucker / Harry Cobden
 ### 1 natal pair, same number, both charts
@@ -148,6 +152,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 14 and 140: H Saturn – H Gonggong RA 139.9916 140 whole (33.91) | S Saturn → H Saturn Dec 14.0130 14 whole (12.32) | S Ceres → J Sedna Dec 13.9959 14 whole (63.15) | S Moon → J Quaoar Dec 13.9847 14 whole (5.51) | S Neptune → J Uranus Dec 13.9974 14 whole (75.90) | S Sedna → J Jupiter Dec 13.9983 14 whole (83.91) — only
 ### 13 one body pair, every layer
 - Vesta – Orcus: digits 13: H Vesta – H Orcus Dec 13.0151 13 whole (5.91) | S Vesta → H Orcus RA 129.9918 130 whole (34.80) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 5 Itchy Feet / Gavin Sheehan
 ### 1 natal pair, same number, both charts
@@ -196,6 +202,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 6 and 60: H Rahu – H Quaoar RA 60.0027 60 whole (74.72) | S Ketu → J Vesta RA 60.0147 60 whole (7.08) | S Eris → J Sedna Dec 5.9813 6 whole (0.40) | S Quaoar → J Neptune Dec 5.9810 6 whole (0.25) — also: 1 Bristol De Mai
 - 1 and 10: S Rahu → H Mercury RA 10.0122 10 whole (15.02) | S Mars → J Uranus Dec 1.0021 1 whole (80.00) — also: 2 Dashel Drasher, 3 Master Tommytucker, 7 Two For Gold
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none
 
 ## 6 Lieutenant Rocco / Tom Scudamore
@@ -248,6 +256,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 16 and 160: S Gonggong → H Jupiter RA 160.0061 160 whole (48.54) | S Transpluto → H Makemake Dec 15.9805 16 whole (0.06) | J Pluto – J Ceres Dec 15.9887 16 whole (18.97) | S Transpluto → J Juno Dec 15.9977 16 whole (78.63) — also: 2 Dashel Drasher, 5 Itchy Feet, 7 Two For Gold
 ### 13 one body pair, every layer
 - Quaoar – Transpluto: digits 27: S Quaoar → H Transpluto Dec 26.9849 27 whole (5.96) | J Quaoar – J Transpluto Dec 26.9905 27 whole (27.57) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 7 Two For Gold / David Bass
 ### 1 natal pair, same number, both charts
@@ -306,3 +316,5 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 2 and 20: S Juno → H Sedna Dec 19.9961 20 whole (64.61) | S Rahu → J Vesta Dec 2.0036 2 whole (67.44) — also: 1 Bristol De Mai, 2 Dashel Drasher, 3 Master Tommytucker
 ### 13 one body pair, every layer
 - Juno – Gonggong: digits 26: H Juno – H Gonggong RA 26.0141 26 whole (8.83) | S Gonggong → J Juno Dec 26.0137 26 whole (9.85) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none

@@ -3,16 +3,16 @@
 The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
-| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 Dubai Souq / Sean Kirrane | - | 1 (0 only) | - | - | 1 (1 only) | - | - | 2 | - | 2 (2 only) | 5 (4 only) | 12 (9 only) | 8 (2 only) | - |
-| 2 Athmad / Jason Hart | 1 (1 only) | 2 (1 only) | 1 (1 only) | 1 (1 only) | 1 (1 only) | 1 (1 only) | 1 (1 only) | 6 | 6 (6 only) | 4 (4 only) | 4 (3 only) | 9 (7 only) | 10 (0 only) | 1 (1 only) |
-| 3 Raise The Roof / Luke Morris | 1 (1 only) | - | 1 (1 only) | - | - | - | - | 3 | - | 4 (4 only) | 7 (3 only) | 6 (3 only) | 7 (0 only) | - |
-| 4 Beating All / Ben Curtis | - | - | - | - | - | - | - | 3 | - | 2 (2 only) | 8 (3 only) | 10 (4 only) | 8 (0 only) | - |
-| 5 Pallas Dancer / Ben Robinson | - | - | - | - | - | - | - | 4 | - | 3 (3 only) | 1 (0 only) | 10 (6 only) | 7 (0 only) | 1 (1 only) |
-| 6 Tricolore / Dylan Hogan | - | - | 1 (1 only) | 1 (1 only) | - | - | - | 3 | - | 1 (1 only) | 6 (5 only) | 6 (5 only) | 8 (0 only) | - |
+| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 Dubai Souq / Sean Kirrane | - | 1 (0 only) | - | - | 1 (1 only) | - | - | 2 | - | 2 (2 only) | 5 (4 only) | 12 (9 only) | 8 (2 only) | - | - |
+| 2 Athmad / Jason Hart | 1 (1 only) | 2 (1 only) | 1 (1 only) | 1 (1 only) | 1 (1 only) | 1 (1 only) | 1 (1 only) | 6 | 6 (6 only) | 4 (4 only) | 4 (3 only) | 9 (7 only) | 10 (0 only) | 1 (1 only) | - |
+| 3 Raise The Roof / Luke Morris | 1 (1 only) | - | 1 (1 only) | - | - | - | - | 3 | - | 4 (4 only) | 7 (3 only) | 6 (3 only) | 7 (0 only) | - | - |
+| 4 Beating All / Ben Curtis | - | - | - | - | - | - | - | 3 | - | 2 (2 only) | 8 (3 only) | 10 (4 only) | 8 (0 only) | - | - |
+| 5 Pallas Dancer / Ben Robinson | - | - | - | - | - | - | - | 4 | - | 3 (3 only) | 1 (0 only) | 10 (6 only) | 7 (0 only) | 1 (1 only) | - |
+| 6 Tricolore / Dylan Hogan | - | - | 1 (1 only) | 1 (1 only) | - | - | - | 3 | - | 1 (1 only) | 6 (5 only) | 6 (5 only) | 8 (0 only) | - | - |
 
-Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer.
+Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
 ## 1 Dubai Souq / Sean Kirrane
 ### 1 natal pair, same number, both charts
@@ -65,6 +65,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 13 and 130: J Rahu – J Vesta RA 130.0192 130 whole (0.17) | J Uranus – J Gonggong RA 13.0108 13 whole (21.01) | S Sedna → J Sedna RA 13.0048 13 whole (57.42) — only
 - 4 and 40: J Neptune – J Quaoar Dec 3.9902 4 whole (26.14) | S Pluto → J Vesta Dec 3.9822 4 whole (1.16) | S Rahu → J Chiron Dec 40.0063 40 whole (46.87) — also: 2 Athmad, 4 Beating All, 5 Pallas Dancer
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none
 
 ## 2 Athmad / Jason Hart
@@ -125,6 +127,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 14 and 140: S Vesta → H Haumea Dec 13.9943 14 whole (51.45) | S Transpluto → J Uranus RA 140.0052 140 whole (54.71) — also: 6 Tricolore
 ### 13 one body pair, every layer
 - Jupiter – Saturn: digits 8: H Jupiter – H Saturn RA 79.9872 80 whole (13.06) | S Jupiter → H Saturn Dec 8.0020 8 whole (80.83) | S Jupiter → J Saturn RA 8.0193 8 whole (0.11) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 3 Raise The Roof / Luke Morris
 ### 1 natal pair, same number, both charts
@@ -174,6 +178,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 6 and 60: S Jupiter → H Quaoar RA 59.9994 60 whole (94.40) | S Neptune → H Chiron Dec 5.9823 6 whole (1.34) | S Gonggong → H Jupiter Dec 6.0001 6 whole (99.35) — also: 4 Beating All
 - 17 and 170: S Pallas → H Orcus Dec 16.9807 17 whole (0.11) | S Venus → H Makemake Dec 16.9933 17 whole (44.40) | J Vesta – J Transpluto Dec 17.0031 17 whole (71.06) | S Venus → J Ceres RA 170.0135 170 whole (10.42) — also: 4 Beating All, 6 Tricolore
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none
 
 ## 4 Beating All / Ben Curtis
@@ -229,6 +235,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 2 and 20: J Venus – J Quaoar Dec 19.9875 20 whole (14.00) | S Quaoar → J Uranus RA 1.9896 2 whole (23.06) | S Chiron → J Rahu Dec 20.0053 20 whole (53.86) — also: 1 Dubai Souq, 2 Athmad, 3 Raise The Roof, 5 Pallas Dancer
 ### 13 one body pair, every layer
 - none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 5 Pallas Dancer / Ben Robinson
 ### 1 natal pair, same number, both charts
@@ -276,6 +284,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 2 and 20: H Ketu – H Sedna Dec 19.9897 20 whole (23.73) | H Vesta – H Chiron Dec 20.0191 20 whole (0.19) | H Gonggong – H Sedna Dec 20.0039 20 whole (64.93) | S Moon → H Haumea Dec 1.9895 2 whole (22.79) | J Saturn – J Chiron Dec 20.0175 20 whole (1.56) — also: 1 Dubai Souq, 2 Athmad, 3 Raise The Roof, 4 Beating All
 ### 13 one body pair, every layer
 - Saturn – Vesta: digits 25: S Vesta → H Saturn Dec 24.9854 25 whole (7.25) | S Saturn → J Vesta Dec 25.0141 25 whole (8.59) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 6 Tricolore / Dylan Hogan
 ### 1 natal pair, same number, both charts
@@ -322,4 +332,6 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 3 and 30: S Sun → H Gonggong Dec 29.9951 30 whole (56.98) | J Ketu – J Vesta Dec 2.9937 3 whole (46.70) | J Saturn – J Quaoar Dec 2.9912 3 whole (31.13) | J Uranus – J Gonggong Dec 3.0138 3 whole (9.61) — also: 1 Dubai Souq, 2 Athmad, 3 Raise The Roof, 4 Beating All, 5 Pallas Dancer
 - 17 and 170: J Pallas – J Eris Dec 16.9826 17 whole (1.66) | S Sedna → J Jupiter RA 170.0099 170 whole (25.57) — also: 3 Raise The Roof, 4 Beating All
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none

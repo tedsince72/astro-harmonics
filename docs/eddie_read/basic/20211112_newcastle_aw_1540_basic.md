@@ -3,16 +3,16 @@
 The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
-| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 Poco Contante / Jamie Gormley | - | - | - | - | - | - | - | 2 | - | 3 (3 only) | 7 (3 only) | 9 (4 only) | 6 (1 only) | - |
-| 2 Gold Terms / Oliver Stammers | - | 2 (2 only) | - | - | - | - | - | 2 | - | 3 (3 only) | 5 (2 only) | 6 (5 only) | 7 (1 only) | 1 (1 only) |
-| 3 Heart Throb / Graham Lee | 1 (1 only) | - | - | - | - | - | - | 2 | - | 2 (2 only) | 4 (0 only) | 8 (3 only) | 8 (2 only) | - |
-| 4 Larllunna / Harry Russell | - | 1 (1 only) | - | - | - | - | - | 5 | - | 5 (5 only) | 5 (2 only) | 8 (4 only) | 9 (0 only) | - |
-| 5 Rabat / Connor Beasley | - | - | - | - | - | - | - | 0 | - | 3 (3 only) | 5 (3 only) | 9 (6 only) | 4 (0 only) | - |
-| 6 Silver Bubble / Tom Marquand | - | - | - | - | 1 (1 only) | - | 1 (1 only) | 2 | - | 2 (2 only) | 4 (3 only) | 11 (5 only) | 5 (0 only) | 1 (1 only) |
+| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 Poco Contante / Jamie Gormley | - | - | - | - | - | - | - | 2 | - | 3 (3 only) | 7 (3 only) | 9 (4 only) | 6 (1 only) | - | - |
+| 2 Gold Terms / Oliver Stammers | - | 2 (2 only) | - | - | - | - | - | 2 | - | 3 (3 only) | 5 (2 only) | 6 (5 only) | 7 (1 only) | 1 (1 only) | - |
+| 3 Heart Throb / Graham Lee | 1 (1 only) | - | - | - | - | - | - | 2 | - | 2 (2 only) | 4 (0 only) | 8 (3 only) | 8 (2 only) | - | - |
+| 4 Larllunna / Harry Russell | - | 1 (1 only) | - | - | - | - | - | 5 | - | 5 (5 only) | 5 (2 only) | 8 (4 only) | 9 (0 only) | - | - |
+| 5 Rabat / Connor Beasley | - | - | - | - | - | - | - | 0 | - | 3 (3 only) | 5 (3 only) | 9 (6 only) | 4 (0 only) | - | - |
+| 6 Silver Bubble / Tom Marquand | - | - | - | - | 1 (1 only) | - | 1 (1 only) | 2 | - | 2 (2 only) | 4 (3 only) | 11 (5 only) | 5 (0 only) | 1 (1 only) | - |
 
-Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer.
+Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
 ## 1 Poco Contante / Jamie Gormley
 ### 1 natal pair, same number, both charts
@@ -64,6 +64,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 12 and 120: S Mars → H Gonggong RA 119.9913 120 whole (31.70) | S Mars → J Venus Dec 11.9937 12 whole (46.77) — only
 ### 13 one body pair, every layer
 - none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 2 Gold Terms / Oliver Stammers
 ### 1 natal pair, same number, both charts
@@ -112,6 +114,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 1 and 10: S Vesta → H Neptune Dec 10.0137 10 whole (9.94) | S Vesta → H Quaoar Dec 1.0062 1 whole (47.29) | S Haumea → H Makemake Dec 9.9966 10 whole (69.20) | S Orcus → H Mars Dec 10.0046 10 whole (59.27) | S Transpluto → H Pallas Dec 10.0132 10 whole (11.53) | S Moon → J Mars Dec 10.0001 10 whole (98.72) | S Rahu → J Saturn Dec 0.9910 1 whole (30.07) | S Rahu → J Haumea Dec 0.9875 1 whole (14.08) | S Venus → J Chiron Dec 10.0144 10 whole (7.97) — also: 1 Poco Contante, 3 Heart Throb, 4 Larllunna, 6 Silver Bubble
 ### 13 one body pair, every layer
 - Sun – Mars: digits 8: S Sun → H Mars RA 80.0066 80 whole (44.64) | S Sun → J Mars Dec 8.0145 8 whole (7.58) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 3 Heart Throb / Graham Lee
 ### 1 natal pair, same number, both charts
@@ -159,6 +163,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 11 and 110: S Venus → H Sun RA 109.9894 110 whole (22.28) | S Pallas → H Saturn Dec 10.9967 11 whole (69.82) | J Juno – J Chiron Dec 10.9808 11 whole (0.18) | J Jupiter – J Transpluto Dec 11.0100 11 whole (24.76) | S Uranus → J Mars Dec 10.9838 11 whole (3.58) | S Makemake → J Orcus Dec 11.0011 11 whole (89.61) — only
 - 14 and 140: J Jupiter – J Vesta Dec 14.0149 14 whole (6.53) | J Sun – J Vesta Dec 13.9943 14 whole (50.88) | J Gonggong – J Quaoar Dec 13.9867 14 whole (11.12) | S Mars → J Pallas RA 140.0056 140 whole (51.97) | S Venus → J Uranus Dec 14.0035 14 whole (68.35) — only
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none
 
 ## 4 Larllunna / Harry Russell
@@ -213,6 +219,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 1 and 100: S Venus → J Juno RA 100.0065 100 whole (45.87) | S Saturn → J Neptune Dec 1.0019 1 whole (81.89) — also: 1 Poco Contante, 2 Gold Terms, 3 Heart Throb, 6 Silver Bubble
 ### 13 one body pair, every layer
 - none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 5 Rabat / Connor Beasley
 ### 1 natal pair, same number, both charts
@@ -259,6 +267,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 16 and 160: S Mercury → H Venus RA 159.9941 160 whole (49.60) | S Haumea → H Sedna RA 160.0122 160 whole (15.12) | S Eris → H Ketu Dec 15.9902 16 whole (25.94) | S Pallas → J Sedna Dec 16.0146 16 whole (7.19) — also: 4 Larllunna
 - 3 and 30: S Makemake → H Makemake Dec 2.9802 3 whole (0.01) | S Sedna → J Uranus Dec 29.9907 30 whole (28.77) — also: 3 Heart Throb, 4 Larllunna, 6 Silver Bubble
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none
 
 ## 6 Silver Bubble / Tom Marquand
@@ -308,3 +318,5 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 1 and 10: H Juno – H Chiron Dec 10.0097 10 whole (26.40) | S Venus → H Vesta Dec 9.9813 10 whole (0.44) | S Makemake → H Ceres Dec 9.9923 10 whole (37.69) | S Juno → J Venus Dec 1.0062 1 whole (47.44) | S Neptune → J Sedna Dec 9.9888 10 whole (19.55) | S Vesta → J Chiron Dec 1.0038 1 whole (65.68) — also: 1 Poco Contante, 2 Gold Terms, 3 Heart Throb, 4 Larllunna
 ### 13 one body pair, every layer
 - Venus – Gonggong: digits 5: S Gonggong → H Venus Dec 5.0123 5 whole (14.95) | J Venus – J Gonggong Dec 5.0027 5 whole (74.96) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none

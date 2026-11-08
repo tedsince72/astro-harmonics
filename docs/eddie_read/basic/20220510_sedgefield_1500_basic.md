@@ -3,15 +3,15 @@
 The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
-| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 Blue Collar Glory / Craig Nichol | 1 (1 only) | - | 1 (1 only) | - | - | - | 2 (2 only) | 2 | - | 3 (3 only) | 1 (1 only) | 8 (5 only) | 9 (1 only) | 1 (1 only) |
-| 2 Bright Sunbird / Tabitha Worsley | - | - | - | - | 1 (1 only) | - | - | 6 | - | 2 (2 only) | 2 (2 only) | 7 (5 only) | 9 (1 only) | - |
-| 3 Emorelle / Miss Eleanor Williams | - | - | - | - | - | - | - | 4 | - | 5 (5 only) | 4 (2 only) | 12 (10 only) | 8 (1 only) | - |
-| 4 Wheres Maud Gone / Adam Wedge | - | - | 1 (1 only) | - | 1 (1 only) | - | - | 2 | - | 1 (1 only) | 3 (2 only) | 5 (2 only) | 9 (1 only) | - |
-| 5 Mrs Paisley / Danny McMenamin | - | - | - | - | - | 1 (1 only) | - | 4 | 1 (1 only) | 2 (2 only) | 5 (4 only) | 7 (5 only) | 7 (0 only) | - |
+| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 Blue Collar Glory / Craig Nichol | 1 (1 only) | - | 1 (1 only) | - | - | - | 2 (2 only) | 2 | - | 3 (3 only) | 1 (1 only) | 8 (5 only) | 9 (1 only) | 1 (1 only) | - |
+| 2 Bright Sunbird / Tabitha Worsley | - | - | - | - | 1 (1 only) | - | - | 6 | - | 2 (2 only) | 2 (2 only) | 7 (5 only) | 9 (1 only) | - | - |
+| 3 Emorelle / Miss Eleanor Williams | - | - | - | - | - | - | - | 4 | - | 5 (5 only) | 4 (2 only) | 12 (10 only) | 8 (1 only) | - | - |
+| 4 Wheres Maud Gone / Adam Wedge | - | - | 1 (1 only) | - | 1 (1 only) | - | - | 2 | - | 1 (1 only) | 3 (2 only) | 5 (2 only) | 9 (1 only) | - | - |
+| 5 Mrs Paisley / Danny McMenamin | - | - | - | - | - | 1 (1 only) | - | 4 | 1 (1 only) | 2 (2 only) | 5 (4 only) | 7 (5 only) | 7 (0 only) | - | - |
 
-Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer.
+Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
 ## 1 Blue Collar Glory / Craig Nichol
 ### 1 natal pair, same number, both charts
@@ -60,6 +60,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 14 and 140: H Pallas – H Transpluto RA 140.0101 140 whole (24.27) | S Pluto → J Eris Dec 13.9885 14 whole (18.10) — also: 2 Bright Sunbird, 3 Emorelle
 ### 13 one body pair, every layer
 - Haumea – Makemake: digits 18: H Haumea – H Makemake RA 18.0078 18 whole (37.26) | J Haumea – J Makemake RA 18.0197 18 whole (0.02) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 2 Bright Sunbird / Tabitha Worsley
 ### 1 natal pair, same number, both charts
@@ -105,6 +107,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 9 and 90: S Mercury → H Transpluto RA 89.9934 90 whole (45.04) | S Pluto → H Haumea RA 89.9931 90 whole (42.95) | S Sedna → H Chiron Dec 8.9841 9 whole (4.26) | J Mercury – J Ketu RA 90.0145 90 whole (7.52) | J Mercury – J Rahu RA 89.9855 90 whole (7.52) | S Moon → J Haumea Dec 9.0107 9 whole (21.61) — also: 1 Blue Collar Glory, 5 Mrs Paisley
 - 15 and 150: S Jupiter → H Orcus RA 150.0021 150 whole (80.05) | S Juno → J Venus Dec 15.0044 15 whole (61.14) | S Uranus → J Orcus Dec 14.9889 15 whole (19.82) — also: 3 Emorelle, 4 Wheres Maud Gone
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none
 
 ## 3 Emorelle / Miss Eleanor Williams
@@ -161,6 +165,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 15 and 150: S Mercury → H Sedna Dec 14.9895 15 whole (22.69) | S Eris → J Makemake RA 149.9820 150 whole (1.02) — also: 2 Bright Sunbird, 4 Wheres Maud Gone
 ### 13 one body pair, every layer
 - none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 4 Wheres Maud Gone / Adam Wedge
 ### 1 natal pair, same number, both charts
@@ -204,6 +210,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 1 and 10: H Venus – H Ketu Dec 9.9862 10 whole (9.76) | H Haumea – H Sedna Dec 10.0187 10 whole (0.40) | S Gonggong → H Saturn Dec 9.9905 10 whole (27.41) | S Orcus → H Mercury Dec 1.0070 1 whole (42.43) | S Mars → J Sedna Dec 10.0092 10 whole (28.90) — also: 1 Blue Collar Glory, 2 Bright Sunbird, 3 Emorelle, 5 Mrs Paisley
 - 7 and 70: S Mercury → H Ketu RA 69.9944 70 whole (51.75) | S Mars → J Rahu Dec 6.9833 7 whole (2.75) | S Sun → J Mars Dec 7.0150 7 whole (6.13) — also: 5 Mrs Paisley
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none
 
 ## 5 Mrs Paisley / Danny McMenamin
@@ -251,4 +259,6 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 1 and 10: H Sun – H Juno Dec 9.9933 10 whole (44.44) | S Rahu → H Sun Dec 10.0185 10 whole (0.53) | S Venus → H Chiron Dec 0.9914 1 whole (32.72) | J Sun – J Haumea Dec 0.9856 1 whole (7.79) | S Pallas → J Sedna RA 10.0164 10 whole (3.25) — also: 1 Blue Collar Glory, 2 Bright Sunbird, 3 Emorelle, 4 Wheres Maud Gone
 - 2 and 20: H Ketu – H Chiron Dec 20.0131 20 whole (11.81) | S Rahu → H Juno Dec 20.0119 20 whole (16.50) | S Vesta → H Jupiter Dec 1.9984 2 whole (84.82) | S Neptune → J Saturn Dec 19.9948 20 whole (55.06) — also: 1 Blue Collar Glory, 2 Bright Sunbird, 3 Emorelle, 4 Wheres Maud Gone
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none

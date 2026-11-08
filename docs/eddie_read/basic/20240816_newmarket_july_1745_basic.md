@@ -3,19 +3,19 @@
 The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
-| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 Anniversary / Rob Hornby | - | - | 1 (1 only) | - | - | - | - | 3 | - | 5 (5 only) | 8 (1 only) | 8 (3 only) | 9 (0 only) | - |
-| 2 Arabian Poet / William Buick | - | - | - | - | 1 (1 only) | - | 2 (2 only) | 4 | - | 4 (4 only) | 6 (4 only) | 10 (4 only) | 7 (0 only) | - |
-| 3 Double Meaning / Pat Dobbs | - | 1 (0 only) | 2 (2 only) | - | - | - | - | 3 | - | 1 (1 only) | 7 (1 only) | 10 (2 only) | 5 (0 only) | - |
-| 4 King Of Cities / Sean Levey | - | - | 2 (2 only) | - | - | - | - | 5 | - | 2 (1 only) | 8 (4 only) | 10 (2 only) | 8 (0 only) | - |
-| 5 Knights Gold / Marco Ghiani | - | 2 (2 only) | - | - | - | - | - | 5 | - | 1 (1 only) | 4 (1 only) | 9 (2 only) | 8 (0 only) | 1 (1 only) |
-| 6 Scandinavia / Tom Marquand | - | - | - | - | - | - | 3 (3 only) | 1 | 3 (3 only) | 2 (2 only) | 7 (3 only) | 8 (4 only) | 9 (0 only) | - |
-| 7 Sedate / Joshua Bryan | - | - | 1 (1 only) | - | - | - | - | 3 | - | 1 (1 only) | 12 (7 only) | 13 (7 only) | 8 (0 only) | - |
-| 8 Vecu / Robert Havlin | - | - | 1 (1 only) | - | - | - | 2 (2 only) | 3 | - | 4 (4 only) | 4 (1 only) | 7 (4 only) | 4 (0 only) | - |
-| 9 Big Gypsy King / Neil Callan | - | 1 (0 only) | - | - | - | - | 2 (2 only) | 2 | - | 5 (3 only) | 5 (0 only) | 9 (3 only) | 7 (0 only) | 2 (2 only) |
+| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 Anniversary / Rob Hornby | - | - | 1 (1 only) | - | - | - | - | 3 | - | 5 (5 only) | 8 (1 only) | 8 (3 only) | 9 (0 only) | - | - |
+| 2 Arabian Poet / William Buick | - | - | - | - | 1 (1 only) | - | 2 (2 only) | 4 | - | 4 (4 only) | 6 (4 only) | 10 (4 only) | 7 (0 only) | - | - |
+| 3 Double Meaning / Pat Dobbs | - | 1 (0 only) | 2 (2 only) | - | - | - | - | 3 | - | 1 (1 only) | 7 (1 only) | 10 (2 only) | 5 (0 only) | - | - |
+| 4 King Of Cities / Sean Levey | - | - | 2 (2 only) | - | - | - | - | 5 | - | 2 (1 only) | 8 (4 only) | 10 (2 only) | 8 (0 only) | - | - |
+| 5 Knights Gold / Marco Ghiani | - | 2 (2 only) | - | - | - | - | - | 5 | - | 1 (1 only) | 4 (1 only) | 9 (2 only) | 8 (0 only) | 1 (1 only) | - |
+| 6 Scandinavia / Tom Marquand | - | - | - | - | - | - | 3 (3 only) | 1 | 3 (3 only) | 2 (2 only) | 7 (3 only) | 8 (4 only) | 9 (0 only) | - | - |
+| 7 Sedate / Joshua Bryan | - | - | 1 (1 only) | - | - | - | - | 3 | - | 1 (1 only) | 12 (7 only) | 13 (7 only) | 8 (0 only) | - | - |
+| 8 Vecu / Robert Havlin | - | - | 1 (1 only) | - | - | - | 2 (2 only) | 3 | - | 4 (4 only) | 4 (1 only) | 7 (4 only) | 4 (0 only) | - | - |
+| 9 Big Gypsy King / Neil Callan | - | 1 (0 only) | - | - | - | - | 2 (2 only) | 2 | - | 5 (3 only) | 5 (0 only) | 9 (3 only) | 7 (0 only) | 2 (2 only) | - |
 
-Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer.
+Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
 ## 1 Anniversary / Rob Hornby
 ### 1 natal pair, same number, both charts
@@ -72,6 +72,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 1 and 10: S Gonggong → J Uranus Dec 10.0076 10 whole (38.25) | S Haumea → J Transpluto Dec 0.9931 1 whole (43.11) — also: 2 Arabian Poet, 4 King Of Cities, 6 Scandinavia, 7 Sedate, 8 Vecu, 9 Big Gypsy King
 ### 13 one body pair, every layer
 - none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 2 Arabian Poet / William Buick
 ### 1 natal pair, same number, both charts
@@ -126,6 +128,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 13 and 130: S Makemake → J Gonggong RA 130.0089 130 whole (30.84) | S Sun → J Pluto Dec 13.0024 13 whole (77.37) | S Transpluto → J Haumea Dec 13.0076 13 whole (38.47) — also: 3 Double Meaning, 6 Scandinavia
 ### 13 one body pair, every layer
 - none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 3 Double Meaning / Pat Dobbs
 ### 1 natal pair, same number, both charts
@@ -175,6 +179,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 4 and 40: H Vesta – H Quaoar Dec 4.0033 4 whole (69.32) | S Pluto → H Vesta Dec 4.0049 4 whole (57.19) | S Transpluto → H Chiron Dec 4.0188 4 whole (0.34) | J Venus – J Haumea Dec 39.9910 40 whole (30.04) — also: 4 King Of Cities, 5 Knights Gold, 6 Scandinavia, 7 Sedate
 - 13 and 130: S Juno → H Mercury Dec 12.9977 13 whole (78.62) | S Saturn → J Mars RA 129.9844 130 whole (4.77) — also: 2 Arabian Poet, 6 Scandinavia
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none
 
 ## 4 King Of Cities / Sean Levey
@@ -231,6 +237,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 10 and 100: S Ceres → J Juno RA 99.9890 100 whole (20.14) | S Vesta → J Vesta Dec 10.0012 10 whole (88.14) — also: 9 Big Gypsy King
 ### 13 one body pair, every layer
 - none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 5 Knights Gold / Marco Ghiani
 ### 1 natal pair, same number, both charts
@@ -280,6 +288,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 4 and 40: J Eris – J Makemake Dec 39.9962 40 whole (65.54) | S Mars → J Uranus Dec 40.0006 40 whole (94.29) | S Mars → J Gonggong Dec 39.9911 40 whole (30.88) | S Pluto → J Neptune Dec 4.0092 4 whole (29.37) — also: 3 Double Meaning, 4 King Of Cities, 6 Scandinavia, 7 Sedate
 ### 13 one body pair, every layer
 - Chiron – Sedna: digits 5: S Sedna → H Chiron RA 50.0039 50 whole (64.93) | S Chiron → J Sedna Dec 4.9905 5 whole (27.80) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 6 Scandinavia / Tom Marquand
 ### 1 natal pair, same number, both charts
@@ -335,6 +345,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 15 and 150: S Eris → J Makemake RA 150.0051 150 whole (55.42) | S Ketu → J Uranus Dec 15.0017 15 whole (83.45) | S Neptune → J Transpluto Dec 15.0099 15 whole (25.50) | S Haumea → J Orcus Dec 14.9826 15 whole (1.67) — also: 1 Anniversary, 7 Sedate
 - 3 and 30: S Jupiter → J Sedna RA 30.0143 30 whole (8.21) | S Rahu → J Orcus Dec 3.0002 3 whole (97.84) — also: 1 Anniversary, 2 Arabian Poet, 3 Double Meaning, 4 King Of Cities, 5 Knights Gold, 7 Sedate, 8 Vecu, 9 Big Gypsy King
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none
 
 ## 7 Sedate / Joshua Bryan
@@ -396,6 +408,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 4 and 40: S Pallas → H Mars Dec 40.0022 40 whole (78.85) | J Mars – J Haumea Dec 40.0125 40 whole (13.89) | S Pallas → J Chiron RA 3.9949 4 whole (55.87) | S Pluto → J Neptune Dec 3.9998 4 whole (98.09) — also: 3 Double Meaning, 4 King Of Cities, 5 Knights Gold, 6 Scandinavia
 ### 13 one body pair, every layer
 - none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 8 Vecu / Robert Havlin
 ### 1 natal pair, same number, both charts
@@ -441,6 +455,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 14 and 140: S Ketu → H Venus Dec 14.0081 14 whole (35.16) | J Vesta – J Gonggong RA 140.0197 140 whole (0.02) | S Sedna → J Ceres RA 140.0094 140 whole (28.32) — also: 1 Anniversary, 2 Arabian Poet, 5 Knights Gold, 6 Scandinavia
 - 1 and 10: H Sun – H Venus Dec 9.9973 10 whole (74.88) | S Juno → H Sun Dec 10.0089 10 whole (31.08) | S Orcus → H Gonggong Dec 1.0010 1 whole (90.00) | S Sedna → H Eris Dec 9.9973 10 whole (74.80) | S Chiron → J Eris RA 1.0038 1 whole (65.76) | S Jupiter → J Orcus Dec 10.0133 10 whole (11.21) — also: 1 Anniversary, 2 Arabian Poet, 4 King Of Cities, 6 Scandinavia, 7 Sedate, 9 Big Gypsy King
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none
 
 ## 9 Big Gypsy King / Neil Callan
@@ -496,3 +512,5 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 13 one body pair, every layer
 - Mercury – Juno: digits 17: H Mercury – H Juno Dec 16.9955 17 whole (59.88) | S Juno → J Mercury Dec 16.9909 17 whole (29.67) — only
 - Uranus – Neptune: digits 6: S Uranus → H Neptune RA 60.0029 60 whole (72.77) | J Uranus – J Neptune Dec 5.9898 6 whole (24.02) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none

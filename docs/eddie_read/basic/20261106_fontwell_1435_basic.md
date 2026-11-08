@@ -3,18 +3,18 @@
 The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
-| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 Fire Flyer / Richie McLernon | 1 (1 only) | - | 1 (1 only) | - | 1 (1 only) | - | - | 2 | - | 2 (2 only) | 4 (3 only) | 9 (4 only) | 4 (0 only) | - |
-| 2 Lynx De Thaix / Gavin Sheehan | - | - | 1 (1 only) | - | - | - | - | 6 | - | 4 (4 only) | 5 (3 only) | 10 (4 only) | 8 (1 only) | - |
-| 3 Donnie Azoff / Isabelle Ryder | 1 (1 only) | 1 (1 only) | 1 (1 only) | - | - | - | - | 2 | - | 4 (4 only) | 5 (3 only) | 5 (3 only) | 7 (2 only) | - |
-| 4 Paso Doble / Paddy Hanlon | - | - | - | - | - | - | - | 0 | - | 2 (2 only) | 1 (0 only) | 3 (3 only) | 4 (0 only) | - |
-| 5 He's A Latchico / Caoilin Quinn | - | 1 (1 only) | 1 (1 only) | - | - | - | - | 5 | - | - | 6 (4 only) | 12 (9 only) | 5 (0 only) | - |
-| 6 So You Know / Tom Bellamy | - | 1 (1 only) | 1 (1 only) | - | - | - | 1 (1 only) | 4 | - | 4 (4 only) | 5 (4 only) | 7 (3 only) | 11 (1 only) | - |
-| 7 Motazzen / Paul O'Brien | - | - | - | - | - | - | - | 5 | - | 3 (3 only) | 3 (0 only) | 9 (4 only) | 7 (1 only) | - |
-| 8 The Bellhop / Freddie Mitchell | - | - | - | - | - | - | - | 5 | - | 2 (2 only) | 9 (5 only) | 9 (4 only) | 5 (0 only) | 1 (1 only) |
+| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 Fire Flyer / Richie McLernon | 1 (1 only) | - | 1 (1 only) | - | 1 (1 only) | - | - | 2 | - | 2 (2 only) | 4 (3 only) | 9 (4 only) | 4 (0 only) | - | - |
+| 2 Lynx De Thaix / Gavin Sheehan | - | - | 1 (1 only) | - | - | - | - | 6 | - | 4 (4 only) | 5 (3 only) | 10 (4 only) | 8 (1 only) | - | - |
+| 3 Donnie Azoff / Isabelle Ryder | 1 (1 only) | 1 (1 only) | 1 (1 only) | - | - | - | - | 2 | - | 4 (4 only) | 5 (3 only) | 5 (3 only) | 7 (2 only) | - | - |
+| 4 Paso Doble / Paddy Hanlon | - | - | - | - | - | - | - | 0 | - | 2 (2 only) | 1 (0 only) | 3 (3 only) | 4 (0 only) | - | - |
+| 5 He's A Latchico / Caoilin Quinn | - | 1 (1 only) | 1 (1 only) | - | - | - | - | 5 | - | - | 6 (4 only) | 12 (9 only) | 5 (0 only) | - | - |
+| 6 So You Know / Tom Bellamy | - | 1 (1 only) | 1 (1 only) | - | - | - | 1 (1 only) | 4 | - | 4 (4 only) | 5 (4 only) | 7 (3 only) | 11 (1 only) | - | - |
+| 7 Motazzen / Paul O'Brien | - | - | - | - | - | - | - | 5 | - | 3 (3 only) | 3 (0 only) | 9 (4 only) | 7 (1 only) | - | - |
+| 8 The Bellhop / Freddie Mitchell | - | - | - | - | - | - | - | 5 | - | 2 (2 only) | 9 (5 only) | 9 (4 only) | 5 (0 only) | 1 (1 only) | - |
 
-Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer.
+Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
 ## 1 Fire Flyer / Richie McLernon
 ### 1 natal pair, same number, both charts
@@ -59,6 +59,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 5 and 50: S Makemake → H Orcus RA 49.9824 50 whole (1.41) | S Mars → H Sun Dec 4.9996 5 whole (96.52) | S Sedna → H Chiron Dec 5.0008 5 whole (92.37) | S Transpluto → H Juno Dec 4.9903 5 whole (26.77) | J Sun – J Juno RA 50.0063 50 whole (46.94) | J Chiron – J Haumea Dec 5.0073 5 whole (40.46) | J Jupiter – J Quaoar Dec 4.9933 5 whole (43.94) | S Ketu → J Transpluto RA 4.9865 5 whole (10.55) — also: 5 He's A Latchico, 6 So You Know, 7 Motazzen
 - 1 and 10: S Saturn → H Pallas Dec 0.9947 1 whole (54.01) | S Ketu → J Haumea Dec 9.9819 10 whole (0.86) — also: 2 Lynx De Thaix, 3 Donnie Azoff, 4 Paso Doble, 6 So You Know, 8 The Bellhop
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none
 
 ## 2 Lynx De Thaix / Gavin Sheehan
@@ -113,6 +115,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 2 and 20: S Transpluto → J Vesta RA 20.0076 20 whole (38.40) | S Mars → J Transpluto Dec 2.0011 2 whole (88.95) | S Mercury → J Saturn Dec 2.0170 2 whole (2.29) — also: 3 Donnie Azoff, 4 Paso Doble, 6 So You Know, 7 Motazzen, 8 The Bellhop
 ### 13 one body pair, every layer
 - none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 3 Donnie Azoff / Isabelle Ryder
 ### 1 natal pair, same number, both charts
@@ -160,6 +164,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 12 and 120: S Ketu → H Quaoar RA 119.9915 120 whole (32.87) | S Gonggong → H Chiron Dec 12.0132 12 whole (11.50) | S Saturn → J Transpluto Dec 12.0176 12 whole (1.38) — only
 ### 13 one body pair, every layer
 - none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 4 Paso Doble / Paddy Hanlon
 ### 1 natal pair, same number, both charts
@@ -195,6 +201,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 1 and 10: S Makemake → H Haumea RA 9.9893 10 whole (21.76) | S Moon → H Juno Dec 1.0156 1 whole (4.83) | S Gonggong → H Orcus Dec 0.9964 1 whole (67.26) — also: 1 Fire Flyer, 2 Lynx De Thaix, 3 Donnie Azoff, 6 So You Know, 8 The Bellhop
 - 2 and 20: H Uranus – H Ketu Dec 19.9805 20 whole (0.07) | S Chiron → H Orcus Dec 19.9972 20 whole (74.07) | S Venus → H Sedna Dec 20.0059 20 whole (49.75) | S Gonggong → H Gonggong Dec 2.0149 2 whole (6.47) — also: 2 Lynx De Thaix, 3 Donnie Azoff, 6 So You Know, 7 Motazzen, 8 The Bellhop
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none
 
 ## 5 He's A Latchico / Caoilin Quinn
@@ -245,6 +253,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 9 and 90: H Rahu – H Sedna Dec 9.0058 9 whole (50.46) | S Ketu → H Pallas RA 90.0200 90 whole (0.00) | S Rahu → H Pallas RA 89.9800 90 whole (0.00) | S Mercury → J Ketu Dec 9.0019 9 whole (82.20) | S Pluto → J Quaoar Dec 8.9855 9 whole (7.54) — also: 1 Fire Flyer, 6 So You Know, 7 Motazzen, 8 The Bellhop
 - 17 and 170: H Eris – H Makemake RA 169.9992 170 whole (92.12) | S Eris → H Haumea Dec 16.9940 17 whole (49.02) | J Ketu – J Eris Dec 16.9949 17 whole (55.46) — also: 2 Lynx De Thaix, 6 So You Know
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none
 
 ## 6 So You Know / Tom Bellamy
@@ -299,6 +309,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 14 and 140: S Pallas → H Orcus RA 140.0162 140 whole (3.63) | J Venus – J Pluto Dec 13.9982 14 whole (83.16) — also: 1 Fire Flyer
 ### 13 one body pair, every layer
 - none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 7 Motazzen / Paul O'Brien
 ### 1 natal pair, same number, both charts
@@ -346,6 +358,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 3 and 30: H Sun – H Ketu RA 30.0154 30 whole (5.33) | H Ceres – H Chiron Dec 30.0141 30 whole (8.70) | S Jupiter → H Transpluto Dec 2.9900 3 whole (25.23) | J Sun – J Mercury Dec 2.9889 3 whole (19.95) | S Uranus → J Eris Dec 29.9857 30 whole (8.20) | S Orcus → J Mars Dec 2.9975 3 whole (76.81) — also: 2 Lynx De Thaix, 4 Paso Doble, 5 He's A Latchico, 6 So You Know
 - 16 and 160: H Pallas – H Haumea RA 160.0003 160 whole (97.03) | S Mars → H Ceres Dec 15.9839 16 whole (3.84) | S Orcus → H Chiron Dec 16.0006 16 whole (94.56) | S Sedna → H Neptune Dec 15.9952 16 whole (57.59) — also: 2 Lynx De Thaix, 3 Donnie Azoff, 6 So You Know
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none
 
 ## 8 The Bellhop / Freddie Mitchell
@@ -398,3 +412,5 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 6 and 60: H Gonggong – H Quaoar RA 60.0077 60 whole (37.85) | S Vesta → J Orcus Dec 5.9848 6 whole (5.69) | S Gonggong → J Mercury Dec 5.9824 6 whole (1.49) — also: 3 Donnie Azoff, 5 He's A Latchico
 ### 13 one body pair, every layer
 - Neptune – Pallas: digits 1: S Neptune → H Pallas RA 0.9948 1 whole (54.46) | S Pallas → J Neptune Dec 1.0022 1 whole (78.79) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none

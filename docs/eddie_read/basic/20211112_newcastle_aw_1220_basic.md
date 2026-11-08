@@ -3,16 +3,16 @@
 The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
-| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 Further Measure / Tom Marquand | 1 (1 only) | - | - | - | - | - | - | 3 | - | 2 (2 only) | 5 (3 only) | 8 (6 only) | 5 (0 only) | - |
-| 2 Sir Chauvelin / Paul Mulrennan | 1 (1 only) | - | - | - | - | - | - | 4 | - | - | 5 (3 only) | 5 (2 only) | 8 (2 only) | 2 (2 only) |
-| 3 Dreams Unwind / Joe Fanning | - | - | 1 (1 only) | - | - | - | 1 (1 only) | 3 | - | 3 (3 only) | 4 (2 only) | 8 (4 only) | 11 (1 only) | 2 (2 only) |
-| 4 Greengage / Jason Hart | - | - | - | - | - | - | 2 (2 only) | 4 | 1 (1 only) | 3 (3 only) | 4 (3 only) | 12 (8 only) | 7 (0 only) | - |
-| 6 Cuban Hope / Ellie MacKenzie | - | - | 2 (2 only) | - | - | - | 1 (1 only) | 5 | 1 (1 only) | 5 (5 only) | 5 (2 only) | 13 (8 only) | 4 (0 only) | 1 (1 only) |
-| 7 Buxted Too / David Egan | - | 1 (1 only) | 2 (2 only) | - | - | - | 1 (1 only) | 7 | - | 2 (2 only) | 5 (3 only) | 10 (7 only) | 9 (0 only) | 1 (1 only) |
+| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 Further Measure / Tom Marquand | 1 (1 only) | - | - | - | - | - | - | 3 | - | 2 (2 only) | 5 (3 only) | 8 (6 only) | 5 (0 only) | - | - |
+| 2 Sir Chauvelin / Paul Mulrennan | 1 (1 only) | - | - | - | - | - | - | 4 | - | - | 5 (3 only) | 5 (2 only) | 8 (2 only) | 2 (2 only) | - |
+| 3 Dreams Unwind / Joe Fanning | - | - | 1 (1 only) | - | - | - | 1 (1 only) | 3 | - | 3 (3 only) | 4 (2 only) | 8 (4 only) | 11 (1 only) | 2 (2 only) | - |
+| 4 Greengage / Jason Hart | - | - | - | - | - | - | 2 (2 only) | 4 | 1 (1 only) | 3 (3 only) | 4 (3 only) | 12 (8 only) | 7 (0 only) | - | - |
+| 6 Cuban Hope / Ellie MacKenzie | - | - | 2 (2 only) | - | - | - | 1 (1 only) | 5 | 1 (1 only) | 5 (5 only) | 5 (2 only) | 13 (8 only) | 4 (0 only) | 1 (1 only) | - |
+| 7 Buxted Too / David Egan | - | 1 (1 only) | 2 (2 only) | - | - | - | 1 (1 only) | 7 | - | 2 (2 only) | 5 (3 only) | 10 (7 only) | 9 (0 only) | 1 (1 only) | - |
 
-Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer.
+Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
 ## 1 Further Measure / Tom Marquand
 ### 1 natal pair, same number, both charts
@@ -58,6 +58,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 1 and 10: H Mars – H Uranus Dec 10.0092 10 whole (29.32) | S Juno → J Venus Dec 1.0009 1 whole (90.74) | S Moon → J Chiron Dec 1.0028 1 whole (74.24) | S Neptune → J Sedna Dec 9.9883 10 whole (17.32) | S Vesta → J Chiron Dec 0.9843 1 whole (4.56) — also: 3 Dreams Unwind, 4 Greengage, 6 Cuban Hope, 7 Buxted Too
 - 3 and 30: H Uranus – H Pluto Dec 29.9892 30 whole (21.35) | S Chiron → J Pallas RA 30.0028 30 whole (73.71) | S Mercury → J Pluto RA 29.9808 30 whole (0.16) | S Jupiter → J Uranus Dec 2.9838 3 whole (3.59) | S Quaoar → J Venus Dec 2.9905 3 whole (27.56) — also: 2 Sir Chauvelin, 3 Dreams Unwind, 4 Greengage, 6 Cuban Hope, 7 Buxted Too
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none
 
 ## 2 Sir Chauvelin / Paul Mulrennan
@@ -105,6 +107,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 13 one body pair, every layer
 - Mars – Vesta: digits 13: H Mars – H Vesta Dec 12.9886 13 whole (18.64) | S Mars → H Vesta Dec 13.0007 13 whole (93.11) — only
 - Ceres – Vesta: digits 8: J Ceres – J Vesta RA 79.9995 80 whole (94.64) | J Ceres – J Vesta Dec 7.9821 8 whole (1.13) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 3 Dreams Unwind / Joe Fanning
 ### 1 natal pair, same number, both charts
@@ -158,6 +162,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 13 one body pair, every layer
 - Mercury – Juno: digits 7: H Mercury – H Juno Dec 6.9932 7 whole (43.68) | S Mercury → H Juno Dec 6.9814 7 whole (0.48) — only
 - Saturn – Sedna: digits 8: S Sedna → J Saturn RA 8.0134 8 whole (10.74) | S Sedna → J Saturn Dec 8.0029 8 whole (73.24) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 4 Greengage / Jason Hart
 ### 1 natal pair, same number, both charts
@@ -210,6 +216,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 17 and 170: S Jupiter → H Jupiter RA 169.9843 170 whole (4.54) | S Sun → H Chiron Dec 16.9860 17 whole (9.08) | S Gonggong → H Uranus Dec 17.0017 17 whole (83.44) | J Haumea – J Sedna Dec 17.0196 17 whole (0.04) | S Pluto → J Juno Dec 17.0074 17 whole (39.65) | S Quaoar → J Orcus Dec 16.9922 17 whole (37.10) — also: 2 Sir Chauvelin
 - 3 and 30: J Eris – J Haumea Dec 29.9922 30 whole (37.41) | S Eris → J Eris RA 3.0006 3 whole (94.23) | S Juno → J Rahu Dec 2.9856 3 whole (7.73) | S Pallas → J Mercury Dec 2.9881 3 whole (16.42) — also: 1 Further Measure, 2 Sir Chauvelin, 3 Dreams Unwind, 6 Cuban Hope, 7 Buxted Too
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none
 
 ## 6 Cuban Hope / Ellie MacKenzie
@@ -265,6 +273,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 5 and 50: H Ceres – H Eris RA 49.9895 50 whole (22.35) | S Sedna → H Rahu Dec 5.0187 5 whole (0.40) | J Uranus – J Vesta RA 5.0080 5 whole (36.20) | J Pallas – J Juno Dec 4.9959 5 whole (63.21) | J Gonggong – J Quaoar Dec 4.9842 5 whole (4.34) | S Eris → J Pallas Dec 5.0176 5 whole (1.44) | S Venus → J Ketu Dec 50.0022 50 whole (79.10) | S Quaoar → J Vesta Dec 5.0027 5 whole (74.42) — also: 3 Dreams Unwind, 4 Greengage, 7 Buxted Too
 ### 13 one body pair, every layer
 - Mars – Ketu: 86×φ golden: S Ketu → J Mars RA 139.1329 86×φ golden (19.68) | S Mars → J Ketu RA 139.1457 86×φ golden (70.38) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 7 Buxted Too / David Egan
 ### 1 natal pair, same number, both charts
@@ -318,3 +328,5 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 14 and 140: J Saturn – J Orcus Dec 14.0020 14 whole (80.61) | S Sun → J Sun RA 139.9940 140 whole (49.26) — also: 2 Sir Chauvelin, 3 Dreams Unwind, 4 Greengage
 ### 13 one body pair, every layer
 - Moon – Orcus: digits 16: S Moon → J Orcus RA 160.0010 160 whole (90.54) | S Moon → J Orcus Dec 15.9964 16 whole (67.24) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none

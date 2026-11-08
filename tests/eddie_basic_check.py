@@ -50,6 +50,14 @@ check(has(11, 'H Mars – H Gonggong RA 110.9048', 'S Transpluto → J Ketu RA 1
 check(has(12, 'H Jupiter – H Saturn RA 79.9872 80', 'S Jupiter → H Saturn Dec 8.0020'), '12 8 and 80')
 check(has(13, 'Jupiter – Saturn: digits 8', 'H Jupiter – H Saturn RA 79.9872', 'S Jupiter → J Saturn RA 8.0193', field='only'), '13 Jupiter-Saturn 8')
 
+check(not any(it['check'] == 14 for c in per for it in per[c]), '14 none in Newcastle at >= 50')
+_, pl = EB.run(os.path.join(ROOT, 'reference/classic/race_batch_20210402_lingfield_aw_1435_active.xlsx'))
+c14 = [(c, ' | '.join(it['cells']), it['field']) for c in pl for it in pl[c] if it['check'] == 14]
+check(len(c14) == 1 and c14[0][0] == 5 and 'H Jupiter – H Uranus Dec 14.4459 14.4444 ninth (98.46)' in c14[0][1]
+      and 'S Jupiter → H Chiron Dec 14.4461 14.4444 ninth (98.21)' in c14[0][1] and c14[0][2] == 'only', f'14 Pholas only {c14}')
+c5 = sorted(c for c in pl for it in pl[c] if it['check'] == 5)
+check(c5 == [1, 5], f'5 Lingfield swaps Arafi, Pholas {c5}')
+
 # own reader: every body cell of every _active.xlsx = the tool's cell set
 BOD = set(EB.BODIES)
 for path in sorted(glob.glob(os.path.join(ROOT, 'reference/classic/*_active.xlsx'))):

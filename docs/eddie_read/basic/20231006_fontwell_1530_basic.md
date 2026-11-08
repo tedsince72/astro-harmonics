@@ -3,17 +3,17 @@
 The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
-| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 Biscoff Joe / Gearoid Harney | - | 1 (1 only) | - | - | - | - | 1 (1 only) | 2 | - | 4 (3 only) | 5 (0 only) | 9 (7 only) | 6 (1 only) | 2 (2 only) |
-| 2 Cosmic View / Jamie Moore | - | - | 1 (1 only) | - | - | - | - | 4 | - | 4 (4 only) | 7 (5 only) | 8 (4 only) | 11 (0 only) | - |
-| 3 Kilcummin / David Noonan | - | - | 1 (1 only) | - | - | - | - | 5 | - | 5 (5 only) | 7 (3 only) | 13 (5 only) | 8 (0 only) | - |
-| 4 Logistical / Stan Sheppard | - | - | 1 (1 only) | 1 (1 only) | - | - | - | 2 | - | 1 (1 only) | 2 (1 only) | 12 (5 only) | 6 (1 only) | - |
-| 5 Makanao / Jack Tudor | - | - | 1 (1 only) | - | - | - | 1 (1 only) | 3 | - | 4 (4 only) | 7 (6 only) | 11 (3 only) | 5 (1 only) | 1 (1 only) |
-| 6 Pigeonton / Micheal Nolan | - | 1 (1 only) | - | - | - | - | - | 4 | - | 2 (1 only) | 7 (2 only) | 8 (3 only) | 8 (0 only) | - |
-| 7 Vale Dolobo Dancer / Jack Hogan | - | - | - | - | - | - | 1 (1 only) | 4 | - | 2 (1 only) | 5 (4 only) | 9 (4 only) | 8 (0 only) | - |
+| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 Biscoff Joe / Gearoid Harney | - | 1 (1 only) | - | - | - | - | 1 (1 only) | 2 | - | 4 (3 only) | 5 (0 only) | 9 (7 only) | 6 (1 only) | 2 (2 only) | - |
+| 2 Cosmic View / Jamie Moore | - | - | 1 (1 only) | - | - | - | - | 4 | - | 4 (4 only) | 7 (5 only) | 8 (4 only) | 11 (0 only) | - | - |
+| 3 Kilcummin / David Noonan | - | - | 1 (1 only) | - | - | - | - | 5 | - | 5 (5 only) | 7 (3 only) | 13 (5 only) | 8 (0 only) | - | - |
+| 4 Logistical / Stan Sheppard | - | - | 1 (1 only) | 1 (1 only) | - | - | - | 2 | - | 1 (1 only) | 2 (1 only) | 12 (5 only) | 6 (1 only) | - | - |
+| 5 Makanao / Jack Tudor | - | - | 1 (1 only) | - | - | - | 1 (1 only) | 3 | - | 4 (4 only) | 7 (6 only) | 11 (3 only) | 5 (1 only) | 1 (1 only) | - |
+| 6 Pigeonton / Micheal Nolan | - | 1 (1 only) | - | - | - | - | - | 4 | - | 2 (1 only) | 7 (2 only) | 8 (3 only) | 8 (0 only) | - | - |
+| 7 Vale Dolobo Dancer / Jack Hogan | - | - | - | - | - | - | 1 (1 only) | 4 | - | 2 (1 only) | 5 (4 only) | 9 (4 only) | 8 (0 only) | - | - |
 
-Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer.
+Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
 ## 1 Biscoff Joe / Gearoid Harney
 ### 1 natal pair, same number, both charts
@@ -65,6 +65,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 13 one body pair, every layer
 - Sun – Pluto: digits 17: S Sun → H Pluto Dec 17.0185 17 whole (0.53) | J Sun – J Pluto Dec 17.0005 17 whole (95.34) — only
 - Neptune – Ceres: digits 28: J Neptune – J Ceres RA 27.9800 28 whole (0.00) | S Neptune → J Ceres Dec 28.0155 28 whole (5.06) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 2 Cosmic View / Jamie Moore
 ### 1 natal pair, same number, both charts
@@ -120,6 +122,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 12 and 120: H Quaoar – H Transpluto RA 120.0173 120 whole (1.83) | S Transpluto → H Eris Dec 12.0188 12 whole (0.34) | J Uranus – J Eris Dec 12.0071 12 whole (41.77) — also: 6 Pigeonton
 - 15 and 150: S Moon → J Sun RA 150.0173 150 whole (1.76) | S Makemake → J Orcus Dec 14.9852 15 whole (6.65) — also: 6 Pigeonton
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none
 
 ## 3 Kilcummin / David Noonan
@@ -180,6 +184,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 4 and 40: J Makemake – J Orcus RA 39.9823 40 whole (1.38) | J Mercury – J Makemake Dec 40.0136 40 whole (10.19) | S Juno → J Ketu Dec 4.0187 4 whole (0.39) | S Mercury → J Sedna Dec 4.0114 4 whole (18.40) | S Neptune → J Ceres Dec 3.9915 4 whole (33.26) | S Vesta → J Neptune Dec 40.0111 40 whole (19.86) — also: 1 Biscoff Joe, 6 Pigeonton, 7 Vale Dolobo Dancer
 ### 13 one body pair, every layer
 - none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 4 Logistical / Stan Sheppard
 ### 1 natal pair, same number, both charts
@@ -226,6 +232,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 1 and 10: H Vesta – H Makemake Dec 10.0081 10 whole (35.68) | S Chiron → H Eris RA 10.0199 10 whole (0.00) | S Ceres → H Orcus Dec 1.0024 1 whole (77.11) | S Saturn → H Gonggong Dec 1.0058 1 whole (50.54) | J Rahu – J Sedna Dec 1.0080 1 whole (35.76) | S Eris → J Orcus Dec 0.9858 1 whole (8.32) | S Mars → J Pluto Dec 1.0052 1 whole (54.96) | S Mercury → J Pallas Dec 9.9926 10 whole (39.75) | S Mercury → J Vesta Dec 0.9982 1 whole (83.09) | S Sun → J Ketu Dec 0.9880 1 whole (16.06) | S Quaoar → J Quaoar Dec 0.9954 1 whole (58.92) — also: 1 Biscoff Joe, 2 Cosmic View, 3 Kilcummin, 5 Makanao, 6 Pigeonton, 7 Vale Dolobo Dancer
 - 1 and 100: S Ceres → H Orcus Dec 1.0024 1 whole (77.11) | S Saturn → H Gonggong Dec 1.0058 1 whole (50.54) | J Rahu – J Sedna Dec 1.0080 1 whole (35.76) | S Makemake → J Neptune RA 99.9836 100 whole (3.19) | S Eris → J Orcus Dec 0.9858 1 whole (8.32) | S Mars → J Pluto Dec 1.0052 1 whole (54.96) | S Mercury → J Vesta Dec 0.9982 1 whole (83.09) | S Sun → J Ketu Dec 0.9880 1 whole (16.06) | S Quaoar → J Quaoar Dec 0.9954 1 whole (58.92) — also: 1 Biscoff Joe, 2 Cosmic View, 3 Kilcummin, 5 Makanao, 6 Pigeonton, 7 Vale Dolobo Dancer
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none
 
 ## 5 Makanao / Jack Tudor
@@ -280,6 +288,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 16 and 160: S Chiron → H Haumea RA 160.0100 160 whole (24.98) | S Venus → H Sun RA 159.9847 160 whole (5.42) | S Neptune → J Transpluto Dec 15.9839 16 whole (3.72) — also: 1 Biscoff Joe
 ### 13 one body pair, every layer
 - Haumea – Transpluto: digits 6: S Transpluto → H Haumea RA 59.9961 60 whole (64.86) | S Transpluto → H Haumea Dec 5.9819 6 whole (0.89) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 6 Pigeonton / Micheal Nolan
 ### 1 natal pair, same number, both charts
@@ -331,6 +341,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 1 and 10: H Eris – H Gonggong Dec 9.9961 10 whole (64.42) | S Chiron → H Chiron RA 10.0087 10 whole (31.94) | J Ketu – J Haumea Dec 10.0129 10 whole (12.56) | J Venus – J Juno Dec 1.0120 1 whole (15.89) | S Chiron → J Mercury Dec 1.0025 1 whole (76.14) | S Neptune → J Quaoar Dec 10.0035 10 whole (67.71) | S Pallas → J Sedna Dec 0.9953 1 whole (58.88) — also: 1 Biscoff Joe, 2 Cosmic View, 3 Kilcummin, 4 Logistical, 5 Makanao, 7 Vale Dolobo Dancer
 ### 13 one body pair, every layer
 - none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 7 Vale Dolobo Dancer / Jack Hogan
 ### 1 natal pair, same number, both charts
@@ -380,4 +392,6 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 3 and 30: S Sedna → H Chiron Dec 3.0173 3 whole (1.87) | S Orcus → J Vesta Dec 29.9981 30 whole (82.30) — also: 1 Biscoff Joe, 2 Cosmic View, 3 Kilcummin, 4 Logistical, 6 Pigeonton
 - 11 and 110: S Juno → H Uranus RA 109.9956 110 whole (60.58) | S Chiron → J Jupiter RA 10.9898 11 whole (24.23) | S Chiron → J Venus Dec 10.9879 11 whole (15.72) — also: 3 Kilcummin, 6 Pigeonton
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none

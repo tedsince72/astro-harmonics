@@ -3,16 +3,16 @@
 The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
-| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 Arafi / Sean Levey | - | 2 (0 only) | 3 (3 only) | - | - | 1 (1 only) | - | 7 | - | 3 (3 only) | 5 (4 only) | 10 (5 only) | 4 (0 only) | 1 (1 only) |
-| 2 Fizzy Feet / Rossa Ryan | - | - | 1 (1 only) | - | - | - | - | 4 | - | - | 9 (5 only) | 11 (5 only) | 7 (1 only) | 1 (1 only) |
-| 3 Indie Angel / Martin Harley | - | 2 (0 only) | - | - | - | - | 1 (1 only) | 1 | - | 2 (2 only) | 2 (2 only) | 11 (6 only) | 6 (1 only) | - |
-| 4 Nirodha / Silvestre De Sousa | - | - | 1 (1 only) | - | 1 (1 only) | - | 1 (1 only) | 7 | - | 2 (2 only) | 7 (3 only) | 10 (7 only) | 6 (3 only) | - |
-| 5 Pholas / Hollie Doyle | - | - | 1 (1 only) | - | - | 1 (1 only) | - | 6 | - | 3 (3 only) | 7 (7 only) | 9 (1 only) | 6 (0 only) | - |
-| 6 Shimmering Dawn / James Doyle | - | - | - | - | - | - | - | 1 | 3 (3 only) | 2 (2 only) | 3 (2 only) | 11 (3 only) | 5 (0 only) | - |
+| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 Arafi / Sean Levey | - | 2 (0 only) | 3 (3 only) | - | - | 1 (1 only) | - | 7 | - | 3 (3 only) | 5 (4 only) | 10 (5 only) | 4 (0 only) | 1 (1 only) | - |
+| 2 Fizzy Feet / Rossa Ryan | - | - | 1 (1 only) | - | - | - | - | 4 | - | - | 9 (5 only) | 11 (5 only) | 7 (1 only) | 1 (1 only) | - |
+| 3 Indie Angel / Martin Harley | - | 2 (0 only) | - | - | - | - | 1 (1 only) | 1 | - | 2 (2 only) | 2 (2 only) | 11 (6 only) | 6 (1 only) | - | - |
+| 4 Nirodha / Silvestre De Sousa | - | - | 1 (1 only) | - | 1 (1 only) | - | 1 (1 only) | 7 | - | 2 (2 only) | 7 (3 only) | 10 (7 only) | 6 (3 only) | - | - |
+| 5 Pholas / Hollie Doyle | - | - | 1 (1 only) | - | - | 1 (1 only) | - | 6 | - | 3 (3 only) | 7 (7 only) | 9 (1 only) | 6 (0 only) | - | 1 (1 only) |
+| 6 Shimmering Dawn / James Doyle | - | - | - | - | - | - | - | 1 | 3 (3 only) | 2 (2 only) | 3 (2 only) | 11 (3 only) | 5 (0 only) | - | - |
 
-Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer.
+Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
 ## 1 Arafi / Sean Levey
 ### 1 natal pair, same number, both charts
@@ -64,6 +64,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 14 and 140: S Saturn → J Ketu RA 140.0199 140 whole (0.00) | S Uranus → J Pluto Dec 13.9922 14 whole (37.41) | S Orcus → J Ketu Dec 14.0161 14 whole (3.86) — also: 2 Fizzy Feet, 3 Indie Angel, 6 Shimmering Dawn
 ### 13 one body pair, every layer
 - Venus – Eris: digits 23: S Eris → H Venus RA 23.0104 23 whole (22.98) | J Venus – J Eris Dec 22.9811 23 whole (0.30) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 2 Fizzy Feet / Rossa Ryan
 ### 1 natal pair, same number, both charts
@@ -118,6 +120,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 1 and 10: H Jupiter – H Haumea Dec 9.9897 10 whole (23.53) | S Juno → J Neptune Dec 10.0161 10 whole (3.81) | S Pluto → J Ketu Dec 1.0093 1 whole (28.80) — also: 3 Indie Angel, 4 Nirodha, 5 Pholas, 6 Shimmering Dawn
 ### 13 one body pair, every layer
 - Mercury – Venus: 9×φ golden: S Mercury → H Venus RA 14.5625 9×φ golden (98.98) | S Venus → H Mercury Dec 14.5641 9×φ golden (89.10) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 3 Indie Angel / Martin Harley
 ### 1 natal pair, same number, both charts
@@ -165,6 +169,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 12 and 120: S Ceres → H Gonggong Dec 12.0002 12 whole (98.49) | S Juno → J Transpluto RA 119.9816 120 whole (0.61) | S Moon → J Mars RA 119.9960 120 whole (63.87) — also: 2 Fizzy Feet
 - 1 and 10: H Eris – H Sedna Dec 9.9968 10 whole (70.88) | S Juno → H Orcus Dec 1.0078 1 whole (37.25) | S Pluto → H Pluto Dec 1.0073 1 whole (40.60) — also: 2 Fizzy Feet, 4 Nirodha, 5 Pholas, 6 Shimmering Dawn
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none
 
 ## 4 Nirodha / Silvestre De Sousa
@@ -217,6 +223,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 5 and 50: S Mars → H Eris RA 49.9874 50 whole (13.71) | S Vesta → J Haumea Dec 5.0107 5 whole (21.47) — only
 ### 13 one body pair, every layer
 - none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 5 Pholas / Hollie Doyle
 ### 1 natal pair, same number, both charts
@@ -268,6 +276,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 7 and 70: S Mercury → H Pluto RA 69.9947 70 whole (53.94) | S Jupiter → H Pluto Dec 6.9884 7 whole (17.78) | S Pallas → H Transpluto Dec 6.9909 7 whole (29.94) | S Makemake → H Haumea Dec 6.9916 7 whole (33.63) — also: 3 Indie Angel
 ### 13 one body pair, every layer
 - none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- H 14.4444 ninth: H Jupiter – H Uranus Dec 14.4459 14.4444 ninth (98.46) | S Jupiter → H Chiron Dec 14.4461 14.4444 ninth (98.21) — only
 
 ## 6 Shimmering Dawn / James Doyle
 ### 1 natal pair, same number, both charts
@@ -316,4 +326,6 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 14 and 140: J Uranus – J Eris Dec 13.9806 14 whole (0.10) | S Eris → J Makemake RA 140.0080 140 whole (36.11) — also: 1 Arafi, 2 Fizzy Feet, 3 Indie Angel
 - 2 and 20: J Vesta – J Transpluto RA 20.0044 20 whole (61.15) | J Vesta – J Orcus Dec 19.9884 20 whole (17.77) | S Ceres → J Gonggong Dec 19.9811 20 whole (0.29) | S Moon → J Neptune Dec 1.9943 2 whole (51.22) — also: 1 Arafi, 3 Indie Angel, 4 Nirodha, 5 Pholas
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none

@@ -3,16 +3,16 @@
 The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
-| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 Applaud Now / John Fahy | - | - | - | - | 1 (1 only) | - | - | 4 | - | 1 (1 only) | 4 (4 only) | 6 (3 only) | 6 (1 only) | 2 (2 only) |
-| 2 The Dunkirk Lads / Duran Fentiman | - | - | - | - | - | - | - | 5 | - | 3 (3 only) | 5 (3 only) | 11 (3 only) | 6 (1 only) | - |
-| 3 Gidwa / Andrea Atzeni | - | 1 (1 only) | - | - | 2 (2 only) | - | 1 (1 only) | 4 | - | 3 (3 only) | 3 (2 only) | 11 (4 only) | 9 (1 only) | 1 (1 only) |
-| 4 Miss Britain / Tony Hamilton | - | - | 1 (1 only) | - | - | - | 1 (1 only) | 5 | - | 1 (1 only) | 5 (4 only) | 12 (5 only) | 6 (1 only) | - |
-| 5 Glory Hallelujah / Rowan Scott | - | - | 1 (1 only) | - | 1 (1 only) | 1 (1 only) | - | 6 | - | 2 (2 only) | 5 (5 only) | 9 (5 only) | 4 (0 only) | 1 (1 only) |
-| 6 Baileys Liberty / Jason Hart | - | - | - | - | - | - | - | 6 | 3 (3 only) | 3 (3 only) | 5 (4 only) | 11 (5 only) | 6 (0 only) | 1 (1 only) |
+| Runner | 1 | 2a | 2b | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 Applaud Now / John Fahy | - | - | - | - | 1 (1 only) | - | - | 4 | - | 1 (1 only) | 4 (4 only) | 6 (3 only) | 6 (1 only) | 2 (2 only) | - |
+| 2 The Dunkirk Lads / Duran Fentiman | - | - | - | - | - | - | - | 5 | - | 3 (3 only) | 5 (3 only) | 11 (3 only) | 6 (1 only) | - | - |
+| 3 Gidwa / Andrea Atzeni | - | 1 (1 only) | - | - | 2 (2 only) | - | 1 (1 only) | 4 | - | 3 (3 only) | 3 (2 only) | 11 (4 only) | 9 (1 only) | 1 (1 only) | - |
+| 4 Miss Britain / Tony Hamilton | - | - | 1 (1 only) | - | - | - | 1 (1 only) | 5 | - | 1 (1 only) | 5 (4 only) | 12 (5 only) | 6 (1 only) | - | - |
+| 5 Glory Hallelujah / Rowan Scott | - | - | 1 (1 only) | - | 1 (1 only) | 1 (1 only) | - | 6 | - | 2 (2 only) | 5 (5 only) | 9 (5 only) | 4 (0 only) | 1 (1 only) | - |
+| 6 Baileys Liberty / Jason Hart | - | - | - | - | - | - | - | 6 | 3 (3 only) | 3 (3 only) | 5 (4 only) | 11 (5 only) | 6 (0 only) | 1 (1 only) | - |
 
-Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer.
+Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
 ## 1 Applaud Now / John Fahy
 ### 1 natal pair, same number, both charts
@@ -57,6 +57,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 13 one body pair, every layer
 - Saturn – Eris: 12.2222 ninth: S Saturn → H Eris Dec 12.2238 12.2222 ninth (97.87) | J Saturn – J Eris Dec 12.2220 12.2222 ninth (99.63) — only
 - Eris – Makemake: digits 25: S Eris → H Makemake Dec 24.9922 25 whole (37.08) | S Makemake → H Eris Dec 25.0063 25 whole (46.67) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 2 The Dunkirk Lads / Duran Fentiman
 ### 1 natal pair, same number, both charts
@@ -107,6 +109,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 1 and 100: S Mars → J Neptune RA 99.9813 100 whole (0.41) | S Saturn → J Gonggong RA 0.9971 1 whole (73.07) — also: 1 Applaud Now, 3 Gidwa, 5 Glory Hallelujah, 6 Baileys Liberty
 - 4 and 40: S Moon → J Sun Dec 40.0181 40 whole (0.95) | S Transpluto → J Transpluto Dec 3.9951 4 whole (56.91) — also: 3 Gidwa, 4 Miss Britain, 5 Glory Hallelujah, 6 Baileys Liberty
 ### 13 one body pair, every layer
+- none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
 - none
 
 ## 3 Gidwa / Andrea Atzeni
@@ -161,6 +165,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 12 and 120: J Pluto – J Chiron RA 120.0182 120 whole (0.81) | J Neptune – J Juno Dec 11.9809 12 whole (0.18) — only
 ### 13 one body pair, every layer
 - Mercury – Juno: digits 5: S Juno → H Mercury Dec 4.9979 5 whole (79.69) | S Mercury → H Juno Dec 4.9903 5 whole (26.49) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 4 Miss Britain / Tony Hamilton
 ### 1 natal pair, same number, both charts
@@ -211,6 +217,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 14 and 140: H Gonggong – H Makemake RA 140.0038 140 whole (65.77) | S Chiron → H Transpluto RA 139.9836 140 whole (3.27) | J Saturn – J Pluto Dec 14.0024 14 whole (77.50) — also: 2 The Dunkirk Lads, 5 Glory Hallelujah
 ### 13 one body pair, every layer
 - none
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 5 Glory Hallelujah / Rowan Scott
 ### 1 natal pair, same number, both charts
@@ -257,6 +265,8 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 14 and 140: H Makemake – H Sedna RA 140.0015 140 whole (85.50) | S Mars → H Orcus RA 140.0140 140 whole (9.12) | S Gonggong → H Rahu RA 140.0159 140 whole (4.17) | S Juno → J Ceres Dec 14.0099 14 whole (25.31) | S Vesta → J Orcus Dec 14.0137 14 whole (9.89) — also: 2 The Dunkirk Lads, 4 Miss Britain
 ### 13 one body pair, every layer
 - Venus – Neptune: digits 12: H Venus – H Neptune Dec 11.9869 12 whole (11.75) | S Neptune → J Venus Dec 11.9970 12 whole (72.19) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
 
 ## 6 Baileys Liberty / Jason Hart
 ### 1 natal pair, same number, both charts
@@ -310,3 +320,5 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - 5 and 50: S Haumea → H Transpluto Dec 5.0030 5 whole (72.19) | J Rahu – J Makemake Dec 49.9835 50 whole (3.05) | J Gonggong – J Quaoar Dec 4.9974 5 whole (75.84) | S Eris → J Juno Dec 4.9900 5 whole (25.19) — also: 1 Applaud Now, 3 Gidwa
 ### 13 one body pair, every layer
 - Gonggong – Transpluto: digits 176: S Gonggong → H Transpluto RA 176.0077 176 whole (37.64) | J Gonggong – J Transpluto RA 175.9829 176 whole (2.06) — only
+### 14 sky Jupiter repeats natal Jupiter (>= 50)
+- none
