@@ -1,16 +1,16 @@
 # Basic view: 20211119_catterick_1505
 
-The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
+The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies and the four royal stars (no other stars, no equator, no angles, no natal Moon; sky → royal star cells are shared by every runner and left out of checks 2a, 2b, 4, 5, 7, 13, 15). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
 | Runner | 1 | 2a | 2b | 15 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 Reve / Sean Bowen | - | - | - | - | - | - | - | - | 5 | - | 1 (1 only) | 4 (2 only) | 10 (8 only) | 10 (0 only) | - | - |
-| 2 Mance Rayder / Jamie Hamilton | 1 (1 only) | 1 (1 only) | - | - | - | - | - | - | 4 | - | 5 (5 only) | 2 (2 only) | 6 (4 only) | 7 (0 only) | - | - |
-| 3 Red Giant / Sean Quinlan | 1 (1 only) | - | - | - | - | - | - | - | 4 | - | 2 (2 only) | 4 (2 only) | 9 (6 only) | 5 (1 only) | - | - |
-| 4 Brian Boranha / Callum Bewley | - | - | 1 (1 only) | - | - | - | - | 1 (1 only) | 4 | - | 1 (1 only) | 4 (2 only) | 12 (9 only) | 3 (0 only) | - | - |
-| 5 Cracking Find / Ryan Mania | - | - | - | - | - | 2 (2 only) | - | 1 (1 only) | 3 | - | 1 (1 only) | 5 (4 only) | 5 (4 only) | 11 (0 only) | - | - |
-| 6 Blazer / Alain Cawley | - | - | - | - | - | 1 (1 only) | - | - | 6 | - | 2 (2 only) | 7 (4 only) | 6 (4 only) | 7 (2 only) | 1 (1 only) | - |
+| 1 Reve / Sean Bowen | - | - | - | - | - | - | - | - | 5 | - | 2 (2 only) | 4 (1 only) | 14 (7 only) | 10 (0 only) | - | - |
+| 2 Mance Rayder / Jamie Hamilton | 1 (1 only) | 1 (1 only) | - | - | - | - | - | - | 4 | - | 5 (5 only) | 4 (1 only) | 11 (6 only) | 9 (1 only) | - | - |
+| 3 Red Giant / Sean Quinlan | 1 (1 only) | - | - | - | - | - | - | - | 4 | - | 2 (2 only) | 5 (2 only) | 12 (8 only) | 5 (1 only) | - | - |
+| 4 Brian Boranha / Callum Bewley | - | - | 1 (1 only) | - | - | - | 1 (1 only) | 1 (1 only) | 6 | - | 1 (1 only) | 4 (2 only) | 14 (10 only) | 5 (0 only) | - | - |
+| 5 Cracking Find / Ryan Mania | - | - | - | - | - | 2 (2 only) | - | 1 (1 only) | 5 | - | 3 (3 only) | 8 (5 only) | 9 (5 only) | 11 (0 only) | - | - |
+| 6 Blazer / Alain Cawley | - | - | - | - | - | 1 (1 only) | - | - | 8 | - | 3 (3 only) | 9 (4 only) | 11 (5 only) | 7 (1 only) | 1 (1 only) | - |
 
 Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 15 sky X on natal Y, both charts, crossed planes (>= 80); 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
@@ -36,34 +36,39 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 8 axis (natal Jupiter on a node)
 - none
 ### 9 natal Jupiter ties (>= 50)
+- H Jupiter – H Regulus Dec 11.3228 7×φ golden (80.03) — only
 - J Jupiter – J Juno RA 172.9963 173 whole (66.43) — only
 ### 10 N and N x phi (>= 50)
-- S Saturn → J Neptune RA 11.0009 11 whole (91.46) | S Chiron → H Jupiter Dec 17.7999 11×φ golden (90.74) | S Transpluto → J Eris Dec 17.7969 11×φ golden (90.86) — only
+- S Saturn → J Neptune RA 11.0009 11 whole (91.46) | S Chiron → H Jupiter Dec 17.7999 11×φ golden (90.74) | S Transpluto → J Eris Dec 17.7969 11×φ golden (90.86) — also: 3 Red Giant, 6 Blazer
 - H Sun – H Venus Dec 11.9946 12 whole (53.31) | S Moon → J Sedna RA 12.0013 12 whole (87.81) | J Pallas – J Eris Dec 19.4154 12×φ golden (93.71) — also: 6 Blazer
-- H Uranus – H Gonggong Dec 17.0023 17 whole (78.47) | S Sedna → J Venus Dec 17.0055 17 whole (52.45) | J Makemake – J Sedna Dec 27.5018 17×φ golden (72.68) — also: 3 Red Giant
+- H Uranus – H Gonggong Dec 17.0023 17 whole (78.47) | S Sedna → J Venus Dec 17.0055 17 whole (52.45) | S Mars → H Regulus Dec 27.5017 17×φ golden (72.23) | S Quaoar → H Regulus Dec 27.5032 17×φ golden (80.04) | J Makemake – J Sedna Dec 27.5018 17×φ golden (72.68) | S Mars → J Regulus Dec 27.5055 17×φ golden (93.48) | S Quaoar → J Regulus Dec 27.5070 17×φ golden (97.69) — also: 3 Red Giant, 5 Cracking Find
 - S Uranus → J Jupiter RA 82.9989 83 whole (89.03) | S Moon → H Pluto RA 134.2995 83×φ golden (84.24) — only
 ### 11 values close together (within 0.3)
-- 11.9869 - 12.2299: S Chiron → J Saturn RA 11.9869 12 whole (11.84) | S Orcus → J Ceres Dec 11.9905 12 whole (27.75) | H Sun – H Venus Dec 11.9946 12 whole (53.31) | S Moon → J Sedna RA 12.0013 12 whole (87.81) | S Mars → H Eris Dec 12.2285 12.2222 ninth (91.37) | S Quaoar → H Eris Dec 12.2299 12.2222 ninth (89.36) — only
+- 11.0009 - 11.1148: S Saturn → J Neptune RA 11.0009 11 whole (91.46) | S Chiron → H Aldebaran Dec 11.0196 11 whole (0.04) | J Vesta – J Transpluto Dec 11.1148 11.1111 ninth (94.02) — only
+- 11.9844 - 12.2299: J Jupiter – J Fomalhaut Dec 11.9844 12 whole (4.75) | S Chiron → J Saturn RA 11.9869 12 whole (11.84) | S Orcus → J Ceres Dec 11.9905 12 whole (27.75) | H Sun – H Venus Dec 11.9946 12 whole (53.31) | S Moon → J Sedna RA 12.0013 12 whole (87.81) | S Mars → H Eris Dec 12.2285 12.2222 ninth (91.37) | S Quaoar → H Eris Dec 12.2299 12.2222 ninth (89.36) — only
 - 12.9454 - 13.0128: S Sedna → H Pallas Dec 12.9454 8×φ golden (93.36) | S Chiron → J Eris Dec 12.9856 13 whole (7.95) | S Transpluto → H Jupiter Dec 12.9887 13 whole (18.87) | S Eris → H Transpluto Dec 12.9982 13 whole (82.76) | H Sun – H Neptune RA 13.0058 13 whole (50.27) | J Venus – J Rahu Dec 13.0128 13 whole (13.11) — only
 - 13.9818 - 14.1450: J Ketu – J Gonggong Dec 13.9818 14 whole (0.81) | S Vesta → H Eris Dec 13.9882 14 whole (16.97) | S Eris → H Quaoar Dec 14.1450 14.14 sqrt2 (92.08) — only
-- 14.4410 - 14.5603: S Chiron → J Venus Dec 14.4410 14.4444 ninth (96.39) | S Gonggong → J Ketu RA 14.4463 14.4444 ninth (97.99) | S Makemake → J Mercury Dec 14.5603 9×φ golden (88.24) — only
-- 17.7969 - 17.9897: S Transpluto → J Eris Dec 17.7969 11×φ golden (90.86) | S Chiron → H Jupiter Dec 17.7999 11×φ golden (90.74) | H Mercury – H Uranus Dec 17.9457 φ^6 phi power (96.84) | S Transpluto → H Mars Dec 17.9818 18 whole (0.77) | S Pluto → H Pallas Dec 17.9897 18 whole (23.44) — only
-- 18.8853 - 19.0180: S Neptune → J Ceres Dec 18.8853 18.8889 ninth (97.41) | S Haumea → H Sun Dec 18.9806 19 whole (0.08) | S Sun → H Vesta Dec 18.9893 19 whole (21.44) | S Gonggong → J Mercury Dec 18.9913 19 whole (32.08) | S Sedna → J Chiron Dec 19.0149 19 whole (6.52) | S Venus → J Eris Dec 19.0180 19 whole (0.97) — also: 3 Red Giant
+- 14.4410 - 14.5694: S Chiron → J Venus Dec 14.4410 14.4444 ninth (96.39) | S Gonggong → J Ketu RA 14.4463 14.4444 ninth (97.99) | S Makemake → J Mercury Dec 14.5603 9×φ golden (88.24) | S Orcus → H Antares Dec 14.5689 9×φ golden (63.45) | S Orcus → J Antares Dec 14.5694 9×φ golden (60.85) — also: 3 Red Giant, 5 Cracking Find
+- 17.7969 - 18.0147: S Transpluto → J Eris Dec 17.7969 11×φ golden (90.86) | S Chiron → H Jupiter Dec 17.7999 11×φ golden (90.74) | H Mercury – H Uranus Dec 17.9457 φ^6 phi power (96.84) | S Transpluto → H Mars Dec 17.9818 18 whole (0.77) | S Jupiter → H Fomalhaut RA 17.9822 18 whole (1.19) | S Pluto → H Pallas Dec 17.9897 18 whole (23.44) | S Jupiter → J Fomalhaut RA 17.9924 18 whole (38.31) | S Eris → H Aldebaran Dec 18.0126 18 whole (13.72) | S Eris → J Aldebaran Dec 18.0147 18 whole (6.91) — also: 4 Brian Boranha, 6 Blazer
+- 18.8853 - 19.0180: S Neptune → J Ceres Dec 18.8853 18.8889 ninth (97.41) | S Haumea → H Sun Dec 18.9806 19 whole (0.08) | S Sun → H Vesta Dec 18.9893 19 whole (21.44) | S Gonggong → J Mercury Dec 18.9913 19 whole (32.08) | S Sedna → J Chiron Dec 19.0149 19 whole (6.52) | S Venus → J Eris Dec 19.0180 19 whole (0.97) — also: 2 Mance Rayder, 3 Red Giant
+- 25.8883 - 26.0012: H Vesta – H Antares Dec 25.8883 16×φ golden (98.33) | S Haumea → H Rahu Dec 25.9941 26 whole (49.36) | S Vesta → H Ceres RA 26.0012 26 whole (88.59) — also: 6 Blazer
+- 30.7428 - 31.0072: S Haumea → J Antares RA 30.7428 19×φ golden (99.16) | S Haumea → H Antares RA 30.7443 19×φ golden (90.03) | S Saturn → J Pallas Dec 31.0072 31 whole (40.67) — also: 2 Mance Rayder, 4 Brian Boranha, 5 Cracking Find, 6 Blazer
 - 70.7137 - 71.0086: H Chiron – H Sedna RA 70.7137 70.7 sqrt2 (98.31) | S Ceres → J Orcus RA 70.9909 71 whole (29.92) | H Neptune – H Quaoar RA 71.0086 71 whole (32.77) — only
-- 110.9189 - 111.1989: S Pallas → H Saturn RA 110.9189 10×φ^5 phi power (93.91) | H Mercury – H Ceres RA 110.9386 10×φ^5 phi power (87.12) | S Sedna → J Uranus RA 110.9743 10×φ^5 phi power (75.53) | S Ketu → H Sun RA 111.1989 111.111 ninth (85.64) — also: 3 Red Giant
+- 105.0156 - 105.1449: S Ceres → J Rahu RA 105.0156 105 whole (4.75) | S Jupiter → J Mars RA 105.0194 105 whole (0.10) | S Ketu → J Fomalhaut RA 105.1449 65×φ golden (2.42) — also: 3 Red Giant, 5 Cracking Find
+- 110.9189 - 111.1989: S Pallas → H Saturn RA 110.9189 10×φ^5 phi power (93.91) | H Mercury – H Ceres RA 110.9386 10×φ^5 phi power (87.12) | S Sedna → J Uranus RA 110.9743 10×φ^5 phi power (75.53) | S Ketu → H Sun RA 111.1989 111.111 ninth (85.64) — also: 6 Blazer
 - 117.9967 - 118.1271: S Jupiter → J Chiron RA 117.9967 118 whole (70.09) | J Sun – J Sedna RA 118.1171 73×φ golden (96.31) | S Saturn → H Makemake RA 118.1212 73×φ golden (73.01) | H Jupiter – H Chiron RA 118.1271 73×φ golden (45.27) — only
 - 177.7484 - 177.9800: S Transpluto → H Neptune RA 177.7484 177.778 ninth (97.70) | S Ceres → J Pluto RA 177.7897 177.778 ninth (99.07) | H Uranus – H Makemake RA 177.9800 110×φ golden (78.15) — only
 ### 12 digits across decades (whole N, 10 N)
-- 13 and 130: H Sun – H Neptune RA 13.0058 13 whole (50.27) | S Quaoar → H Pallas RA 130.0080 130 whole (35.77) | S Eris → H Transpluto Dec 12.9982 13 whole (82.76) | S Transpluto → H Jupiter Dec 12.9887 13 whole (18.87) | J Venus – J Rahu Dec 13.0128 13 whole (13.11) | S Neptune → J Mars RA 129.9902 130 whole (25.94) | S Chiron → J Eris Dec 12.9856 13 whole (7.95) — also: 5 Cracking Find
-- 9 and 90: H Pluto – H Rahu Dec 9.0079 9 whole (36.50) | S Quaoar → H Juno RA 89.9807 90 whole (0.13) — also: 3 Red Giant
-- 7 and 70: H Pluto – H Ceres RA 70.0125 70 whole (13.98) | H Sun – H Rahu Dec 7.0135 7 whole (10.60) | S Mars → H Ceres RA 7.0063 7 whole (47.21) | S Eris → J Vesta RA 6.9863 7 whole (9.87) — also: 5 Cracking Find
-- 10 and 100: S Ceres → H Makemake Dec 9.9908 10 whole (28.89) | S Pallas → J Quaoar RA 100.0042 100 whole (62.32) — also: 5 Cracking Find
-- 3 and 30: H Venus – H Gonggong RA 30.0182 30 whole (0.81) | S Saturn → H Venus Dec 2.9878 3 whole (15.28) | J Pluto – J Haumea Dec 29.9822 30 whole (1.18) | S Jupiter → J Jupiter Dec 3.0179 3 whole (1.08) | S Vesta → J Quaoar Dec 2.9904 3 whole (26.85) | S Transpluto → J Transpluto Dec 2.9916 3 whole (33.59) — also: 2 Mance Rayder, 4 Brian Boranha, 5 Cracking Find, 6 Blazer
+- 13 and 130: H Sun – H Neptune RA 13.0058 13 whole (50.27) | S Quaoar → H Pallas RA 130.0080 130 whole (35.77) | S Eris → H Transpluto Dec 12.9982 13 whole (82.76) | S Transpluto → H Jupiter Dec 12.9887 13 whole (18.87) | J Venus – J Rahu Dec 13.0128 13 whole (13.11) | S Neptune → J Mars RA 129.9902 130 whole (25.94) | S Chiron → J Eris Dec 12.9856 13 whole (7.95) — also: 2 Mance Rayder, 5 Cracking Find
+- 9 and 90: H Pluto – H Rahu Dec 9.0079 9 whole (36.50) | S Quaoar → H Juno RA 89.9807 90 whole (0.13) — also: 3 Red Giant, 4 Brian Boranha
+- 7 and 70: H Pluto – H Ceres RA 70.0125 70 whole (13.98) | H Sun – H Rahu Dec 7.0135 7 whole (10.60) | S Mars → H Ceres RA 7.0063 7 whole (47.21) | S Neptune → H Fomalhaut RA 6.9886 7 whole (18.65) | S Eris → J Vesta RA 6.9863 7 whole (9.87) — also: 5 Cracking Find
+- 10 and 100: S Ceres → H Makemake Dec 9.9908 10 whole (28.89) | S Makemake → H Regulus Dec 10.0039 10 whole (64.83) | S Pallas → J Quaoar RA 100.0042 100 whole (62.32) | S Makemake → J Regulus Dec 10.0001 10 whole (98.89) — also: 5 Cracking Find
+- 3 and 30: H Venus – H Gonggong RA 30.0182 30 whole (0.81) | S Saturn → H Venus Dec 2.9878 3 whole (15.28) | J Mercury – J Regulus RA 2.9993 3 whole (93.12) | J Pluto – J Haumea Dec 29.9822 30 whole (1.18) | J Gonggong – J Regulus Dec 30.0109 30 whole (20.61) | S Jupiter → J Jupiter Dec 3.0179 3 whole (1.08) | S Vesta → J Quaoar Dec 2.9904 3 whole (26.85) | S Transpluto → J Transpluto Dec 2.9916 3 whole (33.59) — also: 2 Mance Rayder, 4 Brian Boranha, 5 Cracking Find, 6 Blazer
 - 14 and 140: H Pallas – H Juno RA 140.0113 140 whole (19.14) | S Vesta → H Eris Dec 13.9882 14 whole (16.97) | J Ketu – J Gonggong Dec 13.9818 14 whole (0.81) — also: 5 Cracking Find
-- 1 and 10: S Ceres → H Makemake Dec 9.9908 10 whole (28.89) | S Sedna → H Sedna Dec 0.9915 1 whole (32.96) | J Rahu – J Sedna Dec 1.0146 1 whole (7.21) — also: 2 Mance Rayder, 3 Red Giant, 4 Brian Boranha, 5 Cracking Find, 6 Blazer
+- 1 and 10: S Ceres → H Makemake Dec 9.9908 10 whole (28.89) | S Makemake → H Regulus Dec 10.0039 10 whole (64.83) | S Sedna → H Sedna Dec 0.9915 1 whole (32.96) | J Rahu – J Sedna Dec 1.0146 1 whole (7.21) | S Makemake → J Regulus Dec 10.0001 10 whole (98.89) — also: 2 Mance Rayder, 3 Red Giant, 4 Brian Boranha, 5 Cracking Find, 6 Blazer
 - 1 and 100: S Sedna → H Sedna Dec 0.9915 1 whole (32.96) | J Rahu – J Sedna Dec 1.0146 1 whole (7.21) | S Pallas → J Quaoar RA 100.0042 100 whole (62.32) — also: 2 Mance Rayder, 3 Red Giant, 4 Brian Boranha, 5 Cracking Find, 6 Blazer
+- 4 and 40: J Pluto – J Antares RA 3.9998 4 whole (98.44) | S Haumea → J Makemake RA 39.9833 40 whole (2.71) | S Mars → J Uranus Dec 4.0164 4 whole (3.20) | S Neptune → J Venus Dec 3.9846 4 whole (5.30) | S Rahu → J Uranus Dec 39.9900 40 whole (24.96) | S Makemake → J Gonggong Dec 40.0110 40 whole (20.12) | S Quaoar → J Uranus Dec 4.0150 4 whole (6.32) | S Sedna → J Rahu Dec 3.9928 4 whole (40.68) — also: 2 Mance Rayder, 3 Red Giant, 4 Brian Boranha, 5 Cracking Find, 6 Blazer
 - 2 and 20: H Chiron – H Haumea Dec 19.9870 20 whole (12.35) | H Saturn – H Uranus Dec 19.9804 20 whole (0.04) | J Venus – J Chiron Dec 2.0094 2 whole (28.20) | J Vesta – J Orcus Dec 1.9975 2 whole (76.56) — also: 2 Mance Rayder, 3 Red Giant, 5 Cracking Find, 6 Blazer
-- 4 and 40: S Haumea → J Makemake RA 39.9833 40 whole (2.71) | S Mars → J Uranus Dec 4.0164 4 whole (3.20) | S Neptune → J Venus Dec 3.9846 4 whole (5.30) | S Rahu → J Uranus Dec 39.9900 40 whole (24.96) | S Makemake → J Gonggong Dec 40.0110 40 whole (20.12) | S Quaoar → J Uranus Dec 4.0150 4 whole (6.32) | S Sedna → J Rahu Dec 3.9928 4 whole (40.68) — also: 2 Mance Rayder, 3 Red Giant, 4 Brian Boranha, 5 Cracking Find, 6 Blazer
 ### 13 one body pair, every layer
 - none
 ### 14 sky Jupiter repeats natal Jupiter (>= 50)
@@ -97,23 +102,32 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - J Jupiter – J Gonggong RA 113.2682 70×φ golden (67.43) — only
 - J Jupiter – J Makemake RA 45.3021 28×φ golden (82.90) — only
 ### 10 N and N x phi (>= 50)
-- S Vesta → J Jupiter RA 22.0037 22 whole (66.38) | S Orcus → H Vesta Dec 35.5904 22×φ golden (64.40) — only
+- H Saturn – H Sedna Dec 18.9969 19 whole (71.55) | H Orcus – H Antares Dec 19.0016 19 whole (84.54) | S Haumea → H Antares RA 30.7477 19×φ golden (70.95) | S Haumea → J Antares RA 30.7487 19×φ golden (66.24) — also: 6 Blazer
+- J Pluto – J Aldebaran Dec 21.9976 22 whole (77.40) | S Vesta → J Jupiter RA 22.0037 22 whole (66.38) | S Saturn → H Aldebaran Dec 35.5969 22×φ golden (99.17) | S Orcus → H Vesta Dec 35.5904 22×φ golden (64.40) | S Saturn → J Aldebaran Dec 35.5979 22×φ golden (93.18) — also: 5 Cracking Find
+- H Pallas – H Aldebaran RA 26.9981 27 whole (82.04) | H Venus – H Jupiter RA 43.6818 27×φ golden (70.65) — also: 5 Cracking Find, 6 Blazer
 - H Mercury – H Jupiter RA 68.9952 69 whole (58.00) | S Juno → J Eris RA 111.6504 69×φ golden (65.96) — only
 ### 11 values close together (within 0.3)
 - 4.8547 - 4.9923: S Juno → J Gonggong Dec 4.8547 3×φ golden (96.04) | S Uranus → J Vesta Dec 4.9840 5 whole (3.99) | S Orcus → H Rahu Dec 4.9869 5 whole (11.97) | J Pallas – J Sedna Dec 4.9923 5 whole (37.83) — only
-- 10.9806 - 11.0964: S Venus → H Quaoar Dec 10.9806 11 whole (0.08) | H Mercury – H Mars Dec 10.9891 11 whole (20.51) | H Venus – H Jupiter Dec 11.0964 φ^5 phi power (78.66) — only
-- 21.9880 - 22.2268: J Mercury – J Pallas RA 21.9880 22 whole (16.05) | S Vesta → J Jupiter RA 22.0037 22 whole (66.38) | S Transpluto → H Saturn Dec 22.2268 22.2222 ninth (93.69) — also: 3 Red Giant, 4 Brian Boranha
-- 26.0141 - 26.1817: H Juno – H Gonggong RA 26.0141 26 whole (8.83) | J Uranus – J Sedna Dec 26.0169 26 whole (2.35) | S Makemake → J Makemake RA 26.1814 10×φ^2 phi power (98.39) | S Venus → J Pallas Dec 26.1817 10×φ^2 phi power (97.99) — only
+- 10.9806 - 11.0964: S Venus → H Quaoar Dec 10.9806 11 whole (0.08) | J Gonggong – J Fomalhaut Dec 10.9882 11 whole (16.76) | H Mercury – H Mars Dec 10.9891 11 whole (20.51) | S Chiron → H Aldebaran Dec 11.0194 11 whole (0.10) | H Venus – H Jupiter Dec 11.0964 φ^5 phi power (78.66) — only
+- 18.8835 - 19.0016: S Makemake → H Uranus Dec 18.8835 18.8889 ninth (96.16) | H Saturn – H Sedna Dec 18.9969 19 whole (71.55) | H Orcus – H Antares Dec 19.0016 19 whole (84.54) — also: 1 Reve, 3 Red Giant
+- 21.9880 - 22.2268: J Mercury – J Pallas RA 21.9880 22 whole (16.05) | J Pluto – J Aldebaran Dec 21.9976 22 whole (77.40) | S Vesta → J Jupiter RA 22.0037 22 whole (66.38) | S Transpluto → H Saturn Dec 22.2268 22.2222 ninth (93.69) — also: 3 Red Giant, 4 Brian Boranha
+- 25.9915 - 26.1817: J Quaoar – J Regulus Dec 25.9915 26 whole (33.33) | H Juno – H Gonggong RA 26.0141 26 whole (8.83) | J Uranus – J Sedna Dec 26.0169 26 whole (2.35) | S Makemake → J Makemake RA 26.1814 10×φ^2 phi power (98.39) | S Venus → J Pallas Dec 26.1817 10×φ^2 phi power (97.99) — only
 - 28.9903 - 29.0367: H Sun – H Sedna RA 28.9903 29 whole (26.59) | S Vesta → H Transpluto Dec 29.0025 29 whole (76.46) | S Saturn → H Mars Dec 29.0367 φ^7 phi power (96.98) — also: 6 Blazer
+- 30.7477 - 30.9826: S Haumea → H Antares RA 30.7477 19×φ golden (70.95) | S Haumea → J Antares RA 30.7487 19×φ golden (66.24) | J Mars – J Makemake Dec 30.9826 31 whole (1.70) — also: 1 Reve, 4 Brian Boranha, 5 Cracking Find, 6 Blazer
+- 50.0188 - 50.1599: S Sedna → H Uranus RA 50.0188 50 whole (0.38) | S Pluto → H Makemake Dec 50.1550 31×φ golden (76.29) | H Vesta – H Antares Dec 50.1599 31×φ golden (95.10) — only
+- 113.0030 - 113.2768: H Quaoar – H Regulus RA 113.0030 113 whole (72.09) | S Transpluto → H Pallas RA 113.2368 70×φ golden (4.38) | S Uranus → J Chiron RA 113.2592 70×φ golden (81.14) | J Jupiter – J Gonggong RA 113.2682 70×φ golden (67.43) | J Ceres – J Makemake RA 113.2768 70×φ golden (30.75) — only
 - 119.7582 - 119.9926: S Saturn → J Haumea RA 119.7582 74×φ golden (7.15) | S Orcus → J Mercury RA 119.7585 74×φ golden (6.71) | S Jupiter → H Vesta RA 119.9926 120 whole (39.75) — only
+- 127.8002 - 128.0059: S Haumea → J Fomalhaut RA 127.8002 79×φ golden (5.90) | S Haumea → H Fomalhaut RA 127.8011 79×φ golden (7.35) | J Venus – J Neptune RA 128.0059 128 whole (49.79) — also: 5 Cracking Find
 ### 12 digits across decades (whole N, 10 N)
-- 11 and 110: H Mercury – H Mars Dec 10.9891 11 whole (20.51) | S Quaoar → H Sun RA 109.9901 110 whole (25.55) | S Venus → H Quaoar Dec 10.9806 11 whole (0.08) — also: 6 Blazer
+- 2 and 20: H Mars – H Regulus Dec 2.0187 2 whole (0.40) | H Haumea – H Aldebaran Dec 2.0053 2 whole (54.07) | S Ceres → H Eris Dec 19.9838 20 whole (3.57) | S Eris → H Haumea Dec 20.0176 20 whole (1.39) | S Sedna → H Saturn Dec 19.9800 20 whole (0.00) | S Uranus → J Sun RA 2.0044 2 whole (60.64) | S Ceres → J Mercury Dec 1.9877 2 whole (14.92) — also: 1 Reve, 3 Red Giant, 5 Cracking Find, 6 Blazer
+- 11 and 110: H Mercury – H Mars Dec 10.9891 11 whole (20.51) | S Quaoar → H Sun RA 109.9901 110 whole (25.55) | S Chiron → H Aldebaran Dec 11.0194 11 whole (0.10) | S Venus → H Quaoar Dec 10.9806 11 whole (0.08) | J Gonggong – J Fomalhaut Dec 10.9882 11 whole (16.76) — also: 6 Blazer
 - 4 and 40: H Mercury – H Pallas Dec 4.0069 4 whole (42.71) | H Uranus – H Sedna Dec 3.9839 4 whole (3.87) | H Venus – H Sedna Dec 4.0119 4 whole (16.32) | S Sun → H Quaoar Dec 3.9980 4 whole (80.66) | S Eris → J Pluto Dec 3.9843 4 whole (4.53) | S Jupiter → J Gonggong Dec 4.0152 4 whole (5.83) | S Moon → J Neptune Dec 40.0002 40 whole (97.54) — also: 1 Reve, 3 Red Giant, 4 Brian Boranha, 5 Cracking Find, 6 Blazer
+- 13 and 130: H Pluto – H Regulus RA 129.9960 130 whole (63.69) | H Mercury – H Regulus Dec 13.0078 13 whole (37.23) | S Ketu → H Orcus Dec 13.0064 13 whole (46.34) | J Jupiter – J Antares Dec 12.9910 13 whole (30.42) — also: 1 Reve, 5 Cracking Find
 - 12 and 120: S Ceres → H Sedna RA 12.0188 12 whole (0.34) | S Jupiter → H Vesta RA 119.9926 120 whole (39.75) | S Mercury → H Saturn RA 11.9818 12 whole (0.80) — also: 5 Cracking Find
-- 1 and 10: H Eris – H Gonggong Dec 9.9927 10 whole (40.33) | S Ketu → H Neptune Dec 9.9845 10 whole (5.15) | S Mercury → H Rahu Dec 1.0137 1 whole (9.97) | S Sedna → H Sedna Dec 0.9831 1 whole (2.44) | J Mars – J Transpluto Dec 10.0069 10 whole (42.88) — also: 1 Reve, 3 Red Giant, 4 Brian Boranha, 5 Cracking Find, 6 Blazer
+- 18 and 180: S Jupiter → H Fomalhaut RA 17.9837 18 whole (3.45) | S Eris → H Aldebaran Dec 18.0124 18 whole (14.63) | J Jupiter – J Vesta RA 179.9807 180 whole (0.12) | S Jupiter → J Fomalhaut RA 17.9828 18 whole (1.97) | S Eris → J Aldebaran Dec 18.0133 18 whole (11.10) — only
+- 1 and 10: H Eris – H Gonggong Dec 9.9927 10 whole (40.33) | S Ketu → H Neptune Dec 9.9845 10 whole (5.15) | S Mercury → H Rahu Dec 1.0137 1 whole (9.97) | S Makemake → H Regulus Dec 10.0031 10 whole (71.43) | S Sedna → H Sedna Dec 0.9831 1 whole (2.44) | J Mars – J Transpluto Dec 10.0069 10 whole (42.88) | S Makemake → J Regulus Dec 10.0027 10 whole (74.80) — also: 1 Reve, 3 Red Giant, 4 Brian Boranha, 5 Cracking Find, 6 Blazer
 - 5 and 50: S Sedna → H Uranus RA 50.0188 50 whole (0.38) | S Orcus → H Rahu Dec 4.9869 5 whole (11.97) | J Pallas – J Sedna Dec 4.9923 5 whole (37.83) | S Uranus → J Vesta Dec 4.9840 5 whole (3.99) — also: 5 Cracking Find
 - 3 and 30: S Mars → H Makemake RA 30.0151 30 whole (5.92) | J Venus – J Eris Dec 29.9909 30 whole (29.71) | S Mars → J Jupiter RA 3.0088 3 whole (31.43) — also: 1 Reve, 4 Brian Boranha, 5 Cracking Find, 6 Blazer
-- 2 and 20: S Ceres → H Eris Dec 19.9838 20 whole (3.57) | S Eris → H Haumea Dec 20.0176 20 whole (1.39) | S Sedna → H Saturn Dec 19.9800 20 whole (0.00) | S Uranus → J Sun RA 2.0044 2 whole (60.64) | S Ceres → J Mercury Dec 1.9877 2 whole (14.92) — also: 1 Reve, 3 Red Giant, 5 Cracking Find, 6 Blazer
 ### 13 one body pair, every layer
 - none
 ### 14 sky Jupiter repeats natal Jupiter (>= 50)
@@ -144,26 +158,30 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - H Jupiter – H Vesta RA 67.0004 67 whole (96.51) — only
 - J Jupiter – J Uranus RA 12.2271 12.2222 ninth (93.29) — only
 ### 10 N and N x phi (>= 50)
-- H Rahu – H Orcus Dec 17.0025 17 whole (76.86) | S Mars → H Transpluto Dec 27.5024 17×φ golden (75.65) | S Quaoar → H Transpluto Dec 27.5038 17×φ golden (83.64) — also: 1 Reve
+- H Quaoar – H Antares Dec 10.9963 11 whole (66.72) | S Chiron → H Ketu Dec 17.7977 11×φ golden (96.02) | S Eris → J Chiron Dec 17.7949 11×φ golden (79.67) — also: 1 Reve, 6 Blazer
+- H Rahu – H Orcus Dec 17.0025 17 whole (76.86) | S Mars → H Transpluto Dec 27.5024 17×φ golden (75.65) | S Mars → H Regulus Dec 27.5034 17×φ golden (81.07) | S Quaoar → H Transpluto Dec 27.5038 17×φ golden (83.64) | S Quaoar → H Regulus Dec 27.5048 17×φ golden (89.34) | S Mars → J Regulus Dec 27.5028 17×φ golden (78.27) | S Quaoar → J Regulus Dec 27.5043 17×φ golden (86.39) — also: 1 Reve, 5 Cracking Find
 - S Moon → H Eris Dec 22.9984 23 whole (84.86) | S Gonggong → H Mars Dec 23.0026 23 whole (75.97) | S Uranus → J Gonggong Dec 37.2145 23×φ golden (98.41) — only
 - J Uranus – J Sedna Dec 24.9998 25 whole (97.81) | S Vesta → J Haumea Dec 40.4514 25×φ golden (96.44) — also: 4 Brian Boranha
 - S Vesta → H Neptune RA 92.9951 93 whole (57.05) | S Ketu → J Juno RA 150.4724 93×φ golden (72.89) — only
 ### 11 values close together (within 0.3)
+- 1.6665 - 1.7777: S Transpluto → H Transpluto Dec 1.6665 1.66667 ninth (98.61) | S Transpluto → J Regulus Dec 1.6670 1.66667 ninth (97.26) | S Ketu → J Gonggong Dec 1.7777 1.77778 ninth (99.76) — only
 - 1.7777 - 2.0047: S Ketu → J Gonggong Dec 1.7777 1.77778 ninth (99.76) | S Orcus → H Gonggong Dec 1.9968 2 whole (70.27) | H Chiron – H Orcus Dec 2.0047 2 whole (58.87) — only
-- 17.7725 - 18.0188: J Eris – J Sedna RA 17.7725 17.7778 ninth (95.85) | S Eris → J Chiron Dec 17.7949 11×φ golden (79.67) | S Chiron → H Ketu Dec 17.7977 11×φ golden (96.02) | J Mars – J Uranus Dec 18.0188 18 whole (0.38) — only
-- 18.8873 - 19.0071: S Makemake → J Sedna Dec 18.8873 18.8889 ninth (98.88) | S Pluto → J Mars Dec 18.9832 19 whole (2.56) | H Rahu – H Chiron Dec 19.0071 19 whole (41.47) — also: 1 Reve
+- 14.4467 - 14.5698: H Uranus – H Gonggong Dec 14.4467 14.4444 ninth (97.63) | S Orcus → J Antares Dec 14.5680 9×φ golden (67.76) | S Orcus → H Antares Dec 14.5698 9×φ golden (58.82) — also: 1 Reve, 5 Cracking Find
+- 17.7725 - 18.0188: J Eris – J Sedna RA 17.7725 17.7778 ninth (95.85) | S Eris → J Chiron Dec 17.7949 11×φ golden (79.67) | S Chiron → H Ketu Dec 17.7977 11×φ golden (96.02) | S Jupiter → J Fomalhaut RA 17.9843 18 whole (4.57) | S Jupiter → H Fomalhaut RA 17.9857 18 whole (8.26) | S Eris → H Aldebaran Dec 18.0125 18 whole (14.14) | S Eris → J Aldebaran Dec 18.0156 18 whole (4.88) | J Mars – J Uranus Dec 18.0188 18 whole (0.38) — only
+- 18.8873 - 19.0071: S Makemake → J Sedna Dec 18.8873 18.8889 ninth (98.88) | S Pluto → J Mars Dec 18.9832 19 whole (2.56) | H Rahu – H Chiron Dec 19.0071 19 whole (41.47) — also: 1 Reve, 2 Mance Rayder
 - 21.9808 - 22.2243: S Jupiter → H Mercury Dec 21.9808 22 whole (0.16) | S Mars → J Orcus Dec 22.2229 22.2222 ninth (99.11) | S Quaoar → J Orcus Dec 22.2243 22.2222 ninth (97.10) — also: 2 Mance Rayder, 4 Brian Boranha
-- 28.9991 - 29.1204: S Sedna → J Makemake Dec 28.9991 29 whole (91.58) | H Vesta – H Transpluto Dec 29.0029 29 whole (73.52) | S Sedna → J Juno RA 29.1204 18×φ golden (75.51) — only
-- 36.9840 - 37.2145: J Gonggong – J Transpluto Dec 36.9840 37 whole (3.90) | S Mercury → H Haumea Dec 37.0035 37 whole (68.19) | S Uranus → J Gonggong Dec 37.2145 23×φ golden (98.41) — only
-- 110.9925 - 111.1506: S Quaoar → H Venus RA 110.9925 10×φ^5 phi power (69.92) | S Quaoar → J Makemake RA 111.1299 111.111 ninth (96.92) | S Uranus → H Transpluto RA 111.1506 111.111 ninth (93.53) — also: 1 Reve
+- 28.9975 - 29.1204: J Quaoar – J Aldebaran Dec 28.9975 29 whole (76.62) | S Sedna → J Makemake Dec 28.9991 29 whole (91.58) | H Vesta – H Transpluto Dec 29.0029 29 whole (73.52) | H Vesta – H Regulus Dec 29.0038 29 whole (65.27) | S Sedna → J Juno RA 29.1204 18×φ golden (75.51) — only
+- 36.9840 - 37.2145: J Gonggong – J Transpluto Dec 36.9840 37 whole (3.90) | H Mercury – H Fomalhaut Dec 36.9843 37 whole (4.71) | S Mercury → H Haumea Dec 37.0035 37 whole (68.19) | S Uranus → J Gonggong Dec 37.2145 23×φ golden (98.41) — only
+- 104.9960 - 105.1696: H Ceres – H Antares RA 104.9960 105 whole (63.86) | S Gonggong → J Vesta RA 104.9984 105 whole (84.27) | J Chiron – J Makemake RA 105.1696 65×φ golden (84.67) — also: 1 Reve, 5 Cracking Find
+- 110.9925 - 111.1506: S Quaoar → H Venus RA 110.9925 10×φ^5 phi power (69.92) | H Rahu – H Regulus RA 111.0027 111 whole (74.52) | S Quaoar → J Makemake RA 111.1299 111.111 ninth (96.92) | S Uranus → H Transpluto RA 111.1506 111.111 ninth (93.53) — only
 - 122.9304 - 122.9770: S Orcus → J Mercury RA 122.9304 φ^10 phi power (80.99) | J Sun – J Eris RA 122.9701 76×φ golden (97.26) | S Mercury → H Ceres RA 122.9702 76×φ golden (97.75) | S Eris → H Rahu RA 122.9770 φ^10 phi power (95.21) — only
 - 140.7426 - 141.0033: J Sun – J Sedna RA 140.7426 87×φ golden (3.45) | S Moon → H Pluto RA 140.7775 87×φ golden (54.09) | S Ceres → H Haumea RA 140.7825 87×φ golden (33.67) | S Eris → H Juno RA 140.7974 87×φ golden (1.46) | H Mercury – H Juno RA 141.0033 141 whole (69.84) — only
 ### 12 digits across decades (whole N, 10 N)
 - 4 and 40: H Venus – H Mars RA 4.0032 4 whole (70.89) | S Ceres → H Venus RA 40.0067 40 whole (44.12) | S Mercury → H Gonggong Dec 4.0038 4 whole (65.29) | J Mercury – J Transpluto Dec 40.0093 40 whole (28.38) | S Vesta → J Rahu Dec 40.0151 40 whole (6.13) — also: 1 Reve, 2 Mance Rayder, 4 Brian Boranha, 5 Cracking Find, 6 Blazer
 - 2 and 20: H Chiron – H Orcus Dec 2.0047 2 whole (58.87) | S Orcus → H Gonggong Dec 1.9968 2 whole (70.27) | S Rahu → J Pallas Dec 19.9860 20 whole (9.11) | S Sun → J Pallas Dec 19.9840 20 whole (3.90) — also: 1 Reve, 2 Mance Rayder, 5 Cracking Find, 6 Blazer
-- 9 and 90: S Rahu → H Mars Dec 9.0171 9 whole (2.17) | S Saturn → J Saturn RA 90.0187 90 whole (0.41) — also: 1 Reve
-- 6 and 60: H Haumea – H Orcus RA 59.9860 60 whole (9.08) | S Vesta → H Rahu Dec 5.9898 6 whole (24.14) | J Vesta – J Eris RA 60.0120 60 whole (16.13) | S Mars → J Quaoar RA 6.0003 6 whole (97.36) | S Transpluto → J Chiron Dec 5.9907 6 whole (28.62) — only
-- 1 and 10: S Makemake → H Makemake RA 10.0137 10 whole (9.95) | S Juno → H Eris Dec 9.9803 10 whole (0.02) | S Makemake → H Transpluto Dec 10.0033 10 whole (70.13) | S Pluto → J Pallas RA 1.0134 1 whole (10.73) | S Rahu → J Chiron RA 1.0105 1 whole (22.67) — also: 1 Reve, 2 Mance Rayder, 4 Brian Boranha, 5 Cracking Find, 6 Blazer
+- 6 and 60: H Haumea – H Orcus RA 59.9860 60 whole (9.08) | S Ketu → H Antares Dec 5.9956 6 whole (60.64) | S Vesta → H Rahu Dec 5.9898 6 whole (24.14) | J Vesta – J Eris RA 60.0120 60 whole (16.13) | S Mars → J Quaoar RA 6.0003 6 whole (97.36) | S Ketu → J Antares Dec 5.9938 6 whole (47.31) | S Transpluto → J Chiron Dec 5.9907 6 whole (28.62) — only
+- 9 and 90: S Rahu → H Mars Dec 9.0171 9 whole (2.17) | S Saturn → J Saturn RA 90.0187 90 whole (0.41) — also: 1 Reve, 4 Brian Boranha
+- 1 and 10: S Makemake → H Makemake RA 10.0137 10 whole (9.95) | S Juno → H Eris Dec 9.9803 10 whole (0.02) | S Makemake → H Transpluto Dec 10.0033 10 whole (70.13) | S Makemake → H Regulus Dec 10.0023 10 whole (78.68) | S Pluto → J Pallas RA 1.0134 1 whole (10.73) | S Rahu → J Chiron RA 1.0105 1 whole (22.67) | S Makemake → J Regulus Dec 10.0028 10 whole (74.23) — also: 1 Reve, 2 Mance Rayder, 4 Brian Boranha, 5 Cracking Find, 6 Blazer
 ### 13 one body pair, every layer
 - none
 ### 14 sky Jupiter repeats natal Jupiter (>= 50)
@@ -183,11 +201,11 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 4 sky X, same number, both charts (>= 80)
 - none
 ### 5 number swap (>= 80)
-- none
+- 74×φ on H Makemake and J Transpluto; 17×φ on J Makemake and H Transpluto: H Makemake – H Aldebaran RA 119.7371 74×φ golden (84.79) | S Eris → J Transpluto RA 119.7378 74×φ golden (80.85) | J Makemake – J Transpluto RA 27.5045 17×φ golden (87.41) | S Quaoar → H Transpluto Dec 27.5038 17×φ golden (83.78) — only
 ### 6 centre on a body tied to natal Jupiter (>= 50)
 - S Sun → J Mars RA 141.4940 141.4 sqrt2 (80.51) | J Mars – J Jupiter RA 122.9112 φ^10 phi power (75.48) — only
 ### 7 numbers in both charts (>= 80, background)
-- 4 numbers: 17×φ golden, 122.222 ninth, 141.4 sqrt2, 4 whole
+- 6 numbers: 17×φ golden, 74×φ golden, 122.222 ninth, 141.4 sqrt2, 30 whole, 4 whole
 ### 8 axis (natal Jupiter on a node)
 - none
 ### 9 natal Jupiter ties (>= 50)
@@ -199,21 +217,25 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - S Jupiter → H Mars RA 65.9992 66 whole (92.33) | S Uranus → H Orcus RA 106.7827 66×φ golden (59.03) | S Transpluto → H Quaoar RA 106.7860 66×φ golden (75.41) — only
 ### 11 values close together (within 0.3)
 - 4.0000 - 4.1430: H Sun – H Ketu Dec 4.0000 4 whole (99.99) | S Pluto → J Gonggong Dec 4.0013 4 whole (87.02) | S Pluto → J Neptune RA 4.0049 4 whole (56.65) | S Mercury → H Gonggong Dec 4.0069 4 whole (42.67) | S Sedna → J Sun Dec 4.0193 4 whole (0.14) | S Uranus → H Haumea Dec 4.1430 4.14 silver (93.34) — only
-- 5.9899 - 6.1800: S Juno → H Pluto RA 5.9899 6 whole (24.36) | S Transpluto → H Pallas Dec 5.9934 6 whole (44.56) | S Uranus → H Jupiter Dec 6.0032 6 whole (70.92) | S Makemake → H Makemake Dec 6.1800 10×φ^-1 phi power (98.06) — only
+- 5.9899 - 6.1800: S Juno → H Pluto RA 5.9899 6 whole (24.36) | S Transpluto → H Pallas Dec 5.9934 6 whole (44.56) | S Ketu → J Antares Dec 5.9953 6 whole (58.88) | S Ketu → H Antares Dec 5.9956 6 whole (60.97) | S Uranus → H Jupiter Dec 6.0032 6 whole (70.92) | S Makemake → H Makemake Dec 6.1800 10×φ^-1 phi power (98.06) — only
 - 8.8884 - 9.0067: S Neptune → H Gonggong Dec 8.8884 8.88889 ninth (96.65) | S Sun → J Rahu RA 8.9810 9 whole (0.26) | H Haumea – H Makemake Dec 9.0067 9 whole (44.16) — only
-- 15.9913 - 16.1878: S Transpluto → J Pluto Dec 15.9913 16 whole (31.65) | S Mercury → H Saturn Dec 16.0159 16 whole (4.29) | H Makemake – H Transpluto Dec 16.1833 10×φ^1 phi power (92.90) | S Mars → H Uranus Dec 16.1863 10×φ^1 phi power (85.75) | S Quaoar → H Uranus Dec 16.1878 10×φ^1 phi power (82.46) — also: 6 Blazer
+- 15.9913 - 16.1878: S Transpluto → J Pluto Dec 15.9913 16 whole (31.65) | S Mercury → H Saturn Dec 16.0159 16 whole (4.29) | H Makemake – H Regulus Dec 16.1822 10×φ^1 phi power (95.54) | H Makemake – H Transpluto Dec 16.1833 10×φ^1 phi power (92.90) | S Mars → H Uranus Dec 16.1863 10×φ^1 phi power (85.75) | S Quaoar → H Uranus Dec 16.1878 10×φ^1 phi power (82.46) — also: 6 Blazer
+- 17.7975 - 18.0147: S Eris → H Pallas Dec 17.7975 11×φ golden (94.96) | S Vesta → H Uranus Dec 17.9461 φ^6 phi power (95.95) | S Jupiter → H Fomalhaut RA 17.9861 18 whole (9.39) | S Jupiter → J Fomalhaut RA 17.9919 18 whole (35.27) | S Eris → H Aldebaran Dec 18.0125 18 whole (14.07) | S Eris → J Aldebaran Dec 18.0147 18 whole (7.07) — also: 1 Reve, 6 Blazer
 - 21.9892 - 22.2243: J Jupiter – J Quaoar RA 21.9892 22 whole (21.03) | S Transpluto → H Neptune Dec 22.0117 22 whole (17.33) | H Mercury – H Sedna RA 22.0148 22 whole (6.79) | S Pallas → J Mercury Dec 22.2243 22.2222 ninth (97.12) — also: 2 Mance Rayder, 3 Red Giant
 - 29.0332 - 29.1254: S Transpluto → H Pluto Dec 29.0332 φ^7 phi power (98.25) | H Mars – H Uranus RA 29.1211 18×φ golden (79.47) | S Rahu → H Venus RA 29.1254 18×φ golden (95.08) — only
-- 30.7429 - 31.0132: J Venus – J Mars Dec 30.7429 19×φ golden (98.50) | H Sun – H Neptune Dec 30.9861 31 whole (9.33) | S Vesta → J Transpluto Dec 30.9896 31 whole (23.26) | J Rahu – J Transpluto Dec 30.9963 31 whole (66.83) | S Orcus → H Haumea Dec 31.0055 31 whole (52.67) | S Ketu → H Venus Dec 31.0132 31 whole (11.69) — also: 5 Cracking Find
+- 30.7429 - 31.0132: J Venus – J Mars Dec 30.7429 19×φ golden (98.50) | S Haumea → J Antares RA 30.7444 19×φ golden (89.55) | S Haumea → H Antares RA 30.7492 19×φ golden (63.46) | H Sun – H Neptune Dec 30.9861 31 whole (9.33) | S Vesta → J Transpluto Dec 30.9896 31 whole (23.26) | J Rahu – J Transpluto Dec 30.9963 31 whole (66.83) | S Orcus → H Haumea Dec 31.0055 31 whole (52.67) | S Ketu → H Venus Dec 31.0132 31 whole (11.69) — also: 1 Reve, 2 Mance Rayder, 5 Cracking Find, 6 Blazer
 - 41.9982 - 42.0665: S Mercury → J Ceres Dec 41.9982 42 whole (82.69) | H Gonggong – H Makemake Dec 42.0059 42 whole (49.96) | H Pluto – H Ketu Dec 42.0076 42 whole (38.44) | J Sun – J Venus RA 42.0665 26×φ golden (85.90) — only
 - 43.6857 - 43.9813: S Mars → H Makemake Dec 43.6857 27×φ golden (92.34) | S Quaoar → H Makemake Dec 43.6871 27×φ golden (98.86) | J Uranus – J Haumea Dec 43.9813 44 whole (0.41) — only
 - 135.9049 - 136.0079: H Makemake – H Sedna RA 135.9049 84×φ golden (47.73) | S Pallas → H Haumea RA 135.9302 84×φ golden (27.73) | S Eris → J Chiron RA 135.9850 136 whole (6.15) | S Makemake → H Chiron RA 136.0057 136 whole (51.48) | S Mars → J Vesta RA 136.0079 136 whole (36.51) — only
 - 147.0113 - 147.2423: S Rahu → H Haumea RA 147.0113 147 whole (19.00) | H Ceres – H Haumea RA 147.2228 91×φ golden (18.95) | S Eris → J Makemake RA 147.2423 91×φ golden (92.97) — only
+- 156.9272 - 157.0193: H Pallas – H Transpluto RA 156.9272 97×φ golden (10.04) | J Rahu – J Aldebaran RA 156.9521 97×φ golden (83.52) | H Uranus – H Haumea RA 157.0193 157 whole (0.11) — only
 - 166.6575 - 166.6694: S Ketu → J Ketu RA 166.6575 103×φ golden (99.94) | S Rahu → J Rahu RA 166.6575 103×φ golden (99.94) | S Mars → J Pallas RA 166.6694 166.667 ninth (99.76) — only
 ### 12 digits across decades (whole N, 10 N)
-- 1 and 10: H Pallas – H Vesta RA 10.0059 10 whole (50.03) | H Ceres – H Gonggong Dec 1.0010 1 whole (90.13) | S Juno → H Eris Dec 9.9913 10 whole (32.20) | S Makemake → H Transpluto Dec 10.0032 10 whole (70.34) | S Orcus → H Ceres Dec 0.9927 1 whole (40.04) | S Orcus → H Saturn Dec 10.0153 10 whole (5.64) | J Chiron – J Orcus Dec 1.0136 1 whole (10.39) | J Eris – J Orcus Dec 9.9968 10 whole (70.72) | S Mercury → J Gonggong Dec 1.0174 1 whole (1.64) — also: 1 Reve, 2 Mance Rayder, 3 Red Giant, 5 Cracking Find, 6 Blazer
+- 1 and 10: H Pallas – H Vesta RA 10.0059 10 whole (50.03) | H Ceres – H Gonggong Dec 1.0010 1 whole (90.13) | S Juno → H Eris Dec 9.9913 10 whole (32.20) | S Makemake → H Transpluto Dec 10.0032 10 whole (70.34) | S Makemake → H Regulus Dec 10.0021 10 whole (79.86) | S Orcus → H Ceres Dec 0.9927 1 whole (40.04) | S Orcus → H Saturn Dec 10.0153 10 whole (5.64) | J Chiron – J Orcus Dec 1.0136 1 whole (10.39) | J Eris – J Orcus Dec 9.9968 10 whole (70.72) | S Mercury → J Gonggong Dec 1.0174 1 whole (1.64) | S Makemake → J Regulus Dec 10.0001 10 whole (99.36) — also: 1 Reve, 2 Mance Rayder, 3 Red Giant, 5 Cracking Find, 6 Blazer
 - 4 and 40: H Sun – H Ketu Dec 4.0000 4 whole (99.99) | S Mercury → H Gonggong Dec 4.0069 4 whole (42.67) | S Orcus → H Makemake Dec 40.0122 40 whole (15.23) | S Pluto → J Neptune RA 4.0049 4 whole (56.65) | S Pluto → J Gonggong Dec 4.0013 4 whole (87.02) | S Sedna → J Sun Dec 4.0193 4 whole (0.14) — also: 1 Reve, 2 Mance Rayder, 3 Red Giant, 5 Cracking Find, 6 Blazer
-- 3 and 30: H Ketu – H Sedna RA 30.0194 30 whole (0.09) | H Saturn – H Makemake Dec 29.9969 30 whole (71.76) | H Sun – H Pallas Dec 2.9811 3 whole (0.29) | S Sun → J Mercury Dec 30.0020 30 whole (80.87) — also: 1 Reve, 2 Mance Rayder, 5 Cracking Find, 6 Blazer
+- 3 and 30: H Ketu – H Sedna RA 30.0194 30 whole (0.09) | H Pluto – H Antares RA 30.0019 30 whole (82.06) | H Saturn – H Makemake Dec 29.9969 30 whole (71.76) | H Sun – H Pallas Dec 2.9811 3 whole (0.29) | S Sun → J Mercury Dec 30.0020 30 whole (80.87) — also: 1 Reve, 2 Mance Rayder, 5 Cracking Find, 6 Blazer
+- 9 and 90: H Haumea – H Makemake Dec 9.0067 9 whole (44.16) | J Mercury – J Aldebaran RA 89.9930 90 whole (41.95) | S Sun → J Rahu RA 8.9810 9 whole (0.26) — also: 1 Reve, 3 Red Giant
+- 15 and 150: H Rahu – H Sedna RA 149.9806 150 whole (0.09) | S Jupiter → H Fomalhaut Dec 15.0034 15 whole (69.16) | S Sun → J Vesta RA 150.0176 150 whole (1.41) | S Jupiter → J Fomalhaut Dec 15.0016 15 whole (84.25) — also: 6 Blazer
 ### 13 one body pair, every layer
 - none
 ### 14 sky Jupiter repeats natal Jupiter (>= 50)
@@ -238,33 +260,42 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 6 centre on a body tied to natal Jupiter (>= 50)
 - S Moon → J Mars RA 176.3736 109×φ golden (57.09) | J Mars – J Jupiter Dec 43.9967 44 whole (69.71) — only
 ### 7 numbers in both charts (>= 80, background)
-- 3 numbers: 104×φ golden, 133.333 ninth, 16.6667 ninth
+- 5 numbers: 104×φ golden, 133.333 ninth, 16.6667 ninth, 3 whole, 36 whole
 ### 8 axis (natal Jupiter on a node)
 - none
 ### 9 natal Jupiter ties (>= 50)
+- H Jupiter – H Antares RA 127.8244 79×φ golden (98.12) — only
+- J Jupiter – J Regulus RA 55.0195 34×φ golden (64.51) — only
 - J Mars – J Jupiter Dec 43.9967 44 whole (69.71) — only
 ### 10 N and N x phi (>= 50)
+- H Uranus – H Fomalhaut RA 16.9992 17 whole (91.71) | S Mars → H Regulus Dec 27.5022 17×φ golden (74.79) | S Quaoar → H Regulus Dec 27.5037 17×φ golden (82.74) | S Mars → J Regulus Dec 27.5025 17×φ golden (76.17) | S Quaoar → J Regulus Dec 27.5039 17×φ golden (84.19) — also: 1 Reve, 3 Red Giant
 - S Ketu → J Juno RA 17.9966 18 whole (69.05) | S Transpluto → H Vesta Dec 29.1220 18×φ golden (84.61) — only
 - S Uranus → H Mercury RA 20.0053 20 whole (53.99) | S Transpluto → J Neptune Dec 32.3673 20×φ golden (63.47) — only
-- S Rahu → H Orcus Dec 27.0028 27 whole (74.11) | S Sedna → H Jupiter RA 43.6864 27×φ golden (97.11) | J Haumea – J Transpluto RA 43.6815 27×φ golden (69.47) — also: 6 Blazer
+- S Jupiter → H Juno Dec 22.0033 22 whole (70.13) | S Sedna → H Gonggong Dec 21.9954 22 whole (59.61) | S Saturn → H Aldebaran Dec 35.5970 22×φ golden (98.21) | S Saturn → J Aldebaran Dec 35.5996 22×φ golden (82.97) — also: 2 Mance Rayder
+- S Rahu → H Orcus Dec 27.0028 27 whole (74.11) | S Sedna → H Jupiter RA 43.6864 27×φ golden (97.11) | J Haumea – J Transpluto RA 43.6815 27×φ golden (69.47) — also: 2 Mance Rayder, 6 Blazer
 - S Neptune → H Pallas RA 49.0024 49 whole (77.02) | S Transpluto → J Quaoar RA 79.2888 49×φ golden (70.68) — only
 - S Moon → J Rahu RA 98.0006 98 whole (94.44) | S Haumea → H Jupiter RA 158.5712 98×φ golden (77.38) — only
+- H Juno – H Aldebaran RA 99.0029 99 whole (73.27) | S Ceres → H Rahu RA 160.1784 99×φ golden (61.58) — only
 ### 11 values close together (within 0.3)
-- 11.0064 - 11.1185: S Venus → J Rahu Dec 11.0064 11 whole (46.06) | H Saturn – H Gonggong Dec 11.0965 φ^5 phi power (78.51) | S Vesta → J Pluto RA 11.1185 11.1111 ninth (87.90) — only
-- 17.7724 - 17.9966: J Pluto – J Ketu Dec 17.7724 17.7778 ninth (95.78) | S Chiron → H Eris RA 17.9461 φ^6 phi power (95.94) | S Mercury → H Mars Dec 17.9845 18 whole (5.16) | S Ketu → J Juno RA 17.9966 18 whole (69.05) — only
-- 30.7422 - 31.0089: H Vesta – H Transpluto Dec 30.7422 19×φ golden (97.04) | S Transpluto → J Vesta Dec 30.9817 31 whole (0.71) | J Saturn – J Vesta RA 30.9834 31 whole (2.90) | H Saturn – H Makemake Dec 30.9835 31 whole (2.99) | S Saturn → H Transpluto Dec 31.0089 31 whole (30.92) — also: 4 Brian Boranha
-- 38.8361 - 39.0046: J Sun – J Chiron Dec 38.8361 24×φ golden (81.00) | H Juno – H Haumea RA 38.9890 39 whole (20.12) | J Uranus – J Chiron Dec 39.0046 39 whole (58.92) — only
-- 105.0059 - 105.1681: S Orcus → H Quaoar RA 105.0059 105 whole (49.67) | S Quaoar → H Mercury RA 105.0157 105 whole (4.60) | S Jupiter → J Juno RA 105.1491 65×φ golden (8.22) | S Orcus → H Sedna RA 105.1681 65×φ golden (76.10) — only
+- 1.4140 - 1.6666: J Ketu – J Transpluto Dec 1.4140 1.414 sqrt2 (98.61) | S Transpluto → H Regulus Dec 1.6663 1.66667 ninth (97.25) | S Transpluto → J Regulus Dec 1.6666 1.66667 ninth (99.44) — only
+- 1.6663 - 1.8887: S Transpluto → H Regulus Dec 1.6663 1.66667 ninth (97.25) | S Transpluto → J Regulus Dec 1.6666 1.66667 ninth (99.44) | H Venus – H Orcus Dec 1.8887 1.88889 ninth (98.44) — only
+- 11.0064 - 11.1185: S Venus → J Rahu Dec 11.0064 11 whole (46.06) | S Chiron → H Aldebaran Dec 11.0195 11 whole (0.06) | H Saturn – H Gonggong Dec 11.0965 φ^5 phi power (78.51) | S Vesta → J Pluto RA 11.1185 11.1111 ninth (87.90) — only
+- 14.4465 - 14.5693: H Neptune – H Antares Dec 14.4465 14.4444 ninth (97.80) | S Vesta → H Saturn Dec 14.4500 14.4444 ninth (94.17) | S Orcus → J Antares Dec 14.5680 9×φ golden (67.76) | S Orcus → H Antares Dec 14.5693 9×φ golden (61.44) — also: 1 Reve, 3 Red Giant
+- 17.7724 - 18.0151: J Pluto – J Ketu Dec 17.7724 17.7778 ninth (95.78) | S Chiron → H Eris RA 17.9461 φ^6 phi power (95.94) | S Jupiter → H Fomalhaut RA 17.9828 18 whole (1.92) | S Jupiter → J Fomalhaut RA 17.9836 18 whole (3.29) | S Mercury → H Mars Dec 17.9845 18 whole (5.16) | S Ketu → J Juno RA 17.9966 18 whole (69.05) | S Eris → H Aldebaran Dec 18.0125 18 whole (14.04) | S Eris → J Aldebaran Dec 18.0151 18 whole (6.01) — only
+- 30.7422 - 31.0089: H Vesta – H Transpluto Dec 30.7422 19×φ golden (97.04) | S Haumea → H Antares RA 30.7468 19×φ golden (75.73) | S Transpluto → J Vesta Dec 30.9817 31 whole (0.71) | J Saturn – J Vesta RA 30.9834 31 whole (2.90) | H Saturn – H Makemake Dec 30.9835 31 whole (2.99) | S Saturn → H Transpluto Dec 31.0089 31 whole (30.92) — also: 1 Reve, 2 Mance Rayder, 4 Brian Boranha, 6 Blazer
+- 38.8337 - 39.0046: J Saturn – J Aldebaran Dec 38.8337 24×φ golden (94.53) | J Sun – J Chiron Dec 38.8361 24×φ golden (81.00) | H Juno – H Haumea RA 38.9890 39 whole (20.12) | J Uranus – J Chiron Dec 39.0046 39 whole (58.92) — only
+- 105.0059 - 105.1681: S Orcus → H Quaoar RA 105.0059 105 whole (49.67) | S Quaoar → H Mercury RA 105.0157 105 whole (4.60) | S Jupiter → J Juno RA 105.1491 65×φ golden (8.22) | S Orcus → H Sedna RA 105.1681 65×φ golden (76.10) — also: 1 Reve, 3 Red Giant
+- 127.8002 - 128.0173: S Haumea → H Fomalhaut RA 127.8002 79×φ golden (5.85) | S Haumea → J Fomalhaut RA 127.8010 79×φ golden (7.20) | H Jupiter – H Antares RA 127.8244 79×φ golden (98.12) | S Ceres → H Saturn RA 128.0173 128 whole (1.86) — also: 2 Mance Rayder
 ### 12 digits across decades (whole N, 10 N)
-- 10 and 100: H Eris – H Gonggong Dec 9.9961 10 whole (65.12) | S Neptune → H Uranus RA 10.0111 10 whole (19.81) | S Sun → H Gonggong RA 100.0145 100 whole (7.60) | J Pluto – J Gonggong RA 100.0139 100 whole (9.28) — also: 1 Reve
-- 7 and 70: H Neptune – H Chiron Dec 7.0098 7 whole (25.81) | S Neptune → H Neptune Dec 7.0175 7 whole (1.53) | J Chiron – J Haumea Dec 7.0048 7 whole (57.56) | S Orcus → J Ceres RA 69.9927 70 whole (40.15) — also: 1 Reve
-- 1 and 10: H Eris – H Gonggong Dec 9.9961 10 whole (65.12) | H Pallas – H Transpluto Dec 1.0077 1 whole (37.96) | S Neptune → H Uranus RA 10.0111 10 whole (19.81) — also: 1 Reve, 2 Mance Rayder, 3 Red Giant, 4 Brian Boranha, 6 Blazer
-- 1 and 100: H Pallas – H Transpluto Dec 1.0077 1 whole (37.96) | S Sun → H Gonggong RA 100.0145 100 whole (7.60) | J Pluto – J Gonggong RA 100.0139 100 whole (9.28) — also: 1 Reve, 2 Mance Rayder, 3 Red Giant, 4 Brian Boranha, 6 Blazer
-- 13 and 130: H Sun – H Haumea Dec 12.9839 13 whole (3.74) | J Haumea – J Makemake Dec 13.0124 13 whole (14.39) | S Makemake → J Gonggong RA 130.0198 130 whole (0.01) — also: 1 Reve
+- 10 and 100: H Eris – H Gonggong Dec 9.9961 10 whole (65.12) | S Neptune → H Uranus RA 10.0111 10 whole (19.81) | S Sun → H Gonggong RA 100.0145 100 whole (7.60) | S Makemake → H Regulus Dec 10.0034 10 whole (68.80) | J Pluto – J Gonggong RA 100.0139 100 whole (9.28) | S Makemake → J Regulus Dec 10.0032 10 whole (70.95) — also: 1 Reve
+- 7 and 70: H Neptune – H Chiron Dec 7.0098 7 whole (25.81) | H Haumea – H Regulus Dec 7.0021 7 whole (80.49) | S Neptune → H Fomalhaut RA 6.9881 7 whole (16.22) | S Neptune → H Neptune Dec 7.0175 7 whole (1.53) | J Chiron – J Haumea Dec 7.0048 7 whole (57.56) | S Neptune → J Fomalhaut RA 6.9872 7 whole (12.95) | S Orcus → J Ceres RA 69.9927 70 whole (40.15) — also: 1 Reve
+- 1 and 10: H Eris – H Gonggong Dec 9.9961 10 whole (65.12) | H Pallas – H Transpluto Dec 1.0077 1 whole (37.96) | S Neptune → H Uranus RA 10.0111 10 whole (19.81) | S Makemake → H Regulus Dec 10.0034 10 whole (68.80) | J Ketu – J Aldebaran Dec 1.0014 1 whole (86.47) | S Makemake → J Regulus Dec 10.0032 10 whole (70.95) — also: 1 Reve, 2 Mance Rayder, 3 Red Giant, 4 Brian Boranha, 6 Blazer
+- 1 and 100: H Pallas – H Transpluto Dec 1.0077 1 whole (37.96) | S Sun → H Gonggong RA 100.0145 100 whole (7.60) | J Pluto – J Gonggong RA 100.0139 100 whole (9.28) | J Ketu – J Aldebaran Dec 1.0014 1 whole (86.47) — also: 1 Reve, 2 Mance Rayder, 3 Red Giant, 4 Brian Boranha, 6 Blazer
+- 13 and 130: H Sun – H Haumea Dec 12.9839 13 whole (3.74) | J Haumea – J Makemake Dec 13.0124 13 whole (14.39) | J Orcus – J Aldebaran Dec 12.9888 13 whole (19.17) | S Makemake → J Gonggong RA 130.0198 130 whole (0.01) — also: 1 Reve, 2 Mance Rayder
 - 4 and 40: S Gonggong → H Neptune RA 3.9919 4 whole (35.57) | S Orcus → H Makemake Dec 40.0002 40 whole (98.32) | S Pluto → J Venus Dec 3.9802 4 whole (0.01) — also: 1 Reve, 2 Mance Rayder, 3 Red Giant, 4 Brian Boranha, 6 Blazer
 - 12 and 120: S Ketu → H Venus Dec 11.9829 12 whole (2.15) | S Orcus → H Mars Dec 11.9839 12 whole (3.87) | S Sedna → H Eris Dec 11.9993 12 whole (93.15) | J Venus – J Haumea RA 119.9954 120 whole (59.03) | J Ketu – J Orcus Dec 11.9874 12 whole (13.52) | S Gonggong → J Uranus Dec 12.0175 12 whole (1.62) — also: 2 Mance Rayder
 - 5 and 50: S Gonggong → H Orcus Dec 5.0168 5 whole (2.49) | S Transpluto → H Jupiter Dec 4.9920 5 whole (36.10) | S Chiron → J Vesta RA 49.9942 50 whole (50.72) — also: 2 Mance Rayder
-- 3 and 30: S Saturn → H Pallas Dec 30.0012 30 whole (88.35) | S Makemake → H Haumea Dec 3.0014 3 whole (86.92) | S Makemake → J Pluto RA 30.0059 30 whole (50.02) | S Ketu → J Sun Dec 2.9941 3 whole (49.68) | S Mercury → J Mars Dec 2.9913 3 whole (32.19) — also: 1 Reve, 2 Mance Rayder, 4 Brian Boranha, 6 Blazer
+- 3 and 30: S Saturn → H Pallas Dec 30.0012 30 whole (88.35) | S Makemake → H Haumea Dec 3.0014 3 whole (86.92) | J Sun – J Antares Dec 2.9997 3 whole (96.61) | S Makemake → J Pluto RA 30.0059 30 whole (50.02) | S Ketu → J Sun Dec 2.9941 3 whole (49.68) | S Mercury → J Mars Dec 2.9913 3 whole (32.19) — also: 1 Reve, 2 Mance Rayder, 4 Brian Boranha, 6 Blazer
 - 2 and 20: S Uranus → H Mercury RA 20.0053 20 whole (53.99) | J Chiron – J Makemake Dec 20.0172 20 whole (1.91) | J Saturn – J Gonggong Dec 1.9964 2 whole (67.35) | S Transpluto → J Eris Dec 20.0102 20 whole (24.24) — also: 1 Reve, 2 Mance Rayder, 3 Red Giant, 6 Blazer
 - 14 and 140: J Mars – J Eris RA 139.9977 140 whole (77.99) | S Eris → J Rahu Dec 14.0043 14 whole (61.92) — also: 1 Reve
 ### 13 one body pair, every layer
@@ -290,35 +321,43 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 6 centre on a body tied to natal Jupiter (>= 50)
 - none
 ### 7 numbers in both charts (>= 80, background)
-- 6 numbers: 111.111 ninth, 144.444 ninth, 155.556 ninth, 177.778 ninth, 11 whole, 18 whole
+- 8 numbers: 111.111 ninth, 122.222 ninth, 144.444 ninth, 15.5556 ninth, 155.556 ninth, 177.778 ninth, 11 whole, 18 whole
 ### 8 axis (natal Jupiter on a node)
 - none
 ### 9 natal Jupiter ties (>= 50)
 - J Jupiter – J Saturn RA 125.9987 126 whole (87.35) — only
 - J Jupiter – J Makemake RA 144.4251 144.444 ninth (97.95) — only
+- J Jupiter – J Aldebaran RA 46.0051 46 whole (55.31) — only
 ### 10 N and N x phi (>= 50)
 - J Mars – J Ketu RA 7.0045 7 whole (59.86) | H Venus – H Sedna Dec 11.3291 7×φ golden (83.13) | S Uranus → J Sedna Dec 11.3299 7×φ golden (78.54) — also: 4 Brian Boranha
 - H Neptune – H Eris Dec 7.9976 8 whole (77.40) | H Saturn – H Quaoar Dec 12.9426 8×φ golden (89.83) — only
-- J Ketu – J Quaoar Dec 12.0027 12 whole (75.19) | S Haumea → H Venus Dec 19.4103 12×φ golden (65.70) — also: 1 Reve
-- H Uranus – H Haumea Dec 18.9954 19 whole (59.47) | S Moon → J Pluto Dec 18.9952 19 whole (57.64) | S Uranus → H Ceres Dec 30.7407 19×φ golden (88.13) — only
-- S Transpluto → J Ketu RA 26.9983 27 whole (84.13) | S Saturn → J Jupiter Dec 27.0008 27 whole (91.75) | J Gonggong – J Haumea Dec 43.6808 27×φ golden (65.98) — also: 5 Cracking Find
+- S Gonggong → H Saturn Dec 9.0012 9 whole (88.18) | S Orcus → H Antares Dec 14.5694 9×φ golden (60.72) | S Orcus → J Antares Dec 14.5686 9×φ golden (64.94) — only
+- S Mars → H Venus Dec 10.9998 11 whole (98.37) | S Quaoar → H Venus Dec 11.0013 11 whole (87.56) | S Sedna → J Mars Dec 11.0008 11 whole (92.31) | J Rahu – J Fomalhaut RA 17.7979 11×φ golden (96.93) — also: 1 Reve, 3 Red Giant
+- J Ketu – J Quaoar Dec 12.0027 12 whole (75.19) | S Haumea → H Venus Dec 19.4103 12×φ golden (65.70) | J Eris – J Fomalhaut Dec 19.4108 12×φ golden (68.17) — also: 1 Reve
+- H Uranus – H Haumea Dec 18.9954 19 whole (59.47) | S Moon → J Pluto Dec 18.9952 19 whole (57.64) | S Haumea → H Antares RA 30.7476 19×φ golden (71.90) | S Uranus → H Ceres Dec 30.7407 19×φ golden (88.13) — also: 2 Mance Rayder
+- S Transpluto → J Ketu RA 26.9983 27 whole (84.13) | S Saturn → J Jupiter Dec 27.0008 27 whole (91.75) | J Gonggong – J Haumea Dec 43.6808 27×φ golden (65.98) — also: 2 Mance Rayder, 5 Cracking Find
 - S Quaoar → J Chiron Dec 32.9945 33 whole (52.80) | J Pluto – J Ceres RA 53.3960 33×φ golden (94.77) — only
 - H Pluto – H Chiron RA 55.9987 56 whole (87.56) | S Moon → J Rahu RA 55.9948 56 whole (54.43) | S Venus → H Mercury RA 90.6059 56×φ golden (76.78) | J Neptune – J Haumea RA 90.6089 56×φ golden (93.67) | S Saturn → J Sedna RA 90.6086 56×φ golden (91.88) — only
 ### 11 values close together (within 0.3)
 - 15.9807 - 16.1817: H Pallas – H Eris Dec 15.9807 16 whole (0.12) | H Venus – H Mars RA 15.9878 16 whole (15.04) | J Sun – J Orcus Dec 16.1817 10×φ^1 phi power (96.65) — also: 4 Brian Boranha
-- 17.9476 - 17.9984: S Uranus → J Mars Dec 17.9476 φ^6 phi power (92.67) | J Mercury – J Rahu Dec 17.9824 18 whole (1.41) | S Orcus → H Jupiter Dec 17.9983 18 whole (83.39) | J Rahu – J Vesta Dec 17.9984 18 whole (85.06) — only
-- 25.8818 - 25.9996: S Saturn → H Sedna Dec 25.8818 16×φ golden (62.67) | H Pallas – H Gonggong Dec 25.9899 26 whole (24.31) | J Neptune – J Sedna Dec 25.9996 26 whole (96.23) — only
-- 29.0027 - 29.0391: J Neptune – J Pallas Dec 29.0027 29 whole (74.73) | J Jupiter – J Gonggong Dec 29.0157 29 whole (4.63) | S Pluto → H Jupiter Dec 29.0176 29 whole (1.38) | S Gonggong → J Chiron Dec 29.0391 φ^7 phi power (93.63) — also: 2 Mance Rayder
+- 17.7979 - 18.0156: J Rahu – J Fomalhaut RA 17.7979 11×φ golden (96.93) | S Uranus → J Mars Dec 17.9476 φ^6 phi power (92.67) | J Mercury – J Rahu Dec 17.9824 18 whole (1.41) | S Jupiter → H Fomalhaut RA 17.9833 18 whole (2.79) | S Jupiter → J Fomalhaut RA 17.9894 18 whole (22.25) | S Orcus → H Jupiter Dec 17.9983 18 whole (83.39) | J Rahu – J Vesta Dec 17.9984 18 whole (85.06) | S Eris → H Aldebaran Dec 18.0125 18 whole (14.21) | S Eris → J Aldebaran Dec 18.0156 18 whole (4.75) — also: 1 Reve, 4 Brian Boranha
+- 25.8810 - 25.9996: H Gonggong – H Regulus Dec 25.8810 16×φ golden (58.62) | S Saturn → H Sedna Dec 25.8818 16×φ golden (62.67) | H Pallas – H Gonggong Dec 25.9899 26 whole (24.31) | J Neptune – J Sedna Dec 25.9996 26 whole (96.23) — also: 1 Reve
+- 28.9910 - 29.0391: J Mercury – J Regulus Dec 28.9910 29 whole (30.42) | J Neptune – J Pallas Dec 29.0027 29 whole (74.73) | J Jupiter – J Gonggong Dec 29.0157 29 whole (4.63) | S Pluto → H Jupiter Dec 29.0176 29 whole (1.38) | S Gonggong → J Chiron Dec 29.0391 φ^7 phi power (93.63) — also: 2 Mance Rayder
+- 30.7407 - 30.9926: S Uranus → H Ceres Dec 30.7407 19×φ golden (88.13) | S Haumea → H Antares RA 30.7476 19×φ golden (71.90) | S Haumea → J Haumea RA 30.9926 31 whole (39.78) — also: 1 Reve, 2 Mance Rayder, 4 Brian Boranha, 5 Cracking Find
 - 85.7539 - 85.9920: S Juno → J Haumea RA 85.7539 53×φ golden (88.32) | J Neptune – J Rahu RA 85.9884 86 whole (17.81) | S Jupiter → H Sedna RA 85.9920 86 whole (36.02) — only
 - 101.9211 - 102.0076: S Saturn → H Sedna RA 101.9211 63×φ golden (28.67) | J Orcus – J Quaoar RA 101.9947 102 whole (53.68) | S Chiron → H Rahu RA 102.0076 102 whole (38.17) — only
+- 110.9857 - 111.1262: J Sedna – J Regulus RA 110.9857 10×φ^5 phi power (71.99) | J Mercury – J Gonggong RA 111.1164 111.111 ninth (99.14) | H Saturn – H Pallas RA 111.1262 111.111 ninth (97.53) — also: 1 Reve
+- 121.9816 - 122.2706: J Vesta – J Antares RA 121.9816 122 whole (0.61) | J Pluto – J Fomalhaut RA 122.2528 122.222 ninth (95.76) | H Vesta – H Aldebaran RA 122.2706 122.222 ninth (93.30) — only
+- 164.9873 - 165.0618: J Mercury – J Eris RA 164.9873 165 whole (13.22) | S Ceres → J Quaoar RA 164.9942 165 whole (50.06) | H Sedna – H Antares RA 165.0618 102×φ golden (9.57) — only
+- 172.9931 - 173.1445: J Juno – J Regulus RA 172.9931 173 whole (43.00) | J Mars – J Rahu RA 172.9955 173 whole (59.86) | S Ketu → H Sedna RA 173.1445 107×φ golden (29.19) — only
 ### 12 digits across decades (whole N, 10 N)
 - 16 and 160: H Venus – H Mars RA 15.9878 16 whole (15.04) | H Venus – H Saturn RA 159.9971 160 whole (72.83) | H Pallas – H Eris Dec 15.9807 16 whole (0.12) | S Pallas → J Ketu RA 160.0016 160 whole (84.29) — only
 - 2 and 20: H Neptune – H Gonggong Dec 2.0116 2 whole (17.77) | S Chiron → H Mars RA 1.9893 2 whole (21.47) | S Transpluto → H Juno Dec 1.9982 2 whole (83.01) | J Mars – J Ketu Dec 1.9886 2 whole (18.28) | S Pallas → J Rahu RA 19.9984 20 whole (84.29) | S Jupiter → J Juno Dec 1.9863 2 whole (9.89) | S Saturn → J Gonggong Dec 2.0149 2 whole (6.62) — also: 1 Reve, 2 Mance Rayder, 3 Red Giant, 5 Cracking Find
 - 3 and 30: H Pluto – H Ceres Dec 2.9857 3 whole (8.11) | S Sun → H Rahu RA 30.0186 30 whole (0.46) | J Pallas – J Sedna Dec 3.0031 3 whole (71.46) | S Rahu → J Chiron Dec 2.9805 3 whole (0.06) | S Makemake → J Vesta Dec 3.0113 3 whole (18.90) — also: 1 Reve, 2 Mance Rayder, 4 Brian Boranha, 5 Cracking Find
-- 1 and 10: H Eris – H Gonggong Dec 10.0092 10 whole (29.35) | H Mercury – H Saturn Dec 10.0158 10 whole (4.35) | H Sun – H Juno Dec 1.0072 1 whole (40.99) | S Pluto → H Vesta RA 9.9923 10 whole (37.74) | S Transpluto → H Sun Dec 0.9910 1 whole (30.40) | J Mars – J Quaoar Dec 10.0141 10 whole (8.68) | S Quaoar → J Ceres RA 0.9960 1 whole (63.99) — also: 1 Reve, 2 Mance Rayder, 3 Red Giant, 4 Brian Boranha, 5 Cracking Find
-- 11 and 110: H Venus – H Quaoar Dec 10.9873 11 whole (13.16) | S Mars → H Venus Dec 10.9998 11 whole (98.37) | S Venus → H Quaoar Dec 10.9916 11 whole (33.70) | S Quaoar → H Venus Dec 11.0013 11 whole (87.56) | S Makemake → J Chiron RA 109.9891 110 whole (20.93) | S Sedna → J Mars Dec 11.0008 11 whole (92.31) — also: 2 Mance Rayder
+- 1 and 10: H Eris – H Gonggong Dec 10.0092 10 whole (29.35) | H Mercury – H Saturn Dec 10.0158 10 whole (4.35) | H Sun – H Juno Dec 1.0072 1 whole (40.99) | S Pluto → H Vesta RA 9.9923 10 whole (37.74) | S Makemake → H Regulus Dec 10.0032 10 whole (70.79) | S Transpluto → H Sun Dec 0.9910 1 whole (30.40) | J Mars – J Quaoar Dec 10.0141 10 whole (8.68) | S Quaoar → J Ceres RA 0.9960 1 whole (63.99) | S Makemake → J Regulus Dec 10.0011 10 whole (89.34) — also: 1 Reve, 2 Mance Rayder, 3 Red Giant, 4 Brian Boranha, 5 Cracking Find
+- 11 and 110: H Venus – H Quaoar Dec 10.9873 11 whole (13.16) | S Chiron → H Aldebaran Dec 11.0195 11 whole (0.07) | S Mars → H Venus Dec 10.9998 11 whole (98.37) | S Venus → H Quaoar Dec 10.9916 11 whole (33.70) | S Quaoar → H Venus Dec 11.0013 11 whole (87.56) | J Rahu – J Regulus Dec 11.0087 11 whole (32.18) | S Makemake → J Chiron RA 109.9891 110 whole (20.93) | S Sedna → J Mars Dec 11.0008 11 whole (92.31) — also: 2 Mance Rayder
+- 15 and 150: S Sun → H Ketu RA 149.9814 150 whole (0.46) | S Jupiter → H Fomalhaut Dec 15.0049 15 whole (56.63) | S Sun → H Venus Dec 14.9963 15 whole (66.04) | J Eris – J Orcus Dec 15.0186 15 whole (0.49) | S Ceres → J Ceres RA 150.0033 150 whole (70.10) | S Jupiter → J Fomalhaut Dec 15.0041 15 whole (63.54) — also: 4 Brian Boranha
 - 4 and 40: S Pallas → H Sun RA 40.0052 40 whole (54.97) | S Pallas → H Ceres Dec 3.9860 4 whole (8.99) | S Sun → H Quaoar Dec 4.0090 4 whole (30.26) | S Neptune → J Ketu Dec 4.0087 4 whole (32.06) | S Transpluto → J Transpluto Dec 4.0115 4 whole (17.85) — also: 1 Reve, 2 Mance Rayder, 3 Red Giant, 4 Brian Boranha, 5 Cracking Find
-- 15 and 150: S Sun → H Ketu RA 149.9814 150 whole (0.46) | S Sun → H Venus Dec 14.9963 15 whole (66.04) | J Eris – J Orcus Dec 15.0186 15 whole (0.49) | S Ceres → J Ceres RA 150.0033 150 whole (70.10) — only
 ### 13 one body pair, every layer
 - Venus – Quaoar: digits 11: H Venus – H Quaoar Dec 10.9873 11 whole (13.16) | S Venus → H Quaoar Dec 10.9916 11 whole (33.70) | S Quaoar → H Venus Dec 11.0013 11 whole (87.56) — only
 ### 14 sky Jupiter repeats natal Jupiter (>= 50)

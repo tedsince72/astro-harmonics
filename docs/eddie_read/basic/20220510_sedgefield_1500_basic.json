@@ -50,12 +50,14 @@
     },
     {
      "check": 7,
-     "key": "('count', 2)",
+     "key": "('count', 4)",
      "cells": [
+      "58×φ golden",
       "155.556 ninth",
+      "17.7778 ninth",
       "3 whole"
      ],
-     "note": "2 numbers",
+     "note": "4 numbers",
      "field": ""
     },
     {
@@ -87,8 +89,31 @@
     },
     {
      "check": 10,
+     "key": "(8,)",
+     "cells": [
+      "S Neptune → J Sun Dec 7.9988 8 whole (88.40)",
+      "S Eris → H Regulus Dec 12.9484 8×φ golden (75.96)",
+      "S Eris → J Regulus Dec 12.9469 8×φ golden (84.21)"
+     ],
+     "note": "",
+     "field": "also: 2 Bright Sunbird, 3 Emorelle, 5 Mrs Paisley"
+    },
+    {
+     "check": 10,
+     "key": "(11,)",
+     "cells": [
+      "H Quaoar – H Antares Dec 11.0010 11 whole (89.87)",
+      "S Neptune → H Fomalhaut RA 11.0006 11 whole (93.97)",
+      "J Jupiter – J Quaoar RA 17.7934 11×φ golden (71.45)"
+     ],
+     "note": "",
+     "field": "also: 4 Wheres Maud Gone"
+    },
+    {
+     "check": 10,
      "key": "(34,)",
      "cells": [
+      "H Saturn – H Regulus Dec 34.0024 34 whole (77.48)",
       "J Uranus – J Gonggong RA 33.9972 34 whole (73.92)",
       "J Neptune – J Pluto RA 55.0160 34×φ golden (82.93)"
      ],
@@ -109,9 +134,37 @@
     },
     {
      "check": 11,
+     "key": "('11', 'φ^5')",
+     "cells": [
+      "H Uranus – H Pallas RA 10.9941 11 whole (49.68)",
+      "S Neptune → H Fomalhaut RA 11.0006 11 whole (93.97)",
+      "H Quaoar – H Antares Dec 11.0010 11 whole (89.87)",
+      "S Neptune → J Fomalhaut RA 11.0060 11 whole (49.33)",
+      "H Ceres – H Sedna Dec 11.0947 φ^5 phi power (84.23)"
+     ],
+     "note": "10.9941 - 11.0947",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('13', '8×φ')",
+     "cells": [
+      "S Eris → J Regulus Dec 12.9469 8×φ golden (84.21)",
+      "S Eris → H Regulus Dec 12.9484 8×φ golden (75.96)",
+      "S Mars → J Gonggong Dec 12.9840 13 whole (3.97)",
+      "H Sedna – H Aldebaran RA 12.9947 13 whole (53.83)",
+      "J Mars – J Fomalhaut Dec 13.0147 13 whole (6.91)",
+      "S Juno → H Quaoar Dec 13.0182 13 whole (0.86)"
+     ],
+     "note": "12.9469 - 13.0182",
+     "field": "also: 2 Bright Sunbird, 3 Emorelle, 4 Wheres Maud Gone, 5 Mrs Paisley"
+    },
+    {
+     "check": 11,
      "key": "('11×φ', '17.7778', '18', 'φ^6')",
      "cells": [
       "H Makemake – H Sedna Dec 17.7701 17.7778 ninth (94.02)",
+      "J Juno – J Regulus Dec 17.7726 17.7778 ninth (95.96)",
       "J Jupiter – J Quaoar RA 17.7934 11×φ golden (71.45)",
       "S Pallas → H Sun Dec 17.9431 φ^6 phi power (97.31)",
       "S Pluto → H Jupiter Dec 17.9837 18 whole (3.47)",
@@ -133,7 +186,7 @@
       "H Sun – H Ceres RA 19.0200 19 whole (0.00)"
      ],
      "note": "18.8826 - 19.0200",
-     "field": "also: 4 Wheres Maud Gone"
+     "field": "also: 3 Emorelle, 4 Wheres Maud Gone"
     },
     {
      "check": 11,
@@ -148,6 +201,18 @@
      ],
      "note": "21.9820 - 22.2290",
      "field": "also: 3 Emorelle, 5 Mrs Paisley"
+    },
+    {
+     "check": 11,
+     "key": "('24', '24.14')",
+     "cells": [
+      "S Chiron → J Mars Dec 23.9893 24 whole (21.73)",
+      "S Juno → J Antares Dec 24.0179 24 whole (1.12)",
+      "S Juno → H Antares Dec 24.0192 24 whole (0.16)",
+      "S Makemake → J Makemake RA 24.1437 24.14 silver (97.35)"
+     ],
+     "note": "23.9893 - 24.1437",
+     "field": "also: 5 Mrs Paisley"
     },
     {
      "check": 11,
@@ -182,7 +247,7 @@
       "S Juno → J Orcus RA 156.9868 157 whole (11.61)"
      ],
      "note": "156.9289 - 156.9868",
-     "field": "only"
+     "field": "also: 4 Wheres Maud Gone"
     },
     {
      "check": 11,
@@ -193,17 +258,22 @@
       "S Pallas → J Jupiter RA 174.7408 108×φ golden (61.99)",
       "S Saturn → H Rahu RA 174.7413 108×φ golden (64.32)",
       "S Orcus → J Venus RA 174.7781 108×φ golden (0.34)",
+      "S Saturn → J Regulus RA 174.9834 175 whole (2.96)",
+      "S Saturn → H Regulus RA 174.9889 175 whole (19.90)",
       "S Makemake → H Mercury RA 175.0182 175 whole (0.81)"
      ],
      "note": "174.7236 - 175.0182",
-     "field": "only"
+     "field": "also: 3 Emorelle"
     },
     {
      "check": 12,
      "key": "(11,)",
      "cells": [
       "H Sun – H Pluto RA 109.9868 110 whole (11.61)",
-      "H Uranus – H Pallas RA 10.9941 11 whole (49.68)"
+      "H Uranus – H Pallas RA 10.9941 11 whole (49.68)",
+      "H Quaoar – H Antares Dec 11.0010 11 whole (89.87)",
+      "S Neptune → H Fomalhaut RA 11.0006 11 whole (93.97)",
+      "S Neptune → J Fomalhaut RA 11.0060 11 whole (49.33)"
      ],
      "note": "11 and 110",
      "field": "also: 4 Wheres Maud Gone, 5 Mrs Paisley"
@@ -230,6 +300,22 @@
       "S Eris → J Neptune Dec 20.0081 20 whole (35.36)"
      ],
      "note": "2 and 20",
+     "field": "also: 2 Bright Sunbird, 3 Emorelle, 4 Wheres Maud Gone, 5 Mrs Paisley"
+    },
+    {
+     "check": 12,
+     "key": "(6,)",
+     "cells": [
+      "H Venus – H Sedna Dec 5.9866 6 whole (10.86)",
+      "S Sedna → H Chiron Dec 6.0062 6 whole (47.33)",
+      "J Vesta – J Aldebaran RA 60.0094 60 whole (27.94)",
+      "J Jupiter – J Neptune Dec 5.9880 6 whole (16.13)",
+      "J Ketu – J Transpluto Dec 5.9824 6 whole (1.41)",
+      "S Saturn → J Mercury RA 6.0080 6 whole (36.08)",
+      "S Jupiter → J Mercury Dec 5.9935 6 whole (45.68)",
+      "S Mars → J Saturn Dec 5.9887 6 whole (18.91)"
+     ],
+     "note": "6 and 60",
      "field": "also: 2 Bright Sunbird, 3 Emorelle, 4 Wheres Maud Gone, 5 Mrs Paisley"
     },
     {
@@ -269,10 +355,12 @@
       "H Pluto – H Ceres Dec 39.9828 40 whole (2.01)",
       "S Chiron → H Rahu Dec 3.9986 4 whole (86.84)",
       "S Rahu → H Mars Dec 3.9971 4 whole (73.49)",
+      "S Haumea → H Regulus Dec 4.0174 4 whole (1.68)",
       "S Rahu → J Uranus Dec 40.0037 40 whole (66.60)",
       "S Venus → J Vesta Dec 4.0108 4 whole (21.16)",
       "S Vesta → J Gonggong Dec 3.9944 4 whole (52.10)",
-      "S Gonggong → J Jupiter Dec 4.0061 4 whole (48.55)"
+      "S Gonggong → J Jupiter Dec 4.0061 4 whole (48.55)",
+      "S Haumea → J Regulus Dec 4.0189 4 whole (0.30)"
      ],
      "note": "4 and 40",
      "field": "also: 2 Bright Sunbird, 3 Emorelle, 4 Wheres Maud Gone, 5 Mrs Paisley"
@@ -282,6 +370,7 @@
      "key": "(1,)",
      "cells": [
       "H Eris – H Gonggong Dec 9.9976 10 whole (77.03)",
+      "S Sedna → H Aldebaran RA 10.0192 10 whole (0.15)",
       "S Juno → H Mercury Dec 10.0145 10 whole (7.67)",
       "S Mars → H Juno Dec 1.0178 1 whole (1.17)",
       "S Gonggong → J Neptune Dec 9.9941 10 whole (49.68)"
@@ -372,6 +461,26 @@
      "field": "only"
     },
     {
+     "check": 9,
+     "key": "('J', 'Aldebaran', '23×φ')",
+     "cells": [
+      "J Jupiter – J Aldebaran Dec 37.2127 23×φ golden (87.81)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(8,)",
+     "cells": [
+      "S Chiron → H Chiron Dec 8.0023 8 whole (78.61)",
+      "S Eris → H Regulus Dec 12.9473 8×φ golden (81.93)",
+      "S Eris → J Regulus Dec 12.9474 8×φ golden (81.83)"
+     ],
+     "note": "",
+     "field": "also: 1 Blue Collar Glory, 3 Emorelle, 5 Mrs Paisley"
+    },
+    {
      "check": 10,
      "key": "(12,)",
      "cells": [
@@ -393,26 +502,40 @@
     },
     {
      "check": 11,
+     "key": "('13', '8×φ')",
+     "cells": [
+      "S Eris → H Regulus Dec 12.9473 8×φ golden (81.93)",
+      "S Eris → J Regulus Dec 12.9474 8×φ golden (81.83)",
+      "J Mercury – J Pluto Dec 13.0100 13 whole (24.99)",
+      "J Uranus – J Eris Dec 13.0123 13 whole (14.99)"
+     ],
+     "note": "12.9473 - 13.0123",
+     "field": "also: 1 Blue Collar Glory, 3 Emorelle, 4 Wheres Maud Gone, 5 Mrs Paisley"
+    },
+    {
+     "check": 11,
      "key": "('14', '14.14')",
      "cells": [
       "J Pallas – J Juno Dec 14.0012 14 whole (88.01)",
       "S Gonggong → H Mercury RA 14.0174 14 whole (1.66)",
-      "S Neptune → J Saturn RA 14.1416 14.14 sqrt2 (98.57)"
+      "S Neptune → J Saturn RA 14.1416 14.14 sqrt2 (98.57)",
+      "J Gonggong – J Fomalhaut RA 14.1432 14.14 sqrt2 (96.98)"
      ],
-     "note": "14.0012 - 14.1416",
+     "note": "14.0012 - 14.1432",
      "field": "also: 5 Mrs Paisley"
     },
     {
      "check": 11,
      "key": "('13×φ', '21')",
      "cells": [
+      "H Pallas – H Antares RA 20.9866 21 whole (10.78)",
       "J Mercury – J Orcus Dec 20.9979 21 whole (79.93)",
       "S Neptune → H Haumea Dec 21.0109 21 whole (20.81)",
       "S Orcus → H Mars Dec 21.0161 21 whole (3.81)",
       "S Mars → H Venus Dec 21.0330 13×φ golden (91.10)",
       "J Rahu – J Quaoar RA 21.0372 13×φ golden (83.87)"
      ],
-     "note": "20.9979 - 21.0372",
+     "note": "20.9866 - 21.0372",
      "field": "also: 3 Emorelle, 4 Wheres Maud Gone"
     },
     {
@@ -420,6 +543,8 @@
      "key": "('15×φ', '24', '24.14')",
      "cells": [
       "J Ketu – J Eris Dec 23.9913 24 whole (31.98)",
+      "S Juno → J Antares Dec 24.0175 24 whole (1.54)",
+      "S Juno → H Antares Dec 24.0186 24 whole (0.52)",
       "S Pallas → J Pallas Dec 24.1487 24.14 silver (89.38)",
       "S Pallas → J Vesta Dec 24.2784 15×φ golden (57.29)"
      ],
@@ -432,10 +557,25 @@
      "cells": [
       "S Pallas → J Ceres Dec 28.9875 29 whole (14.10)",
       "H Neptune – H Ketu RA 28.9995 29 whole (94.90)",
+      "H Chiron – H Fomalhaut Dec 29.0014 29 whole (86.55)",
       "J Pluto – J Vesta Dec 29.1213 18×φ golden (80.47)",
       "J Makemake – J Transpluto RA 29.1288 18×φ golden (75.87)"
      ],
      "note": "28.9875 - 29.1288",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('23×φ', '37')",
+     "cells": [
+      "J Uranus – J Ketu Dec 37.0036 37 whole (67.51)",
+      "S Chiron → H Fomalhaut Dec 37.0037 37 whole (66.74)",
+      "S Chiron → J Fomalhaut Dec 37.0046 37 whole (58.92)",
+      "H Pluto – H Aldebaran Dec 37.0123 37 whole (14.76)",
+      "S Transpluto → J Pallas Dec 37.0195 37 whole (0.06)",
+      "J Jupiter – J Aldebaran Dec 37.2127 23×φ golden (87.81)"
+     ],
+     "note": "37.0036 - 37.2127",
      "field": "only"
     },
     {
@@ -447,6 +587,18 @@
       "S Ceres → J Rahu Dec 42.0678 26×φ golden (93.22)"
      ],
      "note": "42.0194 - 42.0678",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('10×φ^3', '26×φ')",
+     "cells": [
+      "S Ceres → H Quaoar Dec 42.0646 26×φ golden (75.49)",
+      "S Ceres → J Rahu Dec 42.0678 26×φ golden (93.22)",
+      "S Uranus → J Antares Dec 42.3603 10×φ^3 phi power (99.60)",
+      "S Uranus → H Antares Dec 42.3613 10×φ^3 phi power (99.41)"
+     ],
+     "note": "42.0646 - 42.3613",
      "field": "only"
     },
     {
@@ -472,15 +624,70 @@
      "field": "only"
     },
     {
+     "check": 11,
+     "key": "('152', '94×φ')",
+     "cells": [
+      "S Jupiter → H Regulus RA 152.0131 152 whole (11.89)",
+      "S Jupiter → J Regulus RA 152.0143 152 whole (8.18)",
+      "H Venus – H Rahu RA 152.0769 94×φ golden (18.91)"
+     ],
+     "note": "152.0131 - 152.0769",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('100×φ^1', '162')",
+     "cells": [
+      "J Transpluto – J Fomalhaut RA 161.8078 100×φ^1 phi power (98.92)",
+      "J Pallas – J Antares RA 161.8474 100×φ^1 phi power (89.43)",
+      "S Uranus → J Pluto RA 161.8793 100×φ^1 phi power (82.12)",
+      "S Sun → J Jupiter RA 162.0016 162 whole (84.53)"
+     ],
+     "note": "161.8078 - 162.0016",
+     "field": "only"
+    },
+    {
      "check": 12,
      "key": "(4,)",
      "cells": [
       "H Rahu – H Makemake RA 3.9843 4 whole (4.69)",
       "H Mars – H Uranus Dec 4.0098 4 whole (26.18)",
+      "S Haumea → H Regulus Dec 4.0185 4 whole (0.57)",
       "J Venus – J Uranus Dec 3.9893 4 whole (21.57)",
-      "S Jupiter → J Ketu RA 39.9937 40 whole (46.64)"
+      "J Transpluto – J Antares Dec 39.9870 40 whole (12.21)",
+      "S Jupiter → J Ketu RA 39.9937 40 whole (46.64)",
+      "S Haumea → J Regulus Dec 4.0185 4 whole (0.58)"
      ],
      "note": "4 and 40",
+     "field": "also: 1 Blue Collar Glory, 3 Emorelle, 4 Wheres Maud Gone, 5 Mrs Paisley"
+    },
+    {
+     "check": 12,
+     "key": "(2,)",
+     "cells": [
+      "H Orcus – H Regulus RA 2.0110 2 whole (20.26)",
+      "H Orcus – H Transpluto Dec 19.9966 20 whole (69.06)",
+      "S Transpluto → H Transpluto RA 2.0107 2 whole (21.84)",
+      "S Eris → H Eris Dec 1.9974 2 whole (75.30)",
+      "S Mars → H Rahu Dec 1.9950 2 whole (56.42)",
+      "S Pallas → H Haumea Dec 19.9839 20 whole (3.81)",
+      "S Uranus → H Jupiter Dec 2.0010 2 whole (90.68)",
+      "S Uranus → J Eris RA 20.0145 20 whole (7.70)",
+      "S Saturn → J Juno Dec 2.0168 2 whole (2.63)"
+     ],
+     "note": "2 and 20",
+     "field": "also: 1 Blue Collar Glory, 3 Emorelle, 4 Wheres Maud Gone, 5 Mrs Paisley"
+    },
+    {
+     "check": 12,
+     "key": "(6,)",
+     "cells": [
+      "H Ketu – H Aldebaran RA 59.9825 60 whole (1.60)",
+      "H Vesta – H Orcus Dec 5.9871 6 whole (12.71)",
+      "S Neptune → H Neptune Dec 6.0008 6 whole (92.39)",
+      "S Juno → J Eris Dec 5.9814 6 whole (0.49)"
+     ],
+     "note": "6 and 60",
      "field": "also: 1 Blue Collar Glory, 3 Emorelle, 4 Wheres Maud Gone, 5 Mrs Paisley"
     },
     {
@@ -494,6 +701,19 @@
      ],
      "note": "1 and 10",
      "field": "also: 1 Blue Collar Glory, 3 Emorelle, 4 Wheres Maud Gone, 5 Mrs Paisley"
+    },
+    {
+     "check": 12,
+     "key": "(12,)",
+     "cells": [
+      "H Rahu – H Aldebaran RA 120.0175 120 whole (1.60)",
+      "S Pallas → H Eris RA 11.9913 12 whole (32.12)",
+      "S Uranus → H Sedna RA 12.0000 12 whole (99.57)",
+      "J Quaoar – J Antares Dec 11.9853 12 whole (7.12)",
+      "S Saturn → J Pallas Dec 11.9845 12 whole (5.02)"
+     ],
+     "note": "12 and 120",
+     "field": "also: 4 Wheres Maud Gone"
     },
     {
      "check": 12,
@@ -517,22 +737,6 @@
      ],
      "note": "14 and 140",
      "field": "also: 1 Blue Collar Glory, 3 Emorelle"
-    },
-    {
-     "check": 12,
-     "key": "(2,)",
-     "cells": [
-      "H Orcus – H Transpluto Dec 19.9966 20 whole (69.06)",
-      "S Transpluto → H Transpluto RA 2.0107 2 whole (21.84)",
-      "S Eris → H Eris Dec 1.9974 2 whole (75.30)",
-      "S Mars → H Rahu Dec 1.9950 2 whole (56.42)",
-      "S Pallas → H Haumea Dec 19.9839 20 whole (3.81)",
-      "S Uranus → H Jupiter Dec 2.0010 2 whole (90.68)",
-      "S Uranus → J Eris RA 20.0145 20 whole (7.70)",
-      "S Saturn → J Juno Dec 2.0168 2 whole (2.63)"
-     ],
-     "note": "2 and 20",
-     "field": "also: 1 Blue Collar Glory, 3 Emorelle, 4 Wheres Maud Gone, 5 Mrs Paisley"
     },
     {
      "check": 12,
@@ -566,6 +770,7 @@
       "S Sedna → H Chiron Dec 8.9841 9 whole (4.26)",
       "J Mercury – J Ketu RA 90.0145 90 whole (7.52)",
       "J Mercury – J Rahu RA 89.9855 90 whole (7.52)",
+      "J Venus – J Antares Dec 9.0132 9 whole (11.72)",
       "S Moon → J Haumea Dec 9.0107 9 whole (21.61)"
      ],
      "note": "9 and 90",
@@ -652,10 +857,11 @@
      "key": "(8,)",
      "cells": [
       "S Jupiter → H Venus Dec 8.0056 8 whole (51.75)",
+      "S Eris → H Regulus Dec 12.9493 8×φ golden (71.36)",
       "S Quaoar → H Eris Dec 12.9403 8×φ golden (77.14)"
      ],
      "note": "",
-     "field": "only"
+     "field": "also: 1 Blue Collar Glory, 2 Bright Sunbird, 5 Mrs Paisley"
     },
     {
      "check": 10,
@@ -666,6 +872,17 @@
      ],
      "note": "",
      "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(17,)",
+     "cells": [
+      "S Sedna → H Makemake Dec 17.0046 17 whole (58.94)",
+      "S Gonggong → H Aldebaran Dec 27.5033 17×φ golden (80.80)",
+      "S Gonggong → J Aldebaran Dec 27.5048 17×φ golden (89.43)"
+     ],
+     "note": "",
+     "field": "also: 4 Wheres Maud Gone, 5 Mrs Paisley"
     },
     {
      "check": 10,
@@ -691,16 +908,27 @@
      "field": "also: 5 Mrs Paisley"
     },
     {
+     "check": 10,
+     "key": "(56,)",
+     "cells": [
+      "J Neptune – J Antares RA 55.9943 56 whole (50.92)",
+      "J Ketu – J Quaoar RA 90.6029 56×φ golden (61.22)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
      "check": 11,
      "key": "('1', '1.22222')",
      "cells": [
+      "H Haumea – H Aldebaran Dec 0.9869 1 whole (12.05)",
       "S Makemake → J Mars Dec 0.9944 1 whole (52.16)",
       "H Jupiter – H Makemake RA 1.0027 1 whole (74.61)",
       "S Neptune → H Eris Dec 1.0096 1 whole (26.85)",
       "S Saturn → H Quaoar Dec 1.0127 1 whole (13.36)",
       "S Juno → J Ketu RA 1.2226 1.22222 ninth (94.74)"
      ],
-     "note": "0.9944 - 1.2226",
+     "note": "0.9869 - 1.2226",
      "field": "only"
     },
     {
@@ -710,6 +938,7 @@
       "J Pallas – J Juno Dec 1.8886 1.88889 ninth (98.25)",
       "S Saturn → H Ketu Dec 1.9921 2 whole (36.32)",
       "J Neptune – J Gonggong Dec 1.9953 2 whole (58.15)",
+      "H Mercury – H Regulus Dec 2.0026 2 whole (75.30)",
       "H Uranus – H Sedna Dec 2.0063 2 whole (47.05)",
       "S Mars → H Jupiter Dec 2.0116 2 whole (17.51)",
       "S Haumea → H Mercury Dec 2.0139 2 whole (9.33)"
@@ -723,6 +952,7 @@
      "cells": [
       "S Saturn → H Ketu Dec 1.9921 2 whole (36.32)",
       "J Neptune – J Gonggong Dec 1.9953 2 whole (58.15)",
+      "H Mercury – H Regulus Dec 2.0026 2 whole (75.30)",
       "H Uranus – H Sedna Dec 2.0063 2 whole (47.05)",
       "S Mars → H Jupiter Dec 2.0116 2 whole (17.51)",
       "S Haumea → H Mercury Dec 2.0139 2 whole (9.33)",
@@ -738,6 +968,8 @@
       "S Ceres → H Vesta Dec 4.0078 4 whole (37.36)",
       "S Ceres → J Sun Dec 4.0101 4 whole (24.55)",
       "S Sedna → H Rahu Dec 4.0153 4 whole (5.41)",
+      "S Haumea → J Regulus Dec 4.0154 4 whole (5.24)",
+      "S Haumea → H Regulus Dec 4.0165 4 whole (3.00)",
       "S Rahu → H Vesta Dec 4.1421 4.14 silver (99.75)"
      ],
      "note": "4.0078 - 4.1421",
@@ -745,10 +977,24 @@
     },
     {
      "check": 11,
+     "key": "('7', '7.07')",
+     "cells": [
+      "S Sun → J Rahu Dec 6.9940 7 whole (49.33)",
+      "S Gonggong → H Fomalhaut RA 6.9950 7 whole (56.18)",
+      "S Gonggong → J Fomalhaut RA 6.9968 7 whole (70.36)",
+      "S Moon → J Juno Dec 7.0711 7.07 sqrt2 (99.98)"
+     ],
+     "note": "6.9940 - 7.0711",
+     "field": "only"
+    },
+    {
+     "check": 11,
      "key": "('11', '11.1111', 'φ^5')",
      "cells": [
       "S Transpluto → H Sun Dec 10.9835 11 whole (3.06)",
+      "S Neptune → J Fomalhaut RA 10.9963 11 whole (66.71)",
       "S Gonggong → H Saturn Dec 10.9973 11 whole (74.67)",
+      "S Neptune → H Fomalhaut RA 10.9981 11 whole (82.08)",
       "S Vesta → H Jupiter Dec 11.0012 11 whole (88.51)",
       "S Eris → J Saturn Dec 11.0166 11 whole (2.84)",
       "S Pallas → J Chiron Dec 11.0962 φ^5 phi power (79.29)",
@@ -762,6 +1008,7 @@
      "key": "('13', '8×φ')",
      "cells": [
       "S Quaoar → H Eris Dec 12.9403 8×φ golden (77.14)",
+      "S Eris → H Regulus Dec 12.9493 8×φ golden (71.36)",
       "S Neptune → H Uranus Dec 12.9809 13 whole (0.18)",
       "S Sedna → H Ceres Dec 12.9809 13 whole (0.19)",
       "S Mercury → H Uranus Dec 12.9832 13 whole (2.63)",
@@ -770,12 +1017,13 @@
       "S Makemake → J Saturn Dec 13.0121 13 whole (15.59)"
      ],
      "note": "12.9403 - 13.0121",
-     "field": "only"
+     "field": "also: 1 Blue Collar Glory, 2 Bright Sunbird, 4 Wheres Maud Gone, 5 Mrs Paisley"
     },
     {
      "check": 11,
-     "key": "('18', 'φ^6')",
+     "key": "('17.7778', '18', 'φ^6')",
      "cells": [
+      "H Saturn – H Antares RA 17.7724 17.7778 ninth (95.79)",
       "S Quaoar → H Chiron Dec 17.9448 φ^6 phi power (98.78)",
       "S Uranus → J Jupiter Dec 17.9463 φ^6 phi power (95.52)",
       "S Chiron → H Makemake Dec 17.9865 18 whole (10.59)",
@@ -783,18 +1031,30 @@
       "S Haumea → J Jupiter Dec 18.0011 18 whole (88.98)",
       "S Chiron → J Ketu Dec 18.0135 18 whole (10.52)"
      ],
-     "note": "17.9448 - 18.0135",
+     "note": "17.7724 - 18.0135",
      "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('18.8889', '19')",
+     "cells": [
+      "S Juno → H Pluto Dec 18.8843 18.8889 ninth (96.71)",
+      "J Ketu – J Fomalhaut Dec 18.9854 19 whole (7.27)",
+      "S Sedna → J Ketu Dec 18.9954 19 whole (59.10)"
+     ],
+     "note": "18.8843 - 18.9954",
+     "field": "also: 1 Blue Collar Glory, 4 Wheres Maud Gone"
     },
     {
      "check": 11,
      "key": "('13×φ', '21')",
      "cells": [
+      "H Orcus – H Regulus Dec 20.9942 21 whole (50.76)",
       "S Eris → H Saturn Dec 21.0113 21 whole (18.96)",
       "S Sun → H Eris RA 21.0128 21 whole (12.84)",
       "S Gonggong → J Saturn Dec 21.0306 13×φ golden (77.88)"
      ],
-     "note": "21.0113 - 21.0306",
+     "note": "20.9942 - 21.0306",
      "field": "also: 2 Bright Sunbird, 4 Wheres Maud Gone"
     },
     {
@@ -822,9 +1082,23 @@
     },
     {
      "check": 11,
+     "key": "('108×φ', '175')",
+     "cells": [
+      "J Quaoar – J Aldebaran RA 174.7595 108×φ golden (40.17)",
+      "S Eris → H Haumea RA 174.9893 175 whole (21.64)",
+      "S Saturn → H Regulus RA 174.9913 175 whole (31.69)",
+      "S Saturn → J Regulus RA 174.9930 175 whole (42.50)",
+      "H Gonggong – H Orcus RA 175.0174 175 whole (1.72)"
+     ],
+     "note": "174.7595 - 175.0174",
+     "field": "also: 1 Blue Collar Glory"
+    },
+    {
+     "check": 11,
      "key": "('110×φ', '177.778')",
      "cells": [
       "J Rahu – J Gonggong RA 177.7003 177.778 ninth (93.94)",
+      "J Ketu – J Regulus RA 177.7514 177.778 ninth (97.93)",
       "J Pallas – J Makemake RA 177.7804 177.778 ninth (99.80)",
       "S Transpluto → J Gonggong RA 177.7911 177.778 ninth (98.95)",
       "J Jupiter – J Makemake RA 177.9545 110×φ golden (0.95)"
@@ -849,9 +1123,12 @@
      "cells": [
       "H Jupiter – H Makemake RA 1.0027 1 whole (74.61)",
       "H Sun – H Sedna RA 9.9987 10 whole (87.25)",
+      "H Haumea – H Aldebaran Dec 0.9869 1 whole (12.05)",
       "S Juno → H Neptune RA 9.9853 10 whole (7.01)",
+      "S Sedna → H Aldebaran RA 10.0186 10 whole (0.50)",
       "S Neptune → H Eris Dec 1.0096 1 whole (26.85)",
       "S Saturn → H Quaoar Dec 1.0127 1 whole (13.36)",
+      "S Sedna → J Aldebaran RA 10.0193 10 whole (0.12)",
       "S Makemake → J Mars Dec 0.9944 1 whole (52.16)"
      ],
      "note": "1 and 10",
@@ -863,32 +1140,18 @@
      "cells": [
       "H Ketu – H Quaoar Dec 3.0047 3 whole (58.19)",
       "S Orcus → H Transpluto RA 3.0027 3 whole (74.71)",
-      "S Sun → H Ketu Dec 30.0048 30 whole (58.00)"
+      "S Sun → H Ketu Dec 30.0048 30 whole (58.00)",
+      "J Uranus – J Fomalhaut RA 29.9855 30 whole (7.68)"
      ],
      "note": "3 and 30",
      "field": "also: 1 Blue Collar Glory, 2 Bright Sunbird, 4 Wheres Maud Gone"
     },
     {
      "check": 12,
-     "key": "(13,)",
-     "cells": [
-      "H Juno – H Sedna RA 130.0098 130 whole (26.24)",
-      "H Rahu – H Makemake Dec 12.9893 13 whole (21.62)",
-      "S Ketu → H Juno Dec 13.0005 13 whole (94.86)",
-      "S Mercury → H Uranus Dec 12.9832 13 whole (2.63)",
-      "S Neptune → H Uranus Dec 12.9809 13 whole (0.18)",
-      "S Sedna → H Ceres Dec 12.9809 13 whole (0.19)",
-      "J Makemake – J Sedna RA 129.9954 130 whole (59.15)",
-      "S Makemake → J Saturn Dec 13.0121 13 whole (15.59)"
-     ],
-     "note": "13 and 130",
-     "field": "only"
-    },
-    {
-     "check": 12,
      "key": "(2,)",
      "cells": [
       "H Vesta – H Transpluto RA 20.0176 20 whole (1.42)",
+      "H Mercury – H Regulus Dec 2.0026 2 whole (75.30)",
       "H Uranus – H Sedna Dec 2.0063 2 whole (47.05)",
       "H Gonggong – H Sedna Dec 20.0108 20 whole (20.97)",
       "S Mars → H Jupiter Dec 2.0116 2 whole (17.51)",
@@ -905,11 +1168,28 @@
     },
     {
      "check": 12,
+     "key": "(13,)",
+     "cells": [
+      "H Juno – H Sedna RA 130.0098 130 whole (26.24)",
+      "H Rahu – H Makemake Dec 12.9893 13 whole (21.62)",
+      "S Ketu → H Juno Dec 13.0005 13 whole (94.86)",
+      "S Mercury → H Uranus Dec 12.9832 13 whole (2.63)",
+      "S Neptune → H Uranus Dec 12.9809 13 whole (0.18)",
+      "S Sedna → H Ceres Dec 12.9809 13 whole (0.19)",
+      "J Makemake – J Sedna RA 129.9954 130 whole (59.15)",
+      "S Makemake → J Saturn Dec 13.0121 13 whole (15.59)"
+     ],
+     "note": "13 and 130",
+     "field": "also: 4 Wheres Maud Gone"
+    },
+    {
+     "check": 12,
      "key": "(14,)",
      "cells": [
       "H Sun – H Juno RA 140.0084 140 whole (33.42)",
       "H Venus – H Neptune Dec 13.9858 14 whole (8.39)",
       "S Mars → H Gonggong RA 14.0020 14 whole (81.40)",
+      "J Jupiter – J Regulus Dec 13.9857 14 whole (8.16)",
       "J Mars – J Saturn Dec 14.0066 14 whole (45.23)"
      ],
      "note": "14 and 140",
@@ -921,9 +1201,11 @@
      "cells": [
       "H Jupiter – H Transpluto RA 39.9951 40 whole (57.35)",
       "S Ceres → H Vesta Dec 4.0078 4 whole (37.36)",
+      "S Haumea → H Regulus Dec 4.0165 4 whole (3.00)",
       "S Sedna → H Rahu Dec 4.0153 4 whole (5.41)",
       "J Sun – J Gonggong Dec 40.0136 40 whole (10.33)",
-      "S Ceres → J Sun Dec 4.0101 4 whole (24.55)"
+      "S Ceres → J Sun Dec 4.0101 4 whole (24.55)",
+      "S Haumea → J Regulus Dec 4.0154 4 whole (5.24)"
      ],
      "note": "4 and 40",
      "field": "also: 1 Blue Collar Glory, 2 Bright Sunbird, 4 Wheres Maud Gone, 5 Mrs Paisley"
@@ -939,7 +1221,7 @@
       "S Quaoar → J Pluto Dec 5.9931 6 whole (42.82)"
      ],
      "note": "6 and 60",
-     "field": "also: 4 Wheres Maud Gone, 5 Mrs Paisley"
+     "field": "also: 1 Blue Collar Glory, 2 Bright Sunbird, 4 Wheres Maud Gone, 5 Mrs Paisley"
     },
     {
      "check": 12,
@@ -1000,6 +1282,39 @@
     },
     {
      "check": 10,
+     "key": "(7,)",
+     "cells": [
+      "S Gonggong → J Fomalhaut RA 6.9980 7 whole (81.18)",
+      "S Ceres → J Sun Dec 11.3249 7×φ golden (92.10)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(11,)",
+     "cells": [
+      "S Neptune → H Fomalhaut RA 11.0037 11 whole (66.29)",
+      "S Neptune → J Fomalhaut RA 10.9951 11 whole (56.93)",
+      "S Sedna → J Eris Dec 17.7955 11×φ golden (82.97)"
+     ],
+     "note": "",
+     "field": "also: 1 Blue Collar Glory"
+    },
+    {
+     "check": 10,
+     "key": "(17,)",
+     "cells": [
+      "J Eris – J Antares Dec 16.9986 17 whole (86.63)",
+      "S Makemake → H Juno RA 27.5013 17×φ golden (70.27)",
+      "S Gonggong → H Aldebaran Dec 27.5035 17×φ golden (82.06)",
+      "S Gonggong → J Aldebaran Dec 27.5058 17×φ golden (95.52)"
+     ],
+     "note": "",
+     "field": "also: 3 Emorelle, 5 Mrs Paisley"
+    },
+    {
+     "check": 10,
      "key": "(20,)",
      "cells": [
       "H Ceres – H Vesta Dec 19.9965 20 whole (68.33)",
@@ -1035,11 +1350,24 @@
      "key": "('11', '11.1111')",
      "cells": [
       "S Rahu → H Sedna Dec 10.9897 11 whole (23.30)",
+      "S Neptune → J Fomalhaut RA 10.9951 11 whole (56.93)",
+      "S Neptune → H Fomalhaut RA 11.0037 11 whole (66.29)",
       "J Sun – J Sedna Dec 11.0098 11 whole (26.13)",
       "S Gonggong → H Chiron Dec 11.1120 11.1111 ninth (98.54)"
      ],
      "note": "10.9897 - 11.1120",
      "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('13', '8×φ')",
+     "cells": [
+      "S Gonggong → H Ceres RA 12.9448 8×φ golden (96.70)",
+      "S Eris → H Regulus Dec 12.9471 8×φ golden (83.24)",
+      "S Sun → J Juno Dec 12.9829 13 whole (2.17)"
+     ],
+     "note": "12.9448 - 12.9829",
+     "field": "also: 1 Blue Collar Glory, 2 Bright Sunbird, 3 Emorelle, 5 Mrs Paisley"
     },
     {
      "check": 11,
@@ -1067,7 +1395,7 @@
       "S Saturn → J Juno Dec 19.0139 19 whole (9.38)"
      ],
      "note": "18.8859 - 19.0139",
-     "field": "also: 1 Blue Collar Glory"
+     "field": "also: 1 Blue Collar Glory, 3 Emorelle"
     },
     {
      "check": 11,
@@ -1095,6 +1423,17 @@
      "field": "only"
     },
     {
+     "check": 11,
+     "key": "('157', '97×φ')",
+     "cells": [
+      "J Sun – J Fomalhaut RA 156.9457 97×φ golden (78.88)",
+      "J Uranus – J Aldebaran RA 156.9732 97×φ golden (6.75)",
+      "H Haumea – H Sedna RA 157.0073 157 whole (40.58)"
+     ],
+     "note": "156.9457 - 157.0073",
+     "field": "also: 1 Blue Collar Glory"
+    },
+    {
      "check": 12,
      "key": "(2,)",
      "cells": [
@@ -1113,11 +1452,26 @@
       "H Ceres – H Vesta RA 39.9965 40 whole (68.22)",
       "H Rahu – H Sedna Dec 3.9853 4 whole (7.13)",
       "H Vesta – H Transpluto Dec 4.0198 4 whole (0.01)",
+      "S Haumea → H Regulus Dec 4.0187 4 whole (0.41)",
       "J Uranus – J Quaoar RA 40.0032 40 whole (70.97)",
+      "S Haumea → J Regulus Dec 4.0149 4 whole (6.41)",
       "S Sedna → J Orcus Dec 3.9850 4 whole (6.33)"
      ],
      "note": "4 and 40",
      "field": "also: 1 Blue Collar Glory, 2 Bright Sunbird, 3 Emorelle, 5 Mrs Paisley"
+    },
+    {
+     "check": 12,
+     "key": "(11,)",
+     "cells": [
+      "S Mercury → H Rahu RA 110.0056 110 whole (51.75)",
+      "S Neptune → H Fomalhaut RA 11.0037 11 whole (66.29)",
+      "S Rahu → H Sedna Dec 10.9897 11 whole (23.30)",
+      "J Sun – J Sedna Dec 11.0098 11 whole (26.13)",
+      "S Neptune → J Fomalhaut RA 10.9951 11 whole (56.93)"
+     ],
+     "note": "11 and 110",
+     "field": "also: 1 Blue Collar Glory, 5 Mrs Paisley"
     },
     {
      "check": 12,
@@ -1129,7 +1483,21 @@
       "S Eris → J Quaoar Dec 11.9886 12 whole (18.38)"
      ],
      "note": "12 and 120",
-     "field": "only"
+     "field": "also: 2 Bright Sunbird"
+    },
+    {
+     "check": 12,
+     "key": "(7,)",
+     "cells": [
+      "S Mercury → H Ketu RA 69.9944 70 whole (51.75)",
+      "S Gonggong → H Fomalhaut RA 6.9894 7 whole (22.07)",
+      "J Saturn – J Fomalhaut Dec 6.9802 7 whole (0.01)",
+      "S Gonggong → J Fomalhaut RA 6.9980 7 whole (81.18)",
+      "S Mars → J Rahu Dec 6.9833 7 whole (2.75)",
+      "S Sun → J Mars Dec 7.0150 7 whole (6.13)"
+     ],
+     "note": "7 and 70",
+     "field": "also: 5 Mrs Paisley"
     },
     {
      "check": 12,
@@ -1158,7 +1526,7 @@
       "S Saturn → J Gonggong Dec 5.9884 6 whole (17.65)"
      ],
      "note": "6 and 60",
-     "field": "also: 3 Emorelle, 5 Mrs Paisley"
+     "field": "also: 1 Blue Collar Glory, 2 Bright Sunbird, 3 Emorelle, 5 Mrs Paisley"
     },
     {
      "check": 12,
@@ -1171,17 +1539,6 @@
      ],
      "note": "15 and 150",
      "field": "also: 2 Bright Sunbird, 3 Emorelle"
-    },
-    {
-     "check": 12,
-     "key": "(11,)",
-     "cells": [
-      "S Mercury → H Rahu RA 110.0056 110 whole (51.75)",
-      "S Rahu → H Sedna Dec 10.9897 11 whole (23.30)",
-      "J Sun – J Sedna Dec 11.0098 11 whole (26.13)"
-     ],
-     "note": "11 and 110",
-     "field": "also: 1 Blue Collar Glory, 5 Mrs Paisley"
     },
     {
      "check": 12,
@@ -1198,14 +1555,13 @@
     },
     {
      "check": 12,
-     "key": "(7,)",
+     "key": "(13,)",
      "cells": [
-      "S Mercury → H Ketu RA 69.9944 70 whole (51.75)",
-      "S Mars → J Rahu Dec 6.9833 7 whole (2.75)",
-      "S Sun → J Mars Dec 7.0150 7 whole (6.13)"
+      "H Uranus – H Antares RA 129.9804 130 whole (0.03)",
+      "S Sun → J Juno Dec 12.9829 13 whole (2.17)"
      ],
-     "note": "7 and 70",
-     "field": "also: 5 Mrs Paisley"
+     "note": "13 and 130",
+     "field": "also: 3 Emorelle"
     }
    ]
   },
@@ -1279,6 +1635,18 @@
     },
     {
      "check": 10,
+     "key": "(8,)",
+     "cells": [
+      "S Venus → H Pallas Dec 7.9966 8 whole (69.22)",
+      "H Makemake – H Regulus Dec 12.9498 8×φ golden (68.70)",
+      "S Eris → H Regulus Dec 12.9478 8×φ golden (79.63)",
+      "S Eris → J Regulus Dec 12.9495 8×φ golden (70.26)"
+     ],
+     "note": "",
+     "field": "also: 1 Blue Collar Glory, 2 Bright Sunbird, 3 Emorelle"
+    },
+    {
+     "check": 10,
      "key": "(14,)",
      "cells": [
       "S Mars → H Gonggong RA 14.0032 14 whole (70.97)",
@@ -1287,6 +1655,17 @@
      ],
      "note": "",
      "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(17,)",
+     "cells": [
+      "S Juno → J Vesta Dec 16.9987 17 whole (87.70)",
+      "S Gonggong → H Aldebaran Dec 27.5032 17×φ golden (79.98)",
+      "S Gonggong → J Aldebaran Dec 27.5043 17×φ golden (86.26)"
+     ],
+     "note": "",
+     "field": "also: 3 Emorelle, 4 Wheres Maud Gone"
     },
     {
      "check": 10,
@@ -1302,6 +1681,7 @@
      "check": 10,
      "key": "(38,)",
      "cells": [
+      "H Pluto – H Aldebaran Dec 38.0003 38 whole (97.33)",
       "J Rahu – J Gonggong Dec 38.0023 38 whole (78.08)",
       "S Ceres → H Uranus RA 61.4893 38×φ golden (76.86)"
      ],
@@ -1331,6 +1711,19 @@
      ],
      "note": "11.9887 - 12.2275",
      "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('13', '8×φ')",
+     "cells": [
+      "S Eris → H Regulus Dec 12.9478 8×φ golden (79.63)",
+      "S Eris → J Regulus Dec 12.9495 8×φ golden (70.26)",
+      "H Makemake – H Regulus Dec 12.9498 8×φ golden (68.70)",
+      "H Venus – H Chiron Dec 12.9966 13 whole (69.03)",
+      "J Mercury – J Regulus Dec 13.0094 13 whole (28.25)"
+     ],
+     "note": "12.9478 - 13.0094",
+     "field": "also: 1 Blue Collar Glory, 2 Bright Sunbird, 3 Emorelle, 4 Wheres Maud Gone"
     },
     {
      "check": 11,
@@ -1375,10 +1768,26 @@
     },
     {
      "check": 11,
+     "key": "('24', '24.14')",
+     "cells": [
+      "S Jupiter → J Eris RA 23.9857 24 whole (8.08)",
+      "J Neptune – J Sedna Dec 23.9911 24 whole (30.97)",
+      "J Neptune – J Gonggong RA 23.9921 24 whole (36.32)",
+      "S Rahu → H Eris RA 23.9946 24 whole (53.40)",
+      "S Juno → H Antares Dec 24.0189 24 whole (0.32)",
+      "S Juno → J Antares Dec 24.0194 24 whole (0.09)",
+      "J Juno – J Antares Dec 24.1437 24.14 silver (97.41)"
+     ],
+     "note": "23.9857 - 24.1437",
+     "field": "also: 1 Blue Collar Glory"
+    },
+    {
+     "check": 11,
      "key": "('28×φ', '45')",
      "cells": [
       "J Mars – J Ketu Dec 45.0198 45 whole (0.01)",
       "S Venus → J Uranus RA 45.3014 28×φ golden (79.37)",
+      "H Pluto – H Antares RA 45.3022 28×φ golden (83.99)",
       "S Makemake → H Saturn Dec 45.3055 28×φ golden (96.46)"
      ],
      "note": "45.0198 - 45.3055",
@@ -1402,18 +1811,47 @@
       "S Moon → J Saturn RA 109.9899 110 whole (24.69)",
       "S Uranus → H Orcus RA 110.0102 68×φ golden (25.32)",
       "S Sun → J Ketu RA 110.0153 68×φ golden (43.39)",
-      "S Moon → H Quaoar RA 110.0343 68×φ golden (56.66)"
+      "S Moon → H Quaoar RA 110.0343 68×φ golden (56.66)",
+      "J Orcus – J Antares RA 110.0532 68×φ golden (2.81)"
      ],
-     "note": "109.9899 - 110.0343",
+     "note": "109.9899 - 110.0532",
      "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('154', '95×φ')",
+     "cells": [
+      "J Uranus – J Rahu RA 153.7285 95×φ golden (28.02)",
+      "H Chiron – H Regulus RA 153.9811 154 whole (0.32)",
+      "H Venus – H Makemake RA 154.0013 154 whole (87.30)"
+     ],
+     "note": "153.7285 - 154.0013",
+     "field": "only"
+    },
+    {
+     "check": 12,
+     "key": "(1,)",
+     "cells": [
+      "H Transpluto – H Regulus RA 0.9925 1 whole (38.88)",
+      "H Sun – H Juno Dec 9.9933 10 whole (44.44)",
+      "S Rahu → H Sun Dec 10.0185 10 whole (0.53)",
+      "S Venus → H Chiron Dec 0.9914 1 whole (32.72)",
+      "J Sun – J Haumea Dec 0.9856 1 whole (7.79)",
+      "S Pallas → J Sedna RA 10.0164 10 whole (3.25)",
+      "S Sedna → J Aldebaran RA 10.0183 10 whole (0.76)"
+     ],
+     "note": "1 and 10",
+     "field": "also: 1 Blue Collar Glory, 2 Bright Sunbird, 3 Emorelle, 4 Wheres Maud Gone"
     },
     {
      "check": 12,
      "key": "(7,)",
      "cells": [
       "H Jupiter – H Orcus Dec 7.0093 7 whole (28.46)",
+      "S Gonggong → H Fomalhaut RA 6.9909 7 whole (29.57)",
       "S Pluto → H Quaoar Dec 6.9954 7 whole (59.65)",
       "S Sun → J Rahu RA 69.9847 70 whole (5.60)",
+      "S Gonggong → J Fomalhaut RA 6.9939 7 whole (48.57)",
       "S Orcus → J Neptune Dec 7.0114 7 whole (18.57)"
      ],
      "note": "7 and 70",
@@ -1440,10 +1878,11 @@
       "H Pallas – H Gonggong Dec 6.0072 6 whole (40.90)",
       "H Rahu – H Transpluto Dec 6.0071 6 whole (41.69)",
       "S Makemake → H Haumea Dec 5.9976 6 whole (77.16)",
+      "J Chiron – J Antares RA 6.0163 6 whole (3.50)",
       "S Venus → J Neptune RA 60.0097 60 whole (26.60)"
      ],
      "note": "6 and 60",
-     "field": "also: 3 Emorelle, 4 Wheres Maud Gone"
+     "field": "also: 1 Blue Collar Glory, 2 Bright Sunbird, 3 Emorelle, 4 Wheres Maud Gone"
     },
     {
      "check": 12,
@@ -1451,10 +1890,12 @@
      "cells": [
       "H Pluto – H Vesta Dec 3.9980 4 whole (81.39)",
       "S Eris → H Neptune RA 40.0061 40 whole (48.48)",
+      "S Haumea → H Regulus Dec 4.0181 4 whole (0.92)",
       "S Orcus → H Quaoar Dec 4.0002 4 whole (97.53)",
       "S Vesta → J Juno RA 4.0066 4 whole (44.94)",
       "S Pluto → J Neptune Dec 3.9843 4 whole (4.65)",
-      "S Sun → J Haumea Dec 3.9938 4 whole (47.83)"
+      "S Sun → J Haumea Dec 3.9938 4 whole (47.83)",
+      "S Haumea → J Regulus Dec 4.0163 4 whole (3.38)"
      ],
      "note": "4 and 40",
      "field": "also: 1 Blue Collar Glory, 2 Bright Sunbird, 3 Emorelle, 4 Wheres Maud Gone"
@@ -1463,24 +1904,14 @@
      "check": 12,
      "key": "(11,)",
      "cells": [
+      "S Neptune → H Fomalhaut RA 11.0022 11 whole (78.89)",
       "S Mars → H Jupiter Dec 10.9880 11 whole (15.88)",
-      "S Moon → J Saturn RA 109.9899 110 whole (24.69)"
+      "J Sedna – J Aldebaran Dec 10.9876 11 whole (14.41)",
+      "S Moon → J Saturn RA 109.9899 110 whole (24.69)",
+      "S Neptune → J Fomalhaut RA 10.9992 11 whole (91.90)"
      ],
      "note": "11 and 110",
      "field": "also: 1 Blue Collar Glory, 4 Wheres Maud Gone"
-    },
-    {
-     "check": 12,
-     "key": "(1,)",
-     "cells": [
-      "H Sun – H Juno Dec 9.9933 10 whole (44.44)",
-      "S Rahu → H Sun Dec 10.0185 10 whole (0.53)",
-      "S Venus → H Chiron Dec 0.9914 1 whole (32.72)",
-      "J Sun – J Haumea Dec 0.9856 1 whole (7.79)",
-      "S Pallas → J Sedna RA 10.0164 10 whole (3.25)"
-     ],
-     "note": "1 and 10",
-     "field": "also: 1 Blue Collar Glory, 2 Bright Sunbird, 3 Emorelle, 4 Wheres Maud Gone"
     },
     {
      "check": 12,

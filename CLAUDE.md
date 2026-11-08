@@ -183,7 +183,11 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   body tied to natal Jupiter; numbers in both charts (count, background); axis; natal Jupiter ties; N and N x phi; values close together;
   digits across decades (8 / 80); one body pair every layer (Jupiter - Saturn 80 / 8 / 8); 14 sky Jupiter repeats natal Jupiter
   (same chart, same number, both >= 50; from Pholas, 8 Nov 2026); 15 sky X on natal Y both charts, crossed planes (one RA, one Dec,
-  both >= 80; from Athmad / Pholas / Greaneteen, 8 Nov 2026; in-sample 6 winners of 18 holders, 3.0 by chance, over 14 result races). Each item 'only' / 'also'. Tests
+  both >= 80; from Athmad / Pholas / Greaneteen, 8 Nov 2026; in-sample 6 winners of 18 holders, 3.0 by chance, over 14 result races). Each item 'only' / 'also'.
+  Royal stars (Eddie, 8 Nov 2026): Aldebaran, Antares, Fomalhaut, Regulus as natal points (natal body - star in each chart, sky body -> natal
+  star); no star - star pairs, no sky star rows. A sky body -> natal star cell is the same for every runner and both charts, so it is left
+  out of checks 2a, 2b, 4, 5, 7, 13, 15 (kept in 6, 9-12). Checks 2a, 2b, 4, 15 unchanged on all 39 files; added items: 9 +111, 13 +1, 6 +14,
+  5 +6, 1 +4, 10-12 grown. Check 9 royal: 45 holders, 7 winners, 6.7 by chance (16 result races). Tests 70/70. Tests
   `python3 tests/eddie_basic_check.py` (Newcastle cases + the cell set of every _active.xlsx by its own reader). Run on all 37 _active files.
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).

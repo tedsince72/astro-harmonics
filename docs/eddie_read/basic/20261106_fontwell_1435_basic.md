@@ -1,18 +1,18 @@
 # Basic view: 20261106_fontwell_1435
 
-The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
+The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies and the four royal stars (no other stars, no equator, no angles, no natal Moon; sky → royal star cells are shared by every runner and left out of checks 2a, 2b, 4, 5, 7, 13, 15). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in another runner.
 
 ## Field
 | Runner | 1 | 2a | 2b | 15 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 Fire Flyer / Richie McLernon | 1 (1 only) | - | 1 (1 only) | 1 (1 only) | - | 1 (1 only) | - | - | 2 | - | 2 (2 only) | 4 (3 only) | 9 (4 only) | 4 (0 only) | - | - |
-| 2 Lynx De Thaix / Gavin Sheehan | - | - | 1 (1 only) | 1 (1 only) | - | - | - | - | 6 | - | 4 (4 only) | 5 (3 only) | 10 (4 only) | 8 (1 only) | - | - |
-| 3 Donnie Azoff / Isabelle Ryder | 1 (1 only) | 1 (1 only) | 1 (1 only) | - | - | - | - | - | 2 | - | 4 (4 only) | 5 (3 only) | 5 (3 only) | 7 (2 only) | - | - |
+| 1 Fire Flyer / Richie McLernon | 1 (1 only) | - | 1 (1 only) | 1 (1 only) | - | 1 (1 only) | - | 1 (1 only) | 3 | - | 4 (4 only) | 7 (4 only) | 14 (5 only) | 5 (1 only) | - | - |
+| 2 Lynx De Thaix / Gavin Sheehan | - | - | 1 (1 only) | 1 (1 only) | - | - | - | - | 6 | - | 4 (4 only) | 5 (3 only) | 12 (3 only) | 8 (1 only) | - | - |
+| 3 Donnie Azoff / Isabelle Ryder | 1 (1 only) | 1 (1 only) | 1 (1 only) | - | - | - | - | - | 3 | - | 4 (4 only) | 5 (3 only) | 7 (3 only) | 7 (2 only) | - | - |
 | 4 Paso Doble / Paddy Hanlon | - | - | - | - | - | - | - | - | 0 | - | 2 (2 only) | 1 (0 only) | 3 (3 only) | 4 (0 only) | - | - |
-| 5 He's A Latchico / Caoilin Quinn | - | 1 (1 only) | 1 (1 only) | - | - | - | - | - | 5 | - | - | 6 (4 only) | 12 (9 only) | 5 (0 only) | - | - |
-| 6 So You Know / Tom Bellamy | - | 1 (1 only) | 1 (1 only) | - | - | - | - | 1 (1 only) | 4 | - | 4 (4 only) | 5 (4 only) | 7 (3 only) | 11 (1 only) | - | - |
-| 7 Motazzen / Paul O'Brien | - | - | - | - | - | - | - | - | 5 | - | 3 (3 only) | 3 (0 only) | 9 (4 only) | 7 (1 only) | - | - |
-| 8 The Bellhop / Freddie Mitchell | - | - | - | - | - | - | - | - | 5 | - | 2 (2 only) | 9 (5 only) | 9 (4 only) | 5 (0 only) | 1 (1 only) | - |
+| 5 He's A Latchico / Caoilin Quinn | - | 1 (1 only) | 1 (1 only) | - | - | - | - | - | 5 | - | - | 7 (4 only) | 15 (8 only) | 7 (0 only) | - | - |
+| 6 So You Know / Tom Bellamy | - | 1 (1 only) | 1 (1 only) | - | - | - | - | 1 (1 only) | 4 | - | 5 (5 only) | 8 (5 only) | 8 (3 only) | 11 (1 only) | - | - |
+| 7 Motazzen / Paul O'Brien | - | - | - | - | - | - | - | - | 5 | - | 4 (4 only) | 7 (4 only) | 12 (5 only) | 7 (1 only) | - | - |
+| 8 The Bellhop / Freddie Mitchell | - | - | - | - | - | - | - | - | 6 | - | 2 (2 only) | 11 (5 only) | 17 (6 only) | 6 (0 only) | 1 (1 only) | - |
 
 Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts, same number; 2b sky X on natal Y, both charts, both >= 80; 15 sky X on natal Y, both charts, crossed planes (>= 80); 3 sky X on both natal Jupiters (>= 80); 4 sky X, same number, both charts (>= 80); 5 number swap (>= 80); 6 centre on a body tied to natal Jupiter (>= 50); 7 numbers in both charts (>= 80, background); 8 axis (natal Jupiter on a node); 9 natal Jupiter ties (>= 50); 10 N and N x phi (>= 50); 11 values close together (within 0.3); 12 digits across decades (whole N, 10 N); 13 one body pair, every layer; 14 sky Jupiter repeats natal Jupiter (>= 50).
 
@@ -32,33 +32,44 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 5 number swap (>= 80)
 - none
 ### 6 centre on a body tied to natal Jupiter (>= 50)
-- none
+- S Sun → H Antares RA 25.9995 26 whole (94.95) | H Jupiter – H Antares Dec 11.0032 11 whole (70.71) — only
 ### 7 numbers in both charts (>= 80, background)
-- 2 numbers: 144.444 ninth, 26 whole
+- 3 numbers: 122.222 ninth, 144.444 ninth, 26 whole
 ### 8 axis (natal Jupiter on a node)
 - none
 ### 9 natal Jupiter ties (>= 50)
 - H Jupiter – H Quaoar Dec 0.0756 conj conj (55.95) — only
+- H Jupiter – H Antares Dec 11.0032 11 whole (70.71) — only
+- J Jupiter – J Regulus RA 166.6000 166.667 ninth (94.29) — only
 - J Jupiter – J Sedna Dec 11.3276 7×φ golden (91.60) — only
 ### 10 N and N x phi (>= 50)
 - S Saturn → H Pallas Dec 0.9947 1 whole (54.01) | S Rahu → J Sun Dec 1.6185 1×φ golden (97.01) — only
-- S Ketu → H Juno Dec 7.9955 8 whole (60.03) | S Gonggong → H Ketu Dec 7.9944 8 whole (51.57) | S Gonggong → H Vesta Dec 8.0043 8 whole (61.28) | S Quaoar → J Uranus Dec 8.0005 8 whole (95.07) | S Uranus → H Sedna Dec 12.9443 8×φ golden (99.72) — also: 5 He's A Latchico, 8 The Bellhop
-- S Orcus → J Haumea RA 22.9991 23 whole (90.74) | S Eris → J Uranus Dec 22.9981 23 whole (81.50) | S Ceres → H Orcus RA 37.2142 23×φ golden (96.16) — only
+- S Ketu → H Juno Dec 7.9955 8 whole (60.03) | S Gonggong → H Ketu Dec 7.9944 8 whole (51.57) | S Gonggong → H Vesta Dec 8.0043 8 whole (61.28) | S Quaoar → J Uranus Dec 8.0005 8 whole (95.07) | H Makemake – H Regulus Dec 12.9469 8×φ golden (84.57) | S Uranus → H Sedna Dec 12.9443 8×φ golden (99.72) — also: 5 He's A Latchico, 8 The Bellhop
+- H Jupiter – H Antares Dec 11.0032 11 whole (70.71) | S Juno → J Sedna Dec 17.7934 11×φ golden (71.75) — also: 2 Lynx De Thaix, 6 So You Know, 7 Motazzen, 8 The Bellhop
+- S Orcus → J Haumea RA 22.9991 23 whole (90.74) | S Eris → J Uranus Dec 22.9981 23 whole (81.50) | S Ceres → H Orcus RA 37.2142 23×φ golden (96.16) — also: 8 The Bellhop
 - S Rahu → J Vesta RA 41.0031 41 whole (71.31) | S Makemake → J Mercury Dec 40.9990 41 whole (90.56) | S Quaoar → J Ceres RA 66.3345 41×φ golden (71.89) — only
+- S Makemake → J Antares Dec 46.0055 46 whole (52.37) | S Ceres → J Sedna RA 74.4218 46×φ golden (57.54) — only
+- J Mercury – J Regulus RA 77.9986 78 whole (86.46) | S Sun → H Neptune RA 126.2072 78×φ golden (96.41) — only
 ### 11 values close together (within 0.3)
 - 6.9833 - 7.0714: S Quaoar → J Ceres Dec 6.9833 7 whole (2.70) | S Quaoar → J Neptune RA 7.0098 7 whole (25.97) | S Makemake → J Pallas RA 7.0104 7 whole (23.27) | S Moon → H Eris Dec 7.0714 7.07 sqrt2 (98.36) — only
+- 11.0032 - 11.1122: H Jupiter – H Antares Dec 11.0032 11 whole (70.71) | H Neptune – H Juno Dec 11.0926 φ^5 phi power (91.41) | S Gonggong → J Mercury Dec 11.1122 11.1111 ninth (98.23) — also: 2 Lynx De Thaix, 8 The Bellhop
 - 11.0926 - 11.3276: H Neptune – H Juno Dec 11.0926 φ^5 phi power (91.41) | S Gonggong → J Mercury Dec 11.1122 11.1111 ninth (98.23) | J Jupiter – J Sedna Dec 11.3276 7×φ golden (91.60) — also: 2 Lynx De Thaix, 8 The Bellhop
-- 12.9443 - 12.9958: S Uranus → H Sedna Dec 12.9443 8×φ golden (99.72) | S Transpluto → J Haumea Dec 12.9870 13 whole (12.26) | J Sun – J Pluto RA 12.9958 13 whole (62.67) — also: 2 Lynx De Thaix, 7 Motazzen, 8 The Bellhop
-- 14.0139 - 14.1430: S Sun → H Eris Dec 14.0139 14 whole (9.26) | J Eris – J Sedna Dec 14.0140 14 whole (8.94) | H Saturn – H Pluto RA 14.0189 14 whole (0.33) | J Neptune – J Ketu Dec 14.1430 14.14 sqrt2 (97.64) — also: 2 Lynx De Thaix
+- 12.9443 - 12.9962: S Uranus → H Sedna Dec 12.9443 8×φ golden (99.72) | H Makemake – H Regulus Dec 12.9469 8×φ golden (84.57) | S Transpluto → J Haumea Dec 12.9870 13 whole (12.26) | J Sun – J Pluto RA 12.9958 13 whole (62.67) | H Venus – H Regulus Dec 12.9962 13 whole (65.38) — also: 2 Lynx De Thaix, 5 He's A Latchico, 7 Motazzen, 8 The Bellhop
+- 14.0139 - 14.1430: S Sun → H Eris Dec 14.0139 14 whole (9.26) | J Eris – J Sedna Dec 14.0140 14 whole (8.94) | H Saturn – H Pluto RA 14.0189 14 whole (0.33) | J Neptune – J Ketu Dec 14.1430 14.14 sqrt2 (97.64) — also: 2 Lynx De Thaix, 8 The Bellhop
 - 17.7764 - 18.0193: S Vesta → J Neptune Dec 17.7764 17.7778 ninth (98.93) | S Juno → J Sedna Dec 17.7934 11×φ golden (71.75) | S Juno → H Chiron Dec 18.0121 18 whole (15.41) | S Neptune → H Mercury Dec 18.0193 18 whole (0.11) — only
-- 26.0003 - 26.1858: S Jupiter → J Juno Dec 26.0003 26 whole (97.33) | S Jupiter → H Gonggong Dec 26.0009 26 whole (91.57) | H Vesta – H Sedna Dec 26.1858 10×φ^2 phi power (91.78) — only
+- 25.8800 - 26.0167: S Orcus → H Regulus Dec 25.8800 16×φ golden (54.17) | S Orcus → J Regulus Dec 25.8807 16×φ golden (57.54) | S Sun → J Antares RA 25.9886 26 whole (18.68) | S Sun → H Antares RA 25.9995 26 whole (94.95) | S Jupiter → J Juno Dec 26.0003 26 whole (97.33) | S Jupiter → H Gonggong Dec 26.0009 26 whole (91.57) | H Orcus – H Aldebaran Dec 26.0167 26 whole (2.72) — also: 2 Lynx De Thaix, 3 Donnie Azoff, 5 He's A Latchico, 6 So You Know, 7 Motazzen, 8 The Bellhop
+- 25.9886 - 26.1858: S Sun → J Antares RA 25.9886 26 whole (18.68) | S Sun → H Antares RA 25.9995 26 whole (94.95) | S Jupiter → J Juno Dec 26.0003 26 whole (97.33) | S Jupiter → H Gonggong Dec 26.0009 26 whole (91.57) | H Orcus – H Aldebaran Dec 26.0167 26 whole (2.72) | H Vesta – H Sedna Dec 26.1858 10×φ^2 phi power (91.78) — also: 8 The Bellhop
 - 28.9832 - 29.0349: S Uranus → J Ceres Dec 28.9832 29 whole (2.53) | S Chiron → H Ketu Dec 28.9880 29 whole (15.91) | S Chiron → H Vesta Dec 28.9980 29 whole (80.64) | J Mars – J Rahu Dec 29.0117 29 whole (17.31) | S Pluto → J Orcus Dec 29.0119 29 whole (16.44) | S Mercury → J Saturn RA 29.0349 φ^7 phi power (99.41) — also: 2 Lynx De Thaix
-- 36.9970 - 37.2142: S Mercury → J Haumea Dec 36.9970 37 whole (71.94) | J Pluto – J Juno RA 37.0105 37 whole (22.73) | S Ceres → H Orcus RA 37.2142 23×φ golden (96.16) — also: 5 He's A Latchico
+- 36.9970 - 37.2142: S Mercury → J Haumea Dec 36.9970 37 whole (71.94) | J Pluto – J Juno RA 37.0105 37 whole (22.73) | S Ceres → J Regulus RA 37.0184 37 whole (0.60) | S Ceres → H Regulus RA 37.0185 37 whole (0.57) | S Ceres → H Orcus RA 37.2142 23×φ golden (96.16) — also: 5 He's A Latchico, 7 Motazzen
+- 51.7734 - 51.9984: S Neptune → H Ketu RA 51.7734 32×φ golden (78.28) | J Sun – J Uranus RA 51.9851 52 whole (6.60) | H Pluto – H Fomalhaut RA 51.9984 52 whole (84.82) — only
+- 155.3244 - 155.5017: S Mercury → H Juno RA 155.3244 96×φ golden (61.93) | S Chiron → J Mercury RA 155.3409 96×φ golden (49.50) | H Vesta – H Aldebaran RA 155.5017 155.556 ninth (94.90) — only
+- 174.7237 - 175.0135: S Sedna → J Antares RA 174.7237 108×φ golden (6.79) | S Uranus → H Antares RA 174.7705 108×φ golden (8.60) | S Rahu → J Transpluto RA 175.0135 175 whole (10.55) — also: 2 Lynx De Thaix, 8 The Bellhop
 - 177.7616 - 178.0173: H Juno – H Makemake RA 177.7616 177.778 ninth (98.73) | S Quaoar → H Venus RA 177.9583 110×φ golden (4.61) | S Vesta → J Pallas RA 178.0173 178 whole (1.78) — only
 ### 12 digits across decades (whole N, 10 N)
-- 14 and 140: H Juno – H Orcus RA 139.9946 140 whole (53.54) | H Saturn – H Pluto RA 14.0189 14 whole (0.33) | S Sun → H Eris Dec 14.0139 14 whole (9.26) | J Eris – J Sedna Dec 14.0140 14 whole (8.94) — also: 6 So You Know
+- 14 and 140: H Juno – H Orcus RA 139.9946 140 whole (53.54) | H Saturn – H Pluto RA 14.0189 14 whole (0.33) | S Sun → H Eris Dec 14.0139 14 whole (9.26) | J Eris – J Sedna Dec 14.0140 14 whole (8.94) — also: 5 He's A Latchico, 6 So You Know
+- 11 and 110: H Saturn – H Uranus RA 109.9951 110 whole (57.26) | H Jupiter – H Antares Dec 11.0032 11 whole (70.71) — only
 - 9 and 90: H Sun – H Transpluto RA 89.9906 90 whole (27.88) | H Neptune – H Quaoar Dec 8.9971 9 whole (73.17) | S Mars → H Transpluto RA 9.0154 9 whole (5.27) | S Vesta → H Eris RA 8.9885 9 whole (17.91) | S Moon → H Pallas Dec 8.9921 9 whole (36.72) | S Venus → J Gonggong Dec 9.0198 9 whole (0.01) — also: 5 He's A Latchico, 6 So You Know, 7 Motazzen, 8 The Bellhop
-- 5 and 50: S Makemake → H Orcus RA 49.9824 50 whole (1.41) | S Mars → H Sun Dec 4.9996 5 whole (96.52) | S Sedna → H Chiron Dec 5.0008 5 whole (92.37) | S Transpluto → H Juno Dec 4.9903 5 whole (26.77) | J Sun – J Juno RA 50.0063 50 whole (46.94) | J Chiron – J Haumea Dec 5.0073 5 whole (40.46) | J Jupiter – J Quaoar Dec 4.9933 5 whole (43.94) | S Ketu → J Transpluto RA 4.9865 5 whole (10.55) — also: 5 He's A Latchico, 6 So You Know, 7 Motazzen
+- 5 and 50: S Makemake → H Orcus RA 49.9824 50 whole (1.41) | S Mars → H Sun Dec 4.9996 5 whole (96.52) | S Sedna → H Chiron Dec 5.0008 5 whole (92.37) | S Transpluto → H Juno Dec 4.9903 5 whole (26.77) | J Sun – J Juno RA 50.0063 50 whole (46.94) | J Chiron – J Haumea Dec 5.0073 5 whole (40.46) | J Jupiter – J Quaoar Dec 4.9933 5 whole (43.94) | J Mercury – J Antares Dec 5.0065 5 whole (45.60) | J Gonggong – J Antares Dec 5.0183 5 whole (0.75) | S Ketu → J Transpluto RA 4.9865 5 whole (10.55) — also: 5 He's A Latchico, 6 So You Know, 7 Motazzen
 - 1 and 10: S Saturn → H Pallas Dec 0.9947 1 whole (54.01) | S Ketu → J Haumea Dec 9.9819 10 whole (0.86) — also: 2 Lynx De Thaix, 3 Donnie Azoff, 4 Paso Doble, 6 So You Know, 8 The Bellhop
 ### 13 one body pair, every layer
 - none
@@ -92,30 +103,32 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - J Jupiter – J Saturn RA 159.9981 160 whole (81.50) — only
 - J Jupiter – J Orcus RA 29.9982 30 whole (83.24) — only
 ### 10 N and N x phi (>= 50)
-- S Pallas → H Eris RA 10.9980 11 whole (81.14) | S Sedna → H Rahu RA 10.9973 11 whole (75.13) | S Saturn → H Juno Dec 11.0041 11 whole (63.38) | J Orcus – J Transpluto Dec 11.0014 11 whole (86.16) | S Ketu → J Orcus RA 17.7941 11×φ golden (75.43) — also: 7 Motazzen, 8 The Bellhop
+- S Pallas → H Eris RA 10.9980 11 whole (81.14) | S Sedna → H Rahu RA 10.9973 11 whole (75.13) | S Saturn → H Juno Dec 11.0041 11 whole (63.38) | J Orcus – J Transpluto Dec 11.0014 11 whole (86.16) | S Ketu → J Orcus RA 17.7941 11×φ golden (75.43) — also: 1 Fire Flyer, 6 So You Know, 7 Motazzen, 8 The Bellhop
 - H Ceres – H Sedna Dec 11.9974 12 whole (76.08) | S Sun → H Ceres Dec 12.0016 12 whole (84.58) | J Juno – J Haumea Dec 11.9956 12 whole (60.66) | S Juno → H Chiron Dec 19.4197 12×φ golden (80.79) | J Saturn – J Orcus Dec 19.4166 12×φ golden (98.66) — also: 6 So You Know
 - J Makemake – J Transpluto Dec 20.9958 21 whole (62.05) | S Pallas → H Uranus Dec 33.9751 21×φ golden (78.85) — only
 - S Ceres → H Rahu RA 42.0045 42 whole (59.71) | H Venus – H Sedna RA 67.9573 42×φ golden (98.94) — only
 - S Rahu → J Pallas RA 61.0036 61 whole (66.92) | S Moon → J Ketu RA 98.7069 61×φ golden (62.39) — only
 ### 11 values close together (within 0.3)
-- 10.9877 - 11.1166: S Juno → H Sun Dec 10.9877 11 whole (14.75) | S Sedna → H Rahu RA 10.9973 11 whole (75.13) | S Pallas → H Eris RA 10.9980 11 whole (81.14) | J Orcus – J Transpluto Dec 11.0014 11 whole (86.16) | S Saturn → H Juno Dec 11.0041 11 whole (63.38) | H Ketu – H Orcus Dec 11.0145 11 whole (7.54) | H Sun – H Mercury Dec 11.0924 φ^5 phi power (92.01) | H Venus – H Chiron Dec 11.1166 11.1111 ninth (90.98) — also: 8 The Bellhop
+- 10.9877 - 11.1166: S Juno → H Sun Dec 10.9877 11 whole (14.75) | S Sedna → H Rahu RA 10.9973 11 whole (75.13) | S Pallas → H Eris RA 10.9980 11 whole (81.14) | J Orcus – J Transpluto Dec 11.0014 11 whole (86.16) | S Saturn → H Juno Dec 11.0041 11 whole (63.38) | H Ketu – H Orcus Dec 11.0145 11 whole (7.54) | H Sun – H Mercury Dec 11.0924 φ^5 phi power (92.01) | H Venus – H Chiron Dec 11.1166 11.1111 ninth (90.98) — also: 1 Fire Flyer, 8 The Bellhop
 - 11.0924 - 11.3254: H Sun – H Mercury Dec 11.0924 φ^5 phi power (92.01) | H Venus – H Chiron Dec 11.1166 11.1111 ninth (90.98) | S Neptune → H Transpluto Dec 11.3254 7×φ golden (94.71) — also: 1 Fire Flyer, 8 The Bellhop
-- 12.9482 - 13.0026: J Venus – J Juno Dec 12.9482 8×φ golden (76.94) | S Transpluto → H Sun Dec 12.9814 13 whole (0.49) | S Mars → J Orcus Dec 13.0026 13 whole (75.93) — also: 1 Fire Flyer, 7 Motazzen, 8 The Bellhop
-- 13.9847 - 14.1486: S Ceres → J Chiron RA 13.9847 14 whole (5.44) | J Ketu – J Vesta Dec 13.9949 14 whole (55.55) | S Chiron → J Pluto Dec 14.0034 14 whole (69.10) | S Vesta → J Vesta Dec 14.0190 14 whole (0.26) | S Transpluto → J Venus Dec 14.1486 14.14 sqrt2 (82.62) — also: 1 Fire Flyer
-- 17.7941 - 18.0023: S Ketu → J Orcus RA 17.7941 11×φ golden (75.43) | S Vesta → H Ketu Dec 17.9480 φ^6 phi power (91.80) | J Vesta – J Eris Dec 18.0023 18 whole (78.51) — only
+- 12.9482 - 13.0026: J Venus – J Juno Dec 12.9482 8×φ golden (76.94) | S Transpluto → H Sun Dec 12.9814 13 whole (0.49) | S Mars → J Orcus Dec 13.0026 13 whole (75.93) — also: 1 Fire Flyer, 5 He's A Latchico, 7 Motazzen, 8 The Bellhop
+- 13.9847 - 14.1486: S Ceres → J Chiron RA 13.9847 14 whole (5.44) | J Ketu – J Vesta Dec 13.9949 14 whole (55.55) | S Chiron → J Pluto Dec 14.0034 14 whole (69.10) | S Vesta → J Vesta Dec 14.0190 14 whole (0.26) | S Transpluto → J Venus Dec 14.1486 14.14 sqrt2 (82.62) — also: 1 Fire Flyer, 8 The Bellhop
+- 17.7941 - 18.0068: S Ketu → J Orcus RA 17.7941 11×φ golden (75.43) | S Vesta → H Ketu Dec 17.9480 φ^6 phi power (91.80) | J Vesta – J Eris Dec 18.0023 18 whole (78.51) | H Eris – H Aldebaran Dec 18.0068 18 whole (43.66) — only
+- 25.8809 - 26.0179: S Orcus → J Regulus Dec 25.8809 16×φ golden (58.11) | S Sun → H Antares RA 25.9947 26 whole (53.73) | S Sun → J Antares RA 25.9991 26 whole (91.15) | J Neptune – J Sedna Dec 26.0095 26 whole (27.42) | S Pluto → H Pallas Dec 26.0179 26 whole (1.05) — also: 1 Fire Flyer, 3 Donnie Azoff, 5 He's A Latchico, 6 So You Know, 7 Motazzen, 8 The Bellhop
 - 29.0086 - 29.0394: S Transpluto → J Gonggong Dec 29.0086 29 whole (32.28) | S Ketu → J Saturn Dec 29.0321 φ^7 phi power (96.78) | H Saturn – H Transpluto Dec 29.0394 φ^7 phi power (93.35) — also: 1 Fire Flyer
 - 105.0038 - 105.1457: S Quaoar → H Eris RA 105.0038 105 whole (65.82) | S Venus → J Venus RA 105.0131 105 whole (11.96) | S Gonggong → J Pluto RA 105.0193 105 whole (0.11) | J Mars – J Neptune RA 105.1457 65×φ golden (3.31) — only
-- 159.9981 - 160.1845: J Jupiter – J Saturn RA 159.9981 160 whole (81.50) | J Gonggong – J Orcus RA 160.1730 99×φ golden (38.15) | H Mercury – H Vesta RA 160.1845 99×φ golden (95.00) — only
+- 159.9981 - 160.1845: J Jupiter – J Saturn RA 159.9981 160 whole (81.50) | J Gonggong – J Orcus RA 160.1730 99×φ golden (38.15) | H Mercury – H Vesta RA 160.1845 99×φ golden (95.00) — also: 3 Donnie Azoff
+- 174.7177 - 175.0159: S Sedna → H Antares RA 174.7177 108×φ golden (0.56) | S Uranus → J Antares RA 174.7709 108×φ golden (7.90) | S Uranus → H Antares RA 174.7754 108×φ golden (2.08) | J Sun – J Pallas RA 175.0159 175 whole (4.11) — also: 1 Fire Flyer, 8 The Bellhop
 - 177.7923 - 177.9806: S Sun → J Sedna RA 177.7923 177.778 ninth (98.86) | S Ketu → J Gonggong RA 177.9671 110×φ golden (23.64) | H Venus – H Vesta RA 177.9806 110×φ golden (81.64) — also: 8 The Bellhop
 - 179.4059 - 179.6185: S Ketu → H Mercury RA 179.4059 10×φ^6 phi power (91.95) | S Saturn → J Haumea RA 179.4965 10×φ^6 phi power (88.38) | S Ketu → H Pallas RA 179.6185 111×φ golden (23.30) — only
 ### 12 digits across decades (whole N, 10 N)
 - 10 and 100: H Eris – H Orcus Dec 10.0101 10 whole (24.37) | S Mercury → J Mercury RA 99.9818 100 whole (0.77) | S Neptune → J Jupiter Dec 10.0122 10 whole (15.28) | S Saturn → J Juno Dec 9.9825 10 whole (1.52) — only
-- 4 and 40: S Neptune → H Chiron RA 4.0046 4 whole (59.36) | S Ceres → H Jupiter Dec 39.9967 40 whole (69.35) | S Vesta → J Eris Dec 3.9833 4 whole (2.71) | S Haumea → J Ceres Dec 39.9953 40 whole (58.22) | S Haumea → J Jupiter Dec 4.0045 4 whole (60.23) — also: 6 So You Know
+- 4 and 40: S Neptune → H Chiron RA 4.0046 4 whole (59.36) | S Ceres → H Jupiter Dec 39.9967 40 whole (69.35) | S Vesta → J Eris Dec 3.9833 4 whole (2.71) | S Haumea → J Ceres Dec 39.9953 40 whole (58.22) | S Haumea → J Jupiter Dec 4.0045 4 whole (60.23) — also: 5 He's A Latchico, 6 So You Know, 8 The Bellhop
 - 17 and 170: S Saturn → H Eris RA 16.9891 17 whole (20.76) | S Pallas → H Sun Dec 17.0145 17 whole (7.56) | J Saturn – J Orcus RA 170.0037 170 whole (66.44) | S Uranus → J Pluto RA 170.0195 170 whole (0.06) — also: 5 He's A Latchico, 6 So You Know
 - 1 and 10: H Eris – H Orcus Dec 10.0101 10 whole (24.37) | S Ceres → H Makemake Dec 0.9951 1 whole (57.36) | S Moon → H Juno Dec 1.0173 1 whole (1.88) | S Neptune → J Jupiter Dec 10.0122 10 whole (15.28) | S Pallas → J Gonggong Dec 0.9873 1 whole (13.21) | S Saturn → J Juno Dec 9.9825 10 whole (1.52) — also: 1 Fire Flyer, 3 Donnie Azoff, 4 Paso Doble, 6 So You Know, 8 The Bellhop
 - 1 and 100: S Ceres → H Makemake Dec 0.9951 1 whole (57.36) | S Moon → H Juno Dec 1.0173 1 whole (1.88) | S Mercury → J Mercury RA 99.9818 100 whole (0.77) | S Pallas → J Gonggong Dec 0.9873 1 whole (13.21) — also: 1 Fire Flyer, 3 Donnie Azoff, 4 Paso Doble, 6 So You Know, 8 The Bellhop
 - 16 and 160: S Ketu → H Sun Dec 15.9866 16 whole (10.75) | J Jupiter – J Saturn RA 159.9981 160 whole (81.50) | S Sedna → J Pallas Dec 15.9827 16 whole (1.82) — also: 3 Donnie Azoff, 6 So You Know, 7 Motazzen
-- 3 and 30: S Neptune → H Pallas Dec 2.9966 3 whole (68.71) | S Rahu → H Jupiter Dec 3.0056 3 whole (52.02) | S Venus → H Quaoar Dec 3.0104 3 whole (22.96) | J Jupiter – J Orcus RA 29.9982 30 whole (83.24) | J Saturn – J Gonggong Dec 2.9817 3 whole (0.73) — also: 4 Paso Doble, 5 He's A Latchico, 6 So You Know, 7 Motazzen
+- 3 and 30: S Neptune → H Pallas Dec 2.9966 3 whole (68.71) | S Rahu → H Jupiter Dec 3.0056 3 whole (52.02) | S Venus → H Quaoar Dec 3.0104 3 whole (22.96) | J Jupiter – J Orcus RA 29.9982 30 whole (83.24) | J Rahu – J Antares Dec 2.9949 3 whole (55.68) | J Saturn – J Gonggong Dec 2.9817 3 whole (0.73) | J Quaoar – J Aldebaran Dec 30.0067 30 whole (44.40) — also: 4 Paso Doble, 5 He's A Latchico, 6 So You Know, 7 Motazzen
 - 2 and 20: S Transpluto → J Vesta RA 20.0076 20 whole (38.40) | S Mars → J Transpluto Dec 2.0011 2 whole (88.95) | S Mercury → J Saturn Dec 2.0170 2 whole (2.29) — also: 3 Donnie Azoff, 4 Paso Doble, 6 So You Know, 7 Motazzen, 8 The Bellhop
 ### 13 one body pair, every layer
 - none
@@ -140,7 +153,7 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 6 centre on a body tied to natal Jupiter (>= 50)
 - none
 ### 7 numbers in both charts (>= 80, background)
-- 2 numbers: 111.111 ninth, 122.222 ninth
+- 3 numbers: 111.111 ninth, 122.222 ninth, 14.4444 ninth
 ### 8 axis (natal Jupiter on a node)
 - none
 ### 9 natal Jupiter ties (>= 50)
@@ -150,22 +163,24 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - J Jupiter – J Gonggong RA 124.5921 77×φ golden (79.47) — only
 ### 10 N and N x phi (>= 50)
 - H Mercury – H Ceres Dec 15.0012 15 whole (88.60) | S Sun → H Uranus Dec 24.2795 15×φ golden (52.11) — only
-- S Eris → H Makemake Dec 25.9949 26 whole (55.70) | S Pallas → J Gonggong RA 42.0620 26×φ golden (62.01) — also: 8 The Bellhop
-- S Saturn → J Makemake Dec 31.0014 31 whole (86.89) | S Ketu → J Haumea RA 50.1583 31×φ golden (95.29) — also: 7 Motazzen
+- S Sun → H Antares RA 25.9995 26 whole (95.13) | S Eris → H Makemake Dec 25.9949 26 whole (55.70) | S Sun → J Antares RA 25.9964 26 whole (67.37) | S Pallas → J Gonggong RA 42.0620 26×φ golden (62.01) — also: 8 The Bellhop
+- S Saturn → J Makemake Dec 31.0014 31 whole (86.89) | J Saturn – J Fomalhaut Dec 50.1577 31×φ golden (91.70) | S Ketu → J Haumea RA 50.1583 31×φ golden (95.29) — also: 7 Motazzen
 - J Sun – J Mars RA 39.0009 39 whole (91.22) | H Juno – H Orcus RA 63.1093 39×φ golden (66.71) — only
 - J Uranus – J Quaoar RA 78.9992 79 whole (91.94) | J Jupiter – J Uranus RA 127.8340 79×φ golden (50.79) — only
 ### 11 values close together (within 0.3)
 - 17.9446 - 18.0199: S Venus → J Sedna Dec 17.9446 φ^6 phi power (99.28) | S Gonggong → H Jupiter Dec 17.9981 18 whole (82.14) | S Pluto → H Pluto RA 18.0199 18 whole (0.00) — only
-- 18.8878 - 19.0090: S Pluto → H Ketu Dec 18.8878 18.8889 ninth (99.23) | J Makemake – J Transpluto Dec 18.9837 19 whole (3.44) | S Ketu → J Eris Dec 18.9863 19 whole (9.85) | H Mars – H Eris Dec 19.0090 19 whole (30.40) — also: 6 So You Know, 7 Motazzen
+- 18.8878 - 19.0090: S Pluto → H Ketu Dec 18.8878 18.8889 ninth (99.23) | J Makemake – J Transpluto Dec 18.9837 19 whole (3.44) | S Ketu → J Eris Dec 18.9863 19 whole (9.85) | H Eris – H Aldebaran Dec 18.9898 19 whole (24.17) | H Mars – H Eris Dec 19.0090 19 whole (30.40) — also: 6 So You Know, 7 Motazzen
 - 23.9843 - 24.2795: S Rahu → J Juno Dec 23.9843 24 whole (4.55) | H Rahu – H Makemake RA 24.0194 24 whole (0.08) | S Sun → H Uranus Dec 24.2795 15×φ golden (52.11) — only
+- 25.8800 - 25.9995: S Orcus → H Regulus Dec 25.8800 16×φ golden (54.38) | S Haumea → H Gonggong Dec 25.8839 16×φ golden (73.62) | S Eris → H Makemake Dec 25.9949 26 whole (55.70) | S Sun → J Antares RA 25.9964 26 whole (67.37) | S Sun → H Antares RA 25.9995 26 whole (95.13) — also: 1 Fire Flyer, 2 Lynx De Thaix, 5 He's A Latchico, 6 So You Know, 7 Motazzen, 8 The Bellhop
 - 110.9066 - 111.1926: S Uranus → J Pallas RA 110.9066 10×φ^5 phi power (98.23) | S Juno → H Makemake RA 111.1639 111.111 ninth (91.36) | S Ketu → J Ketu RA 111.1926 111.111 ninth (86.67) | S Rahu → J Rahu RA 111.1926 111.111 ninth (86.67) — also: 6 So You Know
 - 130.9921 - 131.0893: S Mercury → J Ceres RA 130.9921 131 whole (36.57) | J Sun – J Orcus RA 131.0607 81×φ golden (99.40) | H Uranus – H Transpluto RA 131.0893 81×φ golden (1.38) — only
+- 160.0033 - 160.1883: J Jupiter – J Pluto RA 160.0033 160 whole (69.48) | S Venus → J Mercury RA 160.0082 160 whole (34.60) | J Sedna – J Antares RA 160.1883 99×φ golden (82.90) — also: 2 Lynx De Thaix
 ### 12 digits across decades (whole N, 10 N)
 - 6 and 60: H Pallas – H Quaoar RA 60.0111 60 whole (19.77) | H Jupiter – H Chiron Dec 5.9849 6 whole (6.02) | H Ketu – H Juno Dec 6.0146 6 whole (7.20) | S Rahu → H Quaoar RA 60.0085 60 whole (32.87) | S Orcus → H Neptune Dec 5.9818 6 whole (0.82) — also: 5 He's A Latchico, 8 The Bellhop
 - 15 and 150: H Mercury – H Ceres Dec 15.0012 15 whole (88.60) | J Mercury – J Chiron Dec 15.0122 15 whole (15.21) | J Saturn – J Sedna Dec 14.9833 15 whole (2.68) | S Sun → J Vesta RA 150.0028 150 whole (74.29) — also: 4 Paso Doble, 6 So You Know
 - 2 and 20: S Ketu → H Orcus RA 2.0172 2 whole (1.90) | S Venus → H Sedna Dec 19.9985 20 whole (85.13) | S Haumea → H Transpluto Dec 1.9806 2 whole (0.10) | J Mercury – J Mars Dec 20.0086 20 whole (32.68) | J Rahu – J Vesta Dec 1.9923 2 whole (37.84) | J Uranus – J Quaoar Dec 1.9802 2 whole (0.01) — also: 2 Lynx De Thaix, 4 Paso Doble, 6 So You Know, 7 Motazzen, 8 The Bellhop
 - 18 and 180: S Ketu → H Pallas RA 179.9974 180 whole (75.92) | S Pluto → H Pluto RA 18.0199 18 whole (0.00) | S Gonggong → H Jupiter Dec 17.9981 18 whole (82.14) — only
-- 1 and 10: H Sun – H Transpluto Dec 9.9985 10 whole (85.69) | S Uranus → H Vesta RA 0.9973 1 whole (74.63) | J Uranus – J Ketu Dec 9.9866 10 whole (10.98) — also: 1 Fire Flyer, 2 Lynx De Thaix, 4 Paso Doble, 6 So You Know, 8 The Bellhop
+- 1 and 10: H Sun – H Transpluto Dec 9.9985 10 whole (85.69) | S Uranus → H Vesta RA 0.9973 1 whole (74.63) | J Uranus – J Ketu Dec 9.9866 10 whole (10.98) | J Gonggong – J Antares Dec 10.0158 10 whole (4.48) | J Transpluto – J Regulus Dec 0.9958 1 whole (62.06) — also: 1 Fire Flyer, 2 Lynx De Thaix, 4 Paso Doble, 6 So You Know, 8 The Bellhop
 - 16 and 160: S Mercury → H Chiron Dec 15.9845 16 whole (4.97) | S Uranus → H Rahu Dec 16.0177 16 whole (1.37) | J Jupiter – J Pluto RA 160.0033 160 whole (69.48) | S Venus → J Mercury RA 160.0082 160 whole (34.60) | S Transpluto → J Eris Dec 15.9811 16 whole (0.32) — also: 2 Lynx De Thaix, 6 So You Know, 7 Motazzen
 - 12 and 120: S Ketu → H Quaoar RA 119.9915 120 whole (32.87) | S Gonggong → H Chiron Dec 12.0132 12 whole (11.50) | S Saturn → J Transpluto Dec 12.0176 12 whole (1.38) — only
 ### 13 one body pair, every layer
@@ -198,16 +213,16 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - H Jupiter – H Orcus RA 44.4425 44.4444 ninth (97.98) — only
 - H Sun – H Jupiter Dec 16.0003 16 whole (96.97) — only
 ### 10 N and N x phi (>= 50)
-- H Sun – H Jupiter Dec 16.0003 16 whole (96.97) | H Pallas – H Makemake Dec 25.8879 16×φ golden (96.08) — also: 5 He's A Latchico, 7 Motazzen, 8 The Bellhop
+- H Sun – H Jupiter Dec 16.0003 16 whole (96.97) | H Pallas – H Makemake Dec 25.8879 16×φ golden (96.08) — also: 5 He's A Latchico, 6 So You Know, 7 Motazzen, 8 The Bellhop
 ### 11 values close together (within 0.3)
-- 25.8879 - 26.1849: H Pallas – H Makemake Dec 25.8879 16×φ golden (96.08) | S Moon → H Ceres Dec 26.0003 26 whole (97.05) | H Mercury – H Gonggong Dec 26.1849 10×φ^2 phi power (93.10) — only
+- 25.8879 - 26.1849: H Pallas – H Makemake Dec 25.8879 16×φ golden (96.08) | S Sun → H Antares RA 25.9980 26 whole (81.12) | S Moon → H Ceres Dec 26.0003 26 whole (97.05) | H Mercury – H Gonggong Dec 26.1849 10×φ^2 phi power (93.10) — only
 - 134.0193 - 134.2838: S Makemake → H Gonggong RA 134.0193 134 whole (0.11) | S Sun → H Venus RA 134.2694 83×φ golden (2.34) | S Vesta → H Orcus RA 134.2838 83×φ golden (35.83) — only
 - 164.9830 - 165.0268: S Vesta → H Haumea RA 164.9830 165 whole (2.23) | S Haumea → H Eris RA 165.0251 102×φ golden (31.02) | S Sun → H Sun RA 165.0268 102×φ golden (37.16) — only
 ### 12 digits across decades (whole N, 10 N)
-- 3 and 30: H Ketu – H Gonggong RA 2.9823 3 whole (1.36) | H Ketu – H Juno Dec 2.9926 3 whole (39.72) | H Gonggong – H Orcus Dec 3.0113 3 whole (18.86) | S Chiron → H Mercury RA 2.9912 3 whole (31.15) | S Ketu → H Vesta RA 29.9861 30 whole (9.38) | S Vesta → H Makemake Dec 29.9923 30 whole (37.54) — also: 2 Lynx De Thaix, 5 He's A Latchico, 6 So You Know, 7 Motazzen
+- 3 and 30: H Ketu – H Gonggong RA 2.9823 3 whole (1.36) | H Ketu – H Juno Dec 2.9926 3 whole (39.72) | H Uranus – H Regulus Dec 3.0057 3 whole (50.94) | H Gonggong – H Orcus Dec 3.0113 3 whole (18.86) | S Chiron → H Mercury RA 2.9912 3 whole (31.15) | S Ketu → H Vesta RA 29.9861 30 whole (9.38) | S Vesta → H Makemake Dec 29.9923 30 whole (37.54) — also: 2 Lynx De Thaix, 5 He's A Latchico, 6 So You Know, 7 Motazzen
 - 15 and 150: H Pallas – H Quaoar Dec 15.0005 15 whole (94.59) | S Rahu → H Vesta RA 150.0139 150 whole (9.38) — also: 3 Donnie Azoff, 6 So You Know
 - 1 and 10: S Makemake → H Haumea RA 9.9893 10 whole (21.76) | S Moon → H Juno Dec 1.0156 1 whole (4.83) | S Gonggong → H Orcus Dec 0.9964 1 whole (67.26) — also: 1 Fire Flyer, 2 Lynx De Thaix, 3 Donnie Azoff, 6 So You Know, 8 The Bellhop
-- 2 and 20: H Uranus – H Ketu Dec 19.9805 20 whole (0.07) | S Chiron → H Orcus Dec 19.9972 20 whole (74.07) | S Venus → H Sedna Dec 20.0059 20 whole (49.75) | S Gonggong → H Gonggong Dec 2.0149 2 whole (6.47) — also: 2 Lynx De Thaix, 3 Donnie Azoff, 6 So You Know, 7 Motazzen, 8 The Bellhop
+- 2 and 20: H Juno – H Regulus Dec 19.9937 20 whole (46.60) | H Uranus – H Ketu Dec 19.9805 20 whole (0.07) | S Chiron → H Orcus Dec 19.9972 20 whole (74.07) | S Venus → H Sedna Dec 20.0059 20 whole (49.75) | S Gonggong → H Gonggong Dec 2.0149 2 whole (6.47) — also: 2 Lynx De Thaix, 3 Donnie Azoff, 6 So You Know, 7 Motazzen, 8 The Bellhop
 ### 13 one body pair, every layer
 - none
 ### 14 sky Jupiter repeats natal Jupiter (>= 50)
@@ -237,31 +252,37 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 9 natal Jupiter ties (>= 50)
 - none
 ### 10 N and N x phi (>= 50)
-- S Saturn → H Neptune Dec 7.9974 8 whole (76.03) | S Orcus → H Sun Dec 12.9495 8×φ golden (70.55) | S Orcus → J Mars Dec 12.9448 8×φ golden (96.88) — also: 1 Fire Flyer, 8 The Bellhop
-- H Juno – H Chiron RA 16.0055 16 whole (52.64) | S Sedna → H Makemake Dec 15.9951 16 whole (57.37) | S Gonggong → J Sedna Dec 15.9958 16 whole (62.08) | S Moon → H Haumea Dec 25.8811 16×φ golden (59.42) — also: 4 Paso Doble, 7 Motazzen, 8 The Bellhop
-- J Ketu – J Eris Dec 16.9949 17 whole (55.46) | S Vesta → J Sun Dec 27.5070 17×φ golden (97.53) — only
+- S Saturn → H Neptune Dec 7.9974 8 whole (76.03) | S Orcus → H Sun Dec 12.9495 8×φ golden (70.55) | J Gonggong – J Fomalhaut Dec 12.9442 8×φ golden (99.33) | S Orcus → J Mars Dec 12.9448 8×φ golden (96.88) — also: 1 Fire Flyer, 8 The Bellhop
+- H Juno – H Chiron RA 16.0055 16 whole (52.64) | S Sedna → H Makemake Dec 15.9951 16 whole (57.37) | S Gonggong → J Sedna Dec 15.9958 16 whole (62.08) | S Moon → H Haumea Dec 25.8811 16×φ golden (59.42) | S Orcus → J Regulus Dec 25.8811 16×φ golden (59.38) — also: 4 Paso Doble, 6 So You Know, 7 Motazzen, 8 The Bellhop
+- J Ketu – J Eris Dec 16.9949 17 whole (55.46) | H Quaoar – H Regulus Dec 27.5017 17×φ golden (71.93) | S Vesta → J Sun Dec 27.5070 17×φ golden (97.53) — only
 - S Quaoar → J Pallas RA 34.9946 35 whole (53.14) | J Mercury – J Orcus RA 56.6345 35×φ golden (80.55) — only
 - S Chiron → H Ketu RA 68.9950 69 whole (56.39) | S Juno → H Mercury RA 69.0047 69 whole (58.40) | H Uranus – H Rahu RA 111.6501 69×φ golden (67.69) — only
 - S Saturn → J Mercury RA 73.0009 73 whole (91.55) | S Haumea → J Sun RA 118.1201 73×φ golden (78.70) — only
+- J Pluto – J Regulus RA 101.0042 101 whole (62.39) | S Sun → H Uranus RA 163.4271 101×φ golden (68.19) — also: 8 The Bellhop
 ### 11 values close together (within 0.3)
 - 1.8885 - 2.0047: S Mars → J Juno Dec 1.8885 1.88889 ninth (97.29) | S Pallas → H Mercury RA 1.8890 1.88889 ninth (99.27) | S Moon → H Neptune Dec 1.9894 2 whole (21.99) | J Mercury – J Haumea Dec 2.0047 2 whole (58.32) — only
-- 6.8545 - 7.0193: H Pallas – H Vesta Dec 6.8545 φ^4 phi power (97.48) | S Gonggong → H Jupiter Dec 6.9804 7 whole (0.03) | H Juno – H Gonggong Dec 6.9987 7 whole (87.42) | J Juno – J Haumea Dec 7.0020 7 whole (80.66) | S Pluto → J Gonggong Dec 7.0078 7 whole (36.95) | S Mars → J Jupiter Dec 7.0135 7 whole (10.68) | J Mercury – J Vesta Dec 7.0193 7 whole (0.13) — only
-- 7.7773 - 7.9974: J Venus – J Pallas Dec 7.7773 7.77778 ninth (96.10) | S Mercury → J Eris Dec 7.9930 8 whole (42.42) | S Saturn → H Neptune Dec 7.9974 8 whole (76.03) — also: 7 Motazzen
+- 6.8545 - 7.0193: H Pallas – H Vesta Dec 6.8545 φ^4 phi power (97.48) | S Gonggong → H Jupiter Dec 6.9804 7 whole (0.03) | H Juno – H Gonggong Dec 6.9987 7 whole (87.42) | J Juno – J Haumea Dec 7.0020 7 whole (80.66) | S Pluto → J Gonggong Dec 7.0078 7 whole (36.95) | S Mars → J Jupiter Dec 7.0135 7 whole (10.68) | J Mercury – J Vesta Dec 7.0193 7 whole (0.13) — also: 8 The Bellhop
+- 7.7773 - 8.0176: J Venus – J Pallas Dec 7.7773 7.77778 ninth (96.10) | S Mercury → J Eris Dec 7.9930 8 whole (42.42) | S Saturn → H Neptune Dec 7.9974 8 whole (76.03) | H Mercury – H Aldebaran Dec 8.0166 8 whole (2.96) | J Mars – J Antares RA 8.0176 8 whole (1.43) — also: 7 Motazzen
 - 11.9868 - 12.2294: H Venus – H Rahu Dec 11.9868 12 whole (11.60) | S Gonggong → H Saturn Dec 11.9973 12 whole (75.19) | S Juno → H Eris Dec 11.9987 12 whole (87.06) | H Sun – H Transpluto Dec 12.0034 12 whole (68.96) | S Ketu → J Pallas Dec 12.0164 12 whole (3.24) | S Rahu → H Juno RA 12.2294 12.2222 ninth (90.08) — also: 8 The Bellhop
-- 25.8811 - 26.0132: S Moon → H Haumea Dec 25.8811 16×φ golden (59.42) | S Uranus → H Juno Dec 25.9973 26 whole (75.12) | S Moon → J Venus Dec 26.0132 26 whole (11.49) — only
+- 12.9442 - 12.9943: J Gonggong – J Fomalhaut Dec 12.9442 8×φ golden (99.33) | S Orcus → J Mars Dec 12.9448 8×φ golden (96.88) | S Orcus → H Sun Dec 12.9495 8×φ golden (70.55) | H Ketu – H Fomalhaut Dec 12.9904 13 whole (27.25) | J Venus – J Aldebaran RA 12.9943 13 whole (51.37) — also: 1 Fire Flyer, 2 Lynx De Thaix, 7 Motazzen, 8 The Bellhop
+- 24.0028 - 24.1485: S Haumea → J Haumea RA 24.0028 24 whole (74.05) | S Mercury → H Uranus Dec 24.0138 24 whole (9.59) | H Gonggong – H Regulus Dec 24.1485 24.14 silver (89.71) — also: 6 So You Know, 7 Motazzen, 8 The Bellhop
+- 25.8811 - 26.0132: S Orcus → J Regulus Dec 25.8811 16×φ golden (59.38) | S Moon → H Haumea Dec 25.8811 16×φ golden (59.42) | S Sun → H Antares RA 25.9953 26 whole (58.30) | S Uranus → H Juno Dec 25.9973 26 whole (75.12) | S Sun → J Antares RA 25.9986 26 whole (86.42) | S Moon → J Venus Dec 26.0132 26 whole (11.49) — also: 1 Fire Flyer, 2 Lynx De Thaix, 3 Donnie Azoff, 6 So You Know, 7 Motazzen, 8 The Bellhop
 - 29.0383 - 29.1293: S Sun → J Transpluto Dec 29.0383 φ^7 phi power (94.73) | J Saturn – J Rahu RA 29.1290 18×φ golden (74.95) | H Pluto – H Sedna Dec 29.1293 18×φ golden (72.91) — only
-- 37.0182 - 37.2173: H Ceres – H Juno Dec 37.0182 37 whole (0.79) | S Mercury → J Sun Dec 37.2151 23×φ golden (97.85) | S Sun → J Haumea Dec 37.2173 23×φ golden (85.06) — also: 1 Fire Flyer
+- 33.9738 - 34.0162: J Neptune – J Fomalhaut RA 33.9738 21×φ golden (71.76) | H Vesta – H Aldebaran Dec 33.9803 34 whole (0.02) | S Sun → J Mars RA 34.0162 34 whole (3.60) — only
+- 37.0166 - 37.2173: S Ceres → J Regulus RA 37.0166 37 whole (2.93) | H Ceres – H Juno Dec 37.0182 37 whole (0.79) | S Mercury → J Sun Dec 37.2151 23×φ golden (97.85) | S Sun → J Haumea Dec 37.2173 23×φ golden (85.06) — also: 1 Fire Flyer, 7 Motazzen
 - 46.9239 - 47.0116: S Neptune → J Vesta RA 46.9239 29×φ golden (94.51) | S Quaoar → H Ceres Dec 46.9874 47 whole (13.53) | S Ketu → H Makemake RA 47.0029 47 whole (73.19) | S Quaoar → J Makemake Dec 47.0116 47 whole (17.51) — only
 - 106.7865 - 107.0133: S Ketu → J Mars RA 106.7865 66×φ golden (78.45) | H Saturn – H Eris RA 106.7917 66×φ golden (91.17) | S Vesta → H Mars RA 107.0133 107 whole (11.36) — only
 - 114.8559 - 115.0183: S Sun → H Gonggong RA 114.8559 71×φ golden (5.95) | J Jupiter – J Gonggong RA 114.8634 71×φ golden (22.59) | S Eris → H Quaoar RA 115.0026 115 whole (75.52) | J Mercury – J Uranus RA 115.0183 115 whole (0.75) — only
 - 122.9087 - 123.0092: S Venus → J Juno RA 122.9087 φ^10 phi power (74.79) | S Ketu → H Eris RA 122.9963 φ^10 phi power (98.56) | S Saturn → J Pallas RA 123.0092 123 whole (28.94) — only
 - 168.0188 - 168.2943: S Mercury → J Vesta RA 168.0188 168 whole (0.34) | J Venus – J Quaoar RA 168.2532 104×φ golden (9.61) | J Pallas – J Juno RA 168.2943 104×φ golden (17.69) — only
 ### 12 digits across decades (whole N, 10 N)
-- 5 and 50: H Neptune – H Juno RA 4.9877 5 whole (14.67) | H Jupiter – H Saturn Dec 5.0170 5 whole (2.28) | J Mars – J Jupiter Dec 49.9890 50 whole (20.16) | J Mercury – J Juno Dec 4.9973 5 whole (74.92) | S Chiron → J Sedna Dec 4.9979 5 whole (79.73) — also: 1 Fire Flyer, 6 So You Know, 7 Motazzen
+- 5 and 50: H Neptune – H Juno RA 4.9877 5 whole (14.67) | H Jupiter – H Saturn Dec 5.0170 5 whole (2.28) | J Mars – J Jupiter Dec 49.9890 50 whole (20.16) | J Mercury – J Juno Dec 4.9973 5 whole (74.92) | J Venus – J Regulus Dec 5.0016 5 whole (84.47) | S Chiron → J Sedna Dec 4.9979 5 whole (79.73) — also: 1 Fire Flyer, 6 So You Know, 7 Motazzen
 - 6 and 60: H Ketu – H Pallas Dec 6.0159 6 whole (4.20) | H Mars – H Vesta Dec 6.0005 6 whole (95.41) | S Sedna → H Sedna RA 5.9849 6 whole (6.06) | J Jupiter – J Transpluto RA 60.0129 60 whole (12.65) — also: 3 Donnie Azoff, 8 The Bellhop
 - 3 and 30: H Mercury – H Pluto Dec 29.9921 30 whole (36.53) | H Neptune – H Orcus Dec 3.0064 3 whole (46.54) | H Venus – H Sedna Dec 2.9810 3 whole (0.26) | S Eris → H Chiron RA 30.0129 30 whole (12.56) | S Ketu → H Uranus Dec 3.0013 3 whole (87.37) | S Mercury → H Jupiter Dec 3.0091 3 whole (29.59) | S Neptune → H Chiron Dec 3.0178 3 whole (1.16) | S Pallas → H Uranus Dec 29.9997 30 whole (97.52) | S Haumea → H Ketu Dec 29.9889 30 whole (19.99) | J Chiron – J Transpluto Dec 29.9894 30 whole (21.96) | S Pallas → J Ketu Dec 3.0159 3 whole (4.16) — also: 2 Lynx De Thaix, 4 Paso Doble, 6 So You Know, 7 Motazzen
-- 9 and 90: H Rahu – H Sedna Dec 9.0058 9 whole (50.46) | S Ketu → H Pallas RA 90.0200 90 whole (0.00) | S Rahu → H Pallas RA 89.9800 90 whole (0.00) | S Mercury → J Ketu Dec 9.0019 9 whole (82.20) | S Pluto → J Quaoar Dec 8.9855 9 whole (7.54) — also: 1 Fire Flyer, 6 So You Know, 7 Motazzen, 8 The Bellhop
+- 9 and 90: H Rahu – H Sedna Dec 9.0058 9 whole (50.46) | S Ketu → H Pallas RA 90.0200 90 whole (0.00) | S Rahu → H Pallas RA 89.9800 90 whole (0.00) | S Sedna → J Regulus RA 90.0185 90 whole (0.59) | S Mercury → J Ketu Dec 9.0019 9 whole (82.20) | S Pluto → J Quaoar Dec 8.9855 9 whole (7.54) — also: 1 Fire Flyer, 6 So You Know, 7 Motazzen, 8 The Bellhop
 - 17 and 170: H Eris – H Makemake RA 169.9992 170 whole (92.12) | S Eris → H Haumea Dec 16.9940 17 whole (49.02) | J Ketu – J Eris Dec 16.9949 17 whole (55.46) — also: 2 Lynx De Thaix, 6 So You Know
+- 4 and 40: H Mars – H Aldebaran Dec 39.9807 40 whole (0.13) | J Uranus – J Neptune Dec 4.0014 4 whole (86.24) — also: 2 Lynx De Thaix, 6 So You Know, 8 The Bellhop
+- 14 and 140: J Ceres – J Aldebaran RA 140.0025 140 whole (76.40) | S Orcus → J Transpluto RA 14.0077 14 whole (37.53) | S Sedna → J Sedna RA 14.0126 14 whole (13.64) — also: 1 Fire Flyer, 6 So You Know
 ### 13 one body pair, every layer
 - none
 ### 14 sky Jupiter repeats natal Jupiter (>= 50)
@@ -293,32 +314,37 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - H Jupiter – H Orcus RA 173.9995 174 whole (94.90) — only
 - J Jupiter – J Eris RA 161.8328 100×φ^1 phi power (92.86) — only
 - J Jupiter – J Makemake Dec 48.5447 30×φ golden (78.53) — only
+- J Jupiter – J Fomalhaut Dec 14.5640 9×φ golden (89.60) — only
 ### 10 N and N x phi (>= 50)
 - H Vesta – H Makemake Dec 5.0051 5 whole (55.73) | S Ketu → J Sedna Dec 8.0907 5×φ golden (96.59) — only
-- S Gonggong → H Eris Dec 8.9966 9 whole (69.01) | S Makemake → J Venus RA 14.5655 9×φ golden (81.29) — only
-- S Chiron → H Eris Dec 11.9970 12 whole (72.26) | S Eris → H Mercury Dec 11.9971 12 whole (73.35) | J Sun – J Haumea RA 11.9949 12 whole (55.49) | S Neptune → J Venus Dec 19.4101 12×φ golden (64.76) — also: 2 Lynx De Thaix
+- S Gonggong → H Eris Dec 8.9966 9 whole (69.01) | J Jupiter – J Fomalhaut Dec 14.5640 9×φ golden (89.60) | S Makemake → J Venus RA 14.5655 9×φ golden (81.29) — only
+- S Chiron → J Haumea Dec 11.0042 11 whole (62.62) | J Mercury – J Fomalhaut Dec 17.7928 11×φ golden (68.32) — also: 1 Fire Flyer, 2 Lynx De Thaix, 7 Motazzen, 8 The Bellhop
+- H Saturn – H Fomalhaut Dec 11.9950 12 whole (56.58) | S Chiron → H Eris Dec 11.9970 12 whole (72.26) | S Eris → H Mercury Dec 11.9971 12 whole (73.35) | J Sun – J Haumea RA 11.9949 12 whole (55.49) | S Neptune → J Venus Dec 19.4101 12×φ golden (64.76) — also: 2 Lynx De Thaix
+- J Uranus – J Pluto Dec 16.0008 16 whole (92.33) | S Saturn → J Jupiter Dec 16.0005 16 whole (95.24) | S Orcus → J Regulus Dec 25.8815 16×φ golden (61.08) — also: 4 Paso Doble, 5 He's A Latchico, 7 Motazzen, 8 The Bellhop
 - H Mercury – H Juno Dec 19.0048 19 whole (57.77) | S Makemake → H Orcus Dec 30.7417 19×φ golden (94.14) — only
+- J Vesta – J Fomalhaut Dec 49.0008 49 whole (92.34) | H Jupiter – H Ketu RA 79.2805 49×φ golden (81.38) — only
 - S Orcus → H Mars RA 74.0019 74 whole (82.21) | H Ceres – H Juno RA 119.7315 74×φ golden (82.31) — only
 ### 11 values close together (within 0.3)
 - 7.9872 - 8.0907: S Makemake → H Sun Dec 7.9872 8 whole (12.92) | S Quaoar → H Juno Dec 7.9899 8 whole (24.43) | S Haumea → H Pallas Dec 8.0075 8 whole (39.19) | J Pallas – J Juno Dec 8.0079 8 whole (36.89) | S Ketu → J Sedna Dec 8.0907 5×φ golden (96.59) — only
 - 18.8835 - 19.0109: S Juno → J Sedna Dec 18.8835 18.8889 ninth (96.13) | S Uranus → J Ketu RA 18.9919 19 whole (35.14) | H Mercury – H Juno Dec 19.0048 19 whole (57.77) | S Chiron → J Eris Dec 19.0109 19 whole (20.67) — also: 3 Donnie Azoff, 7 Motazzen
-- 23.9803 - 24.1439: S Venus → H Sun Dec 23.9803 24 whole (0.02) | S Ceres → J Sun Dec 23.9928 24 whole (41.11) | S Sun → H Sedna Dec 24.1439 24.14 silver (97.07) — also: 7 Motazzen
+- 23.9803 - 24.1439: S Venus → H Sun Dec 23.9803 24 whole (0.02) | S Ceres → J Sun Dec 23.9928 24 whole (41.11) | S Sun → H Sedna Dec 24.1439 24.14 silver (97.07) — also: 5 He's A Latchico, 7 Motazzen, 8 The Bellhop
+- 25.8815 - 26.0078: S Orcus → J Regulus Dec 25.8815 16×φ golden (61.08) | S Sun → J Antares RA 25.9912 26 whole (31.47) | S Sun → H Antares RA 25.9981 26 whole (82.23) | J Jupiter – J Antares RA 26.0078 26 whole (36.94) — also: 1 Fire Flyer, 2 Lynx De Thaix, 3 Donnie Azoff, 5 He's A Latchico, 7 Motazzen, 8 The Bellhop
 - 30.7417 - 31.0143: S Makemake → H Orcus Dec 30.7417 19×φ golden (94.14) | S Haumea → H Saturn Dec 30.9828 31 whole (2.01) | S Transpluto → J Neptune Dec 30.9884 31 whole (17.61) | S Sedna → H Pluto Dec 30.9919 31 whole (35.62) | H Chiron – H Gonggong RA 31.0143 31 whole (8.12) — only
 - 49.9999 - 50.1570: H Chiron – H Sedna RA 49.9999 50 whole (98.62) | J Rahu – J Makemake Dec 50.0004 50 whole (96.50) | H Mars – H Uranus RA 50.1570 31×φ golden (87.77) — also: 7 Motazzen
 - 110.9610 - 111.1519: S Eris → H Quaoar RA 110.9610 10×φ^5 phi power (79.77) | J Eris – J Orcus RA 111.1516 111.111 ninth (93.38) | S Pallas → H Juno RA 111.1519 111.111 ninth (93.33) — also: 3 Donnie Azoff
 - 148.8578 - 149.0099: S Pluto → J Vesta RA 148.8578 92×φ golden (91.88) | H Mars – H Pluto RA 148.8709 92×φ golden (40.66) | S Vesta → J Chiron RA 149.0099 149 whole (25.58) — only
 ### 12 digits across decades (whole N, 10 N)
-- 4 and 40: H Juno – H Orcus Dec 4.0041 4 whole (63.44) | H Gonggong – H Quaoar Dec 3.9825 4 whole (1.55) | S Saturn → H Jupiter RA 39.9932 40 whole (43.76) | S Uranus → H Sedna RA 3.9999 4 whole (99.49) | S Quaoar → H Orcus Dec 3.9858 4 whole (8.46) — also: 2 Lynx De Thaix
-- 15 and 150: H Neptune – H Transpluto Dec 15.0143 15 whole (8.02) | S Pallas → H Mercury RA 14.9866 15 whole (10.79) | J Ketu – J Orcus Dec 15.0026 15 whole (75.87) | S Eris → J Pluto RA 150.0013 150 whole (87.31) — also: 3 Donnie Azoff, 4 Paso Doble
-- 9 and 90: H Uranus – H Pallas Dec 9.0145 9 whole (7.47) | S Gonggong → H Eris Dec 8.9966 9 whole (69.01) | J Jupiter – J Pluto Dec 8.9831 9 whole (2.38) | S Ketu → J Quaoar RA 90.0094 90 whole (27.90) | S Rahu → J Quaoar RA 89.9906 90 whole (27.90) | S Makemake → J Neptune RA 89.9895 90 whole (22.75) — also: 1 Fire Flyer, 5 He's A Latchico, 7 Motazzen, 8 The Bellhop
+- 4 and 40: H Juno – H Orcus Dec 4.0041 4 whole (63.44) | H Gonggong – H Quaoar Dec 3.9825 4 whole (1.55) | S Saturn → H Jupiter RA 39.9932 40 whole (43.76) | S Uranus → H Sedna RA 3.9999 4 whole (99.49) | S Quaoar → H Orcus Dec 3.9858 4 whole (8.46) | J Transpluto – J Antares Dec 40.0136 40 whole (10.25) — also: 2 Lynx De Thaix, 5 He's A Latchico, 8 The Bellhop
+- 15 and 150: H Neptune – H Transpluto Dec 15.0143 15 whole (8.02) | S Pallas → H Mercury RA 14.9866 15 whole (10.79) | J Ketu – J Orcus Dec 15.0026 15 whole (75.87) | J Orcus – J Aldebaran Dec 15.0006 15 whole (94.19) | S Eris → J Pluto RA 150.0013 150 whole (87.31) — also: 3 Donnie Azoff, 4 Paso Doble
+- 9 and 90: H Uranus – H Pallas Dec 9.0145 9 whole (7.47) | S Gonggong → H Eris Dec 8.9966 9 whole (69.01) | J Jupiter – J Pluto Dec 8.9831 9 whole (2.38) | S Ketu → J Quaoar RA 90.0094 90 whole (27.90) | S Rahu → J Quaoar RA 89.9906 90 whole (27.90) | S Makemake → J Neptune RA 89.9895 90 whole (22.75) | S Sedna → J Regulus RA 90.0178 90 whole (1.17) — also: 1 Fire Flyer, 5 He's A Latchico, 7 Motazzen, 8 The Bellhop
 - 5 and 50: H Chiron – H Sedna RA 49.9999 50 whole (98.62) | H Vesta – H Makemake Dec 5.0051 5 whole (55.73) | S Pallas → H Quaoar Dec 4.9928 5 whole (40.78) | J Rahu – J Makemake Dec 50.0004 50 whole (96.50) | J Venus – J Jupiter Dec 5.0152 5 whole (5.88) | J Gonggong – J Quaoar Dec 5.0128 5 whole (12.85) — also: 1 Fire Flyer, 5 He's A Latchico, 7 Motazzen
+- 2 and 20: H Vesta – H Aldebaran Dec 1.9958 2 whole (62.53) | S Sedna → H Transpluto Dec 1.9929 2 whole (41.73) | J Mars – J Vesta RA 19.9871 20 whole (12.62) | J Venus – J Pluto RA 19.9998 20 whole (98.49) | J Venus – J Uranus Dec 2.0025 2 whole (76.18) | S Ceres → J Mars Dec 2.0161 2 whole (3.76) | S Gonggong → J Eris Dec 1.9827 2 whole (1.83) — also: 2 Lynx De Thaix, 3 Donnie Azoff, 4 Paso Doble, 7 Motazzen, 8 The Bellhop
 - 17 and 170: S Jupiter → H Gonggong RA 170.0134 170 whole (10.86) | S Ketu → H Neptune Dec 16.9827 17 whole (1.86) | S Eris → J Venus RA 170.0012 170 whole (88.74) — also: 2 Lynx De Thaix, 5 He's A Latchico
 - 3 and 30: S Mercury → H Gonggong Dec 2.9893 3 whole (21.72) | J Eris – J Haumea Dec 30.0151 30 whole (6.05) | S Sun → J Haumea RA 29.9842 30 whole (4.44) | S Sun → J Gonggong Dec 2.9829 3 whole (2.04) — also: 2 Lynx De Thaix, 4 Paso Doble, 5 He's A Latchico, 7 Motazzen
 - 1 and 10: S Mars → H Transpluto RA 10.0175 10 whole (1.56) | S Juno → H Neptune Dec 9.9915 10 whole (33.11) | S Mercury → H Quaoar Dec 0.9932 1 whole (43.38) | S Gonggong → H Gonggong Dec 0.9819 1 whole (0.92) | S Haumea → H Uranus Dec 1.0071 1 whole (41.91) | S Jupiter → J Transpluto RA 0.9876 1 whole (14.39) | S Ceres → J Ceres Dec 0.9856 1 whole (7.83) | S Pallas → J Neptune Dec 0.9925 1 whole (38.98) | S Venus → J Pallas Dec 1.0009 1 whole (90.82) — also: 1 Fire Flyer, 2 Lynx De Thaix, 3 Donnie Azoff, 4 Paso Doble, 8 The Bellhop
 - 16 and 160: S Pallas → H Neptune Dec 16.0183 16 whole (0.70) | J Uranus – J Pluto Dec 16.0008 16 whole (92.33) | S Pluto → J Transpluto RA 160.0097 160 whole (26.67) | S Saturn → J Jupiter Dec 16.0005 16 whole (95.24) — also: 2 Lynx De Thaix, 3 Donnie Azoff, 7 Motazzen
 - 8 and 80: S Haumea → H Pallas Dec 8.0075 8 whole (39.19) | S Makemake → H Sun Dec 7.9872 8 whole (12.92) | S Quaoar → H Juno Dec 7.9899 8 whole (24.43) | J Saturn – J Pallas RA 80.0187 80 whole (0.45) | J Pallas – J Juno Dec 8.0079 8 whole (36.89) — only
-- 2 and 20: S Sedna → H Transpluto Dec 1.9929 2 whole (41.73) | J Mars – J Vesta RA 19.9871 20 whole (12.62) | J Venus – J Pluto RA 19.9998 20 whole (98.49) | J Venus – J Uranus Dec 2.0025 2 whole (76.18) | S Ceres → J Mars Dec 2.0161 2 whole (3.76) | S Gonggong → J Eris Dec 1.9827 2 whole (1.83) — also: 2 Lynx De Thaix, 3 Donnie Azoff, 4 Paso Doble, 7 Motazzen, 8 The Bellhop
-- 14 and 140: S Pallas → H Orcus RA 140.0162 140 whole (3.63) | J Venus – J Pluto Dec 13.9982 14 whole (83.16) — also: 1 Fire Flyer
+- 14 and 140: S Pallas → H Orcus RA 140.0162 140 whole (3.63) | J Venus – J Pluto Dec 13.9982 14 whole (83.16) — also: 1 Fire Flyer, 5 He's A Latchico
 ### 13 one body pair, every layer
 - none
 ### 14 sky Jupiter repeats natal Jupiter (>= 50)
@@ -346,31 +372,39 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 8 axis (natal Jupiter on a node)
 - none
 ### 9 natal Jupiter ties (>= 50)
+- H Jupiter – H Aldebaran RA 161.8995 100×φ^1 phi power (77.65) — only
 - H Jupiter – H Saturn Dec 4.9995 5 whole (94.64) — only
 - H Jupiter – H Vesta Dec 0.0146 conj conj (90.51) — only
 - H Jupiter – H Quaoar Dec 1.7779 1.77778 ninth (98.99) — only
 ### 10 N and N x phi (>= 50)
-- S Vesta → H Quaoar Dec 10.9993 11 whole (92.76) | J Quaoar – J Sedna Dec 17.7964 11×φ golden (88.35) — also: 2 Lynx De Thaix, 8 The Bellhop
-- S Orcus → H Chiron Dec 16.0006 16 whole (94.56) | S Sedna → H Neptune Dec 15.9952 16 whole (57.59) | S Mercury → J Chiron Dec 25.8829 16×φ golden (68.13) — also: 4 Paso Doble, 5 He's A Latchico, 8 The Bellhop
+- S Vesta → H Quaoar Dec 10.9993 11 whole (92.76) | J Quaoar – J Sedna Dec 17.7964 11×φ golden (88.35) — also: 1 Fire Flyer, 2 Lynx De Thaix, 6 So You Know, 8 The Bellhop
+- S Orcus → H Chiron Dec 16.0006 16 whole (94.56) | S Sedna → H Neptune Dec 15.9952 16 whole (57.59) | S Mercury → J Chiron Dec 25.8829 16×φ golden (68.13) | S Orcus → J Regulus Dec 25.8810 16×φ golden (58.58) — also: 4 Paso Doble, 5 He's A Latchico, 6 So You Know, 8 The Bellhop
 - S Mercury → H Haumea Dec 30.9982 31 whole (82.55) | J Mercury – J Venus RA 50.1518 31×φ golden (60.08) | S Quaoar → J Pluto RA 50.1592 31×φ golden (99.29) — also: 3 Donnie Azoff
+- H Ketu – H Quaoar RA 45.0008 45 whole (92.59) | H Chiron – H Aldebaran RA 72.8157 45×φ golden (75.98) — only
+- S Mars → H Aldebaran RA 74.9942 75 whole (50.52) | S Transpluto → H Saturn RA 121.3472 75×φ golden (69.76) — only
+- H Transpluto – H Antares RA 93.9963 94 whole (66.61) | J Gonggong – J Quaoar RA 94.0016 94 whole (84.27) | H Mercury – H Regulus RA 152.0871 94×φ golden (56.37) — only
+- J Ceres – J Orcus RA 102.0021 102 whole (80.20) | J Ceres – J Aldebaran RA 165.0462 102×φ golden (62.89) — only
 ### 11 values close together (within 0.3)
 - 1.7779 - 2.0170: H Jupiter – H Quaoar Dec 1.7779 1.77778 ninth (98.99) | S Juno → H Gonggong Dec 2.0064 2 whole (46.06) | S Neptune → H Mercury RA 2.0154 2 whole (5.35) | J Venus – J Pallas Dec 2.0170 2 whole (2.29) — only
 - 7.7778 - 8.0092: S Sedna → H Rahu Dec 7.7778 7.77778 ninth (99.59) | S Orcus → J Neptune Dec 8.0090 8 whole (30.50) | S Gonggong → H Eris Dec 8.0092 8 whole (29.05) — also: 5 He's A Latchico
 - 10.9831 - 11.0973: J Sun – J Haumea RA 10.9831 11 whole (2.38) | S Vesta → H Quaoar Dec 10.9993 11 whole (92.76) | J Mars – J Neptune Dec 11.0065 11 whole (45.68) | S Pallas → J Eris Dec 11.0973 φ^5 phi power (76.05) | S Saturn → H Orcus Dec 11.0973 φ^5 phi power (75.94) — only
-- 12.9424 - 13.0040: S Eris → H Pallas Dec 12.9424 8×φ golden (88.87) | S Neptune → J Quaoar Dec 12.9462 8×φ golden (88.61) | S Chiron → H Eris Dec 12.9844 13 whole (4.83) | S Transpluto → J Ketu Dec 13.0040 13 whole (64.08) — also: 1 Fire Flyer, 2 Lynx De Thaix, 8 The Bellhop
+- 12.9424 - 13.0040: S Eris → H Pallas Dec 12.9424 8×φ golden (88.87) | S Neptune → J Quaoar Dec 12.9462 8×φ golden (88.61) | S Chiron → H Eris Dec 12.9844 13 whole (4.83) | S Transpluto → J Ketu Dec 13.0040 13 whole (64.08) — also: 1 Fire Flyer, 2 Lynx De Thaix, 5 He's A Latchico, 8 The Bellhop
 - 17.7766 - 18.0145: S Vesta → H Saturn Dec 17.7766 17.7778 ninth (99.10) | J Saturn – J Rahu RA 17.7780 17.7778 ninth (99.79) | J Quaoar – J Sedna Dec 17.7964 11×φ golden (88.35) | S Sedna → J Eris Dec 17.9425 φ^6 phi power (96.04) | S Jupiter → J Chiron RA 17.9433 φ^6 phi power (97.87) | S Uranus → J Orcus Dec 17.9920 18 whole (36.04) | S Pluto → H Sun Dec 18.0066 18 whole (44.58) | H Haumea – H Makemake RA 18.0145 18 whole (7.44) — only
 - 18.8825 - 19.0187: J Pallas – J Juno Dec 18.8825 18.8889 ninth (95.37) | S Moon → J Jupiter Dec 18.8878 18.8889 ninth (99.21) | S Gonggong → H Chiron RA 18.9970 19 whole (72.41) | J Jupiter – J Eris Dec 19.0175 19 whole (1.59) | H Eris – H Haumea Dec 19.0177 19 whole (1.31) | S Sedna → J Sedna RA 19.0187 19 whole (0.45) — also: 3 Donnie Azoff, 6 So You Know
-- 23.9923 - 24.1458: S Venus → J Chiron Dec 23.9923 24 whole (37.58) | S Saturn → H Mars Dec 24.0180 24 whole (1.00) | S Jupiter → H Orcus Dec 24.1458 24.14 silver (94.03) — also: 6 So You Know
+- 23.9923 - 24.1458: S Venus → J Chiron Dec 23.9923 24 whole (37.58) | S Saturn → H Mars Dec 24.0180 24 whole (1.00) | S Jupiter → H Orcus Dec 24.1458 24.14 silver (94.03) — also: 5 He's A Latchico, 6 So You Know, 8 The Bellhop
+- 25.8810 - 25.9940: S Orcus → J Regulus Dec 25.8810 16×φ golden (58.58) | S Mercury → J Chiron Dec 25.8829 16×φ golden (68.13) | S Sun → J Antares RA 25.9892 26 whole (21.00) | S Sun → H Antares RA 25.9940 26 whole (49.00) — also: 1 Fire Flyer, 2 Lynx De Thaix, 3 Donnie Azoff, 5 He's A Latchico, 6 So You Know, 8 The Bellhop
+- 36.9841 - 37.2104: S Pallas → H Haumea Dec 36.9841 37 whole (4.23) | S Mercury → J Ketu Dec 37.0140 37 whole (9.14) | S Ceres → J Regulus RA 37.0175 37 whole (1.53) | H Sedna – H Fomalhaut Dec 37.2104 23×φ golden (74.90) — also: 1 Fire Flyer, 5 He's A Latchico
 - 50.0145 - 50.1592: S Pluto → H Chiron RA 50.0145 50 whole (7.60) | J Mercury – J Venus RA 50.1518 31×φ golden (60.08) | S Quaoar → J Pluto RA 50.1592 31×φ golden (99.29) — also: 6 So You Know
 - 138.9829 - 139.1466: S Haumea → H Venus RA 138.9829 139 whole (2.11) | S Ceres → H Gonggong RA 138.9875 139 whole (14.22) | H Pluto – H Orcus RA 139.1466 86×φ golden (74.91) — only
+- 151.9809 - 152.0871: J Uranus – J Chiron RA 151.9809 152 whole (0.18) | S Gonggong → J Chiron RA 152.0171 152 whole (2.04) | H Mercury – H Regulus RA 152.0871 94×φ golden (56.37) — only
 ### 12 digits across decades (whole N, 10 N)
+- 9 and 90: H Juno – H Fomalhaut RA 9.0179 9 whole (1.06) | S Mars → H Orcus RA 8.9892 9 whole (21.23) | J Quaoar – J Transpluto RA 89.9823 90 whole (1.34) | S Pallas → J Ketu RA 90.0183 90 whole (0.70) | S Pallas → J Rahu RA 89.9817 90 whole (0.70) | S Sedna → J Regulus RA 90.0194 90 whole (0.09) | S Eris → J Eris Dec 9.0168 9 whole (2.54) — also: 1 Fire Flyer, 5 He's A Latchico, 6 So You Know, 8 The Bellhop
 - 5 and 50: H Jupiter – H Saturn Dec 4.9995 5 whole (94.64) | H Neptune – H Gonggong Dec 5.0113 5 whole (18.83) | H Saturn – H Vesta Dec 5.0140 5 whole (8.88) | S Pluto → H Chiron RA 50.0145 50 whole (7.60) | S Neptune → H Sun Dec 5.0147 5 whole (6.97) | S Quaoar → H Orcus Dec 4.9999 5 whole (99.49) | S Venus → J Ceres Dec 4.9814 5 whole (0.50) — also: 1 Fire Flyer, 5 He's A Latchico, 6 So You Know
-- 7 and 70: H Mercury – H Juno Dec 6.9932 7 whole (43.76) | S Vesta → H Uranus RA 6.9858 7 whole (8.55) | S Juno → H Neptune Dec 7.0177 7 whole (1.27) | S Transpluto → H Haumea Dec 6.9882 7 whole (16.84) | J Saturn – J Quaoar Dec 6.9915 7 whole (32.97) | S Juno → J Ceres RA 69.9958 70 whole (62.19) — also: 8 The Bellhop
-- 9 and 90: S Mars → H Orcus RA 8.9892 9 whole (21.23) | J Quaoar – J Transpluto RA 89.9823 90 whole (1.34) | S Pallas → J Ketu RA 90.0183 90 whole (0.70) | S Pallas → J Rahu RA 89.9817 90 whole (0.70) | S Eris → J Eris Dec 9.0168 9 whole (2.54) — also: 1 Fire Flyer, 5 He's A Latchico, 6 So You Know, 8 The Bellhop
+- 7 and 70: H Mercury – H Juno Dec 6.9932 7 whole (43.76) | H Uranus – H Aldebaran Dec 6.9962 7 whole (65.32) | S Vesta → H Uranus RA 6.9858 7 whole (8.55) | S Juno → H Neptune Dec 7.0177 7 whole (1.27) | S Transpluto → H Haumea Dec 6.9882 7 whole (16.84) | J Saturn – J Quaoar Dec 6.9915 7 whole (32.97) | S Juno → J Ceres RA 69.9958 70 whole (62.19) — also: 8 The Bellhop
 - 2 and 20: H Venus – H Pluto Dec 20.0068 20 whole (43.75) | S Neptune → H Mercury RA 2.0154 2 whole (5.35) | S Juno → H Gonggong Dec 2.0064 2 whole (46.06) | J Venus – J Pallas Dec 2.0170 2 whole (2.29) — also: 2 Lynx De Thaix, 3 Donnie Azoff, 4 Paso Doble, 6 So You Know, 8 The Bellhop
 - 13 and 130: S Uranus → H Pluto RA 130.0184 130 whole (0.60) | S Chiron → H Eris Dec 12.9844 13 whole (4.83) | S Neptune → J Orcus RA 130.0028 130 whole (73.65) | S Transpluto → J Ketu Dec 13.0040 13 whole (64.08) — only
-- 3 and 30: H Sun – H Ketu RA 30.0154 30 whole (5.33) | H Ceres – H Chiron Dec 30.0141 30 whole (8.70) | S Jupiter → H Transpluto Dec 2.9900 3 whole (25.23) | J Sun – J Mercury Dec 2.9889 3 whole (19.95) | S Uranus → J Eris Dec 29.9857 30 whole (8.20) | S Orcus → J Mars Dec 2.9975 3 whole (76.81) — also: 2 Lynx De Thaix, 4 Paso Doble, 5 He's A Latchico, 6 So You Know
-- 16 and 160: H Pallas – H Haumea RA 160.0003 160 whole (97.03) | S Mars → H Ceres Dec 15.9839 16 whole (3.84) | S Orcus → H Chiron Dec 16.0006 16 whole (94.56) | S Sedna → H Neptune Dec 15.9952 16 whole (57.59) — also: 2 Lynx De Thaix, 3 Donnie Azoff, 6 So You Know
+- 3 and 30: H Sun – H Ketu RA 30.0154 30 whole (5.33) | H Ceres – H Chiron Dec 30.0141 30 whole (8.70) | S Jupiter → H Transpluto Dec 2.9900 3 whole (25.23) | J Sun – J Mercury Dec 2.9889 3 whole (19.95) | J Uranus – J Antares Dec 3.0159 3 whole (4.13) | S Uranus → J Eris Dec 29.9857 30 whole (8.20) | S Orcus → J Mars Dec 2.9975 3 whole (76.81) — also: 2 Lynx De Thaix, 4 Paso Doble, 5 He's A Latchico, 6 So You Know
+- 16 and 160: H Pallas – H Haumea RA 160.0003 160 whole (97.03) | S Mars → H Ceres Dec 15.9839 16 whole (3.84) | S Orcus → H Chiron Dec 16.0006 16 whole (94.56) | S Sedna → H Neptune Dec 15.9952 16 whole (57.59) | J Quaoar – J Fomalhaut Dec 16.0138 16 whole (9.64) — also: 2 Lynx De Thaix, 3 Donnie Azoff, 6 So You Know
 ### 13 one body pair, every layer
 - none
 ### 14 sky Jupiter repeats natal Jupiter (>= 50)
@@ -394,7 +428,7 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 ### 6 centre on a body tied to natal Jupiter (>= 50)
 - none
 ### 7 numbers in both charts (>= 80, background)
-- 5 numbers: 12.2222 ninth, 177.778 ninth, 100×φ^-1 phi power, φ^5 phi power, 3 whole
+- 6 numbers: 12.2222 ninth, 177.778 ninth, 100×φ^-1 phi power, 100×φ^1 phi power, φ^5 phi power, 3 whole
 ### 8 axis (natal Jupiter on a node)
 - none
 ### 9 natal Jupiter ties (>= 50)
@@ -402,28 +436,39 @@ Checks: 1 natal pair, same number, both charts; 2a sky X on natal Y, both charts
 - J Jupiter – J Ketu RA 179.4156 10×φ^6 phi power (94.05) — only
 ### 10 N and N x phi (>= 50)
 - S Rahu → H Gonggong RA 8.0021 8 whole (80.15) | S Chiron → H Uranus RA 12.9434 8×φ golden (94.81) | S Mars → H Orcus RA 12.9437 8×φ golden (96.30) — also: 1 Fire Flyer, 5 He's A Latchico
-- S Venus → H Eris Dec 10.9993 11 whole (93.43) | S Saturn → J Pallas Dec 17.7939 11×φ golden (74.06) — also: 2 Lynx De Thaix, 7 Motazzen
+- S Venus → H Eris Dec 10.9993 11 whole (93.43) | S Saturn → J Pallas Dec 17.7939 11×φ golden (74.06) — also: 1 Fire Flyer, 2 Lynx De Thaix, 6 So You Know, 7 Motazzen
 - S Venus → J Chiron Dec 13.0037 13 whole (66.43) | S Quaoar → H Juno RA 21.0352 13×φ golden (95.42) — only
-- S Eris → J Ketu RA 16.0036 16 whole (67.65) | H Quaoar – H Transpluto Dec 25.8814 16×φ golden (60.85) — also: 4 Paso Doble, 5 He's A Latchico, 7 Motazzen
+- S Eris → J Ketu RA 16.0036 16 whole (67.65) | H Quaoar – H Transpluto Dec 25.8814 16×φ golden (60.85) | S Orcus → J Regulus Dec 25.8813 16×φ golden (60.02) — also: 4 Paso Doble, 5 He's A Latchico, 6 So You Know, 7 Motazzen
 - S Jupiter → J Sun Dec 18.0019 18 whole (81.74) | J Pluto – J Ceres Dec 29.1264 18×φ golden (89.04) — only
+- J Juno – J Aldebaran Dec 23.0014 23 whole (86.03) | S Sun → J Mars Dec 37.2188 23×φ golden (76.52) — also: 1 Fire Flyer
 - H Uranus – H Gonggong Dec 26.0023 26 whole (77.97) | H Ketu – H Makemake Dec 42.0677 26×φ golden (92.68) — also: 3 Donnie Azoff
+- J Uranus – J Antares RA 46.9965 47 whole (67.72) | S Venus → H Quaoar RA 76.0489 47×φ golden (92.37) — only
 - S Juno → H Pallas RA 57.0045 57 whole (59.72) | S Pluto → H Uranus RA 92.2242 57×φ golden (78.13) — only
-- H Saturn – H Haumea RA 101.0019 101 whole (81.97) | S Eris → J Jupiter RA 163.4121 101×φ golden (50.50) — only
+- H Saturn – H Haumea RA 101.0019 101 whole (81.97) | S Eris → J Jupiter RA 163.4121 101×φ golden (50.50) — also: 5 He's A Latchico
 - S Ketu → J Sedna RA 104.0020 104 whole (81.02) | H Eris – H Haumea RA 168.2823 104×φ golden (62.60) — only
 ### 11 values close together (within 0.3)
-- 10.9993 - 11.1200: S Venus → H Eris Dec 10.9993 11 whole (93.43) | S Neptune → H Transpluto Dec 11.0904 φ^5 phi power (99.04) | J Juno – J Sedna Dec 11.0942 φ^5 phi power (86.05) | S Transpluto → H Eris Dec 11.1200 11.1111 ninth (85.46) — also: 2 Lynx De Thaix
+- 6.8544 - 7.0169: S Uranus → H Aldebaran RA 6.8544 φ^4 phi power (98.13) | S Uranus → J Aldebaran RA 6.8545 φ^4 phi power (97.52) | S Mercury → J Neptune Dec 6.9882 7 whole (16.77) | H Mercury – H Juno Dec 7.0071 7 whole (41.74) | S Gonggong → J Gonggong RA 7.0169 7 whole (2.41) — also: 5 He's A Latchico
+- 10.9812 - 11.1200: H Chiron – H Aldebaran Dec 10.9812 11 whole (0.36) | S Venus → H Eris Dec 10.9993 11 whole (93.43) | S Neptune → H Transpluto Dec 11.0904 φ^5 phi power (99.04) | J Juno – J Sedna Dec 11.0942 φ^5 phi power (86.05) | S Transpluto → H Eris Dec 11.1200 11.1111 ninth (85.46) — also: 1 Fire Flyer, 2 Lynx De Thaix
 - 11.0904 - 11.3222: S Neptune → H Transpluto Dec 11.0904 φ^5 phi power (99.04) | J Juno – J Sedna Dec 11.0942 φ^5 phi power (86.05) | S Transpluto → H Eris Dec 11.1200 11.1111 ninth (85.46) | S Ketu → J Orcus Dec 11.3222 7×φ golden (76.54) — also: 1 Fire Flyer, 2 Lynx De Thaix
-- 12.0005 - 12.2292: H Venus – H Neptune Dec 12.0005 12 whole (95.41) | S Eris → H Orcus Dec 12.0077 12 whole (37.68) | H Makemake – H Transpluto Dec 12.0086 12 whole (32.54) | S Gonggong → H Pluto Dec 12.2260 12.2222 ninth (94.72) | S Moon → J Neptune Dec 12.2292 12.2222 ninth (90.34) — also: 5 He's A Latchico
-- 12.9434 - 13.0037: S Chiron → H Uranus RA 12.9434 8×φ golden (94.81) | S Mars → H Orcus RA 12.9437 8×φ golden (96.30) | S Saturn → H Juno Dec 12.9867 13 whole (11.24) | S Venus → J Chiron Dec 13.0037 13 whole (66.43) — also: 1 Fire Flyer, 2 Lynx De Thaix, 7 Motazzen
-- 20.9868 - 21.0352: J Chiron – J Haumea Dec 20.9868 21 whole (11.57) | S Vesta → J Ketu Dec 21.0016 21 whole (84.63) | S Quaoar → H Juno RA 21.0352 13×φ golden (95.42) — only
+- 11.9817 - 12.2292: H Ketu – H Antares RA 11.9817 12 whole (0.76) | H Venus – H Neptune Dec 12.0005 12 whole (95.41) | S Eris → H Orcus Dec 12.0077 12 whole (37.68) | H Makemake – H Transpluto Dec 12.0086 12 whole (32.54) | S Gonggong → H Pluto Dec 12.2260 12.2222 ninth (94.72) | S Moon → J Neptune Dec 12.2292 12.2222 ninth (90.34) — also: 5 He's A Latchico
+- 12.9434 - 13.0037: S Chiron → H Uranus RA 12.9434 8×φ golden (94.81) | S Mars → H Orcus RA 12.9437 8×φ golden (96.30) | S Saturn → H Juno Dec 12.9867 13 whole (11.24) | S Venus → J Chiron Dec 13.0037 13 whole (66.43) — also: 1 Fire Flyer, 2 Lynx De Thaix, 5 He's A Latchico, 7 Motazzen
+- 13.9948 - 14.1420: H Sun – H Fomalhaut Dec 13.9948 14 whole (54.74) | S Sun → H Ketu RA 14.0092 14 whole (28.99) | S Sedna → J Ceres Dec 14.1420 14.14 sqrt2 (99.53) — also: 1 Fire Flyer, 2 Lynx De Thaix
+- 20.9868 - 21.0352: J Chiron – J Haumea Dec 20.9868 21 whole (11.57) | H Neptune – H Aldebaran Dec 20.9875 21 whole (14.17) | S Vesta → J Ketu Dec 21.0016 21 whole (84.63) | S Moon → H Regulus Dec 21.0083 21 whole (34.13) | S Moon → J Regulus Dec 21.0117 21 whole (17.07) | S Quaoar → H Juno RA 21.0352 13×φ golden (95.42) — only
+- 24.0006 - 24.1469: S Pluto → J Gonggong RA 24.0006 24 whole (94.38) | H Juno – H Regulus Dec 24.0082 24 whole (34.80) | J Mars – J Vesta RA 24.1469 24.14 silver (92.27) — also: 5 He's A Latchico, 6 So You Know, 7 Motazzen
+- 25.8813 - 26.0023: S Orcus → J Regulus Dec 25.8813 16×φ golden (60.02) | H Quaoar – H Transpluto Dec 25.8814 16×φ golden (60.85) | S Sun → J Antares RA 25.9902 26 whole (25.82) | S Sun → H Antares RA 25.9910 26 whole (30.14) | H Uranus – H Gonggong Dec 26.0023 26 whole (77.97) — also: 1 Fire Flyer, 2 Lynx De Thaix, 3 Donnie Azoff, 5 He's A Latchico, 6 So You Know, 7 Motazzen
+- 25.9902 - 26.1866: S Sun → J Antares RA 25.9902 26 whole (25.82) | S Sun → H Antares RA 25.9910 26 whole (30.14) | H Uranus – H Gonggong Dec 26.0023 26 whole (77.97) | J Juno – J Antares RA 26.1866 10×φ^2 phi power (90.70) — also: 1 Fire Flyer
 - 28.9861 - 29.1264: S Haumea → H Sun Dec 28.9861 29 whole (9.43) | H Jupiter – H Rahu Dec 29.0317 φ^7 phi power (96.21) | J Pluto – J Ceres Dec 29.1264 18×φ golden (89.04) — only
+- 91.9902 - 92.2242: J Saturn – J Antares RA 91.9902 92 whole (25.88) | S Ceres → J Eris RA 91.9934 92 whole (44.96) | S Pluto → H Uranus RA 92.2242 57×φ golden (78.13) — only
 - 127.8309 - 128.0057: S Transpluto → H Vesta RA 127.8309 79×φ golden (65.19) | S Ketu → H Quaoar RA 127.9944 128 whole (51.83) | J Mercury – J Saturn RA 128.0057 128 whole (51.21) — only
 - 147.0181 - 147.2575: J Haumea – J Sedna RA 147.0181 147 whole (0.90) | S Saturn → J Venus RA 147.0195 147 whole (0.06) | S Jupiter → J Uranus RA 147.2173 91×φ golden (7.00) | H Chiron – H Transpluto RA 147.2575 91×φ golden (24.21) — only
+- 161.8169 - 162.0068: J Transpluto – J Fomalhaut RA 161.8169 100×φ^1 phi power (96.70) | S Transpluto → H Saturn RA 161.8560 100×φ^1 phi power (87.43) | S Chiron → J Jupiter RA 162.0068 162 whole (43.63) — only
+- 174.7214 - 174.9805: S Sedna → H Antares RA 174.7214 108×φ golden (3.55) | S Sedna → J Antares RA 174.7222 108×φ golden (4.57) | S Uranus → H Antares RA 174.7790 108×φ golden (0.09) | S Uranus → J Antares RA 174.7799 108×φ golden (0.00) | S Uranus → J Pluto RA 174.9805 175 whole (0.06) — also: 1 Fire Flyer, 2 Lynx De Thaix
 - 177.7075 - 177.9781: S Gonggong → H Transpluto RA 177.7075 177.778 ninth (94.50) | S Juno → J Mars RA 177.7627 177.778 ninth (98.82) | S Vesta → H Makemake RA 177.9781 110×φ golden (68.41) — also: 2 Lynx De Thaix
 ### 12 digits across decades (whole N, 10 N)
 - 7 and 70: H Mercury – H Juno Dec 7.0071 7 whole (41.74) | J Vesta – J Chiron RA 70.0135 70 whole (10.69) | S Gonggong → J Gonggong RA 7.0169 7 whole (2.41) | S Mercury → J Neptune Dec 6.9882 7 whole (16.77) — also: 7 Motazzen
-- 1 and 10: H Neptune – H Chiron Dec 10.0063 10 whole (46.79) | S Eris → H Eris RA 0.9922 1 whole (37.51) | S Neptune → H Pallas RA 0.9948 1 whole (54.46) | S Moon → H Mercury Dec 10.0070 10 whole (42.48) | J Sun – J Quaoar Dec 10.0011 10 whole (89.48) | S Pallas → J Neptune Dec 1.0022 1 whole (78.79) — also: 1 Fire Flyer, 2 Lynx De Thaix, 3 Donnie Azoff, 4 Paso Doble, 6 So You Know
-- 9 and 90: S Venus → H Vesta Dec 8.9845 9 whole (4.98) | J Chiron – J Eris Dec 8.9811 9 whole (0.32) | S Jupiter → J Pluto RA 89.9812 90 whole (0.35) — also: 1 Fire Flyer, 5 He's A Latchico, 6 So You Know, 7 Motazzen
+- 4 and 40: H Sun – H Ketu Dec 3.9992 4 whole (91.84) | J Chiron – J Sedna Dec 3.9929 4 whole (41.82) | J Transpluto – J Antares Dec 39.9814 40 whole (0.49) — also: 2 Lynx De Thaix, 5 He's A Latchico, 6 So You Know
+- 1 and 10: H Ketu – H Fomalhaut Dec 9.9956 10 whole (61.07) | H Neptune – H Chiron Dec 10.0063 10 whole (46.79) | S Eris → H Eris RA 0.9922 1 whole (37.51) | S Neptune → H Pallas RA 0.9948 1 whole (54.46) | S Moon → H Mercury Dec 10.0070 10 whole (42.48) | J Rahu – J Antares Dec 10.0062 10 whole (47.72) | J Sun – J Quaoar Dec 10.0011 10 whole (89.48) | S Pallas → J Neptune Dec 1.0022 1 whole (78.79) — also: 1 Fire Flyer, 2 Lynx De Thaix, 3 Donnie Azoff, 4 Paso Doble, 6 So You Know
+- 9 and 90: S Venus → H Vesta Dec 8.9845 9 whole (4.98) | J Chiron – J Eris Dec 8.9811 9 whole (0.32) | S Jupiter → J Pluto RA 89.9812 90 whole (0.35) | S Sedna → J Regulus RA 90.0184 90 whole (0.63) — also: 1 Fire Flyer, 5 He's A Latchico, 6 So You Know, 7 Motazzen
 - 2 and 20: H Vesta – H Eris Dec 19.9838 20 whole (3.60) | S Saturn → H Mercury Dec 19.9938 20 whole (47.48) | S Mercury → J Mercury Dec 2.0112 2 whole (19.36) | S Neptune → J Vesta Dec 19.9801 20 whole (0.00) — also: 2 Lynx De Thaix, 3 Donnie Azoff, 4 Paso Doble, 6 So You Know, 7 Motazzen
 - 6 and 60: H Gonggong – H Quaoar RA 60.0077 60 whole (37.85) | S Vesta → J Orcus Dec 5.9848 6 whole (5.69) | S Gonggong → J Mercury Dec 5.9824 6 whole (1.49) — also: 3 Donnie Azoff, 5 He's A Latchico
 ### 13 one body pair, every layer

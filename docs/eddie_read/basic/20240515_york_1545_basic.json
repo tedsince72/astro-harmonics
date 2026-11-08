@@ -42,6 +42,7 @@
      "key": "(11,)",
      "cells": [
       "S Quaoar → H Neptune Dec 11.0052 11 whole (54.60)",
+      "J Uranus – J Antares Dec 11.0039 11 whole (64.43)",
       "S Transpluto → J Haumea Dec 10.9974 11 whole (75.75)",
       "S Uranus → H Venus RA 17.7953 11×φ golden (82.13)",
       "S Rahu → H Makemake Dec 17.7912 11×φ golden (60.63)"
@@ -113,12 +114,29 @@
     },
     {
      "check": 11,
+     "key": "('7', 'φ^4')",
+     "cells": [
+      "S Pluto → J Fomalhaut Dec 6.8547 φ^4 phi power (96.69)",
+      "S Uranus → H Mercury Dec 6.9842 7 whole (4.32)",
+      "J Venus – J Rahu RA 6.9964 7 whole (66.96)",
+      "S Chiron → H Haumea Dec 6.9992 7 whole (91.71)",
+      "S Venus → J Mars Dec 7.0058 7 whole (50.22)",
+      "H Makemake – H Aldebaran Dec 7.0122 7 whole (15.05)",
+      "S Eris → H Chiron Dec 7.0170 7 whole (2.31)"
+     ],
+     "note": "6.8547 - 7.0170",
+     "field": "also: 4 La Pasionaria"
+    },
+    {
+     "check": 11,
      "key": "('11', '11.1111')",
      "cells": [
       "H Jupiter – H Eris Dec 10.9811 11 whole (0.29)",
       "S Eris → J Pallas Dec 10.9937 11 whole (46.93)",
       "S Transpluto → J Haumea Dec 10.9974 11 whole (75.75)",
+      "J Uranus – J Antares Dec 11.0039 11 whole (64.43)",
       "S Quaoar → H Neptune Dec 11.0052 11 whole (54.60)",
+      "J Neptune – J Fomalhaut Dec 11.0098 11 whole (25.79)",
       "S Mercury → H Sun Dec 11.0168 11 whole (2.57)",
       "S Mercury → J Jupiter Dec 11.1105 11.1111 ninth (99.00)",
       "S Ketu → J Chiron Dec 11.1154 11.1111 ninth (92.92)"
@@ -159,9 +177,10 @@
      "cells": [
       "S Rahu → H Makemake Dec 17.7912 11×φ golden (60.63)",
       "S Uranus → H Venus RA 17.7953 11×φ golden (82.13)",
-      "S Vesta → H Chiron Dec 17.9846 18 whole (5.33)"
+      "S Vesta → H Chiron Dec 17.9846 18 whole (5.33)",
+      "J Juno – J Aldebaran Dec 18.0069 18 whole (42.91)"
      ],
-     "note": "17.7912 - 17.9846",
+     "note": "17.7912 - 18.0069",
      "field": "also: 2 Francophone, 3 Friendly Soul"
     },
     {
@@ -199,6 +218,39 @@
     },
     {
      "check": 11,
+     "key": "('21×φ', '34')",
+     "cells": [
+      "S Haumea → J Neptune Dec 33.9740 21×φ golden (72.88)",
+      "H Ketu – H Regulus Dec 33.9838 34 whole (3.53)",
+      "S Gonggong → H Makemake Dec 34.0003 34 whole (96.84)"
+     ],
+     "note": "33.9740 - 34.0003",
+     "field": "also: 7 Sinology"
+    },
+    {
+     "check": 11,
+     "key": "('23×φ', '37')",
+     "cells": [
+      "J Pallas – J Antares Dec 36.9829 37 whole (2.06)",
+      "S Quaoar → H Rahu Dec 37.0090 37 whole (30.23)",
+      "H Transpluto – H Antares Dec 37.2192 23×φ golden (74.37)"
+     ],
+     "note": "36.9829 - 37.2192",
+     "field": "also: 4 La Pasionaria, 5 Mayfair"
+    },
+    {
+     "check": 11,
+     "key": "('133', '82×φ')",
+     "cells": [
+      "S Chiron → J Quaoar RA 132.6937 82×φ golden (29.06)",
+      "S Chiron → J Regulus RA 132.9828 133 whole (1.99)",
+      "S Chiron → H Regulus RA 132.9853 133 whole (6.94)"
+     ],
+     "note": "132.6937 - 132.9853",
+     "field": "also: 5 Mayfair"
+    },
+    {
+     "check": 11,
      "key": "('107×φ', '173')",
      "cells": [
       "J Venus – J Ketu RA 173.0036 173 whole (66.96)",
@@ -206,7 +258,7 @@
       "S Mercury → H Haumea RA 173.1434 107×φ golden (33.13)"
      ],
      "note": "173.0036 - 173.1434",
-     "field": "only"
+     "field": "also: 3 Friendly Soul"
     },
     {
      "check": 12,
@@ -214,6 +266,7 @@
      "cells": [
       "H Eris – H Quaoar Dec 13.9986 14 whole (86.77)",
       "S Venus → H Ceres RA 13.9843 14 whole (4.68)",
+      "J Mercury – J Antares RA 139.9848 140 whole (5.70)",
       "J Sun – J Uranus RA 140.0030 140 whole (72.02)",
       "S Uranus → J Makemake Dec 13.9948 14 whole (54.65)",
       "S Vesta → J Pallas Dec 14.0079 14 whole (36.76)"
@@ -233,16 +286,28 @@
       "S Mars → J Ceres Dec 2.9807 3 whole (0.13)"
      ],
      "note": "3 and 30",
-     "field": "also: 2 Francophone, 3 Friendly Soul, 4 La Pasionaria, 6 Secret Satire, 7 Sinology"
+     "field": "also: 2 Francophone, 3 Friendly Soul, 4 La Pasionaria, 5 Mayfair, 6 Secret Satire, 7 Sinology"
     },
     {
      "check": 12,
      "key": "(1,)",
      "cells": [
       "H Pallas – H Sedna Dec 0.9813 1 whole (0.45)",
-      "S Uranus → H Sedna Dec 9.9902 10 whole (26.23)"
+      "S Uranus → H Sedna Dec 9.9902 10 whole (26.23)",
+      "J Saturn – J Aldebaran Dec 0.9841 1 whole (4.18)"
      ],
      "note": "1 and 10",
+     "field": "also: 2 Francophone, 3 Friendly Soul, 4 La Pasionaria, 5 Mayfair, 7 Sinology"
+    },
+    {
+     "check": 12,
+     "key": "(1,)",
+     "cells": [
+      "H Pallas – H Sedna Dec 0.9813 1 whole (0.45)",
+      "J Transpluto – J Antares RA 100.0140 100 whole (9.12)",
+      "J Saturn – J Aldebaran Dec 0.9841 1 whole (4.18)"
+     ],
+     "note": "1 and 100",
      "field": "also: 2 Francophone, 3 Friendly Soul, 4 La Pasionaria, 5 Mayfair, 7 Sinology"
     },
     {
@@ -283,7 +348,7 @@
       "S Neptune → J Eris Dec 5.0036 5 whole (66.88)"
      ],
      "note": "5 and 50",
-     "field": "also: 3 Friendly Soul, 6 Secret Satire"
+     "field": "also: 3 Friendly Soul, 4 La Pasionaria, 6 Secret Satire"
     },
     {
      "check": 12,
@@ -295,7 +360,17 @@
       "S Makemake → H Mars Dec 2.0001 2 whole (98.79)"
      ],
      "note": "2 and 20",
-     "field": "also: 3 Friendly Soul, 4 La Pasionaria, 5 Mayfair, 6 Secret Satire, 7 Sinology"
+     "field": "also: 2 Francophone, 3 Friendly Soul, 4 La Pasionaria, 5 Mayfair, 6 Secret Satire, 7 Sinology"
+    },
+    {
+     "check": 12,
+     "key": "(10,)",
+     "cells": [
+      "S Uranus → H Sedna Dec 9.9902 10 whole (26.23)",
+      "J Transpluto – J Antares RA 100.0140 100 whole (9.12)"
+     ],
+     "note": "10 and 100",
+     "field": "also: 2 Francophone"
     }
    ]
   },
@@ -392,6 +467,16 @@
     },
     {
      "check": 10,
+     "key": "(18,)",
+     "cells": [
+      "S Pallas → H Sun Dec 17.9947 18 whole (54.08)",
+      "S Haumea → J Antares RA 29.1262 18×φ golden (90.67)"
+     ],
+     "note": "",
+     "field": "also: 3 Friendly Soul, 4 La Pasionaria, 5 Mayfair, 6 Secret Satire, 7 Sinology"
+    },
+    {
+     "check": 10,
      "key": "(28,)",
      "cells": [
       "H Ketu – H Chiron Dec 27.9969 28 whole (71.16)",
@@ -439,6 +524,7 @@
      "cells": [
       "H Ceres – H Gonggong Dec 12.0073 12 whole (40.06)",
       "S Quaoar → J Uranus Dec 12.0074 12 whole (39.77)",
+      "J Eris – J Antares Dec 12.0089 12 whole (30.71)",
       "J Rahu – J Sedna Dec 12.2203 12.2222 ninth (97.36)",
       "J Saturn – J Ceres RA 12.2259 12.2222 ninth (94.91)"
      ],
@@ -461,12 +547,13 @@
      "check": 11,
      "key": "('14', '14.14')",
      "cells": [
+      "J Vesta – J Regulus Dec 13.9963 14 whole (66.55)",
       "S Saturn → J Mars Dec 14.0064 14 whole (46.34)",
       "H Mercury – H Haumea Dec 14.0132 14 whole (11.64)",
       "S Vesta → J Ketu Dec 14.1427 14.14 sqrt2 (98.36)",
       "S Transpluto → J Haumea RA 14.1431 14.14 sqrt2 (97.31)"
      ],
-     "note": "14.0064 - 14.1431",
+     "note": "13.9963 - 14.1431",
      "field": "also: 1 Classical Song, 3 Friendly Soul, 5 Mayfair, 6 Secret Satire"
     },
     {
@@ -479,6 +566,17 @@
      ],
      "note": "17.7902 - 18.0137",
      "field": "also: 1 Classical Song, 3 Friendly Soul"
+    },
+    {
+     "check": 12,
+     "key": "(2,)",
+     "cells": [
+      "H Mercury – H Chiron RA 1.9876 2 whole (14.35)",
+      "H Juno – H Regulus Dec 20.0170 20 whole (2.23)",
+      "S Quaoar → J Jupiter Dec 1.9938 2 whole (47.34)"
+     ],
+     "note": "2 and 20",
+     "field": "also: 1 Classical Song, 3 Friendly Soul, 4 La Pasionaria, 5 Mayfair, 6 Secret Satire, 7 Sinology"
     },
     {
      "check": 12,
@@ -528,10 +626,11 @@
      "key": "(16,)",
      "cells": [
       "H Ceres – H Quaoar Dec 15.9878 16 whole (15.34)",
+      "J Rahu – J Antares Dec 16.0168 16 whole (2.57)",
       "S Mercury → J Uranus RA 159.9960 160 whole (63.94)"
      ],
      "note": "16 and 160",
-     "field": "only"
+     "field": "also: 7 Sinology"
     },
     {
      "check": 12,
@@ -565,6 +664,7 @@
      "cells": [
       "H Saturn – H Rahu Dec 39.9941 40 whole (49.81)",
       "H Gonggong – H Quaoar Dec 3.9805 4 whole (0.06)",
+      "J Orcus – J Regulus RA 40.0020 40 whole (81.43)",
       "J Rahu – J Eris Dec 4.0079 4 whole (36.76)",
       "S Sun → J Pluto Dec 4.0070 4 whole (42.50)"
      ],
@@ -584,7 +684,7 @@
       "J Pallas – J Quaoar Dec 10.0150 10 whole (6.34)"
      ],
      "note": "10 and 100",
-     "field": "only"
+     "field": "also: 1 Classical Song"
     },
     {
      "check": 12,
@@ -603,10 +703,11 @@
      "cells": [
       "H Vesta – H Orcus Dec 30.0080 30 whole (35.84)",
       "S Orcus → H Quaoar Dec 2.9866 3 whole (10.97)",
-      "J Mars – J Ketu Dec 3.0196 3 whole (0.04)"
+      "J Mars – J Ketu Dec 3.0196 3 whole (0.04)",
+      "J Pluto – J Regulus Dec 3.0163 3 whole (3.36)"
      ],
      "note": "3 and 30",
-     "field": "also: 1 Classical Song, 3 Friendly Soul, 4 La Pasionaria, 6 Secret Satire, 7 Sinology"
+     "field": "also: 1 Classical Song, 3 Friendly Soul, 4 La Pasionaria, 5 Mayfair, 6 Secret Satire, 7 Sinology"
     },
     {
      "check": 13,
@@ -692,6 +793,38 @@
     },
     {
      "check": 10,
+     "key": "(18,)",
+     "cells": [
+      "H Neptune – H Ketu Dec 17.9977 18 whole (78.08)",
+      "J Venus – J Saturn RA 17.9961 18 whole (64.55)",
+      "S Haumea → J Antares RA 29.1242 18×φ golden (97.28)"
+     ],
+     "note": "",
+     "field": "also: 2 Francophone, 4 La Pasionaria, 5 Mayfair, 6 Secret Satire, 7 Sinology"
+    },
+    {
+     "check": 10,
+     "key": "(20,)",
+     "cells": [
+      "S Vesta → J Sedna Dec 19.9978 20 whole (79.41)",
+      "S Quaoar → J Antares RA 32.3642 20×φ golden (79.23)"
+     ],
+     "note": "",
+     "field": "also: 5 Mayfair, 6 Secret Satire"
+    },
+    {
+     "check": 10,
+     "key": "(23,)",
+     "cells": [
+      "S Sun → H Neptune Dec 23.0025 23 whole (76.48)",
+      "S Mars → J Mars Dec 23.0055 23 whole (52.28)",
+      "H Transpluto – H Antares Dec 37.2187 23×φ golden (77.23)"
+     ],
+     "note": "",
+     "field": "also: 4 La Pasionaria"
+    },
+    {
+     "check": 10,
      "key": "(31,)",
      "cells": [
       "S Moon → H Quaoar Dec 31.0001 31 whole (99.03)",
@@ -713,10 +846,32 @@
      "field": "only"
     },
     {
+     "check": 10,
+     "key": "(86,)",
+     "cells": [
+      "H Rahu – H Orcus RA 86.0051 86 whole (55.78)",
+      "H Eris – H Antares RA 139.1474 86×φ golden (79.63)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(97,)",
+     "cells": [
+      "S Moon → J Antares RA 96.9985 97 whole (85.31)",
+      "J Mars – J Regulus RA 156.9403 97×φ golden (52.33)",
+      "J Sedna – J Antares RA 156.9535 97×φ golden (75.45)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
      "check": 11,
      "key": "('10',)",
      "cells": [
       "H Jupiter – H Pluto Dec 9.9834 10 whole (2.87)",
+      "H Chiron – H Aldebaran Dec 9.9885 10 whole (18.10)",
       "S Transpluto → J Orcus Dec 9.9963 10 whole (66.69)",
       "S Uranus → H Sedna Dec 9.9991 10 ninth (94.19)",
       "H Eris – H Gonggong Dec 10.0171 10 whole (2.17)"
@@ -815,23 +970,39 @@
      "check": 11,
      "key": "('15×φ', '24')",
      "cells": [
+      "J Pallas – J Antares Dec 23.9925 24 whole (39.23)",
       "J Pallas – J Haumea Dec 24.0113 24 whole (19.04)",
+      "J Saturn – J Fomalhaut Dec 24.0133 24 whole (11.30)",
       "H Sun – H Juno Dec 24.0140 24 whole (9.05)",
       "S Mars → J Sun Dec 24.2746 15×φ golden (76.46)"
      ],
-     "note": "24.0113 - 24.2746",
-     "field": "also: 4 La Pasionaria"
+     "note": "23.9925 - 24.2746",
+     "field": "only"
     },
     {
      "check": 11,
      "key": "('10×φ^2', '26')",
      "cells": [
       "S Moon → J Makemake RA 25.9848 26 whole (5.72)",
+      "S Eris → J Antares Dec 25.9873 26 whole (13.17)",
+      "S Eris → H Antares Dec 25.9891 26 whole (20.52)",
       "H Quaoar – H Transpluto Dec 26.0085 26 whole (33.11)",
       "H Neptune – H Rahu Dec 26.0184 26 whole (0.61)",
       "H Ceres – H Sedna RA 26.1895 10×φ^2 phi power (86.42)"
      ],
      "note": "25.9848 - 26.1895",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('18×φ', '29')",
+     "cells": [
+      "S Neptune → J Gonggong RA 28.9988 29 whole (88.08)",
+      "J Neptune – J Ketu Dec 29.0044 29 whole (61.01)",
+      "J Uranus – J Ketu Dec 29.0164 29 whole (3.18)",
+      "S Haumea → J Antares RA 29.1242 18×φ golden (97.28)"
+     ],
+     "note": "28.9988 - 29.1242",
      "field": "only"
     },
     {
@@ -868,10 +1039,22 @@
      "field": "only"
     },
     {
+     "check": 11,
+     "key": "('107×φ', '173')",
+     "cells": [
+      "S Chiron → J Chiron RA 172.9803 173 whole (0.03)",
+      "S Orcus → J Fomalhaut RA 172.9820 173 whole (1.04)",
+      "S Moon → H Gonggong RA 173.1177 107×φ golden (39.80)"
+     ],
+     "note": "172.9803 - 173.1177",
+     "field": "also: 1 Classical Song"
+    },
+    {
      "check": 12,
      "key": "(4,)",
      "cells": [
       "H Uranus – H Transpluto Dec 4.0089 4 whole (30.83)",
+      "J Chiron – J Regulus RA 39.9891 40 whole (20.81)",
       "S Sun → J Sun Dec 40.0009 40 whole (91.54)",
       "S Venus → J Jupiter Dec 40.0129 40 whole (12.49)"
      ],
@@ -892,6 +1075,7 @@
      "check": 12,
      "key": "(1,)",
      "cells": [
+      "H Chiron – H Aldebaran Dec 9.9885 10 whole (18.10)",
       "H Eris – H Gonggong Dec 10.0171 10 whole (2.17)",
       "H Jupiter – H Pluto Dec 9.9834 10 whole (2.87)",
       "S Moon → H Uranus Dec 0.9827 1 whole (1.84)",
@@ -914,7 +1098,7 @@
       "S Orcus → J Mercury Dec 5.0067 5 whole (44.44)"
      ],
      "note": "5 and 50",
-     "field": "also: 1 Classical Song, 6 Secret Satire"
+     "field": "also: 1 Classical Song, 4 La Pasionaria, 6 Secret Satire"
     },
     {
      "check": 12,
@@ -932,7 +1116,7 @@
       "S Transpluto → J Transpluto Dec 3.0187 3 whole (0.40)"
      ],
      "note": "3 and 30",
-     "field": "also: 1 Classical Song, 2 Francophone, 4 La Pasionaria, 6 Secret Satire, 7 Sinology"
+     "field": "also: 1 Classical Song, 2 Francophone, 4 La Pasionaria, 5 Mayfair, 6 Secret Satire, 7 Sinology"
     },
     {
      "check": 12,
@@ -957,7 +1141,7 @@
       "S Vesta → J Sedna Dec 19.9978 20 whole (79.41)"
      ],
      "note": "2 and 20",
-     "field": "also: 1 Classical Song, 4 La Pasionaria, 5 Mayfair, 6 Secret Satire, 7 Sinology"
+     "field": "also: 1 Classical Song, 2 Francophone, 4 La Pasionaria, 5 Mayfair, 6 Secret Satire, 7 Sinology"
     }
    ]
   },
@@ -979,13 +1163,14 @@
     },
     {
      "check": 7,
-     "key": "('count', 3)",
+     "key": "('count', 4)",
      "cells": [
+      "144.444 ninth",
       "166.667 ninth",
       "φ^6 phi power",
       "141.4 sqrt2"
      ],
-     "note": "3 numbers",
+     "note": "4 numbers",
      "field": ""
     },
     {
@@ -993,6 +1178,15 @@
      "key": "('H', 'Haumea', '111.111')",
      "cells": [
       "H Jupiter – H Haumea RA 111.1838 111.111 ninth (88.11)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 9,
+     "key": "('H', 'Regulus', '16×φ')",
+     "cells": [
+      "H Jupiter – H Regulus Dec 25.8843 16×φ golden (75.74)"
      ],
      "note": "",
      "field": "only"
@@ -1054,7 +1248,7 @@
       "S Sedna → J Neptune Dec 29.1248 18×φ golden (98.94)"
      ],
      "note": "",
-     "field": "also: 6 Secret Satire"
+     "field": "also: 2 Francophone, 3 Friendly Soul, 5 Mayfair, 6 Secret Satire, 7 Sinology"
     },
     {
      "check": 10,
@@ -1065,7 +1259,7 @@
       "S Sun → J Gonggong Dec 37.2194 23×φ golden (73.57)"
      ],
      "note": "",
-     "field": "only"
+     "field": "also: 3 Friendly Soul"
     },
     {
      "check": 10,
@@ -1111,6 +1305,32 @@
     },
     {
      "check": 11,
+     "key": "('1', '1.22222')",
+     "cells": [
+      "S Pallas → H Mars Dec 0.9860 1 whole (8.93)",
+      "H Orcus – H Transpluto RA 0.9929 1 whole (41.86)",
+      "S Orcus → H Gonggong Dec 0.9973 1 whole (74.55)",
+      "H Transpluto – H Regulus Dec 1.2225 1.22222 ninth (96.16)"
+     ],
+     "note": "0.9860 - 1.2225",
+     "field": "also: 6 Secret Satire"
+    },
+    {
+     "check": 11,
+     "key": "('7', 'φ^4')",
+     "cells": [
+      "S Pluto → J Fomalhaut Dec 6.8545 φ^4 phi power (97.48)",
+      "S Venus → J Mars Dec 6.9823 7 whole (1.36)",
+      "S Neptune → H Neptune RA 6.9861 7 whole (9.39)",
+      "S Eris → J Pluto Dec 6.9961 7 whole (64.88)",
+      "J Ceres – J Quaoar Dec 7.0095 7 whole (27.51)",
+      "S Pallas → J Ceres RA 7.0183 7 whole (0.73)"
+     ],
+     "note": "6.8545 - 7.0183",
+     "field": "also: 1 Classical Song"
+    },
+    {
+     "check": 11,
      "key": "('11', 'φ^5')",
      "cells": [
       "S Ceres → J Quaoar Dec 11.0125 11 whole (14.21)",
@@ -1146,15 +1366,30 @@
     },
     {
      "check": 11,
-     "key": "('15×φ', '24')",
+     "key": "('15×φ', '24', '24.14')",
      "cells": [
       "J Juno – J Gonggong Dec 23.9804 24 whole (0.03)",
       "S Transpluto → J Vesta Dec 23.9887 24 whole (18.73)",
       "S Gonggong → J Transpluto Dec 24.0093 24 whole (28.87)",
+      "J Eris – J Aldebaran Dec 24.1427 24.14 silver (99.10)",
       "S Venus → J Pluto Dec 24.2713 15×φ golden (94.94)"
      ],
      "note": "23.9804 - 24.2713",
-     "field": "also: 3 Friendly Soul"
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('16×φ', '26')",
+     "cells": [
+      "H Jupiter – H Regulus Dec 25.8843 16×φ golden (75.74)",
+      "S Juno → H Quaoar Dec 25.9884 26 whole (17.69)",
+      "S Eris → H Antares Dec 25.9886 26 whole (18.43)",
+      "S Eris → J Antares Dec 25.9890 26 whole (20.08)",
+      "J Uranus – J Juno Dec 25.9993 26 whole (92.71)",
+      "H Mars – H Eris Dec 26.0196 26 whole (0.04)"
+     ],
+     "note": "25.8843 - 26.0196",
+     "field": "also: 7 Sinology"
     },
     {
      "check": 11,
@@ -1172,12 +1407,13 @@
      "key": "('23×φ', '37')",
      "cells": [
       "S Orcus → H Mars Dec 36.9825 37 whole (1.59)",
+      "J Neptune – J Aldebaran Dec 36.9855 37 whole (7.64)",
       "S Saturn → H Eris RA 37.0181 37 whole (0.88)",
       "S Sedna → H Venus RA 37.2101 23×φ golden (72.96)",
       "S Sun → J Gonggong Dec 37.2194 23×φ golden (73.57)"
      ],
      "note": "36.9825 - 37.2194",
-     "field": "also: 5 Mayfair"
+     "field": "also: 1 Classical Song, 5 Mayfair"
     },
     {
      "check": 11,
@@ -1188,6 +1424,17 @@
       "S Chiron → H Gonggong RA 42.0664 26×φ golden (85.44)"
      ],
      "note": "42.0115 - 42.0664",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('36×φ', '58')",
+     "cells": [
+      "S Uranus → H Neptune RA 57.9853 58 whole (6.92)",
+      "S Pallas → J Chiron RA 58.0036 58 whole (67.39)",
+      "S Mars → H Aldebaran RA 58.2496 36×φ golden (97.65)"
+     ],
+     "note": "57.9853 - 58.2496",
      "field": "only"
     },
     {
@@ -1221,10 +1468,26 @@
       "H Neptune – H Eris Dec 3.0165 3 whole (3.06)",
       "H Vesta – H Orcus Dec 29.9969 30 whole (71.68)",
       "S Orcus → H Quaoar Dec 2.9835 3 whole (3.11)",
-      "J Jupiter – J Uranus Dec 2.9966 3 whole (68.57)"
+      "J Jupiter – J Uranus Dec 2.9966 3 whole (68.57)",
+      "J Transpluto – J Aldebaran Dec 2.9812 3 whole (0.33)"
      ],
      "note": "3 and 30",
-     "field": "also: 1 Classical Song, 2 Francophone, 3 Friendly Soul, 6 Secret Satire, 7 Sinology"
+     "field": "also: 1 Classical Song, 2 Francophone, 3 Friendly Soul, 5 Mayfair, 6 Secret Satire, 7 Sinology"
+    },
+    {
+     "check": 12,
+     "key": "(5,)",
+     "cells": [
+      "H Sun – H Aldebaran RA 50.0015 50 whole (85.74)",
+      "S Juno → H Orcus RA 4.9962 5 whole (65.37)",
+      "S Eris → H Pallas Dec 5.0095 5 whole (27.57)",
+      "S Pluto → H Saturn Dec 4.9922 5 whole (37.39)",
+      "S Rahu → H Transpluto Dec 5.0152 5 whole (5.77)",
+      "J Jupiter – J Gonggong Dec 5.0154 5 whole (5.19)",
+      "S Jupiter → J Mars Dec 4.9946 5 whole (53.42)"
+     ],
+     "note": "5 and 50",
+     "field": "also: 1 Classical Song, 3 Friendly Soul, 6 Secret Satire"
     },
     {
      "check": 12,
@@ -1259,7 +1522,7 @@
       "S Quaoar → J Sedna Dec 20.0144 20 whole (7.91)"
      ],
      "note": "2 and 20",
-     "field": "also: 1 Classical Song, 3 Friendly Soul, 5 Mayfair, 6 Secret Satire, 7 Sinology"
+     "field": "also: 1 Classical Song, 2 Francophone, 3 Friendly Soul, 5 Mayfair, 6 Secret Satire, 7 Sinology"
     }
    ]
   },
@@ -1310,6 +1573,15 @@
      "field": "only"
     },
     {
+     "check": 9,
+     "key": "('J', 'Fomalhaut', '9')",
+     "cells": [
+      "J Jupiter – J Fomalhaut Dec 9.0032 9 whole (70.62)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
      "check": 10,
      "key": "(7,)",
      "cells": [
@@ -1321,10 +1593,33 @@
     },
     {
      "check": 10,
+     "key": "(18,)",
+     "cells": [
+      "H Eris – H Aldebaran Dec 18.0017 18 whole (83.78)",
+      "H Uranus – H Quaoar Dec 29.1205 18×φ golden (76.27)",
+      "S Haumea → H Antares RA 29.1298 18×φ golden (70.28)",
+      "S Haumea → J Antares RA 29.1268 18×φ golden (87.18)"
+     ],
+     "note": "",
+     "field": "also: 2 Francophone, 3 Friendly Soul, 4 La Pasionaria, 6 Secret Satire, 7 Sinology"
+    },
+    {
+     "check": 10,
+     "key": "(20,)",
+     "cells": [
+      "S Mars → J Haumea Dec 20.0033 20 whole (69.66)",
+      "S Quaoar → J Antares RA 32.3616 20×φ golden (94.11)"
+     ],
+     "note": "",
+     "field": "also: 3 Friendly Soul, 6 Secret Satire"
+    },
+    {
+     "check": 10,
      "key": "(27,)",
      "cells": [
       "S Sedna → H Saturn Dec 26.9993 27 whole (92.93)",
-      "S Vesta → H Mars RA 43.6867 27×φ golden (98.45)"
+      "S Vesta → H Mars RA 43.6867 27×φ golden (98.45)",
+      "J Chiron – J Antares Dec 43.6821 27×φ golden (72.26)"
      ],
      "note": "",
      "field": "only"
@@ -1336,6 +1631,16 @@
       "S Ketu → H Makemake Dec 29.0024 29 whole (77.80)",
       "S Ketu → J Haumea Dec 28.9974 29 whole (75.93)",
       "S Pluto → H Neptune RA 46.9206 29×φ golden (86.03)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(49,)",
+     "cells": [
+      "S Mars → H Jupiter RA 49.0045 49 whole (60.33)",
+      "H Rahu – H Regulus RA 79.2885 49×φ golden (72.42)"
      ],
      "note": "",
      "field": "only"
@@ -1406,6 +1711,7 @@
       "S Jupiter → J Makemake Dec 17.9481 φ^6 phi power (91.73)",
       "S Vesta → J Orcus RA 17.9876 18 whole (14.41)",
       "S Pluto → H Neptune Dec 17.9924 18 whole (38.63)",
+      "H Eris – H Aldebaran Dec 18.0017 18 whole (83.78)",
       "H Juno – H Sedna Dec 18.0136 18 whole (10.36)"
      ],
      "note": "17.7751 - 18.0136",
@@ -1431,9 +1737,11 @@
       "S Ketu → H Makemake Dec 29.0024 29 whole (77.80)",
       "H Saturn – H Transpluto Dec 29.0174 29 whole (1.75)",
       "S Juno → H Saturn Dec 29.0323 φ^7 phi power (97.07)",
-      "H Uranus – H Quaoar Dec 29.1205 18×φ golden (76.27)"
+      "H Uranus – H Quaoar Dec 29.1205 18×φ golden (76.27)",
+      "S Haumea → J Antares RA 29.1268 18×φ golden (87.18)",
+      "S Haumea → H Antares RA 29.1298 18×φ golden (70.28)"
      ],
-     "note": "28.9886 - 29.1205",
+     "note": "28.9886 - 29.1298",
      "field": "also: 1 Classical Song, 4 La Pasionaria"
     },
     {
@@ -1446,7 +1754,7 @@
       "H Uranus – H Rahu RA 37.2127 23×φ golden (87.44)"
      ],
      "note": "36.9861 - 37.2127",
-     "field": "also: 4 La Pasionaria"
+     "field": "also: 1 Classical Song, 4 La Pasionaria"
     },
     {
      "check": 11,
@@ -1465,11 +1773,24 @@
      "cells": [
       "J Venus – J Eris RA 122.0061 122 whole (48.04)",
       "S Pallas → H Ceres RA 122.2007 122.222 ninth (97.03)",
+      "S Vesta → J Fomalhaut RA 122.2243 122.222 ninth (99.72)",
+      "S Vesta → H Fomalhaut RA 122.2321 122.222 ninth (98.64)",
       "S Venus → J Mercury RA 122.2578 122.222 ninth (95.07)",
       "S Makemake → H Jupiter RA 122.2881 122.222 ninth (90.88)"
      ],
      "note": "122.0061 - 122.2881",
      "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('133', '82×φ')",
+     "cells": [
+      "J Venus – J Pallas RA 132.6983 82×φ golden (15.80)",
+      "S Chiron → J Regulus RA 132.9827 133 whole (1.88)",
+      "S Chiron → H Regulus RA 132.9899 133 whole (24.71)"
+     ],
+     "note": "132.6983 - 132.9899",
+     "field": "also: 1 Classical Song"
     },
     {
      "check": 11,
@@ -1539,7 +1860,18 @@
       "S Venus → J Transpluto Dec 1.9805 2 whole (0.06)"
      ],
      "note": "2 and 20",
-     "field": "also: 1 Classical Song, 3 Friendly Soul, 4 La Pasionaria, 6 Secret Satire, 7 Sinology"
+     "field": "also: 1 Classical Song, 2 Francophone, 3 Friendly Soul, 4 La Pasionaria, 6 Secret Satire, 7 Sinology"
+    },
+    {
+     "check": 12,
+     "key": "(3,)",
+     "cells": [
+      "S Vesta → H Venus Dec 29.9892 30 whole (21.19)",
+      "J Mars – J Regulus Dec 3.0175 3 whole (1.53)",
+      "J Vesta – J Quaoar Dec 29.9946 30 whole (53.58)"
+     ],
+     "note": "3 and 30",
+     "field": "also: 1 Classical Song, 2 Francophone, 3 Friendly Soul, 4 La Pasionaria, 6 Secret Satire, 7 Sinology"
     },
     {
      "check": 12,
@@ -1709,10 +2041,21 @@
      "key": "(18,)",
      "cells": [
       "S Ketu → J Vesta Dec 18.0014 18 whole (86.76)",
-      "S Quaoar → H Uranus Dec 29.1212 18×φ golden (80.00)"
+      "S Quaoar → H Uranus Dec 29.1212 18×φ golden (80.00)",
+      "S Haumea → J Antares RA 29.1280 18×φ golden (80.39)"
      ],
      "note": "",
-     "field": "also: 4 La Pasionaria"
+     "field": "also: 2 Francophone, 3 Friendly Soul, 4 La Pasionaria, 5 Mayfair, 7 Sinology"
+    },
+    {
+     "check": 10,
+     "key": "(20,)",
+     "cells": [
+      "J Juno – J Fomalhaut Dec 19.9983 20 whole (83.33)",
+      "S Quaoar → J Antares RA 32.3604 20×φ golden (98.56)"
+     ],
+     "note": "",
+     "field": "also: 3 Friendly Soul, 5 Mayfair"
     },
     {
      "check": 11,
@@ -1726,7 +2069,7 @@
       "H Jupiter – H Quaoar Dec 1.2223 1.22222 ninth (99.54)"
      ],
      "note": "0.9843 - 1.2223",
-     "field": "only"
+     "field": "also: 4 La Pasionaria"
     },
     {
      "check": 11,
@@ -1746,10 +2089,13 @@
      "key": "('11', '11.1111')",
      "cells": [
       "S Juno → J Haumea Dec 10.9864 11 whole (10.21)",
+      "H Sedna – H Aldebaran RA 10.9866 11 whole (10.75)",
+      "J Gonggong – J Fomalhaut Dec 10.9875 11 whole (14.23)",
       "S Eris → J Ketu Dec 10.9956 11 whole (61.16)",
       "S Ceres → H Jupiter Dec 11.0078 11 whole (37.43)",
       "J Vesta – J Orcus Dec 11.1121 11.1111 ninth (98.46)",
       "J Ketu – J Haumea Dec 11.1164 11.1111 ninth (91.36)",
+      "H Quaoar – H Antares Dec 11.1164 11.1111 ninth (91.36)",
       "S Gonggong → H Jupiter RA 11.1199 11.1111 ninth (85.54)"
      ],
      "note": "10.9864 - 11.1199",
@@ -1761,6 +2107,7 @@
      "cells": [
       "J Vesta – J Orcus Dec 11.1121 11.1111 ninth (98.46)",
       "J Ketu – J Haumea Dec 11.1164 11.1111 ninth (91.36)",
+      "H Quaoar – H Antares Dec 11.1164 11.1111 ninth (91.36)",
       "S Gonggong → H Jupiter RA 11.1199 11.1111 ninth (85.54)",
       "S Makemake → H Transpluto Dec 11.3270 7×φ golden (95.54)"
      ],
@@ -1808,6 +2155,7 @@
      "cells": [
       "S Uranus → H Mercury Dec 17.7711 17.7778 ninth (94.75)",
       "H Neptune – H Pluto Dec 17.7946 11×φ golden (78.10)",
+      "J Mercury – J Regulus Dec 17.9804 18 whole (0.05)",
       "J Sun – J Mars Dec 17.9846 18 whole (5.24)",
       "S Ketu → J Vesta Dec 18.0014 18 whole (86.76)",
       "H Uranus – H Ceres RA 18.0190 18 whole (0.25)"
@@ -1840,6 +2188,29 @@
      "field": "also: 1 Classical Song, 3 Friendly Soul, 4 La Pasionaria, 7 Sinology"
     },
     {
+     "check": 11,
+     "key": "('60×φ', '97')",
+     "cells": [
+      "S Jupiter → H Regulus RA 96.9812 97 whole (0.34)",
+      "S Moon → J Antares RA 97.0023 97 whole (78.66)",
+      "S Moon → H Antares RA 97.0065 97 whole (45.31)",
+      "H Orcus – H Sedna RA 97.0801 60×φ golden (88.52)"
+     ],
+     "note": "96.9812 - 97.0801",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('10×φ^6', '111×φ')",
+     "cells": [
+      "S Sedna → J Quaoar RA 179.4561 10×φ^6 phi power (97.04)",
+      "S Orcus → H Gonggong RA 179.6251 111×φ golden (7.75)",
+      "J Sun – J Fomalhaut RA 179.6318 111×φ golden (0.52)"
+     ],
+     "note": "179.4561 - 179.6318",
+     "field": "only"
+    },
+    {
      "check": 12,
      "key": "(5,)",
      "cells": [
@@ -1849,7 +2220,7 @@
       "S Orcus → J Mars RA 50.0058 50 whole (50.26)"
      ],
      "note": "5 and 50",
-     "field": "also: 1 Classical Song, 3 Friendly Soul"
+     "field": "also: 1 Classical Song, 3 Friendly Soul, 4 La Pasionaria"
     },
     {
      "check": 12,
@@ -1860,12 +2231,13 @@
       "S Neptune → H Venus RA 19.9857 20 whole (8.17)",
       "S Neptune → H Mercury Dec 2.0089 2 whole (30.76)",
       "S Sedna → H Gonggong Dec 19.9850 20 whole (6.14)",
+      "J Juno – J Fomalhaut Dec 19.9983 20 whole (83.33)",
       "J Mercury – J Eris Dec 1.9995 2 whole (94.87)",
       "S Pallas → J Jupiter RA 2.0177 2 whole (1.33)",
       "S Mercury → J Ceres Dec 1.9993 2 whole (93.33)"
      ],
      "note": "2 and 20",
-     "field": "also: 1 Classical Song, 3 Friendly Soul, 4 La Pasionaria, 5 Mayfair, 7 Sinology"
+     "field": "also: 1 Classical Song, 2 Francophone, 3 Friendly Soul, 4 La Pasionaria, 5 Mayfair, 7 Sinology"
     },
     {
      "check": 12,
@@ -1910,11 +2282,12 @@
      "cells": [
       "H Vesta – H Orcus Dec 30.0178 30 whole (1.17)",
       "S Orcus → H Quaoar Dec 2.9929 3 whole (41.58)",
+      "J Transpluto – J Aldebaran Dec 2.9894 3 whole (22.02)",
       "S Mars → J Makemake Dec 30.0048 30 whole (57.66)",
       "S Saturn → J Juno Dec 3.0110 3 whole (20.41)"
      ],
      "note": "3 and 30",
-     "field": "also: 1 Classical Song, 2 Francophone, 3 Friendly Soul, 4 La Pasionaria, 7 Sinology"
+     "field": "also: 1 Classical Song, 2 Francophone, 3 Friendly Soul, 4 La Pasionaria, 5 Mayfair, 7 Sinology"
     },
     {
      "check": 12,
@@ -2091,6 +2464,18 @@
     },
     {
      "check": 10,
+     "key": "(18,)",
+     "cells": [
+      "H Juno – H Transpluto Dec 18.0056 18 whole (51.75)",
+      "J Vesta – J Gonggong Dec 17.9957 18 whole (61.46)",
+      "S Rahu → J Ceres RA 17.9999 18 whole (99.22)",
+      "S Haumea → J Antares RA 29.1238 18×φ golden (95.20)"
+     ],
+     "note": "",
+     "field": "also: 2 Francophone, 3 Friendly Soul, 4 La Pasionaria, 5 Mayfair, 6 Secret Satire"
+    },
+    {
+     "check": 10,
      "key": "(21,)",
      "cells": [
       "S Quaoar → H Chiron Dec 21.0041 21 whole (63.58)",
@@ -2146,11 +2531,12 @@
      "check": 11,
      "key": "('10×φ^-1', '6')",
      "cells": [
+      "J Uranus – J Fomalhaut Dec 5.9813 6 whole (0.45)",
       "S Mercury → H Uranus Dec 5.9893 6 whole (21.49)",
       "S Vesta → H Vesta Dec 6.0143 6 whole (8.14)",
       "J Mars – J Ceres RA 6.1803 10×φ^-1 phi power (99.47)"
      ],
-     "note": "5.9893 - 6.1803",
+     "note": "5.9813 - 6.1803",
      "field": "also: 1 Classical Song, 6 Secret Satire"
     },
     {
@@ -2170,6 +2556,7 @@
      "check": 11,
      "key": "('12', '12.2222')",
      "cells": [
+      "H Saturn – H Fomalhaut Dec 11.9824 12 whole (1.44)",
       "J Venus – J Rahu Dec 11.9938 12 whole (47.87)",
       "S Juno → H Eris Dec 12.0023 12 whole (78.33)",
       "S Mercury → J Mercury Dec 12.0083 12 whole (34.36)",
@@ -2178,7 +2565,7 @@
       "H Venus – H Mars Dec 12.2245 12.2222 ninth (96.87)",
       "S Uranus → H Chiron Dec 12.2266 12.2222 ninth (93.92)"
      ],
-     "note": "11.9938 - 12.2266",
+     "note": "11.9824 - 12.2266",
      "field": "also: 1 Classical Song, 2 Francophone"
     },
     {
@@ -2188,9 +2575,10 @@
       "S Makemake → J Haumea RA 12.9453 8×φ golden (93.94)",
       "S Sun → H Chiron Dec 12.9805 13 whole (0.05)",
       "S Mercury → J Sedna RA 12.9945 13 whole (52.88)",
-      "S Pallas → H Venus Dec 12.9955 13 whole (59.92)"
+      "S Pallas → H Venus Dec 12.9955 13 whole (59.92)",
+      "H Jupiter – H Antares Dec 13.0140 13 whole (8.89)"
      ],
-     "note": "12.9453 - 12.9955",
+     "note": "12.9453 - 13.0140",
      "field": "also: 2 Francophone, 3 Friendly Soul, 5 Mayfair"
     },
     {
@@ -2234,10 +2622,23 @@
      "key": "('16×φ', '26')",
      "cells": [
       "J Venus – J Transpluto RA 25.8877 16×φ golden (94.87)",
+      "S Eris → J Antares Dec 25.9878 26 whole (15.07)",
+      "S Eris → H Antares Dec 25.9887 26 whole (19.04)",
       "S Mercury → H Saturn Dec 25.9952 26 whole (57.50)",
       "S Mars → J Rahu RA 26.0197 26 whole (0.03)"
      ],
      "note": "25.8877 - 26.0197",
+     "field": "also: 4 La Pasionaria"
+    },
+    {
+     "check": 11,
+     "key": "('19×φ', '31')",
+     "cells": [
+      "J Orcus – J Antares Dec 30.7408 19×φ golden (88.77)",
+      "H Juno – H Makemake Dec 30.7496 19×φ golden (61.54)",
+      "S Makemake → J Makemake RA 30.9934 31 whole (44.86)"
+     ],
+     "note": "30.7408 - 30.9934",
      "field": "only"
     },
     {
@@ -2249,7 +2650,7 @@
       "S Pluto → H Sun Dec 34.0079 34 whole (36.86)"
      ],
      "note": "33.9751 - 34.0079",
-     "field": "only"
+     "field": "also: 1 Classical Song"
     },
     {
      "check": 11,
@@ -2268,6 +2669,7 @@
      "cells": [
       "H Pallas – H Transpluto RA 174.7541 108×φ golden (64.42)",
       "H Jupiter – H Transpluto RA 174.7790 108×φ golden (0.11)",
+      "H Gonggong – H Regulus RA 174.9867 175 whole (11.15)",
       "H Vesta – H Gonggong RA 175.0200 175 whole (0.00)"
      ],
      "note": "174.7541 - 175.0200",
@@ -2284,7 +2686,7 @@
       "S Jupiter → H Orcus Dec 29.9958 30 whole (62.08)"
      ],
      "note": "3 and 30",
-     "field": "also: 1 Classical Song, 2 Francophone, 3 Friendly Soul, 4 La Pasionaria, 6 Secret Satire"
+     "field": "also: 1 Classical Song, 2 Francophone, 3 Friendly Soul, 4 La Pasionaria, 5 Mayfair, 6 Secret Satire"
     },
     {
      "check": 12,
@@ -2301,6 +2703,18 @@
     },
     {
      "check": 12,
+     "key": "(7,)",
+     "cells": [
+      "H Makemake – H Aldebaran Dec 6.9978 7 whole (78.98)",
+      "S Uranus → H Sun Dec 6.9952 7 whole (57.52)",
+      "S Makemake → J Orcus RA 69.9977 70 whole (78.36)",
+      "S Neptune → J Venus Dec 7.0119 7 whole (16.23)"
+     ],
+     "note": "7 and 70",
+     "field": "also: 2 Francophone, 4 La Pasionaria"
+    },
+    {
+     "check": 12,
      "key": "(8,)",
      "cells": [
       "S Ketu → H Ceres Dec 7.9886 8 whole (18.28)",
@@ -2314,8 +2728,10 @@
      "check": 12,
      "key": "(1,)",
      "cells": [
+      "H Vesta – H Regulus RA 9.9934 10 whole (44.67)",
       "S Mars → H Ceres Dec 1.0056 1 whole (52.05)",
       "S Rahu → H Neptune Dec 9.9919 10 whole (35.44)",
+      "J Ketu – J Aldebaran Dec 9.9873 10 whole (13.22)",
       "S Neptune → J Mars Dec 0.9830 1 whole (2.21)"
      ],
      "note": "1 and 10",
@@ -2332,18 +2748,19 @@
       "S Neptune → J Mars RA 1.9946 2 whole (53.40)"
      ],
      "note": "2 and 20",
-     "field": "also: 1 Classical Song, 3 Friendly Soul, 4 La Pasionaria, 5 Mayfair, 6 Secret Satire"
+     "field": "also: 1 Classical Song, 2 Francophone, 3 Friendly Soul, 4 La Pasionaria, 5 Mayfair, 6 Secret Satire"
     },
     {
      "check": 12,
-     "key": "(7,)",
+     "key": "(16,)",
      "cells": [
-      "S Uranus → H Sun Dec 6.9952 7 whole (57.52)",
-      "S Makemake → J Orcus RA 69.9977 70 whole (78.36)",
-      "S Neptune → J Venus Dec 7.0119 7 whole (16.23)"
+      "H Saturn – H Orcus RA 159.9824 160 whole (1.50)",
+      "H Uranus – H Makemake RA 160.0123 160 whole (14.95)",
+      "J Gonggong – J Makemake RA 159.9868 160 whole (11.44)",
+      "J Gonggong – J Fomalhaut RA 15.9876 16 whole (14.57)"
      ],
-     "note": "7 and 70",
-     "field": "also: 2 Francophone, 4 La Pasionaria"
+     "note": "16 and 160",
+     "field": "also: 2 Francophone"
     }
    ]
   }

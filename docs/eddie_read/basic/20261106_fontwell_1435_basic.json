@@ -39,13 +39,24 @@
      "field": "only"
     },
     {
-     "check": 7,
-     "key": "('count', 2)",
+     "check": 6,
+     "key": "('Sun', 'H', 'Antares')",
      "cells": [
+      "S Sun → H Antares RA 25.9995 26 whole (94.95)",
+      "H Jupiter – H Antares Dec 11.0032 11 whole (70.71)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 7,
+     "key": "('count', 3)",
+     "cells": [
+      "122.222 ninth",
       "144.444 ninth",
       "26 whole"
      ],
-     "note": "2 numbers",
+     "note": "3 numbers",
      "field": ""
     },
     {
@@ -53,6 +64,24 @@
      "key": "('H', 'Quaoar', 'conj')",
      "cells": [
       "H Jupiter – H Quaoar Dec 0.0756 conj conj (55.95)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 9,
+     "key": "('H', 'Antares', '11')",
+     "cells": [
+      "H Jupiter – H Antares Dec 11.0032 11 whole (70.71)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 9,
+     "key": "('J', 'Regulus', '166.667')",
+     "cells": [
+      "J Jupiter – J Regulus RA 166.6000 166.667 ninth (94.29)"
      ],
      "note": "",
      "field": "only"
@@ -84,10 +113,21 @@
       "S Gonggong → H Ketu Dec 7.9944 8 whole (51.57)",
       "S Gonggong → H Vesta Dec 8.0043 8 whole (61.28)",
       "S Quaoar → J Uranus Dec 8.0005 8 whole (95.07)",
+      "H Makemake – H Regulus Dec 12.9469 8×φ golden (84.57)",
       "S Uranus → H Sedna Dec 12.9443 8×φ golden (99.72)"
      ],
      "note": "",
      "field": "also: 5 He's A Latchico, 8 The Bellhop"
+    },
+    {
+     "check": 10,
+     "key": "(11,)",
+     "cells": [
+      "H Jupiter – H Antares Dec 11.0032 11 whole (70.71)",
+      "S Juno → J Sedna Dec 17.7934 11×φ golden (71.75)"
+     ],
+     "note": "",
+     "field": "also: 2 Lynx De Thaix, 6 So You Know, 7 Motazzen, 8 The Bellhop"
     },
     {
      "check": 10,
@@ -98,7 +138,7 @@
       "S Ceres → H Orcus RA 37.2142 23×φ golden (96.16)"
      ],
      "note": "",
-     "field": "only"
+     "field": "also: 8 The Bellhop"
     },
     {
      "check": 10,
@@ -107,6 +147,26 @@
       "S Rahu → J Vesta RA 41.0031 41 whole (71.31)",
       "S Makemake → J Mercury Dec 40.9990 41 whole (90.56)",
       "S Quaoar → J Ceres RA 66.3345 41×φ golden (71.89)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(46,)",
+     "cells": [
+      "S Makemake → J Antares Dec 46.0055 46 whole (52.37)",
+      "S Ceres → J Sedna RA 74.4218 46×φ golden (57.54)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(78,)",
+     "cells": [
+      "J Mercury – J Regulus RA 77.9986 78 whole (86.46)",
+      "S Sun → H Neptune RA 126.2072 78×φ golden (96.41)"
      ],
      "note": "",
      "field": "only"
@@ -125,6 +185,17 @@
     },
     {
      "check": 11,
+     "key": "('11', '11.1111', 'φ^5')",
+     "cells": [
+      "H Jupiter – H Antares Dec 11.0032 11 whole (70.71)",
+      "H Neptune – H Juno Dec 11.0926 φ^5 phi power (91.41)",
+      "S Gonggong → J Mercury Dec 11.1122 11.1111 ninth (98.23)"
+     ],
+     "note": "11.0032 - 11.1122",
+     "field": "also: 2 Lynx De Thaix, 8 The Bellhop"
+    },
+    {
+     "check": 11,
      "key": "('11.1111', '7×φ', 'φ^5')",
      "cells": [
       "H Neptune – H Juno Dec 11.0926 φ^5 phi power (91.41)",
@@ -139,11 +210,13 @@
      "key": "('13', '8×φ')",
      "cells": [
       "S Uranus → H Sedna Dec 12.9443 8×φ golden (99.72)",
+      "H Makemake – H Regulus Dec 12.9469 8×φ golden (84.57)",
       "S Transpluto → J Haumea Dec 12.9870 13 whole (12.26)",
-      "J Sun – J Pluto RA 12.9958 13 whole (62.67)"
+      "J Sun – J Pluto RA 12.9958 13 whole (62.67)",
+      "H Venus – H Regulus Dec 12.9962 13 whole (65.38)"
      ],
-     "note": "12.9443 - 12.9958",
-     "field": "also: 2 Lynx De Thaix, 7 Motazzen, 8 The Bellhop"
+     "note": "12.9443 - 12.9962",
+     "field": "also: 2 Lynx De Thaix, 5 He's A Latchico, 7 Motazzen, 8 The Bellhop"
     },
     {
      "check": 11,
@@ -155,7 +228,7 @@
       "J Neptune – J Ketu Dec 14.1430 14.14 sqrt2 (97.64)"
      ],
      "note": "14.0139 - 14.1430",
-     "field": "also: 2 Lynx De Thaix"
+     "field": "also: 2 Lynx De Thaix, 8 The Bellhop"
     },
     {
      "check": 11,
@@ -171,14 +244,32 @@
     },
     {
      "check": 11,
-     "key": "('10×φ^2', '26')",
+     "key": "('16×φ', '26')",
      "cells": [
+      "S Orcus → H Regulus Dec 25.8800 16×φ golden (54.17)",
+      "S Orcus → J Regulus Dec 25.8807 16×φ golden (57.54)",
+      "S Sun → J Antares RA 25.9886 26 whole (18.68)",
+      "S Sun → H Antares RA 25.9995 26 whole (94.95)",
       "S Jupiter → J Juno Dec 26.0003 26 whole (97.33)",
       "S Jupiter → H Gonggong Dec 26.0009 26 whole (91.57)",
+      "H Orcus – H Aldebaran Dec 26.0167 26 whole (2.72)"
+     ],
+     "note": "25.8800 - 26.0167",
+     "field": "also: 2 Lynx De Thaix, 3 Donnie Azoff, 5 He's A Latchico, 6 So You Know, 7 Motazzen, 8 The Bellhop"
+    },
+    {
+     "check": 11,
+     "key": "('10×φ^2', '26')",
+     "cells": [
+      "S Sun → J Antares RA 25.9886 26 whole (18.68)",
+      "S Sun → H Antares RA 25.9995 26 whole (94.95)",
+      "S Jupiter → J Juno Dec 26.0003 26 whole (97.33)",
+      "S Jupiter → H Gonggong Dec 26.0009 26 whole (91.57)",
+      "H Orcus – H Aldebaran Dec 26.0167 26 whole (2.72)",
       "H Vesta – H Sedna Dec 26.1858 10×φ^2 phi power (91.78)"
      ],
-     "note": "26.0003 - 26.1858",
-     "field": "only"
+     "note": "25.9886 - 26.1858",
+     "field": "also: 8 The Bellhop"
     },
     {
      "check": 11,
@@ -200,10 +291,45 @@
      "cells": [
       "S Mercury → J Haumea Dec 36.9970 37 whole (71.94)",
       "J Pluto – J Juno RA 37.0105 37 whole (22.73)",
+      "S Ceres → J Regulus RA 37.0184 37 whole (0.60)",
+      "S Ceres → H Regulus RA 37.0185 37 whole (0.57)",
       "S Ceres → H Orcus RA 37.2142 23×φ golden (96.16)"
      ],
      "note": "36.9970 - 37.2142",
-     "field": "also: 5 He's A Latchico"
+     "field": "also: 5 He's A Latchico, 7 Motazzen"
+    },
+    {
+     "check": 11,
+     "key": "('32×φ', '52')",
+     "cells": [
+      "S Neptune → H Ketu RA 51.7734 32×φ golden (78.28)",
+      "J Sun – J Uranus RA 51.9851 52 whole (6.60)",
+      "H Pluto – H Fomalhaut RA 51.9984 52 whole (84.82)"
+     ],
+     "note": "51.7734 - 51.9984",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('155.556', '96×φ')",
+     "cells": [
+      "S Mercury → H Juno RA 155.3244 96×φ golden (61.93)",
+      "S Chiron → J Mercury RA 155.3409 96×φ golden (49.50)",
+      "H Vesta – H Aldebaran RA 155.5017 155.556 ninth (94.90)"
+     ],
+     "note": "155.3244 - 155.5017",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('108×φ', '175')",
+     "cells": [
+      "S Sedna → J Antares RA 174.7237 108×φ golden (6.79)",
+      "S Uranus → H Antares RA 174.7705 108×φ golden (8.60)",
+      "S Rahu → J Transpluto RA 175.0135 175 whole (10.55)"
+     ],
+     "note": "174.7237 - 175.0135",
+     "field": "also: 2 Lynx De Thaix, 8 The Bellhop"
     },
     {
      "check": 11,
@@ -226,7 +352,17 @@
       "J Eris – J Sedna Dec 14.0140 14 whole (8.94)"
      ],
      "note": "14 and 140",
-     "field": "also: 6 So You Know"
+     "field": "also: 5 He's A Latchico, 6 So You Know"
+    },
+    {
+     "check": 12,
+     "key": "(11,)",
+     "cells": [
+      "H Saturn – H Uranus RA 109.9951 110 whole (57.26)",
+      "H Jupiter – H Antares Dec 11.0032 11 whole (70.71)"
+     ],
+     "note": "11 and 110",
+     "field": "only"
     },
     {
      "check": 12,
@@ -253,6 +389,8 @@
       "J Sun – J Juno RA 50.0063 50 whole (46.94)",
       "J Chiron – J Haumea Dec 5.0073 5 whole (40.46)",
       "J Jupiter – J Quaoar Dec 4.9933 5 whole (43.94)",
+      "J Mercury – J Antares Dec 5.0065 5 whole (45.60)",
+      "J Gonggong – J Antares Dec 5.0183 5 whole (0.75)",
       "S Ketu → J Transpluto RA 4.9865 5 whole (10.55)"
      ],
      "note": "5 and 50",
@@ -357,7 +495,7 @@
       "S Ketu → J Orcus RA 17.7941 11×φ golden (75.43)"
      ],
      "note": "",
-     "field": "also: 7 Motazzen, 8 The Bellhop"
+     "field": "also: 1 Fire Flyer, 6 So You Know, 7 Motazzen, 8 The Bellhop"
     },
     {
      "check": 10,
@@ -416,7 +554,7 @@
       "H Venus – H Chiron Dec 11.1166 11.1111 ninth (90.98)"
      ],
      "note": "10.9877 - 11.1166",
-     "field": "also: 8 The Bellhop"
+     "field": "also: 1 Fire Flyer, 8 The Bellhop"
     },
     {
      "check": 11,
@@ -438,7 +576,7 @@
       "S Mars → J Orcus Dec 13.0026 13 whole (75.93)"
      ],
      "note": "12.9482 - 13.0026",
-     "field": "also: 1 Fire Flyer, 7 Motazzen, 8 The Bellhop"
+     "field": "also: 1 Fire Flyer, 5 He's A Latchico, 7 Motazzen, 8 The Bellhop"
     },
     {
      "check": 11,
@@ -451,7 +589,7 @@
       "S Transpluto → J Venus Dec 14.1486 14.14 sqrt2 (82.62)"
      ],
      "note": "13.9847 - 14.1486",
-     "field": "also: 1 Fire Flyer"
+     "field": "also: 1 Fire Flyer, 8 The Bellhop"
     },
     {
      "check": 11,
@@ -459,10 +597,24 @@
      "cells": [
       "S Ketu → J Orcus RA 17.7941 11×φ golden (75.43)",
       "S Vesta → H Ketu Dec 17.9480 φ^6 phi power (91.80)",
-      "J Vesta – J Eris Dec 18.0023 18 whole (78.51)"
+      "J Vesta – J Eris Dec 18.0023 18 whole (78.51)",
+      "H Eris – H Aldebaran Dec 18.0068 18 whole (43.66)"
      ],
-     "note": "17.7941 - 18.0023",
+     "note": "17.7941 - 18.0068",
      "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('16×φ', '26')",
+     "cells": [
+      "S Orcus → J Regulus Dec 25.8809 16×φ golden (58.11)",
+      "S Sun → H Antares RA 25.9947 26 whole (53.73)",
+      "S Sun → J Antares RA 25.9991 26 whole (91.15)",
+      "J Neptune – J Sedna Dec 26.0095 26 whole (27.42)",
+      "S Pluto → H Pallas Dec 26.0179 26 whole (1.05)"
+     ],
+     "note": "25.8809 - 26.0179",
+     "field": "also: 1 Fire Flyer, 3 Donnie Azoff, 5 He's A Latchico, 6 So You Know, 7 Motazzen, 8 The Bellhop"
     },
     {
      "check": 11,
@@ -496,7 +648,19 @@
       "H Mercury – H Vesta RA 160.1845 99×φ golden (95.00)"
      ],
      "note": "159.9981 - 160.1845",
-     "field": "only"
+     "field": "also: 3 Donnie Azoff"
+    },
+    {
+     "check": 11,
+     "key": "('108×φ', '175')",
+     "cells": [
+      "S Sedna → H Antares RA 174.7177 108×φ golden (0.56)",
+      "S Uranus → J Antares RA 174.7709 108×φ golden (7.90)",
+      "S Uranus → H Antares RA 174.7754 108×φ golden (2.08)",
+      "J Sun – J Pallas RA 175.0159 175 whole (4.11)"
+     ],
+     "note": "174.7177 - 175.0159",
+     "field": "also: 1 Fire Flyer, 8 The Bellhop"
     },
     {
      "check": 11,
@@ -543,7 +707,7 @@
       "S Haumea → J Jupiter Dec 4.0045 4 whole (60.23)"
      ],
      "note": "4 and 40",
-     "field": "also: 6 So You Know"
+     "field": "also: 5 He's A Latchico, 6 So You Know, 8 The Bellhop"
     },
     {
      "check": 12,
@@ -602,7 +766,9 @@
       "S Rahu → H Jupiter Dec 3.0056 3 whole (52.02)",
       "S Venus → H Quaoar Dec 3.0104 3 whole (22.96)",
       "J Jupiter – J Orcus RA 29.9982 30 whole (83.24)",
-      "J Saturn – J Gonggong Dec 2.9817 3 whole (0.73)"
+      "J Rahu – J Antares Dec 2.9949 3 whole (55.68)",
+      "J Saturn – J Gonggong Dec 2.9817 3 whole (0.73)",
+      "J Quaoar – J Aldebaran Dec 30.0067 30 whole (44.40)"
      ],
      "note": "3 and 30",
      "field": "also: 4 Paso Doble, 5 He's A Latchico, 6 So You Know, 7 Motazzen"
@@ -668,12 +834,13 @@
     },
     {
      "check": 7,
-     "key": "('count', 2)",
+     "key": "('count', 3)",
      "cells": [
       "111.111 ninth",
-      "122.222 ninth"
+      "122.222 ninth",
+      "14.4444 ninth"
      ],
-     "note": "2 numbers",
+     "note": "3 numbers",
      "field": ""
     },
     {
@@ -726,7 +893,9 @@
      "check": 10,
      "key": "(26,)",
      "cells": [
+      "S Sun → H Antares RA 25.9995 26 whole (95.13)",
       "S Eris → H Makemake Dec 25.9949 26 whole (55.70)",
+      "S Sun → J Antares RA 25.9964 26 whole (67.37)",
       "S Pallas → J Gonggong RA 42.0620 26×φ golden (62.01)"
      ],
      "note": "",
@@ -737,6 +906,7 @@
      "key": "(31,)",
      "cells": [
       "S Saturn → J Makemake Dec 31.0014 31 whole (86.89)",
+      "J Saturn – J Fomalhaut Dec 50.1577 31×φ golden (91.70)",
       "S Ketu → J Haumea RA 50.1583 31×φ golden (95.29)"
      ],
      "note": "",
@@ -780,6 +950,7 @@
       "S Pluto → H Ketu Dec 18.8878 18.8889 ninth (99.23)",
       "J Makemake – J Transpluto Dec 18.9837 19 whole (3.44)",
       "S Ketu → J Eris Dec 18.9863 19 whole (9.85)",
+      "H Eris – H Aldebaran Dec 18.9898 19 whole (24.17)",
       "H Mars – H Eris Dec 19.0090 19 whole (30.40)"
      ],
      "note": "18.8878 - 19.0090",
@@ -795,6 +966,19 @@
      ],
      "note": "23.9843 - 24.2795",
      "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('16×φ', '26')",
+     "cells": [
+      "S Orcus → H Regulus Dec 25.8800 16×φ golden (54.38)",
+      "S Haumea → H Gonggong Dec 25.8839 16×φ golden (73.62)",
+      "S Eris → H Makemake Dec 25.9949 26 whole (55.70)",
+      "S Sun → J Antares RA 25.9964 26 whole (67.37)",
+      "S Sun → H Antares RA 25.9995 26 whole (95.13)"
+     ],
+     "note": "25.8800 - 25.9995",
+     "field": "also: 1 Fire Flyer, 2 Lynx De Thaix, 5 He's A Latchico, 6 So You Know, 7 Motazzen, 8 The Bellhop"
     },
     {
      "check": 11,
@@ -818,6 +1002,17 @@
      ],
      "note": "130.9921 - 131.0893",
      "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('160', '99×φ')",
+     "cells": [
+      "J Jupiter – J Pluto RA 160.0033 160 whole (69.48)",
+      "S Venus → J Mercury RA 160.0082 160 whole (34.60)",
+      "J Sedna – J Antares RA 160.1883 99×φ golden (82.90)"
+     ],
+     "note": "160.0033 - 160.1883",
+     "field": "also: 2 Lynx De Thaix"
     },
     {
      "check": 12,
@@ -875,7 +1070,9 @@
      "cells": [
       "H Sun – H Transpluto Dec 9.9985 10 whole (85.69)",
       "S Uranus → H Vesta RA 0.9973 1 whole (74.63)",
-      "J Uranus – J Ketu Dec 9.9866 10 whole (10.98)"
+      "J Uranus – J Ketu Dec 9.9866 10 whole (10.98)",
+      "J Gonggong – J Antares Dec 10.0158 10 whole (4.48)",
+      "J Transpluto – J Regulus Dec 0.9958 1 whole (62.06)"
      ],
      "note": "1 and 10",
      "field": "also: 1 Fire Flyer, 2 Lynx De Thaix, 4 Paso Doble, 6 So You Know, 8 The Bellhop"
@@ -945,13 +1142,14 @@
       "H Pallas – H Makemake Dec 25.8879 16×φ golden (96.08)"
      ],
      "note": "",
-     "field": "also: 5 He's A Latchico, 7 Motazzen, 8 The Bellhop"
+     "field": "also: 5 He's A Latchico, 6 So You Know, 7 Motazzen, 8 The Bellhop"
     },
     {
      "check": 11,
      "key": "('10×φ^2', '16×φ', '26')",
      "cells": [
       "H Pallas – H Makemake Dec 25.8879 16×φ golden (96.08)",
+      "S Sun → H Antares RA 25.9980 26 whole (81.12)",
       "S Moon → H Ceres Dec 26.0003 26 whole (97.05)",
       "H Mercury – H Gonggong Dec 26.1849 10×φ^2 phi power (93.10)"
      ],
@@ -986,6 +1184,7 @@
      "cells": [
       "H Ketu – H Gonggong RA 2.9823 3 whole (1.36)",
       "H Ketu – H Juno Dec 2.9926 3 whole (39.72)",
+      "H Uranus – H Regulus Dec 3.0057 3 whole (50.94)",
       "H Gonggong – H Orcus Dec 3.0113 3 whole (18.86)",
       "S Chiron → H Mercury RA 2.9912 3 whole (31.15)",
       "S Ketu → H Vesta RA 29.9861 30 whole (9.38)",
@@ -1019,6 +1218,7 @@
      "check": 12,
      "key": "(2,)",
      "cells": [
+      "H Juno – H Regulus Dec 19.9937 20 whole (46.60)",
       "H Uranus – H Ketu Dec 19.9805 20 whole (0.07)",
       "S Chiron → H Orcus Dec 19.9972 20 whole (74.07)",
       "S Venus → H Sedna Dec 20.0059 20 whole (49.75)",
@@ -1074,6 +1274,7 @@
      "cells": [
       "S Saturn → H Neptune Dec 7.9974 8 whole (76.03)",
       "S Orcus → H Sun Dec 12.9495 8×φ golden (70.55)",
+      "J Gonggong – J Fomalhaut Dec 12.9442 8×φ golden (99.33)",
       "S Orcus → J Mars Dec 12.9448 8×φ golden (96.88)"
      ],
      "note": "",
@@ -1086,16 +1287,18 @@
       "H Juno – H Chiron RA 16.0055 16 whole (52.64)",
       "S Sedna → H Makemake Dec 15.9951 16 whole (57.37)",
       "S Gonggong → J Sedna Dec 15.9958 16 whole (62.08)",
-      "S Moon → H Haumea Dec 25.8811 16×φ golden (59.42)"
+      "S Moon → H Haumea Dec 25.8811 16×φ golden (59.42)",
+      "S Orcus → J Regulus Dec 25.8811 16×φ golden (59.38)"
      ],
      "note": "",
-     "field": "also: 4 Paso Doble, 7 Motazzen, 8 The Bellhop"
+     "field": "also: 4 Paso Doble, 6 So You Know, 7 Motazzen, 8 The Bellhop"
     },
     {
      "check": 10,
      "key": "(17,)",
      "cells": [
       "J Ketu – J Eris Dec 16.9949 17 whole (55.46)",
+      "H Quaoar – H Regulus Dec 27.5017 17×φ golden (71.93)",
       "S Vesta → J Sun Dec 27.5070 17×φ golden (97.53)"
      ],
      "note": "",
@@ -1133,6 +1336,16 @@
      "field": "only"
     },
     {
+     "check": 10,
+     "key": "(101,)",
+     "cells": [
+      "J Pluto – J Regulus RA 101.0042 101 whole (62.39)",
+      "S Sun → H Uranus RA 163.4271 101×φ golden (68.19)"
+     ],
+     "note": "",
+     "field": "also: 8 The Bellhop"
+    },
+    {
      "check": 11,
      "key": "('1.88889', '2')",
      "cells": [
@@ -1157,7 +1370,7 @@
       "J Mercury – J Vesta Dec 7.0193 7 whole (0.13)"
      ],
      "note": "6.8545 - 7.0193",
-     "field": "only"
+     "field": "also: 8 The Bellhop"
     },
     {
      "check": 11,
@@ -1165,9 +1378,11 @@
      "cells": [
       "J Venus – J Pallas Dec 7.7773 7.77778 ninth (96.10)",
       "S Mercury → J Eris Dec 7.9930 8 whole (42.42)",
-      "S Saturn → H Neptune Dec 7.9974 8 whole (76.03)"
+      "S Saturn → H Neptune Dec 7.9974 8 whole (76.03)",
+      "H Mercury – H Aldebaran Dec 8.0166 8 whole (2.96)",
+      "J Mars – J Antares RA 8.0176 8 whole (1.43)"
      ],
-     "note": "7.7773 - 7.9974",
+     "note": "7.7773 - 8.0176",
      "field": "also: 7 Motazzen"
     },
     {
@@ -1186,14 +1401,41 @@
     },
     {
      "check": 11,
+     "key": "('13', '8×φ')",
+     "cells": [
+      "J Gonggong – J Fomalhaut Dec 12.9442 8×φ golden (99.33)",
+      "S Orcus → J Mars Dec 12.9448 8×φ golden (96.88)",
+      "S Orcus → H Sun Dec 12.9495 8×φ golden (70.55)",
+      "H Ketu – H Fomalhaut Dec 12.9904 13 whole (27.25)",
+      "J Venus – J Aldebaran RA 12.9943 13 whole (51.37)"
+     ],
+     "note": "12.9442 - 12.9943",
+     "field": "also: 1 Fire Flyer, 2 Lynx De Thaix, 7 Motazzen, 8 The Bellhop"
+    },
+    {
+     "check": 11,
+     "key": "('24', '24.14')",
+     "cells": [
+      "S Haumea → J Haumea RA 24.0028 24 whole (74.05)",
+      "S Mercury → H Uranus Dec 24.0138 24 whole (9.59)",
+      "H Gonggong – H Regulus Dec 24.1485 24.14 silver (89.71)"
+     ],
+     "note": "24.0028 - 24.1485",
+     "field": "also: 6 So You Know, 7 Motazzen, 8 The Bellhop"
+    },
+    {
+     "check": 11,
      "key": "('16×φ', '26')",
      "cells": [
+      "S Orcus → J Regulus Dec 25.8811 16×φ golden (59.38)",
       "S Moon → H Haumea Dec 25.8811 16×φ golden (59.42)",
+      "S Sun → H Antares RA 25.9953 26 whole (58.30)",
       "S Uranus → H Juno Dec 25.9973 26 whole (75.12)",
+      "S Sun → J Antares RA 25.9986 26 whole (86.42)",
       "S Moon → J Venus Dec 26.0132 26 whole (11.49)"
      ],
      "note": "25.8811 - 26.0132",
-     "field": "only"
+     "field": "also: 1 Fire Flyer, 2 Lynx De Thaix, 3 Donnie Azoff, 6 So You Know, 7 Motazzen, 8 The Bellhop"
     },
     {
      "check": 11,
@@ -1208,14 +1450,26 @@
     },
     {
      "check": 11,
+     "key": "('21×φ', '34')",
+     "cells": [
+      "J Neptune – J Fomalhaut RA 33.9738 21×φ golden (71.76)",
+      "H Vesta – H Aldebaran Dec 33.9803 34 whole (0.02)",
+      "S Sun → J Mars RA 34.0162 34 whole (3.60)"
+     ],
+     "note": "33.9738 - 34.0162",
+     "field": "only"
+    },
+    {
+     "check": 11,
      "key": "('23×φ', '37')",
      "cells": [
+      "S Ceres → J Regulus RA 37.0166 37 whole (2.93)",
       "H Ceres – H Juno Dec 37.0182 37 whole (0.79)",
       "S Mercury → J Sun Dec 37.2151 23×φ golden (97.85)",
       "S Sun → J Haumea Dec 37.2173 23×φ golden (85.06)"
      ],
-     "note": "37.0182 - 37.2173",
-     "field": "also: 1 Fire Flyer"
+     "note": "37.0166 - 37.2173",
+     "field": "also: 1 Fire Flyer, 7 Motazzen"
     },
     {
      "check": 11,
@@ -1282,6 +1536,7 @@
       "H Jupiter – H Saturn Dec 5.0170 5 whole (2.28)",
       "J Mars – J Jupiter Dec 49.9890 50 whole (20.16)",
       "J Mercury – J Juno Dec 4.9973 5 whole (74.92)",
+      "J Venus – J Regulus Dec 5.0016 5 whole (84.47)",
       "S Chiron → J Sedna Dec 4.9979 5 whole (79.73)"
      ],
      "note": "5 and 50",
@@ -1325,6 +1580,7 @@
       "H Rahu – H Sedna Dec 9.0058 9 whole (50.46)",
       "S Ketu → H Pallas RA 90.0200 90 whole (0.00)",
       "S Rahu → H Pallas RA 89.9800 90 whole (0.00)",
+      "S Sedna → J Regulus RA 90.0185 90 whole (0.59)",
       "S Mercury → J Ketu Dec 9.0019 9 whole (82.20)",
       "S Pluto → J Quaoar Dec 8.9855 9 whole (7.54)"
      ],
@@ -1341,6 +1597,27 @@
      ],
      "note": "17 and 170",
      "field": "also: 2 Lynx De Thaix, 6 So You Know"
+    },
+    {
+     "check": 12,
+     "key": "(4,)",
+     "cells": [
+      "H Mars – H Aldebaran Dec 39.9807 40 whole (0.13)",
+      "J Uranus – J Neptune Dec 4.0014 4 whole (86.24)"
+     ],
+     "note": "4 and 40",
+     "field": "also: 2 Lynx De Thaix, 6 So You Know, 8 The Bellhop"
+    },
+    {
+     "check": 12,
+     "key": "(14,)",
+     "cells": [
+      "J Ceres – J Aldebaran RA 140.0025 140 whole (76.40)",
+      "S Orcus → J Transpluto RA 14.0077 14 whole (37.53)",
+      "S Sedna → J Sedna RA 14.0126 14 whole (13.64)"
+     ],
+     "note": "14 and 140",
+     "field": "also: 1 Fire Flyer, 6 So You Know"
     }
    ]
   },
@@ -1429,6 +1706,15 @@
      "field": "only"
     },
     {
+     "check": 9,
+     "key": "('J', 'Fomalhaut', '9×φ')",
+     "cells": [
+      "J Jupiter – J Fomalhaut Dec 14.5640 9×φ golden (89.60)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
      "check": 10,
      "key": "(5,)",
      "cells": [
@@ -1443,6 +1729,7 @@
      "key": "(9,)",
      "cells": [
       "S Gonggong → H Eris Dec 8.9966 9 whole (69.01)",
+      "J Jupiter – J Fomalhaut Dec 14.5640 9×φ golden (89.60)",
       "S Makemake → J Venus RA 14.5655 9×φ golden (81.29)"
      ],
      "note": "",
@@ -1450,8 +1737,19 @@
     },
     {
      "check": 10,
+     "key": "(11,)",
+     "cells": [
+      "S Chiron → J Haumea Dec 11.0042 11 whole (62.62)",
+      "J Mercury – J Fomalhaut Dec 17.7928 11×φ golden (68.32)"
+     ],
+     "note": "",
+     "field": "also: 1 Fire Flyer, 2 Lynx De Thaix, 7 Motazzen, 8 The Bellhop"
+    },
+    {
+     "check": 10,
      "key": "(12,)",
      "cells": [
+      "H Saturn – H Fomalhaut Dec 11.9950 12 whole (56.58)",
       "S Chiron → H Eris Dec 11.9970 12 whole (72.26)",
       "S Eris → H Mercury Dec 11.9971 12 whole (73.35)",
       "J Sun – J Haumea RA 11.9949 12 whole (55.49)",
@@ -1462,10 +1760,31 @@
     },
     {
      "check": 10,
+     "key": "(16,)",
+     "cells": [
+      "J Uranus – J Pluto Dec 16.0008 16 whole (92.33)",
+      "S Saturn → J Jupiter Dec 16.0005 16 whole (95.24)",
+      "S Orcus → J Regulus Dec 25.8815 16×φ golden (61.08)"
+     ],
+     "note": "",
+     "field": "also: 4 Paso Doble, 5 He's A Latchico, 7 Motazzen, 8 The Bellhop"
+    },
+    {
+     "check": 10,
      "key": "(19,)",
      "cells": [
       "H Mercury – H Juno Dec 19.0048 19 whole (57.77)",
       "S Makemake → H Orcus Dec 30.7417 19×φ golden (94.14)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(49,)",
+     "cells": [
+      "J Vesta – J Fomalhaut Dec 49.0008 49 whole (92.34)",
+      "H Jupiter – H Ketu RA 79.2805 49×φ golden (81.38)"
      ],
      "note": "",
      "field": "only"
@@ -1514,7 +1833,19 @@
       "S Sun → H Sedna Dec 24.1439 24.14 silver (97.07)"
      ],
      "note": "23.9803 - 24.1439",
-     "field": "also: 7 Motazzen"
+     "field": "also: 5 He's A Latchico, 7 Motazzen, 8 The Bellhop"
+    },
+    {
+     "check": 11,
+     "key": "('16×φ', '26')",
+     "cells": [
+      "S Orcus → J Regulus Dec 25.8815 16×φ golden (61.08)",
+      "S Sun → J Antares RA 25.9912 26 whole (31.47)",
+      "S Sun → H Antares RA 25.9981 26 whole (82.23)",
+      "J Jupiter – J Antares RA 26.0078 26 whole (36.94)"
+     ],
+     "note": "25.8815 - 26.0078",
+     "field": "also: 1 Fire Flyer, 2 Lynx De Thaix, 3 Donnie Azoff, 5 He's A Latchico, 7 Motazzen, 8 The Bellhop"
     },
     {
      "check": 11,
@@ -1570,10 +1901,11 @@
       "H Gonggong – H Quaoar Dec 3.9825 4 whole (1.55)",
       "S Saturn → H Jupiter RA 39.9932 40 whole (43.76)",
       "S Uranus → H Sedna RA 3.9999 4 whole (99.49)",
-      "S Quaoar → H Orcus Dec 3.9858 4 whole (8.46)"
+      "S Quaoar → H Orcus Dec 3.9858 4 whole (8.46)",
+      "J Transpluto – J Antares Dec 40.0136 40 whole (10.25)"
      ],
      "note": "4 and 40",
-     "field": "also: 2 Lynx De Thaix"
+     "field": "also: 2 Lynx De Thaix, 5 He's A Latchico, 8 The Bellhop"
     },
     {
      "check": 12,
@@ -1582,6 +1914,7 @@
       "H Neptune – H Transpluto Dec 15.0143 15 whole (8.02)",
       "S Pallas → H Mercury RA 14.9866 15 whole (10.79)",
       "J Ketu – J Orcus Dec 15.0026 15 whole (75.87)",
+      "J Orcus – J Aldebaran Dec 15.0006 15 whole (94.19)",
       "S Eris → J Pluto RA 150.0013 150 whole (87.31)"
      ],
      "note": "15 and 150",
@@ -1596,7 +1929,8 @@
       "J Jupiter – J Pluto Dec 8.9831 9 whole (2.38)",
       "S Ketu → J Quaoar RA 90.0094 90 whole (27.90)",
       "S Rahu → J Quaoar RA 89.9906 90 whole (27.90)",
-      "S Makemake → J Neptune RA 89.9895 90 whole (22.75)"
+      "S Makemake → J Neptune RA 89.9895 90 whole (22.75)",
+      "S Sedna → J Regulus RA 90.0178 90 whole (1.17)"
      ],
      "note": "9 and 90",
      "field": "also: 1 Fire Flyer, 5 He's A Latchico, 7 Motazzen, 8 The Bellhop"
@@ -1614,6 +1948,21 @@
      ],
      "note": "5 and 50",
      "field": "also: 1 Fire Flyer, 5 He's A Latchico, 7 Motazzen"
+    },
+    {
+     "check": 12,
+     "key": "(2,)",
+     "cells": [
+      "H Vesta – H Aldebaran Dec 1.9958 2 whole (62.53)",
+      "S Sedna → H Transpluto Dec 1.9929 2 whole (41.73)",
+      "J Mars – J Vesta RA 19.9871 20 whole (12.62)",
+      "J Venus – J Pluto RA 19.9998 20 whole (98.49)",
+      "J Venus – J Uranus Dec 2.0025 2 whole (76.18)",
+      "S Ceres → J Mars Dec 2.0161 2 whole (3.76)",
+      "S Gonggong → J Eris Dec 1.9827 2 whole (1.83)"
+     ],
+     "note": "2 and 20",
+     "field": "also: 2 Lynx De Thaix, 3 Donnie Azoff, 4 Paso Doble, 7 Motazzen, 8 The Bellhop"
     },
     {
      "check": 12,
@@ -1682,27 +2031,13 @@
     },
     {
      "check": 12,
-     "key": "(2,)",
-     "cells": [
-      "S Sedna → H Transpluto Dec 1.9929 2 whole (41.73)",
-      "J Mars – J Vesta RA 19.9871 20 whole (12.62)",
-      "J Venus – J Pluto RA 19.9998 20 whole (98.49)",
-      "J Venus – J Uranus Dec 2.0025 2 whole (76.18)",
-      "S Ceres → J Mars Dec 2.0161 2 whole (3.76)",
-      "S Gonggong → J Eris Dec 1.9827 2 whole (1.83)"
-     ],
-     "note": "2 and 20",
-     "field": "also: 2 Lynx De Thaix, 3 Donnie Azoff, 4 Paso Doble, 7 Motazzen, 8 The Bellhop"
-    },
-    {
-     "check": 12,
      "key": "(14,)",
      "cells": [
       "S Pallas → H Orcus RA 140.0162 140 whole (3.63)",
       "J Venus – J Pluto Dec 13.9982 14 whole (83.16)"
      ],
      "note": "14 and 140",
-     "field": "also: 1 Fire Flyer"
+     "field": "also: 1 Fire Flyer, 5 He's A Latchico"
     }
    ]
   },
@@ -1724,6 +2059,15 @@
      ],
      "note": "5 numbers",
      "field": ""
+    },
+    {
+     "check": 9,
+     "key": "('H', 'Aldebaran', '100×φ^1')",
+     "cells": [
+      "H Jupiter – H Aldebaran RA 161.8995 100×φ^1 phi power (77.65)"
+     ],
+     "note": "",
+     "field": "only"
     },
     {
      "check": 9,
@@ -1760,7 +2104,7 @@
       "J Quaoar – J Sedna Dec 17.7964 11×φ golden (88.35)"
      ],
      "note": "",
-     "field": "also: 2 Lynx De Thaix, 8 The Bellhop"
+     "field": "also: 1 Fire Flyer, 2 Lynx De Thaix, 6 So You Know, 8 The Bellhop"
     },
     {
      "check": 10,
@@ -1768,10 +2112,11 @@
      "cells": [
       "S Orcus → H Chiron Dec 16.0006 16 whole (94.56)",
       "S Sedna → H Neptune Dec 15.9952 16 whole (57.59)",
-      "S Mercury → J Chiron Dec 25.8829 16×φ golden (68.13)"
+      "S Mercury → J Chiron Dec 25.8829 16×φ golden (68.13)",
+      "S Orcus → J Regulus Dec 25.8810 16×φ golden (58.58)"
      ],
      "note": "",
-     "field": "also: 4 Paso Doble, 5 He's A Latchico, 8 The Bellhop"
+     "field": "also: 4 Paso Doble, 5 He's A Latchico, 6 So You Know, 8 The Bellhop"
     },
     {
      "check": 10,
@@ -1783,6 +2128,47 @@
      ],
      "note": "",
      "field": "also: 3 Donnie Azoff"
+    },
+    {
+     "check": 10,
+     "key": "(45,)",
+     "cells": [
+      "H Ketu – H Quaoar RA 45.0008 45 whole (92.59)",
+      "H Chiron – H Aldebaran RA 72.8157 45×φ golden (75.98)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(75,)",
+     "cells": [
+      "S Mars → H Aldebaran RA 74.9942 75 whole (50.52)",
+      "S Transpluto → H Saturn RA 121.3472 75×φ golden (69.76)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(94,)",
+     "cells": [
+      "H Transpluto – H Antares RA 93.9963 94 whole (66.61)",
+      "J Gonggong – J Quaoar RA 94.0016 94 whole (84.27)",
+      "H Mercury – H Regulus RA 152.0871 94×φ golden (56.37)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(102,)",
+     "cells": [
+      "J Ceres – J Orcus RA 102.0021 102 whole (80.20)",
+      "J Ceres – J Aldebaran RA 165.0462 102×φ golden (62.89)"
+     ],
+     "note": "",
+     "field": "only"
     },
     {
      "check": 11,
@@ -1830,7 +2216,7 @@
       "S Transpluto → J Ketu Dec 13.0040 13 whole (64.08)"
      ],
      "note": "12.9424 - 13.0040",
-     "field": "also: 1 Fire Flyer, 2 Lynx De Thaix, 8 The Bellhop"
+     "field": "also: 1 Fire Flyer, 2 Lynx De Thaix, 5 He's A Latchico, 8 The Bellhop"
     },
     {
      "check": 11,
@@ -1871,7 +2257,31 @@
       "S Jupiter → H Orcus Dec 24.1458 24.14 silver (94.03)"
      ],
      "note": "23.9923 - 24.1458",
-     "field": "also: 6 So You Know"
+     "field": "also: 5 He's A Latchico, 6 So You Know, 8 The Bellhop"
+    },
+    {
+     "check": 11,
+     "key": "('16×φ', '26')",
+     "cells": [
+      "S Orcus → J Regulus Dec 25.8810 16×φ golden (58.58)",
+      "S Mercury → J Chiron Dec 25.8829 16×φ golden (68.13)",
+      "S Sun → J Antares RA 25.9892 26 whole (21.00)",
+      "S Sun → H Antares RA 25.9940 26 whole (49.00)"
+     ],
+     "note": "25.8810 - 25.9940",
+     "field": "also: 1 Fire Flyer, 2 Lynx De Thaix, 3 Donnie Azoff, 5 He's A Latchico, 6 So You Know, 8 The Bellhop"
+    },
+    {
+     "check": 11,
+     "key": "('23×φ', '37')",
+     "cells": [
+      "S Pallas → H Haumea Dec 36.9841 37 whole (4.23)",
+      "S Mercury → J Ketu Dec 37.0140 37 whole (9.14)",
+      "S Ceres → J Regulus RA 37.0175 37 whole (1.53)",
+      "H Sedna – H Fomalhaut Dec 37.2104 23×φ golden (74.90)"
+     ],
+     "note": "36.9841 - 37.2104",
+     "field": "also: 1 Fire Flyer, 5 He's A Latchico"
     },
     {
      "check": 11,
@@ -1896,6 +2306,32 @@
      "field": "only"
     },
     {
+     "check": 11,
+     "key": "('152', '94×φ')",
+     "cells": [
+      "J Uranus – J Chiron RA 151.9809 152 whole (0.18)",
+      "S Gonggong → J Chiron RA 152.0171 152 whole (2.04)",
+      "H Mercury – H Regulus RA 152.0871 94×φ golden (56.37)"
+     ],
+     "note": "151.9809 - 152.0871",
+     "field": "only"
+    },
+    {
+     "check": 12,
+     "key": "(9,)",
+     "cells": [
+      "H Juno – H Fomalhaut RA 9.0179 9 whole (1.06)",
+      "S Mars → H Orcus RA 8.9892 9 whole (21.23)",
+      "J Quaoar – J Transpluto RA 89.9823 90 whole (1.34)",
+      "S Pallas → J Ketu RA 90.0183 90 whole (0.70)",
+      "S Pallas → J Rahu RA 89.9817 90 whole (0.70)",
+      "S Sedna → J Regulus RA 90.0194 90 whole (0.09)",
+      "S Eris → J Eris Dec 9.0168 9 whole (2.54)"
+     ],
+     "note": "9 and 90",
+     "field": "also: 1 Fire Flyer, 5 He's A Latchico, 6 So You Know, 8 The Bellhop"
+    },
+    {
      "check": 12,
      "key": "(5,)",
      "cells": [
@@ -1915,6 +2351,7 @@
      "key": "(7,)",
      "cells": [
       "H Mercury – H Juno Dec 6.9932 7 whole (43.76)",
+      "H Uranus – H Aldebaran Dec 6.9962 7 whole (65.32)",
       "S Vesta → H Uranus RA 6.9858 7 whole (8.55)",
       "S Juno → H Neptune Dec 7.0177 7 whole (1.27)",
       "S Transpluto → H Haumea Dec 6.9882 7 whole (16.84)",
@@ -1923,19 +2360,6 @@
      ],
      "note": "7 and 70",
      "field": "also: 8 The Bellhop"
-    },
-    {
-     "check": 12,
-     "key": "(9,)",
-     "cells": [
-      "S Mars → H Orcus RA 8.9892 9 whole (21.23)",
-      "J Quaoar – J Transpluto RA 89.9823 90 whole (1.34)",
-      "S Pallas → J Ketu RA 90.0183 90 whole (0.70)",
-      "S Pallas → J Rahu RA 89.9817 90 whole (0.70)",
-      "S Eris → J Eris Dec 9.0168 9 whole (2.54)"
-     ],
-     "note": "9 and 90",
-     "field": "also: 1 Fire Flyer, 5 He's A Latchico, 6 So You Know, 8 The Bellhop"
     },
     {
      "check": 12,
@@ -1969,6 +2393,7 @@
       "H Ceres – H Chiron Dec 30.0141 30 whole (8.70)",
       "S Jupiter → H Transpluto Dec 2.9900 3 whole (25.23)",
       "J Sun – J Mercury Dec 2.9889 3 whole (19.95)",
+      "J Uranus – J Antares Dec 3.0159 3 whole (4.13)",
       "S Uranus → J Eris Dec 29.9857 30 whole (8.20)",
       "S Orcus → J Mars Dec 2.9975 3 whole (76.81)"
      ],
@@ -1982,7 +2407,8 @@
       "H Pallas – H Haumea RA 160.0003 160 whole (97.03)",
       "S Mars → H Ceres Dec 15.9839 16 whole (3.84)",
       "S Orcus → H Chiron Dec 16.0006 16 whole (94.56)",
-      "S Sedna → H Neptune Dec 15.9952 16 whole (57.59)"
+      "S Sedna → H Neptune Dec 15.9952 16 whole (57.59)",
+      "J Quaoar – J Fomalhaut Dec 16.0138 16 whole (9.64)"
      ],
      "note": "16 and 160",
      "field": "also: 2 Lynx De Thaix, 3 Donnie Azoff, 6 So You Know"
@@ -1997,15 +2423,16 @@
    "items": [
     {
      "check": 7,
-     "key": "('count', 5)",
+     "key": "('count', 6)",
      "cells": [
       "12.2222 ninth",
       "177.778 ninth",
       "100×φ^-1 phi power",
+      "100×φ^1 phi power",
       "φ^5 phi power",
       "3 whole"
      ],
-     "note": "5 numbers",
+     "note": "6 numbers",
      "field": ""
     },
     {
@@ -2045,7 +2472,7 @@
       "S Saturn → J Pallas Dec 17.7939 11×φ golden (74.06)"
      ],
      "note": "",
-     "field": "also: 2 Lynx De Thaix, 7 Motazzen"
+     "field": "also: 1 Fire Flyer, 2 Lynx De Thaix, 6 So You Know, 7 Motazzen"
     },
     {
      "check": 10,
@@ -2062,10 +2489,11 @@
      "key": "(16,)",
      "cells": [
       "S Eris → J Ketu RA 16.0036 16 whole (67.65)",
-      "H Quaoar – H Transpluto Dec 25.8814 16×φ golden (60.85)"
+      "H Quaoar – H Transpluto Dec 25.8814 16×φ golden (60.85)",
+      "S Orcus → J Regulus Dec 25.8813 16×φ golden (60.02)"
      ],
      "note": "",
-     "field": "also: 4 Paso Doble, 5 He's A Latchico, 7 Motazzen"
+     "field": "also: 4 Paso Doble, 5 He's A Latchico, 6 So You Know, 7 Motazzen"
     },
     {
      "check": 10,
@@ -2079,6 +2507,16 @@
     },
     {
      "check": 10,
+     "key": "(23,)",
+     "cells": [
+      "J Juno – J Aldebaran Dec 23.0014 23 whole (86.03)",
+      "S Sun → J Mars Dec 37.2188 23×φ golden (76.52)"
+     ],
+     "note": "",
+     "field": "also: 1 Fire Flyer"
+    },
+    {
+     "check": 10,
      "key": "(26,)",
      "cells": [
       "H Uranus – H Gonggong Dec 26.0023 26 whole (77.97)",
@@ -2086,6 +2524,16 @@
      ],
      "note": "",
      "field": "also: 3 Donnie Azoff"
+    },
+    {
+     "check": 10,
+     "key": "(47,)",
+     "cells": [
+      "J Uranus – J Antares RA 46.9965 47 whole (67.72)",
+      "S Venus → H Quaoar RA 76.0489 47×φ golden (92.37)"
+     ],
+     "note": "",
+     "field": "only"
     },
     {
      "check": 10,
@@ -2105,7 +2553,7 @@
       "S Eris → J Jupiter RA 163.4121 101×φ golden (50.50)"
      ],
      "note": "",
-     "field": "only"
+     "field": "also: 5 He's A Latchico"
     },
     {
      "check": 10,
@@ -2119,15 +2567,29 @@
     },
     {
      "check": 11,
+     "key": "('7', 'φ^4')",
+     "cells": [
+      "S Uranus → H Aldebaran RA 6.8544 φ^4 phi power (98.13)",
+      "S Uranus → J Aldebaran RA 6.8545 φ^4 phi power (97.52)",
+      "S Mercury → J Neptune Dec 6.9882 7 whole (16.77)",
+      "H Mercury – H Juno Dec 7.0071 7 whole (41.74)",
+      "S Gonggong → J Gonggong RA 7.0169 7 whole (2.41)"
+     ],
+     "note": "6.8544 - 7.0169",
+     "field": "also: 5 He's A Latchico"
+    },
+    {
+     "check": 11,
      "key": "('11', '11.1111', 'φ^5')",
      "cells": [
+      "H Chiron – H Aldebaran Dec 10.9812 11 whole (0.36)",
       "S Venus → H Eris Dec 10.9993 11 whole (93.43)",
       "S Neptune → H Transpluto Dec 11.0904 φ^5 phi power (99.04)",
       "J Juno – J Sedna Dec 11.0942 φ^5 phi power (86.05)",
       "S Transpluto → H Eris Dec 11.1200 11.1111 ninth (85.46)"
      ],
-     "note": "10.9993 - 11.1200",
-     "field": "also: 2 Lynx De Thaix"
+     "note": "10.9812 - 11.1200",
+     "field": "also: 1 Fire Flyer, 2 Lynx De Thaix"
     },
     {
      "check": 11,
@@ -2145,13 +2607,14 @@
      "check": 11,
      "key": "('12', '12.2222')",
      "cells": [
+      "H Ketu – H Antares RA 11.9817 12 whole (0.76)",
       "H Venus – H Neptune Dec 12.0005 12 whole (95.41)",
       "S Eris → H Orcus Dec 12.0077 12 whole (37.68)",
       "H Makemake – H Transpluto Dec 12.0086 12 whole (32.54)",
       "S Gonggong → H Pluto Dec 12.2260 12.2222 ninth (94.72)",
       "S Moon → J Neptune Dec 12.2292 12.2222 ninth (90.34)"
      ],
-     "note": "12.0005 - 12.2292",
+     "note": "11.9817 - 12.2292",
      "field": "also: 5 He's A Latchico"
     },
     {
@@ -2164,18 +2627,68 @@
       "S Venus → J Chiron Dec 13.0037 13 whole (66.43)"
      ],
      "note": "12.9434 - 13.0037",
-     "field": "also: 1 Fire Flyer, 2 Lynx De Thaix, 7 Motazzen"
+     "field": "also: 1 Fire Flyer, 2 Lynx De Thaix, 5 He's A Latchico, 7 Motazzen"
+    },
+    {
+     "check": 11,
+     "key": "('14', '14.14')",
+     "cells": [
+      "H Sun – H Fomalhaut Dec 13.9948 14 whole (54.74)",
+      "S Sun → H Ketu RA 14.0092 14 whole (28.99)",
+      "S Sedna → J Ceres Dec 14.1420 14.14 sqrt2 (99.53)"
+     ],
+     "note": "13.9948 - 14.1420",
+     "field": "also: 1 Fire Flyer, 2 Lynx De Thaix"
     },
     {
      "check": 11,
      "key": "('13×φ', '21')",
      "cells": [
       "J Chiron – J Haumea Dec 20.9868 21 whole (11.57)",
+      "H Neptune – H Aldebaran Dec 20.9875 21 whole (14.17)",
       "S Vesta → J Ketu Dec 21.0016 21 whole (84.63)",
+      "S Moon → H Regulus Dec 21.0083 21 whole (34.13)",
+      "S Moon → J Regulus Dec 21.0117 21 whole (17.07)",
       "S Quaoar → H Juno RA 21.0352 13×φ golden (95.42)"
      ],
      "note": "20.9868 - 21.0352",
      "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('24', '24.14')",
+     "cells": [
+      "S Pluto → J Gonggong RA 24.0006 24 whole (94.38)",
+      "H Juno – H Regulus Dec 24.0082 24 whole (34.80)",
+      "J Mars – J Vesta RA 24.1469 24.14 silver (92.27)"
+     ],
+     "note": "24.0006 - 24.1469",
+     "field": "also: 5 He's A Latchico, 6 So You Know, 7 Motazzen"
+    },
+    {
+     "check": 11,
+     "key": "('16×φ', '26')",
+     "cells": [
+      "S Orcus → J Regulus Dec 25.8813 16×φ golden (60.02)",
+      "H Quaoar – H Transpluto Dec 25.8814 16×φ golden (60.85)",
+      "S Sun → J Antares RA 25.9902 26 whole (25.82)",
+      "S Sun → H Antares RA 25.9910 26 whole (30.14)",
+      "H Uranus – H Gonggong Dec 26.0023 26 whole (77.97)"
+     ],
+     "note": "25.8813 - 26.0023",
+     "field": "also: 1 Fire Flyer, 2 Lynx De Thaix, 3 Donnie Azoff, 5 He's A Latchico, 6 So You Know, 7 Motazzen"
+    },
+    {
+     "check": 11,
+     "key": "('10×φ^2', '26')",
+     "cells": [
+      "S Sun → J Antares RA 25.9902 26 whole (25.82)",
+      "S Sun → H Antares RA 25.9910 26 whole (30.14)",
+      "H Uranus – H Gonggong Dec 26.0023 26 whole (77.97)",
+      "J Juno – J Antares RA 26.1866 10×φ^2 phi power (90.70)"
+     ],
+     "note": "25.9902 - 26.1866",
+     "field": "also: 1 Fire Flyer"
     },
     {
      "check": 11,
@@ -2186,6 +2699,17 @@
       "J Pluto – J Ceres Dec 29.1264 18×φ golden (89.04)"
      ],
      "note": "28.9861 - 29.1264",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('57×φ', '92')",
+     "cells": [
+      "J Saturn – J Antares RA 91.9902 92 whole (25.88)",
+      "S Ceres → J Eris RA 91.9934 92 whole (44.96)",
+      "S Pluto → H Uranus RA 92.2242 57×φ golden (78.13)"
+     ],
+     "note": "91.9902 - 92.2242",
      "field": "only"
     },
     {
@@ -2213,6 +2737,30 @@
     },
     {
      "check": 11,
+     "key": "('100×φ^1', '162')",
+     "cells": [
+      "J Transpluto – J Fomalhaut RA 161.8169 100×φ^1 phi power (96.70)",
+      "S Transpluto → H Saturn RA 161.8560 100×φ^1 phi power (87.43)",
+      "S Chiron → J Jupiter RA 162.0068 162 whole (43.63)"
+     ],
+     "note": "161.8169 - 162.0068",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('108×φ', '175')",
+     "cells": [
+      "S Sedna → H Antares RA 174.7214 108×φ golden (3.55)",
+      "S Sedna → J Antares RA 174.7222 108×φ golden (4.57)",
+      "S Uranus → H Antares RA 174.7790 108×φ golden (0.09)",
+      "S Uranus → J Antares RA 174.7799 108×φ golden (0.00)",
+      "S Uranus → J Pluto RA 174.9805 175 whole (0.06)"
+     ],
+     "note": "174.7214 - 174.9805",
+     "field": "also: 1 Fire Flyer, 2 Lynx De Thaix"
+    },
+    {
+     "check": 11,
      "key": "('110×φ', '177.778')",
      "cells": [
       "S Gonggong → H Transpluto RA 177.7075 177.778 ninth (94.50)",
@@ -2236,12 +2784,25 @@
     },
     {
      "check": 12,
+     "key": "(4,)",
+     "cells": [
+      "H Sun – H Ketu Dec 3.9992 4 whole (91.84)",
+      "J Chiron – J Sedna Dec 3.9929 4 whole (41.82)",
+      "J Transpluto – J Antares Dec 39.9814 40 whole (0.49)"
+     ],
+     "note": "4 and 40",
+     "field": "also: 2 Lynx De Thaix, 5 He's A Latchico, 6 So You Know"
+    },
+    {
+     "check": 12,
      "key": "(1,)",
      "cells": [
+      "H Ketu – H Fomalhaut Dec 9.9956 10 whole (61.07)",
       "H Neptune – H Chiron Dec 10.0063 10 whole (46.79)",
       "S Eris → H Eris RA 0.9922 1 whole (37.51)",
       "S Neptune → H Pallas RA 0.9948 1 whole (54.46)",
       "S Moon → H Mercury Dec 10.0070 10 whole (42.48)",
+      "J Rahu – J Antares Dec 10.0062 10 whole (47.72)",
       "J Sun – J Quaoar Dec 10.0011 10 whole (89.48)",
       "S Pallas → J Neptune Dec 1.0022 1 whole (78.79)"
      ],
@@ -2254,7 +2815,8 @@
      "cells": [
       "S Venus → H Vesta Dec 8.9845 9 whole (4.98)",
       "J Chiron – J Eris Dec 8.9811 9 whole (0.32)",
-      "S Jupiter → J Pluto RA 89.9812 90 whole (0.35)"
+      "S Jupiter → J Pluto RA 89.9812 90 whole (0.35)",
+      "S Sedna → J Regulus RA 90.0184 90 whole (0.63)"
      ],
      "note": "9 and 90",
      "field": "also: 1 Fire Flyer, 5 He's A Latchico, 6 So You Know, 7 Motazzen"

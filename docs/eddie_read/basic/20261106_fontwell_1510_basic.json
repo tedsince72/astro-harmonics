@@ -116,13 +116,23 @@
     },
     {
      "check": 10,
+     "key": "(14,)",
+     "cells": [
+      "S Neptune → H Sun Dec 14.0013 14 whole (87.83)",
+      "J Juno – J Aldebaran Dec 22.6596 14×φ golden (60.67)"
+     ],
+     "note": "",
+     "field": "also: 3 Hard Stare"
+    },
+    {
+     "check": 10,
      "key": "(16,)",
      "cells": [
       "H Jupiter – H Neptune Dec 15.9943 16 whole (51.09)",
       "S Mercury → H Juno RA 25.8811 16×φ golden (59.19)"
      ],
      "note": "",
-     "field": "only"
+     "field": "also: 2 Ted The Thief, 4 Sweet Nightingale, 5 Pawpaw"
     },
     {
      "check": 10,
@@ -132,17 +142,18 @@
       "S Jupiter → J Makemake RA 33.9760 21×φ golden (83.94)"
      ],
      "note": "",
-     "field": "also: 2 Ted The Thief"
+     "field": "also: 2 Ted The Thief, 3 Hard Stare"
     },
     {
      "check": 10,
      "key": "(46,)",
      "cells": [
       "H Mars – H Quaoar RA 45.9956 46 whole (60.82)",
+      "S Makemake → J Antares Dec 46.0051 46 whole (55.16)",
       "J Jupiter – J Vesta RA 74.4298 46×φ golden (98.52)"
      ],
      "note": "",
-     "field": "only"
+     "field": "also: 4 Sweet Nightingale, 6 Steal The Moves"
     },
     {
      "check": 10,
@@ -168,6 +179,18 @@
     },
     {
      "check": 11,
+     "key": "('8.88889', '9')",
+     "cells": [
+      "J Mars – J Antares Dec 8.8886 8.88889 ninth (97.95)",
+      "J Juno – J Quaoar Dec 8.9902 9 whole (25.85)",
+      "S Quaoar → J Juno Dec 9.0030 9 whole (72.27)",
+      "S Moon → J Chiron Dec 9.0089 9 whole (30.85)"
+     ],
+     "note": "8.8886 - 9.0089",
+     "field": "only"
+    },
+    {
+     "check": 11,
      "key": "('12', '12.2222')",
      "cells": [
       "S Sedna → J Haumea Dec 11.9808 12 whole (0.18)",
@@ -178,7 +201,7 @@
       "S Mercury → J Orcus Dec 12.2255 12.2222 ninth (95.41)"
      ],
      "note": "11.9808 - 12.2255",
-     "field": "only"
+     "field": "also: 2 Ted The Thief"
     },
     {
      "check": 11,
@@ -186,6 +209,7 @@
      "cells": [
       "S Moon → J Pallas Dec 13.9883 14 whole (17.06)",
       "S Neptune → H Sun Dec 14.0013 14 whole (87.83)",
+      "J Orcus – J Regulus Dec 14.0068 14 whole (43.70)",
       "S Gonggong → J Uranus RA 14.1435 14.14 sqrt2 (96.10)"
      ],
      "note": "13.9883 - 14.1435",
@@ -224,13 +248,14 @@
       "S Chiron → J Uranus Dec 26.0099 26 whole (25.36)"
      ],
      "note": "25.8811 - 26.0099",
-     "field": "only"
+     "field": "also: 2 Ted The Thief"
     },
     {
      "check": 11,
      "key": "('29', 'φ^7')",
      "cells": [
       "H Neptune – H Makemake Dec 28.9973 29 whole (74.87)",
+      "J Makemake – J Regulus RA 29.0083 29 whole (34.42)",
       "S Makemake → J Mars RA 29.0109 29 whole (20.76)",
       "H Jupiter – H Sedna Dec 29.0303 φ^7 phi power (94.33)"
      ],
@@ -242,11 +267,12 @@
      "key": "('21×φ', '34')",
      "cells": [
       "S Jupiter → J Makemake RA 33.9760 21×φ golden (83.94)",
+      "H Pluto – H Regulus Dec 33.9864 34 whole (10.11)",
       "S Juno → H Ketu RA 33.9944 34 whole (52.11)",
       "S Juno → J Jupiter Dec 34.0017 34 whole (83.63)"
      ],
      "note": "33.9760 - 34.0017",
-     "field": "also: 2 Ted The Thief, 5 Pawpaw"
+     "field": "also: 2 Ted The Thief, 3 Hard Stare, 5 Pawpaw"
     },
     {
      "check": 11,
@@ -377,15 +403,25 @@
     },
     {
      "check": 7,
-     "key": "('count', 4)",
+     "key": "('count', 5)",
      "cells": [
       "144.444 ninth",
       "166.667 ninth",
       "18.8889 ninth",
-      "141.4 sqrt2"
+      "141.4 sqrt2",
+      "49 whole"
      ],
-     "note": "4 numbers",
+     "note": "5 numbers",
      "field": ""
+    },
+    {
+     "check": 9,
+     "key": "('H', 'Regulus', '141.4')",
+     "cells": [
+      "H Jupiter – H Regulus RA 141.4276 141.4 sqrt2 (98.25)"
+     ],
+     "note": "",
+     "field": "only"
     },
     {
      "check": 9,
@@ -401,6 +437,15 @@
      "key": "('J', 'Quaoar', '21×φ')",
      "cells": [
       "J Jupiter – J Quaoar Dec 33.9725 21×φ golden (65.08)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 9,
+     "key": "('J', 'Fomalhaut', '49')",
+     "cells": [
+      "J Jupiter – J Fomalhaut Dec 48.9991 49 whole (90.92)"
      ],
      "note": "",
      "field": "only"
@@ -427,13 +472,23 @@
     },
     {
      "check": 10,
+     "key": "(16,)",
+     "cells": [
+      "H Mars – H Ketu RA 15.9963 16 whole (66.60)",
+      "S Orcus → J Regulus Dec 25.8813 16×φ golden (60.45)"
+     ],
+     "note": "",
+     "field": "also: 1 My Own Lovely Lee, 4 Sweet Nightingale, 5 Pawpaw"
+    },
+    {
+     "check": 10,
      "key": "(21,)",
      "cells": [
       "S Juno → J Juno RA 21.0048 21 whole (57.81)",
       "J Jupiter – J Quaoar Dec 33.9725 21×φ golden (65.08)"
      ],
      "note": "",
-     "field": "also: 1 My Own Lovely Lee"
+     "field": "also: 1 My Own Lovely Lee, 3 Hard Stare"
     },
     {
      "check": 10,
@@ -458,10 +513,31 @@
     },
     {
      "check": 10,
+     "key": "(49,)",
+     "cells": [
+      "H Pluto – H Antares RA 49.0000 49 whole (99.79)",
+      "J Jupiter – J Fomalhaut Dec 48.9991 49 whole (90.92)",
+      "J Rahu – J Haumea RA 79.2832 49×φ golden (97.44)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
      "key": "(89,)",
      "cells": [
       "S Moon → J Sun RA 89.0013 89 whole (87.51)",
       "S Makemake → J Jupiter RA 144.0095 89×φ golden (73.99)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(108,)",
+     "cells": [
+      "H Ceres – H Aldebaran RA 108.0021 108 whole (79.68)",
+      "J Gonggong – J Transpluto RA 174.7559 108×φ golden (55.77)"
      ],
      "note": "",
      "field": "only"
@@ -479,13 +555,39 @@
     },
     {
      "check": 11,
-     "key": "('11×φ', 'φ^6')",
+     "key": "('11', 'φ^5')",
+     "cells": [
+      "H Quaoar – H Antares Dec 10.9806 11 whole (0.08)",
+      "S Rahu → H Eris Dec 10.9904 11 whole (26.90)",
+      "H Pluto – H Orcus Dec 10.9969 11 whole (71.15)",
+      "H Juno – H Gonggong Dec 11.0023 11 whole (78.32)",
+      "J Sun – J Regulus Dec 11.0970 φ^5 phi power (76.88)"
+     ],
+     "note": "10.9806 - 11.0970",
+     "field": "also: 6 Steal The Moves"
+    },
+    {
+     "check": 11,
+     "key": "('12', '12.2222')",
+     "cells": [
+      "S Pluto → H Gonggong Dec 12.0011 12 whole (89.21)",
+      "S Pluto → H Mercury Dec 12.2219 12.2222 ninth (99.61)",
+      "H Chiron – H Aldebaran Dec 12.2256 12.2222 ninth (95.38)"
+     ],
+     "note": "12.0011 - 12.2256",
+     "field": "also: 1 My Own Lovely Lee"
+    },
+    {
+     "check": 11,
+     "key": "('11×φ', '18', 'φ^6')",
      "cells": [
       "S Saturn → J Chiron Dec 17.7979 11×φ golden (96.97)",
       "H Venus – H Juno Dec 17.9409 φ^6 phi power (92.62)",
-      "H Eris – H Haumea Dec 17.9498 φ^6 phi power (88.15)"
+      "H Gonggong – H Fomalhaut Dec 17.9427 φ^6 phi power (96.61)",
+      "H Eris – H Haumea Dec 17.9498 φ^6 phi power (88.15)",
+      "J Juno – J Aldebaran Dec 17.9937 18 whole (46.67)"
      ],
-     "note": "17.7979 - 17.9498",
+     "note": "17.7979 - 17.9937",
      "field": "only"
     },
     {
@@ -514,14 +616,27 @@
     },
     {
      "check": 11,
+     "key": "('16×φ', '26')",
+     "cells": [
+      "S Orcus → J Regulus Dec 25.8813 16×φ golden (60.45)",
+      "H Jupiter – H Chiron Dec 25.9916 26 whole (33.44)",
+      "J Uranus – J Pallas Dec 25.9971 26 whole (73.30)",
+      "S Ceres → H Eris Dec 26.0031 26 whole (71.61)"
+     ],
+     "note": "25.8813 - 26.0031",
+     "field": "also: 1 My Own Lovely Lee"
+    },
+    {
+     "check": 11,
      "key": "('21×φ', '34')",
      "cells": [
       "J Jupiter – J Quaoar Dec 33.9725 21×φ golden (65.08)",
+      "H Pluto – H Regulus Dec 33.9810 34 whole (0.24)",
       "H Uranus – H Ceres Dec 33.9855 34 whole (7.59)",
       "J Sun – J Pluto Dec 34.0142 34 whole (8.44)"
      ],
      "note": "33.9725 - 34.0142",
-     "field": "also: 1 My Own Lovely Lee, 5 Pawpaw"
+     "field": "also: 1 My Own Lovely Lee, 3 Hard Stare, 5 Pawpaw"
     },
     {
      "check": 11,
@@ -551,12 +666,15 @@
      "check": 11,
      "key": "('108×φ', '175')",
      "cells": [
+      "S Sedna → H Antares RA 174.7172 108×φ golden (0.33)",
       "J Gonggong – J Transpluto RA 174.7559 108×φ golden (55.77)",
       "J Uranus – J Orcus RA 174.7663 108×φ golden (18.08)",
+      "S Uranus → J Antares RA 174.7704 108×φ golden (8.93)",
+      "S Uranus → H Antares RA 174.7741 108×φ golden (3.41)",
       "S Mercury → H Uranus RA 175.0125 175 whole (14.18)"
      ],
-     "note": "174.7559 - 175.0125",
-     "field": "also: 4 Sweet Nightingale"
+     "note": "174.7172 - 175.0125",
+     "field": "also: 3 Hard Stare, 4 Sweet Nightingale, 5 Pawpaw, 6 Steal The Moves"
     },
     {
      "check": 12,
@@ -611,6 +729,16 @@
     },
     {
      "check": 12,
+     "key": "(18,)",
+     "cells": [
+      "S Vesta → H Makemake RA 179.9824 180 whole (1.48)",
+      "J Juno – J Aldebaran Dec 17.9937 18 whole (46.67)"
+     ],
+     "note": "18 and 180",
+     "field": "also: 3 Hard Stare"
+    },
+    {
+     "check": 12,
      "key": "(1,)",
      "cells": [
       "S Rahu → H Mars Dec 10.0001 10 whole (99.20)",
@@ -621,6 +749,16 @@
      ],
      "note": "1 and 10",
      "field": "also: 1 My Own Lovely Lee, 3 Hard Stare, 4 Sweet Nightingale, 5 Pawpaw, 6 Steal The Moves"
+    },
+    {
+     "check": 12,
+     "key": "(9,)",
+     "cells": [
+      "S Sedna → J Regulus RA 90.0189 90 whole (0.31)",
+      "S Makemake → J Pallas Dec 8.9873 9 whole (13.26)"
+     ],
+     "note": "9 and 90",
+     "field": "also: 4 Sweet Nightingale, 5 Pawpaw"
     }
    ]
   },
@@ -659,6 +797,26 @@
       "S Neptune → J Mars Dec 22.6583 14×φ golden (67.08)"
      ],
      "note": "",
+     "field": "also: 1 My Own Lovely Lee"
+    },
+    {
+     "check": 10,
+     "key": "(21,)",
+     "cells": [
+      "J Sun – J Juno RA 21.0016 21 whole (84.30)",
+      "H Pluto – H Regulus Dec 33.9793 21×φ golden (96.37)"
+     ],
+     "note": "",
+     "field": "also: 1 My Own Lovely Lee, 2 Ted The Thief"
+    },
+    {
+     "check": 10,
+     "key": "(29,)",
+     "cells": [
+      "J Chiron – J Haumea Dec 28.9975 29 whole (76.50)",
+      "H Vesta – H Antares Dec 46.9201 29×φ golden (83.21)"
+     ],
+     "note": "",
      "field": "only"
     },
     {
@@ -685,15 +843,16 @@
     },
     {
      "check": 11,
-     "key": "('11', '11.1111')",
+     "key": "('11', '11.1111', 'φ^5')",
      "cells": [
       "S Mars → H Venus Dec 10.9854 11 whole (7.22)",
       "S Mercury → J Ceres RA 10.9927 11 whole (40.56)",
       "S Mars → H Chiron Dec 11.0104 11 whole (22.86)",
+      "H Quaoar – H Antares Dec 11.0987 φ^5 phi power (71.71)",
       "S Neptune → H Neptune RA 11.1126 11.1111 ninth (97.63)"
      ],
      "note": "10.9854 - 11.1126",
-     "field": "also: 4 Sweet Nightingale"
+     "field": "only"
     },
     {
      "check": 11,
@@ -722,9 +881,21 @@
     },
     {
      "check": 11,
+     "key": "('22', '22.2222')",
+     "cells": [
+      "H Venus – H Chiron Dec 21.9958 22 whole (62.50)",
+      "J Chiron – J Fomalhaut Dec 22.0036 22 whole (67.02)",
+      "S Chiron → H Gonggong Dec 22.2272 22.2222 ninth (93.15)"
+     ],
+     "note": "21.9958 - 22.2272",
+     "field": "also: 5 Pawpaw"
+    },
+    {
+     "check": 11,
      "key": "('15×φ', '24')",
      "cells": [
       "S Quaoar → J Venus RA 23.9850 24 whole (6.27)",
+      "J Sun – J Antares RA 23.9962 24 whole (65.39)",
       "S Pallas → H Neptune RA 24.0039 24 whole (64.50)",
       "S Ketu → H Gonggong Dec 24.2790 15×φ golden (54.38)"
      ],
@@ -756,6 +927,28 @@
      "field": "also: 1 My Own Lovely Lee"
     },
     {
+     "check": 11,
+     "key": "('21×φ', '34')",
+     "cells": [
+      "H Pluto – H Regulus Dec 33.9793 21×φ golden (96.37)",
+      "S Chiron → J Mars Dec 34.0007 34 whole (93.53)",
+      "S Neptune → J Makemake Dec 34.0099 34 whole (25.70)"
+     ],
+     "note": "33.9793 - 34.0099",
+     "field": "also: 1 My Own Lovely Lee, 2 Ted The Thief, 5 Pawpaw"
+    },
+    {
+     "check": 11,
+     "key": "('108×φ', '175')",
+     "cells": [
+      "S Sedna → J Antares RA 174.7246 108×φ golden (8.17)",
+      "S Uranus → H Antares RA 174.7708 108×φ golden (8.07)",
+      "S Vesta → J Rahu RA 174.9826 175 whole (1.65)"
+     ],
+     "note": "174.7246 - 174.9826",
+     "field": "also: 2 Ted The Thief, 4 Sweet Nightingale, 5 Pawpaw, 6 Steal The Moves"
+    },
+    {
      "check": 12,
      "key": "(16,)",
      "cells": [
@@ -781,6 +974,22 @@
     },
     {
      "check": 12,
+     "key": "(3,)",
+     "cells": [
+      "H Ketu – H Antares Dec 2.9974 3 whole (76.09)",
+      "S Neptune → H Chiron RA 2.9913 3 whole (32.00)",
+      "S Orcus → H Juno RA 30.0191 30 whole (0.22)",
+      "S Mars → H Uranus Dec 3.0071 3 whole (41.85)",
+      "S Vesta → H Eris Dec 3.0067 3 whole (44.38)",
+      "J Mercury – J Juno RA 2.9969 3 whole (71.25)",
+      "J Mercury – J Venus Dec 3.0081 3 whole (35.55)",
+      "J Sun – J Antares Dec 2.9947 3 whole (53.90)"
+     ],
+     "note": "3 and 30",
+     "field": "also: 2 Ted The Thief, 4 Sweet Nightingale, 5 Pawpaw"
+    },
+    {
+     "check": 12,
      "key": "(12,)",
      "cells": [
       "H Venus – H Juno RA 119.9975 120 whole (76.73)",
@@ -794,6 +1003,7 @@
      "key": "(4,)",
      "cells": [
       "H Sun – H Sedna Dec 3.9862 4 whole (9.72)",
+      "H Vesta – H Aldebaran Dec 3.9804 4 whole (0.03)",
       "S Sun → H Makemake Dec 39.9873 40 whole (13.30)"
      ],
      "note": "4 and 40",
@@ -817,20 +1027,6 @@
     },
     {
      "check": 12,
-     "key": "(3,)",
-     "cells": [
-      "S Neptune → H Chiron RA 2.9913 3 whole (32.00)",
-      "S Orcus → H Juno RA 30.0191 30 whole (0.22)",
-      "S Mars → H Uranus Dec 3.0071 3 whole (41.85)",
-      "S Vesta → H Eris Dec 3.0067 3 whole (44.38)",
-      "J Mercury – J Juno RA 2.9969 3 whole (71.25)",
-      "J Mercury – J Venus Dec 3.0081 3 whole (35.55)"
-     ],
-     "note": "3 and 30",
-     "field": "also: 2 Ted The Thief, 4 Sweet Nightingale, 5 Pawpaw"
-    },
-    {
-     "check": 12,
      "key": "(18,)",
      "cells": [
       "S Saturn → H Neptune RA 18.0150 18 whole (6.22)",
@@ -838,7 +1034,7 @@
       "S Makemake → J Ketu RA 179.9852 180 whole (6.79)"
      ],
      "note": "18 and 180",
-     "field": "only"
+     "field": "also: 2 Ted The Thief"
     },
     {
      "check": 12,
@@ -846,6 +1042,7 @@
      "cells": [
       "H Uranus – H Ceres RA 59.9860 60 whole (9.13)",
       "S Saturn → H Neptune Dec 5.9814 6 whole (0.46)",
+      "J Sedna – J Fomalhaut RA 59.9982 60 whole (83.06)",
       "S Gonggong → J Pallas Dec 6.0095 6 whole (27.33)",
       "S Orcus → J Pluto Dec 6.0053 6 whole (54.10)"
      ],
@@ -869,6 +1066,7 @@
      "key": "(2,)",
      "cells": [
       "S Vesta → H Pallas Dec 19.9883 20 whole (17.19)",
+      "J Mercury – J Antares Dec 1.9890 2 whole (20.46)",
       "J Sun – J Venus Dec 2.0024 2 whole (77.10)",
       "S Chiron → J Rahu Dec 20.0053 20 whole (53.70)",
       "S Sun → J Juno Dec 1.9817 2 whole (0.69)",
@@ -986,6 +1184,16 @@
     },
     {
      "check": 10,
+     "key": "(16,)",
+     "cells": [
+      "S Orcus → H Chiron Dec 16.0022 16 whole (79.23)",
+      "S Orcus → J Regulus Dec 25.8820 16×φ golden (63.41)"
+     ],
+     "note": "",
+     "field": "also: 1 My Own Lovely Lee, 2 Ted The Thief, 5 Pawpaw"
+    },
+    {
+     "check": 10,
      "key": "(19,)",
      "cells": [
       "H Sun – H Neptune Dec 19.0024 19 whole (77.52)",
@@ -1014,6 +1222,16 @@
      ],
      "note": "",
      "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(46,)",
+     "cells": [
+      "H Uranus – H Aldebaran RA 46.0014 46 whole (86.11)",
+      "S Quaoar → H Chiron RA 74.4289 46×φ golden (95.78)"
+     ],
+     "note": "",
+     "field": "also: 1 My Own Lovely Lee, 6 Steal The Moves"
     },
     {
      "check": 10,
@@ -1057,7 +1275,7 @@
       "S Sedna → H Eris Dec 11.1155 11.1111 ninth (92.78)"
      ],
      "note": "10.9865 - 11.1155",
-     "field": "also: 3 Hard Stare"
+     "field": "also: 5 Pawpaw"
     },
     {
      "check": 11,
@@ -1077,6 +1295,7 @@
       "S Eris → J Ceres Dec 30.7451 19×φ golden (85.36)",
       "S Jupiter → J Chiron Dec 30.9820 31 whole (0.98)",
       "H Mars – H Eris RA 30.9826 31 whole (1.71)",
+      "J Uranus – J Aldebaran Dec 30.9962 31 whole (65.32)",
       "S Vesta → J Sedna RA 31.0015 31 whole (85.39)"
      ],
      "note": "30.7451 - 31.0015",
@@ -1121,13 +1340,16 @@
      "check": 11,
      "key": "('108×φ', '175')",
      "cells": [
+      "S Sedna → J Antares RA 174.7161 108×φ golden (0.06)",
       "S Saturn → H Makemake RA 174.7237 108×φ golden (6.74)",
       "S Sedna → J Quaoar RA 174.7279 108×φ golden (15.23)",
       "S Venus → H Eris RA 174.7487 108×φ golden (93.66)",
+      "S Uranus → H Antares RA 174.7709 108×φ golden (7.94)",
+      "S Uranus → J Antares RA 174.7730 108×φ golden (4.74)",
       "S Makemake → H Mercury RA 174.9994 175 whole (94.41)"
      ],
-     "note": "174.7237 - 174.9994",
-     "field": "also: 2 Ted The Thief"
+     "note": "174.7161 - 174.9994",
+     "field": "also: 2 Ted The Thief, 3 Hard Stare, 5 Pawpaw, 6 Steal The Moves"
     },
     {
      "check": 12,
@@ -1233,6 +1455,16 @@
      ],
      "note": "7 and 70",
      "field": "also: 2 Ted The Thief, 3 Hard Stare, 6 Steal The Moves"
+    },
+    {
+     "check": 12,
+     "key": "(9,)",
+     "cells": [
+      "S Sedna → J Regulus RA 90.0171 90 whole (2.07)",
+      "S Pluto → J Quaoar Dec 8.9821 9 whole (1.06)"
+     ],
+     "note": "9 and 90",
+     "field": "also: 2 Ted The Thief, 5 Pawpaw"
     }
    ]
   },
@@ -1338,6 +1570,7 @@
      "key": "(8,)",
      "cells": [
       "S Quaoar → H Jupiter Dec 7.9979 8 whole (80.01)",
+      "J Gonggong – J Fomalhaut Dec 12.9442 8×φ golden (99.33)",
       "S Orcus → J Mars Dec 12.9445 8×φ golden (98.52)"
      ],
      "note": "",
@@ -1352,6 +1585,16 @@
      ],
      "note": "",
      "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(16,)",
+     "cells": [
+      "S Gonggong → J Sedna Dec 15.9958 16 whole (62.21)",
+      "S Orcus → J Regulus Dec 25.8814 16×φ golden (60.66)"
+     ],
+     "note": "",
+     "field": "also: 1 My Own Lovely Lee, 2 Ted The Thief, 4 Sweet Nightingale"
     },
     {
      "check": 10,
@@ -1375,6 +1618,16 @@
     },
     {
      "check": 10,
+     "key": "(48,)",
+     "cells": [
+      "S Pallas → J Uranus RA 48.0051 48 whole (55.79)",
+      "S Sedna → H Fomalhaut RA 77.6622 48×φ golden (79.79)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
      "key": "(73,)",
      "cells": [
       "S Saturn → J Mercury RA 73.0021 73 whole (79.81)",
@@ -1386,6 +1639,40 @@
     },
     {
      "check": 11,
+     "key": "('7.77778', '8')",
+     "cells": [
+      "J Venus – J Pallas Dec 7.7773 7.77778 ninth (96.10)",
+      "S Quaoar → H Jupiter Dec 7.9979 8 whole (80.01)",
+      "J Mars – J Antares RA 8.0176 8 whole (1.43)"
+     ],
+     "note": "7.7773 - 8.0176",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('11', '11.1111')",
+     "cells": [
+      "H Chiron – H Regulus Dec 10.9857 11 whole (8.13)",
+      "J Neptune – J Ceres Dec 11.0143 11 whole (8.13)",
+      "S Jupiter → H Makemake Dec 11.1111 11.1111 ninth (99.99)"
+     ],
+     "note": "10.9857 - 11.1111",
+     "field": "also: 4 Sweet Nightingale"
+    },
+    {
+     "check": 11,
+     "key": "('13', '8×φ')",
+     "cells": [
+      "J Gonggong – J Fomalhaut Dec 12.9442 8×φ golden (99.33)",
+      "S Orcus → J Mars Dec 12.9445 8×φ golden (98.52)",
+      "J Venus – J Aldebaran RA 12.9943 13 whole (51.37)",
+      "S Jupiter → H Chiron Dec 13.0119 13 whole (16.44)"
+     ],
+     "note": "12.9442 - 13.0119",
+     "field": "also: 6 Steal The Moves"
+    },
+    {
+     "check": 11,
      "key": "('22', '22.2222')",
      "cells": [
       "S Saturn → J Sun Dec 21.9878 22 whole (15.14)",
@@ -1393,7 +1680,7 @@
       "S Moon → J Transpluto Dec 22.2216 22.2222 ninth (99.17)"
      ],
      "note": "21.9878 - 22.2216",
-     "field": "only"
+     "field": "also: 3 Hard Stare"
     },
     {
      "check": 11,
@@ -1412,12 +1699,13 @@
      "key": "('21×φ', '34')",
      "cells": [
       "S Vesta → H Sun RA 33.9702 21×φ golden (54.48)",
+      "J Neptune – J Fomalhaut RA 33.9738 21×φ golden (71.76)",
       "S Pluto → H Ceres Dec 33.9891 34 whole (20.52)",
       "S Vesta → H Neptune RA 33.9917 34 whole (34.39)",
       "S Sun → J Mars RA 33.9922 34 whole (37.05)"
      ],
      "note": "33.9702 - 33.9922",
-     "field": "also: 1 My Own Lovely Lee, 2 Ted The Thief"
+     "field": "also: 1 My Own Lovely Lee, 2 Ted The Thief, 3 Hard Stare"
     },
     {
      "check": 11,
@@ -1490,6 +1778,19 @@
     },
     {
      "check": 11,
+     "key": "('108×φ', '175')",
+     "cells": [
+      "S Sedna → H Antares RA 174.7186 108×φ golden (1.01)",
+      "H Mercury – H Rahu RA 174.7194 108×φ golden (1.61)",
+      "S Uranus → J Antares RA 174.7705 108×φ golden (8.74)",
+      "S Uranus → H Antares RA 174.7755 108×φ golden (2.00)",
+      "S Gonggong → H Orcus RA 174.9973 175 whole (74.79)"
+     ],
+     "note": "174.7186 - 174.9973",
+     "field": "also: 2 Ted The Thief, 3 Hard Stare, 4 Sweet Nightingale, 6 Steal The Moves"
+    },
+    {
+     "check": 11,
      "key": "('177.778', '178')",
      "cells": [
       "J Mars – J Juno RA 177.7497 177.778 ninth (97.80)",
@@ -1518,6 +1819,7 @@
       "H Mars – H Uranus RA 2.0091 2 whole (29.70)",
       "H Rahu – H Transpluto RA 1.9880 2 whole (16.12)",
       "H Ceres – H Orcus Dec 20.0132 20 whole (11.56)",
+      "H Neptune – H Regulus Dec 20.0076 20 whole (38.33)",
       "S Moon → H Jupiter Dec 2.0133 2 whole (11.28)",
       "S Vesta → H Eris Dec 1.9975 2 whole (76.90)",
       "J Mercury – J Haumea Dec 2.0047 2 whole (58.32)"
@@ -1537,10 +1839,26 @@
     },
     {
      "check": 12,
+     "key": "(5,)",
+     "cells": [
+      "H Haumea – H Regulus Dec 5.0056 5 whole (51.65)",
+      "S Mars → H Transpluto Dec 5.0053 5 whole (54.30)",
+      "J Mars – J Jupiter Dec 49.9890 50 whole (20.16)",
+      "J Mercury – J Juno Dec 4.9973 5 whole (74.92)",
+      "J Venus – J Regulus Dec 5.0016 5 whole (84.47)",
+      "S Chiron → J Sedna Dec 4.9974 5 whole (76.05)"
+     ],
+     "note": "5 and 50",
+     "field": "also: 2 Ted The Thief, 4 Sweet Nightingale"
+    },
+    {
+     "check": 12,
      "key": "(14,)",
      "cells": [
       "H Makemake – H Transpluto Dec 13.9930 14 whole (42.19)",
+      "H Quaoar – H Fomalhaut Dec 14.0049 14 whole (57.09)",
       "S Ceres → H Ketu RA 140.0187 140 whole (0.39)",
+      "J Ceres – J Aldebaran RA 140.0025 140 whole (76.40)",
       "S Orcus → J Transpluto RA 14.0080 14 whole (35.97)",
       "S Sedna → J Sedna RA 14.0124 14 whole (14.50)",
       "S Pallas → J Eris Dec 13.9819 14 whole (0.93)"
@@ -1561,14 +1879,16 @@
     },
     {
      "check": 12,
-     "key": "(5,)",
+     "key": "(9,)",
      "cells": [
-      "S Mars → H Transpluto Dec 5.0053 5 whole (54.30)",
-      "J Mars – J Jupiter Dec 49.9890 50 whole (20.16)",
-      "J Mercury – J Juno Dec 4.9973 5 whole (74.92)",
-      "S Chiron → J Sedna Dec 4.9974 5 whole (76.05)"
+      "S Mars → H Makemake Dec 8.9877 9 whole (14.93)",
+      "S Rahu → H Pallas Dec 8.9830 9 whole (2.32)",
+      "S Saturn → H Neptune Dec 8.9856 9 whole (7.95)",
+      "S Sedna → J Regulus RA 90.0187 90 whole (0.43)",
+      "S Mercury → J Ketu Dec 9.0189 9 whole (0.32)",
+      "S Pluto → J Quaoar Dec 8.9854 9 whole (7.35)"
      ],
-     "note": "5 and 50",
+     "note": "9 and 90",
      "field": "also: 2 Ted The Thief, 4 Sweet Nightingale"
     },
     {
@@ -1589,7 +1909,8 @@
      "key": "(8,)",
      "cells": [
       "S Quaoar → H Jupiter RA 80.0107 80 whole (21.70)",
-      "S Quaoar → H Jupiter Dec 7.9979 8 whole (80.01)"
+      "S Quaoar → H Jupiter Dec 7.9979 8 whole (80.01)",
+      "J Mars – J Antares RA 8.0176 8 whole (1.43)"
      ],
      "note": "8 and 80",
      "field": "also: 3 Hard Stare, 4 Sweet Nightingale"
@@ -1598,6 +1919,7 @@
      "check": 12,
      "key": "(4,)",
      "cells": [
+      "H Rahu – H Fomalhaut Dec 39.9855 40 whole (7.59)",
       "S Ceres → H Rahu RA 39.9813 40 whole (0.39)",
       "J Uranus – J Neptune Dec 4.0014 4 whole (86.24)"
      ],
@@ -1634,7 +1956,7 @@
     },
     {
      "check": 7,
-     "key": "('count', 7)",
+     "key": "('count', 8)",
      "cells": [
       "20×φ golden",
       "8×φ golden",
@@ -1642,9 +1964,10 @@
       "122.222 ninth",
       "144.444 ninth",
       "10×φ^6 phi power",
-      "141.4 sqrt2"
+      "141.4 sqrt2",
+      "7 whole"
      ],
-     "note": "7 numbers",
+     "note": "8 numbers",
      "field": ""
     },
     {
@@ -1702,6 +2025,16 @@
      "field": "only"
     },
     {
+     "check": 10,
+     "key": "(46,)",
+     "cells": [
+      "S Makemake → J Antares Dec 46.0051 46 whole (55.59)",
+      "H Venus – H Chiron RA 74.4281 46×φ golden (91.27)"
+     ],
+     "note": "",
+     "field": "also: 1 My Own Lovely Lee, 4 Sweet Nightingale"
+    },
+    {
      "check": 11,
      "key": "('4', '4.14')",
      "cells": [
@@ -1718,10 +2051,13 @@
      "cells": [
       "J Mercury – J Mars Dec 10.9809 11 whole (0.19)",
       "H Venus – H Haumea Dec 11.0035 11 whole (68.43)",
+      "H Juno – H Aldebaran Dec 11.0076 11 whole (38.20)",
+      "H Chiron – H Aldebaran Dec 11.0169 11 whole (2.47)",
+      "H Venus – H Aldebaran Dec 11.0949 φ^5 phi power (83.62)",
       "H Juno – H Haumea Dec 11.0991 φ^5 phi power (70.39)"
      ],
      "note": "10.9809 - 11.0991",
-     "field": "only"
+     "field": "also: 2 Ted The Thief"
     },
     {
      "check": 11,
@@ -1729,12 +2065,14 @@
      "cells": [
       "J Sun – J Ketu RA 12.9431 8×φ golden (93.02)",
       "H Neptune – H Sedna Dec 12.9433 8×φ golden (93.99)",
+      "J Gonggong – J Fomalhaut RA 12.9479 8×φ golden (78.83)",
       "S Vesta → J Chiron Dec 12.9993 13 whole (92.84)",
       "S Sedna → H Vesta Dec 13.0115 13 whole (18.25)",
-      "S Makemake → H Juno RA 13.0138 13 whole (9.66)"
+      "S Makemake → H Juno RA 13.0138 13 whole (9.66)",
+      "J Orcus – J Regulus Dec 13.0158 13 whole (4.48)"
      ],
-     "note": "12.9431 - 13.0138",
-     "field": "only"
+     "note": "12.9431 - 13.0158",
+     "field": "also: 5 Pawpaw"
     },
     {
      "check": 11,
@@ -1742,9 +2080,10 @@
      "cells": [
       "H Rahu – H Chiron Dec 17.9447 φ^6 phi power (99.07)",
       "S Chiron → J Eris Dec 17.9911 18 whole (31.05)",
-      "S Pallas → J Jupiter Dec 18.0006 18 whole (93.72)"
+      "S Pallas → J Jupiter Dec 18.0006 18 whole (93.72)",
+      "H Eris – H Aldebaran Dec 18.0059 18 whole (49.46)"
      ],
-     "note": "17.9447 - 18.0006",
+     "note": "17.9447 - 18.0059",
      "field": "only"
     },
     {
@@ -1758,6 +2097,17 @@
       "S Sun → J Transpluto Dec 29.1292 18×φ golden (73.78)"
      ],
      "note": "28.9836 - 29.1292",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('110', '68×φ')",
+     "cells": [
+      "S Haumea → H Mars RA 109.9835 110 whole (3.05)",
+      "S Rahu → H Vesta RA 110.0122 68×φ golden (31.78)",
+      "J Orcus – J Antares RA 110.0522 68×φ golden (4.03)"
+     ],
+     "note": "109.9835 - 110.0522",
      "field": "only"
     },
     {
@@ -1776,11 +2126,25 @@
      "key": "('122', '122.222')",
      "cells": [
       "S Chiron → J Transpluto RA 122.0071 122 whole (41.33)",
+      "H Quaoar – H Regulus RA 122.2225 122.222 ninth (99.96)",
       "S Ketu → H Eris RA 122.2394 122.222 ninth (97.62)",
       "S Makemake → J Ketu RA 122.2486 122.222 ninth (96.35)"
      ],
      "note": "122.0071 - 122.2486",
      "field": "also: 1 My Own Lovely Lee, 5 Pawpaw"
+    },
+    {
+     "check": 11,
+     "key": "('108×φ', '175')",
+     "cells": [
+      "S Sedna → J Antares RA 174.7219 108×φ golden (4.15)",
+      "S Transpluto → J Gonggong RA 174.7522 108×φ golden (73.71)",
+      "S Uranus → H Antares RA 174.7699 108×φ golden (9.80)",
+      "S Uranus → J Antares RA 174.7788 108×φ golden (0.15)",
+      "H Rahu – H Quaoar RA 174.9951 175 whole (56.67)"
+     ],
+     "note": "174.7219 - 174.9951",
+     "field": "also: 2 Ted The Thief, 3 Hard Stare, 4 Sweet Nightingale, 5 Pawpaw"
     },
     {
      "check": 12,
@@ -1793,6 +2157,7 @@
       "S Orcus → H Jupiter Dec 7.0081 7 whole (35.45)",
       "J Pluto – J Chiron Dec 6.9811 7 whole (0.28)",
       "J Rahu – J Haumea Dec 6.9959 7 whole (63.06)",
+      "J Sedna – J Regulus Dec 6.9993 7 whole (93.06)",
       "S Venus → J Neptune Dec 7.0117 7 whole (17.26)"
      ],
      "note": "7 and 70",
@@ -1812,6 +2177,19 @@
     },
     {
      "check": 12,
+     "key": "(11,)",
+     "cells": [
+      "H Chiron – H Aldebaran Dec 11.0169 11 whole (2.47)",
+      "H Juno – H Aldebaran Dec 11.0076 11 whole (38.20)",
+      "H Venus – H Haumea Dec 11.0035 11 whole (68.43)",
+      "S Haumea → H Mars RA 109.9835 110 whole (3.05)",
+      "J Mercury – J Mars Dec 10.9809 11 whole (0.19)"
+     ],
+     "note": "11 and 110",
+     "field": "also: 1 My Own Lovely Lee"
+    },
+    {
+     "check": 12,
      "key": "(2,)",
      "cells": [
       "H Mercury – H Pallas Dec 2.0054 2 whole (53.22)",
@@ -1825,22 +2203,12 @@
     },
     {
      "check": 12,
-     "key": "(11,)",
-     "cells": [
-      "H Venus – H Haumea Dec 11.0035 11 whole (68.43)",
-      "S Haumea → H Mars RA 109.9835 110 whole (3.05)",
-      "J Mercury – J Mars Dec 10.9809 11 whole (0.19)"
-     ],
-     "note": "11 and 110",
-     "field": "also: 1 My Own Lovely Lee"
-    },
-    {
-     "check": 12,
      "key": "(13,)",
      "cells": [
       "S Sun → H Neptune RA 129.9983 130 whole (83.80)",
       "S Makemake → H Juno RA 13.0138 13 whole (9.66)",
       "S Sedna → H Vesta Dec 13.0115 13 whole (18.25)",
+      "J Orcus – J Regulus Dec 13.0158 13 whole (4.48)",
       "S Vesta → J Chiron Dec 12.9993 13 whole (92.84)"
      ],
      "note": "13 and 130",

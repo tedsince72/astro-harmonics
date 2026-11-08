@@ -30,12 +30,13 @@
     },
     {
      "check": 7,
-     "key": "('count', 2)",
+     "key": "('count', 3)",
      "cells": [
       "105×φ golden",
-      "13×φ golden"
+      "13×φ golden",
+      "66.6667 ninth"
      ],
-     "note": "2 numbers",
+     "note": "3 numbers",
      "field": ""
     },
     {
@@ -67,6 +68,15 @@
     },
     {
      "check": 9,
+     "key": "('H', 'Antares', '22')",
+     "cells": [
+      "H Jupiter – H Antares Dec 21.9979 22 whole (79.82)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 9,
      "key": "('J', 'Pluto', 'conj')",
      "cells": [
       "J Jupiter – J Pluto RA 0.4349 conj conj (50.42)"
@@ -78,11 +88,13 @@
      "check": 10,
      "key": "(7,)",
      "cells": [
+      "S Rahu → H Aldebaran Dec 6.9979 7 whole (80.29)",
       "S Haumea → H Mercury Dec 7.0045 7 whole (60.09)",
+      "S Rahu → J Aldebaran Dec 7.0004 7 whole (95.60)",
       "S Vesta → H Sedna Dec 11.3281 7×φ golden (88.69)"
      ],
      "note": "",
-     "field": "also: 5 Saint Lawrence, 8 Makarova, 14 Ocean Quest, 15 Swingalong"
+     "field": "also: 2 Kinross, 5 Saint Lawrence, 8 Makarova, 9 Sandrine, 10 Sense Of Duty, 12 Believing, 14 Ocean Quest, 15 Swingalong"
     },
     {
      "check": 10,
@@ -104,17 +116,28 @@
       "J Mars – J Neptune Dec 14.5629 9×φ golden (96.13)"
      ],
      "note": "",
-     "field": "also: 2 Kinross, 4 Run To Freedom, 8 Makarova, 9 Sandrine, 10 Sense Of Duty"
+     "field": "also: 2 Kinross, 3 Rohaan, 4 Run To Freedom, 8 Makarova, 9 Sandrine, 10 Sense Of Duty"
     },
     {
      "check": 10,
      "key": "(11,)",
      "cells": [
       "H Jupiter – H Quaoar Dec 10.9944 11 whole (51.67)",
+      "H Quaoar – H Antares Dec 11.0035 11 whole (68.13)",
       "H Sun – H Uranus RA 17.7983 11×φ golden (99.54)"
      ],
      "note": "",
      "field": "also: 4 Run To Freedom, 6 Spycatcher, 10 Sense Of Duty"
+    },
+    {
+     "check": 10,
+     "key": "(14,)",
+     "cells": [
+      "J Chiron – J Aldebaran RA 14.0042 14 whole (62.63)",
+      "S Makemake → J Ceres RA 22.6508 14×φ golden (90.09)"
+     ],
+     "note": "",
+     "field": "also: 2 Kinross, 9 Sandrine, 10 Sense Of Duty, 11 Vadream"
     },
     {
      "check": 10,
@@ -126,13 +149,24 @@
       "S Transpluto → J Makemake Dec 27.5005 17×φ golden (66.00)"
      ],
      "note": "",
-     "field": "also: 12 Believing, 15 Swingalong"
+     "field": "also: 4 Run To Freedom, 8 Makarova, 10 Sense Of Duty, 12 Believing, 15 Swingalong"
+    },
+    {
+     "check": 10,
+     "key": "(22,)",
+     "cells": [
+      "H Jupiter – H Antares Dec 21.9979 22 whole (79.82)",
+      "S Ceres → J Mercury Dec 35.5926 22×φ golden (76.12)"
+     ],
+     "note": "",
+     "field": "also: 2 Kinross, 7 Mill Stream, 12 Believing, 13 Magical Sunset"
     },
     {
      "check": 10,
      "key": "(41,)",
      "cells": [
       "H Mars – H Eris RA 40.9975 41 whole (76.86)",
+      "H Rahu – H Fomalhaut Dec 40.9993 41 whole (92.76)",
       "S Vesta → H Sedna RA 40.9994 41 whole (94.40)",
       "S Gonggong → H Quaoar RA 66.3346 41×φ golden (72.35)"
      ],
@@ -169,13 +203,15 @@
       "J Eris – J Quaoar RA 158.5711 98×φ golden (77.91)"
      ],
      "note": "",
-     "field": "also: 11 Vadream"
+     "field": "also: 11 Vadream, 13 Magical Sunset"
     },
     {
      "check": 11,
      "key": "('7', '7.07')",
      "cells": [
       "S Gonggong → J Saturn Dec 6.9823 7 whole (1.36)",
+      "S Rahu → H Aldebaran Dec 6.9979 7 whole (80.29)",
+      "S Rahu → J Aldebaran Dec 7.0004 7 whole (95.60)",
       "S Haumea → H Mercury Dec 7.0045 7 whole (60.09)",
       "S Juno → H Rahu Dec 7.0713 7.07 sqrt2 (98.66)"
      ],
@@ -216,12 +252,36 @@
       "S Gonggong → H Saturn Dec 10.9801 11 whole (0.00)",
       "S Gonggong → J Neptune Dec 10.9941 11 whole (49.72)",
       "H Jupiter – H Quaoar Dec 10.9944 11 whole (51.67)",
+      "H Quaoar – H Antares Dec 11.0035 11 whole (68.13)",
       "S Haumea → H Makemake Dec 11.0099 11 whole (25.54)",
       "S Venus → H Orcus RA 11.0132 11 whole (11.44)",
       "S Haumea → J Sedna Dec 11.0906 φ^5 phi power (98.31)"
      ],
      "note": "10.9801 - 11.0906",
      "field": "also: 5 Saint Lawrence, 6 Spycatcher, 11 Vadream"
+    },
+    {
+     "check": 11,
+     "key": "('13', '8×φ')",
+     "cells": [
+      "J Saturn – J Pluto RA 12.9498 8×φ golden (69.00)",
+      "H Sedna – H Aldebaran RA 12.9824 13 whole (1.41)",
+      "S Makemake → J Orcus Dec 12.9847 13 whole (5.41)"
+     ],
+     "note": "12.9498 - 12.9847",
+     "field": "also: 2 Kinross, 3 Rohaan, 5 Saint Lawrence, 8 Makarova, 11 Vadream, 15 Swingalong"
+    },
+    {
+     "check": 11,
+     "key": "('14', '14.14')",
+     "cells": [
+      "J Chiron – J Aldebaran RA 14.0042 14 whole (62.63)",
+      "S Orcus → H Antares Dec 14.0060 14 whole (48.70)",
+      "S Orcus → J Antares Dec 14.0062 14 whole (47.91)",
+      "H Gonggong – H Antares Dec 14.1417 14.14 sqrt2 (98.66)"
+     ],
+     "note": "14.0042 - 14.1417",
+     "field": "also: 2 Kinross, 3 Rohaan, 5 Saint Lawrence, 6 Spycatcher, 13 Magical Sunset"
     },
     {
      "check": 11,
@@ -236,7 +296,18 @@
       "S Sun → H Mercury Dec 18.0184 18 whole (0.63)"
      ],
      "note": "17.7729 - 18.0184",
-     "field": "also: 14 Ocean Quest"
+     "field": "also: 7 Mill Stream, 14 Ocean Quest"
+    },
+    {
+     "check": 11,
+     "key": "('24', '24.14')",
+     "cells": [
+      "J Mars – J Aldebaran Dec 23.9952 24 whole (57.99)",
+      "J Ceres – J Regulus Dec 23.9986 24 whole (86.88)",
+      "H Eris – H Antares Dec 24.1410 24.14 silver (98.05)"
+     ],
+     "note": "23.9952 - 24.1410",
+     "field": "also: 9 Sandrine, 11 Vadream, 12 Believing"
     },
     {
      "check": 11,
@@ -247,18 +318,20 @@
       "H Sun – H Transpluto RA 111.1637 111.111 ninth (91.40)"
      ],
      "note": "110.9550 - 111.1637",
-     "field": "also: 12 Believing"
+     "field": "also: 10 Sense Of Duty, 12 Believing"
     },
     {
      "check": 11,
      "key": "('107×φ', '173')",
      "cells": [
       "S Eris → J Pallas RA 172.9859 173 whole (8.75)",
+      "S Sedna → H Antares RA 173.0023 173 whole (78.28)",
+      "S Sedna → J Antares RA 173.0031 173 whole (71.79)",
       "J Pluto – J Eris RA 173.1356 107×φ golden (66.67)",
       "S Rahu → J Saturn RA 173.1365 107×φ golden (62.19)"
      ],
      "note": "172.9859 - 173.1365",
-     "field": "only"
+     "field": "also: 12 Believing, 15 Swingalong"
     },
     {
      "check": 11,
@@ -280,6 +353,7 @@
       "H Ceres – H Sedna RA 3.9973 4 whole (75.01)",
       "H Vesta – H Quaoar Dec 40.0003 40 whole (96.87)",
       "S Quaoar → H Ketu Dec 3.9857 4 whole (8.22)",
+      "J Gonggong – J Antares Dec 3.9932 4 whole (43.37)",
       "S Chiron → J Chiron RA 39.9928 40 whole (40.87)",
       "S Vesta → J Mercury Dec 4.0152 4 whole (5.78)"
      ],
@@ -298,13 +372,14 @@
       "S Orcus → J Gonggong Dec 10.0130 10 whole (12.30)"
      ],
      "note": "10 and 100",
-     "field": "also: 7 Mill Stream, 11 Vadream, 12 Believing"
+     "field": "also: 7 Mill Stream, 10 Sense Of Duty, 11 Vadream, 12 Believing"
     },
     {
      "check": 12,
      "key": "(11,)",
      "cells": [
       "H Jupiter – H Quaoar Dec 10.9944 11 whole (51.67)",
+      "H Quaoar – H Antares Dec 11.0035 11 whole (68.13)",
       "S Venus → H Orcus RA 11.0132 11 whole (11.44)",
       "S Gonggong → H Saturn Dec 10.9801 11 whole (0.00)",
       "S Haumea → H Makemake Dec 11.0099 11 whole (25.54)",
@@ -342,7 +417,7 @@
       "S Orcus → J Gonggong Dec 10.0130 10 whole (12.30)"
      ],
      "note": "1 and 10",
-     "field": "also: 2 Kinross, 3 Rohaan, 5 Saint Lawrence, 7 Mill Stream, 8 Makarova, 9 Sandrine, 10 Sense Of Duty, 11 Vadream, 12 Believing, 14 Ocean Quest, 15 Swingalong"
+     "field": "also: 2 Kinross, 3 Rohaan, 5 Saint Lawrence, 7 Mill Stream, 8 Makarova, 9 Sandrine, 10 Sense Of Duty, 11 Vadream, 12 Believing, 13 Magical Sunset, 14 Ocean Quest, 15 Swingalong"
     },
     {
      "check": 12,
@@ -353,7 +428,19 @@
       "S Sedna → H Mercury Dec 0.9838 1 whole (3.53)"
      ],
      "note": "1 and 100",
-     "field": "also: 2 Kinross, 3 Rohaan, 5 Saint Lawrence, 7 Mill Stream, 8 Makarova, 9 Sandrine, 10 Sense Of Duty, 11 Vadream, 12 Believing, 14 Ocean Quest, 15 Swingalong"
+     "field": "also: 2 Kinross, 3 Rohaan, 5 Saint Lawrence, 7 Mill Stream, 8 Makarova, 9 Sandrine, 10 Sense Of Duty, 11 Vadream, 12 Believing, 13 Magical Sunset, 14 Ocean Quest, 15 Swingalong"
+    },
+    {
+     "check": 12,
+     "key": "(14,)",
+     "cells": [
+      "S Orcus → H Antares Dec 14.0060 14 whole (48.70)",
+      "J Chiron – J Aldebaran RA 14.0042 14 whole (62.63)",
+      "J Haumea – J Sedna RA 139.9814 140 whole (0.52)",
+      "S Orcus → J Antares Dec 14.0062 14 whole (47.91)"
+     ],
+     "note": "14 and 140",
+     "field": "also: 8 Makarova, 10 Sense Of Duty, 11 Vadream, 13 Magical Sunset"
     }
    ]
   },
@@ -375,12 +462,14 @@
     },
     {
      "check": 7,
-     "key": "('count', 2)",
+     "key": "('count', 4)",
      "cells": [
+      "22×φ golden",
       "18.8889 ninth",
-      "41.4 silver"
+      "41.4 silver",
+      "27 whole"
      ],
-     "note": "2 numbers",
+     "note": "4 numbers",
      "field": ""
     },
     {
@@ -397,6 +486,15 @@
      "key": "('H', 'Transpluto', '41.4')",
      "cells": [
       "H Jupiter – H Transpluto RA 41.4241 41.4 silver (97.37)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 9,
+     "key": "('H', 'Regulus', '42')",
+     "cells": [
+      "H Jupiter – H Regulus RA 42.0055 42 whole (52.27)"
      ],
      "note": "",
      "field": "only"
@@ -421,6 +519,17 @@
     },
     {
      "check": 10,
+     "key": "(7,)",
+     "cells": [
+      "S Rahu → H Aldebaran Dec 6.9979 7 whole (80.35)",
+      "S Rahu → J Aldebaran Dec 7.0020 7 whole (81.06)",
+      "S Vesta → H Sedna Dec 11.3214 7×φ golden (72.51)"
+     ],
+     "note": "",
+     "field": "also: 1 Art Power, 5 Saint Lawrence, 8 Makarova, 9 Sandrine, 10 Sense Of Duty, 12 Believing, 14 Ocean Quest, 15 Swingalong"
+    },
+    {
+     "check": 10,
      "key": "(9,)",
      "cells": [
       "S Rahu → H Pallas RA 9.0028 9 whole (74.12)",
@@ -428,7 +537,7 @@
       "S Mars → J Ceres Dec 14.5662 9×φ golden (77.53)"
      ],
      "note": "",
-     "field": "also: 1 Art Power, 4 Run To Freedom, 8 Makarova, 9 Sandrine, 10 Sense Of Duty"
+     "field": "also: 1 Art Power, 3 Rohaan, 4 Run To Freedom, 8 Makarova, 9 Sandrine, 10 Sense Of Duty"
     },
     {
      "check": 10,
@@ -438,7 +547,17 @@
       "S Pallas → J Neptune Dec 21.0316 13×φ golden (83.19)"
      ],
      "note": "",
-     "field": "also: 4 Run To Freedom, 11 Vadream"
+     "field": "also: 4 Run To Freedom, 11 Vadream, 14 Ocean Quest"
+    },
+    {
+     "check": 10,
+     "key": "(14,)",
+     "cells": [
+      "S Orcus → J Antares Dec 14.0042 14 whole (62.49)",
+      "H Ketu – H Transpluto Dec 22.6522 14×φ golden (98.13)"
+     ],
+     "note": "",
+     "field": "also: 1 Art Power, 9 Sandrine, 10 Sense Of Duty, 11 Vadream"
     },
     {
      "check": 10,
@@ -456,20 +575,22 @@
      "cells": [
       "J Ketu – J Haumea RA 21.9942 22 whole (50.41)",
       "J Juno – J Gonggong Dec 22.0011 22 whole (89.62)",
-      "S Uranus → H Pallas RA 35.5943 22×φ golden (85.67)"
+      "S Uranus → H Pallas RA 35.5943 22×φ golden (85.67)",
+      "J Sedna – J Aldebaran RA 35.5966 22×φ golden (98.98)"
      ],
      "note": "",
-     "field": "also: 7 Mill Stream, 12 Believing, 13 Magical Sunset"
+     "field": "also: 1 Art Power, 7 Mill Stream, 12 Believing, 13 Magical Sunset"
     },
     {
      "check": 10,
      "key": "(27,)",
      "cells": [
+      "H Pallas – H Antares Dec 27.0014 27 whole (86.57)",
       "S Sun → J Jupiter RA 26.9979 27 whole (80.14)",
       "S Mars → J Haumea RA 43.6863 27×φ golden (96.50)"
      ],
      "note": "",
-     "field": "only"
+     "field": "also: 3 Rohaan"
     },
     {
      "check": 10,
@@ -515,6 +636,7 @@
      "cells": [
       "S Juno → H Juno Dec 10.9813 11 whole (0.42)",
       "S Quaoar → H Jupiter Dec 10.9974 11 whole (75.29)",
+      "H Quaoar – H Antares Dec 11.0083 11 whole (34.32)",
       "S Haumea → H Makemake Dec 11.0088 11 whole (31.46)",
       "S Venus → H Orcus RA 11.0189 11 whole (0.29)",
       "S Mars → H Eris Dec 11.0968 φ^5 phi power (77.57)",
@@ -562,7 +684,19 @@
       "S Gonggong → H Venus Dec 13.0164 13 whole (3.21)"
      ],
      "note": "12.9414 - 13.0164",
-     "field": "also: 3 Rohaan, 5 Saint Lawrence, 8 Makarova, 11 Vadream, 15 Swingalong"
+     "field": "also: 1 Art Power, 3 Rohaan, 5 Saint Lawrence, 8 Makarova, 11 Vadream, 15 Swingalong"
+    },
+    {
+     "check": 11,
+     "key": "('14', '14.14')",
+     "cells": [
+      "S Orcus → J Antares Dec 14.0042 14 whole (62.49)",
+      "S Orcus → H Antares Dec 14.0061 14 whole (48.53)",
+      "S Mercury → J Uranus RA 14.0138 14 whole (9.72)",
+      "H Gonggong – H Antares Dec 14.1451 14.14 sqrt2 (91.79)"
+     ],
+     "note": "14.0042 - 14.1451",
+     "field": "also: 1 Art Power, 3 Rohaan, 5 Saint Lawrence, 6 Spycatcher, 13 Magical Sunset"
     },
     {
      "check": 11,
@@ -595,6 +729,7 @@
       "S Quaoar → H Chiron Dec 17.7753 17.7778 ninth (98.04)",
       "S Rahu → J Chiron RA 17.9425 φ^6 phi power (96.19)",
       "S Mercury → H Sedna Dec 17.9819 18 whole (0.94)",
+      "J Haumea – J Regulus RA 17.9908 18 whole (29.25)",
       "S Transpluto → J Transpluto RA 17.9909 18 whole (29.91)",
       "H Haumea – H Makemake RA 18.0020 18 whole (80.69)"
      ],
@@ -616,15 +751,16 @@
     },
     {
      "check": 11,
-     "key": "('15×φ', '24')",
+     "key": "('15×φ', '24', '24.14')",
      "cells": [
       "S Mercury → J Orcus Dec 23.9887 24 whole (19.07)",
       "H Venus – H Saturn Dec 23.9936 24 whole (46.07)",
       "S Rahu → J Eris Dec 24.0165 24 whole (3.06)",
+      "H Eris – H Antares Dec 24.1479 24.14 silver (90.67)",
       "S Sun → J Orcus Dec 24.2798 15×φ golden (50.86)"
      ],
      "note": "23.9887 - 24.2798",
-     "field": "also: 3 Rohaan, 13 Magical Sunset"
+     "field": "also: 5 Saint Lawrence, 7 Mill Stream, 14 Ocean Quest"
     },
     {
      "check": 11,
@@ -645,16 +781,18 @@
      "key": "(1,)",
      "cells": [
       "H Eris – H Gonggong Dec 10.0028 10 whole (73.93)",
+      "H Venus – H Regulus Dec 10.0045 10 whole (60.21)",
       "H Vesta – H Makemake Dec 1.0014 1 whole (86.29)",
       "S Haumea → H Vesta Dec 10.0074 10 whole (39.94)"
      ],
      "note": "1 and 10",
-     "field": "also: 1 Art Power, 3 Rohaan, 5 Saint Lawrence, 7 Mill Stream, 8 Makarova, 9 Sandrine, 10 Sense Of Duty, 11 Vadream, 12 Believing, 14 Ocean Quest, 15 Swingalong"
+     "field": "also: 1 Art Power, 3 Rohaan, 5 Saint Lawrence, 7 Mill Stream, 8 Makarova, 9 Sandrine, 10 Sense Of Duty, 11 Vadream, 12 Believing, 13 Magical Sunset, 14 Ocean Quest, 15 Swingalong"
     },
     {
      "check": 12,
      "key": "(11,)",
      "cells": [
+      "H Quaoar – H Antares Dec 11.0083 11 whole (34.32)",
       "S Venus → H Orcus RA 11.0189 11 whole (0.29)",
       "S Juno → H Juno Dec 10.9813 11 whole (0.42)",
       "S Haumea → H Makemake Dec 11.0088 11 whole (31.46)",
@@ -681,6 +819,17 @@
     },
     {
      "check": 12,
+     "key": "(7,)",
+     "cells": [
+      "S Rahu → H Aldebaran Dec 6.9979 7 whole (80.35)",
+      "J Neptune – J Haumea RA 69.9949 70 whole (55.70)",
+      "S Rahu → J Aldebaran Dec 7.0020 7 whole (81.06)"
+     ],
+     "note": "7 and 70",
+     "field": "also: 10 Sense Of Duty, 15 Swingalong"
+    },
+    {
+     "check": 12,
      "key": "(12,)",
      "cells": [
       "S Eris → H Saturn RA 120.0171 120 whole (2.12)",
@@ -689,7 +838,7 @@
       "S Eris → J Rahu Dec 11.9989 12 whole (89.12)"
      ],
      "note": "12 and 120",
-     "field": "also: 6 Spycatcher, 11 Vadream, 12 Believing"
+     "field": "also: 6 Spycatcher, 11 Vadream, 12 Believing, 14 Ocean Quest"
     },
     {
      "check": 12,
@@ -733,19 +882,29 @@
     },
     {
      "check": 7,
-     "key": "('count', 8)",
+     "key": "('count', 9)",
      "cells": [
       "122.222 ninth",
       "133.333 ninth",
       "15.5556 ninth",
       "33.3333 ninth",
+      "100×φ^1 phi power",
       "φ^6 phi power",
       "13 whole",
       "51 whole",
       "8 whole"
      ],
-     "note": "8 numbers",
+     "note": "9 numbers",
      "field": ""
+    },
+    {
+     "check": 9,
+     "key": "('H', 'Aldebaran', '100×φ^1')",
+     "cells": [
+      "H Jupiter – H Aldebaran RA 161.8369 100×φ^1 phi power (91.90)"
+     ],
+     "note": "",
+     "field": "also: 5 Saint Lawrence"
     },
     {
      "check": 9,
@@ -766,6 +925,15 @@
      "field": "only"
     },
     {
+     "check": 9,
+     "key": "('J', 'Fomalhaut', '9')",
+     "cells": [
+      "J Jupiter – J Fomalhaut Dec 9.0032 9 whole (70.62)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
      "check": 10,
      "key": "(8,)",
      "cells": [
@@ -778,6 +946,16 @@
      ],
      "note": "",
      "field": "also: 1 Art Power, 5 Saint Lawrence, 8 Makarova, 9 Sandrine, 10 Sense Of Duty, 11 Vadream"
+    },
+    {
+     "check": 10,
+     "key": "(9,)",
+     "cells": [
+      "J Jupiter – J Fomalhaut Dec 9.0032 9 whole (70.62)",
+      "S Uranus → J Sedna Dec 14.5606 9×φ golden (89.51)"
+     ],
+     "note": "",
+     "field": "also: 1 Art Power, 2 Kinross, 4 Run To Freedom, 8 Makarova, 9 Sandrine, 10 Sense Of Duty"
     },
     {
      "check": 10,
@@ -815,6 +993,16 @@
     },
     {
      "check": 10,
+     "key": "(27,)",
+     "cells": [
+      "S Pluto → J Gonggong RA 27.0006 27 whole (94.44)",
+      "J Chiron – J Antares Dec 43.6821 27×φ golden (72.26)"
+     ],
+     "note": "",
+     "field": "also: 2 Kinross"
+    },
+    {
+     "check": 10,
      "key": "(33,)",
      "cells": [
       "S Eris → H Ceres Dec 33.0006 33 whole (93.78)",
@@ -849,6 +1037,8 @@
      "cells": [
       "S Haumea → H Sedna Dec 6.8543 φ^4 phi power (99.11)",
       "H Sun – H Gonggong RA 6.9853 7 whole (7.10)",
+      "S Rahu → H Aldebaran Dec 6.9983 7 whole (83.49)",
+      "S Rahu → J Aldebaran Dec 7.0014 7 whole (86.36)",
       "S Quaoar → H Saturn Dec 7.0051 7 whole (55.31)",
       "J Pallas – J Sedna Dec 7.0171 7 whole (2.06)",
       "H Uranus – H Rahu Dec 7.0194 7 whole (0.10)"
@@ -876,13 +1066,25 @@
       "S Gonggong → J Sun Dec 12.9449 8×φ golden (96.11)",
       "J Pallas – J Haumea Dec 12.9462 8×φ golden (88.32)",
       "S Pallas → J Pluto RA 12.9800 13 whole (0.00)",
+      "H Sedna – H Aldebaran RA 12.9817 13 whole (0.72)",
       "S Neptune → H Sun RA 12.9942 13 whole (50.54)",
       "S Transpluto → J Rahu Dec 12.9947 13 whole (54.35)",
       "J Sun – J Eris Dec 13.0006 13 whole (93.73)",
       "H Venus – H Uranus Dec 13.0017 13 whole (83.56)"
      ],
      "note": "12.9425 - 13.0017",
-     "field": "also: 2 Kinross, 5 Saint Lawrence, 8 Makarova, 11 Vadream, 15 Swingalong"
+     "field": "also: 1 Art Power, 2 Kinross, 5 Saint Lawrence, 8 Makarova, 11 Vadream, 15 Swingalong"
+    },
+    {
+     "check": 11,
+     "key": "('14', '14.14')",
+     "cells": [
+      "S Orcus → H Antares Dec 14.0050 14 whole (55.90)",
+      "S Orcus → J Antares Dec 14.0054 14 whole (53.33)",
+      "H Ketu – H Eris Dec 14.1402 14.14 sqrt2 (94.49)"
+     ],
+     "note": "14.0050 - 14.1402",
+     "field": "also: 1 Art Power, 2 Kinross, 5 Saint Lawrence, 6 Spycatcher, 13 Magical Sunset"
     },
     {
      "check": 11,
@@ -910,7 +1112,7 @@
       "S Venus → H Vesta Dec 24.2781 15×φ golden (58.72)"
      ],
      "note": "23.9833 - 24.2781",
-     "field": "also: 2 Kinross, 13 Magical Sunset"
+     "field": "also: 13 Magical Sunset"
     },
     {
      "check": 11,
@@ -919,10 +1121,11 @@
       "S Jupiter → J Quaoar Dec 25.9913 26 whole (31.75)",
       "H Sun – H Ketu RA 26.0013 26 whole (87.28)",
       "J Neptune – J Juno Dec 26.0131 26 whole (11.80)",
+      "S Ketu → H Aldebaran Dec 26.0173 26 whole (1.86)",
       "S Ketu → H Haumea Dec 26.1810 10×φ^2 phi power (98.93)"
      ],
      "note": "25.9913 - 26.1810",
-     "field": "also: 10 Sense Of Duty, 14 Ocean Quest"
+     "field": "also: 5 Saint Lawrence, 10 Sense Of Duty, 14 Ocean Quest"
     },
     {
      "check": 11,
@@ -969,7 +1172,7 @@
       "S Vesta → H Chiron Dec 16.9961 17 whole (64.46)"
      ],
      "note": "17 and 170",
-     "field": "also: 5 Saint Lawrence, 6 Spycatcher, 10 Sense Of Duty, 12 Believing"
+     "field": "also: 5 Saint Lawrence, 6 Spycatcher, 7 Mill Stream, 8 Makarova, 10 Sense Of Duty, 12 Believing, 14 Ocean Quest"
     },
     {
      "check": 12,
@@ -981,7 +1184,7 @@
       "S Chiron → J Quaoar RA 149.9967 150 whole (69.74)"
      ],
      "note": "15 and 150",
-     "field": "also: 4 Run To Freedom, 12 Believing"
+     "field": "also: 4 Run To Freedom, 12 Believing, 14 Ocean Quest"
     },
     {
      "check": 12,
@@ -991,6 +1194,7 @@
       "S Ceres → H Quaoar Dec 3.0081 3 whole (35.32)",
       "S Pallas → H Ceres Dec 30.0016 30 whole (84.32)",
       "S Haumea → H Quaoar Dec 30.0140 30 whole (8.95)",
+      "J Mars – J Regulus Dec 3.0175 3 whole (1.53)",
       "J Vesta – J Quaoar Dec 29.9946 30 whole (53.58)",
       "S Uranus → J Transpluto Dec 3.0154 3 whole (5.32)"
      ],
@@ -1031,7 +1235,7 @@
       "S Pluto → J Gonggong Dec 0.9892 1 whole (21.00)"
      ],
      "note": "1 and 10",
-     "field": "also: 1 Art Power, 2 Kinross, 5 Saint Lawrence, 7 Mill Stream, 8 Makarova, 9 Sandrine, 10 Sense Of Duty, 11 Vadream, 12 Believing, 14 Ocean Quest, 15 Swingalong"
+     "field": "also: 1 Art Power, 2 Kinross, 5 Saint Lawrence, 7 Mill Stream, 8 Makarova, 9 Sandrine, 10 Sense Of Duty, 11 Vadream, 12 Believing, 13 Magical Sunset, 14 Ocean Quest, 15 Swingalong"
     },
     {
      "check": 12,
@@ -1133,7 +1337,7 @@
       "S Rahu → H Venus Dec 14.5618 9×φ golden (96.96)"
      ],
      "note": "",
-     "field": "also: 1 Art Power, 2 Kinross, 8 Makarova, 9 Sandrine, 10 Sense Of Duty"
+     "field": "also: 1 Art Power, 2 Kinross, 3 Rohaan, 8 Makarova, 9 Sandrine, 10 Sense Of Duty"
     },
     {
      "check": 10,
@@ -1160,11 +1364,12 @@
      "check": 10,
      "key": "(13,)",
      "cells": [
+      "H Makemake – H Regulus Dec 12.9946 13 whole (53.37)",
       "S Ketu → H Chiron Dec 12.9952 13 whole (57.83)",
       "J Mercury – J Quaoar Dec 21.0305 13×φ golden (77.16)"
      ],
      "note": "",
-     "field": "also: 2 Kinross, 11 Vadream"
+     "field": "also: 2 Kinross, 11 Vadream, 14 Ocean Quest"
     },
     {
      "check": 10,
@@ -1175,6 +1380,27 @@
      ],
      "note": "",
      "field": "also: 9 Sandrine, 15 Swingalong"
+    },
+    {
+     "check": 10,
+     "key": "(17,)",
+     "cells": [
+      "S Eris → H Ketu Dec 16.9959 17 whole (63.33)",
+      "H Vesta – H Antares RA 27.5080 17×φ golden (91.43)"
+     ],
+     "note": "",
+     "field": "also: 1 Art Power, 8 Makarova, 10 Sense Of Duty, 12 Believing, 15 Swingalong"
+    },
+    {
+     "check": 10,
+     "key": "(20,)",
+     "cells": [
+      "H Orcus – H Fomalhaut Dec 20.0027 20 whole (75.08)",
+      "S Pallas → H Ketu Dec 19.9949 20 whole (55.60)",
+      "J Ceres – J Antares Dec 32.3655 20×φ golden (72.53)"
+     ],
+     "note": "",
+     "field": "also: 5 Saint Lawrence, 6 Spycatcher, 13 Magical Sunset, 15 Swingalong"
     },
     {
      "check": 10,
@@ -1221,25 +1447,41 @@
     },
     {
      "check": 11,
+     "key": "('1.88889', '2')",
+     "cells": [
+      "S Sedna → H Mercury Dec 1.8886 1.88889 ninth (97.71)",
+      "S Mars → H Quaoar Dec 2.0030 2 whole (71.99)",
+      "J Ketu – J Regulus Dec 2.0107 2 whole (21.66)",
+      "J Transpluto – J Aldebaran Dec 2.0125 2 whole (13.99)"
+     ],
+     "note": "1.8886 - 2.0125",
+     "field": "also: 14 Ocean Quest"
+    },
+    {
+     "check": 11,
      "key": "('7', '7.07')",
      "cells": [
+      "S Rahu → H Aldebaran Dec 6.9979 7 whole (79.96)",
       "J Mars – J Chiron Dec 6.9984 7 whole (84.81)",
+      "S Rahu → J Aldebaran Dec 6.9994 7 whole (94.39)",
+      "J Haumea – J Aldebaran Dec 7.0062 7 whole (47.80)",
       "H Mars – H Quaoar Dec 7.0153 7 whole (5.43)",
       "S Eris → J Mercury RA 7.0197 7 whole (0.02)",
       "S Neptune → J Sedna Dec 7.0712 7.07 sqrt2 (99.04)"
      ],
-     "note": "6.9984 - 7.0712",
+     "note": "6.9979 - 7.0712",
      "field": "also: 1 Art Power, 12 Believing"
     },
     {
      "check": 11,
      "key": "('10',)",
      "cells": [
+      "H Mercury – H Aldebaran Dec 9.9905 10 whole (27.49)",
       "J Orcus – J Transpluto Dec 9.9963 10 whole (66.17)",
       "S Pluto → J Quaoar Dec 9.9992 10 ninth (94.84)",
       "H Eris – H Gonggong Dec 10.0053 10 whole (53.75)"
      ],
-     "note": "9.9963 - 10.0053",
+     "note": "9.9905 - 10.0053",
      "field": "also: 1 Art Power, 11 Vadream"
     },
     {
@@ -1261,6 +1503,7 @@
       "S Moon → H Jupiter Dec 11.9893 12 whole (21.66)",
       "S Transpluto → H Pallas Dec 11.9915 12 whole (32.96)",
       "S Mercury → J Pallas Dec 12.0015 12 whole (85.83)",
+      "J Orcus – J Aldebaran Dec 12.0088 12 whole (31.42)",
       "S Haumea → H Juno Dec 12.0129 12 whole (12.60)",
       "S Vesta → J Sun Dec 12.0169 12 whole (2.47)",
       "J Venus – J Ceres RA 12.2204 12.2222 ninth (97.41)"
@@ -1306,7 +1549,30 @@
       "J Mercury – J Quaoar Dec 21.0305 13×φ golden (77.16)"
      ],
      "note": "21.0024 - 21.0305",
-     "field": "also: 11 Vadream"
+     "field": "also: 11 Vadream, 12 Believing"
+    },
+    {
+     "check": 11,
+     "key": "('16×φ', '26')",
+     "cells": [
+      "H Mars – H Chiron Dec 25.8857 16×φ golden (83.09)",
+      "J Saturn – J Sedna Dec 26.0066 26 whole (45.19)",
+      "S Ketu → H Aldebaran Dec 26.0169 26 whole (2.43)",
+      "S Ketu → J Aldebaran Dec 26.0184 26 whole (0.62)"
+     ],
+     "note": "25.8857 - 26.0184",
+     "field": "also: 8 Makarova, 9 Sandrine"
+    },
+    {
+     "check": 11,
+     "key": "('21×φ', '34')",
+     "cells": [
+      "S Makemake → J Quaoar RA 33.9755 21×φ golden (80.94)",
+      "S Vesta → J Jupiter RA 34.0026 34 whole (75.55)",
+      "J Saturn – J Regulus Dec 34.0123 34 whole (15.02)"
+     ],
+     "note": "33.9755 - 34.0123",
+     "field": "also: 5 Saint Lawrence"
     },
     {
      "check": 11,
@@ -1318,7 +1584,7 @@
       "H Mars – H Gonggong RA 37.2183 23×φ golden (79.32)"
      ],
      "note": "36.9858 - 37.2183",
-     "field": "only"
+     "field": "also: 13 Magical Sunset"
     },
     {
      "check": 11,
@@ -1329,6 +1595,17 @@
       "S Jupiter → J Juno RA 106.9903 107 whole (26.49)"
      ],
      "note": "106.7646 - 106.9903",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('126', '78×φ')",
+     "cells": [
+      "H Eris – H Regulus RA 126.0099 126 whole (25.59)",
+      "S Transpluto → J Ceres RA 126.0166 126 whole (2.97)",
+      "H Saturn – H Transpluto RA 126.2334 78×φ golden (3.00)"
+     ],
+     "note": "126.0099 - 126.2334",
      "field": "only"
     },
     {
@@ -1344,9 +1621,24 @@
     },
     {
      "check": 12,
+     "key": "(15,)",
+     "cells": [
+      "H Chiron – H Fomalhaut RA 14.9960 15 whole (64.01)",
+      "S Ceres → H Juno Dec 14.9930 15 whole (42.27)",
+      "J Venus – J Makemake RA 149.9912 150 whole (31.21)",
+      "S Neptune → J Vesta Dec 15.0027 15 whole (75.09)",
+      "S Gonggong → J Sedna Dec 15.0143 15 whole (8.15)",
+      "S Makemake → J Venus Dec 14.9991 15 whole (91.37)"
+     ],
+     "note": "15 and 150",
+     "field": "also: 3 Rohaan, 12 Believing, 14 Ocean Quest"
+    },
+    {
+     "check": 12,
      "key": "(13,)",
      "cells": [
       "H Pallas – H Transpluto Dec 13.0191 13 whole (0.19)",
+      "H Makemake – H Regulus Dec 12.9946 13 whole (53.37)",
       "S Ketu → H Chiron Dec 12.9952 13 whole (57.83)",
       "S Sun → H Juno Dec 13.0100 13 whole (24.97)",
       "S Makemake → J Gonggong RA 130.0052 130 whole (55.12)"
@@ -1360,23 +1652,11 @@
      "cells": [
       "H Gonggong – H Sedna RA 80.0161 80 whole (3.75)",
       "S Ketu → H Makemake RA 7.9928 8 whole (40.90)",
-      "S Gonggong → H Sedna RA 79.9800 80 whole (0.00)"
+      "S Gonggong → H Sedna RA 79.9800 80 whole (0.00)",
+      "J Sedna – J Regulus Dec 8.0057 8 whole (51.17)"
      ],
      "note": "8 and 80",
      "field": "also: 6 Spycatcher, 7 Mill Stream, 8 Makarova, 9 Sandrine, 11 Vadream, 12 Believing, 13 Magical Sunset, 14 Ocean Quest"
-    },
-    {
-     "check": 12,
-     "key": "(15,)",
-     "cells": [
-      "S Ceres → H Juno Dec 14.9930 15 whole (42.27)",
-      "J Venus – J Makemake RA 149.9912 150 whole (31.21)",
-      "S Neptune → J Vesta Dec 15.0027 15 whole (75.09)",
-      "S Gonggong → J Sedna Dec 15.0143 15 whole (8.15)",
-      "S Makemake → J Venus Dec 14.9991 15 whole (91.37)"
-     ],
-     "note": "15 and 150",
-     "field": "also: 3 Rohaan, 12 Believing"
     },
     {
      "check": 12,
@@ -1396,8 +1676,11 @@
      "check": 12,
      "key": "(2,)",
      "cells": [
+      "H Orcus – H Fomalhaut Dec 20.0027 20 whole (75.08)",
       "S Mars → H Quaoar Dec 2.0030 2 whole (71.99)",
-      "S Pallas → H Ketu Dec 19.9949 20 whole (55.60)"
+      "S Pallas → H Ketu Dec 19.9949 20 whole (55.60)",
+      "J Ketu – J Regulus Dec 2.0107 2 whole (21.66)",
+      "J Transpluto – J Aldebaran Dec 2.0125 2 whole (13.99)"
      ],
      "note": "2 and 20",
      "field": "also: 1 Art Power, 2 Kinross, 3 Rohaan, 5 Saint Lawrence, 6 Spycatcher, 7 Mill Stream, 9 Sandrine, 10 Sense Of Duty, 11 Vadream, 12 Believing, 13 Magical Sunset, 14 Ocean Quest"
@@ -1407,6 +1690,7 @@
      "key": "(6,)",
      "cells": [
       "S Sedna → H Juno Dec 5.9922 6 whole (36.97)",
+      "J Jupiter – J Aldebaran RA 5.9867 6 whole (11.28)",
       "J Ketu – J Sedna Dec 5.9950 6 whole (56.27)",
       "J Mercury – J Pallas Dec 6.0082 6 whole (34.55)",
       "S Ceres → J Neptune RA 60.0138 60 whole (9.75)"
@@ -1419,12 +1703,13 @@
      "key": "(5,)",
      "cells": [
       "S Eris → H Gonggong RA 49.9941 50 whole (49.73)",
+      "J Sun – J Regulus Dec 4.9850 5 whole (6.21)",
       "S Venus → J Makemake RA 5.0123 5 whole (14.74)",
       "S Rahu → J Orcus Dec 5.0094 5 whole (28.31)",
       "S Rahu → J Transpluto Dec 4.9869 5 whole (11.94)"
      ],
      "note": "5 and 50",
-     "field": "also: 5 Saint Lawrence, 7 Mill Stream"
+     "field": "also: 5 Saint Lawrence, 7 Mill Stream, 12 Believing"
     },
     {
      "check": 13,
@@ -1496,18 +1781,28 @@
     },
     {
      "check": 7,
-     "key": "('count', 7)",
+     "key": "('count', 8)",
      "cells": [
       "12.2222 ninth",
       "122.222 ninth",
       "133.333 ninth",
       "33.3333 ninth",
+      "100×φ^1 phi power",
       "10×φ^6 phi power",
       "φ^6 phi power",
       "126 whole"
      ],
-     "note": "7 numbers",
+     "note": "8 numbers",
      "field": ""
+    },
+    {
+     "check": 9,
+     "key": "('H', 'Aldebaran', '100×φ^1')",
+     "cells": [
+      "H Jupiter – H Aldebaran RA 161.8369 100×φ^1 phi power (91.90)"
+     ],
+     "note": "",
+     "field": "also: 3 Rohaan"
     },
     {
      "check": 9,
@@ -1540,11 +1835,13 @@
      "check": 10,
      "key": "(7,)",
      "cells": [
+      "S Rahu → H Aldebaran Dec 6.9983 7 whole (83.49)",
       "S Quaoar → H Saturn Dec 7.0051 7 whole (55.31)",
+      "S Rahu → J Aldebaran Dec 7.0009 7 whole (91.03)",
       "S Ceres → J Saturn Dec 11.3282 7×φ golden (88.43)"
      ],
      "note": "",
-     "field": "also: 1 Art Power, 8 Makarova, 14 Ocean Quest, 15 Swingalong"
+     "field": "also: 1 Art Power, 2 Kinross, 8 Makarova, 9 Sandrine, 10 Sense Of Duty, 12 Believing, 14 Ocean Quest, 15 Swingalong"
     },
     {
      "check": 10,
@@ -1586,7 +1883,7 @@
       "J Makemake – J Orcus Dec 32.3665 20×φ golden (67.33)"
      ],
      "note": "",
-     "field": "also: 6 Spycatcher, 13 Magical Sunset, 15 Swingalong"
+     "field": "also: 4 Run To Freedom, 6 Spycatcher, 13 Magical Sunset, 15 Swingalong"
     },
     {
      "check": 10,
@@ -1618,6 +1915,17 @@
      ],
      "note": "",
      "field": "also: 3 Rohaan, 9 Sandrine"
+    },
+    {
+     "check": 10,
+     "key": "(54,)",
+     "cells": [
+      "S Chiron → H Aldebaran RA 54.0020 54 whole (80.67)",
+      "S Chiron → J Aldebaran RA 54.0054 54 whole (53.63)",
+      "J Jupiter – J Haumea RA 87.3735 54×φ golden (97.75)"
+     ],
+     "note": "",
+     "field": "only"
     },
     {
      "check": 10,
@@ -1657,6 +1965,8 @@
      "cells": [
       "S Haumea → H Sedna Dec 6.8543 φ^4 phi power (99.11)",
       "H Sun – H Gonggong RA 6.9853 7 whole (7.10)",
+      "S Rahu → H Aldebaran Dec 6.9983 7 whole (83.49)",
+      "S Rahu → J Aldebaran Dec 7.0009 7 whole (91.03)",
       "S Quaoar → H Saturn Dec 7.0051 7 whole (55.31)",
       "H Uranus – H Rahu Dec 7.0194 7 whole (0.10)"
      ],
@@ -1702,6 +2012,7 @@
      "key": "('13', '8×φ')",
      "cells": [
       "S Eris → J Juno RA 12.9436 8×φ golden (95.89)",
+      "H Sedna – H Aldebaran RA 12.9817 13 whole (0.72)",
       "S Mercury → J Jupiter Dec 12.9897 13 whole (23.64)",
       "J Pluto – J Sedna Dec 12.9916 13 whole (33.66)",
       "S Neptune → H Sun RA 12.9942 13 whole (50.54)",
@@ -1709,7 +2020,19 @@
       "S Orcus → J Ceres Dec 13.0196 13 whole (0.04)"
      ],
      "note": "12.9436 - 13.0196",
-     "field": "also: 2 Kinross, 3 Rohaan, 8 Makarova, 11 Vadream, 15 Swingalong"
+     "field": "also: 1 Art Power, 2 Kinross, 3 Rohaan, 8 Makarova, 11 Vadream, 15 Swingalong"
+    },
+    {
+     "check": 11,
+     "key": "('14', '14.14')",
+     "cells": [
+      "S Orcus → H Antares Dec 14.0050 14 whole (55.90)",
+      "S Orcus → J Antares Dec 14.0051 14 whole (55.58)",
+      "J Pluto – J Vesta Dec 14.0134 14 whole (10.83)",
+      "H Ketu – H Eris Dec 14.1402 14.14 sqrt2 (94.49)"
+     ],
+     "note": "14.0050 - 14.1402",
+     "field": "also: 1 Art Power, 2 Kinross, 3 Rohaan, 6 Spycatcher, 13 Magical Sunset"
     },
     {
      "check": 11,
@@ -1747,17 +2070,52 @@
       "S Venus → H Vesta Dec 24.2781 15×φ golden (58.72)"
      ],
      "note": "23.9833 - 24.2781",
-     "field": "also: 7 Mill Stream, 14 Ocean Quest"
+     "field": "also: 2 Kinross, 7 Mill Stream, 14 Ocean Quest"
+    },
+    {
+     "check": 11,
+     "key": "('10×φ^2', '26')",
+     "cells": [
+      "H Sun – H Ketu RA 26.0013 26 whole (87.28)",
+      "S Ketu → H Aldebaran Dec 26.0173 26 whole (1.86)",
+      "S Ketu → J Aldebaran Dec 26.0199 26 whole (0.00)",
+      "S Ketu → H Haumea Dec 26.1810 10×φ^2 phi power (98.93)"
+     ],
+     "note": "26.0013 - 26.1810",
+     "field": "also: 3 Rohaan, 10 Sense Of Duty, 14 Ocean Quest"
+    },
+    {
+     "check": 11,
+     "key": "('21×φ', '34')",
+     "cells": [
+      "J Neptune – J Transpluto Dec 33.9738 21×φ golden (71.68)",
+      "H Sedna – H Antares Dec 34.0037 34 whole (66.78)",
+      "H Jupiter – H Haumea Dec 34.0199 34 whole (0.00)"
+     ],
+     "note": "33.9738 - 34.0199",
+     "field": "also: 4 Run To Freedom"
     },
     {
      "check": 11,
      "key": "('24×φ', '39')",
      "cells": [
       "H Saturn – H Rahu Dec 38.8312 24×φ golden (90.15)",
+      "J Eris – J Fomalhaut RA 38.8372 24×φ golden (74.73)",
       "S Neptune → H Ketu RA 38.9955 39 whole (60.32)",
       "S Quaoar → J Pallas RA 38.9961 39 whole (64.58)"
      ],
      "note": "38.8312 - 38.9961",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('136', '84×φ')",
+     "cells": [
+      "J Eris – J Antares RA 135.9065 84×φ golden (54.91)",
+      "S Haumea → H Mercury RA 135.9083 84×φ golden (63.69)",
+      "S Saturn → J Sun RA 135.9966 136 whole (69.15)"
+     ],
+     "note": "135.9065 - 135.9966",
      "field": "only"
     },
     {
@@ -1772,6 +2130,17 @@
      "field": "also: 10 Sense Of Duty"
     },
     {
+     "check": 11,
+     "key": "('157', '97×φ')",
+     "cells": [
+      "H Venus – H Regulus RA 156.9253 97×φ golden (6.72)",
+      "J Rahu – J Fomalhaut RA 156.9816 157 whole (0.68)",
+      "S Neptune → H Orcus RA 157.0122 157 whole (15.40)"
+     ],
+     "note": "156.9253 - 157.0122",
+     "field": "also: 11 Vadream, 12 Believing, 15 Swingalong"
+    },
+    {
      "check": 12,
      "key": "(17,)",
      "cells": [
@@ -1782,7 +2151,7 @@
       "J Juno – J Vesta Dec 16.9802 17 whole (0.01)"
      ],
      "note": "17 and 170",
-     "field": "also: 3 Rohaan, 6 Spycatcher, 10 Sense Of Duty, 12 Believing"
+     "field": "also: 3 Rohaan, 6 Spycatcher, 7 Mill Stream, 8 Makarova, 10 Sense Of Duty, 12 Believing, 14 Ocean Quest"
     },
     {
      "check": 12,
@@ -1797,7 +2166,7 @@
       "S Vesta → J Transpluto RA 49.9831 50 whole (2.39)"
      ],
      "note": "5 and 50",
-     "field": "also: 4 Run To Freedom, 7 Mill Stream"
+     "field": "also: 4 Run To Freedom, 7 Mill Stream, 12 Believing"
     },
     {
      "check": 12,
@@ -1840,12 +2209,13 @@
      "key": "(1,)",
      "cells": [
       "H Jupiter – H Juno Dec 9.9839 10 whole (3.76)",
+      "J Ceres – J Antares Dec 0.9855 1 whole (7.51)",
       "S Chiron → J Venus Dec 0.9877 1 whole (14.86)",
       "S Sun → J Uranus Dec 9.9871 10 whole (12.68)",
       "S Vesta → J Venus Dec 9.9834 10 whole (2.94)"
      ],
      "note": "1 and 10",
-     "field": "also: 1 Art Power, 2 Kinross, 3 Rohaan, 7 Mill Stream, 8 Makarova, 9 Sandrine, 10 Sense Of Duty, 11 Vadream, 12 Believing, 14 Ocean Quest, 15 Swingalong"
+     "field": "also: 1 Art Power, 2 Kinross, 3 Rohaan, 7 Mill Stream, 8 Makarova, 9 Sandrine, 10 Sense Of Duty, 11 Vadream, 12 Believing, 13 Magical Sunset, 14 Ocean Quest, 15 Swingalong"
     },
     {
      "check": 12,
@@ -1868,15 +2238,17 @@
    "items": [
     {
      "check": 7,
-     "key": "('count', 5)",
+     "key": "('count', 7)",
      "cells": [
       "17×φ golden",
       "122.222 ninth",
       "144.444 ninth",
       "18.8889 ninth",
+      "100×φ^1 phi power",
+      "10 whole",
       "32 whole"
      ],
-     "note": "5 numbers",
+     "note": "7 numbers",
      "field": ""
     },
     {
@@ -1923,11 +2295,12 @@
      "check": 10,
      "key": "(20,)",
      "cells": [
+      "J Chiron – J Regulus Dec 19.9974 20 whole (75.71)",
       "S Saturn → J Juno RA 19.9964 20 whole (66.90)",
       "S Jupiter → J Gonggong Dec 32.3605 20×φ golden (99.14)"
      ],
      "note": "",
-     "field": "also: 5 Saint Lawrence, 13 Magical Sunset, 15 Swingalong"
+     "field": "also: 4 Run To Freedom, 5 Saint Lawrence, 13 Magical Sunset, 15 Swingalong"
     },
     {
      "check": 10,
@@ -1975,6 +2348,7 @@
      "key": "('11', 'φ^5')",
      "cells": [
       "S Mars → H Eris Dec 10.9888 11 whole (19.18)",
+      "J Ceres – J Antares Dec 10.9919 11 whole (35.13)",
       "S Pluto → H Gonggong Dec 10.9988 11 whole (88.15)",
       "J Pallas – J Vesta Dec 11.0992 φ^5 phi power (70.06)"
      ],
@@ -1985,12 +2359,15 @@
      "check": 11,
      "key": "('14', '14.14')",
      "cells": [
+      "H Quaoar – H Fomalhaut Dec 13.9934 14 whole (45.05)",
+      "S Orcus → J Antares Dec 14.0046 14 whole (59.06)",
+      "S Orcus → H Antares Dec 14.0048 14 whole (57.55)",
       "S Mercury → J Pallas RA 14.0067 14 whole (44.02)",
       "H Ketu – H Eris Dec 14.0157 14 whole (4.54)",
       "S Mars → J Venus Dec 14.1464 14.14 sqrt2 (88.38)"
      ],
-     "note": "14.0067 - 14.1464",
-     "field": "also: 13 Magical Sunset"
+     "note": "13.9934 - 14.1464",
+     "field": "also: 1 Art Power, 2 Kinross, 3 Rohaan, 5 Saint Lawrence, 13 Magical Sunset"
     },
     {
      "check": 11,
@@ -2029,6 +2406,17 @@
      "field": "only"
     },
     {
+     "check": 11,
+     "key": "('100×φ^1', '162')",
+     "cells": [
+      "J Transpluto – J Fomalhaut RA 161.8788 100×φ^1 phi power (82.22)",
+      "S Ceres → H Eris RA 161.8799 100×φ^1 phi power (81.99)",
+      "S Venus → J Sun RA 162.0108 162 whole (21.34)"
+     ],
+     "note": "161.8788 - 162.0108",
+     "field": "only"
+    },
+    {
      "check": 12,
      "key": "(16,)",
      "cells": [
@@ -2037,7 +2425,7 @@
       "S Neptune → H Makemake RA 160.0158 160 whole (4.42)"
      ],
      "note": "16 and 160",
-     "field": "also: 8 Makarova, 10 Sense Of Duty, 11 Vadream, 14 Ocean Quest"
+     "field": "also: 8 Makarova, 10 Sense Of Duty, 11 Vadream, 14 Ocean Quest, 15 Swingalong"
     },
     {
      "check": 12,
@@ -2061,6 +2449,8 @@
       "S Ketu → H Neptune Dec 2.0112 2 whole (19.31)",
       "S Rahu → H Sedna Dec 1.9830 2 whole (2.25)",
       "S Haumea → H Rahu Dec 1.9824 2 whole (1.41)",
+      "J Vesta – J Antares RA 20.0095 20 whole (27.47)",
+      "J Chiron – J Regulus Dec 19.9974 20 whole (75.71)",
       "S Ceres → J Pluto RA 19.9880 20 whole (16.02)",
       "S Mars → J Haumea RA 19.9875 20 whole (14.00)",
       "S Saturn → J Juno RA 19.9964 20 whole (66.90)",
@@ -2071,11 +2461,25 @@
     },
     {
      "check": 12,
+     "key": "(4,)",
+     "cells": [
+      "H Saturn – H Antares Dec 4.0041 4 whole (63.20)",
+      "S Orcus → H Ketu Dec 3.9819 4 whole (0.92)",
+      "S Eris → J Eris RA 3.9824 4 whole (1.44)",
+      "S Sun → J Ceres RA 39.9964 40 whole (67.46)",
+      "S Sun → J Quaoar Dec 3.9845 4 whole (4.97)"
+     ],
+     "note": "4 and 40",
+     "field": "also: 1 Art Power, 3 Rohaan, 5 Saint Lawrence, 7 Mill Stream, 8 Makarova, 9 Sandrine, 10 Sense Of Duty, 11 Vadream, 12 Believing, 13 Magical Sunset, 14 Ocean Quest, 15 Swingalong"
+    },
+    {
+     "check": 12,
      "key": "(9,)",
      "cells": [
       "H Ketu – H Pallas RA 90.0144 90 whole (7.85)",
       "H Rahu – H Pallas RA 89.9856 90 whole (7.85)",
       "H Haumea – H Sedna Dec 8.9851 9 whole (6.54)",
+      "H Sedna – H Aldebaran Dec 8.9815 9 whole (0.57)",
       "S Ceres → H Pluto Dec 8.9855 9 whole (7.57)",
       "J Mars – J Saturn Dec 9.0151 9 whole (5.97)"
      ],
@@ -2091,7 +2495,7 @@
       "J Sun – J Orcus RA 169.9984 170 whole (84.84)"
      ],
      "note": "17 and 170",
-     "field": "also: 3 Rohaan, 5 Saint Lawrence, 10 Sense Of Duty, 12 Believing"
+     "field": "also: 3 Rohaan, 5 Saint Lawrence, 7 Mill Stream, 8 Makarova, 10 Sense Of Duty, 12 Believing, 14 Ocean Quest"
     },
     {
      "check": 12,
@@ -2101,19 +2505,7 @@
       "J Venus – J Quaoar RA 119.9955 120 whole (59.76)"
      ],
      "note": "12 and 120",
-     "field": "also: 2 Kinross, 11 Vadream, 12 Believing"
-    },
-    {
-     "check": 12,
-     "key": "(4,)",
-     "cells": [
-      "S Orcus → H Ketu Dec 3.9819 4 whole (0.92)",
-      "S Eris → J Eris RA 3.9824 4 whole (1.44)",
-      "S Sun → J Ceres RA 39.9964 40 whole (67.46)",
-      "S Sun → J Quaoar Dec 3.9845 4 whole (4.97)"
-     ],
-     "note": "4 and 40",
-     "field": "also: 1 Art Power, 3 Rohaan, 5 Saint Lawrence, 7 Mill Stream, 8 Makarova, 9 Sandrine, 10 Sense Of Duty, 11 Vadream, 12 Believing, 13 Magical Sunset, 14 Ocean Quest, 15 Swingalong"
+     "field": "also: 2 Kinross, 11 Vadream, 12 Believing, 14 Ocean Quest"
     },
     {
      "check": 12,
@@ -2157,14 +2549,15 @@
     },
     {
      "check": 7,
-     "key": "('count', 4)",
+     "key": "('count', 5)",
      "cells": [
       "144.444 ninth",
       "155.556 ninth",
       "166.667 ninth",
+      "φ^10 phi power",
       "29 whole"
      ],
-     "note": "4 numbers",
+     "note": "5 numbers",
      "field": ""
     },
     {
@@ -2214,7 +2607,7 @@
       "S Orcus → H Venus Dec 35.5994 22×φ golden (84.34)"
      ],
      "note": "",
-     "field": "also: 2 Kinross, 12 Believing, 13 Magical Sunset"
+     "field": "also: 1 Art Power, 2 Kinross, 12 Believing, 13 Magical Sunset"
     },
     {
      "check": 10,
@@ -2244,10 +2637,23 @@
       "S Juno → H Transpluto RA 2.9876 3 whole (14.33)",
       "S Sedna → H Sedna RA 3.0060 3 whole (48.99)",
       "S Chiron → J Orcus Dec 3.0146 3 whole (7.31)",
+      "H Ketu – H Antares Dec 3.0183 3 whole (0.69)",
       "S Rahu → H Eris RA 3.2369 2×φ golden (95.00)"
      ],
      "note": "2.9876 - 3.2369",
      "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('11×φ', '17.7778', '18')",
+     "cells": [
+      "J Orcus – J Quaoar Dec 17.7706 17.7778 ninth (94.39)",
+      "J Rahu – J Regulus Dec 17.7940 11×φ golden (74.77)",
+      "S Saturn → J Orcus Dec 18.0064 18 whole (46.17)",
+      "H Gonggong – H Fomalhaut Dec 18.0118 18 whole (16.67)"
+     ],
+     "note": "17.7706 - 18.0118",
+     "field": "also: 1 Art Power, 14 Ocean Quest"
     },
     {
      "check": 11,
@@ -2267,12 +2673,26 @@
      "cells": [
       "H Neptune – H Vesta Dec 23.9852 24 whole (6.80)",
       "S Ketu → J Transpluto Dec 23.9930 24 whole (41.98)",
+      "J Makemake – J Regulus Dec 23.9931 24 whole (42.88)",
       "S Eris → J Haumea Dec 24.1409 24.14 silver (97.92)",
+      "J Chiron – J Aldebaran RA 24.1474 24.14 silver (91.53)",
       "S Mercury → J Quaoar RA 24.1486 24.14 silver (89.64)",
       "S Pallas → J Neptune Dec 24.2780 15×φ golden (59.02)"
      ],
      "note": "23.9852 - 24.2780",
-     "field": "also: 5 Saint Lawrence, 14 Ocean Quest"
+     "field": "also: 2 Kinross, 5 Saint Lawrence, 14 Ocean Quest"
+    },
+    {
+     "check": 11,
+     "key": "('105×φ', '170')",
+     "cells": [
+      "H Orcus – H Fomalhaut RA 169.8713 105×φ golden (9.77)",
+      "S Chiron → J Haumea RA 169.8730 105×φ golden (13.32)",
+      "J Uranus – J Juno RA 169.8748 105×φ golden (17.61)",
+      "H Sedna – H Antares RA 169.9986 170 whole (86.18)"
+     ],
+     "note": "169.8713 - 169.9986",
+     "field": "only"
     },
     {
      "check": 12,
@@ -2280,7 +2700,8 @@
      "cells": [
       "H Saturn – H Pluto RA 5.9972 6 whole (74.38)",
       "H Mercury – H Eris Dec 6.0112 6 whole (19.45)",
-      "S Mars → H Transpluto RA 59.9925 60 whole (38.85)"
+      "S Mars → H Transpluto RA 59.9925 60 whole (38.85)",
+      "J Vesta – J Regulus RA 5.9880 6 whole (16.15)"
      ],
      "note": "6 and 60",
      "field": "also: 2 Kinross, 3 Rohaan, 4 Run To Freedom, 5 Saint Lawrence, 9 Sandrine, 10 Sense Of Duty, 12 Believing, 14 Ocean Quest"
@@ -2302,6 +2723,19 @@
     },
     {
      "check": 12,
+     "key": "(3,)",
+     "cells": [
+      "H Ketu – H Antares Dec 3.0183 3 whole (0.69)",
+      "S Juno → H Transpluto RA 2.9876 3 whole (14.33)",
+      "S Sedna → H Sedna RA 3.0060 3 whole (48.99)",
+      "J Juno – J Orcus RA 29.9838 30 whole (3.68)",
+      "S Chiron → J Orcus Dec 3.0146 3 whole (7.31)"
+     ],
+     "note": "3 and 30",
+     "field": "also: 3 Rohaan, 5 Saint Lawrence, 6 Spycatcher, 8 Makarova, 9 Sandrine, 10 Sense Of Duty, 11 Vadream, 12 Believing, 13 Magical Sunset, 15 Swingalong"
+    },
+    {
+     "check": 12,
      "key": "(10,)",
      "cells": [
       "H Sun – H Neptune Dec 10.0091 10 whole (29.48)",
@@ -2311,12 +2745,25 @@
       "S Orcus → J Mars Dec 10.0188 10 whole (0.35)"
      ],
      "note": "10 and 100",
-     "field": "also: 1 Art Power, 11 Vadream, 12 Believing"
+     "field": "also: 1 Art Power, 10 Sense Of Duty, 11 Vadream, 12 Believing"
+    },
+    {
+     "check": 12,
+     "key": "(18,)",
+     "cells": [
+      "H Gonggong – H Fomalhaut Dec 18.0118 18 whole (16.67)",
+      "J Rahu – J Makemake RA 179.9813 180 whole (0.46)",
+      "S Ketu → J Eris RA 179.9839 180 whole (3.89)",
+      "S Saturn → J Orcus Dec 18.0064 18 whole (46.17)"
+     ],
+     "note": "18 and 180",
+     "field": "also: 6 Spycatcher, 9 Sandrine, 13 Magical Sunset"
     },
     {
      "check": 12,
      "key": "(4,)",
      "cells": [
+      "H Sedna – H Regulus Dec 4.0130 4 whole (12.39)",
       "S Chiron → H Sun RA 3.9944 4 whole (51.76)",
       "S Gonggong → H Pluto RA 39.9987 40 whole (87.51)",
       "S Quaoar → H Ketu RA 4.0072 4 whole (40.99)",
@@ -2324,18 +2771,6 @@
      ],
      "note": "4 and 40",
      "field": "also: 1 Art Power, 3 Rohaan, 5 Saint Lawrence, 6 Spycatcher, 8 Makarova, 9 Sandrine, 10 Sense Of Duty, 11 Vadream, 12 Believing, 13 Magical Sunset, 14 Ocean Quest, 15 Swingalong"
-    },
-    {
-     "check": 12,
-     "key": "(3,)",
-     "cells": [
-      "S Juno → H Transpluto RA 2.9876 3 whole (14.33)",
-      "S Sedna → H Sedna RA 3.0060 3 whole (48.99)",
-      "J Juno – J Orcus RA 29.9838 30 whole (3.68)",
-      "S Chiron → J Orcus Dec 3.0146 3 whole (7.31)"
-     ],
-     "note": "3 and 30",
-     "field": "also: 3 Rohaan, 5 Saint Lawrence, 6 Spycatcher, 8 Makarova, 9 Sandrine, 10 Sense Of Duty, 11 Vadream, 12 Believing, 13 Magical Sunset, 15 Swingalong"
     },
     {
      "check": 12,
@@ -2347,6 +2782,7 @@
       "S Mars → H Quaoar Dec 2.0128 2 whole (13.08)",
       "S Pluto → H Jupiter Dec 1.9864 2 whole (10.09)",
       "S Sedna → H Gonggong Dec 20.0175 20 whole (1.53)",
+      "J Eris – J Fomalhaut Dec 19.9977 20 whole (78.27)",
       "J Sun – J Venus Dec 1.9969 2 whole (71.43)",
       "S Jupiter → J Sedna RA 1.9932 2 whole (43.82)",
       "S Venus → J Orcus Dec 2.0045 2 whole (59.99)"
@@ -2363,7 +2799,18 @@
       "S Neptune → J Pallas RA 50.0000 50 whole (99.55)"
      ],
      "note": "5 and 50",
-     "field": "also: 4 Run To Freedom, 5 Saint Lawrence"
+     "field": "also: 4 Run To Freedom, 5 Saint Lawrence, 12 Believing"
+    },
+    {
+     "check": 12,
+     "key": "(17,)",
+     "cells": [
+      "H Sedna – H Antares RA 169.9986 170 whole (86.18)",
+      "S Neptune → H Saturn Dec 17.0066 17 whole (44.87)",
+      "S Mars → J Quaoar RA 17.0156 17 whole (4.74)"
+     ],
+     "note": "17 and 170",
+     "field": "also: 3 Rohaan, 5 Saint Lawrence, 6 Spycatcher, 8 Makarova, 10 Sense Of Duty, 12 Believing, 14 Ocean Quest"
     },
     {
      "check": 12,
@@ -2390,7 +2837,7 @@
       "S Orcus → J Mars Dec 10.0188 10 whole (0.35)"
      ],
      "note": "1 and 10",
-     "field": "also: 1 Art Power, 2 Kinross, 3 Rohaan, 5 Saint Lawrence, 8 Makarova, 9 Sandrine, 10 Sense Of Duty, 11 Vadream, 12 Believing, 14 Ocean Quest, 15 Swingalong"
+     "field": "also: 1 Art Power, 2 Kinross, 3 Rohaan, 5 Saint Lawrence, 8 Makarova, 9 Sandrine, 10 Sense Of Duty, 11 Vadream, 12 Believing, 13 Magical Sunset, 14 Ocean Quest, 15 Swingalong"
     },
     {
      "check": 12,
@@ -2401,18 +2848,7 @@
       "S Pluto → J Saturn Dec 0.9925 1 whole (38.90)"
      ],
      "note": "1 and 100",
-     "field": "also: 1 Art Power, 2 Kinross, 3 Rohaan, 5 Saint Lawrence, 8 Makarova, 9 Sandrine, 10 Sense Of Duty, 11 Vadream, 12 Believing, 14 Ocean Quest, 15 Swingalong"
-    },
-    {
-     "check": 12,
-     "key": "(18,)",
-     "cells": [
-      "J Rahu – J Makemake RA 179.9813 180 whole (0.46)",
-      "S Ketu → J Eris RA 179.9839 180 whole (3.89)",
-      "S Saturn → J Orcus Dec 18.0064 18 whole (46.17)"
-     ],
-     "note": "18 and 180",
-     "field": "also: 6 Spycatcher, 9 Sandrine, 13 Magical Sunset"
+     "field": "also: 1 Art Power, 2 Kinross, 3 Rohaan, 5 Saint Lawrence, 8 Makarova, 9 Sandrine, 10 Sense Of Duty, 11 Vadream, 12 Believing, 13 Magical Sunset, 14 Ocean Quest, 15 Swingalong"
     },
     {
      "check": 13,
@@ -2447,12 +2883,15 @@
      "check": 10,
      "key": "(7,)",
      "cells": [
+      "S Rahu → H Aldebaran Dec 6.9982 7 whole (82.93)",
       "S Uranus → H Uranus Dec 7.0016 7 whole (84.99)",
       "S Uranus → H Transpluto Dec 6.9947 7 whole (53.92)",
+      "J Makemake – J Regulus RA 7.0058 7 whole (50.39)",
+      "S Rahu → J Aldebaran Dec 6.9998 7 whole (97.54)",
       "S Juno → J Chiron Dec 11.3235 7×φ golden (83.82)"
      ],
      "note": "",
-     "field": "also: 1 Art Power, 5 Saint Lawrence, 14 Ocean Quest, 15 Swingalong"
+     "field": "also: 1 Art Power, 2 Kinross, 5 Saint Lawrence, 9 Sandrine, 10 Sense Of Duty, 12 Believing, 14 Ocean Quest, 15 Swingalong"
     },
     {
      "check": 10,
@@ -2472,7 +2911,17 @@
       "S Makemake → J Pluto Dec 14.5616 9×φ golden (95.89)"
      ],
      "note": "",
-     "field": "also: 1 Art Power, 2 Kinross, 4 Run To Freedom, 9 Sandrine, 10 Sense Of Duty"
+     "field": "also: 1 Art Power, 2 Kinross, 3 Rohaan, 4 Run To Freedom, 9 Sandrine, 10 Sense Of Duty"
+    },
+    {
+     "check": 10,
+     "key": "(17,)",
+     "cells": [
+      "J Ceres – J Antares Dec 17.0030 17 whole (72.45)",
+      "H Quaoar – H Regulus Dec 27.5093 17×φ golden (83.66)"
+     ],
+     "note": "",
+     "field": "also: 1 Art Power, 4 Run To Freedom, 10 Sense Of Duty, 12 Believing, 15 Swingalong"
     },
     {
      "check": 10,
@@ -2495,6 +2944,16 @@
      "field": "also: 15 Swingalong"
     },
     {
+     "check": 10,
+     "key": "(102,)",
+     "cells": [
+      "J Sun – J Ketu RA 101.9954 102 whole (59.20)",
+      "J Haumea – J Fomalhaut RA 165.0428 102×φ golden (80.57)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
      "check": 11,
      "key": "('13', '8×φ')",
      "cells": [
@@ -2505,7 +2964,7 @@
       "S Moon → J Juno RA 13.0106 13 whole (22.01)"
      ],
      "note": "12.9497 - 13.0106",
-     "field": "also: 2 Kinross, 3 Rohaan, 5 Saint Lawrence, 11 Vadream, 15 Swingalong"
+     "field": "also: 1 Art Power, 2 Kinross, 3 Rohaan, 5 Saint Lawrence, 11 Vadream, 15 Swingalong"
     },
     {
      "check": 11,
@@ -2533,6 +2992,18 @@
      ],
      "note": "17.7942 - 18.0153",
      "field": "also: 6 Spycatcher, 10 Sense Of Duty"
+    },
+    {
+     "check": 11,
+     "key": "('16×φ', '26')",
+     "cells": [
+      "S Ketu → H Haumea Dec 25.8885 16×φ golden (99.54)",
+      "H Mars – H Vesta Dec 25.9865 26 whole (10.61)",
+      "S Ketu → H Aldebaran Dec 26.0172 26 whole (1.95)",
+      "S Ketu → J Aldebaran Dec 26.0187 26 whole (0.39)"
+     ],
+     "note": "25.8885 - 26.0187",
+     "field": "also: 4 Run To Freedom, 9 Sandrine"
     },
     {
      "check": 11,
@@ -2574,7 +3045,7 @@
       "S Mars → J Saturn RA 15.9804 16 whole (0.04)"
      ],
      "note": "16 and 160",
-     "field": "also: 6 Spycatcher, 10 Sense Of Duty, 11 Vadream, 14 Ocean Quest"
+     "field": "also: 6 Spycatcher, 10 Sense Of Duty, 11 Vadream, 14 Ocean Quest, 15 Swingalong"
     },
     {
      "check": 12,
@@ -2614,7 +3085,7 @@
       "S Haumea → J Haumea Dec 10.0085 10 whole (33.03)"
      ],
      "note": "1 and 10",
-     "field": "also: 1 Art Power, 2 Kinross, 3 Rohaan, 5 Saint Lawrence, 7 Mill Stream, 9 Sandrine, 10 Sense Of Duty, 11 Vadream, 12 Believing, 14 Ocean Quest, 15 Swingalong"
+     "field": "also: 1 Art Power, 2 Kinross, 3 Rohaan, 5 Saint Lawrence, 7 Mill Stream, 9 Sandrine, 10 Sense Of Duty, 11 Vadream, 12 Believing, 13 Magical Sunset, 14 Ocean Quest, 15 Swingalong"
     },
     {
      "check": 12,
@@ -2634,10 +3105,12 @@
      "cells": [
       "S Gonggong → H Makemake RA 140.0086 140 whole (32.58)",
       "S Neptune → H Transpluto Dec 13.9827 14 whole (1.88)",
+      "S Orcus → H Antares Dec 14.0051 14 whole (55.77)",
+      "S Orcus → J Antares Dec 14.0056 14 whole (51.49)",
       "S Sedna → J Rahu Dec 13.9932 14 whole (43.89)"
      ],
      "note": "14 and 140",
-     "field": "also: 10 Sense Of Duty, 11 Vadream, 13 Magical Sunset"
+     "field": "also: 1 Art Power, 10 Sense Of Duty, 11 Vadream, 13 Magical Sunset"
     },
     {
      "check": 12,
@@ -2652,6 +3125,16 @@
      ],
      "note": "8 and 80",
      "field": "also: 4 Run To Freedom, 6 Spycatcher, 7 Mill Stream, 9 Sandrine, 11 Vadream, 12 Believing, 13 Magical Sunset, 14 Ocean Quest"
+    },
+    {
+     "check": 12,
+     "key": "(17,)",
+     "cells": [
+      "S Haumea → H Uranus RA 169.9805 170 whole (0.05)",
+      "J Ceres – J Antares Dec 17.0030 17 whole (72.45)"
+     ],
+     "note": "17 and 170",
+     "field": "also: 3 Rohaan, 5 Saint Lawrence, 6 Spycatcher, 7 Mill Stream, 10 Sense Of Duty, 12 Believing, 14 Ocean Quest"
     },
     {
      "check": 13,
@@ -2685,6 +3168,17 @@
     },
     {
      "check": 10,
+     "key": "(7,)",
+     "cells": [
+      "S Rahu → H Aldebaran Dec 6.9983 7 whole (83.86)",
+      "S Rahu → J Aldebaran Dec 7.0006 7 whole (93.70)",
+      "S Sun → H Saturn Dec 11.3200 7×φ golden (65.29)"
+     ],
+     "note": "",
+     "field": "also: 1 Art Power, 2 Kinross, 5 Saint Lawrence, 8 Makarova, 10 Sense Of Duty, 12 Believing, 14 Ocean Quest, 15 Swingalong"
+    },
+    {
+     "check": 10,
      "key": "(8,)",
      "cells": [
       "S Saturn → H Ketu Dec 7.9963 8 whole (66.59)",
@@ -2702,7 +3196,7 @@
       "S Rahu → H Makemake Dec 14.5689 9×φ golden (63.49)"
      ],
      "note": "",
-     "field": "also: 1 Art Power, 2 Kinross, 4 Run To Freedom, 8 Makarova, 10 Sense Of Duty"
+     "field": "also: 1 Art Power, 2 Kinross, 3 Rohaan, 4 Run To Freedom, 8 Makarova, 10 Sense Of Duty"
     },
     {
      "check": 10,
@@ -2714,6 +3208,18 @@
      ],
      "note": "",
      "field": "also: 3 Rohaan, 4 Run To Freedom, 5 Saint Lawrence, 6 Spycatcher, 11 Vadream, 12 Believing, 14 Ocean Quest, 15 Swingalong"
+    },
+    {
+     "check": 10,
+     "key": "(14,)",
+     "cells": [
+      "H Rahu – H Juno Dec 14.0010 14 whole (89.84)",
+      "S Orcus → H Antares Dec 14.0050 14 whole (56.57)",
+      "S Orcus → J Antares Dec 14.0057 14 whole (51.39)",
+      "H Orcus – H Regulus Dec 22.6575 14×φ golden (71.44)"
+     ],
+     "note": "",
+     "field": "also: 1 Art Power, 2 Kinross, 10 Sense Of Duty, 11 Vadream"
     },
     {
      "check": 10,
@@ -2773,15 +3279,27 @@
     },
     {
      "check": 11,
+     "key": "('7.77778', '8')",
+     "cells": [
+      "S Gonggong → J Fomalhaut RA 7.7772 7.77778 ninth (95.72)",
+      "S Saturn → H Ketu Dec 7.9963 8 whole (66.59)",
+      "S Jupiter → J Venus Dec 8.0017 8 whole (84.13)"
+     ],
+     "note": "7.7772 - 8.0017",
+     "field": "only"
+    },
+    {
+     "check": 11,
      "key": "('11', '11.1111')",
      "cells": [
+      "J Gonggong – J Fomalhaut Dec 10.9875 11 whole (14.23)",
       "S Mercury → J Pallas Dec 11.0139 11 whole (9.41)",
       "S Mercury → J Uranus Dec 11.0190 11 whole (0.27)",
       "J Vesta – J Orcus Dec 11.1121 11.1111 ninth (98.46)",
       "J Ketu – J Haumea Dec 11.1164 11.1111 ninth (91.36)",
       "S Eris → H Gonggong Dec 11.1194 11.1111 ninth (86.51)"
      ],
-     "note": "11.0139 - 11.1194",
+     "note": "10.9875 - 11.1194",
      "field": "also: 4 Run To Freedom"
     },
     {
@@ -2812,6 +3330,7 @@
      "key": "('18', 'φ^6')",
      "cells": [
       "S Neptune → J Jupiter Dec 17.9452 φ^6 phi power (97.91)",
+      "J Mercury – J Regulus Dec 17.9804 18 whole (0.05)",
       "J Sun – J Mars Dec 17.9846 18 whole (5.24)",
       "S Mercury → H Sedna Dec 17.9930 18 whole (41.93)",
       "S Pluto → J Saturn Dec 18.0111 18 whole (19.70)"
@@ -2837,13 +3356,27 @@
      "key": "('24', '24.14')",
      "cells": [
       "S Haumea → H Sun Dec 23.9897 24 whole (23.71)",
+      "H Gonggong – H Regulus Dec 23.9939 24 whole (48.42)",
       "S Pallas → H Saturn Dec 24.0064 24 whole (46.31)",
       "S Orcus → J Orcus RA 24.0085 24 whole (32.89)",
       "S Mars → H Uranus Dec 24.1429 24.14 silver (98.79)",
       "S Transpluto → J Quaoar Dec 24.1437 24.14 silver (97.41)"
      ],
      "note": "23.9897 - 24.1437",
-     "field": "also: 11 Vadream, 12 Believing"
+     "field": "also: 1 Art Power, 11 Vadream, 12 Believing"
+    },
+    {
+     "check": 11,
+     "key": "('16×φ', '26')",
+     "cells": [
+      "S Moon → H Eris Dec 25.8813 16×φ golden (60.33)",
+      "J Quaoar – J Regulus Dec 26.0014 26 whole (86.17)",
+      "S Ketu → H Aldebaran Dec 26.0173 26 whole (1.81)",
+      "S Moon → H Mercury Dec 26.0185 26 whole (0.57)",
+      "S Ketu → J Aldebaran Dec 26.0196 26 whole (0.03)"
+     ],
+     "note": "25.8813 - 26.0196",
+     "field": "also: 4 Run To Freedom, 8 Makarova"
     },
     {
      "check": 11,
@@ -2862,9 +3395,10 @@
      "cells": [
       "S Neptune → J Vesta RA 165.0028 165 whole (73.75)",
       "J Mercury – J Saturn RA 165.0330 102×φ golden (63.81)",
-      "H Jupiter – H Juno RA 165.0595 102×φ golden (14.47)"
+      "H Jupiter – H Juno RA 165.0595 102×φ golden (14.47)",
+      "H Neptune – H Regulus RA 165.0712 102×φ golden (0.04)"
      ],
-     "note": "165.0028 - 165.0595",
+     "note": "165.0028 - 165.0712",
      "field": "only"
     },
     {
@@ -2905,7 +3439,7 @@
       "S Gonggong → J Jupiter Dec 10.0022 10 whole (79.54)"
      ],
      "note": "1 and 10",
-     "field": "also: 1 Art Power, 2 Kinross, 3 Rohaan, 5 Saint Lawrence, 7 Mill Stream, 8 Makarova, 10 Sense Of Duty, 11 Vadream, 12 Believing, 14 Ocean Quest, 15 Swingalong"
+     "field": "also: 1 Art Power, 2 Kinross, 3 Rohaan, 5 Saint Lawrence, 7 Mill Stream, 8 Makarova, 10 Sense Of Duty, 11 Vadream, 12 Believing, 13 Magical Sunset, 14 Ocean Quest, 15 Swingalong"
     },
     {
      "check": 12,
@@ -2916,7 +3450,8 @@
       "S Ceres → H Sun Dec 3.0162 3 whole (3.68)",
       "S Ceres → H Quaoar Dec 2.9866 3 whole (10.77)",
       "S Haumea → H Ceres Dec 29.9864 30 whole (10.31)",
-      "S Haumea → H Quaoar Dec 29.9925 30 whole (38.85)"
+      "S Haumea → H Quaoar Dec 29.9925 30 whole (38.85)",
+      "J Transpluto – J Aldebaran Dec 2.9894 3 whole (22.02)"
      ],
      "note": "3 and 30",
      "field": "also: 3 Rohaan, 5 Saint Lawrence, 6 Spycatcher, 7 Mill Stream, 8 Makarova, 10 Sense Of Duty, 11 Vadream, 12 Believing, 13 Magical Sunset, 15 Swingalong"
@@ -2937,6 +3472,7 @@
      "cells": [
       "S Sun → H Eris RA 179.9894 180 whole (22.17)",
       "S Mercury → H Sedna Dec 17.9930 18 whole (41.93)",
+      "J Mercury – J Regulus Dec 17.9804 18 whole (0.05)",
       "J Sun – J Mars Dec 17.9846 18 whole (5.24)",
       "S Pluto → J Saturn Dec 18.0111 18 whole (19.70)"
      ],
@@ -2971,6 +3507,7 @@
      "cells": [
       "S Saturn → H Juno Dec 19.9841 20 whole (4.19)",
       "S Vesta → H Rahu Dec 1.9930 2 whole (42.20)",
+      "J Juno – J Fomalhaut Dec 19.9983 20 whole (83.33)",
       "J Mercury – J Eris Dec 1.9995 2 whole (94.87)",
       "S Chiron → J Venus Dec 1.9878 2 whole (15.31)",
       "S Ketu → J Mars Dec 1.9858 2 whole (8.35)",
@@ -2989,15 +3526,16 @@
    "items": [
     {
      "check": 7,
-     "key": "('count', 5)",
+     "key": "('count', 6)",
      "cells": [
       "122.222 ninth",
       "13.3333 ninth",
       "14.4444 ninth",
       "155.556 ninth",
+      "10×φ^5 phi power",
       "9 whole"
      ],
-     "note": "5 numbers",
+     "note": "6 numbers",
      "field": ""
     },
     {
@@ -3020,6 +3558,15 @@
      "field": "only"
     },
     {
+     "check": 9,
+     "key": "('J', 'Fomalhaut', 'conj')",
+     "cells": [
+      "J Jupiter – J Fomalhaut RA 0.1648 conj conj (79.24)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
      "check": 10,
      "key": "(5,)",
      "cells": [
@@ -3028,6 +3575,17 @@
      ],
      "note": "",
      "field": "also: 15 Swingalong"
+    },
+    {
+     "check": 10,
+     "key": "(7,)",
+     "cells": [
+      "S Rahu → H Aldebaran Dec 6.9982 7 whole (82.67)",
+      "S Rahu → J Aldebaran Dec 6.9990 7 whole (90.37)",
+      "S Mars → H Eris Dec 11.3293 7×φ golden (82.07)"
+     ],
+     "note": "",
+     "field": "also: 1 Art Power, 2 Kinross, 5 Saint Lawrence, 8 Makarova, 9 Sandrine, 12 Believing, 14 Ocean Quest, 15 Swingalong"
     },
     {
      "check": 10,
@@ -3048,7 +3606,7 @@
       "S Sedna → H Sun Dec 14.5657 9×φ golden (80.04)"
      ],
      "note": "",
-     "field": "also: 1 Art Power, 2 Kinross, 4 Run To Freedom, 8 Makarova, 9 Sandrine"
+     "field": "also: 1 Art Power, 2 Kinross, 3 Rohaan, 4 Run To Freedom, 8 Makarova, 9 Sandrine"
     },
     {
      "check": 10,
@@ -3065,11 +3623,13 @@
      "key": "(14,)",
      "cells": [
       "S Venus → H Rahu Dec 14.0004 14 whole (96.43)",
+      "S Orcus → H Antares Dec 14.0051 14 whole (55.54)",
       "J Ceres – J Transpluto Dec 13.9942 14 whole (50.50)",
+      "S Orcus → J Antares Dec 14.0054 14 whole (53.42)",
       "S Gonggong → H Chiron RA 22.6513 14×φ golden (92.85)"
      ],
      "note": "",
-     "field": "only"
+     "field": "also: 1 Art Power, 2 Kinross, 9 Sandrine, 11 Vadream"
     },
     {
      "check": 10,
@@ -3080,6 +3640,16 @@
      ],
      "note": "",
      "field": "also: 2 Kinross, 3 Rohaan, 5 Saint Lawrence"
+    },
+    {
+     "check": 10,
+     "key": "(17,)",
+     "cells": [
+      "J Makemake – J Aldebaran Dec 16.9976 17 whole (77.32)",
+      "H Quaoar – H Regulus Dec 27.5029 17×φ golden (78.39)"
+     ],
+     "note": "",
+     "field": "also: 1 Art Power, 4 Run To Freedom, 8 Makarova, 12 Believing, 15 Swingalong"
     },
     {
      "check": 10,
@@ -3114,10 +3684,22 @@
     },
     {
      "check": 11,
+     "key": "('5×φ', '8')",
+     "cells": [
+      "S Sedna → H Haumea Dec 7.9948 8 whole (54.75)",
+      "H Juno – H Aldebaran Dec 8.0182 8 whole (0.78)",
+      "S Haumea → J Saturn Dec 8.0910 5×φ golden (95.21)"
+     ],
+     "note": "7.9948 - 8.0910",
+     "field": "also: 15 Swingalong"
+    },
+    {
+     "check": 11,
      "key": "('14.4444', '9×φ')",
      "cells": [
       "S Eris → J Chiron Dec 14.4421 14.4444 ninth (97.53)",
       "H Mercury – H Gonggong Dec 14.4442 14.4444 ninth (99.74)",
+      "H Gonggong – H Antares Dec 14.4455 14.4444 ninth (98.84)",
       "S Sedna → H Sun Dec 14.5657 9×φ golden (80.04)"
      ],
      "note": "14.4421 - 14.5657",
@@ -3151,12 +3733,15 @@
      "check": 11,
      "key": "('10×φ^2', '26')",
      "cells": [
+      "J Pluto – J Aldebaran Dec 25.9898 26 whole (24.15)",
       "S Transpluto → H Ceres Dec 25.9944 26 whole (52.09)",
       "S Ceres → J Transpluto Dec 26.0150 26 whole (6.28)",
+      "S Ketu → H Aldebaran Dec 26.0172 26 whole (1.99)",
+      "S Ketu → J Aldebaran Dec 26.0180 26 whole (0.99)",
       "H Vesta – H Haumea Dec 26.1839 10×φ^2 phi power (94.67)"
      ],
-     "note": "25.9944 - 26.1839",
-     "field": "also: 3 Rohaan, 14 Ocean Quest"
+     "note": "25.9898 - 26.1839",
+     "field": "also: 3 Rohaan, 5 Saint Lawrence, 14 Ocean Quest"
     },
     {
      "check": 11,
@@ -3172,6 +3757,17 @@
     },
     {
      "check": 11,
+     "key": "('10×φ^5', '111.111')",
+     "cells": [
+      "H Mercury – H Antares RA 110.9056 10×φ^5 phi power (98.60)",
+      "J Pallas – J Chiron RA 110.9246 10×φ^5 phi power (91.91)",
+      "S Quaoar → H Uranus RA 111.1211 111.111 ninth (98.37)"
+     ],
+     "note": "110.9056 - 111.1211",
+     "field": "also: 1 Art Power, 12 Believing"
+    },
+    {
+     "check": 11,
      "key": "('154', '95×φ')",
      "cells": [
       "J Ketu – J Orcus RA 153.7036 95×φ golden (49.34)",
@@ -3180,6 +3776,22 @@
      ],
      "note": "153.7036 - 153.9936",
      "field": "also: 5 Saint Lawrence"
+    },
+    {
+     "check": 12,
+     "key": "(14,)",
+     "cells": [
+      "H Makemake – H Sedna RA 140.0199 140 whole (0.00)",
+      "H Eris – H Regulus Dec 14.0176 14 whole (1.43)",
+      "S Neptune → H Uranus Dec 14.0072 14 whole (40.90)",
+      "S Neptune → H Transpluto Dec 13.9894 14 whole (22.15)",
+      "S Venus → H Rahu Dec 14.0004 14 whole (96.43)",
+      "S Orcus → H Antares Dec 14.0051 14 whole (55.54)",
+      "J Ceres – J Transpluto Dec 13.9942 14 whole (50.50)",
+      "S Orcus → J Antares Dec 14.0054 14 whole (53.42)"
+     ],
+     "note": "14 and 140",
+     "field": "also: 1 Art Power, 8 Makarova, 11 Vadream, 13 Magical Sunset"
     },
     {
      "check": 12,
@@ -3196,13 +3808,25 @@
      "check": 12,
      "key": "(1,)",
      "cells": [
+      "H Neptune – H Antares RA 99.9892 100 whole (21.07)",
+      "S Eris → H Eris RA 0.9875 1 whole (13.89)",
+      "S Saturn → H Gonggong Dec 1.0082 1 whole (34.83)",
+      "S Haumea → J Transpluto Dec 0.9909 1 whole (29.77)"
+     ],
+     "note": "1 and 100",
+     "field": "also: 1 Art Power, 2 Kinross, 3 Rohaan, 5 Saint Lawrence, 7 Mill Stream, 8 Makarova, 9 Sandrine, 11 Vadream, 12 Believing, 13 Magical Sunset, 14 Ocean Quest, 15 Swingalong"
+    },
+    {
+     "check": 12,
+     "key": "(1,)",
+     "cells": [
       "S Eris → H Eris RA 0.9875 1 whole (13.89)",
       "S Ceres → H Jupiter Dec 9.9983 10 whole (83.28)",
       "S Saturn → H Gonggong Dec 1.0082 1 whole (34.83)",
       "S Haumea → J Transpluto Dec 0.9909 1 whole (29.77)"
      ],
      "note": "1 and 10",
-     "field": "also: 1 Art Power, 2 Kinross, 3 Rohaan, 5 Saint Lawrence, 7 Mill Stream, 8 Makarova, 9 Sandrine, 11 Vadream, 12 Believing, 14 Ocean Quest, 15 Swingalong"
+     "field": "also: 1 Art Power, 2 Kinross, 3 Rohaan, 5 Saint Lawrence, 7 Mill Stream, 8 Makarova, 9 Sandrine, 11 Vadream, 12 Believing, 13 Magical Sunset, 14 Ocean Quest, 15 Swingalong"
     },
     {
      "check": 12,
@@ -3215,6 +3839,16 @@
      ],
      "note": "2 and 20",
      "field": "also: 1 Art Power, 2 Kinross, 3 Rohaan, 4 Run To Freedom, 5 Saint Lawrence, 6 Spycatcher, 7 Mill Stream, 9 Sandrine, 11 Vadream, 12 Believing, 13 Magical Sunset, 14 Ocean Quest"
+    },
+    {
+     "check": 12,
+     "key": "(10,)",
+     "cells": [
+      "H Neptune – H Antares RA 99.9892 100 whole (21.07)",
+      "S Ceres → H Jupiter Dec 9.9983 10 whole (83.28)"
+     ],
+     "note": "10 and 100",
+     "field": "also: 1 Art Power, 7 Mill Stream, 11 Vadream, 12 Believing"
     },
     {
      "check": 12,
@@ -3236,30 +3870,19 @@
       "S Sedna → J Jupiter Dec 15.9968 16 whole (70.45)"
      ],
      "note": "16 and 160",
-     "field": "also: 6 Spycatcher, 8 Makarova, 11 Vadream, 14 Ocean Quest"
-    },
-    {
-     "check": 12,
-     "key": "(14,)",
-     "cells": [
-      "H Makemake – H Sedna RA 140.0199 140 whole (0.00)",
-      "S Neptune → H Uranus Dec 14.0072 14 whole (40.90)",
-      "S Neptune → H Transpluto Dec 13.9894 14 whole (22.15)",
-      "S Venus → H Rahu Dec 14.0004 14 whole (96.43)",
-      "J Ceres – J Transpluto Dec 13.9942 14 whole (50.50)"
-     ],
-     "note": "14 and 140",
-     "field": "also: 8 Makarova, 11 Vadream, 13 Magical Sunset"
+     "field": "also: 6 Spycatcher, 8 Makarova, 11 Vadream, 14 Ocean Quest, 15 Swingalong"
     },
     {
      "check": 12,
      "key": "(7,)",
      "cells": [
       "H Saturn – H Chiron RA 70.0070 70 whole (42.39)",
-      "S Uranus → H Transpluto Dec 6.9880 7 whole (16.05)"
+      "S Rahu → H Aldebaran Dec 6.9982 7 whole (82.67)",
+      "S Uranus → H Transpluto Dec 6.9880 7 whole (16.05)",
+      "S Rahu → J Aldebaran Dec 6.9990 7 whole (90.37)"
      ],
      "note": "7 and 70",
-     "field": "also: 15 Swingalong"
+     "field": "also: 2 Kinross, 15 Swingalong"
     },
     {
      "check": 12,
@@ -3267,10 +3890,11 @@
      "cells": [
       "S Eris → H Makemake RA 170.0063 170 whole (47.17)",
       "J Ceres – J Gonggong Dec 16.9817 17 whole (0.73)",
-      "J Juno – J Haumea Dec 16.9892 17 whole (21.37)"
+      "J Juno – J Haumea Dec 16.9892 17 whole (21.37)",
+      "J Makemake – J Aldebaran Dec 16.9976 17 whole (77.32)"
      ],
      "note": "17 and 170",
-     "field": "also: 3 Rohaan, 5 Saint Lawrence, 6 Spycatcher, 12 Believing"
+     "field": "also: 3 Rohaan, 5 Saint Lawrence, 6 Spycatcher, 7 Mill Stream, 8 Makarova, 12 Believing, 14 Ocean Quest"
     },
     {
      "check": 12,
@@ -3372,7 +3996,17 @@
       "J Neptune – J Orcus Dec 21.0327 13×φ golden (89.61)"
      ],
      "note": "",
-     "field": "also: 2 Kinross, 4 Run To Freedom"
+     "field": "also: 2 Kinross, 4 Run To Freedom, 14 Ocean Quest"
+    },
+    {
+     "check": 10,
+     "key": "(14,)",
+     "cells": [
+      "S Orcus → J Antares Dec 14.0044 14 whole (60.95)",
+      "S Vesta → H Pallas Dec 22.6589 14×φ golden (64.41)"
+     ],
+     "note": "",
+     "field": "also: 1 Art Power, 2 Kinross, 9 Sandrine, 10 Sense Of Duty"
     },
     {
      "check": 10,
@@ -3393,7 +4027,7 @@
       "S Juno → J Saturn RA 158.5579 98×φ golden (50.23)"
      ],
      "note": "",
-     "field": "also: 1 Art Power"
+     "field": "also: 1 Art Power, 13 Magical Sunset"
     },
     {
      "check": 11,
@@ -3404,6 +4038,7 @@
       "S Makemake → H Transpluto Dec 9.9876 10 whole (14.37)",
       "S Orcus → J Pallas Dec 9.9881 10 whole (16.56)",
       "S Sun → J Neptune Dec 9.9997 10 ninth (97.79)",
+      "H Jupiter – H Antares Dec 10.0111 10 whole (19.99)",
       "S Sun → J Uranus Dec 10.0117 10 whole (17.12)"
      ],
      "note": "9.9834 - 10.0117",
@@ -3415,6 +4050,7 @@
      "cells": [
       "S Chiron → H Eris RA 10.9810 11 whole (0.25)",
       "H Mercury – H Juno RA 11.0064 11 whole (45.97)",
+      "H Quaoar – H Antares Dec 11.0165 11 whole (3.02)",
       "S Ketu → J Uranus Dec 11.0989 φ^5 phi power (70.91)"
      ],
      "note": "10.9810 - 11.0989",
@@ -3425,13 +4061,14 @@
      "key": "('13', '8×φ')",
      "cells": [
       "J Sun – J Chiron Dec 12.9451 8×φ golden (95.02)",
+      "H Makemake – H Regulus Dec 12.9928 13 whole (40.96)",
       "J Neptune – J Vesta Dec 12.9984 13 whole (84.52)",
       "J Uranus – J Vesta Dec 13.0104 13 whole (22.83)",
       "J Orcus – J Transpluto Dec 13.0151 13 whole (6.07)",
       "S Ceres → J Orcus Dec 13.0160 13 whole (3.92)"
      ],
      "note": "12.9451 - 13.0160",
-     "field": "also: 2 Kinross, 3 Rohaan, 5 Saint Lawrence, 8 Makarova, 15 Swingalong"
+     "field": "also: 1 Art Power, 2 Kinross, 3 Rohaan, 5 Saint Lawrence, 8 Makarova, 15 Swingalong"
     },
     {
      "check": 11,
@@ -3468,18 +4105,21 @@
       "J Neptune – J Orcus Dec 21.0327 13×φ golden (89.61)"
      ],
      "note": "20.9842 - 21.0327",
-     "field": "also: 4 Run To Freedom"
+     "field": "also: 4 Run To Freedom, 12 Believing"
     },
     {
      "check": 11,
      "key": "('24', '24.14')",
      "cells": [
+      "J Pallas – J Antares Dec 23.9925 24 whole (39.23)",
       "J Pallas – J Haumea Dec 24.0113 24 whole (19.04)",
+      "J Saturn – J Fomalhaut Dec 24.0133 24 whole (11.30)",
+      "H Gonggong – H Regulus Dec 24.0159 24 whole (4.23)",
       "S Saturn → J Mars RA 24.0165 24 whole (3.11)",
       "S Haumea → H Orcus Dec 24.1478 24.14 silver (90.81)"
      ],
-     "note": "24.0113 - 24.1478",
-     "field": "also: 9 Sandrine, 12 Believing"
+     "note": "23.9925 - 24.1478",
+     "field": "also: 1 Art Power, 9 Sandrine, 12 Believing"
     },
     {
      "check": 11,
@@ -3497,10 +4137,23 @@
      "field": "also: 6 Spycatcher"
     },
     {
+     "check": 11,
+     "key": "('157', '97×φ')",
+     "cells": [
+      "S Jupiter → J Pluto RA 156.9359 97×φ golden (34.52)",
+      "J Mars – J Regulus RA 156.9403 97×φ golden (52.33)",
+      "J Sedna – J Antares RA 156.9535 97×φ golden (75.45)",
+      "S Neptune → H Transpluto RA 156.9996 157 whole (96.49)"
+     ],
+     "note": "156.9359 - 156.9996",
+     "field": "also: 5 Saint Lawrence, 12 Believing, 15 Swingalong"
+    },
+    {
      "check": 12,
      "key": "(11,)",
      "cells": [
       "H Mercury – H Juno RA 11.0064 11 whole (45.97)",
+      "H Quaoar – H Antares Dec 11.0165 11 whole (3.02)",
       "S Chiron → H Eris RA 10.9810 11 whole (0.25)",
       "S Vesta → H Neptune RA 109.9908 110 whole (29.01)"
      ],
@@ -3512,6 +4165,7 @@
      "key": "(10,)",
      "cells": [
       "H Eris – H Gonggong Dec 9.9834 10 whole (2.84)",
+      "H Jupiter – H Antares Dec 10.0111 10 whole (19.99)",
       "H Uranus – H Juno Dec 9.9858 10 whole (8.53)",
       "S Makemake → H Transpluto Dec 9.9876 10 whole (14.37)",
       "S Ketu → J Mercury RA 100.0193 100 whole (0.11)",
@@ -3519,7 +4173,7 @@
       "S Orcus → J Pallas Dec 9.9881 10 whole (16.56)"
      ],
      "note": "10 and 100",
-     "field": "also: 1 Art Power, 7 Mill Stream, 12 Believing"
+     "field": "also: 1 Art Power, 7 Mill Stream, 10 Sense Of Duty, 12 Believing"
     },
     {
      "check": 12,
@@ -3527,6 +4181,8 @@
      "cells": [
       "H Eris – H Gonggong Dec 9.9834 10 whole (2.84)",
       "H Jupiter – H Quaoar Dec 1.0055 1 whole (52.82)",
+      "H Jupiter – H Antares Dec 10.0111 10 whole (19.99)",
+      "H Rahu – H Aldebaran Dec 0.9971 1 whole (73.02)",
       "H Uranus – H Juno Dec 9.9858 10 whole (8.53)",
       "S Rahu → H Uranus Dec 1.0065 1 whole (45.81)",
       "S Gonggong → H Gonggong Dec 0.9953 1 whole (58.68)",
@@ -3536,20 +4192,21 @@
       "S Orcus → J Pallas Dec 9.9881 10 whole (16.56)"
      ],
      "note": "1 and 10",
-     "field": "also: 1 Art Power, 2 Kinross, 3 Rohaan, 5 Saint Lawrence, 7 Mill Stream, 8 Makarova, 9 Sandrine, 10 Sense Of Duty, 12 Believing, 14 Ocean Quest, 15 Swingalong"
+     "field": "also: 1 Art Power, 2 Kinross, 3 Rohaan, 5 Saint Lawrence, 7 Mill Stream, 8 Makarova, 9 Sandrine, 10 Sense Of Duty, 12 Believing, 13 Magical Sunset, 14 Ocean Quest, 15 Swingalong"
     },
     {
      "check": 12,
      "key": "(1,)",
      "cells": [
       "H Jupiter – H Quaoar Dec 1.0055 1 whole (52.82)",
+      "H Rahu – H Aldebaran Dec 0.9971 1 whole (73.02)",
       "S Rahu → H Uranus Dec 1.0065 1 whole (45.81)",
       "S Gonggong → H Gonggong Dec 0.9953 1 whole (58.68)",
       "S Transpluto → H Transpluto Dec 1.0161 1 whole (3.86)",
       "S Ketu → J Mercury RA 100.0193 100 whole (0.11)"
      ],
      "note": "1 and 100",
-     "field": "also: 1 Art Power, 2 Kinross, 3 Rohaan, 5 Saint Lawrence, 7 Mill Stream, 8 Makarova, 9 Sandrine, 10 Sense Of Duty, 12 Believing, 14 Ocean Quest, 15 Swingalong"
+     "field": "also: 1 Art Power, 2 Kinross, 3 Rohaan, 5 Saint Lawrence, 7 Mill Stream, 8 Makarova, 9 Sandrine, 10 Sense Of Duty, 12 Believing, 13 Magical Sunset, 14 Ocean Quest, 15 Swingalong"
     },
     {
      "check": 12,
@@ -3559,6 +4216,7 @@
       "H Sun – H Rahu Dec 4.0012 4 whole (88.47)",
       "S Rahu → H Sun Dec 3.9938 4 whole (47.36)",
       "S Orcus → H Jupiter Dec 3.9949 4 whole (55.32)",
+      "J Chiron – J Regulus RA 39.9891 40 whole (20.81)",
       "S Sun → J Quaoar Dec 3.9873 4 whole (13.17)",
       "S Vesta → J Sun Dec 40.0065 40 whole (45.73)",
       "S Orcus → J Rahu Dec 4.0186 4 whole (0.46)"
@@ -3571,6 +4229,7 @@
      "key": "(3,)",
      "cells": [
       "H Sun – H Uranus Dec 2.9873 3 whole (13.32)",
+      "H Sun – H Aldebaran Dec 3.0041 3 whole (63.22)",
       "S Orcus → H Quaoar Dec 2.9894 3 whole (22.14)",
       "J Rahu – J Haumea Dec 29.9808 30 whole (0.15)",
       "S Sun → J Vesta Dec 2.9987 3 whole (87.60)",
@@ -3586,7 +4245,8 @@
      "cells": [
       "H Mercury – H Saturn RA 89.9977 90 whole (78.04)",
       "S Neptune → H Neptune RA 9.0187 9 whole (0.42)",
-      "S Gonggong → H Eris Dec 8.9881 9 whole (16.21)"
+      "S Gonggong → H Eris Dec 8.9881 9 whole (16.21)",
+      "J Uranus – J Fomalhaut Dec 9.0167 9 whole (2.79)"
      ],
      "note": "9 and 90",
      "field": "also: 4 Run To Freedom, 6 Spycatcher, 7 Mill Stream, 8 Makarova, 9 Sandrine, 12 Believing, 14 Ocean Quest"
@@ -3603,7 +4263,7 @@
       "S Sedna → J Vesta Dec 16.0034 16 whole (68.50)"
      ],
      "note": "16 and 160",
-     "field": "also: 6 Spycatcher, 8 Makarova, 10 Sense Of Duty, 14 Ocean Quest"
+     "field": "also: 6 Spycatcher, 8 Makarova, 10 Sense Of Duty, 14 Ocean Quest, 15 Swingalong"
     },
     {
      "check": 12,
@@ -3629,20 +4289,22 @@
       "S Sun → H Mercury Dec 11.9801 12 whole (0.00)"
      ],
      "note": "12 and 120",
-     "field": "also: 2 Kinross, 6 Spycatcher, 12 Believing"
+     "field": "also: 2 Kinross, 6 Spycatcher, 12 Believing, 14 Ocean Quest"
     },
     {
      "check": 12,
      "key": "(14,)",
      "cells": [
       "S Makemake → H Venus RA 140.0103 140 whole (23.41)",
+      "S Orcus → H Antares Dec 14.0059 14 whole (49.46)",
       "J Saturn – J Ketu Dec 14.0198 14 whole (0.01)",
       "S Vesta → J Ceres RA 139.9829 140 whole (2.11)",
       "S Haumea → J Orcus Dec 13.9899 14 whole (24.30)",
+      "S Orcus → J Antares Dec 14.0044 14 whole (60.95)",
       "S Sedna → J Saturn Dec 14.0173 14 whole (1.86)"
      ],
      "note": "14 and 140",
-     "field": "also: 8 Makarova, 10 Sense Of Duty, 13 Magical Sunset"
+     "field": "also: 1 Art Power, 8 Makarova, 10 Sense Of Duty, 13 Magical Sunset"
     },
     {
      "check": 12,
@@ -3746,6 +4408,17 @@
     },
     {
      "check": 10,
+     "key": "(7,)",
+     "cells": [
+      "S Rahu → H Aldebaran Dec 6.9983 7 whole (83.70)",
+      "S Rahu → J Aldebaran Dec 7.0014 7 whole (86.81)",
+      "S Mercury → J Gonggong Dec 11.3273 7×φ golden (93.42)"
+     ],
+     "note": "",
+     "field": "also: 1 Art Power, 2 Kinross, 5 Saint Lawrence, 8 Makarova, 9 Sandrine, 10 Sense Of Duty, 14 Ocean Quest, 15 Swingalong"
+    },
+    {
+     "check": 10,
      "key": "(12,)",
      "cells": [
       "S Mercury → J Pluto Dec 12.0049 12 whole (57.27)",
@@ -3763,7 +4436,7 @@
       "H Mars – H Chiron Dec 27.5046 17×φ golden (88.13)"
      ],
      "note": "",
-     "field": "also: 1 Art Power, 15 Swingalong"
+     "field": "also: 1 Art Power, 4 Run To Freedom, 8 Makarova, 10 Sense Of Duty, 15 Swingalong"
     },
     {
      "check": 10,
@@ -3773,7 +4446,7 @@
       "J Venus – J Ceres Dec 35.5993 22×φ golden (84.95)"
      ],
      "note": "",
-     "field": "also: 2 Kinross, 7 Mill Stream, 13 Magical Sunset"
+     "field": "also: 1 Art Power, 2 Kinross, 7 Mill Stream, 13 Magical Sunset"
     },
     {
      "check": 10,
@@ -3794,7 +4467,7 @@
       "S Mercury → J Uranus RA 50.1577 31×φ golden (91.85)"
      ],
      "note": "",
-     "field": "only"
+     "field": "also: 14 Ocean Quest"
     },
     {
      "check": 10,
@@ -3810,6 +4483,7 @@
      "check": 10,
      "key": "(94,)",
      "cells": [
+      "H Sun – H Aldebaran RA 93.9944 94 whole (51.51)",
       "S Uranus → J Jupiter RA 94.0033 94 whole (69.71)",
       "J Sun – J Sedna RA 152.0899 94×φ golden (70.04)"
      ],
@@ -3843,6 +4517,8 @@
      "cells": [
       "S Quaoar → J Neptune Dec 6.9826 7 whole (1.75)",
       "S Jupiter → H Venus Dec 6.9904 7 whole (27.25)",
+      "S Rahu → H Aldebaran Dec 6.9983 7 whole (83.70)",
+      "S Rahu → J Aldebaran Dec 7.0014 7 whole (86.81)",
       "J Mars – J Ketu Dec 7.0086 7 whole (32.71)",
       "S Neptune → H Neptune RA 7.0711 7.07 sqrt2 (99.95)"
      ],
@@ -3886,16 +4562,28 @@
     },
     {
      "check": 11,
+     "key": "('13×φ', '21')",
+     "cells": [
+      "H Mercury – H Aldebaran Dec 21.0116 21 whole (17.77)",
+      "S Quaoar → J Orcus Dec 21.0121 21 whole (15.66)",
+      "S Neptune → H Sun RA 21.0333 13×φ golden (93.24)"
+     ],
+     "note": "21.0116 - 21.0333",
+     "field": "also: 4 Run To Freedom, 11 Vadream"
+    },
+    {
+     "check": 11,
      "key": "('24', '24.14')",
      "cells": [
       "J Mars – J Pallas Dec 23.9855 24 whole (7.68)",
       "S Haumea → J Mercury RA 23.9978 24 whole (79.35)",
+      "J Mars – J Aldebaran Dec 24.0064 24 whole (46.39)",
       "S Ketu → J Rahu Dec 24.0136 24 whole (10.33)",
       "S Rahu → J Ketu Dec 24.0136 24 whole (10.33)",
       "S Juno → J Orcus RA 24.1468 24.14 silver (92.37)"
      ],
      "note": "23.9855 - 24.1468",
-     "field": "also: 9 Sandrine, 11 Vadream"
+     "field": "also: 1 Art Power, 9 Sandrine, 11 Vadream"
     },
     {
      "check": 11,
@@ -3907,7 +4595,7 @@
       "H Ceres – H Juno RA 111.1944 111.111 ninth (86.36)"
      ],
      "note": "110.9224 - 111.1944",
-     "field": "also: 1 Art Power"
+     "field": "also: 1 Art Power, 10 Sense Of Duty"
     },
     {
      "check": 11,
@@ -3937,12 +4625,35 @@
      "cells": [
       "S Orcus → H Uranus RA 127.8165 79×φ golden (55.90)",
       "S Makemake → J Gonggong RA 127.8321 79×φ golden (59.56)",
+      "H Venus – H Antares RA 127.8430 79×φ golden (18.72)",
       "S Moon → J Ceres RA 127.8440 79×φ golden (16.25)",
       "J Vesta – J Sedna RA 127.8479 79×φ golden (7.99)",
       "H Pallas – H Vesta RA 127.9977 128 whole (78.37)"
      ],
      "note": "127.8165 - 127.9977",
      "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('157', '97×φ')",
+     "cells": [
+      "S Pluto → J Transpluto RA 156.9523 97×φ golden (82.10)",
+      "J Vesta – J Aldebaran RA 156.9801 97×φ golden (0.23)",
+      "S Orcus → H Chiron RA 157.0006 157 whole (94.25)"
+     ],
+     "note": "156.9523 - 157.0006",
+     "field": "also: 5 Saint Lawrence, 11 Vadream, 15 Swingalong"
+    },
+    {
+     "check": 11,
+     "key": "('107×φ', '173')",
+     "cells": [
+      "S Sedna → H Antares RA 173.0086 173 whole (32.48)",
+      "S Sedna → J Antares RA 173.0141 173 whole (8.84)",
+      "S Ceres → J Rahu RA 173.1284 107×φ golden (92.21)"
+     ],
+     "note": "173.0086 - 173.1284",
+     "field": "also: 1 Art Power, 15 Swingalong"
     },
     {
      "check": 11,
@@ -3966,7 +4677,7 @@
       "S Mercury → J Pluto Dec 12.0049 12 whole (57.27)"
      ],
      "note": "12 and 120",
-     "field": "also: 2 Kinross, 6 Spycatcher, 11 Vadream"
+     "field": "also: 2 Kinross, 6 Spycatcher, 11 Vadream, 14 Ocean Quest"
     },
     {
      "check": 12,
@@ -3975,6 +4686,7 @@
       "H Mercury – H Gonggong RA 4.0054 4 whole (53.50)",
       "H Chiron – H Sedna Dec 3.9856 4 whole (7.78)",
       "H Neptune – H Eris Dec 4.0055 4 whole (52.23)",
+      "H Haumea – H Regulus Dec 4.0107 4 whole (21.61)",
       "S Chiron → H Sun RA 39.9914 40 whole (32.56)",
       "S Orcus → H Orcus RA 3.9844 4 whole (4.73)"
      ],
@@ -3983,13 +4695,29 @@
     },
     {
      "check": 12,
+     "key": "(2,)",
+     "cells": [
+      "H Transpluto – H Regulus RA 2.0083 2 whole (34.10)",
+      "S Transpluto → H Uranus Dec 2.0064 2 whole (46.55)",
+      "J Rahu – J Aldebaran Dec 2.0068 2 whole (43.63)",
+      "J Transpluto – J Aldebaran Dec 1.9841 2 whole (4.13)",
+      "S Ketu → J Mars RA 1.9940 2 whole (49.28)",
+      "S Pallas → J Pluto RA 19.9917 20 whole (33.99)",
+      "S Ketu → J Mars Dec 2.0140 2 whole (9.05)"
+     ],
+     "note": "2 and 20",
+     "field": "also: 1 Art Power, 2 Kinross, 3 Rohaan, 4 Run To Freedom, 5 Saint Lawrence, 6 Spycatcher, 7 Mill Stream, 9 Sandrine, 10 Sense Of Duty, 11 Vadream, 13 Magical Sunset, 14 Ocean Quest"
+    },
+    {
+     "check": 12,
      "key": "(15,)",
      "cells": [
+      "H Rahu – H Antares RA 150.0037 150 whole (66.63)",
       "H Chiron – H Orcus Dec 15.0031 15 whole (71.48)",
       "S Gonggong → J Orcus RA 150.0066 150 whole (45.01)"
      ],
      "note": "15 and 150",
-     "field": "also: 3 Rohaan, 4 Run To Freedom"
+     "field": "also: 3 Rohaan, 4 Run To Freedom, 14 Ocean Quest"
     },
     {
      "check": 12,
@@ -4010,10 +4738,25 @@
      "cells": [
       "S Sun → H Makemake RA 8.0122 8 whole (15.30)",
       "S Sedna → H Mercury RA 80.0005 80 whole (94.79)",
+      "J Gonggong – J Fomalhaut Dec 7.9908 8 whole (28.96)",
       "S Mercury → J Orcus RA 79.9940 80 whole (48.69)"
      ],
      "note": "8 and 80",
      "field": "also: 4 Run To Freedom, 6 Spycatcher, 7 Mill Stream, 8 Makarova, 9 Sandrine, 11 Vadream, 13 Magical Sunset, 14 Ocean Quest"
+    },
+    {
+     "check": 12,
+     "key": "(5,)",
+     "cells": [
+      "H Makemake – H Antares Dec 50.0033 50 whole (69.93)",
+      "S Ketu → H Mercury Dec 5.0057 5 whole (50.95)",
+      "S Ketu → J Ketu Dec 4.9946 5 whole (53.12)",
+      "S Rahu → J Rahu Dec 4.9946 5 whole (53.12)",
+      "S Rahu → J Transpluto Dec 5.0173 5 whole (1.82)",
+      "S Uranus → J Haumea Dec 4.9915 5 whole (33.30)"
+     ],
+     "note": "5 and 50",
+     "field": "also: 4 Run To Freedom, 5 Saint Lawrence, 7 Mill Stream"
     },
     {
      "check": 12,
@@ -4032,23 +4775,12 @@
      "check": 12,
      "key": "(3,)",
      "cells": [
+      "H Ketu – H Antares RA 29.9963 30 whole (66.63)",
       "S Mars → H Sun Dec 2.9924 3 whole (38.19)",
       "S Sun → J Venus RA 30.0050 30 whole (56.02)"
      ],
      "note": "3 and 30",
      "field": "also: 3 Rohaan, 5 Saint Lawrence, 6 Spycatcher, 7 Mill Stream, 8 Makarova, 9 Sandrine, 10 Sense Of Duty, 11 Vadream, 13 Magical Sunset, 15 Swingalong"
-    },
-    {
-     "check": 12,
-     "key": "(2,)",
-     "cells": [
-      "S Transpluto → H Uranus Dec 2.0064 2 whole (46.55)",
-      "S Ketu → J Mars RA 1.9940 2 whole (49.28)",
-      "S Pallas → J Pluto RA 19.9917 20 whole (33.99)",
-      "S Ketu → J Mars Dec 2.0140 2 whole (9.05)"
-     ],
-     "note": "2 and 20",
-     "field": "also: 1 Art Power, 2 Kinross, 3 Rohaan, 4 Run To Freedom, 5 Saint Lawrence, 6 Spycatcher, 7 Mill Stream, 9 Sandrine, 10 Sense Of Duty, 11 Vadream, 13 Magical Sunset, 14 Ocean Quest"
     },
     {
      "check": 12,
@@ -4059,7 +4791,7 @@
       "S Pluto → J Neptune Dec 0.9801 1 whole (0.00)"
      ],
      "note": "1 and 100",
-     "field": "also: 1 Art Power, 2 Kinross, 3 Rohaan, 5 Saint Lawrence, 7 Mill Stream, 8 Makarova, 9 Sandrine, 10 Sense Of Duty, 11 Vadream, 14 Ocean Quest, 15 Swingalong"
+     "field": "also: 1 Art Power, 2 Kinross, 3 Rohaan, 5 Saint Lawrence, 7 Mill Stream, 8 Makarova, 9 Sandrine, 10 Sense Of Duty, 11 Vadream, 13 Magical Sunset, 14 Ocean Quest, 15 Swingalong"
     },
     {
      "check": 12,
@@ -4071,7 +4803,7 @@
       "S Pluto → J Neptune Dec 0.9801 1 whole (0.00)"
      ],
      "note": "1 and 10",
-     "field": "also: 1 Art Power, 2 Kinross, 3 Rohaan, 5 Saint Lawrence, 7 Mill Stream, 8 Makarova, 9 Sandrine, 10 Sense Of Duty, 11 Vadream, 14 Ocean Quest, 15 Swingalong"
+     "field": "also: 1 Art Power, 2 Kinross, 3 Rohaan, 5 Saint Lawrence, 7 Mill Stream, 8 Makarova, 9 Sandrine, 10 Sense Of Duty, 11 Vadream, 13 Magical Sunset, 14 Ocean Quest, 15 Swingalong"
     },
     {
      "check": 12,
@@ -4082,7 +4814,7 @@
       "S Transpluto → J Makemake RA 9.9825 10 whole (1.62)"
      ],
      "note": "10 and 100",
-     "field": "also: 1 Art Power, 7 Mill Stream, 11 Vadream"
+     "field": "also: 1 Art Power, 7 Mill Stream, 10 Sense Of Duty, 11 Vadream"
     },
     {
      "check": 12,
@@ -4094,7 +4826,7 @@
       "S Rahu → J Mars Dec 17.0050 17 whole (56.17)"
      ],
      "note": "17 and 170",
-     "field": "also: 3 Rohaan, 5 Saint Lawrence, 6 Spycatcher, 10 Sense Of Duty"
+     "field": "also: 3 Rohaan, 5 Saint Lawrence, 6 Spycatcher, 7 Mill Stream, 8 Makarova, 10 Sense Of Duty, 14 Ocean Quest"
     },
     {
      "check": 13,
@@ -4116,14 +4848,15 @@
    "items": [
     {
      "check": 7,
-     "key": "('count', 4)",
+     "key": "('count', 5)",
      "cells": [
       "111.111 ninth",
       "122.222 ninth",
       "133.333 ninth",
-      "144.444 ninth"
+      "144.444 ninth",
+      "φ^10 phi power"
      ],
-     "note": "4 numbers",
+     "note": "5 numbers",
      "field": ""
     },
     {
@@ -4152,7 +4885,7 @@
       "S Rahu → J Saturn RA 32.3633 20×φ golden (84.62)"
      ],
      "note": "",
-     "field": "also: 5 Saint Lawrence, 6 Spycatcher, 15 Swingalong"
+     "field": "also: 4 Run To Freedom, 5 Saint Lawrence, 6 Spycatcher, 15 Swingalong"
     },
     {
      "check": 10,
@@ -4162,7 +4895,7 @@
       "H Venus – H Eris RA 35.5955 22×φ golden (92.68)"
      ],
      "note": "",
-     "field": "also: 2 Kinross, 7 Mill Stream, 12 Believing"
+     "field": "also: 1 Art Power, 2 Kinross, 7 Mill Stream, 12 Believing"
     },
     {
      "check": 10,
@@ -4196,6 +4929,27 @@
      "field": "only"
     },
     {
+     "check": 10,
+     "key": "(77,)",
+     "cells": [
+      "S Jupiter → J Uranus RA 77.0028 77 whole (74.07)",
+      "S Quaoar → H Regulus RA 124.5851 77×φ golden (79.54)",
+      "S Quaoar → J Regulus RA 124.5924 77×φ golden (78.05)"
+     ],
+     "note": "",
+     "field": "also: 14 Ocean Quest"
+    },
+    {
+     "check": 10,
+     "key": "(98,)",
+     "cells": [
+      "J Quaoar – J Fomalhaut RA 98.0028 98 whole (74.24)",
+      "S Uranus → J Pluto RA 158.5762 98×φ golden (52.92)"
+     ],
+     "note": "",
+     "field": "also: 1 Art Power, 11 Vadream"
+    },
+    {
      "check": 11,
      "key": "('4', '4.14')",
      "cells": [
@@ -4214,7 +4968,9 @@
       "S Haumea → H Chiron Dec 10.9816 11 whole (0.63)",
       "S Transpluto → J Orcus Dec 10.9854 11 whole (7.35)",
       "S Eris → H Gonggong Dec 10.9874 11 whole (13.59)",
+      "J Uranus – J Antares Dec 11.0039 11 whole (64.43)",
       "S Rahu → J Juno Dec 11.0075 11 whole (38.96)",
+      "J Neptune – J Fomalhaut Dec 11.0098 11 whole (25.79)",
       "S Moon → J Gonggong Dec 11.0148 11 whole (6.71)",
       "S Transpluto → J Rahu Dec 11.0901 φ^5 phi power (99.84)",
       "S Gonggong → H Pluto Dec 11.0984 φ^5 phi power (72.66)",
@@ -4229,10 +4985,12 @@
      "cells": [
       "S Pallas → H Gonggong Dec 13.9864 14 whole (10.15)",
       "S Vesta → H Pallas Dec 14.0033 14 whole (69.72)",
+      "S Orcus → H Antares Dec 14.0046 14 whole (58.99)",
+      "S Orcus → J Antares Dec 14.0063 14 whole (46.94)",
       "J Mars – J Rahu RA 14.1464 14.14 sqrt2 (88.19)"
      ],
      "note": "13.9864 - 14.1464",
-     "field": "also: 6 Spycatcher"
+     "field": "also: 1 Art Power, 2 Kinross, 3 Rohaan, 5 Saint Lawrence, 6 Spycatcher"
     },
     {
      "check": 11,
@@ -4244,7 +5002,7 @@
       "S Ceres → H Vesta Dec 24.2799 15×φ golden (50.54)"
      ],
      "note": "23.9977 - 24.2799",
-     "field": "also: 2 Kinross, 3 Rohaan"
+     "field": "also: 3 Rohaan"
     },
     {
      "check": 11,
@@ -4254,10 +5012,23 @@
       "J Ceres – J Makemake Dec 25.9865 26 whole (10.57)",
       "S Quaoar → H Transpluto Dec 26.0034 26 whole (69.22)",
       "J Jupiter – J Eris Dec 26.0104 26 whole (23.22)",
+      "S Ketu → H Aldebaran Dec 26.0177 26 whole (1.33)",
+      "S Ketu → J Aldebaran Dec 26.0184 26 whole (0.66)",
       "S Mars → J Ceres RA 26.1809 10×φ^2 phi power (99.10)"
      ],
      "note": "25.8833 - 26.1809",
      "field": "also: 15 Swingalong"
+    },
+    {
+     "check": 11,
+     "key": "('23×φ', '37')",
+     "cells": [
+      "J Pallas – J Antares Dec 36.9829 37 whole (2.06)",
+      "H Sun – H Neptune RA 36.9968 37 whole (70.38)",
+      "S Mars → J Mars Dec 37.2189 23×φ golden (76.32)"
+     ],
+     "note": "36.9829 - 37.2189",
+     "field": "also: 4 Run To Freedom"
     },
     {
      "check": 11,
@@ -4270,6 +5041,17 @@
       "S Orcus → H Vesta RA 115.0064 115 whole (46.55)"
      ],
      "note": "114.8516 - 115.0064",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('149', '92×φ')",
+     "cells": [
+      "S Vesta → J Neptune RA 148.8630 92×φ golden (77.76)",
+      "H Rahu – H Antares RA 148.9843 149 whole (4.59)",
+      "S Pallas → H Neptune RA 149.0054 149 whole (53.62)"
+     ],
+     "note": "148.8630 - 149.0054",
      "field": "only"
     },
     {
@@ -4293,10 +5075,23 @@
       "H Haumea – H Makemake RA 18.0103 18 whole (23.30)",
       "S Sun → H Eris RA 179.9946 180 whole (53.55)",
       "S Saturn → H Pallas Dec 17.9888 18 whole (19.55)",
+      "J Juno – J Aldebaran Dec 18.0069 18 whole (42.91)",
       "S Orcus → J Sedna Dec 17.9805 18 whole (0.06)"
      ],
      "note": "18 and 180",
      "field": "also: 6 Spycatcher, 7 Mill Stream, 9 Sandrine"
+    },
+    {
+     "check": 12,
+     "key": "(1,)",
+     "cells": [
+      "H Orcus – H Transpluto RA 1.0044 1 whole (61.02)",
+      "S Makemake → H Juno RA 0.9999 1 whole (99.38)",
+      "J Transpluto – J Antares RA 100.0140 100 whole (9.12)",
+      "J Saturn – J Aldebaran Dec 0.9841 1 whole (4.18)"
+     ],
+     "note": "1 and 100",
+     "field": "also: 1 Art Power, 2 Kinross, 3 Rohaan, 5 Saint Lawrence, 7 Mill Stream, 8 Makarova, 9 Sandrine, 10 Sense Of Duty, 11 Vadream, 12 Believing, 14 Ocean Quest, 15 Swingalong"
     },
     {
      "check": 12,
@@ -4332,10 +5127,13 @@
      "cells": [
       "S Pallas → H Gonggong Dec 13.9864 14 whole (10.15)",
       "S Vesta → H Pallas Dec 14.0033 14 whole (69.72)",
-      "J Sun – J Uranus RA 140.0030 140 whole (72.02)"
+      "S Orcus → H Antares Dec 14.0046 14 whole (58.99)",
+      "J Mercury – J Antares RA 139.9848 140 whole (5.70)",
+      "J Sun – J Uranus RA 140.0030 140 whole (72.02)",
+      "S Orcus → J Antares Dec 14.0063 14 whole (46.94)"
      ],
      "note": "14 and 140",
-     "field": "also: 8 Makarova, 10 Sense Of Duty, 11 Vadream"
+     "field": "also: 1 Art Power, 8 Makarova, 10 Sense Of Duty, 11 Vadream"
     },
     {
      "check": 12,
@@ -4402,10 +5200,12 @@
      "key": "(7,)",
      "cells": [
       "H Sun – H Neptune Dec 7.0008 7 whole (91.70)",
+      "S Rahu → H Aldebaran Dec 6.9979 7 whole (80.16)",
+      "S Rahu → J Aldebaran Dec 6.9997 7 whole (97.23)",
       "S Ketu → H Ceres Dec 11.3259 7×φ golden (97.73)"
      ],
      "note": "",
-     "field": "also: 1 Art Power, 5 Saint Lawrence, 8 Makarova, 15 Swingalong"
+     "field": "also: 1 Art Power, 2 Kinross, 5 Saint Lawrence, 8 Makarova, 9 Sandrine, 10 Sense Of Duty, 12 Believing, 15 Swingalong"
     },
     {
      "check": 10,
@@ -4416,6 +5216,16 @@
      ],
      "note": "",
      "field": "also: 3 Rohaan, 4 Run To Freedom, 5 Saint Lawrence, 6 Spycatcher, 9 Sandrine, 11 Vadream, 12 Believing, 15 Swingalong"
+    },
+    {
+     "check": 10,
+     "key": "(13,)",
+     "cells": [
+      "S Uranus → J Orcus Dec 12.9989 13 whole (89.14)",
+      "H Neptune – H Antares Dec 21.0313 13×φ golden (81.33)"
+     ],
+     "note": "",
+     "field": "also: 2 Kinross, 4 Run To Freedom, 11 Vadream"
     },
     {
      "check": 10,
@@ -4439,6 +5249,27 @@
     },
     {
      "check": 10,
+     "key": "(31,)",
+     "cells": [
+      "J Ceres – J Regulus Dec 31.0017 31 whole (83.44)",
+      "S Quaoar → J Mercury RA 50.1586 31×φ golden (97.14)"
+     ],
+     "note": "",
+     "field": "also: 12 Believing"
+    },
+    {
+     "check": 10,
+     "key": "(77,)",
+     "cells": [
+      "S Transpluto → J Quaoar RA 77.0007 77 whole (92.83)",
+      "S Quaoar → H Regulus RA 124.5857 77×φ golden (82.81)",
+      "S Quaoar → J Regulus RA 124.5829 77×φ golden (67.71)"
+     ],
+     "note": "",
+     "field": "also: 13 Magical Sunset"
+    },
+    {
+     "check": 10,
      "key": "(90,)",
      "cells": [
       "S Pallas → H Pallas RA 90.0014 90 whole (86.32)",
@@ -4458,7 +5289,7 @@
       "H Vesta – H Sedna RA 2.0198 2 whole (0.01)"
      ],
      "note": "1.8885 - 2.0198",
-     "field": "only"
+     "field": "also: 4 Run To Freedom"
     },
     {
      "check": 11,
@@ -4478,6 +5309,7 @@
      "cells": [
       "S Uranus → J Pluto Dec 17.7727 17.7778 ninth (95.99)",
       "S Sedna → J Vesta Dec 17.7924 11×φ golden (66.53)",
+      "H Gonggong – H Fomalhaut Dec 17.9807 18 whole (0.12)",
       "S Chiron → J Venus RA 17.9828 18 whole (1.91)",
       "H Uranus – H Neptune Dec 17.9888 18 whole (19.16)",
       "H Neptune – H Ketu Dec 17.9927 18 whole (40.58)",
@@ -4485,7 +5317,7 @@
       "J Sun – J Transpluto Dec 18.0056 18 whole (51.98)"
      ],
      "note": "17.7727 - 18.0056",
-     "field": "also: 1 Art Power"
+     "field": "also: 1 Art Power, 7 Mill Stream"
     },
     {
      "check": 11,
@@ -4500,7 +5332,7 @@
       "S Haumea → J Eris Dec 24.2789 15×φ golden (55.06)"
      ],
      "note": "23.9883 - 24.2789",
-     "field": "also: 5 Saint Lawrence, 7 Mill Stream"
+     "field": "also: 2 Kinross, 5 Saint Lawrence, 7 Mill Stream"
     },
     {
      "check": 11,
@@ -4510,12 +5342,14 @@
       "S Pluto → J Ketu Dec 26.0027 26 whole (74.52)",
       "S Gonggong → J Venus Dec 26.0028 26 whole (74.28)",
       "J Mars – J Ketu Dec 26.0084 26 whole (33.92)",
+      "S Ketu → H Aldebaran Dec 26.0169 26 whole (2.40)",
+      "S Ketu → J Aldebaran Dec 26.0187 26 whole (0.41)",
       "J Jupiter – J Makemake Dec 26.0195 26 whole (0.07)",
       "S Quaoar → H Transpluto Dec 26.1832 10×φ^2 phi power (95.66)",
       "S Juno → H Mars Dec 26.1878 10×φ^2 phi power (88.87)"
      ],
      "note": "25.9862 - 26.1878",
-     "field": "also: 3 Rohaan, 10 Sense Of Duty"
+     "field": "also: 3 Rohaan, 5 Saint Lawrence, 10 Sense Of Duty"
     },
     {
      "check": 11,
@@ -4556,13 +5390,27 @@
     },
     {
      "check": 12,
+     "key": "(16,)",
+     "cells": [
+      "H Mercury – H Antares Dec 15.9949 16 whole (55.24)",
+      "J Mercury – J Makemake RA 160.0143 160 whole (8.16)",
+      "J Mercury – J Orcus RA 159.9988 160 whole (88.50)",
+      "J Pallas – J Haumea Dec 15.9945 16 whole (52.67)",
+      "S Uranus → J Juno Dec 16.0175 16 whole (1.62)"
+     ],
+     "note": "16 and 160",
+     "field": "also: 6 Spycatcher, 8 Makarova, 10 Sense Of Duty, 11 Vadream, 15 Swingalong"
+    },
+    {
+     "check": 12,
      "key": "(6,)",
      "cells": [
       "H Neptune – H Juno Dec 6.0093 6 whole (28.64)",
       "S Neptune → H Neptune RA 5.9913 6 whole (31.78)",
       "S Quaoar → H Gonggong RA 60.0051 60 whole (55.33)",
       "S Juno → H Eris Dec 6.0036 6 whole (67.04)",
-      "S Uranus → H Makemake Dec 5.9851 6 whole (6.38)"
+      "S Uranus → H Makemake Dec 5.9851 6 whole (6.38)",
+      "J Uranus – J Fomalhaut Dec 6.0017 6 whole (83.71)"
      ],
      "note": "6 and 60",
      "field": "also: 2 Kinross, 3 Rohaan, 4 Run To Freedom, 5 Saint Lawrence, 7 Mill Stream, 9 Sandrine, 10 Sense Of Duty, 12 Believing"
@@ -4578,7 +5426,19 @@
       "S Transpluto → J Pluto Dec 10.0177 10 whole (1.32)"
      ],
      "note": "1 and 10",
-     "field": "also: 1 Art Power, 2 Kinross, 3 Rohaan, 5 Saint Lawrence, 7 Mill Stream, 8 Makarova, 9 Sandrine, 10 Sense Of Duty, 11 Vadream, 12 Believing, 15 Swingalong"
+     "field": "also: 1 Art Power, 2 Kinross, 3 Rohaan, 5 Saint Lawrence, 7 Mill Stream, 8 Makarova, 9 Sandrine, 10 Sense Of Duty, 11 Vadream, 12 Believing, 13 Magical Sunset, 15 Swingalong"
+    },
+    {
+     "check": 12,
+     "key": "(12,)",
+     "cells": [
+      "S Juno → H Haumea Dec 11.9910 12 whole (30.20)",
+      "S Ketu → H Jupiter Dec 11.9956 12 whole (60.67)",
+      "J Saturn – J Regulus RA 120.0129 120 whole (12.75)",
+      "S Mercury → J Saturn Dec 11.9936 12 whole (46.44)"
+     ],
+     "note": "12 and 120",
+     "field": "also: 2 Kinross, 6 Spycatcher, 11 Vadream, 12 Believing"
     },
     {
      "check": 12,
@@ -4593,6 +5453,17 @@
     },
     {
      "check": 12,
+     "key": "(15,)",
+     "cells": [
+      "H Saturn – H Regulus RA 149.9853 150 whole (7.13)",
+      "S Mars → H Sun Dec 14.9816 15 whole (0.66)",
+      "S Sedna → H Rahu Dec 14.9881 15 whole (16.38)"
+     ],
+     "note": "15 and 150",
+     "field": "also: 3 Rohaan, 4 Run To Freedom, 12 Believing"
+    },
+    {
+     "check": 12,
      "key": "(9,)",
      "cells": [
       "S Pallas → H Pallas RA 90.0014 90 whole (86.32)",
@@ -4603,20 +5474,20 @@
     },
     {
      "check": 12,
-     "key": "(16,)",
+     "key": "(17,)",
      "cells": [
-      "J Mercury – J Makemake RA 160.0143 160 whole (8.16)",
-      "J Mercury – J Orcus RA 159.9988 160 whole (88.50)",
-      "J Pallas – J Haumea Dec 15.9945 16 whole (52.67)",
-      "S Uranus → J Juno Dec 16.0175 16 whole (1.62)"
+      "H Orcus – H Fomalhaut RA 169.9839 170 whole (3.72)",
+      "J Quaoar – J Sedna Dec 17.0043 17 whole (61.54)",
+      "S Ketu → J Pallas Dec 16.9891 17 whole (20.69)"
      ],
-     "note": "16 and 160",
-     "field": "also: 6 Spycatcher, 8 Makarova, 10 Sense Of Duty, 11 Vadream"
+     "note": "17 and 170",
+     "field": "also: 3 Rohaan, 5 Saint Lawrence, 6 Spycatcher, 7 Mill Stream, 8 Makarova, 10 Sense Of Duty, 12 Believing"
     },
     {
      "check": 12,
      "key": "(4,)",
      "cells": [
+      "J Jupiter – J Aldebaran RA 39.9815 40 whole (0.56)",
       "J Makemake – J Orcus RA 39.9869 40 whole (11.89)",
       "S Neptune → J Sun RA 4.0146 4 whole (7.20)"
      ],
@@ -4742,12 +5613,14 @@
      "check": 10,
      "key": "(7,)",
      "cells": [
+      "S Rahu → H Aldebaran Dec 6.9980 7 whole (81.41)",
       "J Venus – J Eris Dec 6.9956 7 whole (60.89)",
       "S Pallas → J Mercury Dec 7.0034 7 whole (68.69)",
+      "S Rahu → J Aldebaran Dec 7.0011 7 whole (88.89)",
       "H Mars – H Gonggong Dec 11.3260 7×φ golden (98.55)"
      ],
      "note": "",
-     "field": "also: 1 Art Power, 5 Saint Lawrence, 8 Makarova, 14 Ocean Quest"
+     "field": "also: 1 Art Power, 2 Kinross, 5 Saint Lawrence, 8 Makarova, 9 Sandrine, 10 Sense Of Duty, 12 Believing, 14 Ocean Quest"
     },
     {
      "check": 10,
@@ -4778,7 +5651,7 @@
       "S Pluto → J Rahu RA 27.5084 17×φ golden (89.08)"
      ],
      "note": "",
-     "field": "also: 1 Art Power, 12 Believing"
+     "field": "also: 1 Art Power, 4 Run To Freedom, 8 Makarova, 10 Sense Of Duty, 12 Believing"
     },
     {
      "check": 10,
@@ -4788,7 +5661,7 @@
       "S Ketu → J Jupiter Dec 32.3658 20×φ golden (70.69)"
      ],
      "note": "",
-     "field": "also: 5 Saint Lawrence, 6 Spycatcher, 13 Magical Sunset"
+     "field": "also: 4 Run To Freedom, 5 Saint Lawrence, 6 Spycatcher, 13 Magical Sunset"
     },
     {
      "check": 10,
@@ -4817,6 +5690,8 @@
       "S Gonggong → H Mercury RA 6.8547 φ^4 phi power (96.70)",
       "S Ceres → H Neptune Dec 6.9906 7 whole (27.99)",
       "J Venus – J Eris Dec 6.9956 7 whole (60.89)",
+      "S Rahu → H Aldebaran Dec 6.9980 7 whole (81.41)",
+      "S Rahu → J Aldebaran Dec 7.0011 7 whole (88.89)",
       "S Pallas → J Mercury Dec 7.0034 7 whole (68.69)"
      ],
      "note": "6.8547 - 7.0034",
@@ -4832,13 +5707,14 @@
       "S Makemake → J Ketu Dec 8.0908 5×φ golden (95.94)"
      ],
      "note": "7.9874 - 8.0908",
-     "field": "only"
+     "field": "also: 10 Sense Of Duty"
     },
     {
      "check": 11,
      "key": "('12', '12.2222')",
      "cells": [
       "S Orcus → J Juno Dec 12.0049 12 whole (56.72)",
+      "J Mars – J Regulus Dec 12.0089 12 whole (30.60)",
       "H Juno – H Transpluto Dec 12.0153 12 whole (5.51)",
       "S Mercury → J Venus RA 12.2223 12.2222 ninth (99.91)",
       "S Eris → J Quaoar Dec 12.2291 12.2222 ninth (90.43)"
@@ -4856,7 +5732,7 @@
       "S Saturn → J Vesta Dec 13.0151 13 whole (6.00)"
      ],
      "note": "12.9404 - 13.0151",
-     "field": "also: 2 Kinross, 3 Rohaan, 5 Saint Lawrence, 8 Makarova, 11 Vadream"
+     "field": "also: 1 Art Power, 2 Kinross, 3 Rohaan, 5 Saint Lawrence, 8 Makarova, 11 Vadream"
     },
     {
      "check": 11,
@@ -4876,6 +5752,8 @@
       "S Mercury → H Venus Dec 25.8878 16×φ golden (95.69)",
       "J Mercury – J Ceres Dec 25.9884 26 whole (17.82)",
       "H Jupiter – H Chiron Dec 26.0000 26 whole (99.87)",
+      "J Juno – J Antares Dec 26.0103 26 whole (23.52)",
+      "S Ketu → H Aldebaran Dec 26.0170 26 whole (2.19)",
       "S Saturn → J Ketu Dec 26.0186 26 whole (0.48)",
       "S Ceres → H Makemake RA 26.1848 10×φ^2 phi power (93.34)",
       "S Gonggong → H Chiron RA 26.1849 10×φ^2 phi power (93.22)"
@@ -4893,7 +5771,18 @@
       "S Gonggong → J Sun RA 157.0104 157 whole (23.02)"
      ],
      "note": "156.9261 - 157.0104",
-     "field": "only"
+     "field": "also: 5 Saint Lawrence, 11 Vadream, 12 Believing"
+    },
+    {
+     "check": 11,
+     "key": "('107×φ', '173')",
+     "cells": [
+      "S Sedna → H Antares RA 173.0067 173 whole (44.55)",
+      "S Sedna → J Antares RA 173.0100 173 whole (24.91)",
+      "S Neptune → J Mercury RA 173.1266 107×φ golden (81.89)"
+     ],
+     "note": "173.0067 - 173.1266",
+     "field": "also: 1 Art Power, 12 Believing"
     },
     {
      "check": 12,
@@ -4908,7 +5797,7 @@
       "S Sun → J Eris Dec 0.9945 1 whole (52.34)"
      ],
      "note": "1 and 10",
-     "field": "also: 1 Art Power, 2 Kinross, 3 Rohaan, 5 Saint Lawrence, 7 Mill Stream, 8 Makarova, 9 Sandrine, 10 Sense Of Duty, 11 Vadream, 12 Believing, 14 Ocean Quest"
+     "field": "also: 1 Art Power, 2 Kinross, 3 Rohaan, 5 Saint Lawrence, 7 Mill Stream, 8 Makarova, 9 Sandrine, 10 Sense Of Duty, 11 Vadream, 12 Believing, 13 Magical Sunset, 14 Ocean Quest"
     },
     {
      "check": 12,
@@ -4932,12 +5821,25 @@
       "H Jupiter – H Chiron RA 69.9975 70 whole (76.16)",
       "S Haumea → H Mars RA 70.0192 70 whole (0.16)",
       "S Ceres → H Neptune Dec 6.9906 7 whole (27.99)",
+      "S Rahu → H Aldebaran Dec 6.9980 7 whole (81.41)",
       "J Venus – J Eris Dec 6.9956 7 whole (60.89)",
       "S Haumea → J Ketu RA 69.9821 70 whole (1.15)",
-      "S Pallas → J Mercury Dec 7.0034 7 whole (68.69)"
+      "S Pallas → J Mercury Dec 7.0034 7 whole (68.69)",
+      "S Rahu → J Aldebaran Dec 7.0011 7 whole (88.89)"
      ],
      "note": "7 and 70",
-     "field": "also: 10 Sense Of Duty"
+     "field": "also: 2 Kinross, 10 Sense Of Duty"
+    },
+    {
+     "check": 12,
+     "key": "(16,)",
+     "cells": [
+      "S Juno → H Gonggong Dec 16.0056 16 whole (51.55)",
+      "J Ceres – J Chiron RA 15.9929 16 whole (41.54)",
+      "J Transpluto – J Fomalhaut RA 160.0141 160 whole (8.72)"
+     ],
+     "note": "16 and 160",
+     "field": "also: 6 Spycatcher, 8 Makarova, 10 Sense Of Duty, 11 Vadream, 14 Ocean Quest"
     },
     {
      "check": 12,

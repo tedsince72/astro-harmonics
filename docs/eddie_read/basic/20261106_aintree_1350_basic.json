@@ -42,6 +42,27 @@
     },
     {
      "check": 10,
+     "key": "(8,)",
+     "cells": [
+      "S Eris → H Sedna Dec 7.9974 8 whole (75.85)",
+      "S Transpluto → H Pallas Dec 8.0029 8 whole (73.45)",
+      "H Ceres – H Fomalhaut Dec 12.9431 8×φ golden (92.76)"
+     ],
+     "note": "",
+     "field": "also: 2 Bucephalus, 5 Lyssenko"
+    },
+    {
+     "check": 10,
+     "key": "(16,)",
+     "cells": [
+      "S Moon → H Sun Dec 16.0041 16 whole (63.44)",
+      "S Orcus → J Regulus Dec 25.8806 16×φ golden (56.87)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
      "key": "(17,)",
      "cells": [
       "J Ketu – J Juno Dec 17.0058 17 whole (50.54)",
@@ -71,6 +92,52 @@
      "field": "only"
     },
     {
+     "check": 10,
+     "key": "(30,)",
+     "cells": [
+      "S Eris → H Sedna RA 29.9993 30 whole (93.33)",
+      "J Rahu – J Pallas Dec 30.0042 30 whole (62.55)",
+      "H Mars – H Antares Dec 48.5431 30×φ golden (87.47)"
+     ],
+     "note": "",
+     "field": "also: 4 All In You"
+    },
+    {
+     "check": 10,
+     "key": "(83,)",
+     "cells": [
+      "S Chiron → J Mars RA 83.0044 83 whole (60.70)",
+      "H Pluto – H Aldebaran RA 134.2918 83×φ golden (71.40)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('7', 'φ^4')",
+     "cells": [
+      "S Uranus → J Aldebaran RA 6.8543 φ^4 phi power (99.10)",
+      "S Mars → J Mars Dec 6.9899 7 whole (24.31)",
+      "S Transpluto → H Haumea Dec 6.9994 7 whole (94.56)",
+      "S Pluto → H Ceres Dec 7.0028 7 whole (74.15)",
+      "J Pallas – J Transpluto Dec 7.0160 7 whole (4.01)",
+      "S Moon → H Eris Dec 7.0186 7 whole (0.49)"
+     ],
+     "note": "6.8543 - 7.0186",
+     "field": "also: 7 King Ulanda"
+    },
+    {
+     "check": 11,
+     "key": "('11', '11.1111')",
+     "cells": [
+      "S Pallas → H Eris RA 10.9814 11 whole (0.50)",
+      "H Quaoar – H Antares Dec 11.0063 11 whole (46.64)",
+      "S Pallas → H Vesta RA 11.1122 11.1111 ninth (98.24)"
+     ],
+     "note": "10.9814 - 11.1122",
+     "field": "also: 2 Bucephalus, 3 Manuelito, 5 Lyssenko, 6 Star Of Guiting, 7 King Ulanda"
+    },
+    {
      "check": 11,
      "key": "('11.1111', '7×φ')",
      "cells": [
@@ -79,7 +146,7 @@
       "S Gonggong → H Neptune RA 11.3294 7×φ golden (81.22)"
      ],
      "note": "11.1122 - 11.3294",
-     "field": "only"
+     "field": "also: 7 King Ulanda"
     },
     {
      "check": 11,
@@ -94,27 +161,75 @@
     },
     {
      "check": 11,
-     "key": "('18', 'φ^6')",
+     "key": "('13', '8×φ')",
      "cells": [
+      "H Ceres – H Fomalhaut Dec 12.9431 8×φ golden (92.76)",
+      "J Sun – J Neptune Dec 12.9865 13 whole (10.48)",
+      "H Mercury – H Sedna Dec 13.0176 13 whole (1.42)"
+     ],
+     "note": "12.9431 - 13.0176",
+     "field": "also: 2 Bucephalus, 5 Lyssenko"
+    },
+    {
+     "check": 11,
+     "key": "('17.7778', '18', 'φ^6')",
+     "cells": [
+      "H Gonggong – H Fomalhaut Dec 17.7781 17.7778 ninth (99.75)",
       "S Mars → J Makemake Dec 17.9465 φ^6 phi power (95.07)",
       "H Venus – H Transpluto Dec 17.9850 18 whole (6.14)",
       "S Ceres → J Juno Dec 17.9945 18 whole (52.86)",
       "H Ketu – H Vesta Dec 17.9996 18 whole (96.46)",
       "S Mars → H Eris Dec 18.0101 18 whole (24.72)"
      ],
-     "note": "17.9465 - 18.0101",
-     "field": "only"
+     "note": "17.7781 - 18.0101",
+     "field": "also: 2 Bucephalus"
     },
     {
      "check": 11,
      "key": "('13×φ', '21')",
      "cells": [
+      "J Pluto – J Aldebaran Dec 21.0002 21 whole (97.82)",
       "S Jupiter → H Venus Dec 21.0022 21 whole (79.50)",
       "S Orcus → H Sun Dec 21.0101 21 whole (24.73)",
       "S Chiron → H Orcus Dec 21.0310 13×φ golden (79.96)"
      ],
-     "note": "21.0022 - 21.0310",
+     "note": "21.0002 - 21.0310",
      "field": "also: 3 Manuelito, 4 All In You"
+    },
+    {
+     "check": 11,
+     "key": "('16×φ', '26')",
+     "cells": [
+      "S Orcus → J Regulus Dec 25.8806 16×φ golden (56.87)",
+      "H Vesta – H Fomalhaut Dec 25.9855 26 whole (7.48)",
+      "S Uranus → H Mercury Dec 25.9893 26 whole (21.43)",
+      "S Pluto → J Orcus Dec 25.9905 26 whole (27.41)",
+      "S Sun → J Antares RA 26.0199 26 whole (0.00)"
+     ],
+     "note": "25.8806 - 26.0199",
+     "field": "also: 4 All In You"
+    },
+    {
+     "check": 11,
+     "key": "('19×φ', '31')",
+     "cells": [
+      "S Makemake → J Pluto RA 30.7402 19×φ golden (85.51)",
+      "J Sedna – J Antares Dec 30.7420 19×φ golden (96.19)",
+      "S Moon → H Mars Dec 31.0170 31 whole (2.20)"
+     ],
+     "note": "30.7402 - 31.0170",
+     "field": "also: 2 Bucephalus, 5 Lyssenko, 6 Star Of Guiting"
+    },
+    {
+     "check": 11,
+     "key": "('44×φ', '71')",
+     "cells": [
+      "S Juno → J Pluto RA 71.0077 71 whole (37.69)",
+      "H Quaoar – H Fomalhaut RA 71.1933 44×φ golden (98.62)",
+      "S Quaoar → H Mercury RA 71.1961 44×φ golden (84.54)"
+     ],
+     "note": "71.0077 - 71.1961",
+     "field": "only"
     },
     {
      "check": 11,
@@ -129,11 +244,25 @@
      "field": "also: 2 Bucephalus"
     },
     {
+     "check": 11,
+     "key": "('108×φ', '175')",
+     "cells": [
+      "S Sedna → H Antares RA 174.7155 108×φ golden (0.00)",
+      "S Sedna → J Antares RA 174.7236 108×φ golden (6.53)",
+      "S Uranus → H Antares RA 174.7741 108×φ golden (3.40)",
+      "S Orcus → H Venus RA 175.0119 175 whole (16.30)"
+     ],
+     "note": "174.7155 - 175.0119",
+     "field": "also: 2 Bucephalus, 3 Manuelito, 4 All In You"
+    },
+    {
      "check": 12,
      "key": "(1,)",
      "cells": [
+      "H Juno – H Regulus Dec 0.9866 1 whole (10.96)",
       "H Pallas – H Haumea Dec 1.0034 1 whole (68.80)",
       "H Venus – H Neptune Dec 1.0132 1 whole (11.46)",
+      "H Transpluto – H Regulus Dec 0.9898 1 whole (24.21)",
       "S Sedna → H Mars RA 0.9922 1 whole (37.37)",
       "S Pluto → H Jupiter Dec 1.0119 1 whole (16.33)",
       "S Sun → H Neptune Dec 9.9807 10 whole (0.12)",
@@ -148,11 +277,37 @@
      "key": "(8,)",
      "cells": [
       "H Juno – H Vesta RA 80.0062 80 whole (47.58)",
+      "H Ketu – H Fomalhaut Dec 7.9858 8 whole (8.49)",
       "S Eris → H Sedna Dec 7.9974 8 whole (75.85)",
       "S Transpluto → H Pallas Dec 8.0029 8 whole (73.45)"
      ],
      "note": "8 and 80",
      "field": "also: 2 Bucephalus, 5 Lyssenko, 6 Star Of Guiting"
+    },
+    {
+     "check": 12,
+     "key": "(9,)",
+     "cells": [
+      "H Mercury – H Chiron Dec 9.0021 9 whole (80.26)",
+      "H Sun – H Eris Dec 8.9855 9 whole (7.50)",
+      "S Sedna → J Regulus RA 90.0191 90 whole (0.20)",
+      "S Rahu → J Neptune Dec 9.0074 9 whole (39.50)"
+     ],
+     "note": "9 and 90",
+     "field": "also: 2 Bucephalus, 3 Manuelito, 5 Lyssenko, 6 Star Of Guiting"
+    },
+    {
+     "check": 12,
+     "key": "(15,)",
+     "cells": [
+      "H Sun – H Mars Dec 15.0130 15 whole (12.38)",
+      "J Mercury – J Aldebaran RA 149.9904 150 whole (27.24)",
+      "J Sun – J Juno Dec 15.0145 15 whole (7.66)",
+      "S Transpluto → J Chiron RA 15.0092 15 whole (28.97)",
+      "S Vesta → J Gonggong Dec 15.0156 15 whole (4.85)"
+     ],
+     "note": "15 and 150",
+     "field": "also: 5 Lyssenko, 7 King Ulanda"
     },
     {
      "check": 12,
@@ -166,7 +321,19 @@
       "S Transpluto → J Pallas Dec 2.9915 3 whole (33.00)"
      ],
      "note": "3 and 30",
-     "field": "also: 2 Bucephalus, 4 All In You, 5 Lyssenko, 6 Star Of Guiting, 7 King Ulanda"
+     "field": "also: 2 Bucephalus, 3 Manuelito, 4 All In You, 5 Lyssenko, 6 Star Of Guiting, 7 King Ulanda"
+    },
+    {
+     "check": 12,
+     "key": "(16,)",
+     "cells": [
+      "H Mercury – H Regulus RA 159.9859 160 whole (8.60)",
+      "S Moon → H Sun Dec 16.0041 16 whole (63.44)",
+      "S Neptune → H Ceres Dec 16.0189 16 whole (0.30)",
+      "S Mercury → J Pluto RA 16.0072 16 whole (40.91)"
+     ],
+     "note": "16 and 160",
+     "field": "also: 3 Manuelito"
     },
     {
      "check": 12,
@@ -220,11 +387,12 @@
     },
     {
      "check": 7,
-     "key": "('count', 1)",
+     "key": "('count', 2)",
      "cells": [
-      "10 whole"
+      "10 whole",
+      "96 whole"
      ],
-     "note": "1 numbers",
+     "note": "2 numbers",
      "field": ""
     },
     {
@@ -265,13 +433,33 @@
     },
     {
      "check": 10,
+     "key": "(8,)",
+     "cells": [
+      "H Gonggong – H Fomalhaut RA 8.0008 8 whole (91.97)",
+      "S Chiron → H Eris Dec 12.9468 8×φ golden (84.96)"
+     ],
+     "note": "",
+     "field": "also: 1 Dedicated Hero, 5 Lyssenko"
+    },
+    {
+     "check": 10,
+     "key": "(15,)",
+     "cells": [
+      "S Ketu → H Eris Dec 14.9950 15 whole (56.59)",
+      "J Makemake – J Regulus RA 24.2760 15×φ golden (69.01)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
      "key": "(19,)",
      "cells": [
       "S Ketu → H Juno Dec 18.9981 19 whole (81.69)",
       "S Neptune → H Ketu RA 30.7442 19×φ golden (90.51)"
      ],
      "note": "",
-     "field": "only"
+     "field": "also: 6 Star Of Guiting, 7 King Ulanda"
     },
     {
      "check": 10,
@@ -291,7 +479,7 @@
       "J Mercury – J Gonggong RA 64.7275 40×φ golden (65.53)"
      ],
      "note": "",
-     "field": "only"
+     "field": "also: 5 Lyssenko"
     },
     {
      "check": 10,
@@ -306,6 +494,17 @@
     },
     {
      "check": 10,
+     "key": "(80,)",
+     "cells": [
+      "S Pluto → H Mercury RA 79.9954 80 whole (59.24)",
+      "S Orcus → J Pluto RA 80.0021 80 whole (80.06)",
+      "J Eris – J Regulus RA 129.4436 80×φ golden (94.59)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
      "key": "(109,)",
      "cells": [
       "S Vesta → H Vesta RA 108.9960 109 whole (64.38)",
@@ -314,6 +513,19 @@
      ],
      "note": "",
      "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('11', '11.1111')",
+     "cells": [
+      "S Mercury → J Mercury Dec 10.9890 11 whole (20.20)",
+      "S Eris → H Pallas RA 11.0049 11 whole (57.16)",
+      "J Gonggong – J Fomalhaut Dec 11.0065 11 whole (45.25)",
+      "S Mercury → J Vesta Dec 11.0066 11 whole (45.11)",
+      "H Pallas – H Regulus Dec 11.1152 11.1111 ninth (93.38)"
+     ],
+     "note": "10.9890 - 11.1152",
+     "field": "also: 1 Dedicated Hero, 3 Manuelito, 5 Lyssenko, 6 Star Of Guiting, 7 King Ulanda"
     },
     {
      "check": 11,
@@ -335,7 +547,21 @@
       "S Ceres → H Transpluto Dec 12.9996 13 whole (96.42)"
      ],
      "note": "12.9468 - 12.9996",
-     "field": "also: 5 Lyssenko"
+     "field": "also: 1 Dedicated Hero, 5 Lyssenko"
+    },
+    {
+     "check": 11,
+     "key": "('14', '14.14')",
+     "cells": [
+      "S Chiron → J Vesta Dec 13.9808 14 whole (0.16)",
+      "H Chiron – H Aldebaran Dec 13.9870 14 whole (12.33)",
+      "S Mercury → J Vesta RA 13.9909 14 whole (29.69)",
+      "S Pallas → H Juno Dec 13.9977 14 whole (78.54)",
+      "J Pallas – J Gonggong Dec 14.0151 14 whole (6.01)",
+      "J Gonggong – J Fomalhaut RA 14.1435 14.14 sqrt2 (96.10)"
+     ],
+     "note": "13.9808 - 14.1435",
+     "field": "also: 4 All In You, 6 Star Of Guiting, 7 King Ulanda"
     },
     {
      "check": 11,
@@ -364,7 +590,7 @@
       "S Gonggong → H Sedna Dec 18.0083 18 whole (34.34)"
      ],
      "note": "17.7752 - 18.0083",
-     "field": "only"
+     "field": "also: 1 Dedicated Hero"
     },
     {
      "check": 11,
@@ -375,21 +601,33 @@
       "S Ketu → H Juno Dec 18.9981 19 whole (81.69)"
      ],
      "note": "18.8821 - 18.9981",
-     "field": "only"
+     "field": "also: 7 King Ulanda"
     },
     {
      "check": 11,
-     "key": "('24', '24.14')",
+     "key": "('15×φ', '24', '24.14')",
      "cells": [
       "S Transpluto → J Juno Dec 23.9833 24 whole (2.67)",
       "S Saturn → J Jupiter Dec 23.9873 24 whole (13.31)",
       "S Rahu → H Transpluto Dec 23.9884 24 whole (17.68)",
       "S Juno → J Ketu Dec 23.9893 24 whole (21.84)",
       "J Ketu – J Juno Dec 24.0039 24 whole (64.59)",
-      "S Eris → H Vesta Dec 24.1478 24.14 silver (90.87)"
+      "S Eris → H Vesta Dec 24.1478 24.14 silver (90.87)",
+      "J Makemake – J Regulus RA 24.2760 15×φ golden (69.01)"
      ],
-     "note": "23.9833 - 24.1478",
-     "field": "only"
+     "note": "23.9833 - 24.2760",
+     "field": "also: 3 Manuelito"
+    },
+    {
+     "check": 11,
+     "key": "('19×φ', '31')",
+     "cells": [
+      "S Neptune → H Ketu RA 30.7442 19×φ golden (90.51)",
+      "J Sedna – J Antares Dec 30.9864 31 whole (10.11)",
+      "J Quaoar – J Aldebaran Dec 30.9987 31 whole (87.16)"
+     ],
+     "note": "30.7442 - 30.9987",
+     "field": "also: 1 Dedicated Hero, 5 Lyssenko, 6 Star Of Guiting"
     },
     {
      "check": 11,
@@ -398,11 +636,12 @@
       "S Ketu → H Pluto Dec 33.9728 21×φ golden (66.77)",
       "S Juno → H Ceres Dec 33.9766 21×φ golden (87.44)",
       "S Transpluto → J Mars Dec 33.9835 34 whole (3.13)",
+      "H Saturn – H Regulus Dec 33.9891 34 whole (20.59)",
       "J Mars – J Ketu Dec 34.0042 34 whole (62.44)",
       "S Ceres → J Rahu Dec 34.0051 34 whole (55.58)"
      ],
      "note": "33.9728 - 34.0051",
-     "field": "also: 4 All In You"
+     "field": "also: 4 All In You, 7 King Ulanda"
     },
     {
      "check": 11,
@@ -462,6 +701,29 @@
     },
     {
      "check": 11,
+     "key": "('100×φ^1', '162')",
+     "cells": [
+      "S Jupiter → H Neptune RA 161.8076 100×φ^1 phi power (98.96)",
+      "H Sun – H Antares RA 161.8896 100×φ^1 phi power (79.82)",
+      "S Sun → J Ketu RA 162.0119 162 whole (16.30)"
+     ],
+     "note": "161.8076 - 162.0119",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('108×φ', '175')",
+     "cells": [
+      "S Sedna → J Antares RA 174.7255 108×φ golden (9.90)",
+      "S Orcus → H Gonggong RA 174.7299 108×φ golden (20.26)",
+      "S Uranus → H Antares RA 174.7721 108×φ golden (6.08)",
+      "H Gonggong – H Orcus RA 175.0079 175 whole (36.43)"
+     ],
+     "note": "174.7255 - 175.0079",
+     "field": "also: 1 Dedicated Hero, 3 Manuelito, 4 All In You"
+    },
+    {
+     "check": 11,
      "key": "('10×φ^6', '111×φ')",
      "cells": [
       "S Uranus → J Quaoar RA 179.4797 10×φ^6 phi power (91.92)",
@@ -470,6 +732,32 @@
      ],
      "note": "179.4797 - 179.6174",
      "field": "only"
+    },
+    {
+     "check": 12,
+     "key": "(8,)",
+     "cells": [
+      "H Gonggong – H Fomalhaut RA 8.0008 8 whole (91.97)",
+      "S Pluto → H Mercury RA 79.9954 80 whole (59.24)",
+      "S Pallas → H Gonggong Dec 7.9872 8 whole (12.95)",
+      "S Orcus → J Pluto RA 80.0021 80 whole (80.06)"
+     ],
+     "note": "8 and 80",
+     "field": "also: 1 Dedicated Hero, 5 Lyssenko, 6 Star Of Guiting"
+    },
+    {
+     "check": 12,
+     "key": "(14,)",
+     "cells": [
+      "H Saturn – H Vesta RA 140.0198 140 whole (0.01)",
+      "H Chiron – H Aldebaran Dec 13.9870 14 whole (12.33)",
+      "S Pallas → H Juno Dec 13.9977 14 whole (78.54)",
+      "J Pallas – J Gonggong Dec 14.0151 14 whole (6.01)",
+      "S Mercury → J Vesta RA 13.9909 14 whole (29.69)",
+      "S Chiron → J Vesta Dec 13.9808 14 whole (0.16)"
+     ],
+     "note": "14 and 140",
+     "field": "also: 3 Manuelito, 4 All In You, 5 Lyssenko, 6 Star Of Guiting"
     },
     {
      "check": 12,
@@ -509,6 +797,32 @@
     },
     {
      "check": 12,
+     "key": "(1,)",
+     "cells": [
+      "H Eris – H Gonggong Dec 10.0136 10 whole (10.37)",
+      "H Haumea – H Aldebaran Dec 0.9834 1 whole (2.85)",
+      "S Eris → H Pallas Dec 1.0077 1 whole (38.03)",
+      "S Jupiter → H Vesta Dec 9.9986 10 whole (86.82)",
+      "S Transpluto → H Ceres Dec 10.0079 10 whole (36.45)",
+      "J Mars – J Juno Dec 10.0003 10 whole (97.33)",
+      "S Juno → J Mars Dec 10.0148 10 whole (6.63)"
+     ],
+     "note": "1 and 10",
+     "field": "also: 1 Dedicated Hero, 3 Manuelito, 4 All In You, 5 Lyssenko, 6 Star Of Guiting, 7 King Ulanda"
+    },
+    {
+     "check": 12,
+     "key": "(1,)",
+     "cells": [
+      "H Haumea – H Aldebaran Dec 0.9834 1 whole (2.85)",
+      "S Eris → H Pallas Dec 1.0077 1 whole (38.03)",
+      "S Eris → J Juno RA 100.0147 100 whole (7.15)"
+     ],
+     "note": "1 and 100",
+     "field": "also: 1 Dedicated Hero, 3 Manuelito, 4 All In You, 5 Lyssenko, 6 Star Of Guiting, 7 King Ulanda"
+    },
+    {
+     "check": 12,
      "key": "(9,)",
      "cells": [
       "H Saturn – H Chiron RA 90.0037 90 whole (66.80)",
@@ -516,7 +830,7 @@
       "S Neptune → J Ceres Dec 8.9936 9 whole (46.30)"
      ],
      "note": "9 and 90",
-     "field": "also: 3 Manuelito, 6 Star Of Guiting"
+     "field": "also: 1 Dedicated Hero, 3 Manuelito, 5 Lyssenko, 6 Star Of Guiting"
     },
     {
      "check": 12,
@@ -532,55 +846,7 @@
       "S Rahu → J Rahu Dec 2.9830 3 whole (2.19)"
      ],
      "note": "3 and 30",
-     "field": "also: 1 Dedicated Hero, 4 All In You, 5 Lyssenko, 6 Star Of Guiting, 7 King Ulanda"
-    },
-    {
-     "check": 12,
-     "key": "(1,)",
-     "cells": [
-      "H Eris – H Gonggong Dec 10.0136 10 whole (10.37)",
-      "S Eris → H Pallas Dec 1.0077 1 whole (38.03)",
-      "S Jupiter → H Vesta Dec 9.9986 10 whole (86.82)",
-      "S Transpluto → H Ceres Dec 10.0079 10 whole (36.45)",
-      "J Mars – J Juno Dec 10.0003 10 whole (97.33)",
-      "S Juno → J Mars Dec 10.0148 10 whole (6.63)"
-     ],
-     "note": "1 and 10",
      "field": "also: 1 Dedicated Hero, 3 Manuelito, 4 All In You, 5 Lyssenko, 6 Star Of Guiting, 7 King Ulanda"
-    },
-    {
-     "check": 12,
-     "key": "(1,)",
-     "cells": [
-      "S Eris → H Pallas Dec 1.0077 1 whole (38.03)",
-      "S Eris → J Juno RA 100.0147 100 whole (7.15)"
-     ],
-     "note": "1 and 100",
-     "field": "also: 1 Dedicated Hero, 3 Manuelito, 4 All In You, 5 Lyssenko, 6 Star Of Guiting, 7 King Ulanda"
-    },
-    {
-     "check": 12,
-     "key": "(14,)",
-     "cells": [
-      "H Saturn – H Vesta RA 140.0198 140 whole (0.01)",
-      "S Pallas → H Juno Dec 13.9977 14 whole (78.54)",
-      "J Pallas – J Gonggong Dec 14.0151 14 whole (6.01)",
-      "S Mercury → J Vesta RA 13.9909 14 whole (29.69)",
-      "S Chiron → J Vesta Dec 13.9808 14 whole (0.16)"
-     ],
-     "note": "14 and 140",
-     "field": "also: 3 Manuelito, 4 All In You, 5 Lyssenko, 6 Star Of Guiting"
-    },
-    {
-     "check": 12,
-     "key": "(8,)",
-     "cells": [
-      "S Pluto → H Mercury RA 79.9954 80 whole (59.24)",
-      "S Pallas → H Gonggong Dec 7.9872 8 whole (12.95)",
-      "S Orcus → J Pluto RA 80.0021 80 whole (80.06)"
-     ],
-     "note": "8 and 80",
-     "field": "also: 1 Dedicated Hero, 5 Lyssenko, 6 Star Of Guiting"
     },
     {
      "check": 13,
@@ -642,11 +908,12 @@
     },
     {
      "check": 7,
-     "key": "('count', 1)",
+     "key": "('count', 2)",
      "cells": [
-      "15.5556 ninth"
+      "15.5556 ninth",
+      "24.14 silver"
      ],
-     "note": "1 numbers",
+     "note": "2 numbers",
      "field": ""
     },
     {
@@ -654,6 +921,15 @@
      "key": "('J', 'Transpluto', '19')",
      "cells": [
       "J Jupiter – J Transpluto Dec 18.9950 19 whole (56.24)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 9,
+     "key": "('J', 'Regulus', 'φ^6')",
+     "cells": [
+      "J Jupiter – J Regulus Dec 17.9429 φ^6 phi power (97.07)"
      ],
      "note": "",
      "field": "only"
@@ -695,6 +971,16 @@
      "cells": [
       "H Makemake – H Quaoar Dec 39.0011 39 whole (89.28)",
       "S Chiron → H Sun RA 63.1081 39×φ golden (72.69)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(95,)",
+     "cells": [
+      "J Pluto – J Regulus RA 94.9973 95 whole (74.56)",
+      "J Orcus – J Fomalhaut RA 153.7126 95×φ golden (95.92)"
      ],
      "note": "",
      "field": "only"
@@ -744,7 +1030,7 @@
       "S Saturn → J Rahu Dec 11.1184 11.1111 ninth (88.00)"
      ],
      "note": "10.9842 - 11.1184",
-     "field": "also: 5 Lyssenko, 6 Star Of Guiting"
+     "field": "also: 1 Dedicated Hero, 2 Bucephalus, 5 Lyssenko, 6 Star Of Guiting, 7 King Ulanda"
     },
     {
      "check": 11,
@@ -759,15 +1045,17 @@
     },
     {
      "check": 11,
-     "key": "('11×φ', '18')",
+     "key": "('11×φ', '18', 'φ^6')",
      "cells": [
       "S Neptune → J Vesta Dec 17.7993 11×φ golden (94.57)",
+      "J Jupiter – J Regulus Dec 17.9429 φ^6 phi power (97.07)",
       "S Neptune → J Uranus Dec 17.9850 18 whole (6.25)",
+      "H Neptune – H Regulus Dec 18.0007 18 whole (93.50)",
       "J Vesta – J Orcus Dec 18.0036 18 whole (67.28)",
       "H Uranus – H Neptune Dec 18.0149 18 whole (6.58)"
      ],
      "note": "17.7993 - 18.0149",
-     "field": "also: 6 Star Of Guiting"
+     "field": "only"
     },
     {
      "check": 11,
@@ -787,10 +1075,33 @@
      "cells": [
       "S Pluto → H Venus Dec 23.9989 24 whole (89.66)",
       "S Chiron → H Chiron RA 24.1403 24.14 silver (97.00)",
+      "J Pallas – J Regulus Dec 24.1431 24.14 silver (98.48)",
       "H Vesta – H Orcus Dec 24.1459 24.14 silver (93.89)",
       "S Sedna → J Venus Dec 24.2700 15×φ golden (97.01)"
      ],
      "note": "23.9989 - 24.2700",
+     "field": "also: 2 Bucephalus"
+    },
+    {
+     "check": 11,
+     "key": "('102', '63×φ')",
+     "cells": [
+      "J Mercury – J Fomalhaut RA 101.9525 63×φ golden (24.41)",
+      "S Rahu → J Ceres RA 102.0160 102 whole (3.94)",
+      "S Quaoar → J Makemake RA 102.0170 102 whole (2.23)"
+     ],
+     "note": "101.9525 - 102.0170",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('126', '78×φ')",
+     "cells": [
+      "S Transpluto → H Uranus RA 125.9977 126 whole (78.42)",
+      "H Ketu – H Regulus RA 126.0185 126 whole (0.53)",
+      "H Mars – H Uranus RA 126.2362 78×φ golden (0.74)"
+     ],
+     "note": "125.9977 - 126.2362",
      "field": "only"
     },
     {
@@ -813,7 +1124,18 @@
       "S Sedna → J Venus RA 160.1704 99×φ golden (28.88)"
      ],
      "note": "159.9897 - 160.1704",
-     "field": "only"
+     "field": "also: 5 Lyssenko"
+    },
+    {
+     "check": 11,
+     "key": "('108×φ', '175')",
+     "cells": [
+      "S Sedna → H Antares RA 174.7214 108×φ golden (3.60)",
+      "S Sedna → J Antares RA 174.7249 108×φ golden (8.79)",
+      "S Sedna → J Pluto RA 174.9824 175 whole (1.39)"
+     ],
+     "note": "174.7214 - 174.9824",
+     "field": "also: 1 Dedicated Hero, 2 Bucephalus, 4 All In You"
     },
     {
      "check": 12,
@@ -826,7 +1148,22 @@
       "S Jupiter → J Sedna Dec 8.9843 9 whole (4.55)"
      ],
      "note": "9 and 90",
-     "field": "also: 2 Bucephalus, 6 Star Of Guiting"
+     "field": "also: 1 Dedicated Hero, 2 Bucephalus, 5 Lyssenko, 6 Star Of Guiting"
+    },
+    {
+     "check": 12,
+     "key": "(3,)",
+     "cells": [
+      "H Mars – H Antares Dec 2.9874 3 whole (13.60)",
+      "H Sun – H Gonggong Dec 2.9963 3 whole (66.54)",
+      "S Juno → H Orcus Dec 3.0089 3 whole (30.83)",
+      "J Juno – J Antares RA 30.0077 30 whole (38.10)",
+      "J Pallas – J Fomalhaut RA 3.0094 3 whole (28.02)",
+      "J Pluto – J Juno Dec 3.0163 3 whole (3.48)",
+      "S Jupiter → J Ceres Dec 3.0108 3 whole (21.24)"
+     ],
+     "note": "3 and 30",
+     "field": "also: 1 Dedicated Hero, 2 Bucephalus, 4 All In You, 5 Lyssenko, 6 Star Of Guiting, 7 King Ulanda"
     },
     {
      "check": 12,
@@ -849,7 +1186,7 @@
       "S Venus → H Chiron Dec 16.0087 16 whole (31.66)"
      ],
      "note": "16 and 160",
-     "field": "only"
+     "field": "also: 1 Dedicated Hero"
     },
     {
      "check": 12,
@@ -862,6 +1199,17 @@
      ],
      "note": "2 and 20",
      "field": "also: 1 Dedicated Hero, 2 Bucephalus, 5 Lyssenko, 6 Star Of Guiting, 7 King Ulanda"
+    },
+    {
+     "check": 12,
+     "key": "(7,)",
+     "cells": [
+      "S Moon → H Eris Dec 7.0023 7 whole (78.53)",
+      "J Vesta – J Aldebaran RA 69.9804 70 whole (0.04)",
+      "S Eris → J Juno Dec 7.0173 7 whole (1.86)"
+     ],
+     "note": "7 and 70",
+     "field": "also: 4 All In You"
     },
     {
      "check": 12,
@@ -926,6 +1274,16 @@
    },
    "items": [
     {
+     "check": 1,
+     "key": "('Ceres', 'Fomalhaut', 'conj')",
+     "cells": [
+      "H Ceres – H Fomalhaut RA 0.1440 conj conj (81.72)",
+      "J Ceres – J Fomalhaut RA 1.0400 conj conj (9.41)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
      "check": "2b",
      "key": "('Pallas', 'Neptune')",
      "cells": [
@@ -937,13 +1295,14 @@
     },
     {
      "check": 7,
-     "key": "('count', 3)",
+     "key": "('count', 4)",
      "cells": [
       "12×φ golden",
       "144.444 ninth",
+      "3 whole",
       "4 whole"
      ],
-     "note": "3 numbers",
+     "note": "4 numbers",
      "field": ""
     },
     {
@@ -986,18 +1345,30 @@
       "S Sun → J Sun Dec 22.6563 14×φ golden (77.55)"
      ],
      "note": "",
-     "field": "also: 7 King Ulanda"
+     "field": "also: 5 Lyssenko, 7 King Ulanda"
     },
     {
      "check": 10,
      "key": "(28,)",
      "cells": [
       "H Pluto – H Chiron Dec 27.9993 28 whole (93.43)",
+      "H Gonggong – H Aldebaran Dec 27.9976 28 whole (77.85)",
       "H Mercury – H Saturn Dec 45.3008 28×φ golden (75.76)",
+      "J Eris – J Aldebaran RA 45.3002 28×φ golden (72.89)",
       "S Rahu → J Makemake Dec 45.3060 28×φ golden (93.66)"
      ],
      "note": "",
      "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(30,)",
+     "cells": [
+      "H Mercury – H Neptune Dec 30.0014 30 whole (86.52)",
+      "H Sun – H Antares Dec 48.5405 30×φ golden (96.75)"
+     ],
+     "note": "",
+     "field": "also: 1 Dedicated Hero"
     },
     {
      "check": 10,
@@ -1033,7 +1404,7 @@
       "S Eris → J Quaoar Dec 14.1499 14.14 sqrt2 (79.15)"
      ],
      "note": "13.9809 - 14.1499",
-     "field": "also: 6 Star Of Guiting, 7 King Ulanda"
+     "field": "also: 2 Bucephalus, 6 Star Of Guiting, 7 King Ulanda"
     },
     {
      "check": 11,
@@ -1073,6 +1444,17 @@
     },
     {
      "check": 11,
+     "key": "('16×φ', '26')",
+     "cells": [
+      "S Orcus → J Regulus Dec 25.8814 16×φ golden (60.49)",
+      "S Pallas → H Juno Dec 25.9909 26 whole (29.89)",
+      "S Sedna → H Uranus RA 25.9932 26 whole (43.82)"
+     ],
+     "note": "25.8814 - 25.9932",
+     "field": "also: 1 Dedicated Hero"
+    },
+    {
+     "check": 11,
      "key": "('29', 'φ^7')",
      "cells": [
       "S Quaoar → H Uranus Dec 29.0019 29 whole (81.50)",
@@ -1092,7 +1474,7 @@
       "S Jupiter → H Saturn Dec 34.0082 34 whole (34.72)"
      ],
      "note": "33.9746 - 34.0082",
-     "field": "also: 2 Bucephalus"
+     "field": "also: 2 Bucephalus, 7 King Ulanda"
     },
     {
      "check": 11,
@@ -1100,6 +1482,7 @@
      "cells": [
       "S Pluto → J Haumea Dec 45.0027 45 whole (74.55)",
       "H Jupiter – H Makemake Dec 45.0094 45 whole (28.15)",
+      "J Eris – J Aldebaran RA 45.3002 28×φ golden (72.89)",
       "H Mercury – H Saturn Dec 45.3008 28×φ golden (75.76)"
      ],
      "note": "45.0027 - 45.3008",
@@ -1110,6 +1493,7 @@
      "key": "('28×φ', '45')",
      "cells": [
       "H Jupiter – H Makemake Dec 45.0094 45 whole (28.15)",
+      "J Eris – J Aldebaran RA 45.3002 28×φ golden (72.89)",
       "H Mercury – H Saturn Dec 45.3008 28×φ golden (75.76)",
       "S Rahu → J Makemake Dec 45.3060 28×φ golden (93.66)"
      ],
@@ -1128,6 +1512,34 @@
      "field": "only"
     },
     {
+     "check": 11,
+     "key": "('108×φ', '175')",
+     "cells": [
+      "S Sedna → J Antares RA 174.7198 108×φ golden (1.89)",
+      "S Sun → H Uranus RA 174.7502 108×φ golden (84.93)",
+      "S Uranus → H Antares RA 174.7718 108×φ golden (6.48)",
+      "S Uranus → J Antares RA 174.7783 108×φ golden (0.27)",
+      "S Rahu → J Juno RA 174.9961 175 whole (64.67)"
+     ],
+     "note": "174.7198 - 174.9961",
+     "field": "also: 1 Dedicated Hero, 2 Bucephalus, 3 Manuelito"
+    },
+    {
+     "check": 12,
+     "key": "(3,)",
+     "cells": [
+      "H Ketu – H Antares Dec 3.0007 3 whole (92.93)",
+      "H Mercury – H Neptune Dec 30.0014 30 whole (86.52)",
+      "J Mercury – J Regulus RA 2.9993 3 whole (93.12)",
+      "J Pluto – J Haumea Dec 29.9822 30 whole (1.18)",
+      "J Gonggong – J Regulus Dec 30.0109 30 whole (20.61)",
+      "S Orcus → J Mars Dec 2.9806 3 whole (0.08)",
+      "S Transpluto → J Neptune Dec 29.9874 30 whole (13.78)"
+     ],
+     "note": "3 and 30",
+     "field": "also: 1 Dedicated Hero, 2 Bucephalus, 3 Manuelito, 5 Lyssenko, 6 Star Of Guiting, 7 King Ulanda"
+    },
+    {
      "check": 12,
      "key": "(7,)",
      "cells": [
@@ -1138,7 +1550,7 @@
       "S Mercury → J Transpluto RA 70.0121 70 whole (15.75)"
      ],
      "note": "7 and 70",
-     "field": "only"
+     "field": "also: 3 Manuelito"
     },
     {
      "check": 12,
@@ -1148,6 +1560,7 @@
       "S Sedna → H Sedna RA 3.9998 4 whole (97.73)",
       "S Makemake → H Venus Dec 4.0018 4 whole (82.76)",
       "S Transpluto → H Juno Dec 4.0012 4 whole (87.90)",
+      "J Pluto – J Antares RA 3.9998 4 whole (98.44)",
       "S Ceres → J Mercury RA 40.0184 40 whole (0.63)",
       "S Pallas → J Saturn RA 4.0013 4 whole (87.54)",
       "S Chiron → J Sun Dec 4.0013 4 whole (87.10)",
@@ -1183,6 +1596,19 @@
     },
     {
      "check": 12,
+     "key": "(5,)",
+     "cells": [
+      "H Venus – H Antares Dec 50.0089 50 whole (30.56)",
+      "S Pallas → H Quaoar Dec 5.0088 5 whole (31.18)",
+      "S Ketu → J Juno RA 5.0039 5 whole (64.67)",
+      "S Saturn → J Ketu Dec 5.0044 5 whole (61.15)",
+      "S Sun → J Chiron Dec 5.0142 5 whole (8.42)"
+     ],
+     "note": "5 and 50",
+     "field": "only"
+    },
+    {
+     "check": 12,
      "key": "(13,)",
      "cells": [
       "S Mars → H Quaoar RA 130.0039 130 whole (64.46)",
@@ -1191,18 +1617,6 @@
      ],
      "note": "13 and 130",
      "field": "only"
-    },
-    {
-     "check": 12,
-     "key": "(3,)",
-     "cells": [
-      "H Mercury – H Neptune Dec 30.0014 30 whole (86.52)",
-      "J Pluto – J Haumea Dec 29.9822 30 whole (1.18)",
-      "S Orcus → J Mars Dec 2.9806 3 whole (0.08)",
-      "S Transpluto → J Neptune Dec 29.9874 30 whole (13.78)"
-     ],
-     "note": "3 and 30",
-     "field": "also: 1 Dedicated Hero, 2 Bucephalus, 5 Lyssenko, 6 Star Of Guiting, 7 King Ulanda"
     },
     {
      "check": 13,
@@ -1280,7 +1694,17 @@
       "J Juno – J Quaoar Dec 12.9462 8×φ golden (88.20)"
      ],
      "note": "",
-     "field": "only"
+     "field": "also: 1 Dedicated Hero, 2 Bucephalus"
+    },
+    {
+     "check": 10,
+     "key": "(14,)",
+     "cells": [
+      "S Makemake → H Haumea RA 13.9982 14 whole (82.51)",
+      "H Sun – H Fomalhaut RA 22.6570 14×φ golden (73.97)"
+     ],
+     "note": "",
+     "field": "also: 4 All In You, 7 King Ulanda"
     },
     {
      "check": 10,
@@ -1305,6 +1729,16 @@
     },
     {
      "check": 10,
+     "key": "(40,)",
+     "cells": [
+      "S Ceres → J Venus Dec 40.0055 40 whole (52.28)",
+      "J Makemake – J Fomalhaut Dec 64.7296 40×φ golden (55.76)"
+     ],
+     "note": "",
+     "field": "also: 2 Bucephalus"
+    },
+    {
+     "check": 10,
      "key": "(108,)",
      "cells": [
       "S Ceres → H Sun RA 108.0024 108 whole (77.79)",
@@ -1318,21 +1752,23 @@
      "key": "('11', '11.1111')",
      "cells": [
       "S Venus → H Eris Dec 10.9833 11 whole (2.74)",
+      "H Chiron – H Aldebaran Dec 10.9833 11 whole (2.74)",
       "S Transpluto → H Ceres Dec 11.0159 11 whole (4.21)",
       "S Venus → H Ceres Dec 11.1147 11.1111 ninth (94.08)"
      ],
      "note": "10.9833 - 11.1147",
-     "field": "also: 3 Manuelito, 6 Star Of Guiting"
+     "field": "also: 1 Dedicated Hero, 2 Bucephalus, 3 Manuelito, 6 Star Of Guiting, 7 King Ulanda"
     },
     {
      "check": 11,
      "key": "('12', '12.2222')",
      "cells": [
+      "H Mars – H Regulus Dec 11.9869 12 whole (11.93)",
       "S Gonggong → H Ketu Dec 11.9980 12 whole (80.87)",
       "H Ceres – H Transpluto Dec 12.0014 12 whole (86.86)",
       "S Venus → J Juno Dec 12.2232 12.2222 ninth (98.70)"
      ],
-     "note": "11.9980 - 12.2232",
+     "note": "11.9869 - 12.2232",
      "field": "also: 1 Dedicated Hero, 2 Bucephalus, 7 King Ulanda"
     },
     {
@@ -1346,7 +1782,18 @@
       "S Mercury → H Ceres Dec 13.0161 13 whole (3.83)"
      ],
      "note": "12.9462 - 13.0161",
-     "field": "also: 2 Bucephalus"
+     "field": "also: 1 Dedicated Hero, 2 Bucephalus"
+    },
+    {
+     "check": 11,
+     "key": "('11×φ', '18')",
+     "cells": [
+      "J Ketu – J Orcus RA 17.7910 11×φ golden (59.40)",
+      "H Ceres – H Aldebaran Dec 17.7973 11×φ golden (93.24)",
+      "J Mercury – J Regulus Dec 18.0130 18 whole (12.15)"
+     ],
+     "note": "17.7910 - 18.0130",
+     "field": "only"
     },
     {
      "check": 11,
@@ -1354,20 +1801,22 @@
      "cells": [
       "J Jupiter – J Pallas Dec 30.7412 19×φ golden (91.28)",
       "S Ketu → H Saturn Dec 30.7436 19×φ golden (94.06)",
-      "S Sedna → H Pluto Dec 30.9829 31 whole (2.06)"
+      "S Sedna → H Pluto Dec 30.9829 31 whole (2.06)",
+      "H Saturn – H Fomalhaut RA 31.0124 31 whole (14.46)"
      ],
-     "note": "30.7412 - 30.9829",
-     "field": "only"
+     "note": "30.7412 - 31.0124",
+     "field": "also: 1 Dedicated Hero, 2 Bucephalus, 6 Star Of Guiting"
     },
     {
      "check": 11,
      "key": "('23×φ', '37')",
      "cells": [
+      "J Gonggong – J Aldebaran Dec 36.9806 37 whole (0.10)",
       "S Sun → J Ceres Dec 36.9925 37 whole (38.91)",
       "H Jupiter – H Rahu Dec 37.0164 37 whole (3.29)",
       "S Neptune → H Jupiter RA 37.2153 23×φ golden (97.12)"
      ],
-     "note": "36.9925 - 37.2153",
+     "note": "36.9806 - 37.2153",
      "field": "only"
     },
     {
@@ -1376,9 +1825,21 @@
      "cells": [
       "S Eris → H Quaoar RA 110.9284 10×φ^5 phi power (90.59)",
       "S Makemake → H Saturn RA 111.1284 111.111 ninth (97.18)",
-      "J Venus – J Rahu RA 111.1588 111.111 ninth (92.19)"
+      "J Venus – J Rahu RA 111.1588 111.111 ninth (92.19)",
+      "H Juno – H Regulus RA 111.1861 111.111 ninth (87.73)"
      ],
-     "note": "110.9284 - 111.1588",
+     "note": "110.9284 - 111.1861",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('144', '89×φ')",
+     "cells": [
+      "S Uranus → J Saturn RA 143.9803 144 whole (0.02)",
+      "H Venus – H Regulus RA 144.0021 89×φ golden (82.60)",
+      "S Rahu → J Mercury RA 144.0089 89×φ golden (77.52)"
+     ],
+     "note": "143.9803 - 144.0089",
      "field": "only"
     },
     {
@@ -1393,16 +1854,51 @@
      "field": "only"
     },
     {
+     "check": 11,
+     "key": "('160', '99×φ')",
+     "cells": [
+      "S Makemake → J Sedna RA 159.9933 160 whole (44.09)",
+      "J Transpluto – J Fomalhaut RA 159.9958 160 whole (62.47)",
+      "S Pluto → J Chiron RA 160.1907 99×φ golden (69.96)"
+     ],
+     "note": "159.9933 - 160.1907",
+     "field": "also: 3 Manuelito"
+    },
+    {
+     "check": 11,
+     "key": "('110×φ', '177.778')",
+     "cells": [
+      "H Ketu – H Aldebaran RA 177.7849 177.778 ninth (99.44)",
+      "S Moon → H Sun RA 177.7950 177.778 ninth (98.66)",
+      "S Venus → J Eris RA 177.9822 110×φ golden (90.92)"
+     ],
+     "note": "177.7849 - 177.9822",
+     "field": "only"
+    },
+    {
      "check": 12,
      "key": "(2,)",
      "cells": [
       "H Mercury – H Neptune RA 1.9975 2 whole (76.41)",
       "H Pallas – H Chiron Dec 1.9822 2 whole (1.19)",
+      "H Uranus – H Regulus Dec 1.9906 2 whole (28.27)",
       "S Ketu → H Transpluto Dec 2.0182 2 whole (0.85)",
       "S Sun → J Sedna Dec 20.0007 20 whole (93.06)"
      ],
      "note": "2 and 20",
      "field": "also: 1 Dedicated Hero, 2 Bucephalus, 3 Manuelito, 6 Star Of Guiting, 7 King Ulanda"
+    },
+    {
+     "check": 12,
+     "key": "(11,)",
+     "cells": [
+      "H Chiron – H Aldebaran Dec 10.9833 11 whole (2.74)",
+      "S Venus → H Eris Dec 10.9833 11 whole (2.74)",
+      "S Transpluto → H Ceres Dec 11.0159 11 whole (4.21)",
+      "S Orcus → J Uranus RA 109.9834 110 whole (2.81)"
+     ],
+     "note": "11 and 110",
+     "field": "also: 6 Star Of Guiting"
     },
     {
      "check": 12,
@@ -1422,10 +1918,11 @@
      "key": "(15,)",
      "cells": [
       "S Ketu → H Pluto RA 149.9851 150 whole (6.45)",
-      "S Gonggong → H Neptune RA 14.9842 15 whole (4.52)"
+      "S Gonggong → H Neptune RA 14.9842 15 whole (4.52)",
+      "J Quaoar – J Antares RA 14.9997 15 whole (97.36)"
      ],
      "note": "15 and 150",
-     "field": "also: 7 King Ulanda"
+     "field": "also: 1 Dedicated Hero, 7 King Ulanda"
     },
     {
      "check": 12,
@@ -1451,14 +1948,24 @@
     },
     {
      "check": 12,
-     "key": "(11,)",
+     "key": "(9,)",
      "cells": [
-      "S Venus → H Eris Dec 10.9833 11 whole (2.74)",
-      "S Transpluto → H Ceres Dec 11.0159 11 whole (4.21)",
-      "S Orcus → J Uranus RA 109.9834 110 whole (2.81)"
+      "J Sun – J Makemake RA 8.9998 9 whole (98.01)",
+      "J Ketu – J Sedna Dec 8.9905 9 whole (27.59)",
+      "S Sedna → J Regulus RA 90.0178 90 whole (1.19)"
      ],
-     "note": "11 and 110",
-     "field": "also: 6 Star Of Guiting"
+     "note": "9 and 90",
+     "field": "also: 1 Dedicated Hero, 2 Bucephalus, 3 Manuelito, 6 Star Of Guiting"
+    },
+    {
+     "check": 12,
+     "key": "(18,)",
+     "cells": [
+      "H Vesta – H Fomalhaut RA 179.9959 180 whole (62.89)",
+      "J Mercury – J Regulus Dec 18.0130 18 whole (12.15)"
+     ],
+     "note": "18 and 180",
+     "field": "only"
     },
     {
      "check": 12,
@@ -1469,7 +1976,7 @@
       "S Rahu → J Venus Dec 3.0175 3 whole (1.58)"
      ],
      "note": "3 and 30",
-     "field": "also: 1 Dedicated Hero, 2 Bucephalus, 4 All In You, 6 Star Of Guiting, 7 King Ulanda"
+     "field": "also: 1 Dedicated Hero, 2 Bucephalus, 3 Manuelito, 4 All In You, 6 Star Of Guiting, 7 King Ulanda"
     }
    ]
   },
@@ -1511,11 +2018,12 @@
     },
     {
      "check": 7,
-     "key": "('count', 1)",
+     "key": "('count', 2)",
      "cells": [
+      "17.7778 ninth",
       "8 whole"
      ],
-     "note": "1 numbers",
+     "note": "2 numbers",
      "field": ""
     },
     {
@@ -1567,6 +2075,17 @@
     },
     {
      "check": 10,
+     "key": "(19,)",
+     "cells": [
+      "S Pallas → H Eris Dec 18.9976 19 whole (77.58)",
+      "S Sun → J Quaoar RA 18.9972 19 whole (73.69)",
+      "S Juno → H Aldebaran Dec 30.7499 19×φ golden (59.98)"
+     ],
+     "note": "",
+     "field": "also: 2 Bucephalus, 7 King Ulanda"
+    },
+    {
+     "check": 10,
      "key": "(20,)",
      "cells": [
       "S Sedna → J Sun Dec 20.0002 20 whole (97.71)",
@@ -1582,6 +2101,7 @@
       "S Saturn → H Ketu Dec 23.0023 23 whole (78.12)",
       "S Haumea → J Venus Dec 23.0017 23 whole (83.80)",
       "S Orcus → J Ceres Dec 23.0026 23 whole (76.05)",
+      "H Transpluto – H Antares Dec 37.2112 23×φ golden (79.06)",
       "S Quaoar → H Rahu Dec 37.2114 23×φ golden (80.14)"
      ],
      "note": "",
@@ -1621,7 +2141,7 @@
       "S Ketu → J Orcus Dec 11.1123 11.1111 ninth (98.13)"
      ],
      "note": "10.9815 - 11.1123",
-     "field": "also: 3 Manuelito, 5 Lyssenko"
+     "field": "also: 1 Dedicated Hero, 2 Bucephalus, 3 Manuelito, 5 Lyssenko, 7 King Ulanda"
     },
     {
      "check": 11,
@@ -1633,20 +2153,22 @@
       "S Eris → J Quaoar Dec 14.1418 14.14 sqrt2 (99.15)"
      ],
      "note": "13.9821 - 14.1418",
-     "field": "also: 4 All In You, 7 King Ulanda"
+     "field": "also: 2 Bucephalus, 4 All In You, 7 King Ulanda"
     },
     {
      "check": 11,
-     "key": "('11×φ', '18')",
+     "key": "('11×φ', '17.7778', '18')",
      "cells": [
+      "J Juno – J Regulus Dec 17.7726 17.7778 ninth (95.96)",
+      "H Eris – H Aldebaran Dec 17.7758 17.7778 ninth (98.47)",
       "J Jupiter – J Quaoar RA 17.7934 11×φ golden (71.45)",
       "S Moon → J Ceres Dec 17.9966 18 whole (68.67)",
       "S Quaoar → H Juno RA 18.0007 18 whole (93.56)",
       "S Ceres → H Pallas Dec 18.0095 18 whole (27.73)",
       "J Haumea – J Makemake RA 18.0197 18 whole (0.02)"
      ],
-     "note": "17.7934 - 18.0197",
-     "field": "also: 3 Manuelito"
+     "note": "17.7726 - 18.0197",
+     "field": "only"
     },
     {
      "check": 11,
@@ -1662,6 +2184,19 @@
      "field": "also: 7 King Ulanda"
     },
     {
+     "check": 11,
+     "key": "('19×φ', '31')",
+     "cells": [
+      "S Juno → H Aldebaran Dec 30.7499 19×φ golden (59.98)",
+      "H Mars – H Juno Dec 30.9858 31 whole (8.51)",
+      "H Uranus – H Rahu RA 30.9877 31 whole (15.00)",
+      "J Sun – J Ketu Dec 31.0078 31 whole (37.07)",
+      "S Sedna → H Pluto Dec 31.0166 31 whole (2.91)"
+     ],
+     "note": "30.7499 - 31.0166",
+     "field": "also: 1 Dedicated Hero, 2 Bucephalus, 5 Lyssenko"
+    },
+    {
      "check": 12,
      "key": "(9,)",
      "cells": [
@@ -1673,7 +2208,18 @@
       "S Neptune → J Venus Dec 8.9851 9 whole (6.43)"
      ],
      "note": "9 and 90",
-     "field": "also: 2 Bucephalus, 3 Manuelito"
+     "field": "also: 1 Dedicated Hero, 2 Bucephalus, 3 Manuelito, 5 Lyssenko"
+    },
+    {
+     "check": 12,
+     "key": "(17,)",
+     "cells": [
+      "H Juno – H Transpluto Dec 16.9874 17 whole (13.65)",
+      "H Jupiter – H Ceres Dec 17.0085 17 whole (33.07)",
+      "J Pluto – J Aldebaran RA 170.0125 170 whole (14.24)"
+     ],
+     "note": "17 and 170",
+     "field": "only"
     },
     {
      "check": 12,
@@ -1767,6 +2313,7 @@
      "check": 12,
      "key": "(6,)",
      "cells": [
+      "J Vesta – J Aldebaran RA 60.0094 60 whole (27.94)",
       "J Jupiter – J Neptune Dec 5.9880 6 whole (16.13)",
       "J Ketu – J Transpluto Dec 5.9824 6 whole (1.41)",
       "S Quaoar → J Venus RA 59.9890 60 whole (20.40)"
@@ -1783,7 +2330,7 @@
       "S Juno → J Sun Dec 3.0123 3 whole (14.72)"
      ],
      "note": "3 and 30",
-     "field": "also: 1 Dedicated Hero, 2 Bucephalus, 4 All In You, 5 Lyssenko, 7 King Ulanda"
+     "field": "also: 1 Dedicated Hero, 2 Bucephalus, 3 Manuelito, 4 All In You, 5 Lyssenko, 7 King Ulanda"
     },
     {
      "check": 13,
@@ -1943,7 +2490,9 @@
      "key": "(7,)",
      "cells": [
       "J Ketu – J Quaoar RA 6.9949 7 whole (55.38)",
-      "J Mercury – J Pallas Dec 11.3268 7×φ golden (96.53)"
+      "H Sedna – H Aldebaran RA 11.3209 7×φ golden (69.92)",
+      "J Mercury – J Pallas Dec 11.3268 7×φ golden (96.53)",
+      "J Vesta – J Regulus Dec 11.3285 7×φ golden (86.80)"
      ],
      "note": "",
      "field": "also: 1 Dedicated Hero"
@@ -1968,7 +2517,28 @@
       "S Haumea → J Haumea RA 22.6517 14×φ golden (95.08)"
      ],
      "note": "",
-     "field": "also: 4 All In You"
+     "field": "also: 4 All In You, 5 Lyssenko"
+    },
+    {
+     "check": 10,
+     "key": "(19,)",
+     "cells": [
+      "H Orcus – H Fomalhaut Dec 18.9974 19 whole (75.48)",
+      "S Juno → H Aldebaran Dec 30.7500 19×φ golden (59.75)"
+     ],
+     "note": "",
+     "field": "also: 2 Bucephalus, 6 Star Of Guiting"
+    },
+    {
+     "check": 10,
+     "key": "(21,)",
+     "cells": [
+      "H Chiron – H Fomalhaut RA 20.9952 21 whole (58.02)",
+      "H Rahu – H Aldebaran RA 20.9988 21 whole (88.55)",
+      "J Pluto – J Haumea Dec 33.9705 21×φ golden (55.60)"
+     ],
+     "note": "",
+     "field": "only"
     },
     {
      "check": 10,
@@ -1989,7 +2559,7 @@
       "J Ketu – J Quaoar RA 6.9949 7 whole (55.38)"
      ],
      "note": "6.8541 - 6.9949",
-     "field": "only"
+     "field": "also: 1 Dedicated Hero"
     },
     {
      "check": 11,
@@ -2001,6 +2571,32 @@
      ],
      "note": "7.7776 - 7.9927",
      "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('11', '11.1111')",
+     "cells": [
+      "S Ketu → J Mars Dec 10.9814 11 whole (0.47)",
+      "J Venus – J Juno Dec 10.9844 11 whole (4.91)",
+      "J Mercury – J Transpluto Dec 10.9933 11 whole (44.36)",
+      "S Ceres → H Uranus Dec 10.9983 11 whole (83.55)",
+      "S Moon → H Saturn Dec 11.0022 11 whole (78.95)",
+      "H Quaoar – H Antares Dec 11.1195 11.1111 ninth (86.20)"
+     ],
+     "note": "10.9814 - 11.1195",
+     "field": "also: 1 Dedicated Hero, 2 Bucephalus, 3 Manuelito, 5 Lyssenko, 6 Star Of Guiting"
+    },
+    {
+     "check": 11,
+     "key": "('11.1111', '7×φ')",
+     "cells": [
+      "H Quaoar – H Antares Dec 11.1195 11.1111 ninth (86.20)",
+      "H Sedna – H Aldebaran RA 11.3209 7×φ golden (69.92)",
+      "J Mercury – J Pallas Dec 11.3268 7×φ golden (96.53)",
+      "J Vesta – J Regulus Dec 11.3285 7×φ golden (86.80)"
+     ],
+     "note": "11.1195 - 11.3285",
+     "field": "also: 1 Dedicated Hero"
     },
     {
      "check": 11,
@@ -2023,7 +2619,7 @@
       "S Uranus → J Sedna RA 14.1433 14.14 sqrt2 (96.67)"
      ],
      "note": "13.9850 - 14.1433",
-     "field": "also: 4 All In You, 6 Star Of Guiting"
+     "field": "also: 2 Bucephalus, 4 All In You, 6 Star Of Guiting"
     },
     {
      "check": 11,
@@ -2035,6 +2631,19 @@
      ],
      "note": "16.0053 - 16.1876",
      "field": "also: 2 Bucephalus, 3 Manuelito"
+    },
+    {
+     "check": 11,
+     "key": "('18.8889', '19')",
+     "cells": [
+      "J Vesta – J Aldebaran RA 18.8855 18.8889 ninth (97.55)",
+      "S Ceres → H Chiron Dec 18.9854 19 whole (7.33)",
+      "J Juno – J Eris Dec 18.9936 19 whole (46.44)",
+      "H Orcus – H Fomalhaut Dec 18.9974 19 whole (75.48)",
+      "H Venus – H Sedna RA 19.0174 19 whole (1.70)"
+     ],
+     "note": "18.8855 - 19.0174",
+     "field": "also: 2 Bucephalus"
     },
     {
      "check": 11,
@@ -2056,6 +2665,28 @@
       "H Mars – H Sedna Dec 24.2739 15×φ golden (80.28)"
      ],
      "note": "23.9802 - 24.2739",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('21×φ', '34')",
+     "cells": [
+      "J Pluto – J Haumea Dec 33.9705 21×φ golden (55.60)",
+      "S Rahu → J Haumea Dec 33.9938 34 whole (47.27)",
+      "H Pluto – H Regulus Dec 33.9948 34 whole (54.94)"
+     ],
+     "note": "33.9705 - 33.9948",
+     "field": "also: 2 Bucephalus, 4 All In You"
+    },
+    {
+     "check": 11,
+     "key": "('47', 'φ^8')",
+     "cells": [
+      "S Moon → J Juno RA 46.9736 φ^8 phi power (95.69)",
+      "S Pluto → J Vesta Dec 46.9785 φ^8 phi power (99.84)",
+      "J Sun – J Fomalhaut Dec 46.9955 47 whole (60.03)"
+     ],
+     "note": "46.9736 - 46.9955",
      "field": "only"
     },
     {
@@ -2084,13 +2715,14 @@
      "check": 11,
      "key": "('105', '65×φ')",
      "cells": [
+      "J Ketu – J Regulus RA 104.9884 105 whole (17.63)",
       "J Chiron – J Eris RA 105.0154 105 whole (5.23)",
       "J Pluto – J Ceres RA 105.1466 65×φ golden (4.34)",
       "J Venus – J Makemake RA 105.1572 65×φ golden (28.69)",
       "S Neptune → J Pluto RA 105.1685 65×φ golden (78.32)",
       "S Rahu → H Vesta RA 105.1765 65×φ golden (75.28)"
      ],
-     "note": "105.0154 - 105.1765",
+     "note": "104.9884 - 105.1765",
      "field": "only"
     },
     {
@@ -2109,6 +2741,7 @@
      "key": "(3,)",
      "cells": [
       "H Ceres – H Quaoar Dec 2.9923 3 whole (38.12)",
+      "H Ketu – H Antares Dec 2.9960 3 whole (64.17)",
       "H Sun – H Mercury Dec 2.9940 3 whole (49.11)",
       "S Moon → H Vesta Dec 29.9922 30 whole (36.94)",
       "S Makemake → H Haumea Dec 3.0145 3 whole (7.60)",
@@ -2116,7 +2749,7 @@
       "S Ceres → J Haumea Dec 2.9943 3 whole (51.11)"
      ],
      "note": "3 and 30",
-     "field": "also: 1 Dedicated Hero, 2 Bucephalus, 4 All In You, 5 Lyssenko, 6 Star Of Guiting"
+     "field": "also: 1 Dedicated Hero, 2 Bucephalus, 3 Manuelito, 4 All In You, 5 Lyssenko, 6 Star Of Guiting"
     },
     {
      "check": 12,
@@ -2150,6 +2783,7 @@
       "H Eris – H Gonggong Dec 9.9895 10 whole (22.76)",
       "S Jupiter → H Makemake Dec 10.0161 10 whole (3.75)",
       "S Mercury → H Quaoar Dec 1.0071 1 whole (41.73)",
+      "J Chiron – J Antares Dec 9.9838 10 whole (3.64)",
       "J Rahu – J Juno Dec 10.0032 10 whole (70.23)",
       "J Venus – J Rahu Dec 0.9812 1 whole (0.36)",
       "S Jupiter → J Mercury Dec 10.0148 10 whole (6.84)"
@@ -2176,13 +2810,14 @@
       "S Sedna → J Rahu RA 15.0111 15 whole (19.62)"
      ],
      "note": "15 and 150",
-     "field": "also: 5 Lyssenko"
+     "field": "also: 1 Dedicated Hero, 5 Lyssenko"
     },
     {
      "check": 12,
      "key": "(2,)",
      "cells": [
       "S Quaoar → H Juno Dec 20.0149 20 whole (6.43)",
+      "J Makemake – J Regulus Dec 19.9812 20 whole (0.36)",
       "S Venus → J Makemake RA 20.0010 20 whole (90.44)",
       "S Chiron → J Pallas Dec 1.9999 2 whole (99.26)",
       "S Mercury → J Sedna Dec 20.0116 20 whole (17.80)"

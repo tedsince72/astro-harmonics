@@ -69,7 +69,7 @@
       "S Transpluto → J Juno Dec 17.7951 11×φ golden (80.71)"
      ],
      "note": "",
-     "field": "only"
+     "field": "also: 3 Peak Time"
     },
     {
      "check": 10,
@@ -99,6 +99,7 @@
      "cells": [
       "S Ceres → J Juno Dec 30.0048 30 whole (57.74)",
       "S Transpluto → J Gonggong Dec 29.9944 30 whole (52.07)",
+      "H Ketu – H Antares Dec 48.5489 30×φ golden (57.35)",
       "S Pallas → H Sun RA 48.5432 30×φ golden (87.21)"
      ],
      "note": "",
@@ -111,26 +112,30 @@
       "S Makemake → J Vesta Dec 10.9810 11 whole (0.23)",
       "H Mercury – H Eris Dec 10.9985 11 whole (85.90)",
       "H Mercury – H Ceres Dec 11.0037 11 whole (66.70)",
+      "S Quaoar → J Antares Dec 11.0907 φ^5 phi power (98.05)",
+      "S Quaoar → H Antares Dec 11.0908 φ^5 phi power (97.88)",
       "S Sun → H Mars Dec 11.0927 φ^5 phi power (91.01)",
       "S Chiron → H Chiron Dec 11.1102 11.1111 ninth (98.55)",
       "S Ceres → H Transpluto Dec 11.1109 11.1111 ninth (99.68)",
       "S Makemake → J Chiron Dec 11.1155 11.1111 ninth (92.84)"
      ],
      "note": "10.9810 - 11.1155",
-     "field": "only"
+     "field": "also: 6 Thundersockssundae"
     },
     {
      "check": 11,
      "key": "('11.1111', '7×φ', 'φ^5')",
      "cells": [
+      "S Quaoar → J Antares Dec 11.0907 φ^5 phi power (98.05)",
+      "S Quaoar → H Antares Dec 11.0908 φ^5 phi power (97.88)",
       "S Sun → H Mars Dec 11.0927 φ^5 phi power (91.01)",
       "S Chiron → H Chiron Dec 11.1102 11.1111 ninth (98.55)",
       "S Ceres → H Transpluto Dec 11.1109 11.1111 ninth (99.68)",
       "S Makemake → J Chiron Dec 11.1155 11.1111 ninth (92.84)",
       "J Pluto – J Pallas Dec 11.3271 7×φ golden (94.71)"
      ],
-     "note": "11.0927 - 11.3271",
-     "field": "only"
+     "note": "11.0907 - 11.3271",
+     "field": "also: 6 Thundersockssundae"
     },
     {
      "check": 11,
@@ -139,24 +144,26 @@
       "S Sun → H Venus RA 11.9815 12 whole (0.53)",
       "S Vesta → J Saturn RA 11.9845 12 whole (5.02)",
       "J Mercury – J Ceres Dec 11.9846 12 whole (5.38)",
+      "H Neptune – H Fomalhaut RA 12.0137 12 whole (9.78)",
       "S Sun → J Juno RA 12.0159 12 whole (4.15)",
       "S Juno → J Mars Dec 12.0166 12 whole (2.89)",
       "J Ketu – J Makemake Dec 12.2283 12.2222 ninth (91.55)"
      ],
      "note": "11.9815 - 12.2283",
-     "field": "also: 7 Black Opium"
+     "field": "also: 6 Thundersockssundae, 7 Black Opium"
     },
     {
      "check": 11,
-     "key": "('11×φ', '18')",
+     "key": "('11×φ', '17.7778', '18')",
      "cells": [
+      "H Uranus – H Fomalhaut RA 17.7700 17.7778 ninth (93.92)",
       "S Transpluto → J Juno Dec 17.7951 11×φ golden (80.71)",
       "S Quaoar → J Orcus Dec 17.9824 18 whole (1.43)",
       "H Uranus – H Haumea Dec 17.9900 18 whole (25.03)",
       "S Jupiter → H Transpluto Dec 18.0161 18 whole (3.79)"
      ],
-     "note": "17.7951 - 18.0161",
-     "field": "only"
+     "note": "17.7700 - 18.0161",
+     "field": "also: 3 Peak Time"
     },
     {
      "check": 11,
@@ -164,6 +171,8 @@
      "cells": [
       "S Venus → H Mercury RA 21.9961 22 whole (64.56)",
       "S Orcus → J Vesta RA 22.0100 22 whole (25.01)",
+      "S Saturn → J Fomalhaut RA 22.0155 22 whole (4.98)",
+      "S Saturn → H Fomalhaut RA 22.0178 22 whole (1.18)",
       "S Uranus → J Juno Dec 22.2218 22.2222 ninth (99.46)",
       "J Mars – J Rahu RA 22.2260 22.2222 ninth (94.74)"
      ],
@@ -181,6 +190,17 @@
       "S Pluto → H Sedna Dec 29.1293 18×φ golden (73.38)"
      ],
      "note": "28.9978 - 29.1293",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('34×φ', '55')",
+     "cells": [
+      "J Neptune – J Fomalhaut RA 54.9838 55 whole (3.56)",
+      "S Gonggong → H Jupiter RA 55.0026 55 whole (75.46)",
+      "H Haumea – H Quaoar RA 55.0105 34×φ golden (84.49)"
+     ],
+     "note": "54.9838 - 55.0105",
      "field": "only"
     },
     {
@@ -208,6 +228,21 @@
     },
     {
      "check": 12,
+     "key": "(12,)",
+     "cells": [
+      "H Neptune – H Fomalhaut RA 12.0137 12 whole (9.78)",
+      "S Sun → H Venus RA 11.9815 12 whole (0.53)",
+      "J Mercury – J Ceres Dec 11.9846 12 whole (5.38)",
+      "S Sun → J Juno RA 12.0159 12 whole (4.15)",
+      "S Vesta → J Saturn RA 11.9845 12 whole (5.02)",
+      "S Sedna → J Vesta RA 119.9805 120 whole (0.07)",
+      "S Juno → J Mars Dec 12.0166 12 whole (2.89)"
+     ],
+     "note": "12 and 120",
+     "field": "also: 5 Sir Apollo, 6 Thundersockssundae"
+    },
+    {
+     "check": 12,
      "key": "(15,)",
      "cells": [
       "H Mars – H Vesta Dec 15.0010 15 whole (90.62)",
@@ -224,15 +259,17 @@
      "cells": [
       "H Mercury – H Neptune Dec 3.0065 3 whole (45.83)",
       "S Mercury → H Quaoar Dec 3.0189 3 whole (0.32)",
+      "S Uranus → H Regulus Dec 3.0024 3 whole (77.26)",
       "S Gonggong → H Sun Dec 2.9893 3 whole (21.52)",
       "S Rahu → J Eris RA 30.0130 30 whole (12.29)",
       "S Ceres → J Juno Dec 30.0048 30 whole (57.74)",
+      "S Uranus → J Regulus Dec 3.0025 3 whole (76.87)",
       "S Makemake → J Juno Dec 30.0198 30 whole (0.01)",
       "S Orcus → J Eris Dec 2.9996 3 whole (96.09)",
       "S Transpluto → J Gonggong Dec 29.9944 30 whole (52.07)"
      ],
      "note": "3 and 30",
-     "field": "also: 3 Peak Time, 5 Sir Apollo, 6 Thundersockssundae, 7 Black Opium"
+     "field": "also: 2 Edmond Dantes, 3 Peak Time, 5 Sir Apollo, 6 Thundersockssundae, 7 Black Opium"
     },
     {
      "check": 12,
@@ -297,20 +334,6 @@
     },
     {
      "check": 12,
-     "key": "(12,)",
-     "cells": [
-      "S Sun → H Venus RA 11.9815 12 whole (0.53)",
-      "J Mercury – J Ceres Dec 11.9846 12 whole (5.38)",
-      "S Sun → J Juno RA 12.0159 12 whole (4.15)",
-      "S Vesta → J Saturn RA 11.9845 12 whole (5.02)",
-      "S Sedna → J Vesta RA 119.9805 120 whole (0.07)",
-      "S Juno → J Mars Dec 12.0166 12 whole (2.89)"
-     ],
-     "note": "12 and 120",
-     "field": "also: 5 Sir Apollo, 6 Thundersockssundae"
-    },
-    {
-     "check": 12,
      "key": "(5,)",
      "cells": [
       "S Rahu → H Uranus RA 49.9858 50 whole (8.43)",
@@ -323,6 +346,18 @@
     },
     {
      "check": 12,
+     "key": "(4,)",
+     "cells": [
+      "S Moon → H Gonggong Dec 39.9931 40 whole (43.18)",
+      "S Pluto → H Antares Dec 4.0073 4 whole (40.44)",
+      "S Pluto → J Antares Dec 4.0072 4 whole (40.74)",
+      "S Sedna → J Sedna Dec 4.0091 4 whole (29.75)"
+     ],
+     "note": "4 and 40",
+     "field": "also: 2 Edmond Dantes, 3 Peak Time"
+    },
+    {
+     "check": 12,
      "key": "(2,)",
      "cells": [
       "S Chiron → H Gonggong Dec 20.0151 20 whole (5.96)",
@@ -332,16 +367,6 @@
      ],
      "note": "2 and 20",
      "field": "also: 2 Edmond Dantes, 3 Peak Time, 5 Sir Apollo, 6 Thundersockssundae, 7 Black Opium"
-    },
-    {
-     "check": 12,
-     "key": "(4,)",
-     "cells": [
-      "S Moon → H Gonggong Dec 39.9931 40 whole (43.18)",
-      "S Sedna → J Sedna Dec 4.0091 4 whole (29.75)"
-     ],
-     "note": "4 and 40",
-     "field": "also: 2 Edmond Dantes, 3 Peak Time"
     },
     {
      "check": 13,
@@ -393,11 +418,12 @@
     },
     {
      "check": 7,
-     "key": "('count', 1)",
+     "key": "('count', 2)",
      "cells": [
-      "111.111 ninth"
+      "111.111 ninth",
+      "20 whole"
      ],
-     "note": "1 numbers",
+     "note": "2 numbers",
      "field": ""
     },
     {
@@ -443,6 +469,15 @@
      "key": "('J', 'Juno', '14×φ')",
      "cells": [
       "J Jupiter – J Juno Dec 22.6554 14×φ golden (82.83)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 9,
+     "key": "('J', 'Antares', '10')",
+     "cells": [
+      "J Jupiter – J Antares Dec 9.9986 10 whole (86.49)"
      ],
      "note": "",
      "field": "only"
@@ -496,6 +531,16 @@
       "S Rahu → H Ceres RA 27.5060 17×φ golden (96.52)"
      ],
      "note": "",
+     "field": "also: 6 Thundersockssundae, 7 Black Opium"
+    },
+    {
+     "check": 10,
+     "key": "(22,)",
+     "cells": [
+      "H Venus – H Chiron Dec 22.0037 22 whole (66.05)",
+      "H Juno – H Antares RA 35.5979 22×φ golden (92.80)"
+     ],
+     "note": "",
      "field": "also: 7 Black Opium"
     },
     {
@@ -536,24 +581,28 @@
       "S Ketu → H Neptune Dec 10.9810 11 whole (0.24)",
       "J Sun – J Venus Dec 10.9824 11 whole (1.48)",
       "H Uranus – H Vesta Dec 11.0126 11 whole (13.83)",
+      "S Quaoar → J Antares Dec 11.0922 φ^5 phi power (92.74)",
+      "S Quaoar → H Antares Dec 11.0924 φ^5 phi power (92.01)",
       "S Chiron → J Rahu Dec 11.0927 φ^5 phi power (90.99)",
       "S Sedna → J Chiron RA 11.0947 φ^5 phi power (84.34)",
       "J Eris – J Gonggong Dec 11.0963 φ^5 phi power (79.15)"
      ],
      "note": "10.9810 - 11.0963",
-     "field": "only"
+     "field": "also: 3 Peak Time, 5 Sir Apollo, 7 Black Opium"
     },
     {
      "check": 11,
      "key": "('7×φ', 'φ^5')",
      "cells": [
+      "S Quaoar → J Antares Dec 11.0922 φ^5 phi power (92.74)",
+      "S Quaoar → H Antares Dec 11.0924 φ^5 phi power (92.01)",
       "S Chiron → J Rahu Dec 11.0927 φ^5 phi power (90.99)",
       "S Sedna → J Chiron RA 11.0947 φ^5 phi power (84.34)",
       "J Eris – J Gonggong Dec 11.0963 φ^5 phi power (79.15)",
       "S Sun → H Sedna Dec 11.3245 7×φ golden (89.49)"
      ],
-     "note": "11.0927 - 11.3245",
-     "field": "only"
+     "note": "11.0922 - 11.3245",
+     "field": "also: 5 Sir Apollo, 7 Black Opium"
     },
     {
      "check": 11,
@@ -566,6 +615,18 @@
       "S Pallas → H Pluto Dec 14.1436 14.14 sqrt2 (95.81)"
      ],
      "note": "13.9946 - 14.1436",
+     "field": "also: 3 Peak Time, 6 Thundersockssundae"
+    },
+    {
+     "check": 11,
+     "key": "('18', 'φ^6')",
+     "cells": [
+      "H Orcus – H Antares Dec 17.9438 φ^6 phi power (99.05)",
+      "S Haumea → H Eris Dec 17.9938 18 whole (47.58)",
+      "J Mars – J Juno Dec 17.9964 18 whole (66.95)",
+      "H Makemake – H Sedna Dec 18.0191 18 whole (0.19)"
+     ],
+     "note": "17.9438 - 18.0191",
      "field": "only"
     },
     {
@@ -592,6 +653,17 @@
       "H Haumea – H Orcus Dec 26.1886 10×φ^2 phi power (87.79)"
      ],
      "note": "26.0018 - 26.1886",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('29', 'φ^7')",
+     "cells": [
+      "J Uranus – J Ketu RA 28.9873 29 whole (13.17)",
+      "J Pallas – J Fomalhaut Dec 29.0155 29 whole (5.16)",
+      "S Sedna → J Makemake Dec 29.0384 φ^7 phi power (94.59)"
+     ],
+     "note": "28.9873 - 29.0384",
      "field": "only"
     },
     {
@@ -633,6 +705,7 @@
      "cells": [
       "H Mercury – H Sedna RA 14.0141 14 whole (8.65)",
       "S Vesta → H Ketu Dec 14.0141 14 whole (8.81)",
+      "J Vesta – J Fomalhaut RA 140.0176 140 whole (1.41)",
       "J Eris – J Sedna Dec 13.9946 14 whole (53.09)",
       "S Venus → J Sun RA 140.0122 140 whole (15.27)"
      ],
@@ -641,19 +714,48 @@
     },
     {
      "check": 12,
+     "key": "(3,)",
+     "cells": [
+      "H Saturn – H Antares RA 3.0186 3 whole (0.49)",
+      "H Mercury – H Haumea Dec 2.9971 3 whole (73.20)",
+      "S Uranus → H Regulus Dec 2.9994 3 whole (94.23)",
+      "J Mercury – J Aldebaran RA 30.0071 30 whole (41.88)",
+      "J Orcus – J Sedna Dec 2.9981 3 whole (81.84)",
+      "S Uranus → J Regulus Dec 2.9995 3 whole (95.54)"
+     ],
+     "note": "3 and 30",
+     "field": "also: 1 Vocaliser, 3 Peak Time, 5 Sir Apollo, 6 Thundersockssundae, 7 Black Opium"
+    },
+    {
+     "check": 12,
      "key": "(2,)",
      "cells": [
       "H Mars – H Haumea RA 19.9861 20 whole (9.42)",
+      "H Pallas – H Regulus Dec 1.9886 2 whole (18.65)",
       "H Rahu – H Makemake Dec 19.9993 20 whole (93.16)",
       "H Rahu – H Sedna Dec 1.9802 2 whole (0.01)",
       "S Pluto → H Saturn Dec 2.0041 2 whole (63.56)",
       "S Sun → H Ketu Dec 1.9970 2 whole (72.34)",
+      "J Pallas – J Aldebaran RA 20.0003 20 whole (96.58)",
       "J Rahu – J Makemake Dec 19.9868 20 whole (11.40)",
       "J Saturn – J Pluto Dec 19.9974 20 whole (75.52)",
       "S Mars → J Neptune Dec 1.9921 2 whole (36.39)"
      ],
      "note": "2 and 20",
      "field": "also: 1 Vocaliser, 3 Peak Time, 5 Sir Apollo, 6 Thundersockssundae, 7 Black Opium"
+    },
+    {
+     "check": 12,
+     "key": "(6,)",
+     "cells": [
+      "H Saturn – H Antares Dec 6.0130 6 whole (12.23)",
+      "S Jupiter → H Pluto RA 60.0168 60 whole (2.62)",
+      "J Saturn – J Neptune Dec 6.0044 6 whole (60.86)",
+      "S Pluto → J Jupiter Dec 5.9899 6 whole (24.29)",
+      "S Gonggong → J Ketu Dec 6.0043 6 whole (61.65)"
+     ],
+     "note": "6 and 60",
+     "field": "also: 6 Thundersockssundae"
     },
     {
      "check": 12,
@@ -675,6 +777,7 @@
       "S Pallas → H Neptune Dec 1.0198 1 whole (0.01)",
       "S Uranus → H Pallas Dec 1.0108 1 whole (21.26)",
       "J Sun – J Mars RA 9.9840 10 whole (4.09)",
+      "J Jupiter – J Antares Dec 9.9986 10 whole (86.49)",
       "S Haumea → J Quaoar RA 9.9932 10 whole (43.74)",
       "S Mercury → J Uranus Dec 10.0137 10 whole (9.90)",
       "S Pluto → J Gonggong Dec 1.0142 1 whole (8.35)",
@@ -682,6 +785,19 @@
      ],
      "note": "1 and 10",
      "field": "also: 1 Vocaliser, 3 Peak Time, 5 Sir Apollo, 6 Thundersockssundae, 7 Black Opium"
+    },
+    {
+     "check": 12,
+     "key": "(4,)",
+     "cells": [
+      "S Pluto → H Antares Dec 4.0090 4 whole (30.52)",
+      "S Mars → J Saturn Dec 4.0123 4 whole (14.70)",
+      "S Pluto → J Antares Dec 4.0087 4 whole (31.68)",
+      "S Saturn → J Mars Dec 39.9869 40 whole (11.94)",
+      "S Venus → J Quaoar Dec 4.0015 4 whole (85.21)"
+     ],
+     "note": "4 and 40",
+     "field": "also: 1 Vocaliser, 3 Peak Time"
     },
     {
      "check": 12,
@@ -705,29 +821,6 @@
      ],
      "note": "5 and 50",
      "field": "also: 1 Vocaliser, 6 Thundersockssundae"
-    },
-    {
-     "check": 12,
-     "key": "(6,)",
-     "cells": [
-      "S Jupiter → H Pluto RA 60.0168 60 whole (2.62)",
-      "J Saturn – J Neptune Dec 6.0044 6 whole (60.86)",
-      "S Pluto → J Jupiter Dec 5.9899 6 whole (24.29)",
-      "S Gonggong → J Ketu Dec 6.0043 6 whole (61.65)"
-     ],
-     "note": "6 and 60",
-     "field": "also: 6 Thundersockssundae"
-    },
-    {
-     "check": 12,
-     "key": "(4,)",
-     "cells": [
-      "S Mars → J Saturn Dec 4.0123 4 whole (14.70)",
-      "S Saturn → J Mars Dec 39.9869 40 whole (11.94)",
-      "S Venus → J Quaoar Dec 4.0015 4 whole (85.21)"
-     ],
-     "note": "4 and 40",
-     "field": "also: 1 Vocaliser, 3 Peak Time"
     },
     {
      "check": 13,
@@ -843,6 +936,27 @@
     },
     {
      "check": 10,
+     "key": "(3,)",
+     "cells": [
+      "S Uranus → H Regulus Dec 3.0009 3 whole (90.78)",
+      "S Uranus → J Regulus Dec 2.9986 3 whole (86.93)",
+      "H Ketu – H Regulus Dec 4.8543 3×φ golden (98.95)"
+     ],
+     "note": "",
+     "field": "also: 5 Sir Apollo"
+    },
+    {
+     "check": 10,
+     "key": "(11,)",
+     "cells": [
+      "S Mercury → J Uranus Dec 10.9980 11 whole (81.12)",
+      "H Venus – H Aldebaran RA 17.7973 11×φ golden (93.50)"
+     ],
+     "note": "",
+     "field": "also: 1 Vocaliser"
+    },
+    {
+     "check": 10,
      "key": "(14,)",
      "cells": [
       "S Sedna → J Ceres RA 14.0040 14 whole (63.90)",
@@ -850,6 +964,26 @@
      ],
      "note": "",
      "field": "also: 2 Edmond Dantes"
+    },
+    {
+     "check": 10,
+     "key": "(25,)",
+     "cells": [
+      "S Pallas → H Mars RA 25.0021 25 whole (80.55)",
+      "J Mars – J Antares Dec 40.4553 25×φ golden (74.63)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(28,)",
+     "cells": [
+      "H Saturn – H Aldebaran Dec 28.0037 28 whole (66.77)",
+      "S Ceres → J Saturn Dec 45.3070 28×φ golden (87.97)"
+     ],
+     "note": "",
+     "field": "also: 5 Sir Apollo"
     },
     {
      "check": 10,
@@ -861,6 +995,39 @@
      ],
      "note": "",
      "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('3×φ', '5')",
+     "cells": [
+      "H Ketu – H Regulus Dec 4.8543 3×φ golden (98.95)",
+      "J Pluto – J Orcus Dec 4.9914 5 whole (32.75)",
+      "S Sedna → J Pallas Dec 5.0060 5 whole (49.05)"
+     ],
+     "note": "4.8543 - 5.0060",
+     "field": "also: 5 Sir Apollo"
+    },
+    {
+     "check": 11,
+     "key": "('11', 'φ^5')",
+     "cells": [
+      "S Mercury → J Uranus Dec 10.9980 11 whole (81.12)",
+      "S Quaoar → H Antares Dec 11.0920 φ^5 phi power (93.35)",
+      "S Quaoar → J Antares Dec 11.0921 φ^5 phi power (93.02)"
+     ],
+     "note": "10.9980 - 11.0921",
+     "field": "also: 2 Edmond Dantes, 5 Sir Apollo, 7 Black Opium"
+    },
+    {
+     "check": 11,
+     "key": "('14', '14.14')",
+     "cells": [
+      "S Transpluto → H Pallas Dec 13.9829 14 whole (2.17)",
+      "S Sedna → J Ceres RA 14.0040 14 whole (63.90)",
+      "H Quaoar – H Fomalhaut Dec 14.1400 14.14 sqrt2 (94.12)"
+     ],
+     "note": "13.9829 - 14.1400",
+     "field": "also: 2 Edmond Dantes, 6 Thundersockssundae"
     },
     {
      "check": 11,
@@ -876,14 +1043,15 @@
     },
     {
      "check": 11,
-     "key": "('17.7778', '18')",
+     "key": "('11×φ', '17.7778', '18')",
      "cells": [
       "H Mercury – H Juno Dec 17.7716 17.7778 ninth (95.14)",
+      "H Venus – H Aldebaran RA 17.7973 11×φ golden (93.50)",
       "H Mars – H Eris Dec 17.9879 18 whole (15.65)",
       "S Neptune → H Gonggong RA 18.0012 18 whole (88.76)"
      ],
      "note": "17.7716 - 18.0012",
-     "field": "also: 5 Sir Apollo"
+     "field": "also: 1 Vocaliser"
     },
     {
      "check": 11,
@@ -929,7 +1097,7 @@
       "S Ceres → H Juno RA 111.1850 111.111 ninth (87.90)"
      ],
      "note": "110.9754 - 111.1850",
-     "field": "also: 7 Black Opium"
+     "field": "also: 5 Sir Apollo, 6 Thundersockssundae, 7 Black Opium"
     },
     {
      "check": 11,
@@ -950,7 +1118,9 @@
       "H Saturn – H Quaoar Dec 3.9859 4 whole (8.66)",
       "S Vesta → H Chiron RA 39.9809 40 whole (0.20)",
       "S Mercury → H Makemake Dec 39.9826 40 whole (1.67)",
+      "S Pluto → H Antares Dec 4.0086 4 whole (32.69)",
       "S Ceres → J Ceres Dec 4.0027 4 whole (74.74)",
+      "S Pluto → J Antares Dec 4.0087 4 whole (32.15)",
       "S Vesta → J Uranus Dec 4.0097 4 whole (26.39)",
       "S Makemake → J Ceres Dec 4.0177 4 whole (1.30)",
       "S Sedna → J Sedna Dec 3.9845 4 whole (5.01)"
@@ -997,6 +1167,23 @@
     },
     {
      "check": 12,
+     "key": "(3,)",
+     "cells": [
+      "S Eris → H Ceres Dec 30.0046 30 whole (59.34)",
+      "S Uranus → H Regulus Dec 3.0009 3 whole (90.78)",
+      "S Quaoar → H Mars Dec 30.0142 30 whole (8.37)",
+      "J Ceres – J Sedna RA 30.0197 30 whole (0.02)",
+      "J Mercury – J Makemake RA 29.9922 30 whole (37.35)",
+      "S Jupiter → J Eris Dec 3.0063 3 whole (47.19)",
+      "S Moon → J Jupiter Dec 2.9867 3 whole (11.08)",
+      "S Pallas → J Jupiter Dec 29.9945 30 whole (52.38)",
+      "S Uranus → J Regulus Dec 2.9986 3 whole (86.93)"
+     ],
+     "note": "3 and 30",
+     "field": "also: 1 Vocaliser, 2 Edmond Dantes, 5 Sir Apollo, 6 Thundersockssundae, 7 Black Opium"
+    },
+    {
+     "check": 12,
      "key": "(1,)",
      "cells": [
       "S Sedna → H Sedna Dec 1.0110 1 whole (20.38)",
@@ -1016,21 +1203,6 @@
      ],
      "note": "13 and 130",
      "field": "also: 1 Vocaliser"
-    },
-    {
-     "check": 12,
-     "key": "(3,)",
-     "cells": [
-      "S Eris → H Ceres Dec 30.0046 30 whole (59.34)",
-      "S Quaoar → H Mars Dec 30.0142 30 whole (8.37)",
-      "J Ceres – J Sedna RA 30.0197 30 whole (0.02)",
-      "J Mercury – J Makemake RA 29.9922 30 whole (37.35)",
-      "S Jupiter → J Eris Dec 3.0063 3 whole (47.19)",
-      "S Moon → J Jupiter Dec 2.9867 3 whole (11.08)",
-      "S Pallas → J Jupiter Dec 29.9945 30 whole (52.38)"
-     ],
-     "note": "3 and 30",
-     "field": "also: 1 Vocaliser, 5 Sir Apollo, 6 Thundersockssundae, 7 Black Opium"
     },
     {
      "check": 12,
@@ -1069,12 +1241,32 @@
     },
     {
      "check": 9,
+     "key": "('H', 'Antares', '10×φ^5')",
+     "cells": [
+      "H Jupiter – H Antares RA 110.9870 10×φ^5 phi power (71.61)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 9,
      "key": "('J', 'Saturn', '110×φ')",
      "cells": [
       "J Jupiter – J Saturn RA 177.9772 110×φ golden (63.87)"
      ],
      "note": "",
      "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(3,)",
+     "cells": [
+      "S Uranus → H Regulus Dec 3.0009 3 whole (91.60)",
+      "S Uranus → J Regulus Dec 3.0016 3 whole (84.86)",
+      "J Neptune – J Antares Dec 4.8548 3×φ golden (95.56)"
+     ],
+     "note": "",
+     "field": "also: 3 Peak Time"
     },
     {
      "check": 10,
@@ -1095,7 +1287,7 @@
       "J Venus – J Uranus Dec 45.3024 28×φ golden (84.97)"
      ],
      "note": "",
-     "field": "only"
+     "field": "also: 3 Peak Time"
     },
     {
      "check": 10,
@@ -1119,6 +1311,27 @@
     },
     {
      "check": 10,
+     "key": "(93,)",
+     "cells": [
+      "H Gonggong – H Aldebaran RA 92.9948 93 whole (54.63)",
+      "S Pluto → H Orcus RA 150.4701 93×φ golden (61.27)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(94,)",
+     "cells": [
+      "S Mercury → H Aldebaran RA 93.9974 94 whole (75.88)",
+      "S Mercury → J Aldebaran RA 93.9982 94 whole (82.79)",
+      "H Neptune – H Juno RA 152.0886 94×φ golden (63.39)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
      "key": "(96,)",
      "cells": [
       "S Venus → H Haumea RA 95.9984 96 whole (84.87)",
@@ -1126,6 +1339,44 @@
      ],
      "note": "",
      "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('3×φ', '5')",
+     "cells": [
+      "J Neptune – J Antares Dec 4.8548 3×φ golden (95.56)",
+      "S Pluto → J Rahu RA 4.9983 5 whole (83.48)",
+      "S Chiron → J Mercury Dec 5.0017 5 whole (84.17)",
+      "J Rahu – J Antares Dec 5.0119 5 whole (16.22)",
+      "H Transpluto – H Aldebaran Dec 5.0142 5 whole (8.47)"
+     ],
+     "note": "4.8548 - 5.0142",
+     "field": "also: 3 Peak Time"
+    },
+    {
+     "check": 11,
+     "key": "('11', 'φ^5')",
+     "cells": [
+      "H Mercury – H Mars RA 11.0161 11 whole (3.85)",
+      "S Quaoar → J Antares Dec 11.0916 φ^5 phi power (94.83)",
+      "S Quaoar → H Antares Dec 11.0921 φ^5 phi power (93.19)",
+      "H Saturn – H Fomalhaut Dec 11.0988 φ^5 phi power (71.42)"
+     ],
+     "note": "11.0161 - 11.0988",
+     "field": "also: 2 Edmond Dantes, 3 Peak Time, 7 Black Opium"
+    },
+    {
+     "check": 11,
+     "key": "('7×φ', 'φ^5')",
+     "cells": [
+      "S Quaoar → J Antares Dec 11.0916 φ^5 phi power (94.83)",
+      "S Quaoar → H Antares Dec 11.0921 φ^5 phi power (93.19)",
+      "H Saturn – H Fomalhaut Dec 11.0988 φ^5 phi power (71.42)",
+      "S Uranus → H Ketu Dec 11.3206 7×φ golden (68.18)",
+      "S Mars → J Eris Dec 11.3234 7×φ golden (83.46)"
+     ],
+     "note": "11.0916 - 11.3234",
+     "field": "also: 2 Edmond Dantes, 7 Black Opium"
     },
     {
      "check": 11,
@@ -1139,7 +1390,7 @@
       "S Saturn → J Ceres Dec 18.0184 18 whole (0.61)"
      ],
      "note": "17.7719 - 18.0184",
-     "field": "also: 3 Peak Time"
+     "field": "only"
     },
     {
      "check": 11,
@@ -1147,6 +1398,7 @@
      "cells": [
       "S Makemake → J Juno Dec 30.7405 19×φ golden (87.38)",
       "S Mercury → H Haumea Dec 30.7461 19×φ golden (79.72)",
+      "J Saturn – J Regulus Dec 30.9830 31 whole (2.25)",
       "S Makemake → H Orcus Dec 30.9894 31 whole (21.86)",
       "S Pallas → H Mercury Dec 30.9944 31 whole (51.48)",
       "S Haumea → H Quaoar Dec 31.0073 31 whole (40.25)",
@@ -1165,6 +1417,28 @@
       "J Mars – J Eris Dec 34.0170 34 whole (2.24)"
      ],
      "note": "33.9782 - 34.0170",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('10×φ^5', '111.111')",
+     "cells": [
+      "H Jupiter – H Antares RA 110.9870 10×φ^5 phi power (71.61)",
+      "S Uranus → J Neptune RA 111.1323 111.111 ninth (96.53)",
+      "S Sedna → J Makemake RA 111.1934 111.111 ninth (86.53)"
+     ],
+     "note": "110.9870 - 111.1934",
+     "field": "also: 3 Peak Time, 6 Thundersockssundae, 7 Black Opium"
+    },
+    {
+     "check": 11,
+     "key": "('136', '84×φ')",
+     "cells": [
+      "J Rahu – J Pallas RA 135.9037 84×φ golden (42.83)",
+      "J Sun – J Antares RA 135.9387 84×φ golden (6.96)",
+      "J Sun – J Pallas RA 136.0032 136 whole (70.56)"
+     ],
+     "note": "135.9037 - 136.0032",
      "field": "only"
     },
     {
@@ -1248,12 +1522,14 @@
       "H Saturn – H Transpluto Dec 30.0165 30 whole (3.06)",
       "S Neptune → H Vesta RA 3.0152 3 whole (5.71)",
       "S Neptune → H Venus Dec 30.0018 30 whole (83.20)",
+      "S Uranus → H Regulus Dec 3.0009 3 whole (91.60)",
       "J Pallas – J Orcus RA 30.0079 30 whole (36.51)",
       "S Ketu → J Mercury Dec 30.0055 30 whole (52.29)",
-      "S Mars → J Sun Dec 29.9879 30 whole (15.41)"
+      "S Mars → J Sun Dec 29.9879 30 whole (15.41)",
+      "S Uranus → J Regulus Dec 3.0016 3 whole (84.86)"
      ],
      "note": "3 and 30",
-     "field": "also: 1 Vocaliser, 3 Peak Time, 6 Thundersockssundae, 7 Black Opium"
+     "field": "also: 1 Vocaliser, 2 Edmond Dantes, 3 Peak Time, 6 Thundersockssundae, 7 Black Opium"
     },
     {
      "check": 12,
@@ -1327,12 +1603,13 @@
     },
     {
      "check": 7,
-     "key": "('count', 2)",
+     "key": "('count', 3)",
      "cells": [
       "11.1111 ninth",
-      "15 whole"
+      "15 whole",
+      "31 whole"
      ],
-     "note": "2 numbers",
+     "note": "3 numbers",
      "field": ""
     },
     {
@@ -1387,11 +1664,22 @@
      "key": "(12,)",
      "cells": [
       "S Sedna → H Rahu Dec 11.9956 12 whole (60.46)",
+      "H Eris – H Aldebaran Dec 19.4106 12×φ golden (67.23)",
       "S Sun → J Uranus Dec 19.4170 12×φ golden (96.43)",
       "S Uranus → J Pluto Dec 19.4171 12×φ golden (95.68)"
      ],
      "note": "",
-     "field": "only"
+     "field": "also: 7 Black Opium"
+    },
+    {
+     "check": 10,
+     "key": "(17,)",
+     "cells": [
+      "H Jupiter – H Transpluto RA 17.0050 17 whole (56.00)",
+      "H Quaoar – H Regulus Dec 27.5084 17×φ golden (89.12)"
+     ],
+     "note": "",
+     "field": "also: 2 Edmond Dantes, 7 Black Opium"
     },
     {
      "check": 10,
@@ -1423,6 +1711,8 @@
      "cells": [
       "S Pallas → H Eris Dec 3.9952 4 whole (57.81)",
       "H Sun – H Ketu Dec 3.9994 4 whole (94.01)",
+      "S Pluto → J Antares Dec 4.0076 4 whole (38.46)",
+      "S Pluto → H Antares Dec 4.0082 4 whole (34.70)",
       "S Vesta → H Quaoar Dec 4.1423 4.14 silver (98.64)"
      ],
      "note": "3.9952 - 4.1423",
@@ -1456,28 +1746,91 @@
     },
     {
      "check": 11,
-     "key": "('11', '11.1111')",
+     "key": "('11', '11.1111', 'φ^5')",
      "cells": [
       "H Uranus – H Pallas Dec 10.9804 11 whole (0.04)",
       "S Sun → H Sedna Dec 10.9860 11 whole (9.08)",
       "S Sun → H Neptune RA 10.9970 11 whole (72.03)",
+      "S Quaoar → J Antares Dec 11.0911 φ^5 phi power (96.76)",
+      "S Quaoar → H Antares Dec 11.0917 φ^5 phi power (94.57)",
       "S Orcus → J Uranus Dec 11.1117 11.1111 ninth (99.07)",
       "S Uranus → H Ketu Dec 11.1180 11.1111 ninth (88.69)"
      ],
      "note": "10.9804 - 11.1180",
-     "field": "only"
+     "field": "also: 1 Vocaliser"
     },
     {
      "check": 11,
-     "key": "('11.1111', '7×φ')",
+     "key": "('11.1111', '7×φ', 'φ^5')",
      "cells": [
+      "S Quaoar → J Antares Dec 11.0911 φ^5 phi power (96.76)",
+      "S Quaoar → H Antares Dec 11.0917 φ^5 phi power (94.57)",
       "S Orcus → J Uranus Dec 11.1117 11.1111 ninth (99.07)",
       "S Uranus → H Ketu Dec 11.1180 11.1111 ninth (88.69)",
       "S Ceres → J Makemake Dec 11.3233 7×φ golden (82.59)",
       "S Transpluto → J Haumea Dec 11.3289 7×φ golden (84.44)"
      ],
-     "note": "11.1117 - 11.3289",
+     "note": "11.0911 - 11.3289",
+     "field": "also: 1 Vocaliser"
+    },
+    {
+     "check": 11,
+     "key": "('12', '12.2222')",
+     "cells": [
+      "S Gonggong → J Jupiter Dec 11.9858 12 whole (8.54)",
+      "S Sedna → H Rahu Dec 11.9956 12 whole (60.46)",
+      "H Uranus – H Haumea Dec 12.0135 12 whole (10.64)",
+      "H Chiron – H Regulus Dec 12.2200 12.2222 ninth (96.96)"
+     ],
+     "note": "11.9858 - 12.2200",
+     "field": "also: 1 Vocaliser, 7 Black Opium"
+    },
+    {
+     "check": 11,
+     "key": "('14', '14.14')",
+     "cells": [
+      "J Vesta – J Antares Dec 13.9803 14 whole (0.02)",
+      "S Pluto → H Orcus Dec 13.9836 14 whole (3.16)",
+      "H Vesta – H Antares Dec 14.1433 14.14 sqrt2 (96.83)"
+     ],
+     "note": "13.9803 - 14.1433",
+     "field": "also: 2 Edmond Dantes, 3 Peak Time"
+    },
+    {
+     "check": 11,
+     "key": "('24', '24.14')",
+     "cells": [
+      "S Haumea → H Orcus Dec 23.9824 24 whole (1.41)",
+      "J Mars – J Ketu RA 23.9863 24 whole (9.92)",
+      "S Neptune → J Gonggong RA 23.9972 24 whole (74.16)",
+      "S Vesta → J Sedna Dec 24.0051 24 whole (55.33)",
+      "S Uranus → H Neptune Dec 24.0099 24 whole (25.56)",
+      "J Sun – J Aldebaran Dec 24.1463 24.14 silver (93.16)"
+     ],
+     "note": "23.9824 - 24.1463",
      "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('23×φ', '37')",
+     "cells": [
+      "H Pluto – H Aldebaran Dec 37.0077 37 whole (38.10)",
+      "J Ceres – J Juno Dec 37.0128 37 whole (13.10)",
+      "S Quaoar → J Haumea Dec 37.2104 23×φ golden (74.67)"
+     ],
+     "note": "37.0077 - 37.2104",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('10×φ^5', '111.111')",
+     "cells": [
+      "J Rahu – J Regulus RA 110.9413 10×φ^5 phi power (86.22)",
+      "S Neptune → H Saturn RA 110.9917 10×φ^5 phi power (70.18)",
+      "S Jupiter → J Quaoar RA 111.1583 111.111 ninth (92.27)"
+     ],
+     "note": "110.9413 - 111.1583",
+     "field": "also: 3 Peak Time, 5 Sir Apollo, 7 Black Opium"
     },
     {
      "check": 11,
@@ -1520,10 +1873,12 @@
      "cells": [
       "H Vesta – H Gonggong RA 3.0190 3 whole (0.25)",
       "S Sun → H Makemake Dec 30.0004 30 whole (95.72)",
-      "J Rahu – J Juno Dec 29.9921 30 whole (36.88)"
+      "S Uranus → H Regulus Dec 3.0017 3 whole (83.91)",
+      "J Rahu – J Juno Dec 29.9921 30 whole (36.88)",
+      "S Uranus → J Regulus Dec 2.9992 3 whole (92.12)"
      ],
      "note": "3 and 30",
-     "field": "also: 1 Vocaliser, 3 Peak Time, 5 Sir Apollo, 7 Black Opium"
+     "field": "also: 1 Vocaliser, 2 Edmond Dantes, 3 Peak Time, 5 Sir Apollo, 7 Black Opium"
     },
     {
      "check": 12,
@@ -1594,6 +1949,7 @@
      "key": "(14,)",
      "cells": [
       "S Pluto → H Orcus Dec 13.9836 14 whole (3.16)",
+      "J Vesta – J Antares Dec 13.9803 14 whole (0.02)",
       "S Pallas → J Pluto RA 139.9816 140 whole (0.68)"
      ],
      "note": "14 and 140",
@@ -1684,6 +2040,16 @@
     },
     {
      "check": 10,
+     "key": "(12,)",
+     "cells": [
+      "J Ketu – J Makemake Dec 12.0002 12 whole (98.04)",
+      "J Mercury – J Regulus Dec 19.4122 12×φ golden (75.42)"
+     ],
+     "note": "",
+     "field": "also: 6 Thundersockssundae"
+    },
+    {
+     "check": 10,
      "key": "(13,)",
      "cells": [
       "S Pallas → H Sun Dec 13.0026 13 whole (76.10)",
@@ -1702,7 +2068,7 @@
       "J Pluto – J Haumea Dec 27.5074 17×φ golden (94.75)"
      ],
      "note": "",
-     "field": "also: 2 Edmond Dantes"
+     "field": "also: 2 Edmond Dantes, 6 Thundersockssundae"
     },
     {
      "check": 10,
@@ -1720,6 +2086,18 @@
      "cells": [
       "S Chiron → H Venus Dec 22.0033 22 whole (69.66)",
       "S Pluto → H Neptune RA 35.5944 22×φ golden (86.07)"
+     ],
+     "note": "",
+     "field": "also: 2 Edmond Dantes"
+    },
+    {
+     "check": 10,
+     "key": "(24,)",
+     "cells": [
+      "S Haumea → H Orcus Dec 23.9969 24 whole (71.50)",
+      "H Ketu – H Antares Dec 38.8388 24×φ golden (66.65)",
+      "J Haumea – J Regulus RA 38.8341 24×φ golden (91.96)",
+      "J Uranus – J Aldebaran Dec 38.8310 24×φ golden (89.22)"
      ],
      "note": "",
      "field": "only"
@@ -1758,6 +2136,30 @@
     },
     {
      "check": 11,
+     "key": "('11', 'φ^5')",
+     "cells": [
+      "S Rahu → J Chiron Dec 10.9840 11 whole (4.09)",
+      "H Jupiter – H Regulus Dec 10.9844 11 whole (4.76)",
+      "J Jupiter – J Saturn Dec 11.0104 11 whole (22.83)",
+      "S Quaoar → H Antares Dec 11.0906 φ^5 phi power (98.57)",
+      "S Quaoar → J Antares Dec 11.0907 φ^5 phi power (98.14)"
+     ],
+     "note": "10.9840 - 11.0907",
+     "field": "also: 2 Edmond Dantes, 3 Peak Time, 5 Sir Apollo"
+    },
+    {
+     "check": 11,
+     "key": "('7×φ', 'φ^5')",
+     "cells": [
+      "S Quaoar → H Antares Dec 11.0906 φ^5 phi power (98.57)",
+      "S Quaoar → J Antares Dec 11.0907 φ^5 phi power (98.14)",
+      "J Jupiter – J Juno Dec 11.3267 7×φ golden (97.00)"
+     ],
+     "note": "11.0906 - 11.3267",
+     "field": "also: 2 Edmond Dantes, 5 Sir Apollo"
+    },
+    {
+     "check": 11,
      "key": "('12', '12.2222')",
      "cells": [
       "J Ketu – J Makemake Dec 12.0002 12 whole (98.04)",
@@ -1766,13 +2168,14 @@
       "H Ketu – H Ceres Dec 12.2280 12.2222 ninth (91.95)"
      ],
      "note": "12.0002 - 12.2280",
-     "field": "also: 1 Vocaliser"
+     "field": "also: 1 Vocaliser, 6 Thundersockssundae"
     },
     {
      "check": 11,
      "key": "('18.8889', '19')",
      "cells": [
       "J Mars – J Chiron Dec 18.8877 18.8889 ninth (99.13)",
+      "J Mercury – J Antares Dec 18.9843 19 whole (4.72)",
       "S Chiron → J Sun Dec 18.9930 19 whole (42.03)",
       "S Transpluto → H Orcus Dec 18.9960 19 whole (63.85)",
       "S Neptune → J Rahu Dec 18.9987 19 whole (87.51)",
@@ -1807,6 +2210,22 @@
     },
     {
      "check": 11,
+     "key": "('24×φ', '39')",
+     "cells": [
+      "J Uranus – J Aldebaran Dec 38.8310 24×φ golden (89.22)",
+      "J Haumea – J Regulus RA 38.8341 24×φ golden (91.96)",
+      "H Ketu – H Antares Dec 38.8388 24×φ golden (66.65)",
+      "J Mercury – J Eris RA 38.9810 39 whole (0.26)",
+      "S Chiron → J Gonggong RA 38.9889 39 whole (19.59)",
+      "H Jupiter – H Saturn Dec 39.0076 39 whole (38.57)",
+      "S Neptune → J Makemake Dec 39.0101 39 whole (24.50)",
+      "S Sun → H Ketu RA 39.0101 39 whole (24.37)"
+     ],
+     "note": "38.8310 - 39.0101",
+     "field": "only"
+    },
+    {
+     "check": 11,
      "key": "('10×φ^5', '111.111')",
      "cells": [
       "S Uranus → H Orcus RA 110.9477 10×φ^5 phi power (84.09)",
@@ -1815,7 +2234,7 @@
       "S Transpluto → H Quaoar RA 111.1211 111.111 ninth (98.37)"
      ],
      "note": "110.9477 - 111.1211",
-     "field": "also: 3 Peak Time"
+     "field": "also: 3 Peak Time, 5 Sir Apollo, 6 Thundersockssundae"
     },
     {
      "check": 11,
@@ -1827,6 +2246,18 @@
       "S Uranus → H Venus RA 113.2489 70×φ golden (34.14)"
      ],
      "note": "113.0161 - 113.2489",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('154', '95×φ')",
+     "cells": [
+      "S Venus → J Mars RA 153.7114 95×φ golden (88.77)",
+      "S Sun → J Transpluto RA 153.7194 95×φ golden (65.66)",
+      "S Venus → J Regulus RA 154.0073 154 whole (40.02)",
+      "S Venus → H Regulus RA 154.0095 154 whole (27.70)"
+     ],
+     "note": "153.7114 - 154.0095",
      "field": "only"
     },
     {
@@ -1856,12 +2287,15 @@
      "key": "(3,)",
      "cells": [
       "H Mars – H Orcus Dec 3.0036 3 whole (67.12)",
+      "H Gonggong – H Aldebaran Dec 29.9895 30 whole (22.75)",
       "S Ketu → H Venus Dec 3.0006 3 whole (94.29)",
+      "S Uranus → H Regulus Dec 3.0022 3 whole (79.18)",
       "S Orcus → H Juno Dec 3.0180 3 whole (0.97)",
-      "J Ceres – J Transpluto Dec 30.0090 30 whole (30.25)"
+      "J Ceres – J Transpluto Dec 30.0090 30 whole (30.25)",
+      "S Uranus → J Regulus Dec 3.0025 3 whole (76.90)"
      ],
      "note": "3 and 30",
-     "field": "also: 1 Vocaliser, 3 Peak Time, 5 Sir Apollo, 6 Thundersockssundae"
+     "field": "also: 1 Vocaliser, 2 Edmond Dantes, 3 Peak Time, 5 Sir Apollo, 6 Thundersockssundae"
     },
     {
      "check": 12,

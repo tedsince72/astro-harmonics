@@ -20,14 +20,15 @@
     },
     {
      "check": 7,
-     "key": "('count', 4)",
+     "key": "('count', 5)",
      "cells": [
+      "11.1111 ninth",
       "144.444 ninth",
       "177.778 ninth",
       "10×φ^6 phi power",
       "20 whole"
      ],
-     "note": "4 numbers",
+     "note": "5 numbers",
      "field": ""
     },
     {
@@ -106,6 +107,15 @@
      "field": "only"
     },
     {
+     "check": 9,
+     "key": "('J', 'Aldebaran', '39')",
+     "cells": [
+      "J Jupiter – J Aldebaran Dec 39.0042 39 whole (62.77)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
      "check": 10,
      "key": "(9,)",
      "cells": [
@@ -151,6 +161,23 @@
     },
     {
      "check": 11,
+     "key": "('11', '11.1111')",
+     "cells": [
+      "J Neptune – J Eris Dec 10.9935 11 whole (45.29)",
+      "S Chiron → H Jupiter Dec 10.9976 11 whole (77.07)",
+      "S Transpluto → J Mars Dec 10.9987 11 whole (87.85)",
+      "S Gonggong → J Jupiter Dec 11.0012 11 whole (88.34)",
+      "S Mars → J Pluto Dec 11.0045 11 whole (60.26)",
+      "J Pluto – J Juno Dec 11.0143 11 whole (8.14)",
+      "J Eris – J Gonggong Dec 11.0150 11 whole (6.14)",
+      "J Haumea – J Regulus Dec 11.1137 11.1111 ninth (95.68)",
+      "H Ketu – H Fomalhaut RA 11.1140 11.1111 ninth (95.30)"
+     ],
+     "note": "10.9935 - 11.1140",
+     "field": "only"
+    },
+    {
+     "check": 11,
      "key": "('10×φ^1', '16')",
      "cells": [
       "J Rahu – J Orcus Dec 15.9974 16 whole (75.74)",
@@ -162,14 +189,15 @@
     },
     {
      "check": 11,
-     "key": "('11×φ', '18')",
+     "key": "('11×φ', '18', 'φ^6')",
      "cells": [
       "J Eris – J Sedna RA 17.7932 11×φ golden (70.40)",
+      "S Eris → J Aldebaran Dec 17.9411 φ^6 phi power (93.04)",
       "S Orcus → H Sedna Dec 17.9831 18 whole (2.36)",
       "J Eris – J Orcus Dec 17.9914 18 whole (32.45)"
      ],
      "note": "17.7932 - 17.9914",
-     "field": "also: 4 Royal Context, 5 My Friend Stan"
+     "field": "also: 3 Never In Paris, 5 My Friend Stan"
     },
     {
      "check": 11,
@@ -191,7 +219,19 @@
       "S Venus → J Ceres RA 102.0143 102 whole (8.20)"
      ],
      "note": "101.9075 - 102.0143",
-     "field": "only"
+     "field": "also: 7 Ishvara"
+    },
+    {
+     "check": 11,
+     "key": "('155.556', '96×φ')",
+     "cells": [
+      "J Pluto – J Chiron RA 155.3011 96×φ golden (0.46)",
+      "S Vesta → J Uranus RA 155.5171 155.556 ninth (96.36)",
+      "S Juno → H Fomalhaut RA 155.5482 155.556 ninth (99.31)",
+      "S Juno → J Fomalhaut RA 155.5500 155.556 ninth (99.47)"
+     ],
+     "note": "155.3011 - 155.5500",
+     "field": "also: 7 Ishvara, 9 Garsman, 11 Mews House"
     },
     {
      "check": 11,
@@ -209,14 +249,17 @@
      "key": "(3,)",
      "cells": [
       "H Ketu – H Gonggong RA 2.9992 3 whole (91.96)",
+      "H Uranus – H Regulus Dec 2.9848 3 whole (5.66)",
       "H Gonggong – H Orcus Dec 3.0171 3 whole (2.09)",
       "S Saturn → H Ketu RA 29.9924 30 whole (38.42)",
+      "S Ketu → H Antares Dec 3.0012 3 whole (88.81)",
       "S Jupiter → J Neptune RA 29.9962 30 whole (65.95)",
+      "S Ketu → J Antares Dec 2.9997 3 whole (97.48)",
       "S Orcus → J Juno Dec 3.0048 3 whole (58.00)",
       "S Quaoar → J Transpluto Dec 30.0061 30 whole (48.51)"
      ],
      "note": "3 and 30",
-     "field": "also: 2 Ventura Flame, 3 Never In Paris, 4 Royal Context, 5 My Friend Stan, 6 Birkenhead, 7 Ishvara"
+     "field": "also: 2 Ventura Flame, 3 Never In Paris, 4 Royal Context, 5 My Friend Stan, 6 Birkenhead, 7 Ishvara, 8 Dancin Inthestreet"
     },
     {
      "check": 12,
@@ -253,7 +296,7 @@
       "S Quaoar → J Neptune Dec 7.0066 7 whole (45.12)"
      ],
      "note": "7 and 70",
-     "field": "also: 8 Dancin Inthestreet, 11 Mews House"
+     "field": "also: 8 Dancin Inthestreet, 9 Garsman, 11 Mews House"
     },
     {
      "check": 12,
@@ -269,7 +312,7 @@
       "S Transpluto → J Mars Dec 10.9987 11 whole (87.85)"
      ],
      "note": "11 and 110",
-     "field": "only"
+     "field": "also: 8 Dancin Inthestreet"
     },
     {
      "check": 12,
@@ -312,8 +355,10 @@
       "S Haumea → H Makemake RA 19.9991 20 whole (91.02)",
       "S Rahu → H Vesta Dec 2.0009 2 whole (91.15)",
       "S Rahu → H Makemake Dec 1.9877 2 whole (14.88)",
+      "S Uranus → H Regulus Dec 1.9926 2 whole (39.62)",
       "J Mercury – J Venus Dec 19.9909 20 whole (29.84)",
       "S Neptune → J Mercury Dec 19.9828 20 whole (1.95)",
+      "S Uranus → J Regulus Dec 1.9918 2 whole (34.60)",
       "S Venus → J Pallas Dec 20.0005 20 whole (95.07)"
      ],
      "note": "2 and 20",
@@ -380,6 +425,29 @@
     },
     {
      "check": 10,
+     "key": "(3,)",
+     "cells": [
+      "H Ketu – H Gonggong RA 2.9976 3 whole (77.30)",
+      "S Ketu → H Antares Dec 3.0012 3 whole (88.65)",
+      "S Ketu → J Antares Dec 3.0012 3 whole (88.02)",
+      "S Orcus → J Eris Dec 3.0031 3 whole (71.20)",
+      "S Venus → J Aldebaran Dec 4.8541 3×φ golden (99.78)"
+     ],
+     "note": "",
+     "field": "also: 3 Never In Paris, 6 Birkenhead, 7 Ishvara, 8 Dancin Inthestreet"
+    },
+    {
+     "check": 10,
+     "key": "(6,)",
+     "cells": [
+      "J Transpluto – J Regulus RA 6.0031 6 whole (71.66)",
+      "S Gonggong → H Pluto Dec 9.7089 6×φ golden (95.56)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
      "key": "(13,)",
      "cells": [
       "S Neptune → J Ceres Dec 12.9951 13 whole (56.96)",
@@ -410,6 +478,16 @@
     },
     {
      "check": 10,
+     "key": "(52,)",
+     "cells": [
+      "S Uranus → H Fomalhaut RA 52.0053 52 whole (54.15)",
+      "S Pluto → H Haumea RA 84.1383 52×φ golden (96.96)"
+     ],
+     "note": "",
+     "field": "also: 11 Mews House"
+    },
+    {
+     "check": 10,
      "key": "(61,)",
      "cells": [
       "S Sedna → H Vesta RA 60.9978 61 whole (79.09)",
@@ -417,6 +495,21 @@
      ],
      "note": "",
      "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('3×φ', '5')",
+     "cells": [
+      "S Venus → J Aldebaran Dec 4.8541 3×φ golden (99.78)",
+      "S Mars → H Fomalhaut RA 4.9831 5 whole (2.37)",
+      "S Mars → J Fomalhaut RA 4.9840 5 whole (4.04)",
+      "S Venus → J Pallas Dec 4.9878 5 whole (15.34)",
+      "S Juno → J Orcus Dec 4.9910 5 whole (30.42)",
+      "S Haumea → H Sun Dec 4.9985 5 whole (85.99)",
+      "S Mars → H Eris Dec 5.0064 5 whole (45.92)"
+     ],
+     "note": "4.8541 - 5.0064",
+     "field": "also: 3 Never In Paris, 6 Birkenhead, 7 Ishvara, 8 Dancin Inthestreet"
     },
     {
      "check": 11,
@@ -467,7 +560,7 @@
       "H Mercury – H Orcus Dec 22.2201 22.2222 ninth (97.08)"
      ],
      "note": "21.9853 - 22.2201",
-     "field": "also: 6 Birkenhead, 11 Mews House"
+     "field": "also: 4 Royal Context, 6 Birkenhead, 11 Mews House"
     },
     {
      "check": 11,
@@ -498,21 +591,35 @@
      "cells": [
       "H Ketu – H Gonggong RA 2.9976 3 whole (77.30)",
       "S Saturn → H Ketu RA 30.0008 30 whole (92.33)",
+      "S Ketu → H Antares Dec 3.0012 3 whole (88.65)",
+      "S Ketu → J Antares Dec 3.0012 3 whole (88.02)",
       "S Haumea → J Transpluto Dec 2.9930 3 whole (42.33)",
       "S Orcus → J Eris Dec 3.0031 3 whole (71.20)"
      ],
      "note": "3 and 30",
-     "field": "also: 1 Magical Max, 3 Never In Paris, 4 Royal Context, 5 My Friend Stan, 6 Birkenhead, 7 Ishvara"
+     "field": "also: 1 Magical Max, 3 Never In Paris, 4 Royal Context, 5 My Friend Stan, 6 Birkenhead, 7 Ishvara, 8 Dancin Inthestreet"
     },
     {
      "check": 12,
      "key": "(6,)",
      "cells": [
       "H Jupiter – H Ketu Dec 6.0143 6 whole (8.24)",
+      "J Transpluto – J Regulus RA 6.0031 6 whole (71.66)",
       "S Sedna → J Ketu RA 59.9989 60 whole (89.47)"
      ],
      "note": "6 and 60",
-     "field": "also: 7 Ishvara, 9 Garsman"
+     "field": "also: 7 Ishvara, 9 Garsman, 11 Mews House"
+    },
+    {
+     "check": 12,
+     "key": "(4,)",
+     "cells": [
+      "H Mars – H Aldebaran Dec 4.0062 4 whole (47.31)",
+      "S Ceres → H Pluto Dec 4.0183 4 whole (0.75)",
+      "J Gonggong – J Haumea Dec 40.0146 40 whole (7.25)"
+     ],
+     "note": "4 and 40",
+     "field": "also: 3 Never In Paris, 5 My Friend Stan, 6 Birkenhead, 8 Dancin Inthestreet, 9 Garsman, 11 Mews House"
     },
     {
      "check": 12,
@@ -523,9 +630,11 @@
       "S Haumea → H Haumea RA 1.9943 2 whole (50.87)",
       "S Haumea → H Makemake RA 20.0157 20 whole (4.65)",
       "S Rahu → H Makemake Dec 1.9902 2 whole (26.18)",
+      "S Uranus → H Regulus Dec 1.9926 2 whole (39.43)",
       "J Neptune – J Gonggong Dec 1.9843 2 whole (4.70)",
       "J Sun – J Venus Dec 1.9899 2 whole (24.44)",
       "S Eris → J Mercury RA 1.9957 2 whole (61.64)",
+      "S Uranus → J Regulus Dec 1.9921 2 whole (36.89)",
       "S Orcus → J Pluto Dec 2.0182 2 whole (0.80)"
      ],
      "note": "2 and 20",
@@ -533,24 +642,15 @@
     },
     {
      "check": 12,
-     "key": "(4,)",
-     "cells": [
-      "S Ceres → H Pluto Dec 4.0183 4 whole (0.75)",
-      "J Gonggong – J Haumea Dec 40.0146 40 whole (7.25)"
-     ],
-     "note": "4 and 40",
-     "field": "also: 6 Birkenhead, 8 Dancin Inthestreet, 9 Garsman, 11 Mews House"
-    },
-    {
-     "check": 12,
      "key": "(12,)",
      "cells": [
       "J Saturn – J Pluto Dec 12.0113 12 whole (18.77)",
+      "J Quaoar – J Antares Dec 12.0143 12 whole (8.18)",
       "S Vesta → J Gonggong RA 119.9892 120 whole (21.13)",
       "S Sedna → J Rahu RA 120.0011 120 whole (89.47)"
      ],
      "note": "12 and 120",
-     "field": "also: 3 Never In Paris"
+     "field": "also: 3 Never In Paris, 11 Mews House"
     },
     {
      "check": 12,
@@ -649,6 +749,17 @@
     },
     {
      "check": 10,
+     "key": "(3,)",
+     "cells": [
+      "S Ketu → H Antares Dec 3.0004 3 whole (96.35)",
+      "S Ketu → J Antares Dec 3.0000 3 whole (99.54)",
+      "S Venus → H Aldebaran Dec 4.8547 3×φ golden (96.25)"
+     ],
+     "note": "",
+     "field": "also: 2 Ventura Flame, 6 Birkenhead, 7 Ishvara, 8 Dancin Inthestreet"
+    },
+    {
+     "check": 10,
      "key": "(11,)",
      "cells": [
       "S Venus → H Rahu Dec 11.0021 11 whole (79.69)",
@@ -658,12 +769,39 @@
      "field": "also: 1 Magical Max, 5 My Friend Stan, 6 Birkenhead, 8 Dancin Inthestreet"
     },
     {
+     "check": 10,
+     "key": "(94,)",
+     "cells": [
+      "S Sedna → H Orcus RA 94.0047 94 whole (58.21)",
+      "J Uranus – J Regulus RA 152.0900 94×φ golden (70.52)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('3×φ', '5')",
+     "cells": [
+      "S Venus → H Aldebaran Dec 4.8547 3×φ golden (96.25)",
+      "J Neptune – J Ceres Dec 4.9826 5 whole (1.68)",
+      "S Mars → H Fomalhaut RA 4.9851 5 whole (6.39)",
+      "S Mars → J Fomalhaut RA 4.9869 5 whole (11.83)",
+      "S Juno → J Orcus Dec 4.9987 5 whole (87.30)",
+      "H Haumea – H Regulus Dec 5.0056 5 whole (51.65)",
+      "J Sun – J Vesta Dec 5.0116 5 whole (17.47)",
+      "S Neptune → H Orcus Dec 5.0141 5 whole (8.70)"
+     ],
+     "note": "4.8547 - 5.0141",
+     "field": "also: 2 Ventura Flame, 6 Birkenhead, 7 Ishvara, 8 Dancin Inthestreet"
+    },
+    {
      "check": 11,
      "key": "('10',)",
      "cells": [
       "S Orcus → J Mercury Dec 9.9946 10 whole (53.63)",
       "J Pallas – J Chiron Dec 9.9954 10 whole (58.99)",
       "S Makemake → J Makemake Dec 9.9996 10 ninth (97.67)",
+      "J Pallas – J Regulus Dec 10.0020 10 whole (80.62)",
       "S Mercury → J Makemake Dec 10.0121 10 whole (15.78)",
       "H Eris – H Sedna Dec 10.0165 10 whole (3.13)"
      ],
@@ -674,13 +812,15 @@
      "check": 11,
      "key": "('11', 'φ^5')",
      "cells": [
+      "H Chiron – H Regulus Dec 10.9857 11 whole (8.13)",
+      "J Ceres – J Antares Dec 10.9919 11 whole (35.13)",
       "S Venus → H Rahu Dec 11.0021 11 whole (79.69)",
       "S Neptune → J Venus RA 11.0108 11 whole (21.11)",
       "S Sun → J Makemake Dec 11.0140 11 whole (9.13)",
       "S Pallas → H Rahu Dec 11.0990 φ^5 phi power (70.81)",
       "J Pallas – J Vesta Dec 11.0992 φ^5 phi power (70.06)"
      ],
-     "note": "11.0021 - 11.0992",
+     "note": "10.9857 - 11.0992",
      "field": "also: 4 Royal Context"
     },
     {
@@ -700,6 +840,7 @@
      "cells": [
       "S Chiron → H Neptune Dec 13.9881 14 whole (16.50)",
       "H Makemake – H Transpluto Dec 13.9930 14 whole (42.21)",
+      "H Quaoar – H Fomalhaut Dec 14.0049 14 whole (57.11)",
       "S Venus → J Ketu Dec 14.0052 14 whole (54.74)",
       "S Eris → J Ceres Dec 14.0094 14 whole (28.22)",
       "S Pluto → J Chiron Dec 14.1476 14.14 sqrt2 (85.12)"
@@ -712,6 +853,7 @@
      "key": "('10×φ^1', '16')",
      "cells": [
       "S Juno → H Mercury Dec 15.9835 16 whole (3.03)",
+      "H Mercury – H Antares Dec 15.9852 16 whole (6.76)",
       "H Chiron – H Haumea Dec 15.9913 16 whole (32.10)",
       "S Rahu → H Sedna Dec 15.9935 16 whole (45.30)",
       "S Quaoar → J Venus Dec 16.0174 16 whole (1.64)",
@@ -730,7 +872,7 @@
       "S Transpluto → H Sun Dec 18.0073 18 whole (40.08)"
      ],
      "note": "17.7983 - 18.0073",
-     "field": "only"
+     "field": "also: 1 Magical Max, 5 My Friend Stan"
     },
     {
      "check": 11,
@@ -747,20 +889,33 @@
      "check": 11,
      "key": "('23×φ', '37')",
      "cells": [
+      "J Ketu – J Fomalhaut Dec 36.9821 37 whole (1.10)",
       "S Venus → H Quaoar Dec 36.9828 37 whole (1.92)",
       "S Saturn → H Saturn RA 37.0009 37 whole (91.62)",
       "S Haumea → J Neptune Dec 37.0135 37 whole (10.52)",
       "S Jupiter → H Ketu RA 37.0186 37 whole (0.49)",
       "H Sun – H Uranus RA 37.2175 23×φ golden (83.89)"
      ],
-     "note": "36.9828 - 37.2175",
+     "note": "36.9821 - 37.2175",
      "field": "also: 8 Dancin Inthestreet, 11 Mews House"
+    },
+    {
+     "check": 11,
+     "key": "('32×φ', '52')",
+     "cells": [
+      "J Ceres – J Haumea RA 51.7719 32×φ golden (70.76)",
+      "S Uranus → H Fomalhaut RA 52.0073 52 whole (40.60)",
+      "S Uranus → J Fomalhaut RA 52.0091 52 whole (29.81)"
+     ],
+     "note": "51.7719 - 52.0091",
+     "field": "also: 7 Ishvara"
     },
     {
      "check": 11,
      "key": "('139', '86×φ')",
      "cells": [
       "S Sedna → J Jupiter RA 139.0006 139 whole (94.53)",
+      "H Pluto – H Aldebaran RA 139.0022 139 whole (78.90)",
       "J Pluto – J Eris RA 139.1283 86×φ golden (9.14)",
       "S Sedna → J Rahu RA 139.1663 86×φ golden (27.67)"
      ],
@@ -788,7 +943,7 @@
       "S Uranus → J Pallas Dec 11.9957 12 whole (61.38)"
      ],
      "note": "12 and 120",
-     "field": "also: 2 Ventura Flame"
+     "field": "also: 2 Ventura Flame, 11 Mews House"
     },
     {
      "check": 12,
@@ -797,10 +952,15 @@
       "H Mars – H Uranus RA 2.0091 2 whole (29.44)",
       "H Rahu – H Transpluto RA 1.9880 2 whole (16.12)",
       "H Ceres – H Orcus Dec 20.0132 20 whole (11.56)",
+      "H Neptune – H Regulus Dec 20.0076 20 whole (38.33)",
       "S Gonggong → H Ketu RA 1.9883 2 whole (17.08)",
       "S Moon → H Saturn Dec 2.0185 2 whole (0.60)",
       "S Saturn → H Saturn Dec 2.0005 2 whole (95.07)",
-      "S Makemake → J Makemake RA 20.0037 20 whole (66.61)"
+      "S Uranus → H Regulus Dec 1.9936 2 whole (45.93)",
+      "J Vesta – J Antares RA 20.0095 20 whole (27.47)",
+      "J Chiron – J Regulus Dec 19.9974 20 whole (75.71)",
+      "S Makemake → J Makemake RA 20.0037 20 whole (66.61)",
+      "S Uranus → J Regulus Dec 1.9936 2 whole (46.42)"
      ],
      "note": "2 and 20",
      "field": "also: 1 Magical Max, 2 Ventura Flame, 4 Royal Context, 5 My Friend Stan, 6 Birkenhead, 7 Ishvara, 9 Garsman, 11 Mews House"
@@ -816,6 +976,7 @@
       "S Gonggong → H Gonggong Dec 1.0195 1 whole (0.06)",
       "S Orcus → H Juno Dec 0.9834 1 whole (2.87)",
       "J Pallas – J Chiron Dec 9.9954 10 whole (58.99)",
+      "J Pallas – J Regulus Dec 10.0020 10 whole (80.62)",
       "S Mercury → J Makemake Dec 10.0121 10 whole (15.78)",
       "S Vesta → J Haumea Dec 0.9887 1 whole (18.92)",
       "S Orcus → J Mercury Dec 9.9946 10 whole (53.63)"
@@ -827,6 +988,7 @@
      "check": 12,
      "key": "(3,)",
      "cells": [
+      "S Ketu → H Antares Dec 3.0004 3 whole (96.35)",
       "S Mars → H Ketu Dec 3.0081 3 whole (35.43)",
       "S Sun → H Sun Dec 30.0015 30 whole (85.67)",
       "S Uranus → H Haumea Dec 3.0121 3 whole (15.71)",
@@ -834,10 +996,22 @@
       "S Sedna → H Venus Dec 3.0097 3 whole (26.50)",
       "J Rahu – J Vesta RA 30.0144 30 whole (7.80)",
       "S Ketu → J Neptune Dec 3.0093 3 whole (28.58)",
+      "S Ketu → J Antares Dec 3.0000 3 whole (99.54)",
       "S Orcus → J Rahu Dec 3.0096 3 whole (27.30)"
      ],
      "note": "3 and 30",
-     "field": "also: 1 Magical Max, 2 Ventura Flame, 4 Royal Context, 5 My Friend Stan, 6 Birkenhead, 7 Ishvara"
+     "field": "also: 1 Magical Max, 2 Ventura Flame, 4 Royal Context, 5 My Friend Stan, 6 Birkenhead, 7 Ishvara, 8 Dancin Inthestreet"
+    },
+    {
+     "check": 12,
+     "key": "(4,)",
+     "cells": [
+      "H Rahu – H Fomalhaut Dec 39.9855 40 whole (7.58)",
+      "S Mars → H Juno Dec 3.9980 4 whole (80.79)",
+      "S Chiron → J Pallas Dec 3.9826 4 whole (1.72)"
+     ],
+     "note": "4 and 40",
+     "field": "also: 2 Ventura Flame, 5 My Friend Stan, 6 Birkenhead, 8 Dancin Inthestreet, 9 Garsman, 11 Mews House"
     },
     {
      "check": 12,
@@ -916,6 +1090,15 @@
      "field": ""
     },
     {
+     "check": 9,
+     "key": "('H', 'Aldebaran', '22.2222')",
+     "cells": [
+      "H Jupiter – H Aldebaran Dec 22.2274 22.2222 ninth (92.81)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
      "check": 10,
      "key": "(22,)",
      "cells": [
@@ -926,16 +1109,49 @@
      "field": "also: 7 Ishvara"
     },
     {
+     "check": 10,
+     "key": "(26,)",
+     "cells": [
+      "S Orcus → J Chiron Dec 25.9962 26 whole (65.81)",
+      "J Chiron – J Antares Dec 42.0616 26×φ golden (60.27)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(29,)",
+     "cells": [
+      "S Pluto → H Saturn RA 29.0003 29 whole (97.25)",
+      "J Mercury – J Quaoar Dec 28.9974 29 whole (75.85)",
+      "J Saturn – J Haumea Dec 29.0028 29 whole (74.38)",
+      "H Haumea – H Fomalhaut Dec 46.9240 29×φ golden (93.58)"
+     ],
+     "note": "",
+     "field": "also: 11 Mews House"
+    },
+    {
+     "check": 10,
+     "key": "(102,)",
+     "cells": [
+      "J Sun – J Ketu RA 101.9954 102 whole (59.20)",
+      "J Haumea – J Fomalhaut RA 165.0428 102×φ golden (80.57)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
      "check": 11,
      "key": "('1', '1.22222')",
      "cells": [
+      "H Mercury – H Aldebaran Dec 0.9823 1 whole (1.29)",
       "S Eris → H Eris Dec 0.9825 1 whole (1.56)",
       "S Pluto → H Pluto Dec 0.9881 1 whole (16.50)",
       "S Rahu → J Haumea Dec 1.0034 1 whole (69.07)",
       "S Juno → J Pluto Dec 1.0164 1 whole (3.18)",
       "S Jupiter → J Ketu Dec 1.2230 1.22222 ninth (89.56)"
      ],
-     "note": "0.9825 - 1.2230",
+     "note": "0.9823 - 1.2230",
      "field": "also: 1 Magical Max, 8 Dancin Inthestreet"
     },
     {
@@ -959,17 +1175,18 @@
       "S Rahu → H Transpluto Dec 12.2224 12.2222 ninth (99.80)"
      ],
      "note": "12.0077 - 12.2224",
-     "field": "also: 5 My Friend Stan, 6 Birkenhead"
+     "field": "also: 5 My Friend Stan, 6 Birkenhead, 11 Mews House"
     },
     {
      "check": 11,
      "key": "('14', '14.14')",
      "cells": [
+      "H Vesta – H Regulus Dec 14.0013 14 whole (87.74)",
       "S Ketu → H Orcus Dec 14.0014 14 whole (86.14)",
       "S Ketu → J Ceres Dec 14.0020 14 whole (80.96)",
       "S Vesta → H Uranus Dec 14.1458 14.14 sqrt2 (89.96)"
      ],
-     "note": "14.0014 - 14.1458",
+     "note": "14.0013 - 14.1458",
      "field": "also: 2 Ventura Flame, 3 Never In Paris, 6 Birkenhead, 7 Ishvara, 9 Garsman"
     },
     {
@@ -994,7 +1211,31 @@
       "H Haumea – H Makemake RA 18.0134 18 whole (10.89)"
      ],
      "note": "17.7919 - 18.0134",
-     "field": "also: 1 Magical Max, 5 My Friend Stan"
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('22', '22.2222')",
+     "cells": [
+      "S Pallas → H Quaoar RA 21.9929 22 whole (41.76)",
+      "S Neptune → H Haumea Dec 21.9936 22 whole (46.17)",
+      "S Uranus → H Sun RA 21.9985 22 whole (85.35)",
+      "H Jupiter – H Aldebaran Dec 22.2274 22.2222 ninth (92.81)"
+     ],
+     "note": "21.9929 - 22.2274",
+     "field": "also: 2 Ventura Flame, 6 Birkenhead, 11 Mews House"
+    },
+    {
+     "check": 11,
+     "key": "('15×φ', '24')",
+     "cells": [
+      "J Venus – J Fomalhaut Dec 23.9817 24 whole (0.72)",
+      "J Uranus – J Sedna Dec 23.9932 24 whole (43.25)",
+      "H Eris – H Antares Dec 24.0197 24 whole (0.02)",
+      "H Ceres – H Juno Dec 24.2764 15×φ golden (66.81)"
+     ],
+     "note": "23.9817 - 24.2764",
+     "field": "also: 11 Mews House"
     },
     {
      "check": 11,
@@ -1049,24 +1290,10 @@
     },
     {
      "check": 12,
-     "key": "(2,)",
-     "cells": [
-      "S Transpluto → H Orcus RA 1.9983 2 whole (83.58)",
-      "S Saturn → H Saturn Dec 1.9854 2 whole (7.34)",
-      "S Orcus → H Gonggong Dec 2.0019 2 whole (81.73)",
-      "S Sedna → H Sun Dec 2.0095 2 whole (27.53)",
-      "S Uranus → J Sedna RA 2.0044 2 whole (61.00)",
-      "S Moon → J Neptune Dec 1.9987 2 whole (86.97)",
-      "S Neptune → J Transpluto Dec 20.0090 20 whole (30.42)"
-     ],
-     "note": "2 and 20",
-     "field": "also: 1 Magical Max, 2 Ventura Flame, 3 Never In Paris, 5 My Friend Stan, 6 Birkenhead, 7 Ishvara, 9 Garsman, 11 Mews House"
-    },
-    {
-     "check": 12,
      "key": "(1,)",
      "cells": [
       "H Mercury – H Venus Dec 9.9846 10 whole (5.36)",
+      "H Mercury – H Aldebaran Dec 0.9823 1 whole (1.29)",
       "S Eris → H Eris Dec 0.9825 1 whole (1.56)",
       "S Juno → H Mercury Dec 9.9882 10 whole (16.88)",
       "S Pluto → H Pluto Dec 0.9881 1 whole (16.50)",
@@ -1080,6 +1307,7 @@
      "check": 12,
      "key": "(1,)",
      "cells": [
+      "H Mercury – H Aldebaran Dec 0.9823 1 whole (1.29)",
       "S Eris → H Eris Dec 0.9825 1 whole (1.56)",
       "S Pluto → H Pluto Dec 0.9881 1 whole (16.50)",
       "S Chiron → J Neptune RA 99.9813 100 whole (0.44)",
@@ -1091,15 +1319,36 @@
     },
     {
      "check": 12,
+     "key": "(2,)",
+     "cells": [
+      "H Saturn – H Antares RA 20.0074 20 whole (39.57)",
+      "S Transpluto → H Orcus RA 1.9983 2 whole (83.58)",
+      "S Saturn → H Saturn Dec 1.9854 2 whole (7.34)",
+      "S Uranus → H Regulus Dec 1.9930 2 whole (42.07)",
+      "S Orcus → H Gonggong Dec 2.0019 2 whole (81.73)",
+      "S Sedna → H Sun Dec 2.0095 2 whole (27.53)",
+      "S Uranus → J Sedna RA 2.0044 2 whole (61.00)",
+      "S Moon → J Neptune Dec 1.9987 2 whole (86.97)",
+      "S Neptune → J Transpluto Dec 20.0090 20 whole (30.42)",
+      "S Uranus → J Regulus Dec 1.9926 2 whole (39.41)"
+     ],
+     "note": "2 and 20",
+     "field": "also: 1 Magical Max, 2 Ventura Flame, 3 Never In Paris, 5 My Friend Stan, 6 Birkenhead, 7 Ishvara, 9 Garsman, 11 Mews House"
+    },
+    {
+     "check": 12,
      "key": "(3,)",
      "cells": [
       "H Sun – H Neptune RA 30.0168 30 whole (2.51)",
+      "H Sun – H Fomalhaut RA 30.0078 30 whole (37.21)",
+      "S Ketu → H Antares Dec 3.0009 3 whole (90.90)",
       "S Transpluto → J Mars RA 30.0197 30 whole (0.03)",
       "S Ketu → J Pluto Dec 29.9847 30 whole (5.63)",
+      "S Ketu → J Antares Dec 3.0010 3 whole (90.53)",
       "S Vesta → J Pallas Dec 3.0047 3 whole (58.76)"
      ],
      "note": "3 and 30",
-     "field": "also: 1 Magical Max, 2 Ventura Flame, 3 Never In Paris, 5 My Friend Stan, 6 Birkenhead, 7 Ishvara"
+     "field": "also: 1 Magical Max, 2 Ventura Flame, 3 Never In Paris, 5 My Friend Stan, 6 Birkenhead, 7 Ishvara, 8 Dancin Inthestreet"
     },
     {
      "check": 13,
@@ -1211,6 +1460,16 @@
     },
     {
      "check": 10,
+     "key": "(17,)",
+     "cells": [
+      "S Neptune → H Ketu RA 17.0058 17 whole (50.42)",
+      "H Quaoar – H Regulus Dec 27.5061 17×φ golden (97.15)"
+     ],
+     "note": "",
+     "field": "also: 6 Birkenhead"
+    },
+    {
+     "check": 10,
      "key": "(18,)",
      "cells": [
       "H Haumea – H Makemake RA 17.9964 18 whole (66.92)",
@@ -1219,6 +1478,17 @@
      ],
      "note": "",
      "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(25,)",
+     "cells": [
+      "S Eris → H Antares Dec 25.0021 25 whole (80.50)",
+      "S Eris → J Antares Dec 25.0018 25 whole (82.76)",
+      "S Eris → J Makemake Dec 40.4599 25×φ golden (51.78)"
+     ],
+     "note": "",
+     "field": "also: 6 Birkenhead, 7 Ishvara, 9 Garsman, 11 Mews House"
     },
     {
      "check": 10,
@@ -1259,18 +1529,20 @@
      "cells": [
       "S Venus → J Juno RA 11.9807 12 whole (0.12)",
       "H Ketu – H Chiron Dec 12.0083 12 whole (33.95)",
+      "J Eris – J Antares Dec 12.0089 12 whole (30.71)",
       "J Rahu – J Sedna Dec 12.2203 12.2222 ninth (97.36)",
       "S Neptune → H Sedna Dec 12.2217 12.2222 ninth (99.22)",
       "J Saturn – J Ceres RA 12.2259 12.2222 ninth (94.91)"
      ],
      "note": "11.9807 - 12.2259",
-     "field": "also: 4 Royal Context, 6 Birkenhead"
+     "field": "also: 4 Royal Context, 6 Birkenhead, 11 Mews House"
     },
     {
      "check": 11,
-     "key": "('11×φ', '18')",
+     "key": "('11×φ', '18', 'φ^6')",
      "cells": [
       "J Sun – J Neptune Dec 17.7902 11×φ golden (55.87)",
+      "S Eris → J Aldebaran Dec 17.9417 φ^6 phi power (94.39)",
       "S Makemake → J Chiron Dec 17.9819 18 whole (0.86)",
       "S Mercury → J Juno Dec 17.9873 18 whole (13.16)",
       "H Ketu – H Sedna Dec 17.9880 18 whole (16.09)",
@@ -1282,7 +1554,7 @@
       "J Mercury – J Haumea Dec 18.0137 18 whole (10.03)"
      ],
      "note": "17.7902 - 18.0137",
-     "field": "also: 1 Magical Max, 4 Royal Context"
+     "field": "also: 1 Magical Max, 3 Never In Paris"
     },
     {
      "check": 11,
@@ -1303,9 +1575,10 @@
       "S Saturn → J Juno Dec 25.9847 26 whole (5.57)",
       "H Pallas – H Eris RA 25.9896 26 whole (22.80)",
       "H Rahu – H Quaoar Dec 25.9999 26 whole (99.50)",
-      "S Saturn → J Chiron Dec 26.0025 26 whole (76.34)"
+      "S Saturn → J Chiron Dec 26.0025 26 whole (76.34)",
+      "H Orcus – H Aldebaran Dec 26.0162 26 whole (3.61)"
      ],
-     "note": "25.8869 - 26.0025",
+     "note": "25.8869 - 26.0162",
      "field": "also: 6 Birkenhead"
     },
     {
@@ -1350,6 +1623,7 @@
      "cells": [
       "H Neptune – H Gonggong RA 8.0088 8 whole (31.19)",
       "H Ketu – H Eris Dec 8.0039 8 whole (64.59)",
+      "H Uranus – H Aldebaran Dec 8.0097 8 whole (26.74)",
       "S Mercury → H Mercury RA 80.0192 80 whole (0.16)",
       "S Juno → H Eris Dec 7.9925 8 whole (39.26)",
       "J Chiron – J Orcus Dec 8.0142 8 whole (8.55)",
@@ -1365,10 +1639,24 @@
       "H Saturn – H Juno RA 16.0184 16 whole (0.63)",
       "S Quaoar → H Vesta RA 160.0062 160 whole (47.53)",
       "S Juno → H Ketu Dec 15.9965 16 whole (67.72)",
+      "J Rahu – J Antares Dec 16.0168 16 whole (2.57)",
       "S Uranus → J Vesta Dec 15.9863 16 whole (9.95)"
      ],
      "note": "16 and 160",
      "field": "also: 1 Magical Max, 2 Ventura Flame, 8 Dancin Inthestreet"
+    },
+    {
+     "check": 12,
+     "key": "(4,)",
+     "cells": [
+      "H Chiron – H Eris Dec 4.0044 4 whole (60.68)",
+      "S Ceres → H Pluto Dec 4.0112 4 whole (19.36)",
+      "S Juno → H Chiron Dec 3.9881 4 whole (16.45)",
+      "J Orcus – J Regulus RA 40.0020 40 whole (81.43)",
+      "J Rahu – J Eris Dec 4.0079 4 whole (36.76)"
+     ],
+     "note": "4 and 40",
+     "field": "also: 2 Ventura Flame, 3 Never In Paris, 6 Birkenhead, 8 Dancin Inthestreet, 9 Garsman, 11 Mews House"
     },
     {
      "check": 12,
@@ -1378,8 +1666,10 @@
       "S Saturn → H Juno RA 20.0064 20 whole (45.91)",
       "S Juno → H Sedna Dec 1.9916 2 whole (33.44)",
       "S Saturn → H Saturn Dec 1.9937 2 whole (47.16)",
+      "S Uranus → H Regulus Dec 1.9932 2 whole (43.45)",
       "S Gonggong → H Uranus Dec 19.9898 20 whole (24.01)",
       "S Gonggong → H Orcus Dec 1.9833 2 whole (2.65)",
+      "S Uranus → J Regulus Dec 1.9900 2 whole (24.97)",
       "S Sedna → J Mercury Dec 1.9800 2 whole (0.00)"
      ],
      "note": "2 and 20",
@@ -1389,6 +1679,7 @@
      "check": 12,
      "key": "(5,)",
      "cells": [
+      "S Mars → H Fomalhaut RA 4.9845 5 whole (5.12)",
       "S Neptune → H Juno Dec 5.0163 5 whole (3.43)",
       "S Rahu → J Ceres RA 50.0131 50 whole (11.80)",
       "S Transpluto → J Juno Dec 4.9912 5 whole (31.38)"
@@ -1400,16 +1691,19 @@
      "check": 12,
      "key": "(3,)",
      "cells": [
+      "S Ketu → H Antares Dec 3.0008 3 whole (92.35)",
       "S Neptune → H Neptune Dec 3.0013 3 whole (86.97)",
       "S Neptune → H Makemake Dec 30.0038 30 whole (65.47)",
       "S Sedna → H Transpluto Dec 3.0187 3 whole (0.39)",
       "J Mars – J Ketu Dec 3.0196 3 whole (0.04)",
+      "J Pluto – J Regulus Dec 3.0163 3 whole (3.36)",
       "S Gonggong → J Chiron RA 30.0140 30 whole (9.14)",
       "S Haumea → J Pluto RA 29.9851 30 whole (6.49)",
+      "S Ketu → J Antares Dec 3.0005 3 whole (94.77)",
       "S Moon → J Juno Dec 30.0037 30 whole (66.64)"
      ],
      "note": "3 and 30",
-     "field": "also: 1 Magical Max, 2 Ventura Flame, 3 Never In Paris, 4 Royal Context, 6 Birkenhead, 7 Ishvara"
+     "field": "also: 1 Magical Max, 2 Ventura Flame, 3 Never In Paris, 4 Royal Context, 6 Birkenhead, 7 Ishvara, 8 Dancin Inthestreet"
     },
     {
      "check": 12,
@@ -1497,7 +1791,7 @@
     },
     {
      "check": 7,
-     "key": "('count', 8)",
+     "key": "('count', 9)",
      "cells": [
       "17×φ golden",
       "111.111 ninth",
@@ -1506,9 +1800,10 @@
       "144.444 ninth",
       "155.556 ninth",
       "177.778 ninth",
-      "φ^5 phi power"
+      "φ^5 phi power",
+      "14.14 sqrt2"
      ],
-     "note": "8 numbers",
+     "note": "9 numbers",
      "field": ""
     },
     {
@@ -1525,6 +1820,15 @@
      "key": "('H', 'Haumea', '8×φ')",
      "cells": [
       "H Jupiter – H Haumea RA 12.9406 8×φ golden (78.49)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 9,
+     "key": "('J', 'Antares', '103')",
+     "cells": [
+      "J Jupiter – J Antares RA 103.0025 103 whole (76.37)"
      ],
      "note": "",
      "field": "only"
@@ -1571,6 +1875,17 @@
     },
     {
      "check": 10,
+     "key": "(3,)",
+     "cells": [
+      "S Ketu → H Antares Dec 3.0006 3 whole (94.30)",
+      "S Ketu → J Antares Dec 3.0002 3 whole (97.74)",
+      "S Venus → H Aldebaran Dec 4.8549 3×φ golden (95.25)"
+     ],
+     "note": "",
+     "field": "also: 2 Ventura Flame, 3 Never In Paris, 7 Ishvara, 8 Dancin Inthestreet"
+    },
+    {
+     "check": 10,
      "key": "(7,)",
      "cells": [
       "S Chiron → H Mars Dec 6.9953 7 whole (58.80)",
@@ -1599,12 +1914,13 @@
       "S Pallas → J Juno Dec 27.5072 17×φ golden (96.34)"
      ],
      "note": "",
-     "field": "only"
+     "field": "also: 5 My Friend Stan"
     },
     {
      "check": 10,
      "key": "(19,)",
      "cells": [
+      "J Pallas – J Fomalhaut Dec 19.0055 19 whole (52.82)",
       "J Saturn – J Pluto Dec 18.9949 19 whole (55.54)",
       "S Sun → H Neptune Dec 30.7423 19×φ golden (97.85)"
      ],
@@ -1615,11 +1931,13 @@
      "check": 10,
      "key": "(25,)",
      "cells": [
+      "S Eris → H Antares Dec 25.0019 25 whole (82.33)",
       "J Neptune – J Sedna Dec 24.9972 25 whole (73.99)",
+      "S Eris → J Antares Dec 25.0015 25 whole (85.53)",
       "S Pallas → J Mercury Dec 40.4520 25×φ golden (92.88)"
      ],
      "note": "",
-     "field": "only"
+     "field": "also: 5 My Friend Stan, 7 Ishvara, 9 Garsman, 11 Mews House"
     },
     {
      "check": 10,
@@ -1627,10 +1945,12 @@
      "cells": [
       "H Mercury – H Ketu RA 28.0023 28 whole (78.39)",
       "S Moon → H Saturn RA 28.0017 28 whole (83.38)",
+      "S Gonggong → H Aldebaran Dec 27.9996 28 whole (95.80)",
+      "S Gonggong → J Aldebaran Dec 28.0023 28 whole (78.61)",
       "S Saturn → H Makemake Dec 45.3058 28×φ golden (95.11)"
      ],
      "note": "",
-     "field": "only"
+     "field": "also: 9 Garsman, 11 Mews House"
     },
     {
      "check": 10,
@@ -1644,15 +1964,41 @@
     },
     {
      "check": 11,
+     "key": "('1.33333', '1.44444', '1×φ')",
+     "cells": [
+      "S Mercury → H Makemake Dec 1.3338 1.33333 ninth (94.66)",
+      "S Ceres → J Fomalhaut RA 1.4450 1.44444 ninth (94.56)",
+      "J Jupiter – J Eris Dec 1.6189 1×φ golden (94.47)"
+     ],
+     "note": "1.3338 - 1.6189",
+     "field": "only"
+    },
+    {
+     "check": 11,
      "key": "('2×φ', '3')",
      "cells": [
       "S Sedna → H Transpluto Dec 2.9839 3 whole (3.89)",
+      "S Ketu → J Antares Dec 3.0002 3 whole (97.74)",
+      "S Ketu → H Antares Dec 3.0006 3 whole (94.30)",
       "H Rahu – H Orcus RA 3.0084 3 whole (33.54)",
       "J Mercury – J Chiron RA 3.0113 3 whole (18.81)",
       "H Mercury – H Venus RA 3.2362 2×φ golden (99.33)"
      ],
      "note": "2.9839 - 3.2362",
      "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('3×φ', '5')",
+     "cells": [
+      "S Venus → H Aldebaran Dec 4.8549 3×φ golden (95.25)",
+      "S Mars → H Fomalhaut RA 4.9849 5 whole (6.04)",
+      "S Quaoar → J Venus Dec 4.9898 5 whole (24.20)",
+      "S Uranus → H Mars RA 5.0168 5 whole (2.58)",
+      "H Jupiter – H Makemake RA 5.0195 5 whole (0.07)"
+     ],
+     "note": "4.8549 - 5.0195",
+     "field": "also: 2 Ventura Flame, 3 Never In Paris, 7 Ishvara, 8 Dancin Inthestreet"
     },
     {
      "check": 11,
@@ -1695,7 +2041,7 @@
       "S Saturn → H Neptune Dec 12.2278 12.2222 ninth (92.31)"
      ],
      "note": "11.9936 - 12.2278",
-     "field": "also: 4 Royal Context, 5 My Friend Stan"
+     "field": "also: 4 Royal Context, 5 My Friend Stan, 11 Mews House"
     },
     {
      "check": 11,
@@ -1703,7 +2049,9 @@
      "cells": [
       "H Pallas – H Transpluto Dec 13.9888 14 whole (19.44)",
       "S Neptune → J Uranus Dec 13.9903 14 whole (26.73)",
+      "H Sun – H Regulus Dec 14.0131 14 whole (11.75)",
       "S Moon → H Juno RA 14.1401 14.14 sqrt2 (94.41)",
+      "J Chiron – J Fomalhaut Dec 14.1480 14.14 sqrt2 (84.02)",
       "S Eris → H Quaoar Dec 14.1493 14.14 sqrt2 (80.85)"
      ],
      "note": "13.9888 - 14.1493",
@@ -1711,16 +2059,18 @@
     },
     {
      "check": 11,
-     "key": "('11×φ', '17.7778', '18')",
+     "key": "('11×φ', '17.7778', '18', 'φ^6')",
      "cells": [
       "S Sedna → H Orcus Dec 17.7769 17.7778 ninth (99.35)",
       "S Ceres → H Mercury Dec 17.7962 11×φ golden (87.16)",
+      "S Eris → J Aldebaran Dec 17.9404 φ^6 phi power (91.57)",
       "S Uranus → J Makemake Dec 17.9865 18 whole (10.47)",
       "S Juno → H Gonggong Dec 17.9893 18 whole (21.67)",
-      "J Mercury – J Venus RA 18.0003 18 whole (97.19)"
+      "J Mercury – J Venus RA 18.0003 18 whole (97.19)",
+      "J Juno – J Regulus Dec 18.0159 18 whole (4.11)"
      ],
-     "note": "17.7769 - 18.0003",
-     "field": "also: 7 Ishvara"
+     "note": "17.7769 - 18.0159",
+     "field": "also: 8 Dancin Inthestreet"
     },
     {
      "check": 11,
@@ -1731,7 +2081,7 @@
       "S Ceres → J Sedna Dec 22.2276 22.2222 ninth (92.60)"
      ],
      "note": "22.0021 - 22.2276",
-     "field": "also: 2 Ventura Flame, 11 Mews House"
+     "field": "also: 2 Ventura Flame, 4 Royal Context, 11 Mews House"
     },
     {
      "check": 11,
@@ -1751,20 +2101,34 @@
       "S Chiron → H Ceres RA 33.9701 21×φ golden (53.92)",
       "S Rahu → H Juno Dec 33.9813 34 whole (0.41)",
       "S Mars → J Eris RA 34.0001 34 whole (99.39)",
+      "J Juno – J Antares RA 34.0053 34 whole (54.26)",
       "S Ceres → J Ceres Dec 34.0085 34 whole (33.24)"
      ],
      "note": "33.9701 - 34.0085",
+     "field": "also: 11 Mews House"
+    },
+    {
+     "check": 11,
+     "key": "('131', '81×φ')",
+     "cells": [
+      "S Mercury → J Gonggong RA 130.9926 131 whole (39.77)",
+      "H Uranus – H Regulus RA 131.0092 131 whole (29.34)",
+      "J Juno – J Fomalhaut RA 131.0748 81×φ golden (31.91)"
+     ],
+     "note": "130.9926 - 131.0748",
      "field": "only"
     },
     {
      "check": 11,
-     "key": "('177.778', '178')",
+     "key": "('110×φ', '177.778', '178')",
      "cells": [
+      "J Pluto – J Aldebaran RA 177.7007 177.778 ninth (93.96)",
       "S Transpluto → J Ketu RA 177.7073 177.778 ninth (94.49)",
       "H Pluto – H Vesta RA 177.7660 177.778 ninth (99.08)",
+      "J Mars – J Fomalhaut RA 177.9531 110×φ golden (0.28)",
       "H Ketu – H Transpluto RA 178.0002 178 whole (98.45)"
      ],
-     "note": "177.7073 - 178.0002",
+     "note": "177.7007 - 178.0002",
      "field": "only"
     },
     {
@@ -1772,12 +2136,14 @@
      "key": "(3,)",
      "cells": [
       "H Rahu – H Orcus RA 3.0084 3 whole (33.54)",
+      "S Ketu → H Antares Dec 3.0006 3 whole (94.30)",
       "S Sedna → H Transpluto Dec 2.9839 3 whole (3.89)",
       "J Mercury – J Chiron RA 3.0113 3 whole (18.81)",
-      "S Haumea → J Quaoar RA 30.0018 30 whole (82.86)"
+      "S Haumea → J Quaoar RA 30.0018 30 whole (82.86)",
+      "S Ketu → J Antares Dec 3.0002 3 whole (97.74)"
      ],
      "note": "3 and 30",
-     "field": "also: 1 Magical Max, 2 Ventura Flame, 3 Never In Paris, 4 Royal Context, 5 My Friend Stan, 7 Ishvara"
+     "field": "also: 1 Magical Max, 2 Ventura Flame, 3 Never In Paris, 4 Royal Context, 5 My Friend Stan, 7 Ishvara, 8 Dancin Inthestreet"
     },
     {
      "check": 12,
@@ -1785,11 +2151,14 @@
      "cells": [
       "H Rahu – H Transpluto RA 1.9998 2 whole (98.45)",
       "H Rahu – H Orcus Dec 20.0082 20 whole (35.04)",
+      "H Orcus – H Fomalhaut Dec 20.0152 20 whole (5.71)",
       "S Moon → H Saturn Dec 2.0182 2 whole (0.82)",
       "S Neptune → H Jupiter Dec 1.9946 2 whole (53.40)",
       "S Saturn → H Saturn Dec 2.0008 2 whole (92.54)",
+      "S Uranus → H Regulus Dec 1.9934 2 whole (44.91)",
       "J Sun – J Chiron RA 20.0123 20 whole (14.89)",
-      "S Uranus → J Juno Dec 20.0066 20 whole (44.58)"
+      "S Uranus → J Juno Dec 20.0066 20 whole (44.58)",
+      "S Uranus → J Regulus Dec 1.9907 2 whole (28.62)"
      ],
      "note": "2 and 20",
      "field": "also: 1 Magical Max, 2 Ventura Flame, 3 Never In Paris, 4 Royal Context, 5 My Friend Stan, 7 Ishvara, 9 Garsman, 11 Mews House"
@@ -1813,6 +2182,7 @@
      "key": "(14,)",
      "cells": [
       "H Pallas – H Transpluto Dec 13.9888 14 whole (19.44)",
+      "H Sun – H Regulus Dec 14.0131 14 whole (11.75)",
       "S Moon → H Rahu RA 139.9888 140 whole (19.24)",
       "S Neptune → J Uranus Dec 13.9903 14 whole (26.73)"
      ],
@@ -1840,7 +2210,7 @@
       "S Gonggong → J Chiron Dec 3.9826 4 whole (1.67)"
      ],
      "note": "4 and 40",
-     "field": "also: 2 Ventura Flame, 8 Dancin Inthestreet, 9 Garsman, 11 Mews House"
+     "field": "also: 2 Ventura Flame, 3 Never In Paris, 5 My Friend Stan, 8 Dancin Inthestreet, 9 Garsman, 11 Mews House"
     }
    ]
   },
@@ -1882,17 +2252,18 @@
     },
     {
      "check": 7,
-     "key": "('count', 7)",
+     "key": "('count', 8)",
      "cells": [
       "12×φ golden",
       "133.333 ninth",
       "17.7778 ninth",
       "33.3333 ninth",
       "100×φ^1 phi power",
+      "φ^10 phi power",
       "14.14 sqrt2",
       "14 whole"
      ],
-     "note": "7 numbers",
+     "note": "8 numbers",
      "field": ""
     },
     {
@@ -1933,6 +2304,17 @@
     },
     {
      "check": 10,
+     "key": "(3,)",
+     "cells": [
+      "S Ketu → H Antares Dec 3.0006 3 whole (94.15)",
+      "S Ketu → J Antares Dec 3.0015 3 whole (85.87)",
+      "S Venus → H Aldebaran Dec 4.8549 3×φ golden (95.18)"
+     ],
+     "note": "",
+     "field": "also: 2 Ventura Flame, 3 Never In Paris, 6 Birkenhead, 8 Dancin Inthestreet"
+    },
+    {
+     "check": 10,
      "key": "(22,)",
      "cells": [
       "H Venus – H Neptune RA 21.9997 22 whole (97.36)",
@@ -1942,6 +2324,17 @@
      ],
      "note": "",
      "field": "also: 4 Royal Context"
+    },
+    {
+     "check": 10,
+     "key": "(25,)",
+     "cells": [
+      "S Eris → H Antares Dec 25.0019 25 whole (82.17)",
+      "S Eris → J Antares Dec 25.0027 25 whole (74.45)",
+      "S Pallas → J Saturn Dec 40.4582 25×φ golden (59.71)"
+     ],
+     "note": "",
+     "field": "also: 5 My Friend Stan, 6 Birkenhead, 9 Garsman, 11 Mews House"
     },
     {
      "check": 10,
@@ -1965,13 +2358,27 @@
     },
     {
      "check": 11,
+     "key": "('3×φ', '5')",
+     "cells": [
+      "S Venus → H Aldebaran Dec 4.8549 3×φ golden (95.18)",
+      "S Haumea → H Venus Dec 4.9841 5 whole (4.21)",
+      "S Mars → H Fomalhaut RA 4.9849 5 whole (5.98)",
+      "H Sun – H Jupiter Dec 4.9936 5 whole (45.99)",
+      "S Mars → J Quaoar Dec 5.0179 5 whole (1.13)"
+     ],
+     "note": "4.8549 - 5.0179",
+     "field": "also: 2 Ventura Flame, 3 Never In Paris, 6 Birkenhead, 8 Dancin Inthestreet"
+    },
+    {
+     "check": 11,
      "key": "('7', 'φ^4')",
      "cells": [
       "S Uranus → J Sun Dec 6.8542 φ^4 phi power (99.34)",
       "H Uranus – H Chiron Dec 6.9803 7 whole (0.02)",
-      "S Orcus → J Venus RA 6.9920 7 whole (35.74)"
+      "S Orcus → J Venus RA 6.9920 7 whole (35.74)",
+      "J Haumea – J Aldebaran Dec 7.0119 7 whole (16.21)"
      ],
-     "note": "6.8542 - 6.9920",
+     "note": "6.8542 - 7.0119",
      "field": "only"
     },
     {
@@ -1990,6 +2397,7 @@
      "check": 11,
      "key": "('14', '14.14')",
      "cells": [
+      "H Gonggong – H Antares Dec 13.9840 14 whole (3.92)",
       "S Mercury → J Rahu Dec 13.9859 14 whole (8.76)",
       "S Moon → J Eris Dec 13.9876 14 whole (14.33)",
       "H Mercury – H Gonggong Dec 13.9980 14 whole (80.64)",
@@ -1997,7 +2405,7 @@
       "S Makemake → J Ceres Dec 14.1430 14.14 sqrt2 (97.54)",
       "S Eris → H Quaoar Dec 14.1460 14.14 sqrt2 (89.25)"
      ],
-     "note": "13.9859 - 14.1460",
+     "note": "13.9840 - 14.1460",
      "field": "also: 2 Ventura Flame, 3 Never In Paris, 4 Royal Context, 6 Birkenhead, 9 Garsman"
     },
     {
@@ -2014,7 +2422,7 @@
       "S Haumea → J Vesta Dec 18.0115 18 whole (18.11)"
      ],
      "note": "17.7737 - 18.0115",
-     "field": "also: 6 Birkenhead"
+     "field": "only"
     },
     {
      "check": 11,
@@ -2031,15 +2439,51 @@
     },
     {
      "check": 11,
+     "key": "('32×φ', '52')",
+     "cells": [
+      "S Rahu → J Mars Dec 51.7799 32×φ golden (83.29)",
+      "S Uranus → J Fomalhaut RA 52.0003 52 whole (96.73)",
+      "S Uranus → H Fomalhaut RA 52.0071 52 whole (41.63)"
+     ],
+     "note": "51.7799 - 52.0071",
+     "field": "also: 3 Never In Paris"
+    },
+    {
+     "check": 11,
+     "key": "('102', '63×φ')",
+     "cells": [
+      "J Mercury – J Eris RA 101.9151 63×φ golden (12.14)",
+      "S Sun → J Ceres RA 101.9323 63×φ golden (77.78)",
+      "S Sun → H Ketu RA 101.9502 63×φ golden (31.87)",
+      "J Juno – J Fomalhaut RA 101.9902 102 whole (26.20)"
+     ],
+     "note": "101.9151 - 101.9902",
+     "field": "also: 1 Magical Max"
+    },
+    {
+     "check": 11,
      "key": "('155.556', '96×φ')",
      "cells": [
       "S Jupiter → J Transpluto RA 155.3431 96×φ golden (40.40)",
+      "S Juno → H Fomalhaut RA 155.5465 155.556 ninth (99.14)",
+      "S Juno → J Fomalhaut RA 155.5533 155.556 ninth (99.78)",
       "J Jupiter – J Pallas RA 155.5722 155.556 ninth (98.42)",
       "J Mercury – J Gonggong RA 155.5774 155.556 ninth (97.93)",
       "J Sun – J Neptune RA 155.5944 155.556 ninth (96.32)"
      ],
      "note": "155.3431 - 155.5944",
-     "field": "also: 11 Mews House"
+     "field": "also: 1 Magical Max, 9 Garsman, 11 Mews House"
+    },
+    {
+     "check": 11,
+     "key": "('100×φ^1', '162')",
+     "cells": [
+      "J Ceres – J Vesta RA 161.8734 100×φ^1 phi power (83.45)",
+      "S Venus → H Saturn RA 161.8743 100×φ^1 phi power (83.25)",
+      "H Saturn – H Aldebaran RA 161.9984 162 whole (84.44)"
+     ],
+     "note": "161.8734 - 161.9984",
+     "field": "also: 9 Garsman, 11 Mews House"
     },
     {
      "check": 12,
@@ -2057,17 +2501,31 @@
     },
     {
      "check": 12,
+     "key": "(6,)",
+     "cells": [
+      "S Vesta → H Orcus RA 60.0172 60 whole (1.89)",
+      "S Chiron → H Regulus Dec 6.0197 6 whole (0.03)",
+      "S Neptune → H Chiron Dec 5.9877 6 whole (14.98)",
+      "S Ketu → J Makemake Dec 59.9806 60 whole (0.08)"
+     ],
+     "note": "6 and 60",
+     "field": "also: 2 Ventura Flame, 9 Garsman, 11 Mews House"
+    },
+    {
+     "check": 12,
      "key": "(3,)",
      "cells": [
       "S Eris → H Mercury Dec 2.9800 3 whole (0.00)",
+      "S Ketu → H Antares Dec 3.0006 3 whole (94.15)",
       "S Sedna → H Transpluto Dec 2.9870 3 whole (12.29)",
       "J Juno – J Vesta Dec 2.9825 3 whole (1.62)",
       "S Juno → J Pluto Dec 2.9928 3 whole (40.81)",
+      "S Ketu → J Antares Dec 3.0015 3 whole (85.87)",
       "S Saturn → J Rahu Dec 29.9861 30 whole (9.17)",
       "S Saturn → J Uranus Dec 3.0092 3 whole (29.29)"
      ],
      "note": "3 and 30",
-     "field": "also: 1 Magical Max, 2 Ventura Flame, 3 Never In Paris, 4 Royal Context, 5 My Friend Stan, 6 Birkenhead"
+     "field": "also: 1 Magical Max, 2 Ventura Flame, 3 Never In Paris, 4 Royal Context, 5 My Friend Stan, 6 Birkenhead, 8 Dancin Inthestreet"
     },
     {
      "check": 12,
@@ -2075,23 +2533,14 @@
      "cells": [
       "S Moon → H Saturn Dec 2.0186 2 whole (0.52)",
       "S Saturn → H Saturn Dec 2.0004 2 whole (96.07)",
+      "S Uranus → H Regulus Dec 1.9934 2 whole (44.80)",
       "J Rahu – J Eris Dec 20.0174 20 whole (1.64)",
+      "S Uranus → J Regulus Dec 1.9900 2 whole (24.81)",
       "S Vesta → J Sun Dec 2.0189 2 whole (0.28)",
       "S Orcus → J Quaoar Dec 2.0033 2 whole (69.81)"
      ],
      "note": "2 and 20",
      "field": "also: 1 Magical Max, 2 Ventura Flame, 3 Never In Paris, 4 Royal Context, 5 My Friend Stan, 6 Birkenhead, 9 Garsman, 11 Mews House"
-    },
-    {
-     "check": 12,
-     "key": "(6,)",
-     "cells": [
-      "S Vesta → H Orcus RA 60.0172 60 whole (1.89)",
-      "S Neptune → H Chiron Dec 5.9877 6 whole (14.98)",
-      "S Ketu → J Makemake Dec 59.9806 60 whole (0.08)"
-     ],
-     "note": "6 and 60",
-     "field": "also: 2 Ventura Flame, 9 Garsman"
     },
     {
      "check": 12,
@@ -2157,6 +2606,19 @@
     },
     {
      "check": 10,
+     "key": "(3,)",
+     "cells": [
+      "S Ketu → H Antares Dec 3.0002 3 whole (97.56)",
+      "S Mars → H Ketu Dec 2.9962 3 whole (65.56)",
+      "S Orcus → H Jupiter Dec 3.0008 3 whole (92.26)",
+      "S Ketu → J Antares Dec 3.0016 3 whole (84.67)",
+      "S Venus → H Aldebaran Dec 4.8546 3×φ golden (96.97)"
+     ],
+     "note": "",
+     "field": "also: 2 Ventura Flame, 3 Never In Paris, 6 Birkenhead, 7 Ishvara"
+    },
+    {
+     "check": 10,
      "key": "(11,)",
      "cells": [
       "S Gonggong → H Pallas RA 11.0032 11 whole (70.82)",
@@ -2166,6 +2628,26 @@
      ],
      "note": "",
      "field": "also: 1 Magical Max, 3 Never In Paris, 5 My Friend Stan, 6 Birkenhead"
+    },
+    {
+     "check": 10,
+     "key": "(27,)",
+     "cells": [
+      "H Sun – H Haumea Dec 26.9961 27 whole (65.01)",
+      "H Eris – H Aldebaran RA 43.6857 27×φ golden (92.72)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(67,)",
+     "cells": [
+      "S Ketu → H Sun RA 67.0044 67 whole (60.99)",
+      "J Juno – J Aldebaran RA 108.4024 67×φ golden (66.92)"
+     ],
+     "note": "",
+     "field": "only"
     },
     {
      "check": 11,
@@ -2181,15 +2663,28 @@
     },
     {
      "check": 11,
+     "key": "('3×φ', '5')",
+     "cells": [
+      "S Venus → H Aldebaran Dec 4.8546 3×φ golden (96.97)",
+      "S Venus → J Venus Dec 4.9800 5 whole (0.00)",
+      "S Mars → H Fomalhaut RA 4.9850 5 whole (6.21)",
+      "S Juno → J Ceres Dec 4.9967 5 whole (69.61)"
+     ],
+     "note": "4.8546 - 4.9967",
+     "field": "also: 2 Ventura Flame, 3 Never In Paris, 6 Birkenhead, 7 Ishvara"
+    },
+    {
+     "check": 11,
      "key": "('7', '7.07')",
      "cells": [
+      "J Neptune – J Antares Dec 6.9966 7 whole (68.49)",
       "J Sun – J Venus Dec 6.9990 7 whole (90.42)",
       "S Mercury → H Haumea Dec 7.0014 7 whole (86.74)",
       "S Makemake → H Haumea Dec 7.0138 7 whole (9.68)",
       "S Haumea → J Chiron RA 7.0154 7 whole (5.33)",
       "S Ceres → H Sun Dec 7.0715 7.07 sqrt2 (97.49)"
      ],
-     "note": "6.9990 - 7.0715",
+     "note": "6.9966 - 7.0715",
      "field": "only"
     },
     {
@@ -2222,7 +2717,7 @@
       "S Eris → J Neptune Dec 18.0063 18 whole (46.78)"
      ],
      "note": "17.7792 - 18.0063",
-     "field": "only"
+     "field": "also: 6 Birkenhead"
     },
     {
      "check": 11,
@@ -2237,15 +2732,56 @@
     },
     {
      "check": 11,
+     "key": "('110', '68×φ')",
+     "cells": [
+      "J Jupiter – J Antares RA 110.0088 110 whole (31.34)",
+      "S Sun → H Mercury RA 110.0356 68×φ golden (50.75)",
+      "S Pluto → J Sedna RA 110.0428 68×φ golden (24.18)",
+      "S Quaoar → J Eris RA 110.0541 68×φ golden (2.02)"
+     ],
+     "note": "110.0088 - 110.0541",
+     "field": "only"
+    },
+    {
+     "check": 11,
      "key": "('10×φ^5', '111.111')",
      "cells": [
       "J Jupiter – J Pluto RA 110.9192 10×φ^5 phi power (93.78)",
+      "J Mercury – J Fomalhaut RA 110.9227 10×φ^5 phi power (92.56)",
       "J Chiron – J Gonggong RA 110.9299 10×φ^5 phi power (90.09)",
       "S Mercury → H Haumea RA 110.9410 10×φ^5 phi power (86.33)",
       "S Eris → H Juno RA 111.1114 111.111 ninth (99.95)"
      ],
      "note": "110.9192 - 111.1114",
      "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('144', '89×φ')",
+     "cells": [
+      "S Neptune → J Orcus RA 143.9804 144 whole (0.03)",
+      "H Haumea – H Aldebaran RA 143.9891 144 whole (20.60)",
+      "H Venus – H Regulus RA 144.0191 89×φ golden (32.06)"
+     ],
+     "note": "143.9804 - 144.0191",
+     "field": "only"
+    },
+    {
+     "check": 12,
+     "key": "(3,)",
+     "cells": [
+      "H Rahu – H Regulus RA 2.9912 3 whole (31.11)",
+      "H Jupiter – H Ketu Dec 2.9824 3 whole (1.44)",
+      "S Ketu → H Antares Dec 3.0002 3 whole (97.56)",
+      "S Mars → H Ketu Dec 2.9962 3 whole (65.56)",
+      "S Orcus → H Jupiter Dec 3.0008 3 whole (92.26)",
+      "S Transpluto → H Uranus Dec 3.0156 3 whole (4.84)",
+      "J Chiron – J Aldebaran Dec 29.9897 30 whole (23.56)",
+      "J Ketu – J Eris Dec 3.0195 3 whole (0.07)",
+      "S Ketu → J Antares Dec 3.0016 3 whole (84.67)"
+     ],
+     "note": "3 and 30",
+     "field": "also: 1 Magical Max, 2 Ventura Flame, 3 Never In Paris, 4 Royal Context, 5 My Friend Stan, 6 Birkenhead, 7 Ishvara"
     },
     {
      "check": 12,
@@ -2259,6 +2795,43 @@
      ],
      "note": "18 and 180",
      "field": "also: 7 Ishvara"
+    },
+    {
+     "check": 12,
+     "key": "(14,)",
+     "cells": [
+      "H Ketu – H Makemake RA 139.9823 140 whole (1.27)",
+      "H Quaoar – H Fomalhaut Dec 13.9815 14 whole (0.56)",
+      "S Moon → H Sun Dec 13.9934 14 whole (45.09)"
+     ],
+     "note": "14 and 140",
+     "field": "also: 1 Magical Max, 6 Birkenhead"
+    },
+    {
+     "check": 12,
+     "key": "(5,)",
+     "cells": [
+      "S Jupiter → H Pallas RA 50.0100 50 whole (24.84)",
+      "S Mars → H Fomalhaut RA 4.9850 5 whole (6.21)",
+      "J Mercury – J Ceres RA 49.9841 50 whole (4.16)",
+      "J Sun – J Orcus RA 50.0059 50 whole (49.76)",
+      "S Juno → J Ceres Dec 4.9967 5 whole (69.61)",
+      "S Venus → J Venus Dec 4.9800 5 whole (0.00)"
+     ],
+     "note": "5 and 50",
+     "field": "also: 5 My Friend Stan"
+    },
+    {
+     "check": 12,
+     "key": "(11,)",
+     "cells": [
+      "S Gonggong → H Pallas RA 11.0032 11 whole (70.82)",
+      "S Venus → H Rahu Dec 11.0140 11 whole (8.86)",
+      "J Jupiter – J Antares RA 110.0088 110 whole (31.34)",
+      "S Eris → J Saturn Dec 10.9810 11 whole (0.27)"
+     ],
+     "note": "11 and 110",
+     "field": "also: 1 Magical Max"
     },
     {
      "check": 12,
@@ -2292,22 +2865,14 @@
      "cells": [
       "S Mercury → H Haumea Dec 7.0014 7 whole (86.74)",
       "S Makemake → H Haumea Dec 7.0138 7 whole (9.68)",
+      "J Juno – J Antares RA 69.9808 70 whole (0.15)",
       "J Pluto – J Makemake RA 69.9991 70 whole (91.12)",
+      "J Neptune – J Antares Dec 6.9966 7 whole (68.49)",
       "J Sun – J Venus Dec 6.9990 7 whole (90.42)",
       "S Haumea → J Chiron RA 7.0154 7 whole (5.33)"
      ],
      "note": "7 and 70",
-     "field": "also: 1 Magical Max, 11 Mews House"
-    },
-    {
-     "check": 12,
-     "key": "(14,)",
-     "cells": [
-      "H Ketu – H Makemake RA 139.9823 140 whole (1.27)",
-      "S Moon → H Sun Dec 13.9934 14 whole (45.09)"
-     ],
-     "note": "14 and 140",
-     "field": "also: 1 Magical Max, 6 Birkenhead"
+     "field": "also: 1 Magical Max, 9 Garsman, 11 Mews House"
     },
     {
      "check": 12,
@@ -2334,20 +2899,7 @@
       "S Orcus → J Quaoar Dec 4.0191 4 whole (0.21)"
      ],
      "note": "4 and 40",
-     "field": "also: 2 Ventura Flame, 6 Birkenhead, 9 Garsman, 11 Mews House"
-    },
-    {
-     "check": 12,
-     "key": "(5,)",
-     "cells": [
-      "S Jupiter → H Pallas RA 50.0100 50 whole (24.84)",
-      "J Mercury – J Ceres RA 49.9841 50 whole (4.16)",
-      "J Sun – J Orcus RA 50.0059 50 whole (49.76)",
-      "S Juno → J Ceres Dec 4.9967 5 whole (69.61)",
-      "S Venus → J Venus Dec 4.9800 5 whole (0.00)"
-     ],
-     "note": "5 and 50",
-     "field": "also: 5 My Friend Stan"
+     "field": "also: 2 Ventura Flame, 3 Never In Paris, 5 My Friend Stan, 6 Birkenhead, 9 Garsman, 11 Mews House"
     }
    ]
   },
@@ -2387,14 +2939,46 @@
      "field": "also: 11 Mews House"
     },
     {
+     "check": 9,
+     "key": "('H', 'Aldebaran', '126')",
+     "cells": [
+      "H Jupiter – H Aldebaran RA 125.9974 126 whole (75.69)"
+     ],
+     "note": "",
+     "field": "also: 11 Mews House"
+    },
+    {
      "check": 10,
      "key": "(15,)",
      "cells": [
       "S Mars → H Sedna Dec 14.9976 15 whole (77.57)",
+      "H Gonggong – H Regulus Dec 24.2716 15×φ golden (93.61)",
       "S Orcus → H Sun Dec 24.2715 15×φ golden (94.00)"
      ],
      "note": "",
      "field": "also: 11 Mews House"
+    },
+    {
+     "check": 10,
+     "key": "(25,)",
+     "cells": [
+      "S Eris → H Antares Dec 25.0025 25 whole (76.15)",
+      "S Eris → J Antares Dec 25.0026 25 whole (75.44)",
+      "H Vesta – H Quaoar Dec 40.4574 25×φ golden (63.73)"
+     ],
+     "note": "",
+     "field": "also: 5 My Friend Stan, 6 Birkenhead, 7 Ishvara, 11 Mews House"
+    },
+    {
+     "check": 10,
+     "key": "(28,)",
+     "cells": [
+      "S Gonggong → H Aldebaran Dec 27.9993 28 whole (93.40)",
+      "S Gonggong → J Aldebaran Dec 28.0019 28 whole (81.90)",
+      "J Ketu – J Chiron RA 45.3036 28×φ golden (91.52)"
+     ],
+     "note": "",
+     "field": "also: 6 Birkenhead, 11 Mews House"
     },
     {
      "check": 11,
@@ -2403,6 +2987,8 @@
       "S Mars → H Orcus Dec 1.8888 1.88889 ninth (99.32)",
       "S Transpluto → J Ketu Dec 1.9806 2 whole (0.10)",
       "S Moon → J Neptune Dec 1.9855 2 whole (7.58)",
+      "S Uranus → J Regulus Dec 1.9897 2 whole (23.64)",
+      "S Uranus → H Regulus Dec 1.9923 2 whole (38.09)",
       "S Rahu → H Makemake Dec 2.0024 2 whole (77.74)"
      ],
      "note": "1.8888 - 2.0024",
@@ -2412,12 +2998,13 @@
      "check": 11,
      "key": "('11', '11.1111', 'φ^5')",
      "cells": [
+      "H Quaoar – H Antares Dec 10.9856 11 whole (7.84)",
       "J Saturn – J Vesta RA 11.0092 11 whole (29.04)",
       "S Mercury → J Ketu Dec 11.0154 11 whole (5.21)",
       "S Sedna → J Ceres Dec 11.0963 φ^5 phi power (79.09)",
       "S Gonggong → J Saturn Dec 11.1162 11.1111 ninth (91.69)"
      ],
-     "note": "11.0092 - 11.1162",
+     "note": "10.9856 - 11.1162",
      "field": "also: 6 Birkenhead, 8 Dancin Inthestreet"
     },
     {
@@ -2455,6 +3042,19 @@
     },
     {
      "check": 11,
+     "key": "('18', 'φ^6')",
+     "cells": [
+      "S Eris → J Aldebaran Dec 17.9400 φ^6 phi power (90.79)",
+      "H Ceres – H Pallas Dec 17.9853 18 whole (6.97)",
+      "S Transpluto → J Sun RA 18.0031 18 whole (71.80)",
+      "S Orcus → H Sedna Dec 18.0122 18 whole (15.20)",
+      "H Haumea – H Makemake RA 18.0164 18 whole (3.21)"
+     ],
+     "note": "17.9400 - 18.0164",
+     "field": "only"
+    },
+    {
+     "check": 11,
      "key": "('13×φ', '21')",
      "cells": [
       "S Juno → H Quaoar Dec 20.9840 21 whole (3.97)",
@@ -2488,19 +3088,43 @@
     },
     {
      "check": 11,
+     "key": "('155.556', '96×φ')",
+     "cells": [
+      "S Mars → H Makemake RA 155.3035 96×φ golden (2.00)",
+      "S Juno → H Fomalhaut RA 155.5489 155.556 ninth (99.37)",
+      "S Juno → J Fomalhaut RA 155.5546 155.556 ninth (99.91)"
+     ],
+     "note": "155.3035 - 155.5546",
+     "field": "also: 1 Magical Max, 7 Ishvara, 11 Mews House"
+    },
+    {
+     "check": 11,
      "key": "('100×φ^1', '162')",
      "cells": [
       "S Quaoar → J Ceres RA 161.8295 100×φ^1 phi power (93.65)",
       "S Venus → H Saturn RA 161.8850 100×φ^1 phi power (80.85)",
-      "S Neptune → J Mars RA 161.9843 162 whole (4.58)"
+      "S Neptune → J Mars RA 161.9843 162 whole (4.58)",
+      "H Saturn – H Aldebaran RA 162.0058 162 whole (50.62)"
      ],
-     "note": "161.8295 - 161.9843",
-     "field": "only"
+     "note": "161.8295 - 162.0058",
+     "field": "also: 7 Ishvara, 11 Mews House"
+    },
+    {
+     "check": 12,
+     "key": "(7,)",
+     "cells": [
+      "H Mercury – H Aldebaran Dec 6.9816 7 whole (0.63)",
+      "S Neptune → H Mars RA 70.0195 70 whole (0.05)",
+      "J Saturn – J Fomalhaut Dec 7.0109 7 whole (20.80)"
+     ],
+     "note": "7 and 70",
+     "field": "also: 1 Magical Max, 8 Dancin Inthestreet, 11 Mews House"
     },
     {
      "check": 12,
      "key": "(6,)",
      "cells": [
+      "H Haumea – H Regulus RA 60.0126 60 whole (13.79)",
       "S Ceres → H Ketu Dec 5.9803 6 whole (0.03)",
       "S Rahu → H Haumea Dec 5.9893 6 whole (21.84)",
       "S Quaoar → H Orcus Dec 6.0116 6 whole (17.72)",
@@ -2508,7 +3132,7 @@
       "J Sun – J Ceres RA 59.9904 60 whole (27.20)"
      ],
      "note": "6 and 60",
-     "field": "also: 2 Ventura Flame, 7 Ishvara"
+     "field": "also: 2 Ventura Flame, 7 Ishvara, 11 Mews House"
     },
     {
      "check": 12,
@@ -2523,7 +3147,7 @@
       "S Sedna → J Sedna Dec 4.0196 4 whole (0.04)"
      ],
      "note": "4 and 40",
-     "field": "also: 2 Ventura Flame, 6 Birkenhead, 8 Dancin Inthestreet, 11 Mews House"
+     "field": "also: 2 Ventura Flame, 3 Never In Paris, 5 My Friend Stan, 6 Birkenhead, 8 Dancin Inthestreet, 11 Mews House"
     },
     {
      "check": 12,
@@ -2531,8 +3155,10 @@
      "cells": [
       "S Pallas → H Venus Dec 19.9936 20 whole (46.38)",
       "S Rahu → H Makemake Dec 2.0024 2 whole (77.74)",
+      "S Uranus → H Regulus Dec 1.9923 2 whole (38.09)",
       "J Venus – J Quaoar Dec 19.9875 20 whole (14.00)",
       "S Moon → J Neptune Dec 1.9855 2 whole (7.58)",
+      "S Uranus → J Regulus Dec 1.9897 2 whole (23.64)",
       "S Transpluto → J Ketu Dec 1.9806 2 whole (0.10)"
      ],
      "note": "2 and 20",
@@ -2587,6 +3213,15 @@
     },
     {
      "check": 9,
+     "key": "('H', 'Aldebaran', '126')",
+     "cells": [
+      "H Jupiter – H Aldebaran RA 125.9974 126 whole (75.92)"
+     ],
+     "note": "",
+     "field": "also: 9 Garsman"
+    },
+    {
+     "check": 9,
      "key": "('J', 'Uranus', '17.7778')",
      "cells": [
       "J Jupiter – J Uranus Dec 17.7783 17.7778 ninth (99.62)"
@@ -2611,6 +3246,7 @@
      "cells": [
       "S Mars → H Sedna Dec 14.9976 15 whole (77.57)",
       "S Mercury → J Makemake Dec 14.9946 15 whole (53.03)",
+      "H Gonggong – H Regulus Dec 24.2716 15×φ golden (93.61)",
       "S Orcus → H Sun Dec 24.2715 15×φ golden (94.14)"
      ],
      "note": "",
@@ -2628,13 +3264,35 @@
     },
     {
      "check": 10,
+     "key": "(25,)",
+     "cells": [
+      "S Eris → H Antares Dec 25.0025 25 whole (76.17)",
+      "S Eris → J Antares Dec 25.0008 25 whole (92.02)",
+      "H Vesta – H Quaoar Dec 40.4574 25×φ golden (63.66)"
+     ],
+     "note": "",
+     "field": "also: 5 My Friend Stan, 6 Birkenhead, 7 Ishvara, 9 Garsman"
+    },
+    {
+     "check": 10,
+     "key": "(28,)",
+     "cells": [
+      "S Gonggong → H Aldebaran Dec 27.9993 28 whole (93.41)",
+      "S Gonggong → J Aldebaran Dec 28.0031 28 whole (71.08)",
+      "J Mercury – J Saturn Dec 45.3082 28×φ golden (80.94)"
+     ],
+     "note": "",
+     "field": "also: 6 Birkenhead, 9 Garsman"
+    },
+    {
+     "check": 10,
      "key": "(29,)",
      "cells": [
       "J Ketu – J Quaoar Dec 28.9984 29 whole (85.03)",
       "S Pallas → J Mercury Dec 46.9212 29×φ golden (89.18)"
      ],
      "note": "",
-     "field": "only"
+     "field": "also: 4 Royal Context"
     },
     {
      "check": 10,
@@ -2645,6 +3303,16 @@
      ],
      "note": "",
      "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(52,)",
+     "cells": [
+      "S Uranus → H Fomalhaut RA 52.0047 52 whole (58.29)",
+      "S Jupiter → J Chiron RA 84.1368 52×φ golden (93.92)"
+     ],
+     "note": "",
+     "field": "also: 2 Ventura Flame"
     },
     {
      "check": 10,
@@ -2672,6 +3340,7 @@
      "key": "('1', '1.11111')",
      "cells": [
       "S Sedna → H Uranus Dec 0.9802 1 whole (0.01)",
+      "J Orcus – J Regulus Dec 0.9899 1 whole (24.26)",
       "S Uranus → J Sedna RA 0.9926 1 whole (39.49)",
       "S Makemake → H Vesta Dec 1.1115 1.11111 ninth (92.83)"
      ],
@@ -2683,11 +3352,24 @@
      "key": "('1.88889', '2')",
      "cells": [
       "S Mars → H Orcus Dec 1.8888 1.88889 ninth (99.33)",
+      "S Uranus → H Regulus Dec 1.9923 2 whole (38.09)",
+      "S Uranus → J Regulus Dec 1.9925 2 whole (39.25)",
       "S Rahu → H Makemake Dec 2.0024 2 whole (77.75)",
       "S Quaoar → J Eris Dec 2.0044 2 whole (60.47)"
      ],
      "note": "1.8888 - 2.0044",
      "field": "also: 9 Garsman"
+    },
+    {
+     "check": 11,
+     "key": "('12', '12.2222')",
+     "cells": [
+      "J Haumea – J Regulus Dec 12.0192 12 whole (0.17)",
+      "S Ketu → H Ketu Dec 12.2291 12.2222 ninth (90.48)",
+      "S Rahu → H Rahu Dec 12.2291 12.2222 ninth (90.48)"
+     ],
+     "note": "12.0192 - 12.2291",
+     "field": "also: 4 Royal Context, 5 My Friend Stan, 6 Birkenhead"
     },
     {
      "check": 11,
@@ -2713,9 +3395,10 @@
     },
     {
      "check": 11,
-     "key": "('17.7778', '18')",
+     "key": "('17.7778', '18', 'φ^6')",
      "cells": [
       "J Jupiter – J Uranus Dec 17.7783 17.7778 ninth (99.62)",
+      "S Eris → J Aldebaran Dec 17.9413 φ^6 phi power (93.44)",
       "H Ceres – H Pallas Dec 17.9853 18 whole (6.98)",
       "S Orcus → H Sedna Dec 18.0122 18 whole (15.19)",
       "H Haumea – H Makemake RA 18.0164 18 whole (3.22)"
@@ -2732,7 +3415,29 @@
       "S Gonggong → J Pluto Dec 22.2207 22.2222 ninth (97.92)"
      ],
      "note": "21.9919 - 22.2207",
-     "field": "also: 2 Ventura Flame, 6 Birkenhead"
+     "field": "also: 2 Ventura Flame, 4 Royal Context, 6 Birkenhead"
+    },
+    {
+     "check": 11,
+     "key": "('15×φ', '24')",
+     "cells": [
+      "S Sedna → J Mars RA 23.9915 24 whole (32.82)",
+      "S Orcus → H Sun Dec 24.2715 15×φ golden (94.14)",
+      "H Gonggong – H Regulus Dec 24.2716 15×φ golden (93.61)"
+     ],
+     "note": "23.9915 - 24.2716",
+     "field": "also: 4 Royal Context"
+    },
+    {
+     "check": 11,
+     "key": "('21×φ', '34')",
+     "cells": [
+      "S Quaoar → J Ceres Dec 33.9766 21×φ golden (87.23)",
+      "S Saturn → H Sun Dec 33.9901 34 whole (25.65)",
+      "H Saturn – H Regulus Dec 34.0107 34 whole (21.63)"
+     ],
+     "note": "33.9766 - 34.0107",
+     "field": "also: 6 Birkenhead"
     },
     {
      "check": 11,
@@ -2774,10 +3479,49 @@
      "cells": [
       "S Mars → H Makemake RA 155.3035 96×φ golden (2.00)",
       "S Moon → J Transpluto RA 155.3500 96×φ golden (17.79)",
+      "S Juno → J Fomalhaut RA 155.5468 155.556 ninth (99.17)",
+      "S Juno → H Fomalhaut RA 155.5489 155.556 ninth (99.37)",
       "S Transpluto → J Vesta RA 155.5787 155.556 ninth (97.81)"
      ],
      "note": "155.3035 - 155.5787",
-     "field": "also: 7 Ishvara"
+     "field": "also: 1 Magical Max, 7 Ishvara, 9 Garsman"
+    },
+    {
+     "check": 11,
+     "key": "('100×φ^1', '162')",
+     "cells": [
+      "S Venus → H Saturn RA 161.8850 100×φ^1 phi power (80.85)",
+      "J Pluto – J Sedna RA 161.9959 162 whole (62.85)",
+      "H Saturn – H Aldebaran RA 162.0058 162 whole (50.66)"
+     ],
+     "note": "161.8850 - 162.0058",
+     "field": "also: 7 Ishvara, 9 Garsman"
+    },
+    {
+     "check": 12,
+     "key": "(7,)",
+     "cells": [
+      "H Mercury – H Aldebaran Dec 6.9816 7 whole (0.67)",
+      "S Neptune → H Mars RA 70.0195 70 whole (0.07)",
+      "J Mercury – J Fomalhaut RA 69.9918 70 whole (34.69)",
+      "S Saturn → J Uranus Dec 6.9972 7 whole (74.02)"
+     ],
+     "note": "7 and 70",
+     "field": "also: 1 Magical Max, 8 Dancin Inthestreet, 9 Garsman"
+    },
+    {
+     "check": 12,
+     "key": "(6,)",
+     "cells": [
+      "H Haumea – H Regulus RA 60.0126 60 whole (13.80)",
+      "S Ceres → H Ketu Dec 5.9803 6 whole (0.03)",
+      "S Rahu → H Haumea Dec 5.9893 6 whole (21.85)",
+      "S Quaoar → H Orcus Dec 6.0116 6 whole (17.72)",
+      "J Jupiter – J Juno Dec 6.0173 6 whole (1.82)",
+      "S Sedna → J Sedna Dec 6.0078 6 whole (37.34)"
+     ],
+     "note": "6 and 60",
+     "field": "also: 2 Ventura Flame, 7 Ishvara, 9 Garsman"
     },
     {
      "check": 12,
@@ -2790,7 +3534,7 @@
       "S Sun → J Orcus RA 39.9913 40 whole (31.68)"
      ],
      "note": "4 and 40",
-     "field": "also: 2 Ventura Flame, 6 Birkenhead, 8 Dancin Inthestreet, 9 Garsman"
+     "field": "also: 2 Ventura Flame, 3 Never In Paris, 5 My Friend Stan, 6 Birkenhead, 8 Dancin Inthestreet, 9 Garsman"
     },
     {
      "check": 12,
@@ -2798,7 +3542,9 @@
      "cells": [
       "S Pallas → H Venus Dec 19.9937 20 whole (46.78)",
       "S Rahu → H Makemake Dec 2.0024 2 whole (77.75)",
+      "S Uranus → H Regulus Dec 1.9923 2 whole (38.09)",
       "J Pluto – J Quaoar RA 19.9981 20 whole (81.63)",
+      "S Uranus → J Regulus Dec 1.9925 2 whole (39.25)",
       "S Quaoar → J Eris Dec 2.0044 2 whole (60.47)"
      ],
      "note": "2 and 20",
@@ -2813,6 +3559,7 @@
       "S Mercury → H Sun Dec 9.9818 10 whole (0.85)",
       "S Makemake → H Sun Dec 9.9942 10 whole (50.77)",
       "S Sedna → H Uranus Dec 0.9802 1 whole (0.01)",
+      "J Orcus – J Regulus Dec 0.9899 1 whole (24.26)",
       "S Uranus → J Sedna RA 0.9926 1 whole (39.49)"
      ],
      "note": "1 and 10",
@@ -2820,13 +3567,13 @@
     },
     {
      "check": 12,
-     "key": "(7,)",
+     "key": "(12,)",
      "cells": [
-      "S Neptune → H Mars RA 70.0195 70 whole (0.07)",
-      "S Saturn → J Uranus Dec 6.9972 7 whole (74.02)"
+      "J Haumea – J Regulus Dec 12.0192 12 whole (0.17)",
+      "S Moon → J Haumea RA 119.9805 120 whole (0.06)"
      ],
-     "note": "7 and 70",
-     "field": "also: 1 Magical Max, 8 Dancin Inthestreet"
+     "note": "12 and 120",
+     "field": "also: 2 Ventura Flame, 3 Never In Paris"
     },
     {
      "check": 13,

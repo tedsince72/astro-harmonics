@@ -40,7 +40,7 @@ check(any(it['check'] == 4 and 'S Quaoar → J Jupiter RA 111.1493' in ' '.join(
 check(has(5, 'S Ceres → H Makemake Dec 11.3245 7×φ', 'S Neptune → J Makemake', field='only'), '5 swap Jupiter / Makemake')
 check(has(6, 'S Moon → J Pallas RA 0.2075 conj', 'J Jupiter – J Pallas RA 161.8502', field='only'), '6 Moon on J Pallas')
 n7 = {c: next(it for it in per[c] if it['check'] == 7)['key'][1] for c in per}
-check(n7 == {1: 2, 2: 6, 3: 3, 4: 3, 5: 4, 6: 3}, f'7 counts {n7}')
+check(n7 == {1: 3, 2: 6, 3: 3, 4: 3, 5: 6, 6: 3}, f'7 counts {n7}')   # royal stars 8 Nov: P01 +1 (Fomalhaut), P05 +2
 check(has(8, 'S Neptune → H Ketu RA 0.7536 conj'), '8 Neptune on H Ketu')
 check(has(8, 'S Pallas → H Jupiter RA 179.9597 (no family)'), '8 Pallas opposite H Jupiter, unscored')
 check(has(8, 'S Uranus → J Jupiter RA 179.7674 (no family)'), '8 Uranus opposite J Jupiter, unscored')
@@ -67,6 +67,9 @@ check(any(it['check'] == 15 and 'S Quaoar → H Vesta Dec 37.2167' in ' '.join(i
 
 # own reader: every body cell of every _active.xlsx = the tool's cell set
 BOD = set(EB.BODIES)
+ROY = {'Aldebaran', 'Antares', 'Fomalhaut', 'Regulus'}
+PTS = BOD | ROY
+ORDER = EB.BODIES + ['Aldebaran', 'Antares', 'Fomalhaut', 'Regulus']
 for path in sorted(glob.glob(os.path.join(ROOT, 'reference/classic/*_active.xlsx'))):
     wb = openpyxl.load_workbook(path, read_only=True)
     mine = set()
@@ -85,8 +88,9 @@ for path in sorted(glob.glob(os.path.join(ROOT, 'reference/classic/*_active.xlsx
             while i < len(rows) and rows[i][0] is not None and i not in starts:
                 a = rows[i][0]
                 for j, b in enumerate(hdr):
-                    if a in BOD and b in BOD and b != 'Moon' and not (kind == 'N' and a == 'Moon') and (kind == 'S' or a != b):
-                        if kind == 'N' and ({a, b} == {'Rahu', 'Ketu'} or EB.BODIES.index(b) < EB.BODIES.index(a)):
+                    rows_ok = PTS if kind == 'N' else BOD
+                    if a in rows_ok and b in PTS and b != 'Moon' and not (kind == 'N' and a == 'Moon') and (kind == 'S' or a != b):
+                        if kind == 'N' and ({a, b} == {'Rahu', 'Ketu'} or ORDER.index(b) < ORDER.index(a) or (a in ROY and b in ROY)):
                             continue
                         v = rows[i][j]
                         if isinstance(v, (int, float)) and v > 0:
@@ -97,5 +101,16 @@ for path in sorted(glob.glob(os.path.join(ROOT, 'reference/classic/*_active.xlsx
     tool = {(cl, c['ch'], c['kind'], c['plane'], c['a'], c['b'], round(c['v'], 6), c['target'])
             for cl, r in EB.load(path).items() for c in r['cells']}
     check(mine == tool, f'cell set {os.path.basename(path)} ({len(mine)} / {len(tool)})')
+# royal stars (8 Nov 2026): Beverley 14:05 2024 Sands Of Dubai H Regulus - H Uranus RA 110.0026 whole 110 (75.59, checker)
+_, pb = EB.run(os.path.join(ROOT, 'reference/classic/race_batch_20240608_beverley_1405_active.xlsx'))
+db = EB.load(os.path.join(ROOT, 'reference/classic/race_batch_20240608_beverley_1405_active.xlsx'))
+check(any(c['kind'] == 'N' and {c['a'], c['b']} == {'Uranus', 'Regulus'} and abs(c['v'] - 110.0026) < 1e-4 and c['target'] == '110'
+          for c in db[12]['cells']), 'royal: Sands Of Dubai H Regulus - H Uranus RA 110 whole')
+check(not any(c['kind'] == 'S' and c['a'] in ROY for r in db.values() for c in r['cells']), 'royal: no sky star rows')
+check(not any(c['kind'] == 'N' and c['a'] in ROY and c['b'] in ROY for r in db.values() for c in r['cells']), 'royal: no star - star pairs')
+check(not any(it['check'] in ('2a', '2b', 4, 5, 15) and any(('→ H ' + st) in x or ('→ J ' + st) in x for st in ROY for x in it['cells'])
+              for c in pb for it in pb[c]), 'royal: sky -> star cells out of 2a, 2b, 4, 5, 15')
+check(not any(it['check'] == 13 and any(('→ H ' + st) in x or ('→ J ' + st) in x for st in ROY for x in it['cells'])
+              for c in pb for it in pb[c]), 'royal: sky -> star cells out of 13')
 print(f'{ok}/{ok + bad}')
 sys.exit(1 if bad else 0)

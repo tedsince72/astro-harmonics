@@ -70,6 +70,18 @@
     },
     {
      "check": 10,
+     "key": "(5,)",
+     "cells": [
+      "S Chiron → H Regulus Dec 4.9968 5 whole (70.44)",
+      "S Chiron → J Regulus Dec 4.9989 5 whole (89.68)",
+      "S Quaoar → J Neptune Dec 4.9964 5 whole (67.20)",
+      "S Ketu → J Antares Dec 8.0902 5×φ golden (99.62)"
+     ],
+     "note": "",
+     "field": "also: 2 Zambella, 3 Another Theatre, 4 Calle Malva"
+    },
+    {
+     "check": 10,
      "key": "(9,)",
      "cells": [
       "S Pallas → H Venus Dec 9.0024 9 whole (77.79)",
@@ -82,11 +94,22 @@
      "check": 10,
      "key": "(18,)",
      "cells": [
+      "S Orcus → H Fomalhaut Dec 17.9950 18 whole (55.93)",
       "S Makemake → J Sedna Dec 18.0034 18 whole (68.93)",
       "S Venus → J Sun Dec 29.1215 18×φ golden (81.72)"
      ],
      "note": "",
-     "field": "also: 3 Another Theatre"
+     "field": "also: 2 Zambella, 3 Another Theatre, 4 Calle Malva"
+    },
+    {
+     "check": 10,
+     "key": "(19,)",
+     "cells": [
+      "S Vesta → H Ceres Dec 19.0048 19 whole (57.85)",
+      "J Orcus – J Fomalhaut Dec 30.7491 19×φ golden (64.04)"
+     ],
+     "note": "",
+     "field": "only"
     },
     {
      "check": 10,
@@ -101,12 +124,45 @@
     },
     {
      "check": 10,
+     "key": "(28,)",
+     "cells": [
+      "H Vesta – H Antares Dec 27.9990 28 whole (90.72)",
+      "H Venus – H Uranus RA 45.3016 28×φ golden (80.52)"
+     ],
+     "note": "",
+     "field": "also: 4 Calle Malva, 5 Daphne Moon"
+    },
+    {
+     "check": 10,
      "key": "(91,)",
      "cells": [
       "S Pluto → H Haumea RA 91.0021 91 whole (79.83)",
-      "S Jupiter → H Vesta RA 147.2441 91×φ golden (82.55)"
+      "S Jupiter → H Vesta RA 147.2441 91×φ golden (82.55)",
+      "J Neptune – J Regulus RA 147.2454 91×φ golden (74.89)"
      ],
      "note": "",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('5×φ', '8')",
+     "cells": [
+      "S Venus → J Quaoar Dec 8.0037 8 whole (66.42)",
+      "S Sun → J Mars Dec 8.0076 8 whole (38.29)",
+      "S Ketu → J Antares Dec 8.0902 5×φ golden (99.62)"
+     ],
+     "note": "8.0037 - 8.0902",
+     "field": "also: 2 Zambella, 3 Another Theatre, 4 Calle Malva"
+    },
+    {
+     "check": 11,
+     "key": "('8.88889', '9')",
+     "cells": [
+      "H Gonggong – H Fomalhaut RA 8.8888 8.88889 ninth (99.32)",
+      "S Pallas → H Venus Dec 9.0024 9 whole (77.79)",
+      "H Mercury – H Juno Dec 9.0139 9 whole (9.42)"
+     ],
+     "note": "8.8888 - 9.0139",
      "field": "only"
     },
     {
@@ -133,7 +189,7 @@
       "H Rahu – H Makemake RA 14.1498 14.14 sqrt2 (79.57)"
      ],
      "note": "13.9884 - 14.1498",
-     "field": "also: 2 Zambella"
+     "field": "also: 2 Zambella, 4 Calle Malva"
     },
     {
      "check": 11,
@@ -143,6 +199,9 @@
       "S Chiron → H Rahu Dec 17.7942 11×φ golden (75.87)",
       "S Ketu → J Pallas RA 17.9425 φ^6 phi power (96.07)",
       "S Saturn → J Juno Dec 17.9442 φ^6 phi power (99.89)",
+      "H Mars – H Regulus Dec 17.9884 18 whole (17.77)",
+      "S Orcus → J Fomalhaut Dec 17.9910 18 whole (30.21)",
+      "S Orcus → H Fomalhaut Dec 17.9950 18 whole (55.93)",
       "S Makemake → J Sedna Dec 18.0034 18 whole (68.93)",
       "J Rahu – J Pallas RA 18.0133 18 whole (11.37)"
      ],
@@ -151,9 +210,21 @@
     },
     {
      "check": 11,
+     "key": "('18.8889', '19')",
+     "cells": [
+      "J Eris – J Antares Dec 18.8829 18.8889 ninth (95.70)",
+      "S Vesta → H Ceres Dec 19.0048 19 whole (57.85)",
+      "S Pallas → J Jupiter Dec 19.0131 19 whole (11.92)"
+     ],
+     "note": "18.8829 - 19.0131",
+     "field": "also: 2 Zambella, 4 Calle Malva"
+    },
+    {
+     "check": 11,
      "key": "('18×φ', '29', 'φ^7')",
      "cells": [
       "S Makemake → J Rahu Dec 28.9825 29 whole (1.56)",
+      "H Venus – H Aldebaran Dec 29.0105 29 whole (22.49)",
       "S Venus → J Venus Dec 29.0328 φ^7 phi power (97.78)",
       "S Pallas → J Juno RA 29.0340 φ^7 phi power (99.37)",
       "S Venus → J Sun Dec 29.1215 18×φ golden (81.72)"
@@ -163,13 +234,27 @@
     },
     {
      "check": 11,
+     "key": "('26×φ', '42')",
+     "cells": [
+      "S Eris → J Fomalhaut RA 41.9893 42 whole (21.49)",
+      "S Eris → H Fomalhaut RA 41.9933 42 whole (44.56)",
+      "S Uranus → H Antares Dec 42.0190 42 whole (0.24)",
+      "S Uranus → J Antares Dec 42.0198 42 whole (0.02)",
+      "J Mars – J Jupiter Dec 42.0641 26×φ golden (72.56)"
+     ],
+     "note": "41.9893 - 42.0641",
+     "field": "also: 5 Daphne Moon"
+    },
+    {
+     "check": 11,
      "key": "('100×φ^1', '162')",
      "cells": [
       "S Mars → J Makemake RA 161.8499 100×φ^1 phi power (88.84)",
       "J Venus – J Pluto RA 161.8708 100×φ^1 phi power (84.04)",
-      "J Ketu – J Pallas RA 161.9867 162 whole (11.37)"
+      "J Ketu – J Pallas RA 161.9867 162 whole (11.37)",
+      "H Mercury – H Regulus RA 162.0188 162 whole (0.35)"
      ],
-     "note": "161.8499 - 161.9867",
+     "note": "161.8499 - 162.0188",
      "field": "only"
     },
     {
@@ -186,9 +271,22 @@
     },
     {
      "check": 11,
+     "key": "('105×φ', '170')",
+     "cells": [
+      "S Transpluto → J Fomalhaut RA 169.8932 105×φ golden (97.52)",
+      "S Transpluto → H Fomalhaut RA 169.8972 105×φ golden (78.58)",
+      "J Makemake – J Fomalhaut RA 169.9817 170 whole (0.71)",
+      "S Uranus → H Ceres RA 169.9823 170 whole (1.30)"
+     ],
+     "note": "169.8932 - 169.9823",
+     "field": "only"
+    },
+    {
+     "check": 11,
      "key": "('108×φ', '175')",
      "cells": [
       "S Juno → H Pallas RA 174.7700 108×φ golden (9.66)",
+      "S Gonggong → J Regulus RA 174.7771 108×φ golden (0.83)",
       "S Quaoar → H Jupiter RA 174.9899 175 whole (24.66)",
       "H Mars – H Ketu RA 175.0169 175 whole (2.46)"
      ],
@@ -201,6 +299,7 @@
      "cells": [
       "H Vesta – H Makemake RA 16.9813 17 whole (0.41)",
       "S Uranus → H Ceres RA 169.9823 170 whole (1.30)",
+      "J Makemake – J Fomalhaut RA 169.9817 170 whole (0.71)",
       "J Sun – J Ketu Dec 17.0191 17 whole (0.19)",
       "S Eris → J Gonggong Dec 17.0086 17 whole (32.40)",
       "S Jupiter → J Uranus Dec 17.0157 17 whole (4.59)",
@@ -219,6 +318,18 @@
      ],
      "note": "9 and 90",
      "field": "only"
+    },
+    {
+     "check": 12,
+     "key": "(2,)",
+     "cells": [
+      "H Sun – H Juno Dec 2.0004 2 whole (95.80)",
+      "H Orcus – H Regulus Dec 20.0127 20 whole (13.49)",
+      "S Pallas → H Aldebaran Dec 20.0082 20 whole (35.08)",
+      "S Pallas → J Aldebaran Dec 20.0093 20 whole (28.85)"
+     ],
+     "note": "2 and 20",
+     "field": "also: 2 Zambella, 3 Another Theatre, 4 Calle Malva, 5 Daphne Moon"
     },
     {
      "check": 12,
@@ -313,11 +424,12 @@
     },
     {
      "check": 7,
-     "key": "('count', 1)",
+     "key": "('count', 2)",
      "cells": [
+      "12.2222 ninth",
       "155.556 ninth"
      ],
-     "note": "1 numbers",
+     "note": "2 numbers",
      "field": ""
     },
     {
@@ -340,15 +452,57 @@
     },
     {
      "check": 10,
+     "key": "(5,)",
+     "cells": [
+      "S Chiron → H Regulus Dec 4.9970 5 whole (72.51)",
+      "S Chiron → J Regulus Dec 5.0003 5 whole (97.42)",
+      "S Makemake → J Transpluto Dec 8.0904 5×φ golden (98.37)"
+     ],
+     "note": "",
+     "field": "also: 1 Pink Legend, 3 Another Theatre, 4 Calle Malva"
+    },
+    {
+     "check": 10,
+     "key": "(12,)",
+     "cells": [
+      "S Juno → H Sedna Dec 11.9960 12 whole (63.78)",
+      "H Eris – H Aldebaran Dec 19.4108 12×φ golden (68.17)"
+     ],
+     "note": "",
+     "field": "also: 3 Another Theatre, 5 Daphne Moon"
+    },
+    {
+     "check": 10,
      "key": "(17,)",
      "cells": [
       "H Jupiter – H Transpluto RA 17.0055 17 whole (52.76)",
       "S Pallas → H Pluto Dec 16.9996 17 whole (96.09)",
+      "H Quaoar – H Regulus Dec 27.5085 17×φ golden (88.38)",
       "S Vesta → H Chiron RA 27.5025 17×φ golden (76.25)",
       "S Eris → J Ceres Dec 27.5001 17×φ golden (63.99)"
      ],
      "note": "",
      "field": "also: 5 Daphne Moon"
+    },
+    {
+     "check": 10,
+     "key": "(18,)",
+     "cells": [
+      "S Orcus → H Fomalhaut Dec 17.9945 18 whole (52.66)",
+      "S Ketu → J Sun Dec 29.1208 18×φ golden (77.77)"
+     ],
+     "note": "",
+     "field": "also: 1 Pink Legend, 3 Another Theatre, 4 Calle Malva"
+    },
+    {
+     "check": 10,
+     "key": "(23,)",
+     "cells": [
+      "S Transpluto → J Mercury RA 22.9956 23 whole (60.93)",
+      "J Sun – J Antares Dec 37.2105 23×φ golden (75.53)"
+     ],
+     "note": "",
+     "field": "only"
     },
     {
      "check": 10,
@@ -401,7 +555,7 @@
       "S Makemake → J Transpluto Dec 8.0904 5×φ golden (98.37)"
      ],
      "note": "7.9840 - 8.0904",
-     "field": "also: 3 Another Theatre"
+     "field": "also: 1 Pink Legend, 3 Another Theatre, 4 Calle Malva"
     },
     {
      "check": 11,
@@ -410,6 +564,7 @@
       "S Juno → H Sedna Dec 11.9960 12 whole (63.78)",
       "S Juno → J Orcus Dec 12.0122 12 whole (15.37)",
       "H Uranus – H Haumea Dec 12.0141 12 whole (8.75)",
+      "H Chiron – H Regulus Dec 12.2209 12.2222 ninth (98.23)",
       "J Ketu – J Eris Dec 12.2262 12.2222 ninth (94.53)"
      ],
      "note": "11.9960 - 12.2262",
@@ -424,18 +579,22 @@
       "S Ceres → H Transpluto Dec 14.1468 14.14 sqrt2 (87.11)"
      ],
      "note": "13.9863 - 14.1468",
-     "field": "also: 1 Pink Legend"
+     "field": "also: 1 Pink Legend, 4 Calle Malva"
     },
     {
      "check": 11,
      "key": "('11×φ', '17.7778', '18')",
      "cells": [
       "S Ceres → H Sun Dec 17.7700 17.7778 ninth (93.91)",
+      "J Quaoar – J Fomalhaut Dec 17.7903 11×φ golden (56.31)",
       "S Eris → H Saturn Dec 17.7912 11×φ golden (60.71)",
-      "S Haumea → J Mercury Dec 17.9822 18 whole (1.16)"
+      "S Haumea → J Mercury Dec 17.9822 18 whole (1.16)",
+      "S Orcus → J Fomalhaut Dec 17.9904 18 whole (27.19)",
+      "H Orcus – H Antares Dec 17.9914 18 whole (32.62)",
+      "S Orcus → H Fomalhaut Dec 17.9945 18 whole (52.66)"
      ],
-     "note": "17.7700 - 17.9822",
-     "field": "only"
+     "note": "17.7700 - 17.9945",
+     "field": "also: 4 Calle Malva"
     },
     {
      "check": 11,
@@ -447,7 +606,7 @@
       "H Makemake – H Sedna Dec 19.0144 19 whole (7.85)"
      ],
      "note": "18.8830 - 19.0144",
-     "field": "also: 4 Calle Malva"
+     "field": "also: 1 Pink Legend, 4 Calle Malva"
     },
     {
      "check": 11,
@@ -486,6 +645,17 @@
     },
     {
      "check": 11,
+     "key": "('23×φ', '37')",
+     "cells": [
+      "H Pluto – H Aldebaran Dec 37.0076 37 whole (38.16)",
+      "S Haumea → J Uranus Dec 37.0118 37 whole (16.76)",
+      "J Sun – J Antares Dec 37.2105 23×φ golden (75.53)"
+     ],
+     "note": "37.0076 - 37.2105",
+     "field": "only"
+    },
+    {
+     "check": 11,
      "key": "('70.7', '71')",
      "cells": [
       "J Sun – J Quaoar RA 70.7170 70.7 sqrt2 (96.48)",
@@ -493,6 +663,28 @@
       "S Ceres → H Orcus RA 71.0023 71 whole (78.10)"
      ],
      "note": "70.7170 - 71.0023",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('120', '74×φ')",
+     "cells": [
+      "H Jupiter – H Uranus RA 119.7171 74×φ golden (21.44)",
+      "J Quaoar – J Fomalhaut RA 119.7471 74×φ golden (37.23)",
+      "H Pallas – H Orcus RA 120.0149 120 whole (6.42)"
+     ],
+     "note": "119.7171 - 120.0149",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('134', '83×φ')",
+     "cells": [
+      "S Sedna → H Makemake RA 133.9898 134 whole (24.25)",
+      "H Pluto – H Regulus RA 134.2780 83×φ golden (17.47)",
+      "S Jupiter → J Mars RA 134.2810 83×φ golden (26.07)"
+     ],
+     "note": "133.9898 - 134.2810",
      "field": "only"
     },
     {
@@ -550,7 +742,20 @@
       "S Juno → J Orcus Dec 12.0122 12 whole (15.37)"
      ],
      "note": "12 and 120",
-     "field": "also: 3 Another Theatre"
+     "field": "also: 3 Another Theatre, 5 Daphne Moon"
+    },
+    {
+     "check": 12,
+     "key": "(18,)",
+     "cells": [
+      "H Orcus – H Antares Dec 17.9914 18 whole (32.62)",
+      "S Orcus → H Gonggong RA 179.9852 180 whole (6.73)",
+      "S Orcus → H Fomalhaut Dec 17.9945 18 whole (52.66)",
+      "S Haumea → J Mercury Dec 17.9822 18 whole (1.16)",
+      "S Orcus → J Fomalhaut Dec 17.9904 18 whole (27.19)"
+     ],
+     "note": "18 and 180",
+     "field": "also: 3 Another Theatre, 4 Calle Malva"
     },
     {
      "check": 12,
@@ -562,6 +767,19 @@
      ],
      "note": "16 and 160",
      "field": "also: 3 Another Theatre"
+    },
+    {
+     "check": 12,
+     "key": "(5,)",
+     "cells": [
+      "S Pallas → H Vesta RA 49.9942 50 whole (50.72)",
+      "S Chiron → H Regulus Dec 4.9970 5 whole (72.51)",
+      "S Neptune → H Orcus Dec 4.9940 5 whole (49.25)",
+      "S Mercury → J Sedna RA 4.9842 5 whole (4.38)",
+      "S Chiron → J Regulus Dec 5.0003 5 whole (97.42)"
+     ],
+     "note": "5 and 50",
+     "field": "only"
     },
     {
      "check": 12,
@@ -630,37 +848,18 @@
     },
     {
      "check": 12,
-     "key": "(5,)",
-     "cells": [
-      "S Pallas → H Vesta RA 49.9942 50 whole (50.72)",
-      "S Neptune → H Orcus Dec 4.9940 5 whole (49.25)",
-      "S Mercury → J Sedna RA 4.9842 5 whole (4.38)"
-     ],
-     "note": "5 and 50",
-     "field": "only"
-    },
-    {
-     "check": 12,
      "key": "(2,)",
      "cells": [
+      "S Pallas → H Aldebaran Dec 20.0080 20 whole (35.76)",
       "S Sun → H Orcus Dec 19.9838 20 whole (3.59)",
       "S Gonggong → H Neptune Dec 1.9980 2 whole (80.85)",
       "J Venus – J Mars RA 19.9874 20 whole (13.63)",
       "J Mars – J Chiron Dec 1.9884 2 whole (17.68)",
-      "S Mars → J Saturn Dec 2.0165 2 whole (3.09)"
+      "S Mars → J Saturn Dec 2.0165 2 whole (3.09)",
+      "S Pallas → J Aldebaran Dec 20.0111 20 whole (19.85)"
      ],
      "note": "2 and 20",
-     "field": "also: 3 Another Theatre, 4 Calle Malva, 5 Daphne Moon"
-    },
-    {
-     "check": 12,
-     "key": "(18,)",
-     "cells": [
-      "S Orcus → H Gonggong RA 179.9852 180 whole (6.73)",
-      "S Haumea → J Mercury Dec 17.9822 18 whole (1.16)"
-     ],
-     "note": "18 and 180",
-     "field": "also: 3 Another Theatre"
+     "field": "also: 1 Pink Legend, 3 Another Theatre, 4 Calle Malva, 5 Daphne Moon"
     },
     {
      "check": 13,
@@ -702,6 +901,15 @@
     },
     {
      "check": 9,
+     "key": "('H', 'Antares', '10×φ^6')",
+     "cells": [
+      "H Jupiter – H Antares RA 179.4842 10×φ^6 phi power (90.97)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 9,
      "key": "('H', 'Saturn', '34')",
      "cells": [
       "H Jupiter – H Saturn Dec 33.9953 34 whole (58.47)"
@@ -719,6 +927,26 @@
      "field": "only"
     },
     {
+     "check": 9,
+     "key": "('J', 'Aldebaran', '152')",
+     "cells": [
+      "J Jupiter – J Aldebaran RA 152.0058 152 whole (50.28)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(5,)",
+     "cells": [
+      "S Chiron → H Regulus Dec 4.9965 5 whole (68.18)",
+      "S Chiron → J Regulus Dec 4.9963 5 whole (66.72)",
+      "S Pallas → J Sedna Dec 8.0903 5×φ golden (99.36)"
+     ],
+     "note": "",
+     "field": "also: 1 Pink Legend, 2 Zambella, 4 Calle Malva"
+    },
+    {
      "check": 10,
      "key": "(7,)",
      "cells": [
@@ -731,9 +959,43 @@
     },
     {
      "check": 10,
+     "key": "(8,)",
+     "cells": [
+      "S Vesta → H Mercury Dec 8.0046 8 whole (59.50)",
+      "H Gonggong – H Antares Dec 12.9476 8×φ golden (80.33)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(12,)",
+     "cells": [
+      "H Ceres – H Aldebaran Dec 11.9948 12 whole (54.63)",
+      "H Venus – H Neptune RA 19.4170 12×φ golden (96.59)",
+      "S Haumea → H Eris Dec 19.4187 12×φ golden (86.16)"
+     ],
+     "note": "",
+     "field": "also: 2 Zambella, 5 Daphne Moon"
+    },
+    {
+     "check": 10,
+     "key": "(14,)",
+     "cells": [
+      "H Quaoar – H Fomalhaut Dec 13.9942 14 whole (50.63)",
+      "S Venus → J Aldebaran Dec 22.6506 14×φ golden (88.71)"
+     ],
+     "note": "",
+     "field": "also: 4 Calle Malva"
+    },
+    {
+     "check": 10,
      "key": "(15,)",
      "cells": [
+      "H Chiron – H Regulus Dec 14.9975 15 whole (76.94)",
+      "S Mars → H Antares Dec 15.0047 15 whole (58.52)",
       "S Haumea → H Mars Dec 15.0028 15 whole (74.21)",
+      "S Mars → J Antares Dec 15.0040 15 whole (64.38)",
       "S Sun → H Mars RA 24.2761 15×φ golden (68.22)"
      ],
      "note": "",
@@ -755,11 +1017,13 @@
      "cells": [
       "S Moon → H Pallas Dec 18.0005 18 whole (95.09)",
       "S Gonggong → H Sedna Dec 17.9944 18 whole (52.00)",
+      "S Orcus → H Fomalhaut Dec 17.9956 18 whole (60.57)",
+      "S Orcus → J Fomalhaut Dec 17.9962 18 whole (65.80)",
       "H Jupiter – H Orcus Dec 29.1239 18×φ golden (95.92)",
       "S Rahu → H Neptune Dec 29.1268 18×φ golden (86.74)"
      ],
      "note": "",
-     "field": "also: 1 Pink Legend"
+     "field": "also: 1 Pink Legend, 2 Zambella, 4 Calle Malva"
     },
     {
      "check": 10,
@@ -842,7 +1106,7 @@
       "S Pallas → J Sedna Dec 8.0903 5×φ golden (99.36)"
      ],
      "note": "7.9862 - 8.0903",
-     "field": "also: 2 Zambella"
+     "field": "also: 1 Pink Legend, 2 Zambella, 4 Calle Malva"
     },
     {
      "check": 11,
@@ -864,6 +1128,8 @@
       "S Venus → H Transpluto Dec 17.7759 17.7778 ninth (98.50)",
       "S Pluto → J Venus Dec 17.9461 φ^6 phi power (96.02)",
       "S Gonggong → H Sedna Dec 17.9944 18 whole (52.00)",
+      "S Orcus → H Fomalhaut Dec 17.9956 18 whole (60.57)",
+      "S Orcus → J Fomalhaut Dec 17.9962 18 whole (65.80)",
       "S Moon → H Pallas Dec 18.0005 18 whole (95.09)"
      ],
      "note": "17.7759 - 18.0005",
@@ -878,7 +1144,7 @@
       "S Jupiter → H Haumea Dec 21.0308 13×φ golden (78.99)"
      ],
      "note": "20.9859 - 21.0308",
-     "field": "also: 5 Daphne Moon"
+     "field": "also: 4 Calle Malva, 5 Daphne Moon"
     },
     {
      "check": 11,
@@ -911,7 +1177,7 @@
       "S Rahu → H Neptune Dec 29.1268 18×φ golden (86.74)"
      ],
      "note": "29.0151 - 29.1268",
-     "field": "only"
+     "field": "also: 4 Calle Malva"
     },
     {
      "check": 11,
@@ -922,6 +1188,7 @@
       "H Jupiter – H Saturn Dec 33.9953 34 whole (58.47)",
       "S Ceres → H Mercury Dec 33.9954 34 whole (59.00)",
       "H Venus – H Pallas RA 34.0007 34 whole (93.45)",
+      "J Ketu – J Fomalhaut RA 34.0089 34 whole (30.95)",
       "S Uranus → H Uranus RA 34.0171 34 whole (2.04)"
      ],
      "note": "33.9727 - 34.0171",
@@ -940,14 +1207,51 @@
      "field": "only"
     },
     {
+     "check": 11,
+     "key": "('128', '79×φ')",
+     "cells": [
+      "H Juno – H Aldebaran RA 127.8566 79×φ golden (0.02)",
+      "S Rahu → H Pluto RA 127.9852 128 whole (6.78)",
+      "S Chiron → J Pluto RA 127.9910 128 whole (30.05)"
+     ],
+     "note": "127.8566 - 127.9910",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('141', '87×φ')",
+     "cells": [
+      "S Sun → H Antares RA 140.7589 87×φ golden (47.49)",
+      "S Sun → J Antares RA 140.7636 87×φ golden (69.55)",
+      "S Chiron → H Regulus RA 140.7872 87×φ golden (18.91)",
+      "S Chiron → J Regulus RA 140.7888 87×φ golden (15.00)",
+      "J Saturn – J Orcus RA 140.9925 141 whole (39.09)"
+     ],
+     "note": "140.7589 - 140.9925",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('157', '97×φ')",
+     "cells": [
+      "J Sedna – J Antares RA 156.9336 97×φ golden (26.66)",
+      "S Ceres → H Pluto RA 156.9842 157 whole (4.46)",
+      "H Venus – H Regulus RA 156.9994 157 whole (94.54)"
+     ],
+     "note": "156.9336 - 156.9994",
+     "field": "also: 4 Calle Malva"
+    },
+    {
      "check": 12,
      "key": "(12,)",
      "cells": [
+      "H Ceres – H Aldebaran Dec 11.9948 12 whole (54.63)",
       "H Pluto – H Orcus Dec 12.0131 12 whole (11.83)",
-      "S Haumea → H Mercury RA 119.9912 120 whole (31.21)"
+      "S Haumea → H Mercury RA 119.9912 120 whole (31.21)",
+      "J Pallas – J Regulus Dec 12.0136 12 whole (10.33)"
      ],
      "note": "12 and 120",
-     "field": "also: 2 Zambella"
+     "field": "also: 2 Zambella, 5 Daphne Moon"
     },
     {
      "check": 12,
@@ -955,6 +1259,8 @@
      "cells": [
       "H Venus – H Pluto Dec 16.0118 16 whole (16.63)",
       "J Ketu – J Pallas RA 160.0113 160 whole (18.72)",
+      "J Venus – J Regulus RA 159.9913 160 whole (31.74)",
+      "J Orcus – J Aldebaran Dec 16.0193 16 whole (0.11)",
       "S Mars → J Sedna Dec 16.0170 16 whole (2.24)",
       "S Sun → J Venus Dec 16.0021 16 whole (79.92)"
      ],
@@ -981,7 +1287,10 @@
      "key": "(3,)",
      "cells": [
       "H Vesta – H Orcus Dec 30.0084 30 whole (33.83)",
+      "H Gonggong – H Aldebaran Dec 29.9921 30 whole (36.82)",
       "S Juno → H Orcus Dec 2.9989 3 whole (88.87)",
+      "J Sun – J Fomalhaut RA 29.9835 30 whole (3.13)",
+      "J Transpluto – J Aldebaran Dec 3.0093 3 whole (28.89)",
       "S Pluto → J Neptune RA 2.9884 3 whole (17.63)",
       "S Uranus → J Sedna RA 2.9805 3 whole (0.06)",
       "S Vesta → J Mercury RA 30.0197 30 whole (0.02)",
@@ -996,10 +1305,12 @@
      "cells": [
       "H Pallas – H Haumea RA 179.9817 180 whole (0.72)",
       "S Moon → H Pallas Dec 18.0005 18 whole (95.09)",
-      "S Gonggong → H Sedna Dec 17.9944 18 whole (52.00)"
+      "S Gonggong → H Sedna Dec 17.9944 18 whole (52.00)",
+      "S Orcus → H Fomalhaut Dec 17.9956 18 whole (60.57)",
+      "S Orcus → J Fomalhaut Dec 17.9962 18 whole (65.80)"
      ],
      "note": "18 and 180",
-     "field": "also: 2 Zambella"
+     "field": "also: 2 Zambella, 4 Calle Malva"
     },
     {
      "check": 12,
@@ -1017,12 +1328,14 @@
      "check": 12,
      "key": "(2,)",
      "cells": [
+      "S Pallas → H Aldebaran Dec 20.0083 20 whole (34.04)",
       "J Rahu – J Pallas RA 19.9887 20 whole (18.72)",
+      "S Pallas → J Aldebaran Dec 20.0099 20 whole (25.55)",
       "S Pluto → J Uranus Dec 1.9990 2 whole (90.17)",
       "S Quaoar → J Sun Dec 1.9983 2 whole (83.61)"
      ],
      "note": "2 and 20",
-     "field": "also: 2 Zambella, 4 Calle Malva, 5 Daphne Moon"
+     "field": "also: 1 Pink Legend, 2 Zambella, 4 Calle Malva, 5 Daphne Moon"
     }
    ]
   },
@@ -1044,12 +1357,13 @@
     },
     {
      "check": 7,
-     "key": "('count', 2)",
+     "key": "('count', 3)",
      "cells": [
       "22.2222 ninth",
-      "12 whole"
+      "12 whole",
+      "43 whole"
      ],
-     "note": "2 numbers",
+     "note": "3 numbers",
      "field": ""
     },
     {
@@ -1071,6 +1385,27 @@
      "field": "only"
     },
     {
+     "check": 9,
+     "key": "('J', 'Fomalhaut', '25×φ')",
+     "cells": [
+      "J Jupiter – J Fomalhaut Dec 40.4531 25×φ golden (86.81)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(5,)",
+     "cells": [
+      "S Chiron → H Regulus Dec 4.9964 5 whole (67.32)",
+      "S Orcus → H Vesta Dec 5.0031 5 whole (71.39)",
+      "S Chiron → J Regulus Dec 4.9981 5 whole (81.72)",
+      "S Ketu → J Antares Dec 8.0900 5×φ golden (98.98)"
+     ],
+     "note": "",
+     "field": "also: 1 Pink Legend, 2 Zambella, 3 Another Theatre"
+    },
+    {
      "check": 10,
      "key": "(11,)",
      "cells": [
@@ -1084,13 +1419,34 @@
     },
     {
      "check": 10,
+     "key": "(13,)",
+     "cells": [
+      "J Jupiter – J Makemake RA 12.9975 13 whole (76.13)",
+      "S Vesta → J Pluto Dec 12.9990 13 whole (89.84)",
+      "J Eris – J Fomalhaut Dec 21.0315 13×φ golden (82.78)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
      "key": "(14,)",
      "cells": [
       "H Rahu – H Juno Dec 14.0007 14 whole (92.75)",
       "H Mercury – H Venus Dec 22.6571 14×φ golden (73.40)"
      ],
      "note": "",
-     "field": "only"
+     "field": "also: 3 Another Theatre"
+    },
+    {
+     "check": 10,
+     "key": "(18,)",
+     "cells": [
+      "S Orcus → H Fomalhaut Dec 17.9960 18 whole (63.90)",
+      "H Ceres – H Vesta RA 29.1289 18×φ golden (75.12)"
+     ],
+     "note": "",
+     "field": "also: 1 Pink Legend, 2 Zambella, 3 Another Theatre"
     },
     {
      "check": 10,
@@ -1122,7 +1478,7 @@
       "H Ketu – H Sedna RA 45.3056 28×φ golden (96.00)"
      ],
      "note": "",
-     "field": "only"
+     "field": "also: 1 Pink Legend, 5 Daphne Moon"
     },
     {
      "check": 10,
@@ -1180,6 +1536,19 @@
     },
     {
      "check": 11,
+     "key": "('5×φ', '8')",
+     "cells": [
+      "S Gonggong → H Saturn Dec 7.9858 8 whole (8.30)",
+      "S Gonggong → H Eris Dec 7.9870 8 whole (12.30)",
+      "S Jupiter → H Uranus Dec 7.9907 8 whole (28.77)",
+      "S Venus → H Neptune RA 8.0071 8 whole (41.56)",
+      "S Ketu → J Antares Dec 8.0900 5×φ golden (98.98)"
+     ],
+     "note": "7.9858 - 8.0900",
+     "field": "also: 1 Pink Legend, 2 Zambella, 3 Another Theatre"
+    },
+    {
+     "check": 11,
      "key": "('11', '11.1111')",
      "cells": [
       "H Chiron – H Gonggong RA 10.9923 11 whole (37.60)",
@@ -1195,11 +1564,23 @@
      "key": "('13', '8×φ')",
      "cells": [
       "S Ceres → J Chiron Dec 12.9493 8×φ golden (71.55)",
+      "H Vesta – H Fomalhaut Dec 12.9929 13 whole (41.51)",
       "J Jupiter – J Makemake RA 12.9975 13 whole (76.13)",
       "S Vesta → J Pluto Dec 12.9990 13 whole (89.84)"
      ],
      "note": "12.9493 - 12.9990",
      "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('14', '14.14')",
+     "cells": [
+      "H Quaoar – H Fomalhaut Dec 13.9843 14 whole (4.62)",
+      "H Rahu – H Juno Dec 14.0007 14 whole (92.75)",
+      "S Neptune → H Ketu RA 14.1459 14.14 sqrt2 (89.67)"
+     ],
+     "note": "13.9843 - 14.1459",
+     "field": "also: 1 Pink Legend, 2 Zambella"
     },
     {
      "check": 11,
@@ -1214,14 +1595,16 @@
     },
     {
      "check": 11,
-     "key": "('11×φ', '17.7778')",
+     "key": "('11×φ', '17.7778', '18')",
      "cells": [
       "H Haumea – H Makemake RA 17.7774 17.7778 ninth (99.72)",
       "S Saturn → J Orcus Dec 17.7926 11×φ golden (67.64)",
-      "S Makemake → H Uranus Dec 17.7943 11×φ golden (76.16)"
+      "S Makemake → H Uranus Dec 17.7943 11×φ golden (76.16)",
+      "S Orcus → J Fomalhaut Dec 17.9918 18 whole (34.61)",
+      "S Orcus → H Fomalhaut Dec 17.9960 18 whole (63.90)"
      ],
-     "note": "17.7774 - 17.7943",
-     "field": "only"
+     "note": "17.7774 - 17.9960",
+     "field": "also: 2 Zambella"
     },
     {
      "check": 11,
@@ -1229,16 +1612,29 @@
      "cells": [
       "S Ketu → H Haumea RA 18.8890 18.8889 ninth (99.88)",
       "S Uranus → J Pluto Dec 18.9840 19 whole (4.09)",
+      "J Makemake – J Aldebaran Dec 18.9922 19 whole (37.05)",
       "S Pluto → J Pluto Dec 19.0081 19 whole (35.21)"
      ],
      "note": "18.8890 - 19.0081",
-     "field": "also: 2 Zambella"
+     "field": "also: 1 Pink Legend, 2 Zambella"
+    },
+    {
+     "check": 11,
+     "key": "('13×φ', '21')",
+     "cells": [
+      "H Mars – H Makemake Dec 20.9813 21 whole (0.41)",
+      "S Jupiter → J Ceres Dec 21.0060 21 whole (49.22)",
+      "J Eris – J Fomalhaut Dec 21.0315 13×φ golden (82.78)"
+     ],
+     "note": "20.9813 - 21.0315",
+     "field": "also: 3 Another Theatre, 5 Daphne Moon"
     },
     {
      "check": 11,
      "key": "('22', '22.2222')",
      "cells": [
       "J Mars – J Ketu Dec 22.0112 22 whole (19.23)",
+      "H Sun – H Antares Dec 22.2236 22.2222 ninth (98.11)",
       "S Neptune → J Sun Dec 22.2274 22.2222 ninth (92.87)",
       "H Ketu – H Makemake Dec 22.2277 22.2222 ninth (92.39)"
      ],
@@ -1247,13 +1643,37 @@
     },
     {
      "check": 11,
+     "key": "('18×φ', '29')",
+     "cells": [
+      "H Juno – H Regulus RA 28.9882 29 whole (16.81)",
+      "S Ceres → J Pluto Dec 29.0010 29 whole (90.46)",
+      "H Ceres – H Vesta RA 29.1289 18×φ golden (75.12)"
+     ],
+     "note": "28.9882 - 29.1289",
+     "field": "also: 3 Another Theatre"
+    },
+    {
+     "check": 11,
+     "key": "('40×φ', '65')",
+     "cells": [
+      "S Haumea → H Regulus RA 64.7260 40×φ golden (73.12)",
+      "S Haumea → J Regulus RA 64.7290 40×φ golden (58.45)",
+      "S Juno → J Mercury RA 64.9896 65 whole (23.08)",
+      "S Eris → J Ketu RA 65.0014 65 whole (86.06)"
+     ],
+     "note": "64.7260 - 65.0014",
+     "field": "only"
+    },
+    {
+     "check": 11,
      "key": "('139', '86×φ')",
      "cells": [
       "S Chiron → H Orcus RA 139.0047 139 whole (58.49)",
       "S Ketu → H Ketu RA 139.1376 86×φ golden (34.76)",
-      "S Rahu → H Rahu RA 139.1376 86×φ golden (34.76)"
+      "S Rahu → H Rahu RA 139.1376 86×φ golden (34.76)",
+      "H Mars – H Regulus RA 139.1508 86×φ golden (99.51)"
      ],
-     "note": "139.0047 - 139.1376",
+     "note": "139.0047 - 139.1508",
      "field": "only"
     },
     {
@@ -1265,7 +1685,7 @@
       "H Sun – H Makemake RA 157.0080 157 whole (35.80)"
      ],
      "note": "156.9771 - 157.0080",
-     "field": "only"
+     "field": "also: 3 Another Theatre"
     },
     {
      "check": 11,
@@ -1281,20 +1701,36 @@
     },
     {
      "check": 12,
+     "key": "(15,)",
+     "cells": [
+      "H Eris – H Regulus Dec 15.0190 15 whole (0.25)",
+      "S Ketu → H Venus RA 149.9839 150 whole (3.79)",
+      "S Pallas → H Uranus RA 15.0014 15 whole (86.03)",
+      "S Mars → H Antares Dec 15.0046 15 whole (59.38)",
+      "S Sedna → J Venus RA 14.9879 15 whole (15.44)",
+      "S Mars → J Antares Dec 15.0054 15 whole (52.98)"
+     ],
+     "note": "15 and 150",
+     "field": "only"
+    },
+    {
+     "check": 12,
      "key": "(2,)",
      "cells": [
       "H Venus – H Juno Dec 2.0119 2 whole (16.29)",
       "S Eris → H Eris Dec 1.9961 2 whole (64.61)",
       "S Mars → H Neptune Dec 1.9960 2 whole (64.05)",
       "S Mercury → H Chiron Dec 19.9809 20 whole (0.22)",
+      "S Pallas → H Aldebaran Dec 20.0083 20 whole (34.13)",
       "J Haumea – J Orcus Dec 20.0086 20 whole (32.46)",
       "S Juno → J Vesta Dec 19.9927 20 whole (40.20)",
       "S Neptune → J Rahu Dec 19.9871 20 whole (12.69)",
+      "S Pallas → J Aldebaran Dec 20.0093 20 whole (28.85)",
       "S Orcus → J Quaoar Dec 2.0159 2 whole (4.19)",
       "S Transpluto → J Chiron Dec 2.0107 2 whole (21.71)"
      ],
      "note": "2 and 20",
-     "field": "also: 2 Zambella, 3 Another Theatre, 5 Daphne Moon"
+     "field": "also: 1 Pink Legend, 2 Zambella, 3 Another Theatre, 5 Daphne Moon"
     },
     {
      "check": 12,
@@ -1308,17 +1744,6 @@
      ],
      "note": "1 and 10",
      "field": "also: 1 Pink Legend, 2 Zambella, 3 Another Theatre, 5 Daphne Moon"
-    },
-    {
-     "check": 12,
-     "key": "(15,)",
-     "cells": [
-      "S Ketu → H Venus RA 149.9839 150 whole (3.79)",
-      "S Pallas → H Uranus RA 15.0014 15 whole (86.03)",
-      "S Sedna → J Venus RA 14.9879 15 whole (15.44)"
-     ],
-     "note": "15 and 150",
-     "field": "only"
     },
     {
      "check": 12,
@@ -1348,11 +1773,23 @@
     },
     {
      "check": 12,
+     "key": "(18,)",
+     "cells": [
+      "S Orcus → H Fomalhaut Dec 17.9960 18 whole (63.90)",
+      "S Gonggong → J Jupiter RA 179.9930 180 whole (42.13)",
+      "S Orcus → J Fomalhaut Dec 17.9918 18 whole (34.61)"
+     ],
+     "note": "18 and 180",
+     "field": "also: 2 Zambella, 3 Another Theatre"
+    },
+    {
+     "check": 12,
      "key": "(3,)",
      "cells": [
       "H Rahu – H Makemake Dec 30.0117 30 whole (17.23)",
       "S Rahu → H Venus RA 30.0161 30 whole (3.79)",
       "J Ceres – J Juno Dec 29.9908 30 whole (29.21)",
+      "J Rahu – J Antares Dec 2.9987 3 whole (87.12)",
       "J Venus – J Chiron Dec 3.0193 3 whole (0.12)",
       "S Transpluto → J Jupiter RA 3.0154 3 whole (5.36)",
       "S Saturn → J Vesta Dec 29.9908 30 whole (29.34)"
@@ -1382,14 +1819,15 @@
     },
     {
      "check": 7,
-     "key": "('count', 4)",
+     "key": "('count', 5)",
      "cells": [
       "13×φ golden",
       "20×φ golden",
       "11.1111 ninth",
-      "144.444 ninth"
+      "144.444 ninth",
+      "141.4 sqrt2"
      ],
-     "note": "4 numbers",
+     "note": "5 numbers",
      "field": ""
     },
     {
@@ -1418,7 +1856,7 @@
       "J Pallas – J Eris Dec 19.4154 12×φ golden (93.71)"
      ],
      "note": "",
-     "field": "only"
+     "field": "also: 2 Zambella, 3 Another Theatre"
     },
     {
      "check": 10,
@@ -1451,6 +1889,16 @@
      "field": "also: 1 Pink Legend"
     },
     {
+     "check": 10,
+     "key": "(28,)",
+     "cells": [
+      "H Saturn – H Pallas RA 27.9984 28 whole (84.36)",
+      "J Eris – J Aldebaran RA 45.3002 28×φ golden (72.89)"
+     ],
+     "note": "",
+     "field": "also: 1 Pink Legend, 4 Calle Malva"
+    },
+    {
      "check": 11,
      "key": "('11', '11.1111')",
      "cells": [
@@ -1467,12 +1915,25 @@
      "check": 11,
      "key": "('12', '12.2222')",
      "cells": [
+      "J Jupiter – J Fomalhaut Dec 11.9844 12 whole (4.75)",
       "S Moon → J Quaoar Dec 11.9969 12 whole (71.64)",
       "S Pallas → H Quaoar Dec 12.0174 12 whole (1.64)",
       "S Orcus → J Ceres Dec 12.2247 12.2222 ninth (96.54)"
      ],
-     "note": "11.9969 - 12.2247",
+     "note": "11.9844 - 12.2247",
      "field": "also: 1 Pink Legend, 2 Zambella"
+    },
+    {
+     "check": 11,
+     "key": "('18', 'φ^6')",
+     "cells": [
+      "S Makemake → J Sedna Dec 17.9467 φ^6 phi power (94.67)",
+      "S Pallas → H Mercury Dec 17.9867 18 whole (11.09)",
+      "S Orcus → J Fomalhaut Dec 17.9915 18 whole (32.79)",
+      "S Orcus → H Fomalhaut Dec 17.9941 18 whole (49.74)"
+     ],
+     "note": "17.9467 - 17.9941",
+     "field": "only"
     },
     {
      "check": 11,
@@ -1483,7 +1944,7 @@
       "S Mercury → H Venus RA 21.0353 13×φ golden (94.50)"
      ],
      "note": "20.9858 - 21.0353",
-     "field": "also: 3 Another Theatre"
+     "field": "also: 3 Another Theatre, 4 Calle Malva"
     },
     {
      "check": 11,
@@ -1508,6 +1969,19 @@
      ],
      "note": "33.9762 - 33.9928",
      "field": "also: 3 Another Theatre"
+    },
+    {
+     "check": 11,
+     "key": "('26×φ', '42')",
+     "cells": [
+      "S Eris → J Fomalhaut RA 41.9838 42 whole (3.62)",
+      "S Eris → H Fomalhaut RA 41.9922 42 whole (36.92)",
+      "S Uranus → J Antares Dec 42.0192 42 whole (0.16)",
+      "S Uranus → H Antares Dec 42.0193 42 whole (0.12)",
+      "S Moon → H Mars Dec 42.0644 26×φ golden (74.37)"
+     ],
+     "note": "41.9838 - 42.0644",
+     "field": "also: 1 Pink Legend"
     },
     {
      "check": 11,
@@ -1547,13 +2021,45 @@
      "check": 12,
      "key": "(3,)",
      "cells": [
+      "H Juno – H Aldebaran Dec 2.9901 3 whole (25.67)",
       "H Mercury – H Quaoar Dec 30.0041 30 whole (63.21)",
       "H Mercury – H Transpluto Dec 3.0142 3 whole (8.33)",
+      "J Mercury – J Regulus RA 2.9993 3 whole (93.12)",
       "J Pluto – J Haumea Dec 29.9822 30 whole (1.18)",
+      "J Gonggong – J Regulus Dec 30.0109 30 whole (20.61)",
       "S Eris → J Ketu Dec 3.0024 3 whole (77.44)"
      ],
      "note": "3 and 30",
      "field": "also: 2 Zambella, 3 Another Theatre, 4 Calle Malva"
+    },
+    {
+     "check": 12,
+     "key": "(6,)",
+     "cells": [
+      "H Ketu – H Aldebaran RA 60.0038 60 whole (65.89)",
+      "H Jupiter – H Regulus Dec 5.9822 6 whole (1.26)",
+      "H Haumea – H Regulus Dec 5.9999 6 whole (99.30)",
+      "S Saturn → J Pluto Dec 6.0192 6 whole (0.15)",
+      "S Orcus → J Jupiter Dec 6.0071 6 whole (41.65)"
+     ],
+     "note": "6 and 60",
+     "field": "only"
+    },
+    {
+     "check": 12,
+     "key": "(2,)",
+     "cells": [
+      "H Pallas – H Aldebaran Dec 2.0100 2 whole (25.15)",
+      "S Vesta → H Neptune RA 20.0198 20 whole (0.01)",
+      "S Pallas → H Aldebaran Dec 20.0080 20 whole (35.92)",
+      "J Venus – J Chiron Dec 2.0094 2 whole (28.20)",
+      "J Vesta – J Orcus Dec 1.9975 2 whole (76.56)",
+      "S Juno → J Gonggong RA 1.9844 2 whole (4.93)",
+      "S Pallas → J Aldebaran Dec 20.0105 20 whole (22.49)",
+      "S Transpluto → J Juno Dec 2.0011 2 whole (88.87)"
+     ],
+     "note": "2 and 20",
+     "field": "also: 1 Pink Legend, 2 Zambella, 3 Another Theatre, 4 Calle Malva"
     },
     {
      "check": 12,
@@ -1581,16 +2087,15 @@
     },
     {
      "check": 12,
-     "key": "(2,)",
+     "key": "(12,)",
      "cells": [
-      "S Vesta → H Neptune RA 20.0198 20 whole (0.01)",
-      "J Venus – J Chiron Dec 2.0094 2 whole (28.20)",
-      "J Vesta – J Orcus Dec 1.9975 2 whole (76.56)",
-      "S Juno → J Gonggong RA 1.9844 2 whole (4.93)",
-      "S Transpluto → J Juno Dec 2.0011 2 whole (88.87)"
+      "H Rahu – H Aldebaran RA 119.9962 120 whole (65.89)",
+      "S Pallas → H Quaoar Dec 12.0174 12 whole (1.64)",
+      "J Jupiter – J Fomalhaut Dec 11.9844 12 whole (4.75)",
+      "S Moon → J Quaoar Dec 11.9969 12 whole (71.64)"
      ],
-     "note": "2 and 20",
-     "field": "also: 2 Zambella, 3 Another Theatre, 4 Calle Malva"
+     "note": "12 and 120",
+     "field": "also: 2 Zambella, 3 Another Theatre"
     }
    ]
   }

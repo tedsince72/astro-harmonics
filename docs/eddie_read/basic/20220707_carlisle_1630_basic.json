@@ -22,6 +22,15 @@
     },
     {
      "check": 9,
+     "key": "('H', 'Fomalhaut', '50×φ')",
+     "cells": [
+      "H Jupiter – H Fomalhaut RA 80.9089 50×φ golden (60.27)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 9,
      "key": "('J', 'Pluto', 'conj')",
      "cells": [
       "J Jupiter – J Pluto RA 0.4349 conj conj (50.42)"
@@ -35,11 +44,23 @@
      "cells": [
       "S Juno → H Transpluto Dec 8.9950 9 whole (56.58)",
       "S Neptune → J Ceres Dec 8.9958 9 whole (62.07)",
+      "H Gonggong – H Antares Dec 14.5690 9×φ golden (63.04)",
       "J Pluto – J Quaoar RA 14.5644 9×φ golden (87.21)",
       "J Mars – J Neptune Dec 14.5629 9×φ golden (96.13)"
      ],
      "note": "",
      "field": "also: 8 Lucia Joy"
+    },
+    {
+     "check": 10,
+     "key": "(13,)",
+     "cells": [
+      "S Sedna → H Rahu Dec 12.9949 13 whole (55.32)",
+      "S Sedna → H Vesta Dec 12.9977 13 whole (78.24)",
+      "H Vesta – H Aldebaran Dec 21.0344 13×φ golden (99.72)"
+     ],
+     "note": "",
+     "field": "only"
     },
     {
      "check": 10,
@@ -53,17 +74,50 @@
      "field": "only"
     },
     {
+     "check": 10,
+     "key": "(73,)",
+     "cells": [
+      "S Neptune → H Aldebaran RA 72.9961 73 whole (65.17)",
+      "S Eris → J Juno RA 118.1238 73×φ golden (59.66)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
      "check": 11,
      "key": "('4', '4.14')",
      "cells": [
       "S Vesta → H Gonggong RA 3.9810 4 whole (0.26)",
       "S Mars → H Eris RA 3.9920 4 whole (36.13)",
+      "J Gonggong – J Antares Dec 3.9932 4 whole (43.37)",
       "S Moon → J Eris Dec 3.9994 4 whole (93.78)",
       "S Pallas → H Mercury Dec 4.0056 4 whole (51.62)",
       "S Ketu → J Neptune Dec 4.1423 4.14 silver (98.56)"
      ],
      "note": "3.9810 - 4.1423",
      "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('10',)",
+     "cells": [
+      "S Juno → H Regulus Dec 9.9965 10 whole (68.25)",
+      "S Juno → J Regulus Dec 9.9994 10 ninth (96.23)",
+      "J Neptune – J Ceres Dec 10.0183 10 whole (0.74)"
+     ],
+     "note": "9.9965 - 10.0183",
+     "field": "also: 2 Million Thanks, 6 Whitefeathersfall, 8 Lucia Joy"
+    },
+    {
+     "check": 11,
+     "key": "('11', 'φ^5')",
+     "cells": [
+      "H Quaoar – H Antares Dec 10.9904 11 whole (27.15)",
+      "S Gonggong → H Neptune RA 10.9965 11 whole (68.13)",
+      "S Quaoar → J Neptune RA 11.0945 φ^5 phi power (84.99)"
+     ],
+     "note": "10.9904 - 11.0945",
+     "field": "also: 4 Persist, 7 Noble Mark, 8 Lucia Joy"
     },
     {
      "check": 11,
@@ -84,10 +138,11 @@
       "S Mercury → J Makemake Dec 13.9898 14 whole (23.79)",
       "S Neptune → H Transpluto Dec 13.9985 14 whole (85.52)",
       "S Juno → J Ceres Dec 13.9992 14 whole (92.25)",
+      "J Chiron – J Aldebaran RA 14.0042 14 whole (62.63)",
       "S Mars → H Makemake Dec 14.1449 14.14 sqrt2 (92.39)"
      ],
      "note": "13.9898 - 14.1449",
-     "field": "also: 4 Persist, 7 Noble Mark"
+     "field": "also: 2 Million Thanks, 4 Persist, 7 Noble Mark"
     },
     {
      "check": 11,
@@ -95,9 +150,10 @@
      "cells": [
       "S Neptune → H Uranus Dec 14.4499 14.4444 ninth (94.25)",
       "J Mars – J Neptune Dec 14.5629 9×φ golden (96.13)",
-      "J Pluto – J Quaoar RA 14.5644 9×φ golden (87.21)"
+      "J Pluto – J Quaoar RA 14.5644 9×φ golden (87.21)",
+      "H Gonggong – H Antares Dec 14.5690 9×φ golden (63.04)"
      ],
-     "note": "14.4499 - 14.5644",
+     "note": "14.4499 - 14.5690",
      "field": "only"
     },
     {
@@ -112,6 +168,29 @@
      ],
      "note": "18.8889 - 19.0140",
      "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('13×φ', '21')",
+     "cells": [
+      "S Vesta → J Pluto Dec 20.9821 21 whole (1.15)",
+      "S Pallas → H Jupiter Dec 20.9856 21 whole (7.82)",
+      "S Transpluto → H Orcus Dec 20.9910 21 whole (30.33)",
+      "H Vesta – H Aldebaran Dec 21.0344 13×φ golden (99.72)"
+     ],
+     "note": "20.9821 - 21.0344",
+     "field": "also: 6 Whitefeathersfall"
+    },
+    {
+     "check": 11,
+     "key": "('26×φ', '42')",
+     "cells": [
+      "S Eris → J Aldebaran RA 42.0073 42 whole (40.63)",
+      "S Eris → H Aldebaran RA 42.0093 42 whole (28.51)",
+      "S Transpluto → J Mars RA 42.0614 26×φ golden (58.97)"
+     ],
+     "note": "42.0073 - 42.0614",
+     "field": "also: 2 Million Thanks"
     },
     {
      "check": 11,
@@ -130,27 +209,31 @@
      "key": "(9,)",
      "cells": [
       "H Mars – H Juno Dec 9.0155 9 whole (5.15)",
+      "S Gonggong → H Antares RA 89.9859 90 whole (8.63)",
       "S Juno → H Transpluto Dec 8.9950 9 whole (56.58)",
       "S Sun → J Mars RA 89.9983 90 whole (83.65)",
+      "S Gonggong → J Antares RA 89.9845 90 whole (5.01)",
       "S Neptune → J Ceres Dec 8.9958 9 whole (62.07)",
       "S Pallas → J Jupiter Dec 9.0172 9 whole (2.01)"
      ],
      "note": "9 and 90",
-     "field": "also: 4 Persist, 7 Noble Mark, 8 Lucia Joy"
+     "field": "also: 2 Million Thanks, 4 Persist, 6 Whitefeathersfall, 7 Noble Mark, 8 Lucia Joy"
     },
     {
      "check": 12,
      "key": "(1,)",
      "cells": [
       "H Uranus – H Juno Dec 1.0196 1 whole (0.03)",
+      "H Transpluto – H Regulus Dec 1.0015 1 whole (85.76)",
       "S Eris → H Eris Dec 1.0159 1 whole (4.29)",
+      "S Juno → H Regulus Dec 9.9965 10 whole (68.25)",
       "S Pluto → H Pluto Dec 1.0023 1 whole (78.41)",
       "J Neptune – J Ceres Dec 10.0183 10 whole (0.74)",
       "S Rahu → J Pallas Dec 1.0177 1 whole (1.34)",
       "S Gonggong → J Ceres Dec 1.0162 1 whole (3.59)"
      ],
      "note": "1 and 10",
-     "field": "also: 2 Million Thanks, 6 Whitefeathersfall, 7 Noble Mark, 8 Lucia Joy"
+     "field": "also: 2 Million Thanks, 4 Persist, 6 Whitefeathersfall, 7 Noble Mark, 8 Lucia Joy"
     },
     {
      "check": 12,
@@ -159,6 +242,7 @@
       "S Mars → H Eris RA 3.9920 4 whole (36.13)",
       "S Vesta → H Gonggong RA 3.9810 4 whole (0.26)",
       "S Pallas → H Mercury Dec 4.0056 4 whole (51.62)",
+      "J Gonggong – J Antares Dec 3.9932 4 whole (43.37)",
       "S Ketu → J Sun Dec 39.9846 40 whole (5.31)",
       "S Moon → J Eris Dec 3.9994 4 whole (93.78)"
      ],
@@ -170,6 +254,7 @@
      "key": "(14,)",
      "cells": [
       "S Neptune → H Transpluto Dec 13.9985 14 whole (85.52)",
+      "J Chiron – J Aldebaran RA 14.0042 14 whole (62.63)",
       "J Haumea – J Sedna RA 139.9814 140 whole (0.52)",
       "S Juno → J Ceres Dec 13.9992 14 whole (92.25)",
       "S Mercury → J Makemake Dec 13.9898 14 whole (23.79)"
@@ -187,7 +272,7 @@
       "S Sedna → J Quaoar Dec 19.9977 20 whole (78.03)"
      ],
      "note": "2 and 20",
-     "field": "also: 2 Million Thanks, 7 Noble Mark, 8 Lucia Joy"
+     "field": "also: 2 Million Thanks, 6 Whitefeathersfall, 7 Noble Mark, 8 Lucia Joy"
     }
    ]
   },
@@ -197,6 +282,16 @@
     "J": "Kevin Stott"
    },
    "items": [
+    {
+     "check": 6,
+     "key": "('Moon', 'H', 'Aldebaran')",
+     "cells": [
+      "S Moon → H Aldebaran RA 132.6705 82×φ golden (55.48)",
+      "H Jupiter – H Aldebaran Dec 39.0048 39 whole (57.51)"
+     ],
+     "note": "",
+     "field": "only"
+    },
     {
      "check": 6,
      "key": "('Moon', 'H', 'Transpluto')",
@@ -241,6 +336,15 @@
      "key": "('H', 'Transpluto', '33.3333')",
      "cells": [
       "H Jupiter – H Transpluto Dec 33.3381 33.3333 ninth (94.32)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 9,
+     "key": "('H', 'Aldebaran', '39')",
+     "cells": [
+      "H Jupiter – H Aldebaran Dec 39.0048 39 whole (57.51)"
      ],
      "note": "",
      "field": "only"
@@ -318,6 +422,18 @@
     },
     {
      "check": 11,
+     "key": "('10',)",
+     "cells": [
+      "S Eris → J Venus Dec 9.9942 10 whole (50.55)",
+      "J Ceres – J Makemake Dec 9.9955 10 whole (59.75)",
+      "S Juno → H Regulus Dec 9.9960 10 whole (63.67)",
+      "S Juno → J Regulus Dec 9.9996 10 ninth (97.38)"
+     ],
+     "note": "9.9942 - 9.9996",
+     "field": "also: 1 Aswan, 6 Whitefeathersfall, 8 Lucia Joy"
+    },
+    {
+     "check": 11,
      "key": "('12', '12.2222')",
      "cells": [
       "S Jupiter → J Transpluto Dec 11.9842 12 whole (4.42)",
@@ -339,6 +455,17 @@
      ],
      "note": "12.9456 - 13.0178",
      "field": "also: 1 Aswan, 6 Whitefeathersfall"
+    },
+    {
+     "check": 11,
+     "key": "('14', '14.14')",
+     "cells": [
+      "J Vesta – J Chiron Dec 13.9966 14 whole (69.09)",
+      "S Juno → H Gonggong Dec 14.0075 14 whole (39.06)",
+      "H Ceres – H Fomalhaut Dec 14.1464 14.14 sqrt2 (88.42)"
+     ],
+     "note": "13.9966 - 14.1464",
+     "field": "also: 1 Aswan, 4 Persist, 7 Noble Mark"
     },
     {
      "check": 11,
@@ -379,6 +506,17 @@
     },
     {
      "check": 11,
+     "key": "('26×φ', '42')",
+     "cells": [
+      "S Eris → J Aldebaran RA 42.0080 42 whole (36.07)",
+      "S Eris → H Aldebaran RA 42.0132 42 whole (11.59)",
+      "S Ketu → J Ceres Dec 42.0644 26×φ golden (74.28)"
+     ],
+     "note": "42.0080 - 42.0644",
+     "field": "also: 1 Aswan"
+    },
+    {
+     "check": 11,
      "key": "('29×φ', '47', 'φ^8')",
      "cells": [
       "S Pluto → J Ceres Dec 46.9207 29×φ golden (86.36)",
@@ -414,6 +552,18 @@
     },
     {
      "check": 11,
+     "key": "('122', '122.222')",
+     "cells": [
+      "J Eris – J Transpluto RA 121.9862 122 whole (9.69)",
+      "S Quaoar → H Transpluto RA 122.2219 122.222 ninth (99.96)",
+      "S Mars → J Regulus RA 122.2393 122.222 ninth (97.63)",
+      "S Mars → H Regulus RA 122.2475 122.222 ninth (96.50)"
+     ],
+     "note": "121.9862 - 122.2475",
+     "field": "also: 7 Noble Mark"
+    },
+    {
+     "check": 11,
      "key": "('107×φ', '173')",
      "cells": [
       "J Pluto – J Ketu RA 173.0017 173 whole (83.56)",
@@ -437,6 +587,21 @@
     },
     {
      "check": 12,
+     "key": "(9,)",
+     "cells": [
+      "H Rahu – H Regulus Dec 8.9966 9 whole (68.96)",
+      "S Gonggong → H Antares RA 89.9900 90 whole (24.96)",
+      "S Jupiter → H Transpluto Dec 9.0120 9 whole (15.92)",
+      "S Neptune → H Gonggong Dec 9.0040 9 whole (63.60)",
+      "J Rahu – J Quaoar RA 8.9840 9 whole (4.00)",
+      "S Gonggong → J Antares RA 89.9851 90 whole (6.47)",
+      "S Sedna → J Pallas Dec 9.0049 9 whole (56.95)"
+     ],
+     "note": "9 and 90",
+     "field": "also: 1 Aswan, 4 Persist, 6 Whitefeathersfall, 7 Noble Mark, 8 Lucia Joy"
+    },
+    {
+     "check": 12,
      "key": "(2,)",
      "cells": [
       "H Venus – H Jupiter Dec 1.9818 2 whole (0.79)",
@@ -447,7 +612,7 @@
       "S Haumea → J Transpluto Dec 2.0195 2 whole (0.07)"
      ],
      "note": "2 and 20",
-     "field": "also: 1 Aswan, 7 Noble Mark, 8 Lucia Joy"
+     "field": "also: 1 Aswan, 6 Whitefeathersfall, 7 Noble Mark, 8 Lucia Joy"
     },
     {
      "check": 12,
@@ -461,13 +626,14 @@
       "S Pluto → J Uranus Dec 0.9938 1 whole (47.53)"
      ],
      "note": "1 and 100",
-     "field": "also: 1 Aswan, 6 Whitefeathersfall, 7 Noble Mark, 8 Lucia Joy"
+     "field": "also: 1 Aswan, 4 Persist, 6 Whitefeathersfall, 7 Noble Mark, 8 Lucia Joy"
     },
     {
      "check": 12,
      "key": "(1,)",
      "cells": [
       "S Haumea → H Haumea RA 0.9890 1 whole (20.21)",
+      "S Juno → H Regulus Dec 9.9960 10 whole (63.67)",
       "S Jupiter → H Chiron Dec 1.0131 1 whole (11.99)",
       "S Vesta → H Ceres Dec 0.9844 1 whole (4.94)",
       "J Ceres – J Makemake Dec 9.9955 10 whole (59.75)",
@@ -476,7 +642,7 @@
       "S Pluto → J Uranus Dec 0.9938 1 whole (47.53)"
      ],
      "note": "1 and 10",
-     "field": "also: 1 Aswan, 6 Whitefeathersfall, 7 Noble Mark, 8 Lucia Joy"
+     "field": "also: 1 Aswan, 4 Persist, 6 Whitefeathersfall, 7 Noble Mark, 8 Lucia Joy"
     },
     {
      "check": 12,
@@ -494,6 +660,7 @@
      "key": "(10,)",
      "cells": [
       "S Venus → H Gonggong RA 100.0097 100 whole (26.44)",
+      "S Juno → H Regulus Dec 9.9960 10 whole (63.67)",
       "J Ceres – J Makemake Dec 9.9955 10 whole (59.75)",
       "S Eris → J Venus Dec 9.9942 10 whole (50.55)"
      ],
@@ -551,17 +718,29 @@
      "field": "only"
     },
     {
-     "check": 7,
-     "key": "('count', 6)",
+     "check": 6,
+     "key": "('Moon', 'J', 'Aldebaran')",
      "cells": [
+      "S Moon → J Aldebaran RA 132.6718 82×φ golden (61.39)",
+      "J Jupiter – J Aldebaran RA 150.4759 93×φ golden (92.14)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 7,
+     "key": "('count', 8)",
+     "cells": [
+      "24×φ golden",
       "144.444 ninth",
       "155.556 ninth",
       "16.6667 ninth",
+      "177.778 ninth",
       "10×φ^5 phi power",
       "10×φ^6 phi power",
       "2 whole"
      ],
-     "note": "6 numbers",
+     "note": "8 numbers",
      "field": ""
     },
     {
@@ -569,6 +748,15 @@
      "key": "('H', 'Pluto', 'conj')",
      "cells": [
       "H Jupiter – H Pluto Dec 0.0414 conj conj (74.29)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 9,
+     "key": "('J', 'Aldebaran', '93×φ')",
+     "cells": [
+      "J Jupiter – J Aldebaran RA 150.4759 93×φ golden (92.14)"
      ],
      "note": "",
      "field": "only"
@@ -598,13 +786,35 @@
     },
     {
      "check": 10,
+     "key": "(16,)",
+     "cells": [
+      "J Juno – J Aldebaran RA 15.9949 16 whole (55.32)",
+      "J Makemake – J Regulus Dec 25.8894 16×φ golden (94.69)"
+     ],
+     "note": "",
+     "field": "also: 6 Whitefeathersfall, 8 Lucia Joy"
+    },
+    {
+     "check": 10,
      "key": "(82,)",
      "cells": [
       "S Transpluto → H Ceres RA 82.0037 82 whole (66.50)",
-      "S Moon → J Mercury RA 132.6775 82×φ golden (91.98)"
+      "S Moon → J Mercury RA 132.6775 82×φ golden (91.98)",
+      "S Moon → J Aldebaran RA 132.6718 82×φ golden (61.39)"
      ],
      "note": "",
      "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(108,)",
+     "cells": [
+      "H Mars – H Rahu RA 107.9943 108 whole (51.37)",
+      "S Saturn → J Vesta RA 108.0011 108 whole (88.99)",
+      "S Gonggong → H Regulus RA 174.7551 108×φ golden (59.23)"
+     ],
+     "note": "",
+     "field": "also: 8 Lucia Joy"
     },
     {
      "check": 11,
@@ -615,6 +825,7 @@
       "J Mercury – J Ceres Dec 2.9912 3 whole (31.29)",
       "H Mars – H Sedna Dec 3.0067 3 whole (44.14)",
       "S Gonggong → J Mercury RA 3.0118 3 whole (16.74)",
+      "J Transpluto – J Regulus Dec 3.0157 3 whole (4.61)",
       "S Saturn → H Vesta Dec 3.0177 3 whole (1.29)",
       "S Vesta → J Venus Dec 3.2361 2×φ golden (99.99)"
      ],
@@ -628,9 +839,10 @@
       "S Neptune → H Orcus Dec 7.7770 7.77778 ninth (94.11)",
       "S Gonggong → H Venus Dec 7.9845 8 whole (5.02)",
       "S Ketu → J Ceres Dec 7.9857 8 whole (8.17)",
-      "S Transpluto → J Makemake RA 7.9945 8 whole (52.75)"
+      "S Transpluto → J Makemake RA 7.9945 8 whole (52.75)",
+      "J Pluto – J Regulus Dec 7.9951 8 whole (57.24)"
      ],
-     "note": "7.7770 - 7.9945",
+     "note": "7.7770 - 7.9951",
      "field": "only"
     },
     {
@@ -642,7 +854,7 @@
       "H Juno – H Orcus Dec 11.0996 φ^5 phi power (68.78)"
      ],
      "note": "11.0019 - 11.0996",
-     "field": "also: 7 Noble Mark"
+     "field": "also: 1 Aswan, 7 Noble Mark, 8 Lucia Joy"
     },
     {
      "check": 11,
@@ -653,7 +865,7 @@
       "S Juno → J Mercury RA 14.1476 14.14 sqrt2 (85.07)"
      ],
      "note": "13.9906 - 14.1476",
-     "field": "also: 1 Aswan, 7 Noble Mark"
+     "field": "also: 1 Aswan, 2 Million Thanks, 7 Noble Mark"
     },
     {
      "check": 11,
@@ -665,6 +877,18 @@
      ],
      "note": "17.9460 - 18.0151",
      "field": "also: 8 Lucia Joy"
+    },
+    {
+     "check": 11,
+     "key": "('16×φ', '26')",
+     "cells": [
+      "J Makemake – J Regulus Dec 25.8894 16×φ golden (94.69)",
+      "S Rahu → J Sun Dec 25.9861 26 whole (9.37)",
+      "S Gonggong → J Transpluto Dec 25.9946 26 whole (53.55)",
+      "S Eris → J Juno RA 26.0171 26 whole (2.16)"
+     ],
+     "note": "25.8894 - 26.0171",
+     "field": "also: 7 Noble Mark, 8 Lucia Joy"
     },
     {
      "check": 11,
@@ -682,6 +906,7 @@
      "key": "('24×φ', '39')",
      "cells": [
       "S Ceres → J Mercury Dec 38.8308 24×φ golden (87.72)",
+      "H Saturn – H Aldebaran Dec 38.8319 24×φ golden (94.43)",
       "J Mars – J Rahu Dec 38.8341 24×φ golden (92.21)",
       "S Uranus → J Ketu Dec 38.9957 39 whole (61.89)",
       "S Uranus → J Neptune Dec 39.0171 39 whole (2.15)"
@@ -703,6 +928,17 @@
     },
     {
      "check": 11,
+     "key": "('113', '70×φ')",
+     "cells": [
+      "S Uranus → H Mercury RA 113.0065 113 whole (45.66)",
+      "H Eris – H Quaoar RA 113.2600 70×φ golden (85.86)",
+      "J Sedna – J Regulus RA 113.2739 70×φ golden (41.30)"
+     ],
+     "note": "113.0065 - 113.2739",
+     "field": "only"
+    },
+    {
+     "check": 11,
      "key": "('120', '74×φ')",
      "cells": [
       "S Moon → J Pallas RA 119.7032 74×φ golden (0.10)",
@@ -711,6 +947,20 @@
      ],
      "note": "119.7032 - 120.0003",
      "field": "also: 1 Aswan"
+    },
+    {
+     "check": 11,
+     "key": "('108×φ', '175')",
+     "cells": [
+      "S Saturn → J Regulus RA 174.7328 108×φ golden (29.19)",
+      "S Saturn → H Regulus RA 174.7360 108×φ golden (40.90)",
+      "S Gonggong → H Regulus RA 174.7551 108×φ golden (59.23)",
+      "S Gonggong → J Regulus RA 174.7583 108×φ golden (44.93)",
+      "J Juno – J Quaoar RA 174.7657 108×φ golden (19.68)",
+      "J Ceres – J Haumea RA 174.9824 175 whole (1.47)"
+     ],
+     "note": "174.7328 - 174.9824",
+     "field": "also: 6 Whitefeathersfall, 7 Noble Mark, 8 Lucia Joy"
     },
     {
      "check": 12,
@@ -724,6 +974,7 @@
       "S Transpluto → H Sedna Dec 2.9906 3 whole (28.29)",
       "J Mercury – J Ceres Dec 2.9912 3 whole (31.29)",
       "J Sun – J Vesta Dec 30.0065 30 whole (45.35)",
+      "J Transpluto – J Regulus Dec 3.0157 3 whole (4.61)",
       "S Gonggong → J Mercury RA 3.0118 3 whole (16.74)"
      ],
      "note": "3 and 30",
@@ -743,10 +994,25 @@
     },
     {
      "check": 12,
+     "key": "(1,)",
+     "cells": [
+      "S Juno → H Regulus Dec 9.9962 10 whole (65.90)",
+      "S Saturn → H Quaoar Dec 1.0193 1 whole (0.13)",
+      "S Makemake → H Makemake Dec 0.9916 1 whole (33.58)",
+      "S Orcus → H Gonggong Dec 0.9853 1 whole (6.95)",
+      "J Ceres – J Eris Dec 0.9973 1 whole (75.06)",
+      "S Juno → J Regulus Dec 9.9959 10 whole (63.45)"
+     ],
+     "note": "1 and 10",
+     "field": "also: 1 Aswan, 2 Million Thanks, 6 Whitefeathersfall, 7 Noble Mark, 8 Lucia Joy"
+    },
+    {
+     "check": 12,
      "key": "(12,)",
      "cells": [
       "S Haumea → H Gonggong RA 120.0003 120 whole (96.78)",
       "S Makemake → H Transpluto Dec 11.9822 12 whole (1.18)",
+      "J Saturn – J Antares Dec 12.0071 12 whole (41.67)",
       "S Eris → J Mercury Dec 12.0162 12 whole (3.57)",
       "S Mars → J Rahu Dec 11.9863 12 whole (9.90)"
      ],
@@ -757,12 +1023,14 @@
      "check": 12,
      "key": "(9,)",
      "cells": [
+      "S Gonggong → H Antares RA 89.9935 90 whole (45.39)",
       "J Saturn – J Pluto RA 8.9839 9 whole (3.86)",
       "S Vesta → J Ketu RA 90.0085 90 whole (32.89)",
-      "S Vesta → J Rahu RA 89.9915 90 whole (32.89)"
+      "S Vesta → J Rahu RA 89.9915 90 whole (32.89)",
+      "S Gonggong → J Antares RA 89.9892 90 whole (21.20)"
      ],
      "note": "9 and 90",
-     "field": "also: 1 Aswan, 7 Noble Mark, 8 Lucia Joy"
+     "field": "also: 1 Aswan, 2 Million Thanks, 6 Whitefeathersfall, 7 Noble Mark, 8 Lucia Joy"
     },
     {
      "check": 12,
@@ -772,7 +1040,7 @@
       "J Haumea – J Orcus Dec 16.9861 17 whole (9.42)"
      ],
      "note": "17 and 170",
-     "field": "also: 7 Noble Mark, 8 Lucia Joy"
+     "field": "also: 6 Whitefeathersfall, 7 Noble Mark, 8 Lucia Joy"
     },
     {
      "check": 12,
@@ -889,6 +1157,16 @@
     },
     {
      "check": 10,
+     "key": "(12,)",
+     "cells": [
+      "S Mars → J Uranus Dec 11.9946 12 whole (53.20)",
+      "J Rahu – J Fomalhaut Dec 19.4117 12×φ golden (72.88)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
      "key": "(16,)",
      "cells": [
       "J Uranus – J Orcus Dec 16.0037 16 whole (66.75)",
@@ -896,7 +1174,28 @@
       "S Pallas → H Mars Dec 25.8835 16×φ golden (71.41)"
      ],
      "note": "",
-     "field": "also: 8 Lucia Joy"
+     "field": "also: 4 Persist, 8 Lucia Joy"
+    },
+    {
+     "check": 10,
+     "key": "(30,)",
+     "cells": [
+      "S Sedna → H Saturn Dec 29.9956 30 whole (60.70)",
+      "S Haumea → J Eris Dec 30.0049 30 whole (56.76)",
+      "J Sun – J Fomalhaut Dec 48.5488 30×φ golden (57.52)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(36,)",
+     "cells": [
+      "J Eris – J Fomalhaut RA 35.9978 36 whole (79.01)",
+      "S Vesta → J Juno RA 58.2468 36×φ golden (85.82)"
+     ],
+     "note": "",
+     "field": "only"
     },
     {
      "check": 10,
@@ -907,6 +1206,22 @@
      ],
      "note": "",
      "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('10',)",
+     "cells": [
+      "H Rahu – H Regulus Dec 9.9830 10 whole (2.22)",
+      "H Eris – H Gonggong Dec 9.9922 10 whole (36.97)",
+      "S Juno → H Regulus Dec 9.9974 10 whole (75.33)",
+      "S Juno → J Regulus Dec 9.9997 10 ninth (98.07)",
+      "J Sedna – J Regulus Dec 10.0051 10 whole (55.51)",
+      "S Moon → H Ceres Dec 10.0084 10 whole (33.37)",
+      "H Pluto – H Gonggong Dec 10.0133 10 whole (11.19)",
+      "S Juno → H Uranus Dec 10.0185 10 whole (0.55)"
+     ],
+     "note": "9.9830 - 10.0185",
+     "field": "also: 1 Aswan, 2 Million Thanks, 8 Lucia Joy"
     },
     {
      "check": 11,
@@ -944,7 +1259,7 @@
       "S Eris → H Sun Dec 16.1865 10×φ^1 phi power (85.34)"
      ],
      "note": "16.0013 - 16.1865",
-     "field": "only"
+     "field": "also: 7 Noble Mark"
     },
     {
      "check": 11,
@@ -957,6 +1272,19 @@
      ],
      "note": "17.7789 - 17.9970",
      "field": "also: 7 Noble Mark"
+    },
+    {
+     "check": 11,
+     "key": "('13×φ', '21')",
+     "cells": [
+      "J Jupiter – J Pallas Dec 20.9825 21 whole (1.53)",
+      "S Jupiter → H Pallas Dec 20.9856 21 whole (7.71)",
+      "S Pluto → J Uranus Dec 21.0179 21 whole (1.13)",
+      "H Sun – H Neptune Dec 21.0194 21 whole (0.09)",
+      "J Quaoar – J Fomalhaut Dec 21.0310 13×φ golden (80.08)"
+     ],
+     "note": "20.9825 - 21.0310",
+     "field": "also: 1 Aswan"
     },
     {
      "check": 11,
@@ -983,19 +1311,46 @@
     },
     {
      "check": 11,
+     "key": "('126', '78×φ')",
+     "cells": [
+      "S Ceres → H Neptune RA 125.9865 126 whole (10.57)",
+      "S Makemake → J Gonggong RA 126.2041 78×φ golden (84.67)",
+      "H Venus – H Antares RA 126.2354 78×φ golden (1.26)"
+     ],
+     "note": "125.9865 - 126.2354",
+     "field": "only"
+    },
+    {
+     "check": 11,
      "key": "('108×φ', '175')",
      "cells": [
       "J Quaoar – J Sedna RA 174.7360 108×φ golden (40.75)",
+      "S Saturn → H Regulus RA 174.7389 108×φ golden (53.18)",
+      "S Saturn → J Regulus RA 174.7421 108×φ golden (68.37)",
+      "S Gonggong → J Regulus RA 174.7491 108×φ golden (91.58)",
+      "S Gonggong → H Regulus RA 174.7522 108×φ golden (73.85)",
       "H Sun – H Haumea RA 174.7638 108×φ golden (25.04)",
       "S Haumea → H Uranus RA 174.9891 175 whole (20.63)"
      ],
      "note": "174.7360 - 174.9891",
-     "field": "also: 7 Noble Mark"
+     "field": "also: 4 Persist, 7 Noble Mark, 8 Lucia Joy"
+    },
+    {
+     "check": 12,
+     "key": "(9,)",
+     "cells": [
+      "H Pallas – H Makemake RA 8.9966 9 whole (69.21)",
+      "S Gonggong → H Antares RA 89.9839 90 whole (3.71)",
+      "S Gonggong → J Antares RA 89.9857 90 whole (8.27)"
+     ],
+     "note": "9 and 90",
+     "field": "also: 1 Aswan, 2 Million Thanks, 4 Persist, 7 Noble Mark, 8 Lucia Joy"
     },
     {
      "check": 12,
      "key": "(7,)",
      "cells": [
+      "H Jupiter – H Fomalhaut Dec 6.9822 7 whole (1.19)",
       "H Venus – H Transpluto Dec 7.0002 7 whole (98.49)",
       "S Venus → H Juno Dec 7.0156 7 whole (4.88)",
       "S Haumea → H Pallas Dec 6.9819 7 whole (0.89)",
@@ -1029,17 +1384,33 @@
     },
     {
      "check": 12,
+     "key": "(2,)",
+     "cells": [
+      "H Pluto – H Eris Dec 20.0055 20 whole (52.78)",
+      "S Juno → H Rahu Dec 19.9803 20 whole (0.03)",
+      "J Juno – J Regulus Dec 2.0157 2 whole (4.59)",
+      "J Jupiter – J Ketu Dec 19.9925 20 whole (38.98)",
+      "S Jupiter → J Neptune Dec 20.0111 20 whole (19.99)"
+     ],
+     "note": "2 and 20",
+     "field": "also: 1 Aswan, 2 Million Thanks, 7 Noble Mark, 8 Lucia Joy"
+    },
+    {
+     "check": 12,
      "key": "(1,)",
      "cells": [
       "H Eris – H Gonggong Dec 9.9922 10 whole (36.97)",
       "H Pluto – H Gonggong Dec 10.0133 10 whole (11.19)",
+      "H Rahu – H Regulus Dec 9.9830 10 whole (2.22)",
       "S Juno → H Uranus Dec 10.0185 10 whole (0.55)",
+      "S Juno → H Regulus Dec 9.9974 10 whole (75.33)",
       "S Moon → H Ceres Dec 10.0084 10 whole (33.37)",
       "J Ketu – J Pallas Dec 0.9900 1 whole (24.95)",
+      "J Sedna – J Regulus Dec 10.0051 10 whole (55.51)",
       "S Orcus → J Rahu Dec 1.0082 1 whole (34.96)"
      ],
      "note": "1 and 10",
-     "field": "also: 1 Aswan, 2 Million Thanks, 7 Noble Mark, 8 Lucia Joy"
+     "field": "also: 1 Aswan, 2 Million Thanks, 4 Persist, 7 Noble Mark, 8 Lucia Joy"
     },
     {
      "check": 12,
@@ -1052,6 +1423,17 @@
       "S Makemake → J Vesta Dec 12.9847 13 whole (5.55)"
      ],
      "note": "13 and 130",
+     "field": "also: 4 Persist, 7 Noble Mark, 8 Lucia Joy"
+    },
+    {
+     "check": 12,
+     "key": "(17,)",
+     "cells": [
+      "S Transpluto → H Fomalhaut RA 170.0196 170 whole (0.04)",
+      "S Transpluto → J Fomalhaut RA 170.0169 170 whole (2.46)",
+      "S Mercury → J Chiron Dec 16.9844 17 whole (4.94)"
+     ],
+     "note": "17 and 170",
      "field": "also: 4 Persist, 7 Noble Mark, 8 Lucia Joy"
     },
     {
@@ -1084,12 +1466,13 @@
     },
     {
      "check": 7,
-     "key": "('count', 2)",
+     "key": "('count', 3)",
      "cells": [
       "155.556 ninth",
-      "10×φ^6 phi power"
+      "10×φ^6 phi power",
+      "141.4 sqrt2"
      ],
-     "note": "2 numbers",
+     "note": "3 numbers",
      "field": ""
     },
     {
@@ -1190,6 +1573,7 @@
      "key": "(14,)",
      "cells": [
       "H Neptune – H Ketu Dec 14.0053 14 whole (54.34)",
+      "J Orcus – J Regulus RA 22.6539 14×φ golden (91.26)",
       "J Mars – J Jupiter Dec 22.6533 14×φ golden (94.77)"
      ],
      "note": "",
@@ -1237,6 +1621,16 @@
     },
     {
      "check": 10,
+     "key": "(56,)",
+     "cells": [
+      "J Chiron – J Sedna RA 56.0048 56 whole (57.62)",
+      "H Ceres – H Regulus RA 90.6065 56×φ golden (80.22)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
      "key": "(80,)",
      "cells": [
       "J Pluto – J Transpluto RA 80.0030 80 whole (72.17)",
@@ -1251,6 +1645,7 @@
      "key": "('2', '2.22222')",
      "cells": [
       "J Juno – J Transpluto RA 2.0097 2 whole (26.64)",
+      "H Neptune – H Fomalhaut RA 2.0126 2 whole (13.68)",
       "S Neptune → H Pallas Dec 2.0164 2 whole (3.15)",
       "S Quaoar → J Quaoar Dec 2.0166 2 whole (2.87)",
       "S Rahu → J Jupiter Dec 2.2227 2.22222 ninth (92.73)"
@@ -1262,6 +1657,7 @@
      "check": 11,
      "key": "('10×φ^-1', '6')",
      "cells": [
+      "J Uranus – J Fomalhaut Dec 5.9813 6 whole (0.45)",
       "S Rahu → H Makemake Dec 5.9863 6 whole (9.85)",
       "S Pallas → J Orcus Dec 5.9925 6 whole (38.89)",
       "S Quaoar → H Venus Dec 5.9978 6 whole (79.55)",
@@ -1269,7 +1665,7 @@
       "H Sun – H Mercury RA 6.0154 6 whole (5.30)",
       "J Mars – J Ceres RA 6.1803 10×φ^-1 phi power (99.47)"
      ],
-     "note": "5.9863 - 6.1803",
+     "note": "5.9813 - 6.1803",
      "field": "only"
     },
     {
@@ -1282,7 +1678,7 @@
       "H Pallas – H Gonggong Dec 11.0967 φ^5 phi power (77.97)"
      ],
      "note": "10.9861 - 11.0967",
-     "field": "also: 4 Persist"
+     "field": "also: 1 Aswan, 4 Persist, 8 Lucia Joy"
     },
     {
      "check": 11,
@@ -1314,12 +1710,24 @@
      "key": "('14', '14.14')",
      "cells": [
       "H Neptune – H Ketu Dec 14.0053 14 whole (54.34)",
+      "H Quaoar – H Fomalhaut Dec 14.0081 14 whole (35.21)",
       "S Transpluto → J Makemake RA 14.0101 14 whole (24.35)",
       "S Pallas → H Sun Dec 14.0171 14 whole (2.11)",
       "S Juno → H Haumea Dec 14.1478 14.14 sqrt2 (84.69)"
      ],
      "note": "14.0053 - 14.1478",
-     "field": "also: 1 Aswan, 4 Persist"
+     "field": "also: 1 Aswan, 2 Million Thanks, 4 Persist"
+    },
+    {
+     "check": 11,
+     "key": "('10×φ^1', '16')",
+     "cells": [
+      "S Mercury → H Sedna Dec 15.9832 16 whole (2.49)",
+      "J Gonggong – J Fomalhaut RA 15.9876 16 whole (14.57)",
+      "S Makemake → J Ketu Dec 16.1870 10×φ^1 phi power (84.17)"
+     ],
+     "note": "15.9832 - 16.1870",
+     "field": "also: 6 Whitefeathersfall"
     },
     {
      "check": 11,
@@ -1342,17 +1750,20 @@
       "S Mars → H Mercury Dec 26.0133 26 whole (11.09)"
      ],
      "note": "25.8877 - 26.0133",
-     "field": "also: 8 Lucia Joy"
+     "field": "also: 4 Persist, 8 Lucia Joy"
     },
     {
      "check": 11,
      "key": "('19×φ', '31')",
      "cells": [
+      "J Orcus – J Antares Dec 30.7408 19×φ golden (88.77)",
       "H Neptune – H Makemake Dec 30.7463 19×φ golden (78.81)",
       "S Sedna → J Neptune Dec 30.7466 19×φ golden (77.24)",
-      "S Moon → H Makemake Dec 30.9963 31 whole (66.78)"
+      "S Moon → H Makemake Dec 30.9963 31 whole (66.78)",
+      "S Vesta → H Aldebaran Dec 31.0028 31 whole (73.85)",
+      "S Vesta → J Aldebaran Dec 31.0056 31 whole (52.03)"
      ],
-     "note": "30.7463 - 30.9963",
+     "note": "30.7408 - 31.0056",
      "field": "only"
     },
     {
@@ -1365,6 +1776,17 @@
      ],
      "note": "46.9763 - 47.0015",
      "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('122', '122.222')",
+     "cells": [
+      "S Rahu → J Venus RA 121.9876 122 whole (14.61)",
+      "S Mars → J Regulus RA 122.2414 122.222 ninth (97.35)",
+      "S Mars → H Regulus RA 122.2474 122.222 ninth (96.52)"
+     ],
+     "note": "121.9876 - 122.2474",
+     "field": "also: 2 Million Thanks"
     },
     {
      "check": 11,
@@ -1381,13 +1803,14 @@
      "check": 11,
      "key": "('155.556', '96×φ')",
      "cells": [
+      "J Pluto – J Aldebaran RA 155.3088 96×φ golden (9.42)",
       "H Juno – H Haumea RA 155.3371 96×φ golden (67.40)",
       "S Pluto → J Transpluto RA 155.5580 155.556 ninth (99.77)",
       "S Venus → J Quaoar RA 155.5590 155.556 ninth (99.67)",
       "S Ceres → H Sun RA 155.5639 155.556 ninth (99.21)",
       "J Jupiter – J Uranus RA 155.5726 155.556 ninth (98.38)"
      ],
-     "note": "155.3371 - 155.5726",
+     "note": "155.3088 - 155.5726",
      "field": "only"
     },
     {
@@ -1405,15 +1828,30 @@
     },
     {
      "check": 11,
+     "key": "('105×φ', '170')",
+     "cells": [
+      "J Quaoar – J Sedna RA 169.8678 105×φ golden (4.18)",
+      "H Uranus – H Makemake RA 169.9953 170 whole (58.88)",
+      "S Transpluto → J Fomalhaut RA 170.0155 170 whole (5.13)"
+     ],
+     "note": "169.8678 - 170.0155",
+     "field": "also: 8 Lucia Joy"
+    },
+    {
+     "check": 11,
      "key": "('108×φ', '175')",
      "cells": [
       "S Chiron → J Vesta RA 174.7192 108×φ golden (1.42)",
+      "S Saturn → H Regulus RA 174.7353 108×φ golden (38.22)",
+      "S Saturn → J Regulus RA 174.7413 108×φ golden (64.66)",
       "S Ceres → J Pallas RA 174.7493 108×φ golden (90.37)",
+      "S Gonggong → J Regulus RA 174.7498 108×φ golden (87.28)",
+      "S Gonggong → H Regulus RA 174.7558 108×φ golden (56.00)",
       "S Moon → H Uranus RA 174.7558 108×φ golden (55.97)",
       "S Mars → H Haumea RA 175.0006 175 whole (94.49)"
      ],
      "note": "174.7192 - 175.0006",
-     "field": "also: 6 Whitefeathersfall"
+     "field": "also: 4 Persist, 6 Whitefeathersfall, 8 Lucia Joy"
     },
     {
      "check": 11,
@@ -1428,17 +1866,35 @@
     },
     {
      "check": 12,
+     "key": "(2,)",
+     "cells": [
+      "H Neptune – H Fomalhaut RA 2.0126 2 whole (13.68)",
+      "S Neptune → H Gonggong RA 20.0050 20 whole (56.35)",
+      "S Neptune → H Pallas Dec 2.0164 2 whole (3.15)",
+      "S Sun → H Chiron Dec 20.0128 20 whole (12.88)",
+      "J Juno – J Transpluto RA 2.0097 2 whole (26.64)",
+      "J Mercury – J Uranus Dec 19.9868 20 whole (11.55)",
+      "S Quaoar → J Quaoar Dec 2.0166 2 whole (2.87)"
+     ],
+     "note": "2 and 20",
+     "field": "also: 1 Aswan, 2 Million Thanks, 6 Whitefeathersfall, 8 Lucia Joy"
+    },
+    {
+     "check": 12,
      "key": "(1,)",
      "cells": [
       "H Mars – H Transpluto Dec 0.9996 1 whole (96.44)",
       "H Pluto – H Ketu Dec 1.0114 1 whole (18.40)",
       "H Saturn – H Gonggong Dec 10.0024 10 whole (77.79)",
       "H Sun – H Ceres Dec 1.0104 1 whole (23.06)",
+      "S Juno → H Regulus Dec 9.9960 10 whole (63.94)",
       "S Gonggong → H Pallas Dec 9.9960 10 whole (63.98)",
+      "J Ketu – J Aldebaran Dec 9.9873 10 whole (13.22)",
+      "S Juno → J Regulus Dec 9.9989 10 whole (89.73)",
       "S Haumea → J Chiron Dec 1.0087 1 whole (31.91)"
      ],
      "note": "1 and 10",
-     "field": "also: 1 Aswan, 2 Million Thanks, 6 Whitefeathersfall, 8 Lucia Joy"
+     "field": "also: 1 Aswan, 2 Million Thanks, 4 Persist, 6 Whitefeathersfall, 8 Lucia Joy"
     },
     {
      "check": 12,
@@ -1450,6 +1906,19 @@
      ],
      "note": "5 and 50",
      "field": "also: 8 Lucia Joy"
+    },
+    {
+     "check": 12,
+     "key": "(13,)",
+     "cells": [
+      "H Saturn – H Sedna RA 130.0018 130 whole (82.71)",
+      "H Pallas – H Regulus Dec 12.9830 13 whole (2.24)",
+      "S Juno → H Rahu RA 130.0010 130 whole (90.39)",
+      "S Pallas → H Ceres Dec 13.0067 13 whole (44.20)",
+      "S Uranus → H Juno Dec 13.0069 13 whole (42.66)"
+     ],
+     "note": "13 and 130",
+     "field": "also: 4 Persist, 6 Whitefeathersfall, 8 Lucia Joy"
     },
     {
      "check": 12,
@@ -1486,10 +1955,11 @@
       "H Uranus – H Makemake RA 169.9953 170 whole (58.88)",
       "S Eris → H Haumea Dec 17.0122 17 whole (15.21)",
       "J Vesta – J Transpluto Dec 17.0031 17 whole (71.06)",
+      "S Transpluto → J Fomalhaut RA 170.0155 170 whole (5.13)",
       "S Eris → J Ceres Dec 16.9904 17 whole (26.96)"
      ],
      "note": "17 and 170",
-     "field": "also: 4 Persist, 8 Lucia Joy"
+     "field": "also: 4 Persist, 6 Whitefeathersfall, 8 Lucia Joy"
     },
     {
      "check": 12,
@@ -1507,36 +1977,11 @@
      "key": "(16,)",
      "cells": [
       "S Mercury → H Sedna Dec 15.9832 16 whole (2.49)",
-      "J Gonggong – J Makemake RA 159.9868 160 whole (11.44)"
+      "J Gonggong – J Makemake RA 159.9868 160 whole (11.44)",
+      "J Gonggong – J Fomalhaut RA 15.9876 16 whole (14.57)"
      ],
      "note": "16 and 160",
      "field": "only"
-    },
-    {
-     "check": 12,
-     "key": "(2,)",
-     "cells": [
-      "S Neptune → H Gonggong RA 20.0050 20 whole (56.35)",
-      "S Neptune → H Pallas Dec 2.0164 2 whole (3.15)",
-      "S Sun → H Chiron Dec 20.0128 20 whole (12.88)",
-      "J Juno – J Transpluto RA 2.0097 2 whole (26.64)",
-      "J Mercury – J Uranus Dec 19.9868 20 whole (11.55)",
-      "S Quaoar → J Quaoar Dec 2.0166 2 whole (2.87)"
-     ],
-     "note": "2 and 20",
-     "field": "also: 1 Aswan, 2 Million Thanks, 8 Lucia Joy"
-    },
-    {
-     "check": 12,
-     "key": "(13,)",
-     "cells": [
-      "H Saturn – H Sedna RA 130.0018 130 whole (82.71)",
-      "S Juno → H Rahu RA 130.0010 130 whole (90.39)",
-      "S Pallas → H Ceres Dec 13.0067 13 whole (44.20)",
-      "S Uranus → H Juno Dec 13.0069 13 whole (42.66)"
-     ],
-     "note": "13 and 130",
-     "field": "also: 4 Persist, 6 Whitefeathersfall, 8 Lucia Joy"
     },
     {
      "check": 12,
@@ -1552,12 +1997,14 @@
      "check": 12,
      "key": "(9,)",
      "cells": [
+      "S Gonggong → H Antares RA 89.9917 90 whole (34.17)",
       "S Jupiter → J Chiron RA 90.0178 90 whole (1.16)",
+      "S Gonggong → J Antares RA 89.9939 90 whole (48.36)",
       "S Moon → J Pallas Dec 8.9888 9 whole (19.38)",
       "S Saturn → J Uranus Dec 9.0007 9 whole (93.36)"
      ],
      "note": "9 and 90",
-     "field": "also: 1 Aswan, 4 Persist, 8 Lucia Joy"
+     "field": "also: 1 Aswan, 2 Million Thanks, 4 Persist, 6 Whitefeathersfall, 8 Lucia Joy"
     }
    ]
   },
@@ -1589,11 +2036,12 @@
     },
     {
      "check": 7,
-     "key": "('count', 1)",
+     "key": "('count', 2)",
      "cells": [
-      "28×φ golden"
+      "28×φ golden",
+      "144.444 ninth"
      ],
-     "note": "1 numbers",
+     "note": "2 numbers",
      "field": ""
     },
     {
@@ -1635,18 +2083,72 @@
       "S Haumea → H Orcus Dec 25.8836 16×φ golden (71.57)"
      ],
      "note": "",
-     "field": "also: 6 Whitefeathersfall"
+     "field": "also: 4 Persist, 6 Whitefeathersfall"
     },
     {
      "check": 10,
      "key": "(31,)",
      "cells": [
       "H Eris – H Sedna RA 31.0041 31 whole (63.08)",
+      "H Chiron – H Antares Dec 31.0049 31 whole (57.00)",
       "S Moon → H Pallas Dec 30.9990 31 whole (89.84)",
+      "S Vesta → H Aldebaran Dec 31.0021 31 whole (80.51)",
+      "S Vesta → J Aldebaran Dec 31.0047 31 whole (58.62)",
       "S Saturn → J Makemake Dec 50.1521 31×φ golden (61.44)"
      ],
      "note": "",
      "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(108,)",
+     "cells": [
+      "H Mercury – H Pluto RA 107.9963 108 whole (66.70)",
+      "S Vesta → H Mars RA 107.9967 108 whole (69.64)",
+      "S Saturn → H Regulus RA 174.7400 108×φ golden (58.10)",
+      "S Gonggong → H Regulus RA 174.7512 108×φ golden (79.62)",
+      "S Saturn → J Regulus RA 174.7437 108×φ golden (76.77)",
+      "S Gonggong → J Regulus RA 174.7475 108×φ golden (98.74)"
+     ],
+     "note": "",
+     "field": "also: 4 Persist"
+    },
+    {
+     "check": 11,
+     "key": "('7', '7.07')",
+     "cells": [
+      "H Pallas – H Haumea Dec 6.9889 7 whole (19.80)",
+      "H Rahu – H Juno Dec 6.9984 7 whole (84.35)",
+      "J Saturn – J Fomalhaut Dec 7.0109 7 whole (20.80)",
+      "S Neptune → H Orcus Dec 7.0167 7 whole (2.79)",
+      "S Gonggong → H Fomalhaut RA 7.0715 7.07 sqrt2 (97.30)"
+     ],
+     "note": "6.9889 - 7.0715",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('10',)",
+     "cells": [
+      "S Saturn → H Gonggong RA 9.9921 10 whole (36.40)",
+      "S Juno → H Regulus Dec 9.9978 10 whole (78.82)",
+      "S Juno → J Regulus Dec 9.9998 10 ninth (98.88)",
+      "H Eris – H Gonggong Dec 10.0130 10 whole (12.16)"
+     ],
+     "note": "9.9921 - 10.0130",
+     "field": "also: 1 Aswan, 2 Million Thanks, 6 Whitefeathersfall"
+    },
+    {
+     "check": 11,
+     "key": "('11', 'φ^5')",
+     "cells": [
+      "S Neptune → H Sedna Dec 11.0025 11 whole (76.66)",
+      "S Pluto → H Gonggong Dec 11.0026 11 whole (75.54)",
+      "J Saturn – J Vesta RA 11.0092 11 whole (29.04)",
+      "H Quaoar – H Antares Dec 11.0998 φ^5 phi power (68.37)"
+     ],
+     "note": "11.0025 - 11.0998",
+     "field": "also: 1 Aswan, 4 Persist, 7 Noble Mark"
     },
     {
      "check": 11,
@@ -1663,11 +2165,12 @@
      "check": 11,
      "key": "('24', '24.14')",
      "cells": [
+      "H Neptune – H Fomalhaut Dec 23.9933 24 whole (44.45)",
       "S Eris → J Jupiter Dec 23.9964 24 whole (66.99)",
       "S Moon → H Haumea Dec 24.0101 24 whole (24.72)",
       "S Eris → H Chiron RA 24.1442 24.14 silver (96.64)"
      ],
-     "note": "23.9964 - 24.1442",
+     "note": "23.9933 - 24.1442",
      "field": "only"
     },
     {
@@ -1679,7 +2182,7 @@
       "H Chiron – H Gonggong RA 25.9996 26 whole (96.28)"
      ],
      "note": "25.8836 - 25.9996",
-     "field": "also: 7 Noble Mark"
+     "field": "also: 4 Persist, 7 Noble Mark"
     },
     {
      "check": 11,
@@ -1728,6 +2231,43 @@
      "field": "only"
     },
     {
+     "check": 11,
+     "key": "('105×φ', '170')",
+     "cells": [
+      "H Sedna – H Antares RA 169.8966 105×φ golden (82.41)",
+      "H Saturn – H Juno RA 169.9905 170 whole (27.64)",
+      "S Transpluto → J Fomalhaut RA 170.0144 170 whole (7.79)",
+      "S Transpluto → H Fomalhaut RA 170.0185 170 whole (0.56)"
+     ],
+     "note": "169.8966 - 170.0185",
+     "field": "also: 7 Noble Mark"
+    },
+    {
+     "check": 11,
+     "key": "('108×φ', '175')",
+     "cells": [
+      "S Saturn → H Regulus RA 174.7400 108×φ golden (58.10)",
+      "S Saturn → J Regulus RA 174.7437 108×φ golden (76.77)",
+      "S Gonggong → J Regulus RA 174.7475 108×φ golden (98.74)",
+      "S Gonggong → H Regulus RA 174.7512 108×φ golden (79.62)",
+      "S Transpluto → J Gonggong RA 175.0159 175 whole (4.12)"
+     ],
+     "note": "174.7400 - 175.0159",
+     "field": "also: 4 Persist, 6 Whitefeathersfall, 7 Noble Mark"
+    },
+    {
+     "check": 12,
+     "key": "(5,)",
+     "cells": [
+      "H Neptune – H Fomalhaut RA 5.0048 5 whole (57.42)",
+      "J Venus – J Mars Dec 4.9828 5 whole (1.98)",
+      "J Venus – J Pallas Dec 4.9806 5 whole (0.08)",
+      "S Vesta → J Makemake Dec 50.0069 50 whole (43.01)"
+     ],
+     "note": "5 and 50",
+     "field": "also: 7 Noble Mark"
+    },
+    {
      "check": 12,
      "key": "(2,)",
      "cells": [
@@ -1737,7 +2277,7 @@
       "S Transpluto → J Eris Dec 20.0090 20 whole (30.25)"
      ],
      "note": "2 and 20",
-     "field": "also: 1 Aswan, 2 Million Thanks, 7 Noble Mark"
+     "field": "also: 1 Aswan, 2 Million Thanks, 6 Whitefeathersfall, 7 Noble Mark"
     },
     {
      "check": 12,
@@ -1745,6 +2285,7 @@
      "cells": [
       "H Eris – H Gonggong Dec 10.0130 10 whole (12.16)",
       "S Saturn → H Gonggong RA 9.9921 10 whole (36.40)",
+      "S Juno → H Regulus Dec 9.9978 10 whole (78.82)",
       "S Ketu → J Rahu RA 100.0064 100 whole (46.19)",
       "S Rahu → J Ketu RA 100.0064 100 whole (46.19)"
      ],
@@ -1777,27 +2318,46 @@
     },
     {
      "check": 12,
+     "key": "(4,)",
+     "cells": [
+      "H Sedna – H Regulus Dec 3.9987 4 whole (87.59)",
+      "S Ketu → H Rahu Dec 39.9960 40 whole (64.27)",
+      "S Pallas → H Vesta Dec 4.0190 4 whole (0.25)",
+      "S Rahu → H Ketu Dec 39.9960 40 whole (64.27)",
+      "S Sun → H Sun Dec 4.0112 4 whole (19.35)",
+      "J Sun – J Ketu Dec 3.9890 4 whole (20.36)",
+      "S Ketu → J Vesta RA 40.0011 40 whole (89.37)"
+     ],
+     "note": "4 and 40",
+     "field": "also: 1 Aswan, 2 Million Thanks"
+    },
+    {
+     "check": 12,
      "key": "(17,)",
      "cells": [
       "H Saturn – H Juno RA 169.9905 170 whole (27.64)",
       "S Sedna → H Mercury RA 17.0000 17 whole (99.96)",
-      "J Rahu – J Sedna Dec 17.0190 17 whole (0.26)"
+      "S Transpluto → H Fomalhaut RA 170.0185 170 whole (0.56)",
+      "J Rahu – J Sedna Dec 17.0190 17 whole (0.26)",
+      "S Transpluto → J Fomalhaut RA 170.0144 170 whole (7.79)"
      ],
      "note": "17 and 170",
-     "field": "also: 4 Persist, 7 Noble Mark"
+     "field": "also: 4 Persist, 6 Whitefeathersfall, 7 Noble Mark"
     },
     {
      "check": 12,
      "key": "(9,)",
      "cells": [
       "S Moon → H Saturn RA 90.0156 90 whole (4.73)",
+      "S Gonggong → H Antares RA 89.9834 90 whole (2.87)",
       "S Ceres → H Haumea Dec 9.0135 9 whole (10.63)",
       "S Saturn → H Neptune Dec 9.0114 9 whole (18.34)",
+      "S Gonggong → J Antares RA 89.9866 90 whole (10.73)",
       "S Mars → J Ceres Dec 9.0136 9 whole (10.18)",
       "S Quaoar → J Vesta Dec 8.9994 9 whole (94.11)"
      ],
      "note": "9 and 90",
-     "field": "also: 1 Aswan, 4 Persist, 7 Noble Mark"
+     "field": "also: 1 Aswan, 2 Million Thanks, 4 Persist, 6 Whitefeathersfall, 7 Noble Mark"
     },
     {
      "check": 12,
@@ -1811,29 +2371,16 @@
     },
     {
      "check": 12,
-     "key": "(4,)",
-     "cells": [
-      "S Ketu → H Rahu Dec 39.9960 40 whole (64.27)",
-      "S Pallas → H Vesta Dec 4.0190 4 whole (0.25)",
-      "S Rahu → H Ketu Dec 39.9960 40 whole (64.27)",
-      "S Sun → H Sun Dec 4.0112 4 whole (19.35)",
-      "J Sun – J Ketu Dec 3.9890 4 whole (20.36)",
-      "S Ketu → J Vesta RA 40.0011 40 whole (89.37)"
-     ],
-     "note": "4 and 40",
-     "field": "also: 1 Aswan, 2 Million Thanks"
-    },
-    {
-     "check": 12,
      "key": "(1,)",
      "cells": [
       "H Eris – H Gonggong Dec 10.0130 10 whole (12.16)",
       "S Saturn → H Gonggong RA 9.9921 10 whole (36.40)",
+      "S Juno → H Regulus Dec 9.9978 10 whole (78.82)",
       "S Rahu → H Haumea Dec 1.0000 1 whole (99.91)",
       "S Sedna → H Venus Dec 1.0010 1 whole (90.17)"
      ],
      "note": "1 and 10",
-     "field": "also: 1 Aswan, 2 Million Thanks, 6 Whitefeathersfall, 7 Noble Mark"
+     "field": "also: 1 Aswan, 2 Million Thanks, 4 Persist, 6 Whitefeathersfall, 7 Noble Mark"
     },
     {
      "check": 12,
@@ -1845,7 +2392,7 @@
       "S Rahu → J Ketu RA 100.0064 100 whole (46.19)"
      ],
      "note": "1 and 100",
-     "field": "also: 1 Aswan, 2 Million Thanks, 6 Whitefeathersfall, 7 Noble Mark"
+     "field": "also: 1 Aswan, 2 Million Thanks, 4 Persist, 6 Whitefeathersfall, 7 Noble Mark"
     },
     {
      "check": 12,
@@ -1857,17 +2404,6 @@
      ],
      "note": "13 and 130",
      "field": "also: 4 Persist, 6 Whitefeathersfall, 7 Noble Mark"
-    },
-    {
-     "check": 12,
-     "key": "(5,)",
-     "cells": [
-      "J Venus – J Mars Dec 4.9828 5 whole (1.98)",
-      "J Venus – J Pallas Dec 4.9806 5 whole (0.08)",
-      "S Vesta → J Makemake Dec 50.0069 50 whole (43.01)"
-     ],
-     "note": "5 and 50",
-     "field": "also: 7 Noble Mark"
     },
     {
      "check": 15,

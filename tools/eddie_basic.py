@@ -1,7 +1,14 @@
 #!/usr/bin/env python3
 """eddie_basic.py - the basic view (Eddie, 8 Nov 2026): what a runner's charts hold, read from the race's _active.xlsx only, the
-P##_DIST tabs only, natal -> natal and sky (transit) -> natal only, bodies only (no stars, no equator, no Ascendant / Midheaven /
-Vertex / Part points, no natal Moon; the sky Moon is kept). Data only: no ranking, no pick. Never reads the csv or any result.
+P##_DIST tabs only, natal -> natal and sky (transit) -> natal only, bodies and the four royal stars only (no other stars, no equator,
+no Ascendant / Midheaven / Vertex / Part points, no natal Moon; the sky Moon is kept). Data only: no ranking, no pick. Never reads the
+csv or any result.
+
+Royal stars (Eddie, 8 Nov 2026: "just include the 4 royal stars Aldebaran, Antares, Fomalhaut & Regulus"): a natal royal star is a natal
+point like a body: natal star - natal body cells (no star - star pair: it is the same for everyone) and sky body -> natal star cells. Sky
+star rows are left out (a star barely moves, so sky star -> natal X repeats natal star - natal X). A sky body -> natal star cell is about
+the same in the horse's and the jockey's chart and for every runner (a sky line), so it is left out of the checks that compare the two
+charts on one sky cell (2a, 2b, 4, 5, 7, 13, 15); it takes part everywhere else.
 
 Usage:  python3 tools/eddie_basic.py <race>_active.xlsx [--out DIR]       (default DIR docs/eddie_read/basic)
 Writes <race>_basic.md and <race>_basic.json.
@@ -59,6 +66,8 @@ import families as F  # noqa: E402
 BODIES = ['Sun', 'Mercury', 'Venus', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune', 'Pluto', 'Moon', 'Rahu', 'Ketu',
           'Ceres', 'Pallas', 'Juno', 'Vesta', 'Chiron', 'Eris', 'Gonggong', 'Haumea', 'Makemake', 'Orcus', 'Quaoar', 'Sedna',
           'Transpluto']
+ROYAL = ['Aldebaran', 'Antares', 'Fomalhaut', 'Regulus']
+POINTS = BODIES + ROYAL
 HIGH = 80
 MID = 50
 WINDOW = 0.3
@@ -83,15 +92,16 @@ def load(path):
             kind = 'N' if t.startswith('NATAL') else 'S'
             plane = 'RA' if 'RA distances' in t else 'Dec'
             hdr = rows[i + 1]
-            cols = {h: j for j, h in enumerate(hdr) if h in BODIES and h != 'Moon'}
+            cols = {h: j for j, h in enumerate(hdr) if h in POINTS and h != 'Moon'}
             for row2 in rows[i + 2:]:
                 a = row2[0]
                 if a is None or (isinstance(a, str) and '—' in a):
                     break
-                if a not in BODIES or (kind == 'N' and a == 'Moon'):
+                if a not in (POINTS if kind == 'N' else BODIES) or (kind == 'N' and a == 'Moon'):
                     continue
                 for b, j in cols.items():
-                    if kind == 'N' and (BODIES.index(b) <= BODIES.index(a) or {a, b} == {'Rahu', 'Ketu'}):
+                    if kind == 'N' and (POINTS.index(b) <= POINTS.index(a) or {a, b} == {'Rahu', 'Ketu'}
+                                        or (a in ROYAL and b in ROYAL)):
                         continue
                     v = row2[j]
                     if not isinstance(v, (int, float)) or v <= 0:
@@ -103,7 +113,8 @@ def load(path):
                                          'family': bo['family'], 'target': bo['target'], 'score': bo['score']})
                     if bst:
                         r['cells'].append({'ch': ch, 'kind': kind, 'plane': plane, 'a': a, 'b': b, 'v': float(v),
-                                           'family': bst['family'], 'target': bst['target'], 'score': bst['score']})
+                                           'family': bst['family'], 'target': bst['target'], 'score': bst['score'],
+                                           'shared': kind == 'S' and b in ROYAL})
     return out
 
 
@@ -139,6 +150,8 @@ def runner_checks(cells, opp=()):
     add = lambda chk, key, cs, note='': items.append({'check': chk, 'key': key, 'cells': [text(c) for c in cs], 'note': note})
     H = [c for c in cells if c['ch'] == 'H']
     J = [c for c in cells if c['ch'] == 'J']
+    Hs = [c for c in H if not c.get('shared')]          # sky -> natal royal star left out of the two-chart comparisons
+    Js = [c for c in J if not c.get('shared')]
     # 1
     for h in H:
         if h['kind'] != 'N':
@@ -147,10 +160,10 @@ def runner_checks(cells, opp=()):
             if j['kind'] == 'N' and (j['a'], j['b']) == (h['a'], h['b']) and tkey(j) == tkey(h):
                 add(1, (h['a'], h['b'], h['target']), [h, j])
     # 2
-    for h in H:
+    for h in Hs:
         if h['kind'] != 'S':
             continue
-        for j in J:
+        for j in Js:
             if j['kind'] != 'S' or (j['a'], j['b']) != (h['a'], h['b']):
                 continue
             if tkey(j) == tkey(h):
@@ -165,17 +178,17 @@ def runner_checks(cells, opp=()):
             add(3, (x,), hs + js)
     # 4
     seen = set()
-    for h in H:
+    for h in Hs:
         if h['kind'] != 'S' or h['score'] < HIGH:
             continue
-        js = [j for j in J if j['kind'] == 'S' and j['a'] == h['a'] and tkey(j) == tkey(h) and j['score'] >= HIGH]
+        js = [j for j in Js if j['kind'] == 'S' and j['a'] == h['a'] and tkey(j) == tkey(h) and j['score'] >= HIGH]
         k = (h['a'], h['target'])
         if js and k not in seen:
             seen.add(k)
-            hs = [c for c in H if c['kind'] == 'S' and c['a'] == h['a'] and tkey(c) == tkey(h) and c['score'] >= HIGH]
+            hs = [c for c in Hs if c['kind'] == 'S' and c['a'] == h['a'] and tkey(c) == tkey(h) and c['score'] >= HIGH]
             add(4, k, hs + js)
     # 5
-    hi = [c for c in cells if c['score'] >= HIGH and c['family'] != 'conj']
+    hi = [c for c in cells if c['score'] >= HIGH and c['family'] != 'conj' and not c.get('shared')]
     on = collections.defaultdict(list)                  # (chart, natal body, target key) -> cells
     for c in hi:
         for b in natal_bodies(c):
@@ -208,8 +221,8 @@ def runner_checks(cells, opp=()):
             if c['kind'] == 'S' and c['a'] in CENTRES and c['b'] != 'Jupiter' and c['b'] in ties and c['score'] >= MID:
                 add(6, (c['a'], ch, c['b']), [c] + ties[c['b']])
     # 7
-    hk = {tkey(c) for c in H if c['score'] >= HIGH and c['family'] != 'conj'}
-    jk = {tkey(c) for c in J if c['score'] >= HIGH and c['family'] != 'conj'}
+    hk = {tkey(c) for c in Hs if c['score'] >= HIGH and c['family'] != 'conj'}
+    jk = {tkey(c) for c in Js if c['score'] >= HIGH and c['family'] != 'conj'}
     both = sorted(hk & jk)
     items.append({'check': 7, 'key': ('count', len(both)), 'cells': [f'{t} {f}' for f, t in both], 'note': f'{len(both)} numbers'})
     # 8
@@ -269,12 +282,12 @@ def runner_checks(cells, opp=()):
                 seen.add((na, nb))
                 add(12, (na,), [x for x in ws if whole_n(x) in (na, nb)], f'{na} and {nb}')
     # 13
-    for i, A in enumerate(BODIES):
-        for B in BODIES[i + 1:]:
-            if {A, B} == {'Rahu', 'Ketu'}:
+    for i, A in enumerate(POINTS):
+        for B in POINTS[i + 1:]:
+            if {A, B} == {'Rahu', 'Ketu'} or (A in ROYAL and B in ROYAL):
                 continue                                   # the node axis mirrors itself
-            cs = [c for c in cells if (c['kind'] == 'N' and {c['a'], c['b']} == {A, B})
-                  or (c['kind'] == 'S' and (c['a'], c['b']) in ((A, B), (B, A)))]
+            cs = [c for c in cells if not c.get('shared') and (c['kind'] == 'N' and {c['a'], c['b']} == {A, B})
+                  or not c.get('shared') and (c['kind'] == 'S' and (c['a'], c['b']) in ((A, B), (B, A)))]
             if len(cs) < 2:
                 continue
             groups = collections.defaultdict(list)
@@ -289,10 +302,10 @@ def runner_checks(cells, opp=()):
                     add(13, (A, B, g), gc, f'{A} – {B}: {lab}')
     # 15
     seen = set()
-    for h in H:
+    for h in Hs:
         if h['kind'] != 'S' or h['score'] < HIGH:
             continue
-        for j in J:
+        for j in Js:
             if (j['kind'] == 'S' and (j['a'], j['b']) == (h['a'], h['b']) and j['plane'] != h['plane']
                     and j['score'] >= HIGH and (h['a'], h['b'], h['plane']) not in seen):
                 seen.add((h['a'], h['b'], h['plane']))
@@ -342,8 +355,9 @@ def main():
     data, per = run(a.active)
     race = os.path.basename(a.active).replace('race_batch_', '').replace('_active.xlsx', '')
     os.makedirs(a.out, exist_ok=True)
-    L = [f'# Basic view: {race}', '', 'The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies only (no stars, no '
-         'equator, no angles, no natal Moon). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in '
+    L = [f'# Basic view: {race}', '', 'The _active.xlsx P##_DIST tabs only: natal → natal and sky → natal, bodies and the four royal '
+         'stars (no other stars, no equator, no angles, no natal Moon; sky → royal star cells are shared by every runner and left out of '
+         'checks 2a, 2b, 4, 5, 7, 13, 15). Data only, no pick (tools/eddie_basic.py). Each item: only / also = the same key in '
          'another runner.', '']
     L.append('## Field')
     L.append('| Runner | ' + ' | '.join(str(k) for k in ORDER) + ' |')

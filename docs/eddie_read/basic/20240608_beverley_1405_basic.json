@@ -47,6 +47,15 @@
      "field": "only"
     },
     {
+     "check": 9,
+     "key": "('J', 'Aldebaran', '19×φ')",
+     "cells": [
+      "J Jupiter – J Aldebaran RA 30.7454 19×φ golden (83.89)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
      "check": 10,
      "key": "(11,)",
      "cells": [
@@ -78,6 +87,17 @@
     },
     {
      "check": 10,
+     "key": "(19,)",
+     "cells": [
+      "H Neptune – H Pluto Dec 18.9977 19 whole (78.07)",
+      "S Ceres → J Saturn RA 19.0002 19 whole (97.85)",
+      "J Jupiter – J Aldebaran RA 30.7454 19×φ golden (83.89)"
+     ],
+     "note": "",
+     "field": "also: 10 Over Spiced, 14 Havana White, 15 Perfect Part"
+    },
+    {
+     "check": 10,
      "key": "(25,)",
      "cells": [
       "S Moon → H Ceres RA 24.9958 25 whole (62.37)",
@@ -97,10 +117,22 @@
      "field": "only"
     },
     {
+     "check": 10,
+     "key": "(95,)",
+     "cells": [
+      "S Vesta → J Eris RA 95.0021 95 whole (80.08)",
+      "J Sedna – J Antares RA 153.7212 95×φ golden (56.70)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
      "check": 11,
      "key": "('10×φ^-1', '6')",
      "cells": [
       "S Jupiter → J Jupiter Dec 5.9846 6 whole (5.38)",
+      "J Uranus – J Fomalhaut Dec 5.9873 6 whole (13.28)",
+      "J Gonggong – J Antares Dec 6.0035 6 whole (68.37)",
       "S Mercury → H Haumea Dec 6.0119 6 whole (16.33)",
       "S Orcus → H Ketu Dec 6.1802 10×φ^-1 phi power (99.41)"
      ],
@@ -118,7 +150,7 @@
       "S Pallas → H Uranus Dec 11.1163 11.1111 ninth (91.44)"
      ],
      "note": "10.9863 - 11.1163",
-     "field": "also: 2 Brazilian Belle, 11 Powerful Lady"
+     "field": "also: 2 Brazilian Belle, 4 Invincible Annice, 8 Maw Lam, 11 Powerful Lady"
     },
     {
      "check": 11,
@@ -129,7 +161,7 @@
       "S Makemake → H Transpluto Dec 11.3290 7×φ golden (83.92)"
      ],
      "note": "11.1163 - 11.3290",
-     "field": "only"
+     "field": "also: 4 Invincible Annice, 11 Powerful Lady"
     },
     {
      "check": 11,
@@ -138,10 +170,11 @@
       "S Quaoar → J Rahu Dec 11.9820 12 whole (1.02)",
       "S Sedna → H Pallas Dec 11.9984 12 whole (84.25)",
       "S Chiron → H Jupiter Dec 12.2256 12.2222 ninth (95.30)",
-      "S Pluto → H Mars Dec 12.2283 12.2222 ninth (91.55)"
+      "S Pluto → H Mars Dec 12.2283 12.2222 ninth (91.55)",
+      "S Juno → J Regulus RA 12.2287 12.2222 ninth (90.99)"
      ],
-     "note": "11.9820 - 12.2283",
-     "field": "also: 8 Maw Lam, 10 Over Spiced, 11 Powerful Lady, 12 Sands Of Dubai"
+     "note": "11.9820 - 12.2287",
+     "field": "also: 2 Brazilian Belle, 3 Call Me Harswell, 7 Mademoiselle, 8 Maw Lam, 9 Nad Alshiba Snow, 10 Over Spiced, 11 Powerful Lady, 12 Sands Of Dubai, 14 Havana White"
     },
     {
      "check": 11,
@@ -149,22 +182,47 @@
      "cells": [
       "S Transpluto → H Jupiter Dec 12.9421 8×φ golden (86.88)",
       "S Chiron → H Pallas Dec 12.9952 13 whole (57.93)",
-      "S Jupiter → H Chiron Dec 12.9955 13 whole (60.01)"
+      "S Jupiter → H Chiron Dec 12.9955 13 whole (60.01)",
+      "H Eris – H Regulus Dec 13.0120 13 whole (16.14)"
      ],
-     "note": "12.9421 - 12.9955",
+     "note": "12.9421 - 13.0120",
      "field": "also: 8 Maw Lam, 9 Nad Alshiba Snow, 13 Storm Call"
     },
     {
      "check": 11,
      "key": "('10×φ^1', '16')",
      "cells": [
+      "J Pluto – J Aldebaran Dec 15.9804 16 whole (0.04)",
       "S Gonggong → H Vesta RA 15.9912 16 whole (31.49)",
       "H Chiron – H Makemake Dec 15.9993 16 whole (92.68)",
       "S Neptune → J Transpluto Dec 16.0096 16 whole (27.10)",
       "J Juno – J Vesta Dec 16.1813 10×φ^1 phi power (97.59)"
      ],
-     "note": "15.9912 - 16.1813",
+     "note": "15.9804 - 16.1813",
      "field": "also: 2 Brazilian Belle, 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 11 Powerful Lady, 14 Havana White"
+    },
+    {
+     "check": 11,
+     "key": "('11×φ', '18')",
+     "cells": [
+      "S Sun → J Orcus Dec 17.7950 11×φ golden (80.01)",
+      "S Venus → J Orcus Dec 17.9826 18 whole (1.63)",
+      "H Orcus – H Fomalhaut Dec 18.0199 18 whole (0.00)"
+     ],
+     "note": "17.7950 - 18.0199",
+     "field": "also: 12 Sands Of Dubai, 14 Havana White"
+    },
+    {
+     "check": 11,
+     "key": "('24', '24.14')",
+     "cells": [
+      "J Mars – J Orcus Dec 23.9919 24 whole (35.13)",
+      "S Jupiter → J Chiron RA 24.0181 24 whole (0.91)",
+      "S Orcus → J Regulus Dec 24.1401 24.14 silver (96.71)",
+      "S Orcus → H Regulus Dec 24.1402 24.14 silver (96.81)"
+     ],
+     "note": "23.9919 - 24.1402",
+     "field": "also: 3 Call Me Harswell, 7 Mademoiselle, 8 Maw Lam, 12 Sands Of Dubai, 13 Storm Call, 14 Havana White, 15 Perfect Part"
     },
     {
      "check": 11,
@@ -175,7 +233,7 @@
       "S Vesta → H Jupiter Dec 26.0195 26 whole (0.06)"
      ],
      "note": "25.8839 - 26.0195",
-     "field": "also: 8 Maw Lam, 9 Nad Alshiba Snow, 10 Over Spiced"
+     "field": "also: 3 Call Me Harswell, 8 Maw Lam, 9 Nad Alshiba Snow, 10 Over Spiced"
     },
     {
      "check": 11,
@@ -184,6 +242,7 @@
       "H Ketu – H Transpluto Dec 29.0026 29 whole (75.85)",
       "H Mars – H Rahu Dec 29.0127 29 whole (13.38)",
       "S Quaoar → J Jupiter Dec 29.0152 29 whole (5.86)",
+      "J Vesta – J Regulus RA 29.1215 18×φ golden (81.66)",
       "J Rahu – J Eris RA 29.1272 18×φ golden (84.79)"
      ],
      "note": "29.0026 - 29.1272",
@@ -200,6 +259,29 @@
      ],
      "note": "33.9710 - 34.0124",
      "field": "also: 3 Call Me Harswell, 14 Havana White"
+    },
+    {
+     "check": 11,
+     "key": "('26×φ', '42')",
+     "cells": [
+      "S Quaoar → J Venus Dec 41.9892 42 whole (21.28)",
+      "S Moon → H Saturn Dec 42.0079 42 whole (36.43)",
+      "H Eris – H Fomalhaut RA 42.0192 42 whole (0.16)",
+      "H Uranus – H Antares Dec 42.0685 26×φ golden (97.77)"
+     ],
+     "note": "41.9892 - 42.0685",
+     "field": "also: 2 Brazilian Belle, 11 Powerful Lady"
+    },
+    {
+     "check": 11,
+     "key": "('111', '111.111')",
+     "cells": [
+      "S Rahu → J Vesta RA 111.0011 111 whole (89.36)",
+      "J Sedna – J Regulus RA 111.0182 111 whole (0.81)",
+      "S Uranus → H Pluto RA 111.1381 111.111 ninth (95.58)"
+     ],
+     "note": "111.0011 - 111.1381",
+     "field": "only"
     },
     {
      "check": 11,
@@ -220,16 +302,18 @@
       "H Chiron – H Makemake Dec 15.9993 16 whole (92.68)",
       "S Vesta → H Quaoar RA 160.0100 160 whole (25.05)",
       "S Gonggong → H Vesta RA 15.9912 16 whole (31.49)",
+      "J Pluto – J Aldebaran Dec 15.9804 16 whole (0.04)",
       "S Neptune → J Transpluto Dec 16.0096 16 whole (27.10)"
      ],
      "note": "16 and 160",
-     "field": "also: 4 Invincible Annice, 7 Mademoiselle, 11 Powerful Lady, 13 Storm Call, 14 Havana White"
+     "field": "also: 4 Invincible Annice, 7 Mademoiselle, 11 Powerful Lady, 13 Storm Call, 14 Havana White, 15 Perfect Part"
     },
     {
      "check": 12,
      "key": "(15,)",
      "cells": [
       "H Juno – H Transpluto Dec 15.0006 15 whole (94.10)",
+      "H Saturn – H Fomalhaut Dec 14.9974 15 whole (75.32)",
       "S Pallas → J Mercury RA 150.0136 150 whole (10.26)",
       "S Eris → J Transpluto Dec 15.0174 15 whole (1.69)",
       "S Sedna → J Haumea Dec 15.0046 15 whole (59.61)"
@@ -247,7 +331,7 @@
       "J Juno – J Sedna Dec 4.9971 5 whole (73.03)"
      ],
      "note": "5 and 50",
-     "field": "also: 2 Brazilian Belle, 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 9 Nad Alshiba Snow, 11 Powerful Lady, 13 Storm Call"
+     "field": "also: 2 Brazilian Belle, 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 9 Nad Alshiba Snow, 10 Over Spiced, 11 Powerful Lady, 13 Storm Call"
     },
     {
      "check": 12,
@@ -255,13 +339,15 @@
      "cells": [
       "H Sun – H Pluto RA 89.9859 90 whole (8.69)",
       "S Ceres → H Pluto RA 8.9924 9 whole (38.25)",
+      "S Venus → H Aldebaran RA 8.9954 9 whole (59.24)",
       "S Saturn → H Quaoar Dec 8.9994 9 whole (93.90)",
       "J Neptune – J Quaoar Dec 8.9933 9 whole (44.22)",
       "S Pluto → J Mars RA 9.0104 9 whole (23.02)",
+      "S Venus → J Aldebaran RA 8.9960 9 whole (64.01)",
       "S Makemake → J Mercury Dec 9.0131 9 whole (12.00)"
      ],
      "note": "9 and 90",
-     "field": "also: 12 Sands Of Dubai"
+     "field": "also: 7 Mademoiselle, 12 Sands Of Dubai, 13 Storm Call"
     },
     {
      "check": 12,
@@ -276,7 +362,7 @@
       "S Transpluto → J Sun Dec 2.0001 2 whole (99.30)"
      ],
      "note": "2 and 20",
-     "field": "also: 3 Call Me Harswell, 7 Mademoiselle, 9 Nad Alshiba Snow, 11 Powerful Lady, 13 Storm Call, 14 Havana White, 15 Perfect Part"
+     "field": "also: 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 9 Nad Alshiba Snow, 10 Over Spiced, 11 Powerful Lady, 13 Storm Call, 14 Havana White, 15 Perfect Part"
     },
     {
      "check": 12,
@@ -302,20 +388,25 @@
      "key": "(1,)",
      "cells": [
       "H Eris – H Gonggong Dec 9.9871 10 whole (12.60)",
-      "S Pallas → H Ceres Dec 0.9955 1 whole (60.24)"
+      "S Pallas → H Ceres Dec 0.9955 1 whole (60.24)",
+      "S Makemake → H Regulus Dec 10.0111 10 whole (19.83)",
+      "J Mercury – J Regulus Dec 0.9981 1 whole (81.73)",
+      "S Makemake → J Regulus Dec 10.0112 10 whole (19.56)"
      ],
      "note": "1 and 10",
-     "field": "also: 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 11 Powerful Lady, 12 Sands Of Dubai, 13 Storm Call, 14 Havana White, 15 Perfect Part"
+     "field": "also: 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 9 Nad Alshiba Snow, 10 Over Spiced, 11 Powerful Lady, 12 Sands Of Dubai, 13 Storm Call, 14 Havana White, 15 Perfect Part"
     },
     {
      "check": 12,
      "key": "(7,)",
      "cells": [
       "S Sedna → H Venus RA 69.9983 70 whole (83.47)",
-      "S Jupiter → J Venus Dec 6.9894 7 whole (22.22)"
+      "S Vesta → H Aldebaran Dec 6.9910 7 whole (30.38)",
+      "S Jupiter → J Venus Dec 6.9894 7 whole (22.22)",
+      "S Vesta → J Aldebaran Dec 6.9892 7 whole (21.34)"
      ],
      "note": "7 and 70",
-     "field": "also: 7 Mademoiselle, 8 Maw Lam"
+     "field": "also: 7 Mademoiselle, 8 Maw Lam, 12 Sands Of Dubai"
     }
    ]
   },
@@ -373,11 +464,13 @@
      "check": 10,
      "key": "(9,)",
      "cells": [
+      "S Venus → H Aldebaran RA 8.9951 9 whole (57.32)",
+      "S Venus → J Aldebaran RA 8.9961 9 whole (64.63)",
       "S Juno → J Mars Dec 8.9969 9 whole (71.72)",
       "S Rahu → J Ceres Dec 14.5680 9×φ golden (68.14)"
      ],
      "note": "",
-     "field": "also: 4 Invincible Annice, 8 Maw Lam, 10 Over Spiced, 12 Sands Of Dubai, 14 Havana White"
+     "field": "also: 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 10 Over Spiced, 12 Sands Of Dubai, 14 Havana White"
     },
     {
      "check": 10,
@@ -402,6 +495,16 @@
     },
     {
      "check": 10,
+     "key": "(68,)",
+     "cells": [
+      "J Makemake – J Fomalhaut Dec 68.0043 68 whole (61.96)",
+      "S Haumea → J Gonggong RA 110.0333 68×φ golden (61.34)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
      "key": "(80,)",
      "cells": [
       "J Ceres – J Vesta RA 79.9995 80 whole (94.64)",
@@ -416,6 +519,16 @@
      "cells": [
       "S Eris → J Orcus RA 93.9942 94 whole (50.30)",
       "S Saturn → H Makemake RA 152.0891 94×φ golden (66.06)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(102,)",
+     "cells": [
+      "J Sun – J Ketu RA 101.9954 102 whole (59.20)",
+      "J Haumea – J Fomalhaut RA 165.0428 102×φ golden (80.57)"
      ],
      "note": "",
      "field": "only"
@@ -453,7 +566,19 @@
       "S Sedna → J Pallas Dec 11.1199 11.1111 ninth (85.63)"
      ],
      "note": "11.0008 - 11.1199",
-     "field": "also: 1 Aviation Time, 11 Powerful Lady"
+     "field": "also: 1 Aviation Time, 4 Invincible Annice, 8 Maw Lam, 11 Powerful Lady"
+    },
+    {
+     "check": 11,
+     "key": "('12', '12.2222')",
+     "cells": [
+      "S Haumea → H Ketu RA 12.0046 12 whole (59.67)",
+      "S Rahu → J Mercury Dec 12.0057 12 whole (51.44)",
+      "J Mars – J Pallas RA 12.0197 12 whole (0.03)",
+      "S Juno → J Regulus RA 12.2283 12.2222 ninth (91.63)"
+     ],
+     "note": "12.0046 - 12.2283",
+     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 7 Mademoiselle, 8 Maw Lam, 9 Nad Alshiba Snow, 10 Over Spiced, 11 Powerful Lady, 12 Sands Of Dubai, 14 Havana White"
     },
     {
      "check": 11,
@@ -488,10 +613,24 @@
       "S Mars → J Juno Dec 17.7955 11×φ golden (82.80)",
       "S Uranus → J Mars Dec 17.7955 11×φ golden (82.88)",
       "S Eris → H Ketu Dec 17.9491 φ^6 phi power (89.57)",
+      "H Orcus – H Fomalhaut Dec 17.9842 18 whole (4.32)",
       "H Chiron – H Gonggong Dec 17.9885 18 whole (17.94)"
      ],
      "note": "17.7723 - 17.9885",
      "field": "also: 7 Mademoiselle, 8 Maw Lam, 15 Perfect Part"
+    },
+    {
+     "check": 11,
+     "key": "('15×φ', '24', '24.14')",
+     "cells": [
+      "J Venus – J Fomalhaut Dec 23.9817 24 whole (0.72)",
+      "J Uranus – J Sedna Dec 23.9932 24 whole (43.25)",
+      "S Orcus → H Regulus Dec 24.1401 24.14 silver (96.61)",
+      "S Orcus → J Regulus Dec 24.1401 24.14 silver (96.67)",
+      "S Haumea → J Uranus RA 24.2753 15×φ golden (72.66)"
+     ],
+     "note": "23.9817 - 24.2753",
+     "field": "also: 4 Invincible Annice"
     },
     {
      "check": 11,
@@ -512,10 +651,22 @@
      "cells": [
       "S Venus → J Juno Dec 30.7425 19×φ golden (99.13)",
       "S Sedna → J Gonggong Dec 30.9955 31 whole (59.75)",
-      "S Pluto → H Mars RA 31.0118 31 whole (16.96)"
+      "S Pluto → H Mars RA 31.0118 31 whole (16.96)",
+      "J Orcus – J Regulus RA 31.0139 31 whole (9.31)"
      ],
-     "note": "30.7425 - 31.0118",
-     "field": "also: 3 Call Me Harswell, 14 Havana White, 15 Perfect Part"
+     "note": "30.7425 - 31.0139",
+     "field": "also: 3 Call Me Harswell, 10 Over Spiced, 11 Powerful Lady, 14 Havana White, 15 Perfect Part"
+    },
+    {
+     "check": 11,
+     "key": "('26×φ', '42')",
+     "cells": [
+      "H Eris – H Fomalhaut RA 41.9803 42 whole (0.02)",
+      "H Uranus – H Antares Dec 42.0001 42 whole (99.32)",
+      "J Chiron – J Antares Dec 42.0616 26×φ golden (60.27)"
+     ],
+     "note": "41.9803 - 42.0616",
+     "field": "also: 1 Aviation Time, 11 Powerful Lady"
     },
     {
      "check": 11,
@@ -527,7 +678,7 @@
       "S Uranus → H Pluto RA 111.1571 111.111 ninth (92.47)"
      ],
      "note": "110.9240 - 111.1571",
-     "field": "also: 9 Nad Alshiba Snow, 14 Havana White"
+     "field": "also: 4 Invincible Annice, 9 Nad Alshiba Snow, 14 Havana White"
     },
     {
      "check": 11,
@@ -536,6 +687,7 @@
       "S Ketu → J Gonggong RA 135.9244 84×φ golden (49.85)",
       "S Juno → H Pallas RA 135.9878 136 whole (15.25)",
       "S Orcus → J Eris RA 135.9991 136 whole (91.68)",
+      "J Ketu – J Regulus RA 136.0027 136 whole (74.42)",
       "S Ceres → H Orcus RA 136.0109 136 whole (20.84)"
      ],
      "note": "135.9244 - 136.0109",
@@ -582,6 +734,7 @@
      "cells": [
       "S Gonggong → H Neptune RA 16.9997 17 whole (96.83)",
       "S Transpluto → H Venus Dec 16.9810 17 whole (0.24)",
+      "J Ceres – J Antares Dec 17.0030 17 whole (72.45)",
       "S Chiron → J Pluto RA 170.0066 170 whole (44.88)",
       "S Neptune → J Chiron Dec 17.0095 17 whole (27.78)",
       "S Rahu → J Quaoar Dec 16.9918 17 whole (34.59)"
@@ -612,7 +765,7 @@
       "S Moon → J Rahu Dec 4.9837 5 whole (3.36)"
      ],
      "note": "5 and 50",
-     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 9 Nad Alshiba Snow, 11 Powerful Lady, 13 Storm Call"
+     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 9 Nad Alshiba Snow, 10 Over Spiced, 11 Powerful Lady, 13 Storm Call"
     },
     {
      "check": 13,
@@ -684,16 +837,18 @@
     },
     {
      "check": 7,
-     "key": "('count', 6)",
+     "key": "('count', 8)",
      "cells": [
+      "19×φ golden",
       "97×φ golden",
       "122.222 ninth",
+      "133.333 ninth",
       "33.3333 ninth",
       "100×φ^1 phi power",
       "1 whole",
       "12 whole"
      ],
-     "note": "6 numbers",
+     "note": "8 numbers",
      "field": ""
     },
     {
@@ -701,6 +856,15 @@
      "key": "('H', 'Vesta', '56')",
      "cells": [
       "H Jupiter – H Vesta RA 55.9994 56 whole (93.67)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 9,
+     "key": "('H', 'Aldebaran', '89')",
+     "cells": [
+      "H Jupiter – H Aldebaran RA 89.0012 89 whole (88.46)"
      ],
      "note": "",
      "field": "only"
@@ -728,6 +892,15 @@
      "key": "('H', 'Neptune', '5')",
      "cells": [
       "H Jupiter – H Neptune Dec 4.9962 5 whole (65.59)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 9,
+     "key": "('H', 'Aldebaran', '26')",
+     "cells": [
+      "H Jupiter – H Aldebaran Dec 25.9968 26 whole (70.34)"
      ],
      "note": "",
      "field": "only"
@@ -786,6 +959,7 @@
      "check": 10,
      "key": "(21,)",
      "cells": [
+      "H Neptune – H Aldebaran Dec 21.0006 21 whole (94.32)",
       "S Venus → H Ceres RA 21.0041 21 whole (63.00)",
       "S Mercury → J Chiron Dec 20.9967 21 whole (69.71)",
       "H Saturn – H Neptune RA 33.9793 21×φ golden (96.20)"
@@ -837,6 +1011,42 @@
     },
     {
      "check": 11,
+     "key": "('7.77778', '8')",
+     "cells": [
+      "H Sun – H Mars Dec 7.7771 7.77778 ninth (95.01)",
+      "S Ceres → J Gonggong Dec 7.9827 8 whole (1.85)",
+      "H Neptune – H Fomalhaut RA 8.0130 8 whole (12.16)"
+     ],
+     "note": "7.7771 - 8.0130",
+     "field": "also: 11 Powerful Lady"
+    },
+    {
+     "check": 11,
+     "key": "('5×φ', '8')",
+     "cells": [
+      "S Ceres → J Gonggong Dec 7.9827 8 whole (1.85)",
+      "H Neptune – H Fomalhaut RA 8.0130 8 whole (12.16)",
+      "H Jupiter – H Eris Dec 8.0908 5×φ golden (96.09)"
+     ],
+     "note": "7.9827 - 8.0908",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('12', '12.2222')",
+     "cells": [
+      "S Transpluto → J Chiron RA 12.0005 12 whole (95.38)",
+      "H Makemake – H Transpluto Dec 12.0017 12 whole (83.28)",
+      "S Transpluto → H Makemake Dec 12.0064 12 whole (46.34)",
+      "H Ceres – H Aldebaran RA 12.0157 12 whole (4.58)",
+      "S Ceres → J Pallas Dec 12.0199 12 whole (0.00)",
+      "S Juno → H Regulus RA 12.2283 12.2222 ninth (91.56)"
+     ],
+     "note": "12.0005 - 12.2283",
+     "field": "also: 1 Aviation Time, 2 Brazilian Belle, 7 Mademoiselle, 8 Maw Lam, 9 Nad Alshiba Snow, 10 Over Spiced, 11 Powerful Lady, 12 Sands Of Dubai, 14 Havana White"
+    },
+    {
+     "check": 11,
      "key": "('10×φ^1', '16')",
      "cells": [
       "S Gonggong → H Chiron Dec 15.9816 16 whole (0.66)",
@@ -862,6 +1072,7 @@
      "key": "('13×φ', '21')",
      "cells": [
       "S Mercury → J Chiron Dec 20.9967 21 whole (69.71)",
+      "H Neptune – H Aldebaran Dec 21.0006 21 whole (94.32)",
       "S Venus → H Ceres RA 21.0041 21 whole (63.00)",
       "S Eris → H Vesta Dec 21.0151 21 whole (5.99)",
       "J Sun – J Vesta Dec 21.0334 13×φ golden (93.78)"
@@ -871,14 +1082,38 @@
     },
     {
      "check": 11,
+     "key": "('24', '24.14')",
+     "cells": [
+      "H Sun – H Sedna Dec 23.9836 24 whole (3.29)",
+      "S Makemake → J Rahu RA 24.0077 24 whole (37.81)",
+      "S Juno → J Mercury Dec 24.0141 24 whole (8.58)",
+      "S Orcus → J Regulus Dec 24.1427 24.14 silver (99.14)"
+     ],
+     "note": "23.9836 - 24.1427",
+     "field": "also: 1 Aviation Time, 7 Mademoiselle, 8 Maw Lam, 12 Sands Of Dubai, 13 Storm Call, 14 Havana White, 15 Perfect Part"
+    },
+    {
+     "check": 11,
+     "key": "('16×φ', '26')",
+     "cells": [
+      "H Quaoar – H Transpluto Dec 25.8811 16×φ golden (59.43)",
+      "H Jupiter – H Aldebaran Dec 25.9968 26 whole (70.34)",
+      "H Uranus – H Gonggong Dec 26.0016 26 whole (85.01)"
+     ],
+     "note": "25.8811 - 26.0016",
+     "field": "also: 1 Aviation Time, 8 Maw Lam, 9 Nad Alshiba Snow, 10 Over Spiced"
+    },
+    {
+     "check": 11,
      "key": "('19×φ', '31')",
      "cells": [
       "S Uranus → H Orcus Dec 30.7447 19×φ golden (87.77)",
+      "J Mercury – J Aldebaran Dec 30.7450 19×φ golden (85.70)",
       "H Chiron – H Gonggong RA 30.9996 31 whole (96.29)",
       "H Rahu – H Gonggong Dec 31.0007 31 whole (93.31)"
      ],
      "note": "30.7447 - 31.0007",
-     "field": "also: 2 Brazilian Belle, 14 Havana White, 15 Perfect Part"
+     "field": "also: 2 Brazilian Belle, 10 Over Spiced, 11 Powerful Lady, 14 Havana White, 15 Perfect Part"
     },
     {
      "check": 11,
@@ -901,7 +1136,7 @@
       "S Venus → H Sun Dec 39.0077 39 whole (37.64)"
      ],
      "note": "38.8389 - 39.0077",
-     "field": "also: 13 Storm Call"
+     "field": "also: 7 Mademoiselle, 13 Storm Call"
     },
     {
      "check": 11,
@@ -909,10 +1144,11 @@
      "cells": [
       "S Uranus → H Orcus RA 104.9850 105 whole (6.20)",
       "S Quaoar → J Makemake RA 105.1550 65×φ golden (21.83)",
-      "S Pluto → H Makemake RA 105.1819 65×φ golden (49.05)"
+      "S Pluto → H Makemake RA 105.1819 65×φ golden (49.05)",
+      "J Makemake – J Aldebaran RA 105.1862 65×φ golden (32.08)"
      ],
-     "note": "104.9850 - 105.1819",
-     "field": "only"
+     "note": "104.9850 - 105.1862",
+     "field": "also: 7 Mademoiselle"
     },
     {
      "check": 11,
@@ -948,7 +1184,7 @@
       "S Vesta → H Pluto RA 178.0138 178 whole (9.74)"
      ],
      "note": "177.7500 - 178.0138",
-     "field": "also: 10 Over Spiced"
+     "field": "also: 10 Over Spiced, 14 Havana White"
     },
     {
      "check": 12,
@@ -963,11 +1199,23 @@
     },
     {
      "check": 12,
+     "key": "(11,)",
+     "cells": [
+      "H Chiron – H Aldebaran Dec 10.9948 11 whole (54.40)",
+      "S Mercury → H Sun RA 109.9805 110 whole (0.06)",
+      "S Gonggong → J Venus Dec 10.9975 11 whole (76.92)"
+     ],
+     "note": "11 and 110",
+     "field": "also: 4 Invincible Annice, 10 Over Spiced, 13 Storm Call, 14 Havana White"
+    },
+    {
+     "check": 12,
      "key": "(15,)",
      "cells": [
       "H Chiron – H Haumea RA 150.0183 150 whole (0.73)",
       "H Jupiter – H Chiron Dec 15.0020 15 whole (80.78)",
-      "S Rahu → H Pallas Dec 14.9979 15 whole (79.91)"
+      "S Rahu → H Pallas Dec 14.9979 15 whole (79.91)",
+      "J Orcus – J Fomalhaut RA 149.9833 150 whole (2.70)"
      ],
      "note": "15 and 150",
      "field": "also: 1 Aviation Time, 7 Mademoiselle, 8 Maw Lam, 9 Nad Alshiba Snow, 10 Over Spiced"
@@ -986,7 +1234,7 @@
       "S Uranus → J Transpluto Dec 5.0116 5 whole (17.64)"
      ],
      "note": "5 and 50",
-     "field": "also: 1 Aviation Time, 2 Brazilian Belle, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 9 Nad Alshiba Snow, 11 Powerful Lady, 13 Storm Call"
+     "field": "also: 1 Aviation Time, 2 Brazilian Belle, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 9 Nad Alshiba Snow, 10 Over Spiced, 11 Powerful Lady, 13 Storm Call"
     },
     {
      "check": 12,
@@ -995,12 +1243,15 @@
       "H Neptune – H Chiron Dec 10.0058 10 whole (50.23)",
       "H Sun – H Saturn Dec 0.9989 1 whole (89.27)",
       "H Venus – H Quaoar Dec 0.9827 1 whole (1.80)",
+      "H Venus – H Antares Dec 9.9929 10 whole (41.88)",
       "S Eris → H Eris Dec 1.0101 1 whole (24.62)",
+      "S Makemake → H Regulus Dec 10.0122 10 whole (15.30)",
       "S Ketu → J Pluto Dec 0.9990 1 whole (90.54)",
+      "S Makemake → J Regulus Dec 10.0086 10 whole (32.30)",
       "S Quaoar → J Quaoar Dec 0.9938 1 whole (47.37)"
      ],
      "note": "1 and 10",
-     "field": "also: 1 Aviation Time, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 11 Powerful Lady, 12 Sands Of Dubai, 13 Storm Call, 14 Havana White, 15 Perfect Part"
+     "field": "also: 1 Aviation Time, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 9 Nad Alshiba Snow, 10 Over Spiced, 11 Powerful Lady, 12 Sands Of Dubai, 13 Storm Call, 14 Havana White, 15 Perfect Part"
     },
     {
      "check": 12,
@@ -1013,7 +1264,7 @@
       "S Mercury → H Ceres Dec 1.9819 2 whole (0.87)"
      ],
      "note": "2 and 20",
-     "field": "also: 1 Aviation Time, 7 Mademoiselle, 9 Nad Alshiba Snow, 11 Powerful Lady, 13 Storm Call, 14 Havana White, 15 Perfect Part"
+     "field": "also: 1 Aviation Time, 4 Invincible Annice, 7 Mademoiselle, 9 Nad Alshiba Snow, 10 Over Spiced, 11 Powerful Lady, 13 Storm Call, 14 Havana White, 15 Perfect Part"
     },
     {
      "check": 12,
@@ -1022,12 +1273,13 @@
       "S Pluto → H Mercury Dec 3.9873 4 whole (13.28)",
       "S Uranus → H Vesta Dec 39.9811 40 whole (0.29)",
       "S Venus → H Saturn Dec 40.0066 40 whole (44.71)",
+      "J Transpluto – J Antares Dec 39.9984 40 whole (84.85)",
       "S Pallas → J Quaoar RA 3.9851 4 whole (6.48)",
       "S Haumea → J Vesta Dec 3.9956 4 whole (60.85)",
       "S Quaoar → J Gonggong Dec 4.0037 4 whole (66.81)"
      ],
      "note": "4 and 40",
-     "field": "also: 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 10 Over Spiced, 13 Storm Call, 14 Havana White, 15 Perfect Part"
+     "field": "also: 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 10 Over Spiced, 12 Sands Of Dubai, 13 Storm Call, 14 Havana White, 15 Perfect Part"
     },
     {
      "check": 12,
@@ -1038,16 +1290,6 @@
      ],
      "note": "6 and 60",
      "field": "also: 10 Over Spiced, 14 Havana White, 15 Perfect Part"
-    },
-    {
-     "check": 12,
-     "key": "(11,)",
-     "cells": [
-      "S Mercury → H Sun RA 109.9805 110 whole (0.06)",
-      "S Gonggong → J Venus Dec 10.9975 11 whole (76.92)"
-     ],
-     "note": "11 and 110",
-     "field": "also: 4 Invincible Annice, 10 Over Spiced, 13 Storm Call, 14 Havana White"
     },
     {
      "check": 13,
@@ -1099,17 +1341,18 @@
     },
     {
      "check": 7,
-     "key": "('count', 7)",
+     "key": "('count', 8)",
      "cells": [
       "7×φ golden",
       "9×φ golden",
+      "122.222 ninth",
       "13.3333 ninth",
       "166.667 ninth",
       "φ^10 phi power",
       "φ^6 phi power",
       "14.14 sqrt2"
      ],
-     "note": "7 numbers",
+     "note": "8 numbers",
      "field": ""
     },
     {
@@ -1180,7 +1423,7 @@
       "S Uranus → J Sedna Dec 14.5604 9×φ golden (88.53)"
      ],
      "note": "",
-     "field": "also: 2 Brazilian Belle, 8 Maw Lam, 10 Over Spiced, 12 Sands Of Dubai, 14 Havana White"
+     "field": "also: 2 Brazilian Belle, 7 Mademoiselle, 8 Maw Lam, 10 Over Spiced, 12 Sands Of Dubai, 14 Havana White"
     },
     {
      "check": 10,
@@ -1204,6 +1447,16 @@
      "field": "only"
     },
     {
+     "check": 10,
+     "key": "(69,)",
+     "cells": [
+      "S Neptune → J Aldebaran RA 68.9969 69 whole (71.37)",
+      "J Neptune – J Makemake RA 111.6525 69×φ golden (55.74)"
+     ],
+     "note": "",
+     "field": "also: 10 Over Spiced"
+    },
+    {
      "check": 11,
      "key": "('3×φ', '5')",
      "cells": [
@@ -1216,6 +1469,29 @@
      ],
      "note": "4.8546 - 4.9950",
      "field": "also: 2 Brazilian Belle, 10 Over Spiced"
+    },
+    {
+     "check": 11,
+     "key": "('11', '11.1111')",
+     "cells": [
+      "H Ketu – H Fomalhaut Dec 10.9811 11 whole (0.29)",
+      "S Juno → H Eris Dec 10.9864 11 whole (10.27)",
+      "S Transpluto → H Sun Dec 10.9985 11 whole (85.66)",
+      "H Quaoar – H Antares Dec 11.1193 11.1111 ninth (86.66)"
+     ],
+     "note": "10.9811 - 11.1193",
+     "field": "also: 1 Aviation Time, 2 Brazilian Belle, 8 Maw Lam, 11 Powerful Lady"
+    },
+    {
+     "check": 11,
+     "key": "('11.1111', '7×φ')",
+     "cells": [
+      "H Quaoar – H Antares Dec 11.1193 11.1111 ninth (86.66)",
+      "S Rahu → H Pallas Dec 11.3287 7×φ golden (85.12)",
+      "S Haumea → J Orcus Dec 11.3289 7×φ golden (84.12)"
+     ],
+     "note": "11.1193 - 11.3289",
+     "field": "also: 1 Aviation Time, 11 Powerful Lady"
     },
     {
      "check": 11,
@@ -1270,15 +1546,16 @@
     },
     {
      "check": 11,
-     "key": "('15×φ', '24')",
+     "key": "('15×φ', '24', '24.14')",
      "cells": [
       "S Gonggong → H Venus RA 24.0000 24 whole (99.75)",
       "S Rahu → H Mars Dec 24.0095 24 whole (27.71)",
       "S Eris → H Rahu RA 24.0164 24 whole (3.28)",
+      "S Orcus → J Regulus Dec 24.1427 24.14 silver (99.01)",
       "S Venus → H Eris Dec 24.2776 15×φ golden (60.95)"
      ],
      "note": "24.0000 - 24.2776",
-     "field": "only"
+     "field": "also: 2 Brazilian Belle"
     },
     {
      "check": 11,
@@ -1295,6 +1572,17 @@
     },
     {
      "check": 11,
+     "key": "('10×φ^5', '111.111')",
+     "cells": [
+      "S Mercury → H Juno RA 110.9786 10×φ^5 phi power (74.18)",
+      "S Pallas → H Neptune RA 111.1689 111.111 ninth (90.55)",
+      "H Juno – H Aldebaran RA 111.1710 111.111 ninth (90.20)"
+     ],
+     "note": "110.9786 - 111.1710",
+     "field": "also: 2 Brazilian Belle, 9 Nad Alshiba Snow, 14 Havana White"
+    },
+    {
+     "check": 11,
      "key": "('155.556', '96×φ')",
      "cells": [
       "J Venus – J Pallas RA 155.3302 96×φ golden (93.59)",
@@ -1303,6 +1591,17 @@
      ],
      "note": "155.3302 - 155.5475",
      "field": "also: 1 Aviation Time, 11 Powerful Lady"
+    },
+    {
+     "check": 12,
+     "key": "(2,)",
+     "cells": [
+      "H Mercury – H Jupiter RA 2.0104 2 whole (22.93)",
+      "J Eris – J Fomalhaut Dec 20.0183 20 whole (0.72)",
+      "S Venus → J Ceres Dec 1.9960 2 whole (64.23)"
+     ],
+     "note": "2 and 20",
+     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 7 Mademoiselle, 9 Nad Alshiba Snow, 10 Over Spiced, 11 Powerful Lady, 13 Storm Call, 14 Havana White, 15 Perfect Part"
     },
     {
      "check": 12,
@@ -1319,18 +1618,31 @@
     },
     {
      "check": 12,
+     "key": "(11,)",
+     "cells": [
+      "H Ketu – H Fomalhaut Dec 10.9811 11 whole (0.29)",
+      "S Juno → H Eris Dec 10.9864 11 whole (10.27)",
+      "S Transpluto → H Sun Dec 10.9985 11 whole (85.66)",
+      "S Sun → J Haumea RA 109.9808 110 whole (0.16)"
+     ],
+     "note": "11 and 110",
+     "field": "also: 3 Call Me Harswell, 10 Over Spiced, 13 Storm Call, 14 Havana White"
+    },
+    {
+     "check": 12,
      "key": "(16,)",
      "cells": [
       "H Mercury – H Sedna Dec 15.9954 16 whole (59.63)",
       "S Vesta → H Quaoar RA 159.9957 160 whole (61.94)",
       "S Eris → H Haumea Dec 16.0100 16 whole (25.25)",
       "J Ceres – J Chiron RA 15.9929 16 whole (41.54)",
+      "J Transpluto – J Fomalhaut RA 160.0141 160 whole (8.72)",
       "S Jupiter → J Orcus Dec 15.9970 16 whole (72.39)",
       "S Jupiter → J Sedna Dec 16.0083 16 whole (34.42)",
       "S Saturn → J Neptune Dec 15.9861 16 whole (9.33)"
      ],
      "note": "16 and 160",
-     "field": "also: 1 Aviation Time, 7 Mademoiselle, 11 Powerful Lady, 13 Storm Call, 14 Havana White"
+     "field": "also: 1 Aviation Time, 7 Mademoiselle, 11 Powerful Lady, 13 Storm Call, 14 Havana White, 15 Perfect Part"
     },
     {
      "check": 12,
@@ -1344,7 +1656,7 @@
       "S Rahu → J Sun Dec 4.9804 5 whole (0.05)"
      ],
      "note": "5 and 50",
-     "field": "also: 1 Aviation Time, 2 Brazilian Belle, 3 Call Me Harswell, 7 Mademoiselle, 8 Maw Lam, 9 Nad Alshiba Snow, 11 Powerful Lady, 13 Storm Call"
+     "field": "also: 1 Aviation Time, 2 Brazilian Belle, 3 Call Me Harswell, 7 Mademoiselle, 8 Maw Lam, 9 Nad Alshiba Snow, 10 Over Spiced, 11 Powerful Lady, 13 Storm Call"
     },
     {
      "check": 12,
@@ -1357,7 +1669,20 @@
       "S Ceres → J Ketu Dec 39.9845 40 whole (4.98)"
      ],
      "note": "4 and 40",
-     "field": "also: 3 Call Me Harswell, 7 Mademoiselle, 8 Maw Lam, 10 Over Spiced, 13 Storm Call, 14 Havana White, 15 Perfect Part"
+     "field": "also: 3 Call Me Harswell, 7 Mademoiselle, 8 Maw Lam, 10 Over Spiced, 12 Sands Of Dubai, 13 Storm Call, 14 Havana White, 15 Perfect Part"
+    },
+    {
+     "check": 12,
+     "key": "(1,)",
+     "cells": [
+      "H Mercury – H Antares RA 100.0114 100 whole (18.47)",
+      "S Eris → H Eris RA 0.9888 1 whole (19.32)",
+      "S Saturn → H Jupiter RA 0.9916 1 whole (33.83)",
+      "S Orcus → H Gonggong Dec 1.0153 1 whole (5.41)",
+      "S Haumea → J Venus RA 0.9990 1 whole (90.30)"
+     ],
+     "note": "1 and 100",
+     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 7 Mademoiselle, 8 Maw Lam, 9 Nad Alshiba Snow, 10 Over Spiced, 11 Powerful Lady, 12 Sands Of Dubai, 13 Storm Call, 14 Havana White, 15 Perfect Part"
     },
     {
      "check": 12,
@@ -1366,24 +1691,29 @@
       "S Eris → H Eris RA 0.9888 1 whole (19.32)",
       "S Saturn → H Jupiter RA 0.9916 1 whole (33.83)",
       "S Ketu → H Venus Dec 10.0017 10 whole (84.13)",
+      "S Makemake → H Regulus Dec 10.0120 10 whole (16.17)",
       "S Orcus → H Gonggong Dec 1.0153 1 whole (5.41)",
       "S Haumea → J Venus RA 0.9990 1 whole (90.30)",
       "S Gonggong → J Gonggong Dec 10.0052 10 whole (55.13)",
+      "S Makemake → J Regulus Dec 10.0086 10 whole (32.77)",
       "S Orcus → J Neptune Dec 10.0141 10 whole (8.58)"
      ],
      "note": "1 and 10",
-     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 7 Mademoiselle, 8 Maw Lam, 11 Powerful Lady, 12 Sands Of Dubai, 13 Storm Call, 14 Havana White, 15 Perfect Part"
+     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 7 Mademoiselle, 8 Maw Lam, 9 Nad Alshiba Snow, 10 Over Spiced, 11 Powerful Lady, 12 Sands Of Dubai, 13 Storm Call, 14 Havana White, 15 Perfect Part"
     },
     {
      "check": 12,
-     "key": "(11,)",
+     "key": "(10,)",
      "cells": [
-      "S Juno → H Eris Dec 10.9864 11 whole (10.27)",
-      "S Transpluto → H Sun Dec 10.9985 11 whole (85.66)",
-      "S Sun → J Haumea RA 109.9808 110 whole (0.16)"
+      "H Mercury – H Antares RA 100.0114 100 whole (18.47)",
+      "S Ketu → H Venus Dec 10.0017 10 whole (84.13)",
+      "S Makemake → H Regulus Dec 10.0120 10 whole (16.17)",
+      "S Gonggong → J Gonggong Dec 10.0052 10 whole (55.13)",
+      "S Makemake → J Regulus Dec 10.0086 10 whole (32.77)",
+      "S Orcus → J Neptune Dec 10.0141 10 whole (8.58)"
      ],
-     "note": "11 and 110",
-     "field": "also: 3 Call Me Harswell, 10 Over Spiced, 13 Storm Call, 14 Havana White"
+     "note": "10 and 100",
+     "field": "also: 9 Nad Alshiba Snow"
     },
     {
      "check": 12,
@@ -1463,6 +1793,16 @@
     },
     {
      "check": 10,
+     "key": "(9,)",
+     "cells": [
+      "S Venus → J Aldebaran RA 8.9968 9 whole (70.17)",
+      "J Pallas – J Chiron Dec 14.5605 9×φ golden (89.31)"
+     ],
+     "note": "",
+     "field": "also: 2 Brazilian Belle, 4 Invincible Annice, 8 Maw Lam, 10 Over Spiced, 12 Sands Of Dubai, 14 Havana White"
+    },
+    {
+     "check": 10,
      "key": "(11,)",
      "cells": [
       "J Venus – J Transpluto RA 10.9979 11 whole (80.25)",
@@ -1510,12 +1850,27 @@
       "J Venus – J Transpluto RA 10.9979 11 whole (80.25)",
       "S Saturn → J Gonggong Dec 11.0108 11 whole (21.26)",
       "S Chiron → J Pallas Dec 11.0155 11 whole (5.02)",
+      "H Quaoar – H Antares Dec 11.0170 11 whole (2.21)",
       "S Mars → H Uranus RA 11.0901 φ^5 phi power (99.86)",
       "S Juno → J Pallas Dec 11.0908 φ^5 phi power (97.90)",
+      "J Sedna – J Aldebaran Dec 11.0952 φ^5 phi power (82.66)",
       "H Neptune – H Quaoar Dec 11.0989 φ^5 phi power (71.05)"
      ],
      "note": "10.9863 - 11.0989",
      "field": "also: 13 Storm Call"
+    },
+    {
+     "check": 11,
+     "key": "('12', '12.2222')",
+     "cells": [
+      "S Pluto → J Ketu RA 12.0013 12 whole (87.82)",
+      "S Chiron → H Chiron RA 12.0094 12 whole (28.08)",
+      "J Gonggong – J Fomalhaut RA 12.0135 12 whole (10.57)",
+      "S Pallas → H Uranus Dec 12.0142 12 whole (8.55)",
+      "S Juno → H Regulus RA 12.2282 12.2222 ninth (91.75)"
+     ],
+     "note": "12.0013 - 12.2282",
+     "field": "also: 1 Aviation Time, 2 Brazilian Belle, 3 Call Me Harswell, 8 Maw Lam, 9 Nad Alshiba Snow, 10 Over Spiced, 11 Powerful Lady, 12 Sands Of Dubai, 14 Havana White"
     },
     {
      "check": 11,
@@ -1537,9 +1892,10 @@
       "S Pluto → H Venus RA 15.9852 16 whole (6.85)",
       "H Mercury – H Mars RA 15.9908 16 whole (28.92)",
       "J Vesta – J Orcus RA 16.0081 16 whole (35.47)",
-      "J Mars – J Sedna Dec 16.1803 10×φ^1 phi power (99.99)"
+      "J Mars – J Sedna Dec 16.1803 10×φ^1 phi power (99.99)",
+      "J Venus – J Regulus RA 16.1880 10×φ^1 phi power (81.85)"
      ],
-     "note": "15.9852 - 16.1803",
+     "note": "15.9852 - 16.1880",
      "field": "also: 1 Aviation Time, 2 Brazilian Belle, 3 Call Me Harswell, 4 Invincible Annice, 11 Powerful Lady, 14 Havana White"
     },
     {
@@ -1557,6 +1913,17 @@
     },
     {
      "check": 11,
+     "key": "('24', '24.14')",
+     "cells": [
+      "S Venus → H Rahu RA 24.0191 24 whole (0.18)",
+      "S Haumea → H Pallas Dec 24.1413 24.14 silver (98.68)",
+      "S Orcus → J Regulus Dec 24.1420 24.14 silver (99.77)"
+     ],
+     "note": "24.0191 - 24.1420",
+     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 8 Maw Lam, 12 Sands Of Dubai, 13 Storm Call, 14 Havana White, 15 Perfect Part"
+    },
+    {
+     "check": 11,
      "key": "('18×φ', '29')",
      "cells": [
       "S Chiron → H Ketu Dec 29.0192 29 whole (0.15)",
@@ -1565,6 +1932,62 @@
      ],
      "note": "29.0192 - 29.1239",
      "field": "also: 1 Aviation Time, 2 Brazilian Belle"
+    },
+    {
+     "check": 11,
+     "key": "('24×φ', '39')",
+     "cells": [
+      "H Mercury – H Fomalhaut RA 38.8389 24×φ golden (66.07)",
+      "H Pluto – H Aldebaran Dec 38.9974 39 whole (75.89)",
+      "S Chiron → H Ceres RA 39.0103 39 whole (23.45)"
+     ],
+     "note": "38.8389 - 39.0103",
+     "field": "also: 3 Call Me Harswell, 13 Storm Call"
+    },
+    {
+     "check": 11,
+     "key": "('29×φ', '47')",
+     "cells": [
+      "S Pallas → H Mars RA 46.9209 29×φ golden (87.63)",
+      "S Moon → J Regulus RA 47.0089 47 whole (30.60)",
+      "S Moon → H Regulus RA 47.0153 47 whole (5.61)"
+     ],
+     "note": "46.9209 - 47.0153",
+     "field": "also: 9 Nad Alshiba Snow, 14 Havana White"
+    },
+    {
+     "check": 11,
+     "key": "('105', '65×φ')",
+     "cells": [
+      "S Saturn → J Quaoar RA 105.0125 105 whole (14.00)",
+      "J Sedna – J Regulus RA 105.1697 65×φ golden (85.23)",
+      "S Juno → H Ceres RA 105.1881 65×φ golden (25.78)"
+     ],
+     "note": "105.0125 - 105.1881",
+     "field": "also: 3 Call Me Harswell"
+    },
+    {
+     "check": 11,
+     "key": "('123', 'φ^10')",
+     "cells": [
+      "S Juno → J Saturn RA 122.9749 φ^10 phi power (94.56)",
+      "S Ketu → H Aldebaran RA 122.9920 φ^10 phi power (99.97)",
+      "S Ketu → J Aldebaran RA 122.9990 φ^10 phi power (97.68)",
+      "J Ceres – J Fomalhaut RA 123.0136 123 whole (10.37)"
+     ],
+     "note": "122.9749 - 123.0136",
+     "field": "also: 9 Nad Alshiba Snow"
+    },
+    {
+     "check": 11,
+     "key": "('139', '86×φ')",
+     "cells": [
+      "J Ketu – J Makemake RA 139.0166 139 whole (2.86)",
+      "H Vesta – H Regulus RA 139.0193 139 whole (0.12)",
+      "S Ceres → J Vesta RA 139.1630 86×φ golden (39.39)"
+     ],
+     "note": "139.0166 - 139.1630",
+     "field": "only"
     },
     {
      "check": 11,
@@ -1599,7 +2022,19 @@
       "J Vesta – J Orcus RA 16.0081 16 whole (35.47)"
      ],
      "note": "16 and 160",
-     "field": "also: 1 Aviation Time, 4 Invincible Annice, 11 Powerful Lady, 13 Storm Call, 14 Havana White"
+     "field": "also: 1 Aviation Time, 4 Invincible Annice, 11 Powerful Lady, 13 Storm Call, 14 Havana White, 15 Perfect Part"
+    },
+    {
+     "check": 12,
+     "key": "(9,)",
+     "cells": [
+      "H Ceres – H Regulus Dec 9.0176 9 whole (1.43)",
+      "S Venus → H Aldebaran RA 8.9897 9 whole (23.37)",
+      "S Pallas → J Vesta RA 90.0024 90 whole (77.28)",
+      "S Venus → J Aldebaran RA 8.9968 9 whole (70.17)"
+     ],
+     "note": "9 and 90",
+     "field": "also: 1 Aviation Time, 12 Sands Of Dubai, 13 Storm Call"
     },
     {
      "check": 12,
@@ -1620,23 +2055,27 @@
       "H Juno – H Orcus Dec 1.0080 1 whole (36.10)",
       "S Ceres → H Venus Dec 10.0170 10 whole (2.19)",
       "S Makemake → H Ceres Dec 0.9946 1 whole (53.40)",
+      "S Makemake → H Regulus Dec 10.0122 10 whole (15.12)",
       "J Rahu – J Ceres Dec 10.0103 10 whole (23.33)",
+      "S Makemake → J Regulus Dec 10.0093 10 whole (28.68)",
       "S Sedna → J Pallas Dec 10.0187 10 whole (0.45)"
      ],
      "note": "1 and 10",
-     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 4 Invincible Annice, 8 Maw Lam, 11 Powerful Lady, 12 Sands Of Dubai, 13 Storm Call, 14 Havana White, 15 Perfect Part"
+     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 4 Invincible Annice, 8 Maw Lam, 9 Nad Alshiba Snow, 10 Over Spiced, 11 Powerful Lady, 12 Sands Of Dubai, 13 Storm Call, 14 Havana White, 15 Perfect Part"
     },
     {
      "check": 12,
      "key": "(7,)",
      "cells": [
       "H Jupiter – H Eris Dec 6.9847 7 whole (5.58)",
+      "S Vesta → H Aldebaran Dec 6.9904 7 whole (27.19)",
       "J Ceres – J Makemake RA 70.0083 70 whole (33.95)",
       "S Pluto → J Chiron Dec 7.0151 7 whole (5.90)",
+      "S Vesta → J Aldebaran Dec 6.9894 7 whole (22.32)",
       "S Transpluto → J Vesta Dec 7.0176 7 whole (1.46)"
      ],
      "note": "7 and 70",
-     "field": "also: 1 Aviation Time, 8 Maw Lam"
+     "field": "also: 1 Aviation Time, 8 Maw Lam, 12 Sands Of Dubai"
     },
     {
      "check": 12,
@@ -1654,7 +2093,7 @@
       "J Mercury – J Uranus Dec 39.9941 40 whole (49.79)"
      ],
      "note": "4 and 40",
-     "field": "also: 3 Call Me Harswell, 4 Invincible Annice, 8 Maw Lam, 10 Over Spiced, 13 Storm Call, 14 Havana White, 15 Perfect Part"
+     "field": "also: 3 Call Me Harswell, 4 Invincible Annice, 8 Maw Lam, 10 Over Spiced, 12 Sands Of Dubai, 13 Storm Call, 14 Havana White, 15 Perfect Part"
     },
     {
      "check": 12,
@@ -1664,11 +2103,12 @@
       "S Uranus → H Rahu RA 2.0026 2 whole (75.30)",
       "S Sedna → H Gonggong Dec 19.9999 20 whole (98.91)",
       "J Jupiter – J Sedna RA 19.9913 20 whole (31.66)",
+      "J Quaoar – J Antares RA 2.0029 2 whole (72.68)",
       "S Orcus → J Makemake RA 19.9898 20 whole (24.13)",
       "S Pluto → J Juno Dec 20.0010 20 whole (90.18)"
      ],
      "note": "2 and 20",
-     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 9 Nad Alshiba Snow, 11 Powerful Lady, 13 Storm Call, 14 Havana White, 15 Perfect Part"
+     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 4 Invincible Annice, 9 Nad Alshiba Snow, 10 Over Spiced, 11 Powerful Lady, 13 Storm Call, 14 Havana White, 15 Perfect Part"
     },
     {
      "check": 12,
@@ -1689,6 +2129,7 @@
      "cells": [
       "S Chiron → H Chiron RA 12.0094 12 whole (28.08)",
       "S Pallas → H Uranus Dec 12.0142 12 whole (8.55)",
+      "J Gonggong – J Fomalhaut RA 12.0135 12 whole (10.57)",
       "S Pluto → J Ketu RA 12.0013 12 whole (87.82)",
       "S Makemake → J Uranus RA 119.9861 120 whole (9.22)"
      ],
@@ -1707,7 +2148,7 @@
       "S Transpluto → J Sedna Dec 5.0072 5 whole (40.88)"
      ],
      "note": "5 and 50",
-     "field": "also: 1 Aviation Time, 2 Brazilian Belle, 3 Call Me Harswell, 4 Invincible Annice, 8 Maw Lam, 9 Nad Alshiba Snow, 11 Powerful Lady, 13 Storm Call"
+     "field": "also: 1 Aviation Time, 2 Brazilian Belle, 3 Call Me Harswell, 4 Invincible Annice, 8 Maw Lam, 9 Nad Alshiba Snow, 10 Over Spiced, 11 Powerful Lady, 13 Storm Call"
     },
     {
      "check": 12,
@@ -1859,12 +2300,13 @@
       "S Saturn → J Orcus Dec 14.5667 9×φ golden (74.46)"
      ],
      "note": "",
-     "field": "also: 2 Brazilian Belle, 4 Invincible Annice, 10 Over Spiced, 12 Sands Of Dubai, 14 Havana White"
+     "field": "also: 2 Brazilian Belle, 4 Invincible Annice, 7 Mademoiselle, 10 Over Spiced, 12 Sands Of Dubai, 14 Havana White"
     },
     {
      "check": 10,
      "key": "(11,)",
      "cells": [
+      "H Quaoar – H Antares Dec 10.9973 11 whole (75.15)",
       "S Eris → J Quaoar Dec 11.0022 11 whole (78.93)",
       "S Haumea → J Venus Dec 17.7985 11×φ golden (98.99)"
      ],
@@ -1890,7 +2332,7 @@
       "S Haumea → H Orcus Dec 27.5000 17×φ golden (63.55)"
      ],
      "note": "",
-     "field": "only"
+     "field": "also: 14 Havana White"
     },
     {
      "check": 10,
@@ -1902,6 +2344,16 @@
      ],
      "note": "",
      "field": "also: 1 Aviation Time, 10 Over Spiced"
+    },
+    {
+     "check": 10,
+     "key": "(50,)",
+     "cells": [
+      "S Gonggong → H Vesta RA 50.0010 50 whole (90.06)",
+      "J Mercury – J Antares RA 80.9042 50×φ golden (84.91)"
+     ],
+     "note": "",
+     "field": "also: 9 Nad Alshiba Snow"
     },
     {
      "check": 11,
@@ -1918,16 +2370,28 @@
     },
     {
      "check": 11,
+     "key": "('11', '11.1111')",
+     "cells": [
+      "H Quaoar – H Antares Dec 10.9973 11 whole (75.15)",
+      "S Eris → J Quaoar Dec 11.0022 11 whole (78.93)",
+      "S Orcus → J Pallas Dec 11.1156 11.1111 ninth (92.62)"
+     ],
+     "note": "10.9973 - 11.1156",
+     "field": "also: 1 Aviation Time, 2 Brazilian Belle, 4 Invincible Annice, 11 Powerful Lady"
+    },
+    {
+     "check": 11,
      "key": "('12', '12.2222')",
      "cells": [
       "J Uranus – J Quaoar RA 11.9971 12 whole (73.15)",
       "J Sun – J Pallas Dec 12.0057 12 whole (51.47)",
       "J Sedna – J Transpluto Dec 12.0138 12 whole (9.66)",
       "S Juno → J Venus Dec 12.2202 12.2222 ninth (97.24)",
-      "S Moon → J Transpluto Dec 12.2223 12.2222 ninth (99.83)"
+      "S Moon → J Transpluto Dec 12.2223 12.2222 ninth (99.83)",
+      "S Juno → H Regulus RA 12.2282 12.2222 ninth (91.71)"
      ],
-     "note": "11.9971 - 12.2223",
-     "field": "also: 1 Aviation Time, 10 Over Spiced, 11 Powerful Lady, 12 Sands Of Dubai"
+     "note": "11.9971 - 12.2282",
+     "field": "also: 1 Aviation Time, 2 Brazilian Belle, 3 Call Me Harswell, 7 Mademoiselle, 9 Nad Alshiba Snow, 10 Over Spiced, 11 Powerful Lady, 12 Sands Of Dubai, 14 Havana White"
     },
     {
      "check": 11,
@@ -1985,10 +2449,12 @@
       "H Uranus – H Pallas Dec 23.9830 24 whole (2.19)",
       "S Juno → J Saturn RA 23.9843 24 whole (4.62)",
       "H Neptune – H Rahu Dec 23.9898 24 whole (24.24)",
-      "S Sedna → H Quaoar Dec 24.1415 24.14 silver (99.02)"
+      "J Venus – J Antares Dec 23.9917 24 whole (34.22)",
+      "S Sedna → H Quaoar Dec 24.1415 24.14 silver (99.02)",
+      "S Orcus → J Regulus Dec 24.1430 24.14 silver (98.50)"
      ],
-     "note": "23.9830 - 24.1415",
-     "field": "also: 12 Sands Of Dubai"
+     "note": "23.9830 - 24.1430",
+     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 7 Mademoiselle, 12 Sands Of Dubai, 13 Storm Call, 14 Havana White, 15 Perfect Part"
     },
     {
      "check": 11,
@@ -2002,7 +2468,7 @@
       "S Orcus → J Ceres Dec 26.0125 26 whole (14.18)"
      ],
      "note": "25.8820 - 26.0125",
-     "field": "also: 1 Aviation Time, 9 Nad Alshiba Snow, 10 Over Spiced"
+     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 9 Nad Alshiba Snow, 10 Over Spiced"
     },
     {
      "check": 11,
@@ -2013,6 +2479,19 @@
       "J Saturn – J Makemake RA 29.0388 φ^7 phi power (94.13)"
      ],
      "note": "28.9884 - 29.0388",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('29×φ', '47', 'φ^8')",
+     "cells": [
+      "H Ceres – H Antares Dec 46.9238 29×φ golden (94.99)",
+      "S Moon → H Ketu Dec 46.9730 φ^8 phi power (95.20)",
+      "J Saturn – J Transpluto RA 46.9799 φ^8 phi power (98.99)",
+      "S Moon → J Regulus RA 47.0073 47 whole (40.51)",
+      "S Moon → H Regulus RA 47.0152 47 whole (5.68)"
+     ],
+     "note": "46.9238 - 47.0152",
      "field": "only"
     },
     {
@@ -2032,10 +2511,33 @@
      "cells": [
       "S Makemake → H Rahu RA 143.9844 144 whole (4.94)",
       "S Mercury → H Mars RA 143.9954 144 whole (58.99)",
+      "H Venus – H Aldebaran RA 144.0188 89×φ golden (33.10)",
       "H Rahu – H Makemake RA 144.0347 89×φ golden (0.69)"
      ],
      "note": "143.9844 - 144.0347",
      "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('149', '92×φ')",
+     "cells": [
+      "S Haumea → H Aldebaran RA 148.8824 92×φ golden (7.86)",
+      "S Haumea → J Aldebaran RA 148.8858 92×φ golden (3.14)",
+      "S Sun → H Vesta RA 148.9852 149 whole (6.81)"
+     ],
+     "note": "148.8824 - 148.9852",
+     "field": "also: 14 Havana White, 15 Perfect Part"
+    },
+    {
+     "check": 11,
+     "key": "('110×φ', '177.778')",
+     "cells": [
+      "S Uranus → J Uranus RA 177.7239 177.778 ninth (95.78)",
+      "S Vesta → H Pluto RA 177.7819 177.778 ninth (99.68)",
+      "J Mercury – J Fomalhaut RA 177.9681 110×φ golden (26.77)"
+     ],
+     "note": "177.7239 - 177.9681",
+     "field": "also: 12 Sands Of Dubai"
     },
     {
      "check": 12,
@@ -2050,17 +2552,32 @@
     },
     {
      "check": 12,
+     "key": "(4,)",
+     "cells": [
+      "H Ceres – H Aldebaran Dec 3.9845 4 whole (5.04)",
+      "S Eris → H Neptune Dec 4.0113 4 whole (18.94)",
+      "J Pluto – J Ceres RA 40.0099 40 whole (25.32)",
+      "J Sun – J Mercury Dec 3.9805 4 whole (0.07)",
+      "S Ketu → J Saturn Dec 3.9958 4 whole (62.49)"
+     ],
+     "note": "4 and 40",
+     "field": "also: 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 10 Over Spiced, 12 Sands Of Dubai, 13 Storm Call, 14 Havana White, 15 Perfect Part"
+    },
+    {
+     "check": 12,
      "key": "(7,)",
      "cells": [
       "H Chiron – H Eris Dec 6.9832 7 whole (2.60)",
       "S Haumea → H Vesta RA 69.9844 70 whole (4.88)",
       "S Ketu → H Orcus Dec 7.0036 7 whole (67.54)",
       "S Neptune → H Chiron Dec 6.9936 7 whole (46.41)",
+      "S Vesta → H Aldebaran Dec 6.9903 7 whole (26.68)",
+      "S Vesta → J Aldebaran Dec 6.9875 7 whole (13.97)",
       "S Haumea → J Orcus Dec 6.9930 7 whole (41.97)",
       "S Orcus → J Uranus Dec 7.0070 7 whole (42.07)"
      ],
      "note": "7 and 70",
-     "field": "also: 1 Aviation Time, 7 Mademoiselle"
+     "field": "also: 1 Aviation Time, 7 Mademoiselle, 12 Sands Of Dubai"
     },
     {
      "check": 12,
@@ -2094,10 +2611,11 @@
      "key": "(5,)",
      "cells": [
       "S Gonggong → H Vesta RA 50.0010 50 whole (90.06)",
-      "S Chiron → H Uranus Dec 4.9870 5 whole (12.11)"
+      "S Chiron → H Uranus Dec 4.9870 5 whole (12.11)",
+      "J Mercury – J Regulus Dec 5.0023 5 whole (78.29)"
      ],
      "note": "5 and 50",
-     "field": "also: 1 Aviation Time, 2 Brazilian Belle, 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 9 Nad Alshiba Snow, 11 Powerful Lady, 13 Storm Call"
+     "field": "also: 1 Aviation Time, 2 Brazilian Belle, 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 9 Nad Alshiba Snow, 10 Over Spiced, 11 Powerful Lady, 13 Storm Call"
     },
     {
      "check": 12,
@@ -2107,27 +2625,17 @@
       "S Eris → H Eris Dec 0.9818 1 whole (0.81)",
       "S Uranus → H Rahu Dec 1.0126 1 whole (13.78)",
       "S Vesta → H Makemake Dec 0.9997 1 whole (97.11)",
+      "S Makemake → H Regulus Dec 10.0122 10 whole (15.16)",
       "J Mercury – J Juno Dec 9.9854 10 whole (7.21)",
       "J Sun – J Vesta Dec 10.0044 10 whole (60.89)",
       "S Juno → J Rahu Dec 10.0056 10 whole (51.80)",
       "S Moon → J Makemake Dec 10.0005 10 whole (95.50)",
       "S Neptune → J Quaoar Dec 10.0100 10 whole (24.81)",
-      "S Pluto → J Neptune Dec 0.9893 1 whole (21.42)"
+      "S Pluto → J Neptune Dec 0.9893 1 whole (21.42)",
+      "S Makemake → J Regulus Dec 10.0082 10 whole (34.56)"
      ],
      "note": "1 and 10",
-     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 11 Powerful Lady, 12 Sands Of Dubai, 13 Storm Call, 14 Havana White, 15 Perfect Part"
-    },
-    {
-     "check": 12,
-     "key": "(4,)",
-     "cells": [
-      "S Eris → H Neptune Dec 4.0113 4 whole (18.94)",
-      "J Pluto – J Ceres RA 40.0099 40 whole (25.32)",
-      "J Sun – J Mercury Dec 3.9805 4 whole (0.07)",
-      "S Ketu → J Saturn Dec 3.9958 4 whole (62.49)"
-     ],
-     "note": "4 and 40",
-     "field": "also: 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 10 Over Spiced, 13 Storm Call, 14 Havana White, 15 Perfect Part"
+     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 9 Nad Alshiba Snow, 10 Over Spiced, 11 Powerful Lady, 12 Sands Of Dubai, 13 Storm Call, 14 Havana White, 15 Perfect Part"
     },
     {
      "check": 12,
@@ -2150,6 +2658,8 @@
       "S Haumea → H Chiron RA 149.9930 150 whole (42.16)",
       "S Saturn → H Vesta Dec 14.9893 15 whole (21.39)",
       "S Venus → H Sedna Dec 15.0077 15 whole (38.03)",
+      "J Ceres – J Regulus RA 14.9824 15 whole (1.39)",
+      "J Juno – J Regulus Dec 14.9877 15 whole (14.72)",
       "J Saturn – J Ceres Dec 14.9814 15 whole (0.52)",
       "S Makemake → J Mercury Dec 15.0105 15 whole (22.34)",
       "S Sedna → J Haumea Dec 14.9871 15 whole (12.60)"
@@ -2167,11 +2677,12 @@
    "items": [
     {
      "check": 7,
-     "key": "('count', 1)",
+     "key": "('count', 2)",
      "cells": [
+      "17.7778 ninth",
       "5 whole"
      ],
-     "note": "1 numbers",
+     "note": "2 numbers",
      "field": ""
     },
     {
@@ -2237,7 +2748,18 @@
       "J Neptune – J Juno RA 80.9078 50×φ golden (65.73)"
      ],
      "note": "",
-     "field": "only"
+     "field": "also: 8 Maw Lam"
+    },
+    {
+     "check": 11,
+     "key": "('12', '12.2222')",
+     "cells": [
+      "H Pallas – H Vesta Dec 11.9914 12 whole (32.22)",
+      "S Juno → H Regulus RA 12.2282 12.2222 ninth (91.73)",
+      "S Juno → J Regulus RA 12.2290 12.2222 ninth (90.60)"
+     ],
+     "note": "11.9914 - 12.2290",
+     "field": "also: 1 Aviation Time, 2 Brazilian Belle, 3 Call Me Harswell, 7 Mademoiselle, 8 Maw Lam, 10 Over Spiced, 11 Powerful Lady, 12 Sands Of Dubai, 14 Havana White"
     },
     {
      "check": 11,
@@ -2245,22 +2767,24 @@
      "cells": [
       "S Gonggong → J Rahu Dec 12.9479 8×φ golden (78.74)",
       "S Mars → J Haumea Dec 12.9841 13 whole (4.22)",
-      "S Transpluto → J Ketu Dec 12.9956 13 whole (60.86)"
+      "S Transpluto → J Ketu Dec 12.9956 13 whole (60.86)",
+      "H Saturn – H Fomalhaut Dec 13.0026 13 whole (75.87)"
      ],
-     "note": "12.9479 - 12.9956",
+     "note": "12.9479 - 13.0026",
      "field": "also: 1 Aviation Time, 8 Maw Lam, 13 Storm Call"
     },
     {
      "check": 11,
      "key": "('17.7778', '18', 'φ^6')",
      "cells": [
+      "J Eris – J Antares Dec 17.7763 17.7778 ninth (98.82)",
       "H Chiron – H Orcus Dec 17.7782 17.7778 ninth (99.67)",
       "S Neptune → J Venus RA 17.9432 φ^6 phi power (97.55)",
       "S Jupiter → J Sedna RA 18.0011 18 whole (89.12)",
       "S Quaoar → J Orcus Dec 18.0041 18 whole (63.31)",
       "S Neptune → H Jupiter RA 18.0113 18 whole (19.11)"
      ],
-     "note": "17.7782 - 18.0113",
+     "note": "17.7763 - 18.0113",
      "field": "only"
     },
     {
@@ -2287,7 +2811,30 @@
       "H Uranus – H Gonggong Dec 26.0174 26 whole (1.75)"
      ],
      "note": "25.8833 - 26.0174",
-     "field": "also: 1 Aviation Time, 8 Maw Lam, 10 Over Spiced"
+     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 8 Maw Lam, 10 Over Spiced"
+    },
+    {
+     "check": 11,
+     "key": "('28×φ', '45')",
+     "cells": [
+      "S Uranus → H Antares Dec 45.0095 45 whole (27.32)",
+      "S Uranus → J Antares Dec 45.0104 45 whole (22.92)",
+      "S Mercury → J Ceres Dec 45.3038 28×φ golden (92.97)"
+     ],
+     "note": "45.0095 - 45.3038",
+     "field": "also: 12 Sands Of Dubai"
+    },
+    {
+     "check": 11,
+     "key": "('29×φ', '47')",
+     "cells": [
+      "H Rahu – H Chiron RA 46.9258 29×φ golden (83.17)",
+      "S Moon → H Mercury Dec 46.9911 47 whole (30.53)",
+      "S Moon → J Regulus RA 47.0144 47 whole (7.75)",
+      "S Moon → H Regulus RA 47.0153 47 whole (5.64)"
+     ],
+     "note": "46.9258 - 47.0153",
+     "field": "also: 7 Mademoiselle, 14 Havana White"
     },
     {
      "check": 11,
@@ -2310,13 +2857,26 @@
       "S Quaoar → J Sun RA 111.1806 111.111 ninth (88.63)"
      ],
      "note": "110.9823 - 111.1806",
-     "field": "also: 2 Brazilian Belle, 14 Havana White"
+     "field": "also: 2 Brazilian Belle, 4 Invincible Annice, 14 Havana White"
+    },
+    {
+     "check": 11,
+     "key": "('123', 'φ^10')",
+     "cells": [
+      "S Ketu → H Aldebaran RA 122.9916 φ^10 phi power (99.90)",
+      "J Chiron – J Antares RA 122.9980 φ^10 phi power (98.01)",
+      "S Ketu → J Aldebaran RA 122.9982 φ^10 phi power (97.95)",
+      "S Uranus → H Vesta RA 123.0063 123 whole (46.70)"
+     ],
+     "note": "122.9916 - 123.0063",
+     "field": "also: 7 Mademoiselle"
     },
     {
      "check": 12,
      "key": "(15,)",
      "cells": [
       "H Ceres – H Chiron Dec 15.0100 15 whole (25.02)",
+      "H Juno – H Antares Dec 14.9961 15 whole (64.71)",
       "S Ketu → H Jupiter RA 150.0001 150 whole (99.13)",
       "S Venus → H Sedna Dec 15.0025 15 whole (76.20)"
      ],
@@ -2332,10 +2892,12 @@
       "H Pallas – H Orcus Dec 3.0094 3 whole (27.91)",
       "H Pluto – H Ketu Dec 2.9848 3 whole (5.83)",
       "H Rahu – H Makemake Dec 2.9985 3 whole (85.34)",
+      "H Rahu – H Aldebaran Dec 3.0126 3 whole (13.52)",
       "S Rahu → H Jupiter RA 29.9999 30 whole (99.13)",
       "S Neptune → H Neptune Dec 2.9916 3 whole (33.44)",
       "S Uranus → H Juno Dec 30.0135 30 whole (10.70)",
       "S Gonggong → H Rahu Dec 29.9889 30 whole (19.69)",
+      "J Rahu – J Antares Dec 3.0160 3 whole (3.91)",
       "J Venus – J Orcus Dec 3.0064 3 whole (46.46)",
       "S Quaoar → J Ceres RA 29.9923 30 whole (37.58)",
       "S Ceres → J Orcus Dec 29.9905 30 whole (27.35)"
@@ -2347,11 +2909,26 @@
      "check": 12,
      "key": "(10,)",
      "cells": [
+      "H Mercury – H Fomalhaut Dec 10.0172 10 whole (1.96)",
       "H Neptune – H Chiron Dec 10.0162 10 whole (3.70)",
-      "J Sun – J Neptune RA 99.9816 100 whole (0.67)"
+      "S Makemake → H Regulus Dec 10.0122 10 whole (15.14)",
+      "J Sun – J Neptune RA 99.9816 100 whole (0.67)",
+      "S Makemake → J Regulus Dec 10.0111 10 whole (19.59)"
      ],
      "note": "10 and 100",
-     "field": "only"
+     "field": "also: 4 Invincible Annice"
+    },
+    {
+     "check": 12,
+     "key": "(13,)",
+     "cells": [
+      "H Saturn – H Fomalhaut Dec 13.0026 13 whole (75.87)",
+      "S Sedna → J Neptune RA 130.0061 130 whole (48.49)",
+      "S Mars → J Haumea Dec 12.9841 13 whole (4.22)",
+      "S Transpluto → J Ketu Dec 12.9956 13 whole (60.86)"
+     ],
+     "note": "13 and 130",
+     "field": "also: 4 Invincible Annice, 13 Storm Call"
     },
     {
      "check": 12,
@@ -2370,22 +2947,35 @@
      "cells": [
       "S Chiron → H Uranus Dec 5.0016 5 whole (84.46)",
       "S Pallas → H Mars Dec 49.9942 50 whole (50.69)",
+      "J Vesta – J Regulus Dec 5.0130 5 whole (12.29)",
       "S Moon → J Uranus Dec 49.9982 50 whole (82.84)",
       "S Makemake → J Vesta Dec 4.9982 5 whole (82.46)"
      ],
      "note": "5 and 50",
-     "field": "also: 1 Aviation Time, 2 Brazilian Belle, 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 11 Powerful Lady, 13 Storm Call"
+     "field": "also: 1 Aviation Time, 2 Brazilian Belle, 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 10 Over Spiced, 11 Powerful Lady, 13 Storm Call"
     },
     {
      "check": 12,
-     "key": "(13,)",
+     "key": "(1,)",
      "cells": [
-      "S Sedna → J Neptune RA 130.0061 130 whole (48.49)",
-      "S Mars → J Haumea Dec 12.9841 13 whole (4.22)",
-      "S Transpluto → J Ketu Dec 12.9956 13 whole (60.86)"
+      "H Mercury – H Fomalhaut Dec 10.0172 10 whole (1.96)",
+      "H Neptune – H Chiron Dec 10.0162 10 whole (3.70)",
+      "S Makemake → H Regulus Dec 10.0122 10 whole (15.14)",
+      "J Jupiter – J Regulus Dec 1.0090 1 whole (30.00)",
+      "S Makemake → J Regulus Dec 10.0111 10 whole (19.59)"
      ],
-     "note": "13 and 130",
-     "field": "also: 4 Invincible Annice, 13 Storm Call"
+     "note": "1 and 10",
+     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 10 Over Spiced, 11 Powerful Lady, 12 Sands Of Dubai, 13 Storm Call, 14 Havana White, 15 Perfect Part"
+    },
+    {
+     "check": 12,
+     "key": "(1,)",
+     "cells": [
+      "J Sun – J Neptune RA 99.9816 100 whole (0.67)",
+      "J Jupiter – J Regulus Dec 1.0090 1 whole (30.00)"
+     ],
+     "note": "1 and 100",
+     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 10 Over Spiced, 11 Powerful Lady, 12 Sands Of Dubai, 13 Storm Call, 14 Havana White, 15 Perfect Part"
     },
     {
      "check": 12,
@@ -2396,7 +2986,7 @@
       "S Transpluto → J Sun Dec 1.9897 2 whole (23.45)"
      ],
      "note": "2 and 20",
-     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 7 Mademoiselle, 11 Powerful Lady, 13 Storm Call, 14 Havana White, 15 Perfect Part"
+     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 10 Over Spiced, 11 Powerful Lady, 13 Storm Call, 14 Havana White, 15 Perfect Part"
     }
    ]
   },
@@ -2438,7 +3028,7 @@
     },
     {
      "check": 7,
-     "key": "('count', 7)",
+     "key": "('count', 9)",
      "cells": [
       "20×φ golden",
       "9×φ golden",
@@ -2446,9 +3036,11 @@
       "133.333 ninth",
       "155.556 ninth",
       "177.778 ninth",
-      "14.14 sqrt2"
+      "φ^6 phi power",
+      "14.14 sqrt2",
+      "141.4 sqrt2"
      ],
-     "note": "7 numbers",
+     "note": "9 numbers",
      "field": ""
     },
     {
@@ -2486,12 +3078,13 @@
      "key": "(9,)",
      "cells": [
       "H Chiron – H Haumea Dec 8.9998 9 whole (98.21)",
+      "S Venus → H Aldebaran RA 8.9949 9 whole (55.26)",
       "S Ketu → J Sedna Dec 8.9973 9 whole (74.46)",
       "S Ceres → H Quaoar RA 14.5638 9×φ golden (91.17)",
       "S Pluto → J Sun RA 14.5647 9×φ golden (85.47)"
      ],
      "note": "",
-     "field": "also: 2 Brazilian Belle, 4 Invincible Annice, 8 Maw Lam, 12 Sands Of Dubai, 14 Havana White"
+     "field": "also: 2 Brazilian Belle, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 12 Sands Of Dubai, 14 Havana White"
     },
     {
      "check": 10,
@@ -2502,7 +3095,7 @@
       "S Orcus → J Haumea RA 30.7438 19×φ golden (93.24)"
      ],
      "note": "",
-     "field": "also: 14 Havana White, 15 Perfect Part"
+     "field": "also: 1 Aviation Time, 14 Havana White, 15 Perfect Part"
     },
     {
      "check": 10,
@@ -2559,10 +3152,11 @@
      "key": "(69,)",
      "cells": [
       "S Mars → H Vesta RA 68.9982 69 whole (82.47)",
+      "S Neptune → J Aldebaran RA 68.9974 69 whole (75.27)",
       "S Ketu → J Ceres RA 111.6438 69×φ golden (96.91)"
      ],
      "note": "",
-     "field": "only"
+     "field": "also: 4 Invincible Annice"
     },
     {
      "check": 11,
@@ -2585,11 +3179,12 @@
       "S Vesta → J Orcus RA 12.0104 12 whole (22.99)",
       "S Neptune → H Transpluto Dec 12.0146 12 whole (7.24)",
       "H Jupiter – H Quaoar Dec 12.0185 12 whole (0.55)",
+      "S Juno → J Regulus RA 12.2261 12.2222 ninth (94.68)",
       "J Ketu – J Orcus Dec 12.2277 12.2222 ninth (92.42)",
       "S Gonggong → H Saturn RA 12.2287 12.2222 ninth (91.06)"
      ],
      "note": "11.9962 - 12.2287",
-     "field": "also: 1 Aviation Time, 8 Maw Lam, 11 Powerful Lady, 12 Sands Of Dubai"
+     "field": "also: 1 Aviation Time, 2 Brazilian Belle, 3 Call Me Harswell, 7 Mademoiselle, 8 Maw Lam, 9 Nad Alshiba Snow, 11 Powerful Lady, 12 Sands Of Dubai, 14 Havana White"
     },
     {
      "check": 11,
@@ -2611,9 +3206,10 @@
      "cells": [
       "H Pluto – H Vesta RA 17.7700 17.7778 ninth (93.92)",
       "S Juno → H Venus Dec 17.7733 17.7778 ninth (96.50)",
-      "J Mercury – J Mars RA 17.9427 φ^6 phi power (96.60)"
+      "J Mercury – J Mars RA 17.9427 φ^6 phi power (96.60)",
+      "H Orcus – H Fomalhaut Dec 17.9480 φ^6 phi power (91.80)"
      ],
-     "note": "17.7700 - 17.9427",
+     "note": "17.7700 - 17.9480",
      "field": "only"
     },
     {
@@ -2623,9 +3219,10 @@
       "H Neptune – H Pluto Dec 18.8878 18.8889 ninth (99.22)",
       "S Rahu → J Vesta Dec 18.9954 19 whole (59.58)",
       "S Pluto → H Pallas Dec 18.9956 19 whole (61.06)",
-      "H Uranus – H Neptune Dec 19.0109 19 whole (20.64)"
+      "H Uranus – H Neptune Dec 19.0109 19 whole (20.64)",
+      "H Rahu – H Aldebaran RA 19.0127 19 whole (13.48)"
      ],
-     "note": "18.8878 - 19.0109",
+     "note": "18.8878 - 19.0127",
      "field": "also: 8 Maw Lam, 12 Sands Of Dubai, 13 Storm Call"
     },
     {
@@ -2637,7 +3234,7 @@
       "S Mars → J Sun Dec 25.9995 26 whole (94.90)"
      ],
      "note": "25.8805 - 25.9995",
-     "field": "also: 1 Aviation Time, 8 Maw Lam, 9 Nad Alshiba Snow"
+     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 8 Maw Lam, 9 Nad Alshiba Snow"
     },
     {
      "check": 11,
@@ -2652,6 +3249,17 @@
     },
     {
      "check": 11,
+     "key": "('19×φ', '31')",
+     "cells": [
+      "S Orcus → J Haumea RA 30.7438 19×φ golden (93.24)",
+      "H Venus – H Makemake Dec 30.9964 31 whole (67.36)",
+      "J Venus – J Aldebaran Dec 31.0120 31 whole (15.99)"
+     ],
+     "note": "30.7438 - 31.0120",
+     "field": "also: 2 Brazilian Belle, 3 Call Me Harswell, 11 Powerful Lady, 14 Havana White, 15 Perfect Part"
+    },
+    {
+     "check": 11,
      "key": "('23×φ', '37')",
      "cells": [
       "J Ketu – J Chiron RA 36.9835 37 whole (3.14)",
@@ -2663,6 +3271,17 @@
     },
     {
      "check": 11,
+     "key": "('118', '73×φ')",
+     "cells": [
+      "S Vesta → J Quaoar RA 117.9822 118 whole (1.17)",
+      "J Orcus – J Antares RA 118.1336 73×φ golden (22.33)",
+      "S Ceres → H Rahu RA 118.1448 73×φ golden (1.60)"
+     ],
+     "note": "117.9822 - 118.1448",
+     "field": "only"
+    },
+    {
+     "check": 11,
      "key": "('177.778', '178')",
      "cells": [
       "S Juno → H Venus RA 177.7319 177.778 ninth (96.41)",
@@ -2671,7 +3290,7 @@
       "S Uranus → H Ketu RA 178.0143 178 whole (8.21)"
      ],
      "note": "177.7319 - 178.0143",
-     "field": "also: 3 Call Me Harswell"
+     "field": "also: 3 Call Me Harswell, 14 Havana White"
     },
     {
      "check": 12,
@@ -2690,6 +3309,31 @@
     },
     {
      "check": 12,
+     "key": "(1,)",
+     "cells": [
+      "H Uranus – H Aldebaran Dec 1.0074 1 whole (39.49)",
+      "S Juno → H Transpluto RA 9.9943 10 whole (50.79)",
+      "S Makemake → H Regulus Dec 10.0113 10 whole (18.80)",
+      "S Makemake → J Regulus Dec 10.0122 10 whole (15.10)"
+     ],
+     "note": "1 and 10",
+     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 9 Nad Alshiba Snow, 11 Powerful Lady, 12 Sands Of Dubai, 13 Storm Call, 14 Havana White, 15 Perfect Part"
+    },
+    {
+     "check": 12,
+     "key": "(2,)",
+     "cells": [
+      "H Neptune – H Aldebaran Dec 20.0183 20 whole (0.68)",
+      "S Uranus → H Rahu RA 1.9857 2 whole (8.21)",
+      "J Mercury – J Uranus Dec 1.9876 2 whole (14.40)",
+      "J Rahu – J Vesta Dec 1.9980 2 whole (80.92)",
+      "J Sun – J Vesta Dec 2.0190 2 whole (0.25)"
+     ],
+     "note": "2 and 20",
+     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 9 Nad Alshiba Snow, 11 Powerful Lady, 13 Storm Call, 14 Havana White, 15 Perfect Part"
+    },
+    {
+     "check": 12,
      "key": "(15,)",
      "cells": [
       "S Chiron → H Juno Dec 14.9818 15 whole (0.78)",
@@ -2697,6 +3341,18 @@
      ],
      "note": "15 and 150",
      "field": "also: 1 Aviation Time, 3 Call Me Harswell, 7 Mademoiselle, 8 Maw Lam, 9 Nad Alshiba Snow"
+    },
+    {
+     "check": 12,
+     "key": "(5,)",
+     "cells": [
+      "S Transpluto → H Mercury Dec 5.0007 5 whole (92.67)",
+      "J Chiron – J Regulus RA 50.0042 50 whole (62.02)",
+      "J Ceres – J Haumea Dec 4.9862 5 whole (9.75)",
+      "S Neptune → J Orcus Dec 5.0072 5 whole (40.77)"
+     ],
+     "note": "5 and 50",
+     "field": "also: 1 Aviation Time, 2 Brazilian Belle, 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 9 Nad Alshiba Snow, 11 Powerful Lady, 13 Storm Call"
     },
     {
      "check": 12,
@@ -2722,13 +3378,14 @@
      "check": 12,
      "key": "(4,)",
      "cells": [
+      "J Uranus – J Aldebaran Dec 39.9927 40 whole (40.17)",
       "S Eris → J Orcus Dec 4.0150 4 whole (6.16)",
       "S Moon → J Jupiter Dec 3.9836 4 whole (3.27)",
       "S Saturn → J Pluto Dec 4.0021 4 whole (80.02)",
       "S Orcus → J Ceres Dec 39.9850 40 whole (6.32)"
      ],
      "note": "4 and 40",
-     "field": "also: 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 13 Storm Call, 14 Havana White, 15 Perfect Part"
+     "field": "also: 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 12 Sands Of Dubai, 13 Storm Call, 14 Havana White, 15 Perfect Part"
     }
    ]
   },
@@ -2866,6 +3523,26 @@
     },
     {
      "check": 10,
+     "key": "(37,)",
+     "cells": [
+      "H Transpluto – H Antares Dec 36.9944 37 whole (51.96)",
+      "S Orcus → H Haumea RA 59.8686 37×φ golden (91.96)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(74,)",
+     "cells": [
+      "H Sedna – H Fomalhaut RA 74.0011 74 whole (89.60)",
+      "S Gonggong → J Chiron RA 119.7439 74×φ golden (50.22)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
      "key": "(75,)",
      "cells": [
       "S Mercury → H Neptune RA 74.9953 75 whole (58.78)",
@@ -2900,6 +3577,7 @@
      "cells": [
       "S Juno → J Sedna Dec 5.9802 6 whole (0.01)",
       "H Pallas – H Chiron RA 5.9802 6 whole (0.02)",
+      "J Uranus – J Fomalhaut Dec 5.9813 6 whole (0.45)",
       "J Mars – J Ceres RA 6.1803 10×φ^-1 phi power (99.47)",
       "H Jupiter – H Orcus Dec 6.1807 10×φ^-1 phi power (97.48)"
      ],
@@ -2918,7 +3596,7 @@
       "S Uranus → H Transpluto Dec 8.0156 8 whole (4.78)"
      ],
      "note": "7.7773 - 8.0156",
-     "field": "only"
+     "field": "also: 3 Call Me Harswell"
     },
     {
      "check": 11,
@@ -2926,10 +3604,22 @@
      "cells": [
       "S Juno → H Eris Dec 10.9915 11 whole (32.95)",
       "S Orcus → J Makemake RA 10.9951 11 whole (56.84)",
-      "S Mars → H Sun Dec 11.1130 11.1111 ninth (96.98)"
+      "S Mars → H Sun Dec 11.1130 11.1111 ninth (96.98)",
+      "H Quaoar – H Antares Dec 11.1156 11.1111 ninth (92.70)"
      ],
-     "note": "10.9915 - 11.1130",
-     "field": "also: 1 Aviation Time, 2 Brazilian Belle"
+     "note": "10.9915 - 11.1156",
+     "field": "also: 1 Aviation Time, 2 Brazilian Belle, 4 Invincible Annice, 8 Maw Lam"
+    },
+    {
+     "check": 11,
+     "key": "('11.1111', '7×φ')",
+     "cells": [
+      "S Mars → H Sun Dec 11.1130 11.1111 ninth (96.98)",
+      "H Quaoar – H Antares Dec 11.1156 11.1111 ninth (92.70)",
+      "S Quaoar → J Mercury Dec 11.3201 7×φ golden (65.73)"
+     ],
+     "note": "11.1130 - 11.3201",
+     "field": "also: 1 Aviation Time, 4 Invincible Annice"
     },
     {
      "check": 11,
@@ -2938,20 +3628,22 @@
       "H Jupiter – H Chiron Dec 11.9904 12 whole (26.84)",
       "J Venus – J Rahu Dec 11.9938 12 whole (47.87)",
       "J Sun – J Saturn Dec 12.0119 12 whole (16.33)",
+      "S Juno → H Regulus RA 12.2288 12.2222 ninth (90.87)",
       "S Chiron → J Mars Dec 12.2290 12.2222 ninth (90.68)"
      ],
      "note": "11.9904 - 12.2290",
-     "field": "also: 1 Aviation Time, 8 Maw Lam, 10 Over Spiced, 12 Sands Of Dubai"
+     "field": "also: 1 Aviation Time, 2 Brazilian Belle, 3 Call Me Harswell, 7 Mademoiselle, 8 Maw Lam, 9 Nad Alshiba Snow, 10 Over Spiced, 12 Sands Of Dubai, 14 Havana White"
     },
     {
      "check": 11,
      "key": "('10×φ^1', '16')",
      "cells": [
+      "J Gonggong – J Fomalhaut RA 15.9876 16 whole (14.57)",
       "S Chiron → H Pallas Dec 15.9879 16 whole (15.76)",
       "S Eris → H Haumea Dec 15.9995 16 whole (95.18)",
       "S Pallas → H Transpluto Dec 16.1899 10×φ^1 phi power (77.84)"
      ],
-     "note": "15.9879 - 16.1899",
+     "note": "15.9876 - 16.1899",
      "field": "also: 1 Aviation Time, 2 Brazilian Belle, 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 14 Havana White"
     },
     {
@@ -2960,9 +3652,10 @@
      "cells": [
       "H Sun – H Pallas RA 17.7703 17.7778 ninth (94.12)",
       "S Neptune → H Vesta Dec 17.7963 11×φ golden (87.67)",
-      "J Vesta – J Gonggong Dec 17.9957 18 whole (61.46)"
+      "J Vesta – J Gonggong Dec 17.9957 18 whole (61.46)",
+      "H Juno – H Antares Dec 18.0108 18 whole (21.10)"
      ],
-     "note": "17.7703 - 17.9957",
+     "note": "17.7703 - 18.0108",
      "field": "only"
     },
     {
@@ -2982,6 +3675,17 @@
     },
     {
      "check": 11,
+     "key": "('19×φ', '31')",
+     "cells": [
+      "J Orcus – J Antares Dec 30.7408 19×φ golden (88.77)",
+      "S Chiron → H Jupiter RA 30.9825 31 whole (1.56)",
+      "S Sedna → J Neptune Dec 30.9833 31 whole (2.72)"
+     ],
+     "note": "30.7408 - 30.9833",
+     "field": "also: 2 Brazilian Belle, 3 Call Me Harswell, 10 Over Spiced, 14 Havana White, 15 Perfect Part"
+    },
+    {
+     "check": 11,
      "key": "('26×φ', '42')",
      "cells": [
       "H Ketu – H Ceres Dec 41.9819 42 whole (0.89)",
@@ -2991,18 +3695,19 @@
       "S Pallas → H Quaoar Dec 42.0687 26×φ golden (98.93)"
      ],
      "note": "41.9819 - 42.0687",
-     "field": "only"
+     "field": "also: 1 Aviation Time, 2 Brazilian Belle"
     },
     {
      "check": 11,
      "key": "('155.556', '96×φ')",
      "cells": [
+      "J Pluto – J Aldebaran RA 155.3088 96×φ golden (9.42)",
       "H Mars – H Orcus RA 155.3153 96×φ golden (25.83)",
       "S Orcus → H Venus RA 155.3549 96×φ golden (7.31)",
       "S Mercury → J Pluto RA 155.5066 155.556 ninth (95.37)",
       "J Jupiter – J Uranus RA 155.5726 155.556 ninth (98.38)"
      ],
-     "note": "155.3153 - 155.5726",
+     "note": "155.3088 - 155.5726",
      "field": "also: 1 Aviation Time, 4 Invincible Annice"
     },
     {
@@ -3014,7 +3719,7 @@
       "S Pluto → J Transpluto RA 160.1613 99×φ golden (6.56)"
      ],
      "note": "159.9868 - 160.1613",
-     "field": "only"
+     "field": "also: 15 Perfect Part"
     },
     {
      "check": 12,
@@ -3036,12 +3741,15 @@
      "key": "(1,)",
      "cells": [
       "S Eris → H Eris RA 0.9976 1 whole (77.77)",
+      "S Makemake → H Regulus Dec 10.0120 10 whole (16.10)",
       "S Orcus → H Gonggong Dec 1.0108 1 whole (21.02)",
+      "J Ketu – J Aldebaran Dec 9.9873 10 whole (13.22)",
       "S Mars → J Jupiter Dec 10.0050 10 whole (56.32)",
-      "S Saturn → J Sedna Dec 10.0012 10 whole (88.12)"
+      "S Saturn → J Sedna Dec 10.0012 10 whole (88.12)",
+      "S Makemake → J Regulus Dec 10.0092 10 whole (28.98)"
      ],
      "note": "1 and 10",
-     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 12 Sands Of Dubai, 13 Storm Call, 14 Havana White, 15 Perfect Part"
+     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 9 Nad Alshiba Snow, 10 Over Spiced, 12 Sands Of Dubai, 13 Storm Call, 14 Havana White, 15 Perfect Part"
     },
     {
      "check": 12,
@@ -3050,10 +3758,11 @@
       "S Vesta → H Quaoar RA 159.9877 160 whole (14.88)",
       "S Chiron → H Pallas Dec 15.9879 16 whole (15.76)",
       "S Eris → H Haumea Dec 15.9995 16 whole (95.18)",
-      "J Gonggong – J Makemake RA 159.9868 160 whole (11.44)"
+      "J Gonggong – J Makemake RA 159.9868 160 whole (11.44)",
+      "J Gonggong – J Fomalhaut RA 15.9876 16 whole (14.57)"
      ],
      "note": "16 and 160",
-     "field": "also: 1 Aviation Time, 4 Invincible Annice, 7 Mademoiselle, 13 Storm Call, 14 Havana White"
+     "field": "also: 1 Aviation Time, 4 Invincible Annice, 7 Mademoiselle, 13 Storm Call, 14 Havana White, 15 Perfect Part"
     },
     {
      "check": 12,
@@ -3079,7 +3788,7 @@
       "S Pluto → J Ceres Dec 5.0014 5 whole (86.78)"
      ],
      "note": "5 and 50",
-     "field": "also: 1 Aviation Time, 2 Brazilian Belle, 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 9 Nad Alshiba Snow, 13 Storm Call"
+     "field": "also: 1 Aviation Time, 2 Brazilian Belle, 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 9 Nad Alshiba Snow, 10 Over Spiced, 13 Storm Call"
     },
     {
      "check": 12,
@@ -3090,7 +3799,7 @@
       "S Quaoar → J Juno Dec 20.0075 20 whole (38.98)"
      ],
      "note": "2 and 20",
-     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 7 Mademoiselle, 9 Nad Alshiba Snow, 13 Storm Call, 14 Havana White, 15 Perfect Part"
+     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 9 Nad Alshiba Snow, 10 Over Spiced, 13 Storm Call, 14 Havana White, 15 Perfect Part"
     }
    ]
   },
@@ -3101,6 +3810,16 @@
    },
    "items": [
     {
+     "check": 1,
+     "key": "('Pluto', 'Antares', '4')",
+     "cells": [
+      "H Pluto – H Antares Dec 3.9972 4 whole (74.21)",
+      "J Pluto – J Antares RA 3.9885 4 whole (18.16)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
      "check": "2b",
      "key": "('Sedna', 'Vesta')",
      "cells": [
@@ -3108,6 +3827,16 @@
       "S Sedna → J Vesta RA 27.5038 17×φ golden (83.56)"
      ],
      "note": "both >= 80",
+     "field": "only"
+    },
+    {
+     "check": 6,
+     "key": "('Moon', 'H', 'Fomalhaut')",
+     "cells": [
+      "S Moon → H Fomalhaut Dec 57.0047 57 whole (58.17)",
+      "H Jupiter – H Fomalhaut Dec 27.9957 28 whole (61.90)"
+     ],
+     "note": "",
      "field": "only"
     },
     {
@@ -3122,6 +3851,15 @@
      ],
      "note": "5 numbers",
      "field": ""
+    },
+    {
+     "check": 9,
+     "key": "('H', 'Fomalhaut', '28')",
+     "cells": [
+      "H Jupiter – H Fomalhaut Dec 27.9957 28 whole (61.90)"
+     ],
+     "note": "",
+     "field": "only"
     },
     {
      "check": 9,
@@ -3146,10 +3884,11 @@
      "key": "(9,)",
      "cells": [
       "S Ceres → H Pluto RA 9.0025 9 whole (76.55)",
+      "S Venus → H Aldebaran RA 8.9960 9 whole (63.74)",
       "S Rahu → H Eris RA 14.5632 9×φ golden (94.57)"
      ],
      "note": "",
-     "field": "also: 2 Brazilian Belle, 4 Invincible Annice, 8 Maw Lam, 10 Over Spiced, 14 Havana White"
+     "field": "also: 2 Brazilian Belle, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 10 Over Spiced, 14 Havana White"
     },
     {
      "check": 10,
@@ -3174,6 +3913,17 @@
     },
     {
      "check": 10,
+     "key": "(28,)",
+     "cells": [
+      "H Jupiter – H Fomalhaut Dec 27.9957 28 whole (61.90)",
+      "S Orcus → H Uranus Dec 27.9990 28 whole (90.37)",
+      "J Eris – J Aldebaran RA 45.3071 28×φ golden (87.30)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
      "key": "(31,)",
      "cells": [
       "H Uranus – H Quaoar Dec 30.9998 31 whole (98.03)",
@@ -3195,6 +3945,16 @@
     },
     {
      "check": 10,
+     "key": "(59,)",
+     "cells": [
+      "J Makemake – J Antares Dec 58.9995 59 whole (94.97)",
+      "S Uranus → J Jupiter RA 95.4621 59×φ golden (88.56)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
      "key": "(90,)",
      "cells": [
       "S Haumea → J Uranus RA 89.9978 90 whole (79.15)",
@@ -3204,16 +3964,38 @@
      "field": "only"
     },
     {
+     "check": 10,
+     "key": "(110,)",
+     "cells": [
+      "H Uranus – H Regulus RA 110.0026 110 whole (75.59)",
+      "H Juno – H Orcus RA 177.9920 110×φ golden (55.63)"
+     ],
+     "note": "",
+     "field": "also: 13 Storm Call"
+    },
+    {
      "check": 11,
      "key": "('12', '12.2222')",
      "cells": [
       "J Ceres – J Gonggong RA 11.9878 12 whole (15.27)",
+      "H Saturn – H Antares Dec 11.9888 12 whole (19.19)",
       "S Sedna → H Neptune Dec 11.9981 12 whole (81.82)",
       "H Neptune – H Vesta Dec 12.0021 12 whole (80.00)",
       "S Sun → H Transpluto Dec 12.2213 12.2222 ninth (98.71)"
      ],
      "note": "11.9878 - 12.2213",
-     "field": "also: 1 Aviation Time, 8 Maw Lam, 10 Over Spiced, 11 Powerful Lady"
+     "field": "also: 1 Aviation Time, 2 Brazilian Belle, 3 Call Me Harswell, 7 Mademoiselle, 8 Maw Lam, 9 Nad Alshiba Snow, 10 Over Spiced, 11 Powerful Lady, 14 Havana White"
+    },
+    {
+     "check": 11,
+     "key": "('11×φ', '18')",
+     "cells": [
+      "H Venus – H Fomalhaut RA 17.7982 11×φ golden (98.65)",
+      "S Venus → J Sedna Dec 17.9990 18 whole (90.57)",
+      "S Venus → J Saturn Dec 18.0050 18 whole (56.44)"
+     ],
+     "note": "17.7982 - 18.0050",
+     "field": "also: 1 Aviation Time, 14 Havana White"
     },
     {
      "check": 11,
@@ -3234,11 +4016,14 @@
      "key": "('24', '24.14')",
      "cells": [
       "S Sedna → H Vesta Dec 24.0002 24 whole (98.00)",
+      "J Eris – J Aldebaran Dec 24.0114 24 whole (18.65)",
       "S Chiron → J Quaoar Dec 24.0137 24 whole (9.94)",
+      "S Orcus → H Regulus Dec 24.1405 24.14 silver (97.38)",
+      "S Orcus → J Regulus Dec 24.1430 24.14 silver (98.64)",
       "S Chiron → H Saturn Dec 24.1482 24.14 silver (90.14)"
      ],
      "note": "24.0002 - 24.1482",
-     "field": "also: 8 Maw Lam"
+     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 7 Mademoiselle, 8 Maw Lam, 13 Storm Call, 14 Havana White, 15 Perfect Part"
     },
     {
      "check": 11,
@@ -3250,6 +4035,17 @@
      ],
      "note": "25.9866 - 26.1873",
      "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('28×φ', '45')",
+     "cells": [
+      "S Uranus → J Antares Dec 45.0104 45 whole (23.16)",
+      "S Uranus → H Antares Dec 45.0108 45 whole (21.27)",
+      "J Eris – J Aldebaran RA 45.3071 28×φ golden (87.30)"
+     ],
+     "note": "45.0104 - 45.3071",
+     "field": "also: 9 Nad Alshiba Snow"
     },
     {
      "check": 11,
@@ -3275,6 +4071,17 @@
     },
     {
      "check": 11,
+     "key": "('115', '71×φ')",
+     "cells": [
+      "H Venus – H Antares RA 114.8529 71×φ golden (2.21)",
+      "J Venus – J Jupiter RA 114.8599 71×φ golden (13.33)",
+      "S Vesta → H Venus RA 114.9953 115 whole (58.43)"
+     ],
+     "note": "114.8529 - 114.9953",
+     "field": "only"
+    },
+    {
+     "check": 11,
      "key": "('110×φ', '177.778')",
      "cells": [
       "S Vesta → J Neptune RA 177.7269 177.778 ninth (96.02)",
@@ -3283,7 +4090,20 @@
       "H Juno – H Orcus RA 177.9920 110×φ golden (55.63)"
      ],
      "note": "177.7269 - 177.9920",
-     "field": "only"
+     "field": "also: 8 Maw Lam"
+    },
+    {
+     "check": 12,
+     "key": "(7,)",
+     "cells": [
+      "H Jupiter – H Aldebaran RA 70.0131 70 whole (11.99)",
+      "H Gonggong – H Fomalhaut RA 7.0182 7 whole (0.80)",
+      "S Vesta → H Aldebaran Dec 6.9910 7 whole (30.34)",
+      "S Haumea → H Sedna Dec 7.0161 7 whole (3.89)",
+      "S Vesta → J Aldebaran Dec 6.9881 7 whole (16.54)"
+     ],
+     "note": "7 and 70",
+     "field": "also: 1 Aviation Time, 7 Mademoiselle, 8 Maw Lam"
     },
     {
      "check": 12,
@@ -3293,6 +4113,7 @@
       "H Mercury – H Ceres Dec 3.0031 3 whole (71.16)",
       "S Orcus → H Quaoar Dec 3.0008 3 whole (92.26)",
       "J Pluto – J Haumea Dec 29.9821 30 whole (1.08)",
+      "J Gonggong – J Regulus Dec 30.0138 30 whole (9.67)",
       "S Gonggong → J Uranus RA 29.9876 30 whole (14.62)",
       "S Sedna → J Pallas Dec 3.0081 3 whole (35.18)",
       "S Transpluto → J Uranus Dec 29.9802 30 whole (0.01)"
@@ -3302,16 +4123,31 @@
     },
     {
      "check": 12,
+     "key": "(4,)",
+     "cells": [
+      "H Pluto – H Antares Dec 3.9972 4 whole (74.21)",
+      "H Sun – H Regulus Dec 3.9825 4 whole (1.51)",
+      "H Haumea – H Regulus Dec 3.9967 4 whole (69.71)",
+      "J Pluto – J Antares RA 3.9885 4 whole (18.16)",
+      "S Sun → J Mars Dec 39.9813 40 whole (0.43)"
+     ],
+     "note": "4 and 40",
+     "field": "also: 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 10 Over Spiced, 13 Storm Call, 14 Havana White, 15 Perfect Part"
+    },
+    {
+     "check": 12,
      "key": "(1,)",
      "cells": [
       "H Eris – H Gonggong Dec 10.0039 10 whole (64.86)",
       "H Venus – H Jupiter Dec 0.9867 1 whole (11.34)",
       "S Mars → H Eris RA 0.9966 1 whole (69.00)",
+      "S Makemake → H Regulus Dec 10.0107 10 whole (21.42)",
       "J Rahu – J Sedna Dec 1.0161 1 whole (3.73)",
-      "J Saturn – J Rahu Dec 1.0102 1 whole (24.02)"
+      "J Saturn – J Rahu Dec 1.0102 1 whole (24.02)",
+      "S Makemake → J Regulus Dec 10.0083 10 whole (34.06)"
      ],
      "note": "1 and 10",
-     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 11 Powerful Lady, 13 Storm Call, 14 Havana White, 15 Perfect Part"
+     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 9 Nad Alshiba Snow, 10 Over Spiced, 11 Powerful Lady, 13 Storm Call, 14 Havana White, 15 Perfect Part"
     },
     {
      "check": 12,
@@ -3319,11 +4155,23 @@
      "cells": [
       "H Venus – H Sedna Dec 8.9817 9 whole (0.69)",
       "S Ceres → H Pluto RA 9.0025 9 whole (76.55)",
+      "S Venus → H Aldebaran RA 8.9960 9 whole (63.74)",
       "J Jupiter – J Pluto Dec 8.9908 9 whole (29.07)",
+      "S Venus → J Aldebaran RA 8.9909 9 whole (29.47)",
       "S Haumea → J Uranus RA 89.9978 90 whole (79.15)"
      ],
      "note": "9 and 90",
-     "field": "also: 1 Aviation Time"
+     "field": "also: 1 Aviation Time, 7 Mademoiselle, 13 Storm Call"
+    },
+    {
+     "check": 13,
+     "key": "('Pluto', 'Antares', ('digits', 4))",
+     "cells": [
+      "H Pluto – H Antares Dec 3.9972 4 whole (74.21)",
+      "J Pluto – J Antares RA 3.9885 4 whole (18.16)"
+     ],
+     "note": "Pluto – Antares: digits 4",
+     "field": "only"
     },
     {
      "check": 15,
@@ -3366,6 +4214,15 @@
      "field": ""
     },
     {
+     "check": 9,
+     "key": "('H', 'Antares', '24')",
+     "cells": [
+      "H Jupiter – H Antares Dec 23.9949 24 whole (55.74)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
      "check": 10,
      "key": "(13,)",
      "cells": [
@@ -3382,6 +4239,7 @@
      "key": "(24,)",
      "cells": [
       "H Mercury – H Eris RA 23.9994 24 whole (93.77)",
+      "H Jupiter – H Antares Dec 23.9949 24 whole (55.74)",
       "S Pluto → J Orcus Dec 24.0046 24 whole (59.66)",
       "H Venus – H Pallas RA 38.8333 24×φ golden (96.79)",
       "S Uranus → J Neptune Dec 38.8387 24×φ golden (67.02)"
@@ -3397,7 +4255,7 @@
       "S Uranus → H Ketu RA 177.9801 110×φ golden (78.92)"
      ],
      "note": "",
-     "field": "only"
+     "field": "also: 12 Sands Of Dubai"
     },
     {
      "check": 11,
@@ -3443,6 +4301,7 @@
      "key": "('10×φ^-1', '6')",
      "cells": [
       "J Saturn – J Rahu Dec 5.9855 6 whole (7.50)",
+      "J Quaoar – J Antares RA 5.9888 6 whole (19.26)",
       "J Chiron – J Orcus Dec 6.0045 6 whole (60.16)",
       "S Mercury → H Haumea Dec 6.0061 6 whole (47.98)",
       "S Rahu → H Eris Dec 6.1801 10×φ^-1 phi power (98.68)"
@@ -3452,13 +4311,28 @@
     },
     {
      "check": 11,
+     "key": "('7', '7.07')",
+     "cells": [
+      "H Mars – H Neptune Dec 6.9871 7 whole (12.56)",
+      "S Vesta → J Aldebaran Dec 6.9892 7 whole (21.34)",
+      "S Vesta → H Aldebaran Dec 6.9910 7 whole (30.39)",
+      "J Pallas – J Aldebaran Dec 7.0147 7 whole (7.12)",
+      "H Gonggong – H Fomalhaut RA 7.0717 7.07 sqrt2 (96.59)"
+     ],
+     "note": "6.9871 - 7.0717",
+     "field": "also: 14 Havana White"
+    },
+    {
+     "check": 11,
      "key": "('10',)",
      "cells": [
       "H Eris – H Gonggong Dec 9.9885 10 whole (18.21)",
       "S Eris → H Mars Dec 9.9997 10 ninth (98.18)",
-      "S Haumea → J Ketu Dec 10.0036 10 whole (67.33)"
+      "S Haumea → J Ketu Dec 10.0036 10 whole (67.33)",
+      "S Makemake → J Regulus Dec 10.0092 10 whole (29.24)",
+      "S Makemake → H Regulus Dec 10.0111 10 whole (19.97)"
      ],
-     "note": "9.9885 - 10.0036",
+     "note": "9.9885 - 10.0111",
      "field": "only"
     },
     {
@@ -3496,6 +4370,7 @@
       "S Sedna → H Juno Dec 12.9440 8×φ golden (98.50)",
       "J Neptune – J Pluto Dec 12.9969 13 whole (71.60)",
       "S Juno → H Pallas Dec 12.9990 13 whole (90.42)",
+      "H Eris – H Regulus Dec 13.0079 13 whole (36.64)",
       "S Transpluto → J Sun Dec 13.0105 13 whole (22.37)"
      ],
      "note": "12.9440 - 13.0105",
@@ -3520,6 +4395,7 @@
      "key": "('18.8889', '19')",
      "cells": [
       "S Neptune → J Neptune Dec 18.8805 18.8889 ninth (93.97)",
+      "J Eris – J Antares Dec 18.8821 18.8889 ninth (95.13)",
       "J Sun – J Juno Dec 18.9840 19 whole (4.08)",
       "S Sedna → H Uranus RA 19.0089 19 whole (30.63)",
       "H Neptune – H Pluto Dec 19.0113 19 whole (19.01)",
@@ -3542,6 +4418,19 @@
     },
     {
      "check": 11,
+     "key": "('24', '24.14')",
+     "cells": [
+      "H Jupiter – H Antares Dec 23.9949 24 whole (55.74)",
+      "H Mercury – H Eris RA 23.9994 24 whole (93.77)",
+      "S Pluto → J Orcus Dec 24.0046 24 whole (59.66)",
+      "S Orcus → H Regulus Dec 24.1402 24.14 silver (96.86)",
+      "S Orcus → J Regulus Dec 24.1421 24.14 silver (99.94)"
+     ],
+     "note": "23.9949 - 24.1421",
+     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 7 Mademoiselle, 8 Maw Lam, 12 Sands Of Dubai, 14 Havana White, 15 Perfect Part"
+    },
+    {
+     "check": 11,
      "key": "('24×φ', '39')",
      "cells": [
       "H Venus – H Pallas RA 38.8333 24×φ golden (96.79)",
@@ -3549,7 +4438,7 @@
       "H Uranus – H Ceres RA 38.9865 39 whole (10.55)"
      ],
      "note": "38.8333 - 38.9865",
-     "field": "also: 3 Call Me Harswell"
+     "field": "also: 3 Call Me Harswell, 7 Mademoiselle"
     },
     {
      "check": 11,
@@ -3595,7 +4484,7 @@
       "S Saturn → J Makemake Dec 40.0022 40 whole (79.57)"
      ],
      "note": "4 and 40",
-     "field": "also: 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 10 Over Spiced, 14 Havana White, 15 Perfect Part"
+     "field": "also: 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 10 Over Spiced, 12 Sands Of Dubai, 14 Havana White, 15 Perfect Part"
     },
     {
      "check": 12,
@@ -3608,7 +4497,20 @@
       "S Rahu → J Pallas RA 159.9816 160 whole (0.66)"
      ],
      "note": "16 and 160",
-     "field": "also: 1 Aviation Time, 4 Invincible Annice, 7 Mademoiselle, 11 Powerful Lady, 14 Havana White"
+     "field": "also: 1 Aviation Time, 4 Invincible Annice, 7 Mademoiselle, 11 Powerful Lady, 14 Havana White, 15 Perfect Part"
+    },
+    {
+     "check": 12,
+     "key": "(13,)",
+     "cells": [
+      "H Eris – H Regulus Dec 13.0079 13 whole (36.64)",
+      "S Juno → H Pallas Dec 12.9990 13 whole (90.42)",
+      "J Neptune – J Pluto Dec 12.9969 13 whole (71.60)",
+      "S Pluto → J Makemake RA 129.9811 130 whole (0.29)",
+      "S Transpluto → J Sun Dec 13.0105 13 whole (22.37)"
+     ],
+     "note": "13 and 130",
+     "field": "also: 4 Invincible Annice, 9 Nad Alshiba Snow"
     },
     {
      "check": 12,
@@ -3616,14 +4518,16 @@
      "cells": [
       "H Eris – H Gonggong Dec 9.9885 10 whole (18.21)",
       "H Pallas – H Juno Dec 1.0171 1 whole (2.08)",
+      "S Makemake → H Regulus Dec 10.0111 10 whole (19.97)",
       "J Ceres – J Gonggong Dec 0.9910 1 whole (30.22)",
       "J Mercury – J Venus Dec 1.0018 1 whole (82.90)",
       "J Pluto – J Vesta Dec 1.0199 1 whole (0.00)",
       "S Eris → J Saturn Dec 1.0192 1 whole (0.17)",
-      "S Haumea → J Ketu Dec 10.0036 10 whole (67.33)"
+      "S Haumea → J Ketu Dec 10.0036 10 whole (67.33)",
+      "S Makemake → J Regulus Dec 10.0092 10 whole (29.24)"
      ],
      "note": "1 and 10",
-     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 11 Powerful Lady, 12 Sands Of Dubai, 14 Havana White, 15 Perfect Part"
+     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 9 Nad Alshiba Snow, 10 Over Spiced, 11 Powerful Lady, 12 Sands Of Dubai, 14 Havana White, 15 Perfect Part"
     },
     {
      "check": 12,
@@ -3647,10 +4551,27 @@
      "cells": [
       "H Uranus – H Transpluto Dec 5.0031 5 whole (71.23)",
       "S Neptune → H Neptune RA 4.9890 5 whole (20.06)",
-      "S Ceres → H Makemake Dec 49.9925 50 whole (38.99)"
+      "S Ceres → H Makemake Dec 49.9925 50 whole (38.99)",
+      "J Mars – J Aldebaran Dec 5.0031 5 whole (71.55)"
      ],
      "note": "5 and 50",
-     "field": "also: 1 Aviation Time, 2 Brazilian Belle, 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 9 Nad Alshiba Snow, 11 Powerful Lady"
+     "field": "also: 1 Aviation Time, 2 Brazilian Belle, 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 9 Nad Alshiba Snow, 10 Over Spiced, 11 Powerful Lady"
+    },
+    {
+     "check": 12,
+     "key": "(9,)",
+     "cells": [
+      "H Gonggong – H Antares RA 89.9827 90 whole (1.85)",
+      "S Ceres → H Pluto RA 8.9958 9 whole (62.77)",
+      "S Venus → H Aldebaran RA 8.9955 9 whole (59.70)",
+      "S Neptune → H Mars Dec 9.0075 9 whole (38.85)",
+      "S Saturn → H Quaoar Dec 8.9967 9 whole (70.11)",
+      "S Venus → J Aldebaran RA 8.9967 9 whole (69.58)",
+      "S Transpluto → J Transpluto RA 8.9853 9 whole (6.95)",
+      "S Mars → J Orcus Dec 9.0060 9 whole (48.79)"
+     ],
+     "note": "9 and 90",
+     "field": "also: 1 Aviation Time, 7 Mademoiselle, 12 Sands Of Dubai"
     },
     {
      "check": 12,
@@ -3675,19 +4596,7 @@
       "S Quaoar → J Sedna Dec 20.0091 20 whole (29.74)"
      ],
      "note": "2 and 20",
-     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 7 Mademoiselle, 9 Nad Alshiba Snow, 11 Powerful Lady, 14 Havana White, 15 Perfect Part"
-    },
-    {
-     "check": 12,
-     "key": "(13,)",
-     "cells": [
-      "S Juno → H Pallas Dec 12.9990 13 whole (90.42)",
-      "J Neptune – J Pluto Dec 12.9969 13 whole (71.60)",
-      "S Pluto → J Makemake RA 129.9811 130 whole (0.29)",
-      "S Transpluto → J Sun Dec 13.0105 13 whole (22.37)"
-     ],
-     "note": "13 and 130",
-     "field": "also: 4 Invincible Annice, 9 Nad Alshiba Snow"
+     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 9 Nad Alshiba Snow, 10 Over Spiced, 11 Powerful Lady, 14 Havana White, 15 Perfect Part"
     },
     {
      "check": 13,
@@ -3798,11 +4707,12 @@
      "key": "(9,)",
      "cells": [
       "H Vesta – H Gonggong Dec 9.0046 9 whole (59.28)",
+      "S Venus → J Aldebaran RA 8.9968 9 whole (70.85)",
       "S Venus → J Makemake Dec 8.9988 9 whole (87.99)",
       "S Sedna → J Sun Dec 14.5694 9×φ golden (61.20)"
      ],
      "note": "",
-     "field": "also: 2 Brazilian Belle, 4 Invincible Annice, 8 Maw Lam, 10 Over Spiced, 12 Sands Of Dubai"
+     "field": "also: 2 Brazilian Belle, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 10 Over Spiced, 12 Sands Of Dubai"
     },
     {
      "check": 10,
@@ -3826,13 +4736,23 @@
     },
     {
      "check": 10,
+     "key": "(17,)",
+     "cells": [
+      "J Ketu – J Eris Dec 17.0003 17 whole (96.82)",
+      "J Vesta – J Aldebaran RA 27.5052 17×φ golden (91.53)"
+     ],
+     "note": "",
+     "field": "also: 8 Maw Lam"
+    },
+    {
+     "check": 10,
      "key": "(19,)",
      "cells": [
       "H Uranus – H Neptune Dec 18.9950 19 whole (56.29)",
       "H Vesta – H Transpluto Dec 30.7493 19×φ golden (62.88)"
      ],
      "note": "",
-     "field": "also: 10 Over Spiced, 15 Perfect Part"
+     "field": "also: 1 Aviation Time, 10 Over Spiced, 15 Perfect Part"
     },
     {
      "check": 10,
@@ -3877,27 +4797,51 @@
      "field": "only"
     },
     {
+     "check": 10,
+     "key": "(43,)",
+     "cells": [
+      "H Eris – H Aldebaran RA 43.0052 43 whole (54.84)",
+      "S Venus → J Transpluto RA 69.5722 43×φ golden (80.82)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
      "check": 11,
      "key": "('7', '7.07')",
      "cells": [
+      "S Vesta → J Aldebaran Dec 6.9896 7 whole (23.08)",
+      "S Vesta → H Aldebaran Dec 6.9906 7 whole (28.22)",
       "S Uranus → J Venus Dec 6.9916 7 whole (33.36)",
       "J Orcus – J Sedna Dec 7.0015 7 whole (85.43)",
       "H Sun – H Gonggong RA 7.0714 7.07 sqrt2 (98.10)"
      ],
-     "note": "6.9916 - 7.0714",
-     "field": "only"
+     "note": "6.9896 - 7.0714",
+     "field": "also: 13 Storm Call"
     },
     {
      "check": 11,
      "key": "('11', '11.1111', 'φ^5')",
      "cells": [
       "S Chiron → H Eris Dec 10.9885 11 whole (18.10)",
+      "J Jupiter – J Regulus Dec 10.9929 11 whole (41.65)",
       "S Gonggong → H Mars Dec 11.0146 11 whole (7.40)",
       "S Sedna → J Saturn Dec 11.0959 φ^5 phi power (80.48)",
       "S Juno → J Orcus Dec 11.1160 11.1111 ninth (92.02)"
      ],
      "note": "10.9885 - 11.1160",
      "field": "also: 15 Perfect Part"
+    },
+    {
+     "check": 11,
+     "key": "('12', '12.2222')",
+     "cells": [
+      "S Rahu → H Sun Dec 11.9817 12 whole (0.73)",
+      "S Juno → H Regulus RA 12.2283 12.2222 ninth (91.57)",
+      "S Ceres → J Quaoar Dec 12.2295 12.2222 ninth (89.96)"
+     ],
+     "note": "11.9817 - 12.2295",
+     "field": "also: 1 Aviation Time, 2 Brazilian Belle, 3 Call Me Harswell, 7 Mademoiselle, 8 Maw Lam, 9 Nad Alshiba Snow, 10 Over Spiced, 11 Powerful Lady, 12 Sands Of Dubai"
     },
     {
      "check": 11,
@@ -3925,15 +4869,40 @@
     },
     {
      "check": 11,
+     "key": "('11×φ', '18')",
+     "cells": [
+      "H Eris – H Aldebaran Dec 17.7918 11×φ golden (63.41)",
+      "J Chiron – J Quaoar RA 17.7992 11×φ golden (95.10)",
+      "H Chiron – H Orcus Dec 17.9811 18 whole (0.31)"
+     ],
+     "note": "17.7918 - 17.9811",
+     "field": "also: 1 Aviation Time, 12 Sands Of Dubai"
+    },
+    {
+     "check": 11,
      "key": "('22', '22.2222')",
      "cells": [
       "H Saturn – H Chiron Dec 21.9824 22 whole (1.39)",
+      "H Pallas – H Fomalhaut Dec 21.9903 22 whole (26.53)",
       "H Jupiter – H Uranus Dec 22.0022 22 whole (79.40)",
       "S Jupiter → J Jupiter RA 22.0064 22 whole (46.09)",
       "S Transpluto → J Pluto Dec 22.2224 22.2222 ninth (99.70)"
      ],
      "note": "21.9824 - 22.2224",
      "field": "also: 8 Maw Lam, 9 Nad Alshiba Snow, 15 Perfect Part"
+    },
+    {
+     "check": 11,
+     "key": "('24', '24.14')",
+     "cells": [
+      "H Orcus – H Regulus Dec 24.0032 24 whole (70.31)",
+      "S Ketu → H Rahu Dec 24.1416 24.14 silver (99.04)",
+      "S Rahu → H Ketu Dec 24.1416 24.14 silver (99.04)",
+      "S Orcus → J Regulus Dec 24.1419 24.14 silver (99.55)",
+      "H Pallas – H Aldebaran Dec 24.1426 24.14 silver (99.28)"
+     ],
+     "note": "24.0032 - 24.1426",
+     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 7 Mademoiselle, 8 Maw Lam, 12 Sands Of Dubai, 13 Storm Call, 15 Perfect Part"
     },
     {
      "check": 11,
@@ -3956,7 +4925,7 @@
       "S Pluto → H Sedna Dec 31.0053 31 whole (54.04)"
      ],
      "note": "30.7493 - 31.0053",
-     "field": "also: 2 Brazilian Belle, 3 Call Me Harswell, 15 Perfect Part"
+     "field": "also: 2 Brazilian Belle, 3 Call Me Harswell, 10 Over Spiced, 11 Powerful Lady, 15 Perfect Part"
     },
     {
      "check": 11,
@@ -3968,6 +4937,18 @@
      ],
      "note": "33.9768 - 34.0154",
      "field": "also: 1 Aviation Time, 3 Call Me Harswell"
+    },
+    {
+     "check": 11,
+     "key": "('29×φ', '47')",
+     "cells": [
+      "H Makemake – H Regulus RA 46.9243 29×φ golden (91.77)",
+      "S Pallas → H Vesta Dec 46.9878 47 whole (15.31)",
+      "S Moon → J Regulus RA 47.0092 47 whole (29.33)",
+      "S Moon → H Regulus RA 47.0151 47 whole (5.92)"
+     ],
+     "note": "46.9243 - 47.0151",
+     "field": "also: 7 Mademoiselle, 9 Nad Alshiba Snow"
     },
     {
      "check": 11,
@@ -3990,7 +4971,40 @@
       "J Venus – J Transpluto RA 111.1933 111.111 ninth (86.55)"
      ],
      "note": "110.9710 - 111.1933",
-     "field": "also: 2 Brazilian Belle, 9 Nad Alshiba Snow"
+     "field": "also: 2 Brazilian Belle, 4 Invincible Annice, 9 Nad Alshiba Snow"
+    },
+    {
+     "check": 11,
+     "key": "('128', '79×φ')",
+     "cells": [
+      "J Haumea – J Aldebaran RA 127.8086 79×φ golden (25.38)",
+      "J Eris – J Regulus RA 127.8433 79×φ golden (18.08)",
+      "S Mercury → J Haumea RA 127.9967 128 whole (69.97)"
+     ],
+     "note": "127.8086 - 127.9967",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('149', '92×φ')",
+     "cells": [
+      "S Haumea → H Aldebaran RA 148.8843 92×φ golden (4.90)",
+      "S Haumea → J Aldebaran RA 148.8902 92×φ golden (0.17)",
+      "J Venus – J Antares RA 148.9925 149 whole (38.83)"
+     ],
+     "note": "148.8843 - 148.9925",
+     "field": "also: 8 Maw Lam, 15 Perfect Part"
+    },
+    {
+     "check": 11,
+     "key": "('177.778', '178')",
+     "cells": [
+      "H Gonggong – H Transpluto RA 177.7862 177.778 ninth (99.34)",
+      "S Transpluto → J Gonggong RA 178.0024 178 whole (77.61)",
+      "J Saturn – J Antares RA 178.0188 178 whole (0.34)"
+     ],
+     "note": "177.7862 - 178.0188",
+     "field": "also: 3 Call Me Harswell, 10 Over Spiced"
     },
     {
      "check": 11,
@@ -4023,11 +5037,25 @@
      "check": 12,
      "key": "(4,)",
      "cells": [
+      "H Pluto – H Antares Dec 3.9861 4 whole (9.41)",
       "H Saturn – H Orcus Dec 4.0012 4 whole (88.04)",
       "S Makemake → J Neptune Dec 39.9835 40 whole (3.08)"
      ],
      "note": "4 and 40",
-     "field": "also: 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 10 Over Spiced, 13 Storm Call, 15 Perfect Part"
+     "field": "also: 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 10 Over Spiced, 12 Sands Of Dubai, 13 Storm Call, 15 Perfect Part"
+    },
+    {
+     "check": 12,
+     "key": "(6,)",
+     "cells": [
+      "H Transpluto – H Aldebaran Dec 5.9937 6 whole (47.20)",
+      "S Neptune → H Pluto RA 59.9929 60 whole (41.54)",
+      "S Orcus → H Haumea RA 60.0171 60 whole (2.11)",
+      "S Moon → J Haumea Dec 6.0097 6 whole (26.75)",
+      "S Haumea → J Haumea Dec 6.0149 6 whole (6.50)"
+     ],
+     "note": "6 and 60",
+     "field": "also: 3 Call Me Harswell, 10 Over Spiced, 15 Perfect Part"
     },
     {
      "check": 12,
@@ -4035,7 +5063,8 @@
      "cells": [
       "S Chiron → H Eris Dec 10.9885 11 whole (18.10)",
       "S Gonggong → H Mars Dec 11.0146 11 whole (7.40)",
-      "J Sun – J Gonggong RA 109.9954 110 whole (59.14)"
+      "J Sun – J Gonggong RA 109.9954 110 whole (59.14)",
+      "J Jupiter – J Regulus Dec 10.9929 11 whole (41.65)"
      ],
      "note": "11 and 110",
      "field": "also: 3 Call Me Harswell, 4 Invincible Annice, 10 Over Spiced, 13 Storm Call"
@@ -4050,22 +5079,26 @@
       "S Quaoar → J Chiron Dec 2.0183 2 whole (0.69)"
      ],
      "note": "2 and 20",
-     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 7 Mademoiselle, 9 Nad Alshiba Snow, 11 Powerful Lady, 13 Storm Call, 15 Perfect Part"
+     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 9 Nad Alshiba Snow, 10 Over Spiced, 11 Powerful Lady, 13 Storm Call, 15 Perfect Part"
     },
     {
      "check": 12,
      "key": "(1,)",
      "cells": [
+      "H Mercury – H Antares Dec 10.0173 10 whole (1.85)",
       "H Sun – H Venus Dec 9.9973 10 whole (74.57)",
       "S Ketu → H Neptune Dec 1.0118 1 whole (16.65)",
       "S Venus → H Ceres Dec 1.0004 1 whole (95.86)",
+      "S Makemake → H Regulus Dec 10.0122 10 whole (15.34)",
       "S Sedna → H Eris Dec 9.9916 10 whole (33.89)",
+      "J Ceres – J Antares Dec 1.0041 1 whole (63.06)",
       "J Neptune – J Chiron Dec 1.0138 1 whole (9.47)",
       "S Makemake → J Jupiter Dec 0.9835 1 whole (3.04)",
+      "S Makemake → J Regulus Dec 10.0094 10 whole (27.98)",
       "S Quaoar → J Uranus Dec 0.9988 1 whole (88.28)"
      ],
      "note": "1 and 10",
-     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 11 Powerful Lady, 12 Sands Of Dubai, 13 Storm Call, 15 Perfect Part"
+     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 9 Nad Alshiba Snow, 10 Over Spiced, 11 Powerful Lady, 12 Sands Of Dubai, 13 Storm Call, 15 Perfect Part"
     },
     {
      "check": 12,
@@ -4086,19 +5119,7 @@
       "S Chiron → J Eris Dec 15.9871 16 whole (12.54)"
      ],
      "note": "16 and 160",
-     "field": "also: 1 Aviation Time, 4 Invincible Annice, 7 Mademoiselle, 11 Powerful Lady, 13 Storm Call"
-    },
-    {
-     "check": 12,
-     "key": "(6,)",
-     "cells": [
-      "S Neptune → H Pluto RA 59.9929 60 whole (41.54)",
-      "S Orcus → H Haumea RA 60.0171 60 whole (2.11)",
-      "S Moon → J Haumea Dec 6.0097 6 whole (26.75)",
-      "S Haumea → J Haumea Dec 6.0149 6 whole (6.50)"
-     ],
-     "note": "6 and 60",
-     "field": "also: 3 Call Me Harswell, 10 Over Spiced, 15 Perfect Part"
+     "field": "also: 1 Aviation Time, 4 Invincible Annice, 7 Mademoiselle, 11 Powerful Lady, 13 Storm Call, 15 Perfect Part"
     },
     {
      "check": 15,
@@ -4150,12 +5171,14 @@
     },
     {
      "check": 7,
-     "key": "('count', 2)",
+     "key": "('count', 4)",
      "cells": [
+      "18×φ golden",
       "133.333 ninth",
+      "22.2222 ninth",
       "φ^6 phi power"
      ],
-     "note": "2 numbers",
+     "note": "4 numbers",
      "field": ""
     },
     {
@@ -4193,7 +5216,7 @@
       "H Ceres – H Juno Dec 30.7476 19×φ golden (71.50)"
      ],
      "note": "",
-     "field": "also: 10 Over Spiced, 14 Havana White"
+     "field": "also: 1 Aviation Time, 10 Over Spiced, 14 Havana White"
     },
     {
      "check": 10,
@@ -4226,6 +5249,16 @@
      ],
      "note": "",
      "field": "also: 9 Nad Alshiba Snow, 10 Over Spiced, 14 Havana White"
+    },
+    {
+     "check": 10,
+     "key": "(36,)",
+     "cells": [
+      "J Mars – J Aldebaran RA 36.0038 36 whole (65.83)",
+      "S Mars → J Venus RA 58.2432 36×φ golden (66.28)"
+     ],
+     "note": "",
+     "field": "only"
     },
     {
      "check": 11,
@@ -4264,10 +5297,34 @@
       "J Mercury – J Mars RA 21.9949 22 whole (55.66)",
       "S Venus → J Orcus Dec 22.0007 22 whole (93.14)",
       "S Eris → H Pluto Dec 22.0086 22 whole (32.60)",
+      "J Makemake – J Regulus Dec 22.2207 22.2222 ninth (97.87)",
       "S Rahu → H Vesta Dec 22.2256 22.2222 ninth (95.38)"
      ],
      "note": "21.9873 - 22.2256",
      "field": "also: 8 Maw Lam, 9 Nad Alshiba Snow, 14 Havana White"
+    },
+    {
+     "check": 11,
+     "key": "('24', '24.14')",
+     "cells": [
+      "H Mercury – H Gonggong Dec 23.9878 24 whole (15.38)",
+      "S Vesta → J Saturn Dec 23.9976 24 whole (77.51)",
+      "H Juno – H Fomalhaut Dec 23.9996 24 whole (96.03)",
+      "S Orcus → J Regulus Dec 24.1407 24.14 silver (97.62)"
+     ],
+     "note": "23.9878 - 24.1407",
+     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 7 Mademoiselle, 8 Maw Lam, 12 Sands Of Dubai, 13 Storm Call, 14 Havana White"
+    },
+    {
+     "check": 11,
+     "key": "('18×φ', 'φ^7')",
+     "cells": [
+      "J Rahu – J Haumea Dec 29.0319 φ^7 phi power (96.49)",
+      "J Saturn – J Fomalhaut Dec 29.1215 18×φ golden (81.58)",
+      "S Vesta → H Juno Dec 29.1220 18×φ golden (84.69)"
+     ],
+     "note": "29.0319 - 29.1220",
+     "field": "only"
     },
     {
      "check": 11,
@@ -4278,7 +5335,7 @@
       "S Makemake → H Ketu RA 31.0156 31 whole (4.92)"
      ],
      "note": "30.7476 - 31.0156",
-     "field": "also: 2 Brazilian Belle, 3 Call Me Harswell, 14 Havana White"
+     "field": "also: 2 Brazilian Belle, 3 Call Me Harswell, 10 Over Spiced, 11 Powerful Lady, 14 Havana White"
     },
     {
      "check": 11,
@@ -4297,10 +5354,23 @@
      "cells": [
       "S Venus → J Jupiter RA 148.8342 92×φ golden (5.23)",
       "S Juno → J Ketu RA 148.8758 92×φ golden (23.53)",
+      "S Haumea → H Aldebaran RA 148.8880 92×φ golden (1.17)",
+      "S Haumea → J Aldebaran RA 148.8900 92×φ golden (0.21)",
       "S Makemake → H Rahu RA 148.9844 149 whole (4.92)"
      ],
      "note": "148.8342 - 148.9844",
-     "field": "only"
+     "field": "also: 8 Maw Lam, 14 Havana White"
+    },
+    {
+     "check": 11,
+     "key": "('160', '99×φ')",
+     "cells": [
+      "J Vesta – J Aldebaran RA 160.0009 160 whole (91.65)",
+      "S Juno → J Saturn RA 160.1602 99×φ golden (4.90)",
+      "S Mercury → J Vesta RA 160.1891 99×φ golden (78.09)"
+     ],
+     "note": "160.0009 - 160.1891",
+     "field": "also: 11 Powerful Lady"
     },
     {
      "check": 12,
@@ -4309,11 +5379,23 @@
       "H Vesta – H Quaoar RA 39.9802 40 whole (0.01)",
       "H Pluto – H Ketu Dec 3.9801 4 whole (0.00)",
       "H Saturn – H Ceres Dec 39.9841 40 whole (4.23)",
+      "J Mercury – J Aldebaran Dec 3.9968 4 whole (70.57)",
       "S Chiron → J Transpluto Dec 4.0115 4 whole (18.12)",
       "S Neptune → J Chiron Dec 4.0122 4 whole (15.25)"
      ],
      "note": "4 and 40",
-     "field": "also: 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 10 Over Spiced, 13 Storm Call, 14 Havana White"
+     "field": "also: 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 10 Over Spiced, 12 Sands Of Dubai, 13 Storm Call, 14 Havana White"
+    },
+    {
+     "check": 12,
+     "key": "(16,)",
+     "cells": [
+      "H Vesta – H Eris Dec 15.9938 16 whole (47.76)",
+      "J Vesta – J Aldebaran RA 160.0009 160 whole (91.65)",
+      "S Saturn → J Jupiter Dec 16.0126 16 whole (13.77)"
+     ],
+     "note": "16 and 160",
+     "field": "also: 1 Aviation Time, 4 Invincible Annice, 7 Mademoiselle, 11 Powerful Lady, 13 Storm Call, 14 Havana White"
     },
     {
      "check": 12,
@@ -4323,6 +5405,7 @@
       "S Juno → H Chiron Dec 2.9875 3 whole (14.09)",
       "J Pallas – J Chiron Dec 29.9873 30 whole (13.47)",
       "J Sun – J Mercury Dec 2.9859 3 whole (8.68)",
+      "J Gonggong – J Regulus Dec 30.0097 30 whole (26.56)",
       "S Uranus → J Mercury RA 3.0163 3 whole (3.46)",
       "S Juno → J Mars Dec 3.0112 3 whole (19.37)",
       "S Vesta → J Mercury Dec 2.9928 3 whole (41.18)"
@@ -4337,10 +5420,13 @@
       "H Mars – H Neptune Dec 9.9804 10 whole (0.05)",
       "S Ketu → H Pallas Dec 1.0102 1 whole (23.92)",
       "S Makemake → H Makemake Dec 1.0121 1 whole (15.65)",
-      "J Rahu – J Eris Dec 1.0117 1 whole (17.42)"
+      "S Makemake → H Regulus Dec 10.0114 10 whole (18.44)",
+      "J Rahu – J Eris Dec 1.0117 1 whole (17.42)",
+      "J Sun – J Aldebaran Dec 1.0109 1 whole (20.67)",
+      "S Makemake → J Regulus Dec 10.0106 10 whole (22.10)"
      ],
      "note": "1 and 10",
-     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 11 Powerful Lady, 12 Sands Of Dubai, 13 Storm Call, 14 Havana White"
+     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 8 Maw Lam, 9 Nad Alshiba Snow, 10 Over Spiced, 11 Powerful Lady, 12 Sands Of Dubai, 13 Storm Call, 14 Havana White"
     },
     {
      "check": 12,
@@ -4353,7 +5439,7 @@
       "J Pluto – J Chiron Dec 1.9825 2 whole (1.62)"
      ],
      "note": "2 and 20",
-     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 7 Mademoiselle, 9 Nad Alshiba Snow, 11 Powerful Lady, 13 Storm Call, 14 Havana White"
+     "field": "also: 1 Aviation Time, 3 Call Me Harswell, 4 Invincible Annice, 7 Mademoiselle, 9 Nad Alshiba Snow, 10 Over Spiced, 11 Powerful Lady, 13 Storm Call, 14 Havana White"
     },
     {
      "check": 12,

@@ -20,13 +20,14 @@
     },
     {
      "check": 7,
-     "key": "('count', 3)",
+     "key": "('count', 4)",
      "cells": [
       "11.1111 ninth",
       "166.667 ninth",
+      "177.778 ninth",
       "141.4 sqrt2"
      ],
-     "note": "3 numbers",
+     "note": "4 numbers",
      "field": ""
     },
     {
@@ -49,6 +50,18 @@
     },
     {
      "check": 10,
+     "key": "(9,)",
+     "cells": [
+      "H Neptune – H Quaoar Dec 8.9988 9 whole (88.55)",
+      "J Jupiter – J Pallas Dec 8.9976 9 whole (77.84)",
+      "S Gonggong → J Orcus Dec 8.9961 9 whole (64.79)",
+      "H Chiron – H Fomalhaut RA 14.5675 9×φ golden (70.53)"
+     ],
+     "note": "",
+     "field": "also: 7 Springtime Promise"
+    },
+    {
+     "check": 10,
      "key": "(13,)",
      "cells": [
       "H Sun – H Pallas Dec 13.0014 13 whole (86.41)",
@@ -62,10 +75,12 @@
      "key": "(21,)",
      "cells": [
       "S Pluto → J Orcus Dec 21.0045 21 whole (60.04)",
-      "S Vesta → J Sedna RA 33.9723 21×φ golden (64.33)"
+      "S Chiron → H Antares Dec 33.9746 21×φ golden (76.25)",
+      "S Vesta → J Sedna RA 33.9723 21×φ golden (64.33)",
+      "S Chiron → J Antares Dec 33.9747 21×φ golden (76.80)"
      ],
      "note": "",
-     "field": "only"
+     "field": "also: 5 Little Miss Dante, 6 Smiling Getaway"
     },
     {
      "check": 10,
@@ -75,7 +90,7 @@
       "S Moon → J Vesta RA 38.8303 24×φ golden (85.16)"
      ],
      "note": "",
-     "field": "only"
+     "field": "also: 3 Either Or, 6 Smiling Getaway"
     },
     {
      "check": 10,
@@ -83,6 +98,16 @@
      "cells": [
       "H Uranus – H Sedna RA 29.0004 29 whole (96.44)",
       "S Pluto → H Makemake Dec 46.9218 29×φ golden (93.06)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(70,)",
+     "cells": [
+      "H Chiron – H Aldebaran RA 70.0046 70 whole (58.96)",
+      "S Moon → H Transpluto RA 113.2530 70×φ golden (50.57)"
      ],
      "note": "",
      "field": "only"
@@ -105,9 +130,10 @@
       "H Uranus – H Eris RA 1.9914 2 whole (32.58)",
       "H Venus – H Pluto Dec 1.9931 2 whole (42.72)",
       "S Saturn → J Pluto Dec 2.0063 2 whole (47.14)",
-      "J Mercury – J Uranus RA 2.0154 2 whole (5.38)"
+      "J Mercury – J Uranus RA 2.0154 2 whole (5.38)",
+      "J Quaoar – J Antares RA 2.0198 2 whole (0.01)"
      ],
-     "note": "1.8889 - 2.0154",
+     "note": "1.8889 - 2.0198",
      "field": "also: 5 Little Miss Dante"
     },
     {
@@ -119,6 +145,7 @@
       "S Mercury → H Saturn Dec 3.9852 4 whole (6.78)",
       "J Mercury – J Neptune Dec 3.9870 4 whole (12.18)",
       "S Mars → J Gonggong Dec 4.0057 4 whole (50.88)",
+      "J Jupiter – J Aldebaran Dec 4.0157 4 whole (4.67)",
       "S Sun → J Gonggong RA 4.1428 4.14 silver (94.98)"
      ],
      "note": "3.9836 - 4.1428",
@@ -176,6 +203,18 @@
     },
     {
      "check": 11,
+     "key": "('21×φ', '34')",
+     "cells": [
+      "S Vesta → J Sedna RA 33.9723 21×φ golden (64.33)",
+      "S Chiron → H Antares Dec 33.9746 21×φ golden (76.25)",
+      "S Chiron → J Antares Dec 33.9747 21×φ golden (76.80)",
+      "S Sun → J Haumea Dec 33.9852 34 whole (6.80)"
+     ],
+     "note": "33.9723 - 33.9852",
+     "field": "also: 2 Cherie d'Am, 3 Either Or, 4 Jeune Belle, 5 Little Miss Dante, 6 Smiling Getaway, 7 Springtime Promise"
+    },
+    {
+     "check": 11,
      "key": "('23×φ', '37')",
      "cells": [
       "S Uranus → H Venus Dec 36.9822 37 whole (1.19)",
@@ -198,12 +237,24 @@
      "field": "only"
     },
     {
+     "check": 11,
+     "key": "('10×φ^6', '111×φ')",
+     "cells": [
+      "J Mercury – J Transpluto RA 179.4166 10×φ^6 phi power (94.27)",
+      "S Sun → J Transpluto RA 179.4207 10×φ^6 phi power (95.15)",
+      "J Quaoar – J Aldebaran RA 179.6060 111×φ golden (75.40)"
+     ],
+     "note": "179.4166 - 179.6060",
+     "field": "only"
+    },
+    {
      "check": 12,
      "key": "(2,)",
      "cells": [
       "H Uranus – H Eris RA 1.9914 2 whole (32.58)",
       "H Venus – H Pluto Dec 1.9931 2 whole (42.72)",
       "J Mercury – J Uranus RA 2.0154 2 whole (5.38)",
+      "J Quaoar – J Antares RA 2.0198 2 whole (0.01)",
       "J Uranus – J Sedna Dec 20.0010 20 whole (90.52)",
       "S Saturn → J Pluto Dec 2.0063 2 whole (47.14)"
      ],
@@ -212,8 +263,38 @@
     },
     {
      "check": 12,
+     "key": "(7,)",
+     "cells": [
+      "H Chiron – H Aldebaran RA 70.0046 70 whole (58.96)",
+      "H Jupiter – H Quaoar Dec 6.9809 7 whole (0.19)",
+      "S Sedna → H Juno RA 6.9904 7 whole (27.08)",
+      "S Sun → H Venus Dec 6.9821 7 whole (1.14)"
+     ],
+     "note": "7 and 70",
+     "field": "also: 5 Little Miss Dante"
+    },
+    {
+     "check": 12,
+     "key": "(3,)",
+     "cells": [
+      "H Mars – H Regulus Dec 2.9842 3 whole (4.37)",
+      "S Chiron → H Pallas Dec 2.9885 3 whole (18.07)",
+      "S Juno → H Pallas Dec 2.9894 3 whole (22.22)",
+      "S Jupiter → H Aldebaran Dec 3.0181 3 whole (0.94)",
+      "S Pluto → H Venus Dec 2.9984 3 whole (84.31)",
+      "S Makemake → H Sun Dec 29.9829 30 whole (2.09)",
+      "S Haumea → J Quaoar RA 30.0146 30 whole (7.34)",
+      "S Jupiter → J Aldebaran Dec 3.0188 3 whole (0.35)",
+      "S Sedna → J Sedna Dec 2.9875 3 whole (13.92)"
+     ],
+     "note": "3 and 30",
+     "field": "also: 2 Cherie d'Am, 3 Either Or, 5 Little Miss Dante, 6 Smiling Getaway"
+    },
+    {
+     "check": 12,
      "key": "(13,)",
      "cells": [
+      "H Venus – H Aldebaran RA 129.9850 130 whole (6.35)",
       "H Sun – H Pallas Dec 13.0014 13 whole (86.41)",
       "J Chiron – J Orcus RA 129.9978 130 whole (79.55)",
       "S Chiron → J Jupiter Dec 12.9813 13 whole (0.39)",
@@ -224,12 +305,27 @@
     },
     {
      "check": 12,
+     "key": "(15,)",
+     "cells": [
+      "S Juno → H Regulus RA 14.9963 15 whole (66.03)",
+      "S Mars → H Orcus RA 149.9806 150 whole (0.08)",
+      "J Uranus – J Juno Dec 14.9853 15 whole (7.10)",
+      "S Juno → J Regulus RA 14.9953 15 whole (58.74)",
+      "S Saturn → J Uranus RA 14.9820 15 whole (1.03)"
+     ],
+     "note": "15 and 150",
+     "field": "also: 6 Smiling Getaway"
+    },
+    {
+     "check": 12,
      "key": "(10,)",
      "cells": [
       "S Mars → H Pluto RA 9.9882 10 whole (16.89)",
       "S Uranus → H Sedna RA 10.0185 10 whole (0.55)",
       "S Juno → H Sun Dec 10.0120 10 whole (16.08)",
+      "S Rahu → H Aldebaran Dec 9.9908 10 whole (29.33)",
       "S Ceres → J Juno RA 100.0033 100 whole (70.08)",
+      "S Rahu → J Aldebaran Dec 9.9916 10 whole (33.60)",
       "S Sun → J Ketu Dec 9.9966 10 whole (68.99)",
       "S Makemake → J Pallas Dec 10.0094 10 whole (28.26)"
      ],
@@ -252,20 +348,6 @@
     },
     {
      "check": 12,
-     "key": "(3,)",
-     "cells": [
-      "S Chiron → H Pallas Dec 2.9885 3 whole (18.07)",
-      "S Juno → H Pallas Dec 2.9894 3 whole (22.22)",
-      "S Pluto → H Venus Dec 2.9984 3 whole (84.31)",
-      "S Makemake → H Sun Dec 29.9829 30 whole (2.09)",
-      "S Haumea → J Quaoar RA 30.0146 30 whole (7.34)",
-      "S Sedna → J Sedna Dec 2.9875 3 whole (13.92)"
-     ],
-     "note": "3 and 30",
-     "field": "also: 2 Cherie d'Am, 3 Either Or, 5 Little Miss Dante, 6 Smiling Getaway"
-    },
-    {
-     "check": 12,
      "key": "(16,)",
      "cells": [
       "S Jupiter → H Makemake RA 160.0167 160 whole (2.78)",
@@ -273,7 +355,7 @@
       "S Orcus → H Chiron Dec 15.9833 16 whole (2.72)"
      ],
      "note": "16 and 160",
-     "field": "only"
+     "field": "also: 2 Cherie d'Am"
     },
     {
      "check": 12,
@@ -293,6 +375,7 @@
      "cells": [
       "S Mercury → H Saturn Dec 3.9852 4 whole (6.78)",
       "S Moon → H Jupiter Dec 39.9843 40 whole (4.70)",
+      "J Jupiter – J Aldebaran Dec 4.0157 4 whole (4.67)",
       "J Mercury – J Neptune Dec 3.9870 4 whole (12.18)",
       "S Chiron → J Pallas Dec 3.9836 4 whole (3.26)",
       "S Mars → J Gonggong Dec 4.0057 4 whole (50.88)",
@@ -311,6 +394,8 @@
       "S Juno → H Sun Dec 10.0120 10 whole (16.08)",
       "S Pluto → H Pluto Dec 1.0053 1 whole (54.08)",
       "S Rahu → H Juno Dec 0.9840 1 whole (4.03)",
+      "S Rahu → H Aldebaran Dec 9.9908 10 whole (29.33)",
+      "S Rahu → J Aldebaran Dec 9.9916 10 whole (33.60)",
       "S Sun → J Ketu Dec 9.9966 10 whole (68.99)",
       "S Makemake → J Jupiter Dec 1.0117 1 whole (17.13)",
       "S Makemake → J Pallas Dec 10.0094 10 whole (28.26)"
@@ -340,17 +425,6 @@
      ],
      "note": "17 and 170",
      "field": "also: 3 Either Or, 6 Smiling Getaway"
-    },
-    {
-     "check": 12,
-     "key": "(15,)",
-     "cells": [
-      "S Mars → H Orcus RA 149.9806 150 whole (0.08)",
-      "J Uranus – J Juno Dec 14.9853 15 whole (7.10)",
-      "S Saturn → J Uranus RA 14.9820 15 whole (1.03)"
-     ],
-     "note": "15 and 150",
-     "field": "also: 6 Smiling Getaway"
     }
    ]
   },
@@ -382,14 +456,15 @@
     },
     {
      "check": 7,
-     "key": "('count', 4)",
+     "key": "('count', 5)",
      "cells": [
       "10×φ^3 phi power",
       "10×φ^6 phi power",
       "φ^10 phi power",
-      "14.14 sqrt2"
+      "14.14 sqrt2",
+      "22 whole"
      ],
-     "note": "4 numbers",
+     "note": "5 numbers",
      "field": ""
     },
     {
@@ -441,18 +516,19 @@
       "J Juno – J Quaoar Dec 12.9462 8×φ golden (88.20)"
      ],
      "note": "",
-     "field": "also: 6 Smiling Getaway"
+     "field": "also: 4 Jeune Belle, 6 Smiling Getaway"
     },
     {
      "check": 10,
      "key": "(11,)",
      "cells": [
       "H Pallas – H Quaoar Dec 10.9959 11 whole (63.40)",
+      "H Quaoar – H Antares Dec 11.0027 11 whole (74.87)",
       "S Mars → H Orcus Dec 11.0013 11 whole (87.13)",
       "J Ketu – J Orcus RA 17.7910 11×φ golden (59.40)"
      ],
      "note": "",
-     "field": "only"
+     "field": "also: 4 Jeune Belle"
     },
     {
      "check": 10,
@@ -463,6 +539,18 @@
      ],
      "note": "",
      "field": "also: 6 Smiling Getaway"
+    },
+    {
+     "check": 10,
+     "key": "(28,)",
+     "cells": [
+      "S Haumea → H Antares RA 27.9982 28 whole (82.64)",
+      "S Juno → H Antares Dec 27.9975 28 whole (76.96)",
+      "S Juno → J Antares Dec 27.9971 28 whole (72.86)",
+      "S Pluto → J Haumea Dec 45.3019 28×φ golden (82.11)"
+     ],
+     "note": "",
+     "field": "also: 3 Either Or, 4 Jeune Belle, 5 Little Miss Dante"
     },
     {
      "check": 10,
@@ -481,6 +569,7 @@
       "H Sun – H Eris RA 2.9976 3 whole (77.30)",
       "S Saturn → J Quaoar Dec 2.9980 3 whole (81.21)",
       "S Uranus → J Transpluto Dec 3.0076 3 whole (38.57)",
+      "S Jupiter → H Aldebaran Dec 3.0176 3 whole (1.38)",
       "S Neptune → J Mars Dec 3.2367 2×φ golden (96.12)"
      ],
      "note": "2.9976 - 3.2367",
@@ -515,6 +604,7 @@
      "key": "('13', '8×φ')",
      "cells": [
       "J Juno – J Quaoar Dec 12.9462 8×φ golden (88.20)",
+      "H Makemake – H Regulus Dec 12.9832 13 whole (2.51)",
       "S Ceres → H Orcus Dec 12.9832 13 whole (2.54)",
       "S Venus → H Ketu RA 12.9862 13 whole (9.57)",
       "S Haumea → J Quaoar RA 12.9917 13 whole (34.05)",
@@ -522,7 +612,7 @@
       "S Jupiter → J Mars Dec 13.0033 13 whole (69.90)"
      ],
      "note": "12.9462 - 13.0033",
-     "field": "also: 6 Smiling Getaway"
+     "field": "also: 4 Jeune Belle, 6 Smiling Getaway"
     },
     {
      "check": 11,
@@ -548,6 +638,17 @@
     },
     {
      "check": 11,
+     "key": "('11×φ', '18', 'φ^6')",
+     "cells": [
+      "J Ketu – J Orcus RA 17.7910 11×φ golden (59.40)",
+      "S Uranus → J Makemake Dec 17.9420 φ^6 phi power (94.95)",
+      "J Mercury – J Regulus Dec 18.0130 18 whole (12.15)"
+     ],
+     "note": "17.7910 - 18.0130",
+     "field": "also: 4 Jeune Belle"
+    },
+    {
+     "check": 11,
      "key": "('18.8889', '19')",
      "cells": [
       "S Vesta → J Sedna Dec 18.8851 18.8889 ninth (97.29)",
@@ -561,12 +662,36 @@
      "check": 11,
      "key": "('22', '22.2222')",
      "cells": [
+      "H Pallas – H Antares Dec 21.9986 22 whole (86.67)",
       "J Mars – J Haumea Dec 22.0021 22 whole (80.37)",
       "J Neptune – J Juno Dec 22.0052 22 whole (55.06)",
       "H Mercury – H Pluto Dec 22.2298 22.2222 ninth (89.47)"
      ],
-     "note": "22.0021 - 22.2298",
+     "note": "21.9986 - 22.2298",
      "field": "also: 5 Little Miss Dante"
+    },
+    {
+     "check": 11,
+     "key": "('21×φ', '34')",
+     "cells": [
+      "S Chiron → J Antares Dec 33.9750 21×φ golden (78.38)",
+      "H Ketu – H Aldebaran Dec 33.9752 21×φ golden (79.63)",
+      "S Chiron → H Antares Dec 33.9755 21×φ golden (80.99)",
+      "H Vesta – H Aldebaran Dec 34.0165 34 whole (3.02)"
+     ],
+     "note": "33.9750 - 34.0165",
+     "field": "also: 1 Aston Martini, 3 Either Or, 4 Jeune Belle, 5 Little Miss Dante, 6 Smiling Getaway, 7 Springtime Promise"
+    },
+    {
+     "check": 11,
+     "key": "('40×φ', '65')",
+     "cells": [
+      "J Makemake – J Fomalhaut Dec 64.7296 40×φ golden (55.76)",
+      "S Quaoar → H Fomalhaut RA 65.0033 65 whole (70.05)",
+      "S Quaoar → J Fomalhaut RA 65.0100 65 whole (24.99)"
+     ],
+     "note": "64.7296 - 65.0100",
+     "field": "only"
     },
     {
      "check": 11,
@@ -586,6 +711,7 @@
      "cells": [
       "H Sun – H Eris RA 2.9976 3 whole (77.30)",
       "H Saturn – H Sedna Dec 30.0116 30 whole (17.59)",
+      "S Jupiter → H Aldebaran Dec 3.0176 3 whole (1.38)",
       "J Vesta – J Sedna Dec 30.0038 30 whole (65.66)",
       "S Saturn → J Quaoar Dec 2.9980 3 whole (81.21)",
       "S Uranus → J Transpluto Dec 3.0076 3 whole (38.57)"
@@ -602,6 +728,17 @@
      ],
      "note": "14 and 140",
      "field": "also: 1 Aston Martini, 3 Either Or, 4 Jeune Belle, 6 Smiling Getaway, 7 Springtime Promise"
+    },
+    {
+     "check": 12,
+     "key": "(16,)",
+     "cells": [
+      "S Quaoar → H Mercury Dec 16.0014 16 whole (86.65)",
+      "J Transpluto – J Fomalhaut RA 159.9958 160 whole (62.47)",
+      "S Pallas → J Eris Dec 15.9912 16 whole (31.52)"
+     ],
+     "note": "16 and 160",
+     "field": "also: 1 Aston Martini"
     },
     {
      "check": 12,
@@ -654,22 +791,35 @@
     },
     {
      "check": 7,
-     "key": "('count', 1)",
+     "key": "('count', 3)",
      "cells": [
-      "18.8889 ninth"
+      "11.1111 ninth",
+      "18.8889 ninth",
+      "9 whole"
      ],
-     "note": "1 numbers",
+     "note": "3 numbers",
      "field": ""
+    },
+    {
+     "check": 9,
+     "key": "('J', 'Regulus', '11.1111')",
+     "cells": [
+      "J Jupiter – J Regulus Dec 11.1136 11.1111 ninth (95.86)"
+     ],
+     "note": "",
+     "field": "only"
     },
     {
      "check": 10,
      "key": "(15,)",
      "cells": [
+      "S Juno → H Regulus RA 14.9962 15 whole (65.84)",
       "J Pluto – J Transpluto Dec 15.0051 15 whole (55.61)",
+      "S Juno → J Regulus RA 15.0048 15 whole (57.55)",
       "S Mars → J Rahu RA 24.2759 15×φ golden (69.39)"
      ],
      "note": "",
-     "field": "only"
+     "field": "also: 6 Smiling Getaway, 7 Springtime Promise"
     },
     {
      "check": 10,
@@ -683,6 +833,39 @@
      "field": "also: 5 Little Miss Dante"
     },
     {
+     "check": 10,
+     "key": "(24,)",
+     "cells": [
+      "H Eris – H Antares Dec 24.0043 24 whole (62.01)",
+      "S Sedna → H Quaoar Dec 23.9968 24 whole (70.96)",
+      "H Uranus – H Fomalhaut RA 38.8343 24×φ golden (91.01)"
+     ],
+     "note": "",
+     "field": "also: 1 Aston Martini, 6 Smiling Getaway"
+    },
+    {
+     "check": 10,
+     "key": "(28,)",
+     "cells": [
+      "S Juno → H Antares Dec 27.9964 28 whole (67.28)",
+      "S Haumea → J Antares RA 27.9952 28 whole (57.96)",
+      "S Juno → J Antares Dec 27.9976 28 whole (77.52)",
+      "H Mars – H Makemake Dec 45.3096 28×φ golden (73.11)"
+     ],
+     "note": "",
+     "field": "also: 2 Cherie d'Am, 4 Jeune Belle, 5 Little Miss Dante"
+    },
+    {
+     "check": 10,
+     "key": "(109,)",
+     "cells": [
+      "H Mars – H Ceres RA 108.9974 109 whole (75.72)",
+      "H Mars – H Aldebaran RA 176.3675 109×φ golden (89.07)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
      "check": 11,
      "key": "('3×φ', '5')",
      "cells": [
@@ -692,6 +875,31 @@
       "J Pluto – J Juno Dec 5.0082 5 whole (34.86)"
      ],
      "note": "4.8544 - 5.0082",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('11', '11.1111')",
+     "cells": [
+      "S Jupiter → J Venus Dec 10.9956 11 whole (60.95)",
+      "S Juno → J Eris Dec 11.0103 11 whole (23.51)",
+      "H Venus – H Ketu RA 11.0167 11 whole (2.68)",
+      "J Jupiter – J Regulus Dec 11.1136 11.1111 ninth (95.86)",
+      "H Sun – H Antares Dec 11.1186 11.1111 ninth (87.68)"
+     ],
+     "note": "10.9956 - 11.1186",
+     "field": "also: 5 Little Miss Dante, 6 Smiling Getaway, 7 Springtime Promise"
+    },
+    {
+     "check": 11,
+     "key": "('11.1111', '7×φ')",
+     "cells": [
+      "J Jupiter – J Regulus Dec 11.1136 11.1111 ninth (95.86)",
+      "H Sun – H Antares Dec 11.1186 11.1111 ninth (87.68)",
+      "S Mars → J Eris Dec 11.3203 7×φ golden (66.47)",
+      "S Jupiter → H Eris RA 11.3215 7×φ golden (73.04)"
+     ],
+     "note": "11.1136 - 11.3215",
      "field": "only"
     },
     {
@@ -712,6 +920,7 @@
      "key": "('15×φ', '24', '24.14')",
      "cells": [
       "S Sedna → H Quaoar Dec 23.9968 24 whole (70.96)",
+      "H Eris – H Antares Dec 24.0043 24 whole (62.01)",
       "H Saturn – H Chiron Dec 24.0118 24 whole (16.65)",
       "S Makemake → J Pluto RA 24.1488 24.14 silver (89.19)",
       "S Mars → J Rahu RA 24.2759 15×φ golden (69.39)"
@@ -745,6 +954,18 @@
     },
     {
      "check": 11,
+     "key": "('21×φ', '34')",
+     "cells": [
+      "J Orcus – J Fomalhaut Dec 33.9732 21×φ golden (69.02)",
+      "S Chiron → H Antares Dec 33.9743 21×φ golden (74.77)",
+      "S Chiron → J Antares Dec 33.9755 21×φ golden (81.34)",
+      "J Haumea – J Regulus RA 33.9883 34 whole (17.42)"
+     ],
+     "note": "33.9732 - 33.9883",
+     "field": "also: 1 Aston Martini, 2 Cherie d'Am, 4 Jeune Belle, 5 Little Miss Dante, 6 Smiling Getaway, 7 Springtime Promise"
+    },
+    {
+     "check": 11,
      "key": "('23×φ', '37')",
      "cells": [
       "S Ceres → J Sun Dec 36.9818 37 whole (0.83)",
@@ -760,11 +981,12 @@
      "check": 11,
      "key": "('111', '111.111')",
      "cells": [
+      "H Ceres – H Antares RA 110.9967 111 whole (69.61)",
       "H Ceres – H Eris RA 111.0069 111 whole (42.86)",
       "S Eris → H Rahu RA 111.0121 111 whole (15.49)",
       "S Juno → H Sedna RA 111.1335 111.111 ninth (96.34)"
      ],
-     "note": "111.0069 - 111.1335",
+     "note": "110.9967 - 111.1335",
      "field": "only"
     },
     {
@@ -780,6 +1002,18 @@
     },
     {
      "check": 11,
+     "key": "('108×φ', '175')",
+     "cells": [
+      "H Venus – H Orcus RA 174.7262 108×φ golden (11.32)",
+      "J Mars – J Fomalhaut RA 174.7465 108×φ golden (92.95)",
+      "S Gonggong → J Regulus RA 175.0055 175 whole (52.71)",
+      "S Gonggong → H Regulus RA 175.0141 175 whole (8.77)"
+     ],
+     "note": "174.7262 - 175.0141",
+     "field": "also: 4 Jeune Belle, 5 Little Miss Dante, 6 Smiling Getaway"
+    },
+    {
+     "check": 11,
      "key": "('110×φ', '177.778')",
      "cells": [
       "S Mercury → H Rahu RA 177.7278 177.778 ninth (96.09)",
@@ -788,6 +1022,20 @@
      ],
      "note": "177.7278 - 177.9557",
      "field": "only"
+    },
+    {
+     "check": 12,
+     "key": "(2,)",
+     "cells": [
+      "H Mars – H Antares RA 1.9993 2 whole (92.94)",
+      "H Ceres – H Transpluto Dec 19.9823 20 whole (1.31)",
+      "H Venus – H Vesta Dec 2.0167 2 whole (2.80)",
+      "S Transpluto → H Orcus RA 1.9868 2 whole (11.54)",
+      "S Makemake → H Chiron Dec 19.9815 20 whole (0.54)",
+      "J Saturn – J Vesta Dec 1.9971 2 whole (72.69)"
+     ],
+     "note": "2 and 20",
+     "field": "also: 1 Aston Martini, 2 Cherie d'Am, 4 Jeune Belle, 6 Smiling Getaway, 7 Springtime Promise"
     },
     {
      "check": 12,
@@ -823,6 +1071,7 @@
       "H Ketu – H Eris Dec 14.0006 14 whole (93.67)",
       "H Vesta – H Eris Dec 13.9870 14 whole (12.28)",
       "S Pallas → H Neptune Dec 14.0057 14 whole (51.00)",
+      "J Venus – J Aldebaran Dec 14.0160 14 whole (3.94)",
       "S Haumea → J Pallas Dec 13.9857 14 whole (8.03)"
      ],
      "note": "14 and 140",
@@ -833,23 +1082,23 @@
      "key": "(3,)",
      "cells": [
       "H Mercury – H Vesta Dec 2.9852 3 whole (6.80)",
-      "S Chiron → H Saturn Dec 30.0003 30 whole (96.76)"
+      "S Chiron → H Saturn Dec 30.0003 30 whole (96.76)",
+      "S Jupiter → H Aldebaran Dec 3.0184 3 whole (0.62)"
      ],
      "note": "3 and 30",
      "field": "also: 1 Aston Martini, 2 Cherie d'Am, 5 Little Miss Dante, 6 Smiling Getaway"
     },
     {
      "check": 12,
-     "key": "(2,)",
+     "key": "(9,)",
      "cells": [
-      "H Ceres – H Transpluto Dec 19.9823 20 whole (1.31)",
-      "H Venus – H Vesta Dec 2.0167 2 whole (2.80)",
-      "S Transpluto → H Orcus RA 1.9868 2 whole (11.54)",
-      "S Makemake → H Chiron Dec 19.9815 20 whole (0.54)",
-      "J Saturn – J Vesta Dec 1.9971 2 whole (72.69)"
+      "H Sedna – H Aldebaran Dec 9.0019 9 whole (81.73)",
+      "S Mars → H Haumea RA 89.9933 90 whole (44.16)",
+      "J Uranus – J Neptune RA 8.9996 9 whole (95.66)",
+      "S Ketu → J Venus Dec 9.0110 9 whole (20.10)"
      ],
-     "note": "2 and 20",
-     "field": "also: 1 Aston Martini, 2 Cherie d'Am, 4 Jeune Belle, 6 Smiling Getaway, 7 Springtime Promise"
+     "note": "9 and 90",
+     "field": "also: 5 Little Miss Dante"
     },
     {
      "check": 12,
@@ -866,31 +1115,25 @@
      "check": 12,
      "key": "(1,)",
      "cells": [
+      "H Ketu – H Antares Dec 10.0036 10 whole (67.17)",
+      "H Vesta – H Antares Dec 10.0172 10 whole (1.90)",
       "S Moon → H Rahu Dec 1.0188 1 whole (0.34)",
       "S Moon → H Haumea Dec 1.0175 1 whole (1.59)",
       "S Rahu → H Sedna Dec 0.9893 1 whole (21.54)",
+      "S Rahu → H Aldebaran Dec 9.9912 10 whole (31.37)",
       "J Juno – J Transpluto Dec 9.9969 10 whole (71.34)",
-      "J Ketu – J Haumea Dec 9.9847 10 whole (5.42)"
+      "J Ketu – J Haumea Dec 9.9847 10 whole (5.42)",
+      "S Rahu → J Aldebaran Dec 9.9932 10 whole (43.49)"
      ],
      "note": "1 and 10",
      "field": "also: 1 Aston Martini, 4 Jeune Belle, 5 Little Miss Dante, 6 Smiling Getaway, 7 Springtime Promise"
     },
     {
      "check": 12,
-     "key": "(9,)",
-     "cells": [
-      "S Mars → H Haumea RA 89.9933 90 whole (44.16)",
-      "J Uranus – J Neptune RA 8.9996 9 whole (95.66)",
-      "S Ketu → J Venus Dec 9.0110 9 whole (20.10)"
-     ],
-     "note": "9 and 90",
-     "field": "also: 5 Little Miss Dante"
-    },
-    {
-     "check": 12,
      "key": "(17,)",
      "cells": [
       "S Sedna → H Jupiter RA 170.0188 170 whole (0.33)",
+      "J Eris – J Antares Dec 16.9873 17 whole (13.35)",
       "J Rahu – J Sedna Dec 16.9965 17 whole (68.01)",
       "S Chiron → J Eris Dec 16.9882 17 whole (16.94)",
       "S Neptune → J Sun Dec 16.9847 17 whole (5.52)",
@@ -928,12 +1171,27 @@
      "field": "only"
     },
     {
-     "check": 7,
-     "key": "('count', 1)",
+     "check": 5,
+     "key": "(('Haumea', 'Pluto'), ('14.14', '28×φ'))",
      "cells": [
+      "H Pluto – H Antares RA 45.3022 28×φ golden (83.99)",
+      "S Ceres → J Haumea Dec 45.3031 28×φ golden (88.76)",
+      "S Chiron → J Pluto Dec 14.1416 14.14 sqrt2 (98.50)",
+      "H Chiron – H Haumea Dec 14.1457 14.14 sqrt2 (90.23)"
+     ],
+     "note": "28×φ on H Pluto and J Haumea; 14.14 on J Pluto and H Haumea",
+     "field": "only"
+    },
+    {
+     "check": 7,
+     "key": "('count', 4)",
+     "cells": [
+      "28×φ golden",
+      "144.444 ninth",
+      "φ^6 phi power",
       "14.14 sqrt2"
      ],
-     "note": "1 numbers",
+     "note": "4 numbers",
      "field": ""
     },
     {
@@ -947,6 +1205,15 @@
      "field": "only"
     },
     {
+     "check": 9,
+     "key": "('J', 'Regulus', '102')",
+     "cells": [
+      "J Jupiter – J Regulus RA 101.9986 102 whole (86.15)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
      "check": 10,
      "key": "(7,)",
      "cells": [
@@ -955,6 +1222,26 @@
      ],
      "note": "",
      "field": "also: 2 Cherie d'Am, 7 Springtime Promise"
+    },
+    {
+     "check": 10,
+     "key": "(8,)",
+     "cells": [
+      "S Saturn → H Eris Dec 7.9999 8 whole (99.32)",
+      "H Makemake – H Regulus Dec 12.9498 8×φ golden (68.70)"
+     ],
+     "note": "",
+     "field": "also: 2 Cherie d'Am, 6 Smiling Getaway"
+    },
+    {
+     "check": 10,
+     "key": "(11,)",
+     "cells": [
+      "S Gonggong → J Jupiter Dec 10.9955 11 whole (60.08)",
+      "J Saturn – J Regulus Dec 17.7922 11×φ golden (65.39)"
+     ],
+     "note": "",
+     "field": "also: 2 Cherie d'Am"
     },
     {
      "check": 10,
@@ -988,6 +1275,30 @@
      "field": "only"
     },
     {
+     "check": 10,
+     "key": "(28,)",
+     "cells": [
+      "S Haumea → H Antares RA 27.9975 28 whole (76.23)",
+      "S Juno → H Antares Dec 27.9974 28 whole (75.56)",
+      "S Haumea → J Antares RA 27.9976 28 whole (77.55)",
+      "S Juno → J Antares Dec 27.9973 28 whole (74.39)",
+      "H Pluto – H Antares RA 45.3022 28×φ golden (83.99)",
+      "S Ceres → J Haumea Dec 45.3031 28×φ golden (88.76)"
+     ],
+     "note": "",
+     "field": "also: 2 Cherie d'Am, 3 Either Or, 5 Little Miss Dante"
+    },
+    {
+     "check": 10,
+     "key": "(78,)",
+     "cells": [
+      "S Transpluto → J Pallas RA 77.9983 78 whole (84.00)",
+      "H Makemake – H Aldebaran RA 126.2101 78×φ golden (80.07)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
      "check": 11,
      "key": "('12', '12.2222')",
      "cells": [
@@ -997,6 +1308,18 @@
      ],
      "note": "11.9839 - 12.2230",
      "field": "also: 7 Springtime Promise"
+    },
+    {
+     "check": 11,
+     "key": "('13', '8×φ')",
+     "cells": [
+      "H Makemake – H Regulus Dec 12.9498 8×φ golden (68.70)",
+      "S Pallas → J Pluto Dec 12.9955 13 whole (59.91)",
+      "H Venus – H Chiron Dec 12.9966 13 whole (69.03)",
+      "J Rahu – J Antares Dec 13.0101 13 whole (24.37)"
+     ],
+     "note": "12.9498 - 13.0101",
+     "field": "also: 2 Cherie d'Am, 6 Smiling Getaway"
     },
     {
      "check": 11,
@@ -1015,8 +1338,10 @@
     },
     {
      "check": 11,
-     "key": "('18', 'φ^6')",
+     "key": "('11×φ', '18', 'φ^6')",
      "cells": [
+      "J Saturn – J Regulus Dec 17.7922 11×φ golden (65.39)",
+      "J Ceres – J Regulus Dec 17.9409 φ^6 phi power (92.72)",
       "S Eris → H Rahu Dec 17.9465 φ^6 phi power (95.14)",
       "S Quaoar → J Neptune RA 18.0038 18 whole (65.59)",
       "S Saturn → H Chiron RA 18.0061 18 whole (48.46)",
@@ -1024,8 +1349,8 @@
       "S Moon → J Chiron Dec 18.0160 18 whole (3.91)",
       "S Ketu → H Haumea RA 18.0196 18 whole (0.03)"
      ],
-     "note": "17.9465 - 18.0196",
-     "field": "only"
+     "note": "17.7922 - 18.0196",
+     "field": "also: 2 Cherie d'Am"
     },
     {
      "check": 11,
@@ -1064,6 +1389,20 @@
     },
     {
      "check": 11,
+     "key": "('21×φ', '34')",
+     "cells": [
+      "S Chiron → J Antares Dec 33.9752 21×φ golden (79.35)",
+      "S Chiron → H Antares Dec 33.9753 21×φ golden (80.10)",
+      "S Jupiter → J Neptune Dec 33.9808 34 whole (0.15)",
+      "S Venus → J Ketu Dec 33.9885 34 whole (18.05)",
+      "H Vesta – H Aldebaran Dec 34.0022 34 whole (78.99)",
+      "J Uranus – J Ketu Dec 34.0199 34 whole (0.00)"
+     ],
+     "note": "33.9752 - 34.0199",
+     "field": "also: 1 Aston Martini, 2 Cherie d'Am, 3 Either Or, 5 Little Miss Dante, 6 Smiling Getaway, 7 Springtime Promise"
+    },
+    {
+     "check": 11,
      "key": "('134', '83×φ')",
      "cells": [
       "H Ceres – H Chiron RA 134.0128 134 whole (12.97)",
@@ -1076,6 +1415,17 @@
     },
     {
      "check": 11,
+     "key": "('154', '95×φ')",
+     "cells": [
+      "J Uranus – J Vesta RA 153.7267 95×φ golden (34.05)",
+      "H Chiron – H Regulus RA 153.9811 154 whole (0.32)",
+      "H Venus – H Makemake RA 154.0013 154 whole (87.30)"
+     ],
+     "note": "153.7267 - 154.0013",
+     "field": "only"
+    },
+    {
+     "check": 11,
      "key": "('100×φ^1', '162')",
      "cells": [
       "S Ketu → J Ketu RA 161.8847 100×φ^1 phi power (80.92)",
@@ -1084,6 +1434,33 @@
      ],
      "note": "161.8847 - 161.9804",
      "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('108×φ', '175')",
+     "cells": [
+      "S Makemake → H Uranus RA 174.7153 108×φ golden (0.00)",
+      "S Ketu → J Sun RA 174.7698 108×φ golden (10.00)",
+      "S Gonggong → H Regulus RA 175.0121 175 whole (15.46)",
+      "S Gonggong → J Regulus RA 175.0137 175 whole (9.94)"
+     ],
+     "note": "174.7153 - 175.0137",
+     "field": "also: 3 Either Or, 5 Little Miss Dante, 6 Smiling Getaway"
+    },
+    {
+     "check": 12,
+     "key": "(1,)",
+     "cells": [
+      "H Transpluto – H Regulus RA 0.9925 1 whole (38.88)",
+      "H Sun – H Juno Dec 9.9933 10 whole (44.44)",
+      "S Rahu → H Aldebaran Dec 9.9905 10 whole (27.32)",
+      "S Pluto → J Jupiter Dec 1.0129 1 whole (12.59)",
+      "S Rahu → J Aldebaran Dec 9.9917 10 whole (33.98)",
+      "S Makemake → J Haumea Dec 1.0198 1 whole (0.02)",
+      "S Quaoar → J Quaoar Dec 1.0189 1 whole (0.32)"
+     ],
+     "note": "1 and 10",
+     "field": "also: 1 Aston Martini, 3 Either Or, 5 Little Miss Dante, 6 Smiling Getaway, 7 Springtime Promise"
     },
     {
      "check": 12,
@@ -1123,18 +1500,6 @@
      ],
      "note": "2 and 20",
      "field": "also: 1 Aston Martini, 2 Cherie d'Am, 3 Either Or, 6 Smiling Getaway, 7 Springtime Promise"
-    },
-    {
-     "check": 12,
-     "key": "(1,)",
-     "cells": [
-      "H Sun – H Juno Dec 9.9933 10 whole (44.44)",
-      "S Pluto → J Jupiter Dec 1.0129 1 whole (12.59)",
-      "S Makemake → J Haumea Dec 1.0198 1 whole (0.02)",
-      "S Quaoar → J Quaoar Dec 1.0189 1 whole (0.32)"
-     ],
-     "note": "1 and 10",
-     "field": "also: 1 Aston Martini, 3 Either Or, 5 Little Miss Dante, 6 Smiling Getaway, 7 Springtime Promise"
     }
    ]
   },
@@ -1146,12 +1511,13 @@
    "items": [
     {
      "check": 7,
-     "key": "('count', 2)",
+     "key": "('count', 3)",
      "cells": [
+      "23×φ golden",
       "133.333 ninth",
       "144.444 ninth"
      ],
-     "note": "2 numbers",
+     "note": "3 numbers",
      "field": ""
     },
     {
@@ -1175,13 +1541,49 @@
     },
     {
      "check": 10,
+     "key": "(21,)",
+     "cells": [
+      "S Mars → H Juno Dec 21.0012 21 whole (87.94)",
+      "S Chiron → H Antares Dec 33.9755 21×φ golden (81.20)",
+      "S Chiron → J Antares Dec 33.9753 21×φ golden (79.97)"
+     ],
+     "note": "",
+     "field": "also: 1 Aston Martini, 6 Smiling Getaway"
+    },
+    {
+     "check": 10,
      "key": "(23,)",
      "cells": [
       "S Rahu → H Jupiter Dec 23.0022 23 whole (79.44)",
+      "H Sun – H Aldebaran RA 37.2168 23×φ golden (87.67)",
       "S Vesta → J Quaoar Dec 37.2153 23×φ golden (96.91)"
      ],
      "note": "",
      "field": "also: 3 Either Or"
+    },
+    {
+     "check": 10,
+     "key": "(28,)",
+     "cells": [
+      "H Mercury – H Ceres Dec 27.9946 28 whole (53.28)",
+      "H Uranus – H Vesta Dec 28.0002 28 whole (97.61)",
+      "S Haumea → H Antares RA 27.9984 28 whole (84.36)",
+      "S Juno → H Antares Dec 27.9976 28 whole (77.30)",
+      "S Juno → J Antares Dec 27.9974 28 whole (75.36)",
+      "J Eris – J Aldebaran RA 45.3002 28×φ golden (72.89)"
+     ],
+     "note": "",
+     "field": "also: 2 Cherie d'Am, 3 Either Or, 4 Jeune Belle"
+    },
+    {
+     "check": 10,
+     "key": "(65,)",
+     "cells": [
+      "S Quaoar → H Fomalhaut RA 65.0035 65 whole (68.19)",
+      "S Pallas → J Ketu RA 105.1806 65×φ golden (54.90)"
+     ],
+     "note": "",
+     "field": "also: 6 Smiling Getaway"
     },
     {
      "check": 11,
@@ -1201,11 +1603,12 @@
       "S Gonggong → J Orcus Dec 10.9838 11 whole (3.64)",
       "S Vesta → J Pallas Dec 10.9915 11 whole (33.03)",
       "S Ketu → H Vesta Dec 11.0080 11 whole (36.19)",
+      "H Quaoar – H Antares Dec 11.0111 11 whole (19.66)",
       "J Vesta – J Transpluto Dec 11.1148 11.1111 ninth (94.02)",
       "S Ketu → J Jupiter Dec 11.1189 11.1111 ninth (87.27)"
      ],
      "note": "10.9838 - 11.1189",
-     "field": "also: 7 Springtime Promise"
+     "field": "also: 3 Either Or, 6 Smiling Getaway, 7 Springtime Promise"
     },
     {
      "check": 11,
@@ -1232,13 +1635,26 @@
     },
     {
      "check": 11,
+     "key": "('21×φ', '34')",
+     "cells": [
+      "S Chiron → J Antares Dec 33.9753 21×φ golden (79.97)",
+      "S Chiron → H Antares Dec 33.9755 21×φ golden (81.20)",
+      "H Ketu – H Aldebaran Dec 33.9819 34 whole (0.86)",
+      "J Jupiter – J Ketu RA 33.9928 34 whole (40.65)"
+     ],
+     "note": "33.9753 - 33.9928",
+     "field": "also: 1 Aston Martini, 2 Cherie d'Am, 3 Either Or, 4 Jeune Belle, 6 Smiling Getaway, 7 Springtime Promise"
+    },
+    {
+     "check": 11,
      "key": "('23×φ', '37')",
      "cells": [
       "S Moon → J Uranus Dec 36.9994 37 whole (94.20)",
       "H Gonggong – H Makemake Dec 37.0102 37 whole (23.89)",
-      "S Vesta → J Quaoar Dec 37.2153 23×φ golden (96.91)"
+      "S Vesta → J Quaoar Dec 37.2153 23×φ golden (96.91)",
+      "H Sun – H Aldebaran RA 37.2168 23×φ golden (87.67)"
      ],
-     "note": "36.9994 - 37.2153",
+     "note": "36.9994 - 37.2168",
      "field": "also: 1 Aston Martini, 3 Either Or"
     },
     {
@@ -1272,7 +1688,18 @@
       "S Haumea → J Sedna RA 173.1517 107×φ golden (10.17)"
      ],
      "note": "172.9963 - 173.1517",
-     "field": "only"
+     "field": "also: 7 Springtime Promise"
+    },
+    {
+     "check": 11,
+     "key": "('108×φ', '175')",
+     "cells": [
+      "S Rahu → J Venus RA 174.7302 108×φ golden (21.28)",
+      "S Gonggong → J Regulus RA 175.0050 175 whole (56.45)",
+      "S Gonggong → H Regulus RA 175.0111 175 whole (19.70)"
+     ],
+     "note": "174.7302 - 175.0111",
+     "field": "also: 3 Either Or, 4 Jeune Belle, 6 Smiling Getaway"
     },
     {
      "check": 12,
@@ -1281,6 +1708,7 @@
       "H Eris – H Gonggong Dec 9.9802 10 whole (0.01)",
       "H Jupiter – H Ketu Dec 0.9893 1 whole (21.41)",
       "S Ceres → H Quaoar RA 1.0054 1 whole (52.99)",
+      "S Rahu → H Aldebaran Dec 9.9904 10 whole (27.16)",
       "S Orcus → H Gonggong Dec 0.9873 1 whole (13.29)",
       "S Transpluto → H Juno Dec 9.9836 10 whole (3.16)",
       "J Rahu – J Sedna Dec 1.0146 1 whole (7.21)",
@@ -1288,6 +1716,7 @@
       "S Ketu → J Eris Dec 0.9804 1 whole (0.05)",
       "S Mercury → J Mars Dec 1.0067 1 whole (44.50)",
       "S Pallas → J Mercury Dec 1.0121 1 whole (15.73)",
+      "S Rahu → J Aldebaran Dec 9.9931 10 whole (42.84)",
       "S Venus → J Uranus Dec 1.0136 1 whole (10.25)"
      ],
      "note": "1 and 10",
@@ -1304,7 +1733,7 @@
       "S Makemake → J Haumea RA 6.9886 7 whole (18.54)"
      ],
      "note": "7 and 70",
-     "field": "only"
+     "field": "also: 1 Aston Martini"
     },
     {
      "check": 12,
@@ -1323,8 +1752,11 @@
      "key": "(3,)",
      "cells": [
       "S Jupiter → H Uranus Dec 3.0144 3 whole (7.91)",
+      "S Jupiter → H Aldebaran Dec 3.0176 3 whole (1.38)",
       "S Neptune → H Juno Dec 2.9860 3 whole (8.92)",
+      "J Mercury – J Regulus RA 2.9993 3 whole (93.12)",
       "J Pluto – J Haumea Dec 29.9822 30 whole (1.18)",
+      "J Gonggong – J Regulus Dec 30.0109 30 whole (20.61)",
       "S Eris → J Vesta Dec 3.0134 3 whole (10.92)"
      ],
      "note": "3 and 30",
@@ -1335,6 +1767,7 @@
      "key": "(12,)",
      "cells": [
       "H Sun – H Quaoar RA 119.9854 120 whole (7.29)",
+      "J Jupiter – J Fomalhaut Dec 11.9844 12 whole (4.75)",
       "S Juno → J Mercury RA 12.0060 12 whole (48.78)",
       "S Sedna → J Neptune RA 119.9992 120 whole (91.95)"
      ],
@@ -1381,10 +1814,22 @@
     },
     {
      "check": 7,
-     "key": "('count', 0)",
-     "cells": [],
-     "note": "0 numbers",
+     "key": "('count', 2)",
+     "cells": [
+      "24×φ golden",
+      "52×φ golden"
+     ],
+     "note": "2 numbers",
      "field": ""
+    },
+    {
+     "check": 9,
+     "key": "('H', 'Aldebaran', '78×φ')",
+     "cells": [
+      "H Jupiter – H Aldebaran RA 126.2098 78×φ golden (81.40)"
+     ],
+     "note": "",
+     "field": "only"
     },
     {
      "check": 10,
@@ -1396,7 +1841,21 @@
       "S Jupiter → J Jupiter Dec 12.9435 8×φ golden (95.50)"
      ],
      "note": "",
-     "field": "also: 2 Cherie d'Am"
+     "field": "also: 2 Cherie d'Am, 4 Jeune Belle"
+    },
+    {
+     "check": 10,
+     "key": "(15,)",
+     "cells": [
+      "H Mercury – H Makemake Dec 14.9972 15 whole (73.79)",
+      "H Neptune – H Sedna Dec 14.9979 15 whole (80.19)",
+      "H Venus – H Aldebaran Dec 14.9976 15 whole (77.77)",
+      "S Juno → H Regulus RA 14.9992 15 whole (92.29)",
+      "S Juno → J Regulus RA 15.0030 15 whole (72.20)",
+      "H Gonggong – H Regulus Dec 24.2761 15×φ golden (68.46)"
+     ],
+     "note": "",
+     "field": "also: 3 Either Or, 7 Springtime Promise"
     },
     {
      "check": 10,
@@ -1410,13 +1869,57 @@
     },
     {
      "check": 10,
+     "key": "(21,)",
+     "cells": [
+      "J Pluto – J Aldebaran Dec 21.0002 21 whole (97.82)",
+      "S Chiron → H Antares Dec 33.9755 21×φ golden (81.27)",
+      "S Chiron → J Antares Dec 33.9746 21×φ golden (76.22)"
+     ],
+     "note": "",
+     "field": "also: 1 Aston Martini, 5 Little Miss Dante"
+    },
+    {
+     "check": 10,
+     "key": "(24,)",
+     "cells": [
+      "H Juno – H Aldebaran Dec 23.9951 24 whole (56.65)",
+      "H Uranus – H Fomalhaut RA 38.8316 24×φ golden (92.41)",
+      "J Mercury – J Haumea Dec 38.8321 24×φ golden (95.85)"
+     ],
+     "note": "",
+     "field": "also: 1 Aston Martini, 3 Either Or"
+    },
+    {
+     "check": 10,
      "key": "(52,)",
      "cells": [
       "J Saturn – J Rahu RA 51.9996 52 whole (96.04)",
+      "H Rahu – H Aldebaran RA 84.1351 52×φ golden (84.35)",
       "S Pallas → J Gonggong RA 84.1399 52×φ golden (87.20)"
      ],
      "note": "",
      "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(65,)",
+     "cells": [
+      "S Quaoar → H Fomalhaut RA 65.0035 65 whole (68.25)",
+      "S Quaoar → H Mercury RA 105.1788 65×φ golden (63.63)"
+     ],
+     "note": "",
+     "field": "also: 5 Little Miss Dante"
+    },
+    {
+     "check": 11,
+     "key": "('11', '11.1111')",
+     "cells": [
+      "H Quaoar – H Antares Dec 10.9802 11 whole (0.01)",
+      "S Rahu → J Pluto Dec 11.0065 11 whole (45.49)",
+      "S Neptune → J Chiron Dec 11.1115 11.1111 ninth (99.40)"
+     ],
+     "note": "10.9802 - 11.1115",
+     "field": "also: 3 Either Or, 5 Little Miss Dante, 7 Springtime Promise"
     },
     {
      "check": 11,
@@ -1430,7 +1933,7 @@
       "S Pallas → J Venus RA 13.0160 13 whole (3.95)"
      ],
      "note": "12.9435 - 13.0160",
-     "field": "also: 2 Cherie d'Am"
+     "field": "also: 2 Cherie d'Am, 4 Jeune Belle"
     },
     {
      "check": 11,
@@ -1443,6 +1946,17 @@
      ],
      "note": "17.7738 - 18.0184",
      "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('15×φ', '24')",
+     "cells": [
+      "S Transpluto → J Quaoar Dec 23.9925 24 whole (38.99)",
+      "H Juno – H Aldebaran Dec 23.9951 24 whole (56.65)",
+      "H Gonggong – H Regulus Dec 24.2761 15×φ golden (68.46)"
+     ],
+     "note": "23.9925 - 24.2761",
+     "field": "also: 7 Springtime Promise"
     },
     {
      "check": 11,
@@ -1466,6 +1980,30 @@
       "S Mars → J Chiron Dec 29.1267 18×φ golden (87.23)"
      ],
      "note": "28.9923 - 29.1267",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('21×φ', '34')",
+     "cells": [
+      "S Chiron → J Antares Dec 33.9746 21×φ golden (76.22)",
+      "S Chiron → H Antares Dec 33.9755 21×φ golden (81.27)",
+      "S Ceres → H Transpluto Dec 33.9928 34 whole (40.73)",
+      "S Vesta → H Ketu Dec 34.0024 34 whole (77.84)",
+      "H Saturn – H Regulus Dec 34.0134 34 whole (11.04)"
+     ],
+     "note": "33.9746 - 34.0134",
+     "field": "also: 1 Aston Martini, 2 Cherie d'Am, 3 Either Or, 4 Jeune Belle, 5 Little Miss Dante, 7 Springtime Promise"
+    },
+    {
+     "check": 11,
+     "key": "('52×φ', '84')",
+     "cells": [
+      "H Neptune – H Aldebaran RA 84.0165 84 whole (3.01)",
+      "H Rahu – H Aldebaran RA 84.1351 52×φ golden (84.35)",
+      "S Pallas → J Gonggong RA 84.1399 52×φ golden (87.20)"
+     ],
+     "note": "84.0165 - 84.1399",
      "field": "only"
     },
     {
@@ -1502,17 +2040,43 @@
      "field": "also: 5 Little Miss Dante"
     },
     {
+     "check": 11,
+     "key": "('108×φ', '175')",
+     "cells": [
+      "S Rahu → J Haumea RA 174.7672 108×φ golden (15.61)",
+      "S Gonggong → J Regulus RA 175.0073 175 whole (40.32)",
+      "S Gonggong → H Regulus RA 175.0111 175 whole (19.84)"
+     ],
+     "note": "174.7672 - 175.0111",
+     "field": "also: 3 Either Or, 4 Jeune Belle, 5 Little Miss Dante"
+    },
+    {
      "check": 12,
      "key": "(15,)",
      "cells": [
       "H Mercury – H Makemake Dec 14.9972 15 whole (73.79)",
       "H Neptune – H Sedna Dec 14.9979 15 whole (80.19)",
+      "H Venus – H Aldebaran Dec 14.9976 15 whole (77.77)",
+      "S Juno → H Regulus RA 14.9992 15 whole (92.29)",
       "S Transpluto → H Jupiter Dec 15.0064 15 whole (46.40)",
+      "J Mercury – J Aldebaran RA 149.9904 150 whole (27.24)",
       "J Sun – J Juno Dec 15.0145 15 whole (7.66)",
-      "S Chiron → J Vesta RA 150.0155 150 whole (5.00)"
+      "S Chiron → J Vesta RA 150.0155 150 whole (5.00)",
+      "S Juno → J Regulus RA 15.0030 15 whole (72.20)"
      ],
      "note": "15 and 150",
      "field": "also: 1 Aston Martini"
+    },
+    {
+     "check": 12,
+     "key": "(12,)",
+     "cells": [
+      "H Pallas – H Regulus Dec 12.0051 12 whole (55.32)",
+      "S Juno → H Juno RA 119.9839 120 whole (3.75)",
+      "S Mars → J Sun Dec 12.0150 12 whole (6.20)"
+     ],
+     "note": "12 and 120",
+     "field": "also: 5 Little Miss Dante"
     },
     {
      "check": 12,
@@ -1554,18 +2118,9 @@
     },
     {
      "check": 12,
-     "key": "(5,)",
-     "cells": [
-      "S Gonggong → H Juno RA 50.0058 50 whole (50.24)",
-      "S Rahu → H Venus Dec 5.0072 5 whole (41.20)"
-     ],
-     "note": "5 and 50",
-     "field": "also: 7 Springtime Promise"
-    },
-    {
-     "check": 12,
      "key": "(3,)",
      "cells": [
+      "S Jupiter → H Aldebaran Dec 3.0177 3 whole (1.32)",
       "J Rahu – J Pallas Dec 30.0042 30 whole (62.55)",
       "S Ceres → J Pallas RA 3.0072 3 whole (40.95)",
       "S Uranus → J Sedna RA 3.0194 3 whole (0.08)",
@@ -1576,25 +2131,27 @@
     },
     {
      "check": 12,
-     "key": "(1,)",
+     "key": "(5,)",
      "cells": [
-      "H Eris – H Gonggong Dec 9.9842 10 whole (4.41)",
-      "S Ceres → J Neptune Dec 1.0104 1 whole (23.04)",
-      "S Juno → J Jupiter Dec 1.0188 1 whole (0.33)",
-      "S Mars → J Venus Dec 0.9854 1 whole (7.18)"
+      "S Gonggong → H Juno RA 50.0058 50 whole (50.24)",
+      "S Rahu → H Venus Dec 5.0072 5 whole (41.20)"
      ],
-     "note": "1 and 10",
-     "field": "also: 1 Aston Martini, 3 Either Or, 4 Jeune Belle, 5 Little Miss Dante, 7 Springtime Promise"
+     "note": "5 and 50",
+     "field": "also: 7 Springtime Promise"
     },
     {
      "check": 12,
-     "key": "(12,)",
+     "key": "(1,)",
      "cells": [
-      "S Juno → H Juno RA 119.9839 120 whole (3.75)",
-      "S Mars → J Sun Dec 12.0150 12 whole (6.20)"
+      "H Eris – H Gonggong Dec 9.9842 10 whole (4.41)",
+      "S Rahu → H Aldebaran Dec 9.9905 10 whole (27.43)",
+      "S Ceres → J Neptune Dec 1.0104 1 whole (23.04)",
+      "S Juno → J Jupiter Dec 1.0188 1 whole (0.33)",
+      "S Mars → J Venus Dec 0.9854 1 whole (7.18)",
+      "S Rahu → J Aldebaran Dec 9.9937 10 whole (46.97)"
      ],
-     "note": "12 and 120",
-     "field": "also: 5 Little Miss Dante"
+     "note": "1 and 10",
+     "field": "also: 1 Aston Martini, 3 Either Or, 4 Jeune Belle, 5 Little Miss Dante, 7 Springtime Promise"
     },
     {
      "check": 13,
@@ -1727,18 +2284,30 @@
       "S Rahu → J Haumea Dec 14.5622 9×φ golden (99.56)"
      ],
      "note": "",
-     "field": "only"
+     "field": "also: 1 Aston Martini"
     },
     {
      "check": 10,
      "key": "(14,)",
      "cells": [
+      "H Venus – H Fomalhaut RA 13.9977 14 whole (78.70)",
       "S Makemake → H Sedna Dec 13.9959 14 whole (63.15)",
       "S Sun → J Mars Dec 14.0046 14 whole (59.66)",
       "J Venus – J Rahu RA 22.6505 14×φ golden (88.24)"
      ],
      "note": "",
      "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(15,)",
+     "cells": [
+      "S Juno → H Regulus RA 14.9973 15 whole (75.00)",
+      "S Juno → J Regulus RA 15.0049 15 whole (57.23)",
+      "S Gonggong → J Vesta Dec 24.2770 15×φ golden (63.92)"
+     ],
+     "note": "",
+     "field": "also: 3 Either Or, 6 Smiling Getaway"
     },
     {
      "check": 10,
@@ -1763,6 +2332,16 @@
      ],
      "note": "",
      "field": "also: 4 Jeune Belle"
+    },
+    {
+     "check": 10,
+     "key": "(25,)",
+     "cells": [
+      "S Mercury → J Fomalhaut RA 24.9987 25 whole (87.65)",
+      "S Uranus → J Ketu Dec 40.4559 25×φ golden (71.05)"
+     ],
+     "note": "",
+     "field": "only"
     },
     {
      "check": 10,
@@ -1805,6 +2384,16 @@
      "field": "only"
     },
     {
+     "check": 10,
+     "key": "(107,)",
+     "cells": [
+      "S Saturn → J Juno RA 106.9995 107 whole (95.20)",
+      "J Venus – J Antares RA 173.1370 107×φ golden (59.53)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
      "check": 11,
      "key": "('10', '6×φ')",
      "cells": [
@@ -1812,6 +2401,8 @@
       "H Eris – H Sedna Dec 9.9811 10 whole (0.29)",
       "S Venus → H Pluto RA 9.9819 10 whole (0.86)",
       "S Chiron → H Eris Dec 9.9840 10 whole (3.98)",
+      "S Rahu → H Aldebaran Dec 9.9906 10 whole (27.97)",
+      "S Rahu → J Aldebaran Dec 9.9921 10 whole (36.83)",
       "S Rahu → H Mars Dec 9.9936 10 whole (46.49)"
      ],
      "note": "9.7089 - 9.9936",
@@ -1826,7 +2417,7 @@
       "S Jupiter → H Mercury RA 11.1123 11.1111 ninth (97.99)"
      ],
      "note": "10.9900 - 11.1123",
-     "field": "also: 5 Little Miss Dante"
+     "field": "also: 3 Either Or, 5 Little Miss Dante, 6 Smiling Getaway"
     },
     {
      "check": 11,
@@ -1853,16 +2444,41 @@
     },
     {
      "check": 11,
+     "key": "('15×φ', '24')",
+     "cells": [
+      "H Eris – H Antares Dec 23.9911 24 whole (30.95)",
+      "S Eris → J Jupiter Dec 24.0004 24 whole (96.30)",
+      "S Gonggong → J Vesta Dec 24.2770 15×φ golden (63.92)"
+     ],
+     "note": "23.9911 - 24.2770",
+     "field": "also: 6 Smiling Getaway"
+    },
+    {
+     "check": 11,
      "key": "('16×φ', '26')",
      "cells": [
       "S Jupiter → H Gonggong Dec 25.8804 16×φ golden (56.23)",
       "J Makemake – J Sedna Dec 25.9802 26 whole (0.01)",
+      "H Orcus – H Aldebaran Dec 25.9901 26 whole (25.41)",
       "H Mars – H Orcus Dec 25.9931 26 whole (43.16)",
+      "H Juno – H Aldebaran Dec 25.9951 26 whole (57.37)",
       "H Mars – H Juno Dec 25.9982 26 whole (82.88)",
       "S Eris → J Mars Dec 26.0004 26 whole (96.19)"
      ],
      "note": "25.8804 - 26.0004",
      "field": "also: 6 Smiling Getaway"
+    },
+    {
+     "check": 11,
+     "key": "('21×φ', '34')",
+     "cells": [
+      "H Sedna – H Antares Dec 33.9722 21×φ golden (63.80)",
+      "S Chiron → H Antares Dec 33.9751 21×φ golden (79.00)",
+      "S Chiron → J Antares Dec 33.9759 21×φ golden (83.09)",
+      "S Pluto → H Transpluto Dec 34.0076 34 whole (38.19)"
+     ],
+     "note": "33.9722 - 34.0076",
+     "field": "also: 1 Aston Martini, 2 Cherie d'Am, 3 Either Or, 4 Jeune Belle, 5 Little Miss Dante, 6 Smiling Getaway"
     },
     {
      "check": 11,
@@ -1873,6 +2489,17 @@
       "S Jupiter → J Transpluto RA 111.1489 111.111 ninth (93.81)"
      ],
      "note": "110.9662 - 111.1489",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('113', '70×φ')",
+     "cells": [
+      "S Pallas → H Venus RA 113.0100 113 whole (25.12)",
+      "J Neptune – J Haumea RA 113.2545 70×φ golden (57.25)",
+      "H Pallas – H Antares RA 113.2659 70×φ golden (79.36)"
+     ],
+     "note": "113.0100 - 113.2659",
      "field": "only"
     },
     {
@@ -1890,10 +2517,22 @@
      "field": "only"
     },
     {
+     "check": 11,
+     "key": "('107×φ', '173')",
+     "cells": [
+      "H Mercury – H Haumea RA 172.9908 173 whole (28.94)",
+      "H Eris – H Haumea RA 173.0134 173 whole (10.76)",
+      "J Venus – J Antares RA 173.1370 107×φ golden (59.53)"
+     ],
+     "note": "172.9908 - 173.1370",
+     "field": "also: 5 Little Miss Dante"
+    },
+    {
      "check": 12,
      "key": "(14,)",
      "cells": [
       "H Ketu – H Makemake RA 140.0065 140 whole (45.61)",
+      "H Venus – H Fomalhaut RA 13.9977 14 whole (78.70)",
       "H Chiron – H Gonggong Dec 14.0090 14 whole (30.26)",
       "S Saturn → H Sun Dec 13.9836 14 whole (3.17)",
       "S Makemake → H Sedna Dec 13.9959 14 whole (63.15)",
@@ -1910,6 +2549,7 @@
       "H Ketu – H Quaoar Dec 4.9848 5 whole (5.80)",
       "S Eris → H Gonggong RA 50.0020 50 whole (80.96)",
       "J Mars – J Jupiter Dec 50.0008 50 whole (92.56)",
+      "J Venus – J Fomalhaut Dec 49.9880 50 whole (15.81)",
       "S Moon → J Pallas Dec 5.0064 5 whole (46.01)"
      ],
      "note": "5 and 50",
@@ -1949,6 +2589,8 @@
       "S Chiron → H Uranus Dec 1.0173 1 whole (1.81)",
       "S Neptune → H Pallas Dec 0.9864 1 whole (10.24)",
       "S Rahu → H Mars Dec 9.9936 10 whole (46.49)",
+      "S Rahu → H Aldebaran Dec 9.9906 10 whole (27.97)",
+      "S Rahu → J Aldebaran Dec 9.9921 10 whole (36.83)",
       "S Quaoar → J Uranus Dec 0.9987 1 whole (87.49)"
      ],
      "note": "1 and 10",
