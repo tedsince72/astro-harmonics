@@ -1,0 +1,1938 @@
+{
+ "race": "20220219_haydock_1405",
+ "workbook": "race_batch_20220219_haydock_1405_active.xlsx",
+ "runners": {
+  "1": {
+   "name": {
+    "H": "1 Third Wind",
+    "J": "Tom O'Brien"
+   },
+   "items": [
+    {
+     "check": 6,
+     "key": "('Moon', 'J', 'Gonggong')",
+     "cells": [
+      "S Moon → J Gonggong RA 141.4384 141.4 sqrt2 (95.24)",
+      "J Jupiter – J Gonggong RA 17.7957 11×φ golden (84.20)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 6,
+     "key": "('Sun', 'J', 'Vesta')",
+     "cells": [
+      "S Sun → J Vesta RA 33.9713 21×φ golden (59.39)",
+      "J Jupiter – J Vesta RA 21.0048 21 whole (57.97)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 6,
+     "key": "('Moon', 'J', 'Gonggong')",
+     "cells": [
+      "S Moon → J Gonggong Dec 21.9976 22 whole (77.75)",
+      "J Jupiter – J Gonggong RA 17.7957 11×φ golden (84.20)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 7,
+     "key": "('count', 1)",
+     "cells": [
+      "9×φ golden"
+     ],
+     "note": "1 numbers",
+     "field": ""
+    },
+    {
+     "check": 9,
+     "key": "('J', 'Vesta', '21')",
+     "cells": [
+      "J Jupiter – J Vesta RA 21.0048 21 whole (57.97)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 9,
+     "key": "('J', 'Gonggong', '11×φ')",
+     "cells": [
+      "J Jupiter – J Gonggong RA 17.7957 11×φ golden (84.20)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 9,
+     "key": "('J', 'Mars', '7×φ')",
+     "cells": [
+      "J Mars – J Jupiter RA 11.3260 7×φ golden (98.47)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 9,
+     "key": "('J', 'Makemake', '27×φ')",
+     "cells": [
+      "J Jupiter – J Makemake Dec 43.6806 27×φ golden (64.83)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(6,)",
+     "cells": [
+      "S Ceres → H Sun Dec 5.9991 6 whole (91.15)",
+      "S Transpluto → J Pluto Dec 9.7087 6×φ golden (97.05)"
+     ],
+     "note": "",
+     "field": "also: 2 Thomas Darby"
+    },
+    {
+     "check": 10,
+     "key": "(7,)",
+     "cells": [
+      "S Pluto → H Quaoar Dec 6.9960 7 whole (64.03)",
+      "J Saturn – J Ceres Dec 6.9977 7 whole (78.13)",
+      "J Mars – J Jupiter RA 11.3260 7×φ golden (98.47)",
+      "S Juno → J Neptune Dec 11.3259 7×φ golden (98.16)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(9,)",
+     "cells": [
+      "S Sedna → H Chiron Dec 8.9983 9 whole (84.13)",
+      "S Jupiter → J Pluto Dec 8.9941 9 whole (50.04)",
+      "H Mars – H Pallas Dec 14.5624 9×φ golden (99.46)",
+      "H Saturn – H Chiron Dec 14.5621 9×φ golden (98.71)",
+      "S Haumea → J Pluto Dec 14.5657 9×φ golden (80.08)"
+     ],
+     "note": "",
+     "field": "also: 6 Molly Ollys Wishes"
+    },
+    {
+     "check": 10,
+     "key": "(12,)",
+     "cells": [
+      "S Gonggong → J Uranus Dec 12.0052 12 whole (54.56)",
+      "S Pluto → H Eris Dec 19.4151 12×φ golden (92.03)",
+      "S Chiron → J Juno Dec 19.4129 12×φ golden (79.67)"
+     ],
+     "note": "",
+     "field": "also: 2 Thomas Darby"
+    },
+    {
+     "check": 10,
+     "key": "(21,)",
+     "cells": [
+      "J Jupiter – J Vesta RA 21.0048 21 whole (57.97)",
+      "S Eris → J Neptune Dec 21.0018 21 whole (82.89)",
+      "S Sun → J Vesta RA 33.9713 21×φ golden (59.39)",
+      "S Sun → J Haumea Dec 33.9775 21×φ golden (92.75)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(27,)",
+     "cells": [
+      "S Pallas → H Haumea Dec 27.0002 27 whole (98.26)",
+      "J Jupiter – J Makemake Dec 43.6806 27×φ golden (64.83)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(105,)",
+     "cells": [
+      "S Uranus → J Transpluto RA 105.0052 105 whole (54.60)",
+      "S Uranus → H Saturn RA 169.8972 105×φ golden (78.99)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('2×φ', '3')",
+     "cells": [
+      "S Haumea → H Haumea Dec 2.9805 3 whole (0.05)",
+      "S Makemake → H Vesta RA 3.0075 3 whole (38.90)",
+      "H Sun – H Haumea Dec 3.2366 2×φ golden (96.51)"
+     ],
+     "note": "2.9805 - 3.2366",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('7.77778', '8')",
+     "cells": [
+      "S Neptune → J Mars Dec 7.7780 7.77778 ninth (98.41)",
+      "S Orcus → H Pluto Dec 8.0094 8 whole (28.15)",
+      "J Mercury – J Neptune Dec 8.0147 8 whole (7.14)"
+     ],
+     "note": "7.7780 - 8.0147",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('11.1111', '7×φ')",
+     "cells": [
+      "H Juno – H Haumea Dec 11.1190 11.1111 ninth (87.03)",
+      "S Juno → J Neptune Dec 11.3259 7×φ golden (98.16)",
+      "J Mars – J Jupiter RA 11.3260 7×φ golden (98.47)"
+     ],
+     "note": "11.1190 - 11.3260",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('13', '8×φ')",
+     "cells": [
+      "S Eris → H Transpluto Dec 12.9465 8×φ golden (86.81)",
+      "S Eris → J Mercury Dec 12.9871 13 whole (12.73)",
+      "S Vesta → J Ketu Dec 12.9981 13 whole (81.57)",
+      "S Chiron → J Vesta Dec 13.0062 13 whole (47.44)",
+      "S Sun → H Chiron RA 13.0193 13 whole (0.12)"
+     ],
+     "note": "12.9465 - 13.0193",
+     "field": "also: 2 Thomas Darby, 4 Top Ville Ben, 6 Molly Ollys Wishes"
+    },
+    {
+     "check": 11,
+     "key": "('14.4444', '9×φ')",
+     "cells": [
+      "J Neptune – J Ketu Dec 14.4436 14.4444 ninth (99.07)",
+      "J Pluto – J Juno Dec 14.4498 14.4444 ninth (94.36)",
+      "H Saturn – H Chiron Dec 14.5621 9×φ golden (98.71)",
+      "H Mars – H Pallas Dec 14.5624 9×φ golden (99.46)",
+      "S Haumea → J Pluto Dec 14.5657 9×φ golden (80.08)"
+     ],
+     "note": "14.4436 - 14.5657",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('11×φ', '17.7778', '18')",
+     "cells": [
+      "H Haumea – H Makemake RA 17.7770 17.7778 ninth (99.37)",
+      "J Jupiter – J Gonggong RA 17.7957 11×φ golden (84.20)",
+      "J Pallas – J Chiron Dec 17.9809 18 whole (0.22)",
+      "S Chiron → H Ketu RA 18.0043 18 whole (61.94)",
+      "J Venus – J Orcus Dec 18.0065 18 whole (45.27)",
+      "H Sun – H Mars Dec 18.0069 18 whole (42.77)",
+      "H Rahu – H Juno Dec 18.0154 18 whole (5.18)"
+     ],
+     "note": "17.7770 - 18.0154",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('22', '22.2222')",
+     "cells": [
+      "J Jupiter – J Transpluto Dec 21.9853 22 whole (6.93)",
+      "S Ceres → H Chiron Dec 21.9893 22 whole (21.52)",
+      "S Moon → J Sun Dec 21.9972 22 whole (74.03)",
+      "S Moon → J Gonggong Dec 21.9976 22 whole (77.75)",
+      "J Mercury – J Rahu Dec 22.2236 22.2222 ninth (98.12)"
+     ],
+     "note": "21.9853 - 22.2236",
+     "field": "also: 3 Emitom, 6 Molly Ollys Wishes"
+    },
+    {
+     "check": 11,
+     "key": "('24', '24.14')",
+     "cells": [
+      "H Pluto – H Vesta Dec 23.9915 24 whole (32.98)",
+      "S Ceres → H Mars Dec 24.0060 24 whole (48.89)",
+      "H Saturn – H Ceres RA 24.0122 24 whole (15.04)",
+      "S Ceres → H Eris Dec 24.1434 24.14 silver (97.85)",
+      "S Chiron → H Juno RA 24.1461 24.14 silver (93.61)"
+     ],
+     "note": "23.9915 - 24.1461",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('10×φ^2', '26')",
+     "cells": [
+      "H Jupiter – H Eris Dec 25.9823 26 whole (1.33)",
+      "S Sedna → H Juno RA 25.9888 26 whole (19.17)",
+      "S Pallas → H Mercury Dec 26.1813 10×φ^2 phi power (98.57)"
+     ],
+     "note": "25.9823 - 26.1813",
+     "field": "also: 2 Thomas Darby, 4 Top Ville Ben, 6 Molly Ollys Wishes"
+    },
+    {
+     "check": 11,
+     "key": "('21×φ', '34')",
+     "cells": [
+      "S Sun → J Vesta RA 33.9713 21×φ golden (59.39)",
+      "S Sun → J Haumea Dec 33.9775 21×φ golden (92.75)",
+      "S Gonggong → J Haumea Dec 34.0005 34 whole (95.28)"
+     ],
+     "note": "33.9713 - 34.0005",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('105', '65×φ')",
+     "cells": [
+      "S Uranus → J Transpluto RA 105.0052 105 whole (54.60)",
+      "S Mars → J Haumea RA 105.1604 65×φ golden (40.35)",
+      "S Ketu → H Neptune RA 105.1991 65×φ golden (2.86)"
+     ],
+     "note": "105.0052 - 105.1991",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('108×φ', '175')",
+     "cells": [
+      "S Pallas → H Mars RA 174.7276 108×φ golden (14.37)",
+      "S Haumea → H Juno RA 174.7768 108×φ golden (0.98)",
+      "S Gonggong → H Transpluto RA 174.9894 175 whole (21.90)",
+      "S Rahu → H Saturn RA 174.9913 175 whole (31.80)"
+     ],
+     "note": "174.7276 - 174.9913",
+     "field": "also: 3 Emitom"
+    },
+    {
+     "check": 12,
+     "key": "(15,)",
+     "cells": [
+      "H Juno – H Orcus Dec 14.9828 15 whole (1.95)",
+      "S Venus → H Venus Dec 14.9915 15 whole (32.79)",
+      "J Saturn – J Sedna RA 149.9835 150 whole (3.05)",
+      "J Pallas – J Transpluto Dec 15.0048 15 whole (57.68)",
+      "S Moon → J Mercury Dec 14.9872 15 whole (12.82)"
+     ],
+     "note": "15 and 150",
+     "field": "also: 2 Thomas Darby, 5 Wholestone"
+    },
+    {
+     "check": 12,
+     "key": "(16,)",
+     "cells": [
+      "H Ketu – H Makemake Dec 16.0078 16 whole (37.48)",
+      "H Sun – H Chiron Dec 15.9902 16 whole (25.93)",
+      "S Orcus → H Vesta Dec 15.9821 16 whole (1.10)",
+      "J Uranus – J Vesta Dec 16.0138 16 whole (9.61)",
+      "S Uranus → J Ketu RA 160.0059 160 whole (49.62)"
+     ],
+     "note": "16 and 160",
+     "field": "also: 2 Thomas Darby, 3 Emitom, 4 Top Ville Ben"
+    },
+    {
+     "check": 12,
+     "key": "(2,)",
+     "cells": [
+      "H Mars – H Chiron Dec 2.0167 2 whole (2.66)",
+      "S Uranus → J Rahu RA 19.9941 20 whole (49.62)",
+      "S Eris → J Sun Dec 19.9972 20 whole (73.81)",
+      "S Eris → J Gonggong Dec 19.9976 20 whole (77.53)",
+      "S Juno → J Quaoar Dec 1.9857 2 whole (8.07)",
+      "S Orcus → J Rahu Dec 20.0067 20 whole (44.00)"
+     ],
+     "note": "2 and 20",
+     "field": "also: 2 Thomas Darby, 3 Emitom, 4 Top Ville Ben"
+    },
+    {
+     "check": 12,
+     "key": "(1,)",
+     "cells": [
+      "H Eris – H Gonggong Dec 10.0093 10 whole (28.55)",
+      "H Uranus – H Vesta Dec 1.0077 1 whole (37.74)",
+      "J Neptune – J Gonggong Dec 1.0042 1 whole (62.56)",
+      "J Sun – J Neptune Dec 1.0046 1 whole (59.23)"
+     ],
+     "note": "1 and 10",
+     "field": "also: 2 Thomas Darby, 3 Emitom, 4 Top Ville Ben, 5 Wholestone, 6 Molly Ollys Wishes"
+    },
+    {
+     "check": 12,
+     "key": "(5,)",
+     "cells": [
+      "S Ketu → H Saturn RA 5.0087 5 whole (31.80)",
+      "S Venus → H Pluto RA 5.0149 5 whole (6.53)",
+      "S Transpluto → H Ceres RA 49.9846 50 whole (5.23)",
+      "S Pallas → J Ceres Dec 5.0098 5 whole (25.90)",
+      "S Pallas → J Juno Dec 4.9958 5 whole (62.08)"
+     ],
+     "note": "5 and 50",
+     "field": "also: 2 Thomas Darby, 3 Emitom"
+    },
+    {
+     "check": 12,
+     "key": "(3,)",
+     "cells": [
+      "S Makemake → H Vesta RA 3.0075 3 whole (38.90)",
+      "S Haumea → H Haumea Dec 2.9805 3 whole (0.05)",
+      "J Vesta – J Haumea Dec 29.9919 30 whole (35.42)"
+     ],
+     "note": "3 and 30",
+     "field": "also: 3 Emitom, 5 Wholestone, 6 Molly Ollys Wishes"
+    },
+    {
+     "check": 12,
+     "key": "(14,)",
+     "cells": [
+      "S Vesta → H Transpluto RA 139.9811 140 whole (0.28)",
+      "J Sun – J Quaoar RA 14.0175 14 whole (1.59)",
+      "J Uranus – J Neptune RA 13.9879 14 whole (15.64)",
+      "S Uranus → J Pluto Dec 13.9832 14 whole (2.63)"
+     ],
+     "note": "14 and 140",
+     "field": "also: 2 Thomas Darby, 3 Emitom, 5 Wholestone"
+    }
+   ]
+  },
+  "2": {
+   "name": {
+    "H": "2 Thomas Darby",
+    "J": "Aidan Coleman"
+   },
+   "items": [
+    {
+     "check": "2b",
+     "key": "('Jupiter', 'Mercury')",
+     "cells": [
+      "S Jupiter → H Mercury Dec 2.4149 2.414 silver (94.83)",
+      "S Jupiter → J Mercury RA 177.7622 177.778 ninth (98.78)"
+     ],
+     "note": "both >= 80",
+     "field": "only"
+    },
+    {
+     "check": 5,
+     "key": "(('Saturn', 'Sedna'), ('14.14', '7×φ'))",
+     "cells": [
+      "H Mars – H Saturn Dec 11.3290 7×φ golden (83.78)",
+      "S Haumea → J Sedna Dec 11.3297 7×φ golden (80.01)",
+      "S Jupiter → J Saturn Dec 14.1463 14.14 sqrt2 (88.57)",
+      "S Ceres → H Sedna Dec 14.1451 14.14 sqrt2 (91.79)"
+     ],
+     "note": "7×φ on H Saturn and J Sedna; 14.14 on J Saturn and H Sedna",
+     "field": "only"
+    },
+    {
+     "check": 6,
+     "key": "('Moon', 'H', 'Uranus')",
+     "cells": [
+      "S Moon → H Uranus RA 179.4595 10×φ^6 phi power (96.30)",
+      "H Jupiter – H Uranus RA 60.0005 60 whole (95.07)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 6,
+     "key": "('Moon', 'H', 'Juno')",
+     "cells": [
+      "S Moon → H Juno Dec 11.0937 φ^5 phi power (87.73)",
+      "H Jupiter – H Juno RA 128.0052 128 whole (54.54)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 6,
+     "key": "('Moon', 'J', 'Sedna')",
+     "cells": [
+      "S Moon → J Sedna RA 144.4708 144.444 ninth (97.21)",
+      "J Jupiter – J Sedna Dec 16.0047 16 whole (58.48)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 7,
+     "key": "('count', 4)",
+     "cells": [
+      "7×φ golden",
+      "8×φ golden",
+      "122.222 ninth",
+      "14.14 sqrt2"
+     ],
+     "note": "4 numbers",
+     "field": ""
+    },
+    {
+     "check": 9,
+     "key": "('H', 'Juno', '128')",
+     "cells": [
+      "H Jupiter – H Juno RA 128.0052 128 whole (54.54)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 9,
+     "key": "('H', 'Ketu', '21')",
+     "cells": [
+      "H Jupiter – H Ketu RA 21.0019 21 whole (82.32)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 9,
+     "key": "('H', 'Rahu', '159')",
+     "cells": [
+      "H Jupiter – H Rahu RA 158.9981 159 whole (82.32)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 9,
+     "key": "('H', 'Uranus', '60')",
+     "cells": [
+      "H Jupiter – H Uranus RA 60.0005 60 whole (95.07)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 9,
+     "key": "('H', 'Makemake', '77×φ')",
+     "cells": [
+      "H Jupiter – H Makemake RA 124.5922 77×φ golden (79.25)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 9,
+     "key": "('J', 'Rahu', '10×φ^2')",
+     "cells": [
+      "J Jupiter – J Rahu Dec 26.1864 10×φ^2 phi power (90.96)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 9,
+     "key": "('J', 'Sedna', '16')",
+     "cells": [
+      "J Jupiter – J Sedna Dec 16.0047 16 whole (58.48)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(6,)",
+     "cells": [
+      "S Neptune → H Mars RA 6.0051 6 whole (55.26)",
+      "J Mercury – J Mars Dec 9.7083 6×φ golden (99.35)"
+     ],
+     "note": "",
+     "field": "also: 1 Third Wind"
+    },
+    {
+     "check": 10,
+     "key": "(12,)",
+     "cells": [
+      "S Pallas → J Gonggong Dec 11.9966 12 whole (68.87)",
+      "J Venus – J Pluto Dec 19.4172 12×φ golden (95.10)",
+      "S Quaoar → J Sedna Dec 19.4113 12×φ golden (70.69)"
+     ],
+     "note": "",
+     "field": "also: 1 Third Wind"
+    },
+    {
+     "check": 10,
+     "key": "(13,)",
+     "cells": [
+      "S Neptune → H Rahu Dec 12.9990 13 whole (90.40)",
+      "S Haumea → H Ceres Dec 12.9965 13 whole (67.83)",
+      "H Vesta – H Sedna RA 21.0394 13×φ golden (71.62)",
+      "S Eris → J Saturn Dec 21.0370 13×φ golden (84.72)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(14,)",
+     "cells": [
+      "S Jupiter → J Neptune Dec 14.0039 14 whole (64.96)",
+      "J Neptune – J Pallas RA 22.6541 14×φ golden (90.08)"
+     ],
+     "note": "",
+     "field": "also: 3 Emitom"
+    },
+    {
+     "check": 10,
+     "key": "(32,)",
+     "cells": [
+      "S Mercury → H Mercury RA 31.9975 32 whole (76.66)",
+      "S Sedna → J Ceres RA 51.7759 32×φ golden (92.88)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(36,)",
+     "cells": [
+      "J Mars – J Makemake Dec 36.0004 36 whole (96.26)",
+      "S Gonggong → J Neptune RA 58.2493 36×φ golden (99.68)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('1.88889', '2')",
+     "cells": [
+      "S Quaoar → H Rahu Dec 1.8883 1.88889 ninth (96.10)",
+      "S Moon → H Mars Dec 1.9904 2 whole (26.85)",
+      "S Mercury → H Rahu Dec 2.0001 2 whole (99.41)",
+      "S Rahu → H Jupiter Dec 2.0117 2 whole (17.15)",
+      "H Venus – H Pallas Dec 2.0119 2 whole (16.30)"
+     ],
+     "note": "1.8883 - 2.0119",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('2', '2.22222')",
+     "cells": [
+      "S Moon → H Mars Dec 1.9904 2 whole (26.85)",
+      "S Mercury → H Rahu Dec 2.0001 2 whole (99.41)",
+      "S Rahu → H Jupiter Dec 2.0117 2 whole (17.15)",
+      "H Venus – H Pallas Dec 2.0119 2 whole (16.30)",
+      "S Eris → H Eris Dec 2.2230 2.22222 ninth (89.60)"
+     ],
+     "note": "1.9904 - 2.2230",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('11', '11.1111', 'φ^5')",
+     "cells": [
+      "S Pallas → H Pluto Dec 11.0147 11 whole (7.08)",
+      "J Rahu – J Orcus Dec 11.0159 11 whole (4.12)",
+      "S Moon → H Juno Dec 11.0937 φ^5 phi power (87.73)",
+      "S Ketu → J Pluto RA 11.0998 φ^5 phi power (68.41)",
+      "S Sun → J Saturn Dec 11.1118 11.1111 ninth (98.93)"
+     ],
+     "note": "11.0147 - 11.1118",
+     "field": "also: 3 Emitom"
+    },
+    {
+     "check": 11,
+     "key": "('11.1111', '7×φ', 'φ^5')",
+     "cells": [
+      "S Moon → H Juno Dec 11.0937 φ^5 phi power (87.73)",
+      "S Ketu → J Pluto RA 11.0998 φ^5 phi power (68.41)",
+      "S Sun → J Saturn Dec 11.1118 11.1111 ninth (98.93)",
+      "H Mars – H Saturn Dec 11.3290 7×φ golden (83.78)",
+      "S Haumea → J Sedna Dec 11.3297 7×φ golden (80.01)"
+     ],
+     "note": "11.0937 - 11.3297",
+     "field": "also: 6 Molly Ollys Wishes"
+    },
+    {
+     "check": 11,
+     "key": "('13', '8×φ')",
+     "cells": [
+      "H Mars – H Transpluto Dec 12.9427 8×φ golden (90.41)",
+      "J Mars – J Juno Dec 12.9432 8×φ golden (93.32)",
+      "J Sun – J Pluto Dec 12.9800 13 whole (0.00)",
+      "S Orcus → J Vesta RA 12.9824 13 whole (1.49)",
+      "S Haumea → H Ceres Dec 12.9965 13 whole (67.83)",
+      "S Neptune → H Rahu Dec 12.9990 13 whole (90.40)"
+     ],
+     "note": "12.9427 - 12.9990",
+     "field": "also: 1 Third Wind, 4 Top Ville Ben, 6 Molly Ollys Wishes"
+    },
+    {
+     "check": 11,
+     "key": "('14', '14.14')",
+     "cells": [
+      "S Jupiter → J Neptune Dec 14.0039 14 whole (64.96)",
+      "S Ceres → H Sedna Dec 14.1451 14.14 sqrt2 (91.79)",
+      "S Jupiter → J Saturn Dec 14.1463 14.14 sqrt2 (88.57)"
+     ],
+     "note": "14.0039 - 14.1463",
+     "field": "also: 3 Emitom, 4 Top Ville Ben"
+    },
+    {
+     "check": 11,
+     "key": "('10×φ^1', '16')",
+     "cells": [
+      "S Uranus → J Eris RA 16.0006 16 whole (94.01)",
+      "J Jupiter – J Sedna Dec 16.0047 16 whole (58.48)",
+      "S Eris → J Sedna RA 16.0136 16 whole (10.34)",
+      "S Chiron → H Vesta Dec 16.1852 10×φ^1 phi power (88.28)"
+     ],
+     "note": "16.0006 - 16.1852",
+     "field": "also: 4 Top Ville Ben, 6 Molly Ollys Wishes"
+    },
+    {
+     "check": 11,
+     "key": "('11×φ', '18', 'φ^6')",
+     "cells": [
+      "S Sedna → J Eris Dec 17.7933 11×φ golden (71.28)",
+      "S Ketu → H Mars Dec 17.9425 φ^6 phi power (96.07)",
+      "S Juno → H Sedna Dec 17.9428 φ^6 phi power (96.74)",
+      "S Uranus → H Chiron Dec 17.9461 φ^6 phi power (95.97)",
+      "H Uranus – H Eris RA 17.9834 18 whole (2.93)"
+     ],
+     "note": "17.7933 - 17.9834",
+     "field": "also: 5 Wholestone"
+    },
+    {
+     "check": 11,
+     "key": "('13×φ', '21')",
+     "cells": [
+      "S Eris → J Venus Dec 20.9817 21 whole (0.69)",
+      "J Rahu – J Ceres RA 20.9903 21 whole (26.78)",
+      "H Jupiter – H Ketu RA 21.0019 21 whole (82.32)",
+      "S Sun → J Vesta Dec 21.0036 21 whole (67.32)",
+      "H Ketu – H Eris RA 21.0152 21 whole (5.70)",
+      "S Eris → J Saturn Dec 21.0370 13×φ golden (84.72)",
+      "H Vesta – H Sedna RA 21.0394 13×φ golden (71.62)"
+     ],
+     "note": "20.9817 - 21.0394",
+     "field": "also: 4 Top Ville Ben"
+    },
+    {
+     "check": 11,
+     "key": "('15×φ', '24')",
+     "cells": [
+      "S Transpluto → H Gonggong Dec 23.9879 24 whole (15.65)",
+      "H Mercury – H Haumea Dec 24.0112 24 whole (19.33)",
+      "S Ceres → H Chiron Dec 24.2715 15×φ golden (94.14)",
+      "H Saturn – H Transpluto Dec 24.2717 15×φ golden (93.02)"
+     ],
+     "note": "23.9879 - 24.2717",
+     "field": "also: 3 Emitom, 6 Molly Ollys Wishes"
+    },
+    {
+     "check": 11,
+     "key": "('10×φ^2', '26')",
+     "cells": [
+      "S Orcus → J Pallas Dec 25.9868 26 whole (11.58)",
+      "S Pallas → H Ketu Dec 25.9889 26 whole (19.92)",
+      "J Sun – J Quaoar Dec 26.0081 26 whole (35.31)",
+      "S Haumea → H Makemake RA 26.0161 26 whole (3.88)",
+      "J Ceres – J Juno Dec 26.1810 10×φ^2 phi power (98.95)",
+      "S Saturn → J Vesta Dec 26.1860 10×φ^2 phi power (91.48)",
+      "J Jupiter – J Rahu Dec 26.1864 10×φ^2 phi power (90.96)"
+     ],
+     "note": "25.9868 - 26.1864",
+     "field": "also: 1 Third Wind, 4 Top Ville Ben, 6 Molly Ollys Wishes"
+    },
+    {
+     "check": 11,
+     "key": "('29', 'φ^7')",
+     "cells": [
+      "S Rahu → J Eris Dec 28.9833 29 whole (2.68)",
+      "S Ketu → J Vesta Dec 29.0112 29 whole (19.50)",
+      "S Mars → J Ketu Dec 29.0138 29 whole (9.74)",
+      "H Venus – H Vesta Dec 29.0193 29 whole (0.12)",
+      "S Jupiter → J Mars RA 29.0382 φ^7 phi power (94.84)",
+      "S Mercury → J Vesta Dec 29.0385 φ^7 phi power (94.46)"
+     ],
+     "note": "28.9833 - 29.0385",
+     "field": "also: 5 Wholestone"
+    },
+    {
+     "check": 11,
+     "key": "('155.556', '96×φ')",
+     "cells": [
+      "S Pallas → J Mercury RA 155.3334 96×φ golden (86.99)",
+      "S Haumea → J Jupiter RA 155.3448 96×φ golden (33.94)",
+      "H Venus – H Makemake RA 155.5167 155.556 ninth (96.32)"
+     ],
+     "note": "155.3334 - 155.5167",
+     "field": "only"
+    },
+    {
+     "check": 12,
+     "key": "(4,)",
+     "cells": [
+      "H Jupiter – H Ketu Dec 3.9844 4 whole (4.90)",
+      "S Chiron → J Mars RA 3.9831 4 whole (2.44)",
+      "S Juno → J Uranus RA 40.0090 40 whole (30.26)",
+      "S Chiron → J Vesta Dec 4.0118 4 whole (17.02)",
+      "S Pluto → J Chiron Dec 40.0041 40 whole (63.16)"
+     ],
+     "note": "4 and 40",
+     "field": "also: 3 Emitom, 4 Top Ville Ben"
+    },
+    {
+     "check": 12,
+     "key": "(2,)",
+     "cells": [
+      "H Venus – H Pallas Dec 2.0119 2 whole (16.30)",
+      "S Mercury → H Rahu Dec 2.0001 2 whole (99.41)",
+      "S Moon → H Mars Dec 1.9904 2 whole (26.85)",
+      "S Rahu → H Jupiter Dec 2.0117 2 whole (17.15)",
+      "S Pallas → J Rahu RA 20.0051 20 whole (55.61)"
+     ],
+     "note": "2 and 20",
+     "field": "also: 1 Third Wind, 3 Emitom, 4 Top Ville Ben"
+    },
+    {
+     "check": 12,
+     "key": "(15,)",
+     "cells": [
+      "H Vesta – H Sedna Dec 14.9849 15 whole (5.93)",
+      "J Neptune – J Orcus RA 149.9935 150 whole (45.72)",
+      "S Juno → J Sedna Dec 15.0153 15 whole (5.44)"
+     ],
+     "note": "15 and 150",
+     "field": "also: 1 Third Wind, 5 Wholestone"
+    },
+    {
+     "check": 12,
+     "key": "(1,)",
+     "cells": [
+      "H Uranus – H Orcus Dec 9.9984 10 whole (84.56)",
+      "S Eris → H Eris RA 0.9917 1 whole (33.95)",
+      "S Makemake → H Haumea RA 10.0114 10 whole (18.37)",
+      "S Eris → J Mars Dec 1.0098 1 whole (25.93)",
+      "S Moon → J Mars Dec 0.9902 1 whole (26.06)"
+     ],
+     "note": "1 and 10",
+     "field": "also: 1 Third Wind, 3 Emitom, 4 Top Ville Ben, 5 Wholestone, 6 Molly Ollys Wishes"
+    },
+    {
+     "check": 12,
+     "key": "(6,)",
+     "cells": [
+      "H Jupiter – H Uranus RA 60.0005 60 whole (95.07)",
+      "S Neptune → H Mars RA 6.0051 6 whole (55.26)",
+      "S Ceres → H Makemake Dec 5.9829 6 whole (2.10)",
+      "S Saturn → H Juno Dec 6.0140 6 whole (8.88)",
+      "S Gonggong → H Rahu Dec 6.0119 6 whole (16.36)"
+     ],
+     "note": "6 and 60",
+     "field": "also: 3 Emitom"
+    },
+    {
+     "check": 12,
+     "key": "(5,)",
+     "cells": [
+      "S Orcus → H Transpluto RA 4.9871 5 whole (12.50)",
+      "S Orcus → H Venus Dec 5.0028 5 whole (73.99)",
+      "J Mercury – J Transpluto Dec 5.0106 5 whole (21.98)",
+      "S Sun → J Eris RA 49.9977 50 whole (78.34)",
+      "S Uranus → J Vesta Dec 5.0083 5 whole (34.02)"
+     ],
+     "note": "5 and 50",
+     "field": "also: 1 Third Wind, 3 Emitom"
+    },
+    {
+     "check": 12,
+     "key": "(11,)",
+     "cells": [
+      "S Pallas → H Pluto Dec 11.0147 11 whole (7.08)",
+      "J Rahu – J Orcus Dec 11.0159 11 whole (4.12)",
+      "S Sun → J Pluto RA 109.9899 110 whole (24.48)"
+     ],
+     "note": "11 and 110",
+     "field": "only"
+    },
+    {
+     "check": 12,
+     "key": "(16,)",
+     "cells": [
+      "J Pluto – J Eris RA 159.9876 160 whole (14.43)",
+      "J Jupiter – J Sedna Dec 16.0047 16 whole (58.48)",
+      "S Eris → J Sedna RA 16.0136 16 whole (10.34)",
+      "S Pallas → J Ketu RA 159.9949 160 whole (55.61)",
+      "S Uranus → J Eris RA 16.0006 16 whole (94.01)"
+     ],
+     "note": "16 and 160",
+     "field": "also: 1 Third Wind, 3 Emitom, 4 Top Ville Ben"
+    },
+    {
+     "check": 12,
+     "key": "(14,)",
+     "cells": [
+      "S Vesta → H Transpluto RA 139.9980 140 whole (80.72)",
+      "S Jupiter → J Neptune Dec 14.0039 14 whole (64.96)"
+     ],
+     "note": "14 and 140",
+     "field": "also: 1 Third Wind, 3 Emitom, 5 Wholestone"
+    },
+    {
+     "check": 12,
+     "key": "(12,)",
+     "cells": [
+      "S Eris → J Saturn RA 119.9892 120 whole (21.23)",
+      "S Pallas → J Gonggong Dec 11.9966 12 whole (68.87)"
+     ],
+     "note": "12 and 120",
+     "field": "only"
+    }
+   ]
+  },
+  "3": {
+   "name": {
+    "H": "3 Emitom",
+    "J": "Brian Hughes"
+   },
+   "items": [
+    {
+     "check": 7,
+     "key": "('count', 3)",
+     "cells": [
+      "111.111 ninth",
+      "122.222 ninth",
+      "9 whole"
+     ],
+     "note": "3 numbers",
+     "field": ""
+    },
+    {
+     "check": 9,
+     "key": "('H', 'Pluto', '175')",
+     "cells": [
+      "H Jupiter – H Pluto RA 175.0054 175 whole (53.11)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 9,
+     "key": "('H', 'Transpluto', '11')",
+     "cells": [
+      "H Jupiter – H Transpluto Dec 10.9976 11 whole (77.59)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 9,
+     "key": "('J', 'Juno', '14×φ')",
+     "cells": [
+      "J Jupiter – J Juno Dec 22.6554 14×φ golden (82.83)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(14,)",
+     "cells": [
+      "J Eris – J Sedna Dec 13.9946 14 whole (53.09)",
+      "J Jupiter – J Juno Dec 22.6554 14×φ golden (82.83)"
+     ],
+     "note": "",
+     "field": "also: 2 Thomas Darby"
+    },
+    {
+     "check": 10,
+     "key": "(15,)",
+     "cells": [
+      "S Sun → H Vesta Dec 14.9991 15 whole (91.66)",
+      "S Venus → H Sedna Dec 24.2768 15×φ golden (65.05)"
+     ],
+     "note": "",
+     "field": "also: 5 Wholestone"
+    },
+    {
+     "check": 10,
+     "key": "(16,)",
+     "cells": [
+      "S Pallas → H Sedna Dec 15.9989 16 whole (89.54)",
+      "S Pluto → H Ceres Dec 25.8848 16×φ golden (78.01)",
+      "S Saturn → H Juno Dec 25.8847 16×φ golden (77.48)",
+      "S Pallas → J Rahu Dec 25.8873 16×φ golden (92.44)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(18,)",
+     "cells": [
+      "J Mars – J Juno Dec 17.9964 18 whole (66.95)",
+      "S Sedna → J Sedna RA 18.0054 18 whole (53.35)",
+      "S Pluto → J Gonggong RA 29.1212 18×φ golden (79.77)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(20,)",
+     "cells": [
+      "J Saturn – J Pluto Dec 19.9974 20 whole (75.52)",
+      "S Chiron → H Gonggong RA 32.3616 20×φ golden (94.64)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(85,)",
+     "cells": [
+      "S Rahu → J Gonggong RA 84.9949 85 whole (55.38)",
+      "S Rahu → H Makemake RA 137.5269 85×φ golden (66.51)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('11', '11.1111', 'φ^5')",
+     "cells": [
+      "J Sun – J Venus Dec 10.9824 11 whole (1.48)",
+      "S Sun → J Neptune Dec 10.9874 11 whole (13.52)",
+      "S Uranus → J Pluto Dec 10.9975 11 whole (76.59)",
+      "H Jupiter – H Transpluto Dec 10.9976 11 whole (77.59)",
+      "S Uranus → H Vesta Dec 11.0128 11 whole (13.04)",
+      "J Eris – J Gonggong Dec 11.0963 φ^5 phi power (79.15)",
+      "H Mars – H Vesta RA 11.1142 11.1111 ninth (94.93)"
+     ],
+     "note": "10.9824 - 11.1142",
+     "field": "also: 2 Thomas Darby"
+    },
+    {
+     "check": 11,
+     "key": "('14', '14.14')",
+     "cells": [
+      "J Eris – J Sedna Dec 13.9946 14 whole (53.09)",
+      "H Rahu – H Ceres Dec 14.1401 14.14 sqrt2 (94.42)",
+      "H Sun – H Uranus Dec 14.1420 14.14 sqrt2 (99.70)"
+     ],
+     "note": "13.9946 - 14.1420",
+     "field": "also: 2 Thomas Darby, 4 Top Ville Ben"
+    },
+    {
+     "check": 11,
+     "key": "('18', 'φ^6')",
+     "cells": [
+      "S Chiron → J Quaoar Dec 17.9418 φ^6 phi power (94.65)",
+      "S Sun → J Orcus Dec 17.9434 φ^6 phi power (98.13)",
+      "J Mars – J Juno Dec 17.9964 18 whole (66.95)",
+      "S Sedna → J Sedna RA 18.0054 18 whole (53.35)",
+      "S Moon → J Vesta RA 18.0089 18 whole (30.64)"
+     ],
+     "note": "17.9418 - 18.0089",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('22', '22.2222')",
+     "cells": [
+      "S Chiron → H Chiron RA 21.9806 22 whole (0.08)",
+      "S Sun → H Ketu Dec 22.0053 22 whole (53.85)",
+      "S Mars → J Pallas Dec 22.2289 22.2222 ninth (90.78)"
+     ],
+     "note": "21.9806 - 22.2289",
+     "field": "also: 1 Third Wind, 6 Molly Ollys Wishes"
+    },
+    {
+     "check": 11,
+     "key": "('15×φ', '24')",
+     "cells": [
+      "J Sun – J Pallas Dec 23.9955 24 whole (60.36)",
+      "S Mercury → H Venus Dec 23.9982 24 whole (83.02)",
+      "S Venus → H Sedna Dec 24.2768 15×φ golden (65.05)"
+     ],
+     "note": "23.9955 - 24.2768",
+     "field": "also: 2 Thomas Darby, 6 Molly Ollys Wishes"
+    },
+    {
+     "check": 11,
+     "key": "('16×φ', '26')",
+     "cells": [
+      "S Saturn → H Juno Dec 25.8847 16×φ golden (77.48)",
+      "S Pluto → H Ceres Dec 25.8848 16×φ golden (78.01)",
+      "S Pallas → J Rahu Dec 25.8873 16×φ golden (92.44)",
+      "J Neptune – J Pluto Dec 26.0018 26 whole (83.02)",
+      "S Orcus → J Juno RA 26.0120 26 whole (15.89)"
+     ],
+     "note": "25.8847 - 26.0120",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('18×φ', '29', 'φ^7')",
+     "cells": [
+      "J Uranus – J Ketu RA 28.9873 29 whole (13.17)",
+      "S Quaoar → H Pallas Dec 29.0085 29 whole (33.29)",
+      "S Haumea → H Mars RA 29.0390 φ^7 phi power (93.86)",
+      "S Pluto → J Gonggong RA 29.1212 18×φ golden (79.77)"
+     ],
+     "note": "28.9873 - 29.1212",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('111', '111.111')",
+     "cells": [
+      "S Pallas → J Uranus RA 111.0064 111 whole (46.19)",
+      "S Venus → J Sedna RA 111.1035 111.111 ninth (98.75)",
+      "S Orcus → J Rahu RA 111.1458 111.111 ninth (94.33)",
+      "S Pluto → H Mars RA 111.1511 111.111 ninth (93.46)",
+      "S Gonggong → J Ketu RA 111.1863 111.111 ninth (87.70)"
+     ],
+     "note": "111.0064 - 111.1863",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('113', '70×φ')",
+     "cells": [
+      "H Mercury – H Mars RA 112.9821 113 whole (1.13)",
+      "S Jupiter → J Mars RA 112.9916 113 whole (33.41)",
+      "J Juno – J Chiron RA 113.2397 70×φ golden (8.88)"
+     ],
+     "note": "112.9821 - 113.2397",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('108×φ', '175')",
+     "cells": [
+      "H Mars – H Uranus RA 174.7309 108×φ golden (23.29)",
+      "J Ketu – J Sedna RA 174.7495 108×φ golden (89.29)",
+      "H Jupiter – H Pluto RA 175.0054 175 whole (53.11)"
+     ],
+     "note": "174.7309 - 175.0054",
+     "field": "also: 1 Third Wind"
+    },
+    {
+     "check": 12,
+     "key": "(2,)",
+     "cells": [
+      "H Venus – H Uranus RA 2.0135 2 whole (10.49)",
+      "H Pallas – H Transpluto Dec 1.9836 2 whole (3.20)",
+      "S Chiron → H Vesta Dec 1.9927 2 whole (40.28)",
+      "J Rahu – J Makemake Dec 19.9868 20 whole (11.40)",
+      "J Saturn – J Pluto Dec 19.9974 20 whole (75.52)"
+     ],
+     "note": "2 and 20",
+     "field": "also: 1 Third Wind, 2 Thomas Darby, 4 Top Ville Ben"
+    },
+    {
+     "check": 12,
+     "key": "(5,)",
+     "cells": [
+      "H Mars – H Orcus Dec 4.9863 5 whole (9.96)",
+      "S Orcus → H Transpluto RA 4.9881 5 whole (16.46)",
+      "S Chiron → H Ketu Dec 5.0135 5 whole (10.61)",
+      "J Mercury – J Pallas RA 50.0074 50 whole (39.68)",
+      "J Ketu – J Quaoar Dec 4.9832 5 whole (2.63)",
+      "S Sun → J Saturn Dec 4.9830 5 whole (2.19)"
+     ],
+     "note": "5 and 50",
+     "field": "also: 1 Third Wind, 2 Thomas Darby"
+    },
+    {
+     "check": 12,
+     "key": "(1,)",
+     "cells": [
+      "H Mars – H Sedna Dec 10.0065 10 whole (45.50)",
+      "H Sun – H Haumea Dec 0.9802 1 whole (0.01)",
+      "S Pallas → H Orcus Dec 1.0061 1 whole (48.27)",
+      "S Saturn → H Quaoar Dec 0.9969 1 whole (71.39)",
+      "J Sun – J Mars RA 9.9840 10 whole (4.09)",
+      "S Juno → J Vesta Dec 9.9872 10 whole (13.01)"
+     ],
+     "note": "1 and 10",
+     "field": "also: 1 Third Wind, 2 Thomas Darby, 4 Top Ville Ben, 5 Wholestone, 6 Molly Ollys Wishes"
+    },
+    {
+     "check": 12,
+     "key": "(13,)",
+     "cells": [
+      "H Sun – H Pluto RA 130.0162 130 whole (3.59)",
+      "S Uranus → H Eris RA 12.9921 13 whole (36.78)",
+      "S Pluto → H Neptune Dec 12.9818 13 whole (0.79)",
+      "J Venus – J Pallas Dec 13.0131 13 whole (11.90)"
+     ],
+     "note": "13 and 130",
+     "field": "only"
+    },
+    {
+     "check": 12,
+     "key": "(6,)",
+     "cells": [
+      "S Pallas → H Mars Dec 5.9924 6 whole (38.54)",
+      "J Saturn – J Neptune Dec 6.0044 6 whole (60.86)",
+      "S Mars → J Makemake Dec 60.0168 60 whole (2.57)",
+      "S Moon → J Orcus Dec 6.0182 6 whole (0.85)",
+      "S Neptune → J Eris Dec 6.0134 6 whole (10.94)",
+      "S Quaoar → J Gonggong Dec 5.9990 6 whole (90.29)"
+     ],
+     "note": "6 and 60",
+     "field": "also: 2 Thomas Darby"
+    },
+    {
+     "check": 12,
+     "key": "(16,)",
+     "cells": [
+      "S Neptune → H Pallas RA 159.9950 160 whole (55.92)",
+      "S Pallas → H Sedna Dec 15.9989 16 whole (89.54)",
+      "S Gonggong → H Venus Dec 15.9863 16 whole (9.78)"
+     ],
+     "note": "16 and 160",
+     "field": "also: 1 Third Wind, 2 Thomas Darby, 4 Top Ville Ben"
+    },
+    {
+     "check": 12,
+     "key": "(4,)",
+     "cells": [
+      "S Rahu → H Uranus RA 39.9981 40 whole (81.59)",
+      "S Uranus → H Ketu Dec 4.0066 4 whole (44.88)",
+      "S Haumea → H Sun Dec 3.9944 4 whole (52.06)",
+      "S Pallas → J Rahu RA 40.0063 40 whole (46.70)",
+      "S Quaoar → J Neptune RA 4.0159 4 whole (4.20)",
+      "S Jupiter → J Quaoar Dec 3.9845 4 whole (5.13)"
+     ],
+     "note": "4 and 40",
+     "field": "also: 2 Thomas Darby, 4 Top Ville Ben"
+    },
+    {
+     "check": 12,
+     "key": "(3,)",
+     "cells": [
+      "S Ketu → H Ketu Dec 30.0129 30 whole (12.59)",
+      "S Rahu → H Rahu Dec 30.0129 30 whole (12.59)",
+      "S Haumea → H Haumea Dec 3.0143 3 whole (8.25)",
+      "J Orcus – J Sedna Dec 2.9981 3 whole (81.84)",
+      "S Orcus → J Chiron Dec 29.9874 30 whole (13.60)"
+     ],
+     "note": "3 and 30",
+     "field": "also: 1 Third Wind, 5 Wholestone, 6 Molly Ollys Wishes"
+    },
+    {
+     "check": 12,
+     "key": "(17,)",
+     "cells": [
+      "J Eris – J Orcus Dec 16.9927 17 whole (40.11)",
+      "S Eris → J Pluto RA 169.9921 170 whole (36.35)"
+     ],
+     "note": "17 and 170",
+     "field": "only"
+    },
+    {
+     "check": 12,
+     "key": "(14,)",
+     "cells": [
+      "S Ketu → H Uranus RA 140.0019 140 whole (81.59)",
+      "S Vesta → H Transpluto RA 139.9990 140 whole (90.36)",
+      "J Eris – J Sedna Dec 13.9946 14 whole (53.09)",
+      "S Pallas → J Ketu RA 139.9937 140 whole (46.70)"
+     ],
+     "note": "14 and 140",
+     "field": "also: 1 Third Wind, 2 Thomas Darby, 5 Wholestone"
+    }
+   ]
+  },
+  "4": {
+   "name": {
+    "H": "4 Top Ville Ben",
+    "J": "Thomas Dowson"
+   },
+   "items": [
+    {
+     "check": 4,
+     "key": "('Quaoar', 'conj')",
+     "cells": [
+      "S Quaoar → H Quaoar Dec 0.0249 conj conj (84.10)",
+      "S Quaoar → J Jupiter RA 0.1349 conj conj (82.83)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 7,
+     "key": "('count', 3)",
+     "cells": [
+      "8×φ golden",
+      "100×φ^1 phi power",
+      "20 whole"
+     ],
+     "note": "3 numbers",
+     "field": ""
+    },
+    {
+     "check": 9,
+     "key": "('H', 'Ketu', '3')",
+     "cells": [
+      "H Jupiter – H Ketu Dec 3.0053 3 whole (54.24)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(8,)",
+     "cells": [
+      "S Makemake → H Haumea RA 8.0032 8 whole (70.68)",
+      "S Uranus → H Makemake Dec 12.9474 8×φ golden (81.71)",
+      "S Vesta → J Pluto Dec 12.9445 8×φ golden (98.81)"
+     ],
+     "note": "",
+     "field": "also: 6 Molly Ollys Wishes"
+    },
+    {
+     "check": 10,
+     "key": "(28,)",
+     "cells": [
+      "S Gonggong → H Mercury Dec 27.9954 28 whole (58.98)",
+      "S Jupiter → J Neptune RA 45.3006 28×φ golden (75.05)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(51,)",
+     "cells": [
+      "J Sun – J Makemake Dec 50.9974 51 whole (76.10)",
+      "J Mars – J Sedna RA 82.5186 51×φ golden (93.28)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(88,)",
+     "cells": [
+      "S Ketu → J Mars RA 88.0006 88 whole (94.00)",
+      "S Ceres → J Jupiter RA 142.3823 88×φ golden (73.34)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(92,)",
+     "cells": [
+      "S Rahu → J Mars RA 91.9994 92 whole (94.00)",
+      "S Sedna → H Haumea RA 148.8595 92×φ golden (97.91)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('12', '12.2222')",
+     "cells": [
+      "S Saturn → J Venus Dec 11.9876 12 whole (14.33)",
+      "S Venus → J Saturn Dec 11.9932 12 whole (43.31)",
+      "S Rahu → H Sedna Dec 12.2225 12.2222 ninth (99.61)"
+     ],
+     "note": "11.9876 - 12.2225",
+     "field": "also: 5 Wholestone, 6 Molly Ollys Wishes"
+    },
+    {
+     "check": 11,
+     "key": "('13', '8×φ')",
+     "cells": [
+      "S Vesta → J Pluto Dec 12.9445 8×φ golden (98.81)",
+      "S Uranus → H Makemake Dec 12.9474 8×φ golden (81.71)",
+      "J Orcus – J Transpluto Dec 13.0101 13 whole (24.63)"
+     ],
+     "note": "12.9445 - 13.0101",
+     "field": "also: 1 Third Wind, 2 Thomas Darby, 6 Molly Ollys Wishes"
+    },
+    {
+     "check": 11,
+     "key": "('14', '14.14')",
+     "cells": [
+      "S Transpluto → H Eris Dec 13.9973 14 whole (74.89)",
+      "S Venus → H Chiron Dec 14.0082 14 whole (34.63)",
+      "S Sedna → J Sedna RA 14.0182 14 whole (0.83)",
+      "S Chiron → H Sun Dec 14.1461 14.14 sqrt2 (89.11)"
+     ],
+     "note": "13.9973 - 14.1461",
+     "field": "also: 2 Thomas Darby, 3 Emitom"
+    },
+    {
+     "check": 11,
+     "key": "('10×φ^1', '16')",
+     "cells": [
+      "S Juno → H Pallas Dec 15.9845 16 whole (5.10)",
+      "S Chiron → J Haumea Dec 16.0082 16 whole (35.09)",
+      "S Neptune → J Neptune Dec 16.1881 10×φ^1 phi power (81.72)"
+     ],
+     "note": "15.9845 - 16.1881",
+     "field": "also: 2 Thomas Darby, 6 Molly Ollys Wishes"
+    },
+    {
+     "check": 11,
+     "key": "('13×φ', '21')",
+     "cells": [
+      "S Sun → J Saturn RA 20.9944 21 whole (51.59)",
+      "S Neptune → H Mercury Dec 21.0083 21 whole (34.50)",
+      "S Saturn → J Sedna Dec 21.0366 13×φ golden (87.15)"
+     ],
+     "note": "20.9944 - 21.0366",
+     "field": "also: 2 Thomas Darby"
+    },
+    {
+     "check": 11,
+     "key": "('10×φ^2', '26')",
+     "cells": [
+      "J Ketu – J Makemake Dec 25.9909 26 whole (29.79)",
+      "S Rahu → H Orcus Dec 25.9937 26 whole (47.08)",
+      "S Moon → H Venus Dec 26.1897 10×φ^2 phi power (86.24)"
+     ],
+     "note": "25.9909 - 26.1897",
+     "field": "also: 1 Third Wind, 2 Thomas Darby, 6 Molly Ollys Wishes"
+    },
+    {
+     "check": 11,
+     "key": "('149', '92×φ')",
+     "cells": [
+      "S Transpluto → J Uranus RA 148.8356 92×φ golden (7.52)",
+      "S Sedna → H Haumea RA 148.8595 92×φ golden (97.91)",
+      "S Moon → H Vesta RA 148.8756 92×φ golden (24.20)",
+      "S Moon → H Gonggong RA 149.0006 149 whole (94.28)"
+     ],
+     "note": "148.8356 - 149.0006",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('100×φ^1', '162')",
+     "cells": [
+      "J Ceres – J Sedna RA 161.8275 100×φ^1 phi power (94.14)",
+      "H Rahu – H Ceres RA 161.8805 100×φ^1 phi power (81.85)",
+      "S Sun → J Orcus RA 161.9869 162 whole (11.80)"
+     ],
+     "note": "161.8275 - 161.9869",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('10×φ^6', '111×φ')",
+     "cells": [
+      "H Venus – H Quaoar RA 179.4413 10×φ^6 phi power (99.69)",
+      "S Moon → H Uranus RA 179.4987 10×φ^6 phi power (87.92)",
+      "S Ketu → H Sedna RA 179.6252 111×φ golden (7.57)"
+     ],
+     "note": "179.4413 - 179.6252",
+     "field": "only"
+    },
+    {
+     "check": 12,
+     "key": "(1,)",
+     "cells": [
+      "H Chiron – H Sedna Dec 10.0087 10 whole (31.68)",
+      "H Sun – H Haumea Dec 0.9909 1 whole (29.98)",
+      "S Saturn → H Quaoar Dec 1.0110 1 whole (20.06)",
+      "S Transpluto → J Orcus Dec 9.9829 10 whole (2.14)"
+     ],
+     "note": "1 and 10",
+     "field": "also: 1 Third Wind, 2 Thomas Darby, 3 Emitom, 5 Wholestone, 6 Molly Ollys Wishes"
+    },
+    {
+     "check": 12,
+     "key": "(16,)",
+     "cells": [
+      "S Juno → H Pallas Dec 15.9845 16 whole (5.10)",
+      "J Ketu – J Pallas RA 160.0113 160 whole (18.72)",
+      "S Chiron → J Haumea Dec 16.0082 16 whole (35.09)"
+     ],
+     "note": "16 and 160",
+     "field": "also: 1 Third Wind, 2 Thomas Darby, 3 Emitom"
+    },
+    {
+     "check": 12,
+     "key": "(9,)",
+     "cells": [
+      "H Pluto – H Makemake RA 89.9883 90 whole (17.13)",
+      "S Orcus → H Rahu Dec 8.9989 9 whole (89.73)",
+      "J Mars – J Gonggong RA 8.9859 9 whole (8.62)",
+      "S Jupiter → J Venus RA 8.9963 9 whole (66.10)",
+      "S Venus → J Pluto Dec 9.0166 9 whole (2.88)"
+     ],
+     "note": "9 and 90",
+     "field": "also: 6 Molly Ollys Wishes"
+    },
+    {
+     "check": 12,
+     "key": "(4,)",
+     "cells": [
+      "H Rahu – H Haumea Dec 39.9910 40 whole (30.07)",
+      "J Rahu – J Juno Dec 4.0117 4 whole (17.40)",
+      "S Moon → J Transpluto RA 40.0056 40 whole (51.99)",
+      "S Orcus → J Chiron Dec 4.0003 4 whole (96.81)"
+     ],
+     "note": "4 and 40",
+     "field": "also: 2 Thomas Darby, 3 Emitom"
+    },
+    {
+     "check": 12,
+     "key": "(2,)",
+     "cells": [
+      "S Jupiter → H Ceres Dec 20.0007 20 whole (93.27)",
+      "J Rahu – J Pallas RA 19.9887 20 whole (18.72)",
+      "S Pluto → J Neptune Dec 1.9973 2 whole (74.55)",
+      "S Quaoar → J Sedna Dec 20.0007 20 whole (93.44)"
+     ],
+     "note": "2 and 20",
+     "field": "also: 1 Third Wind, 2 Thomas Darby, 3 Emitom"
+    },
+    {
+     "check": 13,
+     "key": "('Venus', 'Saturn', ('digits', 12))",
+     "cells": [
+      "S Saturn → J Venus Dec 11.9876 12 whole (14.33)",
+      "S Venus → J Saturn Dec 11.9932 12 whole (43.31)"
+     ],
+     "note": "Venus – Saturn: digits 12",
+     "field": "only"
+    }
+   ]
+  },
+  "5": {
+   "name": {
+    "H": "5 Wholestone",
+    "J": "Sam Twiston-Davies"
+   },
+   "items": [
+    {
+     "check": 7,
+     "key": "('count', 0)",
+     "cells": [],
+     "note": "0 numbers",
+     "field": ""
+    },
+    {
+     "check": 9,
+     "key": "('H', 'Rahu', 'φ^7')",
+     "cells": [
+      "H Jupiter – H Rahu Dec 29.0390 φ^7 phi power (93.84)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 9,
+     "key": "('H', 'Vesta', '15×φ')",
+     "cells": [
+      "H Jupiter – H Vesta Dec 24.2788 15×φ golden (55.13)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(11,)",
+     "cells": [
+      "S Pallas → J Orcus Dec 10.9969 11 whole (71.66)",
+      "S Transpluto → J Makemake RA 17.7905 11×φ golden (57.49)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(15,)",
+     "cells": [
+      "S Jupiter → H Sedna Dec 15.0031 15 whole (71.17)",
+      "H Jupiter – H Vesta Dec 24.2788 15×φ golden (55.13)",
+      "S Saturn → H Juno Dec 24.2720 15×φ golden (90.74)"
+     ],
+     "note": "",
+     "field": "also: 3 Emitom"
+    },
+    {
+     "check": 11,
+     "key": "('4', 'φ^3')",
+     "cells": [
+      "S Venus → J Vesta Dec 3.9906 4 whole (28.01)",
+      "S Ketu → J Rahu Dec 3.9978 4 whole (79.03)",
+      "S Rahu → J Ketu Dec 3.9978 4 whole (79.03)",
+      "J Mercury – J Vesta Dec 4.0017 4 whole (84.05)",
+      "H Venus – H Saturn Dec 4.0114 4 whole (18.60)",
+      "H Saturn – H Makemake RA 4.0117 4 whole (17.17)",
+      "S Jupiter → H Venus RA 4.2370 φ^3 phi power (92.96)"
+     ],
+     "note": "3.9906 - 4.2370",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('11', 'φ^5')",
+     "cells": [
+      "S Pallas → J Orcus Dec 10.9969 11 whole (71.66)",
+      "S Haumea → J Sedna Dec 11.0197 11 whole (0.03)",
+      "S Pallas → J Venus Dec 11.0905 φ^5 phi power (98.85)"
+     ],
+     "note": "10.9969 - 11.0905",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('12', '12.2222')",
+     "cells": [
+      "S Gonggong → J Rahu Dec 11.9824 12 whole (1.44)",
+      "S Pluto → J Neptune RA 11.9917 12 whole (34.11)",
+      "H Venus – H Pluto Dec 11.9922 12 whole (37.49)",
+      "H Uranus – H Transpluto Dec 11.9996 12 whole (96.31)",
+      "S Sun → J Rahu Dec 12.0054 12 whole (53.59)",
+      "S Sedna → H Eris Dec 12.0100 12 whole (25.05)",
+      "H Haumea – H Sedna Dec 12.2241 12.2222 ninth (97.36)"
+     ],
+     "note": "11.9824 - 12.2241",
+     "field": "also: 4 Top Ville Ben, 6 Molly Ollys Wishes"
+    },
+    {
+     "check": 11,
+     "key": "('11×φ', '18', 'φ^6')",
+     "cells": [
+      "S Transpluto → J Makemake RA 17.7905 11×φ golden (57.49)",
+      "S Mars → H Chiron Dec 17.9436 φ^6 phi power (98.59)",
+      "S Pluto → J Pluto Dec 17.9960 18 whole (64.14)",
+      "S Sun → J Pallas Dec 17.9988 18 whole (88.59)",
+      "S Orcus → J Ceres Dec 18.0056 18 whole (51.98)"
+     ],
+     "note": "17.7905 - 18.0056",
+     "field": "also: 2 Thomas Darby"
+    },
+    {
+     "check": 11,
+     "key": "('29', 'φ^7')",
+     "cells": [
+      "S Chiron → J Rahu Dec 28.9972 29 whole (73.95)",
+      "S Vesta → J Rahu RA 29.0197 29 whole (0.02)",
+      "H Jupiter – H Rahu Dec 29.0390 φ^7 phi power (93.84)"
+     ],
+     "note": "28.9972 - 29.0390",
+     "field": "also: 2 Thomas Darby"
+    },
+    {
+     "check": 12,
+     "key": "(14,)",
+     "cells": [
+      "S Venus → H Pallas RA 13.9825 14 whole (1.52)",
+      "J Uranus – J Transpluto RA 139.9965 140 whole (68.15)",
+      "S Pluto → J Uranus RA 14.0113 14 whole (19.04)"
+     ],
+     "note": "14 and 140",
+     "field": "also: 1 Third Wind, 2 Thomas Darby, 3 Emitom"
+    },
+    {
+     "check": 12,
+     "key": "(15,)",
+     "cells": [
+      "S Jupiter → H Sedna Dec 15.0031 15 whole (71.17)",
+      "J Sun – J Juno Dec 15.0145 15 whole (7.66)",
+      "S Vesta → J Chiron RA 150.0047 150 whole (58.29)",
+      "S Orcus → J Chiron RA 14.9938 15 whole (47.83)"
+     ],
+     "note": "15 and 150",
+     "field": "also: 1 Third Wind, 2 Thomas Darby"
+    },
+    {
+     "check": 12,
+     "key": "(3,)",
+     "cells": [
+      "S Juno → H Haumea Dec 30.0124 30 whole (14.47)",
+      "S Transpluto → H Sun Dec 2.9832 3 whole (2.56)",
+      "J Rahu – J Pallas Dec 30.0042 30 whole (62.55)",
+      "S Ceres → J Eris Dec 29.9938 30 whole (47.60)"
+     ],
+     "note": "3 and 30",
+     "field": "also: 1 Third Wind, 3 Emitom, 6 Molly Ollys Wishes"
+    },
+    {
+     "check": 12,
+     "key": "(1,)",
+     "cells": [
+      "H Eris – H Gonggong Dec 10.0017 10 whole (83.53)",
+      "S Chiron → J Pallas Dec 1.0070 1 whole (42.36)",
+      "S Jupiter → J Saturn Dec 9.9861 10 whole (9.22)",
+      "S Uranus → J Transpluto Dec 0.9971 1 whole (73.15)"
+     ],
+     "note": "1 and 10",
+     "field": "also: 1 Third Wind, 2 Thomas Darby, 3 Emitom, 4 Top Ville Ben, 6 Molly Ollys Wishes"
+    }
+   ]
+  },
+  "6": {
+   "name": {
+    "H": "6 Molly Ollys Wishes",
+    "J": "Harry Skelton"
+   },
+   "items": [
+    {
+     "check": "2b",
+     "key": "('Mercury', 'Mercury')",
+     "cells": [
+      "S Mercury → H Mercury RA 26.1897 10×φ^2 phi power (86.15)",
+      "S Mercury → J Mercury RA 122.2566 122.222 ninth (95.24)"
+     ],
+     "note": "both >= 80",
+     "field": "only"
+    },
+    {
+     "check": 7,
+     "key": "('count', 5)",
+     "cells": [
+      "8×φ golden",
+      "12.2222 ninth",
+      "144.444 ninth",
+      "8 whole",
+      "9 whole"
+     ],
+     "note": "5 numbers",
+     "field": ""
+    },
+    {
+     "check": 9,
+     "key": "('H', 'Neptune', '33.3333')",
+     "cells": [
+      "H Jupiter – H Neptune Dec 33.3349 33.3333 ninth (98.11)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 9,
+     "key": "('J', 'Pallas', '19×φ')",
+     "cells": [
+      "J Jupiter – J Pallas Dec 30.7412 19×φ golden (91.28)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 9,
+     "key": "('J', 'Quaoar', '36')",
+     "cells": [
+      "J Jupiter – J Quaoar Dec 35.9969 36 whole (71.72)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(8,)",
+     "cells": [
+      "H Pallas – H Transpluto RA 7.9989 8 whole (89.71)",
+      "S Sun → H Eris Dec 7.9965 8 whole (67.70)",
+      "J Ketu – J Ceres Dec 8.0013 8 whole (87.74)",
+      "H Pallas – H Transpluto Dec 12.9429 8×φ golden (91.63)",
+      "J Juno – J Quaoar Dec 12.9462 8×φ golden (88.20)"
+     ],
+     "note": "",
+     "field": "also: 4 Top Ville Ben"
+    },
+    {
+     "check": 10,
+     "key": "(9,)",
+     "cells": [
+      "H Rahu – H Chiron Dec 9.0020 9 whole (81.14)",
+      "S Chiron → H Eris Dec 8.9954 9 whole (59.17)",
+      "J Sun – J Makemake RA 8.9998 9 whole (98.01)",
+      "S Saturn → H Chiron Dec 14.5649 9×φ golden (84.64)"
+     ],
+     "note": "",
+     "field": "also: 1 Third Wind"
+    },
+    {
+     "check": 10,
+     "key": "(26,)",
+     "cells": [
+      "S Moon → H Makemake Dec 25.9953 26 whole (58.84)",
+      "S Quaoar → H Makemake Dec 42.0671 26×φ golden (89.50)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 10,
+     "key": "(30,)",
+     "cells": [
+      "J Vesta – J Sedna Dec 30.0038 30 whole (65.66)",
+      "S Saturn → H Juno RA 48.5436 30×φ golden (84.63)"
+     ],
+     "note": "",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('11.1111', '7×φ', 'φ^5')",
+     "cells": [
+      "H Rahu – H Vesta Dec 11.0920 φ^5 phi power (93.68)",
+      "S Ketu → H Orcus Dec 11.1156 11.1111 ninth (92.64)",
+      "S Neptune → H Quaoar Dec 11.3249 7×φ golden (91.97)",
+      "S Haumea → H Makemake Dec 11.3262 7×φ golden (99.95)"
+     ],
+     "note": "11.0920 - 11.3262",
+     "field": "also: 2 Thomas Darby"
+    },
+    {
+     "check": 11,
+     "key": "('12', '12.2222')",
+     "cells": [
+      "S Transpluto → J Haumea Dec 12.0155 12 whole (5.06)",
+      "S Eris → H Ketu Dec 12.2230 12.2222 ninth (98.91)",
+      "S Gonggong → J Sun Dec 12.2233 12.2222 ninth (98.51)"
+     ],
+     "note": "12.0155 - 12.2233",
+     "field": "also: 4 Top Ville Ben, 5 Wholestone"
+    },
+    {
+     "check": 11,
+     "key": "('13', '8×φ')",
+     "cells": [
+      "H Pallas – H Transpluto Dec 12.9429 8×φ golden (91.63)",
+      "J Juno – J Quaoar Dec 12.9462 8×φ golden (88.20)",
+      "S Gonggong → H Ceres Dec 12.9942 13 whole (50.18)"
+     ],
+     "note": "12.9429 - 12.9942",
+     "field": "also: 1 Third Wind, 2 Thomas Darby, 4 Top Ville Ben"
+    },
+    {
+     "check": 11,
+     "key": "('10×φ^1', '16')",
+     "cells": [
+      "S Uranus → J Pluto Dec 15.9892 16 whole (21.06)",
+      "S Ketu → H Eris Dec 16.0040 16 whole (63.72)",
+      "S Venus → H Sun Dec 16.0135 16 whole (10.57)",
+      "S Transpluto → H Makemake Dec 16.1833 10×φ^1 phi power (92.93)"
+     ],
+     "note": "15.9892 - 16.1833",
+     "field": "also: 2 Thomas Darby, 4 Top Ville Ben"
+    },
+    {
+     "check": 11,
+     "key": "('22', '22.2222')",
+     "cells": [
+      "J Mars – J Haumea Dec 22.0021 22 whole (80.37)",
+      "J Neptune – J Juno Dec 22.0052 22 whole (55.06)",
+      "S Pallas → H Chiron RA 22.0157 22 whole (4.73)",
+      "H Venus – H Sedna Dec 22.2230 22.2222 ninth (98.89)"
+     ],
+     "note": "22.0021 - 22.2230",
+     "field": "also: 1 Third Wind, 3 Emitom"
+    },
+    {
+     "check": 11,
+     "key": "('15×φ', '24')",
+     "cells": [
+      "J Pallas – J Chiron Dec 23.9953 24 whole (58.67)",
+      "S Makemake → H Pallas Dec 23.9957 24 whole (61.94)",
+      "S Sun → J Ketu Dec 24.2792 15×φ golden (53.38)"
+     ],
+     "note": "23.9953 - 24.2792",
+     "field": "also: 2 Thomas Darby, 3 Emitom"
+    },
+    {
+     "check": 11,
+     "key": "('10×φ^2', '26')",
+     "cells": [
+      "S Moon → H Makemake Dec 25.9953 26 whole (58.84)",
+      "H Venus – H Ketu Dec 26.0162 26 whole (3.68)",
+      "S Mercury → H Mercury RA 26.1897 10×φ^2 phi power (86.15)"
+     ],
+     "note": "25.9953 - 26.1897",
+     "field": "also: 1 Third Wind, 2 Thomas Darby, 4 Top Ville Ben"
+    },
+    {
+     "check": 11,
+     "key": "('141', '87×φ')",
+     "cells": [
+      "S Ketu → J Pallas RA 140.7650 87×φ golden (77.26)",
+      "H Mercury – H Makemake RA 140.7836 87×φ golden (29.98)",
+      "J Rahu – J Haumea RA 141.0113 141 whole (19.02)"
+     ],
+     "note": "140.7650 - 141.0113",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('157', '97×φ')",
+     "cells": [
+      "S Transpluto → H Sun RA 156.9541 97×φ golden (72.57)",
+      "S Haumea → J Pallas RA 156.9932 157 whole (43.62)",
+      "J Pluto – J Eris RA 156.9960 157 whole (63.94)"
+     ],
+     "note": "156.9541 - 156.9960",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('107×φ', '173')",
+     "cells": [
+      "S Ceres → J Quaoar RA 172.9907 173 whole (28.52)",
+      "H Ketu – H Ceres RA 173.1160 107×φ golden (33.45)",
+      "S Quaoar → J Ceres RA 173.1237 107×φ golden (66.62)"
+     ],
+     "note": "172.9907 - 173.1237",
+     "field": "only"
+    },
+    {
+     "check": 11,
+     "key": "('110×φ', '177.778')",
+     "cells": [
+      "S Moon → H Juno RA 177.7224 177.778 ninth (95.67)",
+      "S Uranus → J Venus RA 177.9739 110×φ golden (48.52)",
+      "S Chiron → J Juno RA 177.9880 110×φ golden (75.25)"
+     ],
+     "note": "177.7224 - 177.9880",
+     "field": "only"
+    },
+    {
+     "check": 12,
+     "key": "(3,)",
+     "cells": [
+      "H Mercury – H Quaoar Dec 3.0033 3 whole (69.63)",
+      "S Uranus → H Juno RA 29.9883 30 whole (17.11)",
+      "J Vesta – J Sedna Dec 30.0038 30 whole (65.66)",
+      "S Venus → J Ketu Dec 29.9824 30 whole (1.45)"
+     ],
+     "note": "3 and 30",
+     "field": "also: 1 Third Wind, 3 Emitom, 5 Wholestone"
+    },
+    {
+     "check": 12,
+     "key": "(9,)",
+     "cells": [
+      "H Rahu – H Chiron Dec 9.0020 9 whole (81.14)",
+      "S Chiron → H Eris Dec 8.9954 9 whole (59.17)",
+      "J Sun – J Makemake RA 8.9998 9 whole (98.01)",
+      "J Ketu – J Sedna Dec 8.9905 9 whole (27.59)",
+      "S Chiron → J Saturn RA 90.0166 90 whole (2.97)",
+      "S Pallas → J Pallas RA 8.9888 9 whole (19.36)",
+      "S Venus → J Vesta Dec 9.0119 9 whole (16.43)"
+     ],
+     "note": "9 and 90",
+     "field": "also: 4 Top Ville Ben"
+    },
+    {
+     "check": 12,
+     "key": "(1,)",
+     "cells": [
+      "S Gonggong → H Neptune RA 1.0105 1 whole (22.44)",
+      "S Jupiter → H Mars Dec 1.0004 1 whole (96.33)",
+      "S Vesta → H Rahu Dec 10.0115 10 whole (18.07)",
+      "S Sedna → H Sedna Dec 0.9912 1 whole (31.61)",
+      "S Orcus → J Quaoar Dec 1.0184 1 whole (0.68)",
+      "S Transpluto → J Mars Dec 9.9866 10 whole (10.79)"
+     ],
+     "note": "1 and 10",
+     "field": "also: 1 Third Wind, 2 Thomas Darby, 3 Emitom, 4 Top Ville Ben, 5 Wholestone"
+    }
+   ]
+  }
+ }
+}

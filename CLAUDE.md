@@ -176,6 +176,13 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   test / in-sample / all races. First run, 20 races: set A on its first out-of-sample races at or under chance (e.g. R25 0 of 7 picks won,
   1.1 by chance; R7 0 of 18, 3.0; R42 1 of 26, 4.4; R26 3 of 13, 2.1); set B in-sample as recorded (B1 11 of 14, 8.2; version 4 6 of 14,
   2.4; B4 2 of 6), test races too few (B2 1 of 4, 0.7). Tests `python3 tests/eddie_rules_check.py` (525/525); independent checker 0 mismatches.
+- Basic view (8 Nov 2026, Eddie's go-ahead; data only, no pick): `python3 tools/eddie_basic.py <race>_active.xlsx [--out DIR]` ->
+  docs/eddie_read/basic/<race>_basic.md + .json. The _active.xlsx P##_DIST tabs only: natal -> natal and sky -> natal, bodies only (no
+  stars, equator, angles, natal Moon). 13 checks (rules in the docstring; from Eddie's Newcastle AW 16:33 2021 read): natal pair same
+  number both charts; sky X on natal Y both charts; sky X on both natal Jupiters; sky X same number both charts; number swap; centre on a
+  body tied to natal Jupiter; numbers in both charts (count, background); axis; natal Jupiter ties; N and N x phi; values close together;
+  digits across decades (8 / 80); one body pair every layer (Jupiter - Saturn 80 / 8 / 8). Each item 'only' / 'also'. Tests
+  `python3 tests/eddie_basic_check.py` (Newcastle cases + the cell set of every _active.xlsx by its own reader). Run on all 37 _active files.
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
 - On the Mac: see `docs/MAC_SETUP.md` (venv with Python 3.12+, `pip install openpyxl`). Scripts call `python3.12`; inside the venv
