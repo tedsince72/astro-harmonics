@@ -46,7 +46,7 @@ def strip_new(X, rows):
         if l.startswith(hj):
             continue
         c = [x.strip() for x in l.strip('|').split('|')]
-        if len(c) == 5 and (c[4] == '' or ': ratio ' in c[4]):     # line row: drop the same-body ratio column (9 Nov 2026)
+        if len(c) == 6 and (c[4] == '' or ': ratio ' in c[4]):     # line row: drop the two same-body ratio columns (9 Nov 2026)
             l = '| ' + ' | '.join(c[:4]) + ' |'
             out.append(l)
             continue
@@ -167,6 +167,10 @@ with tempfile.TemporaryDirectory() as td:
         gr = [(g[9], g[10]) for g in got if len(g) > 9 and g[8]]
         check(len(gr) == len(wr) and all(abs(a - round(c, 6)) < 1e-9 and (b is None or abs(b - round(d, 6)) < 1e-9)
                                           for (a, b), (c, d) in zip(gr, wr)), f'5 {sn} ratio columns ({len(wr)})')
+        wx = [(l['ratio_x']['same'], l['ratio_x']['ratio']) for b in bodies for l in b['lines'] if 'ratio_x' in l]
+        gx = [(g[16], g[17]) for g in got if len(g) > 16 and g[15]]
+        check(len(gx) == len(wx) and all(abs(a - round(c, 6)) < 1e-9 and abs(b - round(d, 6)) < 1e-9
+                                          for (a, b), (c, d) in zip(gx, wx)), f'5 {sn} crossed ratio columns ({len(wx)})')
         score_cells = [wb[sn].cell(i, 6) for i in range(1, wb[sn].max_row + 1) if isinstance(wb[sn].cell(i, 6).value, (int, float))]
         check(all(sc.fill.fgColor.rgb[-6:] == BB._fill(sc.value) for sc in score_cells), f'5 {sn} score fills')
 # 6 same-body ratio on the royal-star rows (Eddie, 9 Nov 2026)
@@ -178,6 +182,10 @@ check(abs(rt['same'] - 11.2375) < 5e-5 and abs(rt['ratio'] - uv[('H Fomalhaut �
 check(not uv[('H Regulus – H Uranus', 'RA')]['ratio']['hits'], '6 H Regulus – H Uranus RA 10.9272 no target (10 ±0.5 % = 9.95–10.05)')
 check(abs(BB.ratio_hits(111.24 / 11.09)[0][2] - 100 * (0.05 - abs(111.24 / 11.09 - 10)) / 0.05) < 1e-9, '6 Perfect Part 10.03 on 10')
 check(BB.ratio_hits(133 / 6.657)[0][0] == '20', '6 Pholas 19.98 on 20')
+cv = {(l['line'], l['plane']): l for l in next(b for b in b5 if b['body'] == 'Ceres')['lines']}
+rx = cv[('H Fomalhaut – H Ceres', 'RA')]['ratio_x']
+check(rx['plane'] == 'Dec' and abs(rx['same'] - 41.36) < 5e-5 and abs(rx['ratio'] - 91.0755 / 41.36) < 1e-4 and rx['hits'][0][0] == '11/5',
+      '6 Wotever Next H Fomalhaut – H Ceres RA 91.0755 vs S Ceres → H Ceres Dec 41.3600: 2.2020 on 11/5')
 check(BB.ratio_hits(28 / 21)[0][0] == '4/3', '6 Dettori 28 / 21 on 4/3')
 good = True
 for f in files:
@@ -186,13 +194,27 @@ for f in files:
             for l in b['lines']:
                 royal = any(l['line'].startswith(f'{ch} {Y} – ') for ch in 'HJ' for Y in BB.ROYAL) and 'contra' not in l['plane']
                 if not royal:
-                    good &= 'ratio' not in l
+                    good &= 'ratio' not in l and 'ratio_x' not in l
                     continue
                 ch = l['line'][0]
                 sv = r['dist'][ch].get(('S', l['plane'], b['body'], b['body']))
                 if sv is None or not min(sv, l['value']) > 0:
                     good &= 'ratio' not in l
                     continue
+                xp = 'Dec' if l['plane'] == 'RA' else 'RA'
+                sx = r['dist'][ch].get(('S', xp, b['body'], b['body']))
+                if sx is None or not min(sx, l['value']) > 0:
+                    good &= 'ratio_x' not in l
+                else:
+                    rx = l['ratio_x']
+                    qx = max(sx, l['value']) / min(sx, l['value'])
+                    good &= rx['plane'] == xp and abs(rx['same'] - sx) < 1e-12 and abs(rx['ratio'] - qx) < 1e-9 \
+                        and abs(rx['pct'] - 100 * sx / l['value']) < 1e-9
+                    if sx < BB.CONJ[xp] or l['value'] < BB.CONJ[l['plane']]:
+                        good &= not rx['hits'] and rx.get('note') == 'conjunction leg, not scored'
+                    else:
+                        good &= rx['hits'] == sorted([(lab, n, 100 * (t - abs(qx - v)) / t) for lab, n, v, t in BB.RATIO_TARGETS
+                                                      if abs(qx - v) < t], key=lambda h: -h[2])
                 rt = l['ratio']
                 q = max(sv, l['value']) / min(sv, l['value'])
                 good &= abs(rt['ratio'] - q) < 1e-9 and abs(rt['pct'] - 100 * sv / l['value']) < 1e-9

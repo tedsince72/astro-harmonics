@@ -1,33 +1,33 @@
 # 20220406_catterick_1440 — 4 Thakuri / David Allan, body by body
 
-Rules (Eddie, 8 Nov 2026): all linear. Whole ±0.02; golden ±0.0324; φ powers ±0.15 %; ninths ±0.2 %; √2 and silver ±0.15 %; conjunction RA < 1.5 / Dec < 0.3; opposition RA within 0.75 of 180; contraparallel |Dec a + Dec b| < 0.3. Highest score first, other families as "also". Last lines: horse X – jockey X (natal to natal, RA wrapped, Dec). Sky lines on the same target = sky body / royal star pairs (Moon included, no Rahu–Ketu, no star–star) and the S Y → H X / S Y → J X lines on the same family and target as any scoring line above them (conjunctions not matched; those S Y → natal X rows also stay under "Other"). Same-body ratio (royal-star rows): larger / smaller of the star line and S X → natal X (same chart and plane), % = same body / star line; scored on the interval list (1, 3/2, 2 … 9 ±0.02, the others tapered %) and whole 10-20 ±0.5 % (1/10 … 1/20 cuts), linear; a conjunction leg is not scored. "Other scoring sky lines": every scoring sky line on the body - S Y – S X, then S Y → H X, then S Y → J X - conjunctions included, each group highest score first. Data only, no pick (tools/eddie_bybody.py).
+Rules (Eddie, 8 Nov 2026): all linear. Whole ±0.02; golden ±0.0324; φ powers ±0.15 %; ninths ±0.2 %; √2 and silver ±0.15 %; conjunction RA < 1.5 / Dec < 0.3; opposition RA within 0.75 of 180; contraparallel |Dec a + Dec b| < 0.3. Highest score first, other families as "also". Last lines: horse X – jockey X (natal to natal, RA wrapped, Dec). Sky lines on the same target = sky body / royal star pairs (Moon included, no Rahu–Ketu, no star–star) and the S Y → H X / S Y → J X lines on the same family and target as any scoring line above them (conjunctions not matched; those S Y → natal X rows also stay under "Other"). Same-body ratio (royal-star rows): larger / smaller of the star line and S X → natal X (same chart and plane), % = same body / star line; scored on the interval list (1, 3/2, 2 … 9 ±0.02, the others tapered %) and whole 10-20 ±0.5 % (1/10 … 1/20 cuts), linear; a conjunction leg is not scored. Crossed same-body ratio: the same against S X → natal X in the other plane (RA star line with the Dec same-body line, Dec with RA). "Other scoring sky lines": every scoring sky line on the body - S Y – S X, then S Y → H X, then S Y → J X - conjunctions included, each group highest score first. Data only, no pick (tools/eddie_bybody.py).
 
 ## Sun
 
-| Line | Plane | Value | Score | Same-body ratio |
-|---|---|---|---|---|
-| S Sun → H Sun | RA | 14.8486 | — |  |
-| S Sun → H Sun | Dec | 6.3334 | — |  |
-| H Aldebaran – H Sun | RA | 68.6881 | — | S Sun → H Sun 14.8486: ratio 4.6259 (21.62 %) — no target |
-| H Antares – H Sun | RA | 112.9365 | — | S Sun → H Sun 14.8486: ratio 7.6059 (13.15 %) — no target |
-| H Fomalhaut – H Sun | RA | 15.8815 | — | S Sun → H Sun 14.8486: ratio 1.0696 (93.50 %) — no target |
-| H Regulus – H Sun | RA | 151.8058 | — | S Sun → H Sun 14.8486: ratio 10.2236 (9.78 %) — no target |
-| H Aldebaran – H Sun | Dec | 16.3837 | — | S Sun → H Sun 6.3334: ratio 2.5869 (38.66 %) — no target |
-| H Antares – H Sun | Dec | 26.5558 | — | S Sun → H Sun 6.3334: ratio 4.1930 (23.85 %) — no target |
-| H Fomalhaut – H Sun | Dec | 29.7482 | — | S Sun → H Sun 6.3334: ratio 4.6970 (21.29 %) — no target |
-| H Regulus – H Sun | Dec | 11.8417 | — | S Sun → H Sun 6.3334: ratio 1.8697 (53.48 %) — no target |
-| S Sun → J Sun | RA | 95.5441 | — |  |
-| S Sun → J Sun | Dec | 15.6215 | — |  |
-| J Aldebaran – J Sun | RA | 41.7078 | — | S Sun → J Sun 95.5441: ratio 2.2908 (229.08 %) — no target |
-| J Antares – J Sun | RA | 136.6735 | — | S Sun → J Sun 95.5441: ratio 1.4305 (69.91 %) — no target |
-| J Fomalhaut – J Sun | RA | 126.2688 | — | S Sun → J Sun 95.5441: ratio 1.3216 (75.67 %) — no target |
-| J Regulus – J Sun | RA | 41.4070 | 41.4 silver (76.9) | S Sun → J Sun 95.5441: ratio 2.3074 (230.74 %) — no target |
-| J Aldebaran – J Sun | Dec | 5.5688 | — | S Sun → J Sun 15.6215: ratio 2.8052 (280.52 %) — no target |
-| J Antares – J Sun | Dec | 48.5115 | 30×φ golden (8.9) | S Sun → J Sun 15.6215: ratio 3.1054 (32.20 %) — no target |
-| J Fomalhaut – J Sun | Dec | 51.6972 | — | S Sun → J Sun 15.6215: ratio 3.3094 (30.22 %) — no target |
-| J Regulus – J Sun | Dec | 10.1100 | — | S Sun → J Sun 15.6215: ratio 1.5451 (154.51 %) — no target |
-| H Sun – J Sun | RA | 110.3927 | — |  |
-| H Sun – J Sun | Dec | 21.9549 | — |  |
+| Line | Plane | Value | Score | Same-body ratio | Crossed same-body ratio |
+|---|---|---|---|---|---|
+| S Sun → H Sun | RA | 14.8486 | — |  |  |
+| S Sun → H Sun | Dec | 6.3334 | — |  |  |
+| H Aldebaran – H Sun | RA | 68.6881 | — | S Sun → H Sun 14.8486: ratio 4.6259 (21.62 %) — no target | S Sun → H Sun Dec 6.3334: ratio 10.8453 (9.22 %) — no target |
+| H Antares – H Sun | RA | 112.9365 | — | S Sun → H Sun 14.8486: ratio 7.6059 (13.15 %) — no target | S Sun → H Sun Dec 6.3334: ratio 17.8318 (5.61 %) — no target |
+| H Fomalhaut – H Sun | RA | 15.8815 | — | S Sun → H Sun 14.8486: ratio 1.0696 (93.50 %) — no target | S Sun → H Sun Dec 6.3334: ratio 2.5076 (39.88 %) — no target |
+| H Regulus – H Sun | RA | 151.8058 | — | S Sun → H Sun 14.8486: ratio 10.2236 (9.78 %) — no target | S Sun → H Sun Dec 6.3334: ratio 23.9690 (4.17 %) — no target |
+| H Aldebaran – H Sun | Dec | 16.3837 | — | S Sun → H Sun 6.3334: ratio 2.5869 (38.66 %) — no target | S Sun → H Sun RA 14.8486: ratio 1.1034 (90.63 %) — no target |
+| H Antares – H Sun | Dec | 26.5558 | — | S Sun → H Sun 6.3334: ratio 4.1930 (23.85 %) — no target | S Sun → H Sun RA 14.8486: ratio 1.7884 (55.91 %) — no target |
+| H Fomalhaut – H Sun | Dec | 29.7482 | — | S Sun → H Sun 6.3334: ratio 4.6970 (21.29 %) — no target | S Sun → H Sun RA 14.8486: ratio 2.0034 (49.91 %) → 2 octave (82.8) |
+| H Regulus – H Sun | Dec | 11.8417 | — | S Sun → H Sun 6.3334: ratio 1.8697 (53.48 %) — no target | S Sun → H Sun RA 14.8486: ratio 1.2539 (125.39 %) — no target |
+| S Sun → J Sun | RA | 95.5441 | — |  |  |
+| S Sun → J Sun | Dec | 15.6215 | — |  |  |
+| J Aldebaran – J Sun | RA | 41.7078 | — | S Sun → J Sun 95.5441: ratio 2.2908 (229.08 %) — no target | S Sun → J Sun Dec 15.6215: ratio 2.6699 (37.45 %) → 8/3 octave + fourth (19.1) |
+| J Antares – J Sun | RA | 136.6735 | — | S Sun → J Sun 95.5441: ratio 1.4305 (69.91 %) — no target | S Sun → J Sun Dec 15.6215: ratio 8.7491 (11.43 %) — no target |
+| J Fomalhaut – J Sun | RA | 126.2688 | — | S Sun → J Sun 95.5441: ratio 1.3216 (75.67 %) — no target | S Sun → J Sun Dec 15.6215: ratio 8.0830 (12.37 %) — no target |
+| J Regulus – J Sun | RA | 41.4070 | 41.4 silver (76.9) | S Sun → J Sun 95.5441: ratio 2.3074 (230.74 %) — no target | S Sun → J Sun Dec 15.6215: ratio 2.6507 (37.73 %) — no target |
+| J Aldebaran – J Sun | Dec | 5.5688 | — | S Sun → J Sun 15.6215: ratio 2.8052 (280.52 %) — no target | S Sun → J Sun RA 95.5441: ratio 17.1572 (1715.72 %) — no target |
+| J Antares – J Sun | Dec | 48.5115 | 30×φ golden (8.9) | S Sun → J Sun 15.6215: ratio 3.1054 (32.20 %) — no target | S Sun → J Sun RA 95.5441: ratio 1.9695 (196.95 %) — no target |
+| J Fomalhaut – J Sun | Dec | 51.6972 | — | S Sun → J Sun 15.6215: ratio 3.3094 (30.22 %) — no target | S Sun → J Sun RA 95.5441: ratio 1.8481 (184.81 %) — no target |
+| J Regulus – J Sun | Dec | 10.1100 | — | S Sun → J Sun 15.6215: ratio 1.5451 (154.51 %) — no target | S Sun → J Sun RA 95.5441: ratio 9.4505 (945.05 %) — no target |
+| H Sun – J Sun | RA | 110.3927 | — |  |  |
+| H Sun – J Sun | Dec | 21.9549 | — |  |  |
 
 Sky lines on the same target:
 
@@ -62,30 +62,30 @@ Other scoring sky lines on Sun:
 
 ## Mercury
 
-| Line | Plane | Value | Score | Same-body ratio |
-|---|---|---|---|---|
-| S Mercury → H Mercury | RA | 30.6225 | — |  |
-| S Mercury → H Mercury | Dec | 9.9629 | — |  |
-| H Aldebaran – H Mercury | RA | 80.6573 | — | S Mercury → H Mercury 30.6225: ratio 2.6339 (37.97 %) — no target |
-| H Antares – H Mercury | RA | 100.9673 | — | S Mercury → H Mercury 30.6225: ratio 3.2972 (30.33 %) — no target |
-| H Fomalhaut – H Mercury | RA | 3.9123 | — | S Mercury → H Mercury 30.6225: ratio 7.8272 (782.72 %) — no target |
-| H Regulus – H Mercury | RA | 163.7750 | — | S Mercury → H Mercury 30.6225: ratio 5.3482 (18.70 %) — no target |
-| H Aldebaran – H Mercury | Dec | 18.9723 | — | S Mercury → H Mercury 9.9629: ratio 1.9043 (52.51 %) — no target |
-| H Antares – H Mercury | Dec | 23.9673 | — | S Mercury → H Mercury 9.9629: ratio 2.4056 (41.57 %) — no target |
-| H Fomalhaut – H Mercury | Dec | 27.1597 | — | S Mercury → H Mercury 9.9629: ratio 2.7261 (36.68 %) — no target |
-| H Regulus – H Mercury | Dec | 14.4303 | 14.4444 ninth (51.0) | S Mercury → H Mercury 9.9629: ratio 1.4484 (69.04 %) — no target |
-| S Mercury → J Mercury | RA | 75.2677 | — |  |
-| S Mercury → J Mercury | Dec | 15.5148 | — |  |
-| J Aldebaran – J Mercury | RA | 25.2361 | — | S Mercury → J Mercury 75.2677: ratio 2.9825 (298.25 %) → 3 twelfth (12.7) |
-| J Antares – J Mercury | RA | 153.1452 | — | S Mercury → J Mercury 75.2677: ratio 2.0347 (49.15 %) — no target |
-| J Fomalhaut – J Mercury | RA | 109.7971 | — | S Mercury → J Mercury 75.2677: ratio 1.4588 (68.55 %) — no target |
-| J Regulus – J Mercury | RA | 57.8787 | — | S Mercury → J Mercury 75.2677: ratio 1.3004 (130.04 %) — no target |
-| J Aldebaran – J Mercury | Dec | 6.5030 | 4×φ golden (4.8) | S Mercury → J Mercury 15.5148: ratio 2.3858 (238.58 %) — no target |
-| J Antares – J Mercury | Dec | 49.4457 | — | S Mercury → J Mercury 15.5148: ratio 3.1870 (31.38 %) — no target |
-| J Fomalhaut – J Mercury | Dec | 52.6315 | — | S Mercury → J Mercury 15.5148: ratio 3.3923 (29.48 %) — no target |
-| J Regulus – J Mercury | Dec | 11.0442 | — | S Mercury → J Mercury 15.5148: ratio 1.4048 (140.48 %) — no target |
-| H Mercury – J Mercury | RA | 105.8902 | — |  |
-| H Mercury – J Mercury | Dec | 25.4777 | — |  |
+| Line | Plane | Value | Score | Same-body ratio | Crossed same-body ratio |
+|---|---|---|---|---|---|
+| S Mercury → H Mercury | RA | 30.6225 | — |  |  |
+| S Mercury → H Mercury | Dec | 9.9629 | — |  |  |
+| H Aldebaran – H Mercury | RA | 80.6573 | — | S Mercury → H Mercury 30.6225: ratio 2.6339 (37.97 %) — no target | S Mercury → H Mercury Dec 9.9629: ratio 8.0958 (12.35 %) — no target |
+| H Antares – H Mercury | RA | 100.9673 | — | S Mercury → H Mercury 30.6225: ratio 3.2972 (30.33 %) — no target | S Mercury → H Mercury Dec 9.9629: ratio 10.1343 (9.87 %) — no target |
+| H Fomalhaut – H Mercury | RA | 3.9123 | — | S Mercury → H Mercury 30.6225: ratio 7.8272 (782.72 %) — no target | S Mercury → H Mercury Dec 9.9629: ratio 2.5465 (254.65 %) — no target |
+| H Regulus – H Mercury | RA | 163.7750 | — | S Mercury → H Mercury 30.6225: ratio 5.3482 (18.70 %) — no target | S Mercury → H Mercury Dec 9.9629: ratio 16.4385 (6.08 %) — no target |
+| H Aldebaran – H Mercury | Dec | 18.9723 | — | S Mercury → H Mercury 9.9629: ratio 1.9043 (52.51 %) — no target | S Mercury → H Mercury RA 30.6225: ratio 1.6141 (161.41 %) — no target |
+| H Antares – H Mercury | Dec | 23.9673 | — | S Mercury → H Mercury 9.9629: ratio 2.4056 (41.57 %) — no target | S Mercury → H Mercury RA 30.6225: ratio 1.2777 (127.77 %) — no target |
+| H Fomalhaut – H Mercury | Dec | 27.1597 | — | S Mercury → H Mercury 9.9629: ratio 2.7261 (36.68 %) — no target | S Mercury → H Mercury RA 30.6225: ratio 1.1275 (112.75 %) — no target |
+| H Regulus – H Mercury | Dec | 14.4303 | 14.4444 ninth (51.0) | S Mercury → H Mercury 9.9629: ratio 1.4484 (69.04 %) — no target | S Mercury → H Mercury RA 30.6225: ratio 2.1221 (212.21 %) — no target |
+| S Mercury → J Mercury | RA | 75.2677 | — |  |  |
+| S Mercury → J Mercury | Dec | 15.5148 | — |  |  |
+| J Aldebaran – J Mercury | RA | 25.2361 | — | S Mercury → J Mercury 75.2677: ratio 2.9825 (298.25 %) → 3 twelfth (12.7) | S Mercury → J Mercury Dec 15.5148: ratio 1.6266 (61.48 %) → 13/8 tridecimal 13:8 (35.0) |
+| J Antares – J Mercury | RA | 153.1452 | — | S Mercury → J Mercury 75.2677: ratio 2.0347 (49.15 %) — no target | S Mercury → J Mercury Dec 15.5148: ratio 9.8709 (10.13 %) — no target |
+| J Fomalhaut – J Mercury | RA | 109.7971 | — | S Mercury → J Mercury 75.2677: ratio 1.4588 (68.55 %) — no target | S Mercury → J Mercury Dec 15.5148: ratio 7.0769 (14.13 %) — no target |
+| J Regulus – J Mercury | RA | 57.8787 | — | S Mercury → J Mercury 75.2677: ratio 1.3004 (130.04 %) — no target | S Mercury → J Mercury Dec 15.5148: ratio 3.7306 (26.81 %) — no target |
+| J Aldebaran – J Mercury | Dec | 6.5030 | 4×φ golden (4.8) | S Mercury → J Mercury 15.5148: ratio 2.3858 (238.58 %) — no target | S Mercury → J Mercury RA 75.2677: ratio 11.5743 (1157.43 %) — no target |
+| J Antares – J Mercury | Dec | 49.4457 | — | S Mercury → J Mercury 15.5148: ratio 3.1870 (31.38 %) — no target | S Mercury → J Mercury RA 75.2677: ratio 1.5222 (152.22 %) — no target |
+| J Fomalhaut – J Mercury | Dec | 52.6315 | — | S Mercury → J Mercury 15.5148: ratio 3.3923 (29.48 %) — no target | S Mercury → J Mercury RA 75.2677: ratio 1.4301 (143.01 %) — no target |
+| J Regulus – J Mercury | Dec | 11.0442 | — | S Mercury → J Mercury 15.5148: ratio 1.4048 (140.48 %) — no target | S Mercury → J Mercury RA 75.2677: ratio 6.8151 (681.51 %) — no target |
+| H Mercury – J Mercury | RA | 105.8902 | — |  |  |
+| H Mercury – J Mercury | Dec | 25.4777 | — |  |  |
 
 Sky lines on the same target:
 
@@ -125,30 +125,30 @@ Other scoring sky lines on Mercury:
 
 ## Venus
 
-| Line | Plane | Value | Score | Same-body ratio |
-|---|---|---|---|---|
-| S Venus → H Venus | RA | 6.8069 | — |  |
-| S Venus → H Venus | Dec | 3.2255 | 2×φ golden (67.4) |  |
-| H Aldebaran – H Venus | RA | 103.1676 | — | S Venus → H Venus 6.8069: ratio 15.1563 (6.60 %) — no target |
-| H Antares – H Venus | RA | 78.4570 | — | S Venus → H Venus 6.8069: ratio 11.5261 (8.68 %) — no target |
-| H Fomalhaut – H Venus | RA | 18.5979 | — | S Venus → H Venus 6.8069: ratio 2.7322 (36.60 %) — no target |
-| H Regulus – H Venus | RA | 173.7147 | — | S Venus → H Venus 6.8069: ratio 25.5204 (3.92 %) — no target |
-| H Aldebaran – H Venus | Dec | 30.6224 | — | S Venus → H Venus 3.2255: ratio 9.4938 (10.53 %) — no target |
-| H Antares – H Venus | Dec | 12.3171 | — | S Venus → H Venus 3.2255: ratio 3.8187 (26.19 %) — no target |
-| H Fomalhaut – H Venus | Dec | 15.5095 | — | S Venus → H Venus 3.2255: ratio 4.8084 (20.80 %) — no target |
-| H Regulus – H Venus | Dec | 26.0804 | — | S Venus → H Venus 3.2255: ratio 8.0857 (12.37 %) — no target |
-| S Venus → J Venus | RA | 105.7900 | — |  |
-| S Venus → J Venus | Dec | 32.7242 | — |  |
-| J Aldebaran – J Venus | RA | 9.4325 | — | S Venus → J Venus 105.7900: ratio 11.2154 (1121.54 %) — no target |
-| J Antares – J Venus | RA | 168.9487 | — | S Venus → J Venus 105.7900: ratio 1.5970 (62.62 %) — no target |
-| J Fomalhaut – J Venus | RA | 93.9936 | 94 (67.8) | S Venus → J Venus 105.7900: ratio 1.1255 (112.55 %) → 9/8 major second (70.2) |
-| J Regulus – J Venus | RA | 73.6823 | — | S Venus → J Venus 105.7900: ratio 1.4358 (143.58 %) — no target |
-| J Aldebaran – J Venus | Dec | 5.3248 | — | S Venus → J Venus 32.7242: ratio 6.1456 (614.56 %) — no target |
-| J Antares – J Venus | Dec | 48.2676 | — | S Venus → J Venus 32.7242: ratio 1.4750 (67.80 %) — no target |
-| J Fomalhaut – J Venus | Dec | 51.4533 | — | S Venus → J Venus 32.7242: ratio 1.5723 (63.60 %) — no target |
-| J Regulus – J Venus | Dec | 9.8661 | — | S Venus → J Venus 32.7242: ratio 3.3168 (331.68 %) — no target |
-| H Venus – J Venus | RA | 112.5969 | — |  |
-| H Venus – J Venus | Dec | 35.9497 | — |  |
+| Line | Plane | Value | Score | Same-body ratio | Crossed same-body ratio |
+|---|---|---|---|---|---|
+| S Venus → H Venus | RA | 6.8069 | — |  |  |
+| S Venus → H Venus | Dec | 3.2255 | 2×φ golden (67.4) |  |  |
+| H Aldebaran – H Venus | RA | 103.1676 | — | S Venus → H Venus 6.8069: ratio 15.1563 (6.60 %) — no target | S Venus → H Venus Dec 3.2255: ratio 31.9849 (3.13 %) — no target |
+| H Antares – H Venus | RA | 78.4570 | — | S Venus → H Venus 6.8069: ratio 11.5261 (8.68 %) — no target | S Venus → H Venus Dec 3.2255: ratio 24.3239 (4.11 %) — no target |
+| H Fomalhaut – H Venus | RA | 18.5979 | — | S Venus → H Venus 6.8069: ratio 2.7322 (36.60 %) — no target | S Venus → H Venus Dec 3.2255: ratio 5.7659 (17.34 %) — no target |
+| H Regulus – H Venus | RA | 173.7147 | — | S Venus → H Venus 6.8069: ratio 25.5204 (3.92 %) — no target | S Venus → H Venus Dec 3.2255: ratio 53.8565 (1.86 %) — no target |
+| H Aldebaran – H Venus | Dec | 30.6224 | — | S Venus → H Venus 3.2255: ratio 9.4938 (10.53 %) — no target | S Venus → H Venus RA 6.8069: ratio 4.4987 (22.23 %) — no target |
+| H Antares – H Venus | Dec | 12.3171 | — | S Venus → H Venus 3.2255: ratio 3.8187 (26.19 %) — no target | S Venus → H Venus RA 6.8069: ratio 1.8095 (55.26 %) — no target |
+| H Fomalhaut – H Venus | Dec | 15.5095 | — | S Venus → H Venus 3.2255: ratio 4.8084 (20.80 %) — no target | S Venus → H Venus RA 6.8069: ratio 2.2785 (43.89 %) — no target |
+| H Regulus – H Venus | Dec | 26.0804 | — | S Venus → H Venus 3.2255: ratio 8.0857 (12.37 %) — no target | S Venus → H Venus RA 6.8069: ratio 3.8315 (26.10 %) — no target |
+| S Venus → J Venus | RA | 105.7900 | — |  |  |
+| S Venus → J Venus | Dec | 32.7242 | — |  |  |
+| J Aldebaran – J Venus | RA | 9.4325 | — | S Venus → J Venus 105.7900: ratio 11.2154 (1121.54 %) — no target | S Venus → J Venus Dec 32.7242: ratio 3.4693 (346.93 %) — no target |
+| J Antares – J Venus | RA | 168.9487 | — | S Venus → J Venus 105.7900: ratio 1.5970 (62.62 %) — no target | S Venus → J Venus Dec 32.7242: ratio 5.1628 (19.37 %) — no target |
+| J Fomalhaut – J Venus | RA | 93.9936 | 94 (67.8) | S Venus → J Venus 105.7900: ratio 1.1255 (112.55 %) → 9/8 major second (70.2) | S Venus → J Venus Dec 32.7242: ratio 2.8723 (34.82 %) — no target |
+| J Regulus – J Venus | RA | 73.6823 | — | S Venus → J Venus 105.7900: ratio 1.4358 (143.58 %) — no target | S Venus → J Venus Dec 32.7242: ratio 2.2516 (44.41 %) → 9/4 major ninth (52.1) |
+| J Aldebaran – J Venus | Dec | 5.3248 | — | S Venus → J Venus 32.7242: ratio 6.1456 (614.56 %) — no target | S Venus → J Venus RA 105.7900: ratio 19.8672 (1986.72 %) — no target |
+| J Antares – J Venus | Dec | 48.2676 | — | S Venus → J Venus 32.7242: ratio 1.4750 (67.80 %) — no target | S Venus → J Venus RA 105.7900: ratio 2.1917 (219.17 %) — no target |
+| J Fomalhaut – J Venus | Dec | 51.4533 | — | S Venus → J Venus 32.7242: ratio 1.5723 (63.60 %) — no target | S Venus → J Venus RA 105.7900: ratio 2.0560 (205.60 %) — no target |
+| J Regulus – J Venus | Dec | 9.8661 | — | S Venus → J Venus 32.7242: ratio 3.3168 (331.68 %) — no target | S Venus → J Venus RA 105.7900: ratio 10.7226 (1072.26 %) — no target |
+| H Venus – J Venus | RA | 112.5969 | — |  |  |
+| H Venus – J Venus | Dec | 35.9497 | — |  |  |
 
 Sky lines on the same target:
 
@@ -182,30 +182,30 @@ Other scoring sky lines on Venus:
 
 ## Mars
 
-| Line | Plane | Value | Score | Same-body ratio |
-|---|---|---|---|---|
-| S Mars → H Mars | RA | 84.6522 | — |  |
-| S Mars → H Mars | Dec | 34.3832 | — |  |
-| H Aldebaran – H Mars | RA | 18.3347 | — | S Mars → H Mars 84.6522: ratio 4.6170 (461.70 %) — no target |
-| H Antares – H Mars | RA | 163.2899 | — | S Mars → H Mars 84.6522: ratio 1.9290 (51.84 %) — no target |
-| H Fomalhaut – H Mars | RA | 66.2350 | — | S Mars → H Mars 84.6522: ratio 1.2781 (127.81 %) — no target |
-| H Regulus – H Mars | RA | 101.4524 | — | S Mars → H Mars 84.6522: ratio 1.1985 (83.44 %) → 6/5 minor third (14.5) |
-| H Aldebaran – H Mars | Dec | 2.8932 | — | S Mars → H Mars 34.3832: ratio 11.8840 (1188.40 %) — no target |
-| H Antares – H Mars | Dec | 45.8327 | — | S Mars → H Mars 34.3832: ratio 1.3330 (75.02 %) → 4/3 fourth (90.0) |
-| H Fomalhaut – H Mars | Dec | 49.0251 | — | S Mars → H Mars 34.3832: ratio 1.4258 (70.13 %) — no target |
-| H Regulus – H Mars | Dec | 7.4352 | — | S Mars → H Mars 34.3832: ratio 4.6244 (462.44 %) — no target |
-| S Mars → J Mars | RA | 129.4992 | — |  |
-| S Mars → J Mars | Dec | 7.4972 | — |  |
-| J Aldebaran – J Mars | RA | 127.5172 | — | S Mars → J Mars 129.4992: ratio 1.0155 (101.55 %) → 1 unison (22.3) |
-| J Antares – J Mars | RA | 50.8641 | — | S Mars → J Mars 129.4992: ratio 2.5460 (254.60 %) — no target |
-| J Fomalhaut – J Mars | RA | 147.9218 | — | S Mars → J Mars 129.4992: ratio 1.1423 (87.55 %) → 8/7 septimal whole tone (65.2) |
-| J Regulus – J Mars | RA | 44.4024 | 44.4444 ninth (52.7) | S Mars → J Mars 129.4992: ratio 2.9165 (291.65 %) — no target |
-| J Aldebaran – J Mars | Dec | 23.9952 | 24 (76.1) | S Mars → J Mars 7.4972: ratio 3.2006 (31.24 %) — no target |
-| J Antares – J Mars | Dec | 18.9475 | — | S Mars → J Mars 7.4972: ratio 2.5273 (39.57 %) — no target |
-| J Fomalhaut – J Mars | Dec | 22.1332 | — | S Mars → J Mars 7.4972: ratio 2.9522 (33.87 %) — no target |
-| J Regulus – J Mars | Dec | 19.4540 | — | S Mars → J Mars 7.4972: ratio 2.5948 (38.54 %) — no target |
-| H Mars – J Mars | RA | 145.8486 | — |  |
-| H Mars – J Mars | Dec | 26.8860 | — |  |
+| Line | Plane | Value | Score | Same-body ratio | Crossed same-body ratio |
+|---|---|---|---|---|---|
+| S Mars → H Mars | RA | 84.6522 | — |  |  |
+| S Mars → H Mars | Dec | 34.3832 | — |  |  |
+| H Aldebaran – H Mars | RA | 18.3347 | — | S Mars → H Mars 84.6522: ratio 4.6170 (461.70 %) — no target | S Mars → H Mars Dec 34.3832: ratio 1.8753 (187.53 %) → 15/8 major seventh (89.1) |
+| H Antares – H Mars | RA | 163.2899 | — | S Mars → H Mars 84.6522: ratio 1.9290 (51.84 %) — no target | S Mars → H Mars Dec 34.3832: ratio 4.7491 (21.06 %) — no target |
+| H Fomalhaut – H Mars | RA | 66.2350 | — | S Mars → H Mars 84.6522: ratio 1.2781 (127.81 %) — no target | S Mars → H Mars Dec 34.3832: ratio 1.9264 (51.91 %) — no target |
+| H Regulus – H Mars | RA | 101.4524 | — | S Mars → H Mars 84.6522: ratio 1.1985 (83.44 %) → 6/5 minor third (14.5) | S Mars → H Mars Dec 34.3832: ratio 2.9506 (33.89 %) — no target |
+| H Aldebaran – H Mars | Dec | 2.8932 | — | S Mars → H Mars 34.3832: ratio 11.8840 (1188.40 %) — no target | S Mars → H Mars RA 84.6522: ratio 29.2587 (2925.87 %) — no target |
+| H Antares – H Mars | Dec | 45.8327 | — | S Mars → H Mars 34.3832: ratio 1.3330 (75.02 %) → 4/3 fourth (90.0) | S Mars → H Mars RA 84.6522: ratio 1.8470 (184.70 %) — no target |
+| H Fomalhaut – H Mars | Dec | 49.0251 | — | S Mars → H Mars 34.3832: ratio 1.4258 (70.13 %) — no target | S Mars → H Mars RA 84.6522: ratio 1.7267 (172.67 %) — no target |
+| H Regulus – H Mars | Dec | 7.4352 | — | S Mars → H Mars 34.3832: ratio 4.6244 (462.44 %) — no target | S Mars → H Mars RA 84.6522: ratio 11.3853 (1138.53 %) — no target |
+| S Mars → J Mars | RA | 129.4992 | — |  |  |
+| S Mars → J Mars | Dec | 7.4972 | — |  |  |
+| J Aldebaran – J Mars | RA | 127.5172 | — | S Mars → J Mars 129.4992: ratio 1.0155 (101.55 %) → 1 unison (22.3) | S Mars → J Mars Dec 7.4972: ratio 17.0087 (5.88 %) → 17 1/17 cut (89.7) |
+| J Antares – J Mars | RA | 50.8641 | — | S Mars → J Mars 129.4992: ratio 2.5460 (254.60 %) — no target | S Mars → J Mars Dec 7.4972: ratio 6.7845 (14.74 %) — no target |
+| J Fomalhaut – J Mars | RA | 147.9218 | — | S Mars → J Mars 129.4992: ratio 1.1423 (87.55 %) → 8/7 septimal whole tone (65.2) | S Mars → J Mars Dec 7.4972: ratio 19.7304 (5.07 %) — no target |
+| J Regulus – J Mars | RA | 44.4024 | 44.4444 ninth (52.7) | S Mars → J Mars 129.4992: ratio 2.9165 (291.65 %) — no target | S Mars → J Mars Dec 7.4972: ratio 5.9226 (16.88 %) — no target |
+| J Aldebaran – J Mars | Dec | 23.9952 | 24 (76.1) | S Mars → J Mars 7.4972: ratio 3.2006 (31.24 %) — no target | S Mars → J Mars RA 129.4992: ratio 5.3969 (539.69 %) — no target |
+| J Antares – J Mars | Dec | 18.9475 | — | S Mars → J Mars 7.4972: ratio 2.5273 (39.57 %) — no target | S Mars → J Mars RA 129.4992: ratio 6.8346 (683.46 %) — no target |
+| J Fomalhaut – J Mars | Dec | 22.1332 | — | S Mars → J Mars 7.4972: ratio 2.9522 (33.87 %) — no target | S Mars → J Mars RA 129.4992: ratio 5.8509 (585.09 %) — no target |
+| J Regulus – J Mars | Dec | 19.4540 | — | S Mars → J Mars 7.4972: ratio 2.5948 (38.54 %) — no target | S Mars → J Mars RA 129.4992: ratio 6.6567 (665.67 %) — no target |
+| H Mars – J Mars | RA | 145.8486 | — |  |  |
+| H Mars – J Mars | Dec | 26.8860 | — |  |  |
 
 Sky lines on the same target:
 
@@ -247,30 +247,30 @@ Other scoring sky lines on Mars:
 
 ## Jupiter
 
-| Line | Plane | Value | Score | Same-body ratio |
-|---|---|---|---|---|
-| S Jupiter → H Jupiter | RA | 90.4175 | — |  |
-| S Jupiter → H Jupiter | Dec | 18.6515 | — |  |
-| H Aldebaran – H Jupiter | RA | 166.0752 | — | S Jupiter → H Jupiter 90.4175: ratio 1.8368 (54.44 %) — no target |
-| H Antares – H Jupiter | RA | 15.5494 | 15.5556 ninth (80.2) | S Jupiter → H Jupiter 90.4175: ratio 5.8149 (581.49 %) — no target |
-| H Fomalhaut – H Jupiter | RA | 81.5056 | — | S Jupiter → H Jupiter 90.4175: ratio 1.1093 (110.93 %) — no target |
-| H Regulus – H Jupiter | RA | 110.8071 | 10φ⁵ phi power (43.1) | S Jupiter → H Jupiter 90.4175: ratio 1.2255 (81.60 %) — no target |
-| H Aldebaran – H Jupiter | Dec | 39.1536 | — | S Jupiter → H Jupiter 18.6515: ratio 2.0992 (47.64 %) — no target |
-| H Antares – H Jupiter | Dec | 3.7860 | — | S Jupiter → H Jupiter 18.6515: ratio 4.9265 (492.65 %) — no target |
-| H Fomalhaut – H Jupiter | Dec | 6.9784 | — | S Jupiter → H Jupiter 18.6515: ratio 2.6728 (267.28 %) — no target |
-| H Regulus – H Jupiter | Dec | 34.6116 | — | S Jupiter → H Jupiter 18.6515: ratio 1.8557 (53.89 %) — no target |
-| S Jupiter → J Jupiter | RA | 144.0665 | — |  |
-| S Jupiter → J Jupiter | Dec | 6.7059 | — |  |
-| J Aldebaran – J Jupiter | RA | 140.2790 | — | S Jupiter → J Jupiter 144.0665: ratio 1.0270 (102.70 %) — no target |
-| J Antares – J Jupiter | RA | 38.1023 | — | S Jupiter → J Jupiter 144.0665: ratio 3.7810 (378.10 %) — no target |
-| J Fomalhaut – J Jupiter | RA | 135.1600 | — | S Jupiter → J Jupiter 144.0665: ratio 1.0659 (106.59 %) → 16/15 minor second (51.8) |
-| J Regulus – J Jupiter | RA | 57.1642 | — | S Jupiter → J Jupiter 144.0665: ratio 2.5202 (252.02 %) — no target |
-| J Aldebaran – J Jupiter | Dec | 27.2104 | — | S Jupiter → J Jupiter 6.7059: ratio 4.0577 (24.64 %) — no target |
-| J Antares – J Jupiter | Dec | 15.7324 | — | S Jupiter → J Jupiter 6.7059: ratio 2.3461 (42.62 %) — no target |
-| J Fomalhaut – J Jupiter | Dec | 18.9181 | 18.8889 ninth (22.6) | S Jupiter → J Jupiter 6.7059: ratio 2.8211 (35.45 %) — no target |
-| J Regulus – J Jupiter | Dec | 22.6691 | 14×φ golden (48.7) | S Jupiter → J Jupiter 6.7059: ratio 3.3805 (29.58 %) — no target |
-| H Jupiter – J Jupiter | RA | 53.6490 | — |  |
-| H Jupiter – J Jupiter | Dec | 11.9456 | — |  |
+| Line | Plane | Value | Score | Same-body ratio | Crossed same-body ratio |
+|---|---|---|---|---|---|
+| S Jupiter → H Jupiter | RA | 90.4175 | — |  |  |
+| S Jupiter → H Jupiter | Dec | 18.6515 | — |  |  |
+| H Aldebaran – H Jupiter | RA | 166.0752 | — | S Jupiter → H Jupiter 90.4175: ratio 1.8368 (54.44 %) — no target | S Jupiter → H Jupiter Dec 18.6515: ratio 8.9041 (11.23 %) — no target |
+| H Antares – H Jupiter | RA | 15.5494 | 15.5556 ninth (80.2) | S Jupiter → H Jupiter 90.4175: ratio 5.8149 (581.49 %) — no target | S Jupiter → H Jupiter Dec 18.6515: ratio 1.1995 (119.95 %) → 6/5 minor third (72.4) |
+| H Fomalhaut – H Jupiter | RA | 81.5056 | — | S Jupiter → H Jupiter 90.4175: ratio 1.1093 (110.93 %) — no target | S Jupiter → H Jupiter Dec 18.6515: ratio 4.3699 (22.88 %) — no target |
+| H Regulus – H Jupiter | RA | 110.8071 | 10φ⁵ phi power (43.1) | S Jupiter → H Jupiter 90.4175: ratio 1.2255 (81.60 %) — no target | S Jupiter → H Jupiter Dec 18.6515: ratio 5.9409 (16.83 %) — no target |
+| H Aldebaran – H Jupiter | Dec | 39.1536 | — | S Jupiter → H Jupiter 18.6515: ratio 2.0992 (47.64 %) — no target | S Jupiter → H Jupiter RA 90.4175: ratio 2.3093 (230.93 %) — no target |
+| H Antares – H Jupiter | Dec | 3.7860 | — | S Jupiter → H Jupiter 18.6515: ratio 4.9265 (492.65 %) — no target | S Jupiter → H Jupiter RA 90.4175: ratio 23.8823 (2388.23 %) — no target |
+| H Fomalhaut – H Jupiter | Dec | 6.9784 | — | S Jupiter → H Jupiter 18.6515: ratio 2.6728 (267.28 %) — no target | S Jupiter → H Jupiter RA 90.4175: ratio 12.9568 (1295.68 %) → 13 1/13 cut (33.6) |
+| H Regulus – H Jupiter | Dec | 34.6116 | — | S Jupiter → H Jupiter 18.6515: ratio 1.8557 (53.89 %) — no target | S Jupiter → H Jupiter RA 90.4175: ratio 2.6123 (261.23 %) — no target |
+| S Jupiter → J Jupiter | RA | 144.0665 | — |  |  |
+| S Jupiter → J Jupiter | Dec | 6.7059 | — |  |  |
+| J Aldebaran – J Jupiter | RA | 140.2790 | — | S Jupiter → J Jupiter 144.0665: ratio 1.0270 (102.70 %) — no target | S Jupiter → J Jupiter Dec 6.7059: ratio 20.9188 (4.78 %) — no target |
+| J Antares – J Jupiter | RA | 38.1023 | — | S Jupiter → J Jupiter 144.0665: ratio 3.7810 (378.10 %) — no target | S Jupiter → J Jupiter Dec 6.7059: ratio 5.6819 (17.60 %) — no target |
+| J Fomalhaut – J Jupiter | RA | 135.1600 | — | S Jupiter → J Jupiter 144.0665: ratio 1.0659 (106.59 %) → 16/15 minor second (51.8) | S Jupiter → J Jupiter Dec 6.7059: ratio 20.1554 (4.96 %) — no target |
+| J Regulus – J Jupiter | RA | 57.1642 | — | S Jupiter → J Jupiter 144.0665: ratio 2.5202 (252.02 %) — no target | S Jupiter → J Jupiter Dec 6.7059: ratio 8.5245 (11.73 %) — no target |
+| J Aldebaran – J Jupiter | Dec | 27.2104 | — | S Jupiter → J Jupiter 6.7059: ratio 4.0577 (24.64 %) — no target | S Jupiter → J Jupiter RA 144.0665: ratio 5.2945 (529.45 %) — no target |
+| J Antares – J Jupiter | Dec | 15.7324 | — | S Jupiter → J Jupiter 6.7059: ratio 2.3461 (42.62 %) — no target | S Jupiter → J Jupiter RA 144.0665: ratio 9.1573 (915.73 %) — no target |
+| J Fomalhaut – J Jupiter | Dec | 18.9181 | 18.8889 ninth (22.6) | S Jupiter → J Jupiter 6.7059: ratio 2.8211 (35.45 %) — no target | S Jupiter → J Jupiter RA 144.0665: ratio 7.6153 (761.53 %) — no target |
+| J Regulus – J Jupiter | Dec | 22.6691 | 14×φ golden (48.7) | S Jupiter → J Jupiter 6.7059: ratio 3.3805 (29.58 %) — no target | S Jupiter → J Jupiter RA 144.0665: ratio 6.3552 (635.52 %) — no target |
+| H Jupiter – J Jupiter | RA | 53.6490 | — |  |  |
+| H Jupiter – J Jupiter | Dec | 11.9456 | — |  |  |
 
 Sky lines on the same target:
 
@@ -311,30 +311,30 @@ Other scoring sky lines on Jupiter:
 
 ## Saturn
 
-| Line | Plane | Value | Score | Same-body ratio |
-|---|---|---|---|---|
-| S Saturn → H Saturn | RA | 34.3954 | — |  |
-| S Saturn → H Saturn | Dec | 6.6706 | 6.66667 ninth (70.7) |  |
-| H Aldebaran – H Saturn | RA | 138.4656 | — | S Saturn → H Saturn 34.3954: ratio 4.0257 (24.84 %) — no target |
-| H Antares – H Saturn | RA | 43.1590 | — | S Saturn → H Saturn 34.3954: ratio 1.2548 (79.69 %) — no target |
-| H Fomalhaut – H Saturn | RA | 53.8960 | — | S Saturn → H Saturn 34.3954: ratio 1.5670 (63.82 %) — no target |
-| H Regulus – H Saturn | RA | 138.4167 | — | S Saturn → H Saturn 34.3954: ratio 4.0243 (24.85 %) — no target |
-| H Aldebaran – H Saturn | Dec | 38.1845 | — | S Saturn → H Saturn 6.6706: ratio 5.7243 (17.47 %) — no target |
-| H Antares – H Saturn | Dec | 4.7550 | — | S Saturn → H Saturn 6.6706: ratio 1.4028 (140.28 %) — no target |
-| H Fomalhaut – H Saturn | Dec | 7.9474 | — | S Saturn → H Saturn 6.6706: ratio 1.1914 (83.93 %) — no target |
-| H Regulus – H Saturn | Dec | 33.6425 | — | S Saturn → H Saturn 6.6706: ratio 5.0434 (19.83 %) — no target |
-| S Saturn → J Saturn | RA | 129.0387 | — |  |
-| S Saturn → J Saturn | Dec | 10.9346 | — |  |
-| J Aldebaran – J Saturn | RA | 126.8943 | — | S Saturn → J Saturn 129.0387: ratio 1.0169 (101.69 %) → 1 unison (15.5) |
-| J Antares – J Saturn | RA | 51.4869 | — | S Saturn → J Saturn 129.0387: ratio 2.5062 (250.62 %) — no target |
-| J Fomalhaut – J Saturn | RA | 148.5446 | — | S Saturn → J Saturn 129.0387: ratio 1.1512 (86.87 %) — no target |
-| J Regulus – J Saturn | RA | 43.7795 | — | S Saturn → J Saturn 129.0387: ratio 2.9475 (294.75 %) — no target |
-| J Aldebaran – J Saturn | Dec | 20.5817 | — | S Saturn → J Saturn 10.9346: ratio 1.8823 (53.13 %) — no target |
-| J Antares – J Saturn | Dec | 22.3610 | — | S Saturn → J Saturn 10.9346: ratio 2.0450 (48.90 %) — no target |
-| J Fomalhaut – J Saturn | Dec | 25.5467 | — | S Saturn → J Saturn 10.9346: ratio 2.3363 (42.80 %) → 7/3 septimal minor tenth (14.8) |
-| J Regulus – J Saturn | Dec | 16.0405 | — | S Saturn → J Saturn 10.9346: ratio 1.4669 (68.17 %) — no target |
-| H Saturn – J Saturn | RA | 94.6433 | — |  |
-| H Saturn – J Saturn | Dec | 17.6052 | — |  |
+| Line | Plane | Value | Score | Same-body ratio | Crossed same-body ratio |
+|---|---|---|---|---|---|
+| S Saturn → H Saturn | RA | 34.3954 | — |  |  |
+| S Saturn → H Saturn | Dec | 6.6706 | 6.66667 ninth (70.7) |  |  |
+| H Aldebaran – H Saturn | RA | 138.4656 | — | S Saturn → H Saturn 34.3954: ratio 4.0257 (24.84 %) — no target | S Saturn → H Saturn Dec 6.6706: ratio 20.7577 (4.82 %) — no target |
+| H Antares – H Saturn | RA | 43.1590 | — | S Saturn → H Saturn 34.3954: ratio 1.2548 (79.69 %) — no target | S Saturn → H Saturn Dec 6.6706: ratio 6.4701 (15.46 %) — no target |
+| H Fomalhaut – H Saturn | RA | 53.8960 | — | S Saturn → H Saturn 34.3954: ratio 1.5670 (63.82 %) — no target | S Saturn → H Saturn Dec 6.6706: ratio 8.0797 (12.38 %) — no target |
+| H Regulus – H Saturn | RA | 138.4167 | — | S Saturn → H Saturn 34.3954: ratio 4.0243 (24.85 %) — no target | S Saturn → H Saturn Dec 6.6706: ratio 20.7504 (4.82 %) — no target |
+| H Aldebaran – H Saturn | Dec | 38.1845 | — | S Saturn → H Saturn 6.6706: ratio 5.7243 (17.47 %) — no target | S Saturn → H Saturn RA 34.3954: ratio 1.1102 (90.08 %) — no target |
+| H Antares – H Saturn | Dec | 4.7550 | — | S Saturn → H Saturn 6.6706: ratio 1.4028 (140.28 %) — no target | S Saturn → H Saturn RA 34.3954: ratio 7.2335 (723.35 %) — no target |
+| H Fomalhaut – H Saturn | Dec | 7.9474 | — | S Saturn → H Saturn 6.6706: ratio 1.1914 (83.93 %) — no target | S Saturn → H Saturn RA 34.3954: ratio 4.3279 (432.79 %) — no target |
+| H Regulus – H Saturn | Dec | 33.6425 | — | S Saturn → H Saturn 6.6706: ratio 5.0434 (19.83 %) — no target | S Saturn → H Saturn RA 34.3954: ratio 1.0224 (102.24 %) — no target |
+| S Saturn → J Saturn | RA | 129.0387 | — |  |  |
+| S Saturn → J Saturn | Dec | 10.9346 | — |  |  |
+| J Aldebaran – J Saturn | RA | 126.8943 | — | S Saturn → J Saturn 129.0387: ratio 1.0169 (101.69 %) → 1 unison (15.5) | S Saturn → J Saturn Dec 10.9346: ratio 11.6048 (8.62 %) — no target |
+| J Antares – J Saturn | RA | 51.4869 | — | S Saturn → J Saturn 129.0387: ratio 2.5062 (250.62 %) — no target | S Saturn → J Saturn Dec 10.9346: ratio 4.7086 (21.24 %) — no target |
+| J Fomalhaut – J Saturn | RA | 148.5446 | — | S Saturn → J Saturn 129.0387: ratio 1.1512 (86.87 %) — no target | S Saturn → J Saturn Dec 10.9346: ratio 13.5848 (7.36 %) — no target |
+| J Regulus – J Saturn | RA | 43.7795 | — | S Saturn → J Saturn 129.0387: ratio 2.9475 (294.75 %) — no target | S Saturn → J Saturn Dec 10.9346: ratio 4.0037 (24.98 %) → 4 double octave (81.3) |
+| J Aldebaran – J Saturn | Dec | 20.5817 | — | S Saturn → J Saturn 10.9346: ratio 1.8823 (53.13 %) — no target | S Saturn → J Saturn RA 129.0387: ratio 6.2696 (626.96 %) — no target |
+| J Antares – J Saturn | Dec | 22.3610 | — | S Saturn → J Saturn 10.9346: ratio 2.0450 (48.90 %) — no target | S Saturn → J Saturn RA 129.0387: ratio 5.7707 (577.07 %) — no target |
+| J Fomalhaut – J Saturn | Dec | 25.5467 | — | S Saturn → J Saturn 10.9346: ratio 2.3363 (42.80 %) → 7/3 septimal minor tenth (14.8) | S Saturn → J Saturn RA 129.0387: ratio 5.0511 (505.11 %) — no target |
+| J Regulus – J Saturn | Dec | 16.0405 | — | S Saturn → J Saturn 10.9346: ratio 1.4669 (68.17 %) — no target | S Saturn → J Saturn RA 129.0387: ratio 8.0446 (804.46 %) — no target |
+| H Saturn – J Saturn | RA | 94.6433 | — |  |  |
+| H Saturn – J Saturn | Dec | 17.6052 | — |  |  |
 
 Sky lines on the same target:
 
@@ -370,30 +370,30 @@ Other scoring sky lines on Saturn:
 
 ## Uranus
 
-| Line | Plane | Value | Score | Same-body ratio |
-|---|---|---|---|---|
-| S Uranus → H Uranus | RA | 12.0063 | 12 (68.5) |  |
-| S Uranus → H Uranus | Dec | 4.1811 | — |  |
-| H Aldebaran – H Uranus | RA | 40.4466 | 25×φ golden (86.8) | S Uranus → H Uranus 12.0063: ratio 3.3688 (29.68 %) — no target |
-| H Antares – H Uranus | RA | 141.1780 | — | S Uranus → H Uranus 12.0063: ratio 11.7587 (8.50 %) — no target |
-| H Fomalhaut – H Uranus | RA | 44.1231 | — | S Uranus → H Uranus 12.0063: ratio 3.6750 (27.21 %) — no target |
-| H Regulus – H Uranus | RA | 123.5643 | — | S Uranus → H Uranus 12.0063: ratio 10.2916 (9.72 %) — no target |
-| H Aldebaran – H Uranus | Dec | 5.3372 | — | S Uranus → H Uranus 4.1811: ratio 1.2765 (78.34 %) — no target |
-| H Antares – H Uranus | Dec | 37.6023 | — | S Uranus → H Uranus 4.1811: ratio 8.9933 (11.12 %) → 9 9th harmonic (66.6) |
-| H Fomalhaut – H Uranus | Dec | 40.7947 | — | S Uranus → H Uranus 4.1811: ratio 9.7568 (10.25 %) — no target |
-| H Regulus – H Uranus | Dec | 0.7952 | — | S Uranus → H Uranus 4.1811: ratio 5.2580 (525.80 %) — no target |
-| S Uranus → J Uranus | RA | 161.4692 | — |  |
-| S Uranus → J Uranus | Dec | 35.6004 | 22×φ golden (88.8) |  |
-| J Aldebaran – J Uranus | RA | 170.0938 | — | S Uranus → J Uranus 161.4692: ratio 1.0534 (94.93 %) — no target |
-| J Antares – J Uranus | RA | 8.2875 | — | S Uranus → J Uranus 161.4692: ratio 19.4834 (1948.34 %) — no target |
-| J Fomalhaut – J Uranus | RA | 105.3452 | — | S Uranus → J Uranus 161.4692: ratio 1.5328 (153.28 %) — no target |
-| J Regulus – J Uranus | RA | 86.9790 | — | S Uranus → J Uranus 161.4692: ratio 1.8564 (185.64 %) — no target |
-| J Aldebaran – J Uranus | Dec | 36.7588 | — | S Uranus → J Uranus 35.6004: ratio 1.0325 (96.85 %) — no target |
-| J Antares – J Uranus | Dec | 6.1839 | 10φ^-1 phi power (61.5) | S Uranus → J Uranus 35.6004: ratio 5.7569 (575.69 %) — no target |
-| J Fomalhaut – J Uranus | Dec | 9.3696 | — | S Uranus → J Uranus 35.6004: ratio 3.7995 (379.95 %) — no target |
-| J Regulus – J Uranus | Dec | 32.2176 | — | S Uranus → J Uranus 35.6004: ratio 1.1050 (110.50 %) — no target |
-| H Uranus – J Uranus | RA | 149.4629 | — |  |
-| H Uranus – J Uranus | Dec | 31.4192 | — |  |
+| Line | Plane | Value | Score | Same-body ratio | Crossed same-body ratio |
+|---|---|---|---|---|---|
+| S Uranus → H Uranus | RA | 12.0063 | 12 (68.5) |  |  |
+| S Uranus → H Uranus | Dec | 4.1811 | — |  |  |
+| H Aldebaran – H Uranus | RA | 40.4466 | 25×φ golden (86.8) | S Uranus → H Uranus 12.0063: ratio 3.3688 (29.68 %) — no target | S Uranus → H Uranus Dec 4.1811: ratio 9.6736 (10.34 %) — no target |
+| H Antares – H Uranus | RA | 141.1780 | — | S Uranus → H Uranus 12.0063: ratio 11.7587 (8.50 %) — no target | S Uranus → H Uranus Dec 4.1811: ratio 33.7654 (2.96 %) — no target |
+| H Fomalhaut – H Uranus | RA | 44.1231 | — | S Uranus → H Uranus 12.0063: ratio 3.6750 (27.21 %) — no target | S Uranus → H Uranus Dec 4.1811: ratio 10.5529 (9.48 %) — no target |
+| H Regulus – H Uranus | RA | 123.5643 | — | S Uranus → H Uranus 12.0063: ratio 10.2916 (9.72 %) — no target | S Uranus → H Uranus Dec 4.1811: ratio 29.5527 (3.38 %) — no target |
+| H Aldebaran – H Uranus | Dec | 5.3372 | — | S Uranus → H Uranus 4.1811: ratio 1.2765 (78.34 %) — no target | S Uranus → H Uranus RA 12.0063: ratio 2.2496 (224.96 %) → 9/4 major ninth (87.1) |
+| H Antares – H Uranus | Dec | 37.6023 | — | S Uranus → H Uranus 4.1811: ratio 8.9933 (11.12 %) → 9 9th harmonic (66.6) | S Uranus → H Uranus RA 12.0063: ratio 3.1319 (31.93 %) — no target |
+| H Fomalhaut – H Uranus | Dec | 40.7947 | — | S Uranus → H Uranus 4.1811: ratio 9.7568 (10.25 %) — no target | S Uranus → H Uranus RA 12.0063: ratio 3.3978 (29.43 %) — no target |
+| H Regulus – H Uranus | Dec | 0.7952 | — | S Uranus → H Uranus 4.1811: ratio 5.2580 (525.80 %) — no target | S Uranus → H Uranus RA 12.0063: ratio 15.0987 (1509.87 %) — no target |
+| S Uranus → J Uranus | RA | 161.4692 | — |  |  |
+| S Uranus → J Uranus | Dec | 35.6004 | 22×φ golden (88.8) |  |  |
+| J Aldebaran – J Uranus | RA | 170.0938 | — | S Uranus → J Uranus 161.4692: ratio 1.0534 (94.93 %) — no target | S Uranus → J Uranus Dec 35.6004: ratio 4.7779 (20.93 %) — no target |
+| J Antares – J Uranus | RA | 8.2875 | — | S Uranus → J Uranus 161.4692: ratio 19.4834 (1948.34 %) — no target | S Uranus → J Uranus Dec 35.6004: ratio 4.2957 (429.57 %) — no target |
+| J Fomalhaut – J Uranus | RA | 105.3452 | — | S Uranus → J Uranus 161.4692: ratio 1.5328 (153.28 %) — no target | S Uranus → J Uranus Dec 35.6004: ratio 2.9591 (33.79 %) — no target |
+| J Regulus – J Uranus | RA | 86.9790 | — | S Uranus → J Uranus 161.4692: ratio 1.8564 (185.64 %) — no target | S Uranus → J Uranus Dec 35.6004: ratio 2.4432 (40.93 %) — no target |
+| J Aldebaran – J Uranus | Dec | 36.7588 | — | S Uranus → J Uranus 35.6004: ratio 1.0325 (96.85 %) — no target | S Uranus → J Uranus RA 161.4692: ratio 4.3927 (439.27 %) — no target |
+| J Antares – J Uranus | Dec | 6.1839 | 10φ^-1 phi power (61.5) | S Uranus → J Uranus 35.6004: ratio 5.7569 (575.69 %) — no target | S Uranus → J Uranus RA 161.4692: ratio 26.1112 (2611.12 %) — no target |
+| J Fomalhaut – J Uranus | Dec | 9.3696 | — | S Uranus → J Uranus 35.6004: ratio 3.7995 (379.95 %) — no target | S Uranus → J Uranus RA 161.4692: ratio 17.2332 (1723.32 %) — no target |
+| J Regulus – J Uranus | Dec | 32.2176 | — | S Uranus → J Uranus 35.6004: ratio 1.1050 (110.50 %) — no target | S Uranus → J Uranus RA 161.4692: ratio 5.0118 (501.18 %) → 5 5th harmonic (40.8) |
+| H Uranus – J Uranus | RA | 149.4629 | — |  |  |
+| H Uranus – J Uranus | Dec | 31.4192 | — |  |  |
 
 Sky lines on the same target:
 
@@ -426,30 +426,30 @@ Other scoring sky lines on Uranus:
 
 ## Neptune
 
-| Line | Plane | Value | Score | Same-body ratio |
-|---|---|---|---|---|
-| S Neptune → H Neptune | RA | 6.5411 | — |  |
-| S Neptune → H Neptune | Dec | 2.6091 | — |  |
-| H Aldebaran – H Neptune | RA | 81.0769 | — | S Neptune → H Neptune 6.5411: ratio 12.3950 (8.07 %) — no target |
-| H Antares – H Neptune | RA | 100.5477 | — | S Neptune → H Neptune 6.5411: ratio 15.3717 (6.51 %) — no target |
-| H Fomalhaut – H Neptune | RA | 3.4928 | — | S Neptune → H Neptune 6.5411: ratio 1.8727 (187.27 %) → 15/8 major seventh (19.8) |
-| H Regulus – H Neptune | RA | 164.1946 | — | S Neptune → H Neptune 6.5411: ratio 25.1019 (3.98 %) — no target |
-| H Aldebaran – H Neptune | Dec | 22.7466 | — | S Neptune → H Neptune 2.6091: ratio 8.7181 (11.47 %) — no target |
-| H Antares – H Neptune | Dec | 20.1929 | — | S Neptune → H Neptune 2.6091: ratio 7.7393 (12.92 %) — no target |
-| H Fomalhaut – H Neptune | Dec | 23.3853 | — | S Neptune → H Neptune 2.6091: ratio 8.9629 (11.16 %) — no target |
-| H Regulus – H Neptune | Dec | 18.2046 | — | S Neptune → H Neptune 2.6091: ratio 6.9773 (14.33 %) — no target |
-| S Neptune → J Neptune | RA | 89.5298 | — |  |
-| S Neptune → J Neptune | Dec | 18.4183 | — |  |
-| J Aldebaran – J Neptune | RA | 164.0624 | — | S Neptune → J Neptune 89.5298: ratio 1.8325 (54.57 %) → 11/6 undecimal 11:6 (69.3) |
-| J Antares – J Neptune | RA | 17.5564 | — | S Neptune → J Neptune 89.5298: ratio 5.0996 (509.96 %) — no target |
-| J Fomalhaut – J Neptune | RA | 79.5013 | — | S Neptune → J Neptune 89.5298: ratio 1.1261 (112.61 %) → 9/8 major second (32.3) |
-| J Regulus – J Neptune | RA | 112.8229 | — | S Neptune → J Neptune 89.5298: ratio 1.2602 (79.35 %) — no target |
-| J Aldebaran – J Neptune | Dec | 38.5582 | — | S Neptune → J Neptune 18.4183: ratio 2.0935 (47.77 %) — no target |
-| J Antares – J Neptune | Dec | 4.3846 | — | S Neptune → J Neptune 18.4183: ratio 4.2007 (420.07 %) — no target |
-| J Fomalhaut – J Neptune | Dec | 7.5703 | — | S Neptune → J Neptune 18.4183: ratio 2.4330 (243.30 %) — no target |
-| J Regulus – J Neptune | Dec | 34.0169 | 34 (15.4) | S Neptune → J Neptune 18.4183: ratio 1.8469 (54.14 %) — no target |
-| H Neptune – J Neptune | RA | 82.9887 | 83 (43.6) |  |
-| H Neptune – J Neptune | Dec | 15.8091 | — |  |
+| Line | Plane | Value | Score | Same-body ratio | Crossed same-body ratio |
+|---|---|---|---|---|---|
+| S Neptune → H Neptune | RA | 6.5411 | — |  |  |
+| S Neptune → H Neptune | Dec | 2.6091 | — |  |  |
+| H Aldebaran – H Neptune | RA | 81.0769 | — | S Neptune → H Neptune 6.5411: ratio 12.3950 (8.07 %) — no target | S Neptune → H Neptune Dec 2.6091: ratio 31.0743 (3.22 %) — no target |
+| H Antares – H Neptune | RA | 100.5477 | — | S Neptune → H Neptune 6.5411: ratio 15.3717 (6.51 %) — no target | S Neptune → H Neptune Dec 2.6091: ratio 38.5369 (2.59 %) — no target |
+| H Fomalhaut – H Neptune | RA | 3.4928 | — | S Neptune → H Neptune 6.5411: ratio 1.8727 (187.27 %) → 15/8 major seventh (19.8) | S Neptune → H Neptune Dec 2.6091: ratio 1.3387 (74.70 %) — no target |
+| H Regulus – H Neptune | RA | 164.1946 | — | S Neptune → H Neptune 6.5411: ratio 25.1019 (3.98 %) — no target | S Neptune → H Neptune Dec 2.6091: ratio 62.9307 (1.59 %) — no target |
+| H Aldebaran – H Neptune | Dec | 22.7466 | — | S Neptune → H Neptune 2.6091: ratio 8.7181 (11.47 %) — no target | S Neptune → H Neptune RA 6.5411: ratio 3.4775 (28.76 %) — no target |
+| H Antares – H Neptune | Dec | 20.1929 | — | S Neptune → H Neptune 2.6091: ratio 7.7393 (12.92 %) — no target | S Neptune → H Neptune RA 6.5411: ratio 3.0871 (32.39 %) — no target |
+| H Fomalhaut – H Neptune | Dec | 23.3853 | — | S Neptune → H Neptune 2.6091: ratio 8.9629 (11.16 %) — no target | S Neptune → H Neptune RA 6.5411: ratio 3.5751 (27.97 %) — no target |
+| H Regulus – H Neptune | Dec | 18.2046 | — | S Neptune → H Neptune 2.6091: ratio 6.9773 (14.33 %) — no target | S Neptune → H Neptune RA 6.5411: ratio 2.7831 (35.93 %) — no target |
+| S Neptune → J Neptune | RA | 89.5298 | — |  |  |
+| S Neptune → J Neptune | Dec | 18.4183 | — |  |  |
+| J Aldebaran – J Neptune | RA | 164.0624 | — | S Neptune → J Neptune 89.5298: ratio 1.8325 (54.57 %) → 11/6 undecimal 11:6 (69.3) | S Neptune → J Neptune Dec 18.4183: ratio 8.9076 (11.23 %) — no target |
+| J Antares – J Neptune | RA | 17.5564 | — | S Neptune → J Neptune 89.5298: ratio 5.0996 (509.96 %) — no target | S Neptune → J Neptune Dec 18.4183: ratio 1.0491 (104.91 %) — no target |
+| J Fomalhaut – J Neptune | RA | 79.5013 | — | S Neptune → J Neptune 89.5298: ratio 1.1261 (112.61 %) → 9/8 major second (32.3) | S Neptune → J Neptune Dec 18.4183: ratio 4.3164 (23.17 %) — no target |
+| J Regulus – J Neptune | RA | 112.8229 | — | S Neptune → J Neptune 89.5298: ratio 1.2602 (79.35 %) — no target | S Neptune → J Neptune Dec 18.4183: ratio 6.1256 (16.32 %) — no target |
+| J Aldebaran – J Neptune | Dec | 38.5582 | — | S Neptune → J Neptune 18.4183: ratio 2.0935 (47.77 %) — no target | S Neptune → J Neptune RA 89.5298: ratio 2.3219 (232.19 %) — no target |
+| J Antares – J Neptune | Dec | 4.3846 | — | S Neptune → J Neptune 18.4183: ratio 4.2007 (420.07 %) — no target | S Neptune → J Neptune RA 89.5298: ratio 20.4192 (2041.92 %) — no target |
+| J Fomalhaut – J Neptune | Dec | 7.5703 | — | S Neptune → J Neptune 18.4183: ratio 2.4330 (243.30 %) — no target | S Neptune → J Neptune RA 89.5298: ratio 11.8264 (1182.64 %) — no target |
+| J Regulus – J Neptune | Dec | 34.0169 | 34 (15.4) | S Neptune → J Neptune 18.4183: ratio 1.8469 (54.14 %) — no target | S Neptune → J Neptune RA 89.5298: ratio 2.6319 (263.19 %) — no target |
+| H Neptune – J Neptune | RA | 82.9887 | 83 (43.6) |  |  |
+| H Neptune – J Neptune | Dec | 15.8091 | — |  |  |
 
 Sky lines on the same target:
 
@@ -489,30 +489,30 @@ Other scoring sky lines on Neptune:
 
 ## Pluto
 
-| Line | Plane | Value | Score | Same-body ratio |
-|---|---|---|---|---|
-| S Pluto → H Pluto | RA | 6.2306 | — |  |
-| S Pluto → H Pluto | Dec | 0.6266 | — |  |
-| H Aldebaran – H Pluto | RA | 134.5336 | — | S Pluto → H Pluto 6.2306: ratio 21.5923 (4.63 %) — no target |
-| H Antares – H Pluto | RA | 47.0910 | — | S Pluto → H Pluto 6.2306: ratio 7.5580 (13.23 %) — no target |
-| H Fomalhaut – H Pluto | RA | 49.9640 | — | S Pluto → H Pluto 6.2306: ratio 8.0191 (12.47 %) → 8 8th harmonic (4.6) |
-| H Regulus – H Pluto | RA | 142.3487 | — | S Pluto → H Pluto 6.2306: ratio 22.8466 (4.38 %) — no target |
-| H Aldebaran – H Pluto | Dec | 38.2751 | — | S Pluto → H Pluto 0.6266: ratio 61.0829 (1.64 %) — no target |
-| H Antares – H Pluto | Dec | 4.6644 | — | S Pluto → H Pluto 0.6266: ratio 7.4438 (13.43 %) — no target |
-| H Fomalhaut – H Pluto | Dec | 7.8568 | — | S Pluto → H Pluto 0.6266: ratio 12.5386 (7.98 %) — no target |
-| H Regulus – H Pluto | Dec | 33.7331 | — | S Pluto → H Pluto 0.6266: ratio 53.8344 (1.86 %) — no target |
-| S Pluto → J Pluto | RA | 91.8561 | — |  |
-| S Pluto → J Pluto | Dec | 28.8817 | — |  |
-| J Aldebaran – J Pluto | RA | 139.8441 | — | S Pluto → J Pluto 91.8561: ratio 1.5224 (65.68 %) — no target |
-| J Antares – J Pluto | RA | 38.5372 | — | S Pluto → J Pluto 91.8561: ratio 2.3836 (238.36 %) — no target |
-| J Fomalhaut – J Pluto | RA | 135.5949 | — | S Pluto → J Pluto 91.8561: ratio 1.4762 (67.74 %) — no target |
-| J Regulus – J Pluto | RA | 56.7293 | — | S Pluto → J Pluto 91.8561: ratio 1.6192 (161.92 %) → φ golden ratio (51.9) |
-| J Aldebaran – J Pluto | Dec | 10.0225 | — | S Pluto → J Pluto 28.8817: ratio 2.8817 (288.17 %) — no target |
-| J Antares – J Pluto | Dec | 32.9203 | — | S Pluto → J Pluto 28.8817: ratio 1.1398 (87.73 %) — no target |
-| J Fomalhaut – J Pluto | Dec | 36.1060 | — | S Pluto → J Pluto 28.8817: ratio 1.2501 (79.99 %) → 5/4 major third (94.6) |
-| J Regulus – J Pluto | Dec | 5.4813 | — | S Pluto → J Pluto 28.8817: ratio 5.2692 (526.92 %) — no target |
-| H Pluto – J Pluto | RA | 85.6255 | — |  |
-| H Pluto – J Pluto | Dec | 28.2551 | — |  |
+| Line | Plane | Value | Score | Same-body ratio | Crossed same-body ratio |
+|---|---|---|---|---|---|
+| S Pluto → H Pluto | RA | 6.2306 | — |  |  |
+| S Pluto → H Pluto | Dec | 0.6266 | — |  |  |
+| H Aldebaran – H Pluto | RA | 134.5336 | — | S Pluto → H Pluto 6.2306: ratio 21.5923 (4.63 %) — no target | S Pluto → H Pluto Dec 0.6266: ratio 214.7007 (0.47 %) — no target |
+| H Antares – H Pluto | RA | 47.0910 | — | S Pluto → H Pluto 6.2306: ratio 7.5580 (13.23 %) — no target | S Pluto → H Pluto Dec 0.6266: ratio 75.1520 (1.33 %) — no target |
+| H Fomalhaut – H Pluto | RA | 49.9640 | — | S Pluto → H Pluto 6.2306: ratio 8.0191 (12.47 %) → 8 8th harmonic (4.6) | S Pluto → H Pluto Dec 0.6266: ratio 79.7369 (1.25 %) — no target |
+| H Regulus – H Pluto | RA | 142.3487 | — | S Pluto → H Pluto 6.2306: ratio 22.8466 (4.38 %) — no target | S Pluto → H Pluto Dec 0.6266: ratio 227.1727 (0.44 %) — no target |
+| H Aldebaran – H Pluto | Dec | 38.2751 | — | S Pluto → H Pluto 0.6266: ratio 61.0829 (1.64 %) — no target | S Pluto → H Pluto RA 6.2306: ratio 6.1431 (16.28 %) — no target |
+| H Antares – H Pluto | Dec | 4.6644 | — | S Pluto → H Pluto 0.6266: ratio 7.4438 (13.43 %) — no target | S Pluto → H Pluto RA 6.2306: ratio 1.3358 (133.58 %) → 4/3 fourth (26.3) |
+| H Fomalhaut – H Pluto | Dec | 7.8568 | — | S Pluto → H Pluto 0.6266: ratio 12.5386 (7.98 %) — no target | S Pluto → H Pluto RA 6.2306: ratio 1.2610 (79.30 %) — no target |
+| H Regulus – H Pluto | Dec | 33.7331 | — | S Pluto → H Pluto 0.6266: ratio 53.8344 (1.86 %) — no target | S Pluto → H Pluto RA 6.2306: ratio 5.4141 (18.47 %) — no target |
+| S Pluto → J Pluto | RA | 91.8561 | — |  |  |
+| S Pluto → J Pluto | Dec | 28.8817 | — |  |  |
+| J Aldebaran – J Pluto | RA | 139.8441 | — | S Pluto → J Pluto 91.8561: ratio 1.5224 (65.68 %) — no target | S Pluto → J Pluto Dec 28.8817: ratio 4.8420 (20.65 %) — no target |
+| J Antares – J Pluto | RA | 38.5372 | — | S Pluto → J Pluto 91.8561: ratio 2.3836 (238.36 %) — no target | S Pluto → J Pluto Dec 28.8817: ratio 1.3343 (74.94 %) → 4/3 fourth (70.6) |
+| J Fomalhaut – J Pluto | RA | 135.5949 | — | S Pluto → J Pluto 91.8561: ratio 1.4762 (67.74 %) — no target | S Pluto → J Pluto Dec 28.8817: ratio 4.6948 (21.30 %) — no target |
+| J Regulus – J Pluto | RA | 56.7293 | — | S Pluto → J Pluto 91.8561: ratio 1.6192 (161.92 %) → φ golden ratio (51.9) | S Pluto → J Pluto Dec 28.8817: ratio 1.9642 (50.91 %) — no target |
+| J Aldebaran – J Pluto | Dec | 10.0225 | — | S Pluto → J Pluto 28.8817: ratio 2.8817 (288.17 %) — no target | S Pluto → J Pluto RA 91.8561: ratio 9.1650 (916.50 %) — no target |
+| J Antares – J Pluto | Dec | 32.9203 | — | S Pluto → J Pluto 28.8817: ratio 1.1398 (87.73 %) — no target | S Pluto → J Pluto RA 91.8561: ratio 2.7903 (279.03 %) — no target |
+| J Fomalhaut – J Pluto | Dec | 36.1060 | — | S Pluto → J Pluto 28.8817: ratio 1.2501 (79.99 %) → 5/4 major third (94.6) | S Pluto → J Pluto RA 91.8561: ratio 2.5441 (254.41 %) — no target |
+| J Regulus – J Pluto | Dec | 5.4813 | — | S Pluto → J Pluto 28.8817: ratio 5.2692 (526.92 %) — no target | S Pluto → J Pluto RA 91.8561: ratio 16.7582 (1675.82 %) — no target |
+| H Pluto – J Pluto | RA | 85.6255 | — |  |  |
+| H Pluto – J Pluto | Dec | 28.2551 | — |  |  |
 
 Sky lines on the same target:
 
@@ -552,30 +552,30 @@ Other scoring sky lines on Pluto:
 
 ## Rahu
 
-| Line | Plane | Value | Score | Same-body ratio |
-|---|---|---|---|---|
-| S Rahu → H Rahu | RA | 65.8117 | — |  |
-| S Rahu → H Rahu | Dec | 2.8453 | — |  |
-| H Aldebaran – H Rahu | RA | 47.0819 | — | S Rahu → H Rahu 65.8117: ratio 1.3978 (139.78 %) — no target |
-| H Antares – H Rahu | RA | 131.2935 | — | S Rahu → H Rahu 65.8117: ratio 1.9950 (50.13 %) → 2 octave (74.9) |
-| H Fomalhaut – H Rahu | RA | 131.6515 | — | S Rahu → H Rahu 65.8117: ratio 2.0004 (49.99 %) → 2 octave (97.9) |
-| H Regulus – H Rahu | RA | 36.0358 | — | S Rahu → H Rahu 65.8117: ratio 1.8263 (182.63 %) — no target |
-| H Aldebaran – H Rahu | Dec | 4.7699 | — | S Rahu → H Rahu 2.8453: ratio 1.6764 (59.65 %) — no target |
-| H Antares – H Rahu | Dec | 47.7094 | — | S Rahu → H Rahu 2.8453: ratio 16.7679 (5.96 %) — no target |
-| H Fomalhaut – H Rahu | Dec | 50.9018 | — | S Rahu → H Rahu 2.8453: ratio 17.8899 (5.59 %) — no target |
-| H Regulus – H Rahu | Dec | 9.3119 | — | S Rahu → H Rahu 2.8453: ratio 3.2727 (30.56 %) — no target |
-| S Rahu → J Rahu | RA | 54.4879 | — |  |
-| S Rahu → J Rahu | Dec | 4.3179 | — |  |
-| J Aldebaran – J Rahu | RA | 35.7613 | — | S Rahu → J Rahu 54.4879: ratio 1.5237 (152.37 %) — no target |
-| J Antares – J Rahu | RA | 142.6200 | — | S Rahu → J Rahu 54.4879: ratio 2.6175 (38.20 %) → φ² φ squared (85.4) |
-| J Fomalhaut – J Rahu | RA | 120.3223 | — | S Rahu → J Rahu 54.4879: ratio 2.2082 (45.28 %) — no target |
-| J Regulus – J Rahu | RA | 47.3535 | — | S Rahu → J Rahu 54.4879: ratio 1.1507 (115.07 %) — no target |
-| J Aldebaran – J Rahu | Dec | 6.2401 | — | S Rahu → J Rahu 4.3179: ratio 1.4452 (69.20 %) — no target |
-| J Antares – J Rahu | Dec | 49.1829 | — | S Rahu → J Rahu 4.3179: ratio 11.3904 (8.78 %) — no target |
-| J Fomalhaut – J Rahu | Dec | 52.3686 | — | S Rahu → J Rahu 4.3179: ratio 12.1281 (8.25 %) — no target |
-| J Regulus – J Rahu | Dec | 10.7813 | — | S Rahu → J Rahu 4.3179: ratio 2.4969 (40.05 %) → 5/2 major tenth (37.5) |
-| H Rahu – J Rahu | RA | 11.3238 | 7×φ golden (92.6) |  |
-| H Rahu – J Rahu | Dec | 1.4727 | — |  |
+| Line | Plane | Value | Score | Same-body ratio | Crossed same-body ratio |
+|---|---|---|---|---|---|
+| S Rahu → H Rahu | RA | 65.8117 | — |  |  |
+| S Rahu → H Rahu | Dec | 2.8453 | — |  |  |
+| H Aldebaran – H Rahu | RA | 47.0819 | — | S Rahu → H Rahu 65.8117: ratio 1.3978 (139.78 %) — no target | S Rahu → H Rahu Dec 2.8453: ratio 16.5474 (6.04 %) — no target |
+| H Antares – H Rahu | RA | 131.2935 | — | S Rahu → H Rahu 65.8117: ratio 1.9950 (50.13 %) → 2 octave (74.9) | S Rahu → H Rahu Dec 2.8453: ratio 46.1443 (2.17 %) — no target |
+| H Fomalhaut – H Rahu | RA | 131.6515 | — | S Rahu → H Rahu 65.8117: ratio 2.0004 (49.99 %) → 2 octave (97.9) | S Rahu → H Rahu Dec 2.8453: ratio 46.2702 (2.16 %) — no target |
+| H Regulus – H Rahu | RA | 36.0358 | — | S Rahu → H Rahu 65.8117: ratio 1.8263 (182.63 %) — no target | S Rahu → H Rahu Dec 2.8453: ratio 12.6651 (7.90 %) — no target |
+| H Aldebaran – H Rahu | Dec | 4.7699 | — | S Rahu → H Rahu 2.8453: ratio 1.6764 (59.65 %) — no target | S Rahu → H Rahu RA 65.8117: ratio 13.7973 (1379.73 %) — no target |
+| H Antares – H Rahu | Dec | 47.7094 | — | S Rahu → H Rahu 2.8453: ratio 16.7679 (5.96 %) — no target | S Rahu → H Rahu RA 65.8117: ratio 1.3794 (137.94 %) — no target |
+| H Fomalhaut – H Rahu | Dec | 50.9018 | — | S Rahu → H Rahu 2.8453: ratio 17.8899 (5.59 %) — no target | S Rahu → H Rahu RA 65.8117: ratio 1.2929 (129.29 %) — no target |
+| H Regulus – H Rahu | Dec | 9.3119 | — | S Rahu → H Rahu 2.8453: ratio 3.2727 (30.56 %) — no target | S Rahu → H Rahu RA 65.8117: ratio 7.0675 (706.75 %) — no target |
+| S Rahu → J Rahu | RA | 54.4879 | — |  |  |
+| S Rahu → J Rahu | Dec | 4.3179 | — |  |  |
+| J Aldebaran – J Rahu | RA | 35.7613 | — | S Rahu → J Rahu 54.4879: ratio 1.5237 (152.37 %) — no target | S Rahu → J Rahu Dec 4.3179: ratio 8.2820 (12.07 %) — no target |
+| J Antares – J Rahu | RA | 142.6200 | — | S Rahu → J Rahu 54.4879: ratio 2.6175 (38.20 %) → φ² φ squared (85.4) | S Rahu → J Rahu Dec 4.3179: ratio 33.0297 (3.03 %) — no target |
+| J Fomalhaut – J Rahu | RA | 120.3223 | — | S Rahu → J Rahu 54.4879: ratio 2.2082 (45.28 %) — no target | S Rahu → J Rahu Dec 4.3179: ratio 27.8657 (3.59 %) — no target |
+| J Regulus – J Rahu | RA | 47.3535 | — | S Rahu → J Rahu 54.4879: ratio 1.1507 (115.07 %) — no target | S Rahu → J Rahu Dec 4.3179: ratio 10.9667 (9.12 %) → 11 1/11 cut (39.5) |
+| J Aldebaran – J Rahu | Dec | 6.2401 | — | S Rahu → J Rahu 4.3179: ratio 1.4452 (69.20 %) — no target | S Rahu → J Rahu RA 54.4879: ratio 8.7319 (873.19 %) — no target |
+| J Antares – J Rahu | Dec | 49.1829 | — | S Rahu → J Rahu 4.3179: ratio 11.3904 (8.78 %) — no target | S Rahu → J Rahu RA 54.4879: ratio 1.1079 (110.79 %) — no target |
+| J Fomalhaut – J Rahu | Dec | 52.3686 | — | S Rahu → J Rahu 4.3179: ratio 12.1281 (8.25 %) — no target | S Rahu → J Rahu RA 54.4879: ratio 1.0405 (104.05 %) — no target |
+| J Regulus – J Rahu | Dec | 10.7813 | — | S Rahu → J Rahu 4.3179: ratio 2.4969 (40.05 %) → 5/2 major tenth (37.5) | S Rahu → J Rahu RA 54.4879: ratio 5.0539 (505.39 %) — no target |
+| H Rahu – J Rahu | RA | 11.3238 | 7×φ golden (92.6) |  |  |
+| H Rahu – J Rahu | Dec | 1.4727 | — |  |  |
 
 Sky lines on the same target:
 
@@ -605,30 +605,30 @@ Other scoring sky lines on Rahu:
 
 ## Ketu
 
-| Line | Plane | Value | Score | Same-body ratio |
-|---|---|---|---|---|
-| S Ketu → H Ketu | RA | 65.8117 | — |  |
-| S Ketu → H Ketu | Dec | 2.8453 | — |  |
-| H Aldebaran – H Ketu | RA | 132.9181 | — | S Ketu → H Ketu 65.8117: ratio 2.0197 (49.51 %) → 2 octave (1.6) |
-| H Antares – H Ketu | RA | 48.7065 | — | S Ketu → H Ketu 65.8117: ratio 1.3512 (135.12 %) — no target |
-| H Fomalhaut – H Ketu | RA | 48.3485 | — | S Ketu → H Ketu 65.8117: ratio 1.3612 (136.12 %) — no target |
-| H Regulus – H Ketu | RA | 143.9642 | — | S Ketu → H Ketu 65.8117: ratio 2.1875 (45.71 %) — no target |
-| H Aldebaran – H Ketu | Dec | 37.7849 | — | S Ketu → H Ketu 2.8453: ratio 13.2798 (7.53 %) — no target |
-| H Antares – H Ketu | Dec | 5.1546 | — | S Ketu → H Ketu 2.8453: ratio 1.8116 (55.20 %) — no target |
-| H Fomalhaut – H Ketu | Dec | 8.3470 | — | S Ketu → H Ketu 2.8453: ratio 2.9336 (34.09 %) — no target |
-| H Regulus – H Ketu | Dec | 33.2429 | — | S Ketu → H Ketu 2.8453: ratio 11.6835 (8.56 %) — no target |
-| S Ketu → J Ketu | RA | 54.4879 | — |  |
-| S Ketu → J Ketu | Dec | 4.3179 | — |  |
-| J Aldebaran – J Ketu | RA | 144.2387 | 144.444 ninth (28.8) | S Ketu → J Ketu 54.4879: ratio 2.6472 (37.78 %) — no target |
-| J Antares – J Ketu | RA | 37.3800 | — | S Ketu → J Ketu 54.4879: ratio 1.4577 (145.77 %) — no target |
-| J Fomalhaut – J Ketu | RA | 59.6777 | — | S Ketu → J Ketu 54.4879: ratio 1.0952 (91.30 %) — no target |
-| J Regulus – J Ketu | RA | 132.6465 | 82×φ golden (0.3) | S Ketu → J Ketu 54.4879: ratio 2.4344 (41.08 %) — no target |
-| J Aldebaran – J Ketu | Dec | 39.2600 | — | S Ketu → J Ketu 4.3179: ratio 9.0923 (11.00 %) — no target |
-| J Antares – J Ketu | Dec | 3.6828 | — | S Ketu → J Ketu 4.3179: ratio 1.1725 (117.25 %) — no target |
-| J Fomalhaut – J Ketu | Dec | 6.8685 | — | S Ketu → J Ketu 4.3179: ratio 1.5907 (62.87 %) — no target |
-| J Regulus – J Ketu | Dec | 34.7187 | — | S Ketu → J Ketu 4.3179: ratio 8.0406 (12.44 %) — no target |
-| H Ketu – J Ketu | RA | 11.3238 | 7×φ golden (92.6) |  |
-| H Ketu – J Ketu | Dec | 1.4727 | — |  |
+| Line | Plane | Value | Score | Same-body ratio | Crossed same-body ratio |
+|---|---|---|---|---|---|
+| S Ketu → H Ketu | RA | 65.8117 | — |  |  |
+| S Ketu → H Ketu | Dec | 2.8453 | — |  |  |
+| H Aldebaran – H Ketu | RA | 132.9181 | — | S Ketu → H Ketu 65.8117: ratio 2.0197 (49.51 %) → 2 octave (1.6) | S Ketu → H Ketu Dec 2.8453: ratio 46.7153 (2.14 %) — no target |
+| H Antares – H Ketu | RA | 48.7065 | — | S Ketu → H Ketu 65.8117: ratio 1.3512 (135.12 %) — no target | S Ketu → H Ketu Dec 2.8453: ratio 17.1183 (5.84 %) — no target |
+| H Fomalhaut – H Ketu | RA | 48.3485 | — | S Ketu → H Ketu 65.8117: ratio 1.3612 (136.12 %) — no target | S Ketu → H Ketu Dec 2.8453: ratio 16.9925 (5.88 %) → 17 1/17 cut (91.2) |
+| H Regulus – H Ketu | RA | 143.9642 | — | S Ketu → H Ketu 65.8117: ratio 2.1875 (45.71 %) — no target | S Ketu → H Ketu Dec 2.8453: ratio 50.5975 (1.98 %) — no target |
+| H Aldebaran – H Ketu | Dec | 37.7849 | — | S Ketu → H Ketu 2.8453: ratio 13.2798 (7.53 %) — no target | S Ketu → H Ketu RA 65.8117: ratio 1.7417 (174.17 %) — no target |
+| H Antares – H Ketu | Dec | 5.1546 | — | S Ketu → H Ketu 2.8453: ratio 1.8116 (55.20 %) — no target | S Ketu → H Ketu RA 65.8117: ratio 12.7675 (1276.75 %) — no target |
+| H Fomalhaut – H Ketu | Dec | 8.3470 | — | S Ketu → H Ketu 2.8453: ratio 2.9336 (34.09 %) — no target | S Ketu → H Ketu RA 65.8117: ratio 7.8844 (788.44 %) — no target |
+| H Regulus – H Ketu | Dec | 33.2429 | — | S Ketu → H Ketu 2.8453: ratio 11.6835 (8.56 %) — no target | S Ketu → H Ketu RA 65.8117: ratio 1.9797 (197.97 %) — no target |
+| S Ketu → J Ketu | RA | 54.4879 | — |  |  |
+| S Ketu → J Ketu | Dec | 4.3179 | — |  |  |
+| J Aldebaran – J Ketu | RA | 144.2387 | 144.444 ninth (28.8) | S Ketu → J Ketu 54.4879: ratio 2.6472 (37.78 %) — no target | S Ketu → J Ketu Dec 4.3179: ratio 33.4045 (2.99 %) — no target |
+| J Antares – J Ketu | RA | 37.3800 | — | S Ketu → J Ketu 54.4879: ratio 1.4577 (145.77 %) — no target | S Ketu → J Ketu Dec 4.3179: ratio 8.6569 (11.55 %) — no target |
+| J Fomalhaut – J Ketu | RA | 59.6777 | — | S Ketu → J Ketu 54.4879: ratio 1.0952 (91.30 %) — no target | S Ketu → J Ketu Dec 4.3179: ratio 13.8209 (7.24 %) — no target |
+| J Regulus – J Ketu | RA | 132.6465 | 82×φ golden (0.3) | S Ketu → J Ketu 54.4879: ratio 2.4344 (41.08 %) — no target | S Ketu → J Ketu Dec 4.3179: ratio 30.7199 (3.26 %) — no target |
+| J Aldebaran – J Ketu | Dec | 39.2600 | — | S Ketu → J Ketu 4.3179: ratio 9.0923 (11.00 %) — no target | S Ketu → J Ketu RA 54.4879: ratio 1.3879 (138.79 %) — no target |
+| J Antares – J Ketu | Dec | 3.6828 | — | S Ketu → J Ketu 4.3179: ratio 1.1725 (117.25 %) — no target | S Ketu → J Ketu RA 54.4879: ratio 14.7954 (1479.54 %) — no target |
+| J Fomalhaut – J Ketu | Dec | 6.8685 | — | S Ketu → J Ketu 4.3179: ratio 1.5907 (62.87 %) — no target | S Ketu → J Ketu RA 54.4879: ratio 7.9330 (793.30 %) — no target |
+| J Regulus – J Ketu | Dec | 34.7187 | — | S Ketu → J Ketu 4.3179: ratio 8.0406 (12.44 %) — no target | S Ketu → J Ketu RA 54.4879: ratio 1.5694 (156.94 %) — no target |
+| H Ketu – J Ketu | RA | 11.3238 | 7×φ golden (92.6) |  |  |
+| H Ketu – J Ketu | Dec | 1.4727 | — |  |  |
 
 Sky lines on the same target:
 
@@ -663,32 +663,32 @@ Other scoring sky lines on Ketu:
 
 ## Ceres
 
-| Line | Plane | Value | Score | Same-body ratio |
-|---|---|---|---|---|
-| S Ceres → H Ceres | RA | 178.9594 | — |  |
-| S Ceres → H Ceres | Dec | 41.0532 | — |  |
-| H Aldebaran – H Ceres | RA | 176.7188 | — | S Ceres → H Ceres 178.9594: ratio 1.0127 (101.27 %) → 1 unison (36.6) |
-| H Antares – H Ceres | RA | 4.9058 | — | S Ceres → H Ceres 178.9594: ratio 36.4793 (3647.93 %) — no target |
-| H Fomalhaut – H Ceres | RA | 92.1492 | — | S Ceres → H Ceres 178.9594: ratio 1.9421 (194.21 %) — no target |
-| H Regulus – H Ceres | RA | 100.1635 | 100 ninth (18.3) | S Ceres → H Ceres 178.9594: ratio 1.7867 (178.67 %) — no target |
-| H Aldebaran – H Ceres | Dec | 32.8261 | — | S Ceres → H Ceres 41.0532: ratio 1.2506 (125.06 %) → 5/4 major third (74.9) |
-| H Antares – H Ceres | Dec | 10.1134 | — | S Ceres → H Ceres 41.0532: ratio 4.0593 (405.93 %) — no target |
-| H Fomalhaut – H Ceres | Dec | 13.3058 | — | S Ceres → H Ceres 41.0532: ratio 3.0854 (308.54 %) — no target |
-| H Regulus – H Ceres | Dec | 28.2841 | — | S Ceres → H Ceres 41.0532: ratio 1.4515 (145.15 %) — no target |
-| H Aldebaran – H Ceres | Dec contraparallel | 0.1889 | contraparallel (37.0) |  |
-| S Ceres → J Ceres | RA | 149.0693 | — |  |
-| S Ceres → J Ceres | Dec | 36.7645 | — |  |
-| J Aldebaran – J Ceres | RA | 153.3943 | — | S Ceres → J Ceres 149.0693: ratio 1.0290 (97.18 %) — no target |
-| J Antares – J Ceres | RA | 24.9869 | 25 (34.6) | S Ceres → J Ceres 149.0693: ratio 5.9659 (596.59 %) — no target |
-| J Fomalhaut – J Ceres | RA | 122.0446 | 122.222 ninth (27.3) | S Ceres → J Ceres 149.0693: ratio 1.2214 (122.14 %) — no target |
-| J Regulus – J Ceres | RA | 70.2795 | — | S Ceres → J Ceres 149.0693: ratio 2.1211 (212.11 %) — no target |
-| J Aldebaran – J Ceres | Dec | 28.5399 | — | S Ceres → J Ceres 36.7645: ratio 1.2882 (128.82 %) — no target |
-| J Antares – J Ceres | Dec | 14.4029 | — | S Ceres → J Ceres 36.7645: ratio 2.5526 (255.26 %) — no target |
-| J Fomalhaut – J Ceres | Dec | 17.5886 | — | S Ceres → J Ceres 36.7645: ratio 2.0902 (209.02 %) — no target |
-| J Regulus – J Ceres | Dec | 23.9986 | 24 (93.2) | S Ceres → J Ceres 36.7645: ratio 1.5319 (153.19 %) — no target |
-| J Regulus – J Ceres | Dec contraparallel | 0.0612 | contraparallel (79.6) |  |
-| H Ceres – J Ceres | RA | 29.8901 | — |  |
-| H Ceres – J Ceres | Dec | 4.2887 | — |  |
+| Line | Plane | Value | Score | Same-body ratio | Crossed same-body ratio |
+|---|---|---|---|---|---|
+| S Ceres → H Ceres | RA | 178.9594 | — |  |  |
+| S Ceres → H Ceres | Dec | 41.0532 | — |  |  |
+| H Aldebaran – H Ceres | RA | 176.7188 | — | S Ceres → H Ceres 178.9594: ratio 1.0127 (101.27 %) → 1 unison (36.6) | S Ceres → H Ceres Dec 41.0532: ratio 4.3046 (23.23 %) — no target |
+| H Antares – H Ceres | RA | 4.9058 | — | S Ceres → H Ceres 178.9594: ratio 36.4793 (3647.93 %) — no target | S Ceres → H Ceres Dec 41.0532: ratio 8.3683 (836.83 %) — no target |
+| H Fomalhaut – H Ceres | RA | 92.1492 | — | S Ceres → H Ceres 178.9594: ratio 1.9421 (194.21 %) — no target | S Ceres → H Ceres Dec 41.0532: ratio 2.2446 (44.55 %) — no target |
+| H Regulus – H Ceres | RA | 100.1635 | 100 ninth (18.3) | S Ceres → H Ceres 178.9594: ratio 1.7867 (178.67 %) — no target | S Ceres → H Ceres Dec 41.0532: ratio 2.4398 (40.99 %) — no target |
+| H Aldebaran – H Ceres | Dec | 32.8261 | — | S Ceres → H Ceres 41.0532: ratio 1.2506 (125.06 %) → 5/4 major third (74.9) | S Ceres → H Ceres RA 178.9594: ratio 5.4517 (545.17 %) — no target |
+| H Antares – H Ceres | Dec | 10.1134 | — | S Ceres → H Ceres 41.0532: ratio 4.0593 (405.93 %) — no target | S Ceres → H Ceres RA 178.9594: ratio 17.6952 (1769.52 %) — no target |
+| H Fomalhaut – H Ceres | Dec | 13.3058 | — | S Ceres → H Ceres 41.0532: ratio 3.0854 (308.54 %) — no target | S Ceres → H Ceres RA 178.9594: ratio 13.4497 (1344.97 %) — no target |
+| H Regulus – H Ceres | Dec | 28.2841 | — | S Ceres → H Ceres 41.0532: ratio 1.4515 (145.15 %) — no target | S Ceres → H Ceres RA 178.9594: ratio 6.3272 (632.72 %) — no target |
+| H Aldebaran – H Ceres | Dec contraparallel | 0.1889 | contraparallel (37.0) |  |  |
+| S Ceres → J Ceres | RA | 149.0693 | — |  |  |
+| S Ceres → J Ceres | Dec | 36.7645 | — |  |  |
+| J Aldebaran – J Ceres | RA | 153.3943 | — | S Ceres → J Ceres 149.0693: ratio 1.0290 (97.18 %) — no target | S Ceres → J Ceres Dec 36.7645: ratio 4.1723 (23.97 %) — no target |
+| J Antares – J Ceres | RA | 24.9869 | 25 (34.6) | S Ceres → J Ceres 149.0693: ratio 5.9659 (596.59 %) — no target | S Ceres → J Ceres Dec 36.7645: ratio 1.4714 (147.14 %) — no target |
+| J Fomalhaut – J Ceres | RA | 122.0446 | 122.222 ninth (27.3) | S Ceres → J Ceres 149.0693: ratio 1.2214 (122.14 %) — no target | S Ceres → J Ceres Dec 36.7645: ratio 3.3196 (30.12 %) — no target |
+| J Regulus – J Ceres | RA | 70.2795 | — | S Ceres → J Ceres 149.0693: ratio 2.1211 (212.11 %) — no target | S Ceres → J Ceres Dec 36.7645: ratio 1.9116 (52.31 %) — no target |
+| J Aldebaran – J Ceres | Dec | 28.5399 | — | S Ceres → J Ceres 36.7645: ratio 1.2882 (128.82 %) — no target | S Ceres → J Ceres RA 149.0693: ratio 5.2232 (522.32 %) — no target |
+| J Antares – J Ceres | Dec | 14.4029 | — | S Ceres → J Ceres 36.7645: ratio 2.5526 (255.26 %) — no target | S Ceres → J Ceres RA 149.0693: ratio 10.3500 (1035.00 %) — no target |
+| J Fomalhaut – J Ceres | Dec | 17.5886 | — | S Ceres → J Ceres 36.7645: ratio 2.0902 (209.02 %) — no target | S Ceres → J Ceres RA 149.0693: ratio 8.4753 (847.53 %) — no target |
+| J Regulus – J Ceres | Dec | 23.9986 | 24 (93.2) | S Ceres → J Ceres 36.7645: ratio 1.5319 (153.19 %) — no target | S Ceres → J Ceres RA 149.0693: ratio 6.2116 (621.16 %) — no target |
+| J Regulus – J Ceres | Dec contraparallel | 0.0612 | contraparallel (79.6) |  |  |
+| H Ceres – J Ceres | RA | 29.8901 | — |  |  |
+| H Ceres – J Ceres | Dec | 4.2887 | — |  |  |
 
 Sky lines on the same target:
 
@@ -738,30 +738,30 @@ Other scoring sky lines on Ceres:
 
 ## Pallas
 
-| Line | Plane | Value | Score | Same-body ratio |
-|---|---|---|---|---|
-| S Pallas → H Pallas | RA | 171.1160 | — |  |
-| S Pallas → H Pallas | Dec | 16.5377 | — |  |
-| H Aldebaran – H Pallas | RA | 142.9452 | — | S Pallas → H Pallas 171.1160: ratio 1.1971 (119.71 %) — no target |
-| H Antares – H Pallas | RA | 35.4302 | — | S Pallas → H Pallas 171.1160: ratio 4.8297 (482.97 %) — no target |
-| H Fomalhaut – H Pallas | RA | 132.4851 | — | S Pallas → H Pallas 171.1160: ratio 1.2916 (129.16 %) — no target |
-| H Regulus – H Pallas | RA | 59.8275 | — | S Pallas → H Pallas 171.1160: ratio 2.8602 (286.02 %) — no target |
-| H Aldebaran – H Pallas | Dec | 4.5836 | — | S Pallas → H Pallas 16.5377: ratio 3.6080 (360.80 %) — no target |
-| H Antares – H Pallas | Dec | 38.3559 | — | S Pallas → H Pallas 16.5377: ratio 2.3193 (43.12 %) — no target |
-| H Fomalhaut – H Pallas | Dec | 41.5483 | — | S Pallas → H Pallas 16.5377: ratio 2.5123 (39.80 %) — no target |
-| H Regulus – H Pallas | Dec | 0.0416 | conj (86.1) | S Pallas → H Pallas 16.5377: ratio 397.3890 (39738.90 %) — conjunction leg, not scored |
-| S Pallas → J Pallas | RA | 176.5451 | — |  |
-| S Pallas → J Pallas | Dec | 23.5374 | — |  |
-| J Aldebaran – J Pallas | RA | 130.6095 | — | S Pallas → J Pallas 176.5451: ratio 1.3517 (135.17 %) — no target |
-| J Antares – J Pallas | RA | 47.7718 | — | S Pallas → J Pallas 176.5451: ratio 3.6956 (369.56 %) — no target |
-| J Fomalhaut – J Pallas | RA | 144.8295 | — | S Pallas → J Pallas 176.5451: ratio 1.2190 (121.90 %) — no target |
-| J Regulus – J Pallas | RA | 47.4947 | — | S Pallas → J Pallas 176.5451: ratio 3.7172 (371.72 %) — no target |
-| J Aldebaran – J Pallas | Dec | 2.4137 | 2.414 silver (84.5) | S Pallas → J Pallas 23.5374: ratio 9.7518 (975.18 %) — no target |
-| J Antares – J Pallas | Dec | 45.3564 | — | S Pallas → J Pallas 23.5374: ratio 1.9270 (51.89 %) — no target |
-| J Fomalhaut – J Pallas | Dec | 48.5421 | 30×φ golden (96.6) | S Pallas → J Pallas 23.5374: ratio 2.0623 (48.49 %) — no target |
-| J Regulus – J Pallas | Dec | 6.9549 | — | S Pallas → J Pallas 23.5374: ratio 3.3843 (338.43 %) — no target |
-| H Pallas – J Pallas | RA | 12.3390 | — |  |
-| H Pallas – J Pallas | Dec | 6.9997 | 7 (98.5) |  |
+| Line | Plane | Value | Score | Same-body ratio | Crossed same-body ratio |
+|---|---|---|---|---|---|
+| S Pallas → H Pallas | RA | 171.1160 | — |  |  |
+| S Pallas → H Pallas | Dec | 16.5377 | — |  |  |
+| H Aldebaran – H Pallas | RA | 142.9452 | — | S Pallas → H Pallas 171.1160: ratio 1.1971 (119.71 %) — no target | S Pallas → H Pallas Dec 16.5377: ratio 8.6436 (11.57 %) — no target |
+| H Antares – H Pallas | RA | 35.4302 | — | S Pallas → H Pallas 171.1160: ratio 4.8297 (482.97 %) — no target | S Pallas → H Pallas Dec 16.5377: ratio 2.1424 (46.68 %) — no target |
+| H Fomalhaut – H Pallas | RA | 132.4851 | — | S Pallas → H Pallas 171.1160: ratio 1.2916 (129.16 %) — no target | S Pallas → H Pallas Dec 16.5377: ratio 8.0111 (12.48 %) → 8 8th harmonic (44.6) |
+| H Regulus – H Pallas | RA | 59.8275 | — | S Pallas → H Pallas 171.1160: ratio 2.8602 (286.02 %) — no target | S Pallas → H Pallas Dec 16.5377: ratio 3.6176 (27.64 %) — no target |
+| H Aldebaran – H Pallas | Dec | 4.5836 | — | S Pallas → H Pallas 16.5377: ratio 3.6080 (360.80 %) — no target | S Pallas → H Pallas RA 171.1160: ratio 37.3323 (3733.23 %) — no target |
+| H Antares – H Pallas | Dec | 38.3559 | — | S Pallas → H Pallas 16.5377: ratio 2.3193 (43.12 %) — no target | S Pallas → H Pallas RA 171.1160: ratio 4.4613 (446.13 %) — no target |
+| H Fomalhaut – H Pallas | Dec | 41.5483 | — | S Pallas → H Pallas 16.5377: ratio 2.5123 (39.80 %) — no target | S Pallas → H Pallas RA 171.1160: ratio 4.1185 (411.85 %) — no target |
+| H Regulus – H Pallas | Dec | 0.0416 | conj (86.1) | S Pallas → H Pallas 16.5377: ratio 397.3890 (39738.90 %) — conjunction leg, not scored | S Pallas → H Pallas RA 171.1160: ratio 4111.7833 (411178.33 %) — conjunction leg, not scored |
+| S Pallas → J Pallas | RA | 176.5451 | — |  |  |
+| S Pallas → J Pallas | Dec | 23.5374 | — |  |  |
+| J Aldebaran – J Pallas | RA | 130.6095 | — | S Pallas → J Pallas 176.5451: ratio 1.3517 (135.17 %) — no target | S Pallas → J Pallas Dec 23.5374: ratio 5.5490 (18.02 %) — no target |
+| J Antares – J Pallas | RA | 47.7718 | — | S Pallas → J Pallas 176.5451: ratio 3.6956 (369.56 %) — no target | S Pallas → J Pallas Dec 23.5374: ratio 2.0296 (49.27 %) — no target |
+| J Fomalhaut – J Pallas | RA | 144.8295 | — | S Pallas → J Pallas 176.5451: ratio 1.2190 (121.90 %) — no target | S Pallas → J Pallas Dec 23.5374: ratio 6.1532 (16.25 %) — no target |
+| J Regulus – J Pallas | RA | 47.4947 | — | S Pallas → J Pallas 176.5451: ratio 3.7172 (371.72 %) — no target | S Pallas → J Pallas Dec 23.5374: ratio 2.0178 (49.56 %) → 2 octave (10.8) |
+| J Aldebaran – J Pallas | Dec | 2.4137 | 2.414 silver (84.5) | S Pallas → J Pallas 23.5374: ratio 9.7518 (975.18 %) — no target | S Pallas → J Pallas RA 176.5451: ratio 73.1444 (7314.44 %) — no target |
+| J Antares – J Pallas | Dec | 45.3564 | — | S Pallas → J Pallas 23.5374: ratio 1.9270 (51.89 %) — no target | S Pallas → J Pallas RA 176.5451: ratio 3.8924 (389.24 %) — no target |
+| J Fomalhaut – J Pallas | Dec | 48.5421 | 30×φ golden (96.6) | S Pallas → J Pallas 23.5374: ratio 2.0623 (48.49 %) — no target | S Pallas → J Pallas RA 176.5451: ratio 3.6369 (363.69 %) — no target |
+| J Regulus – J Pallas | Dec | 6.9549 | — | S Pallas → J Pallas 23.5374: ratio 3.3843 (338.43 %) — no target | S Pallas → J Pallas RA 176.5451: ratio 25.3843 (2538.43 %) — no target |
+| H Pallas – J Pallas | RA | 12.3390 | — |  |  |
+| H Pallas – J Pallas | Dec | 6.9997 | 7 (98.5) |  |  |
 
 Sky lines on the same target:
 
@@ -796,30 +796,30 @@ Other scoring sky lines on Pallas:
 
 ## Juno
 
-| Line | Plane | Value | Score | Same-body ratio |
-|---|---|---|---|---|
-| S Juno → H Juno | RA | 111.1641 | 111.111 ninth (76.2) |  |
-| S Juno → H Juno | Dec | 17.1604 | — |  |
-| H Aldebaran – H Juno | RA | 6.5526 | — | S Juno → H Juno 111.1641: ratio 16.9649 (1696.49 %) → 17 1/17 cut (58.7) |
-| H Antares – H Juno | RA | 171.8228 | — | S Juno → H Juno 111.1641: ratio 1.5457 (64.70 %) — no target |
-| H Fomalhaut – H Juno | RA | 91.1223 | — | S Juno → H Juno 111.1641: ratio 1.2199 (121.99 %) — no target |
-| H Regulus – H Juno | RA | 76.5651 | — | S Juno → H Juno 111.1641: ratio 1.4519 (145.19 %) — no target |
-| H Aldebaran – H Juno | Dec | 5.6518 | — | S Juno → H Juno 17.1604: ratio 3.0363 (303.63 %) — no target |
-| H Antares – H Juno | Dec | 37.2877 | — | S Juno → H Juno 17.1604: ratio 2.1729 (46.02 %) — no target |
-| H Fomalhaut – H Juno | Dec | 40.4801 | 25×φ golden (9.8) | S Juno → H Juno 17.1604: ratio 2.3589 (42.39 %) — no target |
-| H Regulus – H Juno | Dec | 1.1099 | 1.11111 ninth (44.1) | S Juno → H Juno 17.1604: ratio 15.4617 (1546.17 %) — no target |
-| S Juno → J Juno | RA | 55.5228 | 55.5556 ninth (70.6) |  |
-| S Juno → J Juno | Dec | 0.9997 | 1 (98.4) (also: 0.999999 ninth (84.0)) |  |
-| J Aldebaran – J Juno | RA | 160.1311 | — | S Juno → J Juno 55.5228: ratio 2.8841 (34.67 %) — no target |
-| J Antares – J Juno | RA | 21.4876 | — | S Juno → J Juno 55.5228: ratio 2.5839 (258.39 %) — no target |
-| J Fomalhaut – J Juno | RA | 75.5701 | — | S Juno → J Juno 55.5228: ratio 1.3611 (73.47 %) — no target |
-| J Regulus – J Juno | RA | 116.7541 | — | S Juno → J Juno 55.5228: ratio 2.1028 (47.56 %) — no target |
-| J Aldebaran – J Juno | Dec | 21.8150 | — | S Juno → J Juno 0.9997: ratio 21.8220 (4.58 %) — no target |
-| J Antares – J Juno | Dec | 21.1277 | — | S Juno → J Juno 0.9997: ratio 21.1345 (4.73 %) — no target |
-| J Fomalhaut – J Juno | Dec | 24.3134 | — | S Juno → J Juno 0.9997: ratio 24.3212 (4.11 %) — no target |
-| J Regulus – J Juno | Dec | 17.2738 | — | S Juno → J Juno 0.9997: ratio 17.2793 (5.79 %) — no target |
-| H Juno – J Juno | RA | 166.6869 | 166.667 ninth (93.9) (also: 103×φ golden (9.1)) |  |
-| H Juno – J Juno | Dec | 16.1607 | 10×φ golden (39.5) (also: 10φ phi power (19.3)) |  |
+| Line | Plane | Value | Score | Same-body ratio | Crossed same-body ratio |
+|---|---|---|---|---|---|
+| S Juno → H Juno | RA | 111.1641 | 111.111 ninth (76.2) |  |  |
+| S Juno → H Juno | Dec | 17.1604 | — |  |  |
+| H Aldebaran – H Juno | RA | 6.5526 | — | S Juno → H Juno 111.1641: ratio 16.9649 (1696.49 %) → 17 1/17 cut (58.7) | S Juno → H Juno Dec 17.1604: ratio 2.6189 (261.89 %) → φ² φ squared (78.6) |
+| H Antares – H Juno | RA | 171.8228 | — | S Juno → H Juno 111.1641: ratio 1.5457 (64.70 %) — no target | S Juno → H Juno Dec 17.1604: ratio 10.0127 (9.99 %) → 10 1/10 cut (74.5) |
+| H Fomalhaut – H Juno | RA | 91.1223 | — | S Juno → H Juno 111.1641: ratio 1.2199 (121.99 %) — no target | S Juno → H Juno Dec 17.1604: ratio 5.3100 (18.83 %) — no target |
+| H Regulus – H Juno | RA | 76.5651 | — | S Juno → H Juno 111.1641: ratio 1.4519 (145.19 %) — no target | S Juno → H Juno Dec 17.1604: ratio 4.4617 (22.41 %) — no target |
+| H Aldebaran – H Juno | Dec | 5.6518 | — | S Juno → H Juno 17.1604: ratio 3.0363 (303.63 %) — no target | S Juno → H Juno RA 111.1641: ratio 19.6686 (1966.86 %) — no target |
+| H Antares – H Juno | Dec | 37.2877 | — | S Juno → H Juno 17.1604: ratio 2.1729 (46.02 %) — no target | S Juno → H Juno RA 111.1641: ratio 2.9813 (298.13 %) → 3 twelfth (6.3) |
+| H Fomalhaut – H Juno | Dec | 40.4801 | 25×φ golden (9.8) | S Juno → H Juno 17.1604: ratio 2.3589 (42.39 %) — no target | S Juno → H Juno RA 111.1641: ratio 2.7461 (274.61 %) → 11/4 undecimal 11:4 (6.5) |
+| H Regulus – H Juno | Dec | 1.1099 | 1.11111 ninth (44.1) | S Juno → H Juno 17.1604: ratio 15.4617 (1546.17 %) — no target | S Juno → H Juno RA 111.1641: ratio 100.1597 (10015.97 %) — no target |
+| S Juno → J Juno | RA | 55.5228 | 55.5556 ninth (70.6) |  |  |
+| S Juno → J Juno | Dec | 0.9997 | 1 (98.4) (also: 0.999999 ninth (84.0)) |  |  |
+| J Aldebaran – J Juno | RA | 160.1311 | — | S Juno → J Juno 55.5228: ratio 2.8841 (34.67 %) — no target | S Juno → J Juno Dec 0.9997: ratio 160.1825 (0.62 %) — no target |
+| J Antares – J Juno | RA | 21.4876 | — | S Juno → J Juno 55.5228: ratio 2.5839 (258.39 %) — no target | S Juno → J Juno Dec 0.9997: ratio 21.4945 (4.65 %) — no target |
+| J Fomalhaut – J Juno | RA | 75.5701 | — | S Juno → J Juno 55.5228: ratio 1.3611 (73.47 %) — no target | S Juno → J Juno Dec 0.9997: ratio 75.5943 (1.32 %) — no target |
+| J Regulus – J Juno | RA | 116.7541 | — | S Juno → J Juno 55.5228: ratio 2.1028 (47.56 %) — no target | S Juno → J Juno Dec 0.9997: ratio 116.7916 (0.86 %) — no target |
+| J Aldebaran – J Juno | Dec | 21.8150 | — | S Juno → J Juno 0.9997: ratio 21.8220 (4.58 %) — no target | S Juno → J Juno RA 55.5228: ratio 2.5452 (254.52 %) — no target |
+| J Antares – J Juno | Dec | 21.1277 | — | S Juno → J Juno 0.9997: ratio 21.1345 (4.73 %) — no target | S Juno → J Juno RA 55.5228: ratio 2.6280 (262.80 %) — no target |
+| J Fomalhaut – J Juno | Dec | 24.3134 | — | S Juno → J Juno 0.9997: ratio 24.3212 (4.11 %) — no target | S Juno → J Juno RA 55.5228: ratio 2.2836 (228.36 %) — no target |
+| J Regulus – J Juno | Dec | 17.2738 | — | S Juno → J Juno 0.9997: ratio 17.2793 (5.79 %) — no target | S Juno → J Juno RA 55.5228: ratio 3.2143 (321.43 %) — no target |
+| H Juno – J Juno | RA | 166.6869 | 166.667 ninth (93.9) (also: 103×φ golden (9.1)) |  |  |
+| H Juno – J Juno | Dec | 16.1607 | 10×φ golden (39.5) (also: 10φ phi power (19.3)) |  |  |
 
 Sky lines on the same target:
 
@@ -860,30 +860,30 @@ Other scoring sky lines on Juno:
 
 ## Vesta
 
-| Line | Plane | Value | Score | Same-body ratio |
-|---|---|---|---|---|
-| S Vesta → H Vesta | RA | 41.1680 | — |  |
-| S Vesta → H Vesta | Dec | 10.7237 | — |  |
-| H Aldebaran – H Vesta | RA | 73.1880 | — | S Vesta → H Vesta 41.1680: ratio 1.7778 (56.25 %) → 16/9 minor seventh (99.6) |
-| H Antares – H Vesta | RA | 108.4366 | 67×φ golden (12.5) | S Vesta → H Vesta 41.1680: ratio 2.6340 (37.96 %) — no target |
-| H Fomalhaut – H Vesta | RA | 11.3817 | — | S Vesta → H Vesta 41.1680: ratio 3.6170 (361.70 %) — no target |
-| H Regulus – H Vesta | RA | 156.3057 | — | S Vesta → H Vesta 41.1680: ratio 3.7968 (26.34 %) — no target |
-| H Aldebaran – H Vesta | Dec | 23.3800 | — | S Vesta → H Vesta 10.7237: ratio 2.1802 (45.87 %) — no target |
-| H Antares – H Vesta | Dec | 19.5595 | — | S Vesta → H Vesta 10.7237: ratio 1.8240 (54.83 %) — no target |
-| H Fomalhaut – H Vesta | Dec | 22.7519 | — | S Vesta → H Vesta 10.7237: ratio 2.1217 (47.13 %) — no target |
-| H Regulus – H Vesta | Dec | 18.8380 | — | S Vesta → H Vesta 10.7237: ratio 1.7567 (56.93 %) — no target |
-| S Vesta → J Vesta | RA | 13.3423 | 13.3333 ninth (66.5) |  |
-| S Vesta → J Vesta | Dec | 0.7371 | — |  |
-| J Aldebaran – J Vesta | RA | 101.0104 | 101 (48.0) | S Vesta → J Vesta 13.3423: ratio 7.5707 (13.21 %) — no target |
-| J Antares – J Vesta | RA | 80.6083 | — | S Vesta → J Vesta 13.3423: ratio 6.0416 (16.55 %) — no target |
-| J Fomalhaut – J Vesta | RA | 16.4494 | — | S Vesta → J Vesta 13.3423: ratio 1.2329 (81.11 %) — no target |
-| J Regulus – J Vesta | RA | 175.8748 | — | S Vesta → J Vesta 13.3423: ratio 13.1818 (7.59 %) — no target |
-| J Aldebaran – J Vesta | Dec | 34.8432 | — | S Vesta → J Vesta 0.7371: ratio 47.2721 (2.12 %) — no target |
-| J Antares – J Vesta | Dec | 8.0996 | 5×φ golden (71.0) | S Vesta → J Vesta 0.7371: ratio 10.9888 (9.10 %) → 11 1/11 cut (79.6) |
-| J Fomalhaut – J Vesta | Dec | 11.2853 | — | S Vesta → J Vesta 0.7371: ratio 15.3109 (6.53 %) — no target |
-| J Regulus – J Vesta | Dec | 30.3020 | — | S Vesta → J Vesta 0.7371: ratio 41.1110 (2.43 %) — no target |
-| H Vesta – J Vesta | RA | 27.8257 | — |  |
-| H Vesta – J Vesta | Dec | 11.4607 | — |  |
+| Line | Plane | Value | Score | Same-body ratio | Crossed same-body ratio |
+|---|---|---|---|---|---|
+| S Vesta → H Vesta | RA | 41.1680 | — |  |  |
+| S Vesta → H Vesta | Dec | 10.7237 | — |  |  |
+| H Aldebaran – H Vesta | RA | 73.1880 | — | S Vesta → H Vesta 41.1680: ratio 1.7778 (56.25 %) → 16/9 minor seventh (99.6) | S Vesta → H Vesta Dec 10.7237: ratio 6.8249 (14.65 %) — no target |
+| H Antares – H Vesta | RA | 108.4366 | 67×φ golden (12.5) | S Vesta → H Vesta 41.1680: ratio 2.6340 (37.96 %) — no target | S Vesta → H Vesta Dec 10.7237: ratio 10.1119 (9.89 %) — no target |
+| H Fomalhaut – H Vesta | RA | 11.3817 | — | S Vesta → H Vesta 41.1680: ratio 3.6170 (361.70 %) — no target | S Vesta → H Vesta Dec 10.7237: ratio 1.0614 (94.22 %) — no target |
+| H Regulus – H Vesta | RA | 156.3057 | — | S Vesta → H Vesta 41.1680: ratio 3.7968 (26.34 %) — no target | S Vesta → H Vesta Dec 10.7237: ratio 14.5758 (6.86 %) — no target |
+| H Aldebaran – H Vesta | Dec | 23.3800 | — | S Vesta → H Vesta 10.7237: ratio 2.1802 (45.87 %) — no target | S Vesta → H Vesta RA 41.1680: ratio 1.7608 (176.08 %) — no target |
+| H Antares – H Vesta | Dec | 19.5595 | — | S Vesta → H Vesta 10.7237: ratio 1.8240 (54.83 %) — no target | S Vesta → H Vesta RA 41.1680: ratio 2.1048 (210.48 %) — no target |
+| H Fomalhaut – H Vesta | Dec | 22.7519 | — | S Vesta → H Vesta 10.7237: ratio 2.1217 (47.13 %) — no target | S Vesta → H Vesta RA 41.1680: ratio 1.8094 (180.94 %) — no target |
+| H Regulus – H Vesta | Dec | 18.8380 | — | S Vesta → H Vesta 10.7237: ratio 1.7567 (56.93 %) — no target | S Vesta → H Vesta RA 41.1680: ratio 2.1854 (218.54 %) — no target |
+| S Vesta → J Vesta | RA | 13.3423 | 13.3333 ninth (66.5) |  |  |
+| S Vesta → J Vesta | Dec | 0.7371 | — |  |  |
+| J Aldebaran – J Vesta | RA | 101.0104 | 101 (48.0) | S Vesta → J Vesta 13.3423: ratio 7.5707 (13.21 %) — no target | S Vesta → J Vesta Dec 0.7371: ratio 137.0419 (0.73 %) — no target |
+| J Antares – J Vesta | RA | 80.6083 | — | S Vesta → J Vesta 13.3423: ratio 6.0416 (16.55 %) — no target | S Vesta → J Vesta Dec 0.7371: ratio 109.3621 (0.91 %) — no target |
+| J Fomalhaut – J Vesta | RA | 16.4494 | — | S Vesta → J Vesta 13.3423: ratio 1.2329 (81.11 %) — no target | S Vesta → J Vesta Dec 0.7371: ratio 22.3171 (4.48 %) — no target |
+| J Regulus – J Vesta | RA | 175.8748 | — | S Vesta → J Vesta 13.3423: ratio 13.1818 (7.59 %) — no target | S Vesta → J Vesta Dec 0.7371: ratio 238.6112 (0.42 %) — no target |
+| J Aldebaran – J Vesta | Dec | 34.8432 | — | S Vesta → J Vesta 0.7371: ratio 47.2721 (2.12 %) — no target | S Vesta → J Vesta RA 13.3423: ratio 2.6115 (38.29 %) — no target |
+| J Antares – J Vesta | Dec | 8.0996 | 5×φ golden (71.0) | S Vesta → J Vesta 0.7371: ratio 10.9888 (9.10 %) → 11 1/11 cut (79.6) | S Vesta → J Vesta RA 13.3423: ratio 1.6473 (164.73 %) — no target |
+| J Fomalhaut – J Vesta | Dec | 11.2853 | — | S Vesta → J Vesta 0.7371: ratio 15.3109 (6.53 %) — no target | S Vesta → J Vesta RA 13.3423: ratio 1.1823 (118.23 %) — no target |
+| J Regulus – J Vesta | Dec | 30.3020 | — | S Vesta → J Vesta 0.7371: ratio 41.1110 (2.43 %) — no target | S Vesta → J Vesta RA 13.3423: ratio 2.2711 (44.03 %) — no target |
+| H Vesta – J Vesta | RA | 27.8257 | — |  |  |
+| H Vesta – J Vesta | Dec | 11.4607 | — |  |  |
 
 Sky lines on the same target:
 
@@ -926,30 +926,30 @@ Other scoring sky lines on Vesta:
 
 ## Chiron
 
-| Line | Plane | Value | Score | Same-body ratio |
-|---|---|---|---|---|
-| S Chiron → H Chiron | RA | 10.3926 | — |  |
-| S Chiron → H Chiron | Dec | 3.2437 | 2×φ golden (76.4) |  |
-| H Aldebaran – H Chiron | RA | 68.8185 | — | S Chiron → H Chiron 10.3926: ratio 6.6219 (15.10 %) — no target |
-| H Antares – H Chiron | RA | 112.8061 | — | S Chiron → H Chiron 10.3926: ratio 10.8544 (9.21 %) — no target |
-| H Fomalhaut – H Chiron | RA | 15.7511 | — | S Chiron → H Chiron 10.3926: ratio 1.5156 (65.98 %) → 3/2 fifth (22.0) |
-| H Regulus – H Chiron | RA | 151.9362 | — | S Chiron → H Chiron 10.3926: ratio 14.6196 (6.84 %) — no target |
-| H Aldebaran – H Chiron | Dec | 13.0896 | — | S Chiron → H Chiron 3.2437: ratio 4.0354 (24.78 %) — no target |
-| H Antares – H Chiron | Dec | 29.8499 | — | S Chiron → H Chiron 3.2437: ratio 9.2024 (10.87 %) — no target |
-| H Fomalhaut – H Chiron | Dec | 33.0423 | — | S Chiron → H Chiron 3.2437: ratio 10.1866 (9.82 %) — no target |
-| H Regulus – H Chiron | Dec | 8.5476 | — | S Chiron → H Chiron 3.2437: ratio 2.6351 (37.95 %) — no target |
-| S Chiron → J Chiron | RA | 44.4185 | 44.4444 ninth (70.8) |  |
-| S Chiron → J Chiron | Dec | 10.0513 | — |  |
-| J Aldebaran – J Chiron | RA | 14.0042 | 14 (79.1) | S Chiron → J Chiron 44.4185: ratio 3.1718 (317.18 %) — no target |
-| J Antares – J Chiron | RA | 167.6146 | — | S Chiron → J Chiron 44.4185: ratio 3.7735 (26.50 %) — no target |
-| J Fomalhaut – J Chiron | RA | 70.5568 | — | S Chiron → J Chiron 44.4185: ratio 1.5885 (62.95 %) — no target |
-| J Regulus – J Chiron | RA | 97.1190 | — | S Chiron → J Chiron 44.4185: ratio 2.1865 (45.74 %) — no target |
-| J Aldebaran – J Chiron | Dec | 0.2030 | conj (32.3) | S Chiron → J Chiron 10.0513: ratio 49.5188 (4951.88 %) — conjunction leg, not scored |
-| J Antares – J Chiron | Dec | 43.1457 | — | S Chiron → J Chiron 10.0513: ratio 4.2925 (23.30 %) — no target |
-| J Fomalhaut – J Chiron | Dec | 46.3315 | — | S Chiron → J Chiron 10.0513: ratio 4.6095 (21.69 %) — no target |
-| J Regulus – J Chiron | Dec | 4.7442 | — | S Chiron → J Chiron 10.0513: ratio 2.1186 (211.86 %) — no target |
-| H Chiron – J Chiron | RA | 54.8111 | — |  |
-| H Chiron – J Chiron | Dec | 13.2951 | — |  |
+| Line | Plane | Value | Score | Same-body ratio | Crossed same-body ratio |
+|---|---|---|---|---|---|
+| S Chiron → H Chiron | RA | 10.3926 | — |  |  |
+| S Chiron → H Chiron | Dec | 3.2437 | 2×φ golden (76.4) |  |  |
+| H Aldebaran – H Chiron | RA | 68.8185 | — | S Chiron → H Chiron 10.3926: ratio 6.6219 (15.10 %) — no target | S Chiron → H Chiron Dec 3.2437: ratio 21.2160 (4.71 %) — no target |
+| H Antares – H Chiron | RA | 112.8061 | — | S Chiron → H Chiron 10.3926: ratio 10.8544 (9.21 %) — no target | S Chiron → H Chiron Dec 3.2437: ratio 34.7768 (2.88 %) — no target |
+| H Fomalhaut – H Chiron | RA | 15.7511 | — | S Chiron → H Chiron 10.3926: ratio 1.5156 (65.98 %) → 3/2 fifth (22.0) | S Chiron → H Chiron Dec 3.2437: ratio 4.8559 (20.59 %) — no target |
+| H Regulus – H Chiron | RA | 151.9362 | — | S Chiron → H Chiron 10.3926: ratio 14.6196 (6.84 %) — no target | S Chiron → H Chiron Dec 3.2437: ratio 46.8402 (2.13 %) — no target |
+| H Aldebaran – H Chiron | Dec | 13.0896 | — | S Chiron → H Chiron 3.2437: ratio 4.0354 (24.78 %) — no target | S Chiron → H Chiron RA 10.3926: ratio 1.2595 (79.40 %) — no target |
+| H Antares – H Chiron | Dec | 29.8499 | — | S Chiron → H Chiron 3.2437: ratio 9.2024 (10.87 %) — no target | S Chiron → H Chiron RA 10.3926: ratio 2.8722 (34.82 %) — no target |
+| H Fomalhaut – H Chiron | Dec | 33.0423 | — | S Chiron → H Chiron 3.2437: ratio 10.1866 (9.82 %) — no target | S Chiron → H Chiron RA 10.3926: ratio 3.1794 (31.45 %) — no target |
+| H Regulus – H Chiron | Dec | 8.5476 | — | S Chiron → H Chiron 3.2437: ratio 2.6351 (37.95 %) — no target | S Chiron → H Chiron RA 10.3926: ratio 1.2158 (121.58 %) — no target |
+| S Chiron → J Chiron | RA | 44.4185 | 44.4444 ninth (70.8) |  |  |
+| S Chiron → J Chiron | Dec | 10.0513 | — |  |  |
+| J Aldebaran – J Chiron | RA | 14.0042 | 14 (79.1) | S Chiron → J Chiron 44.4185: ratio 3.1718 (317.18 %) — no target | S Chiron → J Chiron Dec 10.0513: ratio 1.3933 (71.77 %) — no target |
+| J Antares – J Chiron | RA | 167.6146 | — | S Chiron → J Chiron 44.4185: ratio 3.7735 (26.50 %) — no target | S Chiron → J Chiron Dec 10.0513: ratio 16.6758 (6.00 %) — no target |
+| J Fomalhaut – J Chiron | RA | 70.5568 | — | S Chiron → J Chiron 44.4185: ratio 1.5885 (62.95 %) — no target | S Chiron → J Chiron Dec 10.0513: ratio 7.0196 (14.25 %) → 7 7th harmonic (1.8) |
+| J Regulus – J Chiron | RA | 97.1190 | — | S Chiron → J Chiron 44.4185: ratio 2.1865 (45.74 %) — no target | S Chiron → J Chiron Dec 10.0513: ratio 9.6623 (10.35 %) — no target |
+| J Aldebaran – J Chiron | Dec | 0.2030 | conj (32.3) | S Chiron → J Chiron 10.0513: ratio 49.5188 (4951.88 %) — conjunction leg, not scored | S Chiron → J Chiron RA 44.4185: ratio 218.8319 (21883.19 %) — conjunction leg, not scored |
+| J Antares – J Chiron | Dec | 43.1457 | — | S Chiron → J Chiron 10.0513: ratio 4.2925 (23.30 %) — no target | S Chiron → J Chiron RA 44.4185: ratio 1.0295 (102.95 %) — no target |
+| J Fomalhaut – J Chiron | Dec | 46.3315 | — | S Chiron → J Chiron 10.0513: ratio 4.6095 (21.69 %) — no target | S Chiron → J Chiron RA 44.4185: ratio 1.0431 (95.87 %) — no target |
+| J Regulus – J Chiron | Dec | 4.7442 | — | S Chiron → J Chiron 10.0513: ratio 2.1186 (211.86 %) — no target | S Chiron → J Chiron RA 44.4185: ratio 9.3626 (936.26 %) — no target |
+| H Chiron – J Chiron | RA | 54.8111 | — |  |  |
+| H Chiron – J Chiron | Dec | 13.2951 | — |  |  |
 
 Sky lines on the same target:
 
@@ -992,30 +992,30 @@ Other scoring sky lines on Chiron:
 
 ## Eris
 
-| Line | Plane | Value | Score | Same-body ratio |
-|---|---|---|---|---|
-| S Eris → H Eris | RA | 0.5260 | conj (64.9) |  |
-| S Eris → H Eris | Dec | 0.8536 | — |  |
-| H Aldebaran – H Eris | RA | 43.2395 | — | S Eris → H Eris 0.5260: ratio 82.2112 (1.22 %) — conjunction leg, not scored |
-| H Antares – H Eris | RA | 138.3851 | — | S Eris → H Eris 0.5260: ratio 263.1116 (0.38 %) — conjunction leg, not scored |
-| H Fomalhaut – H Eris | RA | 41.3302 | — | S Eris → H Eris 0.5260: ratio 78.5811 (1.27 %) — conjunction leg, not scored |
-| H Regulus – H Eris | RA | 126.3572 | — | S Eris → H Eris 0.5260: ratio 240.2429 (0.42 %) — conjunction leg, not scored |
-| H Aldebaran – H Eris | Dec | 18.4814 | — | S Eris → H Eris 0.8536: ratio 21.6505 (4.62 %) — no target |
-| H Antares – H Eris | Dec | 24.4581 | — | S Eris → H Eris 0.8536: ratio 28.6522 (3.49 %) — no target |
-| H Fomalhaut – H Eris | Dec | 27.6505 | — | S Eris → H Eris 0.8536: ratio 32.3920 (3.09 %) — no target |
-| H Regulus – H Eris | Dec | 13.9394 | — | S Eris → H Eris 0.8536: ratio 16.3297 (6.12 %) — no target |
-| S Eris → J Eris | RA | 4.3100 | — |  |
-| S Eris → J Eris | Dec | 9.9833 | 10 ninth (16.3) (also: 10 (16.3)) |  |
-| J Aldebaran – J Eris | RA | 47.0203 | φ⁸ phi power (40.9) | S Eris → J Eris 4.3100: ratio 10.9095 (9.17 %) — no target |
-| J Antares – J Eris | RA | 134.5984 | — | S Eris → J Eris 4.3100: ratio 31.2290 (3.20 %) — no target |
-| J Fomalhaut – J Eris | RA | 37.5407 | — | S Eris → J Eris 4.3100: ratio 8.7101 (11.48 %) — no target |
-| J Regulus – J Eris | RA | 130.1351 | — | S Eris → J Eris 4.3100: ratio 30.1935 (3.31 %) — no target |
-| J Aldebaran – J Eris | Dec | 27.6135 | — | S Eris → J Eris 9.9833: ratio 2.7660 (36.15 %) — no target |
-| J Antares – J Eris | Dec | 15.3293 | — | S Eris → J Eris 9.9833: ratio 1.5355 (65.13 %) — no target |
-| J Fomalhaut – J Eris | Dec | 18.5150 | — | S Eris → J Eris 9.9833: ratio 1.8546 (53.92 %) — no target |
-| J Regulus – J Eris | Dec | 23.0722 | — | S Eris → J Eris 9.9833: ratio 2.3111 (43.27 %) — no target |
-| H Eris – J Eris | RA | 3.7841 | — |  |
-| H Eris – J Eris | Dec | 9.1296 | — |  |
+| Line | Plane | Value | Score | Same-body ratio | Crossed same-body ratio |
+|---|---|---|---|---|---|
+| S Eris → H Eris | RA | 0.5260 | conj (64.9) |  |  |
+| S Eris → H Eris | Dec | 0.8536 | — |  |  |
+| H Aldebaran – H Eris | RA | 43.2395 | — | S Eris → H Eris 0.5260: ratio 82.2112 (1.22 %) — conjunction leg, not scored | S Eris → H Eris Dec 0.8536: ratio 50.6541 (1.97 %) — no target |
+| H Antares – H Eris | RA | 138.3851 | — | S Eris → H Eris 0.5260: ratio 263.1116 (0.38 %) — conjunction leg, not scored | S Eris → H Eris Dec 0.8536: ratio 162.1152 (0.62 %) — no target |
+| H Fomalhaut – H Eris | RA | 41.3302 | — | S Eris → H Eris 0.5260: ratio 78.5811 (1.27 %) — conjunction leg, not scored | S Eris → H Eris Dec 0.8536: ratio 48.4174 (2.07 %) — no target |
+| H Regulus – H Eris | RA | 126.3572 | — | S Eris → H Eris 0.5260: ratio 240.2429 (0.42 %) — conjunction leg, not scored | S Eris → H Eris Dec 0.8536: ratio 148.0247 (0.68 %) — no target |
+| H Aldebaran – H Eris | Dec | 18.4814 | — | S Eris → H Eris 0.8536: ratio 21.6505 (4.62 %) — no target | S Eris → H Eris RA 0.5260: ratio 35.1386 (2.85 %) — conjunction leg, not scored |
+| H Antares – H Eris | Dec | 24.4581 | — | S Eris → H Eris 0.8536: ratio 28.6522 (3.49 %) — no target | S Eris → H Eris RA 0.5260: ratio 46.5022 (2.15 %) — conjunction leg, not scored |
+| H Fomalhaut – H Eris | Dec | 27.6505 | — | S Eris → H Eris 0.8536: ratio 32.3920 (3.09 %) — no target | S Eris → H Eris RA 0.5260: ratio 52.5720 (1.90 %) — conjunction leg, not scored |
+| H Regulus – H Eris | Dec | 13.9394 | — | S Eris → H Eris 0.8536: ratio 16.3297 (6.12 %) — no target | S Eris → H Eris RA 0.5260: ratio 26.5030 (3.77 %) — conjunction leg, not scored |
+| S Eris → J Eris | RA | 4.3100 | — |  |  |
+| S Eris → J Eris | Dec | 9.9833 | 10 ninth (16.3) (also: 10 (16.3)) |  |  |
+| J Aldebaran – J Eris | RA | 47.0203 | φ⁸ phi power (40.9) | S Eris → J Eris 4.3100: ratio 10.9095 (9.17 %) — no target | S Eris → J Eris Dec 9.9833: ratio 4.7099 (21.23 %) — no target |
+| J Antares – J Eris | RA | 134.5984 | — | S Eris → J Eris 4.3100: ratio 31.2290 (3.20 %) — no target | S Eris → J Eris Dec 9.9833: ratio 13.4824 (7.42 %) — no target |
+| J Fomalhaut – J Eris | RA | 37.5407 | — | S Eris → J Eris 4.3100: ratio 8.7101 (11.48 %) — no target | S Eris → J Eris Dec 9.9833: ratio 3.7604 (26.59 %) — no target |
+| J Regulus – J Eris | RA | 130.1351 | — | S Eris → J Eris 4.3100: ratio 30.1935 (3.31 %) — no target | S Eris → J Eris Dec 9.9833: ratio 13.0353 (7.67 %) → 13 1/13 cut (45.6) |
+| J Aldebaran – J Eris | Dec | 27.6135 | — | S Eris → J Eris 9.9833: ratio 2.7660 (36.15 %) — no target | S Eris → J Eris RA 4.3100: ratio 6.4068 (15.61 %) — no target |
+| J Antares – J Eris | Dec | 15.3293 | — | S Eris → J Eris 9.9833: ratio 1.5355 (65.13 %) — no target | S Eris → J Eris RA 4.3100: ratio 3.5566 (28.12 %) — no target |
+| J Fomalhaut – J Eris | Dec | 18.5150 | — | S Eris → J Eris 9.9833: ratio 1.8546 (53.92 %) — no target | S Eris → J Eris RA 4.3100: ratio 4.2958 (23.28 %) — no target |
+| J Regulus – J Eris | Dec | 23.0722 | — | S Eris → J Eris 9.9833: ratio 2.3111 (43.27 %) — no target | S Eris → J Eris RA 4.3100: ratio 5.3531 (18.68 %) — no target |
+| H Eris – J Eris | RA | 3.7841 | — |  |  |
+| H Eris – J Eris | Dec | 9.1296 | — |  |  |
 
 Sky lines on the same target:
 
@@ -1054,31 +1054,31 @@ Other scoring sky lines on Eris:
 
 ## Gonggong
 
-| Line | Plane | Value | Score | Same-body ratio |
-|---|---|---|---|---|
-| S Gonggong → H Gonggong | RA | 0.7598 | conj (49.3) |  |
-| S Gonggong → H Gonggong | Dec | 0.8285 | — |  |
-| H Aldebaran – H Gonggong | RA | 92.5323 | — | S Gonggong → H Gonggong 0.7598: ratio 121.7810 (0.82 %) — conjunction leg, not scored |
-| H Antares – H Gonggong | RA | 89.0923 | — | S Gonggong → H Gonggong 0.7598: ratio 117.2538 (0.85 %) — conjunction leg, not scored |
-| H Fomalhaut – H Gonggong | RA | 7.9626 | — | S Gonggong → H Gonggong 0.7598: ratio 10.4795 (9.54 %) — conjunction leg, not scored |
-| H Regulus – H Gonggong | RA | 175.6500 | — | S Gonggong → H Gonggong 0.7598: ratio 231.1716 (0.43 %) — conjunction leg, not scored |
-| H Aldebaran – H Gonggong | Dec | 28.4223 | — | S Gonggong → H Gonggong 0.8285: ratio 34.3050 (2.92 %) — no target |
-| H Antares – H Gonggong | Dec | 14.5172 | — | S Gonggong → H Gonggong 0.8285: ratio 17.5218 (5.71 %) — no target |
-| H Fomalhaut – H Gonggong | Dec | 17.7096 | — | S Gonggong → H Gonggong 0.8285: ratio 21.3750 (4.68 %) — no target |
-| H Regulus – H Gonggong | Dec | 23.8804 | — | S Gonggong → H Gonggong 0.8285: ratio 28.8230 (3.47 %) — no target |
-| H Regulus – H Gonggong | Dec contraparallel | 0.0507 | contraparallel (83.1) |  |
-| S Gonggong → J Gonggong | RA | 9.4770 | — |  |
-| S Gonggong → J Gonggong | Dec | 11.3533 | 7×φ golden (16.4) |  |
-| J Aldebaran – J Gonggong | RA | 101.2462 | — | S Gonggong → J Gonggong 9.4770: ratio 10.6834 (9.36 %) — no target |
-| J Antares – J Gonggong | RA | 80.3725 | — | S Gonggong → J Gonggong 9.4770: ratio 8.4808 (11.79 %) — no target |
-| J Fomalhaut – J Gonggong | RA | 16.6852 | 16.6667 ninth (44.5) | S Gonggong → J Gonggong 9.4770: ratio 1.7606 (56.80 %) — no target |
-| J Regulus – J Gonggong | RA | 175.6390 | — | S Gonggong → J Gonggong 9.4770: ratio 18.5332 (5.40 %) — no target |
-| J Aldebaran – J Gonggong | Dec | 38.9496 | — | S Gonggong → J Gonggong 11.3533: ratio 3.4307 (29.15 %) — no target |
-| J Antares – J Gonggong | Dec | 3.9932 | 4 (65.9) | S Gonggong → J Gonggong 11.3533: ratio 2.8432 (284.32 %) — no target |
-| J Fomalhaut – J Gonggong | Dec | 7.1789 | — | S Gonggong → J Gonggong 11.3533: ratio 1.5815 (158.15 %) — no target |
-| J Regulus – J Gonggong | Dec | 34.4083 | — | S Gonggong → J Gonggong 11.3533: ratio 3.0307 (33.00 %) — no target |
-| H Gonggong – J Gonggong | RA | 8.7172 | — |  |
-| H Gonggong – J Gonggong | Dec | 10.5248 | — |  |
+| Line | Plane | Value | Score | Same-body ratio | Crossed same-body ratio |
+|---|---|---|---|---|---|
+| S Gonggong → H Gonggong | RA | 0.7598 | conj (49.3) |  |  |
+| S Gonggong → H Gonggong | Dec | 0.8285 | — |  |  |
+| H Aldebaran – H Gonggong | RA | 92.5323 | — | S Gonggong → H Gonggong 0.7598: ratio 121.7810 (0.82 %) — conjunction leg, not scored | S Gonggong → H Gonggong Dec 0.8285: ratio 111.6841 (0.90 %) — no target |
+| H Antares – H Gonggong | RA | 89.0923 | — | S Gonggong → H Gonggong 0.7598: ratio 117.2538 (0.85 %) — conjunction leg, not scored | S Gonggong → H Gonggong Dec 0.8285: ratio 107.5322 (0.93 %) — no target |
+| H Fomalhaut – H Gonggong | RA | 7.9626 | — | S Gonggong → H Gonggong 0.7598: ratio 10.4795 (9.54 %) — conjunction leg, not scored | S Gonggong → H Gonggong Dec 0.8285: ratio 9.6107 (10.41 %) — no target |
+| H Regulus – H Gonggong | RA | 175.6500 | — | S Gonggong → H Gonggong 0.7598: ratio 231.1716 (0.43 %) — conjunction leg, not scored | S Gonggong → H Gonggong Dec 0.8285: ratio 212.0050 (0.47 %) — no target |
+| H Aldebaran – H Gonggong | Dec | 28.4223 | — | S Gonggong → H Gonggong 0.8285: ratio 34.3050 (2.92 %) — no target | S Gonggong → H Gonggong RA 0.7598: ratio 37.4064 (2.67 %) — conjunction leg, not scored |
+| H Antares – H Gonggong | Dec | 14.5172 | — | S Gonggong → H Gonggong 0.8285: ratio 17.5218 (5.71 %) — no target | S Gonggong → H Gonggong RA 0.7598: ratio 19.1059 (5.23 %) — conjunction leg, not scored |
+| H Fomalhaut – H Gonggong | Dec | 17.7096 | — | S Gonggong → H Gonggong 0.8285: ratio 21.3750 (4.68 %) — no target | S Gonggong → H Gonggong RA 0.7598: ratio 23.3074 (4.29 %) — conjunction leg, not scored |
+| H Regulus – H Gonggong | Dec | 23.8804 | — | S Gonggong → H Gonggong 0.8285: ratio 28.8230 (3.47 %) — no target | S Gonggong → H Gonggong RA 0.7598: ratio 31.4288 (3.18 %) — conjunction leg, not scored |
+| H Regulus – H Gonggong | Dec contraparallel | 0.0507 | contraparallel (83.1) |  |  |
+| S Gonggong → J Gonggong | RA | 9.4770 | — |  |  |
+| S Gonggong → J Gonggong | Dec | 11.3533 | 7×φ golden (16.4) |  |  |
+| J Aldebaran – J Gonggong | RA | 101.2462 | — | S Gonggong → J Gonggong 9.4770: ratio 10.6834 (9.36 %) — no target | S Gonggong → J Gonggong Dec 11.3533: ratio 8.9178 (11.21 %) — no target |
+| J Antares – J Gonggong | RA | 80.3725 | — | S Gonggong → J Gonggong 9.4770: ratio 8.4808 (11.79 %) — no target | S Gonggong → J Gonggong Dec 11.3533: ratio 7.0792 (14.13 %) — no target |
+| J Fomalhaut – J Gonggong | RA | 16.6852 | 16.6667 ninth (44.5) | S Gonggong → J Gonggong 9.4770: ratio 1.7606 (56.80 %) — no target | S Gonggong → J Gonggong Dec 11.3533: ratio 1.4696 (68.04 %) — no target |
+| J Regulus – J Gonggong | RA | 175.6390 | — | S Gonggong → J Gonggong 9.4770: ratio 18.5332 (5.40 %) — no target | S Gonggong → J Gonggong Dec 11.3533: ratio 15.4703 (6.46 %) — no target |
+| J Aldebaran – J Gonggong | Dec | 38.9496 | — | S Gonggong → J Gonggong 11.3533: ratio 3.4307 (29.15 %) — no target | S Gonggong → J Gonggong RA 9.4770: ratio 4.1099 (24.33 %) — no target |
+| J Antares – J Gonggong | Dec | 3.9932 | 4 (65.9) | S Gonggong → J Gonggong 11.3533: ratio 2.8432 (284.32 %) — no target | S Gonggong → J Gonggong RA 9.4770: ratio 2.3733 (237.33 %) — no target |
+| J Fomalhaut – J Gonggong | Dec | 7.1789 | — | S Gonggong → J Gonggong 11.3533: ratio 1.5815 (158.15 %) — no target | S Gonggong → J Gonggong RA 9.4770: ratio 1.3201 (132.01 %) — no target |
+| J Regulus – J Gonggong | Dec | 34.4083 | — | S Gonggong → J Gonggong 11.3533: ratio 3.0307 (33.00 %) — no target | S Gonggong → J Gonggong RA 9.4770: ratio 3.6307 (27.54 %) — no target |
+| H Gonggong – J Gonggong | RA | 8.7172 | — |  |  |
+| H Gonggong – J Gonggong | Dec | 10.5248 | — |  |  |
 
 Sky lines on the same target:
 
@@ -1117,30 +1117,30 @@ Other scoring sky lines on Gonggong:
 
 ## Haumea
 
-| Line | Plane | Value | Score | Same-body ratio |
-|---|---|---|---|---|
-| S Haumea → H Haumea | RA | 2.5159 | — |  |
-| S Haumea → H Haumea | Dec | 0.7761 | — |  |
-| H Aldebaran – H Haumea | RA | 145.5566 | — | S Haumea → H Haumea 2.5159: ratio 57.8540 (1.73 %) — no target |
-| H Antares – H Haumea | RA | 32.8188 | — | S Haumea → H Haumea 2.5159: ratio 13.0444 (7.67 %) → 13 1/13 cut (31.6) |
-| H Fomalhaut – H Haumea | RA | 129.8738 | — | S Haumea → H Haumea 2.5159: ratio 51.6206 (1.94 %) — no target |
-| H Regulus – H Haumea | RA | 62.4389 | — | S Haumea → H Haumea 2.5159: ratio 24.8174 (4.03 %) — no target |
-| H Aldebaran – H Haumea | Dec | 0.0574 | conj (80.9) | S Haumea → H Haumea 0.7761: ratio 13.5311 (1353.11 %) — conjunction leg, not scored |
-| H Antares – H Haumea | Dec | 42.9969 | 43 (84.3) | S Haumea → H Haumea 0.7761: ratio 55.3998 (1.81 %) — no target |
-| H Fomalhaut – H Haumea | Dec | 46.1893 | — | S Haumea → H Haumea 0.7761: ratio 59.5131 (1.68 %) — no target |
-| H Regulus – H Haumea | Dec | 4.5993 | — | S Haumea → H Haumea 0.7761: ratio 5.9261 (16.87 %) — no target |
-| S Haumea → J Haumea | RA | 37.9398 | — |  |
-| S Haumea → J Haumea | Dec | 8.2537 | — |  |
-| J Aldebaran – J Haumea | RA | 110.1359 | — | S Haumea → J Haumea 37.9398: ratio 2.9029 (34.45 %) — no target |
-| J Antares – J Haumea | RA | 68.2454 | — | S Haumea → J Haumea 37.9398: ratio 1.7988 (55.59 %) → 9/5 minor seventh (5-limit) (54.8) |
-| J Fomalhaut – J Haumea | RA | 165.3031 | — | S Haumea → J Haumea 37.9398: ratio 4.3570 (22.95 %) — no target |
-| J Regulus – J Haumea | RA | 27.0211 | — | S Haumea → J Haumea 37.9398: ratio 1.4041 (140.41 %) — no target |
-| J Aldebaran – J Haumea | Dec | 7.5325 | — | S Haumea → J Haumea 8.2537: ratio 1.0957 (109.57 %) — no target |
-| J Antares – J Haumea | Dec | 50.4753 | — | S Haumea → J Haumea 8.2537: ratio 6.1154 (16.35 %) — no target |
-| J Fomalhaut – J Haumea | Dec | 53.6610 | — | S Haumea → J Haumea 8.2537: ratio 6.5014 (15.38 %) — no target |
-| J Regulus – J Haumea | Dec | 12.0738 | — | S Haumea → J Haumea 8.2537: ratio 1.4628 (68.36 %) — no target |
-| H Haumea – J Haumea | RA | 35.4239 | — |  |
-| H Haumea – J Haumea | Dec | 7.4776 | — |  |
+| Line | Plane | Value | Score | Same-body ratio | Crossed same-body ratio |
+|---|---|---|---|---|---|
+| S Haumea → H Haumea | RA | 2.5159 | — |  |  |
+| S Haumea → H Haumea | Dec | 0.7761 | — |  |  |
+| H Aldebaran – H Haumea | RA | 145.5566 | — | S Haumea → H Haumea 2.5159: ratio 57.8540 (1.73 %) — no target | S Haumea → H Haumea Dec 0.7761: ratio 187.5441 (0.53 %) — no target |
+| H Antares – H Haumea | RA | 32.8188 | — | S Haumea → H Haumea 2.5159: ratio 13.0444 (7.67 %) → 13 1/13 cut (31.6) | S Haumea → H Haumea Dec 0.7761: ratio 42.2858 (2.36 %) — no target |
+| H Fomalhaut – H Haumea | RA | 129.8738 | — | S Haumea → H Haumea 2.5159: ratio 51.6206 (1.94 %) — no target | S Haumea → H Haumea Dec 0.7761: ratio 167.3375 (0.60 %) — no target |
+| H Regulus – H Haumea | RA | 62.4389 | — | S Haumea → H Haumea 2.5159: ratio 24.8174 (4.03 %) — no target | S Haumea → H Haumea Dec 0.7761: ratio 80.4501 (1.24 %) — no target |
+| H Aldebaran – H Haumea | Dec | 0.0574 | conj (80.9) | S Haumea → H Haumea 0.7761: ratio 13.5311 (1353.11 %) — conjunction leg, not scored | S Haumea → H Haumea RA 2.5159: ratio 43.8636 (4386.36 %) — conjunction leg, not scored |
+| H Antares – H Haumea | Dec | 42.9969 | 43 (84.3) | S Haumea → H Haumea 0.7761: ratio 55.3998 (1.81 %) — no target | S Haumea → H Haumea RA 2.5159: ratio 17.0899 (5.85 %) — no target |
+| H Fomalhaut – H Haumea | Dec | 46.1893 | — | S Haumea → H Haumea 0.7761: ratio 59.5131 (1.68 %) — no target | S Haumea → H Haumea RA 2.5159: ratio 18.3587 (5.45 %) — no target |
+| H Regulus – H Haumea | Dec | 4.5993 | — | S Haumea → H Haumea 0.7761: ratio 5.9261 (16.87 %) — no target | S Haumea → H Haumea RA 2.5159: ratio 1.8281 (54.70 %) — no target |
+| S Haumea → J Haumea | RA | 37.9398 | — |  |  |
+| S Haumea → J Haumea | Dec | 8.2537 | — |  |  |
+| J Aldebaran – J Haumea | RA | 110.1359 | — | S Haumea → J Haumea 37.9398: ratio 2.9029 (34.45 %) — no target | S Haumea → J Haumea Dec 8.2537: ratio 13.3438 (7.49 %) — no target |
+| J Antares – J Haumea | RA | 68.2454 | — | S Haumea → J Haumea 37.9398: ratio 1.7988 (55.59 %) → 9/5 minor seventh (5-limit) (54.8) | S Haumea → J Haumea Dec 8.2537: ratio 8.2684 (12.09 %) — no target |
+| J Fomalhaut – J Haumea | RA | 165.3031 | — | S Haumea → J Haumea 37.9398: ratio 4.3570 (22.95 %) — no target | S Haumea → J Haumea Dec 8.2537: ratio 20.0276 (4.99 %) → 20 1/20 cut (72.4) |
+| J Regulus – J Haumea | RA | 27.0211 | — | S Haumea → J Haumea 37.9398: ratio 1.4041 (140.41 %) — no target | S Haumea → J Haumea Dec 8.2537: ratio 3.2738 (30.55 %) — no target |
+| J Aldebaran – J Haumea | Dec | 7.5325 | — | S Haumea → J Haumea 8.2537: ratio 1.0957 (109.57 %) — no target | S Haumea → J Haumea RA 37.9398: ratio 5.0368 (503.68 %) — no target |
+| J Antares – J Haumea | Dec | 50.4753 | — | S Haumea → J Haumea 8.2537: ratio 6.1154 (16.35 %) — no target | S Haumea → J Haumea RA 37.9398: ratio 1.3304 (75.17 %) → 4/3 fourth (12.1) |
+| J Fomalhaut – J Haumea | Dec | 53.6610 | — | S Haumea → J Haumea 8.2537: ratio 6.5014 (15.38 %) — no target | S Haumea → J Haumea RA 37.9398: ratio 1.4144 (70.70 %) → √2 tritone (92.5) |
+| J Regulus – J Haumea | Dec | 12.0738 | — | S Haumea → J Haumea 8.2537: ratio 1.4628 (68.36 %) — no target | S Haumea → J Haumea RA 37.9398: ratio 3.1423 (314.23 %) — no target |
+| H Haumea – J Haumea | RA | 35.4239 | — |  |  |
+| H Haumea – J Haumea | Dec | 7.4776 | — |  |  |
 
 Sky lines on the same target:
 
@@ -1166,30 +1166,30 @@ Other scoring sky lines on Haumea:
 
 ## Makemake
 
-| Line | Plane | Value | Score | Same-body ratio |
-|---|---|---|---|---|
-| S Makemake → H Makemake | RA | 2.1328 | — |  |
-| S Makemake → H Makemake | Dec | 1.3470 | — |  |
-| H Aldebaran – H Makemake | RA | 127.3851 | — | S Makemake → H Makemake 2.1328: ratio 59.7257 (1.67 %) — no target |
-| H Antares – H Makemake | RA | 50.9903 | 51 (51.7) | S Makemake → H Makemake 2.1328: ratio 23.9073 (4.18 %) — no target |
-| H Fomalhaut – H Makemake | RA | 148.0453 | — | S Makemake → H Makemake 2.1328: ratio 69.4124 (1.44 %) — no target |
-| H Regulus – H Makemake | RA | 44.2674 | — | S Makemake → H Makemake 2.1328: ratio 20.7552 (4.82 %) — no target |
-| H Aldebaran – H Makemake | Dec | 7.7986 | — | S Makemake → H Makemake 1.3470: ratio 5.7895 (17.27 %) — no target |
-| H Antares – H Makemake | Dec | 50.7381 | — | S Makemake → H Makemake 1.3470: ratio 37.6666 (2.65 %) — no target |
-| H Fomalhaut – H Makemake | Dec | 53.9305 | — | S Makemake → H Makemake 1.3470: ratio 40.0365 (2.50 %) — no target |
-| H Regulus – H Makemake | Dec | 12.3406 | — | S Makemake → H Makemake 1.3470: ratio 9.1613 (10.92 %) — no target |
-| S Makemake → J Makemake | RA | 39.0613 | — |  |
-| S Makemake → J Makemake | Dec | 14.6528 | — |  |
-| J Aldebaran – J Makemake | RA | 90.4598 | — | S Makemake → J Makemake 39.0613: ratio 2.3158 (43.18 %) — no target |
-| J Antares – J Makemake | RA | 87.9215 | — | S Makemake → J Makemake 39.0613: ratio 2.2509 (44.43 %) → 9/4 major ninth (74.6) |
-| J Fomalhaut – J Makemake | RA | 175.0208 | — | S Makemake → J Makemake 39.0613: ratio 4.4807 (22.32 %) — no target |
-| J Regulus – J Makemake | RA | 7.3450 | — | S Makemake → J Makemake 39.0613: ratio 5.3181 (531.81 %) — no target |
-| J Aldebaran – J Makemake | Dec | 21.1020 | — | S Makemake → J Makemake 14.6528: ratio 1.4401 (69.44 %) — no target |
-| J Antares – J Makemake | Dec | 64.0447 | — | S Makemake → J Makemake 14.6528: ratio 4.3708 (22.88 %) — no target |
-| J Fomalhaut – J Makemake | Dec | 67.2304 | — | S Makemake → J Makemake 14.6528: ratio 4.5882 (21.79 %) — no target |
-| J Regulus – J Makemake | Dec | 25.6432 | — | S Makemake → J Makemake 14.6528: ratio 1.7501 (57.14 %) → 7/4 harmonic seventh (98.0) |
-| H Makemake – J Makemake | RA | 36.9285 | — |  |
-| H Makemake – J Makemake | Dec | 13.3058 | — |  |
+| Line | Plane | Value | Score | Same-body ratio | Crossed same-body ratio |
+|---|---|---|---|---|---|
+| S Makemake → H Makemake | RA | 2.1328 | — |  |  |
+| S Makemake → H Makemake | Dec | 1.3470 | — |  |  |
+| H Aldebaran – H Makemake | RA | 127.3851 | — | S Makemake → H Makemake 2.1328: ratio 59.7257 (1.67 %) — no target | S Makemake → H Makemake Dec 1.3470: ratio 94.5671 (1.06 %) — no target |
+| H Antares – H Makemake | RA | 50.9903 | 51 (51.7) | S Makemake → H Makemake 2.1328: ratio 23.9073 (4.18 %) — no target | S Makemake → H Makemake Dec 1.3470: ratio 37.8538 (2.64 %) — no target |
+| H Fomalhaut – H Makemake | RA | 148.0453 | — | S Makemake → H Makemake 2.1328: ratio 69.4124 (1.44 %) — no target | S Makemake → H Makemake Dec 1.3470: ratio 109.9046 (0.91 %) — no target |
+| H Regulus – H Makemake | RA | 44.2674 | — | S Makemake → H Makemake 2.1328: ratio 20.7552 (4.82 %) — no target | S Makemake → H Makemake Dec 1.3470: ratio 32.8628 (3.04 %) — no target |
+| H Aldebaran – H Makemake | Dec | 7.7986 | — | S Makemake → H Makemake 1.3470: ratio 5.7895 (17.27 %) — no target | S Makemake → H Makemake RA 2.1328: ratio 3.6565 (27.35 %) — no target |
+| H Antares – H Makemake | Dec | 50.7381 | — | S Makemake → H Makemake 1.3470: ratio 37.6666 (2.65 %) — no target | S Makemake → H Makemake RA 2.1328: ratio 23.7891 (4.20 %) — no target |
+| H Fomalhaut – H Makemake | Dec | 53.9305 | — | S Makemake → H Makemake 1.3470: ratio 40.0365 (2.50 %) — no target | S Makemake → H Makemake RA 2.1328: ratio 25.2858 (3.95 %) — no target |
+| H Regulus – H Makemake | Dec | 12.3406 | — | S Makemake → H Makemake 1.3470: ratio 9.1613 (10.92 %) — no target | S Makemake → H Makemake RA 2.1328: ratio 5.7860 (17.28 %) — no target |
+| S Makemake → J Makemake | RA | 39.0613 | — |  |  |
+| S Makemake → J Makemake | Dec | 14.6528 | — |  |  |
+| J Aldebaran – J Makemake | RA | 90.4598 | — | S Makemake → J Makemake 39.0613: ratio 2.3158 (43.18 %) — no target | S Makemake → J Makemake Dec 14.6528: ratio 6.1735 (16.20 %) — no target |
+| J Antares – J Makemake | RA | 87.9215 | — | S Makemake → J Makemake 39.0613: ratio 2.2509 (44.43 %) → 9/4 major ninth (74.6) | S Makemake → J Makemake Dec 14.6528: ratio 6.0003 (16.67 %) → 6 6th harmonic (98.4) |
+| J Fomalhaut – J Makemake | RA | 175.0208 | — | S Makemake → J Makemake 39.0613: ratio 4.4807 (22.32 %) — no target | S Makemake → J Makemake Dec 14.6528: ratio 11.9445 (8.37 %) → 12 1/12 cut (7.5) |
+| J Regulus – J Makemake | RA | 7.3450 | — | S Makemake → J Makemake 39.0613: ratio 5.3181 (531.81 %) — no target | S Makemake → J Makemake Dec 14.6528: ratio 1.9949 (199.49 %) → 2 octave (74.7) |
+| J Aldebaran – J Makemake | Dec | 21.1020 | — | S Makemake → J Makemake 14.6528: ratio 1.4401 (69.44 %) — no target | S Makemake → J Makemake RA 39.0613: ratio 1.8511 (185.11 %) — no target |
+| J Antares – J Makemake | Dec | 64.0447 | — | S Makemake → J Makemake 14.6528: ratio 4.3708 (22.88 %) — no target | S Makemake → J Makemake RA 39.0613: ratio 1.6396 (60.99 %) — no target |
+| J Fomalhaut – J Makemake | Dec | 67.2304 | — | S Makemake → J Makemake 14.6528: ratio 4.5882 (21.79 %) — no target | S Makemake → J Makemake RA 39.0613: ratio 1.7212 (58.10 %) — no target |
+| J Regulus – J Makemake | Dec | 25.6432 | — | S Makemake → J Makemake 14.6528: ratio 1.7501 (57.14 %) → 7/4 harmonic seventh (98.0) | S Makemake → J Makemake RA 39.0613: ratio 1.5233 (152.33 %) — no target |
+| H Makemake – J Makemake | RA | 36.9285 | — |  |  |
+| H Makemake – J Makemake | Dec | 13.3058 | — |  |  |
 
 Sky lines on the same target:
 
@@ -1225,30 +1225,30 @@ Other scoring sky lines on Makemake:
 
 ## Orcus
 
-| Line | Plane | Value | Score | Same-body ratio |
-|---|---|---|---|---|
-| S Orcus → H Orcus | RA | 2.3633 | — |  |
-| S Orcus → H Orcus | Dec | 1.2493 | — |  |
-| H Aldebaran – H Orcus | RA | 84.6078 | — | S Orcus → H Orcus 2.3633: ratio 35.8011 (2.79 %) — no target |
-| H Antares – H Orcus | RA | 93.7676 | — | S Orcus → H Orcus 2.3633: ratio 39.6770 (2.52 %) — no target |
-| H Fomalhaut – H Orcus | RA | 169.1774 | — | S Orcus → H Orcus 2.3633: ratio 71.5861 (1.40 %) — no target |
-| H Regulus – H Orcus | RA | 1.4901 | conj (0.7) | S Orcus → H Orcus 2.3633: ratio 1.5860 (158.60 %) — conjunction leg, not scored |
-| H Aldebaran – H Orcus | Dec | 27.0151 | 27 (24.6) | S Orcus → H Orcus 1.2493: ratio 21.6234 (4.62 %) — no target |
-| H Antares – H Orcus | Dec | 15.9244 | — | S Orcus → H Orcus 1.2493: ratio 12.7462 (7.85 %) — no target |
-| H Fomalhaut – H Orcus | Dec | 19.1168 | — | S Orcus → H Orcus 1.2493: ratio 15.3015 (6.54 %) — no target |
-| H Regulus – H Orcus | Dec | 22.4731 | — | S Orcus → H Orcus 1.2493: ratio 17.9879 (5.56 %) → 18 1/18 cut (86.6) |
-| S Orcus → J Orcus | RA | 33.6571 | — |  |
-| S Orcus → J Orcus | Dec | 19.8873 | — |  |
-| J Aldebaran – J Orcus | RA | 53.3172 | — | S Orcus → J Orcus 33.6571: ratio 1.5841 (63.13 %) — no target |
-| J Antares – J Orcus | RA | 125.0641 | — | S Orcus → J Orcus 33.6571: ratio 3.7158 (26.91 %) — no target |
-| J Fomalhaut – J Orcus | RA | 137.8782 | — | S Orcus → J Orcus 33.6571: ratio 4.0966 (24.41 %) — no target |
-| J Regulus – J Orcus | RA | 29.7976 | — | S Orcus → J Orcus 33.6571: ratio 1.1295 (112.95 %) — no target |
-| J Aldebaran – J Orcus | Dec | 8.3795 | — | S Orcus → J Orcus 19.8873: ratio 2.3733 (237.33 %) — no target |
-| J Antares – J Orcus | Dec | 34.5632 | — | S Orcus → J Orcus 19.8873: ratio 1.7380 (57.54 %) — no target |
-| J Fomalhaut – J Orcus | Dec | 37.7489 | — | S Orcus → J Orcus 19.8873: ratio 1.8981 (52.68 %) — no target |
-| J Regulus – J Orcus | Dec | 3.8383 | — | S Orcus → J Orcus 19.8873: ratio 5.1813 (518.13 %) — no target |
-| H Orcus – J Orcus | RA | 31.2938 | — |  |
-| H Orcus – J Orcus | Dec | 18.6380 | — |  |
+| Line | Plane | Value | Score | Same-body ratio | Crossed same-body ratio |
+|---|---|---|---|---|---|
+| S Orcus → H Orcus | RA | 2.3633 | — |  |  |
+| S Orcus → H Orcus | Dec | 1.2493 | — |  |  |
+| H Aldebaran – H Orcus | RA | 84.6078 | — | S Orcus → H Orcus 2.3633: ratio 35.8011 (2.79 %) — no target | S Orcus → H Orcus Dec 1.2493: ratio 67.7217 (1.48 %) — no target |
+| H Antares – H Orcus | RA | 93.7676 | — | S Orcus → H Orcus 2.3633: ratio 39.6770 (2.52 %) — no target | S Orcus → H Orcus Dec 1.2493: ratio 75.0534 (1.33 %) — no target |
+| H Fomalhaut – H Orcus | RA | 169.1774 | — | S Orcus → H Orcus 2.3633: ratio 71.5861 (1.40 %) — no target | S Orcus → H Orcus Dec 1.2493: ratio 135.4129 (0.74 %) — no target |
+| H Regulus – H Orcus | RA | 1.4901 | conj (0.7) | S Orcus → H Orcus 2.3633: ratio 1.5860 (158.60 %) — conjunction leg, not scored | S Orcus → H Orcus Dec 1.2493: ratio 1.1927 (83.84 %) — conjunction leg, not scored |
+| H Aldebaran – H Orcus | Dec | 27.0151 | 27 (24.6) | S Orcus → H Orcus 1.2493: ratio 21.6234 (4.62 %) — no target | S Orcus → H Orcus RA 2.3633: ratio 11.4312 (8.75 %) — no target |
+| H Antares – H Orcus | Dec | 15.9244 | — | S Orcus → H Orcus 1.2493: ratio 12.7462 (7.85 %) — no target | S Orcus → H Orcus RA 2.3633: ratio 6.7383 (14.84 %) — no target |
+| H Fomalhaut – H Orcus | Dec | 19.1168 | — | S Orcus → H Orcus 1.2493: ratio 15.3015 (6.54 %) — no target | S Orcus → H Orcus RA 2.3633: ratio 8.0891 (12.36 %) — no target |
+| H Regulus – H Orcus | Dec | 22.4731 | — | S Orcus → H Orcus 1.2493: ratio 17.9879 (5.56 %) → 18 1/18 cut (86.6) | S Orcus → H Orcus RA 2.3633: ratio 9.5093 (10.52 %) — no target |
+| S Orcus → J Orcus | RA | 33.6571 | — |  |  |
+| S Orcus → J Orcus | Dec | 19.8873 | — |  |  |
+| J Aldebaran – J Orcus | RA | 53.3172 | — | S Orcus → J Orcus 33.6571: ratio 1.5841 (63.13 %) — no target | S Orcus → J Orcus Dec 19.8873: ratio 2.6810 (37.30 %) — no target |
+| J Antares – J Orcus | RA | 125.0641 | — | S Orcus → J Orcus 33.6571: ratio 3.7158 (26.91 %) — no target | S Orcus → J Orcus Dec 19.8873: ratio 6.2886 (15.90 %) — no target |
+| J Fomalhaut – J Orcus | RA | 137.8782 | — | S Orcus → J Orcus 33.6571: ratio 4.0966 (24.41 %) — no target | S Orcus → J Orcus Dec 19.8873: ratio 6.9330 (14.42 %) — no target |
+| J Regulus – J Orcus | RA | 29.7976 | — | S Orcus → J Orcus 33.6571: ratio 1.1295 (112.95 %) — no target | S Orcus → J Orcus Dec 19.8873: ratio 1.4983 (66.74 %) → 3/2 fifth (91.6) |
+| J Aldebaran – J Orcus | Dec | 8.3795 | — | S Orcus → J Orcus 19.8873: ratio 2.3733 (237.33 %) — no target | S Orcus → J Orcus RA 33.6571: ratio 4.0166 (401.66 %) → 4 double octave (17.1) |
+| J Antares – J Orcus | Dec | 34.5632 | — | S Orcus → J Orcus 19.8873: ratio 1.7380 (57.54 %) — no target | S Orcus → J Orcus RA 33.6571: ratio 1.0269 (97.38 %) — no target |
+| J Fomalhaut – J Orcus | Dec | 37.7489 | — | S Orcus → J Orcus 19.8873: ratio 1.8981 (52.68 %) — no target | S Orcus → J Orcus RA 33.6571: ratio 1.1216 (89.16 %) — no target |
+| J Regulus – J Orcus | Dec | 3.8383 | — | S Orcus → J Orcus 19.8873: ratio 5.1813 (518.13 %) — no target | S Orcus → J Orcus RA 33.6571: ratio 8.7687 (876.87 %) — no target |
+| H Orcus – J Orcus | RA | 31.2938 | — |  |  |
+| H Orcus – J Orcus | Dec | 18.6380 | — |  |  |
 
 Sky lines on the same target:
 
@@ -1284,30 +1284,30 @@ Other scoring sky lines on Orcus:
 
 ## Quaoar
 
-| Line | Plane | Value | Score | Same-body ratio |
-|---|---|---|---|---|
-| S Quaoar → H Quaoar | RA | 4.0821 | — |  |
-| S Quaoar → H Quaoar | Dec | 0.2333 | conj (22.2) |  |
-| H Aldebaran – H Quaoar | RA | 155.7904 | 155.556 ninth (24.5) | S Quaoar → H Quaoar 4.0821: ratio 38.1644 (2.62 %) — no target |
-| H Antares – H Quaoar | RA | 25.8342 | — | S Quaoar → H Quaoar 4.0821: ratio 6.3287 (15.80 %) — no target |
-| H Fomalhaut – H Quaoar | RA | 71.2207 | 44×φ golden (15.9) | S Quaoar → H Quaoar 4.0821: ratio 17.4472 (5.73 %) — no target |
-| H Regulus – H Quaoar | RA | 121.0919 | — | S Quaoar → H Quaoar 4.0821: ratio 29.6642 (3.37 %) — no target |
-| H Aldebaran – H Quaoar | Dec | 31.9920 | 32 (60.0) | S Quaoar → H Quaoar 0.2333: ratio 137.1535 (0.73 %) — conjunction leg, not scored |
-| H Antares – H Quaoar | Dec | 10.9475 | — | S Quaoar → H Quaoar 0.2333: ratio 46.9332 (2.13 %) — conjunction leg, not scored |
-| H Fomalhaut – H Quaoar | Dec | 14.1399 | 14.14 sqrt2 (89.5) | S Quaoar → H Quaoar 0.2333: ratio 60.6194 (1.65 %) — conjunction leg, not scored |
-| H Regulus – H Quaoar | Dec | 27.4500 | — | S Quaoar → H Quaoar 0.2333: ratio 117.6815 (0.85 %) — conjunction leg, not scored |
-| S Quaoar → J Quaoar | RA | 53.8864 | — |  |
-| S Quaoar → J Quaoar | Dec | 3.7243 | — |  |
-| J Aldebaran – J Quaoar | RA | 154.4085 | — | S Quaoar → J Quaoar 53.8864: ratio 2.8654 (34.90 %) — no target |
-| J Antares – J Quaoar | RA | 23.9727 | — | S Quaoar → J Quaoar 53.8864: ratio 2.2478 (224.78 %) → 9/4 major ninth (35.4) |
-| J Fomalhaut – J Quaoar | RA | 121.0304 | — | S Quaoar → J Quaoar 53.8864: ratio 2.2460 (44.52 %) — no target |
-| J Regulus – J Quaoar | RA | 71.2937 | — | S Quaoar → J Quaoar 53.8864: ratio 1.3230 (75.58 %) — no target |
-| J Aldebaran – J Quaoar | Dec | 28.0369 | — | S Quaoar → J Quaoar 3.7243: ratio 7.5282 (13.28 %) — no target |
-| J Antares – J Quaoar | Dec | 14.9058 | — | S Quaoar → J Quaoar 3.7243: ratio 4.0024 (24.99 %) → 4 double octave (88.2) |
-| J Fomalhaut – J Quaoar | Dec | 18.0915 | — | S Quaoar → J Quaoar 3.7243: ratio 4.8578 (20.59 %) — no target |
-| J Regulus – J Quaoar | Dec | 23.4957 | — | S Quaoar → J Quaoar 3.7243: ratio 6.3088 (15.85 %) — no target |
-| H Quaoar – J Quaoar | RA | 49.8043 | — |  |
-| H Quaoar – J Quaoar | Dec | 3.9575 | — |  |
+| Line | Plane | Value | Score | Same-body ratio | Crossed same-body ratio |
+|---|---|---|---|---|---|
+| S Quaoar → H Quaoar | RA | 4.0821 | — |  |  |
+| S Quaoar → H Quaoar | Dec | 0.2333 | conj (22.2) |  |  |
+| H Aldebaran – H Quaoar | RA | 155.7904 | 155.556 ninth (24.5) | S Quaoar → H Quaoar 4.0821: ratio 38.1644 (2.62 %) — no target | S Quaoar → H Quaoar Dec 0.2333: ratio 667.8916 (0.15 %) — conjunction leg, not scored |
+| H Antares – H Quaoar | RA | 25.8342 | — | S Quaoar → H Quaoar 4.0821: ratio 6.3287 (15.80 %) — no target | S Quaoar → H Quaoar Dec 0.2333: ratio 110.7543 (0.90 %) — conjunction leg, not scored |
+| H Fomalhaut – H Quaoar | RA | 71.2207 | 44×φ golden (15.9) | S Quaoar → H Quaoar 4.0821: ratio 17.4472 (5.73 %) — no target | S Quaoar → H Quaoar Dec 0.2333: ratio 305.3316 (0.33 %) — conjunction leg, not scored |
+| H Regulus – H Quaoar | RA | 121.0919 | — | S Quaoar → H Quaoar 4.0821: ratio 29.6642 (3.37 %) — no target | S Quaoar → H Quaoar Dec 0.2333: ratio 519.1352 (0.19 %) — conjunction leg, not scored |
+| H Aldebaran – H Quaoar | Dec | 31.9920 | 32 (60.0) | S Quaoar → H Quaoar 0.2333: ratio 137.1535 (0.73 %) — conjunction leg, not scored | S Quaoar → H Quaoar RA 4.0821: ratio 7.8372 (12.76 %) — no target |
+| H Antares – H Quaoar | Dec | 10.9475 | — | S Quaoar → H Quaoar 0.2333: ratio 46.9332 (2.13 %) — conjunction leg, not scored | S Quaoar → H Quaoar RA 4.0821: ratio 2.6818 (37.29 %) — no target |
+| H Fomalhaut – H Quaoar | Dec | 14.1399 | 14.14 sqrt2 (89.5) | S Quaoar → H Quaoar 0.2333: ratio 60.6194 (1.65 %) — conjunction leg, not scored | S Quaoar → H Quaoar RA 4.0821: ratio 3.4639 (28.87 %) — no target |
+| H Regulus – H Quaoar | Dec | 27.4500 | — | S Quaoar → H Quaoar 0.2333: ratio 117.6815 (0.85 %) — conjunction leg, not scored | S Quaoar → H Quaoar RA 4.0821: ratio 6.7245 (14.87 %) — no target |
+| S Quaoar → J Quaoar | RA | 53.8864 | — |  |  |
+| S Quaoar → J Quaoar | Dec | 3.7243 | — |  |  |
+| J Aldebaran – J Quaoar | RA | 154.4085 | — | S Quaoar → J Quaoar 53.8864: ratio 2.8654 (34.90 %) — no target | S Quaoar → J Quaoar Dec 3.7243: ratio 41.4602 (2.41 %) — no target |
+| J Antares – J Quaoar | RA | 23.9727 | — | S Quaoar → J Quaoar 53.8864: ratio 2.2478 (224.78 %) → 9/4 major ninth (35.4) | S Quaoar → J Quaoar Dec 3.7243: ratio 6.4369 (15.54 %) — no target |
+| J Fomalhaut – J Quaoar | RA | 121.0304 | — | S Quaoar → J Quaoar 53.8864: ratio 2.2460 (44.52 %) — no target | S Quaoar → J Quaoar Dec 3.7243: ratio 32.4978 (3.08 %) — no target |
+| J Regulus – J Quaoar | RA | 71.2937 | — | S Quaoar → J Quaoar 53.8864: ratio 1.3230 (75.58 %) — no target | S Quaoar → J Quaoar Dec 3.7243: ratio 19.1430 (5.22 %) — no target |
+| J Aldebaran – J Quaoar | Dec | 28.0369 | — | S Quaoar → J Quaoar 3.7243: ratio 7.5282 (13.28 %) — no target | S Quaoar → J Quaoar RA 53.8864: ratio 1.9220 (192.20 %) — no target |
+| J Antares – J Quaoar | Dec | 14.9058 | — | S Quaoar → J Quaoar 3.7243: ratio 4.0024 (24.99 %) → 4 double octave (88.2) | S Quaoar → J Quaoar RA 53.8864: ratio 3.6151 (361.51 %) — no target |
+| J Fomalhaut – J Quaoar | Dec | 18.0915 | — | S Quaoar → J Quaoar 3.7243: ratio 4.8578 (20.59 %) — no target | S Quaoar → J Quaoar RA 53.8864: ratio 2.9785 (297.85 %) — no target |
+| J Regulus – J Quaoar | Dec | 23.4957 | — | S Quaoar → J Quaoar 3.7243: ratio 6.3088 (15.85 %) — no target | S Quaoar → J Quaoar RA 53.8864: ratio 2.2935 (229.35 %) — no target |
+| H Quaoar – J Quaoar | RA | 49.8043 | — |  |  |
+| H Quaoar – J Quaoar | Dec | 3.9575 | — |  |  |
 
 Sky lines on the same target:
 
@@ -1348,30 +1348,30 @@ Other scoring sky lines on Quaoar:
 
 ## Sedna
 
-| Line | Plane | Value | Score | Same-body ratio |
-|---|---|---|---|---|
-| S Sedna → H Sedna | RA | 1.8874 | 1.88889 ninth (61.3) |  |
-| S Sedna → H Sedna | Dec | 0.4678 | — |  |
-| H Aldebaran – H Sedna | RA | 12.2992 | — | S Sedna → H Sedna 1.8874: ratio 6.5164 (15.35 %) — no target |
-| H Antares – H Sedna | RA | 169.3254 | — | S Sedna → H Sedna 1.8874: ratio 89.7123 (1.11 %) — no target |
-| H Fomalhaut – H Sedna | RA | 72.2704 | — | S Sedna → H Sedna 1.8874: ratio 38.2904 (2.61 %) — no target |
-| H Regulus – H Sedna | RA | 95.4169 | — | S Sedna → H Sedna 1.8874: ratio 50.5540 (1.98 %) — no target |
-| H Aldebaran – H Sedna | Dec | 8.7341 | — | S Sedna → H Sedna 0.4678: ratio 18.6711 (5.36 %) — no target |
-| H Antares – H Sedna | Dec | 34.2054 | — | S Sedna → H Sedna 0.4678: ratio 73.1216 (1.37 %) — no target |
-| H Fomalhaut – H Sedna | Dec | 37.3978 | — | S Sedna → H Sedna 0.4678: ratio 79.9461 (1.25 %) — no target |
-| H Regulus – H Sedna | Dec | 4.1921 | — | S Sedna → H Sedna 0.4678: ratio 8.9616 (11.16 %) — no target |
-| S Sedna → J Sedna | RA | 19.4369 | 12×φ golden (36.6) |  |
-| S Sedna → J Sedna | Dec | 4.9056 | — |  |
-| J Aldebaran – J Sedna | RA | 29.8455 | — | S Sedna → J Sedna 19.4369: ratio 1.5355 (65.13 %) — no target |
-| J Antares – J Sedna | RA | 151.7732 | — | S Sedna → J Sedna 19.4369: ratio 7.8085 (12.81 %) — no target |
-| J Fomalhaut – J Sedna | RA | 54.7155 | — | S Sedna → J Sedna 19.4369: ratio 2.8150 (35.52 %) — no target |
-| J Regulus – J Sedna | RA | 112.9603 | — | S Sedna → J Sedna 19.4369: ratio 5.8116 (17.21 %) — no target |
-| J Aldebaran – J Sedna | Dec | 13.1744 | — | S Sedna → J Sedna 4.9056: ratio 2.6856 (37.24 %) — no target |
-| J Antares – J Sedna | Dec | 29.7684 | — | S Sedna → J Sedna 4.9056: ratio 6.0682 (16.48 %) — no target |
-| J Fomalhaut – J Sedna | Dec | 32.9541 | — | S Sedna → J Sedna 4.9056: ratio 6.7176 (14.89 %) — no target |
-| J Regulus – J Sedna | Dec | 8.6331 | — | S Sedna → J Sedna 4.9056: ratio 1.7598 (56.82 %) — no target |
-| H Sedna – J Sedna | RA | 17.5495 | — |  |
-| H Sedna – J Sedna | Dec | 4.4378 | 4.44444 ninth (25.5) |  |
+| Line | Plane | Value | Score | Same-body ratio | Crossed same-body ratio |
+|---|---|---|---|---|---|
+| S Sedna → H Sedna | RA | 1.8874 | 1.88889 ninth (61.3) |  |  |
+| S Sedna → H Sedna | Dec | 0.4678 | — |  |  |
+| H Aldebaran – H Sedna | RA | 12.2992 | — | S Sedna → H Sedna 1.8874: ratio 6.5164 (15.35 %) — no target | S Sedna → H Sedna Dec 0.4678: ratio 26.2923 (3.80 %) — no target |
+| H Antares – H Sedna | RA | 169.3254 | — | S Sedna → H Sedna 1.8874: ratio 89.7123 (1.11 %) — no target | S Sedna → H Sedna Dec 0.4678: ratio 361.9703 (0.28 %) — no target |
+| H Fomalhaut – H Sedna | RA | 72.2704 | — | S Sedna → H Sedna 1.8874: ratio 38.2904 (2.61 %) — no target | S Sedna → H Sedna Dec 0.4678: ratio 154.4940 (0.65 %) — no target |
+| H Regulus – H Sedna | RA | 95.4169 | — | S Sedna → H Sedna 1.8874: ratio 50.5540 (1.98 %) — no target | S Sedna → H Sedna Dec 0.4678: ratio 203.9747 (0.49 %) — no target |
+| H Aldebaran – H Sedna | Dec | 8.7341 | — | S Sedna → H Sedna 0.4678: ratio 18.6711 (5.36 %) — no target | S Sedna → H Sedna RA 1.8874: ratio 4.6275 (21.61 %) — no target |
+| H Antares – H Sedna | Dec | 34.2054 | — | S Sedna → H Sedna 0.4678: ratio 73.1216 (1.37 %) — no target | S Sedna → H Sedna RA 1.8874: ratio 18.1228 (5.52 %) — no target |
+| H Fomalhaut – H Sedna | Dec | 37.3978 | — | S Sedna → H Sedna 0.4678: ratio 79.9461 (1.25 %) — no target | S Sedna → H Sedna RA 1.8874: ratio 19.8142 (5.05 %) — no target |
+| H Regulus – H Sedna | Dec | 4.1921 | — | S Sedna → H Sedna 0.4678: ratio 8.9616 (11.16 %) — no target | S Sedna → H Sedna RA 1.8874: ratio 2.2211 (45.02 %) — no target |
+| S Sedna → J Sedna | RA | 19.4369 | 12×φ golden (36.6) |  |  |
+| S Sedna → J Sedna | Dec | 4.9056 | — |  |  |
+| J Aldebaran – J Sedna | RA | 29.8455 | — | S Sedna → J Sedna 19.4369: ratio 1.5355 (65.13 %) — no target | S Sedna → J Sedna Dec 4.9056: ratio 6.0840 (16.44 %) — no target |
+| J Antares – J Sedna | RA | 151.7732 | — | S Sedna → J Sedna 19.4369: ratio 7.8085 (12.81 %) — no target | S Sedna → J Sedna Dec 4.9056: ratio 30.9387 (3.23 %) — no target |
+| J Fomalhaut – J Sedna | RA | 54.7155 | — | S Sedna → J Sedna 19.4369: ratio 2.8150 (35.52 %) — no target | S Sedna → J Sedna Dec 4.9056: ratio 11.1537 (8.97 %) — no target |
+| J Regulus – J Sedna | RA | 112.9603 | — | S Sedna → J Sedna 19.4369: ratio 5.8116 (17.21 %) — no target | S Sedna → J Sedna Dec 4.9056: ratio 23.0268 (4.34 %) — no target |
+| J Aldebaran – J Sedna | Dec | 13.1744 | — | S Sedna → J Sedna 4.9056: ratio 2.6856 (37.24 %) — no target | S Sedna → J Sedna RA 19.4369: ratio 1.4754 (147.54 %) — no target |
+| J Antares – J Sedna | Dec | 29.7684 | — | S Sedna → J Sedna 4.9056: ratio 6.0682 (16.48 %) — no target | S Sedna → J Sedna RA 19.4369: ratio 1.5315 (65.29 %) — no target |
+| J Fomalhaut – J Sedna | Dec | 32.9541 | — | S Sedna → J Sedna 4.9056: ratio 6.7176 (14.89 %) — no target | S Sedna → J Sedna RA 19.4369: ratio 1.6954 (58.98 %) — no target |
+| J Regulus – J Sedna | Dec | 8.6331 | — | S Sedna → J Sedna 4.9056: ratio 1.7598 (56.82 %) — no target | S Sedna → J Sedna RA 19.4369: ratio 2.2514 (225.14 %) → 9/4 major ninth (57.5) |
+| H Sedna – J Sedna | RA | 17.5495 | — |  |  |
+| H Sedna – J Sedna | Dec | 4.4378 | 4.44444 ninth (25.5) |  |  |
 
 Sky lines on the same target:
 
@@ -1407,30 +1407,30 @@ Other scoring sky lines on Sedna:
 
 ## Transpluto
 
-| Line | Plane | Value | Score | Same-body ratio |
-|---|---|---|---|---|
-| S Transpluto → H Transpluto | RA | 0.8311 | conj (44.6) |  |
-| S Transpluto → H Transpluto | Dec | 0.3138 | — |  |
-| H Aldebaran – H Transpluto | RA | 84.5724 | — | S Transpluto → H Transpluto 0.8311: ratio 101.7636 (0.98 %) — conjunction leg, not scored |
-| H Antares – H Transpluto | RA | 93.8030 | — | S Transpluto → H Transpluto 0.8311: ratio 112.8706 (0.89 %) — conjunction leg, not scored |
-| H Fomalhaut – H Transpluto | RA | 169.1421 | — | S Transpluto → H Transpluto 0.8311: ratio 203.5240 (0.49 %) — conjunction leg, not scored |
-| H Regulus – H Transpluto | RA | 1.4547 | conj (3.0) | S Transpluto → H Transpluto 0.8311: ratio 1.7504 (57.13 %) — conjunction leg, not scored |
-| H Aldebaran – H Transpluto | Dec | 5.5786 | — | S Transpluto → H Transpluto 0.3138: ratio 17.7801 (5.62 %) — no target |
-| H Antares – H Transpluto | Dec | 37.3609 | — | S Transpluto → H Transpluto 0.3138: ratio 119.0771 (0.84 %) — no target |
-| H Fomalhaut – H Transpluto | Dec | 40.5533 | — | S Transpluto → H Transpluto 0.3138: ratio 129.2520 (0.77 %) — no target |
-| H Regulus – H Transpluto | Dec | 1.0366 | — | S Transpluto → H Transpluto 0.3138: ratio 3.3039 (30.27 %) — no target |
-| S Transpluto → J Transpluto | RA | 13.1838 | — |  |
-| S Transpluto → J Transpluto | Dec | 4.5858 | — |  |
-| J Aldebaran – J Transpluto | RA | 72.2229 | — | S Transpluto → J Transpluto 13.1838: ratio 5.4781 (18.25 %) — no target |
-| J Antares – J Transpluto | RA | 106.1584 | — | S Transpluto → J Transpluto 13.1838: ratio 8.0522 (12.42 %) — no target |
-| J Fomalhaut – J Transpluto | RA | 156.7839 | — | S Transpluto → J Transpluto 13.1838: ratio 11.8921 (8.41 %) — no target |
-| J Regulus – J Transpluto | RA | 10.8919 | — | S Transpluto → J Transpluto 13.1838: ratio 1.2104 (121.04 %) — no target |
-| J Aldebaran – J Transpluto | Dec | 1.3090 | — | S Transpluto → J Transpluto 4.5858: ratio 3.5032 (350.32 %) → 7/2 septimal (octave + harmonic seventh) (39.1) |
-| J Antares – J Transpluto | Dec | 41.6337 | — | S Transpluto → J Transpluto 4.5858: ratio 9.0789 (11.01 %) — no target |
-| J Fomalhaut – J Transpluto | Dec | 44.8195 | — | S Transpluto → J Transpluto 4.5858: ratio 9.7736 (10.23 %) — no target |
-| J Regulus – J Transpluto | Dec | 3.2322 | 2×φ golden (88.1) | S Transpluto → J Transpluto 4.5858: ratio 1.4188 (141.88 %) — no target |
-| H Transpluto – J Transpluto | RA | 12.3528 | — |  |
-| H Transpluto – J Transpluto | Dec | 4.2720 | — |  |
+| Line | Plane | Value | Score | Same-body ratio | Crossed same-body ratio |
+|---|---|---|---|---|---|
+| S Transpluto → H Transpluto | RA | 0.8311 | conj (44.6) |  |  |
+| S Transpluto → H Transpluto | Dec | 0.3138 | — |  |  |
+| H Aldebaran – H Transpluto | RA | 84.5724 | — | S Transpluto → H Transpluto 0.8311: ratio 101.7636 (0.98 %) — conjunction leg, not scored | S Transpluto → H Transpluto Dec 0.3138: ratio 269.5500 (0.37 %) — no target |
+| H Antares – H Transpluto | RA | 93.8030 | — | S Transpluto → H Transpluto 0.8311: ratio 112.8706 (0.89 %) — conjunction leg, not scored | S Transpluto → H Transpluto Dec 0.3138: ratio 298.9699 (0.33 %) — no target |
+| H Fomalhaut – H Transpluto | RA | 169.1421 | — | S Transpluto → H Transpluto 0.8311: ratio 203.5240 (0.49 %) — conjunction leg, not scored | S Transpluto → H Transpluto Dec 0.3138: ratio 539.0913 (0.19 %) — no target |
+| H Regulus – H Transpluto | RA | 1.4547 | conj (3.0) | S Transpluto → H Transpluto 0.8311: ratio 1.7504 (57.13 %) — conjunction leg, not scored | S Transpluto → H Transpluto Dec 0.3138: ratio 4.6364 (21.57 %) — conjunction leg, not scored |
+| H Aldebaran – H Transpluto | Dec | 5.5786 | — | S Transpluto → H Transpluto 0.3138: ratio 17.7801 (5.62 %) — no target | S Transpluto → H Transpluto RA 0.8311: ratio 6.7126 (14.90 %) — conjunction leg, not scored |
+| H Antares – H Transpluto | Dec | 37.3609 | — | S Transpluto → H Transpluto 0.3138: ratio 119.0771 (0.84 %) — no target | S Transpluto → H Transpluto RA 0.8311: ratio 44.9554 (2.22 %) — conjunction leg, not scored |
+| H Fomalhaut – H Transpluto | Dec | 40.5533 | — | S Transpluto → H Transpluto 0.3138: ratio 129.2520 (0.77 %) — no target | S Transpluto → H Transpluto RA 0.8311: ratio 48.7967 (2.05 %) — conjunction leg, not scored |
+| H Regulus – H Transpluto | Dec | 1.0366 | — | S Transpluto → H Transpluto 0.3138: ratio 3.3039 (30.27 %) — no target | S Transpluto → H Transpluto RA 0.8311: ratio 1.2473 (80.17 %) — conjunction leg, not scored |
+| S Transpluto → J Transpluto | RA | 13.1838 | — |  |  |
+| S Transpluto → J Transpluto | Dec | 4.5858 | — |  |  |
+| J Aldebaran – J Transpluto | RA | 72.2229 | — | S Transpluto → J Transpluto 13.1838: ratio 5.4781 (18.25 %) — no target | S Transpluto → J Transpluto Dec 4.5858: ratio 15.7494 (6.35 %) — no target |
+| J Antares – J Transpluto | RA | 106.1584 | — | S Transpluto → J Transpluto 13.1838: ratio 8.0522 (12.42 %) — no target | S Transpluto → J Transpluto Dec 4.5858: ratio 23.1496 (4.32 %) — no target |
+| J Fomalhaut – J Transpluto | RA | 156.7839 | — | S Transpluto → J Transpluto 13.1838: ratio 11.8921 (8.41 %) — no target | S Transpluto → J Transpluto Dec 4.5858: ratio 34.1893 (2.92 %) — no target |
+| J Regulus – J Transpluto | RA | 10.8919 | — | S Transpluto → J Transpluto 13.1838: ratio 1.2104 (121.04 %) — no target | S Transpluto → J Transpluto Dec 4.5858: ratio 2.3752 (42.10 %) — no target |
+| J Aldebaran – J Transpluto | Dec | 1.3090 | — | S Transpluto → J Transpluto 4.5858: ratio 3.5032 (350.32 %) → 7/2 septimal (octave + harmonic seventh) (39.1) | S Transpluto → J Transpluto RA 13.1838: ratio 10.0715 (1007.15 %) — no target |
+| J Antares – J Transpluto | Dec | 41.6337 | — | S Transpluto → J Transpluto 4.5858: ratio 9.0789 (11.01 %) — no target | S Transpluto → J Transpluto RA 13.1838: ratio 3.1579 (31.67 %) — no target |
+| J Fomalhaut – J Transpluto | Dec | 44.8195 | — | S Transpluto → J Transpluto 4.5858: ratio 9.7736 (10.23 %) — no target | S Transpluto → J Transpluto RA 13.1838: ratio 3.3996 (29.42 %) — no target |
+| J Regulus – J Transpluto | Dec | 3.2322 | 2×φ golden (88.1) | S Transpluto → J Transpluto 4.5858: ratio 1.4188 (141.88 %) — no target | S Transpluto → J Transpluto RA 13.1838: ratio 4.0789 (407.89 %) — no target |
+| H Transpluto – J Transpluto | RA | 12.3528 | — |  |  |
+| H Transpluto – J Transpluto | Dec | 4.2720 | — |  |  |
 
 Sky lines on the same target:
 

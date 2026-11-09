@@ -200,7 +200,10 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   ratio (Eddie, 9 Nov 2026, from Perfect Part's Uranus - Regulus 111.24 / Uranus - Uranus 11.09): on every royal-star row, larger / smaller
   of the star line and S X -> natal X (same chart and plane), % = same / star x 100; scored linear on the interval list (1, 3/2, 2 ... 9
   ±0.02 abs, others tapered %, families.interval_tol) + whole 10-20 ±0.5 % (Claude's choice); a conjunction leg is not scored; md 5th
-  column, xlsx columns I-O. Catterick: 1,920 rows, 153 on a target (best H Aldebaran - H Vesta RA 1.7778 16/9 99.6, runner 4). Its own scoring (Eddie,
+  column, xlsx columns I-O. Catterick: 1,920 rows, 153 on a target (best H Aldebaran - H Vesta RA 1.7778 16/9 99.6, runner 4). Crossed
+  same-body ratio (Eddie, 9 Nov 2026): the same rule against S X -> natal X in the other plane (RA star row with the Dec same-body line,
+  Dec with RA); md 6th column, xlsx P-V. Catterick: 1,920 rows, 181 on a target (best J Antares - J Makemake RA 87.9215 / Dec 14.6528 =
+  6.0003, runner 4, 98.4). Its own scoring (Eddie,
   8 Nov 2026; families.py unchanged): all linear; whole ±0.02, golden ±0.0324, φ powers ±0.15 %, ninths ±0.2 %, √2 / silver ±0.15 %,
   conj RA < 1.5 / Dec < 0.3, opposition RA within 0.75 of 180, contraparallel |Dec a + Dec b| < 0.3; no 4-digit rule; overlaps: highest
   score shown, the other families as 'also'. A chart with no META birth date has no lines (noted). Tests `python3 tests/eddie_bybody_check.py`
