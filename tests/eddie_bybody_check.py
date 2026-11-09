@@ -46,6 +46,10 @@ def strip_new(X, rows):
         if l.startswith(hj):
             continue
         c = [x.strip() for x in l.strip('|').split('|')]
+        if len(c) == 5 and (c[4] == '' or ': ratio ' in c[4]):     # line row: drop the same-body ratio column (9 Nov 2026)
+            l = '| ' + ' | '.join(c[:4]) + ' |'
+            out.append(l)
+            continue
         if len(c) == 5 and ('→' in c[0] or c[4].startswith(f'H {X} – J {X}')):
             continue
         out.append(l)
@@ -159,8 +163,46 @@ with tempfile.TemporaryDirectory() as td:
             for o in b['other']:
                 want.append((o['line'], o['plane'], round(o['value'], 6), round(o['hits'][0][2], 2)))
         check([(g[0], g[1], g[2], g[5]) for g in got] == want, f'5 {sn} rows = the .md rows ({len(want)})')
+        wr = [(l['ratio']['same'], l['ratio']['ratio']) for b in bodies for l in b['lines'] if 'ratio' in l]
+        gr = [(g[9], g[10]) for g in got if len(g) > 9 and g[8]]
+        check(len(gr) == len(wr) and all(abs(a - round(c, 6)) < 1e-9 and (b is None or abs(b - round(d, 6)) < 1e-9)
+                                          for (a, b), (c, d) in zip(gr, wr)), f'5 {sn} ratio columns ({len(wr)})')
         score_cells = [wb[sn].cell(i, 6) for i in range(1, wb[sn].max_row + 1) if isinstance(wb[sn].cell(i, 6).value, (int, float))]
         check(all(sc.fill.fgColor.rgb[-6:] == BB._fill(sc.value) for sc in score_cells), f'5 {sn} score fills')
+# 6 same-body ratio on the royal-star rows (Eddie, 9 Nov 2026)
+uv = {(l['line'], l['plane']): l for l in next(b for b in b5 if b['body'] == 'Uranus')['lines']}
+rt = uv[('H Fomalhaut – H Uranus', 'RA')]['ratio']
+check(abs(rt['same'] - 11.2375) < 5e-5 and abs(rt['ratio'] - uv[('H Fomalhaut – H Uranus', 'RA')]['value'] / rt['same']) < 1e-12
+      and rt['hits'][0][0] == '4' and abs(rt['hits'][0][2] - 100 * (0.02 - abs(rt['ratio'] - 4)) / 0.02) < 1e-9,
+      '6 Wotever Next H Fomalhaut – H Uranus RA ratio 3.9948 on 4 (linear, ±0.02)')
+check(not uv[('H Regulus – H Uranus', 'RA')]['ratio']['hits'], '6 H Regulus – H Uranus RA 10.9272 no target (10 ±0.5 % = 9.95–10.05)')
+check(abs(BB.ratio_hits(111.24 / 11.09)[0][2] - 100 * (0.05 - abs(111.24 / 11.09 - 10)) / 0.05) < 1e-9, '6 Perfect Part 10.03 on 10')
+check(BB.ratio_hits(133 / 6.657)[0][0] == '20', '6 Pholas 19.98 on 20')
+check(BB.ratio_hits(28 / 21)[0][0] == '4/3', '6 Dettori 28 / 21 on 4/3')
+good = True
+for f in files:
+    for c_, (r, bodies) in BB.run(f).items():
+        for b in bodies:
+            for l in b['lines']:
+                royal = any(l['line'].startswith(f'{ch} {Y} – ') for ch in 'HJ' for Y in BB.ROYAL) and 'contra' not in l['plane']
+                if not royal:
+                    good &= 'ratio' not in l
+                    continue
+                ch = l['line'][0]
+                sv = r['dist'][ch].get(('S', l['plane'], b['body'], b['body']))
+                if sv is None or not min(sv, l['value']) > 0:
+                    good &= 'ratio' not in l
+                    continue
+                rt = l['ratio']
+                q = max(sv, l['value']) / min(sv, l['value'])
+                good &= abs(rt['ratio'] - q) < 1e-9 and abs(rt['pct'] - 100 * sv / l['value']) < 1e-9
+                if min(sv, l['value']) < BB.CONJ[l['plane']]:
+                    good &= not rt['hits'] and rt.get('note') == 'conjunction leg, not scored'
+                else:
+                    want = sorted([(lab, n, 100 * (t - abs(q - v)) / t) for lab, n, v, t in BB.RATIO_TARGETS if abs(q - v) < t],
+                                  key=lambda h: -h[2])
+                    good &= rt['hits'] == want
+check(good, '6 every royal-star row on every _active file: ratio, %, hits; no ratio elsewhere')
 rc = BB.run(os.path.join(ROOT, 'reference/classic/race_batch_20240118_chelmsford_aw_1320_active.xlsx'))
 check(rc[1][0]['missing'] == ['J'] and 'No birth date for the jockey' in BB.md('x', rc[1][0], rc[1][1]), '4 jockey without birth date noted')
 print(f'{ok}/{ok + bad}')

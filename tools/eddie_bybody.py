@@ -59,6 +59,33 @@ CONJ = {'RA': 1.5, 'Dec': 0.3}
 OPP = 0.75
 CP = 0.3
 
+# Same-body ratio on the royal-star rows (Eddie, 9 Nov 2026: "put them on ALL the royal star rows, score as appropriate").
+# ratio = larger / smaller of the row's star line (natal X - royal star) and the same body line S X -> natal X (same chart, same
+# plane); % = same body / star line x 100. Targets (Claude's choice): Eddie's interval list with its tolerances (families.py: 1, 3/2,
+# 2 ... 9 +-0.02 absolute; the others the tapered % ), plus whole numbers 10-20 at +-0.5 % (the 1/10, 1/20 cuts: Perfect Part
+# 111.24 / 11.09 = 10.03, Pholas 133 / 6.657 = 19.98); linear score. A leg inside the conjunction range: ratio shown, not scored.
+from families import INTERVALS as _IV, interval_tol as _ivtol, AREA_A as _AREA_A  # noqa: E402
+RATIO_TARGETS = [(lab, name, v, _ivtol(lab) if lab in _AREA_A else _ivtol(lab) / 100 * v) for lab, v, name, _g in _IV]
+RATIO_TARGETS += [(str(t), f'1/{t} cut', float(t), 0.005 * t) for t in range(10, 21)]
+
+
+def ratio_hits(q):
+    out = [(lab, name, 100 * (tol - abs(q - v)) / tol) for lab, name, v, tol in RATIO_TARGETS if abs(q - v) < tol]
+    return sorted(out, key=lambda h: -h[2])
+
+
+def ratio_text(rt):
+    if rt is None:
+        return ''
+    s = f"S {rt['body']} → {rt['ch']} {rt['body']} {rt['same']:.4f}: ratio {rt['ratio']:.4f} ({rt['pct']:.2f} %)"
+    if rt.get('note'):
+        return s + f" — {rt['note']}"
+    if not rt['hits']:
+        return s + ' — no target'
+    h = rt['hits']
+    s += f" → {h[0][0]} {h[0][1]} ({h[0][2]:.1f})"
+    return s + (' (also: ' + '; '.join(f'{x[0]} ({x[2]:.1f})' for x in h[1:]) + ')' if len(h) > 1 else '')
+
 
 def hits(v, plane):
     """-> [(family, target, score)], one per family (its best target), highest score first."""
@@ -183,9 +210,22 @@ def runner_view(r, tt, tp, sky):
             ls = [(f'S {X} → {ch} {X}', pl, d.get(('S', pl, X, X))) for pl in ('RA', 'Dec')]
             for pl in ('RA', 'Dec'):
                 ls += [(f'{ch} {Y} – {ch} {X}', pl, pair(d, 'N', pl, X, Y)) for Y in ROYAL]
+            same = {pl: d.get(('S', pl, X, X)) for pl in ('RA', 'Dec')}
             for lab, pl, v in ls:
                 if v is not None:
-                    lines.append({'line': lab, 'plane': pl, 'value': v, 'hits': hits(v, pl)})
+                    ln = {'line': lab, 'plane': pl, 'value': v, 'hits': hits(v, pl)}
+                    if not lab.startswith('S ') and same[pl] is not None:
+                        sv = same[pl]
+                        rt = {'body': X, 'ch': ch, 'same': sv, 'ratio': None, 'pct': 100 * sv / v if v else None, 'hits': []}
+                        lo, hi = sorted((sv, v))
+                        if lo > 0:
+                            rt['ratio'] = hi / lo
+                            if min(sv, v) < CONJ[pl]:
+                                rt['note'] = 'conjunction leg, not scored'
+                            else:
+                                rt['hits'] = ratio_hits(rt['ratio'])
+                            ln['ratio'] = rt
+                    lines.append(ln)
             cps = [(f'S {X} → {ch} {X}', tp.get(X), npos.get(X))] + [(f'{ch} {Y} – {ch} {X}', npos.get(Y), npos.get(X))
                                                                      for Y in ROYAL]
             for lab, a, b in cps:
@@ -261,7 +301,10 @@ RULES = ('Rules (Eddie, 8 Nov 2026): all linear. Whole ±0.02; golden ±0.0324; 
          '±0.15 %; conjunction RA < 1.5 / Dec < 0.3; opposition RA within 0.75 of 180; contraparallel |Dec a + Dec b| < 0.3. '
          'Highest score first, other families as "also". Last lines: horse X – jockey X (natal to natal, RA wrapped, Dec). Sky lines on the same target = sky body / royal star pairs (Moon '
          'included, no Rahu–Ketu, no star–star) and the S Y → H X / S Y → J X lines on the same family and target as any '
-         'scoring line above them (conjunctions not matched; those S Y → natal X rows also stay under "Other"). "Other scoring sky lines": every scoring sky line on the body - S Y – S X, then S Y → H X, then S Y → J X - '
+         'scoring line above them (conjunctions not matched; those S Y → natal X rows also stay under "Other"). Same-body ratio (royal-star '
+         'rows): larger / smaller of the star line and S X → natal X (same chart and plane), % = same body / star line; scored on '
+         'the interval list (1, 3/2, 2 … 9 ±0.02, the others tapered %) and whole 10-20 ±0.5 % (1/10 … 1/20 cuts), linear; a conjunction '
+         'leg is not scored. "Other scoring sky lines": every scoring sky line on the body - S Y – S X, then S Y → H X, then S Y → J X - '
          'conjunctions included, each group highest score first. Data only, no pick (tools/eddie_bybody.py).')
 
 
@@ -271,8 +314,9 @@ def md(race, r, bodies):
     for ch in r.get('missing', []):
         out += [f"No birth date for the {'horse' if ch == 'H' else 'jockey'} in the workbook: no {ch} lines.", '']
     for b in bodies:
-        out += [f"## {b['body']}", '', '| Line | Plane | Value | Score |', '|---|---|---|---|']
-        out += [f"| {ln['line']} | {ln['plane']} | {ln['value']:.4f} | {score_text(ln['hits'])} |" for ln in b['lines']]
+        out += [f"## {b['body']}", '', '| Line | Plane | Value | Score | Same-body ratio |', '|---|---|---|---|---|']
+        out += [f"| {ln['line']} | {ln['plane']} | {ln['value']:.4f} | {score_text(ln['hits'])} | {ratio_text(ln.get('ratio'))} |"
+                for ln in b['lines']]
         out += ['', 'Sky lines on the same target:', '']
         if b['matches']:
             out += ['| Sky line | Plane | Value | Score | Matches |', '|---|---|---|---|---|']
@@ -319,41 +363,56 @@ def write_xlsx(path, race, res):
         ws.append([RULES])
         for ch in r.get('missing', []):
             ws.append([f"No birth date for the {'horse' if ch == 'H' else 'jockey'} in the workbook: no {ch} lines."])
-        head = ['Line', 'Plane', 'Value', 'Family', 'Target', 'Score', 'Also', 'Matches']
+        head = ['Line', 'Plane', 'Value', 'Family', 'Target', 'Score', 'Also', 'Matches',
+                'Same body', 'Same value', 'Ratio', '%', 'Ratio target', 'Ratio score', 'Ratio also']
+        NC = len(head)
 
         def table(title, rows, matches=False):
             ws.append([title])
             ws.cell(ws.max_row, 1).font = bold
-            for k in range(1, 9):
+            for k in range(1, NC + 1):
                 ws.cell(ws.max_row, k).fill = fill(FILL_SUB)
             if not rows:
                 ws.append(['none'])
                 return
             ws.append(head)
-            for k in range(1, 9):
+            for k in range(1, NC + 1):
                 ws.cell(ws.max_row, k).font = bold
                 ws.cell(ws.max_row, k).fill = fill(FILL_HEAD)
-            for line, plane, value, hs, m in rows:
+            for line, plane, value, hs, m, *rt in rows:
                 h = hs[0] if hs else None
                 also = '; '.join(txt(x) for x in hs[1:]) if hs else ''
-                ws.append([line, plane, round(value, 6), h[0] if h else '', _tlab(h) if h else '',
-                           round(h[2], 2) if h else None, also, m or ''])
+                row = [line, plane, round(value, 6), h[0] if h else '', _tlab(h) if h else '',
+                       round(h[2], 2) if h else None, also, m or '']
+                rt = rt[0] if rt else None
+                if rt:
+                    rh = rt['hits'][0] if rt['hits'] else None
+                    row += [f"S {rt['body']} → {rt['ch']} {rt['body']}", round(rt['same'], 6),
+                            round(rt['ratio'], 6) if rt['ratio'] is not None else None,
+                            round(rt['pct'], 2) if rt['pct'] is not None else None,
+                            f'{rh[0]} {rh[1]}' if rh else (rt.get('note') or 'no target'),
+                            round(rh[2], 2) if rh else None,
+                            '; '.join(f'{x[0]} ({x[2]:.1f})' for x in rt['hits'][1:])]
+                ws.append(row)
                 if h:
                     ws.cell(ws.max_row, 6).fill = fill(_fill(h[2]))
+                if rt and rt['hits']:
+                    ws.cell(ws.max_row, 14).fill = fill(_fill(rt['hits'][0][2]))
+                    ws.cell(ws.max_row, 14).number_format = '0.0'
                 ws.cell(ws.max_row, 3).number_format = '0.0000'
                 ws.cell(ws.max_row, 6).number_format = '0.0'
 
         for b in bodies:
             ws.append([])
             ws.append([b['body']])
-            for k in range(1, 9):
+            for k in range(1, NC + 1):
                 ws.cell(ws.max_row, k).fill = fill(FILL_BODY)
             ws.cell(ws.max_row, 1).font = Font(bold=True, size=12)
-            table('Lines', [(l['line'], l['plane'], l['value'], l['hits'], None) for l in b['lines']])
+            table('Lines', [(l['line'], l['plane'], l['value'], l['hits'], None, l.get('ratio')) for l in b['lines']])
             table('Sky lines on the same target', [(m['line'], m['plane'], m['value'], [m['hit']], m['matches'])
                                                    for m in b['matches']])
             table(f"Other scoring sky lines on {b['body']}", [(o['line'], o['plane'], o['value'], o['hits'], None) for o in b['other']])
-        for col, w in zip('ABCDEFGH', (26, 20, 11, 12, 11, 8, 46, 34)):
+        for col, w in zip('ABCDEFGHIJKLMNO', (26, 20, 11, 12, 11, 8, 46, 34, 22, 11, 11, 9, 22, 8, 24)):
             ws.column_dimensions[col].width = w
         ws['A2'].alignment = Alignment(wrap_text=False)
         ws.freeze_panes = 'A3'
