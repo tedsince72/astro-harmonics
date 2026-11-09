@@ -1,6 +1,6 @@
 # 20220406_catterick_1440 — 4 Thakuri / David Allan, body by body
 
-Rules (Eddie, 8 Nov 2026): all linear. Whole ±0.02; golden ±0.0324; φ powers ±0.15 %; ninths ±0.2 %; √2 and silver ±0.15 %; conjunction RA < 1.5 / Dec < 0.3; opposition RA within 0.75 of 180; contraparallel |Dec a + Dec b| < 0.3. Highest score first, other families as "also". Last lines: horse X – jockey X (natal to natal, RA wrapped, Dec). Sky lines on the same target = sky body / royal star pairs (Moon included, no Rahu–Ketu, no star–star) and the S Y → H X / S Y → J X lines on the same family and target as any scoring line above them (conjunctions not matched; those S Y → natal X rows also stay under "Other"). Same-body ratio (royal-star rows): larger / smaller of the star line and S X → natal X (same chart and plane), % = same body / star line; scored on the interval list (1, 3/2, 2 … 9 ±0.02, the others tapered %) and whole 10-20 ±0.5 % (1/10 … 1/20 cuts), linear; a conjunction leg is not scored. Crossed same-body ratio: the same against S X → natal X in the other plane (RA star line with the Dec same-body line, Dec with RA). Order: same-target rows that include the body first, then those with a royal star, then the rest; other rows S – S with a royal star, S – S, S → H, S → J; a blank row between the groups and after each natal Regulus line. "Other scoring sky lines": every scoring sky line on the body - S Y – S X, then S Y → H X, then S Y → J X - conjunctions included, each group highest score first. Data only, no pick (tools/eddie_bybody.py).
+Rules (Eddie, 8 Nov 2026): all linear. Whole ±0.02; golden ±0.0324; φ powers ±0.15 %; ninths ±0.2 %; √2 and silver ±0.15 %; conjunction RA < 1.5 / Dec < 0.3; opposition RA within 0.75 of 180; contraparallel |Dec a + Dec b| < 0.3. Highest score first, other families as "also". Last lines: horse X – jockey X (natal to natal, RA wrapped, Dec). Sky lines on the same target = sky body / royal star pairs (Moon included, no Rahu–Ketu, no star–star) and the S Y → H X / S Y → J X lines on the same family and target as any scoring line above them (conjunctions not matched; those S Y → natal X rows also stay under "Other"). Same-body ratio (royal-star rows): larger / smaller of the star line and S X → natal X (same chart and plane), % = same body / star line; scored on the interval list (1, 3/2, 2 … 9 ±0.02, the others tapered %) and whole 10-20 ±0.5 % (1/10 … 1/20 cuts), linear; a conjunction leg is not scored. Crossed same-body ratio: the same against S X → natal X in the other plane (RA star line with the Dec same-body line, Dec with RA). Order: same-target rows that include the body first, then those with a royal star, then the rest; other rows S – S with a royal star, S – S, S → H, S → J; a blank row between the groups, after each natal Regulus line and after the Dec contraparallel lines. "Other scoring sky lines": every scoring sky line on the body - S Y – S X, then S Y → H X, then S Y → J X - conjunctions included, each group highest score first. Data only, no pick (tools/eddie_bybody.py).
 
 ## Sun
 
@@ -747,6 +747,7 @@ Other scoring sky lines on Ketu:
 | H Regulus – H Ceres | Dec | 28.2841 | — | S Ceres → H Ceres 41.0532: ratio 1.4515 (145.15 %) — no target | S Ceres → H Ceres RA 178.9594: ratio 6.3272 (632.72 %) — no target |
 | | | | | | |
 | H Aldebaran – H Ceres | Dec contraparallel | 0.1889 | contraparallel (37.0) |  |  |
+| | | | | | |
 | S Ceres → J Ceres | RA | 149.0693 | — |  |  |
 | S Ceres → J Ceres | Dec | 36.7645 | — |  |  |
 | J Aldebaran – J Ceres | RA | 153.3943 | — | S Ceres → J Ceres 149.0693: ratio 1.0290 (97.18 %) — no target | S Ceres → J Ceres Dec 36.7645: ratio 4.1723 (23.97 %) — no target |
@@ -760,6 +761,7 @@ Other scoring sky lines on Ketu:
 | J Regulus – J Ceres | Dec | 23.9986 | 24 (93.2) | S Ceres → J Ceres 36.7645: ratio 1.5319 (153.19 %) — no target | S Ceres → J Ceres RA 149.0693: ratio 6.2116 (621.16 %) — no target |
 | | | | | | |
 | J Regulus – J Ceres | Dec contraparallel | 0.0612 | contraparallel (79.6) |  |  |
+| | | | | | |
 | H Ceres – J Ceres | RA | 29.8901 | — |  |  |
 | H Ceres – J Ceres | Dec | 4.2887 | — |  |  |
 
@@ -1178,6 +1180,7 @@ Other scoring sky lines on Eris:
 | H Regulus – H Gonggong | Dec | 23.8804 | — | S Gonggong → H Gonggong 0.8285: ratio 28.8230 (3.47 %) — no target | S Gonggong → H Gonggong RA 0.7598: ratio 31.4288 (3.18 %) — conjunction leg, not scored |
 | | | | | | |
 | H Regulus – H Gonggong | Dec contraparallel | 0.0507 | contraparallel (83.1) |  |  |
+| | | | | | |
 | S Gonggong → J Gonggong | RA | 9.4770 | — |  |  |
 | S Gonggong → J Gonggong | Dec | 11.3533 | 7×φ golden (16.4) |  |  |
 | J Aldebaran – J Gonggong | RA | 101.2462 | — | S Gonggong → J Gonggong 9.4770: ratio 10.6834 (9.36 %) — no target | S Gonggong → J Gonggong Dec 11.3533: ratio 8.9178 (11.21 %) — no target |

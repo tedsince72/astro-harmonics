@@ -204,7 +204,7 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   same-body ratio (Eddie, 9 Nov 2026): the same rule against S X -> natal X in the other plane (RA star row with the Dec same-body line,
   Dec with RA); md 6th column, xlsx P-V. Catterick: 1,920 rows, 181 on a target (best J Antares - J Makemake RA 87.9215 / Dec 14.6528 =
   6.0003, runner 4, 98.4). Layout (Eddie, 9 Nov 2026): xlsx freeze C2; a blank row after each natal Regulus line (RA and Dec, horse
-  and jockey); 'Sky lines on the same target' grouped: rows naming the body itself, then rows with a royal star, then the rest (blank row
+  and jockey) and after the Dec contraparallel lines (unless they end the table); 'Sky lines on the same target' grouped: rows naming the body itself, then rows with a royal star, then the rest (blank row
   between); 'Other' grouped S – S with a royal star, S – S, then S -> H, then S -> J (blank row before S -> H and before S -> J); each group
   highest score first. Its own scoring (Eddie,
   8 Nov 2026; families.py unchanged): all linear; whole ±0.02, golden ±0.0324, φ powers ±0.15 %, ninths ±0.2 %, √2 / silver ±0.15 %,

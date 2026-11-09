@@ -1,6 +1,6 @@
 # 20240118_chelmsford_aw_1320 — 4 New York Bay / Finley Marsh, body by body
 
-Rules (Eddie, 8 Nov 2026): all linear. Whole ±0.02; golden ±0.0324; φ powers ±0.15 %; ninths ±0.2 %; √2 and silver ±0.15 %; conjunction RA < 1.5 / Dec < 0.3; opposition RA within 0.75 of 180; contraparallel |Dec a + Dec b| < 0.3. Highest score first, other families as "also". Last lines: horse X – jockey X (natal to natal, RA wrapped, Dec). Sky lines on the same target = sky body / royal star pairs (Moon included, no Rahu–Ketu, no star–star) and the S Y → H X / S Y → J X lines on the same family and target as any scoring line above them (conjunctions not matched; those S Y → natal X rows also stay under "Other"). Same-body ratio (royal-star rows): larger / smaller of the star line and S X → natal X (same chart and plane), % = same body / star line; scored on the interval list (1, 3/2, 2 … 9 ±0.02, the others tapered %) and whole 10-20 ±0.5 % (1/10 … 1/20 cuts), linear; a conjunction leg is not scored. Crossed same-body ratio: the same against S X → natal X in the other plane (RA star line with the Dec same-body line, Dec with RA). Order: same-target rows that include the body first, then those with a royal star, then the rest; other rows S – S with a royal star, S – S, S → H, S → J; a blank row between the groups and after each natal Regulus line. "Other scoring sky lines": every scoring sky line on the body - S Y – S X, then S Y → H X, then S Y → J X - conjunctions included, each group highest score first. Data only, no pick (tools/eddie_bybody.py).
+Rules (Eddie, 8 Nov 2026): all linear. Whole ±0.02; golden ±0.0324; φ powers ±0.15 %; ninths ±0.2 %; √2 and silver ±0.15 %; conjunction RA < 1.5 / Dec < 0.3; opposition RA within 0.75 of 180; contraparallel |Dec a + Dec b| < 0.3. Highest score first, other families as "also". Last lines: horse X – jockey X (natal to natal, RA wrapped, Dec). Sky lines on the same target = sky body / royal star pairs (Moon included, no Rahu–Ketu, no star–star) and the S Y → H X / S Y → J X lines on the same family and target as any scoring line above them (conjunctions not matched; those S Y → natal X rows also stay under "Other"). Same-body ratio (royal-star rows): larger / smaller of the star line and S X → natal X (same chart and plane), % = same body / star line; scored on the interval list (1, 3/2, 2 … 9 ±0.02, the others tapered %) and whole 10-20 ±0.5 % (1/10 … 1/20 cuts), linear; a conjunction leg is not scored. Crossed same-body ratio: the same against S X → natal X in the other plane (RA star line with the Dec same-body line, Dec with RA). Order: same-target rows that include the body first, then those with a royal star, then the rest; other rows S – S with a royal star, S – S, S → H, S → J; a blank row between the groups, after each natal Regulus line and after the Dec contraparallel lines. "Other scoring sky lines": every scoring sky line on the body - S Y – S X, then S Y → H X, then S Y → J X - conjunctions included, each group highest score first. Data only, no pick (tools/eddie_bybody.py).
 
 ## Sun
 
@@ -143,6 +143,7 @@ Other scoring sky lines on Mercury:
 | H Regulus – H Venus | Dec | 10.0127 | 10 (36.3) (also: 10 ninth (36.3)) | S Venus → H Venus 43.9903: ratio 4.3934 (439.34 %) — no target | S Venus → H Venus RA 147.4132: ratio 14.7226 (1472.26 %) — no target |
 | | | | | | |
 | S Venus → H Venus | Dec contraparallel | 0.0334 | contraparallel (88.9) |  |  |
+| | | | | | |
 | S Venus → J Venus | RA | 104.5667 | — |  |  |
 | S Venus → J Venus | Dec | 24.5198 | — |  |  |
 | J Aldebaran – J Venus | RA | 61.1578 | — | S Venus → J Venus 104.5667: ratio 1.7098 (170.98 %) — no target | S Venus → J Venus Dec 24.5198: ratio 2.4942 (40.09 %) — no target |
@@ -428,6 +429,7 @@ Other scoring sky lines on Saturn:
 | J Regulus – J Uranus | Dec | 29.1183 | 18×φ golden (80.5) | S Uranus → J Uranus 34.2742: ratio 1.1771 (117.71 %) — no target | S Uranus → J Uranus RA 89.4791: ratio 3.0730 (307.30 %) — no target |
 | | | | | | |
 | S Uranus → J Uranus | Dec contraparallel | 0.0320 | contraparallel (89.3) |  |  |
+| | | | | | |
 | H Uranus – J Uranus | RA | 75.6450 | — |  |  |
 | H Uranus – J Uranus | Dec | 29.8120 | — |  |  |
 
@@ -856,6 +858,7 @@ Other scoring sky lines on Pallas:
 | H Regulus – H Juno | Dec | 10.7839 | — | S Juno → H Juno 2.5661: ratio 4.2025 (23.80 %) — no target | S Juno → H Juno RA 26.1916: ratio 2.4288 (242.88 %) — no target |
 | | | | | | |
 | S Juno → H Juno | Dec contraparallel | 0.2025 | contraparallel (32.5) |  |  |
+| | | | | | |
 | S Juno → J Juno | RA | 79.6078 | — |  |  |
 | S Juno → J Juno | Dec | 8.6134 | — |  |  |
 | J Aldebaran – J Juno | RA | 179.2959 | 10φ⁶ phi power (45.5) (also: 180 opposition (6.1)) | S Juno → J Juno 79.6078: ratio 2.2522 (44.40 %) → 9/4 major ninth (33.6) | S Juno → J Juno Dec 8.6134: ratio 20.8159 (4.80 %) — no target |

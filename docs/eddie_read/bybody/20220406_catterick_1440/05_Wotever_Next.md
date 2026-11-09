@@ -1,6 +1,6 @@
 # 20220406_catterick_1440 — 5 Wotever Next / Joanna Mason, body by body
 
-Rules (Eddie, 8 Nov 2026): all linear. Whole ±0.02; golden ±0.0324; φ powers ±0.15 %; ninths ±0.2 %; √2 and silver ±0.15 %; conjunction RA < 1.5 / Dec < 0.3; opposition RA within 0.75 of 180; contraparallel |Dec a + Dec b| < 0.3. Highest score first, other families as "also". Last lines: horse X – jockey X (natal to natal, RA wrapped, Dec). Sky lines on the same target = sky body / royal star pairs (Moon included, no Rahu–Ketu, no star–star) and the S Y → H X / S Y → J X lines on the same family and target as any scoring line above them (conjunctions not matched; those S Y → natal X rows also stay under "Other"). Same-body ratio (royal-star rows): larger / smaller of the star line and S X → natal X (same chart and plane), % = same body / star line; scored on the interval list (1, 3/2, 2 … 9 ±0.02, the others tapered %) and whole 10-20 ±0.5 % (1/10 … 1/20 cuts), linear; a conjunction leg is not scored. Crossed same-body ratio: the same against S X → natal X in the other plane (RA star line with the Dec same-body line, Dec with RA). Order: same-target rows that include the body first, then those with a royal star, then the rest; other rows S – S with a royal star, S – S, S → H, S → J; a blank row between the groups and after each natal Regulus line. "Other scoring sky lines": every scoring sky line on the body - S Y – S X, then S Y → H X, then S Y → J X - conjunctions included, each group highest score first. Data only, no pick (tools/eddie_bybody.py).
+Rules (Eddie, 8 Nov 2026): all linear. Whole ±0.02; golden ±0.0324; φ powers ±0.15 %; ninths ±0.2 %; √2 and silver ±0.15 %; conjunction RA < 1.5 / Dec < 0.3; opposition RA within 0.75 of 180; contraparallel |Dec a + Dec b| < 0.3. Highest score first, other families as "also". Last lines: horse X – jockey X (natal to natal, RA wrapped, Dec). Sky lines on the same target = sky body / royal star pairs (Moon included, no Rahu–Ketu, no star–star) and the S Y → H X / S Y → J X lines on the same family and target as any scoring line above them (conjunctions not matched; those S Y → natal X rows also stay under "Other"). Same-body ratio (royal-star rows): larger / smaller of the star line and S X → natal X (same chart and plane), % = same body / star line; scored on the interval list (1, 3/2, 2 … 9 ±0.02, the others tapered %) and whole 10-20 ±0.5 % (1/10 … 1/20 cuts), linear; a conjunction leg is not scored. Crossed same-body ratio: the same against S X → natal X in the other plane (RA star line with the Dec same-body line, Dec with RA). Order: same-target rows that include the body first, then those with a royal star, then the rest; other rows S – S with a royal star, S – S, S → H, S → J; a blank row between the groups, after each natal Regulus line and after the Dec contraparallel lines. "Other scoring sky lines": every scoring sky line on the body - S Y – S X, then S Y → H X, then S Y → J X - conjunctions included, each group highest score first. Data only, no pick (tools/eddie_bybody.py).
 
 ## Sun
 
@@ -720,6 +720,7 @@ Other scoring sky lines on Ketu:
 | H Regulus – H Ceres | Dec | 28.5913 | — | S Ceres → H Ceres 41.3600: ratio 1.4466 (144.66 %) — no target | S Ceres → H Ceres RA 179.9663: ratio 6.2945 (629.45 %) — no target |
 | | | | | | |
 | H Aldebaran – H Ceres | Dec contraparallel | 0.1181 | contraparallel (60.6) |  |  |
+| | | | | | |
 | S Ceres → J Ceres | RA | 7.0294 | — |  |  |
 | S Ceres → J Ceres | Dec | 3.0766 | — |  |  |
 | J Aldebaran – J Ceres | RA | 11.3475 | 7×φ golden (34.5) | S Ceres → J Ceres 7.0294: ratio 1.6143 (61.95 %) — no target | S Ceres → J Ceres Dec 3.0766: ratio 3.6883 (27.11 %) — no target |
@@ -1119,6 +1120,7 @@ Other scoring sky lines on Eris:
 | H Regulus – H Gonggong | Dec | 23.8218 | — | S Gonggong → H Gonggong 0.7697: ratio 30.9515 (3.23 %) — no target | S Gonggong → H Gonggong RA 0.6170: ratio 38.6065 (2.59 %) — conjunction leg, not scored |
 | | | | | | |
 | H Regulus – H Gonggong | Dec contraparallel | 0.1099 | contraparallel (63.4) |  |  |
+| | | | | | |
 | S Gonggong → J Gonggong | RA | 7.9388 | — |  |  |
 | S Gonggong → J Gonggong | Dec | 9.0168 | 9 (16.2) |  |  |
 | J Aldebaran – J Gonggong | RA | 99.7150 | — | S Gonggong → J Gonggong 7.9388: ratio 12.5605 (7.96 %) — no target | S Gonggong → J Gonggong Dec 9.0168: ratio 11.0589 (9.04 %) — no target |

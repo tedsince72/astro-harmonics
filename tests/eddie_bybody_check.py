@@ -184,7 +184,7 @@ with tempfile.TemporaryDirectory() as td:
 # 7 blank rows (Eddie, 9 Nov 2026): after each Regulus line; between same-target groups; before S → H and S → J
 sec = doc.split('\n## Ceres\n')[1].split('\n## ')[0].split('\n')
 blank_after = [sec[i - 1].split(' | ')[0].strip('| ') for i, l in enumerate(sec) if l.strip('| ') == '' and l.startswith('|')]
-check(blank_after == ['H Regulus – H Ceres', 'H Regulus – H Ceres', 'J Regulus – J Ceres', 'J Regulus – J Ceres',
+check(blank_after == ['H Regulus – H Ceres', 'H Regulus – H Ceres', 'H Aldebaran – H Ceres', 'J Regulus – J Ceres', 'J Regulus – J Ceres',
                       'S Neptune → H Ceres', 'S Venus – S Regulus', 'S Moon – S Ceres', 'S Mars → H Ceres'],
       '7 Wotever Next Ceres blank rows in the right places')
 # 6 same-body ratio on the royal-star rows (Eddie, 9 Nov 2026)

@@ -330,13 +330,17 @@ RULES = ('Rules (Eddie, 8 Nov 2026): all linear. Whole ±0.02; golden ±0.0324; 
          'the interval list (1, 3/2, 2 … 9 ±0.02, the others tapered %) and whole 10-20 ±0.5 % (1/10 … 1/20 cuts), linear; a conjunction '
          'leg is not scored. Crossed same-body ratio: the same against S X → natal X in the other plane (RA star line with the Dec '
          'same-body line, Dec with RA). Order: same-target rows that include the body first, then those with a royal star, then the '
-         'rest; other rows S – S with a royal star, S – S, S → H, S → J; a blank row between the groups and after each natal Regulus line. "Other scoring sky lines": every scoring sky line on the body - S Y – S X, then S Y → H X, then S Y → J X - '
+         'rest; other rows S – S with a royal star, S – S, S → H, S → J; a blank row between the groups, after each natal Regulus line and after the Dec contraparallel lines. "Other scoring sky lines": every scoring sky line on the body - S Y – S X, then S Y → H X, then S Y → J X - '
          'conjunctions included, each group highest score first. Data only, no pick (tools/eddie_bybody.py).')
 
 
-def line_gap(ln):
-    """blank row after each natal Regulus line (RA and Dec), horse and jockey (Eddie, 9 Nov 2026)"""
-    return ln['line'].split(' – ')[0] in ('H Regulus', 'J Regulus') and ln['plane'] in ('RA', 'Dec')
+def line_gap(ln, nxt=None):
+    """blank row after each natal Regulus line (RA and Dec), horse and jockey, and after each run of Dec contraparallel lines that is
+    not the end of the table (Eddie, 9 Nov 2026)"""
+    if ln['line'].split(' – ')[0] in ('H Regulus', 'J Regulus') and ln['plane'] in ('RA', 'Dec'):
+        return True
+    cp = lambda x: 'contraparallel' in x['plane']
+    return cp(ln) and nxt is not None and not cp(nxt)
 
 
 def other_gap(prev, o):
@@ -352,10 +356,11 @@ def md(race, r, bodies):
     for b in bodies:
         out += [f"## {b['body']}", '', '| Line | Plane | Value | Score | Same-body ratio | Crossed same-body ratio |',
                 '|---|---|---|---|---|---|']
-        for ln in b['lines']:
+        for i, ln in enumerate(b['lines']):
+            nxt = b['lines'][i + 1] if i + 1 < len(b['lines']) else None
             out.append(f"| {ln['line']} | {ln['plane']} | {ln['value']:.4f} | {score_text(ln['hits'])} | {ratio_text(ln.get('ratio'))} | "
                        f"{ratio_text(ln.get('ratio_x'), plane=True)} |")
-            if line_gap(ln):
+            if line_gap(ln, nxt):
                 out.append('| | | | | | |')
         out += ['', 'Sky lines on the same target:', '']
         if b['matches']:
@@ -465,9 +470,9 @@ def write_xlsx(path, race, res):
                 ws.cell(ws.max_row, k).fill = fill(FILL_BODY)
             ws.cell(ws.max_row, 1).font = Font(bold=True, size=12)
             rows = []
-            for l in b['lines']:
+            for i, l in enumerate(b['lines']):
                 rows.append((l['line'], l['plane'], l['value'], l['hits'], None, l.get('ratio'), l.get('ratio_x')))
-                if line_gap(l):
+                if line_gap(l, b['lines'][i + 1] if i + 1 < len(b['lines']) else None):
                     rows.append(None)
             table('Lines', rows)
             rows = []
