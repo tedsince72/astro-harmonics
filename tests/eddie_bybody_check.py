@@ -31,7 +31,8 @@ def rows_by_section(s):
     out = {}
     for part in s.split('\n## ')[1:]:
         X = part.split('\n', 1)[0].strip()
-        out[X] = [l for l in part.split('\n') if l.startswith('|') and not l.startswith(('|---', '| Line', '| Sky line'))]
+        out[X] = [l for l in part.split('\n') if l.startswith('|') and not l.startswith(('|---', '| Line', '| Sky line'))
+                  and l.strip('| ') != '']                     # blank group rows (9 Nov 2026) left out
     return out
 
 ref = rows_by_section(open(os.path.join(HERE, 'ref/catterick_1440_20220406_wotever_by_body_verified.md')).read())
@@ -55,7 +56,8 @@ def strip_new(X, rows):
         out.append(l)
     return out
 for X in ref:
-    check(ref[X] == strip_new(X, new.get(X, [])), f'1 {X} rows identical to the verified file (new rows set aside)')
+    check(sorted(ref[X]) == sorted(strip_new(X, new.get(X, []))),
+          f'1 {X} rows = the verified file (new rows set aside; order now grouped, checked in 4)')
 
 # 2 hand cases (values from the workbook; scores by hand)
 def row(X, line, plane):
@@ -123,7 +125,11 @@ for f in files:
         for b in bodies:
             good &= sum(1 for l in b['lines'] if 'contraparallel' not in l['plane']) == 20 - 10 * len(r['missing']) + (0 if r['missing'] else 2)
             good &= not any(l['line'].split(' ')[-2] in r['missing'] for l in b['lines'] + b['other'])
-            good &= desc(b['matches'], lambda m: m['hit'][2])
+            X_ = b['body']
+            mg = [0 if X_ in m['line'].split() else 1 if set(m['line'].split()) & set(BB.ROYAL) else 2 for m in b['matches']]
+            good &= mg == sorted(mg) and mg == [m['grp'] for m in b['matches']]
+            for g in (0, 1, 2):
+                good &= desc([m for m, k in zip(b['matches'], mg) if k == g], lambda m: m['hit'][2])
             tg = {(h[0], h[1]): f"{l['line']} {l['plane']}" for l in b['lines'] for h in l['hits'] if h[0] != 'conj'}
             mk = {(m['line'], m['plane'], m['hit'][1], m['matches']) for m in b['matches']}
             for o in b['other']:
@@ -140,9 +146,10 @@ for f in files:
                 d = abs(hra - jra) % 360
                 good &= abs(next(l['value'] for l in hjl if l['plane'] == 'RA') - min(d, 360 - d)) < 1e-9
                 good &= abs(next(l['value'] for l in hjl if l['plane'] == 'Dec') - abs(r['pos']['H'][X] - r['pos']['J'][X])) < 1e-9
-            grp = [0 if ' – ' in o['line'] else (1 if '→ H ' in o['line'] else 2) for o in b['other']]
-            good &= grp == sorted(grp)
-            for g in (0, 1, 2):
+            grp = [(0 if set(o['line'].split()) & set(BB.ROYAL) else 1) if ' – ' in o['line'] else (2 if '→ H ' in o['line'] else 3)
+                   for o in b['other']]
+            good &= grp == sorted(grp) and grp == [o['grp'] for o in b['other']]
+            for g in (0, 1, 2, 3):
                 good &= desc([o for o, k in zip(b['other'], grp) if k == g], lambda o: o['hits'][0][2])
     check(good, f'4 {os.path.basename(f)} structure and order')
 # 5 Excel output = the same rows as the .md content (every runner of Catterick)
@@ -152,6 +159,7 @@ with tempfile.TemporaryDirectory() as td:
     BB.write_xlsx(xp, '20220406_catterick_1440', res)
     wb = openpyxl.load_workbook(xp)
     check(len(wb.sheetnames) == len(res), '5 one sheet per runner')
+    check(all(wb[sn].freeze_panes == 'C2' for sn in wb.sheetnames), '5 freeze panes C2 on every sheet')
     for (c_, (r, bodies)), sn in zip(res.items(), wb.sheetnames):
         got = [x for x in wb[sn].iter_rows(values_only=True) if x[0] and x[1] is not None and x[0] != 'Line']
         want = []
@@ -173,6 +181,12 @@ with tempfile.TemporaryDirectory() as td:
                                           for (a, b), (c, d) in zip(gx, wx)), f'5 {sn} crossed ratio columns ({len(wx)})')
         score_cells = [wb[sn].cell(i, 6) for i in range(1, wb[sn].max_row + 1) if isinstance(wb[sn].cell(i, 6).value, (int, float))]
         check(all(sc.fill.fgColor.rgb[-6:] == BB._fill(sc.value) for sc in score_cells), f'5 {sn} score fills')
+# 7 blank rows (Eddie, 9 Nov 2026): after each Regulus line; between same-target groups; before S → H and S → J
+sec = doc.split('\n## Ceres\n')[1].split('\n## ')[0].split('\n')
+blank_after = [sec[i - 1].split(' | ')[0].strip('| ') for i, l in enumerate(sec) if l.strip('| ') == '' and l.startswith('|')]
+check(blank_after == ['H Regulus – H Ceres', 'H Regulus – H Ceres', 'J Regulus – J Ceres', 'J Regulus – J Ceres',
+                      'S Neptune → H Ceres', 'S Venus – S Regulus', 'S Moon – S Ceres', 'S Mars → H Ceres'],
+      '7 Wotever Next Ceres blank rows in the right places')
 # 6 same-body ratio on the royal-star rows (Eddie, 9 Nov 2026)
 uv = {(l['line'], l['plane']): l for l in next(b for b in b5 if b['body'] == 'Uranus')['lines']}
 rt = uv[('H Fomalhaut – H Uranus', 'RA')]['ratio']

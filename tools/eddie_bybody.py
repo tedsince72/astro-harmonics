@@ -305,8 +305,19 @@ def runner_view(r, tt, tp, sky):
                     if any(lh[0] == h[0] and lh[1] == h[1] for lh in ln['hits']):
                         matches.append({'line': o['line'], 'plane': o['plane'], 'value': o['value'], 'hit': h,
                                         'matches': f"{ln['line']} {ln['plane']}"})
-        matches.sort(key=lambda m: -m['hit'][2])
-        bodies.append({'body': X, 'lines': lines, 'matches': matches, 'other': other[0] + other[1] + other[2]})
+        # order (Eddie, 9 Nov 2026): same-target rows that include the body itself, then those with a royal star, then the rest;
+        # other rows: S – S with a royal star, S – S, S → H, S → J; each group highest score first
+        for m in matches:
+            t = set(m['line'].split())
+            m['grp'] = 0 if X in t else 1 if t & set(ROYAL) else 2
+        matches.sort(key=lambda m: (m['grp'], -m['hit'][2]))
+        for o in other[0]:
+            o['grp'] = 0 if set(o['line'].split()) & set(ROYAL) else 1
+        for k in (1, 2):
+            for o in other[k]:
+                o['grp'] = k + 1
+        oth = sorted(other[0], key=lambda o: o['grp']) + other[1] + other[2]   # stable: score order kept inside each group
+        bodies.append({'body': X, 'lines': lines, 'matches': matches, 'other': oth})
     return bodies
 
 
@@ -318,8 +329,19 @@ RULES = ('Rules (Eddie, 8 Nov 2026): all linear. Whole ±0.02; golden ±0.0324; 
          'rows): larger / smaller of the star line and S X → natal X (same chart and plane), % = same body / star line; scored on '
          'the interval list (1, 3/2, 2 … 9 ±0.02, the others tapered %) and whole 10-20 ±0.5 % (1/10 … 1/20 cuts), linear; a conjunction '
          'leg is not scored. Crossed same-body ratio: the same against S X → natal X in the other plane (RA star line with the Dec '
-         'same-body line, Dec with RA). "Other scoring sky lines": every scoring sky line on the body - S Y – S X, then S Y → H X, then S Y → J X - '
+         'same-body line, Dec with RA). Order: same-target rows that include the body first, then those with a royal star, then the '
+         'rest; other rows S – S with a royal star, S – S, S → H, S → J; a blank row between the groups and after each natal Regulus line. "Other scoring sky lines": every scoring sky line on the body - S Y – S X, then S Y → H X, then S Y → J X - '
          'conjunctions included, each group highest score first. Data only, no pick (tools/eddie_bybody.py).')
+
+
+def line_gap(ln):
+    """blank row after each natal Regulus line (RA and Dec), horse and jockey (Eddie, 9 Nov 2026)"""
+    return ln['line'].split(' – ')[0] in ('H Regulus', 'J Regulus') and ln['plane'] in ('RA', 'Dec')
+
+
+def other_gap(prev, o):
+    """blank row before the S → H group and before the S → J group (none between the two S – S groups)"""
+    return o['grp'] != prev['grp'] and o['grp'] >= 2
 
 
 def md(race, r, bodies):
@@ -330,18 +352,27 @@ def md(race, r, bodies):
     for b in bodies:
         out += [f"## {b['body']}", '', '| Line | Plane | Value | Score | Same-body ratio | Crossed same-body ratio |',
                 '|---|---|---|---|---|---|']
-        out += [f"| {ln['line']} | {ln['plane']} | {ln['value']:.4f} | {score_text(ln['hits'])} | {ratio_text(ln.get('ratio'))} | "
-                f"{ratio_text(ln.get('ratio_x'), plane=True)} |" for ln in b['lines']]
+        for ln in b['lines']:
+            out.append(f"| {ln['line']} | {ln['plane']} | {ln['value']:.4f} | {score_text(ln['hits'])} | {ratio_text(ln.get('ratio'))} | "
+                       f"{ratio_text(ln.get('ratio_x'), plane=True)} |")
+            if line_gap(ln):
+                out.append('| | | | | | |')
         out += ['', 'Sky lines on the same target:', '']
         if b['matches']:
             out += ['| Sky line | Plane | Value | Score | Matches |', '|---|---|---|---|---|']
-            out += [f"| {m['line']} | {m['plane']} | {m['value']:.4f} | {txt(m['hit'])} | {m['matches']} |" for m in b['matches']]
+            for i, m in enumerate(b['matches']):
+                if i and m['grp'] != b['matches'][i - 1]['grp']:
+                    out.append('| | | | | |')
+                out.append(f"| {m['line']} | {m['plane']} | {m['value']:.4f} | {txt(m['hit'])} | {m['matches']} |")
         else:
             out.append('none')
         out += ['', f"Other scoring sky lines on {b['body']}:", '']
         if b['other']:
             out += ['| Sky line | Plane | Value | Score |', '|---|---|---|---|']
-            out += [f"| {o['line']} | {o['plane']} | {o['value']:.4f} | {score_text(o['hits'])} |" for o in b['other']]
+            for i, o in enumerate(b['other']):
+                if i and other_gap(b['other'][i - 1], o):
+                    out.append('| | | | |')
+                out.append(f"| {o['line']} | {o['plane']} | {o['value']:.4f} | {score_text(o['hits'])} |")
         else:
             out.append('none')
         out.append('')
@@ -395,7 +426,11 @@ def write_xlsx(path, race, res):
             for k in range(1, NC + 1):
                 ws.cell(ws.max_row, k).font = bold
                 ws.cell(ws.max_row, k).fill = fill(FILL_HEAD)
-            for line, plane, value, hs, m, *rts in rows:
+            for item in rows:
+                if item is None:
+                    ws.append([])
+                    continue
+                line, plane, value, hs, m, *rts = item
                 h = hs[0] if hs else None
                 also = '; '.join(txt(x) for x in hs[1:]) if hs else ''
                 row = [line, plane, round(value, 6), h[0] if h else '', _tlab(h) if h else '',
@@ -429,16 +464,29 @@ def write_xlsx(path, race, res):
             for k in range(1, NC + 1):
                 ws.cell(ws.max_row, k).fill = fill(FILL_BODY)
             ws.cell(ws.max_row, 1).font = Font(bold=True, size=12)
-            table('Lines', [(l['line'], l['plane'], l['value'], l['hits'], None, l.get('ratio'), l.get('ratio_x'))
-                            for l in b['lines']])
-            table('Sky lines on the same target', [(m['line'], m['plane'], m['value'], [m['hit']], m['matches'])
-                                                   for m in b['matches']])
-            table(f"Other scoring sky lines on {b['body']}", [(o['line'], o['plane'], o['value'], o['hits'], None) for o in b['other']])
+            rows = []
+            for l in b['lines']:
+                rows.append((l['line'], l['plane'], l['value'], l['hits'], None, l.get('ratio'), l.get('ratio_x')))
+                if line_gap(l):
+                    rows.append(None)
+            table('Lines', rows)
+            rows = []
+            for i, m in enumerate(b['matches']):
+                if i and m['grp'] != b['matches'][i - 1]['grp']:
+                    rows.append(None)
+                rows.append((m['line'], m['plane'], m['value'], [m['hit']], m['matches']))
+            table('Sky lines on the same target', rows)
+            rows = []
+            for i, o in enumerate(b['other']):
+                if i and other_gap(b['other'][i - 1], o):
+                    rows.append(None)
+                rows.append((o['line'], o['plane'], o['value'], o['hits'], None))
+            table(f"Other scoring sky lines on {b['body']}", rows)
         for col, w in zip('ABCDEFGHIJKLMNOPQRSTUV', (26, 20, 11, 12, 11, 8, 46, 34, 22, 11, 11, 9, 22, 8, 24,
                                                      26, 11, 11, 9, 22, 8, 24)):
             ws.column_dimensions[col].width = w
         ws['A2'].alignment = Alignment(wrap_text=False)
-        ws.freeze_panes = 'A3'
+        ws.freeze_panes = 'C2'
     wb.save(path)
 
 
