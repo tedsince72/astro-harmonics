@@ -137,6 +137,9 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   families.py / jup2 / rebuild_kit), built only when missing. Timing: `python3 tests/time_suite.py [--full] [--log <file>]` (per test, slowest 15,
   total). Full run cold cache 41.6 min, warm cache 14.0 min. In the card pipeline: `run_card_swiss.py --tables`
   (copy in rebuild_kit/).
+  One past race from a Racing Post results URL (Eddie, 12 Nov 2026): `cd ~/astronomy-project && python run_race_swiss.py --url "<results URL>"
+  --tables` -> racecards/<yyyymmdd>_<course>/race_batch_..._<hhmm>.xlsx, _active.xlsx and _jupiter_tables.xlsx (step 3b, as run_card_swiss.py;
+  --tables-script, default ~/astro-harmonics/tools/jupiter_tables.py; copy in rebuild_kit/). The results csv it writes holds the result.
 - Eddie's read, stage 1 (6 Nov 2026, Eddie's go-ahead; collector, not a reader - no lead, no ranking): `python3 tools/eddie_read.py
   <race_batch_..._jupiter_tables.xlsx> [--out DIR]` -> <race>_eddie_read.md + .json, in Eddie's order (same body; sky Jupiter / Sun / Moon
   notes, hubs, top line, conj points; MATCH; T1 / T2; T24 top rows; T24 star rows with midpoints; by body / number / family, threads; named
