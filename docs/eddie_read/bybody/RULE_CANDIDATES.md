@@ -37,9 +37,10 @@ Indie Angel 6, Nirodha 5, Pholas 9, Shimmering Dawn 4. Version b: Pholas Mercury
 Decade highlight inside a case: Pholas Mercury; Shimmering Dawn Juno (S Sedna – S Juno Dec 16.6848 ninth 16.6667 (45.64) /
 S Sedna → H Juno RA 166.9273 ninth 166.667 (21.82)).
 
-## Moon option (all rules; Eddie, 14 Nov 2026)
-The Moon is a bonus: when a rule's relationship is there, highlight any Moon line in the case (S Moon – S X, S Moon → natal X,
-or the Moon in a same-target sky pair). Never a rule on its own.
+## Lights option: Moon and Sun (all rules; Eddie, 14 Nov 2026)
+The Moon and the Sun are lights, a bonus: when a rule's relationship is there, highlight any Moon or Sun line in the case
+(S Moon / S Sun – S X, S Moon / S Sun → natal X, or the Moon / Sun in a same-target sky pair), to see where the lights land.
+Never a rule on their own.
 
 ## BB2 — two royal stars on the same body, sky and natal, same chart
 Origin: Lingfield AW 14:35 2 Apr 2021, 5 Pholas / Hollie Doyle, body Mars.
@@ -62,3 +63,18 @@ Pholas Mars cells (jockey):
   contraparallel 0.231881 (22.71)
 Field check, this race: the same royal star on X in the sky and in one natal chart, same plane, both scoring - 41 cases, every
 runner; two different royal stars on the same body in the same chart - Pholas Mars only.
+
+## BB3 — royal-star line, same-target sky pair, one end on natal X in the star's chart, same family
+Origin: Lingfield AW 14:35 2 Apr 2021, 5 Pholas / Hollie Doyle, body Jupiter (horse).
+Rule (Eddie, 14 Nov 2026): for body X, a natal royal-star line (H or J star – X) scores on a target; a sky pair S A – S B
+(A, B not X) scores on the same family and target; at least one of A, B has a scoring S → natal X line in the star line's
+chart, on the same family as the target. Lights option applies. Overlaps BB1 (BB1 = both ends on X; here one end, same family).
+Pholas Jupiter cells (horse):
+- H Fomalhaut – H Jupiter RA 144.366657 ninth 144.444 (73.07)
+- S Pluto – S Transpluto RA 144.559513 ninth 144.444 (60.17)
+- S Transpluto → H Jupiter Dec 17.784914 ninth 17.7778 (79.93), also 11×φ golden (58.5); Pluto has no scoring line on Jupiter
+- Lights: S Moon – S Jupiter RA 68.547364 10φ⁴ (93.83); S Moon → H Jupiter Dec 16.991976 17 (59.88); S Sun – S Jupiter Dec
+  19.418627 12×φ golden (93.15)
+Field check, this race: 7 cases - Arafi Pallas, Indie Angel Jupiter (same anchor and pair, end Pluto: S Pluto → H Jupiter Dec
+15.5645 ninth 15.5556 (71.41)), Pholas Mercury, Pholas Jupiter, Pholas Chiron, Shimmering Dawn Pluto, Shimmering Dawn Eris.
+Without the same-family condition: 47 cases, every runner.
