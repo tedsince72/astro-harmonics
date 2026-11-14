@@ -466,3 +466,18 @@ Ishvara Ceres cells:
 Field check: Haydock - Ishvara Ceres (Regulus, Fomalhaut, jockey), Birkenhead Venus (Aldebaran, Fomalhaut, jockey; the Aldebaran
 unison likely automatic - S Aldebaran – S Venus RA conjunction); Lingfield - none. (Two stars on X in sky, horse and jockey + a
 matched pair with an end on natal X: 3 runners, not chosen.)
+
+## BB27 — royal-star line with a pair made by sky X and a pair holding a second royal star, its other end on sky X (watch b)
+Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Pallas (jockey). Added 14 Nov 2026 (Eddie: "a with watch on b").
+Rule (a): a natal royal-star line R – X scores; on its family and target there are a sky pair made by X itself (S X – S Y) and a
+sky pair S E – S R2 holding a different royal star R2; E scores on sky X (S E – S X).
+WATCH (b), noted not required: E in conjunction with sky X.
+Highlights: the other pairs on the number; the second star's own lines on X; lights.
+Ishvara Pallas cells (jockey):
+- J Regulus – J Pallas Dec 4.85654 3×φ (92.48)
+- S Pallas – S Haumea Dec 4.8679 (57.5); S Venus – S Aldebaran Dec 4.8550 (97.1); S Saturn – S Quaoar Dec 4.8329 (34.5); S Orcus –
+  S Quaoar Dec 4.8858 (2.2)
+- S Venus – S Pallas Dec 0.0968 conj (67.7) [watch b]
+- Light: S Sun → J Pallas RA 72.7987 45×φ (60.5)
+Field check: (a) Haydock 3 runners - Birkenhead Jupiter, Ishvara Jupiter and Pallas, Garsman Pluto; (b) Ishvara Pallas only;
+Lingfield none.

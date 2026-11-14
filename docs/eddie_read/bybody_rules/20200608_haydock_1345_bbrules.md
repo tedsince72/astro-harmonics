@@ -1,4 +1,4 @@
-# 20200608_haydock_1345 — body-by-body rules BB1-BB26
+# 20200608_haydock_1345 — body-by-body rules BB1-BB27
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -30,6 +30,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB24 | 1 | 1 | 07 Ishvara |
 | BB25 | 2 | 2 | 07 Ishvara, 08 Dancin Inthestreet |
 | BB26 | 2 | 2 | 06 Birkenhead, 07 Ishvara |
+| BB27 | 4 | 3 | 06 Birkenhead, 07 Ishvara, 09 Garsman |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -776,4 +777,40 @@ Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Ceres
 - same-body ratio vs S Ceres → J Ceres 167.082401 = 1.008730 1 unison (56.35)
 - crossed ratio vs S Ceres → J Ceres Dec 26.938409 = 1.009322 1 unison (53.39)
 - lights on Ceres: S Sun – S Ceres RA 90.985278 91 whole (26.39); S Sun → J Ceres RA 101.932321 63×φ golden (88.21)
+
+## BB27 — royal-star line with a pair made by sky X itself and a pair holding a second royal star whose other end is on sky X
+
+Rule: A natal royal-star line R – X scores; on its family and target there are a sky pair made by X itself (S X – S Y) and a sky pair S E – S R2 holding a different royal star R2; E scores on sky X (S E – S X). WATCH (b), noted not required: E in conjunction with sky X.
+
+Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Pallas
+
+### 06 Birkenhead — Jupiter (also: 07 Ishvara, 09 Garsman)
+- H Fomalhaut – H Jupiter RA 144.579041 144.444 ninth (53.41)
+- S Jupiter – S Transpluto RA 144.385642 144.444 ninth (79.65)
+- S Pluto – S Regulus RA 144.273253 144.444 ninth (40.74)
+- S Pluto – S Jupiter Dec 1.004077 1 whole (79.61)
+- lights on Jupiter: S Sun → H Jupiter RA 122.982813 φ¹⁰ phi power (95.09)
+
+### 07 Ishvara — Jupiter (also: 06 Birkenhead, 09 Garsman)
+- H Fomalhaut – H Jupiter RA 144.676267 144.444 ninth (19.75)
+- S Jupiter – S Transpluto RA 144.385642 144.444 ninth (79.65)
+- S Pluto – S Regulus RA 144.273253 144.444 ninth (40.74)
+- S Pluto – S Jupiter Dec 1.004077 1 whole (79.61)
+- lights on Jupiter: S Sun → H Jupiter RA 122.885610 φ¹⁰ phi power (42.4)
+
+### 07 Ishvara — Pallas (also: 06 Birkenhead, 09 Garsman)
+- J Regulus – J Pallas Dec 4.856540 3×φ golden (92.48)
+- S Pallas – S Haumea Dec 4.867863 3×φ golden (57.53)
+- S Venus – S Aldebaran Dec 4.855038 3×φ golden (97.11)
+- S Venus – S Pallas Dec 0.096814 conj conj (67.73)
+- WATCH (b): Venus in conjunction with sky Pallas
+- lights on Pallas: S Sun – S Pallas RA 144.328310 144.444 ninth (59.8); S Sun → J Pallas RA 72.798721 45×φ golden (60.47)
+
+### 09 Garsman — Pluto (also: 06 Birkenhead, 07 Ishvara)
+- J Aldebaran – J Pluto RA 155.860743 155.556 ninth (1.9)
+- S Pluto – S Vesta RA 155.551369 155.556 ninth (98.65)
+- S Vesta – S Antares RA 155.443354 155.556 ninth (63.94)
+- S Vesta – S Pluto RA 155.551369 155.556 ninth (98.65)
+- S Vesta – S Pluto Dec 45.011790 45 whole (41.05)
+- lights on Pluto: S Moon – S Pluto RA 1.418380 conj conj (5.44); S Sun → J Pluto RA 147.991390 148 whole (56.95)
 
