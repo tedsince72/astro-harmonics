@@ -401,3 +401,17 @@ Ishvara Saturn cells (horse):
   S Moon – S Saturn Dec 4 (5.2)
 Field check: Haydock BB21 - Ishvara Saturn (Regulus, horse), Dancin Inthestreet Gonggong (Aldebaran, jockey: S Venus –
 S Aldebaran, J Aldebaran – J Gonggong Dec 34); BB22 - Ishvara Saturn only. Lingfield - none of either.
+
+## BB23 — royal-star line, same-target pair, one end on X in the star chart and in the sky, same family (watch note b)
+Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Neptune (jockey). Added 14 Nov 2026 (Eddie: "a with a watch note on b").
+Rule (a): a natal royal-star line R – X in chart c scores; a sky pair S A – S B (A, B not X) is on its family and target; one end
+E has S E → c X and S E – S X, both on the same family as the target. BB3 + the end also on sky X (kept as a separate version).
+WATCH (b), noted on the case, not required: the same star R on sky X on the same family.
+Highlights: the number repeated by another body on natal X; lights.
+Ishvara Neptune cells (jockey):
+- J Regulus – J Neptune RA 122.251255 ninth 122.222 (88.12); S Regulus – S Neptune Dec 16.6610 ninth 16.6667 (83.0) [watch b]
+- S Vesta – S Haumea RA 122.3046 ninth 122.222 (66.3); S Uranus → J Neptune RA 122.0750 ninth 122.222 (39.8)
+- S Vesta → J Neptune RA 177.5738 ninth 177.778 (42.6); S Vesta – S Neptune RA 100.1126 ninth 100 (43.7)
+- S Neptune → H Neptune RA 8.0631 5×φ (16.3); lights: S Sun → H Neptune Dec 30.7284 19×φ (55.9); S Moon – S Neptune Dec 19.4114
+  12×φ (84.5)
+Field check: (a) Haydock Ishvara Neptune only, Lingfield Nirodha Ketu only; (b) Haydock Ishvara Neptune only, Lingfield none.

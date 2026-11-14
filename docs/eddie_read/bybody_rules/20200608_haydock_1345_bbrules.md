@@ -1,4 +1,4 @@
-# 20200608_haydock_1345 — body-by-body rules BB1-BB22
+# 20200608_haydock_1345 — body-by-body rules BB1-BB23
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -26,6 +26,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB20 | 3 | 2 | 06 Birkenhead, 07 Ishvara |
 | BB21 | 2 | 2 | 07 Ishvara, 08 Dancin Inthestreet |
 | BB22 | 1 | 1 | 07 Ishvara |
+| BB23 | 1 | 1 | 07 Ishvara |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -676,4 +677,19 @@ Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Saturn
 - S Vesta – S Gonggong RA 114.869213 71×φ golden (65.43)
 - royal-star lines matched in this chart: Aldebaran, Regulus
 - lights on Saturn: S Sun – S Saturn RA 133.542772 133.333 ninth (21.46); S Moon – S Saturn Dec 4.018954 4 whole (5.23); S Sun → H Saturn RA 169.866103 105×φ golden (15.23); S Moon → H Saturn Dec 2.018557 2 whole (7.22); S Sun → J Saturn RA 165.045820 102×φ golden (80.39)
+
+## BB23 — royal-star line, same-target pair, one end on X in the star chart and in the sky, both same family
+
+Rule: A natal royal-star line R – X in chart c scores; a sky pair S A – S B (A, B not X) is on its family and target; one end E has S E → c X and S E – S X, both on the same family as the target. WATCH (b), noted not required: the same star R on sky X (S R – S X) on the same family.
+
+Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Neptune
+
+### 07 Ishvara — Neptune (only)
+- J Regulus – J Neptune RA 122.251255 122.222 ninth (88.12)
+- S Vesta – S Haumea RA 122.304633 122.222 ninth (66.29)
+- S Vesta → J Neptune RA 177.573823 177.778 ninth (42.64)
+- S Vesta – S Neptune RA 100.112554 100 ninth (43.72)
+- S Regulus – S Neptune Dec 16.660989 16.6667 ninth (82.97)
+- WATCH (b): the same star on sky Neptune on the same family (16.6667 ninth)
+- lights on Neptune: S Moon – S Neptune Dec 19.411383 12×φ golden (84.49); S Sun → H Neptune Dec 30.728353 19×φ golden (55.89)
 

@@ -1,4 +1,4 @@
-# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB22
+# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB23
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -26,6 +26,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB20 | 0 | 0 | - |
 | BB21 | 0 | 0 | - |
 | BB22 | 0 | 0 | - |
+| BB23 | 1 | 1 | 04 Nirodha |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -468,4 +469,18 @@ Rule: BB21, and in the same chart two different royal-star lines on X score and 
 Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Saturn
 
 No runner holds it.
+
+## BB23 — royal-star line, same-target pair, one end on X in the star chart and in the sky, both same family
+
+Rule: A natal royal-star line R – X in chart c scores; a sky pair S A – S B (A, B not X) is on its family and target; one end E has S E → c X and S E – S X, both on the same family as the target. WATCH (b), noted not required: the same star R on sky X (S R – S X) on the same family.
+
+Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Neptune
+
+### 04 Nirodha — Ketu (only)
+- J Regulus – J Ketu RA 162.013684 162 whole (31.58)
+- S Neptune – S Transpluto RA 161.769232 100φ phi power (85.92)
+- S Transpluto → J Ketu Dec 28.017198 28 whole (14.01)
+- S Transpluto → J Ketu RA 160.019305 160 whole (3.47)
+- S Transpluto – S Ketu Dec 32.984643 33 whole (23.21)
+- lights on Ketu: S Moon – S Ketu RA 6.478490 4×φ golden (80.39); S Moon → H Ketu Dec 12.959174 8×φ golden (54.01)
 
