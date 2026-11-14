@@ -105,3 +105,31 @@ Field check, this race: royal-star and same-body line both scoring with the rati
 on each - Pholas Saturn only.
 Open (asked, not answered): should the same-body line S X → natal X also count as an anchor in BB1 / BB3 (would add e.g.
 Arafi Orcus, Pholas Saturn S Juno – S Sedna)?
+
+## BB5 — crossed same-body ratio on a cut in both charts, same body
+Origin: Lingfield AW 14:35 2 Apr 2021, 5 Pholas / Hollie Doyle, body Uranus.
+Rule (Eddie, 14 Nov 2026): on body X, a royal-star line in the horse's chart AND a royal-star line in the jockey's chart each
+give a crossed same-body ratio (star line in one plane against S X → natal X in the other plane, same chart) on a cut
+(1/10 ... 1/20) scoring >= 80 (80 = Claude's provisional floor, not yet confirmed by Eddie).
+Highlights: BB6 when present; H X – J X; lights; Venus with Uranus (Eddie: "venus and uranus are often together").
+Pholas Uranus cells:
+- H Regulus – H Uranus RA 133.089295 ninth 133.333 (8.49) / S Uranus → H Uranus Dec 6.657103 = 19.992074, 1/20 cut (92.07)
+- J Antares – J Uranus Dec 5.847925 (no family) / S Uranus → J Uranus RA 93.519969 = 15.991992, 1/16 cut (89.99);
+  S Antares – S Uranus Dec 40.475177 25×φ (24.92)
+- H Uranus – J Uranus RA 75.972748 φ⁹ (64.56)
+- Lights / Venus: S Venus – S Uranus RA 22.647479 14×φ (84.58); S Sun – S Uranus Dec 9.014236 9 (28.82)
+Field check, this race: Pholas Uranus only (a crossed ratio scoring at any level in both charts: 28 cases, every runner).
+
+## BB6 — the royal-star loop: sky pair on the same-body number holds the star whose natal line ratios with it
+Origin: Lingfield AW 14:35 2 Apr 2021, 5 Pholas / Hollie Doyle, body Uranus (horse).
+Rule (Eddie, 14 Nov 2026): on body X, the same-body line S X → natal X scores; a sky pair S A – S R in "Sky lines on the
+same target" scores on its family and target, R a royal star; the natal line R – X in the same chart has a scoring
+same-body ratio (same plane) or crossed same-body ratio (other plane) against that S X → natal X line.
+Highlights: the other end A reaching X in the sky and in that chart, same family marked; lights.
+Pholas Uranus cells:
+- S Uranus → H Uranus Dec 6.657103 ninth 6.66667 (28.27)
+- S Vesta – S Regulus Dec 6.674467 ninth 6.66667 (41.5)
+- H Regulus – H Uranus RA 133.089295 ninth 133.333 (8.49); crossed ratio vs S Uranus → H Uranus Dec 19.992074 1/20 cut (92.07)
+- Vesta: S Vesta – S Uranus RA 127.017642 127 (11.79); S Vesta → H Uranus RA 144.564863 ninth 144.444 (58.32, same family)
+Field check, this race: Pholas Uranus; Indie Angel Mars (S Quaoar – S Antares Dec on S Mars → H Mars Dec 11.1111 / φ⁵;
+H Antares – H Mars RA crossed 1/13 cut (19.69)). Two runners.
