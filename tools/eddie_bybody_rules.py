@@ -686,16 +686,16 @@ def bb30(b):
                 continue
             ends = [b.sky_y(E) + b.to_natal(E, 'H') + b.to_natal(E, 'J') for E in (A, B)]
             if all(ends):
-                (light if set((A, B)) & set(LIGHTS) else full).setdefault(frozenset((A, B)), (s, ends[0] + ends[1]))
+                (light if 'Moon' in (A, B) else full).setdefault(frozenset((A, B)), (s, ends[0] + ends[1]))
         cells = lambda d: [a] + [x for s, e in d.values() for x in [s] + e]
         if len(full) >= 2:
             notes = [f'{len(full)} pairs, every end on {b.X}']
             if light:
-                notes.append('WATCH light pairs also on the number: ' + '; '.join(s['line'] for s, _ in light.values()))
+                notes.append('WATCH Moon pairs also on the number: ' + '; '.join(s['line'] for s, _ in light.values()))
             out.append({'key': (a['plane'],), 'cells': cells(full) + cells(light)[1:], 'notes': notes})
         elif len(full) + len(light) >= 2:
             out.append({'key': (a['plane'], 'watch'), 'cells': cells({**full, **light}), 'watch_only': True,
-                        'notes': ['WATCH (light as an end): holds only when the Moon / Sun counts as a pair end; not a holder']})
+                        'notes': ['WATCH (Moon as an end): holds only when a Moon pair counts; not a holder']})
     return out
 
 

@@ -551,9 +551,9 @@ Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Vesta
 - Uranus paired with Antares, Fomalhaut on their own natal lines
 - lights on Jupiter: S Moon – S Jupiter RA 68.547364 10φ⁴ phi power (93.83); S Sun – S Jupiter Dec 19.418627 12×φ golden (93.15); S Sun → H Jupiter Dec 0.175496 conj conj (41.5); S Sun → J Jupiter Dec 9.012579 9 whole (37.1); S Moon → J Jupiter RA 140.980113 141 whole (0.56)
 
-## BB30 — H X – J X line with 2+ different pairs, every end on X (Moon / Sun ends as WATCH only)
+## BB30 — H X – J X line with 2+ different pairs, every end on X (Moon pairs as WATCH only)
 
-Rule: The H X – J X line scores; at least two different sky pairs S A – S B (A, B not X; not a light) are on its family and target; every end of every pair reaches X (S E – S X, S E → H X or S E → J X). A case that holds only when a Moon / Sun pair counts is listed as WATCH only, not a holder.
+Rule: The H X – J X line scores; at least two different sky pairs S A – S B (A, B not X; no Moon in the pair; the Sun counts) are on its family and target; every end of every pair reaches X (S E – S X, S E → H X or S E → J X). A case that holds only when a Moon pair counts is listed as WATCH only, not a holder.
 
 Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Eris
 
