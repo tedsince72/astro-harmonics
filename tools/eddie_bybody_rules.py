@@ -499,10 +499,10 @@ def bb22(b):
 def bb23(b):
     out = []
     for c, R, a in b.star_rows(scoring=True):
-        f = a['fam']
         for s, A, B in b.pairs_on(a):
             if b.X in (A, B):
                 continue
+            f = s['fam']  # the family the pair sits on (Eddie, 14 Nov 2026), not the anchor's best family
             for E in (A, B):
                 nt = [o for o in b.to_natal(E, c) if o['fam'] == f]
                 sk = [o for o in b.sky_y(E) if o['fam'] == f]

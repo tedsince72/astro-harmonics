@@ -26,7 +26,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB20 | 0 | 0 | - |  |
 | BB21 | 0 | 0 | - |  |
 | BB22 | 0 | 0 | - |  |
-| BB23 | 1 | 1 | 04 Nirodha |  |
+| BB23 | 0 | 0 | - |  |
 | BB24 | 0 | 0 | - |  |
 | BB25 | 0 | 0 | - |  |
 | BB26 | 0 | 0 | - |  |
@@ -86,7 +86,7 @@ Origin: Lingfield AW 14:35 2 Apr 2021, 5 Pholas / Hollie Doyle, body Mars
 
 ## BB3 — royal-star line, same-target pair, one end on natal X, same family
 
-Rule: A natal royal-star line R – X scores; a sky pair S A – S B (A, B not X) is on the same family and target; at least one of A, B has a scoring S → natal X line in the star line's chart, on the same family as the target.
+Rule: A natal royal-star line R – X scores; a sky pair S A – S B (A, B not X) is on the same family and target; at least one of A, B has a scoring S → natal X line in the star line's chart, on the family the pair sits on (the shared target's family; Eddie, 14 Nov 2026).
 
 Origin: Lingfield AW 14:35 2 Apr 2021, 5 Pholas / Hollie Doyle, body Jupiter
 
@@ -484,17 +484,11 @@ No runner holds it.
 
 ## BB23 — royal-star line, same-target pair, one end on X in the star chart and in the sky, both same family
 
-Rule: A natal royal-star line R – X in chart c scores; a sky pair S A – S B (A, B not X) is on its family and target; one end E has S E → c X and S E – S X, both on the same family as the target. WATCH (b), noted not required: the same star R on sky X (S R – S X) on the same family.
+Rule: A natal royal-star line R – X in chart c scores; a sky pair S A – S B (A, B not X) is on its family and target; one end E has S E → c X and S E – S X, both on the family the pair sits on (the shared target's family, not the anchor's best family; Eddie, 14 Nov 2026). WATCH (b), noted not required: the same star R on sky X (S R – S X) on the same family.
 
 Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Neptune
 
-### 04 Nirodha — Ketu (only)
-- J Regulus – J Ketu RA 162.013684 162 whole (31.58)
-- S Neptune – S Transpluto RA 161.769232 100φ phi power (85.92)
-- S Transpluto → J Ketu Dec 28.017198 28 whole (14.01)
-- S Transpluto → J Ketu RA 160.019305 160 whole (3.47)
-- S Transpluto – S Ketu Dec 32.984643 33 whole (23.21)
-- lights on Ketu: S Moon – S Ketu RA 6.478490 4×φ golden (80.39); S Moon → H Ketu Dec 12.959174 8×φ golden (54.01)
+No runner holds it.
 
 ## BB24 — same-body line with 2+ different pairs on its number, both ends of each on natal X
 

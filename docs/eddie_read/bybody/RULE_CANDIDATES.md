@@ -541,3 +541,9 @@ Ishvara Gonggong cells (jockey):
   RA 174.7521 108×φ (86.3)
 - Jupiter: S Jupiter → J Gonggong Dec 0.0263 conj (91.2), RA 30.7626 19×φ (38.5); S Jupiter – S Gonggong RA 39.0069 39 (65.7)
 Field check: Haydock - Ishvara Gonggong, Mews House Uranus (Haumea); Garsman Vesta watch only (Moon); Lingfield - none.
+
+## Reading fixed: "same family as the target" (Eddie, 14 Nov 2026: "second reading is correct")
+In BB3 and BB23 the end's family must be the family the sky pair sits on (the number it shares with the anchor), not the anchor
+line's best family. Found by the independent checker on Lingfield Nirodha Ketu (J Regulus – J Ketu RA 162.013684: best whole 162,
+also 100φ; pair S Neptune – S Transpluto on 100φ only; Transpluto's lines whole): BB23 Lingfield holder Nirodha Ketu dropped. BB3
+already read it that way (unchanged). BB23 Haydock Ishvara Neptune unchanged (ninths throughout).

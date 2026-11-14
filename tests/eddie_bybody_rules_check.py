@@ -39,7 +39,7 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB20': set(),
     'BB21': set(),
     'BB22': set(),
-    'BB23': {('04 Nirodha', 'Ketu')},
+    'BB23': set(),
     'BB24': set(),
     'BB25': set(),
     'BB26': set(),
@@ -128,7 +128,6 @@ if os.path.exists(HAY):
         check(any(x.startswith(w) for x in isat), f'BB22 Ishvara Saturn cell {w}')
     check({(c['runner'], c['body']) for c in hres['BB23']} == {('07 Ishvara', 'Neptune')}, 'BB23 Haydock holders')
     check(all(any(n.startswith('WATCH (b)') for n in c['notes']) for c in hres['BB23']), 'BB23 Ishvara watch (b) note')
-    check(not any(c['notes'] for c in res['BB23']), 'BB23 Lingfield Nirodha: no watch (b) note')
     check({(c['runner'], c['body']) for c in hres['BB24']} == {('07 Ishvara', 'Rahu')}, 'BB24 Haydock holders')
     ir = [x for c in hres['BB24'] for x in c['cells']]
     for w in ('S Rahu → H Rahu Dec 13.009928', 'S Mercury – S Transpluto Dec', 'S Makemake – S Transpluto Dec',
