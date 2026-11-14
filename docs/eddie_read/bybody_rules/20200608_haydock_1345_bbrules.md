@@ -1,4 +1,4 @@
-# 20200608_haydock_1345 — body-by-body rules BB1-BB19
+# 20200608_haydock_1345 — body-by-body rules BB1-BB20
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -23,6 +23,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB17 | 0 | 0 | - |
 | BB18 | 1 | 1 | 07 Ishvara |
 | BB19 | 1 | 1 | 07 Ishvara |
+| BB20 | 3 | 2 | 06 Birkenhead, 07 Ishvara |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -581,4 +582,53 @@ Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Venus
 - same-body ratio vs S Venus → J Venus 92.185955 = 1.001315 1 unison (93.43) [likely automatic: S Aldebaran – S Venus RA conjunction]
 - same-body ratio vs S Venus → J Venus 12.133527 = 1.666499 5/3 major sixth (94.96)
 - lights on Venus: S Sun – S Venus RA 7.991827 8 whole (59.13); S Moon → H Venus RA 70.793869 70.7 sqrt2 (21.57); S Moon → J Venus Dec 33.333507 33.3333 ninth (99.74)
+
+## BB20 — royal-star line with 3+ sky pairs on its number each with an end on X, and sky X in a pair on it
+
+Rule: A natal royal-star line R – X scores; at least 3 different sky pairs S A – S B (A, B not X) are on its family and target, each with at least one end reaching X (S E – S X or S E → natal X); sky X itself makes a pair on that number (S X – S Y).
+
+Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Jupiter
+
+### 06 Birkenhead — Jupiter (also: 07 Ishvara)
+- H Fomalhaut – H Jupiter RA 144.579041 144.444 ninth (53.41)
+- S Jupiter – S Transpluto RA 144.385642 144.444 ninth (79.65)
+- S Pluto – S Regulus RA 144.273253 144.444 ninth (40.74)
+- S Pluto – S Jupiter Dec 1.004077 1 whole (79.61)
+- S Pluto → J Jupiter RA 53.986288 54 whole (31.44)
+- S Quaoar – S Sedna RA 144.330010 144.444 ninth (60.39)
+- S Quaoar → H Jupiter RA 74.000263 74 whole (98.68)
+- S Sun – S Pallas RA 144.328310 144.444 ninth (59.8)
+- S Sun → H Jupiter RA 122.982813 φ¹⁰ phi power (95.09)
+- S Pallas – S Jupiter Dec contraparallel 0.283610 cp contraparallel (5.46)
+- 3 pairs with an end on Jupiter
+- lights on Jupiter: S Sun → H Jupiter RA 122.982813 φ¹⁰ phi power (95.09)
+
+### 07 Ishvara — Jupiter (also: 06 Birkenhead)
+- H Fomalhaut – H Jupiter RA 144.676267 144.444 ninth (19.75)
+- S Jupiter – S Transpluto RA 144.385642 144.444 ninth (79.65)
+- S Pluto – S Regulus RA 144.273253 144.444 ninth (40.74)
+- S Pluto – S Jupiter Dec 1.004077 1 whole (79.61)
+- S Pluto → H Jupiter Dec 15.533483 15.5556 ninth (29.05)
+- S Quaoar – S Sedna RA 144.330010 144.444 ninth (60.39)
+- S Sedna → H Jupiter RA 141.572523 141.4 sqrt2 (28.74)
+- S Sun – S Pallas RA 144.328310 144.444 ninth (59.8)
+- S Sun → H Jupiter RA 122.885610 φ¹⁰ phi power (42.4)
+- S Pallas – S Jupiter Dec contraparallel 0.283610 cp contraparallel (5.46)
+- 3 pairs with an end on Jupiter
+- lights on Jupiter: S Sun → H Jupiter RA 122.885610 φ¹⁰ phi power (42.4)
+
+### 07 Ishvara — Gonggong (also: 06 Birkenhead)
+- J Aldebaran – J Gonggong RA 100.174939 100 ninth (12.53)
+- S Sun – S Gonggong RA 99.801411 100 ninth (0.71)
+- S Uranus – S Pluto RA 100.052538 100 ninth (73.73)
+- S Pluto → H Gonggong Dec 9.731849 6×φ golden (27.02)
+- S Neptune – S Vesta RA 100.112554 100 ninth (43.72)
+- S Neptune → J Gonggong RA 23.000954 23 whole (95.23)
+- S Vesta – S Gonggong RA 114.869213 71×φ golden (65.43)
+- S Vesta → J Gonggong RA 123.113508 φ¹⁰ phi power (34.07)
+- S Rahu – S Juno RA 100.150261 100 ninth (24.87)
+- S Rahu – S Gonggong RA 111.666530 69×φ golden (31.53)
+- S Juno → H Gonggong Dec 17.984950 18 whole (24.75)
+- 3 pairs with an end on Gonggong
+- lights on Gonggong: S Moon – S Gonggong RA 42.100536 26×φ golden (2.31); S Sun – S Gonggong RA 99.801411 100 ninth (0.71)
 

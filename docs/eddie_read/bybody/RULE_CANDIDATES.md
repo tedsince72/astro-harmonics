@@ -366,3 +366,21 @@ conjunction); Lingfield - none.
 - Haydock 13:45 2020, 07 Ishvara, Venus: crossed ratio H Aldebaran – H Venus RA 63.240353 / S Venus → H Venus Dec 9.755152 =
   6.482764; Eddie marked "[phi target???]". 4×φ = 6.472136 (+0.16 %); not on the interval list (Phi group φ, φ², φ³, 1+√2 only),
   so "no target". Open: score k×φ (or 4×φ) as a ratio?
+
+## BB20 — royal-star line with 3+ sky pairs on its number, each with an end on X, and sky X in a pair on it
+Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Jupiter (horse anchor). Added 14 Nov 2026 (Eddie: "yes, very good").
+Rule: a natal royal-star line R – X scores; at least 3 different sky pairs S A – S B (A, B not X) are on its family and target,
+each with at least one end reaching X (S E – S X or S E → natal X); sky X itself makes a pair on that number (S X – S Y).
+Highlights: end lines on the same family (BB3); a pair holding a royal star; lights in the pairs; the same body and number
+repeating across the runner's bodies (Ishvara: S Uranus → J Mars Dec 42.3074 and S Uranus → J Jupiter RA 42.3424, both 10φ³).
+Ishvara Jupiter cells:
+- H Fomalhaut – H Jupiter RA 144.676267 ninth 144.444 (19.75); crossed ratio vs S Jupiter → H Jupiter Dec 14.529406 = 9.95748
+  1/10 cut (15.0)
+- S Jupiter – S Transpluto RA 144.3856 (79.7); S Pluto – S Regulus RA 144.2733 (40.7); S Quaoar – S Sedna RA 144.3300 (60.4);
+  S Sun – S Pallas RA 144.3283 (59.8)
+- Pluto: S Pluto – S Jupiter Dec 1.0041 1 (79.6), S Pluto → H Jupiter Dec 15.5335 ninth 15.5556 (29.1); Sedna: S Sedna → H Jupiter
+  RA 141.5725 √2 141.4 (28.7); Pallas: S Pallas – S Jupiter Dec contraparallel 0.2836 (5.5); Sun: S Sun → H Jupiter RA 122.8856 φ¹⁰
+  (42.4)
+- S Uranus → J Jupiter RA 42.3424 10φ³ (71.3), Dec 17.9697 φ⁶ (5.7)
+Field check: Haydock - 2 runners, Ishvara (Jupiter, Gonggong) and Birkenhead (Jupiter; same anchor H Fomalhaut – H Jupiter RA
+144.579041 on 144.444); 3+ pairs alone 26 cases, 9 runners. Lingfield - none.
