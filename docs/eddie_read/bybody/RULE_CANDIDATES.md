@@ -254,3 +254,25 @@ Pholas Juno cells:
 - Venus: S Venus → J Juno RA 0.250634 conj (83.29)
 - Lights: S Sun → J Juno Dec contraparallel 0.167756 (44.08); S Moon → J Juno Dec 18.855574 ninth 18.8889 (11.81)
 Field check, this race: Pholas Juno only (also with "a royal star on sky X" added).
+
+## BB14 — H X – J X line matched by a sky pair, both ends on natal X in one chart
+Origin: Lingfield AW 14:35 2 Apr 2021, 5 Pholas / Hollie Doyle, body Vesta (jockey).
+Rule (Eddie, 14 Nov 2026): on body X, the H X – J X line scores; a sky pair S A – S B (A, B not X; "Sky lines on the same
+target") scores on the same family and target; A and B both reach natal X with scoring lines in the same chart (S A → H X and
+S B → H X, or S A → J X and S B → J X). BB1 with H X – J X as the anchor (kept as a separate version).
+Highlights: a royal star on X in the sky, horse and jockey (with ratios); other royal-star lines matched by pairs; a body in more
+than one pair; lights.
+Pholas Vesta cells:
+- H Vesta – J Vesta Dec contraparallel 0.291800 (2.7)
+- S Pluto – S Rahu Dec contraparallel 0.049008 (83.66); S Pluto → J Vesta Dec 0.034100 conj (88.64); S Rahu → J Vesta Dec
+  44.436500 ninth 44.4444 (91.04), and Dec contraparallel 0.083100 (72.3)
+- Also on the target: S Venus – S Neptune Dec contraparallel 0.129400 (56.85); S Mars – S Moon Dec contraparallel 0.231881 (22.71)
+- Regulus in all three: S Regulus – S Vesta Dec 6.674467 ninth 6.66667 (41.5); H Regulus – H Vesta RA 27.827000, same-body ratio
+  vs S Vesta → H Vesta RA 39.302527 = 1.412390 √2 (14.1); J Regulus – J Vesta RA 102.830100, vs S Vesta → J Vesta RA 91.348713 =
+  1.125688 9/8 (59.3)
+- H Antares – H Vesta RA 123.078000 φ¹⁰ (53.3); S Venus – S Ketu RA 123.134500 φ¹⁰ (22.68); S Venus → J Vesta RA 118.986200 119
+  (30.8) - Venus in two pairs
+- S Vesta → H Vesta Dec 3.244700 2×φ (73.5)
+- Lights: S Moon → H Vesta RA 132.981400 133 (6.9); the Moon in S Mars – S Moon
+Field check, this race: 2 runners - Pholas Vesta (Pluto – Rahu, jockey), Shimmering Dawn Ketu (RA 10φ⁶, S Pallas – S Orcus and
+S Pallas – S Transpluto, horse). One end only: 21 cases, 5 runners.
