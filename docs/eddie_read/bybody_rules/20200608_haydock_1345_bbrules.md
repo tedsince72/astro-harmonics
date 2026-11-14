@@ -1,4 +1,4 @@
-# 20200608_haydock_1345 — body-by-body rules BB1-BB28
+# 20200608_haydock_1345 — body-by-body rules BB1-BB29
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -32,6 +32,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB26 | 2 | 2 | 06 Birkenhead, 07 Ishvara |
 | BB27 | 4 | 3 | 06 Birkenhead, 07 Ishvara, 09 Garsman |
 | BB28 | 2 | 2 | 04 Royal Context, 07 Ishvara |
+| BB29 | 1 | 1 | 07 Ishvara |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -834,4 +835,21 @@ Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Juno
 - S Jupiter – S Makemake RA 102.008264 102 whole (58.68)
 - S Jupiter → J Juno RA 55.613321 55.5556 ninth (48.01)
 - lights on Juno: S Sun – S Juno RA 112.015380 112 whole (23.1); S Sun → H Juno Dec 33.367762 33.3333 ninth (48.36); S Sun → H Juno RA 155.817127 155.556 ninth (15.92)
+
+## BB29 — one sky body paired with two royal stars on their own natal lines on X, and on natal and sky X
+
+Rule: In chart c, one sky body Y pairs with two different royal stars (S Y – S R1, S Y – S R2), each pair on the family and target of that star's own natal line (c R – c X); Y reaches X in chart c (S Y → c X) and in the sky (S Y – S X).
+
+Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Vesta
+
+### 07 Ishvara — Vesta (only)
+- J Aldebaran – J Vesta Dec 17.929861 φ⁶ phi power (46.46)
+- S Eris – S Aldebaran Dec 17.937557 φ⁶ phi power (75.05)
+- J Antares – J Vesta Dec 25.012800 25 whole (36)
+- S Eris – S Antares Dec 25.002977 25 whole (85.11)
+- S Eris → J Vesta Dec 0.010058 conj conj (96.65)
+- S Eris – S Vesta Dec 24.262031 15×φ golden (73.83)
+- S Eris → H Vesta RA 85.987401 86 whole (37.01)
+- Eris paired with Aldebaran, Antares on their own natal lines
+- lights on Vesta: S Sun – S Vesta Dec 0.052556 conj conj (82.48); S Moon – S Vesta Dec 46.936470 29×φ golden (58.38); S Moon – S Vesta RA 156.969749 97×φ golden (36.88); S Moon → H Vesta RA 177.621190 177.778 ninth (55.96); S Moon → J Vesta Dec 22.684496 14×φ golden (1.17)
 

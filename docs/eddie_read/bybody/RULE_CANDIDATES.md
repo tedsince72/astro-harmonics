@@ -492,3 +492,21 @@ Ishvara Juno cells:
 - S Jupiter – S Makemake RA 102.0083 102 (58.7); S Jupiter → J Juno RA 55.6133 ninth 55.5556 (48.0)
 Field check: Haydock - Ishvara Juno, Royal Context Pluto (Antares, S Mars – S Eris, end Eris); Lingfield - none. Without the
 same-family condition: Haydock 6 cases / 5 runners, Lingfield 7 / 5.
+
+## BB29 — one sky body paired with two royal stars on their own natal lines on X, and on natal and sky X
+Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Vesta (jockey). Added 14 Nov 2026 (Eddie: "yes, please add").
+Rule: in chart c, one sky body Y pairs with two different royal stars (S Y – S R1, S Y – S R2), each pair on the family and
+target of that star's own natal line (c R – c X); Y reaches X in chart c (S Y → c X) and in the sky (S Y – S X).
+Highlights: Y on the other chart's X; Y paired with X on the same-body number; the star on X in sky, horse and jockey; crossed
+ratios.
+Ishvara Vesta cells (jockey):
+- J Antares – J Vesta Dec 25.0128 25 (36.0); S Eris – S Antares Dec 25.0030 25 (85.1); crossed vs S Vesta → J Vesta RA 75.008849 =
+  2.998819 3 (94.1)
+- J Aldebaran – J Vesta Dec φ⁶; S Eris – S Aldebaran Dec 17.9376 φ⁶ (75.1); also S Mercury – S Chiron (86.6), S Chiron – S Makemake
+  (67.3)
+- S Eris – S Vesta Dec 24.2620 15×φ (73.8) = pair on S Vesta → J Vesta Dec 24.2520 15×φ (42.8); S Eris → J Vesta Dec 0.0101 conj
+  (96.7); S Eris → H Vesta RA 85.9874 86 (37.0)
+- S Antares – S Vesta RA 155.4434 155.556 (63.9); H Antares – H Vesta Dec contraparallel 0.1534 (48.9)
+- Chiron: S Chiron – S Vesta RA 85.0156 85 (22.1); S Chiron → J Vesta RA 10.0067 10 (66.4); S Vesta → J Vesta RA 75.0088 75 (55.8)
+Field check: Haydock - Ishvara Vesta only (Eris; Antares, Aldebaran); Lingfield - Shimmering Dawn Jupiter only (Uranus; Antares,
+Fomalhaut).

@@ -45,6 +45,7 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB26': set(),
     'BB27': set(),
     'BB28': set(),
+    'BB29': {('06 Shimmering Dawn', 'Jupiter')},
 }
 CELLS = {  # rule: (runner, body, [cell texts that must be in the case])
     'BB1': ('05 Pholas', 'Mercury', ['J Aldebaran – J Mercury Dec 16.193302 10×φ golden (59.99)',
@@ -155,5 +156,10 @@ if os.path.exists(HAY):
     ij = [x for c in hres['BB28'] if c['runner'] == '07 Ishvara' for x in c['cells']]
     for w in ('S Fomalhaut – S Juno RA', 'J Fomalhaut – J Juno RA 101.990237', 'S Jupiter – S Makemake RA', 'S Jupiter → J Juno RA'):
         check(any(x.startswith(w) for x in ij), f'BB28 Ishvara Juno cell {w}')
+    check({(c['runner'], c['body']) for c in hres['BB29']} == {('07 Ishvara', 'Vesta')}, 'BB29 Haydock holders')
+    iv = [x for c in hres['BB29'] for x in c['cells']]
+    for w in ('S Eris – S Antares Dec', 'S Eris – S Aldebaran Dec', 'J Antares – J Vesta Dec', 'S Eris → J Vesta Dec',
+              'S Eris – S Vesta Dec', 'S Eris → H Vesta RA'):
+        check(any(x.startswith(w) for x in iv), f'BB29 Ishvara Vesta cell {w}')
 print(f'{ok}/{ok + bad} checks passed')
 sys.exit(1 if bad else 0)

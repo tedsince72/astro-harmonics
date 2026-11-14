@@ -1,4 +1,4 @@
-# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB28
+# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB29
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -32,6 +32,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB26 | 0 | 0 | - |
 | BB27 | 0 | 0 | - |
 | BB28 | 0 | 0 | - |
+| BB29 | 1 | 1 | 06 Shimmering Dawn |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -532,4 +533,20 @@ Rule: A royal star R scores on X in the sky (S R – S X) and in natal chart c (
 Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Juno
 
 No runner holds it.
+
+## BB29 — one sky body paired with two royal stars on their own natal lines on X, and on natal and sky X
+
+Rule: In chart c, one sky body Y pairs with two different royal stars (S Y – S R1, S Y – S R2), each pair on the family and target of that star's own natal line (c R – c X); Y reaches X in chart c (S Y → c X) and in the sky (S Y – S X).
+
+Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Vesta
+
+### 06 Shimmering Dawn — Jupiter (only)
+- J Antares – J Jupiter Dec 40.473638 25×φ golden (29.67)
+- S Uranus – S Antares Dec 40.475177 25×φ golden (24.92)
+- J Fomalhaut – J Jupiter Dec 43.662648 27×φ golden (25.09)
+- S Uranus – S Fomalhaut Dec 43.666858 27×φ golden (38.09)
+- S Uranus → J Jupiter Dec 0.001657 conj conj (99.45)
+- S Uranus – S Jupiter RA 70.756138 70.7 sqrt2 (57.14)
+- Uranus paired with Antares, Fomalhaut on their own natal lines
+- lights on Jupiter: S Moon – S Jupiter RA 68.547364 10φ⁴ phi power (93.83); S Sun – S Jupiter Dec 19.418627 12×φ golden (93.15); S Sun → H Jupiter Dec 0.175496 conj conj (41.5); S Sun → J Jupiter Dec 9.012579 9 whole (37.1); S Moon → J Jupiter RA 140.980113 141 whole (0.56)
 
