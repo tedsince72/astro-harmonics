@@ -200,3 +200,22 @@ Pholas Ketu cells:
 Field check, this race: 2 runners - Pholas Ketu (Regulus; S Pluto – S Transpluto 144.444), Nirodha Ketu (Regulus; S Neptune –
 S Transpluto 100φ). Parts alone: the same royal star on X in all three - 28 cases, every runner; a sky body on X in all three -
 56 cases, every runner; star in all three + a body in all three - 10 cases, 5 runners.
+
+## BB11 — additive star step and one star in both planes, same body and chart (combination)
+Origin: Lingfield AW 14:35 2 Apr 2021, 5 Pholas / Hollie Doyle, body Ceres (jockey).
+Rule (Eddie, 14 Nov 2026: "the combination"), on body X and one chart, BOTH:
+(a) additive star step: one royal star R1 scores on X in the sky (S R1 – S X) and in that natal chart (R1 – X), same plane and
+    family (whole or golden), and the same-body line S X → natal X in that plane scores on the same family, with the multipliers
+    adding up (sky = natal ± same-body). (In one plane this is largely geometry - points lined up - as the Mars golden steps.)
+(b) one star in both planes: a royal star R2's line R2 – X scores in one plane and has a sky pair on its family and target;
+    R2 – X in the other plane has a scoring same-body ratio against a scoring S X → natal X line in that plane.
+Parts alone (not rules): (a) 4 cases, 3 runners; (b) 3 cases, 3 runners.
+Highlights: lights (Moon in the pair and on natal X); a sky pair repeating on another body.
+Pholas Ceres cells (jockey):
+- (a) S Antares – S Ceres Dec 25.984400 26 (22.1); J Antares – J Ceres Dec 0.985500 1 (27.4); S Ceres → J Ceres Dec 24.998449
+  25 (92.25); 25 + 1 = 26
+- (b) J Regulus – J Ceres RA 105.146700 65×φ golden (21.2); S Moon – S Regulus RA 105.154449 65×φ (45.18) (same pair on Pholas
+  Mars); J Regulus – J Ceres Dec 37.414700 (no family), same-body ratio vs S Ceres → J Ceres 24.998449 = 1.496683 3/2 fifth (83.41)
+- Lights: S Moon → J Ceres RA 0.013600 conj (99.1)
+Field check, this race: Pholas Ceres only. (a) alone: Arafi Juno, Fizzy Feet Haumea, Pholas Mars, Pholas Ceres; (b) alone:
+Fizzy Feet Haumea, Indie Angel Mars, Pholas Ceres.
