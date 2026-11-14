@@ -481,3 +481,14 @@ Ishvara Pallas cells (jockey):
 - Light: S Sun → J Pallas RA 72.7987 45×φ (60.5)
 Field check: (a) Haydock 3 runners - Birkenhead Jupiter, Ishvara Jupiter and Pallas, Garsman Pluto; (b) Ishvara Pallas only;
 Lingfield none.
+
+## BB28 — royal star on sky X and natal X, natal line paired, an end on natal X on the sky star line's family
+Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Juno (jockey RA). Added 14 Nov 2026 (Eddie: "the 2 runner version").
+Rule: a royal star R scores on X in the sky (S R – S X) and in natal chart c (c R – c X), same plane; the natal line is matched by
+a sky pair S A – S B (A, B not X); one end E reaches X in chart c (S E → c X) on the same family as the sky star line.
+Highlights: the sky star line's and end line's numbers; lights.
+Ishvara Juno cells:
+- S Fomalhaut – S Juno RA 155.5532 ninth 155.556 (99.2); J Fomalhaut – J Juno RA 101.990237 102 (51.18)
+- S Jupiter – S Makemake RA 102.0083 102 (58.7); S Jupiter → J Juno RA 55.6133 ninth 55.5556 (48.0)
+Field check: Haydock - Ishvara Juno, Royal Context Pluto (Antares, S Mars – S Eris, end Eris); Lingfield - none. Without the
+same-family condition: Haydock 6 cases / 5 runners, Lingfield 7 / 5.

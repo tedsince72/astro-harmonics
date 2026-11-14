@@ -1,4 +1,4 @@
-# 20200608_haydock_1345 — body-by-body rules BB1-BB27
+# 20200608_haydock_1345 — body-by-body rules BB1-BB28
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -31,6 +31,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB25 | 2 | 2 | 07 Ishvara, 08 Dancin Inthestreet |
 | BB26 | 2 | 2 | 06 Birkenhead, 07 Ishvara |
 | BB27 | 4 | 3 | 06 Birkenhead, 07 Ishvara, 09 Garsman |
+| BB28 | 2 | 2 | 04 Royal Context, 07 Ishvara |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -813,4 +814,24 @@ Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Pallas
 - S Vesta – S Pluto RA 155.551369 155.556 ninth (98.65)
 - S Vesta – S Pluto Dec 45.011790 45 whole (41.05)
 - lights on Pluto: S Moon – S Pluto RA 1.418380 conj conj (5.44); S Sun → J Pluto RA 147.991390 148 whole (56.95)
+
+## BB28 — royal star on sky X and natal X (same plane); natal line paired; an end on natal X on the sky star line's family
+
+Rule: A royal star R scores on X in the sky (S R – S X) and in natal chart c (c R – c X), same plane; the natal line is matched by a sky pair S A – S B (A, B not X); one end E reaches X in chart c (S E → c X) on the same family as the sky star line.
+
+Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Juno
+
+### 04 Royal Context — Pluto (also: 07 Ishvara)
+- S Antares – S Pluto RA 49.005278 49 whole (73.61)
+- J Antares – J Pluto RA 37.236898 23×φ golden (31.74)
+- S Mars – S Eris RA 37.185073 23×φ golden (8.31)
+- S Eris → J Pluto Dec 7.983471 8 whole (17.35)
+- lights on Pluto: S Moon – S Pluto RA 1.418380 conj conj (5.44); S Sun → J Pluto RA 133.273239 133.333 ninth (77.46)
+
+### 07 Ishvara — Juno (also: 04 Royal Context)
+- S Fomalhaut – S Juno RA 155.553196 155.556 ninth (99.24)
+- J Fomalhaut – J Juno RA 101.990237 102 whole (51.18)
+- S Jupiter – S Makemake RA 102.008264 102 whole (58.68)
+- S Jupiter → J Juno RA 55.613321 55.5556 ninth (48.01)
+- lights on Juno: S Sun – S Juno RA 112.015380 112 whole (23.1); S Sun → H Juno Dec 33.367762 33.3333 ninth (48.36); S Sun → H Juno RA 155.817127 155.556 ninth (15.92)
 
