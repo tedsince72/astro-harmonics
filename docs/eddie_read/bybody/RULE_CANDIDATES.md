@@ -180,3 +180,23 @@ Pholas Rahu cells:
 - S Transpluto → H Rahu Dec 0.778404 ninth 0.777778 (59.76); S Transpluto → J Rahu RA 33.343278 ninth 33.3333 (85.08)
 Field check, this race: both charts - Pholas Rahu only; one chart - 9 cases, 4 runners (Pholas 3, Shimmering Dawn 3,
 Nirodha 2, Indie Angel 1).
+
+## BB10 — one royal star on X in the sky, horse and jockey, a natal star line matched by a pair with both ends on sky X
+Origin: Lingfield AW 14:35 2 Apr 2021, 5 Pholas / Hollie Doyle, body Ketu.
+Rule (Eddie, 14 Nov 2026): on body X, one royal star R scores on X in the sky (S R – S X), and its natal line R – X in both the
+horse and the jockey chart has a score or a scoring same-body / crossed ratio; one of those natal R – X lines (scoring) is
+matched by a sky pair S A – S B ("Sky lines on the same target") whose ends A and B both reach sky X (S A – S X, S B – S X).
+Highlights: a pair end also reaching natal X (same family marked); a sky body on X in the sky, horse and jockey; the Moon on one
+of those numbers; the same sky pair repeating on another body of the runner; lights.
+Pholas Ketu cells:
+- S Regulus – S Ketu RA 98.676000 61×φ golden (25.6)
+- H Regulus – H Ketu Dec 21.912300 (no family); same-body ratio vs S Ketu → H Ketu 12.313343 = 1.779555 16/9 minor seventh (33.4)
+- J Regulus – J Ketu RA 144.654200 ninth 144.444 (27.4)
+- S Pluto – S Transpluto RA 144.559513 ninth 144.444 (60.17) (the same pair carries Pholas Jupiter, BB3)
+- S Pluto – S Ketu Dec 0.049008 conj (83.66); S Transpluto – S Ketu Dec 32.984600 33 (23.2)
+- S Transpluto → H Ketu RA 177.953000 ninth 177.778 (50.73, same family)
+- Venus on Ketu in all three: S Venus – S Ketu RA 123.134500 φ¹⁰ (22.68); S Venus → H Ketu Dec 14.559200 9×φ (90.5);
+  S Venus → J Ketu RA 6.470500 4×φ (94.8); Moon: S Moon – S Ketu RA 6.478500 4×φ (80.39) on the Venus → J Ketu number
+Field check, this race: 2 runners - Pholas Ketu (Regulus; S Pluto – S Transpluto 144.444), Nirodha Ketu (Regulus; S Neptune –
+S Transpluto 100φ). Parts alone: the same royal star on X in all three - 28 cases, every runner; a sky body on X in all three -
+56 cases, every runner; star in all three + a body in all three - 10 cases, 5 runners.
