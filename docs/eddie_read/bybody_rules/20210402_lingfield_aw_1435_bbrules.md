@@ -1,4 +1,4 @@
-# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB20
+# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB22
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -24,6 +24,8 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB18 | 1 | 1 | 03 Indie Angel |
 | BB19 | 0 | 0 | - |
 | BB20 | 0 | 0 | - |
+| BB21 | 0 | 0 | - |
+| BB22 | 0 | 0 | - |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -448,6 +450,22 @@ No runner holds it.
 Rule: A natal royal-star line R – X scores; at least 3 different sky pairs S A – S B (A, B not X) are on its family and target, each with at least one end reaching X (S E – S X or S E → natal X); sky X itself makes a pair on that number (S X – S Y).
 
 Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Jupiter
+
+No runner holds it.
+
+## BB21 — same-body line matched by a pair holding a royal star; other end on natal X; that star's natal line matched
+
+Rule: In chart c: the same-body line S X → c X scores and is matched by a sky pair S A – S R holding a royal star R; A reaches X in that chart (S A → c X); the natal line c R – c X scores and has its own sky match (Sky lines on the same target).
+
+Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Saturn
+
+No runner holds it.
+
+## BB22 — BB21 plus two royal-star lines matched in that chart
+
+Rule: BB21, and in the same chart two different royal-star lines on X score and each has its own sky match.
+
+Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Saturn
 
 No runner holds it.
 

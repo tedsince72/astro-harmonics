@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Body-by-body rules (Eddie, 14 Nov 2026). BB1-BB17 from Lingfield AW 14:35 2 Apr 2021, 5 Pholas / Hollie Doyle;
-BB18-BB20 from Haydock 13:45 8 Jun 2020, 7 Ishvara. Each rule's origin is in rules.json.
+BB18-BB22 from Haydock 13:45 8 Jun 2020, 7 Ishvara. Each rule's origin is in rules.json.
 
 Usage:  python3 tools/eddie_bybody_rules.py <race>_bybody.xlsx [--out DIR]   (default DIR docs/eddie_read/bybody_rules)
         -> DIR/<race>_bbrules.md and DIR/<race>_bbrules.json
@@ -459,11 +459,46 @@ def bb20(b):
     return out
 
 
+def _bb21_cases(b):
+    out = []
+    for c in 'HJ':
+        for sb in b.same_body(c):
+            for s in b.same_on(sb):
+                m = re.match(r'S (.+) – S (.+)$', s['line'])
+                if not m:
+                    continue
+                for R in set(m.groups()) & set(ROY):
+                    A = [x for x in m.groups() if x != R][0]
+                    ends = b.to_natal(A, c)
+                    nl = [r for r in b.lines(f'{c} {R} – {c} {b.X}', scoring=True) if b.same_on(r)]
+                    if ends and nl:
+                        out.append((c, sb, s, ends, nl))
+    return out
+
+
+def bb21(b):
+    return [{'key': (c, sb['plane'], s['line'], s['plane'], s['tgt']),
+             'cells': [sb, s] + ends + [x for r in nl for x in [r] + b.same_on(r)]}
+            for c, sb, s, ends, nl in _bb21_cases(b)]
+
+
+def bb22(b):
+    out = []
+    for c, sb, s, ends, nl in _bb21_cases(b):
+        matched = [(R, r) for _, R, r in b.star_rows(c, scoring=True) if b.same_on(r)]
+        if len({R for R, _ in matched}) >= 2:
+            cells = [sb, s] + ends + [x for _, r in matched for x in [r] + b.same_on(r)]
+            out.append({'key': (c, sb['plane'], s['line'], s['plane'], s['tgt']), 'cells': cells,
+                        'notes': ['royal-star lines matched in this chart: ' + ', '.join(sorted({R for R, _ in matched}))]})
+    return out
+
+
 RULES = [('BB1', bb1, 'Mercury'), ('BB2', bb2, 'Mars'), ('BB3', bb3, 'Jupiter'), ('BB4', bb4, 'Saturn'),
          ('BB5', bb5, 'Uranus'), ('BB6', bb6, 'Uranus'), ('BB7', bb7, 'Neptune'), ('BB8', bb8, 'Rahu'),
          ('BB9', bb9, 'Rahu'), ('BB10', bb10, 'Ketu'), ('BB11', bb11, 'Ceres'), ('BB12', bb12, 'Pallas'),
          ('BB13', bb13, 'Juno'), ('BB14', bb14, 'Vesta'), ('BB15', bb15, 'Chiron'), ('BB16', bb16, 'Eris'),
-         ('BB17', bb17, 'Makemake'), ('BB18', bb18, 'Venus'), ('BB19', bb19, 'Venus'), ('BB20', bb20, 'Jupiter')]
+         ('BB17', bb17, 'Makemake'), ('BB18', bb18, 'Venus'), ('BB19', bb19, 'Venus'), ('BB20', bb20, 'Jupiter'),
+         ('BB21', bb21, 'Saturn'), ('BB22', bb22, 'Saturn')]
 
 
 def decade_pairs(cells):

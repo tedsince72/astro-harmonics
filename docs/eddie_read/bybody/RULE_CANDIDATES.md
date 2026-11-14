@@ -384,3 +384,20 @@ Ishvara Jupiter cells:
 - S Uranus → J Jupiter RA 42.3424 10φ³ (71.3), Dec 17.9697 φ⁶ (5.7)
 Field check: Haydock - 2 runners, Ishvara (Jupiter, Gonggong) and Birkenhead (Jupiter; same anchor H Fomalhaut – H Jupiter RA
 144.579041 on 144.444); 3+ pairs alone 26 cases, 9 runners. Lingfield - none.
+
+## BB21 / BB22 — same-body line matched by a pair holding a royal star, other end on natal X, that star's line matched (+ a second star)
+Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Saturn (horse). Added 14 Nov 2026 - Eddie asked for both versions.
+BB21: in chart c, the same-body line S X → c X scores and is matched by a sky pair S A – S R holding a royal star R; A reaches X in
+that chart (S A → c X); the natal line c R – c X scores and has its own sky match.
+BB22: BB21, and in the same chart two different royal-star lines on X score, each with its own sky match.
+Highlights: lights.
+Ishvara Saturn cells (horse):
+- S Saturn → H Saturn Dec 2.000397 2 (98.02); S Uranus – S Regulus Dec 1.9909 2 (54.7); S Moon → H Saturn Dec 2.0186 2 (7.2)
+- S Uranus → H Saturn RA 129.4351 80×φ (76.4)
+- H Regulus – H Saturn RA 114.884 71×φ (89.0); S Vesta – S Gonggong RA 114.8692 71×φ (65.4)
+- H Aldebaran – H Saturn RA 161.998378 162 (91.89), also 100φ (19.7); S Venus → H Saturn RA 161.8743 100φ (70.8); S Neptune –
+  S Transpluto RA 161.8508 100φ (80.5); S Venus – S Saturn Dec 41.4481 silver 41.4 (57.0)
+- Lights: S Sun – S Saturn RA 133.5428 ninth 133.333 (21.5); S Sun → H Saturn 105×φ (15.2); S Sun → J Saturn 102×φ (80.4);
+  S Moon – S Saturn Dec 4 (5.2)
+Field check: Haydock BB21 - Ishvara Saturn (Regulus, horse), Dancin Inthestreet Gonggong (Aldebaran, jockey: S Venus –
+S Aldebaran, J Aldebaran – J Gonggong Dec 34); BB22 - Ishvara Saturn only. Lingfield - none of either.

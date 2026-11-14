@@ -1,4 +1,4 @@
-# 20200608_haydock_1345 — body-by-body rules BB1-BB20
+# 20200608_haydock_1345 — body-by-body rules BB1-BB22
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -24,6 +24,8 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB18 | 1 | 1 | 07 Ishvara |
 | BB19 | 1 | 1 | 07 Ishvara |
 | BB20 | 3 | 2 | 06 Birkenhead, 07 Ishvara |
+| BB21 | 2 | 2 | 07 Ishvara, 08 Dancin Inthestreet |
+| BB22 | 1 | 1 | 07 Ishvara |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -631,4 +633,47 @@ Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Jupiter
 - S Juno → H Gonggong Dec 17.984950 18 whole (24.75)
 - 3 pairs with an end on Gonggong
 - lights on Gonggong: S Moon – S Gonggong RA 42.100536 26×φ golden (2.31); S Sun – S Gonggong RA 99.801411 100 ninth (0.71)
+
+## BB21 — same-body line matched by a pair holding a royal star; other end on natal X; that star's natal line matched
+
+Rule: In chart c: the same-body line S X → c X scores and is matched by a sky pair S A – S R holding a royal star R; A reaches X in that chart (S A → c X); the natal line c R – c X scores and has its own sky match (Sky lines on the same target).
+
+Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Saturn
+
+### 07 Ishvara — Saturn (also: 08 Dancin Inthestreet)
+- S Saturn → H Saturn Dec 2.000397 2 whole (98.02)
+- S Uranus – S Regulus Dec 1.990948 2 whole (54.74)
+- S Uranus → H Saturn RA 129.435075 80×φ golden (76.41)
+- H Regulus – H Saturn RA 114.883984 71×φ golden (88.98)
+- S Saturn – S Sedna RA 114.855859 71×φ golden (24.22)
+- S Vesta – S Gonggong RA 114.869213 71×φ golden (65.43)
+- lights on Saturn: S Sun – S Saturn RA 133.542772 133.333 ninth (21.46); S Moon – S Saturn Dec 4.018954 4 whole (5.23); S Sun → H Saturn RA 169.866103 105×φ golden (15.23); S Moon → H Saturn Dec 2.018557 2 whole (7.22); S Sun → J Saturn RA 165.045820 102×φ golden (80.39)
+
+### 08 Dancin Inthestreet — Gonggong (also: 07 Ishvara)
+- S Gonggong → J Gonggong RA 4.880889 3×φ golden (17.32)
+- S Venus – S Aldebaran Dec 4.855038 3×φ golden (97.11)
+- S Venus → J Gonggong Dec 38.860436 24×φ golden (14.75)
+- J Aldebaran – J Gonggong Dec 34.006656 34 whole (66.72)
+- S Pallas → H Gonggong Dec 34.008797 34 whole (56.01)
+- S Pallas → H Gonggong Dec 34.008797 21×φ golden (7.15)
+- lights on Gonggong: S Moon – S Gonggong RA 42.100536 26×φ golden (2.31); S Sun – S Gonggong RA 99.801411 100 ninth (0.71); S Moon → J Gonggong RA 37.219647 23×φ golden (84.98)
+
+## BB22 — BB21 plus two royal-star lines matched in that chart
+
+Rule: BB21, and in the same chart two different royal-star lines on X score and each has its own sky match.
+
+Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Saturn
+
+### 07 Ishvara — Saturn (only)
+- S Saturn → H Saturn Dec 2.000397 2 whole (98.02)
+- S Uranus – S Regulus Dec 1.990948 2 whole (54.74)
+- S Uranus → H Saturn RA 129.435075 80×φ golden (76.41)
+- H Aldebaran – H Saturn RA 161.998378 162 whole (91.89)
+- S Venus → H Saturn RA 161.874276 100φ phi power (70.8)
+- S Neptune – S Transpluto RA 161.850836 100φ phi power (80.45)
+- H Regulus – H Saturn RA 114.883984 71×φ golden (88.98)
+- S Saturn – S Sedna RA 114.855859 71×φ golden (24.22)
+- S Vesta – S Gonggong RA 114.869213 71×φ golden (65.43)
+- royal-star lines matched in this chart: Aldebaran, Regulus
+- lights on Saturn: S Sun – S Saturn RA 133.542772 133.333 ninth (21.46); S Moon – S Saturn Dec 4.018954 4 whole (5.23); S Sun → H Saturn RA 169.866103 105×φ golden (15.23); S Moon → H Saturn Dec 2.018557 2 whole (7.22); S Sun → J Saturn RA 165.045820 102×φ golden (80.39)
 
