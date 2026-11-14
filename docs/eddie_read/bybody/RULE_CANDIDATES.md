@@ -239,3 +239,18 @@ Pholas Pallas cells:
 Field check, this race (any family): Y on natal X in either chart - 5 cases, 3 runners (Arafi Gonggong 17 Chiron, Arafi Venus
 141.4 Orcus, Nirodha Saturn 34 Haumea, Pholas Pallas Orcus and Transpluto); in the star line's chart (the rule) - Pholas Pallas
 only (Orcus, Transpluto); in both charts - Pholas Pallas only (Transpluto). Opposition only - Pholas Pallas only.
+
+## BB13 — same-body line in both charts, each with its own sky pair
+Origin: Lingfield AW 14:35 2 Apr 2021, 5 Pholas / Hollie Doyle, body Juno.
+Rule (Eddie, 14 Nov 2026): on body X, S X → H X and S X → J X both score, and each is matched by its own sky pair S A – S B
+(A, B not X; "Sky lines on the same target") on its family and target.
+Highlights: a royal star on sky X; royal-star same-body / crossed ratios on the same-body lines; a sky pair repeating on another
+body of the runner; Venus; lights.
+Pholas Juno cells:
+- S Juno → H Juno RA 4.011272 4 whole (43.64); S Orcus – S Quaoar Dec 4.001963 4 (90.19)
+- S Juno → J Juno RA 110.031115 68×φ golden (85.17); S Mars – S Jupiter RA 110.018894 68×φ (77.11) (same line on Pholas Mars, BB2)
+- S Fomalhaut – S Juno Dec 21.030433 13×φ (87.63)
+- J Aldebaran – J Juno RA 55.328442 (no family), same-body ratio vs S Juno → J Juno 2 octave (43.45)
+- Venus: S Venus → J Juno RA 0.250634 conj (83.29)
+- Lights: S Sun → J Juno Dec contraparallel 0.167756 (44.08); S Moon → J Juno Dec 18.855574 ninth 18.8889 (11.81)
+Field check, this race: Pholas Juno only (also with "a royal star on sky X" added).
