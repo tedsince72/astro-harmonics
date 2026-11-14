@@ -36,3 +36,29 @@ Field check, this race (version a; a pair on two families of one value counted o
 Indie Angel 6, Nirodha 5, Pholas 9, Shimmering Dawn 4. Version b: Pholas Mercury only.
 Decade highlight inside a case: Pholas Mercury; Shimmering Dawn Juno (S Sedna – S Juno Dec 16.6848 ninth 16.6667 (45.64) /
 S Sedna → H Juno RA 166.9273 ninth 166.667 (21.82)).
+
+## Moon option (all rules; Eddie, 14 Nov 2026)
+The Moon is a bonus: when a rule's relationship is there, highlight any Moon line in the case (S Moon – S X, S Moon → natal X,
+or the Moon in a same-target sky pair). Never a rule on its own.
+
+## BB2 — two royal stars on the same body, sky and natal, same chart
+Origin: Lingfield AW 14:35 2 Apr 2021, 5 Pholas / Hollie Doyle, body Mars.
+Rule (Eddie, 14 Nov 2026): for body X and one chart (H or J), two different royal stars each score on X in the sky
+(S star – S X) and in that natal chart (star – X), each star in one plane (the same plane for its sky and natal line).
+Highlights, NOT rules:
+- number links between the case's cells, as the 10×φ match in BB1 (same target; same digits a decade apart);
+- golden steps: golden multipliers whose difference equals the S X → natal X multiplier (k×φ and (k ± n)×φ with S X → natal X
+  = n×φ). Note: in RA this is largely geometry - a point lined up with sky X and natal X is k×φ from one and (k ± n)×φ from the
+  other, so the second hit comes almost for free once S X → natal X is golden;
+- the Moon option above.
+
+Pholas Mars cells (jockey):
+- S Aldebaran – S Mars Dec 7.776632 ninth 7.77778 (92.63) | J Aldebaran – J Mars Dec 0.203066 conj (32.31)
+- S Antares – S Mars RA 171.538975 106×φ golden (15.52) | J Antares – J Mars RA 105.194676 65×φ golden (30.66)
+- S Mars → J Mars RA 66.337009 41×φ golden (92.64)
+- S Jupiter – S Mars RA 110.018894 68×φ golden (77.11) | S Jupiter → J Mars RA 176.355903 109×φ golden (69.75)
+- Golden steps: 109 − 68 = 41, 106 − 65 = 41 = S Mars → J Mars 41×φ
+- Moon: S Moon – S Regulus RA 105.154449 65×φ golden (45.18) on the J Antares – J Mars target; S Moon – S Mars Dec
+  contraparallel 0.231881 (22.71)
+Field check, this race: the same royal star on X in the sky and in one natal chart, same plane, both scoring - 41 cases, every
+runner; two different royal stars on the same body in the same chart - Pholas Mars only.
