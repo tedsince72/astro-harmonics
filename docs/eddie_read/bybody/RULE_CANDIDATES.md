@@ -133,3 +133,25 @@ Pholas Uranus cells:
 - Vesta: S Vesta – S Uranus RA 127.017642 127 (11.79); S Vesta → H Uranus RA 144.564863 ninth 144.444 (58.32, same family)
 Field check, this race: Pholas Uranus; Indie Angel Mars (S Quaoar – S Antares Dec on S Mars → H Mars Dec 11.1111 / φ⁵;
 H Antares – H Mars RA crossed 1/13 cut (19.69)). Two runners.
+
+## BB7 — paired same-body line with a royal-star ratio, plus a second royal-star line with its own sky pair
+Origin: Lingfield AW 14:35 2 Apr 2021, 5 Pholas / Hollie Doyle, body Neptune (jockey).
+Rule (Eddie, 14 Nov 2026, "2nd version"): on body X and one chart (H or J):
+1. the same-body line S X → natal X (plane p) scores and has a sky pair S A – S B on its family and target;
+2. a royal star R's line R – X in that chart and plane p has a scoring same-body ratio against that line (R's own line need
+   not have a family);
+3. another royal star's line on X in the same chart scores and has its own sky pair on its family and target.
+Highlights: the same sky pair repeating on other bodies of the runner; golden steps (here geometry: Neptune between Sun and
+Pallas in RA, 11×φ + 12×φ = 23×φ); the star line's crossed ratio; same number on the two anchors; lights option.
+Pholas Neptune cells (jockey):
+- S Neptune → J Neptune Dec 16.194390 10×φ golden (56.6); S Mars – S Sedna Dec 16.192613 10×φ (62.12), 10φ (49.43)
+- J Regulus – J Neptune Dec 32.646200 (no family); same-body ratio 2.015896 2 octave (20.52)
+- J Aldebaran – J Neptune Dec 37.188100 23×φ golden (17.78); S Aldebaran – S Neptune Dec 20.990600 21 (53.11); crossed ratio vs
+  S Neptune → J Neptune RA 55.439869 = 1.490794 3/2 fifth (53.97)
+- S Sun – S Pallas RA 37.184300 23×φ (5.82) on the J Aldebaran target; S Pallas – S Neptune RA 17.791600 11×φ (79.0);
+  S Sun – S Neptune RA 19.392700 12×φ (26.8)
+- Repeat: S Mars – S Sedna 10×φ also carries Pholas Mercury (BB1) and Pholas Orcus
+Field check, this race: 4 cases, 2 runners - Pholas Neptune (Regulus 2 octave 20.52; second star J Aldebaran – J Neptune Dec
+23×φ), Pholas Saturn (Antares 3/2 43.56; J Aldebaran – J Saturn Dec 17.7778), Pholas Venus (Aldebaran 7/3 14.99; H Regulus –
+H Venus RA 111×φ), Arafi Pluto (Fomalhaut 4/3 89.63; J Antares – J Pluto RA 22.2222 = the same-body line's number).
+Without condition 3: 9 cases, 5 runners.
