@@ -276,3 +276,21 @@ Pholas Vesta cells:
 - Lights: S Moon → H Vesta RA 132.981400 133 (6.9); the Moon in S Mars – S Moon
 Field check, this race: 2 runners - Pholas Vesta (Pluto – Rahu, jockey), Shimmering Dawn Ketu (RA 10φ⁶, S Pallas – S Orcus and
 S Pallas – S Transpluto, horse). One end only: 21 cases, 5 runners.
+
+## BB15 — natal royal-star line target held by a pair with the same star AND by S Y on the other chart's X, Y back on X
+Origin: Lingfield AW 14:35 2 Apr 2021, 5 Pholas / Hollie Doyle, body Chiron (horse anchor).
+Rule (Eddie, 14 Nov 2026): on body X, a natal royal-star line R – X in chart c scores; on its family and target there are
+(i) a sky pair holding the same star (S A – S R, "Sky lines on the same target") and (ii) a line S Y → X in the other chart;
+Y also reaches X in chart c (scoring S Y → c X). Close to BB9 (kept separately).
+Highlights: the pair end A reaching X (same family marked); a sky royal line on the reciprocal / another φ power of the anchor
+(here 100φ^-1 against 100φ, ratio φ²); other pairs on the target; lights.
+Pholas Chiron cells:
+- H Regulus – H Chiron RA 161.979800 100φ phi power (27.3)
+- S Saturn – S Regulus RA 161.712000 100φ (62.33); S Saturn – S Chiron RA 53.365400 33×φ (8.2); S Saturn → H Chiron Dec
+  17.969200 φ⁶ (7.5, same family)
+- S Uranus → J Chiron RA 161.605200 100φ (18.3); S Uranus → H Chiron Dec 13.986700 14 (33.6)
+- Also on 100φ: S Neptune – S Transpluto RA 161.769200 (85.9)
+- S Aldebaran – S Chiron RA 61.804700 100φ^-1 (98.6)
+- S Chiron → J Chiron RA 169.014200 169 (29.0); light: S Moon → H Chiron Dec 24.108300 silver 24.14 (6.5)
+Field check, this race: Pholas Chiron only. Without (i): 6 cases, 4 runners. Sky and natal royal lines on X both φ powers:
+Pholas Chiron, Nirodha Saturn.
