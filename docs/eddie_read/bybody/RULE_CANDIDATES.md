@@ -219,3 +219,23 @@ Pholas Ceres cells (jockey):
 - Lights: S Moon → J Ceres RA 0.013600 conj (99.1)
 Field check, this race: Pholas Ceres only. (a) alone: Arafi Juno, Fizzy Feet Haumea, Pholas Mars, Pholas Ceres; (b) alone:
 Fizzy Feet Haumea, Indie Angel Mars, Pholas Ceres.
+
+## BB12 — natal royal-star line repeated in the sky by X itself with a body Y, Y back on natal X
+Origin: Lingfield AW 14:35 2 Apr 2021, 5 Pholas / Hollie Doyle, body Pallas (horse).
+Rule (Eddie, 14 Nov 2026; any family - "not sure it needs to be opposition"): on body X, a natal royal-star line R – X scores;
+a sky line S X – S Y (X itself with a body Y, "Sky lines on the same target") scores on the same family and target; Y reaches
+natal X with a scoring S Y → natal X line in the star line's chart (Claude's choice of version, see field check).
+Highlights: Y on natal X in both charts; a sky star line S R – S X and a Y line on the same number (here 177.778); the star on X
+in the sky, horse and jockey; other sky lines on the same target; lights.
+Pholas Pallas cells:
+- H Regulus – H Pallas RA 179.763900 opposition 180 (68.5); S Regulus – S Pallas RA 177.564100 ninth 177.778 (39.89);
+  J Regulus – J Pallas Dec 4.236900 φ³ (86.8)
+- S Pallas – S Transpluto RA 179.560800 opposition (41.4); S Pallas – S Orcus RA 179.398300 opposition (19.8)
+- Also on 180: S Sedna → J Pallas RA 179.741900 (65.6); S Uranus – S Haumea RA 179.638900 (51.9); S Ceres – S Makemake RA
+  179.251300 (0.2)
+- S Transpluto → H Pallas RA 177.767200 ninth 177.778 (97.02) (= the S Regulus – S Pallas number); S Transpluto → J Pallas Dec
+  2.993300 3 (66.42); S Orcus → H Pallas Dec 4.865500 3×φ (64.8); S Sedna → H Pallas Dec 14.555600 9×φ (79.4)
+- Lights: S Moon – S Pallas Dec 27.993000 28 (64.9); S Sun – S Pallas RA 37.184300 23×φ (5.8)
+Field check, this race (any family): Y on natal X in either chart - 5 cases, 3 runners (Arafi Gonggong 17 Chiron, Arafi Venus
+141.4 Orcus, Nirodha Saturn 34 Haumea, Pholas Pallas Orcus and Transpluto); in the star line's chart (the rule) - Pholas Pallas
+only (Orcus, Transpluto); in both charts - Pholas Pallas only (Transpluto). Opposition only - Pholas Pallas only.
