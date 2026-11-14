@@ -1,4 +1,4 @@
-# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB31
+# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB32b
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -35,6 +35,8 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB29 | 1 | 1 | 06 Shimmering Dawn |  |
 | BB30 | 1 | 1 | 06 Shimmering Dawn |  |
 | BB31 | 0 | 0 | - |  |
+| BB32 | 2 | 2 | 01 Arafi, 05 Pholas |  |
+| BB32b | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -571,6 +573,36 @@ Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Eris
 Rule: The same-body line S X → natal X scores; on its family and target there are a sky pair S A – S B (A, B not X) with an end E on X in the sky, horse and jockey (S E – S X, S E → H X, S E → J X), and a pair of X itself S X – S Y with Y on natal X. A case holding only through a Moon Y is WATCH only.
 
 Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Gonggong
+
+No runner holds it.
+
+## BB32 — sky body on sky X (conj / contraparallel) repeats a royal-star number on natal X
+
+Rule: A sky body E (not the Moon) is in conjunction or contraparallel with sky X (S E – S X), and S E → natal X in chart c is on the same family and target as a scoring royal-star line c R – c X. Notes: the planes of the tie; the gap between the star line and the S E line.
+
+Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Sun
+
+### 01 Arafi — Pluto (also: 05 Pholas)
+- J Antares – J Pluto RA 22.262853 22.2222 ninth (8.58)
+- S Rahu → J Pluto Dec 22.209080 22.2222 ninth (70.43)
+- S Rahu – S Pluto Dec contraparallel 0.049008 cp contraparallel (83.66)
+- S Rahu on sky Pluto by Dec contraparallel
+- gap |star line - S Rahu line| 0.0538
+- lights on Pluto: S Moon – S Pluto RA 41.401803 41.4 silver (68.53)
+
+### 05 Pholas — Orcus (also: 01 Arafi)
+- H Regulus – H Orcus RA 0.987105 1 whole (35.53)
+- S Transpluto → H Orcus RA 1.009610 1 whole (51.95)
+- S Transpluto – S Orcus RA 1.040885 conj conj (30.61)
+- S Transpluto on sky Orcus by RA conj
+- gap |star line - S Transpluto line| 0.0225
+- lights on Orcus: S Sun → H Orcus RA 141.366918 141.4 sqrt2 (74.34); S Sun → J Orcus RA 124.557317 77×φ golden (3.39)
+
+## BB32b — BB32 sub rule: the same body also carries a second royal star through a pair
+
+Rule: BB32, and E is also one end of a sky pair S E – S O on a second royal star R2's line on X (any chart, on its family and target), whose other end O (not the Moon) is also in conjunction or contraparallel with sky X. WATCH, noted not required: E on sky X in both planes; the gap; a third royal-star line on X paired by a pair whose both ends are conj / contraparallel X (sky or natal).
+
+Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Sun
 
 No runner holds it.
 

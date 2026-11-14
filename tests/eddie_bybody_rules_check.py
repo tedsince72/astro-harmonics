@@ -48,6 +48,8 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB29': {('06 Shimmering Dawn', 'Jupiter')},
     'BB30': {('06 Shimmering Dawn', 'Ketu')},
     'BB31': set(),
+    'BB32': {('01 Arafi', 'Pluto'), ('05 Pholas', 'Orcus')},
+    'BB32b': set(),
 }
 CELLS = {  # rule: (runner, body, [cell texts that must be in the case])
     'BB1': ('05 Pholas', 'Mercury', ['J Aldebaran – J Mercury Dec 16.193302 10×φ golden (59.99)',
@@ -173,5 +175,20 @@ if os.path.exists(HAY):
     for w in ('S Gonggong → J Gonggong Dec 9.710147', 'S Saturn – S Orcus Dec', 'S Orcus → J Gonggong RA', 'S Jupiter – S Gonggong Dec',
               'S Jupiter → J Gonggong Dec', 'S Pluto → H Gonggong Dec'):
         check(any(x.startswith(w) for x in ig), f'BB31 Ishvara Gonggong cell {w}')
+    check({(c['runner'], c['body']) for c in hres['BB32']} == set() and not hres['BB32b'], 'BB32 / BB32b Haydock: none')
+BEV = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', '20240608_beverley_1405', '20240608_beverley_1405_bybody.xlsx')
+if os.path.exists(BEV):
+    _, _, bres = R.run(BEV)
+    check({(c['runner'], c['body']) for c in bres['BB32']} == {('04 Invincible Annice', 'Makemake'), ('15 Perfect Part', 'Sun')},
+          'BB32 Beverley holders')
+    check({(c['runner'], c['body']) for c in bres['BB32b']} == {('15 Perfect Part', 'Sun')}, 'BB32b Beverley holders')
+    pc = [x for c in bres['BB32b'] for x in c['cells']]
+    pn = [n for c in bres['BB32b'] for n in c['notes']]
+    for w in ('J Regulus – J Sun Dec 5.552598', 'S Venus → J Sun Dec 5.551267', 'S Venus – S Sun Dec 0.187596',
+              'S Venus – S Sun RA 1.137027', 'H Antares – H Sun RA 133.224682', 'S Venus – S Pluto RA 133.520006',
+              'S Pluto – S Sun Dec contraparallel 0.003798', 'J Aldebaran – J Sun Dec 1.010907', 'S Chiron – S Sedna Dec 0.996865'):
+        check(any(x.startswith(w) for x in pc), f'BB32b Perfect Part Sun cell {w}')
+    check(any('both planes' in n for n in pn) and any('0.0013' in n for n in pn) and any('third royal star' in n for n in pn),
+          'BB32b Perfect Part watch notes (both planes, gap 0.0013, third royal star)')
 print(f'{ok}/{ok + bad} checks passed')
 sys.exit(1 if bad else 0)

@@ -837,6 +837,48 @@
     "watch_only": false
    }
   ],
-  "BB31": []
+  "BB31": [],
+  "BB32": [
+   {
+    "runner": "01 Arafi",
+    "body": "Pluto",
+    "cells": [
+     "J Antares – J Pluto RA 22.262853 22.2222 ninth (8.58)",
+     "S Rahu → J Pluto Dec 22.209080 22.2222 ninth (70.43)",
+     "S Rahu – S Pluto Dec contraparallel 0.049008 cp contraparallel (83.66)"
+    ],
+    "notes": [
+     "S Rahu on sky Pluto by Dec contraparallel",
+     "gap |star line - S Rahu line| 0.0538"
+    ],
+    "lights": [
+     "S Moon – S Pluto RA 41.401803 41.4 silver (68.53)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "05 Pholas",
+    "body": "Orcus",
+    "cells": [
+     "H Regulus – H Orcus RA 0.987105 1 whole (35.53)",
+     "S Transpluto → H Orcus RA 1.009610 1 whole (51.95)",
+     "S Transpluto – S Orcus RA 1.040885 conj conj (30.61)"
+    ],
+    "notes": [
+     "S Transpluto on sky Orcus by RA conj",
+     "gap |star line - S Transpluto line| 0.0225"
+    ],
+    "lights": [
+     "S Sun → H Orcus RA 141.366918 141.4 sqrt2 (74.34)",
+     "S Sun → J Orcus RA 124.557317 77×φ golden (3.39)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB32b": []
  }
 }

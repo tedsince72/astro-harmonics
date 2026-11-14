@@ -1,4 +1,4 @@
-# 20240608_beverley_1405 — body-by-body rules BB1-BB31
+# 20240608_beverley_1405 — body-by-body rules BB1-BB32b
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -35,6 +35,8 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB29 | 0 | 0 | - |  |
 | BB30 | 0 | 0 | - |  |
 | BB31 | 0 | 0 | - |  |
+| BB32 | 2 | 2 | 04 Invincible Annice, 15 Perfect Part |  |
+| BB32b | 1 | 1 | 15 Perfect Part |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1195,4 +1197,47 @@ Rule: The same-body line S X → natal X scores; on its family and target there 
 Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Gonggong
 
 No runner holds it.
+
+## BB32 — sky body on sky X (conj / contraparallel) repeats a royal-star number on natal X
+
+Rule: A sky body E (not the Moon) is in conjunction or contraparallel with sky X (S E – S X), and S E → natal X in chart c is on the same family and target as a scoring royal-star line c R – c X. Notes: the planes of the tie; the gap between the star line and the S E line.
+
+Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Sun
+
+### 04 Invincible Annice — Makemake (also: 15 Perfect Part)
+- J Aldebaran – J Makemake RA 99.902266 100 ninth (51.13)
+- S Mercury → J Makemake RA 100.097739 100 ninth (51.13)
+- S Mercury – S Makemake Dec 0.056271 conj conj (81.24)
+- S Mercury on sky Makemake by Dec conj
+- gap |star line - S Mercury line| 0.1955
+- lights on Makemake: S Sun – S Makemake RA 122.336114 122.222 ninth (53.41); S Sun → H Makemake Dec 0.049976 conj conj (83.34); S Sun → J Makemake Dec 12.215521 12.2222 ninth (72.59)
+
+### 15 Perfect Part — Sun (also: 04 Invincible Annice)
+- J Regulus – J Sun Dec 5.552598 5.55556 ninth (73.38)
+- S Venus → J Sun Dec 5.551267 5.55556 ninth (61.4)
+- S Venus – S Sun Dec 0.187596 conj conj (37.47)
+- S Venus – S Sun RA 1.137027 conj conj (24.2)
+- S Venus on sky Sun by Dec conj, RA conj
+- gap |star line - S Venus line| 0.0013
+
+## BB32b — BB32 sub rule: the same body also carries a second royal star through a pair
+
+Rule: BB32, and E is also one end of a sky pair S E – S O on a second royal star R2's line on X (any chart, on its family and target), whose other end O (not the Moon) is also in conjunction or contraparallel with sky X. WATCH, noted not required: E on sky X in both planes; the gap; a third royal-star line on X paired by a pair whose both ends are conj / contraparallel X (sky or natal).
+
+Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Sun
+
+### 15 Perfect Part — Sun (only)
+- J Regulus – J Sun Dec 5.552598 5.55556 ninth (73.38)
+- S Venus → J Sun Dec 5.551267 5.55556 ninth (61.4)
+- S Venus – S Sun Dec 0.187596 conj conj (37.47)
+- S Venus – S Sun RA 1.137027 conj conj (24.2)
+- H Antares – H Sun RA 133.224682 133.333 ninth (59.26)
+- S Venus – S Pluto RA 133.520006 133.333 ninth (30)
+- S Pluto – S Sun Dec contraparallel 0.003798 cp contraparallel (98.73)
+- J Aldebaran – J Sun Dec 1.010907 1 whole (45.46)
+- S Chiron – S Sedna Dec 0.996865 1 whole (84.33)
+- S Venus on sky Sun carries J Regulus (number) and H Antares (pair S Venus – S Pluto)
+- WATCH: S Venus on sky Sun in both planes
+- WATCH gap |star line - S Venus line| 0.0013
+- WATCH third royal star: J Aldebaran – J Sun Dec paired by S Chiron – S Sedna Dec, both ends conj / contraparallel Sun (S Chiron → H Sun RA 0.454113; S Sedna → H Sun Dec 0.045022)
 

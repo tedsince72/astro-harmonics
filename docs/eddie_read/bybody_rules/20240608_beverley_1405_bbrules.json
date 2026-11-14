@@ -2206,6 +2206,74 @@
   ],
   "BB29": [],
   "BB30": [],
-  "BB31": []
+  "BB31": [],
+  "BB32": [
+   {
+    "runner": "04 Invincible Annice",
+    "body": "Makemake",
+    "cells": [
+     "J Aldebaran – J Makemake RA 99.902266 100 ninth (51.13)",
+     "S Mercury → J Makemake RA 100.097739 100 ninth (51.13)",
+     "S Mercury – S Makemake Dec 0.056271 conj conj (81.24)"
+    ],
+    "notes": [
+     "S Mercury on sky Makemake by Dec conj",
+     "gap |star line - S Mercury line| 0.1955"
+    ],
+    "lights": [
+     "S Sun – S Makemake RA 122.336114 122.222 ninth (53.41)",
+     "S Sun → H Makemake Dec 0.049976 conj conj (83.34)",
+     "S Sun → J Makemake Dec 12.215521 12.2222 ninth (72.59)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "15 Perfect Part",
+    "body": "Sun",
+    "cells": [
+     "J Regulus – J Sun Dec 5.552598 5.55556 ninth (73.38)",
+     "S Venus → J Sun Dec 5.551267 5.55556 ninth (61.4)",
+     "S Venus – S Sun Dec 0.187596 conj conj (37.47)",
+     "S Venus – S Sun RA 1.137027 conj conj (24.2)"
+    ],
+    "notes": [
+     "S Venus on sky Sun by Dec conj, RA conj",
+     "gap |star line - S Venus line| 0.0013"
+    ],
+    "lights": [],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB32b": [
+   {
+    "runner": "15 Perfect Part",
+    "body": "Sun",
+    "cells": [
+     "J Regulus – J Sun Dec 5.552598 5.55556 ninth (73.38)",
+     "S Venus → J Sun Dec 5.551267 5.55556 ninth (61.4)",
+     "S Venus – S Sun Dec 0.187596 conj conj (37.47)",
+     "S Venus – S Sun RA 1.137027 conj conj (24.2)",
+     "H Antares – H Sun RA 133.224682 133.333 ninth (59.26)",
+     "S Venus – S Pluto RA 133.520006 133.333 ninth (30)",
+     "S Pluto – S Sun Dec contraparallel 0.003798 cp contraparallel (98.73)",
+     "J Aldebaran – J Sun Dec 1.010907 1 whole (45.46)",
+     "S Chiron – S Sedna Dec 0.996865 1 whole (84.33)"
+    ],
+    "notes": [
+     "S Venus on sky Sun carries J Regulus (number) and H Antares (pair S Venus – S Pluto)",
+     "WATCH: S Venus on sky Sun in both planes",
+     "WATCH gap |star line - S Venus line| 0.0013",
+     "WATCH third royal star: J Aldebaran – J Sun Dec paired by S Chiron – S Sedna Dec, both ends conj / contraparallel Sun (S Chiron → H Sun RA 0.454113; S Sedna → H Sun Dec 0.045022)"
+    ],
+    "lights": [],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ]
  }
 }

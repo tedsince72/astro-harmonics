@@ -547,3 +547,18 @@ In BB3 and BB23 the end's family must be the family the sky pair sits on (the nu
 line's best family. Found by the independent checker on Lingfield Nirodha Ketu (J Regulus – J Ketu RA 162.013684: best whole 162,
 also 100φ; pair S Neptune – S Transpluto on 100φ only; Transpluto's lines whole): BB23 Lingfield holder Nirodha Ketu dropped. BB3
 already read it that way (unchanged). BB23 Haydock Ishvara Neptune unchanged (ninths throughout).
+
+## BB32, BB32b (Eddie, 14 Nov 2026) - Beverley 14:05 8 Jun 2024, 15 Perfect Part, Sun
+Eddie's lines (Perfect Part Sun): H Antares – H Sun RA 133.2247 ninth 133.333 (59.3) matched by S Venus – S Pluto RA 133.5200;
+S Venus – S Sun conj Dec 0.1876 / RA 1.1370; S Pluto – S Sun Dec contraparallel 0.0038; S Venus → J Sun Dec 5.5513 = J Regulus – J Sun
+Dec 5.5526 (ninth 5.55556); J Aldebaran – J Sun RA 22.2442 = S Moon – S Rahu Dec 22.2438 (S Rahu – S Sun Dec 17.7445 ninth 6.4);
+J Aldebaran – J Sun Dec 1.0109 whole 1 = S Chiron – S Sedna Dec 0.9969 and S Neptune – S Eris Dec 0.9922; S Neptune – S Sun Dec 15×φ;
+S Sedna → H Sun Dec conj 0.0450, S Chiron → H Sun RA conj 0.4541.
+Drafts field-checked (runners holding, Lingfield / Haydock / Beverley): (a) pair on a royal-star line, both ends conj / cp sky X 0 / 0 / 4
+(the other three on Venus, all through S Sun – S Pluto Dec contraparallel on a contraparallel star line); (a') ends conj / cp X in any
+chart 2 / 1 / 4; (b) a body conj / cp sky X repeats a royal-star number on natal X 2 / 0 / 2 (Arafi Pluto, Pholas Orcus; Invincible Annice
+Makemake, Perfect Part Sun); (c) one royal-star line paired in both planes 3 / 2 / 9 (too common). Eddie chose (b) = BB32, and the
+combination as a sub rule BB32b (the same body also an end of a pair on a second royal star's line, other end conj / cp sky X): Perfect
+Part only in all three races. Independent checker: holders and every cell confirmed. Open points it raised (not changed): Pholas holds
+BB32 on values inside the RA conjunction range (0.987105 / 1.009610, best whole 1); Rahu / Ketu count as E (Arafi: Rahu); R and R2 must be
+different stars (not the same star in the other chart); any score counts (Arafi star line 8.58).

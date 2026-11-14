@@ -1,4 +1,4 @@
-# 20200608_haydock_1345 — body-by-body rules BB1-BB31
+# 20200608_haydock_1345 — body-by-body rules BB1-BB32b
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -35,6 +35,8 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB29 | 1 | 1 | 07 Ishvara |  |
 | BB30 | 1 | 1 | 07 Ishvara | 11 Mews House |
 | BB31 | 2 | 2 | 07 Ishvara, 11 Mews House | 09 Garsman |
+| BB32 | 0 | 0 | - |  |
+| BB32b | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -927,4 +929,20 @@ Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Gonggong
 - S Uranus – S Haumea RA 177.803464 177.778 ninth (92.78)
 - S Haumea → J Uranus RA 0.303221 conj conj (79.79)
 - lights on Uranus: S Sun – S Uranus RA 40.431029 25×φ golden (38.82); S Moon → J Uranus Dec 11.016161 11 whole (19.19)
+
+## BB32 — sky body on sky X (conj / contraparallel) repeats a royal-star number on natal X
+
+Rule: A sky body E (not the Moon) is in conjunction or contraparallel with sky X (S E – S X), and S E → natal X in chart c is on the same family and target as a scoring royal-star line c R – c X. Notes: the planes of the tie; the gap between the star line and the S E line.
+
+Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Sun
+
+No runner holds it.
+
+## BB32b — BB32 sub rule: the same body also carries a second royal star through a pair
+
+Rule: BB32, and E is also one end of a sky pair S E – S O on a second royal star R2's line on X (any chart, on its family and target), whose other end O (not the Moon) is also in conjunction or contraparallel with sky X. WATCH, noted not required: E on sky X in both planes; the gap; a third royal-star line on X paired by a pair whose both ends are conj / contraparallel X (sky or natal).
+
+Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Sun
+
+No runner holds it.
 

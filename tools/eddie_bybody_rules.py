@@ -725,12 +725,75 @@ def bb31(b):
     return out
 
 
+CJ = ('conj', 'contraparallel')
+
+
+def _cj_sky(b, E):
+    """E in conjunction or contraparallel with sky X (S E – S X rows)."""
+    return [o for o in b.sky_y(E) if o['fam'] in CJ]
+
+
+def _bb32_cases(b):
+    """(star line, S E -> c X row, E, its conj / contraparallel rows on sky X)."""
+    out = []
+    for c, R, a in b.star_rows(scoring=True):
+        for s in b.same_on(a):
+            m = re.match(rf'S (\w+) → {c} {re.escape(b.X)}$', s['line'])
+            if m and m.group(1) not in ('Moon', b.X):
+                t = _cj_sky(b, m.group(1))
+                if t:
+                    out.append((c, R, a, s, m.group(1), t))
+    return out
+
+
+def bb32(b):
+    out = []
+    for c, R, a, s, E, t in _bb32_cases(b):
+        notes = [f'S {E} on sky {b.X} by ' + ', '.join(o['plane'] if o['fam'] in o['plane'] else f"{o['plane']} {o['fam']}" for o in t),
+                 f"gap |star line - S {E} line| {abs(a['v'] - s['v']):.4f}"]
+        out.append({'key': (c, R, a['plane'], E, s['plane']), 'cells': [a, s] + t, 'notes': notes})
+    return out
+
+
+def bb32b(b):
+    out = []
+    for c, R, a, s, E, t in _bb32_cases(b):
+        for c2, R2, a2 in b.star_rows(scoring=True):
+            if R2 == R:
+                continue
+            for s2, A, B in b.pairs_on(a2):
+                if E not in (A, B) or b.X in (A, B):
+                    continue
+                O = B if A == E else A
+                t2 = _cj_sky(b, O)
+                if O == 'Moon' or not t2:
+                    continue
+                notes = [f'S {E} on sky {b.X} carries {c} {R} (number) and {c2} {R2} (pair S {A} – S {B})']
+                if len({o['plane'] for o in t}) == 2:
+                    notes.append(f'WATCH: S {E} on sky {b.X} in both planes')
+                notes.append(f"WATCH gap |star line - S {E} line| {abs(a['v'] - s['v']):.4f}")
+                cj_any = lambda e: [o for o in b.sky_y(e) + b.to_natal(e, 'H') + b.to_natal(e, 'J') if o['fam'] in CJ]
+                third = [(c3, R3, a3, s3) for c3, R3, a3 in b.star_rows(scoring=True) if R3 not in (R, R2)
+                         for s3, P, Q in b.pairs_on(a3) if b.X not in (P, Q) and 'Moon' not in (P, Q)
+                         and cj_any(P) and cj_any(Q)]
+                for c3, R3, a3, s3 in third:
+                    P, Q = re.match(r'S (.+) – S (.+)$', s3['line']).groups()
+                    how = '; '.join(f"{o['line']} {o['plane']} {o['v']:.6f}" for e in (P, Q) for o in cj_any(e))
+                    notes.append(f"WATCH third royal star: {a3['line']} {a3['plane']} paired by {s3['line']} "
+                                 f"{s3['plane']}, both ends conj / contraparallel {b.X} ({how})")
+                out.append({'key': (c, R, a['plane'], E, c2, R2, a2['plane']),
+                            'cells': [a, s] + t + [a2, s2] + t2 + [x for _, _, a3, s3 in third for x in (a3, s3)],
+                            'notes': notes})
+    return out
+
+
 RULES = [('BB1', bb1, 'Mercury'), ('BB2', bb2, 'Mars'), ('BB3', bb3, 'Jupiter'), ('BB4', bb4, 'Saturn'),
          ('BB5', bb5, 'Uranus'), ('BB6', bb6, 'Uranus'), ('BB7', bb7, 'Neptune'), ('BB8', bb8, 'Rahu'),
          ('BB9', bb9, 'Rahu'), ('BB10', bb10, 'Ketu'), ('BB11', bb11, 'Ceres'), ('BB12', bb12, 'Pallas'),
          ('BB13', bb13, 'Juno'), ('BB14', bb14, 'Vesta'), ('BB15', bb15, 'Chiron'), ('BB16', bb16, 'Eris'),
          ('BB17', bb17, 'Makemake'), ('BB18', bb18, 'Venus'), ('BB19', bb19, 'Venus'), ('BB20', bb20, 'Jupiter'),
-         ('BB21', bb21, 'Saturn'), ('BB22', bb22, 'Saturn'), ('BB23', bb23, 'Neptune'), ('BB24', bb24, 'Rahu'), ('BB25', bb25, 'Ketu'), ('BB26', bb26, 'Ceres'), ('BB27', bb27, 'Pallas'), ('BB28', bb28, 'Juno'), ('BB29', bb29, 'Vesta'), ('BB30', bb30, 'Eris'), ('BB31', bb31, 'Gonggong')]
+         ('BB21', bb21, 'Saturn'), ('BB22', bb22, 'Saturn'), ('BB23', bb23, 'Neptune'), ('BB24', bb24, 'Rahu'), ('BB25', bb25, 'Ketu'), ('BB26', bb26, 'Ceres'), ('BB27', bb27, 'Pallas'), ('BB28', bb28, 'Juno'), ('BB29', bb29, 'Vesta'), ('BB30', bb30, 'Eris'), ('BB31', bb31, 'Gonggong'),
+         ('BB32', bb32, 'Sun'), ('BB32b', bb32b, 'Sun')]
 
 
 def decade_pairs(cells):
@@ -788,7 +851,7 @@ def write(race, runners, res, out):
     rules = {}
     if os.path.exists(RULES_JSON):
         rules = {r['id']: r for r in json.load(open(RULES_JSON))}
-    md = [f'# {race} — body-by-body rules BB1-BB{len(RULES)}', '',
+    md = [f'# {race} — body-by-body rules BB1-{RULES[-1][0]}', '',
           'Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). '
           'Field: runners holding the rule in this race.', '']
     summ = []
