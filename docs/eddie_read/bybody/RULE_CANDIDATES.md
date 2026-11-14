@@ -2,7 +2,8 @@
 
 Pencilled in, not built. Rules are collected race by race from the lines Eddie highlights in the bybody xlsx
 (tools/eddie_bybody.py). Overlaps and repeats between races are expected; they are noted per rule, and the rules are
-merged / built only when Eddie says so.
+merged / built only when Eddie says so. Overlapping rules are kept as separate versions (Eddie, 14 Nov 2026: "keep each
+version").
 
 Aim (Eddie, 14 Nov 2026): pick the relationships out as Eddie sees them and check they are not held by every runner -
 held by one or two runners in the race is fine. Each rule's field check is recorded with it.
@@ -155,3 +156,27 @@ Field check, this race: 4 cases, 2 runners - Pholas Neptune (Regulus 2 octave 20
 23×φ), Pholas Saturn (Antares 3/2 43.56; J Aldebaran – J Saturn Dec 17.7778), Pholas Venus (Aldebaran 7/3 14.99; H Regulus –
 H Venus RA 111×φ), Arafi Pluto (Fomalhaut 4/3 89.63; J Antares – J Pluto RA 22.2222 = the same-body line's number).
 Without condition 3: 9 cases, 5 runners.
+
+## BB8 — two royal stars, each with a same-plane and a crossed same-body ratio, one chart
+Origin: Lingfield AW 14:35 2 Apr 2021, 5 Pholas / Hollie Doyle, body Rahu (horse).
+Rule (Eddie, 14 Nov 2026): on body X and one chart, two different royal stars each have a scoring same-body ratio (same plane)
+AND a scoring crossed same-body ratio (other plane) against S X → natal X. The star lines and the same-body lines need not score.
+Highlights: lights (here both above 90 on H Rahu); overlaps BB5 / BB7 (kept as separate versions).
+Pholas Rahu cells (horse; S Rahu → H Rahu RA 85.367822, Dec 12.313343, neither scoring):
+- H Aldebaran – H Rahu Dec 6.562342: same 1.876364 15/8 major seventh (51.5); crossed 13.008743 1/13 cut (86.55)
+- H Fomalhaut – H Rahu RA 171.727875: same 2.011623 2 octave (41.88); crossed 13.946487 1/14 cut (23.55)
+- Lights: S Sun → H Rahu RA 144.423571 ninth 144.444 (92.77); S Moon → H Rahu Dec 33.998487 34 (92.43)
+Field check, this race: Pholas Rahu only.
+
+## BB9 — natal royal-star line matched by a sky pair holding the same star, other end on X in both charts
+Origin: Lingfield AW 14:35 2 Apr 2021, 5 Pholas / Hollie Doyle, body Rahu.
+Rule (Eddie, 14 Nov 2026): on body X, a natal royal-star line R – X (H or J) scores; a sky pair S A – S R ("Sky lines on the
+same target", the same star R) scores on its family and target; A reaches X in both charts (S A → H X and S A → J X, both
+scoring). Close to BB6 (there the pair's star ratios with the same-body line; here it matches the star line) - kept separately.
+Highlights: the family of the A lines; lights.
+Pholas Rahu cells:
+- H Regulus – H Rahu Dec 2.019370 2 whole (3.15)
+- S Transpluto – S Regulus RA 1.996738 2 whole (83.69)
+- S Transpluto → H Rahu Dec 0.778404 ninth 0.777778 (59.76); S Transpluto → J Rahu RA 33.343278 ninth 33.3333 (85.08)
+Field check, this race: both charts - Pholas Rahu only; one chart - 9 cases, 4 runners (Pholas 3, Shimmering Dawn 3,
+Nirodha 2, Indie Angel 1).
