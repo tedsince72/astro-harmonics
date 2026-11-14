@@ -214,6 +214,13 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   conj RA < 1.5 / Dec < 0.3, opposition RA within 0.75 of 180, contraparallel |Dec a + Dec b| < 0.3; no 4-digit rule; overlaps: highest
   score shown, the other families as 'also'. A chart with no META birth date has no lines (noted). Tests `python3 tests/eddie_bybody_check.py`
   (Wotever Next = tests/ref/ verified file row for row; hand cases; own scorer; structure and order on every _active.xlsx).
+- Body-by-body rules BB1-BB17 (14 Nov 2026, Eddie's go-ahead; data only, no pick; all from Lingfield AW 14:35 2 Apr 2021,
+  5 Pholas / Hollie Doyle, one rule per body Eddie highlighted): `python3 tools/eddie_bybody_rules.py <race>_bybody.xlsx [--out DIR]`
+  (input from tools/eddie_bybody.py) -> docs/eddie_read/bybody_rules/<race>_bbrules.md + .json (per rule: holders, cells, 'only' /
+  'also', highlights: lights = every Sun / Moon line on X, same digits a decade apart). Rule texts + origin race: docs/eddie_read/
+  bybody_rules/rules.json; working notes, field checks and highlights per rule: docs/eddie_read/bybody/RULE_CANDIDATES.md. Aim
+  (Eddie): a rule is kept when not every runner holds it (one or two holders fine); new rules are added race by race, overlapping
+  versions kept. Lingfield holders: Pholas in all 17 (alone in 10). Tests `python3 tests/eddie_bybody_rules_check.py`.
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
 - On the Mac: see `docs/MAC_SETUP.md` (venv with Python 3.12+, `pip install openpyxl`). Scripts call `python3.12`; inside the venv

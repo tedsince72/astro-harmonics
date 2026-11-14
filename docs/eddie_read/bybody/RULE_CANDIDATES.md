@@ -1,6 +1,8 @@
 # Body-by-body rule candidates (Eddie, from 14 Nov 2026)
 
-Pencilled in, not built. Rules are collected race by race from the lines Eddie highlights in the bybody xlsx
+BUILT 14 Nov 2026 (Eddie: "if you make the rules"): tools/eddie_bybody_rules.py, rule texts and origins in
+docs/eddie_read/bybody_rules/rules.json, outputs docs/eddie_read/bybody_rules/<race>_bbrules.md + .json.
+Originally pencilled in. Rules are collected race by race from the lines Eddie highlights in the bybody xlsx
 (tools/eddie_bybody.py). Overlaps and repeats between races are expected; they are noted per rule, and the rules are
 merged / built only when Eddie says so. Overlapping rules are kept as separate versions (Eddie, 14 Nov 2026: "keep each
 version").
@@ -68,7 +70,8 @@ Pholas Mars cells (jockey):
 - Moon: S Moon – S Regulus RA 105.154449 65×φ golden (45.18) on the J Antares – J Mars target; S Moon – S Mars Dec
   contraparallel 0.231881 (22.71)
 Field check, this race: the same royal star on X in the sky and in one natal chart, same plane, both scoring - 41 cases, every
-runner; two different royal stars on the same body in the same chart - Pholas Mars only.
+runner; two different royal stars on the same body in the same chart - Pholas Mars, and Nirodha Quaoar (horse: Antares Dec,
+Fomalhaut RA) - CORRECTION 14 Nov 2026: first reported as Pholas Mars only; the built tool found Nirodha Quaoar.
 
 ## BB3 — royal-star line, same-target sky pair, one end on natal X in the star's chart, same family
 Origin: Lingfield AW 14:35 2 Apr 2021, 5 Pholas / Hollie Doyle, body Jupiter (horse).
@@ -217,7 +220,9 @@ Pholas Ceres cells (jockey):
 - (b) J Regulus – J Ceres RA 105.146700 65×φ golden (21.2); S Moon – S Regulus RA 105.154449 65×φ (45.18) (same pair on Pholas
   Mars); J Regulus – J Ceres Dec 37.414700 (no family), same-body ratio vs S Ceres → J Ceres 24.998449 = 1.496683 3/2 fifth (83.41)
 - Lights: S Moon → J Ceres RA 0.013600 conj (99.1)
-Field check, this race: Pholas Ceres only. (a) alone: Arafi Juno, Fizzy Feet Haumea, Pholas Mars, Pholas Ceres; (b) alone:
+Field check, this race: Pholas Ceres and Fizzy Feet Haumea (horse; R1 = R2 = Aldebaran) - CORRECTION 14 Nov 2026: first
+reported as Pholas Ceres only (the combination had not been intersected; the built tool found Fizzy Feet Haumea). Open for
+Eddie: must R1 and R2 be different stars (then Pholas Ceres only)? (a) alone: Arafi Juno, Fizzy Feet Haumea, Pholas Mars, Pholas Ceres; (b) alone:
 Fizzy Feet Haumea, Indie Angel Mars, Pholas Ceres.
 
 ## BB12 — natal royal-star line repeated in the sky by X itself with a body Y, Y back on natal X
