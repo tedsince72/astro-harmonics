@@ -4,6 +4,9 @@ Pencilled in, not built. Rules are collected race by race from the lines Eddie h
 (tools/eddie_bybody.py). Overlaps and repeats between races are expected; they are noted per rule, and the rules are
 merged / built only when Eddie says so.
 
+Aim (Eddie, 14 Nov 2026): pick the relationships out as Eddie sees them and check they are not held by every runner -
+held by one or two runners in the race is fine. Each rule's field check is recorded with it.
+
 ## BB1 — royal-star line, same-target sky pair, both pair bodies on the same body (version a)
 Origin: Lingfield AW 14:35 2 Apr 2021, 5 Pholas / Hollie Doyle, body Mercury.
 Rule (Eddie, 14 Nov 2026): for body X,
@@ -78,3 +81,24 @@ Pholas Jupiter cells (horse):
 Field check, this race: 7 cases - Arafi Pallas, Indie Angel Jupiter (same anchor and pair, end Pluto: S Pluto → H Jupiter Dec
 15.5645 ninth 15.5556 (71.41)), Pholas Mercury, Pholas Jupiter, Pholas Chiron, Shimmering Dawn Pluto, Shimmering Dawn Eris.
 Without the same-family condition: 47 cases, every runner.
+
+## BB4 — royal-star line and same-body line on one body, ratio on an interval, both with their own sky pairs
+Origin: Lingfield AW 14:35 2 Apr 2021, 5 Pholas / Hollie Doyle, body Saturn (jockey).
+Rule (Eddie, 14 Nov 2026): for body X and one chart, the royal-star line (star – X) and the same-body line (S X → natal X)
+in the same plane both score; their same-body ratio is on an interval; each of the two lines has at least one sky pair
+(S A – S B, "Sky lines on the same target") on its own family and target.
+Highlights, NOT rules: the step between the two targets (here neighbouring ninths 16.6667 / 17.7778 = 16/15 exactly); pair
+ends reaching natal X, same family marked; a body in more than one pair; lights option.
+Pholas Saturn cells (jockey):
+- S Saturn → J Saturn Dec 16.661431 ninth 16.6667 (84.29)
+  - S Juno – S Sedna Dec 16.684800 ninth 16.6667 (45.64); S Juno → J Saturn RA 100.0620 ninth 100 (69.0, same family);
+    S Juno – S Saturn RA 50.1832 31×φ (25.35)
+- J Aldebaran – J Saturn Dec 17.761900 ninth 17.7778 (55.47); same-body ratio 1.066052 16/15 minor second (61.56)
+  - S Neptune – S Ketu Dec 17.7765 ninth 17.7778 (96.28); S Chiron – S Makemake Dec 17.7878 (71.78); S Neptune – S Pallas RA
+    17.7916 (61.23) - Neptune in two pairs
+  - S Neptune → J Saturn Dec 3.2318 2×φ (86.85); S Ketu → J Saturn Dec 21.0083 21 (58.69); S Pallas → J Saturn RA 29.1548
+    18×φ (6.9); S Chiron – S Saturn RA 53.3654 33×φ (8.23)
+Field check, this race: royal-star and same-body line both scoring with the ratio on an interval - 4 cases; with a sky pair
+on each - Pholas Saturn only.
+Open (asked, not answered): should the same-body line S X → natal X also count as an anchor in BB1 / BB3 (would add e.g.
+Arafi Orcus, Pholas Saturn S Juno – S Sedna)?
