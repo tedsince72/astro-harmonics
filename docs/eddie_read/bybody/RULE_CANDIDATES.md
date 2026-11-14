@@ -526,3 +526,18 @@ Ishvara Eris cells:
 - Lights: S Sun → J Eris Dec 33.0015 33 (92.7); S Moon – S Eris Dec 22.6744 14×φ (32.2); S Moon → J Eris Dec 13.9876 14 (37.9)
 Field check: Haydock - Ishvara Eris (holder); Mews House Jupiter watch only (both pairs with the Moon); Lingfield - Shimmering
 Dawn Ketu.
+
+## BB31 — same-body line paired, an end on X in sky, H and J, plus a pair of X itself whose other body reaches natal X
+Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Gonggong (jockey). Added 14 Nov 2026 (Eddie: "add as BB32" - numbered BB31, the
+next free number). Last rule from this race.
+Rule: the same-body line S X → natal X scores; on its family and target there are a sky pair S A – S B (A, B not X) with an end E
+on X in the sky, horse and jockey, and a pair of X itself S X – S Y with Y on natal X. A case holding only through a Moon Y is
+WATCH only.
+Highlights: the number repeated on the other chart by another body; lights (Sun counts, Moon watch).
+Ishvara Gonggong cells (jockey):
+- S Gonggong → J Gonggong Dec 9.710147 6×φ (94.0); S Saturn – S Orcus Dec 9.7187 (67.7); S Jupiter – S Gonggong Dec 9.6838 (24.8);
+  S Pluto → H Gonggong Dec 9.7318 (27.0)
+- Orcus: S Orcus – S Gonggong RA 177.0036 177 (82.1); S Orcus → H Gonggong RA 178.0572 ninth 177.778 (21.4); S Orcus → J Gonggong
+  RA 174.7521 108×φ (86.3)
+- Jupiter: S Jupiter → J Gonggong Dec 0.0263 conj (91.2), RA 30.7626 19×φ (38.5); S Jupiter – S Gonggong RA 39.0069 39 (65.7)
+Field check: Haydock - Ishvara Gonggong, Mews House Uranus (Haumea); Garsman Vesta watch only (Moon); Lingfield - none.

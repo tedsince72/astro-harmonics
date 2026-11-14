@@ -214,13 +214,17 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   conj RA < 1.5 / Dec < 0.3, opposition RA within 0.75 of 180, contraparallel |Dec a + Dec b| < 0.3; no 4-digit rule; overlaps: highest
   score shown, the other families as 'also'. A chart with no META birth date has no lines (noted). Tests `python3 tests/eddie_bybody_check.py`
   (Wotever Next = tests/ref/ verified file row for row; hand cases; own scorer; structure and order on every _active.xlsx).
-- Body-by-body rules BB1-BB17 (14 Nov 2026, Eddie's go-ahead; data only, no pick; all from Lingfield AW 14:35 2 Apr 2021,
-  5 Pholas / Hollie Doyle, one rule per body Eddie highlighted): `python3 tools/eddie_bybody_rules.py <race>_bybody.xlsx [--out DIR]`
-  (input from tools/eddie_bybody.py) -> docs/eddie_read/bybody_rules/<race>_bbrules.md + .json (per rule: holders, cells, 'only' /
-  'also', highlights: lights = every Sun / Moon line on X, same digits a decade apart). Rule texts + origin race: docs/eddie_read/
-  bybody_rules/rules.json; working notes, field checks and highlights per rule: docs/eddie_read/bybody/RULE_CANDIDATES.md. Aim
-  (Eddie): a rule is kept when not every runner holds it (one or two holders fine); new rules are added race by race, overlapping
-  versions kept. Lingfield holders: Pholas in all 17 (alone in 10). Tests `python3 tests/eddie_bybody_rules_check.py`.
+- Body-by-body rules BB1-BB31 (14 Nov 2026, Eddie's go-ahead; data only, no pick; BB1-BB17 from Lingfield AW 14:35 2 Apr 2021,
+  5 Pholas / Hollie Doyle; BB18-BB31 from Haydock 13:45 8 Jun 2020, 7 Ishvara; one rule per body Eddie highlighted, origin of each in
+  rules.json): `python3 tools/eddie_bybody_rules.py <race>_bybody.xlsx [--out DIR]` (input from tools/eddie_bybody.py) ->
+  docs/eddie_read/bybody_rules/<race>_bbrules.md + .json (per rule: holders, cells, 'only' / 'also', highlights: lights = every Sun /
+  Moon line on X, same digits a decade apart, WATCH additive steps (a + b = c, same plane and family; '(may be geometry)' when the
+  three lines join three points), rule-specific WATCH notes (BB23, BB27), 'likely automatic' unisons (BB19, BB26), watch-only cases
+  (BB30, BB31: hold only through the Moon; not holders; Sun counts)). Rule texts + origin: docs/eddie_read/bybody_rules/rules.json;
+  working notes, field checks, highlights, ratio notes to review: docs/eddie_read/bybody/RULE_CANDIDATES.md. Aim (Eddie): a rule is
+  kept when not every runner holds it (one or two holders fine); new rules race by race, overlapping versions kept. Workflow: Eddie
+  pastes lines from a runner's bybody sheet; Claude finds the runner, copies the cells, says what connects them, checks the field,
+  drafts the rule, builds it on Eddie's yes. Tests `python3 tests/eddie_bybody_rules_check.py`.
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
 - On the Mac: see `docs/MAC_SETUP.md` (venv with Python 3.12+, `pip install openpyxl`). Scripts call `python3.12`; inside the venv
@@ -1744,6 +1748,9 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
     moved to P01 Reserve Tank "ninth: 11.1111 / 111.111" (S Sirius RA 111.443941, H Regulus Dec 11.11928, J Venus RA 11.139997).
 
 ## Where we are (13 Oct 2026)
+- **Body-by-body rules BB1-BB31 (14 Nov 2026, Eddie):** Lingfield 14:35 2021 (Pholas, BB1-BB17) and Haydock 13:45 8 Jun 2020
+  (Ishvara, BB18-BB31) done; next: Eddie's next race (send its _active.xlsx -> eddie_bybody.py -> eddie_bybody_rules.py, then new
+  rules from his lines). Ratio notes to review later (4×φ as a ratio) in RULE_CANDIDATES.md. Tests 112/112.
 - **MATCH HORSE / MATCH JOCKEY on every runner sheet (30 Oct 2026, Eddie), RATIO tightened the same day (whole circle factor >= 5, golden
   p, q <= 6), re-ordered by sky cell score the same day, then grouped by sky cell under grey header rows the same day; MATCH HORSE | JOCKEY
   side by side added the same day; 31 Oct 2026: BODY and CONJ STAR rows, SUMMARY sheet, runner freeze D4; then groups in blocks FIXED

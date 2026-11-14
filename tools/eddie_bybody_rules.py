@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Body-by-body rules (Eddie, 14 Nov 2026). BB1-BB17 from Lingfield AW 14:35 2 Apr 2021, 5 Pholas / Hollie Doyle;
-BB18-BB30 from Haydock 13:45 8 Jun 2020, 7 Ishvara. Each rule's origin is in rules.json.
+BB18-BB31 from Haydock 13:45 8 Jun 2020, 7 Ishvara. Each rule's origin is in rules.json.
 
 Usage:  python3 tools/eddie_bybody_rules.py <race>_bybody.xlsx [--out DIR]   (default DIR docs/eddie_read/bybody_rules)
         -> DIR/<race>_bbrules.md and DIR/<race>_bbrules.json
@@ -699,12 +699,38 @@ def bb30(b):
     return out
 
 
+def bb31(b):
+    out = []
+    for c in 'HJ':
+        for sb in b.same_body(c):
+            prs = b.pairs_on(sb)
+            tri = [(s, E) for s, A, B in prs if b.X not in (A, B) for E in (A, B)
+                   if b.sky_y(E) and b.to_natal(E, 'H') and b.to_natal(E, 'J')]
+            if not tri:
+                continue
+            selfp = [(s, [p for p in (A, B) if p != b.X][0]) for s, A, B in prs if b.X in (A, B)]
+            good = [(s, Y) for s, Y in selfp if b.to_natal(Y, 'H') + b.to_natal(Y, 'J')]
+            if not good:
+                continue
+            real = [(s, Y) for s, Y in good if Y != 'Moon']
+            cells = [sb] + [x for s, E in tri for x in [s] + b.sky_y(E) + b.to_natal(E, 'H') + b.to_natal(E, 'J')]
+            cells += [x for s, Y in good for x in [s] + b.to_natal(Y, 'H') + b.to_natal(Y, 'J')]
+            cells += [o for o in b.O if o['line'].startswith('S ') and '→' in o['line'] and o['fam'] == sb['fam']
+                      and o['tgt'] == sb['tgt'] and o['line'] != sb['line']]
+            case = {'key': (c, sb['plane']), 'cells': cells}
+            if not real:
+                case['watch_only'] = True
+                case['notes'] = ['WATCH (Moon): holds only through the Moon pair; not a holder']
+            out.append(case)
+    return out
+
+
 RULES = [('BB1', bb1, 'Mercury'), ('BB2', bb2, 'Mars'), ('BB3', bb3, 'Jupiter'), ('BB4', bb4, 'Saturn'),
          ('BB5', bb5, 'Uranus'), ('BB6', bb6, 'Uranus'), ('BB7', bb7, 'Neptune'), ('BB8', bb8, 'Rahu'),
          ('BB9', bb9, 'Rahu'), ('BB10', bb10, 'Ketu'), ('BB11', bb11, 'Ceres'), ('BB12', bb12, 'Pallas'),
          ('BB13', bb13, 'Juno'), ('BB14', bb14, 'Vesta'), ('BB15', bb15, 'Chiron'), ('BB16', bb16, 'Eris'),
          ('BB17', bb17, 'Makemake'), ('BB18', bb18, 'Venus'), ('BB19', bb19, 'Venus'), ('BB20', bb20, 'Jupiter'),
-         ('BB21', bb21, 'Saturn'), ('BB22', bb22, 'Saturn'), ('BB23', bb23, 'Neptune'), ('BB24', bb24, 'Rahu'), ('BB25', bb25, 'Ketu'), ('BB26', bb26, 'Ceres'), ('BB27', bb27, 'Pallas'), ('BB28', bb28, 'Juno'), ('BB29', bb29, 'Vesta'), ('BB30', bb30, 'Eris')]
+         ('BB21', bb21, 'Saturn'), ('BB22', bb22, 'Saturn'), ('BB23', bb23, 'Neptune'), ('BB24', bb24, 'Rahu'), ('BB25', bb25, 'Ketu'), ('BB26', bb26, 'Ceres'), ('BB27', bb27, 'Pallas'), ('BB28', bb28, 'Juno'), ('BB29', bb29, 'Vesta'), ('BB30', bb30, 'Eris'), ('BB31', bb31, 'Gonggong')]
 
 
 def decade_pairs(cells):

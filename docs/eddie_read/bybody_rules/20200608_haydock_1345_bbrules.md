@@ -1,4 +1,4 @@
-# 20200608_haydock_1345 — body-by-body rules BB1-BB30
+# 20200608_haydock_1345 — body-by-body rules BB1-BB31
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -34,6 +34,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB28 | 2 | 2 | 04 Royal Context, 07 Ishvara |  |
 | BB29 | 1 | 1 | 07 Ishvara |  |
 | BB30 | 1 | 1 | 07 Ishvara | 11 Mews House |
+| BB31 | 2 | 2 | 07 Ishvara, 11 Mews House | 09 Garsman |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -886,4 +887,44 @@ Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Eris
 - S Mercury – S Jupiter RA 163.990863 164 whole (54.31)
 - WATCH (Moon as an end): holds only when a Moon pair counts; not a holder
 - lights on Jupiter: S Moon → H Jupiter RA 99.971672 100 ninth (85.84); S Sun → H Jupiter RA 118.126381 73×φ golden (69.44); S Moon → H Jupiter Dec 19.400847 12×φ golden (51.97)
+
+## BB31 — same-body line paired, a pair end on X in sky, H and J, plus a pair of X itself whose other body reaches natal X
+
+Rule: The same-body line S X → natal X scores; on its family and target there are a sky pair S A – S B (A, B not X) with an end E on X in the sky, horse and jockey (S E – S X, S E → H X, S E → J X), and a pair of X itself S X – S Y with Y on natal X. A case holding only through a Moon Y is WATCH only.
+
+Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Gonggong
+
+### 07 Ishvara — Gonggong (also: 11 Mews House)
+- S Gonggong → J Gonggong Dec 9.710147 6×φ golden (94)
+- S Saturn – S Orcus Dec 9.718659 6×φ golden (67.73)
+- S Orcus – S Gonggong RA 177.003582 177 whole (82.09)
+- S Orcus → H Gonggong RA 178.057163 177.778 ninth (21.42)
+- S Orcus → J Gonggong RA 174.752122 108×φ golden (86.26)
+- S Jupiter – S Gonggong Dec 9.683822 6×φ golden (24.75)
+- S Jupiter → J Gonggong Dec 0.026325 conj conj (91.23)
+- S Jupiter → J Gonggong RA 30.762568 19×φ golden (38.51)
+- S Pluto → H Gonggong Dec 9.731849 6×φ golden (27.02)
+- lights on Gonggong: S Moon – S Gonggong RA 42.100536 26×φ golden (2.31); S Sun – S Gonggong RA 99.801411 100 ninth (0.71)
+
+### 09 Garsman — Vesta (WATCH only, not a holder)
+- S Vesta → J Vesta Dec 46.977057 φ⁸ phi power (97.65)
+- S Sun – S Moon Dec 46.989026 φ⁸ phi power (85.37)
+- S Sun – S Vesta Dec 0.052556 conj conj (82.48)
+- S Sun → H Vesta RA 44.386114 44.4444 ninth (34.38)
+- S Sun → J Vesta Dec 47.029613 φ⁸ phi power (27.77)
+- S Moon – S Vesta Dec 46.936470 φ⁸ phi power (40.05)
+- S Moon → J Vesta Dec 0.040588 conj conj (86.47)
+- WATCH (Moon): holds only through the Moon pair; not a holder
+- lights on Vesta: S Sun – S Vesta Dec 0.052556 conj conj (82.48); S Moon – S Vesta Dec 46.936470 29×φ golden (58.38); S Moon – S Vesta RA 156.969749 97×φ golden (36.88); S Sun → H Vesta RA 44.386114 44.4444 ninth (34.38); S Moon → J Vesta Dec 0.040588 conj conj (86.47); S Sun → J Vesta Dec 47.029613 φ⁸ phi power (27.77)
+
+### 11 Mews House — Uranus (also: 07 Ishvara)
+- S Uranus → J Uranus RA 177.500243 177.778 ninth (21.94)
+- S Vesta – S Quaoar RA 178.084725 177.778 ninth (13.67)
+- S Vesta – S Uranus RA 55.498831 55.5556 ninth (48.95)
+- S Vesta – S Uranus Dec 8.873150 8.88889 ninth (11.47)
+- S Vesta → H Uranus RA 68.565772 10φ⁴ phi power (75.92)
+- S Vesta → J Uranus RA 122.001413 122 whole (92.94)
+- S Uranus – S Haumea RA 177.803464 177.778 ninth (92.78)
+- S Haumea → J Uranus RA 0.303221 conj conj (79.79)
+- lights on Uranus: S Sun – S Uranus RA 40.431029 25×φ golden (38.82); S Moon → J Uranus Dec 11.016161 11 whole (19.19)
 

@@ -47,6 +47,7 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB28': set(),
     'BB29': {('06 Shimmering Dawn', 'Jupiter')},
     'BB30': {('06 Shimmering Dawn', 'Ketu')},
+    'BB31': set(),
 }
 CELLS = {  # rule: (runner, body, [cell texts that must be in the case])
     'BB1': ('05 Pholas', 'Mercury', ['J Aldebaran – J Mercury Dec 16.193302 10×φ golden (59.99)',
@@ -165,5 +166,13 @@ if os.path.exists(HAY):
     h30 = {(c['runner'], c['body']) for c in hres['BB30'] if not c['watch_only']}
     w30 = {(c['runner'], c['body']) for c in hres['BB30'] if c['watch_only']}
     check(h30 == {('07 Ishvara', 'Eris')} and w30 == {('11 Mews House', 'Jupiter')}, 'BB30 Haydock holders / watch only')
+    h31 = {(c['runner'], c['body']) for c in hres['BB31'] if not c['watch_only']}
+    w31 = {(c['runner'], c['body']) for c in hres['BB31'] if c['watch_only']}
+    check(h31 == {('07 Ishvara', 'Gonggong'), ('11 Mews House', 'Uranus')} and w31 == {('09 Garsman', 'Vesta')},
+          'BB31 Haydock holders / watch only')
+    ig = [x for c in hres['BB31'] if c['runner'] == '07 Ishvara' for x in c['cells']]
+    for w in ('S Gonggong → J Gonggong Dec 9.710147', 'S Saturn – S Orcus Dec', 'S Orcus → J Gonggong RA', 'S Jupiter – S Gonggong Dec',
+              'S Jupiter → J Gonggong Dec', 'S Pluto → H Gonggong Dec'):
+        check(any(x.startswith(w) for x in ig), f'BB31 Ishvara Gonggong cell {w}')
 print(f'{ok}/{ok + bad} checks passed')
 sys.exit(1 if bad else 0)

@@ -1,4 +1,4 @@
-# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB30
+# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB31
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -34,6 +34,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB28 | 0 | 0 | - |  |
 | BB29 | 1 | 1 | 06 Shimmering Dawn |  |
 | BB30 | 1 | 1 | 06 Shimmering Dawn |  |
+| BB31 | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -570,4 +571,12 @@ Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Eris
 - S Transpluto → J Ketu RA 18.984018 19 whole (20.09)
 - 2 pairs, every end on Ketu
 - lights on Ketu: S Moon – S Ketu RA 6.478490 4×φ golden (80.39); S Sun → H Ketu RA 19.401975 12×φ golden (55.45)
+
+## BB31 — same-body line paired, a pair end on X in sky, H and J, plus a pair of X itself whose other body reaches natal X
+
+Rule: The same-body line S X → natal X scores; on its family and target there are a sky pair S A – S B (A, B not X) with an end E on X in the sky, horse and jockey (S E – S X, S E → H X, S E → J X), and a pair of X itself S X – S Y with Y on natal X. A case holding only through a Moon Y is WATCH only.
+
+Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Gonggong
+
+No runner holds it.
 
