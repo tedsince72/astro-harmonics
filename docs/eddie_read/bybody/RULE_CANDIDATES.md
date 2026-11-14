@@ -415,3 +415,18 @@ Ishvara Neptune cells (jockey):
 - S Neptune → H Neptune RA 8.0631 5×φ (16.3); lights: S Sun → H Neptune Dec 30.7284 19×φ (55.9); S Moon – S Neptune Dec 19.4114
   12×φ (84.5)
 Field check: (a) Haydock Ishvara Neptune only, Lingfield Nirodha Ketu only; (b) Haydock Ishvara Neptune only, Lingfield none.
+
+## BB24 — same-body line with 2+ different pairs on its number, both ends of each on natal X
+Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Rahu (horse). Added 14 Nov 2026 (Eddie: "yes, please add").
+Rule: the same-body line S X → natal X scores; at least two different sky pairs S A – S B (A, B not X) are on its family and
+target (a pair on two families counts once); both ends of each pair reach natal X (S E → H X or S E → J X).
+Highlights: pairs sharing a body; the step between numbers; lights.
+Ishvara Rahu cells:
+- S Rahu → H Rahu Dec 13.009928 13 (50.36); S Mercury – S Transpluto Dec 12.9961 (80.3); S Makemake – S Transpluto Dec 13.0085
+  (57.7); S Sun → J Rahu Dec 12.9840 13 (20.1, light)
+- S Mercury → J Rahu Dec 13.9859 14 (29.6); S Mercury – S Rahu RA 13.3175 ninth 13.3333 (40.5)
+- S Transpluto → H Rahu RA 1.2437 conj (17.1); S Transpluto → J Rahu Dec 0.9899 1 (49.3)
+- S Makemake → J Rahu Dec 13.9983 14 (91.6)
+- Step: 13 + 1 = 14 (Dec; geometry as the other additive steps)
+Field check: Haydock - Ishvara Rahu only (one such pair: 13 cases, 8 runners); Lingfield - none (Arafi Orcus = one pair on two
+families).

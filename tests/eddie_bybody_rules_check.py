@@ -40,6 +40,7 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB21': set(),
     'BB22': set(),
     'BB23': {('04 Nirodha', 'Ketu')},
+    'BB24': set(),
 }
 CELLS = {  # rule: (runner, body, [cell texts that must be in the case])
     'BB1': ('05 Pholas', 'Mercury', ['J Aldebaran – J Mercury Dec 16.193302 10×φ golden (59.99)',
@@ -116,5 +117,10 @@ if os.path.exists(HAY):
     check({(c['runner'], c['body']) for c in hres['BB23']} == {('07 Ishvara', 'Neptune')}, 'BB23 Haydock holders')
     check(all(any(n.startswith('WATCH (b)') for n in c['notes']) for c in hres['BB23']), 'BB23 Ishvara watch (b) note')
     check(not any(c['notes'] for c in res['BB23']), 'BB23 Lingfield Nirodha: no watch (b) note')
+    check({(c['runner'], c['body']) for c in hres['BB24']} == {('07 Ishvara', 'Rahu')}, 'BB24 Haydock holders')
+    ir = [x for c in hres['BB24'] for x in c['cells']]
+    for w in ('S Rahu → H Rahu Dec 13.009928', 'S Mercury – S Transpluto Dec', 'S Makemake – S Transpluto Dec',
+              'S Makemake → J Rahu Dec', 'S Transpluto → J Rahu Dec', 'S Mercury → J Rahu Dec'):
+        check(any(x.startswith(w) for x in ir), f'BB24 Ishvara Rahu cell {w}')
 print(f'{ok}/{ok + bad} checks passed')
 sys.exit(1 if bad else 0)

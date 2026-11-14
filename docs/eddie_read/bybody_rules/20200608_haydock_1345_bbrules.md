@@ -1,4 +1,4 @@
-# 20200608_haydock_1345 — body-by-body rules BB1-BB23
+# 20200608_haydock_1345 — body-by-body rules BB1-BB24
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -27,6 +27,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB21 | 2 | 2 | 07 Ishvara, 08 Dancin Inthestreet |
 | BB22 | 1 | 1 | 07 Ishvara |
 | BB23 | 1 | 1 | 07 Ishvara |
+| BB24 | 1 | 1 | 07 Ishvara |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -692,4 +693,21 @@ Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Neptune
 - S Regulus – S Neptune Dec 16.660989 16.6667 ninth (82.97)
 - WATCH (b): the same star on sky Neptune on the same family (16.6667 ninth)
 - lights on Neptune: S Moon – S Neptune Dec 19.411383 12×φ golden (84.49); S Sun → H Neptune Dec 30.728353 19×φ golden (55.89)
+
+## BB24 — same-body line with 2+ different pairs on its number, both ends of each on natal X
+
+Rule: The same-body line S X → natal X scores; at least two different sky pairs S A – S B (A, B not X) are on its family and target; both ends of each pair reach natal X (S E → H X or S E → J X).
+
+Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Rahu
+
+### 07 Ishvara — Rahu (only)
+- S Rahu → H Rahu Dec 13.009928 13 whole (50.36)
+- S Mercury – S Transpluto Dec 12.996052 13 whole (80.26)
+- S Mercury → J Rahu Dec 13.985920 14 whole (29.6)
+- S Transpluto → H Rahu RA 1.243682 conj conj (17.09)
+- S Transpluto → J Rahu Dec 0.989868 1 whole (49.34)
+- S Makemake – S Transpluto Dec 13.008458 13 whole (57.71)
+- S Makemake → J Rahu Dec 13.998326 14 whole (91.63)
+- 2 different pairs, both ends on natal Rahu
+- lights on Rahu: S Moon → J Rahu Dec 34.005009 34 whole (74.95); S Moon → J Rahu RA 88.791898 88.8889 ninth (45.44); S Sun → J Rahu Dec 12.984017 13 whole (20.08)
 

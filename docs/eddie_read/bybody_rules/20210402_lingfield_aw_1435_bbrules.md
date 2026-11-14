@@ -1,4 +1,4 @@
-# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB23
+# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB24
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -27,6 +27,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB21 | 0 | 0 | - |
 | BB22 | 0 | 0 | - |
 | BB23 | 1 | 1 | 04 Nirodha |
+| BB24 | 0 | 0 | - |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -483,4 +484,12 @@ Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Neptune
 - S Transpluto → J Ketu RA 160.019305 160 whole (3.47)
 - S Transpluto – S Ketu Dec 32.984643 33 whole (23.21)
 - lights on Ketu: S Moon – S Ketu RA 6.478490 4×φ golden (80.39); S Moon → H Ketu Dec 12.959174 8×φ golden (54.01)
+
+## BB24 — same-body line with 2+ different pairs on its number, both ends of each on natal X
+
+Rule: The same-body line S X → natal X scores; at least two different sky pairs S A – S B (A, B not X) are on its family and target; both ends of each pair reach natal X (S E → H X or S E → J X).
+
+Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Rahu
+
+No runner holds it.
 
