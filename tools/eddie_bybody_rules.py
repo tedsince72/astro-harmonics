@@ -16,7 +16,10 @@ Definitions used by the rules (all from the bybody sheet, per runner and body X)
   Other      the table 'Other scoring sky lines on X'.
   'scores' = the row has a family (column D). A pair = a 'Same' row 'S A – S B'. A royal star = Aldebaran, Antares, Fomalhaut,
   Regulus. Lights = the Sun and the Moon.
-Highlights (never rules): lights (every Sun / Moon line in Other on X); same digits a decade apart among the case's targets.
+Highlights (never rules): lights (every Sun / Moon line in Other on X); same digits a decade apart among the case's targets;
+WATCH additive steps (Eddie, 14 Nov 2026): three of the case's cells, same plane (RA / Dec) and family (whole, or golden k×φ),
+one multiplier = the sum of the other two; '(may be geometry)' when the three lines join the same three points (a royal star
+counted as one point in sky and natal charts).
 """
 import argparse, json, os, re, sys
 
@@ -530,6 +533,41 @@ def bb24(b):
     return out
 
 
+def _points(line):
+    """The two points of a line ('S Mars', 'J Mars'); a royal star counts as one point in every chart (it barely moves)."""
+    parts = re.split(r' – | → ', line or '')
+    pts = set()
+    for p in parts:
+        w = p.split()
+        pts.add(w[-1] if w and w[-1] in ROY else p.strip())
+    return pts
+
+
+def additive_steps(cells):
+    """WATCH lines: three cells of the case, same plane (RA / Dec) and family (whole or golden), one multiplier = sum of the other two."""
+    rows = [r for r in cells if r and r['fam'] in ('whole', 'golden') and r['plane'] in ('RA', 'Dec')]
+    out, seen = [], set()
+    for i, a in enumerate(rows):
+        for j, b in enumerate(rows):
+            if j <= i:
+                continue
+            for k, c in enumerate(rows):
+                if k in (i, j) or not (a['plane'] == b['plane'] == c['plane'] and a['fam'] == b['fam'] == c['fam']):
+                    continue
+                ma, mb, mc = mult(a), mult(b), mult(c)
+                if mc == ma + mb:
+                    key = frozenset((i, j, k))
+                    if key in seen:
+                        continue
+                    seen.add(key)
+                    u = '×φ' if c['fam'] == 'golden' else ''
+                    pts = _points(a['line']) | _points(b['line']) | _points(c['line'])
+                    geo = ' (may be geometry: three distances between the same three points)' if len(pts) == 3 else ''
+                    out.append(f"WATCH additive step ({c['plane']}): {mc}{u} = {ma}{u} + {mb}{u} "
+                               f"({c['line']}; {a['line']}; {b['line']}){geo}")
+    return out
+
+
 RULES = [('BB1', bb1, 'Mercury'), ('BB2', bb2, 'Mars'), ('BB3', bb3, 'Jupiter'), ('BB4', bb4, 'Saturn'),
          ('BB5', bb5, 'Uranus'), ('BB6', bb6, 'Uranus'), ('BB7', bb7, 'Neptune'), ('BB8', bb8, 'Rahu'),
          ('BB9', bb9, 'Rahu'), ('BB10', bb10, 'Ketu'), ('BB11', bb11, 'Ceres'), ('BB12', bb12, 'Pallas'),
@@ -582,7 +620,8 @@ def run(path):
                     res[rid].append({'runner': runner, 'body': X, 'cells': [cell(r) for r in cells],
                                      'notes': case.get('notes', []),
                                      'lights': [cell(r) for r in b.lights()],
-                                     'decade': decade_pairs(cells)})
+                                     'decade': decade_pairs(cells),
+                                     'additive': additive_steps(cells)})
     return race, list(data), res
 
 
@@ -613,6 +652,7 @@ def write(race, runners, res, out):
             md.append(f"### {c['runner']} — {c['body']} ({tag})")
             md += [f'- {x}' for x in c['cells']]
             md += [f'- {n}' for n in c['notes']]
+            md += [f'- {w}' for w in c.get('additive', [])]
             if c['decade']:
                 md.append('- HIGHLIGHT same digits a decade apart: ' + '; '.join(c['decade']))
             if c['lights']:

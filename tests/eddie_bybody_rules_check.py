@@ -84,6 +84,11 @@ dec = [d for c in res['BB1'] for d in c['decade']]
 check(any('77.7778' in d and '7.77778' in d for d in dec), 'BB1 decade highlight 77.7778 / 7.77778')
 # lights shown with the case
 check(any('S Moon → H Mercury RA 13.329589' in x for c in res['BB1'] for x in c['lights']), 'BB1 Moon light')
+# WATCH additive steps (14 Nov 2026)
+aw = [w for c in res['BB2'] if c['runner'] == '05 Pholas' for w in c['additive']]
+check(any('106×φ = 65×φ + 41×φ' in w and 'may be geometry' in w for w in aw), 'additive step Pholas Mars 106 = 65 + 41 (geometry)')
+aw = [w for c in res['BB11'] if c['runner'] == '05 Pholas' for w in c['additive']]
+check(any('26 = 1 + 25' in w for w in aw), 'additive step Pholas Ceres 26 = 1 + 25')
 # never reads a csv
 src = open(os.path.join(ROOT, 'tools', 'eddie_bybody_rules.py')).read()
 check('.csv' not in src.replace('Never a csv', ''), 'no csv in the tool')
@@ -122,5 +127,8 @@ if os.path.exists(HAY):
     for w in ('S Rahu → H Rahu Dec 13.009928', 'S Mercury – S Transpluto Dec', 'S Makemake – S Transpluto Dec',
               'S Makemake → J Rahu Dec', 'S Transpluto → J Rahu Dec', 'S Mercury → J Rahu Dec'):
         check(any(x.startswith(w) for x in ir), f'BB24 Ishvara Rahu cell {w}')
+    aw = [w for c in hres['BB24'] for w in c['additive']]
+    check(any('14 = 13 + 1' in w and 'may be geometry' not in w for w in aw) and
+          any('14 = 13 + 1' in w and 'may be geometry' in w for w in aw), 'additive steps Ishvara Rahu, with and without geometry')
 print(f'{ok}/{ok + bad} checks passed')
 sys.exit(1 if bad else 0)

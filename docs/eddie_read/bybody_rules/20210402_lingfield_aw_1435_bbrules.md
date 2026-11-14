@@ -74,6 +74,7 @@ Origin: Lingfield AW 14:35 2 Apr 2021, 5 Pholas / Hollie Doyle, body Mars
 - S Antares – S Mars RA 171.538975 106×φ golden (15.52)
 - J Antares – J Mars RA 105.194676 65×φ golden (30.66)
 - S Mars → J Mars RA 66.337009 41×φ golden (92.64)
+- WATCH additive step (RA): 106×φ = 65×φ + 41×φ (S Antares – S Mars; J Antares – J Mars; S Mars → J Mars) (may be geometry: three distances between the same three points)
 - lights on Mars: S Moon – S Mars Dec contraparallel 0.231881 cp contraparallel (22.71)
 
 ## BB3 — royal-star line, same-target pair, one end on natal X, same family
@@ -301,6 +302,8 @@ Origin: Lingfield AW 14:35 2 Apr 2021, 5 Pholas / Hollie Doyle, body Ceres
 - H Aldebaran – H Haumea Dec 1.165217 (no family)
 - S Haumea → H Haumea Dec 1.603652 1×φ golden (55.61)
 - same-body ratio vs S Haumea → H Haumea 1.603652 = 1.376269 11/8 undecimal 11:8 (38.47)
+- WATCH additive step (RA): 91×φ = 88×φ + 3×φ (S Aldebaran – S Haumea; H Aldebaran – H Haumea; S Haumea → H Haumea) (may be geometry: three distances between the same three points)
+- WATCH additive step (RA): 91×φ = 3×φ + 88×φ (S Aldebaran – S Haumea; S Haumea → H Haumea; S Sun – S Transpluto)
 - lights on Haumea: S Sun – S Haumea RA 155.523328 155.556 ninth (89.64)
 
 ### 05 Pholas — Ceres (also: 02 Fizzy Feet)
@@ -311,6 +314,7 @@ Origin: Lingfield AW 14:35 2 Apr 2021, 5 Pholas / Hollie Doyle, body Ceres
 - S Moon – S Regulus RA 105.154449 65×φ golden (45.18)
 - J Regulus – J Ceres Dec 37.414743 (no family)
 - same-body ratio vs S Ceres → J Ceres 24.998449 = 1.496683 3/2 fifth (83.41)
+- WATCH additive step (Dec): 26 = 1 + 25 (S Antares – S Ceres; J Antares – J Ceres; S Ceres → J Ceres) (may be geometry: three distances between the same three points)
 - lights on Ceres: S Moon → J Ceres RA 0.013570 conj conj (99.1)
 
 ## BB12 — star line repeated by sky X with Y, Y back on natal X

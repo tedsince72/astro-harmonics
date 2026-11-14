@@ -56,6 +56,7 @@ Origin: Lingfield AW 14:35 2 Apr 2021, 5 Pholas / Hollie Doyle, body Mars
 - H Antares – H Eris Dec 24.019712 24 whole (1.44)
 - S Eris → H Eris RA 0.944142 conj conj (37.06)
 - S Eris → H Eris Dec 0.982495 1 whole (12.48)
+- WATCH additive step (Dec): 25 = 24 + 1 (S Antares – S Eris; H Antares – H Eris; S Eris → H Eris) (may be geometry: three distances between the same three points)
 - lights on Eris: S Moon – S Eris Dec 22.674439 14×φ golden (32.21); S Moon → J Eris Dec 12.953988 8×φ golden (70.01)
 
 ### 08 Dancin Inthestreet — Venus (also: 04 Royal Context)
@@ -64,6 +65,7 @@ Origin: Lingfield AW 14:35 2 Apr 2021, 5 Pholas / Hollie Doyle, body Mars
 - S Fomalhaut – S Venus Dec 50.983395 51 whole (16.98)
 - J Fomalhaut – J Venus Dec 46.002120 46 whole (89.4)
 - S Venus → J Venus Dec 4.980037 5 whole (0.19)
+- WATCH additive step (Dec): 51 = 46 + 5 (S Fomalhaut – S Venus; J Fomalhaut – J Venus; S Venus → J Venus) (may be geometry: three distances between the same three points)
 - lights on Venus: S Sun – S Venus RA 7.991827 8 whole (59.13); S Moon → H Venus Dec 33.305054 33.3333 ninth (57.58); S Moon → J Venus RA 114.861841 71×φ golden (42.68); S Sun → J Venus Dec 6.502029 4×φ golden (7.74)
 
 ## BB3 — royal-star line, same-target pair, one end on natal X, same family
@@ -393,6 +395,8 @@ Origin: Lingfield AW 14:35 2 Apr 2021, 5 Pholas / Hollie Doyle, body Ketu
 - S Neptune – S Moon Dec 19.411383 12×φ golden (84.49)
 - S Neptune – S Eris Dec 3.263056 2×φ golden (16.7)
 - S Moon – S Eris Dec 22.674439 14×φ golden (32.21)
+- WATCH additive step (Dec): 14×φ = 12×φ + 2×φ (S Moon – S Eris; J Antares – J Eris; S Neptune – S Eris)
+- WATCH additive step (Dec): 14×φ = 12×φ + 2×φ (S Moon – S Eris; S Neptune – S Moon; S Neptune – S Eris) (may be geometry: three distances between the same three points)
 - lights on Eris: S Moon – S Eris Dec 22.674439 14×φ golden (32.21); S Moon → J Eris RA 88.939091 88.8889 ninth (71.76)
 
 ## BB11 — additive star step + one star in both planes (combination)
@@ -658,6 +662,7 @@ Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Saturn
 - J Aldebaran – J Gonggong Dec 34.006656 34 whole (66.72)
 - S Pallas → H Gonggong Dec 34.008797 34 whole (56.01)
 - S Pallas → H Gonggong Dec 34.008797 21×φ golden (7.15)
+- WATCH additive step (Dec): 24×φ = 3×φ + 21×φ (S Venus → J Gonggong; S Venus – S Aldebaran; S Pallas → H Gonggong)
 - lights on Gonggong: S Moon – S Gonggong RA 42.100536 26×φ golden (2.31); S Sun – S Gonggong RA 99.801411 100 ninth (0.71); S Moon → J Gonggong RA 37.219647 23×φ golden (84.98)
 
 ## BB22 — BB21 plus two royal-star lines matched in that chart
@@ -709,5 +714,11 @@ Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Rahu
 - S Makemake – S Transpluto Dec 13.008458 13 whole (57.71)
 - S Makemake → J Rahu Dec 13.998326 14 whole (91.63)
 - 2 different pairs, both ends on natal Rahu
+- WATCH additive step (Dec): 14 = 13 + 1 (S Mercury → J Rahu; S Rahu → H Rahu; S Transpluto → J Rahu)
+- WATCH additive step (Dec): 14 = 13 + 1 (S Makemake → J Rahu; S Rahu → H Rahu; S Transpluto → J Rahu)
+- WATCH additive step (Dec): 14 = 13 + 1 (S Mercury → J Rahu; S Mercury – S Transpluto; S Transpluto → J Rahu) (may be geometry: three distances between the same three points)
+- WATCH additive step (Dec): 14 = 13 + 1 (S Makemake → J Rahu; S Mercury – S Transpluto; S Transpluto → J Rahu)
+- WATCH additive step (Dec): 14 = 1 + 13 (S Mercury → J Rahu; S Transpluto → J Rahu; S Makemake – S Transpluto)
+- WATCH additive step (Dec): 14 = 1 + 13 (S Makemake → J Rahu; S Transpluto → J Rahu; S Makemake – S Transpluto) (may be geometry: three distances between the same three points)
 - lights on Rahu: S Moon → J Rahu Dec 34.005009 34 whole (74.95); S Moon → J Rahu RA 88.791898 88.8889 ninth (45.44); S Sun → J Rahu Dec 12.984017 13 whole (20.08)
 

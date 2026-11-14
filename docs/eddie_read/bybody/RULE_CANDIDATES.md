@@ -430,3 +430,9 @@ Ishvara Rahu cells:
 - Step: 13 + 1 = 14 (Dec; geometry as the other additive steps)
 Field check: Haydock - Ishvara Rahu only (one such pair: 13 cases, 8 runners); Lingfield - none (Arafi Orcus = one pair on two
 families).
+
+## WATCH additive steps (all rules; Eddie, 14 Nov 2026: "yes, please do")
+Highlight, never a rule: three of a case's cells in the same plane (RA / Dec) and family (whole, or golden k×φ) where one
+multiplier = the sum of the other two, e.g. Pholas Mars 106×φ = 65×φ + 41×φ, Pholas Ceres 26 = 1 + 25, Ishvara Rahu 14 = 13 + 1.
+Marked '(may be geometry)' when the three lines are the three distances between the same three points (a royal star counted as
+one point in sky and natal charts): then the sum follows from the points lining up in that plane.
