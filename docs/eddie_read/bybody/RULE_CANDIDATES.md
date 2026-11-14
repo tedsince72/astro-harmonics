@@ -450,3 +450,19 @@ Ishvara Ketu cells:
 - S Mercury – S Ketu RA 166.6825 ninth 166.667 (95.2)
 - J Antares – J Ketu RA 43.6194 (no family), same-body ratio vs S Ketu → J Ketu RA 64.975167 = 1.489594 3/2 (48.0)
 Field check: Haydock - Ishvara Ketu (Antares, horse Dec), Dancin Inthestreet Venus (Fomalhaut, jockey Dec); Lingfield - none.
+
+## BB26 — two royal stars, each with a unison ratio in one chart, both on sky X
+Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Ceres (jockey). Added 14 Nov 2026 (Eddie: "the 2 runner version").
+Rule: in one chart, two different royal stars each have a unison same-body ratio or crossed ratio on X, and both stars score on
+sky X (S R – S X). Highlight: a same-plane unison marked likely automatic when S R – S X is a conjunction in that plane; star
+lines in the other chart with pairs; lights.
+Ishvara Ceres cells:
+- Regulus: S Regulus – S Ceres Dec 29.1505 18×φ (20.2); H Regulus – H Ceres RA 110.886629 10φ⁵ (90.9), same-body ratio 2.003424 2
+  (82.9); J Regulus – J Ceres RA 26.6896 (no family), crossed vs S Ceres → J Ceres Dec 26.938409 = 1.009322 unison (53.4)
+- Fomalhaut: S Fomalhaut – S Ceres RA 1.4461 ninth 1.44444 (41.1); H Fomalhaut – H Ceres Dec 42.0195 42 (2.8) with S Makemake –
+  S Orcus RA 41.9813 42 (6.5), S Makemake → J Ceres Dec 14.1430 √2 (95.9); J Fomalhaut – J Ceres RA 165.6363 (no family), same-body
+  vs S Ceres → J Ceres RA 167.082401 = 1.00873 unison (56.4)
+- Light: S Sun → J Ceres RA 101.9323 63×φ (88.2)
+Field check: Haydock - Ishvara Ceres (Regulus, Fomalhaut, jockey), Birkenhead Venus (Aldebaran, Fomalhaut, jockey; the Aldebaran
+unison likely automatic - S Aldebaran – S Venus RA conjunction); Lingfield - none. (Two stars on X in sky, horse and jockey + a
+matched pair with an end on natal X: 3 runners, not chosen.)

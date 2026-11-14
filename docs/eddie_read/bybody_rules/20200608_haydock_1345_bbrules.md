@@ -1,4 +1,4 @@
-# 20200608_haydock_1345 — body-by-body rules BB1-BB25
+# 20200608_haydock_1345 — body-by-body rules BB1-BB26
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -29,6 +29,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB23 | 1 | 1 | 07 Ishvara |
 | BB24 | 1 | 1 | 07 Ishvara |
 | BB25 | 2 | 2 | 07 Ishvara, 08 Dancin Inthestreet |
+| BB26 | 2 | 2 | 06 Birkenhead, 07 Ishvara |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -750,4 +751,29 @@ Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Ketu
 - WATCH additive step (Dec): 51 = 46 + 5 (S Fomalhaut – S Venus; J Fomalhaut – J Venus; S Venus → J Venus) (may be geometry: three distances between the same three points)
 - WATCH additive step (Dec): 51 = 46 + 5 (S Fomalhaut – S Venus; J Fomalhaut – J Venus; S Pluto – S Ceres)
 - lights on Venus: S Sun – S Venus RA 7.991827 8 whole (59.13); S Moon → H Venus Dec 33.305054 33.3333 ninth (57.58); S Moon → J Venus RA 114.861841 71×φ golden (42.68); S Sun → J Venus Dec 6.502029 4×φ golden (7.74)
+
+## BB26 — two royal stars, each with a unison ratio in one chart, both on sky X
+
+Rule: In one chart, two different royal stars each have a unison same-body ratio or crossed ratio on X, and both stars score on sky X (S R – S X). A same-plane unison is marked likely automatic when S R – S X is a conjunction in that plane.
+
+Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Ceres
+
+### 06 Birkenhead — Venus (also: 07 Ishvara)
+- S Aldebaran – S Venus Dec 4.855038 3×φ golden (97.11)
+- S Aldebaran – S Venus RA 0.119925 conj conj (92)
+- J Aldebaran – J Venus RA 138.779831 (no family)
+- S Fomalhaut – S Venus Dec 50.983395 51 whole (16.98)
+- J Fomalhaut – J Venus RA 136.651965 (no family)
+- same-body ratio vs S Venus → J Venus 138.909626 = 1.000935 1 unison (95.32) [likely automatic: S Aldebaran – S Venus RA conjunction]
+- same-body ratio vs S Venus → J Venus 138.909626 = 1.016521 1 unison (17.39)
+- lights on Venus: S Sun – S Venus RA 7.991827 8 whole (59.13); S Sun → H Venus RA 70.652250 70.7 sqrt2 (44.91)
+
+### 07 Ishvara — Ceres (also: 06 Birkenhead)
+- S Fomalhaut – S Ceres RA 1.446145 1.44444 ninth (41.12)
+- J Fomalhaut – J Ceres RA 165.636320 (no family)
+- S Regulus – S Ceres Dec 29.150456 18×φ golden (20.23)
+- J Regulus – J Ceres RA 26.689597 (no family)
+- same-body ratio vs S Ceres → J Ceres 167.082401 = 1.008730 1 unison (56.35)
+- crossed ratio vs S Ceres → J Ceres Dec 26.938409 = 1.009322 1 unison (53.39)
+- lights on Ceres: S Sun – S Ceres RA 90.985278 91 whole (26.39); S Sun → J Ceres RA 101.932321 63×φ golden (88.21)
 

@@ -1351,6 +1351,49 @@
      "WATCH additive step (Dec): 51 = 46 + 5 (S Fomalhaut – S Venus; J Fomalhaut – J Venus; S Pluto – S Ceres)"
     ]
    }
+  ],
+  "BB26": [
+   {
+    "runner": "06 Birkenhead",
+    "body": "Venus",
+    "cells": [
+     "S Aldebaran – S Venus Dec 4.855038 3×φ golden (97.11)",
+     "S Aldebaran – S Venus RA 0.119925 conj conj (92)",
+     "J Aldebaran – J Venus RA 138.779831 (no family)",
+     "S Fomalhaut – S Venus Dec 50.983395 51 whole (16.98)",
+     "J Fomalhaut – J Venus RA 136.651965 (no family)"
+    ],
+    "notes": [
+     "same-body ratio vs S Venus → J Venus 138.909626 = 1.000935 1 unison (95.32) [likely automatic: S Aldebaran – S Venus RA conjunction]",
+     "same-body ratio vs S Venus → J Venus 138.909626 = 1.016521 1 unison (17.39)"
+    ],
+    "lights": [
+     "S Sun – S Venus RA 7.991827 8 whole (59.13)",
+     "S Sun → H Venus RA 70.652250 70.7 sqrt2 (44.91)"
+    ],
+    "decade": [],
+    "additive": []
+   },
+   {
+    "runner": "07 Ishvara",
+    "body": "Ceres",
+    "cells": [
+     "S Fomalhaut – S Ceres RA 1.446145 1.44444 ninth (41.12)",
+     "J Fomalhaut – J Ceres RA 165.636320 (no family)",
+     "S Regulus – S Ceres Dec 29.150456 18×φ golden (20.23)",
+     "J Regulus – J Ceres RA 26.689597 (no family)"
+    ],
+    "notes": [
+     "same-body ratio vs S Ceres → J Ceres 167.082401 = 1.008730 1 unison (56.35)",
+     "crossed ratio vs S Ceres → J Ceres Dec 26.938409 = 1.009322 1 unison (53.39)"
+    ],
+    "lights": [
+     "S Sun – S Ceres RA 90.985278 91 whole (26.39)",
+     "S Sun → J Ceres RA 101.932321 63×φ golden (88.21)"
+    ],
+    "decade": [],
+    "additive": []
+   }
   ]
  }
 }

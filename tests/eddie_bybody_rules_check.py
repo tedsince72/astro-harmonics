@@ -42,6 +42,7 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB23': {('04 Nirodha', 'Ketu')},
     'BB24': set(),
     'BB25': set(),
+    'BB26': set(),
 }
 CELLS = {  # rule: (runner, body, [cell texts that must be in the case])
     'BB1': ('05 Pholas', 'Mercury', ['J Aldebaran – J Mercury Dec 16.193302 10×φ golden (59.99)',
@@ -136,5 +137,12 @@ if os.path.exists(HAY):
     ik = [x for c in hres['BB25'] if c['runner'] == '07 Ishvara' for x in c['cells']]
     for w in ('S Antares – S Ketu Dec', 'H Antares – H Ketu Dec 16.010522', 'S Mercury – S Transpluto Dec', 'S Mercury – S Ketu RA'):
         check(any(x.startswith(w) for x in ik), f'BB25 Ishvara Ketu cell {w}')
+    check({(c['runner'], c['body']) for c in hres['BB26']} == {('07 Ishvara', 'Ceres'), ('06 Birkenhead', 'Venus')},
+          'BB26 Haydock holders')
+    nc = [n for c in hres['BB26'] if c['runner'] == '07 Ishvara' for n in c['notes']]
+    check(any('1.00873' in n for n in nc) and any('1.009322' in n for n in nc) and not any('automatic' in n for n in nc),
+          'BB26 Ishvara Ceres unisons, none automatic')
+    nb = [n for c in hres['BB26'] if c['runner'] == '06 Birkenhead' for n in c['notes']]
+    check(any('likely automatic' in n for n in nb), 'BB26 Birkenhead Venus Aldebaran unison marked likely automatic')
 print(f'{ok}/{ok + bad} checks passed')
 sys.exit(1 if bad else 0)

@@ -1,4 +1,4 @@
-# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB25
+# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB26
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -29,6 +29,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB23 | 1 | 1 | 04 Nirodha |
 | BB24 | 0 | 0 | - |
 | BB25 | 0 | 0 | - |
+| BB26 | 0 | 0 | - |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -503,6 +504,14 @@ No runner holds it.
 Rule: In chart c and one plane, S R – S X (R a royal star), c R – c X and S X → c X all score on the same family (whole or golden) with the multipliers adding up; the same-body line is matched by a sky pair S A – S B (A, B not X); one end reaches sky X (S E – S X).
 
 Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Ketu
+
+No runner holds it.
+
+## BB26 — two royal stars, each with a unison ratio in one chart, both on sky X
+
+Rule: In one chart, two different royal stars each have a unison same-body ratio or crossed ratio on X, and both stars score on sky X (S R – S X). A same-plane unison is marked likely automatic when S R – S X is a conjunction in that plane.
+
+Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Ceres
 
 No runner holds it.
 
