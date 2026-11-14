@@ -13,6 +13,13 @@ Rule (Eddie, 14 Nov 2026): for body X,
 No score cut-off. List every runner and body holding it, with all the cells.
 Highlight, NOT a rule (Eddie: "this is important to note"): among the case's cells, the same digits one decade apart
 (e.g. ninth 7.77778 / 77.7778).
+Option, NOT a rule (Eddie, 14 Nov 2026): a Moon line on the same body inside the case, e.g. Pholas
+S Moon → H Mercury RA 13.329589 ninth 13.3333 (85.96). Shown with the case when present (Moon = confirmation only).
+Field, this race (version a cases with a scoring S Moon line on X): S Moon → natal X - Fizzy Feet Vesta (H, 37 whole 90.52;
+148 whole 7.45), Indie Angel Saturn (J, 1×φ 92.88; H, 6×φ 30.57), Indie Angel Vesta (H, ninth 144.444 17.08), Indie Angel
+Quaoar (J, ninth 11.1111 68.95), Nirodha Ketu (H, 8×φ 54.01), Pholas Mercury (H, ninth 13.3333 85.96), Pholas Vesta (H, 133
+whole 6.92), Shimmering Dawn Juno (H, 20×φ 43.69); S Moon – S X (sky only, same for every runner) - Ketu 4×φ 80.39 (Fizzy
+Feet, Nirodha, Pholas), Eris 14×φ 92.02 (Indie Angel, Nirodha, Shimmering Dawn).
 Version b (noted, not chosen): both A and B reach X in the sky (S – S X) AND in the star line's chart (S → that chart's X).
 
 Pholas Mercury cells:
