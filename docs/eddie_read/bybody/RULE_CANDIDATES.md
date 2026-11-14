@@ -7,12 +7,14 @@ merged / built only when Eddie says so.
 Aim (Eddie, 14 Nov 2026): pick the relationships out as Eddie sees them and check they are not held by every runner -
 held by one or two runners in the race is fine. Each rule's field check is recorded with it.
 
-## BB1 — royal-star line, same-target sky pair, both pair bodies on the same body (version a)
+## BB1 — royal-star line, same-target sky pair, both pair bodies on the same body (version b, tight)
 Origin: Lingfield AW 14:35 2 Apr 2021, 5 Pholas / Hollie Doyle, body Mercury.
 Rule (Eddie, 14 Nov 2026): for body X,
 1. a natal royal-star line in Lines (H or J Aldebaran / Antares / Fomalhaut / Regulus – X) scores on a target;
 2. a sky pair S A – S B in "Sky lines on the same target" scores on the same family and target (A, B not X);
-3. both A and B appear in "Other scoring sky lines on X" (any of S A – S X, S A → H X, S A → J X; the same for B).
+3. TIGHT (Eddie, 14 Nov 2026: "bb1 should be the tight version"): both A and B reach X in the sky (S A – S X, S B – S X)
+   AND in the star line's chart (S A → that chart's X, S B → that chart's X), every line scoring.
+   (Version a, superseded: both A and B anywhere in "Other scoring sky lines on X" - held by all 6 runners here.)
 No score cut-off. List every runner and body holding it, with all the cells.
 Highlight, NOT a rule (Eddie: "this is important to note"): among the case's cells, the same digits one decade apart
 (e.g. ninth 7.77778 / 77.7778).
@@ -23,7 +25,7 @@ Field, this race (version a cases with a scoring S Moon line on X): S Moon → n
 Quaoar (J, ninth 11.1111 68.95), Nirodha Ketu (H, 8×φ 54.01), Pholas Mercury (H, ninth 13.3333 85.96), Pholas Vesta (H, 133
 whole 6.92), Shimmering Dawn Juno (H, 20×φ 43.69); S Moon – S X (sky only, same for every runner) - Ketu 4×φ 80.39 (Fizzy
 Feet, Nirodha, Pholas), Eris 14×φ 92.02 (Indie Angel, Nirodha, Shimmering Dawn).
-Version b (noted, not chosen): both A and B reach X in the sky (S – S X) AND in the star line's chart (S → that chart's X).
+Version b = the rule above.
 
 Pholas Mercury cells:
 - J Aldebaran – J Mercury Dec 16.193302 10×φ golden (59.99), also 10φ φ power (46.6)
@@ -36,7 +38,7 @@ Pholas Mercury cells:
 - Highlight: 77.7778 (S Mars – S Mercury) / 7.77778 (S Sedna → J Mercury)
 
 Field check, this race (version a; a pair on two families of one value counted once): Arafi 2, Fizzy Feet 6,
-Indie Angel 6, Nirodha 5, Pholas 9, Shimmering Dawn 4. Version b: Pholas Mercury only.
+Indie Angel 6, Nirodha 5, Pholas 9, Shimmering Dawn 4. Version b (the rule): Pholas Mercury only.
 Decade highlight inside a case: Pholas Mercury; Shimmering Dawn Juno (S Sedna – S Juno Dec 16.6848 ninth 16.6667 (45.64) /
 S Sedna → H Juno RA 166.9273 ninth 166.667 (21.82)).
 
@@ -81,6 +83,7 @@ Pholas Jupiter cells (horse):
 Field check, this race: 7 cases - Arafi Pallas, Indie Angel Jupiter (same anchor and pair, end Pluto: S Pluto → H Jupiter Dec
 15.5645 ninth 15.5556 (71.41)), Pholas Mercury, Pholas Jupiter, Pholas Chiron, Shimmering Dawn Pluto, Shimmering Dawn Eris.
 Without the same-family condition: 47 cases, every runner.
+Kept as is (Eddie, 14 Nov 2026): 4 runners hold it, but Pholas dominates (3 of the 7 cases).
 
 ## BB4 — royal-star line and same-body line on one body, ratio on an interval, both with their own sky pairs
 Origin: Lingfield AW 14:35 2 Apr 2021, 5 Pholas / Hollie Doyle, body Saturn (jockey).
