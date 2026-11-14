@@ -347,3 +347,22 @@ Ishvara Venus cells:
   7.9918 8 (59.1)
 Field check: Haydock - Ishvara Venus only (H X – J X matched by a royal-star pair: 4 cases, 3 runners); Lingfield - Indie Angel
 Gonggong (Aldebaran, S Mars – S Aldebaran; Mars on H and J Gonggong).
+
+## BB19 — one royal star with all four same-body ratios, star on sky X
+Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Venus. Added 14 Nov 2026 (Eddie: "yes add as BB19").
+Rule: on body X, one royal star R has a scoring same-body ratio in all four places (H RA, H Dec, J RA, J Dec), and R scores on
+X in the sky (S R – S X). Highlight: a ratio is marked likely automatic when S R – S X is a conjunction in that plane (the star
+barely moves birth -> race day, so natal R – X = S X -> natal X).
+Ishvara Venus cells:
+- S Aldebaran – S Venus RA 0.1199 conj (92.0); Dec 4.8550 3×φ (97.1)
+- H Aldebaran – H Venus RA 63.240353 vs S Venus → H Venus 63.116251 = 1.001966 1 unison (90.17) [likely automatic]
+- H Aldebaran – H Venus Dec 4.900261 vs S Venus → H Venus 9.755152 = 1.990741 2 octave (53.71)
+- J Aldebaran – J Venus RA 92.064895 vs S Venus → J Venus 92.185955 = 1.001315 1 unison (93.43) [likely automatic]
+- J Aldebaran – J Venus Dec 7.280850 vs S Venus → J Venus 12.133527 = 1.666499 5/3 major sixth (94.96)
+Field check: Haydock - Ishvara Venus only (3 or more of the 4: 11 cases, 7 runners, mostly Aldebaran on Venus via the RA
+conjunction); Lingfield - none.
+
+## Ratio notes to review later (Eddie, 14 Nov 2026: "we will come back to the ratios later - keep any i send you as a note")
+- Haydock 13:45 2020, 07 Ishvara, Venus: crossed ratio H Aldebaran – H Venus RA 63.240353 / S Venus → H Venus Dec 9.755152 =
+  6.482764; Eddie marked "[phi target???]". 4×φ = 6.472136 (+0.16 %); not on the interval list (Phi group φ, φ², φ³, 1+√2 only),
+  so "no target". Open: score k×φ (or 4×φ) as a ratio?

@@ -1,4 +1,4 @@
-# 20200608_haydock_1345 — body-by-body rules BB1-BB18
+# 20200608_haydock_1345 — body-by-body rules BB1-BB19
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -22,6 +22,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB16 | 2 | 2 | 01 Magical Max, 11 Mews House |
 | BB17 | 0 | 0 | - |
 | BB18 | 1 | 1 | 07 Ishvara |
+| BB19 | 1 | 1 | 07 Ishvara |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -560,5 +561,24 @@ Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Venus
 - S Vesta – S Antares RA 155.443354 155.556 ninth (63.94)
 - S Pluto – S Vesta RA 155.551369 155.556 ninth (98.65)
 - S Neptune – S Makemake RA 155.771786 155.556 ninth (30.5)
+- lights on Venus: S Sun – S Venus RA 7.991827 8 whole (59.13); S Moon → H Venus RA 70.793869 70.7 sqrt2 (21.57); S Moon → J Venus Dec 33.333507 33.3333 ninth (99.74)
+
+## BB19 — one royal star with all four same-body ratios (H / J, RA / Dec), star on sky X
+
+Rule: On body X, one royal star R has a scoring same-body ratio in all four places (H RA, H Dec, J RA, J Dec), and R scores on X in the sky (S R – S X). A ratio is marked likely automatic when S R – S X is a conjunction in that plane.
+
+Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Venus
+
+### 07 Ishvara — Venus (only)
+- S Aldebaran – S Venus Dec 4.855038 3×φ golden (97.11)
+- S Aldebaran – S Venus RA 0.119925 conj conj (92)
+- H Aldebaran – H Venus RA 63.240353 (no family)
+- H Aldebaran – H Venus Dec 4.900261 (no family)
+- J Aldebaran – J Venus RA 92.064895 (no family)
+- J Aldebaran – J Venus Dec 7.280850 (no family)
+- same-body ratio vs S Venus → H Venus 63.116251 = 1.001966 1 unison (90.17) [likely automatic: S Aldebaran – S Venus RA conjunction]
+- same-body ratio vs S Venus → H Venus 9.755152 = 1.990741 2 octave (53.71)
+- same-body ratio vs S Venus → J Venus 92.185955 = 1.001315 1 unison (93.43) [likely automatic: S Aldebaran – S Venus RA conjunction]
+- same-body ratio vs S Venus → J Venus 12.133527 = 1.666499 5/3 major sixth (94.96)
 - lights on Venus: S Sun – S Venus RA 7.991827 8 whole (59.13); S Moon → H Venus RA 70.793869 70.7 sqrt2 (21.57); S Moon → J Venus Dec 33.333507 33.3333 ninth (99.74)
 

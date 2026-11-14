@@ -1,4 +1,4 @@
-# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB18
+# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB19
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -22,6 +22,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB16 | 3 | 2 | 01 Arafi, 05 Pholas |
 | BB17 | 1 | 1 | 05 Pholas |
 | BB18 | 1 | 1 | 03 Indie Angel |
+| BB19 | 0 | 0 | - |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -432,4 +433,12 @@ Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Venus
 - S Mars → H Gonggong RA 99.824447 100 ninth (12.22)
 - S Mars → J Gonggong Dec 44.523310 44.4444 ninth (11.28)
 - lights on Gonggong: S Sun → J Gonggong RA 41.997831 42 whole (89.15)
+
+## BB19 — one royal star with all four same-body ratios (H / J, RA / Dec), star on sky X
+
+Rule: On body X, one royal star R has a scoring same-body ratio in all four places (H RA, H Dec, J RA, J Dec), and R scores on X in the sky (S R – S X). A ratio is marked likely automatic when S R – S X is a conjunction in that plane.
+
+Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Venus
+
+No runner holds it.
 

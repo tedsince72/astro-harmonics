@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Body-by-body rules (Eddie, 14 Nov 2026). BB1-BB17 from Lingfield AW 14:35 2 Apr 2021, 5 Pholas / Hollie Doyle;
-BB18 from Haydock 13:45 8 Jun 2020, 7 Ishvara. Each rule's origin is in rules.json.
+BB18-BB19 from Haydock 13:45 8 Jun 2020, 7 Ishvara. Each rule's origin is in rules.json.
 
 Usage:  python3 tools/eddie_bybody_rules.py <race>_bybody.xlsx [--out DIR]   (default DIR docs/eddie_read/bybody_rules)
         -> DIR/<race>_bbrules.md and DIR/<race>_bbrules.json
@@ -426,11 +426,26 @@ def bb18(b):
     return out
 
 
+def bb19(b):
+    out = []
+    for R in ROY:
+        sky = b.sky_y(R)
+        if not sky:
+            continue
+        rows = [r for c in 'HJ' for p in ('RA', 'Dec') for r in b.lines(f'{c} {R} – {c} {b.X}', p)]
+        if len(rows) == 4 and all(num(r['rs']) for r in rows):
+            conj = {o['plane'] for o in sky if o['fam'] == 'conj'}
+            notes = [ratio_txt(r, 'same') + (' [likely automatic: S %s – S %s %s conjunction]' % (R, b.X, r['plane'])
+                                             if r['plane'] in conj else '') for r in rows]
+            out.append({'key': (R,), 'cells': sky + rows, 'notes': notes})
+    return out
+
+
 RULES = [('BB1', bb1, 'Mercury'), ('BB2', bb2, 'Mars'), ('BB3', bb3, 'Jupiter'), ('BB4', bb4, 'Saturn'),
          ('BB5', bb5, 'Uranus'), ('BB6', bb6, 'Uranus'), ('BB7', bb7, 'Neptune'), ('BB8', bb8, 'Rahu'),
          ('BB9', bb9, 'Rahu'), ('BB10', bb10, 'Ketu'), ('BB11', bb11, 'Ceres'), ('BB12', bb12, 'Pallas'),
          ('BB13', bb13, 'Juno'), ('BB14', bb14, 'Vesta'), ('BB15', bb15, 'Chiron'), ('BB16', bb16, 'Eris'),
-         ('BB17', bb17, 'Makemake'), ('BB18', bb18, 'Venus')]
+         ('BB17', bb17, 'Makemake'), ('BB18', bb18, 'Venus'), ('BB19', bb19, 'Venus')]
 
 
 def decade_pairs(cells):
