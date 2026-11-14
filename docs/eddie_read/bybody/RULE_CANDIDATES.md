@@ -310,3 +310,18 @@ Pholas Eris cells (jockey):
   8×φ (15.8)
 Field check, this race: 3 cases, 2 runners - Pholas Eris (Jupiter, 13), Arafi Pluto (Rahu, sky leg contraparallel), Arafi Orcus
 (Gonggong, sky leg conjunction). With a royal star on sky X: Pholas Eris (Regulus), Arafi Orcus (Antares).
+
+## BB17 — H X – J X number repeated by a sky body Y on natal X, Y on sky X in the same family
+Origin: Lingfield AW 14:35 2 Apr 2021, 5 Pholas / Hollie Doyle, body Makemake.
+Rule (Eddie, 14 Nov 2026): on body X, the H X – J X line scores; a sky body Y (not the Sun or Moon) has S Y → natal X (either
+chart) on the same family and target; Y also scores on sky X (S Y – S X) on the same family (Eddie: "same family"). BB16 with
+H X – J X as the anchor (kept as a separate version; BB16 allows any family on the sky leg).
+Highlights: a neighbouring step between the two targets (here one ninth, 18.8889 / 17.7778 = 17/16); sky pairs on the target;
+lights.
+Pholas Makemake cells:
+- H Makemake – J Makemake RA 18.859500 ninth 18.8889 (22.1)
+- S Chiron → H Makemake Dec 18.889300 ninth 18.8889 (98.9)
+- S Chiron – S Makemake Dec 17.787800 ninth 17.7778 (71.8)
+- S Mercury – S Pluto Dec 18.884400 ninth 18.8889 (88.0)
+Field check, this race: Pholas Makemake only. Any family on the sky leg: 4 runners (Arafi Saturn, Fizzy Feet Pallas, Pholas
+Makemake, Shimmering Dawn Ketu); H X – J X target repeated by S Y → natal X alone: 11 cases, 5 runners.
