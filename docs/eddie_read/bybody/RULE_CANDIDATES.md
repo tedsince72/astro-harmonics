@@ -330,3 +330,20 @@ Pholas Makemake cells:
 - S Mercury – S Pluto Dec 18.884400 ninth 18.8889 (88.0)
 Field check, this race: Pholas Makemake only. Any family on the sky leg: 4 runners (Arafi Saturn, Fizzy Feet Pallas, Pholas
 Makemake, Shimmering Dawn Ketu); H X – J X target repeated by S Y → natal X alone: 11 cases, 5 runners.
+
+## BB18 — H X – J X line matched by a pair holding a royal star that is on X in the sky and natal; other end on X
+Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Venus. Added 14 Nov 2026 (Eddie: "yes, please add").
+Rule: the H X – J X line scores; a sky pair S A – S R holding a royal star R is on its family and target; R scores on X in the sky
+(S R – S X) and in a natal chart (R – X), same plane; A reaches X (S A – S X or S A → natal X).
+Highlights: a second royal-star pair on the number; several pairs on the number; lights.
+Ishvara Venus cells:
+- H Venus – J Venus RA 155.302206 ninth 155.556 (18.57)
+- S Juno – S Fomalhaut RA 155.5532 (99.2); S Vesta – S Antares RA 155.4434 (63.9); S Pluto – S Vesta RA 155.5514 (98.7);
+  S Neptune – S Makemake RA 155.7718 (30.5)
+- S Fomalhaut – S Venus Dec 50.9834 51 (17.0); J Fomalhaut – J Venus Dec 38.8477 24×φ (54.0)
+- S Juno – S Venus RA 120.0072 120 (64.0); S Makemake → J Venus RA 34.9893 35 (46.7)
+- S Venus → H Venus RA 63.1163 39×φ (60.1)
+- Lights: S Moon → J Venus Dec 33.3335 ninth 33.3333 (99.7); S Moon → H Venus RA 70.7939 √2 70.7 (21.6); S Sun – S Venus RA
+  7.9918 8 (59.1)
+Field check: Haydock - Ishvara Venus only (H X – J X matched by a royal-star pair: 4 cases, 3 runners); Lingfield - Indie Angel
+Gonggong (Aldebaran, S Mars – S Aldebaran; Mars on H and J Gonggong).

@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Body-by-body rules BB1-BB17 (Eddie, 14 Nov 2026; from Lingfield AW 14:35 2 Apr 2021, 5 Pholas / Hollie Doyle).
+"""Body-by-body rules (Eddie, 14 Nov 2026). BB1-BB17 from Lingfield AW 14:35 2 Apr 2021, 5 Pholas / Hollie Doyle;
+BB18 from Haydock 13:45 8 Jun 2020, 7 Ishvara. Each rule's origin is in rules.json.
 
 Usage:  python3 tools/eddie_bybody_rules.py <race>_bybody.xlsx [--out DIR]   (default DIR docs/eddie_read/bybody_rules)
         -> DIR/<race>_bbrules.md and DIR/<race>_bbrules.json
@@ -406,11 +407,30 @@ def bb17(b):
     return out
 
 
+def bb18(b):
+    out = []
+    for a in b.lines(f'H {b.X} – J {b.X}', scoring=True):
+        for s, A0, B0 in b.pairs_on(a):
+            for R in set((A0, B0)) & set(ROY):
+                A = B0 if A0 == R else A0
+                legs = []
+                for p in ('RA', 'Dec'):
+                    sk = b.other(f'S {R} – S {b.X}', p)
+                    nt = [r for c in 'HJ' for r in b.lines(f'{c} {R} – {c} {b.X}', p, scoring=True)]
+                    if sk and nt:
+                        legs += sk + nt
+                ends = b.sky_y(A) + b.to_natal(A, 'H') + b.to_natal(A, 'J')
+                if legs and ends:
+                    out.append({'key': (a['plane'], s['line'], s['plane'], s['tgt']),
+                                'cells': [a, s] + legs + ends + b.same_on(a)})
+    return out
+
+
 RULES = [('BB1', bb1, 'Mercury'), ('BB2', bb2, 'Mars'), ('BB3', bb3, 'Jupiter'), ('BB4', bb4, 'Saturn'),
          ('BB5', bb5, 'Uranus'), ('BB6', bb6, 'Uranus'), ('BB7', bb7, 'Neptune'), ('BB8', bb8, 'Rahu'),
          ('BB9', bb9, 'Rahu'), ('BB10', bb10, 'Ketu'), ('BB11', bb11, 'Ceres'), ('BB12', bb12, 'Pallas'),
          ('BB13', bb13, 'Juno'), ('BB14', bb14, 'Vesta'), ('BB15', bb15, 'Chiron'), ('BB16', bb16, 'Eris'),
-         ('BB17', bb17, 'Makemake')]
+         ('BB17', bb17, 'Makemake'), ('BB18', bb18, 'Venus')]
 
 
 def decade_pairs(cells):
@@ -466,7 +486,7 @@ def write(race, runners, res, out):
     rules = {}
     if os.path.exists(RULES_JSON):
         rules = {r['id']: r for r in json.load(open(RULES_JSON))}
-    md = [f'# {race} — body-by-body rules BB1-BB17', '',
+    md = [f'# {race} — body-by-body rules BB1-BB{len(RULES)}', '',
           'Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). '
           'Field: runners holding the rule in this race.', '']
     summ = []

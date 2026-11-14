@@ -34,6 +34,7 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB15': {('05 Pholas', 'Chiron')},
     'BB16': {('05 Pholas', 'Eris'), ('01 Arafi', 'Pluto'), ('01 Arafi', 'Orcus')},
     'BB17': {('05 Pholas', 'Makemake')},
+    'BB18': {('03 Indie Angel', 'Gonggong')},
 }
 CELLS = {  # rule: (runner, body, [cell texts that must be in the case])
     'BB1': ('05 Pholas', 'Mercury', ['J Aldebaran – J Mercury Dec 16.193302 10×φ golden (59.99)',
@@ -80,5 +81,14 @@ check(any('S Moon → H Mercury RA 13.329589' in x for c in res['BB1'] for x in 
 # never reads a csv
 src = open(os.path.join(ROOT, 'tools', 'eddie_bybody_rules.py')).read()
 check('.csv' not in src.replace('Never a csv', ''), 'no csv in the tool')
+# Haydock 13:45 8 Jun 2020 (BB18 origin): 07 Ishvara Venus the only holder
+HAY = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', '20200608_haydock_1345', '20200608_haydock_1345_bybody.xlsx')
+if os.path.exists(HAY):
+    _, _, hres = R.run(HAY)
+    check({(c['runner'], c['body']) for c in hres['BB18']} == {('07 Ishvara', 'Venus')}, 'BB18 Haydock holders')
+    allc = [x for c in hres['BB18'] for x in c['cells']]
+    for w in ('H Venus – J Venus RA 155.302206 155.556 ninth', 'S Juno – S Fomalhaut RA', 'S Fomalhaut – S Venus Dec',
+              'J Fomalhaut – J Venus Dec', 'S Juno – S Venus RA'):
+        check(any(x.startswith(w) for x in allc), f'BB18 Ishvara cell {w}')
 print(f'{ok}/{ok + bad} checks passed')
 sys.exit(1 if bad else 0)

@@ -1,4 +1,4 @@
-# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB17
+# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB18
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -21,6 +21,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB15 | 1 | 1 | 05 Pholas |
 | BB16 | 3 | 2 | 01 Arafi, 05 Pholas |
 | BB17 | 1 | 1 | 05 Pholas |
+| BB18 | 1 | 1 | 03 Indie Angel |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -416,4 +417,19 @@ Origin: Lingfield AW 14:35 2 Apr 2021, 5 Pholas / Hollie Doyle, body Makemake
 - S Chiron – S Makemake Dec 17.787811 17.7778 ninth (71.78)
 - S Mercury – S Pluto Dec 18.884361 18.8889 ninth (88.01)
 - lights on Makemake: S Sun → H Makemake RA 176.378054 109×φ golden (61.89)
+
+## BB18 — H X – J X line matched by a pair holding a royal star that is on X in sky and natal; other end on X
+
+Rule: The H X – J X line scores; a sky pair S A – S R holding a royal star R is on its family and target; R scores on X in the sky (S R – S X) and in a natal chart (R – X), same plane; A reaches X (S A – S X or S A → natal X).
+
+Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Venus
+
+### 03 Indie Angel — Gonggong (only)
+- H Gonggong – J Gonggong Dec 7.791423 7.77778 ninth (12.28)
+- S Mars – S Aldebaran Dec 7.776632 7.77778 ninth (92.63)
+- S Aldebaran – S Gonggong RA 92.005346 92 whole (73.27)
+- H Aldebaran – H Gonggong RA 92.987258 93 whole (36.29)
+- S Mars → H Gonggong RA 99.824447 100 ninth (12.22)
+- S Mars → J Gonggong Dec 44.523310 44.4444 ninth (11.28)
+- lights on Gonggong: S Sun → J Gonggong RA 41.997831 42 whole (89.15)
 

@@ -1,4 +1,4 @@
-# 20200608_haydock_1345 — body-by-body rules BB1-BB17
+# 20200608_haydock_1345 — body-by-body rules BB1-BB18
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -21,6 +21,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB15 | 0 | 0 | - |
 | BB16 | 2 | 2 | 01 Magical Max, 11 Mews House |
 | BB17 | 0 | 0 | - |
+| BB18 | 1 | 1 | 07 Ishvara |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -543,4 +544,21 @@ Rule: The H X – J X line scores; a sky body Y (not a light) has S Y → natal 
 Origin: Lingfield AW 14:35 2 Apr 2021, 5 Pholas / Hollie Doyle, body Makemake
 
 No runner holds it.
+
+## BB18 — H X – J X line matched by a pair holding a royal star that is on X in sky and natal; other end on X
+
+Rule: The H X – J X line scores; a sky pair S A – S R holding a royal star R is on its family and target; R scores on X in the sky (S R – S X) and in a natal chart (R – X), same plane; A reaches X (S A – S X or S A → natal X).
+
+Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Venus
+
+### 07 Ishvara — Venus (only)
+- H Venus – J Venus RA 155.302206 155.556 ninth (18.57)
+- S Juno – S Fomalhaut RA 155.553196 155.556 ninth (99.24)
+- S Fomalhaut – S Venus Dec 50.983395 51 whole (16.98)
+- J Fomalhaut – J Venus Dec 38.847713 24×φ golden (54.02)
+- S Juno – S Venus RA 120.007207 120 whole (63.97)
+- S Vesta – S Antares RA 155.443354 155.556 ninth (63.94)
+- S Pluto – S Vesta RA 155.551369 155.556 ninth (98.65)
+- S Neptune – S Makemake RA 155.771786 155.556 ninth (30.5)
+- lights on Venus: S Sun – S Venus RA 7.991827 8 whole (59.13); S Moon → H Venus RA 70.793869 70.7 sqrt2 (21.57); S Moon → J Venus Dec 33.333507 33.3333 ninth (99.74)
 
