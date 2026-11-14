@@ -1,4 +1,4 @@
-# 20200608_haydock_1345 — body-by-body rules BB1-BB24
+# 20200608_haydock_1345 — body-by-body rules BB1-BB25
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -28,6 +28,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB22 | 1 | 1 | 07 Ishvara |
 | BB23 | 1 | 1 | 07 Ishvara |
 | BB24 | 1 | 1 | 07 Ishvara |
+| BB25 | 2 | 2 | 07 Ishvara, 08 Dancin Inthestreet |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -721,4 +722,32 @@ Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Rahu
 - WATCH additive step (Dec): 14 = 1 + 13 (S Mercury → J Rahu; S Transpluto → J Rahu; S Makemake – S Transpluto)
 - WATCH additive step (Dec): 14 = 1 + 13 (S Makemake → J Rahu; S Transpluto → J Rahu; S Makemake – S Transpluto) (may be geometry: three distances between the same three points)
 - lights on Rahu: S Moon → J Rahu Dec 34.005009 34 whole (74.95); S Moon → J Rahu RA 88.791898 88.8889 ninth (45.44); S Sun → J Rahu Dec 12.984017 13 whole (20.08)
+
+## BB25 — additive star step (sky star, natal star, same-body) with the same-body line paired and a pair end on sky X
+
+Rule: In chart c and one plane, S R – S X (R a royal star), c R – c X and S X → c X all score on the same family (whole or golden) with the multipliers adding up; the same-body line is matched by a sky pair S A – S B (A, B not X); one end reaches sky X (S E – S X).
+
+Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Ketu
+
+### 07 Ishvara — Ketu (also: 08 Dancin Inthestreet)
+- S Antares – S Ketu Dec 3.001702 3 whole (91.49)
+- H Antares – H Ketu Dec 16.010522 16 whole (47.39)
+- S Ketu → H Ketu Dec 13.009928 13 whole (50.36)
+- S Mercury – S Transpluto Dec 12.996052 13 whole (80.26)
+- S Makemake – S Transpluto Dec 13.008458 13 whole (57.71)
+- S Mercury – S Ketu RA 166.682531 166.667 ninth (95.24)
+- WATCH additive step (Dec): 16 = 3 + 13 (H Antares – H Ketu; S Antares – S Ketu; S Ketu → H Ketu) (may be geometry: three distances between the same three points)
+- WATCH additive step (Dec): 16 = 3 + 13 (H Antares – H Ketu; S Antares – S Ketu; S Mercury – S Transpluto)
+- WATCH additive step (Dec): 16 = 3 + 13 (H Antares – H Ketu; S Antares – S Ketu; S Makemake – S Transpluto)
+- lights on Ketu: S Sun → H Ketu Dec 33.305935 33.3333 ninth (58.9); S Sun → H Ketu RA 101.950234 63×φ golden (56.5)
+
+### 08 Dancin Inthestreet — Venus (also: 07 Ishvara)
+- S Fomalhaut – S Venus Dec 50.983395 51 whole (16.98)
+- J Fomalhaut – J Venus Dec 46.002120 46 whole (89.4)
+- S Venus → J Venus Dec 4.980037 5 whole (0.19)
+- S Pluto – S Ceres Dec 4.997237 5 whole (86.19)
+- S Ceres – S Venus RA 82.993451 83 whole (67.25)
+- WATCH additive step (Dec): 51 = 46 + 5 (S Fomalhaut – S Venus; J Fomalhaut – J Venus; S Venus → J Venus) (may be geometry: three distances between the same three points)
+- WATCH additive step (Dec): 51 = 46 + 5 (S Fomalhaut – S Venus; J Fomalhaut – J Venus; S Pluto – S Ceres)
+- lights on Venus: S Sun – S Venus RA 7.991827 8 whole (59.13); S Moon → H Venus Dec 33.305054 33.3333 ninth (57.58); S Moon → J Venus RA 114.861841 71×φ golden (42.68); S Sun → J Venus Dec 6.502029 4×φ golden (7.74)
 

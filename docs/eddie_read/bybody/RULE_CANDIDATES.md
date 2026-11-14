@@ -436,3 +436,17 @@ Highlight, never a rule: three of a case's cells in the same plane (RA / Dec) an
 multiplier = the sum of the other two, e.g. Pholas Mars 106×φ = 65×φ + 41×φ, Pholas Ceres 26 = 1 + 25, Ishvara Rahu 14 = 13 + 1.
 Marked '(may be geometry)' when the three lines are the three distances between the same three points (a royal star counted as
 one point in sky and natal charts): then the sum follows from the points lining up in that plane.
+
+## BB25 — additive star step with the same-body line paired and a pair end on sky X
+Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Ketu (horse Dec). Added 14 Nov 2026 (Eddie: "yes").
+Rule: in chart c and one plane, S R – S X (R a royal star), c R – c X and S X → c X all score on the same family (whole or
+golden) with the multipliers adding up; the same-body line is matched by a sky pair S A – S B (A, B not X); one end reaches sky
+X (S E – S X). BB11 part (a) + a pair (kept as a separate version).
+Highlights: the same pairs on a related body (Rahu / Ketu: Ketu's Dec is Rahu's with the sign flipped); ratios on the star in
+the other chart; lights; WATCH additive step.
+Ishvara Ketu cells:
+- S Antares – S Ketu Dec 3.0017 3 (91.5); H Antares – H Ketu Dec 16.010522 16 (47.4); S Ketu → H Ketu Dec 13 (3 + 13 = 16)
+- S Mercury – S Transpluto Dec 12.9961 13 (80.3); S Makemake – S Transpluto Dec 13.0085 13 (57.7)
+- S Mercury – S Ketu RA 166.6825 ninth 166.667 (95.2)
+- J Antares – J Ketu RA 43.6194 (no family), same-body ratio vs S Ketu → J Ketu RA 64.975167 = 1.489594 3/2 (48.0)
+Field check: Haydock - Ishvara Ketu (Antares, horse Dec), Dancin Inthestreet Venus (Fomalhaut, jockey Dec); Lingfield - none.

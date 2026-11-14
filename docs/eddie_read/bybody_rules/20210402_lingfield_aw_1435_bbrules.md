@@ -1,4 +1,4 @@
-# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB24
+# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB25
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -28,6 +28,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB22 | 0 | 0 | - |
 | BB23 | 1 | 1 | 04 Nirodha |
 | BB24 | 0 | 0 | - |
+| BB25 | 0 | 0 | - |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -494,6 +495,14 @@ Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Neptune
 Rule: The same-body line S X → natal X scores; at least two different sky pairs S A – S B (A, B not X) are on its family and target; both ends of each pair reach natal X (S E → H X or S E → J X).
 
 Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Rahu
+
+No runner holds it.
+
+## BB25 — additive star step (sky star, natal star, same-body) with the same-body line paired and a pair end on sky X
+
+Rule: In chart c and one plane, S R – S X (R a royal star), c R – c X and S X → c X all score on the same family (whole or golden) with the multipliers adding up; the same-body line is matched by a sky pair S A – S B (A, B not X); one end reaches sky X (S E – S X).
+
+Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Ketu
 
 No runner holds it.
 

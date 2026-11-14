@@ -41,6 +41,7 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB22': set(),
     'BB23': {('04 Nirodha', 'Ketu')},
     'BB24': set(),
+    'BB25': set(),
 }
 CELLS = {  # rule: (runner, body, [cell texts that must be in the case])
     'BB1': ('05 Pholas', 'Mercury', ['J Aldebaran – J Mercury Dec 16.193302 10×φ golden (59.99)',
@@ -130,5 +131,10 @@ if os.path.exists(HAY):
     aw = [w for c in hres['BB24'] for w in c['additive']]
     check(any('14 = 13 + 1' in w and 'may be geometry' not in w for w in aw) and
           any('14 = 13 + 1' in w and 'may be geometry' in w for w in aw), 'additive steps Ishvara Rahu, with and without geometry')
+    check({(c['runner'], c['body']) for c in hres['BB25']} == {('07 Ishvara', 'Ketu'), ('08 Dancin Inthestreet', 'Venus')},
+          'BB25 Haydock holders')
+    ik = [x for c in hres['BB25'] if c['runner'] == '07 Ishvara' for x in c['cells']]
+    for w in ('S Antares – S Ketu Dec', 'H Antares – H Ketu Dec 16.010522', 'S Mercury – S Transpluto Dec', 'S Mercury – S Ketu RA'):
+        check(any(x.startswith(w) for x in ik), f'BB25 Ishvara Ketu cell {w}')
 print(f'{ok}/{ok + bad} checks passed')
 sys.exit(1 if bad else 0)
