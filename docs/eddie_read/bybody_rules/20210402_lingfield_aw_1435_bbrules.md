@@ -1,38 +1,39 @@
-# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB29
+# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB30
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
-| Rule | Cases | Runners | Holders |
-|---|---|---|---|
-| BB1 | 2 | 1 | 05 Pholas |
-| BB2 | 2 | 2 | 04 Nirodha, 05 Pholas |
-| BB3 | 7 | 4 | 01 Arafi, 03 Indie Angel, 05 Pholas, 06 Shimmering Dawn |
-| BB4 | 1 | 1 | 05 Pholas |
-| BB5 | 1 | 1 | 05 Pholas |
-| BB6 | 3 | 2 | 03 Indie Angel, 05 Pholas |
-| BB7 | 4 | 2 | 01 Arafi, 05 Pholas |
-| BB8 | 1 | 1 | 05 Pholas |
-| BB9 | 1 | 1 | 05 Pholas |
-| BB10 | 2 | 2 | 04 Nirodha, 05 Pholas |
-| BB11 | 2 | 2 | 02 Fizzy Feet, 05 Pholas |
-| BB12 | 2 | 1 | 05 Pholas |
-| BB13 | 1 | 1 | 05 Pholas |
-| BB14 | 3 | 2 | 05 Pholas, 06 Shimmering Dawn |
-| BB15 | 1 | 1 | 05 Pholas |
-| BB16 | 3 | 2 | 01 Arafi, 05 Pholas |
-| BB17 | 1 | 1 | 05 Pholas |
-| BB18 | 1 | 1 | 03 Indie Angel |
-| BB19 | 0 | 0 | - |
-| BB20 | 0 | 0 | - |
-| BB21 | 0 | 0 | - |
-| BB22 | 0 | 0 | - |
-| BB23 | 1 | 1 | 04 Nirodha |
-| BB24 | 0 | 0 | - |
-| BB25 | 0 | 0 | - |
-| BB26 | 0 | 0 | - |
-| BB27 | 0 | 0 | - |
-| BB28 | 0 | 0 | - |
-| BB29 | 1 | 1 | 06 Shimmering Dawn |
+| Rule | Cases | Runners | Holders | Watch only |
+|---|---|---|---|---|
+| BB1 | 2 | 1 | 05 Pholas |  |
+| BB2 | 2 | 2 | 04 Nirodha, 05 Pholas |  |
+| BB3 | 7 | 4 | 01 Arafi, 03 Indie Angel, 05 Pholas, 06 Shimmering Dawn |  |
+| BB4 | 1 | 1 | 05 Pholas |  |
+| BB5 | 1 | 1 | 05 Pholas |  |
+| BB6 | 3 | 2 | 03 Indie Angel, 05 Pholas |  |
+| BB7 | 4 | 2 | 01 Arafi, 05 Pholas |  |
+| BB8 | 1 | 1 | 05 Pholas |  |
+| BB9 | 1 | 1 | 05 Pholas |  |
+| BB10 | 2 | 2 | 04 Nirodha, 05 Pholas |  |
+| BB11 | 2 | 2 | 02 Fizzy Feet, 05 Pholas |  |
+| BB12 | 2 | 1 | 05 Pholas |  |
+| BB13 | 1 | 1 | 05 Pholas |  |
+| BB14 | 3 | 2 | 05 Pholas, 06 Shimmering Dawn |  |
+| BB15 | 1 | 1 | 05 Pholas |  |
+| BB16 | 3 | 2 | 01 Arafi, 05 Pholas |  |
+| BB17 | 1 | 1 | 05 Pholas |  |
+| BB18 | 1 | 1 | 03 Indie Angel |  |
+| BB19 | 0 | 0 | - |  |
+| BB20 | 0 | 0 | - |  |
+| BB21 | 0 | 0 | - |  |
+| BB22 | 0 | 0 | - |  |
+| BB23 | 1 | 1 | 04 Nirodha |  |
+| BB24 | 0 | 0 | - |  |
+| BB25 | 0 | 0 | - |  |
+| BB26 | 0 | 0 | - |  |
+| BB27 | 0 | 0 | - |  |
+| BB28 | 0 | 0 | - |  |
+| BB29 | 1 | 1 | 06 Shimmering Dawn |  |
+| BB30 | 1 | 1 | 06 Shimmering Dawn |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -549,4 +550,24 @@ Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Vesta
 - S Uranus – S Jupiter RA 70.756138 70.7 sqrt2 (57.14)
 - Uranus paired with Antares, Fomalhaut on their own natal lines
 - lights on Jupiter: S Moon – S Jupiter RA 68.547364 10φ⁴ phi power (93.83); S Sun – S Jupiter Dec 19.418627 12×φ golden (93.15); S Sun → H Jupiter Dec 0.175496 conj conj (41.5); S Sun → J Jupiter Dec 9.012579 9 whole (37.1); S Moon → J Jupiter RA 140.980113 141 whole (0.56)
+
+## BB30 — H X – J X line with 2+ different pairs, every end on X (Moon / Sun ends as WATCH only)
+
+Rule: The H X – J X line scores; at least two different sky pairs S A – S B (A, B not X; not a light) are on its family and target; every end of every pair reaches X (S E – S X, S E → H X or S E → J X). A case that holds only when a Moon / Sun pair counts is listed as WATCH only, not a holder.
+
+Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Eris
+
+### 06 Shimmering Dawn — Ketu (only)
+- H Ketu – J Ketu RA 179.237479 10φ⁶ phi power (23.75)
+- S Pallas – S Orcus RA 179.398319 10φ⁶ phi power (83.5)
+- S Pallas – S Ketu Dec 26.200737 10φ² phi power (48.06)
+- S Pallas → H Ketu RA 17.782293 17.7778 ninth (87.3)
+- S Orcus → H Ketu Dec 8.011265 8 whole (43.68)
+- S Orcus → J Ketu RA 17.943133 φ⁶ phi power (95.77)
+- S Pallas – S Transpluto RA 179.560795 10φ⁶ phi power (56.13)
+- S Transpluto – S Ketu Dec 32.984643 33 whole (23.21)
+- S Transpluto → H Ketu RA 161.778503 100φ phi power (89.74)
+- S Transpluto → J Ketu RA 18.984018 19 whole (20.09)
+- 2 pairs, every end on Ketu
+- lights on Ketu: S Moon – S Ketu RA 6.478490 4×φ golden (80.39); S Sun → H Ketu RA 19.401975 12×φ golden (55.45)
 

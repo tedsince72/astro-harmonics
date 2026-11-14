@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Body-by-body rules (Eddie, 14 Nov 2026). BB1-BB17 from Lingfield AW 14:35 2 Apr 2021, 5 Pholas / Hollie Doyle;
-BB18-BB29 from Haydock 13:45 8 Jun 2020, 7 Ishvara. Each rule's origin is in rules.json.
+BB18-BB30 from Haydock 13:45 8 Jun 2020, 7 Ishvara. Each rule's origin is in rules.json.
 
 Usage:  python3 tools/eddie_bybody_rules.py <race>_bybody.xlsx [--out DIR]   (default DIR docs/eddie_read/bybody_rules)
         -> DIR/<race>_bbrules.md and DIR/<race>_bbrules.json
@@ -677,12 +677,34 @@ def bb29(b):
     return out
 
 
+def bb30(b):
+    out = []
+    for a in b.lines(f'H {b.X} – J {b.X}', scoring=True):
+        full, light = {}, {}
+        for s, A, B in b.pairs_on(a):
+            if b.X in (A, B):
+                continue
+            ends = [b.sky_y(E) + b.to_natal(E, 'H') + b.to_natal(E, 'J') for E in (A, B)]
+            if all(ends):
+                (light if set((A, B)) & set(LIGHTS) else full).setdefault(frozenset((A, B)), (s, ends[0] + ends[1]))
+        cells = lambda d: [a] + [x for s, e in d.values() for x in [s] + e]
+        if len(full) >= 2:
+            notes = [f'{len(full)} pairs, every end on {b.X}']
+            if light:
+                notes.append('WATCH light pairs also on the number: ' + '; '.join(s['line'] for s, _ in light.values()))
+            out.append({'key': (a['plane'],), 'cells': cells(full) + cells(light)[1:], 'notes': notes})
+        elif len(full) + len(light) >= 2:
+            out.append({'key': (a['plane'], 'watch'), 'cells': cells({**full, **light}), 'watch_only': True,
+                        'notes': ['WATCH (light as an end): holds only when the Moon / Sun counts as a pair end; not a holder']})
+    return out
+
+
 RULES = [('BB1', bb1, 'Mercury'), ('BB2', bb2, 'Mars'), ('BB3', bb3, 'Jupiter'), ('BB4', bb4, 'Saturn'),
          ('BB5', bb5, 'Uranus'), ('BB6', bb6, 'Uranus'), ('BB7', bb7, 'Neptune'), ('BB8', bb8, 'Rahu'),
          ('BB9', bb9, 'Rahu'), ('BB10', bb10, 'Ketu'), ('BB11', bb11, 'Ceres'), ('BB12', bb12, 'Pallas'),
          ('BB13', bb13, 'Juno'), ('BB14', bb14, 'Vesta'), ('BB15', bb15, 'Chiron'), ('BB16', bb16, 'Eris'),
          ('BB17', bb17, 'Makemake'), ('BB18', bb18, 'Venus'), ('BB19', bb19, 'Venus'), ('BB20', bb20, 'Jupiter'),
-         ('BB21', bb21, 'Saturn'), ('BB22', bb22, 'Saturn'), ('BB23', bb23, 'Neptune'), ('BB24', bb24, 'Rahu'), ('BB25', bb25, 'Ketu'), ('BB26', bb26, 'Ceres'), ('BB27', bb27, 'Pallas'), ('BB28', bb28, 'Juno'), ('BB29', bb29, 'Vesta')]
+         ('BB21', bb21, 'Saturn'), ('BB22', bb22, 'Saturn'), ('BB23', bb23, 'Neptune'), ('BB24', bb24, 'Rahu'), ('BB25', bb25, 'Ketu'), ('BB26', bb26, 'Ceres'), ('BB27', bb27, 'Pallas'), ('BB28', bb28, 'Juno'), ('BB29', bb29, 'Vesta'), ('BB30', bb30, 'Eris')]
 
 
 def decade_pairs(cells):
@@ -730,7 +752,8 @@ def run(path):
                                      'notes': case.get('notes', []),
                                      'lights': [cell(r) for r in b.lights()],
                                      'decade': decade_pairs(cells),
-                                     'additive': additive_steps(cells)})
+                                     'additive': additive_steps(cells),
+                                     'watch_only': bool(case.get('watch_only'))})
     return race, list(data), res
 
 
@@ -744,20 +767,21 @@ def write(race, runners, res, out):
           'Field: runners holding the rule in this race.', '']
     summ = []
     for rid, _, _ in RULES:
-        holders = sorted({c['runner'] for c in res[rid]})
-        summ.append(f"| {rid} | {len(res[rid])} | {len(holders)} | {', '.join(holders) or '-'} |")
-    md += ['| Rule | Cases | Runners | Holders |', '|---|---|---|---|'] + summ + ['']
+        hc = [c for c in res[rid] if not c['watch_only']]
+        holders = sorted({c['runner'] for c in hc})
+        wo = sorted({c['runner'] for c in res[rid] if c['watch_only']})
+        summ.append(f"| {rid} | {len(hc)} | {len(holders)} | {', '.join(holders) or '-'} | {', '.join(wo)} |")
+    md += ['| Rule | Cases | Runners | Holders | Watch only |', '|---|---|---|---|---|'] + summ + ['']
     for rid, _, _ in RULES:
         info = rules.get(rid, {})
         md += [f'## {rid} — {info.get("title", "")}', '', f"Rule: {info.get('text', '')}", '',
                f"Origin: {info.get('origin', '')}", '']
         cases = res[rid]
-        if not cases:
+        if not [c for c in cases if not c['watch_only']]:
             md += ['No runner holds it.', '']
-            continue
         for c in cases:
-            others = sorted({x['runner'] for x in cases if x['runner'] != c['runner']})
-            tag = 'only' if not others else 'also: ' + ', '.join(others)
+            others = sorted({x['runner'] for x in cases if x['runner'] != c['runner'] and not x['watch_only']})
+            tag = 'WATCH only, not a holder' if c['watch_only'] else ('only' if not others else 'also: ' + ', '.join(others))
             md.append(f"### {c['runner']} — {c['body']} ({tag})")
             md += [f'- {x}' for x in c['cells']]
             md += [f'- {n}' for n in c['notes']]
@@ -781,7 +805,9 @@ def main():
     race, runners, res = run(a.bybody_xlsx)
     p = write(race, runners, res, a.out)
     for rid, _, _ in RULES:
-        print(rid, len(res[rid]), sorted({c['runner'] for c in res[rid]}))
+        print(rid, len([c for c in res[rid] if not c['watch_only']]),
+              sorted({c['runner'] for c in res[rid] if not c['watch_only']}),
+              ('watch only: ' + ', '.join(sorted({c['runner'] for c in res[rid] if c['watch_only']}))) if any(c['watch_only'] for c in res[rid]) else '')
     print('->', p + '.md')
 
 

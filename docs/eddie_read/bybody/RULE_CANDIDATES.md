@@ -510,3 +510,19 @@ Ishvara Vesta cells (jockey):
 - Chiron: S Chiron – S Vesta RA 85.0156 85 (22.1); S Chiron → J Vesta RA 10.0067 10 (66.4); S Vesta → J Vesta RA 75.0088 75 (55.8)
 Field check: Haydock - Ishvara Vesta only (Eris; Antares, Aldebaran); Lingfield - Shimmering Dawn Jupiter only (Uranus; Antares,
 Fomalhaut).
+
+## BB30 — H X – J X line with 2+ different pairs, every end on X (Moon / Sun as WATCH)
+Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Eris. Added 14 Nov 2026 (Eddie: "add moon as a watch").
+Rule: the H X – J X line scores; at least two different sky pairs S A – S B (A, B not X, no light in the pair) are on its family
+and target; every end of every pair reaches X (S E – S X, S E → H X or S E → J X). BB14 widened (kept as a separate version).
+WATCH: a case that holds only when a Moon / Sun pair counts is listed as "WATCH only, not a holder"; a light pair on the number
+beside a real case is noted on it. (First use of watch-only cases in the tool: the summary table has a Watch only column.)
+Ishvara Eris cells:
+- H Eris – J Eris RA 2.9905 3 (52.5); S Ketu – S Antares Dec 3.0017 3 (91.5); S Mars – S Orcus Dec 3.0146 3 (27.1)
+- Ketu: S Ketu – S Eris Dec 22.0013 22 (93.6), S Ketu → J Eris Dec 13.3144 ninth 13.3333 (29.0); Antares: S Antares – S Eris Dec
+  25.0030 25 (85.1); Mars: S Mars – S Eris RA 37.1851 23×φ (8.3), S Mars → H Eris Dec 4.8426 3×φ (64.6); Orcus: S Orcus → J Eris Dec
+  0.2500 conj (16.7)
+- Aldebaran: S Aldebaran – S Eris Dec 17.9376 φ⁶ (75.1), RA 42.3963 10φ³ (44.0); H Aldebaran – H Eris Dec 19.0173 19 (13.5)
+- Lights: S Sun → J Eris Dec 33.0015 33 (92.7); S Moon – S Eris Dec 22.6744 14×φ (32.2); S Moon → J Eris Dec 13.9876 14 (37.9)
+Field check: Haydock - Ishvara Eris (holder); Mews House Jupiter watch only (both pairs with the Moon); Lingfield - Shimmering
+Dawn Ketu.

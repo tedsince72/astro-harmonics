@@ -46,6 +46,7 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB27': set(),
     'BB28': set(),
     'BB29': {('06 Shimmering Dawn', 'Jupiter')},
+    'BB30': {('06 Shimmering Dawn', 'Ketu')},
 }
 CELLS = {  # rule: (runner, body, [cell texts that must be in the case])
     'BB1': ('05 Pholas', 'Mercury', ['J Aldebaran – J Mercury Dec 16.193302 10×φ golden (59.99)',
@@ -77,7 +78,7 @@ race, runners, res = R.run(XLSX)
 check(race == RACE and len(runners) == 6, 'race / runners')
 check(sorted(res) == sorted(EXPECT), 'rule set')
 for rid, exp in EXPECT.items():
-    got = {(c['runner'], c['body']) for c in res[rid]}
+    got = {(c['runner'], c['body']) for c in res[rid] if not c.get('watch_only')}
     check(got == exp, f'{rid} holders {sorted(got)} != {sorted(exp)}')
 for rid, (run, body, want) in CELLS.items():
     cases = [c for c in res[rid] if c['runner'] == run and c['body'] == body]
@@ -161,5 +162,8 @@ if os.path.exists(HAY):
     for w in ('S Eris – S Antares Dec', 'S Eris – S Aldebaran Dec', 'J Antares – J Vesta Dec', 'S Eris → J Vesta Dec',
               'S Eris – S Vesta Dec', 'S Eris → H Vesta RA'):
         check(any(x.startswith(w) for x in iv), f'BB29 Ishvara Vesta cell {w}')
+    h30 = {(c['runner'], c['body']) for c in hres['BB30'] if not c['watch_only']}
+    w30 = {(c['runner'], c['body']) for c in hres['BB30'] if c['watch_only']}
+    check(h30 == {('07 Ishvara', 'Eris')} and w30 == {('11 Mews House', 'Jupiter')}, 'BB30 Haydock holders / watch only')
 print(f'{ok}/{ok + bad} checks passed')
 sys.exit(1 if bad else 0)

@@ -1,38 +1,39 @@
-# 20200608_haydock_1345 — body-by-body rules BB1-BB29
+# 20200608_haydock_1345 — body-by-body rules BB1-BB30
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
-| Rule | Cases | Runners | Holders |
-|---|---|---|---|
-| BB1 | 1 | 1 | 03 Never In Paris |
-| BB2 | 2 | 2 | 04 Royal Context, 08 Dancin Inthestreet |
-| BB3 | 11 | 6 | 02 Ventura Flame, 05 My Friend Stan, 06 Birkenhead, 07 Ishvara, 09 Garsman, 11 Mews House |
-| BB4 | 1 | 1 | 06 Birkenhead |
-| BB5 | 0 | 0 | - |
-| BB6 | 7 | 6 | 03 Never In Paris, 05 My Friend Stan, 06 Birkenhead, 07 Ishvara, 08 Dancin Inthestreet, 11 Mews House |
-| BB7 | 9 | 6 | 01 Magical Max, 03 Never In Paris, 04 Royal Context, 05 My Friend Stan, 06 Birkenhead, 07 Ishvara |
-| BB8 | 0 | 0 | - |
-| BB9 | 3 | 2 | 07 Ishvara, 11 Mews House |
-| BB10 | 4 | 4 | 01 Magical Max, 05 My Friend Stan, 07 Ishvara, 08 Dancin Inthestreet |
-| BB11 | 0 | 0 | - |
-| BB12 | 4 | 3 | 01 Magical Max, 04 Royal Context, 06 Birkenhead |
-| BB13 | 4 | 2 | 03 Never In Paris, 04 Royal Context |
-| BB14 | 5 | 3 | 01 Magical Max, 05 My Friend Stan, 11 Mews House |
-| BB15 | 0 | 0 | - |
-| BB16 | 2 | 2 | 01 Magical Max, 11 Mews House |
-| BB17 | 0 | 0 | - |
-| BB18 | 1 | 1 | 07 Ishvara |
-| BB19 | 1 | 1 | 07 Ishvara |
-| BB20 | 3 | 2 | 06 Birkenhead, 07 Ishvara |
-| BB21 | 2 | 2 | 07 Ishvara, 08 Dancin Inthestreet |
-| BB22 | 1 | 1 | 07 Ishvara |
-| BB23 | 1 | 1 | 07 Ishvara |
-| BB24 | 1 | 1 | 07 Ishvara |
-| BB25 | 2 | 2 | 07 Ishvara, 08 Dancin Inthestreet |
-| BB26 | 2 | 2 | 06 Birkenhead, 07 Ishvara |
-| BB27 | 4 | 3 | 06 Birkenhead, 07 Ishvara, 09 Garsman |
-| BB28 | 2 | 2 | 04 Royal Context, 07 Ishvara |
-| BB29 | 1 | 1 | 07 Ishvara |
+| Rule | Cases | Runners | Holders | Watch only |
+|---|---|---|---|---|
+| BB1 | 1 | 1 | 03 Never In Paris |  |
+| BB2 | 2 | 2 | 04 Royal Context, 08 Dancin Inthestreet |  |
+| BB3 | 11 | 6 | 02 Ventura Flame, 05 My Friend Stan, 06 Birkenhead, 07 Ishvara, 09 Garsman, 11 Mews House |  |
+| BB4 | 1 | 1 | 06 Birkenhead |  |
+| BB5 | 0 | 0 | - |  |
+| BB6 | 7 | 6 | 03 Never In Paris, 05 My Friend Stan, 06 Birkenhead, 07 Ishvara, 08 Dancin Inthestreet, 11 Mews House |  |
+| BB7 | 9 | 6 | 01 Magical Max, 03 Never In Paris, 04 Royal Context, 05 My Friend Stan, 06 Birkenhead, 07 Ishvara |  |
+| BB8 | 0 | 0 | - |  |
+| BB9 | 3 | 2 | 07 Ishvara, 11 Mews House |  |
+| BB10 | 4 | 4 | 01 Magical Max, 05 My Friend Stan, 07 Ishvara, 08 Dancin Inthestreet |  |
+| BB11 | 0 | 0 | - |  |
+| BB12 | 4 | 3 | 01 Magical Max, 04 Royal Context, 06 Birkenhead |  |
+| BB13 | 4 | 2 | 03 Never In Paris, 04 Royal Context |  |
+| BB14 | 5 | 3 | 01 Magical Max, 05 My Friend Stan, 11 Mews House |  |
+| BB15 | 0 | 0 | - |  |
+| BB16 | 2 | 2 | 01 Magical Max, 11 Mews House |  |
+| BB17 | 0 | 0 | - |  |
+| BB18 | 1 | 1 | 07 Ishvara |  |
+| BB19 | 1 | 1 | 07 Ishvara |  |
+| BB20 | 3 | 2 | 06 Birkenhead, 07 Ishvara |  |
+| BB21 | 2 | 2 | 07 Ishvara, 08 Dancin Inthestreet |  |
+| BB22 | 1 | 1 | 07 Ishvara |  |
+| BB23 | 1 | 1 | 07 Ishvara |  |
+| BB24 | 1 | 1 | 07 Ishvara |  |
+| BB25 | 2 | 2 | 07 Ishvara, 08 Dancin Inthestreet |  |
+| BB26 | 2 | 2 | 06 Birkenhead, 07 Ishvara |  |
+| BB27 | 4 | 3 | 06 Birkenhead, 07 Ishvara, 09 Garsman |  |
+| BB28 | 2 | 2 | 04 Royal Context, 07 Ishvara |  |
+| BB29 | 1 | 1 | 07 Ishvara |  |
+| BB30 | 1 | 1 | 07 Ishvara | 11 Mews House |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -852,4 +853,37 @@ Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Vesta
 - S Eris → H Vesta RA 85.987401 86 whole (37.01)
 - Eris paired with Aldebaran, Antares on their own natal lines
 - lights on Vesta: S Sun – S Vesta Dec 0.052556 conj conj (82.48); S Moon – S Vesta Dec 46.936470 29×φ golden (58.38); S Moon – S Vesta RA 156.969749 97×φ golden (36.88); S Moon → H Vesta RA 177.621190 177.778 ninth (55.96); S Moon → J Vesta Dec 22.684496 14×φ golden (1.17)
+
+## BB30 — H X – J X line with 2+ different pairs, every end on X (Moon / Sun ends as WATCH only)
+
+Rule: The H X – J X line scores; at least two different sky pairs S A – S B (A, B not X; not a light) are on its family and target; every end of every pair reaches X (S E – S X, S E → H X or S E → J X). A case that holds only when a Moon / Sun pair counts is listed as WATCH only, not a holder.
+
+Origin: Haydock 13:45 8 Jun 2020, 7 Ishvara, body Eris
+
+### 07 Ishvara — Eris (only)
+- H Eris – J Eris RA 2.990505 3 whole (52.53)
+- S Ketu – S Antares Dec 3.001702 3 whole (91.49)
+- S Ketu – S Eris Dec 22.001275 22 whole (93.63)
+- S Ketu → J Eris Dec 13.314408 13.3333 ninth (29.03)
+- S Antares – S Eris Dec 25.002977 25 whole (85.11)
+- S Mars – S Orcus Dec 3.014589 3 whole (27.06)
+- S Mars – S Eris RA 37.185073 23×φ golden (8.31)
+- S Mars → H Eris Dec 4.842636 3×φ golden (64.61)
+- S Orcus → J Eris Dec 0.249958 conj conj (16.68)
+- 2 pairs, every end on Eris
+- WATCH additive step (Dec): 25 = 3 + 22 (S Antares – S Eris; S Ketu – S Antares; S Ketu – S Eris) (may be geometry: three distances between the same three points)
+- WATCH additive step (Dec): 25 = 22 + 3 (S Antares – S Eris; S Ketu – S Eris; S Mars – S Orcus)
+- lights on Eris: S Moon – S Eris Dec 22.674439 14×φ golden (32.21); S Sun → J Eris Dec 33.001455 33 whole (92.73); S Moon → J Eris Dec 13.987571 14 whole (37.86)
+
+### 11 Mews House — Jupiter (WATCH only, not a holder)
+- H Jupiter – J Jupiter Dec contraparallel 0.013721 cp contraparallel (95.43)
+- S Moon – S Makemake Dec contraparallel 0.205660 cp contraparallel (31.45)
+- S Moon → H Jupiter RA 99.971672 100 ninth (85.84)
+- S Moon → H Jupiter Dec 19.400847 12×φ golden (51.97)
+- S Makemake – S Jupiter RA 102.008264 102 whole (58.68)
+- S Makemake → H Jupiter RA 1.057081 conj conj (29.53)
+- S Mercury – S Moon Dec contraparallel 0.218065 cp contraparallel (27.31)
+- S Mercury – S Jupiter RA 163.990863 164 whole (54.31)
+- WATCH (light as an end): holds only when the Moon / Sun counts as a pair end; not a holder
+- lights on Jupiter: S Moon → H Jupiter RA 99.971672 100 ninth (85.84); S Sun → H Jupiter RA 118.126381 73×φ golden (69.44); S Moon → H Jupiter Dec 19.400847 12×φ golden (51.97)
 
