@@ -294,3 +294,19 @@ Pholas Chiron cells:
 - S Chiron → J Chiron RA 169.014200 169 (29.0); light: S Moon → H Chiron Dec 24.108300 silver 24.14 (6.5)
 Field check, this race: Pholas Chiron only. Without (i): 6 cases, 4 runners. Sky and natal royal lines on X both φ powers:
 Pholas Chiron, Nirodha Saturn.
+
+## BB16 — same-body number repeated by a sky body Y on the same natal X, Y also on sky X
+Origin: Lingfield AW 14:35 2 Apr 2021, 5 Pholas / Hollie Doyle, body Eris (jockey).
+Rule (Eddie, 14 Nov 2026): on body X, the same-body line S X → natal X scores; a sky body Y (not the Sun or Moon) has S Y → that
+chart's X on the same family and target; Y also scores on sky X (S Y – S X, any family - conjunction and contraparallel
+included, Eddie: "can be conj or contra").
+Highlights: a royal star on sky X with its number repeated on natal X; other sky lines on the target; lights.
+Pholas Eris cells (jockey):
+- S Eris → J Eris Dec 6.491300 4×φ golden (40.8); S Jupiter → J Eris Dec 6.501600 4×φ (9.0); S Jupiter – S Eris Dec 12.992900
+  13 whole (64.7)
+- Also on 4×φ: S Moon – S Ketu RA 6.478500 (80.4)
+- S Regulus – S Eris RA 125.992400 126 (62.2) and S Moon → J Eris RA 126.004400 126 (77.9)
+- Lights: S Moon – S Eris Dec 22.655100 14×φ (92.0); S Moon → J Eris Dec 16.163700 10×φ (48.8); S Sun → J Eris Dec 12.917000
+  8×φ (15.8)
+Field check, this race: 3 cases, 2 runners - Pholas Eris (Jupiter, 13), Arafi Pluto (Rahu, sky leg contraparallel), Arafi Orcus
+(Gonggong, sky leg conjunction). With a royal star on sky X: Pholas Eris (Regulus), Arafi Orcus (Antares).
