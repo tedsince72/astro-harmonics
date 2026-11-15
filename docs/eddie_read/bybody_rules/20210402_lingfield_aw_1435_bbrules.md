@@ -1,4 +1,4 @@
-# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB34
+# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB35
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -39,6 +39,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB32b | 0 | 0 | - |  |
 | BB33 | 0 | 0 | - |  |
 | BB34 | 1 | 1 | 05 Pholas |  |
+| BB35 | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -634,4 +635,12 @@ Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Mars
 - WATCH Sedna is an end of the pair (S Mars – S Sedna)
 - HIGHLIGHT same digits a decade apart: 77.7778 (S Mars – S Mercury) / 7.77778 (S Sedna → J Mercury)
 - lights on Mercury: S Moon → H Mercury RA 13.329589 13.3333 ninth (85.96)
+
+## BB35 — two royal stars on sky X, both natal lines (same plane) with a scoring crossed same-body ratio
+
+Rule: In one chart c, two different royal stars R1, R2 each score on sky X (S R – S X, any plane), and their natal lines c R1 – c X and c R2 – c X in the same plane each have a scoring crossed same-body ratio (against S X → c X in the other plane); the star lines need not score. WATCH, noted not required: one of the crossed ratios scoring >= 80.
+
+Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Saturn
+
+No runner holds it.
 

@@ -589,3 +589,12 @@ Mademoiselle Ketu, Sands Of Dubai Saturn, Havana White Pluto, Perfect Part Mars 
 runner sheets (cloths 1-4, 7-15). Note: Sedna is a pair end in both Pholas Mercury (Mars – Sedna) and Perfect Part Mars (Rahu – Sedna).
 Independent checker: holders and every cell confirmed.
 BB34 WATCH note added (Eddie, 15 Nov 2026): Sedna as an end of the pair (Lingfield Pholas Mercury, Beverley Perfect Part Mars; Haydock none).
+
+## BB35 (Eddie, 15 Nov 2026) - Beverley 14:05 8 Jun 2024, 15 Perfect Part, Saturn
+Eddie's lines: S Regulus – S Saturn RA 161.7224 100φ (66.6); S Antares – S Saturn RA 103.0094 whole 103 (53.0); H Antares – H Saturn RA
+78.0362 (no family; crossed vs S Saturn → H Saturn Dec 8.658454 = 9.0127, 9 9th harmonic 36.4); H Regulus – H Saturn RA 173.2975 (no family;
+crossed 20.0148, 20 1/20 cut 85.2); same-plane ratios vs S Saturn → H Saturn RA 24.9751 no target. No Saturn same-target sky lines.
+Versions (runners, Lingfield / Haydock / Beverley): (a) two royal stars on sky X, each with a scoring crossed ratio, one chart 0 / 4 / 3;
+(b) a + both star lines in the same plane 0 / 2 (Royal Context Pluto, Ishvara Chiron) / 2 (Invincible Annice Venus, Perfect Part Saturn) =
+BB35 (Eddie chose b); (c) a + one crossed ratio >= 80 0 / 1 / 1 - kept as the WATCH note; (d) any ratio 1 / 9 / 12. The first field check
+listed b at Haydock as Ishvara only (a bug in that quick script); the built rule finds Royal Context Pluto too.

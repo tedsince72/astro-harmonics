@@ -1,4 +1,4 @@
-# 20200608_haydock_1345 — body-by-body rules BB1-BB34
+# 20200608_haydock_1345 — body-by-body rules BB1-BB35
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -39,6 +39,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB32b | 0 | 0 | - |  |
 | BB33 | 0 | 0 | - |  |
 | BB34 | 1 | 1 | 03 Never In Paris |  |
+| BB35 | 2 | 2 | 04 Royal Context, 07 Ishvara |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -970,4 +971,26 @@ Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Mars
 - S Quaoar → H Orcus Dec 5.545457 5.55556 ninth (9.11)
 - S Transpluto → H Orcus RA 1.488257 conj conj (0.78)
 - S Quaoar on sky Orcus (Dec), S Transpluto on sky Orcus (RA); both on natal Orcus
+
+## BB35 — two royal stars on sky X, both natal lines (same plane) with a scoring crossed same-body ratio
+
+Rule: In one chart c, two different royal stars R1, R2 each score on sky X (S R – S X, any plane), and their natal lines c R1 – c X and c R2 – c X in the same plane each have a scoring crossed same-body ratio (against S X → c X in the other plane); the star lines need not score. WATCH, noted not required: one of the crossed ratios scoring >= 80.
+
+Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Saturn
+
+### 04 Royal Context — Pluto (also: 07 Ishvara)
+- J Antares – J Pluto Dec 32.985717 33 whole (28.59)
+- J Regulus – J Pluto Dec 5.412855 (no family)
+- S Antares – S Pluto RA 49.005278 49 whole (73.61)
+- S Regulus – S Pluto RA 144.273253 144.444 ninth (40.74)
+- J Antares and J Regulus – Pluto Dec: crossed same-body ratios φ² φ squared (11.58); 16 1/16 cut (16.29); both stars on sky Pluto
+- lights on Pluto: S Moon – S Pluto RA 1.418380 conj conj (5.44); S Sun → J Pluto RA 133.273239 133.333 ninth (77.46)
+
+### 07 Ishvara — Chiron (also: 04 Royal Context)
+- J Antares – J Chiron Dec 44.629346 (no family)
+- J Fomalhaut – J Chiron Dec 47.815247 (no family)
+- S Antares – S Chiron Dec 32.378809 20×φ golden (44.05)
+- S Fomalhaut – S Chiron Dec 35.566631 22×φ golden (7.05)
+- J Antares and J Fomalhaut – Chiron Dec: crossed same-body ratios 8/5 minor sixth (2.08); 3/2 fifth (56); both stars on sky Chiron
+- lights on Chiron: S Sun → J Chiron RA 1.354300 conj conj (9.71); S Moon → J Chiron Dec 42.301042 10φ³ phi power (6.14)
 

@@ -1,4 +1,4 @@
-# 20240608_beverley_1405 — body-by-body rules BB1-BB34
+# 20240608_beverley_1405 — body-by-body rules BB1-BB35
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -39,6 +39,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB32b | 1 | 1 | 15 Perfect Part |  |
 | BB33 | 1 | 1 | 15 Perfect Part |  |
 | BB34 | 5 | 5 | 01 Aviation Time, 07 Mademoiselle, 12 Sands Of Dubai, 14 Havana White, 15 Perfect Part |  |
+| BB35 | 2 | 2 | 04 Invincible Annice, 15 Perfect Part |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1330,4 +1331,26 @@ Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Mars
 - WATCH Sedna is an end of the pair (S Rahu – S Sedna)
 - WATCH J Fomalhaut – J Mars also paired in the other plane: S Moon – S Quaoar Dec (Moon); S Ceres – S Haumea Dec
 - lights on Mars: S Moon → J Mars Dec 14.591671 9×φ golden (9.37)
+
+## BB35 — two royal stars on sky X, both natal lines (same plane) with a scoring crossed same-body ratio
+
+Rule: In one chart c, two different royal stars R1, R2 each score on sky X (S R – S X, any plane), and their natal lines c R1 – c X and c R2 – c X in the same plane each have a scoring crossed same-body ratio (against S X → c X in the other plane); the star lines need not score. WATCH, noted not required: one of the crossed ratios scoring >= 80.
+
+Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Saturn
+
+### 04 Invincible Annice — Venus (also: 15 Perfect Part)
+- H Aldebaran – H Venus RA 115.128616 (no family)
+- H Regulus – H Venus RA 161.754037 100φ phi power (79.66)
+- S Aldebaran – S Venus RA 8.996523 9 whole (82.61)
+- S Regulus – S Venus Dec 11.102830 11.1111 ninth (62.74)
+- H Aldebaran and H Regulus – Venus RA: crossed same-body ratios 3 twelfth (35.14); φ³ φ cubed (54.56); both stars on sky Venus
+- lights on Venus: S Sun – S Venus Dec 0.187596 conj conj (37.47); S Sun – S Venus RA 1.137027 conj conj (24.2); S Sun → H Venus RA 122.984176 φ¹⁰ phi power (95.83); S Moon → J Venus Dec 43.980219 44 whole (1.09)
+
+### 15 Perfect Part — Saturn (also: 04 Invincible Annice)
+- H Antares – H Saturn RA 78.036226 (no family)
+- H Regulus – H Saturn RA 173.297501 (no family)
+- S Antares – S Saturn RA 103.009394 103 whole (53.03)
+- S Regulus – S Saturn RA 161.722353 100φ phi power (66.61)
+- H Antares and H Regulus – Saturn RA: crossed same-body ratios 9 9th harmonic (36.4); 20 1/20 cut (85.17); both stars on sky Saturn
+- WATCH a crossed ratio scores >= 80
 

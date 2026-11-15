@@ -848,13 +848,36 @@ def bb34(b):
     return out
 
 
+def bb35(b):
+    out = []
+    onsky = {R: b.sky_y(R) for R in ROY if b.sky_y(R)}
+    for c in 'HJ':
+        cx = {}
+        for R in onsky:
+            for r in b.lines(f'{c} {R} – {c} {b.X}'):
+                if r.get('xs'):
+                    cx.setdefault((R, r['plane']), []).append(r)
+        for pl in ('RA', 'Dec'):
+            stars = sorted({R for R, p in cx if p == pl})
+            for i in range(len(stars)):
+                for j in range(i + 1, len(stars)):
+                    R1, R2 = stars[i], stars[j]
+                    rows = cx[(R1, pl)] + cx[(R2, pl)]
+                    notes = [f"{c} {R1} and {c} {R2} – {b.X} {pl}: crossed same-body ratios "
+                             + '; '.join(f"{r['xt']} ({r['xs']})" for r in rows) + f"; both stars on sky {b.X}"]
+                    if any((r.get('xs') or 0) >= 80 for r in rows):
+                        notes.append('WATCH a crossed ratio scores >= 80')
+                    out.append({'key': (c, pl, R1, R2), 'cells': rows + onsky[R1] + onsky[R2], 'notes': notes})
+    return out
+
+
 RULES = [('BB1', bb1, 'Mercury'), ('BB2', bb2, 'Mars'), ('BB3', bb3, 'Jupiter'), ('BB4', bb4, 'Saturn'),
          ('BB5', bb5, 'Uranus'), ('BB6', bb6, 'Uranus'), ('BB7', bb7, 'Neptune'), ('BB8', bb8, 'Rahu'),
          ('BB9', bb9, 'Rahu'), ('BB10', bb10, 'Ketu'), ('BB11', bb11, 'Ceres'), ('BB12', bb12, 'Pallas'),
          ('BB13', bb13, 'Juno'), ('BB14', bb14, 'Vesta'), ('BB15', bb15, 'Chiron'), ('BB16', bb16, 'Eris'),
          ('BB17', bb17, 'Makemake'), ('BB18', bb18, 'Venus'), ('BB19', bb19, 'Venus'), ('BB20', bb20, 'Jupiter'),
          ('BB21', bb21, 'Saturn'), ('BB22', bb22, 'Saturn'), ('BB23', bb23, 'Neptune'), ('BB24', bb24, 'Rahu'), ('BB25', bb25, 'Ketu'), ('BB26', bb26, 'Ceres'), ('BB27', bb27, 'Pallas'), ('BB28', bb28, 'Juno'), ('BB29', bb29, 'Vesta'), ('BB30', bb30, 'Eris'), ('BB31', bb31, 'Gonggong'),
-         ('BB32', bb32, 'Sun'), ('BB32b', bb32b, 'Sun'), ('BB33', bb33, 'Mercury'), ('BB34', bb34, 'Mars')]
+         ('BB32', bb32, 'Sun'), ('BB32b', bb32b, 'Sun'), ('BB33', bb33, 'Mercury'), ('BB34', bb34, 'Mars'), ('BB35', bb35, 'Saturn')]
 
 
 def decade_pairs(cells):
