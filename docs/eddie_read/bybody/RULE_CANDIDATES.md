@@ -659,3 +659,15 @@ Perfect Part (not built, noted); a + royal natal line ratio on a cut: 2 / 2 / 5;
 also takes Royal Context Pluto and Nad Alshiba Snow Pallas, where the Sun is the end); e = as b, the Sun's target the end's line or the
 pair (built): Ishvara Rahu (S Mercury – S Transpluto Dec 13 on S Rahu → H Rahu Dec 13, S Mercury – S Rahu RA ninth, S Transpluto → J Rahu
 Dec 1, S Sun → J Rahu Dec 13 on the pair) and Perfect Part Sedna. Two royals on sky X and the cut ratio are WATCH notes.
+
+## BB41 — York 15:45 15 May 2024, 6 Secret Satire, Sun (15 Nov 2026, built: version b + Moon)
+Lines: H Antares – H Sun Dec 33.3333 (96.26) closed by S Eris – S Sedna RA (Eris on sky Sun 12×φ, Sedna → H Sun 44), open pair S Ketu – S Juno
+(Ketu → J Sun only); J Fomalhaut – J Sun RA opposition (50.91; same-body ratio 8/5 72.13) closed by S Chiron – S Makemake RA (Chiron on sky Sun
+6×φ, Makemake → J Sun 15.5556), open pair S Gonggong – S Orcus; H Sun – J Sun Dec silver 0.414 (98.51); Moon on sky Sun 2×φ, H Sun 8.88889,
+J Sun 14.4444; S Uranus – S Sun RA 2 (89.59). No earlier rule held Secret Satire Sun. Field check (Lingfield / Haydock / Beverley / Catterick /
+Chelmsford / York): a = a royal line on X closed (one end sky X, other natal X same chart) 6 / 20 / 49 / 15 / 18 / 25; a either chart 15 / 35 /
+63 / 22 / 31 / 34; b = closed royal lines in both charts 0 / 2 / 1 / 0 / 0 / 4 (Birkenhead Jupiter, Ishvara Vesta; Mademoiselle Uranus; Friendly
+Soul Jupiter, Secret Satire Sun and Quaoar, Sinology Ketu); two closed royal lines any charts 0 / 3 / 3 / 0 / 0 / 7; a + H X – J X 2 / 4 / 10 / 2 /
+4 / 7; b + H X – J X: Secret Satire Sun only (not built, noted); a + Moon on sky X and both natal X and b + Moon (built): Ishvara Vesta and
+Secret Satire Sun. Ishvara's loops are looser (H Antares line contraparallel; J loop S Eris – S Antares, a royal star as a pair end); Antares and
+Eris in both. First rule that needs the Moon (before: watch-only, BB30 / BB31). In-sample for York.

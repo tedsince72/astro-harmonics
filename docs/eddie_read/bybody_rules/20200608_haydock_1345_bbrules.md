@@ -1,4 +1,4 @@
-# 20200608_haydock_1345 — body-by-body rules BB1-BB40
+# 20200608_haydock_1345 — body-by-body rules BB1-BB41
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -45,6 +45,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB38 | 0 | 0 | - |  |
 | BB39 | 0 | 0 | - |  |
 | BB40 | 1 | 1 | 07 Ishvara |  |
+| BB41 | 1 | 1 | 07 Ishvara |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1052,4 +1053,34 @@ Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Sedna (also holds: Haydock 1
 - S Sun → J Rahu Dec 12.984017 13 whole (20.08)
 - Mercury on sky Rahu, Transpluto on J Rahu; Sun on the pair
 - lights on Rahu: S Moon → J Rahu Dec 34.005009 34 whole (74.95); S Moon → J Rahu RA 88.791898 88.8889 ninth (45.44); S Sun → J Rahu Dec 12.984017 13 whole (20.08)
+
+## BB41 — royal-star line on X closed in both charts, and the Moon on sky X and both natal X
+
+Rule: In each chart (horse and jockey) a natal royal-star line on X scores (H R – H X / J R – J X; conj / contraparallel included), and a sky pair S A – S B on its target (the pair not naming X or the Moon) closes it: one end on sky X (S A – S X) and the other end on natal X in that same chart (S B → H X for the horse line, S B → J X for the jockey line); any plane, any score. And the Moon is on sky X (S Moon – S X), on H X (S Moon → H X) and on J X (S Moon → J X). WATCH, noted not required: H X – J X scores; a royal star as a pair end; a conj / contraparallel royal line.
+
+Origin: York 15:45 15 May 2024, 6 Secret Satire, Sun (also holds: Haydock 13:45 8 Jun 2020, 7 Ishvara, Vesta)
+
+### 07 Ishvara — Vesta (only)
+- H Antares – H Vesta Dec contraparallel 0.153351 cp contraparallel (48.88)
+- S Venus – S Jupiter Dec contraparallel 0.186796 cp contraparallel (37.73)
+- S Jupiter – S Vesta Dec 44.007713 44 whole (61.43)
+- S Venus → H Vesta RA 43.711070 27×φ golden (25.46)
+- S Jupiter – S Pallas Dec contraparallel 0.283610 cp contraparallel (5.46)
+- S Pallas → H Vesta RA 179.952447 180 opposition (93.66)
+- J Antares – J Vesta Dec 25.012800 25 whole (36)
+- S Eris – S Antares Dec 25.002977 25 whole (85.11)
+- S Antares – S Vesta RA 155.443354 155.556 ninth (63.94)
+- S Eris → J Vesta Dec 0.010058 conj conj (96.65)
+- S Moon – S Vesta Dec 46.936470 29×φ golden (58.38)
+- S Moon – S Vesta RA 156.969749 97×φ golden (36.88)
+- S Moon → H Vesta RA 177.621190 177.778 ninth (55.96)
+- S Moon → J Vesta Dec 22.684496 14×φ golden (1.17)
+- H Antares line closed by S Venus – S Jupiter Dec contraparallel: Jupiter on sky Vesta, Venus on H Vesta
+- WATCH the royal line is a contraparallel (H Antares – H Vesta Dec contraparallel)
+- H Antares line closed by S Jupiter – S Pallas Dec contraparallel: Jupiter on sky Vesta, Pallas on H Vesta
+- WATCH the royal line is a contraparallel (H Antares – H Vesta Dec contraparallel)
+- J Antares line closed by S Eris – S Antares Dec: Antares on sky Vesta, Eris on J Vesta
+- WATCH a royal star is a pair end (S Eris – S Antares Dec)
+- Moon on sky Vesta, H Vesta and J Vesta: S Moon – S Vesta Dec 46.936470 29×φ golden (58.38); S Moon – S Vesta RA 156.969749 97×φ golden (36.88); S Moon → H Vesta RA 177.621190 177.778 ninth (55.96); S Moon → J Vesta Dec 22.684496 14×φ golden (1.17)
+- lights on Vesta: S Sun – S Vesta Dec 0.052556 conj conj (82.48); S Moon – S Vesta Dec 46.936470 29×φ golden (58.38); S Moon – S Vesta RA 156.969749 97×φ golden (36.88); S Moon → H Vesta RA 177.621190 177.778 ninth (55.96); S Moon → J Vesta Dec 22.684496 14×φ golden (1.17)
 

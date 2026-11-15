@@ -58,6 +58,7 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB38': set(),
     'BB39': {('05 Pholas', 'Juno')},
     'BB40': set(),
+    'BB41': set(),
 }
 CELLS = {  # rule: (runner, body, [cell texts that must be in the case])
     'BB1': ('05 Pholas', 'Mercury', ['J Aldebaran – J Mercury Dec 16.193302 10×φ golden (59.99)',
@@ -192,6 +193,14 @@ if os.path.exists(HAY):
     check(not hres['BB38'], 'BB38 Haydock: none')
     check(not hres['BB39'], 'BB39 Haydock: none')
     check({(c['runner'], c['body']) for c in hres['BB40']} == {('07 Ishvara', 'Rahu')}, 'BB40 Haydock holders')
+    check({(c['runner'], c['body']) for c in hres['BB41']} == {('07 Ishvara', 'Vesta')}, 'BB41 Haydock holders')
+    iv = [x for c in hres['BB41'] for x in c['cells']]
+    ivn = [n for c in hres['BB41'] for n in c['notes']]
+    for w in ('H Antares – H Vesta Dec contraparallel 0.153351', 'J Antares – J Vesta Dec 25.012800', 'S Eris – S Antares Dec 25.002977',
+              'S Eris → J Vesta Dec 0.010058', 'S Moon – S Vesta Dec 46.936470', 'S Moon → H Vesta RA 177.621190', 'S Moon → J Vesta Dec 22.684496'):
+        check(any(x.startswith(w) for x in iv), f'BB41 Ishvara Vesta cell {w}')
+    check(any('royal star is a pair end' in n for n in ivn) and any('contraparallel royal line' in n or 'is a contraparallel' in n for n in ivn),
+          'BB41 Ishvara notes (royal end, contraparallel line)')
     rc = [x for c in hres['BB40'] for x in c['cells']]
     for w in ('S Rahu → H Rahu Dec 13.009928', 'S Mercury – S Transpluto Dec 12.996052', 'S Mercury – S Rahu RA 13.317469',
               'S Transpluto → J Rahu Dec 0.989868', 'S Sun → J Rahu Dec 12.984017'):
@@ -276,6 +285,16 @@ if os.path.exists(BEV):
     check(any('both planes' in n for n in pn) and any('0.0013' in n for n in pn) and any('third royal star' in n for n in pn),
           'BB32b Perfect Part watch notes (both planes, gap 0.0013, third royal star)')
 lres = R.run(XLSX)[2]
+YORK = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', '20240515_york_1545', '20240515_york_1545_bybody.xlsx')
+yres = R.run(YORK)[2]
+check({(c['runner'], c['body']) for c in yres['BB41']} == {('06 Secret Satire', 'Sun')}, 'BB41 York holders')
+yc = [x for c in yres['BB41'] for x in c['cells']]
+yn = [n for c in yres['BB41'] for n in c['notes']]
+for w in ('H Antares – H Sun Dec 33.335828', 'S Eris – S Sedna RA 33.318658', 'S Eris – S Sun Dec 19.435910', 'S Sedna → H Sun RA 43.994394',
+          'J Fomalhaut – J Sun RA 179.631802', 'S Chiron – S Makemake RA 179.671846', 'S Chiron – S Sun Dec 9.683393',
+          'S Makemake → J Sun Dec 15.574470', 'S Moon – S Sun Dec 3.214660', 'S Moon → H Sun Dec 8.873957', 'S Moon → J Sun RA 14.437279'):
+    check(any(x.startswith(w) for x in yc), f'BB41 Secret Satire Sun cell {w}')
+check(any('H Sun – J Sun Dec 0.414204' in n for n in yn) and not any('S Ketu – S Juno' in x for x in yc), 'BB41 Secret Satire notes / open pair left out')
 check({(c['runner'], c['body']) for c in lres['BB34'] if any('Sedna is an end' in n for n in c['notes'])} == {('05 Pholas', 'Mercury')}, 'BB34 Lingfield Sedna note on Pholas Mercury')
 print(f'{ok}/{ok + bad} checks passed')
 sys.exit(1 if bad else 0)

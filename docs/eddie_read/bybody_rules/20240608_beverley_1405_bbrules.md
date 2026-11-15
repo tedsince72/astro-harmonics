@@ -1,4 +1,4 @@
-# 20240608_beverley_1405 — body-by-body rules BB1-BB40
+# 20240608_beverley_1405 — body-by-body rules BB1-BB41
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -45,6 +45,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB38 | 1 | 1 | 15 Perfect Part |  |
 | BB39 | 1 | 1 | 15 Perfect Part |  |
 | BB40 | 1 | 1 | 15 Perfect Part |  |
+| BB41 | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1459,4 +1460,12 @@ Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Sedna (also holds: Haydock 1
 - WATCH two or more royal stars on sky Sedna: S Fomalhaut – S Sedna RA 76.113020 φ⁹ phi power (12.41); S Regulus – S Sedna Dec 3.260473 2×φ golden (24.68)
 - WATCH a royal natal line with a ratio on a cut: H Fomalhaut – H Sedna Dec 37.886837 (no family) crossed ratio vs S Sedna → H Sedna RA 1.902455 = 19.914709 20 1/20 cut (14.71)
 - lights on Sedna: S Sun → J Sedna Dec 17.942849 φ⁶ phi power (94.71)
+
+## BB41 — royal-star line on X closed in both charts, and the Moon on sky X and both natal X
+
+Rule: In each chart (horse and jockey) a natal royal-star line on X scores (H R – H X / J R – J X; conj / contraparallel included), and a sky pair S A – S B on its target (the pair not naming X or the Moon) closes it: one end on sky X (S A – S X) and the other end on natal X in that same chart (S B → H X for the horse line, S B → J X for the jockey line); any plane, any score. And the Moon is on sky X (S Moon – S X), on H X (S Moon → H X) and on J X (S Moon → J X). WATCH, noted not required: H X – J X scores; a royal star as a pair end; a conj / contraparallel royal line.
+
+Origin: York 15:45 15 May 2024, 6 Secret Satire, Sun (also holds: Haydock 13:45 8 Jun 2020, 7 Ishvara, Vesta)
+
+No runner holds it.
 

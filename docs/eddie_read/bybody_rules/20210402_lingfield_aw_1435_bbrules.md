@@ -1,4 +1,4 @@
-# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB40
+# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB41
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -45,6 +45,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB38 | 0 | 0 | - |  |
 | BB39 | 1 | 1 | 05 Pholas |  |
 | BB40 | 0 | 0 | - |  |
+| BB41 | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -700,6 +701,14 @@ Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Makemake (also holds: Lingfi
 Rule: A same-body line S X → H X (or J X) has a sky pair S A – S B on its target (the pair not naming X, the Sun or the Moon). One end, A, is on sky X (S A – S X, any plane, any score); the other end, B, is on natal X in the other chart (S B → J X, or H X; any plane, any score). The Sun is on that same natal X (S Sun → J X, or H X; any plane) on the same family and target as B's line or as the pair. WATCH, noted not required: two or more royal stars on sky X; a royal natal line on X whose same-body or crossed ratio is on a cut.
 
 Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Sedna (also holds: Haydock 13:45 8 Jun 2020, 7 Ishvara, Rahu)
+
+No runner holds it.
+
+## BB41 — royal-star line on X closed in both charts, and the Moon on sky X and both natal X
+
+Rule: In each chart (horse and jockey) a natal royal-star line on X scores (H R – H X / J R – J X; conj / contraparallel included), and a sky pair S A – S B on its target (the pair not naming X or the Moon) closes it: one end on sky X (S A – S X) and the other end on natal X in that same chart (S B → H X for the horse line, S B → J X for the jockey line); any plane, any score. And the Moon is on sky X (S Moon – S X), on H X (S Moon → H X) and on J X (S Moon → J X). WATCH, noted not required: H X – J X scores; a royal star as a pair end; a conj / contraparallel royal line.
+
+Origin: York 15:45 15 May 2024, 6 Secret Satire, Sun (also holds: Haydock 13:45 8 Jun 2020, 7 Ishvara, Vesta)
 
 No runner holds it.
 
