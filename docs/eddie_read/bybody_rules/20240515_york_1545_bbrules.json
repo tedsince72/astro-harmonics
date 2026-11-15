@@ -1973,6 +1973,104 @@
     "watch_only": false
    }
   ],
-  "BB52": []
+  "BB52": [],
+  "BB53": [
+   {
+    "runner": "01 Classical Song",
+    "body": "Uranus",
+    "cells": [
+     "S Neptune – S Uranus RA 50.999134 51 whole (95.67)",
+     "J Antares – J Uranus Dec 11.003946 11 whole (80.27)",
+     "J Fomalhaut – J Neptune Dec 11.009843 11 whole (50.78)"
+    ],
+    "notes": [
+     "S Neptune – S Uranus RA 51 whole: J Antares – J Uranus Dec and, on Neptune, J Fomalhaut – J Neptune Dec both 11"
+    ],
+    "lights": [
+     "S Sun – S Uranus RA 1.997918 2 whole (89.59)",
+     "S Sun → H Uranus Dec 4.144940 4.14 silver (54.86)",
+     "S Moon → H Uranus RA 111.309844 111.111 ninth (10.57)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "01 Classical Song",
+    "body": "Neptune",
+    "cells": [
+     "S Uranus – S Neptune RA 50.999134 51 whole (95.67)",
+     "J Fomalhaut – J Neptune Dec 11.009843 11 whole (50.78)",
+     "J Antares – J Uranus Dec 11.003946 11 whole (80.27)"
+    ],
+    "notes": [
+     "S Uranus – S Neptune RA 51 whole: J Fomalhaut – J Neptune Dec and, on Uranus, J Antares – J Uranus Dec both 11"
+    ],
+    "lights": [
+     "S Sun – S Neptune RA 52.997052 53 whole (85.26)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "04 La Pasionaria",
+    "body": "Pluto",
+    "cells": [
+     "S Quaoar – S Pluto Dec 7.772359 7.77778 ninth (65.16)",
+     "J Regulus – J Pluto RA 88.877837 88.8889 ninth (93.78)",
+     "J Regulus – J Quaoar RA 88.804054 88.8889 ninth (52.28)"
+    ],
+    "notes": [
+     "S Quaoar – S Pluto Dec 7.77778 ninth: J Regulus – J Pluto RA and, on Quaoar, J Regulus – J Quaoar RA both 88.8889"
+    ],
+    "lights": [
+     "S Moon → H Pluto Dec 37.989539 38 whole (47.7)",
+     "S Moon → J Pluto RA 90.616905 56×φ golden (78.39)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "04 La Pasionaria",
+    "body": "Orcus",
+    "cells": [
+     "S Quaoar – S Orcus RA 122.321615 122.222 ninth (59.34)",
+     "J Aldebaran – J Orcus Dec 15.575394 15.5556 ninth (36.24)",
+     "J Fomalhaut – J Quaoar Dec 15.530302 15.5556 ninth (18.83)"
+    ],
+    "notes": [
+     "S Quaoar – S Orcus RA 122.222 ninth: J Aldebaran – J Orcus Dec and, on Quaoar, J Fomalhaut – J Quaoar Dec both 15.5556"
+    ],
+    "lights": [],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "04 La Pasionaria",
+    "body": "Quaoar",
+    "cells": [
+     "S Pluto – S Quaoar Dec 7.772359 7.77778 ninth (65.16)",
+     "J Regulus – J Quaoar RA 88.804054 88.8889 ninth (52.28)",
+     "J Regulus – J Pluto RA 88.877837 88.8889 ninth (93.78)",
+     "S Orcus – S Quaoar RA 122.321615 122.222 ninth (59.34)",
+     "J Fomalhaut – J Quaoar Dec 15.530302 15.5556 ninth (18.83)",
+     "J Aldebaran – J Orcus Dec 15.575394 15.5556 ninth (36.24)"
+    ],
+    "notes": [
+     "S Pluto – S Quaoar Dec 7.77778 ninth: J Regulus – J Quaoar RA and, on Pluto, J Regulus – J Pluto RA both 88.8889",
+     "S Orcus – S Quaoar RA 122.222 ninth: J Fomalhaut – J Quaoar Dec and, on Orcus, J Aldebaran – J Orcus Dec both 15.5556"
+    ],
+    "lights": [
+     "S Sun – S Quaoar Dec 33.984509 21×φ golden (82.11)",
+     "S Moon – S Quaoar Dec 30.769849 19×φ golden (16.04)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ]
  }
 }

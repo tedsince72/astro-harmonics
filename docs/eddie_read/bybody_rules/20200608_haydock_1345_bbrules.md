@@ -1,4 +1,4 @@
-# 20200608_haydock_1345 — body-by-body rules BB1-BB52
+# 20200608_haydock_1345 — body-by-body rules BB1-BB53
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -57,6 +57,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB50 | 1 | 1 | 07 Ishvara |  |
 | BB51 | 1 | 1 | 07 Ishvara |  |
 | BB52 | 0 | 0 | - |  |
+| BB53 | 2 | 1 | 03 Never In Paris |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1239,11 +1240,31 @@ Origin: York 16:15 15 May 2024, 13 Diligent Resdev, Venus (H Antares – H Venus
 - Antares in both charts: H Antares – H Mercury Dec carried by S Gonggong – S Aldebaran Dec | J Antares – J Mercury RA carried by S Gonggong – S Haumea RA; Gonggong in both, on sky Mercury
 - lights on Mercury: S Sun – S Mercury Dec 1.001903 1 whole (90.49); S Moon – S Mercury Dec 47.990929 48 whole (54.65); S Moon – S Mercury Dec contraparallel 0.218065 cp contraparallel (27.31)
 
-## BB52 — 
+## BB52 — One sky line between X and Y on a royal natal line of each end
+
+Rule: A scoring royal natal line to X (c R – c X; conj / contraparallel not counted; any chart and plane) is carried by the sky line S X – S Y itself (a 'Sky lines on the same target' row naming X; Y not a royal star or the Moon; the line not conj / contraparallel), and in Y's sheet the same sky line (same plane) carries a royal natal line to Y (c' R' – c' Y, not conj / contraparallel). Held on both bodies X and Y. Any score.
+
+Origin: York 16:15 15 May 2024, 13 Diligent Resdev, Uranus and Venus (S Venus – S Uranus RA 2×φ 3.2342 (94.2) carries H Antares – H Venus Dec 2×φ 3.2650 and H Aldebaran – H Uranus Dec 2×φ 3.2653) (Eddie, 15 Nov 2026: 'build this and I also like the concept behind it'). One origin winner only: no other runner of the seven races holds it.
+
+No runner holds it.
+
+## BB53 — 
 
 Rule: 
 
 Origin: 
 
-No runner holds it.
+### 03 Never In Paris — Vesta (only)
+- S Chiron – S Vesta RA 85.015574 85 whole (22.13)
+- J Antares – J Vesta RA 20.009517 20 whole (52.42)
+- J Regulus – J Chiron Dec 19.997402 20 whole (87.01)
+- S Chiron – S Vesta RA 85 whole: J Antares – J Vesta RA and, on Chiron, J Regulus – J Chiron Dec both 20
+- lights on Vesta: S Sun – S Vesta Dec 0.052556 conj conj (82.48); S Moon – S Vesta Dec 46.936470 29×φ golden (58.38); S Moon – S Vesta RA 156.969749 97×φ golden (36.88); S Sun → H Vesta Dec 3.263659 2×φ golden (14.84); S Sun → J Vesta RA 150.493764 93×φ golden (48.76)
+
+### 03 Never In Paris — Chiron (only)
+- S Vesta – S Chiron RA 85.015574 85 whole (22.13)
+- J Regulus – J Chiron Dec 19.997402 20 whole (87.01)
+- J Antares – J Vesta RA 20.009517 20 whole (52.42)
+- S Vesta – S Chiron RA 85 whole: J Regulus – J Chiron Dec and, on Vesta, J Antares – J Vesta RA both 20
+- lights on Chiron: S Sun → H Chiron RA 84.120297 52×φ golden (46.08)
 

@@ -901,3 +901,12 @@ L1 royal -> X on the sky X – Y target, royal -> Y same family: 1, 1/6; 6, 6/10
 2, 1/10; 6, 3/13 (Perfect Part Sun - Makemake: J Aldebaran – J Sun RA 22.2222 = J Regulus – J Makemake Dec 22.2222, S Sun – S Makemake RA
 ninth 122.222); 4, 2/5; 2, 1/8; 5, 2/7; 9, 4/15 (Diligent Resdev Venus, Uranus, Rahu: H Aldebaran – H Rahu Dec 4×φ = H Fomalhaut – H Venus Dec
 4×φ, S Venus – S Rahu RA 21×φ). L4 both royal lines in the sky line's family: every runner (background).
+
+## BB53 — BB52 loosened, version L2 (15 Nov 2026, built: Eddie "yes, please build")
+Rule: a scored sky line S X – S Y (Y not royal, not the Moon; not conj / cp), a royal natal line to X and one to Y on the same family and
+target, the sky line in that family. Holders (runners / field): Lingfield 1/6 (Shimmering Dawn), Haydock 1/10 (Never In Paris), Beverley
+3/13 (Over Spiced, Powerful Lady, Perfect Part W), Catterick 2/5, Chelmsford 1/8, York 15:45 2/7 (Classical Song, La Pasionaria), York 16:15
+4/15 (Mortlake, Respectful, Quiet Resolve, Diligent Resdev W). Both origin winners in-sample; later races: none yet.
+Multiples checked first (tools/scans/bb_fieldcheck_sky_line_royal_multiples.py), not built: M1 royal -> X / royal -> Y on 3/2, 2 ... 9 (with
+or without unison) and M3 (M1 + sky line in a royal line's family) every runner in every race; M2 / M2b (each royal line a multiple of the
+sky line) 3/6, 6/10, 8/13, 1/5, 3/8, 4/7, 10/15 runners (all origin winners but Pholas).

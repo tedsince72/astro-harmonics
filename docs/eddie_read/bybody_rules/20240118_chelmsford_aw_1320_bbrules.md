@@ -1,4 +1,4 @@
-# 20240118_chelmsford_aw_1320 — body-by-body rules BB1-BB52
+# 20240118_chelmsford_aw_1320 — body-by-body rules BB1-BB53
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -57,6 +57,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB50 | 0 | 0 | - |  |
 | BB51 | 0 | 0 | - |  |
 | BB52 | 0 | 0 | - |  |
+| BB53 | 2 | 1 | 08 Duveen |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -826,11 +827,31 @@ Origin: York 16:15 15 May 2024, 13 Diligent Resdev, Venus (H Antares – H Venus
 
 No runner holds it.
 
-## BB52 — 
+## BB52 — One sky line between X and Y on a royal natal line of each end
+
+Rule: A scoring royal natal line to X (c R – c X; conj / contraparallel not counted; any chart and plane) is carried by the sky line S X – S Y itself (a 'Sky lines on the same target' row naming X; Y not a royal star or the Moon; the line not conj / contraparallel), and in Y's sheet the same sky line (same plane) carries a royal natal line to Y (c' R' – c' Y, not conj / contraparallel). Held on both bodies X and Y. Any score.
+
+Origin: York 16:15 15 May 2024, 13 Diligent Resdev, Uranus and Venus (S Venus – S Uranus RA 2×φ 3.2342 (94.2) carries H Antares – H Venus Dec 2×φ 3.2650 and H Aldebaran – H Uranus Dec 2×φ 3.2653) (Eddie, 15 Nov 2026: 'build this and I also like the concept behind it'). One origin winner only: no other runner of the seven races holds it.
+
+No runner holds it.
+
+## BB53 — 
 
 Rule: 
 
 Origin: 
 
-No runner holds it.
+### 08 Duveen — Gonggong (only)
+- S Transpluto – S Gonggong Dec 21.060582 13×φ golden (19.32)
+- J Aldebaran – J Gonggong Dec 37.211805 23×φ golden (90.81)
+- H Antares – H Transpluto Dec 37.219030 23×φ golden (86.89)
+- S Transpluto – S Gonggong Dec 13×φ golden: J Aldebaran – J Gonggong Dec and, on Transpluto, H Antares – H Transpluto Dec both 23×φ
+- lights on Gonggong: S Sun – S Gonggong Dec 9.711737 6×φ golden (89.1); S Moon → H Gonggong RA 53.998851 54 whole (94.26); S Sun → J Gonggong Dec 0.059675 conj conj (80.11)
+
+### 08 Duveen — Transpluto (only)
+- S Gonggong – S Transpluto Dec 21.060582 13×φ golden (19.32)
+- H Antares – H Transpluto Dec 37.219030 23×φ golden (86.89)
+- J Aldebaran – J Gonggong Dec 37.211805 23×φ golden (90.81)
+- S Gonggong – S Transpluto Dec 13×φ golden: H Antares – H Transpluto Dec and, on Gonggong, J Aldebaran – J Gonggong Dec both 23×φ
+- lights on Transpluto: S Sun – S Transpluto RA 144.014804 89×φ golden (69.82); S Sun – S Transpluto Dec 30.772319 19×φ golden (8.42); S Sun → J Transpluto RA 155.330219 96×φ golden (96.78)
 

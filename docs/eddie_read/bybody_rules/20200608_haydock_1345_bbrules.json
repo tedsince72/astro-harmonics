@@ -2090,6 +2090,48 @@
     "watch_only": false
    }
   ],
-  "BB52": []
+  "BB52": [],
+  "BB53": [
+   {
+    "runner": "03 Never In Paris",
+    "body": "Vesta",
+    "cells": [
+     "S Chiron – S Vesta RA 85.015574 85 whole (22.13)",
+     "J Antares – J Vesta RA 20.009517 20 whole (52.42)",
+     "J Regulus – J Chiron Dec 19.997402 20 whole (87.01)"
+    ],
+    "notes": [
+     "S Chiron – S Vesta RA 85 whole: J Antares – J Vesta RA and, on Chiron, J Regulus – J Chiron Dec both 20"
+    ],
+    "lights": [
+     "S Sun – S Vesta Dec 0.052556 conj conj (82.48)",
+     "S Moon – S Vesta Dec 46.936470 29×φ golden (58.38)",
+     "S Moon – S Vesta RA 156.969749 97×φ golden (36.88)",
+     "S Sun → H Vesta Dec 3.263659 2×φ golden (14.84)",
+     "S Sun → J Vesta RA 150.493764 93×φ golden (48.76)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "03 Never In Paris",
+    "body": "Chiron",
+    "cells": [
+     "S Vesta – S Chiron RA 85.015574 85 whole (22.13)",
+     "J Regulus – J Chiron Dec 19.997402 20 whole (87.01)",
+     "J Antares – J Vesta RA 20.009517 20 whole (52.42)"
+    ],
+    "notes": [
+     "S Vesta – S Chiron RA 85 whole: J Regulus – J Chiron Dec and, on Vesta, J Antares – J Vesta RA both 20"
+    ],
+    "lights": [
+     "S Sun → H Chiron RA 84.120297 52×φ golden (46.08)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ]
  }
 }

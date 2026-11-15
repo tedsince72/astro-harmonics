@@ -1,4 +1,4 @@
-# 20240608_beverley_1405 — body-by-body rules BB1-BB52
+# 20240608_beverley_1405 — body-by-body rules BB1-BB53
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -57,6 +57,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB50 | 2 | 2 | 01 Aviation Time, 08 Maw Lam |  |
 | BB51 | 0 | 0 | - |  |
 | BB52 | 0 | 0 | - |  |
+| BB53 | 6 | 3 | 10 Over Spiced, 11 Powerful Lady, 15 Perfect Part |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1668,11 +1669,58 @@ Origin: York 16:15 15 May 2024, 13 Diligent Resdev, Venus (H Antares – H Venus
 
 No runner holds it.
 
-## BB52 — 
+## BB52 — One sky line between X and Y on a royal natal line of each end
+
+Rule: A scoring royal natal line to X (c R – c X; conj / contraparallel not counted; any chart and plane) is carried by the sky line S X – S Y itself (a 'Sky lines on the same target' row naming X; Y not a royal star or the Moon; the line not conj / contraparallel), and in Y's sheet the same sky line (same plane) carries a royal natal line to Y (c' R' – c' Y, not conj / contraparallel). Held on both bodies X and Y. Any score.
+
+Origin: York 16:15 15 May 2024, 13 Diligent Resdev, Uranus and Venus (S Venus – S Uranus RA 2×φ 3.2342 (94.2) carries H Antares – H Venus Dec 2×φ 3.2650 and H Aldebaran – H Uranus Dec 2×φ 3.2653) (Eddie, 15 Nov 2026: 'build this and I also like the concept behind it'). One origin winner only: no other runner of the seven races holds it.
+
+No runner holds it.
+
+## BB53 — 
 
 Rule: 
 
 Origin: 
 
-No runner holds it.
+### 10 Over Spiced — Sun (also: 11 Powerful Lady, 15 Perfect Part)
+- S Rahu – S Sun Dec 17.744492 17.7778 ninth (6.38)
+- J Regulus – J Sun RA 166.917198 166.667 ninth (24.84)
+- J Regulus – J Rahu RA 166.979293 166.667 ninth (6.21)
+- S Rahu – S Sun Dec 17.7778 ninth: J Regulus – J Sun RA and, on Rahu, J Regulus – J Rahu RA both 166.667
+
+### 10 Over Spiced — Rahu (also: 11 Powerful Lady, 15 Perfect Part)
+- S Sun – S Rahu Dec 17.744492 17.7778 ninth (6.38)
+- J Regulus – J Rahu RA 166.979293 166.667 ninth (6.21)
+- J Regulus – J Sun RA 166.917198 166.667 ninth (24.84)
+- S Sun – S Rahu Dec 17.7778 ninth: J Regulus – J Rahu RA and, on Sun, J Regulus – J Sun RA both 166.667
+- lights on Rahu: S Moon – S Rahu Dec 22.243758 22.2222 ninth (51.54); S Sun – S Rahu Dec 17.744492 17.7778 ninth (6.38); S Moon → J Rahu RA 146.003330 146 whole (83.35)
+
+### 11 Powerful Lady — Mercury (also: 10 Over Spiced, 15 Perfect Part)
+- S Chiron – S Mercury Dec 12.216899 12.2222 ninth (78.22)
+- J Aldebaran – J Mercury RA 122.307333 122.222 ninth (65.18)
+- H Antares – H Chiron RA 122.158426 122.222 ninth (73.9)
+- S Chiron – S Mercury Dec 12.2222 ninth: J Aldebaran – J Mercury RA and, on Chiron, H Antares – H Chiron RA both 122.222
+- HIGHLIGHT same digits a decade apart: 12.2222 (S Chiron – S Mercury) / 122.222 (J Aldebaran – J Mercury)
+
+### 11 Powerful Lady — Chiron (also: 10 Over Spiced, 15 Perfect Part)
+- S Mercury – S Chiron Dec 12.216899 12.2222 ninth (78.22)
+- H Antares – H Chiron RA 122.158426 122.222 ninth (73.9)
+- J Aldebaran – J Mercury RA 122.307333 122.222 ninth (65.18)
+- S Mercury – S Chiron Dec 12.2222 ninth: H Antares – H Chiron RA and, on Mercury, J Aldebaran – J Mercury RA both 122.222
+- HIGHLIGHT same digits a decade apart: 12.2222 (S Mercury – S Chiron) / 122.222 (H Antares – H Chiron)
+- lights on Chiron: S Sun → H Chiron Dec 16.636801 16.6667 ninth (10.4)
+
+### 15 Perfect Part — Sun (also: 10 Over Spiced, 11 Powerful Lady)
+- S Makemake – S Sun RA 122.336114 122.222 ninth (53.41)
+- J Aldebaran – J Sun RA 22.244169 22.2222 ninth (50.62)
+- J Regulus – J Makemake Dec 22.220684 22.2222 ninth (96.54)
+- S Makemake – S Sun RA 122.222 ninth: J Aldebaran – J Sun RA and, on Makemake, J Regulus – J Makemake Dec both 22.2222
+
+### 15 Perfect Part — Makemake (also: 10 Over Spiced, 11 Powerful Lady)
+- S Sun – S Makemake RA 122.336114 122.222 ninth (53.41)
+- J Regulus – J Makemake Dec 22.220684 22.2222 ninth (96.54)
+- J Aldebaran – J Sun RA 22.244169 22.2222 ninth (50.62)
+- S Sun – S Makemake RA 122.222 ninth: J Regulus – J Makemake Dec and, on Sun, J Aldebaran – J Sun RA both 22.2222
+- lights on Makemake: S Sun – S Makemake RA 122.336114 122.222 ninth (53.41); S Sun → H Makemake Dec 0.106418 conj conj (64.53); S Sun → J Makemake Dec 11.304415 7×φ golden (32.65)
 

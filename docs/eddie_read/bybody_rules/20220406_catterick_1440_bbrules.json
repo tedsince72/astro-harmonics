@@ -955,6 +955,90 @@
   "BB49": [],
   "BB50": [],
   "BB51": [],
-  "BB52": []
+  "BB52": [],
+  "BB53": [
+   {
+    "runner": "02 Beluga Gold",
+    "body": "Chiron",
+    "cells": [
+     "S Gonggong – S Chiron RA 33.346535 33.3333 ninth (80.2)",
+     "J Fomalhaut – J Chiron RA 177.522750 177.778 ninth (28.27)",
+     "J Regulus – J Gonggong RA 178.112820 177.778 ninth (5.77)",
+     "S Gonggong – S Chiron Dec 17.747921 17.7778 ninth (16.03)"
+    ],
+    "notes": [
+     "S Gonggong – S Chiron RA 33.3333 ninth: J Fomalhaut – J Chiron RA and, on Gonggong, J Regulus – J Gonggong RA both 177.778",
+     "S Gonggong – S Chiron Dec 17.7778 ninth: J Fomalhaut – J Chiron RA and, on Gonggong, J Regulus – J Gonggong RA both 177.778"
+    ],
+    "lights": [
+     "S Moon – S Chiron Dec 17.777129 17.7778 ninth (98.17)",
+     "S Sun – S Chiron Dec 0.204340 conj conj (31.89)",
+     "S Sun → H Chiron RA 14.434050 14.4444 ninth (64.02)"
+    ],
+    "decade": [
+     "177.778 (J Fomalhaut – J Chiron) / 17.7778 (S Gonggong – S Chiron)"
+    ],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "02 Beluga Gold",
+    "body": "Gonggong",
+    "cells": [
+     "S Chiron – S Gonggong RA 33.346535 33.3333 ninth (80.2)",
+     "J Regulus – J Gonggong RA 178.112820 177.778 ninth (5.77)",
+     "J Fomalhaut – J Chiron RA 177.522750 177.778 ninth (28.27)",
+     "S Chiron – S Gonggong Dec 17.747921 17.7778 ninth (16.03)"
+    ],
+    "notes": [
+     "S Chiron – S Gonggong RA 33.3333 ninth: J Regulus – J Gonggong RA and, on Chiron, J Fomalhaut – J Chiron RA both 177.778",
+     "S Chiron – S Gonggong Dec 17.7778 ninth: J Regulus – J Gonggong RA and, on Chiron, J Fomalhaut – J Chiron RA both 177.778"
+    ],
+    "lights": [],
+    "decade": [
+     "177.778 (J Regulus – J Gonggong) / 17.7778 (S Chiron – S Gonggong)"
+    ],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "03 Capuchinero",
+    "body": "Mercury",
+    "cells": [
+     "S Haumea – S Mercury RA 161.892663 100φ phi power (63.22)",
+     "H Fomalhaut – H Mercury Dec 29.038063 φ⁷ phi power (91.69)",
+     "J Regulus – J Haumea RA 29.039401 φ⁷ phi power (88.61)"
+    ],
+    "notes": [
+     "S Haumea – S Mercury RA 100φ phi power: H Fomalhaut – H Mercury Dec and, on Haumea, J Regulus – J Haumea RA both φ⁷"
+    ],
+    "lights": [
+     "S Moon – S Mercury RA 57.004480 57 whole (77.6)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "03 Capuchinero",
+    "body": "Haumea",
+    "cells": [
+     "S Mercury – S Haumea RA 161.892663 100φ phi power (63.22)",
+     "J Regulus – J Haumea RA 29.039401 φ⁷ phi power (88.61)",
+     "H Fomalhaut – H Mercury Dec 29.038063 φ⁷ phi power (91.69)"
+    ],
+    "notes": [
+     "S Mercury – S Haumea RA 100φ phi power: J Regulus – J Haumea RA and, on Mercury, H Fomalhaut – H Mercury Dec both φ⁷"
+    ],
+    "lights": [
+     "S Moon → H Haumea Dec 8.113177 5×φ golden (28.99)",
+     "S Sun → J Haumea RA 165.999760 166 whole (98.8)",
+     "S Moon → J Haumea RA 105.190607 65×φ golden (43.22)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ]
  }
 }

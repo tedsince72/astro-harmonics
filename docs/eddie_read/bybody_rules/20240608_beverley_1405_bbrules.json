@@ -2879,6 +2879,118 @@
    }
   ],
   "BB51": [],
-  "BB52": []
+  "BB52": [],
+  "BB53": [
+   {
+    "runner": "10 Over Spiced",
+    "body": "Sun",
+    "cells": [
+     "S Rahu – S Sun Dec 17.744492 17.7778 ninth (6.38)",
+     "J Regulus – J Sun RA 166.917198 166.667 ninth (24.84)",
+     "J Regulus – J Rahu RA 166.979293 166.667 ninth (6.21)"
+    ],
+    "notes": [
+     "S Rahu – S Sun Dec 17.7778 ninth: J Regulus – J Sun RA and, on Rahu, J Regulus – J Rahu RA both 166.667"
+    ],
+    "lights": [],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "10 Over Spiced",
+    "body": "Rahu",
+    "cells": [
+     "S Sun – S Rahu Dec 17.744492 17.7778 ninth (6.38)",
+     "J Regulus – J Rahu RA 166.979293 166.667 ninth (6.21)",
+     "J Regulus – J Sun RA 166.917198 166.667 ninth (24.84)"
+    ],
+    "notes": [
+     "S Sun – S Rahu Dec 17.7778 ninth: J Regulus – J Rahu RA and, on Sun, J Regulus – J Sun RA both 166.667"
+    ],
+    "lights": [
+     "S Moon – S Rahu Dec 22.243758 22.2222 ninth (51.54)",
+     "S Sun – S Rahu Dec 17.744492 17.7778 ninth (6.38)",
+     "S Moon → J Rahu RA 146.003330 146 whole (83.35)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "11 Powerful Lady",
+    "body": "Mercury",
+    "cells": [
+     "S Chiron – S Mercury Dec 12.216899 12.2222 ninth (78.22)",
+     "J Aldebaran – J Mercury RA 122.307333 122.222 ninth (65.18)",
+     "H Antares – H Chiron RA 122.158426 122.222 ninth (73.9)"
+    ],
+    "notes": [
+     "S Chiron – S Mercury Dec 12.2222 ninth: J Aldebaran – J Mercury RA and, on Chiron, H Antares – H Chiron RA both 122.222"
+    ],
+    "lights": [],
+    "decade": [
+     "12.2222 (S Chiron – S Mercury) / 122.222 (J Aldebaran – J Mercury)"
+    ],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "11 Powerful Lady",
+    "body": "Chiron",
+    "cells": [
+     "S Mercury – S Chiron Dec 12.216899 12.2222 ninth (78.22)",
+     "H Antares – H Chiron RA 122.158426 122.222 ninth (73.9)",
+     "J Aldebaran – J Mercury RA 122.307333 122.222 ninth (65.18)"
+    ],
+    "notes": [
+     "S Mercury – S Chiron Dec 12.2222 ninth: H Antares – H Chiron RA and, on Mercury, J Aldebaran – J Mercury RA both 122.222"
+    ],
+    "lights": [
+     "S Sun → H Chiron Dec 16.636801 16.6667 ninth (10.4)"
+    ],
+    "decade": [
+     "12.2222 (S Mercury – S Chiron) / 122.222 (H Antares – H Chiron)"
+    ],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "15 Perfect Part",
+    "body": "Sun",
+    "cells": [
+     "S Makemake – S Sun RA 122.336114 122.222 ninth (53.41)",
+     "J Aldebaran – J Sun RA 22.244169 22.2222 ninth (50.62)",
+     "J Regulus – J Makemake Dec 22.220684 22.2222 ninth (96.54)"
+    ],
+    "notes": [
+     "S Makemake – S Sun RA 122.222 ninth: J Aldebaran – J Sun RA and, on Makemake, J Regulus – J Makemake Dec both 22.2222"
+    ],
+    "lights": [],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "15 Perfect Part",
+    "body": "Makemake",
+    "cells": [
+     "S Sun – S Makemake RA 122.336114 122.222 ninth (53.41)",
+     "J Regulus – J Makemake Dec 22.220684 22.2222 ninth (96.54)",
+     "J Aldebaran – J Sun RA 22.244169 22.2222 ninth (50.62)"
+    ],
+    "notes": [
+     "S Sun – S Makemake RA 122.222 ninth: J Regulus – J Makemake Dec and, on Sun, J Aldebaran – J Sun RA both 22.2222"
+    ],
+    "lights": [
+     "S Sun – S Makemake RA 122.336114 122.222 ninth (53.41)",
+     "S Sun → H Makemake Dec 0.106418 conj conj (64.53)",
+     "S Sun → J Makemake Dec 11.304415 7×φ golden (32.65)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ]
  }
 }

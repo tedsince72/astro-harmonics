@@ -1,4 +1,4 @@
-# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB52
+# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB53
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -57,6 +57,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB50 | 0 | 0 | - |  |
 | BB51 | 0 | 0 | - |  |
 | BB52 | 0 | 0 | - |  |
+| BB53 | 3 | 1 | 06 Shimmering Dawn |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -826,11 +827,42 @@ Origin: York 16:15 15 May 2024, 13 Diligent Resdev, Venus (H Antares – H Venus
 
 No runner holds it.
 
-## BB52 — 
+## BB52 — One sky line between X and Y on a royal natal line of each end
+
+Rule: A scoring royal natal line to X (c R – c X; conj / contraparallel not counted; any chart and plane) is carried by the sky line S X – S Y itself (a 'Sky lines on the same target' row naming X; Y not a royal star or the Moon; the line not conj / contraparallel), and in Y's sheet the same sky line (same plane) carries a royal natal line to Y (c' R' – c' Y, not conj / contraparallel). Held on both bodies X and Y. Any score.
+
+Origin: York 16:15 15 May 2024, 13 Diligent Resdev, Uranus and Venus (S Venus – S Uranus RA 2×φ 3.2342 (94.2) carries H Antares – H Venus Dec 2×φ 3.2650 and H Aldebaran – H Uranus Dec 2×φ 3.2653) (Eddie, 15 Nov 2026: 'build this and I also like the concept behind it'). One origin winner only: no other runner of the seven races holds it.
+
+No runner holds it.
+
+## BB53 — 
 
 Rule: 
 
 Origin: 
 
-No runner holds it.
+### 06 Shimmering Dawn — Sun (only)
+- S Jupiter – S Sun Dec 19.418627 12×φ golden (93.15)
+- H Fomalhaut – H Sun RA 11.313970 7×φ golden (62.14)
+- H Aldebaran – H Jupiter Dec 11.303832 7×φ golden (30.85)
+- S Pallas – S Sun RA 37.184267 23×φ golden (5.82)
+- J Fomalhaut – J Sun Dec 42.042162 26×φ golden (17.53)
+- J Fomalhaut – J Pallas Dec 42.058125 26×φ golden (66.79)
+- S Jupiter – S Sun Dec 12×φ golden: H Fomalhaut – H Sun RA and, on Jupiter, H Aldebaran – H Jupiter Dec both 7×φ
+- S Pallas – S Sun RA 23×φ golden: J Fomalhaut – J Sun Dec and, on Pallas, J Fomalhaut – J Pallas Dec both 26×φ
+- lights on Sun: S Moon → H Sun Dec 12.950427 8×φ golden (81); S Moon → J Sun RA 133.281947 133.333 ninth (80.73)
+
+### 06 Shimmering Dawn — Jupiter (only)
+- S Sun – S Jupiter Dec 19.418627 12×φ golden (93.15)
+- H Aldebaran – H Jupiter Dec 11.303832 7×φ golden (30.85)
+- H Fomalhaut – H Sun RA 11.313970 7×φ golden (62.14)
+- S Sun – S Jupiter Dec 12×φ golden: H Aldebaran – H Jupiter Dec and, on Sun, H Fomalhaut – H Sun RA both 7×φ
+- lights on Jupiter: S Moon – S Jupiter RA 68.547364 10φ⁴ phi power (93.83); S Sun – S Jupiter Dec 19.418627 12×φ golden (93.15); S Sun → H Jupiter Dec 0.175496 conj conj (41.5); S Sun → J Jupiter Dec 9.012579 9 whole (37.1); S Moon → J Jupiter RA 140.980113 141 whole (0.56)
+
+### 06 Shimmering Dawn — Pallas (only)
+- S Sun – S Pallas RA 37.184267 23×φ golden (5.82)
+- J Fomalhaut – J Pallas Dec 42.058125 26×φ golden (66.79)
+- J Fomalhaut – J Sun Dec 42.042162 26×φ golden (17.53)
+- S Sun – S Pallas RA 23×φ golden: J Fomalhaut – J Pallas Dec and, on Sun, J Fomalhaut – J Sun Dec both 26×φ
+- lights on Pallas: S Moon – S Pallas Dec 27.992984 28 whole (64.92); S Sun – S Pallas RA 37.184267 23×φ golden (5.82)
 

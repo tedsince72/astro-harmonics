@@ -2698,6 +2698,182 @@
     "additive": [],
     "watch_only": false
    }
+  ],
+  "BB53": [
+   {
+    "runner": "01 Mortlake",
+    "body": "Uranus",
+    "cells": [
+     "S Neptune – S Uranus RA 50.999890 51 whole (99.45)",
+     "J Antares – J Uranus Dec 11.003946 11 whole (80.27)",
+     "J Fomalhaut – J Neptune Dec 11.009843 11 whole (50.78)"
+    ],
+    "notes": [
+     "S Neptune – S Uranus RA 51 whole: J Antares – J Uranus Dec and, on Neptune, J Fomalhaut – J Neptune Dec both 11"
+    ],
+    "lights": [
+     "S Moon – S Uranus RA 99.977440 100 ninth (88.72)",
+     "S Sun – S Uranus RA 2.017168 2 whole (14.16)",
+     "S Moon → J Uranus Dec contraparallel 0.262199 cp contraparallel (12.6)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "01 Mortlake",
+    "body": "Neptune",
+    "cells": [
+     "S Uranus – S Neptune RA 50.999890 51 whole (99.45)",
+     "J Fomalhaut – J Neptune Dec 11.009843 11 whole (50.78)",
+     "J Antares – J Uranus Dec 11.003946 11 whole (80.27)"
+    ],
+    "notes": [
+     "S Uranus – S Neptune RA 51 whole: J Fomalhaut – J Neptune Dec and, on Uranus, J Antares – J Uranus Dec both 11"
+    ],
+    "lights": [
+     "S Sun – S Neptune RA 53.017058 53 whole (14.71)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "05 Respectful",
+    "body": "Venus",
+    "cells": [
+     "S Rahu – S Venus RA 33.951817 21×φ golden (16.99)",
+     "J Fomalhaut – J Venus RA 48.555706 30×φ golden (54.67)",
+     "H Antares – H Rahu Dec 48.551812 30×φ golden (66.69)"
+    ],
+    "notes": [
+     "S Rahu – S Venus RA 21×φ golden: J Fomalhaut – J Venus RA and, on Rahu, H Antares – H Rahu Dec both 30×φ"
+    ],
+    "lights": [],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "05 Respectful",
+    "body": "Rahu",
+    "cells": [
+     "S Venus – S Rahu RA 33.951817 21×φ golden (16.99)",
+     "H Antares – H Rahu Dec 48.551812 30×φ golden (66.69)",
+     "J Fomalhaut – J Venus RA 48.555706 30×φ golden (54.67)"
+    ],
+    "notes": [
+     "S Venus – S Rahu RA 21×φ golden: H Antares – H Rahu Dec and, on Venus, J Fomalhaut – J Venus RA both 30×φ"
+    ],
+    "lights": [
+     "S Moon → H Rahu RA 80.889399 50×φ golden (62.04)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "12 Quiet Resolve",
+    "body": "Haumea",
+    "cells": [
+     "S Quaoar – S Haumea RA 61.488468 38×φ golden (90.2)",
+     "H Antares – H Haumea RA 30.763025 19×φ golden (37.1)",
+     "J Aldebaran – J Quaoar Dec 30.772762 19×φ golden (7.05)"
+    ],
+    "notes": [
+     "S Quaoar – S Haumea RA 38×φ golden: H Antares – H Haumea RA and, on Quaoar, J Aldebaran – J Quaoar Dec both 19×φ"
+    ],
+    "lights": [
+     "S Moon → H Haumea Dec 0.026977 conj conj (91.01)",
+     "S Sun → H Haumea RA 164.004717 164 whole (76.42)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "12 Quiet Resolve",
+    "body": "Quaoar",
+    "cells": [
+     "S Haumea – S Quaoar RA 61.488468 38×φ golden (90.2)",
+     "J Aldebaran – J Quaoar Dec 30.772762 19×φ golden (7.05)",
+     "H Antares – H Haumea RA 30.763025 19×φ golden (37.1)"
+    ],
+    "notes": [
+     "S Haumea – S Quaoar RA 38×φ golden: J Aldebaran – J Quaoar Dec and, on Haumea, H Antares – H Haumea RA both 19×φ"
+    ],
+    "lights": [
+     "S Sun – S Quaoar Dec 33.989290 21×φ golden (67.36)",
+     "S Moon → H Quaoar Dec contraparallel 0.239336 cp contraparallel (20.22)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "13 Diligent Resdev",
+    "body": "Venus",
+    "cells": [
+     "S Uranus – S Venus RA 3.234200 2×φ golden (94.23)",
+     "H Antares – H Venus Dec 3.265036 2×φ golden (10.59)",
+     "H Aldebaran – H Uranus Dec 3.265338 2×φ golden (9.66)",
+     "S Rahu – S Venus RA 33.951817 21×φ golden (16.99)",
+     "H Fomalhaut – H Venus Dec 6.460070 4×φ golden (62.76)",
+     "H Aldebaran – H Rahu Dec 6.493563 4×φ golden (33.87)"
+    ],
+    "notes": [
+     "S Uranus – S Venus RA 2×φ golden: H Antares – H Venus Dec and, on Uranus, H Aldebaran – H Uranus Dec both 2×φ",
+     "S Rahu – S Venus RA 21×φ golden: H Fomalhaut – H Venus Dec and, on Rahu, H Aldebaran – H Rahu Dec both 4×φ"
+    ],
+    "lights": [
+     "S Moon → H Venus Dec 38.857368 24×φ golden (24.22)",
+     "S Moon → J Venus RA 141.223697 141.4 sqrt2 (6.82)"
+    ],
+    "decade": [],
+    "additive": [
+     "WATCH additive step (Dec): 4×φ = 2×φ + 2×φ (H Fomalhaut – H Venus; H Antares – H Venus; H Aldebaran – H Uranus)",
+     "WATCH additive step (Dec): 4×φ = 2×φ + 2×φ (H Aldebaran – H Rahu; H Antares – H Venus; H Aldebaran – H Uranus)"
+    ],
+    "watch_only": false
+   },
+   {
+    "runner": "13 Diligent Resdev",
+    "body": "Uranus",
+    "cells": [
+     "S Venus – S Uranus RA 3.234200 2×φ golden (94.23)",
+     "H Aldebaran – H Uranus Dec 3.265338 2×φ golden (9.66)",
+     "H Antares – H Venus Dec 3.265036 2×φ golden (10.59)"
+    ],
+    "notes": [
+     "S Venus – S Uranus RA 2×φ golden: H Aldebaran – H Uranus Dec and, on Venus, H Antares – H Venus Dec both 2×φ"
+    ],
+    "lights": [
+     "S Moon – S Uranus RA 99.977440 100 ninth (88.72)",
+     "S Sun – S Uranus RA 2.017168 2 whole (14.16)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "13 Diligent Resdev",
+    "body": "Rahu",
+    "cells": [
+     "S Venus – S Rahu RA 33.951817 21×φ golden (16.99)",
+     "H Aldebaran – H Rahu Dec 6.493563 4×φ golden (33.87)",
+     "H Fomalhaut – H Venus Dec 6.460070 4×φ golden (62.76)"
+    ],
+    "notes": [
+     "S Venus – S Rahu RA 21×φ golden: H Aldebaran – H Rahu Dec and, on Venus, H Fomalhaut – H Venus Dec both 4×φ"
+    ],
+    "lights": [
+     "S Sun → H Rahu Dec 4.005020 4 whole (74.9)",
+     "S Moon → J Rahu Dec contraparallel 0.163595 cp contraparallel (45.47)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
   ]
  }
 }

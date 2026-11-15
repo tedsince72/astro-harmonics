@@ -1,4 +1,4 @@
-# 20220406_catterick_1440 — body-by-body rules BB1-BB52
+# 20220406_catterick_1440 — body-by-body rules BB1-BB53
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -57,6 +57,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB50 | 0 | 0 | - |  |
 | BB51 | 0 | 0 | - |  |
 | BB52 | 0 | 0 | - |  |
+| BB53 | 4 | 2 | 02 Beluga Gold, 03 Capuchinero |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -806,11 +807,50 @@ Origin: York 16:15 15 May 2024, 13 Diligent Resdev, Venus (H Antares – H Venus
 
 No runner holds it.
 
-## BB52 — 
+## BB52 — One sky line between X and Y on a royal natal line of each end
+
+Rule: A scoring royal natal line to X (c R – c X; conj / contraparallel not counted; any chart and plane) is carried by the sky line S X – S Y itself (a 'Sky lines on the same target' row naming X; Y not a royal star or the Moon; the line not conj / contraparallel), and in Y's sheet the same sky line (same plane) carries a royal natal line to Y (c' R' – c' Y, not conj / contraparallel). Held on both bodies X and Y. Any score.
+
+Origin: York 16:15 15 May 2024, 13 Diligent Resdev, Uranus and Venus (S Venus – S Uranus RA 2×φ 3.2342 (94.2) carries H Antares – H Venus Dec 2×φ 3.2650 and H Aldebaran – H Uranus Dec 2×φ 3.2653) (Eddie, 15 Nov 2026: 'build this and I also like the concept behind it'). One origin winner only: no other runner of the seven races holds it.
+
+No runner holds it.
+
+## BB53 — 
 
 Rule: 
 
 Origin: 
 
-No runner holds it.
+### 02 Beluga Gold — Chiron (also: 03 Capuchinero)
+- S Gonggong – S Chiron RA 33.346535 33.3333 ninth (80.2)
+- J Fomalhaut – J Chiron RA 177.522750 177.778 ninth (28.27)
+- J Regulus – J Gonggong RA 178.112820 177.778 ninth (5.77)
+- S Gonggong – S Chiron Dec 17.747921 17.7778 ninth (16.03)
+- S Gonggong – S Chiron RA 33.3333 ninth: J Fomalhaut – J Chiron RA and, on Gonggong, J Regulus – J Gonggong RA both 177.778
+- S Gonggong – S Chiron Dec 17.7778 ninth: J Fomalhaut – J Chiron RA and, on Gonggong, J Regulus – J Gonggong RA both 177.778
+- HIGHLIGHT same digits a decade apart: 177.778 (J Fomalhaut – J Chiron) / 17.7778 (S Gonggong – S Chiron)
+- lights on Chiron: S Moon – S Chiron Dec 17.777129 17.7778 ninth (98.17); S Sun – S Chiron Dec 0.204340 conj conj (31.89); S Sun → H Chiron RA 14.434050 14.4444 ninth (64.02)
+
+### 02 Beluga Gold — Gonggong (also: 03 Capuchinero)
+- S Chiron – S Gonggong RA 33.346535 33.3333 ninth (80.2)
+- J Regulus – J Gonggong RA 178.112820 177.778 ninth (5.77)
+- J Fomalhaut – J Chiron RA 177.522750 177.778 ninth (28.27)
+- S Chiron – S Gonggong Dec 17.747921 17.7778 ninth (16.03)
+- S Chiron – S Gonggong RA 33.3333 ninth: J Regulus – J Gonggong RA and, on Chiron, J Fomalhaut – J Chiron RA both 177.778
+- S Chiron – S Gonggong Dec 17.7778 ninth: J Regulus – J Gonggong RA and, on Chiron, J Fomalhaut – J Chiron RA both 177.778
+- HIGHLIGHT same digits a decade apart: 177.778 (J Regulus – J Gonggong) / 17.7778 (S Chiron – S Gonggong)
+
+### 03 Capuchinero — Mercury (also: 02 Beluga Gold)
+- S Haumea – S Mercury RA 161.892663 100φ phi power (63.22)
+- H Fomalhaut – H Mercury Dec 29.038063 φ⁷ phi power (91.69)
+- J Regulus – J Haumea RA 29.039401 φ⁷ phi power (88.61)
+- S Haumea – S Mercury RA 100φ phi power: H Fomalhaut – H Mercury Dec and, on Haumea, J Regulus – J Haumea RA both φ⁷
+- lights on Mercury: S Moon – S Mercury RA 57.004480 57 whole (77.6)
+
+### 03 Capuchinero — Haumea (also: 02 Beluga Gold)
+- S Mercury – S Haumea RA 161.892663 100φ phi power (63.22)
+- J Regulus – J Haumea RA 29.039401 φ⁷ phi power (88.61)
+- H Fomalhaut – H Mercury Dec 29.038063 φ⁷ phi power (91.69)
+- S Mercury – S Haumea RA 100φ phi power: J Regulus – J Haumea RA and, on Mercury, H Fomalhaut – H Mercury Dec both φ⁷
+- lights on Haumea: S Moon → H Haumea Dec 8.113177 5×φ golden (28.99); S Sun → J Haumea RA 165.999760 166 whole (98.8); S Moon → J Haumea RA 105.190607 65×φ golden (43.22)
 

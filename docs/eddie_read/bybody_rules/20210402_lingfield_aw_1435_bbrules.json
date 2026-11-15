@@ -1018,6 +1018,72 @@
   "BB49": [],
   "BB50": [],
   "BB51": [],
-  "BB52": []
+  "BB52": [],
+  "BB53": [
+   {
+    "runner": "06 Shimmering Dawn",
+    "body": "Sun",
+    "cells": [
+     "S Jupiter – S Sun Dec 19.418627 12×φ golden (93.15)",
+     "H Fomalhaut – H Sun RA 11.313970 7×φ golden (62.14)",
+     "H Aldebaran – H Jupiter Dec 11.303832 7×φ golden (30.85)",
+     "S Pallas – S Sun RA 37.184267 23×φ golden (5.82)",
+     "J Fomalhaut – J Sun Dec 42.042162 26×φ golden (17.53)",
+     "J Fomalhaut – J Pallas Dec 42.058125 26×φ golden (66.79)"
+    ],
+    "notes": [
+     "S Jupiter – S Sun Dec 12×φ golden: H Fomalhaut – H Sun RA and, on Jupiter, H Aldebaran – H Jupiter Dec both 7×φ",
+     "S Pallas – S Sun RA 23×φ golden: J Fomalhaut – J Sun Dec and, on Pallas, J Fomalhaut – J Pallas Dec both 26×φ"
+    ],
+    "lights": [
+     "S Moon → H Sun Dec 12.950427 8×φ golden (81)",
+     "S Moon → J Sun RA 133.281947 133.333 ninth (80.73)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "06 Shimmering Dawn",
+    "body": "Jupiter",
+    "cells": [
+     "S Sun – S Jupiter Dec 19.418627 12×φ golden (93.15)",
+     "H Aldebaran – H Jupiter Dec 11.303832 7×φ golden (30.85)",
+     "H Fomalhaut – H Sun RA 11.313970 7×φ golden (62.14)"
+    ],
+    "notes": [
+     "S Sun – S Jupiter Dec 12×φ golden: H Aldebaran – H Jupiter Dec and, on Sun, H Fomalhaut – H Sun RA both 7×φ"
+    ],
+    "lights": [
+     "S Moon – S Jupiter RA 68.547364 10φ⁴ phi power (93.83)",
+     "S Sun – S Jupiter Dec 19.418627 12×φ golden (93.15)",
+     "S Sun → H Jupiter Dec 0.175496 conj conj (41.5)",
+     "S Sun → J Jupiter Dec 9.012579 9 whole (37.1)",
+     "S Moon → J Jupiter RA 140.980113 141 whole (0.56)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "06 Shimmering Dawn",
+    "body": "Pallas",
+    "cells": [
+     "S Sun – S Pallas RA 37.184267 23×φ golden (5.82)",
+     "J Fomalhaut – J Pallas Dec 42.058125 26×φ golden (66.79)",
+     "J Fomalhaut – J Sun Dec 42.042162 26×φ golden (17.53)"
+    ],
+    "notes": [
+     "S Sun – S Pallas RA 23×φ golden: J Fomalhaut – J Pallas Dec and, on Sun, J Fomalhaut – J Sun Dec both 26×φ"
+    ],
+    "lights": [
+     "S Moon – S Pallas Dec 27.992984 28 whole (64.92)",
+     "S Sun – S Pallas RA 37.184267 23×φ golden (5.82)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ]
  }
 }
