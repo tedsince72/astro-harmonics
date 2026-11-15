@@ -723,3 +723,16 @@ e = c, the sky line in the royal line's plane, Y also on sky X in the other plan
   Gonggong (H Fomalhaut – H Gonggong Dec ninth 17.7778, S Chiron – S Gonggong Dec and RA ninth 33.3333, S Chiron → H Gonggong RA) / 0 /
   Secret Satire Jupiter. In all three the other-plane line is a ninth, as the royal line.
 a + c (the same royal star also on sky X): Secret Satire Jupiter only (not built, noted; a WATCH note in BB44).
+
+## BB45, BB46 — York 15:45 15 May 2024, 6 Secret Satire, Saturn (15 Nov 2026, built: versions c and d)
+Lines: S Saturn → H Saturn RA 34.9876 whole 35 (37.9) carried in the other chart by S Mercury → J Saturn RA 34.9976 (88.1); S Mercury → H Saturn
+Dec 26.1776 10φ² (93.1) and RA 74.4213 46×φ (74.5); S Saturn → J Saturn RA 4.4361 ninth (6.4); S Fomalhaut – S Saturn Dec 23 (44.9). Mercury
+not on sky Saturn. Field check (Lingfield / Haydock / Beverley / Catterick / Chelmsford / York; Y not X, Sun or Moon; same-body line not
+conj / cp):
+a = same-body line on a target, a sky Y → the other chart's X on it (not built, noted): 0 / 5 (Magical Max Neptune, Haumea, Royal Context
+  Pluto, Birkenhead Ceres, Ishvara Gonggong: S Gonggong → J Gonggong Dec 6×φ 9.710147, S Pluto → H Gonggong Dec 9.731849, Pluto not on
+  J Gonggong) / 3 / 2 / 3 / 2 (Classical Song Sun, Secret Satire Saturn).
+b = a + Y on natal X in the same-body chart (not built, noted): 0 / 0 / Mademoiselle Vesta, Quaoar / 0 / Buford Orcus / Secret Satire Saturn.
+c = a + Y on that natal X in both planes (built, BB45): Secret Satire Saturn only.
+d = c + a royal star on sky X (built, BB46): Secret Satire Saturn only.
+a + Y on sky X: Birkenhead Ceres, Classical Song Sun (noted).

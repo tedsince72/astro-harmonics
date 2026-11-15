@@ -62,6 +62,8 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB42': set(),
     'BB43': set(),
     'BB44': set(),
+    'BB45': set(),
+    'BB46': set(),
 }
 CELLS = {  # rule: (runner, body, [cell texts that must be in the case])
     'BB1': ('05 Pholas', 'Mercury', ['J Aldebaran – J Mercury Dec 16.193302 10×φ golden (59.99)',
@@ -199,6 +201,7 @@ if os.path.exists(HAY):
     check({(c['runner'], c['body']) for c in hres['BB41']} == {('07 Ishvara', 'Vesta')}, 'BB41 Haydock holders')
     check(hres['BB42'] == [], 'BB42 Haydock: no holder')
     check(hres['BB44'] == [], 'BB44 Haydock: no holder')
+    check(hres['BB45'] == [] and hres['BB46'] == [], 'BB45 / BB46 Haydock: no holder (Ishvara Gonggong holds only version a)')
     check({(c['runner'], c['body']) for c in hres['BB43']} == {('07 Ishvara', 'Rahu'), ('09 Garsman', 'Transpluto'), ('11 Mews House', 'Sun')}, 'BB43 Haydock holders')
     ic3 = [x for c in hres['BB43'] if c['runner'] == '07 Ishvara' for x in c['cells']]
     in3 = [n for c in hres['BB43'] if c['runner'] == '07 Ishvara' for n in c['notes']]
@@ -298,6 +301,7 @@ if os.path.exists(BEV):
           'BB32b Perfect Part watch notes (both planes, gap 0.0013, third royal star)')
     check({(c['runner'], c['body']) for c in bres['BB42']} == {('01 Aviation Time', 'Uranus'), ('15 Perfect Part', 'Sun')}, 'BB42 Beverley holders')
     check(bres['BB44'] == [], 'BB44 Beverley: no holder')
+    check(bres['BB45'] == [] and bres['BB46'] == [], 'BB45 / BB46 Beverley: no holder')
     check({(c['runner'], c['body']) for c in bres['BB43']} == {('07 Mademoiselle', 'Pluto'), ('09 Nad Alshiba Snow', 'Pallas'), ('11 Powerful Lady', 'Makemake')}, 'BB43 Beverley holders')
     pc2 = [x for c in bres['BB42'] if c['runner'] == '15 Perfect Part' for x in c['cells']]
     pn2 = [n for c in bres['BB42'] if c['runner'] == '15 Perfect Part' for n in c['notes']]
@@ -352,5 +356,14 @@ if os.path.exists(CAT):
     for w in ('H Fomalhaut – H Gonggong Dec 17.767704', 'S Chiron – S Gonggong Dec 17.747921', 'S Chiron – S Gonggong RA 33.346535',
               'S Chiron → H Gonggong RA 33.963575'):
         check(any(x.startswith(w) for x in wc4), f'BB44 Wotever Next Gonggong cell {w}')
+for rid in ('BB45', 'BB46'):
+    check({(c['runner'], c['body']) for c in yres[rid]} == {('06 Secret Satire', 'Saturn')}, f'{rid} York holders')
+    yc5 = [x for c in yres[rid] for x in c['cells']]
+    for w in ('S Saturn → H Saturn RA 34.987581', 'S Mercury → J Saturn RA 34.997610', 'S Mercury → H Saturn Dec 26.177633',
+              'S Mercury → H Saturn RA 74.421312'):
+        check(any(x.startswith(w) for x in yc5), f'{rid} Secret Satire Saturn cell {w}')
+    check((rid == 'BB46') == any(x.startswith('S Fomalhaut – S Saturn Dec 23.011027') for x in yc5), f'{rid} royal cell only in BB46')
+if os.path.exists(CAT):
+    check(cres['BB45'] == [] and cres['BB46'] == [], 'BB45 / BB46 Catterick: no holder')
 print(f'{ok}/{ok + bad} checks passed')
 sys.exit(1 if bad else 0)

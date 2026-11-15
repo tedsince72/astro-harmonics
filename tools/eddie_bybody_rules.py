@@ -1180,6 +1180,56 @@ def bb44(b):
     return [{'key': ('BB44', b.X), 'cells': cells, 'notes': notes}]
 
 
+def _bb45_cases(b):
+    """Same-body line S X -> c X (no conj / cp) with S Y -> the other chart's X on its target (Y not X, the Sun or the Moon), and Y on
+    natal X in chart c in both planes (no conj / cp)."""
+    out = []
+    for c in 'HJ':
+        oc = other_chart(c)
+        for r in b.same_body(c):
+            if r['fam'] in CJ:
+                continue
+            for s in b.same_on(r):
+                m = re.match(rf'S (.+) → {oc} {re.escape(b.X)}$', s['line'] or '')
+                if not m or m.group(1) in (b.X, 'Sun', 'Moon'):
+                    continue
+                Y = m.group(1)
+                nat = [o for o in b.to_natal(Y, c) if o['fam'] not in CJ]
+                if {o['plane'] for o in nat} >= {'RA', 'Dec'}:
+                    out.append((c, oc, r, Y, s, nat))
+    return out
+
+
+def _bb45_build(b, rid, cases, royal):
+    cells, notes = [], []
+    for c, oc, r, Y, s, nat in cases:
+        cells += [o for o in [r, s] + nat if o not in cells]
+        notes.append(f"{r['line']} {r['plane']} on {r['tgt']} carried in the other chart by {s['line']} {s['plane']}; {Y} also on "
+                     f"{c} {b.X} in RA and Dec")
+        sky = b.sky_y(Y)
+        if sky:
+            notes.append(f'{Y} is also on sky {b.X}: ' + '; '.join(cell(o) for o in sky))
+    for o in royal:
+        if o not in cells:
+            cells.append(o)
+    if royal:
+        notes.append(f'royal star on sky {b.X}: ' + '; '.join(cell(o) for o in royal))
+    return [{'key': (rid, b.X), 'cells': cells, 'notes': notes}]
+
+
+def bb45(b):
+    """A same-body line carried in the other chart by a sky body Y on the same target; Y also on the same-body chart's X in RA and Dec."""
+    cases = _bb45_cases(b)
+    return _bb45_build(b, 'BB45', cases, []) if cases else []
+
+
+def bb46(b):
+    """BB45 and a royal star on sky X (S R – S X, any plane, any score)."""
+    cases = _bb45_cases(b)
+    royal = [o for R in ROY for o in b.sky_y(R)]
+    return _bb45_build(b, 'BB46', cases, royal) if cases and royal else []
+
+
 RULES = [('BB1', bb1, 'Mercury'), ('BB2', bb2, 'Mars'), ('BB3', bb3, 'Jupiter'), ('BB4', bb4, 'Saturn'),
          ('BB5', bb5, 'Uranus'), ('BB6', bb6, 'Uranus'), ('BB7', bb7, 'Neptune'), ('BB8', bb8, 'Rahu'),
          ('BB9', bb9, 'Rahu'), ('BB10', bb10, 'Ketu'), ('BB11', bb11, 'Ceres'), ('BB12', bb12, 'Pallas'),
@@ -1188,7 +1238,7 @@ RULES = [('BB1', bb1, 'Mercury'), ('BB2', bb2, 'Mars'), ('BB3', bb3, 'Jupiter'),
          ('BB21', bb21, 'Saturn'), ('BB22', bb22, 'Saturn'), ('BB23', bb23, 'Neptune'), ('BB24', bb24, 'Rahu'), ('BB25', bb25, 'Ketu'), ('BB26', bb26, 'Ceres'), ('BB27', bb27, 'Pallas'), ('BB28', bb28, 'Juno'), ('BB29', bb29, 'Vesta'), ('BB30', bb30, 'Eris'), ('BB31', bb31, 'Gonggong'),
          ('BB32', bb32, 'Sun'), ('BB32b', bb32b, 'Sun'), ('BB33', bb33, 'Mercury'), ('BB34', bb34, 'Mars'), ('BB35', bb35, 'Saturn'),
          ('BB36', bb36, 'Uranus'), ('BB37', bb37, 'Pluto'), ('BB38', bb38, 'Juno'), ('BB39', bb39, 'Makemake'),
-         ('BB40', bb40, 'Sedna'), ('BB41', bb41, 'Sun'), ('BB42', bb42, 'Mercury'), ('BB43', bb43, 'Venus'), ('BB44', bb44, 'Jupiter')]
+         ('BB40', bb40, 'Sedna'), ('BB41', bb41, 'Sun'), ('BB42', bb42, 'Mercury'), ('BB43', bb43, 'Venus'), ('BB44', bb44, 'Jupiter'), ('BB45', bb45, 'Saturn'), ('BB46', bb46, 'Saturn')]
 
 
 def decade_pairs(cells):
