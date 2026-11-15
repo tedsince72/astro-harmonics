@@ -66,6 +66,7 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB46': set(),
     'BB47': set(),
     'BB48': {('04 Nirodha', 'Ketu'), ('05 Pholas', 'Mercury')},
+    'BB49': set(),
 }
 CELLS = {  # rule: (runner, body, [cell texts that must be in the case])
     'BB1': ('05 Pholas', 'Mercury', ['J Aldebaran – J Mercury Dec 16.193302 10×φ golden (59.99)',
@@ -211,6 +212,11 @@ if os.path.exists(HAY):
         check(any(x.startswith(w) for x in ic7), f'BB47 Ishvara Gonggong cell {w}')
     check(len(ic7) == 6 and any('the same pair' in n for c in hres['BB47'] for n in c['notes']), 'BB47 Ishvara: 6 cells, one pair does both')
     check({(c['runner'], c['body']) for c in hres['BB48']} == {('02 Ventura Flame', 'Quaoar')}, 'BB48 Haydock holders')
+    check({(c['runner'], c['body']) for c in hres['BB49']} == {('07 Ishvara', 'Eris')}, 'BB49 Haydock holders')
+    ic9 = [x for c in hres['BB49'] for x in c['cells']]
+    for w in ('S Aldebaran – S Eris Dec 17.937557', 'S Antares – S Eris Dec 25.002977', 'H Eris – J Eris RA 2.990505',
+              'S Ketu – S Antares Dec 3.001702', 'S Ketu → J Eris Dec 13.314408'):
+        check(any(x.startswith(w) for x in ic9), f'BB49 Ishvara Eris cell {w}')
     check({(c['runner'], c['body']) for c in hres['BB43']} == {('07 Ishvara', 'Rahu'), ('09 Garsman', 'Transpluto'), ('11 Mews House', 'Sun')}, 'BB43 Haydock holders')
     ic3 = [x for c in hres['BB43'] if c['runner'] == '07 Ishvara' for x in c['cells']]
     in3 = [n for c in hres['BB43'] if c['runner'] == '07 Ishvara' for n in c['notes']]
@@ -312,6 +318,7 @@ if os.path.exists(BEV):
     check(bres['BB44'] == [], 'BB44 Beverley: no holder')
     check(bres['BB45'] == [] and bres['BB46'] == [], 'BB45 / BB46 Beverley: no holder')
     check({(c['runner'], c['body']) for c in bres['BB47']} == {('14 Havana White', 'Rahu')}, 'BB47 Beverley holders')
+    check(bres['BB49'] == [], 'BB49 Beverley: no holder')
     check({(c['runner'], c['body']) for c in bres['BB48']} == {('01 Aviation Time', 'Uranus'), ('12 Sands Of Dubai', 'Venus'), ('15 Perfect Part', 'Mars')}, 'BB48 Beverley holders')
     pc8 = [x for c in bres['BB48'] if c['runner'] == '15 Perfect Part' for x in c['cells']]
     for w in ('J Fomalhaut – J Mars RA 48.561123', 'S Rahu – S Sedna RA 48.555037', 'S Rahu – S Mars RA 15.559809',
@@ -383,6 +390,14 @@ if os.path.exists(CAT):
     check(cres['BB45'] == [] and cres['BB46'] == [], 'BB45 / BB46 Catterick: no holder')
     check(cres['BB47'] == [], 'BB47 Catterick: no holder')
     check({(c['runner'], c['body']) for c in cres['BB48']} == {('04 Thakuri', 'Eris')}, 'BB48 Catterick holders')
+    check(cres['BB49'] == [], 'BB49 Catterick: no holder')
+check({(c['runner'], c['body']) for c in yres['BB49']} == {('06 Secret Satire', 'Haumea')}, 'BB49 York holders')
+yc9 = [x for c in yres['BB49'] for x in c['cells']]
+yn9 = [n for c in yres['BB49'] for n in c['notes']]
+for w in ('S Antares – S Haumea RA 29.134385', 'S Fomalhaut – S Haumea RA 126.189939', 'S Fomalhaut – S Haumea Dec 44.986331',
+          'H Haumea – J Haumea Dec 5.557856', 'S Makemake – S Aldebaran Dec 5.556667', 'S Makemake → H Haumea RA 16.681885'):
+    check(any(x.startswith(w) for x in yc9), f'BB49 Secret Satire Haumea cell {w}')
+check(len(yc9) == 6 and any('Aldebaran not among them' in n for n in yn9), 'BB49 Secret Satire: 6 cells, Aldebaran not on sky Haumea noted')
 check({(c['runner'], c['body']) for c in yres['BB48']} == {('01 Classical Song', 'Ketu'), ('03 Friendly Soul', 'Ketu'), ('04 La Pasionaria', 'Saturn'),
       ('06 Secret Satire', 'Chiron'), ('06 Secret Satire', 'Quaoar'), ('07 Sinology', 'Ketu')}, 'BB48 York holders')
 yc8 = [x for c in yres['BB48'] if c['runner'] == '06 Secret Satire' and c['body'] == 'Chiron' for x in c['cells']]

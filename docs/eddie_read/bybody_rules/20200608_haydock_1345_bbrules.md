@@ -1,4 +1,4 @@
-# 20200608_haydock_1345 — body-by-body rules BB1-BB48
+# 20200608_haydock_1345 — body-by-body rules BB1-BB49
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -53,6 +53,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB46 | 0 | 0 | - |  |
 | BB47 | 1 | 1 | 07 Ishvara |  |
 | BB48 | 1 | 1 | 02 Ventura Flame |  |
+| BB49 | 1 | 1 | 07 Ishvara |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1189,4 +1190,20 @@ Origin: York 15:45 15 May 2024, 6 Secret Satire, Chiron (H Regulus – H Chiron 
 - S Sun → H Quaoar RA 166.396581 166.667 ninth (18.97)
 - J Antares – J Quaoar Dec: S Sun – S Transpluto Dec (Sun and Transpluto on sky Quaoar; Sun on J Quaoar); on H Quaoar: Sun (S Sun – S Transpluto Dec, the same pair)
 - lights on Quaoar: S Sun – S Quaoar RA 163.016924 163 whole (15.38); S Sun → H Quaoar RA 166.396581 166.667 ninth (18.97); S Sun → J Quaoar RA 166.755610 166.667 ninth (73.32); S Moon → J Quaoar Dec 9.686207 6×φ golden (32.11)
+
+## BB49 — H X – J X carried by a royal-star pair with a body end on natal X, two royal stars on sky X
+
+Rule: The H X – J X line scores (conj / contraparallel not counted) and a sky pair S R – S Y on its target (not naming X or the Moon) has a royal star R at one end and at the other a body Y on natal X (S Y → H X or S Y → J X, not conj / contraparallel); and two or more royal stars are on sky X (S R – S X, not conj / contraparallel). X not Rahu or Ketu (their H – J lines pair up automatically). Any plane, any score. Noted, not required: whether R is one of the royal stars on sky X.
+
+Origin: York 15:45 15 May 2024, 6 Secret Satire, Haumea (H Haumea – J Haumea Dec ninth 5.55556 carried by S Makemake – S Aldebaran Dec, Makemake → H Haumea RA 16.6667; Antares and Fomalhaut on sky Haumea); version c + e (Eddie, 15 Nov 2026). Also held by Ishvara Eris (Haydock: H Eris – J Eris RA 3 carried by S Ketu – S Antares Dec 3, Ketu → J Eris; Aldebaran and Antares on sky Eris).
+
+### 07 Ishvara — Eris (only)
+- S Aldebaran – S Eris Dec 17.937557 φ⁶ phi power (75.05)
+- S Aldebaran – S Eris RA 42.396256 10φ³ phi power (44.01)
+- S Antares – S Eris Dec 25.002977 25 whole (85.11)
+- H Eris – J Eris RA 2.990505 3 whole (52.53)
+- S Ketu – S Antares Dec 3.001702 3 whole (91.49)
+- S Ketu → J Eris Dec 13.314408 13.3333 ninth (29.03)
+- H Eris – J Eris RA carried by S Ketu – S Antares Dec (Antares with Ketu; Ketu on J Eris); royal stars on sky Eris: Aldebaran, Antares
+- lights on Eris: S Moon – S Eris Dec 22.674439 14×φ golden (32.21); S Sun → J Eris Dec 33.001455 33 whole (92.73); S Moon → J Eris Dec 13.987571 14 whole (37.86)
 

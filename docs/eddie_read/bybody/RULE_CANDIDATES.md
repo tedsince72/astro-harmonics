@@ -829,3 +829,14 @@ b = a + a pair end on natal X in the other chart (built, BB48): Nirodha Ketu, Ph
   Perfect Part Mars (J Fomalhaut – J Mars RA 30×φ, S Rahu – S Sedna RA) reach the other chart through the same pair; Secret Satire through another.
 b with two different pairs: Secret Satire only (not built). b2 = b + R on sky X in the royal line's plane: Nirodha Ketu / 0 / 0 / 0 / Reset Button
   Vesta / Secret Satire Chiron (not built). c2 = >= 3 pairs + a: York La Pasionaria Saturn, Chiron, Secret Satire Chiron, Sinology Ketu only.
+
+## BB49 — York 15:45 15 May 2024, 6 Secret Satire, Haumea (15 Nov 2026, built: version c + e)
+Lines: S Antares – S Haumea RA 29.1344 18×φ (69.8); S Fomalhaut – S Haumea RA 126.1899 78×φ (48.4), Dec 44.9863 45 (31.7); H Haumea – J Haumea RA
+24.1560 silver 24.14 (61.6) and Dec 5.5579 ninth 5.55556 (79.3); the Dec line carried by S Makemake – S Aldebaran Dec 5.5567 (90.0) and S Sun –
+S Vesta Dec 5.5657 (9.0); S Makemake → H Haumea RA 16.6819 ninth 16.6667 (54.4). No BB rule held Secret Satire Haumea before.
+Field check (Lingfield / Haydock / Beverley / Catterick / Chelmsford / York; X not Rahu / Ketu; no conj / cp):
+a = H X – J X scores in both planes: 1 / 2 / 3 / 3 / 3 / 3. b = H X – J X carried by a pair with an end on natal X: 6 / 14 / 7 / 7 / 11 / 11.
+c = b, the other end a royal star: 2 / 1 / 1 / 1 / 3 / 2. e = two royal stars on sky X: 18 / 60 / 78 / 20 / 24 / 49.
+c + e (built, BB49): Ishvara Eris (H Eris – J Eris RA 3 carried by S Ketu – S Antares Dec 3, Ketu → J Eris; Aldebaran, Antares on sky Eris) /
+  Secret Satire Haumea (Aldebaran in the pair is not one of the sky royal stars; noted). a + c: Secret Satire only. a + b + e: Over Spiced Uranus,
+  Secret Satire Haumea. b + e: 1 / 5 / 2 / 1 / 2 / 3. Requiring the pair's royal star to be on sky X: Ishvara only (not built).
