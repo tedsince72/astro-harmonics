@@ -1,4 +1,4 @@
-# 20240118_chelmsford_aw_1320 — body-by-body rules BB1-BB59
+# 20240118_chelmsford_aw_1320 — body-by-body rules BB1-BB60
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -64,6 +64,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB57 | 0 | 0 | - |  |
 | BB58 | 0 | 0 | - |  |
 | BB59 | 0 | 0 | - |  |
+| BB60 | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -944,6 +945,14 @@ No runner holds it.
 Rule: A royal natal line c R – c X scores in a family (conj / contraparallel not counted) and is carried by a sky line naming X itself, S X – S Y, on the same target ('Sky lines on the same target'; Y not a royal star, not the Moon; the sky line not conj / contraparallel); Y lands on natal X in the same chart (S Y → c X scoring, any plane; conj / contraparallel count); and the same royal star R scores on sky X (S R – S X, family not conj / contraparallel). Any plane, any score. BB55 is the other-chart version without the sky star.
 
 Origin: Catterick 14:40 6 Apr 2022, 5 Wotever Next, Rahu (J Regulus – J Rahu RA 166.979293 ninth 166.667 (6.21) carried by S Rahu – S Haumea RA 166.802333 (59.3); S Haumea → J Rahu Dec contraparallel 0.066072 (77.98); S Regulus – S Rahu Dec 6.466238 4×φ (81.8)) (Eddie, 15 Nov 2026: 'q2'). Also held by Pholas Pallas (Regulus) and Secret Satire Ceres (Regulus) / Jupiter (Fomalhaut); other holders York 16:15 Blue Prince Vesta, Ziggy's Condor Eris, Misemerald Vesta (Antares). Over the 6 result races 6 picks, 3 won, 0.7 by chance. Q1 (no sky star) 17 / 4 (1.8) and Q3 (+ a same-body ratio, Wotever Next only) noted. Note: three sky star lines score under about 50 (Pholas 39.89, Ziggy's Condor 45.69, Blue Prince / Misemerald 50.41).
+
+No runner holds it.
+
+## BB60 — Royal line carried by S X – S Y and by a sky body onto X in the other chart
+
+Rule: A royal natal line c R – c X scores in a family (conj / contraparallel not counted) and is carried, on the same target ('Sky lines on the same target'), both by a sky line naming X itself, S X – S Y (Y not the Moon), and by a sky body onto natal X in the other chart, S Z → c' X (Z not the Moon, not X). Any plane, any score.
+
+Origin: Catterick 14:40 6 Apr 2022, 5 Wotever Next, Chiron (H Fomalhaut – H Chiron Dec 33.381885 ninth 33.3333 (27.17) carried by S Chiron – S Gonggong RA 33.346535 (80.2) and S Vesta → J Chiron Dec 33.314388 (71.58); also S Vesta – S Haumea Dec 33.384904 (22.64); J Fomalhaut – J Chiron Dec same-body ratio 5.00659 on 5 (67.05)) (Eddie, 15 Nov 2026: 'i think e1'). Also held by Pholas Pallas (Regulus), Perfect Part Gonggong (Regulus), Secret Satire Ceres (Regulus). Over the 6 result races 13 picks, 4 won, 1.4 by chance; broad: the J Regulus – J Gonggong RA ~180 repeat (S Gonggong – S Orcus, S Orcus → H Gonggong) gives Beverley 4, York 15:45 2 and York 16:15 2 of the holders. Narrower versions noted: E5 (+ the same royal star on X in the other chart with a same-body or crossed ratio on a target; Wotever Next and Secret Satire only, 2 / 2, 0.3), E4 (+ a pair with both ends on X; 4 / 2, 0.6), E3, E6, E7.
 
 No runner holds it.
 

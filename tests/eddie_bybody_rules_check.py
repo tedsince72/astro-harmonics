@@ -75,6 +75,7 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB57': {('04 Nirodha', 'Pallas')},
     'BB58': {('04 Nirodha', 'Pallas')},
     'BB59': {('05 Pholas', 'Pallas')},
+    'BB60': {('05 Pholas', 'Pallas')},
     'BB55': {('01 Arafi', 'Gonggong'), ('01 Arafi', 'Venus'), ('04 Nirodha', 'Saturn'), ('05 Pholas', 'Pallas')},
     'BB53': {('06 Shimmering Dawn', 'Sun'), ('06 Shimmering Dawn', 'Jupiter'), ('06 Shimmering Dawn', 'Pallas')},
 }
@@ -235,6 +236,7 @@ if os.path.exists(HAY):
     check({(c['runner'], c['body']) for c in hres['BB57']} == {('02 Ventura Flame', 'Mars'), ('04 Royal Context', 'Sedna'), ('06 Birkenhead', 'Mars'), ('07 Ishvara', 'Mercury'), ('09 Garsman', 'Chiron')}, 'BB57 Haydock holders')
     check(hres['BB58'] == [], 'BB58 Haydock: no holder')
     check(hres['BB59'] == [], 'BB59 Haydock: no holder')
+    check(hres['BB60'] == [], 'BB60 Haydock: no holder')
     check({(c['runner'], c['body']) for c in hres['BB55']} == {('01 Magical Max', 'Jupiter'), ('02 Ventura Flame', 'Vesta'), ('04 Royal Context', 'Gonggong'),
           ('04 Royal Context', 'Makemake'), ('06 Birkenhead', 'Jupiter'), ('07 Ishvara', 'Pallas'), ('11 Mews House', 'Saturn')}, 'BB55 Haydock holders')
     check({(c['runner'], c['body']) for c in hres['BB54']} == {('02 Ventura Flame', 'Neptune'), ('03 Never In Paris', 'Neptune'),
@@ -360,6 +362,7 @@ if os.path.exists(BEV):
     check({(c['runner'], c['body']) for c in bres['BB57']} == {('14 Havana White', 'Pallas')}, 'BB57 Beverley holders')
     check({(c['runner'], c['body']) for c in bres['BB58']} == {('15 Perfect Part', 'Mercury')}, 'BB58 Beverley holders')
     check(bres['BB59'] == [], 'BB59 Beverley: no holder')
+    check({(c['runner'], c['body']) for c in bres['BB60']} == {('02 Brazilian Belle', 'Quaoar'), ('07 Mademoiselle', 'Gonggong'), ('13 Storm Call', 'Gonggong'), ('14 Havana White', 'Gonggong'), ('15 Perfect Part', 'Gonggong')}, 'BB60 Beverley holders')
     check({(c['runner'], c['body']) for c in bres['BB55']} == {('04 Invincible Annice', 'Pluto'), ('07 Mademoiselle', 'Gonggong'), ('08 Maw Lam', 'Ceres'),
           ('13 Storm Call', 'Gonggong'), ('13 Storm Call', 'Mars'), ('14 Havana White', 'Gonggong'), ('15 Perfect Part', 'Gonggong'), ('15 Perfect Part', 'Orcus')}, 'BB55 Beverley holders')
     check({(c['runner'], c['body']) for c in bres['BB54']} == {('04 Invincible Annice', 'Gonggong'), ('07 Mademoiselle', 'Pallas'),
@@ -458,6 +461,9 @@ if os.path.exists(CAT):
     check({(c['runner'], c['body']) for c in cres['BB59']} == {('05 Wotever Next', 'Rahu')}, 'BB59 Catterick holders')
     w59 = [x for c in cres['BB59'] for x in c['cells']]
     check(any(x.startswith('J Regulus – J Rahu RA 166.979293') for x in w59) and any(x.startswith('S Regulus – S Rahu Dec 6.466238') for x in w59), 'BB59 Wotever Next cells')
+    check({(c['runner'], c['body']) for c in cres['BB60']} == {('05 Wotever Next', 'Chiron')}, 'BB60 Catterick holders')
+    w60 = [x for c in cres['BB60'] for x in c['cells']]
+    check(any(x.startswith('H Fomalhaut – H Chiron Dec 33.381885') for x in w60) and any(x.startswith('S Chiron – S Gonggong RA 33.346535') for x in w60) and any(x.startswith('S Vesta → J Chiron Dec 33.314388') for x in w60), 'BB60 Wotever Next cells')
     check({(c['runner'], c['body']) for c in cres['BB55']} == {('02 Beluga Gold', 'Chiron')}, 'BB55 Catterick holders')
     check({(c['runner'], c['body']) for c in cres['BB54']} == {('02 Beluga Gold', 'Chiron'), ('02 Beluga Gold', 'Makemake')}, 'BB54 Catterick holders')
     check({(c['runner'], c['body']) for c in cres['BB53']} == {('02 Beluga Gold', 'Chiron'), ('02 Beluga Gold', 'Gonggong'),
@@ -496,6 +502,7 @@ check(yres['BB56'] == [], 'BB56 York: no holder')
 check({(c['runner'], c['body']) for c in yres['BB57']} == {('01 Classical Song', 'Sun'), ('03 Friendly Soul', 'Uranus'), ('07 Sinology', 'Mercury')}, 'BB57 York holders')
 check(yres['BB58'] == [], 'BB58 York: no holder')
 check({(c['runner'], c['body']) for c in yres['BB59']} == {('06 Secret Satire', 'Ceres'), ('06 Secret Satire', 'Jupiter')}, 'BB59 York holders')
+check({(c['runner'], c['body']) for c in yres['BB60']} == {('01 Classical Song', 'Gonggong'), ('04 La Pasionaria', 'Gonggong'), ('06 Secret Satire', 'Ceres')}, 'BB60 York holders')
 check({(c['runner'], c['body']) for c in yres['BB55']} == {('01 Classical Song', 'Gonggong'), ('01 Classical Song', 'Ketu'), ('04 La Pasionaria', 'Gonggong'),
       ('06 Secret Satire', 'Ceres')}, 'BB55 York holders')
 check({(c['runner'], c['body']) for c in yres['BB54']} == {('02 Francophone', 'Neptune'), ('06 Secret Satire', 'Rahu')}, 'BB54 York holders')
@@ -540,5 +547,6 @@ if os.path.exists(Y16):
     check({(c['runner'], c['body']) for c in y16['BB57']} == {('03 Blue Prince', 'Sun'), ('05 Respectful', 'Transpluto'), ('05 Respectful', 'Vesta'), ("07 Thursday's Child", 'Sun'), ('13 Diligent Resdev', 'Venus')}, 'BB57 York 16:15 holders')
     check({(c['runner'], c['body']) for c in y16['BB58']} == {("08 Ziggy's Condor", 'Uranus')}, 'BB58 York 16:15 holders')
     check({(c['runner'], c['body']) for c in y16['BB59']} == {('03 Blue Prince', 'Vesta'), ("08 Ziggy's Condor", 'Eris'), ('14 Misemerald', 'Vesta')}, 'BB59 York 16:15 holders')
+check({(c['runner'], c['body']) for c in y16['BB60']} == {('03 Blue Prince', 'Makemake'), ("07 Thursday's Child", 'Gonggong'), ('12 Quiet Resolve', 'Gonggong')}, 'BB60 York 16:15 holders')
 print(f'{ok}/{ok + bad} checks passed')
 sys.exit(1 if bad else 0)

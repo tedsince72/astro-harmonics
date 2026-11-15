@@ -1056,3 +1056,20 @@ Song, Mortlake, Diligent Resdev Quaoar only (3 / 1 / 0.3, one origin winner).
   - **C2:** C1, plus the shared body on X. Wotever Next only (1 pick, 1 won, 0.2). Shimmering Dawn has no Mercury line on Chiron.
   - **C3:** C2, plus every other end on X. Wotever Next only.
 - One origin winner, so it is noted and not built (build standard). Independent checker (15 Nov), own code: 0 mismatches.
+
+## Catterick 14:40 2022, Wotever Next Chiron (15 Nov 2026): BB60 = E1 (built, Eddie: 'i think e1')
+- **From Eddie's lines:**
+  - The royal line is H Fomalhaut – H Chiron Dec 33.3819, ninth 33.3333 (27.2).
+  - Three sky lines carry it: S Chiron – S Gonggong RA 33.3465 (80.2), S Vesta → J Chiron Dec 33.3144 (71.6) and S Vesta – S Haumea Dec 33.3849 (22.6).
+  - Each carrier body also lands on Chiron: Gonggong in S Gonggong – S Chiron Dec, ninth 17.7778 (16.0); Vesta in S Vesta – S Chiron Dec, 15×φ (60.7); Haumea in S Haumea → J Chiron Dec, conj (76.5).
+  - J Fomalhaut – J Chiron Dec has no family, but its same-body ratio is 5.00659, on 5 (67.1).
+  - S Regulus – S Chiron RA 141.5425 is on √2 141.4 (42.9).
+- **Scan:** tools/scans/bb_fieldcheck_royal_sky_x_pair_and_other_chart.py, over the 6 races with results.
+  - **E1 (built as BB60):** the royal line is carried both by S X – S Y and by S Z → c' X. 13 picks, 4 won, 1.4 by chance.
+  - **E2:** E1 plus Z on sky X. 11 picks, 2 won, 1.1 by chance.
+  - **E3:** E1 plus Y on sky X in the other plane. Wotever Next only.
+  - **E4:** E1 plus a third carrier pair with both ends on X. 4 picks, 2 won, 0.6 by chance.
+  - **E5:** E1 plus the same royal star on X in the other chart, with a same-body or crossed ratio on a target. 2 picks, 2 won, 0.3 by chance. The two are Wotever Next Chiron and Secret Satire Ceres (unison 1.0154, 23.1).
+  - **E6** (E2 + E3 + E4) and **E7** (E4 + E5) are noted, not built.
+- **E1 is broad.** J Regulus – J Gonggong RA sits near 180, carried by S Gonggong – S Orcus with S Orcus → H Gonggong. That one repeat gives Beverley 4 of its 5 holders, and 2 holders at each York race.
+- **Independent checkers (15 Nov):** 0 mismatches on the scan and 0 on the built rule.

@@ -1,4 +1,4 @@
-# 20220406_catterick_1440 — body-by-body rules BB1-BB59
+# 20220406_catterick_1440 — body-by-body rules BB1-BB60
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -64,6 +64,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB57 | 1 | 1 | 05 Wotever Next |  |
 | BB58 | 1 | 1 | 05 Wotever Next |  |
 | BB59 | 1 | 1 | 05 Wotever Next |  |
+| BB60 | 1 | 1 | 05 Wotever Next |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -944,4 +945,17 @@ Origin: Catterick 14:40 6 Apr 2022, 5 Wotever Next, Rahu (J Regulus – J Rahu R
 - S Regulus – S Rahu Dec 6.466238 4×φ golden (81.8)
 - J Regulus – J Rahu RA carried by S Rahu – S Haumea RA; Haumea on J Rahu (Dec contraparallel contraparallel); Regulus on sky Rahu (Dec 4×φ)
 - lights on Rahu: S Moon – S Rahu Dec 6.006606 6 whole (66.97)
+
+## BB60 — Royal line carried by S X – S Y and by a sky body onto X in the other chart
+
+Rule: A royal natal line c R – c X scores in a family (conj / contraparallel not counted) and is carried, on the same target ('Sky lines on the same target'), both by a sky line naming X itself, S X – S Y (Y not the Moon), and by a sky body onto natal X in the other chart, S Z → c' X (Z not the Moon, not X). Any plane, any score.
+
+Origin: Catterick 14:40 6 Apr 2022, 5 Wotever Next, Chiron (H Fomalhaut – H Chiron Dec 33.381885 ninth 33.3333 (27.17) carried by S Chiron – S Gonggong RA 33.346535 (80.2) and S Vesta → J Chiron Dec 33.314388 (71.58); also S Vesta – S Haumea Dec 33.384904 (22.64); J Fomalhaut – J Chiron Dec same-body ratio 5.00659 on 5 (67.05)) (Eddie, 15 Nov 2026: 'i think e1'). Also held by Pholas Pallas (Regulus), Perfect Part Gonggong (Regulus), Secret Satire Ceres (Regulus). Over the 6 result races 13 picks, 4 won, 1.4 by chance; broad: the J Regulus – J Gonggong RA ~180 repeat (S Gonggong – S Orcus, S Orcus → H Gonggong) gives Beverley 4, York 15:45 2 and York 16:15 2 of the holders. Narrower versions noted: E5 (+ the same royal star on X in the other chart with a same-body or crossed ratio on a target; Wotever Next and Secret Satire only, 2 / 2, 0.3), E4 (+ a pair with both ends on X; 4 / 2, 0.6), E3, E6, E7.
+
+### 05 Wotever Next — Chiron (only)
+- H Fomalhaut – H Chiron Dec 33.381885 33.3333 ninth (27.17)
+- S Chiron – S Gonggong RA 33.346535 33.3333 ninth (80.2)
+- S Vesta → J Chiron Dec 33.314388 33.3333 ninth (71.58)
+- H Fomalhaut – H Chiron Dec carried by S Chiron – S Gonggong RA and by S Vesta → J Chiron Dec
+- lights on Chiron: S Moon – S Chiron Dec 17.777129 17.7778 ninth (98.17); S Sun – S Chiron Dec 0.204340 conj conj (31.89); S Moon → J Chiron RA 26.146476 10φ² phi power (13.77)
 

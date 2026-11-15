@@ -1,4 +1,4 @@
-# 20240608_beverley_1405 — body-by-body rules BB1-BB59
+# 20240608_beverley_1405 — body-by-body rules BB1-BB60
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -64,6 +64,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB57 | 1 | 1 | 14 Havana White |  |
 | BB58 | 1 | 1 | 15 Perfect Part |  |
 | BB59 | 0 | 0 | - |  |
+| BB60 | 5 | 5 | 02 Brazilian Belle, 07 Mademoiselle, 13 Storm Call, 14 Havana White, 15 Perfect Part |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1879,4 +1880,50 @@ Rule: A royal natal line c R – c X scores in a family (conj / contraparallel n
 Origin: Catterick 14:40 6 Apr 2022, 5 Wotever Next, Rahu (J Regulus – J Rahu RA 166.979293 ninth 166.667 (6.21) carried by S Rahu – S Haumea RA 166.802333 (59.3); S Haumea → J Rahu Dec contraparallel 0.066072 (77.98); S Regulus – S Rahu Dec 6.466238 4×φ (81.8)) (Eddie, 15 Nov 2026: 'q2'). Also held by Pholas Pallas (Regulus) and Secret Satire Ceres (Regulus) / Jupiter (Fomalhaut); other holders York 16:15 Blue Prince Vesta, Ziggy's Condor Eris, Misemerald Vesta (Antares). Over the 6 result races 6 picks, 3 won, 0.7 by chance. Q1 (no sky star) 17 / 4 (1.8) and Q3 (+ a same-body ratio, Wotever Next only) noted. Note: three sky star lines score under about 50 (Pholas 39.89, Ziggy's Condor 45.69, Blue Prince / Misemerald 50.41).
 
 No runner holds it.
+
+## BB60 — Royal line carried by S X – S Y and by a sky body onto X in the other chart
+
+Rule: A royal natal line c R – c X scores in a family (conj / contraparallel not counted) and is carried, on the same target ('Sky lines on the same target'), both by a sky line naming X itself, S X – S Y (Y not the Moon), and by a sky body onto natal X in the other chart, S Z → c' X (Z not the Moon, not X). Any plane, any score.
+
+Origin: Catterick 14:40 6 Apr 2022, 5 Wotever Next, Chiron (H Fomalhaut – H Chiron Dec 33.381885 ninth 33.3333 (27.17) carried by S Chiron – S Gonggong RA 33.346535 (80.2) and S Vesta → J Chiron Dec 33.314388 (71.58); also S Vesta – S Haumea Dec 33.384904 (22.64); J Fomalhaut – J Chiron Dec same-body ratio 5.00659 on 5 (67.05)) (Eddie, 15 Nov 2026: 'i think e1'). Also held by Pholas Pallas (Regulus), Perfect Part Gonggong (Regulus), Secret Satire Ceres (Regulus). Over the 6 result races 13 picks, 4 won, 1.4 by chance; broad: the J Regulus – J Gonggong RA ~180 repeat (S Gonggong – S Orcus, S Orcus → H Gonggong) gives Beverley 4, York 15:45 2 and York 16:15 2 of the holders. Narrower versions noted: E5 (+ the same royal star on X in the other chart with a same-body or crossed ratio on a target; Wotever Next and Secret Satire only, 2 / 2, 0.3), E4 (+ a pair with both ends on X; 4 / 2, 0.6), E3, E6, E7.
+
+### 02 Brazilian Belle — Quaoar (also: 07 Mademoiselle, 13 Storm Call, 14 Havana White, 15 Perfect Part)
+- J Antares – J Quaoar Dec 14.579167 9×φ golden (47.96)
+- S Eris – S Quaoar Dec 14.585947 9×φ golden (27.03)
+- S Ceres → H Quaoar RA 14.580638 9×φ golden (43.42)
+- J Antares – J Quaoar Dec carried by S Eris – S Quaoar Dec and by S Ceres → H Quaoar RA
+- lights on Quaoar: S Moon – S Quaoar Dec 42.356256 10φ³ phi power (93.04)
+
+### 07 Mademoiselle — Gonggong (also: 02 Brazilian Belle, 13 Storm Call, 14 Havana White, 15 Perfect Part)
+- J Regulus – J Gonggong RA 179.689875 180 opposition (58.65)
+- S Gonggong – S Orcus RA 179.596036 180 opposition (46.14)
+- S Gonggong – S Orcus RA 179.596036 10φ⁶ phi power (43.04)
+- S Orcus → H Gonggong RA 179.274044 10φ⁶ phi power (37.33)
+- S Orcus → H Gonggong RA 179.274044 180 opposition (3.21)
+- J Regulus – J Gonggong RA carried by S Gonggong – S Orcus RA and by S Orcus → H Gonggong RA
+- lights on Gonggong: S Sun – S Gonggong Dec 33.351533 33.3333 ninth (72.7); S Sun – S Gonggong RA 98.984200 99 whole (21); S Sun → H Gonggong RA 100.114120 100 ninth (42.94); S Moon → J Gonggong RA 132.680938 82×φ golden (93.36)
+
+### 13 Storm Call — Gonggong (also: 02 Brazilian Belle, 07 Mademoiselle, 14 Havana White, 15 Perfect Part)
+- J Regulus – J Gonggong RA 179.551745 10φ⁶ phi power (59.49)
+- S Gonggong – S Orcus RA 179.596036 180 opposition (46.14)
+- S Gonggong – S Orcus RA 179.596036 10φ⁶ phi power (43.04)
+- S Orcus → H Gonggong RA 179.893331 180 opposition (85.78)
+- J Regulus – J Gonggong RA carried by S Gonggong – S Orcus RA and by S Orcus → H Gonggong RA
+- lights on Gonggong: S Sun – S Gonggong Dec 33.351533 33.3333 ninth (72.7); S Sun – S Gonggong RA 98.984200 99 whole (21); S Moon → J Gonggong RA 133.439393 133.333 ninth (60.23); S Sun → J Gonggong RA 105.192199 65×φ golden (38.3)
+
+### 14 Havana White — Gonggong (also: 02 Brazilian Belle, 07 Mademoiselle, 13 Storm Call, 15 Perfect Part)
+- J Regulus – J Gonggong RA 179.193934 10φ⁶ phi power (7.57)
+- S Gonggong – S Orcus RA 179.596036 10φ⁶ phi power (43.04)
+- S Orcus → H Gonggong RA 179.417635 10φ⁶ phi power (90.68)
+- J Regulus – J Gonggong RA carried by S Gonggong – S Orcus RA and by S Orcus → H Gonggong RA
+- lights on Gonggong: S Sun – S Gonggong Dec 33.351533 33.3333 ninth (72.7); S Sun – S Gonggong RA 98.984200 99 whole (21); S Sun → H Gonggong RA 99.970529 100 ninth (85.26); S Moon → J Gonggong Dec 44.014376 44 whole (28.12)
+
+### 15 Perfect Part — Gonggong (also: 02 Brazilian Belle, 07 Mademoiselle, 13 Storm Call, 14 Havana White)
+- J Regulus – J Gonggong RA 179.603064 111×φ golden (96.01)
+- S Gonggong – S Orcus RA 179.596036 111×φ golden (82.29)
+- S Gonggong – S Orcus RA 179.596036 180 opposition (46.14)
+- S Gonggong – S Orcus RA 179.596036 10φ⁶ phi power (43.04)
+- S Orcus → H Gonggong RA 179.808736 180 opposition (74.5)
+- J Regulus – J Gonggong RA carried by S Gonggong – S Orcus RA and by S Orcus → H Gonggong RA
+- lights on Gonggong: S Sun – S Gonggong Dec 33.351533 33.3333 ninth (72.7); S Sun – S Gonggong RA 98.984200 99 whole (21); S Moon → H Gonggong RA 127.826622 79×φ golden (94.02); S Sun → H Gonggong Dec 33.948919 21×φ golden (8.04); S Moon → J Gonggong RA 133.384246 133.333 ninth (80.91)
 
