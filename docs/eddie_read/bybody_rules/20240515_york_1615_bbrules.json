@@ -2658,6 +2658,46 @@
     "additive": [],
     "watch_only": false
    }
+  ],
+  "BB52": [
+   {
+    "runner": "13 Diligent Resdev",
+    "body": "Venus",
+    "cells": [
+     "H Antares – H Venus Dec 3.265036 2×φ golden (10.59)",
+     "S Venus – S Uranus RA 3.234200 2×φ golden (94.23)",
+     "H Aldebaran – H Uranus Dec 3.265338 2×φ golden (9.66)"
+    ],
+    "notes": [
+     "S Venus – S Uranus RA carries H Antares – H Venus Dec and, on Uranus, H Aldebaran – H Uranus Dec"
+    ],
+    "lights": [
+     "S Moon → H Venus Dec 38.857368 24×φ golden (24.22)",
+     "S Moon → J Venus RA 141.223697 141.4 sqrt2 (6.82)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "13 Diligent Resdev",
+    "body": "Uranus",
+    "cells": [
+     "H Aldebaran – H Uranus Dec 3.265338 2×φ golden (9.66)",
+     "S Venus – S Uranus RA 3.234200 2×φ golden (94.23)",
+     "H Antares – H Venus Dec 3.265036 2×φ golden (10.59)"
+    ],
+    "notes": [
+     "S Venus – S Uranus RA carries H Aldebaran – H Uranus Dec and, on Venus, H Antares – H Venus Dec"
+    ],
+    "lights": [
+     "S Moon – S Uranus RA 99.977440 100 ninth (88.72)",
+     "S Sun – S Uranus RA 2.017168 2 whole (14.16)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
   ]
  }
 }

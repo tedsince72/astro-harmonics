@@ -1,4 +1,4 @@
-# 20200608_haydock_1345 — body-by-body rules BB1-BB51
+# 20200608_haydock_1345 — body-by-body rules BB1-BB52
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -56,6 +56,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB49 | 1 | 1 | 07 Ishvara |  |
 | BB50 | 1 | 1 | 07 Ishvara |  |
 | BB51 | 1 | 1 | 07 Ishvara |  |
+| BB52 | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1237,4 +1238,12 @@ Origin: York 16:15 15 May 2024, 13 Diligent Resdev, Venus (H Antares – H Venus
 - S Gonggong – S Mercury RA 124.983999 125 whole (19.99)
 - Antares in both charts: H Antares – H Mercury Dec carried by S Gonggong – S Aldebaran Dec | J Antares – J Mercury RA carried by S Gonggong – S Haumea RA; Gonggong in both, on sky Mercury
 - lights on Mercury: S Sun – S Mercury Dec 1.001903 1 whole (90.49); S Moon – S Mercury Dec 47.990929 48 whole (54.65); S Moon – S Mercury Dec contraparallel 0.218065 cp contraparallel (27.31)
+
+## BB52 — 
+
+Rule: 
+
+Origin: 
+
+No runner holds it.
 

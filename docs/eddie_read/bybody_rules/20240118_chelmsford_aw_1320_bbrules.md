@@ -1,4 +1,4 @@
-# 20240118_chelmsford_aw_1320 — body-by-body rules BB1-BB51
+# 20240118_chelmsford_aw_1320 — body-by-body rules BB1-BB52
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -56,6 +56,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB49 | 0 | 0 | - |  |
 | BB50 | 0 | 0 | - |  |
 | BB51 | 0 | 0 | - |  |
+| BB52 | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -822,6 +823,14 @@ No runner holds it.
 Rule: The same royal star R has a scoring natal line to X in both charts (H R – H X and J R – J X; conj / contraparallel not counted; any plane), each carried by a sky pair on its target (pairs not naming X or the Moon); a horse pair and a jockey pair share a body Y (not a royal star), and Y is on sky X (S Y – S X scores, not conj / contraparallel). Any plane, any score.
 
 Origin: York 16:15 15 May 2024, 13 Diligent Resdev, Venus (H Antares – H Venus Dec 2×φ carried by S Jupiter – S Makemake Dec; J Antares – J Venus RA ninth 44.4444 carried by S Mars – S Jupiter RA; Jupiter on sky Venus RA ninth 7.7778 and Dec 2, also on both natal Venus) (Eddie, 15 Nov 2026). Also held by Ishvara Mercury (Haydock: H Antares – H Mercury Dec 28 carried by S Gonggong – S Aldebaran Dec; J Antares – J Mercury RA φ¹⁰ carried by S Gonggong – S Haumea RA; Gonggong on sky Mercury).
+
+No runner holds it.
+
+## BB52 — 
+
+Rule: 
+
+Origin: 
 
 No runner holds it.
 

@@ -888,3 +888,16 @@ Field check (Lingfield / Haydock / Beverley / Catterick / Chelmsford / York / Yo
 same royal star carried in both charts 5 / 7 / 4 / 3 / 6 / 9 / 9; + a shared body 1 / 4 (Ishvara Mercury) / 1 / 0 / 0 / 3 / 5; + the shared body
 on sky X (built, BB51) 0 / 1 (Ishvara Mercury) / 0 / 0 / 0 / 1 (Sinology Mercury) / 2 (Respectful Vesta, Diligent Resdev Venus); + also on both
 natal X: Diligent Resdev only (not built).
+
+## BB52 — York 16:15 15 May 2024, 13 Diligent Resdev, Uranus and Venus (15 Nov 2026, built: Eddie "build this and I also like the concept")
+Lines: S Venus – S Uranus RA 3.2342 2×φ (94.2) carries H Antares – H Venus Dec 3.2650 2×φ (10.6) and H Aldebaran – H Uranus Dec 3.2653 2×φ (9.7):
+one sky line between two bodies on a royal natal line of each end. Field check (tools/scans/bb_fieldcheck_diligent_uranus.py): a royal line to X
+carried by the sky line S X – S Y itself 6 / 23 / 26 / 12 / 17 / 7 / 35 bodies (background); + the same sky line on a royal line to Y (built,
+BB52): Diligent Resdev only in all seven races. One origin winner - built on Eddie's call (strong). BB52 reads the partner body's sheet
+(Body.all, set in run()).
+Looser versions of the concept (tools/scans/bb_fieldcheck_sky_line_royal_ends.py; bodies, runners / field; L / H / B / C / Ch / Y / Y16):
+L1 royal -> X on the sky X – Y target, royal -> Y same family: 1, 1/6; 6, 6/10 (Ishvara Gonggong); 7, 5/13 (Perfect Part Gonggong); 7, 3/5;
+1, 1/8; 0; 11, 8/15 (Diligent Resdev Venus, Uranus) - wide. L2 royal -> X and royal -> Y on the same target, sky X – Y in that family: 3, 1/6;
+2, 1/10; 6, 3/13 (Perfect Part Sun - Makemake: J Aldebaran – J Sun RA 22.2222 = J Regulus – J Makemake Dec 22.2222, S Sun – S Makemake RA
+ninth 122.222); 4, 2/5; 2, 1/8; 5, 2/7; 9, 4/15 (Diligent Resdev Venus, Uranus, Rahu: H Aldebaran – H Rahu Dec 4×φ = H Fomalhaut – H Venus Dec
+4×φ, S Venus – S Rahu RA 21×φ). L4 both royal lines in the sky line's family: every runner (background).

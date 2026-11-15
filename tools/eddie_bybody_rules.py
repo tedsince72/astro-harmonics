@@ -1400,6 +1400,40 @@ def bb51(b):
     return [{'key': ('BB51', b.X), 'cells': cells, 'notes': notes}] if cells else []
 
 
+def bb52(b):
+    """A scoring royal natal line to X (c R - c X, no conj / contraparallel, any chart and plane) is carried by the sky line S X - S Y
+    itself (a 'Sky lines on the same target' row naming X; Y not a royal star, not the Moon; the line not conj / cp), and in Y's own sheet
+    the same sky line S X - S Y (same plane) carries a royal natal line to Y (c' R' - c' Y, no conj / cp). One sky line between X and Y on
+    a royal line of each end. Any score."""
+    D = getattr(b, 'all', None) or {}
+    def selfpairs(bb):
+        out = []
+        for c, R, r in bb.star_rows(scoring=True):
+            if r['fam'] in CJ:
+                continue
+            for s in bb.same_on(r):
+                m = re.match(r'S (.+) – S (.+)$', s['line'] or '')
+                if m and bb.X in m.groups() and s['fam'] not in CJ:
+                    Y = [g for g in m.groups() if g != bb.X][0]
+                    if Y not in ROY and Y != 'Moon':
+                        out.append((r, s, Y))
+        return out
+    cells, notes = [], []
+    for r, s, Y in selfpairs(b):
+        if Y not in D:
+            continue
+        other = [(r2, s2) for r2, s2, X2 in selfpairs(Body(Y, D[Y]))
+                 if X2 == b.X and s2['line'] == s['line'] and s2['plane'] == s['plane']]
+        if not other:
+            continue
+        for o in [r, s] + [r2 for r2, _ in other]:
+            if o not in cells:
+                cells.append(o)
+        notes.append(f"{s['line']} {s['plane']} carries {r['line']} {r['plane']} and, on {Y}, "
+                     + '; '.join(f"{r2['line']} {r2['plane']}" for r2, _ in other))
+    return [{'key': ('BB52', b.X), 'cells': cells, 'notes': notes}] if cells else []
+
+
 RULES = [('BB1', bb1, 'Mercury'), ('BB2', bb2, 'Mars'), ('BB3', bb3, 'Jupiter'), ('BB4', bb4, 'Saturn'),
          ('BB5', bb5, 'Uranus'), ('BB6', bb6, 'Uranus'), ('BB7', bb7, 'Neptune'), ('BB8', bb8, 'Rahu'),
          ('BB9', bb9, 'Rahu'), ('BB10', bb10, 'Ketu'), ('BB11', bb11, 'Ceres'), ('BB12', bb12, 'Pallas'),
@@ -1408,7 +1442,7 @@ RULES = [('BB1', bb1, 'Mercury'), ('BB2', bb2, 'Mars'), ('BB3', bb3, 'Jupiter'),
          ('BB21', bb21, 'Saturn'), ('BB22', bb22, 'Saturn'), ('BB23', bb23, 'Neptune'), ('BB24', bb24, 'Rahu'), ('BB25', bb25, 'Ketu'), ('BB26', bb26, 'Ceres'), ('BB27', bb27, 'Pallas'), ('BB28', bb28, 'Juno'), ('BB29', bb29, 'Vesta'), ('BB30', bb30, 'Eris'), ('BB31', bb31, 'Gonggong'),
          ('BB32', bb32, 'Sun'), ('BB32b', bb32b, 'Sun'), ('BB33', bb33, 'Mercury'), ('BB34', bb34, 'Mars'), ('BB35', bb35, 'Saturn'),
          ('BB36', bb36, 'Uranus'), ('BB37', bb37, 'Pluto'), ('BB38', bb38, 'Juno'), ('BB39', bb39, 'Makemake'),
-         ('BB40', bb40, 'Sedna'), ('BB41', bb41, 'Sun'), ('BB42', bb42, 'Mercury'), ('BB43', bb43, 'Venus'), ('BB44', bb44, 'Jupiter'), ('BB45', bb45, 'Saturn'), ('BB46', bb46, 'Saturn'), ('BB47', bb47, 'Ceres'), ('BB48', bb48, 'Chiron'), ('BB49', bb49, 'Haumea'), ('BB50', bb50, 'Makemake'), ('BB51', bb51, 'Venus')]
+         ('BB40', bb40, 'Sedna'), ('BB41', bb41, 'Sun'), ('BB42', bb42, 'Mercury'), ('BB43', bb43, 'Venus'), ('BB44', bb44, 'Jupiter'), ('BB45', bb45, 'Saturn'), ('BB46', bb46, 'Saturn'), ('BB47', bb47, 'Ceres'), ('BB48', bb48, 'Chiron'), ('BB49', bb49, 'Haumea'), ('BB50', bb50, 'Makemake'), ('BB51', bb51, 'Venus'), ('BB52', bb52, 'Uranus')]
 
 
 def decade_pairs(cells):
@@ -1442,6 +1476,7 @@ def run(path):
         for runner, D in data.items():
             for X, d in D.items():
                 b = Body(X, d)
+                b.all = D  # the runner's other bodies (BB52 reads the partner body's sheet)
                 seen = set()
                 for case in fn(b):
                     if case['key'] in seen:
