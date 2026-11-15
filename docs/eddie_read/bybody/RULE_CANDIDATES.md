@@ -736,3 +736,33 @@ b = a + Y on natal X in the same-body chart (not built, noted): 0 / 0 / Mademois
 c = a + Y on that natal X in both planes (built, BB45): Secret Satire Saturn only.
 d = c + a royal star on sky X (built, BB46): Secret Satire Saturn only.
 a + Y on sky X: Birkenhead Ceres, Classical Song Sun (noted).
+
+## Uranus — York 15:45 15 May 2024, 6 Secret Satire (15 Nov 2026, not built: Eddie "leave that one")
+Lines: J Antares – J Uranus RA 51.7564 32×φ (36.3); J Fomalhaut – J Uranus RA 45.3104 28×φ (83.2); J Regulus – J Uranus RA 147.0197 whole 147
+(1.5) and Dec 33.2937 ninth 33.3333 (40.6), the Dec line carried by S Eris – S Sedna RA 33.3187 (78.0) and S Ketu – S Juno RA 33.3489 (76.7);
+S Eris → H Uranus Dec 14.5726 9×φ (68.2); S Juno → J Uranus Dec 32.0065 whole 32 (67.7); S Sun – S Uranus RA 1.9979 whole 2 (89.6); S Sun →
+H Uranus Dec 4.8633 3×φ (71.6). No pair end on sky Uranus. Field check (Lingfield / Haydock / Beverley / Catterick / Chelmsford / York; royal
+line not conj / cp; pair not naming X or the Moon):
+a = a royal line with two sky pairs on its target: 17 / 38 / 61 / 17 / 45 / 43.
+b = a royal line with a sky pair, an end on natal X: 42 / 89 / 122 / 42 / 71 / 65.
+c2 = two pairs, each with an end on natal X: 13 / 21 / 40 / 7 / 20 / 32.
+c = c2 with the ends in different charts: 9 / 16 / 29 / 4 / 12 / 28 (incl. Pholas Mercury, Venus, Saturn; Ishvara Vesta, Gonggong).
+d = three royal stars on natal X in one chart: 12 / 24 / 22 / 10 / 10 / 8 (incl. Pholas Mercury; Wotever Next Sun, Quaoar).
+c + d: 4 / 4 / 5 / 1 / 2 / 4 (Pholas Mercury and Secret Satire Uranus the same shape).
+c + Sun on sky X and natal X: 1 / 3 / 5 / 0 / 1 / 3.
+c + d + Sun: Shimmering Dawn Jupiter / 0 / Havana White Makemake / 0 / Foinix Gonggong / Secret Satire Uranus.
+c2 + d: 4 / 6 / 6 / 2 (Beluga Gold Quaoar, Wotever Next Quaoar) / 4 / 4.
+
+## Neptune — York 15:45 15 May 2024, 6 Secret Satire (15 Nov 2026, not built: Eddie "leave it")
+Lines: S Uranus – S Neptune RA 50.9991 whole 51 (95.7); S Uranus → H Neptune Dec 22.6546 14×φ (93.6); S Neptune → J Neptune Dec 19.3995 12×φ
+(47.9), carried by S Sun – S Eris Dec 19.4359 12×φ (39.8; not pasted); S Moon → J Neptune RA 144.4352 ninth 144.444 (96.8); S Sun – S Neptune RA
+52.9971 whole 53 (85.3). No BB rule held Secret Satire Neptune. Field check (same races; Y a sky body not X, Sun or Moon; no conj / cp):
+1 = Y on sky X and natal X in chart c, same-body line in the other chart: 44 / 55 / 78 / 27 / 39 / 44.
+1h = 1, both Y lines >= 80: 4 / 2 / 8 / 3 / 5 / 6.
+2 = 1 + Sun on sky X: 6 / 23 / 11 / 2 / 13 / 16.
+3 = 1 + Moon on natal X in the same-body chart: 17 / 17 / 20 / 6 / 7 / 15 (incl. Ishvara Vesta; Pholas Juno, Vesta, Eris).
+4 = 3 + Sun on sky X: 2 / 8 / 2 / 1 / 1 / 2 (York: Mayfair Uranus, Secret Satire Neptune).
+5 = 4, Moon not on natal X in chart c: 2 / 7 / 1 / 1 / 1 / 2.
+7 = 1h + Sun on sky X: 0 / 0 / 2 / 0 / 2 / 3. 8 = 1h + Moon in the same-body chart: 0 / 0 / 3 / 2 / 1 / 3.
+9 = 4 with both Y lines >= 80: Secret Satire Neptune only. 6 = 4 + the same-body line carried by a pair with the Sun: Secret Satire Neptune only.
+4h = 4 with the Y and Sun lines >= 80: Secret Satire Neptune only.
