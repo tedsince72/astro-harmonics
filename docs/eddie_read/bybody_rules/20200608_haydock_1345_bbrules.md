@@ -1,4 +1,4 @@
-# 20200608_haydock_1345 — body-by-body rules BB1-BB53
+# 20200608_haydock_1345 — body-by-body rules BB1-BB54
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -58,6 +58,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB51 | 1 | 1 | 07 Ishvara |  |
 | BB52 | 0 | 0 | - |  |
 | BB53 | 2 | 1 | 03 Never In Paris |  |
+| BB54 | 4 | 4 | 02 Ventura Flame, 03 Never In Paris, 06 Birkenhead, 07 Ishvara |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1248,11 +1249,11 @@ Origin: York 16:15 15 May 2024, 13 Diligent Resdev, Uranus and Venus (S Venus �
 
 No runner holds it.
 
-## BB53 — 
+## BB53 — Looser BB52: one sky line X – Y, royal lines to X and to Y on the same target, sky line in that family
 
-Rule: 
+Rule: A scored sky line S X – S Y ('Other scoring sky lines'; Y not a royal star or the Moon; not conj / contraparallel), a scoring royal natal line to X (c R – c X) and a scoring royal natal line to Y (c' R' – c' Y, from Y's sheet; neither conj / contraparallel) on the same family and target, and the sky line in that same family (its target may differ). Any chart, plane, royal star and score. Held on each body where it is found (usually both X and Y).
 
-Origin: 
+Origin: Looser version L2 of BB52 (Eddie, 15 Nov 2026: 'build this ... maybe there are looser examples that are just same family or distance multiples', then 'yes, please build' after the multiples check). Origin winners: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Sun and Makemake (S Makemake – S Sun RA 122.222 ninth; J Aldebaran – J Sun RA and J Regulus – J Makemake Dec both 22.2222 ninth); York 16:15 15 May 2024, 13 Diligent Resdev, Venus, Rahu and Uranus (S Venus – S Rahu RA 21×φ; H Aldebaran – H Rahu Dec and H Fomalhaut – H Venus Dec both 4×φ; also Venus – Uranus). Multiples versions (royal lines on 3/2 … 9 of each other or of the sky line) checked first: every runner or half the field, not built.
 
 ### 03 Never In Paris — Vesta (only)
 - S Chiron – S Vesta RA 85.015574 85 whole (22.13)
@@ -1267,4 +1268,34 @@ Origin:
 - J Antares – J Vesta RA 20.009517 20 whole (52.42)
 - S Vesta – S Chiron RA 85 whole: J Regulus – J Chiron Dec and, on Vesta, J Antares – J Vesta RA both 20
 - lights on Chiron: S Sun → H Chiron RA 84.120297 52×φ golden (46.08)
+
+## BB54 — 
+
+Rule: 
+
+Origin: 
+
+### 02 Ventura Flame — Neptune (also: 03 Never In Paris, 06 Birkenhead, 07 Ishvara)
+- J Regulus – J Neptune RA 149.985242 150 whole (26.21)
+- S Neptune → J Neptune Dec 15.046916 (no family)
+- J Regulus – J Neptune RA 149.985242 / S Neptune → J Neptune Dec 15.046916: crossed ratio 9.967839 on 10 (35.68)
+- lights on Neptune: S Moon – S Neptune Dec 19.411383 12×φ golden (84.49); S Sun → H Neptune RA 92.014808 92 whole (25.96); S Moon → H Neptune Dec 16.695025 16.6667 ninth (14.93)
+
+### 03 Never In Paris — Neptune (also: 02 Ventura Flame, 06 Birkenhead, 07 Ishvara)
+- H Aldebaran – H Neptune RA 85.734619 53×φ golden (34.62)
+- S Neptune → H Neptune RA 8.556199 (no family)
+- H Aldebaran – H Neptune RA 85.734619 / S Neptune → H Neptune RA 8.556199: same-body ratio 10.020176 on 10 (59.65)
+- lights on Neptune: S Moon – S Neptune Dec 19.411383 12×φ golden (84.49); S Moon → J Neptune RA 3.242152 2×φ golden (81.22)
+
+### 06 Birkenhead — Jupiter (also: 02 Ventura Flame, 03 Never In Paris, 07 Ishvara)
+- H Fomalhaut – H Jupiter RA 144.579041 144.444 ninth (53.41)
+- S Jupiter → H Jupiter Dec 14.488012 (no family)
+- H Fomalhaut – H Jupiter RA 144.579041 / S Jupiter → H Jupiter Dec 14.488012: crossed ratio 9.979219 on 10 (58.44)
+- lights on Jupiter: S Sun → H Jupiter RA 122.982813 φ¹⁰ phi power (95.09)
+
+### 07 Ishvara — Jupiter (also: 02 Ventura Flame, 03 Never In Paris, 06 Birkenhead)
+- H Fomalhaut – H Jupiter RA 144.676267 144.444 ninth (19.75)
+- S Jupiter → H Jupiter Dec 14.529406 (no family)
+- H Fomalhaut – H Jupiter RA 144.676267 / S Jupiter → H Jupiter Dec 14.529406: crossed ratio 9.957480 on 10 (14.96)
+- lights on Jupiter: S Sun → H Jupiter RA 122.885610 φ¹⁰ phi power (42.4)
 

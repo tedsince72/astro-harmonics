@@ -1,4 +1,4 @@
-# 20240608_beverley_1405 — body-by-body rules BB1-BB53
+# 20240608_beverley_1405 — body-by-body rules BB1-BB54
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -58,6 +58,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB51 | 0 | 0 | - |  |
 | BB52 | 0 | 0 | - |  |
 | BB53 | 6 | 3 | 10 Over Spiced, 11 Powerful Lady, 15 Perfect Part |  |
+| BB54 | 5 | 5 | 04 Invincible Annice, 07 Mademoiselle, 08 Maw Lam, 14 Havana White, 15 Perfect Part |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1677,11 +1678,11 @@ Origin: York 16:15 15 May 2024, 13 Diligent Resdev, Uranus and Venus (S Venus �
 
 No runner holds it.
 
-## BB53 — 
+## BB53 — Looser BB52: one sky line X – Y, royal lines to X and to Y on the same target, sky line in that family
 
-Rule: 
+Rule: A scored sky line S X – S Y ('Other scoring sky lines'; Y not a royal star or the Moon; not conj / contraparallel), a scoring royal natal line to X (c R – c X) and a scoring royal natal line to Y (c' R' – c' Y, from Y's sheet; neither conj / contraparallel) on the same family and target, and the sky line in that same family (its target may differ). Any chart, plane, royal star and score. Held on each body where it is found (usually both X and Y).
 
-Origin: 
+Origin: Looser version L2 of BB52 (Eddie, 15 Nov 2026: 'build this ... maybe there are looser examples that are just same family or distance multiples', then 'yes, please build' after the multiples check). Origin winners: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Sun and Makemake (S Makemake – S Sun RA 122.222 ninth; J Aldebaran – J Sun RA and J Regulus – J Makemake Dec both 22.2222 ninth); York 16:15 15 May 2024, 13 Diligent Resdev, Venus, Rahu and Uranus (S Venus – S Rahu RA 21×φ; H Aldebaran – H Rahu Dec and H Fomalhaut – H Venus Dec both 4×φ; also Venus – Uranus). Multiples versions (royal lines on 3/2 … 9 of each other or of the sky line) checked first: every runner or half the field, not built.
 
 ### 10 Over Spiced — Sun (also: 11 Powerful Lady, 15 Perfect Part)
 - S Rahu – S Sun Dec 17.744492 17.7778 ninth (6.38)
@@ -1723,4 +1724,41 @@ Origin:
 - J Aldebaran – J Sun RA 22.244169 22.2222 ninth (50.62)
 - S Sun – S Makemake RA 122.222 ninth: J Regulus – J Makemake Dec and, on Sun, J Aldebaran – J Sun RA both 22.2222
 - lights on Makemake: S Sun – S Makemake RA 122.336114 122.222 ninth (53.41); S Sun → H Makemake Dec 0.106418 conj conj (64.53); S Sun → J Makemake Dec 11.304415 7×φ golden (32.65)
+
+## BB54 — 
+
+Rule: 
+
+Origin: 
+
+### 04 Invincible Annice — Gonggong (also: 07 Mademoiselle, 08 Maw Lam, 14 Havana White, 15 Perfect Part)
+- J Aldebaran – J Gonggong RA 100.065147 100 ninth (67.43)
+- S Gonggong → J Gonggong Dec 10.005150 10 whole (74.25)
+- J Aldebaran – J Gonggong RA 100.065147 / S Gonggong → J Gonggong Dec 10.005150: crossed ratio 10.001364 on 10 (97.27)
+- HIGHLIGHT same digits a decade apart: 100 (J Aldebaran – J Gonggong) / 10 (S Gonggong → J Gonggong)
+- lights on Gonggong: S Sun – S Gonggong Dec 33.351533 33.3333 ninth (72.7); S Sun – S Gonggong RA 98.984200 99 whole (21)
+
+### 07 Mademoiselle — Pallas (also: 04 Invincible Annice, 08 Maw Lam, 14 Havana White, 15 Perfect Part)
+- J Aldebaran – J Pallas Dec 17.819967 11×φ golden (33.35)
+- S Pallas → J Pallas RA 178.562548 (no family)
+- J Aldebaran – J Pallas Dec 17.819967 / S Pallas → J Pallas RA 178.562548: crossed ratio 10.020364 on 10 (59.27)
+- lights on Pallas: S Moon → H Pallas RA 99.925457 100 ninth (62.73)
+
+### 08 Maw Lam — Pluto (also: 04 Invincible Annice, 07 Mademoiselle, 14 Havana White, 15 Perfect Part)
+- J Aldebaran – J Pluto Dec 9.719336 6×φ golden (65.64)
+- S Pluto → J Pluto RA 97.370265 (no family)
+- J Aldebaran – J Pluto Dec 9.719336 / S Pluto → J Pluto RA 97.370265: crossed ratio 10.018201 on 10 (63.60)
+- lights on Pluto: S Sun – S Pluto Dec contraparallel 0.003798 cp contraparallel (98.73); S Moon → J Pluto RA 101.999562 102 whole (97.81)
+
+### 14 Havana White — Pluto (also: 04 Invincible Annice, 07 Mademoiselle, 08 Maw Lam, 15 Perfect Part)
+- H Fomalhaut – H Pluto RA 44.416802 44.4444 ninth (68.9)
+- S Pluto → H Pluto RA 4.459246 (no family)
+- H Fomalhaut – H Pluto RA 44.416802 / S Pluto → H Pluto RA 4.459246: same-body ratio 9.960608 on 10 (21.22)
+- lights on Pluto: S Sun – S Pluto Dec contraparallel 0.003798 cp contraparallel (98.73); S Sun → H Pluto Dec 45.328726 28×φ golden (26.62)
+
+### 15 Perfect Part — Uranus (also: 04 Invincible Annice, 07 Mademoiselle, 08 Maw Lam, 14 Havana White)
+- H Regulus – H Uranus RA 111.240410 111.111 ninth (41.82)
+- S Uranus → H Uranus RA 11.095305 φ⁵ phi power (69.13)
+- H Regulus – H Uranus RA 111.240410 / S Uranus → H Uranus RA 11.095305: same-body ratio 10.025899 on 10 (48.20)
+- lights on Uranus: S Sun → H Uranus RA 35.980071 36 whole (0.36)
 

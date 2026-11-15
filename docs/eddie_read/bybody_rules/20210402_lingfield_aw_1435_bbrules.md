@@ -1,4 +1,4 @@
-# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB53
+# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB54
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -58,6 +58,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB51 | 0 | 0 | - |  |
 | BB52 | 0 | 0 | - |  |
 | BB53 | 3 | 1 | 06 Shimmering Dawn |  |
+| BB54 | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -835,11 +836,11 @@ Origin: York 16:15 15 May 2024, 13 Diligent Resdev, Uranus and Venus (S Venus �
 
 No runner holds it.
 
-## BB53 — 
+## BB53 — Looser BB52: one sky line X – Y, royal lines to X and to Y on the same target, sky line in that family
 
-Rule: 
+Rule: A scored sky line S X – S Y ('Other scoring sky lines'; Y not a royal star or the Moon; not conj / contraparallel), a scoring royal natal line to X (c R – c X) and a scoring royal natal line to Y (c' R' – c' Y, from Y's sheet; neither conj / contraparallel) on the same family and target, and the sky line in that same family (its target may differ). Any chart, plane, royal star and score. Held on each body where it is found (usually both X and Y).
 
-Origin: 
+Origin: Looser version L2 of BB52 (Eddie, 15 Nov 2026: 'build this ... maybe there are looser examples that are just same family or distance multiples', then 'yes, please build' after the multiples check). Origin winners: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Sun and Makemake (S Makemake – S Sun RA 122.222 ninth; J Aldebaran – J Sun RA and J Regulus – J Makemake Dec both 22.2222 ninth); York 16:15 15 May 2024, 13 Diligent Resdev, Venus, Rahu and Uranus (S Venus – S Rahu RA 21×φ; H Aldebaran – H Rahu Dec and H Fomalhaut – H Venus Dec both 4×φ; also Venus – Uranus). Multiples versions (royal lines on 3/2 … 9 of each other or of the sky line) checked first: every runner or half the field, not built.
 
 ### 06 Shimmering Dawn — Sun (only)
 - S Jupiter – S Sun Dec 19.418627 12×φ golden (93.15)
@@ -865,4 +866,12 @@ Origin:
 - J Fomalhaut – J Sun Dec 42.042162 26×φ golden (17.53)
 - S Sun – S Pallas RA 23×φ golden: J Fomalhaut – J Pallas Dec and, on Sun, J Fomalhaut – J Sun Dec both 26×φ
 - lights on Pallas: S Moon – S Pallas Dec 27.992984 28 whole (64.92); S Sun – S Pallas RA 37.184267 23×φ golden (5.82)
+
+## BB54 — 
+
+Rule: 
+
+Origin: 
+
+No runner holds it.
 

@@ -931,7 +931,7 @@ S Neptune → H Neptune RA 9.7371 6×φ carried by S Sun – S Chiron Dec 6×φ;
 N2 (>= 2 carriers with an end on sky X in the royal line's family) 2/6, 5/10, 2/13, 0/5, 2/8, 3/7, 7/15, winners in 3 of 5 races
 (Pholas, Secret Satire, Diligent Resdev; 21 picks, 1.9 by chance); N3, N4, N5, N2c all near chance (13-18 picks, 1-3 won, 1.2-1.8).
 
-## Diligent Resdev Rahu, Aldebaran in both charts + ratio 10 (15 Nov 2026, Eddie's lines; not built, waiting for Eddie)
+## Diligent Resdev Rahu, Aldebaran in both charts + ratio 10 (15 Nov 2026, Eddie's lines; T10 built as BB54, A2 not built)
 S Aldebaran – S Rahu RA 55.5944 ninth 55.5556 (65.1); H Aldebaran – H Rahu Dec 6.493563 4×φ (33.87), crossed against S Rahu → H Rahu RA
 64.936805 = 10.000181 '10' (99.64); J Aldebaran – J Rahu Dec 32.3644 20×φ (88.4), same-body against S Rahu → J Rahu 21.583115 = 1.499526
 3/2 (97.6), carried by S Quaoar – S Antares RA 32.3537 20×φ (78.6); S Quaoar → H Rahu Dec 37.9943 38 (71.6). Field

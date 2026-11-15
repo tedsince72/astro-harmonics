@@ -1,4 +1,4 @@
-# 20240118_chelmsford_aw_1320 — body-by-body rules BB1-BB53
+# 20240118_chelmsford_aw_1320 — body-by-body rules BB1-BB54
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -58,6 +58,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB51 | 0 | 0 | - |  |
 | BB52 | 0 | 0 | - |  |
 | BB53 | 2 | 1 | 08 Duveen |  |
+| BB54 | 1 | 1 | 02 Sullivan Bay |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -835,11 +836,11 @@ Origin: York 16:15 15 May 2024, 13 Diligent Resdev, Uranus and Venus (S Venus �
 
 No runner holds it.
 
-## BB53 — 
+## BB53 — Looser BB52: one sky line X – Y, royal lines to X and to Y on the same target, sky line in that family
 
-Rule: 
+Rule: A scored sky line S X – S Y ('Other scoring sky lines'; Y not a royal star or the Moon; not conj / contraparallel), a scoring royal natal line to X (c R – c X) and a scoring royal natal line to Y (c' R' – c' Y, from Y's sheet; neither conj / contraparallel) on the same family and target, and the sky line in that same family (its target may differ). Any chart, plane, royal star and score. Held on each body where it is found (usually both X and Y).
 
-Origin: 
+Origin: Looser version L2 of BB52 (Eddie, 15 Nov 2026: 'build this ... maybe there are looser examples that are just same family or distance multiples', then 'yes, please build' after the multiples check). Origin winners: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Sun and Makemake (S Makemake – S Sun RA 122.222 ninth; J Aldebaran – J Sun RA and J Regulus – J Makemake Dec both 22.2222 ninth); York 16:15 15 May 2024, 13 Diligent Resdev, Venus, Rahu and Uranus (S Venus – S Rahu RA 21×φ; H Aldebaran – H Rahu Dec and H Fomalhaut – H Venus Dec both 4×φ; also Venus – Uranus). Multiples versions (royal lines on 3/2 … 9 of each other or of the sky line) checked first: every runner or half the field, not built.
 
 ### 08 Duveen — Gonggong (only)
 - S Transpluto – S Gonggong Dec 21.060582 13×φ golden (19.32)
@@ -854,4 +855,16 @@ Origin:
 - J Aldebaran – J Gonggong Dec 37.211805 23×φ golden (90.81)
 - S Gonggong – S Transpluto Dec 13×φ golden: H Antares – H Transpluto Dec and, on Gonggong, J Aldebaran – J Gonggong Dec both 23×φ
 - lights on Transpluto: S Sun – S Transpluto RA 144.014804 89×φ golden (69.82); S Sun – S Transpluto Dec 30.772319 19×φ golden (8.42); S Sun → J Transpluto RA 155.330219 96×φ golden (96.78)
+
+## BB54 — 
+
+Rule: 
+
+Origin: 
+
+### 02 Sullivan Bay — Uranus (only)
+- H Antares – H Uranus RA 144.555544 144.444 ninth (61.54)
+- S Uranus → H Uranus RA 14.508467 (no family)
+- H Antares – H Uranus RA 144.555544 / S Uranus → H Uranus RA 14.508467: same-body ratio 9.963530 on 10 (27.06)
+- lights on Uranus: S Sun → H Uranus RA 92.239252 57×φ golden (65.08); S Moon → H Uranus RA 1.336337 conj conj (10.91)
 

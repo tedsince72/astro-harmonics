@@ -70,6 +70,7 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB50': set(),
     'BB51': set(),
     'BB52': set(),
+    'BB54': set(),
     'BB53': {('06 Shimmering Dawn', 'Sun'), ('06 Shimmering Dawn', 'Jupiter'), ('06 Shimmering Dawn', 'Pallas')},
 }
 CELLS = {  # rule: (runner, body, [cell texts that must be in the case])
@@ -223,6 +224,10 @@ if os.path.exists(HAY):
     check(len(ic50) == 4, 'BB50 Ishvara Eris: 4 cells')
     check({(c['runner'], c['body']) for c in hres['BB51']} == {('07 Ishvara', 'Mercury')}, 'BB51 Haydock holders')
     check(hres['BB52'] == [], 'BB52 Haydock: no holder')
+    check({(c['runner'], c['body']) for c in hres['BB54']} == {('02 Ventura Flame', 'Neptune'), ('03 Never In Paris', 'Neptune'),
+          ('06 Birkenhead', 'Jupiter'), ('07 Ishvara', 'Jupiter')}, 'BB54 Haydock holders')
+    ij54 = [n for c in hres['BB54'] if c['runner'] == '07 Ishvara' for n in c['notes']]
+    check(any('H Fomalhaut – H Jupiter RA 144.676267' in n and 'crossed ratio 9.957' in n for n in ij54), 'BB54 Ishvara note')
     check({(c['runner'], c['body']) for c in hres['BB53']} == {('03 Never In Paris', 'Vesta'), ('03 Never In Paris', 'Chiron')}, 'BB53 Haydock holders')
     ic51 = [x for c in hres['BB51'] for x in c['cells']]
     for w in ('H Antares – H Mercury Dec 27.981919', 'S Gonggong – S Aldebaran Dec 27.999417', 'J Antares – J Mercury RA 122.977640',
@@ -338,6 +343,10 @@ if os.path.exists(BEV):
     check(bres['BB49'] == [], 'BB49 Beverley: no holder')
     check(bres['BB51'] == [], 'BB51 Beverley: no holder')
     check(bres['BB52'] == [], 'BB52 Beverley: no holder')
+    check({(c['runner'], c['body']) for c in bres['BB54']} == {('04 Invincible Annice', 'Gonggong'), ('07 Mademoiselle', 'Pallas'),
+          ('08 Maw Lam', 'Pluto'), ('14 Havana White', 'Pluto'), ('15 Perfect Part', 'Uranus')}, 'BB54 Beverley holders')
+    pp54 = [n for c in bres['BB54'] if c['runner'] == '15 Perfect Part' for n in c['notes']]
+    check(any('H Regulus – H Uranus RA 111.240410' in n and 'same-body ratio 10.025899' in n for n in pp54), 'BB54 Perfect Part note')
     check({(c['runner'], c['body']) for c in bres['BB53']} == {('10 Over Spiced', 'Sun'), ('10 Over Spiced', 'Rahu'),
           ('11 Powerful Lady', 'Mercury'), ('11 Powerful Lady', 'Chiron'), ('15 Perfect Part', 'Sun'), ('15 Perfect Part', 'Makemake')}, 'BB53 Beverley holders')
     pp = [x for c in bres['BB53'] if c['runner'] == '15 Perfect Part' and c['body'] == 'Sun' for x in c['cells']]
@@ -420,6 +429,7 @@ if os.path.exists(CAT):
     check(cres['BB50'] == [], 'BB50 Catterick: no holder')
     check(cres['BB51'] == [], 'BB51 Catterick: no holder')
     check(cres['BB52'] == [], 'BB52 Catterick: no holder')
+    check({(c['runner'], c['body']) for c in cres['BB54']} == {('02 Beluga Gold', 'Chiron'), ('02 Beluga Gold', 'Makemake')}, 'BB54 Catterick holders')
     check({(c['runner'], c['body']) for c in cres['BB53']} == {('02 Beluga Gold', 'Chiron'), ('02 Beluga Gold', 'Gonggong'),
           ('03 Capuchinero', 'Mercury'), ('03 Capuchinero', 'Haumea')}, 'BB53 Catterick holders')
 check({(c['runner'], c['body']) for c in yres['BB49']} == {('06 Secret Satire', 'Haumea')}, 'BB49 York holders')
@@ -452,6 +462,8 @@ for w in ('H Regulus – H Ceres RA 133.301747', 'S Ketu – S Sedna RA 133.1625
 check(not any('contraparallel' in x for x in yc7), 'BB47 Secret Satire: the Eris contraparallel line not used')
 check({(c['runner'], c['body']) for c in yres['BB51']} == {('07 Sinology', 'Mercury')}, 'BB51 York holders')
 check(yres['BB52'] == [], 'BB52 York: no holder')
+check({(c['runner'], c['body']) for c in yres['BB54']} == {('02 Francophone', 'Neptune'), ('06 Secret Satire', 'Rahu')}, 'BB54 York holders')
+check(any('crossed ratio 10.017866' in n for c in yres['BB54'] if c['runner'] == '06 Secret Satire' for n in c['notes']), 'BB54 Secret Satire note')
 check({(c['runner'], c['body']) for c in yres['BB53']} == {('01 Classical Song', 'Uranus'), ('01 Classical Song', 'Neptune'),
       ('04 La Pasionaria', 'Pluto'), ('04 La Pasionaria', 'Orcus'), ('04 La Pasionaria', 'Quaoar')}, 'BB53 York holders')
 Y16 = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', '20240515_york_1615', '20240515_york_1615_bybody.xlsx')
@@ -475,5 +487,10 @@ if os.path.exists(Y16):
     for w in ('S Venus – S Rahu RA 33.951817 21×φ golden', 'H Aldebaran – H Rahu Dec 6.493563 4×φ golden',
               'H Fomalhaut – H Venus Dec 6.460070 4×φ golden'):
         check(any(x.startswith(w) for x in dr), f'BB53 Diligent Resdev Rahu cell {w}')
+    check({(c['runner'], c['body']) for c in y16['BB54']} == {('04 Elmonjed', 'Ketu'), ('06 True Promise', 'Rahu'), ('11 On Point', 'Mars'),
+          ('12 Quiet Resolve', 'Uranus'), ('13 Diligent Resdev', 'Rahu'), ('14 Misemerald', 'Rahu')}, 'BB54 York 16:15 holders')
+    d54 = [c for c in y16['BB54'] if c['runner'] == '13 Diligent Resdev']
+    check(len(d54) == 1 and d54[0]['cells'] == ['H Aldebaran – H Rahu Dec 6.493563 4×φ golden (33.87)', 'S Rahu → H Rahu RA 64.936805 (no family)']
+          and any('crossed ratio 10.000181 on 10 (99.64)' in n for n in d54[0]['notes']), 'BB54 Diligent Resdev cells and note')
 print(f'{ok}/{ok + bad} checks passed')
 sys.exit(1 if bad else 0)

@@ -1,4 +1,4 @@
-# 20220406_catterick_1440 — body-by-body rules BB1-BB53
+# 20220406_catterick_1440 — body-by-body rules BB1-BB54
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -58,6 +58,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB51 | 0 | 0 | - |  |
 | BB52 | 0 | 0 | - |  |
 | BB53 | 4 | 2 | 02 Beluga Gold, 03 Capuchinero |  |
+| BB54 | 2 | 1 | 02 Beluga Gold |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -815,11 +816,11 @@ Origin: York 16:15 15 May 2024, 13 Diligent Resdev, Uranus and Venus (S Venus �
 
 No runner holds it.
 
-## BB53 — 
+## BB53 — Looser BB52: one sky line X – Y, royal lines to X and to Y on the same target, sky line in that family
 
-Rule: 
+Rule: A scored sky line S X – S Y ('Other scoring sky lines'; Y not a royal star or the Moon; not conj / contraparallel), a scoring royal natal line to X (c R – c X) and a scoring royal natal line to Y (c' R' – c' Y, from Y's sheet; neither conj / contraparallel) on the same family and target, and the sky line in that same family (its target may differ). Any chart, plane, royal star and score. Held on each body where it is found (usually both X and Y).
 
-Origin: 
+Origin: Looser version L2 of BB52 (Eddie, 15 Nov 2026: 'build this ... maybe there are looser examples that are just same family or distance multiples', then 'yes, please build' after the multiples check). Origin winners: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Sun and Makemake (S Makemake – S Sun RA 122.222 ninth; J Aldebaran – J Sun RA and J Regulus – J Makemake Dec both 22.2222 ninth); York 16:15 15 May 2024, 13 Diligent Resdev, Venus, Rahu and Uranus (S Venus – S Rahu RA 21×φ; H Aldebaran – H Rahu Dec and H Fomalhaut – H Venus Dec both 4×φ; also Venus – Uranus). Multiples versions (royal lines on 3/2 … 9 of each other or of the sky line) checked first: every runner or half the field, not built.
 
 ### 02 Beluga Gold — Chiron (also: 03 Capuchinero)
 - S Gonggong – S Chiron RA 33.346535 33.3333 ninth (80.2)
@@ -853,4 +854,22 @@ Origin:
 - H Fomalhaut – H Mercury Dec 29.038063 φ⁷ phi power (91.69)
 - S Mercury – S Haumea RA 100φ phi power: J Regulus – J Haumea RA and, on Mercury, H Fomalhaut – H Mercury Dec both φ⁷
 - lights on Haumea: S Moon → H Haumea Dec 8.113177 5×φ golden (28.99); S Sun → J Haumea RA 165.999760 166 whole (98.8); S Moon → J Haumea RA 105.190607 65×φ golden (43.22)
+
+## BB54 — 
+
+Rule: 
+
+Origin: 
+
+### 02 Beluga Gold — Chiron (only)
+- J Aldebaran – J Chiron Dec 15.585946 15.5556 ninth (2.32)
+- S Chiron → J Chiron RA 156.342202 (no family)
+- J Aldebaran – J Chiron Dec 15.585946 / S Chiron → J Chiron RA 156.342202: crossed ratio 10.030973 on 10 (38.05)
+- lights on Chiron: S Moon – S Chiron Dec 17.777129 17.7778 ninth (98.17); S Sun – S Chiron Dec 0.204340 conj conj (31.89); S Sun → H Chiron RA 14.434050 14.4444 ninth (64.02)
+
+### 02 Beluga Gold — Makemake (only)
+- J Aldebaran – J Makemake RA 105.186241 65×φ golden (56.69)
+- S Makemake → J Makemake Dec 10.499952 (no family)
+- J Aldebaran – J Makemake RA 105.186241 / S Makemake → J Makemake Dec 10.499952: crossed ratio 10.017783 on 10 (64.43)
+- lights on Makemake: S Moon → H Makemake Dec 0.061843 conj conj (79.39); S Sun → H Makemake Dec 17.919627 φ⁶ phi power (8.44); S Sun → J Makemake Dec 27.001799 27 whole (91.01)
 
