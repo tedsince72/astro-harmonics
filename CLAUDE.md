@@ -1762,7 +1762,10 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
   (Ishvara, BB18-BB31) and Beverley 14:05 8 Jun 2024 (Perfect Part: Sun BB32 + sub rule BB32b, Mercury BB33, Mars BB34 (revised to any plane 15 Nov; Sedna end noted), Saturn BB35, Uranus BB36 = Pholas and Perfect Part only, Pluto BB37 = Ishvara Vesta and Perfect Part Pluto, Juno BB38 = Perfect Part only, Makemake BB39 = Pholas Juno and Perfect Part Makemake, Sedna BB40 = Ishvara Rahu and Perfect Part Sedna; Rahu considered, not built - every version left is noted in RULE_CANDIDATES.md) in progress; next: Eddie's next race (send its
   _active.xlsx -> eddie_bybody.py -> eddie_bybody_rules.py, then new rules from his lines). Ratio notes to review later (4×φ as a ratio)
   in RULE_CANDIDATES.md. Tests 211/211. Depth ladder built 15 Nov (tools/eddie_depth.py); York 15:45 15 May 2024 read blind with it
-  and with BB1-BB40 (docs/eddie_read/depth/, docs/eddie_read/bybody_rules/); result not opened.
+  and with BB1-BB40 (docs/eddie_read/depth/, docs/eddie_read/bybody_rules/), then Eddie's result (results.json): 1 Secret Satire 22/1,
+  2 Francophone, 3 Classical Song, 4 La Pasionaria. Depth ladder test 1: the two at step 5 finished 2nd and 4th; the winner was at step 3
+  (Venus, also La Pasionaria) - no hit. Secret Satire Ceres held 4 BB rules (BB3, BB12, BB28, BB35; BB12 only Secret Satire), tied with
+  Mayfair Orcus (4). Next: Eddie's York winner lines.
 - **MATCH HORSE / MATCH JOCKEY on every runner sheet (30 Oct 2026, Eddie), RATIO tightened the same day (whole circle factor >= 5, golden
   p, q <= 6), re-ordered by sky cell score the same day, then grouped by sky cell under grey header rows the same day; MATCH HORSE | JOCKEY
   side by side added the same day; 31 Oct 2026: BODY and CONJ STAR rows, SUMMARY sheet, runner freeze D4; then groups in blocks FIXED
