@@ -76,6 +76,7 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB58': {('04 Nirodha', 'Pallas')},
     'BB59': {('05 Pholas', 'Pallas')},
     'BB60': {('05 Pholas', 'Pallas')},
+    'BB61': set(),
     'BB55': {('01 Arafi', 'Gonggong'), ('01 Arafi', 'Venus'), ('04 Nirodha', 'Saturn'), ('05 Pholas', 'Pallas')},
     'BB53': {('06 Shimmering Dawn', 'Sun'), ('06 Shimmering Dawn', 'Jupiter'), ('06 Shimmering Dawn', 'Pallas')},
 }
@@ -548,5 +549,19 @@ if os.path.exists(Y16):
     check({(c['runner'], c['body']) for c in y16['BB58']} == {("08 Ziggy's Condor", 'Uranus')}, 'BB58 York 16:15 holders')
     check({(c['runner'], c['body']) for c in y16['BB59']} == {('03 Blue Prince', 'Vesta'), ("08 Ziggy's Condor", 'Eris'), ('14 Misemerald', 'Vesta')}, 'BB59 York 16:15 holders')
 check({(c['runner'], c['body']) for c in y16['BB60']} == {('03 Blue Prince', 'Makemake'), ("07 Thursday's Child", 'Gonggong'), ('12 Quiet Resolve', 'Gonggong')}, 'BB60 York 16:15 holders')
+# Fontwell 15:30 6 Oct 2023 (BB61 origin, Kilcummin)
+for nm, rr in (('Haydock', hres), ('Beverley', bres), ('York', yres), ('York 16:15', y16)):
+    check(rr['BB61'] == [], f'BB61 {nm}: no holder')
+check(cres['BB61'] == [], 'BB61 Catterick: no holder')
+FW = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', '20231006_fontwell_1530', '20231006_fontwell_1530_bybody.xlsx')
+if os.path.exists(FW):
+    fw = R.run(FW)[2]
+    check({(c['runner'], c['body']) for c in fw['BB61']} == {('03 Kilcummin', 'Uranus')}, 'BB61 Fontwell holders')
+    k = [x for c in fw['BB61'] for x in c['cells']]
+    for w in ('J Regulus – J Uranus Dec 33.354156', 'H Uranus – J Uranus Dec 33.347478', 'S Uranus – S Quaoar Dec 33.318289', 'S Quaoar → J Uranus RA 22.187459'):
+        check(any(x.startswith(w) for x in k), f'BB61 Kilcummin cell {w}')
+    n = [x for c in fw['BB61'] for x in c['notes']]
+    check(any('K2: Quaoar on natal Uranus' in x and 'K3: yes' in x for x in n), 'BB61 Kilcummin K2 / K3 notes')
+    check({c['runner'] for c in fw['BB59']} == {'03 Kilcummin'}, 'BB59 Fontwell holders')
 print(f'{ok}/{ok + bad} checks passed')
 sys.exit(1 if bad else 0)

@@ -1645,6 +1645,39 @@ def bb60(b):
     return [{'key': ('BB60', b.X), 'cells': cells, 'notes': notes}] if cells else []
 
 
+def bb61(b):
+    """K1 (Eddie, 15 Nov 2026, from Fontwell 15:30 6 Oct 2023 Kilcummin Uranus): H X - J X scores in a family (not conj / contraparallel)
+    and a royal natal row c R - c X scores in the same family and target (any plane each), the royal row carried by a sky line naming X
+    itself, S X - S Y ('Sky lines on the same target'; Y not the Moon). Notes (not conditions, Eddie): K2 = Y also on natal X (S Y -> H X
+    or J X scoring; conj / cp count); K3 = the same sky line also carries H X - J X."""
+    cells, notes = [], []
+    fam = lambda x: x['fam'] and x['fam'] not in CJ
+    hj = [x for x in b.L if x['line'] == f'H {b.X} – J {b.X}' and fam(x)]
+    for c, R, row in b.star_rows(scoring=True):
+        if not fam(row):
+            continue
+        for h in hj:
+            if (h['fam'], h['tgt']) != (row['fam'], row['tgt']):
+                continue
+            sxy = [(s, B if A == b.X else A) for s, A, B in b.pairs_on(row) if b.X in (A, B) and 'Moon' not in (A, B)]
+            if not sxy:
+                continue
+            hs = {(s['line'], s['plane']) for s, A, B in b.pairs_on(h)}
+            for o in [row, h] + [s for s, _ in sxy]:
+                if o not in cells:
+                    cells.append(o)
+            for s, Y in sxy:
+                on = [o for cc in 'HJ' for o in b.to_natal(Y, cc) if o['fam']]
+                k2 = ('K2: ' + Y + ' on natal ' + b.X + ' (' + '; '.join(f"{o['line']} {o['plane']} {o['tgt']}" for o in on) + ')') if on else 'K2: no'
+                k3 = 'K3: yes, it also carries ' + h['line'] + ' ' + h['plane'] if (s['line'], s['plane']) in hs else 'K3: no'
+                for o in on:
+                    if o not in cells:
+                        cells.append(o)
+                notes.append(f"{row['line']} {row['plane']} and {h['line']} {h['plane']} on {row['tgt']} ({row['fam']}), carried by "
+                             f"{s['line']} {s['plane']}; {k2}; {k3}")
+    return [{'key': ('BB61', b.X), 'cells': cells, 'notes': notes}] if cells else []
+
+
 RULES = [('BB1', bb1, 'Mercury'), ('BB2', bb2, 'Mars'), ('BB3', bb3, 'Jupiter'), ('BB4', bb4, 'Saturn'),
          ('BB5', bb5, 'Uranus'), ('BB6', bb6, 'Uranus'), ('BB7', bb7, 'Neptune'), ('BB8', bb8, 'Rahu'),
          ('BB9', bb9, 'Rahu'), ('BB10', bb10, 'Ketu'), ('BB11', bb11, 'Ceres'), ('BB12', bb12, 'Pallas'),
@@ -1653,7 +1686,7 @@ RULES = [('BB1', bb1, 'Mercury'), ('BB2', bb2, 'Mars'), ('BB3', bb3, 'Jupiter'),
          ('BB21', bb21, 'Saturn'), ('BB22', bb22, 'Saturn'), ('BB23', bb23, 'Neptune'), ('BB24', bb24, 'Rahu'), ('BB25', bb25, 'Ketu'), ('BB26', bb26, 'Ceres'), ('BB27', bb27, 'Pallas'), ('BB28', bb28, 'Juno'), ('BB29', bb29, 'Vesta'), ('BB30', bb30, 'Eris'), ('BB31', bb31, 'Gonggong'),
          ('BB32', bb32, 'Sun'), ('BB32b', bb32b, 'Sun'), ('BB33', bb33, 'Mercury'), ('BB34', bb34, 'Mars'), ('BB35', bb35, 'Saturn'),
          ('BB36', bb36, 'Uranus'), ('BB37', bb37, 'Pluto'), ('BB38', bb38, 'Juno'), ('BB39', bb39, 'Makemake'),
-         ('BB40', bb40, 'Sedna'), ('BB41', bb41, 'Sun'), ('BB42', bb42, 'Mercury'), ('BB43', bb43, 'Venus'), ('BB44', bb44, 'Jupiter'), ('BB45', bb45, 'Saturn'), ('BB46', bb46, 'Saturn'), ('BB47', bb47, 'Ceres'), ('BB48', bb48, 'Chiron'), ('BB49', bb49, 'Haumea'), ('BB50', bb50, 'Makemake'), ('BB51', bb51, 'Venus'), ('BB52', bb52, 'Uranus'), ('BB53', bb53, 'any'), ('BB54', bb54, 'any'), ('BB55', bb55, 'any'), ('BB56', bb56, 'any'), ('BB57', bb57, 'any'), ('BB58', bb58, 'any'), ('BB59', bb59, 'any'), ('BB60', bb60, 'any')]
+         ('BB40', bb40, 'Sedna'), ('BB41', bb41, 'Sun'), ('BB42', bb42, 'Mercury'), ('BB43', bb43, 'Venus'), ('BB44', bb44, 'Jupiter'), ('BB45', bb45, 'Saturn'), ('BB46', bb46, 'Saturn'), ('BB47', bb47, 'Ceres'), ('BB48', bb48, 'Chiron'), ('BB49', bb49, 'Haumea'), ('BB50', bb50, 'Makemake'), ('BB51', bb51, 'Venus'), ('BB52', bb52, 'Uranus'), ('BB53', bb53, 'any'), ('BB54', bb54, 'any'), ('BB55', bb55, 'any'), ('BB56', bb56, 'any'), ('BB57', bb57, 'any'), ('BB58', bb58, 'any'), ('BB59', bb59, 'any'), ('BB60', bb60, 'any'), ('BB61', bb61, 'any')]
 
 
 def decade_pairs(cells):

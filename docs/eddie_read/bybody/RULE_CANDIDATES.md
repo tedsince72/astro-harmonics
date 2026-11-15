@@ -1095,3 +1095,14 @@ Song, Mortlake, Diligent Resdev Quaoar only (3 / 1 / 0.3, one origin winner).
 - **Decision:** at or below chance, or only one winner, so noted, not built (Eddie, 15 Nov: "note").
 - **Checker:** the independent checker found 0 mismatches. Open point: if opposition did not count as a family, Beverley F2 would lose Powerful Lady.
 - **Catterick finished (Eddie, 15 Nov 2026):** BB57 (Sun), BB58 (Neptune), BB59 (Rahu) and BB60 (Chiron) were built; Mercury, Venus, Saturn, Ceres and Makemake were noted.
+
+## Fontwell 15:30 6 Oct 2023, Kilcummin Uranus (15 Nov 2026): BB61 = K1 (built; Eddie: "build k1 with k2 and k3 as notes")
+- J Regulus – J Uranus Dec 33.3542 and H Uranus – J Uranus Dec 33.3475 are both on ninth 33.3333. Both are carried by S Uranus – S Quaoar Dec 33.3183 (77.4) and S Saturn – S Pluto RA 33.3375 (93.8).
+- Quaoar is on Uranus: S Quaoar – S Uranus RA 133.2926 ninth (84.7) and S Quaoar → J Uranus RA 22.1875 ninth (21.8).
+- Scan tools/scans/bb_fieldcheck_royal_hj_same_target.py, 7 races with results + Chelmsford:
+  - K1 / K2 / K3: Kilcummin only (1 pick, won, 0.1 by chance).
+  - L1 (three royal ratios on one base line S X → c X): 43 picks, 5 won, 4.4 by chance.
+  - L3 (L1 with the base line in no family): 40 / 5 / 4.1.
+  - L1 and L3 are not built.
+- Kilcummin's own L1 case is Uranus H base RA 19.165768: Aldebaran RA 2, Fomalhaut RA 1+√2, Antares Dec crossed 2. Kilcummin also holds L1 on Saturn, Rahu and Makemake.
+- Independent checkers: 0 mismatches on the scan and on the built rule.

@@ -1,4 +1,4 @@
-# 20240118_chelmsford_aw_1320 — body-by-body rules BB1-BB60
+# 20240118_chelmsford_aw_1320 — body-by-body rules BB1-BB61
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -65,6 +65,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB58 | 0 | 0 | - |  |
 | BB59 | 0 | 0 | - |  |
 | BB60 | 0 | 0 | - |  |
+| BB61 | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -953,6 +954,14 @@ No runner holds it.
 Rule: A royal natal line c R – c X scores in a family (conj / contraparallel not counted) and is carried, on the same target ('Sky lines on the same target'), both by a sky line naming X itself, S X – S Y (Y not the Moon), and by a sky body onto natal X in the other chart, S Z → c' X (Z not the Moon, not X). Any plane, any score.
 
 Origin: Catterick 14:40 6 Apr 2022, 5 Wotever Next, Chiron (H Fomalhaut – H Chiron Dec 33.381885 ninth 33.3333 (27.17) carried by S Chiron – S Gonggong RA 33.346535 (80.2) and S Vesta → J Chiron Dec 33.314388 (71.58); also S Vesta – S Haumea Dec 33.384904 (22.64); J Fomalhaut – J Chiron Dec same-body ratio 5.00659 on 5 (67.05)) (Eddie, 15 Nov 2026: 'i think e1'). Also held by Pholas Pallas (Regulus), Perfect Part Gonggong (Regulus), Secret Satire Ceres (Regulus). Over the 6 result races 13 picks, 4 won, 1.4 by chance; broad: the J Regulus – J Gonggong RA ~180 repeat (S Gonggong – S Orcus, S Orcus → H Gonggong) gives Beverley 4, York 15:45 2 and York 16:15 2 of the holders. Narrower versions noted: E5 (+ the same royal star on X in the other chart with a same-body or crossed ratio on a target; Wotever Next and Secret Satire only, 2 / 2, 0.3), E4 (+ a pair with both ends on X; 4 / 2, 0.6), E3, E6, E7.
+
+No runner holds it.
+
+## BB61 — Royal line and H X – J X on one target, carried by S X – S Y
+
+Rule: H X – J X scores in a family (conj / contraparallel not counted) and a royal natal line c R – c X scores in the same family and target (any plane each); the royal line is carried, on that target ('Sky lines on the same target'), by a sky line naming X itself, S X – S Y (Y not the Moon). Noted with each case, not conditions: K2 = Y also lands on natal X (S Y → H X or J X scoring; conj / contraparallel count); K3 = the same sky line also carries H X – J X.
+
+Origin: Fontwell 15:30 6 Oct 2023, 3 Kilcummin (50/1), Uranus (J Regulus – J Uranus Dec 33.354156 ninth 33.3333 (68.77) and H Uranus – J Uranus Dec 33.347478 ninth 33.3333 (78.78), both carried by S Uranus – S Quaoar Dec 33.318289 (77.43) and S Saturn – S Pluto RA 33.337464 (93.80); Quaoar on Uranus: S Quaoar – S Uranus RA 133.292594 ninth 133.333 (84.72), S Quaoar → J Uranus RA 22.187459 ninth 22.2222 (21.78)) (Eddie, 15 Nov 2026: 'build k1 with k2 and k3 as notes'). One holder in the 8 races (Kilcummin, K2 and K3 both yes): 1 pick, won, 0.1 by chance. Built on one origin winner (Eddie's call). L1-L3 (three royal ratios on one base line) at chance, not built.
 
 No runner holds it.
 

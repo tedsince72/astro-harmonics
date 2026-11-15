@@ -1,4 +1,4 @@
-# 20220406_catterick_1440 — body-by-body rules BB1-BB60
+# 20220406_catterick_1440 — body-by-body rules BB1-BB61
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -65,6 +65,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB58 | 1 | 1 | 05 Wotever Next |  |
 | BB59 | 1 | 1 | 05 Wotever Next |  |
 | BB60 | 1 | 1 | 05 Wotever Next |  |
+| BB61 | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -958,4 +959,12 @@ Origin: Catterick 14:40 6 Apr 2022, 5 Wotever Next, Chiron (H Fomalhaut – H Ch
 - S Vesta → J Chiron Dec 33.314388 33.3333 ninth (71.58)
 - H Fomalhaut – H Chiron Dec carried by S Chiron – S Gonggong RA and by S Vesta → J Chiron Dec
 - lights on Chiron: S Moon – S Chiron Dec 17.777129 17.7778 ninth (98.17); S Sun – S Chiron Dec 0.204340 conj conj (31.89); S Moon → J Chiron RA 26.146476 10φ² phi power (13.77)
+
+## BB61 — Royal line and H X – J X on one target, carried by S X – S Y
+
+Rule: H X – J X scores in a family (conj / contraparallel not counted) and a royal natal line c R – c X scores in the same family and target (any plane each); the royal line is carried, on that target ('Sky lines on the same target'), by a sky line naming X itself, S X – S Y (Y not the Moon). Noted with each case, not conditions: K2 = Y also lands on natal X (S Y → H X or J X scoring; conj / contraparallel count); K3 = the same sky line also carries H X – J X.
+
+Origin: Fontwell 15:30 6 Oct 2023, 3 Kilcummin (50/1), Uranus (J Regulus – J Uranus Dec 33.354156 ninth 33.3333 (68.77) and H Uranus – J Uranus Dec 33.347478 ninth 33.3333 (78.78), both carried by S Uranus – S Quaoar Dec 33.318289 (77.43) and S Saturn – S Pluto RA 33.337464 (93.80); Quaoar on Uranus: S Quaoar – S Uranus RA 133.292594 ninth 133.333 (84.72), S Quaoar → J Uranus RA 22.187459 ninth 22.2222 (21.78)) (Eddie, 15 Nov 2026: 'build k1 with k2 and k3 as notes'). One holder in the 8 races (Kilcummin, K2 and K3 both yes): 1 pick, won, 0.1 by chance. Built on one origin winner (Eddie's call). L1-L3 (three royal ratios on one base line) at chance, not built.
+
+No runner holds it.
 
