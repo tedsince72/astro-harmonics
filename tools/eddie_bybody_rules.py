@@ -910,6 +910,38 @@ def bb36(b):
     return out
 
 
+def bb37(b):
+    """Same-body line paired by S X – S Y, Y conj natal X (same chart), and the Sun conj / contraparallel sky X."""
+    out = []
+    sun = [o for o in b.sky_y('Sun') if o['fam'] in CJ]
+    if not sun:
+        return out
+    for c in 'HJ':
+        for sb in b.same_body(c, scoring=False):
+            for s in b.same_on(sb):
+                m = re.match(r'S (.+) – S (.+)$', s['line'])
+                if not m or b.X not in m.groups():
+                    continue
+                Y = [g for g in m.groups() if g != b.X][0]
+                if Y == 'Moon':
+                    continue
+                cj = [o for o in b.to_natal(Y, c) if o['fam'] == 'conj']
+                if not cj:
+                    continue
+                notes = [f"S {Y} on natal {c} {b.X} ({'; '.join(cell(o) for o in cj)}): the pair S {b.X} – S {Y} repeats "
+                         f"S {b.X} → {c} {b.X} (may be geometry)",
+                         'Sun on sky ' + b.X + ': ' + '; '.join(cell(o) for o in sun)]
+                oth = [o for o in b.O if re.match(rf'S (.+) – S {re.escape(b.X)}$', o['line']) and o['fam'] in CJ
+                       and not o['line'].startswith(('S Sun ', 'S Moon '))]
+                if oth:
+                    notes.append(f'WATCH another body conj / contraparallel sky {b.X}: ' + '; '.join(cell(o) for o in oth))
+                if (s['sc'] or 0) >= 80:
+                    notes.append(f"WATCH the pair scores >= 80 ({s['sc']})")
+                out.append({'key': (c, sb['plane'], s['line'], s['plane'], s['tgt']),
+                            'cells': [sb, s] + cj + sun, 'notes': notes})
+    return out
+
+
 RULES = [('BB1', bb1, 'Mercury'), ('BB2', bb2, 'Mars'), ('BB3', bb3, 'Jupiter'), ('BB4', bb4, 'Saturn'),
          ('BB5', bb5, 'Uranus'), ('BB6', bb6, 'Uranus'), ('BB7', bb7, 'Neptune'), ('BB8', bb8, 'Rahu'),
          ('BB9', bb9, 'Rahu'), ('BB10', bb10, 'Ketu'), ('BB11', bb11, 'Ceres'), ('BB12', bb12, 'Pallas'),
@@ -917,7 +949,7 @@ RULES = [('BB1', bb1, 'Mercury'), ('BB2', bb2, 'Mars'), ('BB3', bb3, 'Jupiter'),
          ('BB17', bb17, 'Makemake'), ('BB18', bb18, 'Venus'), ('BB19', bb19, 'Venus'), ('BB20', bb20, 'Jupiter'),
          ('BB21', bb21, 'Saturn'), ('BB22', bb22, 'Saturn'), ('BB23', bb23, 'Neptune'), ('BB24', bb24, 'Rahu'), ('BB25', bb25, 'Ketu'), ('BB26', bb26, 'Ceres'), ('BB27', bb27, 'Pallas'), ('BB28', bb28, 'Juno'), ('BB29', bb29, 'Vesta'), ('BB30', bb30, 'Eris'), ('BB31', bb31, 'Gonggong'),
          ('BB32', bb32, 'Sun'), ('BB32b', bb32b, 'Sun'), ('BB33', bb33, 'Mercury'), ('BB34', bb34, 'Mars'), ('BB35', bb35, 'Saturn'),
-         ('BB36', bb36, 'Uranus')]
+         ('BB36', bb36, 'Uranus'), ('BB37', bb37, 'Pluto')]
 
 
 def decade_pairs(cells):

@@ -54,6 +54,7 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB34': {('05 Pholas', 'Mercury')},
     'BB35': set(),
     'BB36': {('05 Pholas', 'Uranus')},
+    'BB37': set(),
 }
 CELLS = {  # rule: (runner, body, [cell texts that must be in the case])
     'BB1': ('05 Pholas', 'Mercury', ['J Aldebaran – J Mercury Dec 16.193302 10×φ golden (59.99)',
@@ -184,6 +185,10 @@ if os.path.exists(HAY):
     check({(c['runner'], c['body']) for c in hres['BB35']} == {('04 Royal Context', 'Pluto'), ('07 Ishvara', 'Chiron')}, 'BB35 Haydock holders')
     check(not any('Sedna is an end' in n for c in hres['BB34'] for n in c['notes']), 'BB34 Haydock: no Sedna note')
     check(not hres['BB36'], 'BB36 Haydock: none')
+    check({(c['runner'], c['body']) for c in hres['BB37']} == {('07 Ishvara', 'Vesta')}, 'BB37 Haydock holders')
+    ic = [x for c in hres['BB37'] for x in c['cells']]
+    for w in ('S Vesta → J Vesta Dec 24.251973', 'S Vesta – S Eris Dec 24.262031', 'S Eris → J Vesta Dec 0.010058', 'S Sun – S Vesta Dec 0.052556'):
+        check(any(x.startswith(w) for x in ic), f'BB37 Ishvara Vesta cell {w}')
 BEV = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', '20240608_beverley_1405', '20240608_beverley_1405_bybody.xlsx')
 if os.path.exists(BEV):
     _, _, bres = R.run(BEV)
@@ -219,6 +224,13 @@ if os.path.exists(BEV):
         check(any(x.startswith(w) for x in uc), f'BB36 Perfect Part Uranus cell {w}')
     check(any('10.025899 10 1/10 cut (48.2)' in n for n in un) and any('Regulus itself on sky Uranus' in n for n in un)
           and any('end Chiron' in n and 'S Chiron → J Uranus RA 73.005085' in n for n in un), 'BB36 Perfect Part notes')
+    check({(c['runner'], c['body']) for c in bres['BB37']} == {('15 Perfect Part', 'Pluto')}, 'BB37 Beverley holders')
+    pc7 = [x for c in bres['BB37'] for x in c['cells']]
+    pn7 = [n for c in bres['BB37'] for n in c['notes']]
+    for w in ('S Pluto → J Pluto RA 61.718584', 'S Pluto – S Pallas RA 61.792827', 'S Pallas → J Pluto RA 0.074243', 'S Sun – S Pluto Dec contraparallel 0.003798'):
+        check(any(x.startswith(w) for x in pc7), f'BB37 Perfect Part Pluto cell {w}')
+    check(any('may be geometry' in n for n in pn7) and any('S Venus – S Pluto Dec contraparallel' in n for n in pn7)
+          and any('>= 80 (88.6)' in n for n in pn7), 'BB37 Perfect Part notes')
     check({(c['runner'], c['body']) for c in bres['BB32b']} == {('15 Perfect Part', 'Sun')}, 'BB32b Beverley holders')
     pc = [x for c in bres['BB32b'] for x in c['cells']]
     pn = [n for c in bres['BB32b'] for n in c['notes']]

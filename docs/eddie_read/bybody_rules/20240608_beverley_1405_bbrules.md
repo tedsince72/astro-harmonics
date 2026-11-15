@@ -1,4 +1,4 @@
-# 20240608_beverley_1405 — body-by-body rules BB1-BB36
+# 20240608_beverley_1405 — body-by-body rules BB1-BB37
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -41,6 +41,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB34 | 5 | 5 | 01 Aviation Time, 07 Mademoiselle, 12 Sands Of Dubai, 14 Havana White, 15 Perfect Part |  |
 | BB35 | 2 | 2 | 04 Invincible Annice, 15 Perfect Part |  |
 | BB36 | 2 | 1 | 15 Perfect Part |  |
+| BB37 | 1 | 1 | 15 Perfect Part |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1381,4 +1382,21 @@ Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Uranus (also holds: Lingfiel
 - WATCH Regulus itself on sky Uranus: S Regulus – S Uranus RA 100.140011 100 ninth (29.99)
 - WATCH second pair S Neptune – S Chiron Dec on the same-body line, end Chiron on sky Uranus and natal Uranus: S Chiron – S Uranus Dec 8.873775 8.88889 ninth (14.98); S Chiron → J Uranus RA 73.005085 73 whole (74.58)
 - lights on Uranus: S Sun → H Uranus RA 35.980071 36 whole (0.36)
+
+## BB37 — same-body line paired by S X – S Y with Y on natal X, and the Sun conj / contraparallel sky X
+
+Rule: In one chart c, the same-body line S X → c X has a sky pair S X – S Y on its target (the pair names X itself; Y not the Moon), Y is in conjunction with natal X in the same chart (S Y → c X conj, any plane), and the Sun is conj or contraparallel sky X (S Sun – S X, any plane). Noted: with Y on natal X the pair repeats the same-body line (may be geometry). WATCH, noted not required: another body (not Sun or Moon) conj / contraparallel sky X; the pair scoring >= 80.
+
+Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Pluto (also holds: Haydock 13:45 8 Jun 2020, 7 Ishvara, Vesta)
+
+### 15 Perfect Part — Pluto (only)
+- S Pluto → J Pluto RA 61.718584 100φ^-1 phi power (8.51)
+- S Pluto – S Pallas RA 61.792827 100φ^-1 phi power (88.6)
+- S Pallas → J Pluto RA 0.074243 conj conj (95.05)
+- S Sun – S Pluto Dec contraparallel 0.003798 cp contraparallel (98.73)
+- S Pallas on natal J Pluto (S Pallas → J Pluto RA 0.074243 conj conj (95.05)): the pair S Pluto – S Pallas repeats S Pluto → J Pluto (may be geometry)
+- Sun on sky Pluto: S Sun – S Pluto Dec contraparallel 0.003798 cp contraparallel (98.73)
+- WATCH another body conj / contraparallel sky Pluto: S Venus – S Pluto Dec contraparallel 0.183798 cp contraparallel (38.73)
+- WATCH the pair scores >= 80 (88.6)
+- lights on Pluto: S Sun – S Pluto Dec contraparallel 0.003798 cp contraparallel (98.73); S Sun → H Pluto Dec 45.279623 28×φ golden (21.83)
 

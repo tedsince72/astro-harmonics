@@ -1,4 +1,4 @@
-# 20200608_haydock_1345 — body-by-body rules BB1-BB36
+# 20200608_haydock_1345 — body-by-body rules BB1-BB37
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -41,6 +41,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB34 | 1 | 1 | 03 Never In Paris |  |
 | BB35 | 2 | 2 | 04 Royal Context, 07 Ishvara |  |
 | BB36 | 0 | 0 | - |  |
+| BB37 | 1 | 1 | 07 Ishvara |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1002,4 +1003,19 @@ Rule: In one chart c, the same-body line S X → c X has a sky pair S A – S R 
 Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Uranus (also holds: Lingfield 14:35 2 Apr 2021, 5 Pholas, Uranus)
 
 No runner holds it.
+
+## BB37 — same-body line paired by S X – S Y with Y on natal X, and the Sun conj / contraparallel sky X
+
+Rule: In one chart c, the same-body line S X → c X has a sky pair S X – S Y on its target (the pair names X itself; Y not the Moon), Y is in conjunction with natal X in the same chart (S Y → c X conj, any plane), and the Sun is conj or contraparallel sky X (S Sun – S X, any plane). Noted: with Y on natal X the pair repeats the same-body line (may be geometry). WATCH, noted not required: another body (not Sun or Moon) conj / contraparallel sky X; the pair scoring >= 80.
+
+Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Pluto (also holds: Haydock 13:45 8 Jun 2020, 7 Ishvara, Vesta)
+
+### 07 Ishvara — Vesta (only)
+- S Vesta → J Vesta Dec 24.251973 15×φ golden (42.79)
+- S Vesta – S Eris Dec 24.262031 15×φ golden (73.83)
+- S Eris → J Vesta Dec 0.010058 conj conj (96.65)
+- S Sun – S Vesta Dec 0.052556 conj conj (82.48)
+- S Eris on natal J Vesta (S Eris → J Vesta Dec 0.010058 conj conj (96.65)): the pair S Vesta – S Eris repeats S Vesta → J Vesta (may be geometry)
+- Sun on sky Vesta: S Sun – S Vesta Dec 0.052556 conj conj (82.48)
+- lights on Vesta: S Sun – S Vesta Dec 0.052556 conj conj (82.48); S Moon – S Vesta Dec 46.936470 29×φ golden (58.38); S Moon – S Vesta RA 156.969749 97×φ golden (36.88); S Moon → H Vesta RA 177.621190 177.778 ninth (55.96); S Moon → J Vesta Dec 22.684496 14×φ golden (1.17)
 

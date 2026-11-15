@@ -610,3 +610,11 @@ Uranus): b + d + R's natal line scores (drops Indie Angel: H Antares – H Mars 
 WATCH notes. Both holders: Regulus in the sky pair, H Regulus – H Uranus RA on a ninth, ratio on a cut, Antares on sky Uranus.
 Independent checker (15 Nov): holders and every cell confirmed, 0 mismatches; without the natal-line condition Catterick 14:40 2022
 03 Capuchinero Sun (jockey) would also hold.
+
+## BB37 — Beverley 14:05 8 Jun 2024, 15 Perfect Part, Pluto (15 Nov 2026, built)
+Lines: S Pluto → J Pluto RA 61.718584 100φ^-1 (8.51) paired by S Pluto – S Pallas RA 61.792827 (88.6); S Pallas → J Pluto RA 0.074243 conj
+(95.05), so the pair repeats the same-body line (may be geometry); S Sun – S Pluto Dec contraparallel 0.003798 (98.73); S Venus – S Pluto Dec
+cp 0.183798 and RA 133.52 ninth. No earlier rule held Perfect Part Pluto. Field check (three races): base (pair naming X on the same-body
+line, partner conj natal X same chart) Lingfield 1, Haydock 7, Beverley 7; + Sun conj / cp sky X (A): Ishvara Vesta, Perfect Part Pluto;
++ Sun + another body conj / cp (B): Perfect Part only; + pair >= 80 (C): Mews House Uranus, Perfect Part. Eddie chose A; B and C as WATCH
+notes. Both holders jockey chart, Sun line in Dec > 80. Independent checker (15 Nov): 0 mismatches; Catterick, Chelmsford no holders.

@@ -1,4 +1,4 @@
-# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB36
+# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB37
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -41,6 +41,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB34 | 1 | 1 | 05 Pholas |  |
 | BB35 | 0 | 0 | - |  |
 | BB36 | 1 | 1 | 05 Pholas |  |
+| BB37 | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -659,4 +660,12 @@ Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Uranus (also holds: Lingfiel
 - S Fomalhaut – S Uranus Dec 43.666858 27×φ golden (38.09)
 - crossed ratio vs S Uranus → H Uranus Dec 6.657103 = 19.992074 20 1/20 cut (92.07)
 - lights on Uranus: S Sun – S Uranus Dec 9.014236 9 whole (28.82)
+
+## BB37 — same-body line paired by S X – S Y with Y on natal X, and the Sun conj / contraparallel sky X
+
+Rule: In one chart c, the same-body line S X → c X has a sky pair S X – S Y on its target (the pair names X itself; Y not the Moon), Y is in conjunction with natal X in the same chart (S Y → c X conj, any plane), and the Sun is conj or contraparallel sky X (S Sun – S X, any plane). Noted: with Y on natal X the pair repeats the same-body line (may be geometry). WATCH, noted not required: another body (not Sun or Moon) conj / contraparallel sky X; the pair scoring >= 80.
+
+Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Pluto (also holds: Haydock 13:45 8 Jun 2020, 7 Ishvara, Vesta)
+
+No runner holds it.
 
