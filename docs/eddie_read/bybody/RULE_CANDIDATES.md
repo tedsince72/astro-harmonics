@@ -910,3 +910,13 @@ target, the sky line in that family. Holders (runners / field): Lingfield 1/6 (S
 Multiples checked first (tools/scans/bb_fieldcheck_sky_line_royal_multiples.py), not built: M1 royal -> X / royal -> Y on 3/2, 2 ... 9 (with
 or without unison) and M3 (M1 + sky line in a royal line's family) every runner in every race; M2 / M2b (each royal line a multiple of the
 sky line) 3/6, 6/10, 8/13, 1/5, 3/8, 4/7, 10/15 runners (all origin winners but Pholas).
+
+## Diligent Resdev Uranus, number echo 5 (15 Nov 2026, Eddie's lines; not built, waiting for Eddie)
+S Uranus → H Uranus Dec 4.995533 5 whole (77.67); H Aldebaran – H Uranus Dec 3.265338 2×φ (9.66), crossed ratio against S Uranus → H Uranus
+RA 16.309243 = 4.994657 '5' (73.28); S Moon – S Juno Dec 5.009623 5 whole (51.88) carries the Dec same-body line. Also H Antares RA same-body
+ratio 9.007782 '9' (61.09), H Fomalhaut RA crossed 9.978233 '10' (56.47), J Fomalhaut RA same-body 2.005512 octave (72.44), J Antares RA
+crossed 1.33471 4/3 (58.71). Field (tools/scans/bb_fieldcheck_diligent_uranus_echo.py; checker 0 mismatches): E1 royal ratio on whole N
+and S X -> c X on whole N: Haydock 1/10, Beverley 3/13, York 16:15 3/15, others 0; E2 (+ royal line scores) and E4 (+ a sky line carries
+the same-body line) Beverley 2/13 (Invincible Annice Gonggong, Mademoiselle Chiron), York 16:15 2/15 (Diligent Resdev, Misemerald Uranus -
+same Uranus figures, born close in time); E3 (crossed ratio and same-body in the royal plane) Haydock 1, Beverley 1, York 16:15 3. One
+origin winner only.
