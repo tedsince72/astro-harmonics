@@ -225,6 +225,16 @@ and on a ratio off the interval list are listed in docs/classic/families_correct
   kept when not every runner holds it (one or two holders fine); new rules race by race, overlapping versions kept. Workflow: Eddie
   pastes lines from a runner's bybody sheet; Claude finds the runner, copies the cells, says what connects them, checks the field,
   drafts the rule, builds it on Eddie's yes. Tests `python3 tests/eddie_bybody_rules_check.py`.
+- Depth ladder (15 Nov 2026, Eddie's go-ahead; data only, no pick; steps fixed before York 15:45 15 May 2024 was read):
+  `python3 tools/eddie_depth.py <race>_bybody.xlsx [--out DIR]` -> docs/eddie_read/depth/<race>_depth.md + .json. Per runner, per body X:
+  0 same-body line scores; 1 a sky pair on its target (not X, not the Moon); 2 one pair end also on X (sky or natal); 3 both ends (loop
+  closed); 4 another line on X repeats a family + target of the loop (Sun counts, Moon and conj / cp never); 5 a second loop or a royal-star
+  loop (R on sky X, R's natal line on X with a family or a ratio on a target). Per runner the deepest body and bodies at 3+; field 'only' /
+  'also'. In-sample (the three origin races) it does NOT single out the winners: Lingfield top 5 = Arafi, Nirodha (Pholas 3); Haydock 5 =
+  Royal Context, Ishvara, Dancin Inthestreet; Beverley 5 = 8 of 13 incl. Perfect Part. Test races: York 15:45 2024 (blind) top 5 = Francophone,
+  La Pasionaria. Tests `python3 tests/eddie_depth_check.py` (710/710). Independent checker (15 Nov): 0 mismatches on the four races. Open
+  readings (Eddie to decide; each changes depths): a contraparallel same-body line carrying a pair (11 bodies), conj / cp end lines (9),
+  royal stars as pair ends (26), a royal loop on a low ratio alone (3: York Francophone Gonggong 8/3 7.99, Perfect Part Sedna, Arafi Orcus).
 - Older single-purpose readers still useful: `tools/fit_read.py`, `movement.py`, `both_ends.py`, `three_way_all.py`, `equator_ratios.py`,
   `strings.py`; scans in `tools/scans/` (field_only_rates, sky_anchored_soak/compare, star_join_scan, jupiter_partner_scan).
 - On the Mac: see `docs/MAC_SETUP.md` (venv with Python 3.12+, `pip install openpyxl`). Scripts call `python3.12`; inside the venv
@@ -1751,7 +1761,8 @@ scaled form scores more than 0.5 points higher (unrounded scores; Eddie, 14 Oct)
 - **Body-by-body rules BB1-BB40 (14-15 Nov 2026, Eddie):** Lingfield 14:35 2021 (Pholas, BB1-BB17), Haydock 13:45 8 Jun 2020
   (Ishvara, BB18-BB31) and Beverley 14:05 8 Jun 2024 (Perfect Part: Sun BB32 + sub rule BB32b, Mercury BB33, Mars BB34 (revised to any plane 15 Nov; Sedna end noted), Saturn BB35, Uranus BB36 = Pholas and Perfect Part only, Pluto BB37 = Ishvara Vesta and Perfect Part Pluto, Juno BB38 = Perfect Part only, Makemake BB39 = Pholas Juno and Perfect Part Makemake, Sedna BB40 = Ishvara Rahu and Perfect Part Sedna; Rahu considered, not built - every version left is noted in RULE_CANDIDATES.md) in progress; next: Eddie's next race (send its
   _active.xlsx -> eddie_bybody.py -> eddie_bybody_rules.py, then new rules from his lines). Ratio notes to review later (4×φ as a ratio)
-  in RULE_CANDIDATES.md. Tests 211/211.
+  in RULE_CANDIDATES.md. Tests 211/211. Depth ladder built 15 Nov (tools/eddie_depth.py); York 15:45 15 May 2024 read blind with it
+  and with BB1-BB40 (docs/eddie_read/depth/, docs/eddie_read/bybody_rules/); result not opened.
 - **MATCH HORSE / MATCH JOCKEY on every runner sheet (30 Oct 2026, Eddie), RATIO tightened the same day (whole circle factor >= 5, golden
   p, q <= 6), re-ordered by sky cell score the same day, then grouped by sky cell under grey header rows the same day; MATCH HORSE | JOCKEY
   side by side added the same day; 31 Oct 2026: BODY and CONJ STAR rows, SUMMARY sheet, runner freeze D4; then groups in blocks FIXED
