@@ -56,6 +56,7 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB36': {('05 Pholas', 'Uranus')},
     'BB37': set(),
     'BB38': set(),
+    'BB39': {('05 Pholas', 'Juno')},
 }
 CELLS = {  # rule: (runner, body, [cell texts that must be in the case])
     'BB1': ('05 Pholas', 'Mercury', ['J Aldebaran – J Mercury Dec 16.193302 10×φ golden (59.99)',
@@ -188,6 +189,7 @@ if os.path.exists(HAY):
     check(not hres['BB36'], 'BB36 Haydock: none')
     check({(c['runner'], c['body']) for c in hres['BB37']} == {('07 Ishvara', 'Vesta')}, 'BB37 Haydock holders')
     check(not hres['BB38'], 'BB38 Haydock: none')
+    check(not hres['BB39'], 'BB39 Haydock: none')
     ic = [x for c in hres['BB37'] for x in c['cells']]
     for w in ('S Vesta → J Vesta Dec 24.251973', 'S Vesta – S Eris Dec 24.262031', 'S Eris → J Vesta Dec 0.010058', 'S Sun – S Vesta Dec 0.052556'):
         check(any(x.startswith(w) for x in ic), f'BB37 Ishvara Vesta cell {w}')
@@ -240,6 +242,15 @@ if os.path.exists(BEV):
         check(any(x.startswith(w) for x in jc), f'BB38 Perfect Part Juno cell {w}')
     check(any('7/6 septimal minor third (96)' in n for n in jn) and any('6 6th harmonic (96.8' in n for n in jn)
           and any('opposition / conj' in n for n in jn) and any('S Regulus – S Juno' in n for n in jn), 'BB38 Perfect Part notes')
+    check({(c['runner'], c['body']) for c in bres['BB39']} == {('15 Perfect Part', 'Makemake')}, 'BB39 Beverley holders')
+    mc9 = [x for c in bres['BB39'] for x in c['cells']]
+    mn9 = [n for c in bres['BB39'] for n in c['notes']]
+    for w in ('S Makemake → J Makemake Dec 12.210086', 'S Mercury – S Chiron Dec 12.216899', 'S Makemake → H Makemake Dec 1.012089',
+              'S Chiron – S Sedna Dec 0.996865', 'S Sun → H Makemake Dec 0.106418'):
+        check(any(x.startswith(w) for x in mc9), f'BB39 Perfect Part Makemake cell {w}')
+    check(any('both charts' in n and 'Chiron' in n for n in mn9) and any('S Mercury – S Makemake Dec 0.056271' in n for n in mn9)
+          and any('J Regulus – J Makemake Dec 22.220684' in n for n in mn9),
+          'BB39 Perfect Part notes')
     check({(c['runner'], c['body']) for c in bres['BB32b']} == {('15 Perfect Part', 'Sun')}, 'BB32b Beverley holders')
     pc = [x for c in bres['BB32b'] for x in c['cells']]
     pn = [n for c in bres['BB32b'] for n in c['notes']]

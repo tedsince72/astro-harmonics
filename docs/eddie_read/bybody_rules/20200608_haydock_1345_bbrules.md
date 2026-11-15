@@ -1,4 +1,4 @@
-# 20200608_haydock_1345 — body-by-body rules BB1-BB38
+# 20200608_haydock_1345 — body-by-body rules BB1-BB39
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -43,6 +43,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB36 | 0 | 0 | - |  |
 | BB37 | 1 | 1 | 07 Ishvara |  |
 | BB38 | 0 | 0 | - |  |
+| BB39 | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1025,6 +1026,14 @@ Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Pluto (also holds: Haydock 1
 Rule: A royal star R scores on sky X (S R – S X, any plane), and its natal line on X has a crossed same-body ratio (against S X → natal X in the other plane) scoring >= 80 in the horse chart (H R – H X) and in the jockey chart (J R – J X); the star lines need not score; any interval (BB5 needs cuts). WATCH, noted not required: R opposition / conj sky X; the sky line scoring >= 80; a natal star line scoring >= 90; another royal star on sky X.
 
 Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Juno
+
+No runner holds it.
+
+## BB39 — same-body line paired in both charts (BB13) and the Sun conj / contraparallel natal X
+
+Rule: BB13 holds (the same-body line S X → H X and S X → J X each has a sky pair on its target, the pair not naming X), and the Sun is conj or contraparallel natal X in either chart (S Sun → H X or S Sun → J X, any plane). WATCH, noted not required: a body (not a royal star, not the Moon) in a pair on both charts' lines; a pair end conj / contraparallel sky X; a royal pair whose star is on sky X with its natal line on X scoring >= 90; three or more pairs on one same-body line.
+
+Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Makemake (also holds: Lingfield 14:35 2 Apr 2021, 5 Pholas, Juno)
 
 No runner holds it.
 

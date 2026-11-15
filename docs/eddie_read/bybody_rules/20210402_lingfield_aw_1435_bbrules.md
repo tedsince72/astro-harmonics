@@ -1,4 +1,4 @@
-# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB38
+# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB39
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -43,6 +43,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB36 | 1 | 1 | 05 Pholas |  |
 | BB37 | 0 | 0 | - |  |
 | BB38 | 0 | 0 | - |  |
+| BB39 | 1 | 1 | 05 Pholas |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -677,4 +678,19 @@ Rule: A royal star R scores on sky X (S R – S X, any plane), and its natal lin
 Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Juno
 
 No runner holds it.
+
+## BB39 — same-body line paired in both charts (BB13) and the Sun conj / contraparallel natal X
+
+Rule: BB13 holds (the same-body line S X → H X and S X → J X each has a sky pair on its target, the pair not naming X), and the Sun is conj or contraparallel natal X in either chart (S Sun → H X or S Sun → J X, any plane). WATCH, noted not required: a body (not a royal star, not the Moon) in a pair on both charts' lines; a pair end conj / contraparallel sky X; a royal pair whose star is on sky X with its natal line on X scoring >= 90; three or more pairs on one same-body line.
+
+Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Makemake (also holds: Lingfield 14:35 2 Apr 2021, 5 Pholas, Juno)
+
+### 05 Pholas — Juno (only)
+- S Juno → H Juno RA 4.011272 4 whole (43.64)
+- S Orcus – S Quaoar Dec 4.001963 4 whole (90.19)
+- S Juno → J Juno RA 110.031115 68×φ golden (85.17)
+- S Mars – S Jupiter RA 110.018894 68×φ golden (77.11)
+- S Sun → J Juno Dec contraparallel 0.167756 cp contraparallel (44.08)
+- Sun on natal Juno: S Sun → J Juno Dec contraparallel 0.167756 cp contraparallel (44.08)
+- lights on Juno: S Sun → J Juno Dec contraparallel 0.167756 cp contraparallel (44.08); S Moon → J Juno Dec 18.855574 18.8889 ninth (11.81)
 

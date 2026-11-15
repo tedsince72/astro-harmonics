@@ -1,4 +1,4 @@
-# 20240608_beverley_1405 — body-by-body rules BB1-BB38
+# 20240608_beverley_1405 — body-by-body rules BB1-BB39
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -43,6 +43,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB36 | 2 | 1 | 15 Perfect Part |  |
 | BB37 | 1 | 1 | 15 Perfect Part |  |
 | BB38 | 1 | 1 | 15 Perfect Part |  |
+| BB39 | 1 | 1 | 15 Perfect Part |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1419,4 +1420,24 @@ Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Juno
 - WATCH a natal star line scores >= 90: H Fomalhaut – H Juno Dec 23.999599 24 whole (97.99)
 - WATCH another royal star on sky Juno: S Regulus – S Juno RA 12.235393 12.2222 ninth (46.12)
 - lights on Juno: S Moon → H Juno Dec 33.006240 33 whole (68.8); S Moon → J Juno RA 116.507511 72×φ golden (72.03)
+
+## BB39 — same-body line paired in both charts (BB13) and the Sun conj / contraparallel natal X
+
+Rule: BB13 holds (the same-body line S X → H X and S X → J X each has a sky pair on its target, the pair not naming X), and the Sun is conj or contraparallel natal X in either chart (S Sun → H X or S Sun → J X, any plane). WATCH, noted not required: a body (not a royal star, not the Moon) in a pair on both charts' lines; a pair end conj / contraparallel sky X; a royal pair whose star is on sky X with its natal line on X scoring >= 90; three or more pairs on one same-body line.
+
+Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Makemake (also holds: Lingfield 14:35 2 Apr 2021, 5 Pholas, Juno)
+
+### 15 Perfect Part — Makemake (only)
+- S Makemake → H Makemake Dec 1.012089 1 whole (39.55)
+- S Chiron – S Sedna Dec 0.996865 1 whole (84.33)
+- S Neptune – S Eris Dec 0.992192 1 whole (60.96)
+- S Makemake → J Makemake Dec 12.210086 12.2222 ninth (50.35)
+- S Juno – S Regulus RA 12.235393 12.2222 ninth (46.12)
+- S Mercury – S Chiron Dec 12.216899 12.2222 ninth (78.22)
+- S Sun → H Makemake Dec 0.106418 conj conj (64.53)
+- Sun on natal Makemake: S Sun → H Makemake Dec 0.106418 conj conj (64.53)
+- WATCH a body in a pair on both charts' lines: Chiron
+- WATCH a pair end conj / contraparallel sky Makemake: S Mercury – S Makemake Dec 0.056271 conj conj (81.24)
+- WATCH a royal pair, the star on sky X and its natal line >= 90: S Juno – S Regulus RA with Regulus on sky Makemake and J Regulus – J Makemake Dec 22.220684 22.2222 ninth (96.54)
+- lights on Makemake: S Sun – S Makemake RA 122.336114 122.222 ninth (53.41); S Sun → H Makemake Dec 0.106418 conj conj (64.53); S Sun → J Makemake Dec 11.304415 7×φ golden (32.65)
 

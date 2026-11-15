@@ -636,3 +636,14 @@ Field check (three races): royal star on sky X with a scoring crossed ratio in b
 Perfect Part Juno (not built, noted); both >= 80 (built): Perfect Part only; WATCH notes opposition / conj, sky line >= 80, natal star line
 >= 90, another royal on sky X. Independent checker (15 Nov): 0 mismatches (15,936 crossed cells recomputed); outside the three races
 Catterick 14:40 2022 04 Thakuri Mars and Chelmsford AW 13:20 2024 08 Duveen Jupiter also hold it.
+
+## BB39 — Beverley 14:05 8 Jun 2024, 15 Perfect Part, Makemake (15 Nov 2026, built)
+Perfect Part Makemake already held BB13 (same-body line paired in both charts). Lines: S Makemake → J Makemake Dec 12.210086 ninth 12.2222
+(50.35) paired by S Mercury – S Chiron Dec (78.22), S Juno – S Regulus RA (46.12) [and S Juno – S Makemake Dec (0.63), names X, not counted];
+S Mercury – S Makemake Dec conj 0.056271 (81.24); S Regulus – S Makemake Dec 10 (52.19), J Regulus – J Makemake Dec 22.2222 (96.54), paired
+only by S Moon – S Rahu; S Makemake → H Makemake Dec 1 (39.55) paired by S Chiron – S Sedna (84.33), S Neptune – S Eris (60.96); S Sun →
+H Makemake Dec conj 0.106418 (64.53). Field check, BB13 + (three races): body in a pair on both lines: Royal Context Eris, Perfect Part;
+pair end conj / cp sky X: Perfect Part only; royal pair with star on sky X and natal line >= 90: Perfect Part only (not built, noted);
+three pairs on one line: Never In Paris Gonggong, Royal Context Eris, Perfect Part; Sun conj / cp natal X (built): Pholas Juno (S Sun →
+J Juno Dec cp 0.167756) and Perfect Part Makemake. The others are WATCH notes. Independent checker (15 Nov): 0 mismatches; Catterick,
+Chelmsford no holders.
