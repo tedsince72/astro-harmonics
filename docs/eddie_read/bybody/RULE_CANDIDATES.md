@@ -671,3 +671,21 @@ Soul Jupiter, Secret Satire Sun and Quaoar, Sinology Ketu); two closed royal lin
 4 / 7; b + H X – J X: Secret Satire Sun only (not built, noted); a + Moon on sky X and both natal X and b + Moon (built): Ishvara Vesta and
 Secret Satire Sun. Ishvara's loops are looser (H Antares line contraparallel; J loop S Eris – S Antares, a royal star as a pair end); Antares and
 Eris in both. First rule that needs the Moon (before: watch-only, BB30 / BB31). In-sample for York.
+
+## BB42 — York 15:45 15 May 2024, 6 Secret Satire, Mercury (15 Nov 2026, built: version 3 + d)
+Lines: H Mercury – J Mercury RA 177.5669 ninth 177.778 (40.7) with S Juno – S Gonggong RA 177.8024 (93.1) and S Mars → J Mercury RA 177.8369
+(83.4) on it; H Mercury – J Mercury Dec 6.4785 4×φ (80.3) with S Moon – S Chiron Dec 6.4687 (89.5); J Fomalhaut – J Mercury RA 155.8540 ninth
+155.556 with S Saturn – S Ketu RA 155.7804 and S Neptune – S Transpluto RA 155.2965; S Antares – S Mercury RA √2 141.4 (13.1); Neptune on sky
+Mercury (φ⁷ 29.0284), H Mercury Dec 2 and J Mercury RA 171; Uranus on H Mercury RA 44.4444 / Dec 17.7778 and J Mercury RA 138 / Dec 15×φ.
+Field check (Lingfield / Haydock / Beverley / Catterick / Chelmsford / York; conj / cp left out of H X – J X and of the four lines):
+1 = H X – J X on a target with a sky pair and a sky Y → natal X on it (not built, noted): 3 (Arafi Haumea, Pholas Makemake, Shimmering Dawn
+  Ketu) / 2 (Ventura Flame Eris, My Friend Stan Sun) / 1 (Aviation Time Transpluto) / 0 / 3 (Good Time Ahead Sun, Good Time Ahead Gonggong,
+  Foinix Mercury) / 1 (Secret Satire Mercury). Same shape in Pholas (H Makemake – J Makemake RA 18.8595 ninth 18.8889, S Mercury – S Pluto Dec
+  18.8844, S Chiron → H Makemake Dec 18.8893). Without the sky Y → natal X: 16 / 21 / 16 / 12 / 17 / 18.
+2 = H X – J X in both planes, each with its own sky pair (not built, noted): 0 / 0 / 0 / Thakuri Juno / Duveen Vesta / Secret Satire Mercury.
+3 = a sky body (not Sun / Moon) on both natal X in both planes (not built alone, noted): 0 / 0 / 2 (Aviation Time Uranus, Perfect Part Sun) /
+  Beluga Gold Venus / 0 / Secret Satire Mercury.
+d = a sky body (not Sun) on sky X and on both natal X: 44 / 76 / 84 / 42 / 59 / 62 (not alone).
+3 + d (built): 0 / 0 / 2 (Aviation Time Uranus: Neptune four, Haumea (H line conj) and Pluto on sky and both natal; Perfect Part Sun: Ceres does
+  both) / 0 / 0 / Secret Satire Mercury (Uranus four, Neptune on sky and both natal).
+2 + 3, 1 + 3, 2 + 3 + d: Secret Satire Mercury only (not built, noted). In-sample for York and Beverley.

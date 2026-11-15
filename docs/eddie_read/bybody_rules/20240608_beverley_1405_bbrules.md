@@ -1,4 +1,4 @@
-# 20240608_beverley_1405 — body-by-body rules BB1-BB41
+# 20240608_beverley_1405 — body-by-body rules BB1-BB42
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -46,6 +46,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB39 | 1 | 1 | 15 Perfect Part |  |
 | BB40 | 1 | 1 | 15 Perfect Part |  |
 | BB41 | 0 | 0 | - |  |
+| BB42 | 2 | 2 | 01 Aviation Time, 15 Perfect Part |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1468,4 +1469,37 @@ Rule: In each chart (horse and jockey) a natal royal-star line on X scores (H R 
 Origin: York 15:45 15 May 2024, 6 Secret Satire, Sun (also holds: Haydock 13:45 8 Jun 2020, 7 Ishvara, Vesta)
 
 No runner holds it.
+
+## BB42 — a sky body on both natal X in both planes, and a sky body on sky X and both natal X
+
+Rule: A sky body Y (not X, the Sun or the Moon) is on H X in RA and in Dec and on J X in RA and in Dec (four lines S Y → H X / S Y → J X, any score, no conj / contraparallel). And a sky body Z (not X or the Sun; it may be Y, it may be the Moon) is on sky X (S Z – S X) and on both natal X (S Z → H X and S Z → J X); any plane, any score, conj / contraparallel included. WATCH, noted not required: a conj / contraparallel line of Z; Z is the Moon.
+
+Origin: York 15:45 15 May 2024, 6 Secret Satire, Mercury (Uranus the four lines, Neptune on sky and both natal Mercury) (also holds: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Sun (Ceres does both))
+
+### 01 Aviation Time — Uranus (also: 15 Perfect Part)
+- S Neptune → H Uranus Dec 17.016064 17 whole (19.68)
+- S Neptune → H Uranus RA 41.478287 41.4 silver (8.37)
+- S Neptune → J Uranus RA 88.808680 88.8889 ninth (54.88)
+- S Neptune → J Uranus Dec 22.253956 22.2222 ninth (28.6)
+- S Haumea – S Uranus Dec 3.220224 2×φ golden (51.1)
+- S Haumea → H Uranus Dec 0.278120 conj conj (7.29)
+- S Haumea → J Uranus Dec 38.991900 39 whole (59.5)
+- S Pluto – S Uranus Dec 41.464965 41.4 silver (29.81)
+- S Pluto → H Uranus RA 97.011931 97 whole (40.34)
+- S Pluto → J Uranus RA 33.275036 33.3333 ninth (12.55)
+- Neptune on H Uranus and J Uranus in RA and Dec (4 lines)
+- Haumea on sky Uranus, H Uranus and J Uranus
+- WATCH Haumea: S Haumea → H Uranus Dec is a conj
+- Pluto on sky Uranus, H Uranus and J Uranus
+- lights on Uranus: S Moon → J Uranus Dec 51.016456 51 whole (17.72)
+
+### 15 Perfect Part — Sun (also: 01 Aviation Time)
+- S Ceres → H Sun RA 88.761547 88.8889 ninth (28.37)
+- S Ceres → H Sun Dec 35.622637 22×φ golden (20.09)
+- S Ceres → J Sun Dec 44.479694 44.4444 ninth (60.34)
+- S Ceres → J Sun RA 114.911447 71×φ golden (4.22)
+- S Ceres – S Sun RA 145.015251 145 whole (23.74)
+- Ceres on H Sun and J Sun in RA and Dec (4 lines)
+- Ceres on sky Sun, H Sun and J Sun
+- the same body does both (Ceres)
 

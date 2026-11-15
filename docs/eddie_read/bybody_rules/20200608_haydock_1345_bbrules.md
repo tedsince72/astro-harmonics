@@ -1,4 +1,4 @@
-# 20200608_haydock_1345 — body-by-body rules BB1-BB41
+# 20200608_haydock_1345 — body-by-body rules BB1-BB42
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -46,6 +46,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB39 | 0 | 0 | - |  |
 | BB40 | 1 | 1 | 07 Ishvara |  |
 | BB41 | 1 | 1 | 07 Ishvara |  |
+| BB42 | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1083,4 +1084,12 @@ Origin: York 15:45 15 May 2024, 6 Secret Satire, Sun (also holds: Haydock 13:45 
 - WATCH a royal star is a pair end (S Eris – S Antares Dec)
 - Moon on sky Vesta, H Vesta and J Vesta: S Moon – S Vesta Dec 46.936470 29×φ golden (58.38); S Moon – S Vesta RA 156.969749 97×φ golden (36.88); S Moon → H Vesta RA 177.621190 177.778 ninth (55.96); S Moon → J Vesta Dec 22.684496 14×φ golden (1.17)
 - lights on Vesta: S Sun – S Vesta Dec 0.052556 conj conj (82.48); S Moon – S Vesta Dec 46.936470 29×φ golden (58.38); S Moon – S Vesta RA 156.969749 97×φ golden (36.88); S Moon → H Vesta RA 177.621190 177.778 ninth (55.96); S Moon → J Vesta Dec 22.684496 14×φ golden (1.17)
+
+## BB42 — a sky body on both natal X in both planes, and a sky body on sky X and both natal X
+
+Rule: A sky body Y (not X, the Sun or the Moon) is on H X in RA and in Dec and on J X in RA and in Dec (four lines S Y → H X / S Y → J X, any score, no conj / contraparallel). And a sky body Z (not X or the Sun; it may be Y, it may be the Moon) is on sky X (S Z – S X) and on both natal X (S Z → H X and S Z → J X); any plane, any score, conj / contraparallel included. WATCH, noted not required: a conj / contraparallel line of Z; Z is the Moon.
+
+Origin: York 15:45 15 May 2024, 6 Secret Satire, Mercury (Uranus the four lines, Neptune on sky and both natal Mercury) (also holds: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Sun (Ceres does both))
+
+No runner holds it.
 

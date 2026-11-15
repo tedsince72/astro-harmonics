@@ -1,4 +1,4 @@
-# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB41
+# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB42
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -46,6 +46,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB39 | 1 | 1 | 05 Pholas |  |
 | BB40 | 0 | 0 | - |  |
 | BB41 | 0 | 0 | - |  |
+| BB42 | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -709,6 +710,14 @@ No runner holds it.
 Rule: In each chart (horse and jockey) a natal royal-star line on X scores (H R – H X / J R – J X; conj / contraparallel included), and a sky pair S A – S B on its target (the pair not naming X or the Moon) closes it: one end on sky X (S A – S X) and the other end on natal X in that same chart (S B → H X for the horse line, S B → J X for the jockey line); any plane, any score. And the Moon is on sky X (S Moon – S X), on H X (S Moon → H X) and on J X (S Moon → J X). WATCH, noted not required: H X – J X scores; a royal star as a pair end; a conj / contraparallel royal line.
 
 Origin: York 15:45 15 May 2024, 6 Secret Satire, Sun (also holds: Haydock 13:45 8 Jun 2020, 7 Ishvara, Vesta)
+
+No runner holds it.
+
+## BB42 — a sky body on both natal X in both planes, and a sky body on sky X and both natal X
+
+Rule: A sky body Y (not X, the Sun or the Moon) is on H X in RA and in Dec and on J X in RA and in Dec (four lines S Y → H X / S Y → J X, any score, no conj / contraparallel). And a sky body Z (not X or the Sun; it may be Y, it may be the Moon) is on sky X (S Z – S X) and on both natal X (S Z → H X and S Z → J X); any plane, any score, conj / contraparallel included. WATCH, noted not required: a conj / contraparallel line of Z; Z is the Moon.
+
+Origin: York 15:45 15 May 2024, 6 Secret Satire, Mercury (Uranus the four lines, Neptune on sky and both natal Mercury) (also holds: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Sun (Ceres does both))
 
 No runner holds it.
 
