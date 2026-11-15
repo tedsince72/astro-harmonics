@@ -952,3 +952,14 @@ S Sun → J Pallas Dec 33.003888 33 (80.6) and RA 33.347591 ninth 33.3333 (78.6)
 Diligent Resdev Pallas only - 2 picks, 1 won, 0.2 by chance (with golden targets read as numbers 4 more holders, incl. Secret Satire Vesta
 1 / 1×φ); P3o (royal line carried by S X – S Y, Y on natal X in the other chart; opposition counts as a family) 3/6, 6/10, 6/13, 1/5, 4/8,
 3/7, 9/15 - all 5 origin winners, 27 picks, 5 won, 2.6 by chance; P3 (any chart) 29 picks, 5 won, 2.7.
+
+## Diligent Resdev Vesta, the Moon on the H X – J X number (15 Nov 2026, Eddie: "sometimes see moon distance hit the h-j distance"; not built)
+H Vesta – J Vesta Dec 24.150522 silver 24.14 (76.84) and S Moon → H Vesta RA 24.127184 silver 24.14 (58.71); S Fomalhaut – S Vesta RA 122.236525
+ninth 122.222 (94.15) and S Sun → H Vesta RA 122.087456 ninth 122.222 (44.87); J Antares – J Vesta RA 90.8272 same-body ratio against S Vesta →
+J Vesta 128.473134 = 1.414478 √2 (87.5); S Sun – S Vesta Dec 5.5603 ninth 5.55556. Field (tools/scans/bb_fieldcheck_diligent_vesta.py; checker
+0 mismatches): M1 (S Moon → natal X on the family + target of H X – J X; Rahu / Ketu skipped) Diligent Resdev Vesta and Chelmsford Good Time
+Ahead Sun only (1 pick in the winner races, 1 won, 0.1 by chance); the same with the Sun: no holder; control (any sky body Y, not X itself, on
+the H X – J X target) 17 picks 3 won (1.8). RS (a royal star on sky X and the Sun on natal X, same family + target) Haydock Ventura Flame
+Venus, Ishvara Juno (S Fomalhaut – S Juno RA 155.553196 ninth 155.556 / S Sun → H Juno RA 155.817127); Catterick Beluga Gold Mars; York 16:15
+True Promise, Diligent Resdev, Misemerald Vesta (all S Fomalhaut – S Vesta 122.222; the Sun → H Vesta values 122.33 / 122.09 / 122.30 sit in
+the wide ninth band) - 5 picks, 2 won, 0.4 by chance; two origin winners, both through Fomalhaut on a ninth. M1 + RS: Diligent Resdev only.
