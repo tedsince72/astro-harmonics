@@ -1,4 +1,4 @@
-# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB39
+# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB40
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -44,6 +44,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB37 | 0 | 0 | - |  |
 | BB38 | 0 | 0 | - |  |
 | BB39 | 1 | 1 | 05 Pholas |  |
+| BB40 | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -693,4 +694,12 @@ Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Makemake (also holds: Lingfi
 - S Sun → J Juno Dec contraparallel 0.167756 cp contraparallel (44.08)
 - Sun on natal Juno: S Sun → J Juno Dec contraparallel 0.167756 cp contraparallel (44.08)
 - lights on Juno: S Sun → J Juno Dec contraparallel 0.167756 cp contraparallel (44.08); S Moon → J Juno Dec 18.855574 18.8889 ninth (11.81)
+
+## BB40 — pair on a same-body line, one end on sky X, the other on natal X in the other chart, the Sun on the same target
+
+Rule: A same-body line S X → H X (or J X) has a sky pair S A – S B on its target (the pair not naming X, the Sun or the Moon). One end, A, is on sky X (S A – S X, any plane, any score); the other end, B, is on natal X in the other chart (S B → J X, or H X; any plane, any score). The Sun is on that same natal X (S Sun → J X, or H X; any plane) on the same family and target as B's line or as the pair. WATCH, noted not required: two or more royal stars on sky X; a royal natal line on X whose same-body or crossed ratio is on a cut.
+
+Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Sedna (also holds: Haydock 13:45 8 Jun 2020, 7 Ishvara, Rahu)
+
+No runner holds it.
 

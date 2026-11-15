@@ -1002,6 +1002,39 @@ def bb39(b):
     return [{'key': base[0]['key'], 'cells': base[0]['cells'] + sun, 'notes': notes}]
 
 
+def bb40(b):
+    """A sky pair on a same-body line: one end on sky X, the other on natal X in the other chart; the Sun on that natal X
+    on the same target as the end's line or the pair (the Sun not a pair end)."""
+    out = []
+    for c in 'HJ':
+        oc = other_chart(c)
+        for sb in b.same_body(c):
+            for s, A, B in b.pairs_on(sb):
+                if b.X in (A, B) or 'Moon' in (A, B) or 'Sun' in (A, B):
+                    continue
+                for a, e in ((A, B), (B, A)):
+                    sky, nat = b.sky_y(a), b.to_natal(e, oc)
+                    if not sky or not nat:
+                        continue
+                    tg = {(n['fam'], n['tgt']) for n in nat} | {(s['fam'], s['tgt'])}
+                    sun = [o for o in b.to_natal('Sun', oc) if (o['fam'], o['tgt']) in tg]
+                    if not sun:
+                        continue
+                    notes = [f'{a} on sky {b.X}, {e} on {oc} {b.X}; Sun on ' +
+                             ' and '.join(w for w, ok in (("the end's line", any((o['fam'], o['tgt']) in {(n['fam'], n['tgt']) for n in nat} for o in sun)),
+                                                          ('the pair', any((o['fam'], o['tgt']) == (s['fam'], s['tgt']) for o in sun))) if ok)]
+                    roy = [o for q in ROY for o in b.sky_y(q)]
+                    if len({o['line'] for o in roy}) >= 2:
+                        notes.append(f'WATCH two or more royal stars on sky {b.X}: ' + '; '.join(cell(o) for o in roy))
+                    cut = [r for _, _, r in b.star_rows() if 'cut' in str(r.get('rt')) or 'cut' in str(r.get('xt'))]
+                    for r in cut:
+                        k = 'same' if 'cut' in str(r.get('rt')) else 'crossed'
+                        notes.append(f'WATCH a royal natal line with a ratio on a cut: {cell(r)} ' + ratio_txt(r, k))
+                    out.append({'key': (c, sb['plane'], s['line'], s['plane'], s['tgt'], a, e),
+                                'cells': [sb, s] + sky + nat + sun, 'notes': notes})
+    return out
+
+
 RULES = [('BB1', bb1, 'Mercury'), ('BB2', bb2, 'Mars'), ('BB3', bb3, 'Jupiter'), ('BB4', bb4, 'Saturn'),
          ('BB5', bb5, 'Uranus'), ('BB6', bb6, 'Uranus'), ('BB7', bb7, 'Neptune'), ('BB8', bb8, 'Rahu'),
          ('BB9', bb9, 'Rahu'), ('BB10', bb10, 'Ketu'), ('BB11', bb11, 'Ceres'), ('BB12', bb12, 'Pallas'),
@@ -1009,7 +1042,8 @@ RULES = [('BB1', bb1, 'Mercury'), ('BB2', bb2, 'Mars'), ('BB3', bb3, 'Jupiter'),
          ('BB17', bb17, 'Makemake'), ('BB18', bb18, 'Venus'), ('BB19', bb19, 'Venus'), ('BB20', bb20, 'Jupiter'),
          ('BB21', bb21, 'Saturn'), ('BB22', bb22, 'Saturn'), ('BB23', bb23, 'Neptune'), ('BB24', bb24, 'Rahu'), ('BB25', bb25, 'Ketu'), ('BB26', bb26, 'Ceres'), ('BB27', bb27, 'Pallas'), ('BB28', bb28, 'Juno'), ('BB29', bb29, 'Vesta'), ('BB30', bb30, 'Eris'), ('BB31', bb31, 'Gonggong'),
          ('BB32', bb32, 'Sun'), ('BB32b', bb32b, 'Sun'), ('BB33', bb33, 'Mercury'), ('BB34', bb34, 'Mars'), ('BB35', bb35, 'Saturn'),
-         ('BB36', bb36, 'Uranus'), ('BB37', bb37, 'Pluto'), ('BB38', bb38, 'Juno'), ('BB39', bb39, 'Makemake')]
+         ('BB36', bb36, 'Uranus'), ('BB37', bb37, 'Pluto'), ('BB38', bb38, 'Juno'), ('BB39', bb39, 'Makemake'),
+         ('BB40', bb40, 'Sedna')]
 
 
 def decade_pairs(cells):

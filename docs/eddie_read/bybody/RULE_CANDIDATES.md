@@ -647,3 +647,15 @@ pair end conj / cp sky X: Perfect Part only; royal pair with star on sky X and n
 three pairs on one line: Never In Paris Gonggong, Royal Context Eris, Perfect Part; Sun conj / cp natal X (built): Pholas Juno (S Sun →
 J Juno Dec cp 0.167756) and Perfect Part Makemake. The others are WATCH notes. Independent checker (15 Nov): 0 mismatches; Catterick,
 Chelmsford no holders.
+
+## BB40 — Beverley 14:05 8 Jun 2024, 15 Perfect Part, Sedna (15 Nov 2026, built: version e)
+Lines: S Sedna → H Sedna Dec 0.444030 ninth 0.444444 (53.42) paired by S Mars – S Eris RA 0.444842 (55.22); S Mars – S Sedna RA 33 (76.14)
+and Dec √2 (3.72); S Eris → J Sedna RA φ⁶ (22.75); S Sun → J Sedna Dec φ⁶ (94.71); S Regulus – S Sedna Dec 2×φ (24.68), S Fomalhaut –
+S Sedna RA φ⁹ (12.41); H Fomalhaut – H Sedna Dec (no family) crossed 19.914709 20 1/20 cut (14.71). No earlier rule held it.
+Field check (Lingfield / Haydock / Beverley holders): a = pair on the same-body line, one end on sky X, the other on natal X in the other
+chart: 2 / 7 / 9; a, other end in either chart: 6 / 12 / 14; a + 2 royals on sky X, Sun not an end: Indie Angel Mars / Magical Max Ceres /
+Perfect Part (not built, noted); a + royal natal line ratio on a cut: 2 / 2 / 5; a + sky end >= 50: 0 / 3 / 7; b = a + the Sun on natal X
+(end's chart) on the same target as the end's line, Sun not a pair end: Perfect Part only (not built, noted; without 'Sun not an end' it
+also takes Royal Context Pluto and Nad Alshiba Snow Pallas, where the Sun is the end); e = as b, the Sun's target the end's line or the
+pair (built): Ishvara Rahu (S Mercury – S Transpluto Dec 13 on S Rahu → H Rahu Dec 13, S Mercury – S Rahu RA ninth, S Transpluto → J Rahu
+Dec 1, S Sun → J Rahu Dec 13 on the pair) and Perfect Part Sedna. Two royals on sky X and the cut ratio are WATCH notes.

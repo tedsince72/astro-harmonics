@@ -57,6 +57,7 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB37': set(),
     'BB38': set(),
     'BB39': {('05 Pholas', 'Juno')},
+    'BB40': set(),
 }
 CELLS = {  # rule: (runner, body, [cell texts that must be in the case])
     'BB1': ('05 Pholas', 'Mercury', ['J Aldebaran – J Mercury Dec 16.193302 10×φ golden (59.99)',
@@ -190,6 +191,12 @@ if os.path.exists(HAY):
     check({(c['runner'], c['body']) for c in hres['BB37']} == {('07 Ishvara', 'Vesta')}, 'BB37 Haydock holders')
     check(not hres['BB38'], 'BB38 Haydock: none')
     check(not hres['BB39'], 'BB39 Haydock: none')
+    check({(c['runner'], c['body']) for c in hres['BB40']} == {('07 Ishvara', 'Rahu')}, 'BB40 Haydock holders')
+    rc = [x for c in hres['BB40'] for x in c['cells']]
+    for w in ('S Rahu → H Rahu Dec 13.009928', 'S Mercury – S Transpluto Dec 12.996052', 'S Mercury – S Rahu RA 13.317469',
+              'S Transpluto → J Rahu Dec 0.989868', 'S Sun → J Rahu Dec 12.984017'):
+        check(any(x.startswith(w) for x in rc), f'BB40 Ishvara Rahu cell {w}')
+    check(any('Sun on the pair' in n for c in hres['BB40'] for n in c['notes']), 'BB40 Ishvara note: Sun on the pair')
     ic = [x for c in hres['BB37'] for x in c['cells']]
     for w in ('S Vesta → J Vesta Dec 24.251973', 'S Vesta – S Eris Dec 24.262031', 'S Eris → J Vesta Dec 0.010058', 'S Sun – S Vesta Dec 0.052556'):
         check(any(x.startswith(w) for x in ic), f'BB37 Ishvara Vesta cell {w}')
@@ -251,6 +258,14 @@ if os.path.exists(BEV):
     check(any('both charts' in n and 'Chiron' in n for n in mn9) and any('S Mercury – S Makemake Dec 0.056271' in n for n in mn9)
           and any('J Regulus – J Makemake Dec 22.220684' in n for n in mn9),
           'BB39 Perfect Part notes')
+    check({(c['runner'], c['body']) for c in bres['BB40']} == {('15 Perfect Part', 'Sedna')}, 'BB40 Beverley holders')
+    sc0 = [x for c in bres['BB40'] for x in c['cells']]
+    sn0 = [n for c in bres['BB40'] for n in c['notes']]
+    for w in ('S Sedna → H Sedna Dec 0.444030', 'S Mars – S Eris RA 0.444842', 'S Mars – S Sedna RA 32.995228',
+              'S Eris → J Sedna RA 17.923478', 'S Sun → J Sedna Dec 17.942849'):
+        check(any(x.startswith(w) for x in sc0), f'BB40 Perfect Part Sedna cell {w}')
+    check(any("Sun on the end's line" in n for n in sn0) and any('S Regulus – S Sedna' in n and 'S Fomalhaut – S Sedna' in n for n in sn0)
+          and any('19.914709 20 1/20 cut' in n for n in sn0), 'BB40 Perfect Part notes')
     check({(c['runner'], c['body']) for c in bres['BB32b']} == {('15 Perfect Part', 'Sun')}, 'BB32b Beverley holders')
     pc = [x for c in bres['BB32b'] for x in c['cells']]
     pn = [n for c in bres['BB32b'] for n in c['notes']]

@@ -1,4 +1,4 @@
-# 20200608_haydock_1345 — body-by-body rules BB1-BB39
+# 20200608_haydock_1345 — body-by-body rules BB1-BB40
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -44,6 +44,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB37 | 1 | 1 | 07 Ishvara |  |
 | BB38 | 0 | 0 | - |  |
 | BB39 | 0 | 0 | - |  |
+| BB40 | 1 | 1 | 07 Ishvara |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1036,4 +1037,19 @@ Rule: BB13 holds (the same-body line S X → H X and S X → J X each has a sky 
 Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Makemake (also holds: Lingfield 14:35 2 Apr 2021, 5 Pholas, Juno)
 
 No runner holds it.
+
+## BB40 — pair on a same-body line, one end on sky X, the other on natal X in the other chart, the Sun on the same target
+
+Rule: A same-body line S X → H X (or J X) has a sky pair S A – S B on its target (the pair not naming X, the Sun or the Moon). One end, A, is on sky X (S A – S X, any plane, any score); the other end, B, is on natal X in the other chart (S B → J X, or H X; any plane, any score). The Sun is on that same natal X (S Sun → J X, or H X; any plane) on the same family and target as B's line or as the pair. WATCH, noted not required: two or more royal stars on sky X; a royal natal line on X whose same-body or crossed ratio is on a cut.
+
+Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Sedna (also holds: Haydock 13:45 8 Jun 2020, 7 Ishvara, Rahu)
+
+### 07 Ishvara — Rahu (only)
+- S Rahu → H Rahu Dec 13.009928 13 whole (50.36)
+- S Mercury – S Transpluto Dec 12.996052 13 whole (80.26)
+- S Mercury – S Rahu RA 13.317469 13.3333 ninth (40.51)
+- S Transpluto → J Rahu Dec 0.989868 1 whole (49.34)
+- S Sun → J Rahu Dec 12.984017 13 whole (20.08)
+- Mercury on sky Rahu, Transpluto on J Rahu; Sun on the pair
+- lights on Rahu: S Moon → J Rahu Dec 34.005009 34 whole (74.95); S Moon → J Rahu RA 88.791898 88.8889 ninth (45.44); S Sun → J Rahu Dec 12.984017 13 whole (20.08)
 

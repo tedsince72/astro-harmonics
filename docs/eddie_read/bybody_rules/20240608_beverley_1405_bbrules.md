@@ -1,4 +1,4 @@
-# 20240608_beverley_1405 — body-by-body rules BB1-BB39
+# 20240608_beverley_1405 — body-by-body rules BB1-BB40
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -44,6 +44,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB37 | 1 | 1 | 15 Perfect Part |  |
 | BB38 | 1 | 1 | 15 Perfect Part |  |
 | BB39 | 1 | 1 | 15 Perfect Part |  |
+| BB40 | 1 | 1 | 15 Perfect Part |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1440,4 +1441,22 @@ Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Makemake (also holds: Lingfi
 - WATCH a pair end conj / contraparallel sky Makemake: S Mercury – S Makemake Dec 0.056271 conj conj (81.24)
 - WATCH a royal pair, the star on sky X and its natal line >= 90: S Juno – S Regulus RA with Regulus on sky Makemake and J Regulus – J Makemake Dec 22.220684 22.2222 ninth (96.54)
 - lights on Makemake: S Sun – S Makemake RA 122.336114 122.222 ninth (53.41); S Sun → H Makemake Dec 0.106418 conj conj (64.53); S Sun → J Makemake Dec 11.304415 7×φ golden (32.65)
+
+## BB40 — pair on a same-body line, one end on sky X, the other on natal X in the other chart, the Sun on the same target
+
+Rule: A same-body line S X → H X (or J X) has a sky pair S A – S B on its target (the pair not naming X, the Sun or the Moon). One end, A, is on sky X (S A – S X, any plane, any score); the other end, B, is on natal X in the other chart (S B → J X, or H X; any plane, any score). The Sun is on that same natal X (S Sun → J X, or H X; any plane) on the same family and target as B's line or as the pair. WATCH, noted not required: two or more royal stars on sky X; a royal natal line on X whose same-body or crossed ratio is on a cut.
+
+Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Sedna (also holds: Haydock 13:45 8 Jun 2020, 7 Ishvara, Rahu)
+
+### 15 Perfect Part — Sedna (only)
+- S Sedna → H Sedna Dec 0.444030 0.444444 ninth (53.42)
+- S Mars – S Eris RA 0.444842 0.444444 ninth (55.22)
+- S Mars – S Sedna RA 32.995228 33 whole (76.14)
+- S Mars – S Sedna Dec 1.416256 1.414 sqrt2 (3.72)
+- S Eris → J Sedna RA 17.923478 φ⁶ phi power (22.75)
+- S Sun → J Sedna Dec 17.942849 φ⁶ phi power (94.71)
+- Mars on sky Sedna, Eris on J Sedna; Sun on the end's line
+- WATCH two or more royal stars on sky Sedna: S Fomalhaut – S Sedna RA 76.113020 φ⁹ phi power (12.41); S Regulus – S Sedna Dec 3.260473 2×φ golden (24.68)
+- WATCH a royal natal line with a ratio on a cut: H Fomalhaut – H Sedna Dec 37.886837 (no family) crossed ratio vs S Sedna → H Sedna RA 1.902455 = 19.914709 20 1/20 cut (14.71)
+- lights on Sedna: S Sun → J Sedna Dec 17.942849 φ⁶ phi power (94.71)
 
