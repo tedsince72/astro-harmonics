@@ -1,4 +1,4 @@
-# 20200608_haydock_1345 — body-by-body rules BB1-BB56
+# 20200608_haydock_1345 — body-by-body rules BB1-BB57
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -61,6 +61,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB54 | 4 | 4 | 02 Ventura Flame, 03 Never In Paris, 06 Birkenhead, 07 Ishvara |  |
 | BB55 | 7 | 6 | 01 Magical Max, 02 Ventura Flame, 04 Royal Context, 06 Birkenhead, 07 Ishvara, 11 Mews House |  |
 | BB56 | 2 | 2 | 02 Ventura Flame, 07 Ishvara |  |
+| BB57 | 5 | 5 | 02 Ventura Flame, 04 Royal Context, 06 Birkenhead, 07 Ishvara, 09 Garsman |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1356,11 +1357,11 @@ Origin: York 16:15 15 May 2024, 13 Diligent Resdev, Pallas (H Aldebaran – H Pa
 - H Regulus – H Saturn RA carried by S Saturn – S Sedna RA; Sedna on J Saturn: RA 66.6667 ninth
 - lights on Saturn: S Sun – S Saturn RA 133.542772 133.333 ninth (21.46); S Moon – S Saturn Dec 4.018954 4 whole (5.23); S Sun → H Saturn RA 169.876811 105×φ golden (48.28)
 
-## BB56 — 
+## BB56 — A royal star on sky X and the Sun on natal X, same target
 
-Rule: 
+Rule: A sky line S R – S X (R a royal star) and S Sun → H X or S Sun → J X both score on the same family and target (any plane each; conj / contraparallel not counted). X not Rahu or Ketu. Any score.
 
-Origin: 
+Origin: York 16:15 15 May 2024, 13 Diligent Resdev, Vesta (S Fomalhaut – S Vesta RA 122.236525 ninth 122.222; S Sun → H Vesta RA 122.087456 ninth 122.222) (Eddie, 15 Nov 2026: 'RS'). Also held by Ishvara Juno (Haydock: S Fomalhaut – S Juno RA 155.553196 ninth 155.556; S Sun → H Juno RA 155.817127). In-sample over the 5 winner races 5 picks, 2 won, 0.4 by chance. Note: the ninth bands are wide (York 16:15 True Promise / Misemerald Vesta hold it on Sun → H Vesta 122.33 / 122.30).
 
 ### 02 Ventura Flame — Venus (also: 07 Ishvara)
 - S Aldebaran – S Venus Dec 4.855038 3×φ golden (97.11)
@@ -1373,4 +1374,57 @@ Origin:
 - S Sun → H Juno RA 155.817127 155.556 ninth (15.92)
 - S Fomalhaut – S Juno RA and S Sun → H Juno RA both 155.556 ninth
 - lights on Juno: S Sun – S Juno RA 112.015380 112 whole (23.1); S Sun → H Juno Dec 33.367762 33.3333 ninth (48.36); S Sun → H Juno RA 155.817127 155.556 ninth (15.92)
+
+## BB57 — The same royal star on natal X in both charts, the two pairs sharing a body (BB51 loosened)
+
+Rule: The same royal star R has a scoring natal line to X in both charts (H R – H X and J R – J X; conj / contraparallel not counted; any plane), each carried by a sky pair on its target (pairs not naming X; the Moon allowed); a horse pair and a jockey pair share a body Y (not a royal star). Unlike BB51, Y need not be on sky X. Any plane, any score.
+
+Origin: Catterick 14:40 6 Apr 2022, 5 Wotever Next, Sun (H Regulus – H Sun Dec 6.000669 6 whole (96.65) carried by S Moon – S Rahu Dec 6.006606; J Regulus – J Sun RA 166.917198 ninth 166.667 (24.84) carried by S Rahu – S Haumea RA 166.802333; shared Rahu) (Eddie, 15 Nov 2026: 'yes, R1'). Also held by Ishvara Mercury (Antares, shared Gonggong) and Diligent Resdev Venus (Antares, shared Jupiter), the BB51 origin cases. Over the 6 result races 15 picks, 3 won, 1.6 by chance. Noted, not built (R2): each pair's other end on that chart's natal X - Wotever Next only (S Moon → H Sun RA 61.995143 62; S Haumea → J Sun Dec contraparallel 0.087085, RA 101.965066 63×φ).
+
+### 02 Ventura Flame — Mars (also: 04 Royal Context, 06 Birkenhead, 07 Ishvara, 09 Garsman)
+- H Aldebaran – H Mars Dec 4.006243 4 whole (68.78)
+- S Jupiter – S Ceres Dec 3.993160 4 whole (65.8)
+- J Aldebaran – J Mars Dec 9.687907 6×φ golden (37.36)
+- S Jupiter – S Gonggong Dec 9.683822 6×φ golden (24.75)
+- S Saturn – S Moon Dec 4.018954 4 whole (5.23)
+- S Saturn – S Orcus Dec 9.718659 6×φ golden (67.73)
+- Aldebaran in both charts: H Aldebaran – H Mars Dec carried by S Jupiter – S Ceres Dec | J Aldebaran – J Mars Dec carried by S Jupiter – S Gonggong Dec; Jupiter in both pairs
+- Aldebaran in both charts: H Aldebaran – H Mars Dec carried by S Saturn – S Moon Dec | J Aldebaran – J Mars Dec carried by S Saturn – S Orcus Dec; Saturn in both pairs
+
+### 04 Royal Context — Sedna (also: 02 Ventura Flame, 06 Birkenhead, 07 Ishvara, 09 Garsman)
+- H Aldebaran – H Sedna RA 13.308331 13.3333 ninth (6.24)
+- S Mercury – S Rahu RA 13.317469 13.3333 ninth (40.51)
+- J Aldebaran – J Sedna Dec 13.322450 13.3333 ninth (59.19)
+- Aldebaran in both charts: H Aldebaran – H Sedna RA carried by S Mercury – S Rahu RA | J Aldebaran – J Sedna Dec carried by S Mercury – S Rahu RA; Mercury in both pairs
+- Aldebaran in both charts: H Aldebaran – H Sedna RA carried by S Mercury – S Rahu RA | J Aldebaran – J Sedna Dec carried by S Mercury – S Rahu RA; Rahu in both pairs
+
+### 06 Birkenhead — Mars (also: 02 Ventura Flame, 04 Royal Context, 07 Ishvara, 09 Garsman)
+- H Fomalhaut – H Mars RA 46.990330 φ⁸ phi power (83.52)
+- S Moon – S Vesta Dec 46.936470 φ⁸ phi power (40.05)
+- J Fomalhaut – J Mars RA 177.953084 177.778 ninth (50.7)
+- S Vesta – S Quaoar RA 178.084725 177.778 ninth (13.67)
+- Fomalhaut in both charts: H Fomalhaut – H Mars RA carried by S Moon – S Vesta Dec | J Fomalhaut – J Mars RA carried by S Vesta – S Quaoar RA; Vesta in both pairs
+
+### 07 Ishvara — Mercury (also: 02 Ventura Flame, 04 Royal Context, 06 Birkenhead, 09 Garsman)
+- H Antares – H Mercury Dec 27.981919 28 whole (9.6)
+- S Gonggong – S Aldebaran Dec 27.999417 28 whole (97.09)
+- J Antares – J Mercury RA 122.977640 φ¹⁰ phi power (92.29)
+- S Gonggong – S Haumea RA 122.826154 φ¹⁰ phi power (10.18)
+- Antares in both charts: H Antares – H Mercury Dec carried by S Gonggong – S Aldebaran Dec | J Antares – J Mercury RA carried by S Gonggong – S Haumea RA; Gonggong in both pairs
+- lights on Mercury: S Sun – S Mercury Dec 1.001903 1 whole (90.49); S Moon – S Mercury Dec 47.990929 48 whole (54.65); S Moon – S Mercury Dec contraparallel 0.218065 cp contraparallel (27.31)
+
+### 09 Garsman — Chiron (also: 02 Ventura Flame, 04 Royal Context, 06 Birkenhead, 07 Ishvara)
+- H Regulus – H Chiron Dec 9.730564 6×φ golden (30.99)
+- S Saturn – S Orcus Dec 9.718659 6×φ golden (67.73)
+- J Regulus – J Chiron Dec 4.834971 3×φ golden (40.95)
+- S Orcus – S Quaoar Dec 4.885788 3×φ golden (2.2)
+- S Saturn – S Quaoar Dec 4.832871 3×φ golden (34.47)
+- Regulus in both charts: H Regulus – H Chiron Dec carried by S Saturn – S Orcus Dec | J Regulus – J Chiron Dec carried by S Orcus – S Quaoar Dec; Orcus in both pairs
+- Regulus in both charts: H Regulus – H Chiron Dec carried by S Saturn – S Orcus Dec | J Regulus – J Chiron Dec carried by S Saturn – S Quaoar Dec; Saturn in both pairs
+- WATCH additive step (Dec): 6×φ = 3×φ + 3×φ (H Regulus – H Chiron; J Regulus – J Chiron; S Orcus – S Quaoar)
+- WATCH additive step (Dec): 6×φ = 3×φ + 3×φ (S Saturn – S Orcus; J Regulus – J Chiron; S Orcus – S Quaoar)
+- WATCH additive step (Dec): 6×φ = 3×φ + 3×φ (H Regulus – H Chiron; J Regulus – J Chiron; S Saturn – S Quaoar)
+- WATCH additive step (Dec): 6×φ = 3×φ + 3×φ (S Saturn – S Orcus; J Regulus – J Chiron; S Saturn – S Quaoar)
+- WATCH additive step (Dec): 6×φ = 3×φ + 3×φ (H Regulus – H Chiron; S Orcus – S Quaoar; S Saturn – S Quaoar)
+- WATCH additive step (Dec): 6×φ = 3×φ + 3×φ (S Saturn – S Orcus; S Orcus – S Quaoar; S Saturn – S Quaoar) (may be geometry: three distances between the same three points)
 

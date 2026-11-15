@@ -13,7 +13,7 @@ races = [('Lingfield 14:35 2021', '20210402_lingfield_aw_1435', 'Pholas'),
 def num(i): return int(''.join(c for c in i[2:] if c.isdigit()))
 def origin(i):
     k = num(i)
-    return 0 if k <= 17 else 1 if k <= 31 else 2 if k <= 40 else 3 if k <= 50 else 4
+    return 0 if k <= 17 else 1 if k <= 31 else 2 if k <= 40 else 3 if k <= 50 else 4 if k <= 56 else 5
 ids = [r for r, _, _ in E.RULES]; body = {r: b for r, _, b in E.RULES}
 data = []
 for n, r, w in races:

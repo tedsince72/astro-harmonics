@@ -982,3 +982,11 @@ Song, Mortlake, Diligent Resdev Quaoar only (3 / 1 / 0.3, one origin winner).
   York 15:45 Sinology Juno (H Dec 17.9265 φ⁶ / J RA 17.7513 ninth, no shared pair). Within 1 % and 2 %: the same 2. With a shared pair
   (Moon in or out): Wotever Next only. 6 result races: 1 pick, 1 won, 0.2 by chance. Needs a second winner (build standard).
 - Perfect Part Mercury (Beverley) has both lines scoring but on different numbers (Dec 8.9991 whole 9 / Dec 1.4158 √2).
+
+## Sun (Catterick 14:40 2022, 05 Wotever Next; Eddie 15 Nov 2026) - R1 built as BB57, R2 noted
+- H Regulus – H Sun Dec 6.000669 6 (96.65) carried by S Moon – S Rahu Dec 6.006606 (66.97); J Regulus – J Sun RA 166.917198 ninth 166.667
+  (24.84) carried by S Rahu – S Haumea RA 166.802333 (59.3); shared Rahu. Other ends: S Moon → H Sun RA 61.995143 62 (75.71); S Haumea →
+  J Sun Dec contraparallel 0.087085 (70.97), RA 101.965066 63×φ (10.73). Not BB51 (Moon in the horse pair; Rahu not on sky Sun).
+- Field check (tools/scans/bb_fieldcheck_royal_both_charts_shared_end.py; independent checker 0 differences), 6 result races:
+  R0 same royal star both charts, each carried: 35 picks 4 won (4.0); R1 + the pairs share a body (Moon allowed): 15 / 3 (1.6) -> BB57;
+  R1 no Moon: 13 / 2 (1.3); R2 = R1 + each pair's other end on that chart's natal X: Wotever Next only (1 / 1, 0.2) - noted, not built.

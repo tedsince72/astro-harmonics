@@ -1,4 +1,4 @@
-# 20240608_beverley_1405 — body-by-body rules BB1-BB56
+# 20240608_beverley_1405 — body-by-body rules BB1-BB57
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -61,6 +61,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB54 | 5 | 5 | 04 Invincible Annice, 07 Mademoiselle, 08 Maw Lam, 14 Havana White, 15 Perfect Part |  |
 | BB55 | 8 | 6 | 04 Invincible Annice, 07 Mademoiselle, 08 Maw Lam, 13 Storm Call, 14 Havana White, 15 Perfect Part |  |
 | BB56 | 0 | 0 | - |  |
+| BB57 | 1 | 1 | 14 Havana White |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1833,11 +1834,25 @@ Origin: York 16:15 15 May 2024, 13 Diligent Resdev, Pallas (H Aldebaran – H Pa
 - S Haumea → H Orcus RA 61.985324 62 whole (26.62)
 - J Antares – J Orcus Dec carried by S Haumea – S Orcus Dec; Haumea on H Orcus: RA 62 whole
 
-## BB56 — 
+## BB56 — A royal star on sky X and the Sun on natal X, same target
 
-Rule: 
+Rule: A sky line S R – S X (R a royal star) and S Sun → H X or S Sun → J X both score on the same family and target (any plane each; conj / contraparallel not counted). X not Rahu or Ketu. Any score.
 
-Origin: 
+Origin: York 16:15 15 May 2024, 13 Diligent Resdev, Vesta (S Fomalhaut – S Vesta RA 122.236525 ninth 122.222; S Sun → H Vesta RA 122.087456 ninth 122.222) (Eddie, 15 Nov 2026: 'RS'). Also held by Ishvara Juno (Haydock: S Fomalhaut – S Juno RA 155.553196 ninth 155.556; S Sun → H Juno RA 155.817127). In-sample over the 5 winner races 5 picks, 2 won, 0.4 by chance. Note: the ninth bands are wide (York 16:15 True Promise / Misemerald Vesta hold it on Sun → H Vesta 122.33 / 122.30).
 
 No runner holds it.
+
+## BB57 — The same royal star on natal X in both charts, the two pairs sharing a body (BB51 loosened)
+
+Rule: The same royal star R has a scoring natal line to X in both charts (H R – H X and J R – J X; conj / contraparallel not counted; any plane), each carried by a sky pair on its target (pairs not naming X; the Moon allowed); a horse pair and a jockey pair share a body Y (not a royal star). Unlike BB51, Y need not be on sky X. Any plane, any score.
+
+Origin: Catterick 14:40 6 Apr 2022, 5 Wotever Next, Sun (H Regulus – H Sun Dec 6.000669 6 whole (96.65) carried by S Moon – S Rahu Dec 6.006606; J Regulus – J Sun RA 166.917198 ninth 166.667 (24.84) carried by S Rahu – S Haumea RA 166.802333; shared Rahu) (Eddie, 15 Nov 2026: 'yes, R1'). Also held by Ishvara Mercury (Antares, shared Gonggong) and Diligent Resdev Venus (Antares, shared Jupiter), the BB51 origin cases. Over the 6 result races 15 picks, 3 won, 1.6 by chance. Noted, not built (R2): each pair's other end on that chart's natal X - Wotever Next only (S Moon → H Sun RA 61.995143 62; S Haumea → J Sun Dec contraparallel 0.087085, RA 101.965066 63×φ).
+
+### 14 Havana White — Pallas (only)
+- H Aldebaran – H Pallas Dec 24.142570 24.14 silver (98.8)
+- S Orcus – S Regulus Dec 24.141723 24.14 silver (98.86)
+- J Aldebaran – J Pallas RA 179.977224 180 opposition (96.96)
+- S Gonggong – S Orcus RA 179.596036 180 opposition (46.14)
+- Aldebaran in both charts: H Aldebaran – H Pallas Dec carried by S Orcus – S Regulus Dec | J Aldebaran – J Pallas RA carried by S Gonggong – S Orcus RA; Orcus in both pairs
+- lights on Pallas: S Sun → H Pallas RA 66.987216 67 whole (36.08); S Moon → H Pallas Dec 35.017403 35 whole (12.98)
 

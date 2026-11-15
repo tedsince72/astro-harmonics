@@ -1,4 +1,4 @@
-# 20220406_catterick_1440 — body-by-body rules BB1-BB56
+# 20220406_catterick_1440 — body-by-body rules BB1-BB57
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -61,6 +61,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB54 | 2 | 1 | 02 Beluga Gold |  |
 | BB55 | 1 | 1 | 02 Beluga Gold |  |
 | BB56 | 1 | 1 | 02 Beluga Gold |  |
+| BB57 | 1 | 1 | 05 Wotever Next |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -899,4 +900,18 @@ Origin: York 16:15 15 May 2024, 13 Diligent Resdev, Vesta (S Fomalhaut – S Ves
 - S Sun → J Mars RA 102.989831 103 whole (49.15)
 - S Aldebaran – S Mars RA and S Sun → J Mars RA both 103 whole
 - lights on Mars: S Sun → H Mars Dec 14.562460 9×φ golden (99.52); S Sun → H Mars RA 42.363756 10φ³ phi power (95.16); S Sun → J Mars RA 102.989831 103 whole (49.15)
+
+## BB57 — The same royal star on natal X in both charts, the two pairs sharing a body (BB51 loosened)
+
+Rule: The same royal star R has a scoring natal line to X in both charts (H R – H X and J R – J X; conj / contraparallel not counted; any plane), each carried by a sky pair on its target (pairs not naming X; the Moon allowed); a horse pair and a jockey pair share a body Y (not a royal star). Unlike BB51, Y need not be on sky X. Any plane, any score.
+
+Origin: Catterick 14:40 6 Apr 2022, 5 Wotever Next, Sun (H Regulus – H Sun Dec 6.000669 6 whole (96.65) carried by S Moon – S Rahu Dec 6.006606; J Regulus – J Sun RA 166.917198 ninth 166.667 (24.84) carried by S Rahu – S Haumea RA 166.802333; shared Rahu) (Eddie, 15 Nov 2026: 'yes, R1'). Also held by Ishvara Mercury (Antares, shared Gonggong) and Diligent Resdev Venus (Antares, shared Jupiter), the BB51 origin cases. Over the 6 result races 15 picks, 3 won, 1.6 by chance. Noted, not built (R2): each pair's other end on that chart's natal X - Wotever Next only (S Moon → H Sun RA 61.995143 62; S Haumea → J Sun Dec contraparallel 0.087085, RA 101.965066 63×φ).
+
+### 05 Wotever Next — Sun (only)
+- H Regulus – H Sun Dec 6.000669 6 whole (96.65)
+- S Moon – S Rahu Dec 6.006606 6 whole (66.97)
+- J Regulus – J Sun RA 166.917198 166.667 ninth (24.84)
+- S Rahu – S Haumea RA 166.802333 166.667 ninth (59.3)
+- Regulus in both charts: H Regulus – H Sun Dec carried by S Moon – S Rahu Dec | J Regulus – J Sun RA carried by S Rahu – S Haumea RA; Rahu in both pairs
+- lights on Sun: S Moon – S Sun Dec 17.981470 18 whole (7.35); S Moon → H Sun RA 61.995143 62 whole (75.71)
 
