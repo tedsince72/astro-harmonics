@@ -38,7 +38,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB32 | 2 | 2 | 01 Arafi, 05 Pholas |  |
 | BB32b | 0 | 0 | - |  |
 | BB33 | 0 | 0 | - |  |
-| BB34 | 0 | 0 | - |  |
+| BB34 | 1 | 1 | 05 Pholas |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -616,11 +616,21 @@ Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Mercury
 
 No runner holds it.
 
-## BB34 — royal-star line paired; both pair ends on sky X in RA and Dec and on natal X
+## BB34 — royal-star line paired; both pair ends on sky X and on natal X
 
-Rule: A scoring natal royal-star line c R – c X is matched by a sky pair S A – S B (A, B not X, no Moon); A and B each score on sky X in both planes (S A – S X RA and Dec, S B – S X RA and Dec), and each reaches natal X in either chart (S A → H X or J X; S B → H X or J X). WATCH, noted not required: the same royal-star line also paired in the other plane (Moon pairs marked).
+Rule: A scoring natal royal-star line c R – c X is matched by a sky pair S A – S B (A, B not X, no Moon); A and B each score on sky X (S A – S X, S B – S X, any plane) and each reaches natal X in either chart (S A → H X or J X; S B → H X or J X). WATCH, noted not required: the tight version (both ends on sky X in RA and Dec); the same royal-star line also paired in the other plane (Moon pairs marked). Revised 15 Nov 2026 (Eddie): first built as the tight version, widened to any plane so it also covers Pholas Mercury (Lingfield 14:35 2021).
 
 Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Mars
 
-No runner holds it.
+### 05 Pholas — Mercury (only)
+- J Aldebaran – J Mercury Dec 16.193302 10×φ golden (59.99)
+- S Mars – S Sedna Dec 16.192613 10×φ golden (62.12)
+- S Mars – S Mercury RA 77.750019 77.7778 ninth (82.15)
+- S Sedna – S Mercury RA 59.877576 37×φ golden (68.15)
+- S Mars → H Mercury Dec 44.502423 44.4444 ninth (34.77)
+- S Mars → J Mercury RA 108.397711 67×φ golden (67.39)
+- S Sedna → J Mercury Dec 7.774191 7.77778 ninth (76.94)
+- S Mars on sky Mercury (RA), S Sedna on sky Mercury (RA); both on natal Mercury
+- HIGHLIGHT same digits a decade apart: 77.7778 (S Mars – S Mercury) / 7.77778 (S Sedna → J Mercury)
+- lights on Mercury: S Moon → H Mercury RA 13.329589 13.3333 ninth (85.96)
 

@@ -38,7 +38,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB32 | 0 | 0 | - |  |
 | BB32b | 0 | 0 | - |  |
 | BB33 | 0 | 0 | - |  |
-| BB34 | 0 | 0 | - |  |
+| BB34 | 1 | 1 | 03 Never In Paris |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -956,11 +956,18 @@ Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Mercury
 
 No runner holds it.
 
-## BB34 — royal-star line paired; both pair ends on sky X in RA and Dec and on natal X
+## BB34 — royal-star line paired; both pair ends on sky X and on natal X
 
-Rule: A scoring natal royal-star line c R – c X is matched by a sky pair S A – S B (A, B not X, no Moon); A and B each score on sky X in both planes (S A – S X RA and Dec, S B – S X RA and Dec), and each reaches natal X in either chart (S A → H X or J X; S B → H X or J X). WATCH, noted not required: the same royal-star line also paired in the other plane (Moon pairs marked).
+Rule: A scoring natal royal-star line c R – c X is matched by a sky pair S A – S B (A, B not X, no Moon); A and B each score on sky X (S A – S X, S B – S X, any plane) and each reaches natal X in either chart (S A → H X or J X; S B → H X or J X). WATCH, noted not required: the tight version (both ends on sky X in RA and Dec); the same royal-star line also paired in the other plane (Moon pairs marked). Revised 15 Nov 2026 (Eddie): first built as the tight version, widened to any plane so it also covers Pholas Mercury (Lingfield 14:35 2021).
 
 Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Mars
 
-No runner holds it.
+### 03 Never In Paris — Orcus (only)
+- H Aldebaran – H Orcus Dec 26.215038 10φ² phi power (11.64)
+- S Quaoar – S Transpluto Dec 26.143052 10φ² phi power (5.05)
+- S Quaoar – S Orcus Dec 4.885788 3×φ golden (2.2)
+- S Transpluto – S Orcus RA 0.396088 conj conj (73.59)
+- S Quaoar → H Orcus Dec 5.545457 5.55556 ninth (9.11)
+- S Transpluto → H Orcus RA 1.488257 conj conj (0.78)
+- S Quaoar on sky Orcus (Dec), S Transpluto on sky Orcus (RA); both on natal Orcus
 

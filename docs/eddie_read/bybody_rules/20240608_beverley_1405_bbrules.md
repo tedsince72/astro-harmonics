@@ -38,7 +38,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB32 | 2 | 2 | 04 Invincible Annice, 15 Perfect Part |  |
 | BB32b | 1 | 1 | 15 Perfect Part |  |
 | BB33 | 1 | 1 | 15 Perfect Part |  |
-| BB34 | 1 | 1 | 15 Perfect Part |  |
+| BB34 | 5 | 5 | 01 Aviation Time, 07 Mademoiselle, 12 Sands Of Dubai, 14 Havana White, 15 Perfect Part |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1261,13 +1261,59 @@ Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Mercury
 - WATCH other chart same-body line also paired: S Mercury → J Mercury Dec by S Mars – S Sedna Dec
 - lights on Mercury: S Moon → H Mercury Dec 14.460340 14.4444 ninth (44.98)
 
-## BB34 — royal-star line paired; both pair ends on sky X in RA and Dec and on natal X
+## BB34 — royal-star line paired; both pair ends on sky X and on natal X
 
-Rule: A scoring natal royal-star line c R – c X is matched by a sky pair S A – S B (A, B not X, no Moon); A and B each score on sky X in both planes (S A – S X RA and Dec, S B – S X RA and Dec), and each reaches natal X in either chart (S A → H X or J X; S B → H X or J X). WATCH, noted not required: the same royal-star line also paired in the other plane (Moon pairs marked).
+Rule: A scoring natal royal-star line c R – c X is matched by a sky pair S A – S B (A, B not X, no Moon); A and B each score on sky X (S A – S X, S B – S X, any plane) and each reaches natal X in either chart (S A → H X or J X; S B → H X or J X). WATCH, noted not required: the tight version (both ends on sky X in RA and Dec); the same royal-star line also paired in the other plane (Moon pairs marked). Revised 15 Nov 2026 (Eddie): first built as the tight version, widened to any plane so it also covers Pholas Mercury (Lingfield 14:35 2021).
 
 Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Mars
 
-### 15 Perfect Part — Mars (only)
+### 01 Aviation Time — Uranus (also: 07 Mademoiselle, 12 Sands Of Dubai, 14 Havana White, 15 Perfect Part)
+- H Aldebaran – H Uranus RA 27.512681 17×φ golden (81.16)
+- S Haumea – S Orcus Dec 27.531667 17×φ golden (22.56)
+- S Haumea – S Uranus Dec 3.220224 2×φ golden (51.1)
+- S Orcus – S Uranus Dec 30.751891 19×φ golden (71.47)
+- S Haumea → H Uranus Dec 0.278120 conj conj (7.29)
+- S Haumea → J Uranus Dec 38.991900 39 whole (59.5)
+- S Orcus → H Uranus RA 115.982884 116 whole (14.42)
+- S Haumea on sky Uranus (Dec), S Orcus on sky Uranus (Dec); both on natal Uranus
+- WATCH additive step (Dec): 19×φ = 17×φ + 2×φ (S Orcus – S Uranus; S Haumea – S Orcus; S Haumea – S Uranus) (may be geometry: three distances between the same three points)
+- lights on Uranus: S Moon → J Uranus Dec 51.016456 51 whole (17.72)
+
+### 07 Mademoiselle — Ketu (also: 01 Aviation Time, 12 Sands Of Dubai, 14 Havana White, 15 Perfect Part)
+- J Aldebaran – J Ketu Dec contraparallel 0.122087 cp contraparallel (59.3)
+- S Venus – S Pluto Dec contraparallel 0.183798 cp contraparallel (38.73)
+- S Venus – S Ketu RA 114.002293 114 whole (88.54)
+- S Pluto – S Ketu Dec 17.748291 17.7778 ninth (17.07)
+- S Venus → H Ketu Dec 42.385668 10φ³ phi power (60.67)
+- S Venus → H Ketu RA 155.980852 156 whole (4.26)
+- S Pluto → J Ketu RA 12.001258 12 whole (93.71)
+- S Venus on sky Ketu (RA), S Pluto on sky Ketu (Dec); both on natal Ketu
+- lights on Ketu: S Moon → J Ketu Dec 44.013194 44 whole (34.03)
+
+### 12 Sands Of Dubai — Saturn (also: 01 Aviation Time, 07 Mademoiselle, 14 Havana White, 15 Perfect Part)
+- H Antares – H Saturn Dec 11.988762 12 whole (43.81)
+- S Neptune – S Rahu RA 11.988654 12 whole (43.27)
+- S Neptune – S Saturn Dec 4.821756 3×φ golden (0.17)
+- S Rahu – S Saturn Dec 11.340499 7×φ golden (55.98)
+- S Neptune → J Saturn RA 18.889673 18.8889 ninth (97.92)
+- S Neptune → J Saturn Dec 6.445856 4×φ golden (18.89)
+- S Rahu → J Saturn Dec 0.072887 conj conj (75.7)
+- S Neptune on sky Saturn (Dec), S Rahu on sky Saturn (Dec); both on natal Saturn
+- WATCH additive step (Dec): 7×φ = 3×φ + 4×φ (S Rahu – S Saturn; S Neptune – S Saturn; S Neptune → J Saturn)
+- lights on Saturn: S Sun → H Saturn RA 110.026118 68×φ golden (99.4); S Sun → J Saturn Dec 17.817379 11×φ golden (41.34)
+
+### 14 Havana White — Pluto (also: 01 Aviation Time, 07 Mademoiselle, 12 Sands Of Dubai, 15 Perfect Part)
+- J Regulus – J Pluto Dec contraparallel 0.166318 cp contraparallel (44.56)
+- S Gonggong – S Transpluto Dec contraparallel 0.047685 cp contraparallel (84.1)
+- S Gonggong – S Pluto RA 33.398779 33.3333 ninth (1.83)
+- S Transpluto – S Pluto Dec 33.307646 33.3333 ninth (61.47)
+- S Gonggong → J Pluto Dec 1.333291 1.33333 ninth (98.42)
+- S Transpluto → J Pluto Dec 22.222439 22.2222 ninth (99.51)
+- S Transpluto → J Pluto RA 98.679834 61×φ golden (37.53)
+- S Gonggong on sky Pluto (RA), S Transpluto on sky Pluto (Dec); both on natal Pluto
+- lights on Pluto: S Sun – S Pluto Dec contraparallel 0.003798 cp contraparallel (98.73); S Sun → H Pluto Dec 45.328726 28×φ golden (26.62)
+
+### 15 Perfect Part — Mars (also: 01 Aviation Time, 07 Mademoiselle, 12 Sands Of Dubai, 14 Havana White)
 - J Fomalhaut – J Mars RA 48.561123 30×φ golden (37.95)
 - S Rahu – S Sedna RA 48.555037 30×φ golden (56.74)
 - S Rahu – S Mars RA 15.559809 15.5556 ninth (86.33)
@@ -1279,7 +1325,8 @@ Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Mars
 - J Fomalhaut – J Mars Dec 42.411626 10φ³ phi power (19.82)
 - S Moon – S Quaoar Dec 42.356256 10φ³ phi power (93.04)
 - S Ceres – S Haumea Dec 42.318074 10φ³ phi power (32.95)
-- S Rahu and S Sedna each on sky Mars in RA and Dec, and each on natal Mars
+- S Rahu on sky Mars (Dec/RA), S Sedna on sky Mars (Dec/RA); both on natal Mars
+- WATCH (tight version): both ends on sky Mars in RA and Dec
 - WATCH J Fomalhaut – J Mars also paired in the other plane: S Moon – S Quaoar Dec (Moon); S Ceres – S Haumea Dec
 - lights on Mars: S Moon → J Mars Dec 14.591671 9×φ golden (9.37)
 

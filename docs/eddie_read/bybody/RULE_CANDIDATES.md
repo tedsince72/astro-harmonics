@@ -582,3 +582,9 @@ Versions (runners, Lingfield / Haydock / Beverley): v1 both pair ends on sky X i
 v2 both planes only 0 / 0 / 5 (four on Venus via the S Sun – S Pluto contraparallel); v3 any plane + natal 1 / 1 / 5; v4 v1 + star line paired in
 the other plane 0 / 0 / 1 (kept as the WATCH note). Note: S Mars – S Sedna Dec 1.4163 also pairs Perfect Part's S Mercury → J Mercury Dec (BB33).
 Independent checker: holders and every cell confirmed.
+BB34 revised (Eddie, 15 Nov 2026): rule = v3 (both pair ends on sky X in any plane + both on natal X, either chart) so it also covers Pholas
+Mercury; the tight version (both ends on sky X in RA and Dec, v1) and the other-plane pairing (v4) kept as WATCH notes. Holders: Lingfield
+Pholas Mercury (J Aldebaran – J Mercury Dec by S Mars – S Sedna Dec 16.1926); Haydock Never In Paris Orcus; Beverley Aviation Time Uranus,
+Mademoiselle Ketu, Sands Of Dubai Saturn, Havana White Pluto, Perfect Part Mars (tight note only on Perfect Part). Beverley bybody has 13
+runner sheets (cloths 1-4, 7-15). Note: Sedna is a pair end in both Pholas Mercury (Mars – Sedna) and Perfect Part Mars (Rahu – Sedna).
+Independent checker: holders and every cell confirmed.

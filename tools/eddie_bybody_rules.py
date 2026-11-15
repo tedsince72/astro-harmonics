@@ -827,12 +827,15 @@ def bb34(b):
         for s, P, Q in b.pairs_on(a):
             if b.X in (P, Q) or 'Moon' in (P, Q):
                 continue
-            if not all(planes(e) >= {'RA', 'Dec'} for e in (P, Q)):
+            if not all(planes(e) for e in (P, Q)):
                 continue
             nat = {e: b.to_natal(e, 'H') + b.to_natal(e, 'J') for e in (P, Q)}
             if not all(nat.values()):
                 continue
-            notes = [f'S {P} and S {Q} each on sky {b.X} in RA and Dec, and each on natal {b.X}']
+            notes = [f"S {P} on sky {b.X} ({'/'.join(sorted(planes(P)))}), S {Q} on sky {b.X} ({'/'.join(sorted(planes(Q)))}); "
+                     f'both on natal {b.X}']
+            if all(planes(e) >= {'RA', 'Dec'} for e in (P, Q)):
+                notes.append(f'WATCH (tight version): both ends on sky {b.X} in RA and Dec')
             other = [(a2, s2) for a2 in b.lines(f'{c} {R} – {c} {b.X}', scoring=True) if a2['plane'] != a['plane']
                      for s2 in b.same_on(a2)]
             if other:

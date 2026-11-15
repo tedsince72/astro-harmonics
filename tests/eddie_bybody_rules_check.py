@@ -51,7 +51,7 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB32': {('01 Arafi', 'Pluto'), ('05 Pholas', 'Orcus')},
     'BB32b': set(),
     'BB33': set(),
-    'BB34': set(),
+    'BB34': {('05 Pholas', 'Mercury')},
 }
 CELLS = {  # rule: (runner, body, [cell texts that must be in the case])
     'BB1': ('05 Pholas', 'Mercury', ['J Aldebaran – J Mercury Dec 16.193302 10×φ golden (59.99)',
@@ -177,7 +177,8 @@ if os.path.exists(HAY):
     for w in ('S Gonggong → J Gonggong Dec 9.710147', 'S Saturn – S Orcus Dec', 'S Orcus → J Gonggong RA', 'S Jupiter – S Gonggong Dec',
               'S Jupiter → J Gonggong Dec', 'S Pluto → H Gonggong Dec'):
         check(any(x.startswith(w) for x in ig), f'BB31 Ishvara Gonggong cell {w}')
-    check({(c['runner'], c['body']) for c in hres['BB32']} == set() and not hres['BB32b'] and not hres['BB33'] and not hres['BB34'], 'BB32 / BB32b / BB33 / BB34 Haydock: none')
+    check({(c['runner'], c['body']) for c in hres['BB32']} == set() and not hres['BB32b'] and not hres['BB33'], 'BB32 / BB32b / BB33 Haydock: none')
+    check({(c['runner'], c['body']) for c in hres['BB34']} == {('03 Never In Paris', 'Orcus')}, 'BB34 Haydock holders')
 BEV = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', '20240608_beverley_1405', '20240608_beverley_1405_bybody.xlsx')
 if os.path.exists(BEV):
     _, _, bres = R.run(BEV)
@@ -190,9 +191,10 @@ if os.path.exists(BEV):
               'S Venus → J Mercury RA 23.005', 'S Mercury → J Mercury Dec 1.415', 'S Mars – S Sedna Dec 1.416'):
         check(any(x.startswith(w) for x in mc), f'BB33 Perfect Part Mercury cell {w}')
     check(any('likely automatic' in n for n in mn) and any('other chart same-body' in n for n in mn), 'BB33 Perfect Part watch notes')
-    check({(c['runner'], c['body']) for c in bres['BB34']} == {('15 Perfect Part', 'Mars')}, 'BB34 Beverley holders')
-    rc = [x for c in bres['BB34'] for x in c['cells']]
-    rnn = [n for c in bres['BB34'] for n in c['notes']]
+    check({(c['runner'], c['body']) for c in bres['BB34']} == {('01 Aviation Time', 'Uranus'), ('07 Mademoiselle', 'Ketu'), ('12 Sands Of Dubai', 'Saturn'), ('14 Havana White', 'Pluto'), ('15 Perfect Part', 'Mars')}, 'BB34 Beverley holders')
+    check({(c['runner'], c['body']) for c in bres['BB34'] if any('tight version' in n for n in c['notes'])} == {('15 Perfect Part', 'Mars')}, 'BB34 Beverley tight-version note only on Perfect Part Mars')
+    rc = [x for c in bres['BB34'] if c['runner'] == '15 Perfect Part' for x in c['cells']]
+    rnn = [n for c in bres['BB34'] if c['runner'] == '15 Perfect Part' for n in c['notes']]
     for w in ('J Fomalhaut – J Mars RA 48.561', 'S Rahu – S Sedna RA 48.555', 'S Rahu – S Mars RA 15.559', 'S Rahu – S Mars Dec 4.985',
               'S Sedna – S Mars RA 32.995', 'S Sedna – S Mars Dec 1.416', 'S Rahu → J Mars RA 20.997', 'S Sedna → H Mars Dec 22.238'):
         check(any(x.startswith(w) for x in rc), f'BB34 Perfect Part Mars cell {w}')
