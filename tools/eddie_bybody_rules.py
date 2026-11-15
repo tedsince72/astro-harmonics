@@ -1678,6 +1678,31 @@ def bb61(b):
     return [{'key': ('BB61', b.X), 'cells': cells, 'notes': notes}] if cells else []
 
 
+def bb62(b):
+    """P1 (Eddie, 15 Nov 2026, from Fontwell 15:30 6 Oct 2023 Kilcummin's jockey; also Pholas' jockey, Diligent Resdev's horse): one chart
+    c (H or J) with 10 or more bodies whose same-body line S X -> c X scores in a family (conj / contraparallel not counted; either plane;
+    Rahu and Ketu one body). A runner-level rule: reported once per chart, on the runner's first body sheet, body shown as 'H chart' /
+    'J chart'. A count, threshold set in-sample (5 holders, 3 won, 0.6 by chance over 7 result races)."""
+    D = getattr(b, 'all', None)
+    if not D or b.X != next(iter(D)):
+        return []
+    out = []
+    for c in 'HJ':
+        keys, cells = [], []
+        for X, d in D.items():
+            sb = [x for x in Body(X, d).same_body(c) if x['fam'] and x['fam'] not in CJ]
+            if not sb:
+                continue
+            k = 'Nodes' if X in ('Rahu', 'Ketu') else X
+            if k not in keys:
+                keys.append(k)
+            cells += sb
+        if len(keys) >= 10:
+            out.append({'key': ('BB62', c), 'body': f'{c} chart', 'cells': cells,
+                        'notes': [f"{c} chart: {len(keys)} bodies with a scoring same-body line ({', '.join(keys)})"]})
+    return out
+
+
 RULES = [('BB1', bb1, 'Mercury'), ('BB2', bb2, 'Mars'), ('BB3', bb3, 'Jupiter'), ('BB4', bb4, 'Saturn'),
          ('BB5', bb5, 'Uranus'), ('BB6', bb6, 'Uranus'), ('BB7', bb7, 'Neptune'), ('BB8', bb8, 'Rahu'),
          ('BB9', bb9, 'Rahu'), ('BB10', bb10, 'Ketu'), ('BB11', bb11, 'Ceres'), ('BB12', bb12, 'Pallas'),
@@ -1686,7 +1711,7 @@ RULES = [('BB1', bb1, 'Mercury'), ('BB2', bb2, 'Mars'), ('BB3', bb3, 'Jupiter'),
          ('BB21', bb21, 'Saturn'), ('BB22', bb22, 'Saturn'), ('BB23', bb23, 'Neptune'), ('BB24', bb24, 'Rahu'), ('BB25', bb25, 'Ketu'), ('BB26', bb26, 'Ceres'), ('BB27', bb27, 'Pallas'), ('BB28', bb28, 'Juno'), ('BB29', bb29, 'Vesta'), ('BB30', bb30, 'Eris'), ('BB31', bb31, 'Gonggong'),
          ('BB32', bb32, 'Sun'), ('BB32b', bb32b, 'Sun'), ('BB33', bb33, 'Mercury'), ('BB34', bb34, 'Mars'), ('BB35', bb35, 'Saturn'),
          ('BB36', bb36, 'Uranus'), ('BB37', bb37, 'Pluto'), ('BB38', bb38, 'Juno'), ('BB39', bb39, 'Makemake'),
-         ('BB40', bb40, 'Sedna'), ('BB41', bb41, 'Sun'), ('BB42', bb42, 'Mercury'), ('BB43', bb43, 'Venus'), ('BB44', bb44, 'Jupiter'), ('BB45', bb45, 'Saturn'), ('BB46', bb46, 'Saturn'), ('BB47', bb47, 'Ceres'), ('BB48', bb48, 'Chiron'), ('BB49', bb49, 'Haumea'), ('BB50', bb50, 'Makemake'), ('BB51', bb51, 'Venus'), ('BB52', bb52, 'Uranus'), ('BB53', bb53, 'any'), ('BB54', bb54, 'any'), ('BB55', bb55, 'any'), ('BB56', bb56, 'any'), ('BB57', bb57, 'any'), ('BB58', bb58, 'any'), ('BB59', bb59, 'any'), ('BB60', bb60, 'any'), ('BB61', bb61, 'any')]
+         ('BB40', bb40, 'Sedna'), ('BB41', bb41, 'Sun'), ('BB42', bb42, 'Mercury'), ('BB43', bb43, 'Venus'), ('BB44', bb44, 'Jupiter'), ('BB45', bb45, 'Saturn'), ('BB46', bb46, 'Saturn'), ('BB47', bb47, 'Ceres'), ('BB48', bb48, 'Chiron'), ('BB49', bb49, 'Haumea'), ('BB50', bb50, 'Makemake'), ('BB51', bb51, 'Venus'), ('BB52', bb52, 'Uranus'), ('BB53', bb53, 'any'), ('BB54', bb54, 'any'), ('BB55', bb55, 'any'), ('BB56', bb56, 'any'), ('BB57', bb57, 'any'), ('BB58', bb58, 'any'), ('BB59', bb59, 'any'), ('BB60', bb60, 'any'), ('BB61', bb61, 'any'), ('BB62', bb62, 'any')]
 
 
 def decade_pairs(cells):
@@ -1731,7 +1756,7 @@ def run(path):
                         k = (r['line'], r['plane'], r['tgt'])
                         if k not in uniq:
                             uniq.add(k); cells.append(r)
-                    res[rid].append({'runner': runner, 'body': X, 'cells': [cell(r) for r in cells],
+                    res[rid].append({'runner': runner, 'body': case.get('body', X), 'cells': [cell(r) for r in cells],
                                      'notes': case.get('notes', []),
                                      'lights': [cell(r) for r in b.lights()],
                                      'decade': decade_pairs(cells),

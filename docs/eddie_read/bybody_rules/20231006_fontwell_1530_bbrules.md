@@ -1,4 +1,4 @@
-# 20231006_fontwell_1530 — body-by-body rules BB1-BB61
+# 20231006_fontwell_1530 — body-by-body rules BB1-BB62
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -66,6 +66,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB59 | 1 | 1 | 03 Kilcummin |  |
 | BB60 | 0 | 0 | - |  |
 | BB61 | 1 | 1 | 03 Kilcummin |  |
+| BB62 | 2 | 2 | 03 Kilcummin, 04 Logistical |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -985,4 +986,39 @@ Origin: Fontwell 15:30 6 Oct 2023, 3 Kilcummin (50/1), Uranus (J Regulus – J U
 - S Quaoar → J Uranus RA 22.187459 22.2222 ninth (21.78)
 - J Regulus – J Uranus Dec and H Uranus – J Uranus Dec on 33.3333 (ninth), carried by S Uranus – S Quaoar Dec; K2: Quaoar on natal Uranus (S Quaoar → J Uranus RA 22.2222); K3: yes, it also carries H Uranus – J Uranus Dec
 - lights on Uranus: S Sun → H Uranus Dec 16.998514 17 whole (92.57); S Sun → J Uranus RA 106.997944 107 whole (89.72); S Moon → J Uranus Dec 48.531173 30×φ golden (69.61)
+
+## BB62 — One chart with 10 or more scoring same-body lines
+
+Rule: In one chart c (horse or jockey), 10 or more bodies X have a same-body line S X → c X scoring in a family (conj / contraparallel not counted; either plane; Rahu and Ketu one body). A runner-level count, reported once per chart.
+
+Origin: Fontwell 15:30 6 Oct 2023, 3 Kilcummin (50/1), jockey David Noonan: 10 bodies (Mars Dec 5×φ 95.7, Jupiter RA 152, Saturn Dec 6.66667, Uranus RA 111.111 97.3, Neptune RA 100φ^-1 96.4, Pluto Dec 10×φ, Nodes RA 177.778, Chiron RA 103×φ 98.7, Haumea Dec φ⁴, Transpluto RA 9) (Eddie, 15 Nov 2026: 'yes, it is interesting'). Holders over the 7 result races: Pholas J 11 (won), Mews House J 10, Diligent Resdev H 10 (won), Kilcummin J 10 (won), Logistical J 10 (3rd): 5 picks, 3 won, 0.6 by chance. Threshold chosen in-sample; a count (counts have not separated winners before); slow-planet same-body lines may follow the jockey's age.
+
+### 03 Kilcummin — J chart (also: 04 Logistical)
+- S Mars → J Mars Dec 8.088778 5×φ golden (95.7)
+- S Jupiter → J Jupiter RA 152.008330 152 whole (58.35)
+- S Saturn → J Saturn Dec 6.675918 6.66667 ninth (30.62)
+- S Uranus → J Uranus RA 111.105135 111.111 ninth (97.31)
+- S Neptune → J Neptune RA 61.800037 100φ^-1 phi power (96.37)
+- S Pluto → J Pluto Dec 16.173388 10×φ golden (78.54)
+- S Rahu → J Rahu RA 178.121315 177.778 ninth (3.38)
+- S Ketu → J Ketu RA 178.121315 177.778 ninth (3.38)
+- S Chiron → J Chiron RA 166.657071 103×φ golden (98.67)
+- S Haumea → J Haumea Dec 6.858018 φ⁴ phi power (61.91)
+- S Transpluto → J Transpluto RA 9.015819 9 whole (20.9)
+- J chart: 10 bodies with a scoring same-body line (Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Nodes, Chiron, Haumea, Transpluto)
+
+### 04 Logistical — J chart (also: 03 Kilcummin)
+- S Sun → J Sun RA 22.004560 22 whole (77.2)
+- S Venus → J Venus RA 58.001260 58 whole (93.7)
+- S Jupiter → J Jupiter Dec 32.362074 20×φ golden (95.7)
+- S Saturn → J Saturn Dec 17.768084 17.7778 ninth (72.74)
+- S Juno → J Juno Dec 1.631225 1×φ golden (59.29)
+- S Chiron → J Chiron RA 166.497729 166.667 ninth (49.32)
+- S Eris → J Eris Dec 6.658875 6.66667 ninth (41.56)
+- S Makemake → J Makemake RA 22.653179 14×φ golden (97.83)
+- S Makemake → J Makemake Dec 11.297674 7×φ golden (11.84)
+- S Orcus → J Orcus RA 21.989593 22 whole (47.96)
+- S Quaoar → J Quaoar Dec 0.995352 1 whole (76.76)
+- J chart: 10 bodies with a scoring same-body line (Sun, Venus, Jupiter, Saturn, Juno, Chiron, Eris, Makemake, Orcus, Quaoar)
+- lights on J chart: S Moon → H Sun RA 137.004606 137 whole (76.97)
 

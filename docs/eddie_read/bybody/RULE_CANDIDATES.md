@@ -1106,3 +1106,15 @@ Song, Mortlake, Diligent Resdev Quaoar only (3 / 1 / 0.3, one origin winner).
   - L1 and L3 are not built.
 - Kilcummin's own L1 case is Uranus H base RA 19.165768: Aldebaran RA 2, Fomalhaut RA 1+√2, Antares Dec crossed 2. Kilcummin also holds L1 on Saturn, Rahu and Makemake.
 - Independent checkers: 0 mismatches on the scan and on the built rule.
+
+## Fontwell 15:30 6 Oct 2023, Kilcummin Chiron (15 Nov 2026): M1-M4 royal star in three places (noted, left; Eddie: "leave it")
+- Scan tools/scans/bb_fieldcheck_royal_three_places.py. M4 holders: Kilcummin and My Friend Stan. Not built.
+
+## Fontwell 15:30 6 Oct 2023, Kilcummin jockey (15 Nov 2026): BB62 = P1 (built; Eddie: "yes, it is interesting")
+- Kilcummin's jockey: 10 bodies with a scoring same-body line S X -> J X (Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Nodes, Chiron, Haumea, Transpluto).
+- Scan tools/scans/bb_fieldcheck_same_body_count.py (N1-N3, P1), 7 result races + Chelmsford. At >= 10 bodies in one chart:
+  Pholas J 11 (won), Mews House J 10, Diligent Resdev H 10 (won), Kilcummin J 10 (won), Logistical J 10 (3rd): 5 picks, 3 won, 0.6 by chance.
+- In-sample and a count: the threshold was chosen on these races. Slow-planet same-body lines may follow the jockey's age.
+- Opposition counts (only conj / contraparallel are left out); 2 opposition same-body lines in the 8 races, none in a holder's 10.
+- The 'lights' line on a BB62 case shows the Sun lines of the runner's first body sheet, not lights for the whole chart (cosmetic).
+- Independent checker: holders re-derived with its own code, every other rule's output identical to HEAD, tests 495/495: 0 mismatches.

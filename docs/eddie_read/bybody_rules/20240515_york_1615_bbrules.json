@@ -3460,6 +3460,38 @@
     "watch_only": false
    }
   ],
-  "BB61": []
+  "BB61": [],
+  "BB62": [
+   {
+    "runner": "13 Diligent Resdev",
+    "body": "H chart",
+    "cells": [
+     "S Venus → H Venus Dec 40.005163 40 whole (74.18)",
+     "S Jupiter → H Jupiter RA 106.997484 107 whole (87.42)",
+     "S Uranus → H Uranus Dec 4.995533 5 whole (77.67)",
+     "S Neptune → H Neptune RA 9.737128 6×φ golden (10.73)",
+     "S Neptune → H Neptune Dec 4.005110 4 whole (74.45)",
+     "S Chiron → H Chiron Dec 5.009026 5 whole (54.87)",
+     "S Gonggong → H Gonggong RA 1.668845 1.66667 ninth (34.66)",
+     "S Gonggong → H Gonggong Dec 1.221784 1.22222 ninth (82.08)",
+     "S Haumea → H Haumea RA 1.650066 1×φ golden (1.14)",
+     "S Makemake → H Makemake RA 0.889355 0.888889 ninth (73.79)",
+     "S Orcus → H Orcus RA 0.997879 1 whole (89.39)",
+     "S Quaoar → H Quaoar RA 4.996973 5 whole (84.86)"
+    ],
+    "notes": [
+     "H chart: 10 bodies with a scoring same-body line (Venus, Jupiter, Uranus, Neptune, Chiron, Gonggong, Haumea, Makemake, Orcus, Quaoar)"
+    ],
+    "lights": [
+     "S Moon → H Sun RA 145.605715 90×φ golden (46.47)",
+     "S Moon → J Sun Dec contraparallel 0.184608 cp contraparallel (38.46)"
+    ],
+    "decade": [
+     "40 (S Venus → H Venus) / 4 (S Neptune → H Neptune)"
+    ],
+    "additive": [],
+    "watch_only": false
+   }
+  ]
  }
 }

@@ -1,4 +1,4 @@
-# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB61
+# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB62
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -66,6 +66,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB59 | 1 | 1 | 05 Pholas |  |
 | BB60 | 1 | 1 | 05 Pholas |  |
 | BB61 | 0 | 0 | - |  |
+| BB62 | 1 | 1 | 05 Pholas |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -989,4 +990,24 @@ Rule: H X – J X scores in a family (conj / contraparallel not counted) and a r
 Origin: Fontwell 15:30 6 Oct 2023, 3 Kilcummin (50/1), Uranus (J Regulus – J Uranus Dec 33.354156 ninth 33.3333 (68.77) and H Uranus – J Uranus Dec 33.347478 ninth 33.3333 (78.78), both carried by S Uranus – S Quaoar Dec 33.318289 (77.43) and S Saturn – S Pluto RA 33.337464 (93.80); Quaoar on Uranus: S Quaoar – S Uranus RA 133.292594 ninth 133.333 (84.72), S Quaoar → J Uranus RA 22.187459 ninth 22.2222 (21.78)) (Eddie, 15 Nov 2026: 'build k1 with k2 and k3 as notes'). One holder in the 8 races (Kilcummin, K2 and K3 both yes): 1 pick, won, 0.1 by chance. Built on one origin winner (Eddie's call). L1-L3 (three royal ratios on one base line) at chance, not built.
 
 No runner holds it.
+
+## BB62 — One chart with 10 or more scoring same-body lines
+
+Rule: In one chart c (horse or jockey), 10 or more bodies X have a same-body line S X → c X scoring in a family (conj / contraparallel not counted; either plane; Rahu and Ketu one body). A runner-level count, reported once per chart.
+
+Origin: Fontwell 15:30 6 Oct 2023, 3 Kilcummin (50/1), jockey David Noonan: 10 bodies (Mars Dec 5×φ 95.7, Jupiter RA 152, Saturn Dec 6.66667, Uranus RA 111.111 97.3, Neptune RA 100φ^-1 96.4, Pluto Dec 10×φ, Nodes RA 177.778, Chiron RA 103×φ 98.7, Haumea Dec φ⁴, Transpluto RA 9) (Eddie, 15 Nov 2026: 'yes, it is interesting'). Holders over the 7 result races: Pholas J 11 (won), Mews House J 10, Diligent Resdev H 10 (won), Kilcummin J 10 (won), Logistical J 10 (3rd): 5 picks, 3 won, 0.6 by chance. Threshold chosen in-sample; a count (counts have not separated winners before); slow-planet same-body lines may follow the jockey's age.
+
+### 05 Pholas — J chart (only)
+- S Mars → J Mars RA 66.337009 41×φ golden (92.64)
+- S Jupiter → J Jupiter Dec 8.905446 8.88889 ninth (6.87)
+- S Saturn → J Saturn Dec 16.661431 16.6667 ninth (84.29)
+- S Neptune → J Neptune Dec 16.194390 10×φ golden (56.64)
+- S Ceres → J Ceres Dec 24.998449 25 whole (92.25)
+- S Juno → J Juno RA 110.031115 68×φ golden (85.17)
+- S Chiron → J Chiron RA 169.014197 169 whole (29.02)
+- S Eris → J Eris Dec 6.491319 4×φ golden (40.79)
+- S Orcus → J Orcus RA 18.860096 18.8889 ninth (23.78)
+- S Quaoar → J Quaoar Dec 0.995469 1 whole (77.35)
+- S Sedna → J Sedna Dec 3.262975 2×φ golden (16.95)
+- J chart: 11 bodies with a scoring same-body line (Mars, Jupiter, Saturn, Neptune, Ceres, Juno, Chiron, Eris, Orcus, Quaoar, Sedna)
 

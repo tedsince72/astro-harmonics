@@ -77,6 +77,7 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB59': {('05 Pholas', 'Pallas')},
     'BB60': {('05 Pholas', 'Pallas')},
     'BB61': set(),
+    'BB62': {('05 Pholas', 'J chart')},
     'BB55': {('01 Arafi', 'Gonggong'), ('01 Arafi', 'Venus'), ('04 Nirodha', 'Saturn'), ('05 Pholas', 'Pallas')},
     'BB53': {('06 Shimmering Dawn', 'Sun'), ('06 Shimmering Dawn', 'Jupiter'), ('06 Shimmering Dawn', 'Pallas')},
 }
@@ -563,5 +564,11 @@ if os.path.exists(FW):
     n = [x for c in fw['BB61'] for x in c['notes']]
     check(any('K2: Quaoar on natal Uranus' in x and 'K3: yes' in x for x in n), 'BB61 Kilcummin K2 / K3 notes')
     check({c['runner'] for c in fw['BB59']} == {'03 Kilcummin'}, 'BB59 Fontwell holders')
+    check({(c['runner'], c['body']) for c in fw['BB62']} == {('03 Kilcummin', 'J chart'), ('04 Logistical', 'J chart')}, 'BB62 Fontwell holders')
+    check(any('Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Nodes, Chiron, Haumea, Transpluto' in x for c in fw['BB62'] if c['runner'] == '03 Kilcummin' for x in c['notes']), 'BB62 Kilcummin bodies')
+check({(c['runner'], c['body']) for c in hres['BB62']} == {('11 Mews House', 'J chart')}, 'BB62 Haydock holders')
+check({(c['runner'], c['body']) for c in y16['BB62']} == {('13 Diligent Resdev', 'H chart')}, 'BB62 York 16:15 holders')
+for nm, rr in (('Beverley', bres), ('York', yres), ('Catterick', cres)):
+    check(rr['BB62'] == [], f'BB62 {nm}: no holder')
 print(f'{ok}/{ok + bad} checks passed')
 sys.exit(1 if bad else 0)
