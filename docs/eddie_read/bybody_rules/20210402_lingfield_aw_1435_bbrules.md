@@ -1,4 +1,4 @@
-# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB43
+# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB44
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -48,6 +48,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB41 | 0 | 0 | - |  |
 | BB42 | 0 | 0 | - |  |
 | BB43 | 0 | 0 | - |  |
+| BB44 | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -727,6 +728,14 @@ No runner holds it.
 Rule: A same-body line S X → H X or S X → J X scores (conj / contraparallel not counted) and a sky pair S A – S B on its target (the pair not naming X or the Moon) has one end on sky X (S A – S X) and the other end on both natal X (S B → H X and S B → J X); any plane, any score. WATCH, noted not required: a royal star as a pair end; a conj / contraparallel end line; a royal star with a same-body ratio on a target in both charts.
 
 Origin: York 15:45 15 May 2024, 6 Secret Satire, Venus (S Venus → J Venus RA ninth 122.222, S Orcus – S Quaoar; also holds: Haydock 13:45 8 Jun 2020, 7 Ishvara, Rahu)
+
+No runner holds it.
+
+## BB44 — a natal royal-star line carried by a sky body on sky X, the same body on sky X in the other plane and on natal X
+
+Rule: A natal royal-star line c R – c X scores (conj / contraparallel not counted) and a sky line S Y – S X sits on its target in the same plane (Y a sky body, not a royal star, the Sun or the Moon); Y is also on sky X in the other plane (S Y – S X, not conj / contraparallel) and on natal X in the royal line's chart (S Y → c X, any plane, any score). Noted, not required: Y's other-plane line in the same family as the royal line; R also on sky X.
+
+Origin: York 15:45 15 May 2024, 6 Secret Satire, Jupiter (H Fomalhaut – H Jupiter Dec ninth 15.5556, S Mars – S Jupiter Dec and RA ninth 44.4444, S Mars → H Jupiter RA 44) (also holds: Catterick 14:40 6 Apr 2022, Wotever Next and Beluga Gold, Gonggong)
 
 No runner holds it.
 

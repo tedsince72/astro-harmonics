@@ -708,3 +708,18 @@ Moon on J Venus. Field check (Lingfield / Haydock / Beverley / Catterick / Chelm
 Checker notes (15 Nov): Ishvara Rahu and Garsman Transpluto reach H X only through a conj / contraparallel end line (S Transpluto → H Rahu RA
 1.243682 conj; S Gonggong → H Transpluto Dec contraparallel 0.244082) - WATCH notes, counted as built. The 'royal ratio both charts' WATCH
 reads the same-body ratio only; with the crossed ratio it would also flag Mews House Sun Regulus and Nad Alshiba Snow Pallas Aldebaran (open).
+
+## BB44 — York 15:45 15 May 2024, 6 Secret Satire, Jupiter (15 Nov 2026, built: version e)
+Lines: S Fomalhaut – S Jupiter RA 70.7007 √2 (90.6); S Regulus – S Jupiter Dec φ⁴ (80.2); H Fomalhaut – H Jupiter Dec 15.5300 ninth 15.5556
+(17.8) carried by S Mars – S Jupiter Dec 15.5533 (92.8); S Mars – S Jupiter RA 44.3867 ninth 44.4444; S Mars → H Jupiter RA 44.0131 whole 44;
+Sun on sky Jupiter (Dec conj 0.1730) and J Jupiter; Venus on sky Jupiter (Dec 2) and J Jupiter; Moon on H Jupiter RA 109×φ (98.2).
+Field check (Lingfield / Haydock / Beverley / Catterick / Chelmsford / York; Y not royal, Sun or Moon; royal line not conj / cp):
+b = S Y – S X on a natal royal line's target: 2 / 6 / 15 / 6 / 7 / 1 (not built, noted).
+c = b + Y on natal X in the royal line's chart: 0 / Royal Context Vesta / 0 / Beluga Gold Gonggong, Capuchinero Ceres, Wotever Next Gonggong /
+  Sullivan Bay Orcus / Secret Satire Jupiter (not built, noted).
+d = b + Y on natal X either chart: 1 / 3 / 2 (incl. Perfect Part Orcus: J Antares – J Orcus Dec 17×φ, S Haumea – S Orcus Dec, S Haumea → H Orcus
+  RA 62) / 3 / 1 / 1 (not built, noted).
+e = c, the sky line in the royal line's plane, Y also on sky X in the other plane (built): 0 / 0 / 0 / Beluga Gold Gonggong, Wotever Next
+  Gonggong (H Fomalhaut – H Gonggong Dec ninth 17.7778, S Chiron – S Gonggong Dec and RA ninth 33.3333, S Chiron → H Gonggong RA) / 0 /
+  Secret Satire Jupiter. In all three the other-plane line is a ninth, as the royal line.
+a + c (the same royal star also on sky X): Secret Satire Jupiter only (not built, noted; a WATCH note in BB44).

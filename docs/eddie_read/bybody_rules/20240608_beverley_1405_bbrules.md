@@ -1,4 +1,4 @@
-# 20240608_beverley_1405 — body-by-body rules BB1-BB43
+# 20240608_beverley_1405 — body-by-body rules BB1-BB44
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -48,6 +48,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB41 | 0 | 0 | - |  |
 | BB42 | 2 | 2 | 01 Aviation Time, 15 Perfect Part |  |
 | BB43 | 3 | 3 | 07 Mademoiselle, 09 Nad Alshiba Snow, 11 Powerful Lady |  |
+| BB44 | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1538,4 +1539,12 @@ Origin: York 15:45 15 May 2024, 6 Secret Satire, Venus (S Venus → J Venus RA n
 - S Orcus → J Makemake RA 10.995079 11 whole (75.4)
 - S Makemake → J Makemake RA closed by S Uranus – S Orcus Dec: Uranus on sky Makemake, Orcus on H Makemake and J Makemake
 - lights on Makemake: S Sun – S Makemake RA 122.336114 122.222 ninth (53.41); S Sun → H Makemake Dec 0.058546 conj conj (80.48)
+
+## BB44 — a natal royal-star line carried by a sky body on sky X, the same body on sky X in the other plane and on natal X
+
+Rule: A natal royal-star line c R – c X scores (conj / contraparallel not counted) and a sky line S Y – S X sits on its target in the same plane (Y a sky body, not a royal star, the Sun or the Moon); Y is also on sky X in the other plane (S Y – S X, not conj / contraparallel) and on natal X in the royal line's chart (S Y → c X, any plane, any score). Noted, not required: Y's other-plane line in the same family as the royal line; R also on sky X.
+
+Origin: York 15:45 15 May 2024, 6 Secret Satire, Jupiter (H Fomalhaut – H Jupiter Dec ninth 15.5556, S Mars – S Jupiter Dec and RA ninth 44.4444, S Mars → H Jupiter RA 44) (also holds: Catterick 14:40 6 Apr 2022, Wotever Next and Beluga Gold, Gonggong)
+
+No runner holds it.
 
