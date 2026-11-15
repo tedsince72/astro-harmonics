@@ -990,3 +990,17 @@ Song, Mortlake, Diligent Resdev Quaoar only (3 / 1 / 0.3, one origin winner).
 - Field check (tools/scans/bb_fieldcheck_royal_both_charts_shared_end.py; independent checker 0 differences), 6 result races:
   R0 same royal star both charts, each carried: 35 picks 4 won (4.0); R1 + the pairs share a body (Moon allowed): 15 / 3 (1.6) -> BB57;
   R1 no Moon: 13 / 2 (1.3); R2 = R1 + each pair's other end on that chart's natal X: Wotever Next only (1 / 1, 0.2) - noted, not built.
+
+## Venus (Catterick 14:40 2022, 05 Wotever Next; Eddie 15 Nov 2026) - not built
+- Antares on Venus in sky, horse and jockey: S Antares – S Venus Dec 15.542924 ninth 15.5556 (59.4); H Antares – H Venus no family,
+  same-body ratios RA 95.899215 / 10.636686 = 9.015892 on 9 (20.54) and Dec 18.132661 / 2.58977 = 7.001649 on 7 (91.75), crossed
+  1.704728 1+1/√2 (7.12); J Antares – J Venus RA 44.41836 ninth 44.4444 (70.66). Regulus also on sky Venus RA 179.477227 10φ⁶ (87.18).
+  Wotever Next holds no BB rule on Venus.
+- Field check (tools/scans/bb_fieldcheck_royal_sky_both_charts.py [--tight]; independent checker 0 differences), 6 result races:
+  A1 royal on sky X + natal R – X in both charts (family or ratio) 56 picks 6 won (6.0) - nearly every runner; A2 (ratio >= 50) the
+  same; A3 + a second royal on sky X 53 / 5 (5.6); A4 one chart ratio only 55 / 6 (5.8); A5 sky family = other chart's family, this
+  chart a ratio >= 50: 18 / 1 (2.1); A6 one chart no family but same-body ratios in both planes, other chart a family: 9 / 1 (0.8);
+  A7 = A6 + other chart's family = the sky family: 3 / 1 (0.3; Wotever Next, York 16:15 Quiet Resolve Venus Regulus, Ribble Radiant
+  Mars Aldebaran). No second winner on the tight versions.
+- Scan note: eddie_bybody_rules.num() returns True / False (is a number), not the value; the first run of this scan used it as a value
+  and its A2 / A5 were wrong (fixed before reporting). The built rules use num() only as a test.
