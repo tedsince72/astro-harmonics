@@ -930,3 +930,15 @@ S Neptune → H Neptune RA 9.7371 6×φ carried by S Sun – S Chiron Dec 6×φ;
 (tools/scans/bb_fieldcheck_diligent_neptune.py; checker 0 mismatches on N2): N1 (>= 3 carriers each tied to X) 2-10 runners a race;
 N2 (>= 2 carriers with an end on sky X in the royal line's family) 2/6, 5/10, 2/13, 0/5, 2/8, 3/7, 7/15, winners in 3 of 5 races
 (Pholas, Secret Satire, Diligent Resdev; 21 picks, 1.9 by chance); N3, N4, N5, N2c all near chance (13-18 picks, 1-3 won, 1.2-1.8).
+
+## Diligent Resdev Rahu, Aldebaran in both charts + ratio 10 (15 Nov 2026, Eddie's lines; not built, waiting for Eddie)
+S Aldebaran – S Rahu RA 55.5944 ninth 55.5556 (65.1); H Aldebaran – H Rahu Dec 6.493563 4×φ (33.87), crossed against S Rahu → H Rahu RA
+64.936805 = 10.000181 '10' (99.64); J Aldebaran – J Rahu Dec 32.3644 20×φ (88.4), same-body against S Rahu → J Rahu 21.583115 = 1.499526
+3/2 (97.6), carried by S Quaoar – S Antares RA 32.3537 20×φ (78.6); S Quaoar → H Rahu Dec 37.9943 38 (71.6). Field
+(tools/scans/bb_fieldcheck_diligent_rahu.py; checker 0 mismatches on T10 and A2), winner races = Lingfield, Haydock, Beverley, York 15:45,
+York 16:15: A1 (S R – S X + H R – H X and J R – J X, each with a ratio on target) 5 picks 1 won (0.6); A2 (A1 without the sky line) 2/6,
+0/10, 2/13, 1/5, 0/8, 2/7, 2/15 - Perfect Part (Mercury, Saturn) and Diligent Resdev (Rahu), 8 picks 2 won (0.9); A3 (A1 + a carrier with
+an end on natal X) Diligent Resdev and Nirodha only; T10 (a scoring royal line whose same-body or crossed ratio is on 10) 0/6, 4/10, 5/13,
+1/5, 1/8, 2/7, 6/15 - Ishvara Jupiter, Perfect Part Uranus, Secret Satire Rahu, Diligent Resdev Rahu, 17 picks 4 won (1.5); controls: ratio
+on 10 without the royal line scoring 43 / 5 (4.2), on 11-20 40 / 4 (3.9), on 5-9 25 / 2 (2.4). Note: Perfect Part Uranus - Regulus /
+Uranus - Uranus was the origin of the same-body ratio column itself.
