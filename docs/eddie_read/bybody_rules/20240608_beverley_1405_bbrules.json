@@ -2669,6 +2669,71 @@
     "additive": [],
     "watch_only": false
    }
+  ],
+  "BB43": [
+   {
+    "runner": "07 Mademoiselle",
+    "body": "Pluto",
+    "cells": [
+     "S Pluto → H Pluto RA 4.837513 3×φ golden (48.8)",
+     "S Mercury – S Pallas Dec 4.831113 3×φ golden (29.05)",
+     "S Pallas – S Pluto RA 61.792827 100φ^-1 phi power (88.6)",
+     "S Mercury → H Pluto Dec 44.410852 44.4444 ninth (62.21)",
+     "S Mercury → J Pluto RA 179.971337 180 opposition (96.18)"
+    ],
+    "notes": [
+     "S Pluto → H Pluto RA closed by S Mercury – S Pallas Dec: Pallas on sky Pluto, Mercury on H Pluto and J Pluto"
+    ],
+    "lights": [
+     "S Sun – S Pluto Dec contraparallel 0.003798 cp contraparallel (98.73)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "09 Nad Alshiba Snow",
+    "body": "Pallas",
+    "cells": [
+     "S Pallas → J Pallas RA 33.386386 33.3333 ninth (20.42)",
+     "S Pluto – S Gonggong RA 33.398779 33.3333 ninth (1.83)",
+     "S Pluto – S Pallas RA 61.792827 100φ^-1 phi power (88.6)",
+     "S Gonggong → H Pallas RA 25.907679 16×φ golden (40.94)",
+     "S Gonggong → J Pallas RA 61.805220 100φ^-1 phi power (98.04)",
+     "S Gonggong → J Pallas Dec 29.056145 φ⁷ phi power (50.17)"
+    ],
+    "notes": [
+     "S Pallas → J Pallas RA closed by S Pluto – S Gonggong RA: Pluto on sky Pallas, Gonggong on H Pallas and J Pallas"
+    ],
+    "lights": [
+     "S Sun → H Pallas Dec 32.007410 32 whole (62.95)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "11 Powerful Lady",
+    "body": "Makemake",
+    "cells": [
+     "S Makemake → J Makemake RA 30.729199 19×φ golden (58.5)",
+     "S Uranus – S Orcus Dec 30.751891 19×φ golden (71.47)",
+     "S Uranus – S Makemake RA 147.220880 91×φ golden (37.61)",
+     "S Orcus → H Makemake Dec 34.998412 35 whole (92.06)",
+     "S Orcus → H Makemake RA 41.362440 41.4 silver (5.18)",
+     "S Orcus → J Makemake RA 10.995079 11 whole (75.4)"
+    ],
+    "notes": [
+     "S Makemake → J Makemake RA closed by S Uranus – S Orcus Dec: Uranus on sky Makemake, Orcus on H Makemake and J Makemake"
+    ],
+    "lights": [
+     "S Sun – S Makemake RA 122.336114 122.222 ninth (53.41)",
+     "S Sun → H Makemake Dec 0.058546 conj conj (80.48)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
   ]
  }
 }

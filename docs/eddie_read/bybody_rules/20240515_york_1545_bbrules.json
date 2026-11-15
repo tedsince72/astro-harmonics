@@ -1578,6 +1578,52 @@
     "additive": [],
     "watch_only": false
    }
+  ],
+  "BB43": [
+   {
+    "runner": "02 Francophone",
+    "body": "Neptune",
+    "cells": [
+     "S Neptune → H Neptune RA 7.017839 7 whole (10.8)",
+     "S Mercury – S Haumea Dec 7.009889 7 whole (50.55)",
+     "S Mercury – S Neptune RA 29.028421 φ⁷ phi power (86.18)",
+     "S Haumea → H Neptune RA 134.325125 83×φ golden (12.64)",
+     "S Haumea → J Neptune RA 19.006892 19 whole (65.54)"
+    ],
+    "notes": [
+     "S Neptune → H Neptune RA closed by S Mercury – S Haumea Dec: Mercury on sky Neptune, Haumea on H Neptune and J Neptune"
+    ],
+    "lights": [
+     "S Sun – S Neptune RA 52.997052 53 whole (85.26)",
+     "S Sun → H Neptune RA 60.014891 60 whole (25.55)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "06 Secret Satire",
+    "body": "Venus",
+    "cells": [
+     "S Venus → J Venus RA 122.210672 122.222 ninth (95.27)",
+     "S Orcus – S Quaoar RA 122.321615 122.222 ninth (59.34)",
+     "S Orcus – S Venus Dec 29.154476 18×φ golden (7.83)",
+     "S Quaoar → H Venus RA 99.840277 100 ninth (20.14)",
+     "S Quaoar → J Venus Dec 21.031152 13×φ golden (89.85)"
+    ],
+    "notes": [
+     "S Venus → J Venus RA closed by S Orcus – S Quaoar RA: Orcus on sky Venus, Quaoar on H Venus and J Venus",
+     "WATCH Regulus has a same-body ratio on a target in both charts: H Regulus – H Venus Dec same-body ratio vs S Venus → H Venus 9.785621 = 1.988915 2 octave (44.58); J Regulus – J Venus RA same-body ratio vs S Venus → J Venus 122.210672 = 7.011677 7 7th harmonic (41.61)"
+    ],
+    "lights": [
+     "S Sun → H Venus RA 33.011335 33 whole (43.32)",
+     "S Sun → J Venus Dec 12.953357 8×φ golden (71.96)",
+     "S Moon → J Venus Dec 9.738697 6×φ golden (5.89)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
   ]
  }
 }

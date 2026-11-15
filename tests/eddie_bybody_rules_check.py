@@ -60,6 +60,7 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB40': set(),
     'BB41': set(),
     'BB42': set(),
+    'BB43': set(),
 }
 CELLS = {  # rule: (runner, body, [cell texts that must be in the case])
     'BB1': ('05 Pholas', 'Mercury', ['J Aldebaran – J Mercury Dec 16.193302 10×φ golden (59.99)',
@@ -196,6 +197,13 @@ if os.path.exists(HAY):
     check({(c['runner'], c['body']) for c in hres['BB40']} == {('07 Ishvara', 'Rahu')}, 'BB40 Haydock holders')
     check({(c['runner'], c['body']) for c in hres['BB41']} == {('07 Ishvara', 'Vesta')}, 'BB41 Haydock holders')
     check(hres['BB42'] == [], 'BB42 Haydock: no holder')
+    check({(c['runner'], c['body']) for c in hres['BB43']} == {('07 Ishvara', 'Rahu'), ('09 Garsman', 'Transpluto'), ('11 Mews House', 'Sun')}, 'BB43 Haydock holders')
+    ic3 = [x for c in hres['BB43'] if c['runner'] == '07 Ishvara' for x in c['cells']]
+    in3 = [n for c in hres['BB43'] if c['runner'] == '07 Ishvara' for n in c['notes']]
+    for w in ('S Rahu → H Rahu Dec 13.009928', 'S Mercury – S Transpluto Dec 12.996052', 'S Mercury – S Rahu RA 13.317469',
+              'S Transpluto → H Rahu RA 1.243682', 'S Transpluto → J Rahu Dec 0.989868'):
+        check(any(x.startswith(w) for x in ic3), f'BB43 Ishvara Rahu cell {w}')
+    check(any('WATCH an end line is a conj' in n and 'S Transpluto → H Rahu RA' in n for n in in3), 'BB43 Ishvara conj end note')
     iv = [x for c in hres['BB41'] for x in c['cells']]
     ivn = [n for c in hres['BB41'] for n in c['notes']]
     for w in ('H Antares – H Vesta Dec contraparallel 0.153351', 'J Antares – J Vesta Dec 25.012800', 'S Eris – S Antares Dec 25.002977',
@@ -287,6 +295,7 @@ if os.path.exists(BEV):
     check(any('both planes' in n for n in pn) and any('0.0013' in n for n in pn) and any('third royal star' in n for n in pn),
           'BB32b Perfect Part watch notes (both planes, gap 0.0013, third royal star)')
     check({(c['runner'], c['body']) for c in bres['BB42']} == {('01 Aviation Time', 'Uranus'), ('15 Perfect Part', 'Sun')}, 'BB42 Beverley holders')
+    check({(c['runner'], c['body']) for c in bres['BB43']} == {('07 Mademoiselle', 'Pluto'), ('09 Nad Alshiba Snow', 'Pallas'), ('11 Powerful Lady', 'Makemake')}, 'BB43 Beverley holders')
     pc2 = [x for c in bres['BB42'] if c['runner'] == '15 Perfect Part' for x in c['cells']]
     pn2 = [n for c in bres['BB42'] if c['runner'] == '15 Perfect Part' for n in c['notes']]
     for w in ('S Ceres → H Sun RA 88.761547', 'S Ceres → H Sun Dec 35.622637', 'S Ceres → J Sun Dec 44.479694',
@@ -316,5 +325,13 @@ for w in ('S Uranus → H Mercury RA 44.434397', 'S Uranus → H Mercury Dec 17.
     check(any(x.startswith(w) for x in yc2), f'BB42 Secret Satire Mercury cell {w}')
 check(not any('same body' in n for n in yn2) and not any(x.startswith('S Moon') for x in yc2), 'BB42 Secret Satire: two bodies, no Moon')
 
+check({(c['runner'], c['body']) for c in yres['BB43']} == {('02 Francophone', 'Neptune'), ('06 Secret Satire', 'Venus')}, 'BB43 York holders')
+yc3 = [x for c in yres['BB43'] if c['runner'] == '06 Secret Satire' for x in c['cells']]
+yn3 = [n for c in yres['BB43'] if c['runner'] == '06 Secret Satire' for n in c['notes']]
+for w in ('S Venus → J Venus RA 122.210672', 'S Orcus – S Quaoar RA 122.321615', 'S Orcus – S Venus Dec 29.154476',
+          'S Quaoar → H Venus RA 99.840277', 'S Quaoar → J Venus Dec 21.031152'):
+    check(any(x.startswith(w) for x in yc3), f'BB43 Secret Satire Venus cell {w}')
+check(len(yc3) == 5 and any('1.988915' in n and '7.011677' in n for n in yn3) and not any('S Vesta – S Fomalhaut' in x for x in yc3),
+      'BB43 Secret Satire: 5 cells, Regulus both-charts note, open pair left out')
 print(f'{ok}/{ok + bad} checks passed')
 sys.exit(1 if bad else 0)

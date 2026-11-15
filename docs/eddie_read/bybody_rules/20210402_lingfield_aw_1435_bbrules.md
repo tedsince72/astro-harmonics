@@ -1,4 +1,4 @@
-# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB42
+# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB43
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -47,6 +47,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB40 | 0 | 0 | - |  |
 | BB41 | 0 | 0 | - |  |
 | BB42 | 0 | 0 | - |  |
+| BB43 | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -718,6 +719,14 @@ No runner holds it.
 Rule: A sky body Y (not X, the Sun or the Moon) is on H X in RA and in Dec and on J X in RA and in Dec (four lines S Y → H X / S Y → J X, any score, no conj / contraparallel). And a sky body Z (not X or the Sun; it may be Y, it may be the Moon) is on sky X (S Z – S X) and on both natal X (S Z → H X and S Z → J X); any plane, any score, conj / contraparallel included. WATCH, noted not required: a conj / contraparallel line of Z; Z is the Moon.
 
 Origin: York 15:45 15 May 2024, 6 Secret Satire, Mercury (Uranus the four lines, Neptune on sky and both natal Mercury) (also holds: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Sun (Ceres does both))
+
+No runner holds it.
+
+## BB43 — a same-body line closed by a sky pair, one end on sky X and the other on both natal X
+
+Rule: A same-body line S X → H X or S X → J X scores (conj / contraparallel not counted) and a sky pair S A – S B on its target (the pair not naming X or the Moon) has one end on sky X (S A – S X) and the other end on both natal X (S B → H X and S B → J X); any plane, any score. WATCH, noted not required: a royal star as a pair end; a conj / contraparallel end line; a royal star with a same-body ratio on a target in both charts.
+
+Origin: York 15:45 15 May 2024, 6 Secret Satire, Venus (S Venus → J Venus RA ninth 122.222, S Orcus – S Quaoar; also holds: Haydock 13:45 8 Jun 2020, 7 Ishvara, Rahu)
 
 No runner holds it.
 

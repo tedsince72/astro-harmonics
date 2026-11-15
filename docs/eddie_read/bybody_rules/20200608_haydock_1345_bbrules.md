@@ -1,4 +1,4 @@
-# 20200608_haydock_1345 — body-by-body rules BB1-BB42
+# 20200608_haydock_1345 — body-by-body rules BB1-BB43
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -47,6 +47,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB40 | 1 | 1 | 07 Ishvara |  |
 | BB41 | 1 | 1 | 07 Ishvara |  |
 | BB42 | 0 | 0 | - |  |
+| BB43 | 3 | 3 | 07 Ishvara, 09 Garsman, 11 Mews House |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1092,4 +1093,39 @@ Rule: A sky body Y (not X, the Sun or the Moon) is on H X in RA and in Dec and o
 Origin: York 15:45 15 May 2024, 6 Secret Satire, Mercury (Uranus the four lines, Neptune on sky and both natal Mercury) (also holds: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Sun (Ceres does both))
 
 No runner holds it.
+
+## BB43 — a same-body line closed by a sky pair, one end on sky X and the other on both natal X
+
+Rule: A same-body line S X → H X or S X → J X scores (conj / contraparallel not counted) and a sky pair S A – S B on its target (the pair not naming X or the Moon) has one end on sky X (S A – S X) and the other end on both natal X (S B → H X and S B → J X); any plane, any score. WATCH, noted not required: a royal star as a pair end; a conj / contraparallel end line; a royal star with a same-body ratio on a target in both charts.
+
+Origin: York 15:45 15 May 2024, 6 Secret Satire, Venus (S Venus → J Venus RA ninth 122.222, S Orcus – S Quaoar; also holds: Haydock 13:45 8 Jun 2020, 7 Ishvara, Rahu)
+
+### 07 Ishvara — Rahu (also: 09 Garsman, 11 Mews House)
+- S Rahu → H Rahu Dec 13.009928 13 whole (50.36)
+- S Mercury – S Transpluto Dec 12.996052 13 whole (80.26)
+- S Mercury – S Rahu RA 13.317469 13.3333 ninth (40.51)
+- S Transpluto → H Rahu RA 1.243682 conj conj (17.09)
+- S Transpluto → J Rahu Dec 0.989868 1 whole (49.34)
+- S Rahu → H Rahu Dec closed by S Mercury – S Transpluto Dec: Mercury on sky Rahu, Transpluto on H Rahu and J Rahu
+- WATCH an end line is a conj / contraparallel: S Transpluto → H Rahu RA
+- lights on Rahu: S Moon → J Rahu Dec 34.005009 34 whole (74.95); S Moon → J Rahu RA 88.791898 88.8889 ninth (45.44); S Sun → J Rahu Dec 12.984017 13 whole (20.08)
+
+### 09 Garsman — Transpluto (also: 07 Ishvara, 11 Mews House)
+- S Transpluto → J Transpluto RA 9.729267 6×φ golden (34.99)
+- S Jupiter – S Gonggong Dec 9.683822 6×φ golden (24.75)
+- S Jupiter – S Transpluto RA 144.385642 144.444 ninth (79.65)
+- S Gonggong → H Transpluto Dec contraparallel 0.244082 cp contraparallel (18.64)
+- S Gonggong → J Transpluto RA 166.878228 166.667 ninth (36.53)
+- S Transpluto → J Transpluto RA closed by S Jupiter – S Gonggong Dec: Jupiter on sky Transpluto, Gonggong on H Transpluto and J Transpluto
+- WATCH an end line is a conj / contraparallel: S Gonggong → H Transpluto Dec contraparallel
+- lights on Transpluto: S Moon – S Transpluto Dec 34.994877 35 whole (74.39); S Sun – S Transpluto Dec 11.994149 12 whole (70.75); S Moon – S Transpluto RA 141.291969 141.4 sqrt2 (39.01)
+
+### 11 Mews House — Sun (also: 07 Ishvara, 09 Garsman)
+- S Sun → H Sun RA 42.016169 42 whole (19.16)
+- S Makemake – S Orcus RA 41.981290 42 whole (6.45)
+- S Makemake – S Sun Dec 1.014309 1 whole (28.46)
+- S Orcus → H Sun Dec 24.271472 15×φ golden (97.03)
+- S Orcus → J Sun Dec 12.952340 8×φ golden (75.1)
+- S Sun → H Sun RA closed by S Makemake – S Orcus RA: Makemake on sky Sun, Orcus on H Sun and J Sun
+- lights on Sun: S Moon – S Sun Dec 46.989026 φ⁸ phi power (85.37); S Moon → H Sun Dec 38.009084 38 whole (54.58); S Moon → H Sun RA 99.885778 100 ninth (42.89)
 

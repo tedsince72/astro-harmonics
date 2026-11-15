@@ -689,3 +689,22 @@ d = a sky body (not Sun) on sky X and on both natal X: 44 / 76 / 84 / 42 / 59 / 
 3 + d (built): 0 / 0 / 2 (Aviation Time Uranus: Neptune four, Haumea (H line conj) and Pluto on sky and both natal; Perfect Part Sun: Ceres does
   both) / 0 / 0 / Secret Satire Mercury (Uranus four, Neptune on sky and both natal).
 2 + 3, 1 + 3, 2 + 3 + d: Secret Satire Mercury only (not built, noted). In-sample for York and Beverley.
+
+## BB43 — York 15:45 15 May 2024, 6 Secret Satire, Venus (15 Nov 2026, built: version 1)
+Lines: S Venus → J Venus RA 122.2107 ninth 122.222 (95.3) with S Vesta – S Fomalhaut RA 122.2277 (97.8; royal end, open) and S Orcus – S Quaoar
+RA 122.3216 (59.3) on it; Orcus on sky Venus (Dec 18×φ 7.8), Quaoar on H Venus (RA ninth 100) and J Venus (Dec 13×φ 89.9); S Regulus – S Venus
+Dec 3×φ (68.4); H Regulus – H Venus Dec 4.9201 same-body ratio 2 (vs S Venus → H Venus 9.785621, 44.6); J Regulus – J Venus RA 17.4296
+same-body ratio 7 (vs S Venus → J Venus 122.210672 = the loop line, 41.6); Uranus on sky Venus and both natal Venus; Sun on both natal Venus;
+Moon on J Venus. Field check (Lingfield / Haydock / Beverley / Catterick / Chelmsford / York):
+1 = same-body line with a sky pair, one end on sky X, the other on both natal X (built): 0 / 3 (Ishvara Rahu, Garsman Transpluto, Mews House
+  Sun) / 3 (Mademoiselle Pluto, Nad Alshiba Snow Pallas, Powerful Lady Makemake) / 0 / 1 (Reset Button Haumea) / 2 (Francophone Neptune,
+  Secret Satire Venus). Ishvara Rahu: S Rahu → H Rahu Dec 13 closed by S Mercury – S Transpluto Dec (Mercury on sky Rahu, Transpluto on H Rahu
+  (conj) and J Rahu). Dropping royal pair ends: same holders.
+1a = other end on one natal X only: 5 / 10 / 12 / 3 / 6 / 12 (not built, noted).
+2 = same royal star with a same-body ratio on a target in both charts: 18 / 40 / 53 / 12 / 28 / 22; 2 + that star on sky X 4 / 16 / 27 / 3 / 3 / 13.
+1 + 2, 1 + 2b, 1 + Sun on both natal X: Secret Satire Venus only (not built, noted; 1 + 2 is a WATCH note in BB43).
+1 + a royal star on sky X: Powerful Lady Makemake, Secret Satire Venus. 1 + the royal-ratio partner = the loop line: Mews House Sun,
+  Francophone Neptune, Secret Satire Venus. 1 + a royal ratio in either chart: 0 / 2 / 3 / 0 / 0 / 2. (Not built, noted.)
+Checker notes (15 Nov): Ishvara Rahu and Garsman Transpluto reach H X only through a conj / contraparallel end line (S Transpluto → H Rahu RA
+1.243682 conj; S Gonggong → H Transpluto Dec contraparallel 0.244082) - WATCH notes, counted as built. The 'royal ratio both charts' WATCH
+reads the same-body ratio only; with the crossed ratio it would also flag Mews House Sun Regulus and Nad Alshiba Snow Pallas Aldebaran (open).

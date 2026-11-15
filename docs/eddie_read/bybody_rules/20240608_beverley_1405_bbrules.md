@@ -1,4 +1,4 @@
-# 20240608_beverley_1405 — body-by-body rules BB1-BB42
+# 20240608_beverley_1405 — body-by-body rules BB1-BB43
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -47,6 +47,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB40 | 1 | 1 | 15 Perfect Part |  |
 | BB41 | 0 | 0 | - |  |
 | BB42 | 2 | 2 | 01 Aviation Time, 15 Perfect Part |  |
+| BB43 | 3 | 3 | 07 Mademoiselle, 09 Nad Alshiba Snow, 11 Powerful Lady |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1502,4 +1503,39 @@ Origin: York 15:45 15 May 2024, 6 Secret Satire, Mercury (Uranus the four lines,
 - Ceres on H Sun and J Sun in RA and Dec (4 lines)
 - Ceres on sky Sun, H Sun and J Sun
 - the same body does both (Ceres)
+
+## BB43 — a same-body line closed by a sky pair, one end on sky X and the other on both natal X
+
+Rule: A same-body line S X → H X or S X → J X scores (conj / contraparallel not counted) and a sky pair S A – S B on its target (the pair not naming X or the Moon) has one end on sky X (S A – S X) and the other end on both natal X (S B → H X and S B → J X); any plane, any score. WATCH, noted not required: a royal star as a pair end; a conj / contraparallel end line; a royal star with a same-body ratio on a target in both charts.
+
+Origin: York 15:45 15 May 2024, 6 Secret Satire, Venus (S Venus → J Venus RA ninth 122.222, S Orcus – S Quaoar; also holds: Haydock 13:45 8 Jun 2020, 7 Ishvara, Rahu)
+
+### 07 Mademoiselle — Pluto (also: 09 Nad Alshiba Snow, 11 Powerful Lady)
+- S Pluto → H Pluto RA 4.837513 3×φ golden (48.8)
+- S Mercury – S Pallas Dec 4.831113 3×φ golden (29.05)
+- S Pallas – S Pluto RA 61.792827 100φ^-1 phi power (88.6)
+- S Mercury → H Pluto Dec 44.410852 44.4444 ninth (62.21)
+- S Mercury → J Pluto RA 179.971337 180 opposition (96.18)
+- S Pluto → H Pluto RA closed by S Mercury – S Pallas Dec: Pallas on sky Pluto, Mercury on H Pluto and J Pluto
+- lights on Pluto: S Sun – S Pluto Dec contraparallel 0.003798 cp contraparallel (98.73)
+
+### 09 Nad Alshiba Snow — Pallas (also: 07 Mademoiselle, 11 Powerful Lady)
+- S Pallas → J Pallas RA 33.386386 33.3333 ninth (20.42)
+- S Pluto – S Gonggong RA 33.398779 33.3333 ninth (1.83)
+- S Pluto – S Pallas RA 61.792827 100φ^-1 phi power (88.6)
+- S Gonggong → H Pallas RA 25.907679 16×φ golden (40.94)
+- S Gonggong → J Pallas RA 61.805220 100φ^-1 phi power (98.04)
+- S Gonggong → J Pallas Dec 29.056145 φ⁷ phi power (50.17)
+- S Pallas → J Pallas RA closed by S Pluto – S Gonggong RA: Pluto on sky Pallas, Gonggong on H Pallas and J Pallas
+- lights on Pallas: S Sun → H Pallas Dec 32.007410 32 whole (62.95)
+
+### 11 Powerful Lady — Makemake (also: 07 Mademoiselle, 09 Nad Alshiba Snow)
+- S Makemake → J Makemake RA 30.729199 19×φ golden (58.5)
+- S Uranus – S Orcus Dec 30.751891 19×φ golden (71.47)
+- S Uranus – S Makemake RA 147.220880 91×φ golden (37.61)
+- S Orcus → H Makemake Dec 34.998412 35 whole (92.06)
+- S Orcus → H Makemake RA 41.362440 41.4 silver (5.18)
+- S Orcus → J Makemake RA 10.995079 11 whole (75.4)
+- S Makemake → J Makemake RA closed by S Uranus – S Orcus Dec: Uranus on sky Makemake, Orcus on H Makemake and J Makemake
+- lights on Makemake: S Sun – S Makemake RA 122.336114 122.222 ninth (53.41); S Sun → H Makemake Dec 0.058546 conj conj (80.48)
 
