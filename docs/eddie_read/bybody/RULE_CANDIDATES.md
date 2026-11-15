@@ -973,3 +973,12 @@ Quaoar (RA 25, Dec ninth 7.77778) and H Quaoar, Jupiter on J Quaoar RA oppositio
 (tools/scans/bb_fieldcheck_diligent_quaoar.py; checker 0 mismatches): Q2 (same-body line carried by >= 2 pairs each with an end on sky / natal
 X) 27 picks 2 won (2.7 by chance); Q3 (+ one end on both sky and natal X) 18 / 2 (1.8); Q2 with >= 3 carriers 4 / 0 (0.4); Q1 + Q3 Classical
 Song, Mortlake, Diligent Resdev Quaoar only (3 / 1 / 0.3, one origin winner).
+
+## Same number in both same-body lines (Catterick 14:40 2022, 05 Wotever Next, Mercury; Eddie 15 Nov 2026) - not built
+- S Mercury → H Mercury RA 29.053505 φ⁷ (56.23); S Mercury → J Mercury Dec 28.993589 29 whole (67.95); the same sky pairs on both:
+  S Ketu – S Transpluto Dec 29.0473 φ⁷ (70.6), S Moon – S Pallas Dec 29.0526 φ⁷ (58.4), S Pluto – S Chiron Dec 29.0558 φ⁷ (50.9). BB13 already holds it.
+- Field check (tools/scans/bb_fieldcheck_same_number_both_charts.py; independent checker 0 differences): both same-body lines scoring
+  (conj / cp out) is common (62 runner-bodies over 7 races); within 0.2 of each other only 2 cases: Wotever Next Mercury (winner) and
+  York 15:45 Sinology Juno (H Dec 17.9265 φ⁶ / J RA 17.7513 ninth, no shared pair). Within 1 % and 2 %: the same 2. With a shared pair
+  (Moon in or out): Wotever Next only. 6 result races: 1 pick, 1 won, 0.2 by chance. Needs a second winner (build standard).
+- Perfect Part Mercury (Beverley) has both lines scoring but on different numbers (Dec 8.9991 whole 9 / Dec 1.4158 √2).
