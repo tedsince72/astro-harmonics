@@ -1,4 +1,4 @@
-# 20200608_haydock_1345 — body-by-body rules BB1-BB49
+# 20200608_haydock_1345 — body-by-body rules BB1-BB50
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -54,6 +54,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB47 | 1 | 1 | 07 Ishvara |  |
 | BB48 | 1 | 1 | 02 Ventura Flame |  |
 | BB49 | 1 | 1 | 07 Ishvara |  |
+| BB50 | 1 | 1 | 07 Ishvara |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1205,5 +1206,19 @@ Origin: York 15:45 15 May 2024, 6 Secret Satire, Haumea (H Haumea – J Haumea D
 - S Ketu – S Antares Dec 3.001702 3 whole (91.49)
 - S Ketu → J Eris Dec 13.314408 13.3333 ninth (29.03)
 - H Eris – J Eris RA carried by S Ketu – S Antares Dec (Antares with Ketu; Ketu on J Eris); royal stars on sky Eris: Aldebaran, Antares
+- lights on Eris: S Moon – S Eris Dec 22.674439 14×φ golden (32.21); S Sun → J Eris Dec 33.001455 33 whole (92.73); S Moon → J Eris Dec 13.987571 14 whole (37.86)
+
+## BB50 — 
+
+Rule: 
+
+Origin: 
+
+### 07 Ishvara — Eris (only)
+- H Eris – J Eris RA 2.990505 3 whole (52.53)
+- S Ketu – S Antares Dec 3.001702 3 whole (91.49)
+- S Mars – S Orcus Dec 3.014589 3 whole (27.06)
+- S Mars – S Eris RA 37.185073 23×φ golden (8.31)
+- H Eris – J Eris RA carried by the royal pair S Ketu – S Antares Dec and by S Mars – S Orcus Dec (Mars on sky Eris)
 - lights on Eris: S Moon – S Eris Dec 22.674439 14×φ golden (32.21); S Sun → J Eris Dec 33.001455 33 whole (92.73); S Moon → J Eris Dec 13.987571 14 whole (37.86)
 

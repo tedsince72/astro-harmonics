@@ -1,4 +1,4 @@
-# 20240608_beverley_1405 — body-by-body rules BB1-BB49
+# 20240608_beverley_1405 — body-by-body rules BB1-BB50
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -54,6 +54,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB47 | 1 | 1 | 14 Havana White |  |
 | BB48 | 3 | 3 | 01 Aviation Time, 12 Sands Of Dubai, 15 Perfect Part |  |
 | BB49 | 0 | 0 | - |  |
+| BB50 | 2 | 2 | 01 Aviation Time, 08 Maw Lam |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1635,4 +1636,25 @@ Rule: The H X – J X line scores (conj / contraparallel not counted) and a sky 
 Origin: York 15:45 15 May 2024, 6 Secret Satire, Haumea (H Haumea – J Haumea Dec ninth 5.55556 carried by S Makemake – S Aldebaran Dec, Makemake → H Haumea RA 16.6667; Antares and Fomalhaut on sky Haumea); version c + e (Eddie, 15 Nov 2026). Also held by Ishvara Eris (Haydock: H Eris – J Eris RA 3 carried by S Ketu – S Antares Dec 3, Ketu → J Eris; Aldebaran and Antares on sky Eris).
 
 No runner holds it.
+
+## BB50 — 
+
+Rule: 
+
+Origin: 
+
+### 01 Aviation Time — Jupiter (also: 08 Maw Lam)
+- H Jupiter – J Jupiter RA 41.403639 41.4 silver (71.48)
+- S Mars – S Aldebaran RA 41.441375 41.4 silver (67.78)
+- S Uranus – S Pluto Dec 41.464965 41.4 silver (29.81)
+- S Pluto – S Jupiter RA 116.472062 72×φ golden (18.56)
+- H Jupiter – J Jupiter RA carried by the royal pair S Mars – S Aldebaran RA and by S Uranus – S Pluto Dec (Pluto on sky Jupiter)
+- lights on Jupiter: S Sun → H Jupiter RA 80.007980 80 whole (60.1); S Moon → J Jupiter Dec 13.341096 13.3333 ninth (70.89)
+
+### 08 Maw Lam — Saturn (also: 01 Aviation Time)
+- H Saturn – J Saturn Dec 15.549996 15.5556 ninth (82.13)
+- S Neptune – S Fomalhaut RA 15.569329 15.5556 ninth (55.73)
+- S Mars – S Rahu RA 15.559809 15.5556 ninth (86.33)
+- S Rahu – S Saturn Dec 11.340499 7×φ golden (55.98)
+- H Saturn – J Saturn Dec carried by the royal pair S Neptune – S Fomalhaut RA and by S Mars – S Rahu RA (Rahu on sky Saturn)
 

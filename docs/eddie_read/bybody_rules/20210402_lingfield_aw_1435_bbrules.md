@@ -1,4 +1,4 @@
-# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB49
+# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB50
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -54,6 +54,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB47 | 0 | 0 | - |  |
 | BB48 | 2 | 2 | 04 Nirodha, 05 Pholas |  |
 | BB49 | 0 | 0 | - |  |
+| BB50 | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -804,6 +805,14 @@ Origin: York 15:45 15 May 2024, 6 Secret Satire, Chiron (H Regulus – H Chiron 
 Rule: The H X – J X line scores (conj / contraparallel not counted) and a sky pair S R – S Y on its target (not naming X or the Moon) has a royal star R at one end and at the other a body Y on natal X (S Y → H X or S Y → J X, not conj / contraparallel); and two or more royal stars are on sky X (S R – S X, not conj / contraparallel). X not Rahu or Ketu (their H – J lines pair up automatically). Any plane, any score. Noted, not required: whether R is one of the royal stars on sky X.
 
 Origin: York 15:45 15 May 2024, 6 Secret Satire, Haumea (H Haumea – J Haumea Dec ninth 5.55556 carried by S Makemake – S Aldebaran Dec, Makemake → H Haumea RA 16.6667; Antares and Fomalhaut on sky Haumea); version c + e (Eddie, 15 Nov 2026). Also held by Ishvara Eris (Haydock: H Eris – J Eris RA 3 carried by S Ketu – S Antares Dec 3, Ketu → J Eris; Aldebaran and Antares on sky Eris).
+
+No runner holds it.
+
+## BB50 — 
+
+Rule: 
+
+Origin: 
 
 No runner holds it.
 

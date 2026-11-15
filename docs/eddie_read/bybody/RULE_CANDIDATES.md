@@ -840,3 +840,19 @@ c = b, the other end a royal star: 2 / 1 / 1 / 1 / 3 / 2. e = two royal stars on
 c + e (built, BB49): Ishvara Eris (H Eris – J Eris RA 3 carried by S Ketu – S Antares Dec 3, Ketu → J Eris; Aldebaran, Antares on sky Eris) /
   Secret Satire Haumea (Aldebaran in the pair is not one of the sky royal stars; noted). a + c: Secret Satire only. a + b + e: Over Spiced Uranus,
   Secret Satire Haumea. b + e: 1 / 5 / 2 / 1 / 2 / 3. Requiring the pair's royal star to be on sky X: Ishvara only (not built).
+
+## BB50 — York 15:45 15 May 2024, 6 Secret Satire, Makemake (15 Nov 2026, built: version b)
+Lines: S Aldebaran – S Makemake Dec 5.5567 ninth 5.55556 (90.0); H Aldebaran – H Makemake Dec 6.9463 (no family), same-body ratio vs S Makemake →
+H Makemake 4.998046 on 5 (90.2); J Aldebaran – J Makemake Dec 16.7605 (no family), same-body 1.495556 on 3/2 (77.8); H Makemake – J Makemake RA
+23.0108 whole 23 (46.1) carried by S Saturn – S Fomalhaut Dec 23.0110 (44.9) and S Juno – S Orcus Dec 23.0049 (75.6); S Orcus – S Makemake RA
+42.0445 26×φ (24.8); S Chiron – S Makemake RA 179.6718 opposition (56.3), S Chiron → H Makemake Dec 14.1449 √2 (87.2), → J Makemake RA 155.5652
+ninth (96.9). No BB rule held Secret Satire Makemake before.
+Field check (Lingfield / Haydock / Beverley / Catterick / Chelmsford / York; no conj / cp):
+a = a royal star on sky X, its natal line on X has a same-body ratio on a target in both charts: 4 / 16 / 16 / 3 / 3 / 6.
+a2 = a, both ratios in the plane of the sky line: 1 / 3 / 4 / 0 / 0 / 4 (Ishvara Venus; Secret Satire Makemake, Quaoar) - not built.
+b = H X – J X carried by a royal pair and by a pair with no royal star whose end is on sky X (built, BB50; X not Rahu / Ketu, holders the same
+  either way): 0 / 1 / 2 / 0 / 0 / 2 - Ishvara Eris (also BB49's origin) / Aviation Time Jupiter, Maw Lam Saturn / Francophone Transpluto,
+  Secret Satire Makemake. b1 = royal pair only: 5 / 4 / 8 / 2 / 5 / 3.
+c = a body on sky X and on both natal X: 35 / 66 / 59 / 28 / 49 / 48 (too wide).
+a + c: 1 / 3 / 0 / 1 / 1 / 5 (Pholas Vesta; Secret Satire Venus, Makemake, Quaoar) - not built. a2 + c: York only (3). a + b, b + c, a + b + c:
+  Secret Satire Makemake only (b + c also Aviation Time Jupiter).

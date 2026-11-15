@@ -2838,6 +2838,45 @@
     "watch_only": false
    }
   ],
-  "BB49": []
+  "BB49": [],
+  "BB50": [
+   {
+    "runner": "01 Aviation Time",
+    "body": "Jupiter",
+    "cells": [
+     "H Jupiter – J Jupiter RA 41.403639 41.4 silver (71.48)",
+     "S Mars – S Aldebaran RA 41.441375 41.4 silver (67.78)",
+     "S Uranus – S Pluto Dec 41.464965 41.4 silver (29.81)",
+     "S Pluto – S Jupiter RA 116.472062 72×φ golden (18.56)"
+    ],
+    "notes": [
+     "H Jupiter – J Jupiter RA carried by the royal pair S Mars – S Aldebaran RA and by S Uranus – S Pluto Dec (Pluto on sky Jupiter)"
+    ],
+    "lights": [
+     "S Sun → H Jupiter RA 80.007980 80 whole (60.1)",
+     "S Moon → J Jupiter Dec 13.341096 13.3333 ninth (70.89)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "08 Maw Lam",
+    "body": "Saturn",
+    "cells": [
+     "H Saturn – J Saturn Dec 15.549996 15.5556 ninth (82.13)",
+     "S Neptune – S Fomalhaut RA 15.569329 15.5556 ninth (55.73)",
+     "S Mars – S Rahu RA 15.559809 15.5556 ninth (86.33)",
+     "S Rahu – S Saturn Dec 11.340499 7×φ golden (55.98)"
+    ],
+    "notes": [
+     "H Saturn – J Saturn Dec carried by the royal pair S Neptune – S Fomalhaut RA and by S Mars – S Rahu RA (Rahu on sky Saturn)"
+    ],
+    "lights": [],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ]
  }
 }

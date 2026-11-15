@@ -1343,6 +1343,29 @@ def bb49(b):
     return [{'key': ('BB49', b.X), 'cells': cells, 'notes': notes}]
 
 
+def bb50(b):
+    """The H X - J X line scores (no conj / contraparallel) and two sky pairs on its target (pairs not naming X or the Moon) carry it:
+    one with a royal star at an end (S R - S Y), and one with no royal star whose end Y is on sky X (S Y - S X, no conj / cp). X not
+    Rahu or Ketu (their H - J lines pair up automatically). Any plane, any score."""
+    if b.X in ('Rahu', 'Ketu'):
+        return []
+    ok = lambda rs: [o for o in rs if o['fam'] and o['fam'] not in CJ]
+    cells, notes = [], []
+    for r in ok(b.lines(f'H {b.X} – J {b.X}', scoring=True)):
+        ps = [(s, A, B) for s, A, B in b.pairs_on(r) if b.X not in (A, B) and 'Moon' not in (A, B)]
+        roy = [s for s, A, B in ps if A in ROY or B in ROY]
+        sky = [(s, Y, ok(b.sky_y(Y))) for s, A, B in ps if A not in ROY and B not in ROY for Y in (A, B) if ok(b.sky_y(Y))]
+        if not roy or not sky:
+            continue
+        for o in [r] + roy + [x for s, Y, on in sky for x in [s] + on]:
+            if o not in cells:
+                cells.append(o)
+        notes.append(f"{r['line']} {r['plane']} carried by the royal pair{'s' if len(roy) > 1 else ''} "
+                     f"{'; '.join(s['line'] + ' ' + s['plane'] for s in roy)} and by "
+                     f"{'; '.join(s['line'] + ' ' + s['plane'] + ' (' + Y + ' on sky ' + b.X + ')' for s, Y, _ in sky)}")
+    return [{'key': ('BB50', b.X), 'cells': cells, 'notes': notes}] if cells else []
+
+
 RULES = [('BB1', bb1, 'Mercury'), ('BB2', bb2, 'Mars'), ('BB3', bb3, 'Jupiter'), ('BB4', bb4, 'Saturn'),
          ('BB5', bb5, 'Uranus'), ('BB6', bb6, 'Uranus'), ('BB7', bb7, 'Neptune'), ('BB8', bb8, 'Rahu'),
          ('BB9', bb9, 'Rahu'), ('BB10', bb10, 'Ketu'), ('BB11', bb11, 'Ceres'), ('BB12', bb12, 'Pallas'),
@@ -1351,7 +1374,7 @@ RULES = [('BB1', bb1, 'Mercury'), ('BB2', bb2, 'Mars'), ('BB3', bb3, 'Jupiter'),
          ('BB21', bb21, 'Saturn'), ('BB22', bb22, 'Saturn'), ('BB23', bb23, 'Neptune'), ('BB24', bb24, 'Rahu'), ('BB25', bb25, 'Ketu'), ('BB26', bb26, 'Ceres'), ('BB27', bb27, 'Pallas'), ('BB28', bb28, 'Juno'), ('BB29', bb29, 'Vesta'), ('BB30', bb30, 'Eris'), ('BB31', bb31, 'Gonggong'),
          ('BB32', bb32, 'Sun'), ('BB32b', bb32b, 'Sun'), ('BB33', bb33, 'Mercury'), ('BB34', bb34, 'Mars'), ('BB35', bb35, 'Saturn'),
          ('BB36', bb36, 'Uranus'), ('BB37', bb37, 'Pluto'), ('BB38', bb38, 'Juno'), ('BB39', bb39, 'Makemake'),
-         ('BB40', bb40, 'Sedna'), ('BB41', bb41, 'Sun'), ('BB42', bb42, 'Mercury'), ('BB43', bb43, 'Venus'), ('BB44', bb44, 'Jupiter'), ('BB45', bb45, 'Saturn'), ('BB46', bb46, 'Saturn'), ('BB47', bb47, 'Ceres'), ('BB48', bb48, 'Chiron'), ('BB49', bb49, 'Haumea')]
+         ('BB40', bb40, 'Sedna'), ('BB41', bb41, 'Sun'), ('BB42', bb42, 'Mercury'), ('BB43', bb43, 'Venus'), ('BB44', bb44, 'Jupiter'), ('BB45', bb45, 'Saturn'), ('BB46', bb46, 'Saturn'), ('BB47', bb47, 'Ceres'), ('BB48', bb48, 'Chiron'), ('BB49', bb49, 'Haumea'), ('BB50', bb50, 'Makemake')]
 
 
 def decade_pairs(cells):
