@@ -781,3 +781,18 @@ c + d (built, BB47; a pair may be the split pair and the both-ends pair at once)
   Jupiter, Secret Satire Ceres. With two different pairs required: Secret Satire Ceres only (not built; Eddie chose one pair may do both).
 e = a + the same royal star on sky X: 4 / 1 / 7 / 2 / 5 / 15. f = royal line with >= 4 sky lines on its target: 6 / 23 / 18 / 3 / 4 / 8.
 b + d, b + c + d: Secret Satire Ceres only; b + c, b + e: Friendly Soul Ketu, Secret Satire Ceres (not built, noted).
+
+## Pallas — York 15:45 15 May 2024, 6 Secret Satire (15 Nov 2026, not built: Eddie "leave it - unless very strong really needs a 2nd winner")
+Lines: H Fomalhaut – H Pallas Dec 33.9529 21×φ (20.4) carried by S Sun – S Quaoar Dec 33.9845 21×φ (82.1); H Antares – H Pallas Dec 30.7616
+19×φ (41.5) carried by S Moon – S Quaoar Dec 30.7698 19×φ (16.0); H Pallas – J Pallas RA 179.7288 opposition (63.8) carried by S Chiron –
+S Makemake RA 179.6718 (56.3) and S Gonggong – S Orcus RA 179.5560 (40.8) (BB14); S Gonggong → H Pallas RA 1.8919 ninth (20.8), → J Pallas RA
+177.8369 ninth (83.4); S Orcus → H Pallas Dec 16.6523 ninth (56.9); S Pallas → J Pallas RA 92.0072 whole 92 (64.2); S Antares – S Pallas RA
+0.3204 conj (78.6) - the H / J Antares same-body unisons (1.003655 / 1.003565) follow from this conj (the star barely moves), so automatic.
+Field check (Lingfield / Haydock / Beverley / Catterick / Chelmsford / York; royal lines not conj / cp):
+1a = two royal stars on natal X in one chart carried by two pairs sharing a body Q (Q not Sun / Moon): 2 / 5 (incl. Ishvara Mercury, Vesta) /
+  4 / 1 / 5 / 6. 1b = 1a same plane and family: 1 / 0 / 2 / 0 / 1 / 1. 1c = 1a with the Sun or the Moon among the other ends: Shimmering
+  Dawn Juno / Garsman Chiron / 0 / Beluga Gold Mercury / 0 / Secret Satire Pallas. 1d = the other ends the Sun and the Moon: Secret Satire only.
+2 = H X – J X carried by a pair with an end on both natal X: 4 / 4 (incl. Ishvara Uranus) / 0 / 2 / 5 / 3. 1b + 2, 1d + 2: Secret Satire only;
+1c + 2: Shimmering Dawn Juno, Secret Satire Pallas.
+
+Build standard (Eddie, 15 Nov 2026): from now on a rule needs a second origin winner on the same structure, unless the shape is very strong.
