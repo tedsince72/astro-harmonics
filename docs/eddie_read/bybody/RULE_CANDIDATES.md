@@ -1118,3 +1118,11 @@ Song, Mortlake, Diligent Resdev Quaoar only (3 / 1 / 0.3, one origin winner).
 - Opposition counts (only conj / contraparallel are left out); 2 opposition same-body lines in the 8 races, none in a holder's 10.
 - The 'lights' line on a BB62 case shows the Sun lines of the runner's first body sheet, not lights for the whole chart (cosmetic).
 - Independent checker: holders re-derived with its own code, every other rule's output identical to HEAD, tests 495/495: 0 mismatches.
+
+## Fontwell 15:30 6 Oct 2023, Kilcummin Pallas (15 Nov 2026): royal star on natal X in both planes (noted, left; Eddie: "leave it")
+- J Antares – J Pallas Dec 24.9984 25 (92.2); RA 77.6974 ninth 77.7778 (48.3), crossed ratio vs S Pallas -> J Pallas Dec 4.5726 = 16.9918 on 17 (90.3);
+  S Antares – S Pallas RA 54.9823 55 (11.4). Geometry: 54.9823 + S Pallas -> J Pallas RA 22.7148 = 77.6971 ~ the natal RA line.
+- Scan tools/scans/bb_fieldcheck_royal_both_planes_family.py, 7 result races + Chelmsford: A1 62 / 6 / 6.9, A2 34 / 4 / 3.6, A3 27 / 1 / 2.6,
+  A4 13 / 1 / 1.4, A5 9 / 1 / 1.0 (all at chance); A6 (sky whole and natal whole of the same R – X on an interval, 55 / 25 = 11/5) 1 / 1 / 0.1,
+  holders Kilcummin and Chelmsford Foinix only; one origin winner, not built.
+- Independent checker: 0 mismatches.
