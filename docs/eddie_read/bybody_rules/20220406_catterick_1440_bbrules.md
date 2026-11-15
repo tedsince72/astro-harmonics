@@ -888,11 +888,11 @@ Origin: York 16:15 15 May 2024, 13 Diligent Resdev, Pallas (H Aldebaran – H Pa
 - H Fomalhaut – H Chiron Dec carried by S Chiron – S Gonggong RA; Gonggong on J Chiron: Dec 12 whole
 - lights on Chiron: S Moon – S Chiron Dec 17.777129 17.7778 ninth (98.17); S Sun – S Chiron Dec 0.204340 conj conj (31.89); S Sun → H Chiron RA 14.434050 14.4444 ninth (64.02)
 
-## BB56 — 
+## BB56 — A royal star on sky X and the Sun on natal X, same target
 
-Rule: 
+Rule: A sky line S R – S X (R a royal star) and S Sun → H X or S Sun → J X both score on the same family and target (any plane each; conj / contraparallel not counted). X not Rahu or Ketu. Any score.
 
-Origin: 
+Origin: York 16:15 15 May 2024, 13 Diligent Resdev, Vesta (S Fomalhaut – S Vesta RA 122.236525 ninth 122.222; S Sun → H Vesta RA 122.087456 ninth 122.222) (Eddie, 15 Nov 2026: 'RS'). Also held by Ishvara Juno (Haydock: S Fomalhaut – S Juno RA 155.553196 ninth 155.556; S Sun → H Juno RA 155.817127). In-sample over the 5 winner races 5 picks, 2 won, 0.4 by chance. Note: the ninth bands are wide (York 16:15 True Promise / Misemerald Vesta hold it on Sun → H Vesta 122.33 / 122.30).
 
 ### 02 Beluga Gold — Mars (only)
 - S Aldebaran – S Mars RA 102.985500 103 whole (27.5)
