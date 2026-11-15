@@ -963,3 +963,13 @@ the H X – J X target) 17 picks 3 won (1.8). RS (a royal star on sky X and the 
 Venus, Ishvara Juno (S Fomalhaut – S Juno RA 155.553196 ninth 155.556 / S Sun → H Juno RA 155.817127); Catterick Beluga Gold Mars; York 16:15
 True Promise, Diligent Resdev, Misemerald Vesta (all S Fomalhaut – S Vesta 122.222; the Sun → H Vesta values 122.33 / 122.09 / 122.30 sit in
 the wide ninth band) - 5 picks, 2 won, 0.4 by chance; two origin winners, both through Fomalhaut on a ninth. M1 + RS: Diligent Resdev only.
+
+## Diligent Resdev Quaoar (15 Nov 2026, Eddie's lines; not built: nothing separates)
+S Antares – S Quaoar RA 32.353742 20×φ (78.59) and S Fomalhaut – S Quaoar RA 64.701801 40×φ (39.63) - sky only, every runner (Q1: all 7 /
+all 15 in the York races, 0 elsewhere; at chance). S Quaoar → H Quaoar RA 4.996973 5 (84.86); S Pluto – S Quaoar RA 25.001397 25 (93.01) and
+S Pluto → H Quaoar RA 29.998370 30 (91.85): 25 + 5 = 30 along RA (geometry: Pluto, sky Quaoar, H Quaoar in a line). S Quaoar → J Quaoar RA
+44.523832 ninth 44.4444 (10.69) carried by S Saturn – S Pluto RA 44.449498 (94.31) and S Mars – S Jupiter RA 44.377122 (24.26); Pluto on sky
+Quaoar (RA 25, Dec ninth 7.77778) and H Quaoar, Jupiter on J Quaoar RA opposition 179.931313 (90.84). Holds BB13 only. Field
+(tools/scans/bb_fieldcheck_diligent_quaoar.py; checker 0 mismatches): Q2 (same-body line carried by >= 2 pairs each with an end on sky / natal
+X) 27 picks 2 won (2.7 by chance); Q3 (+ one end on both sky and natal X) 18 / 2 (1.8); Q2 with >= 3 carriers 4 / 0 (0.4); Q1 + Q3 Classical
+Song, Mortlake, Diligent Resdev Quaoar only (3 / 1 / 0.3, one origin winner).
