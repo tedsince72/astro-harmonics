@@ -618,3 +618,12 @@ cp 0.183798 and RA 133.52 ninth. No earlier rule held Perfect Part Pluto. Field 
 line, partner conj natal X same chart) Lingfield 1, Haydock 7, Beverley 7; + Sun conj / cp sky X (A): Ishvara Vesta, Perfect Part Pluto;
 + Sun + another body conj / cp (B): Perfect Part only; + pair >= 80 (C): Mews House Uranus, Perfect Part. Eddie chose A; B and C as WATCH
 notes. Both holders jockey chart, Sun line in Dec > 80. Independent checker (15 Nov): 0 mismatches; Catterick, Chelmsford no holders.
+
+## Considered, not built — Beverley 14:05 8 Jun 2024, 15 Perfect Part, Rahu (15 Nov 2026; Eddie: "does not seem strong enough")
+Lines: S Aldebaran – S Rahu RA 57.001184 57 (94.08); H Aldebaran – H Rahu RA 18.790691 / Dec 1.909279 (no family) with crossed ratios
+1.415193 √2 (53.84) / 20.014026 20 1/20 cut (85.97); S Antares – S Rahu RA 77×φ (16.03); Mars and Sedna each on sky and natal H Rahu
+(S Mars – S Rahu RA ninth 86.33, S Mars → H Rahu RA 14×φ 99.77; S Sedna – S Rahu RA 30×φ 56.74, S Sedna → H Rahu Dec 6×φ 97.4); H Rahu –
+J Rahu Dec 25 (76.72). No same-body line on a target; no earlier rule held it. Field check (three races): A (royal star on sky X, its natal
+line with a scoring crossed ratio in both planes, same chart) 1 / 3 / 3 holders; A + a cut: Shimmering Dawn Gonggong, Royal Context Pluto,
+Perfect Part Rahu (all three: star line no family, crossed in both planes); two bodies on sky X and natal X: 85 / 163 / 203 (too common),
+both natal >= 90: 6 / 5 / 16; A + that: Perfect Part only. Not built.
