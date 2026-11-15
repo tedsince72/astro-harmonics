@@ -1,4 +1,4 @@
-# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB54
+# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB55
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -59,6 +59,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB52 | 0 | 0 | - |  |
 | BB53 | 3 | 1 | 06 Shimmering Dawn |  |
 | BB54 | 0 | 0 | - |  |
+| BB55 | 4 | 3 | 01 Arafi, 04 Nirodha, 05 Pholas |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -867,11 +868,44 @@ Origin: Looser version L2 of BB52 (Eddie, 15 Nov 2026: 'build this ... maybe the
 - S Sun – S Pallas RA 23×φ golden: J Fomalhaut – J Pallas Dec and, on Sun, J Fomalhaut – J Sun Dec both 26×φ
 - lights on Pallas: S Moon – S Pallas Dec 27.992984 28 whole (64.92); S Sun – S Pallas RA 37.184267 23×φ golden (5.82)
 
-## BB54 — 
+## BB54 — A scoring royal natal line whose same-body or crossed ratio is on 10
+
+Rule: A royal natal line c R – c X scores (conj / contraparallel not counted; any chart, royal star and plane) and its same-body ratio (larger / smaller against S X → c X in the same plane) or its crossed ratio (against S X → c X in the other plane) is on 10 ('10 1/10 cut', ±0.5 %, any score). The royal line's digits repeat a decade apart in the same-body line.
+
+Origin: York 16:15 15 May 2024, 13 Diligent Resdev, Rahu (H Aldebaran – H Rahu Dec 6.493563 4×φ, crossed against S Rahu → H Rahu RA 64.936805 = 10.000181) (Eddie, 15 Nov 2026: 'T10 build'). Also held by Ishvara Jupiter (H Fomalhaut – H Jupiter RA ninth 144.444, crossed 9.95748), Perfect Part Uranus (H Regulus – H Uranus RA ninth 111.111, same-body 10.025899) and Secret Satire Rahu (H Aldebaran – H Rahu RA 1×φ, crossed 10.017866). In-sample over the 5 winner races: 17 picks, 4 won, 1.5 by chance; controls at chance (ratio on 10 without the royal line scoring 43 / 5 / 4.2; on 11-20 40 / 4 / 3.9; on 5-9 25 / 2 / 2.4).
+
+No runner holds it.
+
+## BB55 — 
 
 Rule: 
 
 Origin: 
 
-No runner holds it.
+### 01 Arafi — Venus (also: 04 Nirodha, 05 Pholas)
+- J Antares – J Venus RA 141.321482 141.4 sqrt2 (52.92)
+- S Venus – S Orcus RA 141.227153 141.4 sqrt2 (8.45)
+- S Orcus → H Venus Dec 16.160916 10×φ golden (40.05)
+- J Antares – J Venus RA carried by S Venus – S Orcus RA; Orcus on H Venus: Dec 10×φ golden
+- lights on Venus: S Sun → H Venus Dec 0.197628 conj conj (34.12); S Sun → J Venus Dec 8.077468 5×φ golden (60.8)
+
+### 01 Arafi — Gonggong (also: 04 Nirodha, 05 Pholas)
+- H Fomalhaut – H Gonggong Dec 17.018755 17 whole (6.23)
+- S Chiron – S Gonggong Dec 16.991570 17 whole (57.85)
+- S Chiron → J Gonggong Dec 26.193071 10φ² phi power (67.58)
+- H Fomalhaut – H Gonggong Dec carried by S Chiron – S Gonggong Dec; Chiron on J Gonggong: Dec 10φ² phi power
+
+### 04 Nirodha — Saturn (also: 01 Arafi, 05 Pholas)
+- H Regulus – H Saturn Dec 34.013359 34 whole (33.2)
+- S Saturn – S Haumea Dec 33.982000 34 whole (10)
+- S Haumea → J Saturn Dec 17.772377 17.7778 ninth (84.81)
+- H Regulus – H Saturn Dec carried by S Saturn – S Haumea Dec; Haumea on J Saturn: Dec 17.7778 ninth
+- lights on Saturn: S Moon → H Saturn Dec 2.005095 2 whole (74.53)
+
+### 05 Pholas — Pallas (also: 01 Arafi, 04 Nirodha)
+- H Regulus – H Pallas RA 179.763890 180 opposition (68.52)
+- S Pallas – S Transpluto RA 179.560795 180 opposition (41.44)
+- S Transpluto → J Pallas Dec 2.993284 3 whole (66.42)
+- H Regulus – H Pallas RA carried by S Pallas – S Transpluto RA; Transpluto on J Pallas: Dec 3 whole
+- lights on Pallas: S Moon – S Pallas Dec 27.992984 28 whole (64.92); S Sun – S Pallas RA 37.184267 23×φ golden (5.82)
 

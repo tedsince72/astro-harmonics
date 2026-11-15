@@ -1,4 +1,4 @@
-# 20220406_catterick_1440 — body-by-body rules BB1-BB54
+# 20220406_catterick_1440 — body-by-body rules BB1-BB55
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -59,6 +59,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB52 | 0 | 0 | - |  |
 | BB53 | 4 | 2 | 02 Beluga Gold, 03 Capuchinero |  |
 | BB54 | 2 | 1 | 02 Beluga Gold |  |
+| BB55 | 1 | 1 | 02 Beluga Gold |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -855,11 +856,11 @@ Origin: Looser version L2 of BB52 (Eddie, 15 Nov 2026: 'build this ... maybe the
 - S Mercury – S Haumea RA 100φ phi power: J Regulus – J Haumea RA and, on Mercury, H Fomalhaut – H Mercury Dec both φ⁷
 - lights on Haumea: S Moon → H Haumea Dec 8.113177 5×φ golden (28.99); S Sun → J Haumea RA 165.999760 166 whole (98.8); S Moon → J Haumea RA 105.190607 65×φ golden (43.22)
 
-## BB54 — 
+## BB54 — A scoring royal natal line whose same-body or crossed ratio is on 10
 
-Rule: 
+Rule: A royal natal line c R – c X scores (conj / contraparallel not counted; any chart, royal star and plane) and its same-body ratio (larger / smaller against S X → c X in the same plane) or its crossed ratio (against S X → c X in the other plane) is on 10 ('10 1/10 cut', ±0.5 %, any score). The royal line's digits repeat a decade apart in the same-body line.
 
-Origin: 
+Origin: York 16:15 15 May 2024, 13 Diligent Resdev, Rahu (H Aldebaran – H Rahu Dec 6.493563 4×φ, crossed against S Rahu → H Rahu RA 64.936805 = 10.000181) (Eddie, 15 Nov 2026: 'T10 build'). Also held by Ishvara Jupiter (H Fomalhaut – H Jupiter RA ninth 144.444, crossed 9.95748), Perfect Part Uranus (H Regulus – H Uranus RA ninth 111.111, same-body 10.025899) and Secret Satire Rahu (H Aldebaran – H Rahu RA 1×φ, crossed 10.017866). In-sample over the 5 winner races: 17 picks, 4 won, 1.5 by chance; controls at chance (ratio on 10 without the royal line scoring 43 / 5 / 4.2; on 11-20 40 / 4 / 3.9; on 5-9 25 / 2 / 2.4).
 
 ### 02 Beluga Gold — Chiron (only)
 - J Aldebaran – J Chiron Dec 15.585946 15.5556 ninth (2.32)
@@ -872,4 +873,17 @@ Origin:
 - S Makemake → J Makemake Dec 10.499952 (no family)
 - J Aldebaran – J Makemake RA 105.186241 / S Makemake → J Makemake Dec 10.499952: crossed ratio 10.017783 on 10 (64.43)
 - lights on Makemake: S Moon → H Makemake Dec 0.061843 conj conj (79.39); S Sun → H Makemake Dec 17.919627 φ⁶ phi power (8.44); S Sun → J Makemake Dec 27.001799 27 whole (91.01)
+
+## BB55 — 
+
+Rule: 
+
+Origin: 
+
+### 02 Beluga Gold — Chiron (only)
+- H Fomalhaut – H Chiron Dec 33.268562 33.3333 ninth (2.84)
+- S Chiron – S Gonggong RA 33.346535 33.3333 ninth (80.2)
+- S Gonggong → J Chiron Dec 12.010810 12 whole (45.95)
+- H Fomalhaut – H Chiron Dec carried by S Chiron – S Gonggong RA; Gonggong on J Chiron: Dec 12 whole
+- lights on Chiron: S Moon – S Chiron Dec 17.777129 17.7778 ninth (98.17); S Sun – S Chiron Dec 0.204340 conj conj (31.89); S Sun → H Chiron RA 14.434050 14.4444 ninth (64.02)
 

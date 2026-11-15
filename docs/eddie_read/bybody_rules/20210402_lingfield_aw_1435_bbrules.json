@@ -1085,6 +1085,80 @@
     "watch_only": false
    }
   ],
-  "BB54": []
+  "BB54": [],
+  "BB55": [
+   {
+    "runner": "01 Arafi",
+    "body": "Venus",
+    "cells": [
+     "J Antares – J Venus RA 141.321482 141.4 sqrt2 (52.92)",
+     "S Venus – S Orcus RA 141.227153 141.4 sqrt2 (8.45)",
+     "S Orcus → H Venus Dec 16.160916 10×φ golden (40.05)"
+    ],
+    "notes": [
+     "J Antares – J Venus RA carried by S Venus – S Orcus RA; Orcus on H Venus: Dec 10×φ golden"
+    ],
+    "lights": [
+     "S Sun → H Venus Dec 0.197628 conj conj (34.12)",
+     "S Sun → J Venus Dec 8.077468 5×φ golden (60.8)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "01 Arafi",
+    "body": "Gonggong",
+    "cells": [
+     "H Fomalhaut – H Gonggong Dec 17.018755 17 whole (6.23)",
+     "S Chiron – S Gonggong Dec 16.991570 17 whole (57.85)",
+     "S Chiron → J Gonggong Dec 26.193071 10φ² phi power (67.58)"
+    ],
+    "notes": [
+     "H Fomalhaut – H Gonggong Dec carried by S Chiron – S Gonggong Dec; Chiron on J Gonggong: Dec 10φ² phi power"
+    ],
+    "lights": [],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "04 Nirodha",
+    "body": "Saturn",
+    "cells": [
+     "H Regulus – H Saturn Dec 34.013359 34 whole (33.2)",
+     "S Saturn – S Haumea Dec 33.982000 34 whole (10)",
+     "S Haumea → J Saturn Dec 17.772377 17.7778 ninth (84.81)"
+    ],
+    "notes": [
+     "H Regulus – H Saturn Dec carried by S Saturn – S Haumea Dec; Haumea on J Saturn: Dec 17.7778 ninth"
+    ],
+    "lights": [
+     "S Moon → H Saturn Dec 2.005095 2 whole (74.53)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "05 Pholas",
+    "body": "Pallas",
+    "cells": [
+     "H Regulus – H Pallas RA 179.763890 180 opposition (68.52)",
+     "S Pallas – S Transpluto RA 179.560795 180 opposition (41.44)",
+     "S Transpluto → J Pallas Dec 2.993284 3 whole (66.42)"
+    ],
+    "notes": [
+     "H Regulus – H Pallas RA carried by S Pallas – S Transpluto RA; Transpluto on J Pallas: Dec 3 whole"
+    ],
+    "lights": [
+     "S Moon – S Pallas Dec 27.992984 28 whole (64.92)",
+     "S Sun – S Pallas RA 37.184267 23×φ golden (5.82)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ]
  }
 }

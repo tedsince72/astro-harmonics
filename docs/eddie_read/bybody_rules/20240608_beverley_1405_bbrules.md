@@ -1,4 +1,4 @@
-# 20240608_beverley_1405 — body-by-body rules BB1-BB54
+# 20240608_beverley_1405 — body-by-body rules BB1-BB55
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -59,6 +59,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB52 | 0 | 0 | - |  |
 | BB53 | 6 | 3 | 10 Over Spiced, 11 Powerful Lady, 15 Perfect Part |  |
 | BB54 | 5 | 5 | 04 Invincible Annice, 07 Mademoiselle, 08 Maw Lam, 14 Havana White, 15 Perfect Part |  |
+| BB55 | 8 | 6 | 04 Invincible Annice, 07 Mademoiselle, 08 Maw Lam, 13 Storm Call, 14 Havana White, 15 Perfect Part |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1725,11 +1726,11 @@ Origin: Looser version L2 of BB52 (Eddie, 15 Nov 2026: 'build this ... maybe the
 - S Sun – S Makemake RA 122.222 ninth: J Regulus – J Makemake Dec and, on Sun, J Aldebaran – J Sun RA both 22.2222
 - lights on Makemake: S Sun – S Makemake RA 122.336114 122.222 ninth (53.41); S Sun → H Makemake Dec 0.106418 conj conj (64.53); S Sun → J Makemake Dec 11.304415 7×φ golden (32.65)
 
-## BB54 — 
+## BB54 — A scoring royal natal line whose same-body or crossed ratio is on 10
 
-Rule: 
+Rule: A royal natal line c R – c X scores (conj / contraparallel not counted; any chart, royal star and plane) and its same-body ratio (larger / smaller against S X → c X in the same plane) or its crossed ratio (against S X → c X in the other plane) is on 10 ('10 1/10 cut', ±0.5 %, any score). The royal line's digits repeat a decade apart in the same-body line.
 
-Origin: 
+Origin: York 16:15 15 May 2024, 13 Diligent Resdev, Rahu (H Aldebaran – H Rahu Dec 6.493563 4×φ, crossed against S Rahu → H Rahu RA 64.936805 = 10.000181) (Eddie, 15 Nov 2026: 'T10 build'). Also held by Ishvara Jupiter (H Fomalhaut – H Jupiter RA ninth 144.444, crossed 9.95748), Perfect Part Uranus (H Regulus – H Uranus RA ninth 111.111, same-body 10.025899) and Secret Satire Rahu (H Aldebaran – H Rahu RA 1×φ, crossed 10.017866). In-sample over the 5 winner races: 17 picks, 4 won, 1.5 by chance; controls at chance (ratio on 10 without the royal line scoring 43 / 5 / 4.2; on 11-20 40 / 4 / 3.9; on 5-9 25 / 2 / 2.4).
 
 ### 04 Invincible Annice — Gonggong (also: 07 Mademoiselle, 08 Maw Lam, 14 Havana White, 15 Perfect Part)
 - J Aldebaran – J Gonggong RA 100.065147 100 ninth (67.43)
@@ -1761,4 +1762,73 @@ Origin:
 - S Uranus → H Uranus RA 11.095305 φ⁵ phi power (69.13)
 - H Regulus – H Uranus RA 111.240410 / S Uranus → H Uranus RA 11.095305: same-body ratio 10.025899 on 10 (48.20)
 - lights on Uranus: S Sun → H Uranus RA 35.980071 36 whole (0.36)
+
+## BB55 — 
+
+Rule: 
+
+Origin: 
+
+### 04 Invincible Annice — Pluto (also: 07 Mademoiselle, 08 Maw Lam, 13 Storm Call, 14 Havana White, 15 Perfect Part)
+- J Aldebaran – J Pluto Dec 17.782362 17.7778 ninth (87.11)
+- S Pluto – S Ketu Dec 17.748291 17.7778 ninth (17.07)
+- S Ketu → H Pluto RA 108.402009 67×φ golden (80.65)
+- J Aldebaran – J Pluto Dec carried by S Pluto – S Ketu Dec; Ketu on H Pluto: RA 67×φ golden
+- lights on Pluto: S Sun – S Pluto Dec contraparallel 0.003798 cp contraparallel (98.73); S Sun → H Pluto Dec 45.291710 28×φ golden (59.13); S Sun → J Pluto Dec 24.154837 24.14 silver (64.93)
+
+### 07 Mademoiselle — Gonggong (also: 04 Invincible Annice, 08 Maw Lam, 13 Storm Call, 14 Havana White, 15 Perfect Part)
+- J Regulus – J Gonggong RA 179.689875 180 opposition (58.65)
+- S Gonggong – S Orcus RA 179.596036 180 opposition (46.14)
+- S Orcus → H Gonggong RA 179.274044 10φ⁶ phi power (37.33)
+- S Gonggong – S Orcus RA 179.596036 10φ⁶ phi power (43.04)
+- J Regulus – J Gonggong RA carried by S Gonggong – S Orcus RA; Orcus on H Gonggong: RA 10φ⁶ phi power
+- J Regulus – J Gonggong RA carried by S Gonggong – S Orcus RA; Orcus on H Gonggong: RA 10φ⁶ phi power
+- lights on Gonggong: S Sun – S Gonggong Dec 33.351533 33.3333 ninth (72.7); S Sun – S Gonggong RA 98.984200 99 whole (21); S Sun → H Gonggong RA 100.114120 100 ninth (42.94); S Moon → J Gonggong RA 132.680938 82×φ golden (93.36)
+
+### 08 Maw Lam — Ceres (also: 04 Invincible Annice, 07 Mademoiselle, 13 Storm Call, 14 Havana White, 15 Perfect Part)
+- H Antares – H Ceres Dec 46.923807 29×φ golden (97.47)
+- S Jupiter – S Ceres Dec 46.986172 φ⁸ phi power (89.42)
+- S Jupiter → J Ceres Dec 6.187294 10φ^-1 phi power (24.99)
+- H Antares – H Ceres Dec carried by S Jupiter – S Ceres Dec; Jupiter on J Ceres: Dec 10φ^-1 phi power
+- lights on Ceres: S Sun – S Ceres RA 145.015251 145 whole (23.74); S Moon → J Ceres RA 61.989626 62 whole (48.13)
+
+### 13 Storm Call — Mars (also: 04 Invincible Annice, 07 Mademoiselle, 08 Maw Lam, 14 Havana White, 15 Perfect Part)
+- J Aldebaran – J Mars Dec 5.003082 5 whole (84.59)
+- S Mars – S Rahu Dec 4.985042 5 whole (25.21)
+- S Rahu → H Mars Dec 15.526277 15.5556 ninth (5.89)
+- J Aldebaran – J Mars Dec carried by S Mars – S Rahu Dec; Rahu on H Mars: Dec 15.5556 ninth
+- lights on Mars: S Moon → H Mars RA 126.016835 126 whole (15.82); S Sun → H Mars Dec 33.270769 33.3333 ninth (6.15)
+
+### 13 Storm Call — Gonggong (also: 04 Invincible Annice, 07 Mademoiselle, 08 Maw Lam, 14 Havana White, 15 Perfect Part)
+- J Regulus – J Gonggong RA 179.551745 10φ⁶ phi power (59.49)
+- S Gonggong – S Orcus RA 179.596036 180 opposition (46.14)
+- S Orcus → H Gonggong RA 179.893331 180 opposition (85.78)
+- S Gonggong – S Orcus RA 179.596036 10φ⁶ phi power (43.04)
+- J Regulus – J Gonggong RA carried by S Gonggong – S Orcus RA; Orcus on H Gonggong: RA 180 opposition
+- J Regulus – J Gonggong RA carried by S Gonggong – S Orcus RA; Orcus on H Gonggong: RA 180 opposition
+- lights on Gonggong: S Sun – S Gonggong Dec 33.351533 33.3333 ninth (72.7); S Sun – S Gonggong RA 98.984200 99 whole (21); S Moon → J Gonggong RA 133.439393 133.333 ninth (60.23); S Sun → J Gonggong RA 105.192199 65×φ golden (38.3)
+
+### 14 Havana White — Gonggong (also: 04 Invincible Annice, 07 Mademoiselle, 08 Maw Lam, 13 Storm Call, 15 Perfect Part)
+- J Regulus – J Gonggong RA 179.193934 10φ⁶ phi power (7.57)
+- S Gonggong – S Orcus RA 179.596036 10φ⁶ phi power (43.04)
+- S Orcus → H Gonggong RA 179.417635 10φ⁶ phi power (90.68)
+- J Regulus – J Gonggong RA carried by S Gonggong – S Orcus RA; Orcus on H Gonggong: RA 10φ⁶ phi power
+- lights on Gonggong: S Sun – S Gonggong Dec 33.351533 33.3333 ninth (72.7); S Sun – S Gonggong RA 98.984200 99 whole (21); S Sun → H Gonggong RA 99.970529 100 ninth (85.26); S Moon → J Gonggong Dec 44.014376 44 whole (28.12)
+
+### 15 Perfect Part — Gonggong (also: 04 Invincible Annice, 07 Mademoiselle, 08 Maw Lam, 13 Storm Call, 14 Havana White)
+- J Regulus – J Gonggong RA 179.603064 111×φ golden (96.01)
+- S Gonggong – S Orcus RA 179.596036 111×φ golden (82.29)
+- S Orcus → H Gonggong RA 179.808736 180 opposition (74.5)
+- S Gonggong – S Orcus RA 179.596036 180 opposition (46.14)
+- S Gonggong – S Orcus RA 179.596036 10φ⁶ phi power (43.04)
+- J Regulus – J Gonggong RA carried by S Gonggong – S Orcus RA; Orcus on H Gonggong: RA 180 opposition
+- J Regulus – J Gonggong RA carried by S Gonggong – S Orcus RA; Orcus on H Gonggong: RA 180 opposition
+- J Regulus – J Gonggong RA carried by S Gonggong – S Orcus RA; Orcus on H Gonggong: RA 180 opposition
+- lights on Gonggong: S Sun – S Gonggong Dec 33.351533 33.3333 ninth (72.7); S Sun – S Gonggong RA 98.984200 99 whole (21); S Moon → H Gonggong RA 127.826622 79×φ golden (94.02); S Sun → H Gonggong Dec 33.948919 21×φ golden (8.04); S Moon → J Gonggong RA 133.384246 133.333 ninth (80.91)
+
+### 15 Perfect Part — Orcus (also: 04 Invincible Annice, 07 Mademoiselle, 08 Maw Lam, 13 Storm Call, 14 Havana White)
+- J Antares – J Orcus Dec 27.502643 17×φ golden (87.86)
+- S Haumea – S Orcus Dec 27.531667 17×φ golden (22.56)
+- S Haumea → H Orcus RA 61.985324 62 whole (26.62)
+- J Antares – J Orcus Dec carried by S Haumea – S Orcus Dec; Haumea on H Orcus: RA 62 whole
 

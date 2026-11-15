@@ -1,4 +1,4 @@
-# 20240118_chelmsford_aw_1320 — body-by-body rules BB1-BB54
+# 20240118_chelmsford_aw_1320 — body-by-body rules BB1-BB55
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -59,6 +59,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB52 | 0 | 0 | - |  |
 | BB53 | 2 | 1 | 08 Duveen |  |
 | BB54 | 1 | 1 | 02 Sullivan Bay |  |
+| BB55 | 5 | 4 | 02 Sullivan Bay, 03 Good Time Ahead, 05 Reset Button, 06 Foinix |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -856,15 +857,57 @@ Origin: Looser version L2 of BB52 (Eddie, 15 Nov 2026: 'build this ... maybe the
 - S Gonggong – S Transpluto Dec 13×φ golden: H Antares – H Transpluto Dec and, on Gonggong, J Aldebaran – J Gonggong Dec both 23×φ
 - lights on Transpluto: S Sun – S Transpluto RA 144.014804 89×φ golden (69.82); S Sun – S Transpluto Dec 30.772319 19×φ golden (8.42); S Sun → J Transpluto RA 155.330219 96×φ golden (96.78)
 
-## BB54 — 
+## BB54 — A scoring royal natal line whose same-body or crossed ratio is on 10
 
-Rule: 
+Rule: A royal natal line c R – c X scores (conj / contraparallel not counted; any chart, royal star and plane) and its same-body ratio (larger / smaller against S X → c X in the same plane) or its crossed ratio (against S X → c X in the other plane) is on 10 ('10 1/10 cut', ±0.5 %, any score). The royal line's digits repeat a decade apart in the same-body line.
 
-Origin: 
+Origin: York 16:15 15 May 2024, 13 Diligent Resdev, Rahu (H Aldebaran – H Rahu Dec 6.493563 4×φ, crossed against S Rahu → H Rahu RA 64.936805 = 10.000181) (Eddie, 15 Nov 2026: 'T10 build'). Also held by Ishvara Jupiter (H Fomalhaut – H Jupiter RA ninth 144.444, crossed 9.95748), Perfect Part Uranus (H Regulus – H Uranus RA ninth 111.111, same-body 10.025899) and Secret Satire Rahu (H Aldebaran – H Rahu RA 1×φ, crossed 10.017866). In-sample over the 5 winner races: 17 picks, 4 won, 1.5 by chance; controls at chance (ratio on 10 without the royal line scoring 43 / 5 / 4.2; on 11-20 40 / 4 / 3.9; on 5-9 25 / 2 / 2.4).
 
 ### 02 Sullivan Bay — Uranus (only)
 - H Antares – H Uranus RA 144.555544 144.444 ninth (61.54)
 - S Uranus → H Uranus RA 14.508467 (no family)
 - H Antares – H Uranus RA 144.555544 / S Uranus → H Uranus RA 14.508467: same-body ratio 9.963530 on 10 (27.06)
 - lights on Uranus: S Sun → H Uranus RA 92.239252 57×φ golden (65.08); S Moon → H Uranus RA 1.336337 conj conj (10.91)
+
+## BB55 — 
+
+Rule: 
+
+Origin: 
+
+### 02 Sullivan Bay — Uranus (also: 03 Good Time Ahead, 05 Reset Button, 06 Foinix)
+- H Antares – H Uranus Dec 38.850870 24×φ golden (44.28)
+- S Uranus – S Ceres Dec 38.864782 24×φ golden (1.34)
+- S Ceres → J Uranus Dec 4.240069 φ³ phi power (37.03)
+- H Antares – H Uranus Dec carried by S Uranus – S Ceres Dec; Ceres on J Uranus: Dec φ³ phi power
+- lights on Uranus: S Sun → H Uranus RA 92.239252 57×φ golden (65.08); S Moon → H Uranus RA 1.336337 conj conj (10.91)
+
+### 02 Sullivan Bay — Orcus (also: 03 Good Time Ahead, 05 Reset Button, 06 Foinix)
+- H Aldebaran – H Orcus Dec 27.534222 17×φ golden (14.68)
+- S Haumea – S Orcus Dec 27.486646 17×φ golden (38.48)
+- S Haumea → J Orcus RA 99.872435 100 ninth (36.22)
+- S Haumea → J Orcus Dec 5.013610 5 whole (31.95)
+- H Aldebaran – H Orcus Dec carried by S Haumea – S Orcus Dec; Haumea on J Orcus: RA 100 ninth; Dec 5 whole
+- lights on Orcus: S Moon – S Orcus Dec 25.857728 16×φ golden (4.89); S Moon → J Orcus RA 88.838182 88.8889 ninth (71.48); S Sun → J Orcus RA 179.741097 180 opposition (65.48)
+
+### 03 Good Time Ahead — Pallas (also: 02 Sullivan Bay, 05 Reset Button, 06 Foinix)
+- H Aldebaran – H Pallas RA 77.880034 77.7778 ninth (34.26)
+- S Pallas – S Orcus RA 77.625629 77.7778 ninth (2.19)
+- S Orcus → J Pallas Dec 5.992125 6 whole (60.62)
+- H Aldebaran – H Pallas RA carried by S Pallas – S Orcus RA; Orcus on J Pallas: Dec 6 whole
+- lights on Pallas: S Moon – S Pallas RA 153.990157 154 whole (50.79); S Sun – S Pallas RA 63.087241 39×φ golden (50.36); S Sun → J Pallas RA 177.646193 177.778 ninth (62.99); S Sun → J Pallas Dec 1.556906 1.55556 ninth (56.61)
+
+### 05 Reset Button — Juno (also: 02 Sullivan Bay, 03 Good Time Ahead, 06 Foinix)
+- H Aldebaran – H Juno Dec 22.666427 14×φ golden (56.94)
+- S Juno – S Makemake Dec 22.650705 14×φ golden (94.53)
+- S Makemake → J Juno RA 177.003002 177 whole (84.99)
+- H Aldebaran – H Juno Dec carried by S Juno – S Makemake Dec; Makemake on J Juno: RA 177 whole
+- lights on Juno: S Moon – S Juno Dec 14.149573 14.14 sqrt2 (64.94); S Moon → H Juno Dec 18.924064 18.8889 ninth (6.89); S Sun → H Juno RA 37.980020 38 whole (0.1); S Moon → J Juno Dec 9.995821 10 ninth (79.11)
+
+### 06 Foinix — Mercury (also: 02 Sullivan Bay, 03 Good Time Ahead, 05 Reset Button)
+- J Fomalhaut – J Mercury RA 144.319871 144.444 ninth (56.88)
+- S Mercury – S Sedna RA 144.327686 144.444 ninth (59.58)
+- S Sedna → H Mercury Dec 29.062715 φ⁷ phi power (35.08)
+- J Fomalhaut – J Mercury RA carried by S Mercury – S Sedna RA; Sedna on H Mercury: Dec φ⁷ phi power
+- lights on Mercury: S Sun → H Mercury Dec 0.130686 conj conj (56.44); S Moon → J Mercury Dec 19.384251 12×φ golden (0.75)
 

@@ -943,7 +943,7 @@ an end on natal X) Diligent Resdev and Nirodha only; T10 (a scoring royal line w
 on 10 without the royal line scoring 43 / 5 (4.2), on 11-20 40 / 4 (3.9), on 5-9 25 / 2 (2.4). Note: Perfect Part Uranus - Regulus /
 Uranus - Uranus was the origin of the same-body ratio column itself.
 
-## Diligent Resdev Pallas (15 Nov 2026, Eddie's lines; not built)
+## Diligent Resdev Pallas (15 Nov 2026, Eddie's lines; P3o built as BB55, broad; P2 not built)
 S Antares – S Pallas RA 0.316217 conj (78.92) makes the Antares – Pallas same-body unisons geometry: H RA unison in all 15 runners, J RA in
 14 (not Elmonjed); the extra H Dec unison 1.007001 only Diligent Resdev and Misemerald (born close in time). H Aldebaran – H Pallas Dec
 16.990885 17 (54.4) carried by S Pallas – S Sedna Dec 16.998976 17 (94.9); S Sedna → J Pallas Dec 22.655851 14×φ (89.6) and RA 40.982065 41.

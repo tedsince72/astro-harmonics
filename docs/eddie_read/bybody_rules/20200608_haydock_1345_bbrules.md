@@ -1,4 +1,4 @@
-# 20200608_haydock_1345 — body-by-body rules BB1-BB54
+# 20200608_haydock_1345 — body-by-body rules BB1-BB55
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -59,6 +59,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB52 | 0 | 0 | - |  |
 | BB53 | 2 | 1 | 03 Never In Paris |  |
 | BB54 | 4 | 4 | 02 Ventura Flame, 03 Never In Paris, 06 Birkenhead, 07 Ishvara |  |
+| BB55 | 7 | 6 | 01 Magical Max, 02 Ventura Flame, 04 Royal Context, 06 Birkenhead, 07 Ishvara, 11 Mews House |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1269,11 +1270,11 @@ Origin: Looser version L2 of BB52 (Eddie, 15 Nov 2026: 'build this ... maybe the
 - S Vesta – S Chiron RA 85 whole: J Regulus – J Chiron Dec and, on Vesta, J Antares – J Vesta RA both 20
 - lights on Chiron: S Sun → H Chiron RA 84.120297 52×φ golden (46.08)
 
-## BB54 — 
+## BB54 — A scoring royal natal line whose same-body or crossed ratio is on 10
 
-Rule: 
+Rule: A royal natal line c R – c X scores (conj / contraparallel not counted; any chart, royal star and plane) and its same-body ratio (larger / smaller against S X → c X in the same plane) or its crossed ratio (against S X → c X in the other plane) is on 10 ('10 1/10 cut', ±0.5 %, any score). The royal line's digits repeat a decade apart in the same-body line.
 
-Origin: 
+Origin: York 16:15 15 May 2024, 13 Diligent Resdev, Rahu (H Aldebaran – H Rahu Dec 6.493563 4×φ, crossed against S Rahu → H Rahu RA 64.936805 = 10.000181) (Eddie, 15 Nov 2026: 'T10 build'). Also held by Ishvara Jupiter (H Fomalhaut – H Jupiter RA ninth 144.444, crossed 9.95748), Perfect Part Uranus (H Regulus – H Uranus RA ninth 111.111, same-body 10.025899) and Secret Satire Rahu (H Aldebaran – H Rahu RA 1×φ, crossed 10.017866). In-sample over the 5 winner races: 17 picks, 4 won, 1.5 by chance; controls at chance (ratio on 10 without the royal line scoring 43 / 5 / 4.2; on 11-20 40 / 4 / 3.9; on 5-9 25 / 2 / 2.4).
 
 ### 02 Ventura Flame — Neptune (also: 03 Never In Paris, 06 Birkenhead, 07 Ishvara)
 - J Regulus – J Neptune RA 149.985242 150 whole (26.21)
@@ -1298,4 +1299,59 @@ Origin:
 - S Jupiter → H Jupiter Dec 14.529406 (no family)
 - H Fomalhaut – H Jupiter RA 144.676267 / S Jupiter → H Jupiter Dec 14.529406: crossed ratio 9.957480 on 10 (14.96)
 - lights on Jupiter: S Sun → H Jupiter RA 122.885610 φ¹⁰ phi power (42.4)
+
+## BB55 — 
+
+Rule: 
+
+Origin: 
+
+### 01 Magical Max — Jupiter (also: 02 Ventura Flame, 04 Royal Context, 06 Birkenhead, 07 Ishvara, 11 Mews House)
+- J Aldebaran – J Jupiter Dec 39.004155 39 whole (79.23)
+- S Jupiter – S Gonggong RA 39.006864 39 whole (65.68)
+- S Gonggong → H Jupiter Dec 6.440133 4×φ golden (1.23)
+- J Aldebaran – J Jupiter Dec carried by S Jupiter – S Gonggong RA; Gonggong on H Jupiter: Dec 4×φ golden
+- lights on Jupiter: S Sun → H Jupiter RA 119.006418 119 whole (67.91); S Moon → J Jupiter Dec 1.611377 1×φ golden (79.45); S Sun → J Jupiter RA 179.791136 180 opposition (72.15)
+
+### 02 Ventura Flame — Vesta (also: 01 Magical Max, 04 Royal Context, 06 Birkenhead, 07 Ishvara, 11 Mews House)
+- H Aldebaran – H Vesta Dec 8.876735 8.88889 ninth (31.63)
+- S Uranus – S Vesta Dec 8.873150 8.88889 ninth (11.47)
+- S Uranus → J Vesta Dec 18.865328 18.8889 ninth (37.63)
+- H Aldebaran – H Vesta Dec carried by S Uranus – S Vesta Dec; Uranus on J Vesta: Dec 18.8889 ninth
+- lights on Vesta: S Sun – S Vesta Dec 0.052556 conj conj (82.48); S Moon – S Vesta Dec 46.936470 29×φ golden (58.38); S Moon – S Vesta RA 156.969749 97×φ golden (36.88); S Sun → H Vesta RA 42.310873 10φ³ phi power (21.61)
+
+### 04 Royal Context — Gonggong (also: 01 Magical Max, 02 Ventura Flame, 06 Birkenhead, 07 Ishvara, 11 Mews House)
+- J Antares – J Gonggong Dec 4.144256 4.14 silver (65.87)
+- S Mars – S Gonggong Dec 4.139623 4.14 silver (59.56)
+- S Mars → H Gonggong Dec 5.016508 5 whole (17.46)
+- J Antares – J Gonggong Dec carried by S Mars – S Gonggong Dec; Mars on H Gonggong: Dec 5 whole
+- lights on Gonggong: S Moon – S Gonggong RA 42.100536 26×φ golden (2.31); S Sun – S Gonggong RA 99.801411 100 ninth (0.71)
+
+### 04 Royal Context — Makemake (also: 01 Magical Max, 02 Ventura Flame, 06 Birkenhead, 07 Ishvara, 11 Mews House)
+- H Regulus – H Makemake RA 42.362766 10φ³ phi power (96.72)
+- S Makemake – S Transpluto RA 42.377378 10φ³ phi power (73.72)
+- S Transpluto → J Makemake Dec 27.492765 17×φ golden (57.37)
+- H Regulus – H Makemake RA carried by S Makemake – S Transpluto RA; Transpluto on J Makemake: Dec 17×φ golden
+- lights on Makemake: S Moon – S Makemake Dec 48.003335 48 whole (83.33); S Moon – S Makemake Dec contraparallel 0.205660 cp contraparallel (31.45); S Sun – S Makemake Dec 1.014309 1 whole (28.46)
+
+### 06 Birkenhead — Jupiter (also: 01 Magical Max, 02 Ventura Flame, 04 Royal Context, 07 Ishvara, 11 Mews House)
+- H Fomalhaut – H Jupiter RA 144.579041 144.444 ninth (53.41)
+- S Jupiter – S Transpluto RA 144.385642 144.444 ninth (79.65)
+- S Transpluto → J Jupiter Dec 16.682790 16.6667 ninth (51.63)
+- H Fomalhaut – H Jupiter RA carried by S Jupiter – S Transpluto RA; Transpluto on J Jupiter: Dec 16.6667 ninth
+- lights on Jupiter: S Sun → H Jupiter RA 122.982813 φ¹⁰ phi power (95.09)
+
+### 07 Ishvara — Pallas (also: 01 Magical Max, 02 Ventura Flame, 04 Royal Context, 06 Birkenhead, 11 Mews House)
+- J Regulus – J Pallas Dec 4.856540 3×φ golden (92.48)
+- S Pallas – S Haumea Dec 4.867863 3×φ golden (57.53)
+- S Haumea → H Pallas RA 141.468734 141.4 sqrt2 (77.67)
+- J Regulus – J Pallas Dec carried by S Pallas – S Haumea Dec; Haumea on H Pallas: RA 141.4 sqrt2
+- lights on Pallas: S Sun – S Pallas RA 144.328310 144.444 ninth (59.8); S Sun → J Pallas RA 72.798721 45×φ golden (60.47)
+
+### 11 Mews House — Saturn (also: 01 Magical Max, 02 Ventura Flame, 04 Royal Context, 06 Birkenhead, 07 Ishvara)
+- H Regulus – H Saturn RA 114.876054 71×φ golden (86.55)
+- S Saturn – S Sedna RA 114.855859 71×φ golden (24.22)
+- S Sedna → J Saturn RA 66.565557 66.6667 ninth (24.17)
+- H Regulus – H Saturn RA carried by S Saturn – S Sedna RA; Sedna on J Saturn: RA 66.6667 ninth
+- lights on Saturn: S Sun – S Saturn RA 133.542772 133.333 ninth (21.46); S Moon – S Saturn Dec 4.018954 4 whole (5.23); S Sun → H Saturn RA 169.876811 105×φ golden (48.28)
 

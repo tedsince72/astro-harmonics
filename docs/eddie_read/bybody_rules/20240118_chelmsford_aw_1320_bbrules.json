@@ -1094,6 +1094,109 @@
     "additive": [],
     "watch_only": false
    }
+  ],
+  "BB55": [
+   {
+    "runner": "02 Sullivan Bay",
+    "body": "Uranus",
+    "cells": [
+     "H Antares – H Uranus Dec 38.850870 24×φ golden (44.28)",
+     "S Uranus – S Ceres Dec 38.864782 24×φ golden (1.34)",
+     "S Ceres → J Uranus Dec 4.240069 φ³ phi power (37.03)"
+    ],
+    "notes": [
+     "H Antares – H Uranus Dec carried by S Uranus – S Ceres Dec; Ceres on J Uranus: Dec φ³ phi power"
+    ],
+    "lights": [
+     "S Sun → H Uranus RA 92.239252 57×φ golden (65.08)",
+     "S Moon → H Uranus RA 1.336337 conj conj (10.91)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "02 Sullivan Bay",
+    "body": "Orcus",
+    "cells": [
+     "H Aldebaran – H Orcus Dec 27.534222 17×φ golden (14.68)",
+     "S Haumea – S Orcus Dec 27.486646 17×φ golden (38.48)",
+     "S Haumea → J Orcus RA 99.872435 100 ninth (36.22)",
+     "S Haumea → J Orcus Dec 5.013610 5 whole (31.95)"
+    ],
+    "notes": [
+     "H Aldebaran – H Orcus Dec carried by S Haumea – S Orcus Dec; Haumea on J Orcus: RA 100 ninth; Dec 5 whole"
+    ],
+    "lights": [
+     "S Moon – S Orcus Dec 25.857728 16×φ golden (4.89)",
+     "S Moon → J Orcus RA 88.838182 88.8889 ninth (71.48)",
+     "S Sun → J Orcus RA 179.741097 180 opposition (65.48)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "03 Good Time Ahead",
+    "body": "Pallas",
+    "cells": [
+     "H Aldebaran – H Pallas RA 77.880034 77.7778 ninth (34.26)",
+     "S Pallas – S Orcus RA 77.625629 77.7778 ninth (2.19)",
+     "S Orcus → J Pallas Dec 5.992125 6 whole (60.62)"
+    ],
+    "notes": [
+     "H Aldebaran – H Pallas RA carried by S Pallas – S Orcus RA; Orcus on J Pallas: Dec 6 whole"
+    ],
+    "lights": [
+     "S Moon – S Pallas RA 153.990157 154 whole (50.79)",
+     "S Sun – S Pallas RA 63.087241 39×φ golden (50.36)",
+     "S Sun → J Pallas RA 177.646193 177.778 ninth (62.99)",
+     "S Sun → J Pallas Dec 1.556906 1.55556 ninth (56.61)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "05 Reset Button",
+    "body": "Juno",
+    "cells": [
+     "H Aldebaran – H Juno Dec 22.666427 14×φ golden (56.94)",
+     "S Juno – S Makemake Dec 22.650705 14×φ golden (94.53)",
+     "S Makemake → J Juno RA 177.003002 177 whole (84.99)"
+    ],
+    "notes": [
+     "H Aldebaran – H Juno Dec carried by S Juno – S Makemake Dec; Makemake on J Juno: RA 177 whole"
+    ],
+    "lights": [
+     "S Moon – S Juno Dec 14.149573 14.14 sqrt2 (64.94)",
+     "S Moon → H Juno Dec 18.924064 18.8889 ninth (6.89)",
+     "S Sun → H Juno RA 37.980020 38 whole (0.1)",
+     "S Moon → J Juno Dec 9.995821 10 ninth (79.11)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "06 Foinix",
+    "body": "Mercury",
+    "cells": [
+     "J Fomalhaut – J Mercury RA 144.319871 144.444 ninth (56.88)",
+     "S Mercury – S Sedna RA 144.327686 144.444 ninth (59.58)",
+     "S Sedna → H Mercury Dec 29.062715 φ⁷ phi power (35.08)"
+    ],
+    "notes": [
+     "J Fomalhaut – J Mercury RA carried by S Mercury – S Sedna RA; Sedna on H Mercury: Dec φ⁷ phi power"
+    ],
+    "lights": [
+     "S Sun → H Mercury Dec 0.130686 conj conj (56.44)",
+     "S Moon → J Mercury Dec 19.384251 12×φ golden (0.75)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
   ]
  }
 }
