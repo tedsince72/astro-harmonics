@@ -627,3 +627,12 @@ J Rahu Dec 25 (76.72). No same-body line on a target; no earlier rule held it. F
 line with a scoring crossed ratio in both planes, same chart) 1 / 3 / 3 holders; A + a cut: Shimmering Dawn Gonggong, Royal Context Pluto,
 Perfect Part Rahu (all three: star line no family, crossed in both planes); two bodies on sky X and natal X: 85 / 163 / 203 (too common),
 both natal >= 90: 6 / 5 / 16; A + that: Perfect Part only. Not built.
+
+## BB38 — Beverley 14:05 8 Jun 2024, 15 Perfect Part, Juno (15 Nov 2026, built)
+Lines: S Fomalhaut – S Juno RA 179.909301 opposition (87.91); H Fomalhaut – H Juno RA 17.971680 (no family) crossed vs S Juno → H Juno
+Dec 15.403372 = 1.166737 7/6 (96); H Fomalhaut – H Juno Dec 23.999599 24 (97.99); J Fomalhaut – J Juno Dec 29.288712 (no family) crossed
+vs S Juno → J Juno RA 175.750953 = 6.000638 6 (96.81); S Regulus – S Juno RA ninth (46.12); Moon lights. No earlier rule held it.
+Field check (three races): royal star on sky X with a scoring crossed ratio in both charts 4 / 2 / 3; both >= 50: Havana White Sedna,
+Perfect Part Juno (not built, noted); both >= 80 (built): Perfect Part only; WATCH notes opposition / conj, sky line >= 80, natal star line
+>= 90, another royal on sky X. Independent checker (15 Nov): 0 mismatches (15,936 crossed cells recomputed); outside the three races
+Catterick 14:40 2022 04 Thakuri Mars and Chelmsford AW 13:20 2024 08 Duveen Jupiter also hold it.

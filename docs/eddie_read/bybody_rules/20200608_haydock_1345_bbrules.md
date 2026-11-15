@@ -1,4 +1,4 @@
-# 20200608_haydock_1345 — body-by-body rules BB1-BB37
+# 20200608_haydock_1345 — body-by-body rules BB1-BB38
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -42,6 +42,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB35 | 2 | 2 | 04 Royal Context, 07 Ishvara |  |
 | BB36 | 0 | 0 | - |  |
 | BB37 | 1 | 1 | 07 Ishvara |  |
+| BB38 | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1018,4 +1019,12 @@ Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Pluto (also holds: Haydock 1
 - S Eris on natal J Vesta (S Eris → J Vesta Dec 0.010058 conj conj (96.65)): the pair S Vesta – S Eris repeats S Vesta → J Vesta (may be geometry)
 - Sun on sky Vesta: S Sun – S Vesta Dec 0.052556 conj conj (82.48)
 - lights on Vesta: S Sun – S Vesta Dec 0.052556 conj conj (82.48); S Moon – S Vesta Dec 46.936470 29×φ golden (58.38); S Moon – S Vesta RA 156.969749 97×φ golden (36.88); S Moon → H Vesta RA 177.621190 177.778 ninth (55.96); S Moon → J Vesta Dec 22.684496 14×φ golden (1.17)
+
+## BB38 — royal star on sky X, crossed same-body ratio >= 80 in both charts
+
+Rule: A royal star R scores on sky X (S R – S X, any plane), and its natal line on X has a crossed same-body ratio (against S X → natal X in the other plane) scoring >= 80 in the horse chart (H R – H X) and in the jockey chart (J R – J X); the star lines need not score; any interval (BB5 needs cuts). WATCH, noted not required: R opposition / conj sky X; the sky line scoring >= 80; a natal star line scoring >= 90; another royal star on sky X.
+
+Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Juno
+
+No runner holds it.
 

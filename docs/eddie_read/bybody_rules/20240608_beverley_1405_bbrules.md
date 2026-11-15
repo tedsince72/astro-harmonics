@@ -1,4 +1,4 @@
-# 20240608_beverley_1405 — body-by-body rules BB1-BB37
+# 20240608_beverley_1405 — body-by-body rules BB1-BB38
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -42,6 +42,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB35 | 2 | 2 | 04 Invincible Annice, 15 Perfect Part |  |
 | BB36 | 2 | 1 | 15 Perfect Part |  |
 | BB37 | 1 | 1 | 15 Perfect Part |  |
+| BB38 | 1 | 1 | 15 Perfect Part |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1399,4 +1400,23 @@ Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Pluto (also holds: Haydock 1
 - WATCH another body conj / contraparallel sky Pluto: S Venus – S Pluto Dec contraparallel 0.183798 cp contraparallel (38.73)
 - WATCH the pair scores >= 80 (88.6)
 - lights on Pluto: S Sun – S Pluto Dec contraparallel 0.003798 cp contraparallel (98.73); S Sun → H Pluto Dec 45.279623 28×φ golden (21.83)
+
+## BB38 — royal star on sky X, crossed same-body ratio >= 80 in both charts
+
+Rule: A royal star R scores on sky X (S R – S X, any plane), and its natal line on X has a crossed same-body ratio (against S X → natal X in the other plane) scoring >= 80 in the horse chart (H R – H X) and in the jockey chart (J R – J X); the star lines need not score; any interval (BB5 needs cuts). WATCH, noted not required: R opposition / conj sky X; the sky line scoring >= 80; a natal star line scoring >= 90; another royal star on sky X.
+
+Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Juno
+
+### 15 Perfect Part — Juno (only)
+- S Fomalhaut – S Juno RA 179.909301 180 opposition (87.91)
+- H Fomalhaut – H Juno RA 17.971680 (no family)
+- J Fomalhaut – J Juno Dec 29.288712 (no family)
+- H Fomalhaut – H Juno Dec 23.999599 24 whole (97.99)
+- H Fomalhaut – H Juno RA: crossed ratio vs S Juno → H Juno Dec 15.403372 = 1.166737 7/6 septimal minor third (96)
+- J Fomalhaut – J Juno Dec: crossed ratio vs S Juno → J Juno RA 175.750953 = 6.000638 6 6th harmonic (96.81)
+- WATCH Fomalhaut opposition / conj sky Juno
+- WATCH the sky line S Fomalhaut – S Juno scores >= 80
+- WATCH a natal star line scores >= 90: H Fomalhaut – H Juno Dec 23.999599 24 whole (97.99)
+- WATCH another royal star on sky Juno: S Regulus – S Juno RA 12.235393 12.2222 ninth (46.12)
+- lights on Juno: S Moon → H Juno Dec 33.006240 33 whole (68.8); S Moon → J Juno RA 116.507511 72×φ golden (72.03)
 
