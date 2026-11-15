@@ -32,7 +32,7 @@ for i in ids:
         c = '–' if not h else f"{len(h)}/{N}{' **W**' if won else ''}"
         if o: c += ' (o)'
         cells.append(c)
-        if won and len(h) == 1: alone.append(' '.join(n.split(' ')[:2]) if n.startswith('York') else n.split(' ')[0] + (' (o)' if o else ''))
+        if won and len(h) == 1: alone.append((' '.join(n.split(' ')[:2]) if n.startswith('York') else n.split(' ')[0]) + (' (o)' if o else ''))
         if k > origin(i) and k < 5 and h: P += len(h); Wn += won; C += len(h) / N
     tot[0] += P; tot[1] += Wn; tot[2] += C
     out.append(f"| {i} | {body[i]} | " + ' | '.join(cells) + f" | {P} | {Wn} | {C:.1f} | {', '.join(alone) or '–'} |")
