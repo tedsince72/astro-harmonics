@@ -573,3 +573,12 @@ the whole field (geometry: a star on sky X makes star – natal X = sky X -> nat
 S Y – S R, R conj / cp sky X, Y on natal X 0 / 0 / 1 = BB33 (Eddie chose it); looser (R scores on sky X, any family) 1 / 1 / 1 (Indie Angel
 Mars, Dancin Inthestreet Gonggong, Perfect Part), close to BB21, not added. BB13 already held on the same body (Perfect Part, Maw Lam).
 Independent checker: holders and every cell confirmed; the contraparallel half of the rule not exercised in these races.
+
+## BB34 (Eddie, 15 Nov 2026) - Beverley 14:05 8 Jun 2024, 15 Perfect Part, Mars
+Eddie's lines: J Fomalhaut – J Mars RA 48.5611 30×φ = S Rahu – S Sedna RA 48.5550; J Fomalhaut – J Mars Dec 42.4116 10φ³ = S Moon – S Quaoar
+Dec 42.3563 and S Ceres – S Haumea Dec 42.3181; S Rahu – S Mars RA 15.5598 ninth / Dec 4.9850 whole 5; S Sedna – S Mars RA 32.9952 whole 33 /
+Dec 1.4163 √2; S Rahu → J Mars RA 20.9973 whole 21; S Sedna → H Mars Dec 22.2380 ninth; S Quaoar → H Mars Dec 1.4433; S Moon → J Mars Dec 14.5917.
+Versions (runners, Lingfield / Haydock / Beverley): v1 both pair ends on sky X in RA and Dec + both on natal X (any chart) 0 / 0 / 1 = BB34;
+v2 both planes only 0 / 0 / 5 (four on Venus via the S Sun – S Pluto contraparallel); v3 any plane + natal 1 / 1 / 5; v4 v1 + star line paired in
+the other plane 0 / 0 / 1 (kept as the WATCH note). Note: S Mars – S Sedna Dec 1.4163 also pairs Perfect Part's S Mercury → J Mercury Dec (BB33).
+Independent checker: holders and every cell confirmed.

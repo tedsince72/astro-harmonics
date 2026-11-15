@@ -1,4 +1,4 @@
-# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB33
+# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB34
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -38,6 +38,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB32 | 2 | 2 | 01 Arafi, 05 Pholas |  |
 | BB32b | 0 | 0 | - |  |
 | BB33 | 0 | 0 | - |  |
+| BB34 | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -612,6 +613,14 @@ No runner holds it.
 Rule: A scoring same-body line S X → c X is matched by a sky pair S Y – S R holding a royal star R that is in conjunction or contraparallel with sky X (S R – S X); the other end Y (not the Moon, not a royal star) reaches natal X in either chart (S Y → H X or S Y → J X). WATCH, noted not required: same-body unisons on R's natal lines (likely automatic: R sits on sky X); the other chart's same-body line also paired (BB13 shape).
 
 Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Mercury
+
+No runner holds it.
+
+## BB34 — royal-star line paired; both pair ends on sky X in RA and Dec and on natal X
+
+Rule: A scoring natal royal-star line c R – c X is matched by a sky pair S A – S B (A, B not X, no Moon); A and B each score on sky X in both planes (S A – S X RA and Dec, S B – S X RA and Dec), and each reaches natal X in either chart (S A → H X or J X; S B → H X or J X). WATCH, noted not required: the same royal-star line also paired in the other plane (Moon pairs marked).
+
+Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Mars
 
 No runner holds it.
 

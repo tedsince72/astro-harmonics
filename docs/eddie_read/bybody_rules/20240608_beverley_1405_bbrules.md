@@ -1,4 +1,4 @@
-# 20240608_beverley_1405 — body-by-body rules BB1-BB33
+# 20240608_beverley_1405 — body-by-body rules BB1-BB34
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -38,6 +38,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB32 | 2 | 2 | 04 Invincible Annice, 15 Perfect Part |  |
 | BB32b | 1 | 1 | 15 Perfect Part |  |
 | BB33 | 1 | 1 | 15 Perfect Part |  |
+| BB34 | 1 | 1 | 15 Perfect Part |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1259,4 +1260,26 @@ Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Mercury
 - WATCH likely automatic (Aldebaran conj sky Mercury): same-body unisons H RA 1.0049, J RA 1.0136
 - WATCH other chart same-body line also paired: S Mercury → J Mercury Dec by S Mars – S Sedna Dec
 - lights on Mercury: S Moon → H Mercury Dec 14.460340 14.4444 ninth (44.98)
+
+## BB34 — royal-star line paired; both pair ends on sky X in RA and Dec and on natal X
+
+Rule: A scoring natal royal-star line c R – c X is matched by a sky pair S A – S B (A, B not X, no Moon); A and B each score on sky X in both planes (S A – S X RA and Dec, S B – S X RA and Dec), and each reaches natal X in either chart (S A → H X or J X; S B → H X or J X). WATCH, noted not required: the same royal-star line also paired in the other plane (Moon pairs marked).
+
+Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Mars
+
+### 15 Perfect Part — Mars (only)
+- J Fomalhaut – J Mars RA 48.561123 30×φ golden (37.95)
+- S Rahu – S Sedna RA 48.555037 30×φ golden (56.74)
+- S Rahu – S Mars RA 15.559809 15.5556 ninth (86.33)
+- S Rahu – S Mars Dec 4.985042 5 whole (25.21)
+- S Sedna – S Mars RA 32.995228 33 whole (76.14)
+- S Sedna – S Mars Dec 1.416256 1.414 sqrt2 (3.72)
+- S Rahu → J Mars RA 20.997272 21 whole (86.36)
+- S Sedna → H Mars Dec 22.238022 22.2222 ninth (64.45)
+- J Fomalhaut – J Mars Dec 42.411626 10φ³ phi power (19.82)
+- S Moon – S Quaoar Dec 42.356256 10φ³ phi power (93.04)
+- S Ceres – S Haumea Dec 42.318074 10φ³ phi power (32.95)
+- S Rahu and S Sedna each on sky Mars in RA and Dec, and each on natal Mars
+- WATCH J Fomalhaut – J Mars also paired in the other plane: S Moon – S Quaoar Dec (Moon); S Ceres – S Haumea Dec
+- lights on Mars: S Moon → J Mars Dec 14.591671 9×φ golden (9.37)
 

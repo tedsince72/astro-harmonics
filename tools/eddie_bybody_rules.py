@@ -820,13 +820,36 @@ def bb33(b):
     return out
 
 
+def bb34(b):
+    out = []
+    planes = lambda e: {o['plane'].split()[0] for o in b.sky_y(e)}
+    for c, R, a in b.star_rows(scoring=True):
+        for s, P, Q in b.pairs_on(a):
+            if b.X in (P, Q) or 'Moon' in (P, Q):
+                continue
+            if not all(planes(e) >= {'RA', 'Dec'} for e in (P, Q)):
+                continue
+            nat = {e: b.to_natal(e, 'H') + b.to_natal(e, 'J') for e in (P, Q)}
+            if not all(nat.values()):
+                continue
+            notes = [f'S {P} and S {Q} each on sky {b.X} in RA and Dec, and each on natal {b.X}']
+            other = [(a2, s2) for a2 in b.lines(f'{c} {R} – {c} {b.X}', scoring=True) if a2['plane'] != a['plane']
+                     for s2 in b.same_on(a2)]
+            if other:
+                notes.append(f"WATCH {a['line']} also paired in the other plane: " + '; '.join(
+                    f"{s2['line']} {s2['plane']}" + (' (Moon)' if 'Moon' in s2['line'] else '') for _, s2 in other))
+            cells = [a, s] + b.sky_y(P) + b.sky_y(Q) + nat[P] + nat[Q] + [x for a2, s2 in other for x in (a2, s2)]
+            out.append({'key': (c, R, a['plane'], frozenset((P, Q))), 'cells': cells, 'notes': notes})
+    return out
+
+
 RULES = [('BB1', bb1, 'Mercury'), ('BB2', bb2, 'Mars'), ('BB3', bb3, 'Jupiter'), ('BB4', bb4, 'Saturn'),
          ('BB5', bb5, 'Uranus'), ('BB6', bb6, 'Uranus'), ('BB7', bb7, 'Neptune'), ('BB8', bb8, 'Rahu'),
          ('BB9', bb9, 'Rahu'), ('BB10', bb10, 'Ketu'), ('BB11', bb11, 'Ceres'), ('BB12', bb12, 'Pallas'),
          ('BB13', bb13, 'Juno'), ('BB14', bb14, 'Vesta'), ('BB15', bb15, 'Chiron'), ('BB16', bb16, 'Eris'),
          ('BB17', bb17, 'Makemake'), ('BB18', bb18, 'Venus'), ('BB19', bb19, 'Venus'), ('BB20', bb20, 'Jupiter'),
          ('BB21', bb21, 'Saturn'), ('BB22', bb22, 'Saturn'), ('BB23', bb23, 'Neptune'), ('BB24', bb24, 'Rahu'), ('BB25', bb25, 'Ketu'), ('BB26', bb26, 'Ceres'), ('BB27', bb27, 'Pallas'), ('BB28', bb28, 'Juno'), ('BB29', bb29, 'Vesta'), ('BB30', bb30, 'Eris'), ('BB31', bb31, 'Gonggong'),
-         ('BB32', bb32, 'Sun'), ('BB32b', bb32b, 'Sun'), ('BB33', bb33, 'Mercury')]
+         ('BB32', bb32, 'Sun'), ('BB32b', bb32b, 'Sun'), ('BB33', bb33, 'Mercury'), ('BB34', bb34, 'Mars')]
 
 
 def decade_pairs(cells):
