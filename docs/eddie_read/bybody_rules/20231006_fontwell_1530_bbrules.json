@@ -1295,6 +1295,102 @@
     "additive": [],
     "watch_only": false
    }
+  ],
+  "BB63": [
+   {
+    "runner": "03 Kilcummin",
+    "body": "Uranus",
+    "cells": [
+     "J Regulus – J Uranus Dec 33.354156 33.3333 ninth (68.77)",
+     "S Uranus – S Quaoar Dec 33.318289 33.3333 ninth (77.43)",
+     "S Quaoar → J Uranus RA 22.187459 22.2222 ninth (21.78)"
+    ],
+    "notes": [
+     "J Regulus – J Uranus Dec carried by S Uranus – S Quaoar Dec; Quaoar on J Uranus (RA 22.2222 ninth)"
+    ],
+    "lights": [
+     "S Sun → H Uranus Dec 16.998514 17 whole (92.57)",
+     "S Sun → J Uranus RA 106.997944 107 whole (89.72)",
+     "S Moon → J Uranus Dec 48.531173 30×φ golden (69.61)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "03 Kilcummin",
+    "body": "Vesta",
+    "cells": [
+     "H Fomalhaut – H Vesta Dec 42.312807 10φ³ phi power (24.66)",
+     "S Pluto – S Vesta Dec 42.349683 10φ³ phi power (82.69)",
+     "S Pluto → H Vesta Dec 36.015376 36 whole (23.12)"
+    ],
+    "notes": [
+     "H Fomalhaut – H Vesta Dec carried by S Pluto – S Vesta Dec; Pluto on H Vesta (Dec 36 whole)"
+    ],
+    "lights": [
+     "S Moon → H Vesta Dec 14.458830 14.4444 ninth (50.2)",
+     "S Sun → J Vesta RA 17.963837 φ⁶ phi power (27.31)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "03 Kilcummin",
+    "body": "Chiron",
+    "cells": [
+     "H Aldebaran – H Chiron Dec 12.935343 8×φ golden (72.44)",
+     "S Chiron – S Makemake Dec 12.921360 8×φ golden (29.28)",
+     "S Makemake → H Chiron RA 161.790408 100φ phi power (94.65)"
+    ],
+    "notes": [
+     "H Aldebaran – H Chiron Dec carried by S Chiron – S Makemake Dec; Makemake on H Chiron (RA 100φ phi power)"
+    ],
+    "lights": [
+     "S Sun – S Chiron Dec 13.340420 13.3333 ninth (73.42)",
+     "S Moon → J Chiron RA 78.000579 78 whole (97.1)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "04 Logistical",
+    "body": "Eris",
+    "cells": [
+     "J Antares – J Eris Dec 18.911196 18.8889 ninth (40.95)",
+     "S Uranus – S Eris Dec 18.856716 18.8889 ninth (14.84)",
+     "S Uranus → J Eris RA 26.191135 10φ² phi power (72.51)"
+    ],
+    "notes": [
+     "J Antares – J Eris Dec carried by S Uranus – S Eris Dec; Uranus on J Eris (RA 10φ² phi power)"
+    ],
+    "lights": [
+     "S Moon – S Eris Dec 28.007861 28 whole (60.7)",
+     "S Sun – S Eris RA 164.988856 165 whole (44.28)",
+     "S Moon → H Eris Dec 29.028563 φ⁷ phi power (86.5)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "05 Makanao",
+    "body": "Sun",
+    "cells": [
+     "J Fomalhaut – J Sun Dec 46.995496 47 whole (77.48)",
+     "S Sun – S Juno RA 46.968543 φ⁸ phi power (85.57)",
+     "S Juno → J Sun Dec 11.121801 11.1111 ninth (51.89)"
+    ],
+    "notes": [
+     "J Fomalhaut – J Sun Dec carried by S Sun – S Juno RA; Juno on J Sun (Dec 11.1111 ninth)"
+    ],
+    "lights": [],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
   ]
  }
 }

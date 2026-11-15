@@ -1,4 +1,4 @@
-# 20210802_newcastle_aw_1633 — body-by-body rules BB1-BB62
+# 20210802_newcastle_aw_1633 — body-by-body rules BB1-BB63
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -67,6 +67,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB60 | 2 | 2 | 01 Dubai Souq, 03 Raise The Roof |  |
 | BB61 | 0 | 0 | - |  |
 | BB62 | 1 | 1 | 05 Pallas Dancer |  |
+| BB63 | 7 | 4 | 01 Dubai Souq, 02 Athmad, 03 Raise The Roof, 06 Tricolore |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1185,4 +1186,58 @@ Origin: Fontwell 15:30 6 Oct 2023, 3 Kilcummin (50/1), jockey David Noonan: 10 b
 - S Orcus → J Orcus RA 19.446138 12×φ golden (8.24)
 - S Sedna → J Sedna RA 14.005110 14 whole (74.45)
 - J chart: 12 bodies with a scoring same-body line (Mercury, Jupiter, Uranus, Pluto, Nodes, Juno, Vesta, Chiron, Eris, Haumea, Orcus, Sedna)
+
+## BB63 — Royal line carried by S X – S Y with Y on natal X in the same chart (broad)
+
+Rule: A royal natal line c R – c X scores in a family (conj / contraparallel not counted) and is carried by a sky line naming X itself, S X – S Y, on the same target ('Sky lines on the same target'; Y not a royal star, not the Moon; the sky line not conj / contraparallel); Y lands on natal X in the same chart (S Y → c X in a family, conj / contraparallel not counted; any plane). Any plane, any score. BB59 without the royal star on sky X.
+
+Origin: Newcastle AW 16:33 2 Aug 2021, 2 Athmad, Makemake (H Regulus – H Makemake RA 42.3642 10φ³ (94.5) carried by S Mars – S Makemake RA 42.3978 10φ³ (41.5); S Mars → H Makemake RA 39.9914 40 (57.1)) (Eddie, 15 Nov 2026: 'c1 build please'). Broad: over the 8 result races 24 picks, 6 won, 2.9 by chance (in-sample; every winner but Ishvara and Perfect Part holds it). C2-C5 (both planes, each carried by a pair whose end is on natal X) noted, one origin winner.
+
+### 01 Dubai Souq — Gonggong (also: 02 Athmad, 03 Raise The Roof, 06 Tricolore)
+- H Aldebaran – H Gonggong Dec 29.071780 φ⁷ phi power (14.27)
+- S Sun – S Gonggong Dec 29.009313 φ⁷ phi power (42.3)
+- S Sun → H Gonggong RA 156.989554 157 whole (47.77)
+- H Aldebaran – H Gonggong Dec carried by S Sun – S Gonggong Dec; Sun on H Gonggong (RA 157 whole)
+- lights on Gonggong: S Sun – S Gonggong Dec 29.009313 29 whole (53.44); S Sun – S Gonggong RA 155.767745 155.556 ninth (31.8); S Sun → H Gonggong RA 156.989554 157 whole (47.77); S Moon → J Gonggong RA 89.005903 89 whole (70.48)
+
+### 02 Athmad — Gonggong (also: 01 Dubai Souq, 03 Raise The Roof, 06 Tricolore)
+- J Regulus – J Gonggong RA 178.112820 177.778 ninth (5.77)
+- S Mars – S Gonggong RA 177.533099 177.778 ninth (31.18)
+- S Mars → J Gonggong Dec 30.718286 19×φ golden (24.82)
+- J Regulus – J Gonggong RA carried by S Mars – S Gonggong RA; Mars on J Gonggong (Dec 19×φ golden)
+- lights on Gonggong: S Sun – S Gonggong Dec 29.009313 29 whole (53.44); S Sun – S Gonggong RA 155.767745 155.556 ninth (31.8); S Moon → H Gonggong Dec 32.385039 20×φ golden (24.82)
+
+### 02 Athmad — Makemake (also: 01 Dubai Souq, 03 Raise The Roof, 06 Tricolore)
+- H Regulus – H Makemake RA 42.364200 10φ³ phi power (94.46)
+- S Mars – S Makemake RA 42.397844 10φ³ phi power (41.51)
+- S Mars → H Makemake RA 39.991421 40 whole (57.11)
+- H Regulus – H Makemake RA carried by S Mars – S Makemake RA; Mars on H Makemake (RA 40 whole)
+- lights on Makemake: S Sun → H Makemake RA 61.756775 100φ^-1 phi power (49.71); S Sun → J Makemake RA 41.464214 41.4 silver (31.02)
+
+### 03 Raise The Roof — Uranus (also: 01 Dubai Souq, 02 Athmad, 06 Tricolore)
+- J Fomalhaut – J Uranus Dec 5.981341 6 whole (6.7)
+- S Uranus – S Rahu Dec 5.981372 6 whole (6.86)
+- S Rahu → J Uranus RA 159.005929 159 whole (70.35)
+- J Fomalhaut – J Uranus Dec carried by S Uranus – S Rahu Dec; Rahu on J Uranus (RA 159 whole)
+
+### 06 Tricolore — Saturn (also: 01 Dubai Souq, 02 Athmad, 03 Raise The Roof)
+- H Antares – H Saturn RA 29.104841 18×φ golden (38.98)
+- S Saturn – S Transpluto Dec 29.156500 18×φ golden (1.58)
+- S Transpluto → H Saturn RA 122.106494 122.222 ninth (52.66)
+- H Antares – H Saturn RA carried by S Saturn – S Transpluto Dec; Transpluto on H Saturn (RA 122.222 ninth)
+- lights on Saturn: S Sun – S Saturn RA 179.816643 180 opposition (75.55); S Moon – S Saturn Dec 38.015888 38 whole (20.56); S Moon → H Saturn RA 144.171177 144.444 ninth (5.41)
+
+### 06 Tricolore — Gonggong (also: 01 Dubai Souq, 02 Athmad, 03 Raise The Roof)
+- J Regulus – J Gonggong RA 177.894858 177.778 ninth (67.07)
+- S Mars – S Gonggong RA 177.533099 177.778 ninth (31.18)
+- S Mars → J Gonggong Dec 30.734733 19×φ golden (75.58)
+- J Regulus – J Gonggong RA carried by S Mars – S Gonggong RA; Mars on J Gonggong (Dec 19×φ golden)
+- lights on Gonggong: S Sun – S Gonggong Dec 29.009313 29 whole (53.44); S Sun – S Gonggong RA 155.767745 155.556 ninth (31.8); S Sun → H Gonggong Dec 29.995097 30 whole (75.49); S Moon → J Gonggong RA 90.640195 56×φ golden (6.51)
+
+### 06 Tricolore — Transpluto (also: 01 Dubai Souq, 02 Athmad, 03 Raise The Roof)
+- J Aldebaran – J Transpluto Dec 3.017295 3 whole (13.53)
+- S Venus – S Transpluto Dec 3.019358 3 whole (3.21)
+- S Venus → J Transpluto RA 18.994744 19 whole (73.72)
+- J Aldebaran – J Transpluto Dec carried by S Venus – S Transpluto Dec; Venus on J Transpluto (RA 19 whole)
+- lights on Transpluto: S Moon → J Transpluto Dec 5.994213 6 whole (71.07); S Moon → J Transpluto RA 85.773093 53×φ golden (46.63)
 

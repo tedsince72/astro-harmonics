@@ -78,6 +78,7 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB60': {('05 Pholas', 'Pallas')},
     'BB61': set(),
     'BB62': {('05 Pholas', 'J chart')},
+    'BB63': {('05 Pholas', 'Pallas')},
     'BB55': {('01 Arafi', 'Gonggong'), ('01 Arafi', 'Venus'), ('04 Nirodha', 'Saturn'), ('05 Pholas', 'Pallas')},
     'BB53': {('06 Shimmering Dawn', 'Sun'), ('06 Shimmering Dawn', 'Jupiter'), ('06 Shimmering Dawn', 'Pallas')},
 }
@@ -570,5 +571,17 @@ check({(c['runner'], c['body']) for c in hres['BB62']} == {('11 Mews House', 'J 
 check({(c['runner'], c['body']) for c in y16['BB62']} == {('13 Diligent Resdev', 'H chart')}, 'BB62 York 16:15 holders')
 for nm, rr in (('Beverley', bres), ('York', yres), ('Catterick', cres)):
     check(rr['BB62'] == [], f'BB62 {nm}: no holder')
+NC = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', '20210802_newcastle_aw_1633', '20210802_newcastle_aw_1633_bybody.xlsx')
+if os.path.exists(NC):
+    nc = R.run(NC)[2]
+    check({c['runner'] for c in nc['BB63']} == {'01 Dubai Souq', '02 Athmad', '03 Raise The Roof', '06 Tricolore'}, 'BB63 Newcastle holders')
+    k = [x for c in nc['BB63'] if c['runner'] == '02 Athmad' and c['body'] == 'Makemake' for x in c['cells']]
+    for w in ('H Regulus – H Makemake RA 42.364', 'S Mars – S Makemake RA 42.397', 'S Mars → H Makemake RA 39.991'):
+        check(any(x.startswith(w) for x in k), f'BB63 Athmad cell {w}')
+for nm, rr, want in (('Haydock', hres, {'01 Magical Max', '04 Royal Context', '06 Birkenhead'}), ('Beverley', bres, {'02 Brazilian Belle'}),
+                     ('York 15:45', yres, {'06 Secret Satire'}), ('Catterick', cres, {'02 Beluga Gold', '03 Capuchinero', '05 Wotever Next'})):
+    check({c['runner'] for c in rr['BB63']} == want, f'BB63 {nm} holders')
+if os.path.exists(FW):
+    check({c['runner'] for c in fw['BB63']} == {'03 Kilcummin', '04 Logistical', '05 Makanao'}, 'BB63 Fontwell holders')
 print(f'{ok}/{ok + bad} checks passed')
 sys.exit(1 if bad else 0)

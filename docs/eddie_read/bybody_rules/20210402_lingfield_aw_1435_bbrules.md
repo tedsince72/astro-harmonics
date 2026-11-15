@@ -1,4 +1,4 @@
-# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB62
+# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB63
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -67,6 +67,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB60 | 1 | 1 | 05 Pholas |  |
 | BB61 | 0 | 0 | - |  |
 | BB62 | 1 | 1 | 05 Pholas |  |
+| BB63 | 1 | 1 | 05 Pholas |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1010,4 +1011,20 @@ Origin: Fontwell 15:30 6 Oct 2023, 3 Kilcummin (50/1), jockey David Noonan: 10 b
 - S Quaoar → J Quaoar Dec 0.995469 1 whole (77.35)
 - S Sedna → J Sedna Dec 3.262975 2×φ golden (16.95)
 - J chart: 11 bodies with a scoring same-body line (Mars, Jupiter, Saturn, Neptune, Ceres, Juno, Chiron, Eris, Orcus, Quaoar, Sedna)
+
+## BB63 — Royal line carried by S X – S Y with Y on natal X in the same chart (broad)
+
+Rule: A royal natal line c R – c X scores in a family (conj / contraparallel not counted) and is carried by a sky line naming X itself, S X – S Y, on the same target ('Sky lines on the same target'; Y not a royal star, not the Moon; the sky line not conj / contraparallel); Y lands on natal X in the same chart (S Y → c X in a family, conj / contraparallel not counted; any plane). Any plane, any score. BB59 without the royal star on sky X.
+
+Origin: Newcastle AW 16:33 2 Aug 2021, 2 Athmad, Makemake (H Regulus – H Makemake RA 42.3642 10φ³ (94.5) carried by S Mars – S Makemake RA 42.3978 10φ³ (41.5); S Mars → H Makemake RA 39.9914 40 (57.1)) (Eddie, 15 Nov 2026: 'c1 build please'). Broad: over the 8 result races 24 picks, 6 won, 2.9 by chance (in-sample; every winner but Ishvara and Perfect Part holds it). C2-C5 (both planes, each carried by a pair whose end is on natal X) noted, one origin winner.
+
+### 05 Pholas — Pallas (only)
+- H Regulus – H Pallas RA 179.763890 180 opposition (68.52)
+- S Pallas – S Transpluto RA 179.560795 180 opposition (41.44)
+- S Transpluto → H Pallas RA 177.767175 177.778 ninth (97.02)
+- S Pallas – S Orcus RA 179.398319 180 opposition (19.78)
+- S Orcus → H Pallas Dec 4.865518 3×φ golden (64.77)
+- H Regulus – H Pallas RA carried by S Pallas – S Transpluto RA; Transpluto on H Pallas (RA 177.778 ninth)
+- H Regulus – H Pallas RA carried by S Pallas – S Orcus RA; Orcus on H Pallas (Dec 3×φ golden)
+- lights on Pallas: S Moon – S Pallas Dec 27.992984 28 whole (64.92); S Sun – S Pallas RA 37.184267 23×φ golden (5.82)
 

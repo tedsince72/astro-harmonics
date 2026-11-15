@@ -1,4 +1,4 @@
-# 20220406_catterick_1440 — body-by-body rules BB1-BB62
+# 20220406_catterick_1440 — body-by-body rules BB1-BB63
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -67,6 +67,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB60 | 1 | 1 | 05 Wotever Next |  |
 | BB61 | 0 | 0 | - |  |
 | BB62 | 0 | 0 | - |  |
+| BB63 | 3 | 3 | 02 Beluga Gold, 03 Capuchinero, 05 Wotever Next |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -976,4 +977,29 @@ Rule: In one chart c (horse or jockey), 10 or more bodies X have a same-body lin
 Origin: Fontwell 15:30 6 Oct 2023, 3 Kilcummin (50/1), jockey David Noonan: 10 bodies (Mars Dec 5×φ 95.7, Jupiter RA 152, Saturn Dec 6.66667, Uranus RA 111.111 97.3, Neptune RA 100φ^-1 96.4, Pluto Dec 10×φ, Nodes RA 177.778, Chiron RA 103×φ 98.7, Haumea Dec φ⁴, Transpluto RA 9) (Eddie, 15 Nov 2026: 'yes, it is interesting'). Holders over the 7 result races: Pholas J 11 (won), Mews House J 10, Diligent Resdev H 10 (won), Kilcummin J 10 (won), Logistical J 10 (3rd): 5 picks, 3 won, 0.6 by chance. Threshold chosen in-sample; a count (counts have not separated winners before); slow-planet same-body lines may follow the jockey's age.
 
 No runner holds it.
+
+## BB63 — Royal line carried by S X – S Y with Y on natal X in the same chart (broad)
+
+Rule: A royal natal line c R – c X scores in a family (conj / contraparallel not counted) and is carried by a sky line naming X itself, S X – S Y, on the same target ('Sky lines on the same target'; Y not a royal star, not the Moon; the sky line not conj / contraparallel); Y lands on natal X in the same chart (S Y → c X in a family, conj / contraparallel not counted; any plane). Any plane, any score. BB59 without the royal star on sky X.
+
+Origin: Newcastle AW 16:33 2 Aug 2021, 2 Athmad, Makemake (H Regulus – H Makemake RA 42.3642 10φ³ (94.5) carried by S Mars – S Makemake RA 42.3978 10φ³ (41.5); S Mars → H Makemake RA 39.9914 40 (57.1)) (Eddie, 15 Nov 2026: 'c1 build please'). Broad: over the 8 result races 24 picks, 6 won, 2.9 by chance (in-sample; every winner but Ishvara and Perfect Part holds it). C2-C5 (both planes, each carried by a pair whose end is on natal X) noted, one origin winner.
+
+### 02 Beluga Gold — Gonggong (also: 03 Capuchinero, 05 Wotever Next)
+- H Fomalhaut – H Gonggong Dec 17.749401 17.7778 ninth (20.19)
+- S Chiron – S Gonggong Dec 17.747921 17.7778 ninth (16.03)
+- S Chiron → H Gonggong RA 34.008722 34 whole (56.39)
+- H Fomalhaut – H Gonggong Dec carried by S Chiron – S Gonggong Dec; Chiron on H Gonggong (RA 34 whole)
+
+### 03 Capuchinero — Ceres (also: 02 Beluga Gold, 05 Wotever Next)
+- J Regulus – J Ceres Dec 35.572881 22×φ golden (26.34)
+- S Venus – S Ceres Dec 35.623984 22×φ golden (15.94)
+- S Venus → J Ceres RA 25.904011 16×φ golden (52.26)
+- J Regulus – J Ceres Dec carried by S Venus – S Ceres Dec; Venus on J Ceres (RA 16×φ golden)
+- lights on Ceres: S Moon – S Ceres Dec 0.295891 conj conj (1.37); S Sun → H Ceres RA 127.000067 127 whole (99.66)
+
+### 05 Wotever Next — Gonggong (also: 02 Beluga Gold, 03 Capuchinero)
+- H Fomalhaut – H Gonggong Dec 17.767704 17.7778 ninth (71.67)
+- S Chiron – S Gonggong Dec 17.747921 17.7778 ninth (16.03)
+- S Chiron → H Gonggong RA 33.963575 21×φ golden (53.28)
+- H Fomalhaut – H Gonggong Dec carried by S Chiron – S Gonggong Dec; Chiron on H Gonggong (RA 21×φ golden)
 

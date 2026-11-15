@@ -1,4 +1,4 @@
-# 20240118_chelmsford_aw_1320 — body-by-body rules BB1-BB62
+# 20240118_chelmsford_aw_1320 — body-by-body rules BB1-BB63
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -67,6 +67,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB60 | 0 | 0 | - |  |
 | BB61 | 0 | 0 | - |  |
 | BB62 | 0 | 0 | - |  |
+| BB63 | 2 | 2 | 02 Sullivan Bay, 06 Foinix |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -973,4 +974,23 @@ Rule: In one chart c (horse or jockey), 10 or more bodies X have a same-body lin
 Origin: Fontwell 15:30 6 Oct 2023, 3 Kilcummin (50/1), jockey David Noonan: 10 bodies (Mars Dec 5×φ 95.7, Jupiter RA 152, Saturn Dec 6.66667, Uranus RA 111.111 97.3, Neptune RA 100φ^-1 96.4, Pluto Dec 10×φ, Nodes RA 177.778, Chiron RA 103×φ 98.7, Haumea Dec φ⁴, Transpluto RA 9) (Eddie, 15 Nov 2026: 'yes, it is interesting'). Holders over the 7 result races: Pholas J 11 (won), Mews House J 10, Diligent Resdev H 10 (won), Kilcummin J 10 (won), Logistical J 10 (3rd): 5 picks, 3 won, 0.6 by chance. Threshold chosen in-sample; a count (counts have not separated winners before); slow-planet same-body lines may follow the jockey's age.
 
 No runner holds it.
+
+## BB63 — Royal line carried by S X – S Y with Y on natal X in the same chart (broad)
+
+Rule: A royal natal line c R – c X scores in a family (conj / contraparallel not counted) and is carried by a sky line naming X itself, S X – S Y, on the same target ('Sky lines on the same target'; Y not a royal star, not the Moon; the sky line not conj / contraparallel); Y lands on natal X in the same chart (S Y → c X in a family, conj / contraparallel not counted; any plane). Any plane, any score. BB59 without the royal star on sky X.
+
+Origin: Newcastle AW 16:33 2 Aug 2021, 2 Athmad, Makemake (H Regulus – H Makemake RA 42.3642 10φ³ (94.5) carried by S Mars – S Makemake RA 42.3978 10φ³ (41.5); S Mars → H Makemake RA 39.9914 40 (57.1)) (Eddie, 15 Nov 2026: 'c1 build please'). Broad: over the 8 result races 24 picks, 6 won, 2.9 by chance (in-sample; every winner but Ishvara and Perfect Part holds it). C2-C5 (both planes, each carried by a pair whose end is on natal X) noted, one origin winner.
+
+### 02 Sullivan Bay — Orcus (also: 06 Foinix)
+- H Aldebaran – H Orcus Dec 27.534222 17×φ golden (14.68)
+- S Haumea – S Orcus Dec 27.486646 17×φ golden (38.48)
+- S Haumea → H Orcus RA 64.733733 40×φ golden (61.81)
+- H Aldebaran – H Orcus Dec carried by S Haumea – S Orcus Dec; Haumea on H Orcus (RA 40×φ golden)
+- lights on Orcus: S Moon – S Orcus Dec 25.857728 16×φ golden (4.89); S Moon → J Orcus RA 88.838182 88.8889 ninth (71.48); S Sun → J Orcus RA 179.741097 180 opposition (65.48)
+
+### 06 Foinix — Mars (also: 02 Sullivan Bay)
+- J Antares – J Mars Dec 44.487228 44.4444 ninth (51.87)
+- S Mars – S Pallas RA 44.465673 44.4444 ninth (76.12)
+- S Pallas → J Mars Dec 15.559375 15.5556 ninth (87.72)
+- J Antares – J Mars Dec carried by S Mars – S Pallas RA; Pallas on J Mars (Dec 15.5556 ninth)
 

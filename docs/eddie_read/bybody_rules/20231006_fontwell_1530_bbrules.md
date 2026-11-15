@@ -1,4 +1,4 @@
-# 20231006_fontwell_1530 — body-by-body rules BB1-BB62
+# 20231006_fontwell_1530 — body-by-body rules BB1-BB63
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -67,6 +67,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB60 | 0 | 0 | - |  |
 | BB61 | 1 | 1 | 03 Kilcummin |  |
 | BB62 | 2 | 2 | 03 Kilcummin, 04 Logistical |  |
+| BB63 | 5 | 3 | 03 Kilcummin, 04 Logistical, 05 Makanao |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1021,4 +1022,44 @@ Origin: Fontwell 15:30 6 Oct 2023, 3 Kilcummin (50/1), jockey David Noonan: 10 b
 - S Quaoar → J Quaoar Dec 0.995352 1 whole (76.76)
 - J chart: 10 bodies with a scoring same-body line (Sun, Venus, Jupiter, Saturn, Juno, Chiron, Eris, Makemake, Orcus, Quaoar)
 - lights on J chart: S Moon → H Sun RA 137.004606 137 whole (76.97)
+
+## BB63 — Royal line carried by S X – S Y with Y on natal X in the same chart (broad)
+
+Rule: A royal natal line c R – c X scores in a family (conj / contraparallel not counted) and is carried by a sky line naming X itself, S X – S Y, on the same target ('Sky lines on the same target'; Y not a royal star, not the Moon; the sky line not conj / contraparallel); Y lands on natal X in the same chart (S Y → c X in a family, conj / contraparallel not counted; any plane). Any plane, any score. BB59 without the royal star on sky X.
+
+Origin: Newcastle AW 16:33 2 Aug 2021, 2 Athmad, Makemake (H Regulus – H Makemake RA 42.3642 10φ³ (94.5) carried by S Mars – S Makemake RA 42.3978 10φ³ (41.5); S Mars → H Makemake RA 39.9914 40 (57.1)) (Eddie, 15 Nov 2026: 'c1 build please'). Broad: over the 8 result races 24 picks, 6 won, 2.9 by chance (in-sample; every winner but Ishvara and Perfect Part holds it). C2-C5 (both planes, each carried by a pair whose end is on natal X) noted, one origin winner.
+
+### 03 Kilcummin — Uranus (also: 04 Logistical, 05 Makanao)
+- J Regulus – J Uranus Dec 33.354156 33.3333 ninth (68.77)
+- S Uranus – S Quaoar Dec 33.318289 33.3333 ninth (77.43)
+- S Quaoar → J Uranus RA 22.187459 22.2222 ninth (21.78)
+- J Regulus – J Uranus Dec carried by S Uranus – S Quaoar Dec; Quaoar on J Uranus (RA 22.2222 ninth)
+- lights on Uranus: S Sun → H Uranus Dec 16.998514 17 whole (92.57); S Sun → J Uranus RA 106.997944 107 whole (89.72); S Moon → J Uranus Dec 48.531173 30×φ golden (69.61)
+
+### 03 Kilcummin — Vesta (also: 04 Logistical, 05 Makanao)
+- H Fomalhaut – H Vesta Dec 42.312807 10φ³ phi power (24.66)
+- S Pluto – S Vesta Dec 42.349683 10φ³ phi power (82.69)
+- S Pluto → H Vesta Dec 36.015376 36 whole (23.12)
+- H Fomalhaut – H Vesta Dec carried by S Pluto – S Vesta Dec; Pluto on H Vesta (Dec 36 whole)
+- lights on Vesta: S Moon → H Vesta Dec 14.458830 14.4444 ninth (50.2); S Sun → J Vesta RA 17.963837 φ⁶ phi power (27.31)
+
+### 03 Kilcummin — Chiron (also: 04 Logistical, 05 Makanao)
+- H Aldebaran – H Chiron Dec 12.935343 8×φ golden (72.44)
+- S Chiron – S Makemake Dec 12.921360 8×φ golden (29.28)
+- S Makemake → H Chiron RA 161.790408 100φ phi power (94.65)
+- H Aldebaran – H Chiron Dec carried by S Chiron – S Makemake Dec; Makemake on H Chiron (RA 100φ phi power)
+- lights on Chiron: S Sun – S Chiron Dec 13.340420 13.3333 ninth (73.42); S Moon → J Chiron RA 78.000579 78 whole (97.1)
+
+### 04 Logistical — Eris (also: 03 Kilcummin, 05 Makanao)
+- J Antares – J Eris Dec 18.911196 18.8889 ninth (40.95)
+- S Uranus – S Eris Dec 18.856716 18.8889 ninth (14.84)
+- S Uranus → J Eris RA 26.191135 10φ² phi power (72.51)
+- J Antares – J Eris Dec carried by S Uranus – S Eris Dec; Uranus on J Eris (RA 10φ² phi power)
+- lights on Eris: S Moon – S Eris Dec 28.007861 28 whole (60.7); S Sun – S Eris RA 164.988856 165 whole (44.28); S Moon → H Eris Dec 29.028563 φ⁷ phi power (86.5)
+
+### 05 Makanao — Sun (also: 03 Kilcummin, 04 Logistical)
+- J Fomalhaut – J Sun Dec 46.995496 47 whole (77.48)
+- S Sun – S Juno RA 46.968543 φ⁸ phi power (85.57)
+- S Juno → J Sun Dec 11.121801 11.1111 ninth (51.89)
+- J Fomalhaut – J Sun Dec carried by S Sun – S Juno RA; Juno on J Sun (Dec 11.1111 ninth)
 

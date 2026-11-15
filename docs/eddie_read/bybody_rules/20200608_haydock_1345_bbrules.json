@@ -2523,6 +2523,66 @@
     "additive": [],
     "watch_only": false
    }
+  ],
+  "BB63": [
+   {
+    "runner": "01 Magical Max",
+    "body": "Jupiter",
+    "cells": [
+     "J Aldebaran – J Jupiter Dec 39.004155 39 whole (79.23)",
+     "S Jupiter – S Gonggong RA 39.006864 39 whole (65.68)",
+     "S Gonggong → J Jupiter Dec 11.001202 11 whole (93.99)"
+    ],
+    "notes": [
+     "J Aldebaran – J Jupiter Dec carried by S Jupiter – S Gonggong RA; Gonggong on J Jupiter (Dec 11 whole)"
+    ],
+    "lights": [
+     "S Sun → H Jupiter RA 119.006418 119 whole (67.91)",
+     "S Moon → J Jupiter Dec 1.611377 1×φ golden (79.45)",
+     "S Sun → J Jupiter RA 179.791136 180 opposition (72.15)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "04 Royal Context",
+    "body": "Vesta",
+    "cells": [
+     "H Fomalhaut – H Vesta Dec 55.590682 55.5556 ninth (68.39)",
+     "S Uranus – S Vesta RA 55.498831 55.5556 ninth (48.95)",
+     "S Uranus → H Vesta Dec 12.008293 12 whole (58.53)"
+    ],
+    "notes": [
+     "H Fomalhaut – H Vesta Dec carried by S Uranus – S Vesta RA; Uranus on H Vesta (Dec 12 whole)"
+    ],
+    "lights": [
+     "S Sun – S Vesta Dec 0.052556 conj conj (82.48)",
+     "S Moon – S Vesta Dec 46.936470 29×φ golden (58.38)",
+     "S Moon – S Vesta RA 156.969749 97×φ golden (36.88)",
+     "S Moon → H Vesta RA 179.490585 10φ⁶ phi power (82.22)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "06 Birkenhead",
+    "body": "Mars",
+    "cells": [
+     "H Fomalhaut – H Mars RA 46.990330 φ⁸ phi power (83.52)",
+     "S Mars – S Uranus RA 47.022203 φ⁸ phi power (38.29)",
+     "S Uranus → H Mars RA 5.016787 5 whole (16.07)",
+     "S Uranus → H Mars Dec 1.017714 1 whole (11.43)"
+    ],
+    "notes": [
+     "H Fomalhaut – H Mars RA carried by S Mars – S Uranus RA; Uranus on H Mars (RA 5 whole; Dec 1 whole)"
+    ],
+    "lights": [],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
   ]
  }
 }

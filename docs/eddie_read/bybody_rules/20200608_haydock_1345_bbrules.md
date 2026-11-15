@@ -1,4 +1,4 @@
-# 20200608_haydock_1345 — body-by-body rules BB1-BB62
+# 20200608_haydock_1345 — body-by-body rules BB1-BB63
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -67,6 +67,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB60 | 0 | 0 | - |  |
 | BB61 | 0 | 0 | - |  |
 | BB62 | 1 | 1 | 11 Mews House |  |
+| BB63 | 3 | 3 | 01 Magical Max, 04 Royal Context, 06 Birkenhead |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1486,4 +1487,31 @@ Origin: Fontwell 15:30 6 Oct 2023, 3 Kilcummin (50/1), jockey David Noonan: 10 b
 - S Sedna → J Sedna Dec 6.007779 6 whole (61.1)
 - J chart: 10 bodies with a scoring same-body line (Sun, Jupiter, Uranus, Nodes, Ceres, Juno, Vesta, Makemake, Orcus, Sedna)
 - lights on J chart: S Moon – S Sun Dec 46.989026 φ⁸ phi power (85.37); S Moon → H Sun Dec 38.009084 38 whole (54.58); S Moon → H Sun RA 99.885778 100 ninth (42.89)
+
+## BB63 — Royal line carried by S X – S Y with Y on natal X in the same chart (broad)
+
+Rule: A royal natal line c R – c X scores in a family (conj / contraparallel not counted) and is carried by a sky line naming X itself, S X – S Y, on the same target ('Sky lines on the same target'; Y not a royal star, not the Moon; the sky line not conj / contraparallel); Y lands on natal X in the same chart (S Y → c X in a family, conj / contraparallel not counted; any plane). Any plane, any score. BB59 without the royal star on sky X.
+
+Origin: Newcastle AW 16:33 2 Aug 2021, 2 Athmad, Makemake (H Regulus – H Makemake RA 42.3642 10φ³ (94.5) carried by S Mars – S Makemake RA 42.3978 10φ³ (41.5); S Mars → H Makemake RA 39.9914 40 (57.1)) (Eddie, 15 Nov 2026: 'c1 build please'). Broad: over the 8 result races 24 picks, 6 won, 2.9 by chance (in-sample; every winner but Ishvara and Perfect Part holds it). C2-C5 (both planes, each carried by a pair whose end is on natal X) noted, one origin winner.
+
+### 01 Magical Max — Jupiter (also: 04 Royal Context, 06 Birkenhead)
+- J Aldebaran – J Jupiter Dec 39.004155 39 whole (79.23)
+- S Jupiter – S Gonggong RA 39.006864 39 whole (65.68)
+- S Gonggong → J Jupiter Dec 11.001202 11 whole (93.99)
+- J Aldebaran – J Jupiter Dec carried by S Jupiter – S Gonggong RA; Gonggong on J Jupiter (Dec 11 whole)
+- lights on Jupiter: S Sun → H Jupiter RA 119.006418 119 whole (67.91); S Moon → J Jupiter Dec 1.611377 1×φ golden (79.45); S Sun → J Jupiter RA 179.791136 180 opposition (72.15)
+
+### 04 Royal Context — Vesta (also: 01 Magical Max, 06 Birkenhead)
+- H Fomalhaut – H Vesta Dec 55.590682 55.5556 ninth (68.39)
+- S Uranus – S Vesta RA 55.498831 55.5556 ninth (48.95)
+- S Uranus → H Vesta Dec 12.008293 12 whole (58.53)
+- H Fomalhaut – H Vesta Dec carried by S Uranus – S Vesta RA; Uranus on H Vesta (Dec 12 whole)
+- lights on Vesta: S Sun – S Vesta Dec 0.052556 conj conj (82.48); S Moon – S Vesta Dec 46.936470 29×φ golden (58.38); S Moon – S Vesta RA 156.969749 97×φ golden (36.88); S Moon → H Vesta RA 179.490585 10φ⁶ phi power (82.22)
+
+### 06 Birkenhead — Mars (also: 01 Magical Max, 04 Royal Context)
+- H Fomalhaut – H Mars RA 46.990330 φ⁸ phi power (83.52)
+- S Mars – S Uranus RA 47.022203 φ⁸ phi power (38.29)
+- S Uranus → H Mars RA 5.016787 5 whole (16.07)
+- S Uranus → H Mars Dec 1.017714 1 whole (11.43)
+- H Fomalhaut – H Mars RA carried by S Mars – S Uranus RA; Uranus on H Mars (RA 5 whole; Dec 1 whole)
 

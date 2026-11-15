@@ -1126,3 +1126,13 @@ Song, Mortlake, Diligent Resdev Quaoar only (3 / 1 / 0.3, one origin winner).
   A4 13 / 1 / 1.4, A5 9 / 1 / 1.0 (all at chance); A6 (sky whole and natal whole of the same R – X on an interval, 55 / 25 = 11/5) 1 / 1 / 0.1,
   holders Kilcummin and Chelmsford Foinix only; one origin winner, not built.
 - Independent checker: 0 mismatches.
+
+## Newcastle AW 16:33 2021, Athmad Makemake (15 Nov 2026): BB63 = C1 (built; Eddie: "c1 build please")
+- H Regulus – H Makemake RA 42.3642 10φ³ (94.5) carried by S Mars – S Makemake RA 42.3978 (41.5), S Mars -> H Makemake RA 39.9914 40 (57.1);
+  Dec 13.3363 ninth 13.3333 (88.7) carried by S Venus – S Regulus RA 13.3078 (4.4), S Venus -> H Makemake RA 29.0670 φ⁷ (25.1);
+  S Makemake -> H Makemake Dec 2.4133 silver (74.8); S Haumea – S Makemake Dec 7 (91.6), RA 18 (85.1).
+- Scan tools/scans/bb_fieldcheck_royal_carrier_on_natal.py, 8 result races + Chelmsford: C1 24 / 6 / 2.9 (built as BB63, broad, in-sample;
+  every winner but Ishvara and Perfect Part); C2 5 / 1 / 0.6, C3 3 / 1 / 0.4, C4 9 / 1 / 1.0, C5 3 / 1 / 0.4 (Athmad the only winner; C5 also
+  York Friendly Soul Jupiter, Fire Demon Venus) - noted, not built.
+- Opposition counts as a family in BB63 (as in every BB rule).
+- Independent checkers: 0 mismatches on the scan and on the built rule.
