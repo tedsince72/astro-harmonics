@@ -1,4 +1,4 @@
-# 20200608_haydock_1345 — body-by-body rules BB1-BB32b
+# 20200608_haydock_1345 — body-by-body rules BB1-BB33
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -37,6 +37,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB31 | 2 | 2 | 07 Ishvara, 11 Mews House | 09 Garsman |
 | BB32 | 0 | 0 | - |  |
 | BB32b | 0 | 0 | - |  |
+| BB33 | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -943,6 +944,14 @@ No runner holds it.
 Rule: BB32, and E is also one end of a sky pair S E – S O on a second royal star R2's line on X (any chart, on its family and target), whose other end O (not the Moon) is also in conjunction or contraparallel with sky X. WATCH, noted not required: E on sky X in both planes; the gap; a third royal-star line on X paired by a pair whose both ends are conj / contraparallel X (sky or natal).
 
 Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Sun
+
+No runner holds it.
+
+## BB33 — same-body line paired by a royal star that is in conjunction with sky X; the other end on natal X
+
+Rule: A scoring same-body line S X → c X is matched by a sky pair S Y – S R holding a royal star R that is in conjunction or contraparallel with sky X (S R – S X); the other end Y (not the Moon, not a royal star) reaches natal X in either chart (S Y → H X or S Y → J X). WATCH, noted not required: same-body unisons on R's natal lines (likely automatic: R sits on sky X); the other chart's same-body line also paired (BB13 shape).
+
+Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Mercury
 
 No runner holds it.
 

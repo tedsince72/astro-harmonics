@@ -562,3 +562,14 @@ combination as a sub rule BB32b (the same body also an end of a pair on a second
 Part only in all three races. Independent checker: holders and every cell confirmed. Open points it raised (not changed): Pholas holds
 BB32 on values inside the RA conjunction range (0.987105 / 1.009610, best whole 1); Rahu / Ketu count as E (Arafi: Rahu); R and R2 must be
 different stars (not the same star in the other chart); any score counts (Arafi star line 8.58).
+
+## BB33 (Eddie, 15 Nov 2026) - Beverley 14:05 8 Jun 2024, 15 Perfect Part, Mercury
+Eddie's lines: S Aldebaran – S Mercury RA 0.1884 conj (87.4); H Aldebaran – H Mercury RA 38.8155 24×φ (unison vs S Mercury → H Mercury RA
+1.0049, 75.4); J Aldebaran – J Mercury RA 14.0089 whole 14 (unison 1.0136, 31.9), Dec 3.9968 whole 4; S Mercury → H Mercury Dec 8.9991 whole 9
+= S Venus – S Aldebaran RA 8.9965; S Venus → J Mercury RA 23.0055 whole 23; S Mercury → J Mercury Dec 1.4158 √2 = S Mars – S Sedna Dec 1.4163;
+S Sedna → J Mercury RA 5.5628 ninth.
+Field checks (runners, Lingfield / Haydock / Beverley): (a) royal star conj sky X + same-body unison in H and J same plane 0 / 10 / 11 -
+the whole field (geometry: a star on sky X makes star – natal X = sky X -> natal X), kept as a WATCH note only; (b) same-body line paired by
+S Y – S R, R conj / cp sky X, Y on natal X 0 / 0 / 1 = BB33 (Eddie chose it); looser (R scores on sky X, any family) 1 / 1 / 1 (Indie Angel
+Mars, Dancin Inthestreet Gonggong, Perfect Part), close to BB21, not added. BB13 already held on the same body (Perfect Part, Maw Lam).
+Independent checker: holders and every cell confirmed; the contraparallel half of the rule not exercised in these races.

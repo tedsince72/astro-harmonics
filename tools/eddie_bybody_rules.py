@@ -787,13 +787,46 @@ def bb32b(b):
     return out
 
 
+def bb33(b):
+    out = []
+    conjR = {R: [o for o in b.sky_y(R) if o['fam'] in CJ] for R in ROY}
+    conjR = {R: v for R, v in conjR.items() if v}
+    for c in 'HJ':
+        for sb in b.same_body(c):
+            for s, P, Q in b.pairs_on(sb):
+                for R, Y in ((P, Q), (Q, P)):
+                    if R not in conjR or Y in (b.X, 'Moon', R) or Y in ROY:
+                        continue
+                    yn = b.to_natal(Y, 'H') + b.to_natal(Y, 'J')
+                    if not yn:
+                        continue
+                    notes = [f"S {R} on sky {b.X} ({', '.join(o['plane'] + ' ' + str(round(o['v'], 4)) for o in conjR[R])}); "
+                             f"pair S {Y} – S {R} on {sb['line']} {sb['plane']}; S {Y} on natal {b.X}"]
+                    auto = []
+                    for cc in 'HJ':
+                        for r in b.lines(f'{cc} {R} – {cc} {b.X}'):
+                            if r.get('r') and str(r.get('rt') or '').startswith('1 '):
+                                auto.append(f"{cc} {r['plane']} {r['r']:.4f}")
+                    if auto:
+                        notes.append(f'WATCH likely automatic ({R} conj sky {b.X}): same-body unisons ' + ', '.join(auto))
+                    other = [(c2, sb2, s2) for c2 in 'HJ' if c2 != c for sb2 in b.same_body(c2)
+                             for s2, A2, B2 in b.pairs_on(sb2) if b.X not in (A2, B2)]
+                    if other:
+                        notes.append('WATCH other chart same-body line also paired: ' + '; '.join(
+                            f"{sb2['line']} {sb2['plane']} by {s2['line']} {s2['plane']}" for _, sb2, s2 in other))
+                    out.append({'key': (c, sb['plane'], R, Y, s['plane']),
+                                'cells': [sb, s] + conjR[R] + yn + [x for _, sb2, s2 in other for x in (sb2, s2)],
+                                'notes': notes})
+    return out
+
+
 RULES = [('BB1', bb1, 'Mercury'), ('BB2', bb2, 'Mars'), ('BB3', bb3, 'Jupiter'), ('BB4', bb4, 'Saturn'),
          ('BB5', bb5, 'Uranus'), ('BB6', bb6, 'Uranus'), ('BB7', bb7, 'Neptune'), ('BB8', bb8, 'Rahu'),
          ('BB9', bb9, 'Rahu'), ('BB10', bb10, 'Ketu'), ('BB11', bb11, 'Ceres'), ('BB12', bb12, 'Pallas'),
          ('BB13', bb13, 'Juno'), ('BB14', bb14, 'Vesta'), ('BB15', bb15, 'Chiron'), ('BB16', bb16, 'Eris'),
          ('BB17', bb17, 'Makemake'), ('BB18', bb18, 'Venus'), ('BB19', bb19, 'Venus'), ('BB20', bb20, 'Jupiter'),
          ('BB21', bb21, 'Saturn'), ('BB22', bb22, 'Saturn'), ('BB23', bb23, 'Neptune'), ('BB24', bb24, 'Rahu'), ('BB25', bb25, 'Ketu'), ('BB26', bb26, 'Ceres'), ('BB27', bb27, 'Pallas'), ('BB28', bb28, 'Juno'), ('BB29', bb29, 'Vesta'), ('BB30', bb30, 'Eris'), ('BB31', bb31, 'Gonggong'),
-         ('BB32', bb32, 'Sun'), ('BB32b', bb32b, 'Sun')]
+         ('BB32', bb32, 'Sun'), ('BB32b', bb32b, 'Sun'), ('BB33', bb33, 'Mercury')]
 
 
 def decade_pairs(cells):

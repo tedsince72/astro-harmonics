@@ -1,4 +1,4 @@
-# 20240608_beverley_1405 — body-by-body rules BB1-BB32b
+# 20240608_beverley_1405 — body-by-body rules BB1-BB33
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -37,6 +37,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB31 | 0 | 0 | - |  |
 | BB32 | 2 | 2 | 04 Invincible Annice, 15 Perfect Part |  |
 | BB32b | 1 | 1 | 15 Perfect Part |  |
+| BB33 | 1 | 1 | 15 Perfect Part |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1240,4 +1241,22 @@ Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Sun
 - WATCH: S Venus on sky Sun in both planes
 - WATCH gap |star line - S Venus line| 0.0013
 - WATCH third royal star: J Aldebaran – J Sun Dec paired by S Chiron – S Sedna Dec, both ends conj / contraparallel Sun (S Chiron → H Sun RA 0.454113; S Sedna → H Sun Dec 0.045022)
+
+## BB33 — same-body line paired by a royal star that is in conjunction with sky X; the other end on natal X
+
+Rule: A scoring same-body line S X → c X is matched by a sky pair S Y – S R holding a royal star R that is in conjunction or contraparallel with sky X (S R – S X); the other end Y (not the Moon, not a royal star) reaches natal X in either chart (S Y → H X or S Y → J X). WATCH, noted not required: same-body unisons on R's natal lines (likely automatic: R sits on sky X); the other chart's same-body line also paired (BB13 shape).
+
+Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Mercury
+
+### 15 Perfect Part — Mercury (only)
+- S Mercury → H Mercury Dec 8.999132 9 whole (95.66)
+- S Venus – S Aldebaran RA 8.996523 9 whole (82.61)
+- S Aldebaran – S Mercury RA 0.188415 conj conj (87.44)
+- S Venus → J Mercury RA 23.005515 23 whole (72.43)
+- S Mercury → J Mercury Dec 1.415835 1.414 sqrt2 (23.56)
+- S Mars – S Sedna Dec 1.416256 1.414 sqrt2 (3.72)
+- S Aldebaran on sky Mercury (RA 0.1884); pair S Venus – S Aldebaran on S Mercury → H Mercury Dec; S Venus on natal Mercury
+- WATCH likely automatic (Aldebaran conj sky Mercury): same-body unisons H RA 1.0049, J RA 1.0136
+- WATCH other chart same-body line also paired: S Mercury → J Mercury Dec by S Mars – S Sedna Dec
+- lights on Mercury: S Moon → H Mercury Dec 14.460340 14.4444 ninth (44.98)
 

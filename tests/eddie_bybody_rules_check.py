@@ -50,6 +50,7 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB31': set(),
     'BB32': {('01 Arafi', 'Pluto'), ('05 Pholas', 'Orcus')},
     'BB32b': set(),
+    'BB33': set(),
 }
 CELLS = {  # rule: (runner, body, [cell texts that must be in the case])
     'BB1': ('05 Pholas', 'Mercury', ['J Aldebaran – J Mercury Dec 16.193302 10×φ golden (59.99)',
@@ -175,12 +176,19 @@ if os.path.exists(HAY):
     for w in ('S Gonggong → J Gonggong Dec 9.710147', 'S Saturn – S Orcus Dec', 'S Orcus → J Gonggong RA', 'S Jupiter – S Gonggong Dec',
               'S Jupiter → J Gonggong Dec', 'S Pluto → H Gonggong Dec'):
         check(any(x.startswith(w) for x in ig), f'BB31 Ishvara Gonggong cell {w}')
-    check({(c['runner'], c['body']) for c in hres['BB32']} == set() and not hres['BB32b'], 'BB32 / BB32b Haydock: none')
+    check({(c['runner'], c['body']) for c in hres['BB32']} == set() and not hres['BB32b'] and not hres['BB33'], 'BB32 / BB32b / BB33 Haydock: none')
 BEV = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', '20240608_beverley_1405', '20240608_beverley_1405_bybody.xlsx')
 if os.path.exists(BEV):
     _, _, bres = R.run(BEV)
     check({(c['runner'], c['body']) for c in bres['BB32']} == {('04 Invincible Annice', 'Makemake'), ('15 Perfect Part', 'Sun')},
           'BB32 Beverley holders')
+    check({(c['runner'], c['body']) for c in bres['BB33']} == {('15 Perfect Part', 'Mercury')}, 'BB33 Beverley holders')
+    mc = [x for c in bres['BB33'] for x in c['cells']]
+    mn = [n for c in bres['BB33'] for n in c['notes']]
+    for w in ('S Mercury → H Mercury Dec 8.999', 'S Venus – S Aldebaran RA 8.996', 'S Aldebaran – S Mercury RA 0.188',
+              'S Venus → J Mercury RA 23.005', 'S Mercury → J Mercury Dec 1.415', 'S Mars – S Sedna Dec 1.416'):
+        check(any(x.startswith(w) for x in mc), f'BB33 Perfect Part Mercury cell {w}')
+    check(any('likely automatic' in n for n in mn) and any('other chart same-body' in n for n in mn), 'BB33 Perfect Part watch notes')
     check({(c['runner'], c['body']) for c in bres['BB32b']} == {('15 Perfect Part', 'Sun')}, 'BB32b Beverley holders')
     pc = [x for c in bres['BB32b'] for x in c['cells']]
     pn = [n for c in bres['BB32b'] for n in c['notes']]
