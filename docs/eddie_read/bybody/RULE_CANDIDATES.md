@@ -866,3 +866,14 @@ Field check (Lingfield / Haydock / Beverley / Catterick / Chelmsford / York): a 
 1 (Storm Call Gonggong) / 0 / 0 / 1. c = a royal line carried by a pair with both ends on natal X, one end on sky X: 4 / 8 / 12 / 3 / 10 / 18
 (Pholas Mercury, Ishvara Gonggong, Perfect Part Mars, Secret Satire Quaoar - every origin winner, but wide). a + c: 1 / 2 / 0 / 0 / 2 / 7;
 a + b, b + c, a + b + c: Secret Satire Quaoar only.
+
+## Mercury — York 16:15 15 May 2024, 13 Diligent Resdev (15 Nov 2026, not built: Eddie "leave"; no narrow version has a second winner)
+Lines: J Regulus – J Mercury RA 141.4422 √2 141.4 (90.2), same-body 1.487649 3/2 (38.3), carried by S Ceres – S Regulus RA 141.4065 (93.0),
+S Mars – S Regulus (66.3), S Rahu – S Transpluto (71.4), S Neptune – S Haumea (63.4) and S Mercury – S Antares RA 141.2611 (24.4; Antares on
+sky Mercury); S Ceres → J Mercury RA 0.0428 conj (97.1) - so S Ceres – S Regulus repeats J Regulus – J Mercury (likely geometry); Neptune
+(RA φ⁷ 59.6) and Haumea (Dec 7, 98.3) both on sky Mercury; H Antares – H Mercury RA 65 (65.9); Moon → H Mercury 100φ (97.1), → J Mercury 143 (85.2).
+Field check (Lingfield / Haydock / Beverley / Catterick / Chelmsford / York / York 16:15; tools/scans/bb_fieldcheck_diligent_mercury.py):
+a = royal line carried by S Y – S R (same star), Y conj natal X: 2 / 6 (Ishvara Vesta) / 12 / 1 / 13 / 4 / 6 (Diligent Resdev Mercury) - the only
+version with a second winner, wide and likely automatic. b = royal line on the target of another royal star on sky X: 2 / 0 / 1 / 0 / 0 / 2 / 4.
+c = royal line carried by a pair (no royal star) with both ends on sky X: 7 / 6 / 12 / 5 / 6 / 11 / 29. a + c: 1 / 1 / 0 / 0 / 1 / 2 / 1;
+a + b, b + c, a + b + c: Diligent Resdev only.
