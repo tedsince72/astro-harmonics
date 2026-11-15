@@ -1,4 +1,4 @@
-# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB35
+# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB36
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -40,6 +40,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB33 | 0 | 0 | - |  |
 | BB34 | 1 | 1 | 05 Pholas |  |
 | BB35 | 0 | 0 | - |  |
+| BB36 | 1 | 1 | 05 Pholas |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -643,4 +644,19 @@ Rule: In one chart c, two different royal stars R1, R2 each score on sky X (S R 
 Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Saturn
 
 No runner holds it.
+
+## BB36 — BB6 with the royal-star ratio on a cut, the star's natal line scoring, and a second royal star on sky X
+
+Rule: In one chart c, the same-body line S X → c X has a sky pair S A – S R on its target, R a royal star (as BB6); R's natal line c R – c X scores (has a family) and its same-body ratio (same plane) or crossed ratio (other plane) is on a cut; and a different royal star scores on sky X (S R2 – S X, any plane). WATCH, noted not required: R itself on sky X; a second sky pair on the same-body line with an end (not a royal star, not the Moon) on sky X and on natal X in either chart; same digits a decade apart (highlight).
+
+Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Uranus (also holds: Lingfield 14:35 2 Apr 2021, 5 Pholas, Uranus)
+
+### 05 Pholas — Uranus (only)
+- S Uranus → H Uranus Dec 6.657103 6.66667 ninth (28.27)
+- S Vesta – S Regulus Dec 6.674467 6.66667 ninth (41.5)
+- H Regulus – H Uranus RA 133.089295 133.333 ninth (8.49)
+- S Antares – S Uranus Dec 40.475177 25×φ golden (24.92)
+- S Fomalhaut – S Uranus Dec 43.666858 27×φ golden (38.09)
+- crossed ratio vs S Uranus → H Uranus Dec 6.657103 = 19.992074 20 1/20 cut (92.07)
+- lights on Uranus: S Sun – S Uranus Dec 9.014236 9 whole (28.82)
 

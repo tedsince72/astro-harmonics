@@ -598,3 +598,15 @@ Versions (runners, Lingfield / Haydock / Beverley): (a) two royal stars on sky X
 (b) a + both star lines in the same plane 0 / 2 (Royal Context Pluto, Ishvara Chiron) / 2 (Invincible Annice Venus, Perfect Part Saturn) =
 BB35 (Eddie chose b); (c) a + one crossed ratio >= 80 0 / 1 / 1 - kept as the WATCH note; (d) any ratio 1 / 9 / 12. The first field check
 listed b at Haydock as Ishvara only (a bug in that quick script); the built rule finds Royal Context Pluto too.
+
+## BB36 — Beverley 14:05 8 Jun 2024, 15 Perfect Part, Uranus (15 Nov 2026, built)
+BB6 (royal-star loop) already held Perfect Part Uranus, but also Mademoiselle Vesta, Powerful Lady Makemake, Sands Of Dubai Mars
+(Beverley), Indie Angel Mars, Pholas Uranus (Lingfield) and 7 Haydock runners. Field check of extra conditions (three races):
+a R on sky X: Indie Angel, Powerful Lady, Sands Of Dubai, Perfect Part; b ratio on a cut: Indie Angel, Pholas, 5 Haydock Saturns,
+Perfect Part; c second pair end on sky and natal X (either chart): Mews House Makemake, Perfect Part; d second royal on sky X:
+Indie Angel, Pholas, Never In Paris Gonggong, Mademoiselle, Perfect Part; e decade digits: Perfect Part. a+c, b+c, b+e: Perfect Part
+only. b+d: Indie Angel Mars, Pholas Uranus, Perfect Part Uranus. Eddie chose the version holding Pholas and Perfect Part (both
+Uranus): b + d + R's natal line scores (drops Indie Angel: H Antares – H Mars RA no family). Built as BB36; a, c, decade digits as
+WATCH notes. Both holders: Regulus in the sky pair, H Regulus – H Uranus RA on a ninth, ratio on a cut, Antares on sky Uranus.
+Independent checker (15 Nov): holders and every cell confirmed, 0 mismatches; without the natal-line condition Catterick 14:40 2022
+03 Capuchinero Sun (jockey) would also hold.

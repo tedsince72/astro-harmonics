@@ -1,4 +1,4 @@
-# 20200608_haydock_1345 — body-by-body rules BB1-BB35
+# 20200608_haydock_1345 — body-by-body rules BB1-BB36
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -40,6 +40,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB33 | 0 | 0 | - |  |
 | BB34 | 1 | 1 | 03 Never In Paris |  |
 | BB35 | 2 | 2 | 04 Royal Context, 07 Ishvara |  |
+| BB36 | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -993,4 +994,12 @@ Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Saturn
 - S Fomalhaut – S Chiron Dec 35.566631 22×φ golden (7.05)
 - J Antares and J Fomalhaut – Chiron Dec: crossed same-body ratios 8/5 minor sixth (2.08); 3/2 fifth (56); both stars on sky Chiron
 - lights on Chiron: S Sun → J Chiron RA 1.354300 conj conj (9.71); S Moon → J Chiron Dec 42.301042 10φ³ phi power (6.14)
+
+## BB36 — BB6 with the royal-star ratio on a cut, the star's natal line scoring, and a second royal star on sky X
+
+Rule: In one chart c, the same-body line S X → c X has a sky pair S A – S R on its target, R a royal star (as BB6); R's natal line c R – c X scores (has a family) and its same-body ratio (same plane) or crossed ratio (other plane) is on a cut; and a different royal star scores on sky X (S R2 – S X, any plane). WATCH, noted not required: R itself on sky X; a second sky pair on the same-body line with an end (not a royal star, not the Moon) on sky X and on natal X in either chart; same digits a decade apart (highlight).
+
+Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Uranus (also holds: Lingfield 14:35 2 Apr 2021, 5 Pholas, Uranus)
+
+No runner holds it.
 

@@ -1,4 +1,4 @@
-# 20240608_beverley_1405 — body-by-body rules BB1-BB35
+# 20240608_beverley_1405 — body-by-body rules BB1-BB36
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -40,6 +40,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB33 | 1 | 1 | 15 Perfect Part |  |
 | BB34 | 5 | 5 | 01 Aviation Time, 07 Mademoiselle, 12 Sands Of Dubai, 14 Havana White, 15 Perfect Part |  |
 | BB35 | 2 | 2 | 04 Invincible Annice, 15 Perfect Part |  |
+| BB36 | 2 | 1 | 15 Perfect Part |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1353,4 +1354,31 @@ Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Saturn
 - S Regulus – S Saturn RA 161.722353 100φ phi power (66.61)
 - H Antares and H Regulus – Saturn RA: crossed same-body ratios 9 9th harmonic (36.4); 20 1/20 cut (85.17); both stars on sky Saturn
 - WATCH a crossed ratio scores >= 80
+
+## BB36 — BB6 with the royal-star ratio on a cut, the star's natal line scoring, and a second royal star on sky X
+
+Rule: In one chart c, the same-body line S X → c X has a sky pair S A – S R on its target, R a royal star (as BB6); R's natal line c R – c X scores (has a family) and its same-body ratio (same plane) or crossed ratio (other plane) is on a cut; and a different royal star scores on sky X (S R2 – S X, any plane). WATCH, noted not required: R itself on sky X; a second sky pair on the same-body line with an end (not a royal star, not the Moon) on sky X and on natal X in either chart; same digits a decade apart (highlight).
+
+Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Uranus (also holds: Lingfield 14:35 2 Apr 2021, 5 Pholas, Uranus)
+
+### 15 Perfect Part — Uranus (only)
+- S Uranus → H Uranus RA 11.095305 φ⁵ phi power (69.13)
+- S Venus – S Regulus Dec 11.102830 11.1111 ninth (62.74)
+- H Regulus – H Uranus RA 111.240410 111.111 ninth (41.82)
+- S Antares – S Uranus Dec 45.011110 45 whole (44.45)
+- same-body ratio vs S Uranus → H Uranus 11.095305 = 10.025899 10 1/10 cut (48.2)
+- WATCH Regulus itself on sky Uranus: S Regulus – S Uranus RA 100.140011 100 ninth (29.99)
+- WATCH second pair S Neptune – S Chiron Dec on the same-body line, end Chiron on sky Uranus and natal Uranus: S Chiron – S Uranus Dec 8.873775 8.88889 ninth (14.98); S Chiron → J Uranus RA 73.005085 73 whole (74.58)
+- HIGHLIGHT same digits a decade apart: 11.1111 (S Venus – S Regulus) / 111.111 (H Regulus – H Uranus)
+- lights on Uranus: S Sun → H Uranus RA 35.980071 36 whole (0.36)
+
+### 15 Perfect Part — Uranus (only)
+- S Uranus → H Uranus RA 11.095305 φ⁵ phi power (69.13)
+- S Venus – S Regulus Dec 11.102830 φ⁵ phi power (23.9)
+- H Regulus – H Uranus RA 111.240410 111.111 ninth (41.82)
+- S Antares – S Uranus Dec 45.011110 45 whole (44.45)
+- same-body ratio vs S Uranus → H Uranus 11.095305 = 10.025899 10 1/10 cut (48.2)
+- WATCH Regulus itself on sky Uranus: S Regulus – S Uranus RA 100.140011 100 ninth (29.99)
+- WATCH second pair S Neptune – S Chiron Dec on the same-body line, end Chiron on sky Uranus and natal Uranus: S Chiron – S Uranus Dec 8.873775 8.88889 ninth (14.98); S Chiron → J Uranus RA 73.005085 73 whole (74.58)
+- lights on Uranus: S Sun → H Uranus RA 35.980071 36 whole (0.36)
 

@@ -53,6 +53,7 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB33': set(),
     'BB34': {('05 Pholas', 'Mercury')},
     'BB35': set(),
+    'BB36': {('05 Pholas', 'Uranus')},
 }
 CELLS = {  # rule: (runner, body, [cell texts that must be in the case])
     'BB1': ('05 Pholas', 'Mercury', ['J Aldebaran – J Mercury Dec 16.193302 10×φ golden (59.99)',
@@ -182,6 +183,7 @@ if os.path.exists(HAY):
     check({(c['runner'], c['body']) for c in hres['BB34']} == {('03 Never In Paris', 'Orcus')}, 'BB34 Haydock holders')
     check({(c['runner'], c['body']) for c in hres['BB35']} == {('04 Royal Context', 'Pluto'), ('07 Ishvara', 'Chiron')}, 'BB35 Haydock holders')
     check(not any('Sedna is an end' in n for c in hres['BB34'] for n in c['notes']), 'BB34 Haydock: no Sedna note')
+    check(not hres['BB36'], 'BB36 Haydock: none')
 BEV = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', '20240608_beverley_1405', '20240608_beverley_1405_bybody.xlsx')
 if os.path.exists(BEV):
     _, _, bres = R.run(BEV)
@@ -209,6 +211,14 @@ if os.path.exists(BEV):
     for w in ('H Antares – H Saturn RA 78.036', 'H Regulus – H Saturn RA 173.297', 'S Antares – S Saturn RA 103.009', 'S Regulus – S Saturn RA 161.722'):
         check(any(x.startswith(w) for x in sc), f'BB35 Perfect Part Saturn cell {w}')
     check(any('9 9th harmonic (36.4)' in n and '20 1/20 cut (85.17)' in n for n in sn) and any('>= 80' in n for n in sn), 'BB35 Perfect Part notes')
+    check({(c['runner'], c['body']) for c in bres['BB36']} == {('15 Perfect Part', 'Uranus')}, 'BB36 Beverley holders')
+    uc = [x for c in bres['BB36'] for x in c['cells']]
+    un = [n for c in bres['BB36'] for n in c['notes']]
+    for w in ('S Uranus → H Uranus RA 11.095305', 'S Venus – S Regulus Dec 11.102830', 'H Regulus – H Uranus RA 111.240410',
+              'S Antares – S Uranus Dec 45.011110'):
+        check(any(x.startswith(w) for x in uc), f'BB36 Perfect Part Uranus cell {w}')
+    check(any('10.025899 10 1/10 cut (48.2)' in n for n in un) and any('Regulus itself on sky Uranus' in n for n in un)
+          and any('end Chiron' in n and 'S Chiron → J Uranus RA 73.005085' in n for n in un), 'BB36 Perfect Part notes')
     check({(c['runner'], c['body']) for c in bres['BB32b']} == {('15 Perfect Part', 'Sun')}, 'BB32b Beverley holders')
     pc = [x for c in bres['BB32b'] for x in c['cells']]
     pn = [n for c in bres['BB32b'] for n in c['notes']]
