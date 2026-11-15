@@ -1,4 +1,4 @@
-# 20240118_chelmsford_aw_1320 — body-by-body rules BB1-BB50
+# 20240118_chelmsford_aw_1320 — body-by-body rules BB1-BB51
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -55,6 +55,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB48 | 3 | 3 | 02 Sullivan Bay, 05 Reset Button, 06 Foinix |  |
 | BB49 | 0 | 0 | - |  |
 | BB50 | 0 | 0 | - |  |
+| BB51 | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -808,11 +809,19 @@ Origin: York 15:45 15 May 2024, 6 Secret Satire, Haumea (H Haumea – J Haumea D
 
 No runner holds it.
 
-## BB50 — 
+## BB50 — H X – J X carried by a royal pair and by a pair with an end on sky X
 
-Rule: 
+Rule: The H X – J X line scores (conj / contraparallel not counted) and two sky pairs on its target (pairs not naming X or the Moon) carry it: one with a royal star at an end (S R – S Y), and one with no royal star whose end Y is on sky X (S Y – S X scores, not conj / contraparallel). X not Rahu or Ketu (their H – J lines pair up automatically). Any plane, any score.
 
-Origin: 
+Origin: York 15:45 15 May 2024, 6 Secret Satire, Makemake (H Makemake – J Makemake RA whole 23 carried by S Saturn – S Fomalhaut Dec 23 and by S Juno – S Orcus Dec 23, Orcus on sky Makemake RA 26×φ); version b (Eddie, 15 Nov 2026). Also held by Ishvara Eris (Haydock: H Eris – J Eris RA 3 carried by S Ketu – S Antares Dec 3 and by S Mars – S Orcus Dec 3, Mars on sky Eris).
+
+No runner holds it.
+
+## BB51 — The same royal star carried in both charts through a shared body on sky X
+
+Rule: The same royal star R has a scoring natal line to X in both charts (H R – H X and J R – J X; conj / contraparallel not counted; any plane), each carried by a sky pair on its target (pairs not naming X or the Moon); a horse pair and a jockey pair share a body Y (not a royal star), and Y is on sky X (S Y – S X scores, not conj / contraparallel). Any plane, any score.
+
+Origin: York 16:15 15 May 2024, 13 Diligent Resdev, Venus (H Antares – H Venus Dec 2×φ carried by S Jupiter – S Makemake Dec; J Antares – J Venus RA ninth 44.4444 carried by S Mars – S Jupiter RA; Jupiter on sky Venus RA ninth 7.7778 and Dec 2, also on both natal Venus) (Eddie, 15 Nov 2026). Also held by Ishvara Mercury (Haydock: H Antares – H Mercury Dec 28 carried by S Gonggong – S Aldebaran Dec; J Antares – J Mercury RA φ¹⁰ carried by S Gonggong – S Haumea RA; Gonggong on sky Mercury).
 
 No runner holds it.
 

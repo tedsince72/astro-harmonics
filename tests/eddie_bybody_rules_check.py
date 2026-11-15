@@ -68,6 +68,7 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB48': {('04 Nirodha', 'Ketu'), ('05 Pholas', 'Mercury')},
     'BB49': set(),
     'BB50': set(),
+    'BB51': set(),
 }
 CELLS = {  # rule: (runner, body, [cell texts that must be in the case])
     'BB1': ('05 Pholas', 'Mercury', ['J Aldebaran – J Mercury Dec 16.193302 10×φ golden (59.99)',
@@ -218,6 +219,12 @@ if os.path.exists(HAY):
     for w in ('H Eris – J Eris RA 2.990505', 'S Ketu – S Antares Dec 3.001702', 'S Mars – S Orcus Dec 3.014589', 'S Mars – S Eris RA 37.185073'):
         check(any(x.startswith(w) for x in ic50), f'BB50 Ishvara Eris cell {w}')
     check(len(ic50) == 4, 'BB50 Ishvara Eris: 4 cells')
+    check({(c['runner'], c['body']) for c in hres['BB51']} == {('07 Ishvara', 'Mercury')}, 'BB51 Haydock holders')
+    ic51 = [x for c in hres['BB51'] for x in c['cells']]
+    for w in ('H Antares – H Mercury Dec 27.981919', 'S Gonggong – S Aldebaran Dec 27.999417', 'J Antares – J Mercury RA 122.977640',
+              'S Gonggong – S Haumea RA 122.826154', 'S Gonggong – S Mercury RA 124.983999'):
+        check(any(x.startswith(w) for x in ic51), f'BB51 Ishvara Mercury cell {w}')
+    check(len(ic51) == 5, 'BB51 Ishvara Mercury: 5 cells')
     check({(c['runner'], c['body']) for c in hres['BB49']} == {('07 Ishvara', 'Eris')}, 'BB49 Haydock holders')
     ic9 = [x for c in hres['BB49'] for x in c['cells']]
     for w in ('S Aldebaran – S Eris Dec 17.937557', 'S Antares – S Eris Dec 25.002977', 'H Eris – J Eris RA 2.990505',
@@ -325,6 +332,7 @@ if os.path.exists(BEV):
     check(bres['BB45'] == [] and bres['BB46'] == [], 'BB45 / BB46 Beverley: no holder')
     check({(c['runner'], c['body']) for c in bres['BB47']} == {('14 Havana White', 'Rahu')}, 'BB47 Beverley holders')
     check(bres['BB49'] == [], 'BB49 Beverley: no holder')
+    check(bres['BB51'] == [], 'BB51 Beverley: no holder')
     check({(c['runner'], c['body']) for c in bres['BB50']} == {('01 Aviation Time', 'Jupiter'), ('08 Maw Lam', 'Saturn')}, 'BB50 Beverley holders')
     check({(c['runner'], c['body']) for c in bres['BB48']} == {('01 Aviation Time', 'Uranus'), ('12 Sands Of Dubai', 'Venus'), ('15 Perfect Part', 'Mars')}, 'BB48 Beverley holders')
     pc8 = [x for c in bres['BB48'] if c['runner'] == '15 Perfect Part' for x in c['cells']]
@@ -399,6 +407,7 @@ if os.path.exists(CAT):
     check({(c['runner'], c['body']) for c in cres['BB48']} == {('04 Thakuri', 'Eris')}, 'BB48 Catterick holders')
     check(cres['BB49'] == [], 'BB49 Catterick: no holder')
     check(cres['BB50'] == [], 'BB50 Catterick: no holder')
+    check(cres['BB51'] == [], 'BB51 Catterick: no holder')
 check({(c['runner'], c['body']) for c in yres['BB49']} == {('06 Secret Satire', 'Haumea')}, 'BB49 York holders')
 yc9 = [x for c in yres['BB49'] for x in c['cells']]
 yn9 = [n for c in yres['BB49'] for n in c['notes']]
@@ -427,5 +436,15 @@ for w in ('H Regulus – H Ceres RA 133.301747', 'S Ketu – S Sedna RA 133.1625
           'S Eris → H Ceres RA 8.106026', 'S Ceres – S Juno RA 133.466313'):
     check(any(x.startswith(w) for x in yc7), f'BB47 Secret Satire Ceres cell {w}')
 check(not any('contraparallel' in x for x in yc7), 'BB47 Secret Satire: the Eris contraparallel line not used')
+check({(c['runner'], c['body']) for c in yres['BB51']} == {('07 Sinology', 'Mercury')}, 'BB51 York holders')
+Y16 = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', '20240515_york_1615', '20240515_york_1615_bybody.xlsx')
+if os.path.exists(Y16):
+    y16 = R.run(Y16)[2]
+    check({(c['runner'], c['body']) for c in y16['BB51']} == {('05 Respectful', 'Vesta'), ('13 Diligent Resdev', 'Venus')}, 'BB51 York 16:15 holders')
+    dc51 = [x for c in y16['BB51'] if c['runner'] == '13 Diligent Resdev' for x in c['cells']]
+    for w in ('H Antares – H Venus Dec 3.265036', 'S Jupiter – S Makemake Dec 3.243443', 'J Antares – J Venus RA 44.418360',
+              'S Mars – S Jupiter RA 44.377122', 'S Jupiter – S Venus RA 7.786496', 'S Jupiter – S Venus Dec 1.981299'):
+        check(any(x.startswith(w) for x in dc51), f'BB51 Diligent Resdev Venus cell {w}')
+    check(len(dc51) == 6 and not any('Saturn – S Pluto' in x for x in dc51), 'BB51 Diligent Resdev: 6 cells, the Saturn – Pluto pair (no shared body) left out')
 print(f'{ok}/{ok + bad} checks passed')
 sys.exit(1 if bad else 0)

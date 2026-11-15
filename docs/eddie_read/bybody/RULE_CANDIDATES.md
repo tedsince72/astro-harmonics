@@ -877,3 +877,14 @@ a = royal line carried by S Y – S R (same star), Y conj natal X: 2 / 6 (Ishvar
 version with a second winner, wide and likely automatic. b = royal line on the target of another royal star on sky X: 2 / 0 / 1 / 0 / 0 / 2 / 4.
 c = royal line carried by a pair (no royal star) with both ends on sky X: 7 / 6 / 12 / 5 / 6 / 11 / 29. a + c: 1 / 1 / 0 / 0 / 1 / 2 / 1;
 a + b, b + c, a + b + c: Diligent Resdev only.
+
+## BB51 — York 16:15 15 May 2024, 13 Diligent Resdev, Venus (15 Nov 2026, built: the same royal star in both charts, shared body on sky X)
+Lines: H Antares – H Venus Dec 3.2650 2×φ (10.6) carried by S Jupiter – S Makemake Dec (77.2) (and S Venus – S Uranus RA 2×φ 94.2); J Antares –
+J Venus RA 44.4184 ninth 44.4444 (70.7) carried by S Mars – S Jupiter RA (24.3) and S Saturn – S Pluto RA (94.3); Jupiter on sky Venus (RA 7.7778
+44.0, Dec 2 6.5) and both natal Venus (H Dec 42 32.3, J Dec 33.3333 84.0). Also H Fomalhaut – H Venus RA 66.6667 / Dec 4×φ, Regulus on sky Venus
+Dec 3×φ (45.0). Aldebaran unisons both charts (H Dec 1.008333, J Dec 1.010621, both off by ~0.33: S Venus at Aldebaran's Dec) - automatic: the
+same-body unison on one royal star in both charts holds 10 Haydock Venus, 17 York 16:15 (13 Pallas) - not used.
+Field check (Lingfield / Haydock / Beverley / Catterick / Chelmsford / York / York 16:15; tools/scans/bb_fieldcheck_diligent_venus.py):
+same royal star carried in both charts 5 / 7 / 4 / 3 / 6 / 9 / 9; + a shared body 1 / 4 (Ishvara Mercury) / 1 / 0 / 0 / 3 / 5; + the shared body
+on sky X (built, BB51) 0 / 1 (Ishvara Mercury) / 0 / 0 / 0 / 1 (Sinology Mercury) / 2 (Respectful Vesta, Diligent Resdev Venus); + also on both
+natal X: Diligent Resdev only (not built).

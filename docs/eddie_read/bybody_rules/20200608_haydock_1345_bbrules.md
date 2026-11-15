@@ -1,4 +1,4 @@
-# 20200608_haydock_1345 — body-by-body rules BB1-BB50
+# 20200608_haydock_1345 — body-by-body rules BB1-BB51
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -55,6 +55,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB48 | 1 | 1 | 02 Ventura Flame |  |
 | BB49 | 1 | 1 | 07 Ishvara |  |
 | BB50 | 1 | 1 | 07 Ishvara |  |
+| BB51 | 1 | 1 | 07 Ishvara |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1208,11 +1209,11 @@ Origin: York 15:45 15 May 2024, 6 Secret Satire, Haumea (H Haumea – J Haumea D
 - H Eris – J Eris RA carried by S Ketu – S Antares Dec (Antares with Ketu; Ketu on J Eris); royal stars on sky Eris: Aldebaran, Antares
 - lights on Eris: S Moon – S Eris Dec 22.674439 14×φ golden (32.21); S Sun → J Eris Dec 33.001455 33 whole (92.73); S Moon → J Eris Dec 13.987571 14 whole (37.86)
 
-## BB50 — 
+## BB50 — H X – J X carried by a royal pair and by a pair with an end on sky X
 
-Rule: 
+Rule: The H X – J X line scores (conj / contraparallel not counted) and two sky pairs on its target (pairs not naming X or the Moon) carry it: one with a royal star at an end (S R – S Y), and one with no royal star whose end Y is on sky X (S Y – S X scores, not conj / contraparallel). X not Rahu or Ketu (their H – J lines pair up automatically). Any plane, any score.
 
-Origin: 
+Origin: York 15:45 15 May 2024, 6 Secret Satire, Makemake (H Makemake – J Makemake RA whole 23 carried by S Saturn – S Fomalhaut Dec 23 and by S Juno – S Orcus Dec 23, Orcus on sky Makemake RA 26×φ); version b (Eddie, 15 Nov 2026). Also held by Ishvara Eris (Haydock: H Eris – J Eris RA 3 carried by S Ketu – S Antares Dec 3 and by S Mars – S Orcus Dec 3, Mars on sky Eris).
 
 ### 07 Ishvara — Eris (only)
 - H Eris – J Eris RA 2.990505 3 whole (52.53)
@@ -1221,4 +1222,19 @@ Origin:
 - S Mars – S Eris RA 37.185073 23×φ golden (8.31)
 - H Eris – J Eris RA carried by the royal pair S Ketu – S Antares Dec and by S Mars – S Orcus Dec (Mars on sky Eris)
 - lights on Eris: S Moon – S Eris Dec 22.674439 14×φ golden (32.21); S Sun → J Eris Dec 33.001455 33 whole (92.73); S Moon → J Eris Dec 13.987571 14 whole (37.86)
+
+## BB51 — The same royal star carried in both charts through a shared body on sky X
+
+Rule: The same royal star R has a scoring natal line to X in both charts (H R – H X and J R – J X; conj / contraparallel not counted; any plane), each carried by a sky pair on its target (pairs not naming X or the Moon); a horse pair and a jockey pair share a body Y (not a royal star), and Y is on sky X (S Y – S X scores, not conj / contraparallel). Any plane, any score.
+
+Origin: York 16:15 15 May 2024, 13 Diligent Resdev, Venus (H Antares – H Venus Dec 2×φ carried by S Jupiter – S Makemake Dec; J Antares – J Venus RA ninth 44.4444 carried by S Mars – S Jupiter RA; Jupiter on sky Venus RA ninth 7.7778 and Dec 2, also on both natal Venus) (Eddie, 15 Nov 2026). Also held by Ishvara Mercury (Haydock: H Antares – H Mercury Dec 28 carried by S Gonggong – S Aldebaran Dec; J Antares – J Mercury RA φ¹⁰ carried by S Gonggong – S Haumea RA; Gonggong on sky Mercury).
+
+### 07 Ishvara — Mercury (only)
+- H Antares – H Mercury Dec 27.981919 28 whole (9.6)
+- S Gonggong – S Aldebaran Dec 27.999417 28 whole (97.09)
+- J Antares – J Mercury RA 122.977640 φ¹⁰ phi power (92.29)
+- S Gonggong – S Haumea RA 122.826154 φ¹⁰ phi power (10.18)
+- S Gonggong – S Mercury RA 124.983999 125 whole (19.99)
+- Antares in both charts: H Antares – H Mercury Dec carried by S Gonggong – S Aldebaran Dec | J Antares – J Mercury RA carried by S Gonggong – S Haumea RA; Gonggong in both, on sky Mercury
+- lights on Mercury: S Sun – S Mercury Dec 1.001903 1 whole (90.49); S Moon – S Mercury Dec 47.990929 48 whole (54.65); S Moon – S Mercury Dec contraparallel 0.218065 cp contraparallel (27.31)
 
