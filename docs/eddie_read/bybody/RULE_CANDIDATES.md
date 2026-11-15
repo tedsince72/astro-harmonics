@@ -1073,3 +1073,25 @@ Song, Mortlake, Diligent Resdev Quaoar only (3 / 1 / 0.3, one origin winner).
   - **E6** (E2 + E3 + E4) and **E7** (E4 + E5) are noted, not built.
 - **E1 is broad.** J Regulus – J Gonggong RA sits near 180, carried by S Gonggong – S Orcus with S Orcus → H Gonggong. That one repeat gives Beverley 4 of its 5 holders, and 2 holders at each York race.
 - **Independent checkers (15 Nov):** 0 mismatches on the scan and 0 on the built rule.
+
+## Catterick 14:40 2022, Wotever Next Makemake (15 Nov 2026): royal row with ratios on targets in both planes (noted, not built)
+- **From Eddie's lines:**
+  - J Aldebaran – J Makemake RA 100.7310 has no family, but its same-body ratio 3.499665 is on 7/2 (93.6).
+  - J Aldebaran – J Makemake Dec 19.4043 is on 12×φ (62.7). Its same-body ratio 1.49784 is on 3/2 (89.2) and its crossed ratio 1.483331 is on 3/2 (16.7).
+  - The Dec ratio follows from the targets: S Makemake → J Makemake Dec 12.9549 is on 8×φ (67.3), and 12×φ / 8×φ = 3/2.
+  - Carriers: S Neptune – S Haumea Dec 19.4187, 12×φ (93.0), carries the royal Dec row. S Juno – S Chiron Dec 12.9664, 8×φ (31.8), carries the same-body line.
+  - Aldebaran is also on sky Makemake: S Aldebaran – S Makemake Dec 6.4519, 4×φ (37.5).
+  - Regulus: S Regulus – S Makemake Dec 10.9932 is on 11 (66.1), and H Regulus – H Makemake RA 44.0171 is on 44 (14.5).
+- **Scan:** tools/scans/bb_fieldcheck_royal_ratio_both_planes.py. Picks / won / by chance over the 6 races with results:
+  - F1 (ratios on targets in both planes, one row with a family): 35 / 2 / 3.9.
+  - F5 (F1 with same-body ratios only): 20 / 2 / 2.4.
+  - F3 (F1 + a sky pair carrying the family row): 15 / 1 / 1.8.
+  - F2 (F1 + the royal star on sky X): 8 / 1 / 1.0.
+  - F4 (F2 + F3): 5 / 1 / 0.7.
+  - F6 (F1 + the royal row and the same-body line in the same family): 4 / 1 / 0.6.
+  - F7 (F6 + F2): 3 / 1 / 0.5.
+  - G1 (the same royal star whole on sky X and on natal X, with the natal target 1-9 times the sky one): 2 / 1 / 0.4. The other holder is Lingfield Nirodha Neptune (Aldebaran 21 / 84).
+  - Catterick Capuchinero (Ketu) holds F4, F6 and F7 too.
+- **Decision:** at or below chance, or only one winner, so noted, not built (Eddie, 15 Nov: "note").
+- **Checker:** the independent checker found 0 mismatches. Open point: if opposition did not count as a family, Beverley F2 would lose Powerful Lady.
+- **Catterick finished (Eddie, 15 Nov 2026):** BB57 (Sun), BB58 (Neptune), BB59 (Rahu) and BB60 (Chiron) were built; Mercury, Venus, Saturn, Ceres and Makemake were noted.
