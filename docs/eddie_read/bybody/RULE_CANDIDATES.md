@@ -856,3 +856,13 @@ b = H X – J X carried by a royal pair and by a pair with no royal star whose e
 c = a body on sky X and on both natal X: 35 / 66 / 59 / 28 / 49 / 48 (too wide).
 a + c: 1 / 3 / 0 / 1 / 1 / 5 (Pholas Vesta; Secret Satire Venus, Makemake, Quaoar) - not built. a2 + c: York only (3). a + b, b + c, a + b + c:
   Secret Satire Makemake only (b + c also Aviation Time Jupiter).
+
+## Quaoar — York 15:45 15 May 2024, 6 Secret Satire (15 Nov 2026, not built: no second winner on a narrow version; BB48 already holds it)
+Lines: S Antares – S Quaoar RA 32.3540 20×φ (79.4), S Fomalhaut – S Quaoar RA 64.7015 40×φ (38.8); H Antares – H Quaoar Dec 11.1164 ninth (76.2)
+carried by S Venus – S Rahu Dec (64.2) and S Juno – S Eris Dec (34.6) (Juno → H Quaoar Dec 26, Eris → H / J Quaoar, Eris on sky Quaoar Dec 9×φ);
+J Regulus – J Quaoar Dec 26.0014 (92.8) on the 26 of S Juno → H Quaoar Dec 25.9978 and S Eris – S Antares Dec 25.9891.
+Field check (Lingfield / Haydock / Beverley / Catterick / Chelmsford / York): a = two royal lines each carried by a pair, the pairs share a body:
+3 / 7 / 10 / 5 / 10 / 13. b = a royal line on the target of S Y → X in the other chart, Y an end of a pair carrying another royal line: 0 / 0 /
+1 (Storm Call Gonggong) / 0 / 0 / 1. c = a royal line carried by a pair with both ends on natal X, one end on sky X: 4 / 8 / 12 / 3 / 10 / 18
+(Pholas Mercury, Ishvara Gonggong, Perfect Part Mars, Secret Satire Quaoar - every origin winner, but wide). a + c: 1 / 2 / 0 / 0 / 2 / 7;
+a + b, b + c, a + b + c: Secret Satire Quaoar only.
