@@ -1025,3 +1025,9 @@ Song, Mortlake, Diligent Resdev Quaoar only (3 / 1 / 0.3, one origin winner).
   also Nirodha Pallas Regulus, Ziggy's Condor Uranus Regulus) -> BB58; N1 = N3 + the star on sky X: 2 / 1 (0.4; Nirodha, Wotever Next);
   N2 = N1 same plane: Wotever Next only; N4 = N1 with crossed ratios allowed: 3 / 1 (0.5).
 - Note: Perfect Part's two ratios are unisons; Mercury – Aldebaran unisons are field-wide at Beverley (U1 scan), the family on both lines is what singles it out.
+- Neptune second set (Eddie, 15 Nov 2026): H Regulus – H Neptune Dec 18.000096 18 (99.52) carried by S Venus – S Vesta RA 17.9953 (76.3) and
+  S Sun – S Moon Dec 17.9815 (7.4), S Venus → H Neptune Dec 4.855118 3×φ (96.86); J Aldebaran – J Neptune RA 144.470238 ninth (91.07) carried
+  by S Pluto – S Orcus RA 144.7260 (2.6), S Pluto → J Neptune RA 16.163451 10×φ (47.87); S Sun → J Neptune RA 90.6269 56×φ (47.5).
+  Field check (tools/scans/bb_fieldcheck_royal_pair_end_both_charts.py; independent checker 0 differences), 6 result races: P1 a royal line
+  in each chart carried by a pair with an end on that chart's natal X: 21 picks 3 won (2.4); P2 different stars 20 / 2 (2.3); P3 + an end on
+  the other chart's X 17 / 2 (2.0); P4 end lines >= 50 both charts 14 / 1 (1.8; Wotever Next out, Pluto 47.87). At chance - not built.
