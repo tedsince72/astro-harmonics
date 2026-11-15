@@ -618,7 +618,7 @@ No runner holds it.
 
 ## BB34 — royal-star line paired; both pair ends on sky X and on natal X
 
-Rule: A scoring natal royal-star line c R – c X is matched by a sky pair S A – S B (A, B not X, no Moon); A and B each score on sky X (S A – S X, S B – S X, any plane) and each reaches natal X in either chart (S A → H X or J X; S B → H X or J X). WATCH, noted not required: the tight version (both ends on sky X in RA and Dec); the same royal-star line also paired in the other plane (Moon pairs marked). Revised 15 Nov 2026 (Eddie): first built as the tight version, widened to any plane so it also covers Pholas Mercury (Lingfield 14:35 2021).
+Rule: A scoring natal royal-star line c R – c X is matched by a sky pair S A – S B (A, B not X, no Moon); A and B each score on sky X (S A – S X, S B – S X, any plane) and each reaches natal X in either chart (S A → H X or J X; S B → H X or J X). WATCH, noted not required: the tight version (both ends on sky X in RA and Dec); the same royal-star line also paired in the other plane (Moon pairs marked); Sedna as an end of the pair (Eddie, 15 Nov 2026: Pholas Mars – Sedna, Perfect Part Rahu – Sedna). Revised 15 Nov 2026 (Eddie): first built as the tight version, widened to any plane so it also covers Pholas Mercury (Lingfield 14:35 2021).
 
 Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Mars
 
@@ -631,6 +631,7 @@ Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Mars
 - S Mars → J Mercury RA 108.397711 67×φ golden (67.39)
 - S Sedna → J Mercury Dec 7.774191 7.77778 ninth (76.94)
 - S Mars on sky Mercury (RA), S Sedna on sky Mercury (RA); both on natal Mercury
+- WATCH Sedna is an end of the pair (S Mars – S Sedna)
 - HIGHLIGHT same digits a decade apart: 77.7778 (S Mars – S Mercury) / 7.77778 (S Sedna → J Mercury)
 - lights on Mercury: S Moon → H Mercury RA 13.329589 13.3333 ninth (85.96)
 

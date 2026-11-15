@@ -1263,7 +1263,7 @@ Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Mercury
 
 ## BB34 — royal-star line paired; both pair ends on sky X and on natal X
 
-Rule: A scoring natal royal-star line c R – c X is matched by a sky pair S A – S B (A, B not X, no Moon); A and B each score on sky X (S A – S X, S B – S X, any plane) and each reaches natal X in either chart (S A → H X or J X; S B → H X or J X). WATCH, noted not required: the tight version (both ends on sky X in RA and Dec); the same royal-star line also paired in the other plane (Moon pairs marked). Revised 15 Nov 2026 (Eddie): first built as the tight version, widened to any plane so it also covers Pholas Mercury (Lingfield 14:35 2021).
+Rule: A scoring natal royal-star line c R – c X is matched by a sky pair S A – S B (A, B not X, no Moon); A and B each score on sky X (S A – S X, S B – S X, any plane) and each reaches natal X in either chart (S A → H X or J X; S B → H X or J X). WATCH, noted not required: the tight version (both ends on sky X in RA and Dec); the same royal-star line also paired in the other plane (Moon pairs marked); Sedna as an end of the pair (Eddie, 15 Nov 2026: Pholas Mars – Sedna, Perfect Part Rahu – Sedna). Revised 15 Nov 2026 (Eddie): first built as the tight version, widened to any plane so it also covers Pholas Mercury (Lingfield 14:35 2021).
 
 Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Mars
 
@@ -1327,6 +1327,7 @@ Origin: Beverley 14:05 8 Jun 2024, 15 Perfect Part, Mars
 - S Ceres – S Haumea Dec 42.318074 10φ³ phi power (32.95)
 - S Rahu on sky Mars (Dec/RA), S Sedna on sky Mars (Dec/RA); both on natal Mars
 - WATCH (tight version): both ends on sky Mars in RA and Dec
+- WATCH Sedna is an end of the pair (S Rahu – S Sedna)
 - WATCH J Fomalhaut – J Mars also paired in the other plane: S Moon – S Quaoar Dec (Moon); S Ceres – S Haumea Dec
 - lights on Mars: S Moon → J Mars Dec 14.591671 9×φ golden (9.37)
 

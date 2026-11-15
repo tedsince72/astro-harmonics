@@ -836,6 +836,8 @@ def bb34(b):
                      f'both on natal {b.X}']
             if all(planes(e) >= {'RA', 'Dec'} for e in (P, Q)):
                 notes.append(f'WATCH (tight version): both ends on sky {b.X} in RA and Dec')
+            if 'Sedna' in (P, Q):
+                notes.append(f'WATCH Sedna is an end of the pair (S {P} – S {Q})')
             other = [(a2, s2) for a2 in b.lines(f'{c} {R} – {c} {b.X}', scoring=True) if a2['plane'] != a['plane']
                      for s2 in b.same_on(a2)]
             if other:

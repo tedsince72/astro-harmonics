@@ -179,6 +179,7 @@ if os.path.exists(HAY):
         check(any(x.startswith(w) for x in ig), f'BB31 Ishvara Gonggong cell {w}')
     check({(c['runner'], c['body']) for c in hres['BB32']} == set() and not hres['BB32b'] and not hres['BB33'], 'BB32 / BB32b / BB33 Haydock: none')
     check({(c['runner'], c['body']) for c in hres['BB34']} == {('03 Never In Paris', 'Orcus')}, 'BB34 Haydock holders')
+    check(not any('Sedna is an end' in n for c in hres['BB34'] for n in c['notes']), 'BB34 Haydock: no Sedna note')
 BEV = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', '20240608_beverley_1405', '20240608_beverley_1405_bybody.xlsx')
 if os.path.exists(BEV):
     _, _, bres = R.run(BEV)
@@ -192,6 +193,7 @@ if os.path.exists(BEV):
         check(any(x.startswith(w) for x in mc), f'BB33 Perfect Part Mercury cell {w}')
     check(any('likely automatic' in n for n in mn) and any('other chart same-body' in n for n in mn), 'BB33 Perfect Part watch notes')
     check({(c['runner'], c['body']) for c in bres['BB34']} == {('01 Aviation Time', 'Uranus'), ('07 Mademoiselle', 'Ketu'), ('12 Sands Of Dubai', 'Saturn'), ('14 Havana White', 'Pluto'), ('15 Perfect Part', 'Mars')}, 'BB34 Beverley holders')
+    check({(c['runner'], c['body']) for c in bres['BB34'] if any('Sedna is an end' in n for n in c['notes'])} == {('15 Perfect Part', 'Mars')}, 'BB34 Beverley Sedna note')
     check({(c['runner'], c['body']) for c in bres['BB34'] if any('tight version' in n for n in c['notes'])} == {('15 Perfect Part', 'Mars')}, 'BB34 Beverley tight-version note only on Perfect Part Mars')
     rc = [x for c in bres['BB34'] if c['runner'] == '15 Perfect Part' for x in c['cells']]
     rnn = [n for c in bres['BB34'] if c['runner'] == '15 Perfect Part' for n in c['notes']]
@@ -208,5 +210,7 @@ if os.path.exists(BEV):
         check(any(x.startswith(w) for x in pc), f'BB32b Perfect Part Sun cell {w}')
     check(any('both planes' in n for n in pn) and any('0.0013' in n for n in pn) and any('third royal star' in n for n in pn),
           'BB32b Perfect Part watch notes (both planes, gap 0.0013, third royal star)')
+lres = R.run(XLSX)[2]
+check({(c['runner'], c['body']) for c in lres['BB34'] if any('Sedna is an end' in n for n in c['notes'])} == {('05 Pholas', 'Mercury')}, 'BB34 Lingfield Sedna note on Pholas Mercury')
 print(f'{ok}/{ok + bad} checks passed')
 sys.exit(1 if bad else 0)

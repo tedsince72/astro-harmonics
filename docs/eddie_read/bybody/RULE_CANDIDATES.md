@@ -588,3 +588,4 @@ Pholas Mercury (J Aldebaran – J Mercury Dec by S Mars – S Sedna Dec 16.1926)
 Mademoiselle Ketu, Sands Of Dubai Saturn, Havana White Pluto, Perfect Part Mars (tight note only on Perfect Part). Beverley bybody has 13
 runner sheets (cloths 1-4, 7-15). Note: Sedna is a pair end in both Pholas Mercury (Mars – Sedna) and Perfect Part Mars (Rahu – Sedna).
 Independent checker: holders and every cell confirmed.
+BB34 WATCH note added (Eddie, 15 Nov 2026): Sedna as an end of the pair (Lingfield Pholas Mercury, Beverley Perfect Part Mars; Haydock none).
