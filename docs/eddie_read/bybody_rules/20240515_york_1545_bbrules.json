@@ -2253,6 +2253,46 @@
     "watch_only": false
    }
   ],
-  "BB58": []
+  "BB58": [],
+  "BB59": [
+   {
+    "runner": "06 Secret Satire",
+    "body": "Jupiter",
+    "cells": [
+     "H Fomalhaut – H Jupiter Dec 15.529981 15.5556 ninth (17.79)",
+     "S Mars – S Jupiter Dec 15.553328 15.5556 ninth (92.84)",
+     "S Mars → H Jupiter RA 44.013073 44 whole (34.64)",
+     "S Fomalhaut – S Jupiter RA 70.700654 70.7 sqrt2 (90.55)"
+    ],
+    "notes": [
+     "H Fomalhaut – H Jupiter Dec carried by S Mars – S Jupiter Dec; Mars on H Jupiter (RA whole); Fomalhaut on sky Jupiter (RA 70.7)"
+    ],
+    "lights": [
+     "S Sun – S Jupiter Dec 0.172963 conj conj (42.35)",
+     "S Moon → H Jupiter RA 176.365117 109×φ golden (98.19)",
+     "S Sun → J Jupiter RA 166.902904 166.667 ninth (29.13)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "06 Secret Satire",
+    "body": "Ceres",
+    "cells": [
+     "H Regulus – H Ceres RA 133.301747 133.333 ninth (88.16)",
+     "S Ceres – S Juno RA 133.466313 133.333 ninth (50.13)",
+     "S Juno → H Ceres RA 141.238361 141.4 sqrt2 (13.74)",
+     "S Regulus – S Ceres RA 141.406279 141.4 sqrt2 (92.89)"
+    ],
+    "notes": [
+     "H Regulus – H Ceres RA carried by S Ceres – S Juno RA; Juno on H Ceres (RA sqrt2); Regulus on sky Ceres (RA 141.4)"
+    ],
+    "lights": [],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ]
  }
 }

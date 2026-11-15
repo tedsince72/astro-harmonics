@@ -3339,6 +3339,66 @@
     "additive": [],
     "watch_only": false
    }
+  ],
+  "BB59": [
+   {
+    "runner": "03 Blue Prince",
+    "body": "Vesta",
+    "cells": [
+     "J Antares – J Vesta Dec 25.012800 25 whole (36)",
+     "S Vesta – S Eris Dec 25.000944 25 whole (95.28)",
+     "S Eris → J Vesta RA 9.993915 10 ninth (69.58)",
+     "S Antares – S Vesta Dec 50.990082 51 whole (50.41)"
+    ],
+    "notes": [
+     "J Antares – J Vesta Dec carried by S Vesta – S Eris Dec; Eris on J Vesta (RA ninth); Antares on sky Vesta (Dec 51)"
+    ],
+    "lights": [
+     "S Sun – S Vesta Dec 5.560285 5.55556 ninth (57.44)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "08 Ziggy's Condor",
+    "body": "Eris",
+    "cells": [
+     "H Antares – H Eris Dec 24.991575 25 whole (57.88)",
+     "S Vesta – S Eris Dec 25.000944 25 whole (95.28)",
+     "S Vesta → H Eris Dec 25.997737 26 whole (88.69)",
+     "S Antares – S Eris Dec 25.989138 26 whole (45.69)"
+    ],
+    "notes": [
+     "H Antares – H Eris Dec carried by S Vesta – S Eris Dec; Vesta on H Eris (Dec whole); Antares on sky Eris (Dec 26)"
+    ],
+    "lights": [
+     "S Sun – S Eris Dec 19.440659 12×φ golden (25.15)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "14 Misemerald",
+    "body": "Vesta",
+    "cells": [
+     "J Antares – J Vesta RA 161.852352 100φ phi power (79.83)",
+     "S Pluto – S Vesta RA 161.936929 100φ phi power (44.98)",
+     "S Pluto → J Vesta RA 140.780450 87×φ golden (64.53)",
+     "S Antares – S Vesta Dec 50.990082 51 whole (50.41)"
+    ],
+    "notes": [
+     "J Antares – J Vesta RA carried by S Pluto – S Vesta RA; Pluto on J Vesta (RA golden); Antares on sky Vesta (Dec 51)"
+    ],
+    "lights": [
+     "S Sun – S Vesta Dec 5.560285 5.55556 ninth (57.44)",
+     "S Sun → H Vesta RA 122.298058 122.222 ninth (68.98)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
   ]
  }
 }

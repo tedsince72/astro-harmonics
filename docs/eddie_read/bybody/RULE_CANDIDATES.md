@@ -1031,3 +1031,12 @@ Song, Mortlake, Diligent Resdev Quaoar only (3 / 1 / 0.3, one origin winner).
   Field check (tools/scans/bb_fieldcheck_royal_pair_end_both_charts.py; independent checker 0 differences), 6 result races: P1 a royal line
   in each chart carried by a pair with an end on that chart's natal X: 21 picks 3 won (2.4); P2 different stars 20 / 2 (2.3); P3 + an end on
   the other chart's X 17 / 2 (2.0); P4 end lines >= 50 both charts 14 / 1 (1.8; Wotever Next out, Pluto 47.87). At chance - not built.
+
+## Rahu (Catterick 14:40 2022, 05 Wotever Next; Eddie 15 Nov 2026) - Q2 built as BB59
+- J Regulus – J Rahu RA 166.979293 ninth (6.21), same-body ratio 1.831506 11/6 (33.5), carried by S Rahu – S Haumea RA 166.802333 (59.3);
+  S Haumea → J Rahu Dec contraparallel 0.066072 (77.98); S Regulus – S Rahu Dec 6.466238 4×φ (81.8). The same sky line carries J Regulus – J Sun (BB57).
+- Field check (tools/scans/bb_fieldcheck_royal_self_pair_same_chart.py; independent checker 0 differences), 6 result races: Q1 royal line
+  carried by S X – S Y, Y on natal X same chart 17 / 4 (1.8); Q2 + the royal star on sky X 6 / 3 (0.7; Pholas Pallas, Secret Satire Ceres /
+  Jupiter, Wotever Next Rahu) -> BB59; Q3 + a same-body ratio 1 / 1 (Wotever Next only). Notes: Beverley's Q1 holder (Brazilian Belle Sun)
+  matches only on an 'also' family; three Q2 sky star lines score under about 50 (Pholas 39.89, Ziggy's Condor 45.69, Blue Prince /
+  Misemerald 50.41).

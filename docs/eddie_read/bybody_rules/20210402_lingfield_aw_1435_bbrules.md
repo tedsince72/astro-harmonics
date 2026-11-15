@@ -1,4 +1,4 @@
-# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB58
+# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB59
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -63,6 +63,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB56 | 0 | 0 | - |  |
 | BB57 | 1 | 1 | 04 Nirodha |  |
 | BB58 | 1 | 1 | 04 Nirodha |  |
+| BB59 | 1 | 1 | 05 Pholas |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -947,4 +948,21 @@ Origin: Catterick 14:40 6 Apr 2022, 5 Wotever Next, Neptune (H Fomalhaut – H N
 - S Pallas → J Pallas RA 55.518298 55.5556 ninth (66.47)
 - Regulus in both charts: H Regulus – H Pallas Dec 12.005119 12 whole (74.4) / S Pallas → H Pallas Dec 3.979648: same-body ratio 3.016628 3 twelfth (16.86) | J Regulus – J Pallas RA 122.048118 122.222 ninth (28.78) / S Pallas → J Pallas RA 55.518298: same-body ratio 2.19834 11/5 undecimal 11:5 (49.71)
 - lights on Pallas: S Moon – S Pallas Dec 27.992984 28 whole (64.92); S Sun – S Pallas RA 37.184267 23×φ golden (5.82); S Moon → H Pallas Dec 24.013335 24 whole (33.32)
+
+## BB59 — Royal line carried by S X – S Y with Y on natal X in the same chart, the same royal star on sky X
+
+Rule: A royal natal line c R – c X scores in a family (conj / contraparallel not counted) and is carried by a sky line naming X itself, S X – S Y, on the same target ('Sky lines on the same target'; Y not a royal star, not the Moon; the sky line not conj / contraparallel); Y lands on natal X in the same chart (S Y → c X scoring, any plane; conj / contraparallel count); and the same royal star R scores on sky X (S R – S X, family not conj / contraparallel). Any plane, any score. BB55 is the other-chart version without the sky star.
+
+Origin: Catterick 14:40 6 Apr 2022, 5 Wotever Next, Rahu (J Regulus – J Rahu RA 166.979293 ninth 166.667 (6.21) carried by S Rahu – S Haumea RA 166.802333 (59.3); S Haumea → J Rahu Dec contraparallel 0.066072 (77.98); S Regulus – S Rahu Dec 6.466238 4×φ (81.8)) (Eddie, 15 Nov 2026: 'q2'). Also held by Pholas Pallas (Regulus) and Secret Satire Ceres (Regulus) / Jupiter (Fomalhaut); other holders York 16:15 Blue Prince Vesta, Ziggy's Condor Eris, Misemerald Vesta (Antares). Over the 6 result races 6 picks, 3 won, 0.7 by chance. Q1 (no sky star) 17 / 4 (1.8) and Q3 (+ a same-body ratio, Wotever Next only) noted. Note: three sky star lines score under about 50 (Pholas 39.89, Ziggy's Condor 45.69, Blue Prince / Misemerald 50.41).
+
+### 05 Pholas — Pallas (only)
+- H Regulus – H Pallas RA 179.763890 180 opposition (68.52)
+- S Pallas – S Transpluto RA 179.560795 180 opposition (41.44)
+- S Transpluto → H Pallas RA 177.767175 177.778 ninth (97.02)
+- S Regulus – S Pallas RA 177.564057 177.778 ninth (39.89)
+- S Pallas – S Orcus RA 179.398319 180 opposition (19.78)
+- S Orcus → H Pallas Dec 4.865518 3×φ golden (64.77)
+- H Regulus – H Pallas RA carried by S Pallas – S Transpluto RA; Transpluto on H Pallas (RA ninth); Regulus on sky Pallas (RA 177.778)
+- H Regulus – H Pallas RA carried by S Pallas – S Orcus RA; Orcus on H Pallas (Dec golden); Regulus on sky Pallas (RA 177.778)
+- lights on Pallas: S Moon – S Pallas Dec 27.992984 28 whole (64.92); S Sun – S Pallas RA 37.184267 23×φ golden (5.82)
 
