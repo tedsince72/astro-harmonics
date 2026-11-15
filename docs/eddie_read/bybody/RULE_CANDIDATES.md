@@ -942,3 +942,13 @@ an end on natal X) Diligent Resdev and Nirodha only; T10 (a scoring royal line w
 1/5, 1/8, 2/7, 6/15 - Ishvara Jupiter, Perfect Part Uranus, Secret Satire Rahu, Diligent Resdev Rahu, 17 picks 4 won (1.5); controls: ratio
 on 10 without the royal line scoring 43 / 5 (4.2), on 11-20 40 / 4 (3.9), on 5-9 25 / 2 (2.4). Note: Perfect Part Uranus - Regulus /
 Uranus - Uranus was the origin of the same-body ratio column itself.
+
+## Diligent Resdev Pallas (15 Nov 2026, Eddie's lines; not built)
+S Antares – S Pallas RA 0.316217 conj (78.92) makes the Antares – Pallas same-body unisons geometry: H RA unison in all 15 runners, J RA in
+14 (not Elmonjed); the extra H Dec unison 1.007001 only Diligent Resdev and Misemerald (born close in time). H Aldebaran – H Pallas Dec
+16.990885 17 (54.4) carried by S Pallas – S Sedna Dec 16.998976 17 (94.9); S Sedna → J Pallas Dec 22.655851 14×φ (89.6) and RA 40.982065 41.
+S Sun → J Pallas Dec 33.003888 33 (80.6) and RA 33.347591 ninth 33.3333 (78.6). Field (tools/scans/bb_fieldcheck_diligent_pallas.py; checker
+0 mismatches): P2 (one sky body on natal X both planes, numeric targets with the same whole part; golden targets left out) Arafi Juno and
+Diligent Resdev Pallas only - 2 picks, 1 won, 0.2 by chance (with golden targets read as numbers 4 more holders, incl. Secret Satire Vesta
+1 / 1×φ); P3o (royal line carried by S X – S Y, Y on natal X in the other chart; opposition counts as a family) 3/6, 6/10, 6/13, 1/5, 4/8,
+3/7, 9/15 - all 5 origin winners, 27 picks, 5 won, 2.6 by chance; P3 (any chart) 29 picks, 5 won, 2.7.
