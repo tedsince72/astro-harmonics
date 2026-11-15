@@ -1004,3 +1004,15 @@ Song, Mortlake, Diligent Resdev Quaoar only (3 / 1 / 0.3, one origin winner).
   Mars Aldebaran). No second winner on the tight versions.
 - Scan note: eddie_bybody_rules.num() returns True / False (is a number), not the value; the first run of this scan used it as a value
   and its A2 / A5 were wrong (fixed before reporting). The built rules use num() only as a test.
+
+## Saturn (Catterick 14:40 2022, 05 Wotever Next; Eddie 15 Nov 2026) - not built
+- H Regulus – H Saturn Dec 33.543975 / S Saturn → H Saturn RA 33.584453 = crossed 1.001207 unison (93.97); J Regulus – J Saturn Dec 33.685146 /
+  S Saturn → J Saturn RA 33.460658 = 1.006709 unison (66.45); Moon: S Moon – S Saturn RA 111.0398 ninth 111.111 (67.9), S Moon → H Saturn RA
+  144.6243 and → J Saturn RA 144.5005 ninth 144.444 (37.8 / 80.6).
+- Why both charts match: H Saturn – J Saturn RA 0.123796, Dec 0.14179 (the horse's and jockey's natal Saturns conjunct in both planes), so every
+  line on Saturn repeats in the other chart.
+- Field check (tools/scans/bb_fieldcheck_royal_unison_both_charts.py; independent checker 0 differences), 6 result races: U1 same royal star,
+  unison ratio in both charts 43 picks 5 won (4.0; field-wide automatic unisons, e.g. Haydock Venus Aldebaran 10 of 10, York Pallas Antares);
+  U2 crossed unison both charts 2 / 1 (0.3; Wotever Next, Beverley Invincible Annice Pluto Antares); U3 same interval both charts 44 / 5 (4.2);
+  U4 any royal star, unison both charts 44 / 5 (4.1). H X – J X conjunct in RA and Dec (any body): 4 runners in 7 races (Haydock Dancin
+  Inthestreet Rahu / Ketu, Beverley Aviation Time Sun, York 15:45 Francophone Chiron, Wotever Next Saturn): 4 picks 1 won (0.5).
