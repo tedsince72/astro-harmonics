@@ -766,3 +766,18 @@ Lines: S Uranus – S Neptune RA 50.9991 whole 51 (95.7); S Uranus → H Neptune
 7 = 1h + Sun on sky X: 0 / 0 / 2 / 0 / 2 / 3. 8 = 1h + Moon in the same-body chart: 0 / 0 / 3 / 2 / 1 / 3.
 9 = 4 with both Y lines >= 80: Secret Satire Neptune only. 6 = 4 + the same-body line carried by a pair with the Sun: Secret Satire Neptune only.
 4h = 4 with the Y and Sun lines >= 80: Secret Satire Neptune only.
+
+## BB47 — York 15:45 15 May 2024, 6 Secret Satire, Ceres (15 Nov 2026, built: version c + d, one pair may do both)
+Lines: H Regulus – H Ceres RA 133.3017 ninth 133.333 (88.2), on its target S Uranus → J Ceres RA 133.4629 (51.4), S Ceres – S Juno RA 133.4663
+(50.1), S Ketu – S Sedna RA 133.1625 (36.0), S Juno – S Eris RA 133.1323 (24.6); S Ketu – S Ceres RA 100.1174 ninth 100; S Sedna → H Ceres RA
+41.4247 silver (94.7); S Juno → H Ceres RA √2 141.4 (13.7), J Ceres RA 24 (83.0); S Eris → H Ceres RA 5×φ (51.1), Dec cp 0.0882; S Regulus –
+S Ceres RA √2 141.4 (92.9, the same target as S Juno → H Ceres); S Antares – S Ceres Dec ninth 1.33333. Already held BB3, BB12, BB28, BB35.
+Field check (Lingfield / Haydock / Beverley / Catterick / Chelmsford / York; royal line and end lines not conj / cp; pairs not naming X or the Moon):
+a = royal line carried by a pair, one end on sky X, the other on natal X in the royal chart: 6 / 9 / 27 / 8 / 16 / 21 (not built, noted).
+b = a + the royal line also carried by S Y → X in the other chart: 0 / Garsman Orcus / Aviation Time Gonggong / 0 / Foinix Gonggong /
+  Friendly Soul Ketu, Secret Satire Ceres, Quaoar (not built, noted).
+c = a + a pair with both ends on natal X: 1 / 3 / 5 / 0 / 4 / 11. d = a + a sky line naming X on the target: 0 / 2 / 1 / 1 / 0 / 2.
+c + d (built, BB47; a pair may be the split pair and the both-ends pair at once): Ishvara Gonggong / Havana White Rahu / Friendly Soul
+  Jupiter, Secret Satire Ceres. With two different pairs required: Secret Satire Ceres only (not built; Eddie chose one pair may do both).
+e = a + the same royal star on sky X: 4 / 1 / 7 / 2 / 5 / 15. f = royal line with >= 4 sky lines on its target: 6 / 23 / 18 / 3 / 4 / 8.
+b + d, b + c + d: Secret Satire Ceres only; b + c, b + e: Friendly Soul Ketu, Secret Satire Ceres (not built, noted).

@@ -1,4 +1,4 @@
-# 20200608_haydock_1345 — body-by-body rules BB1-BB46
+# 20200608_haydock_1345 — body-by-body rules BB1-BB47
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -51,6 +51,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB44 | 0 | 0 | - |  |
 | BB45 | 0 | 0 | - |  |
 | BB46 | 0 | 0 | - |  |
+| BB47 | 1 | 1 | 07 Ishvara |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1155,4 +1156,20 @@ Rule: BB45 holds and a royal star (Aldebaran, Antares, Fomalhaut, Regulus) is on
 Origin: York 15:45 15 May 2024, 6 Secret Satire, Saturn (S Saturn → H Saturn RA 35, S Mercury → J Saturn RA 35, S Mercury → H Saturn Dec 10φ² and RA 46×φ) (S Fomalhaut – S Saturn Dec 23)
 
 No runner holds it.
+
+## BB47 — Royal line carried by a split pair, a pair on natal X and a sky line naming X
+
+Rule: A natal royal-star line c R – c X scores (conj / contraparallel not counted). On its target: a sky pair S A – S B (not naming X or the Moon) with one end on sky X (S A – S X) and the other on natal X in chart c (S B → c X); a pair on the target (the same pair or another) with both ends on natal X in chart c; and a sky line naming X (S X – S Y or S Y – S X). End lines not conj / contraparallel; any plane, any score.
+
+Origin: York 15:45 15 May 2024, 6 Secret Satire, Ceres (H Regulus – H Ceres RA 133.3333: S Ketu – S Sedna RA, Ketu on sky Ceres, Sedna on H Ceres; S Juno – S Eris RA, both on H Ceres; S Ceres – S Juno RA); version c + d, one pair may do both (Eddie, 15 Nov 2026). Also held by Ishvara Gonggong (Haydock).
+
+### 07 Ishvara — Gonggong (only)
+- J Aldebaran – J Gonggong RA 100.174939 100 ninth (12.53)
+- S Neptune – S Vesta RA 100.112554 100 ninth (43.72)
+- S Vesta – S Gonggong RA 114.869213 71×φ golden (65.43)
+- S Neptune → J Gonggong RA 23.000954 23 whole (95.23)
+- S Vesta → J Gonggong RA 123.113508 φ¹⁰ phi power (34.07)
+- S Sun – S Gonggong RA 99.801411 100 ninth (0.71)
+- J Aldebaran – J Gonggong RA: S Neptune – S Vesta RA (Vesta on sky Gonggong, Neptune on J Gonggong); S Neptune – S Vesta RA (Neptune and Vesta on J Gonggong; the same pair); S Sun – S Gonggong RA
+- lights on Gonggong: S Moon – S Gonggong RA 42.100536 26×φ golden (2.31); S Sun – S Gonggong RA 99.801411 100 ninth (0.71)
 
