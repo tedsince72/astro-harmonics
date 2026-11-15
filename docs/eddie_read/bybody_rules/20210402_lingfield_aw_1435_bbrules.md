@@ -1,4 +1,4 @@
-# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB47
+# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB48
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -52,6 +52,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB45 | 0 | 0 | - |  |
 | BB46 | 0 | 0 | - |  |
 | BB47 | 0 | 0 | - |  |
+| BB48 | 2 | 2 | 04 Nirodha, 05 Pholas |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -765,4 +766,35 @@ Rule: A natal royal-star line c R – c X scores (conj / contraparallel not coun
 Origin: York 15:45 15 May 2024, 6 Secret Satire, Ceres (H Regulus – H Ceres RA 133.3333: S Ketu – S Sedna RA, Ketu on sky Ceres, Sedna on H Ceres; S Juno – S Eris RA, both on H Ceres; S Ceres – S Juno RA); version c + d, one pair may do both (Eddie, 15 Nov 2026). Also held by Ishvara Gonggong (Haydock).
 
 No runner holds it.
+
+## BB48 — Royal line carried by a pair with both ends on sky X, reaching natal X in both charts
+
+Rule: A natal royal-star line c R – c X scores (conj / contraparallel not counted). A sky pair S A – S B on its target (not naming X or the Moon) has both ends on sky X (S A – S X and S B – S X) and one of them on natal X in chart c (S A / S B → c X); an end of a pair on the target (the same pair or another) is on natal X in the other chart. End lines not conj / contraparallel; any plane, any score.
+
+Origin: York 15:45 15 May 2024, 6 Secret Satire, Chiron (H Regulus – H Chiron RA 144.444: S Jupiter – S Makemake RA, Jupiter RA 36 and Makemake RA opposition on sky Chiron, Makemake → H Chiron RA 168; S Pluto – S Juno RA, Pluto → J Chiron RA 78×φ); version 1, the same pair may reach the other chart (Eddie, 15 Nov 2026). Also held by Pholas Mercury (Lingfield) and Perfect Part Mars (Beverley).
+
+### 04 Nirodha — Ketu (also: 05 Pholas)
+- J Regulus – J Ketu RA 162.013684 162 whole (31.58)
+- S Neptune – S Transpluto RA 161.769232 100φ phi power (85.92)
+- S Neptune – S Ketu Dec 17.776456 17.7778 ninth (96.28)
+- S Transpluto – S Ketu Dec 32.984643 33 whole (23.21)
+- S Transpluto → J Ketu Dec 28.017198 28 whole (14.01)
+- S Transpluto → J Ketu RA 160.019305 160 whole (3.47)
+- S Transpluto → H Ketu RA 179.018702 179 whole (6.49)
+- J Regulus – J Ketu RA: S Neptune – S Transpluto RA (Neptune and Transpluto on sky Ketu; Transpluto on J Ketu); on H Ketu: Transpluto (S Neptune – S Transpluto RA, the same pair)
+- lights on Ketu: S Moon – S Ketu RA 6.478490 4×φ golden (80.39); S Moon → H Ketu Dec 12.959174 8×φ golden (54.01)
+
+### 05 Pholas — Mercury (also: 04 Nirodha)
+- J Aldebaran – J Mercury Dec 16.193302 10×φ golden (59.99)
+- S Mars – S Sedna Dec 16.192613 10×φ golden (62.12)
+- S Mars – S Mercury RA 77.750019 77.7778 ninth (82.15)
+- S Sedna – S Mercury RA 59.877576 37×φ golden (68.15)
+- S Mars → J Mercury RA 108.397711 67×φ golden (67.39)
+- S Sedna → J Mercury Dec 7.774191 7.77778 ninth (76.94)
+- S Mars → H Mercury Dec 44.502423 44.4444 ninth (34.77)
+- S Mars – S Sedna Dec 16.192613 10φ phi power (49.43)
+- J Aldebaran – J Mercury Dec: S Mars – S Sedna Dec (Mars and Sedna on sky Mercury; Mars, Sedna on J Mercury); on H Mercury: Mars (S Mars – S Sedna Dec, the same pair); Mars (S Mars – S Sedna Dec)
+- J Aldebaran – J Mercury Dec: S Mars – S Sedna Dec (Mars and Sedna on sky Mercury; Mars, Sedna on J Mercury); on H Mercury: Mars (S Mars – S Sedna Dec); Mars (S Mars – S Sedna Dec, the same pair)
+- HIGHLIGHT same digits a decade apart: 77.7778 (S Mars – S Mercury) / 7.77778 (S Sedna → J Mercury)
+- lights on Mercury: S Moon → H Mercury RA 13.329589 13.3333 ninth (85.96)
 

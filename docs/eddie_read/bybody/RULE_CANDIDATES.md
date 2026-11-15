@@ -796,3 +796,36 @@ Field check (Lingfield / Haydock / Beverley / Catterick / Chelmsford / York; roy
 1c + 2: Shimmering Dawn Juno, Secret Satire Pallas.
 
 Build standard (Eddie, 15 Nov 2026): from now on a rule needs a second origin winner on the same structure, unless the shape is very strong.
+
+## Juno — York 15:45 15 May 2024, 6 Secret Satire (15 Nov 2026, not built: Eddie "leave it")
+Lines: S Neptune – S Juno Dec 12.2236 ninth (94.6), S Neptune → H Juno Dec 6.6679 ninth (90.9), S Neptune → J Juno Dec 8.0802 5×φ (69.1); same-body
+S Juno → H Juno Dec 18.8914 ninth 18.8889 (93.3); H Juno – J Juno Dec 1.4123 √2 (8.9). Field check (Lingfield / Haydock / Beverley / Catterick /
+Chelmsford / York; Y a sky body not X; no conj / cp):
+a = Y on sky X and both natal X: 35 / 56 / 56 / 28 / 47 / 45. b = a, the three Y lines in one plane: 10 / 25 / 12 / 5 / 13 / 12.
+c = b + a same-body line in that plane: 4 / 8 / 1 / 2 / 6 / 8. d2 = c, Y's sky line, Y's line to that natal X and the same-body line in one
+family: 3 / 6 / 0 / 1 / 3 / 5 (Pholas Vesta: S Quaoar – S Vesta Dec 21×φ, → H Vesta Dec 23×φ, S Vesta → H Vesta Dec 2×φ, → J Vesta Dec φ⁴; Secret
+Satire Juno). d3 = d2, Y's other-chart line a different family: 2 / 5 / 0 / 1 / 2 / 4 (same two winners). e = c + H X – J X in that plane: 1 / 1 /
+0 / 0 / 2 / 2 (no Pholas). g = b with Y lines >= 60 + a same-body line >= 80: Indie Angel Venus / 0 / 0 / 0 / Sullivan Bay Chiron / Secret Satire Juno.
+
+## Vesta — York 15:45 15 May 2024, 6 Secret Satire (15 Nov 2026, not built: Eddie "leave it"; no second winner)
+Lines: S Antares – S Vesta Dec 50.9907 whole 51 (53.3); H Antares – H Vesta RA 84.4321 (no family), same-body ratio vs S Vesta → H Vesta 56.282514 =
+1.500148 3/2 (99.3); H Aldebaran – H Vesta Dec 2.2254 ninth (29.2), same-body ratio φ² (89.4); J Aldebaran – J Vesta Dec φ³ (84.5); S Fomalhaut –
+S Vesta RA 122.2277 ninth (97.8); H Vesta – J Vesta Dec 4×φ (61.1) carried by S Moon – S Chiron Dec 4×φ (89.5), and H Mercury – J Mercury Dec 6.4785
+4×φ (80.3, a Mercury line); Mercury on sky Vesta Dec 10×φ and H Vesta RA 83×φ; Sun on sky Vesta Dec ninth and H Vesta Dec conj 0.2595.
+Field check (same races): a = royal R on sky X + R's natal line on X with a same-body ratio >= 80: 7 / 27 (incl. Ishvara Venus) / 24 / 5 / 15 / 8.
+b = a + another royal star on both natal X with a ratio >= 80: Shimmering Dawn Eris / 0 / 0 / 0 / Sullivan Bay Rahu / Secret Satire Vesta.
+c0 = H X – J X on the same family + target as another body's H Y – J Y: mostly Rahu with Ketu (automatic: the nodes are opposite); without them
+Shimmering Dawn Juno, Secret Satire Mercury, Vesta. c = c0 + Y on sky X and natal X: Secret Satire Vesta only.
+
+## BB48 — York 15:45 15 May 2024, 6 Secret Satire, Chiron (15 Nov 2026, built: version 1, the same pair may reach the other chart)
+Lines: S Regulus – S Chiron RA 133 (26.2); H Regulus – H Chiron RA 144.6548 ninth 144.444 (27.2) carried by S Ketu – S Gonggong (96.9), S Jupiter –
+S Makemake (57.2), S Pluto – S Juno (18.0); Jupiter on sky Chiron RA 36 (62.8), Makemake RA opposition 180 (56.3) and → H Chiron RA 168 (71.7);
+Pluto → J Chiron RA 78×φ (35.5); Ketu → H Chiron Dec contraparallel 0.0190 (93.7, not counted); crossed ratios H 15/8 (63.6), J 11 (91.6) (BB10).
+Already held BB10, BB28. Field check (Lingfield / Haydock / Beverley / Catterick / Chelmsford / York):
+a = royal line carried by a pair with both ends on sky X, one also on natal X in the royal chart: 2 / 1 / 10 / 2 / 4 / 11.
+b = a + a pair end on natal X in the other chart (built, BB48): Nirodha Ketu, Pholas Mercury / Ventura Flame Quaoar / Aviation Time Uranus, Sands Of
+  Dubai Venus, Perfect Part Mars / Thakuri Eris / Sullivan Bay Jupiter, Reset Button Vesta, Foinix Gonggong / Classical Song Ketu, Friendly Soul Ketu,
+  La Pasionaria Saturn, Secret Satire Chiron, Quaoar, Sinology Ketu. Pholas Mercury (J Aldebaran – J Mercury Dec 10×φ, S Mars – S Sedna Dec) and
+  Perfect Part Mars (J Fomalhaut – J Mars RA 30×φ, S Rahu – S Sedna RA) reach the other chart through the same pair; Secret Satire through another.
+b with two different pairs: Secret Satire only (not built). b2 = b + R on sky X in the royal line's plane: Nirodha Ketu / 0 / 0 / 0 / Reset Button
+  Vesta / Secret Satire Chiron (not built). c2 = >= 3 pairs + a: York La Pasionaria Saturn, Chiron, Secret Satire Chiron, Sinology Ketu only.

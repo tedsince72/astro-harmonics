@@ -65,6 +65,7 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB45': set(),
     'BB46': set(),
     'BB47': set(),
+    'BB48': {('04 Nirodha', 'Ketu'), ('05 Pholas', 'Mercury')},
 }
 CELLS = {  # rule: (runner, body, [cell texts that must be in the case])
     'BB1': ('05 Pholas', 'Mercury', ['J Aldebaran – J Mercury Dec 16.193302 10×φ golden (59.99)',
@@ -209,6 +210,7 @@ if os.path.exists(HAY):
               'S Neptune → J Gonggong RA 23.000954', 'S Vesta → J Gonggong RA 123.113508', 'S Sun – S Gonggong RA 99.801411'):
         check(any(x.startswith(w) for x in ic7), f'BB47 Ishvara Gonggong cell {w}')
     check(len(ic7) == 6 and any('the same pair' in n for c in hres['BB47'] for n in c['notes']), 'BB47 Ishvara: 6 cells, one pair does both')
+    check({(c['runner'], c['body']) for c in hres['BB48']} == {('02 Ventura Flame', 'Quaoar')}, 'BB48 Haydock holders')
     check({(c['runner'], c['body']) for c in hres['BB43']} == {('07 Ishvara', 'Rahu'), ('09 Garsman', 'Transpluto'), ('11 Mews House', 'Sun')}, 'BB43 Haydock holders')
     ic3 = [x for c in hres['BB43'] if c['runner'] == '07 Ishvara' for x in c['cells']]
     in3 = [n for c in hres['BB43'] if c['runner'] == '07 Ishvara' for n in c['notes']]
@@ -310,6 +312,12 @@ if os.path.exists(BEV):
     check(bres['BB44'] == [], 'BB44 Beverley: no holder')
     check(bres['BB45'] == [] and bres['BB46'] == [], 'BB45 / BB46 Beverley: no holder')
     check({(c['runner'], c['body']) for c in bres['BB47']} == {('14 Havana White', 'Rahu')}, 'BB47 Beverley holders')
+    check({(c['runner'], c['body']) for c in bres['BB48']} == {('01 Aviation Time', 'Uranus'), ('12 Sands Of Dubai', 'Venus'), ('15 Perfect Part', 'Mars')}, 'BB48 Beverley holders')
+    pc8 = [x for c in bres['BB48'] if c['runner'] == '15 Perfect Part' for x in c['cells']]
+    for w in ('J Fomalhaut – J Mars RA 48.561123', 'S Rahu – S Sedna RA 48.555037', 'S Rahu – S Mars RA 15.559809',
+              'S Sedna – S Mars RA 32.995228', 'S Rahu → J Mars RA 20.997272', 'S Sedna → H Mars Dec 22.238022'):
+        check(any(x.startswith(w) for x in pc8), f'BB48 Perfect Part Mars cell {w}')
+    check(any('the same pair' in n for c in bres['BB48'] if c['runner'] == '15 Perfect Part' for n in c['notes']), 'BB48 Perfect Part: the same pair reaches H Mars')
     check({(c['runner'], c['body']) for c in bres['BB43']} == {('07 Mademoiselle', 'Pluto'), ('09 Nad Alshiba Snow', 'Pallas'), ('11 Powerful Lady', 'Makemake')}, 'BB43 Beverley holders')
     pc2 = [x for c in bres['BB42'] if c['runner'] == '15 Perfect Part' for x in c['cells']]
     pn2 = [n for c in bres['BB42'] if c['runner'] == '15 Perfect Part' for n in c['notes']]
@@ -374,6 +382,15 @@ for rid in ('BB45', 'BB46'):
 if os.path.exists(CAT):
     check(cres['BB45'] == [] and cres['BB46'] == [], 'BB45 / BB46 Catterick: no holder')
     check(cres['BB47'] == [], 'BB47 Catterick: no holder')
+    check({(c['runner'], c['body']) for c in cres['BB48']} == {('04 Thakuri', 'Eris')}, 'BB48 Catterick holders')
+check({(c['runner'], c['body']) for c in yres['BB48']} == {('01 Classical Song', 'Ketu'), ('03 Friendly Soul', 'Ketu'), ('04 La Pasionaria', 'Saturn'),
+      ('06 Secret Satire', 'Chiron'), ('06 Secret Satire', 'Quaoar'), ('07 Sinology', 'Ketu')}, 'BB48 York holders')
+yc8 = [x for c in yres['BB48'] if c['runner'] == '06 Secret Satire' and c['body'] == 'Chiron' for x in c['cells']]
+for w in ('H Regulus – H Chiron RA 144.654790', 'S Jupiter – S Makemake RA 144.320722', 'S Jupiter – S Chiron RA 36.007432',
+          'S Makemake – S Chiron RA 179.671846', 'S Makemake → H Chiron RA 168.005655', 'S Pluto – S Juno RA 144.681271',
+          'S Pluto → J Chiron RA 126.227565'):
+    check(any(x.startswith(w) for x in yc8), f'BB48 Secret Satire Chiron cell {w}')
+check(len(yc8) == 7 and not any('Ketu' in x for x in yc8), 'BB48 Secret Satire Chiron: 7 cells, the Ketu contraparallel end left out')
 check({(c['runner'], c['body']) for c in yres['BB47']} == {('03 Friendly Soul', 'Jupiter'), ('06 Secret Satire', 'Ceres')}, 'BB47 York holders')
 yc7 = [x for c in yres['BB47'] if c['runner'] == '06 Secret Satire' for x in c['cells']]
 for w in ('H Regulus – H Ceres RA 133.301747', 'S Ketu – S Sedna RA 133.162547', 'S Ketu – S Ceres RA 100.117445',

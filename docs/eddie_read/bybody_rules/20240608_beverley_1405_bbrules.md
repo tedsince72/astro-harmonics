@@ -1,4 +1,4 @@
-# 20240608_beverley_1405 — body-by-body rules BB1-BB47
+# 20240608_beverley_1405 — body-by-body rules BB1-BB48
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -52,6 +52,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB45 | 0 | 0 | - |  |
 | BB46 | 0 | 0 | - |  |
 | BB47 | 1 | 1 | 14 Havana White |  |
+| BB48 | 3 | 3 | 01 Aviation Time, 12 Sands Of Dubai, 15 Perfect Part |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1585,4 +1586,44 @@ Origin: York 15:45 15 May 2024, 6 Secret Satire, Ceres (H Regulus – H Ceres RA
 - WATCH additive step (Dec): 9×φ = 7×φ + 2×φ (S Sedna → J Rahu; S Jupiter – S Sedna; S Jupiter → J Rahu) (may be geometry: three distances between the same three points)
 - WATCH additive step (Dec): 9×φ = 2×φ + 7×φ (S Sedna → J Rahu; S Jupiter → J Rahu; S Saturn – S Rahu)
 - lights on Rahu: S Moon – S Rahu Dec 22.243758 22.2222 ninth (51.54); S Sun – S Rahu Dec 17.744492 17.7778 ninth (6.38); S Moon → J Rahu RA 8.083391 5×φ golden (79.08)
+
+## BB48 — Royal line carried by a pair with both ends on sky X, reaching natal X in both charts
+
+Rule: A natal royal-star line c R – c X scores (conj / contraparallel not counted). A sky pair S A – S B on its target (not naming X or the Moon) has both ends on sky X (S A – S X and S B – S X) and one of them on natal X in chart c (S A / S B → c X); an end of a pair on the target (the same pair or another) is on natal X in the other chart. End lines not conj / contraparallel; any plane, any score.
+
+Origin: York 15:45 15 May 2024, 6 Secret Satire, Chiron (H Regulus – H Chiron RA 144.444: S Jupiter – S Makemake RA, Jupiter RA 36 and Makemake RA opposition on sky Chiron, Makemake → H Chiron RA 168; S Pluto – S Juno RA, Pluto → J Chiron RA 78×φ); version 1, the same pair may reach the other chart (Eddie, 15 Nov 2026). Also held by Pholas Mercury (Lingfield) and Perfect Part Mars (Beverley).
+
+### 01 Aviation Time — Uranus (also: 12 Sands Of Dubai, 15 Perfect Part)
+- H Aldebaran – H Uranus RA 27.512681 17×φ golden (81.16)
+- S Haumea – S Orcus Dec 27.531667 17×φ golden (22.56)
+- S Haumea – S Uranus Dec 3.220224 2×φ golden (51.1)
+- S Orcus – S Uranus Dec 30.751891 19×φ golden (71.47)
+- S Orcus → H Uranus RA 115.982884 116 whole (14.42)
+- S Haumea → J Uranus Dec 38.991900 39 whole (59.5)
+- H Aldebaran – H Uranus RA: S Haumea – S Orcus Dec (Haumea and Orcus on sky Uranus; Orcus on H Uranus); on J Uranus: Haumea (S Haumea – S Orcus Dec, the same pair)
+- WATCH additive step (Dec): 19×φ = 17×φ + 2×φ (S Orcus – S Uranus; S Haumea – S Orcus; S Haumea – S Uranus) (may be geometry: three distances between the same three points)
+- lights on Uranus: S Moon → J Uranus Dec 51.016456 51 whole (17.72)
+
+### 12 Sands Of Dubai — Venus (also: 01 Aviation Time, 15 Perfect Part)
+- H Fomalhaut – H Venus RA 17.798155 11×φ golden (99.32)
+- S Pluto – S Ketu Dec 17.748291 17.7778 ninth (17.07)
+- S Pluto – S Venus RA 133.520006 133.333 ninth (30)
+- S Ketu – S Venus RA 114.002293 114 whole (88.54)
+- S Pluto → H Venus Dec 22.247020 22.2222 ninth (44.2)
+- S Sun – S Rahu Dec 17.744492 17.7778 ninth (6.38)
+- S Rahu → J Venus Dec 14.583686 9×φ golden (34.01)
+- H Fomalhaut – H Venus RA: S Pluto – S Ketu Dec (Pluto and Ketu on sky Venus; Pluto on H Venus); on J Venus: Rahu (S Sun – S Rahu Dec)
+- lights on Venus: S Sun – S Venus Dec 0.187596 conj conj (37.47); S Sun – S Venus RA 1.137027 conj conj (24.2)
+
+### 15 Perfect Part — Mars (also: 01 Aviation Time, 12 Sands Of Dubai)
+- J Fomalhaut – J Mars RA 48.561123 30×φ golden (37.95)
+- S Rahu – S Sedna RA 48.555037 30×φ golden (56.74)
+- S Rahu – S Mars RA 15.559809 15.5556 ninth (86.33)
+- S Rahu – S Mars Dec 4.985042 5 whole (25.21)
+- S Sedna – S Mars RA 32.995228 33 whole (76.14)
+- S Sedna – S Mars Dec 1.416256 1.414 sqrt2 (3.72)
+- S Rahu → J Mars RA 20.997272 21 whole (86.36)
+- S Sedna → H Mars Dec 22.238022 22.2222 ninth (64.45)
+- J Fomalhaut – J Mars RA: S Rahu – S Sedna RA (Rahu and Sedna on sky Mars; Rahu on J Mars); on H Mars: Sedna (S Rahu – S Sedna RA, the same pair)
+- lights on Mars: S Moon → J Mars Dec 14.591671 9×φ golden (9.37)
 

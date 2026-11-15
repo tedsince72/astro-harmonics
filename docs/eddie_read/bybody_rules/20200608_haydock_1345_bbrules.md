@@ -1,4 +1,4 @@
-# 20200608_haydock_1345 — body-by-body rules BB1-BB47
+# 20200608_haydock_1345 — body-by-body rules BB1-BB48
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -52,6 +52,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB45 | 0 | 0 | - |  |
 | BB46 | 0 | 0 | - |  |
 | BB47 | 1 | 1 | 07 Ishvara |  |
+| BB48 | 1 | 1 | 02 Ventura Flame |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1172,4 +1173,20 @@ Origin: York 15:45 15 May 2024, 6 Secret Satire, Ceres (H Regulus – H Ceres RA
 - S Sun – S Gonggong RA 99.801411 100 ninth (0.71)
 - J Aldebaran – J Gonggong RA: S Neptune – S Vesta RA (Vesta on sky Gonggong, Neptune on J Gonggong); S Neptune – S Vesta RA (Neptune and Vesta on J Gonggong; the same pair); S Sun – S Gonggong RA
 - lights on Gonggong: S Moon – S Gonggong RA 42.100536 26×φ golden (2.31); S Sun – S Gonggong RA 99.801411 100 ninth (0.71)
+
+## BB48 — Royal line carried by a pair with both ends on sky X, reaching natal X in both charts
+
+Rule: A natal royal-star line c R – c X scores (conj / contraparallel not counted). A sky pair S A – S B on its target (not naming X or the Moon) has both ends on sky X (S A – S X and S B – S X) and one of them on natal X in chart c (S A / S B → c X); an end of a pair on the target (the same pair or another) is on natal X in the other chart. End lines not conj / contraparallel; any plane, any score.
+
+Origin: York 15:45 15 May 2024, 6 Secret Satire, Chiron (H Regulus – H Chiron RA 144.444: S Jupiter – S Makemake RA, Jupiter RA 36 and Makemake RA opposition on sky Chiron, Makemake → H Chiron RA 168; S Pluto – S Juno RA, Pluto → J Chiron RA 78×φ); version 1, the same pair may reach the other chart (Eddie, 15 Nov 2026). Also held by Pholas Mercury (Lingfield) and Perfect Part Mars (Beverley).
+
+### 02 Ventura Flame — Quaoar (only)
+- J Antares – J Quaoar Dec 12.014280 12 whole (28.6)
+- S Sun – S Transpluto Dec 11.994149 12 whole (70.75)
+- S Sun – S Quaoar RA 163.016924 163 whole (15.38)
+- S Transpluto – S Quaoar Dec 26.143052 10φ² phi power (5.05)
+- S Sun → J Quaoar RA 166.755610 166.667 ninth (73.32)
+- S Sun → H Quaoar RA 166.396581 166.667 ninth (18.97)
+- J Antares – J Quaoar Dec: S Sun – S Transpluto Dec (Sun and Transpluto on sky Quaoar; Sun on J Quaoar); on H Quaoar: Sun (S Sun – S Transpluto Dec, the same pair)
+- lights on Quaoar: S Sun – S Quaoar RA 163.016924 163 whole (15.38); S Sun → H Quaoar RA 166.396581 166.667 ninth (18.97); S Sun → J Quaoar RA 166.755610 166.667 ninth (73.32); S Moon → J Quaoar Dec 9.686207 6×φ golden (32.11)
 
