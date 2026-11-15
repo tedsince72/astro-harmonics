@@ -1040,3 +1040,19 @@ Song, Mortlake, Diligent Resdev Quaoar only (3 / 1 / 0.3, one origin winner).
   Jupiter, Wotever Next Rahu) -> BB59; Q3 + a same-body ratio 1 / 1 (Wotever Next only). Notes: Beverley's Q1 holder (Brazilian Belle Sun)
   matches only on an 'also' family; three Q2 sky star lines score under about 50 (Pholas 39.89, Ziggy's Condor 45.69, Blue Prince /
   Misemerald 50.41).
+
+## Catterick 14:40 2022, Wotever Next Ceres (15 Nov 2026): one same-body line in both planes, the two carriers share a body (noted, not built)
+- From Eddie's lines:
+  - S Ceres → H Ceres RA 179.9663, opposition 180 (95.5). Carried by S Mercury – S Makemake RA 179.5527 (40.4).
+  - S Ceres → H Ceres Dec 41.3600, silver 41.4 (1.3). Carried by S Ketu – S Makemake Dec 41.3912 (51.5).
+  - The shared end is Makemake, which is on Ceres twice: S Makemake – S Ceres Dec, ninth 1.77778 (36.3), and S Makemake → J Ceres Dec 4.8521, 3×φ (93.8).
+  - The other ends are on Ceres too: S Mercury → H Ceres Dec 24.1236, silver 24.14 (48.7), and S Ketu – S Ceres RA 156.9483, 97×φ (97.0).
+  - Wotever Next Ceres already holds BB3, BB6 and BB7.
+- Scan: tools/scans/bb_fieldcheck_same_body_both_planes_shared_pair.py. The 6 result races are Lingfield, Haydock, Beverley, York 15:45, York 16:15 and Catterick; Chelmsford also run.
+  - **C1:** S X → c X scores in RA and in Dec (same chart; conj and cp not counted). Each plane is carried by a sky pair on its target (not naming X, no Moon, no royal star), and the two pairs share a body. 2 picks, 1 won, 0.4 by chance:
+    - Lingfield Shimmering Dawn, Chiron J: RA ninth 77.7778 by S Mercury – S Mars; Dec 12 by S Mercury – S Quaoar; shared Mercury.
+    - Wotever Next.
+  - **C1r:** C1 with royal stars allowed in the pairs. Same holders.
+  - **C2:** C1, plus the shared body on X. Wotever Next only (1 pick, 1 won, 0.2). Shimmering Dawn has no Mercury line on Chiron.
+  - **C3:** C2, plus every other end on X. Wotever Next only.
+- One origin winner, so it is noted and not built (build standard). Independent checker (15 Nov), own code: 0 mismatches.
