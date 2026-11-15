@@ -920,3 +920,13 @@ and S X -> c X on whole N: Haydock 1/10, Beverley 3/13, York 16:15 3/15, others 
 the same-body line) Beverley 2/13 (Invincible Annice Gonggong, Mademoiselle Chiron), York 16:15 2/15 (Diligent Resdev, Misemerald Uranus -
 same Uranus figures, born close in time); E3 (crossed ratio and same-body in the royal plane) Haydock 1, Beverley 1, York 16:15 3. One
 origin winner only.
+
+## Diligent Resdev Neptune, ninth carriers (15 Nov 2026, Eddie's lines; not built)
+J Aldebaran – J Neptune RA 144.470238 ninth 144.444 (91.07) carried by three sky pairs: S Ketu – S Gonggong RA 144.453513 (96.86),
+S Jupiter – S Makemake RA 144.315425 (55.34), S Pluto – S Juno RA 144.678349 (19.03). Two carriers have an end on sky Neptune in the
+same family: S Jupiter – S Neptune RA 55.552186 ninth 55.5556 (96.97), S Juno – S Neptune Dec 12.223098 ninth 12.2222 (96.42); Makemake
+on J Neptune (Dec cp 0.1441, Dec 44 whole 16.8), Ketu / Rahu on natal Neptune (S Rahu → J Neptune RA 88.8685 ninth 88.8889). Same-body
+S Neptune → H Neptune RA 9.7371 6×φ carried by S Sun – S Chiron Dec 6×φ; Dec 4.0051 whole 4. Holds no BB rule. Field
+(tools/scans/bb_fieldcheck_diligent_neptune.py; checker 0 mismatches on N2): N1 (>= 3 carriers each tied to X) 2-10 runners a race;
+N2 (>= 2 carriers with an end on sky X in the royal line's family) 2/6, 5/10, 2/13, 0/5, 2/8, 3/7, 7/15, winners in 3 of 5 races
+(Pholas, Secret Satire, Diligent Resdev; 21 picks, 1.9 by chance); N3, N4, N5, N2c all near chance (13-18 picks, 1-3 won, 1.2-1.8).
