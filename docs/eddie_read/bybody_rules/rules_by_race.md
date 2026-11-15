@@ -58,5 +58,6 @@
 | BB55 | any | 3/6 **W** | 6/10 **W** | 6/13 **W** | 3/7 **W** | 9/15 **W** (o) | 1/5 | 0 | 0 | 0.0 | – |
 | BB56 | any | – | 2/10 **W** | – | – | 3/15 **W** (o) | 1/5 | 0 | 0 | 0.0 | – |
 | BB57 | any | 1/6 | 5/10 **W** | 1/13 | 3/7 | 4/15 **W** | 1/5 **W** (o) | 0 | 0 | 0.0 | Catterick (o) |
+| BB58 | any | 1/6 | – | 1/13 **W** | – | 1/15 | 1/5 **W** (o) | 0 | 0 | 0.0 | Beverley, Catterick (o) |
 
 All rules, later races (read after the rule was made; Catterick not counted, its winner was known): 246 picks, 21 winners, 22.1 by chance.

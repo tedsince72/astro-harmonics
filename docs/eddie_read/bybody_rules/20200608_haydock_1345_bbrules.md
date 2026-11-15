@@ -1,4 +1,4 @@
-# 20200608_haydock_1345 — body-by-body rules BB1-BB57
+# 20200608_haydock_1345 — body-by-body rules BB1-BB58
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -62,6 +62,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB55 | 7 | 6 | 01 Magical Max, 02 Ventura Flame, 04 Royal Context, 06 Birkenhead, 07 Ishvara, 11 Mews House |  |
 | BB56 | 2 | 2 | 02 Ventura Flame, 07 Ishvara |  |
 | BB57 | 5 | 5 | 02 Ventura Flame, 04 Royal Context, 06 Birkenhead, 07 Ishvara, 09 Garsman |  |
+| BB58 | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1427,4 +1428,12 @@ Origin: Catterick 14:40 6 Apr 2022, 5 Wotever Next, Sun (H Regulus – H Sun Dec
 - WATCH additive step (Dec): 6×φ = 3×φ + 3×φ (S Saturn – S Orcus; J Regulus – J Chiron; S Saturn – S Quaoar)
 - WATCH additive step (Dec): 6×φ = 3×φ + 3×φ (H Regulus – H Chiron; S Orcus – S Quaoar; S Saturn – S Quaoar)
 - WATCH additive step (Dec): 6×φ = 3×φ + 3×φ (S Saturn – S Orcus; S Orcus – S Quaoar; S Saturn – S Quaoar) (may be geometry: three distances between the same three points)
+
+## BB58 — The same royal star on natal X in both charts, each line with a family and a same-body ratio on a target
+
+Rule: The same royal star R has a natal line to X in both charts (H R – H X and J R – J X) that scores in a family (conj / contraparallel not counted) and, on that same row, has a same-body ratio (the line against S X → natal X, same chart and plane) on a target. Any plane, any score. No condition on the sky.
+
+Origin: Catterick 14:40 6 Apr 2022, 5 Wotever Next, Neptune (H Fomalhaut – H Neptune RA 3.992391 4 whole (61.96), same-body ratio 1.513095 3/2 (34.53); J Fomalhaut – J Neptune RA 59.894054 37×φ (17.3), 7/6 (48.2)) (Eddie, 15 Nov 2026: 'n3'). Also held by Perfect Part Mercury (Beverley; Aldebaran, unisons 75.37 / 31.89). Other holders: Lingfield Nirodha Pallas (Regulus), York 16:15 Ziggy's Condor Uranus (Regulus; 2nd). Over the 6 result races 4 picks, 2 won, 0.5 by chance. Noted, not built (N1): + the star on sky X (S R – S X a family) - Nirodha and Wotever Next.
+
+No runner holds it.
 

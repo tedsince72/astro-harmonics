@@ -1016,3 +1016,12 @@ Song, Mortlake, Diligent Resdev Quaoar only (3 / 1 / 0.3, one origin winner).
   U2 crossed unison both charts 2 / 1 (0.3; Wotever Next, Beverley Invincible Annice Pluto Antares); U3 same interval both charts 44 / 5 (4.2);
   U4 any royal star, unison both charts 44 / 5 (4.1). H X – J X conjunct in RA and Dec (any body): 4 runners in 7 races (Haydock Dancin
   Inthestreet Rahu / Ketu, Beverley Aviation Time Sun, York 15:45 Francophone Chiron, Wotever Next Saturn): 4 picks 1 won (0.5).
+
+## Neptune (Catterick 14:40 2022, 05 Wotever Next; Eddie 15 Nov 2026) - N3 built as BB58, N1 noted
+- H Fomalhaut – H Neptune RA 3.992391 4 (61.96), same-body ratio 1.513095 3/2 (34.53); J Fomalhaut – J Neptune RA 59.894054 37×φ (17.3),
+  7/6 (48.2); S Fomalhaut – S Neptune Dec 25.993818 26 (69.09).
+- Field check (tools/scans/bb_fieldcheck_royal_family_and_ratio_both.py; independent checker 0 differences), 6 result races: N3 same royal
+  star both charts, each line a family + a same-body ratio on a target: 4 picks 2 won (0.5; Wotever Next, Perfect Part Mercury Aldebaran;
+  also Nirodha Pallas Regulus, Ziggy's Condor Uranus Regulus) -> BB58; N1 = N3 + the star on sky X: 2 / 1 (0.4; Nirodha, Wotever Next);
+  N2 = N1 same plane: Wotever Next only; N4 = N1 with crossed ratios allowed: 3 / 1 (0.5).
+- Note: Perfect Part's two ratios are unisons; Mercury – Aldebaran unisons are field-wide at Beverley (U1 scan), the family on both lines is what singles it out.

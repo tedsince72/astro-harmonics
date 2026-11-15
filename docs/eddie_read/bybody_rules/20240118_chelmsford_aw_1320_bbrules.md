@@ -1,4 +1,4 @@
-# 20240118_chelmsford_aw_1320 — body-by-body rules BB1-BB57
+# 20240118_chelmsford_aw_1320 — body-by-body rules BB1-BB58
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -62,6 +62,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB55 | 5 | 4 | 02 Sullivan Bay, 03 Good Time Ahead, 05 Reset Button, 06 Foinix |  |
 | BB56 | 0 | 0 | - |  |
 | BB57 | 0 | 0 | - |  |
+| BB58 | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -926,6 +927,14 @@ No runner holds it.
 Rule: The same royal star R has a scoring natal line to X in both charts (H R – H X and J R – J X; conj / contraparallel not counted; any plane), each carried by a sky pair on its target (pairs not naming X; the Moon allowed); a horse pair and a jockey pair share a body Y (not a royal star). Unlike BB51, Y need not be on sky X. Any plane, any score.
 
 Origin: Catterick 14:40 6 Apr 2022, 5 Wotever Next, Sun (H Regulus – H Sun Dec 6.000669 6 whole (96.65) carried by S Moon – S Rahu Dec 6.006606; J Regulus – J Sun RA 166.917198 ninth 166.667 (24.84) carried by S Rahu – S Haumea RA 166.802333; shared Rahu) (Eddie, 15 Nov 2026: 'yes, R1'). Also held by Ishvara Mercury (Antares, shared Gonggong) and Diligent Resdev Venus (Antares, shared Jupiter), the BB51 origin cases. Over the 6 result races 15 picks, 3 won, 1.6 by chance. Noted, not built (R2): each pair's other end on that chart's natal X - Wotever Next only (S Moon → H Sun RA 61.995143 62; S Haumea → J Sun Dec contraparallel 0.087085, RA 101.965066 63×φ).
+
+No runner holds it.
+
+## BB58 — The same royal star on natal X in both charts, each line with a family and a same-body ratio on a target
+
+Rule: The same royal star R has a natal line to X in both charts (H R – H X and J R – J X) that scores in a family (conj / contraparallel not counted) and, on that same row, has a same-body ratio (the line against S X → natal X, same chart and plane) on a target. Any plane, any score. No condition on the sky.
+
+Origin: Catterick 14:40 6 Apr 2022, 5 Wotever Next, Neptune (H Fomalhaut – H Neptune RA 3.992391 4 whole (61.96), same-body ratio 1.513095 3/2 (34.53); J Fomalhaut – J Neptune RA 59.894054 37×φ (17.3), 7/6 (48.2)) (Eddie, 15 Nov 2026: 'n3'). Also held by Perfect Part Mercury (Beverley; Aldebaran, unisons 75.37 / 31.89). Other holders: Lingfield Nirodha Pallas (Regulus), York 16:15 Ziggy's Condor Uranus (Regulus; 2nd). Over the 6 result races 4 picks, 2 won, 0.5 by chance. Noted, not built (N1): + the star on sky X (S R – S X a family) - Nirodha and Wotever Next.
 
 No runner holds it.
 

@@ -1561,6 +1561,31 @@ def bb57(b):
     return [{'key': ('BB57', b.X), 'cells': cells, 'notes': notes}] if cells else []
 
 
+def bb58(b):
+    """N3 (Eddie, 15 Nov 2026, from Catterick Wotever Next Neptune; also Perfect Part Mercury): the same royal star R in both charts,
+    each natal line R - X with a family (not conj / contraparallel) AND, on that same row, a same-body ratio (the line against
+    S X -> natal X, same chart and plane) on a target. Any plane, any score."""
+    def ok(c, R):
+        return [r for _, R2, r in b.star_rows(c, scoring=True) if R2 == R and r['fam'] not in CJ
+                and num(r['rs']) and r['rt'] not in (None, 'no target') and 'cut' not in str(r['rt'])]
+    cells, notes = [], []
+    for R in ROY:
+        h, j = ok('H', R), ok('J', R)
+        if not (h and j):
+            continue
+        parts = []
+        for c, rows in (('H', h), ('J', j)):
+            for r in rows:
+                base = b.lines(f'S {b.X} → {c} {b.X}', r['plane'])
+                for o in [r] + base:
+                    if o not in cells:
+                        cells.append(o)
+                bv = f" / S {b.X} → {c} {b.X} {r['plane']} {base[0]['v']:.6f}" if base else ''
+                parts.append(f"{r['line']} {r['plane']} {r['v']:.6f} {r['tgt']} {r['fam']} ({r['sc']}){bv}: same-body ratio {r['r']} {r['rt']} ({r['rs']})")
+        notes.append(f"{R} in both charts: " + ' | '.join(parts))
+    return [{'key': ('BB58', b.X), 'cells': cells, 'notes': notes}] if cells else []
+
+
 RULES = [('BB1', bb1, 'Mercury'), ('BB2', bb2, 'Mars'), ('BB3', bb3, 'Jupiter'), ('BB4', bb4, 'Saturn'),
          ('BB5', bb5, 'Uranus'), ('BB6', bb6, 'Uranus'), ('BB7', bb7, 'Neptune'), ('BB8', bb8, 'Rahu'),
          ('BB9', bb9, 'Rahu'), ('BB10', bb10, 'Ketu'), ('BB11', bb11, 'Ceres'), ('BB12', bb12, 'Pallas'),
@@ -1569,7 +1594,7 @@ RULES = [('BB1', bb1, 'Mercury'), ('BB2', bb2, 'Mars'), ('BB3', bb3, 'Jupiter'),
          ('BB21', bb21, 'Saturn'), ('BB22', bb22, 'Saturn'), ('BB23', bb23, 'Neptune'), ('BB24', bb24, 'Rahu'), ('BB25', bb25, 'Ketu'), ('BB26', bb26, 'Ceres'), ('BB27', bb27, 'Pallas'), ('BB28', bb28, 'Juno'), ('BB29', bb29, 'Vesta'), ('BB30', bb30, 'Eris'), ('BB31', bb31, 'Gonggong'),
          ('BB32', bb32, 'Sun'), ('BB32b', bb32b, 'Sun'), ('BB33', bb33, 'Mercury'), ('BB34', bb34, 'Mars'), ('BB35', bb35, 'Saturn'),
          ('BB36', bb36, 'Uranus'), ('BB37', bb37, 'Pluto'), ('BB38', bb38, 'Juno'), ('BB39', bb39, 'Makemake'),
-         ('BB40', bb40, 'Sedna'), ('BB41', bb41, 'Sun'), ('BB42', bb42, 'Mercury'), ('BB43', bb43, 'Venus'), ('BB44', bb44, 'Jupiter'), ('BB45', bb45, 'Saturn'), ('BB46', bb46, 'Saturn'), ('BB47', bb47, 'Ceres'), ('BB48', bb48, 'Chiron'), ('BB49', bb49, 'Haumea'), ('BB50', bb50, 'Makemake'), ('BB51', bb51, 'Venus'), ('BB52', bb52, 'Uranus'), ('BB53', bb53, 'any'), ('BB54', bb54, 'any'), ('BB55', bb55, 'any'), ('BB56', bb56, 'any'), ('BB57', bb57, 'any')]
+         ('BB40', bb40, 'Sedna'), ('BB41', bb41, 'Sun'), ('BB42', bb42, 'Mercury'), ('BB43', bb43, 'Venus'), ('BB44', bb44, 'Jupiter'), ('BB45', bb45, 'Saturn'), ('BB46', bb46, 'Saturn'), ('BB47', bb47, 'Ceres'), ('BB48', bb48, 'Chiron'), ('BB49', bb49, 'Haumea'), ('BB50', bb50, 'Makemake'), ('BB51', bb51, 'Venus'), ('BB52', bb52, 'Uranus'), ('BB53', bb53, 'any'), ('BB54', bb54, 'any'), ('BB55', bb55, 'any'), ('BB56', bb56, 'any'), ('BB57', bb57, 'any'), ('BB58', bb58, 'any')]
 
 
 def decade_pairs(cells):

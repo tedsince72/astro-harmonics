@@ -1,4 +1,4 @@
-# 20220406_catterick_1440 — body-by-body rules BB1-BB57
+# 20220406_catterick_1440 — body-by-body rules BB1-BB58
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -62,6 +62,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB55 | 1 | 1 | 02 Beluga Gold |  |
 | BB56 | 1 | 1 | 02 Beluga Gold |  |
 | BB57 | 1 | 1 | 05 Wotever Next |  |
+| BB58 | 1 | 1 | 05 Wotever Next |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -914,4 +915,18 @@ Origin: Catterick 14:40 6 Apr 2022, 5 Wotever Next, Sun (H Regulus – H Sun Dec
 - S Rahu – S Haumea RA 166.802333 166.667 ninth (59.3)
 - Regulus in both charts: H Regulus – H Sun Dec carried by S Moon – S Rahu Dec | J Regulus – J Sun RA carried by S Rahu – S Haumea RA; Rahu in both pairs
 - lights on Sun: S Moon – S Sun Dec 17.981470 18 whole (7.35); S Moon → H Sun RA 61.995143 62 whole (75.71)
+
+## BB58 — The same royal star on natal X in both charts, each line with a family and a same-body ratio on a target
+
+Rule: The same royal star R has a natal line to X in both charts (H R – H X and J R – J X) that scores in a family (conj / contraparallel not counted) and, on that same row, has a same-body ratio (the line against S X → natal X, same chart and plane) on a target. Any plane, any score. No condition on the sky.
+
+Origin: Catterick 14:40 6 Apr 2022, 5 Wotever Next, Neptune (H Fomalhaut – H Neptune RA 3.992391 4 whole (61.96), same-body ratio 1.513095 3/2 (34.53); J Fomalhaut – J Neptune RA 59.894054 37×φ (17.3), 7/6 (48.2)) (Eddie, 15 Nov 2026: 'n3'). Also held by Perfect Part Mercury (Beverley; Aldebaran, unisons 75.37 / 31.89). Other holders: Lingfield Nirodha Pallas (Regulus), York 16:15 Ziggy's Condor Uranus (Regulus; 2nd). Over the 6 result races 4 picks, 2 won, 0.5 by chance. Noted, not built (N1): + the star on sky X (S R – S X a family) - Nirodha and Wotever Next.
+
+### 05 Wotever Next — Neptune (only)
+- H Fomalhaut – H Neptune RA 3.992391 4 whole (61.96)
+- S Neptune → H Neptune RA 6.040865 (no family)
+- J Fomalhaut – J Neptune RA 59.894054 37×φ golden (17.3)
+- S Neptune → J Neptune RA 69.930687 (no family)
+- Fomalhaut in both charts: H Fomalhaut – H Neptune RA 3.992391 4 whole (61.96) / S Neptune → H Neptune RA 6.040865: same-body ratio 1.513095 3/2 fifth (34.53) | J Fomalhaut – J Neptune RA 59.894054 37×φ golden (17.3) / S Neptune → J Neptune RA 69.930687: same-body ratio 1.167573 7/6 septimal minor third (48.2)
+- lights on Neptune: S Sun → J Neptune RA 90.626916 56×φ golden (47.49)
 
