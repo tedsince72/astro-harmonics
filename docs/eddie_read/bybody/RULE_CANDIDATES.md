@@ -953,7 +953,7 @@ Diligent Resdev Pallas only - 2 picks, 1 won, 0.2 by chance (with golden targets
 1 / 1×φ); P3o (royal line carried by S X – S Y, Y on natal X in the other chart; opposition counts as a family) 3/6, 6/10, 6/13, 1/5, 4/8,
 3/7, 9/15 - all 5 origin winners, 27 picks, 5 won, 2.6 by chance; P3 (any chart) 29 picks, 5 won, 2.7.
 
-## Diligent Resdev Vesta, the Moon on the H X – J X number (15 Nov 2026, Eddie: "sometimes see moon distance hit the h-j distance"; not built)
+## Diligent Resdev Vesta, the Moon on the H X – J X number (15 Nov 2026, Eddie: "sometimes see moon distance hit the h-j distance"; RS built as BB56, M1 not built)
 H Vesta – J Vesta Dec 24.150522 silver 24.14 (76.84) and S Moon → H Vesta RA 24.127184 silver 24.14 (58.71); S Fomalhaut – S Vesta RA 122.236525
 ninth 122.222 (94.15) and S Sun → H Vesta RA 122.087456 ninth 122.222 (44.87); J Antares – J Vesta RA 90.8272 same-body ratio against S Vesta →
 J Vesta 128.473134 = 1.414478 √2 (87.5); S Sun – S Vesta Dec 5.5603 ninth 5.55556. Field (tools/scans/bb_fieldcheck_diligent_vesta.py; checker

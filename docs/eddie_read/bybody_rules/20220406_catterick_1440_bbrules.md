@@ -1,4 +1,4 @@
-# 20220406_catterick_1440 — body-by-body rules BB1-BB55
+# 20220406_catterick_1440 — body-by-body rules BB1-BB56
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -60,6 +60,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB53 | 4 | 2 | 02 Beluga Gold, 03 Capuchinero |  |
 | BB54 | 2 | 1 | 02 Beluga Gold |  |
 | BB55 | 1 | 1 | 02 Beluga Gold |  |
+| BB56 | 1 | 1 | 02 Beluga Gold |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -874,11 +875,11 @@ Origin: York 16:15 15 May 2024, 13 Diligent Resdev, Rahu (H Aldebaran – H Rahu
 - J Aldebaran – J Makemake RA 105.186241 / S Makemake → J Makemake Dec 10.499952: crossed ratio 10.017783 on 10 (64.43)
 - lights on Makemake: S Moon → H Makemake Dec 0.061843 conj conj (79.39); S Sun → H Makemake Dec 17.919627 φ⁶ phi power (8.44); S Sun → J Makemake Dec 27.001799 27 whole (91.01)
 
-## BB55 — 
+## BB55 — Royal line carried by S X – S Y, with Y on natal X in the other chart (broad)
 
-Rule: 
+Rule: A royal natal line c R – c X scores (conj / contraparallel not counted) and is carried by a sky line naming X itself, S X – S Y, on the same target ('Sky lines on the same target'; Y not a royal star or the Moon; the sky line not conj / contraparallel), and Y lands on natal X in the other chart (S Y → c' X, any plane, scoring, not conj / contraparallel). Opposition counts as a family. Any royal star, plane and score. A broad rule: about half the field holds it.
 
-Origin: 
+Origin: York 16:15 15 May 2024, 13 Diligent Resdev, Pallas (H Aldebaran – H Pallas Dec 16.990885 17 carried by S Pallas – S Sedna Dec 16.998976 17; S Sedna → J Pallas Dec 22.655851 14×φ and RA 40.982065 41) (Eddie, 15 Nov 2026: 'P3o built as a broad rule'). Held by all five origin winners (Pholas Pallas, Ishvara Pallas, Perfect Part Gonggong and Orcus, Secret Satire Ceres, Diligent Resdev Pallas); in-sample over the 5 winner races 27 picks, 5 won, 2.6 by chance.
 
 ### 02 Beluga Gold — Chiron (only)
 - H Fomalhaut – H Chiron Dec 33.268562 33.3333 ninth (2.84)
@@ -886,4 +887,16 @@ Origin:
 - S Gonggong → J Chiron Dec 12.010810 12 whole (45.95)
 - H Fomalhaut – H Chiron Dec carried by S Chiron – S Gonggong RA; Gonggong on J Chiron: Dec 12 whole
 - lights on Chiron: S Moon – S Chiron Dec 17.777129 17.7778 ninth (98.17); S Sun – S Chiron Dec 0.204340 conj conj (31.89); S Sun → H Chiron RA 14.434050 14.4444 ninth (64.02)
+
+## BB56 — 
+
+Rule: 
+
+Origin: 
+
+### 02 Beluga Gold — Mars (only)
+- S Aldebaran – S Mars RA 102.985500 103 whole (27.5)
+- S Sun → J Mars RA 102.989831 103 whole (49.15)
+- S Aldebaran – S Mars RA and S Sun → J Mars RA both 103 whole
+- lights on Mars: S Sun → H Mars Dec 14.562460 9×φ golden (99.52); S Sun → H Mars RA 42.363756 10φ³ phi power (95.16); S Sun → J Mars RA 102.989831 103 whole (49.15)
 

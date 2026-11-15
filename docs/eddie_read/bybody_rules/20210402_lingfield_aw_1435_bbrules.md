@@ -1,4 +1,4 @@
-# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB55
+# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB56
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -60,6 +60,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB53 | 3 | 1 | 06 Shimmering Dawn |  |
 | BB54 | 0 | 0 | - |  |
 | BB55 | 4 | 3 | 01 Arafi, 04 Nirodha, 05 Pholas |  |
+| BB56 | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -876,11 +877,11 @@ Origin: York 16:15 15 May 2024, 13 Diligent Resdev, Rahu (H Aldebaran – H Rahu
 
 No runner holds it.
 
-## BB55 — 
+## BB55 — Royal line carried by S X – S Y, with Y on natal X in the other chart (broad)
 
-Rule: 
+Rule: A royal natal line c R – c X scores (conj / contraparallel not counted) and is carried by a sky line naming X itself, S X – S Y, on the same target ('Sky lines on the same target'; Y not a royal star or the Moon; the sky line not conj / contraparallel), and Y lands on natal X in the other chart (S Y → c' X, any plane, scoring, not conj / contraparallel). Opposition counts as a family. Any royal star, plane and score. A broad rule: about half the field holds it.
 
-Origin: 
+Origin: York 16:15 15 May 2024, 13 Diligent Resdev, Pallas (H Aldebaran – H Pallas Dec 16.990885 17 carried by S Pallas – S Sedna Dec 16.998976 17; S Sedna → J Pallas Dec 22.655851 14×φ and RA 40.982065 41) (Eddie, 15 Nov 2026: 'P3o built as a broad rule'). Held by all five origin winners (Pholas Pallas, Ishvara Pallas, Perfect Part Gonggong and Orcus, Secret Satire Ceres, Diligent Resdev Pallas); in-sample over the 5 winner races 27 picks, 5 won, 2.6 by chance.
 
 ### 01 Arafi — Venus (also: 04 Nirodha, 05 Pholas)
 - J Antares – J Venus RA 141.321482 141.4 sqrt2 (52.92)
@@ -908,4 +909,12 @@ Origin:
 - S Transpluto → J Pallas Dec 2.993284 3 whole (66.42)
 - H Regulus – H Pallas RA carried by S Pallas – S Transpluto RA; Transpluto on J Pallas: Dec 3 whole
 - lights on Pallas: S Moon – S Pallas Dec 27.992984 28 whole (64.92); S Sun – S Pallas RA 37.184267 23×φ golden (5.82)
+
+## BB56 — 
+
+Rule: 
+
+Origin: 
+
+No runner holds it.
 

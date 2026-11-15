@@ -1,4 +1,4 @@
-# 20240118_chelmsford_aw_1320 — body-by-body rules BB1-BB55
+# 20240118_chelmsford_aw_1320 — body-by-body rules BB1-BB56
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -60,6 +60,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB53 | 2 | 1 | 08 Duveen |  |
 | BB54 | 1 | 1 | 02 Sullivan Bay |  |
 | BB55 | 5 | 4 | 02 Sullivan Bay, 03 Good Time Ahead, 05 Reset Button, 06 Foinix |  |
+| BB56 | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -869,11 +870,11 @@ Origin: York 16:15 15 May 2024, 13 Diligent Resdev, Rahu (H Aldebaran – H Rahu
 - H Antares – H Uranus RA 144.555544 / S Uranus → H Uranus RA 14.508467: same-body ratio 9.963530 on 10 (27.06)
 - lights on Uranus: S Sun → H Uranus RA 92.239252 57×φ golden (65.08); S Moon → H Uranus RA 1.336337 conj conj (10.91)
 
-## BB55 — 
+## BB55 — Royal line carried by S X – S Y, with Y on natal X in the other chart (broad)
 
-Rule: 
+Rule: A royal natal line c R – c X scores (conj / contraparallel not counted) and is carried by a sky line naming X itself, S X – S Y, on the same target ('Sky lines on the same target'; Y not a royal star or the Moon; the sky line not conj / contraparallel), and Y lands on natal X in the other chart (S Y → c' X, any plane, scoring, not conj / contraparallel). Opposition counts as a family. Any royal star, plane and score. A broad rule: about half the field holds it.
 
-Origin: 
+Origin: York 16:15 15 May 2024, 13 Diligent Resdev, Pallas (H Aldebaran – H Pallas Dec 16.990885 17 carried by S Pallas – S Sedna Dec 16.998976 17; S Sedna → J Pallas Dec 22.655851 14×φ and RA 40.982065 41) (Eddie, 15 Nov 2026: 'P3o built as a broad rule'). Held by all five origin winners (Pholas Pallas, Ishvara Pallas, Perfect Part Gonggong and Orcus, Secret Satire Ceres, Diligent Resdev Pallas); in-sample over the 5 winner races 27 picks, 5 won, 2.6 by chance.
 
 ### 02 Sullivan Bay — Uranus (also: 03 Good Time Ahead, 05 Reset Button, 06 Foinix)
 - H Antares – H Uranus Dec 38.850870 24×φ golden (44.28)
@@ -910,4 +911,12 @@ Origin:
 - S Sedna → H Mercury Dec 29.062715 φ⁷ phi power (35.08)
 - J Fomalhaut – J Mercury RA carried by S Mercury – S Sedna RA; Sedna on H Mercury: Dec φ⁷ phi power
 - lights on Mercury: S Sun → H Mercury Dec 0.130686 conj conj (56.44); S Moon → J Mercury Dec 19.384251 12×φ golden (0.75)
+
+## BB56 — 
+
+Rule: 
+
+Origin: 
+
+No runner holds it.
 

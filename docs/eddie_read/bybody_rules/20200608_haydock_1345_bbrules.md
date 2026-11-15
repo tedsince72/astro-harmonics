@@ -1,4 +1,4 @@
-# 20200608_haydock_1345 — body-by-body rules BB1-BB55
+# 20200608_haydock_1345 — body-by-body rules BB1-BB56
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -60,6 +60,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB53 | 2 | 1 | 03 Never In Paris |  |
 | BB54 | 4 | 4 | 02 Ventura Flame, 03 Never In Paris, 06 Birkenhead, 07 Ishvara |  |
 | BB55 | 7 | 6 | 01 Magical Max, 02 Ventura Flame, 04 Royal Context, 06 Birkenhead, 07 Ishvara, 11 Mews House |  |
+| BB56 | 2 | 2 | 02 Ventura Flame, 07 Ishvara |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1300,11 +1301,11 @@ Origin: York 16:15 15 May 2024, 13 Diligent Resdev, Rahu (H Aldebaran – H Rahu
 - H Fomalhaut – H Jupiter RA 144.676267 / S Jupiter → H Jupiter Dec 14.529406: crossed ratio 9.957480 on 10 (14.96)
 - lights on Jupiter: S Sun → H Jupiter RA 122.885610 φ¹⁰ phi power (42.4)
 
-## BB55 — 
+## BB55 — Royal line carried by S X – S Y, with Y on natal X in the other chart (broad)
 
-Rule: 
+Rule: A royal natal line c R – c X scores (conj / contraparallel not counted) and is carried by a sky line naming X itself, S X – S Y, on the same target ('Sky lines on the same target'; Y not a royal star or the Moon; the sky line not conj / contraparallel), and Y lands on natal X in the other chart (S Y → c' X, any plane, scoring, not conj / contraparallel). Opposition counts as a family. Any royal star, plane and score. A broad rule: about half the field holds it.
 
-Origin: 
+Origin: York 16:15 15 May 2024, 13 Diligent Resdev, Pallas (H Aldebaran – H Pallas Dec 16.990885 17 carried by S Pallas – S Sedna Dec 16.998976 17; S Sedna → J Pallas Dec 22.655851 14×φ and RA 40.982065 41) (Eddie, 15 Nov 2026: 'P3o built as a broad rule'). Held by all five origin winners (Pholas Pallas, Ishvara Pallas, Perfect Part Gonggong and Orcus, Secret Satire Ceres, Diligent Resdev Pallas); in-sample over the 5 winner races 27 picks, 5 won, 2.6 by chance.
 
 ### 01 Magical Max — Jupiter (also: 02 Ventura Flame, 04 Royal Context, 06 Birkenhead, 07 Ishvara, 11 Mews House)
 - J Aldebaran – J Jupiter Dec 39.004155 39 whole (79.23)
@@ -1354,4 +1355,22 @@ Origin:
 - S Sedna → J Saturn RA 66.565557 66.6667 ninth (24.17)
 - H Regulus – H Saturn RA carried by S Saturn – S Sedna RA; Sedna on J Saturn: RA 66.6667 ninth
 - lights on Saturn: S Sun – S Saturn RA 133.542772 133.333 ninth (21.46); S Moon – S Saturn Dec 4.018954 4 whole (5.23); S Sun → H Saturn RA 169.876811 105×φ golden (48.28)
+
+## BB56 — 
+
+Rule: 
+
+Origin: 
+
+### 02 Ventura Flame — Venus (also: 07 Ishvara)
+- S Aldebaran – S Venus Dec 4.855038 3×φ golden (97.11)
+- S Sun → J Venus Dec 4.826546 3×φ golden (14.95)
+- S Aldebaran – S Venus Dec and S Sun → J Venus Dec both 3×φ golden
+- lights on Venus: S Sun – S Venus RA 7.991827 8 whole (59.13); S Moon → H Venus Dec 26.004257 26 whole (78.72); S Sun → H Venus Dec 20.984769 21 whole (23.85); S Sun → J Venus Dec 4.826546 3×φ golden (14.95)
+
+### 07 Ishvara — Juno (also: 02 Ventura Flame)
+- S Fomalhaut – S Juno RA 155.553196 155.556 ninth (99.24)
+- S Sun → H Juno RA 155.817127 155.556 ninth (15.92)
+- S Fomalhaut – S Juno RA and S Sun → H Juno RA both 155.556 ninth
+- lights on Juno: S Sun – S Juno RA 112.015380 112 whole (23.1); S Sun → H Juno Dec 33.367762 33.3333 ninth (48.36); S Sun → H Juno RA 155.817127 155.556 ninth (15.92)
 

@@ -1,4 +1,4 @@
-# 20240608_beverley_1405 — body-by-body rules BB1-BB55
+# 20240608_beverley_1405 — body-by-body rules BB1-BB56
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -60,6 +60,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB53 | 6 | 3 | 10 Over Spiced, 11 Powerful Lady, 15 Perfect Part |  |
 | BB54 | 5 | 5 | 04 Invincible Annice, 07 Mademoiselle, 08 Maw Lam, 14 Havana White, 15 Perfect Part |  |
 | BB55 | 8 | 6 | 04 Invincible Annice, 07 Mademoiselle, 08 Maw Lam, 13 Storm Call, 14 Havana White, 15 Perfect Part |  |
+| BB56 | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1763,11 +1764,11 @@ Origin: York 16:15 15 May 2024, 13 Diligent Resdev, Rahu (H Aldebaran – H Rahu
 - H Regulus – H Uranus RA 111.240410 / S Uranus → H Uranus RA 11.095305: same-body ratio 10.025899 on 10 (48.20)
 - lights on Uranus: S Sun → H Uranus RA 35.980071 36 whole (0.36)
 
-## BB55 — 
+## BB55 — Royal line carried by S X – S Y, with Y on natal X in the other chart (broad)
 
-Rule: 
+Rule: A royal natal line c R – c X scores (conj / contraparallel not counted) and is carried by a sky line naming X itself, S X – S Y, on the same target ('Sky lines on the same target'; Y not a royal star or the Moon; the sky line not conj / contraparallel), and Y lands on natal X in the other chart (S Y → c' X, any plane, scoring, not conj / contraparallel). Opposition counts as a family. Any royal star, plane and score. A broad rule: about half the field holds it.
 
-Origin: 
+Origin: York 16:15 15 May 2024, 13 Diligent Resdev, Pallas (H Aldebaran – H Pallas Dec 16.990885 17 carried by S Pallas – S Sedna Dec 16.998976 17; S Sedna → J Pallas Dec 22.655851 14×φ and RA 40.982065 41) (Eddie, 15 Nov 2026: 'P3o built as a broad rule'). Held by all five origin winners (Pholas Pallas, Ishvara Pallas, Perfect Part Gonggong and Orcus, Secret Satire Ceres, Diligent Resdev Pallas); in-sample over the 5 winner races 27 picks, 5 won, 2.6 by chance.
 
 ### 04 Invincible Annice — Pluto (also: 07 Mademoiselle, 08 Maw Lam, 13 Storm Call, 14 Havana White, 15 Perfect Part)
 - J Aldebaran – J Pluto Dec 17.782362 17.7778 ninth (87.11)
@@ -1831,4 +1832,12 @@ Origin:
 - S Haumea – S Orcus Dec 27.531667 17×φ golden (22.56)
 - S Haumea → H Orcus RA 61.985324 62 whole (26.62)
 - J Antares – J Orcus Dec carried by S Haumea – S Orcus Dec; Haumea on H Orcus: RA 62 whole
+
+## BB56 — 
+
+Rule: 
+
+Origin: 
+
+No runner holds it.
 
