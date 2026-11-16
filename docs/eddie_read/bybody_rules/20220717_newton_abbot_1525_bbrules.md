@@ -1,4 +1,4 @@
-# 20220717_newton_abbot_1525 — body-by-body rules BB1-BB67
+# 20220717_newton_abbot_1525 — body-by-body rules BB1-BB68
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -72,6 +72,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB65 | 0 | 0 | - |  |
 | BB66 | 1 | 1 | 04 On Time |  |
 | BB67 | 1 | 1 | 04 On Time |  |
+| BB68 | 1 | 1 | 01 Grageelagh Girl |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -963,4 +964,17 @@ Origin: Carlisle 16:30 7 Jul 2022, 6 Whitefeathersfall (holds all three). Eddie,
 - BB3: Neptune, Ceres, Gonggong
 - BB54: Gonggong
 - BB63: Orcus
+
+## BB68 — A sky body splits the same-body line in Dec, both pieces on targets
+
+Rule: S X -> c X in Dec (c = horse or jockey chart) split by a sky body Y lying between sky X and natal X: d(S Y, S X) + d(S Y, c X) = d(S X, c X) (within 0.0005); both pieces (S Y - S X, S Y -> c X, Dec) in a family (conj / contraparallel never), one >= 90 and the other >= 50. Y a sky body, not X, not the Moon, not a royal star. The same-body line itself, when it scores (a family, or conj / contraparallel >= 80, the mirror), is noted on the case.
+
+Origin: Ripon 15:25 16 Jun 2022, 4 Society Red, H Venus: S Venus -> H Venus Dec 33.0957 = S Sedna - S Venus 8.0905 5xphi (99.11) + S Sedna -> H Venus 25.0052 25 (73.88); the same line is contraparallel 0.0141 (95.31) (V5, held by Society Red only). Shape of Dettori's day (J Sun - J Chiron 28 split by the sky Sun into 21 + 7). Eddie, 16 Nov 2026: 'V3d is good to build'. tools/scans/bb_fieldcheck_split.py over 13 result races: 27 picks, 7 won, 3.7 by chance (Pholas, Secret Satire, Diligent Resdev, Wotever Next, Athmad, Novakai, Society Red); any plane (V3) 46 / 10 / 6.0. In-sample. In Dec any sky body between the two ends splits the line exactly; the rule tests that both pieces land on targets.
+
+### 01 Grageelagh Girl — Ketu (only)
+- S Ketu → J Ketu Dec 13.547011 (no family)
+- S Orcus – S Ketu Dec 6.474045 4×φ golden (94.11)
+- S Orcus → J Ketu Dec 7.072966 7.07 sqrt2 (82.1)
+- S Ketu → J Ketu Dec 13.5470 = S Orcus – S Ketu 6.4740 4×φ golden (94.11) + S Orcus → J Ketu 7.0730 7.07 sqrt2 (82.1)
+- lights on Ketu: S Sun – S Ketu RA 110.791123 10φ⁵ phi power (33.53); S Moon → J Ketu RA 0.170633 conj conj (88.62)
 

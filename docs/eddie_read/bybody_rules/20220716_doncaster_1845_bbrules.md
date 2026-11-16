@@ -1,4 +1,4 @@
-# 20220716_doncaster_1845 — body-by-body rules BB1-BB67
+# 20220716_doncaster_1845 — body-by-body rules BB1-BB68
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -72,6 +72,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB65 | 1 | 1 | 05 Novakai |  |
 | BB66 | 2 | 2 | 04 Mother India, 05 Novakai |  |
 | BB67 | 0 | 0 | - |  |
+| BB68 | 1 | 1 | 05 Novakai |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1055,4 +1056,17 @@ Rule: A runner holds at least 2 of the three combinations BB3 + BB63, BB3 + BB54
 Origin: Carlisle 16:30 7 Jul 2022, 6 Whitefeathersfall (holds all three). Eddie, 16 Nov 2026: 'build N3'. tools/scans/bb_fieldcheck_whitefeathersfall.py over 12 result races: 13 picks, 8 won, 1.7 by chance (Pholas, Secret Satire, Wotever Next, Kilcummin, Athmad, On Time, Whitefeathersfall, Diligent Resdev; lost Birkenhead, Blue Prince, True Promise, Ziggy's Condor, Misemerald). Mostly in-sample - the component rules come from these winners; after BB63 was built (Newton Abbot, Doncaster, Bath, Carlisle) 2 picks 2 won. A count across rules; N2 (BB29 with its sky body conj / cp natal X >= 90) and N4 (all three) kept as watch items.
 
 No runner holds it.
+
+## BB68 — A sky body splits the same-body line in Dec, both pieces on targets
+
+Rule: S X -> c X in Dec (c = horse or jockey chart) split by a sky body Y lying between sky X and natal X: d(S Y, S X) + d(S Y, c X) = d(S X, c X) (within 0.0005); both pieces (S Y - S X, S Y -> c X, Dec) in a family (conj / contraparallel never), one >= 90 and the other >= 50. Y a sky body, not X, not the Moon, not a royal star. The same-body line itself, when it scores (a family, or conj / contraparallel >= 80, the mirror), is noted on the case.
+
+Origin: Ripon 15:25 16 Jun 2022, 4 Society Red, H Venus: S Venus -> H Venus Dec 33.0957 = S Sedna - S Venus 8.0905 5xphi (99.11) + S Sedna -> H Venus 25.0052 25 (73.88); the same line is contraparallel 0.0141 (95.31) (V5, held by Society Red only). Shape of Dettori's day (J Sun - J Chiron 28 split by the sky Sun into 21 + 7). Eddie, 16 Nov 2026: 'V3d is good to build'. tools/scans/bb_fieldcheck_split.py over 13 result races: 27 picks, 7 won, 3.7 by chance (Pholas, Secret Satire, Diligent Resdev, Wotever Next, Athmad, Novakai, Society Red); any plane (V3) 46 / 10 / 6.0. In-sample. In Dec any sky body between the two ends splits the line exactly; the rule tests that both pieces land on targets.
+
+### 05 Novakai — Mercury (only)
+- S Mercury → H Mercury Dec 32.570469 (no family)
+- S Neptune – S Mercury Dec 25.903108 16×φ golden (55.05)
+- S Neptune → H Mercury Dec 6.667361 6.66667 ninth (94.8)
+- S Mercury → H Mercury Dec 32.5705 = S Neptune – S Mercury 25.9031 16×φ golden (55.05) + S Neptune → H Mercury 6.6674 6.66667 ninth (94.8)
+- lights on Mercury: S Sun – S Mercury RA 0.185152 conj conj (87.66); S Moon → H Mercury Dec 4.984965 5 whole (24.82); S Moon → J Mercury Dec 6.012632 6 whole (36.84)
 

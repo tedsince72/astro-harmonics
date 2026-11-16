@@ -1060,6 +1060,49 @@
   "BB64": [],
   "BB65": [],
   "BB66": [],
-  "BB67": []
+  "BB67": [],
+  "BB68": [
+   {
+    "runner": "04 Society Red",
+    "body": "Venus",
+    "cells": [
+     "S Venus → H Venus Dec 33.095682 (no family)",
+     "S Sedna – S Venus Dec 8.090457 5×φ golden (99.11)",
+     "S Sedna → H Venus Dec 25.005224 25 whole (73.88)",
+     "S Venus → H Venus Dec contraparallel 0.014060 cp contraparallel (95.31)"
+    ],
+    "notes": [
+     "S Venus → H Venus Dec 33.0957 = S Sedna – S Venus 8.0905 5×φ golden (99.11) + S Sedna → H Venus 25.0052 25 whole (73.88); same-body line Dec contraparallel 0.0141 cp contraparallel (95.31)"
+    ],
+    "lights": [
+     "S Sun → H Venus RA 145.600643 90×φ golden (30.81)",
+     "S Moon → H Venus RA 1.082995 conj conj (27.8)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "04 Society Red",
+    "body": "Saturn",
+    "cells": [
+     "S Saturn → J Saturn Dec 19.404526 12×φ golden (63.33)",
+     "S Neptune – S Saturn Dec 11.314978 7×φ golden (65.25)",
+     "S Neptune → J Saturn Dec 8.089548 5×φ golden (98.08)"
+    ],
+    "notes": [
+     "S Saturn → J Saturn Dec 19.4045 = S Neptune – S Saturn 11.3150 7×φ golden (65.25) + S Neptune → J Saturn 8.0895 5×φ golden (98.08); same-body line Dec 19.4045 12×φ golden (63.33)"
+    ],
+    "lights": [
+     "S Moon → H Saturn RA 66.661376 66.6667 ninth (96.03)",
+     "S Moon → J Saturn RA 80.871187 50×φ golden (5.83)"
+    ],
+    "decade": [],
+    "additive": [
+     "WATCH additive step (Dec): 12×φ = 7×φ + 5×φ (S Saturn → J Saturn; S Neptune – S Saturn; S Neptune → J Saturn) (may be geometry: three distances between the same three points)"
+    ],
+    "watch_only": false
+   }
+  ]
  }
 }

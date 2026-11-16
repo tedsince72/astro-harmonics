@@ -1,4 +1,4 @@
-# 20240608_beverley_1405 — body-by-body rules BB1-BB67
+# 20240608_beverley_1405 — body-by-body rules BB1-BB68
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -72,6 +72,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB65 | 1 | 1 | 09 Nad Alshiba Snow |  |
 | BB66 | 1 | 1 | 07 Mademoiselle |  |
 | BB67 | 0 | 0 | - |  |
+| BB68 | 4 | 3 | 07 Mademoiselle, 08 Maw Lam, 11 Powerful Lady |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -2008,4 +2009,37 @@ Rule: A runner holds at least 2 of the three combinations BB3 + BB63, BB3 + BB54
 Origin: Carlisle 16:30 7 Jul 2022, 6 Whitefeathersfall (holds all three). Eddie, 16 Nov 2026: 'build N3'. tools/scans/bb_fieldcheck_whitefeathersfall.py over 12 result races: 13 picks, 8 won, 1.7 by chance (Pholas, Secret Satire, Wotever Next, Kilcummin, Athmad, On Time, Whitefeathersfall, Diligent Resdev; lost Birkenhead, Blue Prince, True Promise, Ziggy's Condor, Misemerald). Mostly in-sample - the component rules come from these winners; after BB63 was built (Newton Abbot, Doncaster, Bath, Carlisle) 2 picks 2 won. A count across rules; N2 (BB29 with its sky body conj / cp natal X >= 90) and N4 (all three) kept as watch items.
 
 No runner holds it.
+
+## BB68 — A sky body splits the same-body line in Dec, both pieces on targets
+
+Rule: S X -> c X in Dec (c = horse or jockey chart) split by a sky body Y lying between sky X and natal X: d(S Y, S X) + d(S Y, c X) = d(S X, c X) (within 0.0005); both pieces (S Y - S X, S Y -> c X, Dec) in a family (conj / contraparallel never), one >= 90 and the other >= 50. Y a sky body, not X, not the Moon, not a royal star. The same-body line itself, when it scores (a family, or conj / contraparallel >= 80, the mirror), is noted on the case.
+
+Origin: Ripon 15:25 16 Jun 2022, 4 Society Red, H Venus: S Venus -> H Venus Dec 33.0957 = S Sedna - S Venus 8.0905 5xphi (99.11) + S Sedna -> H Venus 25.0052 25 (73.88); the same line is contraparallel 0.0141 (95.31) (V5, held by Society Red only). Shape of Dettori's day (J Sun - J Chiron 28 split by the sky Sun into 21 + 7). Eddie, 16 Nov 2026: 'V3d is good to build'. tools/scans/bb_fieldcheck_split.py over 13 result races: 27 picks, 7 won, 3.7 by chance (Pholas, Secret Satire, Diligent Resdev, Wotever Next, Athmad, Novakai, Society Red); any plane (V3) 46 / 10 / 6.0. In-sample. In Dec any sky body between the two ends splits the line exactly; the rule tests that both pieces land on targets.
+
+### 07 Mademoiselle — Chiron (also: 08 Maw Lam, 11 Powerful Lady)
+- S Chiron → H Chiron Dec 3.995031 4 whole (75.15)
+- S Sedna – S Chiron Dec 0.996865 1 whole (84.33)
+- S Sedna → H Chiron Dec 2.998167 3 whole (90.84)
+- S Chiron → H Chiron Dec 3.9950 = S Sedna – S Chiron 0.9969 1 whole (84.33) + S Sedna → H Chiron 2.9982 3 whole (90.84); same-body line Dec 3.9950 4 whole (75.15)
+- WATCH additive step (Dec): 4 = 1 + 3 (S Chiron → H Chiron; S Sedna – S Chiron; S Sedna → H Chiron) (may be geometry: three distances between the same three points)
+
+### 08 Maw Lam — Sun (also: 07 Mademoiselle, 11 Powerful Lady)
+- S Sun → H Sun Dec 36.590824 (no family)
+- S Gonggong – S Sun Dec 33.351533 33.3333 ninth (72.7)
+- S Gonggong → H Sun Dec 3.239290 2×φ golden (90.06)
+- S Sun → H Sun Dec 36.5908 = S Gonggong – S Sun 33.3515 33.3333 ninth (72.7) + S Gonggong → H Sun 3.2393 2×φ golden (90.06)
+
+### 08 Maw Lam — Uranus (also: 07 Mademoiselle, 11 Powerful Lady)
+- S Uranus → H Uranus Dec 3.886814 (no family)
+- S Haumea – S Uranus Dec 3.220224 2×φ golden (51.1)
+- S Haumea → H Uranus Dec 0.666590 0.666667 ninth (94.23)
+- S Uranus → H Uranus Dec 3.8868 = S Haumea – S Uranus 3.2202 2×φ golden (51.1) + S Haumea → H Uranus 0.6666 0.666667 ninth (94.23)
+- lights on Uranus: S Moon → H Uranus RA 66.597152 66.6667 ninth (47.86); S Sun → J Uranus Dec 42.063984 26×φ golden (84.88)
+
+### 11 Powerful Lady — Uranus (also: 07 Mademoiselle, 08 Maw Lam)
+- S Uranus → J Uranus Dec 42.218606 (no family)
+- S Haumea – S Uranus Dec 3.220224 2×φ golden (51.1)
+- S Haumea → J Uranus Dec 38.998382 39 whole (91.91)
+- S Uranus → J Uranus Dec 42.2186 = S Haumea – S Uranus 3.2202 2×φ golden (51.1) + S Haumea → J Uranus 38.9984 39 whole (91.91)
+- lights on Uranus: S Sun → H Uranus RA 37.222899 23×φ golden (74.95)
 

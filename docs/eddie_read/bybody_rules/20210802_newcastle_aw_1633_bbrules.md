@@ -1,4 +1,4 @@
-# 20210802_newcastle_aw_1633 — body-by-body rules BB1-BB67
+# 20210802_newcastle_aw_1633 — body-by-body rules BB1-BB68
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -72,6 +72,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB65 | 0 | 0 | - |  |
 | BB66 | 0 | 0 | - |  |
 | BB67 | 1 | 1 | 02 Athmad |  |
+| BB68 | 4 | 4 | 02 Athmad, 03 Raise The Roof, 05 Pallas Dancer, 06 Tricolore |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1304,4 +1305,36 @@ Origin: Carlisle 16:30 7 Jul 2022, 6 Whitefeathersfall (holds all three). Eddie,
 - BB3: Chiron
 - BB54: Chiron, Makemake
 - BB63: Gonggong, Makemake
+
+## BB68 — A sky body splits the same-body line in Dec, both pieces on targets
+
+Rule: S X -> c X in Dec (c = horse or jockey chart) split by a sky body Y lying between sky X and natal X: d(S Y, S X) + d(S Y, c X) = d(S X, c X) (within 0.0005); both pieces (S Y - S X, S Y -> c X, Dec) in a family (conj / contraparallel never), one >= 90 and the other >= 50. Y a sky body, not X, not the Moon, not a royal star. The same-body line itself, when it scores (a family, or conj / contraparallel >= 80, the mirror), is noted on the case.
+
+Origin: Ripon 15:25 16 Jun 2022, 4 Society Red, H Venus: S Venus -> H Venus Dec 33.0957 = S Sedna - S Venus 8.0905 5xphi (99.11) + S Sedna -> H Venus 25.0052 25 (73.88); the same line is contraparallel 0.0141 (95.31) (V5, held by Society Red only). Shape of Dettori's day (J Sun - J Chiron 28 split by the sky Sun into 21 + 7). Eddie, 16 Nov 2026: 'V3d is good to build'. tools/scans/bb_fieldcheck_split.py over 13 result races: 27 picks, 7 won, 3.7 by chance (Pholas, Secret Satire, Diligent Resdev, Wotever Next, Athmad, Novakai, Society Red); any plane (V3) 46 / 10 / 6.0. In-sample. In Dec any sky body between the two ends splits the line exactly; the rule tests that both pieces land on targets.
+
+### 02 Athmad — Mercury (also: 03 Raise The Roof, 05 Pallas Dancer, 06 Tricolore)
+- S Mercury → J Mercury Dec 33.243236 (no family)
+- S Pallas – S Mercury Dec 12.223192 12.2222 ninth (96.03)
+- S Pallas → J Mercury Dec 21.020044 13×φ golden (55.56)
+- S Mercury → J Mercury Dec 33.2432 = S Pallas – S Mercury 12.2232 12.2222 ninth (96.03) + S Pallas → J Mercury 21.0200 13×φ golden (55.56)
+
+### 03 Raise The Roof — Mars (also: 02 Athmad, 05 Pallas Dancer, 06 Tricolore)
+- S Mars → J Mars Dec 14.265437 (no family)
+- S Eris – S Mars Dec 12.932269 8×φ golden (62.95)
+- S Eris → J Mars Dec 1.333168 1.33333 ninth (93.81)
+- S Mars → J Mars Dec 14.2654 = S Eris – S Mars 12.9323 8×φ golden (62.95) + S Eris → J Mars 1.3332 1.33333 ninth (93.81)
+- lights on Mars: S Moon – S Mars RA 93.843456 58×φ golden (92.24); S Moon → H Mars RA 161.800923 100φ phi power (98.98); S Moon → J Mars Dec 22.012156 22 whole (39.22)
+
+### 05 Pallas Dancer — Ketu (also: 02 Athmad, 03 Raise The Roof, 06 Tricolore)
+- S Ketu → H Ketu Dec 9.481305 (no family)
+- S Quaoar – S Ketu Dec 6.480779 4×φ golden (73.32)
+- S Quaoar → H Ketu Dec 3.000526 3 whole (97.37)
+- S Ketu → H Ketu Dec 9.4813 = S Quaoar – S Ketu 6.4808 4×φ golden (73.32) + S Quaoar → H Ketu 3.0005 3 whole (97.37)
+
+### 06 Tricolore — Ceres (also: 02 Athmad, 03 Raise The Roof, 05 Pallas Dancer)
+- S Ceres → J Ceres Dec 8.249504 (no family)
+- S Uranus – S Ceres Dec 1.777081 1.77778 ninth (80.4)
+- S Uranus → J Ceres Dec 6.472423 4×φ golden (99.11)
+- S Ceres → J Ceres Dec 8.2495 = S Uranus – S Ceres 1.7771 1.77778 ninth (80.4) + S Uranus → J Ceres 6.4724 4×φ golden (99.11)
+- lights on Ceres: S Moon – S Ceres RA 1.033820 conj conj (31.08)
 

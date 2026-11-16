@@ -1,4 +1,4 @@
-# 20200608_haydock_1345 — body-by-body rules BB1-BB67
+# 20200608_haydock_1345 — body-by-body rules BB1-BB68
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -72,6 +72,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB65 | 0 | 0 | - |  |
 | BB66 | 1 | 1 | 02 Ventura Flame |  |
 | BB67 | 1 | 1 | 06 Birkenhead |  |
+| BB68 | 4 | 4 | 01 Magical Max, 03 Never In Paris, 05 My Friend Stan, 08 Dancin Inthestreet |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1588,4 +1589,39 @@ Origin: Carlisle 16:30 7 Jul 2022, 6 Whitefeathersfall (holds all three). Eddie,
 - BB3: Mars, Quaoar
 - BB54: Jupiter
 - BB63: Mars
+
+## BB68 — A sky body splits the same-body line in Dec, both pieces on targets
+
+Rule: S X -> c X in Dec (c = horse or jockey chart) split by a sky body Y lying between sky X and natal X: d(S Y, S X) + d(S Y, c X) = d(S X, c X) (within 0.0005); both pieces (S Y - S X, S Y -> c X, Dec) in a family (conj / contraparallel never), one >= 90 and the other >= 50. Y a sky body, not X, not the Moon, not a royal star. The same-body line itself, when it scores (a family, or conj / contraparallel >= 80, the mirror), is noted on the case.
+
+Origin: Ripon 15:25 16 Jun 2022, 4 Society Red, H Venus: S Venus -> H Venus Dec 33.0957 = S Sedna - S Venus 8.0905 5xphi (99.11) + S Sedna -> H Venus 25.0052 25 (73.88); the same line is contraparallel 0.0141 (95.31) (V5, held by Society Red only). Shape of Dettori's day (J Sun - J Chiron 28 split by the sky Sun into 21 + 7). Eddie, 16 Nov 2026: 'V3d is good to build'. tools/scans/bb_fieldcheck_split.py over 13 result races: 27 picks, 7 won, 3.7 by chance (Pholas, Secret Satire, Diligent Resdev, Wotever Next, Athmad, Novakai, Society Red); any plane (V3) 46 / 10 / 6.0. In-sample. In Dec any sky body between the two ends splits the line exactly; the rule tests that both pieces land on targets.
+
+### 01 Magical Max — Pallas (also: 03 Never In Paris, 05 My Friend Stan, 08 Dancin Inthestreet)
+- S Pallas → H Pallas Dec 21.867254 (no family)
+- S Haumea – S Pallas Dec 4.867863 3×φ golden (57.53)
+- S Haumea → H Pallas Dec 16.999391 17 whole (96.95)
+- S Pallas → H Pallas Dec 21.8673 = S Haumea – S Pallas 4.8679 3×φ golden (57.53) + S Haumea → H Pallas 16.9994 17 whole (96.95)
+- lights on Pallas: S Sun – S Pallas RA 144.328310 144.444 ninth (59.8)
+
+### 03 Never In Paris — Mercury (also: 01 Magical Max, 05 My Friend Stan, 08 Dancin Inthestreet)
+- S Mercury → H Mercury Dec 34.332935 (no family)
+- S Sun – S Mercury Dec 1.001903 1 whole (90.49)
+- S Sun → H Mercury Dec 33.331031 33.3333 ninth (96.55)
+- S Mercury → H Mercury Dec 34.3329 = S Sun – S Mercury 1.0019 1 whole (90.49) + S Sun → H Mercury 33.3310 33.3333 ninth (96.55)
+- lights on Mercury: S Sun – S Mercury Dec 1.001903 1 whole (90.49); S Moon – S Mercury Dec 47.990929 48 whole (54.65); S Moon – S Mercury Dec contraparallel 0.218065 cp contraparallel (27.31); S Sun → H Mercury Dec 33.331031 33.3333 ninth (96.55)
+
+### 05 My Friend Stan — Sedna (also: 01 Magical Max, 03 Never In Paris, 08 Dancin Inthestreet)
+- S Sedna → J Sedna Dec 6.362341 (no family)
+- S Chiron – S Sedna Dec 2.221811 2.22222 ninth (90.75)
+- S Chiron → J Sedna Dec 4.140530 4.14 silver (74.16)
+- S Sedna → J Sedna Dec 6.3623 = S Chiron – S Sedna 2.2218 2.22222 ninth (90.75) + S Chiron → J Sedna 4.1405 4.14 silver (74.16)
+- lights on Sedna: S Moon → J Sedna Dec 25.909740 16×φ golden (34.58)
+
+### 08 Dancin Inthestreet — Sun (also: 01 Magical Max, 03 Never In Paris, 05 My Friend Stan)
+- S Sun → H Sun Dec 32.995596 33 whole (77.98)
+- S Transpluto – S Sun Dec 11.994149 12 whole (70.75)
+- S Transpluto → H Sun Dec 21.001447 21 whole (92.77)
+- S Sun → H Sun Dec 32.9956 = S Transpluto – S Sun 11.9941 12 whole (70.75) + S Transpluto → H Sun 21.0014 21 whole (92.77); same-body line Dec 32.9956 33 whole (77.98)
+- WATCH additive step (Dec): 33 = 12 + 21 (S Sun → H Sun; S Transpluto – S Sun; S Transpluto → H Sun) (may be geometry: three distances between the same three points)
+- lights on Sun: S Moon – S Sun Dec 46.989026 φ⁸ phi power (85.37); S Moon → H Sun Dec 13.993430 14 whole (67.15)
 

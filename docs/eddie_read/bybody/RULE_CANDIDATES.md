@@ -1290,3 +1290,16 @@ Scans (read-only): tools/scans/bb_fieldcheck_split.py (from the bybody xlsx, 13 
 Note: in Dec any sky body between the two ends splits the line exactly; what the rule tests is that both pieces land on targets.
 Independent checker (16 Nov): V3d recomputed from the _active _POS tabs, 12 races, every holder and case line identical; Society Red
 values by hand (Dec S Venus +16.540811, H Venus −16.554871, S Sedna +8.450354): 0 mismatches. Not built (Eddie to decide).
+Built 16 Nov 2026 as BB68 (V3d; Eddie: 'V3d is good to build').
+
+## Society Red Venus: the mirror (16 Nov 2026, Eddie: "I actually meant this" - the Venus Dec cluster)
+H Venus Dec: S Venus → H Venus contraparallel 0.0141 (95.31); sky Venus conj sky Uranus 0.0330 (88.99) and S Aldebaran 0.0333 (88.89);
+S Uranus → H Venus cp 0.0471 (84.3); H Aldebaran – H Venus cp 0.0469 (84.37). Scan tools/scans/bb_fieldcheck_mirror.py (13 result races):
+- M1 mirror (S X → c X conj / cp, Dec) >= 90: 13 / 1 / 1.9; M1b >= 80: 20 / 3 / 2.9 (most mirrors are slow outer bodies: Orcus, Transpluto)
+- M2 + a sky body conj / cp sky X: 6 / 1 / 0.9; M5 (that body also conj / cp natal X) 6 / 1 / 0.9
+- M3 + a royal star conj / cp sky X: 2 / 1 / 0.3 (Call Me Harswell H Orcus / Regulus, Society Red); M6 the same
+- M4 both (Society Red's shape): 1 / 1 / 0.2 - Society Red only
+- fast bodies only (Sun, Mercury, Venus, Mars): mirror >= 90 3 / 1 / 0.6; >= 80 5 / 1 / 0.9 (Arafi J Sun, My Friend Stan J Mars,
+  Capuchinero J Sun with Chiron and Juno on sky Sun, Bella Kopella J Mercury with Makemake, Pluto, Venus, Society Red H Venus)
+One winner on the structure; not built (build standard: a second origin winner). Candidate watch item.
+Independent checker (16 Nov): BB68 recomputed from the _active _POS tabs, 13 races, holders = the json (0 mismatches; York 16:15 has no _active file); other rules unchanged in every bbrules json; mirror M1-M4 = the scan (Ripon 03 Urban War J Rahu / J Ketu mirror would hold M2 only through the automatic sky Rahu - Ketu pair, which the scan leaves out).

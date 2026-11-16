@@ -1,4 +1,4 @@
-# 20220707_carlisle_1630 — body-by-body rules BB1-BB67
+# 20220707_carlisle_1630 — body-by-body rules BB1-BB68
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -72,6 +72,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB65 | 0 | 0 | - |  |
 | BB66 | 1 | 1 | 01 Aswan |  |
 | BB67 | 1 | 1 | 06 Whitefeathersfall |  |
+| BB68 | 1 | 1 | 07 Noble Mark |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1008,4 +1009,17 @@ Origin: Carlisle 16:30 7 Jul 2022, 6 Whitefeathersfall (holds all three). Eddie,
 - BB54: Mercury, Rahu
 - BB59: Saturn
 - BB63: Saturn
+
+## BB68 — A sky body splits the same-body line in Dec, both pieces on targets
+
+Rule: S X -> c X in Dec (c = horse or jockey chart) split by a sky body Y lying between sky X and natal X: d(S Y, S X) + d(S Y, c X) = d(S X, c X) (within 0.0005); both pieces (S Y - S X, S Y -> c X, Dec) in a family (conj / contraparallel never), one >= 90 and the other >= 50. Y a sky body, not X, not the Moon, not a royal star. The same-body line itself, when it scores (a family, or conj / contraparallel >= 80, the mirror), is noted on the case.
+
+Origin: Ripon 15:25 16 Jun 2022, 4 Society Red, H Venus: S Venus -> H Venus Dec 33.0957 = S Sedna - S Venus 8.0905 5xphi (99.11) + S Sedna -> H Venus 25.0052 25 (73.88); the same line is contraparallel 0.0141 (95.31) (V5, held by Society Red only). Shape of Dettori's day (J Sun - J Chiron 28 split by the sky Sun into 21 + 7). Eddie, 16 Nov 2026: 'V3d is good to build'. tools/scans/bb_fieldcheck_split.py over 13 result races: 27 picks, 7 won, 3.7 by chance (Pholas, Secret Satire, Diligent Resdev, Wotever Next, Athmad, Novakai, Society Red); any plane (V3) 46 / 10 / 6.0. In-sample. In Dec any sky body between the two ends splits the line exactly; the rule tests that both pieces land on targets.
+
+### 07 Noble Mark — Ceres (only)
+- S Ceres → J Ceres Dec 43.804927 (no family)
+- S Chiron – S Ceres Dec 17.796688 11×φ golden (94.8)
+- S Chiron → J Ceres Dec 26.008239 26 whole (58.81)
+- S Ceres → J Ceres Dec 43.8049 = S Chiron – S Ceres 17.7967 11×φ golden (94.8) + S Chiron → J Ceres 26.0082 26 whole (58.81)
+- lights on Ceres: S Sun → J Ceres RA 111.113550 111.111 ninth (98.9); S Sun → J Ceres Dec 40.454569 25×φ golden (88.52); S Moon → J Ceres RA 153.728867 95×φ golden (51.73)
 

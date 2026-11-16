@@ -1,4 +1,4 @@
-# 20240118_chelmsford_aw_1320 — body-by-body rules BB1-BB67
+# 20240118_chelmsford_aw_1320 — body-by-body rules BB1-BB68
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -72,6 +72,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB65 | 0 | 0 | - |  |
 | BB66 | 1 | 1 | 03 Good Time Ahead |  |
 | BB67 | 1 | 1 | 02 Sullivan Bay |  |
+| BB68 | 3 | 3 | 01 This Ones For Fred, 07 Buford, 08 Duveen |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1059,4 +1060,31 @@ Origin: Carlisle 16:30 7 Jul 2022, 6 Whitefeathersfall (holds all three). Eddie,
 - BB3: Sun, Uranus, Haumea, Sedna
 - BB54: Uranus
 - BB63: Orcus
+
+## BB68 — A sky body splits the same-body line in Dec, both pieces on targets
+
+Rule: S X -> c X in Dec (c = horse or jockey chart) split by a sky body Y lying between sky X and natal X: d(S Y, S X) + d(S Y, c X) = d(S X, c X) (within 0.0005); both pieces (S Y - S X, S Y -> c X, Dec) in a family (conj / contraparallel never), one >= 90 and the other >= 50. Y a sky body, not X, not the Moon, not a royal star. The same-body line itself, when it scores (a family, or conj / contraparallel >= 80, the mirror), is noted on the case.
+
+Origin: Ripon 15:25 16 Jun 2022, 4 Society Red, H Venus: S Venus -> H Venus Dec 33.0957 = S Sedna - S Venus 8.0905 5xphi (99.11) + S Sedna -> H Venus 25.0052 25 (73.88); the same line is contraparallel 0.0141 (95.31) (V5, held by Society Red only). Shape of Dettori's day (J Sun - J Chiron 28 split by the sky Sun into 21 + 7). Eddie, 16 Nov 2026: 'V3d is good to build'. tools/scans/bb_fieldcheck_split.py over 13 result races: 27 picks, 7 won, 3.7 by chance (Pholas, Secret Satire, Diligent Resdev, Wotever Next, Athmad, Novakai, Society Red); any plane (V3) 46 / 10 / 6.0. In-sample. In Dec any sky body between the two ends splits the line exactly; the rule tests that both pieces land on targets.
+
+### 01 This Ones For Fred — Ceres (also: 07 Buford, 08 Duveen)
+- S Ceres → H Ceres Dec 53.278638 (no family)
+- S Chiron – S Ceres Dec 29.000100 29 whole (99.5)
+- S Chiron → H Ceres Dec 24.278538 15×φ golden (75.22)
+- S Ceres → H Ceres Dec 53.2786 = S Chiron – S Ceres 29.0001 29 whole (99.5) + S Chiron → H Ceres 24.2785 15×φ golden (75.22)
+
+### 07 Buford — Ceres (also: 01 This Ones For Fred, 08 Duveen)
+- S Ceres → H Ceres Dec 53.001405 53 whole (92.98)
+- S Chiron – S Ceres Dec 29.000100 29 whole (99.5)
+- S Chiron → H Ceres Dec 24.001306 24 whole (93.47)
+- S Ceres → H Ceres Dec 53.0014 = S Chiron – S Ceres 29.0001 29 whole (99.5) + S Chiron → H Ceres 24.0013 24 whole (93.47); same-body line Dec 53.0014 53 whole (92.98)
+- WATCH additive step (Dec): 53 = 29 + 24 (S Ceres → H Ceres; S Chiron – S Ceres; S Chiron → H Ceres) (may be geometry: three distances between the same three points)
+- lights on Ceres: S Moon → H Ceres RA 100.145051 100 ninth (27.47)
+
+### 08 Duveen — Ketu (also: 01 This Ones For Fred, 07 Buford)
+- S Ketu → J Ketu Dec 15.545760 15.5556 ninth (68.51)
+- S Neptune – S Ketu Dec 4.445315 4.44444 ninth (90.2)
+- S Neptune → J Ketu Dec 11.100445 11.1111 ninth (52)
+- S Ketu → J Ketu Dec 15.5458 = S Neptune – S Ketu 4.4453 4.44444 ninth (90.2) + S Neptune → J Ketu 11.1004 11.1111 ninth (52); same-body line Dec 15.5458 15.5556 ninth (68.51)
+- lights on Ketu: S Sun – S Ketu RA 101.918081 63×φ golden (44.26)
 

@@ -3490,6 +3490,79 @@
     "watch_only": false
    }
   ],
-  "BB67": []
+  "BB67": [],
+  "BB68": [
+   {
+    "runner": "07 Mademoiselle",
+    "body": "Chiron",
+    "cells": [
+     "S Chiron → H Chiron Dec 3.995031 4 whole (75.15)",
+     "S Sedna – S Chiron Dec 0.996865 1 whole (84.33)",
+     "S Sedna → H Chiron Dec 2.998167 3 whole (90.84)"
+    ],
+    "notes": [
+     "S Chiron → H Chiron Dec 3.9950 = S Sedna – S Chiron 0.9969 1 whole (84.33) + S Sedna → H Chiron 2.9982 3 whole (90.84); same-body line Dec 3.9950 4 whole (75.15)"
+    ],
+    "lights": [],
+    "decade": [],
+    "additive": [
+     "WATCH additive step (Dec): 4 = 1 + 3 (S Chiron → H Chiron; S Sedna – S Chiron; S Sedna → H Chiron) (may be geometry: three distances between the same three points)"
+    ],
+    "watch_only": false
+   },
+   {
+    "runner": "08 Maw Lam",
+    "body": "Sun",
+    "cells": [
+     "S Sun → H Sun Dec 36.590824 (no family)",
+     "S Gonggong – S Sun Dec 33.351533 33.3333 ninth (72.7)",
+     "S Gonggong → H Sun Dec 3.239290 2×φ golden (90.06)"
+    ],
+    "notes": [
+     "S Sun → H Sun Dec 36.5908 = S Gonggong – S Sun 33.3515 33.3333 ninth (72.7) + S Gonggong → H Sun 3.2393 2×φ golden (90.06)"
+    ],
+    "lights": [],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "08 Maw Lam",
+    "body": "Uranus",
+    "cells": [
+     "S Uranus → H Uranus Dec 3.886814 (no family)",
+     "S Haumea – S Uranus Dec 3.220224 2×φ golden (51.1)",
+     "S Haumea → H Uranus Dec 0.666590 0.666667 ninth (94.23)"
+    ],
+    "notes": [
+     "S Uranus → H Uranus Dec 3.8868 = S Haumea – S Uranus 3.2202 2×φ golden (51.1) + S Haumea → H Uranus 0.6666 0.666667 ninth (94.23)"
+    ],
+    "lights": [
+     "S Moon → H Uranus RA 66.597152 66.6667 ninth (47.86)",
+     "S Sun → J Uranus Dec 42.063984 26×φ golden (84.88)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "11 Powerful Lady",
+    "body": "Uranus",
+    "cells": [
+     "S Uranus → J Uranus Dec 42.218606 (no family)",
+     "S Haumea – S Uranus Dec 3.220224 2×φ golden (51.1)",
+     "S Haumea → J Uranus Dec 38.998382 39 whole (91.91)"
+    ],
+    "notes": [
+     "S Uranus → J Uranus Dec 42.2186 = S Haumea – S Uranus 3.2202 2×φ golden (51.1) + S Haumea → J Uranus 38.9984 39 whole (91.91)"
+    ],
+    "lights": [
+     "S Sun → H Uranus RA 37.222899 23×φ golden (74.95)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ]
  }
 }

@@ -1,4 +1,4 @@
-# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB67
+# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB68
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -72,6 +72,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB65 | 0 | 0 | - |  |
 | BB66 | 0 | 0 | - |  |
 | BB67 | 1 | 1 | 05 Pholas |  |
+| BB68 | 3 | 3 | 02 Fizzy Feet, 05 Pholas, 06 Shimmering Dawn |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1082,4 +1083,31 @@ Origin: Carlisle 16:30 7 Jul 2022, 6 Whitefeathersfall (holds all three). Eddie,
 - BB3: Mercury, Jupiter, Chiron
 - BB59: Pallas
 - BB63: Pallas
+
+## BB68 — A sky body splits the same-body line in Dec, both pieces on targets
+
+Rule: S X -> c X in Dec (c = horse or jockey chart) split by a sky body Y lying between sky X and natal X: d(S Y, S X) + d(S Y, c X) = d(S X, c X) (within 0.0005); both pieces (S Y - S X, S Y -> c X, Dec) in a family (conj / contraparallel never), one >= 90 and the other >= 50. Y a sky body, not X, not the Moon, not a royal star. The same-body line itself, when it scores (a family, or conj / contraparallel >= 80, the mirror), is noted on the case.
+
+Origin: Ripon 15:25 16 Jun 2022, 4 Society Red, H Venus: S Venus -> H Venus Dec 33.0957 = S Sedna - S Venus 8.0905 5xphi (99.11) + S Sedna -> H Venus 25.0052 25 (73.88); the same line is contraparallel 0.0141 (95.31) (V5, held by Society Red only). Shape of Dettori's day (J Sun - J Chiron 28 split by the sky Sun into 21 + 7). Eddie, 16 Nov 2026: 'V3d is good to build'. tools/scans/bb_fieldcheck_split.py over 13 result races: 27 picks, 7 won, 3.7 by chance (Pholas, Secret Satire, Diligent Resdev, Wotever Next, Athmad, Novakai, Society Red); any plane (V3) 46 / 10 / 6.0. In-sample. In Dec any sky body between the two ends splits the line exactly; the rule tests that both pieces land on targets.
+
+### 02 Fizzy Feet — Jupiter (also: 05 Pholas, 06 Shimmering Dawn)
+- S Jupiter → J Jupiter Dec 33.854935 (no family)
+- S Sun – S Jupiter Dec 19.418627 12×φ golden (93.15)
+- S Sun → J Jupiter Dec 14.436309 14.4444 ninth (71.84)
+- S Jupiter → J Jupiter Dec 33.8549 = S Sun – S Jupiter 19.4186 12×φ golden (93.15) + S Sun → J Jupiter 14.4363 14.4444 ninth (71.84)
+- lights on Jupiter: S Moon – S Jupiter RA 68.547364 10φ⁴ phi power (93.83); S Sun – S Jupiter Dec 19.418627 12×φ golden (93.15); S Sun → J Jupiter RA 46.972821 φ⁸ phi power (91.64); S Sun → J Jupiter Dec 14.436309 14.4444 ninth (71.84)
+
+### 05 Pholas — Mercury (also: 02 Fizzy Feet, 06 Shimmering Dawn)
+- S Mercury → H Mercury Dec 16.892082 (no family)
+- S Orcus – S Mercury Dec 8.003414 8 whole (82.93)
+- S Orcus → H Mercury Dec 8.888668 8.88889 ninth (98.76)
+- S Mercury → H Mercury Dec 16.8921 = S Orcus – S Mercury 8.0034 8 whole (82.93) + S Orcus → H Mercury 8.8887 8.88889 ninth (98.76)
+- lights on Mercury: S Moon → H Mercury RA 13.329589 13.3333 ninth (85.96)
+
+### 06 Shimmering Dawn — Vesta (also: 02 Fizzy Feet, 05 Pholas)
+- S Vesta → H Vesta Dec 14.617939 (no family)
+- S Chiron – S Vesta Dec 13.002768 13 whole (86.16)
+- S Chiron → H Vesta Dec 1.615171 1×φ golden (91.16)
+- S Vesta → H Vesta Dec 14.6179 = S Chiron – S Vesta 13.0028 13 whole (86.16) + S Chiron → H Vesta 1.6152 1×φ golden (91.16)
+- lights on Vesta: S Sun → H Vesta Dec 1.006403 1 whole (67.99); S Sun → J Vesta RA 111.259107 111.111 ninth (33.4); S Moon → J Vesta RA 134.275132 83×φ golden (33.06)
 

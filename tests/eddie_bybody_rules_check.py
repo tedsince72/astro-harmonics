@@ -83,6 +83,7 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB65': set(),
     'BB66': set(),
     'BB67': {('05 Pholas', 'runner')},
+    'BB68': {('02 Fizzy Feet', 'Jupiter'), ('05 Pholas', 'Mercury'), ('06 Shimmering Dawn', 'Vesta')},
     'BB55': {('01 Arafi', 'Gonggong'), ('01 Arafi', 'Venus'), ('04 Nirodha', 'Saturn'), ('05 Pholas', 'Pallas')},
     'BB53': {('06 Shimmering Dawn', 'Sun'), ('06 Shimmering Dawn', 'Jupiter'), ('06 Shimmering Dawn', 'Pallas')},
 }
@@ -647,5 +648,25 @@ if os.path.exists(CAR):
             if not c['watch_only']: hold_all.setdefault(c['runner'], set()).add(rid)
     check(all((sum(set(cb) <= hold_all.get(x, set()) for cb in (('BB3', 'BB63'), ('BB3', 'BB54'), ('BB59',))) >= 2) == (x in h67(cr))
               for x in hold_all), 'BB67 Carlisle = the combo count for every runner')
+# BB68 (Eddie, 16 Nov 2026): V3d - a sky body splits the same-body line S X -> c X in Dec, pieces >= 90 / >= 50
+h68 = lambda rr: {(c['runner'], c['body']) for c in rr['BB68']}
+check(h68(yres) == {('03 Friendly Soul', 'Jupiter'), ('04 La Pasionaria', 'Mars'), ('06 Secret Satire', 'Juno')}, 'BB68 York 15:45')
+RIP = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', '20220616_ripon_1525', '20220616_ripon_1525_bybody.xlsx')
+if os.path.exists(RIP):
+    rp = R.run(RIP)[2]
+    check(h68(rp) == {('04 Society Red', 'Venus'), ('04 Society Red', 'Saturn')}, 'BB68 Ripon: Society Red only')
+    k = [x for c in rp['BB68'] if c['body'] == 'Venus' for x in c['cells']]
+    check('S Sedna – S Venus Dec 8.090457 5×φ golden (99.11)' in k and 'S Sedna → H Venus Dec 25.005224 25 whole (73.88)' in k
+          and 'S Venus → H Venus Dec contraparallel 0.014060 cp contraparallel (95.31)' in k, 'BB68 Society Red Venus cells + mirror')
+sys.path.insert(0, os.path.join(ROOT, 'tools', 'scans'))
+import bb_fieldcheck_split as SP
+for race, _ in SP.RACES:
+    pth = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', race, f'{race}_bybody.xlsx')
+    if not os.path.exists(pth):
+        continue
+    data = R.load(pth)
+    v3d = {run for run, D in data.items() for X, d in D.items() for sp in SP.splits(X, d)
+           if 'V3d' in SP.tags(sp, set(D) | {'Rahu', 'Ketu'})}
+    check({c['runner'] for c in R.run(pth)[2]['BB68']} == v3d, f'BB68 = scan V3d {race}')
 print(f'{ok}/{ok + bad} checks passed')
 sys.exit(1 if bad else 0)

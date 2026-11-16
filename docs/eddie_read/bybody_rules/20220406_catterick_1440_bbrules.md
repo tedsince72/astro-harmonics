@@ -1,4 +1,4 @@
-# 20220406_catterick_1440 — body-by-body rules BB1-BB67
+# 20220406_catterick_1440 — body-by-body rules BB1-BB68
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -72,6 +72,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB65 | 1 | 1 | 05 Wotever Next |  |
 | BB66 | 2 | 2 | 04 Thakuri, 05 Wotever Next |  |
 | BB67 | 1 | 1 | 05 Wotever Next |  |
+| BB68 | 2 | 2 | 04 Thakuri, 05 Wotever Next |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1074,4 +1075,24 @@ Origin: Carlisle 16:30 7 Jul 2022, 6 Whitefeathersfall (holds all three). Eddie,
 - BB3: Sun, Ceres, Gonggong, Transpluto
 - BB59: Rahu
 - BB63: Gonggong
+
+## BB68 — A sky body splits the same-body line in Dec, both pieces on targets
+
+Rule: S X -> c X in Dec (c = horse or jockey chart) split by a sky body Y lying between sky X and natal X: d(S Y, S X) + d(S Y, c X) = d(S X, c X) (within 0.0005); both pieces (S Y - S X, S Y -> c X, Dec) in a family (conj / contraparallel never), one >= 90 and the other >= 50. Y a sky body, not X, not the Moon, not a royal star. The same-body line itself, when it scores (a family, or conj / contraparallel >= 80, the mirror), is noted on the case.
+
+Origin: Ripon 15:25 16 Jun 2022, 4 Society Red, H Venus: S Venus -> H Venus Dec 33.0957 = S Sedna - S Venus 8.0905 5xphi (99.11) + S Sedna -> H Venus 25.0052 25 (73.88); the same line is contraparallel 0.0141 (95.31) (V5, held by Society Red only). Shape of Dettori's day (J Sun - J Chiron 28 split by the sky Sun into 21 + 7). Eddie, 16 Nov 2026: 'V3d is good to build'. tools/scans/bb_fieldcheck_split.py over 13 result races: 27 picks, 7 won, 3.7 by chance (Pholas, Secret Satire, Diligent Resdev, Wotever Next, Athmad, Novakai, Society Red); any plane (V3) 46 / 10 / 6.0. In-sample. In Dec any sky body between the two ends splits the line exactly; the rule tests that both pieces land on targets.
+
+### 04 Thakuri — Pluto (also: 05 Wotever Next)
+- S Pluto → J Pluto Dec 28.881685 (no family)
+- S Pallas – S Pluto Dec 17.780401 17.7778 ninth (92.62)
+- S Pallas → J Pluto Dec 11.101284 11.1111 ninth (55.78)
+- S Pluto → J Pluto Dec 28.8817 = S Pallas – S Pluto 17.7804 17.7778 ninth (92.62) + S Pallas → J Pluto 11.1013 11.1111 ninth (55.78)
+- lights on Pluto: S Moon → H Pluto RA 141.503249 141.4 sqrt2 (61.4); S Sun → J Pluto Dec 0.030194 conj conj (89.94); S Moon → J Pluto Dec 17.951275 φ⁶ phi power (73.98)
+
+### 05 Wotever Next — Pluto (also: 04 Thakuri)
+- S Pluto → J Pluto Dec 20.194479 (no family)
+- S Pallas – S Pluto Dec 17.780401 17.7778 ninth (92.62)
+- S Pallas → J Pluto Dec 2.414077 2.414 silver (96.23)
+- S Pluto → J Pluto Dec 20.1945 = S Pallas – S Pluto 17.7804 17.7778 ninth (92.62) + S Pallas → J Pluto 2.4141 2.414 silver (96.23)
+- lights on Pluto: S Moon → H Pluto RA 141.291619 141.4 sqrt2 (38.84)
 
