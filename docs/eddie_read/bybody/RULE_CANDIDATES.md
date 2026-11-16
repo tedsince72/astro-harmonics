@@ -1275,3 +1275,18 @@ tools/scans/bb_fieldcheck_whitefeathersfall.py, 12 result races (in-sample races
   Whitefeathersfall, Diligent Resdev; lost Birkenhead, Blue Prince, True Promise, Ziggy's Condor, Misemerald). Mostly in-sample (the rules come
   from these winners); after BB63 was built (Newton Abbot, Doncaster, Bath, Carlisle): 2 picks 2 won (On Time, Whitefeathersfall).
 - N4 all three: 3 / 2 / 0.4 (Secret Satire, Whitefeathersfall; Misemerald lost).
+
+## Society Red Venus: the split (16 Nov 2026, Eddie: "that venus is definitely the one to focus on - does it create a rule - similar to dettori day")
+Ripon 15:25 16 Jun 2022, 04 Society Red (won 16/1). H Venus Dec: S Venus → H Venus 33.0957 (no family) split by sky Sedna between them:
+S Sedna – S Venus 8.0905 5×φ (99.11) + S Sedna → H Venus 25.0052 25 (73.88); the same line is a contraparallel 0.0141 (95.31), with
+S Uranus and S Aldebaran conj S Venus (0.0330 / 0.0333). Dettori's day: J Sun – J Chiron Dec 28 split by the sky Sun into 21 + 7.
+Scans (read-only): tools/scans/bb_fieldcheck_split.py (from the bybody xlsx, 13 result races), bb_fieldcheck_split_dettori.py (_POS tabs).
+- V1 any split, any plane 93 / 13 / 13.0; V1d Dec 87 / 13 / 12.0; V2 both >= 50 71 / 10 / 9.8
+- V3 one piece >= 90, other >= 50, any plane 46 / 10 / 6.0; **V3d Dec 27 / 7 / 3.7** (Pholas, Secret Satire, Diligent Resdev, Wotever Next,
+  Athmad, Novakai, Society Red; 12 races without York 16:15: 23 / 6 / 3.5)
+- V4 V3 + the same-body line itself scoring 17 / 3 / 2.1; V5 V3 + same-body conj / cp >= 80 1 / 1 / 0.2 (Society Red only)
+- Dettori form (sky X between natal X and natal Y, S X → c X >= 90): D1 22 / 4 / 3.4, D2 17 / 2 / 2.4, D3 (+ c X – c Y in a family)
+  11 / 3 / 1.8 (12 races; York 16:15 has no _active.xlsx). Society Red does not hold it.
+Note: in Dec any sky body between the two ends splits the line exactly; what the rule tests is that both pieces land on targets.
+Independent checker (16 Nov): V3d recomputed from the _active _POS tabs, 12 races, every holder and case line identical; Society Red
+values by hand (Dec S Venus +16.540811, H Venus −16.554871, S Sedna +8.450354): 0 mismatches. Not built (Eddie to decide).
