@@ -1191,3 +1191,10 @@ tools/scans/bb_fieldcheck_same_body_loop_closed.py, 8 result races: P1 same-body
 the same chart 31 / 4 (3.7); P2 the three legs >= 50 7 / 1 (0.8); P3 + same-body >= 50 5 / 1 (0.6; Magical Max, Quiet Resolve, Misemerald, Athmad,
 Beating All); P4 P1 + another sky body on natal X repeating the A – X number 1 / 1 (0.2; Athmad only, in all 9 races).
 WATCH: run tools/scans/bb_fieldcheck_same_body_loop_closed.py on every new race (add it to the races list); report P4 holders with the blind read.
+
+## Sky Pluto on natal Pluto in winners (16 Nov 2026, Eddie: 'a s pluto to h pluto score winning again') - noted
+tools/scans/bb_fieldcheck_pluto_same_body.py, 8 result races. S Pluto → H Pluto scoring: 17 holders, 3 winners (Secret Satire RA 6.0016 6 (92.0),
+Wotever Next RA 6.0190 6 (5.0), Athmad RA 9.9931 10 (65.4)), 2.2 by chance; >= 50: 7 / 2 (0.9). S Pluto → J Pluto: 14 / 3 (Perfect Part 100φ^-1 8.5,
+Diligent Resdev 75 24.0, Kilcummin 10×φ 78.5), 1.8. H or J: 28 picks, 6 of 8 winners, 3.5 by chance - the highest of the 24 bodies (next Quaoar
+19 / 4, 2.2; Sun 24 / 0, 2.9). In-sample, and the best of 24 bodies tested, so expect some luck. Pluto moves slowly, so S Pluto → natal Pluto mostly
+measures the birth year (horse's age, jockey's age); several hits sit on whole 6 (Secret Satire, Wotever Next, Elmonjed, Francophone, Expensive Queen).
