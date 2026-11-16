@@ -1240,3 +1240,12 @@ Orcus); M3 E + each leg carried by a sky pair 1 / 1 / 0.2. Over every _active fi
 (Newbury 13:50 26 Nov 2021 Solo, Aintree 15:00 6 Nov 2026 JPR One, On Time), M2 2 (Nottingham 15:30 1 Jun 2022 Princess Shabnam, On Time).
 WATCH (Eddie, 16 Nov 2026: 'keep them all as notes to see when they reappear'): E, Es, Ef, M1, M2, M3 (On Time Jupiter split) - run
 bb_fieldcheck_jupiter_split.py on every new race with WATCH B and P4; build when a second winner holds one.
+
+## Novakai (Doncaster 18:45 16 Jul 2022) - Quaoar, Eris, Neptune (16 Nov 2026; tools/scans/bb_fieldcheck_novakai_others.py, 10 result races)
+- Q1 one royal star on natal X in both planes, same chart, both >= 90: 4 picks 1 won, 0.5 by chance; Q2 + a sky pair on one of its targets:
+  3 picks 1 won, 0.4 (Novakai Quaoar Fomalhaut 70 / 14.14 with S Makemake – S Sedna Dec 14.1430; also Friendly Soul, Ziggy's Condor). Novakai
+  the only winner; Quaoar part age geometry (all six 2yo: Fomalhaut – Quaoar Dec 14.01-14.18, RA 69.9-70.9).
+- E1 H X – J X >= 90 + a sky body on natal X >= 90: 27 / 5 / 3.9; E2 same plane 17 / 5 / 2.4. By plane: Dec 10 picks 4 won, 1.5 by chance
+  (Secret Satire Ceres, Wotever Next Ceres, On Time Jupiter, Novakai Eris; lost Ventura Flame, Mademoiselle, Ziggy's Condor, Thakuri, Makanao,
+  Mother India); RA 8 / 1 / 1.1 (Ishvara Sedna). Partly in-sample (Secret Satire, Wotever Next, On Time were read before).
+- N1 royal line >= 90 + a sky body on the same natal X >= 90: 72 / 9 / 9.1; N2 same plane 55 / 6 / 7.0 - at chance.
