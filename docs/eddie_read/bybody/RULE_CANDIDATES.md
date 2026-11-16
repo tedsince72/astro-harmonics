@@ -1238,3 +1238,5 @@ Jupiter between and Ef same family the same); M1 sky Jupiter the midpoint of a n
 Sedna, York 16:15 Elmonjed Neptune RA 55.5556); M2 M1 + a sky pair on that target with an end on that natal Jupiter 1 / 1 / 0.2 (On Time Ketu –
 Orcus); M3 E + each leg carried by a sky pair 1 / 1 / 0.2. Over every _active file on disk (40 races, 262 runners, results not opened): E 3
 (Newbury 13:50 26 Nov 2021 Solo, Aintree 15:00 6 Nov 2026 JPR One, On Time), M2 2 (Nottingham 15:30 1 Jun 2022 Princess Shabnam, On Time).
+WATCH (Eddie, 16 Nov 2026: 'keep them all as notes to see when they reappear'): E, Es, Ef, M1, M2, M3 (On Time Jupiter split) - run
+bb_fieldcheck_jupiter_split.py on every new race with WATCH B and P4; build when a second winner holds one.
