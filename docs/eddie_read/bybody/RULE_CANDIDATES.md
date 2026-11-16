@@ -1198,3 +1198,10 @@ Wotever Next RA 6.0190 6 (5.0), Athmad RA 9.9931 10 (65.4)), 2.2 by chance; >= 5
 Diligent Resdev 75 24.0, Kilcummin 10×φ 78.5), 1.8. H or J: 28 picks, 6 of 8 winners, 3.5 by chance - the highest of the 24 bodies (next Quaoar
 19 / 4, 2.2; Sun 24 / 0, 2.9). In-sample, and the best of 24 bodies tested, so expect some luck. Pluto moves slowly, so S Pluto → natal Pluto mostly
 measures the birth year (horse's age, jockey's age); several hits sit on whole 6 (Secret Satire, Wotever Next, Elmonjed, Francophone, Expensive Queen).
+
+## Tolerances above 100 (16 Nov 2026) - kept as a NOTE (Eddie: 'lets keep it as a note'); bybody tool unchanged
+tools/scans/bb_over100_effect.py (remove > 100), tools/scans/bb_over100_tighten.py (T1-T4), outputs docs/eddie_read/bybody_rules/over100_*.md.
+As built, all rules over the 8 result races: 643 picks / 152 winners (74.5 by chance, 2.04x); later races only 386 / 46 (45.6, 1.01x).
+T2 (above 100: ninth, φ power, √2, silver ±0.05; opposition ±0.25): 430 / 104 (50.3, 2.07x); later 267 / 35 (32.0, 1.10x). T3 (all <= ±0.0324):
+later 1.14x. T1 (percent families fixed at their size at 100) worse (0.95x). BB13 13 / 4 -> 8 / 4, BB48 20 / 4 -> 7 / 3 under T2; cases listed in
+docs/eddie_read/bybody_rules/t2_cases_BB13_BB48.md (tools/scans/bb_t2_cases.py).
