@@ -1378,3 +1378,11 @@ Eddie: '2 high scores in these' - Ceres (S Ceres -> J Ceres Dec 15×φ 98.36, S 
 Makemake), shared target 1 / 1 / 0.2; cut 90: one 5 / 2 / 0.9, two 0. Independent checker: every holder, 0 mismatches. In-sample; two
 origin winners at cut 85 (both also BB69). Not built (waiting for Eddie).
 Built 16 Nov 2026 (Eddie: 'yes, please build like that'): BB70 = two double bodies at >= 85 (Dynamic Force, On Time). Tests 627/627; independent checker 0 mismatches.
+
+## Blue Collar Glory Venus (Sedgefield 15:00 10 May 2022, won 20/1) (16 Nov 2026)
+H Venus – J Venus Dec 11.3263 7×φ (99.94) (= On Time's H Jupiter – J Jupiter Dec 11.3265 7×φ), S Ketu -> H Venus Dec 20 (94.51) = BB66;
+S Ketu – S Fomalhaut Dec 11.3006 7×φ (20.92) carries the H–J number. Scan tools/scans/bb_fieldcheck_hj_carry.py, 18 result races (picks, won,
+by chance): BB66 16 / 5 / 2.7; V4b (BB66 + a sky pair on the H X – J X number) 5 / 2 / 0.8; V4 (the BB66 sky body in that pair) 1 / 1 / 0.2
+(Blue Collar Glory only); V5 = BB66 + BB69 same runner 3 / 3 / 0.6 (Secret Satire, On Time, Blue Collar Glory; Sedgefield was the first
+race after both were built); V1 (H X – J X >= 99) 11 / 3 / 1.8. Independent checker: BB66 / BB69 / both holders every race, 0 mismatches.
+Not built (waiting for Eddie).
