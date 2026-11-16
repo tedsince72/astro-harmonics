@@ -1182,3 +1182,11 @@ pair with an end on sky X 69 / 8 (8.0; every runner); S2 + the same royal star o
 (3.1). Checker: Classical Song / Friendly Soul S3 hold through a carrier listed on the royal row's target (opposition) whose own best family is 10φ⁶.
 Thread seen in Athmad (not scanned yet): √2 / silver on Mars (S Sun → J Mars 4.14, crossed √2), Rahu (24.14 twice, Venus – Rahu √2), Saturn (1+√2 ratio,
 Makemake – Saturn 41.4).
+
+## Athmad Pluto (16 Nov 2026) - noted, not built (one winner)
+S Pluto → H Pluto RA 9.9931 ninth 10 (65.4) carried by S Mars – S Rahu Dec 9.9948 10 (74.0); Rahu on sky Pluto (S Rahu – S Pluto Dec 44.4534 ninth
+44.4444 (90.0)), Mars on H Pluto (S Mars → H Pluto RA 132.6737 82×φ (84.2)); S Jupiter → H Pluto RA 44.5189 ninth 44.4444 (16.2) repeats the
+Rahu – Pluto number (depth step 4, only Athmad). Moon on H Pluto (Dec 40.4405 25×φ 68.1, RA 133.4829 ninth 43.9) not used. Scan
+tools/scans/bb_fieldcheck_same_body_loop_closed.py, 8 result races: P1 same-body line carried by a pair, one end on sky X, the other on natal X in
+the same chart 31 / 4 (3.7); P2 the three legs >= 50 7 / 1 (0.8); P3 + same-body >= 50 5 / 1 (0.6; Magical Max, Quiet Resolve, Misemerald, Athmad,
+Beating All); P4 P1 + another sky body on natal X repeating the A – X number 1 / 1 (0.2; Athmad only, in all 9 races).
