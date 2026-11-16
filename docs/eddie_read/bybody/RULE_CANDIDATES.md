@@ -1156,3 +1156,11 @@ Lines: H Aldebaran – H Mars RA 155.4460 ninth 155.556 (64.8) carried by S Haum
 0.2284 conj): every Newcastle runner has one. Scan tools/scans/bb_fieldcheck_royal_carrier_end_on_natal.py, 8 result races:
 M1 carrier end on natal X 69 / 8 (8.0); M2 other chart 69 / 8 (8.0); M3 both planes 41 / 4 (4.9); M4 3+ carriers 59 / 6 (7.0);
 M5 other chart both planes 31 / 4 (3.8); M6 royal–X √2 ratio + a sky body on natal X on √2 / silver, same chart 13 / 2 (1.6; Pholas Sun, Athmad Mars).
+
+## Athmad Mars + Jupiter (16 Nov 2026) - noted, not built (at chance)
+J Fomalhaut – J Jupiter RA 122.1485 ninth 122.222 (69.8) carried by S Quaoar – S Regulus (38.9), S Sun – S Chiron (70.2), S Pluto – S Sedna (65.4),
+S Gonggong – S Haumea (38.6), S Pluto – S Ceres (4.4); with H Aldebaran – H Mars RA 155.556 (above) the two royal lines (one per chart) share six
+carrier bodies (Sun, Chiron, Gonggong, Haumea, Sedna, Ceres); S Rahu → J Jupiter RA 155.3922 ninth 155.556 (47.5) puts the Mars target on J Jupiter.
+Scan tools/scans/bb_fieldcheck_two_royal_lines_shared_carriers.py, 8 result races: J1 two royal lines (H and J, different bodies) sharing >= 3
+carrier bodies 26 / 3 (3.1); J2 >= 5 shared 9 / 1 (1.1); J3 one royal line's target on a sky body onto another royal-line body 69 / 8 (8.0; every
+runner); J4 J1 + J3 on the same pair 11 / 2 (1.4; Athmad Jupiter–Mars, Secret Satire Ceres–Mercury). Opposition counts as a family; Rahu / Ketu separate.
