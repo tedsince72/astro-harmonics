@@ -1172,3 +1172,13 @@ unisons (S Ketu → H / J Ketu RA against H / J Antares – Ketu RA) are forced:
 tools/scans/bb_fieldcheck_royal_target_repeat_and_loop.py, 8 result races: K1 two royal lines, same target, >= 1 shared carrier 59 / 4 (6.7);
 K2 >= 3 shared 14 / 1 (1.7; Rahu / Ketu one body; Dubai Souq holds through an 'also' match in the Matches column); K3 royal line = sky body onto
 natal X, that body on sky X 21 / 1 (2.5); K4 K3 + the same royal star on sky X 6 / 1 (0.7; Athmad Rahu only winner).
+
+## Athmad Saturn (16 Nov 2026) - noted, not built (at chance)
+J Fomalhaut – J Saturn Dec 18.9247 ninth 18.8889 (5.3), same-body ratio 2.4163 1+√2 (42.4); carried by S Sun – S Eris Dec 18.8595 ninth (22.3);
+the Sun on sky Saturn (S Sun – S Saturn RA 179.8166 opposition (75.6)); Fomalhaut on sky Saturn (S Fomalhaut – S Saturn Dec 11.0920 φ⁵ (89.2),
+which also carries J Antares – J Jupiter Dec 11.0842 φ⁵). Also S Makemake – S Saturn Dec 41.4167 silver (92.5), S Jupiter → H Saturn Dec 8 (89.9).
+No existing BB rule holds Athmad Saturn. Scan tools/scans/bb_fieldcheck_royal_carrier_end_on_sky_x.py, 8 result races: S1 royal line carried by a
+pair with an end on sky X 69 / 8 (8.0; every runner); S2 + the same royal star on sky X 55 / 6 (6.4); S3 + a ratio target on the royal row 26 / 3
+(3.1). Checker: Classical Song / Friendly Soul S3 hold through a carrier listed on the royal row's target (opposition) whose own best family is 10φ⁶.
+Thread seen in Athmad (not scanned yet): √2 / silver on Mars (S Sun → J Mars 4.14, crossed √2), Rahu (24.14 twice, Venus – Rahu √2), Saturn (1+√2 ratio,
+Makemake – Saturn 41.4).
