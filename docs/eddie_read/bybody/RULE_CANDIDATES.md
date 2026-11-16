@@ -1377,3 +1377,4 @@ Eddie: '2 high scores in these' - Ceres (S Ceres -> J Ceres Dec 15×φ 98.36, S 
 0.6 (+ Never In Paris), shared target 1 / 1 / 0.2; cut 85: one 8 / 2 / 1.4, TWO 2 / 2 / 0.5 (On Time Sun + Jupiter, Dynamic Force Ceres +
 Makemake), shared target 1 / 1 / 0.2; cut 90: one 5 / 2 / 0.9, two 0. Independent checker: every holder, 0 mismatches. In-sample; two
 origin winners at cut 85 (both also BB69). Not built (waiting for Eddie).
+Built 16 Nov 2026 (Eddie: 'yes, please build like that'): BB70 = two double bodies at >= 85 (Dynamic Force, On Time). Tests 627/627; independent checker 0 mismatches.

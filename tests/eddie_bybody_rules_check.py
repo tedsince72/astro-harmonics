@@ -87,6 +87,7 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB68': {('02 Fizzy Feet', 'Jupiter'), ('05 Pholas', 'Mercury'), ('06 Shimmering Dawn', 'Vesta')},
     'BB69': set(),
     'BB69b': set(),
+    'BB70': set(),
     'BB55': {('01 Arafi', 'Gonggong'), ('01 Arafi', 'Venus'), ('04 Nirodha', 'Saturn'), ('05 Pholas', 'Pallas')},
     'BB53': {('06 Shimmering Dawn', 'Sun'), ('06 Shimmering Dawn', 'Jupiter'), ('06 Shimmering Dawn', 'Pallas')},
 }
@@ -710,5 +711,22 @@ for race, _ in SB.RACES:
     check({c['runner'] for c in rr['BB69b']} == exp_b, f'BB69b = scan (>= 90) {race}')
     n5 += len(exp5); rep += len(exp_b)
 check(n5 == 5 and rep == 2, f'BB69 5 holders, BB69b 2 holders over the result races ({n5}, {rep})')
+# BB70 (Eddie, 16 Nov 2026): two double bodies (2+ same-body lines >= 85)
+import bb_fieldcheck_twice as TW
+if os.path.exists(NOT15):
+    check({(c['runner'], c['body']) for c in n15['BB70']} == {('02 Dynamic Force', 'Ceres / Makemake')}, 'BB70 Nottingham 15:30: Dynamic Force Ceres / Makemake')
+    k = [x for c in n15['BB70'] for x in c['cells']]
+    check(len(k) == 4 and 'S Ceres → H Ceres RA 155.589985 155.556 ninth (88.93)' in k, 'BB70 Dynamic Force 4 cells')
+    check(any('shared target: 15×φ (golden): Ceres / Makemake' in n for c in n15['BB70'] for n in c['notes']), 'BB70 shared-target note')
+b70 = 0
+for race, _ in SB.RACES:
+    pth = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', race, f'{race}_bybody.xlsx')
+    if not os.path.exists(pth):
+        continue
+    data = R.load(pth)
+    exp = {run for run, D in data.items() if len(TW.doubles(D, 85)) >= 2}
+    check({c['runner'] for c in R.run(pth)[2]['BB70']} == exp, f'BB70 = scan D852 {race}')
+    b70 += len(exp)
+check(b70 == 2, f'BB70 2 holders over the result races ({b70})')
 print(f'{ok}/{ok + bad} checks passed')
 sys.exit(1 if bad else 0)

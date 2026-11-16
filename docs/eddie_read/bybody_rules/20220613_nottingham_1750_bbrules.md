@@ -1,4 +1,4 @@
-# 20220613_nottingham_1750 — body-by-body rules BB1-BB69b
+# 20220613_nottingham_1750 — body-by-body rules BB1-BB70
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -76,6 +76,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB68 | 2 | 2 | 02 The Dunkirk Lads, 05 Glory Hallelujah |  |
 | BB69 | 0 | 0 | - |  |
 | BB69b | 0 | 0 | - |  |
+| BB70 | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1197,6 +1198,14 @@ No runner holds it.
 Rule: Two different bodies whose strong same-body lines (as BB69: S X -> H X, S X -> J X or H X - J X, number family, >= 90; Rahu / Ketu one body) are on the same family and target. Runner-level, one case per target.
 
 Origin: Dynamic Force (S Ceres -> J Ceres Dec 24.2710 15xphi 98.36; H Makemake - J Makemake RA 24.2711 15xphi 98.13) and York 15:45 15 May 2024 Secret Satire (S Pluto -> H Pluto RA 6.0016 6 (92); H Ceres - J Ceres Dec 5.9996 6 (97.92)). Eddie, 16 Nov 2026. 17 result races: 2 picks, 2 won, 0.3 by chance, in-sample; looser (notes): both >= 80 4 / 2 / 0.7 (+ Vale Dolobo Dancer, Bollin Joan), >= 70 12 / 3 / 1.7 (+ Diligent Resdev).
+
+No runner holds it.
+
+## BB70 — Two bodies each with two high same-body lines
+
+Rule: A runner with two or more 'double' bodies: a body X with 2 or more same-body lines (S X -> H X, S X -> J X or H X - J X in a number family; conj / contraparallel / opposition never; Rahu and Ketu one body; X not the Moon) scoring >= 85, any planes. Runner-level.
+
+Origin: Nottingham 15:30 1 Jun 2022 Dynamic Force (won 18/1): Ceres S Ceres -> J Ceres Dec 15xphi 98.36, S Ceres -> H Ceres RA ninth 155.556 88.93; Makemake S Makemake -> H Makemake Dec sqrt2 90.74, H Makemake - J Makemake RA 15xphi 98.13. Second winner Newton Abbot 15:25 17 Jul 2022 On Time (Sun: S Sun -> J Sun Dec 41 93.19, H Sun - J Sun Dec 13xphi 87.31; Jupiter: S Jupiter -> J Jupiter RA 174 97.07, H Jupiter - J Jupiter Dec 7xphi 99.2). Eddie, 16 Nov 2026: '2 high scores in these' / 'yes, please build like that'. tools/scans/bb_fieldcheck_twice.py over 17 result races: 2 picks, 2 won, 0.5 by chance, in-sample (cut chosen on these races; both also BB69). Notes: cut 80 3 / 2 / 0.6 (+ Never In Paris); two doubles sharing a target 1 / 1 / 0.2 (Dynamic Force 15xphi).
 
 No runner holds it.
 

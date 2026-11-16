@@ -1365,6 +1365,28 @@
     "additive": [],
     "watch_only": false
    }
+  ],
+  "BB70": [
+   {
+    "runner": "02 Dynamic Force",
+    "body": "Ceres / Makemake",
+    "cells": [
+     "S Ceres → H Ceres RA 155.589985 155.556 ninth (88.93)",
+     "S Ceres → J Ceres Dec 24.271040 15×φ golden (98.36)",
+     "S Makemake → H Makemake Dec 1.414410 1.414 sqrt2 (90.74)",
+     "H Makemake – J Makemake RA 24.271115 15×φ golden (98.13)"
+    ],
+    "notes": [
+     "double bodies (2+ same-body lines >= 85): Ceres, Makemake",
+     "shared target: 15×φ (golden): Ceres / Makemake"
+    ],
+    "lights": [
+     "S Moon → J Sun Dec 8.061408 5×φ golden (11.23)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
   ]
  }
 }

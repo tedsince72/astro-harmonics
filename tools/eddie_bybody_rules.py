@@ -1774,6 +1774,32 @@ def bb69b(b):
     return out
 
 
+def bb70(b):
+    """D85 (Eddie, 16 Nov 2026, 'yes, please build like that'; from Nottingham 15:30 1 Jun 2022 Dynamic Force Ceres / Makemake and Newton
+    Abbot 15:25 17 Jul 2022 On Time Sun / Jupiter): two or more 'double' bodies - a body with 2 or more same-body lines (as BB69: S X -> H X,
+    S X -> J X or H X - J X in a number family, not conj / contraparallel / opposition; Rahu / Ketu one body) scoring >= 85, any planes.
+    Runner-level, body 'X / Y'. In-sample: 17 result races 2 picks 2 won, 0.5 by chance (tools/scans/bb_fieldcheck_twice.py; cut 80: 3 / 2 /
+    0.6 + Never In Paris; two doubles sharing a target 1 / 1 / 0.2, Dynamic Force 15xphi - notes)."""
+    D = getattr(b, 'all', None)
+    if not D or b.X != next(iter(D)):
+        return []
+    by = {}
+    for X, r in _strong_sb(D, 85):
+        by.setdefault(X, []).append(r)
+    db = {X: rs for X, rs in by.items() if len(rs) >= 2}
+    if len(db) < 2:
+        return []
+    tg = {}
+    for X, rs in db.items():
+        for r in rs:
+            tg.setdefault((r['fam'], r['tgt']), set()).add(X)
+    shared = [f"{g} ({f}): {' / '.join(sorted(v))}" for (f, g), v in tg.items() if len(v) > 1]
+    notes = [f"double bodies (2+ same-body lines >= 85): {', '.join(db)}"]
+    if shared:
+        notes.append('shared target: ' + '; '.join(shared))
+    return [{'key': ('BB70',), 'body': ' / '.join(db), 'cells': [r for rs in db.values() for r in rs], 'notes': notes}]
+
+
 def bb63(b):
     """C1 (Eddie, 15 Nov 2026, from Newcastle AW 16:33 2021 Athmad Makemake; broad): a royal natal line c R - c X (family, not conj /
     contraparallel) carried by a sky line naming X itself, S X - S Y ('Sky lines on the same target'; Y not a royal star, not the Moon; the
@@ -1926,7 +1952,7 @@ RULES = [('BB1', bb1, 'Mercury'), ('BB1b', bb1b, 'any'), ('BB2', bb2, 'Mars'), (
          ('BB21', bb21, 'Saturn'), ('BB22', bb22, 'Saturn'), ('BB23', bb23, 'Neptune'), ('BB24', bb24, 'Rahu'), ('BB25', bb25, 'Ketu'), ('BB26', bb26, 'Ceres'), ('BB27', bb27, 'Pallas'), ('BB28', bb28, 'Juno'), ('BB29', bb29, 'Vesta'), ('BB30', bb30, 'Eris'), ('BB31', bb31, 'Gonggong'),
          ('BB32', bb32, 'Sun'), ('BB32b', bb32b, 'Sun'), ('BB33', bb33, 'Mercury'), ('BB34', bb34, 'Mars'), ('BB35', bb35, 'Saturn'),
          ('BB36', bb36, 'Uranus'), ('BB37', bb37, 'Pluto'), ('BB38', bb38, 'Juno'), ('BB39', bb39, 'Makemake'),
-         ('BB40', bb40, 'Sedna'), ('BB41', bb41, 'Sun'), ('BB42', bb42, 'Mercury'), ('BB43', bb43, 'Venus'), ('BB44', bb44, 'Jupiter'), ('BB45', bb45, 'Saturn'), ('BB46', bb46, 'Saturn'), ('BB47', bb47, 'Ceres'), ('BB48', bb48, 'Chiron'), ('BB49', bb49, 'Haumea'), ('BB50', bb50, 'Makemake'), ('BB51', bb51, 'Venus'), ('BB52', bb52, 'Uranus'), ('BB53', bb53, 'any'), ('BB54', bb54, 'any'), ('BB55', bb55, 'any'), ('BB56', bb56, 'any'), ('BB57', bb57, 'any'), ('BB58', bb58, 'any'), ('BB59', bb59, 'any'), ('BB60', bb60, 'any'), ('BB61', bb61, 'any'), ('BB62', bb62, 'any'), ('BB63', bb63, 'any'), ('BB64', bb64, 'any'), ('BB65', bb65, 'Sun'), ('BB66', bb66, 'any'), ('BB67', None, 'any'), ('BB68', bb68, 'any'), ('BB69', bb69, 'any'), ('BB69b', bb69b, 'any')]
+         ('BB40', bb40, 'Sedna'), ('BB41', bb41, 'Sun'), ('BB42', bb42, 'Mercury'), ('BB43', bb43, 'Venus'), ('BB44', bb44, 'Jupiter'), ('BB45', bb45, 'Saturn'), ('BB46', bb46, 'Saturn'), ('BB47', bb47, 'Ceres'), ('BB48', bb48, 'Chiron'), ('BB49', bb49, 'Haumea'), ('BB50', bb50, 'Makemake'), ('BB51', bb51, 'Venus'), ('BB52', bb52, 'Uranus'), ('BB53', bb53, 'any'), ('BB54', bb54, 'any'), ('BB55', bb55, 'any'), ('BB56', bb56, 'any'), ('BB57', bb57, 'any'), ('BB58', bb58, 'any'), ('BB59', bb59, 'any'), ('BB60', bb60, 'any'), ('BB61', bb61, 'any'), ('BB62', bb62, 'any'), ('BB63', bb63, 'any'), ('BB64', bb64, 'any'), ('BB65', bb65, 'Sun'), ('BB66', bb66, 'any'), ('BB67', None, 'any'), ('BB68', bb68, 'any'), ('BB69', bb69, 'any'), ('BB69b', bb69b, 'any'), ('BB70', bb70, 'any')]
 
 
 def decade_pairs(cells):
