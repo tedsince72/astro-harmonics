@@ -2393,6 +2393,42 @@
     "watch_only": false
    }
   ],
-  "BB64": []
+  "BB64": [],
+  "BB65": [
+   {
+    "runner": "04 La Pasionaria",
+    "body": "Sun",
+    "cells": [
+     "H Aldebaran – H Sun RA 50.001481 50 whole (92.6)"
+    ],
+    "notes": [
+     "note A (RA only, not a holder): H Aldebaran – H Sun 50.0015 50 whole (92.6)"
+    ],
+    "lights": [
+     "S Moon – S Sun Dec 3.214660 2×φ golden (33.93)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": true
+   },
+   {
+    "runner": "06 Secret Satire",
+    "body": "Sun",
+    "cells": [
+     "H Antares – H Sun Dec 33.335828 33.3333 ninth (96.26)"
+    ],
+    "notes": [
+     "H Antares – H Sun Dec 33.3358 33.3333 ninth (96.26)"
+    ],
+    "lights": [
+     "S Moon – S Sun Dec 3.214660 2×φ golden (33.93)",
+     "S Moon → H Sun Dec 8.873957 8.88889 ninth (16.01)",
+     "S Moon → J Sun RA 14.437279 14.4444 ninth (75.2)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ]
  }
 }

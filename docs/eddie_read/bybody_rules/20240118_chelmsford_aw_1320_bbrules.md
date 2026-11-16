@@ -1,4 +1,4 @@
-# 20240118_chelmsford_aw_1320 — body-by-body rules BB1-BB64
+# 20240118_chelmsford_aw_1320 — body-by-body rules BB1-BB65
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -69,6 +69,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB62 | 0 | 0 | - |  |
 | BB63 | 2 | 2 | 02 Sullivan Bay, 06 Foinix |  |
 | BB64 | 1 | 1 | 03 Good Time Ahead |  |
+| BB65 | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1007,4 +1008,12 @@ Origin: Newcastle AW 16:33 2 Aug 2021, 2 Athmad, Venus (S Fomalhaut – S Venus 
 - S Ceres → J Sun RA 50.146654 31×φ golden (61.73)
 - S Fomalhaut – S Sun Dec and S Ceres → J Sun Dec both 9 whole; S Ceres → J Sun RA 31×φ golden
 - lights on Sun: S Moon → H Sun RA 0.266567 conj conj (82.23); S Moon → H Sun Dec 0.237569 conj conj (20.81); S Moon → J Sun Dec contraparallel 0.038476 cp contraparallel (87.17); S Moon → J Sun RA 179.184133 10φ⁶ phi power (3.93)
+
+## BB65 — Royal star tight on the horse's natal Sun in Dec (>= 90)
+
+Rule: A royal-star line on the horse's natal Sun, H R – H Sun (R = Aldebaran, Antares, Fomalhaut, Regulus), in Dec, scoring >= 90 in a family; conj / contraparallel never counted. Note A (Eddie, 16 Nov 2026): the same in RA only is shown as a watch-only case (not a holder).
+
+Origin: Doncaster 18:45 16 Jul 2022, 5 Novakai, Sun (H Fomalhaut – H Sun Dec 24.1407 silver 24.14 (95.9)); also York 15:45 15 May 2024, 6 Secret Satire (H Antares – H Sun Dec 33.3358 ninth 33.3333 (96.3)) and Catterick 14:40 6 Apr 2022, 5 Wotever Next (H Regulus – H Sun Dec 6.0007 whole 6 (96.7)). Eddie, 16 Nov 2026: 'B with a note on A'. Over the 10 result races (tools/scans/bb_fieldcheck_royal_decade_echo.py, S2 split): B (Dec) 4 picks, 3 won, 0.6 by chance (also Beverley Nad Alshiba Snow H Regulus – H Sun Dec 25.0006, lost); A (either plane) 6 picks, 3 won, 0.8 by chance (RA only: York 15:45 La Pasionaria, York 16:15 On Point, both lost); the jockey's Sun 11 picks, 0 won, 1.3 by chance. In-sample: Secret Satire and Wotever Next Sun were origins of BB41 / BB57.
+
+No runner holds it.
 

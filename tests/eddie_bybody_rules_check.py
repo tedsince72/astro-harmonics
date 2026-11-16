@@ -80,6 +80,7 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB62': {('05 Pholas', 'J chart')},
     'BB63': {('05 Pholas', 'Pallas')},
     'BB64': set(),
+    'BB65': set(),
     'BB55': {('01 Arafi', 'Gonggong'), ('01 Arafi', 'Venus'), ('04 Nirodha', 'Saturn'), ('05 Pholas', 'Pallas')},
     'BB53': {('06 Shimmering Dawn', 'Sun'), ('06 Shimmering Dawn', 'Jupiter'), ('06 Shimmering Dawn', 'Pallas')},
 }
@@ -598,5 +599,19 @@ if os.path.exists(NC):
         check(any(x.startswith(w) for x in k), f'BB64 Athmad cell {w}')
 if os.path.exists(FW):
     check(fw['BB64'] == [], 'BB64 Fontwell: no holder')
+# BB65 (Eddie, 16 Nov 2026): royal line on the horse's natal Sun, Dec, >= 90; RA-only = watch-only note A
+hold = lambda rr: {(c['runner'], c['body']) for c in rr['BB65'] if not c['watch_only']}
+watch = lambda rr: {c['runner'] for c in rr['BB65'] if c['watch_only']}
+check(hold(yres) == {('06 Secret Satire', 'Sun')} and watch(yres) == {'04 La Pasionaria'}, 'BB65 York 15:45')
+check(any(x.startswith('H Antares – H Sun Dec 33.3358') for c in yres['BB65'] for x in c['cells']), 'BB65 Secret Satire cell')
+if os.path.exists(CAT):
+    check(hold(cres) == {('05 Wotever Next', 'Sun')}, 'BB65 Catterick')
+check(hold(bres) == {('09 Nad Alshiba Snow', 'Sun')}, 'BB65 Beverley')
+check(hold(hres) == set() and hold(lres) == set(), 'BB65 Haydock, Lingfield: no holder')
+DON = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', '20220716_doncaster_1845', '20220716_doncaster_1845_bybody.xlsx')
+if os.path.exists(DON):
+    dn = R.run(DON)[2]
+    check(hold(dn) == {('05 Novakai', 'Sun')}, 'BB65 Doncaster')
+    check(any(x.startswith('H Fomalhaut – H Sun Dec 24.140652') for c in dn['BB65'] for x in c['cells']), 'BB65 Novakai cell')
 print(f'{ok}/{ok + bad} checks passed')
 sys.exit(1 if bad else 0)

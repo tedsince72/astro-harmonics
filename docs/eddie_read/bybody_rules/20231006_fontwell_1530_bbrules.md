@@ -1,4 +1,4 @@
-# 20231006_fontwell_1530 — body-by-body rules BB1-BB64
+# 20231006_fontwell_1530 — body-by-body rules BB1-BB65
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -69,6 +69,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB62 | 2 | 2 | 03 Kilcummin, 04 Logistical |  |
 | BB63 | 5 | 3 | 03 Kilcummin, 04 Logistical, 05 Makanao |  |
 | BB64 | 0 | 0 | - |  |
+| BB65 | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1069,6 +1070,14 @@ Origin: Newcastle AW 16:33 2 Aug 2021, 2 Athmad, Makemake (H Regulus – H Makem
 Rule: A scoring sky line S R – S X (R a royal star) and a scoring S Y → H X or S Y → J X (Y any sky body, not the Moon, not a royal star) on the same family and target; the same line S Y → c X also scores in a family in the other plane (RA / Dec; any target). Conj / contraparallel never counted. X not Rahu or Ketu. Any plane, any score. BB56 with the Sun replaced by any sky body, plus the other-plane condition.
 
 Origin: Newcastle AW 16:33 2 Aug 2021, 2 Athmad, Venus (S Fomalhaut – S Venus Dec 37.2291 23×φ (55.8) and S Uranus → J Venus Dec 37.2201 23×φ (83.5); S Uranus → J Venus RA 177.4498 ninth 177.778 (7.8)); second winner Haydock 13:45 8 Jun 2020, 7 Ishvara, Juno (S Fomalhaut – S Juno RA 155.5532 ninth 155.556 (99.2) and S Sun → H Juno RA 155.8171 (15.9); Dec 33.3678 ninth 33.3333 (48.4); the BB56 origin case). Eddie, 16 Nov 2026: 'w1 is good'. Over the 8 result races 8 picks, 2 won, 0.8 by chance (in-sample). W2-W5 (a royal star on sky Y, and on natal X) and V1-V5 noted (tools/scans/bb_fieldcheck_royal_sky_x_body_on_natal*.py).
+
+No runner holds it.
+
+## BB65 — Royal star tight on the horse's natal Sun in Dec (>= 90)
+
+Rule: A royal-star line on the horse's natal Sun, H R – H Sun (R = Aldebaran, Antares, Fomalhaut, Regulus), in Dec, scoring >= 90 in a family; conj / contraparallel never counted. Note A (Eddie, 16 Nov 2026): the same in RA only is shown as a watch-only case (not a holder).
+
+Origin: Doncaster 18:45 16 Jul 2022, 5 Novakai, Sun (H Fomalhaut – H Sun Dec 24.1407 silver 24.14 (95.9)); also York 15:45 15 May 2024, 6 Secret Satire (H Antares – H Sun Dec 33.3358 ninth 33.3333 (96.3)) and Catterick 14:40 6 Apr 2022, 5 Wotever Next (H Regulus – H Sun Dec 6.0007 whole 6 (96.7)). Eddie, 16 Nov 2026: 'B with a note on A'. Over the 10 result races (tools/scans/bb_fieldcheck_royal_decade_echo.py, S2 split): B (Dec) 4 picks, 3 won, 0.6 by chance (also Beverley Nad Alshiba Snow H Regulus – H Sun Dec 25.0006, lost); A (either plane) 6 picks, 3 won, 0.8 by chance (RA only: York 15:45 La Pasionaria, York 16:15 On Point, both lost); the jockey's Sun 11 picks, 0 won, 1.3 by chance. In-sample: Secret Satire and Wotever Next Sun were origins of BB41 / BB57.
 
 No runner holds it.
 
