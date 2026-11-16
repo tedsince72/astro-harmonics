@@ -1148,3 +1148,11 @@ S Uranus → J Venus RA 177.4498 ninth (7.8). Scans tools/scans/bb_fieldcheck_ro
 - W1 V1 + S Y → c X scores in the other plane too: 8 / 2 (0.8; Athmad, Ishvara Juno via the Sun) -> BUILT as BB64 (Eddie: 'w1 is good').
   W2 royal on sky Y: 34 / 4 (3.9). W3 + that royal on natal X: 24 / 4 (2.7). W4 W1+W2: 5 / 1 (0.6). W5 W1+W3: 4 / 1 (0.5; Athmad only winner).
 - Note: the other-plane leg is weak in both winners (Athmad 7.8, Ishvara 48.4); Ishvara Juno is also BB56's origin case.
+
+## Athmad Mars (Newcastle AW 16:33 2021; 16 Nov 2026) - noted, not built (every version at chance)
+Lines: H Aldebaran – H Mars RA 155.4460 ninth 155.556 (64.8) carried by S Haumea – S Sedna (88.8), S Chiron – S Haumea (56.6), S Sun – S Gonggong
+(31.8), S Ceres – S Haumea (8.9), all RA 155.556; S Sun → J Mars Dec 4.1417 silver (93.5), RA 14.5756 9×φ (59.0); J Fomalhaut – J Mars Dec
+51.4307 crossed 1.4152 √2 (52.2). No existing BB rule holds Athmad Mars. H Regulus – H Mars Dec unisons are forced (S Regulus – S Mars Dec
+0.2284 conj): every Newcastle runner has one. Scan tools/scans/bb_fieldcheck_royal_carrier_end_on_natal.py, 8 result races:
+M1 carrier end on natal X 69 / 8 (8.0); M2 other chart 69 / 8 (8.0); M3 both planes 41 / 4 (4.9); M4 3+ carriers 59 / 6 (7.0);
+M5 other chart both planes 31 / 4 (3.8); M6 royal–X √2 ratio + a sky body on natal X on √2 / silver, same chart 13 / 2 (1.6; Pholas Sun, Athmad Mars).
