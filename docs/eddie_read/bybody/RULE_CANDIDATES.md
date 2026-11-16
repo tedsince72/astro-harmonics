@@ -1387,3 +1387,11 @@ by chance): BB66 16 / 5 / 2.7; V4b (BB66 + a sky pair on the H X – J X number)
 race after both were built); V1 (H X – J X >= 99) 11 / 3 / 1.8. Independent checker: BB66 / BB69 / both holders every race, 0 mismatches.
 Not built (waiting for Eddie).
 Built 16 Nov 2026 (Eddie: 'yes, please build like that'): BB71 = BB66 + BB69 (V5). Tests 650/650; independent checker 0 mismatches.
+
+## Blue Collar Glory Venus: one sky body on both natal X (16 Nov 2026)
+Eddie's lines: H Venus – J Venus Dec 7×φ (99.9); S Ketu -> H Venus Dec 20 (94.5); S Ketu -> J Venus RA ninth 111.111 (92.6); S Ketu – S
+Fomalhaut Dec 7×φ (20.9). Scan tools/scans/bb_fieldcheck_hj_both.py, 18 result races (picks, won, by chance): K0 (H X – J X >= 90, a sky
+body on both natal X >= 80) 13 / 3 / 2.0; K1 (>= 90) 7 / 2 / 1.0; K1d (H X – J X in Dec) 5 / 2 / 0.7 (Secret Satire Ceres - S Mercury 8 / 2,
+H–J 6 = 8 - 2, Mercury between in Dec, partly geometry; Blue Collar Glory Venus - S Ketu, the two lines in different planes); K2 (+ the sky
+body in a sky pair on the H–J number) 1 / 1 / 0.2 (Blue Collar Glory only, with Fomalhaut). Independent checker: holders, 0 mismatches.
+Not built (waiting for Eddie).
