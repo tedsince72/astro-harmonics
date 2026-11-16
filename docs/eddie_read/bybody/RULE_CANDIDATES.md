@@ -1221,3 +1221,14 @@ combinations with it add nothing); BB48 + BB55 9 / 4 (1.1); BB13 + BB48 + BB55 3
 draws, 1,406 pairs / triples): real best excess 4.02 vs 95th percentile 3.68 - but the rules were built on these winners (and later rules on a second
 earlier winner), so the benchmark flatters the real result. Rule counts: winners rank 1 in 6 of 8 races; without their own race's rules only Pholas
 and Ishvara still rank 1 (checker); Athmad joint 4th of 6 with all rules, last without Newcastle's.
+
+## On Time Jupiter (Newton Abbot 15:25 17 Jul 2022) - H Jupiter – J Jupiter, WATCH B (Eddie, 16 Nov 2026)
+Cells: H Jupiter – J Jupiter Dec 11.3265 7×φ golden (99.2); S Juno – S Jupiter Dec 0.0059 conj (98.0) ('Juno adds extra, but strong on
+its own' - Eddie); S Jupiter → H Jupiter Dec 4.8284 3×φ (20.7), S Jupiter → J Jupiter Dec 6.4981 4×φ (19.9).
+Field check (tools/scans/bb_fieldcheck_hj_jupiter.py, 9 result races; picks / won / by chance):
+A H Jupiter – J Jupiter scores (not conj / cp) 23 / 2 / 2.8 (Pholas RA 50×φ 40.4, On Time); B A >= 90 3 / 1 / 0.5 (Shimmering Dawn,
+True Promise, On Time); C A in Dec 12 / 1 / 1.4; D A + a sky body conj sky Jupiter same plane 8 / 1 / 0.9 (York 16:15: S Sun on S Jupiter,
+4 holders); E A + S Jupiter → H and → J Jupiter both scoring 1 / 1 / 0.2 (geometry: 3×φ + 4×φ = 7×φ, sky Jupiter between the natal
+Jupiters in Dec); F A + a sky line on the same target 7 / 0 / 0.8.
+WATCH (Eddie, 16 Nov 2026): B - H Jupiter – J Jupiter scoring >= 90 in a family. Run the scan on every new race; build when a second
+winner holds it.
