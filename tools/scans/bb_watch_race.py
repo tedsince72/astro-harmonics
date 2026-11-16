@@ -8,12 +8,15 @@
 - Jupiter loop C (Eddie, 16 Nov 2026, from Cafe Sydney; tools/scans/bb_fieldcheck_jupiter_loop.py): S Jupiter -> c Jupiter, a sky
   pair on its target, both ends on the same natal Jupiter, line and pair >= 50; versions A, B, D listed too.
 - N2 / N4 (Eddie, 16 Nov 2026, from Whitefeathersfall; tools/scans/bb_fieldcheck_whitefeathersfall.py): N2 BB29 held and its sky body
-  conjunct / contraparallel natal X >= 90; N4 all three of BB3 + BB63, BB3 + BB54, BB59."""
+  conjunct / contraparallel natal X >= 90; N4 all three of BB3 + BB63, BB3 + BB54, BB59.
+- Mirror (Eddie, 16 Nov 2026, from Society Red Venus; tools/scans/bb_fieldcheck_mirror.py): S X -> c X conj / contraparallel in Dec
+  >= 80, with the sky bodies and royal stars conj / cp sky X; M4 (mirror >= 90 + a sky body + a royal star on sky X) is the watch item."""
 import json, sys
 sys.path.insert(0, 'tools'); sys.path.insert(0, 'tools/scans')
 import eddie_bybody_rules as E
 import bb_over100_tighten as TT
 import bb_fieldcheck_jupiter_loop as JL
+import bb_fieldcheck_mirror as MR
 
 race = sys.argv[1]
 data = E.load(f'docs/eddie_read/bybody/{race}/{race}_bybody.xlsx')
@@ -94,5 +97,12 @@ for x in runners:
     if all(set(cb) <= hold[x] for cb in (('BB3', 'BB63'), ('BB3', 'BB54'), ('BB59',))):
         n4.append(f"- N4 {x}: BB3 + BB63, BB3 + BB54, BB59")
 out += (sorted(set(n2)) + n4) or ['- none']
+out += ['', '## Mirror watch (Society Red Venus; M4 = mirror >= 90 + sky body + royal star on sky X)']
+mr = []
+for run, bodies in data.items():
+    for X, d in bodies.items():
+        for t, s_ in MR.cases(X, d, set(bodies) | {'Rahu', 'Ketu'}):
+            mr.append(f"- {run} [{', '.join(k for k in MR.KEYS if k in t)}]: {s_}")
+out += mr or ['- none']
 txt = '\n'.join(out) + '\n'
 open(f'docs/eddie_read/bybody_rules/{race}_watch.md', 'w').write(txt); print(txt)
