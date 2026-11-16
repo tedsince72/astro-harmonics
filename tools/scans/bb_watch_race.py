@@ -4,11 +4,14 @@
   ninth, φ power, √2, silver ±0.05, opposition ±0.25; tools/scans/bb_over100_tighten.py)
 - combinations to watch: BB3 + BB63, BB3 + BB54, BB59, BB48 + BB55, BB13 + BB48 + BB55, BB32 + BB34
 - P4 (Athmad Pluto loop; tools/scans/bb_fieldcheck_same_body_loop_closed.py) and its looser P1-P3
-- S Pluto -> H Pluto / J Pluto scoring (any family, conj / cp not counted)."""
+- S Pluto -> H Pluto / J Pluto scoring (any family, conj / cp not counted).
+- Jupiter loop C (Eddie, 16 Nov 2026, from Cafe Sydney; tools/scans/bb_fieldcheck_jupiter_loop.py): S Jupiter -> c Jupiter, a sky
+  pair on its target, both ends on the same natal Jupiter, line and pair >= 50; versions A, B, D listed too."""
 import json, sys
 sys.path.insert(0, 'tools'); sys.path.insert(0, 'tools/scans')
 import eddie_bybody_rules as E
 import bb_over100_tighten as TT
+import bb_fieldcheck_jupiter_loop as JL
 
 race = sys.argv[1]
 data = E.load(f'docs/eddie_read/bybody/{race}/{race}_bybody.xlsx')
@@ -70,5 +73,11 @@ for v in ('P1', 'P2', 'P3', 'P4'):
     if v in ('P3', 'P4'):
         out += [f'  - {t}' for t in sorted(set(P[v]))]
 out += ['', '## S Pluto -> natal Pluto scoring'] + ([f'- {t}' for t in pl] or ['- none'])
+out += ['', '## Jupiter loop (watch C; A, B, D listed too)']
+jl = []
+for run, bodies in data.items():
+    if 'Jupiter' in bodies:
+        jl += [f"- {run} [{''.join(sorted(t))}]: {txt}" for t, txt in JL.loops('Jupiter', bodies['Jupiter'])]
+out += jl or ['- none']
 txt = '\n'.join(out) + '\n'
 open(f'docs/eddie_read/bybody_rules/{race}_watch.md', 'w').write(txt); print(txt)

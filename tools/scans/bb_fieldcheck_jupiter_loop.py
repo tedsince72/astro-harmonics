@@ -53,26 +53,33 @@ def loops(X, d):
     return out
 
 
-KEYS = 'ABCDX'
-tot = {k: [0, 0, 0.0] for k in KEYS}
-for name, r, win in RACES:
-    data = E.load(f'docs/eddie_read/bybody/{r}/{r}_bybody.xlsx'); N = len(data)
-    print(f'\n## {name} ({N} runners, winner {win})')
-    held = {k: [] for k in KEYS}
-    for run, D in data.items():
-        tg = set()
-        for X, d in D.items():
-            for t, txt in loops(X, d):
-                if X == 'Jupiter':
-                    tg |= t
-                    print(f"  {run} [{''.join(sorted(t))}]: {txt}")
-                elif 'B' in t:
-                    tg.add('X')
-        for k in tg: held[k].append(run)
-    for k in KEYS:
-        h = held[k]; w = sum(1 for x in h if win in x)
-        tot[k][0] += len(h); tot[k][1] += w; tot[k][2] += len(h) / N
-    print('  holders: ' + '; '.join(f"{k} {len(held[k])}" + (f" ({', '.join(held[k])})" if k != 'X' and held[k] else '') for k in KEYS))
-print(f'\n## Totals over {len(RACES)} result races (picks / winners / by chance)')
-for k, (p, w, c) in tot.items():
-    print(f'  {k}: {p} picks, {w} won, {c:.1f} by chance')
+
+
+def main():
+    KEYS = 'ABCDX'
+    tot = {k: [0, 0, 0.0] for k in KEYS}
+    for name, r, win in RACES:
+        data = E.load(f'docs/eddie_read/bybody/{r}/{r}_bybody.xlsx'); N = len(data)
+        print(f'\n## {name} ({N} runners, winner {win})')
+        held = {k: [] for k in KEYS}
+        for run, D in data.items():
+            tg = set()
+            for X, d in D.items():
+                for t, txt in loops(X, d):
+                    if X == 'Jupiter':
+                        tg |= t
+                        print(f"  {run} [{''.join(sorted(t))}]: {txt}")
+                    elif 'B' in t:
+                        tg.add('X')
+            for k in tg: held[k].append(run)
+        for k in KEYS:
+            h = held[k]; w = sum(1 for x in h if win in x)
+            tot[k][0] += len(h); tot[k][1] += w; tot[k][2] += len(h) / N
+        print('  holders: ' + '; '.join(f"{k} {len(held[k])}" + (f" ({', '.join(held[k])})" if k != 'X' and held[k] else '') for k in KEYS))
+    print(f'\n## Totals over {len(RACES)} result races (picks / winners / by chance)')
+    for k, (p, w, c) in tot.items():
+        print(f'  {k}: {p} picks, {w} won, {c:.1f} by chance')
+
+
+if __name__ == '__main__':
+    main()
