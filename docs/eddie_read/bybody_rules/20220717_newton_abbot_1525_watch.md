@@ -26,3 +26,12 @@
 - 01 Grageelagh Girl: S Pluto → H Pluto RA 22.2415 22.2222 ninth (56.59)
 - 01 Grageelagh Girl: S Pluto → J Pluto RA 55.5040 55.5556 ninth (53.62)
 - 03 Cresswell Queen: S Pluto → J Pluto Dec 14.5351 9×φ golden (15.88)
+
+## Result (from Eddie, 16 Nov 2026; after the blind read, commit 797f45c2)
+1 On Time 16/1 (Conor Ring), 2 Cresswell Queen 15/8J, 3 Grageelagh Girl 2/1, 4 My Lady Grey 15/8J (tailed off). 4 ran.
+- Blind read: On Time held the most rules (11 of 31 picks; chance 31 / 4 = 7.75), alone on BB6, BB28, BB31, BB43, BB54, BB63;
+  the only runner at depth step 5 (Jupiter); the only holder of BB3 + BB63 and BB3 + BB54 (BB3 + BB54 also under T2); P1 holder.
+- Under T2 On Time held 8 (still the most; Grageelagh Girl 7).
+- Caveats from the checker stand: S Juno on S Jupiter in Dec (0.0059) makes BB16, BB31, BB43, the step-4 repeat and the second P1 case
+  near-automatic; BB6 and the first loop close through Regulus as a pair end.
+- Watch: BB3 + BB54 now 17 picks 6 won over the 9 result races; P4 still one winner (no holder here).
