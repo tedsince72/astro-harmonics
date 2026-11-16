@@ -1,4 +1,4 @@
-# 20220717_newton_abbot_1525 — body-by-body rules BB1-BB70
+# 20220717_newton_abbot_1525 — body-by-body rules BB1-BB71
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -77,6 +77,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB69 | 1 | 1 | 04 On Time |  |
 | BB69b | 0 | 0 | - |  |
 | BB70 | 1 | 1 | 04 On Time |  |
+| BB71 | 1 | 1 | 04 On Time |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1024,4 +1025,20 @@ Origin: Nottingham 15:30 1 Jun 2022 Dynamic Force (won 18/1): Ceres S Ceres -> J
 - S Jupiter → J Jupiter RA 173.999413 174 whole (97.07)
 - H Jupiter – J Jupiter Dec 11.326497 7×φ golden (99.2)
 - double bodies (2+ same-body lines >= 85): Sun, Jupiter
+
+## BB71 — BB66 and BB69 together
+
+Rule: A runner holding both BB66 (H X - J X in Dec scoring >= 90 in a family and a sky body on H X or J X in Dec scoring >= 90) and BB69 (5 or more strong same-body lines >= 90), each as built. Runner-level; computed after every other rule.
+
+Origin: Sedgefield 15:00 10 May 2022 Blue Collar Glory (won 20/1): BB66 Venus (H Venus - J Venus Dec 11.326258 7xphi 99.94, S Ketu -> H Venus Dec 20 94.51) and BB69 (5 lines). Also York 15:45 2024 Secret Satire and Newton Abbot 15:25 2022 On Time. Eddie, 16 Nov 2026: 'yes, please build like that'. tools/scans/bb_fieldcheck_hj_carry.py (V5) over 18 result races: 3 picks, 3 won, 0.6 by chance; Sedgefield was the first race after both rules were built, the pairing chosen after its result. Note: V4 (the BB66 sky body in a sky pair on the H X - J X number, Blue Collar Glory S Ketu - S Fomalhaut 7xphi) 1 / 1 / 0.2, not built.
+
+### 04 On Time — runner (only)
+- H Jupiter – J Jupiter Dec 11.326497 7×φ golden (99.2)
+- S Vesta → H Jupiter Dec 22.224134 22.2222 ninth (95.7)
+- S Sun → J Sun Dec 40.998637 41 whole (93.19)
+- S Mercury → H Mercury RA 114.881219 71×φ golden (97.51)
+- S Jupiter → J Jupiter RA 173.999413 174 whole (97.07)
+- H Uranus – J Uranus RA 87.375797 54×φ golden (93.95)
+- BB66: Jupiter
+- BB69: runner
 

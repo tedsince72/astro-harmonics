@@ -1,4 +1,4 @@
-# 20220601_nottingham_1530 — body-by-body rules BB1-BB70
+# 20220601_nottingham_1530 — body-by-body rules BB1-BB71
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -77,6 +77,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB69 | 1 | 1 | 02 Dynamic Force |  |
 | BB69b | 1 | 1 | 02 Dynamic Force |  |
 | BB70 | 1 | 1 | 02 Dynamic Force |  |
+| BB71 | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1162,4 +1163,12 @@ Origin: Nottingham 15:30 1 Jun 2022 Dynamic Force (won 18/1): Ceres S Ceres -> J
 - double bodies (2+ same-body lines >= 85): Ceres, Makemake
 - shared target: 15×φ (golden): Ceres / Makemake
 - lights on Ceres / Makemake: S Moon → J Sun Dec 8.061408 5×φ golden (11.23)
+
+## BB71 — BB66 and BB69 together
+
+Rule: A runner holding both BB66 (H X - J X in Dec scoring >= 90 in a family and a sky body on H X or J X in Dec scoring >= 90) and BB69 (5 or more strong same-body lines >= 90), each as built. Runner-level; computed after every other rule.
+
+Origin: Sedgefield 15:00 10 May 2022 Blue Collar Glory (won 20/1): BB66 Venus (H Venus - J Venus Dec 11.326258 7xphi 99.94, S Ketu -> H Venus Dec 20 94.51) and BB69 (5 lines). Also York 15:45 2024 Secret Satire and Newton Abbot 15:25 2022 On Time. Eddie, 16 Nov 2026: 'yes, please build like that'. tools/scans/bb_fieldcheck_hj_carry.py (V5) over 18 result races: 3 picks, 3 won, 0.6 by chance; Sedgefield was the first race after both rules were built, the pairing chosen after its result. Note: V4 (the BB66 sky body in a sky pair on the H X - J X number, Blue Collar Glory S Ketu - S Fomalhaut 7xphi) 1 / 1 / 0.2, not built.
+
+No runner holds it.
 

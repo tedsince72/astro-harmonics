@@ -88,6 +88,7 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB69': set(),
     'BB69b': set(),
     'BB70': set(),
+    'BB71': set(),
     'BB55': {('01 Arafi', 'Gonggong'), ('01 Arafi', 'Venus'), ('04 Nirodha', 'Saturn'), ('05 Pholas', 'Pallas')},
     'BB53': {('06 Shimmering Dawn', 'Sun'), ('06 Shimmering Dawn', 'Jupiter'), ('06 Shimmering Dawn', 'Pallas')},
 }
@@ -728,5 +729,23 @@ for race, _ in SB.RACES:
     check({c['runner'] for c in R.run(pth)[2]['BB70']} == exp, f'BB70 = scan D852 {race}')
     b70 += len(exp)
 check(b70 == 2, f'BB70 2 holders over the result races ({b70})')
+# BB71 (Eddie, 16 Nov 2026): BB66 + BB69 same runner
+SED = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', '20220510_sedgefield_1500', '20220510_sedgefield_1500_bybody.xlsx')
+if os.path.exists(SED):
+    sd = R.run(SED)[2]
+    check({(c['runner'], c['body']) for c in sd['BB71']} == {('01 Blue Collar Glory', 'runner')}, 'BB71 Sedgefield: Blue Collar Glory')
+    k = [x for c in sd['BB71'] for x in c['cells']]
+    check('H Venus – J Venus Dec 11.326258 7×φ golden (99.94)' in k and 'S Pluto → J Pluto RA 61.807473 100φ^-1 phi power (95.61)' in k, 'BB71 cells')
+check({c['runner'] for c in yres['BB71']} == {'06 Secret Satire'}, 'BB71 York 15:45: Secret Satire')
+b71 = 0
+for race, _ in SB.RACES + [('20220510_sedgefield_1500', '')]:
+    pth = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', race, f'{race}_bybody.xlsx')
+    if not os.path.exists(pth):
+        continue
+    rr = R.run(pth)[2]
+    exp = {c['runner'] for c in rr['BB66'] if not c['watch_only']} & {c['runner'] for c in rr['BB69'] if not c['watch_only']}
+    check({c['runner'] for c in rr['BB71']} == exp, f'BB71 = BB66 and BB69 {race}')
+    b71 += len(exp)
+check(b71 == 3, f'BB71 3 holders over the result races ({b71})')
 print(f'{ok}/{ok + bad} checks passed')
 sys.exit(1 if bad else 0)

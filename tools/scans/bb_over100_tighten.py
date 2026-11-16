@@ -68,6 +68,10 @@ def holders(data):
             h = {rid for rid, rr in res.items() if run in rr}
             if sum(set(cb) <= h for cb in E.BB67_COMBOS) >= 2:
                 res['BB67'][run] = []
+    if 'BB71' in res:  # runner-level: BB66 and BB69 (16 Nov 2026)
+        for run in data:
+            if run in res.get('BB66', {}) and run in res.get('BB69', {}):
+                res['BB71'][run] = []
     return res
 
 

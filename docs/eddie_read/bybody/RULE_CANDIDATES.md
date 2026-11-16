@@ -1386,3 +1386,4 @@ by chance): BB66 16 / 5 / 2.7; V4b (BB66 + a sky pair on the H X – J X number)
 (Blue Collar Glory only); V5 = BB66 + BB69 same runner 3 / 3 / 0.6 (Secret Satire, On Time, Blue Collar Glory; Sedgefield was the first
 race after both were built); V1 (H X – J X >= 99) 11 / 3 / 1.8. Independent checker: BB66 / BB69 / both holders every race, 0 mismatches.
 Not built (waiting for Eddie).
+Built 16 Nov 2026 (Eddie: 'yes, please build like that'): BB71 = BB66 + BB69 (V5). Tests 650/650; independent checker 0 mismatches.

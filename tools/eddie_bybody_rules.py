@@ -1952,7 +1952,7 @@ RULES = [('BB1', bb1, 'Mercury'), ('BB1b', bb1b, 'any'), ('BB2', bb2, 'Mars'), (
          ('BB21', bb21, 'Saturn'), ('BB22', bb22, 'Saturn'), ('BB23', bb23, 'Neptune'), ('BB24', bb24, 'Rahu'), ('BB25', bb25, 'Ketu'), ('BB26', bb26, 'Ceres'), ('BB27', bb27, 'Pallas'), ('BB28', bb28, 'Juno'), ('BB29', bb29, 'Vesta'), ('BB30', bb30, 'Eris'), ('BB31', bb31, 'Gonggong'),
          ('BB32', bb32, 'Sun'), ('BB32b', bb32b, 'Sun'), ('BB33', bb33, 'Mercury'), ('BB34', bb34, 'Mars'), ('BB35', bb35, 'Saturn'),
          ('BB36', bb36, 'Uranus'), ('BB37', bb37, 'Pluto'), ('BB38', bb38, 'Juno'), ('BB39', bb39, 'Makemake'),
-         ('BB40', bb40, 'Sedna'), ('BB41', bb41, 'Sun'), ('BB42', bb42, 'Mercury'), ('BB43', bb43, 'Venus'), ('BB44', bb44, 'Jupiter'), ('BB45', bb45, 'Saturn'), ('BB46', bb46, 'Saturn'), ('BB47', bb47, 'Ceres'), ('BB48', bb48, 'Chiron'), ('BB49', bb49, 'Haumea'), ('BB50', bb50, 'Makemake'), ('BB51', bb51, 'Venus'), ('BB52', bb52, 'Uranus'), ('BB53', bb53, 'any'), ('BB54', bb54, 'any'), ('BB55', bb55, 'any'), ('BB56', bb56, 'any'), ('BB57', bb57, 'any'), ('BB58', bb58, 'any'), ('BB59', bb59, 'any'), ('BB60', bb60, 'any'), ('BB61', bb61, 'any'), ('BB62', bb62, 'any'), ('BB63', bb63, 'any'), ('BB64', bb64, 'any'), ('BB65', bb65, 'Sun'), ('BB66', bb66, 'any'), ('BB67', None, 'any'), ('BB68', bb68, 'any'), ('BB69', bb69, 'any'), ('BB69b', bb69b, 'any'), ('BB70', bb70, 'any')]
+         ('BB40', bb40, 'Sedna'), ('BB41', bb41, 'Sun'), ('BB42', bb42, 'Mercury'), ('BB43', bb43, 'Venus'), ('BB44', bb44, 'Jupiter'), ('BB45', bb45, 'Saturn'), ('BB46', bb46, 'Saturn'), ('BB47', bb47, 'Ceres'), ('BB48', bb48, 'Chiron'), ('BB49', bb49, 'Haumea'), ('BB50', bb50, 'Makemake'), ('BB51', bb51, 'Venus'), ('BB52', bb52, 'Uranus'), ('BB53', bb53, 'any'), ('BB54', bb54, 'any'), ('BB55', bb55, 'any'), ('BB56', bb56, 'any'), ('BB57', bb57, 'any'), ('BB58', bb58, 'any'), ('BB59', bb59, 'any'), ('BB60', bb60, 'any'), ('BB61', bb61, 'any'), ('BB62', bb62, 'any'), ('BB63', bb63, 'any'), ('BB64', bb64, 'any'), ('BB65', bb65, 'Sun'), ('BB66', bb66, 'any'), ('BB67', None, 'any'), ('BB68', bb68, 'any'), ('BB69', bb69, 'any'), ('BB69b', bb69b, 'any'), ('BB70', bb70, 'any'), ('BB71', None, 'any')]
 
 
 def decade_pairs(cells):
@@ -2007,6 +2007,30 @@ def bb67(res):
     return out
 
 
+def bb71(res):
+    """V5 (Eddie, 16 Nov 2026, 'yes, please build like that'; from Sedgefield 15:00 10 May 2022 Blue Collar Glory): a runner holding both
+    BB66 and BB69 (each as built, watch-only cases not counted). Runner-level, body 'runner'; cells = the BB66 and BB69 cases' cells. Over 18
+    result races 3 picks 3 won (Secret Satire, On Time, Blue Collar Glory), 0.6 by chance (tools/scans/bb_fieldcheck_hj_carry.py); Sedgefield
+    was the first race after both were built, the pairing was chosen after its result. Computed after every other rule, as BB67."""
+    held = {}
+    for rid in ('BB66', 'BB69'):
+        for c in res.get(rid, []):
+            if not c['watch_only']:
+                held.setdefault(c['runner'], {}).setdefault(rid, []).append(c)
+    out = []
+    for runner, h in held.items():
+        if len(h) < 2:
+            continue
+        cells, notes = [], []
+        for rid in ('BB66', 'BB69'):
+            notes.append(f"{rid}: " + ', '.join(c['body'] for c in h[rid]))
+            for c in h[rid]:
+                cells += [x for x in c['cells'] if x not in cells]
+        out.append({'runner': runner, 'body': 'runner', 'cells': cells, 'notes': notes, 'lights': [], 'decade': [], 'additive': [],
+                    'watch_only': False})
+    return out
+
+
 def run(path):
     data = load(path)
     race = os.path.basename(path).replace('_bybody.xlsx', '')
@@ -2036,6 +2060,7 @@ def run(path):
                                      'additive': additive_steps(cells),
                                      'watch_only': bool(case.get('watch_only'))})
     res['BB67'] = bb67(res)
+    res['BB71'] = bb71(res)
     return race, list(data), res
 
 
