@@ -51,3 +51,7 @@
 - Second: 01 Blue Collar Glory - only BB69 holder (5 strong same-body lines, H Venus – J Venus Dec 7×φ 99.94 the top), BB3 + BB54, BB66.
 - BB69b, BB70, Watch B, P4, Jupiter loop C, mirror, A2: no holder.
 - Independent checker (16 Nov, blind): rule counts, BB69 recount for every runner, Wheres Maud Gone's BB63 / BB59 cells, Watch B: 0 mismatches.
+
+## Result (from Eddie, 16 Nov 2026)
+1 Blue Collar Glory 20/1 (Craig Nichol), 2 Bright Sunbird 13/2, 3 Emorelle 13/2, 4 Mrs Paisley 7/2, 5 Wheres Maud Gone 5/6F (last, 28¼ l).
+By the read: second pick Blue Collar Glory won (only BB69 holder: BB69's first later race 1 pick 1 won); lead Wheres Maud Gone (N4, BB67) last.
