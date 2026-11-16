@@ -1264,3 +1264,14 @@ Jupiter / royal):
 On Time's B / D case is weak and partly forced: S Jupiter → J Jupiter Dec 6.4981 4×φ (19.9), pair S Juno – S Sedna (47.8), end S Juno →
 J Jupiter Dec 6.4922 - S Juno sits on sky Jupiter in Dec (0.0059 conj), so that end repeats the same-body line. Its strong loop (RA 174,
 97.07) has its ends on H Jupiter (other chart) = A only.
+
+## Whitefeathersfall (Carlisle 16:30 7 Jul 2022, won 10/1) - new-pattern scan (Eddie, 16 Nov 2026)
+tools/scans/bb_fieldcheck_whitefeathersfall.py, 12 result races (in-sample races included):
+- N1 one sky pair carries lines on two natal bodies: 87 / 12 / 11.7 (at chance). N1b royal line + same-body line: 61 / 7 / 7.9. N1c + a royal
+  star as a pair end (Whitefeathersfall S Juno – S Aldebaran Dec 9×φ carries J Aldebaran – J Sedna and S Uranus → H Uranus): 20 / 1 / 2.4. None worth it.
+- N2 BB29 with its sky body conjunct / contraparallel natal X >= 90 (S Juno → J Sedna Dec 0.0054 conj 98.2): 3 / 2 / 0.4 (Ishvara = BB29's
+  origin; Shimmering Dawn lost). One clean later winner.
+- N3 at least 2 of BB3 + BB63, BB3 + BB54, BB59: 13 / 8 / 1.7 (Pholas, Secret Satire, Wotever Next, Kilcummin, Athmad, On Time,
+  Whitefeathersfall, Diligent Resdev; lost Birkenhead, Blue Prince, True Promise, Ziggy's Condor, Misemerald). Mostly in-sample (the rules come
+  from these winners); after BB63 was built (Newton Abbot, Doncaster, Bath, Carlisle): 2 picks 2 won (On Time, Whitefeathersfall).
+- N4 all three: 3 / 2 / 0.4 (Secret Satire, Whitefeathersfall; Misemerald lost).
