@@ -1347,3 +1347,11 @@ S Uranus → H Uranus Dec 4.2369 φ³ (87.0); H Fomalhaut – H Uranus RA 46.634
 >= 80 105 / 16 / 15.0; U1 + the base same-body line in a number family 36 / 4 / 5.0; U2 + the same body in the other chart >= 80 1 / 1 / 0.2
 (Little Girl Blue only); U3 = U2 with the royal line in no family, same 1 / 1; U10 (on 10, royal line no family) 25 / 3 / 3.2. Other-chart
 threshold: any score 9 / 2 / 1.4 (Secret Satire, Little Girl Blue), >= 50 6 / 1 / 1.0, >= 70 3 / 1 / 0.6. One winner; noted, not built.
+
+## Dynamic Force (Nottingham 15:30 1 Jun 2022, won 18/1): count of strong same-body lines (16 Nov 2026)
+Strong = S X -> H X, S X -> J X or H X - J X in a number family (no conj / cp / opposition), >= 90; Rahu / Ketu one body. Dynamic Force 6
+(field 0-3). Scan tools/scans/bb_fieldcheck_sbcount.py, 17 result races (picks, won, by chance): N3 34 / 8 / 5.7; N4 13 / 4 / 2.2;
+N5 5 / 3 / 0.8 (Secret Satire 5, On Time 5, Dynamic Force 6 won; Never In Paris 6, Logistical 5 lost); N6 2 / 1 / 0.3; TOP (most in the
+race) 23 / 4 / 3.6; TOP alone 14 / 3 / 2.4; TOP alone by 2+ 7 / 3 / 1.3; REP (two bodies' same-body lines >= 80 on one target) 4 / 2 / 0.7
+(Secret Satire, Dynamic Force). A count, threshold set in-sample (like BB62). Independent checker: counts of every runner, 0 mismatches.
+Not built (waiting for Eddie).
