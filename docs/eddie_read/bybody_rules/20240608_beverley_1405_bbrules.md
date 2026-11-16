@@ -1,4 +1,4 @@
-# 20240608_beverley_1405 — body-by-body rules BB1-BB65
+# 20240608_beverley_1405 — body-by-body rules BB1-BB66
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -70,6 +70,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB63 | 1 | 1 | 02 Brazilian Belle |  |
 | BB64 | 1 | 1 | 03 Call Me Harswell |  |
 | BB65 | 1 | 1 | 09 Nad Alshiba Snow |  |
+| BB66 | 1 | 1 | 07 Mademoiselle |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1983,4 +1984,19 @@ Origin: Doncaster 18:45 16 Jul 2022, 5 Novakai, Sun (H Fomalhaut – H Sun Dec 2
 ### 09 Nad Alshiba Snow — Sun (only)
 - H Regulus – H Sun Dec 25.000646 25 whole (96.77)
 - H Regulus – H Sun Dec 25.0006 25 whole (96.77)
+
+## BB66 — H X – J X tight in Dec and a sky body tight on natal X in Dec
+
+Rule: H X – J X (the same body, horse natal to jockey natal) in Dec scores >= 90 in a family, and a sky body S Y → H X or S Y → J X in Dec scores >= 90 in a family (Y not the Moon, not a royal star). Conj / contraparallel never counted. Any target; the two lines need not share a target.
+
+Origin: Doncaster 18:45 16 Jul 2022, 5 Novakai, Eris (H Eris – J Eris Dec 10.0012 whole 10 (94.2); S Pluto → H Eris Dec 21.0336 13×φ (97.5)); also Newton Abbot 15:25 17 Jul 2022 On Time Jupiter (H Jupiter – J Jupiter Dec 11.3265 7×φ (99.2); S Vesta → H Jupiter Dec 22.2241 ninth (95.7)), Catterick 14:40 6 Apr 2022 Wotever Next Ceres (H Ceres – J Ceres Dec 44.4366 ninth (91.2); S Saturn → H Ceres Dec 1.6190 φ (97.0)), York 15:45 15 May 2024 Secret Satire Ceres (H Ceres – J Ceres Dec 5.9996 whole 6 (97.9); S Mercury → H Ceres Dec 7.9989 whole 8 (94.5)). Eddie, 16 Nov 2026: 'build as BB66'. Over the 10 result races (tools/scans/bb_fieldcheck_novakai_others.py, E2 Dec): 10 picks, 4 won, 1.5 by chance (RA version 8 / 1 / 1.1). Partly in-sample: Secret Satire, Wotever Next and On Time were read before.
+
+### 07 Mademoiselle — Venus (only)
+- H Venus – J Venus Dec 35.597593 22×φ golden (97.39)
+- S Gonggong → H Venus Dec 6.474793 4×φ golden (91.8)
+- S Gonggong → J Venus Dec 29.122800 18×φ golden (94.41)
+- H Venus – J Venus Dec 35.5976 22×φ golden (97.39); S Gonggong → H Venus Dec 6.4748 4×φ golden (91.8)
+- H Venus – J Venus Dec 35.5976 22×φ golden (97.39); S Gonggong → J Venus Dec 29.1228 18×φ golden (94.41)
+- WATCH additive step (Dec): 22×φ = 4×φ + 18×φ (H Venus – J Venus; S Gonggong → H Venus; S Gonggong → J Venus) (may be geometry: three distances between the same three points)
+- lights on Venus: S Sun – S Venus Dec 0.187596 conj conj (37.47); S Sun – S Venus RA 1.137027 conj conj (24.2)
 

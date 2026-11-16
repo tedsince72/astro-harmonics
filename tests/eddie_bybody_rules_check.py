@@ -81,6 +81,7 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB63': {('05 Pholas', 'Pallas')},
     'BB64': set(),
     'BB65': set(),
+    'BB66': set(),
     'BB55': {('01 Arafi', 'Gonggong'), ('01 Arafi', 'Venus'), ('04 Nirodha', 'Saturn'), ('05 Pholas', 'Pallas')},
     'BB53': {('06 Shimmering Dawn', 'Sun'), ('06 Shimmering Dawn', 'Jupiter'), ('06 Shimmering Dawn', 'Pallas')},
 }
@@ -613,5 +614,18 @@ if os.path.exists(DON):
     dn = R.run(DON)[2]
     check(hold(dn) == {('05 Novakai', 'Sun')}, 'BB65 Doncaster')
     check(any(x.startswith('H Fomalhaut – H Sun Dec 24.140652') for c in dn['BB65'] for x in c['cells']), 'BB65 Novakai cell')
+# BB66 (Eddie, 16 Nov 2026): H X – J X Dec >= 90 and a sky body (not Moon, not royal) on natal X Dec >= 90
+h66 = lambda rr: {(c['runner'], c['body']) for c in rr['BB66']}
+check(h66(yres) == {('06 Secret Satire', 'Ceres')}, 'BB66 York 15:45')
+check(h66(hres) == {('02 Ventura Flame', 'Haumea')} and h66(lres) == set(), 'BB66 Haydock, Lingfield')
+check(h66(bres) == {('07 Mademoiselle', 'Venus')}, 'BB66 Beverley')
+if os.path.exists(CAT):
+    check(h66(cres) == {('04 Thakuri', 'Pallas'), ('05 Wotever Next', 'Ceres')}, 'BB66 Catterick')
+if os.path.exists(FW):
+    check(h66(fw) == {('05 Makanao', 'Mars')}, 'BB66 Fontwell')
+if os.path.exists(DON):
+    check(h66(dn) == {('04 Mother India', 'Sun'), ('05 Novakai', 'Eris')}, 'BB66 Doncaster')
+    k = [x for c in dn['BB66'] if c['runner'] == '05 Novakai' for x in c['cells']]
+    check('H Eris – J Eris Dec 10.001156 10 whole (94.22)' in k and 'S Pluto → H Eris Dec 21.033633 13×φ golden (97.5)' in k, 'BB66 Novakai cells')
 print(f'{ok}/{ok + bad} checks passed')
 sys.exit(1 if bad else 0)

@@ -3465,6 +3465,30 @@
     "additive": [],
     "watch_only": false
    }
+  ],
+  "BB66": [
+   {
+    "runner": "07 Mademoiselle",
+    "body": "Venus",
+    "cells": [
+     "H Venus – J Venus Dec 35.597593 22×φ golden (97.39)",
+     "S Gonggong → H Venus Dec 6.474793 4×φ golden (91.8)",
+     "S Gonggong → J Venus Dec 29.122800 18×φ golden (94.41)"
+    ],
+    "notes": [
+     "H Venus – J Venus Dec 35.5976 22×φ golden (97.39); S Gonggong → H Venus Dec 6.4748 4×φ golden (91.8)",
+     "H Venus – J Venus Dec 35.5976 22×φ golden (97.39); S Gonggong → J Venus Dec 29.1228 18×φ golden (94.41)"
+    ],
+    "lights": [
+     "S Sun – S Venus Dec 0.187596 conj conj (37.47)",
+     "S Sun – S Venus RA 1.137027 conj conj (24.2)"
+    ],
+    "decade": [],
+    "additive": [
+     "WATCH additive step (Dec): 22×φ = 4×φ + 18×φ (H Venus – J Venus; S Gonggong → H Venus; S Gonggong → J Venus) (may be geometry: three distances between the same three points)"
+    ],
+    "watch_only": false
+   }
   ]
  }
 }

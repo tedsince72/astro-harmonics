@@ -1,4 +1,4 @@
-# 20231006_fontwell_1530 — body-by-body rules BB1-BB65
+# 20231006_fontwell_1530 — body-by-body rules BB1-BB66
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -70,6 +70,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB63 | 5 | 3 | 03 Kilcummin, 04 Logistical, 05 Makanao |  |
 | BB64 | 0 | 0 | - |  |
 | BB65 | 0 | 0 | - |  |
+| BB66 | 1 | 1 | 05 Makanao |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1080,4 +1081,18 @@ Rule: A royal-star line on the horse's natal Sun, H R – H Sun (R = Aldebaran, 
 Origin: Doncaster 18:45 16 Jul 2022, 5 Novakai, Sun (H Fomalhaut – H Sun Dec 24.1407 silver 24.14 (95.9)); also York 15:45 15 May 2024, 6 Secret Satire (H Antares – H Sun Dec 33.3358 ninth 33.3333 (96.3)) and Catterick 14:40 6 Apr 2022, 5 Wotever Next (H Regulus – H Sun Dec 6.0007 whole 6 (96.7)). Eddie, 16 Nov 2026: 'B with a note on A'. Over the 10 result races (tools/scans/bb_fieldcheck_royal_decade_echo.py, S2 split): B (Dec) 4 picks, 3 won, 0.6 by chance (also Beverley Nad Alshiba Snow H Regulus – H Sun Dec 25.0006, lost); A (either plane) 6 picks, 3 won, 0.8 by chance (RA only: York 15:45 La Pasionaria, York 16:15 On Point, both lost); the jockey's Sun 11 picks, 0 won, 1.3 by chance. In-sample: Secret Satire and Wotever Next Sun were origins of BB41 / BB57.
 
 No runner holds it.
+
+## BB66 — H X – J X tight in Dec and a sky body tight on natal X in Dec
+
+Rule: H X – J X (the same body, horse natal to jockey natal) in Dec scores >= 90 in a family, and a sky body S Y → H X or S Y → J X in Dec scores >= 90 in a family (Y not the Moon, not a royal star). Conj / contraparallel never counted. Any target; the two lines need not share a target.
+
+Origin: Doncaster 18:45 16 Jul 2022, 5 Novakai, Eris (H Eris – J Eris Dec 10.0012 whole 10 (94.2); S Pluto → H Eris Dec 21.0336 13×φ (97.5)); also Newton Abbot 15:25 17 Jul 2022 On Time Jupiter (H Jupiter – J Jupiter Dec 11.3265 7×φ (99.2); S Vesta → H Jupiter Dec 22.2241 ninth (95.7)), Catterick 14:40 6 Apr 2022 Wotever Next Ceres (H Ceres – J Ceres Dec 44.4366 ninth (91.2); S Saturn → H Ceres Dec 1.6190 φ (97.0)), York 15:45 15 May 2024 Secret Satire Ceres (H Ceres – J Ceres Dec 5.9996 whole 6 (97.9); S Mercury → H Ceres Dec 7.9989 whole 8 (94.5)). Eddie, 16 Nov 2026: 'build as BB66'. Over the 10 result races (tools/scans/bb_fieldcheck_novakai_others.py, E2 Dec): 10 picks, 4 won, 1.5 by chance (RA version 8 / 1 / 1.1). Partly in-sample: Secret Satire, Wotever Next and On Time were read before.
+
+### 05 Makanao — Mars (only)
+- H Mars – J Mars Dec 46.921775 29×φ golden (96.26)
+- S Ceres → H Mars Dec 13.000018 13 whole (99.91)
+- S Makemake → H Mars Dec 44.436098 44.4444 ninth (90.61)
+- H Mars – J Mars Dec 46.9218 29×φ golden (96.26); S Ceres → H Mars Dec 13.0000 13 whole (99.91)
+- H Mars – J Mars Dec 46.9218 29×φ golden (96.26); S Makemake → H Mars Dec 44.4361 44.4444 ninth (90.61)
+- lights on Mars: S Moon – S Mars RA 99.888794 100 ninth (44.4)
 

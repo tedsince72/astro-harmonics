@@ -1,4 +1,4 @@
-# 20220716_doncaster_1845 — body-by-body rules BB1-BB65
+# 20220716_doncaster_1845 — body-by-body rules BB1-BB66
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -70,6 +70,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB63 | 1 | 1 | 06 Passing Storm |  |
 | BB64 | 1 | 1 | 02 Bella Kopella |  |
 | BB65 | 1 | 1 | 05 Novakai |  |
+| BB66 | 2 | 2 | 04 Mother India, 05 Novakai |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1028,4 +1029,21 @@ Origin: Doncaster 18:45 16 Jul 2022, 5 Novakai, Sun (H Fomalhaut – H Sun Dec 2
 ### 05 Novakai — Sun (only)
 - H Fomalhaut – H Sun Dec 24.140652 24.14 silver (95.9)
 - H Fomalhaut – H Sun Dec 24.1407 24.14 silver (95.9)
+
+## BB66 — H X – J X tight in Dec and a sky body tight on natal X in Dec
+
+Rule: H X – J X (the same body, horse natal to jockey natal) in Dec scores >= 90 in a family, and a sky body S Y → H X or S Y → J X in Dec scores >= 90 in a family (Y not the Moon, not a royal star). Conj / contraparallel never counted. Any target; the two lines need not share a target.
+
+Origin: Doncaster 18:45 16 Jul 2022, 5 Novakai, Eris (H Eris – J Eris Dec 10.0012 whole 10 (94.2); S Pluto → H Eris Dec 21.0336 13×φ (97.5)); also Newton Abbot 15:25 17 Jul 2022 On Time Jupiter (H Jupiter – J Jupiter Dec 11.3265 7×φ (99.2); S Vesta → H Jupiter Dec 22.2241 ninth (95.7)), Catterick 14:40 6 Apr 2022 Wotever Next Ceres (H Ceres – J Ceres Dec 44.4366 ninth (91.2); S Saturn → H Ceres Dec 1.6190 φ (97.0)), York 15:45 15 May 2024 Secret Satire Ceres (H Ceres – J Ceres Dec 5.9996 whole 6 (97.9); S Mercury → H Ceres Dec 7.9989 whole 8 (94.5)). Eddie, 16 Nov 2026: 'build as BB66'. Over the 10 result races (tools/scans/bb_fieldcheck_novakai_others.py, E2 Dec): 10 picks, 4 won, 1.5 by chance (RA version 8 / 1 / 1.1). Partly in-sample: Secret Satire, Wotever Next and On Time were read before.
+
+### 04 Mother India — Sun (also: 05 Novakai)
+- H Sun – J Sun Dec 12.944570 8×φ golden (99.08)
+- S Pluto → H Sun Dec 11.000065 11 whole (99.68)
+- H Sun – J Sun Dec 12.9446 8×φ golden (99.08); S Pluto → H Sun Dec 11.0001 11 whole (99.68)
+
+### 05 Novakai — Eris (also: 04 Mother India)
+- H Eris – J Eris Dec 10.001156 10 whole (94.22)
+- S Pluto → H Eris Dec 21.033633 13×φ golden (97.5)
+- H Eris – J Eris Dec 10.0012 10 whole (94.22); S Pluto → H Eris Dec 21.0336 13×φ golden (97.5)
+- lights on Eris: S Sun – S Eris Dec 22.228759 22.2222 ninth (85.29); S Sun – S Eris RA 88.759344 88.8889 ninth (27.13); S Sun → H Eris RA 89.996782 90 whole (83.91); S Moon → H Eris Dec 12.933882 8×φ golden (67.93)
 

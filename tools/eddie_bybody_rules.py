@@ -1783,6 +1783,31 @@ def bb65(b):
     return []
 
 
+def bb66(b):
+    """E2 Dec (Eddie, 16 Nov 2026, 'build as BB66'; from Doncaster 18:45 16 Jul 2022 Novakai Eris, H Eris - J Eris Dec 10.0012 whole 10
+    (94.2) with S Pluto -> H Eris Dec 21.0336 13xphi (97.5); also On Time Jupiter, Wotever Next Ceres, Secret Satire Ceres): H X - J X in Dec
+    scoring >= 90 in a family, and a sky body S Y -> H X or S Y -> J X in Dec scoring >= 90 in a family (Y not the Moon, not a royal star).
+    Conj / contraparallel never counted."""
+    good = lambda r: r['plane'] == 'Dec' and r['fam'] and r['fam'] not in CJ and (r['sc'] or 0) >= 90
+    hj = [r for r in b.L if r['line'] == f'H {b.X} – J {b.X}' and good(r)]
+    if not hj:
+        return []
+    sky = []
+    for o in b.O:
+        ln = o['line']
+        if not good(o) or ' → ' not in ln or ln.split(' → ')[1] not in (f'H {b.X}', f'J {b.X}'):
+            continue
+        Y = ln[2:].split(' → ')[0]
+        if Y == 'Moon' or Y in ROY:
+            continue
+        sky.append(o)
+    if not sky:
+        return []
+    notes = [f"{h['line']} Dec {h['v']:.4f} {h['tgt']} {h['fam']} ({h['sc']}); {o['line']} Dec {o['v']:.4f} {o['tgt']} {o['fam']} ({o['sc']})"
+             for h in hj for o in sky]
+    return [{'key': ('BB66', b.X), 'cells': hj + sky, 'notes': notes}]
+
+
 RULES = [('BB1', bb1, 'Mercury'), ('BB2', bb2, 'Mars'), ('BB3', bb3, 'Jupiter'), ('BB4', bb4, 'Saturn'),
          ('BB5', bb5, 'Uranus'), ('BB6', bb6, 'Uranus'), ('BB7', bb7, 'Neptune'), ('BB8', bb8, 'Rahu'),
          ('BB9', bb9, 'Rahu'), ('BB10', bb10, 'Ketu'), ('BB11', bb11, 'Ceres'), ('BB12', bb12, 'Pallas'),
@@ -1791,7 +1816,7 @@ RULES = [('BB1', bb1, 'Mercury'), ('BB2', bb2, 'Mars'), ('BB3', bb3, 'Jupiter'),
          ('BB21', bb21, 'Saturn'), ('BB22', bb22, 'Saturn'), ('BB23', bb23, 'Neptune'), ('BB24', bb24, 'Rahu'), ('BB25', bb25, 'Ketu'), ('BB26', bb26, 'Ceres'), ('BB27', bb27, 'Pallas'), ('BB28', bb28, 'Juno'), ('BB29', bb29, 'Vesta'), ('BB30', bb30, 'Eris'), ('BB31', bb31, 'Gonggong'),
          ('BB32', bb32, 'Sun'), ('BB32b', bb32b, 'Sun'), ('BB33', bb33, 'Mercury'), ('BB34', bb34, 'Mars'), ('BB35', bb35, 'Saturn'),
          ('BB36', bb36, 'Uranus'), ('BB37', bb37, 'Pluto'), ('BB38', bb38, 'Juno'), ('BB39', bb39, 'Makemake'),
-         ('BB40', bb40, 'Sedna'), ('BB41', bb41, 'Sun'), ('BB42', bb42, 'Mercury'), ('BB43', bb43, 'Venus'), ('BB44', bb44, 'Jupiter'), ('BB45', bb45, 'Saturn'), ('BB46', bb46, 'Saturn'), ('BB47', bb47, 'Ceres'), ('BB48', bb48, 'Chiron'), ('BB49', bb49, 'Haumea'), ('BB50', bb50, 'Makemake'), ('BB51', bb51, 'Venus'), ('BB52', bb52, 'Uranus'), ('BB53', bb53, 'any'), ('BB54', bb54, 'any'), ('BB55', bb55, 'any'), ('BB56', bb56, 'any'), ('BB57', bb57, 'any'), ('BB58', bb58, 'any'), ('BB59', bb59, 'any'), ('BB60', bb60, 'any'), ('BB61', bb61, 'any'), ('BB62', bb62, 'any'), ('BB63', bb63, 'any'), ('BB64', bb64, 'any'), ('BB65', bb65, 'Sun')]
+         ('BB40', bb40, 'Sedna'), ('BB41', bb41, 'Sun'), ('BB42', bb42, 'Mercury'), ('BB43', bb43, 'Venus'), ('BB44', bb44, 'Jupiter'), ('BB45', bb45, 'Saturn'), ('BB46', bb46, 'Saturn'), ('BB47', bb47, 'Ceres'), ('BB48', bb48, 'Chiron'), ('BB49', bb49, 'Haumea'), ('BB50', bb50, 'Makemake'), ('BB51', bb51, 'Venus'), ('BB52', bb52, 'Uranus'), ('BB53', bb53, 'any'), ('BB54', bb54, 'any'), ('BB55', bb55, 'any'), ('BB56', bb56, 'any'), ('BB57', bb57, 'any'), ('BB58', bb58, 'any'), ('BB59', bb59, 'any'), ('BB60', bb60, 'any'), ('BB61', bb61, 'any'), ('BB62', bb62, 'any'), ('BB63', bb63, 'any'), ('BB64', bb64, 'any'), ('BB65', bb65, 'Sun'), ('BB66', bb66, 'any')]
 
 
 def decade_pairs(cells):
