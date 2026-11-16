@@ -1314,3 +1314,13 @@ Independent checker (16 Nov): BB68 recomputed from the _active _POS tabs, 13 rac
   T1f sky legs same family + plane 12 / 2 / 1.9; T2 best >= 90 9 / 2 / 1.4 (On Time Jupiter, The Dunkirk Lads Eris); T3 each >= 50 6 / 0 / 0.9;
   C1 T1 + BB68 8 / 1 / 1.3; C2 T1 + BB1 2 / 1 / 0.3; C3 T1 + BB68 + BB1 2 / 1 / 0.3 (Friendly Soul Mars lost). Holders rechecked from the _POS
   tabs (13 races with an _active file): same runners. Noted, not built.
+
+## BB1 refined on its two winners, Pholas Mercury and The Dunkirk Lads Mars (16 Nov 2026, Eddie: "is there something in common with pholas")
+Scan tools/scans/bb_fieldcheck_bb1_refine.py (14 result races; both winners in-sample): BB1 10 / 2 / 1.2; F1 royal line and carrier pair in
+a number family (no conj / cp / opposition) 4 / 2 / 0.5 (lost: Never In Paris Orcus, Aviation Time Uranus); F2 F1 + both natal end lines
+S A → c X, S B → c X in a number family >= 50: 2 / 2 / 0.3 (Pholas 67.39 / 76.94, The Dunkirk Lads 96.85 / 83.12); F3 F2 + royal line and pair
+golden: 2 / 2 / 0.3; F4 F2 + every end line >= 50: 1 / 1 (Pholas; The Dunkirk Lads fails on S Ketu – S Mars RA 30.81).
+The eight losing BB1 holders fail on a contraparallel / opposition royal line or pair (Havana White, Classical Song, Friendly Soul,
+Thursday's Child, Logistical, Bella Kopella) or weak / conj natal ends (Never In Paris, Aviation Time). Chelmsford AW 13:20 2024 (no
+result): F2 Sullivan Bay Jupiter (H Regulus – H Jupiter RA 141.2566 √2 by S Makemake – S Sedna; S Makemake → H Jupiter Dec 43 (98.11),
+S Sedna → H Jupiter RA 78×φ (82.3)). Not built.
