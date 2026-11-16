@@ -1324,3 +1324,10 @@ The eight losing BB1 holders fail on a contraparallel / opposition royal line or
 Thursday's Child, Logistical, Bella Kopella) or weak / conj natal ends (Never In Paris, Aviation Time). Chelmsford AW 13:20 2024 (no
 result): F2 Sullivan Bay Jupiter (H Regulus – H Jupiter RA 141.2566 √2 by S Makemake – S Sedna; S Makemake → H Jupiter Dec 43 (98.11),
 S Sedna → H Jupiter RA 78×φ (82.3)). Not built.
+
+## Little Girl Blue (Bath 17:50 3 Jun 2022, won 10/1): sky Makemake hub (16 Nov 2026, Eddie: "so does it make a potential rule")
+S Makemake carries royal lines on J Venus (S Makemake – S Aldebaran Dec 4×φ 89.48), H Mars (S Makemake – S Sedna Dec 9×φ), H Jupiter (S Jupiter –
+S Makemake RA ninth 166.667 / H Aldebaran – H Jupiter RA 166.5703) and H Pallas / H Makemake (S Makemake – S Pallas Dec 15×φ, BB53).
+Scan tools/scans/bb_fieldcheck_hub.py (16 result races): a sky body carrying royal lines on >= 3 natal bodies H3 110 / 16 / 15.8 (almost every
+runner), >= 4 95 / 14 / 13.6, same royal star twice 109 / 16 / 15.8, hub also on natal X 109 / 15 / 15.6, pairs >= 50 94 / 12 / 13.6;
+pairs and royal lines >= 50 37 / 2 / 4.9. BB3 on >= 3 bodies 33 / 7 / 4.8, >= 4 15 / 3 / 2.4, >= 5 6 / 0 / 0.8. No rule (at or under chance).
