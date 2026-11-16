@@ -1331,3 +1331,12 @@ S Makemake RA ninth 166.667 / H Aldebaran – H Jupiter RA 166.5703) and H Palla
 Scan tools/scans/bb_fieldcheck_hub.py (16 result races): a sky body carrying royal lines on >= 3 natal bodies H3 110 / 16 / 15.8 (almost every
 runner), >= 4 95 / 14 / 13.6, same royal star twice 109 / 16 / 15.8, hub also on natal X 109 / 15 / 15.6, pairs >= 50 94 / 12 / 13.6;
 pairs and royal lines >= 50 37 / 2 / 4.9. BB3 on >= 3 bodies 33 / 7 / 4.8, >= 4 15 / 3 / 2.4, >= 5 6 / 0 / 0.8. No rule (at or under chance).
+
+## Little Girl Blue's rules refined on other winners? (16 Nov 2026, Eddie: "could they be improved with other winners as well")
+Scan tools/scans/bb_refine_rules.py (16 result races; generic tightenings G1 all cells in a number family, G2 + natal ends >= 50, G3 every cell
+>= 50, G4 G2 + royal line >= 50). Picks / won / by chance, as built -> best tightening: BB3 93 / 16 / 13.4 -> G4 44 / 8 / 6.3; BB4 17 / 4 / 3.0 ->
+G2 11 / 2 / 1.9; BB12 42 / 10 / 6.1 -> G4 16 / 4 / 2.2; BB53 26 / 3 / 3.9 -> G4 17 / 3 / 2.5; BB63 35 / 10 / 5.1 -> G4 16 / 4 / 2.1; BB3 + BB63
+27 / 10 / 3.7 -> G1 25 / 9 / 3.5, G2 18 / 5 / 2.5, G4 8 / 2 / 0.9. No tightening improves on the rule as built (the ratio stays about the same
+or drops). Strongest as built: the combination BB3 + BB63 (2.7x chance; after BB63 was built, 8 later races: 9 picks 4 won, 1.8 by chance -
+On Time, Whitefeathersfall, Sullivan Bay, Little Girl Blue; lost Passing Storm, Bollin Joan, Gidwa, Foinix, Between The Sheets). Already a
+watched combination and one of BB67's three.
