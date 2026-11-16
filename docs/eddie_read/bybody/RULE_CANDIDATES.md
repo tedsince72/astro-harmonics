@@ -1213,3 +1213,11 @@ winners' cases use both planes. Rules on one plane only: Dec 105 picks / 22 won 
 as built 643 / 152 (2.04x; later 1.01x). Families: whole 22.0 % of winners' cells vs 18.6 %, golden 22.3 vs 25.2, contraparallel 3.7 vs 5.7. Distance
 bands and score bands: no difference. Bodies (runners holding any rule on X): Rahu 16 / 5 (2.0), Mercury 21 / 5 (2.3), Juno 12 / 4 (1.4) highest;
 24 bodies tested, so expect some luck.
+
+## Rule combinations (16 Nov 2026) - noted
+tools/scans/bb_rule_combos.py -> docs/eddie_read/bybody_rules/rule_combos.md (whole sample, 8 result races, picks >= 3). Best: BB3 + BB63 18 picks /
+6 winners (2.0 by chance; misses Ishvara, Perfect Part); BB3 + BB54 16 / 5 (1.5); BB59 alone 7 / 4 (0.9; its holders all hold BB3, BB12, BB63, so
+combinations with it add nothing); BB48 + BB55 9 / 4 (1.1); BB13 + BB48 + BB55 3 / 3 (0.3); BB32 + BB34 3 / 3 (0.4). Random-winner benchmark (500
+draws, 1,406 pairs / triples): real best excess 4.02 vs 95th percentile 3.68 - but the rules were built on these winners (and later rules on a second
+earlier winner), so the benchmark flatters the real result. Rule counts: winners rank 1 in 6 of 8 races; without their own race's rules only Pholas
+and Ishvara still rank 1 (checker); Athmad joint 4th of 6 with all rules, last without Newcastle's.
