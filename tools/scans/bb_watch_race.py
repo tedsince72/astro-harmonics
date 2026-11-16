@@ -12,7 +12,9 @@
 - Mirror (Eddie, 16 Nov 2026, from Society Red Venus; tools/scans/bb_fieldcheck_mirror.py): S X -> c X conj / contraparallel in Dec
   >= 80, with the sky bodies and royal stars conj / cp sky X; M4 (mirror >= 90 + a sky body + a royal star on sky X) is the watch item.
 - Royal star on both natal X (Eddie, 16 Nov 2026, from Dynamic Force Jupiter Antares; tools/scans/bb_fieldcheck_royal_both.py): A2 is the
-  watch item (1 pick 1 won over 17 result races); A1 cases listed too."""
+  watch item (1 pick 1 won over 17 result races); A1 cases listed too.
+- One sky body on both natal X (Eddie, 16 Nov 2026, from Blue Collar Glory Venus / Ketu; tools/scans/bb_fieldcheck_hj_both.py): K1d is
+  the watch item (H X – J X in Dec >= 90, a sky body on H X and J X >= 90; 5 picks 2 won over 18 result races); K1 / K2 tags shown."""
 import json, sys
 sys.path.insert(0, 'tools'); sys.path.insert(0, 'tools/scans')
 import eddie_bybody_rules as E
@@ -20,6 +22,7 @@ import bb_over100_tighten as TT
 import bb_fieldcheck_jupiter_loop as JL
 import bb_fieldcheck_mirror as MR
 import bb_fieldcheck_royal_both as RB
+import bb_fieldcheck_hj_both as HB
 
 race = sys.argv[1]
 data = E.load(f'docs/eddie_read/bybody/{race}/{race}_bybody.xlsx')
@@ -116,5 +119,14 @@ for run, bodies in data.items():
             if 'A1' in t:
                 rb.append(f"- {run} {X} [{' '.join(sorted(t))}]: {s_}")
 out += rb or ['- none']
+out += ['', '## One sky body on both natal X watch (Blue Collar Glory Venus / Ketu; K1d = H X – J X in Dec >= 90 + a sky body on H X and J X '
+        '>= 90; K2 = + that body in a sky pair on the H X – J X number)']
+hb = []
+for run, bodies in data.items():
+    for X, d in bodies.items():
+        for t, s_ in HB.cases(X, d):
+            if 'K1' in t:
+                hb.append(f"- {run} {X} [{' '.join(sorted(t))}]: {s_}")
+out += hb or ['- none']
 txt = '\n'.join(out) + '\n'
 open(f'docs/eddie_read/bybody_rules/{race}_watch.md', 'w').write(txt); print(txt)

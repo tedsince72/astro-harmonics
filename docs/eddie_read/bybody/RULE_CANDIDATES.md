@@ -1395,3 +1395,4 @@ body on both natal X >= 80) 13 / 3 / 2.0; K1 (>= 90) 7 / 2 / 1.0; K1d (H X – J
 H–J 6 = 8 - 2, Mercury between in Dec, partly geometry; Blue Collar Glory Venus - S Ketu, the two lines in different planes); K2 (+ the sky
 body in a sky pair on the H–J number) 1 / 1 / 0.2 (Blue Collar Glory only, with Fomalhaut). Independent checker: holders, 0 mismatches.
 Not built (waiting for Eddie).
+Watch (Eddie, 16 Nov 2026: 'keep on watch'): K1d added to tools/scans/bb_watch_race.py.
