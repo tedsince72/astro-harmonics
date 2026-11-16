@@ -1303,3 +1303,14 @@ S Uranus → H Venus cp 0.0471 (84.3); H Aldebaran – H Venus cp 0.0469 (84.37)
   Capuchinero J Sun with Chiron and Juno on sky Sun, Bella Kopella J Mercury with Makemake, Pluto, Venus, Society Red H Venus)
 One winner on the structure; not built (build standard: a second origin winner). Candidate watch item.
 Independent checker (16 Nov): BB68 recomputed from the _active _POS tabs, 13 races, holders = the json (0 mismatches; York 16:15 has no _active file); other rules unchanged in every bbrules json; mirror M1-M4 = the scan (Ripon 03 Urban War J Rahu / J Ketu mirror would hold M2 only through the automatic sky Rahu - Ketu pair, which the scan leaves out).
+
+## The Dunkirk Lads (Nottingham 17:50 13 Jun 2022, won 12/1): Mars, Jupiter split, Eris triangle (16 Nov 2026, Eddie: "yes both of those and eris s-h, s-j, h-j")
+- Mars = BB1 (Pholas origin; only holder here): S Ketu – S Mars Dec 22.2219 ninth (93.54), S Ketu → H Mars RA 161.8110 100φ (96.85),
+  S Chiron conj S Mars RA 0.2264 (84.9), S Ketu – S Chiron RA 144.0181 89×φ carries H Antares – H Mars RA 144.0334. BB1 after Lingfield:
+  9 picks 1 won, 1.1 by chance (14 result races).
+- Jupiter split = BB68 (S Vesta: 14.5661 9×φ (88.27) + 8.8898 ninth (94.90)); BB68's first later race: 2 picks 1 won.
+- Eris triangle: S Eris → H Eris RA 1.3332 ninth (94.52), S Eris → J Eris RA 4.4367 ninth (13.41), H Eris – J Eris Dec 8.0762 5×φ (56.73).
+  Scan tools/scans/bb_fieldcheck_triangle.py (14 result races): T1 all three lines of one body in a family 21 / 2 / 3.4; T1s one plane 12 / 1 / 1.9;
+  T1f sky legs same family + plane 12 / 2 / 1.9; T2 best >= 90 9 / 2 / 1.4 (On Time Jupiter, The Dunkirk Lads Eris); T3 each >= 50 6 / 0 / 0.9;
+  C1 T1 + BB68 8 / 1 / 1.3; C2 T1 + BB1 2 / 1 / 0.3; C3 T1 + BB68 + BB1 2 / 1 / 0.3 (Friendly Soul Mars lost). Holders rechecked from the _POS
+  tabs (13 races with an _active file): same runners. Noted, not built.
