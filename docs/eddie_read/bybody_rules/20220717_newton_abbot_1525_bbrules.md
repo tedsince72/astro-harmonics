@@ -1,4 +1,4 @@
-# 20220717_newton_abbot_1525 — body-by-body rules BB1-BB68
+# 20220717_newton_abbot_1525 — body-by-body rules BB1-BB69b
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -74,6 +74,8 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB66 | 1 | 1 | 04 On Time |  |
 | BB67 | 1 | 1 | 04 On Time |  |
 | BB68 | 1 | 1 | 01 Grageelagh Girl |  |
+| BB69 | 1 | 1 | 04 On Time |  |
+| BB69b | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -986,4 +988,26 @@ Origin: Ripon 15:25 16 Jun 2022, 4 Society Red, H Venus: S Venus -> H Venus Dec 
 - S Orcus → J Ketu Dec 7.072966 7.07 sqrt2 (82.1)
 - S Ketu → J Ketu Dec 13.5470 = S Orcus – S Ketu 6.4740 4×φ golden (94.11) + S Orcus → J Ketu 7.0730 7.07 sqrt2 (82.1)
 - lights on Ketu: S Sun – S Ketu RA 110.791123 10φ⁵ phi power (33.53); S Moon → J Ketu RA 0.170633 conj conj (88.62)
+
+## BB69 — 5 or more strong same-body lines
+
+Rule: A runner with 5 or more strong same-body lines: S X -> H X, S X -> J X or H X - J X (X any body but the Moon) in a number family (conj / contraparallel / opposition never) scoring >= 90. Rahu and Ketu one body. Runner-level.
+
+Origin: Nottingham 15:30 1 Jun 2022 Dynamic Force (won 18/1): 6 lines (S Uranus -> H Uranus Dec 3xphi 99.77, S Ceres -> J Ceres Dec 15xphi 98.36, H Makemake - J Makemake RA 15xphi 98.13, H Juno - J Juno RA 43xphi 92.18, H Eris - J Eris Dec 4xphi 91.07, S Makemake -> H Makemake Dec sqrt2 90.74); field 0-3. Eddie, 16 Nov 2026: 'build BB69 and BB69b like that'. tools/scans/bb_fieldcheck_sbcount.py (N5) over 17 result races: 5 picks, 3 won (Dynamic Force, Secret Satire, On Time), 0.8 by chance; losers Never In Paris (6), Logistical (5). A count, threshold set in-sample.
+
+### 04 On Time — runner (only)
+- S Sun → J Sun Dec 40.998637 41 whole (93.19)
+- S Mercury → H Mercury RA 114.881219 71×φ golden (97.51)
+- S Jupiter → J Jupiter RA 173.999413 174 whole (97.07)
+- H Jupiter – J Jupiter Dec 11.326497 7×φ golden (99.2)
+- H Uranus – J Uranus RA 87.375797 54×φ golden (93.95)
+- 5 strong same-body lines (>= 90, number family): Sun, Mercury, Jupiter, Uranus
+
+## BB69b — Two bodies' strong same-body lines on one target
+
+Rule: Two different bodies whose strong same-body lines (as BB69: S X -> H X, S X -> J X or H X - J X, number family, >= 90; Rahu / Ketu one body) are on the same family and target. Runner-level, one case per target.
+
+Origin: Dynamic Force (S Ceres -> J Ceres Dec 24.2710 15xphi 98.36; H Makemake - J Makemake RA 24.2711 15xphi 98.13) and York 15:45 15 May 2024 Secret Satire (S Pluto -> H Pluto RA 6.0016 6 (92); H Ceres - J Ceres Dec 5.9996 6 (97.92)). Eddie, 16 Nov 2026. 17 result races: 2 picks, 2 won, 0.3 by chance, in-sample; looser (notes): both >= 80 4 / 2 / 0.7 (+ Vale Dolobo Dancer, Bollin Joan), >= 70 12 / 3 / 1.7 (+ Diligent Resdev).
+
+No runner holds it.
 

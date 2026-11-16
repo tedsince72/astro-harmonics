@@ -1323,6 +1323,48 @@
   "BB65": [],
   "BB66": [],
   "BB67": [],
-  "BB68": []
+  "BB68": [],
+  "BB69": [
+   {
+    "runner": "02 Dynamic Force",
+    "body": "runner",
+    "cells": [
+     "S Uranus → H Uranus Dec 4.854175 3×φ golden (99.77)",
+     "S Ceres → J Ceres Dec 24.271040 15×φ golden (98.36)",
+     "H Juno – J Juno RA 69.572928 43×φ golden (92.18)",
+     "H Eris – J Eris Dec 6.475028 4×φ golden (91.07)",
+     "S Makemake → H Makemake Dec 1.414410 1.414 sqrt2 (90.74)",
+     "H Makemake – J Makemake RA 24.271115 15×φ golden (98.13)"
+    ],
+    "notes": [
+     "6 strong same-body lines (>= 90, number family): Uranus, Ceres, Juno, Eris, Makemake"
+    ],
+    "lights": [
+     "S Moon → J Sun Dec 8.061408 5×φ golden (11.23)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB69b": [
+   {
+    "runner": "02 Dynamic Force",
+    "body": "Ceres / Makemake",
+    "cells": [
+     "S Ceres → J Ceres Dec 24.271040 15×φ golden (98.36)",
+     "H Makemake – J Makemake RA 24.271115 15×φ golden (98.13)"
+    ],
+    "notes": [
+     "Ceres and Makemake same-body lines on 15×φ (golden)"
+    ],
+    "lights": [
+     "S Moon → J Sun Dec 8.061408 5×φ golden (11.23)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ]
  }
 }

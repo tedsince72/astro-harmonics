@@ -85,6 +85,8 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB67': {('05 Pholas', 'runner')},
     'BB1b': {('05 Pholas', 'Mercury')},
     'BB68': {('02 Fizzy Feet', 'Jupiter'), ('05 Pholas', 'Mercury'), ('06 Shimmering Dawn', 'Vesta')},
+    'BB69': set(),
+    'BB69b': set(),
     'BB55': {('01 Arafi', 'Gonggong'), ('01 Arafi', 'Venus'), ('04 Nirodha', 'Saturn'), ('05 Pholas', 'Pallas')},
     'BB53': {('06 Shimmering Dawn', 'Sun'), ('06 Shimmering Dawn', 'Jupiter'), ('06 Shimmering Dawn', 'Pallas')},
 }
@@ -679,5 +681,34 @@ for race, _ in SP.RACES:
     v3d = {run for run, D in data.items() for X, d in D.items() for sp in SP.splits(X, d)
            if 'V3d' in SP.tags(sp, set(D) | {'Rahu', 'Ketu'})}
     check({c['runner'] for c in R.run(pth)[2]['BB68']} == v3d, f'BB68 = scan V3d {race}')
+# BB69 / BB69b (Eddie, 16 Nov 2026): 5 or more strong same-body lines; two bodies' strong same-body lines on one target
+import bb_fieldcheck_sbcount as SB
+NOT15 = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', '20220601_nottingham_1530', '20220601_nottingham_1530_bybody.xlsx')
+if os.path.exists(NOT15):
+    n15 = R.run(NOT15)[2]
+    check({(c['runner'], c['body']) for c in n15['BB69']} == {('02 Dynamic Force', 'runner')}, 'BB69 Nottingham 15:30: Dynamic Force only')
+    k = [x for c in n15['BB69'] for x in c['cells']]
+    check(len(k) == 6 and 'S Uranus → H Uranus Dec 4.854175 3×φ golden (99.77)' in k and 'H Makemake – J Makemake RA 24.271115 15×φ golden (98.13)' in k,
+          'BB69 Dynamic Force 6 cells')
+    check({(c['runner'], c['body']) for c in n15['BB69b']} == {('02 Dynamic Force', 'Ceres / Makemake')}, 'BB69b Dynamic Force Ceres / Makemake')
+check({(c['runner'], c['body']) for c in yres['BB69b']} == {('06 Secret Satire', 'Pluto / Ceres')}, 'BB69b York 15:45: Secret Satire Pluto / Ceres')
+n5 = rep = 0
+for race, _ in SB.RACES:
+    pth = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', race, f'{race}_bybody.xlsx')
+    if not os.path.exists(pth):
+        continue
+    data = R.load(pth); rr = R.run(pth)[2]
+    exp5 = {run for run, D in data.items() if len(SB.strong(D)) >= 5}
+    exp_b = set()
+    for run, D in data.items():
+        t = {}
+        for X, _, f, g in SB.strong(D, 90):
+            t.setdefault((f, g), set()).add('Rahu' if X == 'Ketu' else X)
+        if any(len(v) > 1 for v in t.values()):
+            exp_b.add(run)
+    check({c['runner'] for c in rr['BB69']} == exp5, f'BB69 = scan N5 {race}')
+    check({c['runner'] for c in rr['BB69b']} == exp_b, f'BB69b = scan (>= 90) {race}')
+    n5 += len(exp5); rep += len(exp_b)
+check(n5 == 5 and rep == 2, f'BB69 5 holders, BB69b 2 holders over the result races ({n5}, {rep})')
 print(f'{ok}/{ok + bad} checks passed')
 sys.exit(1 if bad else 0)

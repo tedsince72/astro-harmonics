@@ -1355,3 +1355,7 @@ N5 5 / 3 / 0.8 (Secret Satire 5, On Time 5, Dynamic Force 6 won; Never In Paris 
 race) 23 / 4 / 3.6; TOP alone 14 / 3 / 2.4; TOP alone by 2+ 7 / 3 / 1.3; REP (two bodies' same-body lines >= 80 on one target) 4 / 2 / 0.7
 (Secret Satire, Dynamic Force). A count, threshold set in-sample (like BB62). Independent checker: counts of every runner, 0 mismatches.
 Not built (waiting for Eddie).
+Built 16 Nov 2026 (Eddie: 'build BB69 and BB69b like that'): BB69 = N5; BB69b = two bodies' strong same-body lines on one target, both
+>= 90 (Dynamic Force Ceres / Makemake 15×φ, Secret Satire Pluto / Ceres 6; 2 picks 2 won, 0.3 by chance). Notes, not built: both >= 80
+4 / 2 / 0.7 (+ Vale Dolobo Dancer Mars / Jupiter 3×φ, Bollin Joan Mars / Haumea 5×φ); both >= 70 12 / 3 / 1.7 (+ Diligent Resdev Uranus /
+Quaoar 5, and Indie Angel, Mews House, Over Spiced, Storm Call, Crackovia, Passing Storm, Foinix). Tests 605/605; independent checker 0 mismatches.

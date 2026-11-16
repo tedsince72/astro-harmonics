@@ -1721,6 +1721,59 @@ def bb62(b):
 
 
 
+def _strong_sb(D, cut):
+    """Same-body lines S X -> H X, S X -> J X, H X - J X (X not the Moon) in a number family (not conj / contraparallel / opposition)
+    scoring >= cut; Rahu / Ketu one body (a Ketu line dropped when the Rahu line of the same kind and plane has the same value, 4 dp).
+    Returns (body, row) pairs (BB69, BB69b)."""
+    out, seen = [], set()
+    for X, d in D.items():
+        if X == 'Moon':
+            continue
+        for r in d['L']:
+            if r['line'] in (f'S {X} → H {X}', f'S {X} → J {X}', f'H {X} – J {X}') and r['fam'] and \
+                    r['fam'] not in ('conj', 'contraparallel', 'opposition') and r['sc'] is not None and r['sc'] >= cut:
+                k = (r['line'].replace('Ketu', 'Rahu'), r['plane'], round(r['v'], 4))
+                if k in seen:
+                    continue
+                seen.add(k)
+                out.append(('Rahu' if X == 'Ketu' else X, r))
+    return out
+
+
+def bb69(b):
+    """S5 (Eddie, 16 Nov 2026, 'build BB69 ... like that'; from Nottingham 15:30 1 Jun 2022 Dynamic Force, 6 lines, field 0-3): 5 or more
+    strong same-body lines (S X -> H X, S X -> J X or H X - J X in a number family, not conj / contraparallel / opposition, score >= 90;
+    Rahu / Ketu one body). Runner-level, reported on the runner's first body sheet, body 'runner'. A count, threshold set in-sample:
+    17 result races 5 picks 3 won (Dynamic Force, Secret Satire, On Time), 0.8 by chance (tools/scans/bb_fieldcheck_sbcount.py N5)."""
+    D = getattr(b, 'all', None)
+    if not D or b.X != next(iter(D)):
+        return []
+    s = _strong_sb(D, 90)
+    if len(s) < 5:
+        return []
+    return [{'key': ('BB69',), 'body': 'runner', 'cells': [r for _, r in s],
+             'notes': [f"{len(s)} strong same-body lines (>= 90, number family): {', '.join(dict.fromkeys(X for X, _ in s))}"]}]
+
+
+def bb69b(b):
+    """S5b (Eddie, 16 Nov 2026, with BB69; from Dynamic Force Ceres / Makemake 15xphi and York 15:45 2024 Secret Satire Pluto / Ceres 6):
+    two different bodies' strong same-body lines (as BB69, both >= 90) on the same family and target. Runner-level, one case per target,
+    body 'X / Y'. In-sample: 17 result races 2 picks 2 won, 0.3 by chance (at >= 80: 4 / 2 / 0.7; at >= 70: 12 / 3 / 1.7, notes)."""
+    D = getattr(b, 'all', None)
+    if not D or b.X != next(iter(D)):
+        return []
+    t = {}
+    for X, r in _strong_sb(D, 90):
+        t.setdefault((r['fam'], r['tgt']), {}).setdefault(X, []).append(r)
+    out = []
+    for (f, g), v in t.items():
+        if len(v) < 2:
+            continue
+        out.append({'key': ('BB69b', f, g), 'body': ' / '.join(v), 'cells': [r for rs in v.values() for r in rs],
+                    'notes': [f"{' and '.join(v)} same-body lines on {g} ({f})"]})
+    return out
+
+
 def bb63(b):
     """C1 (Eddie, 15 Nov 2026, from Newcastle AW 16:33 2021 Athmad Makemake; broad): a royal natal line c R - c X (family, not conj /
     contraparallel) carried by a sky line naming X itself, S X - S Y ('Sky lines on the same target'; Y not a royal star, not the Moon; the
@@ -1873,7 +1926,7 @@ RULES = [('BB1', bb1, 'Mercury'), ('BB1b', bb1b, 'any'), ('BB2', bb2, 'Mars'), (
          ('BB21', bb21, 'Saturn'), ('BB22', bb22, 'Saturn'), ('BB23', bb23, 'Neptune'), ('BB24', bb24, 'Rahu'), ('BB25', bb25, 'Ketu'), ('BB26', bb26, 'Ceres'), ('BB27', bb27, 'Pallas'), ('BB28', bb28, 'Juno'), ('BB29', bb29, 'Vesta'), ('BB30', bb30, 'Eris'), ('BB31', bb31, 'Gonggong'),
          ('BB32', bb32, 'Sun'), ('BB32b', bb32b, 'Sun'), ('BB33', bb33, 'Mercury'), ('BB34', bb34, 'Mars'), ('BB35', bb35, 'Saturn'),
          ('BB36', bb36, 'Uranus'), ('BB37', bb37, 'Pluto'), ('BB38', bb38, 'Juno'), ('BB39', bb39, 'Makemake'),
-         ('BB40', bb40, 'Sedna'), ('BB41', bb41, 'Sun'), ('BB42', bb42, 'Mercury'), ('BB43', bb43, 'Venus'), ('BB44', bb44, 'Jupiter'), ('BB45', bb45, 'Saturn'), ('BB46', bb46, 'Saturn'), ('BB47', bb47, 'Ceres'), ('BB48', bb48, 'Chiron'), ('BB49', bb49, 'Haumea'), ('BB50', bb50, 'Makemake'), ('BB51', bb51, 'Venus'), ('BB52', bb52, 'Uranus'), ('BB53', bb53, 'any'), ('BB54', bb54, 'any'), ('BB55', bb55, 'any'), ('BB56', bb56, 'any'), ('BB57', bb57, 'any'), ('BB58', bb58, 'any'), ('BB59', bb59, 'any'), ('BB60', bb60, 'any'), ('BB61', bb61, 'any'), ('BB62', bb62, 'any'), ('BB63', bb63, 'any'), ('BB64', bb64, 'any'), ('BB65', bb65, 'Sun'), ('BB66', bb66, 'any'), ('BB67', None, 'any'), ('BB68', bb68, 'any')]
+         ('BB40', bb40, 'Sedna'), ('BB41', bb41, 'Sun'), ('BB42', bb42, 'Mercury'), ('BB43', bb43, 'Venus'), ('BB44', bb44, 'Jupiter'), ('BB45', bb45, 'Saturn'), ('BB46', bb46, 'Saturn'), ('BB47', bb47, 'Ceres'), ('BB48', bb48, 'Chiron'), ('BB49', bb49, 'Haumea'), ('BB50', bb50, 'Makemake'), ('BB51', bb51, 'Venus'), ('BB52', bb52, 'Uranus'), ('BB53', bb53, 'any'), ('BB54', bb54, 'any'), ('BB55', bb55, 'any'), ('BB56', bb56, 'any'), ('BB57', bb57, 'any'), ('BB58', bb58, 'any'), ('BB59', bb59, 'any'), ('BB60', bb60, 'any'), ('BB61', bb61, 'any'), ('BB62', bb62, 'any'), ('BB63', bb63, 'any'), ('BB64', bb64, 'any'), ('BB65', bb65, 'Sun'), ('BB66', bb66, 'any'), ('BB67', None, 'any'), ('BB68', bb68, 'any'), ('BB69', bb69, 'any'), ('BB69b', bb69b, 'any')]
 
 
 def decade_pairs(cells):

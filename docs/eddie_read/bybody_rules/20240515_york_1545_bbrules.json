@@ -2561,6 +2561,51 @@
     "additive": [],
     "watch_only": false
    }
+  ],
+  "BB69": [
+   {
+    "runner": "06 Secret Satire",
+    "body": "runner",
+    "cells": [
+     "H Sun – J Sun Dec 0.414204 0.414 silver (98.51)",
+     "S Venus → J Venus RA 122.210672 122.222 ninth (95.27)",
+     "S Pluto → H Pluto RA 6.001601 6 whole (92)",
+     "H Ceres – J Ceres Dec 5.999584 6 whole (97.92)",
+     "S Juno → H Juno Dec 18.891436 18.8889 ninth (93.26)"
+    ],
+    "notes": [
+     "5 strong same-body lines (>= 90, number family): Sun, Venus, Pluto, Ceres, Juno"
+    ],
+    "lights": [
+     "S Moon – S Sun Dec 3.214660 2×φ golden (33.93)",
+     "S Moon → H Sun Dec 8.873957 8.88889 ninth (16.01)",
+     "S Moon → J Sun RA 14.437279 14.4444 ninth (75.2)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB69b": [
+   {
+    "runner": "06 Secret Satire",
+    "body": "Pluto / Ceres",
+    "cells": [
+     "S Pluto → H Pluto RA 6.001601 6 whole (92)",
+     "H Ceres – J Ceres Dec 5.999584 6 whole (97.92)"
+    ],
+    "notes": [
+     "Pluto and Ceres same-body lines on 6 (whole)"
+    ],
+    "lights": [
+     "S Moon – S Sun Dec 3.214660 2×φ golden (33.93)",
+     "S Moon → H Sun Dec 8.873957 8.88889 ninth (16.01)",
+     "S Moon → J Sun RA 14.437279 14.4444 ninth (75.2)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
   ]
  }
 }

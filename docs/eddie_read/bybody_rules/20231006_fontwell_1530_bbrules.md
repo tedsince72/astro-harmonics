@@ -1,4 +1,4 @@
-# 20231006_fontwell_1530 — body-by-body rules BB1-BB68
+# 20231006_fontwell_1530 — body-by-body rules BB1-BB69b
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -74,6 +74,8 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB66 | 1 | 1 | 05 Makanao |  |
 | BB67 | 1 | 1 | 03 Kilcummin |  |
 | BB68 | 0 | 0 | - |  |
+| BB69 | 1 | 1 | 04 Logistical |  |
+| BB69b | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1137,6 +1139,29 @@ Origin: Carlisle 16:30 7 Jul 2022, 6 Whitefeathersfall (holds all three). Eddie,
 Rule: S X -> c X in Dec (c = horse or jockey chart) split by a sky body Y lying between sky X and natal X: d(S Y, S X) + d(S Y, c X) = d(S X, c X) (within 0.0005); both pieces (S Y - S X, S Y -> c X, Dec) in a family (conj / contraparallel never), one >= 90 and the other >= 50. Y a sky body, not X, not the Moon, not a royal star. The same-body line itself, when it scores (a family, or conj / contraparallel >= 80, the mirror), is noted on the case.
 
 Origin: Ripon 15:25 16 Jun 2022, 4 Society Red, H Venus: S Venus -> H Venus Dec 33.0957 = S Sedna - S Venus 8.0905 5xphi (99.11) + S Sedna -> H Venus 25.0052 25 (73.88); the same line is contraparallel 0.0141 (95.31) (V5, held by Society Red only). Shape of Dettori's day (J Sun - J Chiron 28 split by the sky Sun into 21 + 7). Eddie, 16 Nov 2026: 'V3d is good to build'. tools/scans/bb_fieldcheck_split.py over 13 result races: 27 picks, 7 won, 3.7 by chance (Pholas, Secret Satire, Diligent Resdev, Wotever Next, Athmad, Novakai, Society Red); any plane (V3) 46 / 10 / 6.0. In-sample. In Dec any sky body between the two ends splits the line exactly; the rule tests that both pieces land on targets.
+
+No runner holds it.
+
+## BB69 — 5 or more strong same-body lines
+
+Rule: A runner with 5 or more strong same-body lines: S X -> H X, S X -> J X or H X - J X (X any body but the Moon) in a number family (conj / contraparallel / opposition never) scoring >= 90. Rahu and Ketu one body. Runner-level.
+
+Origin: Nottingham 15:30 1 Jun 2022 Dynamic Force (won 18/1): 6 lines (S Uranus -> H Uranus Dec 3xphi 99.77, S Ceres -> J Ceres Dec 15xphi 98.36, H Makemake - J Makemake RA 15xphi 98.13, H Juno - J Juno RA 43xphi 92.18, H Eris - J Eris Dec 4xphi 91.07, S Makemake -> H Makemake Dec sqrt2 90.74); field 0-3. Eddie, 16 Nov 2026: 'build BB69 and BB69b like that'. tools/scans/bb_fieldcheck_sbcount.py (N5) over 17 result races: 5 picks, 3 won (Dynamic Force, Secret Satire, On Time), 0.8 by chance; losers Never In Paris (6), Logistical (5). A count, threshold set in-sample.
+
+### 04 Logistical — runner (only)
+- S Venus → J Venus RA 58.001260 58 whole (93.7)
+- S Jupiter → H Jupiter Dec 37.000701 37 whole (96.5)
+- S Jupiter → J Jupiter Dec 32.362074 20×φ golden (95.7)
+- H Juno – J Juno RA 55.016379 34×φ golden (90.05)
+- S Makemake → J Makemake RA 22.653179 14×φ golden (97.83)
+- 5 strong same-body lines (>= 90, number family): Venus, Jupiter, Juno, Makemake
+- lights on runner: S Moon → H Sun RA 137.004606 137 whole (76.97)
+
+## BB69b — Two bodies' strong same-body lines on one target
+
+Rule: Two different bodies whose strong same-body lines (as BB69: S X -> H X, S X -> J X or H X - J X, number family, >= 90; Rahu / Ketu one body) are on the same family and target. Runner-level, one case per target.
+
+Origin: Dynamic Force (S Ceres -> J Ceres Dec 24.2710 15xphi 98.36; H Makemake - J Makemake RA 24.2711 15xphi 98.13) and York 15:45 15 May 2024 Secret Satire (S Pluto -> H Pluto RA 6.0016 6 (92); H Ceres - J Ceres Dec 5.9996 6 (97.92)). Eddie, 16 Nov 2026. 17 result races: 2 picks, 2 won, 0.3 by chance, in-sample; looser (notes): both >= 80 4 / 2 / 0.7 (+ Vale Dolobo Dancer, Bollin Joan), >= 70 12 / 3 / 1.7 (+ Diligent Resdev).
 
 No runner holds it.
 
