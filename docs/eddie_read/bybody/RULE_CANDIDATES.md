@@ -1340,3 +1340,10 @@ G2 11 / 2 / 1.9; BB12 42 / 10 / 6.1 -> G4 16 / 4 / 2.2; BB53 26 / 3 / 3.9 -> G4 
 or drops). Strongest as built: the combination BB3 + BB63 (2.7x chance; after BB63 was built, 8 later races: 9 picks 4 won, 1.8 by chance -
 On Time, Whitefeathersfall, Sullivan Bay, Little Girl Blue; lost Passing Storm, Bollin Joan, Gidwa, Foinix, Between The Sheets). Already a
 watched combination and one of BB67's three.
+
+## Little Girl Blue Uranus: royal line on a whole-number cut of the same-body line (16 Nov 2026, Eddie: "something in this")
+S Uranus → H Uranus Dec 4.2369 φ³ (87.0); H Fomalhaut – H Uranus RA 46.6345 (no family) / that Dec line = crossed ratio 11.00675 on 11 '1/11 cut'
+(87.73); S Uranus → J Uranus RA 135.9089 84×φ (81.5). Scan tools/scans/bb_fieldcheck_cut.py (16 result races): U0 a royal line with a cut 10-20
+>= 80 105 / 16 / 15.0; U1 + the base same-body line in a number family 36 / 4 / 5.0; U2 + the same body in the other chart >= 80 1 / 1 / 0.2
+(Little Girl Blue only); U3 = U2 with the royal line in no family, same 1 / 1; U10 (on 10, royal line no family) 25 / 3 / 3.2. Other-chart
+threshold: any score 9 / 2 / 1.4 (Secret Satire, Little Girl Blue), >= 50 6 / 1 / 1.0, >= 70 3 / 1 / 0.6. One winner; noted, not built.
