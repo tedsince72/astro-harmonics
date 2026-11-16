@@ -1359,3 +1359,12 @@ Built 16 Nov 2026 (Eddie: 'build BB69 and BB69b like that'): BB69 = N5; BB69b = 
 >= 90 (Dynamic Force Ceres / Makemake 15×φ, Secret Satire Pluto / Ceres 6; 2 picks 2 won, 0.3 by chance). Notes, not built: both >= 80
 4 / 2 / 0.7 (+ Vale Dolobo Dancer Mars / Jupiter 3×φ, Bollin Joan Mars / Haumea 5×φ); both >= 70 12 / 3 / 1.7 (+ Diligent Resdev Uranus /
 Quaoar 5, and Indie Angel, Mews House, Over Spiced, Storm Call, Crackovia, Passing Storm, Foinix). Tests 605/605; independent checker 0 mismatches.
+
+## Dynamic Force Jupiter: the same royal star on both natal Jupiters (16 Nov 2026)
+Eddie's lines: H Antares – H Jupiter RA 16.1680 10×φ (61.8), carried by S Aldebaran – S Jupiter Dec 16.1801 (99.3), same-body ratio
+100.175487 / 16.167965 = 6.1959 ('6.18 is close'; 10×φ × 10/φ = 100, so with the same-body line near 100 the ratio is near 10/φ by
+arithmetic); J Antares – J Jupiter RA 58.0434 (no family), ratio 174.387093 / 58.043406 = 3.004426 on 3 (77.9). Scan
+tools/scans/bb_fieldcheck_royal_both.py, 17 result races (picks, won, by chance): A0 (same royal star on natal X both charts, same plane,
+one same-body ratio >= 50) 115 / 17 / 16.9; A1 (+ the other chart's royal line in a family carried by a sky pair >= 90) 12 / 1 / 1.9;
+A2 (+ the carrying pair names sky X) 1 / 1 / 0.2 (Dynamic Force only); Jupiter only A0j 81 / 12 / 12.1, A1j 3 / 1 / 0.5 (+ Lucia Joy
+Regulus, Good Time Ahead Aldebaran), A2j 1 / 1 / 0.2. One winner; not built.
