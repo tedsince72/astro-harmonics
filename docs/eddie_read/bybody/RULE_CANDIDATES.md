@@ -1232,3 +1232,9 @@ True Promise, On Time); C A in Dec 12 / 1 / 1.4; D A + a sky body conj sky Jupit
 Jupiters in Dec); F A + a sky line on the same target 7 / 0 / 0.8.
 WATCH (Eddie, 16 Nov 2026): B - H Jupiter – J Jupiter scoring >= 90 in a family. Run the scan on every new race; build when a second
 winner holds it.
+On Time Jupiter split (Eddie, 16 Nov 2026: 'valid when they all score'), tools/scans/bb_fieldcheck_jupiter_split.py, 9 result races:
+E S Jupiter -> H Jupiter, S Jupiter -> J Jupiter and H Jupiter – J Jupiter all scoring in one plane 1 / 1 / 0.2 (On Time only; Es with sky
+Jupiter between and Ef same family the same); M1 sky Jupiter the midpoint of a natal Jupiter and a sky body on one target 2 / 1 / 0.3 (On Time
+Sedna, York 16:15 Elmonjed Neptune RA 55.5556); M2 M1 + a sky pair on that target with an end on that natal Jupiter 1 / 1 / 0.2 (On Time Ketu –
+Orcus); M3 E + each leg carried by a sky pair 1 / 1 / 0.2. Over every _active file on disk (40 races, 262 runners, results not opened): E 3
+(Newbury 13:50 26 Nov 2021 Solo, Aintree 15:00 6 Nov 2026 JPR One, On Time), M2 2 (Nottingham 15:30 1 Jun 2022 Princess Shabnam, On Time).
