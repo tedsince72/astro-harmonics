@@ -55,3 +55,12 @@ S Neptune → H Transpluto Dec 13.9985 14 (92.48)) and on P1-P3 (Mars, Pluto loo
   none with a sky body >= 90 on that natal body, so only Aswan Transpluto holds BB66.
 - P3 Aswan Mars is listed twice on the same pair S Sun – S Pluto RA 166.6461: once on the 103×φ 'also' score (64.89), once on the ninth
   (93.84). Display only.
+
+## Result (from Eddie, 16 Nov 2026; after the blind read, commit before this one)
+1 Whitefeathersfall 10/1 (Franny Norton), 2 Persist 7/4, 3 Million Thanks 13/8F, 4 Aswan 10/1, 5 Noble Mark, 6 Lucia Joy 28/1. 6 ran.
+- Blind read: lead Aswan (4th); Whitefeathersfall named second (the only holder of BB3 + BB63, BB3 + BB54, BB59) - won.
+- Whitefeathersfall: 10 rules (T2 9), alone on BB9, BB29, BB33, BB54, BB59; depth 3 (Uranus, Makemake).
+- Watched combos over the 12 result races (in-sample races included): BB3 + BB63 21 picks 8 won (2.6 by chance); BB3 + BB54 18 / 7 (1.9);
+  BB59 8 / 5 (1.0). Races after each rule was built: BB59 (after Catterick) 2 picks 2 won (Kilcummin, Whitefeathersfall); BB3 + BB63
+  (after Newcastle) 3 / 2 (On Time, Whitefeathersfall; Passing Storm lost); BB3 + BB54 (after York 16:15) 3 / 3 (Athmad, On Time,
+  Whitefeathersfall).
