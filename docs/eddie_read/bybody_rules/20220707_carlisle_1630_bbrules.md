@@ -1,4 +1,4 @@
-# 20220707_carlisle_1630 — body-by-body rules BB1-BB66
+# 20220707_carlisle_1630 — body-by-body rules BB1-BB67
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -71,6 +71,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB64 | 2 | 2 | 06 Whitefeathersfall, 07 Noble Mark |  |
 | BB65 | 0 | 0 | - |  |
 | BB66 | 1 | 1 | 01 Aswan |  |
+| BB67 | 1 | 1 | 06 Whitefeathersfall |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -977,4 +978,34 @@ Origin: Doncaster 18:45 16 Jul 2022, 5 Novakai, Eris (H Eris – J Eris Dec 10.0
 - S Neptune → H Transpluto Dec 13.998495 14 whole (92.48)
 - H Transpluto – J Transpluto Dec 4.2366 φ³ phi power (91.47); S Neptune → H Transpluto Dec 13.9985 14 whole (92.48)
 - lights on Transpluto: S Sun → H Transpluto RA 46.962065 φ⁸ phi power (76.37)
+
+## BB67 — Two of the three combinations BB3 + BB63, BB3 + BB54, BB59
+
+Rule: A runner holds at least 2 of the three combinations BB3 + BB63, BB3 + BB54, BB59 (each rule as built; watch-only cases not counted). Runner-level.
+
+Origin: Carlisle 16:30 7 Jul 2022, 6 Whitefeathersfall (holds all three). Eddie, 16 Nov 2026: 'build N3'. tools/scans/bb_fieldcheck_whitefeathersfall.py over 12 result races: 13 picks, 8 won, 1.7 by chance (Pholas, Secret Satire, Wotever Next, Kilcummin, Athmad, On Time, Whitefeathersfall, Diligent Resdev; lost Birkenhead, Blue Prince, True Promise, Ziggy's Condor, Misemerald). Mostly in-sample - the component rules come from these winners; after BB63 was built (Newton Abbot, Doncaster, Bath, Carlisle) 2 picks 2 won. A count across rules; N2 (BB29 with its sky body conj / cp natal X >= 90) and N4 (all three) kept as watch items.
+
+### 06 Whitefeathersfall — runner (only)
+- H Antares – H Saturn RA 44.483544 44.4444 ninth (56.01)
+- S Venus – S Pluto Dec 44.468426 44.4444 ninth (73.02)
+- S Venus → H Saturn RA 144.321655 144.444 ninth (57.5)
+- H Regulus – H Rahu Dec 9.982978 10 ninth (14.89)
+- S Juno – S Regulus Dec 9.999414 10 whole (97.07)
+- S Juno → H Rahu Dec 19.980337 20 whole (1.68)
+- H Fomalhaut – H Juno RA 111.190806 111.111 ninth (64.14)
+- S Eris – S Quaoar RA 110.960599 111.111 ninth (32.27)
+- S Eris → H Juno Dec 15.585814 15.5556 ninth (2.74)
+- J Antares – J Mercury RA 98.674556 61×φ golden (21.24)
+- S Mercury → J Mercury Dec 9.821922 (no family)
+- H Regulus – H Rahu RA 40.472918 25×φ golden (31.89)
+- S Rahu → H Rahu Dec 4.043693 (no family)
+- H Fomalhaut – H Saturn Dec 8.097430 5×φ golden (77.59)
+- S Saturn – S Pluto Dec 8.122312 5×φ golden (0.8)
+- S Pluto → H Saturn RA 8.007318 8 whole (63.41)
+- S Fomalhaut – S Saturn Dec 14.980490 15 whole (2.45)
+- combinations held: BB3 + BB63, BB3 + BB54, BB59 (3 of 3)
+- BB3: Saturn, Rahu, Juno
+- BB54: Mercury, Rahu
+- BB59: Saturn
+- BB63: Saturn
 

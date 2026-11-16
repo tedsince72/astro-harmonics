@@ -1,4 +1,4 @@
-# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB66
+# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB67
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -71,6 +71,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB64 | 0 | 0 | - |  |
 | BB65 | 0 | 0 | - |  |
 | BB66 | 0 | 0 | - |  |
+| BB67 | 1 | 1 | 05 Pholas |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1054,4 +1055,31 @@ Rule: H X – J X (the same body, horse natal to jockey natal) in Dec scores >= 
 Origin: Doncaster 18:45 16 Jul 2022, 5 Novakai, Eris (H Eris – J Eris Dec 10.0012 whole 10 (94.2); S Pluto → H Eris Dec 21.0336 13×φ (97.5)); also Newton Abbot 15:25 17 Jul 2022 On Time Jupiter (H Jupiter – J Jupiter Dec 11.3265 7×φ (99.2); S Vesta → H Jupiter Dec 22.2241 ninth (95.7)), Catterick 14:40 6 Apr 2022 Wotever Next Ceres (H Ceres – J Ceres Dec 44.4366 ninth (91.2); S Saturn → H Ceres Dec 1.6190 φ (97.0)), York 15:45 15 May 2024 Secret Satire Ceres (H Ceres – J Ceres Dec 5.9996 whole 6 (97.9); S Mercury → H Ceres Dec 7.9989 whole 8 (94.5)). Eddie, 16 Nov 2026: 'build as BB66'. Over the 10 result races (tools/scans/bb_fieldcheck_novakai_others.py, E2 Dec): 10 picks, 4 won, 1.5 by chance (RA version 8 / 1 / 1.1). Partly in-sample: Secret Satire, Wotever Next and On Time were read before.
 
 No runner holds it.
+
+## BB67 — Two of the three combinations BB3 + BB63, BB3 + BB54, BB59
+
+Rule: A runner holds at least 2 of the three combinations BB3 + BB63, BB3 + BB54, BB59 (each rule as built; watch-only cases not counted). Runner-level.
+
+Origin: Carlisle 16:30 7 Jul 2022, 6 Whitefeathersfall (holds all three). Eddie, 16 Nov 2026: 'build N3'. tools/scans/bb_fieldcheck_whitefeathersfall.py over 12 result races: 13 picks, 8 won, 1.7 by chance (Pholas, Secret Satire, Wotever Next, Kilcummin, Athmad, On Time, Whitefeathersfall, Diligent Resdev; lost Birkenhead, Blue Prince, True Promise, Ziggy's Condor, Misemerald). Mostly in-sample - the component rules come from these winners; after BB63 was built (Newton Abbot, Doncaster, Bath, Carlisle) 2 picks 2 won. A count across rules; N2 (BB29 with its sky body conj / cp natal X >= 90) and N4 (all three) kept as watch items.
+
+### 05 Pholas — runner (only)
+- J Aldebaran – J Mercury Dec 16.193302 10×φ golden (59.99)
+- S Mars – S Sedna Dec 16.192613 10×φ golden (62.12)
+- S Mars → J Mercury RA 108.397711 67×φ golden (67.39)
+- H Fomalhaut – H Jupiter RA 144.366657 144.444 ninth (73.07)
+- S Pluto – S Transpluto RA 144.559513 144.444 ninth (60.17)
+- S Transpluto → H Jupiter Dec 17.784914 17.7778 ninth (79.93)
+- H Regulus – H Chiron RA 161.979771 100φ phi power (27.33)
+- S Saturn – S Regulus RA 161.711962 100φ phi power (62.33)
+- S Saturn → H Chiron Dec 17.969180 φ⁶ phi power (7.46)
+- H Regulus – H Pallas RA 179.763890 180 opposition (68.52)
+- S Pallas – S Transpluto RA 179.560795 180 opposition (41.44)
+- S Transpluto → H Pallas RA 177.767175 177.778 ninth (97.02)
+- S Regulus – S Pallas RA 177.564057 177.778 ninth (39.89)
+- S Pallas – S Orcus RA 179.398319 180 opposition (19.78)
+- S Orcus → H Pallas Dec 4.865518 3×φ golden (64.77)
+- combinations held: BB3 + BB63, BB59 (2 of 3)
+- BB3: Mercury, Jupiter, Chiron
+- BB59: Pallas
+- BB63: Pallas
 

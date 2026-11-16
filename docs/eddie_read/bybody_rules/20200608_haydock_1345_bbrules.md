@@ -1,4 +1,4 @@
-# 20200608_haydock_1345 — body-by-body rules BB1-BB66
+# 20200608_haydock_1345 — body-by-body rules BB1-BB67
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -71,6 +71,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB64 | 3 | 3 | 06 Birkenhead, 07 Ishvara, 08 Dancin Inthestreet |  |
 | BB65 | 0 | 0 | - |  |
 | BB66 | 1 | 1 | 02 Ventura Flame |  |
+| BB67 | 1 | 1 | 06 Birkenhead |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1563,4 +1564,28 @@ Origin: Doncaster 18:45 16 Jul 2022, 5 Novakai, Eris (H Eris – J Eris Dec 10.0
 - H Haumea – J Haumea Dec 4.853636 3×φ golden (98.56)
 - S Pluto → J Haumea Dec 44.438741 44.4444 ninth (93.58)
 - H Haumea – J Haumea Dec 4.8536 3×φ golden (98.56); S Pluto → J Haumea Dec 44.4387 44.4444 ninth (93.58)
+
+## BB67 — Two of the three combinations BB3 + BB63, BB3 + BB54, BB59
+
+Rule: A runner holds at least 2 of the three combinations BB3 + BB63, BB3 + BB54, BB59 (each rule as built; watch-only cases not counted). Runner-level.
+
+Origin: Carlisle 16:30 7 Jul 2022, 6 Whitefeathersfall (holds all three). Eddie, 16 Nov 2026: 'build N3'. tools/scans/bb_fieldcheck_whitefeathersfall.py over 12 result races: 13 picks, 8 won, 1.7 by chance (Pholas, Secret Satire, Wotever Next, Kilcummin, Athmad, On Time, Whitefeathersfall, Diligent Resdev; lost Birkenhead, Blue Prince, True Promise, Ziggy's Condor, Misemerald). Mostly in-sample - the component rules come from these winners; after BB63 was built (Newton Abbot, Doncaster, Bath, Carlisle) 2 picks 2 won. A count across rules; N2 (BB29 with its sky body conj / cp natal X >= 90) and N4 (all three) kept as watch items.
+
+### 06 Birkenhead — runner (only)
+- J Fomalhaut – J Mars RA 177.953084 177.778 ninth (50.7)
+- S Juno – S Chiron RA 178.036848 177.778 ninth (27.14)
+- S Chiron → J Mars RA 155.470620 155.556 ninth (72.7)
+- J Fomalhaut – J Quaoar RA 100.195533 100 ninth (2.23)
+- S Rahu – S Juno RA 100.150261 100 ninth (24.87)
+- S Rahu → J Quaoar RA 155.509111 155.556 ninth (85.07)
+- H Fomalhaut – H Jupiter RA 144.579041 144.444 ninth (53.41)
+- S Jupiter → H Jupiter Dec 14.488012 (no family)
+- H Fomalhaut – H Mars RA 46.990330 φ⁸ phi power (83.52)
+- S Mars – S Uranus RA 47.022203 φ⁸ phi power (38.29)
+- S Uranus → H Mars RA 5.016787 5 whole (16.07)
+- S Uranus → H Mars Dec 1.017714 1 whole (11.43)
+- combinations held: BB3 + BB63, BB3 + BB54 (2 of 3)
+- BB3: Mars, Quaoar
+- BB54: Jupiter
+- BB63: Mars
 

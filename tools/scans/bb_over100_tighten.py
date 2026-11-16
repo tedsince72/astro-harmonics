@@ -49,6 +49,8 @@ def _strip(data, mode):
 def holders(data):
     res = {rid: {} for rid, _, _ in E.RULES}
     for rid, fn, _ in E.RULES:
+        if fn is None:  # BB67 is built from the other rules' holders (below)
+            continue
         for run, D in data.items():
             for X, d in D.items():
                 b = E.Body(X, d); b.all = D
@@ -61,6 +63,11 @@ def holders(data):
                     for c in case['cells']:
                         if (c['line'], c['plane'], c['tgt']) not in {(x['line'], x['plane'], x['tgt']) for x in cl}:
                             cl.append(c)
+    if 'BB67' in res:  # runner-level: at least 2 of BB3 + BB63, BB3 + BB54, BB59
+        for run in data:
+            h = {rid for rid, rr in res.items() if run in rr}
+            if sum(set(cb) <= h for cb in E.BB67_COMBOS) >= 2:
+                res['BB67'][run] = []
     return res
 
 

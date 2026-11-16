@@ -6,7 +6,9 @@
 - P4 (Athmad Pluto loop; tools/scans/bb_fieldcheck_same_body_loop_closed.py) and its looser P1-P3
 - S Pluto -> H Pluto / J Pluto scoring (any family, conj / cp not counted).
 - Jupiter loop C (Eddie, 16 Nov 2026, from Cafe Sydney; tools/scans/bb_fieldcheck_jupiter_loop.py): S Jupiter -> c Jupiter, a sky
-  pair on its target, both ends on the same natal Jupiter, line and pair >= 50; versions A, B, D listed too."""
+  pair on its target, both ends on the same natal Jupiter, line and pair >= 50; versions A, B, D listed too.
+- N2 / N4 (Eddie, 16 Nov 2026, from Whitefeathersfall; tools/scans/bb_fieldcheck_whitefeathersfall.py): N2 BB29 held and its sky body
+  conjunct / contraparallel natal X >= 90; N4 all three of BB3 + BB63, BB3 + BB54, BB59."""
 import json, sys
 sys.path.insert(0, 'tools'); sys.path.insert(0, 'tools/scans')
 import eddie_bybody_rules as E
@@ -79,5 +81,18 @@ for run, bodies in data.items():
     if 'Jupiter' in bodies:
         jl += [f"- {run} [{''.join(sorted(t))}]: {txt}" for t, txt in JL.loops('Jupiter', bodies['Jupiter'])]
 out += jl or ['- none']
+out += ['', '## N2 / N4 watch (Whitefeathersfall)']
+n2, n4 = [], []
+for rid_cases in [J['rules'].get('BB29', [])]:
+    for c in rid_cases:
+        if c.get('watch_only'): continue
+        for x in c['cells']:
+            if ('conj' in x or 'contraparallel' in x) and ' → ' in x and x.split(' → ')[1].split(' ')[1] == c['body'] \
+               and float(x.rsplit('(', 1)[1].rstrip(')')) >= 90:
+                n2.append(f"- N2 {c['runner']} {c['body']}: {x}")
+for x in runners:
+    if all(set(cb) <= hold[x] for cb in (('BB3', 'BB63'), ('BB3', 'BB54'), ('BB59',))):
+        n4.append(f"- N4 {x}: BB3 + BB63, BB3 + BB54, BB59")
+out += (sorted(set(n2)) + n4) or ['- none']
 txt = '\n'.join(out) + '\n'
 open(f'docs/eddie_read/bybody_rules/{race}_watch.md', 'w').write(txt); print(txt)

@@ -1,4 +1,4 @@
-# 20220717_newton_abbot_1525 — body-by-body rules BB1-BB66
+# 20220717_newton_abbot_1525 — body-by-body rules BB1-BB67
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -71,6 +71,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB64 | 0 | 0 | - |  |
 | BB65 | 0 | 0 | - |  |
 | BB66 | 1 | 1 | 04 On Time |  |
+| BB67 | 1 | 1 | 04 On Time |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -936,4 +937,30 @@ Origin: Doncaster 18:45 16 Jul 2022, 5 Novakai, Eris (H Eris – J Eris Dec 10.0
 - S Vesta → H Jupiter Dec 22.224134 22.2222 ninth (95.7)
 - H Jupiter – J Jupiter Dec 11.3265 7×φ golden (99.2); S Vesta → H Jupiter Dec 22.2241 22.2222 ninth (95.7)
 - lights on Jupiter: S Moon → H Jupiter RA 177.655066 177.778 ninth (65.49)
+
+## BB67 — Two of the three combinations BB3 + BB63, BB3 + BB54, BB59
+
+Rule: A runner holds at least 2 of the three combinations BB3 + BB63, BB3 + BB54, BB59 (each rule as built; watch-only cases not counted). Runner-level.
+
+Origin: Carlisle 16:30 7 Jul 2022, 6 Whitefeathersfall (holds all three). Eddie, 16 Nov 2026: 'build N3'. tools/scans/bb_fieldcheck_whitefeathersfall.py over 12 result races: 13 picks, 8 won, 1.7 by chance (Pholas, Secret Satire, Wotever Next, Kilcummin, Athmad, On Time, Whitefeathersfall, Diligent Resdev; lost Birkenhead, Blue Prince, True Promise, Ziggy's Condor, Misemerald). Mostly in-sample - the component rules come from these winners; after BB63 was built (Newton Abbot, Doncaster, Bath, Carlisle) 2 picks 2 won. A count across rules; N2 (BB29 with its sky body conj / cp natal X >= 90) and N4 (all three) kept as watch items.
+
+### 04 On Time — runner (only)
+- J Regulus – J Neptune Dec 33.364552 33.3333 ninth (53.17)
+- S Pluto – S Transpluto Dec 33.391914 33.3333 ninth (12.13)
+- S Pluto → J Neptune RA 8.894738 8.88889 ninth (67.1)
+- J Fomalhaut – J Ceres Dec 9.998482 10 ninth (92.41)
+- S Mercury – S Mars Dec 10.009674 10 ninth (51.62)
+- S Mercury → J Ceres RA 144.645016 144.444 ninth (30.57)
+- J Fomalhaut – J Gonggong RA 14.539121 9×φ golden (28.44)
+- S Venus – S Chiron Dec 14.589643 9×φ golden (15.63)
+- S Venus → J Gonggong Dec 42.036949 26×φ golden (1.44)
+- J Antares – J Gonggong RA 82.520212 51×φ golden (98.52)
+- S Gonggong → J Gonggong Dec 8.258925 (no family)
+- H Fomalhaut – H Orcus RA 166.553118 166.667 ninth (65.94)
+- S Juno – S Orcus RA 166.842142 166.667 ninth (47.36)
+- S Juno → H Orcus RA 161.594548 100φ phi power (13.95)
+- combinations held: BB3 + BB63, BB3 + BB54 (2 of 3)
+- BB3: Neptune, Ceres, Gonggong
+- BB54: Gonggong
+- BB63: Orcus
 

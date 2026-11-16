@@ -1,4 +1,4 @@
-# 20240608_beverley_1405 — body-by-body rules BB1-BB66
+# 20240608_beverley_1405 — body-by-body rules BB1-BB67
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -71,6 +71,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB64 | 1 | 1 | 03 Call Me Harswell |  |
 | BB65 | 1 | 1 | 09 Nad Alshiba Snow |  |
 | BB66 | 1 | 1 | 07 Mademoiselle |  |
+| BB67 | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1999,4 +2000,12 @@ Origin: Doncaster 18:45 16 Jul 2022, 5 Novakai, Eris (H Eris – J Eris Dec 10.0
 - H Venus – J Venus Dec 35.5976 22×φ golden (97.39); S Gonggong → J Venus Dec 29.1228 18×φ golden (94.41)
 - WATCH additive step (Dec): 22×φ = 4×φ + 18×φ (H Venus – J Venus; S Gonggong → H Venus; S Gonggong → J Venus) (may be geometry: three distances between the same three points)
 - lights on Venus: S Sun – S Venus Dec 0.187596 conj conj (37.47); S Sun – S Venus RA 1.137027 conj conj (24.2)
+
+## BB67 — Two of the three combinations BB3 + BB63, BB3 + BB54, BB59
+
+Rule: A runner holds at least 2 of the three combinations BB3 + BB63, BB3 + BB54, BB59 (each rule as built; watch-only cases not counted). Runner-level.
+
+Origin: Carlisle 16:30 7 Jul 2022, 6 Whitefeathersfall (holds all three). Eddie, 16 Nov 2026: 'build N3'. tools/scans/bb_fieldcheck_whitefeathersfall.py over 12 result races: 13 picks, 8 won, 1.7 by chance (Pholas, Secret Satire, Wotever Next, Kilcummin, Athmad, On Time, Whitefeathersfall, Diligent Resdev; lost Birkenhead, Blue Prince, True Promise, Ziggy's Condor, Misemerald). Mostly in-sample - the component rules come from these winners; after BB63 was built (Newton Abbot, Doncaster, Bath, Carlisle) 2 picks 2 won. A count across rules; N2 (BB29 with its sky body conj / cp natal X >= 90) and N4 (all three) kept as watch items.
+
+No runner holds it.
 

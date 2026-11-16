@@ -82,6 +82,7 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB64': set(),
     'BB65': set(),
     'BB66': set(),
+    'BB67': {('05 Pholas', 'runner')},
     'BB55': {('01 Arafi', 'Gonggong'), ('01 Arafi', 'Venus'), ('04 Nirodha', 'Saturn'), ('05 Pholas', 'Pallas')},
     'BB53': {('06 Shimmering Dawn', 'Sun'), ('06 Shimmering Dawn', 'Jupiter'), ('06 Shimmering Dawn', 'Pallas')},
 }
@@ -627,5 +628,24 @@ if os.path.exists(DON):
     check(h66(dn) == {('04 Mother India', 'Sun'), ('05 Novakai', 'Eris')}, 'BB66 Doncaster')
     k = [x for c in dn['BB66'] if c['runner'] == '05 Novakai' for x in c['cells']]
     check('H Eris – J Eris Dec 10.001156 10 whole (94.22)' in k and 'S Pluto → H Eris Dec 21.033633 13×φ golden (97.5)' in k, 'BB66 Novakai cells')
+# BB67 (Eddie, 16 Nov 2026): at least 2 of BB3 + BB63, BB3 + BB54, BB59
+h67 = lambda rr: {c['runner'] for c in rr['BB67']}
+check(h67(yres) == {'06 Secret Satire'} and h67(hres) == {'06 Birkenhead'} and h67(bres) == set(), 'BB67 York 15:45, Haydock, Beverley')
+if os.path.exists(CAT):
+    check(h67(cres) == {'05 Wotever Next'}, 'BB67 Catterick')
+if os.path.exists(FW):
+    check(h67(fw) == {'03 Kilcummin'}, 'BB67 Fontwell')
+if os.path.exists(DON):
+    check(h67(dn) == set(), 'BB67 Doncaster: no holder')
+CAR = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', '20220707_carlisle_1630', '20220707_carlisle_1630_bybody.xlsx')
+if os.path.exists(CAR):
+    cr = R.run(CAR)[2]
+    check(h67(cr) == {'06 Whitefeathersfall'} and any('3 of 3' in n for c in cr['BB67'] for n in c['notes']), 'BB67 Carlisle Whitefeathersfall 3 of 3')
+    hold_all = {}
+    for rid, cs in cr.items():
+        for c in cs:
+            if not c['watch_only']: hold_all.setdefault(c['runner'], set()).add(rid)
+    check(all((sum(set(cb) <= hold_all.get(x, set()) for cb in (('BB3', 'BB63'), ('BB3', 'BB54'), ('BB59',))) >= 2) == (x in h67(cr))
+              for x in hold_all), 'BB67 Carlisle = the combo count for every runner')
 print(f'{ok}/{ok + bad} checks passed')
 sys.exit(1 if bad else 0)

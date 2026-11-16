@@ -49,7 +49,7 @@ T = {m: defaultdict(lambda: [0, 0, 0.0, 0, 0, 0.0]) for m in ('0', 'Dec', 'RA')}
 for i, (n, r, w) in enumerate(RACES):
     data = E.load(f'docs/eddie_read/bybody/{r}/{r}_bybody.xlsx'); N = len(data)
     # per-body cases for 2 and 3
-    fns = {rid: fn for rid, fn, _ in E.RULES}
+    fns = {rid: fn for rid, fn, _ in E.RULES if fn is not None}
     bh = defaultdict(set)
     for rid, fn in fns.items():
         for run, D in data.items():

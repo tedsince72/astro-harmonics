@@ -1,4 +1,4 @@
-# 20240118_chelmsford_aw_1320 — body-by-body rules BB1-BB66
+# 20240118_chelmsford_aw_1320 — body-by-body rules BB1-BB67
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -71,6 +71,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB64 | 1 | 1 | 03 Good Time Ahead |  |
 | BB65 | 0 | 0 | - |  |
 | BB66 | 1 | 1 | 03 Good Time Ahead |  |
+| BB67 | 1 | 1 | 02 Sullivan Bay |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1029,4 +1030,33 @@ Origin: Doncaster 18:45 16 Jul 2022, 5 Novakai, Eris (H Eris – J Eris Dec 10.0
 - S Jupiter → H Juno Dec 6.469042 4×φ golden (90.45)
 - H Juno – J Juno Dec 17.9430 φ⁶ phi power (95.44); S Jupiter → H Juno Dec 6.4690 4×φ golden (90.45)
 - lights on Juno: S Moon – S Juno Dec 14.149573 14.14 sqrt2 (64.94)
+
+## BB67 — Two of the three combinations BB3 + BB63, BB3 + BB54, BB59
+
+Rule: A runner holds at least 2 of the three combinations BB3 + BB63, BB3 + BB54, BB59 (each rule as built; watch-only cases not counted). Runner-level.
+
+Origin: Carlisle 16:30 7 Jul 2022, 6 Whitefeathersfall (holds all three). Eddie, 16 Nov 2026: 'build N3'. tools/scans/bb_fieldcheck_whitefeathersfall.py over 12 result races: 13 picks, 8 won, 1.7 by chance (Pholas, Secret Satire, Wotever Next, Kilcummin, Athmad, On Time, Whitefeathersfall, Diligent Resdev; lost Birkenhead, Blue Prince, True Promise, Ziggy's Condor, Misemerald). Mostly in-sample - the component rules come from these winners; after BB63 was built (Newton Abbot, Doncaster, Bath, Carlisle) 2 picks 2 won. A count across rules; N2 (BB29 with its sky body conj / cp natal X >= 90) and N4 (all three) kept as watch items.
+
+### 02 Sullivan Bay — runner (only)
+- J Antares – J Sun RA 42.052092 26×φ golden (48.17)
+- S Ketu – S Transpluto RA 42.096722 26×φ golden (14.08)
+- S Transpluto → J Sun Dec 32.377477 20×φ golden (48.16)
+- H Antares – H Uranus Dec 38.850870 24×φ golden (44.28)
+- S Ketu – S Pallas RA 38.830841 24×φ golden (93.91)
+- S Pallas → H Uranus RA 155.326493 96×φ golden (85.28)
+- J Fomalhaut – J Haumea RA 166.554330 166.667 ninth (66.3)
+- S Juno – S Gonggong RA 166.724983 166.667 ninth (82.51)
+- S Juno → J Haumea RA 7.776073 7.77778 ninth (89.04)
+- J Aldebaran – J Sedna Dec 14.003247 14 whole (83.77)
+- S Pallas – S Aldebaran Dec 14.011754 14 whole (41.23)
+- S Pallas → J Sedna RA 160.010609 160 whole (46.96)
+- H Antares – H Uranus RA 144.555544 144.444 ninth (61.54)
+- S Uranus → H Uranus RA 14.508467 (no family)
+- H Aldebaran – H Orcus Dec 27.534222 17×φ golden (14.68)
+- S Haumea – S Orcus Dec 27.486646 17×φ golden (38.48)
+- S Haumea → H Orcus RA 64.733733 40×φ golden (61.81)
+- combinations held: BB3 + BB63, BB3 + BB54 (2 of 3)
+- BB3: Sun, Uranus, Haumea, Sedna
+- BB54: Uranus
+- BB63: Orcus
 

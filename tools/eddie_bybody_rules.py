@@ -1816,7 +1816,7 @@ RULES = [('BB1', bb1, 'Mercury'), ('BB2', bb2, 'Mars'), ('BB3', bb3, 'Jupiter'),
          ('BB21', bb21, 'Saturn'), ('BB22', bb22, 'Saturn'), ('BB23', bb23, 'Neptune'), ('BB24', bb24, 'Rahu'), ('BB25', bb25, 'Ketu'), ('BB26', bb26, 'Ceres'), ('BB27', bb27, 'Pallas'), ('BB28', bb28, 'Juno'), ('BB29', bb29, 'Vesta'), ('BB30', bb30, 'Eris'), ('BB31', bb31, 'Gonggong'),
          ('BB32', bb32, 'Sun'), ('BB32b', bb32b, 'Sun'), ('BB33', bb33, 'Mercury'), ('BB34', bb34, 'Mars'), ('BB35', bb35, 'Saturn'),
          ('BB36', bb36, 'Uranus'), ('BB37', bb37, 'Pluto'), ('BB38', bb38, 'Juno'), ('BB39', bb39, 'Makemake'),
-         ('BB40', bb40, 'Sedna'), ('BB41', bb41, 'Sun'), ('BB42', bb42, 'Mercury'), ('BB43', bb43, 'Venus'), ('BB44', bb44, 'Jupiter'), ('BB45', bb45, 'Saturn'), ('BB46', bb46, 'Saturn'), ('BB47', bb47, 'Ceres'), ('BB48', bb48, 'Chiron'), ('BB49', bb49, 'Haumea'), ('BB50', bb50, 'Makemake'), ('BB51', bb51, 'Venus'), ('BB52', bb52, 'Uranus'), ('BB53', bb53, 'any'), ('BB54', bb54, 'any'), ('BB55', bb55, 'any'), ('BB56', bb56, 'any'), ('BB57', bb57, 'any'), ('BB58', bb58, 'any'), ('BB59', bb59, 'any'), ('BB60', bb60, 'any'), ('BB61', bb61, 'any'), ('BB62', bb62, 'any'), ('BB63', bb63, 'any'), ('BB64', bb64, 'any'), ('BB65', bb65, 'Sun'), ('BB66', bb66, 'any')]
+         ('BB40', bb40, 'Sedna'), ('BB41', bb41, 'Sun'), ('BB42', bb42, 'Mercury'), ('BB43', bb43, 'Venus'), ('BB44', bb44, 'Jupiter'), ('BB45', bb45, 'Saturn'), ('BB46', bb46, 'Saturn'), ('BB47', bb47, 'Ceres'), ('BB48', bb48, 'Chiron'), ('BB49', bb49, 'Haumea'), ('BB50', bb50, 'Makemake'), ('BB51', bb51, 'Venus'), ('BB52', bb52, 'Uranus'), ('BB53', bb53, 'any'), ('BB54', bb54, 'any'), ('BB55', bb55, 'any'), ('BB56', bb56, 'any'), ('BB57', bb57, 'any'), ('BB58', bb58, 'any'), ('BB59', bb59, 'any'), ('BB60', bb60, 'any'), ('BB61', bb61, 'any'), ('BB62', bb62, 'any'), ('BB63', bb63, 'any'), ('BB64', bb64, 'any'), ('BB65', bb65, 'Sun'), ('BB66', bb66, 'any'), ('BB67', None, 'any')]
 
 
 def decade_pairs(cells):
@@ -1841,12 +1841,44 @@ def decade_pairs(cells):
     return out
 
 
+BB67_COMBOS = (('BB3', 'BB63'), ('BB3', 'BB54'), ('BB59',))
+
+
+def bb67(res):
+    """N3 (Eddie, 16 Nov 2026, 'build N3'; from Carlisle 16:30 7 Jul 2022 Whitefeathersfall): a runner holding at least 2 of the three
+    combinations BB3 + BB63, BB3 + BB54, BB59 (holders as built, watch-only cases not counted). Runner-level, body shown as 'runner'; the
+    cells are the cells of the component cases. Over 12 result races 13 picks 8 won, 1.7 by chance - mostly in-sample (the components come
+    from these winners); after BB63 was built 2 picks 2 won (On Time, Whitefeathersfall). Built on unrounded rule holdings, after every
+    other rule has run."""
+    held = {}
+    for rid, cases in res.items():
+        for c in cases:
+            if not c['watch_only']:
+                held.setdefault(c['runner'], {}).setdefault(rid, []).append(c)
+    out = []
+    for runner, h in held.items():
+        got = [cb for cb in BB67_COMBOS if all(r in h for r in cb)]
+        if len(got) < 2:
+            continue
+        rids = sorted({r for cb in got for r in cb}, key=lambda r: int(r[2:]))
+        cells, notes = [], [f"combinations held: {', '.join(' + '.join(cb) for cb in got)} ({len(got)} of 3)"]
+        for r in rids:
+            notes.append(f"{r}: " + ', '.join(c['body'] for c in h[r]))
+            for c in h[r]:
+                cells += [x for x in c['cells'] if x not in cells]
+        out.append({'runner': runner, 'body': 'runner', 'cells': cells, 'notes': notes, 'lights': [], 'decade': [], 'additive': [],
+                    'watch_only': False})
+    return out
+
+
 def run(path):
     data = load(path)
     race = os.path.basename(path).replace('_bybody.xlsx', '')
     res = {}
     for rid, fn, _ in RULES:
         res[rid] = []
+        if fn is None:
+            continue
         for runner, D in data.items():
             for X, d in D.items():
                 b = Body(X, d)
@@ -1867,6 +1899,7 @@ def run(path):
                                      'decade': decade_pairs(cells),
                                      'additive': additive_steps(cells),
                                      'watch_only': bool(case.get('watch_only'))})
+    res['BB67'] = bb67(res)
     return race, list(data), res
 
 

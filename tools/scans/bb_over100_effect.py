@@ -51,6 +51,8 @@ def strip(data, mode):
 def holders(data):
     res = {rid: {} for rid, _, _ in E.RULES}
     for rid, fn, _ in E.RULES:
+        if fn is None:  # BB67 is built from the other rules' holders (below)
+            continue
         for run, D in data.items():
             for X, d in D.items():
                 b = E.Body(X, d); b.all = D

@@ -7,7 +7,7 @@ import eddie_bybody_rules as E
 import bb_over100_tighten as TT
 
 ids = sys.argv[1:] or ['BB13', 'BB48']
-fns = {rid: fn for rid, fn, _ in E.RULES}
+fns = {rid: fn for rid, fn, _ in E.RULES if fn is not None}
 out = []
 for n, r, w in TT.RACES:
     raw = E.load(f'docs/eddie_read/bybody/{r}/{r}_bybody.xlsx')

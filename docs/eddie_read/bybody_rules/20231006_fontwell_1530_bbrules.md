@@ -1,4 +1,4 @@
-# 20231006_fontwell_1530 — body-by-body rules BB1-BB66
+# 20231006_fontwell_1530 — body-by-body rules BB1-BB67
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -71,6 +71,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB64 | 0 | 0 | - |  |
 | BB65 | 0 | 0 | - |  |
 | BB66 | 1 | 1 | 05 Makanao |  |
+| BB67 | 1 | 1 | 03 Kilcummin |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1095,4 +1096,29 @@ Origin: Doncaster 18:45 16 Jul 2022, 5 Novakai, Eris (H Eris – J Eris Dec 10.0
 - H Mars – J Mars Dec 46.9218 29×φ golden (96.26); S Ceres → H Mars Dec 13.0000 13 whole (99.91)
 - H Mars – J Mars Dec 46.9218 29×φ golden (96.26); S Makemake → H Mars Dec 44.4361 44.4444 ninth (90.61)
 - lights on Mars: S Moon – S Mars RA 99.888794 100 ninth (44.4)
+
+## BB67 — Two of the three combinations BB3 + BB63, BB3 + BB54, BB59
+
+Rule: A runner holds at least 2 of the three combinations BB3 + BB63, BB3 + BB54, BB59 (each rule as built; watch-only cases not counted). Runner-level.
+
+Origin: Carlisle 16:30 7 Jul 2022, 6 Whitefeathersfall (holds all three). Eddie, 16 Nov 2026: 'build N3'. tools/scans/bb_fieldcheck_whitefeathersfall.py over 12 result races: 13 picks, 8 won, 1.7 by chance (Pholas, Secret Satire, Wotever Next, Kilcummin, Athmad, On Time, Whitefeathersfall, Diligent Resdev; lost Birkenhead, Blue Prince, True Promise, Ziggy's Condor, Misemerald). Mostly in-sample - the component rules come from these winners; after BB63 was built (Newton Abbot, Doncaster, Bath, Carlisle) 2 picks 2 won. A count across rules; N2 (BB29 with its sky body conj / cp natal X >= 90) and N4 (all three) kept as watch items.
+
+### 03 Kilcummin — runner (only)
+- J Aldebaran – J Mars RA 156.921538 97×φ golden (14.32)
+- S Haumea – S Sedna RA 156.970566 97×φ golden (34.35)
+- S Haumea → J Mars Dec 32.379816 20×φ golden (40.94)
+- H Aldebaran – H Chiron Dec 12.935343 8×φ golden (72.44)
+- S Chiron – S Makemake Dec 12.921360 8×φ golden (29.28)
+- S Makemake → H Chiron RA 161.790408 100φ phi power (94.65)
+- S Aldebaran – S Chiron RA 53.382051 33×φ golden (59.66)
+- J Regulus – J Uranus Dec 33.354156 33.3333 ninth (68.77)
+- S Uranus – S Quaoar Dec 33.318289 33.3333 ninth (77.43)
+- S Quaoar → J Uranus RA 22.187459 22.2222 ninth (21.78)
+- H Fomalhaut – H Vesta Dec 42.312807 10φ³ phi power (24.66)
+- S Pluto – S Vesta Dec 42.349683 10φ³ phi power (82.69)
+- S Pluto → H Vesta Dec 36.015376 36 whole (23.12)
+- combinations held: BB3 + BB63, BB59 (2 of 3)
+- BB3: Mars
+- BB59: Chiron
+- BB63: Uranus, Vesta, Chiron
 

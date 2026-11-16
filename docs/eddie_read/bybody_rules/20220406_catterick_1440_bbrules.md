@@ -1,4 +1,4 @@
-# 20220406_catterick_1440 — body-by-body rules BB1-BB66
+# 20220406_catterick_1440 — body-by-body rules BB1-BB67
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -71,6 +71,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB64 | 0 | 0 | - |  |
 | BB65 | 1 | 1 | 05 Wotever Next |  |
 | BB66 | 2 | 2 | 04 Thakuri, 05 Wotever Next |  |
+| BB67 | 1 | 1 | 05 Wotever Next |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1044,4 +1045,33 @@ Origin: Doncaster 18:45 16 Jul 2022, 5 Novakai, Eris (H Eris – J Eris Dec 10.0
 - H Ceres – J Ceres Dec 44.4366 44.4444 ninth (91.2); S Saturn → H Ceres Dec 1.6190 1×φ golden (97)
 - H Ceres – J Ceres Dec 44.4366 44.4444 ninth (91.2); S Makemake → J Ceres Dec 4.8521 3×φ golden (93.8)
 - lights on Ceres: S Moon – S Ceres Dec 0.295891 conj conj (1.37)
+
+## BB67 — Two of the three combinations BB3 + BB63, BB3 + BB54, BB59
+
+Rule: A runner holds at least 2 of the three combinations BB3 + BB63, BB3 + BB54, BB59 (each rule as built; watch-only cases not counted). Runner-level.
+
+Origin: Carlisle 16:30 7 Jul 2022, 6 Whitefeathersfall (holds all three). Eddie, 16 Nov 2026: 'build N3'. tools/scans/bb_fieldcheck_whitefeathersfall.py over 12 result races: 13 picks, 8 won, 1.7 by chance (Pholas, Secret Satire, Wotever Next, Kilcummin, Athmad, On Time, Whitefeathersfall, Diligent Resdev; lost Birkenhead, Blue Prince, True Promise, Ziggy's Condor, Misemerald). Mostly in-sample - the component rules come from these winners; after BB63 was built (Newton Abbot, Doncaster, Bath, Carlisle) 2 picks 2 won. A count across rules; N2 (BB29 with its sky body conj / cp natal X >= 90) and N4 (all three) kept as watch items.
+
+### 05 Wotever Next — runner (only)
+- H Regulus – H Sun Dec 6.000669 6 whole (96.65)
+- S Moon – S Rahu Dec 6.006606 6 whole (66.97)
+- S Moon → H Sun RA 61.995143 62 whole (75.71)
+- H Fomalhaut – H Ceres Dec 12.998256 13 whole (91.28)
+- S Pallas – S Vesta Dec 12.982330 13 whole (11.65)
+- S Pallas → H Ceres Dec 12.011590 12 whole (42.05)
+- H Fomalhaut – H Gonggong Dec 17.767704 17.7778 ninth (71.67)
+- S Moon – S Chiron Dec 17.777129 11×φ golden (34.43)
+- S Chiron → H Gonggong RA 33.963575 21×φ golden (53.28)
+- H Regulus – H Transpluto Dec 0.996698 1 whole (83.49)
+- S Neptune – S Pallas Dec 0.983893 1 whole (19.47)
+- S Neptune → H Transpluto RA 159.000544 159 whole (97.28)
+- J Regulus – J Rahu RA 166.979293 166.667 ninth (6.21)
+- S Rahu – S Haumea RA 166.802333 166.667 ninth (59.3)
+- S Haumea → J Rahu Dec contraparallel 0.066072 cp contraparallel (77.98)
+- S Regulus – S Rahu Dec 6.466238 4×φ golden (81.8)
+- S Chiron – S Gonggong Dec 17.747921 17.7778 ninth (16.03)
+- combinations held: BB3 + BB63, BB59 (2 of 3)
+- BB3: Sun, Ceres, Gonggong, Transpluto
+- BB59: Rahu
+- BB63: Gonggong
 
