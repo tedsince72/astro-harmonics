@@ -1369,3 +1369,11 @@ one same-body ratio >= 50) 115 / 17 / 16.9; A1 (+ the other chart's royal line i
 A2 (+ the carrying pair names sky X) 1 / 1 / 0.2 (Dynamic Force only); Jupiter only A0j 81 / 12 / 12.1, A1j 3 / 1 / 0.5 (+ Lucia Joy
 Regulus, Good Time Ahead Aldebaran), A2j 1 / 1 / 0.2. One winner; not built.
 Watch (Eddie, 16 Nov 2026: 'yes, on the watch list'): A2 added to tools/scans/bb_watch_race.py (A1 cases listed too); build when a second winner holds A2. Independent checker: A1 / A2 holders over the 17 races, 0 mismatches (pair plane not required to match the royal line's; no minimum score on the other chart's line).
+
+## Dynamic Force: two bodies, each with two high same-body lines (16 Nov 2026)
+Eddie: '2 high scores in these' - Ceres (S Ceres -> J Ceres Dec 15×φ 98.36, S Ceres -> H Ceres RA ninth 155.556 88.93) and Makemake
+(S Makemake -> H Makemake Dec √2 90.74, H Makemake - J Makemake RA 15×φ 98.13). Scan tools/scans/bb_fieldcheck_twice.py, 17 result races
+(picks, won, by chance). A double body = 2+ same-body lines (as BB69) scoring >= cut. Cut 80: one double 16 / 4 / 2.7, two doubles 3 / 2 /
+0.6 (+ Never In Paris), shared target 1 / 1 / 0.2; cut 85: one 8 / 2 / 1.4, TWO 2 / 2 / 0.5 (On Time Sun + Jupiter, Dynamic Force Ceres +
+Makemake), shared target 1 / 1 / 0.2; cut 90: one 5 / 2 / 0.9, two 0. Independent checker: every holder, 0 mismatches. In-sample; two
+origin winners at cut 85 (both also BB69). Not built (waiting for Eddie).
