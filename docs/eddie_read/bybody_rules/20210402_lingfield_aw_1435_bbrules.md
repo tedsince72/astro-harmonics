@@ -5,6 +5,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | Rule | Cases | Runners | Holders | Watch only |
 |---|---|---|---|---|
 | BB1 | 2 | 1 | 05 Pholas |  |
+| BB1b | 2 | 1 | 05 Pholas |  |
 | BB2 | 2 | 2 | 04 Nirodha, 05 Pholas |  |
 | BB3 | 7 | 4 | 01 Arafi, 03 Indie Angel, 05 Pholas, 06 Shimmering Dawn |  |
 | BB4 | 1 | 1 | 05 Pholas |  |
@@ -97,6 +98,34 @@ Origin: Lingfield AW 14:35 2 Apr 2021, 5 Pholas / Hollie Doyle, body Mercury
 - S Mars → J Mercury RA 108.397711 67×φ golden (67.39)
 - S Sedna – S Mercury RA 59.877576 37×φ golden (68.15)
 - S Sedna → J Mercury Dec 7.774191 7.77778 ninth (76.94)
+- HIGHLIGHT same digits a decade apart: 77.7778 (S Mars – S Mercury) / 7.77778 (S Sedna → J Mercury)
+- lights on Mercury: S Moon → H Mercury RA 13.329589 13.3333 ninth (85.96)
+
+## BB1b — BB1 with the royal line, the pair and both natal ends on number families
+
+Rule: A BB1 case (natal royal-star line R - X scoring; a sky pair S A - S B, A and B not X, on its family and target; A and B each reach X in the sky and on natal X in the star line's chart) whose royal line and pair are in a number family (conj / contraparallel / opposition never) and whose two natal end lines S A -> c X, S B -> c X are in a number family scoring >= 50.
+
+Origin: BB1's two winners: Lingfield AW 14:35 2 Apr 2021 Pholas Mercury (J Aldebaran - J Mercury Dec 10xphi by S Mars - S Sedna; ends 67xphi (67.39), ninth 7.77778 (76.94)) and Nottingham 17:50 13 Jun 2022 The Dunkirk Lads Mars (H Antares - H Mars RA 89xphi by S Ketu - S Chiron; ends 100phi (96.85), 11xphi (83.12)). Eddie, 16 Nov 2026: 'yes, please proceed'. tools/scans/bb_fieldcheck_bb1_refine.py (F2) over 14 result races: 2 picks, 2 won, 0.3 by chance - in-sample (both origin winners); BB1 10 / 2 / 1.2. The eight losing BB1 holders fail on a contraparallel / opposition royal line or pair, or weak / conj natal ends.
+
+### 05 Pholas — Mercury (only)
+- J Aldebaran – J Mercury Dec 16.193302 10×φ golden (59.99)
+- S Mars – S Sedna Dec 16.192613 10×φ golden (62.12)
+- S Mars – S Mercury RA 77.750019 77.7778 ninth (82.15)
+- S Mars → J Mercury RA 108.397711 67×φ golden (67.39)
+- S Sedna – S Mercury RA 59.877576 37×φ golden (68.15)
+- S Sedna → J Mercury Dec 7.774191 7.77778 ninth (76.94)
+- J Aldebaran – J Mercury Dec 16.1933 10×φ golden (59.99) carried by S Mars – S Sedna Dec 10×φ (62.12); natal ends S Mars → J Mercury RA 108.3977 67×φ (67.39); S Sedna → J Mercury Dec 7.7742 7.77778 (76.94)
+- HIGHLIGHT same digits a decade apart: 77.7778 (S Mars – S Mercury) / 7.77778 (S Sedna → J Mercury)
+- lights on Mercury: S Moon → H Mercury RA 13.329589 13.3333 ninth (85.96)
+
+### 05 Pholas — Mercury (only)
+- J Aldebaran – J Mercury Dec 16.193302 10×φ golden (59.99)
+- S Mars – S Sedna Dec 16.192613 10φ phi power (49.43)
+- S Mars – S Mercury RA 77.750019 77.7778 ninth (82.15)
+- S Mars → J Mercury RA 108.397711 67×φ golden (67.39)
+- S Sedna – S Mercury RA 59.877576 37×φ golden (68.15)
+- S Sedna → J Mercury Dec 7.774191 7.77778 ninth (76.94)
+- J Aldebaran – J Mercury Dec 16.1933 10×φ golden (59.99) carried by S Mars – S Sedna Dec 10φ (49.43); natal ends S Mars → J Mercury RA 108.3977 67×φ (67.39); S Sedna → J Mercury Dec 7.7742 7.77778 (76.94)
 - HIGHLIGHT same digits a decade apart: 77.7778 (S Mars – S Mercury) / 7.77778 (S Sedna → J Mercury)
 - lights on Mercury: S Moon → H Mercury RA 13.329589 13.3333 ninth (85.96)
 

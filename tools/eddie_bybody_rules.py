@@ -162,6 +162,23 @@ def bb1(b):
     return out
 
 
+def bb1b(b):
+    """BB1 refined (Eddie, 16 Nov 2026, 'yes, please proceed'; from its two winners, Lingfield AW 14:35 2021 Pholas Mercury and Nottingham
+    17:50 13 Jun 2022 The Dunkirk Lads Mars): a BB1 case whose royal line R - X and carrier pair S A - S B are in a number family (conj /
+    contraparallel / opposition never), and whose two natal end lines S A -> c X, S B -> c X are in a number family scoring >= 50."""
+    num = lambda r: r['fam'] and r['fam'] not in ('conj', 'contraparallel', 'opposition') and r['sc'] is not None
+    out = []
+    for case in bb1(b):
+        R, P, ends = case['cells'][0], case['cells'][1], case['cells'][2:]
+        nat = [e for e in ends if ' → ' in e['line']]
+        if num(R) and num(P) and nat and all(num(e) and e['sc'] >= 50 for e in nat):
+            out.append({'key': ('BB1b',) + case['key'], 'cells': case['cells'],
+                        'notes': [f"{R['line']} {R['plane']} {R['v']:.4f} {R['tgt']} {R['fam']} ({R['sc']}) carried by {P['line']} {P['plane']} "
+                                  f"{P['tgt']} ({P['sc']}); natal ends " + '; '.join(f"{e['line']} {e['plane']} {e['v']:.4f} {e['tgt']} ({e['sc']})"
+                                                                                       for e in nat)]})
+    return out
+
+
 def bb2(b):
     out = []
     for c in 'HJ':
@@ -1848,7 +1865,7 @@ def bb68(b):
     return out
 
 
-RULES = [('BB1', bb1, 'Mercury'), ('BB2', bb2, 'Mars'), ('BB3', bb3, 'Jupiter'), ('BB4', bb4, 'Saturn'),
+RULES = [('BB1', bb1, 'Mercury'), ('BB1b', bb1b, 'any'), ('BB2', bb2, 'Mars'), ('BB3', bb3, 'Jupiter'), ('BB4', bb4, 'Saturn'),
          ('BB5', bb5, 'Uranus'), ('BB6', bb6, 'Uranus'), ('BB7', bb7, 'Neptune'), ('BB8', bb8, 'Rahu'),
          ('BB9', bb9, 'Rahu'), ('BB10', bb10, 'Ketu'), ('BB11', bb11, 'Ceres'), ('BB12', bb12, 'Pallas'),
          ('BB13', bb13, 'Juno'), ('BB14', bb14, 'Vesta'), ('BB15', bb15, 'Chiron'), ('BB16', bb16, 'Eris'),

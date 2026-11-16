@@ -5,6 +5,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | Rule | Cases | Runners | Holders | Watch only |
 |---|---|---|---|---|
 | BB1 | 1 | 1 | 04 Logistical |  |
+| BB1b | 0 | 0 | - |  |
 | BB2 | 0 | 0 | - |  |
 | BB3 | 10 | 7 | 01 Biscoff Joe, 02 Cosmic View, 03 Kilcummin, 04 Logistical, 05 Makanao, 06 Pigeonton, 07 Vale Dolobo Dancer |  |
 | BB4 | 0 | 0 | - |  |
@@ -89,6 +90,14 @@ Origin: Lingfield AW 14:35 2 Apr 2021, 5 Pholas / Hollie Doyle, body Mercury
 - S Transpluto – S Venus Dec 0.078610 conj conj (73.8)
 - S Transpluto → J Venus Dec 22.009919 22 whole (50.4)
 - lights on Venus: S Moon → J Venus Dec 39.002093 39 whole (89.53)
+
+## BB1b — BB1 with the royal line, the pair and both natal ends on number families
+
+Rule: A BB1 case (natal royal-star line R - X scoring; a sky pair S A - S B, A and B not X, on its family and target; A and B each reach X in the sky and on natal X in the star line's chart) whose royal line and pair are in a number family (conj / contraparallel / opposition never) and whose two natal end lines S A -> c X, S B -> c X are in a number family scoring >= 50.
+
+Origin: BB1's two winners: Lingfield AW 14:35 2 Apr 2021 Pholas Mercury (J Aldebaran - J Mercury Dec 10xphi by S Mars - S Sedna; ends 67xphi (67.39), ninth 7.77778 (76.94)) and Nottingham 17:50 13 Jun 2022 The Dunkirk Lads Mars (H Antares - H Mars RA 89xphi by S Ketu - S Chiron; ends 100phi (96.85), 11xphi (83.12)). Eddie, 16 Nov 2026: 'yes, please proceed'. tools/scans/bb_fieldcheck_bb1_refine.py (F2) over 14 result races: 2 picks, 2 won, 0.3 by chance - in-sample (both origin winners); BB1 10 / 2 / 1.2. The eight losing BB1 holders fail on a contraparallel / opposition royal line or pair, or weak / conj natal ends.
+
+No runner holds it.
 
 ## BB2 — two royal stars on X, sky and natal, same chart
 

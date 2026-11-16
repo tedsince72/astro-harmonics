@@ -5,6 +5,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | Rule | Cases | Runners | Holders | Watch only |
 |---|---|---|---|---|
 | BB1 | 1 | 1 | 02 The Dunkirk Lads |  |
+| BB1b | 1 | 1 | 02 The Dunkirk Lads |  |
 | BB2 | 2 | 2 | 01 Applaud Now, 06 Baileys Liberty |  |
 | BB3 | 15 | 6 | 01 Applaud Now, 02 The Dunkirk Lads, 03 Gidwa, 04 Miss Britain, 05 Glory Hallelujah, 06 Baileys Liberty |  |
 | BB4 | 2 | 2 | 02 The Dunkirk Lads, 06 Baileys Liberty |  |
@@ -88,6 +89,23 @@ Origin: Lingfield AW 14:35 2 Apr 2021, 5 Pholas / Hollie Doyle, body Mercury
 - S Ketu → H Mars RA 161.811042 100φ phi power (96.85)
 - S Chiron – S Mars RA 0.226433 conj conj (84.9)
 - S Chiron → H Mars RA 17.792905 11×φ golden (83.12)
+- lights on Mars: S Moon → H Mars RA 141.435903 141.4 sqrt2 (93.14); S Sun → J Mars Dec 51.801611 32×φ golden (24.31)
+
+## BB1b — BB1 with the royal line, the pair and both natal ends on number families
+
+Rule: A BB1 case (natal royal-star line R - X scoring; a sky pair S A - S B, A and B not X, on its family and target; A and B each reach X in the sky and on natal X in the star line's chart) whose royal line and pair are in a number family (conj / contraparallel / opposition never) and whose two natal end lines S A -> c X, S B -> c X are in a number family scoring >= 50.
+
+Origin: BB1's two winners: Lingfield AW 14:35 2 Apr 2021 Pholas Mercury (J Aldebaran - J Mercury Dec 10xphi by S Mars - S Sedna; ends 67xphi (67.39), ninth 7.77778 (76.94)) and Nottingham 17:50 13 Jun 2022 The Dunkirk Lads Mars (H Antares - H Mars RA 89xphi by S Ketu - S Chiron; ends 100phi (96.85), 11xphi (83.12)). Eddie, 16 Nov 2026: 'yes, please proceed'. tools/scans/bb_fieldcheck_bb1_refine.py (F2) over 14 result races: 2 picks, 2 won, 0.3 by chance - in-sample (both origin winners); BB1 10 / 2 / 1.2. The eight losing BB1 holders fail on a contraparallel / opposition royal line or pair, or weak / conj natal ends.
+
+### 02 The Dunkirk Lads — Mars (only)
+- H Antares – H Mars RA 144.033374 89×φ golden (12.5)
+- S Ketu – S Chiron RA 144.018136 89×φ golden (59.53)
+- S Ketu – S Mars Dec 22.219350 22.2222 ninth (93.54)
+- S Ketu – S Mars RA 144.244569 144.444 ninth (30.81)
+- S Ketu → H Mars RA 161.811042 100φ phi power (96.85)
+- S Chiron – S Mars RA 0.226433 conj conj (84.9)
+- S Chiron → H Mars RA 17.792905 11×φ golden (83.12)
+- H Antares – H Mars RA 144.0334 89×φ golden (12.5) carried by S Ketu – S Chiron RA 89×φ (59.53); natal ends S Ketu → H Mars RA 161.8110 100φ (96.85); S Chiron → H Mars RA 17.7929 11×φ (83.12)
 - lights on Mars: S Moon → H Mars RA 141.435903 141.4 sqrt2 (93.14); S Sun → J Mars Dec 51.801611 32×φ golden (24.31)
 
 ## BB2 — two royal stars on X, sky and natal, same chart

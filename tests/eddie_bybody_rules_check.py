@@ -83,6 +83,7 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB65': set(),
     'BB66': set(),
     'BB67': {('05 Pholas', 'runner')},
+    'BB1b': {('05 Pholas', 'Mercury')},
     'BB68': {('02 Fizzy Feet', 'Jupiter'), ('05 Pholas', 'Mercury'), ('06 Shimmering Dawn', 'Vesta')},
     'BB55': {('01 Arafi', 'Gonggong'), ('01 Arafi', 'Venus'), ('04 Nirodha', 'Saturn'), ('05 Pholas', 'Pallas')},
     'BB53': {('06 Shimmering Dawn', 'Sun'), ('06 Shimmering Dawn', 'Jupiter'), ('06 Shimmering Dawn', 'Pallas')},
@@ -648,6 +649,16 @@ if os.path.exists(CAR):
             if not c['watch_only']: hold_all.setdefault(c['runner'], set()).add(rid)
     check(all((sum(set(cb) <= hold_all.get(x, set()) for cb in (('BB3', 'BB63'), ('BB3', 'BB54'), ('BB59',))) >= 2) == (x in h67(cr))
               for x in hold_all), 'BB67 Carlisle = the combo count for every runner')
+# BB1b (Eddie, 16 Nov 2026): BB1 with royal line, pair and both natal ends on number families (ends >= 50)
+h1b = lambda rr: {(c['runner'], c['body']) for c in rr['BB1b']}
+check(all(h1b(x) == set() for x in (yres, hres, bres)), 'BB1b York 15:45, Haydock, Beverley: no holder')
+NOT = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', '20220613_nottingham_1750', '20220613_nottingham_1750_bybody.xlsx')
+if os.path.exists(NOT):
+    nt = R.run(NOT)[2]
+    check(h1b(nt) == {('02 The Dunkirk Lads', 'Mars')}, 'BB1b Nottingham: The Dunkirk Lads Mars only')
+    k = [x for c in nt['BB1b'] for x in c['cells']]
+    check('S Ketu → H Mars RA 161.811042 100φ phi power (96.85)' in k and 'S Chiron → H Mars RA 17.792905 11×φ golden (83.12)' in k, 'BB1b Dunkirk cells')
+    check(all(c['runner'] in {x['runner'] for x in nt['BB1']} for c in nt['BB1b']), 'BB1b holders are BB1 holders')
 # BB68 (Eddie, 16 Nov 2026): V3d - a sky body splits the same-body line S X -> c X in Dec, pieces >= 90 / >= 50
 h68 = lambda rr: {(c['runner'], c['body']) for c in rr['BB68']}
 check(h68(yres) == {('03 Friendly Soul', 'Jupiter'), ('04 La Pasionaria', 'Mars'), ('06 Secret Satire', 'Juno')}, 'BB68 York 15:45')
