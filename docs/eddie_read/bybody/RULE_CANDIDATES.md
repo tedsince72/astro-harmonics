@@ -1164,3 +1164,11 @@ carrier bodies (Sun, Chiron, Gonggong, Haumea, Sedna, Ceres); S Rahu → J Jupit
 Scan tools/scans/bb_fieldcheck_two_royal_lines_shared_carriers.py, 8 result races: J1 two royal lines (H and J, different bodies) sharing >= 3
 carrier bodies 26 / 3 (3.1); J2 >= 5 shared 9 / 1 (1.1); J3 one royal line's target on a sky body onto another royal-line body 69 / 8 (8.0; every
 runner); J4 J1 + J3 on the same pair 11 / 2 (1.4; Athmad Jupiter–Mars, Secret Satire Ceres–Mercury). Opposition counts as a family; Rahu / Ketu separate.
+
+## Athmad Rahu / Ketu (16 Nov 2026) - noted, not built (at chance)
+J Antares – J Ketu RA 155.8290 ninth 155.556 (12.1) carried by the same four sky pairs as H Aldebaran – H Mars RA 155.556; J Antares – J Rahu RA
+24.1710 silver (20.3) = S Venus → J Rahu Dec 24.1332 silver (75.3), S Venus – S Rahu Dec √2 (27.8), S Antares – S Rahu RA 10φ⁶ (70.5). The Ketu
+unisons (S Ketu → H / J Ketu RA against H / J Antares – Ketu RA) are forced: S Antares – S Ketu RA 0.4779 conj. Scan
+tools/scans/bb_fieldcheck_royal_target_repeat_and_loop.py, 8 result races: K1 two royal lines, same target, >= 1 shared carrier 59 / 4 (6.7);
+K2 >= 3 shared 14 / 1 (1.7; Rahu / Ketu one body; Dubai Souq holds through an 'also' match in the Matches column); K3 royal line = sky body onto
+natal X, that body on sky X 21 / 1 (2.5); K4 K3 + the same royal star on sky X 6 / 1 (0.7; Athmad Rahu only winner).
