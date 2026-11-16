@@ -49,3 +49,12 @@ BB55; 06 Passing Storm BB35, BB63. BB3 held by all 6.
 - Depth step 5: clean loops Passing Storm Vesta (all 16×φ) and Gilded Moon Gonggong (S Mercury – S Uranus Dec 5.9924, whole 6, Uranus end
   8.78); Passing Storm Mercury (Saturn – Pluto 8 through contraparallels) and Ceres (cp same-body line) lean on contraparallels.
 - Nearest to the Jupiter split: Novakai RA, S Jup → H Jup 76.1251 φ power (1.86), S Jup → J Jup 177.8716 ninth (73.62), H – J 101.7465 no family.
+
+## Result (from Eddie, 16 Nov 2026; after the blind read, commit before this one)
+1 Novakai 12/1 (Tom Eaves), 2 Crackovia 8/15F, 3 Mother India, 4 Gilded Moon, 5 Passing Storm, 6 Bella Kopella 40/1. 6 ran.
+- Blind read: no lead named; the two at depth 5 (Gilded Moon, Passing Storm) finished 4th and 5th; the most rules (Bella Kopella 13,
+  Passing Storm 12) 6th and 5th. Miss.
+- Novakai: 6 rules (BB2, BB3, BB24, BB27, BB34, BB55; T2 5, BB27 lost), alone on BB2 and BB55; depth 3 (Juno, through the shared
+  S Mercury – S Pluto contraparallel). Nearest runner to the Jupiter split: RA S Jupiter → H Jupiter 76.1251 φ power (1.86), S Jupiter →
+  J Jupiter 177.8716 ninth 177.778 (73.62), H – J 101.7465 no family.
+- All rules in this race: 46 picks, Novakai 6 of them (chance 46 / 6 = 7.7).
