@@ -1205,3 +1205,11 @@ As built, all rules over the 8 result races: 643 picks / 152 winners (74.5 by ch
 T2 (above 100: ninth, φ power, √2, silver ±0.05; opposition ±0.25): 430 / 104 (50.3, 2.07x); later 267 / 35 (32.0, 1.10x). T3 (all <= ±0.0324):
 later 1.14x. T1 (percent families fixed at their size at 100) worse (0.95x). BB13 13 / 4 -> 8 / 4, BB48 20 / 4 -> 7 / 3 under T2; cases listed in
 docs/eddie_read/bybody_rules/t2_cases_BB13_BB48.md (tools/scans/bb_t2_cases.py).
+
+## Rule assessment: plane, distance, family, body (16 Nov 2026) - noted
+tools/scans/bb_rule_assessment.py -> docs/eddie_read/bybody_rules/rule_assessment.md. Eddie suspected Dec matters more; over the 8 result races it
+does not show: winners' rule cells RA 51.3 % / Dec 48.7 % vs others 51.5 / 48.5; cases all Dec 6.8 % of winners' cases vs 10.1 % others; 80 % of
+winners' cases use both planes. Rules on one plane only: Dec 105 picks / 22 won (12.5, 1.77x; later 0.95x), RA 131 / 30 (14.7, 2.04x; later 0.86x),
+as built 643 / 152 (2.04x; later 1.01x). Families: whole 22.0 % of winners' cells vs 18.6 %, golden 22.3 vs 25.2, contraparallel 3.7 vs 5.7. Distance
+bands and score bands: no difference. Bodies (runners holding any rule on X): Rahu 16 / 5 (2.0), Mercury 21 / 5 (2.3), Juno 12 / 4 (1.4) highest;
+24 bodies tested, so expect some luck.
