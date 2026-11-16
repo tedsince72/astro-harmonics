@@ -1,4 +1,4 @@
-# 20231006_fontwell_1530 — body-by-body rules BB1-BB63
+# 20231006_fontwell_1530 — body-by-body rules BB1-BB64
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -68,6 +68,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB61 | 1 | 1 | 03 Kilcummin |  |
 | BB62 | 2 | 2 | 03 Kilcummin, 04 Logistical |  |
 | BB63 | 5 | 3 | 03 Kilcummin, 04 Logistical, 05 Makanao |  |
+| BB64 | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1062,4 +1063,12 @@ Origin: Newcastle AW 16:33 2 Aug 2021, 2 Athmad, Makemake (H Regulus – H Makem
 - S Sun – S Juno RA 46.968543 φ⁸ phi power (85.57)
 - S Juno → J Sun Dec 11.121801 11.1111 ninth (51.89)
 - J Fomalhaut – J Sun Dec carried by S Sun – S Juno RA; Juno on J Sun (Dec 11.1111 ninth)
+
+## BB64 — Royal star on sky X and a sky body on natal X on the same target, that body on natal X in both planes
+
+Rule: A scoring sky line S R – S X (R a royal star) and a scoring S Y → H X or S Y → J X (Y any sky body, not the Moon, not a royal star) on the same family and target; the same line S Y → c X also scores in a family in the other plane (RA / Dec; any target). Conj / contraparallel never counted. X not Rahu or Ketu. Any plane, any score. BB56 with the Sun replaced by any sky body, plus the other-plane condition.
+
+Origin: Newcastle AW 16:33 2 Aug 2021, 2 Athmad, Venus (S Fomalhaut – S Venus Dec 37.2291 23×φ (55.8) and S Uranus → J Venus Dec 37.2201 23×φ (83.5); S Uranus → J Venus RA 177.4498 ninth 177.778 (7.8)); second winner Haydock 13:45 8 Jun 2020, 7 Ishvara, Juno (S Fomalhaut – S Juno RA 155.5532 ninth 155.556 (99.2) and S Sun → H Juno RA 155.8171 (15.9); Dec 33.3678 ninth 33.3333 (48.4); the BB56 origin case). Eddie, 16 Nov 2026: 'w1 is good'. Over the 8 result races 8 picks, 2 won, 0.8 by chance (in-sample). W2-W5 (a royal star on sky Y, and on natal X) and V1-V5 noted (tools/scans/bb_fieldcheck_royal_sky_x_body_on_natal*.py).
+
+No runner holds it.
 

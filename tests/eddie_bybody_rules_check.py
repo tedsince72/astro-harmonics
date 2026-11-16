@@ -79,6 +79,7 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB61': set(),
     'BB62': {('05 Pholas', 'J chart')},
     'BB63': {('05 Pholas', 'Pallas')},
+    'BB64': set(),
     'BB55': {('01 Arafi', 'Gonggong'), ('01 Arafi', 'Venus'), ('04 Nirodha', 'Saturn'), ('05 Pholas', 'Pallas')},
     'BB53': {('06 Shimmering Dawn', 'Sun'), ('06 Shimmering Dawn', 'Jupiter'), ('06 Shimmering Dawn', 'Pallas')},
 }
@@ -583,5 +584,19 @@ for nm, rr, want in (('Haydock', hres, {'01 Magical Max', '04 Royal Context', '0
     check({c['runner'] for c in rr['BB63']} == want, f'BB63 {nm} holders')
 if os.path.exists(FW):
     check({c['runner'] for c in fw['BB63']} == {'03 Kilcummin', '04 Logistical', '05 Makanao'}, 'BB63 Fontwell holders')
+for nm, rr, want in (('Haydock', hres, {('06 Birkenhead', 'Pluto'), ('07 Ishvara', 'Juno'), ('08 Dancin Inthestreet', 'Chiron')}),
+                     ('Beverley', bres, {('03 Call Me Harswell', 'Jupiter')}), ('York 15:45', yres, set()), ('Catterick', cres, set()),
+                     ('York 16:15', y16, {('10 Lady Pink Rose', 'Ceres'), ('12 Quiet Resolve', 'Jupiter')})):
+    check({(c['runner'], c['body']) for c in rr['BB64']} == want, f'BB64 {nm} holders')
+k = [x for c in hres['BB64'] if c['runner'] == '07 Ishvara' for x in c['cells']]
+for w in ('S Fomalhaut – S Juno RA 155.553', 'S Sun → H Juno RA 155.817', 'S Sun → H Juno Dec 33.367'):
+    check(any(x.startswith(w) for x in k), f'BB64 Ishvara cell {w}')
+if os.path.exists(NC):
+    check({(c['runner'], c['body']) for c in nc['BB64']} == {('01 Dubai Souq', 'Ceres'), ('02 Athmad', 'Venus')}, 'BB64 Newcastle holders')
+    k = [x for c in nc['BB64'] if c['runner'] == '02 Athmad' for x in c['cells']]
+    for w in ('S Fomalhaut – S Venus Dec 37.229', 'S Uranus → J Venus Dec 37.220', 'S Uranus → J Venus RA 177.449'):
+        check(any(x.startswith(w) for x in k), f'BB64 Athmad cell {w}')
+if os.path.exists(FW):
+    check(fw['BB64'] == [], 'BB64 Fontwell: no holder')
 print(f'{ok}/{ok + bad} checks passed')
 sys.exit(1 if bad else 0)

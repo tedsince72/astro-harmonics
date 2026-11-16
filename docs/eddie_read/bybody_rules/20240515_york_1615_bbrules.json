@@ -3664,6 +3664,47 @@
     "additive": [],
     "watch_only": false
    }
+  ],
+  "BB64": [
+   {
+    "runner": "10 Lady Pink Rose",
+    "body": "Ceres",
+    "cells": [
+     "S Regulus – S Ceres RA 141.406545 141.4 sqrt2 (93.02)",
+     "S Eris → J Ceres RA 141.340752 141.4 sqrt2 (62)",
+     "S Eris → J Ceres Dec 14.995713 15 whole (78.57)"
+    ],
+    "notes": [
+     "S Regulus – S Ceres RA and S Eris → J Ceres RA both 141.4 sqrt2; S Eris → J Ceres Dec 15 whole"
+    ],
+    "lights": [
+     "S Sun → H Ceres RA 27.995074 28 whole (75.37)",
+     "S Moon → J Ceres RA 95.014707 95 whole (26.46)",
+     "S Moon → J Ceres Dec contraparallel 0.251775 cp contraparallel (16.08)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "12 Quiet Resolve",
+    "body": "Jupiter",
+    "cells": [
+     "S Fomalhaut – S Jupiter RA 70.705680 70.7 sqrt2 (95.29)",
+     "S Pallas → H Jupiter RA 70.711656 70.7 sqrt2 (99.08)",
+     "S Pallas → H Jupiter Dec 42.308286 10φ³ phi power (17.54)"
+    ],
+    "notes": [
+     "S Fomalhaut – S Jupiter RA and S Pallas → H Jupiter RA both 70.7 sqrt2; S Pallas → H Jupiter Dec 10φ³ phi power"
+    ],
+    "lights": [
+     "S Sun – S Jupiter Dec 0.176637 conj conj (41.12)",
+     "S Moon → H Jupiter Dec 32.351618 20×φ golden (72.03)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
   ]
  }
 }

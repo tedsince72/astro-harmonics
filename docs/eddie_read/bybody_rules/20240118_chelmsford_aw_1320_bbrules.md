@@ -1,4 +1,4 @@
-# 20240118_chelmsford_aw_1320 — body-by-body rules BB1-BB63
+# 20240118_chelmsford_aw_1320 — body-by-body rules BB1-BB64
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -68,6 +68,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB61 | 0 | 0 | - |  |
 | BB62 | 0 | 0 | - |  |
 | BB63 | 2 | 2 | 02 Sullivan Bay, 06 Foinix |  |
+| BB64 | 1 | 1 | 03 Good Time Ahead |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -993,4 +994,17 @@ Origin: Newcastle AW 16:33 2 Aug 2021, 2 Athmad, Makemake (H Regulus – H Makem
 - S Mars – S Pallas RA 44.465673 44.4444 ninth (76.12)
 - S Pallas → J Mars Dec 15.559375 15.5556 ninth (87.72)
 - J Antares – J Mars Dec carried by S Mars – S Pallas RA; Pallas on J Mars (Dec 15.5556 ninth)
+
+## BB64 — Royal star on sky X and a sky body on natal X on the same target, that body on natal X in both planes
+
+Rule: A scoring sky line S R – S X (R a royal star) and a scoring S Y → H X or S Y → J X (Y any sky body, not the Moon, not a royal star) on the same family and target; the same line S Y → c X also scores in a family in the other plane (RA / Dec; any target). Conj / contraparallel never counted. X not Rahu or Ketu. Any plane, any score. BB56 with the Sun replaced by any sky body, plus the other-plane condition.
+
+Origin: Newcastle AW 16:33 2 Aug 2021, 2 Athmad, Venus (S Fomalhaut – S Venus Dec 37.2291 23×φ (55.8) and S Uranus → J Venus Dec 37.2201 23×φ (83.5); S Uranus → J Venus RA 177.4498 ninth 177.778 (7.8)); second winner Haydock 13:45 8 Jun 2020, 7 Ishvara, Juno (S Fomalhaut – S Juno RA 155.5532 ninth 155.556 (99.2) and S Sun → H Juno RA 155.8171 (15.9); Dec 33.3678 ninth 33.3333 (48.4); the BB56 origin case). Eddie, 16 Nov 2026: 'w1 is good'. Over the 8 result races 8 picks, 2 won, 0.8 by chance (in-sample). W2-W5 (a royal star on sky Y, and on natal X) and V1-V5 noted (tools/scans/bb_fieldcheck_royal_sky_x_body_on_natal*.py).
+
+### 03 Good Time Ahead — Sun (only)
+- S Fomalhaut – S Sun Dec 8.984901 9 whole (24.51)
+- S Ceres → J Sun Dec 9.016855 9 whole (15.73)
+- S Ceres → J Sun RA 50.146654 31×φ golden (61.73)
+- S Fomalhaut – S Sun Dec and S Ceres → J Sun Dec both 9 whole; S Ceres → J Sun RA 31×φ golden
+- lights on Sun: S Moon → H Sun RA 0.266567 conj conj (82.23); S Moon → H Sun Dec 0.237569 conj conj (20.81); S Moon → J Sun Dec contraparallel 0.038476 cp contraparallel (87.17); S Moon → J Sun RA 179.184133 10φ⁶ phi power (3.93)
 

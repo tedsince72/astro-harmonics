@@ -1136,3 +1136,15 @@ Song, Mortlake, Diligent Resdev Quaoar only (3 / 1 / 0.3, one origin winner).
   York Friendly Soul Jupiter, Fire Demon Venus) - noted, not built.
 - Opposition counts as a family in BB63 (as in every BB rule).
 - Independent checkers: 0 mismatches on the scan and on the built rule.
+
+## Athmad Venus (Newcastle AW 16:33 2021; 16 Nov 2026) - BB64 built (W1); V1-V5, W2-W5 noted
+Lines (Eddie): S Fomalhaut – S Venus Dec 37.2291 23×φ (55.8) = S Uranus → J Venus Dec 37.2201 23×φ (83.5) (in Dec the same fact as
+S Uranus – S Venus 8.1454 = J Fomalhaut – J Venus 8.1550); H Regulus – H Venus RA 133.1738 ninth (40.2) / S Regulus – S Venus RA 13.3078
+(4.4) (Pallas Dancer H Regulus – H Venus RA 133.3241, 96.5); H Fomalhaut – H Venus Dec same-body ratio 4 (93.4), J Regulus – J Venus Dec
+crossed φ (92.0) (Pallas Dancer J Antares – J Venus RA crossed 11/6, 99.9); S Regulus – S Uranus RA 110.0498 68×φ (27.4);
+S Uranus → J Venus RA 177.4498 ninth (7.8). Scans tools/scans/bb_fieldcheck_royal_sky_x_body_on_natal.py (V) and _w.py (W), 8 result races:
+- V1 royal on sky X + sky body Y on natal X same family + target: 48 picks 7 won (5.3). V2 natal line >= 50: 30 / 3 (3.1). V4 + royal–X ratio
+  >= 90 in that chart: 7 / 1 (0.8). V5 in both charts: 2 / 1 (0.3; Athmad; also Haydock Birkenhead, Chelmsford Duveen).
+- W1 V1 + S Y → c X scores in the other plane too: 8 / 2 (0.8; Athmad, Ishvara Juno via the Sun) -> BUILT as BB64 (Eddie: 'w1 is good').
+  W2 royal on sky Y: 34 / 4 (3.9). W3 + that royal on natal X: 24 / 4 (2.7). W4 W1+W2: 5 / 1 (0.6). W5 W1+W3: 4 / 1 (0.5; Athmad only winner).
+- Note: the other-plane leg is weak in both winners (Athmad 7.8, Ishvara 48.4); Ishvara Juno is also BB56's origin case.

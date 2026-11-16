@@ -1,4 +1,4 @@
-# 20210802_newcastle_aw_1633 — body-by-body rules BB1-BB63
+# 20210802_newcastle_aw_1633 — body-by-body rules BB1-BB64
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -68,6 +68,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB61 | 0 | 0 | - |  |
 | BB62 | 1 | 1 | 05 Pallas Dancer |  |
 | BB63 | 7 | 4 | 01 Dubai Souq, 02 Athmad, 03 Raise The Roof, 06 Tricolore |  |
+| BB64 | 2 | 2 | 01 Dubai Souq, 02 Athmad |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1240,4 +1241,23 @@ Origin: Newcastle AW 16:33 2 Aug 2021, 2 Athmad, Makemake (H Regulus – H Makem
 - S Venus → J Transpluto RA 18.994744 19 whole (73.72)
 - J Aldebaran – J Transpluto Dec carried by S Venus – S Transpluto Dec; Venus on J Transpluto (RA 19 whole)
 - lights on Transpluto: S Moon → J Transpluto Dec 5.994213 6 whole (71.07); S Moon → J Transpluto RA 85.773093 53×φ golden (46.63)
+
+## BB64 — Royal star on sky X and a sky body on natal X on the same target, that body on natal X in both planes
+
+Rule: A scoring sky line S R – S X (R a royal star) and a scoring S Y → H X or S Y → J X (Y any sky body, not the Moon, not a royal star) on the same family and target; the same line S Y → c X also scores in a family in the other plane (RA / Dec; any target). Conj / contraparallel never counted. X not Rahu or Ketu. Any plane, any score. BB56 with the Sun replaced by any sky body, plus the other-plane condition.
+
+Origin: Newcastle AW 16:33 2 Aug 2021, 2 Athmad, Venus (S Fomalhaut – S Venus Dec 37.2291 23×φ (55.8) and S Uranus → J Venus Dec 37.2201 23×φ (83.5); S Uranus → J Venus RA 177.4498 ninth 177.778 (7.8)); second winner Haydock 13:45 8 Jun 2020, 7 Ishvara, Juno (S Fomalhaut – S Juno RA 155.5532 ninth 155.556 (99.2) and S Sun → H Juno RA 155.8171 (15.9); Dec 33.3678 ninth 33.3333 (48.4); the BB56 origin case). Eddie, 16 Nov 2026: 'w1 is good'. Over the 8 result races 8 picks, 2 won, 0.8 by chance (in-sample). W2-W5 (a royal star on sky Y, and on natal X) and V1-V5 noted (tools/scans/bb_fieldcheck_royal_sky_x_body_on_natal*.py).
+
+### 01 Dubai Souq — Ceres (also: 02 Athmad)
+- S Regulus – S Ceres Dec 2.007976 2 whole (60.12)
+- S Transpluto → H Ceres Dec 1.984693 2 whole (23.47)
+- S Transpluto → H Ceres RA 120.998835 121 whole (94.17)
+- S Regulus – S Ceres Dec and S Transpluto → H Ceres Dec both 2 whole; S Transpluto → H Ceres RA 121 whole
+- lights on Ceres: S Moon – S Ceres RA 1.033820 conj conj (31.08); S Sun → J Ceres RA 59.888877 37×φ golden (33.27)
+
+### 02 Athmad — Venus (also: 01 Dubai Souq)
+- S Fomalhaut – S Venus Dec 37.229116 23×φ golden (55.76)
+- S Uranus → J Venus Dec 37.220141 23×φ golden (83.46)
+- S Uranus → J Venus RA 177.449791 177.778 ninth (7.75)
+- S Fomalhaut – S Venus Dec and S Uranus → J Venus Dec both 23×φ golden; S Uranus → J Venus RA 177.778 ninth
 

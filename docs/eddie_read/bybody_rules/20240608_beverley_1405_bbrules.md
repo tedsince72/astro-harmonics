@@ -1,4 +1,4 @@
-# 20240608_beverley_1405 — body-by-body rules BB1-BB63
+# 20240608_beverley_1405 — body-by-body rules BB1-BB64
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -68,6 +68,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB61 | 0 | 0 | - |  |
 | BB62 | 0 | 0 | - |  |
 | BB63 | 1 | 1 | 02 Brazilian Belle |  |
+| BB64 | 1 | 1 | 03 Call Me Harswell |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1958,4 +1959,17 @@ Origin: Newcastle AW 16:33 2 Aug 2021, 2 Athmad, Makemake (H Regulus – H Makem
 - S Makemake → J Sun Dec 9.712629 6×φ golden (86.34)
 - J Regulus – J Sun RA carried by S Sun – S Makemake RA; Makemake on J Sun (Dec 6×φ golden)
 - lights on Sun: S Moon → J Sun RA 74.986689 75 whole (33.44)
+
+## BB64 — Royal star on sky X and a sky body on natal X on the same target, that body on natal X in both planes
+
+Rule: A scoring sky line S R – S X (R a royal star) and a scoring S Y → H X or S Y → J X (Y any sky body, not the Moon, not a royal star) on the same family and target; the same line S Y → c X also scores in a family in the other plane (RA / Dec; any target). Conj / contraparallel never counted. X not Rahu or Ketu. Any plane, any score. BB56 with the Sun replaced by any sky body, plus the other-plane condition.
+
+Origin: Newcastle AW 16:33 2 Aug 2021, 2 Athmad, Venus (S Fomalhaut – S Venus Dec 37.2291 23×φ (55.8) and S Uranus → J Venus Dec 37.2201 23×φ (83.5); S Uranus → J Venus RA 177.4498 ninth 177.778 (7.8)); second winner Haydock 13:45 8 Jun 2020, 7 Ishvara, Juno (S Fomalhaut – S Juno RA 155.5532 ninth 155.556 (99.2) and S Sun → H Juno RA 155.8171 (15.9); Dec 33.3678 ninth 33.3333 (48.4); the BB56 origin case). Eddie, 16 Nov 2026: 'w1 is good'. Over the 8 result races 8 picks, 2 won, 0.8 by chance (in-sample). W2-W5 (a royal star on sky Y, and on natal X) and V1-V5 noted (tools/scans/bb_fieldcheck_royal_sky_x_body_on_natal*.py).
+
+### 03 Call Me Harswell — Jupiter (only)
+- S Regulus – S Jupiter Dec 8.058041 5×φ golden (0.84)
+- S Neptune → H Jupiter Dec 8.108694 5×φ golden (42.83)
+- S Neptune → H Jupiter RA 20.003232 20 whole (83.84)
+- S Regulus – S Jupiter Dec and S Neptune → H Jupiter Dec both 5×φ golden; S Neptune → H Jupiter RA 20 whole
+- lights on Jupiter: S Sun → H Jupiter Dec 32.371929 20×φ golden (65.28)
 

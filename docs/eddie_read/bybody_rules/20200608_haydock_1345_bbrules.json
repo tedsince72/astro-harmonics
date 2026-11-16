@@ -2583,6 +2583,64 @@
     "additive": [],
     "watch_only": false
    }
+  ],
+  "BB64": [
+   {
+    "runner": "06 Birkenhead",
+    "body": "Pluto",
+    "cells": [
+     "S Regulus – S Pluto RA 144.273253 144.444 ninth (40.74)",
+     "S Mercury → J Pluto RA 144.656034 144.444 ninth (26.76)",
+     "S Mercury → J Pluto Dec 33.957327 21×φ golden (33.99)"
+    ],
+    "notes": [
+     "S Regulus – S Pluto RA and S Mercury → J Pluto RA both 144.444 ninth; S Mercury → J Pluto Dec 21×φ golden"
+    ],
+    "lights": [
+     "S Moon – S Pluto RA 1.418380 conj conj (5.44)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "07 Ishvara",
+    "body": "Juno",
+    "cells": [
+     "S Fomalhaut – S Juno RA 155.553196 155.556 ninth (99.24)",
+     "S Sun → H Juno RA 155.817127 155.556 ninth (15.92)",
+     "S Sun → H Juno Dec 33.367762 33.3333 ninth (48.36)"
+    ],
+    "notes": [
+     "S Fomalhaut – S Juno RA and S Sun → H Juno RA both 155.556 ninth; S Sun → H Juno Dec 33.3333 ninth"
+    ],
+    "lights": [
+     "S Sun – S Juno RA 112.015380 112 whole (23.1)",
+     "S Sun → H Juno Dec 33.367762 33.3333 ninth (48.36)",
+     "S Sun → H Juno RA 155.817127 155.556 ninth (15.92)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "08 Dancin Inthestreet",
+    "body": "Chiron",
+    "cells": [
+     "S Antares – S Chiron Dec 32.378809 20×φ golden (44.05)",
+     "S Juno → J Chiron RA 32.372435 20×φ golden (63.72)",
+     "S Juno → J Chiron Dec 19.017932 19 whole (10.34)"
+    ],
+    "notes": [
+     "S Antares – S Chiron Dec and S Juno → J Chiron RA both 20×φ golden; S Juno → J Chiron Dec 19 whole"
+    ],
+    "lights": [
+     "S Sun → J Chiron RA 144.387816 144.444 ninth (80.4)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
   ]
  }
 }

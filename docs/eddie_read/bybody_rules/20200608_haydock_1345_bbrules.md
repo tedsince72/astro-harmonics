@@ -1,4 +1,4 @@
-# 20200608_haydock_1345 — body-by-body rules BB1-BB63
+# 20200608_haydock_1345 — body-by-body rules BB1-BB64
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -68,6 +68,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB61 | 0 | 0 | - |  |
 | BB62 | 1 | 1 | 11 Mews House |  |
 | BB63 | 3 | 3 | 01 Magical Max, 04 Royal Context, 06 Birkenhead |  |
+| BB64 | 3 | 3 | 06 Birkenhead, 07 Ishvara, 08 Dancin Inthestreet |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1514,4 +1515,31 @@ Origin: Newcastle AW 16:33 2 Aug 2021, 2 Athmad, Makemake (H Regulus – H Makem
 - S Uranus → H Mars RA 5.016787 5 whole (16.07)
 - S Uranus → H Mars Dec 1.017714 1 whole (11.43)
 - H Fomalhaut – H Mars RA carried by S Mars – S Uranus RA; Uranus on H Mars (RA 5 whole; Dec 1 whole)
+
+## BB64 — Royal star on sky X and a sky body on natal X on the same target, that body on natal X in both planes
+
+Rule: A scoring sky line S R – S X (R a royal star) and a scoring S Y → H X or S Y → J X (Y any sky body, not the Moon, not a royal star) on the same family and target; the same line S Y → c X also scores in a family in the other plane (RA / Dec; any target). Conj / contraparallel never counted. X not Rahu or Ketu. Any plane, any score. BB56 with the Sun replaced by any sky body, plus the other-plane condition.
+
+Origin: Newcastle AW 16:33 2 Aug 2021, 2 Athmad, Venus (S Fomalhaut – S Venus Dec 37.2291 23×φ (55.8) and S Uranus → J Venus Dec 37.2201 23×φ (83.5); S Uranus → J Venus RA 177.4498 ninth 177.778 (7.8)); second winner Haydock 13:45 8 Jun 2020, 7 Ishvara, Juno (S Fomalhaut – S Juno RA 155.5532 ninth 155.556 (99.2) and S Sun → H Juno RA 155.8171 (15.9); Dec 33.3678 ninth 33.3333 (48.4); the BB56 origin case). Eddie, 16 Nov 2026: 'w1 is good'. Over the 8 result races 8 picks, 2 won, 0.8 by chance (in-sample). W2-W5 (a royal star on sky Y, and on natal X) and V1-V5 noted (tools/scans/bb_fieldcheck_royal_sky_x_body_on_natal*.py).
+
+### 06 Birkenhead — Pluto (also: 07 Ishvara, 08 Dancin Inthestreet)
+- S Regulus – S Pluto RA 144.273253 144.444 ninth (40.74)
+- S Mercury → J Pluto RA 144.656034 144.444 ninth (26.76)
+- S Mercury → J Pluto Dec 33.957327 21×φ golden (33.99)
+- S Regulus – S Pluto RA and S Mercury → J Pluto RA both 144.444 ninth; S Mercury → J Pluto Dec 21×φ golden
+- lights on Pluto: S Moon – S Pluto RA 1.418380 conj conj (5.44)
+
+### 07 Ishvara — Juno (also: 06 Birkenhead, 08 Dancin Inthestreet)
+- S Fomalhaut – S Juno RA 155.553196 155.556 ninth (99.24)
+- S Sun → H Juno RA 155.817127 155.556 ninth (15.92)
+- S Sun → H Juno Dec 33.367762 33.3333 ninth (48.36)
+- S Fomalhaut – S Juno RA and S Sun → H Juno RA both 155.556 ninth; S Sun → H Juno Dec 33.3333 ninth
+- lights on Juno: S Sun – S Juno RA 112.015380 112 whole (23.1); S Sun → H Juno Dec 33.367762 33.3333 ninth (48.36); S Sun → H Juno RA 155.817127 155.556 ninth (15.92)
+
+### 08 Dancin Inthestreet — Chiron (also: 06 Birkenhead, 07 Ishvara)
+- S Antares – S Chiron Dec 32.378809 20×φ golden (44.05)
+- S Juno → J Chiron RA 32.372435 20×φ golden (63.72)
+- S Juno → J Chiron Dec 19.017932 19 whole (10.34)
+- S Antares – S Chiron Dec and S Juno → J Chiron RA both 20×φ golden; S Juno → J Chiron Dec 19 whole
+- lights on Chiron: S Sun → J Chiron RA 144.387816 144.444 ninth (80.4)
 
