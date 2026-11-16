@@ -51,3 +51,7 @@ read anyway, not counted as a blind test.
 - By the rules: 04 Ballet Steps (only BB3 + BB63 holder; depth 5); 05 Swayze the only Watch B holder. Dynamic Force: 5 rules, depth 3, no
   watched combination.
 - Independent checker (16 Nov): counts, holders, Swayze and Ballet Steps cells from the _POS tabs, depth: 0 mismatches.
+
+## Result (from Eddie, 16 Nov 2026)
+1 Dynamic Force 18/1 (Ray Dawson), 2 Swayze 9/1 (shd), 3 Princess Shabnam 5/6F, 4 Silky Wilkie 4/1, 5 Ballet Steps 4/1 (tailed off).
+By the rules: Ballet Steps (BB3 + BB63) last; Swayze (Watch B) 2nd by a short head; winner 5 rules, depth 3.
