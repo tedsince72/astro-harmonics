@@ -53,3 +53,9 @@
 - Watch items: no P4, no Jupiter loop, no N2 / N4, no mirror (best Glory Hallelujah J Chiron cp 0.0701, 76.64).
 - Independent checker (16 Nov): every quoted cell recomputed from the _active positions, BB67 / BB68 holders, rule counts, 'only' claims,
   mirror none: 0 mismatches.
+
+## Result (from Eddie, 16 Nov 2026)
+1 The Dunkirk Lads 12/1 (Duran Fentiman), 2 Applaud Now 3/1, 3 Miss Britain 7/2, 4 Glory Hallelujah 11/1, 5 Baileys Liberty 18/1,
+6 Gidwa 11/8F. Lead Gidwa last; second pick The Dunkirk Lads won.
+- Winner held 12 rules (the most), depth 5 (Juno, only), BB68 (H Jupiter; BB68's first later race: 2 picks 1 won), alone on BB1 (Mars),
+  BB6 (Transpluto), BB30 (Juno), BB50 (Sedna). Combos: none (BB67 holder Gidwa 6th; BB3 + BB54 holder Baileys Liberty 5th).
