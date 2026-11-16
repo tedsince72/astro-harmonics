@@ -1368,3 +1368,4 @@ tools/scans/bb_fieldcheck_royal_both.py, 17 result races (picks, won, by chance)
 one same-body ratio >= 50) 115 / 17 / 16.9; A1 (+ the other chart's royal line in a family carried by a sky pair >= 90) 12 / 1 / 1.9;
 A2 (+ the carrying pair names sky X) 1 / 1 / 0.2 (Dynamic Force only); Jupiter only A0j 81 / 12 / 12.1, A1j 3 / 1 / 0.5 (+ Lucia Joy
 Regulus, Good Time Ahead Aldebaran), A2j 1 / 1 / 0.2. One winner; not built.
+Watch (Eddie, 16 Nov 2026: 'yes, on the watch list'): A2 added to tools/scans/bb_watch_race.py (A1 cases listed too); build when a second winner holds A2. Independent checker: A1 / A2 holders over the 17 races, 0 mismatches (pair plane not required to match the royal line's; no minimum score on the other chart's line).
