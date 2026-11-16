@@ -1249,3 +1249,18 @@ bb_fieldcheck_jupiter_split.py on every new race with WATCH B and P4; build when
   (Secret Satire Ceres, Wotever Next Ceres, On Time Jupiter, Novakai Eris; lost Ventura Flame, Mademoiselle, Ziggy's Condor, Thakuri, Makanao,
   Mother India); RA 8 / 1 / 1.1 (Ishvara Sedna). Partly in-sample (Secret Satire, Wotever Next, On Time were read before).
 - N1 royal line >= 90 + a sky body on the same natal X >= 90: 72 / 9 / 9.1; N2 same plane 55 / 6 / 7.0 - at chance.
+
+## Cafe Sydney Jupiter loop (Bath 15:30 12 Jul 2022; Eddie, 16 Nov 2026: 'jupiter loop please')
+S Jupiter → J Jupiter RA 55.5859 ninth 55.5556 (72.71), carried by S Venus – S Eris RA 55.5716 (85.6); both ends on J Jupiter in Dec
+(S Venus 2.2204 ninth (58.78), S Eris 21.0269 13×φ (76.69)). Not forced: neither end is near sky Jupiter; the ends' Dec lines are
+independent of the RA match. tools/scans/bb_fieldcheck_jupiter_loop.py, 11 result races (every line in a family, ends not Moon /
+Jupiter / royal):
+- A loop closed on Jupiter, ends on either natal Jupiter or sky Jupiter: 5 picks, 2 won, 0.9 by chance (La Pasionaria, Ribble Radiant,
+  Makanao, On Time, Cafe Sydney).
+- B both ends on the same chart's natal Jupiter: 4 / 2 / 0.7 (Ribble Radiant, Makanao, On Time, Cafe Sydney).
+- C B with line and pair >= 50: 1 / 1 / 0.2 (Cafe Sydney only).
+- D B with both end lines in the other plane: 3 / 2 / 0.6 (Makanao, On Time, Cafe Sydney).
+- X control, B on any other body: 16 / 1 / 2.1.
+On Time's B / D case is weak and partly forced: S Jupiter → J Jupiter Dec 6.4981 4×φ (19.9), pair S Juno – S Sedna (47.8), end S Juno →
+J Jupiter Dec 6.4922 - S Juno sits on sky Jupiter in Dec (0.0059 conj), so that end repeats the same-body line. Its strong loop (RA 174,
+97.07) has its ends on H Jupiter (other chart) = A only.
