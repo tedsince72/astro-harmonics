@@ -1491,3 +1491,15 @@ River Bray); J1any + BB14 / BB20 / BB68 2 / 2 / 0.4 each (Society Red, River Bra
   45 / 5 / 6.2; RA90 9 / 2 / 1.1 (Domandlouis J Orcus by Transpluto, Daphne Moon H Ceres by Rahu); DEC90 6 / 3 / 0.9 (built as BB68b);
   ANY90 13 / 5 / 1.8; BOTH (same body split in RA and Dec) none. Splitter = S Jupiter: 3 / 1 / 0.5; S Jupiter both >= 90: 1 / 1 (Olympe only), noted.
 - Built: BB68b (Dec, both >= 90). Not built: RA90, ANY90 (Eddie to decide).
+
+## Ceres carried by Makemake - Peak Time and Wotever Next (17 Nov 2026; noted, not built)
+tools/scans/bb_fieldcheck_ceres_carrier.py, 29 result races (picks / won / by chance). Carrier = a 'Sky lines on the same target' row on a
+same-body line S X -> c X; Y = a sky body in the carrier (not X, Moon, royal).
+- K2 one Y carries 2+ same-body lines of X: 15 / 5 / 2.6 (Perfect Part, Wotever Next, On Time, Man On A Mission, Peak Time).
+- K2c both charts: 10 / 5 / 1.7 (same five). K2p one chart both planes: 7 / 2 / 1.2 (Wotever Next, Man On A Mission - both 6 Apr 2022, same sky).
+- K2s + Y on sky X: 7 / 4 / 1.3 (Wotever Next, On Time, Man On A Mission, Peak Time; lost Logistical, Suntory Star, Black Opium).
+- K2x + Y conj / cp sky X: 4 / 2 / 0.7 (On Time Jupiter by Juno, Peak Time Ceres by Makemake; lost Logistical Jupiter by Haumea, Black Opium
+  Makemake by Ceres via a Moon pair). Caution: when Y is conjunct sky X in Dec, S Y -> c X Dec is close to S X -> c X Dec automatically,
+  so the 'same target' carrier is geometry; the content is a body conjunct sky X with both same-body lines scoring.
+- Ceres by Makemake: Peak Time (direct, conj), Wotever Next and Man On A Mission (pairs S Ketu – S Makemake Dec 41.39, S Mercury – S Makemake
+  RA 179.5, same sky day). Black Opium (Peak Time's race, 4th) the reverse: Makemake carried by Ceres.
