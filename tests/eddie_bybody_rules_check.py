@@ -99,6 +99,7 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB77b': set(),
     'BB77c': set(),
     'BB78': set(),
+    'BB79': set(),
     'BB55': {('01 Arafi', 'Gonggong'), ('01 Arafi', 'Venus'), ('04 Nirodha', 'Saturn'), ('05 Pholas', 'Pallas')},
     'BB53': {('06 Shimmering Dawn', 'Sun'), ('06 Shimmering Dawn', 'Jupiter'), ('06 Shimmering Dawn', 'Pallas')},
 }
@@ -891,5 +892,25 @@ for race, win in SRA.RACES:
     check(h == scan, f'BB68b = scan DEC90 {race}')
     t68[0] += len(h); t68[1] += sum(win in x for x in h)
 check(tuple(t68) == (6, 3), f'BB68b 6 holders, 3 won over 28 result races ({t68})')
+# BB79 (Eddie, 17 Nov 2026): one sky body carries the same-body line in both charts (Peak Time Ceres by Makemake) = scan K2c
+import bb_fieldcheck_ceres_carrier as CC
+NEW1540 = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', '20220311_newcastle_1540', '20220311_newcastle_1540_bybody.xlsx')
+if os.path.exists(NEW1540):
+    nw = R.run(NEW1540)[2]
+    check({(c['runner'], c['body']) for c in nw['BB79']} == {('03 Peak Time', 'Ceres'), ('07 Black Opium', 'Makemake')}, 'BB79 Newcastle 15:40')
+    k = [c for c in nw['BB79'] if c['runner'] == '03 Peak Time'][0]
+    check('S Makemake → H Ceres Dec 5.993894 6 whole (69.47)' in k['cells'] and 'S Makemake → J Ceres Dec 4.017721 4 whole (11.4)' in k['cells']
+          and k['notes'][0].startswith('Makemake carries Ceres in both charts'), 'BB79 Peak Time cells and note')
+t79 = [0, 0]
+for race, win in CC.RACES:
+    pth = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', race, f'{race}_bybody.xlsx')
+    if not os.path.exists(pth):
+        continue
+    rr = R.run(pth)[2]; data = R.load(pth)
+    h = {c['runner'] for c in rr['BB79']}
+    scan = {run for run, D in data.items() for X, d in D.items() if X != 'Moon' for t, _ in CC.cases(X, d) if 'K2c' in t}
+    check(h == scan, f'BB79 = scan K2c {race}')
+    t79[0] += len(h); t79[1] += sum(win in x for x in h)
+check(tuple(t79) == (10, 5), f'BB79 10 holders, 5 won over 29 result races ({t79})')
 print(f'{ok}/{ok + bad} checks passed')
 sys.exit(1 if bad else 0)

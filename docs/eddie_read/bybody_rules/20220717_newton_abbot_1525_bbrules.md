@@ -1,4 +1,4 @@
-# 20220717_newton_abbot_1525 — body-by-body rules BB1-BB78
+# 20220717_newton_abbot_1525 — body-by-body rules BB1-BB79
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -88,6 +88,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB77b | 0 | 0 | - |  |
 | BB77c | 0 | 0 | - |  |
 | BB78 | 0 | 0 | - |  |
+| BB79 | 1 | 1 | 04 On Time |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1131,4 +1132,20 @@ Rule: A runner holding BB9, BB43 and BB64 (each as built, watch-only cases not c
 Origin: Ffos Las 17:25 23 Mar 2022 Ring The Moon (won 28/1). Eddie, 17 Nov 2026: 'yes, build ... The combination BB9 + BB43 + BB64'. Over 24 result races 3 picks 3 won (Ishvara, Whitefeathersfall, Ring The Moon), 0.5 by chance (tools/scans/bb_combos_ringthemoon.py); found among pairs / triples of Ring The Moon's rules, chosen after the result.
 
 No runner holds it.
+
+## BB79 — One sky body carries the same-body line in both charts
+
+Rule: A sky body Y is named in a 'Sky lines on the same target' row on S X -> H X and in one on S X -> J X (any plane; each same-body line with a score). Y not X, not the Moon, not a royal star (the Moon may be the other end of a pair). Broad.
+
+Origin: Newcastle 15:40 11 Mar 2022, 3 Peak Time, Ceres (S Ceres -> H Ceres Dec 6.008907 6 (55.47) carried by S Makemake -> H Ceres Dec 5.993894 (69.47); S Ceres -> J Ceres Dec 4.002709 4 (86.45) by S Makemake -> J Ceres Dec 4.017721 (11.4); S Makemake – S Ceres Dec conj 0.015013 (95)) (Eddie, 17 Nov 2026: 'build this one'). Over 29 result races 10 picks, 5 won, 1.7 by chance (Perfect Part, Wotever Next, On Time, Man On A Mission, Peak Time; lost Royal Context, Logistical, Bollin Joan, Wheres Maud Gone, Black Opium); partly in-sample. Note: a Y conjunct sky X carries both lines by geometry (Peak Time, On Time, Logistical). Versions noted in RULE_CANDIDATES.md (tools/scans/bb_fieldcheck_ceres_carrier.py).
+
+### 04 On Time — Jupiter (only)
+- S Jupiter → H Jupiter Dec 4.828408 3×φ golden (20.7)
+- S Juno → H Jupiter Dec 4.834263 3×φ golden (38.77)
+- S Jupiter → J Jupiter Dec 6.498089 4×φ golden (19.9)
+- S Juno → J Jupiter Dec 6.492233 4×φ golden (37.97)
+- S Juno – S Sedna Dec 6.489049 4×φ golden (47.8)
+- S Juno – S Jupiter Dec 0.005856 conj conj (98.05)
+- Juno carries Jupiter in both charts: S Jupiter → H Jupiter Dec 4.8284 3×φ (20.7) carried by S Juno → H Jupiter Dec 4.8343 (38.77); S Jupiter → J Jupiter Dec 6.4981 4×φ (19.9) carried by S Juno → J Jupiter Dec 6.4922 (37.97), S Juno – S Sedna Dec 6.4890 (47.8); S Juno – S Jupiter Dec 0.0059 conj (98.05)
+- lights on Jupiter: S Moon → H Jupiter RA 177.655066 177.778 ninth (65.49)
 

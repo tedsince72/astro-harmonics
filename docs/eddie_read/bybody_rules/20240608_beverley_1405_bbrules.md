@@ -1,4 +1,4 @@
-# 20240608_beverley_1405 — body-by-body rules BB1-BB78
+# 20240608_beverley_1405 — body-by-body rules BB1-BB79
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -88,6 +88,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB77b | 0 | 0 | - |  |
 | BB77c | 0 | 0 | - |  |
 | BB78 | 0 | 0 | - |  |
+| BB79 | 1 | 1 | 15 Perfect Part |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -2194,4 +2195,18 @@ Rule: A runner holding BB9, BB43 and BB64 (each as built, watch-only cases not c
 Origin: Ffos Las 17:25 23 Mar 2022 Ring The Moon (won 28/1). Eddie, 17 Nov 2026: 'yes, build ... The combination BB9 + BB43 + BB64'. Over 24 result races 3 picks 3 won (Ishvara, Whitefeathersfall, Ring The Moon), 0.5 by chance (tools/scans/bb_combos_ringthemoon.py); found among pairs / triples of Ring The Moon's rules, chosen after the result.
 
 No runner holds it.
+
+## BB79 — One sky body carries the same-body line in both charts
+
+Rule: A sky body Y is named in a 'Sky lines on the same target' row on S X -> H X and in one on S X -> J X (any plane; each same-body line with a score). Y not X, not the Moon, not a royal star (the Moon may be the other end of a pair). Broad.
+
+Origin: Newcastle 15:40 11 Mar 2022, 3 Peak Time, Ceres (S Ceres -> H Ceres Dec 6.008907 6 (55.47) carried by S Makemake -> H Ceres Dec 5.993894 (69.47); S Ceres -> J Ceres Dec 4.002709 4 (86.45) by S Makemake -> J Ceres Dec 4.017721 (11.4); S Makemake – S Ceres Dec conj 0.015013 (95)) (Eddie, 17 Nov 2026: 'build this one'). Over 29 result races 10 picks, 5 won, 1.7 by chance (Perfect Part, Wotever Next, On Time, Man On A Mission, Peak Time; lost Royal Context, Logistical, Bollin Joan, Wheres Maud Gone, Black Opium); partly in-sample. Note: a Y conjunct sky X carries both lines by geometry (Peak Time, On Time, Logistical). Versions noted in RULE_CANDIDATES.md (tools/scans/bb_fieldcheck_ceres_carrier.py).
+
+### 15 Perfect Part — Makemake (only)
+- S Makemake → H Makemake Dec 1.012089 1 whole (39.55)
+- S Chiron – S Sedna Dec 0.996865 1 whole (84.33)
+- S Makemake → J Makemake Dec 12.210086 12.2222 ninth (50.35)
+- S Mercury – S Chiron Dec 12.216899 12.2222 ninth (78.22)
+- Chiron carries Makemake in both charts: S Makemake → H Makemake Dec 1.0121 1 (39.55) carried by S Chiron – S Sedna Dec 0.9969 (84.33); S Makemake → J Makemake Dec 12.2101 12.2222 (50.35) carried by S Mercury – S Chiron Dec 12.2169 (78.22)
+- lights on Makemake: S Sun – S Makemake RA 122.336114 122.222 ninth (53.41); S Sun → H Makemake Dec 0.106418 conj conj (64.53); S Sun → J Makemake Dec 11.304415 7×φ golden (32.65)
 

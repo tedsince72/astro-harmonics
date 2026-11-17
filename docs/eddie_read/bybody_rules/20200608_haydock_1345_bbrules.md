@@ -1,4 +1,4 @@
-# 20200608_haydock_1345 — body-by-body rules BB1-BB78
+# 20200608_haydock_1345 — body-by-body rules BB1-BB79
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -88,6 +88,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB77b | 1 | 1 | 07 Ishvara |  |
 | BB77c | 1 | 1 | 07 Ishvara |  |
 | BB78 | 1 | 1 | 07 Ishvara |  |
+| BB79 | 1 | 1 | 04 Royal Context |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1806,4 +1807,18 @@ Origin: Ffos Las 17:25 23 Mar 2022 Ring The Moon (won 28/1). Eddie, 17 Nov 2026:
 - BB9: Vesta, Vesta
 - BB43: Rahu
 - BB64: Juno
+
+## BB79 — One sky body carries the same-body line in both charts
+
+Rule: A sky body Y is named in a 'Sky lines on the same target' row on S X -> H X and in one on S X -> J X (any plane; each same-body line with a score). Y not X, not the Moon, not a royal star (the Moon may be the other end of a pair). Broad.
+
+Origin: Newcastle 15:40 11 Mar 2022, 3 Peak Time, Ceres (S Ceres -> H Ceres Dec 6.008907 6 (55.47) carried by S Makemake -> H Ceres Dec 5.993894 (69.47); S Ceres -> J Ceres Dec 4.002709 4 (86.45) by S Makemake -> J Ceres Dec 4.017721 (11.4); S Makemake – S Ceres Dec conj 0.015013 (95)) (Eddie, 17 Nov 2026: 'build this one'). Over 29 result races 10 picks, 5 won, 1.7 by chance (Perfect Part, Wotever Next, On Time, Man On A Mission, Peak Time; lost Royal Context, Logistical, Bollin Joan, Wheres Maud Gone, Black Opium); partly in-sample. Note: a Y conjunct sky X carries both lines by geometry (Peak Time, On Time, Logistical). Versions noted in RULE_CANDIDATES.md (tools/scans/bb_fieldcheck_ceres_carrier.py).
+
+### 04 Royal Context — Eris (only)
+- S Eris → H Eris Dec 0.982495 1 whole (12.48)
+- S Jupiter – S Pluto Dec 1.004077 1 whole (79.61)
+- S Eris → J Eris Dec 9.720451 6×φ golden (62.2)
+- S Jupiter – S Gonggong Dec 9.683822 6×φ golden (24.75)
+- Jupiter carries Eris in both charts: S Eris → H Eris Dec 0.9825 1 (12.48) carried by S Jupiter – S Pluto Dec 1.0041 (79.61); S Eris → J Eris Dec 9.7205 6×φ (62.2) carried by S Jupiter – S Gonggong Dec 9.6838 (24.75)
+- lights on Eris: S Moon – S Eris Dec 22.674439 14×φ golden (32.21); S Moon → J Eris Dec 12.953988 8×φ golden (70.01)
 

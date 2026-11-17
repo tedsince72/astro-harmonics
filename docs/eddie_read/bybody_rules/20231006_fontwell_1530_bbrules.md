@@ -1,4 +1,4 @@
-# 20231006_fontwell_1530 — body-by-body rules BB1-BB78
+# 20231006_fontwell_1530 — body-by-body rules BB1-BB79
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -88,6 +88,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB77b | 0 | 0 | - |  |
 | BB77c | 0 | 0 | - |  |
 | BB78 | 0 | 0 | - |  |
+| BB79 | 1 | 1 | 04 Logistical |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1301,4 +1302,18 @@ Rule: A runner holding BB9, BB43 and BB64 (each as built, watch-only cases not c
 Origin: Ffos Las 17:25 23 Mar 2022 Ring The Moon (won 28/1). Eddie, 17 Nov 2026: 'yes, build ... The combination BB9 + BB43 + BB64'. Over 24 result races 3 picks 3 won (Ishvara, Whitefeathersfall, Ring The Moon), 0.5 by chance (tools/scans/bb_combos_ringthemoon.py); found among pairs / triples of Ring The Moon's rules, chosen after the result.
 
 No runner holds it.
+
+## BB79 — One sky body carries the same-body line in both charts
+
+Rule: A sky body Y is named in a 'Sky lines on the same target' row on S X -> H X and in one on S X -> J X (any plane; each same-body line with a score). Y not X, not the Moon, not a royal star (the Moon may be the other end of a pair). Broad.
+
+Origin: Newcastle 15:40 11 Mar 2022, 3 Peak Time, Ceres (S Ceres -> H Ceres Dec 6.008907 6 (55.47) carried by S Makemake -> H Ceres Dec 5.993894 (69.47); S Ceres -> J Ceres Dec 4.002709 4 (86.45) by S Makemake -> J Ceres Dec 4.017721 (11.4); S Makemake – S Ceres Dec conj 0.015013 (95)) (Eddie, 17 Nov 2026: 'build this one'). Over 29 result races 10 picks, 5 won, 1.7 by chance (Perfect Part, Wotever Next, On Time, Man On A Mission, Peak Time; lost Royal Context, Logistical, Bollin Joan, Wheres Maud Gone, Black Opium); partly in-sample. Note: a Y conjunct sky X carries both lines by geometry (Peak Time, On Time, Logistical). Versions noted in RULE_CANDIDATES.md (tools/scans/bb_fieldcheck_ceres_carrier.py).
+
+### 04 Logistical — Jupiter (only)
+- S Jupiter → J Jupiter Dec 32.362074 20×φ golden (95.7)
+- S Haumea → J Jupiter Dec 32.351745 20×φ golden (72.42)
+- S Jupiter → H Jupiter Dec 37.000701 37 whole (96.5)
+- S Haumea → H Jupiter Dec 36.990372 37 whole (51.86)
+- S Haumea – S Jupiter Dec 0.010329 conj conj (96.56)
+- Haumea carries Jupiter in both charts: S Jupiter → J Jupiter Dec 32.3621 20×φ (95.7) carried by S Haumea → J Jupiter Dec 32.3517 (72.42); S Jupiter → H Jupiter Dec 37.0007 37 (96.5) carried by S Haumea → H Jupiter Dec 36.9904 (51.86); S Haumea – S Jupiter Dec 0.0103 conj (96.56)
 

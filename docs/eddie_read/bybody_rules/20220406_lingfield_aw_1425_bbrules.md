@@ -1,4 +1,4 @@
-# 20220406_lingfield_aw_1425 — body-by-body rules BB1-BB78
+# 20220406_lingfield_aw_1425 — body-by-body rules BB1-BB79
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -88,6 +88,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB77b | 0 | 0 | - |  |
 | BB77c | 0 | 0 | - |  |
 | BB78 | 0 | 0 | - |  |
+| BB79 | 1 | 1 | 05 Man On A Mission |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1271,4 +1272,19 @@ Rule: A runner holding BB9, BB43 and BB64 (each as built, watch-only cases not c
 Origin: Ffos Las 17:25 23 Mar 2022 Ring The Moon (won 28/1). Eddie, 17 Nov 2026: 'yes, build ... The combination BB9 + BB43 + BB64'. Over 24 result races 3 picks 3 won (Ishvara, Whitefeathersfall, Ring The Moon), 0.5 by chance (tools/scans/bb_combos_ringthemoon.py); found among pairs / triples of Ring The Moon's rules, chosen after the result.
 
 No runner holds it.
+
+## BB79 — One sky body carries the same-body line in both charts
+
+Rule: A sky body Y is named in a 'Sky lines on the same target' row on S X -> H X and in one on S X -> J X (any plane; each same-body line with a score). Y not X, not the Moon, not a royal star (the Moon may be the other end of a pair). Broad.
+
+Origin: Newcastle 15:40 11 Mar 2022, 3 Peak Time, Ceres (S Ceres -> H Ceres Dec 6.008907 6 (55.47) carried by S Makemake -> H Ceres Dec 5.993894 (69.47); S Ceres -> J Ceres Dec 4.002709 4 (86.45) by S Makemake -> J Ceres Dec 4.017721 (11.4); S Makemake – S Ceres Dec conj 0.015013 (95)) (Eddie, 17 Nov 2026: 'build this one'). Over 29 result races 10 picks, 5 won, 1.7 by chance (Perfect Part, Wotever Next, On Time, Man On A Mission, Peak Time; lost Royal Context, Logistical, Bollin Joan, Wheres Maud Gone, Black Opium); partly in-sample. Note: a Y conjunct sky X carries both lines by geometry (Peak Time, On Time, Logistical). Versions noted in RULE_CANDIDATES.md (tools/scans/bb_fieldcheck_ceres_carrier.py).
+
+### 05 Man On A Mission — Ceres (only)
+- S Ceres → H Ceres RA 179.930186 180 opposition (90.69)
+- S Venus – S Regulus RA 179.488300 180 opposition (31.77)
+- S Ceres → J Ceres RA 77.915804 77.7778 ninth (11.27)
+- S Venus – S Rahu RA 77.641581 77.7778 ninth (12.44)
+- S Venus – S Ceres Dec 35.626331 22×φ golden (8.69)
+- Venus carries Ceres in both charts: S Ceres → H Ceres RA 179.9302 180 (90.69) carried by S Venus – S Regulus RA 179.4883 (31.77); S Ceres → J Ceres RA 77.9158 77.7778 (11.27) carried by S Venus – S Rahu RA 77.6416 (12.44); S Venus – S Ceres Dec 35.6263 22×φ (8.69)
+- lights on Ceres: S Moon – S Ceres Dec 0.281664 conj conj (6.11); S Moon → H Ceres RA 177.508710 177.778 ninth (24.32); S Moon → J Ceres Dec 42.337810 10φ³ phi power (64.01)
 

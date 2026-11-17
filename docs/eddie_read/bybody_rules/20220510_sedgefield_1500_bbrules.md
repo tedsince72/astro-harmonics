@@ -1,4 +1,4 @@
-# 20220510_sedgefield_1500 — body-by-body rules BB1-BB78
+# 20220510_sedgefield_1500 — body-by-body rules BB1-BB79
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -88,6 +88,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB77b | 0 | 0 | - |  |
 | BB77c | 0 | 0 | - |  |
 | BB78 | 0 | 0 | - |  |
+| BB79 | 1 | 1 | 04 Wheres Maud Gone |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1104,4 +1105,18 @@ Rule: A runner holding BB9, BB43 and BB64 (each as built, watch-only cases not c
 Origin: Ffos Las 17:25 23 Mar 2022 Ring The Moon (won 28/1). Eddie, 17 Nov 2026: 'yes, build ... The combination BB9 + BB43 + BB64'. Over 24 result races 3 picks 3 won (Ishvara, Whitefeathersfall, Ring The Moon), 0.5 by chance (tools/scans/bb_combos_ringthemoon.py); found among pairs / triples of Ring The Moon's rules, chosen after the result.
 
 No runner holds it.
+
+## BB79 — One sky body carries the same-body line in both charts
+
+Rule: A sky body Y is named in a 'Sky lines on the same target' row on S X -> H X and in one on S X -> J X (any plane; each same-body line with a score). Y not X, not the Moon, not a royal star (the Moon may be the other end of a pair). Broad.
+
+Origin: Newcastle 15:40 11 Mar 2022, 3 Peak Time, Ceres (S Ceres -> H Ceres Dec 6.008907 6 (55.47) carried by S Makemake -> H Ceres Dec 5.993894 (69.47); S Ceres -> J Ceres Dec 4.002709 4 (86.45) by S Makemake -> J Ceres Dec 4.017721 (11.4); S Makemake – S Ceres Dec conj 0.015013 (95)) (Eddie, 17 Nov 2026: 'build this one'). Over 29 result races 10 picks, 5 won, 1.7 by chance (Perfect Part, Wotever Next, On Time, Man On A Mission, Peak Time; lost Royal Context, Logistical, Bollin Joan, Wheres Maud Gone, Black Opium); partly in-sample. Note: a Y conjunct sky X carries both lines by geometry (Peak Time, On Time, Logistical). Versions noted in RULE_CANDIDATES.md (tools/scans/bb_fieldcheck_ceres_carrier.py).
+
+### 04 Wheres Maud Gone — Mars (only)
+- S Mars → J Mars RA 166.935775 166.667 ninth (19.27)
+- S Rahu – S Haumea RA 166.677024 166.667 ninth (96.89)
+- S Mars → H Mars Dec 13.357864 13.3333 ninth (8.01)
+- S Ketu – S Haumea RA 13.322976 13.3333 ninth (61.16)
+- Haumea carries Mars in both charts: S Mars → J Mars RA 166.9358 166.667 (19.27) carried by S Rahu – S Haumea RA 166.6770 (96.89); S Mars → H Mars Dec 13.3579 13.3333 (8.01) carried by S Ketu – S Haumea RA 13.3230 (61.16)
+- lights on Mars: S Moon → H Mars RA 77.659469 48×φ golden (80.98); S Moon → J Mars RA 4.444844 4.44444 ninth (95.5); S Sun → J Mars Dec 7.015049 7 whole (24.75)
 

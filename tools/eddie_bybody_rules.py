@@ -1957,6 +1957,45 @@ def bb68b(b):
             out.append({**c, 'key': ('BB68b',) + c['key'][1:]})
     return out
 
+
+def bb79(b):
+    """K2c (Eddie, 17 Nov 2026, 'build this one'; from Newcastle 15:40 11 Mar 2022 Peak Time Ceres: S Ceres -> H Ceres Dec 6.008907 6 carried
+    by S Makemake -> H Ceres Dec 5.993894 6 and S Ceres -> J Ceres Dec 4.002709 4 by S Makemake -> J Ceres Dec 4.017721 4): one sky body Y
+    carries the same-body line of X in BOTH charts - Y is named in a 'Sky lines on the same target' row on S X -> H X and in one on
+    S X -> J X (any plane; the same-body lines with a score). Y not X, not the Moon, not a royal star (the Moon may be the other end of a
+    pair). Over 29 result races 10 picks 5 won, 1.7 by chance (Perfect Part, Wotever Next, On Time, Man On A Mission, Peak Time;
+    tools/scans/bb_fieldcheck_ceres_carrier.py K2c). Broad; partly in-sample. Note: a Y conjunct sky X carries both lines by geometry."""
+    roy = ('Aldebaran', 'Antares', 'Fomalhaut', 'Regulus')
+    same = {f"{r['line']} {r['plane']}": r for r in b.L
+            if r['line'] in (f'S {b.X} → H {b.X}', f'S {b.X} → J {b.X}') and r['plane'] in ('RA', 'Dec') and r['sc'] is not None}
+    carry = {}
+    for r in b.S:
+        if r.get('match') not in same:
+            continue
+        for part in r['line'].replace(' → ', '|').replace(' – ', '|').split('|'):
+            part = part.strip()
+            if not part.startswith('S '):
+                continue
+            Y = part[2:]
+            if Y in (b.X, 'Moon') or Y in roy:
+                continue
+            carry.setdefault(Y, {}).setdefault(r['match'], []).append(r)
+    out = []
+    for Y, ms in sorted(carry.items()):
+        if {m.split(' → ')[1][0] for m in ms} != {'H', 'J'}:
+            continue
+        cells, parts = [], []
+        for m, rs in ms.items():
+            cells += [same[m]] + rs
+            parts.append(f"{m} {same[m]['v']:.4f} {same[m]['tgt']} ({same[m]['sc']}) carried by " +
+                         ', '.join(f"{c['line']} {c['plane']} {c['v']:.4f} ({c['sc']})" for c in rs))
+        sky = [o for o in b.O if o['line'] == f'S {Y} – S {b.X}' and o['sc'] is not None]
+        note = f"{Y} carries {b.X} in both charts: " + '; '.join(parts)
+        if sky:
+            note += '; ' + ', '.join(f"{o['line']} {o['plane']} {o['v']:.4f} {o['tgt']} ({o['sc']})" for o in sky)
+        out.append({'key': ('BB79', b.X, Y), 'cells': cells + sky, 'notes': [note]})
+    return out
+
 def bb75(b):
     """H0 (Eddie, 17 Nov 2026, 'build H0'; from Perth 16:10 20 Apr 2022 Daphne Moon Haumea: H Haumea - J Haumea RA 16.6664 ninth 16.6667
     (99.31) carried by S Juno - S Regulus Dec 16.6500 (50.08)): H X - J X in a number family (not conj / contraparallel / opposition)
@@ -2090,7 +2129,7 @@ RULES = [('BB1', bb1, 'Mercury'), ('BB1b', bb1b, 'any'), ('BB2', bb2, 'Mars'), (
          ('BB21', bb21, 'Saturn'), ('BB22', bb22, 'Saturn'), ('BB23', bb23, 'Neptune'), ('BB24', bb24, 'Rahu'), ('BB25', bb25, 'Ketu'), ('BB26', bb26, 'Ceres'), ('BB27', bb27, 'Pallas'), ('BB28', bb28, 'Juno'), ('BB29', bb29, 'Vesta'), ('BB30', bb30, 'Eris'), ('BB31', bb31, 'Gonggong'),
          ('BB32', bb32, 'Sun'), ('BB32b', bb32b, 'Sun'), ('BB33', bb33, 'Mercury'), ('BB34', bb34, 'Mars'), ('BB35', bb35, 'Saturn'),
          ('BB36', bb36, 'Uranus'), ('BB37', bb37, 'Pluto'), ('BB38', bb38, 'Juno'), ('BB39', bb39, 'Makemake'),
-         ('BB40', bb40, 'Sedna'), ('BB41', bb41, 'Sun'), ('BB42', bb42, 'Mercury'), ('BB43', bb43, 'Venus'), ('BB44', bb44, 'Jupiter'), ('BB45', bb45, 'Saturn'), ('BB46', bb46, 'Saturn'), ('BB47', bb47, 'Ceres'), ('BB48', bb48, 'Chiron'), ('BB49', bb49, 'Haumea'), ('BB50', bb50, 'Makemake'), ('BB51', bb51, 'Venus'), ('BB52', bb52, 'Uranus'), ('BB53', bb53, 'any'), ('BB54', bb54, 'any'), ('BB55', bb55, 'any'), ('BB56', bb56, 'any'), ('BB57', bb57, 'any'), ('BB58', bb58, 'any'), ('BB59', bb59, 'any'), ('BB60', bb60, 'any'), ('BB61', bb61, 'any'), ('BB62', bb62, 'any'), ('BB63', bb63, 'any'), ('BB64', bb64, 'any'), ('BB65', bb65, 'Sun'), ('BB66', bb66, 'any'), ('BB67', None, 'any'), ('BB68', bb68, 'any'), ('BB68b', bb68b, 'any'), ('BB69', bb69, 'any'), ('BB69b', bb69b, 'any'), ('BB70', bb70, 'any'), ('BB71', None, 'any'), ('BB72', None, 'any'), ('BB73', None, 'any'), ('BB74', None, 'any'), ('BB75', bb75, 'any'), ('BB76', bb76, 'any'), ('BB77', bb77, 'any'), ('BB77b', bb77b, 'any'), ('BB77c', bb77c, 'any'), ('BB78', None, 'any')]
+         ('BB40', bb40, 'Sedna'), ('BB41', bb41, 'Sun'), ('BB42', bb42, 'Mercury'), ('BB43', bb43, 'Venus'), ('BB44', bb44, 'Jupiter'), ('BB45', bb45, 'Saturn'), ('BB46', bb46, 'Saturn'), ('BB47', bb47, 'Ceres'), ('BB48', bb48, 'Chiron'), ('BB49', bb49, 'Haumea'), ('BB50', bb50, 'Makemake'), ('BB51', bb51, 'Venus'), ('BB52', bb52, 'Uranus'), ('BB53', bb53, 'any'), ('BB54', bb54, 'any'), ('BB55', bb55, 'any'), ('BB56', bb56, 'any'), ('BB57', bb57, 'any'), ('BB58', bb58, 'any'), ('BB59', bb59, 'any'), ('BB60', bb60, 'any'), ('BB61', bb61, 'any'), ('BB62', bb62, 'any'), ('BB63', bb63, 'any'), ('BB64', bb64, 'any'), ('BB65', bb65, 'Sun'), ('BB66', bb66, 'any'), ('BB67', None, 'any'), ('BB68', bb68, 'any'), ('BB68b', bb68b, 'any'), ('BB69', bb69, 'any'), ('BB69b', bb69b, 'any'), ('BB70', bb70, 'any'), ('BB71', None, 'any'), ('BB72', None, 'any'), ('BB73', None, 'any'), ('BB74', None, 'any'), ('BB75', bb75, 'any'), ('BB76', bb76, 'any'), ('BB77', bb77, 'any'), ('BB77b', bb77b, 'any'), ('BB77c', bb77c, 'any'), ('BB78', None, 'any'), ('BB79', bb79, 'any')]
 
 
 def decade_pairs(cells):
