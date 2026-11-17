@@ -1508,3 +1508,7 @@ same-body line S X -> c X; Y = a sky body in the carrier (not X, Moon, royal).
 S1s one sky pair carrying the same royal star's natal line in both charts, all >= 70: 4 / 1 / 0.7 (Silva Eclipse only winner).
 R3s one royal star on X in sky, horse and jockey, all >= 70: 8 / 2 / 1.2 (Dynamic Force, Silva Eclipse); R3s+ 3 / 1 / 0.4.
 T70 same royal star on natal X both charts + H X – J X, one family, >= 70: 10 / 3 / 1.7 (Dynamic Force, Aldhaja, Silva Eclipse; geometry).
+Silva Eclipse Makemake run of ninths (Aldebaran 122.222 H / 111.111 J, H–J 11.1111; tools/scans/bb_fieldcheck_silva_ninths.py, 30 races;
+the H–J line mostly geometry): N2 (same royal star on natal X both charts, both ninths) 56 / 8 / 8.9; N2s (both >= 70) 6 / 1 / 0.7;
+N3 (+ H–J ninth) 7 / 2 / 1.2 (Whitefeathersfall, Silva Eclipse); N3s (all >= 70) 2 / 1 / 0.3 (Good Time Ahead 13.333 / 8.889 / 4.444 lost);
+N3d (two targets on the same digits) 1 / 1 / 0.2 (Silva Eclipse only). Noted, not built.
