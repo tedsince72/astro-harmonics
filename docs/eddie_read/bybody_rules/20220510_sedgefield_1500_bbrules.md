@@ -1,4 +1,4 @@
-# 20220510_sedgefield_1500 — body-by-body rules BB1-BB74
+# 20220510_sedgefield_1500 — body-by-body rules BB1-BB75
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -81,6 +81,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB72 | 0 | 0 | - |  |
 | BB73 | 0 | 0 | - |  |
 | BB74 | 0 | 0 | - |  |
+| BB75 | 2 | 1 | 01 Blue Collar Glory |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1032,4 +1033,21 @@ Rule: A runner holding both BB14 and BB23, each as built (watch-only cases not c
 Origin: Kelso 14:50 4 May 2022 Domandlouis (won 12/1): BB14 Quaoar, BB23 Mercury. Also Ripon 15:25 2022 Society Red, Chelmsford AW 13:20 2024 Sullivan Bay; lost: Beverley 2024 Havana White, Fontwell 2023 Biscoff Joe, Nottingham 15:30 2022 Ballet Steps. Eddie, 17 Nov 2026: 'build as rules'. Over 21 result races 6 picks, 3 won, 1.0 by chance; found among about 160 pairs / triples of Domandlouis's items, chosen after the result.
 
 No runner holds it.
+
+## BB75 — H X – J X carried by a royal-star sky pair
+
+Rule: H X – J X in a number family (not conj / contraparallel / opposition) scoring >= 90, carried by a sky pair S A – S R on the same family + target, R a royal star (Aldebaran, Antares, Fomalhaut, Regulus), the pair in a number family (any score). X not the Moon.
+
+Origin: Perth 16:10 20 Apr 2022 Daphne Moon (won 10/1): H Haumea – J Haumea RA 16.6664 ninth 16.6667 (99.31) carried by S Juno – S Regulus Dec 16.6500 (50.08); also H Regulus – H Haumea Dec 5.9999 6 (99.65), S Regulus – S Haumea RA 40×φ (76.66), Juno on both natal Haumeas. Eddie, 17 Nov 2026: 'build H0'. Over 22 result races 12 picks, 5 won, 2.0 by chance (Novakai Eris, The Dunkirk Lads Orcus, Dynamic Force Eris, Blue Collar Glory Venus, Daphne Moon Haumea); any carrier 39 / 8 / 6.3; with the same royal star on natal X (H1) 3 / 1 / 0.5. Chosen after the result, one version tried (tools/scans/bb_fieldcheck_daphne.py).
+
+### 01 Blue Collar Glory — Venus (only)
+- H Venus – J Venus Dec 11.326258 7×φ golden (99.94)
+- S Ketu – S Fomalhaut Dec 11.300615 7×φ golden (20.92)
+- H Venus – J Venus Dec 11.3263 7×φ golden (99.94) carried by S Ketu – S Fomalhaut Dec 11.3006 (20.92)
+
+### 01 Blue Collar Glory — Orcus (only)
+- H Orcus – J Orcus RA 18.890432 18.8889 ninth (95.92)
+- S Juno – S Aldebaran Dec 18.920681 18.8889 ninth (15.84)
+- H Orcus – J Orcus RA 18.8904 18.8889 ninth (95.92) carried by S Juno – S Aldebaran Dec 18.9207 (15.84)
+- lights on Orcus: S Moon – S Orcus Dec 24.161312 24.14 silver (47.05); S Moon → J Orcus Dec 11.085163 φ⁵ phi power (69.9); S Sun → J Orcus Dec 16.010625 16 whole (46.87)
 

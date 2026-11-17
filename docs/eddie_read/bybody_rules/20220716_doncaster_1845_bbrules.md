@@ -1,4 +1,4 @@
-# 20220716_doncaster_1845 — body-by-body rules BB1-BB74
+# 20220716_doncaster_1845 — body-by-body rules BB1-BB75
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -81,6 +81,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB72 | 0 | 0 | - |  |
 | BB73 | 0 | 0 | - |  |
 | BB74 | 0 | 0 | - |  |
+| BB75 | 1 | 1 | 05 Novakai |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1141,4 +1142,16 @@ Rule: A runner holding both BB14 and BB23, each as built (watch-only cases not c
 Origin: Kelso 14:50 4 May 2022 Domandlouis (won 12/1): BB14 Quaoar, BB23 Mercury. Also Ripon 15:25 2022 Society Red, Chelmsford AW 13:20 2024 Sullivan Bay; lost: Beverley 2024 Havana White, Fontwell 2023 Biscoff Joe, Nottingham 15:30 2022 Ballet Steps. Eddie, 17 Nov 2026: 'build as rules'. Over 21 result races 6 picks, 3 won, 1.0 by chance; found among about 160 pairs / triples of Domandlouis's items, chosen after the result.
 
 No runner holds it.
+
+## BB75 — H X – J X carried by a royal-star sky pair
+
+Rule: H X – J X in a number family (not conj / contraparallel / opposition) scoring >= 90, carried by a sky pair S A – S R on the same family + target, R a royal star (Aldebaran, Antares, Fomalhaut, Regulus), the pair in a number family (any score). X not the Moon.
+
+Origin: Perth 16:10 20 Apr 2022 Daphne Moon (won 10/1): H Haumea – J Haumea RA 16.6664 ninth 16.6667 (99.31) carried by S Juno – S Regulus Dec 16.6500 (50.08); also H Regulus – H Haumea Dec 5.9999 6 (99.65), S Regulus – S Haumea RA 40×φ (76.66), Juno on both natal Haumeas. Eddie, 17 Nov 2026: 'build H0'. Over 22 result races 12 picks, 5 won, 2.0 by chance (Novakai Eris, The Dunkirk Lads Orcus, Dynamic Force Eris, Blue Collar Glory Venus, Daphne Moon Haumea); any carrier 39 / 8 / 6.3; with the same royal star on natal X (H1) 3 / 1 / 0.5. Chosen after the result, one version tried (tools/scans/bb_fieldcheck_daphne.py).
+
+### 05 Novakai — Eris (only)
+- H Eris – J Eris Dec 10.001156 10 whole (94.22)
+- S Jupiter – S Regulus Dec 9.989309 10 ninth (46.55)
+- H Eris – J Eris Dec 10.0012 10 whole (94.22) carried by S Jupiter – S Regulus Dec 9.9893 (46.55)
+- lights on Eris: S Sun – S Eris Dec 22.228759 22.2222 ninth (85.29); S Sun – S Eris RA 88.759344 88.8889 ninth (27.13); S Sun → H Eris RA 89.996782 90 whole (83.91); S Moon → H Eris Dec 12.933882 8×φ golden (67.93)
 

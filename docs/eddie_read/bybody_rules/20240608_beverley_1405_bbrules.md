@@ -1,4 +1,4 @@
-# 20240608_beverley_1405 — body-by-body rules BB1-BB74
+# 20240608_beverley_1405 — body-by-body rules BB1-BB75
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -81,6 +81,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB72 | 0 | 0 | - |  |
 | BB73 | 0 | 0 | - |  |
 | BB74 | 1 | 1 | 14 Havana White |  |
+| BB75 | 1 | 1 | 09 Nad Alshiba Snow |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -2128,4 +2129,15 @@ Origin: Kelso 14:50 4 May 2022 Domandlouis (won 12/1): BB14 Quaoar, BB23 Mercury
 - S Ketu – S Transpluto Dec 15.559355 15.5556 ninth (87.79)
 - BB14: Eris
 - BB23: Rahu, Transpluto
+
+## BB75 — H X – J X carried by a royal-star sky pair
+
+Rule: H X – J X in a number family (not conj / contraparallel / opposition) scoring >= 90, carried by a sky pair S A – S R on the same family + target, R a royal star (Aldebaran, Antares, Fomalhaut, Regulus), the pair in a number family (any score). X not the Moon.
+
+Origin: Perth 16:10 20 Apr 2022 Daphne Moon (won 10/1): H Haumea – J Haumea RA 16.6664 ninth 16.6667 (99.31) carried by S Juno – S Regulus Dec 16.6500 (50.08); also H Regulus – H Haumea Dec 5.9999 6 (99.65), S Regulus – S Haumea RA 40×φ (76.66), Juno on both natal Haumeas. Eddie, 17 Nov 2026: 'build H0'. Over 22 result races 12 picks, 5 won, 2.0 by chance (Novakai Eris, The Dunkirk Lads Orcus, Dynamic Force Eris, Blue Collar Glory Venus, Daphne Moon Haumea); any carrier 39 / 8 / 6.3; with the same royal star on natal X (H1) 3 / 1 / 0.5. Chosen after the result, one version tried (tools/scans/bb_fieldcheck_daphne.py).
+
+### 09 Nad Alshiba Snow — Chiron (only)
+- H Chiron – J Chiron Dec 6.999481 7 whole (97.4)
+- S Vesta – S Aldebaran Dec 6.990884 7 whole (54.42)
+- H Chiron – J Chiron Dec 6.9995 7 whole (97.4) carried by S Vesta – S Aldebaran Dec 6.9909 (54.42)
 

@@ -1,4 +1,4 @@
-# 20231006_fontwell_1530 — body-by-body rules BB1-BB74
+# 20231006_fontwell_1530 — body-by-body rules BB1-BB75
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -81,6 +81,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB72 | 1 | 1 | 03 Kilcummin |  |
 | BB73 | 0 | 0 | - |  |
 | BB74 | 1 | 1 | 01 Biscoff Joe |  |
+| BB75 | 1 | 1 | 04 Logistical |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1234,4 +1235,16 @@ Origin: Kelso 14:50 4 May 2022 Domandlouis (won 12/1): BB14 Quaoar, BB23 Mercury
 - S Eris – S Quaoar Dec 14.461573 14.4444 ninth (40.71)
 - BB14: Eris
 - BB23: Quaoar
+
+## BB75 — H X – J X carried by a royal-star sky pair
+
+Rule: H X – J X in a number family (not conj / contraparallel / opposition) scoring >= 90, carried by a sky pair S A – S R on the same family + target, R a royal star (Aldebaran, Antares, Fomalhaut, Regulus), the pair in a number family (any score). X not the Moon.
+
+Origin: Perth 16:10 20 Apr 2022 Daphne Moon (won 10/1): H Haumea – J Haumea RA 16.6664 ninth 16.6667 (99.31) carried by S Juno – S Regulus Dec 16.6500 (50.08); also H Regulus – H Haumea Dec 5.9999 6 (99.65), S Regulus – S Haumea RA 40×φ (76.66), Juno on both natal Haumeas. Eddie, 17 Nov 2026: 'build H0'. Over 22 result races 12 picks, 5 won, 2.0 by chance (Novakai Eris, The Dunkirk Lads Orcus, Dynamic Force Eris, Blue Collar Glory Venus, Daphne Moon Haumea); any carrier 39 / 8 / 6.3; with the same royal star on natal X (H1) 3 / 1 / 0.5. Chosen after the result, one version tried (tools/scans/bb_fieldcheck_daphne.py).
+
+### 04 Logistical — Juno (only)
+- H Juno – J Juno RA 55.016379 34×φ golden (90.05)
+- S Pallas – S Antares RA 54.982288 55 whole (11.44)
+- H Juno – J Juno RA 55.0164 34×φ golden (90.05) carried by S Pallas – S Antares RA 54.9823 (11.44)
+- lights on Juno: S Sun – S Juno RA 46.968543 φ⁸ phi power (85.57); S Moon → H Juno RA 97.079226 60×φ golden (91.32); S Moon → J Juno RA 42.062847 26×φ golden (81.37); S Sun → J Juno Dec 12.920235 8×φ golden (25.81)
 

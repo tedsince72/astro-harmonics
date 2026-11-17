@@ -1,4 +1,4 @@
-# 20220509_musselburgh_1550 — body-by-body rules BB1-BB74
+# 20220509_musselburgh_1550 — body-by-body rules BB1-BB75
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -81,6 +81,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB72 | 1 | 1 | 03 John Kirkup |  |
 | BB73 | 0 | 0 | - |  |
 | BB74 | 0 | 0 | - |  |
+| BB75 | 1 | 1 | 02 Primo's Comet |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1151,4 +1152,16 @@ Rule: A runner holding both BB14 and BB23, each as built (watch-only cases not c
 Origin: Kelso 14:50 4 May 2022 Domandlouis (won 12/1): BB14 Quaoar, BB23 Mercury. Also Ripon 15:25 2022 Society Red, Chelmsford AW 13:20 2024 Sullivan Bay; lost: Beverley 2024 Havana White, Fontwell 2023 Biscoff Joe, Nottingham 15:30 2022 Ballet Steps. Eddie, 17 Nov 2026: 'build as rules'. Over 21 result races 6 picks, 3 won, 1.0 by chance; found among about 160 pairs / triples of Domandlouis's items, chosen after the result.
 
 No runner holds it.
+
+## BB75 — H X – J X carried by a royal-star sky pair
+
+Rule: H X – J X in a number family (not conj / contraparallel / opposition) scoring >= 90, carried by a sky pair S A – S R on the same family + target, R a royal star (Aldebaran, Antares, Fomalhaut, Regulus), the pair in a number family (any score). X not the Moon.
+
+Origin: Perth 16:10 20 Apr 2022 Daphne Moon (won 10/1): H Haumea – J Haumea RA 16.6664 ninth 16.6667 (99.31) carried by S Juno – S Regulus Dec 16.6500 (50.08); also H Regulus – H Haumea Dec 5.9999 6 (99.65), S Regulus – S Haumea RA 40×φ (76.66), Juno on both natal Haumeas. Eddie, 17 Nov 2026: 'build H0'. Over 22 result races 12 picks, 5 won, 2.0 by chance (Novakai Eris, The Dunkirk Lads Orcus, Dynamic Force Eris, Blue Collar Glory Venus, Daphne Moon Haumea); any carrier 39 / 8 / 6.3; with the same royal star on natal X (H1) 3 / 1 / 0.5. Chosen after the result, one version tried (tools/scans/bb_fieldcheck_daphne.py).
+
+### 02 Primo's Comet — Sun (only)
+- H Sun – J Sun Dec 7.001688 7 whole (91.56)
+- S Gonggong – S Fomalhaut RA 6.997090 7 whole (85.45)
+- H Sun – J Sun Dec 7.0017 7 whole (91.56) carried by S Gonggong – S Fomalhaut RA 6.9971 (85.45)
+- lights on Sun: S Moon – S Sun Dec 0.050542 conj conj (83.15)
 

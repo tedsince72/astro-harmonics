@@ -92,6 +92,7 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB72': {('05 Pholas', 'runner')},
     'BB73': set(),
     'BB74': set(),
+    'BB75': set(),
     'BB55': {('01 Arafi', 'Gonggong'), ('01 Arafi', 'Venus'), ('04 Nirodha', 'Saturn'), ('05 Pholas', 'Pallas')},
     'BB53': {('06 Shimmering Dawn', 'Sun'), ('06 Shimmering Dawn', 'Jupiter'), ('06 Shimmering Dawn', 'Pallas')},
 }
@@ -800,5 +801,24 @@ for race, win in HC.RACES + [('20220509_musselburgh_1550', 'John Kirkup'), ('202
     t73 += len(h73); w73 += sum(win in x for x in h73); t74 += len(exp74); w74 += sum(win in x for x in exp74)
 check((t73, w73) == (5, 4), f'BB73 5 holders, 4 won over the result races ({t73}, {w73})')
 check((t74, w74) == (6, 3), f'BB74 6 holders, 3 won over the result races ({t74}, {w74})')
+# BB75 (Eddie, 17 Nov 2026): H X – J X >= 90 carried by a royal-star sky pair (Perth Daphne Moon)
+PER = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', '20220420_perth_1610', '20220420_perth_1610_bybody.xlsx')
+if os.path.exists(PER):
+    pd_ = R.run(PER)[2]
+    check({(c['runner'], c['body']) for c in pd_['BB75']} == {('05 Daphne Moon', 'Haumea')}, 'BB75 Perth: Daphne Moon Haumea')
+    check(pd_['BB75'][0]['notes'] == ['H Haumea – J Haumea RA 16.6664 16.6667 ninth (99.31) carried by S Juno – S Regulus Dec 16.6500 (50.08)'],
+          'BB75 notes')
+import bb_fieldcheck_daphne as FD
+t75 = w75 = 0
+for race, win in FD.RACES:
+    pth = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', race, f'{race}_bybody.xlsx')
+    if not os.path.exists(pth):
+        continue
+    rr = R.run(pth)[2]
+    h = {c['runner'] for c in rr['BB75'] if not c['watch_only']}
+    exp = {run for run, d in R.load(pth).items() if 'H0' in FD.cases(d)}
+    check(h == exp, f'BB75 = scan H0 {race}')
+    t75 += len(h); w75 += sum(win in x for x in h)
+check((t75, w75) == (12, 5), f'BB75 12 holders, 5 won over the result races ({t75}, {w75})')
 print(f'{ok}/{ok + bad} checks passed')
 sys.exit(1 if bad else 0)

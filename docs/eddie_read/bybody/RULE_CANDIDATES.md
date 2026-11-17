@@ -1435,3 +1435,4 @@ Watch (Eddie, 16 Nov 2026: 'keep on watch'): K1d added to tools/scans/bb_watch_r
   on sky X, the other end on natal X): Daphne Moon only (H1 3 / 1 / 0.5).
 - Sun: S0 = same-body line + a sky body on the other chart's X on the same target 43 / 11 / 7.0; S1 (that line >= 90) 5 / 1 / 1.0;
   S2 / S3 (+ the body on both natal X) Daphne Moon only.
+- Built 17 Nov 2026 (Eddie, 'build H0'): H0 = BB75. H1-H4 and the Sun shape left as notes.
