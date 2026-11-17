@@ -1,0 +1,90 @@
+# Watch items — 20211014_carlisle_1355 (blind)
+
+## Rules held
+| runner | as built | under T2 | lost under T2 |
+|---|---|---|---|
+| 01 Arvico Bleu | 3: BB2, BB3, BB28 | 3 | — |
+| 03 Slanelough | 11: BB2, BB3, BB6, BB32, BB42, BB50, BB53, BB54, BB64, BB77b, BB77c | 9 | BB77b, BB77c |
+| 04 Gold Des Bois | 9: BB3, BB4, BB7, BB8, BB14, BB35, BB48, BB68, BB73 | 4 | BB3, BB4, BB7, BB48, BB73 |
+| 05 Finisk River | 14: BB7, BB8, BB12, BB14, BB20, BB25, BB27, BB30, BB35, BB43, BB55, BB56, BB63, BB68 | 13 | BB30 |
+| 06 If Not For Dylan | 7: BB3, BB4, BB6, BB7, BB9, BB25, BB53 | 7 | — |
+
+## Combinations to watch (as built | under T2)
+- BB3 + BB63: none | none
+- BB3 + BB54: 03 Slanelough | 03 Slanelough
+- BB59: none | none
+- BB48 + BB55: none | none
+- BB13 + BB48 + BB55: none | none
+- BB32 + BB34: none | none
+- BB63 + BB68: 05 Finisk River | 05 Finisk River
+- BB3 + BB63 + BB68: none | none
+- BB1 + BB14: none | none
+- BB1 + BB14 + BB68: none | none
+- BB1 + BB12 + BB7: none | none
+- J1any + BB14: 04 Gold Des Bois | 04 Gold Des Bois
+- J1any + BB20: none | none
+- J1any + BB68: 04 Gold Des Bois | 04 Gold Des Bois
+- BB10 + BB7 + BB9: none | none
+- BB10 + BB23 + BB7: none | none
+- BB2 + BB23 + BB7: none | none
+- BB10 + BB2 + BB9: none | none
+- BB10 + BB23 + BB9: none | none
+- BB23 + BB7 + BB9: none | none
+- BB10 + BB60: none | none
+
+## P4 watch (Athmad Pluto loop) and P1-P3
+- P1: 05 Finisk River
+- P2: none
+- P3: none
+- P4: none
+
+## S Pluto -> natal Pluto scoring
+- 01 Arvico Bleu: S Pluto → J Pluto RA 59.8664 37×φ golden (97.48)
+- 05 Finisk River: S Pluto → H Pluto RA 14.1500 14.14 sqrt2 (62.93)
+- 05 Finisk River: S Pluto → H Pluto Dec 3.2563 2×φ golden (37.7)
+
+## Jupiter loop (watch C; A, B, D listed too)
+- none
+
+## N2 / N4 watch (Whitefeathersfall)
+- none
+
+## Mirror watch (Society Red Venus; M4 = mirror >= 90 + sky body + royal star on sky X)
+- 01 Arvico Bleu [M1, M1b, M2, M5, M2b]: H Quaoar: mirror 90.66; sky bodies on S Quaoar: ['Jupiter', 'Uranus']; royal on S Quaoar: []; carried to H Quaoar: ['Jupiter', 'Uranus'] / royal []
+- 03 Slanelough [M1b, M2b]: H Quaoar: mirror 85.38; sky bodies on S Quaoar: ['Jupiter', 'Uranus']; royal on S Quaoar: []; carried to H Quaoar: ['Jupiter', 'Uranus'] / royal []
+- 06 If Not For Dylan [M1, M1b, M2, M5, M2b]: H Quaoar: mirror 90.62; sky bodies on S Quaoar: ['Jupiter', 'Uranus']; royal on S Quaoar: []; carried to H Quaoar: ['Jupiter', 'Uranus'] / royal []
+
+## Royal star both natal X watch (Dynamic Force Jupiter Antares; A2 = same royal star on natal X both charts, same plane, one same-body ratio >= 50, the other chart's line in a family carried by a sky pair >= 90 naming sky X)
+- none
+
+## One sky body on both natal X watch (Blue Collar Glory Venus / Ketu; K1d = H X – J X in Dec >= 90 + a sky body on H X and J X >= 90; K2 = + that body in a sky pair on the H X – J X number)
+- none
+
+## Regulus on 11 watch (Aldhaja Rahu, Domandlouis Jupiter; R11 = a Regulus natal line with a same-body or crossed ratio on 11 scoring >= 90; R11w = 50-90)
+- 04 Gold Des Bois Saturn [R11]: J Regulus – J Saturn Dec 34.525345 (no family); same-body ratio vs S Saturn → J Saturn Dec = 10.997245 11 1/11 cut (94.99)
+- 06 If Not For Dylan Eris [R11w]: H Regulus – H Eris Dec 14.726228 (no family); same-body ratio vs S Eris → H Eris Dec = 10.991412 11 1/11 cut (84.39)
+- 04 Gold Des Bois Pluto [R11w]: H Regulus – H Pluto RA 132.102863 (no family); same-body ratio vs S Pluto → H Pluto RA = 10.979725 11 1/11 cut (63.14)
+
+## Same royal star in the sky pair watch (Eydon Jupiter; G0s = a natal royal line R – X carried by S Y – S R, both >= 90; G1 + sky X on natal Y, G2 + a Sun / Moon line on sky X, G2s light >= 90)
+- none
+
+## Jupiter–Jupiter on a sky number watch (River Bray, Society Red; J1any = H Jupiter – J Jupiter in a number family, any score, with 2+ sky pairs on its target; J1any+B68 = and BB68 held)
+- 04 Gold Des Bois [J1any+B68]: H Jupiter – J Jupiter RA 12.9533 8×φ (72) / S Venus – S Gonggong Dec 12.9580 (57.59); S Saturn – S Pluto RA 12.9637 (39.95); S Mars – S Chiron Dec 12.9693 (22.74)
+
+## Watch B / Jupiter split
+- Watch B (H Jupiter – J Jupiter >= 90): none; 04 Gold Des Bois H Jupiter – J Jupiter RA 12.9533 8×φ (72) tagged A / E / F.
+- Jupiter split: 04 Gold Des Bois E and Ef (RA: S Jupiter → H Jupiter 137.5203 85×φ (61.2), S Jupiter → J Jupiter 124.5670 77×φ (33.2),
+  H–J 12.9533 8×φ (72)).
+
+## Read (17 Nov 2026, blind, BB1-BB79 + depth; 5 runners, no cloth 2 in the file)
+- Rule counts: 05 Finisk River 14 (alone BB12, BB20, BB27, BB30, BB43, BB55, BB56, BB63), 03 Slanelough 11 (alone BB32, BB42, BB50, BB54,
+  BB64, BB77b, BB77c), 04 Gold Des Bois 9 (alone BB48, BB73), 06 If Not For Dylan 7 (alone BB9), 01 Arvico Bleu 3 (alone BB28).
+- 04 Gold Des Bois: only BB73 holder (BB14 Jupiter + J Regulus – J Saturn same-body ratio 10.997245 on 11, 94.99 = the only R11 in the
+  field), J1any+B68 and J1any+BB14 (H Jupiter – J Jupiter RA 8×φ 72 with three sky pairs on 8×φ; only holder), Jupiter split E / Ef,
+  BB68 Rahu (S Ceres – S Rahu 4.4445 99.65 + S Ceres → H Rahu 27 57.93), depth 5 (Pallas). Under T2 only 4 rules.
+- 05 Finisk River: rule-count leader by 3, BB63 + BB68 (only holder; BB68 Ceres on the same sky pair S Rahu – S Ceres 4.4445), depth 5
+  (Makemake, Quaoar), 5 bodies at 3+, P1; 13 rules under T2.
+- 03 Slanelough: BB77b / BB77c (H Regulus – H Quaoar RA 111.1003 (95.16), S Uranus – S Regulus 111.0680), BB3 + BB54; depth 3.
+- Lead: 04 Gold Des Bois (the rarest watched items together: BB73, J1any+B68, R11, Jupiter split). Second: 05 Finisk River (most rules,
+  BB63 + BB68, deepest). Close between the two.
+- Independent checker (blind, own parser): counts, alone lists, Jupiter lines and field, R11 field, BB73 / BB68 / BB63, depth: 0 mismatches.
