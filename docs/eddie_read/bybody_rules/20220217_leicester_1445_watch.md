@@ -87,3 +87,13 @@
 - Lead: 01 Fransham (most rules, D1 + BB3). Second: 05 Stepney Causeway (BB69, BB68, deepest by bodies at 3+).
 - Independent checker (own parser): field, counts, alone lists, BB80, BB81 (none), BB3 set, BB69 per-runner counts, BB68 cells, Watch B:
   0 mismatches.
+
+## Result (from Eddie, 17 Nov 2026)
+1 Nelson River 20/1, 2 Nickolson EvensF, 3 Stepney Causeway 2/1 (second), PU Fransham 9/2 (lead). 4 ran (NR Earth Spirit).
+- Miss: lead pulled up, second 3rd. Winner Nelson River with the fewest rules (7; 3 under T2): alone BB15 (Makemake: H Fomalhaut – H Makemake
+  Dec 55.5808 ninth 55.5556 (77.32), S Mars – S Fomalhaut RA 55.5359 (82.31), S Vesta → J Makemake Dec 55.6205 (41.53)), BB32 (Sun: H Regulus –
+  H Sun RA 177.8021 ninth 177.778 (93.16), S Orcus → H Sun RA 177.5687 (41.2), S Orcus conj sky Sun Dec 0.1585 (47.17)), BB43 (Juno: S Juno → H
+  Juno RA 177.7114 177.778 (81.34) closed by S Gonggong – S Transpluto RA 178.0652 (19.17), Gonggong conj sky Juno Dec, Transpluto on H Juno and
+  J Juno); also BB3 on 4 bodies, BB9 Sedna, BB13 Juno, BB48 Saturn, BB65 note A (RA), P1; depth 5 (Juno), 2 bodies at 3+.
+- 177.778 ninth on two of his bodies: H Regulus – H Sun RA (93.16) and S Juno → H Juno RA (81.34).
+- Third winner with the fewest rules in four races (Peak Time, Arvico Bleu, Nelson River); rule-count leader lost again.
