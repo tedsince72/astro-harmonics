@@ -18,7 +18,10 @@
 - Regulus on 11 (Eddie, 17 Nov 2026, 'keep this'; from Haydock 17:18 Aldhaja Rahu and Kelso 14:50 Domandlouis Jupiter;
   tools/scans/bb_fieldcheck_royal_cut.py): a Regulus natal line to X whose same-body or crossed ratio is on '11 1/11 cut' scoring
   >= 90 is the watch item (6 picks 3 won, 1.0 by chance over 21 result races: Secret Satire, Cafe Sydney, Aldhaja; chosen after the
-  results); cases scoring 50-90 listed too (19 / 5 / 3.0 at >= 50)."""
+  results); cases scoring 50-90 listed too (19 / 5 / 3.0 at >= 50).
+- Same royal star in the sky pair (Eddie, 17 Nov 2026, from Newmarket 15:35 Eydon Jupiter; tools/scans/bb_fieldcheck_eydon.py): G0s is
+  the watch item - a natal royal line R – X carried by a sky pair S Y – S R with the same royal star, both lines >= 90 (3 picks 2 won,
+  0.4 by chance over 23 result races: Diligent Resdev, Eydon); G1 / G2 / G2s tags shown on its cases."""
 import json, sys
 sys.path.insert(0, 'tools'); sys.path.insert(0, 'tools/scans')
 import eddie_bybody_rules as E
@@ -28,6 +31,7 @@ import bb_fieldcheck_mirror as MR
 import bb_fieldcheck_royal_both as RB
 import bb_fieldcheck_hj_both as HB
 import bb_fieldcheck_royal_cut as RC
+import bb_fieldcheck_eydon as EY
 
 race = sys.argv[1]
 data = E.load(f'docs/eddie_read/bybody/{race}/{race}_bybody.xlsx')
@@ -149,5 +153,14 @@ for run, bodies in data.items():
                     r11.append((-sc, f"- {run} {X} [{tag}]: {x['line']} {x['plane']} {x['v']:.6f} {fam}; {kind} ratio vs {base} = "
                                      f"{(x['r'] if kind == 'same-body' else x['xr']):.6f} {t} ({sc})"))
 out += [t for _, t in sorted(r11)] or ['- none']
+out += ['', '## Same royal star in the sky pair watch (Eydon Jupiter; G0s = a natal royal line R – X carried by S Y – S R, both >= 90; '
+        'G1 + sky X on natal Y, G2 + a Sun / Moon line on sky X, G2s light >= 90)']
+ey = []
+for run, bodies in data.items():
+    cs = EY.cases(bodies)
+    for t in cs.get('G0s', []):
+        tags = [k for k in ('G1', 'G2', 'G2s') if any(u.startswith(t) for u in cs.get(k, []))]
+        ey.append(f"- {run} [G0s{' ' + ' '.join(tags) if tags else ''}]: {t}")
+out += ey or ['- none']
 txt = '\n'.join(out) + '\n'
 open(f'docs/eddie_read/bybody_rules/{race}_watch.md', 'w').write(txt); print(txt)
