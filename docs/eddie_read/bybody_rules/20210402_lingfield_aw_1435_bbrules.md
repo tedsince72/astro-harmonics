@@ -1,4 +1,4 @@
-# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB71
+# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB74
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -78,6 +78,9 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB69b | 0 | 0 | - |  |
 | BB70 | 0 | 0 | - |  |
 | BB71 | 0 | 0 | - |  |
+| BB72 | 1 | 1 | 05 Pholas |  |
+| BB73 | 0 | 0 | - |  |
+| BB74 | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1173,6 +1176,44 @@ No runner holds it.
 Rule: A runner holding both BB66 (H X - J X in Dec scoring >= 90 in a family and a sky body on H X or J X in Dec scoring >= 90) and BB69 (5 or more strong same-body lines >= 90), each as built. Runner-level; computed after every other rule.
 
 Origin: Sedgefield 15:00 10 May 2022 Blue Collar Glory (won 20/1): BB66 Venus (H Venus - J Venus Dec 11.326258 7xphi 99.94, S Ketu -> H Venus Dec 20 94.51) and BB69 (5 lines). Also York 15:45 2024 Secret Satire and Newton Abbot 15:25 2022 On Time. Eddie, 16 Nov 2026: 'yes, please build like that'. tools/scans/bb_fieldcheck_hj_carry.py (V5) over 18 result races: 3 picks, 3 won, 0.6 by chance; Sedgefield was the first race after both rules were built, the pairing chosen after its result. Note: V4 (the BB66 sky body in a sky pair on the H X - J X number, Blue Collar Glory S Ketu - S Fomalhaut 7xphi) 1 / 1 / 0.2, not built.
+
+No runner holds it.
+
+## BB72 — BB10 and BB59 together
+
+Rule: A runner holding both BB10 (a royal star R scoring on sky X, its natal line R - X in both charts with a score or a scoring ratio, one scoring natal line matched by a sky pair whose ends both reach sky X) and BB59 (a royal line carried by S X - S Y with Y on natal X in the same chart and the same royal star on sky X), each as built; the two may sit on different bodies. Runner-level; computed after every other rule.
+
+Origin: Musselburgh 15:50 9 May 2022 John Kirkup (won 14/1): BB10 Mercury, BB59 Venus (H Aldebaran - H Venus Dec 16.669753 ninth 16.6667 90.74 carried by S Venus - S Quaoar Dec 16.668528 94.42; S Quaoar -> H Venus Dec 15 87.84, RA 85 78.92; S Aldebaran - S Venus Dec 15 86.07). Also Lingfield 2021 Pholas (BB10 Ketu, BB59 Pallas), York 15:45 2024 Secret Satire (Chiron; Jupiter, Ceres), Fontwell 15:30 2023 Kilcummin (Gonggong; Chiron). Eddie, 17 Nov 2026: 'yes, build'. Over 19 result races 4 picks, 4 won, 0.6 by chance; Pholas and Secret Satire are origin cases, only John Kirkup out of sample; found among 455 pairs / triples of John Kirkup's 14 rules, chosen after the result. BB59 alone 11 / 6 / 1.6.
+
+### 05 Pholas — runner (only)
+- S Regulus – S Ketu RA 98.675959 61×φ golden (25.57)
+- H Regulus – H Ketu Dec 21.912267 (no family)
+- J Regulus – J Ketu RA 144.654175 144.444 ninth (27.4)
+- S Pluto – S Transpluto RA 144.559513 144.444 ninth (60.17)
+- S Pluto – S Ketu Dec 0.049008 conj conj (83.66)
+- S Transpluto – S Ketu Dec 32.984643 33 whole (23.21)
+- H Regulus – H Pallas RA 179.763890 180 opposition (68.52)
+- S Pallas – S Transpluto RA 179.560795 180 opposition (41.44)
+- S Transpluto → H Pallas RA 177.767175 177.778 ninth (97.02)
+- S Regulus – S Pallas RA 177.564057 177.778 ninth (39.89)
+- S Pallas – S Orcus RA 179.398319 180 opposition (19.78)
+- S Orcus → H Pallas Dec 4.865518 3×φ golden (64.77)
+- BB10: Ketu
+- BB59: Pallas
+
+## BB73 — BB14 and Regulus on 11
+
+Rule: A runner holding BB14 (as built, watch-only cases not counted) and a Regulus natal line (H Regulus - X or J Regulus - X) whose same-body or crossed ratio is on 11 scoring >= 50 (R11w). Runner-level; computed after every other rule.
+
+Origin: Kelso 14:50 4 May 2022 Domandlouis (won 12/1): BB14 Quaoar; J Regulus - J Jupiter Dec same-body ratio 10.977258 on 11 (58.65). Also York 15:45 2024 Secret Satire, Ripon 15:25 2022 Society Red, Haydock 17:18 2022 Aldhaja (J Regulus - J Rahu Dec crossed ratio 10.999033, 98.24); York 16:15 2024 Ziggy's Condor lost. Eddie, 17 Nov 2026: 'build as rules'. Over 21 result races 5 picks, 4 won, 0.8 by chance; the Regulus-on-11 idea was chosen after the Aldhaja and Domandlouis results; found among about 160 pairs / triples of Domandlouis's items (tools/scans/bb_fieldcheck_domandlouis.py), chosen after the result.
+
+No runner holds it.
+
+## BB74 — BB14 and BB23 together
+
+Rule: A runner holding both BB14 and BB23, each as built (watch-only cases not counted); the two may sit on different bodies. Runner-level; computed after every other rule.
+
+Origin: Kelso 14:50 4 May 2022 Domandlouis (won 12/1): BB14 Quaoar, BB23 Mercury. Also Ripon 15:25 2022 Society Red, Chelmsford AW 13:20 2024 Sullivan Bay; lost: Beverley 2024 Havana White, Fontwell 2023 Biscoff Joe, Nottingham 15:30 2022 Ballet Steps. Eddie, 17 Nov 2026: 'build as rules'. Over 21 result races 6 picks, 3 won, 1.0 by chance; found among about 160 pairs / triples of Domandlouis's items, chosen after the result.
 
 No runner holds it.
 

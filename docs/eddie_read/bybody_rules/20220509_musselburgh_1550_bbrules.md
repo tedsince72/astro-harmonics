@@ -1,4 +1,4 @@
-# 20220509_musselburgh_1550 — body-by-body rules BB1-BB72
+# 20220509_musselburgh_1550 — body-by-body rules BB1-BB74
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -79,6 +79,8 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB70 | 1 | 1 | 02 Primo's Comet |  |
 | BB71 | 0 | 0 | - |  |
 | BB72 | 1 | 1 | 03 John Kirkup |  |
+| BB73 | 0 | 0 | - |  |
+| BB74 | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1133,4 +1135,20 @@ Origin: Musselburgh 15:50 9 May 2022 John Kirkup (won 14/1): BB10 Mercury, BB59 
 - S Aldebaran – S Venus Dec 15.002787 15 whole (86.07)
 - BB10: Mercury, Mercury, Mercury
 - BB59: Venus
+
+## BB73 — BB14 and Regulus on 11
+
+Rule: A runner holding BB14 (as built, watch-only cases not counted) and a Regulus natal line (H Regulus - X or J Regulus - X) whose same-body or crossed ratio is on 11 scoring >= 50 (R11w). Runner-level; computed after every other rule.
+
+Origin: Kelso 14:50 4 May 2022 Domandlouis (won 12/1): BB14 Quaoar; J Regulus - J Jupiter Dec same-body ratio 10.977258 on 11 (58.65). Also York 15:45 2024 Secret Satire, Ripon 15:25 2022 Society Red, Haydock 17:18 2022 Aldhaja (J Regulus - J Rahu Dec crossed ratio 10.999033, 98.24); York 16:15 2024 Ziggy's Condor lost. Eddie, 17 Nov 2026: 'build as rules'. Over 21 result races 5 picks, 4 won, 0.8 by chance; the Regulus-on-11 idea was chosen after the Aldhaja and Domandlouis results; found among about 160 pairs / triples of Domandlouis's items (tools/scans/bb_fieldcheck_domandlouis.py), chosen after the result.
+
+No runner holds it.
+
+## BB74 — BB14 and BB23 together
+
+Rule: A runner holding both BB14 and BB23, each as built (watch-only cases not counted); the two may sit on different bodies. Runner-level; computed after every other rule.
+
+Origin: Kelso 14:50 4 May 2022 Domandlouis (won 12/1): BB14 Quaoar, BB23 Mercury. Also Ripon 15:25 2022 Society Red, Chelmsford AW 13:20 2024 Sullivan Bay; lost: Beverley 2024 Havana White, Fontwell 2023 Biscoff Joe, Nottingham 15:30 2022 Ballet Steps. Eddie, 17 Nov 2026: 'build as rules'. Over 21 result races 6 picks, 3 won, 1.0 by chance; found among about 160 pairs / triples of Domandlouis's items, chosen after the result.
+
+No runner holds it.
 

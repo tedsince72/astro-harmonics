@@ -90,6 +90,8 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB70': set(),
     'BB71': set(),
     'BB72': {('05 Pholas', 'runner')},
+    'BB73': set(),
+    'BB74': set(),
     'BB55': {('01 Arafi', 'Gonggong'), ('01 Arafi', 'Venus'), ('04 Nirodha', 'Saturn'), ('05 Pholas', 'Pallas')},
     'BB53': {('06 Shimmering Dawn', 'Sun'), ('06 Shimmering Dawn', 'Jupiter'), ('06 Shimmering Dawn', 'Pallas')},
 }
@@ -769,5 +771,34 @@ for race, win in HC.RACES + [('20220509_musselburgh_1550', 'John Kirkup')]:
     check({c['runner'] for c in rr['BB72']} == exp, f'BB72 = BB10 and BB59 {race}')
     b72 += len(exp); w72 += sum(win in x for x in exp)
 check((b72, w72) == (4, 4), f'BB72 4 holders, 4 won over the result races ({b72}, {w72})')
+# BB73 / BB74 (Eddie, 17 Nov 2026): from Kelso 14:50 2022 Domandlouis
+KEL = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', '20220504_kelso_1450', '20220504_kelso_1450_bybody.xlsx')
+if os.path.exists(KEL):
+    kd = R.run(KEL)[2]
+    check({(c['runner'], c['body']) for c in kd['BB73']} == {('04 Domandlouis', 'runner')}, 'BB73 Kelso: Domandlouis')
+    check(kd['BB73'][0]['notes'] == ['BB14: Quaoar', 'Regulus on 11: J Regulus – J Jupiter Dec same-body ratio 10.977258 on 11 (58.65)'],
+          'BB73 notes')
+    check({(c['runner'], c['body']) for c in kd['BB74']} == {('04 Domandlouis', 'runner')}, 'BB74 Kelso: Domandlouis')
+    check(kd['BB74'][0]['notes'] == ['BB14: Quaoar', 'BB23: Mercury'], 'BB74 notes')
+HAY = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', '20220507_haydock_1718', '20220507_haydock_1718_bybody.xlsx')
+if os.path.exists(HAY):
+    hd = R.run(HAY)[2]
+    check(hd['BB73'] and hd['BB73'][0]['notes'][1] == 'Regulus on 11: J Regulus – J Rahu Dec crossed ratio 10.999033 on 11 (98.24)',
+          'BB73 Haydock: Aldhaja crossed ratio')
+t73 = t74 = w73 = w74 = 0
+for race, win in HC.RACES + [('20220509_musselburgh_1550', 'John Kirkup'), ('20220507_haydock_1718', 'Aldhaja'),
+                             ('20220504_kelso_1450', 'Domandlouis')]:
+    pth = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', race, f'{race}_bybody.xlsx')
+    if not os.path.exists(pth):
+        continue
+    rr = R.run(pth)[2]
+    h14 = {c['runner'] for c in rr['BB14'] if not c['watch_only']}
+    exp74 = h14 & {c['runner'] for c in rr['BB23'] if not c['watch_only']}
+    check({c['runner'] for c in rr['BB74']} == exp74, f'BB74 = BB14 and BB23 {race}')
+    check({c['runner'] for c in rr['BB73']} <= h14, f'BB73 inside BB14 {race}')
+    h73 = {c['runner'] for c in rr['BB73']}
+    t73 += len(h73); w73 += sum(win in x for x in h73); t74 += len(exp74); w74 += sum(win in x for x in exp74)
+check((t73, w73) == (5, 4), f'BB73 5 holders, 4 won over the result races ({t73}, {w73})')
+check((t74, w74) == (6, 3), f'BB74 6 holders, 3 won over the result races ({t74}, {w74})')
 print(f'{ok}/{ok + bad} checks passed')
 sys.exit(1 if bad else 0)

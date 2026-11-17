@@ -1952,7 +1952,7 @@ RULES = [('BB1', bb1, 'Mercury'), ('BB1b', bb1b, 'any'), ('BB2', bb2, 'Mars'), (
          ('BB21', bb21, 'Saturn'), ('BB22', bb22, 'Saturn'), ('BB23', bb23, 'Neptune'), ('BB24', bb24, 'Rahu'), ('BB25', bb25, 'Ketu'), ('BB26', bb26, 'Ceres'), ('BB27', bb27, 'Pallas'), ('BB28', bb28, 'Juno'), ('BB29', bb29, 'Vesta'), ('BB30', bb30, 'Eris'), ('BB31', bb31, 'Gonggong'),
          ('BB32', bb32, 'Sun'), ('BB32b', bb32b, 'Sun'), ('BB33', bb33, 'Mercury'), ('BB34', bb34, 'Mars'), ('BB35', bb35, 'Saturn'),
          ('BB36', bb36, 'Uranus'), ('BB37', bb37, 'Pluto'), ('BB38', bb38, 'Juno'), ('BB39', bb39, 'Makemake'),
-         ('BB40', bb40, 'Sedna'), ('BB41', bb41, 'Sun'), ('BB42', bb42, 'Mercury'), ('BB43', bb43, 'Venus'), ('BB44', bb44, 'Jupiter'), ('BB45', bb45, 'Saturn'), ('BB46', bb46, 'Saturn'), ('BB47', bb47, 'Ceres'), ('BB48', bb48, 'Chiron'), ('BB49', bb49, 'Haumea'), ('BB50', bb50, 'Makemake'), ('BB51', bb51, 'Venus'), ('BB52', bb52, 'Uranus'), ('BB53', bb53, 'any'), ('BB54', bb54, 'any'), ('BB55', bb55, 'any'), ('BB56', bb56, 'any'), ('BB57', bb57, 'any'), ('BB58', bb58, 'any'), ('BB59', bb59, 'any'), ('BB60', bb60, 'any'), ('BB61', bb61, 'any'), ('BB62', bb62, 'any'), ('BB63', bb63, 'any'), ('BB64', bb64, 'any'), ('BB65', bb65, 'Sun'), ('BB66', bb66, 'any'), ('BB67', None, 'any'), ('BB68', bb68, 'any'), ('BB69', bb69, 'any'), ('BB69b', bb69b, 'any'), ('BB70', bb70, 'any'), ('BB71', None, 'any'), ('BB72', None, 'any')]
+         ('BB40', bb40, 'Sedna'), ('BB41', bb41, 'Sun'), ('BB42', bb42, 'Mercury'), ('BB43', bb43, 'Venus'), ('BB44', bb44, 'Jupiter'), ('BB45', bb45, 'Saturn'), ('BB46', bb46, 'Saturn'), ('BB47', bb47, 'Ceres'), ('BB48', bb48, 'Chiron'), ('BB49', bb49, 'Haumea'), ('BB50', bb50, 'Makemake'), ('BB51', bb51, 'Venus'), ('BB52', bb52, 'Uranus'), ('BB53', bb53, 'any'), ('BB54', bb54, 'any'), ('BB55', bb55, 'any'), ('BB56', bb56, 'any'), ('BB57', bb57, 'any'), ('BB58', bb58, 'any'), ('BB59', bb59, 'any'), ('BB60', bb60, 'any'), ('BB61', bb61, 'any'), ('BB62', bb62, 'any'), ('BB63', bb63, 'any'), ('BB64', bb64, 'any'), ('BB65', bb65, 'Sun'), ('BB66', bb66, 'any'), ('BB67', None, 'any'), ('BB68', bb68, 'any'), ('BB69', bb69, 'any'), ('BB69b', bb69b, 'any'), ('BB70', bb70, 'any'), ('BB71', None, 'any'), ('BB72', None, 'any'), ('BB73', None, 'any'), ('BB74', None, 'any')]
 
 
 def decade_pairs(cells):
@@ -2044,6 +2044,54 @@ def bb72(res):
     return _both(res, ('BB10', 'BB59'))
 
 
+_CUT11 = re.compile(r'^11 1/11 cut')
+
+
+def _r11w(D):
+    """Regulus natal lines (H Regulus – X, J Regulus – X) whose same-body or crossed ratio is on 11 (the '11 1/11 cut' target) scoring
+    >= 50 (R11w; the watch item R11 is the >= 90 part). Returns (body, row, kind, score)."""
+    out = []
+    for X, d in D.items():
+        for r in d['L']:
+            if not r['line'].startswith(('H Regulus – ', 'J Regulus – ')):
+                continue
+            for kind, t, sc in (('same-body', r.get('rt'), r.get('rs')), ('crossed', r.get('xt'), r.get('xs'))):
+                if _CUT11.match(str(t or '')) and sc is not None and sc >= 50:
+                    out.append((X, r, kind, sc))
+    return out
+
+
+def bb73(res, data):
+    """Eddie, 17 Nov 2026 ('build as rules'; from Kelso 14:50 4 May 2022 Domandlouis): a runner holding BB14 (as built, watch-only cases
+    not counted) and a Regulus natal line with a same-body or crossed ratio on 11 scoring >= 50 (R11w). Runner-level, body 'runner'.
+    Over 21 result races 5 picks 4 won (Secret Satire, Society Red, Aldhaja, Domandlouis), 0.8 by chance; the Regulus-on-11 idea was
+    chosen after the Aldhaja and Domandlouis results; found among about 160 pairs / triples of Domandlouis's items
+    (tools/scans/bb_fieldcheck_domandlouis.py). Computed after every other rule, as BB67."""
+    out = []
+    for c in _both(res, ('BB14',)):
+        rr = _r11w(data[c['runner']])
+        if not rr:
+            continue
+        rc = []
+        for X, r, kind, sc in rr:
+            x = cell(r)
+            if x not in rc:
+                rc.append(x)
+        c['cells'] += [x for x in rc if x not in c['cells']]
+        c['notes'] = c['notes'] + ['Regulus on 11: ' + ', '.join(
+            f"{r['line']} {r['plane']} {kind} ratio {(r['r'] if kind == 'same-body' else r['xr']):.6f} on 11 ({sc})" for X, r, kind, sc in rr)]
+        out.append(c)
+    return out
+
+
+def bb74(res):
+    """Eddie, 17 Nov 2026 ('build as rules'; from Kelso 14:50 4 May 2022 Domandlouis): a runner holding both BB14 and BB23 (each as
+    built, watch-only cases not counted; the two may sit on different bodies). Runner-level, body 'runner'. Over 21 result races 6 picks
+    3 won (Society Red, Sullivan Bay, Domandlouis), 1.0 by chance; found among about 160 pairs / triples of Domandlouis's items, chosen
+    after the result. Computed after every other rule, as BB67."""
+    return _both(res, ('BB14', 'BB23'))
+
+
 def run(path):
     data = load(path)
     race = os.path.basename(path).replace('_bybody.xlsx', '')
@@ -2075,6 +2123,8 @@ def run(path):
     res['BB67'] = bb67(res)
     res['BB71'] = bb71(res)
     res['BB72'] = bb72(res)
+    res['BB73'] = bb73(res, data)
+    res['BB74'] = bb74(res)
     return race, list(data), res
 
 
