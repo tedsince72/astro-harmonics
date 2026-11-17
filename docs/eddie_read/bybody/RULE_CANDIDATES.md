@@ -1522,3 +1522,7 @@ D0 98 / 17 / 15.4; D1 (sky line >= 90) 14 / 4 / 1.9 (Perfect Part Chiron 60×φ 
 D1 combinations (tools/scans/bb_combos_decade.py, 31 races): D1 + BB3 11 / 4 / 1.4 (all four D1 winners); D1 + BB54 5 / 3 / 0.4 (Perfect Part,
 Diligent Resdev, Whitefeathersfall); D1 + BB13 2 / 2 / 0.1; D1 + BB33 2 / 2 / 0.2; D1 + BB53 3 / 2 / 0.3; D1 + BB2 + BB3 5 / 2 / 0.5 (Diligent
 Resdev, Arvico Bleu). In-sample: BB33 / BB53 / BB54 were built from Perfect Part and Diligent Resdev.
+Arvico Bleu Sun by Orcus (Eddie's lines, 17 Nov 2026; tools/scans/bb_fieldcheck_orcus_sun.py, 31 races): one sky body Y on sky X in RA and Dec and
+on natal X in both charts, all number families: O0 76 / 11 / 11.7; O1 (all four >= 40) 11 / 4 / 1.7 (Blue Collar Glory Vesta by Chiron, John Kirkup
+Venus by Quaoar, Man On A Mission Jupiter by Ketu, Arvico Bleu Sun by Orcus); O2 / O3 (Sun) 2 / 1 / 0.5, 1 / 1 / 0.2; O4 (Y also on the same-body
+target) 19 / 2 / 3.3. O1 with D1: 1 / 1 (Arvico Bleu); O1 or D1: 24 / 7 / 3.3. Noted, not built.

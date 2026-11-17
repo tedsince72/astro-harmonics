@@ -103,3 +103,7 @@
   4.4380 4.44444 (27.16), that royal line carried by S Rahu – S Ceres Dec 4.4445 (99.65). tools/scans/bb_fieldcheck_decade.py (31 result races):
   D0 (royal line on X and a sky line naming sky X on the same digits a decade apart) 98 / 17 / 15.4; D1 (sky line >= 90) 14 / 4 / 1.9 (Perfect
   Part, Diligent Resdev, Whitefeathersfall, Arvico Bleu); D2 (+ the royal line carried by a pair) 9 / 1 / 1.3; D3 (Sun) 1 / 1 / 0.2. Noted, not built.
+- Sun by Orcus (Eddie's lines): S Orcus – S Sun Dec 3.2413 2×φ (83.81) and RA 42.3835 10φ³ (64.01), S Orcus → H Sun RA 122.0113 122 (43.26),
+  S Orcus → J Sun RA 6.6711 6.66667 (66.48). O1 (one sky body on sky X both planes and on natal X both charts, all >= 40) 11 / 4 / 1.7 over 31
+  result races (tools/scans/bb_fieldcheck_orcus_sun.py); with D1 only Arvico Bleu. D1 combinations: D1 + BB3 11 / 4 / 1.4, D1 + BB54 5 / 3 / 0.4
+  (tools/scans/bb_combos_decade.py). Noted, not built.
