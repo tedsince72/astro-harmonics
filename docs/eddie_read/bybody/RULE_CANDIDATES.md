@@ -1563,3 +1563,8 @@ H Regulus – H Chiron RA 166.5684 ninth 166.667 (70.5) and Dec 13.3237 ninth 13
 pair 82 / 15 / 12.7; Q2 + one carrier holds the same royal star 17 / 5 / 2.6 (Athmad, Whitefeathersfall, Sullivan Bay, John Kirkup, Nelson
 River); Q3 + the royal star on sky X 5 / 2 / 0.8 (John Kirkup Mercury Fomalhaut, Nelson River; lost Call Me Harswell, Beating All,
 Thundersockssundae); Q1r (Q1 + royal star on sky X, any carrier) 19 / 4 / 3.0. Chosen after the result; noted, not built.
+- Q2 combinations (Eddie, 17 Nov 2026: 'Q2 is the closest to what i am looking for ... and what about combinations'; tools/scans/bb_combos_q2.py,
+  33 result races): Q2 + BB54 5 / 4 / 0.7 (Athmad, Whitefeathersfall, Sullivan Bay, John Kirkup; lost Misemerald) - none of the four is an
+  origin of Q2 or BB54; Q2 + BB67 the same five runners; Q2 + BB63 7 / 4 / 0.9 (BB63 from Athmad); Q2 + BB9 8 / 4 / 1.3 (Whitefeathersfall,
+  Sullivan Bay, John Kirkup, Nelson River); Q2 + BB64 4 / 3 / 0.6 (BB64 from Athmad); Q2 + BB54 + BB9 3 / 3 / 0.5; Q2 + BB3 16 / 5 / 2.5
+  (adds nothing). Nelson River holds Q2 + BB9, not BB54. Noted, not built.
