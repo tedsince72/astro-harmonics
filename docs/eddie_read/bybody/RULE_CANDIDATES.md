@@ -1530,3 +1530,8 @@ Arvico Bleu Pallas (tools/scans/bb_fieldcheck_arvico_pallas.py, 31 races): royal
 other end on natal X (PA0 109 / 22 / 17.3; conj end PA1 97 / 17 / 15.4; + the royal star on sky X PA2 40 / 10 / 5.9); 2+ royal stars on sky and
 natal X PB2 123 / 19 / 19.2, 3+ PB3 9 / 1 / 1.7 (Finisk River held the same three on Pallas in the same race and was last). Fomalhaut on Pallas
 11.111 / 22.222 / 33.333 is one fact plus geometry (the natal star is nearly fixed). All at or near chance; noted, not built.
+
+## S Pluto on natal Pluto (Eddie, 17 Nov 2026, from Wholestone and Arvico Bleu; tools/scans/bb_fieldcheck_pluto.py, 32 races)
+P0 (S Pluto → H / J Pluto in a number family) 77 / 14 / 12.6; P50 45 / 8 / 7.7; P80 22 / 6 / 3.9 (Secret Satire, Blue Collar Glory, Eydon, Man On A
+Mission, Arvico Bleu, Wholestone); both planes one chart P2 5 / 1 / 0.9, both >= 50 P2_50 3 / 1 / 0.5 (Wholestone only). Control: any body both
+planes >= 50 X2_50 39 / 4 / 6.4 (below chance). Noted, not built.
