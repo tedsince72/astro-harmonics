@@ -1402,3 +1402,11 @@ Watch (Eddie, 16 Nov 2026: 'keep on watch'): K1d added to tools/scans/bb_watch_r
 - Over 19 result races: 4 picks 4 won (Pholas, Secret Satire, Kilcummin, John Kirkup), 0.6 by chance; BB59 alone 11 / 6 / 1.6 (BB10 drops Blue Prince, Ziggy's Condor, Misemerald, Gidwa, Wheres Maud Gone and the winner Wotever Next).
 - Caution: Pholas and Secret Satire are origin cases; found among 455 pairs / triples of John Kirkup's 14 rules (/tmp scan, not kept); under T2 only Kilcummin and John Kirkup hold it.
 - Not built (same scan): BB9 + BB54 + BB55 3 / 3 / 0.4 (Ishvara, Sullivan Bay, John Kirkup) and other 2-3 pick triples. BB59 tightened (royal line and carrier both >= 50: 4 / 2; the royal-star 15 echo: 2 / 1) - no gain.
+
+## Royal line with a cut ratio 10-20 >= 90 (Haydock 17:18 7 May 2022 Aldhaja Rahu; 17 Nov 2026, field check only, not built)
+- Aldhaja: J Regulus – J Rahu Dec 11.801637 (no family) crossed against S Rahu → J Rahu RA 129.806599 = 10.999033 on 11 (98.24); the same
+  line in RA 27.523672 17×φ (47.24) carried by S Gonggong – S Aldebaran Dec 27.507895 17×φ (95.93); H Regulus – H Rahu RA 36.813887 same-body
+  ratio 1.778527 16/9 (71.9).
+- tools/scans/bb_fieldcheck_royal_cut.py over 20 result races: W0 cut ratio >= 90 100 / 19 / 15.0 (common, at chance); W0s line scoring
+  25 / 6 / 3.6; W2 + same star other plane carried by a sky pair >= 90: 4 / 1 / 0.6 (Quiet Resolve, Bella Kopella, Mrs Paisley lost);
+  W3 + same star on X in the other chart: 39 / 8 / 5.3; W4 = W2 + W3: Aldhaja only, 1 / 1 / 0.2. One winner - noted.
