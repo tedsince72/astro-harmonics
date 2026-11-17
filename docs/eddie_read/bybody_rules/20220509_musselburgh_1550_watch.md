@@ -55,3 +55,9 @@
 - Second 02 Primo's Comet: 11 rules, only BB70 (Venus, Juno) and BB48 + BB55 holder, depth 5.
 - Also 05 Rose Bandit: A2 (Regulus on both natal Venus, Dec) and BB66 (Uranus). No BB69, BB71, mirror, K1d.
 - Independent checker (17 Nov, own code from the bybody xlsx): rules table, combinations, BB3 / 54 / 59 / 63 / 66 / 67 / 69 / 70 / 71, A2, Watch B values, depth: 0 mismatches.
+
+## Result (from Eddie, 17 Nov 2026)
+1 John Kirkup 14/1 (Connor Beasley), 2 Rory 10/1 (hd), 3 Rose Bandit 15/2 (nk), 4 Albegone 7/2, 5 The Thin Blue Line 5/6F, 6 Primo's Comet 12/1.
+By the read: lead John Kirkup won (14 rules, the most; only N4 and BB67 holder). Second pick Primo's Comet last. Rose Bandit (A2, BB66) 3rd.
+N4 since it was set (Carlisle): Wheres Maud Gone (Sedgefield) lost, John Kirkup won - 2 picks 1 won; with its origin races (Secret Satire, Whitefeathersfall, Misemerald) 5 picks 3 won.
+The depth ladder's step-5 runners finished 5th, 6th, 3rd, 4th; the winner was at step 3.
