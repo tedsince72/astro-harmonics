@@ -114,3 +114,15 @@ Lead: 06 Lieutenant Rocco - most rules (24, three clear), most alone (7) incl. B
 Second: 03 Master Tommytucker - 21 rules, the same three top combinations, N0 + BB50, J1any + BB14, depth 5 with 5 bodies at 3+.
 
 Independent checker (17 Nov 2026, own parser and rule code): counts and alone lists; BB1, BB3, BB10, BB14, BB54, BB59, BB63, BB67, BB69, BB72, BB81 re-derived for every runner; 182 cited rule cells; 76 depth cells and its own ladder (deepest bodies and 3+ counts reproduced, on the tool's current open readings: royal stars as pair ends, contraparallel lines counted, conjunction pairs out); the watch lines from the POS tabs: 0 mismatches. Its brief had the tab mapping wrong (cloth 5 is P07, not P09); the tools are not affected.
+
+## Result (from Eddie, 17 Nov 2026)
+Finishing order: 1 Two For Gold 10/1, 2 Dashel Drasher 6/4F (shd), 3 Bristol De Mai 4/1 (¾ l), 4 Itchy Feet 3/1, F Master Tommytucker 8/1, PU Lieutenant Rocco 14/1. 6 ran (Fanion D'Estruval non-runner).
+
+The read missed: the lead, Lieutenant Rocco, pulled up; the second, Master Tommytucker, fell 3 out.
+
+The winner, Two For Gold:
+- held 6 rules (joint fewest, with Itchy Feet): BB3, BB7, BB13, BB57, BB68, BB82; alone on BB7 (Mars) and BB13 (Juno);
+- depth 4 (Juno); no watched combination; no watch line in his name except S Pluto → natal Pluto scoring in both charts;
+- S Saturn – S Fomalhaut RA 27.5096 17×φ (90.59) carries H Regulus – H Quaoar Dec 27.5010 (82.7) and S Juno → J Juno Dec 27.5288 (31.37);
+- S Pluto → H Pluto RA 16.6553 ninth (65.85), S Pluto → J Pluto RA 76.0532 47×φ (82.56); S Uranus conj J Juno Dec 0.0001 (99.95); J Antares – J Jupiter RA 166.6585 ninth (97.54).
+Field checks over 34 result races (tools/scans/bb_fieldcheck_twoforgold.py, docs/eddie_read/bybody/scan_twoforgold.md): one sky pair carrying lines on two bodies 200 / 34 / 33.7; with a same-body and a royal line 144 / 25 / 24.4; pair >= 90 32 / 7 / 5.5; pair >= 90 naming a royal star 8 / 1 / 1.3; S Pluto on both natal Plutos 13 / 2 / 2.4; royal line on natal Jupiter >= 90 49 / 9 / 8.6; a sky body conj natal X >= 99 36 / 8 / 6.1 - all at chance.
