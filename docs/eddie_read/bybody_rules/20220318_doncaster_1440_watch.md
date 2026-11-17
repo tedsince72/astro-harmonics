@@ -70,3 +70,9 @@
 - Depth 5 also 04 Poetria (Rahu).
 - Lead: 06 Suntory Star (N4 / BB67 shape: Whitefeathersfall, Secret Satire, John Kirkup). Second: 01 Fiamette (rule-count leader).
 - Independent checker (17 Nov 2026, own parser): runner list, quoted cells, BB3 / BB54 / BB59 / BB63 / BB67 holders, rule counts and alone lists, depth step-5 cells, H Jupiter – J Jupiter Dec 12.989372: 0 mismatches. Note: both step-5 cases rest on open depth readings (Poetria Rahu all contraparallel; Suntory Star Saturn through conjunctions and a ratio-only royal loop).
+
+## Result (from Eddie, 17 Nov 2026)
+1 Olympe De Gouges 25/1, 2 Oot Ma Way 5/6F, 3 Poetria 15/8, 4 Fiamette 5/1, 5 Suntory Star 80/1 (5 ran; NR Simply Red).
+- Miss: lead Suntory Star (N4 / BB67) last; second Fiamette (rule-count leader, lead 3) 4th. N4 and BB67 first loss of this kind at 80/1; rule-count lead 3 lost.
+- Winner 02 Olympe De Gouges: 7 rules (4th of 5 by count), alone on BB58 (Pallas: Antares in both charts, H Antares – H Pallas RA 160.185976 99×φ (98.11), same-body ratio 5.008068 on 5 (59.66)) and BB68 (Ketu: S Ketu → J Ketu Dec 28.942585 no family = S Jupiter – S Ketu 12.941448 8×φ (91.28) + S Jupiter → J Ketu 16.001137 16 (94.32)); also P1 watch; depth 3 (Mercury, Mars: S Mars → J Mars RA 85.754955 53×φ (97.39), pair S Pluto – S Eris on 53×φ).
+- Records after this race (28 result races): BB68 48 picks 11 won, 7.3 by chance; since built (15 races after Ripon) 21 / 4 / 3.5. BB58 9 / 3 / 1.4 (since built 2 / 1 / 0.4).
