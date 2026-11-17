@@ -1427,3 +1427,11 @@ Watch (Eddie, 16 Nov 2026: 'keep on watch'): K1d added to tools/scans/bb_watch_r
   Domandlouis; R11 was chosen after the Aldhaja and Domandlouis results, so partly in-sample); BB6 + BB35 4 / 3 / 0.4 (Ishvara,
   Perfect Part in-sample, Domandlouis); BB14 + BB23 6 / 3 / 1.0 (Society Red, Sullivan Bay, Domandlouis). Many triples 2 / 2 / 0.3.
 - Built 17 Nov 2026 (Eddie, 'build as rules'): R11w + BB14 = BB73, BB14 + BB23 = BB74. BB6 + BB35, F1 on two bodies and F2 left as notes.
+
+## Daphne Moon field checks (17 Nov 2026; Perth 16:10 20 Apr 2022; tools/scans/bb_fieldcheck_daphne.py; 22 result races; not built)
+- Haumea: H0 = H X – J X >= 90 in a number family carried by a sky pair with a royal star on its target: 12 picks 5 won, 2.0 by chance
+  (Novakai Eris, The Dunkirk Lads Orcus, Dynamic Force Eris, Blue Collar Glory Venus, Daphne Moon Haumea; lost Ventura Flame, Nad Alshiba Snow,
+  Francophone, Logistical, Swayze, Silky Wilkie, Primo's Comet); P0 (any carrier) 39 / 8 / 6.3. H1-H4 (+ the same royal star on natal X,
+  on sky X, the other end on natal X): Daphne Moon only (H1 3 / 1 / 0.5).
+- Sun: S0 = same-body line + a sky body on the other chart's X on the same target 43 / 11 / 7.0; S1 (that line >= 90) 5 / 1 / 1.0;
+  S2 / S3 (+ the body on both natal X) Daphne Moon only.
