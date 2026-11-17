@@ -65,3 +65,9 @@
 - Not held by anyone: BB67, BB69-BB74, P4, Jupiter loop C, N2 / N4, M4, R11, G0s.
 - Independent checker (subagent, own parser from the bybody xlsx): the cells above, BB75 / BB62 / BB69 / Watch B over the field and the rule
   counts per runner: 0 corrections.
+
+## Result (from Eddie, 17 Nov 2026)
+1 Man On A Mission 12/1 (hd), 2 Judy's Park 13/8F, 3 Bang On The Bell 3/1, 4 Brazen Idol 9/1, 5 Jaas Yard 12/1, 6 Vintage Fashion 7/2.
+- The blind lead won. Second pick Brazen Idol 4th (A2 watch now 2 picks 1 won); Watch B holder Vintage Fashion last.
+- Totals over 24 result races incl. in-sample (picks / won / by chance): BB75 13 / 6 / 2.1, BB62 10 / 4 / 1.5, BB66 21 / 6 / 3.5,
+  BB45 2 / 2 / 0.3, BB46 2 / 2 / 0.3 (Secret Satire, Man On A Mission), BB42 7 / 3 / 1.0, BB51 9 / 3 / 1.3, BB13 26 / 6 / 4.2.
