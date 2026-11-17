@@ -36,7 +36,9 @@
   D1 + BB54; N0 + BB50, N0 + BB75 (Eddie, 17 Nov 2026); N0 same-number royal / same-body line (bb_fieldcheck_samenum, Wholestone).
 - Natal pairs (Eddie, 17 Nov 2026, 'keep all those on watch'; tools/scans/bb_scan_natal_pairs.py, chosen after the results over 32 races;
   every pair pooled is at chance): horse Pallas – Juno >= 90 (line alone 8 / 6 / 1.6), horse Ceres – Orcus, Uranus – Vesta, Mercury – Rahu
-  >= 80 with a sky line on the same number (9 / 5 / 1.5, 4 / 3 / 0.6, 4 / 3 / 0.7). Reads the race's _active.xlsx."""
+  >= 80 with a sky line on the same number (9 / 5 / 1.5, 4 / 3 / 0.6, 4 / 3 / 0.7); royal-star pairs (Eddie, 17 Nov 2026, 'keep them all on
+  the watch list'; bb_scan_natal_pairs.py --royal): jockey Antares – Rahu (8 / 6 / 1.6), horse Antares – Quaoar (4 / 3 / 0.8), jockey
+  Antares – Orcus (5 / 3 / 0.7), each >= 80 with a sky line on the same number. Reads the race's _active.xlsx."""
 import json, sys
 sys.path.insert(0, 'tools'); sys.path.insert(0, 'tools/scans')
 import eddie_bybody_rules as E
@@ -215,12 +217,14 @@ for run, bodies in data.items():
         do.append(f"- {run} [{' '.join(tags)}]: " + ' | '.join(cells))
 out += do or ['- none']
 out += ['', '## Natal pairs watch (17 Nov 2026; H Pallas – Juno >= 90, any sky; H Ceres – Orcus, Uranus – Vesta, Mercury – Rahu >= 80 with a '
-        'sky line on the same number; BB83 Venus – Uranus is a rule)']
+        'sky line on the same number; royal: J Antares – Rahu, H Antares – Quaoar, J Antares – Orcus >= 80 with a sky line on the same number; '
+        'BB83 Venus – Uranus is a rule)']
 npw = []
 if os.path.exists(f'reference/classic/race_batch_{race}_active.xlsx'):
     byc = {int(k.split(' ', 1)[0]): k for k in runners if k.split(' ', 1)[0].isdigit()}
     for cut, prs in ((90, [('Pallas', 'Juno', 'H', False)]),
-                     (80, [('Ceres', 'Orcus', 'H', True), ('Uranus', 'Vesta', 'H', True), ('Mercury', 'Rahu', 'H', True)])):
+                     (80, [('Ceres', 'Orcus', 'H', True), ('Uranus', 'Vesta', 'H', True), ('Mercury', 'Rahu', 'H', True),
+                           ('Antares', 'Rahu', 'J', True), ('Antares', 'Quaoar', 'H', True), ('Antares', 'Orcus', 'J', True)])):
         for cloth, items in sorted(NP.pair_cases(race, prs, cut).items()):
             for pair, ch, t in items:
                 npw.append(f"- {byc.get(cloth, cloth)} [{pair}]: {t}")
