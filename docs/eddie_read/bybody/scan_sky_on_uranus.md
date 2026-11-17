@@ -1,0 +1,110 @@
+# Sky bodies on natal Uranus (S Y → H or J Uranus), 36 result races; fav = favourites holding it (27 races with a favourite)
+
+## any family, score >= 50: holders / won / by chance / favourites holding
+- S Neptune: 54 / 7 / 9.3 / fav 11
+- S Haumea: 52 / 6 / 8.2 / fav 7
+- S Transpluto: 56 / 8 / 9.9 / fav 8
+- S Quaoar: 62 / 9 / 10.7 / fav 6
+- S Saturn: 45 / 6 / 7.4 / fav 2
+- S Rahu: 50 / 7 / 8.3 / fav 8
+- S Orcus: 48 / 7 / 8.1 / fav 6
+- S Ketu: 39 / 6 / 6.7 / fav 6
+- S Gonggong: 44 / 7 / 7.6 / fav 3
+- S Uranus: 55 / 10 / 9.4 / fav 6
+- S Pluto: 58 / 11 / 10.3 / fav 4
+- S Mars: 56 / 10 / 9.3 / fav 9
+- S Sun: 47 / 9 / 8.1 / fav 3
+- S Juno: 48 / 9 / 7.8 / fav 5
+- S Sedna: 62 / 12 / 10.7 / fav 11
+- S Makemake: 59 / 12 / 10.6 / fav 9
+- S Eris: 63 / 12 / 10.1 / fav 8
+- S Moon: 55 / 11 / 9.0 / fav 8
+- S Ceres: 56 / 12 / 10.0 / fav 10
+- S Venus: 59 / 13 / 10.5 / fav 4
+- S Mercury: 63 / 14 / 11.4 / fav 10
+- S Jupiter: 46 / 11 / 7.7 / fav 3
+- S Chiron: 65 / 16 / 11.3 / fav 11
+- S Pallas: 49 / 13 / 8.3 / fav 2
+- S Vesta: 55 / 15 / 9.2 / fav 7
+
+## any family, score >= 80: holders / won / by chance / favourites holding
+- S Sedna: 26 / 2 / 4.7 / fav 4
+- S Saturn: 25 / 2 / 4.4 / fav 2
+- S Haumea: 19 / 1 / 2.7 / fav 0
+- S Pluto: 25 / 3 / 4.3 / fav 3
+- S Makemake: 24 / 3 / 4.3 / fav 2
+- S Neptune: 24 / 3 / 4.2 / fav 6
+- S Orcus: 23 / 3 / 3.9 / fav 5
+- S Quaoar: 22 / 3 / 3.6 / fav 1
+- S Mars: 21 / 3 / 3.5 / fav 4
+- S Moon: 22 / 3 / 3.5 / fav 4
+- S Transpluto: 24 / 4 / 4.2 / fav 4
+- S Gonggong: 18 / 3 / 3.0 / fav 1
+- S Vesta: 20 / 3 / 3.0 / fav 4
+- S Chiron: 35 / 6 / 5.9 / fav 7
+- S Rahu: 27 / 5 / 4.7 / fav 8
+- S Ketu: 20 / 4 / 3.6 / fav 5
+- S Eris: 25 / 5 / 3.9 / fav 4
+- S Sun: 21 / 5 / 3.7 / fav 1
+- S Ceres: 25 / 6 / 4.5 / fav 6
+- S Juno: 15 / 4 / 2.4 / fav 1
+- S Pallas: 23 / 6 / 3.7 / fav 0
+- S Venus: 25 / 7 / 4.6 / fav 2
+- S Mercury: 26 / 7 / 4.3 / fav 4
+- S Uranus: 30 / 8 / 5.3 / fav 4
+- S Jupiter: 24 / 7 / 4.0 / fav 2
+
+## any family, score >= 90: holders / won / by chance / favourites holding
+- S Sedna: 14 / 0 / 2.7 / fav 1   NEGATIVE
+- S Chiron: 24 / 2 / 4.1 / fav 7
+- S Vesta: 12 / 0 / 1.8 / fav 3   NEGATIVE
+- S Pluto: 10 / 0 / 1.7 / fav 1   NEGATIVE
+- S Saturn: 13 / 1 / 2.4 / fav 0
+- S Makemake: 8 / 0 / 1.3 / fav 2
+- S Quaoar: 8 / 0 / 1.3 / fav 0
+- S Transpluto: 17 / 2 / 3.0 / fav 2
+- S Eris: 12 / 1 / 1.9 / fav 4
+- S Pallas: 11 / 1 / 1.8 / fav 0
+- S Mars: 10 / 1 / 1.6 / fav 2
+- S Neptune: 9 / 1 / 1.6 / fav 3
+- S Haumea: 10 / 1 / 1.5 / fav 0
+- S Gonggong: 9 / 1 / 1.3 / fav 1
+- S Venus: 12 / 2 / 2.3 / fav 2
+- S Orcus: 13 / 2 / 2.2 / fav 3
+- S Ketu: 11 / 2 / 2.1 / fav 1
+- S Moon: 9 / 2 / 1.4 / fav 0
+- S Rahu: 12 / 3 / 2.0 / fav 2
+- S Juno: 10 / 3 / 1.5 / fav 1
+- S Sun: 8 / 3 / 1.3 / fav 0   POSITIVE
+- S Jupiter: 13 / 4 / 2.0 / fav 2   POSITIVE
+- S Ceres: 14 / 5 / 2.7 / fav 2
+- S Uranus: 15 / 5 / 2.6 / fav 0
+- S Mercury: 16 / 6 / 2.7 / fav 4   POSITIVE
+
+## whole family, score >= 80: holders / won / by chance / favourites holding
+- S Sedna: 10 / 0 / 1.7 / fav 2   NEGATIVE
+- S Moon: 5 / 0 / 0.9 / fav 2
+- S Neptune: 9 / 1 / 1.6 / fav 4
+- S Pallas: 10 / 1 / 1.5 / fav 0
+- S Haumea: 9 / 1 / 1.3 / fav 0
+- S Jupiter: 8 / 1 / 1.3 / fav 2
+- S Makemake: 7 / 1 / 1.3 / fav 1
+- S Rahu: 12 / 2 / 2.2 / fav 4
+- S Saturn: 7 / 1 / 1.1 / fav 1
+- S Quaoar: 7 / 1 / 1.1 / fav 1
+- S Orcus: 7 / 1 / 1.1 / fav 1
+- S Pluto: 5 / 1 / 1.1 / fav 1
+- S Transpluto: 6 / 1 / 1.1 / fav 2
+- S Ketu: 6 / 1 / 1.0 / fav 2
+- S Uranus: 3 / 1 / 0.5 / fav 0
+- S Mercury: 9 / 2 / 1.5 / fav 0
+- S Juno: 2 / 1 / 0.4 / fav 0
+- S Mars: 7 / 2 / 1.4 / fav 1
+- S Vesta: 8 / 2 / 1.2 / fav 2
+- S Gonggong: 6 / 2 / 1.1 / fav 0
+- S Venus: 5 / 2 / 0.9 / fav 1   POSITIVE
+- S Chiron: 11 / 3 / 1.7 / fav 2
+- S Eris: 3 / 2 / 0.6 / fav 0   POSITIVE
+- S Ceres: 7 / 3 / 1.5 / fav 1   POSITIVE
+- S Sun: 7 / 4 / 1.2 / fav 1   POSITIVE
+
