@@ -11,6 +11,8 @@ Dec 19.0078 19 (61.0). Eydon (Newmarket 15:35 2022): H Regulus – H Jupiter RA 
   U5  a natal Regulus line on X scoring >= 80 with S Uranus → natal X (either chart) on the same family + target
   U6  a natal Regulus line on X scoring >= 80 with any Uranus line on its target (S Uranus → c X or a pair with S Uranus; Eydon's pair form)
   U7  U5 at any Regulus score
+  U8  U1 (Regulus line on X, a Uranus line on its target) and S X → H Uranus or J Uranus in a number family (the back-link; Eydon, Ring
+      The Moon); U8a any Regulus score, U8 Regulus line >= 80
 Runner-level."""
 import sys, re
 sys.path.insert(0, 'tools'); sys.path.insert(0, 'tools/scans')
@@ -19,7 +21,7 @@ import bb_fieldcheck_ringthemoon as RM
 ROY = R.ROY
 NO = ('conj', 'contraparallel', 'opposition')
 ok = lambda r: r.get('fam') and r['fam'] not in NO and r.get('sc') is not None
-KEYS = ['U0', 'U1', 'U2', 'U3', 'U4', 'U5', 'U6', 'U7']
+KEYS = ['U0', 'U1', 'U2', 'U3', 'U4', 'U5', 'U6', 'U7', 'U8a', 'U8']
 
 
 def mutual(D, X, Y):
@@ -52,6 +54,12 @@ def cases(D):
                 t = f"{X}: {tag} {x['v']:.4f} {x['tgt']} ({x['sc']}) / " + '; '.join(f"{p['line']} {p['plane']} {p['v']:.4f} ({p['sc']})" for p in us)
                 if un:
                     add('U7', t)
+                back = [o for o in D.get('Uranus', {}).get('O', []) if o['line'] in (f'S {X} → H Uranus', f'S {X} → J Uranus') and ok(o)]
+                if back:
+                    tb = f"{X}: {tag} {x['v']:.4f} {x['tgt']} ({x['sc']}) / back " + '; '.join(f"{o['line']} {o['plane']} {o['v']:.4f} {o['tgt']} ({o['sc']})" for o in back)
+                    add('U8a', tb)
+                    if x['sc'] >= 80:
+                        add('U8', tb)
                 if x['sc'] >= 80:
                     add('U6', t)
                     if un:

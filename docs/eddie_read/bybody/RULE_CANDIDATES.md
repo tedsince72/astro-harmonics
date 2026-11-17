@@ -1465,3 +1465,6 @@ S Uranus → H Mercury RA 10 (42.2); S Mercury → H Uranus Dec 5×φ (40.2), �
 44 / 10 / 7.1; U2 mutual both charts 101 / 15 / 16.0; U3 U0 + U2 7 / 1 / 1.2; U5 Regulus line >= 80 with S Uranus → natal X on the same
 target 4 / 3 / 0.6 (Ishvara J Neptune 122.222, Secret Satire H Ceres 133.333, Ring The Moon H Mercury 122.222; On Point lost, Uranus line
 5.69); U6 Regulus >= 80 with any Uranus line (Eydon's pair form incl.) 10 / 4 / 1.5; U7 U5 at any Regulus score 8 / 4 / 1.2.
+U8 (17 Nov, from Eddie's Eydon cells) Regulus line on X >= 80, a Uranus line on its target, and the back-link S X → H / J Uranus in a
+number family: 4 / 3 / 0.7 (Ishvara Neptune, Eydon Jupiter S Jupiter → H Uranus Dec 9×φ 48.86, Ring The Moon Mercury won; Dubai Souq
+Neptune lost); U8a any Regulus score 15 / 3 / 2.6.
