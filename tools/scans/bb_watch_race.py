@@ -33,7 +33,10 @@
   (any score) with 2 or more sky pairs (not naming Jupiter) on its target, and BB68 held (2 picks 2 won, 0.4 by chance over 26 result races;
   Society Red is BB68's origin; chosen after the result); J1any without BB68 listed too.
 - Arvico Bleu (Eddie, 17 Nov 2026): D1 decade echo (bb_fieldcheck_decade), O1 one sky body on X four ways (bb_fieldcheck_orcus_sun), D1 + BB3,
-  D1 + BB54; N0 + BB50, N0 + BB75 (Eddie, 17 Nov 2026); N0 same-number royal / same-body line (bb_fieldcheck_samenum, Wholestone)."""
+  D1 + BB54; N0 + BB50, N0 + BB75 (Eddie, 17 Nov 2026); N0 same-number royal / same-body line (bb_fieldcheck_samenum, Wholestone).
+- Natal pairs (Eddie, 17 Nov 2026, 'keep all those on watch'; tools/scans/bb_scan_natal_pairs.py, chosen after the results over 32 races;
+  every pair pooled is at chance): horse Pallas – Juno >= 90 (line alone 8 / 6 / 1.6), horse Ceres – Orcus, Uranus – Vesta, Mercury – Rahu
+  >= 80 with a sky line on the same number (9 / 5 / 1.5, 4 / 3 / 0.6, 4 / 3 / 0.7). Reads the race's _active.xlsx."""
 import json, sys
 sys.path.insert(0, 'tools'); sys.path.insert(0, 'tools/scans')
 import eddie_bybody_rules as E
@@ -48,6 +51,7 @@ import bb_fieldcheck_riverbray as RBY
 import bb_fieldcheck_decade as DEC
 import bb_fieldcheck_orcus_sun as OS
 import bb_fieldcheck_samenum as SN
+import os, bb_scan_natal_pairs as NP
 
 race = sys.argv[1]
 data = E.load(f'docs/eddie_read/bybody/{race}/{race}_bybody.xlsx')
@@ -210,5 +214,18 @@ for run, bodies in data.items():
         cells = ([dc['D1'][0]] if 'D1' in dc else []) + ([oc['O1'][0]] if 'O1' in oc else []) + ([nc['N0'][0]] if 'N0' in nc else [])
         do.append(f"- {run} [{' '.join(tags)}]: " + ' | '.join(cells))
 out += do or ['- none']
+out += ['', '## Natal pairs watch (17 Nov 2026; H Pallas – Juno >= 90, any sky; H Ceres – Orcus, Uranus – Vesta, Mercury – Rahu >= 80 with a '
+        'sky line on the same number; BB83 Venus – Uranus is a rule)']
+npw = []
+if os.path.exists(f'reference/classic/race_batch_{race}_active.xlsx'):
+    byc = {int(k.split(' ', 1)[0]): k for k in runners if k.split(' ', 1)[0].isdigit()}
+    for cut, prs in ((90, [('Pallas', 'Juno', 'H', False)]),
+                     (80, [('Ceres', 'Orcus', 'H', True), ('Uranus', 'Vesta', 'H', True), ('Mercury', 'Rahu', 'H', True)])):
+        for cloth, items in sorted(NP.pair_cases(race, prs, cut).items()):
+            for pair, ch, t in items:
+                npw.append(f"- {byc.get(cloth, cloth)} [{pair}]: {t}")
+else:
+    npw.append('- no _active.xlsx for this race')
+out += npw or ['- none']
 txt = '\n'.join(out) + '\n'
 open(f'docs/eddie_read/bybody_rules/{race}_watch.md', 'w').write(txt); print(txt)

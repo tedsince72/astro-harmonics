@@ -3,7 +3,7 @@
 ## Rules held
 | runner | as built | under T2 | lost under T2 |
 |---|---|---|---|
-| 01 Sir Chauvelin | 8: BB3, BB7, BB8, BB14, BB20, BB48, BB55, BB64 | 6 | BB48, BB64 |
+| 01 Sir Chauvelin | 9: BB3, BB7, BB8, BB14, BB20, BB48, BB55, BB64, BB83 | 6 | BB48, BB64, BB83 |
 | 02 Alba Rose | 14: BB3, BB12, BB14, BB23, BB28, BB34, BB43, BB48, BB50, BB51, BB57, BB63, BB73, BB74 | 9 | BB28, BB43, BB51, BB57, BB73 |
 | 03 Wise Eagle | 4: BB3, BB31, BB43, BB68 | 4 | — |
 | 04 Onesmoothoperator | 7: BB3, BB8, BB9, BB53, BB66, BB75, BB81 | 7 | — |
@@ -78,6 +78,9 @@
 
 ## Decade echo and one sky body on X four ways (Arvico Bleu, 17 Nov 2026; D1 = a natal royal line on X and a sky line naming sky X >= 90 on the same digits a decade apart, 14 / 4 / 1.9; O1 = one sky body on sky X in RA and Dec and on natal X in both charts, all four >= 40, 11 / 4 / 1.7; D1 + BB3 11 / 4 / 1.4; D1 + BB54 5 / 3 / 0.4; all over 31 result races, chosen after the results; N0 (Wholestone, 17 Nov 2026) = a natal royal line on X and S X → natal X on the same family + target, any scores, 16 / 5 / 2.6 over 32; N0 + BB50 3 / 3 / 0.5, N0 + BB75 2 / 2 / 0.3, over 32, chosen after the results)
 - 04 Onesmoothoperator [N0 N0+BB75]: Chiron: J Antares – J Chiron Dec 11.9839 12 (19.26) = S Chiron → H Chiron RA 11.9805 (2.54)
+
+## Natal pairs watch (17 Nov 2026; H Pallas – Juno >= 90, any sky; H Ceres – Orcus, Uranus – Vesta, Mercury – Rahu >= 80 with a sky line on the same number; BB83 Venus – Uranus is a rule)
+- 02 Alba Rose [Uranus – Vesta]: H Uranus – H Vesta Dec 27.5078 17×φ golden (96.3) = S Ketu – S Sedna Dec 27.5326; S Pallas – S Gonggong RA 27.4832
 
 ## Watch B / Jupiter split
 - Watch B (H Jupiter – J Jupiter >= 90): 03 Wise Eagle RA 177.8062 177.778 ninth (92.01) [A B F]; 01 Sir Chauvelin Dec 26.1682 10φ² (68.98) [A C], under 90. No other runner scores.
