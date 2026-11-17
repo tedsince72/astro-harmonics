@@ -1540,3 +1540,14 @@ Same number, royal line and same-body line (Eddie, 17 Nov 2026, Wholestone H Fom
 16 / 5 / 2.6 (Novakai, The Dunkirk Lads, Little Girl Blue, Aldhaja, Wholestone); other chart N0x 9 / 2 / 1.5; both >= 50 N50 4 / 1 / 0.6, >= 70
 2 / 1 / 0.3 (Wholestone only; Passing Storm lost). Noted, not built.
 N0 combinations (32 races): N0 + BB3 15 / 5 / 2.5; N0 or D1 30 / 9 / 4.5; D1 + P80 (S Pluto on natal Pluto >= 80) 4 / 2 / 0.6 (Arvico Bleu, Wholestone); N0 + D1 2 / 1 / 0.3.
+
+### N0 and D1 combinations (17 Nov 2026, Eddie: 'N0 is good and D1 is good - interesting no overlaps - keep these / so they combine with any other rules well?')
+tools/scans/bb_combos_n0_d1.py, 32 result races, picks / won / by chance; all found after the results. N0 and D1 have no winner in common.
+- N0: N0 + BB50 3 / 3 / 0.5 (The Dunkirk Lads, Aldhaja, Wholestone); N0 + BB12 + BB53 and N0 + BB53 + BB63 3 / 3 / 0.6 (Little Girl Blue,
+  Aldhaja, Wholestone); N0 + BB75 2 / 2 / 0.3 (Novakai, The Dunkirk Lads); N0 + BB3 15 / 5 / 2.5 (N0 alone 16 / 5 / 2.6).
+- D1: D1 + BB53 4 / 3 / 0.5, D1 + BB48 + BB55 4 / 3 / 0.4 (Perfect Part, Diligent Resdev, Wholestone); D1 + BB48 + BB53, D1 + BB53 + BB55
+  3 / 3 / 0.3; D1 + BB13 2 / 2 / 0.1 (Perfect Part, Diligent Resdev); D1 + BB33 2 / 2 / 0.2 (Perfect Part, Whitefeathersfall); D1 + BB3
+  12 / 5 / 1.5, D1 + BB54 5 / 3 / 0.4.
+- In-sample: BB53 / BB55 / BB51 / BB13 / BB33 were built from Perfect Part or Diligent Resdev, BB50 / BB12 from Secret Satire / Pholas;
+  the D1 combinations with BB53 / BB55 / BB13 are mostly their own origin winners plus Wholestone. Cleanest out of their origins:
+  N0 + BB50 (none of the three winners an origin of BB50), N0 + BB75 (BB75 origin Daphne Moon not in it).

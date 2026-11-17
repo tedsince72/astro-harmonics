@@ -32,7 +32,7 @@
   (any score) with 2 or more sky pairs (not naming Jupiter) on its target, and BB68 held (2 picks 2 won, 0.4 by chance over 26 result races;
   Society Red is BB68's origin; chosen after the result); J1any without BB68 listed too.
 - Arvico Bleu (Eddie, 17 Nov 2026): D1 decade echo (bb_fieldcheck_decade), O1 one sky body on X four ways (bb_fieldcheck_orcus_sun), D1 + BB3,
-  D1 + BB54."""
+  D1 + BB54; N0 same-number royal / same-body line (bb_fieldcheck_samenum, Wholestone)."""
 import json, sys
 sys.path.insert(0, 'tools'); sys.path.insert(0, 'tools/scans')
 import eddie_bybody_rules as E
@@ -46,6 +46,7 @@ import bb_fieldcheck_eydon as EY
 import bb_fieldcheck_riverbray as RBY
 import bb_fieldcheck_decade as DEC
 import bb_fieldcheck_orcus_sun as OS
+import bb_fieldcheck_samenum as SN
 
 race = sys.argv[1]
 data = E.load(f'docs/eddie_read/bybody/{race}/{race}_bybody.xlsx')
@@ -195,14 +196,15 @@ for run, bodies in data.items():
 out += jj or ['- none']
 out += ['', '## Decade echo and one sky body on X four ways (Arvico Bleu, 17 Nov 2026; D1 = a natal royal line on X and a sky line naming '
         'sky X >= 90 on the same digits a decade apart, 14 / 4 / 1.9; O1 = one sky body on sky X in RA and Dec and on natal X in both charts, '
-        'all four >= 40, 11 / 4 / 1.7; D1 + BB3 11 / 4 / 1.4; D1 + BB54 5 / 3 / 0.4; all over 31 result races, chosen after the results)']
+        'all four >= 40, 11 / 4 / 1.7; D1 + BB3 11 / 4 / 1.4; D1 + BB54 5 / 3 / 0.4; all over 31 result races, chosen after the results; '
+        'N0 (Wholestone, 17 Nov 2026) = a natal royal line on X and S X → natal X on the same family + target, any scores, 16 / 5 / 2.6 over 32)']
 do = []
 for run, bodies in data.items():
-    dc, oc = DEC.cases(bodies), OS.cases(bodies)
+    dc, oc, nc = DEC.cases(bodies), OS.cases(bodies), SN.cases(bodies)
     tags = [k for k, c in (('D1', 'D1' in dc), ('O1', 'O1' in oc), ('D1+BB3', 'D1' in dc and 'BB3' in hold[run]),
-                           ('D1+BB54', 'D1' in dc and 'BB54' in hold[run])) if c]
+                           ('D1+BB54', 'D1' in dc and 'BB54' in hold[run]), ('N0', 'N0' in nc)) if c]
     if tags:
-        cells = ([dc['D1'][0]] if 'D1' in dc else []) + ([oc['O1'][0]] if 'O1' in oc else [])
+        cells = ([dc['D1'][0]] if 'D1' in dc else []) + ([oc['O1'][0]] if 'O1' in oc else []) + ([nc['N0'][0]] if 'N0' in nc else [])
         do.append(f"- {run} [{' '.join(tags)}]: " + ' | '.join(cells))
 out += do or ['- none']
 txt = '\n'.join(out) + '\n'
