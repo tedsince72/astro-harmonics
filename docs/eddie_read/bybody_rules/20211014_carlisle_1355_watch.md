@@ -71,6 +71,9 @@
 ## Jupiter–Jupiter on a sky number watch (River Bray, Society Red; J1any = H Jupiter – J Jupiter in a number family, any score, with 2+ sky pairs on its target; J1any+B68 = and BB68 held)
 - 04 Gold Des Bois [J1any+B68]: H Jupiter – J Jupiter RA 12.9533 8×φ (72) / S Venus – S Gonggong Dec 12.9580 (57.59); S Saturn – S Pluto RA 12.9637 (39.95); S Mars – S Chiron Dec 12.9693 (22.74)
 
+## Decade echo and one sky body on X four ways (Arvico Bleu, 17 Nov 2026; D1 = a natal royal line on X and a sky line naming sky X >= 90 on the same digits a decade apart, 14 / 4 / 1.9; O1 = one sky body on sky X in RA and Dec and on natal X in both charts, all four >= 40, 11 / 4 / 1.7; D1 + BB3 11 / 4 / 1.4; D1 + BB54 5 / 3 / 0.4; all over 31 result races, chosen after the results)
+- 01 Arvico Bleu [D1 O1 D1+BB3]: Sun: S Transpluto – S Sun RA 44.4467 44.4444 (97.51) / J Aldebaran – J Sun Dec 4.4380 4.44444 (27.16); carried by S Rahu – S Ceres Dec 4.4445 (99.65) | Sun by Orcus: S Orcus – S Sun RA 42.3835 10φ³ (64.01); S Orcus – S Sun Dec 3.2413 2×φ (83.81); S Orcus → H Sun RA 122.0113 122 (43.26); S Orcus → J Sun RA 6.6711 6.66667 (66.48)
+
 ## Watch B / Jupiter split
 - Watch B (H Jupiter – J Jupiter >= 90): none; 04 Gold Des Bois H Jupiter – J Jupiter RA 12.9533 8×φ (72) tagged A / E / F.
 - Jupiter split: 04 Gold Des Bois E and Ef (RA: S Jupiter → H Jupiter 137.5203 85×φ (61.2), S Jupiter → J Jupiter 124.5670 77×φ (33.2),
