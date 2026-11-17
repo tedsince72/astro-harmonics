@@ -78,3 +78,15 @@
 - Depth step 5: 04 Mr Washington (Mars, Transpluto; R11w Mars 71.12), 06 Silva Eclipse (Transpluto).
 - Lead: 01 Boss Man Fred (BB69 + BB67, the two strongest runner-level rules; combos). Second: 03 Gredin (most rules, BB79, weak cells).
 - Independent checker (blind, own parser): counts, alone lists, BB79 cells and field, BB69 counts every runner, BB67, depth: 0 mismatches.
+
+## Result (from Eddie, 17 Nov 2026)
+1 Silva Eclipse 16/1, 2 Boss Man Fred 5/2 (lead), 3 Half Track 11/10F, 4 Gredin 11/2 (second), 5 Mister Watson 20/1, 6 Mr Washington 17/2. 6 ran.
+- Miss: lead 2nd, second 4th. Winner Silva Eclipse: 7 rules (alone on BB23), depth step 5 (Transpluto, with Mr Washington), 3 rules under T2.
+- Silva Eclipse after the result (tools/scans/bb_fieldcheck_silva.py, 30 result races): Aldebaran is her star -
+  Neptune: S Aldebaran – S Neptune RA φ⁹ (70.29), H Aldebaran – H Neptune RA 93 (88.91), J Aldebaran – J Neptune RA 122.222 (77.78) (BB10);
+  one sky pair S Quaoar – S Transpluto RA 122.1915 (87.41) carries the Aldebaran line in both charts (H Makemake 122.2730 (79.22), J Neptune
+  122.2765 (77.78)); Makemake: H Aldebaran 122.222, J Aldebaran 111.151 111.111 (82.07), H–J Makemake 11.1172 11.1111 (72.61); H Aldebaran –
+  H Transpluto Dec 3×φ (80.31). Versions: S1s (pair carries the same royal star in both charts, all >= 70) 4 / 1 / 0.7; R3s (royal star on X
+  in sky, H and J, all >= 70) 8 / 2 / 1.2 (Dynamic Force, Silva Eclipse); R3s+ (+ a second royal star on sky and natal X, Regulus on Neptune)
+  3 / 1 / 0.4; T70 (royal on X both charts + H X – J X, one family, all >= 70; largely geometry) 10 / 3 / 1.7. Broad versions at chance
+  (S1 54 / 7 / 8.8, R3 133 / 24 / 21.2). Noted, not built.

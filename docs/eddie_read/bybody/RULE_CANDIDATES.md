@@ -1503,3 +1503,8 @@ same-body line S X -> c X; Y = a sky body in the carrier (not X, Moon, royal).
   so the 'same target' carrier is geometry; the content is a body conjunct sky X with both same-body lines scoring.
 - Ceres by Makemake: Peak Time (direct, conj), Wotever Next and Man On A Mission (pairs S Ketu – S Makemake Dec 41.39, S Mercury – S Makemake
   RA 179.5, same sky day). Black Opium (Peak Time's race, 4th) the reverse: Makemake carried by Ceres.
+
+## Silva Eclipse Aldebaran (Doncaster 16:00 23 Feb 2022; tools/scans/bb_fieldcheck_silva.py; noted, not built)
+S1s one sky pair carrying the same royal star's natal line in both charts, all >= 70: 4 / 1 / 0.7 (Silva Eclipse only winner).
+R3s one royal star on X in sky, horse and jockey, all >= 70: 8 / 2 / 1.2 (Dynamic Force, Silva Eclipse); R3s+ 3 / 1 / 0.4.
+T70 same royal star on natal X both charts + H X – J X, one family, >= 70: 10 / 3 / 1.7 (Dynamic Force, Aldhaja, Silva Eclipse; geometry).
