@@ -2003,6 +2003,72 @@ def bb76(b):
 
 
 
+def _regulus_uranus(b, back):
+    """Shared by BB77 / BB77b / BB77c: natal Regulus lines on X (H Regulus – X, J Regulus – X) in a number family scoring >= 80 whose
+    'Sky lines on the same target' hold a line naming S Uranus in a number family. back=False: the Uranus line must be S Uranus -> natal X
+    (U5); back=True: any Uranus line (pair incl.) and S X -> H Uranus or S X -> J Uranus in a number family (U8)."""
+    NO = ('conj', 'contraparallel', 'opposition')
+    ok = lambda r: r['fam'] and r['fam'] not in NO and r['sc'] is not None
+    if b.X == 'Moon' or (back and b.X == 'Uranus'):
+        return []
+    out = []
+    for x in b.L:
+        if not x['line'].startswith(('H Regulus – ', 'J Regulus – ')) or not ok(x) or x['sc'] < 80:
+            continue
+        tag = f"{x['line']} {x['plane']}"
+        us = [p for p in b.S if p.get('match') == tag and ok(p) and 'S Uranus' in p['line']]
+        if not back:
+            us = [p for p in us if '→' in p['line']]
+        if not us:
+            continue
+        bl = []
+        if back:
+            U = (getattr(b, 'all', None) or {}).get('Uranus', {})
+            bl = [o for o in U.get('O', []) if o['line'] in (f'S {b.X} → H Uranus', f'S {b.X} → J Uranus') and ok(o)]
+            if not bl:
+                continue
+        note = (f"{tag} {x['v']:.4f} {x['tgt']} {x['fam']} ({x['sc']}); Uranus on the target: "
+                + '; '.join(f"{p['line']} {p['plane']} {p['v']:.4f} ({p['sc']})" for p in us))
+        if bl:
+            note += '; back to natal Uranus: ' + '; '.join(f"{o['line']} {o['plane']} {o['v']:.4f} {o['tgt']} ({o['sc']})" for o in bl)
+        out.append({'key': (b.X, tag), 'cells': [x] + us + bl, 'notes': [note]})
+    return out
+
+
+def bb77(b):
+    """U5 (Eddie, 17 Nov 2026, 'yes, build'; from Ffos Las 17:25 23 Mar 2022 Ring The Moon Mercury: H Regulus - H Mercury RA 122.2550
+    ninth 122.222 (86.6) with S Uranus -> J Mercury RA 122.4221 on the same target (18.2)): a natal Regulus line on X in a number family
+    scoring >= 80 with S Uranus -> natal X (either chart) on its family + target, in a number family (any score). Over 25 result races
+    4 picks 3 won (Ishvara, Secret Satire, Ring The Moon; On Point lost), 0.6 by chance (tools/scans/bb_fieldcheck_regulus_uranus.py U5).
+    Chosen after the results."""
+    return [dict(c, key=('BB77',) + c['key']) for c in _regulus_uranus(b, False)]
+
+
+def bb77b(b):
+    """U8 (Eddie, 17 Nov 2026, 'yes, build'; from Newmarket 15:35 14 Apr 2022 Eydon Jupiter: H Regulus - H Jupiter RA 111.1022 ninth
+    (95.99) carried by S Uranus - S Regulus RA 111.1257, S Jupiter -> H Uranus Dec 14.5457 9xphi (48.86); and Ring The Moon Mercury): a
+    natal Regulus line on X in a number family scoring >= 80, any Uranus line on its family + target (S Uranus -> natal X or a pair with
+    S Uranus) in a number family, and S X -> H Uranus or S X -> J Uranus in a number family (any score). X not the Moon, not Uranus. Over
+    25 result races 4 picks 3 won (Ishvara, Eydon, Ring The Moon; Dubai Souq lost), 0.7 by chance (U8). Chosen after the results."""
+    return [dict(c, key=('BB77b',) + c['key']) for c in _regulus_uranus(b, True)]
+
+
+def bb77c(b):
+    """Eddie, 17 Nov 2026 ('the two together'): BB77 or BB77b on a body (either version; a line holding both shown once, under BB77b).
+    Over 25 result races 6 picks 4 won (Ishvara, Secret Satire, Eydon, Ring The Moon; On Point, Dubai Souq lost), 0.9 by chance."""
+    both = {c['key']: c for c in _regulus_uranus(b, False)}
+    both.update({c['key']: c for c in _regulus_uranus(b, True)})
+    return [dict(c, key=('BB77c',) + k) for k, c in both.items()]
+
+
+def bb78(res):
+    """Eddie, 17 Nov 2026 ('yes, build'; from Ffos Las 17:25 23 Mar 2022 Ring The Moon): a runner holding BB9, BB43 and BB64 (each as
+    built, watch-only cases not counted; on any bodies). Runner-level, body 'runner'. Over 24 result races 3 picks 3 won (Ishvara,
+    Whitefeathersfall, Ring The Moon), 0.5 by chance (tools/scans/bb_combos_ringthemoon.py); Ishvara is the BB9 origin, found among the
+    pairs / triples of Ring The Moon's rules, chosen after the result. Computed after every other rule, as BB67."""
+    return _both(res, ('BB9', 'BB43', 'BB64'))
+
+
 RULES = [('BB1', bb1, 'Mercury'), ('BB1b', bb1b, 'any'), ('BB2', bb2, 'Mars'), ('BB3', bb3, 'Jupiter'), ('BB4', bb4, 'Saturn'),
          ('BB5', bb5, 'Uranus'), ('BB6', bb6, 'Uranus'), ('BB7', bb7, 'Neptune'), ('BB8', bb8, 'Rahu'),
          ('BB9', bb9, 'Rahu'), ('BB10', bb10, 'Ketu'), ('BB11', bb11, 'Ceres'), ('BB12', bb12, 'Pallas'),
@@ -2011,7 +2077,7 @@ RULES = [('BB1', bb1, 'Mercury'), ('BB1b', bb1b, 'any'), ('BB2', bb2, 'Mars'), (
          ('BB21', bb21, 'Saturn'), ('BB22', bb22, 'Saturn'), ('BB23', bb23, 'Neptune'), ('BB24', bb24, 'Rahu'), ('BB25', bb25, 'Ketu'), ('BB26', bb26, 'Ceres'), ('BB27', bb27, 'Pallas'), ('BB28', bb28, 'Juno'), ('BB29', bb29, 'Vesta'), ('BB30', bb30, 'Eris'), ('BB31', bb31, 'Gonggong'),
          ('BB32', bb32, 'Sun'), ('BB32b', bb32b, 'Sun'), ('BB33', bb33, 'Mercury'), ('BB34', bb34, 'Mars'), ('BB35', bb35, 'Saturn'),
          ('BB36', bb36, 'Uranus'), ('BB37', bb37, 'Pluto'), ('BB38', bb38, 'Juno'), ('BB39', bb39, 'Makemake'),
-         ('BB40', bb40, 'Sedna'), ('BB41', bb41, 'Sun'), ('BB42', bb42, 'Mercury'), ('BB43', bb43, 'Venus'), ('BB44', bb44, 'Jupiter'), ('BB45', bb45, 'Saturn'), ('BB46', bb46, 'Saturn'), ('BB47', bb47, 'Ceres'), ('BB48', bb48, 'Chiron'), ('BB49', bb49, 'Haumea'), ('BB50', bb50, 'Makemake'), ('BB51', bb51, 'Venus'), ('BB52', bb52, 'Uranus'), ('BB53', bb53, 'any'), ('BB54', bb54, 'any'), ('BB55', bb55, 'any'), ('BB56', bb56, 'any'), ('BB57', bb57, 'any'), ('BB58', bb58, 'any'), ('BB59', bb59, 'any'), ('BB60', bb60, 'any'), ('BB61', bb61, 'any'), ('BB62', bb62, 'any'), ('BB63', bb63, 'any'), ('BB64', bb64, 'any'), ('BB65', bb65, 'Sun'), ('BB66', bb66, 'any'), ('BB67', None, 'any'), ('BB68', bb68, 'any'), ('BB69', bb69, 'any'), ('BB69b', bb69b, 'any'), ('BB70', bb70, 'any'), ('BB71', None, 'any'), ('BB72', None, 'any'), ('BB73', None, 'any'), ('BB74', None, 'any'), ('BB75', bb75, 'any'), ('BB76', bb76, 'any')]
+         ('BB40', bb40, 'Sedna'), ('BB41', bb41, 'Sun'), ('BB42', bb42, 'Mercury'), ('BB43', bb43, 'Venus'), ('BB44', bb44, 'Jupiter'), ('BB45', bb45, 'Saturn'), ('BB46', bb46, 'Saturn'), ('BB47', bb47, 'Ceres'), ('BB48', bb48, 'Chiron'), ('BB49', bb49, 'Haumea'), ('BB50', bb50, 'Makemake'), ('BB51', bb51, 'Venus'), ('BB52', bb52, 'Uranus'), ('BB53', bb53, 'any'), ('BB54', bb54, 'any'), ('BB55', bb55, 'any'), ('BB56', bb56, 'any'), ('BB57', bb57, 'any'), ('BB58', bb58, 'any'), ('BB59', bb59, 'any'), ('BB60', bb60, 'any'), ('BB61', bb61, 'any'), ('BB62', bb62, 'any'), ('BB63', bb63, 'any'), ('BB64', bb64, 'any'), ('BB65', bb65, 'Sun'), ('BB66', bb66, 'any'), ('BB67', None, 'any'), ('BB68', bb68, 'any'), ('BB69', bb69, 'any'), ('BB69b', bb69b, 'any'), ('BB70', bb70, 'any'), ('BB71', None, 'any'), ('BB72', None, 'any'), ('BB73', None, 'any'), ('BB74', None, 'any'), ('BB75', bb75, 'any'), ('BB76', bb76, 'any'), ('BB77', bb77, 'any'), ('BB77b', bb77b, 'any'), ('BB77c', bb77c, 'any'), ('BB78', None, 'any')]
 
 
 def decade_pairs(cells):
@@ -2184,6 +2250,7 @@ def run(path):
     res['BB72'] = bb72(res)
     res['BB73'] = bb73(res, data)
     res['BB74'] = bb74(res)
+    res['BB78'] = bb78(res)
     return race, list(data), res
 
 

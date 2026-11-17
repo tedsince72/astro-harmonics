@@ -551,5 +551,50 @@
   "text": "A same-body line S X -> c X in a number family (not conj / contraparallel) scoring >= 90; a sky pair S A – S B on its family + target (A, B not X, not the Moon); the loop closed (both A and B have a line on X: S E – S X, S E -> H X or S E -> J X); and one end E on both natal X: S E -> H X and S E -> J X each in a number family (not conj / cp) scoring >= 80.",
   "origin": "Ffos Las 17:25 23 Mar 2022 Ring The Moon (won 28/1): S Juno -> H Juno RA 6.4708 4×φ (96), closed by S Mercury – S Gonggong Dec 6.4474 4×φ, S Mercury -> H Juno RA 41.4204 silver (98.41) and -> J Juno RA 177.7200 ninth (83.74). Eddie, 17 Nov 2026: 'build J1 as found as it is the signal i am sure'. Over 24 result races 1 pick 1 won, 0.2 by chance (one origin winner); looser versions in tools/scans/bb_fieldcheck_ringthemoon_loose.py (ends any score 5 / 2 / 0.9). Chosen after the result.",
   "added": "2026-11-17"
+ },
+ {
+  "id": "BB77",
+  "title": "Regulus line on X with S Uranus on natal X, same target",
+  "text": "A natal Regulus line (H Regulus – X or J Regulus – X) in a number family (not conj / contraparallel / opposition) scoring >= 80, with S Uranus -> natal X (either chart) on its family + target, in a number family (any score). X not the Moon.",
+  "origin": "Ffos Las 17:25 23 Mar 2022 Ring The Moon (won 28/1): H Regulus – H Mercury RA 122.2550 ninth 122.222 (86.6) with S Uranus -> J Mercury RA 122.4221 (18.2). Eddie, 17 Nov 2026: 'the big one for me is the regulus uranus repeating again'; 'yes, build'. Over 25 result races 4 picks 3 won (Ishvara, Secret Satire, Ring The Moon; On Point lost), 0.6 by chance (tools/scans/bb_fieldcheck_regulus_uranus.py U5). Chosen after the results.",
+  "in_sample": [
+   "20200608_haydock_1345",
+   "20240515_york_1545",
+   "20220323_ffos_las_1725"
+  ]
+ },
+ {
+  "id": "BB77b",
+  "title": "Regulus line on X with Uranus on its target and S X back on natal Uranus",
+  "text": "A natal Regulus line on X in a number family scoring >= 80; a line naming S Uranus (S Uranus -> natal X or a sky pair with S Uranus) on its family + target, in a number family; and S X -> H Uranus or S X -> J Uranus in a number family (any score). X not the Moon, not Uranus.",
+  "origin": "Newmarket 15:35 14 Apr 2022 Eydon (won 22/1): H Regulus – H Jupiter RA 111.1022 ninth 111.111 (95.99) carried by S Uranus – S Regulus RA 111.1257 (93.4), S Jupiter -> H Uranus Dec 14.5457 9×φ (48.86); Ring The Moon Mercury the same shape (S Mercury -> H Uranus Dec 5×φ, -> J Uranus Dec 19). Eddie, 17 Nov 2026: 'was this eydon'; 'yes, build'. Over 25 result races 4 picks 3 won (Ishvara, Eydon, Ring The Moon; Dubai Souq lost), 0.7 by chance (U8). Chosen after the results.",
+  "in_sample": [
+   "20200608_haydock_1345",
+   "20220414_newmarket_1535",
+   "20220323_ffos_las_1725"
+  ]
+ },
+ {
+  "id": "BB77c",
+  "title": "BB77 or BB77b (the two together)",
+  "text": "A body holding BB77 or BB77b.",
+  "origin": "Eddie, 17 Nov 2026: 'BB77: U5, U8, the two together'. Over 25 result races 6 picks 4 won (Ishvara, Secret Satire, Eydon, Ring The Moon; On Point, Dubai Souq lost), 0.9 by chance. Chosen after the results.",
+  "in_sample": [
+   "20200608_haydock_1345",
+   "20240515_york_1545",
+   "20220414_newmarket_1535",
+   "20220323_ffos_las_1725"
+  ]
+ },
+ {
+  "id": "BB78",
+  "title": "BB9 + BB43 + BB64 held together (runner-level)",
+  "text": "A runner holding BB9, BB43 and BB64 (each as built, watch-only cases not counted; on any bodies). Runner-level.",
+  "origin": "Ffos Las 17:25 23 Mar 2022 Ring The Moon (won 28/1). Eddie, 17 Nov 2026: 'yes, build ... The combination BB9 + BB43 + BB64'. Over 24 result races 3 picks 3 won (Ishvara, Whitefeathersfall, Ring The Moon), 0.5 by chance (tools/scans/bb_combos_ringthemoon.py); found among pairs / triples of Ring The Moon's rules, chosen after the result.",
+  "in_sample": [
+   "20200608_haydock_1345",
+   "20220707_carlisle_1630",
+   "20220323_ffos_las_1725"
+  ]
  }
 ]

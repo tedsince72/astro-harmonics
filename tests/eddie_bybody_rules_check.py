@@ -94,6 +94,10 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB74': set(),
     'BB75': set(),
     'BB76': set(),
+    'BB77': set(),
+    'BB77b': set(),
+    'BB77c': set(),
+    'BB78': set(),
     'BB55': {('01 Arafi', 'Gonggong'), ('01 Arafi', 'Venus'), ('04 Nirodha', 'Saturn'), ('05 Pholas', 'Pallas')},
     'BB53': {('06 Shimmering Dawn', 'Sun'), ('06 Shimmering Dawn', 'Jupiter'), ('06 Shimmering Dawn', 'Pallas')},
 }
@@ -837,5 +841,32 @@ for race, win in FR.RACES:
     h = {c['runner'] for c in R.run(pth)[2]['BB76'] if not c['watch_only']}
     t76 += len(h); w76 += sum(win in x for x in h)
 check((t76, w76) == (1, 1), f'BB76 1 holder, 1 won over the result races ({t76}, {w76})')
+# BB77 / BB77b / BB77c / BB78 (Eddie, 17 Nov 2026): Regulus - Uranus U5, U8, either; BB9 + BB43 + BB64
+if os.path.exists(FF):
+    check({(c['runner'], c['body']) for c in fd['BB77']} == {('04 Ring The Moon', 'Mercury')}, 'BB77 Ffos Las: Ring The Moon Mercury')
+    check(fd['BB77'][0]['notes'] == ['H Regulus – H Mercury RA 122.2550 122.222 ninth (86.6); Uranus on the target: S Uranus → J Mercury '
+                                     'RA 122.4221 (18.23)'], 'BB77 notes')
+    check(fd['BB77b'][0]['notes'][0].endswith('back to natal Uranus: S Mercury → H Uranus Dec 8.1095 5×φ (40.23); S Mercury → J Uranus '
+                                              'Dec 19.0078 19 (61.02)'), 'BB77b notes')
+    check({(c['runner'], c['body']) for c in fd['BB78']} == {('04 Ring The Moon', 'runner')}, 'BB78 Ffos Las: Ring The Moon')
+import bb_fieldcheck_regulus_uranus as RU
+tot = {k: [0, 0] for k in ('BB77', 'BB77b', 'BB77c', 'BB78')}
+for race, win in FR.RACES:
+    pth = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', race, f'{race}_bybody.xlsx')
+    if not os.path.exists(pth):
+        continue
+    rr = R.run(pth)[2]
+    data = R.load(pth)
+    sc = {run: RU.cases(d) for run, d in data.items()}
+    for rid, keys in (('BB77', ('U5',)), ('BB77b', ('U8',)), ('BB77c', ('U5', 'U8'))):
+        h = {c['runner'] for c in rr[rid] if not c['watch_only']}
+        check(h == {run for run, c in sc.items() if any(k in c for k in keys)}, f'{rid} = scan {"/".join(keys)} {race}')
+        tot[rid][0] += len(h); tot[rid][1] += sum(win in x for x in h)
+    h78 = {c['runner'] for c in rr['BB78']}
+    held = lambda rid: {c['runner'] for c in rr[rid] if not c['watch_only']}
+    check(h78 == held('BB9') & held('BB43') & held('BB64'), f'BB78 = BB9 & BB43 & BB64 {race}')
+    tot['BB78'][0] += len(h78); tot['BB78'][1] += sum(win in x for x in h78)
+for rid, exp in (('BB77', (4, 3)), ('BB77b', (4, 3)), ('BB77c', (6, 4)), ('BB78', (3, 3))):
+    check(tuple(tot[rid]) == exp, f'{rid} {exp[0]} holders, {exp[1]} won over the result races ({tot[rid]})')
 print(f'{ok}/{ok + bad} checks passed')
 sys.exit(1 if bad else 0)

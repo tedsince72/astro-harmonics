@@ -1,4 +1,4 @@
-# 20220323_ffos_las_1725 — body-by-body rules BB1-BB76
+# 20220323_ffos_las_1725 — body-by-body rules BB1-BB78
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -83,6 +83,10 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB74 | 1 | 1 | 03 Time Leader |  |
 | BB75 | 0 | 0 | - |  |
 | BB76 | 1 | 1 | 04 Ring The Moon |  |
+| BB77 | 1 | 1 | 04 Ring The Moon |  |
+| BB77b | 1 | 1 | 04 Ring The Moon |  |
+| BB77c | 1 | 1 | 04 Ring The Moon |  |
+| BB78 | 1 | 1 | 04 Ring The Moon |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1007,4 +1011,67 @@ Origin: Ffos Las 17:25 23 Mar 2022 Ring The Moon (won 28/1): S Juno -> H Juno RA
 - S Mercury → J Juno RA 177.719973 177.778 ninth (83.74)
 - S Juno → H Juno RA 6.4708 4×φ (96) closed by S Mercury – S Gonggong Dec 6.4474; Mercury on both natal Juno: S Mercury → H Juno RA 41.4204 (98.41), S Mercury → J Juno RA 177.7200 (83.74)
 - lights on Juno: S Moon – S Juno Dec 16.647167 16.6667 ninth (41.5); S Moon → J Juno Dec 29.146483 18×φ golden (32.5)
+
+## BB77 — Regulus line on X with S Uranus on natal X, same target
+
+Rule: A natal Regulus line (H Regulus – X or J Regulus – X) in a number family (not conj / contraparallel / opposition) scoring >= 80, with S Uranus -> natal X (either chart) on its family + target, in a number family (any score). X not the Moon.
+
+Origin: Ffos Las 17:25 23 Mar 2022 Ring The Moon (won 28/1): H Regulus – H Mercury RA 122.2550 ninth 122.222 (86.6) with S Uranus -> J Mercury RA 122.4221 (18.2). Eddie, 17 Nov 2026: 'the big one for me is the regulus uranus repeating again'; 'yes, build'. Over 25 result races 4 picks 3 won (Ishvara, Secret Satire, Ring The Moon; On Point lost), 0.6 by chance (tools/scans/bb_fieldcheck_regulus_uranus.py U5). Chosen after the results.
+
+### 04 Ring The Moon — Mercury (only)
+- H Regulus – H Mercury RA 122.254984 122.222 ninth (86.6)
+- S Uranus → J Mercury RA 122.422105 122.222 ninth (18.23)
+- H Regulus – H Mercury RA 122.2550 122.222 ninth (86.6); Uranus on the target: S Uranus → J Mercury RA 122.4221 (18.23)
+- lights on Mercury: S Moon – S Mercury RA 103.013636 103 whole (31.82); S Moon → J Mercury RA 89.034980 88.8889 ninth (17.82)
+
+## BB77b — Regulus line on X with Uranus on its target and S X back on natal Uranus
+
+Rule: A natal Regulus line on X in a number family scoring >= 80; a line naming S Uranus (S Uranus -> natal X or a sky pair with S Uranus) on its family + target, in a number family; and S X -> H Uranus or S X -> J Uranus in a number family (any score). X not the Moon, not Uranus.
+
+Origin: Newmarket 15:35 14 Apr 2022 Eydon (won 22/1): H Regulus – H Jupiter RA 111.1022 ninth 111.111 (95.99) carried by S Uranus – S Regulus RA 111.1257 (93.4), S Jupiter -> H Uranus Dec 14.5457 9×φ (48.86); Ring The Moon Mercury the same shape (S Mercury -> H Uranus Dec 5×φ, -> J Uranus Dec 19). Eddie, 17 Nov 2026: 'was this eydon'; 'yes, build'. Over 25 result races 4 picks 3 won (Ishvara, Eydon, Ring The Moon; Dubai Souq lost), 0.7 by chance (U8). Chosen after the results.
+
+### 04 Ring The Moon — Mercury (only)
+- H Regulus – H Mercury RA 122.254984 122.222 ninth (86.6)
+- S Uranus → J Mercury RA 122.422105 122.222 ninth (18.23)
+- S Mercury → H Uranus Dec 8.109536 5×φ golden (40.23)
+- S Mercury → J Uranus Dec 19.007795 19 whole (61.02)
+- H Regulus – H Mercury RA 122.2550 122.222 ninth (86.6); Uranus on the target: S Uranus → J Mercury RA 122.4221 (18.23); back to natal Uranus: S Mercury → H Uranus Dec 8.1095 5×φ (40.23); S Mercury → J Uranus Dec 19.0078 19 (61.02)
+- lights on Mercury: S Moon – S Mercury RA 103.013636 103 whole (31.82); S Moon → J Mercury RA 89.034980 88.8889 ninth (17.82)
+
+## BB77c — BB77 or BB77b (the two together)
+
+Rule: A body holding BB77 or BB77b.
+
+Origin: Eddie, 17 Nov 2026: 'BB77: U5, U8, the two together'. Over 25 result races 6 picks 4 won (Ishvara, Secret Satire, Eydon, Ring The Moon; On Point, Dubai Souq lost). Chosen after the results.
+
+### 04 Ring The Moon — Mercury (only)
+- H Regulus – H Mercury RA 122.254984 122.222 ninth (86.6)
+- S Uranus → J Mercury RA 122.422105 122.222 ninth (18.23)
+- S Mercury → H Uranus Dec 8.109536 5×φ golden (40.23)
+- S Mercury → J Uranus Dec 19.007795 19 whole (61.02)
+- H Regulus – H Mercury RA 122.2550 122.222 ninth (86.6); Uranus on the target: S Uranus → J Mercury RA 122.4221 (18.23); back to natal Uranus: S Mercury → H Uranus Dec 8.1095 5×φ (40.23); S Mercury → J Uranus Dec 19.0078 19 (61.02)
+- lights on Mercury: S Moon – S Mercury RA 103.013636 103 whole (31.82); S Moon → J Mercury RA 89.034980 88.8889 ninth (17.82)
+
+## BB78 — BB9 + BB43 + BB64 held together (runner-level)
+
+Rule: A runner holding BB9, BB43 and BB64 (each as built, watch-only cases not counted; on any bodies). Runner-level.
+
+Origin: Ffos Las 17:25 23 Mar 2022 Ring The Moon (won 28/1). Eddie, 17 Nov 2026: 'yes, build ... The combination BB9 + BB43 + BB64'. Over 24 result races 3 picks 3 won (Ishvara, Whitefeathersfall, Ring The Moon), 0.5 by chance (tools/scans/bb_combos_ringthemoon.py); found among pairs / triples of Ring The Moon's rules, chosen after the result.
+
+### 04 Ring The Moon — runner (only)
+- J Aldebaran – J Transpluto RA 75.012441 75 whole (37.8)
+- S Neptune – S Aldebaran RA 75.004297 75 whole (78.52)
+- S Neptune → H Transpluto Dec 15.553391 15.5556 ninth (93.04)
+- S Neptune → J Transpluto RA 150.016173 150 whole (19.13)
+- S Neptune → H Neptune Dec 6.500364 4×φ golden (12.88)
+- S Mercury – S Gonggong Dec 6.447428 4×φ golden (23.74)
+- S Mercury – S Neptune RA 0.346845 conj conj (76.88)
+- S Gonggong → H Neptune RA 0.156502 conj conj (89.57)
+- S Gonggong → J Neptune Dec 10.990758 11 whole (53.79)
+- S Fomalhaut – S Sun Dec 30.714953 19×φ golden (14.53)
+- S Quaoar → H Sun Dec 30.747279 19×φ golden (85.7)
+- S Quaoar → H Sun RA 122.382056 122.222 ninth (34.61)
+- BB9: Transpluto
+- BB43: Neptune
+- BB64: Sun
 

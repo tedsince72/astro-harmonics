@@ -1,4 +1,4 @@
-# 20220406_lingfield_aw_1425 — body-by-body rules BB1-BB75
+# 20220406_lingfield_aw_1425 — body-by-body rules BB1-BB78
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -82,6 +82,11 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB73 | 0 | 0 | - |  |
 | BB74 | 0 | 0 | - |  |
 | BB75 | 1 | 1 | 05 Man On A Mission |  |
+| BB76 | 0 | 0 | - |  |
+| BB77 | 0 | 0 | - |  |
+| BB77b | 0 | 0 | - |  |
+| BB77c | 0 | 0 | - |  |
+| BB78 | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1217,4 +1222,44 @@ Origin: Perth 16:10 20 Apr 2022 Daphne Moon (won 10/1): H Haumea – J Haumea RA
 - S Venus – S Antares Dec 15.539899 15.5556 ninth (49.67)
 - H Pallas – J Pallas Dec 15.5542 15.5556 ninth (95.64) carried by S Venus – S Antares Dec 15.5399 (49.67)
 - lights on Pallas: S Moon – S Pallas Dec 29.066958 φ⁷ phi power (25.34); S Moon → H Pallas RA 133.485300 133.333 ninth (43.01); S Moon → H Pallas Dec 7.013416 7 whole (32.92); S Sun → H Pallas Dec 10.985443 11 whole (27.22)
+
+## BB76 — Closed same-body loop with one pair end on both natal X
+
+Rule: A same-body line S X -> c X in a number family (not conj / contraparallel) scoring >= 90; a sky pair S A – S B on its family + target (A, B not X, not the Moon); the loop closed (both A and B have a line on X: S E – S X, S E -> H X or S E -> J X); and one end E on both natal X: S E -> H X and S E -> J X each in a number family (not conj / cp) scoring >= 80.
+
+Origin: Ffos Las 17:25 23 Mar 2022 Ring The Moon (won 28/1): S Juno -> H Juno RA 6.4708 4×φ (96), closed by S Mercury – S Gonggong Dec 6.4474 4×φ, S Mercury -> H Juno RA 41.4204 silver (98.41) and -> J Juno RA 177.7200 ninth (83.74). Eddie, 17 Nov 2026: 'build J1 as found as it is the signal i am sure'. Over 24 result races 1 pick 1 won, 0.2 by chance (one origin winner); looser versions in tools/scans/bb_fieldcheck_ringthemoon_loose.py (ends any score 5 / 2 / 0.9). Chosen after the result.
+
+No runner holds it.
+
+## BB77 — Regulus line on X with S Uranus on natal X, same target
+
+Rule: A natal Regulus line (H Regulus – X or J Regulus – X) in a number family (not conj / contraparallel / opposition) scoring >= 80, with S Uranus -> natal X (either chart) on its family + target, in a number family (any score). X not the Moon.
+
+Origin: Ffos Las 17:25 23 Mar 2022 Ring The Moon (won 28/1): H Regulus – H Mercury RA 122.2550 ninth 122.222 (86.6) with S Uranus -> J Mercury RA 122.4221 (18.2). Eddie, 17 Nov 2026: 'the big one for me is the regulus uranus repeating again'; 'yes, build'. Over 25 result races 4 picks 3 won (Ishvara, Secret Satire, Ring The Moon; On Point lost), 0.6 by chance (tools/scans/bb_fieldcheck_regulus_uranus.py U5). Chosen after the results.
+
+No runner holds it.
+
+## BB77b — Regulus line on X with Uranus on its target and S X back on natal Uranus
+
+Rule: A natal Regulus line on X in a number family scoring >= 80; a line naming S Uranus (S Uranus -> natal X or a sky pair with S Uranus) on its family + target, in a number family; and S X -> H Uranus or S X -> J Uranus in a number family (any score). X not the Moon, not Uranus.
+
+Origin: Newmarket 15:35 14 Apr 2022 Eydon (won 22/1): H Regulus – H Jupiter RA 111.1022 ninth 111.111 (95.99) carried by S Uranus – S Regulus RA 111.1257 (93.4), S Jupiter -> H Uranus Dec 14.5457 9×φ (48.86); Ring The Moon Mercury the same shape (S Mercury -> H Uranus Dec 5×φ, -> J Uranus Dec 19). Eddie, 17 Nov 2026: 'was this eydon'; 'yes, build'. Over 25 result races 4 picks 3 won (Ishvara, Eydon, Ring The Moon; Dubai Souq lost), 0.7 by chance (U8). Chosen after the results.
+
+No runner holds it.
+
+## BB77c — BB77 or BB77b (the two together)
+
+Rule: A body holding BB77 or BB77b.
+
+Origin: Eddie, 17 Nov 2026: 'BB77: U5, U8, the two together'. Over 25 result races 6 picks 4 won (Ishvara, Secret Satire, Eydon, Ring The Moon; On Point, Dubai Souq lost). Chosen after the results.
+
+No runner holds it.
+
+## BB78 — BB9 + BB43 + BB64 held together (runner-level)
+
+Rule: A runner holding BB9, BB43 and BB64 (each as built, watch-only cases not counted; on any bodies). Runner-level.
+
+Origin: Ffos Las 17:25 23 Mar 2022 Ring The Moon (won 28/1). Eddie, 17 Nov 2026: 'yes, build ... The combination BB9 + BB43 + BB64'. Over 24 result races 3 picks 3 won (Ishvara, Whitefeathersfall, Ring The Moon), 0.5 by chance (tools/scans/bb_combos_ringthemoon.py); found among pairs / triples of Ring The Moon's rules, chosen after the result.
+
+No runner holds it.
 
