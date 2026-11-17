@@ -1,4 +1,4 @@
-# 20220323_ffos_las_1725 — body-by-body rules BB1-BB75
+# 20220323_ffos_las_1725 — body-by-body rules BB1-BB76
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -82,6 +82,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB73 | 0 | 0 | - |  |
 | BB74 | 1 | 1 | 03 Time Leader |  |
 | BB75 | 0 | 0 | - |  |
+| BB76 | 1 | 1 | 04 Ring The Moon |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -992,4 +993,18 @@ Rule: H X – J X in a number family (not conj / contraparallel / opposition) sc
 Origin: Perth 16:10 20 Apr 2022 Daphne Moon (won 10/1): H Haumea – J Haumea RA 16.6664 ninth 16.6667 (99.31) carried by S Juno – S Regulus Dec 16.6500 (50.08); also H Regulus – H Haumea Dec 5.9999 6 (99.65), S Regulus – S Haumea RA 40×φ (76.66), Juno on both natal Haumeas. Eddie, 17 Nov 2026: 'build H0'. Over 22 result races 12 picks, 5 won, 2.0 by chance (Novakai Eris, The Dunkirk Lads Orcus, Dynamic Force Eris, Blue Collar Glory Venus, Daphne Moon Haumea); any carrier 39 / 8 / 6.3; with the same royal star on natal X (H1) 3 / 1 / 0.5. Chosen after the result, one version tried (tools/scans/bb_fieldcheck_daphne.py).
 
 No runner holds it.
+
+## BB76 — Closed same-body loop with one pair end on both natal X
+
+Rule: A same-body line S X -> c X in a number family (not conj / contraparallel) scoring >= 90; a sky pair S A – S B on its family + target (A, B not X, not the Moon); the loop closed (both A and B have a line on X: S E – S X, S E -> H X or S E -> J X); and one end E on both natal X: S E -> H X and S E -> J X each in a number family (not conj / cp) scoring >= 80.
+
+Origin: Ffos Las 17:25 23 Mar 2022 Ring The Moon (won 28/1): S Juno -> H Juno RA 6.4708 4×φ (96), closed by S Mercury – S Gonggong Dec 6.4474 4×φ, S Mercury -> H Juno RA 41.4204 silver (98.41) and -> J Juno RA 177.7200 ninth (83.74). Eddie, 17 Nov 2026: 'build J1 as found as it is the signal i am sure'. Over 24 result races 1 pick 1 won, 0.2 by chance (one origin winner); looser versions in tools/scans/bb_fieldcheck_ringthemoon_loose.py (ends any score 5 / 2 / 0.9). Chosen after the result.
+
+### 04 Ring The Moon — Juno (only)
+- S Juno → H Juno RA 6.470840 4×φ golden (96)
+- S Mercury – S Gonggong Dec 6.447428 4×φ golden (23.74)
+- S Mercury → H Juno RA 41.420368 41.4 silver (98.41)
+- S Mercury → J Juno RA 177.719973 177.778 ninth (83.74)
+- S Juno → H Juno RA 6.4708 4×φ (96) closed by S Mercury – S Gonggong Dec 6.4474; Mercury on both natal Juno: S Mercury → H Juno RA 41.4204 (98.41), S Mercury → J Juno RA 177.7200 (83.74)
+- lights on Juno: S Moon – S Juno Dec 16.647167 16.6667 ninth (41.5); S Moon → J Juno Dec 29.146483 18×φ golden (32.5)
 

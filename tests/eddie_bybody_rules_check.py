@@ -93,6 +93,7 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB73': set(),
     'BB74': set(),
     'BB75': set(),
+    'BB76': set(),
     'BB55': {('01 Arafi', 'Gonggong'), ('01 Arafi', 'Venus'), ('04 Nirodha', 'Saturn'), ('05 Pholas', 'Pallas')},
     'BB53': {('06 Shimmering Dawn', 'Sun'), ('06 Shimmering Dawn', 'Jupiter'), ('06 Shimmering Dawn', 'Pallas')},
 }
@@ -820,5 +821,21 @@ for race, win in FD.RACES:
     check(h == exp, f'BB75 = scan H0 {race}')
     t75 += len(h); w75 += sum(win in x for x in h)
 check((t75, w75) == (12, 5), f'BB75 12 holders, 5 won over the result races ({t75}, {w75})')
+# BB76 (Eddie, 17 Nov 2026): J1, closed same-body loop with one pair end on both natal X (Ffos Las Ring The Moon Juno)
+FF = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', '20220323_ffos_las_1725', '20220323_ffos_las_1725_bybody.xlsx')
+if os.path.exists(FF):
+    fd = R.run(FF)[2]
+    check({(c['runner'], c['body']) for c in fd['BB76']} == {('04 Ring The Moon', 'Juno')}, 'BB76 Ffos Las: Ring The Moon Juno')
+    check(fd['BB76'][0]['notes'] == ['S Juno → H Juno RA 6.4708 4×φ (96) closed by S Mercury – S Gonggong Dec 6.4474; Mercury on both natal '
+                                     'Juno: S Mercury → H Juno RA 41.4204 (98.41), S Mercury → J Juno RA 177.7200 (83.74)'], 'BB76 notes')
+import bb_fieldcheck_ringthemoon as FR
+t76 = w76 = 0
+for race, win in FR.RACES:
+    pth = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', race, f'{race}_bybody.xlsx')
+    if not os.path.exists(pth):
+        continue
+    h = {c['runner'] for c in R.run(pth)[2]['BB76'] if not c['watch_only']}
+    t76 += len(h); w76 += sum(win in x for x in h)
+check((t76, w76) == (1, 1), f'BB76 1 holder, 1 won over the result races ({t76}, {w76})')
 print(f'{ok}/{ok + bad} checks passed')
 sys.exit(1 if bad else 0)

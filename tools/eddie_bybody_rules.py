@@ -1969,6 +1969,40 @@ def bb75(b):
 
 
 
+def bb76(b):
+    """J1 (Eddie, 17 Nov 2026, 'build J1 as found'; from Ffos Las 17:25 23 Mar 2022 Ring The Moon Juno: S Juno -> H Juno RA 6.4708 4xphi
+    (96), closed by S Mercury - S Gonggong Dec 6.4474 4xphi, S Mercury -> H Juno RA 41.4204 silver (98.41) and -> J Juno RA 177.7200 ninth
+    (83.74)): a same-body line S X -> c X in a number family (not conj / contraparallel) scoring >= 90; a sky pair S A - S B on its family +
+    target (A, B not X, not the Moon); the loop closed (both A and B have a line on X: S E - S X, S E -> H X or S E -> J X, any); and one end
+    E on BOTH natal X, S E -> H X and S E -> J X each in a number family (not conj / cp) scoring >= 80. Over 24 result races 1 pick 1 won,
+    0.2 by chance (tools/scans/bb_fieldcheck_ringthemoon.py J1); looser versions in bb_fieldcheck_ringthemoon_loose.py (ends any score
+    5 / 2 / 0.9). One origin winner, built on Eddie's call. Chosen after the result."""
+    if b.X == 'Moon':
+        return []
+    NO = ('conj', 'contraparallel', 'opposition')
+    ok = lambda r, cut: r['fam'] and r['fam'] not in NO and r['sc'] is not None and r['sc'] >= cut
+    on = lambda e: b.sky_y(e) + b.to_natal(e, 'H') + b.to_natal(e, 'J')
+    out = []
+    for c in 'HJ':
+        for sb in b.same_body(c):
+            if not ok(sb, 90):
+                continue
+            for p, A, B in b.pairs_on(sb):
+                if b.X in (A, B) or 'Moon' in (A, B) or not on(A) or not on(B):
+                    continue
+                for E in (A, B):
+                    h = [r for r in b.to_natal(E, 'H') if ok(r, 80)]
+                    j = [r for r in b.to_natal(E, 'J') if ok(r, 80)]
+                    if h and j:
+                        out.append({'key': ('BB76', b.X, sb['line'], sb['plane'], p['line'], p['plane'], E),
+                                    'cells': [sb, p, h[0], j[0]],
+                                    'notes': [f"{sb['line']} {sb['plane']} {sb['v']:.4f} {sb['tgt']} ({sb['sc']}) closed by {p['line']} "
+                                              f"{p['plane']} {p['v']:.4f}; {E} on both natal {b.X}: {h[0]['line']} {h[0]['plane']} "
+                                              f"{h[0]['v']:.4f} ({h[0]['sc']}), {j[0]['line']} {j[0]['plane']} {j[0]['v']:.4f} ({j[0]['sc']})"]})
+    return out
+
+
+
 RULES = [('BB1', bb1, 'Mercury'), ('BB1b', bb1b, 'any'), ('BB2', bb2, 'Mars'), ('BB3', bb3, 'Jupiter'), ('BB4', bb4, 'Saturn'),
          ('BB5', bb5, 'Uranus'), ('BB6', bb6, 'Uranus'), ('BB7', bb7, 'Neptune'), ('BB8', bb8, 'Rahu'),
          ('BB9', bb9, 'Rahu'), ('BB10', bb10, 'Ketu'), ('BB11', bb11, 'Ceres'), ('BB12', bb12, 'Pallas'),
@@ -1977,7 +2011,7 @@ RULES = [('BB1', bb1, 'Mercury'), ('BB1b', bb1b, 'any'), ('BB2', bb2, 'Mars'), (
          ('BB21', bb21, 'Saturn'), ('BB22', bb22, 'Saturn'), ('BB23', bb23, 'Neptune'), ('BB24', bb24, 'Rahu'), ('BB25', bb25, 'Ketu'), ('BB26', bb26, 'Ceres'), ('BB27', bb27, 'Pallas'), ('BB28', bb28, 'Juno'), ('BB29', bb29, 'Vesta'), ('BB30', bb30, 'Eris'), ('BB31', bb31, 'Gonggong'),
          ('BB32', bb32, 'Sun'), ('BB32b', bb32b, 'Sun'), ('BB33', bb33, 'Mercury'), ('BB34', bb34, 'Mars'), ('BB35', bb35, 'Saturn'),
          ('BB36', bb36, 'Uranus'), ('BB37', bb37, 'Pluto'), ('BB38', bb38, 'Juno'), ('BB39', bb39, 'Makemake'),
-         ('BB40', bb40, 'Sedna'), ('BB41', bb41, 'Sun'), ('BB42', bb42, 'Mercury'), ('BB43', bb43, 'Venus'), ('BB44', bb44, 'Jupiter'), ('BB45', bb45, 'Saturn'), ('BB46', bb46, 'Saturn'), ('BB47', bb47, 'Ceres'), ('BB48', bb48, 'Chiron'), ('BB49', bb49, 'Haumea'), ('BB50', bb50, 'Makemake'), ('BB51', bb51, 'Venus'), ('BB52', bb52, 'Uranus'), ('BB53', bb53, 'any'), ('BB54', bb54, 'any'), ('BB55', bb55, 'any'), ('BB56', bb56, 'any'), ('BB57', bb57, 'any'), ('BB58', bb58, 'any'), ('BB59', bb59, 'any'), ('BB60', bb60, 'any'), ('BB61', bb61, 'any'), ('BB62', bb62, 'any'), ('BB63', bb63, 'any'), ('BB64', bb64, 'any'), ('BB65', bb65, 'Sun'), ('BB66', bb66, 'any'), ('BB67', None, 'any'), ('BB68', bb68, 'any'), ('BB69', bb69, 'any'), ('BB69b', bb69b, 'any'), ('BB70', bb70, 'any'), ('BB71', None, 'any'), ('BB72', None, 'any'), ('BB73', None, 'any'), ('BB74', None, 'any'), ('BB75', bb75, 'any')]
+         ('BB40', bb40, 'Sedna'), ('BB41', bb41, 'Sun'), ('BB42', bb42, 'Mercury'), ('BB43', bb43, 'Venus'), ('BB44', bb44, 'Jupiter'), ('BB45', bb45, 'Saturn'), ('BB46', bb46, 'Saturn'), ('BB47', bb47, 'Ceres'), ('BB48', bb48, 'Chiron'), ('BB49', bb49, 'Haumea'), ('BB50', bb50, 'Makemake'), ('BB51', bb51, 'Venus'), ('BB52', bb52, 'Uranus'), ('BB53', bb53, 'any'), ('BB54', bb54, 'any'), ('BB55', bb55, 'any'), ('BB56', bb56, 'any'), ('BB57', bb57, 'any'), ('BB58', bb58, 'any'), ('BB59', bb59, 'any'), ('BB60', bb60, 'any'), ('BB61', bb61, 'any'), ('BB62', bb62, 'any'), ('BB63', bb63, 'any'), ('BB64', bb64, 'any'), ('BB65', bb65, 'Sun'), ('BB66', bb66, 'any'), ('BB67', None, 'any'), ('BB68', bb68, 'any'), ('BB69', bb69, 'any'), ('BB69b', bb69b, 'any'), ('BB70', bb70, 'any'), ('BB71', None, 'any'), ('BB72', None, 'any'), ('BB73', None, 'any'), ('BB74', None, 'any'), ('BB75', bb75, 'any'), ('BB76', bb76, 'any')]
 
 
 def decade_pairs(cells):
