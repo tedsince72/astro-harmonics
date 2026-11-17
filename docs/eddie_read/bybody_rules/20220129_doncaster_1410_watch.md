@@ -105,3 +105,15 @@ Lead: 05 Miss Heritage - most rules (17, four clear), most alone (8), BB3 + BB54
 Second: 03 Anna Bunina - 13 rules, 4 alone, BB64, the natal pair Mercury – Rahu at 98.8, depth 5 on two bodies.
 
 Independent checker (17 Nov 2026, own parser and rule code): counts and alone lists, BB3, BB54, BB63, BB68, BB1b, BB64, BB80 re-derived for every runner, 69 cited rule cells, 72 depth cells and the depth ladder, the watch lines (D1, Mercury – Rahu from the _active P05_POS tab, R11, H Jupiter – J Jupiter): 0 mismatches.
+
+## Result (from Eddie, 17 Nov 2026)
+Finishing order: 1 Miss Heritage 10/1, 2 Miranda EvensF (15 l), 3 Western Victory 4/1 (2½ l), 4 Anna Bunina 16/5, 5 Dazzling Glory 18/1. 5 ran.
+
+The read hit: the lead, Miss Heritage, won at 10/1 (easily); the second, Anna Bunina, finished 4th.
+
+The winner, Miss Heritage:
+- held the most rules (17, four clear) and the most alone (8: BB1, BB1b, BB10, BB29, BB34, BB49, BB54, BB72);
+- was the only holder of BB3 + BB54, and held N4, N2 (Chiron), D1 / D1 + BB3 / D1 + BB54 (Uranus), Jupiter split M1, BB3 + BB63 and BB59 (as built);
+- BB1b (2 picks 2 won before) and BB72 (4 picks 4 won before) both held again;
+- reached depth 5 (Ketu).
+Miranda (2nd) held Watch B RA 98.2.
