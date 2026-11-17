@@ -108,3 +108,15 @@ Lead: 02 Alba Rose. She holds the most rules (14, six clear of the next), the mo
 Second: 04 Onesmoothoperator. He is alone on BB66, BB75 and BB81, holds N0 + BB75, has R11 at 98.6 and reaches depth 5.
 
 Independent checker (17 Nov 2026, own parser): rules BB3, BB14, BB23, BB43, BB53, BB55, BB63, BB66, BB68, BB75, BB81 and BB82, 158 cited cells, the counts per runner, the depth of all six runners and Watch B gave 0 mismatches. One note: Wise Eagle's step 4 rests on ninth 10 = whole 10, which the tool treats as the same number. In 5 sky pairs the family label differs from sheet to sheet; no holder changes because of it.
+
+## Result (from Eddie, 17 Nov 2026)
+Finishing order: 1 Sir Chauvelin 10/1, 2 Onesmoothoperator 13/8F (¾ l), 3 Aced It 9/1, 4 Wise Eagle 10/1, 5 Resumption 7/4, 6 Alba Rose 14/1. 6 ran.
+
+The read missed: the lead, Alba Rose, finished last; the second, Onesmoothoperator, finished 2nd.
+
+The winner, Sir Chauvelin:
+- held 8 rules, the second most in the race;
+- was the only holder of BB7, BB20 and BB64;
+- held the watched combination BB48 + BB55, the only runner to do so as built (not under T2);
+- reached depth 5 (Juno);
+- had Watch B Dec 10φ² at 68.98, under the 90 line.
