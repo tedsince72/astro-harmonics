@@ -1,4 +1,4 @@
-# 20210802_newcastle_aw_1633 — body-by-body rules BB1-BB81
+# 20210802_newcastle_aw_1633 — body-by-body rules BB1-BB82
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -91,6 +91,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB79 | 0 | 0 | - |  |
 | BB80 | 5 | 3 | 03 Raise The Roof, 04 Beating All, 05 Pallas Dancer |  |
 | BB81 | 1 | 1 | 04 Beating All |  |
+| BB82 | 3 | 3 | 02 Athmad, 04 Beating All, 05 Pallas Dancer |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1496,9 +1497,9 @@ No runner holds it.
 
 ## BB80 — Decade echo: a royal natal line and a sky line on sky X ten times apart
 
-Rule: A natal royal line c R – c X in a number family (no conj / cp / opposition) and a sky line S Y – S X naming sky X ('Other' table; Y not the Moon) in the same family, scoring >= 90, the two targets in ratio 10 (x10 or /10; golden k×φ against golden). X not the Moon.
+Rule: A natal royal line c R – c X in a number family (no conj / cp / opposition) and a sky line S Y – S X naming sky X ('Other' table; Y not the Moon) in the same family, scoring >= 90, the two targets in ratio 10 (x10 or /10; golden k×φ -> k; φ powers by value, e.g. 10φ⁴ / φ⁴). X not the Moon.
 
-Origin: Carlisle 13:55 14 Oct 2021, 1 Arvico Bleu, Sun (S Transpluto – S Sun RA 44.4467 ninth 44.4444 (97.51) = 10 x J Aldebaran – J Sun Dec 4.4380 ninth 4.44444 (27.16), carried by S Rahu – S Ceres Dec 4.4445 (99.65)); second winner Haydock 14:05 19 Feb 2022 Wholestone Mercury (S Neptune – S Mercury Dec 15 (95.37) / J Aldebaran – J Mercury RA 150 (52.19)) (Eddie, 17 Nov 2026: 'D1 is good', 'build both please'). Over 32 result races 16 picks, 5 won, 2.2 by chance (Perfect Part, Diligent Resdev, Whitefeathersfall, Arvico Bleu, Wholestone); chosen after the results. Scan D1 in tools/scans/bb_fieldcheck_decade.py; combinations in RULE_CANDIDATES.md.
+Origin: Carlisle 13:55 14 Oct 2021, 1 Arvico Bleu, Sun (S Transpluto – S Sun RA 44.4467 ninth 44.4444 (97.51) = 10 x J Aldebaran – J Sun Dec 4.4380 ninth 4.44444 (27.16), carried by S Rahu – S Ceres Dec 4.4445 (99.65)); second winner Haydock 14:05 19 Feb 2022 Wholestone Mercury (S Neptune – S Mercury Dec 15 (95.37) / J Aldebaran – J Mercury RA 150 (52.19)) (Eddie, 17 Nov 2026: 'D1 is good', 'build both please'). Over 32 result races 17 picks, 5 won, 2.4 by chance (Perfect Part, Diligent Resdev, Whitefeathersfall, Arvico Bleu, Wholestone; φ-power pairs included after the independent check: Kelso 14:50 2022 Curley Finger Vesta 10φ⁴ / φ⁴); chosen after the results. Scan D1 in tools/scans/bb_fieldcheck_decade.py; combinations in RULE_CANDIDATES.md.
 
 ### 03 Raise The Roof — Mercury (also: 04 Beating All, 05 Pallas Dancer)
 - S Pallas – S Mercury Dec 12.223192 12.2222 ninth (96.03)
@@ -1550,4 +1551,38 @@ Origin: Haydock 14:05 19 Feb 2022, 5 Wholestone, Pluto (H Fomalhaut – H Pluto 
 - S Chiron → H Chiron Dec 4.864107 3×φ golden (69.12)
 - same number: J Regulus – J Chiron Dec 4.8350 3×φ (40.95) = S Chiron → H Chiron Dec 4.8641 (69.12)
 - lights on Chiron: S Sun – S Chiron RA 122.149268 122.222 ninth (70.16); S Moon → H Chiron RA 64.012215 64 whole (38.93)
+
+## BB82 — Royal star on natal X in both planes, both carried, one carrier holding the star
+
+Rule: One royal star R on natal X in RA and in Dec (same chart), both lines in a number family (no conj / cp / opposition), each carried by a sky pair S A – S B ('Sky lines on the same target', number family), and one carrier pair holds R itself (S Y – S R). X not the Moon; any scores.
+
+Origin: Leicester 14:45 17 Feb 2022, 3 Nelson River, Chiron (H Regulus – H Chiron RA 166.5684 166.667 (70.5) by S Rahu – S Antares RA 166.7918 (62.5); Dec 13.3237 13.3333 (63.8) by S Eris – S Regulus Dec 13.3130 (23.8); S Regulus – S Chiron RA 89×φ (56.5)) (Eddie, 17 Nov 2026: 'Q2 is the closest to what i am looking for', 'yes, do that'). Over 33 result races 17 picks, 5 won, 2.6 by chance (Athmad, Whitefeathersfall, Sullivan Bay, John Kirkup, Nelson River); chosen after the result. Combinations on watch: BB82 + BB54 5 / 4 / 0.7, BB82 + BB9 8 / 4 / 1.3. Scan Q2 in tools/scans/bb_fieldcheck_nelson.py; combinations tools/scans/bb_combos_q2.py.
+
+### 02 Athmad — Makemake (also: 04 Beating All, 05 Pallas Dancer)
+- H Regulus – H Makemake RA 42.364200 10φ³ phi power (94.46)
+- S Mars – S Makemake RA 42.397844 10φ³ phi power (41.51)
+- S Haumea – S Antares Dec 42.322918 10φ³ phi power (40.57)
+- H Regulus – H Makemake Dec 13.336333 13.3333 ninth (88.75)
+- S Venus – S Regulus RA 13.307837 13.3333 ninth (4.39)
+- Regulus on H Makemake both planes: RA 42.3642 10φ³ (94.46) by S Mars – S Makemake (41.51); Dec 13.3363 13.3333 (88.75) by S Venus – S Regulus (4.39)
+- lights on Makemake: S Sun → H Makemake RA 61.756775 100φ^-1 phi power (49.71); S Sun → J Makemake RA 41.464214 41.4 silver (31.02)
+
+### 04 Beating All — Sedna (also: 02 Athmad, 05 Pallas Dancer)
+- H Aldebaran – H Sedna RA 12.918135 8×φ golden (19.33)
+- S Mars – S Eris Dec 12.932269 8×φ golden (62.95)
+- H Aldebaran – H Sedna Dec 8.893226 8.88889 ninth (75.6)
+- S Venus – S Aldebaran Dec 8.899518 8.88889 ninth (40.21)
+- S Jupiter – S Ketu Dec 8.889211 8.88889 ninth (98.19)
+- Aldebaran on H Sedna both planes: RA 12.9181 8×φ (19.33) by S Mars – S Eris (62.95); Dec 8.8932 8.88889 (75.6) by S Venus – S Aldebaran (40.21)
+- lights on Sedna: S Moon – S Sedna RA 1.352081 conj conj (9.86)
+
+### 05 Pallas Dancer — Rahu (also: 02 Athmad, 04 Beating All)
+- J Fomalhaut – J Rahu RA 177.698648 177.778 ninth (77.74)
+- S Rahu – S Juno RA 178.075643 177.778 ninth (16.23)
+- S Ketu – S Aldebaran RA 177.899280 177.778 ninth (65.83)
+- S Mars – S Gonggong RA 177.533099 177.778 ninth (31.18)
+- S Mercury – S Saturn RA 178.115409 177.778 ninth (5.04)
+- J Fomalhaut – J Rahu Dec 37.212960 23×φ golden (94.38)
+- S Venus – S Fomalhaut Dec 37.229116 23×φ golden (55.76)
+- Fomalhaut on J Rahu both planes: RA 177.6986 177.778 (77.74) by S Rahu – S Juno (16.23); Dec 37.2130 23×φ (94.38) by S Venus – S Fomalhaut (55.76)
 

@@ -4,7 +4,7 @@
 | runner | as built | under T2 | lost under T2 |
 |---|---|---|---|
 | 01 Fransham | 13: BB3, BB6, BB7, BB9, BB13, BB14, BB16, BB28, BB30, BB34, BB48, BB62, BB80 | 8 | BB9, BB13, BB28, BB34, BB80 |
-| 03 Nelson River | 7: BB3, BB9, BB13, BB15, BB32, BB43, BB48 | 3 | BB9, BB13, BB32, BB43 |
+| 03 Nelson River | 8: BB3, BB9, BB13, BB15, BB32, BB43, BB48, BB82 | 3 | BB9, BB13, BB32, BB43, BB82 |
 | 04 Nickolson | 11: BB3, BB4, BB6, BB7, BB8, BB10, BB12, BB23, BB24, BB28, BB63 | 11 | — |
 | 05 Stepney Causeway | 11: BB4, BB11, BB13, BB14, BB20, BB28, BB30, BB62, BB68, BB69, BB79 | 11 | — |
 
@@ -30,6 +30,8 @@
 - BB10 + BB23 + BB9: none | none
 - BB23 + BB7 + BB9: none | none
 - BB10 + BB60: none | none
+- BB82 + BB54: none | none
+- BB82 + BB9: 03 Nelson River | none
 
 ## P4 watch (Athmad Pluto loop) and P1-P3
 - P1: 03 Nelson River

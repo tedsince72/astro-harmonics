@@ -102,6 +102,7 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB79': set(),
     'BB80': set(),
     'BB81': {('01 Arafi', 'Pluto')},
+    'BB82': {('04 Nirodha', 'Chiron')},
     'BB55': {('01 Arafi', 'Gonggong'), ('01 Arafi', 'Venus'), ('04 Nirodha', 'Saturn'), ('05 Pholas', 'Pallas')},
     'BB53': {('06 Shimmering Dawn', 'Sun'), ('06 Shimmering Dawn', 'Jupiter'), ('06 Shimmering Dawn', 'Pallas')},
 }
@@ -938,5 +939,22 @@ for race, win in SN81.RACES:
         check(h == {run for run, D in data.items() if key in mod.cases(D)}, f'{rid} = scan {key} {race}')
         t80[rid][0] += len(h); t80[rid][1] += sum(win in x for x in h)
 check(tuple(t80['BB80']) == (17, 5) and tuple(t80['BB81']) == (16, 5), f'BB80 17 / BB81 16 holders, 5 won each over 32 result races ({t80})')
+# BB82 (Eddie, 17 Nov 2026, 'yes, do that'): Q2 = scan Q2 of bb_fieldcheck_nelson; Nelson River Chiron cells
+import bb_fieldcheck_nelson as NEL82
+pth = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', '20220217_leicester_1445', '20220217_leicester_1445_bybody.xlsx')
+if os.path.exists(pth):
+    k = [c for c in R.run(pth)[2]['BB82'] if (c['runner'], c['body']) == ('03 Nelson River', 'Chiron')]
+    check(bool(k) and 'H Regulus – H Chiron RA 166.568364 166.667 ninth (70.51)' in k[0]['cells']
+          and 'S Eris – S Regulus Dec 13.313022 13.3333 ninth (23.83)' in k[0]['cells'], 'BB82 Nelson River Chiron cells')
+t82 = [0, 0]
+for race, win in NEL82.RACES:
+    pth = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', race, f'{race}_bybody.xlsx')
+    if not os.path.exists(pth):
+        continue
+    rr = R.run(pth)[2]; data = R.load(pth)
+    h = {c['runner'] for c in rr['BB82']}
+    check(h == {run for run, D in data.items() if 'Q2' in NEL82.cases(D)}, f'BB82 = scan Q2 {race}')
+    t82[0] += len(h); t82[1] += sum(win in x for x in h)
+check(tuple(t82) == (17, 5), f'BB82 17 holders, 5 won over 33 result races ({t82})')
 print(f'{ok}/{ok + bad} checks passed')
 sys.exit(1 if bad else 0)

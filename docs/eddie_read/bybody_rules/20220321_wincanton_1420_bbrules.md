@@ -1,4 +1,4 @@
-# 20220321_wincanton_1420 — body-by-body rules BB1-BB81
+# 20220321_wincanton_1420 — body-by-body rules BB1-BB82
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -91,6 +91,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB79 | 0 | 0 | - |  |
 | BB80 | 0 | 0 | - |  |
 | BB81 | 0 | 0 | - |  |
+| BB82 | 1 | 1 | 01 Reserve Tank |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1332,9 +1333,9 @@ No runner holds it.
 
 ## BB80 — Decade echo: a royal natal line and a sky line on sky X ten times apart
 
-Rule: A natal royal line c R – c X in a number family (no conj / cp / opposition) and a sky line S Y – S X naming sky X ('Other' table; Y not the Moon) in the same family, scoring >= 90, the two targets in ratio 10 (x10 or /10; golden k×φ against golden). X not the Moon.
+Rule: A natal royal line c R – c X in a number family (no conj / cp / opposition) and a sky line S Y – S X naming sky X ('Other' table; Y not the Moon) in the same family, scoring >= 90, the two targets in ratio 10 (x10 or /10; golden k×φ -> k; φ powers by value, e.g. 10φ⁴ / φ⁴). X not the Moon.
 
-Origin: Carlisle 13:55 14 Oct 2021, 1 Arvico Bleu, Sun (S Transpluto – S Sun RA 44.4467 ninth 44.4444 (97.51) = 10 x J Aldebaran – J Sun Dec 4.4380 ninth 4.44444 (27.16), carried by S Rahu – S Ceres Dec 4.4445 (99.65)); second winner Haydock 14:05 19 Feb 2022 Wholestone Mercury (S Neptune – S Mercury Dec 15 (95.37) / J Aldebaran – J Mercury RA 150 (52.19)) (Eddie, 17 Nov 2026: 'D1 is good', 'build both please'). Over 32 result races 16 picks, 5 won, 2.2 by chance (Perfect Part, Diligent Resdev, Whitefeathersfall, Arvico Bleu, Wholestone); chosen after the results. Scan D1 in tools/scans/bb_fieldcheck_decade.py; combinations in RULE_CANDIDATES.md.
+Origin: Carlisle 13:55 14 Oct 2021, 1 Arvico Bleu, Sun (S Transpluto – S Sun RA 44.4467 ninth 44.4444 (97.51) = 10 x J Aldebaran – J Sun Dec 4.4380 ninth 4.44444 (27.16), carried by S Rahu – S Ceres Dec 4.4445 (99.65)); second winner Haydock 14:05 19 Feb 2022 Wholestone Mercury (S Neptune – S Mercury Dec 15 (95.37) / J Aldebaran – J Mercury RA 150 (52.19)) (Eddie, 17 Nov 2026: 'D1 is good', 'build both please'). Over 32 result races 17 picks, 5 won, 2.4 by chance (Perfect Part, Diligent Resdev, Whitefeathersfall, Arvico Bleu, Wholestone; φ-power pairs included after the independent check: Kelso 14:50 2022 Curley Finger Vesta 10φ⁴ / φ⁴); chosen after the results. Scan D1 in tools/scans/bb_fieldcheck_decade.py; combinations in RULE_CANDIDATES.md.
 
 No runner holds it.
 
@@ -1345,4 +1346,18 @@ Rule: A natal royal line c R – c X and a same-body line S X -> H X or S X -> J
 Origin: Haydock 14:05 19 Feb 2022, 5 Wholestone, Pluto (H Fomalhaut – H Pluto RA 66.6744 ninth 66.6667 (94.2) = S Pluto -> J Pluto RA 66.6385 (78.86)) (Eddie, 17 Nov 2026: 'N0 is good', 'build both please'). Over 32 result races 16 picks, 5 won, 2.6 by chance (Novakai, The Dunkirk Lads, Little Girl Blue, Aldhaja, Wholestone); chosen after the results; no score floor (The Dunkirk Lads Juno 24.27 / 1.65). Scan N0 in tools/scans/bb_fieldcheck_samenum.py (versions N50 / N70 there).
 
 No runner holds it.
+
+## BB82 — Royal star on natal X in both planes, both carried, one carrier holding the star
+
+Rule: One royal star R on natal X in RA and in Dec (same chart), both lines in a number family (no conj / cp / opposition), each carried by a sky pair S A – S B ('Sky lines on the same target', number family), and one carrier pair holds R itself (S Y – S R). X not the Moon; any scores.
+
+Origin: Leicester 14:45 17 Feb 2022, 3 Nelson River, Chiron (H Regulus – H Chiron RA 166.5684 166.667 (70.5) by S Rahu – S Antares RA 166.7918 (62.5); Dec 13.3237 13.3333 (63.8) by S Eris – S Regulus Dec 13.3130 (23.8); S Regulus – S Chiron RA 89×φ (56.5)) (Eddie, 17 Nov 2026: 'Q2 is the closest to what i am looking for', 'yes, do that'). Over 33 result races 17 picks, 5 won, 2.6 by chance (Athmad, Whitefeathersfall, Sullivan Bay, John Kirkup, Nelson River); chosen after the result. Combinations on watch: BB82 + BB54 5 / 4 / 0.7, BB82 + BB9 8 / 4 / 1.3. Scan Q2 in tools/scans/bb_fieldcheck_nelson.py; combinations tools/scans/bb_combos_q2.py.
+
+### 01 Reserve Tank — Pallas (only)
+- J Fomalhaut – J Pallas RA 66.546455 66.6667 ninth (9.84)
+- S Mars – S Antares RA 66.597030 66.6667 ninth (47.77)
+- S Rahu – S Fomalhaut RA 66.558272 66.6667 ninth (18.7)
+- J Fomalhaut – J Pallas Dec 6.499000 4×φ golden (17.09)
+- S Jupiter – S Orcus Dec 6.445251 4×φ golden (17.02)
+- Fomalhaut on J Pallas both planes: RA 66.5465 66.6667 (9.84) by S Mars – S Antares (47.77); Dec 6.4990 4×φ (17.09) by S Jupiter – S Orcus (17.02)
 

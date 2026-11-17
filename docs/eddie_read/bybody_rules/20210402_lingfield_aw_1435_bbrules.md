@@ -1,4 +1,4 @@
-# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB81
+# 20210402_lingfield_aw_1435 — body-by-body rules BB1-BB82
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -91,6 +91,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB79 | 0 | 0 | - |  |
 | BB80 | 0 | 0 | - |  |
 | BB81 | 1 | 1 | 01 Arafi |  |
+| BB82 | 1 | 1 | 04 Nirodha |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1293,9 +1294,9 @@ No runner holds it.
 
 ## BB80 — Decade echo: a royal natal line and a sky line on sky X ten times apart
 
-Rule: A natal royal line c R – c X in a number family (no conj / cp / opposition) and a sky line S Y – S X naming sky X ('Other' table; Y not the Moon) in the same family, scoring >= 90, the two targets in ratio 10 (x10 or /10; golden k×φ against golden). X not the Moon.
+Rule: A natal royal line c R – c X in a number family (no conj / cp / opposition) and a sky line S Y – S X naming sky X ('Other' table; Y not the Moon) in the same family, scoring >= 90, the two targets in ratio 10 (x10 or /10; golden k×φ -> k; φ powers by value, e.g. 10φ⁴ / φ⁴). X not the Moon.
 
-Origin: Carlisle 13:55 14 Oct 2021, 1 Arvico Bleu, Sun (S Transpluto – S Sun RA 44.4467 ninth 44.4444 (97.51) = 10 x J Aldebaran – J Sun Dec 4.4380 ninth 4.44444 (27.16), carried by S Rahu – S Ceres Dec 4.4445 (99.65)); second winner Haydock 14:05 19 Feb 2022 Wholestone Mercury (S Neptune – S Mercury Dec 15 (95.37) / J Aldebaran – J Mercury RA 150 (52.19)) (Eddie, 17 Nov 2026: 'D1 is good', 'build both please'). Over 32 result races 16 picks, 5 won, 2.2 by chance (Perfect Part, Diligent Resdev, Whitefeathersfall, Arvico Bleu, Wholestone); chosen after the results. Scan D1 in tools/scans/bb_fieldcheck_decade.py; combinations in RULE_CANDIDATES.md.
+Origin: Carlisle 13:55 14 Oct 2021, 1 Arvico Bleu, Sun (S Transpluto – S Sun RA 44.4467 ninth 44.4444 (97.51) = 10 x J Aldebaran – J Sun Dec 4.4380 ninth 4.44444 (27.16), carried by S Rahu – S Ceres Dec 4.4445 (99.65)); second winner Haydock 14:05 19 Feb 2022 Wholestone Mercury (S Neptune – S Mercury Dec 15 (95.37) / J Aldebaran – J Mercury RA 150 (52.19)) (Eddie, 17 Nov 2026: 'D1 is good', 'build both please'). Over 32 result races 17 picks, 5 won, 2.4 by chance (Perfect Part, Diligent Resdev, Whitefeathersfall, Arvico Bleu, Wholestone; φ-power pairs included after the independent check: Kelso 14:50 2022 Curley Finger Vesta 10φ⁴ / φ⁴); chosen after the results. Scan D1 in tools/scans/bb_fieldcheck_decade.py; combinations in RULE_CANDIDATES.md.
 
 No runner holds it.
 
@@ -1310,4 +1311,17 @@ Origin: Haydock 14:05 19 Feb 2022, 5 Wholestone, Pluto (H Fomalhaut – H Pluto 
 - S Pluto → J Pluto Dec 22.261495 22.2222 ninth (11.64)
 - same number: J Antares – J Pluto RA 22.2629 22.2222 (8.58) = S Pluto → J Pluto Dec 22.2615 (11.64)
 - lights on Pluto: S Moon – S Pluto RA 41.401803 41.4 silver (68.53)
+
+## BB82 — Royal star on natal X in both planes, both carried, one carrier holding the star
+
+Rule: One royal star R on natal X in RA and in Dec (same chart), both lines in a number family (no conj / cp / opposition), each carried by a sky pair S A – S B ('Sky lines on the same target', number family), and one carrier pair holds R itself (S Y – S R). X not the Moon; any scores.
+
+Origin: Leicester 14:45 17 Feb 2022, 3 Nelson River, Chiron (H Regulus – H Chiron RA 166.5684 166.667 (70.5) by S Rahu – S Antares RA 166.7918 (62.5); Dec 13.3237 13.3333 (63.8) by S Eris – S Regulus Dec 13.3130 (23.8); S Regulus – S Chiron RA 89×φ (56.5)) (Eddie, 17 Nov 2026: 'Q2 is the closest to what i am looking for', 'yes, do that'). Over 33 result races 17 picks, 5 won, 2.6 by chance (Athmad, Whitefeathersfall, Sullivan Bay, John Kirkup, Nelson River); chosen after the result. Combinations on watch: BB82 + BB54 5 / 4 / 0.7, BB82 + BB9 8 / 4 / 1.3. Scan Q2 in tools/scans/bb_fieldcheck_nelson.py; combinations tools/scans/bb_combos_q2.py.
+
+### 04 Nirodha — Chiron (only)
+- J Regulus – J Chiron RA 109.981263 110 whole (6.31)
+- S Mars – S Jupiter RA 110.018894 110 whole (5.53)
+- J Regulus – J Chiron Dec 2.005591 2 whole (72.05)
+- S Transpluto – S Regulus RA 1.996738 2 whole (83.69)
+- Regulus on J Chiron both planes: RA 109.9813 110 (6.31) by S Mars – S Jupiter (5.53); Dec 2.0056 2 (72.05) by S Transpluto – S Regulus (83.69)
 

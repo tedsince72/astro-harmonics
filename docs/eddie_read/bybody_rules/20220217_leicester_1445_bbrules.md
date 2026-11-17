@@ -1,4 +1,4 @@
-# 20220217_leicester_1445 — body-by-body rules BB1-BB81
+# 20220217_leicester_1445 — body-by-body rules BB1-BB82
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -91,6 +91,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB79 | 1 | 1 | 05 Stepney Causeway |  |
 | BB80 | 1 | 1 | 01 Fransham |  |
 | BB81 | 0 | 0 | - |  |
+| BB82 | 1 | 1 | 03 Nelson River |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1309,4 +1310,18 @@ Rule: A natal royal line c R – c X and a same-body line S X -> H X or S X -> J
 Origin: Haydock 14:05 19 Feb 2022, 5 Wholestone, Pluto (H Fomalhaut – H Pluto RA 66.6744 ninth 66.6667 (94.2) = S Pluto -> J Pluto RA 66.6385 (78.86)) (Eddie, 17 Nov 2026: 'N0 is good', 'build both please'). Over 32 result races 16 picks, 5 won, 2.6 by chance (Novakai, The Dunkirk Lads, Little Girl Blue, Aldhaja, Wholestone); chosen after the results; no score floor (The Dunkirk Lads Juno 24.27 / 1.65). Scan N0 in tools/scans/bb_fieldcheck_samenum.py (versions N50 / N70 there).
 
 No runner holds it.
+
+## BB82 — Royal star on natal X in both planes, both carried, one carrier holding the star
+
+Rule: One royal star R on natal X in RA and in Dec (same chart), both lines in a number family (no conj / cp / opposition), each carried by a sky pair S A – S B ('Sky lines on the same target', number family), and one carrier pair holds R itself (S Y – S R). X not the Moon; any scores.
+
+Origin: Leicester 14:45 17 Feb 2022, 3 Nelson River, Chiron (H Regulus – H Chiron RA 166.5684 166.667 (70.5) by S Rahu – S Antares RA 166.7918 (62.5); Dec 13.3237 13.3333 (63.8) by S Eris – S Regulus Dec 13.3130 (23.8); S Regulus – S Chiron RA 89×φ (56.5)) (Eddie, 17 Nov 2026: 'Q2 is the closest to what i am looking for', 'yes, do that'). Over 33 result races 17 picks, 5 won, 2.6 by chance (Athmad, Whitefeathersfall, Sullivan Bay, John Kirkup, Nelson River); chosen after the result. Combinations on watch: BB82 + BB54 5 / 4 / 0.7, BB82 + BB9 8 / 4 / 1.3. Scan Q2 in tools/scans/bb_fieldcheck_nelson.py; combinations tools/scans/bb_combos_q2.py.
+
+### 03 Nelson River — Chiron (only)
+- H Regulus – H Chiron RA 166.568364 166.667 ninth (70.51)
+- S Rahu – S Antares RA 166.791775 166.667 ninth (62.47)
+- H Regulus – H Chiron Dec 13.323689 13.3333 ninth (63.83)
+- S Eris – S Regulus Dec 13.313022 13.3333 ninth (23.83)
+- Regulus on H Chiron both planes: RA 166.5684 166.667 (70.51) by S Rahu – S Antares (62.47); Dec 13.3237 13.3333 (63.83) by S Eris – S Regulus (23.83)
+- lights on Chiron: S Moon – S Chiron RA 155.001588 155 whole (92.06); S Moon → H Chiron RA 177.550354 177.778 ninth (36.04)
 

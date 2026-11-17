@@ -7,7 +7,8 @@
   BB3 + BB63 + BB68, BB1 + BB14, BB1 + BB14 + BB68, BB1 + BB12 + BB7, J1any + BB14, J1any + BB20, J1any + BB68 (J1any from
   bb_fieldcheck_riverbray; under T2 the J1any part is taken as held); from Silva Eclipse (Eddie, 17 Nov 2026, 'keep an eye on
   combinations'; tools/scans/bb_combos_silva.py, chosen after the result): BB10 + BB7 + BB9, BB10 + BB23 + BB7, BB2 + BB23 + BB7,
-  BB10 + BB2 + BB9, BB10 + BB23 + BB9, BB23 + BB7 + BB9, BB10 + BB60
+  BB10 + BB2 + BB9, BB10 + BB23 + BB9, BB23 + BB7 + BB9, BB10 + BB60; from Nelson River (Eddie,
+  17 Nov 2026; tools/scans/bb_combos_q2.py): BB82 + BB54, BB82 + BB9
 - P4 (Athmad Pluto loop; tools/scans/bb_fieldcheck_same_body_loop_closed.py) and its looser P1-P3
 - S Pluto -> H Pluto / J Pluto scoring (any family, conj / cp not counted).
 - Jupiter loop C (Eddie, 16 Nov 2026, from Cafe Sydney; tools/scans/bb_fieldcheck_jupiter_loop.py): S Jupiter -> c Jupiter, a sky
@@ -74,7 +75,7 @@ for combo in (('BB3', 'BB63'), ('BB3', 'BB54'), ('BB59',), ('BB48', 'BB55'), ('B
               ('BB63', 'BB68'), ('BB3', 'BB63', 'BB68'), ('BB1', 'BB14'), ('BB1', 'BB14', 'BB68'), ('BB1', 'BB12', 'BB7'),
               ('J1any', 'BB14'), ('J1any', 'BB20'), ('J1any', 'BB68'),
               ('BB10', 'BB7', 'BB9'), ('BB10', 'BB23', 'BB7'), ('BB2', 'BB23', 'BB7'), ('BB10', 'BB2', 'BB9'), ('BB10', 'BB23', 'BB9'),
-              ('BB23', 'BB7', 'BB9'), ('BB10', 'BB60')):
+              ('BB23', 'BB7', 'BB9'), ('BB10', 'BB60'), ('BB82', 'BB54'), ('BB82', 'BB9')):
     a = [x for x in runners if set(combo) <= hx[x]]; b = [x for x in runners if set(combo) <= tx[x]]
     out.append(f"- {' + '.join(combo)}: {', '.join(a) or 'none'} | {', '.join(b) or 'none'}")
 CJ = ('conj', 'contraparallel'); fam = lambda o: o.get('fam') and o['fam'] not in CJ; sc = lambda o: o.get('sc') or 0

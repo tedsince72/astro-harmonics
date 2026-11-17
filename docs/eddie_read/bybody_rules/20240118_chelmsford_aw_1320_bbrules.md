@@ -1,4 +1,4 @@
-# 20240118_chelmsford_aw_1320 — body-by-body rules BB1-BB81
+# 20240118_chelmsford_aw_1320 — body-by-body rules BB1-BB82
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -91,6 +91,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB79 | 0 | 0 | - |  |
 | BB80 | 0 | 0 | - |  |
 | BB81 | 0 | 0 | - |  |
+| BB82 | 5 | 3 | 02 Sullivan Bay, 04 New York Bay, 08 Duveen |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1266,9 +1267,9 @@ No runner holds it.
 
 ## BB80 — Decade echo: a royal natal line and a sky line on sky X ten times apart
 
-Rule: A natal royal line c R – c X in a number family (no conj / cp / opposition) and a sky line S Y – S X naming sky X ('Other' table; Y not the Moon) in the same family, scoring >= 90, the two targets in ratio 10 (x10 or /10; golden k×φ against golden). X not the Moon.
+Rule: A natal royal line c R – c X in a number family (no conj / cp / opposition) and a sky line S Y – S X naming sky X ('Other' table; Y not the Moon) in the same family, scoring >= 90, the two targets in ratio 10 (x10 or /10; golden k×φ -> k; φ powers by value, e.g. 10φ⁴ / φ⁴). X not the Moon.
 
-Origin: Carlisle 13:55 14 Oct 2021, 1 Arvico Bleu, Sun (S Transpluto – S Sun RA 44.4467 ninth 44.4444 (97.51) = 10 x J Aldebaran – J Sun Dec 4.4380 ninth 4.44444 (27.16), carried by S Rahu – S Ceres Dec 4.4445 (99.65)); second winner Haydock 14:05 19 Feb 2022 Wholestone Mercury (S Neptune – S Mercury Dec 15 (95.37) / J Aldebaran – J Mercury RA 150 (52.19)) (Eddie, 17 Nov 2026: 'D1 is good', 'build both please'). Over 32 result races 16 picks, 5 won, 2.2 by chance (Perfect Part, Diligent Resdev, Whitefeathersfall, Arvico Bleu, Wholestone); chosen after the results. Scan D1 in tools/scans/bb_fieldcheck_decade.py; combinations in RULE_CANDIDATES.md.
+Origin: Carlisle 13:55 14 Oct 2021, 1 Arvico Bleu, Sun (S Transpluto – S Sun RA 44.4467 ninth 44.4444 (97.51) = 10 x J Aldebaran – J Sun Dec 4.4380 ninth 4.44444 (27.16), carried by S Rahu – S Ceres Dec 4.4445 (99.65)); second winner Haydock 14:05 19 Feb 2022 Wholestone Mercury (S Neptune – S Mercury Dec 15 (95.37) / J Aldebaran – J Mercury RA 150 (52.19)) (Eddie, 17 Nov 2026: 'D1 is good', 'build both please'). Over 32 result races 17 picks, 5 won, 2.4 by chance (Perfect Part, Diligent Resdev, Whitefeathersfall, Arvico Bleu, Wholestone; φ-power pairs included after the independent check: Kelso 14:50 2022 Curley Finger Vesta 10φ⁴ / φ⁴); chosen after the results. Scan D1 in tools/scans/bb_fieldcheck_decade.py; combinations in RULE_CANDIDATES.md.
 
 No runner holds it.
 
@@ -1279,4 +1280,57 @@ Rule: A natal royal line c R – c X and a same-body line S X -> H X or S X -> J
 Origin: Haydock 14:05 19 Feb 2022, 5 Wholestone, Pluto (H Fomalhaut – H Pluto RA 66.6744 ninth 66.6667 (94.2) = S Pluto -> J Pluto RA 66.6385 (78.86)) (Eddie, 17 Nov 2026: 'N0 is good', 'build both please'). Over 32 result races 16 picks, 5 won, 2.6 by chance (Novakai, The Dunkirk Lads, Little Girl Blue, Aldhaja, Wholestone); chosen after the results; no score floor (The Dunkirk Lads Juno 24.27 / 1.65). Scan N0 in tools/scans/bb_fieldcheck_samenum.py (versions N50 / N70 there).
 
 No runner holds it.
+
+## BB82 — Royal star on natal X in both planes, both carried, one carrier holding the star
+
+Rule: One royal star R on natal X in RA and in Dec (same chart), both lines in a number family (no conj / cp / opposition), each carried by a sky pair S A – S B ('Sky lines on the same target', number family), and one carrier pair holds R itself (S Y – S R). X not the Moon; any scores.
+
+Origin: Leicester 14:45 17 Feb 2022, 3 Nelson River, Chiron (H Regulus – H Chiron RA 166.5684 166.667 (70.5) by S Rahu – S Antares RA 166.7918 (62.5); Dec 13.3237 13.3333 (63.8) by S Eris – S Regulus Dec 13.3130 (23.8); S Regulus – S Chiron RA 89×φ (56.5)) (Eddie, 17 Nov 2026: 'Q2 is the closest to what i am looking for', 'yes, do that'). Over 33 result races 17 picks, 5 won, 2.6 by chance (Athmad, Whitefeathersfall, Sullivan Bay, John Kirkup, Nelson River); chosen after the result. Combinations on watch: BB82 + BB54 5 / 4 / 0.7, BB82 + BB9 8 / 4 / 1.3. Scan Q2 in tools/scans/bb_fieldcheck_nelson.py; combinations tools/scans/bb_combos_q2.py.
+
+### 02 Sullivan Bay — Uranus (also: 04 New York Bay, 08 Duveen)
+- H Antares – H Uranus RA 144.555544 144.444 ninth (61.54)
+- S Mercury – S Sedna RA 144.327686 144.444 ninth (59.58)
+- H Antares – H Uranus Dec 38.850870 24×φ golden (44.28)
+- S Uranus – S Ceres Dec 38.864782 24×φ golden (1.34)
+- S Jupiter – S Antares Dec 38.858835 24×φ golden (19.69)
+- S Ketu – S Pallas RA 38.830841 24×φ golden (93.91)
+- Antares on H Uranus both planes: RA 144.5555 144.444 (61.54) by S Mercury – S Sedna (59.58); Dec 38.8509 24×φ (44.28) by S Uranus – S Ceres (1.34)
+- lights on Uranus: S Sun → H Uranus RA 92.239252 57×φ golden (65.08); S Moon → H Uranus RA 1.336337 conj conj (10.91)
+
+### 02 Sullivan Bay — Pluto (also: 04 New York Bay, 08 Duveen)
+- H Regulus – H Pluto RA 144.235772 144.444 ninth (27.77)
+- S Mercury – S Sedna RA 144.327686 144.444 ninth (59.58)
+- H Regulus – H Pluto Dec 33.982615 21×φ golden (87.96)
+- S Venus – S Regulus Dec 33.977364 21×φ golden (95.83)
+- S Rahu – S Antares Dec 33.959895 21×φ golden (41.92)
+- Regulus on H Pluto both planes: RA 144.2358 144.444 (27.77) by S Mercury – S Sedna (59.58); Dec 33.9826 21×φ (87.96) by S Venus – S Regulus (95.83)
+- lights on Pluto: S Sun → H Pluto RA 3.337373 3.33333 ninth (39.4)
+
+### 04 New York Bay — Pluto (also: 02 Sullivan Bay, 08 Duveen)
+- H Regulus – H Pluto RA 144.490996 144.444 ninth (83.89)
+- S Mercury – S Sedna RA 144.327686 144.444 ninth (59.58)
+- H Regulus – H Pluto Dec 33.966964 21×φ golden (63.74)
+- S Venus – S Regulus Dec 33.977364 21×φ golden (95.83)
+- S Rahu – S Antares Dec 33.959895 21×φ golden (41.92)
+- Regulus on H Pluto both planes: RA 144.4910 144.444 (83.89) by S Mercury – S Sedna (59.58); Dec 33.9670 21×φ (63.74) by S Venus – S Regulus (95.83)
+- lights on Pluto: S Moon → H Pluto RA 93.985745 94 whole (28.72)
+
+### 08 Duveen — Uranus (also: 02 Sullivan Bay, 04 New York Bay)
+- H Antares – H Uranus RA 144.510739 144.444 ninth (77.05)
+- S Mercury – S Sedna RA 144.327686 144.444 ninth (59.58)
+- H Antares – H Uranus Dec 38.834729 24×φ golden (94.09)
+- S Uranus – S Ceres Dec 38.864782 24×φ golden (1.34)
+- S Jupiter – S Antares Dec 38.858835 24×φ golden (19.69)
+- S Ketu – S Pallas RA 38.830841 24×φ golden (93.91)
+- Antares on H Uranus both planes: RA 144.5107 144.444 (77.05) by S Mercury – S Sedna (59.58); Dec 38.8347 24×φ (94.09) by S Uranus – S Ceres (1.34)
+- lights on Uranus: S Moon → H Uranus RA 1.291423 conj conj (13.91); S Sun → J Uranus Dec 3.014673 3 whole (26.63)
+
+### 08 Duveen — Pluto (also: 02 Sullivan Bay, 04 New York Bay)
+- H Regulus – H Pluto RA 144.214124 144.444 ninth (20.27)
+- S Mercury – S Sedna RA 144.327686 144.444 ninth (59.58)
+- H Regulus – H Pluto Dec 33.984323 21×φ golden (82.69)
+- S Venus – S Regulus Dec 33.977364 21×φ golden (95.83)
+- S Rahu – S Antares Dec 33.959895 21×φ golden (41.92)
+- Regulus on H Pluto both planes: RA 144.2141 144.444 (20.27) by S Mercury – S Sedna (59.58); Dec 33.9843 21×φ (82.69) by S Venus – S Regulus (95.83)
+- lights on Pluto: S Sun → J Pluto Dec 19.428932 12×φ golden (61.35)
 
