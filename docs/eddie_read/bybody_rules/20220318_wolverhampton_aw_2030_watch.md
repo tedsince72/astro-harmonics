@@ -75,3 +75,11 @@
 - Also 07 Amsby: only holder of BB3 + BB63 (and BB63); R11w on Venus 88.76. 05 Star Of St James: only BB65 (H Antares – H Sun Dec 33.3295
   ninth 94.27).
 - Independent checker (own parser): 0 mismatches.
+
+## Result (Eddie, 17 Nov 2026)
+Placed 1 Busby 12/1 (finished 2nd shd), 2 Coase 5/4F (finished 3rd), 3 Stopnsearch 4/1 (finished 1st, disqualified), 4 Le Reveur, 5 Arcadian
+Nights, 6 Star Of St James, 7 Amsby.
+- Blind read: lead Coase placed 2nd, second Busby awarded the race (12/1). Stopnsearch passed the post first.
+- Busby: 14 rules (the most), alone on BB17 (Orcus), BB24 (Rahu, Ketu), BB27 (Saturn), BB60 (Venus); depth 5 (Rahu).
+- Over 27 result races with this one (Busby counted as the winner): BB73 6 / 4 / 1.0 (Coase lost), BB14 + BB68 13 / 5 / 2.2; Busby's rules
+  BB17 8 / 3 / 1.3, BB27 16 / 5 / 2.2, BB60 21 / 5 / 2.8, BB24 21 / 5 / 3.2; BB4 + BB34 9 / 3 / 1.6, BB3 + BB4 + BB7 16 / 5 / 2.8.
