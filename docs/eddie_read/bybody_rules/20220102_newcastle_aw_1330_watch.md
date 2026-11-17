@@ -98,3 +98,11 @@
   BB63). Pair tally on its own points to Good Effort (+7); Venturous is the only runner with a negative net (−1). By chance 1 in 5.
 - Independent checker (17 Nov): values from the _POS tabs, rule counts, depth and the pair tally (sets rebuilt, labels recomputed, 4 pairs
   spot-checked): 0 mismatches.
+
+## Result (from Eddie, 17 Nov 2026)
+- 1 Venturous 25/1 (Connor Beasley), 2 Mondammej 4/1 (1¼ l), 3 Good Effort 2/5F, 4 Regional 7/1, 5 King Of Stars 22/1. Hit: the lead won.
+  The pair count's top runner (Good Effort, net +7) was 3rd; the winner was the only runner with a negative net (−1).
+- Eddie: the favourite had Neptune and Sedna on Uranus (S Neptune → H Uranus Dec cp 0.1094 (63.52), RA 21.0467 13×φ (62.21); S Sedna → J Uranus
+  RA 161.8512 100φ (80.32)). Field check (tools/scans/bb_fieldcheck_outer_uranus.py, 36 result races): S Neptune or S Sedna on natal Uranus
+  >= 80 46 / 5 / 8.4 (Sedna 26 / 2 / 4.7, Neptune 24 / 3 / 4.2, both 4 / 0 / 0.6); >= 50 96 / 16 / 16.7 and any score 149 / 25 / 25.9 at chance -
+  the stronger the line, the fewer winners. Venturous himself held S Sedna → J Uranus RA 123.0439 φ¹⁰ (71.81). Chosen after the result.
