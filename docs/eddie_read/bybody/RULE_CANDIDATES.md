@@ -1555,3 +1555,11 @@ tools/scans/bb_combos_n0_d1.py, 32 result races, picks / won / by chance; all fo
   '10φ⁴' not parsed); fixed in BB80 and bb_fieldcheck_decade.py: one more holder, Kelso 14:50 2022 03 Curley Finger Vesta (S Pallas –
   S Vesta RA 10φ⁴ 95.83 / J Aldebaran – J Vesta Dec φ⁴ 45.95; lost). Now BB80 17 / 5 / 2.4, BB80 + BB3 13 / 5 / 1.7, BB80 + BB54
   6 / 3 / 0.6; BB81 16 / 5 / 2.6, BB81 + BB50 3 / 3 / 0.5, BB81 + BB75 2 / 2 / 0.3 (32 result races).
+
+### Nelson River Chiron (Leicester 14:45 17 Feb 2022; Eddie's lines, 17 Nov 2026)
+H Regulus – H Chiron RA 166.5684 ninth 166.667 (70.5) and Dec 13.3237 ninth 13.3333 (63.8); RA carried by S Rahu – S Antares RA 166.7918
+(62.5), Dec by S Eris – S Regulus Dec 13.3130 (23.8); S Regulus – S Chiron RA 144.0191 89×φ (56.5). tools/scans/bb_fieldcheck_nelson.py,
+33 result races: Q0 same royal star on natal X both planes, number families 195 / 31 / 31.5 (at chance); Q1 + both planes carried by a sky
+pair 82 / 15 / 12.7; Q2 + one carrier holds the same royal star 17 / 5 / 2.6 (Athmad, Whitefeathersfall, Sullivan Bay, John Kirkup, Nelson
+River); Q3 + the royal star on sky X 5 / 2 / 0.8 (John Kirkup Mercury Fomalhaut, Nelson River; lost Call Me Harswell, Beating All,
+Thundersockssundae); Q1r (Q1 + royal star on sky X, any carrier) 19 / 4 / 3.0. Chosen after the result; noted, not built.
