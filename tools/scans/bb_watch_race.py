@@ -2,7 +2,10 @@
 (race = the bybody folder name, e.g. 20220717_newton_abbot_1525). Items kept from the 16 Nov discussions (RULE_CANDIDATES.md):
 - rules held per runner (as built, from docs/eddie_read/bybody_rules/<race>_bbrules.json) and under T2 (tolerances above 100 tightened:
   ninth, φ power, √2, silver ±0.05, opposition ±0.25; tools/scans/bb_over100_tighten.py)
-- combinations to watch: BB3 + BB63, BB3 + BB54, BB59, BB48 + BB55, BB13 + BB48 + BB55, BB32 + BB34
+- combinations to watch: BB3 + BB63, BB3 + BB54, BB59, BB48 + BB55, BB13 + BB48 + BB55, BB32 + BB34; from River Bray (Eddie, 17 Nov 2026,
+  'keep them on watch because in the end combinations will be where we select from'; tools/scans/bb_combos_riverbray.py): BB63 + BB68,
+  BB3 + BB63 + BB68, BB1 + BB14, BB1 + BB14 + BB68, BB1 + BB12 + BB7, J1any + BB14, J1any + BB20, J1any + BB68 (J1any from
+  bb_fieldcheck_riverbray; under T2 the J1any part is taken as held)
 - P4 (Athmad Pluto loop; tools/scans/bb_fieldcheck_same_body_loop_closed.py) and its looser P1-P3
 - S Pluto -> H Pluto / J Pluto scoring (any family, conj / cp not counted).
 - Jupiter loop C (Eddie, 16 Nov 2026, from Cafe Sydney; tools/scans/bb_fieldcheck_jupiter_loop.py): S Jupiter -> c Jupiter, a sky
@@ -56,8 +59,14 @@ key = lambda r: (int(''.join(ch for ch in r[2:] if ch.isdigit())), r)
 for x in runners:
     out.append(f"| {x} | {len(hold[x])}: {', '.join(sorted(hold[x], key=key))} | {len(t2[x])} | {', '.join(sorted(hold[x] - t2[x], key=key)) or '—'} |")
 out += ['', '## Combinations to watch (as built | under T2)']
-for combo in (('BB3', 'BB63'), ('BB3', 'BB54'), ('BB59',), ('BB48', 'BB55'), ('BB13', 'BB48', 'BB55'), ('BB32', 'BB34')):
-    a = [x for x in runners if set(combo) <= hold[x]]; b = [x for x in runners if set(combo) <= t2[x]]
+import bb_fieldcheck_riverbray as RBY0
+j1 = {x for x in runners if 'J1any' in RBY0.tags(data[x], False)[0]}
+hx = {x: hold[x] | ({'J1any'} if x in j1 else set()) for x in runners}
+tx = {x: t2[x] | ({'J1any'} if x in j1 else set()) for x in runners}
+for combo in (('BB3', 'BB63'), ('BB3', 'BB54'), ('BB59',), ('BB48', 'BB55'), ('BB13', 'BB48', 'BB55'), ('BB32', 'BB34'),
+              ('BB63', 'BB68'), ('BB3', 'BB63', 'BB68'), ('BB1', 'BB14'), ('BB1', 'BB14', 'BB68'), ('BB1', 'BB12', 'BB7'),
+              ('J1any', 'BB14'), ('J1any', 'BB20'), ('J1any', 'BB68')):
+    a = [x for x in runners if set(combo) <= hx[x]]; b = [x for x in runners if set(combo) <= tx[x]]
     out.append(f"- {' + '.join(combo)}: {', '.join(a) or 'none'} | {', '.join(b) or 'none'}")
 CJ = ('conj', 'contraparallel'); fam = lambda o: o.get('fam') and o['fam'] not in CJ; sc = lambda o: o.get('sc') or 0
 P = {v: [] for v in ('P1', 'P2', 'P3', 'P4')}
