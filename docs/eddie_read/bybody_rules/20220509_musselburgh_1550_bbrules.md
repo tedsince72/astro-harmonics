@@ -1,4 +1,4 @@
-# 20220509_musselburgh_1550 — body-by-body rules BB1-BB71
+# 20220509_musselburgh_1550 — body-by-body rules BB1-BB72
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -78,6 +78,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB69b | 0 | 0 | - |  |
 | BB70 | 1 | 1 | 02 Primo's Comet |  |
 | BB71 | 0 | 0 | - |  |
+| BB72 | 1 | 1 | 03 John Kirkup |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1106,4 +1107,30 @@ Rule: A runner holding both BB66 (H X - J X in Dec scoring >= 90 in a family and
 Origin: Sedgefield 15:00 10 May 2022 Blue Collar Glory (won 20/1): BB66 Venus (H Venus - J Venus Dec 11.326258 7xphi 99.94, S Ketu -> H Venus Dec 20 94.51) and BB69 (5 lines). Also York 15:45 2024 Secret Satire and Newton Abbot 15:25 2022 On Time. Eddie, 16 Nov 2026: 'yes, please build like that'. tools/scans/bb_fieldcheck_hj_carry.py (V5) over 18 result races: 3 picks, 3 won, 0.6 by chance; Sedgefield was the first race after both rules were built, the pairing chosen after its result. Note: V4 (the BB66 sky body in a sky pair on the H X - J X number, Blue Collar Glory S Ketu - S Fomalhaut 7xphi) 1 / 1 / 0.2, not built.
 
 No runner holds it.
+
+## BB72 — BB10 and BB59 together
+
+Rule: A runner holding both BB10 (a royal star R scoring on sky X, its natal line R - X in both charts with a score or a scoring ratio, one scoring natal line matched by a sky pair whose ends both reach sky X) and BB59 (a royal line carried by S X - S Y with Y on natal X in the same chart and the same royal star on sky X), each as built; the two may sit on different bodies. Runner-level; computed after every other rule.
+
+Origin: Musselburgh 15:50 9 May 2022 John Kirkup (won 14/1): BB10 Mercury, BB59 Venus (H Aldebaran - H Venus Dec 16.669753 ninth 16.6667 90.74 carried by S Venus - S Quaoar Dec 16.668528 94.42; S Quaoar -> H Venus Dec 15 87.84, RA 85 78.92; S Aldebaran - S Venus Dec 15 86.07). Also Lingfield 2021 Pholas (BB10 Ketu, BB59 Pallas), York 15:45 2024 Secret Satire (Chiron; Jupiter, Ceres), Fontwell 15:30 2023 Kilcummin (Gonggong; Chiron). Eddie, 17 Nov 2026: 'yes, build'. Over 19 result races 4 picks, 4 won, 0.6 by chance; Pholas and Secret Satire are origin cases, only John Kirkup out of sample; found among 455 pairs / triples of John Kirkup's 14 rules, chosen after the result. BB59 alone 11 / 6 / 1.6.
+
+### 03 John Kirkup — runner (only)
+- S Fomalhaut – S Mercury RA 77.760302 77.7778 ninth (88.77)
+- H Fomalhaut – H Mercury Dec 11.357100 7×φ golden (4.75)
+- J Fomalhaut – J Mercury RA 155.575239 155.556 ninth (93.67)
+- J Fomalhaut – J Mercury Dec 46.993623 φ⁸ phi power (78.84)
+- S Uranus – S Makemake RA 155.577082 155.556 ninth (93.08)
+- S Uranus – S Mercury Dec 6.989506 7 whole (47.53)
+- S Makemake – S Mercury Dec 0.145199 conj conj (51.6)
+- S Uranus – S Neptune RA 46.993736 φ⁸ phi power (78.68)
+- S Neptune – S Mercury RA 66.783046 66.6667 ninth (12.72)
+- S Neptune – S Mercury Dec 26.142871 10φ² phi power (4.59)
+- S Uranus – S Neptune RA 46.993736 47 whole (68.68)
+- H Aldebaran – H Venus Dec 16.669753 16.6667 ninth (90.74)
+- S Venus – S Quaoar Dec 16.668528 16.6667 ninth (94.42)
+- S Quaoar → H Venus Dec 15.002433 15 whole (87.84)
+- S Quaoar → H Venus RA 85.004216 85 whole (78.92)
+- S Aldebaran – S Venus Dec 15.002787 15 whole (86.07)
+- BB10: Mercury, Mercury, Mercury
+- BB59: Venus
 

@@ -1396,3 +1396,9 @@ H–J 6 = 8 - 2, Mercury between in Dec, partly geometry; Blue Collar Glory Venu
 body in a sky pair on the H–J number) 1 / 1 / 0.2 (Blue Collar Glory only, with Fomalhaut). Independent checker: holders, 0 mismatches.
 Not built (waiting for Eddie).
 Watch (Eddie, 16 Nov 2026: 'keep on watch'): K1d added to tools/scans/bb_watch_race.py.
+
+## BB72 = BB10 + BB59, same runner (Musselburgh 15:50 9 May 2022, John Kirkup; built 17 Nov 2026, Eddie 'yes, build')
+- John Kirkup won 14/1: BB10 on Mercury, BB59 on Venus (H Aldebaran – H Venus Dec 16.669753 ninth (90.74) carried by S Venus – S Quaoar Dec 16.668528 (94.42); S Quaoar → H Venus Dec 15 (87.84), RA 85 (78.92); S Aldebaran – S Venus Dec 15 (86.07)).
+- Over 19 result races: 4 picks 4 won (Pholas, Secret Satire, Kilcummin, John Kirkup), 0.6 by chance; BB59 alone 11 / 6 / 1.6 (BB10 drops Blue Prince, Ziggy's Condor, Misemerald, Gidwa, Wheres Maud Gone and the winner Wotever Next).
+- Caution: Pholas and Secret Satire are origin cases; found among 455 pairs / triples of John Kirkup's 14 rules (/tmp scan, not kept); under T2 only Kilcummin and John Kirkup hold it.
+- Not built (same scan): BB9 + BB54 + BB55 3 / 3 / 0.4 (Ishvara, Sullivan Bay, John Kirkup) and other 2-3 pick triples. BB59 tightened (royal line and carrier both >= 50: 4 / 2; the royal-star 15 echo: 2 / 1) - no gain.

@@ -89,6 +89,7 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB69b': set(),
     'BB70': set(),
     'BB71': set(),
+    'BB72': {('05 Pholas', 'runner')},
     'BB55': {('01 Arafi', 'Gonggong'), ('01 Arafi', 'Venus'), ('04 Nirodha', 'Saturn'), ('05 Pholas', 'Pallas')},
     'BB53': {('06 Shimmering Dawn', 'Sun'), ('06 Shimmering Dawn', 'Jupiter'), ('06 Shimmering Dawn', 'Pallas')},
 }
@@ -747,5 +748,26 @@ for race, _ in SB.RACES + [('20220510_sedgefield_1500', '')]:
     check({c['runner'] for c in rr['BB71']} == exp, f'BB71 = BB66 and BB69 {race}')
     b71 += len(exp)
 check(b71 == 3, f'BB71 3 holders over the result races ({b71})')
+# BB72 (Eddie, 17 Nov 2026): BB10 + BB59 same runner
+MUS = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', '20220509_musselburgh_1550', '20220509_musselburgh_1550_bybody.xlsx')
+if os.path.exists(MUS):
+    md = R.run(MUS)[2]
+    check({(c['runner'], c['body']) for c in md['BB72']} == {('03 John Kirkup', 'runner')}, 'BB72 Musselburgh: John Kirkup')
+    k = [x for c in md['BB72'] for x in c['cells']]
+    check('H Aldebaran – H Venus Dec 16.669753 16.6667 ninth (90.74)' in k and 'S Venus – S Quaoar Dec 16.668528 16.6667 ninth (94.42)' in k,
+          'BB72 cells')
+    check(md['BB72'][0]['notes'] == ['BB10: Mercury, Mercury, Mercury', 'BB59: Venus'], 'BB72 notes')
+check({c['runner'] for c in yres['BB72']} == {'06 Secret Satire'}, 'BB72 York 15:45: Secret Satire')
+b72 = w72 = 0
+import bb_fieldcheck_hj_carry as HC
+for race, win in HC.RACES + [('20220509_musselburgh_1550', 'John Kirkup')]:
+    pth = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', race, f'{race}_bybody.xlsx')
+    if not os.path.exists(pth):
+        continue
+    rr = R.run(pth)[2]
+    exp = {c['runner'] for c in rr['BB10'] if not c['watch_only']} & {c['runner'] for c in rr['BB59'] if not c['watch_only']}
+    check({c['runner'] for c in rr['BB72']} == exp, f'BB72 = BB10 and BB59 {race}')
+    b72 += len(exp); w72 += sum(win in x for x in exp)
+check((b72, w72) == (4, 4), f'BB72 4 holders, 4 won over the result races ({b72}, {w72})')
 print(f'{ok}/{ok + bad} checks passed')
 sys.exit(1 if bad else 0)

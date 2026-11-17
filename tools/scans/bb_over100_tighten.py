@@ -72,6 +72,10 @@ def holders(data):
         for run in data:
             if run in res.get('BB66', {}) and run in res.get('BB69', {}):
                 res['BB71'][run] = []
+    if 'BB72' in res:  # runner-level: BB10 and BB59 (17 Nov 2026)
+        for run in data:
+            if run in res.get('BB10', {}) and run in res.get('BB59', {}):
+                res['BB72'][run] = []
     return res
 
 
