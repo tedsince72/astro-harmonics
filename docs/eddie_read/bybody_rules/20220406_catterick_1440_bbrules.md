@@ -1,4 +1,4 @@
-# 20220406_catterick_1440 — body-by-body rules BB1-BB82
+# 20220406_catterick_1440 — body-by-body rules BB1-BB83
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -92,6 +92,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB80 | 0 | 0 | - |  |
 | BB81 | 0 | 0 | - |  |
 | BB82 | 1 | 1 | 01 Tea Garden |  |
+| BB83 | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1314,4 +1315,12 @@ Origin: Leicester 14:45 17 Feb 2022, 3 Nelson River, Chiron (H Regulus – H Chi
 - S Saturn – S Orcus Dec 3.249496 2×φ golden (58.56)
 - Regulus on J Sun both planes: RA 10.9916 11 (57.9) by S Makemake – S Regulus (66.11); Dec 3.2608 2×φ (23.61) by S Mars – S Orcus (67.41)
 - lights on Sun: S Moon – S Sun Dec 17.981470 18 whole (7.35)
+
+## BB83 — Horse natal Venus – Uranus >= 90 carried by a sky line on the same number
+
+Rule: The horse's natal Venus – Uranus (H Venus – H Uranus; RA wrapped 0-180 or Dec |dDec|, from the race's _active.xlsx) scores >= 90 in a number family (its best family + target; no conj / opposition / contraparallel), and a sky line S A – S B (sky bodies or royal stars, not the Moon, not the sky Rahu – Ketu; A, B may be Venus or Uranus) sits on the same family + target, any plane, any score. Runner-level, body shown as Venus.
+
+Origin: Musselburgh 15:50 9 May 2022 John Kirkup (H Venus – H Uranus RA 11.0011 11 (94.7), S Pluto – S Orcus Dec 10.9848), Haydock 14:05 19 Feb 2022 Wholestone (Dec 6.6660 6.66667 ninth (95.4), S Sedna – S Uranus Dec 6.6656), Newcastle AW 16:40 15 Feb 2022 Sir Chauvelin (Dec 17.0007 17 (96.3), S Sun – S Fomalhaut Dec 16.9988, S Juno – S Chiron Dec 17.0024) (Eddie, 17 Nov 2026: 'Venus Uranus is one to look at further', 'yes, as a rule'). Over 32 result races 3 picks, 3 won, 0.5 by chance; chosen after the results (Guernesey, Wincanton 2022, RA 20.0009 20 (95.6) with no sky line on 20, lost). The jockey's Venus – Uranus does not work (5 / 0 at >= 80). The same shape on every natal pair pooled is at chance (horse 461 picks 85 won, 77.2 by chance; tools/scans/bb_scan_natal_pairs.py), so Venus – Uranus may stand out by luck among 552 pair-charts. Scans tools/scans/bb_scan_uranus_pairs.py, bb_scan_venus_uranus.py.
+
+No runner holds it.
 

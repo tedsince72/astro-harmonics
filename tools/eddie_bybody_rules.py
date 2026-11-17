@@ -2224,7 +2224,7 @@ RULES = [('BB1', bb1, 'Mercury'), ('BB1b', bb1b, 'any'), ('BB2', bb2, 'Mars'), (
          ('BB21', bb21, 'Saturn'), ('BB22', bb22, 'Saturn'), ('BB23', bb23, 'Neptune'), ('BB24', bb24, 'Rahu'), ('BB25', bb25, 'Ketu'), ('BB26', bb26, 'Ceres'), ('BB27', bb27, 'Pallas'), ('BB28', bb28, 'Juno'), ('BB29', bb29, 'Vesta'), ('BB30', bb30, 'Eris'), ('BB31', bb31, 'Gonggong'),
          ('BB32', bb32, 'Sun'), ('BB32b', bb32b, 'Sun'), ('BB33', bb33, 'Mercury'), ('BB34', bb34, 'Mars'), ('BB35', bb35, 'Saturn'),
          ('BB36', bb36, 'Uranus'), ('BB37', bb37, 'Pluto'), ('BB38', bb38, 'Juno'), ('BB39', bb39, 'Makemake'),
-         ('BB40', bb40, 'Sedna'), ('BB41', bb41, 'Sun'), ('BB42', bb42, 'Mercury'), ('BB43', bb43, 'Venus'), ('BB44', bb44, 'Jupiter'), ('BB45', bb45, 'Saturn'), ('BB46', bb46, 'Saturn'), ('BB47', bb47, 'Ceres'), ('BB48', bb48, 'Chiron'), ('BB49', bb49, 'Haumea'), ('BB50', bb50, 'Makemake'), ('BB51', bb51, 'Venus'), ('BB52', bb52, 'Uranus'), ('BB53', bb53, 'any'), ('BB54', bb54, 'any'), ('BB55', bb55, 'any'), ('BB56', bb56, 'any'), ('BB57', bb57, 'any'), ('BB58', bb58, 'any'), ('BB59', bb59, 'any'), ('BB60', bb60, 'any'), ('BB61', bb61, 'any'), ('BB62', bb62, 'any'), ('BB63', bb63, 'any'), ('BB64', bb64, 'any'), ('BB65', bb65, 'Sun'), ('BB66', bb66, 'any'), ('BB67', None, 'any'), ('BB68', bb68, 'any'), ('BB68b', bb68b, 'any'), ('BB69', bb69, 'any'), ('BB69b', bb69b, 'any'), ('BB70', bb70, 'any'), ('BB71', None, 'any'), ('BB72', None, 'any'), ('BB73', None, 'any'), ('BB74', None, 'any'), ('BB75', bb75, 'any'), ('BB76', bb76, 'any'), ('BB77', bb77, 'any'), ('BB77b', bb77b, 'any'), ('BB77c', bb77c, 'any'), ('BB78', None, 'any'), ('BB79', bb79, 'any'), ('BB80', bb80, 'any'), ('BB81', bb81, 'any'), ('BB82', bb82, 'any')]
+         ('BB40', bb40, 'Sedna'), ('BB41', bb41, 'Sun'), ('BB42', bb42, 'Mercury'), ('BB43', bb43, 'Venus'), ('BB44', bb44, 'Jupiter'), ('BB45', bb45, 'Saturn'), ('BB46', bb46, 'Saturn'), ('BB47', bb47, 'Ceres'), ('BB48', bb48, 'Chiron'), ('BB49', bb49, 'Haumea'), ('BB50', bb50, 'Makemake'), ('BB51', bb51, 'Venus'), ('BB52', bb52, 'Uranus'), ('BB53', bb53, 'any'), ('BB54', bb54, 'any'), ('BB55', bb55, 'any'), ('BB56', bb56, 'any'), ('BB57', bb57, 'any'), ('BB58', bb58, 'any'), ('BB59', bb59, 'any'), ('BB60', bb60, 'any'), ('BB61', bb61, 'any'), ('BB62', bb62, 'any'), ('BB63', bb63, 'any'), ('BB64', bb64, 'any'), ('BB65', bb65, 'Sun'), ('BB66', bb66, 'any'), ('BB67', None, 'any'), ('BB68', bb68, 'any'), ('BB68b', bb68b, 'any'), ('BB69', bb69, 'any'), ('BB69b', bb69b, 'any'), ('BB70', bb70, 'any'), ('BB71', None, 'any'), ('BB72', None, 'any'), ('BB73', None, 'any'), ('BB74', None, 'any'), ('BB75', bb75, 'any'), ('BB76', bb76, 'any'), ('BB77', bb77, 'any'), ('BB77b', bb77b, 'any'), ('BB77c', bb77c, 'any'), ('BB78', None, 'any'), ('BB79', bb79, 'any'), ('BB80', bb80, 'any'), ('BB81', bb81, 'any'), ('BB82', bb82, 'any'), ('BB83', None, 'Venus')]
 
 
 def decade_pairs(cells):
@@ -2364,6 +2364,67 @@ def bb74(res):
     return _both(res, ('BB14', 'BB23'))
 
 
+def _vu_dist(a, b, pl):
+    if pl == 'Dec':
+        return abs(a - b)
+    d = abs(a - b) % 360
+    return 360 - d if d > 180 else d
+
+
+def bb83(race, data):
+    """V1 (Eddie, 17 Nov 2026, 'yes, as a rule'; tools/scans/bb_scan_venus_uranus.py): the horse's natal Venus – Uranus (H Venus –
+    H Uranus, RA wrapped 0-180 or Dec |dDec|, from the race's _active.xlsx _POS tabs) scoring >= 90 in a number family (its best family
+    + target, eddie_bybody scoring; conj / opposition / contraparallel out), and a sky line S A – S B (sky bodies or royal stars, not the
+    Moon, not the sky Rahu – Ketu; A, B may be Venus or Uranus) on the same family + target, any plane, any score. From Musselburgh 15:50
+    9 May 2022 John Kirkup (RA 11.0011 11, S Pluto – S Orcus Dec 10.9848), Haydock 14:05 19 Feb 2022 Wholestone (Dec 6.6660 ninth, S Sedna
+    – S Uranus Dec 6.6656) and Newcastle AW 16:40 15 Feb 2022 Sir Chauvelin (Dec 17.0007 17, S Sun – S Fomalhaut Dec 16.9988, S Juno –
+    S Chiron Dec 17.0024): 3 picks 3 won, 0.5 by chance over 32 result races, chosen after the results (Guernesey, 20 (95.6), no sky line
+    on 20, lost). Every natal pair in this shape pooled is at chance (bb_scan_natal_pairs.py). No _active.xlsx: no holders."""
+    import eddie_bybody as EB
+    path = os.path.join(os.path.dirname(HERE), 'reference', 'classic', f'race_batch_{race}_active.xlsx')
+    if not os.path.exists(path):
+        return []
+    runners, _tt, tp = EB.load(path)
+    tr = EB.ra_positions(openpyxl.load_workbook(path, read_only=True)['TRANS_POS'])
+    no = ('conj', 'opposition', 'contraparallel')
+    nums = lambda v, pl: [x for x in EB.hits(v, pl) if x[0] not in no]
+    P = lambda pos, ra, n, pl: (ra if pl == 'RA' else pos).get(n)
+    skyp = [b for b in EB.BODIES if b != 'Moon'] + EB.ROYAL
+    keys = {(int(k.split(' ', 1)[0]) if k.split(' ', 1)[0].isdigit() else k): k for k in data}
+    out = []
+    for cloth, r in runners.items():
+        run = keys.get(cloth)
+        pos, ra = r['pos'].get('H', {}), r.get('ra', {}).get('H', {})
+        if run is None or not pos:
+            continue
+        for pl in ('RA', 'Dec'):
+            a, b = P(pos, ra, 'Venus', pl), P(pos, ra, 'Uranus', pl)
+            if a is None or b is None:
+                continue
+            d = _vu_dist(a, b, pl); h = nums(d, pl)
+            if not h or h[0][2] < 90:
+                continue
+            fam, tgt, sc = h[0]
+            cells = [{'line': 'H Venus – H Uranus', 'plane': pl, 'v': d, 'fam': fam, 'tgt': tgt, 'sc': round(sc, 1)}]
+            for i, x in enumerate(skyp):
+                for y in skyp[i + 1:]:
+                    if {x, y} == {'Rahu', 'Ketu'}:
+                        continue
+                    for p2 in ('RA', 'Dec'):
+                        px, py = P(tp, tr, x, p2), P(tp, tr, y, p2)
+                        if px is None or py is None:
+                            continue
+                        dd = _vu_dist(px, py, p2)
+                        m = [z for z in nums(dd, p2) if (z[0], z[1]) == (fam, tgt)]
+                        if m:
+                            cells.append({'line': f'S {x} – S {y}', 'plane': p2, 'v': dd, 'fam': fam, 'tgt': tgt, 'sc': round(m[0][2], 1)})
+            if len(cells) > 1:
+                out.append({'runner': run, 'body': 'Venus', 'cells': [cell(c) for c in cells],
+                            'notes': [f'horse natal Venus – Uranus {pl} on {tgt} {fam}, carried by {len(cells) - 1} sky line(s)'],
+                            'lights': [], 'decade': [], 'additive': [], 'watch_only': False})
+    return out
+
+
 def run(path):
     data = load(path)
     race = os.path.basename(path).replace('_bybody.xlsx', '')
@@ -2398,6 +2459,7 @@ def run(path):
     res['BB73'] = bb73(res, data)
     res['BB74'] = bb74(res)
     res['BB78'] = bb78(res)
+    res['BB83'] = bb83(race, data)
     return race, list(data), res
 
 
