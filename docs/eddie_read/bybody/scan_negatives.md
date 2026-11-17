@@ -1,0 +1,186 @@
+## 1. Winner by rule count
+- 20210402_lingfield_aw_1435 05 Pholas: 31 rules (most); field [31, 7, 6, 6, 3, 2]
+- 20200608_haydock_1345 07 Ishvara: 37 rules (most); field [37, 14, 10, 10, 9, 8, 8, 7, 6, 4]
+- 20240608_beverley_1405 15 Perfect Part: 23 rules (most); field [23, 15, 14, 10, 9, 9, 8, 8, 7, 7, 7, 6, 6]
+- 20240515_york_1545 06 Secret Satire: 33 rules (most); field [33, 14, 13, 13, 9, 9, 7]
+- 20220406_catterick_1440 05 Wotever Next: 21 rules (most); field [21, 12, 10, 9, 4]
+- 20231006_fontwell_1530 03 Kilcummin: 14 rules (middle); field [17, 14, 7, 7, 6, 6, 4]
+- 20210802_newcastle_aw_1633 02 Athmad: 11 rules (middle); field [17, 12, 11, 11, 11, 10]
+- 20220717_newton_abbot_1525 04 On Time: 17 rules (most); field [17, 8, 7, 6]
+- 20220716_doncaster_1845 05 Novakai: 11 rules (middle); field [13, 13, 11, 6, 6, 4]
+- 20220712_bath_1530 03 Cafe Sydney: 2 rules (fewest); field [9, 8, 7, 2]
+- 20220707_carlisle_1630 06 Whitefeathersfall: 14 rules (most); field [14, 11, 10, 5, 4, 3]
+- 20220616_ripon_1525 04 Society Red: 11 rules (most); field [11, 9, 8, 8]
+- 20220613_nottingham_1750 02 The Dunkirk Lads: 15 rules (most); field [15, 11, 10, 8, 6, 5]
+- 20240118_chelmsford_aw_1320 02 Sullivan Bay: 20 rules (most); field [20, 9, 6, 6, 5, 4, 4, 3]
+- 20220603_bath_1750 05 Little Girl Blue: 6 rules (middle); field [13, 8, 6, 2]
+- 20220601_nottingham_1530 02 Dynamic Force: 9 rules (middle); field [11, 11, 9, 9, 6]
+- 20220510_sedgefield_1500 01 Blue Collar Glory: 9 rules (middle); field [12, 9, 8, 7, 7]
+- 20220509_musselburgh_1550 03 John Kirkup: 17 rules (most); field [17, 12, 9, 8, 5, 5]
+- 20220507_haydock_1718 06 Aldhaja: 14 rules (most); field [14, 8, 3, 3, 3]
+- 20220504_kelso_1450 04 Domandlouis: 9 rules (middle); field [13, 11, 10, 9, 8, 5]
+- 20220420_perth_1610 05 Daphne Moon: 10 rules (middle); field [17, 12, 10, 8, 7]
+- 20220414_newmarket_1535 04 Eydon: 12 rules (most); field [12, 10, 8, 8, 7, 3]
+- 20220406_lingfield_aw_1425 05 Man On A Mission: 21 rules (most); field [21, 9, 7, 6, 3, 2]
+- 20220323_ffos_las_1725 04 Ring The Moon: 11 rules (most); field [11, 11, 8, 6]
+- 20220321_wincanton_1420 04 River Bray: 8 rules (middle); field [16, 13, 10, 9, 8, 7]
+- 20220318_wolverhampton_aw_2030 06 Busby: 14 rules (most); field [14, 8, 7, 7, 7, 6, 4]
+- 20220318_doncaster_1440 02 Olympe De Gouges: 8 rules (middle); field [12, 9, 9, 8, 6]
+- 20220311_newcastle_1540 03 Peak Time: 6 rules (fewest); field [18, 12, 11, 11, 9, 6]
+- 20220223_doncaster_1600 06 Silva Eclipse: 7 rules (middle); field [15, 14, 12, 9, 7, 6]
+- 20211014_carlisle_1355 01 Arvico Bleu: 4 rules (fewest); field [14, 11, 9, 7, 4]
+- 20220219_haydock_1405 05 Wholestone: 17 rules (middle); field [20, 17, 16, 15, 11, 10]
+- 20220215_newcastle_aw_1640 01 Sir Chauvelin: 9 rules (middle); field [14, 9, 7, 6, 4, 4]
+- 20220129_doncaster_1410 05 Miss Heritage: 17 rules (most); field [17, 13, 12, 8, 6]
+- 20220123_lingfield_1500 07 Two For Gold: 6 rules (fewest); field [24, 21, 13, 8, 6, 6]
+- 20220105_ffos_las_1420 06 New Age Dawning: 6 rules (fewest); field [13, 13, 6]
+  most: 17 winners of 35, 7.4 by chance
+  fewest: 5 winners of 35, 7.8 by chance
+  middle: 13 winners of 35, 19.8 by chance
+
+## 2. Winners by rule count band
+- 0-5: 29 / 2 / 4.9
+- 6-9: 93 / 11 / 15.8
+- 10-14: 59 / 10 / 10.4
+- 15+: 24 / 12 / 3.8
+
+## 3. Each rule: picks / won / by chance (won / chance lowest first)
+- BB52: 1 / 0 / 0.2
+- BB15: 11 / 1 / 2.0   UNDER
+- BB56: 10 / 1 / 1.7
+- BB16: 37 / 4 / 6.3   UNDER
+- BB53: 51 / 6 / 8.9   UNDER
+- BB25: 31 / 4 / 5.4   UNDER
+- BB35: 41 / 6 / 7.0   UNDER
+- BB38: 7 / 1 / 1.1
+- BB11: 6 / 1 / 1.1
+- BB28: 47 / 8 / 7.9
+- BB48: 47 / 8 / 7.7
+- BB7: 81 / 15 / 14.1
+- BB2: 55 / 10 / 9.4
+- BB13: 32 / 6 / 5.6
+- BB30: 26 / 5 / 4.6
+- BB4: 30 / 6 / 5.5
+- BB20: 49 / 9 / 8.1
+- BB68: 61 / 12 / 10.5
+- BB9: 55 / 11 / 9.6
+- BB3: 173 / 34 / 29.1
+- BB6: 56 / 11 / 9.4
+- BB14: 53 / 11 / 9.3
+- BB55: 70 / 13 / 11.0
+- BB43: 44 / 9 / 7.5
+- BB24: 26 / 5 / 4.1
+- BB10: 54 / 11 / 8.8
+- BB57: 37 / 8 / 6.2
+- BB31: 9 / 2 / 1.5
+- BB23: 39 / 9 / 6.6
+- BB63: 57 / 14 / 10.1
+- BB12: 74 / 18 / 13.0
+- BB34: 56 / 13 / 9.3
+- BB66: 24 / 6 / 4.2
+- BB21: 5 / 1 / 0.7
+- BB27: 23 / 5 / 3.5
+- BB64: 27 / 7 / 4.9
+- BB74: 12 / 3 / 2.1
+- BB58: 12 / 3 / 2.0
+- BB51: 11 / 3 / 2.0
+- BB62: 11 / 3 / 1.9
+- BB42: 12 / 3 / 1.8
+- BB8: 23 / 7 / 4.3
+- BB50: 18 / 5 / 3.0
+- BB81: 18 / 5 / 3.0
+- BB60: 26 / 7 / 4.0
+- BB54: 35 / 10 / 5.6
+- BB26: 7 / 2 / 1.1
+- BB5: 9 / 3 / 1.6
+- BB82: 16 / 5 / 2.6
+- BB59: 19 / 7 / 3.5
+- BB18: 6 / 2 / 1.0
+- BB47: 7 / 2 / 1.0
+- BB80: 15 / 5 / 2.5
+- BB65: 8 / 3 / 1.3
+- BB1: 18 / 6 / 2.7
+- BB22: 3 / 1 / 0.4
+- BB69: 11 / 5 / 2.1
+- BB75: 15 / 6 / 2.5
+- BB77b: 7 / 3 / 1.2
+- BB33: 5 / 2 / 0.8
+- BB73: 9 / 4 / 1.6
+- BB49: 11 / 5 / 2.0
+- BB17: 7 / 3 / 1.2
+- BB79: 11 / 5 / 1.9
+- BB67: 22 / 10 / 3.8
+- BB29: 6 / 3 / 1.1
+- BB19: 3 / 1 / 0.3
+- BB32: 11 / 5 / 1.7
+- BB77c: 8 / 4 / 1.4
+- BB69b: 3 / 2 / 0.7
+- BB68b: 6 / 3 / 0.9
+- BB70: 3 / 2 / 0.6
+- BB39: 4 / 2 / 0.6
+- BB44: 3 / 2 / 0.5
+- BB72: 7 / 5 / 1.3
+- BB76: 1 / 1 / 0.2
+- BB71: 3 / 3 / 0.6
+- BB78: 3 / 3 / 0.5
+- BB37: 3 / 2 / 0.3
+- BB40: 3 / 2 / 0.3
+- BB83: 3 / 3 / 0.5
+- BB1b: 4 / 4 / 0.7
+- BB77: 3 / 3 / 0.5
+- BB45: 2 / 2 / 0.3
+- BB46: 2 / 2 / 0.3
+- BB61: 1 / 1 / 0.1
+- BB36: 2 / 2 / 0.2
+- BB41: 2 / 2 / 0.2
+- BB32b: 2 / 2 / 0.2
+
+## 4. Rule pairs with no winner (6+ picks, by chance >= 1.5)
+- BB2 + BB20: 13 / 0 / 2.2 (10 races)
+- BB28 + BB53: 12 / 0 / 1.9 (11 races)
+- BB16 + BB20: 10 / 0 / 1.7 (8 races)
+- BB23 + BB53: 9 / 0 / 1.6 (9 races)
+- BB10 + BB53: 8 / 0 / 1.5 (7 races)
+  (5 pairs in all)
+
+## 5. Negatives held per runner, in-sample (negatives from all 35 races)
+- 20210402_lingfield_aw_1435 05 Pholas: 01 Arafi 1 (BB16); 02 Fizzy Feet 0; 03 Indie Angel 0; 04 Nirodha 0; 05 Pholas 2 (BB15, BB16); 06 Shimmering Dawn 1 (BB53)
+- 20200608_haydock_1345 07 Ishvara: 01 Magical Max 1 (BB16); 02 Ventura Flame 0; 03 Never In Paris 1 (BB53); 04 Royal Context 1 (BB35); 05 My Friend Stan 0; 06 Birkenhead 0; 07 Ishvara 2 (BB25, BB35); 08 Dancin Inthestreet 1 (BB25); 09 Garsman 0; 11 Mews House 1 (BB16)
+- 20240608_beverley_1405 15 Perfect Part: 01 Aviation Time 1 (BB25); 02 Brazilian Belle 0; 03 Call Me Harswell 1 (BB15); 04 Invincible Annice 1 (BB35); 07 Mademoiselle 1 (BB2+BB20); 08 Maw Lam 0; 09 Nad Alshiba Snow 0; 10 Over Spiced 5 (BB2+BB20, BB23+BB53, BB25, BB28+BB53, BB53); 11 Powerful Lady 2 (BB28+BB53, BB53); 12 Sands Of Dubai 0; 13 Storm Call 0; 14 Havana White 0; 15 Perfect Part 2 (BB35, BB53)
+- 20240515_york_1545 06 Secret Satire: 01 Classical Song 2 (BB35, BB53); 02 Francophone 0; 03 Friendly Soul 0; 04 La Pasionaria 3 (BB10+BB53, BB28+BB53, BB53); 05 Mayfair 1 (BB2+BB20); 06 Secret Satire 1 (BB35); 07 Sinology 0
+- 20220406_catterick_1440 05 Wotever Next: 01 Tea Garden 1 (BB16); 02 Beluga Gold 1 (BB53); 03 Capuchinero 3 (BB10+BB53, BB28+BB53, BB53); 04 Thakuri 0; 05 Wotever Next 1 (BB25)
+- 20231006_fontwell_1530 03 Kilcummin: 01 Biscoff Joe 0; 02 Cosmic View 0; 03 Kilcummin 1 (BB16); 04 Logistical 6 (BB15, BB16, BB16+BB20, BB28+BB53, BB35, BB53); 05 Makanao 1 (BB16); 06 Pigeonton 1 (BB16); 07 Vale Dolobo Dancer 5 (BB16, BB16+BB20, BB23+BB53, BB25, BB53)
+- 20210802_newcastle_aw_1633 02 Athmad: 01 Dubai Souq 1 (BB53); 02 Athmad 0; 03 Raise The Roof 1 (BB25); 04 Beating All 2 (BB25, BB53); 05 Pallas Dancer 0; 06 Tricolore 3 (BB16, BB16+BB20, BB2+BB20)
+- 20220717_newton_abbot_1525 04 On Time: 01 Grageelagh Girl 1 (BB16); 02 My Lady Grey 1 (BB2+BB20); 03 Cresswell Queen 3 (BB2+BB20, BB35, BB53); 04 On Time 1 (BB16)
+- 20220716_doncaster_1845 05 Novakai: 01 Crackovia 1 (BB53); 02 Bella Kopella 0; 03 Gilded Moon 1 (BB16); 04 Mother India 2 (BB28+BB53, BB53); 05 Novakai 0; 06 Passing Storm 2 (BB16, BB35)
+- 20220712_bath_1530 03 Cafe Sydney: 01 Charlie's Yard 1 (BB25); 02 It's How We Roll 1 (BB25); 03 Cafe Sydney 0; 05 Overstate 0
+- 20220707_carlisle_1630 06 Whitefeathersfall: 01 Aswan 3 (BB10+BB53, BB23+BB53, BB53); 02 Million Thanks 1 (BB2+BB20); 04 Persist 0; 06 Whitefeathersfall 0; 07 Noble Mark 0; 08 Lucia Joy 1 (BB35)
+- 20220616_ripon_1525 04 Society Red: 01 Bollin Joan 1 (BB35); 02 Commonsensical 3 (BB23+BB53, BB28+BB53, BB53); 03 Urban War 0; 04 Society Red 0
+- 20220613_nottingham_1750 02 The Dunkirk Lads: 01 Applaud Now 1 (BB35); 02 The Dunkirk Lads 0; 03 Gidwa 1 (BB35); 04 Miss Britain 0; 05 Glory Hallelujah 0; 06 Baileys Liberty 1 (BB53)
+- 20240118_chelmsford_aw_1320 02 Sullivan Bay: 01 This Ones For Fred 0; 02 Sullivan Bay 1 (BB25); 03 Good Time Ahead 1 (BB35); 04 New York Bay 1 (BB35); 05 Reset Button 0; 06 Foinix 0; 07 Buford 1 (BB35); 08 Duveen 2 (BB28+BB53, BB53)
+- 20220603_bath_1750 05 Little Girl Blue: 01 Between The Sheets 0; 03 Hattie C 1 (BB53); 05 Little Girl Blue 1 (BB53); 07 Soi Dao 0
+- 20220601_nottingham_1530 02 Dynamic Force: 02 Dynamic Force 0; 03 Princess Shabnam 1 (BB25); 04 Ballet Steps 3 (BB23+BB53, BB35, BB53); 05 Swayze 1 (BB35); 06 Silky Wilkie 2 (BB25, BB53)
+- 20220510_sedgefield_1500 01 Blue Collar Glory: 01 Blue Collar Glory 0; 02 Bright Sunbird 1 (BB35); 03 Emorelle 1 (BB53); 04 Wheres Maud Gone 0; 05 Mrs Paisley 1 (BB35)
+- 20220509_musselburgh_1550 03 John Kirkup: 01 The Thin Blue Line 0; 02 Primo's Comet 1 (BB25); 03 John Kirkup 0; 04 Albegone 0; 05 Rose Bandit 3 (BB10+BB53, BB28+BB53, BB53); 06 Rory 1 (BB53)
+- 20220507_haydock_1718 06 Aldhaja: 01 Oh Herberts Reign 2 (BB35, BB53); 02 Mystery Fox 1 (BB25); 05 Out From Under 0; 06 Aldhaja 1 (BB53); 07 Stevenson 2 (BB25, BB53)
+- 20220504_kelso_1450 04 Domandlouis: 01 Bravo Team 1 (BB25); 02 Charlie Uberalles 0; 03 Curley Finger 2 (BB25, BB53); 04 Domandlouis 1 (BB35); 06 Spanish Present 0; 07 Divas Doyen 1 (BB16)
+- 20220420_perth_1610 05 Daphne Moon: 01 Pink Legend 1 (BB16); 02 Zambella 0; 03 Another Theatre 2 (BB16, BB25); 04 Calle Malva 5 (BB16, BB23+BB53, BB25, BB28+BB53, BB53); 05 Daphne Moon 1 (BB35)
+- 20220414_newmarket_1535 04 Eydon: 01 Austrian Theory 0; 02 Cresta 0; 03 Dawn Of Liberation 0; 04 Eydon 1 (BB53); 05 Masekela 0; 06 Sonny Liston 0
+- 20220406_lingfield_aw_1425 05 Man On A Mission: 01 Judy's Park 1 (BB35); 02 Bang On The Bell 1 (BB35); 03 Jaas Yard 0; 04 Vintage Fashion 1 (BB35); 05 Man On A Mission 0; 06 Brazen Idol 0
+- 20220323_ffos_las_1725 04 Ring The Moon: 02 You Say Nothing 1 (BB35); 03 Time Leader 0; 04 Ring The Moon 0; 06 Yourholidayisover 1 (BB15)
+- 20220321_wincanton_1420 04 River Bray: 01 Reserve Tank 1 (BB25); 02 Guernesey 6 (BB16, BB16+BB20, BB2+BB20, BB28+BB53, BB35, BB53); 03 Ballyblack 1 (BB16); 04 River Bray 0; 05 Birds Of Prey 1 (BB35); 06 Electric Annie 2 (BB25, BB53)
+- 20220318_wolverhampton_aw_2030 06 Busby: 01 Arcadian Nights 0; 02 Coase 0; 03 Le Reveur 1 (BB53); 04 Stopnsearch 0; 05 Star Of St James 0; 06 Busby 2 (BB25, BB53); 07 Amsby 2 (BB25, BB35)
+- 20220318_doncaster_1440 02 Olympe De Gouges: 01 Fiamette 2 (BB16, BB16+BB20); 02 Olympe De Gouges 0; 03 Oot Ma Way 3 (BB16, BB23+BB53, BB53); 04 Poetria 1 (BB15); 06 Suntory Star 1 (BB35)
+- 20220311_newcastle_1540 03 Peak Time: 01 Vocaliser 1 (BB16); 02 Edmond Dantes 4 (BB15, BB16, BB16+BB20, BB2+BB20); 03 Peak Time 2 (BB16, BB35); 05 Sir Apollo 1 (BB35); 06 Thundersockssundae 1 (BB16); 07 Black Opium 2 (BB16, BB35)
+- 20220223_doncaster_1600 06 Silva Eclipse: 01 Boss Man Fred 2 (BB35, BB53); 02 Mister Watson 0; 03 Gredin 3 (BB2+BB20, BB25, BB53); 04 Mr Washington 5 (BB10+BB53, BB16, BB16+BB20, BB25, BB53); 05 Half Track 1 (BB16); 06 Silva Eclipse 0
+- 20211014_carlisle_1355 01 Arvico Bleu: 01 Arvico Bleu 0; 03 Slanelough 1 (BB53); 04 Gold Des Bois 1 (BB35); 05 Finisk River 2 (BB25, BB35); 06 If Not For Dylan 2 (BB25, BB53)
+- 20220219_haydock_1405 05 Wholestone: 01 Third Wind 4 (BB15, BB2+BB20, BB23+BB53, BB53); 02 Thomas Darby 1 (BB25); 03 Emitom 4 (BB15, BB16, BB16+BB20, BB2+BB20); 04 Top Ville Ben 1 (BB16); 05 Wholestone 1 (BB53); 06 Molly Ollys Wishes 2 (BB16, BB16+BB20)
+- 20220215_newcastle_aw_1640 01 Sir Chauvelin: 01 Sir Chauvelin 0; 02 Alba Rose 0; 03 Wise Eagle 0; 04 Onesmoothoperator 1 (BB53); 05 Aced It 0; 06 Resumption 1 (BB53)
+- 20220129_doncaster_1410 05 Miss Heritage: 01 Miranda 1 (BB53); 02 Western Victory 2 (BB15, BB16); 03 Anna Bunina 4 (BB16, BB16+BB20, BB2+BB20, BB25); 04 Dazzling Glory 0; 05 Miss Heritage 0
+- 20220123_lingfield_1500 07 Two For Gold: 01 Bristol De Mai 1 (BB35); 02 Dashel Drasher 5 (BB10+BB53, BB15, BB16, BB35, BB53); 03 Master Tommytucker 0; 05 Itchy Feet 1 (BB16); 06 Lieutenant Rocco 5 (BB10+BB53, BB23+BB53, BB28+BB53, BB35, BB53); 07 Two For Gold 0
+- 20220105_ffos_las_1420 06 New Age Dawning: 01 Gustavian 3 (BB10+BB53, BB35, BB53); 03 Emir Sacree 2 (BB15, BB25); 06 New Age Dawning 0
+  winner with the fewest negatives (ties incl.): 21 of 35, 14.4 by chance; with the most: 5, 9.4; runners with none: 76 picks / 19 won / 12.7
+
+## 5. Negatives held per runner, leave one race out (negatives from the other 34)
+- 20220105_ffos_las_1420 06 New Age Dawning: 01 Gustavian 1 (BB53); 03 Emir Sacree 1 (BB25); 06 New Age Dawning 0
+  winner with the fewest negatives (ties incl.): 19 of 35, 18.3 by chance; with the most: 12, 10.6; runners with none: 97 picks / 18 won / 16.6
