@@ -1484,3 +1484,10 @@ BB63 + BB68 10 / 6 / 1.4 (Pholas, Secret Satire, Diligent Resdev, Wotever Next, 
 Raise The Roof - held in 7 races, the winner among the holders in 6); BB3 + BB63 + BB68 8 / 6 / 1.1 (Magical Max, Raise The Roof drop out);
 BB1 + BB14 7 / 4 / 0.9; BB1 + BB14 + BB68 3 / 3 / 0.5 (Pholas, The Dunkirk Lads, River Bray); BB1 + BB12 + BB7 3 / 3 / 0.5 (Pholas, Eydon,
 River Bray); J1any + BB14 / BB20 / BB68 2 / 2 / 0.4 each (Society Red, River Bray). In-sample: Pholas (BB1-BB17), Athmad (BB63), Society Red (BB68).
+
+## Splits, from Olympe De Gouges Ketu (Doncaster 14:40 18 Mar 2022; 17 Nov 2026)
+- S Ketu → J Ketu Dec 28.942585 (no family) = S Jupiter – S Ketu 12.941448 8×φ (91.28) + S Jupiter → J Ketu 16.001137 16 (94.32).
+- tools/scans/bb_fieldcheck_split_ra.py over 28 result races (picks / won / by chance): RA any 166 / 25 / 26.2; RA3 (one >= 90, other >= 50)
+  45 / 5 / 6.2; RA90 9 / 2 / 1.1 (Domandlouis J Orcus by Transpluto, Daphne Moon H Ceres by Rahu); DEC90 6 / 3 / 0.9 (built as BB68b);
+  ANY90 13 / 5 / 1.8; BOTH (same body split in RA and Dec) none. Splitter = S Jupiter: 3 / 1 / 0.5; S Jupiter both >= 90: 1 / 1 (Olympe only), noted.
+- Built: BB68b (Dec, both >= 90). Not built: RA90, ANY90 (Eddie to decide).

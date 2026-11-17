@@ -85,6 +85,7 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB67': {('05 Pholas', 'runner')},
     'BB1b': {('05 Pholas', 'Mercury')},
     'BB68': {('02 Fizzy Feet', 'Jupiter'), ('05 Pholas', 'Mercury'), ('06 Shimmering Dawn', 'Vesta')},
+    'BB68b': set(),
     'BB69': set(),
     'BB69b': set(),
     'BB70': set(),
@@ -868,5 +869,27 @@ for race, win in FR.RACES:
     tot['BB78'][0] += len(h78); tot['BB78'][1] += sum(win in x for x in h78)
 for rid, exp in (('BB77', (4, 3)), ('BB77b', (4, 3)), ('BB77c', (6, 4)), ('BB78', (3, 3))):
     check(tuple(tot[rid]) == exp, f'{rid} {exp[0]} holders, {exp[1]} won over the result races ({tot[rid]})')
+# BB68b (Eddie, 17 Nov 2026): BB68 with both pieces >= 90 (Olympe De Gouges Ketu); = scan DEC90 of bb_fieldcheck_split_ra.py
+import bb_fieldcheck_split_ra as SRA
+DON = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', '20220318_doncaster_1440', '20220318_doncaster_1440_bybody.xlsx')
+if os.path.exists(DON):
+    dn = R.run(DON)[2]
+    check({(c['runner'], c['body']) for c in dn['BB68b']} == {('02 Olympe De Gouges', 'Ketu')}, 'BB68b Doncaster 14:40: Olympe De Gouges Ketu')
+    k = dn['BB68b'][0]['cells']
+    check('S Jupiter – S Ketu Dec 12.941448 8×φ golden (91.28)' in k and 'S Jupiter → J Ketu Dec 16.001137 16 whole (94.32)' in k
+          and 'S Ketu → J Ketu Dec 28.942585 (no family)' in k, 'BB68b Olympe De Gouges cells')
+t68 = [0, 0]
+for race, win in SRA.RACES:
+    pth = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', race, f'{race}_bybody.xlsx')
+    if not os.path.exists(pth):
+        continue
+    rr = R.run(pth)[2]; data = R.load(pth)
+    h = {c['runner'] for c in rr['BB68b']}
+    check(h <= {c['runner'] for c in rr['BB68']}, f'BB68b holders are BB68 holders {race}')
+    scan = {run for run, D in data.items() if 'DEC90' in SRA.tags([sp for X, d in D.items() for sp in SP.splits(X, d)
+                                                                      if sp['Y'] in set(D) | {'Rahu', 'Ketu'}])}
+    check(h == scan, f'BB68b = scan DEC90 {race}')
+    t68[0] += len(h); t68[1] += sum(win in x for x in h)
+check(tuple(t68) == (6, 3), f'BB68b 6 holders, 3 won over 28 result races ({t68})')
 print(f'{ok}/{ok + bad} checks passed')
 sys.exit(1 if bad else 0)

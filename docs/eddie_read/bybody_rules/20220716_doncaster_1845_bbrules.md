@@ -74,6 +74,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB66 | 2 | 2 | 04 Mother India, 05 Novakai |  |
 | BB67 | 0 | 0 | - |  |
 | BB68 | 1 | 1 | 05 Novakai |  |
+| BB68b | 0 | 0 | - |  |
 | BB69 | 0 | 0 | - |  |
 | BB69b | 0 | 0 | - |  |
 | BB70 | 0 | 0 | - |  |
@@ -1092,6 +1093,14 @@ Origin: Ripon 15:25 16 Jun 2022, 4 Society Red, H Venus: S Venus -> H Venus Dec 
 - S Mercury → H Mercury Dec 32.5705 = S Neptune – S Mercury 25.9031 16×φ golden (55.05) + S Neptune → H Mercury 6.6674 6.66667 ninth (94.8)
 - lights on Mercury: S Sun – S Mercury RA 0.185152 conj conj (87.66); S Moon → H Mercury Dec 4.984965 5 whole (24.82); S Moon → J Mercury Dec 6.012632 6 whole (36.84)
 
+## BB68b — BB68 with both pieces of the split >= 90
+
+Rule: As BB68 (S X -> c X in Dec split by a sky body Y between sky X and natal X; both pieces S Y - S X and S Y -> c X in Dec in a family, conj / contraparallel never; Y a sky body, not X, not the Moon, not a royal star), with both pieces scoring >= 90.
+
+Origin: Doncaster 14:40 18 Mar 2022, 2 Olympe De Gouges, Ketu (S Ketu -> J Ketu Dec 28.942585 no family = S Jupiter - S Ketu 12.941448 8xphi (91.28) + S Jupiter -> J Ketu 16.001137 16 (94.32)) (Eddie, 17 Nov 2026: 'i like splits ... yes, to both'). Also held by Secret Satire Juno (Neptune 94.55 + 90.90) and Wotever Next Pluto (Pallas 92.62 + 96.23); lost Never In Paris, Buford, Charlie Uberalles. Over 28 result races 6 picks, 3 won, 0.9 by chance; cut chosen after the result; since BB68 was built 3 picks 1 won. RA version (RA90, tools/scans/bb_fieldcheck_split_ra.py) 9 / 2 / 1.1 (Domandlouis, Daphne Moon), not built; any RA split 166 / 25 / 26.2 (chance).
+
+No runner holds it.
+
 ## BB69 — 5 or more strong same-body lines
 
 Rule: A runner with 5 or more strong same-body lines: S X -> H X, S X -> J X or H X - J X (X any body but the Moon) in a number family (conj / contraparallel / opposition never) scoring >= 90. Rahu and Ketu one body. Runner-level.
@@ -1188,7 +1197,7 @@ No runner holds it.
 
 Rule: A body holding BB77 or BB77b.
 
-Origin: Eddie, 17 Nov 2026: 'BB77: U5, U8, the two together'. Over 25 result races 6 picks 4 won (Ishvara, Secret Satire, Eydon, Ring The Moon; On Point, Dubai Souq lost). Chosen after the results.
+Origin: Eddie, 17 Nov 2026: 'BB77: U5, U8, the two together'. Over 25 result races 6 picks 4 won (Ishvara, Secret Satire, Eydon, Ring The Moon; On Point, Dubai Souq lost), 0.9 by chance. Chosen after the results.
 
 No runner holds it.
 

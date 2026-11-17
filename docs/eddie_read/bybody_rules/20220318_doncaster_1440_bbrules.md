@@ -74,6 +74,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB66 | 0 | 0 | - |  |
 | BB67 | 1 | 1 | 06 Suntory Star |  |
 | BB68 | 1 | 1 | 02 Olympe De Gouges |  |
+| BB68b | 1 | 1 | 02 Olympe De Gouges |  |
 | BB69 | 0 | 0 | - |  |
 | BB69b | 0 | 0 | - |  |
 | BB70 | 0 | 0 | - |  |
@@ -1028,6 +1029,19 @@ Origin: Carlisle 16:30 7 Jul 2022, 6 Whitefeathersfall (holds all three). Eddie,
 Rule: S X -> c X in Dec (c = horse or jockey chart) split by a sky body Y lying between sky X and natal X: d(S Y, S X) + d(S Y, c X) = d(S X, c X) (within 0.0005); both pieces (S Y - S X, S Y -> c X, Dec) in a family (conj / contraparallel never), one >= 90 and the other >= 50. Y a sky body, not X, not the Moon, not a royal star. The same-body line itself, when it scores (a family, or conj / contraparallel >= 80, the mirror), is noted on the case.
 
 Origin: Ripon 15:25 16 Jun 2022, 4 Society Red, H Venus: S Venus -> H Venus Dec 33.0957 = S Sedna - S Venus 8.0905 5xphi (99.11) + S Sedna -> H Venus 25.0052 25 (73.88); the same line is contraparallel 0.0141 (95.31) (V5, held by Society Red only). Shape of Dettori's day (J Sun - J Chiron 28 split by the sky Sun into 21 + 7). Eddie, 16 Nov 2026: 'V3d is good to build'. tools/scans/bb_fieldcheck_split.py over 13 result races: 27 picks, 7 won, 3.7 by chance (Pholas, Secret Satire, Diligent Resdev, Wotever Next, Athmad, Novakai, Society Red); any plane (V3) 46 / 10 / 6.0. In-sample. In Dec any sky body between the two ends splits the line exactly; the rule tests that both pieces land on targets.
+
+### 02 Olympe De Gouges — Ketu (only)
+- S Ketu → J Ketu Dec 28.942585 (no family)
+- S Jupiter – S Ketu Dec 12.941448 8×φ golden (91.28)
+- S Jupiter → J Ketu Dec 16.001137 16 whole (94.32)
+- S Ketu → J Ketu Dec 28.9426 = S Jupiter – S Ketu 12.9414 8×φ golden (91.28) + S Jupiter → J Ketu 16.0011 16 whole (94.32)
+- lights on Ketu: S Sun – S Ketu Dec 17.742248 17.7778 ninth (0.07); S Moon → J Ketu RA 158.587020 98×φ golden (39.23)
+
+## BB68b — BB68 with both pieces of the split >= 90
+
+Rule: As BB68 (S X -> c X in Dec split by a sky body Y between sky X and natal X; both pieces S Y - S X and S Y -> c X in Dec in a family, conj / contraparallel never; Y a sky body, not X, not the Moon, not a royal star), with both pieces scoring >= 90.
+
+Origin: Doncaster 14:40 18 Mar 2022, 2 Olympe De Gouges, Ketu (S Ketu -> J Ketu Dec 28.942585 no family = S Jupiter - S Ketu 12.941448 8xphi (91.28) + S Jupiter -> J Ketu 16.001137 16 (94.32)) (Eddie, 17 Nov 2026: 'i like splits ... yes, to both'). Also held by Secret Satire Juno (Neptune 94.55 + 90.90) and Wotever Next Pluto (Pallas 92.62 + 96.23); lost Never In Paris, Buford, Charlie Uberalles. Over 28 result races 6 picks, 3 won, 0.9 by chance; cut chosen after the result; since BB68 was built 3 picks 1 won. RA version (RA90, tools/scans/bb_fieldcheck_split_ra.py) 9 / 2 / 1.1 (Domandlouis, Daphne Moon), not built; any RA split 166 / 25 / 26.2 (chance).
 
 ### 02 Olympe De Gouges — Ketu (only)
 - S Ketu → J Ketu Dec 28.942585 (no family)
