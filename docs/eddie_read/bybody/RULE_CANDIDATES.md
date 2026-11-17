@@ -1519,3 +1519,6 @@ Sun only Q2 / Q3 1 / 1 / 0.2 (Arvico Bleu only). Combination BB2 + BB3 + BB28 11
 Arvico Bleu decade echo (tools/scans/bb_fieldcheck_decade.py): a royal natal line on X and a sky line S Y – S X on the same digits a decade apart;
 D0 98 / 17 / 15.4; D1 (sky line >= 90) 14 / 4 / 1.9 (Perfect Part Chiron 60×φ / 6×φ, Diligent Resdev Jupiter 70.7 / 7.07, Whitefeathersfall Mars
 122.222 / 12.2222, Arvico Bleu Sun 44.444 / 4.444); D2 (+ carried) 9 / 1 / 1.3. Noted, not built (chosen after the result).
+D1 combinations (tools/scans/bb_combos_decade.py, 31 races): D1 + BB3 11 / 4 / 1.4 (all four D1 winners); D1 + BB54 5 / 3 / 0.4 (Perfect Part,
+Diligent Resdev, Whitefeathersfall); D1 + BB13 2 / 2 / 0.1; D1 + BB33 2 / 2 / 0.2; D1 + BB53 3 / 2 / 0.3; D1 + BB2 + BB3 5 / 2 / 0.5 (Diligent
+Resdev, Arvico Bleu). In-sample: BB33 / BB53 / BB54 were built from Perfect Part and Diligent Resdev.
