@@ -61,3 +61,11 @@
 - Second: 01 Austrian Theory - 10 rules (7 under T2), alone on BB8 (Gonggong 3/2 95.34), BB32, BB51; holds BB32 + BB34 (watched combination, none under T2).
 - Others: 03 Dawn Of Liberation 8 rules all kept under T2, alone on BB13 and BB68 (Pluto split 11.3392 + 11.1097); 04 Eydon 10 (5 under T2), alone on BB12, BB53, BB55; 05 Masekela 8 all kept; 06 Sonny Liston 3 (mirror watch M2 / M5 on J Venus by Sedna).
 - Independent checker: 0 mismatches (BB62 counts per chart, BB69 max 3 lines, BB75 none, rule table, depth, BB68 / BB8 by hand).
+
+## Result (from Eddie, 17 Nov 2026)
+1 Eydon 22/1, 2 Masekela 2/1F, 3 Austrian Theory 25/1, 4 Sonny Liston, 5 Cresta, 6 Dawn Of Liberation. The read missed: lead Cresta 5th, second Austrian Theory 3rd.
+- Winner held 10 rules (5 under T2): alone on BB12 (Uranus), BB53 (Mars / Makemake), BB55 (Saturn, Ketu, Quaoar); also BB1, BB3, BB7, BB9, BB27, BB34, BB57; depth 3 (Chiron, Gonggong).
+- Most strong same-body lines in the field (3, BB69 needs 5): S Pluto → J Pluto RA 52.0003 (98.34), S Haumea → J Haumea RA 21.9989 22 (94.32), S Orcus → J Orcus Dec 11.3256 7×φ (98.07).
+- The 133.333 ninth runs through his chart: S Sun – S Orcus RA 133.3341 (99.71) carries his J Chiron and H Pallas lines; BB53 S Makemake – S Mars RA 133.333 with H Antares – H Mars RA and J Fomalhaut – J Makemake RA both 166.667.
+- Regulus on H Jupiter: H Regulus – H Jupiter RA 111.1022 ninth (95.99) carried by S Venus – S Ketu RA 111.0853 (88.4); Regulus also on H Venus RA 111×φ (92.02).
+- Combinations of his rules over 23 result races (about 165 tried, chosen after the result): BB9 + BB12 + BB55 5 / 4 / 0.8 (Pholas, Sullivan Bay, John Kirkup, Eydon; Pholas the origin of BB9 / BB12); BB1 + BB9 + BB55 3 / 3 / 0.5; BB12 + BB53 + BB57 2 / 2 / 0.2. Alone: BB12 54 / 14 / 8.3, BB55 54 / 12 / 7.3, BB1 14 / 4 / 1.9.
