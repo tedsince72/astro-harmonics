@@ -1551,3 +1551,7 @@ tools/scans/bb_combos_n0_d1.py, 32 result races, picks / won / by chance; all fo
 - In-sample: BB53 / BB55 / BB51 / BB13 / BB33 were built from Perfect Part or Diligent Resdev, BB50 / BB12 from Secret Satire / Pholas;
   the D1 combinations with BB53 / BB55 / BB13 are mostly their own origin winners plus Wholestone. Cleanest out of their origins:
   N0 + BB50 (none of the three winners an origin of BB50), N0 + BB75 (BB75 origin Daphne Moon not in it).
+- Built 17 Nov 2026 (Eddie, 'build both please'): D1 = BB80, N0 = BB81. Independent check found D1 missed φ-power pairs (target text
+  '10φ⁴' not parsed); fixed in BB80 and bb_fieldcheck_decade.py: one more holder, Kelso 14:50 2022 03 Curley Finger Vesta (S Pallas –
+  S Vesta RA 10φ⁴ 95.83 / J Aldebaran – J Vesta Dec φ⁴ 45.95; lost). Now BB80 17 / 5 / 2.4, BB80 + BB3 13 / 5 / 1.7, BB80 + BB54
+  6 / 3 / 0.6; BB81 16 / 5 / 2.6, BB81 + BB50 3 / 3 / 0.5, BB81 + BB75 2 / 2 / 0.3 (32 result races).

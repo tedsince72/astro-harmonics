@@ -1,4 +1,4 @@
-# 20220219_haydock_1405 — body-by-body rules BB1-BB79
+# 20220219_haydock_1405 — body-by-body rules BB1-BB81
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -89,6 +89,8 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB77c | 0 | 0 | - |  |
 | BB78 | 0 | 0 | - |  |
 | BB79 | 0 | 0 | - |  |
+| BB80 | 2 | 2 | 04 Top Ville Ben, 05 Wholestone |  |
+| BB81 | 1 | 1 | 05 Wholestone |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1689,4 +1691,36 @@ Rule: A sky body Y is named in a 'Sky lines on the same target' row on S X -> H 
 Origin: Newcastle 15:40 11 Mar 2022, 3 Peak Time, Ceres (S Ceres -> H Ceres Dec 6.008907 6 (55.47) carried by S Makemake -> H Ceres Dec 5.993894 (69.47); S Ceres -> J Ceres Dec 4.002709 4 (86.45) by S Makemake -> J Ceres Dec 4.017721 (11.4); S Makemake – S Ceres Dec conj 0.015013 (95)) (Eddie, 17 Nov 2026: 'build this one'). Over 29 result races 10 picks, 5 won, 1.7 by chance (Perfect Part, Wotever Next, On Time, Man On A Mission, Peak Time; lost Royal Context, Logistical, Bollin Joan, Wheres Maud Gone, Black Opium); partly in-sample. Note: a Y conjunct sky X carries both lines by geometry (Peak Time, On Time, Logistical). Versions noted in RULE_CANDIDATES.md (tools/scans/bb_fieldcheck_ceres_carrier.py).
 
 No runner holds it.
+
+## BB80 — Decade echo: a royal natal line and a sky line on sky X ten times apart
+
+Rule: A natal royal line c R – c X in a number family (no conj / cp / opposition) and a sky line S Y – S X naming sky X ('Other' table; Y not the Moon) in the same family, scoring >= 90, the two targets in ratio 10 (x10 or /10; golden k×φ against golden). X not the Moon.
+
+Origin: Carlisle 13:55 14 Oct 2021, 1 Arvico Bleu, Sun (S Transpluto – S Sun RA 44.4467 ninth 44.4444 (97.51) = 10 x J Aldebaran – J Sun Dec 4.4380 ninth 4.44444 (27.16), carried by S Rahu – S Ceres Dec 4.4445 (99.65)); second winner Haydock 14:05 19 Feb 2022 Wholestone Mercury (S Neptune – S Mercury Dec 15 (95.37) / J Aldebaran – J Mercury RA 150 (52.19)) (Eddie, 17 Nov 2026: 'D1 is good', 'build both please'). Over 32 result races 16 picks, 5 won, 2.2 by chance (Perfect Part, Diligent Resdev, Whitefeathersfall, Arvico Bleu, Wholestone); chosen after the results. Scan D1 in tools/scans/bb_fieldcheck_decade.py; combinations in RULE_CANDIDATES.md.
+
+### 04 Top Ville Ben — Quaoar (also: 05 Wholestone)
+- S Neptune – S Quaoar Dec 11.110668 11.1111 ninth (98.01)
+- H Regulus – H Quaoar RA 111.209713 111.111 ninth (55.63)
+- S Juno – S Sedna RA 111.184759 111.111 ninth (66.86)
+- decade: S Neptune – S Quaoar Dec 11.1107 11.1111 (98.01) / H Regulus – H Quaoar RA 111.2097 111.111 (55.63)
+- HIGHLIGHT same digits a decade apart: 11.1111 (S Neptune – S Quaoar) / 111.111 (H Regulus – H Quaoar)
+- lights on Quaoar: S Sun – S Quaoar Dec 4.146522 4.14 silver (29.4)
+
+### 05 Wholestone — Mercury (also: 04 Top Ville Ben)
+- S Neptune – S Mercury Dec 14.999075 15 whole (95.37)
+- J Aldebaran – J Mercury RA 149.990438 150 whole (52.19)
+- decade: S Neptune – S Mercury Dec 14.9991 15 (95.37) / J Aldebaran – J Mercury RA 149.9904 150 (52.19)
+- HIGHLIGHT same digits a decade apart: 15 (S Neptune – S Mercury) / 150 (J Aldebaran – J Mercury)
+
+## BB81 — Same number: a royal natal line and the same-body line on one target
+
+Rule: A natal royal line c R – c X and a same-body line S X -> H X or S X -> J X (any chart, any plane) in the same number family (no conj / cp / opposition) on the same target; any scores. X not the Moon.
+
+Origin: Haydock 14:05 19 Feb 2022, 5 Wholestone, Pluto (H Fomalhaut – H Pluto RA 66.6744 ninth 66.6667 (94.2) = S Pluto -> J Pluto RA 66.6385 (78.86)) (Eddie, 17 Nov 2026: 'N0 is good', 'build both please'). Over 32 result races 16 picks, 5 won, 2.6 by chance (Novakai, The Dunkirk Lads, Little Girl Blue, Aldhaja, Wholestone); chosen after the results; no score floor (The Dunkirk Lads Juno 24.27 / 1.65). Scan N0 in tools/scans/bb_fieldcheck_samenum.py (versions N50 / N70 there).
+
+### 05 Wholestone — Pluto (only)
+- H Fomalhaut – H Pluto RA 66.674398 66.6667 ninth (94.2)
+- S Pluto → J Pluto RA 66.638483 66.6667 ninth (78.86)
+- same number: H Fomalhaut – H Pluto RA 66.6744 66.6667 (94.2) = S Pluto → J Pluto RA 66.6385 (78.86)
+- lights on Pluto: S Moon – S Pluto RA 113.261397 70×φ golden (96.97); S Sun – S Pluto RA 33.006174 33 whole (69.13); S Moon → H Pluto Dec 19.390659 12×φ golden (20.53)
 

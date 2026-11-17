@@ -100,6 +100,8 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB77c': set(),
     'BB78': set(),
     'BB79': set(),
+    'BB80': set(),
+    'BB81': {('01 Arafi', 'Pluto')},
     'BB55': {('01 Arafi', 'Gonggong'), ('01 Arafi', 'Venus'), ('04 Nirodha', 'Saturn'), ('05 Pholas', 'Pallas')},
     'BB53': {('06 Shimmering Dawn', 'Sun'), ('06 Shimmering Dawn', 'Jupiter'), ('06 Shimmering Dawn', 'Pallas')},
 }
@@ -912,5 +914,29 @@ for race, win in CC.RACES:
     check(h == scan, f'BB79 = scan K2c {race}')
     t79[0] += len(h); t79[1] += sum(win in x for x in h)
 check(tuple(t79) == (10, 5), f'BB79 10 holders, 5 won over 29 result races ({t79})')
+# BB80 / BB81 (Eddie, 17 Nov 2026, 'build both please'): D1 decade echo = scan D1, N0 same number = scan N0
+import bb_fieldcheck_decade as DEC80
+import bb_fieldcheck_samenum as SN81
+for race, rid, want, txt in (('20211014_carlisle_1355', 'BB80', ('01 Arvico Bleu', 'Sun'),
+                              ['S Transpluto – S Sun RA 44.446656 44.4444 ninth (97.51)', 'J Aldebaran – J Sun Dec 4.437969 4.44444 ninth (27.16)']),
+                             ('20220219_haydock_1405', 'BB80', ('05 Wholestone', 'Mercury'),
+                              ['S Neptune – S Mercury Dec 14.999075 15 whole (95.37)', 'J Aldebaran – J Mercury RA 149.990438 150 whole (52.19)']),
+                             ('20220219_haydock_1405', 'BB81', ('05 Wholestone', 'Pluto'),
+                              ['H Fomalhaut – H Pluto RA 66.674398 66.6667 ninth (94.2)', 'S Pluto → J Pluto RA 66.638483 66.6667 ninth (78.86)'])):
+    pth = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', race, f'{race}_bybody.xlsx')
+    if os.path.exists(pth):
+        k = [c for c in R.run(pth)[2][rid] if (c['runner'], c['body']) == want]
+        check(bool(k) and all(t in k[0]['cells'] for t in txt), f'{rid} {want[0]} {want[1]} cells')
+t80 = {'BB80': [0, 0], 'BB81': [0, 0]}
+for race, win in SN81.RACES:
+    pth = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', race, f'{race}_bybody.xlsx')
+    if not os.path.exists(pth):
+        continue
+    rr = R.run(pth)[2]; data = R.load(pth)
+    for rid, mod, key in (('BB80', DEC80, 'D1'), ('BB81', SN81, 'N0')):
+        h = {c['runner'] for c in rr[rid]}
+        check(h == {run for run, D in data.items() if key in mod.cases(D)}, f'{rid} = scan {key} {race}')
+        t80[rid][0] += len(h); t80[rid][1] += sum(win in x for x in h)
+check(tuple(t80['BB80']) == (17, 5) and tuple(t80['BB81']) == (16, 5), f'BB80 17 / BB81 16 holders, 5 won each over 32 result races ({t80})')
 print(f'{ok}/{ok + bad} checks passed')
 sys.exit(1 if bad else 0)

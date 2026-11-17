@@ -2421,6 +2421,66 @@
   "BB77b": [],
   "BB77c": [],
   "BB78": [],
-  "BB79": []
+  "BB79": [],
+  "BB80": [
+   {
+    "runner": "04 Top Ville Ben",
+    "body": "Quaoar",
+    "cells": [
+     "S Neptune – S Quaoar Dec 11.110668 11.1111 ninth (98.01)",
+     "H Regulus – H Quaoar RA 111.209713 111.111 ninth (55.63)",
+     "S Juno – S Sedna RA 111.184759 111.111 ninth (66.86)"
+    ],
+    "notes": [
+     "decade: S Neptune – S Quaoar Dec 11.1107 11.1111 (98.01) / H Regulus – H Quaoar RA 111.2097 111.111 (55.63)"
+    ],
+    "lights": [
+     "S Sun – S Quaoar Dec 4.146522 4.14 silver (29.4)"
+    ],
+    "decade": [
+     "11.1111 (S Neptune – S Quaoar) / 111.111 (H Regulus – H Quaoar)"
+    ],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "05 Wholestone",
+    "body": "Mercury",
+    "cells": [
+     "S Neptune – S Mercury Dec 14.999075 15 whole (95.37)",
+     "J Aldebaran – J Mercury RA 149.990438 150 whole (52.19)"
+    ],
+    "notes": [
+     "decade: S Neptune – S Mercury Dec 14.9991 15 (95.37) / J Aldebaran – J Mercury RA 149.9904 150 (52.19)"
+    ],
+    "lights": [],
+    "decade": [
+     "15 (S Neptune – S Mercury) / 150 (J Aldebaran – J Mercury)"
+    ],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB81": [
+   {
+    "runner": "05 Wholestone",
+    "body": "Pluto",
+    "cells": [
+     "H Fomalhaut – H Pluto RA 66.674398 66.6667 ninth (94.2)",
+     "S Pluto → J Pluto RA 66.638483 66.6667 ninth (78.86)"
+    ],
+    "notes": [
+     "same number: H Fomalhaut – H Pluto RA 66.6744 66.6667 (94.2) = S Pluto → J Pluto RA 66.6385 (78.86)"
+    ],
+    "lights": [
+     "S Moon – S Pluto RA 113.261397 70×φ golden (96.97)",
+     "S Sun – S Pluto RA 33.006174 33 whole (69.13)",
+     "S Moon → H Pluto Dec 19.390659 12×φ golden (20.53)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ]
  }
 }

@@ -1,4 +1,4 @@
-# 20210802_newcastle_aw_1633 — body-by-body rules BB1-BB79
+# 20210802_newcastle_aw_1633 — body-by-body rules BB1-BB81
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -89,6 +89,8 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB77c | 1 | 1 | 01 Dubai Souq |  |
 | BB78 | 0 | 0 | - |  |
 | BB79 | 0 | 0 | - |  |
+| BB80 | 5 | 3 | 03 Raise The Roof, 04 Beating All, 05 Pallas Dancer |  |
+| BB81 | 1 | 1 | 04 Beating All |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1491,4 +1493,61 @@ Rule: A sky body Y is named in a 'Sky lines on the same target' row on S X -> H 
 Origin: Newcastle 15:40 11 Mar 2022, 3 Peak Time, Ceres (S Ceres -> H Ceres Dec 6.008907 6 (55.47) carried by S Makemake -> H Ceres Dec 5.993894 (69.47); S Ceres -> J Ceres Dec 4.002709 4 (86.45) by S Makemake -> J Ceres Dec 4.017721 (11.4); S Makemake – S Ceres Dec conj 0.015013 (95)) (Eddie, 17 Nov 2026: 'build this one'). Over 29 result races 10 picks, 5 won, 1.7 by chance (Perfect Part, Wotever Next, On Time, Man On A Mission, Peak Time; lost Royal Context, Logistical, Bollin Joan, Wheres Maud Gone, Black Opium); partly in-sample. Note: a Y conjunct sky X carries both lines by geometry (Peak Time, On Time, Logistical). Versions noted in RULE_CANDIDATES.md (tools/scans/bb_fieldcheck_ceres_carrier.py).
 
 No runner holds it.
+
+## BB80 — Decade echo: a royal natal line and a sky line on sky X ten times apart
+
+Rule: A natal royal line c R – c X in a number family (no conj / cp / opposition) and a sky line S Y – S X naming sky X ('Other' table; Y not the Moon) in the same family, scoring >= 90, the two targets in ratio 10 (x10 or /10; golden k×φ against golden). X not the Moon.
+
+Origin: Carlisle 13:55 14 Oct 2021, 1 Arvico Bleu, Sun (S Transpluto – S Sun RA 44.4467 ninth 44.4444 (97.51) = 10 x J Aldebaran – J Sun Dec 4.4380 ninth 4.44444 (27.16), carried by S Rahu – S Ceres Dec 4.4445 (99.65)); second winner Haydock 14:05 19 Feb 2022 Wholestone Mercury (S Neptune – S Mercury Dec 15 (95.37) / J Aldebaran – J Mercury RA 150 (52.19)) (Eddie, 17 Nov 2026: 'D1 is good', 'build both please'). Over 32 result races 16 picks, 5 won, 2.2 by chance (Perfect Part, Diligent Resdev, Whitefeathersfall, Arvico Bleu, Wholestone); chosen after the results. Scan D1 in tools/scans/bb_fieldcheck_decade.py; combinations in RULE_CANDIDATES.md.
+
+### 03 Raise The Roof — Mercury (also: 04 Beating All, 05 Pallas Dancer)
+- S Pallas – S Mercury Dec 12.223192 12.2222 ninth (96.03)
+- J Aldebaran – J Mercury RA 122.307333 122.222 ninth (65.18)
+- S Quaoar – S Regulus RA 122.072915 122.222 ninth (38.92)
+- S Sun – S Chiron RA 122.149268 122.222 ninth (70.16)
+- S Pluto – S Sedna RA 122.137715 122.222 ninth (65.43)
+- S Gonggong – S Haumea RA 122.072041 122.222 ninth (38.56)
+- S Pluto – S Ceres RA 122.455976 122.222 ninth (4.37)
+- decade: S Pallas – S Mercury Dec 12.2232 12.2222 (96.03) / J Aldebaran – J Mercury RA 122.3073 122.222 (65.18)
+- HIGHLIGHT same digits a decade apart: 12.2222 (S Pallas – S Mercury) / 122.222 (J Aldebaran – J Mercury)
+- lights on Mercury: S Sun → H Mercury RA 142.392421 88×φ golden (83.24)
+
+### 03 Raise The Roof — Neptune (also: 04 Beating All, 05 Pallas Dancer)
+- S Gonggong – S Neptune RA 16.663988 16.6667 ninth (91.96)
+- H Regulus – H Neptune RA 166.925013 166.667 ninth (22.5)
+- decade: S Gonggong – S Neptune RA 16.6640 16.6667 (91.96) / H Regulus – H Neptune RA 166.9250 166.667 (22.5)
+- HIGHLIGHT same digits a decade apart: 16.6667 (S Gonggong – S Neptune) / 166.667 (H Regulus – H Neptune)
+- lights on Neptune: S Sun → H Neptune Dec 24.980209 25 whole (1.04)
+
+### 04 Beating All — Neptune (also: 03 Raise The Roof, 05 Pallas Dancer)
+- S Gonggong – S Neptune RA 16.663988 16.6667 ninth (91.96)
+- H Regulus – H Neptune RA 166.423490 166.667 ninth (27.05)
+- decade: S Gonggong – S Neptune RA 16.6640 16.6667 (91.96) / H Regulus – H Neptune RA 166.4235 166.667 (27.05)
+- HIGHLIGHT same digits a decade apart: 16.6667 (S Gonggong – S Neptune) / 166.667 (H Regulus – H Neptune)
+
+### 05 Pallas Dancer — Neptune (also: 03 Raise The Roof, 04 Beating All)
+- S Gonggong – S Neptune RA 16.663988 16.6667 ninth (91.96)
+- H Regulus – H Neptune RA 166.575601 166.667 ninth (72.68)
+- decade: S Gonggong – S Neptune RA 16.6640 16.6667 (91.96) / H Regulus – H Neptune RA 166.5756 166.667 (72.68)
+- HIGHLIGHT same digits a decade apart: 16.6667 (S Gonggong – S Neptune) / 166.667 (H Regulus – H Neptune)
+- lights on Neptune: S Moon → J Neptune Dec contraparallel 0.219379 cp contraparallel (26.87); S Sun → J Neptune RA 169.862058 105×φ golden (2.74)
+
+### 05 Pallas Dancer — Transpluto (also: 03 Raise The Roof, 04 Beating All)
+- S Ketu – S Transpluto Dec 32.363646 20×φ golden (90.84)
+- J Aldebaran – J Transpluto Dec 3.217897 2×φ golden (43.92)
+- S Mercury – S Uranus Dec 3.254427 2×φ golden (43.34)
+- S Saturn – S Ketu Dec 3.207146 2×φ golden (10.73)
+- decade: S Ketu – S Transpluto Dec 32.3636 20×φ (90.84) / J Aldebaran – J Transpluto Dec 3.2179 2×φ (43.92)
+
+## BB81 — Same number: a royal natal line and the same-body line on one target
+
+Rule: A natal royal line c R – c X and a same-body line S X -> H X or S X -> J X (any chart, any plane) in the same number family (no conj / cp / opposition) on the same target; any scores. X not the Moon.
+
+Origin: Haydock 14:05 19 Feb 2022, 5 Wholestone, Pluto (H Fomalhaut – H Pluto RA 66.6744 ninth 66.6667 (94.2) = S Pluto -> J Pluto RA 66.6385 (78.86)) (Eddie, 17 Nov 2026: 'N0 is good', 'build both please'). Over 32 result races 16 picks, 5 won, 2.6 by chance (Novakai, The Dunkirk Lads, Little Girl Blue, Aldhaja, Wholestone); chosen after the results; no score floor (The Dunkirk Lads Juno 24.27 / 1.65). Scan N0 in tools/scans/bb_fieldcheck_samenum.py (versions N50 / N70 there).
+
+### 04 Beating All — Chiron (only)
+- J Regulus – J Chiron Dec 4.834971 3×φ golden (40.95)
+- S Chiron → H Chiron Dec 4.864107 3×φ golden (69.12)
+- same number: J Regulus – J Chiron Dec 4.8350 3×φ (40.95) = S Chiron → H Chiron Dec 4.8641 (69.12)
+- lights on Chiron: S Sun – S Chiron RA 122.149268 122.222 ninth (70.16); S Moon → H Chiron RA 64.012215 64 whole (38.93)
 

@@ -1,4 +1,4 @@
-# 20220707_carlisle_1630 — body-by-body rules BB1-BB79
+# 20220707_carlisle_1630 — body-by-body rules BB1-BB81
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -89,6 +89,8 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB77c | 0 | 0 | - |  |
 | BB78 | 1 | 1 | 06 Whitefeathersfall |  |
 | BB79 | 0 | 0 | - |  |
+| BB80 | 2 | 2 | 06 Whitefeathersfall, 08 Lucia Joy |  |
+| BB81 | 1 | 1 | 01 Aswan |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1187,4 +1189,36 @@ Rule: A sky body Y is named in a 'Sky lines on the same target' row on S X -> H 
 Origin: Newcastle 15:40 11 Mar 2022, 3 Peak Time, Ceres (S Ceres -> H Ceres Dec 6.008907 6 (55.47) carried by S Makemake -> H Ceres Dec 5.993894 (69.47); S Ceres -> J Ceres Dec 4.002709 4 (86.45) by S Makemake -> J Ceres Dec 4.017721 (11.4); S Makemake – S Ceres Dec conj 0.015013 (95)) (Eddie, 17 Nov 2026: 'build this one'). Over 29 result races 10 picks, 5 won, 1.7 by chance (Perfect Part, Wotever Next, On Time, Man On A Mission, Peak Time; lost Royal Context, Logistical, Bollin Joan, Wheres Maud Gone, Black Opium); partly in-sample. Note: a Y conjunct sky X carries both lines by geometry (Peak Time, On Time, Logistical). Versions noted in RULE_CANDIDATES.md (tools/scans/bb_fieldcheck_ceres_carrier.py).
 
 No runner holds it.
+
+## BB80 — Decade echo: a royal natal line and a sky line on sky X ten times apart
+
+Rule: A natal royal line c R – c X in a number family (no conj / cp / opposition) and a sky line S Y – S X naming sky X ('Other' table; Y not the Moon) in the same family, scoring >= 90, the two targets in ratio 10 (x10 or /10; golden k×φ against golden). X not the Moon.
+
+Origin: Carlisle 13:55 14 Oct 2021, 1 Arvico Bleu, Sun (S Transpluto – S Sun RA 44.4467 ninth 44.4444 (97.51) = 10 x J Aldebaran – J Sun Dec 4.4380 ninth 4.44444 (27.16), carried by S Rahu – S Ceres Dec 4.4445 (99.65)); second winner Haydock 14:05 19 Feb 2022 Wholestone Mercury (S Neptune – S Mercury Dec 15 (95.37) / J Aldebaran – J Mercury RA 150 (52.19)) (Eddie, 17 Nov 2026: 'D1 is good', 'build both please'). Over 32 result races 16 picks, 5 won, 2.2 by chance (Perfect Part, Diligent Resdev, Whitefeathersfall, Arvico Bleu, Wholestone); chosen after the results. Scan D1 in tools/scans/bb_fieldcheck_decade.py; combinations in RULE_CANDIDATES.md.
+
+### 06 Whitefeathersfall — Mars (also: 08 Lucia Joy)
+- S Regulus – S Mars RA 122.238043 122.222 ninth (93.53)
+- H Regulus – H Mars Dec 12.233657 12.2222 ninth (53.22)
+- decade: S Regulus – S Mars RA 122.2380 122.222 (93.53) / H Regulus – H Mars Dec 12.2337 12.2222 (53.22)
+- HIGHLIGHT same digits a decade apart: 122.222 (S Regulus – S Mars) / 12.2222 (H Regulus – H Mars)
+- lights on Mars: S Sun → H Mars Dec 1.631259 1×φ golden (59.18); S Moon → J Mars RA 72.003283 72 whole (83.59)
+
+### 08 Lucia Joy — Chiron (also: 06 Whitefeathersfall)
+- S Sun – S Chiron Dec 14.446330 14.4444 ninth (93.47)
+- J Antares – J Chiron RA 144.461539 144.444 ninth (94.08)
+- S Jupiter – S Regulus RA 144.511321 144.444 ninth (76.85)
+- decade: S Sun – S Chiron Dec 14.4463 14.4444 (93.47) / J Antares – J Chiron RA 144.4615 144.444 (94.08)
+- HIGHLIGHT same digits a decade apart: 14.4444 (S Sun – S Chiron) / 144.444 (J Antares – J Chiron)
+- lights on Chiron: S Sun – S Chiron Dec 14.446330 14.4444 ninth (93.47); S Sun → H Chiron Dec 17.996948 18 whole (84.74)
+
+## BB81 — Same number: a royal natal line and the same-body line on one target
+
+Rule: A natal royal line c R – c X and a same-body line S X -> H X or S X -> J X (any chart, any plane) in the same number family (no conj / cp / opposition) on the same target; any scores. X not the Moon.
+
+Origin: Haydock 14:05 19 Feb 2022, 5 Wholestone, Pluto (H Fomalhaut – H Pluto RA 66.6744 ninth 66.6667 (94.2) = S Pluto -> J Pluto RA 66.6385 (78.86)) (Eddie, 17 Nov 2026: 'N0 is good', 'build both please'). Over 32 result races 16 picks, 5 won, 2.6 by chance (Novakai, The Dunkirk Lads, Little Girl Blue, Aldhaja, Wholestone); chosen after the results; no score floor (The Dunkirk Lads Juno 24.27 / 1.65). Scan N0 in tools/scans/bb_fieldcheck_samenum.py (versions N50 / N70 there).
+
+### 01 Aswan — Vesta (only)
+- H Aldebaran – H Vesta Dec 21.034397 13×φ golden (99.86)
+- S Vesta → H Vesta RA 21.051542 13×φ golden (47.22)
+- same number: H Aldebaran – H Vesta Dec 21.0344 13×φ (99.86) = S Vesta → H Vesta RA 21.0515 (47.22)
 

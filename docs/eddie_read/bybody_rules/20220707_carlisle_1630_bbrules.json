@@ -1239,6 +1239,66 @@
     "watch_only": false
    }
   ],
-  "BB79": []
+  "BB79": [],
+  "BB80": [
+   {
+    "runner": "06 Whitefeathersfall",
+    "body": "Mars",
+    "cells": [
+     "S Regulus – S Mars RA 122.238043 122.222 ninth (93.53)",
+     "H Regulus – H Mars Dec 12.233657 12.2222 ninth (53.22)"
+    ],
+    "notes": [
+     "decade: S Regulus – S Mars RA 122.2380 122.222 (93.53) / H Regulus – H Mars Dec 12.2337 12.2222 (53.22)"
+    ],
+    "lights": [
+     "S Sun → H Mars Dec 1.631259 1×φ golden (59.18)",
+     "S Moon → J Mars RA 72.003283 72 whole (83.59)"
+    ],
+    "decade": [
+     "122.222 (S Regulus – S Mars) / 12.2222 (H Regulus – H Mars)"
+    ],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "08 Lucia Joy",
+    "body": "Chiron",
+    "cells": [
+     "S Sun – S Chiron Dec 14.446330 14.4444 ninth (93.47)",
+     "J Antares – J Chiron RA 144.461539 144.444 ninth (94.08)",
+     "S Jupiter – S Regulus RA 144.511321 144.444 ninth (76.85)"
+    ],
+    "notes": [
+     "decade: S Sun – S Chiron Dec 14.4463 14.4444 (93.47) / J Antares – J Chiron RA 144.4615 144.444 (94.08)"
+    ],
+    "lights": [
+     "S Sun – S Chiron Dec 14.446330 14.4444 ninth (93.47)",
+     "S Sun → H Chiron Dec 17.996948 18 whole (84.74)"
+    ],
+    "decade": [
+     "14.4444 (S Sun – S Chiron) / 144.444 (J Antares – J Chiron)"
+    ],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB81": [
+   {
+    "runner": "01 Aswan",
+    "body": "Vesta",
+    "cells": [
+     "H Aldebaran – H Vesta Dec 21.034397 13×φ golden (99.86)",
+     "S Vesta → H Vesta RA 21.051542 13×φ golden (47.22)"
+    ],
+    "notes": [
+     "same number: H Aldebaran – H Vesta Dec 21.0344 13×φ (99.86) = S Vesta → H Vesta RA 21.0515 (47.22)"
+    ],
+    "lights": [],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ]
  }
 }

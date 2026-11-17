@@ -1,4 +1,4 @@
-# 20220311_newcastle_1540 — body-by-body rules BB1-BB79
+# 20220311_newcastle_1540 — body-by-body rules BB1-BB81
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -89,6 +89,8 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB77c | 0 | 0 | - |  |
 | BB78 | 0 | 0 | - |  |
 | BB79 | 2 | 2 | 03 Peak Time, 07 Black Opium |  |
+| BB80 | 1 | 1 | 05 Sir Apollo |  |
+| BB81 | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1401,4 +1403,27 @@ Origin: Newcastle 15:40 11 Mar 2022, 3 Peak Time, Ceres (S Ceres -> H Ceres Dec 
 - S Ceres – S Makemake Dec 0.015013 conj conj (95)
 - Ceres carries Makemake in both charts: S Makemake → H Makemake Dec 3.3331 3.33333 (97.24) carried by S Moon – S Ceres Dec 3.3323 (84.32); S Makemake → J Makemake Dec 12.2389 12.2222 (31.85) carried by S Ceres – S Transpluto Dec 12.2097 (48.84); S Ceres – S Makemake Dec 0.0150 conj (95)
 - lights on Makemake: S Moon → H Makemake Dec 0.015873 conj conj (94.71)
+
+## BB80 — Decade echo: a royal natal line and a sky line on sky X ten times apart
+
+Rule: A natal royal line c R – c X in a number family (no conj / cp / opposition) and a sky line S Y – S X naming sky X ('Other' table; Y not the Moon) in the same family, scoring >= 90, the two targets in ratio 10 (x10 or /10; golden k×φ against golden). X not the Moon.
+
+Origin: Carlisle 13:55 14 Oct 2021, 1 Arvico Bleu, Sun (S Transpluto – S Sun RA 44.4467 ninth 44.4444 (97.51) = 10 x J Aldebaran – J Sun Dec 4.4380 ninth 4.44444 (27.16), carried by S Rahu – S Ceres Dec 4.4445 (99.65)); second winner Haydock 14:05 19 Feb 2022 Wholestone Mercury (S Neptune – S Mercury Dec 15 (95.37) / J Aldebaran – J Mercury RA 150 (52.19)) (Eddie, 17 Nov 2026: 'D1 is good', 'build both please'). Over 32 result races 16 picks, 5 won, 2.2 by chance (Perfect Part, Diligent Resdev, Whitefeathersfall, Arvico Bleu, Wholestone); chosen after the results. Scan D1 in tools/scans/bb_fieldcheck_decade.py; combinations in RULE_CANDIDATES.md.
+
+### 05 Sir Apollo — Pluto (only)
+- S Transpluto – S Pluto RA 145.621596 90×φ golden (95.48)
+- J Regulus – J Pluto Dec 14.568776 9×φ golden (80.03)
+- S Saturn – S Gonggong RA 14.561937 9×φ golden (98.86)
+- S Neptune – S Transpluto Dec 14.546492 9×φ golden (51.19)
+- S Sun – S Gonggong RA 14.534355 9×φ golden (13.73)
+- decade: S Transpluto – S Pluto RA 145.6216 90×φ (95.48) / J Regulus – J Pluto Dec 14.5688 9×φ (80.03)
+- lights on Pluto: S Sun → J Pluto RA 119.995042 120 whole (75.21)
+
+## BB81 — Same number: a royal natal line and the same-body line on one target
+
+Rule: A natal royal line c R – c X and a same-body line S X -> H X or S X -> J X (any chart, any plane) in the same number family (no conj / cp / opposition) on the same target; any scores. X not the Moon.
+
+Origin: Haydock 14:05 19 Feb 2022, 5 Wholestone, Pluto (H Fomalhaut – H Pluto RA 66.6744 ninth 66.6667 (94.2) = S Pluto -> J Pluto RA 66.6385 (78.86)) (Eddie, 17 Nov 2026: 'N0 is good', 'build both please'). Over 32 result races 16 picks, 5 won, 2.6 by chance (Novakai, The Dunkirk Lads, Little Girl Blue, Aldhaja, Wholestone); chosen after the results; no score floor (The Dunkirk Lads Juno 24.27 / 1.65). Scan N0 in tools/scans/bb_fieldcheck_samenum.py (versions N50 / N70 there).
+
+No runner holds it.
 

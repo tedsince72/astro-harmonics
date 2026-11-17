@@ -18,8 +18,18 @@ KEYS = ['D0', 'D1', 'D2', 'D3']
 
 
 def tnum(r):
+    """Target as a number: whole / ninth / √2 / silver as written, golden 'k×φ' -> k, φ power 'cφⁿ' / 'cφ^-1' -> c·φⁿ
+    (φ powers added 17 Nov 2026 after the independent check: '10φ⁴' against 'φ⁴' was missed)."""
+    t = str(r['tgt'])
+    if r.get('fam') == 'phi power':
+        import re as _re
+        m = _re.match(r'^(\d*)φ(\^-1|[⁰¹²³⁴⁵⁶⁷⁸⁹]*)$', t)
+        if not m:
+            return None
+        e = -1 if m.group(2) == '^-1' else int(m.group(2).translate(str.maketrans('⁰¹²³⁴⁵⁶⁷⁸⁹', '0123456789')) or 1)
+        return float(m.group(1) or 1) * ((1 + 5 ** 0.5) / 2) ** e
     try:
-        return float(str(r['tgt']).replace('×φ', ''))
+        return float(t.replace('×φ', ''))
     except ValueError:
         return None
 
@@ -46,7 +56,7 @@ def cases(D):
             tag = f"{x['line']} {x['plane']}"
             carr = [p for p in d['S'] if p.get('match') == tag and ok(p) and ' – ' in p['line'] and '→' not in p['line']]
             for o in sky:
-                if o['fam'] != x['fam'] or str(o['tgt']).endswith('φ') != str(x['tgt']).endswith('φ'):
+                if o['fam'] != x['fam'] or (o['fam'] == 'golden' and str(o['tgt']).endswith('×φ') != str(x['tgt']).endswith('×φ')):
                     continue
                 if not decade(tnum(o), tnum(x)):
                     continue
