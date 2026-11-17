@@ -25,6 +25,13 @@
 - J1any + BB14: none | none
 - J1any + BB20: none | none
 - J1any + BB68: none | none
+- BB10 + BB7 + BB9: 04 Mr Washington, 06 Silva Eclipse | 04 Mr Washington
+- BB10 + BB23 + BB7: 06 Silva Eclipse | none
+- BB2 + BB23 + BB7: 06 Silva Eclipse | none
+- BB10 + BB2 + BB9: 06 Silva Eclipse | none
+- BB10 + BB23 + BB9: 06 Silva Eclipse | none
+- BB23 + BB7 + BB9: 06 Silva Eclipse | none
+- BB10 + BB60: 04 Mr Washington, 06 Silva Eclipse | none
 
 ## P4 watch (Athmad Pluto loop) and P1-P3
 - P1: 01 Boss Man Fred, 02 Mister Watson
