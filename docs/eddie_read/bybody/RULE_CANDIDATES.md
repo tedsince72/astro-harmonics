@@ -1453,3 +1453,7 @@ tools/scans/bb_fieldcheck_ringthemoon.py (24 result races with a depth json; Che
 same-body line >= 90 and one pair end on both natal X >= 80 (Juno: S Juno → H Juno RA 4×φ 96, pair S Mercury – S Gonggong Dec 4×φ,
 S Mercury → H Juno RA 41.4 98.41, → J Juno RA 177.778 83.74) 1 / 1 / 0.2 (one winner); T2 one pair closing two loops 6 / 1 / 0.9;
 T1 most bodies at depth 3+ alone 15 / 1 / 2.5.
+Looser versions (tools/scans/bb_fieldcheck_ringthemoon_loose.py, 24 result races): L1 same-body >= 80 2 / 1 / 0.3; L2 ends >= 50 3 / 1 / 0.6;
+L3 ends any score 5 / 2 / 0.9 (second winner York 15:45 2024 Secret Satire Venus: S Venus → J Venus RA 122.222 95.27, pair S Orcus –
+S Quaoar RA 122.222 59.34, S Quaoar → H Venus RA 100 20.14 and → J Venus Dec 13×φ 89.85; in-sample for BB43); L6 same-body >= 80, ends
+>= 50 5 / 1 / 0.8; L7 same-body any, ends >= 80 2 / 1 / 0.3; conj / cp ends allowed, unclosed loop, one end >= 90: Ring The Moon only.
