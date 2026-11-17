@@ -1468,3 +1468,13 @@ target 4 / 3 / 0.6 (Ishvara J Neptune 122.222, Secret Satire H Ceres 133.333, Ri
 U8 (17 Nov, from Eddie's Eydon cells) Regulus line on X >= 80, a Uranus line on its target, and the back-link S X → H / J Uranus in a
 number family: 4 / 3 / 0.7 (Ishvara Neptune, Eydon Jupiter S Jupiter → H Uranus Dec 9×φ 48.86, Ring The Moon Mercury won; Dubai Souq
 Neptune lost); U8a any Regulus score 15 / 3 / 2.6.
+
+
+## Jupiter–Jupiter on a sky number + BB68 split (Wincanton 14:20 21 Mar 2022 River Bray; Eddie, 17 Nov 2026 'this is what i like') - noted, not built
+River Bray: H Jupiter – J Jupiter RA 15.5478 ninth 15.5556 (75.05), the same target in the sky twice: S Sun – S Quaoar Dec 15.5562 (98.02),
+S Venus – S Pluto RA 15.5592 (88.26); and BB68 on Mars (S Mars → H Mars Dec 40.3566 = S Transpluto – S Mars 29.0384 φ⁷ 90.9 + S Transpluto →
+H Mars 11.3182 7×φ 75.11). tools/scans/bb_fieldcheck_riverbray.py, 26 result races (sky pair = not naming Jupiter, number family):
+J0 (H–J Jupiter >= 50 + a sky pair on its target) 6 / 1 / 0.8; J1 (2+ pairs) 3 / 1 / 0.3; J2 (a pair >= 90) 4 / 1 / 0.5; J3 (J1 + J2) 2 / 1 / 0.2
+(Quiet Resolve lost); J0any (any H–J score) 14 / 2 / 2.2; J1any (any score, 2+ pairs) 4 / 2 / 0.6 (Society Red 144.444 with 5 pairs, River Bray;
+Aviation Time, Quiet Resolve lost). With BB68: J0+B68 2 / 1 / 0.2 (Powerful Lady lost), J1+B68 = J3+B68 1 / 1, J0any+B68 5 / 2 / 1.0,
+J1any+B68 2 / 2 / 0.4 (Society Red - BB68's origin, in-sample - and River Bray). Chosen after the result.
