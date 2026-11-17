@@ -110,3 +110,5 @@
   S Orcus → J Sun RA 6.6711 6.66667 (66.48). O1 (one sky body on sky X both planes and on natal X both charts, all >= 40) 11 / 4 / 1.7 over 31
   result races (tools/scans/bb_fieldcheck_orcus_sun.py); with D1 only Arvico Bleu. D1 combinations: D1 + BB3 11 / 4 / 1.4, D1 + BB54 5 / 3 / 0.4
   (tools/scans/bb_combos_decade.py). Noted, not built.
+- Pallas: three royal stars on sky and natal Pallas (Fomalhaut, Antares, Regulus; also Finisk River); H Regulus – H Pallas 99×φ carried by
+  S Neptune – S Regulus with S Neptune conj H Pallas (99.47); all versions at or near chance (bb_fieldcheck_arvico_pallas.py). Noted, not built.

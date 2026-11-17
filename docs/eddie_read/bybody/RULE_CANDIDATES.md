@@ -1526,3 +1526,7 @@ Arvico Bleu Sun by Orcus (Eddie's lines, 17 Nov 2026; tools/scans/bb_fieldcheck_
 on natal X in both charts, all number families: O0 76 / 11 / 11.7; O1 (all four >= 40) 11 / 4 / 1.7 (Blue Collar Glory Vesta by Chiron, John Kirkup
 Venus by Quaoar, Man On A Mission Jupiter by Ketu, Arvico Bleu Sun by Orcus); O2 / O3 (Sun) 2 / 1 / 0.5, 1 / 1 / 0.2; O4 (Y also on the same-body
 target) 19 / 2 / 3.3. O1 with D1: 1 / 1 (Arvico Bleu); O1 or D1: 24 / 7 / 3.3. Noted, not built.
+Arvico Bleu Pallas (tools/scans/bb_fieldcheck_arvico_pallas.py, 31 races): royal line carried by a pair holding the same royal star, the pair's
+other end on natal X (PA0 109 / 22 / 17.3; conj end PA1 97 / 17 / 15.4; + the royal star on sky X PA2 40 / 10 / 5.9); 2+ royal stars on sky and
+natal X PB2 123 / 19 / 19.2, 3+ PB3 9 / 1 / 1.7 (Finisk River held the same three on Pallas in the same race and was last). Fomalhaut on Pallas
+11.111 / 22.222 / 33.333 is one fact plus geometry (the natal star is nearly fixed). All at or near chance; noted, not built.
