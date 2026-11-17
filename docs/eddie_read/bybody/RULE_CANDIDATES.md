@@ -1424,5 +1424,5 @@ Watch (Eddie, 16 Nov 2026: 'keep on watch'): K1d added to tools/scans/bb_watch_r
 - R11w (Regulus cut ratio on 11, >= 50): 19 / 5 / 3.0. Rules alone: BB2 42/7/6.3, BB3 118/21/18.0, BB6 35/8/5.3, BB14 35/7/5.5, BB23 26/7/3.8,
   BB28 36/4/5.2, BB35 26/4/3.8.
 - Best combinations (about 160 pairs and triples tried, chosen after the results): R11w + BB14 5 / 4 / 0.8 (Secret Satire, Society Red, Aldhaja,
-  Domandlouis; Secret Satire in-sample for BB14's... origin races not; R11w set on Aldhaja / Domandlouis); BB6 + BB35 4 / 3 / 0.4 (Ishvara,
+  Domandlouis; R11 was chosen after the Aldhaja and Domandlouis results, so partly in-sample); BB6 + BB35 4 / 3 / 0.4 (Ishvara,
   Perfect Part in-sample, Domandlouis); BB14 + BB23 6 / 3 / 1.0 (Society Red, Sullivan Bay, Domandlouis). Many triples 2 / 2 / 0.3.
