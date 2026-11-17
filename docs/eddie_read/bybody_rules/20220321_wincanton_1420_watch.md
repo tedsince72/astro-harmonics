@@ -61,3 +61,14 @@
 - Also 06 Electric Annie: BB77b (Gonggong, the same S Uranus – S Haumea carrier), depth 5 (Venus).
 - BB34 note: S Makemake is on both natal Ketu, S Sun on J Ketu only (checker).
 - Independent checker (own parser): 0 mismatches.
+
+## Result (Eddie, 17 Nov 2026)
+1 River Bray 22/1, 2 Guernesey 9/2 (hd), 3 Ballyblack 10/11F, 4 Birds Of Prey 10/1, 5 Electric Annie 9/2, 6 Reserve Tank 17/2.
+- Blind read: lead Guernesey 2nd by a head, second Birds Of Prey 4th. Miss.
+- River Bray: 8 rules (fewest but one), alone on BB1 (Ceres: H Fomalhaut – H Ceres Dec 56.6351 35×φ 87.84 carried by S Moon – S Quaoar RA
+  56.6021 (10.3)) and BB68 (Mars: S Mars → H Mars Dec 40.3566 = S Transpluto – S Mars 29.0384 φ⁷ (90.9) + S Transpluto → H Mars 11.3182 7×φ
+  (75.11)); also BB3, BB7, BB12 (Pallas H Antares 177.778 93.6), BB14, BB20, BB63; BB3 + BB63 (with Reserve Tank, Electric Annie); depth 3
+  (Quaoar). Watch B below 90: H Jupiter – J Jupiter RA 15.5478 ninth (75.05), the same number in the sky S Sun – S Quaoar Dec 15.5562 (98.02),
+  S Venus – S Pluto RA 15.5592 (88.26).
+- Over 26 result races with this one (picks / won / by chance): BB1 15 / 5 / 2.0, BB68 43 / 9 / 6.5, BB63 46 / 13 / 7.1, BB12 59 / 16 / 9.3;
+  BB77b 6 / 3 / 1.0 and BB77c 8 / 4 / 1.2 (both holders here lost: first race after it was built).
