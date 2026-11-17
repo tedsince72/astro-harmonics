@@ -1478,3 +1478,9 @@ J0 (H–J Jupiter >= 50 + a sky pair on its target) 6 / 1 / 0.8; J1 (2+ pairs) 3
 (Quiet Resolve lost); J0any (any H–J score) 14 / 2 / 2.2; J1any (any score, 2+ pairs) 4 / 2 / 0.6 (Society Red 144.444 with 5 pairs, River Bray;
 Aviation Time, Quiet Resolve lost). With BB68: J0+B68 2 / 1 / 0.2 (Powerful Lady lost), J1+B68 = J3+B68 1 / 1, J0any+B68 5 / 2 / 1.0,
 J1any+B68 2 / 2 / 0.4 (Society Red - BB68's origin, in-sample - and River Bray). Chosen after the result.
+Watch (Eddie, 17 Nov 2026, 'keep the 2 out of 2 on watch'): J1any+B68 in tools/scans/bb_watch_race.py.
+Combinations of River Bray's rules (tools/scans/bb_combos_riverbray.py, 26 result races; about 120 singles / pairs / triples tried):
+BB63 + BB68 10 / 6 / 1.4 (Pholas, Secret Satire, Diligent Resdev, Wotever Next, Athmad, River Bray; lost Magical Max, Fire Demon, Tricolore,
+Raise The Roof - held in 7 races, the winner among the holders in 6); BB3 + BB63 + BB68 8 / 6 / 1.1 (Magical Max, Raise The Roof drop out);
+BB1 + BB14 7 / 4 / 0.9; BB1 + BB14 + BB68 3 / 3 / 0.5 (Pholas, The Dunkirk Lads, River Bray); BB1 + BB12 + BB7 3 / 3 / 0.5 (Pholas, Eydon,
+River Bray); J1any + BB14 / BB20 / BB68 2 / 2 / 0.4 each (Society Red, River Bray). In-sample: Pholas (BB1-BB17), Athmad (BB63), Society Red (BB68).

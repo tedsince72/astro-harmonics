@@ -21,7 +21,11 @@
   results); cases scoring 50-90 listed too (19 / 5 / 3.0 at >= 50).
 - Same royal star in the sky pair (Eddie, 17 Nov 2026, from Newmarket 15:35 Eydon Jupiter; tools/scans/bb_fieldcheck_eydon.py): G0s is
   the watch item - a natal royal line R – X carried by a sky pair S Y – S R with the same royal star, both lines >= 90 (3 picks 2 won,
-  0.4 by chance over 23 result races: Diligent Resdev, Eydon); G1 / G2 / G2s tags shown on its cases."""
+  0.4 by chance over 23 result races: Diligent Resdev, Eydon); G1 / G2 / G2s tags shown on its cases.
+- Jupiter–Jupiter on a sky number + BB68 (Eddie, 17 Nov 2026, 'keep the 2 out of 2 on watch'; from Wincanton 14:20 2022 River Bray and Ripon
+  15:25 2022 Society Red; tools/scans/bb_fieldcheck_riverbray.py): J1any+B68 is the watch item - H Jupiter – J Jupiter in a number family
+  (any score) with 2 or more sky pairs (not naming Jupiter) on its target, and BB68 held (2 picks 2 won, 0.4 by chance over 26 result races;
+  Society Red is BB68's origin; chosen after the result); J1any without BB68 listed too."""
 import json, sys
 sys.path.insert(0, 'tools'); sys.path.insert(0, 'tools/scans')
 import eddie_bybody_rules as E
@@ -32,6 +36,7 @@ import bb_fieldcheck_royal_both as RB
 import bb_fieldcheck_hj_both as HB
 import bb_fieldcheck_royal_cut as RC
 import bb_fieldcheck_eydon as EY
+import bb_fieldcheck_riverbray as RBY
 
 race = sys.argv[1]
 data = E.load(f'docs/eddie_read/bybody/{race}/{race}_bybody.xlsx')
@@ -162,5 +167,14 @@ for run, bodies in data.items():
         tags = [k for k in ('G1', 'G2', 'G2s') if any(u.startswith(t) for u in cs.get(k, []))]
         ey.append(f"- {run} [G0s{' ' + ' '.join(tags) if tags else ''}]: {t}")
 out += ey or ['- none']
+out += ['', '## Jupiter–Jupiter on a sky number watch (River Bray, Society Red; J1any = H Jupiter – J Jupiter in a number family, any score, '
+        'with 2+ sky pairs on its target; J1any+B68 = and BB68 held)']
+b68 = {c['runner'] for c in J['rules']['BB68'] if not c['watch_only']}
+jj = []
+for run, bodies in data.items():
+    t, txt = RBY.tags(bodies, run in b68)
+    if 'J1any' in t:
+        jj.append(f"- {run} [{'J1any+B68' if 'J1any+B68' in t else 'J1any'}]: {txt}")
+out += jj or ['- none']
 txt = '\n'.join(out) + '\n'
 open(f'docs/eddie_read/bybody_rules/{race}_watch.md', 'w').write(txt); print(txt)
