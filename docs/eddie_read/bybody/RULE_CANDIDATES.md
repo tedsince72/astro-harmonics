@@ -1535,3 +1535,7 @@ natal X PB2 123 / 19 / 19.2, 3+ PB3 9 / 1 / 1.7 (Finisk River held the same thre
 P0 (S Pluto → H / J Pluto in a number family) 77 / 14 / 12.6; P50 45 / 8 / 7.7; P80 22 / 6 / 3.9 (Secret Satire, Blue Collar Glory, Eydon, Man On A
 Mission, Arvico Bleu, Wholestone); both planes one chart P2 5 / 1 / 0.9, both >= 50 P2_50 3 / 1 / 0.5 (Wholestone only). Control: any body both
 planes >= 50 X2_50 39 / 4 / 6.4 (below chance). Noted, not built.
+Same number, royal line and same-body line (Eddie, 17 Nov 2026, Wholestone H Fomalhaut – H Pluto RA 66.6744 (94.2) = S Pluto → J Pluto RA 66.6385
+(78.86); tools/scans/bb_fieldcheck_samenum.py, 32 races): N0 (a natal royal line on X and S X → natal X on the same family + target, any scores)
+16 / 5 / 2.6 (Novakai, The Dunkirk Lads, Little Girl Blue, Aldhaja, Wholestone); other chart N0x 9 / 2 / 1.5; both >= 50 N50 4 / 1 / 0.6, >= 70
+2 / 1 / 0.3 (Wholestone only; Passing Storm lost). Noted, not built.
