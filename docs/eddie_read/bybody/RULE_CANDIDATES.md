@@ -1457,3 +1457,11 @@ Looser versions (tools/scans/bb_fieldcheck_ringthemoon_loose.py, 24 result races
 L3 ends any score 5 / 2 / 0.9 (second winner York 15:45 2024 Secret Satire Venus: S Venus → J Venus RA 122.222 95.27, pair S Orcus –
 S Quaoar RA 122.222 59.34, S Quaoar → H Venus RA 100 20.14 and → J Venus Dec 13×φ 89.85; in-sample for BB43); L6 same-body >= 80, ends
 >= 50 5 / 1 / 0.8; L7 same-body any, ends >= 80 2 / 1 / 0.3; conj / cp ends allowed, unclosed loop, one end >= 90: Ring The Moon only.
+
+## Regulus – Uranus (Ring The Moon Mercury, Eydon Jupiter; Eddie, 17 Nov 2026 'the big one') - noted, not built
+Ring The Moon: H Regulus – H Mercury RA 122.2550 ninth 122.222 (86.6) with S Uranus → J Mercury RA 122.4221 on the same target (18.2);
+S Uranus → H Mercury RA 10 (42.2); S Mercury → H Uranus Dec 5×φ (40.2), → J Uranus Dec 19 (61.0). tools/scans/bb_fieldcheck_regulus_uranus.py,
+25 result races: U0 any royal line + sky body on natal X same target 148 / 23 / 23.4 (chance); U1 Regulus line + any Uranus line on target
+44 / 10 / 7.1; U2 mutual both charts 101 / 15 / 16.0; U3 U0 + U2 7 / 1 / 1.2; U5 Regulus line >= 80 with S Uranus → natal X on the same
+target 4 / 3 / 0.6 (Ishvara J Neptune 122.222, Secret Satire H Ceres 133.333, Ring The Moon H Mercury 122.222; On Point lost, Uranus line
+5.69); U6 Regulus >= 80 with any Uranus line (Eydon's pair form incl.) 10 / 4 / 1.5; U7 U5 at any Regulus score 8 / 4 / 1.2.
