@@ -99,3 +99,7 @@
   by S Y – S R, natal R – Y in a family) 40 / 8 / 6.6, Q1 (both >= 80) 3 / 1 / 0.4, Q2 / Q3 (Sun) 1 / 1 / 0.2 - Arvico Bleu only. His rules
   together: BB2 + BB3 + BB28 11 / 4 / 1.7 (On Time, Domandlouis, Daphne Moon, Arvico Bleu; only holder here), BB2 + BB28 14 / 4 / 2.2.
   Noted, not built.
+- Decade echo (Eddie, 17 Nov 2026: 'and that is 10 * J Aldebaran Sun 4.4'): S Transpluto – S Sun RA 44.4467 (97.51) = 10 x J Aldebaran – J Sun Dec
+  4.4380 4.44444 (27.16), that royal line carried by S Rahu – S Ceres Dec 4.4445 (99.65). tools/scans/bb_fieldcheck_decade.py (31 result races):
+  D0 (royal line on X and a sky line naming sky X on the same digits a decade apart) 98 / 17 / 15.4; D1 (sky line >= 90) 14 / 4 / 1.9 (Perfect
+  Part, Diligent Resdev, Whitefeathersfall, Arvico Bleu); D2 (+ the royal line carried by a pair) 9 / 1 / 1.3; D3 (Sun) 1 / 1 / 0.2. Noted, not built.

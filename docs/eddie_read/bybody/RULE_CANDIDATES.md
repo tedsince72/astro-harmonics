@@ -1516,3 +1516,6 @@ N3d (two targets on the same digits) 1 / 1 / 0.2 (Silva Eclipse only). Noted, no
 ## Arvico Bleu Sun (Carlisle 13:55 14 Oct 2021; tools/scans/bb_fieldcheck_arvico.py; noted, not built)
 Same-body line carried by a royal-star sky pair S Y – S R, with natal R – Y in a family: Q0 40 / 8 / 6.6; Q1 (both >= 80) 3 / 1 / 0.4;
 Sun only Q2 / Q3 1 / 1 / 0.2 (Arvico Bleu only). Combination BB2 + BB3 + BB28 11 / 4 / 1.7 (On Time, Domandlouis, Daphne Moon, Arvico Bleu).
+Arvico Bleu decade echo (tools/scans/bb_fieldcheck_decade.py): a royal natal line on X and a sky line S Y – S X on the same digits a decade apart;
+D0 98 / 17 / 15.4; D1 (sky line >= 90) 14 / 4 / 1.9 (Perfect Part Chiron 60×φ / 6×φ, Diligent Resdev Jupiter 70.7 / 7.07, Whitefeathersfall Mars
+122.222 / 12.2222, Arvico Bleu Sun 44.444 / 4.444); D2 (+ carried) 9 / 1 / 1.3. Noted, not built (chosen after the result).
