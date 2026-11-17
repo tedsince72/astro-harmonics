@@ -77,6 +77,9 @@
 ## Natal pairs watch (17 Nov 2026; H Pallas – Juno >= 90, any sky; H Ceres – Orcus, Uranus – Vesta, Mercury – Rahu >= 80 with a sky line on the same number; royal: J Antares – Rahu, H Antares – Quaoar, J Antares – Orcus >= 80 with a sky line on the same number; BB83 Venus – Uranus is a rule)
 - 03 Anna Bunina [Mercury – Rahu]: H Mercury – H Rahu Dec 19.4160 12×φ golden (98.8) = S Gonggong – S Sedna Dec 19.4180
 
+## Jupiter both charts with a sky pair watch (Miss Heritage, On Time; 17 Nov 2026, Eddie "on a watch list for now"; JC = S Jupiter → H Jupiter and S Jupiter → J Jupiter both in a number family, any plane / score, and a sky pair S Jupiter – S Y on the same family + target as one of them; 2 / 2 / 0.5 over 33 result races, chosen after the results; tools/scans/bb_fieldcheck_heritage.py)
+- 05 Miss Heritage [JC]: S Jupiter → H Jupiter Dec 33.2798 33.3333 ninth (19.73) / S Jupiter → J Jupiter RA 77.7093 77.7778 ninth (55.97); carried: S Jupiter – S Ceres RA 77.7421 on S Jupiter → J Jupiter RA 77.7778
+
 ## Watch B / Jupiter split
 - Watch B (H Jupiter – J Jupiter >= 90): 01 Miranda RA 118.1171 73×φ golden (98.2) [A B]; 04 Dazzling Glory Dec 4.8749 3×φ (35.88) [A C F, = S Venus – S Gonggong Dec 4.8371 (47.57)] and 05 Miss Heritage Dec 46.0137 46 (31.52) [A C], under 90.
 - Jupiter split: M1 05 Miss Heritage RA: S Jup→J Jup 77.7093 / S Jup–S Ceres 77.7421 on 77.7778 ninth, S Ceres→J Jup 155.4514. E / Es / Ef / M2 / M3 none.

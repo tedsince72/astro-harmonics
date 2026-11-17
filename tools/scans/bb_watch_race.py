@@ -9,6 +9,7 @@
   combinations'; tools/scans/bb_combos_silva.py, chosen after the result): BB10 + BB7 + BB9, BB10 + BB23 + BB7, BB2 + BB23 + BB7,
   BB10 + BB2 + BB9, BB10 + BB23 + BB9, BB23 + BB7 + BB9, BB10 + BB60; from Nelson River (Eddie,
   17 Nov 2026; tools/scans/bb_combos_q2.py): BB82 + BB54, BB82 + BB9
+- Jupiter both charts with a sky pair (JC, Miss Heritage / On Time, 17 Nov 2026; tools/scans/bb_fieldcheck_heritage.py)
 - P4 (Athmad Pluto loop; tools/scans/bb_fieldcheck_same_body_loop_closed.py) and its looser P1-P3
 - S Pluto -> H Pluto / J Pluto scoring (any family, conj / cp not counted).
 - Jupiter loop C (Eddie, 16 Nov 2026, from Cafe Sydney; tools/scans/bb_fieldcheck_jupiter_loop.py): S Jupiter -> c Jupiter, a sky
@@ -231,5 +232,21 @@ if os.path.exists(f'reference/classic/race_batch_{race}_active.xlsx'):
 else:
     npw.append('- no _active.xlsx for this race')
 out += npw or ['- none']
+import bb_fieldcheck_heritage as HER
+out += ['', '## Jupiter both charts with a sky pair watch (Miss Heritage, On Time; 17 Nov 2026, Eddie "on a watch list for now"; JC = S Jupiter → '
+        'H Jupiter and S Jupiter → J Jupiter both in a number family, any plane / score, and a sky pair S Jupiter – S Y on the same family + '
+        'target as one of them; 2 / 2 / 0.5 over 33 result races, chosen after the results; tools/scans/bb_fieldcheck_heritage.py)']
+jc = []
+for run, D in data.items():
+    o = HER.runner(D)
+    if o['JC']:
+        seen = []
+        for t in o['JC']:
+            k = t.split(' RA ')[-1] if ' RA ' in t else t.split(' Dec ')[-1]
+            if k not in seen: seen.append(k)
+        jc.append(f"- {run} [JC]: {o['JJ'][0]}; carried: " + '; '.join(dict.fromkeys(t.replace('S Ceres – S Jupiter', 'S Jupiter – S Ceres') for t in o['JC'])))
+    elif o['JJ']:
+        jc.append(f"- {run} [JJ only]: {o['JJ'][0]}")
+out += jc or ['- none']
 txt = '\n'.join(out) + '\n'
 open(f'docs/eddie_read/bybody_rules/{race}_watch.md', 'w').write(txt); print(txt)
