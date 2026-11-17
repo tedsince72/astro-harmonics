@@ -73,3 +73,12 @@
 - Second: 05 Sir Apollo (BB63 + BB68 Venus split by Neptune 51.23 + 91.21, BB73, depth 5, Jupiter loop A).
 - No BB68b holder.
 - Independent checker (17 Nov 2026, own parser): runners, counts and alone lists, Vocaliser cells (H – J Jupiter Dec 11.825193 − 8.588855 = 3.236338), BB3 / BB54 / BB63 / BB67 / BB68 / BB68b / BB75 holders re-derived, depth step 5: 0 mismatches.
+
+## Result (from Eddie, 17 Nov 2026)
+1 Peak Time 16/1, 2 Sir Apollo 100/30 (1½ l), 3 Thundersockssundae 4/1, 4 Black Opium 50/1, 5 Vocaliser 18/1 (tailed off), F Edmond Dantes 5/6F (fell 3 out, going easily). 6 ran; NR Mymilan.
+- Miss: lead Vocaliser (18 rules, lead 7, Watch B, BB75, BB67) 5th tailed off; second Sir Apollo 2nd. Rule-count lead of 7 lost (lead >= 5 now 12 races, 10 won).
+- Winner 03 Peak Time: fewest rules (5: BB3 Pluto, BB10, BB16, BB35, BB60 Transpluto alone); depth 3 (Quaoar); P1 watch, R11w Juno.
+  Cells seen: Ceres in both charts by the same sky pair - S Ceres → H Ceres Dec 6.008907 6 (55.47) and S Makemake → H Ceres Dec 5.993894 6 (69.47);
+  S Ceres → J Ceres Dec 4.002709 4 (86.45) and S Makemake → J Ceres Dec 4.017721 4 (11.4); S Makemake – S Ceres Dec conj 0.015013 (95) (cf. Wotever Next Ceres carriers sharing Makemake, C1-C3 noted 15 Nov).
+  Orcus: S Antares – S Orcus Dec 14.452898 ninth (70.74), S Regulus – S Orcus Dec cp (95.47) - two royal stars on sky Orcus.
+  Transpluto (BB60): H Fomalhaut – H Transpluto RA 166.980188 ninth carried by S Jupiter – S Transpluto RA 166.955313 and S Gonggong → J Transpluto RA 166.872943.
