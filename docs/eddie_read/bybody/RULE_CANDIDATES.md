@@ -1436,3 +1436,14 @@ Watch (Eddie, 16 Nov 2026: 'keep on watch'): K1d added to tools/scans/bb_watch_r
 - Sun: S0 = same-body line + a sky body on the other chart's X on the same target 43 / 11 / 7.0; S1 (that line >= 90) 5 / 1 / 1.0;
   S2 / S3 (+ the body on both natal X) Daphne Moon only.
 - Built 17 Nov 2026 (Eddie, 'build H0'): H0 = BB75. H1-H4 and the Sun shape left as notes.
+
+## Eydon Jupiter (Newmarket 15:35 14 Apr 2022; Eddie, 17 Nov 2026) - noted, not built
+H Regulus – H Jupiter RA 111.1022 ninth 111.111 (95.99) carried by S Uranus – S Regulus RA 111.1257 (93.43) - the same royal star in the sky
+pair; S Jupiter → H Uranus Dec 14.5457 9×φ (48.86); lights on sky Jupiter: S Moon – S Jupiter Dec 7.9996 8 (97.8), S Sun – S Jupiter RA
+27.5089 17×φ (92.7). tools/scans/bb_fieldcheck_eydon.py, 23 result races (picks / won / by chance):
+- G0 royal line carried by a sky pair with the same royal star: 113 / 18 / 17.2 (chance)
+- G0s G0, both lines >= 90: 3 / 2 / 0.4 (Diligent Resdev Mercury 141.4, Eydon; Foinix lost)
+- G1 G0 + sky X onto natal Y: 72 / 12 / 10.9
+- G2 G1 + Sun or Moon line on sky X: 30 / 7 / 4.6 (Wotever Next, Novakai, Whitefeathersfall, Society Red, The Dunkirk Lads, Blue Collar Glory, Eydon)
+- G2s G2 with the light >= 90: 1 / 1 / 0.2 (Eydon only)
+- G3 G0 + a light: 58 / 11 / 8.9
