@@ -1,0 +1,83 @@
+# Cell-level negatives, score >= 80, 35 result races
+
+## Features with no winner (picks >= 8, by chance >= 1.5): 117
+- H Regulus – H Gonggong: 22 / 0 / 3.5
+- S Moon → H Sedna: 19 / 0 / 3.3
+- J Regulus – J Uranus: 17 / 0 / 3.1
+- H Neptune – J Neptune: 17 / 0 / 3.1
+- S Quaoar → H Juno: 16 / 0 / 2.7
+- S Neptune → H Neptune: 15 / 0 / 2.7
+- H Antares – H Ketu: 16 / 0 / 2.6
+- J Regulus – J Pluto: 15 / 0 / 2.6
+- H Ketu – J Ketu: 15 / 0 / 2.6
+- H Rahu – J Rahu: 15 / 0 / 2.6
+- S Ketu → J Ketu: 14 / 0 / 2.5
+- S Rahu → J Rahu: 14 / 0 / 2.5
+- S Juno → J Mercury: 15 / 0 / 2.5
+- S Gonggong → J Eris: 15 / 0 / 2.5
+- H Aldebaran – H Makemake: 13 / 0 / 2.5
+- S Orcus → J Mercury: 14 / 0 / 2.5
+- S Sedna → J Uranus: 13 / 0 / 2.5
+- S Jupiter → H Mars: 13 / 0 / 2.5
+- S Vesta → H Haumea: 14 / 0 / 2.5
+- S Saturn → J Ceres: 14 / 0 / 2.4
+- S Haumea → J Ketu: 14 / 0 / 2.4
+- S Transpluto → J Vesta: 14 / 0 / 2.4
+- S Pallas → H Haumea: 15 / 0 / 2.4
+- S Pallas → J Jupiter: 14 / 0 / 2.4
+- S Quaoar → J Sedna: 14 / 0 / 2.3
+- S Pluto → H Juno: 14 / 0 / 2.3
+- S Pallas → J Mercury: 14 / 0 / 2.3
+- S Chiron → H Neptune: 13 / 0 / 2.3
+- S Ketu → J Orcus: 13 / 0 / 2.3
+- S Rahu → H Makemake: 14 / 0 / 2.3
+- S Vesta → J Gonggong: 13 / 0 / 2.3
+- S Mercury → H Orcus: 12 / 0 / 2.2
+- S Pallas → J Sun: 12 / 0 / 2.2
+- S Sun → J Gonggong: 14 / 0 / 2.2
+- S Venus → H Pallas: 13 / 0 / 2.2
+- S Mercury → H Makemake: 13 / 0 / 2.2
+- S Eris → H Orcus: 13 / 0 / 2.2
+- S Mercury → J Haumea: 12 / 0 / 2.1
+- J Antares – J Uranus: 12 / 0 / 2.1
+- S Pluto → H Ceres: 12 / 0 / 2.1
+
+(a) random winners: median 94, 95th percentile 110, max 122; real 117
+
+(b) leave one race out
+- 20210402_lingfield_aw_1435 05 Pholas: 01 Arafi 8; 02 Fizzy Feet 7; 03 Indie Angel 5; 04 Nirodha 10; 05 Pholas 5; 06 Shimmering Dawn 8
+- 20200608_haydock_1345 07 Ishvara: 01 Magical Max 6; 02 Ventura Flame 3; 03 Never In Paris 7; 04 Royal Context 10; 05 My Friend Stan 10; 06 Birkenhead 13; 07 Ishvara 8; 08 Dancin Inthestreet 1; 09 Garsman 6; 11 Mews House 11
+- 20240608_beverley_1405 15 Perfect Part: 01 Aviation Time 7; 02 Brazilian Belle 7; 03 Call Me Harswell 7; 04 Invincible Annice 8; 07 Mademoiselle 3; 08 Maw Lam 9; 09 Nad Alshiba Snow 6; 10 Over Spiced 5; 11 Powerful Lady 6; 12 Sands Of Dubai 6; 13 Storm Call 5; 14 Havana White 3; 15 Perfect Part 6
+- 20240515_york_1545 06 Secret Satire: 01 Classical Song 6; 02 Francophone 6; 03 Friendly Soul 5; 04 La Pasionaria 4; 05 Mayfair 4; 06 Secret Satire 3; 07 Sinology 6
+- 20220406_catterick_1440 05 Wotever Next: 01 Tea Garden 9; 02 Beluga Gold 5; 03 Capuchinero 8; 04 Thakuri 10; 05 Wotever Next 5
+- 20231006_fontwell_1530 03 Kilcummin: 01 Biscoff Joe 6; 02 Cosmic View 3; 03 Kilcummin 4; 04 Logistical 4; 05 Makanao 12; 06 Pigeonton 8; 07 Vale Dolobo Dancer 13
+- 20210802_newcastle_aw_1633 02 Athmad: 01 Dubai Souq 6; 02 Athmad 4; 03 Raise The Roof 8; 04 Beating All 10; 05 Pallas Dancer 7; 06 Tricolore 10
+- 20220717_newton_abbot_1525 04 On Time: 01 Grageelagh Girl 12; 02 My Lady Grey 3; 03 Cresswell Queen 12; 04 On Time 3
+- 20220716_doncaster_1845 05 Novakai: 01 Crackovia 9; 02 Bella Kopella 3; 03 Gilded Moon 15; 04 Mother India 12; 05 Novakai 7; 06 Passing Storm 5
+- 20220712_bath_1530 03 Cafe Sydney: 01 Charlie's Yard 5; 02 It's How We Roll 4; 03 Cafe Sydney 3; 05 Overstate 8
+- 20220707_carlisle_1630 06 Whitefeathersfall: 01 Aswan 7; 02 Million Thanks 4; 04 Persist 5; 06 Whitefeathersfall 7; 07 Noble Mark 6; 08 Lucia Joy 7
+- 20220616_ripon_1525 04 Society Red: 01 Bollin Joan 9; 02 Commonsensical 10; 03 Urban War 8; 04 Society Red 9
+- 20220613_nottingham_1750 02 The Dunkirk Lads: 01 Applaud Now 6; 02 The Dunkirk Lads 5; 03 Gidwa 7; 04 Miss Britain 11; 05 Glory Hallelujah 8; 06 Baileys Liberty 2
+- 20240118_chelmsford_aw_1320 02 Sullivan Bay: 01 This Ones For Fred 6; 02 Sullivan Bay 5; 03 Good Time Ahead 5; 04 New York Bay 8; 05 Reset Button 6; 06 Foinix 13; 07 Buford 7; 08 Duveen 9
+- 20220603_bath_1750 05 Little Girl Blue: 01 Between The Sheets 3; 03 Hattie C 8; 05 Little Girl Blue 6; 07 Soi Dao 11
+- 20220601_nottingham_1530 02 Dynamic Force: 02 Dynamic Force 5; 03 Princess Shabnam 4; 04 Ballet Steps 7; 05 Swayze 6; 06 Silky Wilkie 7
+- 20220510_sedgefield_1500 01 Blue Collar Glory: 01 Blue Collar Glory 6; 02 Bright Sunbird 8; 03 Emorelle 5; 04 Wheres Maud Gone 10; 05 Mrs Paisley 9
+- 20220509_musselburgh_1550 03 John Kirkup: 01 The Thin Blue Line 9; 02 Primo's Comet 4; 03 John Kirkup 7; 04 Albegone 6; 05 Rose Bandit 11; 06 Rory 9
+- 20220507_haydock_1718 06 Aldhaja: 01 Oh Herberts Reign 4; 02 Mystery Fox 4; 05 Out From Under 5; 06 Aldhaja 3; 07 Stevenson 7
+- 20220504_kelso_1450 04 Domandlouis: 01 Bravo Team 7; 02 Charlie Uberalles 4; 03 Curley Finger 9; 04 Domandlouis 3; 06 Spanish Present 6; 07 Divas Doyen 4
+- 20220420_perth_1610 05 Daphne Moon: 01 Pink Legend 5; 02 Zambella 6; 03 Another Theatre 8; 04 Calle Malva 4; 05 Daphne Moon 6
+- 20220414_newmarket_1535 04 Eydon: 01 Austrian Theory 8; 02 Cresta 6; 03 Dawn Of Liberation 8; 04 Eydon 4; 05 Masekela 8; 06 Sonny Liston 8
+- 20220406_lingfield_aw_1425 05 Man On A Mission: 01 Judy's Park 9; 02 Bang On The Bell 5; 03 Jaas Yard 8; 04 Vintage Fashion 9; 05 Man On A Mission 5; 06 Brazen Idol 6
+- 20220323_ffos_las_1725 04 Ring The Moon: 02 You Say Nothing 5; 03 Time Leader 13; 04 Ring The Moon 7; 06 Yourholidayisover 9
+- 20220321_wincanton_1420 04 River Bray: 01 Reserve Tank 3; 02 Guernesey 2; 03 Ballyblack 9; 04 River Bray 5; 05 Birds Of Prey 7; 06 Electric Annie 7
+- 20220318_wolverhampton_aw_2030 06 Busby: 01 Arcadian Nights 7; 02 Coase 5; 03 Le Reveur 6; 04 Stopnsearch 8; 05 Star Of St James 1; 06 Busby 4; 07 Amsby 9
+- 20220318_doncaster_1440 02 Olympe De Gouges: 01 Fiamette 9; 02 Olympe De Gouges 6; 03 Oot Ma Way 4; 04 Poetria 7; 06 Suntory Star 9
+- 20220311_newcastle_1540 03 Peak Time: 01 Vocaliser 5; 02 Edmond Dantes 4; 03 Peak Time 4; 05 Sir Apollo 9; 06 Thundersockssundae 6; 07 Black Opium 8
+- 20220223_doncaster_1600 06 Silva Eclipse: 01 Boss Man Fred 10; 02 Mister Watson 10; 03 Gredin 7; 04 Mr Washington 10; 05 Half Track 10; 06 Silva Eclipse 8
+- 20211014_carlisle_1355 01 Arvico Bleu: 01 Arvico Bleu 7; 03 Slanelough 4; 04 Gold Des Bois 8; 05 Finisk River 6; 06 If Not For Dylan 3
+- 20220219_haydock_1405 05 Wholestone: 01 Third Wind 2; 02 Thomas Darby 11; 03 Emitom 6; 04 Top Ville Ben 11; 05 Wholestone 2; 06 Molly Ollys Wishes 5
+- 20220215_newcastle_aw_1640 01 Sir Chauvelin: 01 Sir Chauvelin 7; 02 Alba Rose 5; 03 Wise Eagle 9; 04 Onesmoothoperator 4; 05 Aced It 5; 06 Resumption 7
+- 20220129_doncaster_1410 05 Miss Heritage: 01 Miranda 5; 02 Western Victory 5; 03 Anna Bunina 6; 04 Dazzling Glory 8; 05 Miss Heritage 1
+- 20220123_lingfield_1500 07 Two For Gold: 01 Bristol De Mai 10; 02 Dashel Drasher 7; 03 Master Tommytucker 7; 05 Itchy Feet 8; 06 Lieutenant Rocco 7; 07 Two For Gold 9
+- 20220105_ffos_las_1420 06 New Age Dawning: 01 Gustavian 5; 03 Emir Sacree 7; 06 New Age Dawning 4
+  winner among the fewest: 15 of 35, 8.1 by chance; among the most: 1, 9.2; no negative: 0 picks / 0 won / 0.0
