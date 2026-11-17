@@ -1512,3 +1512,7 @@ Silva Eclipse Makemake run of ninths (Aldebaran 122.222 H / 111.111 J, H–J 11.
 the H–J line mostly geometry): N2 (same royal star on natal X both charts, both ninths) 56 / 8 / 8.9; N2s (both >= 70) 6 / 1 / 0.7;
 N3 (+ H–J ninth) 7 / 2 / 1.2 (Whitefeathersfall, Silva Eclipse); N3s (all >= 70) 2 / 1 / 0.3 (Good Time Ahead 13.333 / 8.889 / 4.444 lost);
 N3d (two targets on the same digits) 1 / 1 / 0.2 (Silva Eclipse only). Noted, not built.
+
+## Arvico Bleu Sun (Carlisle 13:55 14 Oct 2021; tools/scans/bb_fieldcheck_arvico.py; noted, not built)
+Same-body line carried by a royal-star sky pair S Y – S R, with natal R – Y in a family: Q0 40 / 8 / 6.6; Q1 (both >= 80) 3 / 1 / 0.4;
+Sun only Q2 / Q3 1 / 1 / 0.2 (Arvico Bleu only). Combination BB2 + BB3 + BB28 11 / 4 / 1.7 (On Time, Domandlouis, Daphne Moon, Arvico Bleu).

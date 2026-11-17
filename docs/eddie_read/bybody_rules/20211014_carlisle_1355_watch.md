@@ -88,3 +88,14 @@
 - Lead: 04 Gold Des Bois (the rarest watched items together: BB73, J1any+B68, R11, Jupiter split). Second: 05 Finisk River (most rules,
   BB63 + BB68, deepest). Close between the two.
 - Independent checker (blind, own parser): counts, alone lists, Jupiter lines and field, R11 field, BB73 / BB68 / BB63, depth: 0 mismatches.
+
+## Result (from Eddie, 17 Nov 2026)
+1 Arvico Bleu 25/1, 2 Gold Des Bois Evens F (lead), 3 Slanelough 4/1, 4 If Not For Dylan 11/1, 5 Finisk River 5/2 (second). 5 ran; NR Fusain.
+- Miss: lead 2nd, second last. Winner Arvico Bleu: the fewest rules (3: BB2, BB3, BB28; alone on BB28), depth 2 (Quaoar); mirror watch M1 /
+  M2 / M5 on H Quaoar 90.66 (also If Not For Dylan 90.62, Slanelough 85.38); S Pluto → J Pluto RA 37×φ 97.48.
+- Arvico Bleu after the result: Sun carried by a royal pair - S Sun → H Sun Dec 22.2287 ninth (85.42) carried by S Pallas – S Fomalhaut Dec
+  22.1942 (36.92), with Fomalhaut on natal Pallas H Fomalhaut – H Pallas Dec 33.3254 33.3333 (88.05); the same pair also on J Aldebaran – J Pluto
+  Dec 22.2017 (53.91); S Transpluto – S Sun RA 44.4467 (97.51). tools/scans/bb_fieldcheck_arvico.py (31 result races): Q0 (same-body line carried
+  by S Y – S R, natal R – Y in a family) 40 / 8 / 6.6, Q1 (both >= 80) 3 / 1 / 0.4, Q2 / Q3 (Sun) 1 / 1 / 0.2 - Arvico Bleu only. His rules
+  together: BB2 + BB3 + BB28 11 / 4 / 1.7 (On Time, Domandlouis, Daphne Moon, Arvico Bleu; only holder here), BB2 + BB28 14 / 4 / 2.2.
+  Noted, not built.
