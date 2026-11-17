@@ -1416,3 +1416,13 @@ Watch (Eddie, 16 Nov 2026: 'keep on watch'): K1d added to tools/scans/bb_watch_r
   chance (Secret Satire Chiron, Cafe Sydney Ketu, Aldhaja Rahu); >= 50 19 / 5 / 3.0 (+ Society Red, Domandlouis Jupiter 58.65); any royal
   star on 11 >= 90 19 / 5 / 2.8; Regulus on any 10-20 >= 90 34 / 8 / 5.4. Chosen after the two results. In bb_watch_race.py (R11 >= 90,
   R11w 50-90); build when a later winner holds R11.
+
+## Domandlouis field checks (17 Nov 2026; Kelso 14:50 4 May 2022; tools/scans/bb_fieldcheck_domandlouis.py; 21 result races; noted, not built)
+- F1 (the same royal star on X in the sky and a natal chart, same plane, both in a family >= 90): 8 picks 1 won, 1.1 by chance. F1 on 2+ bodies
+  (Domandlouis Fomalhaut on Mercury RA and Jupiter Dec): Domandlouis only, 1 / 1 / 0.2 (one winner).
+- F2 (a royal sky line >= 90 on the same family + target as an S Y -> natal Z line >= 90; the 47×φ echo): 48 / 3 / 6.0, at chance.
+- R11w (Regulus cut ratio on 11, >= 50): 19 / 5 / 3.0. Rules alone: BB2 42/7/6.3, BB3 118/21/18.0, BB6 35/8/5.3, BB14 35/7/5.5, BB23 26/7/3.8,
+  BB28 36/4/5.2, BB35 26/4/3.8.
+- Best combinations (about 160 pairs and triples tried, chosen after the results): R11w + BB14 5 / 4 / 0.8 (Secret Satire, Society Red, Aldhaja,
+  Domandlouis; Secret Satire in-sample for BB14's... origin races not; R11w set on Aldhaja / Domandlouis); BB6 + BB35 4 / 3 / 0.4 (Ishvara,
+  Perfect Part in-sample, Domandlouis); BB14 + BB23 6 / 3 / 1.0 (Society Red, Sullivan Bay, Domandlouis). Many triples 2 / 2 / 0.3.
