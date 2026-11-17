@@ -1447,3 +1447,9 @@ pair; S Jupiter → H Uranus Dec 14.5457 9×φ (48.86); lights on sky Jupiter: S
 - G2 G1 + Sun or Moon line on sky X: 30 / 7 / 4.6 (Wotever Next, Novakai, Whitefeathersfall, Society Red, The Dunkirk Lads, Blue Collar Glory, Eydon)
 - G2s G2 with the light >= 90: 1 / 1 / 0.2 (Eydon only)
 - G3 G0 + a light: 58 / 11 / 8.9
+
+## Ring The Moon (Ffos Las 17:25 23 Mar 2022, won 28/1; 17 Nov 2026) - noted, not built
+tools/scans/bb_fieldcheck_ringthemoon.py (24 result races with a depth json; Chelmsford 2024 has none): J1 = a closed loop whose
+same-body line >= 90 and one pair end on both natal X >= 80 (Juno: S Juno → H Juno RA 4×φ 96, pair S Mercury – S Gonggong Dec 4×φ,
+S Mercury → H Juno RA 41.4 98.41, → J Juno RA 177.778 83.74) 1 / 1 / 0.2 (one winner); T2 one pair closing two loops 6 / 1 / 0.9;
+T1 most bodies at depth 3+ alone 15 / 1 / 2.5.
