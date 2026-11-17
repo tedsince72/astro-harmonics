@@ -1410,3 +1410,9 @@ Watch (Eddie, 16 Nov 2026: 'keep on watch'): K1d added to tools/scans/bb_watch_r
 - tools/scans/bb_fieldcheck_royal_cut.py over 20 result races: W0 cut ratio >= 90 100 / 19 / 15.0 (common, at chance); W0s line scoring
   25 / 6 / 3.6; W2 + same star other plane carried by a sky pair >= 90: 4 / 1 / 0.6 (Quiet Resolve, Bella Kopella, Mrs Paisley lost);
   W3 + same star on X in the other chart: 39 / 8 / 5.3; W4 = W2 + W3: Aldhaja only, 1 / 1 / 0.2. One winner - noted.
+
+## Regulus on 11 - WATCH (Eddie, 17 Nov 2026, 'keep this'; Haydock 17:18 Aldhaja, Kelso 14:50 Domandlouis)
+- A Regulus natal line to X whose same-body or crossed ratio is on 11 ('11 1/11 cut'). Over 21 result races: >= 90 6 picks 3 won, 1.0 by
+  chance (Secret Satire Chiron, Cafe Sydney Ketu, Aldhaja Rahu); >= 50 19 / 5 / 3.0 (+ Society Red, Domandlouis Jupiter 58.65); any royal
+  star on 11 >= 90 19 / 5 / 2.8; Regulus on any 10-20 >= 90 34 / 8 / 5.4. Chosen after the two results. In bb_watch_race.py (R11 >= 90,
+  R11w 50-90); build when a later winner holds R11.

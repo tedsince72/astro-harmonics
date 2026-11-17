@@ -14,7 +14,11 @@
 - Royal star on both natal X (Eddie, 16 Nov 2026, from Dynamic Force Jupiter Antares; tools/scans/bb_fieldcheck_royal_both.py): A2 is the
   watch item (1 pick 1 won over 17 result races); A1 cases listed too.
 - One sky body on both natal X (Eddie, 16 Nov 2026, from Blue Collar Glory Venus / Ketu; tools/scans/bb_fieldcheck_hj_both.py): K1d is
-  the watch item (H X – J X in Dec >= 90, a sky body on H X and J X >= 90; 5 picks 2 won over 18 result races); K1 / K2 tags shown."""
+  the watch item (H X – J X in Dec >= 90, a sky body on H X and J X >= 90; 5 picks 2 won over 18 result races); K1 / K2 tags shown.
+- Regulus on 11 (Eddie, 17 Nov 2026, 'keep this'; from Haydock 17:18 Aldhaja Rahu and Kelso 14:50 Domandlouis Jupiter;
+  tools/scans/bb_fieldcheck_royal_cut.py): a Regulus natal line to X whose same-body or crossed ratio is on '11 1/11 cut' scoring
+  >= 90 is the watch item (6 picks 3 won, 1.0 by chance over 21 result races: Secret Satire, Cafe Sydney, Aldhaja; chosen after the
+  results); cases scoring 50-90 listed too (19 / 5 / 3.0 at >= 50)."""
 import json, sys
 sys.path.insert(0, 'tools'); sys.path.insert(0, 'tools/scans')
 import eddie_bybody_rules as E
@@ -23,6 +27,7 @@ import bb_fieldcheck_jupiter_loop as JL
 import bb_fieldcheck_mirror as MR
 import bb_fieldcheck_royal_both as RB
 import bb_fieldcheck_hj_both as HB
+import bb_fieldcheck_royal_cut as RC
 
 race = sys.argv[1]
 data = E.load(f'docs/eddie_read/bybody/{race}/{race}_bybody.xlsx')
@@ -128,5 +133,21 @@ for run, bodies in data.items():
             if 'K1' in t:
                 hb.append(f"- {run} {X} [{' '.join(sorted(t))}]: {s_}")
 out += hb or ['- none']
+out += ['', '## Regulus on 11 watch (Aldhaja Rahu, Domandlouis Jupiter; R11 = a Regulus natal line with a same-body or crossed ratio on '
+        '11 scoring >= 90; R11w = 50-90)']
+r11 = []
+for run, bodies in data.items():
+    for X, d in bodies.items():
+        for x in d['L']:
+            if not x['line'].startswith(('H Regulus – ', 'J Regulus – ')):
+                continue
+            for kind, t, sc, base in (('same-body', x['rt'], x['rs'], x['sb'] and f"{x['sb']} {x['plane']}"), ('crossed', x['xt'], x['xs'], x['xb'])):
+                m = RC.CUT.match(str(t or ''))
+                if m and m.group(1) == '11' and sc is not None and sc >= 50:
+                    tag = 'R11' if sc >= 90 else 'R11w'
+                    fam = f"{x['tgt']} {x['fam']} ({x['sc']})" if x['fam'] else '(no family)'
+                    r11.append((-sc, f"- {run} {X} [{tag}]: {x['line']} {x['plane']} {x['v']:.6f} {fam}; {kind} ratio vs {base} = "
+                                     f"{(x['r'] if kind == 'same-body' else x['xr']):.6f} {t} ({sc})"))
+out += [t for _, t in sorted(r11)] or ['- none']
 txt = '\n'.join(out) + '\n'
 open(f'docs/eddie_read/bybody_rules/{race}_watch.md', 'w').write(txt); print(txt)
