@@ -95,3 +95,11 @@
   S Pluto – S Regulus and S Quaoar – S Sedna on it); BB66, BB75. Nets: pair tally 3 / 10, sky-on-natal >= 80 −6 (the field's worst).
 - Also: 05 Rabat alone on BB68b, BB8, BB43, best sky-on-natal >= 90 net (+2), J Antares – Rahu 96.0 with sky pairs on it; 03 Heart Throb
   13 rules, the only BB10 + BB7 + BB9 holder (Greaneteen's combination; lost under T2). No BB84 / BB84b, no O1 + same-body holder.
+
+## Result (Eddie, 18 Nov 2026)
+1 Heart Throb 9/1, 2 Rabat EvensF, 3 Silver Bubble 11/5, 4 Larllunna 33/1, 5 Gold Terms 11/2, 6 Poco Contante 200/1.
+Miss: the lead Larllunna 4th, the second Gold Terms 5th. Heart Throb (13 rules, alone on BB4, BB27, BB29, BB81; depth 3) was the only
+holder of BB10 + BB7 + BB9 as built (Greaneteen's combination; now 2 holders 2 won), lost under T2 with BB10, BB15, BB29, BB64. Nets:
+sky-on-natal >= 90 −4, >= 80 0, whole >= 80 +1; pair tally 2 / 3. Rabat (best >= 90 net +2) 2nd.
+T2 (Eddie: 'i dont think T2 works'): over 35 races with the table, winners keep 249 of 316 rules under T2 (0.79), the others 1,091 of
+1,347 (0.81); the top runner by rule count wins 8.2 as built, 7.3 under T2 (6.8 by chance, ties split). T2 does not help.
