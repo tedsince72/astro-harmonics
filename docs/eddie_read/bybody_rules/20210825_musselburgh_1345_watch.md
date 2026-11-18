@@ -92,3 +92,6 @@ most positives; sky-on-natal >= 90 net -7, the worst), Natural Value 10 (alone B
 BB63 + BB68, BB3 + BB63 + BB68, N4), Graces Quest 9 (alone BB2, BB14, BB20, BB30 (watch-only), BB47; depth 1; pair tally 2 / 1, the only
 positive-leaning), Major Snugfit 4, Yukon 3. Hamish shape and swap square: none in the field.
 Lead by the rules: Natural Value (N4, every watched combination); second Inside Intel (most rules).
+
+## Result (Eddie, 18 Nov 2026)
+1 Graces Quest 11/1, 2 Major Snugfit 5/1, 3 Natural Value 11/8F, 4 Yukon 15/8, 5 Inside Intel 16/1. Rule lead 3rd, rule second last (not blind).
