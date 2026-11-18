@@ -188,3 +188,36 @@ picks / won / by chance; p = chance of that many wins or more by luck
     3 best p median 0.0011111111111111111 share beating real 0.18 count p<0.001 mean 1.625 real 13
 
 Note: the rules were built on many of these winners, so the luck check flatters them; wins outside each rules origin races are the fairer part.
+
+## Level stakes (1 point per pick, SP)
+
+Baseline, 1 point on every runner: 333 bets, profit +797.2, ROI +239 %
+
+| item | picks / won / by chance | profit (points) | ROI | winners (SP) |
+|---|---|---|---|---|
+| BB32 | 17 / 9 / 2.9 | +280.0 | +1647 % | Pholas 25/1, Perfect Part 125/1, Kilcummin 50/1, Society Red 16/1, Sullivan Bay 18/1, Heart Throb 9/1, Native Robin 16/1, Ropey Guest 9/1, Nelson River 20/1 |
+| BB3 + BB12 + BB53 | 26 / 12 / 4.5 | +154.2 | +593 % | Little Girl Blue 10/1, Aldhaja 10/1, Eydon 22/1, Busby 12/1, Wholestone 16/1, Deja Vue 10/1, Brian Boranha 14/1, Ropey Guest 9/1, Le Beau Garcon 9/4, Golden Flame 9/1, Rhythm Is A Dancer 14/1, Diligent Resdev 40/1 |
+| BB3 + BB53 + BB63 | 20 / 10 / 3.6 | +124.2 | +621 % | Little Girl Blue 10/1, Aldhaja 10/1, Wholestone 16/1, Deja Vue 10/1, Brian Boranha 14/1, Ropey Guest 9/1, Le Beau Garcon 9/4, Golden Flame 9/1, Rhythm Is A Dancer 14/1, Diligent Resdev 40/1 |
+| BB80 | 29 / 10 / 4.7 | +268.0 | +924 % | Perfect Part 125/1, Whitefeathersfall 10/1, Arvico Bleu 25/1, Wholestone 16/1, Miss Heritage 10/1, Deja Vue 10/1, Greaneteen 12/1, Forget You Not 25/1, Pixie Loc 14/1, Diligent Resdev 40/1 |
+| BB3 + BB80 | 24 / 10 / 3.8 | +273.0 | +1138 % | Perfect Part 125/1, Whitefeathersfall 10/1, Arvico Bleu 25/1, Wholestone 16/1, Miss Heritage 10/1, Deja Vue 10/1, Greaneteen 12/1, Forget You Not 25/1, Pixie Loc 14/1, Diligent Resdev 40/1 |
+| BB67 | 43 / 13 / 6.9 | +244.2 | +568 % | Pholas 25/1, Secret Satire 22/1, Wotever Next 33/1, Kilcummin 50/1, Athmad 25/1, On Time 16/1, Whitefeathersfall 10/1, Sullivan Bay 18/1, John Kirkup 14/1, Miss Heritage 10/1, Le Beau Garcon 9/4, Golden Flame 9/1, Diligent Resdev 40/1 |
+| BB81 | 25 / 8 / 4.2 | +79.2 | +317 % | Novakai 12/1, The Dunkirk Lads 12/1, Little Girl Blue 10/1, Aldhaja 10/1, Wholestone 16/1, Venturous 25/1, Heart Throb 9/1, Le Beau Garcon 9/4 |
+| BB79 | 17 / 7 / 3.1 | +216.0 | +1271 % | Perfect Part 125/1, Wotever Next 33/1, On Time 16/1, Man On A Mission 12/1, Peak Time 16/1, Greaneteen 12/1, Madame Tantzy 12/1 |
+| BB72 | 12 / 6 / 2.2 | +117.2 | +977 % | Pholas 25/1, Secret Satire 22/1, Kilcummin 50/1, John Kirkup 14/1, Miss Heritage 10/1, Le Beau Garcon 9/4 |
+| BB1b | 5 / 4 / 0.9 | +64.0 | +1280 % | Pholas 25/1, The Dunkirk Lads 12/1, Sullivan Bay 18/1, Miss Heritage 10/1 |
+| BB62 | 17 / 6 / 3.1 | +138.0 | +812 % | Pholas 25/1, Kilcummin 50/1, Man On A Mission 12/1, Deja Vue 10/1, Greaneteen 12/1, Diligent Resdev 40/1 |
+| BB23 + BB62 | 4 / 4 / 0.6 | +114.0 | +2850 % | Kilcummin 50/1, Man On A Mission 12/1, Greaneteen 12/1, Diligent Resdev 40/1 |
+| BB13 + BB80 | 6 / 5 / 1.0 | +211.0 | +3517 % | Perfect Part 125/1, Deja Vue 10/1, Greaneteen 12/1, Forget You Not 25/1, Diligent Resdev 40/1 |
+| BB54 + BB82 | 5 / 4 / 0.7 | +66.0 | +1320 % | Athmad 25/1, Whitefeathersfall 10/1, Sullivan Bay 18/1, John Kirkup 14/1 |
+| BB78 | 3 / 3 / 0.5 | +78.0 | +2600 % | Ishvara 40/1, Whitefeathersfall 10/1, Ring The Moon 28/1 |
+| BB77 | 4 / 3 / 0.6 | +89.0 | +2225 % | Ishvara 40/1, Secret Satire 22/1, Ring The Moon 28/1 |
+| BB77c | 11 / 5 / 1.9 | +120.0 | +1091 % | Ishvara 40/1, Secret Satire 22/1, Eydon 22/1, Ring The Moon 28/1, Pixie Loc 14/1 |
+| BB54 | 59 / 14 / 9.4 | +354.0 | +600 % | Ishvara 40/1, Perfect Part 125/1, Secret Satire 22/1, Athmad 25/1, On Time 16/1, Whitefeathersfall 10/1, Sullivan Bay 18/1, Blue Collar Glory 20/1, John Kirkup 14/1, Miss Heritage 10/1, Venturous 25/1, Sir Chauvelin 25/1, Golden Flame 9/1, Diligent Resdev 40/1 |
+| BB57 | 59 / 14 / 9.7 | +216.2 | +367 % | Ishvara 40/1, Wotever Next 33/1, Athmad 25/1, The Dunkirk Lads 12/1, Eydon 22/1, Man On A Mission 12/1, Wholestone 16/1, Two For Gold 10/1, Nicholas T 14/1, Heart Throb 9/1, Le Beau Garcon 9/4, Madame Tantzy 12/1, Rhythm Is A Dancer 14/1, Diligent Resdev 40/1 |
+| BB23 | 59 / 14 / 9.8 | +255.2 | +433 % | Ishvara 40/1, Wotever Next 33/1, Kilcummin 50/1, Society Red 16/1, Sullivan Bay 18/1, Domandlouis 12/1, Daphne Moon 10/1, Man On A Mission 12/1, Silva Eclipse 16/1, Greaneteen 12/1, Forget You Not 25/1, Le Beau Garcon 9/4, Rhythm Is A Dancer 14/1, Diligent Resdev 40/1 |
+| BB3 | 283 / 55 / 48.2 | +823.2 | +291 % | Pholas 25/1, Ishvara 40/1, Perfect Part 125/1, Secret Satire 22/1, Wotever Next 33/1, Kilcummin 50/1, Athmad 25/1, On Time 16/1, Novakai 12/1, Cafe Sydney 11/1, Whitefeathersfall 10/1, Society Red 16/1, The Dunkirk Lads 12/1, Sullivan Bay 18/1, Little Girl Blue 10/1, Dynamic Force 18/1, Blue Collar Glory 20/1, John Kirkup 14/1, Aldhaja 10/1, Domandlouis 12/1, Daphne Moon 10/1, Eydon 22/1, Man On A Mission 12/1, Ring The Moon 28/1, River Bray 22/1, Busby 12/1, Olympe De Gouges 25/1, Peak Time 16/1, Silva Eclipse 16/1, Arvico Bleu 25/1, Wholestone 16/1, Sir Chauvelin 10/1, Miss Heritage 10/1, Two For Gold 10/1, Venturous 25/1, Deja Vue 10/1, Nicholas T 14/1, Greaneteen 12/1, Not Available 14/1, Brian Boranha 14/1, Heart Throb 9/1, Sir Chauvelin 25/1, Native Robin 16/1, Forget You Not 25/1, Present Moment 14/1, Ropey Guest 9/1, Le Beau Garcon 9/4, Pixie Loc 14/1, Hamish 9/1, Golden Flame 9/1, Madame Tantzy 12/1, Graces Quest 11/1, Rhythm Is A Dancer 14/1, Nelson River 20/1, Diligent Resdev 40/1 |
+| BB3 + BB63 | 87 / 23 / 14.7 | +338.2 | +389 % | Pholas 25/1, Secret Satire 22/1, Wotever Next 33/1, Kilcummin 50/1, Athmad 25/1, On Time 16/1, Whitefeathersfall 10/1, Sullivan Bay 18/1, Little Girl Blue 10/1, John Kirkup 14/1, Aldhaja 10/1, River Bray 22/1, Wholestone 16/1, Miss Heritage 10/1, Deja Vue 10/1, Not Available 14/1, Brian Boranha 14/1, Ropey Guest 9/1, Le Beau Garcon 9/4, Hamish 9/1, Golden Flame 9/1, Rhythm Is A Dancer 14/1, Diligent Resdev 40/1 |
+| BB3 + BB54 | 54 / 14 / 8.4 | +359.0 | +665 % | Ishvara 40/1, Perfect Part 125/1, Secret Satire 22/1, Athmad 25/1, On Time 16/1, Whitefeathersfall 10/1, Sullivan Bay 18/1, Blue Collar Glory 20/1, John Kirkup 14/1, Miss Heritage 10/1, Venturous 25/1, Sir Chauvelin 25/1, Golden Flame 9/1, Diligent Resdev 40/1 |
+| BB63 + BB68 | 30 / 8 / 5.3 | +168.0 | +560 % | Pholas 25/1, Secret Satire 22/1, Wotever Next 33/1, Athmad 25/1, River Bray 22/1, Hamish 9/1, Rhythm Is A Dancer 14/1, Diligent Resdev 40/1 |
+| BB68 | 101 / 19 / 17.5 | +281.0 | +278 % | Pholas 25/1, Secret Satire 22/1, Wotever Next 33/1, Athmad 25/1, Novakai 12/1, Society Red 16/1, The Dunkirk Lads 12/1, River Bray 22/1, Busby 12/1, Olympe De Gouges 25/1, Two For Gold 10/1, New Age Dawning 10/1, Sir Chauvelin 25/1, Forget You Not 25/1, Present Moment 14/1, Hamish 9/1, Madame Tantzy 12/1, Rhythm Is A Dancer 14/1, Diligent Resdev 40/1 |
+| BB69 | 14 / 5 / 2.7 | +77.0 | +550 % | Secret Satire 22/1, On Time 16/1, Dynamic Force 18/1, Blue Collar Glory 20/1, Aldhaja 10/1 |
