@@ -1,0 +1,55 @@
+# 20210822_worcester_1300: pairs >= 80.0, labels from the other 56 result races
+
+## 01 Streets Of Doyen: 4 positive, 10 negative (of 86 pairs)
+  + S–H S Pluto → H Eris: 17 / 7 / 3.0
+  + S–J S Orcus → J Vesta: 18 / 7 / 2.8
+  + S–H S Jupiter → H Saturn: 13 / 6 / 2.2
+  + S–S S Fomalhaut – S Saturn: 4 / 2 / 0.7
+  − S–J S Eris → J Sedna: 23 / 0 / 3.8
+  − S–H S Pluto → H Juno: 22 / 0 / 3.7
+  − S–J S Pallas → J Ketu: 20 / 0 / 3.6
+  − S–H S Mercury → H Rahu: 20 / 1 / 3.5
+  − S–H S Jupiter → H Pallas: 17 / 1 / 3.1
+  − S–H S Sun → H Transpluto: 17 / 1 / 3.1
+  − S–J S Mercury → J Chiron: 17 / 0 / 2.7
+  − S–J S Venus → J Gonggong: 14 / 0 / 2.3
+  − S–H S Pluto → H Neptune: 14 / 0 / 2.1
+  − S–J S Eris → J Sun: 10 / 0 / 1.6
+## 02 Adjali: 2 positive, 9 negative (of 79 pairs)
+  + S–H S Pluto → H Eris: 17 / 7 / 3.0
+  + S–S S Fomalhaut – S Saturn: 4 / 2 / 0.7
+  − S–H S Quaoar → H Juno: 22 / 1 / 3.9
+  − S–J S Pallas → J Ketu: 20 / 0 / 3.6
+  − S–H S Mercury → H Rahu: 20 / 1 / 3.5
+  − S–J S Vesta → J Uranus: 19 / 1 / 3.0
+  − S–H S Uranus → H Ceres: 15 / 0 / 2.7
+  − S–J S Juno → J Neptune: 14 / 0 / 2.6
+  − S–J S Sedna → J Haumea: 12 / 0 / 1.8
+  − S–H S Vesta → H Venus: 10 / 0 / 1.8
+  − S–H S Orcus → H Quaoar: 12 / 0 / 1.6
+## 03 Rhythm Is A Dancer: 1 positive, 4 negative (of 103 pairs)
+  + S–S S Fomalhaut – S Saturn: 4 / 2 / 0.7
+  − S–J S Pallas → J Juno: 22 / 1 / 3.8
+  − S–J S Vesta → J Haumea: 18 / 1 / 3.5
+  − S–H S Sun → H Transpluto: 17 / 1 / 3.1
+  − S–J S Mars → J Sun: 17 / 0 / 2.5
+## 04 Thistle Do Nicely: 0 positive, 6 negative (of 73 pairs)
+  − S–J S Pallas → J Ketu: 20 / 0 / 3.6
+  − S–H S Sun → H Transpluto: 17 / 1 / 3.1
+  − S–J S Vesta → J Orcus: 16 / 1 / 3.0
+  − S–J S Juno → J Pallas: 16 / 0 / 2.9
+  − S–H S Transpluto → H Venus: 17 / 0 / 2.6
+  − S–H S Pluto → H Neptune: 14 / 0 / 2.1
+## 05 Oscar Montel: 4 positive, 8 negative (of 86 pairs)
+  + S–H S Saturn → H Haumea: 23 / 8 / 3.8
+  + S–J S Jupiter → J Makemake: 22 / 8 / 3.9
+  + S–H S Makemake → H Quaoar: 8 / 3 / 1.1
+  + S–S S Fomalhaut – S Saturn: 4 / 2 / 0.7
+  − S–J S Transpluto → J Mercury: 32 / 1 / 5.0
+  − S–J S Uranus → J Quaoar: 21 / 1 / 3.4
+  − S–J S Gonggong → J Mercury: 19 / 1 / 3.1
+  − S–H S Sun → H Transpluto: 17 / 1 / 3.1
+  − S–J S Orcus → J Mercury: 17 / 0 / 3.0
+  − S–J S Quaoar → J Ceres: 16 / 0 / 2.8
+  − S–H S Transpluto → H Venus: 17 / 0 / 2.6
+  − S–H S Orcus → H Quaoar: 12 / 0 / 1.6
