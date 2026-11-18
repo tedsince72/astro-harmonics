@@ -1836,3 +1836,22 @@ and the swap square.
   S Sedna – S Sun Dec 1×φ (99.1), S Sun – S Rahu RA 57×φ (92.9); chain sky Venus – Gonggong, natal H Gonggong – H Sedna 49×φ, sky Sedna – Sun.
   No Hamish shape, no swap square in her charts.
 - Not yet counted over the races (script as run: /tmp/natal.py section 'same pair live on any number'; rebuild if needed).
+
+## Chain shape: sky lines joining natal pairs into one group (Eddie, 18 Nov 2026; blank-page notes, chosen after the results)
+Eddie's lines "that connect": sky pairs between bodies that sit in different natal pairs (same bodies, not the same pairs), so the sky and
+natal lines run as one connected chain in one chart, with one exact number echo between a sky pair and a natal pair.
+- Musselburgh 13:45 25 Aug 2021, Graces Quest (horse chart; natal >= 90):
+  S Neptune – S Jupiter RA 24.2668 15×φ (88.5) -> H Jupiter – H Vesta Dec 1 (96.0) -> S Vesta – S Pallas Dec 5.0020 (90.0) -> H Pallas – H Sedna
+  RA 13.3333 (97.1) -> H Sedna – H Ceres RA 51×φ (95.7) -> S Ceres – S Chiron RA 55.5571 ninth (98.6) -> H Chiron – H Mercury RA 55.5556 /
+  H Chiron – H Ketu 23×φ; H Neptune – H Juno Dec 3.33333 at the Neptune end. Echo: sky Ceres – Chiron 55.5571 = natal Mercury – Chiron 55.5556.
+  Field (tools/scans/bb_scan_chain.py <race> 90 80 x: sky links >= 80, Moon out, between natal-pair bodies, not a natal pair): Graces Quest
+  H 3 links, one group; Natural Value H 7, one group (3rd, 11/8F); Yukon J 4, one group (4th); Inside Intel J 2 (5th); Major Snugfit J 1 (2nd).
+  The link count alone does not single out the winner.
+- Worcester 13:00 22 Aug 2021, Rhythm Is A Dancer (jockey chart, Harry Cobden):
+  S Chiron – S Mars Dec 0.0256 conj (91.5) = the same pair as natal J Mars – J Chiron Dec 22.2252 ninth 22.2222 (93.3) (only runner whose Chiron –
+  Mars scores in either chart) -> S Regulus – S Chiron Dec 5.0020 whole 5 (89.9) -> J Regulus – J Pallas Dec 24.14 silver (97.5) / J Jupiter –
+  J Regulus Dec φ⁶ (95.1) -> S Pallas – S Makemake RA 153.7136 95×φ (98.7) -> J Uranus – J Pallas Dec 4×φ (97.2), J Uranus – J Makemake RA 82×φ
+  (97.6), J Uranus – J Orcus Dec 17.7778 (91.9). Echo: sky Pallas – Makemake 153.7136 = natal J Orcus – J Fomalhaut 153.7126 95×φ (97.9); the
+  sky pair closes a triangle on J Uranus. Field: only Adjali also has a natal 95×φ (H Juno – H Gonggong RA 153.7119, 96.0), number only.
+- Common to both: the winner's sky lines join natal pairs of one chart into one group, and one sky pair repeats a natal pair's number within
+  0.0015. Not yet checked across the races. Script: tools/scans/bb_scan_chain.py (link count per chart; no echo check yet).
