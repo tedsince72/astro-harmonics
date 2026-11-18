@@ -1,0 +1,72 @@
+# 20211126_newbury_1350: pairs >= 80.0, labels from the other 40 result races
+
+## 01 Solo: 3 positive, 8 negative (of 74 pairs)
+  + S–J S Sun → J Mercury: 17 / 6 / 2.9
+  + S–H S Haumea → H Pluto: 15 / 6 / 2.8
+  + S–H S Eris → H Pluto: 10 / 4 / 1.9
+  − S–J S Ceres → J Neptune: 21 / 1 / 3.5
+  − S–J S Sun → J Pluto: 19 / 1 / 3.3
+  − S–J S Ketu → J Saturn: 16 / 0 / 2.6
+  − S–J S Jupiter → J Transpluto: 14 / 0 / 2.3
+  − S–J S Pallas → J Ketu: 12 / 0 / 2.3
+  − S–H S Jupiter → H Sun: 11 / 0 / 2.1
+  − S–H S Juno → H Orcus: 11 / 0 / 1.9
+  − S–H S Pallas → H Transpluto: 9 / 0 / 1.5
+## 02 Mister Coffey: 5 positive, 8 negative (of 71 pairs)
+  + S–H S Eris → H Pluto: 10 / 4 / 1.9
+  + S–J S Mercury → J Makemake: 11 / 4 / 1.8
+  + S–J S Jupiter → J Quaoar: 7 / 3 / 1.1
+  + S–J S Gonggong → J Saturn: 7 / 3 / 1.3
+  + S–H S Moon → H Venus: 7 / 2 / 1.0
+  − S–J S Haumea → J Eris: 24 / 1 / 4.2
+  − S–J S Sun → J Pluto: 19 / 1 / 3.3
+  − S–J S Jupiter → J Transpluto: 14 / 0 / 2.3
+  − S–J S Mercury → J Haumea: 13 / 0 / 2.3
+  − S–H S Jupiter → H Sun: 11 / 0 / 2.1
+  − S–J S Haumea → J Orcus: 11 / 0 / 2.0
+  − S–H S Venus → H Mars: 11 / 0 / 1.7
+  − S–J S Pluto → J Sedna: 11 / 0 / 1.7
+## 04 Fifty Ball: 6 positive, 5 negative (of 66 pairs)
+  + S–J S Chiron → J Ketu: 10 / 6 / 1.8
+  + S–J S Haumea → J Gonggong: 13 / 5 / 2.4
+  + S–J S Moon → J Quaoar: 11 / 4 / 1.9
+  + S–H S Eris → H Pluto: 10 / 4 / 1.9
+  + S–J S Orcus → J Gonggong: 5 / 2 / 0.8
+  + S–H S Moon → H Venus: 7 / 2 / 1.0
+  − S–J S Jupiter → J Transpluto: 14 / 0 / 2.3
+  − S–H S Jupiter → H Sun: 11 / 0 / 2.1
+  − S–J S Ketu → J Chiron: 11 / 0 / 1.8
+  − S–H S Venus → H Mars: 11 / 0 / 1.7
+  − S–J S Ketu → J Pluto: 10 / 0 / 1.7
+## 05 Cascova: 8 positive, 5 negative (of 74 pairs)
+  + S–H S Moon → H Gonggong: 13 / 6 / 2.2
+  + S–J S Mercury → J Uranus: 16 / 6 / 2.8
+  + S–J S Transpluto → J Chiron: 10 / 4 / 1.7
+  + S–H S Pluto → H Pallas: 11 / 4 / 1.7
+  + S–J S Mercury → J Makemake: 11 / 4 / 1.8
+  + S–H S Pluto → H Eris: 9 / 4 / 1.6
+  + S–H S Ketu → H Quaoar: 6 / 4 / 1.2
+  + S–J S Orcus → J Gonggong: 5 / 2 / 0.8
+  − S–J S Vesta → J Rahu: 15 / 0 / 2.4
+  − S–H S Pluto → H Sun: 12 / 0 / 1.9
+  − S–H S Gonggong → H Makemake: 10 / 0 / 1.8
+  − S–J S Ceres → J Sedna: 10 / 0 / 1.7
+  − S–J S Uranus → J Makemake: 10 / 0 / 1.7
+## 07 Not Available: 5 positive, 12 negative (of 77 pairs)
+  + S–J S Mars → J Mars: 17 / 8 / 2.9
+  + S–H S Saturn → H Haumea: 12 / 5 / 2.2
+  + S–H S Ceres → H Ketu: 13 / 5 / 2.2
+  + S–J S Jupiter → J Quaoar: 7 / 3 / 1.1
+  + S–H S Haumea → H Pallas: 9 / 3 / 1.4
+  − S–J S Sedna → J Uranus: 16 / 0 / 3.0
+  − S–H S Makemake → H Haumea: 14 / 0 / 2.6
+  − S–J S Sun → J Gonggong: 16 / 0 / 2.6
+  − S–J S Sedna → J Mercury: 13 / 0 / 2.4
+  − S–H S Neptune → H Uranus: 14 / 0 / 2.4
+  − S–J S Jupiter → J Transpluto: 14 / 0 / 2.3
+  − S–H S Orcus → H Orcus: 14 / 0 / 2.1
+  − S–H S Mars → H Eris: 13 / 0 / 1.9
+  − S–H S Saturn → H Pallas: 10 / 0 / 1.9
+  − S–J S Chiron → J Mars: 11 / 0 / 1.8
+  − S–J S Ceres → J Pallas: 10 / 0 / 1.7
+  − S–J S Mars → J Pluto: 11 / 0 / 1.7
