@@ -97,5 +97,5 @@
 
 ## Result (Eddie, 18 Nov 2026)
 1 Ropey Guest 9/1, 2 United Front 18/1 (1¼ l), 3 Ajyaall 6/4F (hd), 4 Dejame Paso 5/2, 5 Chance 3/1. NR Marie's Diamond.
-Lead 2nd, second 4th. Winner: 10 rules, alone BB32 (Sun Regulus) and BB52; BB3 + BB63 (with Dejame Paso); depth 4 (Venus); the only
+Lead 2nd, second 4th. Winner: 10 rules, alone BB32 (Uranus: S Ceres conj sky Uranus, S Ceres → J Uranus on J Aldebaran – J Uranus 180) and BB52 (H Antares on H Sun and H Orcus 16.6667, both carried by S Sun – S Orcus RA); BB3 + BB63 (with Dejame Paso); depth 4 (Venus); the only
 positive sky-on-natal >= 90 net (+1, S Juno → Sun); pair tally −5. Pair tally pick Ajyaall (favourite) 3rd.
