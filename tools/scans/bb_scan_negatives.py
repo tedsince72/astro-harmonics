@@ -1,5 +1,5 @@
 """Negatives as well as positives (Ffos Las 14:20 5 Jan 2022, New Age Dawning; 17 Nov 2026, Eddie: 'maybe we need to find negatives as well
-as positives'; read-only). Over the result races (bb_fieldcheck_twoforgold.RACES + Ffos Las 14:20, + Newcastle AW 13:30 and Exeter 14:15 since 18 Nov 2026: 37), holders from each race's bbrules json
+as positives'; read-only). Over the result races (bb_fieldcheck_twoforgold.RACES + Ffos Las 14:20, + Newcastle AW 13:30 and Exeter 14:15, Newcastle AW 14:20 since 18 Nov 2026: 38), holders from each race's bbrules json
 (watch-only left out): (1) the winner's place by rule count (most / middle / fewest); (2) wins by rule count band; (3) each rule
 picks / won / by chance, those under chance first; (4) rule pairs held by 6+ runners with no winner (by chance >= 1.5)."""
 import json, sys, itertools
@@ -7,7 +7,8 @@ sys.path.insert(0, 'tools'); sys.path.insert(0, 'tools/scans')
 import bb_fieldcheck_twoforgold as TG
 RACES = TG.RACES + [('20220105_ffos_las_1420', 'New Age Dawning')]
 # every result race from now on (Eddie, 18 Nov 2026: 'include every race from now on'); the pair tally and the sky-on-natal scans read this list
-RACES += [('20220102_newcastle_aw_1330', 'Venturous'), ('20211216_exeter_1415', 'Deja Vue')]
+RACES += [('20220102_newcastle_aw_1330', 'Venturous'), ('20211216_exeter_1415', 'Deja Vue'),
+          ('20211211_newcastle_aw_1420', 'Nicholas T')]
 
 
 def holders(race):

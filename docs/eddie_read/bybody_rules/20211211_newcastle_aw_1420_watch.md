@@ -106,3 +106,15 @@
   single holders, Coltrane BB3 / BB54 / BB63 / R11, Mr Curiosity BB68 / BB68b, Alignak BB30 (a real holder, no Moon) / BB48 / BB55, depth, Watch B,
   pair tally (all six; Coltrane and Island Brave recounted), sky-on-natal (all six): 0 mismatches. It noted the two open depth readings above and
   two out-of-date docstrings (35 / 36 races), fixed.
+
+## Result (from Eddie, 18 Nov 2026)
+- 1 Nicholas T 14/1 (Paul Mulrennan), 2 Rainbow Dreamer 8/1 (¾ l), 3 Alignak 11/1, 4 Mr Curiosity 11/4, 5 Island Brave 5/1, 6 Coltrane 6/4F (last).
+- Read: miss. Lead Coltrane last at 6/4F; second Alignak 3rd. Pair tally (+3 Coltrane) wrong way round this time; the winner was neutral (0),
+  sky-on-natal >= 90 +1.
+- Winner held 8 rules (alone BB15, BB53, BB65; also BB3, BB7, BB16, BB57, BB66), depth 3 (Vesta). BB15 and BB53 are two of the five rules
+  the negatives scan found under chance. S Pluto → J Uranus Dec 1.9976 whole 2 (87.91).
+- Eddie: the favourite had S Sedna → J Uranus RA 116.0055 whole 116 (72.67) and S Quaoar → H Uranus Dec 22.9979 whole 23 (89.35).
+  Scan (tools/scans/bb_scan_outer_whole_uranus.py, 38 result races, 29 with a favourite; chosen after the result): S Sedna / Neptune / Quaoar
+  → natal Uranus in the whole family >= 80: 29 holders, 2 won (4.9 by chance); favourites holding 8 (3.8 expected), none of the 8 won
+  (Crackovia, Spanish Present, Judy's Park, You Say Nothing, Coase, Onesmoothoperator, Dashel Drasher, Coltrane). At >= 50: 63 / 9 / 10.7,
+  favourites 11 (8.5), 0 won. Per body for every outer body: scan_outer_on_uranus_all.md.
