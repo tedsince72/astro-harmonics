@@ -1,0 +1,89 @@
+# 20211205_huntingdon_1352: pairs >= 80.0, labels from the other 38 result races
+
+## 01 Allmankind: 7 positive, 10 negative (of 78 pairs)
+  + S–H S Rahu → H Saturn: 12 / 4 / 2.0
+  + S–H S Mercury → H Venus: 10 / 4 / 1.9
+  + S–H S Transpluto → H Ceres: 9 / 4 / 1.7
+  + S–J S Moon → J Quaoar: 10 / 4 / 1.7
+  + S–H S Juno → H Jupiter: 10 / 4 / 2.0
+  + S–J S Orcus → J Pallas: 9 / 3 / 1.4
+  + S–H S Haumea → H Pallas: 8 / 3 / 1.3
+  − S–H S Makemake → H Haumea: 13 / 0 / 2.4
+  − S–J S Sun → J Gonggong: 15 / 0 / 2.4
+  − S–H S Mercury → H Makemake: 14 / 0 / 2.3
+  − S–H S Orcus → H Venus: 13 / 0 / 2.3
+  − S–J S Pallas → J Ketu: 10 / 0 / 1.9
+  − S–H S Mercury → H Pluto: 11 / 0 / 1.9
+  − S–J S Orcus → J Sun: 11 / 0 / 1.8
+  − S–J S Mercury → J Jupiter: 10 / 0 / 1.8
+  − S–H S Saturn → H Pallas: 9 / 0 / 1.7
+  − S–J S Makemake → J Quaoar: 8 / 0 / 1.6
+## 02 Eldorado Allen: 5 positive, 7 negative (of 69 pairs)
+  + S–H S Vesta → H Jupiter: 15 / 6 / 2.5
+  + S–H S Ketu → H Chiron: 15 / 5 / 2.4
+  + S–H S Uranus → H Makemake: 13 / 5 / 2.4
+  + S–H S Rahu → H Transpluto: 7 / 3 / 1.2
+  + S–J S Makemake → J Pluto: 4 / 2 / 0.7
+  − S–J S Gonggong → J Eris: 15 / 0 / 2.5
+  − S–J S Quaoar → J Sedna: 14 / 0 / 2.3
+  − S–J S Jupiter → J Transpluto: 12 / 0 / 2.0
+  − S–J S Mercury → J Jupiter: 10 / 0 / 1.8
+  − S–H S Pluto → H Neptune: 11 / 0 / 1.8
+  − S–H S Orcus → H Saturn: 10 / 0 / 1.6
+  − S–J S Mars → J Sun: 11 / 0 / 1.6
+## 03 First Flow: 2 positive, 10 negative (of 87 pairs)
+  + S–J S Chiron → J Ketu: 8 / 4 / 1.5
+  + S–H S Saturn → H Haumea: 10 / 4 / 1.9
+  − S–H S Moon → H Sedna: 20 / 0 / 3.4
+  − S–J S Makemake → J Jupiter: 17 / 1 / 3.3
+  − S–J S Eris → J Gonggong: 16 / 1 / 3.1
+  − S–J S Juno → J Mercury: 15 / 0 / 2.5
+  − S–H S Eris → H Orcus: 14 / 0 / 2.3
+  − S–J S Saturn → J Pluto: 13 / 0 / 2.2
+  − S–H S Jupiter → H Pallas: 11 / 0 / 2.0
+  − S–S S Pallas – S Transpluto: 9 / 0 / 1.8
+  − S–H S Makemake → H Pluto: 9 / 0 / 1.8
+  − S–S S Ceres – S Ketu: 7 / 0 / 1.6
+## 04 Master Tommytucker: 6 positive, 4 negative (of 83 pairs)
+  + S–J S Mercury → J Ceres: 15 / 7 / 2.6
+  + S–J S Neptune → J Jupiter: 21 / 7 / 3.5
+  + S–H S Ketu → H Gonggong: 10 / 4 / 1.9
+  + S–H S Saturn → H Haumea: 10 / 4 / 1.9
+  + S–H S Juno → H Jupiter: 10 / 4 / 2.0
+  + S–J S Chiron → J Venus: 8 / 3 / 1.3
+  − S–J S Uranus → J Ketu: 18 / 1 / 3.0
+  − S–J S Ceres → J Rahu: 12 / 0 / 2.1
+  − S–J S Jupiter → J Transpluto: 12 / 0 / 2.0
+  − S–S S Ceres – S Ketu: 7 / 0 / 1.6
+## 05 Funambule Sivola: 5 positive, 10 negative (of 99 pairs)
+  + S–H S Pallas → H Mars: 16 / 6 / 2.6
+  + S–H S Transpluto → H Pallas: 17 / 6 / 2.8
+  + S–J S Juno → J Haumea: 12 / 5 / 2.3
+  + S–H S Eris → H Pluto: 9 / 4 / 1.7
+  + S–J S Eris → J Juno: 13 / 4 / 2.0
+  − S–J S Haumea → J Eris: 23 / 1 / 4.1
+  − S–J S Ceres → J Neptune: 20 / 1 / 3.4
+  − S–H S Jupiter → H Pluto: 21 / 1 / 3.2
+  − S–H S Quaoar → H Juno: 17 / 0 / 2.9
+  − S–H S Orcus → H Venus: 13 / 0 / 2.3
+  − S–J S Vesta → J Sedna: 12 / 0 / 1.9
+  − S–J S Ketu → J Chiron: 10 / 0 / 1.7
+  − S–H S Orcus → H Saturn: 10 / 0 / 1.6
+  − S–J S Mars → J Pluto: 10 / 0 / 1.6
+  − S–H S Haumea → H Uranus: 10 / 0 / 1.5
+## 06 Keeper Hill: 5 positive, 10 negative (of 93 pairs)
+  + S–H S Vesta → H Jupiter: 15 / 6 / 2.5
+  + S–H S Juno → H Sedna: 13 / 5 / 2.1
+  + S–J S Orcus → J Transpluto: 9 / 4 / 1.6
+  + S–H S Sedna → H Quaoar: 10 / 3 / 1.5
+  + S–J S Haumea → J Sedna: 9 / 3 / 1.5
+  − S–H S Moon → H Sedna: 20 / 0 / 3.4
+  − S–J S Juno → J Mercury: 15 / 0 / 2.5
+  − S–H S Vesta → H Haumea: 14 / 0 / 2.5
+  − S–J S Pallas → J Sun: 12 / 0 / 2.2
+  − S–J S Mercury → J Haumea: 12 / 0 / 2.1
+  − S–H S Chiron → H Sedna: 12 / 0 / 2.1
+  − S–J S Ketu → J Saturn: 13 / 0 / 2.0
+  − S–S S Pallas – S Transpluto: 9 / 0 / 1.8
+  − S–H S Mars → H Mercury: 10 / 0 / 1.7
+  − S–S S Ceres – S Ketu: 7 / 0 / 1.6
