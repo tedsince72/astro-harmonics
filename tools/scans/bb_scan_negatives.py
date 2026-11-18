@@ -8,7 +8,7 @@ import bb_fieldcheck_twoforgold as TG
 RACES = TG.RACES + [('20220105_ffos_las_1420', 'New Age Dawning')]
 # every result race from now on (Eddie, 18 Nov 2026: 'include every race from now on'); the pair tally and the sky-on-natal scans read this list
 RACES += [('20220102_newcastle_aw_1330', 'Venturous'), ('20211216_exeter_1415', 'Deja Vue'),
-          ('20211211_newcastle_aw_1420', 'Nicholas T')]
+          ('20211211_newcastle_aw_1420', 'Nicholas T'), ('20211205_huntingdon_1352', 'First Flow')]
 
 
 def holders(race):
