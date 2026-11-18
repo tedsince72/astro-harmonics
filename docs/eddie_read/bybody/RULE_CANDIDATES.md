@@ -1804,3 +1804,20 @@ Not blind (Hamish named in CLAUDE.md); chosen after the result; not built, not o
   golden 46 / 11 / 7.9, ninth 46 / 7 / 7.6, whole 41 / 8 / 6.9; sky >= 90 alone 81 / 12 / 13.5. Weak: hubs Uranus 8 / 0 / 1.2, Orcus
   8 / 0 / 1.5, Mars, Ketu 12 / 1 / 1.9, Pluto 10 / 1 / 1.8; sky pairs with Uranus 9 / 0 / 1.5, Ketu 18 / 1 / 2.6, Regulus, Gonggong. About 80
   splits tried, all chosen after the results: some will be luck. To carry forward: horse chart + golden sky pair (Hamish Pallas holds it).
+
+## Golden Flame (Haydock 14:20 4 Sep 2021) - swap square (Eddie, 18 Nov 2026: "sky that may help the winner")
+Not blind (Golden Flame named in CLAUDE.md); chosen after the results; not built, not on watch. Same idea as the Hamish note (same bodies,
+different pairs). Eddie's sky lines: S Pallas – S Uranus Dec 14.5643 9×φ (94.0), S Makemake – S Neptune RA 155.5875 ninth 155.556 (89.7),
+S Rahu – S Neptune RA 70.6953 √2 70.7 (85.5).
+- Swap square: two natal pairs A – B and C – D in one chart (>= 90), and the sky pairs them the other way, S A – S C and S B – S D (>= 80).
+  Golden Flame: natal H Uranus – H Neptune RA 38.8306 24×φ (93.1) and H Pallas – H Makemake Dec 44.4366 ninth 44.4444 (91.2); sky
+  S Uranus – S Pallas Dec 9×φ (94.0) and S Neptune – S Makemake RA 155.556 (89.7). (Pallas – Makemake also scores in his jockey chart: RA
+  179.5998 111×φ, 93.9.) Rahu – Neptune: his jockey holds J Saturn – J Rahu, J Rahu – J Sedna, J Neptune – J Pluto, J Neptune – J Antares
+  (Rahu and Neptune in separate pairs); not part of the square.
+- Field: Golden Flame 1 square, Roseabad 1 (jockey, ninth / whole natal, two ninth sky pairs), Contact 1 (horse, golden / whole natal, two
+  ninth sky pairs); Valley Forge, Praiano, Tynwald none.
+- Over 54 races with an _active.xlsx (natal >= 90, sky >= 80; tools/scans/bb_scan_swap_square.py, list bb_scan_swap_square_list.py):
+  any 43 picks 10 won (7.2 by chance); horse chart 24 / 8 / 4.2; jockey chart 21 / 3 / 3.4; a golden sky pair 20 / 7 / 3.4;
+  horse chart + a golden sky pair 9 / 6 / 1.5 (winners Man On A Mission, Wholestone, Two For Gold, Brian Boranha, Present Moment, Golden
+  Flame; losers Sands Of Dubai, Emorelle, Calle Malva) - without Golden Flame 8 / 5. The same split as the Hamish shape (horse chart + golden
+  sky pair); both chosen after the results.
