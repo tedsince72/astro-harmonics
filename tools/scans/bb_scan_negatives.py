@@ -10,7 +10,7 @@ RACES = TG.RACES + [('20220105_ffos_las_1420', 'New Age Dawning')]
 RACES += [('20220102_newcastle_aw_1330', 'Venturous'), ('20211216_exeter_1415', 'Deja Vue'),
           ('20211211_newcastle_aw_1420', 'Nicholas T'), ('20211205_huntingdon_1352', 'First Flow'), ('20211204_sandown_1425', 'Greaneteen'), ('20211126_newbury_1350', 'Not Available'), ('20211119_catterick_1505', 'Brian Boranha'), ('20211112_newcastle_aw_1540', 'Heart Throb'), ('20211112_newcastle_aw_1220', 'Sir Chauvelin'),
          ('20211020_fontwell_1505', 'Native Robin'),
-         ('20211019_exeter_1515', 'Forget You Not'), ('20211015_redcar_1515', 'Present Moment'), ('20210915_yarmouth_1520', 'Ropey Guest'),
+         ('20211019_exeter_1515', 'Forget You Not'), ('20211015_redcar_1515', 'Present Moment'), ('20210915_yarmouth_1520', 'Ropey Guest'), ('20210914_redcar_1310', 'Le Beau Garcon'),
          ('20220217_leicester_1445', 'Nelson River'), ('20240515_york_1615', 'Diligent Resdev')]  # added 18 Nov 2026 (Eddie: were missing)
 
 

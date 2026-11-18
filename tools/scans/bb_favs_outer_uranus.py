@@ -21,7 +21,8 @@ FAV = {'20220716_doncaster_1845': 'Crackovia', '20220712_bath_1530': 'Overstate'
        '20211020_fontwell_1505': 'Dorking Lad',
        '20211019_exeter_1515': 'Pens Man',
       '20211015_redcar_1515': 'Divine Jewel',
-      '20210915_yarmouth_1520': 'Ajyaall'}
+      '20210915_yarmouth_1520': 'Ajyaall',
+      '20210914_redcar_1310': 'Le Beau Garcon'}
 
 
 def main():
