@@ -1685,3 +1685,11 @@ Neutral pairs (Eddie, 18 Nov 2026; same scan, neutral = held in other races, nei
 activated 5,572 / 973 / 965.9; >= 80 activated 3,777 / 607 / 645.6, not activated 11,987 / 2,086 / 2,082.7. Activated neutral pairs win
 under chance (0.90 / 0.94 of expected); all activated pairs together >= 90 2,051 / 319 / 349.4. On sky-on-natal pairs activation leans
 slightly negative overall; on royal lines it is positive.
+Pair list split by activation, royal lines included (Eddie, 18 Nov 2026; tools/scans/bb_pair_list_activated.py -> pair_list_activated_90.md /
+_80.md; in-sample lists, 43 result races). Families >= 90 (won ÷ chance): royal sky-linked φ power 21 / 12.1 (1.73), √2 1.41, ninth 33 / 26.1
+(1.26), whole 31 / 26.7 (1.16), golden 1.04, silver 0.36; royal no sky line 0.69-1.58 (whole 1.05, golden 0.97); sky-on-natal activated whole
+74 / 90.4 (0.82), ninth 66 / 80.5 (0.82), others ~1; not activated all ~1. Lists >= 90: positive activated 38, not activated 52, royal sky-linked
+14, royal no sky 9; negative activated 0, not activated 47, royal 1 / 2. Fair check (net with labels from the other races; winner top / bottom
+of its race, ties split; chance 7.9 each): >= 90 old list (no split, no royal) 15.0 / 11.3, split 14.7 / 4.2, old + royal 16.0 / 9.0, split +
+royal 13.5 / 4.5; >= 80 old 12.7 / 4.0, split 5.8 / 8.5, split + royal 5.5 / 7.8. At >= 90 the split stops marking winners as the worst
+(11.3 -> 4.2) and keeps the top; at >= 80 it does worse than the old list.
