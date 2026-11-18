@@ -236,3 +236,65 @@ Baseline, 1 point on every runner: 333 bets, profit +797.2, ROI +239 %
 | BB13 + BB80 | 1: Forget You Not | 77 / 38 / 13.7 | +747.2 | +970 % |
 
 Not covered (19): Graces Quest, Hamish, Arvico Bleu, Present Moment, Sir Chauvelin, Not Available, First Flow, Nicholas T, Venturous, New Age Dawning, Two For Gold, Sir Chauvelin, Silva Eclipse, Olympe De Gouges, River Bray, Daphne Moon, Domandlouis, Cafe Sydney, Novakai
+
+## The 19 winners the cover misses (bb_fresh_uncovered.py)
+
+19 races, 101 runners
+
+## Each winner: rules held (alone = only holder in the race)
+
+- 05 Novakai (20220716_doncaster_1845): 11 rules, field [15, 13, 11, 6, 6, 4]; alone ['BB2', 'BB55', 'BB65', 'BB68', 'BB75']; all ['BB2', 'BB24', 'BB27', 'BB3', 'BB34', 'BB55', 'BB65', 'BB66', 'BB68', 'BB75', 'BB81']
+- 03 Cafe Sydney (20220712_bath_1530): 3 rules, field [9, 8, 7, 3]; alone ['BB84b']; all ['BB3', 'BB64', 'BB84b']
+- 04 Domandlouis (20220504_kelso_1450): 9 rules, field [13, 11, 10, 9, 8, 5]; alone ['BB14', 'BB23', 'BB35', 'BB73', 'BB74']; all ['BB14', 'BB2', 'BB23', 'BB28', 'BB3', 'BB35', 'BB6', 'BB73', 'BB74']
+- 05 Daphne Moon (20220420_perth_1610): 10 rules, field [17, 12, 10, 8, 7]; alone ['BB2', 'BB35', 'BB75']; all ['BB10', 'BB2', 'BB23', 'BB28', 'BB3', 'BB35', 'BB43', 'BB49', 'BB7', 'BB75']
+- 04 River Bray (20220321_wincanton_1420): 8 rules, field [16, 13, 10, 9, 8, 7]; alone ['BB1', 'BB68']; all ['BB1', 'BB12', 'BB14', 'BB20', 'BB3', 'BB63', 'BB68', 'BB7']
+- 02 Olympe De Gouges (20220318_doncaster_1440): 8 rules, field [12, 9, 9, 8, 6]; alone ['BB58', 'BB68', 'BB68b']; all ['BB14', 'BB20', 'BB3', 'BB34', 'BB58', 'BB68', 'BB68b', 'BB8']
+- 06 Silva Eclipse (20220223_doncaster_1600): 7 rules, field [15, 14, 14, 9, 7, 6]; alone ['BB23']; all ['BB10', 'BB2', 'BB23', 'BB3', 'BB60', 'BB7', 'BB9']
+- 01 Arvico Bleu (20211014_carlisle_1355): 4 rules, field [14, 11, 9, 7, 4]; alone ['BB28', 'BB80']; all ['BB2', 'BB28', 'BB3', 'BB80']
+- 01 Sir Chauvelin (20220215_newcastle_aw_1640): 9 rules, field [14, 9, 7, 6, 4, 4]; alone ['BB20', 'BB64', 'BB7', 'BB83']; all ['BB14', 'BB20', 'BB3', 'BB48', 'BB55', 'BB64', 'BB7', 'BB8', 'BB83']
+- 07 Two For Gold (20220123_lingfield_1500): 8 rules, field [24, 21, 15, 8, 8, 6]; alone ['BB13', 'BB7']; all ['BB13', 'BB3', 'BB57', 'BB68', 'BB7', 'BB82', 'BB84', 'BB84b']
+- 06 New Age Dawning (20220105_ffos_las_1420): 6 rules, field [13, 13, 6]; alone ['BB14', 'BB30']; all ['BB14', 'BB20', 'BB30', 'BB6', 'BB68', 'BB9']
+- 05 Venturous (20220102_newcastle_aw_1330): 7 rules, field [8, 7, 5, 5, 3]; alone ['BB13', 'BB25', 'BB27', 'BB54', 'BB81']; all ['BB13', 'BB25', 'BB27', 'BB3', 'BB54', 'BB81', 'BB9']
+- 05 Nicholas T (20211211_newcastle_aw_1420): 10 rules, field [10, 10, 8, 7, 7, 4]; alone ['BB15', 'BB53', 'BB65', 'BB84', 'BB84b']; all ['BB15', 'BB16', 'BB3', 'BB53', 'BB57', 'BB65', 'BB66', 'BB7', 'BB84', 'BB84b']
+- 03 First Flow (20211205_huntingdon_1352): 1 rules, field [21, 6, 5, 5, 3, 1]; alone ['BB84b']; all ['BB84b']
+- 07 Not Available (20211126_newbury_1350): 13 rules, field [14, 13, 11, 10, 9]; alone ['BB14', 'BB21', 'BB7']; all ['BB12', 'BB13', 'BB14', 'BB21', 'BB3', 'BB35', 'BB43', 'BB55', 'BB56', 'BB6', 'BB63', 'BB7', 'BB9']
+- 02 Sir Chauvelin (20211112_newcastle_aw_1220): 8 rules, field [8, 8, 7, 7, 5, 5]; alone ['BB15', 'BB54', 'BB68', 'BB7']; all ['BB15', 'BB20', 'BB3', 'BB43', 'BB54', 'BB64', 'BB68', 'BB7']
+- 05 Present Moment (20211015_redcar_1515): 13 rules, field [21, 19, 13, 12, 11]; alone ['BB58']; all ['BB13', 'BB2', 'BB27', 'BB3', 'BB34', 'BB35', 'BB4', 'BB53', 'BB55', 'BB58', 'BB68', 'BB7', 'BB8']
+- 03 Hamish (20210904_kempton_aw_1440): 12 rules, field [17, 14, 12, 10, 5]; alone ['BB26', 'BB28']; all ['BB1', 'BB12', 'BB14', 'BB26', 'BB28', 'BB3', 'BB34', 'BB35', 'BB48', 'BB63', 'BB68', 'BB7']
+- 04 Graces Quest (20210825_musselburgh_1345): 9 rules, field [16, 10, 9, 4, 3]; alone ['BB14', 'BB2', 'BB20', 'BB30', 'BB47']; all ['BB10', 'BB14', 'BB2', 'BB20', 'BB28', 'BB3', 'BB30', 'BB47', 'BB53']
+
+## Single rules in these races, best 15
+
+- BB2: 20 / 7 / 3.5 (p 0.049) - Novakai, Domandlouis, Daphne Moon, Silva Eclipse, Arvico Bleu, Present Moment, Graces Quest
+- BB84b: 11 / 4 / 2.0 (p 0.132) - Cafe Sydney, Two For Gold, Nicholas T, First Flow
+- BB65: 4 / 2 / 0.7 (p 0.144) - Novakai, Nicholas T
+- BB68: 27 / 8 / 5.4 (p 0.154) - Novakai, River Bray, Olympe De Gouges, Two For Gold, New Age Dawning, Sir Chauvelin, Present Moment, Hamish
+- BB58: 4 / 2 / 0.7 (p 0.156) - Olympe De Gouges, Present Moment
+- BB7: 39 / 10 / 7.4 (p 0.191) - Daphne Moon, River Bray, Silva Eclipse, Sir Chauvelin, Two For Gold, Nicholas T, Not Available, Sir Chauvelin, Present Moment, Hamish
+- BB14: 31 / 8 / 5.8 (p 0.217) - Domandlouis, River Bray, Olympe De Gouges, Sir Chauvelin, New Age Dawning, Not Available, Hamish, Graces Quest
+- BB75: 5 / 2 / 0.9 (p 0.222) - Novakai, Daphne Moon
+- BB20: 22 / 6 / 4.3 (p 0.248) - River Bray, Olympe De Gouges, Sir Chauvelin, New Age Dawning, Sir Chauvelin, Graces Quest
+- BB28: 18 / 5 / 3.4 (p 0.249) - Domandlouis, Daphne Moon, Arvico Bleu, Hamish, Graces Quest
+- BB13: 14 / 4 / 2.6 (p 0.254) - Two For Gold, Venturous, Not Available, Present Moment
+- BB27: 12 / 3 / 2.2 (p 0.382) - Novakai, Venturous, Present Moment
+- BB84: 8 / 2 / 1.4 (p 0.434) - Two For Gold, Nicholas T
+- BB64: 12 / 3 / 2.4 (p 0.452) - Cafe Sydney, Sir Chauvelin, Sir Chauvelin
+- BB35: 23 / 5 / 4.4 (p 0.457) - Domandlouis, Daphne Moon, Not Available, Present Moment, Hamish
+
+## Pairs in these races, best 15
+
+- BB14 + BB20: 9 / 5 / 1.8 (p 0.020) - River Bray, Olympe De Gouges, Sir Chauvelin, New Age Dawning, Graces Quest
+- BB2 + BB28: 7 / 4 / 1.3 (p 0.026) - Domandlouis, Daphne Moon, Arvico Bleu, Graces Quest
+- BB15 + BB7: 2 / 2 / 0.3 (p 0.028) - Nicholas T, Sir Chauvelin
+- BB65 + BB66: 2 / 2 / 0.3 (p 0.028) - Novakai, Nicholas T
+- BB2 + BB75: 2 / 2 / 0.4 (p 0.033) - Novakai, Daphne Moon
+- BB2 + BB3: 19 / 7 / 3.4 (p 0.038) - Novakai, Domandlouis, Daphne Moon, Silva Eclipse, Arvico Bleu, Present Moment, Graces Quest
+- BB2 + BB23: 5 / 3 / 0.9 (p 0.039) - Domandlouis, Daphne Moon, Silva Eclipse
+- BB58 + BB68: 2 / 2 / 0.4 (p 0.040) - Olympe De Gouges, Present Moment
+- BB58 + BB8: 2 / 2 / 0.4 (p 0.040) - Olympe De Gouges, Present Moment
+- BB10 + BB2: 5 / 3 / 0.9 (p 0.048) - Daphne Moon, Silva Eclipse, Graces Quest
+- BB20 + BB68: 7 / 4 / 1.6 (p 0.050) - River Bray, Olympe De Gouges, New Age Dawning, Sir Chauvelin
+- BB14 + BB68: 8 / 4 / 1.7 (p 0.063) - River Bray, Olympe De Gouges, New Age Dawning, Hamish
+- BB28 + BB35: 6 / 3 / 1.1 (p 0.073) - Domandlouis, Daphne Moon, Hamish
+- BB20 + BB64: 3 / 2 / 0.5 (p 0.074) - Sir Chauvelin, Sir Chauvelin
+- BB57 + BB84: 3 / 2 / 0.5 (p 0.074) - Two For Gold, Nicholas T
