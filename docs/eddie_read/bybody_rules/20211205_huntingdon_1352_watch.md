@@ -97,3 +97,15 @@
   06 Keeper Hill BB64, BB66 (H Ceres – J Ceres Dec 11.3284 7×φ (93.31) = the number of On Time's H–J Jupiter and Blue Collar Glory's H–J Venus).
   03 First Flow no rule. Pair tally top 04 Master Tommytucker (+2).
 - Coltrane notes (not on watch): no runner holds an outer body whole on natal Uranus or the Uranus echo. BB84: none (Eldorado Allen splits under 50).
+
+## Result (Eddie, 18 Nov 2026)
+1 First Flow 12/1, 2 Funambule Sivola 11/2, 3 Eldorado Allen 9/2, 4 Master Tommytucker 7/2, 5 Allmankind 5/4F, PU Keeper Hill 80/1. Miss:
+lead Eldorado Allen 3rd, second Allmankind 5th. The winner held no BB rule; depth 3 (Pallas, Eris); pair tally 2 positive / 10 negative.
+- Sky-on-natal any family >= 90 net put the first two in order: First Flow +5 (the only runner with no negative), Funambule Sivola +2, Keeper
+  Hill 0, Master Tommytucker −1, Allmankind −2, Eldorado Allen −2.
+- First Flow, the only holder of the sky split on any line (BB84 'A' version, pieces >= 50): S Pallas → J Pallas Dec 30.7217 19×φ (35.38)
+  carried by S Ketu – S Transpluto Dec 30.7396 19×φ (90.61), split by sky Pallas: S Ketu – S Pallas 8.0864 5×φ (88.32) + S Transpluto –
+  S Pallas 22.6532 14×φ (97.71). A >= 50 now 13 / 6 / 2.3 over 39 result races (in-sample).
+- Royal natal lines >= 90 (number families): First Flow 9 (Regulus 5: Pluto 79×φ 97.22 carried by S Uranus – S Moon 79×φ, Vesta 5×φ 96.68,
+  Eris 127 93.84, Quaoar 17×φ 92.01, + 1), the most in the field (Master Tommytucker 7, Keeper Hill 5, Allmankind 5, Eldorado Allen 3,
+  Funambule Sivola 3). Noted, not checked over the races.
