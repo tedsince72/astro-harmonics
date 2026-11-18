@@ -1768,3 +1768,20 @@ and S X → c X (or S Y → c Y) on the same family + target; 'geometry' = sky X
 >= 90 real 3 / 2 / 0.5 (both sky quiet): John Kirkup H Venus – H Uranus RA 11.0011 11 = S Uranus → H Uranus Dec 10.9997 11 (the BB83
 pair), Sullivan Bay J Uranus – J Haumea Dec 41.4249 silver = S Haumea → J Haumea RA 41.4305; geometry 4 / 1 / 0.7. >= 80 real 10 / 2 / 1.9
 (golden 3 / 0, ninth 3 / 0, whole 2 / 1, phi power 1 / 0, silver 1 / 1). Too few to judge; Uranus in both winners.
+
+## Hamish (Kempton AW 14:40 4 Sep 2021) - sky pair onto a natal body tied to natal (Eddie, 18 Nov 2026: "note this for when we go forward building new rules")
+Not blind (Hamish named in CLAUDE.md); chosen after the result; not built, not on watch. From Eddie's two sky lines.
+- S Sun – S Venus Dec 16.1794 10×φ (97.1): S Sun → J Jupiter Dec 16.1817 10×φ (95.8) and S Venus → J Jupiter Dec 32.3611 20×φ (98.7).
+  J Jupiter lies beyond S Sun in line with S Venus, so the 20×φ is geometry; the fact is natal X at the sky pair's number from one end, on
+  the far side of the other. Ties to a natal pair: J Venus – J Jupiter RA 122.2454 ninth (90.5); J Sun – J Venus Dec 0.1353 (together).
+  Field: Hukum (2nd, nk) holds the same shape on J Pallas (S Sun → J Pallas 16.1788 10×φ 95.2, S Venus → J Pallas 20×φ 92.2) but has no
+  natal line >= 90 on Pallas; no other runner has S Sun on a natal body at 10×φ. Prince Of Arran: natal pair on the number (H Gonggong –
+  H Fomalhaut Dec 16.1838, 89.2).
+- S Haumea – S Vesta RA 13.3383 ninth 13.3333 (81.5): no Hamish natal pair on 13.3333; natal Haumea – Vesta on nothing (H 165.4466,
+  J 64.7393). The Haumea end lands on H Pallas: S Haumea → H Pallas RA 86.0001 86 whole (99.6), the best of these sky -> natal lines in the
+  field. Pallas collects: H Sun – H Pallas Dec 12×φ (99.2), H Venus – H Pallas Dec 25 (91.7), J Uranus – J Pallas RA φ⁷ (97.2); his two
+  repeated natal numbers (12×φ H Sun – H Pallas / J Rahu – J Aldebaran; φ⁷ J Uranus – J Pallas / J Eris – J Aldebaran) each pair a Pallas
+  line with an Aldebaran line (only runner whose repeats share a body pair).
+- No sky pair carries any of his 18 natal pairs (>= 90, or H X – J X >= 80) on its number.
+- Candidate shape to test forward: a sky pair S A – S B in a family, S A -> natal X on the same target (X beyond A, in line with B), and X
+  in a natal pair >= 90 in the same chart (Hamish yes, Hukum no). Not yet counted over the 53 races.
