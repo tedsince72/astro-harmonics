@@ -1693,3 +1693,15 @@ _80.md; in-sample lists, 43 result races). Families >= 90 (won ÷ chance): royal
 of its race, ties split; chance 7.9 each): >= 90 old list (no split, no royal) 15.0 / 11.3, split 14.7 / 4.2, old + royal 16.0 / 9.0, split +
 royal 13.5 / 4.5; >= 80 old 12.7 / 4.0, split 5.8 / 8.5, split + royal 5.5 / 7.8. At >= 90 the split stops marking winners as the worst
 (11.3 -> 4.2) and keeps the top; at >= 80 it does worse than the old list.
+Standout pairs (Eddie, 18 Nov 2026, 'keep all this information at hand'; pair_list_activated_90.md, in-sample, holders / won / by chance;
+with this many pairs a few 0-for-17s come by luck):
+- Negative, not activated: S Uranus → Quaoar 18 / 0 / 3.2, S Sun → Pluto 17 / 0 / 3.1, S Pluto → Haumea 17 / 0 / 3.0, S Transpluto → Orcus
+  16 / 0 / 2.7, S Haumea → Orcus 14 / 0 / 2.7, S Gonggong → Quaoar 14 / 0 / 2.2, S Uranus → Jupiter 14 / 0 / 2.3 (natal Quaoar / Orcus and
+  sky Uranus recur).
+- Positive, not activated: S Ketu → Haumea 14 / 7 / 2.5, S Juno → Sun 10 / 6 / 1.9, S Mercury → Uranus 10 / 5 / 1.5, S Sedna → Quaoar
+  10 / 5 / 1.6, S Pluto → Quaoar 10 / 5 / 1.8, S Jupiter → Haumea 10 / 5 / 1.8, S Chiron → Pluto 11 / 5 / 1.9.
+- Positive, activated: S Makemake → Ketu 8 / 5 / 1.3, S Makemake → Ceres 8 / 5 / 1.4, S Sedna → Rahu 5 / 3 / 0.7.
+- Royal sky-linked positive: Antares – Rahu 10 / 5 / 1.8 (= the jockey Antares – Rahu watch), Regulus – Makemake 8 / 4 / 1.1, Regulus –
+  Neptune 7 / 4 / 1.4, Fomalhaut – Mars 6 / 4 / 1.0. Royal negative: Regulus – Uranus 8 / 0 / 1.5 (without sky Uranus on its number; BB77
+  needs it), Regulus – Haumea 9 / 0 / 1.6, Aldebaran – Quaoar 8 / 0 / 1.7.
+- Quaoar both ways: negative from Uranus, Gonggong, Aldebaran; positive from Sedna, Pluto. To look at after the races.
