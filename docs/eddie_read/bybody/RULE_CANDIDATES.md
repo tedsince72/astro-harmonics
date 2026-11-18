@@ -1879,3 +1879,15 @@ natal lines run as one connected chain in one chart, with one exact number echo 
   Makemake in separate natal pairs (9 over the four races, none won).
   Over the 55 label races with an _active.xlsx (winner by total): top 12.5 (10.1 by chance), bottom 5.0 (10.1 by chance). Rule fixed after
   seeing Ishvara / Athmad, but Graces Quest (4th of 5) and Rhythm Is A Dancer (5th of 5) rank low on it.
+
+## Fresh sheet and the 19 winners the cover misses (18 Nov 2026, Eddie: 'leave these for a moment but keep the notes')
+- Fresh sheet over all 57 result races (every race, origin races included): docs/eddie_read/bybody/fresh_sheet_20261118.md
+  (rules, pairs, triples, luck check, level stakes, the greedy cover from BB32). Eight items cover 38 of 57 winners with 77 picks;
+  race-by-race: docs/eddie_read/bybody/cover8_20261118.md (tools/scans/bb_cover8.py).
+- The 19 winners not covered (Graces Quest, Hamish, Arvico Bleu, Present Moment, Sir Chauvelin x2, Not Available, First Flow,
+  Nicholas T, Venturous, New Age Dawning, Two For Gold, Silva Eclipse, Olympe De Gouges, River Bray, Daphne Moon, Domandlouis,
+  Cafe Sydney, Novakai): royal star on X in sky and natal (BB2 7 of 19, BB2 + BB28 4) and the number held by several sky pairs
+  (BB14 + BB20 5) - both at chance over all 57; BB84b (sky split) 3 of 4 picks in the 8 races where the cover picks nobody.
+  Natal-to-natal angle (docs/eddie_read/bybody/natal_angle_20261118.md, tools/scans/bb_scan_natal_angle.py): no natal count finds them;
+  18 of 19 have no sky pair sharing one body on a natal number (the covered winners' echo shape); tight echoes (within 0.01) top for
+  Two For Gold, Olympe De Gouges, Present Moment, Not Available, near chance overall. To come back to.
