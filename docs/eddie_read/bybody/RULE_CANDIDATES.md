@@ -1790,3 +1790,17 @@ Not blind (Hamish named in CLAUDE.md); chosen after the result; not built, not o
   asked for the same pair live in the sky; this asks for the same bodies in different pairs.
 - Candidate shape to test forward (one version of it): a sky pair S A – S B in a family, S A -> natal X on the same target (X beyond A, in line with B), and X
   in a natal pair >= 90 in the same chart (Hamish yes, Hukum no). Not yet counted over the 53 races.
+- Scan, Hamish shape (Eddie, 18 Nov 2026: "keep the notes on that research - it is good"): natal body X with two natal partners Y, Z
+  (X – Y and X – Z in a family, same chart), and the sky pairs them: S Y – S Z scoring. Hamish: H Pallas (Sun 12×φ Dec 99.2, Venus 25 Dec
+  91.7) with S Sun – S Venus Dec 10×φ (97.1); H Jupiter (Vesta 155.556 RA 99.0, Haumea 39 RA 95.1) with S Vesta – S Haumea RA 13.3333 (81.5);
+  the only holder in his field. Script as run: /tmp/hub.py (not in the repo; rebuild if needed). Over the 51 result races with an
+  _active.xlsx (picks / won / by chance): natal >= 90, sky >= 80 133 / 25 / 22.3; >= 90 / >= 90 80 / 12 / 13.2; >= 95 / >= 90 21 / 2 / 3.3;
+  >= 95 / >= 95 7 / 1 / 1.1 - at chance. Races with one holder (>= 90 / >= 80): 8, 3 won (Hamish, Blue Collar Glory, Sir Chauvelin 12:20),
+  1.6 by chance.
+  Split by chart, family and body (Eddie: "when you learn which bodies and families that is good for"; >= 90 / >= 80; runner counted once
+  per split; halves A / B = alternate races in bb_scan_negatives.RACES): horse chart + golden sky pair 23 / 8 / 4.0 (A 4 / 1.8, B 4 / 2.2) -
+  the cleanest; horse chart, all three lines one plane 21 / 7 / 3.3 (A 4 / 1.3, B 3 / 2.0); golden natal pair + golden sky pair 28 / 8 / 4.7
+  (A 5 / 2.1, B 3 / 2.7); hub Pallas 12 / 5 / 2.3; horse chart any family 70 / 16 / 11.7; jockey chart 85 / 14 / 14.2 (chance); sky family
+  golden 46 / 11 / 7.9, ninth 46 / 7 / 7.6, whole 41 / 8 / 6.9; sky >= 90 alone 81 / 12 / 13.5. Weak: hubs Uranus 8 / 0 / 1.2, Orcus
+  8 / 0 / 1.5, Mars, Ketu 12 / 1 / 1.9, Pluto 10 / 1 / 1.8; sky pairs with Uranus 9 / 0 / 1.5, Ketu 18 / 1 / 2.6, Regulus, Gonggong. About 80
+  splits tried, all chosen after the results: some will be luck. To carry forward: horse chart + golden sky pair (Hamish Pallas holds it).
