@@ -1746,3 +1746,9 @@ in a number family; sky pair S X – S Y on the same number / another number / n
 - By family the only lift is ninths: natal ninth with the sky pair live (another number) >= 90 192 / 43 / 33.2 (1.29), not live
   658 / 104 / 114.7 (0.91); >= 80 386 / 82 / 66.9 (1.23) vs 1318 / 231 / 230.2 (1.00). Golden 1.13 / 1.06, whole 1.01 / 1.08,
   phi power 1.05 / 0.94, √2 1.09 / 1.09, silver 0.68 / 1.04 (>= 90). In-sample pooling, no rule.
+
+## Natal pairs, scan 3 of 4: horse and jockey share the pair on the same number (Eddie, 18 Nov 2026)
+tools/scans/bb_scan_natal_shared.py <cut> -> docs/eddie_read/bybody/natal_shared_90.md / _80.md (45 races). Same natal pair, same family +
+target in both charts, one side >= cut. Too rare to test: >= 90 7 holdings / 0 won / 1.1 by chance (whole 2, ninth 2, golden 2, silver 1),
+>= 80 10 / 1 / 1.6 (whole 3 / 1 / 0.5); none 'fixed' (no pair sits in the same place in both charts: the jockey is born years earlier) and
+none with the sky pair live. Two independent distances landing on one target inside ±0.02-type tolerances is simply uncommon.
