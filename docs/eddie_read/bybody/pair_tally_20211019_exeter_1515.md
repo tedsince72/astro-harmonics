@@ -1,0 +1,52 @@
+# 20211019_exeter_1515: pairs >= 80.0, labels from the other 45 result races
+
+## 01 Caspers Court: 6 positive, 3 negative (of 70 pairs)
+  + S–J S Mars → J Pallas: 18 / 7 / 3.1
+  + S–H S Transpluto → H Pallas: 20 / 7 / 3.3
+  + S–J S Pallas → J Gonggong: 13 / 6 / 2.2
+  + S–J S Sun → J Neptune: 14 / 5 / 2.1
+  + S–H S Uranus → H Transpluto: 9 / 4 / 1.6
+  + S–S S Eris – S Venus: 4 / 2 / 0.9
+  − S–J S Uranus → J Makemake: 14 / 0 / 2.4
+  − S–J S Ceres → J Sedna: 13 / 0 / 2.3
+  − S–H S Mars → H Sun: 11 / 0 / 1.9
+## 02 Jarlath: 0 positive, 4 negative (of 84 pairs)
+  − S–J S Pallas → J Ketu: 16 / 0 / 3.0
+  − S–J S Saturn → J Ceres: 15 / 0 / 2.6
+  − S–H S Venus → H Mars: 15 / 0 / 2.5
+  − S–H S Venus → H Transpluto: 11 / 0 / 2.1
+## 03 Pens Man: 3 positive, 5 negative (of 69 pairs)
+  + S–H S Venus → H Rahu: 17 / 7 / 3.1
+  + S–J S Chiron → J Vesta: 9 / 5 / 1.5
+  + S–H S Vesta → H Uranus: 10 / 3 / 1.5
+  − S–H S Neptune → H Eris: 22 / 1 / 3.3
+  − S–J S Transpluto → J Uranus: 18 / 1 / 3.2
+  − S–H S Sun → H Juno: 16 / 1 / 3.1
+  − S–J S Mercury → J Haumea: 14 / 0 / 2.5
+  − S–H S Mercury → H Jupiter: 12 / 0 / 2.2
+## 04 Pointed And Sharp: 1 positive, 4 negative (of 76 pairs)
+  + S–S S Eris – S Venus: 4 / 2 / 0.9
+  − S–J S Saturn → J Quaoar: 18 / 1 / 3.1
+  − S–J S Ceres → J Orcus: 18 / 1 / 3.0
+  − S–J S Vesta → J Sedna: 15 / 0 / 2.5
+  − S–J S Venus → J Gonggong: 10 / 0 / 1.6
+## 05 Blaze A Trail: 7 positive, 2 negative (of 77 pairs)
+  + S–J S Orcus → J Vesta: 13 / 7 / 2.2
+  + S–J S Sun → J Eris: 19 / 7 / 3.3
+  + S–J S Juno → J Sedna: 16 / 6 / 2.9
+  + S–J S Pluto → J Ceres: 16 / 6 / 2.6
+  + S–J S Chiron → J Vesta: 9 / 5 / 1.5
+  + S–H S Uranus → H Transpluto: 9 / 4 / 1.6
+  + S–S S Eris – S Venus: 4 / 2 / 0.9
+  − S–J S Sun → J Pluto: 21 / 1 / 3.7
+  − S–H S Venus → H Mars: 15 / 0 / 2.5
+## 07 Forget You Not: 1 positive, 8 negative (of 74 pairs)
+  + S–H S Makemake → H Quaoar: 6 / 2 / 0.9
+  − S–J S Quaoar → J Sedna: 16 / 0 / 2.7
+  − S–H S Pluto → H Ceres: 15 / 0 / 2.7
+  − S–J S Haumea → J Orcus: 12 / 0 / 2.2
+  − S–J S Makemake → J Quaoar: 11 / 0 / 2.1
+  − S–H S Sun → H Chiron: 11 / 0 / 2.0
+  − S–H S Mars → H Sun: 11 / 0 / 1.9
+  − S–H S Sun → H Mercury: 11 / 0 / 1.8
+  − S–J S Mars → J Juno: 12 / 0 / 1.7
