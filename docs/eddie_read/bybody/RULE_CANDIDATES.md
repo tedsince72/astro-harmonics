@@ -1761,3 +1761,10 @@ natal_shared_any_90.md / _80.md). Family = both charts' families ('golden' both 
   phi power / whole 12 / 4 / 2.3, √2 / whole 6 / 3 / 1.1. Under: ninth mixed with another family - golden / ninth 27 / 2 / 4.7 (0.42),
   ninth / whole 25 / 2 / 4.4 (0.46), ninth / phi power 9 / 1 / 1.8.
 - Runners with >= 2 shared pairs (>= 80) 47 / 11 / 7.8. Sir Chauvelin counts twice (won two of the races with the same charts: Rahu – Quaoar).
+
+## Natal pairs, scan 4 of 4: natal X's partner where sky X lands (Eddie, 18 Nov 2026)
+tools/scans/bb_scan_natal_samebody.py <cut> -> docs/eddie_read/bybody/natal_samebody_90.md / _80.md (45 races). Natal pair c X – c Y >= cut
+and S X → c X (or S Y → c Y) on the same family + target; 'geometry' = sky X conjunct natal Y in that plane. Rare (same-target match):
+>= 90 real 3 / 2 / 0.5 (both sky quiet): John Kirkup H Venus – H Uranus RA 11.0011 11 = S Uranus → H Uranus Dec 10.9997 11 (the BB83
+pair), Sullivan Bay J Uranus – J Haumea Dec 41.4249 silver = S Haumea → J Haumea RA 41.4305; geometry 4 / 1 / 0.7. >= 80 real 10 / 2 / 1.9
+(golden 3 / 0, ninth 3 / 0, whole 2 / 1, phi power 1 / 0, silver 1 / 1). Too few to judge; Uranus in both winners.
