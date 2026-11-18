@@ -16,7 +16,7 @@ FAV = {'20220716_doncaster_1845': 'Crackovia', '20220712_bath_1530': 'Overstate'
        '20220318_doncaster_1440': 'Oot Ma Way', '20220311_newcastle_1540': 'Edmond Dantes', '20220223_doncaster_1600': 'Half Track',
        '20211014_carlisle_1355': 'Gold Des Bois', '20220219_haydock_1405': 'Molly Ollys Wishes', '20220215_newcastle_aw_1640': 'Onesmoothoperator',
        '20220129_doncaster_1410': 'Miranda', '20220123_lingfield_1500': 'Dashel Drasher', '20220105_ffos_las_1420': 'Gustavian',
-       '20220102_newcastle_aw_1330': 'Good Effort'}
+       '20220102_newcastle_aw_1330': 'Good Effort', '20211216_exeter_1415': 'Maskada'}
 
 
 def main():

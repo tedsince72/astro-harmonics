@@ -1,6 +1,6 @@
 """Every sky body on every natal body (17 Nov 2026, Eddie: 'yes, that is exactly what I am looking for' - the Uranus count for every natal
 body; read-only). A runner holds pair (Y, X) when 'S Y → H X' or 'S Y → J X' scores >= CUT in either plane (conj / contraparallel incl.;
-horse and jockey charts together). Over the result races (36): holders / won / by chance / favourites holding (27 races with a favourite).
+horse and jockey charts together). Over the result races (bb_fieldcheck_outer_uranus.RACES; 37 since 18 Nov 2026): holders / won / by chance / favourites holding (28 races with a favourite).
 Labels: positive = won >= 2 and won >= 2 × chance; negative = by chance >= 1.5 and won <= chance / 3. Versions: any family >= 90, >= 80,
 whole family >= 80. Fair check: leave one race out - labels from the other 35, each runner's net = positive − negative pairs held; is the
 winner top or bottom of its field?
@@ -67,7 +67,7 @@ def main():
                       + '  − ' + ', '.join(f'S {y} → {x}' for y, x in neg))
             print()
         return
-    print('# Sky bodies on natal bodies (S Y → H or J X), 36 result races\n')
+    print(f'# Sky bodies on natal bodies (S Y → H or J X), {len(O.RACES)} result races\n')
     for v in VERS:
         st = tally(data, v)
         lab = {k: label(s[1], s[2]) for k, s in st.items()}

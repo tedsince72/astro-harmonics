@@ -7,7 +7,7 @@ import sys
 sys.path.insert(0, 'tools'); sys.path.insert(0, 'tools/scans')
 import eddie_bybody_rules as E
 import bb_scan_negatives as NG
-RACES = NG.RACES + [('20220102_newcastle_aw_1330', 'Venturous')]
+RACES = list(NG.RACES)  # Newcastle AW 13:30 (Venturous) now in NG.RACES (18 Nov 2026)
 
 
 def lines(D, y):
