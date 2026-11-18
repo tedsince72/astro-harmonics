@@ -94,3 +94,8 @@
 - Sky-on-natal >= 90 net: Ropey Guest +1, Ajyaall 0, Dejame Paso −2, Chance −4, United Front −4.
 - Lead United Front (the only D1 + BB3 holder; BB64, BB80 alone; depth 5). Second Dejame Paso (most rules, BB3 + BB63 + BB68, BB68b).
   Ajyaall the pair tally pick (only positive net; BB75 alone; depth 5).
+
+## Result (Eddie, 18 Nov 2026)
+1 Ropey Guest 9/1, 2 United Front 18/1 (1¼ l), 3 Ajyaall 6/4F (hd), 4 Dejame Paso 5/2, 5 Chance 3/1. NR Marie's Diamond.
+Lead 2nd, second 4th. Winner: 10 rules, alone BB32 (Sun Regulus) and BB52; BB3 + BB63 (with Dejame Paso); depth 4 (Venus); the only
+positive sky-on-natal >= 90 net (+1, S Juno → Sun); pair tally −5. Pair tally pick Ajyaall (favourite) 3rd.
