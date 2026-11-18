@@ -1737,3 +1737,12 @@ number family, and S Y → c X or S X → c Y on the same family + target. Holdi
 - Mostly geometry: the sky body doing the copying is a slow outer body sitting near its own natal place (>= 90: Transpluto 9, Quaoar 7,
   Makemake 3, Gonggong 2 of 29), so S Y → c X repeats c Y – c X by itself. Winners: Two For Gold, Not Available, Brian Boranha (ninths),
   First Flow (silver 41.4 and 12×φ, both by S Quaoar), Greaneteen (18×φ, S Neptune).
+
+## Natal pairs, scan 2 of 4: the same pair live in the sky (Eddie, 18 Nov 2026)
+tools/scans/bb_scan_natal_skypair.py <cut> -> docs/eddie_read/bybody/natal_skypair_90.md / _80.md (45 races). Natal pair c X – c Y >= cut
+in a number family; sky pair S X – S Y on the same number / another number / not scoring.
+- Same number almost never happens (>= 90: 7 holdings, 0 won, 1.3 by chance; >= 80: 17 / 2 / 2.9).
+- Pooled: sky pair live on another number >= 90 810 / 156 / 139.8 (1.12) vs not live 2708 / 477 / 468.9 (1.02); >= 80 1.07 vs 1.00.
+- By family the only lift is ninths: natal ninth with the sky pair live (another number) >= 90 192 / 43 / 33.2 (1.29), not live
+  658 / 104 / 114.7 (0.91); >= 80 386 / 82 / 66.9 (1.23) vs 1318 / 231 / 230.2 (1.00). Golden 1.13 / 1.06, whole 1.01 / 1.08,
+  phi power 1.05 / 0.94, √2 1.09 / 1.09, silver 0.68 / 1.04 (>= 90). In-sample pooling, no rule.
