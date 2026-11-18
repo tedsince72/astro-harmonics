@@ -94,3 +94,7 @@
 - Pair tally (positive / negative): Streets Of Doyen 4 / 10, Adjali 2 / 9, Rhythm Is A Dancer 1 / 4, Thistle Do Nicely 0 / 6, Oscar Montel 4 / 8.
 - Sky-on-natal net >= 90: −1, −2, −2, −3, −2 (cloth order); >= 80: −7, −3, −1, −1, 0; whole >= 80: −2, −1, +2, 0, +1 (Rhythm Is A Dancer best).
 - Lead (usual order): Streets Of Doyen (most rules, most alone, N4, BB3 + BB54). Second: Oscar Montel (19 rules, depth 5, P4, N0).
+
+## Result (Eddie, 18 Nov 2026)
+1 Rhythm Is A Dancer 14/1 (Harry Cobden), 2 Oscar Montel 16/5 (9½ l), 3 Streets Of Doyen 6/5F (5 l), 4 Adjali 14/1 (tailed off), F Thistle Do Nicely 11/4 (fell at the last when leading). 5 ran.
+- Lead Streets Of Doyen (favourite) 3rd; second Oscar Montel 2nd. Winner: 12 rules, 4 held alone (BB31, BB44, BB56, BB68), depth 4; the only holder of BB63 + BB68 and BB3 + BB63 + BB68 (on watch), of the natal pair horse Antares – Quaoar with a sky line on it (on watch), the fewest pair-tally negatives (1 / 4) and the best whole >= 80 sky-on-natal net (+2).
