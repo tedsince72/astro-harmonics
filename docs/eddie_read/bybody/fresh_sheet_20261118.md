@@ -221,3 +221,18 @@ Baseline, 1 point on every runner: 333 bets, profit +797.2, ROI +239 %
 | BB63 + BB68 | 30 / 8 / 5.3 | +168.0 | +560 % | Pholas 25/1, Secret Satire 22/1, Wotever Next 33/1, Athmad 25/1, River Bray 22/1, Hamish 9/1, Rhythm Is A Dancer 14/1, Diligent Resdev 40/1 |
 | BB68 | 101 / 19 / 17.5 | +281.0 | +278 % | Pholas 25/1, Secret Satire 22/1, Wotever Next 33/1, Athmad 25/1, Novakai 12/1, Society Red 16/1, The Dunkirk Lads 12/1, River Bray 22/1, Busby 12/1, Olympe De Gouges 25/1, Two For Gold 10/1, New Age Dawning 10/1, Sir Chauvelin 25/1, Forget You Not 25/1, Present Moment 14/1, Hamish 9/1, Madame Tantzy 12/1, Rhythm Is A Dancer 14/1, Diligent Resdev 40/1 |
 | BB69 | 14 / 5 / 2.7 | +77.0 | +550 % | Secret Satire 22/1, On Time 16/1, Dynamic Force 18/1, Blue Collar Glory 20/1, Aldhaja 10/1 |
+
+## Cover from BB32 (most winners above chance at each step)
+
+| add | new winners | total picks / won / chance | profit | ROI |
+|---|---|---|---|---|
+| BB32 | 9: Pholas, Ropey Guest, Native Robin, Heart Throb, Nelson River, Society Red, Kilcummin, Sullivan Bay, Perfect Part | 17 / 9 / 2.9 | +280.0 | +1647 % |
+| BB3 + BB12 + BB53 | 11: Rhythm Is A Dancer, Golden Flame, Le Beau Garcon, Brian Boranha, Deja Vue, Wholestone, Busby, Eydon, Aldhaja, Little Girl Blue, Diligent Resdev | 41 / 20 / 7.0 | +426.2 | +1040 % |
+| BB79 | 6: Madame Tantzy, Greaneteen, Peak Time, Wotever Next, Man On A Mission, On Time | 55 / 26 / 9.8 | +519.2 | +944 % |
+| BB77c | 4: Ishvara, Pixie Loc, Ring The Moon, Secret Satire | 62 / 30 / 10.9 | +620.2 | +1000 % |
+| BB54 + BB82 | 3: Athmad, John Kirkup, Whitefeathersfall | 66 / 33 / 11.5 | +668.2 | +1012 % |
+| BB1b | 2: Miss Heritage, The Dunkirk Lads | 69 / 35 / 12.0 | +689.2 | +999 % |
+| BB69 | 2: Blue Collar Glory, Dynamic Force | 75 / 37 / 13.3 | +723.2 | +964 % |
+| BB13 + BB80 | 1: Forget You Not | 77 / 38 / 13.7 | +747.2 | +970 % |
+
+Not covered (19): Graces Quest, Hamish, Arvico Bleu, Present Moment, Sir Chauvelin, Not Available, First Flow, Nicholas T, Venturous, New Age Dawning, Two For Gold, Sir Chauvelin, Silva Eclipse, Olympe De Gouges, River Bray, Daphne Moon, Domandlouis, Cafe Sydney, Novakai
