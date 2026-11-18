@@ -1681,3 +1681,7 @@ family; carried = a sky pair (no Moon) on the same family + target; royal sky = 
 Runners by royal lines >= 90 with both: 0 177 / 28 / 30.5, 1 56 / 10 / 9.9, 2+ 16 / 5 / 2.6.
 Opposite of the sky-on-natal pairs: a royal line with no sky line is at chance; sky lines lift it, most when it is both carried and the
 royal star is on sky X, and only at >= 90. Chosen after the results; holdings not independent.
+Neutral pairs (Eddie, 18 Nov 2026; same scan, neutral = held in other races, neither label): >= 90 activated 1,735 / 265 / 295.2, not
+activated 5,572 / 973 / 965.9; >= 80 activated 3,777 / 607 / 645.6, not activated 11,987 / 2,086 / 2,082.7. Activated neutral pairs win
+under chance (0.90 / 0.94 of expected); all activated pairs together >= 90 2,051 / 319 / 349.4. On sky-on-natal pairs activation leans
+slightly negative overall; on royal lines it is positive.

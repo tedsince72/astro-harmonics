@@ -1,5 +1,5 @@
 """Scan (18 Nov 2026, Eddie: 'sky activation may override the negative aspect'; read-only).
-Sky-on-natal pairs S Y -> natal X (bb_scan_sky_on_natal: any family >= cut), labelled positive / negative from the OTHER result races
+Sky-on-natal pairs S Y -> natal X (bb_scan_sky_on_natal: any family >= cut), labelled positive / negative / neutral (held elsewhere, neither) / unseen (held in no other race) from the OTHER result races
 (leave one out). Each holding is split by whether the sky pair S Y - S X scores (conj, or a number family; any plane, any score) - 'activated'
 - or not. Per group: holdings / won / by chance (1 / field size each). Races = bb_scan_negatives.RACES."""
 import sys
@@ -31,9 +31,7 @@ def main():
             N = len(R)
             for run, D in R.items():
                 for k in S.pairs(D)[v]:
-                    if k not in st: continue
-                    lab = S.label(st[k][1], st[k][2])
-                    if not lab: continue
+                    lab = (S.label(st[k][1], st[k][2]) or 'neutral') if k in st else 'unseen'
                     a = 'activated' if frozenset(k) in act[(race, run)] else 'not activated'
                     t = g.setdefault((lab, a), [0, 0, 0.0]); t[0] += 1; t[1] += win in run; t[2] += 1 / N
         print(f'## {v[0]} >= {v[1]} (labels leave-one-out; holdings / won / by chance)')
