@@ -1674,3 +1674,10 @@ labels leave-one-out over 43 result races; holdings / won / by chance; activated
 activated 356 / 67 / 62.7. >= 80: negative activated 191 / 32 / 32.5, not 610 / 100 / 105.1; positive activated 28 / 4 / 4.5, not 69 / 28 / 12.3.
 Activation takes the negative away (to chance), but takes the positive away too: activated pairs sit at chance both ways; the labels only
 carry on pairs with no sky line between the two bodies.
+Royal stars with and without sky lines (Eddie, 18 Nov 2026; tools/scans/bb_scan_royal_activated.py; natal royal lines c R – c X in a number
+family; carried = a sky pair (no Moon) on the same family + target; royal sky = S R – S X scores; 43 result races, holdings / won / by chance):
+>= 90: both 90 / 21 / 15.3, carried only 306 / 63 / 53.7, royal sky only 192 / 41 / 33.6, neither 596 / 106 / 105.9.
+>= 80: both 197 / 37 / 33.3, carried only 674 / 117 / 117.7, royal sky only 382 / 72 / 66.9, neither 1,219 / 222 / 211.6.
+Runners by royal lines >= 90 with both: 0 177 / 28 / 30.5, 1 56 / 10 / 9.9, 2+ 16 / 5 / 2.6.
+Opposite of the sky-on-natal pairs: a royal line with no sky line is at chance; sky lines lift it, most when it is both carried and the
+royal star is on sky X, and only at >= 90. Chosen after the results; holdings not independent.
