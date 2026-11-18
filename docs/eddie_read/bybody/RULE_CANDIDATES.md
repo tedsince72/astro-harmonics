@@ -1855,3 +1855,18 @@ natal lines run as one connected chain in one chart, with one exact number echo 
   sky pair closes a triangle on J Uranus. Field: only Adjali also has a natal 95×φ (H Juno – H Gonggong RA 153.7119, 96.0), number only.
 - Common to both: the winner's sky lines join natal pairs of one chart into one group, and one sky pair repeats a natal pair's number within
   0.0015. Not yet checked across the races. Script: tools/scans/bb_scan_chain.py (link count per chart; no echo check yet).
+- Newcastle AW 16:33 2 Aug 2021, Athmad (both charts; Eddie's sky lines, 18 Nov 2026): S Pallas – S Mercury Dec 12.2232 ninth (96.0), S Vesta –
+  S Mars RA 33.3377 ninth (93.4), S Transpluto – S Mars RA 0.1211 conj (91.9), S Transpluto – S Pluto Dec 33.3459 ninth (81.1), S Makemake –
+  S Haumea Dec 6.9983 7 (91.6) and RA 17.9970 18 (85.1), S Sedna – S Haumea RA 155.5904 ninth (88.8), S Sun – S Quaoar RA 141.4548 √2 (84.2),
+  S Transpluto – S Quaoar Dec 25.8829 16×φ (82.5), S Makemake – S Sedna Dec 14.5618 9×φ (98.4).
+  * 33.3333 in sky and both charts: S Vesta – S Mars, S Transpluto – S Pluto; natal J Vesta – J Quaoar Dec 33.3335 (99.7), H Venus – H Transpluto
+    Dec 33.3201 (80.2). Square Mars – Vesta (sky 33.33) – Pluto (natal H Pluto – H Vesta 22.2245, 94.8) – Transpluto (sky 33.35) – Mars (sky conj).
+  * One sky pair on two natal numbers, two planes: S Makemake – S Haumea Dec 7 = H Sun – H Orcus Dec 7.0017 (91.4), J Jupiter – J Eris Dec 6.9987
+    (93.6); RA 18 = H Sun – H Gonggong RA 17.9996 (98.0), H Pluto – H Eris Dec 17.9970 (84.9).
+  * S Sun – S Quaoar closes a triangle on J Vesta (J Sun – J Vesta 13×φ 96.8, J Vesta – J Quaoar 33.3333). S Transpluto – S Quaoar 16×φ on
+    J Neptune – J Sedna 25.8917 16×φ (0.009 apart). Jockey chain Makemake – Sedna – Haumea – Pallas – Mercury via the sky lines.
+  * Field count, natal pairs >= 80 (royal stars incl.) on the family + target of one of these sky lines: Athmad 7, Pallas Dancer 3, Raise The
+    Roof 2, Tricolore 1, Beating All 1, Dubai Souq 0 (tools/scans/bb_scan_sky_numbers_athmad.py). Sky lines are the same for every runner, but
+    Eddie picked them knowing the winner - not a test.
+  * Next to test (not built): per race, take the strongest sky pairs by a fixed rule (e.g. S – S >= 80, no Moon), count each runner's natal
+    pairs on their numbers, and see whether the winner ranks top more often than chance.
