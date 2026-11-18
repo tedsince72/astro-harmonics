@@ -1821,3 +1821,5 @@ S Rahu – S Neptune RA 70.6953 √2 70.7 (85.5).
   horse chart + a golden sky pair 9 / 6 / 1.5 (winners Man On A Mission, Wholestone, Two For Gold, Brian Boranha, Present Moment, Golden
   Flame; losers Sands Of Dubai, Emorelle, Calle Malva) - without Golden Flame 8 / 5. The same split as the Hamish shape (horse chart + golden
   sky pair); both chosen after the results.
+- Status (Eddie, 18 Nov 2026): "just as a note for when we start with a blank page (sort of) when we complete the next few races" - not on
+  the watch list; take the Hamish shape and the swap square (horse chart + golden sky pair) into the blank-page method review.
