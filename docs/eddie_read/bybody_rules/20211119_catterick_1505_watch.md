@@ -86,6 +86,8 @@
 ## Jupiter both charts with a sky pair watch (Miss Heritage, On Time; 17 Nov 2026, Eddie "on a watch list for now"; JC = S Jupiter → H Jupiter and S Jupiter → J Jupiter both in a number family, any plane / score, and a sky pair S Jupiter – S Y on the same family + target as one of them; 2 / 2 / 0.5 over 33 result races, chosen after the results; tools/scans/bb_fieldcheck_heritage.py)
 - none
 
+## O1 + same-body watch (Brian Boranha Mars, 18 Nov 2026, Eddie "on the watch list"; A = O1 on X, B = S X → H X or J X in both RA and Dec, C = H X – J X, number families, any score; over 42 result races A + B 2 / 1 / 0.3, A + C 3 / 1 / 0.5, A + B + C 1 / 1 / 0.2, chosen after the result; tools/scans/bb_fieldcheck_brian_mars.py)
+- 04 Brian Boranha [A+B+C]: Mars
 ## Read (blind, 18 Nov 2026)
 - Lead: 05 Cracking Find.
   - 15 rules (joint most with Reve; 13 under T2).

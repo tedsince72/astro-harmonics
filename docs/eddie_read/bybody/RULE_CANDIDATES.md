@@ -1653,3 +1653,7 @@ Field check over 42 result races (tools/scans/bb_fieldcheck_brian_mars.py; per b
 A O1 on X 16 / 5 / 2.6; B S X → H X or J X in both RA and Dec 132 / 23 / 23.0; C H X – J X 242 / 42 / 41.9; A + B 2 / 1 / 0.3 (Mews House
 Makemake lost); A + C 3 / 1 / 0.5 (Pigeonton Quaoar, Funambule Sivola Quaoar lost); B + C 48 / 6 / 8.5; A + B + C 1 / 1 / 0.2 (Brian
 Boranha only). B and C alone are at chance; the shape stands only with O1, and Brian Boranha is its one winner. Chosen after the result.
+Watch (Eddie, 18 Nov 2026, 'yes, on the watch list'): A + B + C, A + B, A + C in tools/scans/bb_watch_race.py. Eddie: a good example for the
+positives vs negatives on pairs, sky activated or not (see 'General idea'): here the sky Sun activates sky Mars in both planes (S Sun – S Mars
+Dec 4 82.09, RA 14 51.46) and the same Sun reaches both natal Mars; Brian Boranha's negatives (S Sedna → H Uranus 55.5556, S Vesta → H Uranus
+φ⁶) had no sky pair. Use both when the sky-score split is run after the races.

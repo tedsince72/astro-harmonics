@@ -11,6 +11,7 @@
   17 Nov 2026; tools/scans/bb_combos_q2.py): BB82 + BB54, BB82 + BB9; from Not Available (Eddie, 18 Nov 2026, 'just on watch list';
   RULE_CANDIDATES.md 'BB35 combinations', chosen after the result): BB35 + BB6, BB35 + BB43, BB35 + BB43 + BB55
 - Jupiter both charts with a sky pair (JC, Miss Heritage / On Time, 17 Nov 2026; tools/scans/bb_fieldcheck_heritage.py)
+- O1 + same-body both planes + H X – J X (Brian Boranha Mars, Eddie 18 Nov 2026, 'on the watch list'; tools/scans/bb_fieldcheck_brian_mars.py)
 - P4 (Athmad Pluto loop; tools/scans/bb_fieldcheck_same_body_loop_closed.py) and its looser P1-P3
 - S Pluto -> H Pluto / J Pluto scoring (any family, conj / cp not counted).
 - Jupiter loop C (Eddie, 16 Nov 2026, from Cafe Sydney; tools/scans/bb_fieldcheck_jupiter_loop.py): S Jupiter -> c Jupiter, a sky
@@ -250,5 +251,16 @@ for run, D in data.items():
     elif o['JJ']:
         jc.append(f"- {run} [JJ only]: {o['JJ'][0]}")
 out += jc or ['- none']
+import bb_fieldcheck_brian_mars as BM
+out += ['', '## O1 + same-body watch (Brian Boranha Mars, 18 Nov 2026, Eddie "on the watch list"; A = O1 on X, B = S X → H X or J X in '
+        'both RA and Dec, C = H X – J X, number families, any score; over 42 result races A + B 2 / 1 / 0.3, A + C 3 / 1 / 0.5, '
+        'A + B + C 1 / 1 / 0.2, chosen after the result; tools/scans/bb_fieldcheck_brian_mars.py)']
+bm = []
+for run, bodies in data.items():
+    c = BM.cases(bodies)
+    for k in ('ABC', 'AB', 'AC'):
+        if k in c:
+            bm.append(f"- {run} [{'A+B+C' if k == 'ABC' else 'A+' + k[1]}]: {', '.join(c[k])}"); break
+out += bm or ['- none']
 txt = '\n'.join(out) + '\n'
 open(f'docs/eddie_read/bybody_rules/{race}_watch.md', 'w').write(txt); print(txt)
