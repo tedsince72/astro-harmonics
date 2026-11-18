@@ -1705,3 +1705,15 @@ with this many pairs a few 0-for-17s come by luck):
   Neptune 7 / 4 / 1.4, Fomalhaut – Mars 6 / 4 / 1.0. Royal negative: Regulus – Uranus 8 / 0 / 1.5 (without sky Uranus on its number; BB77
   needs it), Regulus – Haumea 9 / 0 / 1.6, Aldebaran – Quaoar 8 / 0 / 1.7.
 - Quaoar both ways: negative from Uranus, Gonggong, Aldebaran; positive from Sedna, Pluto. To look at after the races.
+
+## Side activation (Eddie, 18 Nov 2026: a sky-on-natal pair S Y -> natal X not activated, but S Y or S X activated to another body Z)
+tools/scans/bb_scan_side_activation.py <side cut> (45 races, labels leave-one-out; holdings / won / by chance). Side link with any score
+covers nearly every holding (the sky has a scoring pair for almost every body), so it was run with side links >= 90 and >= 98.
+- Labels themselves out of sample: negatives sit at chance in every split (>= 90 neither 143 / 22 / 26.0 = 0.85, activated 1.07;
+  >= 80 0.98 - 1.10); positives at >= 90 below chance (0.60 - 0.94), at >= 80 about 2x (neither 23 / 8 / 3.7, X side 22 / 7 / 4.0,
+  Y side 11 / 6 / 1.9, both 23 / 8 / 4.2; activated 24 / 3 / 3.9).
+- Side link does not deepen negatives: >= 90 negative X side 1.08, Y side 1.05, both 0.80. Only hint: negative with one Z linked to
+  both S Y and S X (a sky triangle through Z, side >= 90) 31 / 3 / 5.7 (>= 90) and 23 / 2 / 4.2 (>= 80); against it, negative with a
+  side link to a royal star only (side >= 98, >= 80) 11 / 5 / 1.9.
+- Positives: side link neither helps nor hurts (>= 80 side link body 50 / 20 / 9.1 vs neither 23 / 8 / 3.7); direct activation is the
+  only split that loses the positive (24 / 3 / 3.9).
