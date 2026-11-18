@@ -92,3 +92,6 @@
 - Pair tally (cut 80): Pixie Loc −3, Spike Jones −9, Eye To The Sky −7, Santesa −6 (4+ / 7−, 4 / 13, 1 / 8, 4 / 10).
 - Sky-on-natal >= 90 net: Santesa −1, Spike Jones −2, Pixie Loc −4, Eye To The Sky −7.
 - By the reading used in the last races (D1 + BB3 first) the lead would be Pixie Loc, the winner - not counted (not blind).
+
+## Result (Eddie, 18 Nov 2026)
+1 Pixie Loc 14/1, 2 Spike Jones 5/1, 3 Eye To The Sky 4/5F, 4 Santesa 5/2 (tailed off). Winner the only D1 + BB3 holder (not blind).
