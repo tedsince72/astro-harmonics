@@ -1,0 +1,76 @@
+# 20211216_exeter_1415: pairs >= 80.0, labels from the other 35 result races
+
+## 01 Deja Vue: 3 positive, 2 negative (of 62 pairs)
+  + S–H S Vesta → H Pluto: 15 / 6 / 2.6
+  + S–J S Ketu → J Jupiter: 9 / 3 / 1.5
+  + S–H S Ketu → H Quaoar: 4 / 3 / 0.8
+  − S–H S Transpluto → H Quaoar: 19 / 1 / 3.4
+  − S–H S Pallas → H Ceres: 10 / 0 / 1.7
+## 02 Galice Macalo: 6 positive, 10 negative (of 75 pairs)
+  + S–H S Moon → H Gonggong: 11 / 6 / 1.9
+  + S–J S Sun → J Eris: 14 / 5 / 2.4
+  + S–H S Ceres → H Ketu: 9 / 5 / 1.5
+  + S–H S Chiron → H Haumea: 8 / 3 / 1.4
+  + S–J S Quaoar → J Pluto: 10 / 3 / 1.5
+  + S–H S Saturn → H Pluto: 8 / 3 / 1.4
+  − S–J S Haumea → J Eris: 20 / 1 / 3.5
+  − S–J S Orcus → J Mercury: 14 / 0 / 2.5
+  − S–J S Haumea → J Ketu: 14 / 0 / 2.4
+  − S–H S Pluto → H Ceres: 12 / 0 / 2.1
+  − S–H S Orcus → H Venus: 12 / 0 / 2.1
+  − S–J S Sedna → J Mercury: 11 / 0 / 2.0
+  − S–H S Jupiter → H Rahu: 11 / 0 / 1.9
+  − S–J S Jupiter → J Transpluto: 10 / 0 / 1.6
+  − S–J S Haumea → J Orcus: 9 / 0 / 1.6
+  − S–H S Mars → H Mercury: 9 / 0 / 1.5
+## 03 Maskada: 9 positive, 9 negative (of 87 pairs)
+  + S–J S Neptune → J Jupiter: 18 / 6 / 2.9
+  + S–J S Ceres → J Ceres: 14 / 5 / 2.3
+  + S–J S Rahu → J Pluto: 13 / 5 / 2.3
+  + S–H S Juno → H Jupiter: 8 / 4 / 1.6
+  + S–J S Jupiter → J Eris: 6 / 4 / 1.1
+  + S–H S Chiron → H Haumea: 8 / 3 / 1.4
+  + S–H S Ketu → H Venus: 9 / 3 / 1.4
+  + S–J S Ketu → J Jupiter: 9 / 3 / 1.5
+  + S–H S Ketu → H Quaoar: 4 / 3 / 0.8
+  − S–J S Gonggong → J Chiron: 18 / 1 / 3.5
+  − S–J S Sun → J Gonggong: 14 / 0 / 2.2
+  − S–H S Uranus → H Ceres: 11 / 0 / 1.9
+  − S–J S Ketu → J Saturn: 12 / 0 / 1.8
+  − S–J S Juno → J Pallas: 11 / 0 / 1.8
+  − S–J S Rahu → J Saturn: 12 / 0 / 1.8
+  − S–J S Ceres → J Rahu: 10 / 0 / 1.7
+  − S–J S Pallas → J Ketu: 8 / 0 / 1.5
+  − S–H S Mars → H Sun: 9 / 0 / 1.5
+## 04 Pure Bliss: 6 positive, 6 negative (of 96 pairs)
+  + S–J S Rahu → J Pluto: 13 / 5 / 2.3
+  + S–J S Uranus → J Venus: 10 / 4 / 1.8
+  + S–J S Chiron → J Vesta: 7 / 4 / 1.2
+  + S–H S Gonggong → H Juno: 11 / 4 / 1.9
+  + S–H S Neptune → H Gonggong: 7 / 3 / 1.1
+  + S–H S Haumea → H Saturn: 6 / 2 / 1.0
+  − S–J S Haumea → J Eris: 20 / 1 / 3.5
+  − S–J S Saturn → J Ceres: 14 / 0 / 2.4
+  − S–H S Haumea → H Chiron: 13 / 0 / 2.0
+  − S–J S Haumea → J Juno: 12 / 0 / 2.0
+  − S–H S Neptune → H Uranus: 11 / 0 / 1.8
+  − S–H S Mars → H Sun: 9 / 0 / 1.5
+## 05 Talking About You: 8 positive, 10 negative (of 86 pairs)
+  + S–J S Neptune → J Jupiter: 18 / 6 / 2.9
+  + S–J S Mercury → J Pallas: 18 / 6 / 3.0
+  + S–J S Neptune → J Juno: 11 / 4 / 2.0
+  + S–J S Vesta → J Saturn: 11 / 4 / 1.6
+  + S–J S Mars → J Ketu: 11 / 4 / 1.9
+  + S–J S Moon → J Uranus: 10 / 3 / 1.4
+  + S–H S Chiron → H Haumea: 8 / 3 / 1.4
+  + S–H S Neptune → H Gonggong: 7 / 3 / 1.1
+  − S–J S Rahu → J Rahu: 14 / 0 / 2.5
+  − S–J S Ketu → J Ketu: 14 / 0 / 2.5
+  − S–J S Pallas → J Jupiter: 14 / 0 / 2.4
+  − S–J S Eris → J Sedna: 13 / 0 / 2.0
+  − S–H S Jupiter → H Pallas: 10 / 0 / 1.8
+  − S–J S Juno → J Pallas: 11 / 0 / 1.8
+  − S–H S Mars → H Eris: 12 / 0 / 1.7
+  − S–H S Pallas → H Ceres: 10 / 0 / 1.7
+  − S–J S Haumea → J Orcus: 9 / 0 / 1.6
+  − S–J S Pallas → J Ketu: 8 / 0 / 1.5
