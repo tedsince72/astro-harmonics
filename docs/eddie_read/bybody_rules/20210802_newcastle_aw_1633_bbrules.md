@@ -1,4 +1,4 @@
-# 20210802_newcastle_aw_1633 — body-by-body rules BB1-BB83
+# 20210802_newcastle_aw_1633 — body-by-body rules BB1-BB84b
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -93,6 +93,8 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB81 | 1 | 1 | 04 Beating All |  |
 | BB82 | 3 | 3 | 02 Athmad, 04 Beating All, 05 Pallas Dancer |  |
 | BB83 | 0 | 0 | - |  |
+| BB84 | 0 | 0 | - |  |
+| BB84b | 0 | 0 | - |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1592,6 +1594,22 @@ Origin: Leicester 14:45 17 Feb 2022, 3 Nelson River, Chiron (H Regulus – H Chi
 Rule: The horse's natal Venus – Uranus (H Venus – H Uranus; RA wrapped 0-180 or Dec |dDec|, from the race's _active.xlsx) scores >= 90 in a number family (its best family + target; no conj / opposition / contraparallel), and a sky line S A – S B (sky bodies or royal stars, not the Moon, not the sky Rahu – Ketu; A, B may be Venus or Uranus) sits on the same family + target, any plane, any score. Runner-level, body shown as Venus.
 
 Origin: Musselburgh 15:50 9 May 2022 John Kirkup (H Venus – H Uranus RA 11.0011 11 (94.7), S Pluto – S Orcus Dec 10.9848), Haydock 14:05 19 Feb 2022 Wholestone (Dec 6.6660 6.66667 ninth (95.4), S Sedna – S Uranus Dec 6.6656), Newcastle AW 16:40 15 Feb 2022 Sir Chauvelin (Dec 17.0007 17 (96.3), S Sun – S Fomalhaut Dec 16.9988, S Juno – S Chiron Dec 17.0024) (Eddie, 17 Nov 2026: 'Venus Uranus is one to look at further', 'yes, as a rule'). Over 32 result races 3 picks, 3 won, 0.5 by chance; chosen after the results (Guernesey, Wincanton 2022, RA 20.0009 20 (95.6) with no sky line on 20, lost). The jockey's Venus – Uranus does not work (5 / 0 at >= 80). The same shape on every natal pair pooled is at chance (horse 461 picks 85 won, 77.2 by chance; tools/scans/bb_scan_natal_pairs.py), so Venus – Uranus may stand out by luck among 552 pair-charts. Scans tools/scans/bb_scan_uranus_pairs.py, bb_scan_venus_uranus.py.
+
+No runner holds it.
+
+## BB84 — Royal line carried by a sky pair that sky X splits into two pieces on targets
+
+Rule: A natal royal line on X (H or J; a line in X's rows naming Aldebaran, Regulus, Antares or Fomalhaut, not a '→' line, with a score) is carried ('Sky lines on the same target') by a sky pair S Y – S Z (both ends sky, neither X, number family), and sky X lies between Y and Z in that plane: S Y – S X and S Z – S X both in a number family (no conj / contraparallel / opposition) scoring >= 50, with |d(Y, X) + d(X, Z) − d(Y, Z)| < 0.1. The sum is geometry (X between Y and Z); the content is both pieces on targets.
+
+Origin: Newcastle AW 14:20 11 Dec 2021 Nicholas T Mars (won 14/1): H Fomalhaut – H Mars RA 174.001471 whole 174 (92.64) carried by S Jupiter – S Transpluto RA 173.99685 174 (84.25) = S Jupiter – S Mars RA 93.000533 93 (97.33) + S Transpluto – S Mars RA 80.996318 81 (81.59) (Eddie, 18 Nov 2026: 'this is on the winner', '"both pieces >= 50" built'). Over 38 result races 10 picks 4 won, 1.7 by chance (Perfect Part, Miss Heritage, Two For Gold, Nicholas T; lost Indie Angel, Passing Storm, Aswan, You Say Nothing, Mr Washington, Bristol De Mai); favourites 1 / 0; chosen after the result, without the origin 9 / 3 / 1.5. Pieces any score 43 / 10 / 7.6; pieces >= 80 5 / 2 / 0.9; any line on X >= 50 12 / 5 / 2.1. tools/scans/bb_fieldcheck_skysplit.py.
+
+No runner holds it.
+
+## BB84b — Any line on X carried by a sky pair that sky X splits into two pieces on targets (BB84 on any line)
+
+Rule: As BB84, but the carried line may be any line on X with a score (royal line, same-body line S X → H / J X, H X – J X), not only a royal line: carried by a sky pair S Y – S Z (both ends sky, neither X, number family), S Y – S X and S Z – S X both in a number family scoring >= 50, |d(Y, X) + d(X, Z) − d(Y, Z)| < 0.1.
+
+Origin: Huntingdon 13:52 5 Dec 2021 First Flow Pallas (won 12/1, no other BB rule): S Pallas → J Pallas Dec 30.7217 19×φ (35.38) carried by S Ketu – S Transpluto Dec 30.7396 19×φ (90.61) = S Ketu – S Pallas 5×φ (88.32) + S Transpluto – S Pallas 14×φ (97.71) (Eddie, 18 Nov 2026: 'worth adding'). Over 39 result races 13 picks 6 won, 2.3 by chance (Perfect Part, Cafe Sydney, Miss Heritage, Two For Gold, Nicholas T, First Flow); chosen after the results. tools/scans/bb_fieldcheck_skysplit.py A >= 50.
 
 No runner holds it.
 
