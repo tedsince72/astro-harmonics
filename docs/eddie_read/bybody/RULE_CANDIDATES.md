@@ -1870,3 +1870,12 @@ natal lines run as one connected chain in one chart, with one exact number echo 
     Eddie picked them knowing the winner - not a test.
   * Next to test (not built): per race, take the strongest sky pairs by a fixed rule (e.g. S – S >= 80, no Moon), count each runner's natal
     pairs on their numbers, and see whether the winner ranks top more often than chance.
+- Sky – sky pairs >= 80 (Moon out, conj incl.) with both bodies in the runner's natal pairs >= 90 (same chart, royal stars incl.) (Eddie,
+  18 Nov 2026; tools/scans/bb_scan_sky_both_natal.py, all races bb_scan_sky_both_natal_all.py). Per chart split into same pair / cross.
+  Haydock 8 Jun 2020, Richard Kingscote's four winners (totals H + J): 12:15 Lauded 12 (Cliffcake 21, Proclaimed 16; 3rd= of 8), 12:45 Brad
+  The Brief 14 (Byline 16, Know No Limits 15; 3rd= of 11), 13:45 Ishvara 14 (top of 10), 15:50 Shady McCoy 22 (top of 12). Kingscote's chart
+  takes in S Mercury – S Makemake Dec conj in all four races (0.0024 / 0.0025 / 0.0124 / 0.0333; RA whole 94 only at 13:45), joining J Mercury
+  – J Gonggong 155.556 to J Saturn – J Makemake 55.5556 and J Vesta – J Makemake 91×φ; 1-5 other runners per race also have Mercury and
+  Makemake in separate natal pairs (9 over the four races, none won).
+  Over the 55 label races with an _active.xlsx (winner by total): top 12.5 (10.1 by chance), bottom 5.0 (10.1 by chance). Rule fixed after
+  seeing Ishvara / Athmad, but Graces Quest (4th of 5) and Rhythm Is A Dancer (5th of 5) rank low on it.
