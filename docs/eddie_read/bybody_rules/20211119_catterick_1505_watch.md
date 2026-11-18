@@ -105,3 +105,13 @@
   - 06 Blazer: 10 rules, A1 Regulus on Juno (ratio 7, 94.29). Outer whole on natal Uranus with no sky pair: S Neptune → H Uranus Dec 5 whole (82.85), no S Neptune – S Uranus line. That is the losing-favourite shape.
   - 03 Red Giant: 7 rules (3 under T2), depth 1. H Antares – Quaoar natal pair 81.7, sky-on-natal whole >= 80 net +4.
 - No BB84 / BB84b holder. None of the BB35 combinations held (BB35 only Brian Boranha).
+
+## Result (Eddie, 18 Nov 2026)
+1 Brian Boranha 14/1, 2 Mance Rayder 9/1 (½ l), 3 Cracking Find 5/2 (lead), 4 Reve 7/4F (second), PU Red Giant (bled), PU Blazer.
+- Miss: lead 3rd, second 4th.
+- Brian Boranha's read:
+  - 11 rules; alone on BB4, BB16 and BB35 (BB16 and BB35 are both under-chance rules in the negatives scan).
+  - BB3 + BB63 (with Cracking Find). O1: Mars by the Sun four ways.
+  - Depth 3 (Orcus).
+  - Sky-on-natal >= 90 net −2, >= 80 net −5. The negatives included S Sedna → H Uranus RA 55.5556 ninth (94.05) and S Vesta → H Uranus Dec φ⁶ (93.18), with no scoring S Sedna – S Uranus or S Vesta – S Uranus sky line.
+- Second winner in a row with a strongly negative sky-on-natal net, and second in a row holding BB35.
