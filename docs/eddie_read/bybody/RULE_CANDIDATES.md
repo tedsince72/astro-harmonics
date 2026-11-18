@@ -1823,3 +1823,16 @@ S Rahu – S Neptune RA 70.6953 √2 70.7 (85.5).
   sky pair); both chosen after the results.
 - Status (Eddie, 18 Nov 2026): "just as a note for when we start with a blank page (sort of) when we complete the next few races" - not on
   the watch list; take the Hamish shape and the swap square (horse chart + golden sky pair) into the blank-page method review.
+
+## Madame Tantzy (Goodwood 18:53 27 Aug 2021) - same natal pair live in the sky on a different number (Eddie, 18 Nov 2026: "yes, add to notes")
+Not blind (Madame Tantzy named in CLAUDE.md); chosen after the result; not built, not on watch; for the blank-page review with the Hamish shape
+and the swap square.
+- Natal pair >= 90 whose same pair is live in the sky >= 80 on any family / number: Madame Tantzy 2, both jockey: J Neptune – J Eris Dec
+  12.2206 ninth 12.2222 (93.5) with S Neptune – S Eris Dec 3.0009 3 (95.4) (3 = her other Eris pair J Jupiter – J Eris Dec 2.9982 3, 91.2);
+  J Gonggong – J Orcus RA 166.6366 ninth 166.667 (91.0) with S Orcus – S Gonggong RA 179.4940 10φ⁶ (81.0). Field: Stunning Beauty 3, all royal
+  star pairs (H Ketu – H Antares 53×φ with S Ketu – S Antares RA 3.33333; Eris – Fomalhaut both charts with S Eris – S Fomalhaut RA 10φ³ 80.9);
+  Pretty In Grey, Lola Showgirl, Dalanijujo 0. No clean ratio between natal and sky numbers (12.2222 / 3 = 4.07; 179.494 / 166.637 = 1.08).
+- Eddie's other sky lines share one body with a natal pair: S Gonggong – S Venus RA 144.444 (92.8), S Saturn – S Mars RA 141.4 (99.5),
+  S Sedna – S Sun Dec 1×φ (99.1), S Sun – S Rahu RA 57×φ (92.9); chain sky Venus – Gonggong, natal H Gonggong – H Sedna 49×φ, sky Sedna – Sun.
+  No Hamish shape, no swap square in her charts.
+- Not yet counted over the races (script as run: /tmp/natal.py section 'same pair live on any number'; rebuild if needed).
