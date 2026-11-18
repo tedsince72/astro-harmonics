@@ -1603,3 +1603,13 @@ split (S Saturn splits S Sun – S Fomalhaut, 7×φ + 17×φ). Chosen after the 
   - S Sedna → J Uranus RA 143.9971, whole 144 (85.7)
 - Outer bodies (S Sedna / Neptune / Quaoar) on natal Uranus as a whole number scoring >= 80, over 40 result races (tools/scans/bb_scan_outer_whole_uranus.py): 30 holders, 2 won (5.1 by chance). 9 favourites held it (4.0 expected) and none of them won. Sandown is the ninth such favourite, after Coltrane, Dashel Drasher, Onesmoothoperator and others. Chosen after the results.
 - One outer body on the same natal Uranus in both planes, each >= 80, conjunction included (inline scan): 2 holders over 40 races, 0 won (0.3 by chance). They were Beverley 14:05 2024 Nad Alshiba Snow (Sedna → H Uranus) and this favourite (Quaoar → J Uranus). Too few to judge; noted.
+
+### Newbury 13:50 26 Nov 2021: the outer body also on sky Uranus (Eddie, 18 Nov 2026)
+- Not Available (won 14/1):
+  - S Quaoar → J Uranus RA 33 whole (94.02), the outer-whole negative.
+  - But the same sky body also sits on sky Uranus: S Quaoar – S Uranus RA 124.5946 77×φ (81.47).
+- Split of the outer-whole-on-natal-Uranus holders (whole >= 80) by the sky pair S Y – S Uranus (Y = the same outer body; conj / cp / opposition left out), over 41 result races (inline scan, chosen after the result):
+  - Sky pair scoring >= 50: 2 holders, 1 won (0.3 by chance). Not Available won; Fontwell 15:30 2023 Pigeonton pulled up. No favourites.
+  - Sky pair scoring < 50: 5 holders, 0 won (0.9 by chance); 1 favourite.
+  - No sky pair: 24 holders, 2 won (4.1 by chance); 8 favourites, 0 won.
+- Reading: the negative may hold only when the outer body is not tied to sky Uranus. Too few to judge (2 holders); noted, not built.
