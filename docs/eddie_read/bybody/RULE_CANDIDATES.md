@@ -1568,3 +1568,30 @@ Thundersockssundae); Q1r (Q1 + royal star on sky X, any carrier) 19 / 4 / 3.0. C
   origin of Q2 or BB54; Q2 + BB67 the same five runners; Q2 + BB63 7 / 4 / 0.9 (BB63 from Athmad); Q2 + BB9 8 / 4 / 1.3 (Whitefeathersfall,
   Sullivan Bay, John Kirkup, Nelson River); Q2 + BB64 4 / 3 / 0.6 (BB64 from Athmad); Q2 + BB54 + BB9 3 / 3 / 0.5; Q2 + BB3 16 / 5 / 2.5
   (adds nothing). Nelson River holds Q2 + BB9, not BB54. Noted, not built.
+
+## Outer bodies whole on natal Uranus - negative (Newcastle AW 14:20 11 Dec 2021, Coltrane 6/4F last; 18 Nov 2026, Eddie: 'keep all in notes')
+Eddie: the favourite had S Sedna → J Uranus RA 116.0055 whole 116 (72.7) and S Quaoar → H Uranus Dec 22.9979 whole 23 (89.4).
+tools/scans/bb_scan_outer_whole_uranus.py, 38 result races: S Sedna / Neptune / Quaoar → natal Uranus whole >= 80 29 / 2 / 4.9, favourites
+holding 8 (3.8 expected), won 0 (Crackovia, Spanish Present, Judy's Park, You Say Nothing, Coase, Onesmoothoperator, Dashel Drasher, Coltrane);
+whole >= 50 63 / 9 / 10.7, favourites 11 (8.5) / 0; any family >= 80 69 / 7 / 12.2, favourites 11 (9.8) / 0 (any family incl. 3 conj, 1
+opposition). Chosen after the result. Independent checker (18 Nov) 0 mismatches. Noted, not on watch.
+
+## Uranus echo - negative (Coltrane; 18 Nov 2026, Eddie: 'this echo with uranus', 'keep all in notes')
+S Sun → J Sun Dec 44.458838 ninth 44.4444 (83.81) carried by S Haumea – S Fomalhaut Dec 44.480695 (59.22) and S Uranus – S Fomalhaut Dec
+44.393226 (42.38); Island Brave (5th) has the same pairs on H Fomalhaut – H Sun Dec. S Uranus and S Haumea conj in Dec (0.087469), so the two
+carriers are nearly one fact. tools/scans/bb_fieldcheck_uranus_echo.py, 38 result races: SB2U (same-body line, 2+ carriers on one royal star,
+one S Uranus – star) 3 / 0 / 0.5, favourites 2 / 0 (The Thin Blue Line fav Musselburgh 15:50, Mystery Fox Haydock 17:18, Coltrane; all three
+on the S Uranus – S Haumea Dec conj, 0.068 / 0.095 / 0.087); SBU (same-body line with any S Uranus – royal carrier, weak carriers and the Moon
+allowed) 16 / 2 / 2.3, fav 3 / 0 (Ishvara, On Time won); SB2 (same-body, 2+ carriers on one royal star) 12 / 0 / 2.4, fav 4 / 0 (number
+families only 9 / 0 / 1.7); ANY2U (any line) 12 / 2 / 2.1, fav 2 / 0 (Aldhaja, Nicholas T). Chosen after the result. Independent checker (18 Nov)
+0 mismatches. Noted, not on watch.
+
+## Sky split by X - Nicholas T Mars (Newcastle AW 14:20 11 Dec 2021, won 14/1; Eddie's lines, 18 Nov 2026)
+H Fomalhaut – H Mars RA 174.001471 whole 174 (92.64) carried by S Jupiter – S Transpluto RA 173.99685 174 (84.25); sky Mars splits the pair:
+S Jupiter – S Mars RA 93.000533 93 (97.33) + S Transpluto – S Mars RA 80.996318 81 (81.59) = 174. Mars between Jupiter and Transpluto, so the
+sum is geometry; the content is both pieces on targets (the BB68 split idea, with the pair split by sky X). tools/scans/bb_fieldcheck_skysplit.py,
+38 result races (number families, |sum − pair| < 0.1): R = royal line on X carried by S Y – S Z split by sky X: pieces any 43 / 10 / 7.6, fav
+6 / 0; pieces >= 50 10 / 4 / 1.7, fav 1 / 0 (Perfect Part, Miss Heritage, Two For Gold, Nicholas T; lost Indie Angel, Passing Storm, Aswan,
+You Say Nothing, Mr Washington, Bristol De Mai); pieces >= 80 5 / 2 / 0.9 (Two For Gold, Nicholas T); royal line and carrier >= 80 too 1 / 1 / 0.2
+(Nicholas T only). A = any line on X: >= 50 12 / 5 / 2.1 (+ Cafe Sydney). Lingfield 15:00 2022: Two For Gold and Bristol De Mai share one sky
+split (S Saturn splits S Sun – S Fomalhaut, 7×φ + 17×φ). Chosen after the result; Nicholas T is the origin (without him >= 50 9 / 3 / 1.5).
