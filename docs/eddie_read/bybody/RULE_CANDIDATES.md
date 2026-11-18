@@ -1595,3 +1595,11 @@ sum is geometry; the content is both pieces on targets (the BB68 split idea, wit
 You Say Nothing, Mr Washington, Bristol De Mai); pieces >= 80 5 / 2 / 0.9 (Two For Gold, Nicholas T); royal line and carrier >= 80 too 1 / 1 / 0.2
 (Nicholas T only). A = any line on X: >= 50 12 / 5 / 2.1 (+ Cafe Sydney). Lingfield 15:00 2022: Two For Gold and Bristol De Mai share one sky
 split (S Saturn splits S Sun – S Fomalhaut, 7×φ + 17×φ). Chosen after the result; Nicholas T is the origin (without him >= 50 9 / 3 / 1.5).
+
+### Sandown 14:25 4 Dec 2021: the favourite's jockey Uranus (Eddie, 18 Nov 2026)
+- Chacun Pour Soi (8/13F, last), jockey's natal Uranus:
+  - S Quaoar → J Uranus Dec 8.0886, 5×φ golden (95.2)
+  - S Quaoar → J Uranus RA 0.2090, conjunction (86.1)
+  - S Sedna → J Uranus RA 143.9971, whole 144 (85.7)
+- Outer bodies (S Sedna / Neptune / Quaoar) on natal Uranus as a whole number scoring >= 80, over 40 result races (tools/scans/bb_scan_outer_whole_uranus.py): 30 holders, 2 won (5.1 by chance). 9 favourites held it (4.0 expected) and none of them won. Sandown is the ninth such favourite, after Coltrane, Dashel Drasher, Onesmoothoperator and others. Chosen after the results.
+- One outer body on the same natal Uranus in both planes, each >= 80, conjunction included (inline scan): 2 holders over 40 races, 0 won (0.3 by chance). They were Beverley 14:05 2024 Nad Alshiba Snow (Sedna → H Uranus) and this favourite (Quaoar → J Uranus). Too few to judge; noted.
