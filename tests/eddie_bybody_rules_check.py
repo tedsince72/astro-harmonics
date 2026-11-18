@@ -104,6 +104,7 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB81': {('01 Arafi', 'Pluto')},
     'BB82': {('04 Nirodha', 'Chiron')},
     'BB83': set(),
+    'BB84': {('03 Indie Angel', 'Eris')},
     'BB55': {('01 Arafi', 'Gonggong'), ('01 Arafi', 'Venus'), ('04 Nirodha', 'Saturn'), ('05 Pholas', 'Pallas')},
     'BB53': {('06 Shimmering Dawn', 'Sun'), ('06 Shimmering Dawn', 'Jupiter'), ('06 Shimmering Dawn', 'Pallas')},
 }
@@ -979,5 +980,29 @@ for race, win in VU83.RACES:
     check({int(x.split(' ', 1)[0]) for x in h} == scan, f'BB83 = scan {race}')
     t83[0] += len(h); t83[1] += sum(win in x for x in h)
 check(tuple(t83) == (3, 3), f'BB83 3 holders, 3 won over 32 result races ({t83})')
+# BB84 (Eddie, 18 Nov 2026, '"both pieces >= 50" built'): = scan R >= 50 of bb_fieldcheck_skysplit; Nicholas T Mars cells
+import bb_fieldcheck_skysplit as SS84
+import bb_scan_negatives as NG84
+pth = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', '20211211_newcastle_aw_1420', '20211211_newcastle_aw_1420_bybody.xlsx')
+if os.path.exists(pth):
+    k = [c for c in R.run(pth)[2]['BB84'] if (c['runner'], c['body']) == ('05 Nicholas T', 'Mars')]
+    check(bool(k) and 'H Fomalhaut – H Mars RA 174.001471 174 whole (92.64)' in k[0]['cells']
+          and 'S Jupiter – S Transpluto RA 173.996850 174 whole (84.25)' in k[0]['cells']
+          and 'S Jupiter – S Mars RA 93.000533 93 whole (97.33)' in k[0]['cells']
+          and 'S Transpluto – S Mars RA 80.996318 81 whole (81.59)' in k[0]['cells'], 'BB84 Nicholas T Mars cells')
+t84 = [0, 0]
+for race, win in NG84.RACES:
+    pth = os.path.join(ROOT, 'docs', 'eddie_read', 'bybody', race, f'{race}_bybody.xlsx')
+    if not os.path.exists(pth):
+        continue
+    data = R.load(pth); h = set()
+    for run, Dr in data.items():
+        for X, d in Dr.items():
+            b = R.Body(X, d); b.all = Dr
+            if R.bb84(b):
+                h.add(run)
+    check(h == {run for run, Dr in data.items() if any(x['royal'] and x['lo'] >= 50 for x in SS84.cases(Dr))}, f'BB84 = scan R >= 50 {race}')
+    t84[0] += len(h); t84[1] += sum(win in x for x in h)
+check(tuple(t84) == (10, 4), f'BB84 10 holders, 4 won over 38 result races ({t84})')
 print(f'{ok}/{ok + bad} checks passed')
 sys.exit(1 if bad else 0)
