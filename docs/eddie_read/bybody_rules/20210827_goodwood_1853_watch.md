@@ -97,3 +97,6 @@ Pretty In Grey 10 (alone BB9, BB20). BB16 is under chance in the negatives scan.
 Pair tally: Lola Showgirl, Dalanijujo, Madame Tantzy even; Stunning Beauty 2 / 11 the worst. Sky-on-natal >= 90 net: Madame Tantzy +1
 (the only positive), Pretty In Grey -5. Hamish shape: Stunning Beauty 1, Lola Showgirl 1 (both jockey); swap square: none.
 Lead: Madame Tantzy (most rules, most held alone, depth 5 on two bodies, only positive sky-on-natal net); second Lola Showgirl.
+
+## Result (Eddie, 18 Nov 2026)
+1 Madame Tantzy 12/1, 2 Dalanijujo 11/4, 3 Stunning Beauty 5/2F, 4 Lola Showgirl 3/1, UR Pretty In Grey. Rule lead won (not blind).
