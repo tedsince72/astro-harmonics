@@ -1,0 +1,1942 @@
+{
+ "race": "20210827_goodwood_1853",
+ "runners": [
+  "01 Stunning Beauty",
+  "02 Pretty In Grey",
+  "03 Lola Showgirl",
+  "04 Dalanijujo",
+  "05 Madame Tantzy"
+ ],
+ "rules": {
+  "BB1": [
+   {
+    "runner": "03 Lola Showgirl",
+    "body": "Rahu",
+    "cells": [
+     "H Regulus – H Rahu Dec 1.637598 1×φ golden (39.62)",
+     "S Sun – S Transpluto RA 1.640244 1×φ golden (31.45)",
+     "S Sun – S Rahu RA 92.225638 57×φ golden (92.9)",
+     "S Sun → H Rahu RA 1.101313 conj conj (26.58)",
+     "S Transpluto – S Rahu RA 90.585393 56×φ golden (24.35)",
+     "S Transpluto → H Rahu RA 0.538932 conj conj (64.07)",
+     "S Transpluto → H Rahu Dec 0.203786 conj conj (32.07)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Sun – S Rahu RA 92.225638 57×φ golden (92.9)",
+     "S Sun → H Rahu RA 1.101313 conj conj (26.58)",
+     "S Moon → H Rahu Dec 0.221266 conj conj (26.24)"
+    ],
+    "decade": [],
+    "additive": [
+     "WATCH additive step (RA): 57×φ = 1×φ + 56×φ (S Sun – S Rahu; S Sun – S Transpluto; S Transpluto – S Rahu) (may be geometry: three distances between the same three points)"
+    ],
+    "watch_only": false
+   }
+  ],
+  "BB1b": [],
+  "BB2": [
+   {
+    "runner": "04 Dalanijujo",
+    "body": "Eris",
+    "cells": [
+     "S Aldebaran – S Eris Dec 17.766808 17.7778 ninth (69.15)",
+     "H Aldebaran – H Eris Dec 18.853264 18.8889 ninth (5.7)",
+     "S Fomalhaut – S Eris RA 42.348565 10φ³ phi power (80.93)",
+     "H Fomalhaut – H Eris RA 41.369626 41.4 silver (16.74)",
+     "S Eris → H Eris RA 0.989394 1 whole (46.97)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Sun – S Eris RA 129.474854 80×φ golden (0.82)",
+     "S Moon → J Eris Dec 17.806209 11×φ golden (75.82)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "05 Madame Tantzy",
+    "body": "Makemake",
+    "cells": [
+     "S Antares – S Makemake RA 50.175098 31×φ golden (50.48)",
+     "J Antares – J Makemake RA 67.957924 42×φ golden (98.47)",
+     "S Fomalhaut – S Makemake RA 147.243664 91×φ golden (92.06)",
+     "J Fomalhaut – J Makemake RA 165.021425 102×φ golden (44.32)",
+     "S Makemake → J Makemake RA 17.788727 11×φ golden (70.23)",
+     "S Makemake → J Makemake Dec 9.711365 6×φ golden (90.24)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Moon – S Makemake RA 161.907861 100φ phi power (56.96)",
+     "S Moon → H Makemake RA 158.993415 159 whole (67.07)",
+     "S Sun → H Makemake RA 38.018472 38 whole (7.64)"
+    ],
+    "decade": [],
+    "additive": [
+     "WATCH additive step (RA): 42×φ = 31×φ + 11×φ (J Antares – J Makemake; S Antares – S Makemake; S Makemake → J Makemake) (may be geometry: three distances between the same three points)",
+     "WATCH additive step (RA): 102×φ = 91×φ + 11×φ (J Fomalhaut – J Makemake; S Fomalhaut – S Makemake; S Makemake → J Makemake) (may be geometry: three distances between the same three points)"
+    ],
+    "watch_only": false
+   }
+  ],
+  "BB3": [
+   {
+    "runner": "01 Stunning Beauty",
+    "body": "Ketu",
+    "cells": [
+     "J Aldebaran – J Ketu RA 144.431851 144.444 ninth (95.64)",
+     "S Chiron – S Transpluto RA 144.630439 144.444 ninth (35.62)",
+     "S Transpluto → J Ketu Dec 33.296825 33.3333 ninth (45.24)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Sun → H Ketu Dec 20.996169 21 whole (80.84)",
+     "S Moon → J Ketu Dec 33.314305 33.3333 ninth (71.46)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "01 Stunning Beauty",
+    "body": "Gonggong",
+    "cells": [
+     "J Aldebaran – J Gonggong Dec 33.285868 33.3333 ninth (28.8)",
+     "S Pluto – S Transpluto Dec 33.370011 33.3333 ninth (44.98)",
+     "S Transpluto → J Gonggong RA 177.796045 177.778 ninth (94.86)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Sun – S Gonggong RA 179.549197 10φ⁶ phi power (60.44)",
+     "S Sun → H Gonggong RA 179.910284 180 opposition (88.04)",
+     "S Sun → H Gonggong Dec 22.212982 22.2222 ninth (79.21)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "03 Lola Showgirl",
+    "body": "Uranus",
+    "cells": [
+     "H Antares – H Uranus Dec 34.015020 34 whole (24.9)",
+     "S Gonggong – S Makemake Dec 34.007472 34 whole (62.64)",
+     "S Gonggong → H Uranus Dec 19.007449 19 whole (62.75)",
+     "S Makemake → H Uranus Dec 15.000024 15 whole (99.88)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Moon → J Uranus RA 70.725457 70.7 sqrt2 (86.07)",
+     "S Sun → J Uranus RA 168.299600 104×φ golden (25.72)"
+    ],
+    "decade": [],
+    "additive": [
+     "WATCH additive step (Dec): 34 = 19 + 15 (H Antares – H Uranus; S Gonggong → H Uranus; S Makemake → H Uranus)",
+     "WATCH additive step (Dec): 34 = 19 + 15 (S Gonggong – S Makemake; S Gonggong → H Uranus; S Makemake → H Uranus) (may be geometry: three distances between the same three points)"
+    ],
+    "watch_only": false
+   },
+   {
+    "runner": "03 Lola Showgirl",
+    "body": "Pluto",
+    "cells": [
+     "J Regulus – J Pluto RA 103.001994 103 whole (90.03)",
+     "S Neptune – S Juno RA 103.008361 103 whole (58.2)",
+     "S Neptune → J Pluto RA 97.980799 98 whole (4)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Moon – S Pluto RA 98.674279 61×φ golden (20.39)",
+     "S Moon – S Pluto Dec 33.387491 33.3333 ninth (18.76)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "03 Lola Showgirl",
+    "body": "Ketu",
+    "cells": [
+     "J Aldebaran – J Ketu RA 144.221408 144.444 ninth (22.8)",
+     "S Chiron – S Transpluto RA 144.630439 144.444 ninth (35.62)",
+     "S Transpluto → J Ketu Dec 33.277134 33.3333 ninth (15.7)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Moon → H Ketu Dec contraparallel 0.221266 cp contraparallel (26.24)",
+     "S Moon → J Ketu Dec 33.294615 33.3333 ninth (41.92)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "03 Lola Showgirl",
+    "body": "Gonggong",
+    "cells": [
+     "H Fomalhaut – H Gonggong RA 8.892275 8.88889 ninth (80.95)",
+     "S Uranus – S Chiron Dec 8.874843 8.88889 ninth (20.99)",
+     "S Uranus → H Gonggong RA 66.620414 66.6667 ninth (65.31)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Sun – S Gonggong RA 179.549197 10φ⁶ phi power (60.44)",
+     "S Sun → H Gonggong RA 179.272677 10φ⁶ phi power (36.83)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "03 Lola Showgirl",
+    "body": "Gonggong",
+    "cells": [
+     "J Aldebaran – J Gonggong Dec 33.317496 33.3333 ninth (76.24)",
+     "S Pluto – S Transpluto Dec 33.370011 33.3333 ninth (44.98)",
+     "S Transpluto → J Gonggong RA 177.713764 177.778 ninth (82)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Sun – S Gonggong RA 179.549197 10φ⁶ phi power (60.44)",
+     "S Sun → H Gonggong RA 179.272677 10φ⁶ phi power (36.83)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "04 Dalanijujo",
+    "body": "Saturn",
+    "cells": [
+     "H Regulus – H Saturn Dec 34.019762 34 whole (1.19)",
+     "S Gonggong – S Makemake Dec 34.007472 34 whole (62.64)",
+     "S Makemake → H Saturn RA 70.007131 70 whole (64.34)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Sun → H Saturn RA 110.940049 10φ⁵ phi power (76.95)",
+     "S Moon → J Saturn RA 14.450801 14.4444 ninth (77.99)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "04 Dalanijujo",
+    "body": "Ceres",
+    "cells": [
+     "H Antares – H Ceres RA 166.905332 166.667 ninth (28.4)",
+     "S Mercury – S Chiron RA 166.397412 166.667 ninth (19.22)",
+     "S Mercury → H Ceres RA 122.109079 122.222 ninth (53.71)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Moon → H Ceres RA 18.992593 19 whole (62.96)",
+     "S Moon → H Ceres Dec 6.660349 6.66667 ninth (52.62)",
+     "S Sun → H Ceres RA 101.982350 102 whole (11.75)",
+     "S Moon → J Ceres Dec 11.107882 11.1111 ninth (85.47)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "04 Dalanijujo",
+    "body": "Ceres",
+    "cells": [
+     "J Fomalhaut – J Ceres Dec 29.064090 φ⁷ phi power (31.92)",
+     "S Mars – S Vesta RA 29.027806 φ⁷ phi power (84.76)",
+     "S Mars → J Ceres Dec 6.172969 10φ^-1 phi power (20.49)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Moon → H Ceres RA 18.992593 19 whole (62.96)",
+     "S Moon → H Ceres Dec 6.660349 6.66667 ninth (52.62)",
+     "S Sun → H Ceres RA 101.982350 102 whole (11.75)",
+     "S Moon → J Ceres Dec 11.107882 11.1111 ninth (85.47)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "04 Dalanijujo",
+    "body": "Gonggong",
+    "cells": [
+     "J Antares – J Gonggong Dec 8.891416 8.88889 ninth (85.79)",
+     "S Uranus – S Chiron Dec 8.874843 8.88889 ninth (20.99)",
+     "S Uranus → J Gonggong Dec 33.318886 33.3333 ninth (78.33)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Sun – S Gonggong RA 179.549197 10φ⁶ phi power (60.44)",
+     "S Sun → H Gonggong Dec 22.225574 22.2222 ninth (92.46)",
+     "S Sun → H Gonggong RA 179.941969 180 opposition (92.26)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "05 Madame Tantzy",
+    "body": "Sun",
+    "cells": [
+     "H Aldebaran – H Sun Dec 26.157779 10φ² phi power (42.55)",
+     "S Ceres – S Orcus Dec 26.150771 10φ² phi power (24.7)",
+     "S Orcus → H Sun RA 179.275283 10φ⁶ phi power (37.79)"
+    ],
+    "notes": [],
+    "lights": [],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB4": [
+   {
+    "runner": "01 Stunning Beauty",
+    "body": "Ceres",
+    "cells": [
+     "S Ceres → J Ceres RA 144.377956 144.444 ninth (76.98)",
+     "S Pluto – S Regulus RA 144.509043 144.444 ninth (77.64)",
+     "S Venus – S Gonggong RA 144.423524 144.444 ninth (92.76)",
+     "S Chiron – S Transpluto RA 144.630439 144.444 ninth (35.62)",
+     "J Aldebaran – J Ceres RA 147.263218 91×φ golden (31.71)",
+     "S Makemake – S Fomalhaut RA 147.243664 91×φ golden (92.06)"
+    ],
+    "notes": [
+     "same-body ratio vs S Ceres → J Ceres 144.377956 = 1.019984 1 unison (0.08)"
+    ],
+    "lights": [
+     "S Sun → H Ceres RA 99.965038 100 ninth (82.52)",
+     "S Moon → H Ceres RA 21.009906 21 whole (50.47)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "04 Dalanijujo",
+    "body": "Chiron",
+    "cells": [
+     "S Chiron → J Chiron Dec 22.254859 22.2222 ninth (26.57)",
+     "S Chiron – S Quaoar Dec 22.226098 22.2222 ninth (91.28)",
+     "J Antares – J Chiron Dec 11.080600 φ⁵ phi power (42.47)",
+     "S Neptune → J Chiron Dec 11.092348 φ⁵ phi power (86.91)"
+    ],
+    "notes": [
+     "same-body ratio vs S Chiron → J Chiron 22.254859 = 2.008453 2 octave (57.74)"
+    ],
+    "lights": [
+     "S Sun – S Chiron Dec 2.999884 3 whole (99.42)",
+     "S Moon → J Chiron Dec 25.900403 16×φ golden (63.4)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB5": [],
+  "BB6": [],
+  "BB7": [
+   {
+    "runner": "01 Stunning Beauty",
+    "body": "Neptune",
+    "cells": [
+     "S Neptune → H Neptune RA 8.121741 5×φ golden (2.56)",
+     "S Jupiter – S Gonggong RA 8.104517 5×φ golden (55.72)",
+     "H Antares – H Neptune RA 97.602347 (no family)",
+     "H Fomalhaut – H Neptune Dec 22.262806 22.2222 ninth (8.69)",
+     "S Chiron – S Quaoar Dec 22.226098 22.2222 ninth (91.28)"
+    ],
+    "notes": [
+     "same-body ratio vs S Neptune → H Neptune 8.121741 = 12.017417 12 1/12 cut (70.97)"
+    ],
+    "lights": [
+     "S Sun – S Neptune Dec 14.162395 14.14 sqrt2 (4.5)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "04 Dalanijujo",
+    "body": "Juno",
+    "cells": [
+     "S Juno → J Juno Dec 13.000583 13 whole (97.08)",
+     "S Rahu – S Sedna Dec 13.004977 13 whole (75.11)",
+     "J Antares – J Juno Dec 31.361137 (no family)",
+     "J Fomalhaut – J Juno RA 166.717055 166.667 ninth (84.88)",
+     "S Mercury – S Chiron RA 166.397412 166.667 ninth (19.22)"
+    ],
+    "notes": [
+     "same-body ratio vs S Juno → J Juno 13.000583 = 2.412287 1+√2 silver ratio (46.8)"
+    ],
+    "lights": [
+     "S Sun – S Juno RA 93.828360 58×φ golden (45.64)",
+     "S Sun → H Juno Dec 17.775624 17.7778 ninth (93.94)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "05 Madame Tantzy",
+    "body": "Sun",
+    "cells": [
+     "S Sun → H Sun RA 179.330516 10φ⁶ phi power (58.31)",
+     "S Sun – S Gonggong RA 179.549197 10φ⁶ phi power (60.44)",
+     "S Sun – S Gonggong RA 179.549197 180 opposition (39.89)",
+     "S Orcus → H Sun RA 179.275283 10φ⁶ phi power (37.79)",
+     "S Orcus → H Sun RA 179.275283 180 opposition (3.37)",
+     "S Gonggong – S Orcus RA 179.493965 10φ⁶ phi power (80.96)",
+     "S Moon – S Haumea RA 179.781125 180 opposition (70.82)",
+     "S Mars – S Pallas RA 179.344039 10φ⁶ phi power (63.34)",
+     "S Gonggong – S Orcus RA 179.493965 180 opposition (32.53)",
+     "S Mars – S Pallas RA 179.344039 180 opposition (12.54)",
+     "H Antares – H Sun RA 89.562452 (no family)",
+     "H Aldebaran – H Sun Dec 26.157779 10φ² phi power (42.55)",
+     "S Saturn → H Sun RA 26.183349 10φ² phi power (92.34)",
+     "S Ceres – S Orcus Dec 26.150771 10φ² phi power (24.7)"
+    ],
+    "notes": [
+     "same-body ratio vs S Sun → H Sun 179.330516 = 2.002296 2 octave (88.52)"
+    ],
+    "lights": [],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB8": [],
+  "BB9": [
+   {
+    "runner": "02 Pretty In Grey",
+    "body": "Gonggong",
+    "cells": [
+     "H Regulus – H Gonggong Dec 24.265245 15×φ golden (83.75)",
+     "S Mercury – S Regulus RA 24.284993 15×φ golden (55.3)",
+     "S Mercury → H Gonggong RA 159.990769 160 whole (53.85)",
+     "S Mercury → J Gonggong Dec 18.889940 18.8889 ninth (97.22)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Sun – S Gonggong RA 179.549197 10φ⁶ phi power (60.44)",
+     "S Sun → H Gonggong RA 179.882502 180 opposition (84.33)",
+     "S Sun → H Gonggong Dec 22.201974 22.2222 ninth (54.44)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB10": [],
+  "BB11": [
+   {
+    "runner": "03 Lola Showgirl",
+    "body": "Pallas",
+    "cells": [
+     "S Aldebaran – S Pallas RA 79.015987 79 whole (20.07)",
+     "H Aldebaran – H Pallas RA 88.004045 88 whole (79.77)",
+     "S Pallas → H Pallas RA 8.984745 9 whole (23.73)",
+     "H Fomalhaut – H Pallas Dec 24.126105 24.14 silver (55.73)",
+     "S Ketu – S Pallas Dec 24.108908 24.14 silver (8.24)",
+     "H Fomalhaut – H Pallas RA 3.430027 (no family)"
+    ],
+    "notes": [
+     "same-body ratio vs S Pallas → H Pallas 8.984745 = 2.619439 φ² φ squared (64.23)"
+    ],
+    "lights": [
+     "S Moon – S Pallas RA 45.305386 28×φ golden (98.66)"
+    ],
+    "decade": [],
+    "additive": [
+     "WATCH additive step (RA): 88 = 79 + 9 (H Aldebaran – H Pallas; S Aldebaran – S Pallas; S Pallas → H Pallas) (may be geometry: three distances between the same three points)"
+    ],
+    "watch_only": false
+   }
+  ],
+  "BB12": [
+   {
+    "runner": "01 Stunning Beauty",
+    "body": "Mars",
+    "cells": [
+     "J Aldebaran – J Mars RA 179.699288 180 opposition (59.91)",
+     "S Mars – S Pallas RA 179.344039 10φ⁶ phi power (63.34)",
+     "S Pallas → J Mars Dec 24.120858 24.14 silver (41.24)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Moon → J Mars RA 145.989144 146 whole (45.72)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "01 Stunning Beauty",
+    "body": "Mars",
+    "cells": [
+     "J Aldebaran – J Mars RA 179.699288 180 opposition (59.91)",
+     "S Mars – S Pallas RA 179.344039 180 opposition (12.54)",
+     "S Pallas → J Mars Dec 24.120858 24.14 silver (41.24)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Moon → J Mars RA 145.989144 146 whole (45.72)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "02 Pretty In Grey",
+    "body": "Gonggong",
+    "cells": [
+     "J Regulus – J Gonggong RA 179.467403 10φ⁶ phi power (90.83)",
+     "S Gonggong – S Orcus RA 179.493965 10φ⁶ phi power (80.96)",
+     "S Orcus → J Gonggong Dec 6.489847 4×φ golden (45.34)",
+     "S Orcus → H Gonggong RA 179.827270 180 opposition (76.97)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Sun – S Gonggong RA 179.549197 10φ⁶ phi power (60.44)",
+     "S Sun → H Gonggong RA 179.882502 180 opposition (84.33)",
+     "S Sun → H Gonggong Dec 22.201974 22.2222 ninth (54.44)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "02 Pretty In Grey",
+    "body": "Gonggong",
+    "cells": [
+     "J Regulus – J Gonggong RA 179.467403 10φ⁶ phi power (90.83)",
+     "S Gonggong – S Orcus RA 179.493965 180 opposition (32.53)",
+     "S Orcus → J Gonggong Dec 6.489847 4×φ golden (45.34)",
+     "S Orcus → H Gonggong RA 179.827270 180 opposition (76.97)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Sun – S Gonggong RA 179.549197 10φ⁶ phi power (60.44)",
+     "S Sun → H Gonggong RA 179.882502 180 opposition (84.33)",
+     "S Sun → H Gonggong Dec 22.201974 22.2222 ninth (54.44)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "03 Lola Showgirl",
+    "body": "Rahu",
+    "cells": [
+     "H Antares – H Rahu RA 92.206003 57×φ golden (32.3)",
+     "S Sun – S Rahu RA 92.225638 57×φ golden (92.9)",
+     "S Sun → H Rahu RA 1.101313 conj conj (26.58)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Sun – S Rahu RA 92.225638 57×φ golden (92.9)",
+     "S Sun → H Rahu RA 1.101313 conj conj (26.58)",
+     "S Moon → H Rahu Dec 0.221266 conj conj (26.24)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB13": [
+   {
+    "runner": "01 Stunning Beauty",
+    "body": "Pluto",
+    "cells": [
+     "S Pluto → H Pluto Dec 1.631022 1×φ golden (59.91)",
+     "S Sun – S Sedna Dec 1.618313 1×φ golden (99.14)",
+     "S Sun – S Transpluto RA 1.640244 1×φ golden (31.45)",
+     "S Pluto → J Pluto RA 41.440056 41.4 silver (69.9)",
+     "S Jupiter – S Chiron RA 41.383031 41.4 silver (38.32)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Moon – S Pluto RA 98.674279 61×φ golden (20.39)",
+     "S Moon – S Pluto Dec 33.387491 33.3333 ninth (18.76)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB14": [
+   {
+    "runner": "04 Dalanijujo",
+    "body": "Sun",
+    "cells": [
+     "H Sun – J Sun RA 19.418161 12×φ golden (94.59)",
+     "S Neptune – S Ceres Dec 19.417729 12×φ golden (95.92)",
+     "S Neptune → J Sun Dec 8.064782 5×φ golden (21.64)",
+     "S Ceres → J Sun Dec 11.352946 7×φ golden (17.57)"
+    ],
+    "notes": [],
+    "lights": [],
+    "decade": [],
+    "additive": [
+     "WATCH additive step (Dec): 12×φ = 5×φ + 7×φ (S Neptune – S Ceres; S Neptune → J Sun; S Ceres → J Sun) (may be geometry: three distances between the same three points)"
+    ],
+    "watch_only": false
+   },
+   {
+    "runner": "04 Dalanijujo",
+    "body": "Ceres",
+    "cells": [
+     "H Ceres – J Ceres Dec 17.768232 17.7778 ninth (73.15)",
+     "S Saturn – S Eris Dec 17.762624 17.7778 ninth (57.38)",
+     "S Saturn → H Ceres RA 103.531515 64×φ golden (30.06)",
+     "S Eris → H Ceres RA 27.492504 17×φ golden (56.56)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Moon → H Ceres RA 18.992593 19 whole (62.96)",
+     "S Moon → H Ceres Dec 6.660349 6.66667 ninth (52.62)",
+     "S Sun → H Ceres RA 101.982350 102 whole (11.75)",
+     "S Moon → J Ceres Dec 11.107882 11.1111 ninth (85.47)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "04 Dalanijujo",
+    "body": "Ceres",
+    "cells": [
+     "H Ceres – J Ceres Dec 17.768232 17.7778 ninth (73.15)",
+     "S Vesta – S Haumea Dec 17.813978 11×φ golden (51.84)",
+     "S Vesta → H Ceres Dec 19.418520 12×φ golden (93.48)",
+     "S Haumea → H Ceres Dec 1.604543 1×φ golden (58.36)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Moon → H Ceres RA 18.992593 19 whole (62.96)",
+     "S Moon → H Ceres Dec 6.660349 6.66667 ninth (52.62)",
+     "S Sun → H Ceres RA 101.982350 102 whole (11.75)",
+     "S Moon → J Ceres Dec 11.107882 11.1111 ninth (85.47)"
+    ],
+    "decade": [],
+    "additive": [
+     "WATCH additive step (Dec): 12×φ = 11×φ + 1×φ (S Vesta → H Ceres; S Vesta – S Haumea; S Haumea → H Ceres) (may be geometry: three distances between the same three points)"
+    ],
+    "watch_only": false
+   },
+   {
+    "runner": "04 Dalanijujo",
+    "body": "Ceres",
+    "cells": [
+     "H Ceres – J Ceres Dec 17.768232 17.7778 ninth (73.15)",
+     "S Vesta – S Haumea Dec 17.813978 11×φ golden (51.84)",
+     "S Vesta → J Ceres Dec 1.650289 1×φ golden (0.45)",
+     "S Haumea → J Ceres Dec 16.163689 10×φ golden (48.61)",
+     "S Haumea → J Ceres RA 161.651967 100φ phi power (37.61)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Moon → H Ceres RA 18.992593 19 whole (62.96)",
+     "S Moon → H Ceres Dec 6.660349 6.66667 ninth (52.62)",
+     "S Sun → H Ceres RA 101.982350 102 whole (11.75)",
+     "S Moon → J Ceres Dec 11.107882 11.1111 ninth (85.47)"
+    ],
+    "decade": [],
+    "additive": [
+     "WATCH additive step (Dec): 11×φ = 1×φ + 10×φ (S Vesta – S Haumea; S Vesta → J Ceres; S Haumea → J Ceres) (may be geometry: three distances between the same three points)"
+    ],
+    "watch_only": false
+   },
+   {
+    "runner": "05 Madame Tantzy",
+    "body": "Ceres",
+    "cells": [
+     "H Ceres – J Ceres Dec 33.356281 33.3333 ninth (65.58)",
+     "S Pluto – S Moon Dec 33.387491 33.3333 ninth (18.76)",
+     "S Pluto → J Ceres RA 122.040190 122.222 ninth (25.53)",
+     "S Moon → J Ceres Dec 7.782336 7.77778 ninth (70.7)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Moon → J Ceres Dec 7.782336 7.77778 ninth (70.7)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB15": [],
+  "BB16": [
+   {
+    "runner": "05 Madame Tantzy",
+    "body": "Sun",
+    "cells": [
+     "S Sun → H Sun RA 179.330516 10φ⁶ phi power (58.31)",
+     "S Orcus → H Sun RA 179.275283 10φ⁶ phi power (37.79)",
+     "S Orcus – S Sun RA 0.055233 conj conj (96.32)"
+    ],
+    "notes": [],
+    "lights": [],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "05 Madame Tantzy",
+    "body": "Sun",
+    "cells": [
+     "S Sun → J Sun RA 123.109954 φ¹⁰ phi power (35.99)",
+     "S Orcus → J Sun RA 123.165187 φ¹⁰ phi power (6.05)",
+     "S Orcus – S Sun RA 0.055233 conj conj (96.32)"
+    ],
+    "notes": [],
+    "lights": [],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB17": [],
+  "BB18": [],
+  "BB19": [],
+  "BB20": [
+   {
+    "runner": "02 Pretty In Grey",
+    "body": "Mercury",
+    "cells": [
+     "J Aldebaran – J Mercury Dec contraparallel 0.000832 cp contraparallel (99.72)",
+     "S Mercury – S Eris Dec contraparallel 0.149780 cp contraparallel (50.07)",
+     "S Juno – S Sedna Dec contraparallel 0.213506 cp contraparallel (28.83)",
+     "S Juno → H Mercury RA 132.980598 133 whole (2.99)",
+     "S Sedna – S Mercury RA 117.011353 117 whole (43.24)",
+     "S Sedna → H Mercury Dec 0.105470 conj conj (64.84)",
+     "S Pluto – S Makemake Dec contraparallel 0.254798 cp contraparallel (15.07)",
+     "S Pluto – S Mercury Dec 24.246487 15×φ golden (25.86)",
+     "S Haumea – S Quaoar Dec contraparallel 0.282093 cp contraparallel (5.97)",
+     "S Haumea → H Mercury RA 168.002777 168 whole (86.11)"
+    ],
+    "notes": [
+     "3 pairs with an end on Mercury"
+    ],
+    "lights": [
+     "S Moon → H Mercury RA 12.216099 12.2222 ninth (74.95)",
+     "S Sun → H Mercury RA 133.191042 133.333 ninth (46.64)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB21": [],
+  "BB22": [],
+  "BB23": [
+   {
+    "runner": "01 Stunning Beauty",
+    "body": "Gonggong",
+    "cells": [
+     "J Aldebaran – J Gonggong Dec 33.285868 33.3333 ninth (28.8)",
+     "S Pluto – S Transpluto Dec 33.370011 33.3333 ninth (44.98)",
+     "S Transpluto → J Gonggong RA 177.796045 177.778 ninth (94.86)",
+     "S Transpluto – S Gonggong RA 177.908953 177.778 ninth (63.11)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Sun – S Gonggong RA 179.549197 10φ⁶ phi power (60.44)",
+     "S Sun → H Gonggong RA 179.910284 180 opposition (88.04)",
+     "S Sun → H Gonggong Dec 22.212982 22.2222 ninth (79.21)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "03 Lola Showgirl",
+    "body": "Gonggong",
+    "cells": [
+     "J Aldebaran – J Gonggong Dec 33.317496 33.3333 ninth (76.24)",
+     "S Pluto – S Transpluto Dec 33.370011 33.3333 ninth (44.98)",
+     "S Transpluto → J Gonggong RA 177.713764 177.778 ninth (82)",
+     "S Transpluto – S Gonggong RA 177.908953 177.778 ninth (63.11)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Sun – S Gonggong RA 179.549197 10φ⁶ phi power (60.44)",
+     "S Sun → H Gonggong RA 179.272677 10φ⁶ phi power (36.83)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB24": [
+   {
+    "runner": "02 Pretty In Grey",
+    "body": "Pluto",
+    "cells": [
+     "S Pluto → H Pluto Dec 1.622569 1×φ golden (86)",
+     "S Sun – S Sedna Dec 1.618313 1×φ golden (99.14)",
+     "S Sun → J Pluto RA 93.993852 94 whole (69.26)",
+     "S Sedna → J Pluto Dec 18.867018 18.8889 ninth (42.11)",
+     "S Sun – S Transpluto RA 1.640244 1×φ golden (31.45)",
+     "S Transpluto → J Pluto Dec contraparallel 0.050543 cp contraparallel (83.15)"
+    ],
+    "notes": [
+     "2 different pairs, both ends on natal Pluto"
+    ],
+    "lights": [
+     "S Moon – S Pluto RA 98.674279 61×φ golden (20.39)",
+     "S Moon – S Pluto Dec 33.387491 33.3333 ninth (18.76)",
+     "S Moon → J Pluto Dec contraparallel 0.033063 cp contraparallel (88.98)",
+     "S Sun → J Pluto RA 93.993852 94 whole (69.26)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "04 Dalanijujo",
+    "body": "Pluto",
+    "cells": [
+     "S Pluto → H Pluto Dec 1.637679 1×φ golden (39.37)",
+     "S Sun – S Sedna Dec 1.618313 1×φ golden (99.14)",
+     "S Sun → J Pluto Dec 19.384622 12×φ golden (1.9)",
+     "S Sedna → J Pluto Dec 17.766309 17.7778 ninth (67.74)",
+     "S Sun – S Transpluto RA 1.640244 1×φ golden (31.45)",
+     "S Transpluto → H Pluto RA 136.004564 136 whole (77.18)",
+     "S Transpluto → J Pluto Dec 20.012801 20 whole (36)"
+    ],
+    "notes": [
+     "2 different pairs, both ends on natal Pluto"
+    ],
+    "lights": [
+     "S Moon – S Pluto RA 98.674279 61×φ golden (20.39)",
+     "S Moon – S Pluto Dec 33.387491 33.3333 ninth (18.76)",
+     "S Sun → J Pluto Dec 19.384622 12×φ golden (1.9)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "05 Madame Tantzy",
+    "body": "Sun",
+    "cells": [
+     "S Sun → H Sun RA 179.330516 10φ⁶ phi power (58.31)",
+     "S Gonggong – S Orcus RA 179.493965 10φ⁶ phi power (80.96)",
+     "S Gonggong → H Sun RA 0.218682 conj conj (85.42)",
+     "S Orcus → H Sun RA 179.275283 10φ⁶ phi power (37.79)",
+     "S Orcus → J Sun RA 123.165187 φ¹⁰ phi power (6.05)",
+     "S Mars – S Pallas RA 179.344039 10φ⁶ phi power (63.34)",
+     "S Mars → J Sun RA 110.046245 68×φ golden (38.48)",
+     "S Pallas → J Sun Dec 25.982315 26 whole (11.57)",
+     "S Pallas → J Sun RA 70.609717 70.7 sqrt2 (4.81)"
+    ],
+    "notes": [
+     "2 different pairs, both ends on natal Sun"
+    ],
+    "lights": [],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB25": [
+   {
+    "runner": "02 Pretty In Grey",
+    "body": "Saturn",
+    "cells": [
+     "S Regulus – S Saturn Dec 30.990038 31 whole (50.19)",
+     "H Regulus – H Saturn Dec 34.006608 34 whole (66.96)",
+     "S Saturn → H Saturn Dec 3.019229 3 whole (3.85)",
+     "S Sun – S Chiron Dec 2.999884 3 whole (99.42)",
+     "S Neptune – S Eris Dec 3.000912 3 whole (95.44)",
+     "S Jupiter – S Orcus Dec 3.008799 3 whole (56.01)",
+     "S Neptune – S Saturn RA 42.350587 10φ³ phi power (84.12)",
+     "S Eris – S Saturn RA 76.039011 φ⁹ phi power (77.32)",
+     "S Eris – S Saturn Dec 17.762624 17.7778 ninth (57.38)",
+     "S Jupiter – S Saturn Dec 5.019870 5 whole (0.65)"
+    ],
+    "notes": [],
+    "lights": [],
+    "decade": [],
+    "additive": [
+     "WATCH additive step (Dec): 34 = 31 + 3 (H Regulus – H Saturn; S Regulus – S Saturn; S Saturn → H Saturn) (may be geometry: three distances between the same three points)",
+     "WATCH additive step (Dec): 34 = 31 + 3 (H Regulus – H Saturn; S Regulus – S Saturn; S Sun – S Chiron)",
+     "WATCH additive step (Dec): 34 = 31 + 3 (H Regulus – H Saturn; S Regulus – S Saturn; S Neptune – S Eris)",
+     "WATCH additive step (Dec): 34 = 31 + 3 (H Regulus – H Saturn; S Regulus – S Saturn; S Jupiter – S Orcus)"
+    ],
+    "watch_only": false
+   },
+   {
+    "runner": "02 Pretty In Grey",
+    "body": "Neptune",
+    "cells": [
+     "S Regulus – S Neptune RA 159.005014 159 whole (74.93)",
+     "H Regulus – H Neptune RA 167.016494 167 whole (17.53)",
+     "S Neptune → H Neptune RA 8.003900 8 whole (80.5)",
+     "S Venus – S Pallas Dec 7.990839 8 whole (54.2)",
+     "S Pallas – S Neptune Dec 7.078031 7.07 sqrt2 (34.35)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Sun – S Neptune Dec 14.162395 14.14 sqrt2 (4.5)",
+     "S Moon → J Neptune RA 90.589098 56×φ golden (35.79)"
+    ],
+    "decade": [],
+    "additive": [
+     "WATCH additive step (RA): 167 = 159 + 8 (H Regulus – H Neptune; S Regulus – S Neptune; S Neptune → H Neptune) (may be geometry: three distances between the same three points)"
+    ],
+    "watch_only": false
+   },
+   {
+    "runner": "03 Lola Showgirl",
+    "body": "Saturn",
+    "cells": [
+     "S Regulus – S Saturn Dec 30.990038 31 whole (50.19)",
+     "H Regulus – H Saturn Dec 34.000497 34 whole (97.51)",
+     "S Saturn → H Saturn Dec 3.014399 3 whole (28)",
+     "S Sun – S Chiron Dec 2.999884 3 whole (99.42)",
+     "S Neptune – S Eris Dec 3.000912 3 whole (95.44)",
+     "S Jupiter – S Orcus Dec 3.008799 3 whole (56.01)",
+     "S Neptune – S Saturn RA 42.350587 10φ³ phi power (84.12)",
+     "S Eris – S Saturn RA 76.039011 φ⁹ phi power (77.32)",
+     "S Eris – S Saturn Dec 17.762624 17.7778 ninth (57.38)",
+     "S Jupiter – S Saturn Dec 5.019870 5 whole (0.65)"
+    ],
+    "notes": [],
+    "lights": [],
+    "decade": [],
+    "additive": [
+     "WATCH additive step (Dec): 34 = 31 + 3 (H Regulus – H Saturn; S Regulus – S Saturn; S Saturn → H Saturn) (may be geometry: three distances between the same three points)",
+     "WATCH additive step (Dec): 34 = 31 + 3 (H Regulus – H Saturn; S Regulus – S Saturn; S Sun – S Chiron)",
+     "WATCH additive step (Dec): 34 = 31 + 3 (H Regulus – H Saturn; S Regulus – S Saturn; S Neptune – S Eris)",
+     "WATCH additive step (Dec): 34 = 31 + 3 (H Regulus – H Saturn; S Regulus – S Saturn; S Jupiter – S Orcus)"
+    ],
+    "watch_only": false
+   },
+   {
+    "runner": "05 Madame Tantzy",
+    "body": "Makemake",
+    "cells": [
+     "S Antares – S Makemake RA 50.175098 31×φ golden (50.48)",
+     "J Antares – J Makemake RA 67.957924 42×φ golden (98.47)",
+     "S Makemake → J Makemake RA 17.788727 11×φ golden (70.23)",
+     "S Eris – S Aldebaran Dec 17.766808 17.7778 ninth (69.15)",
+     "S Eris – S Aldebaran Dec 17.766808 11×φ golden (2.57)",
+     "S Saturn – S Eris Dec 17.762624 17.7778 ninth (57.38)",
+     "S Vesta – S Haumea Dec 17.813978 11×φ golden (51.84)",
+     "S Vesta – S Makemake RA 1.158598 conj conj (22.76)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Moon – S Makemake RA 161.907861 100φ phi power (56.96)",
+     "S Moon → H Makemake RA 158.993415 159 whole (67.07)",
+     "S Sun → H Makemake RA 38.018472 38 whole (7.64)"
+    ],
+    "decade": [],
+    "additive": [
+     "WATCH additive step (RA): 42×φ = 31×φ + 11×φ (J Antares – J Makemake; S Antares – S Makemake; S Makemake → J Makemake) (may be geometry: three distances between the same three points)"
+    ],
+    "watch_only": false
+   },
+   {
+    "runner": "05 Madame Tantzy",
+    "body": "Makemake",
+    "cells": [
+     "S Fomalhaut – S Makemake RA 147.243664 91×φ golden (92.06)",
+     "J Fomalhaut – J Makemake RA 165.021425 102×φ golden (44.32)",
+     "S Makemake → J Makemake RA 17.788727 11×φ golden (70.23)",
+     "S Eris – S Aldebaran Dec 17.766808 17.7778 ninth (69.15)",
+     "S Eris – S Aldebaran Dec 17.766808 11×φ golden (2.57)",
+     "S Saturn – S Eris Dec 17.762624 17.7778 ninth (57.38)",
+     "S Vesta – S Haumea Dec 17.813978 11×φ golden (51.84)",
+     "S Vesta – S Makemake RA 1.158598 conj conj (22.76)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Moon – S Makemake RA 161.907861 100φ phi power (56.96)",
+     "S Moon → H Makemake RA 158.993415 159 whole (67.07)",
+     "S Sun → H Makemake RA 38.018472 38 whole (7.64)"
+    ],
+    "decade": [],
+    "additive": [
+     "WATCH additive step (RA): 102×φ = 91×φ + 11×φ (J Fomalhaut – J Makemake; S Fomalhaut – S Makemake; S Makemake → J Makemake) (may be geometry: three distances between the same three points)"
+    ],
+    "watch_only": false
+   }
+  ],
+  "BB26": [],
+  "BB27": [
+   {
+    "runner": "01 Stunning Beauty",
+    "body": "Gonggong",
+    "cells": [
+     "J Aldebaran – J Gonggong Dec 33.285868 33.3333 ninth (28.8)",
+     "S Chiron – S Gonggong RA 33.278514 33.3333 ninth (17.77)",
+     "S Chiron – S Antares Dec 33.336070 33.3333 ninth (95.89)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Sun – S Gonggong RA 179.549197 10φ⁶ phi power (60.44)",
+     "S Sun → H Gonggong RA 179.910284 180 opposition (88.04)",
+     "S Sun → H Gonggong Dec 22.212982 22.2222 ninth (79.21)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "03 Lola Showgirl",
+    "body": "Gonggong",
+    "cells": [
+     "J Aldebaran – J Gonggong Dec 33.317496 33.3333 ninth (76.24)",
+     "S Chiron – S Gonggong RA 33.278514 33.3333 ninth (17.77)",
+     "S Chiron – S Antares Dec 33.336070 33.3333 ninth (95.89)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Sun – S Gonggong RA 179.549197 10φ⁶ phi power (60.44)",
+     "S Sun → H Gonggong RA 179.272677 10φ⁶ phi power (36.83)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB28": [
+   {
+    "runner": "01 Stunning Beauty",
+    "body": "Juno",
+    "cells": [
+     "S Regulus – S Juno RA 97.986625 98 whole (33.13)",
+     "J Regulus – J Juno RA 141.433401 141.4 sqrt2 (94.32)",
+     "S Mars – S Saturn RA 141.422426 141.4 sqrt2 (99.5)",
+     "S Mars → J Juno Dec 5.990249 6 whole (51.25)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Sun – S Juno RA 93.828360 58×φ golden (45.64)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "04 Dalanijujo",
+    "body": "Saturn",
+    "cells": [
+     "S Regulus – S Saturn Dec 30.990038 31 whole (50.19)",
+     "H Regulus – H Saturn Dec 34.019762 34 whole (1.19)",
+     "S Gonggong – S Makemake Dec 34.007472 34 whole (62.64)",
+     "S Makemake → H Saturn RA 70.007131 70 whole (64.34)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Sun → H Saturn RA 110.940049 10φ⁵ phi power (76.95)",
+     "S Moon → J Saturn RA 14.450801 14.4444 ninth (77.99)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB29": [],
+  "BB30": [
+   {
+    "runner": "04 Dalanijujo",
+    "body": "Ceres",
+    "cells": [
+     "H Ceres – J Ceres Dec 17.768232 17.7778 ninth (73.15)",
+     "S Saturn – S Eris Dec 17.762624 17.7778 ninth (57.38)",
+     "S Saturn → H Ceres RA 103.531515 64×φ golden (30.06)",
+     "S Eris → H Ceres RA 27.492504 17×φ golden (56.56)",
+     "S Vesta – S Haumea Dec 17.813978 11×φ golden (51.84)",
+     "S Vesta → H Ceres Dec 19.418520 12×φ golden (93.48)",
+     "S Vesta → J Ceres Dec 1.650289 1×φ golden (0.45)",
+     "S Haumea → H Ceres Dec 1.604543 1×φ golden (58.36)",
+     "S Haumea → J Ceres Dec 16.163689 10×φ golden (48.61)",
+     "S Haumea → J Ceres RA 161.651967 100φ phi power (37.61)"
+    ],
+    "notes": [
+     "2 pairs, every end on Ceres"
+    ],
+    "lights": [
+     "S Moon → H Ceres RA 18.992593 19 whole (62.96)",
+     "S Moon → H Ceres Dec 6.660349 6.66667 ninth (52.62)",
+     "S Sun → H Ceres RA 101.982350 102 whole (11.75)",
+     "S Moon → J Ceres Dec 11.107882 11.1111 ninth (85.47)"
+    ],
+    "decade": [],
+    "additive": [
+     "WATCH additive step (Dec): 12×φ = 11×φ + 1×φ (S Vesta → H Ceres; S Vesta – S Haumea; S Vesta → J Ceres)",
+     "WATCH additive step (Dec): 12×φ = 11×φ + 1×φ (S Vesta → H Ceres; S Vesta – S Haumea; S Haumea → H Ceres) (may be geometry: three distances between the same three points)",
+     "WATCH additive step (Dec): 11×φ = 1×φ + 10×φ (S Vesta – S Haumea; S Vesta → J Ceres; S Haumea → J Ceres) (may be geometry: three distances between the same three points)",
+     "WATCH additive step (Dec): 11×φ = 1×φ + 10×φ (S Vesta – S Haumea; S Haumea → H Ceres; S Haumea → J Ceres)"
+    ],
+    "watch_only": false
+   }
+  ],
+  "BB31": [
+   {
+    "runner": "05 Madame Tantzy",
+    "body": "Sun",
+    "cells": [
+     "S Sun → H Sun RA 179.330516 10φ⁶ phi power (58.31)",
+     "S Gonggong – S Orcus RA 179.493965 10φ⁶ phi power (80.96)",
+     "S Orcus – S Sun RA 0.055233 conj conj (96.32)",
+     "S Orcus → H Sun RA 179.275283 10φ⁶ phi power (37.79)",
+     "S Orcus → J Sun RA 123.165187 φ¹⁰ phi power (6.05)",
+     "S Gonggong – S Orcus RA 179.493965 180 opposition (32.53)",
+     "S Sun – S Gonggong RA 179.549197 10φ⁶ phi power (60.44)",
+     "S Gonggong → H Sun RA 0.218682 conj conj (85.42)",
+     "S Sun – S Gonggong RA 179.549197 180 opposition (39.89)"
+    ],
+    "notes": [],
+    "lights": [],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB32": [],
+  "BB32b": [],
+  "BB33": [],
+  "BB34": [
+   {
+    "runner": "03 Lola Showgirl",
+    "body": "Rahu",
+    "cells": [
+     "H Regulus – H Rahu Dec 1.637598 1×φ golden (39.62)",
+     "S Sun – S Sedna Dec 1.618313 1×φ golden (99.14)",
+     "S Sun – S Rahu RA 92.225638 57×φ golden (92.9)",
+     "S Sedna – S Rahu Dec 13.004977 13 whole (75.11)",
+     "S Sun → H Rahu RA 1.101313 conj conj (26.58)",
+     "S Sedna → J Rahu Dec 14.460660 14.4444 ninth (43.87)"
+    ],
+    "notes": [
+     "S Sun on sky Rahu (RA), S Sedna on sky Rahu (Dec); both on natal Rahu",
+     "WATCH Sedna is an end of the pair (S Sun – S Sedna)"
+    ],
+    "lights": [
+     "S Sun – S Rahu RA 92.225638 57×φ golden (92.9)",
+     "S Sun → H Rahu RA 1.101313 conj conj (26.58)",
+     "S Moon → H Rahu Dec 0.221266 conj conj (26.24)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "03 Lola Showgirl",
+    "body": "Rahu",
+    "cells": [
+     "H Regulus – H Rahu Dec 1.637598 1×φ golden (39.62)",
+     "S Sun – S Transpluto RA 1.640244 1×φ golden (31.45)",
+     "S Sun – S Rahu RA 92.225638 57×φ golden (92.9)",
+     "S Transpluto – S Rahu RA 90.585393 56×φ golden (24.35)",
+     "S Sun → H Rahu RA 1.101313 conj conj (26.58)",
+     "S Transpluto → H Rahu RA 0.538932 conj conj (64.07)",
+     "S Transpluto → H Rahu Dec 0.203786 conj conj (32.07)",
+     "S Transpluto → J Rahu Dec 12.214168 12.2222 ninth (67.05)"
+    ],
+    "notes": [
+     "S Sun on sky Rahu (RA), S Transpluto on sky Rahu (RA); both on natal Rahu"
+    ],
+    "lights": [
+     "S Sun – S Rahu RA 92.225638 57×φ golden (92.9)",
+     "S Sun → H Rahu RA 1.101313 conj conj (26.58)",
+     "S Moon → H Rahu Dec 0.221266 conj conj (26.24)"
+    ],
+    "decade": [],
+    "additive": [
+     "WATCH additive step (RA): 57×φ = 1×φ + 56×φ (S Sun – S Rahu; S Sun – S Transpluto; S Transpluto – S Rahu) (may be geometry: three distances between the same three points)"
+    ],
+    "watch_only": false
+   }
+  ],
+  "BB35": [
+   {
+    "runner": "01 Stunning Beauty",
+    "body": "Chiron",
+    "cells": [
+     "H Aldebaran – H Chiron Dec 14.312626 (no family)",
+     "H Antares – H Chiron Dec 28.627361 (no family)",
+     "S Aldebaran – S Chiron RA 59.006341 59 whole (68.3)",
+     "S Antares – S Chiron Dec 33.336070 33.3333 ninth (95.89)"
+    ],
+    "notes": [
+     "H Aldebaran and H Antares – Chiron Dec: crossed same-body ratios 1 unison (69.83); 2 octave (40.75); both stars on sky Chiron"
+    ],
+    "lights": [
+     "S Sun – S Chiron Dec 2.999884 3 whole (99.42)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "01 Stunning Beauty",
+    "body": "Makemake",
+    "cells": [
+     "H Antares – H Makemake Dec 51.863796 (no family)",
+     "H Fomalhaut – H Makemake Dec 55.053779 (no family)",
+     "S Antares – S Makemake RA 50.175098 31×φ golden (50.48)",
+     "S Antares – S Makemake Dec 49.016379 49 whole (18.1)",
+     "S Fomalhaut – S Makemake RA 147.243664 91×φ golden (92.06)"
+    ],
+    "notes": [
+     "H Antares and H Fomalhaut – Makemake Dec: crossed same-body ratios 17 1/17 cut (70.47); 18 1/18 cut (78.91); both stars on sky Makemake"
+    ],
+    "lights": [
+     "S Moon – S Makemake RA 161.907861 100φ phi power (56.96)",
+     "S Sun → H Makemake Dec 15.527915 15.5556 ninth (11.15)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "03 Lola Showgirl",
+    "body": "Chiron",
+    "cells": [
+     "H Aldebaran – H Chiron RA 77.752729 77.7778 ninth (83.9)",
+     "H Antares – H Chiron RA 103.881551 (no family)",
+     "S Aldebaran – S Chiron RA 59.006341 59 whole (68.3)",
+     "S Antares – S Chiron Dec 33.336070 33.3333 ninth (95.89)"
+    ],
+    "notes": [
+     "H Aldebaran and H Antares – Chiron RA: crossed same-body ratios 12 1/12 cut (67.87); 16 1/16 cut (91.45); both stars on sky Chiron",
+     "WATCH a crossed ratio scores >= 80"
+    ],
+    "lights": [
+     "S Sun – S Chiron Dec 2.999884 3 whole (99.42)",
+     "S Sun → H Chiron RA 165.013759 165 whole (31.21)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "05 Madame Tantzy",
+    "body": "Makemake",
+    "cells": [
+     "J Antares – J Makemake RA 67.957924 42×φ golden (98.47)",
+     "J Fomalhaut – J Makemake RA 165.021425 102×φ golden (44.32)",
+     "S Antares – S Makemake RA 50.175098 31×φ golden (50.48)",
+     "S Antares – S Makemake Dec 49.016379 49 whole (18.1)",
+     "S Fomalhaut – S Makemake RA 147.243664 91×φ golden (92.06)"
+    ],
+    "notes": [
+     "J Antares and J Fomalhaut – Makemake RA: crossed same-body ratios 7 7th harmonic (88.86); 17 1/17 cut (91.3); both stars on sky Makemake",
+     "WATCH a crossed ratio scores >= 80"
+    ],
+    "lights": [
+     "S Moon – S Makemake RA 161.907861 100φ phi power (56.96)",
+     "S Moon → H Makemake RA 158.993415 159 whole (67.07)",
+     "S Sun → H Makemake RA 38.018472 38 whole (7.64)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB36": [],
+  "BB37": [],
+  "BB38": [],
+  "BB39": [],
+  "BB40": [],
+  "BB41": [],
+  "BB42": [
+   {
+    "runner": "05 Madame Tantzy",
+    "body": "Orcus",
+    "cells": [
+     "S Chiron → H Orcus Dec 16.180017 10×φ golden (99)",
+     "S Chiron → H Orcus RA 141.446349 141.4 sqrt2 (88.22)",
+     "S Chiron → J Orcus RA 127.820753 79×φ golden (87.86)",
+     "S Chiron → J Orcus Dec 8.008431 8 whole (57.85)",
+     "S Eris – S Orcus RA 129.419622 80×φ golden (28.71)",
+     "S Eris – S Orcus Dec 9.733954 6×φ golden (20.52)",
+     "S Eris → H Orcus Dec 8.018418 8 whole (7.91)",
+     "S Eris → J Orcus RA 111.024923 111.111 ninth (61.22)",
+     "S Eris → J Orcus Dec 0.153168 conj conj (48.94)"
+    ],
+    "notes": [
+     "Chiron on H Orcus and J Orcus in RA and Dec (4 lines)",
+     "Eris on sky Orcus, H Orcus and J Orcus",
+     "WATCH Eris: S Eris → J Orcus Dec is a conj"
+    ],
+    "lights": [
+     "S Sun – S Orcus RA 0.055233 conj conj (96.32)",
+     "S Sun → H Orcus RA 4.824334 3×φ golden (8.12)",
+     "S Sun → J Orcus Dec 11.008315 11 whole (58.43)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB43": [
+   {
+    "runner": "02 Pretty In Grey",
+    "body": "Saturn",
+    "cells": [
+     "S Saturn → H Saturn Dec 3.019229 3 whole (3.85)",
+     "S Neptune – S Eris Dec 3.000912 3 whole (95.44)",
+     "S Eris – S Saturn RA 76.039011 φ⁹ phi power (77.32)",
+     "S Eris – S Saturn Dec 17.762624 17.7778 ninth (57.38)",
+     "S Neptune → H Saturn Dec 17.780941 17.7778 ninth (91.1)",
+     "S Neptune → J Saturn RA 33.975875 21×φ golden (91.24)"
+    ],
+    "notes": [
+     "S Saturn → H Saturn Dec closed by S Neptune – S Eris Dec: Eris on sky Saturn, Neptune on H Saturn and J Saturn"
+    ],
+    "lights": [],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "03 Lola Showgirl",
+    "body": "Juno",
+    "cells": [
+     "S Juno → J Juno RA 116.983039 117 whole (15.2)",
+     "S Mercury – S Sedna RA 117.011353 117 whole (43.24)",
+     "S Sedna – S Juno Dec contraparallel 0.213506 cp contraparallel (28.83)",
+     "S Mercury → H Juno Dec 13.984393 14 whole (21.97)",
+     "S Mercury → J Juno Dec 3.012907 3 whole (35.47)",
+     "S Mercury → J Juno Dec contraparallel 0.196988 cp contraparallel (34.34)"
+    ],
+    "notes": [
+     "S Juno → J Juno RA closed by S Mercury – S Sedna RA: Sedna on sky Juno, Mercury on H Juno and J Juno",
+     "WATCH an end line is a conj / contraparallel: S Sedna – S Juno Dec contraparallel; S Mercury → J Juno Dec contraparallel"
+    ],
+    "lights": [
+     "S Sun – S Juno RA 93.828360 58×φ golden (45.64)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "05 Madame Tantzy",
+    "body": "Sun",
+    "cells": [
+     "S Sun → H Sun RA 179.330516 10φ⁶ phi power (58.31)",
+     "S Gonggong – S Orcus RA 179.493965 10φ⁶ phi power (80.96)",
+     "S Gonggong – S Sun RA 179.549197 10φ⁶ phi power (60.44)",
+     "S Orcus → H Sun RA 179.275283 10φ⁶ phi power (37.79)",
+     "S Orcus → J Sun RA 123.165187 φ¹⁰ phi power (6.05)"
+    ],
+    "notes": [
+     "S Sun → H Sun RA closed by S Gonggong – S Orcus RA: Gonggong on sky Sun, Orcus on H Sun and J Sun"
+    ],
+    "lights": [],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "05 Madame Tantzy",
+    "body": "Eris",
+    "cells": [
+     "S Eris → H Eris RA 1.589875 1×φ golden (13.09)",
+     "S Sun – S Transpluto RA 1.640244 1×φ golden (31.45)",
+     "S Sun – S Eris RA 129.474854 80×φ golden (0.82)",
+     "S Transpluto → H Eris RA 129.424485 80×φ golden (43.72)",
+     "S Transpluto → J Eris Dec 17.949095 φ⁶ phi power (82.08)",
+     "S Transpluto – S Eris RA 127.834610 79×φ golden (69.37)",
+     "S Sun → H Eris RA 131.064729 81×φ golden (87.73)",
+     "S Sun → J Eris RA 133.299083 133.333 ninth (87.16)",
+     "S Eris → H Eris Dec 1.609203 1×φ golden (72.74)"
+    ],
+    "notes": [
+     "S Eris → H Eris RA closed by S Sun – S Transpluto RA: Sun on sky Eris, Transpluto on H Eris and J Eris",
+     "S Eris → H Eris RA closed by S Sun – S Transpluto RA: Transpluto on sky Eris, Sun on H Eris and J Eris",
+     "S Eris → H Eris Dec closed by S Sun – S Transpluto RA: Sun on sky Eris, Transpluto on H Eris and J Eris",
+     "S Eris → H Eris Dec closed by S Sun – S Transpluto RA: Transpluto on sky Eris, Sun on H Eris and J Eris",
+     "WATCH Aldebaran has a same-body ratio on a target in both charts: H Aldebaran – H Eris Dec same-body ratio vs S Eris → H Eris 1.609203 = 12.040343 12 1/12 cut (32.76); J Aldebaran – J Eris RA same-body ratio vs S Eris → J Eris 3.824229 = 12.039063 12 1/12 cut (34.9)"
+    ],
+    "lights": [
+     "S Sun – S Eris RA 129.474854 80×φ golden (0.82)",
+     "S Sun → H Eris RA 131.064729 81×φ golden (87.73)",
+     "S Sun → J Eris RA 133.299083 133.333 ninth (87.16)",
+     "S Moon → J Eris Dec 17.966575 φ⁶ phi power (17.14)"
+    ],
+    "decade": [],
+    "additive": [
+     "WATCH additive step (RA): 81×φ = 1×φ + 80×φ (S Sun → H Eris; S Eris → H Eris; S Sun – S Eris) (may be geometry: three distances between the same three points)",
+     "WATCH additive step (RA): 81×φ = 1×φ + 80×φ (S Sun → H Eris; S Eris → H Eris; S Transpluto → H Eris)",
+     "WATCH additive step (RA): 80×φ = 1×φ + 79×φ (S Sun – S Eris; S Eris → H Eris; S Transpluto – S Eris)",
+     "WATCH additive step (RA): 80×φ = 1×φ + 79×φ (S Transpluto → H Eris; S Eris → H Eris; S Transpluto – S Eris) (may be geometry: three distances between the same three points)",
+     "WATCH additive step (RA): 81×φ = 1×φ + 80×φ (S Sun → H Eris; S Sun – S Transpluto; S Sun – S Eris)",
+     "WATCH additive step (RA): 81×φ = 1×φ + 80×φ (S Sun → H Eris; S Sun – S Transpluto; S Transpluto → H Eris) (may be geometry: three distances between the same three points)",
+     "WATCH additive step (RA): 80×φ = 1×φ + 79×φ (S Sun – S Eris; S Sun – S Transpluto; S Transpluto – S Eris) (may be geometry: three distances between the same three points)",
+     "WATCH additive step (RA): 80×φ = 1×φ + 79×φ (S Transpluto → H Eris; S Sun – S Transpluto; S Transpluto – S Eris)"
+    ],
+    "watch_only": false
+   }
+  ],
+  "BB44": [],
+  "BB45": [],
+  "BB46": [],
+  "BB47": [],
+  "BB48": [],
+  "BB49": [],
+  "BB50": [
+   {
+    "runner": "04 Dalanijujo",
+    "body": "Pluto",
+    "cells": [
+     "H Pluto – J Pluto RA 42.404194 10φ³ phi power (31.52)",
+     "S Eris – S Fomalhaut RA 42.348565 10φ³ phi power (80.93)",
+     "S Saturn – S Neptune RA 42.350587 10φ³ phi power (84.12)",
+     "S Saturn – S Pluto RA 14.135357 14.14 sqrt2 (68.05)"
+    ],
+    "notes": [
+     "H Pluto – J Pluto RA carried by the royal pair S Eris – S Fomalhaut RA and by S Saturn – S Neptune RA (Saturn on sky Pluto)"
+    ],
+    "lights": [
+     "S Moon – S Pluto RA 98.674279 61×φ golden (20.39)",
+     "S Moon – S Pluto Dec 33.387491 33.3333 ninth (18.76)",
+     "S Sun → J Pluto Dec 19.384622 12×φ golden (1.9)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "05 Madame Tantzy",
+    "body": "Ceres",
+    "cells": [
+     "H Ceres – J Ceres Dec 33.356281 33.3333 ninth (65.58)",
+     "S Chiron – S Antares Dec 33.336070 33.3333 ninth (95.89)",
+     "S Pluto – S Transpluto Dec 33.370011 33.3333 ninth (44.98)",
+     "S Pluto – S Ceres Dec 37.997165 38 whole (85.83)"
+    ],
+    "notes": [
+     "H Ceres – J Ceres Dec carried by the royal pair S Chiron – S Antares Dec and by S Pluto – S Transpluto Dec (Pluto on sky Ceres)"
+    ],
+    "lights": [
+     "S Moon → J Ceres Dec 7.782336 7.77778 ninth (70.7)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB51": [],
+  "BB52": [],
+  "BB53": [],
+  "BB54": [],
+  "BB55": [
+   {
+    "runner": "01 Stunning Beauty",
+    "body": "Gonggong",
+    "cells": [
+     "J Regulus – J Gonggong RA 179.697947 180 opposition (59.73)",
+     "S Gonggong – S Orcus RA 179.493965 10φ⁶ phi power (80.96)",
+     "S Orcus → H Gonggong RA 179.855051 180 opposition (80.67)",
+     "S Sun – S Gonggong RA 179.549197 10φ⁶ phi power (60.44)",
+     "S Sun → H Gonggong RA 179.910284 180 opposition (88.04)",
+     "S Sun → H Gonggong Dec 22.212982 22.2222 ninth (79.21)",
+     "S Sun – S Gonggong RA 179.549197 180 opposition (39.89)",
+     "S Gonggong – S Orcus RA 179.493965 180 opposition (32.53)"
+    ],
+    "notes": [
+     "J Regulus – J Gonggong RA carried by S Gonggong – S Orcus RA; Orcus on H Gonggong: RA 180 opposition",
+     "J Regulus – J Gonggong RA carried by S Sun – S Gonggong RA; Sun on H Gonggong: RA 180 opposition; Dec 22.2222 ninth",
+     "J Regulus – J Gonggong RA carried by S Sun – S Gonggong RA; Sun on H Gonggong: RA 180 opposition; Dec 22.2222 ninth",
+     "J Regulus – J Gonggong RA carried by S Gonggong – S Orcus RA; Orcus on H Gonggong: RA 180 opposition"
+    ],
+    "lights": [
+     "S Sun – S Gonggong RA 179.549197 10φ⁶ phi power (60.44)",
+     "S Sun → H Gonggong RA 179.910284 180 opposition (88.04)",
+     "S Sun → H Gonggong Dec 22.212982 22.2222 ninth (79.21)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "02 Pretty In Grey",
+    "body": "Gonggong",
+    "cells": [
+     "J Regulus – J Gonggong RA 179.467403 10φ⁶ phi power (90.83)",
+     "S Gonggong – S Orcus RA 179.493965 10φ⁶ phi power (80.96)",
+     "S Orcus → H Gonggong RA 179.827270 180 opposition (76.97)",
+     "S Sun – S Gonggong RA 179.549197 10φ⁶ phi power (60.44)",
+     "S Sun → H Gonggong RA 179.882502 180 opposition (84.33)",
+     "S Sun → H Gonggong Dec 22.201974 22.2222 ninth (54.44)",
+     "S Sun – S Gonggong RA 179.549197 180 opposition (39.89)",
+     "S Gonggong – S Orcus RA 179.493965 180 opposition (32.53)"
+    ],
+    "notes": [
+     "J Regulus – J Gonggong RA carried by S Gonggong – S Orcus RA; Orcus on H Gonggong: RA 180 opposition",
+     "J Regulus – J Gonggong RA carried by S Sun – S Gonggong RA; Sun on H Gonggong: RA 180 opposition; Dec 22.2222 ninth",
+     "J Regulus – J Gonggong RA carried by S Sun – S Gonggong RA; Sun on H Gonggong: RA 180 opposition; Dec 22.2222 ninth",
+     "J Regulus – J Gonggong RA carried by S Gonggong – S Orcus RA; Orcus on H Gonggong: RA 180 opposition"
+    ],
+    "lights": [
+     "S Sun – S Gonggong RA 179.549197 10φ⁶ phi power (60.44)",
+     "S Sun → H Gonggong RA 179.882502 180 opposition (84.33)",
+     "S Sun → H Gonggong Dec 22.201974 22.2222 ninth (54.44)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "03 Lola Showgirl",
+    "body": "Gonggong",
+    "cells": [
+     "J Regulus – J Gonggong RA 179.780409 180 opposition (70.72)",
+     "S Sun – S Gonggong RA 179.549197 180 opposition (39.89)",
+     "S Sun → H Gonggong RA 179.272677 10φ⁶ phi power (36.83)",
+     "S Gonggong – S Orcus RA 179.493965 180 opposition (32.53)",
+     "S Orcus → H Gonggong RA 179.327910 10φ⁶ phi power (57.35)"
+    ],
+    "notes": [
+     "J Regulus – J Gonggong RA carried by S Sun – S Gonggong RA; Sun on H Gonggong: RA 10φ⁶ phi power",
+     "J Regulus – J Gonggong RA carried by S Gonggong – S Orcus RA; Orcus on H Gonggong: RA 10φ⁶ phi power"
+    ],
+    "lights": [
+     "S Sun – S Gonggong RA 179.549197 10φ⁶ phi power (60.44)",
+     "S Sun → H Gonggong RA 179.272677 10φ⁶ phi power (36.83)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "04 Dalanijujo",
+    "body": "Gonggong",
+    "cells": [
+     "H Fomalhaut – H Gonggong RA 8.108095 5×φ golden (44.68)",
+     "S Jupiter – S Gonggong RA 8.104517 5×φ golden (55.72)",
+     "S Jupiter → J Gonggong RA 3.328624 3.33333 ninth (29.36)",
+     "J Regulus – J Gonggong RA 179.821917 180 opposition (76.26)",
+     "S Sun – S Gonggong RA 179.549197 180 opposition (39.89)",
+     "S Sun → H Gonggong Dec 22.225574 22.2222 ninth (92.46)",
+     "S Sun → H Gonggong RA 179.941969 180 opposition (92.26)",
+     "S Gonggong – S Orcus RA 179.493965 180 opposition (32.53)",
+     "S Orcus → H Gonggong RA 179.886737 180 opposition (84.9)"
+    ],
+    "notes": [
+     "H Fomalhaut – H Gonggong RA carried by S Jupiter – S Gonggong RA; Jupiter on J Gonggong: RA 3.33333 ninth",
+     "J Regulus – J Gonggong RA carried by S Sun – S Gonggong RA; Sun on H Gonggong: Dec 22.2222 ninth; RA 180 opposition",
+     "J Regulus – J Gonggong RA carried by S Gonggong – S Orcus RA; Orcus on H Gonggong: RA 180 opposition"
+    ],
+    "lights": [
+     "S Sun – S Gonggong RA 179.549197 10φ⁶ phi power (60.44)",
+     "S Sun → H Gonggong Dec 22.225574 22.2222 ninth (92.46)",
+     "S Sun → H Gonggong RA 179.941969 180 opposition (92.26)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB56": [],
+  "BB57": [
+   {
+    "runner": "05 Madame Tantzy",
+    "body": "Jupiter",
+    "cells": [
+     "H Aldebaran – H Jupiter Dec 11.106309 11.1111 ninth (78.39)",
+     "S Quaoar – S Antares Dec 11.109972 11.1111 ninth (94.87)",
+     "J Aldebaran – J Jupiter RA 76.079663 φ⁹ phi power (41.67)",
+     "S Pallas – S Quaoar RA 76.102007 φ⁹ phi power (22.07)"
+    ],
+    "notes": [
+     "Aldebaran in both charts: H Aldebaran – H Jupiter Dec carried by S Quaoar – S Antares Dec | J Aldebaran – J Jupiter RA carried by S Pallas – S Quaoar RA; Quaoar in both pairs"
+    ],
+    "lights": [
+     "S Moon – S Jupiter RA 66.678771 66.6667 ninth (90.92)",
+     "S Moon → J Jupiter RA 42.363670 10φ³ phi power (95.29)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "05 Madame Tantzy",
+    "body": "Pluto",
+    "cells": [
+     "H Aldebaran – H Pluto RA 141.233109 141.4 sqrt2 (11.26)",
+     "S Mars – S Saturn RA 141.422426 141.4 sqrt2 (99.5)",
+     "J Aldebaran – J Pluto RA 179.845924 180 opposition (79.46)",
+     "S Mars – S Pallas RA 179.344039 180 opposition (12.54)"
+    ],
+    "notes": [
+     "Aldebaran in both charts: H Aldebaran – H Pluto RA carried by S Mars – S Saturn RA | J Aldebaran – J Pluto RA carried by S Mars – S Pallas RA; Mars in both pairs"
+    ],
+    "lights": [
+     "S Moon – S Pluto RA 98.674279 61×φ golden (20.39)",
+     "S Moon – S Pluto Dec 33.387491 33.3333 ninth (18.76)",
+     "S Moon → J Pluto Dec contraparallel 0.009126 cp contraparallel (96.96)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB58": [],
+  "BB59": [
+   {
+    "runner": "01 Stunning Beauty",
+    "body": "Mars",
+    "cells": [
+     "J Aldebaran – J Mars RA 179.699288 180 opposition (59.91)",
+     "S Mars – S Pallas RA 179.344039 10φ⁶ phi power (63.34)",
+     "S Pallas → J Mars Dec 24.120858 24.14 silver (41.24)",
+     "S Aldebaran – S Mars RA 100.328052 62×φ golden (69.31)",
+     "S Mars – S Pallas RA 179.344039 180 opposition (12.54)"
+    ],
+    "notes": [
+     "J Aldebaran – J Mars RA carried by S Mars – S Pallas RA; Pallas on J Mars (Dec silver); Aldebaran on sky Mars (RA 62×φ)",
+     "J Aldebaran – J Mars RA carried by S Mars – S Pallas RA; Pallas on J Mars (Dec silver); Aldebaran on sky Mars (RA 62×φ)"
+    ],
+    "lights": [
+     "S Moon → J Mars RA 145.989144 146 whole (45.72)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB60": [
+   {
+    "runner": "01 Stunning Beauty",
+    "body": "Gonggong",
+    "cells": [
+     "J Regulus – J Gonggong RA 179.697947 180 opposition (59.73)",
+     "S Gonggong – S Orcus RA 179.493965 10φ⁶ phi power (80.96)",
+     "S Sun – S Gonggong RA 179.549197 10φ⁶ phi power (60.44)",
+     "S Sun – S Gonggong RA 179.549197 180 opposition (39.89)",
+     "S Gonggong – S Orcus RA 179.493965 180 opposition (32.53)",
+     "S Sun → H Gonggong RA 179.910284 180 opposition (88.04)",
+     "S Orcus → H Gonggong RA 179.855051 180 opposition (80.67)"
+    ],
+    "notes": [
+     "J Regulus – J Gonggong RA carried by S Gonggong – S Orcus RA; S Sun – S Gonggong RA and by S Sun → H Gonggong RA; S Orcus → H Gonggong RA"
+    ],
+    "lights": [
+     "S Sun – S Gonggong RA 179.549197 10φ⁶ phi power (60.44)",
+     "S Sun → H Gonggong RA 179.910284 180 opposition (88.04)",
+     "S Sun → H Gonggong Dec 22.212982 22.2222 ninth (79.21)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "02 Pretty In Grey",
+    "body": "Gonggong",
+    "cells": [
+     "J Regulus – J Gonggong RA 179.467403 10φ⁶ phi power (90.83)",
+     "S Gonggong – S Orcus RA 179.493965 10φ⁶ phi power (80.96)",
+     "S Sun – S Gonggong RA 179.549197 10φ⁶ phi power (60.44)",
+     "S Sun – S Gonggong RA 179.549197 180 opposition (39.89)",
+     "S Gonggong – S Orcus RA 179.493965 180 opposition (32.53)",
+     "S Sun → H Gonggong RA 179.882502 180 opposition (84.33)",
+     "S Orcus → H Gonggong RA 179.827270 180 opposition (76.97)"
+    ],
+    "notes": [
+     "J Regulus – J Gonggong RA carried by S Gonggong – S Orcus RA; S Sun – S Gonggong RA and by S Sun → H Gonggong RA; S Orcus → H Gonggong RA"
+    ],
+    "lights": [
+     "S Sun – S Gonggong RA 179.549197 10φ⁶ phi power (60.44)",
+     "S Sun → H Gonggong RA 179.882502 180 opposition (84.33)",
+     "S Sun → H Gonggong Dec 22.201974 22.2222 ninth (54.44)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "03 Lola Showgirl",
+    "body": "Gonggong",
+    "cells": [
+     "J Regulus – J Gonggong RA 179.780409 180 opposition (70.72)",
+     "S Sun – S Gonggong RA 179.549197 180 opposition (39.89)",
+     "S Gonggong – S Orcus RA 179.493965 180 opposition (32.53)",
+     "S Orcus → H Gonggong RA 179.327910 180 opposition (10.39)",
+     "S Sun → H Gonggong RA 179.272677 180 opposition (3.02)"
+    ],
+    "notes": [
+     "J Regulus – J Gonggong RA carried by S Sun – S Gonggong RA; S Gonggong – S Orcus RA and by S Orcus → H Gonggong RA; S Sun → H Gonggong RA"
+    ],
+    "lights": [
+     "S Sun – S Gonggong RA 179.549197 10φ⁶ phi power (60.44)",
+     "S Sun → H Gonggong RA 179.272677 10φ⁶ phi power (36.83)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "04 Dalanijujo",
+    "body": "Gonggong",
+    "cells": [
+     "J Regulus – J Gonggong RA 179.821917 180 opposition (76.26)",
+     "S Sun – S Gonggong RA 179.549197 180 opposition (39.89)",
+     "S Gonggong – S Orcus RA 179.493965 180 opposition (32.53)",
+     "S Sun → H Gonggong RA 179.941969 180 opposition (92.26)",
+     "S Orcus → H Gonggong RA 179.886737 180 opposition (84.9)"
+    ],
+    "notes": [
+     "J Regulus – J Gonggong RA carried by S Sun – S Gonggong RA; S Gonggong – S Orcus RA and by S Sun → H Gonggong RA; S Orcus → H Gonggong RA"
+    ],
+    "lights": [
+     "S Sun – S Gonggong RA 179.549197 10φ⁶ phi power (60.44)",
+     "S Sun → H Gonggong Dec 22.225574 22.2222 ninth (92.46)",
+     "S Sun → H Gonggong RA 179.941969 180 opposition (92.26)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB61": [],
+  "BB62": [],
+  "BB63": [
+   {
+    "runner": "01 Stunning Beauty",
+    "body": "Mars",
+    "cells": [
+     "J Aldebaran – J Mars RA 179.699288 180 opposition (59.91)",
+     "S Mars – S Pallas RA 179.344039 10φ⁶ phi power (63.34)",
+     "S Pallas → J Mars Dec 24.120858 24.14 silver (41.24)",
+     "S Mars – S Pallas RA 179.344039 180 opposition (12.54)"
+    ],
+    "notes": [
+     "J Aldebaran – J Mars RA carried by S Mars – S Pallas RA; Pallas on J Mars (Dec 24.14 silver)",
+     "J Aldebaran – J Mars RA carried by S Mars – S Pallas RA; Pallas on J Mars (Dec 24.14 silver)"
+    ],
+    "lights": [
+     "S Moon → J Mars RA 145.989144 146 whole (45.72)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "02 Pretty In Grey",
+    "body": "Gonggong",
+    "cells": [
+     "J Regulus – J Gonggong RA 179.467403 10φ⁶ phi power (90.83)",
+     "S Gonggong – S Orcus RA 179.493965 10φ⁶ phi power (80.96)",
+     "S Orcus → J Gonggong Dec 6.489847 4×φ golden (45.34)",
+     "S Gonggong – S Orcus RA 179.493965 180 opposition (32.53)"
+    ],
+    "notes": [
+     "J Regulus – J Gonggong RA carried by S Gonggong – S Orcus RA; Orcus on J Gonggong (Dec 4×φ golden)",
+     "J Regulus – J Gonggong RA carried by S Gonggong – S Orcus RA; Orcus on J Gonggong (Dec 4×φ golden)"
+    ],
+    "lights": [
+     "S Sun – S Gonggong RA 179.549197 10φ⁶ phi power (60.44)",
+     "S Sun → H Gonggong RA 179.882502 180 opposition (84.33)",
+     "S Sun → H Gonggong Dec 22.201974 22.2222 ninth (54.44)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB64": [],
+  "BB65": [],
+  "BB66": [],
+  "BB67": [
+   {
+    "runner": "01 Stunning Beauty",
+    "body": "runner",
+    "cells": [
+     "J Aldebaran – J Ketu RA 144.431851 144.444 ninth (95.64)",
+     "S Chiron – S Transpluto RA 144.630439 144.444 ninth (35.62)",
+     "S Transpluto → J Ketu Dec 33.296825 33.3333 ninth (45.24)",
+     "J Aldebaran – J Gonggong Dec 33.285868 33.3333 ninth (28.8)",
+     "S Pluto – S Transpluto Dec 33.370011 33.3333 ninth (44.98)",
+     "S Transpluto → J Gonggong RA 177.796045 177.778 ninth (94.86)",
+     "J Aldebaran – J Mars RA 179.699288 180 opposition (59.91)",
+     "S Mars – S Pallas RA 179.344039 10φ⁶ phi power (63.34)",
+     "S Pallas → J Mars Dec 24.120858 24.14 silver (41.24)",
+     "S Aldebaran – S Mars RA 100.328052 62×φ golden (69.31)",
+     "S Mars – S Pallas RA 179.344039 180 opposition (12.54)"
+    ],
+    "notes": [
+     "combinations held: BB3 + BB63, BB59 (2 of 3)",
+     "BB3: Ketu, Gonggong",
+     "BB59: Mars",
+     "BB63: Mars"
+    ],
+    "lights": [],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB68": [
+   {
+    "runner": "02 Pretty In Grey",
+    "body": "Vesta",
+    "cells": [
+     "S Vesta → J Vesta Dec 24.814811 (no family)",
+     "S Haumea – S Vesta Dec 17.813978 11×φ golden (51.84)",
+     "S Haumea → J Vesta Dec 7.000834 7 whole (95.83)"
+    ],
+    "notes": [
+     "S Vesta → J Vesta Dec 24.8148 = S Haumea – S Vesta 17.8140 11×φ golden (51.84) + S Haumea → J Vesta 7.0008 7 whole (95.83)"
+    ],
+    "lights": [
+     "S Sun – S Vesta RA 42.091516 26×φ golden (30.15)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "03 Lola Showgirl",
+    "body": "Ceres",
+    "cells": [
+     "S Ceres → J Ceres Dec 38.303222 (no family)",
+     "S Neptune – S Ceres Dec 19.417729 12×φ golden (95.92)",
+     "S Neptune → J Ceres Dec 18.885493 18.8889 ninth (91.01)"
+    ],
+    "notes": [
+     "S Ceres → J Ceres Dec 38.3032 = S Neptune – S Ceres 19.4177 12×φ golden (95.92) + S Neptune → J Ceres 18.8855 18.8889 ninth (91.01)"
+    ],
+    "lights": [
+     "S Sun → J Ceres RA 123.098687 φ¹⁰ phi power (42.1)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "04 Dalanijujo",
+    "body": "Eris",
+    "cells": [
+     "S Eris → J Eris Dec 5.999067 6 whole (95.34)",
+     "S Neptune – S Eris Dec 3.000912 3 whole (95.44)",
+     "S Neptune → J Eris Dec 2.998155 3 whole (90.78)"
+    ],
+    "notes": [
+     "S Eris → J Eris Dec 5.9991 = S Neptune – S Eris 3.0009 3 whole (95.44) + S Neptune → J Eris 2.9982 3 whole (90.78); same-body line Dec 5.9991 6 whole (95.34)"
+    ],
+    "lights": [
+     "S Sun – S Eris RA 129.474854 80×φ golden (0.82)",
+     "S Moon → J Eris Dec 17.806209 11×φ golden (75.82)"
+    ],
+    "decade": [],
+    "additive": [
+     "WATCH additive step (Dec): 6 = 3 + 3 (S Eris → J Eris; S Neptune – S Eris; S Neptune → J Eris) (may be geometry: three distances between the same three points)"
+    ],
+    "watch_only": false
+   },
+   {
+    "runner": "05 Madame Tantzy",
+    "body": "Sun",
+    "cells": [
+     "S Sun → H Sun Dec 19.553110 (no family)",
+     "S Sedna – S Sun Dec 1.618313 1×φ golden (99.14)",
+     "S Sedna → H Sun Dec 17.934797 φ⁶ phi power (64.8)"
+    ],
+    "notes": [
+     "S Sun → H Sun Dec 19.5531 = S Sedna – S Sun 1.6183 1×φ golden (99.14) + S Sedna → H Sun 17.9348 φ⁶ phi power (64.8)"
+    ],
+    "lights": [],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB68b": [
+   {
+    "runner": "03 Lola Showgirl",
+    "body": "Ceres",
+    "cells": [
+     "S Ceres → J Ceres Dec 38.303222 (no family)",
+     "S Neptune – S Ceres Dec 19.417729 12×φ golden (95.92)",
+     "S Neptune → J Ceres Dec 18.885493 18.8889 ninth (91.01)"
+    ],
+    "notes": [
+     "S Ceres → J Ceres Dec 38.3032 = S Neptune – S Ceres 19.4177 12×φ golden (95.92) + S Neptune → J Ceres 18.8855 18.8889 ninth (91.01)"
+    ],
+    "lights": [
+     "S Sun → J Ceres RA 123.098687 φ¹⁰ phi power (42.1)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "04 Dalanijujo",
+    "body": "Eris",
+    "cells": [
+     "S Eris → J Eris Dec 5.999067 6 whole (95.34)",
+     "S Neptune – S Eris Dec 3.000912 3 whole (95.44)",
+     "S Neptune → J Eris Dec 2.998155 3 whole (90.78)"
+    ],
+    "notes": [
+     "S Eris → J Eris Dec 5.9991 = S Neptune – S Eris 3.0009 3 whole (95.44) + S Neptune → J Eris 2.9982 3 whole (90.78); same-body line Dec 5.9991 6 whole (95.34)"
+    ],
+    "lights": [
+     "S Sun – S Eris RA 129.474854 80×φ golden (0.82)",
+     "S Moon → J Eris Dec 17.806209 11×φ golden (75.82)"
+    ],
+    "decade": [],
+    "additive": [
+     "WATCH additive step (Dec): 6 = 3 + 3 (S Eris → J Eris; S Neptune – S Eris; S Neptune → J Eris) (may be geometry: three distances between the same three points)"
+    ],
+    "watch_only": false
+   }
+  ],
+  "BB69": [],
+  "BB69b": [],
+  "BB70": [],
+  "BB71": [],
+  "BB72": [],
+  "BB73": [],
+  "BB74": [],
+  "BB75": [],
+  "BB76": [],
+  "BB77": [],
+  "BB77b": [],
+  "BB77c": [],
+  "BB78": [],
+  "BB79": [
+   {
+    "runner": "05 Madame Tantzy",
+    "body": "Sun",
+    "cells": [
+     "S Sun → H Sun RA 179.330516 10φ⁶ phi power (58.31)",
+     "S Orcus → H Sun RA 179.275283 10φ⁶ phi power (37.79)",
+     "S Orcus → H Sun RA 179.275283 180 opposition (3.37)",
+     "S Gonggong – S Orcus RA 179.493965 10φ⁶ phi power (80.96)",
+     "S Gonggong – S Orcus RA 179.493965 180 opposition (32.53)",
+     "S Sun → J Sun RA 123.109954 φ¹⁰ phi power (35.99)",
+     "S Orcus → J Sun RA 123.165187 φ¹⁰ phi power (6.05)",
+     "S Orcus – S Sun RA 0.055233 conj conj (96.32)"
+    ],
+    "notes": [
+     "Orcus carries Sun in both charts: S Sun → H Sun RA 179.3305 10φ⁶ (58.31) carried by S Orcus → H Sun RA 179.2753 (37.79), S Orcus → H Sun RA 179.2753 (3.37), S Gonggong – S Orcus RA 179.4940 (80.96), S Gonggong – S Orcus RA 179.4940 (32.53); S Sun → J Sun RA 123.1100 φ¹⁰ (35.99) carried by S Orcus → J Sun RA 123.1652 (6.05); S Orcus – S Sun RA 0.0552 conj (96.32)"
+    ],
+    "lights": [],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB80": [],
+  "BB81": [],
+  "BB82": [],
+  "BB83": [],
+  "BB84": [],
+  "BB84b": []
+ }
+}
