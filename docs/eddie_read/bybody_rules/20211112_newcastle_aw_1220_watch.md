@@ -98,3 +98,10 @@
 - Also: 07 Buxted Too (8 rules) the only BB48 + BB55 holder; 01 Further Measure alone at depth 4 (Sun), BB56, natal pairs Pallas – Juno
   94.8 and Mercury – Rahu 94.4 with sky lines on it, best sky-on-natal >= 90 net (+1). No BB84 / BB84b, no O1 + same-body holder.
   Cloth 5 not in the file.
+
+## Result (Eddie, 18 Nov 2026)
+1 Sir Chauvelin 25/1, 2 Dreams Unwind 4/1, 3 Further Measure 11/4, 4 Buxted Too 9/4F, 5 Cuban Hope, 6 Greengage; Qaasid non-runner.
+The second, Sir Chauvelin, won (only BB3 + BB54, P2 / P3 Neptune, BB68; joint most rules 8); the lead Dreams Unwind (only BB67) 2nd.
+Old sky-on-natal >= 90 net −3 / >= 80 −3; the new split list (pair_list_activated, >= 90, labels from the 43 races before, read after
+the result) gives +1 (S Haumea → Mars and S Gonggong → Eris are activated, so no longer negative): Further Measure +2, Cuban Hope +2,
+Buxted Too +2, Sir Chauvelin +1, Dreams Unwind +1, Greengage −1.
