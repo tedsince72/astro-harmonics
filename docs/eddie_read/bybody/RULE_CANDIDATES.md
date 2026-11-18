@@ -1613,3 +1613,14 @@ split (S Saturn splits S Sun – S Fomalhaut, 7×φ + 17×φ). Chosen after the 
   - Sky pair scoring < 50: 5 holders, 0 won (0.9 by chance); 1 favourite.
   - No sky pair: 24 holders, 2 won (4.1 by chance); 8 favourites, 0 won.
 - Reading: the negative may hold only when the outer body is not tied to sky Uranus. Too few to judge (2 holders); noted, not built.
+
+### General idea: positives vs negatives depend on a SKY score (Eddie, 18 Nov 2026)
+- Eddie: "it may point us in the right direction generally of positives versus negatives, when there is a SKY score and when there is not".
+- The idea: a sky body Y on natal X (S Y → H X / J X) may read differently depending on whether the same pair also scores in the sky, S Y – S X.
+  - No sky score: the line stands alone and may lean negative.
+  - A sky score: the line is carried by the sky and may lean positive.
+- Origin: Newbury 13:50 26 Nov 2021, Not Available. S Quaoar → J Uranus RA 33 whole, carried by S Quaoar – S Uranus RA 77×φ (81.47). See the section above: outer on natal Uranus with the sky pair >= 50 = 2 holders, 1 won; without = 24 holders, 2 won, 8 favourites 0 won.
+- To look at after the races (Eddie: investigate later), not built:
+  - Every sky-on-natal pair (bb_scan_sky_on_natal.py, the 600 pairs) and the pair tally, each split by whether S Y – S X scores (>= 50 / >= 80, no conj / cp / opposition).
+  - Do positive and negative labels separate better once the split is made?
+  - Is the net fair leave-one-out?
