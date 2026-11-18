@@ -1,0 +1,72 @@
+# Rule picks by sky activation of their S Y → natal X cells (45 result races; picks / won / by chance)
+
+ALL rules pooled: all activated 774 / 190 / 132.0; mixed 308 / 65 / 51.8; none activated 521 / 113 / 90.9; no S Y → X cell 863 / 201 / 149.4
+
+- BB1: all activated 18 / 6 / 2.7; mixed 2 / 0 / 0.3
+- BB2: no S Y → X cell 68 / 11 / 11.7
+- BB3: all activated 22 / 5 / 3.7; mixed 88 / 18 / 15.5; none activated 111 / 20 / 18.6
+- BB4: all activated 3 / 0 / 0.5; mixed 1 / 1 / 0.2; none activated 5 / 0 / 0.9; no S Y → X cell 30 / 7 / 5.5
+- BB5: no S Y → X cell 9 / 3 / 1.6
+- BB6: all activated 4 / 2 / 0.9; none activated 18 / 3 / 3.1; no S Y → X cell 50 / 8 / 8.4
+- BB7: all activated 13 / 1 / 2.1; mixed 2 / 0 / 0.4; none activated 15 / 3 / 2.6; no S Y → X cell 72 / 17 / 12.9
+- BB8: no S Y → X cell 33 / 7 / 6.1
+- BB9: all activated 18 / 4 / 3.5; mixed 8 / 2 / 1.4; none activated 50 / 9 / 8.6
+- BB10: no S Y → X cell 64 / 13 / 10.5
+- BB11: no S Y → X cell 9 / 1 / 1.7
+- BB12: all activated 82 / 20 / 14.8; mixed 1 / 0 / 0.2; none activated 8 / 1 / 1.1
+- BB13: no S Y → X cell 45 / 10 / 8.1
+- BB14: all activated 2 / 1 / 0.4; mixed 29 / 3 / 4.9; none activated 39 / 9 / 7.1
+- BB15: all activated 1 / 0 / 0.2; none activated 17 / 4 / 3.1
+- BB16: all activated 49 / 6 / 8.5
+- BB17: all activated 8 / 3 / 1.4
+- BB18: all activated 3 / 0 / 0.5; none activated 3 / 0 / 0.6; no S Y → X cell 2 / 2 / 0.3
+- BB20: mixed 36 / 5 / 5.4; none activated 19 / 6 / 3.6; no S Y → X cell 2 / 0 / 0.4
+- BB21: all activated 1 / 1 / 0.2; mixed 3 / 0 / 0.4; none activated 4 / 1 / 0.6
+- BB23: all activated 42 / 10 / 7.1
+- BB24: mixed 22 / 5 / 3.5; none activated 7 / 1 / 1.2
+- BB25: no S Y → X cell 37 / 6 / 6.6
+- BB26: no S Y → X cell 8 / 2 / 1.3
+- BB27: no S Y → X cell 30 / 7 / 4.8
+- BB28: all activated 19 / 5 / 3.3; mixed 7 / 1 / 1.1; none activated 32 / 4 / 5.3
+- BB29: all activated 7 / 4 / 1.2
+- BB30: all activated 2 / 1 / 0.4; mixed 17 / 3 / 2.9; none activated 14 / 1 / 2.7
+- BB31: all activated 7 / 1 / 1.2; mixed 3 / 1 / 0.5
+- BB32: all activated 10 / 5 / 1.6; none activated 5 / 2 / 0.8
+- BB33: all activated 2 / 0 / 0.4; none activated 5 / 2 / 0.8
+- BB34: all activated 63 / 14 / 10.5; mixed 4 / 0 / 0.8
+- BB35: no S Y → X cell 51 / 9 / 8.9
+- BB38: no S Y → X cell 7 / 1 / 1.1
+- BB42: all activated 8 / 2 / 1.3; mixed 8 / 1 / 1.3
+- BB43: all activated 15 / 2 / 2.8; mixed 3 / 1 / 0.5; none activated 35 / 8 / 5.8
+- BB47: all activated 1 / 0 / 0.2; mixed 8 / 2 / 1.2; none activated 1 / 0 / 0.2
+- BB48: all activated 44 / 8 / 7.3; mixed 12 / 1 / 2.1
+- BB49: all activated 4 / 1 / 0.6; mixed 1 / 0 / 0.2; none activated 10 / 4 / 1.9
+- BB50: no S Y → X cell 23 / 6 / 3.9
+- BB51: no S Y → X cell 11 / 3 / 2.0
+- BB53: no S Y → X cell 63 / 9 / 11.1
+- BB54: no S Y → X cell 44 / 12 / 7.3
+- BB55: all activated 84 / 15 / 13.5; none activated 1 / 0 / 0.2
+- BB56: all activated 5 / 1 / 0.8; none activated 14 / 1 / 2.6
+- BB57: no S Y → X cell 44 / 10 / 7.4
+- BB58: no S Y → X cell 12 / 3 / 2.0
+- BB59: all activated 20 / 7 / 3.7
+- BB60: all activated 15 / 5 / 2.0; mixed 2 / 1 / 0.4; none activated 16 / 2 / 2.9
+- BB62: no S Y → X cell 13 / 5 / 2.3
+- BB63: all activated 72 / 17 / 12.9
+- BB64: all activated 10 / 2 / 1.7; mixed 2 / 1 / 0.4; none activated 24 / 6 / 4.3
+- BB65: no S Y → X cell 10 / 4 / 1.7
+- BB66: all activated 8 / 3 / 1.3; mixed 2 / 0 / 0.3; none activated 24 / 4 / 4.4
+- BB67: all activated 1 / 1 / 0.1; mixed 25 / 9 / 4.3
+- BB68: all activated 75 / 13 / 13.1
+- BB68b: all activated 10 / 3 / 1.6
+- BB69: no S Y → X cell 13 / 5 / 2.5
+- BB72: all activated 7 / 5 / 1.3
+- BB73: mixed 3 / 2 / 0.6; none activated 8 / 2 / 1.4
+- BB74: mixed 13 / 3 / 2.2
+- BB75: no S Y → X cell 22 / 6 / 3.7
+- BB77b: none activated 8 / 3 / 1.4
+- BB77c: none activated 9 / 4 / 1.6
+- BB79: all activated 3 / 2 / 0.6; no S Y → X cell 11 / 4 / 1.9
+- BB80: none activated 1 / 0 / 0.2; no S Y → X cell 19 / 7 / 3.3
+- BB81: no S Y → X cell 22 / 7 / 3.7
+- BB82: no S Y → X cell 18 / 5 / 3.0

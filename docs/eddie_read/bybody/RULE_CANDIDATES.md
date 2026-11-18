@@ -1717,3 +1717,13 @@ covers nearly every holding (the sky has a scoring pair for almost every body), 
   side link to a royal star only (side >= 98, >= 80) 11 / 5 / 1.9.
 - Positives: side link neither helps nor hurts (>= 80 side link body 50 / 20 / 9.1 vs neither 23 / 8 / 3.7); direct activation is the
   only split that loses the positive (24 / 3 / 3.9).
+
+## Rules by activation (Eddie, 18 Nov 2026: rules may work in one race and not another depending on whether their pairs are activated)
+tools/scans/bb_scan_rules_activation.py -> docs/eddie_read/bybody/rules_activation.md. Each rule pick split by the S Y -> natal X cells
+in its rule cells (Y not X): all / mixed / none activated (S Y - S X scores in the race's sky) / no such cell. 45 races, in-sample.
+Pooled: all activated 774 / 190 / 132.0 (1.44), mixed 308 / 65 / 51.8 (1.25), none 521 / 113 / 90.9 (1.24), no cell 863 / 201 / 149.4 (1.35).
+Many rules sit wholly on one side by their build (always activated: BB16, BB23, BB55, BB59, BB63, BB68; never an S Y -> X cell: BB2,
+BB10, BB13, BB35, BB53, BB54, BB57, BB75 ...). Rules that split, activated vs none: BB28 19 / 5 / 3.3 vs 32 / 4 / 5.3; BB60 15 / 5 / 2.0
+vs 16 / 2 / 2.9; BB32 10 / 5 / 1.6 vs 5 / 2 / 0.8; BB66 8 / 3 / 1.3 vs 24 / 4 / 4.4; BB3 22 / 5 / 3.7 vs 111 / 20 / 18.6 - activated
+better; the other way: BB43 15 / 2 / 2.8 vs 35 / 8 / 5.8, BB64 10 / 2 / 1.7 vs 24 / 6 / 4.3, BB14 mixed 29 / 3 / 4.9 vs none 39 / 9 / 7.1,
+BB7 13 / 1 / 2.1 vs 15 / 3 / 2.6.
