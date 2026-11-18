@@ -1657,3 +1657,14 @@ Watch (Eddie, 18 Nov 2026, 'yes, on the watch list'): A + B + C, A + B, A + C in
 positives vs negatives on pairs, sky activated or not (see 'General idea'): here the sky Sun activates sky Mars in both planes (S Sun – S Mars
 Dec 4 82.09, RA 14 51.46) and the same Sun reaches both natal Mars; Brian Boranha's negatives (S Sedna → H Uranus 55.5556, S Vesta → H Uranus
 φ⁶) had no sky pair. Use both when the sky-score split is run after the races.
+
+## Sir Chauvelin swaps (Newcastle AW 12:20 12 Nov 2021, blind; Eddie, 18 Nov 2026; noted, not built)
+Eddie's lines: S Haumea – S Mars RA 0.2984 conj (80.1), S Haumea → H Mars RA 54.9995 55 (97.4), S Mars → H Haumea RA 8.0000 8 (99.9);
+S Haumea → H Mercury Dec 9.7026 6×φ (82.6) / S Mercury → H Haumea Dec 32.3585 20×φ (93.2); S Chiron → J Pluto RA 157 (91.7) / → H Pluto RA
+54×φ (36.1); S Ceres → H Juno RA 180 opposition (96.9); S Mars → H Vesta Dec 13 (96.5) with S Moon – S Vesta Dec conj (93.8), S Sun – S Vesta
+Dec 1.414 (92.1); S Gonggong → J Eris RA 28×φ (95.9) / S Eris → J Gonggong RA 36×φ (55.3), S Gonggong – S Eris RA 50 (60.1).
+Mars / Haumea: with the two conjunct in the sky (0.2984), the partner carries each same-body line onto a number: S Mars → H Mars RA 54.701 and
+S Haumea → H Haumea RA 8.2985 score nothing; shifted by 0.2984 they land S Haumea → H Mars 55 and S Mars → H Haumea 8.
+Swap field check (tools/scans/bb_fieldcheck_swap.py; S Y → c X and S X → c Y same chart, number families, no Moon; runner-level, 43 result
+races): both >= 80 196 / 39 / 34.3; with S X – S Y conjunct 4 / 1 / 0.7 (Two For Gold won; Dubai Souq, Miss Britain, Baileys Liberty lost);
+with a sky number line 74 / 16 / 12.6; no sky line 164 / 31 / 29.1; both >= 50 248 / 43 / 42.9. Swaps alone at chance.
