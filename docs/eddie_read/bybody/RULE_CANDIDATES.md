@@ -1624,3 +1624,24 @@ split (S Saturn splits S Sun – S Fomalhaut, 7×φ + 17×φ). Chosen after the 
   - Every sky-on-natal pair (bb_scan_sky_on_natal.py, the 600 pairs) and the pair tally, each split by whether S Y – S X scores (>= 50 / >= 80, no conj / cp / opposition).
   - Do positive and negative labels separate better once the split is made?
   - Is the net fair leave-one-out?
+
+### BB35 combinations (Eddie, 18 Nov 2026, from Newbury 13:50 Not Available)
+- Not Available's pairs held only by him in the field all ran through BB35.
+- Over 41 result races (rule holders from each race's bbrules json, watch-only left out; inline scan; chosen after the result):
+
+| combination | picks | won | by chance | winners |
+|---|---|---|---|---|
+| BB35 alone | 49 | 8 | 8.6 | at chance |
+| BB35 + BB6 | 11 | 5 | 1.7 | Ishvara, Perfect Part, Domandlouis, Greaneteen, Not Available |
+| BB35 + BB13 | 9 | 3 | 1.5 | Perfect Part, Greaneteen, Not Available |
+| BB35 + BB43 | 8 | 4 | 1.3 | Ishvara, Secret Satire, Daphne Moon, Not Available (lost: Gidwa, Boss Man Fred, Finisk River, Lieutenant Rocco) |
+| BB35 + BB55 | 21 | 5 | 3.2 | |
+| BB35 + BB63 | 18 | 2 | 3.4 | |
+| BB35 + BB43 + BB55 | 5 | 3 | 0.8 | Ishvara, Secret Satire, Not Available (lost: Boss Man Fred, Finisk River) |
+| BB35 + BB43 + BB55 + BB63 | 4 | 2 | 0.7 | |
+
+- In-sample notes:
+  - Perfect Part is BB35's origin winner.
+  - Secret Satire is BB43's origin winner.
+  - BB35 + BB6 without Perfect Part: 10 picks, 4 won.
+- Noted, not built.
