@@ -1645,3 +1645,11 @@ split (S Saturn splits S Sun – S Fomalhaut, 7×φ + 17×φ). Chosen after the 
   - Secret Satire is BB43's origin winner.
   - BB35 + BB6 without Perfect Part: 10 picks, 4 won.
 - Noted, not built.
+
+## Brian Boranha Mars (Catterick 15:05 19 Nov 2021; Eddie, 18 Nov 2026; noted, not built)
+Cells: O1 on Mars by S Sun (S Sun – S Mars Dec 4 whole 82.09, RA 14 whole 51.46; S Sun → H Mars Dec 32 whole 45.43; S Sun → J Mars RA
+141.4 √2 65.77); S Mars → H Mars RA 106×φ 65.15 and Dec 28 whole 27.52; H Mars – J Mars RA 61 whole 64.18.
+Field check over 42 result races (tools/scans/bb_fieldcheck_brian_mars.py; per body X, number families, any score; picks / won / by chance):
+A O1 on X 16 / 5 / 2.6; B S X → H X or J X in both RA and Dec 132 / 23 / 23.0; C H X – J X 242 / 42 / 41.9; A + B 2 / 1 / 0.3 (Mews House
+Makemake lost); A + C 3 / 1 / 0.5 (Pigeonton Quaoar, Funambule Sivola Quaoar lost); B + C 48 / 6 / 8.5; A + B + C 1 / 1 / 0.2 (Brian
+Boranha only). B and C alone are at chance; the shape stands only with O1, and Brian Boranha is its one winner. Chosen after the result.
