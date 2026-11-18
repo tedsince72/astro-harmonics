@@ -1752,3 +1752,12 @@ tools/scans/bb_scan_natal_shared.py <cut> -> docs/eddie_read/bybody/natal_shared
 target in both charts, one side >= cut. Too rare to test: >= 90 7 holdings / 0 won / 1.1 by chance (whole 2, ninth 2, golden 2, silver 1),
 >= 80 10 / 1 / 1.6 (whole 3 / 1 / 0.5); none 'fixed' (no pair sits in the same place in both charts: the jockey is born years earlier) and
 none with the sky pair live. Two independent distances landing on one target inside ±0.02-type tolerances is simply uncommon.
+Looser scan 3 (Eddie, 18 Nov 2026): the same natal pair scoring >= cut in BOTH charts, any targets (bb_scan_natal_shared.py <cut> --any ->
+natal_shared_any_90.md / _80.md). Family = both charts' families ('golden' both golden, 'golden / whole' one each). In-sample pooling.
+- >= 90: 47 holdings / 12 won / 7.8 by chance (1.53); sky pair S X – S Y live 11 / 3 / 1.8, quiet 36 / 9 / 6.0. Families: golden / whole
+  11 / 3 / 1.6, golden 8 / 2 / 1.4, whole 5 / 1 / 0.8, phi power / whole 2 / 2 / 0.4, golden / ninth 6 / 0 / 1.0, ninth 4 / 0 / 0.8.
+- >= 80: 209 / 39 / 35.3 (1.10); sky live 49 / 13 / 7.7 (1.68), quiet 160 / 26 / 27.6 (0.94). Lifted: golden both 34 / 9 / 6.1 (1.47;
+  quiet too 1.45), golden / whole sky live 12 / 4 / 1.7, whole sky live 7 / 2 / 1.1, ninth both sky live 7 / 2 / 1.0 (quiet 9 / 0 / 1.5),
+  phi power / whole 12 / 4 / 2.3, √2 / whole 6 / 3 / 1.1. Under: ninth mixed with another family - golden / ninth 27 / 2 / 4.7 (0.42),
+  ninth / whole 25 / 2 / 4.4 (0.46), ninth / phi power 9 / 1 / 1.8.
+- Runners with >= 2 shared pairs (>= 80) 47 / 11 / 7.8. Sir Chauvelin counts twice (won two of the races with the same charts: Rahu – Quaoar).

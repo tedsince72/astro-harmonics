@@ -6,7 +6,9 @@ the pair is the same by itself) / 'moved'; and by whether the sky pair S X – S
 Holdings (runner × pair) / won / by chance (1 / field size), by the shared family. Runner level: runners holding >= 1, 2, 3 moved shares.
   python3 tools/scans/bb_scan_natal_shared.py [cut]"""
 import sys, os
-CUT = float(sys.argv[1]) if len(sys.argv) > 1 else 90
+ANY = '--any' in sys.argv   # looser (Eddie, 18 Nov 2026): the pair scores >= CUT in BOTH charts, any targets; family 'X' = both on X, 'X / Y' mixed
+_a = [a for a in sys.argv[1:] if not a.startswith('--')]
+CUT = float(_a[0]) if _a else 90
 del sys.argv[1:]
 import openpyxl
 sys.path.insert(0, 'tools'); sys.path.insert(0, 'tools/scans')
@@ -56,10 +58,18 @@ def main():
             nm = 0
             for X, Y in PAIRS:
                 lh, lj = lines(ph, rh, X, Y), lines(pj, rj, X, Y)
-                sh = [(max(lh[k][0], lj[k][0]), k) for k in lh.keys() & lj.keys() if max(lh[k][0], lj[k][0]) >= CUT]
-                if not sh:
-                    continue
-                sc, k = max(sh)
+                if ANY:
+                    bh = [(v[0], kk) for kk, v in lh.items() if v[0] >= CUT]; bj = [(v[0], kk) for kk, v in lj.items() if v[0] >= CUT]
+                    if not bh or not bj:
+                        continue
+                    kh, kj = max(bh)[1], max(bj)[1]
+                    fam = kh[0] if kh[0] == kj[0] else ' / '.join(sorted((kh[0], kj[0])))
+                    k = (fam, kh[1]); lh = {k: lh[kh]}; lj = {k: lj[kj]}
+                else:
+                    sh = [(max(lh[k][0], lj[k][0]), k) for k in lh.keys() & lj.keys() if max(lh[k][0], lj[k][0]) >= CUT]
+                    if not sh:
+                        continue
+                    sc, k = max(sh)
                 fx = 'fixed' if near(X) and near(Y) else 'moved'
                 sk = 'sky live' if skylive[(X, Y)] else 'sky quiet'
                 for key in ((k[0], fx), ('all', fx), (k[0], fx + ', ' + sk), ('all', fx + ', ' + sk)):
@@ -73,7 +83,7 @@ def main():
                 if nm >= kk:
                     t = run.setdefault(kk, [0, 0, 0.0]); t[0] += 1; t[1] += won; t[2] += 1 / N
     cols = ['moved', 'moved, sky live', 'moved, sky quiet', 'fixed']
-    print(f'# Same natal pair on the same number in horse and jockey (one side >= {CUT:g}; {len(races)} result races)\n')
+    print(f'# Same natal pair in horse and jockey, ' + (f'both charts >= {CUT:g}, any targets' if ANY else f'same number, one side >= {CUT:g}') + f' ({len(races)} result races)\n')
     print('Holdings / won / by chance (ratio), by the shared family. fixed = both bodies within 2 degrees between the two charts.\n')
     print('| family | ' + ' | '.join(cols) + ' |')
     print('|---|' + '---|' * len(cols))
@@ -88,7 +98,7 @@ def main():
     print('\nPairs (moved) with >= 2 winners: ' + ', '.join(f'{p} {v[0]} / {v[1]} / {v[2]:.1f}' for p, v in
                                                        sorted(pw.items(), key=lambda kv: -kv[1][1]) if v[1] >= 2) + '\n')
     print(f'### winners (moved, {len(ex)})')
-    for x in ex[:40]:
+    for x in ex[:60]:
         print(f'- {x}')
 
 
