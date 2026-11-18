@@ -1727,3 +1727,13 @@ BB10, BB13, BB35, BB53, BB54, BB57, BB75 ...). Rules that split, activated vs no
 vs 16 / 2 / 2.9; BB32 10 / 5 / 1.6 vs 5 / 2 / 0.8; BB66 8 / 3 / 1.3 vs 24 / 4 / 4.4; BB3 22 / 5 / 3.7 vs 111 / 20 / 18.6 - activated
 better; the other way: BB43 15 / 2 / 2.8 vs 35 / 8 / 5.8, BB64 10 / 2 / 1.7 vs 24 / 6 / 4.3, BB14 mixed 29 / 3 / 4.9 vs none 39 / 9 / 7.1,
 BB7 13 / 1 / 2.1 vs 15 / 3 / 2.6.
+
+## Natal pairs, scan 1 of 4: sky lands on the natal pair (Eddie, 18 Nov 2026; 'one at a time - note the families')
+tools/scans/bb_scan_natal_echo.py <cut> -> docs/eddie_read/bybody/natal_echo_90.md / _80.md (45 races). Natal pair c X – c Y >= cut in a
+number family, and S Y → c X or S X → c Y on the same family + target. Holdings / won / by chance.
+- Natal pairs alone are at chance in every family (>= 90: golden 1.07, whole 1.06, ninth 0.99, phi power 0.97, √2 1.09, silver 0.93).
+- The echo is rare: >= 90 29 holdings / 6 won / 4.7 (golden 8 / 2 / 1.3, ninth 15 / 3 / 2.5, phi power 4 / 0 / 0.6, whole 1 / 0, silver
+  1 / 1 / 0.2); >= 80 55 / 8 / 9.4 (whole 4 / 1 / 0.6, golden 15 / 2 / 2.7, ninth 26 / 4 / 4.4, phi power 9 / 0 / 1.5, silver 1 / 1).
+- Mostly geometry: the sky body doing the copying is a slow outer body sitting near its own natal place (>= 90: Transpluto 9, Quaoar 7,
+  Makemake 3, Gonggong 2 of 29), so S Y → c X repeats c Y – c X by itself. Winners: Two For Gold, Not Available, Brian Boranha (ninths),
+  First Flow (silver 41.4 and 12×φ, both by S Quaoar), Greaneteen (18×φ, S Neptune).
