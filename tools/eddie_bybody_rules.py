@@ -2217,6 +2217,18 @@ def bb78(res):
 
 
 def bb84(b):
+    return _bb84(b, True)
+
+
+def bb84b(b):
+    """BB84b (Eddie, 18 Nov 2026, 'worth adding'; from Huntingdon 13:52 5 Dec 2021 First Flow Pallas: S Pallas → J Pallas Dec 30.7217 19×φ
+    (35.38) carried by S Ketu – S Transpluto Dec 30.7396 19×φ (90.61) = S Ketu – S Pallas 8.0864 5×φ (88.32) + S Transpluto – S Pallas
+    22.6532 14×φ (97.71)): BB84 on any line on X (royal, same-body, H X – J X), not only a royal line. Over 39 result races 13 picks 6 won,
+    2.3 by chance (BB84's four + Cafe Sydney, First Flow); chosen after the results (tools/scans/bb_fieldcheck_skysplit.py A >= 50)."""
+    return [{**c, 'key': ('BB84b',) + c['key'][1:]} for c in _bb84(b, False)]
+
+
+def _bb84(b, royal_only):
     """Sky split by X (Eddie, 18 Nov 2026, '"both pieces >= 50" built'; from Newcastle AW 14:20 11 Dec 2021 Nicholas T Mars: H Fomalhaut – H Mars
     RA 174.001471 whole 174 (92.64) carried by S Jupiter – S Transpluto RA 173.99685 174 (84.25), split by sky Mars: S Jupiter – S Mars RA
     93.000533 93 (97.33) + S Transpluto – S Mars RA 80.996318 81 (81.59)): a natal royal line on X (a line in X's own rows naming a royal star,
@@ -2248,7 +2260,7 @@ def bb84(b):
         if len(e) != 2 or b.X in e:
             continue
         L = lines[c['match']]
-        if '→' in L['line'] or not any(s in L['line'] for s in ROY):
+        if royal_only and ('→' in L['line'] or not any(s in L['line'] for s in ROY)):
             continue
         a, o = sk.get((e[0], c['plane'])), sk.get((e[1], c['plane']))
         if not a or not o or abs(a['v'] + o['v'] - c['v']) >= 0.1 or min(a['sc'], o['sc']) < 50:
@@ -2267,7 +2279,7 @@ RULES = [('BB1', bb1, 'Mercury'), ('BB1b', bb1b, 'any'), ('BB2', bb2, 'Mars'), (
          ('BB21', bb21, 'Saturn'), ('BB22', bb22, 'Saturn'), ('BB23', bb23, 'Neptune'), ('BB24', bb24, 'Rahu'), ('BB25', bb25, 'Ketu'), ('BB26', bb26, 'Ceres'), ('BB27', bb27, 'Pallas'), ('BB28', bb28, 'Juno'), ('BB29', bb29, 'Vesta'), ('BB30', bb30, 'Eris'), ('BB31', bb31, 'Gonggong'),
          ('BB32', bb32, 'Sun'), ('BB32b', bb32b, 'Sun'), ('BB33', bb33, 'Mercury'), ('BB34', bb34, 'Mars'), ('BB35', bb35, 'Saturn'),
          ('BB36', bb36, 'Uranus'), ('BB37', bb37, 'Pluto'), ('BB38', bb38, 'Juno'), ('BB39', bb39, 'Makemake'),
-         ('BB40', bb40, 'Sedna'), ('BB41', bb41, 'Sun'), ('BB42', bb42, 'Mercury'), ('BB43', bb43, 'Venus'), ('BB44', bb44, 'Jupiter'), ('BB45', bb45, 'Saturn'), ('BB46', bb46, 'Saturn'), ('BB47', bb47, 'Ceres'), ('BB48', bb48, 'Chiron'), ('BB49', bb49, 'Haumea'), ('BB50', bb50, 'Makemake'), ('BB51', bb51, 'Venus'), ('BB52', bb52, 'Uranus'), ('BB53', bb53, 'any'), ('BB54', bb54, 'any'), ('BB55', bb55, 'any'), ('BB56', bb56, 'any'), ('BB57', bb57, 'any'), ('BB58', bb58, 'any'), ('BB59', bb59, 'any'), ('BB60', bb60, 'any'), ('BB61', bb61, 'any'), ('BB62', bb62, 'any'), ('BB63', bb63, 'any'), ('BB64', bb64, 'any'), ('BB65', bb65, 'Sun'), ('BB66', bb66, 'any'), ('BB67', None, 'any'), ('BB68', bb68, 'any'), ('BB68b', bb68b, 'any'), ('BB69', bb69, 'any'), ('BB69b', bb69b, 'any'), ('BB70', bb70, 'any'), ('BB71', None, 'any'), ('BB72', None, 'any'), ('BB73', None, 'any'), ('BB74', None, 'any'), ('BB75', bb75, 'any'), ('BB76', bb76, 'any'), ('BB77', bb77, 'any'), ('BB77b', bb77b, 'any'), ('BB77c', bb77c, 'any'), ('BB78', None, 'any'), ('BB79', bb79, 'any'), ('BB80', bb80, 'any'), ('BB81', bb81, 'any'), ('BB82', bb82, 'any'), ('BB83', None, 'Venus'), ('BB84', bb84, 'any')]
+         ('BB40', bb40, 'Sedna'), ('BB41', bb41, 'Sun'), ('BB42', bb42, 'Mercury'), ('BB43', bb43, 'Venus'), ('BB44', bb44, 'Jupiter'), ('BB45', bb45, 'Saturn'), ('BB46', bb46, 'Saturn'), ('BB47', bb47, 'Ceres'), ('BB48', bb48, 'Chiron'), ('BB49', bb49, 'Haumea'), ('BB50', bb50, 'Makemake'), ('BB51', bb51, 'Venus'), ('BB52', bb52, 'Uranus'), ('BB53', bb53, 'any'), ('BB54', bb54, 'any'), ('BB55', bb55, 'any'), ('BB56', bb56, 'any'), ('BB57', bb57, 'any'), ('BB58', bb58, 'any'), ('BB59', bb59, 'any'), ('BB60', bb60, 'any'), ('BB61', bb61, 'any'), ('BB62', bb62, 'any'), ('BB63', bb63, 'any'), ('BB64', bb64, 'any'), ('BB65', bb65, 'Sun'), ('BB66', bb66, 'any'), ('BB67', None, 'any'), ('BB68', bb68, 'any'), ('BB68b', bb68b, 'any'), ('BB69', bb69, 'any'), ('BB69b', bb69b, 'any'), ('BB70', bb70, 'any'), ('BB71', None, 'any'), ('BB72', None, 'any'), ('BB73', None, 'any'), ('BB74', None, 'any'), ('BB75', bb75, 'any'), ('BB76', bb76, 'any'), ('BB77', bb77, 'any'), ('BB77b', bb77b, 'any'), ('BB77c', bb77c, 'any'), ('BB78', None, 'any'), ('BB79', bb79, 'any'), ('BB80', bb80, 'any'), ('BB81', bb81, 'any'), ('BB82', bb82, 'any'), ('BB83', None, 'Venus'), ('BB84', bb84, 'any'), ('BB84b', bb84b, 'any')]
 
 
 def decade_pairs(cells):

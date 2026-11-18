@@ -1,4 +1,4 @@
-# 20211205_huntingdon_1352 — body-by-body rules BB1-BB84
+# 20211205_huntingdon_1352 — body-by-body rules BB1-BB84b
 
 Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each with its origin race). Field: runners holding the rule in this race.
 
@@ -94,6 +94,7 @@ Data only, no pick. Rules from docs/eddie_read/bybody_rules/rules.json (each wit
 | BB82 | 0 | 0 | - |  |
 | BB83 | 0 | 0 | - |  |
 | BB84 | 0 | 0 | - |  |
+| BB84b | 1 | 1 | 03 First Flow |  |
 
 ## BB1 — royal-star line, same-target pair, both ends on X (tight)
 
@@ -1183,4 +1184,19 @@ Rule: A natal royal line on X (H or J; a line in X's rows naming Aldebaran, Regu
 Origin: Newcastle AW 14:20 11 Dec 2021 Nicholas T Mars (won 14/1): H Fomalhaut – H Mars RA 174.001471 whole 174 (92.64) carried by S Jupiter – S Transpluto RA 173.99685 174 (84.25) = S Jupiter – S Mars RA 93.000533 93 (97.33) + S Transpluto – S Mars RA 80.996318 81 (81.59) (Eddie, 18 Nov 2026: 'this is on the winner', '"both pieces >= 50" built'). Over 38 result races 10 picks 4 won, 1.7 by chance (Perfect Part, Miss Heritage, Two For Gold, Nicholas T; lost Indie Angel, Passing Storm, Aswan, You Say Nothing, Mr Washington, Bristol De Mai); favourites 1 / 0; chosen after the result, without the origin 9 / 3 / 1.5. Pieces any score 43 / 10 / 7.6; pieces >= 80 5 / 2 / 0.9; any line on X >= 50 12 / 5 / 2.1. tools/scans/bb_fieldcheck_skysplit.py.
 
 No runner holds it.
+
+## BB84b — Any line on X carried by a sky pair that sky X splits into two pieces on targets (BB84 on any line)
+
+Rule: As BB84, but the carried line may be any line on X with a score (royal line, same-body line S X → H / J X, H X – J X), not only a royal line: carried by a sky pair S Y – S Z (both ends sky, neither X, number family), S Y – S X and S Z – S X both in a number family scoring >= 50, |d(Y, X) + d(X, Z) − d(Y, Z)| < 0.1.
+
+Origin: Huntingdon 13:52 5 Dec 2021 First Flow Pallas (won 12/1, no other BB rule): S Pallas → J Pallas Dec 30.7217 19×φ (35.38) carried by S Ketu – S Transpluto Dec 30.7396 19×φ (90.61) = S Ketu – S Pallas 5×φ (88.32) + S Transpluto – S Pallas 14×φ (97.71) (Eddie, 18 Nov 2026: 'worth adding'). Over 39 result races 13 picks 6 won, 2.3 by chance (Perfect Part, Cafe Sydney, Miss Heritage, Two For Gold, Nicholas T, First Flow); chosen after the results. tools/scans/bb_fieldcheck_skysplit.py A >= 50.
+
+### 03 First Flow — Pallas (only)
+- S Pallas → J Pallas Dec 30.721708 19×φ golden (35.38)
+- S Ketu – S Transpluto Dec 30.739603 19×φ golden (90.61)
+- S Ketu – S Pallas Dec 8.086387 5×φ golden (88.32)
+- S Transpluto – S Pallas Dec 22.653217 14×φ golden (97.71)
+- sky Pallas splits S Ketu – S Transpluto Dec 30.7396 19×φ golden (90.61) (carrying S Pallas → J Pallas Dec 30.7217 19×φ golden (35.38)) = S Ketu – S Pallas Dec 8.0864 5×φ golden (88.32) + S Transpluto – S Pallas Dec 22.6532 14×φ golden (97.71)
+- WATCH additive step (Dec): 19×φ = 5×φ + 14×φ (S Pallas → J Pallas; S Ketu – S Pallas; S Transpluto – S Pallas)
+- WATCH additive step (Dec): 19×φ = 5×φ + 14×φ (S Ketu – S Transpluto; S Ketu – S Pallas; S Transpluto – S Pallas) (may be geometry: three distances between the same three points)
 

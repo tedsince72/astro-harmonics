@@ -105,6 +105,7 @@ EXPECT = {  # rule: {(runner, body), ...}
     'BB82': {('04 Nirodha', 'Chiron')},
     'BB83': set(),
     'BB84': {('03 Indie Angel', 'Eris')},
+    'BB84b': {('03 Indie Angel', 'Eris')},
     'BB55': {('01 Arafi', 'Gonggong'), ('01 Arafi', 'Venus'), ('04 Nirodha', 'Saturn'), ('05 Pholas', 'Pallas')},
     'BB53': {('06 Shimmering Dawn', 'Sun'), ('06 Shimmering Dawn', 'Jupiter'), ('06 Shimmering Dawn', 'Pallas')},
 }
