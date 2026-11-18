@@ -1668,3 +1668,9 @@ S Haumea → H Haumea RA 8.2985 score nothing; shifted by 0.2984 they land S Hau
 Swap field check (tools/scans/bb_fieldcheck_swap.py; S Y → c X and S X → c Y same chart, number families, no Moon; runner-level, 43 result
 races): both >= 80 196 / 39 / 34.3; with S X – S Y conjunct 4 / 1 / 0.7 (Two For Gold won; Dubai Souq, Miss Britain, Baileys Liberty lost);
 with a sky number line 74 / 16 / 12.6; no sky line 164 / 31 / 29.1; both >= 50 248 / 43 / 42.9. Swaps alone at chance.
+Sky activation vs the labels (Eddie, 18 Nov 2026: 'sky activation may override the negative aspect'; tools/scans/bb_scan_negative_activated.py;
+labels leave-one-out over 43 result races; holdings / won / by chance; activated = S Y – S X scores, conj or a number family):
+>= 90: negative activated 174 / 31 / 29.6, negative not activated 590 / 91 / 102.4; positive activated 142 / 23 / 24.6, positive not
+activated 356 / 67 / 62.7. >= 80: negative activated 191 / 32 / 32.5, not 610 / 100 / 105.1; positive activated 28 / 4 / 4.5, not 69 / 28 / 12.3.
+Activation takes the negative away (to chance), but takes the positive away too: activated pairs sit at chance both ways; the labels only
+carry on pairs with no sky line between the two bodies.
