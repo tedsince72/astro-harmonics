@@ -96,3 +96,6 @@
 - Yarmouth shapes: no holder.
 - Pair tally (cut 80): Fox Tal −1, Outbox −1, Hamish −3, Prince Of Arran −3, Hukum −4.
 - Sky-on-natal >= 90 net: Fox Tal 0, Hukum −2, Hamish −3, Prince Of Arran −3, Outbox −4.
+
+## Result (Eddie, 18 Nov 2026)
+1 Hamish 9/1, 2 Hukum 30/100F (nk), 3 Fox Tal 9/1, 4 Outbox 10/1, 5 Prince Of Arran 22/1. Winner the only BB1 + BB14 + BB68 holder (not blind).
