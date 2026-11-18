@@ -97,3 +97,9 @@ Field 5 (cloth 04 not in the file). Rules as built: Galtee Mountain 15, Helford 
 - Others: Dorking Lad (11 rules; alone BB13, BB54, BB66, BB68; only BB3 + BB54; depth 4); Native Robin (depth 5 Chiron, alone BB24, BB32;
   sky-on-natal 0 / 0); Reallyradical (2 rules, best ≥90 net +4).
 - Mirror watch (H Quaoar, S Jupiter and S Uranus on sky Quaoar): Galtee Mountain 94.87, Native Robin 93.44, Reallyradical 84.7.
+
+## Result (Eddie, 18 Nov 2026)
+1 Native Robin 16/1, 2 Galtee Mountain 9/1 (¾ l), 3 Helford River 11/4, 4 Dorking Lad 15/8F, PU Reallyradical 2/1; Goldencard non-runner.
+Miss: lead 2nd, second 3rd. Native Robin held 4 rules (BB3, BB7, BB24 alone, BB32 alone - Sun Regulus), depth 5 (Chiron, with Galtee
+Mountain), mirror watch H Quaoar 93.44, and no sky-on-natal line at ≥90 (net 0 / 0; ≥80 −2, whole ≥80 0). Galtee Mountain (most rules, 15)
+beaten ¾ l. The favourite Dorking Lad (11 rules) tailed off; Reallyradical (best ≥90 net +4) pulled up.
