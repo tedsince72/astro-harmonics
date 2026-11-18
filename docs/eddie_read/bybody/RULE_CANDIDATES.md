@@ -1783,5 +1783,10 @@ Not blind (Hamish named in CLAUDE.md); chosen after the result; not built, not o
   repeated natal numbers (12×φ H Sun – H Pallas / J Rahu – J Aldebaran; φ⁷ J Uranus – J Pallas / J Eris – J Aldebaran) each pair a Pallas
   line with an Aldebaran line (only runner whose repeats share a body pair).
 - No sky pair carries any of his 18 natal pairs (>= 90, or H X – J X >= 80) on its number.
-- Candidate shape to test forward: a sky pair S A – S B in a family, S A -> natal X on the same target (X beyond A, in line with B), and X
+- What it is (Eddie, 18 Nov 2026): "a relationship between natal to natal and the active sky, by the same bodies being involved but
+  not in the exact same pairs". Natal pair X – Y; the active sky lines use X and / or Y (as sky bodies or as natal end points) in other
+  pairings. Hamish: natal J Venus – J Jupiter, sky S Sun – S Venus with S Sun / S Venus -> J Jupiter; natal H Sun – H Pallas and H Venus –
+  H Pallas, sky S Sun – S Venus (the two natal partners of Pallas paired in the sky) and S Haumea -> H Pallas. The earlier natal-pair scans
+  asked for the same pair live in the sky; this asks for the same bodies in different pairs.
+- Candidate shape to test forward (one version of it): a sky pair S A – S B in a family, S A -> natal X on the same target (X beyond A, in line with B), and X
   in a natal pair >= 90 in the same chart (Hamish yes, Hukum no). Not yet counted over the 53 races.
