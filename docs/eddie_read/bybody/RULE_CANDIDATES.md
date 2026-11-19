@@ -1954,3 +1954,28 @@ Uranus:
 - Over 58 races no other runner had any horse body with no sky line, so this is rare but can't be judged.
 
 Reading: Venus (V) and Chiron (C) are single cases. C1 leans slightly the right way. Noted, not on watch.
+
+## Of Corse I Can natal-to-natal (Plumpton 14:45 16 Nov 2026, won 7/1; 19 Nov 2026, Eddie; notes only, not built)
+Natal pairs >= 90: horse 10, jockey (Bradley Harris) 12. Field nat90: Golly Gosh 26; Of Corse I Can, Ephyra and Anothermanicmonday 22.
+- The same pair in both charts, twice. He is the only runner in the field with two such pairs; Anothermanicmonday has one, Pallas – Saturn.
+  - Chiron – Orcus: H RA 155.5644 ninth 155.556 (97.2), J Dec 15.9996 whole 16 (98.1).
+  - Rahu – Fomalhaut: H Dec 40.9995 whole 41 (97.3), J Dec 51.9996 whole 52 (98.2).
+- One number in both charts, with a sky pair on it:
+  - H Mars – Uranus Dec 12.9456 8×φ (95.8) and J Gonggong – Fomalhaut RA 12.9428 8×φ (95.3).
+  - The sky pair is S Jupiter – S Saturn Dec 12.9302 (57).
+- Tight echoes (natal >= 80, sky within 0.01):
+  - H Saturn – Regulus Dec 34.0039 = S Rahu – S Uranus 34.0033 (34)
+  - H Rahu – Vesta Dec 13.3288 = S Gonggong – S Pluto 13.3319 (13.3333)
+  - J Juno – Orcus RA 179.6029 = S Gonggong – S Transpluto 179.5977 (111×φ)
+  - Sky Gonggong carries two of the echoes (T3 Gonggong). T3 is also held by Golly Gosh, Good Girl Rachel and Ephyra.
+- Orcus again, as with Splintered (J Chiron – Orcus Dec 14.4437): here it is in Chiron – Orcus (both charts) and J Juno – Orcus.
+Checked in past results (picks / won / by chance; tools/scans/bb_scan_ofcorse_natal.py, bb_scan_chiron_orcus.py; 57 races with an _active.xlsx):
+- F1 same pair >= 90 in both charts: 83 / 18 / 14.7
+- F2 two such pairs: 13 / 4 / 2.0 (Dynamic Force, Man On A Mission, Busby, Of Corse I Can)
+- F3 a number in both charts with a sky pair on it: 43 / 8 / 7.6
+- F1 + F3: 13 / 3 / 2.4
+- F2 + F3: 3 / 1 / 0.5, Of Corse I Can only
+- Chiron – Orcus >= 90 in either chart: 21 / 8 / 3.5 (Kilcummin, Novakai, Olympe De Gouges, Wholestone, Two For Gold, Deja Vue, Splintered, Of Corse I Can). Without the last two, which the idea came from: 19 / 6 / 3.2.
+- Chiron – Orcus in both charts: Of Corse I Can only.
+- Rahu – Fomalhaut >= 90 in either chart: 23 / 6 / 4.2. In both charts: Of Corse I Can only.
+Reading: Chiron – Orcus in either chart stands out most (about twice chance), but it was picked after two results. F2 leans the right way and is small. Noted, not on watch.
