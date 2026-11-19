@@ -116,3 +116,10 @@ Sole worst: >= 90 none (Traveller, Calonne −4); >= 80 Duchess Rose (−1); who
 - Lead: 02 Rain Gauge - the single cover pick and Version B's pick; alone on BB13, BB34, BB69; BB3 + BB54 (with Duchess Rose); O1 Sun by Gonggong (four lines); a + score line in its rule cells. Against: >= 90 net −2, depth 3.
 - Second: 05 Abnaa - 11 rules, alone on BB16, BB20, BB27, BB73; the only BB3 + BB63 holder; depth 5 (Sun) with P1-P3 (the only P3: Sun same-body line carried by S Gonggong – S Orcus); 0 field-only negatives and the best pair tally (3 / 1); best whole >= 80 net +2 (with Wow William); R11w Saturn 11 (71.2); J Antares – Orcus 17×φ (87.9) with a sky line on it (watch pair).
 - Others: 07 Carpentier (depth 5 on 3 bodies, alone BB8, BB10, BB82; full mirror M1 J Sun 98.18 carried by Transpluto; H Pallas – Juno 92.1 watch pair; + score line); 03 Cuban Cigar (alone BB59, BB84, BB53, BB6); 01 Traveller (most rules 12, alone BB68b, BB47; worst pair tally, 8 field-only negatives); 04 Calonne (depth 5, A0 / A1 Venus Regulus, fewest rules 4); 06 Wow William (BB66, BB75 alone; Jupiter loop A / B); 08 Duchess Rose (sole worst >= 80).
+
+## Result (from Eddie, 19 Nov 2026)
+1 Cuban Cigar 5/2F, 2 Calonne 15/2, 3 Abnaa 4/1, 4 Wow William 4/1, 5 Traveller 33/1, 6 Rain Gauge 6/1, 7 Carpentier 13/2, 8 Duchess Rose 20/1; 8 ran.
+- Cover of eight: 1 pick (Rain Gauge), 0 won, -1. Version B: Rain Gauge, -1. Version C: no pick.
+- Sky race score v1 0, v2 0: the filter would have bet - wrong for A and B.
+- Lay: favourite Cuban Cigar 5/2 (not short-priced) won; sole worst >= 80 Duchess Rose last.
+- Read: lead Rain Gauge 6th; second Abnaa 3rd.
