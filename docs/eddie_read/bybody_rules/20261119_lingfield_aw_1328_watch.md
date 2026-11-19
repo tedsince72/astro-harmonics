@@ -116,3 +116,11 @@
 - Lead: Zooella - most rules (20, 6 alone incl. BB48, BB57, BB59); the only N4 holder and the only BB3 + BB63 + BB68 holder; alone at depth 5 (Pluto, 4 bodies at 3+); full mirror M1 H Quaoar (93.65); best pair tally (3 / 2), 1 field-only negative; against: not a cover pick, sole worst whole >= 80.
 - Second: Moonlight Mirage - the single cover pick and Version B pick; 16 rules, 4 alone (BB34, BB53, BB84, BB84b); K1 Uranus (H – J 37×φ 91.98, S Saturn on both 91.43 / 99.45); BB10 + BB7 + BB9 (with Rajiba); the only positive >= 90 net.
 - Others: Moostar (BB38, BB65, BB66 alone; K1 Pluto; A0 / A1 Regulus on Makemake 13); Rajiba (full M1 H Quaoar 94.69, O1 Vesta, Jupiter loop A / B / D); Startling (J1any + BB68, BB35 + BB6; most field-only negatives).
+
+## Result (from Eddie, 19 Nov 2026)
+1 Zooella 4/9F (Rossa Ryan; ½ l), 2 Rajiba 17/2, 3 Startling 15/2, 4 Moostar 5/1, 5 Moonlight Mirage 33/1.
+- Cover of eight: 1 pick (Moonlight Mirage) last, −1. Version B the same, −1. Version C no pick.
+- Sky race score v1 +1, v2 +1 (filter bets) - wrong for A and B.
+- Read: the lead (Zooella) won - not a cover pick; the second (Moonlight Mirage) last.
+- Favourite watch: the favourite Zooella (4/9, short-priced; W1 yes, W2 no) won - W1 right, W2 wrong. Zenith not quiet - favourite won.
+- Lay check: the winner was the sole worst whole >= 80 net (−4) and won; best pair tally (3 / 2), 1 field-only negative.
