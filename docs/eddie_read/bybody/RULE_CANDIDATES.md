@@ -1918,3 +1918,39 @@ Checked in past winners (tools/scans/bb_scan_echo_threads.py; 56 result races wi
 - Without Splintered (the origin): L2 33 / 8 / 5.6, L23 23 / 5 / 4.0
 - In his race Splintered was the only holder of T23 and of L23.
 Reading: the tight versions are at chance. L2 / L23 lean the right way but are small and chosen after the result. Noted, not on watch.
+
+### Splintered's bodies (19 Nov 2026, Eddie: 'check the bodies involved not just relationships'; notes only)
+Lines are from his bybody sheet. Scan: tools/scans/bb_scan_splintered_bodies.py, 58 result races with a bybody xlsx; picks / won / by chance.
+
+Venus:
+- H Regulus – H Venus RA 145.6230 90×φ (99.9).
+- Same-body ratio to S Venus → H Venus RA 97.182936: 1.498442, 3/2 (92.2).
+- Crossed ratio to S Venus → H Venus Dec 11.191607: 13.011806, 13 (81.8).
+- S Venus → H Venus has no family of its own in either plane.
+- Venus also joins the charts: H Venus – J Venus Dec 1.617031 1×φ (96.9).
+- V (royal ≥ 90, same-body ratio ≥ 90 and crossed ≥ 80): 1 / 1 / 0.1, Splintered only.
+- Looser versions:
+  - royal ≥ 90 with same-body ratio ≥ 90: 16 / 3 / 2.6
+  - royal ≥ 90 with crossed ratio ≥ 90: 9 / 1 / 1.8
+  - both ratios ≥ 80: still Splintered only
+- So it is the two ratios together that are rare.
+
+Chiron:
+- S Chiron → H Chiron Dec 2.999339, whole 3 (96.7).
+- Two royal stars tie to that 3:
+  - H Aldebaran – H Chiron Dec 8.9943, 9 (71.3): ratio 3 (93.8).
+  - H Fomalhaut – H Chiron RA 29.9804, 30 (2.1): crossed ratio 10 (91.4).
+- Regulus also: H Regulus – H Chiron Dec 4.4518 ninth 4.44444 (17.6): ratio 3/2 (21.3).
+- Chiron is also in his echoes in both charts: H Chiron – Makemake Dec 14, J Chiron – Orcus Dec 14.4444.
+- C (same-body ≥ 90 and two royal lines with a ratio ≥ 90 to it): 2 / 1 / 0.3, the other holder in a past race.
+- C1 (one royal line is enough): 28 / 7 / 5.0.
+
+Uranus:
+- The horse's natal Uranus takes no scoring sky line, Moon included.
+- Its royal lines and S Uranus → H Uranus (RA 15.190585, Dec 3.580926) are all off target.
+- The jockey's Uranus takes many, e.g. S Jupiter → J Uranus Dec cp (97.6), S Haumea → J Uranus Dec 27 (93.0).
+- U0 (horse Uranus with no sky line): 2 / 1 / 0.2 over 58 races. Both holders are in this race: Splintered and Al Lahbab (the favourite, 4th).
+- Al Lahbab's S Uranus → H Uranus is RA 15.20516 / Dec 3.585301, almost the same as Splintered's: Uranus is slow and the two were foaled close together, so the empty Uranus comes from where Uranus sat that year, not from the horse.
+- Over 58 races no other runner had any horse body with no sky line, so this is rare but can't be judged.
+
+Reading: Venus (V) and Chiron (C) are single cases. C1 leans slightly the right way. Noted, not on watch.
