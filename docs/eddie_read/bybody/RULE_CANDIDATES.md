@@ -2183,3 +2183,7 @@ Standing: any pattern noticed after a back-fill result goes here, marked as chos
 
 - Lingfield AW 15:40 19 Nov 2026 (live forward, chosen after the result, note only): Nogo's Dream won 15/8F - a cover pick dropped by Version B (act80 0), the only cover pick holding a fast sky-natal triangle at >= 80 (Version D's first race, fixed after the read, holders named before the result). B has now dropped the winner in two of today's races (Classic Bellini, Nogo's Dream).
 - Newcastle AW 15:35 and Warwick 14:47 19 Nov 2026 (live forward, chosen after the results, note only): both won by a fast sky-natal triangle holder outside the cover (Ozat 9/1, Hard Dealt 9/2); in-sample those holders were under chance (112 / 9 / 18.3). Warwick: the lay check's sole worst >= 90 net (Coolanna −4) was the favourite and pulled up.
+
+### Lingfield AW 12:18 19 Nov 2026 (after the result; noted only)
+- Acrackintime won 200/1 outside the cover and every version; the only D1 + BB3 holder (decade echo on Pallas, 5×φ / 50×φ). D1 + BB3 has now won several times as a field-only holding (Wholestone, Sage Green, Nibras Gold, Forget You Not, Pixie Loc, Acrackintime); worth a fresh count over all races before any decision (chosen after the results).
+- The lead's positives (all three nets positive, best pair tally, 0 field-only negatives) did not hold in a 2yo maiden; the lay-check worsts ran 2nd-4th.

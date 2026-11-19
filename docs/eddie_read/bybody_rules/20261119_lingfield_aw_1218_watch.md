@@ -135,3 +135,10 @@ Sole worst: >= 90 Farouche (−3); >= 80 Sparkling Jem (−1); whole >= 80 none 
 - Lead 02 Anaream: most rules 18, 6 alone (BB1, BB34, BB48, BB75, BB84, BB84b); cover and Version B pick; alone on BB1 + BB14 and BB1 + BB14 + BB68; BB3 + BB63 + BB68 and BB63 + BB68 with Miss Clarice; BB59 with Sparkling Jem; the only runner positive at all three sky-on-natal cuts; best pair tally 1 / 0; 0 field-only negatives; W1 and W2. Weak side: depth 3.
 - Second 06 Miss Clarice: alone at depth 5 (Pallas); BB79 alone; Version D and E pick; the only P4 holder (Pallas loop, S Venus – S Ketu, S Sun → J Pallas 133.333 94.71 repeat) and the only A2 holder (Antares on both natal Venuses, J ratio 1+1/√2 99.34, H line by S Sun – S Venus 99.69).
 - Others: Valley Rising (13 rules, BB68b alone, mirror M1 H Jupiter 96.91); Acrackintime (D1 + BB3, BB80, BB82 alone).
+
+## Result (from Eddie, 19 Nov 2026)
+1 Acrackintime 200/1 (shd), 2 Clarice Starling 17/2, 3 Fabulova 7/2, 4 Farouche 10/1, 5 Valley Rising 6/5F, 6 She Is Mighty 11/2, 7 Miss Clarice 14/1, 8 Anaream 12/1 (ran green), 9 Sparkling Jem 500/1.
+- Cover of eight: 2 picks 0 won, −2. Version B: Anaream 8th, −1. Version C: no bet. Versions D and E: Miss Clarice 7th, −1.
+- Sky race score +1 (bet) wrong; cover signals 2 (bet) wrong.
+- Read: lead 8th, second 7th - miss. Winner Acrackintime: 11 rules, alone BB27, BB56, BB80, BB82; the only D1 + BB3 holder (Pallas: S Rahu – S Pallas Dec 5×φ 90.23 / J Antares – J Pallas RA 50×φ 91.06); depth 3; nets −1 / 0 / +1, pair tally 0 / 3, 2 field-only negatives.
+- Favourite Valley Rising 5th: W1 no, W2 no (both right); not the sole worst at any cut. Sole worst >= 90 Farouche 4th; sole worst pair tally Clarice Starling 2nd; most field-only negatives Fabulova 3rd.
