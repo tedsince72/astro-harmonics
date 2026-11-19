@@ -113,3 +113,13 @@
 - Lead: 06 Switch Partner - cover pick (BB32); 14 rules, alone on BB32, BB34, BB65, BB72; BB3 + BB63 + BB68 and BB59 (with Having A Barney); the only full mirror M1 holder (H Quaoar 93.4, carried by S Pallas; M1 is a post-result note, not a rule); sky-on-natal >= 80 net +1, the only positive; depth 3.
 - Second: 07 Civil Justice Gone - most rules 18, alone on BB18, BB24, BB54, BB58, BB83; the only BB3 + BB54 holder; best pair tally (4 / 6) and best sky-on-natal nets (>= 90 0, whole >= 80 +3); not a cover pick.
 - Others: 02 Having A Barney 15 rules (BB3 + BB63 + BB68, R11 Orcus 90.24, fewest negatives 2); 01 Enthused, 04 Yukon, 05 Onesmoothoperator at depth 5; Onesmoothoperator the worst nets (>= 90 -9, 7 field-only negatives).
+
+## Result (Eddie, 19 Nov 2026)
+
+1 Yukon 50/1, 2 Onesmoothoperator 1/2F, 3 Summer Moon 9/4, 4 Switch Partner 100/1, 5 Enthused 10/1 (bled), 6 Having A Barney 50/1, PU Civil Justice Gone 250/1; 7 ran.
+
+- Cover of eight: 4 picks, Yukon won 50/1 (+50), Summer Moon 3rd, Switch Partner 4th, Enthused 5th (-3): +47 points.
+- Version B: Enthused, Summer Moon, -2 (Yukon dropped by act80 0). Version C: no pick.
+- Sky race score +5 (cover-hit kind): right for A, wrong for B.
+- Read: lead Switch Partner 4th, second Civil Justice Gone PU - miss.
+- Winner (outsider): cover pick by BB79; 11 rules, alone BB62; BB3 + BB63; depth 5 (Saturn); P1; Antares A0 / A1 on Venus; sky-on-natal >= 90 net -2, >= 80 -3; pair tally 2 / 7, 5 field-only negatives.
