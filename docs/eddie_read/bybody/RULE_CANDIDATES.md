@@ -2046,5 +2046,5 @@ tools/scans/bb_natal_filter.py -> docs/eddie_read/bybody/natal_filter_20261119.m
   - Positives: S Jupiter → J Quaoar (15 / 6 / 2.4), S Chiron → J Vesta (14 / 5 / 2.4).
 - Sky-on-natal >= 90: 0 positive, 5 negative (S Ceres → Rahu, S Jupiter → Transpluto, S Mercury → Rahu, S Orcus → Quaoar, S Uranus → Gonggong), net −5. The winner Rose Warrior and Port Isaac (2nd) were also −5.
 - Outer bodies whole >= 80 on natal Uranus (the favourites' pattern from Coltrane): none in this race.
-- Four of his five field-only negatives are on the jockey's chart (Kielan Woods).
+- Of his five field-only negatives, three are on the jockey's chart (Kielan Woods) and two on the horse's.
 - He unseated at the start, so the race did not test him.
