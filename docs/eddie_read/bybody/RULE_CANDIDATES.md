@@ -2086,3 +2086,10 @@ Impatient natal to natal (Ffos Las 15:37 8 Nov 2026, won 11/2; tools/scans/bb_sc
   - S Saturn → J Eris RA 13.9915 14 (57.4). Others: Minella Blueway S Saturn → H Eris Dec 3 (76.9), Fame And Fun S Saturn → J Eris Dec 7 (70.4).
   - With Sun - Eris, Eris is the hub: for both Sun and Saturn the sky pair scores, the natal pair scores >= 90 in one chart, and a sky line joins the two bodies across sky and natal.
   - The numbers differ: 101×φ / 22.2222 / 11.1111 for Sun, 18 / 70×φ / 20 / 14 for Saturn.
+- Eddie's Eris lines (19 Nov 2026), Impatient: S Sun – S Eris RA 101×φ (86.1), S Saturn – S Eris RA 18 (71.6), S Sun → H Eris RA 100φ (55.4), S Saturn → J Eris RA 14 (57.4), S Sun → J Eris Dec 9 (39.8).
+  - Field: Impatient is the only runner with both Sun and Saturn on natal Eris, and the only one with S Sun on both natal Eris.
+    - Others: Jack's Jury S Sun → H Eris Dec 15 (48.9); Minella Blueway S Saturn → H Eris Dec 3 (76.9); Fame And Fun S Saturn → J Eris Dec 7 (70.4).
+  - Geometry: in RA, S Y → natal Eris = S Y – S Eris minus Eris's own movement since birth (S Eris – H Eris RA 1.5052, S Eris – J Eris RA 4.0028).
+    - 163.4169 − 1.5052 = 161.9117 and 17.9943 − 4.0028 = 13.9915.
+    - Jockey side: Eris has moved almost exactly 4 (whole) since his birth, so a sky line to S Eris on a whole number lands on a whole number on J Eris too (18 -> 14).
+    - Horse side: 1.5052 is not φ, so 101×φ -> 100φ both scoring is partly luck of the tolerances.
