@@ -2012,3 +2012,23 @@ Reading:
 - At >= 90, two activated pairs (A2) is the clearest edge so far in this line of work: 10 of 25, 4.3 by chance.
 - The cut was picked after trying three (50, 80, 90), so it needs forward races.
 - Eddie to say whether A2 at >= 90 goes on watch. It does not change the cover-of-eight test.
+
+### Natal / activation as a filter on the cover of eight (19 Nov 2026, Eddie: 'maybe this is a filter that we can also use with cover of eight'; notes only)
+tools/scans/bb_natal_filter.py -> docs/eddie_read/bybody/natal_filter_20261119.md.
+- In common, Splintered and Of Corse I Can:
+  - Chiron – Orcus >= 90 in a natal chart (each the only holder in his race apart from Ephyra at Plumpton).
+  - One natal pair activated by a sky line >= 80 (act80 = 1).
+  - A sky body carrying two tight echoes (T3: Juno, Gonggong).
+  - 3-4 tight echoes.
+  - Neither had act90.
+- Over the 57 result races with an _active.xlsx: cover picks 71 / 36 / 12.7 (+691.2). That is in-sample, because the eight were chosen on these races.
+- Split by act80 (natal pairs >= 90 activated by a sky line >= 80 naming one of their bodies, no Moon):
+  - 0: 30 / 9 / 5.4 (+127.0)
+  - >= 1: 41 / 27 / 7.3 (+564.2)
+  - >= 2: 18 / 15 / 3.1 (+370.0)
+- Split by act90: >= 1 28 / 20 / 5.0, >= 2 11 / 10 / 2.0.
+- Winner top of the field on act80 in 17.8 races (chance 10.1); on anysky 16.8 (chance 10.4).
+- Forward races so far:
+  - Wolverhampton, cover picks with act80 >= 1: Silent Wisdom and Splintered (won 125/1); Laurel Crown and Vulcanist have 0.
+  - Plumpton: both cover picks (Jurassic Pet, Golly Gosh) have 0; the winner Of Corse I Can (1) was not a cover pick.
+- Not part of the fixed test. If used, it would be a second version ("cover of eight + act80 >= 1"), tallied alongside, fixed before the next race.
