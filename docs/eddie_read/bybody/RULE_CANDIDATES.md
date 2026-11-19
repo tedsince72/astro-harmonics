@@ -2131,3 +2131,16 @@ Impatient natal to natal (Ffos Las 15:37 8 Nov 2026, won 11/2; tools/scans/bb_sc
     - Four more pairs are lit by cross lines only (Pluto – Makemake, Mars – Juno, Jupiter – Vesta, Ketu – Quaoar).
   - Impatient: two fully lit pairs on one body (Eris: Sun, Saturn).
   - So the picks had the pieces; what they lacked was the shared body (Fame And Fun) or the second complete pair (Jack's Jury).
+- Sky - sky from every angle (19 Nov 2026; tools/scans/bb_sky_angles_races.py -> sky_angles_races_20261119.md; bb_sky_aspects_races.py; bb_sky_sky_races.py).
+  - Cover hit races vs other, without the origin races; lines per race, numbers >= 90, aspects >= 50.
+  - Families: golden 3.40 / 2.64, ninth 2.70 / 2.05, phi power 1.10 / 0.82, √2 0.33 / 0.23 lean hit; whole 2.57 / 2.95 leans other.
+  - Aspects: opposition 0.67 / 0.82 and contraparallel 1.80 / 2.23 lean other; conj even.
+  - Plane: Dec number lines 4.93 / 3.68 (hit); RA even.
+  - Body x family:
+    - Golden on Neptune 0.33 / 0.00, Sedna 0.37 / 0.09, Eris 0.27 / 0.05, Regulus 0.33 / 0.09 (hit).
+    - Whole on Makemake 0.13 / 0.45, Ceres 0.23 / 0.45, Aldebaran 0.03 / 0.23, Mercury 0.27 / 0.41 (other).
+    - Golden on Saturn 0.17 / 0.50 (other).
+  - Pairs, races holding:
+    - Hit side: Mars – Pallas 5 / 0, Eris – Vesta 5 / 0, Sedna – Venus 4 / 0, Aldebaran – Ceres conj 6 / 1.
+    - Other side: Haumea – Venus golden 0 / 4 (any kind 0 / 5), Mercury – Venus 0 / 4, Pallas – Regulus 1 / 5.
+  - Built into the sky race score v1 (bb_sky_race_score.py), fixed the same day.

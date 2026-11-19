@@ -56,6 +56,11 @@ def one_race(race, d):
             print(f'- {r}: act80 {act(r)}' + (' -> kept' if act(r) >= 1 else ' -> dropped'))
     else:
         print('\nVersion B: no _active.xlsx for this race, act80 not computed')
+    # Sky race score v1 (fixed 19 Nov 2026, Eddie): recorded blind on every race; <= -2 = the kind of race where the cover missed.
+    if os.path.exists(f'reference/classic/race_batch_{race}_active.xlsx'):
+        import bb_sky_race_score as SS
+        sc, a, b, why = SS.score(race)
+        print(f'\nSky race score v1: {sc:+d} (+{a} / -{b})' + ('  -> cover-miss kind of race (<= -2)' if sc <= -2 else ''))
 
 
 def main():
