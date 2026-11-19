@@ -2144,3 +2144,9 @@ Impatient natal to natal (Ffos Las 15:37 8 Nov 2026, won 11/2; tools/scans/bb_sc
     - Hit side: Mars – Pallas 5 / 0, Eris – Vesta 5 / 0, Sedna – Venus 4 / 0, Aldebaran – Ceres conj 6 / 1.
     - Other side: Haumea – Venus golden 0 / 4 (any kind 0 / 5), Mercury – Venus 0 / 4, Pallas – Regulus 1 / 5.
   - Built into the sky race score v1 (bb_sky_race_score.py), fixed the same day.
+
+## Back-fill post-result notes (19 Nov 2026, Eddie: "keep a note of anything like that"; chosen after the results, not built)
+
+Standing: any pattern noticed after a back-fill result goes here, marked as chosen after the results. Nothing here changes the cover of eight, Versions B / C or the sky race score.
+
+- Mirror M1 (full, from bb_watch_race.py): holders in the 8 back-fill races (Brighton 16:10 3 Aug 2022 to Southwell 15:01 27 Sep 2022): Redcar 17:15 Greycious Anna H Juno 91.98 won 13/2; Uttoxeter 15:00 Cremant J Jupiter 96.68 2nd at 2/1F; Perth 14:10 Catchmeifyoucan J Juno 91.07 won 14/1; Southwell 15:01 Between The Waters H Quaoar 99.12 won 8/1. 4 holders, 3 won; no holder in Brighton, Beverley, Salisbury, Haydock. Each holder was the only full M1 holder in its race. Juno twice (H and J). M1b alone (without M1) won nothing in these races (Beverley 3 holders, Southwell 2).
