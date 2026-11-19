@@ -123,3 +123,11 @@
 - Lead: Water To Wine - cover pick (two items) and the Version B pick; most rules (17, 7 alone incl. BB32, BB64, BB81); N0 Orcus (H Regulus – H Orcus 3×φ 91.28 = S Orcus → H Orcus 89.82); full mirror M1 on J Vesta (97.8); depth 5; best pair tally (1 / 0), 0 field-only negatives, best whole >= 80 net.
 - Second: Pearl Eye - the only N4 holder (BB3 + BB63, BB3 + BB54, BB59); BB54 alone; S Pluto → H Pluto Dec 1×φ (97.38); but sole worst whole >= 80.
 - Others: Paddy The Squire (the only BB3 + BB63 + BB68 and H1 hub holder, but sole worst >= 90 at −6); Eddaari (14 rules, BB13 + BB48 + BB55 with Stoneacre Donny, the only W2 line, full M1 J Ceres); Savvy Disko (cover pick, full M1 H Quaoar 98.05, dropped by B); Stoneacre Donny (BB68b, BB75 alone; most field-only negatives).
+
+## Result (Eddie, 19 Nov 2026)
+1 Ozat 9/1, 2 Savvy Disko 5/1, 3 Water To Wine 6/5F, 4 Paddy The Squire 11/1, 5 Deira Mile 40/1, 6 Eddaari 50/1, 7 Stoneacre Donny 11/4, 8 Pearl Eye 25/1. 8 ran.
+- Cover of eight: 2 picks, 0 won → −2. Version B: Water To Wine 3rd → −1. Version C, Version D: no pick.
+- Sky race score 0 (bets): wrong for A and B.
+- Favourite watch: favourite Water To Wine lost; W1 yes - wrong; W2 no - right.
+- Read: lead Water To Wine 3rd, second Pearl Eye last. Ozat: 9 rules, depth 5, the only positive >= 80 net (+1), joint best >= 90; a fast sky-natal triangle holder outside the cover.
+- Sky Regulus apexes 3.
