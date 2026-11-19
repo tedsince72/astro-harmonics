@@ -116,3 +116,10 @@ Sole worst: >= 90 none (Storm Catcher, Clarendon Cross −3); >= 80 none; whole 
 - Lead: 02 Vina Bay - the only N4 holder (BB3 + BB63, BB3 + BB54, BB59) and so alone on BB67, also alone on BB52, BB59, BB60, BB68; A0 / A1 Haumea Regulus (J ratio 2, 96.13); Version B's pick; >= 90 net +1 (joint best). Against: the most field-only negatives (6), depth 2.
 - Second: 06 Exceedingly Regal - 14 rules (joint most), alone on BB8, BB18, BB49, BB84, BB84b; BB3 + BB54; horse Antares – Quaoar 24.14 silver (83.8) with a sky line on it (watch pair); >= 90 net +1.
 - Others: 03 Taravara (14 rules, alone BB1, BB13, BB16, BB20, BB34; N0 Mercury 177.778); 04 Shuv H'Penny King (alone at depth 5, Juno); 01 Arthur's Realm (cover pick, 0 field-only negatives, K1 Sun, BB10 + BB23 + BB7; sole worst whole >= 80); 07 Clarendon Cross (full mirror M1 H Venus 95.14, BB48 + BB55); 05 Storm Catcher (horse Pallas – Juno 97.7, watch pair; best whole >= 80 net +2).
+
+## Result (from Eddie, 19 Nov 2026)
+1 Exceedingly Regal 100/30F, 2 Storm Catcher 4/1, 3 Taravara 17/2, 4 Arthur's Realm 4/1, 5 Clarendon Cross 25/1, 6 Shuv H'Penny King 9/2, 7 Vina Bay 9/2 (lost its action); 7 ran.
+- Cover of eight: 2 picks, 0 won, -2. Version B: Vina Bay last, -1. Version C: no pick.
+- Sky race score v1 -3, v2 -3: the filter would have skipped - right for A and B.
+- Lay: favourite Exceedingly Regal 100/30 (not short-priced) won; sole worst whole >= 80 Arthur's Realm 4th.
+- Read: lead Vina Bay last; second Exceedingly Regal won.
