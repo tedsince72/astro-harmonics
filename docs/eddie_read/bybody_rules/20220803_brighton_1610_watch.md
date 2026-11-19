@@ -108,3 +108,10 @@
 - Lead: 04 Silver Kitten - the score says a quiet-winner race and he is the only runner outside the cover, fewest rules (8, 0.62 of the leader's 13), the only J1any and BB69b holder.
 - Second: 05 Rivas Rob Roy - alone at depth 4, only D1 + BB3 and A2, 2 field-only negatives, no negative sky-on-natal net.
 - Weakest on negatives: 02 Amathus (10 field-only negatives).
+
+## Result (Eddie, 19 Nov 2026)
+1 Amathus 6/1, 2 Redredrobin 5/4F, 3 Porterinthejungle 13/2, 4 Rivas Rob Roy 15/2, 5 Christines Angel 9/1, 6 Silver Kitten 9/2. Non-runner Red Alert (cloth 3).
+- Price group: mid (6/1). Cover of eight: hit (Amathus a pick, BB3 + BB12 + BB53); 5 picks 1 won. Version B: Redredrobin 2nd, 0 won.
+- Sky race score -2 said cover-miss: wrong here.
+- Read: lead Silver Kitten last, second Rivas Rob Roy 4th - miss.
+- Field-only negatives pointed the wrong way: the winner had the most (10), the fewest (Christines Angel 1) was 5th.
