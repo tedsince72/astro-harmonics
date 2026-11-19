@@ -103,3 +103,9 @@
 - Others: 01 Cremant 6 rules (alone BB17, BB55, BB59; only P2 / P3; mirror on J Jupiter 96.68; best pair tally 4 / 3; >= 90 net -6 the worst);
   03 Dicey Rielly 7 (alone BB4, BB7, BB16; only BB10 + BB7 + BB9; K1 Quaoar); 06 Lil Codey no rule, depth 0.
 - H1 hub: none.
+
+## Result (from Eddie, 19 Nov 2026)
+1 Fantomas 13/2 (mid), 2 Cremant 2/1F, 3 Bolsover Bill 13/2, F Dicey Rielly 9/4 (fell 3 out, 8 lengths clear), PU Lil Codey 5/1. 5 ran.
+- Cover of eight: single pick Fantomas won -> +6.5 points. Version B: no bet. Version C: no bet.
+- Sky race score +1 (cover-hit kind): right for A; B had no pick, not graded.
+- Read: lead Fantomas won; second Bolsover Bill 3rd. Fantomas held BB3 + BB63 + BB68 alone (another winner on it).
