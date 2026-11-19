@@ -30,6 +30,16 @@ def score(race):
     return a - b, a, b, why
 
 
+
+def score_v2(race):
+    """Sky race score v2 (fixed 19 Nov 2026, Eddie: 'yes ... please run alongside'; from Newmarket 14:13 29 Oct 2022, chosen after the
+    result): v1, plus -1 per golden line >= 90 between S Venus and S Haumea (5 result races held one, the cover missed all 5). v1 unchanged."""
+    s, a, b, why = score(race)
+    for x in A.lines(race):
+        if x[3] == 'golden' and x[5] >= 90 and set(x[:2]) == {'Venus', 'Haumea'}:
+            b += 1; why.append(f'- (v2) S {x[0]} – S {x[1]} {x[2]} {x[4]} golden ({x[5]:.0f})')
+    return a - b, a, b, why
+
 def main():
     if '--race' in ARGS:
         r = ARGS[ARGS.index('--race') + 1]

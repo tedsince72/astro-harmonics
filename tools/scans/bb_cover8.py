@@ -67,6 +67,8 @@ def one_race(race, d):
         import bb_sky_race_score as SS
         sc, a, b, why = SS.score(race)
         print(f'\nSky race score v1: {sc:+d} (+{a} / -{b})' + ('  -> cover-miss kind of race (<= -2)' if sc <= -2 else ''))
+        sc2, a2, b2, _ = SS.score_v2(race)  # v2 (19 Nov 2026, Eddie): v1 - 1 per S Venus - S Haumea golden >= 90; run alongside v1
+        print(f'Sky race score v2: {sc2:+d} (+{a2} / -{b2})' + ('  -> cover-miss kind of race (<= -2)' if sc2 <= -2 else ''))
 
 
 def main():
