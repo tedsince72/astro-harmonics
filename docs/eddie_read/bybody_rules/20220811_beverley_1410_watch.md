@@ -116,3 +116,10 @@
 - Lead: 04 My Honey B - the score says a quiet-winner race; she is outside the cover, 10 rules (0.67 of the leaders' 15), the only BB10 + BB60 holder, depth 5, the only positive sky-on-natal net at >= 90 and the best at >= 80.
 - Second: 03 Jim's Cracker - the only D1 + BB3 holder (21 / 9 / 3.3 over 48 races), BB80 alone, cover and Version B pick.
 - Weakest on negatives: 08 Ribkana (7 field-only negatives, pair tally 1 / 9).
+
+## Result (Eddie, 19 Nov 2026)
+1 Leading Company 5/2F, 2 Jim's Cracker 100/30, 3 My Honey B 3/1, 4 Vondelpark 15/2, 5 Ribkana 40/1, 6 Madam Macho 10/1, 7 Frank Ross Is Out 12/1, 8 Heart Of Acklam 12/1.
+- Price group: favourite. Cover of eight: miss, -2 points (Jim's Cracker 2nd, Ribkana 5th). Version B: -1 (Jim's Cracker 2nd).
+- Sky race score -3 said cover-miss: right; as a no-bet filter it would have saved 2 points (A) and 1 (B).
+- Read: lead My Honey B 3rd, second Jim's Cracker 2nd - miss.
+- Winner: joint-most rules (15), BB67 alone, every BB3 combination; worst sky-on-natal >= 90 net (-5); the only runner not at depth 5.
