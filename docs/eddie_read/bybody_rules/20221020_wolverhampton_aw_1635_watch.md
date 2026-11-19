@@ -130,3 +130,14 @@
 - Lead: 02 Dark Swansong - 14 rules, 7 held alone (BB10, BB13, BB16, BB47, BB66, BB79, BB82); depth 5 (Orcus); the only BB82 + BB9 holder; P1-P3 (P3 alone); fewest negatives of the full charts (2). Cover pick and Version B.
 - Second: 09 Ring Of Light - most rules 16, 5 alone incl. BB68b; depth 5 (Haumea) with the most bodies at 3+ (6); jockey Antares - Orcus 111.111 with a sky line (natal pair on watch). Cover pick and Version B.
 - Others: 08 Nikki's Girl (12 rules, depth 5, natal Antares - Quaoar Dec 11.0000 with S Quaoar - S Antares 11.0063 and Ceres - Orcus 100 with a sky line, N0, P4, full M1 H Quaoar) but the worst >= 90 net in the field; 01 Flatley (alone BB56, BB84, BB84b; BB3 + BB63 the only holder; most negatives); 03 Thapa Vc (BB23 + BB7 + BB9 alone, the only positive >= 90 net, full M1 H Venus).
+
+## Result (Eddie, 19 Nov 2026)
+
+1 Ring Of Light 2/1F (Hollie Doyle), 2 Milbanke 10/1, 3 Liangel Hope 22/1, 4 Thapa Vc 4/1, 5 Flatley 3/1, 6 Dark Swansong 9/2, 7 Poetic Force 33/1, 8 Nikki's Girl 66/1; 8 ran.
+
+- Cover of eight: 4 picks, Ring Of Light won 2/1 (+2), Milbanke 2nd, Dark Swansong 6th, Nikki's Girl last: -1 point. Favourite group.
+- Version B: Ring Of Light won (+2), Dark Swansong 6th (-1): +1. Version C: no pick.
+- Sky race score -1 (filter bets): right for A and for B.
+- Read: lead Dark Swansong 6th (ran too free); second Ring Of Light WON (most rules 16, BB68b, depth 5 Haumea).
+- Lay check: favourite Ring Of Light 2/1 (not short by the evens line), not the sole worst at any cut, won. Sole worst >= 90 Nikki's Girl last at 66/1.
+- Note (after the result): full mirror M1 holders Milbanke 2nd, Liangel Hope 3rd, Thapa Vc 4th, Nikki's Girl last - none won.
