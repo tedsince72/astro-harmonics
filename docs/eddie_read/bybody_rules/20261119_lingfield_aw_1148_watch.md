@@ -122,3 +122,11 @@
 - Lead: Boy Basilica - most rules (23); alone at depth 5 (Ketu); the only BB72 holder (BB10 + BB59, 5 / 4 before); the only BB10 + BB7 + BB9, BB10 + BB23 + BB7, BB23 + BB7 + BB9 holder (the Greaneteen / Heart Throb combinations); Jupiter loop A / B / D.
 - Second: Bacha - cover pick (BB54 + BB82, alone); the only N4 holder (BB3 + BB63, BB3 + BB54, BB59); BB64 alone; but depth 0 and dropped by Version B.
 - Others: Arthur Carrot (cover / B pick, 17 rules, BB3 + BB63 + BB68 with Nour, A0 / A1 Regulus on Makemake; worst pair tally); Show Me Glory (depth 4, P2 / P3, the only positive >= 80 net, fewest negatives); Rogue Imperial (the only positive >= 90 net); Rosevannion (BB1, BB49, BB66 alone, depth 0); Cloud Summit (fewest rules, H Pallas – Juno 92.9 on watch).
+
+## Result (from Eddie, 19 Nov 2026)
+1 Arthur Carrot 100/30 (Billy Loughnane; comfortably, 1½ l), 2 Bacha 8/1, 3 Boy Basilica 12/1, 4 Rogue Imperial 15/8F, 5 Nour 14/1, 6 Cloud Summit 33/1, 7 Rosevannion 8/1, 8 Show Me Glory 5/1.
+- Cover of eight: 2 picks, Arthur Carrot won, Bacha 2nd: +2.33 points. Version B (Arthur Carrot) +3.33. Version C no pick.
+- Sky race score v1 0, v2 0 (filter bets) - right for A and B.
+- Read: the lead (Boy Basilica) 3rd, the second (Bacha) 2nd; the winner was a cover / B pick named among the others.
+- Favourite watch: the favourite Rogue Imperial (W1 yes, W2 no) 4th - W1 wrong, W2 right; the first losing favourite since the watch began. Zenith not quiet - favourite lost.
+- Lay check: the favourite had the only positive >= 90 net (+1) and lost; the winner had the worst pair tally (1 / 10) and a −3 >= 90 net.
