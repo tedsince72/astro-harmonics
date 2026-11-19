@@ -111,3 +111,14 @@
 - Lead: 04 Quantum Light - most rules 16, 9 held alone (BB1, BB1b, BB13, BB23, BB28, BB34, BB77, BB77c, BB82); the only holder of BB10 + BB23 + BB7, BB10 + BB23 + BB9, BB23 + BB7 + BB9 and BB82 + BB9; BB10 + BB7 + BB9 with Monopolise; depth 5 (Neptune); >= 90 net +1. Cover pick (two items).
 - Second: 06 On The Pulse - 15 rules, 7 alone (BB12, BB47, BB53, BB59, BB63, BB67, BB72); fewest negatives (1 / 1 field-only); depth 3. Cover pick.
 - Others: 07 Monopolise (depth 5 on Uranus, Vesta, Sedna, 4 bodies at 3+; N2 Uranus; worst whole >= 80 net); 05 Spioradalta (BB78 and BB64 alone, P1-P3, natal Mercury - Rahu 30 with sky lines; worst >= 90 and >= 80 nets); 01 In These Shoes (BB68 alone, full M1 H Quaoar).
+
+## Result (Eddie, 19 Nov 2026)
+
+1 Monopolise 17/2 (Saffie Osborne), 2 Spioradalta 11/4, 3 In These Shoes 5/4F, 4 Quantum Light 7/1, 5 On The Pulse 5/1; 5 ran.
+
+- Cover of eight: 2 picks, Quantum Light 4th, On The Pulse last: -2 points. Mid-price winner not picked.
+- Version B: no bet. Version C: no pick.
+- Sky race score -1 (filter bets): wrong for A (cover missed); B not graded (no pick).
+- Read: lead Quantum Light 4th (hung right); second On The Pulse last. Winner Monopolise: 13 rules, alone BB18, BB25, BB29; BB10 + BB7 + BB9 (with Quantum Light); depth 5 on Uranus, Vesta, Sedna, the most bodies at 3+ (4); N2 Uranus (S Sun conj J Uranus Dec 92.09), the only N2 holder; P1; >= 90 net +1 (joint best with Quantum Light); the sole worst whole >= 80 net (-4).
+- Lay check: favourite In These Shoes 5/4 (not short by the evens line), not the sole worst at any cut, 3rd. Sole worst >= 90 / >= 80 Spioradalta 2nd; sole worst whole >= 80 Monopolise WON.
+- Note (after the result): full M1 holder In These Shoes 3rd. BB25 (under chance in the negatives scan) held alone by the winner again (as Of Corse I Can, Plumpton 14:45).
