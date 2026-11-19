@@ -122,3 +122,11 @@ Sole worst: >= 90 Yanifer (-4); >= 80 Tellmeyourstory (-1); whole >= 80 River Wh
 - Lead: 02 Yanifer - the most rules (26), 9 alone (BB13, BB15, BB17, BB24, BB29, BB43, BB53, BB60, BB68); the only N4, BB63 + BB68 and BB3 + BB63 + BB68 holder; N2 (S Venus conj J Uranus Dec 99.83); BB67, BB72 with Discomatic; cover and Version B pick; W1; depth 5 (Sun). Against: sole worst >= 90 net (-4).
 - Second: 06 Discomatic - 13 rules, 5 alone (BB1, BB9, BB18, BB23, BB49); Version C pick; the only holder of the Greaneteen / Heart Throb combinations (BB10 + BB7 + BB9, BB10 + BB23 + BB9 ...); BB67, BB72, BB59; P2 / P3 (Neptune); A1 Antares on Pluto (J 34 whole 97.9); mirror M2 H Quaoar 99.86; W1; depth 5; best >= 90 net (+1) and pair tally (5 / 2). Not a cover pick.
 - Others: 05 Marselan (cover / Version B pick by BB32; alone BB34, BB66, BB84, BB84b; W2 + silver); 01 Sense Of Humour (cover by BB32; O1 Sedna); 03 Tellmeyourstory (D1 + BB3 / D1 + BB54 alone, BB80; most field-only negatives 6, worst pair tally); 04 River Wharfe (fewest rules, no rule alone).
+
+## Result (from Eddie, 19 Nov 2026)
+1 Discomatic 7/4F (Hayley Turner), 2 Yanifer 15/8, 3 Sense Of Humour 9/1, 4 Tellmeyourstory 14/1, 5 Marselan 13/2, 6 River Wharfe 15/2.
+- Cover of eight: 3 picks (Sense Of Humour 3rd, Yanifer 2nd, Marselan 5th), 0 won, −3. Version B (Yanifer, Marselan) −2. Version C (Discomatic) won, +1.75.
+- Sky race score v1 +4, v2 +4 (filter bets) - wrong for A and B, right for C.
+- Favourite watch: Discomatic W1 yes - won (W1 right); no 100φ line (W2 wrong). Zenith latitude-only quiet (withdrawn reading) - favourite won.
+- Lay check: the winner had the best >= 90 net (+1) and the best pair tally (5 / 2); the sole worst >= 90 (Yanifer) 2nd.
+- Read: the second (Discomatic) won; the lead (Yanifer) 2nd. Fifth back-fill favourite in a row to win from outside the cover.
