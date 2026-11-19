@@ -119,3 +119,10 @@ Bet: 1 point level stake at SP on each pick (fixed 18 Nov 2026).
 - Others: 08 Vulcanist (BB1b, BB1 + BB14 + BB68 alone - River Bray's combination; 14 rules; pair tally 1 / 9 the worst);
   09 Graceful Gracie most rules (17, alone BB84 / BB84b), not a cover pick; 07 Splintered BB69 + BB69b alone, the only positive
   sky-on-natal >= 90 net (+1).
+
+## Result (Eddie, 19 Nov 2026)
+1 Splintered 125/1 (op 150/1), 2 Laurel Crown 28/1 (2¾ l), 3 Kings Medal 3/1, 4 Al Lahbab 8/13F, 5 Vulcanist 13/2, 6 Graceful Gracie 125/1,
+7 Silent Wisdom 40/1, 8 Adventus Saxonum 9/1, 9 Simply George 14/1. 9 ran.
+- Cover of eight (forward test 1): 4 picks, the winner among them (Splintered, BB69); level stakes 4 points staked, +122 (125 - 3).
+- Read: lead Laurel Crown 2nd, second Silent Wisdom 7th; winner Splintered = 12 rules, alone BB25, BB69, BB69b, the only positive
+  sky-on-natal >= 90 net (+1); pair tally 0 / 6.
