@@ -1,0 +1,1369 @@
+{
+ "race": "20261108_ffos_las_1537",
+ "runners": [
+  "01 Minella Blueway",
+  "02 Impatient",
+  "04 Galway Reel",
+  "05 Slim Marvel",
+  "06 Fame And Fun",
+  "07 Jack's Jury"
+ ],
+ "rules": {
+  "BB1": [],
+  "BB1b": [],
+  "BB2": [
+   {
+    "runner": "01 Minella Blueway",
+    "body": "Rahu",
+    "cells": [
+     "S Antares – S Rahu RA 80.874098 50×φ golden (14.81)",
+     "J Antares – J Rahu RA 80.885599 50×φ golden (50.31)",
+     "S Fomalhaut – S Rahu RA 16.198120 10×φ golden (45.12)",
+     "J Fomalhaut – J Rahu RA 16.177423 10×φ golden (91)",
+     "S Rahu → J Rahu RA 0.019500 conj conj (98.7)",
+     "S Rahu → J Rahu Dec 0.004338 conj conj (98.55)"
+    ],
+    "notes": [],
+    "lights": [],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB3": [
+   {
+    "runner": "02 Impatient",
+    "body": "Saturn",
+    "cells": [
+     "J Fomalhaut – J Saturn Dec 33.340988 33.3333 ninth (88.52)",
+     "S Ketu – S Pallas Dec 33.364263 33.3333 ninth (53.6)",
+     "S Ketu → J Saturn RA 133.423185 133.333 ninth (66.31)"
+    ],
+    "notes": [],
+    "lights": [],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "02 Impatient",
+    "body": "Rahu",
+    "cells": [
+     "H Aldebaran – H Rahu RA 68.498816 10φ⁴ phi power (58.95)",
+     "S Pluto – S Pallas RA 68.463758 10φ⁴ phi power (24.85)",
+     "S Pallas → H Rahu RA 122.847816 φ¹⁰ phi power (21.92)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Sun → H Rahu Dec contraparallel 0.259434 cp contraparallel (13.52)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "04 Galway Reel",
+    "body": "Mars",
+    "cells": [
+     "H Antares – H Mars Dec 46.006895 46 whole (65.52)",
+     "S Makemake – S Antares Dec 45.998063 46 whole (90.32)",
+     "S Makemake → H Mars RA 150.983329 151 whole (16.64)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Moon – S Mars RA 69.014641 69 whole (26.8)",
+     "S Moon → H Mars Dec contraparallel 0.038190 cp contraparallel (87.27)",
+     "S Sun → J Mars RA 1.993792 2 whole (68.96)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "04 Galway Reel",
+    "body": "Saturn",
+    "cells": [
+     "J Regulus – J Saturn RA 133.162722 133.333 ninth (36.02)",
+     "S Ketu – S Pallas RA 133.583854 133.333 ninth (6.05)",
+     "S Ketu → J Saturn Dec 7.770614 7.77778 ninth (53.95)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Sun → J Saturn RA 155.524776 155.556 ninth (90.11)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "05 Slim Marvel",
+    "body": "Rahu",
+    "cells": [
+     "H Aldebaran – H Rahu RA 67.000244 67 whole (98.78)",
+     "S Neptune – S Aldebaran RA 66.995694 67 whole (78.47)",
+     "S Neptune → H Rahu RA 133.988382 134 whole (41.91)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Sun → H Rahu Dec 33.353295 33.3333 ninth (70.06)",
+     "S Moon → H Rahu RA 77.991192 78 whole (55.96)",
+     "S Sun → H Rahu Dec contraparallel 0.177158 cp contraparallel (40.95)"
+    ],
+    "decade": [],
+    "additive": [
+     "WATCH additive step (RA): 134 = 67 + 67 (S Neptune → H Rahu; H Aldebaran – H Rahu; S Neptune – S Aldebaran) (may be geometry: three distances between the same three points)"
+    ],
+    "watch_only": false
+   },
+   {
+    "runner": "05 Slim Marvel",
+    "body": "Vesta",
+    "cells": [
+     "H Fomalhaut – H Vesta RA 77.768010 77.7778 ninth (93.72)",
+     "S Sedna – S Fomalhaut RA 77.632798 77.7778 ninth (6.8)",
+     "S Sedna → H Vesta RA 155.410136 155.556 ninth (53.26)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Sun – S Vesta Dec 12.002171 12 whole (89.14)",
+     "S Moon → J Vesta Dec 21.994063 22 whole (70.32)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "05 Slim Marvel",
+    "body": "Vesta",
+    "cells": [
+     "H Fomalhaut – H Vesta RA 77.768010 77.7778 ninth (93.72)",
+     "S Uranus – S Fomalhaut RA 77.626563 77.7778 ninth (2.79)",
+     "S Uranus → H Vesta RA 155.403901 155.556 ninth (51.25)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Sun – S Vesta Dec 12.002171 12 whole (89.14)",
+     "S Moon → J Vesta Dec 21.994063 22 whole (70.32)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "05 Slim Marvel",
+    "body": "Eris",
+    "cells": [
+     "J Aldebaran – J Eris Dec 23.995561 24 whole (77.8)",
+     "S Juno – S Transpluto Dec 23.990704 24 whole (53.52)",
+     "S Transpluto → J Eris RA 133.015742 133 whole (21.29)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Sun – S Eris RA 163.416931 101×φ golden (86.11)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "06 Fame And Fun",
+    "body": "Rahu",
+    "cells": [
+     "J Aldebaran – J Rahu RA 8.107415 5×φ golden (46.77)",
+     "S Saturn – S Vesta RA 8.082599 5×φ golden (76.63)",
+     "S Vesta → J Rahu Dec 27.493565 17×φ golden (59.84)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Moon → H Rahu Dec 32.007379 32 whole (63.1)",
+     "S Sun → H Rahu Dec 28.982396 29 whole (11.98)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB4": [],
+  "BB5": [
+   {
+    "runner": "02 Impatient",
+    "body": "Sun",
+    "cells": [
+     "H Antares – H Sun Dec 4.052913 (no family)",
+     "J Fomalhaut – J Sun RA 35.669617 (no family)"
+    ],
+    "notes": [
+     "crossed ratio vs S Sun → H Sun RA 64.857338 = 16.002647 16 1/16 cut (96.69)",
+     "crossed ratio vs S Sun → J Sun Dec 2.098868 = 16.994693 17 1/17 cut (93.76)"
+    ],
+    "lights": [],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB6": [
+   {
+    "runner": "04 Galway Reel",
+    "body": "Vesta",
+    "cells": [
+     "S Vesta → J Vesta RA 16.153271 10×φ golden (16.45)",
+     "S Rahu – S Fomalhaut RA 16.198120 10×φ golden (45.12)",
+     "J Fomalhaut – J Vesta RA 48.640535 (no family)"
+    ],
+    "notes": [
+     "same-body ratio vs S Vesta → J Vesta 16.153271 = 3.011188 3 twelfth (44.06)"
+    ],
+    "lights": [
+     "S Sun – S Vesta Dec 12.002171 12 whole (89.14)",
+     "S Moon → H Vesta Dec 12.922140 8×φ golden (31.69)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "05 Slim Marvel",
+    "body": "Vesta",
+    "cells": [
+     "S Vesta → J Vesta RA 16.211712 10×φ golden (3.17)",
+     "S Rahu – S Fomalhaut RA 16.198120 10×φ golden (45.12)",
+     "J Fomalhaut – J Vesta RA 48.698981 (no family)"
+    ],
+    "notes": [
+     "same-body ratio vs S Vesta → J Vesta 16.211712 = 3.003938 3 twelfth (80.31)"
+    ],
+    "lights": [
+     "S Sun – S Vesta Dec 12.002171 12 whole (89.14)",
+     "S Moon → J Vesta Dec 21.994063 22 whole (70.32)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB7": [],
+  "BB8": [
+   {
+    "runner": "06 Fame And Fun",
+    "body": "Pluto",
+    "cells": [
+     "J Fomalhaut – J Pluto RA 87.553240 (no family)",
+     "J Regulus – J Pluto Dec 24.673141 (no family)"
+    ],
+    "notes": [
+     "same-body ratio vs S Pluto → J Pluto 49.315280 = 1.775378 16/9 minor seventh (9.99)",
+     "crossed ratio vs S Pluto → J Pluto Dec 10.970445 = 7.980828 8 8th harmonic (4.14)",
+     "same-body ratio vs S Pluto → J Pluto 10.970445 = 2.249056 9/4 major ninth (72.02)",
+     "crossed ratio vs S Pluto → J Pluto RA 49.315280 = 1.998743 2 octave (93.72)"
+    ],
+    "lights": [
+     "S Moon – S Pluto RA 92.202581 57×φ golden (21.74)",
+     "S Sun → H Pluto RA 66.764463 66.6667 ninth (26.65)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB9": [
+   {
+    "runner": "01 Minella Blueway",
+    "body": "Ceres",
+    "cells": [
+     "J Antares – J Ceres Dec 46.000725 46 whole (96.37)",
+     "S Makemake – S Antares Dec 45.998063 46 whole (90.32)",
+     "S Makemake → H Ceres RA 68.600899 10φ⁴ phi power (41.76)",
+     "S Makemake → J Ceres Dec 0.001593 conj conj (99.47)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Sun → H Ceres Dec 46.009021 46 whole (54.9)",
+     "S Moon → J Ceres Dec contraparallel 0.044948 cp contraparallel (85.02)",
+     "S Sun → J Ceres RA 145.613216 90×φ golden (69.62)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "06 Fame And Fun",
+    "body": "Chiron",
+    "cells": [
+     "J Aldebaran – J Chiron Dec contraparallel 0.059370 cp contraparallel (80.21)",
+     "S Sun – S Aldebaran Dec contraparallel 0.079216 cp contraparallel (73.59)",
+     "S Sun → H Chiron Dec 19.420596 12×φ golden (87.07)",
+     "S Sun → H Chiron RA 133.477732 133.333 ninth (45.85)",
+     "S Sun → J Chiron Dec 0.139219 conj conj (53.59)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Sun – S Chiron RA 161.945629 100φ phi power (41.4)",
+     "S Sun → H Chiron Dec 19.420596 12×φ golden (87.07)",
+     "S Sun → H Chiron RA 133.477732 133.333 ninth (45.85)",
+     "S Sun → J Chiron Dec 0.139219 conj conj (53.59)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB10": [],
+  "BB11": [],
+  "BB12": [
+   {
+    "runner": "01 Minella Blueway",
+    "body": "Jupiter",
+    "cells": [
+     "H Aldebaran – H Jupiter Dec contraparallel 0.101217 cp contraparallel (66.26)",
+     "S Jupiter – S Orcus Dec contraparallel 0.008119 cp contraparallel (97.29)",
+     "S Orcus → H Jupiter RA 66.579538 66.6667 ninth (34.65)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Moon – S Jupiter RA 66.630493 66.6667 ninth (72.87)",
+     "S Sun – S Jupiter RA 76.061012 47×φ golden (58.6)",
+     "S Sun → H Jupiter Dec 0.020512 conj conj (93.16)",
+     "S Moon → H Jupiter Dec 3.004471 3 whole (77.64)",
+     "S Sun → H Jupiter RA 4.882691 3×φ golden (11.76)",
+     "S Moon → J Jupiter RA 121.340003 75×φ golden (61.28)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "06 Fame And Fun",
+    "body": "Pluto",
+    "cells": [
+     "H Regulus – H Pluto Dec 33.280640 33.3333 ninth (20.96)",
+     "S Pluto – S Transpluto Dec 33.399463 33.3333 ninth (0.8)",
+     "S Transpluto → H Pluto RA 133.449322 133.333 ninth (56.5)",
+     "S Transpluto → J Pluto RA 100.141641 100 ninth (29.18)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Moon – S Pluto RA 92.202581 57×φ golden (21.74)",
+     "S Sun → H Pluto RA 66.764463 66.6667 ninth (26.65)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "07 Jack's Jury",
+    "body": "Pluto",
+    "cells": [
+     "H Regulus – H Pluto RA 144.696653 144.444 ninth (12.7)",
+     "S Pluto – S Orcus RA 144.468909 144.444 ninth (91.53)",
+     "S Orcus → H Pluto Dec 8.074868 5×φ golden (52.77)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Moon – S Pluto RA 92.202581 57×φ golden (21.74)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB13": [
+   {
+    "runner": "05 Slim Marvel",
+    "body": "Sun",
+    "cells": [
+     "S Sun → H Sun RA 137.993124 138 whole (65.62)",
+     "S Chiron – S Antares RA 138.000052 138 whole (99.74)",
+     "S Sun → J Sun RA 61.787611 100φ^-1 phi power (82.97)",
+     "S Moon – S Regulus RA 61.880141 100φ^-1 phi power (17.22)"
+    ],
+    "notes": [],
+    "lights": [],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB14": [
+   {
+    "runner": "07 Jack's Jury",
+    "body": "Mercury",
+    "cells": [
+     "H Mercury – J Mercury Dec 13.359194 13.3333 ninth (3.02)",
+     "S Vesta – S Sedna Dec 13.350421 13.3333 ninth (35.92)",
+     "S Vesta → H Mercury Dec 8.011677 8 whole (41.61)",
+     "S Sedna → H Mercury RA 48.535954 30×φ golden (84.37)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Moon – S Mercury RA 1.063793 conj conj (29.08)",
+     "S Sun → H Mercury Dec 20.013847 20 whole (30.77)",
+     "S Moon → J Mercury Dec 9.679637 6×φ golden (11.83)",
+     "S Sun → J Mercury Dec 6.654654 6.66667 ninth (9.9)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB15": [
+   {
+    "runner": "01 Minella Blueway",
+    "body": "Ceres",
+    "cells": [
+     "J Antares – J Ceres Dec 46.000725 46 whole (96.37)",
+     "S Makemake – S Antares Dec 45.998063 46 whole (90.32)",
+     "S Sun → H Ceres Dec 46.009021 46 whole (54.9)",
+     "S Sun → J Ceres RA 145.613216 90×φ golden (69.62)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Sun → H Ceres Dec 46.009021 46 whole (54.9)",
+     "S Moon → J Ceres Dec contraparallel 0.044948 cp contraparallel (85.02)",
+     "S Sun → J Ceres RA 145.613216 90×φ golden (69.62)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB16": [
+   {
+    "runner": "02 Impatient",
+    "body": "Uranus",
+    "cells": [
+     "S Uranus → J Uranus RA 110.857685 10φ⁵ phi power (73.54)",
+     "S Sedna → J Uranus RA 110.863920 10φ⁵ phi power (77.29)",
+     "S Sedna – S Uranus RA 0.006235 conj conj (99.58)"
+    ],
+    "notes": [],
+    "lights": [],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB17": [],
+  "BB18": [],
+  "BB19": [],
+  "BB20": [
+   {
+    "runner": "01 Minella Blueway",
+    "body": "Jupiter",
+    "cells": [
+     "H Aldebaran – H Jupiter Dec contraparallel 0.101217 cp contraparallel (66.26)",
+     "S Jupiter – S Orcus Dec contraparallel 0.008119 cp contraparallel (97.29)",
+     "S Sun – S Aldebaran Dec contraparallel 0.079216 cp contraparallel (73.59)",
+     "S Sun – S Jupiter RA 76.061012 47×φ golden (58.6)",
+     "S Sun → H Jupiter Dec 0.020512 conj conj (93.16)",
+     "S Sun → H Jupiter RA 4.882691 3×φ golden (11.76)",
+     "S Moon – S Makemake Dec contraparallel 0.046541 cp contraparallel (84.49)",
+     "S Moon – S Jupiter RA 66.630493 66.6667 ninth (72.87)",
+     "S Moon → H Jupiter Dec 3.004471 3 whole (77.64)",
+     "S Moon → J Jupiter RA 121.340003 75×φ golden (61.28)",
+     "S Mercury – S Ketu Dec contraparallel 0.103968 cp contraparallel (65.34)",
+     "S Mercury → J Jupiter RA 122.403796 122.222 ninth (25.72)",
+     "S Ketu – S Jupiter RA 0.880686 conj conj (41.29)",
+     "S Ketu → J Jupiter RA 55.590196 55.5556 ninth (68.82)",
+     "S Saturn – S Neptune Dec contraparallel 0.229018 cp contraparallel (23.66)",
+     "S Saturn → J Jupiter Dec 22.186379 22.2222 ninth (19.35)",
+     "S Neptune → J Jupiter RA 90.639571 56×φ golden (8.43)",
+     "S Uranus – S Pallas Dec contraparallel 0.294390 cp contraparallel (1.87)",
+     "S Pallas – S Jupiter RA 132.703168 82×φ golden (24.75)",
+     "S Pallas → J Jupiter RA 77.993658 78 whole (68.29)"
+    ],
+    "notes": [
+     "5 pairs with an end on Jupiter"
+    ],
+    "lights": [
+     "S Moon – S Jupiter RA 66.630493 66.6667 ninth (72.87)",
+     "S Sun – S Jupiter RA 76.061012 47×φ golden (58.6)",
+     "S Sun → H Jupiter Dec 0.020512 conj conj (93.16)",
+     "S Moon → H Jupiter Dec 3.004471 3 whole (77.64)",
+     "S Sun → H Jupiter RA 4.882691 3×φ golden (11.76)",
+     "S Moon → J Jupiter RA 121.340003 75×φ golden (61.28)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "02 Impatient",
+    "body": "Ketu",
+    "cells": [
+     "H Aldebaran – H Ketu Dec contraparallel 0.180044 cp contraparallel (39.99)",
+     "S Mercury – S Ketu Dec contraparallel 0.103968 cp contraparallel (65.34)",
+     "S Sun – S Aldebaran Dec contraparallel 0.079216 cp contraparallel (73.59)",
+     "S Sun → H Ketu Dec 0.259434 conj conj (13.52)",
+     "S Venus – S Regulus Dec contraparallel 0.249800 cp contraparallel (16.73)",
+     "S Venus – S Ketu RA 52.005392 52 whole (73.04)",
+     "S Jupiter – S Orcus Dec contraparallel 0.008119 cp contraparallel (97.29)",
+     "S Jupiter – S Ketu RA 0.880686 conj conj (41.29)",
+     "S Orcus → H Ketu RA 155.780484 155.556 ninth (27.7)",
+     "S Orcus → J Ketu Dec 6.485024 4×φ golden (60.22)",
+     "S Orcus → J Ketu RA 179.258333 10φ⁶ phi power (31.5)",
+     "S Moon – S Makemake Dec contraparallel 0.046541 cp contraparallel (84.49)",
+     "S Makemake → J Ketu Dec 27.016692 27 whole (16.54)",
+     "S Saturn – S Neptune Dec contraparallel 0.229018 cp contraparallel (23.66)",
+     "S Neptune → H Ketu RA 44.506271 44.4444 ninth (30.44)",
+     "S Uranus – S Pallas Dec contraparallel 0.294390 cp contraparallel (1.87)",
+     "S Pallas – S Ketu Dec 33.364263 33.3333 ninth (53.6)",
+     "S Pallas – S Ketu RA 133.583854 133.333 ninth (6.05)"
+    ],
+    "notes": [
+     "6 pairs with an end on Ketu"
+    ],
+    "lights": [
+     "S Sun → H Ketu Dec 0.259434 conj conj (13.52)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "05 Slim Marvel",
+    "body": "Ketu",
+    "cells": [
+     "H Aldebaran – H Ketu Dec contraparallel 0.257696 cp contraparallel (14.1)",
+     "S Mercury – S Ketu Dec contraparallel 0.103968 cp contraparallel (65.34)",
+     "S Sun – S Aldebaran Dec contraparallel 0.079216 cp contraparallel (73.59)",
+     "S Sun → H Ketu Dec 0.177158 conj conj (40.95)",
+     "S Venus – S Regulus Dec contraparallel 0.249800 cp contraparallel (16.73)",
+     "S Venus – S Ketu RA 52.005392 52 whole (73.04)",
+     "S Jupiter – S Orcus Dec contraparallel 0.008119 cp contraparallel (97.29)",
+     "S Jupiter – S Ketu RA 0.880686 conj conj (41.29)",
+     "S Jupiter → J Ketu Dec 17.994611 18 whole (73.05)",
+     "S Moon – S Makemake Dec contraparallel 0.046541 cp contraparallel (84.49)",
+     "S Moon → H Ketu RA 102.008808 102 whole (55.96)",
+     "S Moon → J Ketu Dec 15.545528 15.5556 ninth (67.77)",
+     "S Saturn – S Neptune Dec contraparallel 0.229018 cp contraparallel (23.66)",
+     "S Neptune → H Ketu RA 46.011618 46 whole (41.91)",
+     "S Uranus – S Pallas Dec contraparallel 0.294390 cp contraparallel (1.87)",
+     "S Pallas – S Ketu Dec 33.364263 33.3333 ninth (53.6)",
+     "S Pallas – S Ketu RA 133.583854 133.333 ninth (6.05)"
+    ],
+    "notes": [
+     "6 pairs with an end on Ketu"
+    ],
+    "lights": [
+     "S Moon → H Ketu RA 102.008808 102 whole (55.96)",
+     "S Sun → H Ketu Dec 0.177158 conj conj (40.95)",
+     "S Moon → J Ketu Dec 15.545528 15.5556 ninth (67.77)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "07 Jack's Jury",
+    "body": "Sun",
+    "cells": [
+     "J Aldebaran – J Sun Dec contraparallel 0.206038 cp contraparallel (31.32)",
+     "S Sun – S Aldebaran Dec contraparallel 0.079216 cp contraparallel (73.59)",
+     "S Venus – S Regulus Dec contraparallel 0.249800 cp contraparallel (16.73)",
+     "S Venus – S Sun Dec 4.870191 3×φ golden (50.34)",
+     "S Venus → J Sun Dec 4.997269 5 whole (86.35)",
+     "S Jupiter – S Orcus Dec contraparallel 0.008119 cp contraparallel (97.29)",
+     "S Jupiter – S Sun RA 76.061012 47×φ golden (58.6)",
+     "S Moon – S Makemake Dec contraparallel 0.046541 cp contraparallel (84.49)",
+     "S Makemake → H Sun RA 174.770092 108×φ golden (30.8)",
+     "S Mercury – S Ketu Dec contraparallel 0.103968 cp contraparallel (65.34)",
+     "S Mercury → H Sun Dec 24.295497 15×φ golden (22.88)",
+     "S Saturn – S Neptune Dec contraparallel 0.229018 cp contraparallel (23.66)",
+     "S Neptune → H Sun Dec 12.007117 12 whole (64.42)"
+    ],
+    "notes": [
+     "5 pairs with an end on Sun"
+    ],
+    "lights": [],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB21": [],
+  "BB22": [],
+  "BB23": [
+   {
+    "runner": "05 Slim Marvel",
+    "body": "Vesta",
+    "cells": [
+     "H Fomalhaut – H Vesta RA 77.768010 77.7778 ninth (93.72)",
+     "S Sedna – S Fomalhaut RA 77.632798 77.7778 ninth (6.8)",
+     "S Sedna → H Vesta RA 155.410136 155.556 ninth (53.26)",
+     "S Sedna – S Vesta Dec 13.350421 13.3333 ninth (35.92)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Sun – S Vesta Dec 12.002171 12 whole (89.14)",
+     "S Moon → J Vesta Dec 21.994063 22 whole (70.32)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB24": [
+   {
+    "runner": "02 Impatient",
+    "body": "Vesta",
+    "cells": [
+     "S Vesta → J Vesta Dec contraparallel 0.212989 cp contraparallel (29)",
+     "S Jupiter – S Orcus Dec contraparallel 0.008119 cp contraparallel (97.29)",
+     "S Jupiter → H Vesta Dec contraparallel 0.045333 cp contraparallel (84.89)",
+     "S Orcus → H Vesta Dec 0.037215 conj conj (87.59)",
+     "S Moon – S Makemake Dec contraparallel 0.046541 cp contraparallel (84.49)",
+     "S Moon → H Vesta RA 21.059537 13×φ golden (22.55)",
+     "S Moon → J Vesta Dec 23.985960 24 whole (29.8)",
+     "S Makemake → J Vesta RA 176.380236 109×φ golden (55.15)",
+     "S Mercury – S Ketu Dec contraparallel 0.103968 cp contraparallel (65.34)",
+     "S Mercury → H Vesta RA 19.995744 20 whole (78.72)",
+     "S Mercury → H Vesta Dec 1.008186 1 whole (59.07)",
+     "S Ketu → J Vesta RA 122.292017 122.222 ninth (71.45)"
+    ],
+    "notes": [
+     "3 different pairs, both ends on natal Vesta"
+    ],
+    "lights": [
+     "S Sun – S Vesta Dec 12.002171 12 whole (89.14)",
+     "S Sun → H Vesta Dec 2.615647 φ² phi power (39.22)",
+     "S Moon → H Vesta RA 21.059537 13×φ golden (22.55)",
+     "S Moon → J Vesta Dec 23.985960 24 whole (29.8)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "05 Slim Marvel",
+    "body": "Chiron",
+    "cells": [
+     "S Chiron → J Chiron Dec contraparallel 0.210453 cp contraparallel (29.85)",
+     "S Mercury – S Ketu Dec contraparallel 0.103968 cp contraparallel (65.34)",
+     "S Mercury → H Chiron RA 142.007084 142 whole (64.58)",
+     "S Ketu → J Chiron RA 59.884854 37×φ golden (45.69)",
+     "S Uranus – S Pallas Dec contraparallel 0.294390 cp contraparallel (1.87)",
+     "S Uranus → H Chiron RA 65.003999 65 whole (80.01)",
+     "S Pallas → J Chiron RA 166.531292 166.667 ninth (59.39)"
+    ],
+    "notes": [
+     "2 different pairs, both ends on natal Chiron"
+    ],
+    "lights": [
+     "S Sun – S Chiron RA 161.945629 100φ phi power (41.4)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB25": [
+   {
+    "runner": "05 Slim Marvel",
+    "body": "Sun",
+    "cells": [
+     "S Fomalhaut – S Sun RA 121.017794 121 whole (11.03)",
+     "H Fomalhaut – H Sun RA 16.984657 17 whole (23.28)",
+     "S Sun → H Sun RA 137.993124 138 whole (65.62)",
+     "S Chiron – S Antares RA 138.000052 138 whole (99.74)",
+     "S Chiron – S Sun RA 161.945629 100φ phi power (41.4)"
+    ],
+    "notes": [],
+    "lights": [],
+    "decade": [],
+    "additive": [
+     "WATCH additive step (RA): 138 = 121 + 17 (S Sun → H Sun; S Fomalhaut – S Sun; H Fomalhaut – H Sun) (may be geometry: three distances between the same three points)",
+     "WATCH additive step (RA): 138 = 121 + 17 (S Chiron – S Antares; S Fomalhaut – S Sun; H Fomalhaut – H Sun)"
+    ],
+    "watch_only": false
+   }
+  ],
+  "BB26": [],
+  "BB27": [
+   {
+    "runner": "02 Impatient",
+    "body": "Ketu",
+    "cells": [
+     "H Aldebaran – H Ketu Dec contraparallel 0.180044 cp contraparallel (39.99)",
+     "S Mercury – S Ketu Dec contraparallel 0.103968 cp contraparallel (65.34)",
+     "S Venus – S Regulus Dec contraparallel 0.249800 cp contraparallel (16.73)",
+     "S Venus – S Ketu RA 52.005392 52 whole (73.04)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Sun → H Ketu Dec 0.259434 conj conj (13.52)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "05 Slim Marvel",
+    "body": "Ketu",
+    "cells": [
+     "H Aldebaran – H Ketu Dec contraparallel 0.257696 cp contraparallel (14.1)",
+     "S Mercury – S Ketu Dec contraparallel 0.103968 cp contraparallel (65.34)",
+     "S Venus – S Regulus Dec contraparallel 0.249800 cp contraparallel (16.73)",
+     "S Venus – S Ketu RA 52.005392 52 whole (73.04)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Moon → H Ketu RA 102.008808 102 whole (55.96)",
+     "S Sun → H Ketu Dec 0.177158 conj conj (40.95)",
+     "S Moon → J Ketu Dec 15.545528 15.5556 ninth (67.77)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "06 Fame And Fun",
+    "body": "Pluto",
+    "cells": [
+     "H Regulus – H Pluto Dec 33.280640 33.3333 ninth (20.96)",
+     "S Pluto – S Transpluto Dec 33.399463 33.3333 ninth (0.8)",
+     "S Moon – S Antares RA 33.376095 33.3333 ninth (35.86)",
+     "S Moon – S Pluto RA 92.202581 57×φ golden (21.74)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Moon – S Pluto RA 92.202581 57×φ golden (21.74)",
+     "S Sun → H Pluto RA 66.764463 66.6667 ninth (26.65)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "07 Jack's Jury",
+    "body": "Sun",
+    "cells": [
+     "J Aldebaran – J Sun Dec contraparallel 0.206038 cp contraparallel (31.32)",
+     "S Sun – S Aldebaran Dec contraparallel 0.079216 cp contraparallel (73.59)",
+     "S Venus – S Regulus Dec contraparallel 0.249800 cp contraparallel (16.73)",
+     "S Venus – S Sun Dec 4.870191 3×φ golden (50.34)"
+    ],
+    "notes": [],
+    "lights": [],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB28": [
+   {
+    "runner": "04 Galway Reel",
+    "body": "Sun",
+    "cells": [
+     "S Fomalhaut – S Sun RA 121.017794 121 whole (11.03)",
+     "J Fomalhaut – J Sun RA 179.905510 180 opposition (87.4)",
+     "S Gonggong – S Transpluto RA 179.554528 180 opposition (40.6)",
+     "S Gonggong → J Sun Dec 16.994007 17 whole (70.03)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Moon → H Sun RA 147.231310 91×φ golden (69.81)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "06 Fame And Fun",
+    "body": "Sun",
+    "cells": [
+     "S Fomalhaut – S Sun RA 121.017794 121 whole (11.03)",
+     "J Fomalhaut – J Sun RA 61.789906 100φ^-1 phi power (85.45)",
+     "S Moon – S Regulus RA 61.880141 100φ^-1 phi power (17.22)",
+     "S Moon → J Sun Dec 36.987338 37 whole (36.69)"
+    ],
+    "notes": [],
+    "lights": [
+     "S Moon → J Sun Dec 36.987338 37 whole (36.69)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB29": [],
+  "BB30": [],
+  "BB31": [],
+  "BB32": [
+   {
+    "runner": "06 Fame And Fun",
+    "body": "Ketu",
+    "cells": [
+     "H Regulus – H Ketu RA 177.449786 177.778 ninth (7.75)",
+     "S Jupiter → H Ketu RA 177.798976 177.778 ninth (94.04)",
+     "S Jupiter – S Ketu RA 0.880686 conj conj (41.29)"
+    ],
+    "notes": [
+     "S Jupiter on sky Ketu by RA conj",
+     "gap |star line - S Jupiter line| 0.3492"
+    ],
+    "lights": [],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB32b": [],
+  "BB33": [],
+  "BB34": [],
+  "BB35": [],
+  "BB36": [],
+  "BB37": [],
+  "BB38": [],
+  "BB39": [],
+  "BB40": [],
+  "BB41": [],
+  "BB42": [],
+  "BB43": [],
+  "BB44": [],
+  "BB45": [],
+  "BB46": [],
+  "BB47": [],
+  "BB48": [],
+  "BB49": [],
+  "BB50": [],
+  "BB51": [],
+  "BB52": [],
+  "BB53": [
+   {
+    "runner": "01 Minella Blueway",
+    "body": "Orcus",
+    "cells": [
+     "S Quaoar – S Orcus Dec 1.221013 1.22222 ninth (50.54)",
+     "H Antares – H Orcus Dec 16.660053 16.6667 ninth (80.16)",
+     "J Fomalhaut – J Quaoar Dec 16.648762 16.6667 ninth (46.29)"
+    ],
+    "notes": [
+     "S Quaoar – S Orcus Dec 1.22222 ninth: H Antares – H Orcus Dec and, on Quaoar, J Fomalhaut – J Quaoar Dec both 16.6667"
+    ],
+    "lights": [
+     "S Moon → J Orcus Dec 23.989504 24 whole (47.52)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "01 Minella Blueway",
+    "body": "Quaoar",
+    "cells": [
+     "S Orcus – S Quaoar Dec 1.221013 1.22222 ninth (50.54)",
+     "J Fomalhaut – J Quaoar Dec 16.648762 16.6667 ninth (46.29)",
+     "H Antares – H Orcus Dec 16.660053 16.6667 ninth (80.16)"
+    ],
+    "notes": [
+     "S Orcus – S Quaoar Dec 1.22222 ninth: J Fomalhaut – J Quaoar Dec and, on Orcus, H Antares – H Orcus Dec both 16.6667"
+    ],
+    "lights": [],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB54": [],
+  "BB55": [
+   {
+    "runner": "05 Slim Marvel",
+    "body": "Pallas",
+    "cells": [
+     "J Regulus – J Pallas RA 133.098577 133.333 ninth (11.97)",
+     "S Ketu – S Pallas RA 133.583854 133.333 ninth (6.05)",
+     "S Ketu → H Pallas RA 87.980330 88 whole (1.65)"
+    ],
+    "notes": [
+     "J Regulus – J Pallas RA carried by S Ketu – S Pallas RA; Ketu on H Pallas: RA 88 whole"
+    ],
+    "lights": [
+     "S Moon → H Pallas RA 153.730137 95×φ golden (47.81)",
+     "S Sun → J Pallas RA 61.786016 100φ^-1 phi power (81.25)",
+     "S Sun → J Pallas Dec 29.113864 18×φ golden (66.83)",
+     "S Moon → J Pallas RA 71.216534 44×φ golden (28.89)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "06 Fame And Fun",
+    "body": "Pluto",
+    "cells": [
+     "H Regulus – H Pluto Dec 33.280640 33.3333 ninth (20.96)",
+     "S Pluto – S Transpluto Dec 33.399463 33.3333 ninth (0.8)",
+     "S Transpluto → J Pluto RA 100.141641 100 ninth (29.18)"
+    ],
+    "notes": [
+     "H Regulus – H Pluto Dec carried by S Pluto – S Transpluto Dec; Transpluto on J Pluto: RA 100 ninth"
+    ],
+    "lights": [
+     "S Moon – S Pluto RA 92.202581 57×φ golden (21.74)",
+     "S Sun → H Pluto RA 66.764463 66.6667 ninth (26.65)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "07 Jack's Jury",
+    "body": "Uranus",
+    "cells": [
+     "J Antares – J Uranus Dec 11.101673 11.1111 ninth (57.53)",
+     "S Uranus – S Transpluto Dec 11.075668 φ⁵ phi power (12.82)",
+     "S Transpluto → H Uranus RA 122.954268 φ¹⁰ phi power (79.62)"
+    ],
+    "notes": [
+     "J Antares – J Uranus Dec carried by S Uranus – S Transpluto Dec; Transpluto on H Uranus: RA φ¹⁰ phi power"
+    ],
+    "lights": [
+     "S Moon → H Uranus RA 179.791392 180 opposition (72.19)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "07 Jack's Jury",
+    "body": "Ketu",
+    "cells": [
+     "H Antares – H Ketu Dec 2.999698 3 whole (98.49)",
+     "S Mars – S Ketu Dec 2.982668 3 whole (13.34)",
+     "S Mars → J Ketu RA 141.492596 141.4 sqrt2 (66.42)"
+    ],
+    "notes": [
+     "H Antares – H Ketu Dec carried by S Mars – S Ketu Dec; Mars on J Ketu: RA 141.4 sqrt2"
+    ],
+    "lights": [
+     "S Sun → H Ketu Dec 6.844745 φ⁴ phi power (8.99)",
+     "S Sun → J Ketu Dec 5.989869 6 whole (49.34)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "07 Jack's Jury",
+    "body": "Gonggong",
+    "cells": [
+     "J Regulus – J Gonggong RA 179.894566 180 opposition (85.94)",
+     "S Gonggong – S Transpluto RA 179.554528 180 opposition (40.6)",
+     "S Transpluto → H Gonggong RA 179.808265 180 opposition (74.44)"
+    ],
+    "notes": [
+     "J Regulus – J Gonggong RA carried by S Gonggong – S Transpluto RA; Transpluto on H Gonggong: RA 180 opposition"
+    ],
+    "lights": [
+     "S Moon → H Gonggong RA 122.937395 φ¹⁰ phi power (70.47)",
+     "S Moon → H Gonggong Dec 8.060719 5×φ golden (9.1)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB56": [],
+  "BB57": [
+   {
+    "runner": "01 Minella Blueway",
+    "body": "Orcus",
+    "cells": [
+     "H Antares – H Orcus Dec 16.660053 16.6667 ninth (80.16)",
+     "S Eris – S Aldebaran Dec 16.669311 16.6667 ninth (92.07)",
+     "J Antares – J Orcus RA 118.126973 73×φ golden (67.62)",
+     "S Mars – S Eris RA 118.137909 73×φ golden (33.86)"
+    ],
+    "notes": [
+     "Antares in both charts: H Antares – H Orcus Dec carried by S Eris – S Aldebaran Dec | J Antares – J Orcus RA carried by S Mars – S Eris RA; Eris in both pairs"
+    ],
+    "lights": [
+     "S Moon → J Orcus Dec 23.989504 24 whole (47.52)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "05 Slim Marvel",
+    "body": "Haumea",
+    "cells": [
+     "H Aldebaran – H Haumea RA 144.623138 144.444 ninth (38.14)",
+     "S Venus – S Fomalhaut RA 144.192728 144.444 ninth (12.87)",
+     "J Aldebaran – J Haumea Dec 4.841095 3×φ golden (59.86)",
+     "S Sun – S Venus Dec 4.870191 3×φ golden (50.34)"
+    ],
+    "notes": [
+     "Aldebaran in both charts: H Aldebaran – H Haumea RA carried by S Venus – S Fomalhaut RA | J Aldebaran – J Haumea Dec carried by S Sun – S Venus Dec; Venus in both pairs"
+    ],
+    "lights": [
+     "S Sun – S Haumea RA 2.620784 φ² phi power (29.97)",
+     "S Moon → H Haumea RA 0.368298 conj conj (75.45)",
+     "S Sun → H Haumea Dec contraparallel 0.288922 cp contraparallel (3.69)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB58": [
+   {
+    "runner": "05 Slim Marvel",
+    "body": "Saturn",
+    "cells": [
+     "H Aldebaran – H Saturn RA 149.982417 150 whole (12.08)",
+     "S Saturn → H Saturn RA 89.826987 (no family)",
+     "J Aldebaran – J Saturn Dec 11.351190 7×φ golden (22.99)",
+     "S Saturn → J Saturn Dec 4.253923 (no family)"
+    ],
+    "notes": [
+     "Aldebaran in both charts: H Aldebaran – H Saturn RA 149.982417 150 whole (12.08) / S Saturn → H Saturn RA 89.826987: same-body ratio 1.669681 5/3 major sixth (9.57) | J Aldebaran – J Saturn Dec 11.351190 7×φ golden (22.99) / S Saturn → J Saturn Dec 4.253923: same-body ratio 2.668405 8/3 octave + fourth (56.54)"
+    ],
+    "lights": [
+     "S Sun → H Saturn RA 55.595628 55.5556 ninth (63.94)",
+     "S Sun → J Saturn RA 155.668808 155.556 ninth (63.6)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB59": [],
+  "BB60": [
+   {
+    "runner": "07 Jack's Jury",
+    "body": "Gonggong",
+    "cells": [
+     "J Regulus – J Gonggong RA 179.894566 180 opposition (85.94)",
+     "S Gonggong – S Transpluto RA 179.554528 180 opposition (40.6)",
+     "S Transpluto → H Gonggong RA 179.808265 180 opposition (74.44)"
+    ],
+    "notes": [
+     "J Regulus – J Gonggong RA carried by S Gonggong – S Transpluto RA and by S Transpluto → H Gonggong RA"
+    ],
+    "lights": [
+     "S Moon → H Gonggong RA 122.937395 φ¹⁰ phi power (70.47)",
+     "S Moon → H Gonggong Dec 8.060719 5×φ golden (9.1)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB61": [
+   {
+    "runner": "06 Fame And Fun",
+    "body": "Pluto",
+    "cells": [
+     "H Regulus – H Pluto Dec 33.280640 33.3333 ninth (20.96)",
+     "H Pluto – J Pluto RA 33.307681 33.3333 ninth (61.52)",
+     "S Pluto – S Transpluto Dec 33.399463 33.3333 ninth (0.8)",
+     "S Transpluto → H Pluto RA 133.449322 133.333 ninth (56.5)",
+     "S Transpluto → J Pluto RA 100.141641 100 ninth (29.18)"
+    ],
+    "notes": [
+     "H Regulus – H Pluto Dec and H Pluto – J Pluto RA on 33.3333 (ninth), carried by S Pluto – S Transpluto Dec; K2: Transpluto on natal Pluto (S Transpluto → H Pluto RA 133.333; S Transpluto → J Pluto RA 100); K3: yes, it also carries H Pluto – J Pluto RA"
+    ],
+    "lights": [
+     "S Moon – S Pluto RA 92.202581 57×φ golden (21.74)",
+     "S Sun → H Pluto RA 66.764463 66.6667 ninth (26.65)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB62": [
+   {
+    "runner": "06 Fame And Fun",
+    "body": "H chart",
+    "cells": [
+     "S Sun → H Sun RA 153.005427 153 whole (72.87)",
+     "S Sun → H Sun Dec 38.800556 24×φ golden (0.43)",
+     "S Mercury → H Mercury Dec 29.147618 18×φ golden (28.99)",
+     "S Jupiter → H Jupiter Dec 17.761306 17.7778 ninth (53.67)",
+     "S Saturn → H Saturn RA 103.993044 104 whole (65.22)",
+     "S Uranus → H Uranus Dec 10.984928 11 whole (24.64)",
+     "S Neptune → H Neptune Dec 6.452843 4×φ golden (40.45)",
+     "S Pluto → H Pluto RA 16.007599 16 whole (62.01)",
+     "S Pallas → H Pallas Dec 22.017388 22 whole (13.06)",
+     "S Haumea → H Haumea Dec 4.143956 4.14 silver (70.7)",
+     "S Quaoar → H Quaoar RA 11.112650 11.1111 ninth (93.07)",
+     "S Sedna → H Sedna Dec 1.012249 1 whole (38.76)"
+    ],
+    "notes": [
+     "H chart: 11 bodies with a scoring same-body line (Sun, Mercury, Jupiter, Saturn, Uranus, Neptune, Pluto, Pallas, Haumea, Quaoar, Sedna)"
+    ],
+    "lights": [
+     "S Moon → J Sun Dec 36.987338 37 whole (36.69)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB63": [
+   {
+    "runner": "06 Fame And Fun",
+    "body": "Pluto",
+    "cells": [
+     "H Regulus – H Pluto Dec 33.280640 33.3333 ninth (20.96)",
+     "S Pluto – S Transpluto Dec 33.399463 33.3333 ninth (0.8)",
+     "S Transpluto → H Pluto RA 133.449322 133.333 ninth (56.5)"
+    ],
+    "notes": [
+     "H Regulus – H Pluto Dec carried by S Pluto – S Transpluto Dec; Transpluto on H Pluto (RA 133.333 ninth)"
+    ],
+    "lights": [
+     "S Moon – S Pluto RA 92.202581 57×φ golden (21.74)",
+     "S Sun → H Pluto RA 66.764463 66.6667 ninth (26.65)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "07 Jack's Jury",
+    "body": "Pluto",
+    "cells": [
+     "H Regulus – H Pluto RA 144.696653 144.444 ninth (12.7)",
+     "S Pluto – S Orcus RA 144.468909 144.444 ninth (91.53)",
+     "S Orcus → H Pluto Dec 8.074868 5×φ golden (52.77)"
+    ],
+    "notes": [
+     "H Regulus – H Pluto RA carried by S Pluto – S Orcus RA; Orcus on H Pluto (Dec 5×φ golden)"
+    ],
+    "lights": [
+     "S Moon – S Pluto RA 92.202581 57×φ golden (21.74)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB64": [
+   {
+    "runner": "05 Slim Marvel",
+    "body": "Makemake",
+    "cells": [
+     "S Aldebaran – S Makemake RA 133.322293 133.333 ninth (95.86)",
+     "S Uranus → H Makemake RA 133.481936 133.333 ninth (44.27)",
+     "S Uranus → H Makemake Dec 3.997405 4 whole (87.03)"
+    ],
+    "notes": [
+     "S Aldebaran – S Makemake RA and S Uranus → H Makemake RA both 133.333 ninth; S Uranus → H Makemake Dec 4 whole"
+    ],
+    "lights": [
+     "S Moon – S Makemake Dec contraparallel 0.046541 cp contraparallel (84.49)",
+     "S Moon → H Makemake Dec 44.408842 44.4444 ninth (59.95)",
+     "S Sun → H Makemake Dec 41.383859 41.4 silver (39.65)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB65": [
+   {
+    "runner": "01 Minella Blueway",
+    "body": "Sun",
+    "cells": [
+     "H Aldebaran – H Sun Dec 5.001161 5 whole (94.2)"
+    ],
+    "notes": [
+     "H Aldebaran – H Sun Dec 5.0012 5 whole (94.2)"
+    ],
+    "lights": [],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB66": [
+   {
+    "runner": "01 Minella Blueway",
+    "body": "Juno",
+    "cells": [
+     "H Juno – J Juno Dec 5.000397 5 whole (98.01)",
+     "S Chiron → H Juno Dec 11.001270 11 whole (93.65)",
+     "S Chiron → J Juno Dec 6.000873 6 whole (95.63)"
+    ],
+    "notes": [
+     "H Juno – J Juno Dec 5.0004 5 whole (98.01); S Chiron → H Juno Dec 11.0013 11 whole (93.65)",
+     "H Juno – J Juno Dec 5.0004 5 whole (98.01); S Chiron → J Juno Dec 6.0009 6 whole (95.63)"
+    ],
+    "lights": [
+     "S Moon → J Juno Dec 24.258045 15×φ golden (61.53)"
+    ],
+    "decade": [],
+    "additive": [
+     "WATCH additive step (Dec): 11 = 5 + 6 (S Chiron → H Juno; H Juno – J Juno; S Chiron → J Juno) (may be geometry: three distances between the same three points)"
+    ],
+    "watch_only": false
+   }
+  ],
+  "BB67": [],
+  "BB68": [
+   {
+    "runner": "05 Slim Marvel",
+    "body": "Mars",
+    "cells": [
+     "S Mars → J Mars Dec 32.110483 (no family)",
+     "S Quaoar – S Mars Dec 30.999154 31 whole (95.77)",
+     "S Quaoar → J Mars Dec 1.111329 1.11111 ninth (90.19)"
+    ],
+    "notes": [
+     "S Mars → J Mars Dec 32.1105 = S Quaoar – S Mars 30.9992 31 whole (95.77) + S Quaoar → J Mars 1.1113 1.11111 ninth (90.19)"
+    ],
+    "lights": [
+     "S Moon – S Mars RA 69.014641 69 whole (26.8)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "07 Jack's Jury",
+    "body": "Mars",
+    "cells": [
+     "S Mars → H Mars Dec 33.946465 21×φ golden (0.47)",
+     "S Eris – S Mars Dec 16.003394 16 whole (83.03)",
+     "S Eris → H Mars Dec 17.943071 φ⁶ phi power (95.54)"
+    ],
+    "notes": [
+     "S Mars → H Mars Dec 33.9465 = S Eris – S Mars 16.0034 16 whole (83.03) + S Eris → H Mars 17.9431 φ⁶ phi power (95.54); same-body line Dec 33.9465 21×φ golden (0.47)"
+    ],
+    "lights": [
+     "S Moon – S Mars RA 69.014641 69 whole (26.8)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB68b": [
+   {
+    "runner": "05 Slim Marvel",
+    "body": "Mars",
+    "cells": [
+     "S Mars → J Mars Dec 32.110483 (no family)",
+     "S Quaoar – S Mars Dec 30.999154 31 whole (95.77)",
+     "S Quaoar → J Mars Dec 1.111329 1.11111 ninth (90.19)"
+    ],
+    "notes": [
+     "S Mars → J Mars Dec 32.1105 = S Quaoar – S Mars 30.9992 31 whole (95.77) + S Quaoar → J Mars 1.1113 1.11111 ninth (90.19)"
+    ],
+    "lights": [
+     "S Moon – S Mars RA 69.014641 69 whole (26.8)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB69": [],
+  "BB69b": [],
+  "BB70": [],
+  "BB71": [],
+  "BB72": [],
+  "BB73": [],
+  "BB74": [],
+  "BB75": [
+   {
+    "runner": "06 Fame And Fun",
+    "body": "Chiron",
+    "cells": [
+     "H Chiron – J Chiron RA 77.792722 77.7778 ninth (90.39)",
+     "S Sedna – S Fomalhaut RA 77.632798 77.7778 ninth (6.8)"
+    ],
+    "notes": [
+     "H Chiron – J Chiron RA 77.7927 77.7778 ninth (90.39) carried by S Sedna – S Fomalhaut RA 77.6328 (6.8)"
+    ],
+    "lights": [
+     "S Sun – S Chiron RA 161.945629 100φ phi power (41.4)",
+     "S Sun → H Chiron Dec 19.420596 12×φ golden (87.07)",
+     "S Sun → H Chiron RA 133.477732 133.333 ninth (45.85)",
+     "S Sun → J Chiron Dec 0.139219 conj conj (53.59)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   },
+   {
+    "runner": "06 Fame And Fun",
+    "body": "Chiron",
+    "cells": [
+     "H Chiron – J Chiron RA 77.792722 77.7778 ninth (90.39)",
+     "S Uranus – S Fomalhaut RA 77.626563 77.7778 ninth (2.79)"
+    ],
+    "notes": [
+     "H Chiron – J Chiron RA 77.7927 77.7778 ninth (90.39) carried by S Uranus – S Fomalhaut RA 77.6266 (2.79)"
+    ],
+    "lights": [
+     "S Sun – S Chiron RA 161.945629 100φ phi power (41.4)",
+     "S Sun → H Chiron Dec 19.420596 12×φ golden (87.07)",
+     "S Sun → H Chiron RA 133.477732 133.333 ninth (45.85)",
+     "S Sun → J Chiron Dec 0.139219 conj conj (53.59)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB76": [],
+  "BB77": [],
+  "BB77b": [
+   {
+    "runner": "07 Jack's Jury",
+    "body": "Venus",
+    "cells": [
+     "J Regulus – J Venus RA 153.002297 153 whole (88.52)",
+     "S Mercury – S Uranus RA 152.988916 153 whole (44.58)",
+     "S Venus → H Uranus RA 166.464193 166.667 ninth (39.26)"
+    ],
+    "notes": [
+     "J Regulus – J Venus RA 153.0023 153 whole (88.52); Uranus on the target: S Mercury – S Uranus RA 152.9889 (44.58); back to natal Uranus: S Venus → H Uranus RA 166.4642 166.667 (39.26)"
+    ],
+    "lights": [
+     "S Sun – S Venus Dec 4.870191 3×φ golden (50.34)",
+     "S Sun → J Venus Dec 17.990991 18 whole (54.96)",
+     "S Moon → J Venus Dec 21.015975 13×φ golden (43)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB77c": [
+   {
+    "runner": "07 Jack's Jury",
+    "body": "Venus",
+    "cells": [
+     "J Regulus – J Venus RA 153.002297 153 whole (88.52)",
+     "S Mercury – S Uranus RA 152.988916 153 whole (44.58)",
+     "S Venus → H Uranus RA 166.464193 166.667 ninth (39.26)"
+    ],
+    "notes": [
+     "J Regulus – J Venus RA 153.0023 153 whole (88.52); Uranus on the target: S Mercury – S Uranus RA 152.9889 (44.58); back to natal Uranus: S Venus → H Uranus RA 166.4642 166.667 (39.26)"
+    ],
+    "lights": [
+     "S Sun – S Venus Dec 4.870191 3×φ golden (50.34)",
+     "S Sun → J Venus Dec 17.990991 18 whole (54.96)",
+     "S Moon → J Venus Dec 21.015975 13×φ golden (43)"
+    ],
+    "decade": [],
+    "additive": [],
+    "watch_only": false
+   }
+  ],
+  "BB78": [],
+  "BB79": [],
+  "BB80": [],
+  "BB81": [],
+  "BB82": [],
+  "BB83": [],
+  "BB84": [],
+  "BB84b": []
+ }
+}
