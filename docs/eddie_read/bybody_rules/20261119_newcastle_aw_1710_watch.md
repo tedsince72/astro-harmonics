@@ -118,3 +118,7 @@
 - Lead: Idealise - cover pick (BB79, alone) and the only Version C pick (BB1 + BB12 + BB7); 16 rules, 6 alone (BB1, BB13, BB43, BB54, BB65, BB79); the only BB3 + BB54 holder; depth 5 (Eris) with 5 bodies at 3+, the most; best pair tally (1 / 1), 1 field-only negative.
 - Second: Bronze Cascade - cover pick; 16 rules, 6 alone (BB2, BB4, BB28, BB35, BB53, BB60); BB3 + BB63 + BB68 (with Spruce, Third Chapter); depth 5 (Saturn); M3b mirror H Mercury with Regulus on S Mercury.
 - Others: Tabkir (cover pick by BB32, 5 rules, the best nets, full M1 J Vesta 98.61); Spruce (cover pick by BB32, BB32 + BB34, full M1 H Quaoar); High Threshold (BB68b, BB75 alone, jockey Antares – Orcus 111.111 83.7 with a sky line - natal pair watch); Third Chapter (BB23 + BB7 + BB9; sole worst >= 90).
+
+## Version E and cover signals (fixed 19 Nov 2026 before the result; tools/scans/bb_cover_e.py)
+- Version E: Idealise (BB79, as it is), Spruce (BB32 with a fast sky-natal triangle). Bronze Cascade, Tabkir dropped (royal items without the triangle).
+- Cover signals 2 / 3 (filter: bet): sky fast triangles across planes >= 50 none; busiest fast body Moon 8 lines (yes); a cover pick with a fast sky-natal triangle (yes).

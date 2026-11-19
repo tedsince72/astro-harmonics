@@ -122,3 +122,7 @@
 - Lead: Lady Mombasa - cover and Version B pick; most rules (19, 7 alone incl. BB32, BB60, BB62, BB77b, BB77c, BB81); full mirror M1 H Quaoar (92.51); BB3 + BB63 and BB59; against: depth 2, sole worst >= 80, BB32 + BB77c lost 2 of 2 in-sample.
 - Second: Hot Moonstone - cover pick (dropped by B); 18 rules, 4 alone incl. BB43, BB65; depth 3 on three bodies; P1; no negative net at >= 90 / >= 80.
 - Others: Shimmering Shadow (alone at depth 5, Venus; BB35 alone; S Pluto → H Pluto 1×φ 83.15; no negative net); Inkjet / Sede Vacante (D1 + BB3 Pluto both; Sede Vacante BB84 / BB84b alone, J1any); On A Boat That Day (BB1, BB23, BB34 alone; full M1 J Quaoar 93.89); Wadacre Gabriel (the only BB3 + BB54, BB54 alone; sole worst >= 90).
+
+## Version E and cover signals (fixed 19 Nov 2026 before the result; tools/scans/bb_cover_e.py)
+- Version E: Hot Moonstone (BB3 + BB12 + BB53 with a fast sky-natal triangle; whole + φ version too). Inkjet, Lady Mombasa dropped (royal items without the triangle).
+- Cover signals 2 / 3 (filter: bet): sky fast triangles across planes >= 50 none; busiest fast body Moon 8 lines (yes); a cover pick with a fast sky-natal triangle (yes). The sky race score filter skips this race - the two disagree.
