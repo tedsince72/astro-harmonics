@@ -1979,3 +1979,36 @@ Checked in past results (picks / won / by chance; tools/scans/bb_scan_ofcorse_na
 - Chiron – Orcus in both charts: Of Corse I Can only.
 - Rahu – Fomalhaut >= 90 in either chart: 23 / 6 / 4.2. In both charts: Of Corse I Can only.
 Reading: Chiron – Orcus in either chart stands out most (about twice chance), but it was picked after two results. F2 leans the right way and is small. Noted, not on watch.
+
+### Activation of natal pairs (19 Nov 2026, Eddie: 'natal to natal is always there so it needs activation'; notes only, not built)
+Of Corse I Can's sky lines on Chiron and Orcus, from Eddie's list (bybody sheet):
+- H Chiron – H Orcus RA 155.5644 (97.2) is activated by S Moon – S Orcus RA 155.5338 ninth 155.556 (93.0): same number, same plane, the Orcus end lit.
+  It is the only Chiron – Orcus activation in 57 races (Moon allowed).
+- Sky Orcus carries two numbers twice:
+  - 144.444: S Orcus – S Pluto RA 144.5044 (79.3) and S Orcus → J Neptune RA 144.5190 (74.2)
+  - 6×φ: S Regulus – S Orcus RA 9.6851 (28.7) and S Orcus → J Vesta Dec 9.7124 (86.9)
+  - Also S Orcus → H Sun RA 122.2212 ninth (99.6).
+- Sky Chiron lines:
+  - S Chiron – S Vesta Dec 15 (81.8) and S Chiron → J Juno Dec 15×φ (53.4)
+  - S Chiron – S Juno RA 77.8339 ninth 77.7778 (63.9): the same sky pair that matched Splintered's H Vesta – Orcus 77.7774 the same day
+  - S Chiron – S Jupiter RA φ¹⁰ (78.7) and S Chiron → J Jupiter RA 41.4 (51.0)
+Scan: tools/scans/bb_scan_activation.py.
+- A natal pair >= 90 (number family) is "activated" when a sky line naming one of its bodies (S X – S Z, or S X → natal W in either chart) scores on the same family + target.
+- Picks / won / by chance over 57 result races, by the score of the activating line (--cut):
+
+| measure | >= 50 | >= 80 | >= 90 |
+|---|---|---|---|
+| A1 one activated pair | 271 / 50 / 47.0 | 176 / 36 / 30.5 | 103 / 24 / 17.4 |
+| A2 two or more | 189 / 35 / 32.4 | 55 / 17 / 9.3 | 25 / 10 / 4.3 |
+| ABm activated and in both charts (Moon allowed) | 19 / 4 / 3.2 | 8 / 1 / 1.3 | 5 / 1 / 0.8 |
+
+- A2 at >= 90:
+  - 23 races have a holder.
+  - The winner held it in 10. In 9 of those the winner was the only holder (Little Girl Blue, John Kirkup, Eydon, Man On A Mission, Wholestone, Greaneteen, Ropey Guest, Pixie Loc, Madame Tantzy). In York 15:45 2024 Secret Satire shared it with Classical Song.
+  - Neither Splintered nor Of Corse I Can held it, and no runner in either of those races did.
+- R (sky X carries one number twice): every runner holds it at >= 50; no use.
+Reading:
+- Activation at >= 50 is too loose: nearly everyone has a sky line on some natal number.
+- At >= 90, two activated pairs (A2) is the clearest edge so far in this line of work: 10 of 25, 4.3 by chance.
+- The cut was picked after trying three (50, 80, 90), so it needs forward races.
+- Eddie to say whether A2 at >= 90 goes on watch. It does not change the cover-of-eight test.
