@@ -120,3 +120,10 @@ Sole worst: >= 90 Where You At (−5); >= 80 none (Bartholomew J, The Vegas Raid
 - Lead: 08 Nibras Gold - most rules (22) and most held alone (8: BB31, BB39, BB58, BB59, BB66, BB67, BB68, BB80); the only holder of BB63 + BB68, BB3 + BB63 + BB68, BB59 and D1 + BB3 (Makemake 130 / 13); the cover overlap BB13 + BB80 with BB79 / BB3 + BB12 + BB53 (in-sample 4 of 4, Sage Green since); best >= 90 net (0) and whole >= 80 net (+1); joint-fewest field-only negatives (2).
 - Second: 04 Financial Conduct - 20 rules, alone on BB23, BB24, BB73, BB74; BB48 + BB55; most pair tally positives (4 / 4); A0 / A1 Uranus Regulus, R11w Neptune 11 (88.84); jockey Antares – Rahu 33.3333 (98.7) with sky lines on it.
 - Others: 07 The Vegas Raider (18 rules, the only BB13 + BB48 + BB55 and G0s / G1 Gonggong; the only + score line in its cells; 7 field-only negatives); 06 Bartholomew J (BB77b / c alone, sole worst whole >= 80); 09 Where You At (BB69 alone, sole worst >= 90, most field-only negatives 9); 02 Blazon (BB1, BB83 alone, BB1 + BB14).
+
+## Result (from Eddie, 19 Nov 2026)
+1 Nibras Gold 6/4F, 2 Where You At 7/2, 3 The Vegas Raider 13/2, 4 Financial Conduct 22/1, 5 Aleatoric 9/2, 6 Blazon 11/1, 7 Perthshire 16/1, 8 Bartholomew J 22/1; 8 ran (non-runners Pax Britannica, Scudamore).
+- Cover of eight: 5 picks, 1 won (Nibras Gold 6/4), +1.5 - 4 = -2.5. Version B: 4 picks, 1 won, -1.5. Version C: no pick.
+- Sky race score v1 -3, v2 -3: the filter would have skipped - wrong for A and B.
+- Lay: favourite Nibras Gold 6/4 (not short-priced) had the best >= 90 / whole >= 80 nets and won; sole worst >= 90 Where You At 2nd, sole worst whole >= 80 Bartholomew J last.
+- Read: lead Nibras Gold won; second Financial Conduct 4th.
