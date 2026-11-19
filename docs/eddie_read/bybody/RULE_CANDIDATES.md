@@ -2066,3 +2066,10 @@ Reading: many field-only negatives leans the right way as a 'against' signal (ab
 
 Fewest field-only negatives (19 Nov 2026, after Ffos Las 15:37 8 Nov 2026: Impatient won 11/2 with the fewest, 2; read-only, inline check, same labels as above, leave one race out):
 the runner(s) with the fewest field-only negatives in the race won 22 of 61 races (15.5 by chance). The most: 8 of 61 (13.8). Chosen after the result; not on watch, Eddie to say.
+
+Impatient natal to natal (Ffos Las 15:37 8 Nov 2026, won 11/2; tools/scans/bb_scan_winner_natal.py):
+- 18 natal pairs >= 90 (14 held alone); none activated - no sky line naming either body on the pair's number, even at >= 40 (act80 0, so not a cover / Version B type).
+- Sedna in 5 (H Orcus – Sedna 11×φ, H Uranus – Sedna 1.44444, J Haumea – Sedna 93×φ, J Rahu – Sedna φ², J Ceres – Sedna 50); Eris in 2 (H Saturn – Eris 70×φ 99.2, J Sun – Eris 11.1111 99.1).
+- Number in the sky on another pair only: 24.14 (H Neptune – Haumea / S Vesta – S Makemake 72), 10φ⁶ (J Pallas – Orcus / S Gonggong – S Transpluto 58), 5×φ (J Pluto – Gonggong Dec / S Saturn – S Vesta RA 77), 10 (J Mercury – Jupiter / S Fomalhaut – S Moon 42).
+- Field, pairs >= 90 (held alone): Minella Blueway 13 (11), Impatient 18 (14), Galway Reel 13 (11), Slim Marvel 22 (20), Fame And Fun 18 (16), Jack's Jury 14 (14).
+- A winner with quiet natal pairs (not lit by the sky) - the opposite of Of Corse I Can / Splintered.
