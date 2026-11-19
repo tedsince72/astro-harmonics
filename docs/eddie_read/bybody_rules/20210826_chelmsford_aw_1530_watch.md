@@ -119,3 +119,11 @@ Sole worst: >= 90 Toussarok (−4); >= 80 Alphonse Karr (−1); whole >= 80 Swis
 - Lead: 04 Araifjan - the most rules (19), alone on BB30, BB57, BB67, BB80; the only D1 + BB3 / D1 + BB54 holder (D1 Juno: S Ketu – S Juno 13.3333 95.17 / H Regulus – H Juno 133.333); BB3 + BB54; A0 / A1 Mercury Antares; holds BB12 (favourite watch); best >= 90 net +1, fewest field-only negatives (1), best pair tally (0 / 1). Against: not a cover pick, depth 3.
 - Second: 01 Swiss Pride - the single cover pick and Version B's pick (BB79, alone; also alone BB16, BB64); BB12; BB13 + BB48 + BB55 (with Toussarok); depth 5 Mars. Against: sole worst whole >= 80 (−2).
 - Others: 02 Invincible Larne (16 rules, 5 alone incl. BB68 / BB68b, the only BB1 + BB14 + BB68 holder, best >= 80 net); 05 Alphonse Karr (depth 5 with 6 bodies at 3+, full mirror M1 J Pallas 97.29, J1any; fewest rules, no BB12); 03 Toussarok (only P2 / P3, sole worst >= 90); 06 Healing Power (Jupiter loop A, worst pair tally).
+
+## Result (from Eddie, 19 Nov 2026)
+1 Toussarok 2/1F, 2 Swiss Pride 7/1, 3 Alphonse Karr 5/2, 4 Araifjan 5/1, 5 Invincible Larne 11/2, 6 Healing Power 18/1; 6 ran.
+- Cover of eight: 1 pick (Swiss Pride), 2nd, -1. Version B: Swiss Pride, -1. Version C: no pick.
+- Sky race score v1 +4, v2 +4: the filter would have bet - wrong for A and B.
+- Favourite watch: Toussarok had no BB12 and won - against the line.
+- Lay: favourite 2/1 (not short-priced) won although sole worst >= 90 (−4).
+- Read: lead Araifjan 4th; second Swiss Pride 2nd.
