@@ -2073,3 +2073,10 @@ Impatient natal to natal (Ffos Las 15:37 8 Nov 2026, won 11/2; tools/scans/bb_sc
 - Number in the sky on another pair only: 24.14 (H Neptune – Haumea / S Vesta – S Makemake 72), 10φ⁶ (J Pallas – Orcus / S Gonggong – S Transpluto 58), 5×φ (J Pluto – Gonggong Dec / S Saturn – S Vesta RA 77), 10 (J Mercury – Jupiter / S Fomalhaut – S Moon 42).
 - Field, pairs >= 90 (held alone): Minella Blueway 13 (11), Impatient 18 (14), Galway Reel 13 (11), Slim Marvel 22 (20), Fame And Fun 18 (16), Jack's Jury 14 (14).
 - A winner with quiet natal pairs (not lit by the sky) - the opposite of Of Corse I Can / Splintered.
+- Eddie's lines (19 Nov 2026): Impatient Sun - Eris.
+  - S Eris – S Sun RA 163.4169 101×φ (86.1) is the same for every runner.
+  - S Eris → H Sun Dec 22.2178 22.2222 ninth (90.0): Impatient only. It is a negative pair in the tally (19 / 1 / 3.1), but here its sky pair also scores, so it is activated.
+  - J Sun – J Eris Dec 11.1109 11.1111 ninth (99.1): Impatient only; no other runner has natal Sun – Eris in a family, either chart.
+  - 22.2222 = 2 × 11.1111, same plane and family: the sky-to-natal line doubles the jockey's natal line.
+  - Also S Sun → H Eris RA 161.9117 100φ (55.4), S Sun → J Eris Dec 9.0120 9 (39.8). Jack's Jury has S Eris → H Sun RA conj (51.9) and S Sun → H Eris Dec 15 (48.9), but no natal pair.
+  - Shape: one body pair X – Y lit four ways (sky pair, S Y → natal X, natal X – Y in the other chart, ×2 on the same family). Not scanned yet.
