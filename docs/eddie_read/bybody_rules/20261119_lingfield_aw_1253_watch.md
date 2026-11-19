@@ -130,3 +130,12 @@
 - Lead: Freshie - most rules (23); cover, Version B and the only Version C pick (BB1 + BB12 + BB7; also BB1 + BB14, BB10 + BB7 + BB9 with Grasshopper, BB48 + BB55 with Kameko Star); against: depth 0, none held alone.
 - Second: Grasshopper - cover pick (BB32, alone) but dropped by B; R11 Sedna (11, 93.2); full mirror M1 H Quaoar (93.72); N0 + BB50; the only positive >= 90 net and the best pair tally (2 / 2); BB30, BB49, BB50 alone.
 - Others: Star Run (cover / B pick; the only BB3 + BB54, BB23 + BB7 + BB9; BB54, BB75 alone; P2 / P3; but sole worst >= 90 and most field-only negatives); Stansfield Dream (cover / B pick, alone at depth 5 Venus, BB64 alone, BB35 + BB6); Kameko Star (the only BB3 + BB63 + BB68, BB68b alone); One Nine Seven (BB84 / BB84b alone; sole worst whole >= 80).
+
+## Result (from Eddie, 19 Nov 2026)
+1 Classic Bellini 11/8F (David Allan; 1¼ l), 2 Star Run 3/1, 3 Freshie 5/1, 4 One Nine Seven 9/1, 5 Grasshopper 5/1, 6 Stansfield Dream 66/1, 7 Kameko Star 18/1, 8 Sassaturra 200/1.
+- Cover of eight: 5 picks, Classic Bellini won 11/8: +1.375 − 4 = −2.63 points. Version B (Freshie, Stansfield Dream, Star Run) 0 won, −3; Classic Bellini dropped by B (act80 0). Version C (Freshie) 3rd, −1.
+- Sky race score v1 +1, v2 +1 (filter bets) - right for A, wrong for B and C.
+- Read: the lead (Freshie) 3rd, the second (Grasshopper) 5th.
+- Winner: 13 rules (BB73 alone), depth 2; pair tally 0 / 0 and 0 field-only negatives (the only runner with no pair-tally line); W2 2 lines (S Uranus → J Quaoar RA 99.5).
+- Favourite watch: the favourite Classic Bellini (W1 yes, W2 yes) won - W1 right, W2 right (the first favourite win with a 100φ line since W2 was set). Zenith not quiet - favourite won.
+- Lay check: the winner was not the sole worst at any cut (>= 90 −1, >= 80 −1 joint, whole 0); Star Run (sole worst >= 90, most field-only negatives) 2nd.
