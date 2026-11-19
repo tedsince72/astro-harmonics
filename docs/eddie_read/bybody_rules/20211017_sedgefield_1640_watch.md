@@ -118,3 +118,11 @@
 - Lead: Gordon's Jet - most rules (15, 10 alone incl. BB59, BB62, BB63, BB67); the only BB3 + BB63 and BB59 holder; full mirror M1 on H Quaoar (97.38, with Saint Arvans); W1; but the most field-only negatives (7) and worst pair tally (2 / 8).
 - Second: The Vollan - the only D1 + BB3 holder (Gonggong 88.8889 / 8.88889; D1 + BB3 21 / 9 over 48 races); alone at the top depth (4, Sedna); BB68, BB80 alone; P1; best whole >= 80 net (+2) but sole worst >= 90 (−3).
 - Others: Beach Break (13 rules, 6 alone, BB1 + BB14, J1any + BB14, cover / B pick); Saint Arvans (BB64, BB79 alone, full M1 98.57, cover / B pick); Quest For Life (BB32, BB69 alone, natal pair H Antares – H Quaoar Dec 11 96.9 on watch, R11w); Countister (A0 / A1 Regulus on Gonggong, P1).
+
+## Result (from Eddie, 19 Nov 2026)
+1 Gordon's Jet 5/4F (Brian Hughes; easily, 10 l), 2 Saint Arvans 9/1, 3 The Vollan 11/2, 4 Countister 100/30, 5 Beach Break 7/1, 6 Quest For Life 14/1.
+- Cover of eight: 3 picks (Saint Arvans 2nd, Beach Break 5th, Quest For Life 6th), 0 won, −3. Version B 2 picks, −2. Version C no pick.
+- Sky race score v1 +1, v2 +1 (filter bets) - wrong for A and B.
+- Read: the lead (Gordon's Jet) won, the second (The Vollan) 3rd - the winner not a cover pick; the seventh back-fill favourite in a row to win from outside the cover.
+- Favourite watch: W1 yes - won (W1 right); no 100φ line (W2 wrong). Zenith quiet - favourite won.
+- Lay check: the winner had the most field-only negatives (7) and the worst pair tally (2 / 8), not the sole worst at any cut; The Vollan (sole worst >= 90) 3rd, Quest For Life (sole worst whole >= 80) last.
