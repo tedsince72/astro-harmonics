@@ -134,3 +134,10 @@ Sole worst: >= 90 Nip About (−6); >= 80 none (no negative); whole >= 80 Caseme
 - Lead 08 Savernake: most rules 20, 6 alone (BB5, BB38, BB72, BB77, BB77b, BB77c); cover pick and Versions D and E; BB72 (4 of 5 won before); BB59 with Medran, Janora; BB63 + BB68; BB10 + BB60 with Nip About; jockey Antares – Orcus 17×φ (87.9) with a sky line (watch); mirror M1 H Quaoar; W1. Weak side: depth 3, nets −1 / +1 / −2.
 - Second 03 Casement Park: cover and Version B pick (BB32); the only holder of the Greaneteen / Heart Throb combinations (BB10 + BB7 + BB9 etc.), BB48 + BB55 and BB82 + BB9; mirror M5 on Rahu / Ketu 99.81; best pair tally 3 / 1, 0 field-only negatives. Against: the sole worst whole >= 80 net (−3), −4 at >= 90.
 - Others: Momotombo (only J1any + B68, only P2 / P3, depth 5, no negatives anywhere); Wind The Bobbin Up (fewest rules 5, the only positive >= 90 net, 0 negatives).
+
+## Result (from Eddie, 19 Nov 2026)
+1 Ezenli 33/1, 2 Big Money 9/4, 3 Janora 11/1, 4 Nip About 9/2, 5 Medran 80/1, 6 El Ra'ady 6/5F, 7 Momotombo 200/1, 8 Veronique 9/1, 9 Casement Park 150/1, 10 Savernake 80/1, 11 Wind The Bobbin Up 80/1. Non-runners Elsy D, Win Or Lose.
+- Cover of eight: 4 picks 0 won, −4. Version B: Casement Park 9th, Wind The Bobbin Up 11th, −2. Version C: no bet. Versions D and E: El Ra'ady 6th, Savernake 10th, −2.
+- Sky race score −1 (bet) wrong; cover signals 2 (bet) wrong.
+- Read: lead 10th, second 9th - miss. Winner Ezenli (Hollie Doyle): 11 rules, alone BB33, BB43, BB67, BB68b; the only BB3 + BB63 + BB68 holder; depth 5 Mercury; jockey Antares – Orcus RA 111.111 (83.7) = S Mercury – S Rahu (natal-pair watch); W1 yes; nets −2 / 0 / 0, pair tally 1 / 2, 1 field-only negative.
+- Favourite El Ra'ady 6th: W1 no (right), W2 yes 2 lines (wrong); not the sole worst at any cut. Sole worst pair tally / most field-only negatives Big Money 2nd; sole worst >= 90 Nip About 4th; sole worst whole >= 80 Casement Park 9th.

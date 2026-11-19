@@ -2187,3 +2187,7 @@ Standing: any pattern noticed after a back-fill result goes here, marked as chos
 ### Lingfield AW 12:18 19 Nov 2026 (after the result; noted only)
 - Acrackintime won 200/1 outside the cover and every version; the only D1 + BB3 holder (decade echo on Pallas, 5×φ / 50×φ). D1 + BB3 has now won several times as a field-only holding (Wholestone, Sage Green, Nibras Gold, Forget You Not, Pixie Loc, Acrackintime); worth a fresh count over all races before any decision (chosen after the results).
 - The lead's positives (all three nets positive, best pair tally, 0 field-only negatives) did not hold in a 2yo maiden; the lay-check worsts ran 2nd-4th.
+
+### Newcastle AW 16:10 19 Nov 2026 (after the result; noted only)
+- Ezenli won 33/1 outside the cover: the field's only BB3 + BB63 + BB68 holder (a watched combination since 17 Nov) and a jockey Antares – Orcus line with a sky line on its number (natal-pair watch). Both watches pointed at him; the cover did not.
+- The four cover picks (BB32 x3, BB77c) all finished 6th or worse; the lay-check worsts ran 2nd (Big Money) and 4th (Nip About).
