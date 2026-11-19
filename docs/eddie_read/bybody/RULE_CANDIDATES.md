@@ -1891,3 +1891,30 @@ natal lines run as one connected chain in one chart, with one exact number echo 
   Natal-to-natal angle (docs/eddie_read/bybody/natal_angle_20261118.md, tools/scans/bb_scan_natal_angle.py): no natal count finds them;
   18 of 19 have no sky pair sharing one body on a natal number (the covered winners' echo shape); tight echoes (within 0.01) top for
   Two For Gold, Olympe De Gouges, Present Moment, Not Available, near chance overall. To come back to.
+
+## Splintered natal-to-natal echoes (Wolverhampton AW 18:00 16 Nov 2026; 19 Nov 2026, Eddie 'yes, do both'; notes only, not built)
+Splintered won at 125/1 (BB69, a cover-of-eight pick). An echo here means a natal pair ≥ 80 with a sky pair ≥ 80 on the same family and target, within 0.01 (bb_scan_natal_angle 'tight'). He has four:
+- H Vesta – Orcus RA 77.7774 (99.7) = S Chiron – S Juno RA 77.7840 (96), ninth 77.7778
+- H Chiron – Makemake Dec 14.0012 (93.8) = S Mars – S Saturn Dec 14.0016 (92), whole 14
+- J Saturn – Quaoar RA 160.1857 (98.9) = S Juno – S Ketu RA 160.1850 (99), 99×φ
+- J Chiron – Orcus Dec 14.4437 (97.4) = S Neptune – S Quaoar Dec 14.4406 (87), ninth 14.4444
+Threads:
+- Chiron and Orcus are in an echo in both charts.
+- Sky Juno carries two of the echoes.
+- Orcus is also in J Pallas – Orcus 166.6700.
+- Jockey ninths repeat: 166.667 twice (Mars – Gonggong, Pallas – Orcus) and 155.556 twice (Pallas – Regulus, Chiron – Aldebaran), with no sky pair on either number.
+Against the field:
+- anysky 4, joint top with Kings Medal
+- tight 4, second to Silent Wisdom's 5
+- share1 0
+Checked in past winners (tools/scans/bb_scan_echo_threads.py; 56 result races with an _active.xlsx; picks / won / by chance):
+- T2 (a body in an echo in both charts): 60 / 11 / 9.9
+- T3 (one sky body in two echoes): 133 / 24 / 22.7
+- T23 (both): 45 / 9 / 7.6
+- Looser echoes (natal ≥ 90, any sky pair ≥ 80 on the number):
+  - L2: 34 / 9 / 5.7
+  - L3: 79 / 18 / 13.8
+  - L23: 24 / 6 / 4.1
+- Without Splintered (the origin): L2 33 / 8 / 5.6, L23 23 / 5 / 4.0
+- In his race Splintered was the only holder of T23 and of L23.
+Reading: the tight versions are at chance. L2 / L23 lean the right way but are small and chosen after the result. Noted, not on watch.
