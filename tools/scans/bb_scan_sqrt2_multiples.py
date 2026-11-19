@@ -7,17 +7,24 @@ k x phi. Here: k x sqrt2, k = 1..127 (up to 179.6), tolerance 0.02 x sqrt2 = 0.0
   natal c X - c Y (c = H, J), sky on natal S Y -> c X (Y not X), same-body S X -> c X, per runner (horse + jockey charts summed).
 Golden k x phi (bybody's own family) counted the same way as a baseline. Over the result races with an _active.xlsx
 (bb_scan_negatives.RACES). Chosen after the results.
-  python3 tools/scans/bb_scan_sqrt2_multiples.py [cut]   (default 90)"""
+Silver (19 Nov 2026, Eddie 'yes, run that please'): k x (1 + sqrt2) = k x 2.41421, k = 1..74, tolerance 0.02 x 2.41421 = 0.0483;
+'new' = k not 1, 10 (2.414 and 24.14 are bybody targets today; 0.414, 4.14, 41.4 are not multiples).
+  python3 tools/scans/bb_scan_sqrt2_multiples.py [cut] [r2|silver]   (default 90 r2)"""
 import sys, os, json, math, itertools, io, contextlib
 CUT = float(sys.argv[1]) if len(sys.argv) > 1 else 90
+TEST = sys.argv[2] if len(sys.argv) > 2 else 'r2'
 sys.argv = sys.argv[:1]
 sys.path[:0] = ['tools', 'tools/scans']
 import eddie_bybody as EB, bb_scan_negatives as NG, bb_favs_outer_uranus as F
 with contextlib.redirect_stdout(io.StringIO()):
     import bb_scan_regulus_apex as RA
 R2, PHI = math.sqrt(2), (1 + 5 ** 0.5) / 2
-OLD = {1, 5, 10, 50, 100}
-FAMS = {'r2': (R2, 0.02 * R2, range(1, 128)), 'golden': (PHI, 0.0324, range(1, 125))}
+SIL = 1 + R2
+OLD = {'r2': {1, 5, 10, 50, 100}, 'silver': {1, 10}}[TEST]
+FAMS = {'r2': (R2, 0.02 * R2, range(1, 128)), 'silver': (SIL, 0.02 * SIL, range(1, 75)),
+        'golden': (PHI, 0.0324, range(1, 125))}
+FAMS = {f: FAMS[f] for f in (TEST, 'golden')}
+NAME = {'r2': 'sqrt 2', 'silver': 'silver'}[TEST]
 
 
 def fam_hit(v, fam):
@@ -38,7 +45,7 @@ def count(vals, fam):
         h = fam_hit(v, fam)
         if h and h[1] >= CUT:
             n += 1
-            if fam != 'r2' or h[0] not in OLD:
+            if fam != TEST or h[0] not in OLD:
                 new += 1
     return n, new
 
@@ -96,14 +103,14 @@ def main():
             run[RA.key(r['name'].get('H') or '')] = {(t, f): count(v, f) for t, v in vals.items() for f in FAMS}
         fav = F.FAV.get(race)
         races.append(dict(race=race, win=RA.key(win), fav=RA.key(fav) if fav else None, cover=cover, sky=sky, run=run))
-    print(f'# Multiples of sqrt 2 (k x 1.41421, ±0.0283), cut {CUT:g}; golden k x phi as baseline\n')
+    print(f'# Multiples of {NAME} (k x {FAMS[TEST][0]:.5f}, ±{FAMS[TEST][1]:.4f}), cut {CUT:g}; golden k x phi as baseline\n')
     print(f'{len(races)} result races with an _active.xlsx. Chosen after the results; read-only. '
-          "'new' = sqrt 2 lines on a k the bybody scoring does not count today (k not 1, 5, 10, 50, 100).\n")
+          f"'new' = {NAME} lines on a k the bybody scoring does not count today (k not {', '.join(map(str, sorted(OLD)))}).\n")
 
     # sky
     print('## Sky lines S A - S B per race (mean)\n')
     print('| family | all races | cover hit | cover miss | fav won | fav lost |\n|---|---|---|---|---|---|')
-    for f, i, lab in (('r2', 0, 'sqrt 2 all k'), ('r2', 1, 'sqrt 2 new k'), ('golden', 0, 'golden')):
+    for f, i, lab in ((TEST, 0, NAME + ' all k'), (TEST, 1, NAME + ' new k'), ('golden', 0, 'golden')):
         def m(sel):
             xs = [r['sky'][f][i] for r in races if sel(r)]
             return f'{sum(xs) / len(xs):.2f} ({len(xs)})' if xs else '-'
@@ -116,7 +123,7 @@ def main():
           'Bottom the same at the fewest. Mean = lines per runner.\n')
     print('| lines | family | winner mean | others mean | winner top | chance | winner bottom | chance |\n|---|---|---|---|---|---|---|---|')
     for t in ('natal', 'sky on natal', 'same-body'):
-        for f, i, lab in (('r2', 0, 'sqrt 2 all k'), ('r2', 1, 'sqrt 2 new k'), ('golden', 0, 'golden')):
+        for f, i, lab in ((TEST, 0, NAME + ' all k'), (TEST, 1, NAME + ' new k'), ('golden', 0, 'golden')):
             wm, om, top, ctop, bot, cbot, nr = [], [], 0, 0.0, 0, 0.0, 0
             for r in races:
                 vals = {n: v[(t, f)][i] for n, v in r['run'].items()}
@@ -139,7 +146,7 @@ def main():
     print('| lines | family | fav won: fav top / chance | fav lost: fav top / chance | fav lost: fav bottom / chance |\n'
           '|---|---|---|---|---|')
     for t in ('natal', 'sky on natal', 'same-body'):
-        for f, i, lab in (('r2', 0, 'sqrt 2 all k'), ('r2', 1, 'sqrt 2 new k'), ('golden', 0, 'golden')):
+        for f, i, lab in ((TEST, 0, NAME + ' all k'), (TEST, 1, NAME + ' new k'), ('golden', 0, 'golden')):
             acc = {'w': [0, 0.0, 0], 'l': [0, 0.0, 0, 0, 0.0]}
             for r in races:
                 vals = {n: v[(t, f)][i] for n, v in r['run'].items()}
