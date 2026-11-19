@@ -2063,3 +2063,6 @@ pair tally >= 80, each race's labels from the other races; picks / won / chance)
   - The favourite figure is biased: the 60 races were collected mostly because a priced horse won.
 - Field-only positives for comparison: >= 1 286 / 52 / 49.4, >= 4 36 / 7 / 6.5 (at chance).
 Reading: many field-only negatives leans the right way as a 'against' signal (about 0.7 of chance at >= 5), but nearly every runner has some. Not on watch; Eddie to say.
+
+Fewest field-only negatives (19 Nov 2026, after Ffos Las 15:37 8 Nov 2026: Impatient won 11/2 with the fewest, 2; read-only, inline check, same labels as above, leave one race out):
+the runner(s) with the fewest field-only negatives in the race won 22 of 61 races (15.5 by chance). The most: 8 of 61 (13.8). Chosen after the result; not on watch, Eddie to say.
