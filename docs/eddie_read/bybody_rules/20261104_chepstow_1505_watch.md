@@ -117,3 +117,6 @@
   - My Friend Sean 1; Great Dance 2; Two To Tango 2; Karton Plein 3.
   - Mr McWhinny 5; Rangatira Jack 5; Sage Green 6.
 - Lead: 09 L'Empire Vert. Second: 03 Two To Tango.
+- L'Empire Vert H1 (Uranus hub):
+  - Pallas: J Uranus – J Pallas RA 76 (95.6); sky S Uranus – S Pallas RA 47 (78.6); S Uranus → J Pallas Dec 16 (62.6).
+  - Transpluto: H Uranus – H Transpluto Dec 1.88889 (98.5); sky Dec φ⁵ (55.4); S Transpluto → H Uranus Dec 3 (92.9).
