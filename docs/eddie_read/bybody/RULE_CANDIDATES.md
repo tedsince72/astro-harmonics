@@ -2032,3 +2032,19 @@ tools/scans/bb_natal_filter.py -> docs/eddie_read/bybody/natal_filter_20261119.m
   - Wolverhampton, cover picks with act80 >= 1: Silent Wisdom and Splintered (won 125/1); Laurel Crown and Vulcanist have 0.
   - Plumpton: both cover picks (Jurassic Pet, Golly Gosh) have 0; the winner Of Corse I Can (1) was not a cover pick.
 - Not part of the fixed test. If used, it would be a second version ("cover of eight + act80 >= 1"), tallied alongside, fixed before the next race.
+
+### Spanish Darling, the 1/6 favourite (Uttoxeter 12:42 14 Nov 2026; unseated at the start; 19 Nov 2026, Eddie: 'what did he have that was negative?'; notes only)
+- Rules: 3, the fewest in the field (BB3, BB35, BB64). BB35 is one of the rules under chance in the negatives scan. Depth 3. No activated natal pair. Tight echoes 0 (Carrigane also 0).
+- Pair tally (>= 80; labels from the races before): 2 positive, 7 negative.
+  - Five of the negatives are his alone in the field:
+    - S Haumea → J Eris (35 / 1 / 6.1)
+    - S Haumea → J Quaoar (20 / 1 / 3.1)
+    - S Chiron → H Sedna (18 / 0 / 3.1)
+    - S Ceres → J Rahu (18 / 0 / 3.0)
+    - S Orcus → H Quaoar (16 / 0 / 2.2)
+  - Shared negatives: S Jupiter → J Transpluto (39 / 2 / 6.6; also Carrigane, Rose Warrior, Made For Mary) and S Mars – S Rahu (every runner but Rose Warrior).
+  - Positives: S Jupiter → J Quaoar (15 / 6 / 2.4), S Chiron → J Vesta (14 / 5 / 2.4).
+- Sky-on-natal >= 90: 0 positive, 5 negative (S Ceres → Rahu, S Jupiter → Transpluto, S Mercury → Rahu, S Orcus → Quaoar, S Uranus → Gonggong), net −5. The winner Rose Warrior and Port Isaac (2nd) were also −5.
+- Outer bodies whole >= 80 on natal Uranus (the favourites' pattern from Coltrane): none in this race.
+- Four of his five field-only negatives are on the jockey's chart (Kielan Woods).
+- He unseated at the start, so the race did not test him.
