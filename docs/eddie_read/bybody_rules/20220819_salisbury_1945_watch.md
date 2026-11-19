@@ -113,3 +113,10 @@
 - Sky-on-natal net (>= 90 / >= 80 / whole >= 80): Fox Vardy -6 / -1 / +1, Wilderness -4 / -1 / +2, City Tour 0 / 0 / -2, Champagne City 0 / -2 / 0, Nova Legend -2 / -1 / 0, Masterdream -1 / -2 / -1, Love Mystery -1 / -1 / -2.
 - Lead: 06 Masterdream - the single cover pick in a race the sky score calls a cover-hit kind; the only BB3 + BB54 holder, BB67 and BB54 alone. Against: the most field-only negatives (10), pair tally 4 / 14.
 - Second: 02 Wilderness - the only D1 + BB3 holder, depth 5, 2 field-only negatives, best whole >= 80 net (+2).
+
+## Result (Eddie, 19 Nov 2026)
+1 Champagne City 20/1, 2 Nova Legend 10/11F, 3 Masterdream 16/1, 4 Wilderness 14/1, 5 City Tour 40/1, 6 Love Mystery 4/1, UR Fox Vardy 7/2.
+- Price group: outsider (20/1). Cover of eight: miss, -1 point (Masterdream 3rd). Version B: no bet.
+- Sky race score +2 said cover-hit kind: wrong.
+- Read: lead Masterdream 3rd, second Wilderness 4th - miss.
+- Winner: the most rules (12), BB1 + BB14 and BB1 + BB12 + BB7 alone (River Bray watch combinations), R11 Quaoar 94.5, joint-fewest field-only negatives (2), sky-on-natal >= 90 net 0 (joint best).
