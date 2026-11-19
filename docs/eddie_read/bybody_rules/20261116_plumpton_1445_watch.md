@@ -114,3 +114,7 @@ PU Anothermanicmonday 4/1. Non-runner Alan Bresil.
 Cover of eight: 2 picks, 0 won, −2 points (Golly Gosh 2nd, Jurassic Pet 6th).
 Lead Golly Gosh 2nd; second Jurassic Pet 6th. Winner Of Corse I Can: 11 rules, alone BB25 only; depth 5 (one of four at the top step);
 R11w Quaoar (H Regulus – H Quaoar RA 118.2379, same-body ratio 10.979062 on 11, 61.93); pair tally and sky-on-natal see the files.
+
+## Version B (back-filled 19 Nov 2026; fixed after this race was seen, not counted in the forward tally)
+- 02 Jurassic Pet: act80 0 -> dropped
+- 03 Golly Gosh: act80 0 -> dropped

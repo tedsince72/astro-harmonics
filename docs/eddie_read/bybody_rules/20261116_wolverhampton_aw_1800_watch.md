@@ -126,3 +126,9 @@ Bet: 1 point level stake at SP on each pick (fixed 18 Nov 2026).
 - Cover of eight (forward test 1): 4 picks, the winner among them (Splintered, BB69); level stakes 4 points staked, +122 (125 - 3).
 - Read: lead Laurel Crown 2nd, second Silent Wisdom 7th; winner Splintered = 12 rules, alone BB25, BB69, BB69b, the only positive
   sky-on-natal >= 90 net (+1); pair tally 0 / 6.
+
+## Version B (back-filled 19 Nov 2026; fixed after this race was seen, not counted in the forward tally)
+- 04 Laurel Crown: act80 0 -> dropped
+- 05 Silent Wisdom: act80 1 -> kept
+- 07 Splintered: act80 1 -> kept
+- 08 Vulcanist: act80 0 -> dropped

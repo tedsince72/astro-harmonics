@@ -4,7 +4,7 @@ runners holding any of them; by number of picks in the race; by number of the ei
 that hold no other of the eight) and overlaps; level stakes at SP (bb_fresh_sheet_profit.sp).
 --race <race> (19 Nov 2026, Eddie; the forward test): one new race, blind - reads only its rule file
 docs/eddie_read/bybody_rules/<race>_bbrules.json (or --dir), never a result; prints the picks, the items each holds, the
-number of picks and the overlap notes. Usage: python3 tools/scans/bb_cover8.py [--race <race> [--dir DIR]]"""
+number of picks and the overlap notes; version B (19 Nov 2026): picks with act80 >= 1 (bb_natal_filter). Usage: python3 tools/scans/bb_cover8.py [--race <race> [--dir DIR]]"""
 import sys, itertools, json
 ARGV = sys.argv[1:]  # read before the imports below (one of them resets sys.argv)
 sys.path.insert(0, 'tools'); sys.path.insert(0, 'tools/scans')
@@ -41,6 +41,21 @@ def one_race(race, d):
             if s & a and s & b and not (a == {'BB69'} and s == {'BB69'}):
                 print(f'    note: {txt}')
     print('\nBet: 1 point level stake at SP on each pick (fixed 18 Nov 2026).')
+    # Version B (fixed 19 Nov 2026, Eddie): the same picks kept only when act80 >= 1 (a natal pair >= 90 activated by a sky line
+    # >= 80 naming one of its bodies, no Moon; bb_scan_activation via bb_natal_filter.acts). Needs the race's _active.xlsx.
+    import os
+    if os.path.exists(f'reference/classic/race_batch_{race}_active.xlsx'):
+        import bb_natal_filter as NF
+        a80 = NF.acts(race, 80)
+        def act(r):
+            m = [v for n, v in a80.items() if n and NF.key(n) == NF.key(r)]
+            return m[0][0] if m else 0
+        keep = [(r, it) for r, it in picks if act(r) >= 1]
+        print(f'\nVersion B (cover of eight + act80 >= 1, fixed 19 Nov 2026): picks {len(keep)}' + ('  -> no bet' if not keep else ''))
+        for r, it in picks:
+            print(f'- {r}: act80 {act(r)}' + (' -> kept' if act(r) >= 1 else ' -> dropped'))
+    else:
+        print('\nVersion B: no _active.xlsx for this race, act80 not computed')
 
 
 def main():
