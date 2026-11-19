@@ -104,3 +104,11 @@ Natal activation (act80 / act90): Port Isaac the only holder (1 / 1); A2 at >= 9
 Sky-on-natal >= 90 net: Made For Mary 0, Carrigane −1, Ocean View −2, Avatar Jet −4, Spanish Darling / Port Isaac / Rose Warrior −5.
 Lead: 03 Carrigane (most rules, joint; only N4 and BB3 + BB54; Antares – Quaoar on a sky number). Second: 06 Port Isaac (alone at depth 5,
 7 rules alone, the only activated natal pair; worst sky-on-natal net).
+
+## Result (Eddie, 19 Nov 2026)
+1 Rose Warrior 18/1, 2 Port Isaac 14/1 (4½ l), 3 Made For Mary 9/1, 4 Avatar Jet 100/1, 5 Ocean View 50/1, 6 Carrigane 20/1,
+UR Spanish Darling 1/6F (unseated at the start). Non-runners For Her Glory, Montevallo.
+Cover of eight: no pick, no bet (versions A and B).
+Lead Carrigane 6th; second Port Isaac 2nd. Winner Rose Warrior: 8 rules, alone BB24, BB48; depth 3 (Venus); the only holder of BB63 + BB68
+and BB3 + BB63 + BB68 (watched combinations, now 36 / 9 / 6.1 and 29 / 9 / 4.7 over 60 result races, every rules file counted);
+sky-on-natal >= 90 net −5 (joint worst); no activated natal pair.
