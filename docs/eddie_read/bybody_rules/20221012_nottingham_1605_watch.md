@@ -109,3 +109,14 @@
 - Lead: 02 California Gem - cover pick, kept by B; most rules 22, alone on 8 (BB15, BB18, BB30, BB43, BB69, BB69b, BB70, BB71); K1d Vesta; full mirror M1 H Mars 92.77; D1 + BB3 Neptune; depth 5 Sun. Against: pair tally 0 / 4, >= 90 net -4.
 - Second: 05 Impeachment - cover pick (dropped by B); 15 rules, alone BB54, BB67; the only BB3 + BB54 and BB13 + BB48 + BB55 holder; depth 5 Mars.
 - Others: Love Affairs the only positive >= 90 net (+1) and best pair tally (3 / 2), 8 rules; Betweenthesticks full M1 H Quaoar 99.76; Storm Venture the sole worst >= 90 net.
+
+## Result (Eddie, 19 Nov 2026)
+
+1 California Gem 16/5, 2 Love Affairs 5/2F, 3 Storm Venture 10/1, 4 Impeachment 7/2, 5 Camila Vargas 25/1, 6 Betweenthesticks 3/1; 6 ran (Kuwait City non-runner).
+
+- Cover of eight: 3 picks, California Gem won 16/5 (+3.2), Storm Venture 3rd, Impeachment 4th (-2): +1.2 points.
+- Version B: California Gem won (+3.2), Storm Venture 3rd (-1): +2.2 - Version B's first back-fill winner. Version C: no pick.
+- Sky race score 0 (filter bets): right for A and for B.
+- Read: lead California Gem WON; second Impeachment 4th.
+- Lay check: favourite Love Affairs 5/2 (not short by the evens line) had the best nets, not the worst; finished 2nd. Sole worst >= 90 Storm Venture 3rd at 10/1.
+- Note (after the result): California Gem the full mirror M1 holder on H Mars won; Betweenthesticks full M1 on H Quaoar 6th.
