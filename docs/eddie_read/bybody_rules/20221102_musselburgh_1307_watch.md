@@ -113,3 +113,10 @@ Sole worst: >= 90 Native Fighter (−4); >= 80 Rickety Gate (−2); whole >= 80 
 - Lead: 05 Native Fighter - joint-most rules (11, with Rickety Gate), most held alone (6: BB1, BB1b, BB20, BB23, BB28, BB80); the only holder of BB23 + BB7 + BB9, D1 + BB3 (Haumea 4.444 / 44.444) and R11 (Neptune 11, 96.86); fewest field-only negatives (1); Version B pick. Against: the sole worst >= 90 net (−4), no pair tally positives, depth 2.
 - Second: 02 Blakeney Point - the only holder of BB63 + BB68 and BB3 + BB63 + BB68, alone at depth 5 (Chiron), best >= 90 net (0), 2 field-only negatives; not a cover pick.
 - Others: 06 Rickety Gate (11 rules, most pair tally positives 5, sole worst >= 80); 01 Cyclop (5 alone incl. BB67, 7 field-only negatives, the most); 03 That's A Given (cover pick by BB32, 5 rules); 04 Mullaghmore Wave (3 rules, R11w Mars 71.84).
+
+## Result (from Eddie, 19 Nov 2026)
+1 Rickety Gate 4/6F, 2 Cyclop 40/1, 3 Mullaghmore Wave 11/2, 4 That's A Given 18/1, 5 Native Fighter 13/2, 6 Blakeney Point 13/2; 6 ran.
+- Cover of eight: 2 picks, 0 won, -2. Version B: Native Fighter 5th, -1. Version C: no pick.
+- Sky race score v1 -1, v2 -1: the filter bet - wrong for A and B.
+- Lay: favourite Rickety Gate 4/6 (short-priced) was the sole worst >= 80 net (-2) and won; sole worst >= 90 Native Fighter 5th.
+- Read: lead Native Fighter 5th, second Blakeney Point last.
