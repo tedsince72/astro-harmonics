@@ -2121,3 +2121,13 @@ Impatient natal to natal (Ffos Las 15:37 8 Nov 2026, won 11/2; tools/scans/bb_sc
       - >= 5 at cross 50: 64 / 12 / 11.0.
       - The race's most: 13 of 59 (15.5 by chance).
       - At cross 80: >= 3 47 / 5 / 7.8.
+- The cover picks against the hub shape (Ffos Las 15:37 8 Nov 2026; Eddie, 19 Nov 2026: 'keep as notes').
+  - Fame And Fun (BB32, PU) has two fully lit pairs (natal >= 90, sky pair >= 50, cross >= 50), but they share no body, so no hub:
+    - H Jupiter – Chiron Dec 6.66667 (99.4); sky RA 122 (66.8); S Jupiter → H Chiron Dec φ⁵ (73.6).
+    - J Pluto – Vesta Dec 36 (92.0); sky RA 70.7 (78.8); S Pluto → J Vesta Dec φ⁸ (90.5).
+    - Also J Venus – Quaoar (cross only).
+  - Jack's Jury (BB77c, 3rd) has one fully lit pair, H Ketu – Pallas RA 22.2222 (96.5); sky Dec 33.3333 (53.6); S Pallas → H Ketu RA 64×φ (54.1).
+    - Ketu's second partner, Quaoar (H Ketu – Quaoar 5×φ 90.1, S Ketu → J Quaoar 28 95.2), has no sky pair.
+    - Four more pairs are lit by cross lines only (Pluto – Makemake, Mars – Juno, Jupiter – Vesta, Ketu – Quaoar).
+  - Impatient: two fully lit pairs on one body (Eris: Sun, Saturn).
+  - So the picks had the pieces; what they lacked was the shared body (Fame And Fun) or the second complete pair (Jack's Jury).
