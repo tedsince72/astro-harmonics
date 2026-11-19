@@ -1,0 +1,505 @@
+{
+ "race": "20221029_newmarket_1413",
+ "race_top": 5,
+ "at_top": [
+  "01 In These Shoes",
+  "04 Quantum Light",
+  "07 Monopolise"
+ ],
+ "per_step": {
+  "0": [
+   "01 In These Shoes",
+   "04 Quantum Light",
+   "05 Spioradalta",
+   "06 On The Pulse",
+   "07 Monopolise"
+  ],
+  "1": [
+   "01 In These Shoes",
+   "04 Quantum Light",
+   "05 Spioradalta",
+   "06 On The Pulse",
+   "07 Monopolise"
+  ],
+  "2": [
+   "01 In These Shoes",
+   "04 Quantum Light",
+   "05 Spioradalta",
+   "06 On The Pulse",
+   "07 Monopolise"
+  ],
+  "3": [
+   "01 In These Shoes",
+   "04 Quantum Light",
+   "05 Spioradalta",
+   "06 On The Pulse",
+   "07 Monopolise"
+  ],
+  "4": [
+   "01 In These Shoes",
+   "04 Quantum Light",
+   "07 Monopolise"
+  ],
+  "5": [
+   "01 In These Shoes",
+   "04 Quantum Light",
+   "07 Monopolise"
+  ]
+ },
+ "runners": [
+  {
+   "runner": "01 In These Shoes",
+   "top": 5,
+   "top_bodies": [
+    "Ceres",
+    "Juno"
+   ],
+   "n3": 3,
+   "bodies": [
+    {
+     "body": "Venus",
+     "depth": 0,
+     "cells": []
+    },
+    {
+     "body": "Mars",
+     "depth": 2,
+     "cells": [
+      "S Mars → H Mars RA 155.596067 155.556 ninth (86.98)",
+      "pair S Venus – S Chiron RA 155.671533 155.556 ninth (62.72)",
+      "Venus on X: S Venus → H Mars Dec 9.688545 6×φ golden (39.32)"
+     ]
+    },
+    {
+     "body": "Jupiter",
+     "depth": 0,
+     "cells": []
+    },
+    {
+     "body": "Saturn",
+     "depth": 0,
+     "cells": []
+    },
+    {
+     "body": "Ceres",
+     "depth": 5,
+     "cells": [
+      "S Ceres → J Ceres Dec 43.665601 27×φ golden (34.21)",
+      "pair S Makemake – S Transpluto RA 43.685999 27×φ golden (97.16)",
+      "Makemake on X: S Makemake → H Ceres Dec contraparallel 0.161575 cp contraparallel (46.14)",
+      "Transpluto on X: S Transpluto → J Ceres RA 166.392288 166.667 ninth (17.69)",
+      "repeat: S Jupiter – S Ceres RA 166.585494 166.667 ninth (75.65)",
+      "royal loop Fomalhaut: S Fomalhaut – S Ceres Dec 44.005304 44 whole (73.48); S Fomalhaut – S Ceres RA 177.603890 177.778 ninth (51.09) | H Fomalhaut – H Ceres RA 24.194776 (no family) [crossed ratio vs S Ceres → H Ceres Dec 36.091148 = 1.491692 3/2 fifth (58.46)]"
+     ]
+    },
+    {
+     "body": "Pallas",
+     "depth": 0,
+     "cells": []
+    },
+    {
+     "body": "Juno",
+     "depth": 5,
+     "cells": [
+      "S Juno → H Juno Dec 11.019420 11 whole (2.9)",
+      "pair S Quaoar – S Antares Dec 10.986018 11 whole (30.09)",
+      "Quaoar on X: S Quaoar → J Juno RA 121.337080 75×φ golden (52.26)",
+      "Antares on X: S Antares – S Juno Dec 14.452992 14.4444 ninth (70.41)",
+      "repeat: S Orcus → J Juno RA 121.351330 75×φ golden (96.24)",
+      "royal loop Regulus: S Regulus – S Juno Dec contraparallel 0.010653 cp contraparallel (96.45) | H Regulus – H Juno Dec 12.924636 8×φ golden (39.4) [crossed ratio vs S Juno → H Juno RA 141.595804 = 10.955496 11 1/11 cut (19.08)]"
+     ]
+    },
+    {
+     "body": "Chiron",
+     "depth": 0,
+     "cells": []
+    },
+    {
+     "body": "Eris",
+     "depth": 0,
+     "cells": []
+    },
+    {
+     "body": "Gonggong",
+     "depth": 3,
+     "cells": [
+      "S Gonggong → J Gonggong Dec 11.015797 11 whole (21.02)",
+      "pair S Quaoar – S Antares Dec 10.986018 11 whole (30.09)",
+      "Quaoar on X: S Quaoar → J Gonggong RA 51.780014 32×φ golden (90.97)",
+      "Antares on X: S Antares – S Gonggong RA 89.047088 88.8889 ninth (11.01)"
+     ]
+    },
+    {
+     "body": "Haumea",
+     "depth": 0,
+     "cells": []
+    },
+    {
+     "body": "Quaoar",
+     "depth": 0,
+     "cells": []
+    }
+   ]
+  },
+  {
+   "runner": "04 Quantum Light",
+   "top": 5,
+   "top_bodies": [
+    "Neptune"
+   ],
+   "n3": 1,
+   "bodies": [
+    {
+     "body": "Mars",
+     "depth": 2,
+     "cells": [
+      "S Mars → H Mars Dec contraparallel 0.263730 cp contraparallel (12.09)",
+      "pair S Saturn – S Aldebaran Dec contraparallel 0.061104 cp contraparallel (79.63)",
+      "Saturn on X: S Saturn → J Mars RA 141.222415 141.4 sqrt2 (6.22)"
+     ]
+    },
+    {
+     "body": "Uranus",
+     "depth": 0,
+     "cells": []
+    },
+    {
+     "body": "Neptune",
+     "depth": 5,
+     "cells": [
+      "S Neptune → J Neptune Dec 14.581075 9×φ golden (42.07)",
+      "pair S Ketu – S Eris Dec 14.564881 9×φ golden (92.05)",
+      "Ketu on X: S Ketu – S Neptune RA 133.124831 133.333 ninth (21.81); S Ketu → H Neptune Dec 9.740333 6×φ golden (0.84)",
+      "Eris on X: S Eris → H Neptune Dec 4.824548 3×φ golden (8.78)",
+      "repeat: S Venus → H Neptune RA 133.134465 133.333 ninth (25.42)",
+      "royal loop Regulus: S Regulus – S Neptune Dec 15.996506 16 whole (82.53) | H Regulus – H Neptune Dec 17.987045 18 whole (35.22); J Regulus – J Neptune Dec 30.578129 (no family) [crossed ratio vs S Neptune → J Neptune RA 45.622672 = 1.492003 3/2 fifth (60.02)]"
+     ]
+    },
+    {
+     "body": "Rahu",
+     "depth": 0,
+     "cells": []
+    },
+    {
+     "body": "Ketu",
+     "depth": 0,
+     "cells": []
+    },
+    {
+     "body": "Vesta",
+     "depth": 0,
+     "cells": []
+    },
+    {
+     "body": "Chiron",
+     "depth": 0,
+     "cells": []
+    },
+    {
+     "body": "Eris",
+     "depth": 0,
+     "cells": []
+    },
+    {
+     "body": "Gonggong",
+     "depth": 0,
+     "cells": []
+    },
+    {
+     "body": "Haumea",
+     "depth": 0,
+     "cells": []
+    },
+    {
+     "body": "Makemake",
+     "depth": 0,
+     "cells": []
+    },
+    {
+     "body": "Quaoar",
+     "depth": 0,
+     "cells": []
+    },
+    {
+     "body": "Transpluto",
+     "depth": 0,
+     "cells": []
+    }
+   ]
+  },
+  {
+   "runner": "05 Spioradalta",
+   "top": 3,
+   "top_bodies": [
+    "Ketu"
+   ],
+   "n3": 1,
+   "bodies": [
+    {
+     "body": "Sun",
+     "depth": 0,
+     "cells": []
+    },
+    {
+     "body": "Mercury",
+     "depth": 0,
+     "cells": []
+    },
+    {
+     "body": "Mars",
+     "depth": 2,
+     "cells": [
+      "S Mars → H Mars Dec contraparallel 0.164082 cp contraparallel (45.31)",
+      "pair S Juno – S Regulus Dec contraparallel 0.010653 cp contraparallel (96.45)",
+      "Juno on X: S Juno → H Mars RA 61.804764 100φ^-1 phi power (98.53)"
+     ]
+    },
+    {
+     "body": "Rahu",
+     "depth": 2,
+     "cells": [
+      "S Rahu → H Rahu RA 55.561173 55.5556 ninth (94.94)",
+      "pair S Mercury – S Regulus RA 55.539784 55.5556 ninth (85.81)",
+      "Mercury on X: S Mercury – S Rahu RA 167.001676 167 whole (91.62)"
+     ]
+    },
+    {
+     "body": "Ketu",
+     "depth": 3,
+     "cells": [
+      "S Ketu → H Ketu RA 55.561173 55.5556 ninth (94.94)",
+      "pair S Mercury – S Regulus RA 55.539784 55.5556 ninth (85.81)",
+      "Mercury on X: S Mercury – S Ketu RA 12.998324 13 whole (91.62); S Mercury → H Ketu RA 68.559497 10φ⁴ phi power (82.03); S Mercury → J Ketu Dec 13.342263 13.3333 ninth (66.51)",
+      "Regulus on X: S Regulus – S Ketu RA 68.538108 10φ⁴ phi power (97.17)"
+     ]
+    },
+    {
+     "body": "Ceres",
+     "depth": 2,
+     "cells": [
+      "S Ceres → H Ceres Dec 37.193822 23×φ golden (35.31)",
+      "pair S Sun – S Mars Dec 37.194544 23×φ golden (37.54)",
+      "Mars on X: S Mars → J Ceres Dec contraparallel 0.138471 cp contraparallel (53.84)"
+     ]
+    },
+    {
+     "body": "Pallas",
+     "depth": 0,
+     "cells": []
+    },
+    {
+     "body": "Chiron",
+     "depth": 2,
+     "cells": [
+      "S Chiron → H Chiron RA 8.890489 8.88889 ninth (91)",
+      "pair S Mercury – S Eris Dec 8.894013 8.88889 ninth (71.18)",
+      "Mercury on X: S Mercury → J Chiron RA 155.747521 155.556 ninth (38.3)"
+     ]
+    },
+    {
+     "body": "Eris",
+     "depth": 0,
+     "cells": []
+    },
+    {
+     "body": "Gonggong",
+     "depth": 0,
+     "cells": []
+    },
+    {
+     "body": "Haumea",
+     "depth": 0,
+     "cells": []
+    },
+    {
+     "body": "Makemake",
+     "depth": 0,
+     "cells": []
+    },
+    {
+     "body": "Quaoar",
+     "depth": 0,
+     "cells": []
+    },
+    {
+     "body": "Transpluto",
+     "depth": 0,
+     "cells": []
+    }
+   ]
+  },
+  {
+   "runner": "06 On The Pulse",
+   "top": 3,
+   "top_bodies": [
+    "Ceres"
+   ],
+   "n3": 1,
+   "bodies": [
+    {
+     "body": "Mercury",
+     "depth": 0,
+     "cells": []
+    },
+    {
+     "body": "Venus",
+     "depth": 0,
+     "cells": []
+    },
+    {
+     "body": "Mars",
+     "depth": 2,
+     "cells": [
+      "S Mars → H Mars Dec contraparallel 0.197299 cp contraparallel (34.23)",
+      "pair S Mercury – S Transpluto Dec contraparallel 0.119075 cp contraparallel (60.31)",
+      "Transpluto on X: S Transpluto → H Mars RA 111.266419 111.111 ninth (30.11)"
+     ]
+    },
+    {
+     "body": "Ceres",
+     "depth": 3,
+     "cells": [
+      "S Ceres → H Ceres RA 141.332343 141.4 sqrt2 (58.04)",
+      "pair S Juno – S Makemake RA 141.410123 141.4 sqrt2 (94.7)",
+      "Juno on X: S Juno → H Ceres Dec 12.017230 12 whole (13.85)",
+      "Makemake on X: S Makemake → H Ceres RA 109.013468 109 whole (32.66)"
+     ]
+    },
+    {
+     "body": "Eris",
+     "depth": 0,
+     "cells": []
+    },
+    {
+     "body": "Gonggong",
+     "depth": 2,
+     "cells": [
+      "S Gonggong → J Gonggong Dec 10.999093 11 whole (95.47)",
+      "pair S Quaoar – S Antares Dec 10.986018 11 whole (30.09)",
+      "Antares on X: S Antares – S Gonggong RA 89.047088 88.8889 ninth (11.01)"
+     ]
+    },
+    {
+     "body": "Haumea",
+     "depth": 0,
+     "cells": []
+    },
+    {
+     "body": "Makemake",
+     "depth": 0,
+     "cells": []
+    },
+    {
+     "body": "Quaoar",
+     "depth": 0,
+     "cells": []
+    },
+    {
+     "body": "Transpluto",
+     "depth": 2,
+     "cells": [
+      "S Transpluto → J Transpluto RA 14.553268 9×φ golden (72.11)",
+      "pair S Ketu – S Eris Dec 14.564881 9×φ golden (92.05)",
+      "Eris on X: S Eris → H Transpluto RA 127.804900 79×φ golden (38.93)"
+     ]
+    }
+   ]
+  },
+  {
+   "runner": "07 Monopolise",
+   "top": 5,
+   "top_bodies": [
+    "Uranus",
+    "Vesta",
+    "Sedna"
+   ],
+   "n3": 4,
+   "bodies": [
+    {
+     "body": "Sun",
+     "depth": 0,
+     "cells": []
+    },
+    {
+     "body": "Saturn",
+     "depth": 0,
+     "cells": []
+    },
+    {
+     "body": "Uranus",
+     "depth": 5,
+     "cells": [
+      "S Uranus → J Uranus Dec 29.987838 30 whole (39.19)",
+      "pair S Pluto – S Chiron Dec 29.989113 30 whole (45.56)",
+      "Pluto on X: S Pluto → J Uranus Dec 9.709597 6×φ golden (95.7)",
+      "Chiron on X: S Chiron – S Uranus Dec 9.708322 6×φ golden (99.64); S Chiron → J Uranus RA 42.352084 10φ³ phi power (86.47)",
+      "repeat: S Sun – S Uranus Dec 30.011563 30 whole (42.19)",
+      "royal loop Aldebaran: S Aldebaran – S Uranus Dec 0.054053 conj conj (81.98); S Aldebaran – S Uranus RA 24.301642 15×φ golden (3.91) | H Aldebaran – H Uranus Dec 3.228093 2×φ golden (75.39) [same-body ratio vs S Uranus → H Uranus 3.283977 = 1.017312 1 unison (13.44)]; J Aldebaran – J Uranus Dec 29.933189 (no family) [same-body ratio vs S Uranus → J Uranus 29.987838 = 1.001826 1 unison (90.87)]",
+      "royal loop Antares: S Antares – S Uranus Dec 42.994792 43 whole (73.96) | H Antares – H Uranus RA 147.016462 147 whole (17.69); J Antares – J Uranus Dec 13.007050 13 whole (64.75)"
+     ]
+    },
+    {
+     "body": "Neptune",
+     "depth": 0,
+     "cells": []
+    },
+    {
+     "body": "Juno",
+     "depth": 0,
+     "cells": []
+    },
+    {
+     "body": "Vesta",
+     "depth": 5,
+     "cells": [
+      "S Vesta → H Vesta Dec contraparallel 0.088330 cp contraparallel (70.56)",
+      "pair S Orcus – S Regulus Dec contraparallel 0.113567 cp contraparallel (62.14)",
+      "Orcus on X: S Orcus – S Vesta Dec 8.985481 9 whole (27.41)",
+      "Regulus on X: S Regulus – S Vesta RA 177.844101 177.778 ninth (81.35)",
+      "repeat: J Antares – J Vesta RA 178.098422 177.778 ninth (9.82)",
+      "second loop: S Vesta → H Vesta Dec contraparallel 0.088330 cp contraparallel (70.56) | pair S Mercury – S Transpluto Dec contraparallel 0.119075 cp contraparallel (60.31) | Mercury on X: S Mercury – S Vesta RA 122.304317 122.222 ninth (66.42); S Mercury → H Vesta RA 133.427526 133.333 ninth (64.68) | Transpluto on X: S Transpluto → J Vesta RA 89.996138 90 whole (80.69)",
+      "royal loop Regulus: S Regulus – S Vesta RA 177.844101 177.778 ninth (81.35) | H Regulus – H Vesta RA 77.891938 77.7778 ninth (26.61)"
+     ]
+    },
+    {
+     "body": "Eris",
+     "depth": 0,
+     "cells": []
+    },
+    {
+     "body": "Gonggong",
+     "depth": 0,
+     "cells": []
+    },
+    {
+     "body": "Haumea",
+     "depth": 4,
+     "cells": [
+      "S Haumea → H Haumea Dec 1.891034 1.88889 ninth (43.22)",
+      "pair S Mercury – S Juno Dec 1.887389 1.88889 ninth (60.29)",
+      "Mercury on X: S Mercury → J Haumea Dec 31.013803 31 whole (30.99)",
+      "Juno on X: S Juno → J Haumea RA 141.519667 141.4 sqrt2 (53.66)",
+      "repeat: S Uranus – S Haumea Dec 1.890070 1.88889 ninth (68.74)"
+     ]
+    },
+    {
+     "body": "Quaoar",
+     "depth": 0,
+     "cells": []
+    },
+    {
+     "body": "Sedna",
+     "depth": 5,
+     "cells": [
+      "S Sedna → H Sedna RA 2.012059 2 whole (39.71)",
+      "pair S Sun – S Quaoar Dec 1.997211 2 whole (86.06)",
+      "Sun on X: S Sun → H Sedna RA 155.805470 155.556 ninth (19.67)",
+      "Quaoar on X: S Quaoar – S Sedna RA 144.208970 144.444 ninth (18.49)",
+      "repeat: S Venus – S Sedna RA 155.736746 155.556 ninth (41.76)",
+      "second loop: S Sedna → H Sedna RA 2.012059 2 whole (39.71) | pair S Mercury – S Orcus Dec 1.990303 2 whole (51.51) | Mercury on X: S Mercury → J Sedna Dec 15.571814 15.5556 ninth (47.74) | Orcus on X: S Orcus → J Sedna RA 110.757435 10φ⁵ phi power (13.28)"
+     ]
+    }
+   ]
+  }
+ ]
+}
