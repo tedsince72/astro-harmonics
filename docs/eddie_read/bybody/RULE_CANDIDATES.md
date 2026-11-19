@@ -2108,3 +2108,16 @@ Impatient natal to natal (Ffos Las 15:37 8 Nov 2026, won 11/2; tools/scans/bb_sc
     - No sky: H8 260 / 47 / 44.9.
   - Partly drops one leg, two partners: H5 (cross any) 30 / 7 / 5.5, H6 (sky any) 29 / 5 / 4.5, H9 (three partners, natal 80) 31 / 6 / 5.3.
   - Reading: the edge needs all of: two partners, natal >= 90, and the sky lighting both pairs. Any one leg dropped goes to chance.
+- H1 on the watch list (Eddie, 19 Nov 2026): section 'Hub watch H1' in tools/scans/bb_watch_race.py (reads the race's _active.xlsx).
+- Impatient's other lit natal pairs (natal >= 90 with the sky pair >= 50 or a sky line joining the two bodies >= 50), 19 Nov 2026:
+  - H Uranus – Sedna Dec 1.4443 1.44444 (94.0): S Uranus → H Sedna Dec 13.3333 (83.7), S Sedna → J Uranus RA 10φ⁵ (77.3). No sky pair.
+  - H Orcus – Sedna Dec 17.7977 11×φ (97.9): S Sedna → J Orcus RA 74.4299 46×φ (98.8). No sky pair.
+  - J Rahu – Sedna Dec 2.6182 φ² (95.4): sky S Rahu – S Sedna RA 93.8309 58×φ (53.5). No cross line.
+  - J Pluto – Gonggong Dec 8.0871 5×φ (90.6): S Gonggong → H Pluto RA 46.9234 29×φ (98.8), a positive pair in the tally. No sky pair.
+  - Sedna is a second hub (Uranus, Orcus, Rahu), but not H1: its pairs are lit by the sky pair or a cross line, never both.
+  - All five of his cross-lit pairs are crossed: natal pair in one chart, sky line onto the other chart.
+    - Field: Impatient 5, Galway Reel 4, Jack's Jury 3, Slim Marvel 2, Minella Blueway 1, Fame And Fun 0.
+    - Over 59 result races (tools/scans/bb_scan_crossed_activation.py -> crossed_activation_20261119.md) the count is at chance:
+      - >= 5 at cross 50: 64 / 12 / 11.0.
+      - The race's most: 13 of 59 (15.5 by chance).
+      - At cross 80: >= 3 47 / 5 / 7.8.

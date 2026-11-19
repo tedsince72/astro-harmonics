@@ -262,5 +262,21 @@ for run, bodies in data.items():
         if k in c:
             bm.append(f"- {run} [{'A+B+C' if k == 'ABC' else 'A+' + k[1]}]: {', '.join(c[k])}"); break
 out += bm or ['- none']
+import bb_scan_eris_hub as EH
+out += ['', '## Hub watch H1 (Impatient Eris: Sun, Saturn; 19 Nov 2026, Eddie "watch list"; one hub body with >= 2 partners, each with '
+        'a natal pair >= 90 in a chart, the sky pair >= 50 and a sky line joining the two bodies across sky and natal >= 50, number '
+        'families, numbers need not match; 8 / 3 / 1.3 over 59 result races, chosen after the result; tools/scans/bb_scan_eris_hub.py)']
+_p = f'reference/classic/race_batch_{race}_active.xlsx'
+hh = []
+if os.path.exists(_p):
+    _rn, _tt, _tp = EH.B.load(_p)
+    _tr = EH.B.ra_positions(EH.openpyxl.load_workbook(_p, read_only=True)['TRANS_POS'])
+    for _cl, _r in sorted(_rn.items()):
+        _hb = EH.holds(EH.runner_pairs(_r, _tp, _tr), 2, 90, 50, 50)
+        if _hb:
+            hh.append(f"- {_r['name'].get('H')}: " + '; '.join(f"{h} ({', '.join(p)})" for h, p in sorted(_hb.items())))
+    out += hh or ['- none']
+else:
+    out += ['- no _active.xlsx']
 txt = '\n'.join(out) + '\n'
 open(f'docs/eddie_read/bybody_rules/{race}_watch.md', 'w').write(txt); print(txt)
