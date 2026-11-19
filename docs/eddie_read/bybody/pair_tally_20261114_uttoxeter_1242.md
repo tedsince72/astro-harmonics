@@ -1,0 +1,83 @@
+# 20261114_uttoxeter_1242: pairs >= 80.0, labels from the other 59 result races
+
+## 01 Spanish Darling: 2 positive, 7 negative (of 71 pairs)
+  + S–J S Jupiter → J Quaoar: 15 / 6 / 2.4
+  + S–J S Chiron → J Vesta: 14 / 5 / 2.4
+  − S–J S Jupiter → J Transpluto: 39 / 2 / 6.6
+  − S–J S Haumea → J Eris: 35 / 1 / 6.1
+  − S–J S Haumea → J Quaoar: 20 / 1 / 3.1
+  − S–H S Chiron → H Sedna: 18 / 0 / 3.1
+  − S–J S Ceres → J Rahu: 18 / 0 / 3.0
+  − S–H S Orcus → H Quaoar: 16 / 0 / 2.2
+  − S–S S Mars – S Rahu: 10 / 0 / 1.6
+## 02 Avatar Jet: 2 positive, 12 negative (of 75 pairs)
+  + S–H S Ceres → H Ketu: 20 / 7 / 3.3
+  + S–J S Mercury → J Vesta: 17 / 5 / 2.4
+  − S–H S Mercury → H Rahu: 22 / 1 / 3.9
+  − S–H S Chiron → H Venus: 21 / 1 / 3.7
+  − S–H S Sun → H Pluto: 20 / 1 / 3.7
+  − S–H S Transpluto → H Venus: 23 / 1 / 3.6
+  − S–J S Juno → J Pallas: 18 / 0 / 3.2
+  − S–J S Mercury → J Haumea: 18 / 0 / 3.1
+  − S–J S Quaoar → J Ceres: 17 / 0 / 3.0
+  − S–J S Saturn → J Ceres: 18 / 0 / 2.9
+  − S–J S Transpluto → J Vesta: 17 / 0 / 2.9
+  − S–J S Saturn → J Mercury: 15 / 0 / 2.3
+  − S–H S Vesta → H Venus: 12 / 0 / 2.1
+  − S–S S Mars – S Rahu: 10 / 0 / 1.6
+## 03 Carrigane: 3 positive, 10 negative (of 70 pairs)
+  + S–J S Mars → J Pallas: 23 / 10 / 4.0
+  + S–H S Juno → H Sedna: 19 / 8 / 3.2
+  + S–H S Pallas → H Jupiter: 20 / 7 / 3.3
+  − S–J S Jupiter → J Transpluto: 39 / 2 / 6.6
+  − S–J S Sedna → J Uranus: 24 / 1 / 4.4
+  − S–J S Makemake → J Saturn: 24 / 1 / 4.2
+  − S–H S Quaoar → H Juno: 24 / 1 / 4.2
+  − S–H S Chiron → H Ketu: 19 / 1 / 3.6
+  − S–J S Sedna → J Sedna: 21 / 1 / 3.5
+  − S–H S Orcus → H Venus: 19 / 1 / 3.3
+  − S–H S Rahu → H Juno: 15 / 0 / 2.5
+  − S–H S Vesta → H Venus: 12 / 0 / 2.1
+  − S–S S Mars – S Rahu: 10 / 0 / 1.6
+## 05 Ocean View: 1 positive, 6 negative (of 72 pairs)
+  + S–J S Mars → J Neptune: 15 / 6 / 2.5
+  − S–H S Jupiter → H Sun: 22 / 1 / 4.1
+  − S–J S Chiron → J Mars: 22 / 1 / 4.0
+  − S–J S Haumea → J Juno: 21 / 0 / 3.3
+  − S–H S Makemake → H Haumea: 18 / 1 / 3.2
+  − S–J S Juno → J Neptune: 15 / 0 / 2.8
+  − S–S S Mars – S Rahu: 10 / 0 / 1.6
+## 06 Port Isaac: 3 positive, 7 negative (of 77 pairs)
+  + S–H S Saturn → H Eris: 25 / 8 / 3.9
+  + S–H S Jupiter → H Saturn: 14 / 6 / 2.4
+  + S–H S Sedna → H Sedna: 8 / 3 / 1.4
+  − S–J S Uranus → J Quaoar: 22 / 1 / 3.6
+  − S–J S Ketu → J Orcus: 20 / 1 / 3.4
+  − S–J S Vesta → J Uranus: 20 / 1 / 3.2
+  − S–J S Sun → J Rahu: 16 / 1 / 3.0
+  − S–H S Uranus → H Ceres: 17 / 0 / 3.0
+  − S–H S Haumea → H Uranus: 17 / 0 / 2.3
+  − S–S S Mars – S Rahu: 10 / 0 / 1.6
+## 07 Rose Warrior: 2 positive, 7 negative (of 70 pairs)
+  + S–J S Pluto → J Ceres: 22 / 8 / 3.5
+  + S–J S Eris → J Transpluto: 23 / 8 / 3.8
+  − S–J S Jupiter → J Transpluto: 39 / 2 / 6.6
+  − S–J S Sedna → J Sedna: 21 / 1 / 3.5
+  − S–H S Orcus → H Venus: 19 / 1 / 3.3
+  − S–H S Jupiter → H Pallas: 18 / 1 / 3.3
+  − S–H S Jupiter → H Rahu: 17 / 1 / 3.0
+  − S–J S Ketu → J Chiron: 14 / 0 / 2.2
+  − S–H S Sun → H Ceres: 12 / 0 / 2.0
+## 09 Made For Mary: 1 positive, 11 negative (of 73 pairs)
+  + S–H S Saturn → H Haumea: 24 / 8 / 4.0
+  − S–J S Jupiter → J Transpluto: 39 / 2 / 6.6
+  − S–H S Pluto → H Juno: 24 / 0 / 4.0
+  − S–J S Chiron → J Mars: 22 / 1 / 4.0
+  − S–H S Mars → H Sedna: 26 / 1 / 3.6
+  − S–H S Pallas → H Ceres: 18 / 1 / 3.2
+  − S–J S Transpluto → J Jupiter: 19 / 1 / 3.2
+  − S–J S Saturn → J Ceres: 18 / 0 / 2.9
+  − S–J S Transpluto → J Vesta: 17 / 0 / 2.9
+  − S–J S Ketu → J Mercury: 14 / 0 / 2.4
+  − S–J S Sedna → J Haumea: 14 / 0 / 2.2
+  − S–S S Mars – S Rahu: 10 / 0 / 1.6
