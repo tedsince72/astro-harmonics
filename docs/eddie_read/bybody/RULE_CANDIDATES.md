@@ -2093,3 +2093,18 @@ Impatient natal to natal (Ffos Las 15:37 8 Nov 2026, won 11/2; tools/scans/bb_sc
     - 163.4169 − 1.5052 = 161.9117 and 17.9943 − 4.0028 = 13.9915.
     - Jockey side: Eris has moved almost exactly 4 (whole) since his birth, so a sky line to S Eris on a whole number lands on a whole number on J Eris too (18 -> 14).
     - Horse side: 1.5052 is not φ, so 101×φ -> 100φ both scoring is partly luck of the tolerances.
+- Hub scan (19 Nov 2026, Eddie: 'test this and looser versions'; tools/scans/bb_scan_eris_hub.py -> docs/eddie_read/bybody/eris_hub_20261119.md;
+  59 result races with an _active.xlsx; chosen after the result).
+  - H1 (one hub body with >= 2 partners, each: natal pair >= 90 in a chart, sky pair >= 50, a cross sky line >= 50): 8 picks, 3 won, 1.3 by chance.
+    - Winners: Ishvara (Transpluto: Jupiter, Neptune), Pixie Loc (Sedna: Venus, Makemake), Impatient (Eris: Sun, Saturn).
+    - Without Impatient's race: 7 / 2 / 1.1.
+    - Losers: Indie Angel, Friendly Soul, Birds Of Prey, Thomas Darby, Port Isaac (2nd at 14/1).
+  - Tighter: H1e (sky >= 60) 7 / 3 / 1.1. Looser: H1c (sky, cross >= 40) 12 / 4 / 1.9, adding Peak Time.
+  - At or under chance:
+    - Natal looser: H1d (natal >= 85) 19 / 3 / 3.2, H1b (natal >= 80) 37 / 4 / 6.5.
+    - One partner: H2 169 / 29 / 29.5.
+    - Natal 80 with any sky and cross: H3 206 / 38 / 36.0, H4 337 / 59 / 58.1.
+    - No natal: H7 343 / 59 / 59.0.
+    - No sky: H8 260 / 47 / 44.9.
+  - Partly drops one leg, two partners: H5 (cross any) 30 / 7 / 5.5, H6 (sky any) 29 / 5 / 4.5, H9 (three partners, natal 80) 31 / 6 / 5.3.
+  - Reading: the edge needs all of: two partners, natal >= 90, and the sky lighting both pairs. Any one leg dropped goes to chance.
