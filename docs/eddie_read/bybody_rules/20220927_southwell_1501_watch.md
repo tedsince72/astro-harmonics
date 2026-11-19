@@ -105,3 +105,14 @@
   back-fill winners had M1 on Juno, noted only); 04 Ten Past Midnight 3 (depth 3 on three bodies, P1); 05 Kingston King 3 (alone BB64);
   02 Dindin 4; 06 Goldrapper 4 (A0 / A1 Gonggong Fomalhaut); Kingston King and Goldrapper 6 field-only negatives each, the most.
 - H1 hub: none.
+
+## Result (Eddie, 19 Nov 2026)
+
+1 Between The Waters 8/1, 2 Kingston King 28/1, 3 Dindin 2/1, 4 Cape Robin 12/1, 5 Goldrapper 6/1, 6 King Cnut 100/1, PU Ten Past Midnight 5/4F; 7 ran (non-runner Fantomas).
+
+- Cover of eight: 3 picks, Between The Waters won 8/1 (+8), Cape Robin 4th (−1), King Cnut 6th (−1): +6 points.
+- Version B: King Cnut 6th, −1. Version C: no pick.
+- Sky race score +4 (cover-hit kind): right for A, wrong for B.
+- Read: lead King Cnut 6th, second Cape Robin 4th - miss.
+- Winner (mid price): 7 rules, alone on BB4, BB9, BB60, BB79, BB81; depth 3; the only full mirror M1 holder (H Quaoar 99.12).
+- Note (chosen after the results, not built): full M1 holders in the 8 back-fill races: Greycious Anna won, Cremant 2nd, Catchmeifyoucan won, Between The Waters won (3 of 4).
