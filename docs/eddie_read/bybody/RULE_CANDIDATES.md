@@ -2047,4 +2047,19 @@ tools/scans/bb_natal_filter.py -> docs/eddie_read/bybody/natal_filter_20261119.m
 - Sky-on-natal >= 90: 0 positive, 5 negative (S Ceres → Rahu, S Jupiter → Transpluto, S Mercury → Rahu, S Orcus → Quaoar, S Uranus → Gonggong), net −5. The winner Rose Warrior and Port Isaac (2nd) were also −5.
 - Outer bodies whole >= 80 on natal Uranus (the favourites' pattern from Coltrane): none in this race.
 - Of his five field-only negatives, three are on the jockey's chart (Kielan Woods) and two on the horse's.
-- He unseated at the start, so the race did not test him.
+- He unseated at the start. Eddie (19 Nov 2026): 'that was the test!!!' - the unseat is the result; it counts as a loss like any other.
+
+Field-only negatives over every result race (tools/scans/bb_scan_field_only_negatives.py -> docs/eddie_read/bybody/field_only_negatives_20261119.md;
+pair tally >= 80, each race's labels from the other races; picks / won / chance):
+- All runners with field-only negatives:
+  - >= 3: 276 / 41 / 47.5
+  - >= 4: 212 / 31 / 37.9
+  - >= 5: 161 / 21 / 29.0 (0.72 of chance)
+- The runner with the most field-only negatives in its race won 10 of 60 (13.5 by chance).
+- Favourites on file:
+  - 50; only 1 won (Le Beau Garcon, 9/4F).
+  - Every one held at least 1 field-only negative.
+  - With >= 5: 24 / 1 / 4.5.
+  - The favourite figure is biased: the 60 races were collected mostly because a priced horse won.
+- Field-only positives for comparison: >= 1 286 / 52 / 49.4, >= 4 36 / 7 / 6.5 (at chance).
+Reading: many field-only negatives leans the right way as a 'against' signal (about 0.7 of chance at >= 5), but nearly every runner has some. Not on watch; Eddie to say.
