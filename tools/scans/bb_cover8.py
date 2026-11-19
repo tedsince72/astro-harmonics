@@ -56,6 +56,12 @@ def one_race(race, d):
             print(f'- {r}: act80 {act(r)}' + (' -> kept' if act(r) >= 1 else ' -> dropped'))
     else:
         print('\nVersion B: no _active.xlsx for this race, act80 not computed')
+    # Version C (fixed 19 Nov 2026, Eddie: 'lets just go with a straight BB1 + BB12 + BB7 additional'): every runner holding BB1, BB12
+    # and BB7 (as built, watch-only cases not counted), no filter; 1 point level stake at SP each; tallied from the next race on.
+    vc = [r for r in J['runners'] if {'BB1', 'BB12', 'BB7'} <= held[r]]
+    print(f'\nVersion C (BB1 + BB12 + BB7, fixed 19 Nov 2026): picks {len(vc)}' + ('  -> no bet' if not vc else ''))
+    for r in vc:
+        print(f'- {r}')
     # Sky race score v1 (fixed 19 Nov 2026, Eddie): recorded blind on every race; <= -2 = the kind of race where the cover missed.
     if os.path.exists(f'reference/classic/race_batch_{race}_active.xlsx'):
         import bb_sky_race_score as SS
