@@ -2080,3 +2080,9 @@ Impatient natal to natal (Ffos Las 15:37 8 Nov 2026, won 11/2; tools/scans/bb_sc
   - 22.2222 = 2 × 11.1111, same plane and family: the sky-to-natal line doubles the jockey's natal line.
   - Also S Sun → H Eris RA 161.9117 100φ (55.4), S Sun → J Eris Dec 9.0120 9 (39.8). Jack's Jury has S Eris → H Sun RA conj (51.9) and S Sun → H Eris Dec 15 (48.9), but no natal pair.
   - Shape: one body pair X – Y lit four ways (sky pair, S Y → natal X, natal X – Y in the other chart, ×2 on the same family). Not scanned yet.
+- Eddie's line (19 Nov 2026): Impatient Saturn - Eris.
+  - S Eris – S Saturn RA 17.9943 18 (71.6) is the same for every runner.
+  - Natal H Saturn – H Eris RA 113.2626 70×φ (99.2) and Dec 20.0030 20 (84.8): both planes, Impatient only. Others: Fame And Fun H RA 75×φ (34.7), Jack's Jury J RA φ⁷ (46.8).
+  - S Saturn → J Eris RA 13.9915 14 (57.4). Others: Minella Blueway S Saturn → H Eris Dec 3 (76.9), Fame And Fun S Saturn → J Eris Dec 7 (70.4).
+  - With Sun - Eris, Eris is the hub: for both Sun and Saturn the sky pair scores, the natal pair scores >= 90 in one chart, and a sky line joins the two bodies across sky and natal.
+  - The numbers differ: 101×φ / 22.2222 / 11.1111 for Sun, 18 / 70×φ / 20 / 14 for Saturn.
