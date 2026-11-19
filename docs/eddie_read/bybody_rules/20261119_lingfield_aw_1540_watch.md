@@ -123,3 +123,14 @@
 - Lead: Shalaa Asker - cover pick (BB79), dropped by B; most rules (23, 6 alone incl. BB1, BB59, BB64, BB66, BB72); the only BB1 + BB14 and BB1 + BB14 + BB68 holder; P2 / P3; jockey Antares – Rahu 10φ⁵ (98.0) with a sky line on it (natal pair watch); H1 hub Pallas; depth 5; against: sole worst whole >= 80.
 - Second: Solar Invincible - cover and Version B pick; the only BB3 + BB63 + BB68 holder; BB3 + BB54 (with Got The Booty); depth 5 (Rahu); against: 5 field-only negatives, pair tally 0 / 7.
 - Others: Got The Booty (cover / B pick; H Pallas – Juno 22.2222 99.1 with a sky line, on watch; best >= 90 net; 5 field-only negatives); Nogo's Dream (cover pick by three items, BB77b / c alone, JC-type Jupiter lines, Jupiter loop A / B / D); Magna (full mirror M1 / M2 / M5 J Mars with Juno; BB10 + BB7 + BB9, BB65, BB81 alone); Level Up (sole worst >= 90 and >= 80; 5 bodies at 3+; P2 / P3); Roman Spring (A0 / A1 Regulus on Saturn 3/2 98.88).
+
+## Result (Eddie, 19 Nov 2026)
+1 Nogo's Dream 15/8F, 2 Solar Invincible 5/1 (nk), 3 Shalaa Asker 14/1 (hd), 4 Got The Booty 2/1, 5 Magna 9/1, 6 Level Up 16/1, 7 Roman Spring 12/1. 7 ran (Cayman Tai, Mick's Spirit non-runners).
+- Cover of eight: 4 picks, 1 won (Nogo's Dream 15/8) → −1.13 points.
+- Version B: Got The Booty 4th, Solar Invincible 2nd → −2.
+- Version C: no pick.
+- Version D (cover pick + fast sky-natal triangle >= 80; fixed after this read, holders named before the result): Nogo's Dream won → +1.88.
+- Sky race score −1 (bets): right for A, wrong for B.
+- Favourite watch: favourite Nogo's Dream won; W1 yes - right; W2 yes (2 lines) - right.
+- Read: lead Shalaa Asker 3rd, second Solar Invincible 2nd; the winner was under "others". Lay check: sole worst >= 90 / >= 80 Level Up 6th.
+- Sky Regulus apexes 3 (no 7+ warning); favourite won.
