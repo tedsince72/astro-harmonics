@@ -120,3 +120,11 @@
 - L'Empire Vert H1 (Uranus hub):
   - Pallas: J Uranus – J Pallas RA 76 (95.6); sky S Uranus – S Pallas RA 47 (78.6); S Uranus → J Pallas Dec 16 (62.6).
   - Transpluto: H Uranus – H Transpluto Dec 1.88889 (98.5); sky Dec φ⁵ (55.4); S Transpluto → H Uranus Dec 3 (92.9).
+
+## Result (Eddie, 19 Nov 2026)
+1 Sage Green 12/1, 2 Two To Tango 13/2, 3 Great Dance 100/30F, 4 My Friend Sean 13/2, F Rangatira Jack (1st), F Mr McWhinny (last, 1 length down in 2nd), PU L'Empire Vert 18/1 (bled), PU Karton Plein 4/1.
+- Cover: Sage Green won, Two To Tango 2nd, Mr McWhinny fell: +12 − 2 = +10 points. Version B (Sage Green only): +12.
+- Read: lead L'Empire Vert PU (bled); second Two To Tango 2nd.
+- The cover overlap BB13 + BB80 with BB79 / BB3 + BB12 + BB53 (4 of 4 in-sample): Sage Green, 5 of 5.
+- H1 first forward race: 1 pick (L'Empire Vert), 0 won.
+- Field-only negatives: the winner had the most (6); the runner with the fewest (L'Empire Vert, 0) bled.
