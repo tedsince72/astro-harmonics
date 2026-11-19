@@ -1,8 +1,12 @@
 """The eight cover items (18 Nov 2026, Eddie: 'lets now focus on the eight items cover 38 of the 57 winners with 77 picks';
 read-only). Items: BB32; BB3 + BB12 + BB53; BB79; BB77c; BB54 + BB82; BB1b; BB69; BB13 + BB80 (bb_fresh_sheet_cover). Per race the
 runners holding any of them; by number of picks in the race; by number of the eight a runner holds; each item alone (its picks
-that hold no other of the eight) and overlaps; level stakes at SP (bb_fresh_sheet_profit.sp)."""
-import sys, itertools
+that hold no other of the eight) and overlaps; level stakes at SP (bb_fresh_sheet_profit.sp).
+--race <race> (19 Nov 2026, Eddie; the forward test): one new race, blind - reads only its rule file
+docs/eddie_read/bybody_rules/<race>_bbrules.json (or --dir), never a result; prints the picks, the items each holds, the
+number of picks and the overlap notes. Usage: python3 tools/scans/bb_cover8.py [--race <race> [--dir DIR]]"""
+import sys, itertools, json
+ARGV = sys.argv[1:]  # read before the imports below (one of them resets sys.argv)
 sys.path.insert(0, 'tools'); sys.path.insert(0, 'tools/scans')
 import bb_scan_negatives as N, bb_fresh_sheet as F, bb_fresh_sheet_profit as SP
 C = [('BB32',), ('BB3', 'BB12', 'BB53'), ('BB79',), ('BB77c',), ('BB54', 'BB82'), ('BB1b',), ('BB69',), ('BB13', 'BB80')]
@@ -13,7 +17,38 @@ def fmt(p, w, c, pr):
     return f'{p} / {w} / {c:.1f} | {pr:+.1f} | {100*pr/p:+.0f} %' if p else '0 | | '
 
 
+NOTES = [({'BB32'}, {'BB1b', 'BB54 + BB82', 'BB13 + BB80'}, 'BB32 with BB1b / BB54 + BB82 / BB13 + BB80: in-sample 3 runners, 3 won'),
+         ({'BB13 + BB80'}, {'BB79', 'BB3 + BB12 + BB53'}, 'BB13 + BB80 with BB79 / BB3 + BB12 + BB53: in-sample 4 runners, 4 won'),
+         ({'BB32'}, {'BB77c'}, 'BB32 + BB77c: in-sample 2 of 2 lost'),
+         ({'BB69'}, set(L) - {'BB69'}, 'BB69 with another of the eight: in-sample 2 of 8 won')]
+
+
+def one_race(race, d):
+    J = json.load(open(f'{d}/{race}_bbrules.json'))
+    held = {r: set() for r in J['runners']}
+    for rid, cs in J['rules'].items():
+        for c in cs:
+            if not c.get('watch_only'):
+                held.setdefault(c['runner'], set()).add(rid)
+    picks = [(r, [L[i] for i, c in enumerate(C) if set(c) <= held[r]]) for r in J['runners']]
+    picks = [(r, it) for r, it in picks if it]
+    print(f'# Cover of eight: {race} ({len(J["runners"])} runners; rules from {d}; blind, no result read)\n')
+    print(f'Picks: {len(picks)}' + ('  -> no bet' if not picks else '  -> single pick' if len(picks) == 1 else ''))
+    for r, it in picks:
+        print(f'- {r}: {", ".join(it)}')
+        for a, b, txt in NOTES:
+            s = set(it)
+            if s & a and s & b and not (a == {'BB69'} and s == {'BB69'}):
+                print(f'    note: {txt}')
+    print('\nBet: 1 point level stake at SP on each pick (fixed 18 Nov 2026).')
+
+
 def main():
+    import argparse
+    ap = argparse.ArgumentParser(); ap.add_argument('--race'); ap.add_argument('--dir', default='docs/eddie_read/bybody_rules')
+    a = ap.parse_args(ARGV)
+    if a.race:
+        return one_race(a.race, a.dir)
     rows = []  # (race, runner, n field, held items, won, dec)
     races = []
     for race, win in N.RACES:
