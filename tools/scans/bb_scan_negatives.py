@@ -12,7 +12,7 @@ RACES += [('20220102_newcastle_aw_1330', 'Venturous'), ('20211216_exeter_1415', 
          ('20211020_fontwell_1505', 'Native Robin'),
          ('20211019_exeter_1515', 'Forget You Not'), ('20211015_redcar_1515', 'Present Moment'), ('20210915_yarmouth_1520', 'Ropey Guest'), ('20210914_redcar_1310', 'Le Beau Garcon'), ('20210914_fontwell_1645', 'Pixie Loc'), ('20210904_kempton_aw_1440', 'Hamish'), ('20210904_haydock_1420', 'Golden Flame'), ('20210827_goodwood_1853', 'Madame Tantzy'), ('20210825_musselburgh_1345', 'Graces Quest'), ('20210822_worcester_1300', 'Rhythm Is A Dancer'),
          ('20220217_leicester_1445', 'Nelson River'), ('20240515_york_1615', 'Diligent Resdev'),
-         ('20261116_wolverhampton_aw_1800', 'Splintered')]  # added 18 Nov 2026 (Eddie: were missing)
+         ('20261116_wolverhampton_aw_1800', 'Splintered'), ('20261116_plumpton_1445', 'Of Corse I Can')]  # added 18 Nov 2026 (Eddie: were missing)
 
 
 def holders(race):

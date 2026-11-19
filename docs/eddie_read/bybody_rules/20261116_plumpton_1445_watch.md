@@ -107,3 +107,10 @@ Pair tally (>= 80): Jurassic Pet 0 + / 6 −, Golly Gosh 2 / 5, Athena's Dream 1
 Sky-on-natal >= 90 net: Jurassic Pet −1, Golly Gosh −2, Athena's Dream −1, Good Girl Rachel −3, Ephyra −5, Anothermanicmonday −6, Of Corse I Can −1.
 Lead: 03 Golly Gosh (cover pick; the only BB72 holder; Antares – Quaoar with a sky line on 28). Second: 02 Jurassic Pet (cover pick; most
 rules, only N4). Also noted: Anothermanicmonday (D1 + BB3, depth 5, but the worst sky-on-natal net).
+
+## Result (Eddie, 19 Nov 2026)
+1 Of Corse I Can 7/1, 2 Golly Gosh 15/8F (3½ l), 3 Ephyra 10/1, 4 Athena's Dream 17/2, 5 Good Girl Rachel 13/2, 6 Jurassic Pet 6/1,
+PU Anothermanicmonday 4/1. Non-runner Alan Bresil.
+Cover of eight: 2 picks, 0 won, −2 points (Golly Gosh 2nd, Jurassic Pet 6th).
+Lead Golly Gosh 2nd; second Jurassic Pet 6th. Winner Of Corse I Can: 11 rules, alone BB25 only; depth 5 (one of four at the top step);
+R11w Quaoar (H Regulus – H Quaoar RA 118.2379, same-body ratio 10.979062 on 11, 61.93); pair tally and sky-on-natal see the files.
