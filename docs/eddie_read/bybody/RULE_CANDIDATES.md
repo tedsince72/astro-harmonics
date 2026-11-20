@@ -2194,3 +2194,43 @@ Standing: any pattern noticed after a back-fill result goes here, marked as chos
 
 ### Newcastle AW 17:40 19 Nov 2026 (after the result; noted only)
 - Favourite Shimmering Shadow won from outside the cover: alone at depth 5 and one of two runners with no negative sky-on-natal net at any cut. The sky race score's skip was right; the cover signals' bet was wrong (third race running).
+
+## *** EZENLI / HOLLIE DOYLE WINNING STRUCTURE — MAJOR NOTE *** (Newcastle AW 16:10 19 Nov 2026, Ezenli won 33/1; 20 Nov 2026, Eddie: "this looks to me like a winning structure, involving horse jockey sky royal stars and conjunctions / contra parallels - make a very big note of it"; chosen after the result, not built)
+
+One structure ties the horse, the jockey, the sky, the royal stars and the conjunctions / contraparallels together, all on ORCUS,
+through the sky Rahu – Ketu axis. Every number below copied from the bybody file / POSITIONS (Dec signed).
+
+1. Jockey triangle (Hollie Doyle's Orcus), closing across planes:
+   - J Antares – J Orcus RA 111.0749, ninth 111.111 (83.7)  [natal, fixed in Hollie's chart]
+   - S Antares – S Ketu RA 100.3233, 62×φ golden (84.0)
+   - S Ketu → J Orcus Dec 12.9422, 8×φ golden (93.7)
+   - S Haumea → J Orcus Dec 12.9586, 8×φ (55.8) is the same fact: S Haumea conj S Ketu in Dec 0.0164 (94.5), Dec +13.2927 / +13.2763.
+   - S Haumea – S Ketu RA 74.0 whole (70.7): a separate sky line.
+2. Sky bridge to the horse's Orcus:
+   - S Mercury → H Orcus Dec 0.1573 conj (47.6)  (S Mercury −11.7671, H Orcus −11.9244)
+   - S Mercury – S Rahu RA 111.0211, ninth 111.111 (59.5) = the number of J Antares – J Orcus.
+   - So the body on the horse's Orcus makes the jockey's Orcus number with S Rahu; S Ketu (the other end of the axis) closes the jockey's
+     triangle with Antares.
+3. Regulus on Orcus (horse, jockey, sky):
+   - H Regulus – H Orcus Dec contraparallel 0.0410 (86.3)  (Regulus +11.9655, H Orcus −11.9244); H Orcus – J Regulus cp 0.0440.
+   - S Regulus – S Orcus RA 9.7071, 6×φ golden (96.6)  (Eddie, 20 Nov 2026: include)
+   - Same target in the jockey chart: S Venus → J Orcus Dec 9.7237, 6×φ (52.0).
+   - Sky cp lines on the horse's Regulus – Orcus cp: S Rahu – S Haumea cp 0.0164 (94.5) (the Ketu / Haumea conj again), S Saturn – S Neptune
+     cp 0.0013 (99.6), S Sun – S Makemake cp 0.0610 (79.7).
+4. Horse Orcus – jockey Orcus direct: RA 19.9534, Dec 12.2585, no target. The link is through the sky, not natal to natal.
+   Other horse Orcus – jockey body lines >= 50 (background, not field-checked): J Vesta RA 98.6934 61×φ (79.4), J Gonggong Dec 6.4810
+   4×φ (72.7), J Ceres RA 101.0100 101 (50.2).
+
+Pieces: royal stars Antares (jockey triangle) and Regulus (horse cp, sky 6×φ); the node axis Rahu / Ketu (Mercury – Rahu number,
+Ketu triangle, Haumea conj Ketu, Rahu – Haumea cp); conjunctions (S Mercury on H Orcus, S Haumea on S Ketu) and contraparallels
+(Regulus – H Orcus, Rahu – Haumea). One natal body (Orcus) in both charts.
+
+Field / history so far (tools/scans/bb_scan_royal_carrier_tri*.py, cut 80, number families, across planes):
+- Royal carrier triangle (c R – c X, S R – S Y, S Y → c X): any version 158 holders 25 won 25.3 by chance (92 races) - at chance;
+  carrier a node 21 / 5 / 2.9; jockey chart + node carrier 9 / 3 / 1.1 (Ezenli, Alazwar / Hollie Doyle J Regulus – J Pallas by S Ketu,
+  Two For Gold / David Bass J Fomalhaut – J Neptune by S Ketu); X = Orcus 6 / 2 / 0.9.
+- Same race: Savernake / Cam Hardie held J Antares – J Orcus by S Ketu too (other planes: natal Dec golden, S Ketu → J Orcus RA ninth),
+  10th at 80/1 - he has no horse-Orcus bridge, no Regulus link.
+- Hollie Doyle on file: 6 rides, 4 won; this triangle on Alazwar and Ezenli (both won, both by S Ketu).
+- NOT yet checked: the whole structure (jockey royal triangle + sky body on horse X making that number + Regulus on X) across the field
+  and races. To scan next (read-only) when Eddie says.
