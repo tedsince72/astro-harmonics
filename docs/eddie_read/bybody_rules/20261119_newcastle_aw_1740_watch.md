@@ -126,3 +126,9 @@
 ## Version E and cover signals (fixed 19 Nov 2026 before the result; tools/scans/bb_cover_e.py)
 - Version E: Hot Moonstone (BB3 + BB12 + BB53 with a fast sky-natal triangle; whole + φ version too). Inkjet, Lady Mombasa dropped (royal items without the triangle).
 - Cover signals 2 / 3 (filter: bet): sky fast triangles across planes >= 50 none; busiest fast body Moon 8 lines (yes); a cover pick with a fast sky-natal triangle (yes). The sky race score filter skips this race - the two disagree.
+
+## Result (from Eddie, 20 Nov 2026)
+1 Shimmering Shadow 11/10F, 2 Hot Moonstone 40/1, 3 On A Boat That Day 8/1, 4 Inkjet 9/2, 5 Sede Vacante 9/4, 6 Wadacre Gabriel 50/1, 7 Lady Mombasa 200/1. Non-runner Lehbab Prince.
+- Cover of eight: 3 picks 0 won, −3. Version B: Lady Mombasa last, −1. Version C: no bet. Versions D and E: Hot Moonstone 2nd at 40/1, −1.
+- Sky race score −2 (skip) right; cover signals 2 (bet) wrong.
+- Read: lead last, second 2nd. Winner Shimmering Shadow (favourite, Harry Davies): 9 rules, 2 alone incl. BB35; alone at depth 5 (Venus); nets 0 / +1 / 0 (no negative net); W1 no, W2 no - both said lose, wrong; zenith quiet.

@@ -2191,3 +2191,6 @@ Standing: any pattern noticed after a back-fill result goes here, marked as chos
 ### Newcastle AW 16:10 19 Nov 2026 (after the result; noted only)
 - Ezenli won 33/1 outside the cover: the field's only BB3 + BB63 + BB68 holder (a watched combination since 17 Nov) and a jockey Antares – Orcus line with a sky line on its number (natal-pair watch). Both watches pointed at him; the cover did not.
 - The four cover picks (BB32 x3, BB77c) all finished 6th or worse; the lay-check worsts ran 2nd (Big Money) and 4th (Nip About).
+
+### Newcastle AW 17:40 19 Nov 2026 (after the result; noted only)
+- Favourite Shimmering Shadow won from outside the cover: alone at depth 5 and one of two runners with no negative sky-on-natal net at any cut. The sky race score's skip was right; the cover signals' bet was wrong (third race running).
